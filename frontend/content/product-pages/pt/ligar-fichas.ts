@@ -88,36 +88,8 @@ Desenvolva materiais didáticos que associam imagens a letras iniciais. Ideal pa
     badgeText: 'Exemplos Grátis',
     downloadingLabel: 'Baixando...',
     ofLabel: 'de',
-    items: [
-      {
-        id: '1',
-        worksheetSrc: '/samples/portuguese/matching/sample-1.jpeg',
-        answerKeySrc: '/samples/portuguese/matching/sample-1_answer-key.jpeg',
-        altText: 'Atividade grátis de ligar - ficha de associação visual para educação infantil',
-        pdfDownloadUrl: '/samples/portuguese/matching/sample-1.pdf',
-      },
-      {
-        id: '2',
-        worksheetSrc: '/samples/portuguese/matching/sample-2.jpeg',
-        answerKeySrc: '/samples/portuguese/matching/sample-2_answer-key.jpeg',
-        altText: 'Atividade grátis para crianças - ligar imagem e palavra para alfabetização',
-        pdfDownloadUrl: '/samples/portuguese/matching/sample-2.pdf',
-      },
-      {
-        id: '3',
-        worksheetSrc: '/samples/portuguese/matching/sample-3.jpeg',
-        answerKeySrc: '/samples/portuguese/matching/sample-3_answer-key.jpeg',
-        altText: 'Imprimíveis grátis de ligar - atividade para educação infantil',
-        pdfDownloadUrl: '/samples/portuguese/matching/sample-3.pdf',
-      },
-      {
-        id: '4',
-        worksheetSrc: '/samples/portuguese/matching/sample-4.jpeg',
-        answerKeySrc: '/samples/portuguese/matching/sample-4_answer-key.jpeg',
-        altText: 'Atividades grátis de associação - ligar para crianças',
-        pdfDownloadUrl: '/samples/portuguese/matching/sample-4.pdf',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Features Grid - FULL text from matching.md feature sections
@@ -133,96 +105,8 @@ Desenvolva materiais didáticos que associam imagens a letras iniciais. Ideal pa
       noHiddenFees: 'Sem taxas ocultas',
       cancelAnytime: 'Cancele quando quiser',
     },
-    items: [
-      {
-        id: '1',
-        icon: '⚡',
-        title: 'Crie Atividades Grátis para Educação Infantil',
-        description: `Criar atividades de ligar nunca foi tão simples. Selecione um tema da biblioteca de imagens. Escolha o modo de associação desejado. Clique em gerar e sua atividade está pronta. O sistema cria automaticamente pares aleatorizados para cada folha.
-
-Você pode escolher entre quatro modos de associação. O modo imagem-letra inicial é perfeito para atividades de alfabetização. O modo imagem-palavra combina figura com nome escrito. O modo imagem-imagem trabalha associação visual. O modo personalizado permite inserir suas próprias palavras.
-
-Configure de 4 a 6 pares por atividade. Ative campos para nome e data do aluno. Inclua numeração nos itens automaticamente. Mostre ou oculte os pontos de conexão conforme preferir.`,
-        highlighted: false,
-      },
-      {
-        id: '2',
-        icon: '✏️',
-        title: 'Atividades Grátis Totalmente Editáveis',
-        description: `Após gerar a atividade, você tem controle total sobre cada elemento. Arraste imagens para reposicionar livremente. Redimensione qualquer objeto com o mouse. Gire elementos para criar layouts criativos. Delete itens que não deseja manter.
-
-O sistema de camadas permite organizar elementos. Traga objetos para frente ou envie para trás. Alinhe múltiplos elementos com precisão. Centralize conteúdo horizontal e verticalmente na página.
-
-Adicione textos personalizados em suas atividades para imprimir. Escolha entre fontes educativas como Lexend Deca e Nunito. Ajuste tamanho, cor e contorno das letras. Crie títulos atrativos para suas fichas de atividades de alfabetização.`,
-        highlighted: false,
-      },
-      {
-        id: '3',
-        icon: '📤',
-        title: 'Imprimíveis Grátis com Upload de Imagens',
-        description: `Envie suas próprias imagens para criar atividades personalizadas. O sistema aceita formatos JPEG, PNG e GIF. Faça upload de múltiplos arquivos simultaneamente. Combine imagens próprias com a biblioteca do sistema.
-
-Personalize atividades de matemática com fotos de objetos da sala. Crie exercícios de associação com rostos dos alunos. Use imagens temáticas de datas comemorativas. Produza materiais únicos para sua turma específica.
-
-Imagens enviadas ficam disponíveis durante toda a sessão. Selecione quais usar em cada atividade gerada. Misture fotos próprias com ilustrações da biblioteca.`,
-        highlighted: true,
-      },
-      {
-        id: '4',
-        icon: '🌍',
-        title: 'Atividades Grátis para Crianças em 11 Idiomas',
-        description: `O gerador suporta 11 idiomas na interface e biblioteca de imagens. Português brasileiro está totalmente traduzido. Todos os nomes de imagens aparecem corretamente em português. Ideal para criar atividades de alfabetização com vocabulário correto.
-
-Use em programas de educação bilíngue. Crie atividades vogais e alfabeto em inglês para aulas de língua estrangeira. Produza materiais em espanhol para escolas de fronteira. Atenda comunidades imigrantes com atividades em seus idiomas nativos.
-
-A troca de idioma afeta toda a biblioteca de imagens. Pesquise objetos usando termos em português. Filtre por temas traduzidos corretamente.`,
-        highlighted: false,
-      },
-      {
-        id: '5',
-        icon: '💰',
-        title: 'Licença Comercial para Atividade Grátis',
-        description: `Sua assinatura Pacote Essencial inclui licença comercial completa. Venda suas atividades para imprimir em plataformas digitais. Comercialize no Hotmart, Educa Market ou seu próprio site. Nenhuma taxa adicional por licenciamento.
-
-Crie pacotes de atividades 1º ano para venda. Desenvolva coleções de atividades 2º ano temáticas. Produza apostilas de atividades de alfabetização comercializáveis. Monetize seu trabalho como professor empreendedor.
-
-A licença cobre uso comercial print-on-demand. Venda arquivos digitais para download. Imprima e comercialize versões físicas.`,
-        highlighted: true,
-      },
-      {
-        id: '6',
-        icon: '🎨',
-        title: 'Atividades Grátis com 3000+ Imagens',
-        description: `Acesse mais de 3000 imagens educativas organizadas por temas. Encontre ilustrações de animais, alimentos, transportes e muito mais. Todas as imagens são adequadas para crianças. Qualidade profissional em cada ilustração.
-
-Use a biblioteca para criar desenhos para colorir combinados com atividades de ligar. Selecione imagens de um tema específico. Pesquise por nome do objeto em português. Filtre resultados para encontrar exatamente o que precisa.
-
-Temas incluem escola, casa, natureza, corpo humano e profissões. Encontre imagens sazonais para datas comemorativas.`,
-        highlighted: false,
-      },
-      {
-        id: '7',
-        icon: '🖨️',
-        title: 'Qualidade Profissional 300 DPI para Coordenação Motora',
-        description: `Exporte suas atividades em resolução profissional de 300 DPI. Ideal para impressão em gráficas ou em casa. Linhas nítidas para exercícios de coordenação motora. Detalhes preservados em atividades de letra cursiva e pontilhado.
-
-Escolha entre formatos PDF ou JPEG para download. PDF mantém qualidade vetorial dos textos. JPEG é compatível com qualquer impressora. Ambos os formatos suportam alta resolução.
-
-Ative o modo escala de cinza para economia de tinta. Perfeito para atividades de coordenação motora em preto e branco.`,
-        highlighted: false,
-      },
-      {
-        id: '8',
-        icon: '📋',
-        title: 'Atividade Grátis com Gabarito Automático',
-        description: `O sistema gera automaticamente folha de respostas. Mostre as conexões corretas para correção rápida. Imprima gabarito separadamente para o professor. Facilite a avaliação de atividades de pontilhado e associação.
-
-Tamanhos de página incluem Carta, A4 e formatos personalizados. Escolha orientação retrato ou paisagem. Configure dimensões exatas em pixels. Adapte para qualquer necessidade de impressão.
-
-Recursos de desfazer e refazer salvam seu trabalho. Volte passos anteriores se cometer erros.`,
-        highlighted: false,
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // How-To Guide - FULL text from matching.md step sections
@@ -314,80 +198,8 @@ Salve os arquivos em pasta organizada no computador. Imprima em papel sulfite co
     badgeText: 'Para Quem',
     readMoreLabel: 'Leia mais',
     showLessLabel: 'Mostrar menos',
-    items: [
-      {
-        id: '1',
-        icon: '👩‍🏫',
-        title: 'Professores de Educação Infantil',
-        subtitle: 'Atividades Grátis para Crianças na Pré-Escola',
-        description: `Professores de educação infantil usam atividades de ligar diariamente. Crianças de 4 a 6 anos adoram conectar imagens coloridas. O formato visual funciona antes mesmo da alfabetização formal. Desenvolve habilidades fundamentais para aprendizagem futura.
-
-Crie atividades educação infantil com temas do interesse das crianças. Use animais, brinquedos e objetos familiares. Configure apenas 4 pares para turmas iniciantes. Aumente gradualmente conforme a turma avança.
-
-O modo imagem-imagem é ideal para pré-escola. Alunos associam pares sem precisar ler. Trabalha reconhecimento visual e raciocínio lógico. Prepara para atividades de alfabetização futuras.`,
-        quote: 'Meus alunos adoram conectar as imagens coloridas!',
-      },
-      {
-        id: '2',
-        icon: '📚',
-        title: 'Professores do Ensino Fundamental',
-        subtitle: 'Atividade Grátis de Alfabetização para 1º e 2º Ano',
-        description: `Professores de 1º ao 3º ano usam atividades de ligar para reforço. O modo imagem-letra inicial complementa aulas de alfabetização. Alunos praticam reconhecimento de letras iniciais. Conectam figura à letra correspondente de forma divertida.
-
-Crie atividades 1º ano focadas em vogais e consoantes simples. Use imagens com nomes curtos e familiares. Configure 5 ou 6 pares para desafio adequado. Inclua numeração para facilitar correção em turmas grandes.
-
-Atividades 2º ano podem usar palavras completas. O modo imagem-palavra reforça leitura global. Alunos conectam figura ao nome escrito.`,
-        quote: 'A progressão de dificuldade acompanha o desenvolvimento dos alunos.',
-      },
-      {
-        id: '3',
-        icon: '🏠',
-        title: 'Pais em Educação Domiciliar',
-        subtitle: 'Atividades Grátis para Crianças em Casa',
-        description: `Famílias que praticam educação domiciliar valorizam materiais personalizados. O gerador permite criar atividades de alfabetização sob medida. Adapte o ritmo ao desenvolvimento individual da criança. Produza materiais alinhados ao currículo familiar escolhido.
-
-Use fotos da própria família nas atividades. Faça upload de imagens de objetos da casa. Crie conexões entre aprendizado e vida real. Torne as atividades para imprimir significativas e pessoais.
-
-Pais podem criar sequências progressivas de dificuldade. Comece com 4 pares e imagens simples. Avance para 6 pares com palavras mais complexas.`,
-        quote: 'Uma ferramenta perfeita para educação domiciliar.',
-      },
-      {
-        id: '4',
-        icon: '🌍',
-        title: 'Professores de Idiomas',
-        subtitle: 'Atividade Grátis para Educação Infantil Bilíngue',
-        description: `Professores de inglês usam atividades de ligar para vocabulário. O suporte a 11 idiomas facilita criação de materiais. Troque o idioma da biblioteca para inglês. Gere atividades vogais e alfabeto em língua estrangeira.
-
-Escolas bilíngues criam materiais em dois idiomas. Produza a mesma atividade em português e inglês. Compare vocabulário entre as línguas. Reforce aprendizado através de associação visual.
-
-O modo imagem-palavra é perfeito para ensino de idiomas. Alunos conectam figura ao nome em língua estrangeira.`,
-        quote: 'O suporte multilíngue é essencial para meu programa bilíngue.',
-      },
-      {
-        id: '5',
-        icon: '💜',
-        title: 'Professores de Educação Especial',
-        subtitle: 'Atividades Grátis Adaptadas para Crianças',
-        description: `Educadores especiais adaptam atividades para necessidades individuais. Configure apenas 4 pares para reduzir sobrecarga visual. Use imagens grandes e espaçamento generoso. Simplifique para garantir sucesso do aluno.
-
-Atividades de coordenação motora beneficiam alunos com dificuldades. Traçar linhas retas desenvolve controle motor fino. Progresso gradual constrói confiança e habilidade. Combine com desenhos para colorir para atividade completa.
-
-O modo imagem-imagem funciona para alunos não-alfabetizados. Trabalhe associação visual sem exigir leitura.`,
-        quote: 'Posso adaptar rapidamente as atividades para cada aluno.',
-      },
-      {
-        id: '6',
-        icon: '💰',
-        title: 'Professores Empreendedores',
-        subtitle: 'Venda Imprimíveis Grátis Online',
-        description: `Professores que vendem materiais digitais encontram oportunidade. A licença comercial do Pacote Essencial permite venda sem taxas extras. Crie pacotes de atividades de matemática para comercialização. Monetize seu conhecimento pedagógico.
-
-Desenvolva coleções temáticas de atividades de tabuada. Produza pacotes para cada número da tabuada. Venda individualmente ou em conjunto completo. Ofereça materiais únicos que você mesmo criou.
-
-Plataformas como Hotmart e Educa Market aceitam arquivos PDF. Exporte em 300 DPI qualidade profissional.`,
-        quote: 'Minha assinatura se pagou no primeiro mês de vendas!',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // FAQ Section - Selected FAQs from matching.md
@@ -401,68 +213,8 @@ Plataformas como Hotmart e Educa Market aceitam arquivos PDF. Exporte em 300 DPI
     showLessLabel: 'Mostrar menos',
     secureCheckout: 'Pagamento seguro',
     cancelAnytime: 'Cancele quando quiser',
-    items: [
-      {
-        id: '1',
-        question: 'As atividades grátis de ligar são realmente grátis?',
-        answer: 'O gerador de atividades de ligar requer assinatura Pacote Essencial. O custo é R$720 por ano ou R$72 por mês. Sua assinatura permite criação ilimitada de atividades educação infantil. Não há taxas por atividade gerada ou baixada. O Pacote Essencial inclui 10 geradores populares de atividades. Além do MatchUp Maker, você acessa Math Worksheets, Alphabet Train e outros.',
-      },
-      {
-        id: '2',
-        question: 'Posso imprimir as atividades grátis em casa?',
-        answer: 'Sim, todas as atividades exportam em formato compatível com impressoras domésticas. Escolha PDF ou JPEG de alta resolução. Ambos funcionam perfeitamente em impressoras jato de tinta ou laser. A resolução de 300 DPI garante qualidade profissional. Use papel sulfite comum gramatura 75g para resultados excelentes. A opção escala de cinza economiza tinta colorida.',
-      },
-      {
-        id: '3',
-        question: 'Preciso de habilidades de design para criar atividades grátis?',
-        answer: 'Não é necessária nenhuma habilidade técnica ou artística. O sistema gera atividades de coordenação motora automaticamente. Você apenas seleciona tema e configurações básicas. O gerador faz todo o trabalho visual. Se desejar personalizar, as ferramentas são intuitivas. Arraste elementos com o mouse para reposicionar. Qualquer pessoa consegue usar em minutos.',
-      },
-      {
-        id: '4',
-        question: 'Posso usar as atividades grátis para crianças em sala?',
-        answer: 'A assinatura Pacote Essencial inclui uso ilimitado em sala de aula. Imprima quantas cópias precisar para seus alunos. Distribua atividades vogais e alfabeto livremente. Nenhuma restrição de quantidade ou frequência. Use com turmas de qualquer tamanho. Gere versões diferentes para evitar cópias entre alunos.',
-      },
-      {
-        id: '5',
-        question: 'Em quais idiomas estão disponíveis as atividades grátis?',
-        answer: 'O gerador suporta 11 idiomas completos. Português brasileiro está totalmente traduzido na interface e biblioteca. Outros idiomas incluem inglês, espanhol, alemão e francês. Italiano, holandês, sueco, dinamarquês, norueguês e finlandês também estão disponíveis. Todos os nomes de imagens aparecem traduzidos corretamente. Perfeito para professores de línguas estrangeiras e escolas bilíngues.',
-      },
-      {
-        id: '6',
-        question: 'Posso vender os imprimíveis grátis que eu criar?',
-        answer: 'Sim, a assinatura Pacote Essencial inclui licença comercial completa. Venda atividades 1º ano em plataformas digitais sem taxas extras. Comercialize atividades 2º ano no Hotmart, Educa Market ou site próprio. A licença cobre uso print-on-demand comercial. Venda arquivos digitais para download imediato. Imprima e comercialize versões físicas também.',
-      },
-      {
-        id: '7',
-        question: 'Como personalizar as atividades grátis de ligar?',
-        answer: 'Após gerar a atividade, personalize cada elemento na tela. Arraste imagens para reposicionar livremente. Redimensione qualquer objeto com o mouse. Adicione textos personalizados em suas atividades para imprimir. Escolha entre fontes educativas. Aplique bordas decorativas da biblioteca. Combine com desenhos para colorir nas margens.',
-      },
-      {
-        id: '8',
-        question: 'Para quais idades as atividades grátis para crianças funcionam?',
-        answer: 'Atividades de letra cursiva são indicadas para crianças de 5 a 8 anos. O modo de associação imagem-letra trabalha reconhecimento visual. Crianças menores de 5 anos usam modo imagem-imagem. Não exige leitura, apenas associação visual. Alunos mais velhos usam modo imagem-palavra completa. Adapte a dificuldade conforme o desenvolvimento individual.',
-      },
-      {
-        id: '9',
-        question: 'Posso enviar minhas imagens para atividades grátis?',
-        answer: 'Sim, o upload de imagens personalizadas é suportado. Clique na seção de upload no painel lateral. Selecione arquivos JPEG, PNG ou GIF do seu computador. Faça upload de múltiplas imagens simultaneamente. Combine fotos próprias com ilustrações da biblioteca. Use fotos de objetos da sala de aula ou rostos dos alunos.',
-      },
-      {
-        id: '10',
-        question: 'Quanto tempo leva para criar uma atividade grátis?',
-        answer: 'Criar uma atividade educação infantil leva menos de 3 minutos. Selecione tema ou imagens desejadas. Configure opções de pares e formato. Clique em gerar e baixe imediatamente. Personalização adicional pode levar mais alguns minutos. A maioria dos professores completa atividades em 5 minutos total. Compare com 30-60 minutos para criar manualmente.',
-      },
-      {
-        id: '11',
-        question: 'As atividades grátis para educação infantil incluem gabarito?',
-        answer: 'Sim, o sistema gera folha de respostas automaticamente. Após criar atividades, clique em Gerar Gabarito. O sistema produz versão com todas as conexões corretas visíveis. Baixe gabarito separadamente da atividade do aluno. Imprima apenas para uso do professor. Corrija rapidamente comparando com as respostas corretas.',
-      },
-      {
-        id: '12',
-        question: 'Posso criar atividades grátis sobre temas específicos?',
-        answer: 'Sim, use a biblioteca temática ou upload de imagens próprias. Crie atividades de matemática com tema de animais, alimentos ou transportes. O modo personalizado permite inserir textos específicos. Combine com outros geradores do Pacote Essencial para pacotes completos. Use Math Worksheets para operações e MatchUp Maker para associação visual.',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Pricing
@@ -509,40 +261,8 @@ Plataformas como Hotmart e Educa Market aceitam arquivos PDF. Exporte em 300 DPI
       securePayment: 'Pagamento seguro',
       cancelAnytime: 'Cancele quando quiser',
     },
-    items: [
-      {
-        id: '1',
-        slug: 'atividades-matematica-fichas',
-        name: 'Atividades de Matemática',
-        category: 'Matemática',
-        icon: '🔢',
-        description: 'Combine atividades de ligar com fichas de operações matemáticas para pacotes completos.',
-      },
-      {
-        id: '2',
-        slug: 'trem-alfabeto-fichas',
-        name: 'Trenzinho do Alfabeto',
-        category: 'Alfabetização',
-        icon: '🚂',
-        description: 'O Alphabet Train gera atividades de treino de letras que complementam perfeitamente as atividades de ligar.',
-      },
-      {
-        id: '3',
-        slug: 'caca-palavras-fichas',
-        name: 'Caça-Palavras',
-        category: 'Linguagem',
-        icon: '🔍',
-        description: 'Caça-palavras complementa atividades de ligar para vocabulário e reconhecimento de palavras.',
-      },
-      {
-        id: '4',
-        slug: 'desenhos-colorir-fichas',
-        name: 'Desenhos para Colorir',
-        category: 'Criativo',
-        icon: '🎨',
-        description: 'Combine atividades de ligar com desenhos para colorir para atividades multifuncionais.',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 };
 

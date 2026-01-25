@@ -96,43 +96,8 @@ Vår generator lager arbeidsark der barn ringer inn den største gjenstanden. El
     noPdfLabel: 'Ingen PDF tilgjengelig',
     freePdfCountLabel: '5 gratis nedlastinger',
     ofLabel: 'av',
-    items: [
-      {
-        id: '1',
-        worksheetSrc: '/samples/norwegian/big-small/sample-1.jpeg',
-        answerKeySrc: '/samples/norwegian/big-small/sample-1-answer.jpeg',
-        altText: 'Gratis arbeidsark stor og liten - størrelsessammenligning for barnehage med matematikk oppgaver',
-        pdfDownloadUrl: '/samples/norwegian/big-small/sample-1.pdf',
-      },
-      {
-        id: '2',
-        worksheetSrc: '/samples/norwegian/big-small/sample-2.jpeg',
-        answerKeySrc: '/samples/norwegian/big-small/sample-2-answer.jpeg',
-        altText: 'Gratis arbeidsark for barn - stor liten middels sammenligning med finmotorikk øvelser',
-        pdfDownloadUrl: '/samples/norwegian/big-small/sample-2.pdf',
-      },
-      {
-        id: '3',
-        worksheetSrc: '/samples/norwegian/big-small/sample-3.jpeg',
-        answerKeySrc: '/samples/norwegian/big-small/sample-3-answer.jpeg',
-        altText: 'Arbeidsark for 1. trinn gratis - størrelsessortering med tall og telling aktiviteter',
-        pdfDownloadUrl: '/samples/norwegian/big-small/sample-3.pdf',
-      },
-      {
-        id: '4',
-        worksheetSrc: '/samples/norwegian/big-small/sample-4.jpeg',
-        answerKeySrc: '/samples/norwegian/big-small/sample-4-answer.jpeg',
-        altText: 'Gratis utskrifter stor og liten - oppgavehefter barn med arbeidsark gratis nedlasting',
-        pdfDownloadUrl: '/samples/norwegian/big-small/sample-4.pdf',
-      },
-      {
-        id: '5',
-        worksheetSrc: '/samples/norwegian/big-small/sample-5.jpeg',
-        answerKeySrc: '/samples/norwegian/big-small/sample-5-answer.jpeg',
-        altText: 'Arbeidsark for barn stor og liten - gratis arbeidsark med størrelsesforståelse',
-        pdfDownloadUrl: '/samples/norwegian/big-small/sample-5.pdf',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Features Grid - FULL text from big-small.md feature sections
@@ -148,85 +113,8 @@ Vår generator lager arbeidsark der barn ringer inn den største gjenstanden. El
       noHiddenFees: 'Ingen skjulte avgifter',
       cancelAnytime: 'Avbryt når som helst',
     },
-    items: [
-      {
-        id: '1',
-        icon: '⚡',
-        title: 'Lag Matematikk Oppgaver på 3 Klikk - Arbeidsark Gratis Generator for Barnehage',
-        description: `Opprettelsen av størrelsesarbeidsark tar under 3 minutter totalt. Velg antall oppgaver fra 1 til 10. Velg 2 bilder for stor/liten eller 3 bilder for stor/middels/liten. Klikk "Lag" og arbeidearket genereres øyeblikkelig. Last ned som PDF eller JPEG umiddelbart.
-
-Ingen designkompetanse kreves for å lage profesjonelle matematikk oppgaver. Grensesnittet er intuitivt og brukervennlig. Barnehagepedagoger og småskolelærere kan lage arbeidsark gratis på få sekunder. Velg mellom identiske bilder i forskjellige størrelser eller ulike gjenstander. Begge modusene fungerer perfekt for å undervise størrelsesforståelse.
-
-Fem forskjellige oppgavetyper gir variasjon i matematikk oppgaver. Ring inn den lille. Ring inn den store. Ring inn den mellomstore. Nummerer 1-2-3 fra liten til stor. Nummerer 1-2-3 fra stor til liten. Denne variasjonen holder barna engasjert og støtter differensiering.`,
-        highlighted: true,
-      },
-      {
-        id: '2',
-        icon: '✏️',
-        title: 'Rediger Alt på Lerretet - Finmotorikk Øvelser Kombinert med Matematikk Oppgaver',
-        description: `Hvert element på arbeidearket kan redigeres fullstendig etter generering. Dra bilder til nye posisjoner med musen. Roter bilder for mer naturlig layout. Skaler bilder større eller mindre etter behov. Slett elementer du ikke trenger. Fullstendig kontroll over det endelige resultatet.
-
-Dette gjør det enkelt å tilpasse arbeidsark for individuelle elever. Juster vanskelighetsgrad ved å endre bildestørrelser. Flytt oppgaver til forskjellige steder på siden. Legg til ekstra tekst eller instruksjoner. Perfekt for å lage oppgavehefter barn kan jobbe med på sitt eget nivå.
-
-Finmotorikk øvelser integreres naturlig når barn ringer inn svar. Presisjon kreves for å tegne ringer rundt riktige gjenstander. Skriving av tall utvikler håndskrift og penngrep. Disse ferdighetene er kritiske for tidlig skolegang og forberedelse til bokstaver lære skrive senere.`,
-        highlighted: false,
-      },
-      {
-        id: '3',
-        icon: '📤',
-        title: 'Last Opp Egne Bilder - Personlige Oppgavehefter Barn Kjenner Igjen',
-        description: `Multi-fil opplasting lar deg laste opp flere bilder samtidig. Alle vanlige formater støttes inkludert JPEG, PNG og GIF. Kombiner dine egne bilder med biblioteksbilder. Lag arbeidsark med gjenstander barna kjenner fra hverdagen.
-
-Dette er spesielt kraftfullt for å lage tematiske oppgavehefter barn kan relatere til. Last opp bilder fra klasserommet. Bruk bilder av barnehagens leker. Inkluder familiemedlemmer eller kjæledyr. Personalisering øker engasjement og motivasjon betydelig.
-
-Lærere kan lage arbeidsark som matcher pågående temaer eller prosjekter. Hvis klassen jobber med bondegårdsdyr, last opp relevante dyrebilder. For årstidstemaer, bruk bilder av høstblader eller snøflak. Muligheten til å laste opp egne bilder gjør dette verktøyet uendelig fleksibelt.`,
-        highlighted: false,
-      },
-      {
-        id: '4',
-        icon: '🌍',
-        title: '11 Språk for Bildbiblioteket - Støtte for Lesetrening og Flerspråklig Undervisning',
-        description: `Bildbiblioteket er tilgjengelig på 11 språk inkludert norsk. Dette er spesielt viktig for flerspråklige barnehager og skoler. Velg norsk for bildefilnavn på norsk. Eller velg andre språk for fremmedspråksundervisning.
-
-For lærere som jobber med minoritetsspråklige elever er dette uvurderlig. Lag matematikk oppgaver på barnets morsmål. Støtt lesetrening ved å bruke bildefilnavn som leseøvelser. Denne funksjonen fremmer inkluderende undervisning og språklig mangfold.
-
-De 11 språkene inkluderer engelsk, tysk, fransk, spansk, portugisisk, italiensk, nederlandsk, dansk, svensk, norsk og finsk. Bytt mellom språk med ett klikk. Samme bilder, forskjellige språklige kontekster. Perfekt for internasjonal undervisning eller språklæring.`,
-        highlighted: false,
-      },
-      {
-        id: '5',
-        icon: '💰',
-        title: 'Kommersiell Lisens Inkludert - Selg Arbeidsark Gratis på Teachers Pay Teachers og Etsy',
-        description: `Full Tilgang-abonnementet inkluderer full kommersiell print-on-demand-lisens. Selg arbeidsarkene du lager på Teachers Pay Teachers. Opprett Etsy-butikk for digitale nedlastinger. Publiser på Amazon KDP som aktivitetsbøker. Ingen ekstra lisensavgifter utover abonnementet.
-
-Dette gjør plattformen perfekt for lærerentreprenører. Lag oppgavehefter barn elsker og selg dem online. Mange lærere tjener kr 4000-40000 månedlig ved å selge arbeidsark. Den profesjonelle 300 DPI-kvaliteten sikrer tilfredse kunder. Ingen attribusjon kreves på arbeidsarkene.
-
-Kombiner størrelsesarbeidsark med andre matematikk oppgaver som addisjon og subtraksjon eller tall og telling. Lag komplette oppgavehefter barn kan kjøpe som pakker. Selg tematiske samlinger for forskjellige årstider. Bruk Pinterest for markedsføring av arbeidsark gratis eksempler. Bygg en lønnsom online undervisningsvirksomhet.`,
-        highlighted: true,
-      },
-      {
-        id: '6',
-        icon: '🎨',
-        title: '3000+ Bildebibliotek - Fargeleggingsbilder Barn og Tall og Telling Illustrasjoner',
-        description: `Tilgang til over 3000 barnvennlige illustrasjoner inkludert i abonnementet. Temabasert organisering gjør det enkelt å finne relevante bilder. Søkefunksjon filtrerer biblioteket raskt. Alle bilder er pedagogisk designet for småbarn.
-
-Biblioteket inkluderer fargeleggingsbilder barn elsker som dyr, kjøretøy og matobjekter. Tall og telling illustrasjoner med tallsymboler og mengdebilder. Bokstaver lære skrive bilder for alfabetaktiviteter. Årstidsbilder for tematisk undervisning. Ingen ekstra kostnader for bildetilgang.
-
-Velg tema eller bla gjennom individuelle bilder. Se forhåndsvisning før du legger til i arbeidearket. Bruk flere bilder fra samme tema for konsistent visuell stil. Eller bland forskjellige temaer for mer variert design. Biblioteket oppdateres jevnlig med nye illustrasjoner.`,
-        highlighted: false,
-      },
-      {
-        id: '7',
-        icon: '🖨️',
-        title: 'Profesjonell 300 DPI-Kvalitet - Perfekt for Utskrift av Matematikk Oppgaver',
-        description: `Alle arbeidsark eksporteres i profesjonell 300 DPI-oppløsning. Dette sikrer skarp og klar utskrift på enhver skriver. Perfekt for klasserommet eller hjemmebruk. Også ideell kvalitet for salg av digitale produkter.
-
-Last ned som PDF for best utskriftskvalitet. PDF-filer bevarer skarphet uansett utskriftsstørrelse. Eller last ned som JPEG for enkel deling via e-post. Begge formatene støtter 300 DPI eksport. Grå skala-alternativ sparer blekkpatron uten kvalitetstap.
-
-Fasiten genereres i samme høye kvalitet som arbeidearket. Svarmarkører vises tydelig og profesjonelt. Lærere kan skrive ut fasit separat for egen bruk. Eller inkluder fasit på baksiden for selvrettende oppgavehefter barn kan bruke selvstendig.`,
-        highlighted: false,
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // How-To Guide - FULL text from big-small.md step sections
@@ -322,92 +210,8 @@ Last ned så mange arbeidsark gratis du trenger uten begrensninger. Lag forskjel
     badgeText: 'Hvem Er Det For',
     readMoreLabel: 'Les mer',
     showLessLabel: 'Vis mindre',
-    items: [
-      {
-        id: '1',
-        icon: '👶',
-        title: 'Barnehagepedagoger - Matematikk Oppgaver Kombinert med Finmotorikk Øvelser og Fargeleggingsbilder Barn',
-        subtitle: 'Tidlig matematikkutvikling og størrelsesforståelse',
-        description: `Barnehagepedagoger finner størrelsesarbeidsark uvurderlige for tidlig matematikkutvikling. Størrelsesforståelse er et sentralt lærepunkt i barnehagens rammeplan. Barna lærer å sammenligne gjenstander visuelt. Dette bygger grunnlaget for mer avanserte matematikkonsepter senere.
-
-Kombiner størrelsesarbeidsark med andre aktiviteter for helhetlige læringspakker. Bruk fargeleggingsbilder barn elsker som belønning etter fullført størrelsesoppgave. Integrer finmotorikk øvelser ved å la barna ringe inn svar med fargeblyanter. Lag tematiske oppgavehefter barn kan jobbe med i forskjellige sentre.
-
-Størrelseskonceptet støtter mange andre barnehageaktiviteter. Sortering av leker etter størrelse. Bygge tårn fra små til store blokker. Sammenligne hvem som er høyest i barnehagegruppen. Arbeidsarkene forsterker disse konseptene gjennom strukturert øvelse.
-
-Barnehagepedagoger setter pris på den raske produksjonen av matematikk oppgaver. Lag nye ark hver uke tilpasset gjeldende tema. Hvis barnehagen jobber med dyr, bruk dyrebilder. For sesongaktiviteter, velg relevante bilder av høstblader eller vinterklær. Full Tilgang gir ubegrensede nedlastinger uten ekstra kostnader.`,
-        quote: 'Barna elsker å finne den største og minste - det blir en morsom konkurranse!',
-      },
-      {
-        id: '2',
-        icon: '👩‍🏫',
-        title: 'Småskolelærere - Tall og Telling Kombinert med Addisjon og Subtraksjon Matematikk Oppgaver',
-        subtitle: 'Forsterke grunnleggende matematikkferdigheter',
-        description: `Lærere på 1. trinn til 3. trinn bruker størrelsesarbeidsark for å forsterke grunnleggende matematikkferdigheter. Størrelsessammenligning støtter tallforståelse og rekkefølgekonsepter. Barna lærer at tall representerer mengder og størrelser. Dette er kritisk for videre matematikkutvikling.
-
-Integrer størrelsesarbeidsark med tall og telling aktiviteter for helhetlig undervisning. Når barna nummererer bilder fra 1-2-3, øver de både størrelsesorden og tallrekken. Kombiner med addisjon og subtraksjon oppgaver i samme matteøkt. Lag komplette leksjonspakker som dekker flere kompetansemål samtidig.
-
-Småskolelærere kombinerer ofte størrelsesarbeidsark med andre matematikk oppgaver. Start økten med størrelsessammenligning som oppvarming. Fortsett med addisjon og subtraksjon øvelser. Avslutt med praktiske målingsaktiviteter. Denne variasjonen holder elevene engasjert og motivert.
-
-Differensiering er enkel med størrelsesarbeidsark. Gi yngre eller svakere elever 2-bilder oppgaver med identiske gjenstander. Utfordre sterkere elever med 3-bilder oppgaver og forskjellige gjenstander. Bruk nummeringsoppgaver for elever som trenger ekstra utfordring. Full Tilgang-abonnementet lar deg lage ubegrensede variasjoner tilpasset hver elevs nivå.`,
-        quote: 'Endelig kan jeg lage differensierte oppgaver på få minutter.',
-      },
-      {
-        id: '3',
-        icon: '🏠',
-        title: 'Hjemmeskoleforeldre - Oppgavehefter Barn med Arbeidsark Gratis og Lesetrening Aktiviteter',
-        subtitle: 'Fleksible ressurser for hjemmeundervisning',
-        description: `Hjemmeskoleforeldre setter pris på fleksibiliteten i størrelsesarbeidsark-generatoren. Undervisning av flere barn på forskjellige nivåer krever enorme mengder materiell. Å lage egne tilpassede arbeidsark gratis sparer både tid og penger. Ingen behov for å kjøpe dyre arbeidsbøker som passer halvveis.
-
-Lag komplette oppgavehefter barn kan jobbe med selvstendig mens du underviser søsken. Kombiner størrelsesarbeidsark med matematikk oppgaver, lesetrening og skriveøvelser. Sett sammen ukentlige pakker organisert etter emne eller vanskelighetsgrad. Barna kan jobbe i sitt eget tempo uten å vente på læreren.
-
-Hjemmeskoleforeldre kombinerer ofte akademiske fag med praktiske ferdigheter. Bruk størrelsesarbeidsark som utgangspunkt for virkelige målingsaktiviteter. Etter å ha øvd på papir, la barna måle faktiske gjenstander hjemme. Sammenlign høyden på familiemedlemmer. Sorter kjøkkenutstyr etter størrelse. Denne praktiske anvendelsen forsterker læringen betydelig.
-
-Full Tilgang-abonnementet er spesielt verdifullt for hjemmeskolefamilier. Tilgang til alle 33 arbeidsarktyper dekker et bredt spekter av fagområder. Lag matematikk oppgaver, lesetrening, skriveoppdrag og mer. Én abonnement erstatter dusinvis av individuelle ressurser. Dette sparer hundrevis av kroner årlig sammenlignet med tradisjonelle hjemmeskolemateriell.`,
-        quote: 'Alle tre barna mine kan jobbe med tilpassede oppgaver samtidig.',
-      },
-      {
-        id: '4',
-        icon: '🌍',
-        title: 'Flerspråklige Lærere - Lesetrening og Bokstaver Lære Skrive på Flere Språk',
-        subtitle: 'Støtte for minoritetsspråklige elever',
-        description: `Lærere som jobber med minoritetsspråklige elever finner språkfunksjonene uvurderlige. Bildbiblioteket er tilgjengelig på 11 språk inkludert norsk. Velg elevens morsmål for bildefilnavn de kan lese. Dette støtter både matematikkforståelse og språkutvikling samtidig.
-
-Størrelsesarbeidsark fungerer utmerket som lesetrening for språkelever. Bildefilnavnene gir naturlig ordforrådsbygging. Barn lærer navnene på dyr, kjøretøy og hverdagsgjenstander. Kombinert med visuelle bilder forsterker dette språkinnlæringen betydelig. Perfekt for elever i tidlig norskopplæring.
-
-For lærere som forbereder barn på å bokstaver lære skrive, gir størrelsesarbeidsark nyttig førbokstavtrening. Finmotorikk utvikles gjennom å ringe inn svar. Hånd-øye koordinasjon forbedres. Penngrep styrkes. Disse ferdighetene er essensielle før barna begynner med formell bokstavskriving.
-
-Flerspråklige lærere kan lage parallelle arbeidsark på forskjellige språk. Lag samme oppgaver på norsk og elevens morsmål. Sammenlign ordene på begge språk. Dette fremmer metallspråklig bevissthet og tospråklig utvikling. Full Tilgang støtter denne typen fleksibel flerspråklig undervisning.`,
-        quote: 'Mine flerspråklige elever blomstrer med materiell på morsmålet.',
-      },
-      {
-        id: '5',
-        icon: '💜',
-        title: 'Spesialpedagoger - Finmotorikk Øvelser og Differensierte Oppgavehefter Barn',
-        subtitle: 'Tilpasset materiell for individuelle behov',
-        description: `Spesialpedagoger trenger materiell som kan tilpasses individuelle behov. Størrelsesarbeidsark-generatoren gir full kontroll over vanskelighetsgrad. Start med 2 bilder for elever som trenger tydelig kontrast. Bruk identiske bilder for å gjøre forskjellen ekstra klar. Øk til 3 bilder gradvis når eleven er klar.
-
-Finmotorikk øvelser integreres naturlig i størrelsesarbeidsark. Elever med koordinasjonsutfordringer trenger mye øvelse med å tegne presise ringer. Start med store bilder og store ringer. Reduser gradvis bildestørrelsen etter hvert som ferdighetene utvikles. Denne progressive tilnærmingen bygger kompetanse systematisk.
-
-Spesialpedagoger lager ofte individuelle oppgavehefter barn kan jobbe med i sitt eget tempo. Kombiner enkle størrelsesoppgaver med mer utfordrende oppgaver i samme hefte. Eleven starter med det de mestrer og bygger selvtillit. Deretter prøver de vanskeligere oppgaver når de er klare. Progressiv vanskelighetsgrad støtter mestringsopplevelse.
-
-Full Tilgang-abonnementet gir spesialpedagoger enorm fleksibilitet. Lag ubegrensede tilpassede arbeidsark for hver enkelt elev. Ingen ekstra kostnader uansett hvor mange variasjoner du trenger. Dette er spesielt verdifullt sammenlignet med standardiserte arbeidsbøker som sjelden passer alle elever perfekt.`,
-        quote: 'Endelig kan jeg lage perfekt tilpassede oppgaver for hver enkelt elev.',
-      },
-      {
-        id: '6',
-        icon: '💰',
-        title: 'Lærerentreprenører - Selg Arbeidsark Gratis Pakker og Gangetabellen Sammen med Matematikk Oppgaver',
-        subtitle: 'Bygg lønnsom online undervisningsvirksomhet',
-        description: `Mange lærere bygger lønnsom virksomhet ved å selge arbeidsark på Teachers Pay Teachers og Etsy. Full Tilgang-abonnementet inkluderer kommersiell print-on-demand-lisens. Selg alle arbeidsarkene du lager uten ekstra lisensavgifter. Den profesjonelle 300 DPI-kvaliteten sikrer tilfredse kunder.
-
-Lag tematiske pakker som kombinerer størrelsesarbeidsark med andre matematikk oppgaver. Kombiner størrelse, tall og telling, addisjon og subtraksjon i komplette mattesettpakker. Inkluder gangetabellen for eldre elever. Selg disse som "Komplette mattesentre" eller "Ukentlige mattepakker". Kunder betaler mer for omfattende pakker enn for enkeltark.
-
-Mange suksessfulle lærerentreprenører tjener kr 4000-40000 månedlig. Start med å lage sesongbaserte arbeidsark gratis som prøveeksempler. Vis kvaliteten med gratis høsttema- eller vintertemaark. Kunder som liker disse kjøper deretter de betalte pakkene. Bruk Pinterest for markedsføring av dine gratis eksempler.
-
-Full Tilgang gir deg tilgang til alle 33 arbeidsarktyper på plattformen. Lag komplette undervisningspakker som dekker alle fag. Matematikk oppgaver, lesetrening, skriveøvelser og mer i samme produktpakke. Ingen andre plattformer tilbyr denne bredden med kommersiell lisens inkludert. Dette er en betydelig konkurransefordel.`,
-        quote: 'Abonnementet betalte seg tilbake første måneden.',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // FAQ Section - From big-small.md
@@ -421,68 +225,8 @@ Full Tilgang gir deg tilgang til alle 33 arbeidsarktyper på plattformen. Lag ko
     showLessLabel: 'Vis mindre',
     secureCheckout: 'Sikker betaling',
     cancelAnytime: 'Avbryt når som helst',
-    items: [
-      {
-        id: '1',
-        question: 'Er Denne Størrelsesarbeidsark-Generatoren Virkelig Arbeidsark Gratis?',
-        answer: 'Størrelsesarbeidsark-generatoren krever Full Tilgang-abonnement som koster kr 1 800 årlig eller kr 188 månedlig. Abonnementet gir deg ubegrenset opprettelse av størrelsesarbeidsark uten ekstra kostnader per ark. Generer så mange arbeidsark gratis for nedlasting du trenger uten tilleggsavgifter. Full Tilgang inkluderer tilgang til alle 33 arbeidsarktyper på plattformen. Grunnpakke koster kr 1 075 årlig og inkluderer 10 populære generatorer. Full Tilgang koster kr 1 800 årlig og inkluderer alle 33 generatorer inkludert størrelsesarbeidsark. Begge abonnementene inkluderer kommersiell lisens, 11 språkstøtte og profesjonell 300 DPI-kvalitet.',
-      },
-      {
-        id: '2',
-        question: 'Kan jeg Skrive Ut Oppgavehefter Barn Hjemme på Vanlig Skriver?',
-        answer: 'Ja. Alle størrelsesarbeidsark er optimalisert for hjemmeutskrift på standard blekkskrivere eller laserskrivere. Last ned som PDF eller JPEG og skriv ut direkte fra nettleseren. Profesjonell 300 DPI-kvalitet sikrer skarpe og klare utskrifter. Grå skala-alternativet konverterer farger til gråtoner. Dette sparer blekkpatron betydelig. Kvaliteten forblir utmerket selv i grå skala. Perfekt for lærere som trenger å skrive ut oppgavehefter barn kan bruke i klassestørrelse. Standard A4 og Letter størrelser fungerer perfekt med vanlig kopipapir. Ingen behov for spesialpapir eller profesjonell trykkeri. Print så mange eksemplarer du trenger.',
-      },
-      {
-        id: '3',
-        question: 'Hvilke Språk er Tilgjengelige for Lesetrening og Språkutvikling?',
-        answer: 'Bildbiblioteket er tilgjengelig på 11 språk: engelsk, tysk, fransk, spansk, portugisisk, italiensk, nederlandsk, dansk, svensk, norsk og finsk. Velg språk og bildefilnavnene vises på det valgte språket. Dette støtter lesetrening for minoritetsspråklige elever og flerspråklig undervisning. Språkfunksjonen er spesielt verdifull for ESL-lærere og tospråklige programmer. Lag identiske arbeidsark på forskjellige språk. Sammenlign ordforråd på tvers av språk. Dette fremmer metallspråklig bevissthet og språkutvikling. Grensesnittet kan også byttes til norsk for norske lærere. Alle knapper, instruksjoner og innstillinger vises på norsk. Dette gjør plattformen enklere å navigere for ikke-engelsktalende brukere.',
-      },
-      {
-        id: '4',
-        question: 'Kan jeg Selge Størrelsesarbeidsark og Oppgavehefter Barn jeg Lager?',
-        answer: 'Ja. Full Tilgang inkluderer full kommersiell print-on-demand-lisens uten ekstra kostnader. Selg størrelsesarbeidsarkene du lager på Teachers Pay Teachers, Etsy eller Amazon KDP. Ingen ekstra lisensavgifter utover abonnementet. Ingen attribusjon kreves på arbeidsarkene. Profesjonell 300 DPI-kvalitet sikrer tilfredse kunder. Lag komplette oppgavehefter barn kan kjøpe som pakker. Kombiner størrelsesarbeidsark med andre aktiviteter. Selg tematiske samlinger for forskjellige årstider eller emner. Mange lærere tjener betydelig ekstrainntekt. Suksessfulle lærerentreprenører rapporterer kr 4000-40000 månedlig i salg.',
-      },
-      {
-        id: '5',
-        question: 'Hvordan Tilpasser jeg Størrelsesarbeidsark med Finmotorikk Øvelser for Mine Elever?',
-        answer: 'Full redigerbarhet på lerretet lar deg tilpasse hvert element. Klikk på bilder for å flytte, rotere eller skalere dem. Juster vanskelighetsgrad ved å endre bildestørrelser. Større bilder er enklere for små hender å ringe inn. Mindre bilder gir mer utfordrende finmotorikk øvelser. Legg til egendefinert tekst med instruksjoner tilpasset elevenes nivå. Endre skriftstørrelse og farge for bedre lesbarhet. Inkluder elevnavn for personalisering. Dette øker engasjement og motivasjon betydelig. Bruk opplastingsfunksjonen for å legge til bilder elevene kjenner. Bilder fra klasserommet eller barnehagen. Familiemedlemmer eller kjæledyr. Personaliserte arbeidsark er mer meningsfulle og øker læringsutbyttet.',
-      },
-      {
-        id: '6',
-        question: 'Hvilke Aldersgrupper Passer Best til Størrelsesarbeidsark med Tall og Telling?',
-        answer: 'Størrelsesarbeidsark fungerer perfekt for barnehage til 3. trinn (alder 5-9). Barnehage bruker enkle 2-bilder oppgaver med tydelig størrelseskontrast. 1. trinn kan håndtere 3-bilder oppgaver og nummeringsoppgaver. 2. og 3. trinn øver med vanskeligere kombinasjoner og mindre bilder. Kombiner størrelsesarbeidsark med tall og telling aktiviteter for helhetlig matematikkopplæring. Nummeringsoppgavene (1-2-3 fra liten til stor) integrerer rekkefølgeforståelse. Dette forsterker både størrelseskonsepter og tallrekken samtidig. Spesialpedagoger bruker størrelsesarbeidsark for eldre elever med utviklingshemming. Differensiering gjør det enkelt å tilpasse til ethvert funksjonsnivå.',
-      },
-      {
-        id: '7',
-        question: 'Kan jeg Laste Opp Mine Egne Bilder for Fargeleggingsbilder Barn og Temaaktiviteter?',
-        answer: 'Ja. Multi-fil opplastingsfunksjonen lar deg laste opp flere bilder samtidig. Støttede formater inkluderer JPEG, PNG og GIF. Kombiner dine opplastede bilder med biblioteksbilder for maksimal fleksibilitet. Perfekt for å lage tematiske arbeidsark matchende pågående klasseprosjekter. Last opp fargeleggingsbilder barn har farget og ønsker å bruke i størrelsessammenligning. Bruk fotos av klasseleker eller barnehageutstyr. Inkluder sesongbilder for høst, vinter, vår eller sommer. Personaliserte bilder gjør læringen mer relevant og engasjerende. Dine opplastede bilder lagres for nåværende økt. Bruk dem i flere arbeidsark uten å laste opp på nytt.',
-      },
-      {
-        id: '8',
-        question: 'Hvor Lang Tid Tar det å Lage Størrelsesarbeidsark med Gangetabellen og Matematikk Oppgaver?',
-        answer: 'Å lage et størrelsesarbeidsark tar under 3 minutter totalt. Velg bilder eller tema (30 sekunder). Konfigurer innstillinger som antall oppgaver og oppgavetype (30 sekunder). Klikk generer og arbeidearket vises øyeblikkelig (1 sekund). Last ned som PDF (10 sekunder). Total tid under 2 minutter for de fleste brukere. Sammenlign med tradisjonell produksjon som tar 30-60 minutter per ark. Å finne bilder, designe layout, lage fasit og formatere for utskrift krever betydelig tid. Full Tilgang reduserer dette til sekunder. Over 95% tidsbesparelse. Mange lærere lager flere variasjoner for differensiering på minutter.',
-      },
-      {
-        id: '9',
-        question: 'Inkluderer Størrelsesarbeidsark Fasit for Bokstaver Lære Skrive og Lesetrening?',
-        answer: 'Ja. Automatisk fasitgenerering er inkludert for alle størrelsesarbeidsark. Klikk "Generer fasit" knappen og arbeidearket regenereres med svarmarkører. Disse viser tydelig hvilke bilder som er riktige svar. Last ned fasiten separat eller inkluder den på baksiden. Fasiten sparer enorm tid på retting og vurdering. Lærere kan raskt sjekke elevarbeid mot fasiten. Eller la elevene bruke fasiten til selvsjekking. Dette fremmer selvstendig læring og selvvurdering. Umiddelbar tilbakemelding styrker læringen betydelig. For lærere som forbereder barn til bokstaver lære skrive, fungerer størrelsesarbeidene som førbokstavtrening. Finmotorikk utvikles gjennom å ringe inn svar.',
-      },
-      {
-        id: '10',
-        question: 'Kan jeg Lage Størrelsesarbeidsark om Spesifikke Emner med Addisjon og Subtraksjon?',
-        answer: 'Ja. Velg spesifikke temaer fra bildbiblioteket. Over 50 kategorier dekker alt fra dyr til kjøretøy til mat. Lag bondegårdstema med husdyr. Transporttema med biler, tog og fly. Mattema med frukt og grønnsaker. Hver kategori har dusinvis av relaterte bilder. Kombiner størrelsesarbeidsark med addisjon og subtraksjon oppgaver for tematiske mattepakker. Hvis temaet er bondegård, bruk dyrebilder i størrelsesoppgaver. Lag deretter addisjon og subtraksjon oppgaver med dyr. Tematisk sammenheng styrker forståelsen og gjør læringen mer meningsfull. Last opp dine egne temabilder for enda mer spesifikk tilpasning.',
-      },
-      {
-        id: '11',
-        question: 'Hvordan Kombinerer jeg Størrelsesarbeidsark med Andre Oppgavehefter Barn som Fargeleggingsbilder Barn?',
-        answer: 'Full Tilgang gir tilgang til alle 33 arbeidsarktyper. Lag komplette læringssentre ved å kombinere størrelsesarbeidsark med andre aktiviteter. Start med størrelsessammenligning. Fortsett med addisjon og subtraksjon. Inkluder fargeleggingsbilder barn elsker som belønning. Avslutt med lesetrening eller skriveøvelser. Mange lærere lager ukentlige oppgavehefter barn kan jobbe med selvstendig. Mandag: størrelsesarbeidsark og tallskriving. Tirsdag: addisjon og fargelegging. Onsdag: subtraksjon og ordgjenkjenning. Torsdag: mønster og finmotorikk. Fredag: blandet repetisjon. Organisert variasjon holder elevene engasjert. For hjemmeskoleforeldre er denne kombinasjonsevnen uvurderlig.',
-      },
-      {
-        id: '12',
-        question: 'Hva er Forskjellen på Full Tilgang og Grunnpakke for Finmotorikk Øvelser?',
-        answer: 'Grunnpakke koster kr 1 075 årlig og inkluderer 10 populære arbeidsarktyper. Full Tilgang koster kr 1 800 årlig og inkluderer alle 33 arbeidsarktyper inkludert størrelsesarbeidsark. Begge inkluderer kommersiell lisens, 11 språkstøtte og 300 DPI-kvalitet. Begge gir ubegrenset opprettelse av arbeidsark. Størrelsesarbeidsark er del av Full Tilgang. Hvis du trenger størrelsessammenligning med finmotorikk øvelser, trenger du Full Tilgang. De 10 appene i Grunnpakke fokuserer på andre ferdigheter som matematikk, ordforråd og grunnleggende ferdigheter. For lærere som kun trenger de 10 mest populære generatorene, er Grunnpakke kostnadseffektivt. For lærere som trenger full bredde inkludert størrelsesarbeidsark, er Full Tilgang den rette løsningen.',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Pricing - FULL ACCESS tier
@@ -553,56 +297,8 @@ Full Tilgang gir deg tilgang til alle 33 arbeidsarktyper på plattformen. Lag ko
       securePayment: 'Sikker betaling',
       cancelAnytime: 'Avbryt når som helst',
     },
-    items: [
-      {
-        id: '1',
-        slug: 'addition',
-        name: 'Addisjon',
-        category: 'Matematikk',
-        icon: '➕',
-        description: 'Kombiner størrelsesarbeidsark med addisjon for helhetlig matematikkundervisning. Perfekt progresjon fra størrelsesforståelse til talloperasjoner.',
-      },
-      {
-        id: '2',
-        slug: 'subtraction',
-        name: 'Subtraksjon',
-        category: 'Matematikk',
-        icon: '➖',
-        description: 'Integrer størrelsessammenligning med subtraksjon for varierte matematikk oppgaver. Bygg tallforståelse gjennom visuell læring.',
-      },
-      {
-        id: '3',
-        slug: 'coloring',
-        name: 'Fargelegging',
-        category: 'Kunst og Kreativitet',
-        icon: '🎨',
-        description: 'Kombiner størrelsesarbeidsark med fargeleggingsbilder barn elsker. Perfekt belønning etter fullført matematikkoppgave.',
-      },
-      {
-        id: '4',
-        slug: 'pattern-train',
-        name: 'Mønstertog',
-        category: 'Logikk',
-        icon: '🚂',
-        description: 'Styrk rekkefølgeforståelse med mønstergjenkjennelse. Perfekt supplement til størrelsessortering fra liten til stor.',
-      },
-      {
-        id: '5',
-        slug: 'matching',
-        name: 'Kobling',
-        category: 'Logikk',
-        icon: '🔗',
-        description: 'Kombiner størrelsesoppgaver med koblingsspill for variert visuell diskriminering. Styrk observasjonsevner.',
-      },
-      {
-        id: '6',
-        slug: 'find-and-count',
-        name: 'Finn og Tell',
-        category: 'Matematikk',
-        icon: '🔍',
-        description: 'Styrk tall og telling ferdigheter med søkeaktiviteter. Perfekt supplement til størrelsesarbeidsark for småskoletrinnet.',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 };
 

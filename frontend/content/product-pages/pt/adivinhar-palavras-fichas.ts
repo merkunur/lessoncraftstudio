@@ -90,36 +90,8 @@ Este gerador cria atividades para imprimir que combinam reconhecimento de imagen
     badgeText: 'Exemplos Grátis',
     downloadingLabel: 'Baixando...',
     ofLabel: 'de',
-    items: [
-      {
-        id: '1',
-        worksheetSrc: '/samples/portuguese/word-guess/sample-1.jpeg',
-        answerKeySrc: '/samples/portuguese/word-guess/sample-1-answer.jpeg',
-        altText: 'Atividade grátis de adivinhar palavras - atividade para educação infantil',
-        pdfDownloadUrl: '/samples/portuguese/word-guess/sample-1.pdf',
-      },
-      {
-        id: '2',
-        worksheetSrc: '/samples/portuguese/word-guess/sample-2.jpeg',
-        answerKeySrc: '/samples/portuguese/word-guess/sample-2-answer.jpeg',
-        altText: 'Atividades grátis de adivinhar palavras - atividade grátis para crianças',
-        pdfDownloadUrl: '/samples/portuguese/word-guess/sample-2.pdf',
-      },
-      {
-        id: '3',
-        worksheetSrc: '/samples/portuguese/word-guess/sample-3.jpeg',
-        answerKeySrc: '/samples/portuguese/word-guess/sample-3-answer.jpeg',
-        altText: 'Atividade para crianças de adivinhar palavras - imprimíveis grátis',
-        pdfDownloadUrl: '/samples/portuguese/word-guess/sample-3.pdf',
-      },
-      {
-        id: '4',
-        worksheetSrc: '/samples/portuguese/word-guess/sample-4.jpeg',
-        answerKeySrc: '/samples/portuguese/word-guess/sample-4-answer.jpeg',
-        altText: 'Atividade grátis para crianças de adivinhar palavras - atividade de alfabetização',
-        pdfDownloadUrl: '/samples/portuguese/word-guess/sample-4.pdf',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Features Grid
@@ -135,71 +107,8 @@ Este gerador cria atividades para imprimir que combinam reconhecimento de imagen
       noHiddenFees: 'Sem taxas ocultas',
       cancelAnytime: 'Cancele quando quiser',
     },
-    items: [
-      {
-        id: '1',
-        icon: '⚡',
-        title: 'Criação Fácil em 3 Cliques - Atividade Grátis',
-        description: `Criar atividades educação infantil nunca foi tão simples. Primeiro, selecione um tema de imagens da biblioteca. Segundo, ajuste o número de exercícios e nível de dificuldade. Terceiro, clique em gerar. Suas atividades para imprimir aparecem instantaneamente na tela. O processo completo leva menos de 3 minutos. Professores economizam horas de preparação toda semana.
-
-O gerador calcula automaticamente o melhor layout. Exercícios se ajustam ao tamanho da página escolhido. Orientação retrato ou paisagem funciona perfeitamente. O sistema organiza puzzles em uma ou duas colunas conforme necessário. Nenhum trabalho manual de formatação é necessário.`,
-        highlighted: false,
-      },
-      {
-        id: '2',
-        icon: '✏️',
-        title: 'Edição Completa no Canvas',
-        description: `Após gerar suas atividades de alfabetização, tudo permanece editável. Arraste qualquer elemento para nova posição. Redimensione imagens com o mouse. Gire elementos conforme necessário. Delete itens indesejados com um clique. O canvas oferece liberdade criativa total.
-
-Ferramentas de camadas organizam elementos sobrepostos. Traga objetos para frente ou envie para trás. Alinhe múltiplos elementos automaticamente. Centralize na página horizontal ou verticalmente. Bloqueie elementos finalizados para evitar movimentos acidentais. Desfazer e refazer permitem experimentação sem medo.`,
-        highlighted: false,
-      },
-      {
-        id: '3',
-        icon: '📤',
-        title: 'Upload de Imagens - Atividade para Crianças',
-        description: `Professores de 1º ano e 2º ano frequentemente precisam de imagens específicas. O upload de imagens personalizadas resolve isso. Carregue fotos de projetos da turma. Adicione imagens de eventos escolares. Use fotografias de objetos estudados em sala.
-
-O gerador aceita formatos comuns como JPEG, PNG e GIF. Upload múltiplo economiza tempo. Imagens carregadas ficam disponíveis durante toda a sessão. Combine imagens personalizadas com a biblioteca existente. As atividades educação infantil ficam ainda mais relevantes quando usam contexto familiar aos alunos.`,
-        highlighted: false,
-      },
-      {
-        id: '4',
-        icon: '🌍',
-        title: 'Atividades Grátis em 11 Idiomas - Imprimíveis Grátis',
-        description: `O gerador suporta 11 idiomas completos para atividades para imprimir. Português brasileiro é totalmente suportado na interface e conteúdo. Alemão, francês, espanhol e italiano expandem possibilidades. Holandês, sueco, dinamarquês, norueguês e finlandês completam as opções.
-
-Para atividades de alfabetização bilíngues, isso é transformador. Escolas internacionais criam materiais em múltiplos idiomas. Professores de línguas estrangeiras geram vocabulário visual. Programas de imersão linguística encontram recursos adequados. Os nomes das imagens são extraídos automaticamente no idioma selecionado.`,
-        highlighted: false,
-      },
-      {
-        id: '5',
-        icon: '💰',
-        title: 'Licença Comercial - Atividade Grátis para Crianças',
-        description: `Sua assinatura Acesso Completo inclui licença comercial completa. Venda atividades educação infantil criadas no gerador. Publique na Teachers Pay Teachers sem restrições. Crie loja no Etsy com fichas personalizadas. Lance livros de atividades no Amazon KDP.
-
-A qualidade de 300 DPI atende exigências profissionais. Nenhuma atribuição é necessária nos materiais vendidos. A licença cobre uso print-on-demand ilimitado. Professores empreendedores monetizam sua expertise pedagógica. Uma única assinatura de R$1.200 por ano substitui múltiplas licenças separadas.`,
-        highlighted: true,
-      },
-      {
-        id: '6',
-        icon: '🎨',
-        title: 'Biblioteca de Imagens - Atividade para Educação Infantil',
-        description: `Acesse mais de 3.000 imagens adequadas para crianças. Cada imagem foi selecionada para contexto educacional. Temas organizam o acervo para fácil navegação. Encontre imagens para atividades de matemática rapidamente. Localize vocabulário para atividades vogais e alfabeto em segundos.
-
-A busca por texto acelera ainda mais. Digite "maçã" e veja resultados instantâneos. Filtre por categoria ou tema específico. Animais, alimentos, objetos, transportes e mais. Cada tema contém dezenas de imagens relacionadas. Professores nunca ficam sem opções visuais.`,
-        highlighted: false,
-      },
-      {
-        id: '7',
-        icon: '🖨️',
-        title: 'Qualidade Profissional - Atividades Grátis 300 DPI',
-        description: `Exporte atividades para imprimir em qualidade profissional. Resolução de 300 DPI garante impressão nítida. Formatos PDF e JPEG disponíveis. O PDF mantém qualidade vetorial máxima. JPEG funciona para compartilhamento digital rápido.
-
-A opção escala de cinza economiza tinta colorida. Imagens se transformam em exercícios de coordenação motora através do colorir. Uma única atividade trabalha vocabulário e habilidades motoras. Alunos completam palavras e depois colorem as imagens. Professores maximizam valor pedagógico de cada ficha.`,
-        highlighted: true,
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // How-To Guide
@@ -293,80 +202,8 @@ Opção Escala de Cinza: Ative para converter imagens coloridas em preto e branc
     badgeText: 'Para Quem',
     readMoreLabel: 'Leia mais',
     showLessLabel: 'Mostrar menos',
-    items: [
-      {
-        id: '1',
-        icon: '👩‍🏫',
-        title: 'Professores de Educação Infantil',
-        subtitle: 'Atividade Grátis para Educação Infantil',
-        description: `Professores de educação infantil enfrentam desafios únicos. Crianças de 4 a 6 anos precisam de materiais altamente visuais. O gerador resolve isso perfeitamente.
-
-Atividades educação infantil com imagens grandes capturam atenção. Temas coloridos como animais e frutas engajam turmas inteiras. O modo de 4 a 6 puzzles por página funciona idealmente para essa faixa etária. Letras maiúsculas grandes facilitam reconhecimento inicial.
-
-A prática de coordenação motora acontece naturalmente. Crianças seguram o lápis e preenchem caixas definidas. Cada letra exige controle e precisão. Atividades vogais e alfabeto introduzem conceitos fundamentais.`,
-        quote: 'Meus alunos adoram descobrir as palavras escondidas!',
-      },
-      {
-        id: '2',
-        icon: '📚',
-        title: 'Professores de 1º Ano e 2º Ano',
-        subtitle: 'Atividades Grátis de Alfabetização e Vocabulário',
-        description: `Professores de 1º ano e 2º ano do Ensino Fundamental focam em alfabetização formal. O gerador oferece recursos específicos para essa etapa crucial.
-
-Atividades 1º ano e 2º ano usam vocabulário progressivamente mais complexo. Palavras de 4 a 6 letras desafiam sem frustrar. Níveis de dificuldade adaptam exercícios ao progresso individual. Alunos avançados recebem menos pistas.
-
-Atividades de alfabetização ganham contexto significativo. Cada imagem conecta palavra escrita ao objeto real. A consciência fonológica se desenvolve naturalmente. Professores criam séries temáticas alinhadas ao currículo.`,
-        quote: 'O adivinhar palavras transforma a prática de ortografia em diversão.',
-      },
-      {
-        id: '3',
-        icon: '🏠',
-        title: 'Pais que Fazem Educação Domiciliar',
-        subtitle: 'Imprimíveis Grátis para Educação Domiciliar',
-        description: `Famílias que praticam educação domiciliar encontram recursos valiosos. O gerador simplifica preparação de materiais pedagógicos.
-
-Atividades para imprimir profissionais economizam tempo precioso. Pais criam fichas em minutos ao invés de horas. A biblioteca de 3.000 imagens elimina necessidade de buscar recursos externos. Temas organizados facilitam planejamento curricular.
-
-Atividades educação infantil adaptam-se ao ritmo individual da criança. Sem pressão de turma, cada exercício pode ser personalizado. Níveis de dificuldade ajustam conforme progresso observado.`,
-        quote: 'Uma ferramenta atende todos os níveis dos meus filhos.',
-      },
-      {
-        id: '4',
-        icon: '🌍',
-        title: 'Professores de Inglês e Idiomas',
-        subtitle: 'Atividade Grátis para Crianças Bilíngues',
-        description: `Professores de inglês, espanhol ou outras línguas descobrem ferramenta poderosa. O suporte a 11 idiomas transforma ensino de vocabulário.
-
-Atividades de alfabetização em língua estrangeira ganham componente visual. Imagens comunicam significado sem tradução. Alunos conectam palavra estrangeira diretamente ao objeto. A memória visual reforça aquisição de vocabulário.
-
-Atividades vogais e alfabeto em novo idioma ficam acessíveis. Sons diferentes ganham representação escrita clara. Professores de escolas bilíngues criam materiais paralelos. Mesmas imagens com palavras em português e inglês.`,
-        quote: 'O suporte multilíngue é essencial para meu programa bilíngue.',
-      },
-      {
-        id: '5',
-        icon: '💜',
-        title: 'Professores de Educação Especial',
-        subtitle: 'Atividade Grátis para Crianças com Necessidades Especiais',
-        description: `Professores de educação especial precisam de diferenciação constante. O gerador oferece flexibilidade essencial para atender necessidades diversas.
-
-Atividades educação infantil adaptam-se a diferentes ritmos de aprendizagem. Menos puzzles por página reduzem sobrecarga visual. Imagens maiores facilitam foco e atenção. Dificuldade ajustável permite progressão individualizada.
-
-Exercícios de tabuada visual apoiam alunos com dificuldades matemáticas. Vocabulário numérico ganha representação concreta. A atividade de escrever e descobrir engaja múltiplos canais de aprendizagem.`,
-        quote: 'Posso adaptar rapidamente as atividades para cada aluno.',
-      },
-      {
-        id: '6',
-        icon: '💰',
-        title: 'Professores Empreendedores',
-        subtitle: 'Venda Atividades para Imprimir no Hotmart',
-        description: `Professores que vendem materiais online descobrem fonte de renda. A licença comercial inclusa abre portas para empreendedorismo.
-
-Atividades para imprimir criadas no gerador podem ser vendidas legalmente. Hotmart, Teachers Pay Teachers, Etsy e Amazon KDP são destinos populares. A qualidade de 300 DPI atende padrões profissionais de marketplaces. Nenhuma atribuição é necessária nos produtos vendidos.
-
-Atividades de alfabetização com vocabulário específico atendem nichos lucrativos. Pacotes temáticos de letra cursiva e pontilhado têm alta demanda. Professores empreendedores relatam faturamento de R$2.500 a R$25.000 mensais vendendo fichas pedagógicas.`,
-        quote: 'Minha assinatura se pagou no primeiro mês de vendas!',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // FAQ Section
@@ -380,68 +217,8 @@ Atividades de alfabetização com vocabulário específico atendem nichos lucrat
     showLessLabel: 'Mostrar menos',
     secureCheckout: 'Pagamento seguro',
     cancelAnytime: 'Cancele quando quiser',
-    items: [
-      {
-        id: '1',
-        question: 'O Gerador de Atividades Grátis de Adivinhar Palavras É Gratuito?',
-        answer: 'O gerador de adivinhar palavras requer assinatura Acesso Completo custando R$1.200 anuais ou R$125 mensais. Sua assinatura permite criação ilimitada de atividades para imprimir sem taxas por ficha. Gere quantas atividades de alfabetização precisar sem cobranças adicionais. O Pacote Essencial inclui 10 geradores populares por R$720 anuais. Acesso Completo custa R$1.200 anuais e inclui todos os 33 tipos de geradores, incluindo adivinhar palavras.',
-      },
-      {
-        id: '2',
-        question: 'Posso Imprimir Atividades Grátis em Casa com Impressora Comum?',
-        answer: 'Sim, absolutamente. Atividades de matemática e tabuada criadas no gerador imprimem perfeitamente em qualquer impressora doméstica. Formatos PDF e JPEG funcionam com impressoras jato de tinta ou laser. Papel sulfite comum produz resultados excelentes. A opção escala de cinza economiza tinta colorida. Qualidade permanece nítida mesmo em impressões econômicas.',
-      },
-      {
-        id: '3',
-        question: 'Preciso de Habilidades de Design para Criar Atividade para Educação Infantil?',
-        answer: 'Nenhuma habilidade de design é necessária. Atividades educação infantil surgem automaticamente após configurar opções simples. Selecione tema, número de exercícios e dificuldade. Clique em gerar. Pronto. Exercícios de coordenação motora aparecem formatados profissionalmente. O gerador calcula layout ideal automaticamente.',
-      },
-      {
-        id: '4',
-        question: 'Posso Usar Atividades Grátis para Crianças na Sala de Aula?',
-        answer: 'Sua assinatura Acesso Completo inclui uso em sala de aula ilimitado. Atividades de alfabetização podem ser impressas e distribuídas para todos os alunos. Atividades 1º ano e 2º ano funcionam perfeitamente para turmas inteiras. Nenhuma restrição de quantidade de cópias. Professores criam fichas personalizadas para cada unidade curricular.',
-      },
-      {
-        id: '5',
-        question: 'Em Quais Idiomas as Atividades Grátis Estão Disponíveis?',
-        answer: 'O gerador suporta 11 idiomas completos. Atividades vogais e alfabeto funcionam em português brasileiro, inglês, alemão, francês, espanhol e italiano. Holandês, sueco, dinamarquês, norueguês e finlandês completam as opções. A interface do usuário traduz-se automaticamente. Nomes das imagens são extraídos no idioma selecionado.',
-      },
-      {
-        id: '6',
-        question: 'Posso Vender Imprimíveis Grátis Criados no Gerador?',
-        answer: 'Sim. Sua assinatura Acesso Completo inclui licença comercial print-on-demand completa. Atividades para imprimir podem ser vendidas em Hotmart, Teachers Pay Teachers, Etsy e Amazon KDP. Nenhuma atribuição é necessária nos produtos vendidos. Você mantém 100% dos direitos sobre suas criações. Qualidade de 300 DPI atende padrões profissionais.',
-      },
-      {
-        id: '7',
-        question: 'Como Personalizo Atividade Grátis para Crianças?',
-        answer: 'A personalização acontece em múltiplos níveis. Atividades de matemática podem usar vocabulário numérico específico. Digite palavras como "cinco", "dezena", "multiplicação" na lista personalizada. Níveis de dificuldade adaptam quantidade de pistas. Alunos avançados recebem menos letras visíveis. Alunos em desenvolvimento recebem mais suporte.',
-      },
-      {
-        id: '8',
-        question: 'Qual Faixa Etária Funciona Melhor com Atividade para Crianças?',
-        answer: 'O gerador atende crianças de 4 a 10 anos perfeitamente. Atividades educação infantil funcionam para pré-escola e jardim. Imagens grandes e palavras curtas engajam os menores. Atividades 1º ano e 2º ano usam vocabulário progressivamente complexo. Alunos de 3º ano trabalham palavras mais longas e difíceis. Níveis de dificuldade ajustam para qualquer faixa etária.',
-      },
-      {
-        id: '9',
-        question: 'Posso Fazer Upload de Imagens Próprias para Atividades Grátis?',
-        answer: 'Sim, upload de imagens personalizadas é totalmente suportado. Atividades de alfabetização ganham contexto familiar quando usam fotos da turma. Imagens de projetos escolares viram exercícios de vocabulário. Formatos JPEG, PNG e GIF são aceitos. Upload múltiplo economiza tempo. Combine fotos próprias com biblioteca de 3.000+ imagens.',
-      },
-      {
-        id: '10',
-        question: 'Quanto Tempo Leva para Criar Atividade Grátis de Adivinhar Palavras?',
-        answer: 'O processo completo leva menos de 3 minutos. Atividades vogais e alfabeto surgem após três cliques básicos. Selecione tema, configure opções, clique em gerar. Visualização instantânea aparece na tela. Edições adicionais no canvas levam minutos extras se desejado. Professores produzem séries semanais completas em uma única sessão.',
-      },
-      {
-        id: '11',
-        question: 'As Atividades Grátis de Adivinhar Palavras Incluem Gabarito?',
-        answer: 'Sim, gabarito automático é gerado junto com cada worksheet. Atividades para imprimir sempre têm versão com respostas. Alterne entre aba de worksheet e aba de gabarito. Baixe ambas separadamente em PDF ou JPEG. O gabarito mostra todas as letras preenchidas. Correção de exercícios fica rápida e objetiva.',
-      },
-      {
-        id: '12',
-        question: 'Posso Criar Atividade Grátis para Educação Infantil Específica?',
-        answer: 'Absolutamente. A lista de palavras personalizadas permite qualquer vocabulário. Atividades de matemática usam termos como "adição", "subtração", "dezena", "centena". Vocabulário de tabuada inclui números por extenso como exercícios de soletração. A função de exclusão de letras força prática específica. Coordenação motora desenvolve-se ao preencher caixas de letras.',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Pricing
@@ -512,56 +289,8 @@ Atividades de alfabetização com vocabulário específico atendem nichos lucrat
       securePayment: 'Pagamento seguro',
       cancelAnytime: 'Cancele quando quiser',
     },
-    items: [
-      {
-        id: '1',
-        slug: 'word-search',
-        name: 'Caça-Palavras',
-        category: 'Língua e Leitura',
-        icon: '🔍',
-        description: 'Combine adivinhar palavras com caça-palavras para prática completa de vocabulário e reconhecimento de letras.',
-      },
-      {
-        id: '2',
-        slug: 'crossword',
-        name: 'Palavras Cruzadas',
-        category: 'Língua e Leitura',
-        icon: '📝',
-        description: 'Complete suas atividades de vocabulário com palavras cruzadas usando os mesmos temas.',
-      },
-      {
-        id: '3',
-        slug: 'word-scramble',
-        name: 'Palavras Embaralhadas',
-        category: 'Língua e Leitura',
-        icon: '🔤',
-        description: 'Combine com puzzles de palavras embaralhadas para reforçar ortografia e vocabulário.',
-      },
-      {
-        id: '4',
-        slug: 'cryptogram',
-        name: 'Criptogramas',
-        category: 'Lógica',
-        icon: '🔐',
-        description: 'Desafie os alunos com puzzles de decodificação que desenvolvem pensamento lógico.',
-      },
-      {
-        id: '5',
-        slug: 'coloring',
-        name: 'Desenhos para Colorir',
-        category: 'Arte e Criatividade',
-        icon: '🎨',
-        description: 'Recompense atividades completadas com páginas para colorir temáticas.',
-      },
-      {
-        id: '6',
-        slug: 'alphabet-train',
-        name: 'Trem do Alfabeto',
-        category: 'Aprendizagem Inicial',
-        icon: '🚂',
-        description: 'Equilibre a prática de adivinhar palavras com atividades de reconhecimento de letras.',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 };
 

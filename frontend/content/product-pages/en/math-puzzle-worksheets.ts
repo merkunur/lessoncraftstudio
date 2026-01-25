@@ -82,48 +82,8 @@ The puzzles use familiar images children love. Select from our 3000+ image libra
     downloadLabel: 'Download Free Sample',
     worksheetLabel: 'Worksheet',
     answerKeyLabel: 'Answer Key',
-    items: [
-      {
-        id: '1',
-        worksheetSrc: '/samples/english/math-puzzle/sample-1.jpeg',
-        answerKeySrc: '/samples/english/math-puzzle/sample-1-answer.jpeg',
-        altText: 'Free math puzzle worksheets for kindergarten - printable addition grid worksheet for kids with colorful counting images',
-        imageTitle: 'Math Puzzle Worksheet - Free Printable Addition Practice',
-        pdfDownloadUrl: '/samples/english/math-puzzle/sample-1.pdf',
-      },
-      {
-        id: '2',
-        worksheetSrc: '/samples/english/math-puzzle/sample-2.jpeg',
-        answerKeySrc: '/samples/english/math-puzzle/sample-2-answer.jpeg',
-        altText: 'Free worksheet for kids math puzzle - subtraction practice worksheets for first grade with visual learning elements',
-        imageTitle: 'Math Puzzle Worksheet - Free Worksheets Subtraction Practice',
-        pdfDownloadUrl: '/samples/english/math-puzzle/sample-2.pdf',
-      },
-      {
-        id: '3',
-        worksheetSrc: '/samples/english/math-puzzle/sample-3.jpeg',
-        answerKeySrc: '/samples/english/math-puzzle/sample-3-answer.jpeg',
-        altText: 'Free worksheets math puzzle for kindergarten - mixed operations free printables with addition and subtraction practice',
-        imageTitle: 'Math Puzzle Worksheet - Free Printables Mixed Operations',
-        pdfDownloadUrl: '/samples/english/math-puzzle/sample-3.pdf',
-      },
-      {
-        id: '4',
-        worksheetSrc: '/samples/english/math-puzzle/sample-4.jpeg',
-        answerKeySrc: '/samples/english/math-puzzle/sample-4-answer.jpeg',
-        altText: 'Free printables math puzzle worksheets - worksheet for kindergarten with colorful images for visual learning kids',
-        imageTitle: 'Math Puzzle Worksheet - Free Worksheet for Kids Visual',
-        pdfDownloadUrl: '/samples/english/math-puzzle/sample-4.pdf',
-      },
-      {
-        id: '5',
-        worksheetSrc: '/samples/english/math-puzzle/sample-5.jpeg',
-        answerKeySrc: '/samples/english/math-puzzle/sample-5-answer.jpeg',
-        altText: 'Worksheet for kindergarten math puzzle - free worksheet for kids with multiple difficulty levels for first grade',
-        imageTitle: 'Math Puzzle Worksheet - Free Worksheets Easy Grid',
-        pdfDownloadUrl: '/samples/english/math-puzzle/sample-5.pdf',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Features Grid - FULL descriptions from math-puzzle.md
@@ -131,57 +91,8 @@ The puzzles use familiar images children love. Select from our 3000+ image libra
     sectionTitle: 'Math Puzzle Worksheet Features: Free Printable Worksheets for Kindergarten and First Grade',
     sectionDescription: 'Our math worksheet generator includes seven powerful features. These features make creating kindergarten worksheets and first grade worksheets effortless. Every feature works together to save you time. Professional-quality printable math worksheets in under 3 minutes. Perfect for busy teachers creating addition worksheets and math practice materials.',
     highlightBadgeText: 'Key Feature',
-    items: [
-      {
-        id: '1',
-        icon: '⚡',
-        title: 'Free Worksheet for Kids Generator: Create Math Puzzles and Addition Worksheets in 3 Clicks',
-        description: 'Creating math puzzle worksheets takes less than 3 minutes. Select your grid size from 2x2 to 4x4. Choose addition, subtraction, or both operations. Pick one image from our 3000+ library. Click generate. Your printable math worksheets appear instantly. No design skills needed for these kindergarten worksheets. The interface guides you through each step. First grade teachers create professional addition worksheets without training. Select your preferences and generate. The math worksheet maker handles all the complex formatting. You focus on teaching while we handle worksheet design. Each math puzzle worksheet includes clear instructions. Students understand what to do immediately. The puzzle format makes math worksheets more engaging than traditional practice sheets. Children stay focused longer on these free printable worksheets. Parents report better completion rates with puzzle-based math practice.',
-        highlighted: false,
-      },
-      {
-        id: '2',
-        icon: '✏️',
-        title: 'Free Worksheets for Kids with Full Editing: Customize Worksheet for Kindergarten and First Grade',
-        description: 'Every element on your math worksheets is fully editable. Click any object to select it. Drag to move images or text anywhere. Rotate objects with your mouse. Scale items larger or smaller. Delete elements you do not need. This complete control makes every worksheet unique. Add custom text to your kindergarten worksheets. Type student names, special instructions, or learning objectives. Choose from seven professional fonts. Adjust text size, color, and outline. Position text exactly where you want it. Your first grade worksheets look professionally designed. The canvas editor works like familiar design software. Click and drag to reposition elements. Use corner handles to resize images. Rotation handles let you angle objects perfectly. Multi-select with Ctrl+click to move several items together. These editing features give you complete creative control over math worksheets. Change backgrounds and borders after generation. Adjust opacity to make elements lighter or darker. Layer objects by bringing items forward or sending them back. This flexibility means your free printable math worksheets never look generic. Every worksheet you create is customized for your specific students and lessons.',
-        highlighted: false,
-      },
-      {
-        id: '3',
-        icon: '📤',
-        title: 'Free Printables for Math Practice: Create Custom Free Worksheet for Kids with Your Images',
-        description: 'Upload unlimited custom images to personalize math worksheets. Click the upload button and select multiple files at once. Add classroom photos, student artwork, or curriculum-specific graphics. Your uploaded images combine seamlessly with our 3000+ library. Create truly unique kindergarten worksheets and first grade materials. Multi-file upload saves significant time. Select 10 or 20 images simultaneously. All formats work including JPEG, PNG, and GIF. Large files process quickly. Your custom images appear in the preview panel immediately. Click any uploaded image to add it to your addition worksheets. Teachers upload school mascots, local landmarks, and cultural images. ESL teachers add images matching their students backgrounds. Special education teachers upload familiar objects their students recognize. This customization makes math worksheets more relatable and engaging. Students connect better with personalized printable worksheets. Your uploaded images stay available during your session. Switch between library images and custom uploads easily. Combine both types in a single worksheet. Create themed learning packets using your own photos. This flexibility makes the math worksheet generator incredibly versatile for any teaching situation.',
-        highlighted: false,
-      },
-      {
-        id: '4',
-        icon: '🌍',
-        title: 'Worksheet for Kids in 11 Languages: Sight Words Worksheets and Tracing Worksheets Worldwide',
-        description: 'Create math puzzle worksheets in 11 different languages. The interface translates to English, Spanish, French, German, Portuguese, Italian, Dutch, Danish, Swedish, Norwegian, and Finnish. Image filenames also change based on your selected language. This makes our math worksheet maker perfect for ESL classrooms and international schools. Language selection affects the entire worksheet experience. All buttons, labels, and instructions appear in your chosen language. The 3000+ image library uses language-appropriate filenames. When teaching addition in Spanish, students see "manzana" not "apple." This consistency helps kindergarten ESL students learn math and language simultaneously. Bilingual teachers create matching worksheets in multiple languages. Generate the same math puzzle in English and Spanish. Students compare worksheets to reinforce both math and vocabulary. First grade dual-language programs love these free printable worksheets. One tool serves both language instruction and math practice. International schools save money with our multilingual math worksheets. No need to purchase separate programs for different languages. Switch between languages with one click. Create kindergarten worksheets for French immersion, German language programs, or Scandinavian schools. All 11 languages included in your Full Access subscription.',
-        highlighted: false,
-      },
-      {
-        id: '5',
-        icon: '💰',
-        title: 'Free Printables Commercial License: Sell Free Worksheet for Kids and Math Materials Online',
-        description: 'Your Full Access subscription includes commercial print-on-demand licensing. Sell your math worksheets on Teachers Pay Teachers, Etsy, or Amazon KDP. No extra licensing fees beyond your $240 annual subscription. Create products, sell them, and keep your profits. Perfect for teacher entrepreneurs. Many teachers earn $500 to $5,000 monthly selling printable worksheets online. Create themed math puzzle packs for kindergarten and first grade. Bundle addition worksheets with seasonal themes. Package free printable worksheet designs and sell them. Your commercial license covers unlimited sales with no attribution required. The 300 DPI export quality ensures your math worksheets look professional. Customers expect crisp, clear printables. Our generator delivers that quality consistently. Upload your finished worksheets to Teachers Pay Teachers immediately. No additional editing needed. Print-ready files every time. Teacher entrepreneurs appreciate the unlimited creation feature. Generate hundreds of unique kindergarten worksheets without extra costs. Test different themes and formats. See what sells best. Iterate quickly based on customer feedback. Your subscription pays for itself with just a few sales monthly.',
-        highlighted: true,
-      },
-      {
-        id: '6',
-        icon: '🎨',
-        title: '3000+ Images for Free Worksheets Creation: Free Printables Library for Worksheet for Kids',
-        description: 'Access over 3000 child-friendly images included with your subscription. Browse by theme or search by keyword. Categories include animals, food, vehicles, holidays, school supplies, and more. Every image works perfectly for kindergarten worksheets and first grade math materials. Theme-based browsing makes selection fast. Click "Farm Animals" to see cows, pigs, chickens, and horses. Choose "Transportation" for cars, trucks, planes, and boats. Holiday themes provide seasonal options for your math worksheets. Students stay engaged with age-appropriate, colorful graphics. The search function finds specific images instantly. Type "apple" to see all apple variations. Search "dog" for different dog breeds and styles. This helps you match addition worksheets to your current curriculum unit. Teaching about ocean animals? Search "fish" or "ocean" for relevant images. All images feature child-friendly design styles. Bright colors attract young learners. Simple shapes work well for kindergarten students. Clean outlines make objects easy to identify. These professionally designed graphics make your free printable math worksheets look polished and appealing. No clipart hunting needed.',
-        highlighted: false,
-      },
-      {
-        id: '7',
-        icon: '🖨️',
-        title: 'Worksheet for Kindergarten: Alphabet Worksheets and Addition Worksheets at 300 DPI',
-        description: 'Every math worksheet downloads at professional 300 DPI resolution. This ensures crisp printing on any printer. Home printers produce clear, readable worksheets. School copy machines create perfect duplicates. Your kindergarten worksheets and first grade materials always look professional. Download worksheets as PDF or JPEG files. PDFs maintain perfect formatting across all devices. JPEGs work great for inserting into other documents. Both formats preserve the 300 DPI quality. Choose the format that fits your workflow best. Both worksheet and answer key download in your selected format. The grayscale option saves printer ink without sacrificing quality. Convert colorful math worksheets to black and white with one click. Perfect for schools with limited color printing budgets. Students still see clear, distinguishable images. The addition worksheets remain fully usable in grayscale. This feature alone saves teachers hundreds of dollars annually in ink costs. Answer keys download separately from worksheets. Print just the worksheets for students. Keep the answer key for yourself. Or print both for self-checking practice. The separate files give you complete flexibility. Every free printable worksheet includes a matching answer key showing all solutions clearly.',
-        highlighted: true,
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // How-To Guide - FULL text from math-puzzle.md Step sections
@@ -232,56 +143,8 @@ The puzzles use familiar images children love. Select from our 3000+ image libra
   useCases: {
     sectionTitle: 'Perfect for Teachers, Parents, and Educators',
     sectionDescription: 'Math puzzle worksheets serve many different teaching situations. Kindergarten teachers use them for addition practice. First grade teachers combine them with phonics worksheets. Homeschool parents pair them with alphabet worksheets and tracing activities. ESL teachers integrate them with sight words worksheets. Special education teachers use them alongside coloring worksheets for differentiation. Every educator finds unique value in these free printable math worksheets.',
-    items: [
-      {
-        id: '1',
-        icon: '👩‍🏫',
-        title: 'Kindergarten Teachers',
-        subtitle: 'Free Worksheet for Kindergarten: Alphabet Worksheets, Phonics Worksheets, and Tracing Worksheets',
-        description: 'Kindergarten teachers need engaging math worksheets that hold young attention spans. Math puzzle worksheets combine visual learning with number practice. Students complete addition problems to reveal the complete picture. This motivates careful work better than traditional kindergarten worksheets. Pair math puzzles with other kindergarten worksheets throughout your day. Use alphabet worksheets during morning literacy time. Switch to math puzzle worksheets for number practice. Add tracing worksheets for fine motor development. Finish with coloring worksheets as rewards. This variety keeps kindergarten students engaged across all subjects. The visual format works perfectly for kindergarten learning styles. Young children think concretely and need visual representations. Math puzzle worksheets provide that visual element traditional worksheets lack. Students see patterns emerge as they solve problems. This builds number sense alongside basic addition skills. Create themed learning weeks using coordinated materials. During farm week, use farm animal math puzzles with farm-themed alphabet worksheets. Ocean week combines ocean math puzzles with sea creature coloring worksheets. Holiday themes work wonderfully for seasonal kindergarten worksheets. Students enjoy the cohesive learning experience across subject areas.',
-        quote: 'My students love completing the puzzles to see the pictures!',
-      },
-      {
-        id: '2',
-        icon: '📚',
-        title: 'Elementary Teachers',
-        subtitle: 'Free Worksheets for First Grade: Addition Worksheets, Sight Words Worksheets, and Math Worksheets',
-        description: 'First grade teachers love math puzzle worksheets for independent work stations. Place different difficulty levels at your math center. Students self-select appropriate challenges. Advanced students tackle 4x4 grids while struggling learners work on 2x2 puzzles. This natural differentiation reduces teacher workload. Combine math puzzles with literacy materials for integrated learning. Students complete phonics worksheets then earn math puzzle time. Use sight words worksheets for reading practice before math centers. Pair alphabet worksheets with math activities for comprehensive first grade instruction. This integration reinforces learning across multiple subjects. Math puzzle worksheets work excellently for early finishers. Keep a folder of pre-printed puzzles at different difficulty levels. Students who finish assignments early grab a math puzzle. They stay productively engaged while you help other students. No more asking "what do I do now?" from fast workers. Use math puzzles for substitute teacher folders. Print several worksheets with answer keys attached. Leave clear instructions for your substitute. Students get meaningful math practice even when you are absent. The self-checking answer keys make grading easy for substitute teachers. These free printable worksheets save the day during unexpected absences.',
-        quote: 'I use these for math centers and early finisher activities daily.',
-      },
-      {
-        id: '3',
-        icon: '🏠',
-        title: 'Homeschool Parents',
-        subtitle: 'Free Printable Worksheets: Coloring Worksheets, Tracing Worksheets, and Kindergarten Worksheets',
-        description: 'Homeschool parents appreciate the flexibility of math puzzle worksheets. Create custom curriculum that matches your child\'s interests. Does your child love dinosaurs? Make dinosaur-themed math puzzles. Animal lovers enjoy pet-themed addition worksheets. This personalization makes homeschool math more engaging than generic workbooks. Integrate math puzzles across your entire homeschool curriculum. Start mornings with phonics worksheets and sight words practice. Move to math puzzle worksheets for number work. Include tracing worksheets for handwriting development. Add alphabet worksheets for letter recognition. Finish with coloring worksheets during quiet time. One subscription provides materials for multiple subjects. Math puzzles adapt to multi-age homeschooling situations perfectly. Your kindergartener works on 2x2 addition grids. Your first grader completes 3x3 mixed operation puzzles. Your second grader tackles 4x4 subtraction challenges. All three children use the same type of worksheet at appropriate difficulty levels. This simplifies your planning and material preparation. Track progress easily with dated worksheets. Print student names on each puzzle. File completed work in individual portfolios. Review progress monthly to identify areas needing more practice. The answer keys make checking work quick and easy. Document learning for portfolio reviews or standardized testing requirements.',
-        quote: 'One subscription covers all my kids at different grade levels.',
-      },
-      {
-        id: '4',
-        icon: '🌍',
-        title: 'ESL and Bilingual Teachers',
-        subtitle: 'Free Worksheet for Kids: Phonics Worksheets, Alphabet Worksheets, and Sight Words Worksheets',
-        description: 'ESL teachers find tremendous value in multilingual math puzzle worksheets. Create matching materials in students\' home languages and English. Students complete the Spanish version first to build confidence. Then they tackle the English version to reinforce vocabulary. This scaffolded approach supports language acquisition beautifully. Combine math puzzles with language-focused materials for comprehensive ESL instruction. Use sight words worksheets to build reading vocabulary. Add phonics worksheets for pronunciation practice. Include math puzzle worksheets to teach number vocabulary. Supplement with alphabet worksheets for letter names. This multi-faceted approach addresses all language learning needs. The image-based format reduces language barriers in math instruction. Pictures convey meaning without extensive text. Students understand the puzzle concept even with limited English. They learn math vocabulary naturally while completing addition problems. This visual support accelerates learning for English language learners. Bilingual programs benefit from the 11-language interface. Create side-by-side comparisons for dual-language instruction. Print the same puzzle in English and Spanish. Students compare worksheets to find similarities and differences. This builds metalinguistic awareness while practicing math facts. These free printable worksheets support dual-language goals perfectly.',
-        quote: 'The Spanish worksheets help my English learners succeed in math.',
-      },
-      {
-        id: '5',
-        icon: '💜',
-        title: 'Special Education Teachers',
-        subtitle: 'Worksheet for Kindergarten: Tracing Worksheets, Coloring Worksheets, and First Grade Worksheets',
-        description: 'Special education teachers need highly adaptable materials. Math puzzle worksheets offer perfect differentiation options. Adjust grid size for different skill levels. Modify operation types based on student abilities. Upload familiar images that students already recognize. This customization meets individual education plan goals. Combine math puzzles with sensory and motor skill activities. Start with tracing worksheets for hand strengthening. Move to math puzzle worksheets for cognitive work. Finish with coloring worksheets for calming activities. This rotation addresses diverse special education needs in one lesson block. The visual feedback motivates students who struggle with traditional math worksheets. They see progress as the puzzle image emerges. Each correct answer contributes to the complete picture. This immediate visual reward encourages persistence through challenging work. Students experience success completing puzzles even if traditional worksheets frustrate them. Create individualized work folders with custom difficulty levels. Some students need single-digit addition only. Others handle two-digit problems. Some require only 2x2 grids for success. Others manage larger formats. Print personalized sets of kindergarten worksheets and first grade materials matching each student\'s current abilities.',
-        quote: 'I can quickly adapt worksheets for each student\'s IEP goals.',
-      },
-      {
-        id: '6',
-        icon: '💰',
-        title: 'Teacher Entrepreneurs',
-        subtitle: 'Sell Free Printables: Addition Worksheets, Kindergarten Worksheets, and Phonics Worksheets',
-        description: 'Teacher entrepreneurs earn significant income selling printable worksheets online. Create themed math puzzle bundles for Teachers Pay Teachers. Package seasonal addition worksheets together. Combine math puzzles with coordinating phonics worksheets and alphabet materials. Sell comprehensive curriculum packets including coloring worksheets and tracing activities. The commercial license included with Full Access covers unlimited sales. Create products without worrying about licensing restrictions. Design once and sell forever. Many teachers report earning $500 to $5,000 monthly from printable worksheet sales. Your $240 annual subscription pays for itself with just a few product sales. Market your worksheets effectively using Pinterest and Instagram. Show completed puzzle examples in action. Share student engagement photos with parent permission. Post customer testimonials about your kindergarten worksheets. Build an email list offering free samples of your first grade materials. These marketing strategies drive traffic to your Teachers Pay Teachers store. Bundle math puzzle worksheets with complementary materials for higher prices. Create "Complete Kindergarten Math Bundle" with multiple worksheet types. Design "First Grade Learning Pack" combining math, literacy, and fine motor practice. Package seasonal bundles with holiday-themed materials across all subjects. Bundles sell better and earn more than individual worksheets.',
-        quote: 'I earned back my subscription cost selling worksheets in the first month!',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // FAQ Section - ALL questions from math-puzzle.md
@@ -290,128 +153,8 @@ The puzzles use familiar images children love. Select from our 3000+ image libra
     sectionDescription: 'Teachers ask common questions about math puzzle worksheets and related materials. These answers address pricing, compatibility with other worksheets, and practical classroom use. Learn how math puzzles integrate with alphabet worksheets, phonics materials, tracing activities, and coloring pages. Understand subscription benefits for creating comprehensive kindergarten and first grade worksheet collections.',
     showMoreText: 'Show more questions',
     showLessText: 'Show less',
-    items: [
-      {
-        id: '1',
-        question: 'Is This Math Puzzle Generator Really Free to Use?',
-        answer: 'The math puzzle worksheet generator requires a Full Access subscription costing $240 annually or $25 monthly. Your subscription gives you unlimited math puzzle creation with no per-worksheet fees. Generate as many kindergarten worksheets and first grade materials as you need without additional charges. Create math puzzles, alphabet worksheets, phonics materials, tracing activities, and coloring pages all with one subscription. The Core Bundle includes 10 popular worksheet generators and costs $144 annually. Full Access subscription costs $240 annually and includes all 33 worksheet generator types including math puzzles. Both subscriptions include commercial licensing, 11 language support, and professional 300 DPI quality exports. Full Access provides better value for teachers creating diverse materials like phonics worksheets, sight words activities, and alphabet practice sheets.',
-      },
-      {
-        id: '2',
-        question: 'Can I Print Math Worksheets at Home on a Regular Printer?',
-        answer: 'Yes. All math puzzle worksheets print perfectly on standard home and classroom printers. Letter size and A4 formats work with any printer. The 300 DPI resolution ensures crisp, clear printing every time. Your kindergarten worksheets look professionally printed even on basic inkjet printers. First grade worksheets maintain quality on school copy machines too. Use the grayscale option to save printer ink significantly. Convert colorful math puzzles, alphabet worksheets, and coloring materials to black and white with one click. Students complete the activities just as easily in grayscale. This feature saves schools hundreds of dollars annually in ink costs. Home printers handle the free printable worksheets without issues.',
-      },
-      {
-        id: '3',
-        question: 'Do I Need Design Skills to Create Kindergarten Worksheets, Phonics Worksheets, and Tracing Worksheets?',
-        answer: 'No design skills needed for professional math puzzle worksheets. The interface guides you through every step clearly. Select grid size, choose an image, and click generate. Your worksheet appears in under 3 minutes. First grade teachers create beautiful materials on their first try without any training or design background. The same ease applies to creating alphabet worksheets, phonics activities, and tracing materials. Browse themes, select images, customize settings, and generate. The platform handles all complex formatting automatically. You focus on teaching while we handle worksheet design. Even creating complementary coloring worksheets and sight words materials requires zero artistic ability.',
-      },
-      {
-        id: '4',
-        question: 'Can I Use These Math Worksheets in My Classroom for Students?',
-        answer: 'Full Access subscription includes unlimited classroom use for all worksheet types. Create math puzzles for your entire class. Generate alphabet worksheets for literacy centers. Make phonics worksheets for reading groups. Design tracing worksheets for handwriting practice. Produce coloring worksheets for quiet time. Print unlimited copies for all your kindergarten or first grade students. Your subscription covers personal classroom use completely. Share worksheets with colleagues in your school building. Create materials for multiple classes you teach. Use math puzzles in intervention groups and enrichment activities. The unlimited creation feature means never worrying about per-student costs for any worksheet type including sight words practice and addition activities.',
-      },
-      {
-        id: '5',
-        question: 'What Languages Are Available for Alphabet Worksheets, Sight Words Worksheets, and Phonics Worksheets?',
-        answer: 'Create math puzzle worksheets in 11 different languages. The interface and image filenames translate to English, Spanish, French, German, Portuguese, Italian, Dutch, Danish, Swedish, Norwegian, and Finnish. This multilingual support extends to all worksheet types including alphabet worksheets, phonics materials, and sight words activities. Language selection affects both UI and content for kindergarten and first grade materials. Spanish alphabet worksheets show "letra" not "letter" in labels. French phonics worksheets use appropriate terminology. This consistency helps ESL students learn while practicing. Create matching math puzzles, tracing worksheets, and coloring activities in multiple languages for bilingual programs.',
-      },
-      {
-        id: '6',
-        question: 'Can I Sell Math Worksheets and Kindergarten Materials I Create with This Generator?',
-        answer: 'Yes. Full Access subscription includes full commercial print-on-demand licensing at no extra cost. Sell your math puzzles on Teachers Pay Teachers, Etsy, and Amazon KDP. Create product bundles combining math worksheets with alphabet materials, phonics activities, tracing sheets, and coloring pages. Your commercial license covers unlimited sales with no attribution requirements. Many teachers earn $500-5,000 monthly selling printable kindergarten and first grade worksheets online. Package seasonal math puzzles with complementary alphabet worksheets and phonics materials. Bundle themed coloring worksheets with matching tracing activities and sight words practice. The commercial license lets you build a profitable educational product business using materials you create.',
-      },
-      {
-        id: '7',
-        question: 'How Do I Customize First Grade Worksheets, Addition Worksheets, and Tracing Worksheets?',
-        answer: 'Customize every element on your math puzzle worksheets completely. Click any object to select it. Drag to reposition images and text anywhere. Resize elements using corner handles. Rotate objects for creative layouts. Add custom text with student names or special instructions. Choose from seven professional fonts for kindergarten and first grade reading levels. Apply the same customization to complementary materials. Edit alphabet worksheets by adding familiar images students recognize. Personalize phonics worksheets with vocabulary from current lessons. Customize tracing worksheets with student names for ownership. Modify coloring worksheets by adjusting difficulty levels. This flexibility makes every free printable worksheet uniquely suited to your specific students.',
-      },
-      {
-        id: '8',
-        question: 'What Age Groups Work Best with Kindergarten Worksheets, Coloring Worksheets, and Alphabet Worksheets?',
-        answer: 'Math puzzle worksheets work perfectly for ages 4-8. Kindergarten students aged 4-6 enjoy 2x2 grids with simple addition. First grade students aged 6-7 handle 3x3 grids with mixed operations. Second grade students aged 7-8 tackle 4x4 challenging puzzles. The adjustable difficulty suits multiple grade levels and ability ranges. Pair age-appropriate math puzzles with corresponding materials. Younger kindergarten students benefit from alphabet worksheets focusing on letter recognition. Advanced kindergarten children enjoy phonics worksheets with CVC words. First grade students combine addition worksheets with sight words practice. Include tracing worksheets for developing fine motor skills and coloring worksheets for creative expression across all age groups.',
-      },
-      {
-        id: '9',
-        question: 'Can I Upload Images to Math Worksheets, Coloring Worksheets, and Sight Words Worksheets?',
-        answer: 'Yes. Upload unlimited custom images to personalize all worksheet types. Click the upload button and select multiple files simultaneously. Add classroom photos, student artwork, or curriculum-specific graphics. Your uploaded images work exactly like library images in math puzzles, alphabet worksheets, phonics materials, tracing activities, and coloring pages. Multi-file upload saves significant time creating coordinated materials. Upload 20 farm images at once for farm-themed week. Use the same images across math puzzles, alphabet practice, phonics activities, tracing sheets, and coloring worksheets. This consistency creates cohesive learning experiences. Students recognize familiar images across different kindergarten and first grade worksheet types.',
-      },
-      {
-        id: '10',
-        question: 'How Long Does It Take to Create Free Printable Worksheets for Kindergarten?',
-        answer: 'Creating math puzzle worksheets takes under 3 minutes from start to download. Select grid size, choose operation, pick an image, and generate. Download both worksheet and answer key. The same speed applies to alphabet worksheets, phonics materials, and other types. Generate any kindergarten or first grade worksheet in 2-3 minutes total. Traditional worksheet creation takes 30-60 minutes per sheet. You save 30-50 minutes every time you generate materials. Create five different worksheets—math puzzle, alphabet practice, phonics activity, tracing sheet, and coloring page—in 15 minutes instead of 3+ hours. This time savings adds up to 100+ hours annually for busy teachers.',
-      },
-      {
-        id: '11',
-        question: 'Do Math Worksheets, Addition Worksheets, and First Grade Worksheets Include Answer Keys?',
-        answer: 'Yes. Every math puzzle worksheet includes a separate answer key download. Click Generate and select "Answer Key" after creating your worksheet. The answer key shows all solutions filled in clearly. Students self-check their work using the answer key. Teachers save grading time with solutions readily available. Answer keys download separately from worksheets in PDF or JPEG format. Print just worksheets for students. Keep answer keys for your records. Or provide both for home practice with parent support. This flexibility works perfectly for kindergarten and first grade students learning independence. The separate files give you complete control over how materials are used.',
-      },
-      {
-        id: '12',
-        question: 'Can I Create Packets Combining Free Printable Worksheets, Phonics Worksheets, and Tracing Worksheets?',
-        answer: 'Absolutely. Most teachers create comprehensive curriculum packets combining multiple worksheet types. Bundle math puzzles with alphabet worksheets for complete kindergarten morning work. Package phonics worksheets with sight words practice and addition materials for first grade centers. Include tracing worksheets for fine motor development and coloring worksheets for rewards. Create themed units using coordinated materials across subjects. Farm week combines farm animal math puzzles, farm alphabet worksheets, farm phonics activities, farm animal tracing practice, and farm coloring pages. Ocean unit includes ocean math, sea creature alphabet work, ocean vocabulary phonics, wave tracing patterns, and underwater coloring. One subscription provides materials for completely integrated kindergarten and first grade curriculum units.',
-      },
-      {
-        id: '13',
-        question: 'How Do I Get My Free Worksheet for Kids?',
-        answer: 'Getting your free worksheet for kids is simple with our math puzzle worksheet generator. Start by selecting your preferred grid size and math operation. Choose an image from our 3000+ library or upload your own. Click Generate to create your free printable worksheet instantly. Download the math puzzle worksheets as PDF or JPEG. The entire process takes under 3 minutes from start to download. Your Full Access subscription provides unlimited free worksheet generation for kindergarten and first grade students.',
-      },
-      {
-        id: '14',
-        question: 'Are These Free Worksheets Really Unlimited?',
-        answer: 'Yes, your Full Access subscription provides truly unlimited free worksheets creation. Generate as many math puzzle worksheets as you need without per-worksheet fees. Create hundreds of kindergarten worksheets and first grade materials each month. The free printable worksheets never run out or expire during your subscription. Many teachers create 50-100 free worksheets monthly for their classrooms. No hidden limits or additional charges for high-volume worksheet creation.',
-      },
-      {
-        id: '15',
-        question: 'What Makes This the Best Free Printables Generator?',
-        answer: 'Our free printables generator stands out with professional 300 DPI quality and unlimited creation. The math worksheet generator includes 3000+ child-friendly images. Create free printable worksheets in 11 languages for diverse classrooms. Every worksheet for kids includes automatic answer key generation. Commercial licensing lets you sell your free printables on Teachers Pay Teachers. The combination of quality, quantity, and flexibility makes this the best free worksheet generator for educators.',
-      },
-      {
-        id: '16',
-        question: 'Which Worksheet for Kindergarten Should I Start With?',
-        answer: 'Start with 2x2 grid math puzzle worksheets for kindergarten students. These simpler free worksheets contain just four problems per page. Addition-only operations work best for beginning kindergarten learners. Choose familiar images like animals or food that children recognize. The worksheet for kindergarten should use numbers 1-5 initially. Progress to 3x3 grids as students build confidence with free printable math worksheets.',
-      },
-      {
-        id: '17',
-        question: 'Can I Create Free Worksheet for Kids at Different Levels?',
-        answer: 'Absolutely. Create differentiated free worksheet for kids at multiple ability levels simultaneously. Use 2x2 grids for struggling students and 4x4 grids for advanced learners. Select addition-only for beginners and mixed operations for confident mathematicians. The free worksheets generator lets you customize difficulty instantly. Create a complete set of kindergarten worksheets at three difficulty levels in under 10 minutes. This differentiation makes free printable worksheets perfect for mixed-ability classrooms.',
-      },
-      {
-        id: '18',
-        question: 'How Do Free Printable Worksheets Compare to Store-Bought?',
-        answer: 'Free printable worksheets from our generator offer significant advantages over store-bought materials. Customize every element to match your curriculum exactly. Create themed free worksheets aligned with current classroom topics. Store-bought math worksheets use generic content that may not fit your needs. Our free worksheet for kids includes unlimited variations at professional quality. The $240 annual subscription costs less than buying workbooks for one classroom. Plus your free printables include commercial licensing to sell your creations.',
-      },
-      {
-        id: '19',
-        question: 'How Do I Create Sight Words Worksheets and Alphabet Worksheets for Kindergarten Worksheets?',
-        answer: 'Creating sight words worksheets and alphabet worksheets works seamlessly with our kindergarten worksheets platform. Start with the math puzzle generator as your foundation. Choose images that reinforce sight word vocabulary like common objects children recognize. Combine math puzzle practice with alphabet worksheets for comprehensive early literacy development. The visual puzzle format helps kindergarten students connect images with words while practicing basic math. Many teachers create themed packets combining sight words worksheets, alphabet worksheets, and math puzzles for complete kindergarten instruction. One subscription provides unlimited generation of all worksheet types including tracing worksheets and coloring worksheets.',
-      },
-      {
-        id: '20',
-        question: 'Can I Make Phonics Worksheets and Tracing Worksheets with This Free Worksheet Generator?',
-        answer: 'Yes, you can create phonics worksheets and tracing worksheets alongside math puzzle materials with your Full Access subscription. The platform includes multiple worksheet generators covering phonics instruction, letter tracing, and fine motor development. Combine phonics worksheets with math puzzles for integrated learning centers. Use tracing worksheets before math activities to warm up pencil control. Create curriculum packets that flow from tracing worksheets to phonics worksheets to math practice. This comprehensive approach addresses all kindergarten and first grade learning needs. The free worksheet generator produces professional-quality phonics worksheets and tracing worksheets at 300 DPI resolution.',
-      },
-      {
-        id: '21',
-        question: 'What Coloring Worksheets Work Best with Addition Worksheets for First Grade Worksheets?',
-        answer: 'Coloring worksheets paired with addition worksheets create engaging first grade worksheets combinations. Use themed coloring worksheets as rewards after completing addition practice. Match image themes across both worksheet types for cohesive learning packets. Farm animal coloring worksheets complement farm-themed addition worksheets perfectly. Holiday coloring worksheets pair beautifully with seasonal math practice. Many first grade teachers create morning work packets starting with addition worksheets followed by related coloring worksheets. This combination maintains student engagement while reinforcing math concepts. The 3000+ image library ensures perfect theme matching across coloring worksheets and addition worksheets.',
-      },
-      {
-        id: '22',
-        question: 'Are These Free Worksheet for Kids Materials Compatible with Sight Words Worksheets?',
-        answer: 'All our free worksheet for kids materials integrate seamlessly with sight words worksheets. The math puzzle generator uses images that reinforce sight word vocabulary naturally. Create comprehensive literacy and numeracy packets combining math puzzles with sight words worksheets. Use images of common sight word objects in your math puzzles to reinforce vocabulary. Many kindergarten and first grade teachers report improved sight word retention when combined with visual math practice. The commercial license lets you bundle free worksheet for kids materials with sight words worksheets for Teachers Pay Teachers sales. One subscription covers unlimited creation of both math puzzles and sight words worksheets.',
-      },
-      {
-        id: '23',
-        question: 'How Do Tracing Worksheets and Alphabet Worksheets Support Kindergarten Worksheets Development?',
-        answer: 'Tracing worksheets and alphabet worksheets form essential foundations for kindergarten worksheets curriculum. Tracing worksheets develop fine motor control needed for number formation in math. Alphabet worksheets build letter recognition that supports reading math word problems. Start daily instruction with tracing worksheets to warm up pencil grip. Follow with alphabet worksheets for literacy practice. Complete with math puzzle worksheets for numeracy development. This progression from tracing worksheets through alphabet worksheets to math creates natural skill building. Many kindergarten teachers report improved math worksheet completion after consistent tracing worksheets practice.',
-      },
-      {
-        id: '24',
-        question: 'Can I Bundle Free Printables with Phonics Worksheets and Coloring Worksheets?',
-        answer: 'Bundling free printables with phonics worksheets and coloring worksheets maximizes your commercial licensing value. Create comprehensive learning packets combining math puzzles, phonics worksheets, and coloring worksheets. Teachers Pay Teachers customers prefer bundled products over individual worksheets. Package themed bundles with coordinated phonics worksheets and coloring worksheets for higher prices. Your Full Access subscription includes commercial licensing for unlimited bundle sales. Many teacher entrepreneurs earn $500-5,000 monthly selling bundled free printables. Combine phonics worksheets with coloring worksheets and math materials for complete curriculum packets. One subscription provides all the tools needed for profitable educational product creation.',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Pricing
@@ -476,56 +219,8 @@ The puzzles use familiar images children love. Select from our 3000+ image libra
     ctaDescription: 'Join educators creating professional worksheets. Unlimited generation, commercial license included.',
     primaryCtaText: 'Start Free Trial',
     secondaryCtaText: 'View All 33 Apps',
-    items: [
-      {
-        id: '1',
-        slug: 'addition-worksheets',
-        name: 'Addition Worksheets',
-        category: 'Math',
-        icon: '➕',
-        description: 'Combine math puzzle worksheets with addition worksheets for comprehensive math practice. Students build fact fluency through varied problem formats. Create complete math center rotations using different worksheet types. Addition worksheets provide traditional practice while math puzzles add visual engagement.',
-      },
-      {
-        id: '2',
-        slug: 'coloring-worksheets',
-        name: 'Coloring Pages',
-        category: 'Art & Creativity',
-        icon: '🎨',
-        description: 'Combine math puzzle worksheets with coloring worksheets for engaging kindergarten activity packets. Students love coloring time as rewards after completing math work. Create packets with math puzzles followed by coloring pages. This combination keeps young learners motivated and engaged.',
-      },
-      {
-        id: '3',
-        slug: 'alphabet-train-worksheets',
-        name: 'Alphabet Train',
-        category: 'Early Learning',
-        icon: '🚂',
-        description: 'Combine math puzzle worksheets with alphabet worksheets for complete preschool readiness packets. Very young learners need both early math and literacy foundations. Create morning work packets alternating between letter recognition and simple math puzzles.',
-      },
-      {
-        id: '4',
-        slug: 'matching-worksheets',
-        name: 'Matching Worksheets',
-        category: 'Logic',
-        icon: '🔗',
-        description: 'Combine math puzzle worksheets with matching worksheets for visual discrimination practice. Both worksheet types develop pattern recognition skills. Students strengthen cognitive abilities across different activity formats. Create themed packets combining math and matching activities.',
-      },
-      {
-        id: '5',
-        slug: 'word-search-worksheets',
-        name: 'Word Search',
-        category: 'Language Arts',
-        icon: '🔍',
-        description: 'Combine math puzzle worksheets with word search activities for integrated learning packets. Students practice both math and vocabulary during morning work time. Create themed packets where images connect across subjects.',
-      },
-      {
-        id: '6',
-        slug: 'drawing-lines-worksheets',
-        name: 'Tracing Worksheets',
-        category: 'Fine Motor',
-        icon: '✏️',
-        description: 'Letter tracing worksheets develop fine motor control essential for writing math answers. Students must hold pencils correctly and form numbers legibly. Bundle tracing worksheets before math puzzle practice in learning packets.',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 };
 

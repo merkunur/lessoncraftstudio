@@ -100,36 +100,8 @@ Traditionele werkbladen kosten veel tijd om te maken. Met deze tool bespaar je u
     badgeText: 'Gratis Voorbeelden',
     downloadingLabel: 'Downloaden...',
     ofLabel: 'van',
-    items: [
-      {
-        id: '1',
-        worksheetSrc: '/samples/dutch/wordsearch/sample-1.jpeg',
-        answerKeySrc: '/samples/dutch/wordsearch/sample-1-answer.jpeg',
-        altText: 'Woordzoeker gratis werkblad - portret formaat puzzel voor werkbladen kleuters',
-        pdfDownloadUrl: '/samples/dutch/wordsearch/sample-1.pdf',
-      },
-      {
-        id: '2',
-        worksheetSrc: '/samples/dutch/wordsearch/sample-2.jpeg',
-        answerKeySrc: '/samples/dutch/wordsearch/sample-2-answer.jpeg',
-        altText: 'Woordzoeker gratis werkbladen - landschap puzzel voor werkbladen groep 3',
-        pdfDownloadUrl: '/samples/dutch/wordsearch/sample-2.pdf',
-      },
-      {
-        id: '3',
-        worksheetSrc: '/samples/dutch/wordsearch/sample-3.jpeg',
-        answerKeySrc: '/samples/dutch/wordsearch/sample-3-answer.jpeg',
-        altText: 'Woordzoeker werkblad voor kinderen - thematische woordpuzzel met kleurplaten',
-        pdfDownloadUrl: '/samples/dutch/wordsearch/sample-3.pdf',
-      },
-      {
-        id: '4',
-        worksheetSrc: '/samples/dutch/wordsearch/sample-4.jpeg',
-        answerKeySrc: '/samples/dutch/wordsearch/sample-4-answer.jpeg',
-        altText: 'Woordzoeker oefenbladen gratis - letters leren puzzel voor fijne motoriek',
-        pdfDownloadUrl: '/samples/dutch/wordsearch/sample-4.pdf',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Features Grid - FULL text from wordsearch.md feature sections
@@ -145,85 +117,8 @@ Traditionele werkbladen kosten veel tijd om te maken. Met deze tool bespaar je u
       noHiddenFees: 'Geen verborgen kosten',
       cancelAnytime: 'Altijd opzegbaar',
     },
-    items: [
-      {
-        id: '1',
-        icon: '⚡',
-        title: 'Werkbladen Kleuters Maken in 3 Klikken - Snel en Eenvoudig Letters Leren',
-        description: `Het maken van een woordzoeker kost geen technische kennis. Je selecteert een thema uit de bibliotheek. De generator doet de rest automatisch. Binnen drie klikken heb je een complete puzzel.
-
-Kies bijvoorbeeld het thema "Dieren" of "Fruit". De tool selecteert passende afbeeldingen met Nederlandse woorden. Perfect voor werkbladen kleuters die net beginnen met letters leren. De woorden zijn afgestemd op het niveau van groep 1 2.
-
-Je bepaalt zelf de moeilijkheidsgraad. Stel het rooster in op 8x8 voor beginners. Of kies 15x15 voor gevorderde leerlingen in groep 3. Diagonale en omgekeerde woorden maken de puzzel extra uitdagend.`,
-        highlighted: false,
-      },
-      {
-        id: '2',
-        icon: '✏️',
-        title: 'Volledig Bewerkbaar Canvas voor Rekenen Werkbladen en Woordzoekers',
-        description: `Na het genereren kun je alles aanpassen op het canvas. Sleep afbeeldingen naar een andere positie. Vergroot of verklein elementen met je muis. Draai objecten of verwijder ze volledig.
-
-Deze flexibiliteit maakt de tool perfect voor gecombineerde werkbladen. Voeg een titel toe bovenaan je puzzel. Plaats instructies voor de leerlingen. Of combineer de woordzoeker met rekenen werkbladen elementen.
-
-Je kunt ook eigen teksten toevoegen. Kies uit zeven verschillende lettertypen. Pas de kleur en grootte aan. Voeg een kader toe rond belangrijke woorden. Alles is volledig aanpasbaar.`,
-        highlighted: false,
-      },
-      {
-        id: '3',
-        icon: '📤',
-        title: 'Eigen Afbeeldingen Uploaden voor Werkbladen Groep 3 met Fijne Motoriek Oefeningen',
-        description: `Wil je een gepersonaliseerde woordzoeker maken? Upload je eigen afbeeldingen. De tool accepteert JPG, PNG en GIF bestanden. Je kunt meerdere bestanden tegelijk uploaden.
-
-Dit is ideaal voor thematische werkbladen groep 3. Gebruik foto's van een schooluitje. Of maak een puzzel met namen van klasgenoten. Kinderen vinden het extra leuk om bekende gezichten te zoeken.
-
-De uploadfunctie werkt ook voor fijne motoriek oefeningen. Upload afbeeldingen van schrijfpatronen. Of voeg plaatjes toe die passen bij je huidige lesonderwerp. De mogelijkheden zijn eindeloos.`,
-        highlighted: false,
-      },
-      {
-        id: '4',
-        icon: '🌍',
-        title: '11 Talen Ondersteuning - Veilig Leren Lezen in het Nederlands en Meer',
-        description: `De woordzoeker generator ondersteunt elf talen. Nederlands staat natuurlijk voorop. Maar je maakt ook puzzels in het Duits, Frans, Engels of Spaans. Ideaal voor meertalig onderwijs.
-
-Voor Nederlandse basisscholen is de tool perfect afgestemd op Veilig leren lezen. De woorden in de bibliotheek passen bij de woordenschat van groep 3. Kinderen herkennen de woorden uit hun leesmethode.
-
-De interface is volledig in het Nederlands beschikbaar. Alle knoppen en menu's zijn vertaald. Ook de thema-namen en afbeeldingslabels zijn Nederlands. Zo werk je altijd in je eigen taal.`,
-        highlighted: false,
-      },
-      {
-        id: '5',
-        icon: '📐',
-        title: 'Aanpasbare Rastergroottes - Oefenbladen Gratis voor Alle Niveaus',
-        description: `Kies de roostergrootte van 5x5 tot 30x30. Kleinere roosters voor werkbladen kleuters. Grotere roosters voor gevorderde leerlingen. De moeilijkheidsgraad past zich automatisch aan.
-
-Diagonale woorden kunnen aan of uit worden gezet. Omgekeerde woorden maken de puzzel moeilijker. Woorden lopen dan ook van rechts naar links. Of van onder naar boven. Gebruik dit voor rekenen werkbladen combinaties met gevorderde leerlingen.
-
-Selecteer ook je paginaformaat. Kies A4 staand voor standaard werkbladen. Of A4 liggend voor puzzels met grote roosters. Letter-formaat werkt ook voor internationale standaarden.`,
-        highlighted: false,
-      },
-      {
-        id: '6',
-        icon: '🎨',
-        title: 'Meer dan 3000 Afbeeldingen - Van Sommen tot 20 tot Letters Leren Thema\'s',
-        description: `De beeldbibliotheek bevat meer dan drieduizend afbeeldingen. Ze zijn georganiseerd in thema's. Van dieren en voertuigen tot seizoenen en feestdagen. Er is altijd iets dat past bij je les.
-
-Voor rekenlessen vind je afbeeldingen die passen bij sommen tot 20. Appels om te tellen. Blokken om op te tellen. Vingers voor aftrekken. Alles wat je nodig hebt voor rekenen werkbladen.
-
-De afbeeldingen voor letters leren zijn speciaal geselecteerd. Elk plaatje heeft een duidelijke naam. Kinderen herkennen het woord direct. Dit ondersteunt het leesproces in groep 3.`,
-        highlighted: true,
-      },
-      {
-        id: '7',
-        icon: '🖨️',
-        title: 'Professionele 300 DPI Kwaliteit voor Schrijven Oefenen en Tafels Oefenen Werkbladen',
-        description: `Alle werkbladen worden geëxporteerd in 300 DPI. Dit is de standaard voor professioneel drukwerk. Je puzzels zien er scherp en helder uit op papier.
-
-Deze kwaliteit is belangrijk voor schrijven oefenen activiteiten. De letters in het rooster zijn goed leesbaar. Kinderen kunnen de woorden netjes omcirkelen. Ook fijne details blijven zichtbaar.
-
-Je downloadt werkbladen als PDF of JPEG. De PDF-optie is ideaal voor printen. JPEG werkt goed voor digitaal delen. Er is ook een grijswaarden optie om inkt te besparen.`,
-        highlighted: true,
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // How-To Guide - FULL text from wordsearch.md step sections
@@ -305,80 +200,8 @@ De gratis versie bevat een klein watermerk. Dit is niet storend voor klassikaal 
     badgeText: 'Voor wie',
     readMoreLabel: 'Lees meer',
     showLessLabel: 'Minder tonen',
-    items: [
-      {
-        id: '1',
-        icon: '👶',
-        title: 'Leerkrachten Groep 1 2 - Werkbladen Kleuters met Fijne Motoriek en Letters Leren',
-        subtitle: 'Werkbladen kleuters en fijne motoriek',
-        description: `Werk je met kleuters in groep 1 of 2? Dan ken je de uitdaging van leuke leeractiviteiten. Werkbladen kleuters moeten speels zijn. Maar ook educatief waardevol.
-
-Woordzoekers zijn perfect voor fijne motoriek ontwikkeling. Kinderen oefenen het vasthouden van een potlood. Ze leren nauwkeurig kijken en omcirkelen. Dit zijn basisvaardigheden voor later schrijven.
-
-Combineer woordzoekers met kleurplaten voor een complete activiteit. Kinderen zoeken eerst de woorden. Daarna kleuren ze de bijbehorende plaatjes. Zo blijven ze langer geconcentreerd bezig.`,
-        quote: 'Mijn kleuters vinden de kleurrijke woordzoekers geweldig!',
-      },
-      {
-        id: '2',
-        icon: '📚',
-        title: 'Leerkrachten Groep 3 - Veilig Leren Lezen Ondersteunen met Oefenbladen Gratis',
-        subtitle: 'Werkbladen groep 3 en Veilig leren lezen',
-        description: `Groep 3 is het jaar van leren lezen. Methodes zoals Veilig leren lezen vormen de basis. Woordzoekers zijn een perfecte aanvulling op deze methodes.
-
-Maak puzzels met woorden uit de actuele kern. Kinderen herkennen de woorden uit hun leesboek. Dit versterkt de woordherkenning. En maakt lezen leuker.
-
-De oefenbladen gratis mogelijkheid is ideaal voor extra oefening. Print puzzels voor leerlingen die meer uitdaging nodig hebben. Of maak makkelijkere varianten voor kinderen die extra ondersteuning nodig hebben.`,
-        quote: 'Woordzoekers passen perfect bij onze leesmethode.',
-      },
-      {
-        id: '3',
-        icon: '🧮',
-        title: 'Leerkrachten Groep 4 en 5 - Tafels Oefenen en Sommen tot 20 met Woordpuzzels',
-        subtitle: 'Rekenen werkbladen en tafels oefenen',
-        description: `In groep 4 en 5 worden de puzzels uitdagender. Grotere roosters met meer woorden. Diagonale en omgekeerde woordrichtingen. Kinderen vinden dit een leuke uitdaging.
-
-Combineer woordzoekers met tafels oefenen thema's. Maak een puzzel met woorden als "keer", "delen" en "vermenigvuldigen". Kinderen leren de rekenwoordenschat terwijl ze puzzelen.
-
-Voor sommen tot 20 integratie kies je getalswoorden. "Twaalf", "vijftien" en "achttien" in een woordzoeker. Dit versterkt de koppeling tussen woord en getal.`,
-        quote: 'Rekenen wordt leuker met puzzelelementen erbij.',
-      },
-      {
-        id: '4',
-        icon: '🏠',
-        title: 'Ouders met Thuisonderwijs - Kleurplaten en Werkbladen Groep 3 voor Thuis',
-        subtitle: 'Oefenbladen gratis voor thuis',
-        description: `Geef je thuisonderwijs? Dan weet je hoe belangrijk variatie is. Dezelfde werkbladen worden snel saai. De woordzoeker generator biedt eindeloze mogelijkheden.
-
-Maak werkbladen groep 3 die aansluiten bij jullie thema. Behandel je deze week de boerderij? Genereer een woordzoeker met boerderijwoorden. Kinderen leren spelenderwijs.
-
-Combineer puzzels met kleurplaten voor een creatieve middag. De woordzoeker houdt het educatieve element. Het kleuren voegt ontspanning toe. Een perfecte balans.`,
-        quote: 'Eén tool voor al mijn kinderen op verschillende niveaus.',
-      },
-      {
-        id: '5',
-        icon: '💜',
-        title: 'Remedial Teachers - Veilig Leren Lezen Extra Oefening met Schrijven Oefenen',
-        subtitle: 'Aangepaste werkbladen kleuters',
-        description: `Werk je met kinderen die extra ondersteuning nodig hebben? Woordzoekers zijn een waardevolle tool. Ze bieden herhaling zonder verveling.
-
-Voor Veilig leren lezen achterstand maak je gerichte puzzels. Gebruik woorden waar het kind moeite mee heeft. De puzzelvorm maakt oefenen minder confronterend.
-
-Schrijven oefenen gaat samen met woordzoeken. Laat kinderen de gevonden woorden overschrijven. Ze oefenen lettervorming in een betekenisvolle context.`,
-        quote: 'Ik kan snel geïndividualiseerde werkbladen maken.',
-      },
-      {
-        id: '6',
-        icon: '💰',
-        title: 'Onderwijsondernemers - Oefenbladen Gratis Maken en Verkopen met Commerciële Licentie',
-        subtitle: 'Commerciële licentie voor ondernemers',
-        description: `Wil je geld verdienen met je lesmateriaal? De woordzoeker generator maakt dit mogelijk. Met een abonnement krijg je een commerciële licentie.
-
-Maak unieke oefenbladen en verkoop ze online. Teachers Pay Teachers is populair bij Nederlandse docenten. Ook Etsy werkt goed voor printables.
-
-Combineer woordzoekers met andere werkbladen tot pakketten. Een thema-bundel met puzzels, kleurplaten en rekenen werkbladen. Ouders en collega's betalen graag voor complete materialen.`,
-        quote: 'Mijn abonnement heeft zichzelf terugverdiend in de eerste maand!',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // FAQ Section - FULL FAQs from wordsearch.md
@@ -392,68 +215,8 @@ Combineer woordzoekers met andere werkbladen tot pakketten. Een thema-bundel met
     showLessLabel: 'Minder tonen',
     secureCheckout: 'Veilig betalen',
     cancelAnytime: 'Altijd opzegbaar',
-    items: [
-      {
-        id: '1',
-        question: 'Is Deze Woordzoeker Generator Echt Gratis voor Werkbladen Kleuters en Fijne Motoriek?',
-        answer: 'Ja, de basisversie is gratis te gebruiken. Je maakt onbeperkt woordzoekers voor persoonlijk gebruik. De werkbladen bevatten een klein watermerk onderaan. Voor werkbladen kleuters en fijne motoriek oefeningen werkt de gratis versie uitstekend. Je hebt toegang tot alle thema\'s en afbeeldingen. Ook de bewerkingsfuncties zijn volledig beschikbaar. Wil je werkbladen zonder watermerk? Of een commerciële licentie om te verkopen? Dan kies je voor een Basispakket abonnement. Dit kost €144 per jaar of €15 per maand. Het Volledige Toegang abonnement kost €240 per jaar en geeft toegang tot alle 33 generators.',
-      },
-      {
-        id: '2',
-        question: 'Kan Ik Woordzoekers met Sommen tot 20 Thuis Printen op een Gewone Printer?',
-        answer: 'Absoluut. Alle werkbladen zijn ontworpen voor thuisprinten. Ze werken perfect op elke inkjet of laserprinter. Geen speciaal papier nodig. De sommen tot 20 thema\'s printen scherp en duidelijk. Kies de grijswaarden optie om inkt te besparen. De puzzel blijft goed leesbaar in zwart-wit. Voor de beste resultaten gebruik je standaard kopieerpapier. 80 grams is prima. Je hoeft geen duur fotopapier te kopen.',
-      },
-      {
-        id: '3',
-        question: 'Heb Ik Ontwerpvaardigheden Nodig voor Tafels Oefenen Woordzoekers?',
-        answer: 'Nee, helemaal niet. De generator doet al het werk voor je. Je selecteert alleen je voorkeuren. De rest gaat automatisch. Voor tafels oefenen puzzels kies je simpelweg een rekenthema. Of typ je eigen woorden zoals "vermenigvuldigen" en "keer". De generator plaatst ze in het rooster. Zelfs het bewerken achteraf is eenvoudig. Sleep elementen met je muis. Geen Photoshop of InDesign kennis nodig.',
-      },
-      {
-        id: '4',
-        question: 'Mag Ik Woordzoekers met Veilig Leren Lezen Woorden Gebruiken in de Klas?',
-        answer: 'Ja, klassikaal gebruik is toegestaan. Dit geldt voor zowel de gratis als betaalde versie. Print zoveel kopieën als je nodig hebt. Voor Veilig leren lezen ondersteuning maak je puzzels met kernwoorden. Kinderen oefenen woordherkenning op een speelse manier. De puzzels passen perfect bij je leesmethode. Met een abonnement vervalt het watermerk. Je werkbladen zien er dan nog professioneler uit.',
-      },
-      {
-        id: '5',
-        question: 'In Welke Talen Zijn Rekenen Werkbladen met Woordzoekers Beschikbaar?',
-        answer: 'De generator ondersteunt elf talen volledig. Nederlands, Engels, Duits, Frans, Spaans, Portugees, Italiaans, Zweeds, Deens, Noors en Fins. Voor rekenen werkbladen betekent dit dat je getalswoorden in elke taal kunt gebruiken. "Twelve" in het Engels. "Zwölf" in het Duits. "Douze" in het Frans. De interface past zich aan je gekozen taal aan. Ook de afbeeldingsnamen veranderen mee.',
-      },
-      {
-        id: '6',
-        question: 'Kan Ik Kleurplaten met Woordzoekers Verkopen die Ik Maak?',
-        answer: 'Ja, met een Basispakket of Volledige Toegang abonnement. De commerciële licentie is inbegrepen. Geen extra kosten per verkocht werkblad. Combineer kleurplaten met woordzoekers in themapakketten. Verkoop ze op Teachers Pay Teachers of Etsy. Veel leerkrachten verdienen zo honderden euro\'s per maand. De 300 DPI kwaliteit is professioneel genoeg voor verkoop.',
-      },
-      {
-        id: '7',
-        question: 'Hoe Pas Ik Woordzoekers Aan voor Fijne Motoriek Oefeningen bij Kleuters?',
-        answer: 'Gebruik de instellingen om de puzzel makkelijker te maken. Kies een klein rooster van 6x6 of 8x8. Gebruik maximaal vier of vijf woorden. Voor fijne motoriek oefeningen zijn grote letters belangrijk. Het standaard lettertype is al goed leesbaar. Kinderen kunnen de woorden makkelijk omcirkelen. Voeg extra ruimte toe onder de puzzel. Daar kunnen kleuters de gevonden woorden overtekenen.',
-      },
-      {
-        id: '8',
-        question: 'Voor Welke Leeftijden Werken Sommen tot 20 Woordzoekers het Beste?',
-        answer: 'De generator is flexibel voor alle leeftijden. Van kleuters tot bovenbouw basisschool. Je past de moeilijkheidsgraad aan. Sommen tot 20 woordzoekers passen bij groep 3 en 4. Kinderen kennen de getallen al. Nu leren ze de woorden erbij. "Dertien", "veertien" en "vijftien" in de puzzel. Voor jongere kinderen maak je puzzels met getallen tot tien. Voor oudere leerlingen voeg je grotere getallen toe.',
-      },
-      {
-        id: '9',
-        question: 'Kan Ik Eigen Foto\'s Uploaden voor Veilig Leren Lezen Woordzoekers?',
-        answer: 'Ja, de uploadfunctie werkt voor alle bestandstypen. JPG, PNG en GIF worden ondersteund. Je uploadt meerdere bestanden tegelijk. Voor Veilig leren lezen personalisatie upload je eigen afbeeldingen. Foto\'s van de klas of school. Plaatjes die passen bij jullie thema. De woorden typ je zelf. De geüploade afbeeldingen verschijnen in je puzzel.',
-      },
-      {
-        id: '10',
-        question: 'Hoelang Duurt Het om Tafels Oefenen Werkbladen met Woordzoekers te Maken?',
-        answer: 'Gemiddeld drie minuten van start tot download. Dat is inclusief thema kiezen, genereren en eventueel bewerken. Voor tafels oefenen werkbladen gaat het nog sneller. Typ je woorden, kies roostergrootte en klik op genereren. In twee minuten heb je een complete puzzel. Vergelijk dit met handmatig maken. Dat kost dertig tot zestig minuten. De tijdsbesparing is enorm.',
-      },
-      {
-        id: '11',
-        question: 'Hebben Woordzoekers voor Werkbladen Kleuters een Antwoordblad?',
-        answer: 'Ja, elk werkblad heeft een bijbehorend antwoordblad. De generator maakt deze automatisch. Alle woorden zijn gemarkeerd met kleuren. Voor werkbladen kleuters is het antwoordblad handig voor de leerkracht. Controleer snel of kinderen alle woorden hebben gevonden. Of geef het aan leerlingen voor zelfcorrectie. Je downloadt werkblad en antwoordblad apart.',
-      },
-      {
-        id: '12',
-        question: 'Kan Ik Woordzoekers Maken over Rekenen Werkbladen Thema\'s en Kleurplaten?',
-        answer: 'Absoluut. De themabibliotheek is uitgebreid. Van rekenen werkbladen onderwerpen tot creatieve kleurplaten thema\'s. Er is voor elk vak iets. Kies het thema "Getallen" voor rekengerelateerde afbeeldingen. Of "Vormen" voor meetkunde. De woorden passen automatisch bij de plaatjes. Combineer woordzoekers met kleurplaten elementen. Voeg decoratieve randen toe.',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Pricing - Word Search is FREE but needs subscription for no-watermark/commercial
@@ -500,56 +263,8 @@ Combineer woordzoekers met andere werkbladen tot pakketten. Een thema-bundel met
       securePayment: 'Veilig betalen',
       cancelAnytime: 'Altijd opzegbaar',
     },
-    items: [
-      {
-        id: '1',
-        slug: 'crossword',
-        name: 'Kruiswoordpuzzel',
-        category: 'Taal',
-        icon: '📝',
-        description: 'Vul woordzoekers aan met kruiswoordpuzzels voor dezelfde woordenschat voor uitgebreide woordtraining.',
-      },
-      {
-        id: '2',
-        slug: 'word-scramble',
-        name: 'Letterpuzzel',
-        category: 'Taal',
-        icon: '🔤',
-        description: 'Combineer woordzoekers met letterpuzzels voor spelling en woordenschat vanuit verschillende invalshoeken.',
-      },
-      {
-        id: '3',
-        slug: 'word-guess',
-        name: 'Woord Raden',
-        category: 'Taal',
-        icon: '❓',
-        description: 'Voeg woord-raad activiteiten toe aan je lesstations, samen met woordzoekers voor afwisselend oefenen.',
-      },
-      {
-        id: '4',
-        slug: 'cryptogram',
-        name: 'Cryptogram',
-        category: 'Logica',
-        icon: '🔐',
-        description: 'Daag leerlingen uit met codebreker-puzzels die logisch denken en letterpatroonherkenning ontwikkelen.',
-      },
-      {
-        id: '5',
-        slug: 'coloring',
-        name: 'Kleurplaten',
-        category: 'Creativiteit',
-        icon: '🎨',
-        description: 'Beloon voltooide woordzoekers met thematische kleurplaten die de fijne motoriek ontwikkelen.',
-      },
-      {
-        id: '6',
-        slug: 'alphabet-train',
-        name: 'Alfabet Trein',
-        category: 'Vroege Educatie',
-        icon: '🚂',
-        description: 'Vul woordzoeker-oefeningen aan met letterherkenningsactiviteiten voor uitgebreid leren lezen.',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 };
 

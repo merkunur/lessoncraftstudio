@@ -64,29 +64,8 @@ Täysi Käyttöoikeus -tilaus sisältää kaikkien 33 tehtävägeneraattorin kä
     badgeText: 'Ilmaiset Esimerkit',
     downloadingLabel: 'Ladataan...',
     ofLabel: '/',
-    items: [
-      {
-        id: '1',
-        worksheetSrc: '/samples/finnish/word guess/sample-1.jpeg',
-        answerKeySrc: '/samples/finnish/word guess/sample-1-answer.jpeg',
-        altText: 'Kuva-arvaustehtävä vihjeruudukolla esiopetukseen kirjainten tunnistus',
-        pdfDownloadUrl: '/samples/finnish/word guess/sample-1.pdf',
-      },
-      {
-        id: '2',
-        worksheetSrc: '/samples/finnish/word guess/sample-2.jpeg',
-        answerKeySrc: '/samples/finnish/word guess/sample-2-answer.jpeg',
-        altText: 'Kuva-arvaustehtävä vaakasuuntainen alakoululaisille sanasto',
-        pdfDownloadUrl: '/samples/finnish/word guess/sample-2.pdf',
-      },
-      {
-        id: '3',
-        worksheetSrc: '/samples/finnish/word guess/sample-3.jpeg',
-        answerKeySrc: '/samples/finnish/word guess/sample-3-answer.jpeg',
-        altText: 'Kuva-arvaustehtävä mukautetulla sanalistalla personoitu oppiminen',
-        pdfDownloadUrl: '/samples/finnish/word guess/sample-3.pdf',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Features Grid - FULL text from Finnish word-guess.md feature sections
@@ -102,71 +81,8 @@ Täysi Käyttöoikeus -tilaus sisältää kaikkien 33 tehtävägeneraattorin kä
       noHiddenFees: 'Ei piilomaksuja',
       cancelAnytime: 'Peruuta milloin tahansa',
     },
-    items: [
-      {
-        id: '1',
-        icon: '⚡',
-        title: 'Luo Kuva-Arvaustehtäviä Kolmessa Klikkauksessa - Tulostettavat Tehtävät Lapsille Ilmainen',
-        description: `Valitse teema yli 3000 kuvasta tai valitse yksittäisiä kuvia. Määritä vaikeus valitsemalla, kuinka monta kirjainta näytetään vihjeenä. Klikkaa "Luo" ja tehtäväsi on valmis. Ei tarvitse suunnitteluosaamista. Ei tarvitse monimutkaisia ohjelmia. Vain nopea, yksinkertainen prosessi, joka vie alle kolme minuuttia.
-
-Tehtävägeneraattori valitsee automaattisesti kuvat ja luo vihjeet. Voit valita "ei vihjeitä" täydelliseen haasteeseen. Tai valitse helppo (puolet kirjaimista), normaali (neljäsosa kirjaimista) tai vaikea (kuudesosa kirjaimista) vaikeustaso. Jokainen tehtävä on räätälöity oppilaittesi tasolle.`,
-        highlighted: false,
-      },
-      {
-        id: '2',
-        icon: '✏️',
-        title: 'Muokkaa Kaikkea Kuva-Arvaustehtävässä - Esiopetus Materiaali Ilmainen',
-        description: `Kaikki pohjalla on muokattavissa. Raahaa, kierrä, skaalaa tai poista mitä tahansa elementtiä. Vaihda taustan väri yhdellä klikkauksella. Lisää reunat tai taustateemoja 3000+ kuvakirjastosta. Muuta tekstin fontteja, kokoja ja värejä. Täydellinen hallinta jokaisesta yksityiskohdasta.
-
-Kuva-arvaustehtävän luomisen jälkeen klikkaa mitä tahansa elementtiä muokataksesi sitä. Muuta kuvan kokoa vastaamaan oppilaidesi tarpeita. Lisää ohjetekstiä isommalla fontilla näkövammaisille oppilaille. Poista elementtejä yksinkertaistaaksesi esiopetuksen oppilaille. Luo uudelleen yhdellä klikkauksella, jos haluat eri kuvat.`,
-        highlighted: false,
-      },
-      {
-        id: '3',
-        icon: '📤',
-        title: 'Lataa Omat Kuvat Kuva-Arvaustehtäviin - Kirjaimet Harjoittelu Esikoulu',
-        description: `Lataa omia kuvia monivalitsemalla. Kaikki yleiset kuvaformaatit toimivat: JPEG, PNG, GIF. Yhdistä ne kirjastokuvien kanssa luodaksesi personoituja tehtäviä. Käytä oppilaittesi omien esineiden kuvia. Lataa luokkahuoneen maskottien kuvia. Tee tehtävistä henkilökohtaisia ja sitouttavia.
-
-Lataamasi kuvat toimivat täydellisesti kuvien tunnistamiseen perustuvien kuva-arvaustehtävien kanssa. Järjestelmä käyttää tiedostonnimiä sanoina tehtävissä. Nimeä kuvasi selkeästi: "koira.jpg", "kissa.png", "auto.jpg". Generaattori luo automaattisesti vihjeet tiedostonnimistä. Saat täysin personoituja tehtäviä oppilaittesi sanastosta.`,
-        highlighted: false,
-      },
-      {
-        id: '4',
-        icon: '🌍',
-        title: 'Kuva-Arvaustehtävät 11 Kielellä - Lukemaan Oppiminen Tehtävät',
-        description: `Käyttöliittymä: suomi, englanti, saksa, ranska, espanja, italia, portugali (Brasilia), hollanti, tanska, ruotsi, norja. Tehtävien sisältö: samat 11 kieltä. Tämä on erityisen tärkeää kuva-arvaustehtäville, jotka käyttävät kuvien tiedostonimiä luomaan sisältön.
-
-Vaihda käyttöliittymän kieli yhdellä klikkauksella. Kaikki valikot, painikkeet ja ohjeet päivittyvät välittömästi. Luo kuva-arvaustehtäviä suomeksi esikouluopetukseen. Luo tehtäviä englanniksi ESL-oppilaille. Luo tehtäviä ruotsiksi kaksikielisiin ohjelmiin. Yksi työkalu, 11 kieltä, rajattomat mahdollisuudet.`,
-        highlighted: false,
-      },
-      {
-        id: '5',
-        icon: '💰',
-        title: 'Kaupallinen POD-Lisenssi Kuva-Arvaustehtäville - Matematiikka Tehtävät Alakoulu',
-        description: `Täysi Käyttöoikeus -tilaus sisältää täydellisen print-on-demand kaupallisen lisenssin ilman lisämaksuja. Myy kuva-arvaustehtäviä Etsyssä. Myy niitä Teachers Pay Teachers -palvelussa. Myy niitä Amazon KDP:ssä. Ei attribuutiota vaaditaan. Täydellinen opettajayrittäjille.
-
-Kilpailijat veloittavat 79-199 dollaria vuodessa lisää kaupallisista oikeuksista. Täysi Käyttöoikeus -tilauksessasi se on mukana ilmaiseksi. Luo kuva-arvaustehtäviä aamulla. Myy niitä Teachers Pay Teachers -palvelussa iltapäivällä. Monet opettajat ansaitsevat 500-5000 dollaria kuukaudessa myymällä mukautettuja tehtäviä. Kaikki työkalut ovat tilauksessasi.`,
-        highlighted: true,
-      },
-      {
-        id: '6',
-        icon: '🎨',
-        title: '3000+ Kuvakirjasto Kuva-Arvaustehtäviin - Hienomotoriikka Harjoitukset',
-        description: `Yli 3000 lapsille sopivaa kuvaa. Teemapohjainen organisointi helpottaa löytämistä. Helppokäyttöinen teemavalikko. Yksittäisten kuvien selaaminen. Taustat mukana. Reunat mukana. Hakutoiminto.
-
-Valitse eläinteema ja saat välittömästi 200+ eläinkuvaa. Valitse ruokateema ja saat 150+ ruokakuvaa. Valitse liikenteema ja saat 100+ ajoneuvokuvia. Jokaisesta kuvasta on selkeä esikatselu. Klikkaa valitaksesi. Klikkaa uudelleen poistaaksesi. Yksinkertainen visuaalinen valinta ilman monimutkaisuutta.`,
-        highlighted: false,
-      },
-      {
-        id: '7',
-        icon: '🖨️',
-        title: 'Ammattimainen 300 DPI -Laatu Kuva-Arvaustehtävissä - Pisteestä Pisteeseen Tehtävät',
-        description: `Korkearesoluutioinen vienti tulostamista varten. Täydellinen myyntiin. JPEG- ja PDF-muodot. Harmaasävyvaihtoehto (säästä mustetta). Ammattilaatuiset tehtävät joka kerta. Ei pikselöityjä kuvia. Ei epäselviä tekstejä. Vain teräväpiirtoinen, ammattimainen laatu.
-
-Lataa PDF-muodossa täydellistä tulostusyhteensopivuutta varten. Lataa JPEG-muodossa digitaalista käyttöä tai verkossa myyntiä varten. Valitse harmaasävy säästääksesi värimustetta. Tulosta kotitulostimella tai ammattitulostimella. Laatu on aina täydellinen. 300 DPI tarkoittaa teräväpiirtoisia reunoja ja selkeitä kuvia jokaisessa tulostetussa tehtävässä.`,
-        highlighted: true,
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // How-To Guide - FULL text from Finnish word-guess.md step sections
@@ -248,80 +164,8 @@ Valitse harmaasävyvaihtoehto säästääksesi värimustetta. Klikkaa "Harmaasä
     badgeText: 'Kenelle Sopii',
     readMoreLabel: 'Lue lisää',
     showLessLabel: 'Näytä vähemmän',
-    items: [
-      {
-        id: '1',
-        icon: '👶',
-        title: 'Esiopetuksen Opettajat',
-        subtitle: 'Kirjaimet Harjoittelu Esikoulu Esiopetus Materiaali Ilmainen',
-        description: `Esiopetuksen opettajat tarvitsevat tehtäviä, jotka yhdistävät visuaalisen oppimisen kirjaintaitoihin. Kuva-arvaustehtävät ovat täydellisiä 6-vuotiaille lapsille esiopetuksessa. Kuvat pitävät lapset sitoutuneina. Kirjainvihjeet opettavat kirjaintunnistusta. Täyttötehtävä harjoittelee hienomotorisia taitoja.
-
-Luo tehtäviä teemoilla, jotka vastaavat esiopetuksen opetussuunnitelmaa. Eläintehtävät syyskuulle. Ruokatehtävät terveysopetukseen. Liikennevälineet liikenneturvallisuuteen. Jokainen tehtävä yhdistää aihealueen lukutaidon kehittämiseen. Tämä on täydellinen monialaiseen oppimiseen.
-
-Yhdistä kuva-arvaustehtävät muihin esiopetus materiaali ilmainen tehtäviin samasta tilauksesta. Luo kirjaimet harjoittelu esikoulu tehtäviä aamulla. Luo hienomotoriikka harjoitukset iltapäivällä. Luo pisteestä pisteeseen tehtävät seuraavana päivänä. Kaikki 33 työkalua ovat käytettävissäsi 240 euroa vuodessa Täysi Käyttöoikeus -tilauksella.`,
-        quote: 'Kuva-arvaustehtävät tekevät kirjainten oppimisesta hauskaa!',
-      },
-      {
-        id: '2',
-        icon: '📚',
-        title: 'Alakoulun Opettajat 1.-3. Luokka',
-        subtitle: 'Lukemaan Oppiminen Tehtävät Matematiikka Tehtävät Alakoulu',
-        description: `Alakoulun opettajat 1. luokalla, 2. luokalla ja 3. luokalla tarvitsevat tehtäviä, jotka tukevat lukutaidon kehittymistä. Ensimmäisen luokan oppilaat tarvitsevat yksinkertaisia sanoja paljon vihjeillä. Toisen luokan oppilaat tarvitsevat keskivaikeita sanoja vähemmillä vihjeillä. Kolmannen luokan oppilaat tarvitsevat haastavia sanoja vain muutamilla vihjeillä tai ilman vihjeitä.
-
-Mukauta vaikeustaso jokaiselle luokka-asteelle välittömästi. Valitse "helppo" ensimmäiselle luokalle. Valitse "normaali" toiselle luokalle. Valitse "vaikea" kolmannelle luokalle. Yksi työkalu, kaikki kolme luokka-astetta. Ei tarvitse kolmea eri työkalua. Ei tarvitse kolmea eri tilausta.
-
-Täysi Käyttöoikeus -tilaus antaa sinulle pääsyn kaikkiin 33 tehtävägeneraattoriin. Luo lukemaan oppiminen tehtäviä aamulla. Luo matematiikka tehtävät alakouluun iltapäivällä. Luo yhteenlasku ja vähennyslasku tehtävät illalla. Yhdistä kuva-arvaustehtävät matematiikkatehtäviin täydellisiksi viikkopaketteiksi.`,
-        quote: 'Voin eriyttää tehtävät jokaiselle luokka-asteelle helposti.',
-      },
-      {
-        id: '3',
-        icon: '🏠',
-        title: 'Kotiopettajat',
-        subtitle: 'Tulostettavat Tehtävät Lapsille Ilmainen Personoituun Oppimiseen',
-        description: `Kotiopettajat tarvitsevat joustavia työkaluja, jotka mukautuvat jokaisen lapsen tahtiin. Kuva-arvaustehtävät antavat sinulle täydellisen hallinnan vaikeustasosta, sisällöstä ja tyylista. Luo tehtäviä, jotka vastaavat lapsesi tarkkoja kiinnostuksen kohteita. Käytä heidän lempieläimiään. Käytä heidän lempivärejään. Käytä heidän lempiteemojaan.
-
-Lataa omia kuvia kotielämästäsi. Lataa kuvat lemmikkieläimistä. Lataa kuvat perheenjäsenistä (nimet tiedostonniminä). Lataa kuvat kotipihan kasveista. Luo täysin personoituja tulostettavat tehtävät lapsille ilmainen tehtäviä, jotka yhdistävät oppimisen perheen elämään.
-
-Kotiopettajat arvostavat monipuolisuutta. Täysi Käyttöoikeus -tilaus antaa sinulle 33 tehtävätyyppiä yhdellä tilauksella. Luo kuva-arvaustehtäviä maanantaina. Luo värityskuvia lapsille tulostettava tiistaina. Luo kertotaulut tulostettava keskiviikkona. Viisi erilaista tehtävätyyppiä viidelle viikonpäivälle. Kaikki samasta tilauksesta.`,
-        quote: 'Personoidut tehtävät pitävät lapseni motivoituneina oppimaan.',
-      },
-      {
-        id: '4',
-        icon: '🌍',
-        title: 'Kielten Opettajat ja Vieraan Kielen Opetus',
-        subtitle: 'Esiopetus Materiaali Ilmainen Kirjaimet Harjoittelu Esikoulu',
-        description: `Suomen kielen opettajat ulkomaalaisille oppilaille tarvitsevat visuaalisia työkaluja sanastonoppimiseen. Kuva-arvaustehtävät ovat täydellisiä, koska ne yhdistävät kuvan sanaan. Oppilaat näkevät kuvan koirasta. He näkevät vihjeet: "K O I _ _". He oppivat, että "KOIRA" on suomen sana tälle eläimelle.
-
-Luo tehtäviä temaattisista sanaston yksiköistä. Luo eläinsanastotehtävä. Luo ruokasanastotehtävä. Luo liikennesanastotehtävä. Luo huonekalusanastotehtävä. Luo vaatesanastotehtävä. Jokainen teema opettaa 8-10 uutta sanaa visuaalisesti ja kirjallisesti.
-
-Käytä samaa työkalua opettaaksesi suomea, englantia, ruotsia tai mitä tahansa kielistä 11 tuetusta kielestä. Vaihda käyttöliittymän kieli yhdellä klikkauksella. Luo sisältöä missä tahansa kielessä lataamalla kuvia tiedostonimillä kyseisellä kielellä. Yksi työkalu, 11 kieltä, rajattomat mahdollisuudet kieltenopetukseen.`,
-        quote: 'Monikielinen tuki on korvaamaton S2-opetuksessa.',
-      },
-      {
-        id: '5',
-        icon: '💜',
-        title: 'Erityisopetuksen Opettajat',
-        subtitle: 'Lukemaan Oppiminen Tehtävät Hienomotoriikka Harjoitukset Eriyttämiseen',
-        description: `Erityisopetuksen opettajat tarvitsevat työkaluja, jotka eriyttävät välittömästi. Kuva-arvaustehtävät antavat sinulle täydellisen hallinnan vaikeustasosta. Luo "ei vihjeitä" -versio edistyneille oppilaille. Luo "helppo" -versio aloittelijoille. Käytä samaa teemaa molemmille ryhmille. Jokainen oppilas saa haasteen omalla tasollaan.
-
-Säädä tehtävän kokoa ja muotoilua visuaalisia tai motorisia haasteita varten. Tee kuvia suuremmiksi näkövammaisille oppilaille. Tee kirjoitusruudukot suuremmiksi motorisia haasteita varten. Muuta fontteja helpommin luettaviksi lukihäiriöisille oppilaille. Lisää visuaalisia reunoja visuaalisen tuen lisäämiseksi.
-
-Yhdistä kuva-arvaustehtävät muihin hienomotoriikka harjoitukset tehtäviin. Luo pisteestä pisteeseen tehtävät motoriikan kehittämiseen. Luo värityskuvia lapsille tulostettava kynäotteen harjoitteluun. Luo kirjaimet harjoittelu esikoulu tehtäviä kirjaintunnistukseen. Kaikki työkalut ovat samassa Täysi Käyttöoikeus -tilauksessa 240 euroa vuodessa.`,
-        quote: 'Voin räätälöidä tehtävät jokaisen oppilaan tarpeisiin.',
-      },
-      {
-        id: '6',
-        icon: '💰',
-        title: 'Opettajayrittäjät',
-        subtitle: 'Myy Tulostettavat Tehtävät Lapsille Ilmainen Teachers Pay Teachers -palvelussa',
-        description: `Opettajayrittäjät myyvät mukautettuja tehtäviä Teachers Pay Teachers -palvelussa, Etsyssä ja Amazon KDP:ssä. Täysi Käyttöoikeus -tilaus sisältää täydellisen kaupallisen print-on-demand -lisenssin ilman lisämaksuja. Luo kuva-arvaustehtäviä aamulla. Myy niitä Teachers Pay Teachers -palvelussa iltapäivällä. Ei attribuutiota vaaditaan. Ei rojalteja maksettava.
-
-Monet opettajat ansaitsevat 500-5000 euroa kuukaudessa myymällä mukautettuja tehtäviä. Luo teemapaketteja: "Eläin-kuva-arvaustehtävät esiopetukseen" (20 sivua, myy 8 eurolla). "Ruoka-kuva-arvaustehtävät alakouluun" (15 sivua, myy 6 eurolla). "Liikenne-kuva-arvaustehtävät kirjainharjoitteluun" (25 sivua, myy 10 eurolla).
-
-Täysi Käyttöoikeus -tilauksesi antaa sinulle kaikki 33 generaattoria kaupallisella lisenssillä. Luo kuva-arvaustehtäviä. Luo matematiikka tehtävät alakouluun. Luo kertotaulut tulostettava -paketteja. Luo yhteenlasku ja vähennyslasku tehtävät -kokoelmia. Myy kaikkia. Kilpailijat veloittavat 79-199 euroa vuodessa lisää kaupallisista oikeuksista. Sinun tilauksessasi se on mukana ilmaiseksi 240 eurolla vuodessa.`,
-        quote: 'Tilaukseni maksoi itsensä takaisin ensimmäisessä kuussa!',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // FAQ Section - Selected FAQs from Finnish word-guess.md
@@ -335,68 +179,8 @@ Täysi Käyttöoikeus -tilauksesi antaa sinulle kaikki 33 generaattoria kaupalli
     showLessLabel: 'Näytä vähemmän',
     secureCheckout: 'Turvallinen maksu',
     cancelAnytime: 'Peruuta milloin tahansa',
-    items: [
-      {
-        id: '1',
-        question: 'Onko Tämä Kuva-Arvaustehtävägeneraattori Todella Ilmainen Käyttää?',
-        answer: 'Kuva-arvaustehtävägeneraattori vaatii Täysi Käyttöoikeus -tilauksen, joka maksaa 240 euroa vuodessa tai 25 euroa kuukaudessa. Tilauksesi antaa sinulle rajattoman kuva-arvaustehtävien luomisen ilman sivukohtaisia maksuja. Luo niin monta tulostettavat tehtävät lapsille ilmainen tehtävää kuin tarvitset ilman lisämaksuja. Peruspaketti sisältää 10 suosittua tehtävägeneraattoria ja maksaa 144 euroa vuodessa. Täysi Käyttöoikeus sisältää kaikki 33 tehtävägeneraattorityyppiä mukaan lukien kuva-arvaustehtävät.',
-      },
-      {
-        id: '2',
-        question: 'Voinko Tulostaa Kuva-Arvaustehtävät Kotona Tavallisella Tulostimella?',
-        answer: 'Kyllä voit. Kuva-arvaustehtävät on suunniteltu tavallisille kotitulostimille. Lataa PDF-muodossa täydellistä tulostusyhteensopivuutta varten. Valitse harmaasävyvaihtoehto säästääksesi värimustetta. Tulosta Letter-koossa (612×792) tai A4-koossa (595×842). Kaikki elementit sopivat täydellisesti tavalliset kotitulostimen paperille. Ammattitulostus toimii myös loistavasti. 300 DPI -laatu varmistaa teräväpiirtoiset reunat ja selkeät kuvat ammattitulostimilla.',
-      },
-      {
-        id: '3',
-        question: 'Tarvitsenko Suunnitteluosaamista Luodakseni Kuva-Arvaustehtäviä?',
-        answer: 'Ei. Kuva-arvaustehtävägeneraattori on suunniteltu opettajille, jotka eivät ole suunnittelijoita. Valitse teema. Säädä vaikeutta. Klikkaa "Luo". Valmis. Koko prosessi vie alle kolme minuuttia ilman suunnitteluosaamista. Generaattori tekee kaiken automaattisesti. Jos haluat muokata tehtäviä, raahaa-ja-pudota-käyttöliittymä on erittäin yksinkertainen.',
-      },
-      {
-        id: '4',
-        question: 'Voinko Käyttää Kuva-Arvaustehtäviä Luokkahuoneessa Oppilailleni?',
-        answer: 'Kyllä. Täysi Käyttöoikeus -tilaus sisältää rajattoman luokkahuonekäytön. Luo kuva-arvaustehtäviä esiopetuksen oppilaille. Tulosta ne kaikille 20 oppilaalle. Luo uusia tehtäviä joka viikko. Ei rajoituksia luokkahuonekäyttöön. Ei lisämaksuja oppilasmäärän perusteella. Yhdistä kuva-arvaustehtävät muihin tulostettavat tehtävät lapsille ilmainen tehtäviin samasta tilauksesta.',
-      },
-      {
-        id: '5',
-        question: 'Millä Kielillä Kuva-Arvaustehtävät Ovat Saatavilla?',
-        answer: 'Kuva-arvaustehtävät toimivat 11 kielellä: suomi, englanti, saksa, ranska, espanja, italia, portugali (Brasilia), hollanti, tanska, ruotsi, norja. Vaihda käyttöliittymän kieli yhdellä klikkauksella. Kaikki valikot, painikkeet ja ohjeet päivittyvät välittömästi valitsemallesi kielelle. Luo sisältöä millä tahansa näistä kielistä lataamalla kuvia tiedostonimillä kyseisellä kielellä.',
-      },
-      {
-        id: '6',
-        question: 'Voinko Myydä Luomiani Kuva-Arvaustehtäviä?',
-        answer: 'Kyllä. Täysi Käyttöoikeus -tilaus sisältää täydellisen kaupallisen print-on-demand -lisenssin ilman lisämaksuja. Myy kuva-arvaustehtäviä Teachers Pay Teachers -palvelussa. Myy värityskuvia lapsille tulostettava Etsyssä. Myy kertotaulut tulostettava Amazon KDP:ssä. Myy yhteenlasku ja vähennyslasku tehtävät omassa verkkokaupassa. Ei attribuutiota vaaditaan. Ei rojalteja maksettava.',
-      },
-      {
-        id: '7',
-        question: 'Kuinka Mukautetaan Kuva-Arvaustehtäviä Oppilailleni?',
-        answer: 'Kuva-arvaustehtävät antavat täydellisen hallinnan jokaisesta elementistä. Raahaa kuvia uusiin paikkoihin. Kierrä niitä täydelliseen kulmaan. Skaalaa niitä suuremmiksi tai pienemmiksi näkövammaisille oppilaille. Poista elementtejä yksinkertaistaaksesi esikouluoppilaille. Lisää tekstiä mukautettuihin ohjeisiin. Muuta värejä oppilaittesi lempiväreihin. Lisää taustateemat visuaalista kiinnostavuutta varten.',
-      },
-      {
-        id: '8',
-        question: 'Mille Ikäryhmille Nämä Kuva-Arvaustehtävät Sopivat Parhaiten?',
-        answer: 'Kuva-arvaustehtävät sopivat 5-9-vuotiaille lapsille. Esiopetuksen oppilaat (6-vuotiaat) hyötyvät "helppo" -tasosta paljon vihjeillä. Ensimmäisen luokan oppilaat (7-vuotiaat) hyötyvät "normaali" -tasosta joillakin vihjeillä. Toisen ja kolmannen luokan oppilaat (8-9-vuotiaat) hyötyvät "vaikea" -tasosta vähillä vihjeillä tai ilman vihjeitä. Säädä vaikeutta välittömästi jokaiselle oppilaalle.',
-      },
-      {
-        id: '9',
-        question: 'Voinko Ladata Omia Kuvia Kuva-Arvaustehtäviin?',
-        answer: 'Kyllä voit. Klikkaa "Lataa omat kuvat" -osiota. Valitse useita kuvatiedostoja kerralla. Kaikki yleiset muodot toimivat: JPEG, PNG, GIF. Yhdistä ne kirjastokuviin luodaksesi personoituja tehtäviä. Käytä oppilaittesi omien esineiden kuvia. Käytä luokkahuoneen maskottien kuvia. Järjestelmä käyttää tiedostonimiä sanoina tehtävissä.',
-      },
-      {
-        id: '10',
-        question: 'Kuinka Kauan Kuva-Arvaustehtävän Luominen Kestää?',
-        answer: 'Kuva-arvaustehtävän luominen vie alle kolme minuuttia alusta loppuun. Valitse teema tai kuvat (30 sekuntia). Säädä vaikeustasoa ja asetuksia (30 sekuntia). Klikkaa "Luo" (2-3 sekuntia luontiin). Muokkaa pohjalla tarpeen mukaan (60-90 sekuntia). Lataa PDF tai JPEG (2-3 sekuntia). Yhteensä: alle 3 minuuttia. Perinteinen kuva-arvaustehtävän luominen ottaa 30-60 minuuttia.',
-      },
-      {
-        id: '11',
-        question: 'Sisältyvätkö Kuva-Arvaustehtäviin Vastausavaimet?',
-        answer: 'Kuva-arvaustehtävät eivät sisällä erillistä vastausavainta, koska vastaukset ovat ilmeisiä kuvista. Jokainen kuva näyttää esineen tai eläimen. Sanan pitäisi vastata kuvaa. Esimerkiksi koiran kuva = sana "KOIRA". Kissan kuva = sana "KISSA". Auton kuva = sana "AUTO". Jos käytät omia kuvia mukautetuilla tiedostonimillä, pidä lista tiedostonimistä vastausavaimena.',
-      },
-      {
-        id: '12',
-        question: 'Voinko Luoda Kuva-Arvaustehtäviä Tietyistä Kouluaineista?',
-        answer: 'Kyllä. Käytä 3000+ kuvakirjaston teemoja ainekohtaisiin tehtäviin. Luonnontieteet: luo eläinteema (200+ eläinkuvaa), kasviteema, avaruusteema. Matematiikka: yhdistä kuva-arvaustehtävät matematiikka tehtävät alakoulu tehtäviin, kertotaulut tulostettava tehtäviin, yhteenlasku ja vähennyslasku tehtävät harjoituksiin. Taide: yhdistä kuva-arvaustehtävät värityskuvia lapsille tulostettava tehtäviin.',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Pricing - Finnish Full Access terminology
@@ -466,56 +250,8 @@ Täysi Käyttöoikeus -tilauksesi antaa sinulle kaikki 33 generaattoria kaupalli
       securePayment: 'Turvallinen maksu',
       cancelAnytime: 'Peruuta milloin tahansa',
     },
-    items: [
-      {
-        id: '1',
-        slug: 'word-search',
-        name: 'Sananetsintä',
-        category: 'Kieli',
-        icon: '🔤',
-        description: 'Yhdistä kuva-arvaustehtävät sananetsintätehtäviin sanaston ja kirjaintunnistuksen vahvistamiseen.',
-      },
-      {
-        id: '2',
-        slug: 'word-scramble',
-        name: 'Sanansekoitus',
-        category: 'Kieli',
-        icon: '🔀',
-        description: 'Täydennä kuva-arvaustehtäviä sanansekoitustehtävillä oikeinkirjoituksen harjoitteluun.',
-      },
-      {
-        id: '3',
-        slug: 'matching-app',
-        name: 'Yhdistä Parit',
-        category: 'Kognitiivinen',
-        icon: '🔗',
-        description: 'Yhdistä kuva-arvaustehtävät yhdistämistehtäviin visuaalisen tunnistamisen kehittämiseen.',
-      },
-      {
-        id: '4',
-        slug: 'image-crossword',
-        name: 'Ristisanatehtävät',
-        category: 'Kieli',
-        icon: '📝',
-        description: 'Laajenna sanastotaitoja kuvapohjaisilla ristisanatehtävillä.',
-      },
-      {
-        id: '5',
-        slug: 'writing-app',
-        name: 'Kirjoitustehtävät',
-        category: 'Hienomotoriikka',
-        icon: '✏️',
-        description: 'Yhdistä kuva-arvaustehtävät kirjoitustehtäviin kirjainten muodostamisen harjoitteluun.',
-      },
-      {
-        id: '6',
-        slug: 'find-and-count',
-        name: 'Etsi ja Laske',
-        category: 'Matematiikka',
-        icon: '🔍',
-        description: 'Täydennä kuva-arvaustehtäviä etsi ja laske -tehtävillä laskemisen harjoitteluun.',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 };
 

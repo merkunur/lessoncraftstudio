@@ -90,36 +90,8 @@ Full Tillgång-prenumerationen kostar 2400 kr per år eller 250 kr per månad. D
     badgeText: 'Gratis Exempel',
     downloadingLabel: 'Laddar ner...',
     ofLabel: 'av',
-    items: [
-      {
-        id: '1',
-        worksheetSrc: '/samples/swedish/code-addition/sample-1.jpeg',
-        answerKeySrc: '/samples/swedish/code-addition/sample-1-answer.jpeg',
-        altText: 'Gratis arbetsblad kodaddition - matematik övningar för förskoleklass porträttformat',
-        pdfDownloadUrl: '/samples/swedish/code-addition/sample-1.pdf',
-      },
-      {
-        id: '2',
-        worksheetSrc: '/samples/swedish/code-addition/sample-2.jpeg',
-        answerKeySrc: '/samples/swedish/code-addition/sample-2-answer.jpeg',
-        altText: 'Gratis arbetsblad för barn - kodaddition matematik övningar liggande format',
-        pdfDownloadUrl: '/samples/swedish/code-addition/sample-2.pdf',
-      },
-      {
-        id: '3',
-        worksheetSrc: '/samples/swedish/code-addition/sample-3.jpeg',
-        answerKeySrc: '/samples/swedish/code-addition/sample-3-answer.jpeg',
-        altText: 'Arbetsblad för förskoleklass - gratis kodaddition matematik med bilder',
-        pdfDownloadUrl: '/samples/swedish/code-addition/sample-3.pdf',
-      },
-      {
-        id: '4',
-        worksheetSrc: '/samples/swedish/code-addition/sample-4.jpeg',
-        answerKeySrc: '/samples/swedish/code-addition/sample-4-answer.jpeg',
-        altText: 'Gratis utskrifter kodaddition - arbetsblad för barn med bildbaserad matematik',
-        pdfDownloadUrl: '/samples/swedish/code-addition/sample-4.pdf',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Features Grid - FULL text from code-addition.md feature sections
@@ -135,85 +107,8 @@ Full Tillgång-prenumerationen kostar 2400 kr per år eller 250 kr per månad. D
       noHiddenFees: 'Inga dolda avgifter',
       cancelAnytime: 'Avsluta när som helst',
     },
-    items: [
-      {
-        id: '1',
-        icon: '⚡',
-        title: 'Skapa Gratis Arbetsblad för Barn på 3 Klick',
-        description: `Skapa professionella matematik arbetsblad på några sekunder. Välj ett tema med bilder. Klicka på generera. Ladda ner färdigt arbetsblad. Tre klick och ditt arbetsblad är klart. Ingen komplex design behövs. Verktyget skapar automatiskt balanserade layout. Addition och subtraktion uppgifter placeras perfekt på sidan. Varje matte övning får rätt storlek och avstånd.
-
-Du kan välja antal uppgifter från 3 till 10 per arbetsblad. Ställ in minsta och högsta tal för addition. För förskoleklass material använd tal 1-5. För årskurs 1 använd tal 1-10. För årskurs 2-3 använd tal upp till 20. Verktyget anpassar svårigheten automatiskt. Perfekt för differentierad matematik undervisning.
-
-Vill du använda specifika bilder? Välj dem manuellt från bildbiblioteket. Verktyget skapar arbetsblad med just de bilderna. Addition och subtraktion med äpplen, bilar eller djur. Du bestämmer helt själv. Skapa tematiska matte övningar för varje ämnesområde.`,
-        highlighted: false,
-      },
-      {
-        id: '2',
-        icon: '✏️',
-        title: 'Redigera Allt på Dina Gratis Arbetsblad',
-        description: `Varje element på arbetsblad gratis att skriva ut kan redigeras. Klicka på en bild för att flytta den. Dra hörnen för att ändra storlek. Rotera bilder med mushjulet. Radera element du inte vill ha. Lägg till egen text var som helst. Alla ändringar sker direkt på arbetsytan.
-
-Använd kontextuella verktygsmenyn för exakt placering. Justera flera objekt samtidigt. Anpassa lager så rätt element visas överst. Lås element som ska stanna på plats. Detta ger total kontroll över dina matematik arbetsblad. Perfekt när du skapar förskoleklass material med specifika krav.
-
-Ändra textfärg och storlek med enkla reglage. Välj bland 7 barnvänliga typsnitt. Lägg till konturer runt text för bättre läsbarhet. Ändra bakgrundsfärg eller lägg till temabakgrund. Över 100 bakgrunder att välja mellan. Lägg till dekorativa ramar runt hela arbetsblad. Skapa visuellt tilltalande matte övningar som engagerar eleverna.`,
-        highlighted: false,
-      },
-      {
-        id: '3',
-        icon: '📤',
-        title: 'Ladda Upp Egna Bilder till Gratis Arbetsblad för Barn',
-        description: `Ladda upp flera bilder samtidigt från din dator. Verktyget accepterar JPEG, PNG och GIF-format. Perfekt för att använda foton från klassrummet. Fotografera klassrumsföremål och använd dem i matematik arbetsblad. Barn älskar att räkna bekanta saker. Detta gör matte övningar mer personliga och engagerande.
-
-Kombinera våra 3000 bilder med dina egna foton. Skapa helt unika förskoleklass material. Använd bilder från temaveckor eller projekt. Foton från utflykter blir addition och subtraktion uppgifter. Eleverna får räkna saker de själva upplevt. Detta ökar motivation och förståelse.
-
-Egna bilder fungerar perfekt för specialpedagogik. Fotografera elevens favoritleksaker. Skapa personliga matematik arbetsblad anpassade efter intressen. Detta gör matte övningar meningsfulla för alla elever. Upload-funktionen gör differentieringen enkel.`,
-        highlighted: false,
-      },
-      {
-        id: '4',
-        icon: '🌍',
-        title: 'Gratis Arbetsblad på Svenska och 10 Andra Språk',
-        description: `Verktyget fungerar på 11 olika språk. Svenska, engelska, tyska, franska, spanska, italienska, portugisiska, nederländska, danska, norska och finska. Byt språk med ett klick. Alla bildfilnamn översätts automatiskt. Detta gör det lätt att hitta rätt bilder. Perfekt för flerspråkiga klassrum och modersmålsundervisning.
-
-Bildbiblioteket har svenska filnamn. Sök på "äpple" för att hitta äppelbilder. Sök på "bil" för bilbilder. Sökningen fungerar på det valda språket. Detta sparar enormt mycket tid. Du hittar rätt bilder direkt utan att bläddra. Skapa matematik arbetsblad snabbare än någonsin.
-
-Användargränssnittet visar all text på svenska. Knappar, menyer och instruktioner på ditt språk. Inga engelska termer att gissa på. Detta gör verktyget tillgängligt för alla lärare. Även de som inte är bekväma med engelska. Skapa professionella matte övningar på ditt modersmål.`,
-        highlighted: false,
-      },
-      {
-        id: '5',
-        icon: '💰',
-        title: 'Kommersiell Licens för Att Sälja Matematik Arbetsblad',
-        description: `Full Tillgång inkluderar print-on-demand kommersiell licens. Sälj dina matematik arbetsblad på Teachers Pay Teachers. Starta en Etsy-butik med arbetsblad gratis att skriva ut. Publicera övningsböcker på Amazon KDP. Ingen extra licensavgift krävs. Ingen attribution behövs. Du äger dina skapade arbetsblad helt.
-
-Svenska lärare tjänar 5000-50000 kr per månad genom att sälja arbetsblad. Matte övningar är extremt populära på Teachers Pay Teachers. Addition och subtraktion arbetsblad säljer bra. Förskoleklass material har hög efterfrågan. Skapa en produktportfölj med vårt verktyg. Full Tillgång-prenumerationen betalar sig själv snabbt.
-
-Konkurrerande plattformar tar 100-200 kr extra per år för kommersiell licens. Vi inkluderar det i din 2400 kr prenumeration. Detta sparar pengar och förenklar. Börja sälja direkt utan extraavgifter. Professionell 300 DPI-kvalitet gör dina produkter attraktiva.`,
-        highlighted: true,
-      },
-      {
-        id: '6',
-        icon: '🎨',
-        title: 'Bildbibliotek med 3000+ Bilder för Gratis Arbetsblad',
-        description: `Över 3000 barnvänliga bilder inkluderade. Organiserade i tematiska kategorier. Djur, fordon, mat, leksaker, växter och mycket mer. Varje tema innehåller dussintals bilder. Hitta snabbt vad du behöver. Perfekt för att skapa varierade matematik arbetsblad.
-
-Alla bilder är barnvänliga och tydliga. Enkla konturer som är lätta att räkna. Perfekt för förskoleklass material och lågstadiet. Bilderna fungerar också som målarbilder barn kan färglägga. Skriv ut arbetsblad i gråskala. Eleverna räknar och färglägger samtidigt. Kombinerar matematik med finmotorik övningar.
-
-Sök bland alla 3000 bilder med sökfunktionen. Skriv ett nyckelord på svenska. Relevanta bilder visas direkt. Välj exakt de bilder du vill ha. Skapa tematiska addition och subtraktion arbetsblad enkelt. Julbilder i december, våren bilder i maj. Håll matte övningar aktuella och säsongsbundna.`,
-        highlighted: false,
-      },
-      {
-        id: '7',
-        icon: '🖨️',
-        title: 'Professionell 300 DPI Kvalitet för Matematik Arbetsblad',
-        description: `Alla arbetsblad exporteras i professionell 300 DPI-upplösning. Perfekt för utskrift hemma eller på skolan. Ingen pixlig eller suddig text. Bilder förblir skarpa och tydliga. Professionell kvalitet som ser ut som förlagsproducerade arbetsblad gratis. Imponera föräldrar och kollegor.
-
-Välj mellan JPEG och PDF-format. JPEG perfekt för att dela digitalt. PDF bevara exakt layout för utskrift. Ladda ner facit separat med samma kvalitet. Både arbetsblad och facit i 300 DPI. Gråskalealternativ sparar färgbläck vid utskrift. Alla exportalternativ inkluderade utan extra kostnad.
-
-Skapa både arbetsblad och facit med ett klick. Facit visar svaren automatiskt. Spara tid på rättning och förberedelse. Ge facit till äldre elever för självkontroll. Använd i arbetsbladsboxar och stationer. Professionell matematik arbetsblad på minuter istället för timmar.`,
-        highlighted: true,
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // How-To Guide - FULL text from code-addition.md step sections
@@ -305,80 +200,8 @@ Alla nedladdningar är 300 DPI professionell kvalitet. Skarp text och tydliga bi
     badgeText: 'Vem Det Är För',
     readMoreLabel: 'Läs mer',
     showLessLabel: 'Visa mindre',
-    items: [
-      {
-        id: '1',
-        icon: '👶',
-        title: 'Förskoleklass Lärare',
-        subtitle: 'Gratis Arbetsblad för Siffror och Tal samt Finmotorik Övningar',
-        description: `Förskoleklassen bygger grunden för all framtida matematik. Barn lär sig siffror och tal genom konkreta upplevelser. Våra matematik arbetsblad ger perfekta visuella exempel. Räkna bilder av äpplen, bilar och djur. Addition med tal 1-5 passar perfekt för 6-åringar. Skapa arbetsblad gratis att skriva ut för hela klassen.
-
-Kombinera matematik med finmotorik övningar. Lägg till målarbilder barn kan färglägga efter räkning. Eleverna räknar först, sedan färglägger de svar-antal objekt. Detta integrerar matte övningar med finjustering av penngrepp. Perfekt förskoleklass material som tränar flera färdigheter samtidigt.
-
-Förskolans läroplan kräver varierande aktiviteter. Skapa tematiska arbetsblad för varje vecka. Höstlöv-addition i september. Snögubbe-addition i januari. Påskägg-addition i april. Barn älskar säsongsbundna förskoleklass material. Motivationen ökar när matematik kopplas till årstider.`,
-        quote: 'Mina elever älskar de bildbaserade additionsövningarna!',
-      },
-      {
-        id: '2',
-        icon: '📚',
-        title: 'Lågstadielärare Årskurs 1-3',
-        subtitle: 'Matte Övningar för Addition och Subtraktion med Gratis Arbetsblad',
-        description: `Årskurs 1-3 lärare behöver differentierade matematik arbetsblad. Samma klassrum har elever på olika nivåer. Några räknar till 10, andra till 100. Vårt verktyg skapar anpassade matte övningar på sekunder. Ställ in talområde per elev. Alla får lagom utmaning.
-
-Årskurs 1 fokuserar på siffror och tal 1-20. Skapa addition och subtraktion arbetsblad med bilder. Eleverna ser konkret vad siffrorna betyder. Övergång från konkret till abstrakt blir mjukare. Arbetsblad gratis att anpassa och skriva ut varje dag.
-
-Årskurs 2-3 övar större tal och kombinerar operation. Skapa blandade arbetsblad med både addition och subtraktion. Lägg till multiplikationstabellen för årskurs 3. Kombinera olika arbetsbladstyper för komplett matte övningar. Använd också övningar för klockan lära sig parallellt med räkneuppgifter.`,
-        quote: 'Hitta Addenden-läget är perfekt för algebraiskt tänkande.',
-      },
-      {
-        id: '3',
-        icon: '🏠',
-        title: 'Hemmaskolelärare',
-        subtitle: 'Förskoleklass Material och Matematik Arbetsblad för Flera Barn',
-        description: `Hemmaskolelärare undervisar ofta barn i olika åldrar samtidigt. Ett barn i förskoleklass, ett i årskurs 1, ett i årskurs 3. Varje barn behöver egna matematik arbetsblad. Vårt verktyg gör detta enkelt. Skapa tre olika svårighetsnivåer på 10 minuter.
-
-Använd samma bildtema för alla barn. Djur-addition för alla tre. Men olika talområden. Förskoleklass material med tal 1-5. Årskurs 1 med tal 1-10. Årskurs 3 med tal 1-20. Barnen känner samhörighet genom samma tema. Ändå får alla lagom svårt.
-
-Hemmaskolefamiljer älskar arbetsblad gratis att anpassa helt. Fotografera familjens husdjur. Använd bilder från utflykter. Skapa personliga matte övningar kopplade till barnens liv. Addition och subtraktion blir meningsfulla när de räknar bekanta saker. Motivationen skjuter i höjden.`,
-        quote: 'Ett verktyg täcker alla mina barns årskurser.',
-      },
-      {
-        id: '4',
-        icon: '🌍',
-        title: 'Språklärare och Flerspråkiga Klassrum',
-        subtitle: 'Matematik Arbetsblad på 11 Språk med Bokstäver Lära Sig',
-        description: `Svenska som andraspråk lärare använder matematik arbetsblad för språkutveckling. Bilderna har svenska namn. Barn lär sig ord medan de räknar. "Ett äpple, två äpplen" övar både siffror och substantiv. Perfekt integration av matte övningar och språkinlärning.
-
-Verktyget fungerar på 11 språk. Byt till barnets modersmål för extra stöd. Sedan tillbaka till svenska. Jämför ord på olika språk. Detta bygger tvåspråkighet. Använd också andra arbetsblad för bokstäver lära sig parallellt. Kombinera matematik med läs- och skrivinlärning.
-
-Internationella skolor behöver flexibla förskoleklass material. Samma arbetsblad på engelska och svenska. Barn får se att matematik är universellt. Siffror och tal fungerar likadant överallt. Detta breddar världsbilden samtidigt som de övar addition och subtraktion.`,
-        quote: 'Flerspråkigt stöd är avgörande för mitt klassrum.',
-      },
-      {
-        id: '5',
-        icon: '💜',
-        title: 'Specialpedagoger',
-        subtitle: 'Anpassade Matte Övningar och Förskoleklass Material för Alla Elever',
-        description: `Specialpedagoger behöver extremt anpassningsbara matematik arbetsblad. Varje elev har unika behov. Någon behöver bara 3 uppgifter per sida. Någon behöver extra stora bilder. Någon behöver specifika intressen. Vårt verktyg gör alla anpassningar möjliga.
-
-Skapa arbetsblad gratis med elevens favoritintressen. Dinosaurier för ett barn. Bilar för ett annat. Prinsessor för ett tredje. Motivation ökar enormt med personliga bilder. Upload egna foton av elevens leksaker. Skapa helt unika förskoleklass material.
-
-Kombinera matematik med andra färdighetsträning. Addition och subtraktion med finmotorik övningar. Låt eleven färglägga efter räkning. Träna penngrepp samtidigt som matte övningar. Effektiv användning av tid för elever som behöver extra stöd.`,
-        quote: 'Jag kan snabbt anpassa arbetsblad för varje elevs behov.',
-      },
-      {
-        id: '6',
-        icon: '💰',
-        title: 'Lärarentreprenörer',
-        subtitle: 'Sälj Matematik Arbetsblad och Arbetsblad Gratis Mallar Online',
-        description: `Svenska lärare tjänar extra genom att sälja arbetsblad gratis mallar. Teachers Pay Teachers har stor svensk marknad. Matte övningar för addition och subtraktion säljer extremt bra. Förskoleklass material har konstant hög efterfrågan. Börja din lärarbutik med vårt verktyg.
-
-Skapa produktpaket med matematik arbetsblad för hela året. Höstpaket, vinterpaket, vårpaket, sommarpaket. Varje paket med 20-30 arbetsblad. Sälj för 49-99 kr per paket. Tjäna 5000-20000 kr extra per månad. Full Tillgång-prenumerationen på 2400 kr betalar sig själv snabbt.
-
-Diversifiera med andra arbetsbladstyper. Kombinera addition och subtraktion med multiplikationstabellen. Lägg till övningar för klockan lära sig. Skapa paket för bokstäver lära sig och skriva bokstäver. Använd alla 33 verktyg i Full Tillgång. Bygg en komplett produktkatalog.`,
-        quote: 'Min prenumeration betalade sig själv första månaden!',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // FAQ Section - Selected FAQs from code-addition.md
@@ -392,68 +215,8 @@ Diversifiera med andra arbetsbladstyper. Kombinera addition och subtraktion med 
     showLessLabel: 'Visa mindre',
     secureCheckout: 'Säker betalning',
     cancelAnytime: 'Avsluta när som helst',
-    items: [
-      {
-        id: '1',
-        question: 'Är Denna Matematik Arbetsblad Generator Verkligen Gratis att Använda?',
-        answer: 'Verktyget för matematik arbetsblad kräver Full Tillgång-prenumeration som kostar 2400 kr årligen eller 250 kr månadsvis. Din prenumeration ger obegränsad skapande av arbetsblad gratis utan extra avgifter per arbetsblad. Generera så många matte övningar du behöver utan tilläggsavgifter. Detta är mycket mer kostnadseffektivt än att köpa färdiga arbetsblad.',
-      },
-      {
-        id: '2',
-        question: 'Kan Jag Skriva Ut Arbetsblad Gratis för Siffror och Tal Hemma på Vanlig Skrivare?',
-        answer: 'Ja, alla matematik arbetsblad kan skrivas ut hemma. Fungerar perfekt på vanliga bläckstråleskrivare och laserskrivare. PDF-format bevarar exakt kvalitet. 300 DPI-upplösning ser professionell ut. Siffror och tal syns kristallklart. Bilder förblir skarpa även på budgetskrivare.',
-      },
-      {
-        id: '3',
-        question: 'Kan Jag Kombinera Addition och Subtraktion med Multiplikationstabellen i Samma Arbetsblad?',
-        answer: 'Vårt verktyg skapar addition och subtraktion arbetsblad med bilder. För multiplikationstabellen använd vårt separata multiplikationsverktyg. Båda ingår i Full Tillgång. Skapa olika arbetsbladstyper för komplett matematik undervisning. Kombinera dem i samma läromedelspaket för eleverna.',
-      },
-      {
-        id: '4',
-        question: 'Fungerar Verktyget för Förskoleklass Material och Alla Typer av Matte Övningar?',
-        answer: 'Ja, perfekt för förskoleklass material. Skapa addition med siffror och tal 1-5. Anpassa svårigheten exakt för 6-åringar. Förskoleklass fokuserar på konkret matematik. Bilder gör abstrakt till konkret. Barn räknar äpplen istället för bara siffror.',
-      },
-      {
-        id: '5',
-        question: 'Kan Jag Skapa Målarbilder Barn Kan Färglägga Kombinerat med Matematik?',
-        answer: 'Ja, perfekt kombination! Skapa matematik arbetsblad i gråskala. Eleverna räknar först, sedan färglägger bilderna. Målarbilder barn älskar gör matematik roligare. "Räkna äpplena och färglägg dem röda." Detta kombinerar matte övningar med finmotorik övningar.',
-      },
-      {
-        id: '6',
-        question: 'Ingår Kommersiell Licens för Att Sälja Matematik Arbetsblad Jag Skapar?',
-        answer: 'Ja, Full Tillgång inkluderar full print-on-demand kommersiell licens. Sälj dina matematik arbetsblad på Teachers Pay Teachers, Etsy och Amazon KDP. Ingen extra licensavgift. Ingen attribution krävs. Du äger dina skapade arbetsblad helt. Detta är enorm värde inkluderat i 2400 kr prenumerationen.',
-      },
-      {
-        id: '7',
-        question: 'Kan Jag Kombinera Finmotorik Övningar med Matematik Arbetsblad för Förskoleklass?',
-        answer: 'Absolut! Finmotorik övningar passar perfekt med matematik arbetsblad. Låt eleverna färglägga bilder efter räkning. Rita egna bilder att räkna. Klippa ut bilder och klistra i rätt antal. Detta tränar finmotorik övningar samtidigt som matte övningar.',
-      },
-      {
-        id: '8',
-        question: 'Kan Jag Skapa Övningar för Klockan Lära Sig Tillsammans med Addition och Subtraktion?',
-        answer: 'Vårt verktyg fokuserar på addition och subtraktion med bilder. För övningar för klockan lära sig använd vårt separata klockverktyg. Båda ingår i Full Tillgång. Skapa varierade matte övningar för komplett matematikundervisning. Kombinera olika arbetsbladstyper i läromedelspacket.',
-      },
-      {
-        id: '9',
-        question: 'Kan Jag Skapa Arbetsblad för Bokstäver Lära Sig och Skriva Bokstäver Också?',
-        answer: 'Full Tillgång inkluderar verktyg för bokstäver lära sig och skriva bokstäver. Separate alfabetverktyg skapar spårningsarbetsblad. Bokstavsigenkänning och skrivövningar. Medan detta verktyg fokuserar på matematik arbetsblad, får du alla 33 verktyg med prenumerationen.',
-      },
-      {
-        id: '10',
-        question: 'Hur Lång Tid Tar Det att Skapa Professionella Förskoleklass Material och Matte Övningar?',
-        answer: 'Under 3 minuter från start till färdigt arbetsblad. Välj bilder (30 sekunder). Ställ in inställningar (30 sekunder). Klicka generera (5 sekunder). Redigera om nödvändigt (1-2 minuter). Ladda ner (10 sekunder). Totalt 2-3 minuter per förskoleklass material.',
-      },
-      {
-        id: '11',
-        question: 'Inkluderar Verktyget Facit för Addition och Subtraktion Arbetsblad?',
-        answer: 'Ja! Klicka "Create Answer Key" för automatiskt facit. Verktyget skapar identiskt arbetsblad med svar ifyllda. Addition och subtraktion facit på egen flik. Ladda ner separat från arbetsblad. Båda i 300 DPI professionell kvalitet.',
-      },
-      {
-        id: '12',
-        question: 'Kan Jag Ladda Upp Egna Bilder för Personliga Matte Övningar och Förskoleklass Material?',
-        answer: 'Ja, multi-fil uppladdning stöds. Ladda upp dina egna foton, teckningar och bilder. JPEG, PNG, GIF fungerar alla. Kombinera med våra 3000+ biblioteksbilder. Skapa helt unika förskoleklass material och matte övningar för dina elever.',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Pricing
@@ -499,56 +262,8 @@ Diversifiera med andra arbetsbladstyper. Kombinera addition och subtraktion med 
       securePayment: 'Säker betalning',
       cancelAnytime: 'Avsluta när som helst',
     },
-    items: [
-      {
-        id: '1',
-        slug: 'image-addition',
-        name: 'Additionsarbetsblad',
-        category: 'Matematik',
-        icon: '➕',
-        description: 'Skapa traditionella additionsarbetsblad med bilder för grundläggande taluppfattning.',
-      },
-      {
-        id: '2',
-        slug: 'subtraction',
-        name: 'Subtraktionsarbetsblad',
-        category: 'Matematik',
-        icon: '➖',
-        description: 'Komplettera addition med subtraktionsövningar för komplett grundläggande matematikträning.',
-      },
-      {
-        id: '3',
-        slug: 'math-puzzle',
-        name: 'Mattepussel',
-        category: 'Matematik',
-        icon: '🧩',
-        description: 'Kombinera kodaddition med mattepussel för engagerande problemlösning.',
-      },
-      {
-        id: '4',
-        slug: 'chart-count-color',
-        name: 'Räkna och Färglägg',
-        category: 'Matematik',
-        icon: '📊',
-        description: 'Lägg till grafiska räkneövningar för visuell datarepresentation och taluppfattning.',
-      },
-      {
-        id: '5',
-        slug: 'coloring',
-        name: 'Målarbilder',
-        category: 'Kreativitet',
-        icon: '🎨',
-        description: 'Belöna färdiga matematikövningar med tematiska målarbilder som utvecklar finmotorik.',
-      },
-      {
-        id: '6',
-        slug: 'pattern-train',
-        name: 'Mönstertåg',
-        category: 'Logik',
-        icon: '🚂',
-        description: 'Balansera matematikträning med mönsterigenkänning för logiskt tänkande.',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 };
 

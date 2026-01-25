@@ -96,43 +96,8 @@ O gerador oferece dois modos de exercícios pensados para diferentes níveis de 
     badgeText: 'Exemplos Grátis',
     downloadingLabel: 'Baixando...',
     ofLabel: 'de',
-    items: [
-      {
-        id: '1',
-        worksheetSrc: '/samples/portuguese/odd-one-out/sample-1.jpeg',
-        answerKeySrc: '/samples/portuguese/odd-one-out/sample-1-answer.jpeg',
-        altText: 'Atividade grátis qual é o diferente - raciocínio lógico modo similar para educação infantil',
-        pdfDownloadUrl: '/samples/portuguese/odd-one-out/sample-1.pdf',
-      },
-      {
-        id: '2',
-        worksheetSrc: '/samples/portuguese/odd-one-out/sample-2.jpeg',
-        answerKeySrc: '/samples/portuguese/odd-one-out/sample-2-answer.jpeg',
-        altText: 'Atividade grátis para crianças - qual é o diferente modo idêntico com raciocínio lógico',
-        pdfDownloadUrl: '/samples/portuguese/odd-one-out/sample-2.pdf',
-      },
-      {
-        id: '3',
-        worksheetSrc: '/samples/portuguese/odd-one-out/sample-3.jpeg',
-        answerKeySrc: '/samples/portuguese/odd-one-out/sample-3-answer.jpeg',
-        altText: 'Atividades grátis de discriminação visual - imprimíveis grátis para imprimir',
-        pdfDownloadUrl: '/samples/portuguese/odd-one-out/sample-3.pdf',
-      },
-      {
-        id: '4',
-        worksheetSrc: '/samples/portuguese/odd-one-out/sample-4.jpeg',
-        answerKeySrc: '/samples/portuguese/odd-one-out/sample-4-answer.jpeg',
-        altText: 'Atividade para crianças - qual é o diferente com atividade para educação infantil',
-        pdfDownloadUrl: '/samples/portuguese/odd-one-out/sample-4.pdf',
-      },
-      {
-        id: '5',
-        worksheetSrc: '/samples/portuguese/odd-one-out/sample-5.jpeg',
-        answerKeySrc: '/samples/portuguese/odd-one-out/sample-5-answer.jpeg',
-        altText: 'Imprimíveis grátis de qual é o diferente - atividade grátis para educação infantil',
-        pdfDownloadUrl: '/samples/portuguese/odd-one-out/sample-5.pdf',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Features Grid - FULL text from odd-one-out.md feature sections
@@ -148,80 +113,8 @@ O gerador oferece dois modos de exercícios pensados para diferentes níveis de 
       noHiddenFees: 'Sem taxas ocultas',
       cancelAnytime: 'Cancele quando quiser',
     },
-    items: [
-      {
-        id: '1',
-        icon: '⚡',
-        title: 'Criação Fácil de Atividade Grátis em 3 Cliques - Imprimíveis Grátis Rápidas',
-        description: `Criar uma atividade grátis de qual é o diferente leva menos de 3 minutos. Primeiro, selecione o tema das imagens. Segundo, escolha quantos exercícios deseja por página. Terceiro, clique em gerar. O sistema cria automaticamente a ficha com imagens organizadas e resposta correta definida. Professores de atividade para educação infantil economizam horas de trabalho com este processo simplificado.
-
-Não precisa de habilidades de design gráfico. Qualquer educador consegue produzir atividades grátis profissionais imediatamente. O sistema distribui as imagens em layout organizado. Cada exercício mostra quatro imagens lado a lado. O gabarito de respostas para atividade grátis para crianças é criado simultaneamente.`,
-        highlighted: false,
-      },
-      {
-        id: '2',
-        icon: '✏️',
-        title: 'Edição Completa de Atividade Grátis para Crianças - Atividade para Educação Infantil',
-        description: `Após gerar a atividade grátis, você pode editar qualquer elemento diretamente no canvas. Arraste imagens para reposicionar. Redimensione elementos conforme necessário. Gire objetos para criar variações. Delete itens que não deseja manter. Esta flexibilidade permite personalizar atividades grátis para necessidades específicas.
-
-O canvas funciona como um editor visual intuitivo. Professores que combinam "qual é o diferente" com imprimíveis grátis podem adicionar números ou símbolos ao layout. O sistema de camadas organiza os elementos. Traga objetos para frente ou envie para trás nas camadas da atividade para crianças.`,
-        highlighted: false,
-      },
-      {
-        id: '3',
-        icon: '📤',
-        title: 'Envio de Imagens Próprias para Atividades Grátis - Atividade para Crianças Personalizada',
-        description: `O gerador de atividade grátis permite enviar suas próprias imagens para criar fichas personalizadas. Carregue fotos de objetos da sala de aula, mascotes da escola ou materiais temáticos. Esta funcionalidade transforma exercícios de atividade grátis para crianças em experiências significativas para os alunos. Imagens familiares aumentam o engajamento e a conexão com o conteúdo.
-
-O sistema aceita arquivos JPEG, PNG e GIF. Todas as imagens carregadas ficam disponíveis durante a sessão de trabalho. Combine imagens próprias com a biblioteca do sistema para máxima personalização de imprimíveis grátis.`,
-        highlighted: true,
-      },
-      {
-        id: '4',
-        icon: '🌍',
-        title: 'Atividade para Educação Infantil em 11 Idiomas - Atividades Grátis Multilíngue',
-        description: `A plataforma de atividade grátis suporta 11 idiomas para interface e conteúdo. Português brasileiro, inglês, alemão, francês, espanhol, italiano, holandês, sueco, dinamarquês, norueguês e finlandês estão disponíveis. Cada imagem possui nome traduzido nos 11 idiomas. Esta característica torna o gerador ideal para atividades grátis bilíngues.
-
-Escolas internacionais e programas de idiomas aproveitam este recurso de atividade para crianças. Professores de língua estrangeira criam atividade grátis para crianças contextualizadas com facilidade. A troca de idioma é instantânea no seletor do painel lateral para imprimíveis grátis.`,
-        highlighted: false,
-      },
-      {
-        id: '5',
-        icon: '💰',
-        title: 'Licença Comercial para Imprimíveis Grátis - Venda suas Atividades Grátis',
-        description: `A assinatura Acesso Completo inclui licença comercial para impressão sob demanda de atividade grátis. Você pode vender as fichas criadas em plataformas como Teachers Pay Teachers, Etsy e Amazon KDP. Não há taxas adicionais de licenciamento. A qualidade de exportação em 300 DPI atende requisitos profissionais de impressão para atividades grátis.
-
-Educadores empreendedores transformam seu conhecimento pedagógico em renda extra. As atividade grátis para crianças que você cria pertencem a você para uso comercial. Vendedores bem-sucedidos faturam R$500 a R$5.000 mensais com fichas pedagógicas e imprimíveis grátis.`,
-        highlighted: true,
-      },
-      {
-        id: '6',
-        icon: '🎨',
-        title: 'Biblioteca com 3000+ Imagens para Atividade Grátis - Atividade para Crianças Visual',
-        description: `O gerador de atividade grátis oferece acesso a mais de 3.000 imagens organizadas por temas educativos. Categorias incluem animais, alimentos, transportes, profissões, natureza, esportes e muito mais. Cada tema contém dezenas de ilustrações coloridas próprias para atividades grátis infantis. As imagens funcionam como desenhos para colorir quando impressas em escala de cinza.
-
-A busca por palavra-chave facilita encontrar exatamente o que você precisa para atividade para educação infantil. Bordas decorativas e fundos temáticos complementam as opções visuais. Temas sazonais como Páscoa, Natal e Festa Junina engajam as turmas com imprimíveis grátis.`,
-        highlighted: false,
-      },
-      {
-        id: '7',
-        icon: '🖨️',
-        title: 'Qualidade Profissional 300 DPI para Atividade para Educação Infantil - Imprimíveis Grátis em PDF',
-        description: `Todas as atividades grátis são exportadas em alta resolução de 300 DPI. Esta qualidade garante impressões nítidas em qualquer impressora. O formato PDF mantém a formatação exata do layout criado para atividade grátis para crianças. A opção JPEG permite visualização rápida e compartilhamento digital.
-
-A função escala de cinza economiza tinta sem perder qualidade visual. Professores de atividades grátis e séries iniciais obtêm material com aparência profissional. Pais e coordenadores reconhecem o cuidado no material impresso como imprimíveis grátis.`,
-        highlighted: false,
-      },
-      {
-        id: '8',
-        icon: '🔤',
-        title: 'Campos de Texto Personalizados - Atividade Grátis para Crianças com Ferramentas de Escrita',
-        description: `O gerador de atividade grátis inclui ferramentas de texto personalizáveis para adicionar instruções ou títulos. Escolha entre sete famílias de fontes adequadas para atividade para crianças. Ajuste tamanho, cor e contorno do texto conforme preferir. Professores que trabalham atividades grátis podem adicionar linhas de escrita às fichas.
-
-O campo "Nome" e "Data" pode ser incluído opcionalmente nas imprimíveis grátis. Estas opções transformam uma simples ficha de raciocínio em atividade completa de atividade para educação infantil quando combinada com campos de escrita para atividade grátis.`,
-        highlighted: false,
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // How-To Guide - FULL text from odd-one-out.md step sections
@@ -293,68 +186,8 @@ Ative a opção "Escala de Cinza" para transformar em desenhos para colorir. Est
     badgeText: 'Para Quem',
     readMoreLabel: 'Leia mais',
     showLessLabel: 'Mostrar menos',
-    items: [
-      {
-        id: '1',
-        icon: '👩‍🏫',
-        title: 'Professores de Educação Infantil',
-        subtitle: 'Atividade Grátis para Crianças com Discriminação Visual',
-        description: `Educadores de atividade para educação infantil usam atividades grátis de qual é o diferente diariamente. Na pré-escola, crianças de 4 a 6 anos desenvolvem habilidades cognitivas fundamentais. Atividade grátis de discriminação visual preparam para alfabetização. O reconhecimento de diferenças treina a atenção necessária para distinguir letras.
-
-Professores da BNCC encontram alinhamento com competências de percepção visual. O gerador permite criar imprimíveis grátis variadas para cada semana. Temas sazonais como Páscoa, Festa Junina e Natal engajam as turmas com atividades grátis.`,
-        quote: 'Meus alunos adoram encontrar o diferente nas atividades coloridas!',
-      },
-      {
-        id: '2',
-        icon: '📚',
-        title: 'Professores de 1º Ano e 2º Ano',
-        subtitle: 'Atividades Grátis de Raciocínio para Ensino Fundamental',
-        description: `Professores do ensino fundamental anos iniciais complementam o currículo com atividade grátis de raciocínio. Atividades grátis de discriminação visual reforçam a alfabetização em andamento. Os alunos praticam atenção aos detalhes enquanto desenvolvem vocabulário com atividade para crianças.
-
-No 2º ano, exercícios mais complexos desafiam turmas avançadas. O modo "Idêntico" oferece dificuldade adequada para esta faixa etária de atividade para educação infantil. Professores criam séries progressivas ao longo do bimestre. As imprimíveis grátis funcionam como atividade de aquecimento ou tarefa de casa.`,
-        quote: 'A progressão de dificuldade acompanha o desenvolvimento dos alunos.',
-      },
-      {
-        id: '3',
-        icon: '🏠',
-        title: 'Pais Homeschoolers',
-        subtitle: 'Atividade Grátis para Crianças em Educação Domiciliar',
-        description: `Famílias que optam por educação domiciliar encontram no gerador de atividade grátis um aliado valioso. Pais criam material profissional de atividades grátis sem formação em design gráfico. As fichas de atividade para crianças complementam currículos estruturados. O formato "qual é o diferente" oferece variedade às rotinas de estudo.
-
-Crianças em homeschool beneficiam-se de material visualmente atrativo de imprimíveis grátis. Os 11 idiomas disponíveis facilitam educação bilíngue em casa. Pais economizam dinheiro produzindo próprio material de atividade para educação infantil em vez de comprar pronto.`,
-        quote: 'Uma ferramenta perfeita para nossa jornada de educação em casa.',
-      },
-      {
-        id: '4',
-        icon: '🌍',
-        title: 'Professores de Idiomas',
-        subtitle: 'Imprimíveis Grátis para Ensino Bilíngue e Língua Estrangeira',
-        description: `Professores de língua estrangeira aproveitam os 11 idiomas do gerador de atividade grátis. Atividades grátis de discriminação visual em inglês, espanhol ou francês ficam prontas rapidamente. Cada imagem possui nome traduzido, facilitando associação palavra-imagem para atividade para crianças.
-
-Escolas bilíngues criam atividade grátis para crianças consistente em ambos os idiomas. O formato visual de imprimíveis grátis transcende barreiras linguísticas iniciais. Alunos identificam o diferente mesmo antes de dominar vocabulário completo em atividade para educação infantil.`,
-        quote: 'A integração de idiomas facilita muito meu trabalho.',
-      },
-      {
-        id: '5',
-        icon: '💜',
-        title: 'Educadores de Atendimento Especial',
-        subtitle: 'Atividade Grátis para Crianças em Educação Especial',
-        description: `Educadores de atendimento especializado adaptam atividades grátis para necessidades específicas. Imprimíveis grátis em escala de cinza oferecem estímulo sensorial controlado. O número de exercícios por página pode ser reduzido para evitar sobrecarga em atividade para educação infantil.
-
-Imagens maiores facilitam visualização para alunos com dificuldades visuais. O modo "Similar" com categorias bem distintas oferece sucesso garantido em atividade para crianças. A edição no canvas permite ajustes finos de tamanho e espaçamento para atividade grátis.`,
-        quote: 'Posso adaptar rapidamente as atividades para cada aluno especial.',
-      },
-      {
-        id: '6',
-        icon: '💰',
-        title: 'Professores Empreendedores',
-        subtitle: 'Atividades Grátis e Imprimíveis Grátis para Vender Online',
-        description: `Professores empreendedores transformam conhecimento pedagógico em renda extra com atividade grátis. A licença comercial Acesso Completo permite vender atividades grátis criadas. Plataformas como Teachers Pay Teachers e Hotmart recebem material brasileiro.
-
-Atividade grátis para crianças de raciocínio lógico têm demanda constante. Educadores criam pacotes temáticos de imprimíveis grátis para diferentes épocas do ano. A qualidade de 300 DPI atende exigências de marketplaces profissionais. Vendedores bem-sucedidos faturam R$500 a R$5.000 mensais com atividade para educação infantil.`,
-        quote: 'Minha assinatura se pagou no primeiro mês de vendas!',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // FAQ Section - Selected FAQs from odd-one-out.md
@@ -368,68 +201,8 @@ Atividade grátis para crianças de raciocínio lógico têm demanda constante. 
     showLessLabel: 'Mostrar menos',
     secureCheckout: 'Pagamento seguro',
     cancelAnytime: 'Cancele quando quiser',
-    items: [
-      {
-        id: '1',
-        question: 'O Gerador de Atividade Grátis Qual É o Diferente é Gratuito? Quanto Custam as Imprimíveis Grátis?',
-        answer: 'O gerador de atividade grátis qual é o diferente requer assinatura Acesso Completo. O custo é R$240 por ano ou R$25 por mês. Sua assinatura permite criar atividades grátis ilimitadas sem cobrança adicional por ficha. O Acesso Completo inclui acesso a todos os 33 geradores de atividade para crianças da plataforma. Não existem taxas extras por download ou exportação. A licença comercial para venda de imprimíveis grátis está incluída no preço. O Pacote Essencial custa R$144 por ano e inclui 10 geradores populares.',
-      },
-      {
-        id: '2',
-        question: 'Posso Imprimir Atividade Grátis para Crianças e Imprimíveis Grátis em Casa na Minha Impressora?',
-        answer: 'Sim, todas as atividades grátis são otimizadas para impressão doméstica. A exportação em PDF mantém qualidade perfeita em qualquer impressora. Atividade grátis para crianças ficam nítidas tanto em impressoras a laser quanto jato de tinta. A opção escala de cinza economiza tinta colorida significativamente. O formato Letter e A4 são suportados para papel padrão brasileiro. Recomendamos papel sulfite 75g para uso diário em sala de aula. A qualidade de 300 DPI garante que imprimíveis grátis e imagens fiquem perfeitamente legíveis.',
-      },
-      {
-        id: '3',
-        question: 'Preciso de Habilidades de Design para Criar Atividades Grátis de Qual É o Diferente?',
-        answer: 'Não, o gerador de atividade grátis foi criado para educadores sem formação em design gráfico. A criação de atividades grátis de raciocínio visual é completamente automatizada. Você seleciona tema, quantidade de exercícios e clica em gerar. O sistema organiza imagens automaticamente no layout profissional para atividade para crianças. Qualquer professor consegue produzir material de qualidade imediatamente. A edição no canvas é opcional e igualmente intuitiva. Tutoriais em vídeo explicam cada funcionalidade para imprimíveis grátis.',
-      },
-      {
-        id: '4',
-        question: 'Posso Usar Atividade Grátis para Crianças e Atividade para Educação Infantil em Sala de Aula?',
-        answer: 'A assinatura Acesso Completo inclui licença ilimitada para uso educacional. Você pode imprimir e distribuir atividades grátis para todos os alunos da turma. Não há limite de cópias para uso em sala de aula de atividade para educação infantil. Escolas inteiras podem usar atividade grátis para crianças criadas por um único assinante. A licença educacional cobre uso institucional completo. Professores de imprimíveis grátis criam material para o ano letivo inteiro.',
-      },
-      {
-        id: '5',
-        question: 'Quais Idiomas Estão Disponíveis para Atividades Grátis e Atividade para Crianças?',
-        answer: 'O gerador suporta 11 idiomas completos para interface e conteúdo. Português brasileiro, inglês, alemão, francês, espanhol, italiano, holandês, sueco, dinamarquês, norueguês e finlandês estão disponíveis. Cada imagem possui nome traduzido em todos os idiomas. Atividade grátis para crianças e atividade para educação infantil podem ser criadas em qualquer um destes idiomas. A troca de idioma é instantânea no seletor do painel lateral para imprimíveis grátis.',
-      },
-      {
-        id: '6',
-        question: 'Posso Vender Atividades Grátis e Imprimíveis Grátis que Eu Criar no Gerador?',
-        answer: 'Sim, a assinatura Acesso Completo inclui licença comercial completa. Você pode vender atividade grátis em marketplaces. Teachers Pay Teachers, Hotmart, Eduzz e Etsy são plataformas compatíveis. Não há taxas adicionais de licenciamento além da assinatura. As atividades grátis que você cria pertencem a você comercialmente. A qualidade de 300 DPI atende requisitos profissionais de venda para atividade para crianças e imprimíveis grátis.',
-      },
-      {
-        id: '7',
-        question: 'Qual Faixa Etária Funciona Melhor com Atividade Grátis de Qual É o Diferente?',
-        answer: 'Atividades grátis de qual é o diferente funcionam para crianças de 3 a 9 anos. Na atividade para educação infantil (3-5 anos), use modo "Similar" com categorias bem distintas. No 1º e 2º ano (6-8 anos), o modo "Idêntico" oferece desafio adequado. Atividade grátis para crianças em escala de cinza atraem todas as faixas etárias. A quantidade de exercícios por página também ajusta dificuldade. Use 5 exercícios para crianças menores em imprimíveis grátis com mais espaço visual.',
-      },
-      {
-        id: '8',
-        question: 'Posso Carregar Minhas Próprias Imagens para Atividades Grátis de Qual É o Diferente?',
-        answer: 'Sim, o upload de imagens personalizadas é recurso disponível para atividade grátis. Carregue fotos de objetos familiares para os alunos. Use imagens de mascotes da escola ou materiais da sala em atividades grátis. Arquivos JPEG, PNG e GIF são aceitos pelo sistema. Atividade grátis para crianças personalizadas aumentam conexão emocional dos alunos. O engajamento aumenta quando o material de imprimíveis grátis reflete realidade dos estudantes.',
-      },
-      {
-        id: '9',
-        question: 'Quanto Tempo Leva para Criar Atividade Grátis de Qual É o Diferente?',
-        answer: 'Criar uma atividade grátis de qual é o diferente leva menos de 3 minutos. Selecionar tema e configurações toma cerca de 1 minuto. A geração automática é instantânea. Edições opcionais no canvas adicionam 1-2 minutos se desejadas. Comparado com criação manual, a economia de tempo é de 90%. Uma ficha feita manualmente leva 30-60 minutos. Professores recuperam horas semanais de preparação de atividades grátis e imprimíveis grátis.',
-      },
-      {
-        id: '10',
-        question: 'As Atividade Grátis de Qual É o Diferente Incluem Gabarito de Respostas?',
-        answer: 'Sim, o gerador cria gabarito de respostas automaticamente para atividade grátis. O gabarito mostra qual imagem é o "diferente" em cada exercício. Professores baixam ficha de exercício e gabarito separadamente. A correção de atividades grátis fica rápida e objetiva. Alunos podem conferir próprias respostas quando apropriado para atividade para crianças. Para imprimíveis grátis de raciocínio, o gabarito cobre todas as respostas.',
-      },
-      {
-        id: '11',
-        question: 'Posso Criar Atividades Grátis e Atividade para Educação Infantil sobre Temas Específicos?',
-        answer: 'Sim, a biblioteca oferece mais de 3.000 imagens em dezenas de temas para atividade grátis. Animais, alimentos, transportes, profissões, natureza, esportes e muito mais estão disponíveis. Atividades grátis podem ser criadas sobre qualquer tema curricular. A busca por palavra-chave facilita encontrar imagens específicas rapidamente. Temas sazonais como Páscoa, Festa Junina, Primavera e Natal estão representados em atividade para crianças e imprimíveis grátis.',
-      },
-      {
-        id: '12',
-        question: 'Qual a Diferença Entre Modo Idêntico e Modo Similar em Atividade Grátis?',
-        answer: 'No modo "Idêntico" das atividades grátis, três imagens iguais aparecem junto com uma diferente do mesmo tema. Este formato exige maior atenção aos detalhes. Exemplo: três gatos iguais e um gato diferente para atividade para crianças. No modo "Similar" de atividade grátis, três imagens de uma categoria acompanham uma imagem de categoria diferente. Exemplo: três frutas e um animal em imprimíveis grátis. O modo Similar é mais fácil e ideal para atividade para educação infantil iniciantes.',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Pricing - Full Access (Acesso Completo)
@@ -500,40 +273,8 @@ Atividade grátis para crianças de raciocínio lógico têm demanda constante. 
       securePayment: 'Pagamento seguro',
       cancelAnytime: 'Cancele quando quiser',
     },
-    items: [
-      {
-        id: '1',
-        slug: 'encontrar-objetos-fichas',
-        name: 'Encontrar Objetos',
-        category: 'Raciocínio',
-        icon: '🔍',
-        description: 'Combine atividade grátis de discriminação visual com busca de objetos para pacotes completos de atenção e raciocínio para imprimíveis grátis.',
-      },
-      {
-        id: '2',
-        slug: 'ligar-fichas',
-        name: 'Atividades de Ligar',
-        category: 'Coordenação',
-        icon: '🔗',
-        description: 'Atividades grátis de correspondência complementam exercícios de identificação do diferente para desenvolvimento cognitivo em atividade para crianças.',
-      },
-      {
-        id: '3',
-        slug: 'desenhos-colorir-fichas',
-        name: 'Desenhos para Colorir',
-        category: 'Criativo',
-        icon: '🎨',
-        description: 'Combine atividade grátis de raciocínio lógico com atividades criativas de colorir para atividade para educação infantil multifuncionais.',
-      },
-      {
-        id: '4',
-        slug: 'grande-pequeno-fichas',
-        name: 'Grande e Pequeno',
-        category: 'Comparação',
-        icon: '📏',
-        description: 'Atividade grátis para crianças de comparação de tamanhos complementam exercícios de identificação de diferenças para imprimíveis grátis.',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 };
 

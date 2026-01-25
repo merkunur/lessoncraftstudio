@@ -94,29 +94,8 @@ De grid match generator maakt werkbladen kleuters en werkbladen groep 3 met aanp
     badgeText: 'Gratis Voorbeelden',
     downloadingLabel: 'Downloaden...',
     ofLabel: 'van',
-    items: [
-      {
-        id: '1',
-        worksheetSrc: '/samples/dutch/grid-match/sample-1.jpeg',
-        answerKeySrc: '/samples/dutch/grid-match/sample-1-answer.jpeg',
-        altText: 'Gratis werkblad raster-puzzel - werkblad voor kinderen en werkblad voor kleuters groep 3',
-        pdfDownloadUrl: '/samples/dutch/grid-match/sample-1.pdf',
-      },
-      {
-        id: '2',
-        worksheetSrc: '/samples/dutch/grid-match/sample-2.jpeg',
-        answerKeySrc: '/samples/dutch/grid-match/sample-2-answer.jpeg',
-        altText: 'Gratis werkbladen visuele puzzel - werkblad voor kleuters met fijne motoriek oefening',
-        pdfDownloadUrl: '/samples/dutch/grid-match/sample-2.pdf',
-      },
-      {
-        id: '3',
-        worksheetSrc: '/samples/dutch/grid-match/sample-3.jpeg',
-        answerKeySrc: '/samples/dutch/grid-match/sample-3-answer.jpeg',
-        altText: 'Gratis printables raster-puzzel - werkblad voor kinderen met visuele discriminatie',
-        pdfDownloadUrl: '/samples/dutch/grid-match/sample-3.pdf',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Features Grid - FULL text from grid-match.md feature sections
@@ -132,80 +111,8 @@ De grid match generator maakt werkbladen kleuters en werkbladen groep 3 met aanp
       noHiddenFees: 'Geen verborgen kosten',
       cancelAnytime: 'Altijd opzegbaar',
     },
-    items: [
-      {
-        id: '1',
-        icon: '⚡',
-        title: 'Werkbladen Kleuters Maken in 3 Klikken - Snelle Oefenbladen Gratis Generator',
-        description: `Creëer complete grid match werkbladen in slechts drie stappen. Selecteer eerst een thema of afbeelding uit de bibliotheek. Kies daarna je rastergrootte en moeilijkheidsgraad. Klik op genereren en je werkblad verschijnt direct. Werkbladen kleuters maken kost minder dan 3 minuten. De generator regelt automatisch de puzzelindeling. Geen technische kennis vereist.
-
-Onze generator bespaart uren voorbereidingstijd per week. Waar traditionele methoden dertig tot zestig minuten kosten, maak je hier werkbladen groep 3 in minder dan drie minuten. Perfect voor drukke leerkrachten die snel materiaal nodig hebben.`,
-        highlighted: false,
-      },
-      {
-        id: '2',
-        icon: '✏️',
-        title: 'Volledig Bewerkbaar Canvas - Rekenen Werkbladen en Kleurplaten Aanpassen',
-        description: `Elk element op het canvas is volledig aanpasbaar. Versleep afbeeldingen naar elke gewenste positie. Roteer en schaal objecten met je muis. Verwijder elementen die je niet nodig hebt. Voeg tekst toe met verschillende lettertypen. Rekenen werkbladen krijgen extra instructies. Kleurplaten combineer je met puzzelelementen. Het canvas werkt zoals professionele ontwerpsoftware.
-
-De laagfuncties geven volledige controle over overlapping. Breng objecten naar voren of stuur ze naar achteren. Vergrendel elementen om onbedoelde wijzigingen te voorkomen. Lijn afbeeldingen perfect uit met de uitlijnhulpmiddelen.`,
-        highlighted: false,
-      },
-      {
-        id: '3',
-        icon: '📤',
-        title: 'Eigen Afbeeldingen Uploaden - Werkbladen Groep 3 Personaliseren',
-        description: `Upload je eigen foto's en illustraties naar de generator. Meerdere bestanden tegelijk toevoegen is mogelijk. Ondersteunde formaten zijn JPEG, PNG en GIF. Combineer eigen afbeeldingen met bibliotheekplaatjes. Maak werkbladen groep 3 met klassenfoto's. Personaliseer oefenbladen met schoolmascotte. Eigen afbeeldingen maken werkbladen extra betekenisvol voor leerlingen.
-
-Gepersonaliseerde werkbladen kleuters verhogen de betrokkenheid van leerlingen. Kinderen herkennen bekende afbeeldingen en raken meer gemotiveerd. Maak thematische oefenbladen gratis met seizoensgebonden eigen foto's.`,
-        highlighted: false,
-      },
-      {
-        id: '4',
-        icon: '🌍',
-        title: '11 Talen Ondersteuning - Veilig Leren Lezen in Meerdere Talen',
-        description: `De generator ondersteunt 11 verschillende talen voor interface en inhoud. Nederlands, Engels, Duits, Frans, Spaans en meer beschikbaar. Afbeeldingsnamen verschijnen in de gekozen taal. Perfect voor veilig leren lezen met meertalige klassen. Internationale scholen profiteren van taalflexibiliteit. Tweetalig onderwijs wordt eenvoudiger. Werkbladen kleuters in het Nederlands of een andere taal maken.
-
-Deze meertaligheid maakt de generator perfect voor NT2-onderwijs. Leerlingen zien afbeeldingen met Nederlandse woorden voor letters leren. Ondersteun schrijven oefenen door woord-afbeelding koppelingen.`,
-        highlighted: false,
-      },
-      {
-        id: '5',
-        icon: '🎨',
-        title: 'Letters Leren en Schrijven Oefenen - Teksttools voor Educatieve Werkbladen',
-        description: `Voeg aangepaste tekst toe aan elk werkblad. Kies uit 7 kindvriendelijke lettertypen. Pas tekstkleur en grootte aan. Voeg tekstomlijning toe voor betere leesbaarheid. Letters leren werkbladen krijgen duidelijke instructies. Schrijven oefenen combineer je met visuele puzzels. Tekstelementen zijn volledig verplaatsbaar op het canvas.
-
-Combineer grid match met kleurplaten thema's uit onze bibliotheek. Kies afbeeldingen rond letters leren of schrijven oefenen. Meer dan 3000 kindvriendelijke illustraties beschikbaar. Thema's variëren van dieren tot voertuigen.`,
-        highlighted: false,
-      },
-      {
-        id: '6',
-        icon: '💼',
-        title: 'Commerciële POD Licentie - Oefenbladen Gratis Verkopen op Etsy en TPT',
-        description: `Je Volledige Toegang abonnement bevat volledige commerciële rechten. Verkoop je werkbladen op Teachers Pay Teachers. Maak printables voor Etsy zonder extra licentiekosten. Publiceer op Amazon KDP voor passief inkomen. Geen naamsvermelding vereist. Professionele 300 DPI kwaliteit voor print-on-demand. Docenten verdienen €500-€5000 per maand met werkbladen.
-
-Leerkracht-ondernemers bouwen een passief inkomen met werkbladen. Begin met oefenbladen gratis te genereren en verkoop ze online. De professionele kwaliteit onderscheidt jouw producten van concurrenten.`,
-        highlighted: true,
-      },
-      {
-        id: '7',
-        icon: '📚',
-        title: '3000+ Afbeeldingenbibliotheek - Kleurplaten en Fijne Motoriek Thema\'s',
-        description: `Toegang tot meer dan 3000 kindvriendelijke illustraties. Thema's georganiseerd per categorie. Dieren, voertuigen, natuur en seizoenen beschikbaar. Kleurplaten stijl afbeeldingen voor jonge kinderen. Fijne motoriek thema's met gedetailleerde plaatjes. Zoekfunctie vindt snel de juiste afbeelding. Alle illustraties inbegrepen zonder extra kosten.
-
-De bibliotheek bevat afbeeldingen voor alle vakgebieden. Gebruik dierenafbeeldingen voor rekenen werkbladen met tellen. Kies letters voor werkbladen groep 3 met alfabetactiviteiten.`,
-        highlighted: true,
-      },
-      {
-        id: '8',
-        icon: '🖨️',
-        title: 'Professionele 300 DPI Kwaliteit - Werkbladen Groep 3 en Sommen tot 20 Printen',
-        description: `Download werkbladen in hoge resolutie. 300 DPI kwaliteit perfect voor professioneel printen. Kies tussen JPEG en PDF formaat. Grijstinten optie bespaart inkt. Antwoordbladen automatisch gegenereerd. Werkbladen groep 3 zien er scherp uit op elke printer. Sommen tot 20 werkbladen combineren met puzzelformaat. Letter en A4 paginaformaten beschikbaar.
-
-Zowel het werkblad als de antwoordsleutel zijn apart downloadbaar. De antwoordsleutel toont de correcte puzzeloplossing duidelijk. Leerkrachten besparen tijd bij het nakijken.`,
-        highlighted: false,
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // How-To Guide - FULL text from grid-match.md step sections
@@ -277,68 +184,8 @@ Activeer Grijstinten voor inkbesparing. Dit converteert kleuren naar zwart-wit. 
     badgeText: 'Voor wie',
     readMoreLabel: 'Lees meer',
     showLessLabel: 'Minder tonen',
-    items: [
-      {
-        id: '1',
-        icon: '👶',
-        title: 'Leerkrachten Groep 1-2 - Werkbladen Kleuters voor Fijne Motoriek en Kleurplaten',
-        subtitle: 'Werkbladen kleuters en fijne motoriek',
-        description: `Kleuterleidsters gebruiken grid match voor ontwikkelingsgerichte activiteiten. Werkbladen kleuters stimuleren visuele waarneming. Fijne motoriek verbetert door het aanwijzen van puzzelstukjes. Combineer met kleurplaten thema's voor afwisseling. Kleuters leren concentreren op details. De puzzelvorm past bij spelend leren principes.
-
-Groep 1-2 leerkrachten waarderen de eenvoudige 2x2 rasters. Weinig ontbrekende stukjes voor beginners. Herkenbare afbeeldingen uit de kindwereld. Kleurplaten stijl plaatjes spreken jonge kinderen aan. Fijne motoriek oefeningen voorbereiden op schrijven. De generator bespaart uren voorbereidingstijd.`,
-        quote: 'Mijn kleuters vinden de kleurrijke puzzelwerkbladen geweldig!',
-      },
-      {
-        id: '2',
-        icon: '📚',
-        title: 'Leerkrachten Groep 3-5 - Werkbladen Groep 3 met Veilig Leren Lezen en Tafels Oefenen',
-        subtitle: 'Werkbladen groep 3 en rekenen werkbladen',
-        description: `Basisschoolleerkrachten integreren grid match met leesmethodes. Werkbladen groep 3 ondersteunen veilig leren lezen kernen. Kies afbeeldingen die bij leeswoorden passen. Kinderen herkennen bekende objecten in puzzelvorm. Veilig leren lezen wordt versterkt door visuele oefeningen.
-
-Hogere groepen gebruiken complexere rasters. Tafels oefenen wordt visueel met 3x3 en 4x4 puzzels. Werkbladen groep 3 tot 5 krijgen meer ontbrekende stukjes. De uitdaging groeit mee met de leerling. Leerkrachten differentiëren eenvoudig door rastergrootte aan te passen.`,
-        quote: 'Grid match werkbladen passen perfect bij onze leesmethode.',
-      },
-      {
-        id: '3',
-        icon: '🏠',
-        title: 'Thuisonderwijzers - Sommen tot 20 en Rekenen Werkbladen voor Thuis',
-        subtitle: 'Oefenbladen gratis voor thuis',
-        description: `Ouders die thuisonderwijs geven vinden complete leeractiviteiten. Rekenen werkbladen combineren met puzzelplezier. Sommen tot 20 oefenen door vakjes tellen. Kinderen blijven gemotiveerd door de speelse vorm. Geen lesvoorbereiding nodig dankzij kant-en-klare generator.
-
-Thuisonderwijzers waarderen de flexibiliteit. Maak werkbladen passend bij het niveau van je kind. Upload eigen foto's voor persoonlijke puzzels. Sommen tot 20 worden concreet met telbare vakjes. Rekenen werkbladen voelen niet als huiswerk. De puzzelvorm houdt de leersessie leuk.`,
-        quote: 'Eén tool voor al mijn kinderen op verschillende niveaus.',
-      },
-      {
-        id: '4',
-        icon: '🌐',
-        title: 'NT2 en Taalleerkrachten - Veilig Leren Lezen en Letters Leren voor Nieuwkomers',
-        subtitle: 'Veilig leren lezen en taalonderwijs',
-        description: `Taaldocenten gebruiken grid match voor woordenschatontwikkeling. Veilig leren lezen methodes werken met beeldherkenning. Nieuwkomers leren Nederlandse woorden via afbeeldingen. Letters leren wordt visueel met alfabetpuzzels. De 11 talen ondersteuning helpt meertalige klassen.
-
-NT2 leerkrachten selecteren thematische afbeeldingen. Voedsel, dieren en voorwerpen bouwen basiswoordenschat. Veilig leren lezen principes gelden ook voor tweede taalverwerving. Letters leren in context van herkenbare objecten. De puzzelactiviteit verlaagt de taaldrempel voor nieuwkomers.`,
-        quote: 'Ik kan snel geïndividualiseerde werkbladen maken.',
-      },
-      {
-        id: '5',
-        icon: '🎓',
-        title: 'Speciaal Onderwijs - Fijne Motoriek en Schrijven Oefenen met Aangepaste Puzzels',
-        subtitle: 'Fijne motoriek en speciaal onderwijs',
-        description: `Leerkrachten in het speciaal onderwijs waarderen aanpasbaarheid. Fijne motoriek oefeningen op maat voor elke leerling. Eenvoudige 2x2 rasters voor leerlingen die meer tijd nodig hebben. Schrijven oefenen voorbereiden met visuele puzzels. De generator maakt differentiatie eenvoudig.
-
-Upload eigen afbeeldingen die aansluiten bij interesses. Motiveer leerlingen met persoonlijke thema's. Fijne motoriek groeit door herhaalde puzzelactiviteiten. Schrijven oefenen wordt voorbereid door oog-handcoördinatie. Speciale onderwijsbehoeften krijgen passende werkbladen.`,
-        quote: 'Perfecte ondersteuning voor mijn leerlingen met speciale behoeften.',
-      },
-      {
-        id: '6',
-        icon: '💰',
-        title: 'Ondernemende Docenten - Oefenbladen Gratis Verkopen op Teachers Pay Teachers',
-        subtitle: 'Commerciële licentie voor ondernemers',
-        description: `Docenten met een TPT winkel creëren verkoopbare content. Oefenbladen gratis maken met Volledige Toegang abonnement. Verkoop op Teachers Pay Teachers zonder extra licentiekosten. De commerciële POD licentie is inbegrepen. Docenten verdienen €500-€5000 maandelijks.
-
-Maak unieke grid match bundels per thema. Seizoensgebonden puzzelpakketten verkopen goed. Oefenbladen gratis produceren in hoge 300 DPI kwaliteit. Combineer met andere werkbladtypes voor complete bundels. Je investering verdient zichzelf terug via passief inkomen.`,
-        quote: 'Mijn abonnement heeft zichzelf terugverdiend in de eerste maand!',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // FAQ Section - FULL FAQs from grid-match.md
@@ -352,68 +199,8 @@ Maak unieke grid match bundels per thema. Seizoensgebonden puzzelpakketten verko
     showLessLabel: 'Minder tonen',
     secureCheckout: 'Veilig betalen',
     cancelAnytime: 'Altijd opzegbaar',
-    items: [
-      {
-        id: '1',
-        question: 'Is de Grid Match Generator Echt Gratis - Werkbladen Kleuters en Tafels Oefenen Kosten?',
-        answer: 'De grid match werkbladgenerator vereist een Volledige Toegang abonnement van €240 per jaar of €25 per maand. Je abonnement geeft onbeperkte werkbladcreatie zonder kosten per werkblad. Maak zoveel werkbladen kleuters en tafels oefenen puzzels als je nodig hebt. Geen extra kosten per download of export. Volledige Toegang bevat alle drieëndertig werkbladgeneratoren op het platform. Het Basispakket abonnement kost €144 per jaar en bevat 10 populaire generators. Grid Match zit alleen in Volledige Toegang.',
-      },
-      {
-        id: '2',
-        question: 'Kan Ik Grid Match Werkbladen Thuis Printen - Kleurplaten en Fijne Motoriek Afdrukken?',
-        answer: 'Ja, alle werkbladen printen perfect op een gewone thuisprinter. Download als PDF voor beste printkwaliteit. De 300 DPI resolutie garandeert scherpe afbeeldingen. Kleurplaten en fijne motoriek werkbladen zien er professioneel uit. Zowel kleur als grijstinten beschikbaar. Kies grijstinten om inkt te besparen bij massaal printen. A4 en Letter formaat beide ondersteund. De PDF optie werkt op elke printer.',
-      },
-      {
-        id: '3',
-        question: 'Heb Ik Ontwerpvaardigheden Nodig - Sommen tot 20 en Veilig Leren Lezen Werkbladen Maken?',
-        answer: 'Nee, geen ontwerpervaring vereist. De generator doet al het werk automatisch. Selecteer een afbeelding en klik op genereren. Sommen tot 20 werkbladen verschijnen direct. Veilig leren lezen puzzels zijn kant-en-klaar. De interface is ontworpen voor leerkrachten zonder technische achtergrond. Het canvas biedt optionele bewerkingsmogelijkheden. Versleep elementen indien gewenst. Voeg tekst toe voor instructies.',
-      },
-      {
-        id: '4',
-        question: 'Mag Ik Grid Match Werkbladen in de Klas Gebruiken - Werkbladen Kleuters voor Groep 1-2?',
-        answer: 'Ja, je Volledige Toegang abonnement bevat onbeperkt klasgebruik. Print werkbladen kleuters voor alle leerlingen. Geen limiet op het aantal kopieën. Gebruik voor groep 1-2 kleuterklassen. Deel met collega\'s binnen dezelfde school. Klaslicentie is inbegrepen bij je abonnement. Werkbladen kleuters passen perfect bij het kleutercurriculum.',
-      },
-      {
-        id: '5',
-        question: 'In Welke Talen Zijn Grid Match Werkbladen Beschikbaar - Veilig Leren Lezen Meertalig?',
-        answer: 'De generator ondersteunt 11 talen voor interface en inhoud. Nederlands, Engels, Duits, Frans, Spaans, Portugees, Italiaans, Zweeds, Deens, Noors en Fins. Afbeeldingsnamen verschijnen in de gekozen taal. Veilig leren lezen methodes werken in elke taal. Internationale scholen profiteren van volledige taalflexibiliteit. Schakel tussen talen met één klik. Meertalige klassen krijgen gedifferentieerde ondersteuning.',
-      },
-      {
-        id: '6',
-        question: 'Mag Ik Grid Match Werkbladen Verkopen - Tafels Oefenen en Kleurplaten op TPT?',
-        answer: 'Ja, Volledige Toegang bevat volledige commerciële print-on-demand licentie. Verkoop tafels oefenen werkbladen op Teachers Pay Teachers. Maak kleurplaten bundels voor Etsy. Publiceer activiteitenboeken op Amazon KDP. Geen extra licentiekosten of naamsvermelding vereist. De commerciële rechten zijn inbegrepen bij €240 per jaar.',
-      },
-      {
-        id: '7',
-        question: 'Hoe Personaliseer Ik Grid Match Werkbladen - Sommen tot 20 voor Mijn Klas Aanpassen?',
-        answer: 'Pas rastergrootte aan voor verschillende niveaus. Kies 2x2 voor beginners tot 4x4 voor gevorderden. Stel het aantal ontbrekende vakjes in. Sommen tot 20 werkbladen krijgen meer of minder uitdaging. Upload eigen afbeeldingen voor persoonlijke puzzels. Voeg klasspecifieke tekst toe. Het canvas biedt volledige bewerkingsvrijheid. Versleep elementen naar gewenste posities. Differentiatie kost geen extra tijd.',
-      },
-      {
-        id: '8',
-        question: 'Welke Leeftijden Passen bij Grid Match - Werkbladen Kleuters tot Groep 5?',
-        answer: 'Grid match werkbladen passen bij kinderen van 4 tot 10 jaar. Werkbladen kleuters gebruiken eenvoudige 2x2 rasters. Groep 3-4 werkt met 3x3 puzzels. Groep 5 krijgt uitdagende 4x4 rasters. De moeilijkheid groeit mee met de leeftijd. Werkbladen kleuters focussen op visuele herkenning. Oudere kinderen ontwikkelen probleemoplossend denken.',
-      },
-      {
-        id: '9',
-        question: 'Kan Ik Eigen Afbeeldingen Uploaden - Kleurplaten met Klassenfoto\'s Maken?',
-        answer: 'Ja, upload eigen foto\'s en illustraties naar de generator. Meerdere bestanden tegelijk selecteren is mogelijk. Ondersteunde formaten zijn JPEG, PNG en GIF. Maak kleurplaten puzzels met klassenfoto\'s. Personaliseer met schoolmascotte of thema-afbeeldingen. Combineer eigen uploads met bibliotheekplaatjes. De generator accepteert elke afbeeldingsgrootte.',
-      },
-      {
-        id: '10',
-        question: 'Hoe Lang Duurt Het om een Grid Match Werkblad te Maken - Tafels Oefenen Snel Genereren?',
-        answer: 'Een compleet werkblad maken duurt minder dan 3 minuten. Selecteer afbeelding, kies instellingen, klik genereren. Tafels oefenen puzzels verschijnen direct op het canvas. Optionele bewerkingen kosten extra tijd. Maar standaard werkbladen zijn direct klaar. Vergelijk met traditionele creatie van 30-60 minuten.',
-      },
-      {
-        id: '11',
-        question: 'Bevatten Grid Match Werkbladen Antwoordbladen - Veilig Leren Lezen met Zelfcontrole?',
-        answer: 'Ja, de generator maakt automatisch antwoordbladen. Klik op Antwoordsleutel genereren na je werkblad. Het complete plaatje verschijnt met alle stukjes op hun plek. Veilig leren lezen leerlingen controleren zelf hun werk. Download beide als PDF of JPEG. Antwoordbladen ondersteunen zelfstandig werken. Leerkrachten besparen nakijktijd.',
-      },
-      {
-        id: '12',
-        question: 'Kan Ik Grid Match Werkbladen over Schoolvakken Maken - Fijne Motoriek en Rekenen Combineren?',
-        answer: 'Ja, kies thematische afbeeldingen passend bij elk schoolvak. Fijne motoriek werkbladen met gedetailleerde illustraties. Rekenpuzzels met telbare objecten. Taalpuzzels met woordafbeeldingen. Wereldoriëntatie thema\'s met dieren en natuur. De 3000+ afbeeldingenbibliotheek dekt alle onderwerpen. Combineer vakken in één puzzelactiviteit. Cross-curriculair leren wordt eenvoudig met grid match.',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Pricing - Full Access pricing (€240/year)
@@ -483,56 +270,8 @@ Maak unieke grid match bundels per thema. Seizoensgebonden puzzelpakketten verko
       securePayment: 'Veilig betalen',
       cancelAnytime: 'Altijd opzegbaar',
     },
-    items: [
-      {
-        id: '1',
-        slug: 'missing-pieces',
-        name: 'Ontbrekende Stukjes',
-        category: 'Visueel',
-        icon: '🧩',
-        description: 'Combineer grid match met ontbrekende stukjes werkbladen voor visuele puzzeltraining.',
-      },
-      {
-        id: '2',
-        slug: 'matching-app',
-        name: 'Matching',
-        category: 'Visueel',
-        icon: '🔗',
-        description: 'Combineer met matchingwerkbladen voor visuele discriminatie en concentratie-oefeningen.',
-      },
-      {
-        id: '3',
-        slug: 'coloring',
-        name: 'Kleurplaten',
-        category: 'Creativiteit',
-        icon: '🎨',
-        description: 'Beloon voltooide puzzels met thematische kleurplaten die de fijne motoriek ontwikkelen.',
-      },
-      {
-        id: '4',
-        slug: 'find-objects',
-        name: 'Zoek de Voorwerpen',
-        category: 'Visueel',
-        icon: '🔍',
-        description: 'Vergelijkbare visuele discriminatie activiteiten voor afwisseling in je lesprogramma.',
-      },
-      {
-        id: '5',
-        slug: 'drawing-lines',
-        name: 'Tekenlijnen',
-        category: 'Fijne Motoriek',
-        icon: '✏️',
-        description: 'Train basislijnen voor fijne motoriek ontwikkeling naast het puzzelen.',
-      },
-      {
-        id: '6',
-        slug: 'shadow-match',
-        name: 'Schaduw Matching',
-        category: 'Visueel',
-        icon: '🌑',
-        description: 'Vergelijkbare visuele discriminatie activiteiten met schaduwherkenning.',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 };
 

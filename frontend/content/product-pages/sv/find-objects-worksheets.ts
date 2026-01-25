@@ -96,43 +96,8 @@ Generera arbetsblad gratis som kombinerar målarbilder barn med perceptionsträn
     badgeText: 'Gratis Exempel',
     downloadingLabel: 'Laddar ner...',
     ofLabel: 'av',
-    items: [
-      {
-        id: '1',
-        worksheetSrc: '/samples/swedish/find-objects/sample-1.jpeg',
-        answerKeySrc: '/samples/swedish/find-objects/sample-1-answer.jpeg',
-        altText: 'Gratis arbetsblad hitta föremål för förskoleklass - visuell perception',
-        pdfDownloadUrl: '/samples/swedish/find-objects/sample-1.pdf',
-      },
-      {
-        id: '2',
-        worksheetSrc: '/samples/swedish/find-objects/sample-2.jpeg',
-        answerKeySrc: '/samples/swedish/find-objects/sample-2-answer.jpeg',
-        altText: 'Arbetsblad för barn hitta föremål - finmotorik övningar',
-        pdfDownloadUrl: '/samples/swedish/find-objects/sample-2.pdf',
-      },
-      {
-        id: '3',
-        worksheetSrc: '/samples/swedish/find-objects/sample-3.jpeg',
-        answerKeySrc: '/samples/swedish/find-objects/sample-3-answer.jpeg',
-        altText: 'Gratis utskrifter hitta föremål arbetsblad - visuell diskriminering',
-        pdfDownloadUrl: '/samples/swedish/find-objects/sample-3.pdf',
-      },
-      {
-        id: '4',
-        worksheetSrc: '/samples/swedish/find-objects/sample-4.jpeg',
-        answerKeySrc: '/samples/swedish/find-objects/sample-4-answer.jpeg',
-        altText: 'Arbetsblad för förskoleklass hitta föremål - koncentrationsträning',
-        pdfDownloadUrl: '/samples/swedish/find-objects/sample-4.pdf',
-      },
-      {
-        id: '5',
-        worksheetSrc: '/samples/swedish/find-objects/sample-5.jpeg',
-        answerKeySrc: '/samples/swedish/find-objects/sample-5-answer.jpeg',
-        altText: 'Gratis arbetsblad för barn hitta föremål - uppmärksamhetsträning',
-        pdfDownloadUrl: '/samples/swedish/find-objects/sample-5.pdf',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Features Grid - FULL text from find-objects.md feature sections
@@ -148,71 +113,8 @@ Generera arbetsblad gratis som kombinerar målarbilder barn med perceptionsträn
       noHiddenFees: 'Inga dolda avgifter',
       cancelAnytime: 'Avsluta när som helst',
     },
-    items: [
-      {
-        id: '1',
-        icon: '⚡',
-        title: 'Skapa Arbetsblad Gratis på 3 Klick - Förskoleklass Material och Finmotorik Övningar',
-        description: `Generera kompletta arbetsblad på tre enkla steg. Välj först aktivitetsläge: I Spy eller Odd One Out. Välj sedan bilder från biblioteket eller välj ett tema för automatisk ifyllning. Klicka slutligen på Skapa för att generera färdigt arbetsblad. Hela processen tar under 1 minut. Perfekt för förskoleklass material som behövs snabbt. Verktyet fungerar utmärkt som komplement till finmotorik övningar. Lärare skapar arbetsblad gratis för utskrift på sekunder.
-
-Varje arbetsblad genereras med professionell layout automatiskt. Bilderna placeras slumpmässigt för variation. Välj mellan 8-12 distraktionsbilder och 1-5 gömda föremål i I Spy-läge. Odd One Out-läget skapar 8-12 bildpar med 1-3 oparade bilder. Båda lägena tränar visuell diskriminering. Arbetsbladen kompletterar matematik arbetsblad perfekt.`,
-        highlighted: false,
-      },
-      {
-        id: '2',
-        icon: '✏️',
-        title: 'Full Redigerbarhet för Arbetsblad Gratis - Anpassa Finmotorik Övningar och Förskoleklass Material',
-        description: `Redigera varje element på arbetsbladet efter generering. Dra bilder till nya positioner med musen. Rotera objekt till valfri vinkel för variation. Skala bilder större eller mindre enligt behov. Ta bort element du inte vill ha kvar. Varje arbetsblad gratis blir unikt genom din anpassning. Lägg till text med 7 olika typsnitt för förskoleklass material.
-
-Ändra färg, storlek och kontur på text. Justera bakgrunder och ramar för visuell attraktion. Full redigerbarhet gör varje arbetsblad personligt. Perfekt för finmotorik övningar med olika svårighetsgrader. Lärare anpassar arbetsblad för olika elevers behov. Skapa lättare version med färre objekt. Gör svårare arbetsblad med fler distraktioner. Lås objekt när layouten är klar för att förhindra oavsiktliga ändringar. Centrera element på sidan med justeringsverktyg.`,
-        highlighted: false,
-      },
-      {
-        id: '3',
-        icon: '📤',
-        title: 'Ladda Upp Egna Bilder - Målarbilder Barn och Förskoleklass Material Personifiering',
-        description: `Ladda upp dina egna bilder för personliga arbetsblad. Välj flera filer samtidigt för snabb uppladdning. Accepterar JPEG, PNG, GIF och alla vanliga bildformat. Kombinera uppladdade bilder med vårt bibliotek på 3000+ bilder. Skapa målarbilder barn med elevernas favoritmotiv. Använd klassrumsfoton för igenkännning. Lägg till lokala landmärken eller säsongsbilder. Uppladdade bilder blir till förskoleklass material direkt.
-
-Perfekt för tematiska enheter eller specialintressen. Bilagan bevaras under hela sessionen. Använd samma uppladdade bilder för flera arbetsblad. Lärare skapar personliga arbetsblad för varje elev. Kombinera målarbilder barn med perceptionsträning. Inga begränsningar på antal uppladdningar. Alla uppladdade bilder fungerar som biblioteksbilder.`,
-        highlighted: false,
-      },
-      {
-        id: '4',
-        icon: '🌍',
-        title: '11 Språk Stöd - Bokstäver Lära Sig och Matematik Arbetsblad på Svenska',
-        description: `Bildbiblioteket finns på 11 olika språk för språkinlärning. Välj svenska för bildnamn på svenska. Perfekt för bokstäver lära sig med visuella associationer. Bildfilnamnen hjälper elever koppla ord till objekt. Stöder engelska, tyska, franska, spanska, portugisiska, italienska, nederländska, svenska, danska, norska och finska.
-
-Utmärkt för flerspråkiga klassrum. ESL-lärare använder verktyget för ordförrådsinlärning. Skapa arbetsblad med målspråksbilder. Kombinera med matematik arbetsblad för flerspråkig undervisning. Internationella skolor använder alla 11 språk. Hemundervisningsfamiljer väljer modersmål eller inlärningsspråk. Bildnamnen förstärker läsning och stavning. Varje språk har kulturellt relevanta bilder. Svenska bildnamn stödjer bokstäver lära sig naturligt. Lärare skapar tvåspråkiga arbetsblad enkelt.`,
-        highlighted: false,
-      },
-      {
-        id: '5',
-        icon: '💰',
-        title: 'Kommersiell Licens Inkluderad - Sälj Arbetsblad Gratis och Målarbilder Barn Material',
-        description: `Full Tillgång-prenumeration inkluderar print-on-demand kommersiell licens. Sälj dina skapade arbetsblad på Teachers Pay Teachers utan extra avgifter. Öppna Etsy-butik med arbetsbladsmaterial. Publicera på Amazon KDP som låginnehållsböcker. Ingen upphovsrätt krävs på dina produkter. Professionell 300 DPI-kvalitet perfekt för försäljning.
-
-Skapa arbetsblad gratis för utskrift och sälj dem som PDF-nedladdningar. Lärarentreprenörer tjänar $500-$5000/månad med arbetsbladssäljning. Kombinera målarbilder barn med hitta föremål-arbetsblad. Skapa produktbuntar för högre försäljning. Prenumerationen kostar $240/år men kan ge inkomst på tusentals dollar. Generera 10-20 arbetsblad per timme för snabb produktframställning. Säljlicensen täcker alla 33 verktyg i Full Tillgång. Inga ytterligare licensavgifter någonsin.`,
-        highlighted: true,
-      },
-      {
-        id: '6',
-        icon: '📚',
-        title: '3000+ Bildbibliotek - Siffror och Tal plus Addition och Subtraktion Bilder',
-        description: `Tillgång till över 3000 barnvänliga bilder organiserade efter teman. Hitta snabbt bilder för siffror och tal arbetsblad. Matematiska symboler för addition och subtraktion inkluderade. Temabaserad organisation gör val enkelt. Välj djurtema, maturama, fordonsteam eller säsongsteman. Varje tema innehåller 30-100 relaterade bilder.
-
-Kombinera temabilder med slumpmässiga val för variation. Sök efter specifika objekt med sökfunktionen. Alla bilder är barnvänliga och pedagogiskt lämpliga. Perfekt för siffror och tal igenkänning. Skapa räknearbetsblad med talbileder. Använd addition och subtraktion symboler för matematiska arbetsblad. Bildbiblioteket uppdateras regelbundet med nya motiv. Inga extra avgifter för bildanvändning. Alla 3000+ bilder inkluderade i prenumerationen.`,
-        highlighted: false,
-      },
-      {
-        id: '7',
-        icon: '🖨️',
-        title: 'Professionell 300 DPI Kvalitet - Förskoleklass Material och Finmotorik Övningar Utskrift',
-        description: `Exportera arbetsblad i professionell 300 DPI-upplösning. Perfekt för utskrift på vanlig skrivare hemma. Lika bra för kommersiell offset-printing. Välj PDF eller JPEG-format för förskoleklass material. PDF bevrar vektorkvalitet för perfekt skärpa. JPEG fungerar utmärkt för digital delning. Gråskalsalternativ sparar bläck vid utskrift.
-
-Utmärkt för finmotorik övningar som kräver tydliga linjer. Svarta-vita versioner enklare för barn att fokusera. Färgversioner mer visuellt engagerande. Varje arbetsblad laddas ner på sekunder. Inget väntan eller bearbetningstid. Facit genereras automatiskt separat. I Spy-facit visar cirklade gömda objekt. Odd One Out-facit markerar oparade bilder. Båda facitblad laddas ner separat från arbetsbladet. Professionell kvalitet redo för klassrum eller försäljning.`,
-        highlighted: true,
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // How-To Guide - FULL text from find-objects.md step sections
@@ -294,80 +196,8 @@ Båda facitformat hjälper lärare rätta snabbt. Spara filer på dator för åt
     badgeText: 'Vem Det Är För',
     readMoreLabel: 'Läs mer',
     showLessLabel: 'Visa mindre',
-    items: [
-      {
-        id: '1',
-        icon: '👶',
-        title: 'Förskoleklass Lärare - Finmotorik Övningar och Målarbilder Barn för Tidig Utveckling',
-        subtitle: 'Finmotorik Övningar för Barn 6 År',
-        description: `Förskoleklasslärare använder hitta föremål-arbetsblad för daglig finmotorik övningar. Barn i förskoleklass (6 år) utvecklar visuell diskrimineringsförmåga. Arbetsbladen tränar ögon-hand-koordination genom pek-och-markera aktiviteter. Kombinera med målarbilder barn för multisensorisk inlärning. Elever pekar på gömda objekt och cirklar dem med pennor. Denna aktivitet stärker penngrepp och finmotorik övningar samtidigt.
-
-Lärare anpassar svårighetsgraden genom att minska antal objekt för yngre barn. Välj 5-8 stora distraktionsbilder för enklare uppgifter. Odd One Out-läget tränar matchningsfärdigheter kritiska för förskoleklass. Barn jämför bilder och identifierar likheter och skillnader. Dessa kognitiva färdigheter är grundläggande för bokstäver lära sig och matematik arbetsblad senare. Arbetsbladen fungerar perfekt under morgonsamling eller som stationaktivitet.
-
-Lärare skapar tematiska arbetsblad matchande årstider eller enheter. Höstema med löv och pumpor för september-oktober. Vintertema med snöflingor och julgranar för december-januari. Varje arbetsblad tar under 1 minut att generera. Förskoleklass material behöver skapas snabbt mellan aktiviteter.`,
-        quote: 'Mina elever älskar att hitta gömda föremål!',
-      },
-      {
-        id: '2',
-        icon: '📚',
-        title: 'Lågstadielärare Årskurs 1-3 - Multiplikationstabellen och Klockan Lära Sig Integration',
-        subtitle: 'Matematik och Visuell Perception',
-        description: `Lågstadielärare (årskurs 1-3) integrerar hitta föremål-arbetsblad med matematik arbetsblad. Elever i årskurs 2-3 arbetar med multiplikationstabellen dagligen. Skapa hitta-föremål arbetsblad där barn räknar föremål i grupper. Använd 4 grupper med 3 äpplen vardera för 4×3-övning. Multiplikationstabellen blir visuell och konkret.
-
-Klockan lära sig-lektioner förstärks med klockbilder i arbetsbladet. Gömda klockbilder visar olika tider som elever identifierar. Kombinera klockan lära sig med addition och subtraktion genom tidsberäkningar. Siffror och tal-igenkänning tränas genom räkneuppgifter. Lägg till talbilder 1-20 för talidentifiering. Matematik arbetsblad och visuell perception kombineras naturligt.
-
-Elever utvecklar både perceptuella och matematiska färdigheter. Bokstäver lära sig integreras genom bildnamn på svenska. Svenska bildnamn förstärker stavning och ordförråd. Lärare skapar arbetsblad för veckovisa läxor eller klassrumscentra. Arbetsblad gratis-format låter lärare generera obegränsade kopior. En lärare skapar 10-15 olika arbetsblad per vecka för differentiering. Enklare versioner för elever som behöver mer stöd. Svårare versioner med fler objekt för avancerade elever.`,
-        quote: 'Matematik blir roligare med visuella sökuppgifter!',
-      },
-      {
-        id: '3',
-        icon: '🏠',
-        title: 'Hemundervisningsfamiljer - Bokstäver Skriva och Siffror och Tal Multämnesintegration',
-        subtitle: 'Flexibelt Lärande Hemma',
-        description: `Hemundervisningsfamiljer använder hitta föremål-arbetsblad för multämneslektioner. Föräldrar kombinerar visuell perception med bokstäver skriva och siffror och tal. Morgonlektioner inkluderar ett hitta-föremål arbetsblad som uppvärmning. Barn övar fokus och koncentration innan mer krävande akademiskt arbete.
-
-Arbetsbladen kompletterar målarbilder barn som lugna eftermiddagsaktiviteter. Föräldrar skapar tematiska veckor med matchande arbetsblad. Bondgårdsvecka använder djurbilder för hitta-föremål aktiviteter. Samma djur används i bokstäver skriva-övningar och siffror och tal-räkning. Integration över ämnen stärker inlärning.
-
-Finmotorik övningar inkluderas naturligt genom cirkling och markeringsaktiviteter. Multiplikationstabellen tränas visuellt med grupperade objekt. Klockan lära sig blir interaktiv genom klockbilder i arbetsbladen. Addition och subtraktion-problem skapas baserat på antal objekt. Hemundervisande föräldrar uppskattar flexibiliteten att skapa arbetsblad gratis när som helst. Ingen väntan på leveranser eller besök till lärarbutiker. Generera arbetsblad på morgonen för samma dags lektion. Förskoleklass material för yngre syskon och matematik arbetsblad för äldre barn skapas från samma verktyg.`,
-        quote: 'En prenumeration täcker alla mina barns nivåer!',
-      },
-      {
-        id: '4',
-        icon: '🌍',
-        title: 'ESL och Svenska som Andraspråk Lärare - Bokstäver Lära Sig och Matematik Arbetsblad på Svenska',
-        subtitle: 'Flerspråkig Undervisning',
-        description: `ESL-lärare och svenska som andraspråk-lärare använder bildnamn för ordförrådsinlärning. Verktyget erbjuder bilder med svenska namn för bokstäver lära sig. Nyanlända elever kopplar visuella objekt till svenska ord. Hitta äpplet-uppgift lär ordet "äpple" genom upprepad exponering.
-
-Kombinera bildbaserat lärande med matematik arbetsblad på svenska. Talord lärandes när elever räknar objekt på svenska. Ett, två, tre, fyra förstärks genom räkneaktiviteter. Siffror och tal blir begripliga genom visuell representation. Multiplikationstabellen introduceras på svenska med grupperade objekt. Klockan lära sig-lektioner inkluderar svenska tidsuttryck. Klockbilder kombinerade med text lär "klockan tre" och "halv fyra".
-
-Addition och subtraktion-vokabulär tränas genom matematiska bilduppgifter. Finmotorik övningar hjälper nyanlända barn som kan ha glapp i skolundervisning. Arbetsbladens visuella natur minskar språkbarriärer. Elever förstår uppgiften även med begränsad svenska. Lärare skapar graderade arbetsblad från enkla till komplexa. Börja med 5 stora objekt för nybörjare. Öka till 12 mindre objekt när språket utvecklas. Målarbilder barn fungerar som belöningsaktivitet efter språklektioner.`,
-        quote: 'Flerspråkigt stöd är ovärderligt för mina elever!',
-      },
-      {
-        id: '5',
-        icon: '💜',
-        title: 'Specialpedagoger - Finmotorik Övningar och Målarbilder Barn för Anpassad Inlärning',
-        subtitle: 'Individualiserad Undervisning',
-        description: `Specialpedagoger använder hitta föremål-arbetsblad för differentierad undervisning. Elever med synnedsättningar drar nytta av stora, tydliga bilder. Justera bildstorlek genom att välja färre objekt för större utskrift. Finmotorik övningar anpassas för varierande förmågor. Barn med motoriska utmaningar använder arbetsbladen för griffelträning.
-
-Cirkling och pekövningar förbättrar penngrepp gradvis. Målarbilder barn kombineras för multi-modal inlärning. Visuell perception tränas metodiskt genom progressiva svårighetsnivåer. Börja med Odd One Out-läge med endast 2 par för enklare matchning. Öka till 10-12 par när färdigheterna utvecklas. I Spy-läge börjar med 1 gömt objekt bland 5 distraktorer.
-
-Elever med koncentrationssvårigheter fördrar enklare, mindre visuellt överbelastade arbetsblad. Specialpedagoger skapar arbetsblad gratis anpassade för varje elevs IEP-mål. Matematik arbetsblad med färre element för elever som lätt blir överväldigade. Multiplikationstabellen introduceras visuellt för konkret förståelse. Klockan lära sig blir tillgängligt genom stora klockbilder. Bokstäver lära sig stöds av bildnamnsassociationer. Siffror och tal presenteras i hanterliga mängder. Addition och subtraktion visualiseras med konkreta objekt.`,
-        quote: 'Jag kan snabbt anpassa för varje elevs behov!',
-      },
-      {
-        id: '6',
-        icon: '💰',
-        title: 'Lärarentreprenörer - Multiplikationstabellen och Klockan Lära Sig Produkter för Försäljning',
-        subtitle: 'Kommersiell Licens Ingår',
-        description: `Lärarentreprenörer skapar arbetsbladsprodukter för försäljning online. Teachers Pay Teachers-säljare genererar målarbilder barn och perceptionsarbetsblad. Full Tillgång-prenumerationen inkluderar kommersiell licens. Säljare skapar produktbuntar med 20-50 arbetsblad gratis för utskrift.
-
-Multiplikationstabellen-produkter med visuella hitta-föremål aktiviteter säljer bra. Klockan lära sig-arbetsblad paketeras med olika tidsformat. Digital-analog klockpraxis kombineras med hitta-gömda-klockor. Matematik arbetsblad-buntar inkluderar addition och subtraktion-teman. Siffror och tal-arbetsblad för förskoleklass material-kategorin. Bokstäver lära sig-produkter med bildnamnsassociationer. Finmotorik övningar-buntar för tidig barndom.
-
-Säljare genererar 10-20 unika arbetsblad per timme. En mångsidig produktlinje skapas snabbt. Säsongspaket för höst, vinter, vår och sommar. Tematiska buntar för djur, mat, fordon, former. Differentierade nivåer för olika åldersgrupper. Förskoleklass material för 3-6 år. Årskurs 1-3 material för 7-9 år. Professionell 300 DPI-kvalitet gör produkter konkurenskraftiga. Grayscale-alternativ tilltalar lärare som sparar bläck. Säljare tjänar $500-$5000/månad med arbetsbladsprodukter. Prenumerationen kostar $240/år men genererar tusentals i inkomst.`,
-        quote: 'Min prenumeration betalade sig själv första månaden!',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // FAQ Section - Selected FAQs from find-objects.md
@@ -381,48 +211,8 @@ Säljare genererar 10-20 unika arbetsblad per timme. En mångsidig produktlinje 
     showLessLabel: 'Visa mindre',
     secureCheckout: 'Säker betalning',
     cancelAnytime: 'Avsluta när som helst',
-    items: [
-      {
-        id: '1',
-        question: 'Kan Jag Skapa Addition och Subtraktion Arbetsblad med Siffror och Tal för Matematik Arbetsblad?',
-        answer: 'Ja, hitta föremål-verktyget fungerar utmärkt för visuella matematik arbetsblad med addition och subtraktion. Skapa arbetsblad där elever räknar objekt och utför addition och subtraktion-operationer. Använd I Spy-läget för addition: "Hitta 3 äpplen + 5 äpplen = hur många äpplen totalt?" Elever räknar objekt visuellt och adderar. För subtraktion: "Det finns 12 djur totalt, hitta och stryk 4 djur, hur många återstår?" Addition och subtraktion blir konkret och visuell. Siffror och tal-igenkänning tränas samtidigt genom räkning. Lägg till talbilder (1-20) från bildbiblioteket för siffror och tal-övningar. Kombinera hitta-föremål med matematik arbetsblad för multisensorisk inlärning. Addition och subtraktion-problem baserade på verkliga objekt är mer engagerande än abstrakta siffror och tal. Förskoleklass material med visuell räkning förberedre för formell matematik arbetsblad senare. Elever i förskoleklass övar siffror och tal genom objekträkning innan symboler introduceras.',
-      },
-      {
-        id: '2',
-        question: 'Hur Skapar Jag Multiplikationstabellen och Klockan Lära Sig Material som Arbetsblad Gratis?',
-        answer: 'Multiplikationstabellen-övningar skapas genom att gruppera objekt visuellt i arbetsblad. För 3×4 multiplikation: skapa 3 rader med 4 objekt vardera. Elever räknar grupper och lär multiplikationstabellen konkret. Klockan lära sig-material genereras med klockbilder från biblioteket. Välj 8-12 olika klockbilder som visar olika tider. I Spy-läge: "Hitta klockan som visar 3:00" eller "Finn klockan som visar halv fyra". Klockan lära sig blir interaktiv sökning istället för passiv igenkänning. Multiplikationstabellen och klockan lära sig kombineras: "Hitta 4 grupper med 3 klockor varandra = 12 klockor". Arbetsblad gratis-systemet låter dig generera obegränsade multiplikationstabellen-övningar. Skapa olika versioner för 2-tabellen, 5-tabellen, 10-tabellen. Klockan lära sig-progression: börja med hela timmar, sedan halvtimmar, sedan kvart. Varje multiplikationstabellen och klockan lära sig-arbetsblad tar under 2 minuter att generera som arbetsblad gratis.',
-      },
-      {
-        id: '3',
-        question: 'Fungerar Detta för Bokstäver Lära Sig, Målarbilder Barn och Finmotorik Övningar?',
-        answer: 'Absolut! Bokstäver lära sig förstärks genom bildnamn på svenska i biblioteket. Välj bilder som börjar med bokstaven du undervisar: "Hitta alla bilder som börjar med B (boll, bil, banan)". Bokstäver lära sig kopplas till visuella objekt naturligt. Målarbilder barn-element integreras genom att välja färgglada, barnvänliga bilder. Djurteman, maturama och fordonbilder fungerar som målarbilder barn skulle. Finmotorik övningar tränas genom cirkling, pekande och markeringsaktiviteter. Elever använder pennor för att cirkla gömda objekt vilket stärker penngrepp. Finmotorik övningar inkluderar också ögon-hand-koordination genom visuell sökning. Bokstäver lära sig, målarbilder barn och finmotorik övningar kombineras: välj djurbilder (målarbilder barn-stil), låt elever hitta djur som börjar med specifik bokstav (bokstäver lära sig), cirkla dem med penna (finmotorik övningar). Tredubbel pedagogisk effekt från ett enda arbetsblad. Förskoleklass material drar maximalt nytta av denna integration.',
-      },
-      {
-        id: '4',
-        question: 'Är Detta Lämpligt som Förskoleklass Material och Addition och Subtraktion för Siffror och Tal?',
-        answer: 'Ja, perfekt som förskoleklass material för barn 6 år. Förskoleklass material behöver vara visuellt, engagerande och pedagogiskt. Hitta föremål-arbetsblad uppfyller alla kriterier. För förskoleklass material, använd färre objekt (5-8) med större bilder. Addition och subtraktion introduceras konkret: "Hitta 2 bollar + 3 bollar". Elever räknar objekt istället för abstrakta siffror och tal. Förskoleklass material fokuserar på taluppfattning 0-10. Siffror och tal blir meningsfulla genom verkliga objekt. Addition och subtraktion-koncept förstås visuellt innan symboler introduceras. Förskoleklass material med visuell räkning bygger grundläggande talförståelse. Siffror och tal-symboler läggs till gradvis när barn är redo. Addition och subtraktion genom objektmanipulation föregår formella räkneoperationer.',
-      },
-      {
-        id: '5',
-        question: 'Kan Verktyget Användas för Matematik Arbetsblad, Multiplikationstabellen och Klockan Lära Sig för Årskurs 1-3?',
-        answer: 'Definitivt! Matematik arbetsblad för lågstadiet (årskurs 1-3) skapas enkelt. Matematik arbetsblad kombinerar visuell perception med talbegrepp. För årskurs 1: räkning 1-20 med siffror och tal-bilder. För årskurs 2-3: multiplikationstabellen med grupperade objekt. Multiplikationstabellen 2, 5, 10 introduceras visuellt först. Klockan lära sig progresserar från hela timmar till fem-minutersintervaller. Matematik arbetsblad för årskurs 1 fokuserar på addition och subtraktion inom 20. Årskurs 2 matematik arbetsblad inkluderar multiplikationstabellen upp till 5-tabellen. Årskurs 3 matematik arbetsblad omfattar multiplikationstabellen upp till 10-tabellen. Klockan lära sig blir mer avancerat: "Hitta klockan som visar 14:45" för digital tidsförståelse. Multiplikationstabellen, klockan lära sig och matematik arbetsblad differentieras per nivå inom samma verktyg.',
-      },
-      {
-        id: '6',
-        question: 'Hur Kombinerar Jag Detta med Bokstäver Lära Sig och Addition och Subtraktion i Arbetsblad Gratis?',
-        answer: 'Skapa multämnesarbetsblad som kombinerar bokstäver lära sig med addition och subtraktion. Exempel: "Hitta alla bilder som börjar med B, räkna dem, lägg till bilder som börjar med M". Bokstäver lära sig och addition kombineras naturligt. Addition och subtraktion-problem baserade på bokstavskategorier: "Hitta 5 B-ord + 3 M-ord = hur många bokstäver totalt?" Arbetsblad gratis-systemet låter dig experimentera med ämnesintegration. Bokstäver lära sig förstärks genom upprepad exponering av bildnamn. Addition och subtraktion blir kontextbaserad istället för abstrakt. Arbetsblad gratis-generering innebär att du kan skapa 10 variationer av samma koncept. Bokstäver lära sig-fokus måndag (endast B-ord), addition och subtraktion onsdag (räkna B+M ord), integration fredag (kombinera). Arbetsblad gratis utan kopierings avgifter låter dig differentierade för olika elever.',
-      },
-      {
-        id: '7',
-        question: 'Passar Detta för Siffror och Tal, Multiplikationstabellen plus Matematik Arbetsblad Differentiering?',
-        answer: 'Ja, utmärkt för differentierade matematik arbetsblad baserade på elevnivå. Siffror och tal-igenkänning tränas från grundnivå (1-10) till avancerad (1-100). Multiplikationstabellen differentieras: enklare versioner med 2-tabellen och 5-tabellen, svårare med 7-9-tabellerna. Matematik arbetsblad anpassas genom att ändra antal objekt. Grundnivå: 5-8 stora objekt för siffror och tal 1-10. Mellannivå: 10-15 objekt för multiplikationstabellen 2-5. Avancerad: 15-20 objekt för multiplikationstabellen 6-10. Siffror och tal-progression följer Lgr22-kursplan. Matematik arbetsblad för olika talområden: 0-10, 0-20, 0-100. Multiplikationstabellen introduceras gradvis över årskurs 2-3. Samma verktyg skapar siffror och tal för förskoleklass till multiplikationstabellen för årskurs 3. Matematik arbetsblad-differentiering tar 30 sekunder extra per nivå.',
-      },
-      {
-        id: '8',
-        question: 'Kan Jag Inkludera Finmotorik Övningar, Målarbilder Barn och Klockan Lära Sig för Förskoleklass Material?',
-        answer: 'Absolut! Finmotorik övningar är inbyggda i alla hitta föremål-arbetsblad. Cirkling och markeringsaktiviteter stärker penngrepp och finmotorik övningar naturligt. Målarbilder barn-element finns i de färgglada, barnvänliga bilderna. Klockan lära sig startar grundläggande i förskoleklass med hela timmar. Finmotorik övningar progresserar från stora cirklar (hela sidan) till mindre (enskilda objekt). Målarbilder barn-bilder engagerar visuellt och gör arbetsblad roliga. Klockan lära sig introduceras lekfullt: "Hitta klockan som visar när vi äter lunch". Förskoleklass material kombinerar finmotorik övningar (cirkling), visuell perception (hitta objekt), och tidskoncept (klockan lära sig). Målarbilder barn-kvalitet gör arbetsblad tilltalande för 6-åringar. Finmotorik övningar förbättras märkbart över terminen. Förskoleklass material med integrerade finmotorik övningar, målarbilder barn och klockan lära sig ger holistisk utveckling.',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Pricing
@@ -467,56 +257,8 @@ Säljare genererar 10-20 unika arbetsblad per timme. En mångsidig produktlinje 
       securePayment: 'Säker betalning',
       cancelAnytime: 'Avsluta när som helst',
     },
-    items: [
-      {
-        id: '1',
-        slug: 'hitta-och-rakna-arbetsblad',
-        name: 'Hitta och Räkna - Visuell Räkning',
-        category: 'Matematik',
-        icon: '🔢',
-        description: 'Kombinera hitta föremål med räkneaktiviteter för siffror och tal-träning. Perfekt för förskoleklass material med visuell matematik.',
-      },
-      {
-        id: '2',
-        slug: 'matchnings-arbetsblad',
-        name: 'Matchning - Visuell Diskriminering',
-        category: 'Logik',
-        icon: '🔗',
-        description: 'Kombinera hitta föremål med matchningsövningar för komplett visuell perceptionsträning och finmotorik övningar.',
-      },
-      {
-        id: '3',
-        slug: 'malarbilder-arbetsblad',
-        name: 'Målarbilder - Kreativa Aktiviteter',
-        category: 'Kreativt',
-        icon: '🎨',
-        description: 'Kombinera hitta föremål-arbetsblad med målarbilder barn för varierade finmotorik övningar och kreativ uttryck.',
-      },
-      {
-        id: '4',
-        slug: 'addition-arbetsblad',
-        name: 'Addition - Matematik Arbetsblad',
-        category: 'Matematik',
-        icon: '➕',
-        description: 'Kombinera visuell sökning med addition och subtraktion-övningar. Räkna gömda objekt för konkret matematikförståelse.',
-      },
-      {
-        id: '5',
-        slug: 'rita-linjer-arbetsblad',
-        name: 'Linjövningar - Finmotorik Träning',
-        category: 'Finmotorik',
-        icon: '✏️',
-        description: 'Kombinera hitta föremål med linjövningar för komplett finmotorik övningar-program. Perfekt för hand-öga-koordination.',
-      },
-      {
-        id: '6',
-        slug: 'alfabettag-arbetsblad',
-        name: 'Alfabetövningar - Bokstäver Lära Sig',
-        category: 'Språk',
-        icon: '🔤',
-        description: 'Kombinera hitta föremål med bokstäver lära sig för läsutveckling. Hitta bilder som börjar med specifika bokstäver.',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 };
 

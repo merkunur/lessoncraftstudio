@@ -99,43 +99,8 @@ El generador incluye 8 plantillas diferentes con varios patrones de líneas y or
     badgeText: 'Ejemplos Gratis',
     downloadingLabel: 'Descargando...',
     ofLabel: 'de',
-    items: [
-      {
-        id: '1',
-        worksheetSrc: '/samples/spanish/drawing-lines/sample-1.jpeg',
-        answerKeySrc: '',
-        altText: 'Fichas de grafomotricidad gratis para imprimir - líneas curvas para desarrollar motricidad fina en preescolar',
-        pdfDownloadUrl: '/samples/spanish/drawing-lines/sample-1.pdf',
-      },
-      {
-        id: '2',
-        worksheetSrc: '/samples/spanish/drawing-lines/sample-2.jpeg',
-        answerKeySrc: '',
-        altText: 'Fichas infantil de grafomotricidad gratis - trazos diagonales para ejercicios de coordinación ojo-mano en kinder',
-        pdfDownloadUrl: '/samples/spanish/drawing-lines/sample-2.pdf',
-      },
-      {
-        id: '3',
-        worksheetSrc: '/samples/spanish/drawing-lines/sample-3.jpeg',
-        answerKeySrc: '',
-        altText: 'Fichas para niños de grafomotricidad - líneas horizontales para practicar trazado de izquierda a derecha',
-        pdfDownloadUrl: '/samples/spanish/drawing-lines/sample-3.pdf',
-      },
-      {
-        id: '4',
-        worksheetSrc: '/samples/spanish/drawing-lines/sample-4.jpeg',
-        answerKeySrc: '',
-        altText: 'Fichas de grafomotricidad gratis para imprimir - trazos verticales para preescolar y desarrollo motor',
-        pdfDownloadUrl: '/samples/spanish/drawing-lines/sample-4.pdf',
-      },
-      {
-        id: '5',
-        worksheetSrc: '/samples/spanish/drawing-lines/sample-5.jpeg',
-        answerKeySrc: '',
-        altText: 'Material educativo gratis de grafomotricidad - ejercicios de trazos para lectoescritura infantil',
-        pdfDownloadUrl: '/samples/spanish/drawing-lines/sample-5.pdf',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Features Grid - FULL text from drawing-lines.md feature sections
@@ -151,71 +116,8 @@ El generador incluye 8 plantillas diferentes con varios patrones de líneas y or
       noHiddenFees: 'Sin cargos ocultos',
       cancelAnytime: 'Cancela cuando quieras',
     },
-    items: [
-      {
-        id: '1',
-        icon: '⚡',
-        title: 'Crea Fichas de Grafomotricidad en 3 Clics - Generador Rápido de Fichas para Imprimir Gratis',
-        description: `Genera fichas de grafomotricidad completas con solo tres clics simples. Primero, selecciona uno de los 8 patrones de plantilla de la cuadrícula de plantillas visuales. Segundo, elige tus imágenes de emparejamiento de más de 3000 opciones o carga tus propias fotos. Tercero, haz clic en el botón Generar para crear tu ficha para imprimir al instante.
-
-Todo el proceso toma menos de 90 segundos para fichas gratis básicas. Esta velocidad hace que el generador sea perfecto para maestros ocupados preparando fichas infantil diariamente. Crea múltiples variaciones para instrucción diferenciada en minutos. La generación rápida apoya la planeación de lecciones para fichas preescolar, ejercicios del abecedario y otras fichas para imprimir que necesitas. No se requieren habilidades de diseño para producir material educativo gratis de aspecto profesional cada vez.`,
-        highlighted: false,
-      },
-      {
-        id: '2',
-        icon: '✏️',
-        title: 'Edita Todo en tus Fichas Infantil - Personalización Completa para Material Educativo de Grafomotricidad',
-        description: `Cada elemento en las fichas de grafomotricidad generadas es completamente editable en el lienzo. Arrastra imágenes para reposicionarlas en cualquier lugar de la página. Cambia el tamaño de las imágenes más grandes o más pequeñas con controles simples del mouse. Rota imágenes a cualquier ángulo para diseños creativos de fichas para imprimir.
-
-Agrega cuadros de texto personalizados para nombres de estudiantes, instrucciones o contenido educativo. Cambia colores, fuentes y tamaños de texto para que coincidan con el tema de tu aula. Elimina cualquier elemento que no quieras en la ficha gratis final. Esta editabilidad completa distingue nuestra plataforma de generadores basados en plantillas rígidas. Los maestros combinan ejercicios de trazado de líneas con otras actividades en la misma página. La flexibilidad funciona para crear fichas infantil y material educativo gratis integral que aborda múltiples objetivos de aprendizaje simultáneamente.`,
-        highlighted: false,
-      },
-      {
-        id: '3',
-        icon: '📤',
-        title: 'Sube tus Propias Imágenes para Fichas Preescolar Personalizadas y Ejercicios de Lectoescritura',
-        description: `Sube imágenes personalizadas ilimitadas para personalizar tus fichas de grafomotricidad para tus estudiantes. La función de carga de múltiples archivos te permite agregar docenas de imágenes a la vez. Usa fotos de objetos del aula para ejercicios de emparejamiento relevantes.
-
-Carga trabajos de arte de estudiantes para crear fichas para imprimir personalizadas y atractivas. Incluye imágenes de las unidades curriculares actuales para actividades temáticas de emparejamiento. Combina imágenes cargadas con nuestra biblioteca de más de 3000 imágenes para variedad ilimitada. Esta función hace que el generador sea invaluable para crear fichas de matemáticas personalizadas, ejercicios de lectoescritura y fichas gratis con imágenes familiares. Los maestros de educación especial cargan imágenes específicas para fichas de programas educativos individualizados.`,
-        highlighted: false,
-      },
-      {
-        id: '4',
-        icon: '🌍',
-        title: 'Fichas de Grafomotricidad en 11 Idiomas - Material Educativo Gratis Multilingüe para Español',
-        description: `Genera fichas de grafomotricidad en 11 idiomas diferentes para aulas multilingües. La interfaz y el texto de las fichas para imprimir se traducen automáticamente a inglés, alemán, francés, español, italiano, portugués, holandés, danés, sueco, noruego y finlandés.
-
-Los maestros de español crean la misma ficha de emparejamiento en múltiples idiomas para instrucción diferenciada. Los programas de inmersión dual usan el generador para materiales consistentes en ambos idiomas. Los programas de lengua de herencia crean fichas del abecedario y ejercicios de lectoescritura en idiomas nativos. Los maestros de idiomas mundiales generan ejercicios de emparejamiento de vocabulario con etiquetas en el idioma objetivo. Esta flexibilidad de idioma hace que el generador sea esencial para aulas diversas modernas que enseñan fichas infantil y material educativo gratis.`,
-        highlighted: false,
-      },
-      {
-        id: '5',
-        icon: '💰',
-        title: 'Licencia Comercial de Impresión bajo Demanda - Vende tus Fichas de Grafomotricidad y Material Educativo',
-        description: `Tu suscripción Paquete Esencial incluye licencia comercial completa para vender fichas para imprimir en Teachers Pay Teachers, Etsy y Amazon KDP. Crea paquetes de fichas de grafomotricidad y véndelos como descargas digitales o productos impresos. La calidad de exportación de 300 DPI asegura resultados profesionales para uso comercial.
-
-Agrupa fichas de trazado de líneas con fichas de matemáticas, ejercicios del abecedario y dibujos para colorear para paquetes de actividades integrales. Muchos maestros ganan entre $500 y $5,000 mensuales vendiendo fichas para imprimir gratis creadas con nuestros generadores. La licencia comercial cubre las 10 aplicaciones del Paquete Esencial sin tarifas de licencia adicionales. La licencia POD incluida elimina la barrera de las costosas tarifas de derechos comerciales que cobran otras plataformas.`,
-        highlighted: true,
-      },
-      {
-        id: '6',
-        icon: '🎨',
-        title: 'Accede a Más de 3000 Imágenes para Fichas de Grafomotricidad - Biblioteca Completa de Material Educativo Gratis',
-        description: `Explora más de 3000 imágenes apropiadas para niños organizadas en docenas de categorías temáticas. Busca en la biblioteca de imágenes por palabra clave para encontrar imágenes perfectas para cualquier tema. Las categorías incluyen animales, comida, transporte, estaciones, días festivos, objetos del aula y conceptos educativos.
-
-Cada imagen funciona perfectamente para ejercicios de emparejamiento en fichas de grafomotricidad. La misma biblioteca apoya la creación de fichas de matemáticas con representaciones visuales de números. Usa las imágenes para fichas gratis de trazado donde los estudiantes trazan alrededor de contornos de imágenes. Crea fichas del abecedario con imágenes que comienzan con sonidos de letras objetivo. La biblioteca completa de imágenes elimina la necesidad de costosas suscripciones de clipart.`,
-        highlighted: false,
-      },
-      {
-        id: '7',
-        icon: '🖨️',
-        title: 'Calidad Profesional de 300 DPI - Fichas para Imprimir Listas y Dibujos para Colorear de Alta Resolución',
-        description: `Exporta todas las fichas de grafomotricidad a resolución verdadera de 300 DPI para impresión nítida y profesional. Elige entre formato PDF para impresión fácil en el aula o JPEG para distribución digital. La alta resolución asegura imágenes claras y texto nítido en cada página impresa.
-
-Habilita la opción de escala de grises para ahorrar tinta de impresora mientras mantienes la calidad de las fichas gratis. El estándar de 300 DPI hace que las fichas para imprimir sean adecuadas para impresión comercial y publicación. Crea ejercicios de números, fichas preescolar y fichas del abecedario con la misma calidad profesional. Los maestros imprimen material educativo gratis que se ve publicado profesionalmente. La calidad coincide con costosas editoriales educativas mientras cuesta una fracción del precio con tu suscripción.`,
-        highlighted: true,
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // How-To Guide - FULL text from drawing-lines.md step sections
@@ -297,80 +199,8 @@ Los archivos PDF incluyen tamaño de página adecuado para impresión perfecta s
     badgeText: 'Para Quién',
     readMoreLabel: 'Leer más',
     showLessLabel: 'Ver menos',
-    items: [
-      {
-        id: '1',
-        icon: '👶',
-        title: 'Maestros de Preescolar y Kinder - Fichas Infantil para Desarrollo de Motricidad Fina con Ejercicios de Matemáticas',
-        subtitle: 'Fichas para Grafomotricidad y Desarrollo Motor',
-        description: `Los maestros de preescolar usan fichas de grafomotricidad diariamente para práctica de motricidad fina y entrenamiento de discriminación visual. Crea paquetes de trabajo matutino con ejercicios temáticos de emparejamiento usando imágenes estacionales. Genera actividades de centros con diferentes niveles de dificultad para instrucción diferenciada en grupos pequeños.
-
-Imprime hojas de práctica para llevar a casa para estudiantes que tienen dificultades con el control del lápiz. Usa las 8 plantillas diferentes para proporcionar variedad durante todo el año escolar. Comienza el año con plantillas horizontales simples para trazado básico de líneas de izquierda a derecha. Progresa a patrones diagonales y curvos desafiantes a medida que mejoran las habilidades de los estudiantes.
-
-Los maestros de kinder adaptan las fichas infantil para niños de 3-4 años usando imágenes más grandes y menos pares. Combina fichas de grafomotricidad con ejercicios de matemáticas para centros de reconocimiento de números.`,
-        quote: '¡Mis alumnos de preescolar aman trazar las líneas para conectar imágenes!',
-      },
-      {
-        id: '2',
-        icon: '📚',
-        title: 'Maestros de Primaria de Primer a Tercer Grado - Lectoescritura y Abecedario con Ejercicios para Aprender los Números',
-        subtitle: 'Práctica de Vocabulario y Desarrollo de Alfabetización',
-        description: `Los maestros de primer grado integran fichas de grafomotricidad en centros de alfabetización para desarrollo de vocabulario. Crea ejercicios de emparejamiento de palabras de uso frecuente emparejando palabras con imágenes correspondientes para práctica de lectoescritura. Genera fichas preescolar de fonética emparejando sonidos iniciales con imágenes para práctica de correspondencia letra-sonido usando el abecedario.
-
-Diseña ejercicios de matemáticas usando grupos de imágenes que los estudiantes cuentan antes de trazar líneas de conexión y aprender los números. Los maestros de segundo grado usan el generador para vocabulario de área de contenido en unidades de ciencias y estudios sociales. Carga imágenes de unidades actuales y crea ejercicios personalizados de emparejamiento de terminología.
-
-Los maestros de tercer grado adaptan el formato para objetivos de aprendizaje más complejos. La personalización ilimitada permite a los maestros de primaria usar una herramienta en múltiples niveles de grado y materias.`,
-        quote: 'Las fichas de grafomotricidad apoyan perfectamente mis centros de alfabetización.',
-      },
-      {
-        id: '3',
-        icon: '🏠',
-        title: 'Padres que Educan en Casa - Material Educativo Gratis con Dibujos para Colorear y Tablas de Multiplicar',
-        subtitle: 'Material Adaptable para Educación en Casa',
-        description: `Los padres que practican la educación en casa manejan múltiples niños en diferentes niveles de grado usando el generador de fichas de grafomotricidad para instrucción individualizada. Crea fichas infantil personalizadas presentando fotos familiares, mascotas u objetos domésticos familiares para aprendizaje personalizado.
-
-Genera fichas preescolar alineadas con el alcance y secuencia del currículo elegido. Diseña unidades de fichas para imprimir temáticas que coincidan con lecturas actuales o tópicos de aprendizaje basado en proyectos. Carga imágenes de caminatas por la naturaleza y excursiones para crear ejercicios de emparejamiento relevantes.
-
-El soporte de 11 idiomas ayuda a familias que enseñan lenguas de herencia o programas de idiomas mundiales en casa. Imprime material educativo gratis ilimitado sin cargos por ficha ahorrando cientos comparado con libros de trabajo de currículo consumibles. Combina fichas de grafomotricidad con ejercicios de matemáticas, dibujos para colorear y tablas de multiplicar para paquetes de lecciones diarias completas.`,
-        quote: 'Una herramienta perfecta para todos los niveles de mis hijos.',
-      },
-      {
-        id: '4',
-        icon: '🌍',
-        title: 'Maestros de Español y Lenguas - Material Educativo Gratis Multilingüe para Fichas Preescolar de Lectoescritura',
-        subtitle: 'Fichas Bilingües para Programas de Inmersión',
-        description: `Los profesores de español explotan la dimensión multilingüe generando fichas para imprimir de emparejamiento de vocabulario en idiomas nativos de estudiantes para apoyo de comprensión. Crea fichas preescolar bilingües mostrando las mismas imágenes con etiquetas tanto en inglés como en lengua nativa.
-
-Diseña ejercicios de vocabulario de inglés principiante usando objetos cotidianos familiares para estudiantes recién llegados. Genera conjuntos de vocabulario temático para compras de supermercado, objetos del aula o ayudantes de la comunidad usando imágenes relevantes. La interfaz de 11 idiomas permite a los estudiantes ver instrucciones en su idioma nativo reduciendo la ansiedad.
-
-Los programas de inmersión dual usan el generador para materiales consistentes en ambos idiomas del programa. Genera el ejercicio de matemáticas del lunes en inglés y el mismo ejercicio en español para el martes. Los maestros de idiomas mundiales en nivel medio y secundaria usan el generador para práctica de vocabulario principiante.`,
-        quote: 'El soporte multilingüe es perfecto para mi clase de inmersión.',
-      },
-      {
-        id: '5',
-        icon: '💜',
-        title: 'Maestros de Educación Especial - Fichas Infantil Adaptadas con Ejercicios de Matemáticas y Números Personalizados',
-        subtitle: 'Fichas Personalizables para Necesidades Especiales',
-        description: `Los maestros de educación especial crean fichas de grafomotricidad altamente individualizadas dirigidas a objetivos IEP específicos. Diseña ejercicios de emparejamiento de habilidades para la vida emparejando objetos cotidianos con sus usos o ubicaciones. Genera fichas para imprimir de vocabulario funcional emparejando señales de seguridad con sus significados.
-
-Crea materiales de habilidades sociales emparejando expresiones faciales con palabras de emociones. Carga fotos de materiales reales del aula, comidas de cafetería o personal de la escuela para práctica relevante y concreta. La editabilidad completa del lienzo permite modificación después de la generación para accesibilidad perfecta.
-
-Amplía imágenes específicas para estudiantes con discapacidades visuales. Agrega señales de texto extra o codificación de colores para estudiantes que necesitan apoyo adicional. Remueve elementos para simplificar fichas infantil para estudiantes con dificultades de atención.`,
-        quote: 'Puedo adaptar cada ficha a las necesidades específicas de mis estudiantes.',
-      },
-      {
-        id: '6',
-        icon: '💰',
-        title: 'Maestros Emprendedores - Vende Fichas para Imprimir con Dibujos para Colorear, Tablas de Multiplicar y Abecedario',
-        subtitle: 'Genera Ingresos Vendiendo Recursos Educativos',
-        description: `Los maestros emprendedores construyen negocios rentables vendiendo paquetes de fichas creados con el generador de grafomotricidad. Diseña paquetes estacionales temáticos para ventas de regreso a clases, Halloween, Día de Acción de Gracias, Navidad y fin de año. Crea paquetes completos de fichas infantil organizados por progresión de habilidades de simple a complejo.
-
-Desarrolla colecciones de fichas preescolar alineadas con estándares curriculares por área de materia. Agrupa fichas de trazado de líneas con ejercicios de matemáticas, dibujos para colorear del abecedario y tablas de multiplicar para paquetes de actividades integrales. La licencia comercial POD incluida permite ventas ilimitadas sin tarifas de licencia adicionales.
-
-Muchos maestros ganan entre $500 y $2,000 mensuales vendiendo solo en Teachers Pay Teachers. Los vendedores principales generan $5,000-$10,000 mensuales con colecciones completas de fichas para imprimir a través de múltiples aplicaciones.`,
-        quote: '¡Mi suscripción se pagó sola el primer mes vendiendo fichas!',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // FAQ Section - Selected FAQs from drawing-lines.md
@@ -384,98 +214,8 @@ Muchos maestros ganan entre $500 y $2,000 mensuales vendiendo solo en Teachers P
     showLessLabel: 'Ver menos',
     secureCheckout: 'Pago seguro',
     cancelAnytime: 'Cancela cuando quieras',
-    items: [
-      {
-        id: '1',
-        question: '¿Es Realmente Gratis Este Generador de Fichas de Grafomotricidad con Dibujos para Colorear?',
-        answer: 'El generador de fichas de grafomotricidad requiere una suscripción Paquete Esencial a $144 al año o $15 al mes. Tu suscripción otorga acceso a creación ilimitada de fichas infantil sin cargos por ficha individual. Ningún límite mensual de descargas restringe cuántas fichas preescolar creas. El Paquete Esencial incluye 10 generadores populares de fichas para imprimir incluyendo grafomotricidad, dibujos para colorear, ejercicios de matemáticas y más. La biblioteca de 3000 imágenes viene incluida sin costos extra. La licencia comercial permitiéndote vender tus creaciones está incluida sin tarifas de licencia adicionales.',
-      },
-      {
-        id: '2',
-        question: '¿Puedo Imprimir las Fichas Infantil con Ejercicios de Números para Toda Mi Clase?',
-        answer: 'Tu suscripción Paquete Esencial incluye uso ilimitado en aula para todas las fichas infantil y fichas preescolar que creas. Imprime tantas copias como necesites para tus estudiantes sin restricciones ni tarifas por copia. Distribuye fichas de grafomotricidad a 20, 30 o más estudiantes diariamente. Fotocopia fichas para imprimir para uso en centros de aprendizaje en múltiples estaciones. Lamina materiales para uso repetido durante todo el año escolar. La licencia educativa cubre toda distribución dentro de tu contexto de enseñanza.',
-      },
-      {
-        id: '3',
-        question: '¿Qué Idiomas Están Disponibles para Fichas del Abecedario y Lectoescritura?',
-        answer: 'El generador soporta 11 idiomas completos para crear fichas del abecedario y material de lectoescritura. Los idiomas disponibles incluyen inglés, alemán, francés, español, italiano, portugués, holandés, danés, sueco, noruego y finlandés. La interfaz del generador se traduce completamente a tu idioma seleccionado. Los nombres de todas las 3000 imágenes de biblioteca aparecen en tu idioma elegido automáticamente. Las instrucciones en las fichas para imprimir generadas coinciden con tu configuración de idioma.',
-      },
-      {
-        id: '4',
-        question: '¿Puedo Vender las Fichas para Imprimir con Tablas de Multiplicar que Creo?',
-        answer: 'Sí, tu suscripción Paquete Esencial incluye licencia comercial completa sin tarifas adicionales. Vende fichas de grafomotricidad en Teachers Pay Teachers, Etsy o cualquier plataforma de mercado digital. Publica libros de actividades presentando tus fichas infantil en Amazon Kindle Direct Publishing. Ofrece fichas preescolar como productos digitales descargables en tu propio sitio web. La licencia comercial cubre todos los 10 generadores Paquete Esencial incluyendo tablas de multiplicar, ejercicios de matemáticas y dibujos para colorear.',
-      },
-      {
-        id: '5',
-        question: '¿Cómo Personalizo las Fichas Preescolar con Dibujos para Colorear?',
-        answer: 'Cada elemento en las fichas de grafomotricidad generadas es completamente editable después de la creación. Haz clic en cualquier imagen para seleccionarla y luego arrástrala a una nueva posición. Cambia el tamaño de imágenes más grandes o más pequeñas usando las manijas de esquina. Rota imágenes a cualquier ángulo para diseños creativos de fichas infantil. Agrega cuadros de texto personalizados para nombres de estudiantes, instrucciones o contenido educativo. Sube tus propias imágenes para personalización completa de fichas preescolar.',
-      },
-      {
-        id: '6',
-        question: '¿Para Qué Edades Funcionan las Fichas de Grafomotricidad con Ejercicios de Números?',
-        answer: 'Las fichas de grafomotricidad funcionan mejor para niños de 3-8 años abarcando preescolar hasta tercer grado. Los estudiantes de preescolar de 3-4 años practican trazado básico de líneas con plantillas más simples. Los niños de kinder de 5 años progresan a patrones de líneas más complejos desarrollando control del lápiz. Los estudiantes de primer grado de 6-7 años usan fichas infantil para reforzar discriminación visual junto con alfabetización temprana. Los estudiantes de segundo y tercer grado de 7-8 años adaptan el formato para objetivos curriculares más complejos.',
-      },
-      {
-        id: '7',
-        question: '¿Puedo Subir Mis Propias Imágenes para Fichas del Abecedario y Lectoescritura?',
-        answer: 'Sí, sube imágenes personalizadas ilimitadas para personalizar completamente tus fichas de grafomotricidad. La función de carga de múltiples archivos permite agregar docenas de imágenes simultáneamente. Los formatos soportados incluyen JPEG, PNG y GIF cubriendo casi todos los tipos de archivo de imagen. Carga fotos de objetos del aula, trabajos de arte de estudiantes o proyectos curriculares actuales. Combina imágenes cargadas con nuestra biblioteca de 3000 imágenes para variedad ilimitada.',
-      },
-      {
-        id: '8',
-        question: '¿Cuánto Tiempo Toma Crear Fichas Infantil con Tablas de Multiplicar?',
-        answer: 'Una ficha de grafomotricidad completa toma menos de 3 minutos crear desde inicio hasta descarga. Selecciona tu plantilla en 10 segundos navegando la cuadrícula visual. Elige tu tema de imágenes en 20 segundos explorando categorías. Habilita auto-llenar y haz clic en Generar para creación instantánea en 5 segundos. Tu ficha infantil aparece en el lienzo editable lista para personalización. Los maestros experimentados crean fichas preescolar básicas en 90 segundos consistentemente.',
-      },
-      {
-        id: '9',
-        question: '¿Las Fichas de Grafomotricidad Incluyen Respuestas para Ejercicios de Lectoescritura?',
-        answer: 'Las fichas de trazado de líneas no requieren hojas de respuestas separadas porque la verificación es visual e inmediata. Los estudiantes trazan líneas conectando pares de imágenes idénticas haciendo que la corrección sea obvia. Los maestros verifican visualmente que los estudiantes conectaron coincidencias correctas. El formato de emparejamiento de imágenes proporciona retroalimentación instantánea a los estudiantes. Esta naturaleza autocorrectiva hace que las fichas infantil sean perfectas para trabajo independiente y centros.',
-      },
-      {
-        id: '10',
-        question: '¿Puedo Crear Fichas para Imprimir sobre Temas Específicos como Tablas de Multiplicar y Números?',
-        answer: 'Nuestra biblioteca contiene más de 3000 imágenes organizadas en docenas de categorías temáticas cubriendo todos los tópicos escolares comunes. Las categorías incluyen animales, comida, transporte, estaciones, días festivos, formas, colores, números y conceptos educativos. Busca la biblioteca usando palabras clave para encontrar imágenes perfectas para cualquier unidad curricular. Carga tus propias imágenes para tópicos especializados no representados en la biblioteca.',
-      },
-      {
-        id: '11',
-        question: '¿Puedo Imprimir Fichas de Grafomotricidad en Blanco y Negro para Ahorrar Tinta?',
-        answer: 'Sí, el generador incluye una opción de escala de grises que convierte cualquier ficha para imprimir a blanco y negro antes de descargar. Activa la casilla de escala de grises en el menú de descarga para convertir automáticamente colores a tonos grises. Esta función ahorra significativamente tinta de impresora manteniendo líneas nítidas y claras para trazado. Los maestros usan frecuentemente modo blanco y negro para fichas gratis de práctica diaria, reservando impresiones a color para actividades especiales de fichas infantil.',
-      },
-      {
-        id: '12',
-        question: '¿Cuántas Plantillas de Líneas Diferentes Ofrece el Generador de Fichas Preescolar?',
-        answer: 'El generador de fichas de grafomotricidad incluye 8 plantillas diferentes de patrones de líneas para variedad durante todo el año. Las opciones incluyen líneas curvas fluidas, trazos diagonales inclinados, líneas horizontales de izquierda a derecha y líneas verticales de arriba hacia abajo. Cada plantilla está disponible en orientaciones vertical y horizontal. Los maestros progresan de patrones horizontales simples para estudiantes principiantes de preescolar hacia desafíos curvos y diagonales más complejos para estudiantes avanzados de fichas infantil.',
-      },
-      {
-        id: '13',
-        question: '¿Cómo Uso las Fichas de Grafomotricidad para Instrucción Diferenciada en Mi Aula?',
-        answer: 'El generador facilita la diferenciación permitiendo crear múltiples versiones de fichas para imprimir con diferentes niveles de dificultad. Crea versiones fáciles con menos pares de emparejamiento e imágenes más grandes para estudiantes que luchan con motricidad fina. Genera versiones desafiantes con más pares y patrones de líneas complejos para estudiantes avanzados. Usa la misma temática de imágenes pero diferentes plantillas para que todos los estudiantes participen en la misma lección de fichas preescolar a su nivel apropiado.',
-      },
-      {
-        id: '14',
-        question: '¿Las Fichas de Grafomotricidad Ayudan a Preparar a los Niños para la Escritura y Lectoescritura?',
-        answer: 'Las fichas de grafomotricidad desarrollan habilidades fundamentales de motricidad fina que son prerrequisitos esenciales para la escritura a mano. Trazar líneas fortalece los músculos pequeños de la mano necesarios para sujetar correctamente el lápiz. Los patrones de líneas horizontales establecen la progresión de izquierda a derecha requerida para la lectoescritura. Las líneas verticales y diagonales desarrollan control direccional para formar letras. Los terapeutas ocupacionales recomiendan actividades de trazado de líneas como preparación para el abecedario.',
-      },
-      {
-        id: '15',
-        question: '¿Puedo Adaptar Fichas Infantil para Estudiantes con Necesidades Especiales de Educación?',
-        answer: 'La editabilidad completa del lienzo permite adaptar cualquier ficha de grafomotricidad para necesidades especiales de aprendizaje. Amplía imágenes específicas para estudiantes con discapacidades visuales. Reduce el número de pares para estudiantes con dificultades de atención. Agrega codificación de colores o señales visuales adicionales para apoyo de procesamiento. Carga fotos de objetos familiares del entorno del estudiante para relevancia y conexión emocional en fichas preescolar individualizadas.',
-      },
-      {
-        id: '16',
-        question: '¿Las Fichas para Imprimir Se Alinean con Estándares Curriculares de Preescolar y Primaria?',
-        answer: 'Las fichas de grafomotricidad apoyan estándares curriculares de desarrollo motor fino y preparación para la alfabetización adoptados ampliamente en programas de preescolar y primaria. Las actividades de trazado de líneas cumplen objetivos de desarrollo físico relacionados con control de movimientos pequeños. Los ejercicios de emparejamiento de imágenes apoyan estándares de discriminación visual. El formato de conexión izquierda-derecha refuerza conceptos de direccionalidad de lectura para lectoescritura requeridos en estándares de alfabetización temprana.',
-      },
-      {
-        id: '17',
-        question: '¿Puedo Crear Múltiples Fichas de Grafomotricidad Rápidamente para Toda la Semana?',
-        answer: 'Sí, el generador permite crear fichas infantil rápidamente gracias a la función de auto-llenado y generación instantánea. Crea 5 fichas diferentes en menos de 10 minutos seleccionando diferentes plantillas y temas de imágenes. Usa la misma plantilla con diferentes categorías de imágenes para variedad temática diaria. Los maestros preparan paquetes semanales de fichas para imprimir en una sola sesión de planificación, ahorrando horas comparado con buscar recursos en línea.',
-      },
-      {
-        id: '18',
-        question: '¿Qué Habilidades Específicas de Motricidad Fina Desarrollan las Fichas Preescolar de Grafomotricidad?',
-        answer: 'Las fichas de grafomotricidad desarrollan múltiples habilidades de motricidad fina simultáneamente. El agarre del lápiz se fortalece a través de trazado repetitivo. La coordinación ojo-mano mejora al seguir patrones visuales con el lápiz. El control de presión se desarrolla manteniendo líneas consistentes. La fluidez del movimiento aumenta con práctica de trazos curvos. La precisión direccional se refina siguiendo líneas horizontales, verticales y diagonales. Estas habilidades son fundamentales para escritura, dibujo y manipulación de objetos pequeños.',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Pricing
@@ -523,56 +263,8 @@ Muchos maestros ganan entre $500 y $2,000 mensuales vendiendo solo en Teachers P
       securePayment: 'Pago seguro',
       cancelAnytime: 'Cancela cuando quieras',
     },
-    items: [
-      {
-        id: '1',
-        slug: 'matching-app',
-        name: 'Relacionar',
-        category: 'Motricidad Fina',
-        icon: '🔗',
-        description: 'Extiende la práctica de trazado de líneas con ejercicios de emparejamiento de imágenes idénticas.',
-      },
-      {
-        id: '2',
-        slug: 'word-search',
-        name: 'Sopa de Letras',
-        category: 'Lenguaje',
-        icon: '🔤',
-        description: 'Combina fichas de grafomotricidad con sopas de letras usando el mismo vocabulario temático.',
-      },
-      {
-        id: '3',
-        slug: 'alphabet-train',
-        name: 'Tren del Abecedario',
-        category: 'Alfabeto',
-        icon: '🚂',
-        description: 'Complementa el desarrollo de motricidad fina con actividades de secuencia de letras.',
-      },
-      {
-        id: '4',
-        slug: 'coloring',
-        name: 'Colorear',
-        category: 'Creatividad',
-        icon: '🎨',
-        description: 'Combina fichas de trazado con mandalas y dibujos para colorear para sesiones artísticas completas.',
-      },
-      {
-        id: '5',
-        slug: 'find-and-count',
-        name: 'Buscar y Contar',
-        category: 'Matemáticas',
-        icon: '🔍',
-        description: 'Practica números y conteo con actividades visuales de buscar objetos escondidos.',
-      },
-      {
-        id: '6',
-        slug: 'addition',
-        name: 'Suma',
-        category: 'Matemáticas',
-        icon: '➕',
-        description: 'Refuerza conceptos de fichas de matemáticas con hojas de práctica de operaciones.',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 };
 

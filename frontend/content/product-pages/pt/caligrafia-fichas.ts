@@ -82,29 +82,8 @@ O gerador de atividades para imprimir inclui cinco estilos de fonte diferentes. 
     badgeText: 'Exemplos Grátis',
     downloadingLabel: 'Baixando...',
     ofLabel: 'de',
-    items: [
-      {
-        id: '1',
-        worksheetSrc: '/samples/portuguese/writing/sample-1.jpeg',
-        answerKeySrc: '',
-        altText: 'Atividade gratis de caligrafia - atividade para educacao infantil com letra cursiva e pontilhado',
-        pdfDownloadUrl: '/samples/portuguese/writing/sample-1.pdf',
-      },
-      {
-        id: '2',
-        worksheetSrc: '/samples/portuguese/writing/sample-2.jpeg',
-        answerKeySrc: '',
-        altText: 'Atividades gratis de caligrafia - atividade gratis para criancas com pontilhado e alfabetizacao',
-        pdfDownloadUrl: '/samples/portuguese/writing/sample-2.pdf',
-      },
-      {
-        id: '3',
-        worksheetSrc: '/samples/portuguese/writing/sample-3.jpeg',
-        answerKeySrc: '',
-        altText: 'Atividade para criancas de caligrafia - imprimiveis gratis com letra cursiva para educacao infantil',
-        pdfDownloadUrl: '/samples/portuguese/writing/sample-3.pdf',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Features Grid - FULL text from writing.md feature sections
@@ -120,96 +99,8 @@ O gerador de atividades para imprimir inclui cinco estilos de fonte diferentes. 
       noHiddenFees: 'Sem taxas ocultas',
       cancelAnytime: 'Cancele quando quiser',
     },
-    items: [
-      {
-        id: '1',
-        icon: '⚡',
-        title: 'Crie Atividade Gratis para Criancas em 3 Cliques',
-        description: `A criação de atividades de alfabetização nunca foi tão simples. Primeiro, escolha o tipo de conteúdo que deseja. Segundo, selecione o estilo de fonte preferido. Terceiro, clique em gerar e sua ficha aparece instantaneamente.
-
-O processo leva menos de um minuto do início ao fim. Você não precisa de habilidades de design gráfico. Não precisa de programas complicados como Photoshop. O gerador de pontilhado faz todo o trabalho pesado por você. Basta escolher as opções e baixar o resultado.
-
-Para atividades educação infantil, selecione o modo "vazio" com formas básicas. Para atividades 1º ano, escolha letras ou palavras completas. O sistema adapta automaticamente o tamanho e espaçamento. Tudo fica proporcional e profissional.`,
-        highlighted: false,
-      },
-      {
-        id: '2',
-        icon: '✏️',
-        title: 'Atividades Gratis Totalmente Editaveis',
-        description: `Cada elemento das suas atividades de coordenação motora pode ser editado. Arraste imagens para qualquer posição na página. Redimensione textos com um simples movimento do mouse. Gire elementos para criar layouts únicos e interessantes.
-
-O sistema de edição funciona como um canvas profissional. Você vê exatamente como a ficha vai ficar quando impressa. Todas as mudanças aparecem em tempo real na tela. Não há surpresas desagradáveis na hora de imprimir.
-
-As linhas de escrita também são ajustáveis. Configure a altura das linhas conforme a idade dos alunos. Adicione ou remova linhas guia conforme necessário. Cada atividade para imprimir fica perfeita para seu público específico.`,
-        highlighted: false,
-      },
-      {
-        id: '3',
-        icon: '🔤',
-        title: 'Cinco Estilos de Fonte - Atividade para Educacao Infantil',
-        description: `O gerador oferece cinco estilos de fonte para diferentes etapas do desenvolvimento da escrita. A fonte "Bastão Regular" mostra letras sólidas para traçar por cima. A fonte "Bastão com Setas" adiciona indicadores direcionais.
-
-A fonte "Pontilhado" apresenta letras em linhas tracejadas. Os alunos conectam os pontos para formar a letra. A fonte "Pontilhado com Setas" combina traços e direção. A fonte "Cursiva" usa letra manuscrita conectada para alunos mais avançados.
-
-Escolha também o modo de prática: Traçar, Esmaecimento ou Cópia Guiada. No modo Traçar, as letras aparecem em opacidade total. No Esmaecimento, ficam parcialmente visíveis. Na Cópia Guiada, só a primeira letra está completa.`,
-        highlighted: true,
-      },
-      {
-        id: '4',
-        icon: '🌍',
-        title: 'Atividade Gratis para Criancas em 11 Idiomas',
-        description: `Professores bilíngues valorizam nosso suporte a 11 idiomas. A interface está disponível em português, inglês, alemão, francês, espanhol, italiano, holandês, dinamarquês, sueco, norueguês e finlandês. Cada botão e menu aparece traduzido corretamente.
-
-Para atividades de alfabetização com vocabulário em outro idioma, isso é essencial. Os nomes dos arquivos de imagem geram texto automaticamente no idioma selecionado. Crie fichas de coordenação motora bilíngues sem esforço extra.
-
-Escolas internacionais usam esse recurso diariamente. Programas de imersão linguística também se beneficiam. Suas atividades educação infantil podem incluir palavras em qualquer um dos 11 idiomas suportados.`,
-        highlighted: false,
-      },
-      {
-        id: '5',
-        icon: '📤',
-        title: 'Upload de Imagens - Imprimiveis Gratis Personalizados',
-        description: `O upload de imagens personalizadas transforma suas atividades vogais. Envie fotos dos próprios alunos para fichas de nome. Carregue imagens específicas do seu projeto pedagógico. Combine fotos pessoais com nossa biblioteca de 3000 imagens.
-
-O sistema aceita múltiplos arquivos de uma vez. Formatos JPEG, PNG e GIF são suportados. Suas imagens aparecem em uma galeria organizada. Basta clicar para adicionar qualquer imagem à ficha.
-
-Imagine atividades alfabeto com fotos de objetos da sala de aula. Ou fichas de letra cursiva com imagens do mascote da escola. A personalização não tem limites. Cada atividade para imprimir fica única e especial.`,
-        highlighted: false,
-      },
-      {
-        id: '6',
-        icon: '💰',
-        title: 'Licenca Comercial - Atividades Gratis para Vender',
-        description: `Sua assinatura Acesso Completo inclui licença comercial completa. Venda suas atividades 1º ano no Teachers Pay Teachers. Comercialize fichas de atividades 2º ano na Hotmart. Crie produtos para Amazon KDP sem pagar royalties adicionais.
-
-A qualidade de 300 DPI garante impressões profissionais. Nenhum marca d'água aparece nos downloads. Você mantém todos os direitos sobre suas criações. A licença cobre uso comercial print-on-demand sem restrições.
-
-Professores empreendedores faturam entre R$1.000 e R$10.000 por mês. Suas atividades para imprimir podem se tornar uma fonte de renda. O investimento de R$99/mês se paga rapidamente com as primeiras vendas.`,
-        highlighted: true,
-      },
-      {
-        id: '7',
-        icon: '🎨',
-        title: 'Biblioteca 3000+ Imagens - Atividade para Criancas',
-        description: `Nossa biblioteca contém mais de 3000 imagens infantis. Todas organizadas por temas como animais, frutas, transportes e profissões. A busca por palavra-chave encontra exatamente o que você precisa. Cada imagem é adequada para crianças.
-
-Para atividades educação infantil, escolha temas coloridos e atraentes. Combine imagens com as linhas de escrita automaticamente. Crie fichas de pontilhado com ilustrações que motivam os pequenos. A biblioteca está sempre crescendo com novos conteúdos.
-
-Bordas decorativas também estão incluídas. Fundos temáticos para datas comemorativas. Elementos visuais para deixar suas atividades alfabeto mais bonitas. Tudo incluído na assinatura sem custos extras por imagem.`,
-        highlighted: false,
-      },
-      {
-        id: '8',
-        icon: '🖨️',
-        title: 'Qualidade 300 DPI - Atividade Gratis para Imprimir',
-        description: `A resolução de 300 DPI garante nitidez máxima. Cada linha de pontilhado aparece perfeitamente definida. As setas direcionais ficam claras e fáceis de seguir. Nenhum detalhe se perde na impressão.
-
-Suas atividades de letra cursiva podem ser baixadas em PDF ou JPEG. O formato PDF mantém vetores para qualidade superior. A opção escala de cinza economiza tinta colorida. Ambos os formatos funcionam em qualquer impressora.
-
-A qualidade é idêntica às atividades para imprimir vendidas em grandes editoras. Seus alunos recebem material de primeira linha. Sua reputação profissional se fortalece. E você economiza horas de trabalho manual toda semana.`,
-        highlighted: false,
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // How-To Guide - FULL text from writing.md step sections
@@ -286,74 +177,8 @@ A opção "Escala de Cinza" converte cores para preto e branco. Economiza tinta 
     badgeText: 'Quem Usa',
     readMoreLabel: 'Leia mais',
     showLessLabel: 'Mostrar menos',
-    items: [
-      {
-        id: '1',
-        icon: '👶',
-        title: 'Professores de Educação Infantil',
-        subtitle: 'Atividade Gratis para Educacao Infantil com Coordenacao Motora',
-        description: `Professores de educação infantil são nossos usuários mais frequentes. Eles precisam de atividades de alfabetização diariamente. O gerador economiza horas de preparação toda semana. As fichas ficam prontas em minutos.
-
-Na pré-escola, o foco está na coordenação motora fina. Os pequenos praticam traços básicos antes das letras. Linhas verticais, horizontais e círculos preparam a mão. Nossas atividades educação infantil atendem exatamente essa necessidade.
-
-Na última etapa antes do 1º ano, as atividades vogais ganham destaque. As crianças começam a reconhecer A, E, I, O, U. Traçar as vogais desenvolve memória muscular. O gerador cria fichas de pontilhado perfeitas para essa fase.`,
-      },
-      {
-        id: '2',
-        icon: '🏫',
-        title: 'Professores do Ensino Fundamental',
-        subtitle: 'Atividade Gratis para Criancas - 1o Ano e 2o Ano com Letra Cursiva',
-        description: `Professores de 1º ano enfrentam o desafio da alfabetização formal. As atividades 1º ano precisam cobrir todo o alfabeto. Nosso gerador cria fichas para cada letra individualmente. Ou para grupos de letras em sequência progressiva.
-
-O trabalho com atividades alfabeto é intensivo nessa fase. Maiúsculas e minúsculas precisam de prática separada. Letra bastão vem antes da letra cursiva. O gerador permite configurar cada detalhe conforme sua metodologia.
-
-Para atividades 2º ano, a letra cursiva ganha protagonismo. Os alunos já dominam a letra bastão. Agora aprendem a conexão entre letras. Fichas de pontilhado com fonte cursiva são essenciais. Nossa ferramenta oferece exatamente isso.`,
-      },
-      {
-        id: '3',
-        icon: '🏠',
-        title: 'Pais que Educam em Casa',
-        subtitle: 'Atividades Gratis para Imprimir - Imprimiveis Gratis para Homeschool',
-        description: `O homeschool cresce no Brasil a cada ano. Pais educadores precisam de materiais de qualidade. Nosso gerador oferece atividades de coordenação motora profissionais. Sem depender de editoras ou materiais prontos.
-
-Pais podem criar atividades vogais personalizadas com nomes da família. Fichas com fotos dos avós, pets e lugares favoritos. A aprendizagem se conecta com a vida real. A motivação das crianças aumenta significativamente.
-
-O custo-benefício atrai famílias homeschool. Uma assinatura substitui dezenas de livros de atividades. Atividades para imprimir ilimitadas por um valor fixo mensal. Economia real no orçamento educacional da família.`,
-      },
-      {
-        id: '4',
-        icon: '🌎',
-        title: 'Professores de Idiomas e ESL',
-        subtitle: 'Atividade Gratis de Alfabetizacao Bilingue em 11 Idiomas',
-        description: `Escolas bilíngues valorizam nosso suporte multilíngue. Atividades de alfabetização em inglês e português na mesma aula. O gerador alterna entre idiomas instantaneamente. Fichas bilíngues ficam prontas em segundos.
-
-Professores de ESL criam vocabulário visual com escrita. A imagem da maçã aparece junto com "apple" para traçar. Atividades alfabeto em inglês seguem a mesma qualidade. O aprendizado integra visual, leitura e escrita.
-
-Escolas internacionais usam todos os 11 idiomas disponíveis. Alemão, francês, espanhol, italiano e mais. Atividades para imprimir em qualquer idioma com a mesma facilidade. A qualidade permanece consistente em todas as línguas.`,
-      },
-      {
-        id: '5',
-        icon: '🧩',
-        title: 'Professores de Educação Especial',
-        subtitle: 'Atividade para Educacao Infantil Adaptada - Atividade para Criancas',
-        description: `Educação especial exige materiais personalizados. Cada aluno tem necessidades únicas de aprendizagem. Nosso gerador permite adaptações ilimitadas. Atividades educação infantil ficam sob medida para cada caso.
-
-Linhas de escrita maiores ajudam alunos com dificuldades motoras. O gerador ajusta a altura das linhas facilmente. Menos letras por linha reduzem sobrecarga cognitiva. Cada atividade de coordenação motora respeita o ritmo individual.
-
-Fichas com reforço visual beneficiam alunos com TEA. Imagens claras e consistentes trazem previsibilidade. Atividades vogais com a mesma estrutura toda semana. A rotina visual facilita o engajamento.`,
-      },
-      {
-        id: '6',
-        icon: '💼',
-        title: 'Professores Empreendedores',
-        subtitle: 'Atividades Gratis para Venda Online - Licenca Comercial POD',
-        description: `Professores empreendedores transformam conhecimento em renda. Plataformas como Hotmart e Teachers Pay Teachers aceitam materiais digitais. Nossas atividades 1º ano têm qualidade comercial. A licença POD está incluída na assinatura.
-
-Criar produtos para venda é simples com o gerador. Atividades alfabeto completas em pacotes temáticos. Atividades de letra cursiva para séries específicas. Cada produto pode ser vendido repetidamente.
-
-O investimento se paga rapidamente com as primeiras vendas. Uma assinatura Acesso Completo custa $240/ano. Um único pacote de atividades para imprimir pode render R$500 ou mais. O retorno sobre investimento é excelente.`,
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Subscription Reasons - FULL text from writing.md subscription section
@@ -420,96 +245,8 @@ O investimento se paga rapidamente com as primeiras vendas. Uma assinatura Acess
     showLessLabel: 'Mostrar menos',
     secureCheckout: 'Pagamento seguro',
     cancelAnytime: 'Cancele quando quiser',
-    items: [
-      {
-        id: '1',
-        question: 'O Gerador de Atividades Gratis de Caligrafia E Gratuito?',
-        answer: `O gerador de atividades para imprimir requer assinatura Acesso Completo. O custo é $240 por ano ou $25 por mês. Sua assinatura oferece criação ilimitada sem taxas por ficha. Gere quantas atividades de coordenação motora precisar.
-
-O Acesso Completo inclui todos os 33 geradores da plataforma. Além de caligrafia, acesse matemática, caça-palavras e muito mais. Atividades educação infantil ilimitadas em todos os aplicativos. O valor cobre uso completo sem restrições.
-
-A assinatura Pacote Essencial custa $144 por ano e inclui 10 aplicativos populares. O Acesso Completo custa $240 por ano e inclui todos os 33 geradores. Ambas incluem licença comercial, suporte a 11 idiomas e qualidade 300 DPI.`,
-      },
-      {
-        id: '2',
-        question: 'Posso Imprimir Atividade Gratis de Caligrafia em Casa?',
-        answer: `Sim, suas atividades vogais imprimem perfeitamente em qualquer impressora. O formato PDF mantém qualidade em impressoras jato de tinta. Impressoras laser também funcionam sem problemas. A resolução 300 DPI garante nitidez.
-
-Papel sulfite comum A4 funciona bem para uso diário. Para atividades alfabeto especiais, use papel mais grosso. A opção escala de cinza economiza tinta colorida. Suas atividades para imprimir ficam profissionais em casa.`,
-      },
-      {
-        id: '3',
-        question: 'Preciso de Habilidades de Design para Criar Atividade Gratis para Criancas?',
-        answer: `Não precisa de nenhuma habilidade de design. Nossas atividades 1º ano ficam prontas com poucos cliques. A interface é simples como usar o Word. Qualquer professor consegue criar fichas profissionais.
-
-O sistema faz todo o trabalho técnico automaticamente. Linhas de escrita aparecem perfeitamente espaçadas. Fontes de caligrafia já estão configuradas. Suas atividades de alfabetização parecem feitas por designer.`,
-      },
-      {
-        id: '4',
-        question: 'Posso Usar Atividades Gratis de Caligrafia na Sala de Aula?',
-        answer: `A assinatura Acesso Completo inclui uso ilimitado em sala de aula. Imprima quantas cópias precisar para seus alunos. Atividades educação infantil podem ser distribuídas livremente. Nenhuma restrição de quantidade por turma.
-
-Use as fichas em aulas presenciais ou remotas. Compartilhe versões digitais em plataformas de ensino. Atividades de coordenação motora para toda a escola. A licença educacional está incluída na assinatura.`,
-      },
-      {
-        id: '5',
-        question: 'Em Quais Idiomas Posso Criar Atividade Gratis para Criancas?',
-        answer: `Atividades de alfabetização estão disponíveis em 11 idiomas. Português, inglês, alemão, francês, espanhol e italiano. Também holandês, dinamarquês, sueco, norueguês e finlandês. A interface e o conteúdo mudam conforme selecionado.
-
-Para fichas bilíngues, alterne entre idiomas facilmente. Atividades vogais em português e inglês na mesma aula. O vocabulário visual adapta automaticamente. Suas atividades para imprimir atendem qualquer contexto linguístico.`,
-      },
-      {
-        id: '6',
-        question: 'Posso Vender Atividades Gratis que Criar com Este Gerador?',
-        answer: `Sim, a assinatura Acesso Completo inclui licença comercial completa. Venda suas atividades 2º ano em qualquer plataforma. Hotmart, Teachers Pay Teachers e Amazon KDP liberados. Nenhuma taxa adicional sobre vendas.
-
-A qualidade 300 DPI atende padrões comerciais. Gráficas profissionais imprimem sem problemas. Atividades de coordenação motora viram produtos lucrativos. A licença POD está totalmente incluída.`,
-      },
-      {
-        id: '7',
-        question: 'Como Personalizo Atividade Gratis para Criancas para Meus Alunos?',
-        answer: `A personalização de atividades alfabeto é completa. Digite qualquer texto para as linhas de escrita. Nomes dos alunos, vocabulário específico, frases do currículo. Tudo aparece nas fichas instantaneamente.
-
-Escolha entre cinco estilos de fonte diferentes. Configure maiúsculas, minúsculas ou mistas. Selecione modo traçar, esmaecimento ou cópia guiada. Cada atividade para imprimir fica sob medida.
-
-Adicione imagens da biblioteca ou envie fotos próprias. Bordas decorativas para datas comemorativas. Fundos temáticos para projetos especiais. Atividades educação infantil totalmente personalizadas.`,
-      },
-      {
-        id: '8',
-        question: 'Quais Faixas Etarias Funcionam com Atividade para Educacao Infantil?',
-        answer: `Atividades de pontilhado atendem desde a creche até o 3º ano. Para os menores (2-3 anos), formas básicas como círculos. Na pré-escola (4-5 anos), atividades vogais simples. No 1º ano (6-7 anos), alfabeto completo.
-
-Atividades 1º ano focam em letra bastão e formação. Atividades 2º ano introduzem letra cursiva conectada. Atividades de coordenação motora se adaptam a cada fase. O gerador oferece opções para todos os níveis.`,
-      },
-      {
-        id: '9',
-        question: 'Posso Enviar Minhas Proprias Imagens para Imprimiveis Gratis?',
-        answer: `Sim, o upload de imagens personalizadas está disponível. Envie fotos dos alunos para fichas de nome. Carregue imagens do projeto pedagógico atual. Atividades educação infantil ficam únicas e relevantes.
-
-O sistema aceita JPEG, PNG e GIF. Múltiplos arquivos podem ser enviados de uma vez. Combine fotos próprias com nossa biblioteca de 3000 imagens. Atividades para imprimir totalmente personalizadas.`,
-      },
-      {
-        id: '10',
-        question: 'Quanto Tempo Leva para Criar Atividades Gratis de Caligrafia?',
-        answer: `Atividades de alfabetização ficam prontas em menos de 3 minutos. Selecione configurações com poucos cliques. Adicione linhas de escrita instantaneamente. O download acontece em segundos.
-
-Professores experientes criam ainda mais rápido. Com prática, atividades de coordenação motora levam 1-2 minutos. Pacotes completos de atividades vogais em 15 minutos. A economia de tempo é significativa.`,
-      },
-      {
-        id: '11',
-        question: 'Quais Estilos de Fonte Estao Disponiveis para Atividade para Criancas?',
-        answer: `Cinco estilos de fonte atendem atividades 1º ano e outras séries. Letra bastão regular para traçar sobre modelo sólido. Letra bastão com setas mostrando direção dos traços. Letra pontilhada para conectar pontos.
-
-Letra pontilhada com setas combina traços e direção. Letra cursiva para escrita manuscrita conectada. Cada estilo desenvolve aspectos específicos. Suas atividades alfabeto cobrem todas as necessidades.`,
-      },
-      {
-        id: '12',
-        question: 'Posso Criar Atividade Gratis sobre Temas do Curriculo?',
-        answer: `Sim, atividades para imprimir se adaptam a qualquer tema. Digite vocabulário específico do seu currículo. Palavras de ciências, estudos sociais ou literatura. Atividades de alfabetização integradas ao conteúdo.
-
-Combine com imagens temáticas da biblioteca. Animais para projeto de zoologia. Frutas para alimentação saudável. Profissões para semana das carreiras. Atividades educação infantil conectadas ao planejamento.`,
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Related Apps - Combine with other generators
@@ -526,40 +263,8 @@ Combine com imagens temáticas da biblioteca. Animais para projeto de zoologia. 
       securePayment: 'Pagamento seguro',
       cancelAnytime: 'Cancele quando quiser',
     },
-    items: [
-      {
-        id: '1',
-        slug: 'math-worksheet',
-        name: 'Atividades de Matemática',
-        category: 'Matemática',
-        icon: '🔢',
-        description: 'Atividades de matemática complementam perfeitamente a caligrafia. Os alunos praticam escrita de números junto com letras. Fichas integradas desenvolvem múltiplas habilidades simultaneamente.',
-      },
-      {
-        id: '2',
-        slug: 'coloring',
-        name: 'Desenhos para Colorir',
-        category: 'Artes Visuais',
-        icon: '🎨',
-        description: 'Desenhos para colorir motivam crianças pequenas a completar atividades. Adicione uma ilustração para colorir acima das linhas de escrita. A criança colore primeiro e depois pratica letras.',
-      },
-      {
-        id: '3',
-        slug: 'addition',
-        name: 'Atividades de Adição',
-        category: 'Matemática',
-        icon: '➕',
-        description: 'Crie fichas onde alunos traçam números de 0 a 9. Combine com linhas para escrever o nome do número por extenso. Atividades de matemática se integram naturalmente ao treino de escrita.',
-      },
-      {
-        id: '4',
-        slug: 'alphabet-train',
-        name: 'Trem do Alfabeto',
-        category: 'Língua e Leitura',
-        icon: '🚂',
-        description: 'Combine atividades de caligrafia com reconhecimento de letras. O Trem do Alfabeto reforça a sequência alfabética. Perfeito para educação infantil e pré-escola.',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 };
 

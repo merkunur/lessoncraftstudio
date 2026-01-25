@@ -90,36 +90,8 @@ Combine labirintos com aprendizado de letras e palavras. Crie atividades grátis
     badgeText: 'Exemplos Grátis',
     downloadingLabel: 'Baixando...',
     ofLabel: 'de',
-    items: [
-      {
-        id: '1',
-        worksheetSrc: '/samples/portuguese/picture-path/sample-1.jpeg',
-        answerKeySrc: '/samples/portuguese/picture-path/sample-1-answer.jpeg',
-        altText: 'Atividade grátis de labirinto caminho de imagens - coordenação motora para educação infantil',
-        pdfDownloadUrl: '/samples/portuguese/picture-path/sample-1.pdf',
-      },
-      {
-        id: '2',
-        worksheetSrc: '/samples/portuguese/picture-path/sample-2.jpeg',
-        answerKeySrc: '/samples/portuguese/picture-path/sample-2-answer.jpeg',
-        altText: 'Atividade grátis de labirinto clássico - atividade para crianças com colecionáveis',
-        pdfDownloadUrl: '/samples/portuguese/picture-path/sample-2.pdf',
-      },
-      {
-        id: '3',
-        worksheetSrc: '/samples/portuguese/picture-path/sample-3.jpeg',
-        answerKeySrc: '/samples/portuguese/picture-path/sample-3-answer.jpeg',
-        altText: 'Atividade grátis escolha o caminho certo - imprimíveis grátis de raciocínio lógico',
-        pdfDownloadUrl: '/samples/portuguese/picture-path/sample-3.pdf',
-      },
-      {
-        id: '4',
-        worksheetSrc: '/samples/portuguese/picture-path/sample-4.jpeg',
-        answerKeySrc: '/samples/portuguese/picture-path/sample-4-answer.jpeg',
-        altText: 'Atividade para crianças de labirinto temático - atividades grátis para educação infantil',
-        pdfDownloadUrl: '/samples/portuguese/picture-path/sample-4.pdf',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Features Grid
@@ -135,96 +107,8 @@ Combine labirintos com aprendizado de letras e palavras. Crie atividades grátis
       noHiddenFees: 'Sem taxas ocultas',
       cancelAnytime: 'Cancele quando quiser',
     },
-    items: [
-      {
-        id: '1',
-        icon: '⚡',
-        title: 'Criação Fácil - Atividade Grátis para Imprimir em 3 Cliques',
-        description: `Criar labirintos nunca foi tão simples. Selecione um tema da biblioteca de imagens. Escolha o modo de labirinto desejado. Clique em gerar e seu labirinto está pronto. O processo completo leva menos de 3 minutos do início ao download.
-
-Cada elemento do labirinto pode ser editado. Mova imagens arrastando com o mouse. Redimensione qualquer figura para o tamanho ideal. Gire elementos para criar composições únicas. Delete o que não precisa com um clique. Atividades de alfabetização ganham vida com personalização total.
-
-O modo Caminho de Imagens conecta figuras sequencialmente. Perfeito como atividade para educação infantil de sequenciação. O modo Labirinto Clássico desenvolve coordenação motora com paredes e corredores. O modo Escolha o Caminho Certo trabalha raciocínio lógico e tomada de decisão.`,
-        highlighted: false,
-      },
-      {
-        id: '2',
-        icon: '🎯',
-        title: 'Três Modos de Labirinto - Atividade Grátis para Crianças',
-        description: `O modo Caminho de Imagens conecta figuras sequencialmente. Perfeito como atividade para educação infantil de sequenciação. O modo Labirinto Clássico desenvolve coordenação motora com paredes e corredores. O modo Escolha o Caminho Certo trabalha raciocínio lógico e tomada de decisão.
-
-Combine labirintos com desenhos para colorir no mesmo material. As imagens do caminho podem ser coloridas após resolver. Crie atividades duas-em-uma que economizam tempo de preparação. Os alunos traçam o caminho e depois colorem as figuras encontradas.
-
-O modo Labirinto Clássico inclui imagens colecionáveis. Configure de 1 a 4 tipos diferentes de imagens. Defina quantas cópias de cada aparecem no percurso. Os alunos contam enquanto resolvem. Atividades de matemática se integram naturalmente ao desafio do labirinto.`,
-        highlighted: true,
-      },
-      {
-        id: '3',
-        icon: '📚',
-        title: 'Atividades de Alfabetização - Imprimíveis Grátis em Labirintos',
-        description: `Combine labirintos com aprendizado de letras e palavras. Crie caminhos onde as crianças seguem vogais ou consoantes. Use imagens de objetos que começam com letras específicas. A alfabetização se torna mais envolvente com atividades lúdicas e interativas.
-
-O modo Caminho de Imagens é perfeito para alfabetização. Crie sequências com imagens de vogais e alfabeto. As crianças seguem o caminho conectando letras na ordem correta. Atividades vogais ganham contexto visual envolvente. O alfabeto completo pode ser explorado em múltiplos labirintos.
-
-Adicione letras como elementos de texto no labirinto. Destaque vogais com cores diferentes. Crie legendas identificando cada imagem. O alfabeto pode ser explorado em múltiplas camadas. Atividades de alfabetização se tornam mais ricas com texto complementar.`,
-        highlighted: false,
-      },
-      {
-        id: '4',
-        icon: '✏️',
-        title: 'Coordenação Motora - Atividade Grátis para Educação Infantil',
-        description: `O traçado de labirintos prepara para a escrita. Fortalece os mesmos músculos usados na letra cursiva. O movimento contínuo imita o pontilhado de letras. Combine caminhos com atividades vogais para reforço completo. Inclua imagens do alfabeto nos percursos para associação visual.
-
-Labirintos preparam para a letra cursiva. O movimento contínuo do traçado fortalece músculos da mão. Similar ao pontilhado de letras em formação. A coordenação motora fina se desenvolve naturalmente. Cada labirinto é um exercício de pré-escrita disfarçado de brincadeira.
-
-O formato PDF mantém todas as linhas nítidas. Perfeito para exercícios de letra cursiva e pontilhado. O traçado do labirinto fica preciso em qualquer impressora. Materiais de pré-escrita com qualidade profissional garantida.`,
-        highlighted: false,
-      },
-      {
-        id: '5',
-        icon: '🔢',
-        title: 'Matemática e Tabuada - Atividades Grátis em Labirintos',
-        description: `Integre matemática aos seus labirintos facilmente. Crie percursos onde alunos contam elementos do caminho. Perfeito para atividades 1º ano de reconhecimento numérico. Também funciona para atividades 2º ano com operações simples ao longo da trilha.
-
-Labirintos podem ensinar tabuada de forma divertida. Coloque resultados de multiplicação ao longo do caminho correto. Os alunos resolvem contas para avançar no percurso. Atividades de matemática ganham novo significado com desafios visuais.
-
-Transforme prática de tabuada em aventura. Coloque resultados de multiplicação nos caminhos. Os alunos só avançam resolvendo corretamente. Erros levam a becos sem saída visuais. Atividades de matemática ganham elemento de gamificação natural.`,
-        highlighted: true,
-      },
-      {
-        id: '6',
-        icon: '📤',
-        title: 'Upload de Imagens - Atividade para Crianças Personalizada',
-        description: `Envie suas próprias imagens para os labirintos. O upload aceita múltiplos arquivos de uma vez. Formatos JPEG, PNG e GIF são compatíveis. Use fotos dos alunos para engajamento máximo. Combine imagens enviadas com a biblioteca do sistema.
-
-Perfeito como atividade para educação infantil personalizada por turma. Ideal para projetos de identidade na educação infantil. As crianças se engajam mais com imagens familiares. Transforme qualquer foto em material pedagógico.
-
-Use fotos dos alunos para engajamento especial. Inclua mascotes e símbolos da escola. Adicione imagens de projetos temáticos. Crie conexões significativas com o conteúdo.`,
-        highlighted: false,
-      },
-      {
-        id: '7',
-        icon: '🌍',
-        title: '11 Idiomas - Atividade Grátis para Educação Infantil',
-        description: `A interface está disponível em 11 idiomas incluindo português brasileiro. Todo o sistema de menus traduzido profissionalmente. A biblioteca de imagens também segue o idioma selecionado. Perfeito para escolas bilíngues e famílias internacionais.
-
-Crie labirintos de alfabeto em português, inglês, espanhol e mais. Atividades vogais podem ser feitas em qualquer idioma suportado. A biblioteca oferece imagens para cada letra do alfabeto em cada idioma.
-
-O mercado global de educação é imenso. Atividades vogais em português atendem Brasil e Portugal. Alfabeto em espanhol serve toda América Latina. Crie uma vez, venda em múltiplos mercados. A licença comercial cobre vendas internacionais sem restrições.`,
-        highlighted: false,
-      },
-      {
-        id: '8',
-        icon: '🖨️',
-        title: 'Qualidade 300 DPI - Imprimíveis Grátis em PDF',
-        description: `Exporte seus labirintos em alta resolução para impressão. O formato PDF mantém qualidade perfeita em qualquer impressora. A opção escala de cinza economiza tinta colorida. Cada atividade inclui gabarito com a solução do caminho correto.
-
-Exporte em resolução profissional de 300 DPI. Escolha entre formatos PDF ou JPEG. A opção escala de cinza economiza tinta. Cada labirinto gera gabarito automático. Perfeito para impressão em sala ou venda comercial.
-
-Ideal para atividades para imprimir em quantidade. Perfeito para distribuir em reuniões de pais. Ótimo para portfólios de atividades 1º ano. Qualidade que impressiona coordenadores e diretores.`,
-        highlighted: false,
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // How-To Guide
@@ -306,80 +190,8 @@ Labirintos de tabuada ficam prontos em segundos. O gabarito mostra quais número
     badgeText: 'Para Quem',
     readMoreLabel: 'Leia mais',
     showLessLabel: 'Mostrar menos',
-    items: [
-      {
-        id: '1',
-        icon: '👶',
-        title: 'Professores de Educação Infantil',
-        subtitle: 'Atividade Grátis para Educação Infantil com Coordenação Motora',
-        description: `Educadores da pré-escola e creche usam labirintos diariamente. Atividades educação infantil desenvolvem habilidades motoras essenciais. A coordenação motora fina se fortalece com traçados contínuos. Crianças de 3 a 5 anos adoram seguir caminhos ilustrados. O Picture Path oferece três modos adaptáveis para cada faixa etária.
-
-Professores de pré-escola focam no reconhecimento de letras. Atividades vogais introduzem o sistema alfabético de forma visual. O alfabeto ganha contexto quando conectado a imagens familiares. Atividades de alfabetização em formato de labirinto engajam mais que fichas tradicionais. A biblioteca oferece imagens para cada letra do alfabeto.
-
-Labirintos são perfeitos como atividade para educação infantil. Desenvolvem o planejamento visual e a coordenação motora. Combine com desenhos para colorir no mesmo material. As crianças traçam o caminho e depois colorem as imagens do percurso.`,
-        quote: 'Meus alunos adoram resolver labirintos coloridos todos os dias!',
-      },
-      {
-        id: '2',
-        icon: '📚',
-        title: 'Professores do 1º e 2º Ano',
-        subtitle: 'Atividades Grátis com Letra Cursiva e Tabuada',
-        description: `O 1º ano marca a transição para escrita formal. Labirintos preparam músculos para letra cursiva e caligrafia. O movimento contínuo imita o pontilhado de letras cursivas. Atividades 1º ano combinam diversão com preparação motora. Professores criam materiais que parecem brincadeira mas desenvolvem habilidades cruciais.
-
-No 2º ano, a matemática ganha complexidade. Labirintos com tabuada reforçam multiplicação de forma lúdica. Atividades de matemática integradas ao percurso mantêm interesse. Atividades 2º ano podem incluir contagem e operações básicas. O modo Labirinto Clássico com colecionáveis funciona perfeitamente para este objetivo.
-
-Alunos do 2º ano precisam de desafios crescentes. Combine labirintos complexos com Math Puzzle e Sudoku. Atividades de matemática ganham camadas de dificuldade. O gerador oferece exercícios de lógica em múltiplos formatos.`,
-        quote: 'A progressão de dificuldade acompanha o desenvolvimento dos alunos.',
-      },
-      {
-        id: '3',
-        icon: '🏠',
-        title: 'Pais que Educam em Casa',
-        subtitle: 'Imprimíveis Grátis com Desenhos para Colorir',
-        description: `Famílias homeschooler precisam de materiais versáteis. Labirintos funcionam como desenhos para colorir após resolução. Atividades de alfabetização complementam currículos formais. Pais criam materiais personalizados com fotos da família. O upload de imagens próprias torna cada atividade única e significativa.
-
-Famílias com múltiplas crianças aproveitam a versatilidade. Desenhos para colorir combinados com labirintos ocupam mais tempo produtivo. Atividades educação infantil se adaptam para irmãos de diferentes idades. Configure dificuldades diferentes para cada filho. O mesmo tema serve toda a família com ajustes simples.
-
-Inclua desenhos para colorir para momentos de relaxamento. O labirinto em versão contorno vira atividade artística. Combine alfabetização com expressão criativa. Mantenha as crianças engajadas por mais tempo.`,
-        quote: 'Uma ferramenta atende todos os níveis dos meus filhos.',
-      },
-      {
-        id: '4',
-        icon: '📖',
-        title: 'Professores de Reforço Escolar',
-        subtitle: 'Atividade Grátis para Crianças de Tabuada',
-        description: `Aulas de reforço exigem materiais variados. Labirintos de tabuada quebram a monotonia de exercícios repetitivos. Atividades de matemática em formato de jogo motivam alunos desmotivados. Cada sessão pode ter um labirinto temático diferente. O engajamento aumenta quando o material parece brincadeira.
-
-Alunos com dificuldades de leitura precisam de repetição engajante. Esta atividade para educação infantil em labirintos oferece prática sem tédio. O alfabeto aparece em contexto visual memorável. Cada letra conectada a imagem facilita associação fonética. Labirintos são menos intimidantes que listas de palavras.
-
-A qualidade profissional impressiona pais e responsáveis. O processo completo oferece múltiplos benefícios terapêuticos. Configure grades menores para alunos que precisam de sucesso rápido. A personalização permite adaptação para cada perfil de aprendizagem.`,
-        quote: 'Labirintos transformaram minhas aulas de reforço.',
-      },
-      {
-        id: '5',
-        icon: '💜',
-        title: 'Professores de Educação Especial',
-        subtitle: 'Atividade para Crianças de Coordenação Motora Adaptada',
-        description: `Alunos com necessidades especiais se beneficiam de labirintos. Letra cursiva pode ser trabalhada em ritmo individualizado. O pontilhado de caminhos oferece feedback visual claro. Configure grades menores para alunos que precisam de sucesso rápido. A personalização permite adaptação para cada perfil de aprendizagem.
-
-Labirintos desenvolvem coordenação motora de forma lúdica. Desenhos para colorir após resolução acalmam e focam. O processo completo oferece múltiplos benefícios terapêuticos. Terapeutas ocupacionais também utilizam labirintos em sessões.
-
-Trabalhe coordenação motora em ritmo individualizado. O trenzinho oferece repetição sem monotonia. Cada ficha pode focar em uma única habilidade. Reforce através de múltiplas exposições visuais.`,
-        quote: 'Posso adaptar rapidamente as atividades para cada aluno.',
-      },
-      {
-        id: '6',
-        icon: '💰',
-        title: 'Professores Empreendedores',
-        subtitle: 'Atividades Grátis para Imprimir Comerciais',
-        description: `Vendedores de materiais educativos lucram com labirintos. A licença comercial Acesso Completo permite venda sem restrições. Teachers Pay Teachers aceita labirintos como produtos digitais. Etsy e Amazon KDP oferecem mercados enormes. Crie pacotes temáticos e venda repetidamente o mesmo trabalho.
-
-Pacotes de atividades 1º ano vendem muito bem online. Combine labirintos de tabuada com atividades de alfabeto. Crie séries progressivas de dificuldade crescente. Professores compram pacotes completos para economizar tempo. Sua assinatura se paga com poucas vendas mensais.
-
-Desenvolva pacotes temáticos de atividades de alfabetização. Apostilas completas do alfabeto de A a Z. Coleções sazonais para datas comemorativas. Kits de atividades educação infantil prontos para uso.`,
-        quote: 'Minha assinatura se pagou no primeiro mês de vendas!',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // FAQ Section
@@ -393,68 +205,8 @@ Desenvolva pacotes temáticos de atividades de alfabetização. Apostilas comple
     showLessLabel: 'Mostrar menos',
     secureCheckout: 'Pagamento seguro',
     cancelAnytime: 'Cancele quando quiser',
-    items: [
-      {
-        id: '1',
-        question: 'O Gerador de Labirintos Oferece Atividade Grátis para Imprimir?',
-        answer: 'O gerador de labirintos Picture Path requer assinatura Acesso Completo. O custo é R$240 por ano ou R$25 por mês. Sua assinatura permite criação ilimitada de labirintos sem taxas por atividade. Gere quantas atividades para imprimir precisar sem cobranças adicionais. O Acesso Completo inclui todos os 33 geradores de atividades da plataforma. O Pacote Essencial custa R$144 por ano e inclui 10 geradores populares. Ambas assinaturas incluem licença comercial, suporte a 11 idiomas e exportação em qualidade profissional 300 DPI.',
-      },
-      {
-        id: '2',
-        question: 'Posso Imprimir Atividades Grátis de Labirintos em Casa?',
-        answer: 'Sim, todos os labirintos funcionam perfeitamente em impressoras domésticas. Exporte em PDF para melhor qualidade de impressão. A opção escala de cinza economiza tinta colorida. Papel comum tamanho carta ou A4 funciona bem. Atividades de alfabetização saem nítidas em qualquer impressora jato de tinta ou laser.',
-      },
-      {
-        id: '3',
-        question: 'Preciso de Design para Criar Atividade Grátis para Educação Infantil?',
-        answer: 'Não é necessário nenhum conhecimento técnico ou de design. O Picture Path foi criado para professores sem experiência em software. Selecione um tema, clique em gerar e seu labirinto está pronto. Atividades educação infantil ficam profissionais em 3 cliques. A interface intuitiva guia cada passo do processo.',
-      },
-      {
-        id: '4',
-        question: 'Posso Usar Atividades Grátis de Labirintos na Sala de Aula?',
-        answer: 'A assinatura Acesso Completo inclui uso ilimitado em sala de aula. Imprima quantas cópias precisar para seus alunos. Distribua labirintos como atividades de matemática, alfabetização ou coordenação motora. Não há limite de cópias por turma ou por ano. Use em provas, lições de casa e atividades de fixação.',
-      },
-      {
-        id: '5',
-        question: 'Quais Idiomas Oferecem Imprimíveis Grátis de Labirintos?',
-        answer: 'O Picture Path oferece interface em 11 idiomas. Português brasileiro, inglês, alemão, francês, espanhol, italiano, holandês, dinamarquês, sueco, norueguês e finlandês. A biblioteca de imagens também segue o idioma selecionado. Desenhos para colorir e labirintos funcionam em qualquer língua suportada.',
-      },
-      {
-        id: '6',
-        question: 'Posso Vender Atividade Grátis para Crianças que Crio?',
-        answer: 'Sim, a assinatura Acesso Completo inclui licença comercial completa. Venda seus labirintos de coordenação motora no Teachers Pay Teachers. Crie produtos para Etsy, Amazon KDP e outras plataformas. Nenhuma taxa adicional por licenciamento. A licença cobre uso comercial em qualquer quantidade e mercado.',
-      },
-      {
-        id: '7',
-        question: 'Como Personalizo Atividades Grátis de Vogais e Alfabeto?',
-        answer: 'Cada elemento do labirinto pode ser editado após geração. Mova imagens arrastando com o mouse. Redimensione figuras para melhor visibilidade. Adicione textos personalizados com múltiplas fontes. Atividades vogais e alfabeto podem ser customizadas completamente. Delete elementos indesejados com um clique.',
-      },
-      {
-        id: '8',
-        question: 'Para Quais Idades Funcionam Atividade para Crianças de Labirintos?',
-        answer: 'Labirintos funcionam para idades de 3 a 10 anos. Configure grades menores para crianças mais novas. Aumente a complexidade para alunos maiores. Atividades 1º ano usam grades de 12x12 células. Tabuada e desafios matemáticos funcionam bem para 2º e 3º ano. Cada modo oferece níveis de dificuldade ajustáveis.',
-      },
-      {
-        id: '9',
-        question: 'Posso Enviar Imagens Próprias para Atividades Grátis?',
-        answer: 'Sim, o upload de imagens próprias é totalmente suportado. Envie múltiplos arquivos de uma vez. Formatos JPEG, PNG e GIF são aceitos. Use fotos dos alunos para engajamento máximo. Combine imagens enviadas com a biblioteca do sistema. Labirintos de letra cursiva ficam únicos com fotos da turma.',
-      },
-      {
-        id: '10',
-        question: 'Quanto Tempo para Criar Imprimíveis Grátis de Labirintos?',
-        answer: 'O processo completo leva menos de 3 minutos. Selecione tema e modo em 30 segundos. Configure opções em mais 30 segundos. Clique em gerar e aguarde 5 segundos. Edite se necessário por 1 minuto. Baixe em PDF ou JPEG instantaneamente. Materiais de pontilhado e pré-escrita prontos em tempo recorde.',
-      },
-      {
-        id: '11',
-        question: 'Os Labirintos Incluem Gabarito em Atividades Grátis?',
-        answer: 'Sim, cada labirinto gera gabarito automático mostrando o caminho correto. O gabarito pode ser baixado separadamente. Exporte em PDF ou JPEG com a mesma qualidade. Atividades 2º ano ficam completas com respostas para correção rápida. O modo Labirinto Clássico também mostra quais colecionáveis devem ser encontrados.',
-      },
-      {
-        id: '12',
-        question: 'Posso Criar Atividade Grátis para Educação Infantil de Qualquer Tema?',
-        answer: 'A biblioteca oferece mais de 3000 imagens organizadas por temas. Animais, frutas, transportes, profissões e muito mais. Pesquise por palavras-chave em português. Combine temas diferentes no mesmo labirinto. Atividades de alfabetização podem usar imagens específicas para cada letra. Upload de imagens próprias permite temas ilimitados.',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Pricing - Full Access for Picture Path
@@ -525,40 +277,8 @@ Desenvolva pacotes temáticos de atividades de alfabetização. Apostilas comple
       securePayment: 'Pagamento seguro',
       cancelAnytime: 'Cancele quando quiser',
     },
-    items: [
-      {
-        id: '1',
-        slug: 'math-worksheet',
-        name: 'Fichas de Matemática',
-        category: 'Matemática',
-        icon: '➕',
-        description: 'Combine labirintos com fichas de matemática tradicionais para pacotes de atividades de matemática completos.',
-      },
-      {
-        id: '2',
-        slug: 'alphabet-train',
-        name: 'Trenzinho do Alfabeto',
-        category: 'Alfabetização',
-        icon: '🚂',
-        description: 'Una labirintos de alfabeto com o gerador Alphabet Train para atividades de alfabetização completas.',
-      },
-      {
-        id: '3',
-        slug: 'word-search',
-        name: 'Caça-Palavras',
-        category: 'Palavras',
-        icon: '🔍',
-        description: 'Combine labirintos de atividades vogais com caça-palavras temáticos para reforço de letras e palavras.',
-      },
-      {
-        id: '4',
-        slug: 'drawing-lines',
-        name: 'Traçar Linhas',
-        category: 'Motor',
-        icon: '✏️',
-        description: 'Combine labirintos com exercícios de traçado para desenvolvimento de coordenação motora progressivo.',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 };
 

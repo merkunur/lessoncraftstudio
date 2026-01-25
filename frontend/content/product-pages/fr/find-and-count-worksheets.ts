@@ -97,43 +97,8 @@ Combinez le cherche et compte avec des activités de graphisme maternelle. Nos f
     badgeText: 'Exemples Gratuits',
     downloadingLabel: 'Téléchargement...',
     ofLabel: 'sur',
-    items: [
-      {
-        id: '1',
-        worksheetSrc: '/samples/french/find-and-count/sample-1.jpeg',
-        answerKeySrc: '/samples/french/find-and-count/sample-1-answer.jpeg',
-        altText: 'Fiche cherche et compte fiches gratuites - exercices dénombrement pour maternelle',
-        pdfDownloadUrl: '/samples/french/find-and-count/sample-1.pdf',
-      },
-      {
-        id: '2',
-        worksheetSrc: '/samples/french/find-and-count/sample-2.jpeg',
-        answerKeySrc: '/samples/french/find-and-count/sample-2-answer.jpeg',
-        altText: 'Fiches maternelle cherche et compte - fiche gratuite pour enfants à imprimer',
-        pdfDownloadUrl: '/samples/french/find-and-count/sample-2.pdf',
-      },
-      {
-        id: '3',
-        worksheetSrc: '/samples/french/find-and-count/sample-3.jpeg',
-        answerKeySrc: '/samples/french/find-and-count/sample-3-answer.jpeg',
-        altText: 'Exercices CP cherche et compte - fiches à imprimer gratuit avec corrigé',
-        pdfDownloadUrl: '/samples/french/find-and-count/sample-3.pdf',
-      },
-      {
-        id: '4',
-        worksheetSrc: '/samples/french/find-and-count/sample-4.jpeg',
-        answerKeySrc: '/samples/french/find-and-count/sample-4-answer.jpeg',
-        altText: 'Fiche pour maternelle cherche et compte - graphisme maternelle et calcul',
-        pdfDownloadUrl: '/samples/french/find-and-count/sample-4.pdf',
-      },
-      {
-        id: '5',
-        worksheetSrc: '/samples/french/find-and-count/sample-5.jpeg',
-        answerKeySrc: '/samples/french/find-and-count/sample-5-answer.jpeg',
-        altText: 'Fiches gratuites cherche et compte - exercices maths CP CE1 imprimables gratuits',
-        pdfDownloadUrl: '/samples/french/find-and-count/sample-5.pdf',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Features Grid - FULL text from find-and-count.md feature sections
@@ -149,96 +114,8 @@ Combinez le cherche et compte avec des activités de graphisme maternelle. Nos f
       noHiddenFees: 'Aucun frais caché',
       cancelAnytime: 'Résiliez à tout moment',
     },
-    items: [
-      {
-        id: '1',
-        icon: '⚡',
-        title: 'Créez des Fiches à Imprimer Gratuit en 3 Clics',
-        description: `La simplicité guide notre approche. Sélectionnez un thème d'images parmi notre bibliothèque. Choisissez 1 à 4 objets à chercher. Cliquez sur générer. Votre fiche de cherche et compte apparaît instantanément. Les exercices maths deviennent un jeu d'enfant à préparer. Aucune compétence technique requise. Le générateur fait tout le travail pour vous.
-
-Notre générateur crée des fiches avec une grille personnalisable. Chaque image représente un objet à chercher dans la grille. Les élèves comptent les occurrences de chaque symbole. Cette approche développe l'attention visuelle et le dénombrement. Les fiches maternelle deviennent des activités passionnantes qui captivent les jeunes apprenants.
-
-Choisissez parmi des milliers d'images thématiques adaptées aux enfants. Définissez le nombre d'objets différents à chercher. Ajustez la taille de la grille selon le niveau des élèves. Chaque paramètre s'adapte pour correspondre exactement à vos besoins pédagogiques et vos objectifs d'apprentissage.`,
-        highlighted: false,
-      },
-      {
-        id: '2',
-        icon: '✏️',
-        title: 'Fiches Maternelle Entièrement Personnalisables',
-        description: `Chaque élément de votre fiche reste modifiable. Déplacez les images avec votre souris. Redimensionnez-les selon vos besoins. Faites-les pivoter pour varier la présentation. Supprimez ce qui ne convient pas. Les fiches maternelle s'adaptent exactement à vos exigences. Ajoutez des zones de graphisme maternelle. Intégrez des espaces pour le coloriage. Votre créativité n'a aucune limite.
-
-Ajoutez du texte personnalisé n'importe où sur vos fiches à imprimer. Choisissez parmi sept polices professionnelles adaptées aux enfants. Ajustez la taille de police selon vos besoins. Changez les couleurs du texte pour correspondre au thème de votre classe. Ajoutez des contours au texte pour une meilleure visibilité.
-
-Les outils d'alignement professionnels arrangent les objets avec précision. Alignez à gauche, au centre ou à droite. Centrez les objets sur la page horizontalement ou verticalement. Verrouillez les objets en place une fois le positionnement parfait. Les boutons Annuler et Rétablir corrigent les erreurs instantanément.`,
-        highlighted: false,
-      },
-      {
-        id: '3',
-        icon: '📤',
-        title: 'Exercices CP avec Vos Propres Images',
-        description: `Téléversez vos propres images pour personnaliser les exercices CP. Utilisez des photos de la mascotte de classe. Ajoutez des images liées à votre projet pédagogique. Combinez-les avec notre bibliothèque existante. Les fiches à imprimer deviennent uniques à votre classe. Formats acceptés : JPEG, PNG, GIF. Téléversement multiple en une seule fois.
-
-Créez des exercices maths présentant les personnages préférés de vos élèves. Utilisez des images de sorties scolaires ou de projets de classe. Associez les activités de cherche et compte aux thèmes ou unités en cours. Connectez le dénombrement à des objets réels que les élèves reconnaissent.
-
-Les images personnalisées fonctionnent parfaitement pour l'enseignement différencié. Créez des exercices plus faciles avec des objets familiers pour les élèves en difficulté. Concevez des problèmes stimulants avec du nouveau vocabulaire pour les apprenants avancés. Soutenez les élèves qui commencent à apprendre à lire avec des visuels pertinents.`,
-        highlighted: false,
-      },
-      {
-        id: '4',
-        icon: '🌍',
-        title: 'Fiches Maternelle en 11 Langues',
-        description: `Notre générateur fonctionne en 11 langues. Français, anglais, allemand, espagnol, italien, portugais. Néerlandais, suédois, danois, norvégien, finnois également. L'interface s'adapte à votre langue préférée. Les noms d'images changent automatiquement. Parfait pour apprendre les lettres dans plusieurs langues. L'alphabet devient accessible aux classes bilingues. Les fiches maternelle servent l'enseignement multilingue.
-
-La langue de l'interface change indépendamment de la langue du contenu. Enseignez en français tout en créant des fiches en anglais pour les élèves. Changez de langue instantanément sans perdre votre travail. Tous les boutons et libellés se traduisent automatiquement.
-
-Le support linguistique s'étend à tous les éléments textuels des fiches. Personnalisez n'importe quel texte pour correspondre aux objectifs d'apprentissage. Parfait pour les programmes bilingues et l'enseignement dans plusieurs langues.`,
-        highlighted: false,
-      },
-      {
-        id: '5',
-        icon: '💰',
-        title: 'Licence Commerciale Incluse',
-        description: `Votre abonnement Pack Essentiel inclut la licence commerciale complète. Vendez vos fiches à imprimer gratuit sur Teachers Pay Teachers. Créez une boutique Etsy de ressources pédagogiques. Publiez sur Amazon KDP. Aucun frais supplémentaire pour les droits commerciaux. La qualité 300 DPI garantit des impressions professionnelles. Transformez votre créativité en revenus complémentaires.
-
-De nombreux enseignants gagnent entre 500€ et 2000€ par mois en vendant des fiches imprimables. Créez des lots de fiches cherche et compte thématiques pour différentes saisons. Concevez des fiches à imprimer gratuit pour des fêtes spécifiques. Assemblez des exercices CP par niveau de compétence.
-
-Exportez les fiches en résolution professionnelle 300 DPI pour l'impression commerciale. Téléchargez en PDF pour les ventes numériques ou en JPEG pour le print-on-demand. Créez des cahiers d'activités présentant vos exercices maths. Construisez un flux de revenus passifs tout en créant du matériel pédagogique.`,
-        highlighted: true,
-      },
-      {
-        id: '6',
-        icon: '🎨',
-        title: 'Bibliothèque de 3000+ Images',
-        description: `Plus de 3 000 images adaptées aux enfants vous attendent. Organisation par thèmes : animaux, fruits, véhicules, école. Fonction de recherche pour trouver rapidement. Chaque image convient au coloriage à imprimer. Les exercices CE1 bénéficient de visuels variés. Arrière-plans et bordures inclus. Tout est compris dans votre abonnement sans frais cachés.
-
-L'organisation thématique accélère la création de fiches cherche et compte. Sélectionnez le thème animaux pour les fiches sur le zoo. Choisissez les images de nourriture pour les leçons de nutrition. Utilisez les images saisonnières pour des fiches sur les fêtes. Changez de thème instantanément pour correspondre à n'importe quel sujet de programme.
-
-Toutes les images de la bibliothèque sont incluses avec votre abonnement sans frais supplémentaires. Contrairement aux concurrents qui facturent par image, notre bibliothèque entière est disponible. Créez des exercices CP illimités en utilisant n'importe quelle image.`,
-        highlighted: false,
-      },
-      {
-        id: '7',
-        icon: '🖨️',
-        title: 'Qualité Professionnelle 300 DPI',
-        description: `Exportez en haute résolution pour des impressions parfaites. Format PDF pour une qualité optimale. Format JPEG pour partage numérique. Option noir et blanc pour économiser l'encre. Les exercices maths s'impriment avec netteté. Combinez avec des exercices d'écriture cursive. Vos fiches rivalisent avec les éditions professionnelles. L'abonnement Pack Essentiel coûte seulement 144 € par an.
-
-La qualité professionnelle compte pour les fiches maternelle et les exercices CE1. Les élèves voient des images claires et colorées qui engagent les apprenants visuels. Les parents apprécient les exercices maths de haute qualité envoyés à la maison.
-
-Chaque fiche cherche et compte inclut un corrigé généré automatiquement. Téléchargez le corrigé séparément pour une notation rapide. Les corrigés correspondent exactement à la mise en page de la fiche élève. Gagnez du temps à vérifier le travail des élèves.`,
-        highlighted: true,
-      },
-      {
-        id: '8',
-        icon: '📐',
-        title: 'Grille Personnalisable',
-        description: `Ajustez la grille selon le niveau de difficulté. De 5 à 10 rangées disponibles. De 5 à 10 colonnes possibles. Les petits apprécient les grilles simples. Les plus grands relèvent des défis complexes. Les fiches maternelle s'adaptent à chaque âge. Intégrez des activités de calcul numérique. Préparez les bases pour apprendre à lire avec des images associées aux mots.
-
-Le générateur place automatiquement les images dans la grille. Les objets sélectionnés apparaissent plusieurs fois de façon aléatoire. D'autres images du thème complètent la grille. Les exercices CE1 prennent forme instantanément.
-
-Régénérez si vous voulez des puzzles différents. Cliquez à nouveau sur Générer pour de nouvelles dispositions aléatoires. Les images changent à chaque génération. Créez des variations illimitées de fiches maternelle.`,
-        highlighted: false,
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // How-To Guide - FULL text from find-and-count.md step sections
@@ -320,80 +197,8 @@ Téléchargez fiche et corrigé en un seul clic. La qualité 300 DPI garantit de
     badgeText: 'Pour Qui',
     readMoreLabel: 'Lire la suite',
     showLessLabel: 'Voir moins',
-    items: [
-      {
-        id: '1',
-        icon: '👶',
-        title: 'Enseignants de Maternelle',
-        subtitle: 'Fiches Maternelle pour Graphisme Maternelle et Coloriage',
-        description: `Les enseignants de petite, moyenne et grande section adorent nos fiches maternelle. Le cherche et compte développe l'attention visuelle des tout-petits. Combinez avec des activités de graphisme maternelle pour une séance complète. Ajoutez des zones de coloriage pour la motricité fine. Les enfants de 3 à 6 ans progressent tout en s'amusant. Créez des fiches thématiques pour chaque période de l'année.
-
-Les fiches cherche et compte construisent les fondations essentielles pour les opérations futures. Les jeunes élèves apprennent à identifier des patterns et des relations entre objets. Ils voient les connexions entre quantités visuelles et valeurs numériques. Cette approche prépare les compétences mathématiques précoces.
-
-Combinez les fiches avec des activités d'écriture pour un apprentissage intégré. Les élèves pratiquent la formation des chiffres après avoir compté. Créez des paquets de travail du matin mélangeant dénombrement et motricité fine.`,
-        quote: 'Mes élèves adorent chercher et compter les images !',
-      },
-      {
-        id: '2',
-        icon: '📚',
-        title: 'Professeurs des Écoles CP et CE1',
-        subtitle: 'Exercices Maths et Tables de Multiplication',
-        description: `Les enseignants de cycle 2 utilisent nos fiches pour les exercices maths quotidiens. Le dénombrement renforce la compréhension des nombres. Introduisez les tables de multiplication avec des groupes visuels. Les exercices CP gagnent en variété pédagogique. Les exercices CE1 deviennent plus stimulants. Chaque fiche s'adapte au niveau de la classe. La différenciation devient simple et rapide.
-
-Les enseignants de CE1 utilisent les fiches pour renforcer et étendre les compétences de calcul. Les élèves travaillent avec des grilles plus complexes utilisant plus d'objets différents. Le comptage devient plus stimulant avec des quantités variées. Les connexions entre opérations se développent naturellement.
-
-Créez des fiches où les groupes d'objets illustrent les concepts mathématiques. Les exercices CE1 connectent le dénombrement aux opérations de manière significative.`,
-        quote: 'Le cherche et compte prépare parfaitement les compétences mathématiques.',
-      },
-      {
-        id: '3',
-        icon: '🏠',
-        title: 'Parents en Instruction à Domicile',
-        subtitle: 'Fiches à Imprimer Gratuit pour Apprendre à Lire',
-        description: `Les familles pratiquant l'école à la maison trouvent ici des ressources précieuses. Les fiches à imprimer gratuit complètent le programme officiel. Combinez le cherche et compte avec des activités pour apprendre à lire. Les enfants associent images et mots naturellement. Le travail autonome devient possible dès 4 ans. Les parents économisent des heures de préparation chaque semaine.
-
-Les parents en instruction à domicile apprécient la création rapide de fiches personnalisées. Générez des exercices maths adaptés exactement au niveau de votre enfant. Créez des fiches avec des images correspondant aux intérêts de l'enfant. Les dinosaures pour l'enfant passionné de préhistoire. Les véhicules pour celui qui adore les transports.
-
-Combinez les fiches de dénombrement avec des activités d'écriture pour un apprentissage intégré. Les élèves écrivent les nombres après avoir compté les objets.`,
-        quote: 'Je peux adapter les fiches au niveau exact de mon enfant.',
-      },
-      {
-        id: '4',
-        icon: '🌍',
-        title: 'Enseignants de Langues',
-        subtitle: 'Alphabet et Apprendre les Lettres en 11 Langues',
-        description: `Les professeurs de langues vivantes exploitent notre support multilingue. Créez des fiches en anglais, allemand ou espagnol. Les élèves découvrent l'alphabet dans une nouvelle langue. Parfait pour apprendre les lettres étrangères par l'image. Le vocabulaire s'acquiert de façon ludique. Les fiches bilingues facilitent la transition linguistique. L'immersion commence avec des activités simples et engageantes.
-
-Les enseignants de FLE utilisent les fiches cherche et compte pour l'acquisition du vocabulaire numérique. Les élèves apprennent les mots numériques dans la langue cible tout en comptant. Un, deux, trois deviennent one, two, three ou eins, zwei, drei.
-
-Les programmes bilingues ont besoin de matériel identique dans deux langues quotidiennement. La version française enseigne le comptage en français. La version anglaise utilise les mêmes images avec des mots anglais.`,
-        quote: 'Les fiches deviennent un outil d\'apprentissage linguistique.',
-      },
-      {
-        id: '5',
-        icon: '💜',
-        title: 'Éducateurs Spécialisés',
-        subtitle: 'Écriture Cursive et Coloriage à Imprimer Adaptés',
-        description: `Les professionnels de l'éducation adaptée apprécient la personnalisation totale. Ajustez la taille des images pour une meilleure visibilité. Simplifiez les grilles pour réduire la surcharge cognitive. Intégrez des exercices d'écriture cursive progressifs. Le coloriage à imprimer apaise et concentre. Les AESH trouvent des supports différenciés. Chaque élève reçoit une fiche adaptée à ses capacités.
-
-Les apprenants visuels réussissent avec les fiches cherche et compte basées sur des images. Les élèves analysent des grilles concrètes au lieu de problèmes abstraits. L'approche visuelle réduit l'anxiété mathématique. Les élèves avec difficultés bénéficient des représentations visuelles.
-
-Créez des séries de pratique répétitive pour le développement de la maîtrise. Générez plusieurs fiches avec les mêmes niveaux de difficulté. La répétition avec nouveauté visuelle maintient l'engagement.`,
-        quote: 'La personnalisation répond à chaque besoin individuel.',
-      },
-      {
-        id: '6',
-        icon: '💰',
-        title: 'Entrepreneurs Éducatifs',
-        subtitle: 'Fiches à Imprimer pour Vendre sur Teachers Pay Teachers',
-        description: `Les créateurs de ressources pédagogiques développent leur activité. La licence commerciale incluse permet la vente. Créez des packs thématiques pour Teachers Pay Teachers. Proposez des fiches sur Etsy et Amazon KDP. Les fiches à imprimer génèrent des revenus passifs. Aucun droit supplémentaire à payer. Votre abonnement Pack Essentiel à 144 € par an couvre tout.
-
-Les vendeurs Teachers Pay Teachers gagnent entre 500€ et 2000€ par mois avec du matériel de qualité. Les fiches cherche et compte se vendent régulièrement car elles offrent une approche unique.
-
-Développez des lots thématiques pour les ventes saisonnières. Les packs de rentrée en août et septembre. Les fiches d'Halloween et d'automne en octobre. Les ensembles de fêtes de fin d'année en décembre. Chaque saison apporte de nouvelles opportunités de vente.`,
-        quote: 'Mon abonnement s\'est rentabilisé dès le premier mois !',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // FAQ Section - Selected FAQs from find-and-count.md
@@ -407,98 +212,8 @@ Développez des lots thématiques pour les ventes saisonnières. Les packs de re
     showLessLabel: 'Voir moins',
     secureCheckout: 'Paiement sécurisé',
     cancelAnytime: 'Résiliez à tout moment',
-    items: [
-      {
-        id: '1',
-        question: 'Ce Générateur de Fiches à Imprimer est-il Vraiment Gratuit ?',
-        answer: 'Le générateur de fiches cherche et compte nécessite un abonnement Pack Essentiel coûtant 144 € par an ou 15 € par mois. Votre abonnement vous donne accès à la création illimitée de fiches à imprimer sans frais supplémentaires par fiche. Générez autant de fiches maternelle que nécessaire sans charges additionnelles. Le Pack Essentiel inclut 10 générateurs populaires. L\'abonnement Accès Complet coûte 240 € par an et inclut les 33 types de générateurs. Les deux abonnements incluent la licence commerciale, le support de 11 langues et l\'export 300 DPI professionnel.',
-      },
-      {
-        id: '2',
-        question: 'Puis-je Imprimer les Fiches de Graphisme Maternelle à la Maison ?',
-        answer: 'Absolument. Toutes les fiches s\'impriment parfaitement sur une imprimante domestique standard. Le format PDF garantit une qualité optimale. Les fiches de graphisme maternelle conservent leur netteté. L\'option noir et blanc économise l\'encre couleur. Utilisez du papier standard 80g ou du papier plus épais pour les activités de découpage. Aucun équipement professionnel requis.',
-      },
-      {
-        id: '3',
-        question: 'Faut-il des Compétences en Design pour Créer des Fiches ?',
-        answer: 'Aucune compétence technique ou artistique nécessaire. Le générateur fait tout le travail complexe. Vous sélectionnez simplement les images et paramètres. Les fiches cherche et compte se créent en quelques clics. L\'interface intuitive guide chaque étape. Même les débutants produisent des fiches professionnelles dès la première utilisation. Le résultat impressionne toujours.',
-      },
-      {
-        id: '4',
-        question: 'Puis-je Utiliser les Fiches pour Apprendre à Lire en Classe ?',
-        answer: 'L\'abonnement Pack Essentiel inclut une utilisation illimitée en classe. Imprimez autant de copies que d\'élèves dans votre classe. Les fiches pour apprendre à lire s\'intègrent dans n\'importe quelle séquence pédagogique. Distribuez-les en ateliers autonomes. Utilisez-les en activité dirigée avec un petit groupe. Aucune restriction sur le nombre d\'impressions pour usage éducatif.',
-      },
-      {
-        id: '5',
-        question: 'En Quelles Langues Sont Disponibles les Fiches ?',
-        answer: 'Notre générateur fonctionne en 11 langues complètes. Français, anglais, allemand, espagnol, italien, portugais brésilien. Néerlandais, suédois, danois, norvégien et finnois également. L\'interface utilisateur s\'adapte à votre langue. Les noms d\'images dans la bibliothèque changent automatiquement. Les fiches d\'alphabet correspondent à chaque langue. Parfait pour apprendre les lettres dans plusieurs langues simultanément.',
-      },
-      {
-        id: '6',
-        question: 'Puis-je Vendre les Fiches que je Crée ?',
-        answer: 'Oui. L\'abonnement Pack Essentiel inclut la licence commerciale complète sans frais supplémentaires. Vendez vos fiches sur Teachers Pay Teachers. Créez une boutique Etsy de ressources pédagogiques. Publiez sur Amazon KDP. La qualité 300 DPI garantit des produits professionnels. Aucune attribution requise. Vos créations vous appartiennent entièrement.',
-      },
-      {
-        id: '7',
-        question: 'Comment Personnaliser les Fiches de Coloriage pour Mes Élèves ?',
-        answer: 'La personnalisation s\'effectue à plusieurs niveaux. Choisissez d\'abord un thème d\'images adapté à votre classe. Sélectionnez les objets spécifiques à chercher et compter. Ajustez la taille de la grille selon le niveau. Ajoutez des zones de coloriage autour de la grille principale. Insérez le prénom de chaque élève dans le titre. Téléversez des images personnalisées de votre classe.',
-      },
-      {
-        id: '8',
-        question: 'Quels Âges Conviennent aux Fiches Maternelle Cherche et Compte ?',
-        answer: 'Les fiches maternelle cherche et compte conviennent aux enfants de 3 à 8 ans principalement. Les grilles simples 5x5 s\'adaptent aux petits de maternelle. Les grilles moyennes 7x7 correspondent au CP et CE1. Les grilles complexes 10x10 défient les plus grands. Ajustez le nombre d\'objets à chercher selon les capacités. La difficulté s\'adapte à chaque niveau de développement.',
-      },
-      {
-        id: '9',
-        question: 'Puis-je Téléverser Mes Propres Images pour les Exercices Maths ?',
-        answer: 'Le téléversement d\'images personnalisées est entièrement supporté. Ajoutez des photos de la mascotte de classe. Utilisez des images liées à votre projet d\'école. Combinez vos images avec la bibliothèque existante. Formats acceptés : JPEG, PNG, GIF. Téléversement multiple en une seule opération. Vos exercices maths deviennent uniques et personnalisés.',
-      },
-      {
-        id: '10',
-        question: 'Combien de Temps Faut-il pour Créer une Fiche ?',
-        answer: 'Une fiche cherche et compte se crée en 3 minutes maximum. Sélection du thème : 30 secondes. Choix des images à chercher : 30 secondes. Génération automatique : instantanée. Personnalisation optionnelle : 1 à 2 minutes. Téléchargement du PDF : quelques secondes. Comparez avec les 30 à 60 minutes de création manuelle traditionnelle.',
-      },
-      {
-        id: '11',
-        question: 'Les Fiches Incluent-elles un Corrigé ?',
-        answer: 'Chaque fiche générée dispose de son corrigé automatique. Le corrigé affiche exactement les mêmes images que la fiche élève. Chaque objet à chercher montre sa quantité correcte bien visible. Les enseignants corrigent rapidement sans recompter manuellement. Téléchargez fiche et corrigé séparément au format de votre choix.',
-      },
-      {
-        id: '12',
-        question: 'Comment Personnaliser les Fiches Cherche et Compte pour Différents Niveaux ?',
-        answer: 'La personnalisation par niveau s\'effectue facilement avec notre générateur. Pour la maternelle, choisissez des grilles 5x5 avec 2-3 objets à chercher et des images simples. Pour le CP, utilisez des grilles 7x7 avec 3-4 objets et des thèmes variés. Pour le CE1, optez pour des grilles 8x8 à 10x10 avec 4 objets différents. Ajustez également la taille des images et le nombre d\'occurrences selon les capacités de chaque groupe d\'élèves.',
-      },
-      {
-        id: '13',
-        question: 'Le Générateur Cherche et Compte Fonctionne-t-il sur Tablette et Mobile ?',
-        answer: 'Notre générateur fonctionne parfaitement sur tous les appareils. Sur ordinateur, vous bénéficiez de l\'interface complète avec toutes les fonctionnalités. Sur tablette, l\'interface s\'adapte automatiquement pour une utilisation tactile confortable. Sur smartphone, créez des fiches basiques rapidement. Pour une expérience optimale avec les outils de personnalisation avancés, nous recommandons un ordinateur ou une tablette avec écran large.',
-      },
-      {
-        id: '14',
-        question: 'Puis-je Partager mes Fiches Cherche et Compte avec mes Collègues ?',
-        answer: 'Le partage avec vos collègues est autorisé dans le cadre de votre établissement scolaire. Envoyez les fichiers PDF par email ou partagez-les via votre ENT. Chaque enseignant peut imprimer les fiches pour sa classe. Pour un usage à grande échelle (académie, réseau d\'écoles), chaque utilisateur doit disposer de son propre abonnement. La licence commerciale permet également de vendre vos créations sur les plateformes éducatives.',
-      },
-      {
-        id: '15',
-        question: 'Comment Téléverser mes Propres Images Personnalisées ?',
-        answer: 'Le téléversement d\'images personnalisées est simple et rapide. Cliquez sur le bouton "Téléverser" dans la bibliothèque d\'images. Sélectionnez un ou plusieurs fichiers depuis votre ordinateur. Les formats JPEG, PNG et GIF sont acceptés. Vos images apparaissent instantanément dans une section personnalisée. Combinez-les avec les 3000+ images de notre bibliothèque pour créer des fiches uniques à votre classe ou projet pédagogique.',
-      },
-      {
-        id: '16',
-        question: 'Quelle Est la Différence Entre le Pack Essentiel et l\'Accès Complet ?',
-        answer: 'Le Pack Essentiel à 144€/an inclut 10 générateurs populaires dont le Cherche et Compte, ainsi que la licence commerciale et l\'export 300 DPI. L\'Accès Complet à 240€/an donne accès aux 33 générateurs disponibles sur la plateforme. Les deux formules offrent la création illimitée, les 11 langues et le téléversement d\'images personnalisées. Choisissez le Pack Essentiel si les 10 outils inclus correspondent à vos besoins, ou l\'Accès Complet pour une flexibilité maximale.',
-      },
-      {
-        id: '17',
-        question: 'Les Fiches Sont-elles Compatibles avec les Programmes Scolaires Français ?',
-        answer: 'Nos fiches cherche et compte s\'alignent parfaitement avec les programmes de l\'Éducation Nationale. En maternelle, elles développent le dénombrement et la reconnaissance visuelle conformément au domaine "Construire les premiers outils pour structurer sa pensée". En CP et CE1, elles renforcent les compétences numériques du cycle 2. Les enseignants peuvent facilement intégrer ces fiches dans leurs progressions annuelles et leurs séquences pédagogiques.',
-      },
-      {
-        id: '18',
-        question: 'Comment Utiliser les Fiches Cherche et Compte en Atelier Autonome ?',
-        answer: 'Les fiches cherche et compte sont idéales pour les ateliers autonomes. Imprimez plusieurs exemplaires de fiches différentes avec des niveaux variés. Plastifiez-les pour une utilisation durable avec des feutres effaçables. Les élèves peuvent travailler seuls ou en binômes. Préparez les corrigés pour l\'autocorrection. Organisez les fiches par niveau de difficulté dans des pochettes colorées. Cette organisation permet une rotation fluide pendant que vous travaillez en groupe dirigé.',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Pricing - Pack Essentiel for Find and Count
@@ -545,56 +260,8 @@ Développez des lots thématiques pour les ventes saisonnières. Les packs de re
       securePayment: 'Paiement sécurisé',
       cancelAnytime: 'Résiliez à tout moment',
     },
-    items: [
-      {
-        id: '1',
-        slug: 'word-search',
-        name: 'Mots Cachés',
-        category: 'Langage',
-        icon: '🔍',
-        description: 'Associez le cherche et compte avec le générateur de mots mêlés pour une séquence lecture complète. Les enfants cherchent d\'abord les images dans la grille puis retrouvent les noms correspondants.',
-      },
-      {
-        id: '2',
-        slug: 'coloring',
-        name: 'Coloriage',
-        category: 'Créativité',
-        icon: '🎨',
-        description: 'Le générateur de pages de coloriage complète parfaitement le cherche et compte. Les enfants colorient les objets qu\'ils ont comptés. La séquence devient immersive et mémorable.',
-      },
-      {
-        id: '3',
-        slug: 'addition',
-        name: 'Addition',
-        category: 'Mathématiques',
-        icon: '➕',
-        description: 'Combinez le dénombrement visuel avec des exercices de calcul écrits. Les enfants comptent les objets dans la grille puis reportent les quantités sur une fiche de calcul.',
-      },
-      {
-        id: '4',
-        slug: 'alphabet-train',
-        name: 'Train Alphabet',
-        category: 'Langage',
-        icon: '🚂',
-        description: 'Le générateur Alphabet Train enseigne l\'ordre alphabétique de façon ludique. Les enfants identifient les objets commençant par chaque lettre après le cherche et compte.',
-      },
-      {
-        id: '5',
-        slug: 'math-puzzle',
-        name: 'Puzzle Maths',
-        category: 'Mathématiques',
-        icon: '🧩',
-        description: 'Le générateur de puzzles mathématiques propose des défis numériques engageants. Les groupes d\'objets illustrent concrètement les tables de multiplication.',
-      },
-      {
-        id: '6',
-        slug: 'drawing-lines',
-        name: 'Tracé de Lignes',
-        category: 'Graphisme',
-        icon: '✏️',
-        description: 'Le générateur de tracé de lignes développe la motricité fine. Combinez avec le cherche et compte pour une séance équilibrée entre concentration visuelle et geste graphique.',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 };
 

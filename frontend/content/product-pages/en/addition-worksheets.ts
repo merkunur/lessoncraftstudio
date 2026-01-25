@@ -82,48 +82,7 @@ These printable addition worksheets work perfectly for math centers, homework pa
     downloadLabel: 'Download Free Worksheet Sample',
     worksheetLabel: 'Worksheet',
     answerKeyLabel: 'Answer Key',
-    items: [
-      {
-        id: '1',
-        worksheetSrc: '/samples/english/addition/sample-1.jpeg',
-        answerKeySrc: '/samples/english/addition/sample-1-answer.jpeg',
-        altText: 'Addition worksheets free printable - kindergarten worksheets with colorful counting images for kids',
-        imageTitle: 'Free Printable Addition Worksheet - Kindergarten Counting Practice',
-        pdfDownloadUrl: '/samples/english/addition/sample-1.pdf',
-      },
-      {
-        id: '2',
-        worksheetSrc: '/samples/english/addition/sample-2.jpeg',
-        answerKeySrc: '/samples/english/addition/sample-2-answer.jpeg',
-        altText: 'Addition worksheets for first grade - free printable worksheets with visual math problems',
-        imageTitle: 'Addition Worksheets - First Grade Visual Math Problems',
-        pdfDownloadUrl: '/samples/english/addition/sample-2.pdf',
-      },
-      {
-        id: '3',
-        worksheetSrc: '/samples/english/addition/sample-3.jpeg',
-        answerKeySrc: '/samples/english/addition/sample-3-answer.jpeg',
-        altText: 'Addition worksheets find addend mode - kindergarten worksheets with free printable missing number problems',
-        imageTitle: 'Find Addend Addition Worksheets - Free Printable Missing Number Practice',
-        pdfDownloadUrl: '/samples/english/addition/sample-3.pdf',
-      },
-      {
-        id: '4',
-        worksheetSrc: '/samples/english/addition/sample-4.jpeg',
-        answerKeySrc: '/samples/english/addition/sample-4-answer.jpeg',
-        altText: 'Addition worksheets image and number mode - free printable first grade worksheets combining pictures with numerals',
-        imageTitle: 'Image and Number Addition Worksheets - First Grade Math Practice',
-        pdfDownloadUrl: '/samples/english/addition/sample-4.pdf',
-      },
-      {
-        id: '5',
-        worksheetSrc: '/samples/english/addition/sample-5.jpeg',
-        answerKeySrc: '/samples/english/addition/sample-5-answer.jpeg',
-        altText: 'Addition worksheets mixed mode - math worksheets for kids with varied free printable problem types',
-        imageTitle: 'Mixed Mode Addition Worksheets - Varied Math Problems for Kids',
-        pdfDownloadUrl: '/samples/english/addition/sample-5.pdf',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
   },
 
   // Features Grid - FULL descriptions from addition.md H3 sections

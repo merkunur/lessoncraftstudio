@@ -88,36 +88,8 @@ Nossa ferramenta gera grades de 5x5 até 10x10 com imagens variadas. Selecione d
     badgeText: 'Exemplos Grátis',
     downloadingLabel: 'Baixando...',
     ofLabel: 'de',
-    items: [
-      {
-        id: '1',
-        worksheetSrc: '/samples/portuguese/find-and-count/sample-1.jpeg',
-        answerKeySrc: '/samples/portuguese/find-and-count/sample-1-answer.jpeg',
-        altText: 'Atividade grátis de encontre e conte - ficha de contagem visual para educação infantil',
-        pdfDownloadUrl: '/samples/portuguese/find-and-count/sample-1.pdf',
-      },
-      {
-        id: '2',
-        worksheetSrc: '/samples/portuguese/find-and-count/sample-2.jpeg',
-        answerKeySrc: '/samples/portuguese/find-and-count/sample-2-answer.jpeg',
-        altText: 'Atividade grátis para crianças - encontre e conte com objetos escondidos',
-        pdfDownloadUrl: '/samples/portuguese/find-and-count/sample-2.pdf',
-      },
-      {
-        id: '3',
-        worksheetSrc: '/samples/portuguese/find-and-count/sample-3.jpeg',
-        answerKeySrc: '/samples/portuguese/find-and-count/sample-3-answer.jpeg',
-        altText: 'Imprimíveis grátis de encontre e conte - atividade para educação infantil',
-        pdfDownloadUrl: '/samples/portuguese/find-and-count/sample-3.pdf',
-      },
-      {
-        id: '4',
-        worksheetSrc: '/samples/portuguese/find-and-count/sample-4.jpeg',
-        answerKeySrc: '/samples/portuguese/find-and-count/sample-4-answer.jpeg',
-        altText: 'Atividades grátis de contagem visual - encontre e conte para crianças',
-        pdfDownloadUrl: '/samples/portuguese/find-and-count/sample-4.pdf',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Features Grid - FULL text from find-and-count.md feature sections
@@ -133,80 +105,8 @@ Nossa ferramenta gera grades de 5x5 até 10x10 com imagens variadas. Selecione d
       noHiddenFees: 'Sem taxas ocultas',
       cancelAnytime: 'Cancele quando quiser',
     },
-    items: [
-      {
-        id: '1',
-        icon: '⚡',
-        title: 'Crie Atividades Grátis em 3 Cliques',
-        description: `Selecione um tema da biblioteca de imagens. Escolha de 1 a 4 imagens para serem os objetos escondidos. Clique em gerar e sua ficha de encontre e conte aparece instantaneamente. A grade é preenchida automaticamente com seus objetos e imagens extras.
-
-Todo o processo leva menos de 3 minutos. Professores de educação infantil economizam horas de trabalho. Crie atividades grátis de matemática visual sem complicação.`,
-        highlighted: false,
-      },
-      {
-        id: '2',
-        icon: '✏️',
-        title: 'Atividades Grátis Totalmente Editáveis para Crianças',
-        description: `Cada elemento na tela é completamente editável. Arraste, gire e redimensione qualquer imagem. Delete elementos que não deseja na grade. Ajuste a opacidade de cada objeto.
-
-Organize camadas movendo itens para frente ou para trás. Suas fichas de encontre e conte ficam exatamente como você imaginou. Atividades grátis para imprimir únicas toda vez.`,
-        highlighted: false,
-      },
-      {
-        id: '3',
-        icon: '🔢',
-        title: 'Atividade Grátis com Grade Configurável de 5x5 a 10x10',
-        description: `Configure grades de 5x5 até 10x10 para diferentes níveis. Grades menores para crianças mais novas. Grades maiores para desafios de contagem avançados. Desenvolva conceitos de tabuada através de grupos visuais.
-
-Atividades grátis de matemática adaptadas para cada faixa etária. Contagem progressiva que acompanha o desenvolvimento. Encontre e conte para todos os níveis.`,
-        highlighted: true,
-      },
-      {
-        id: '4',
-        icon: '🌍',
-        title: 'Atividades Grátis para Crianças em 11 Idiomas',
-        description: `Interface disponível em português brasileiro e mais 10 idiomas. Biblioteca de imagens traduzida para facilitar buscas. Crie fichas de encontre e conte com vocabulário internacional.
-
-Ideal para atividades grátis de alfabetização em escolas bilíngues. Suporte a alemão, francês, espanhol, italiano e mais. Perfeito para programas de imersão linguística.`,
-        highlighted: false,
-      },
-      {
-        id: '5',
-        icon: '📤',
-        title: 'Imprimíveis Grátis com Upload de Imagens Próprias',
-        description: `Envie suas próprias imagens para o gerador. Aceita formatos JPEG, PNG e GIF. Faça upload de múltiplos arquivos de uma vez. Combine fotos da turma com imagens da biblioteca.
-
-Crie atividades grátis para educação infantil com rostos familiares. Personalize encontre e conte para cada aluno. Objetos escondidos com significado pessoal.`,
-        highlighted: false,
-      },
-      {
-        id: '6',
-        icon: '💰',
-        title: 'Licença Comercial POD Incluída',
-        description: `Sua assinatura Pacote Essencial inclui licença comercial completa. Venda fichas de encontre e conte no Teachers Pay Teachers. Comercialize atividades para imprimir na Etsy.
-
-Publique no Amazon KDP sem taxas extras. Exportação em 300 DPI para qualidade profissional. Crie um negócio com suas atividades de matemática visual.`,
-        highlighted: true,
-      },
-      {
-        id: '7',
-        icon: '🎨',
-        title: 'Atividades Grátis para Educação Infantil com 3000+ Imagens',
-        description: `Acesse mais de 3000 imagens infantis organizadas por tema. Encontre ilustrações para atividades vogais e alfabeto. Imagens de animais, frutas, transportes e profissões.
-
-Busque por palavra-chave em português. Todas as imagens são adequadas para crianças. Crie fichas de encontre e conte variadas sem repetição.`,
-        highlighted: false,
-      },
-      {
-        id: '8',
-        icon: '🖨️',
-        title: 'Qualidade Profissional 300 DPI',
-        description: `Exporte em JPEG ou PDF com resolução profissional. Qualidade 300 DPI perfeita para impressão. Opção escala de cinza para economizar tinta.
-
-Ideal para cópias em grande quantidade. Fichas de encontre e conte com linhas nítidas e definidas. Atividades para imprimir que impressionam pais e coordenadores.`,
-        highlighted: false,
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // How-To Guide - FULL text from find-and-count.md step sections
@@ -288,80 +188,8 @@ Entregue a atividade aos alunos para contagem. Guarde o gabarito para correção
     badgeText: 'Para Quem',
     readMoreLabel: 'Leia mais',
     showLessLabel: 'Mostrar menos',
-    items: [
-      {
-        id: '1',
-        icon: '👩‍🏫',
-        title: 'Professores de Educação Infantil',
-        subtitle: 'Atividades Grátis de Matemática e Coordenação Motora para Crianças na Pré-Escola',
-        description: `Educadores de creche e pré-escola usam encontre e conte para desenvolver habilidades essenciais. Crianças de 3 a 5 anos praticam contagem de forma lúdica e visual. Atividades de matemática se tornam brincadeiras de busca e descoberta.
-
-O desenvolvimento da coordenação motora acontece naturalmente ao circular objetos. Professores de pré-escola desenvolvem coordenação motora através de fichas de encontre e conte. Grades menores de 5x5 são ideais para os pequenos.
-
-Combine contagem com reconhecimento de imagens para atividades vogais e alfabeto. Crianças identificam objetos cujos nomes começam com vogais específicas.`,
-        quote: 'Meus alunos adoram procurar os objetos escondidos!',
-      },
-      {
-        id: '2',
-        icon: '📚',
-        title: 'Professores do 1º e 2º Ano',
-        subtitle: 'Atividade Grátis de Tabuada Visual e Contagem em Grupos para Crianças',
-        description: `Docentes do ensino fundamental usam encontre e conte para reforçar conceitos matemáticos. Atividades 1º ano integram contagem com reconhecimento numérico. Professores de 2º ano avançam para grupos e conceitos de tabuada.
-
-Crie fichas de encontre e conte para ensinar tabuada visualmente. Alunos contam grupos de objetos iguais desenvolvendo multiplicação. Grades maiores desafiam alunos mais avançados.
-
-Desenvolva atividades de alfabetização integrando contagem e vocabulário. Alunos identificam e contam objetos escrevendo os nomes.`,
-        quote: 'A progressão de dificuldade acompanha o desenvolvimento dos alunos.',
-      },
-      {
-        id: '3',
-        icon: '🏠',
-        title: 'Pais Homeschoolers',
-        subtitle: 'Atividades Grátis para Crianças - Imprimíveis Personalizados em Casa',
-        description: `Famílias que educam em casa valorizam encontre e conte pela versatilidade. Pais criam materiais personalizados para cada filho. Atividades para imprimir economizam tempo de preparação.
-
-Personalize fichas de encontre e conte com fotos da família. Adicione exercícios de letra cursiva e pontilhado na mesma página. Crie atividades para imprimir únicas para cada criança.
-
-Desenvolva coordenação motora com fichas de encontre e conte caseiras. Combine com desenhos para colorir após a contagem.`,
-        quote: 'Uma ferramenta perfeita para educação domiciliar.',
-      },
-      {
-        id: '4',
-        icon: '🌍',
-        title: 'Professores de Idiomas',
-        subtitle: 'Atividade Grátis para Educação Infantil - Alfabetização Bilíngue',
-        description: `Educadores de línguas usam encontre e conte para ensinar vocabulário visual. Atividades de alfabetização funcionam em qualquer dos 11 idiomas suportados. Alunos aprendem palavras novas enquanto praticam contagem.
-
-Crie fichas de encontre e conte com vocabulário em inglês ou espanhol. Alunos contam objetos e aprendem nomes em outro idioma. Perfeito para escolas internacionais no Brasil.
-
-Desenvolva atividades vogais e alfabeto em múltiplos idiomas simultaneamente.`,
-        quote: 'O suporte multilíngue é essencial para meu programa bilíngue.',
-      },
-      {
-        id: '5',
-        icon: '💜',
-        title: 'Professores de Educação Especial',
-        subtitle: 'Atividades Grátis Adaptadas - Coordenação Motora para Crianças',
-        description: `Educadores de inclusão adaptam encontre e conte para necessidades especiais. Desenvolvimento de coordenação motora em ritmo individualizado. Grades menores para alunos com dificuldades visuais.
-
-Crie fichas de encontre e conte com níveis de complexidade variados. Adapte atividades para imprimir para cada aluno individualmente. Desenvolva coordenação motora respeitando limites pessoais.
-
-Ensine tabuada através de grupos visuais concretos. Atividades de matemática com suporte visual constante.`,
-        quote: 'Posso adaptar rapidamente as atividades para cada aluno.',
-      },
-      {
-        id: '6',
-        icon: '💰',
-        title: 'Professores Empreendedores',
-        subtitle: 'Venda Imprimíveis Grátis e Atividades para Crianças Online',
-        description: `Educadores empreendedores criam produtos digitais para venda. Fichas de encontre e conte são populares em plataformas educacionais. Atividades de matemática têm alta demanda no mercado brasileiro.
-
-Crie pacotes de encontre e conte para venda em plataformas brasileiras. Desenvolva atividades para imprimir temáticas para cada estação. Exporte em 300 DPI para qualidade comercial profissional.
-
-Combine encontre e conte com desenhos para colorir em pacotes completos. Venda internacionalmente no Teachers Pay Teachers e Etsy.`,
-        quote: 'Minha assinatura se pagou no primeiro mês de vendas!',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // FAQ Section - Selected FAQs from find-and-count.md
@@ -375,68 +203,8 @@ Combine encontre e conte com desenhos para colorir em pacotes completos. Venda i
     showLessLabel: 'Mostrar menos',
     secureCheckout: 'Pagamento seguro',
     cancelAnytime: 'Cancele quando quiser',
-    items: [
-      {
-        id: '1',
-        question: 'Quanto custa o gerador de atividades grátis de encontre e conte?',
-        answer: 'O acesso ao gerador de encontre e conte está incluído no Pacote Essencial. A assinatura custa R$720 por ano ou R$72 por mês. Você recebe acesso a 10 geradores populares de atividades grátis de matemática e muito mais. Não há taxas por ficha gerada ou limite de downloads mensais. Crie atividades grátis ilimitadas durante toda sua assinatura ativa.',
-      },
-      {
-        id: '2',
-        question: 'Posso usar atividades grátis de encontre e conte para fins comerciais?',
-        answer: 'Sim, sua assinatura inclui licença comercial completa e irrestrita. Venda fichas de encontre e conte e atividades grátis com tabuada no Hotmart, Eduzz, Etsy ou Teachers Pay Teachers. Publique livros de atividades grátis para imprimir no Amazon KDP sem taxas extras. A licença comercial permite uso em qualquer plataforma brasileira ou internacional.',
-      },
-      {
-        id: '3',
-        question: 'Quais formatos de download estão disponíveis para atividades grátis para crianças?',
-        answer: 'Exporte suas fichas de encontre e conte em JPEG ou PDF de alta qualidade. Ambos os formatos têm resolução 300 DPI profissional para impressão nítida. Opção de escala de cinza disponível para economizar tinta em atividades grátis para educação infantil. Baixe tanto a ficha de atividade quanto o gabarito com respostas separadamente.',
-      },
-      {
-        id: '4',
-        question: 'Quantas atividades grátis de encontre e conte posso criar para crianças?',
-        answer: 'Não há limite de fichas durante sua assinatura ativa. Crie quantas atividades grátis de encontre e conte para coordenação motora precisar. Gere fichas diferentes todos os dias para sua turma inteira. Downloads ilimitados em JPEG e PDF sem restrições. Use o gerador quantas vezes quiser durante o ano letivo completo.',
-      },
-      {
-        id: '5',
-        question: 'Preciso de habilidades de design para criar atividades grátis para educação infantil?',
-        answer: 'Não, o gerador foi desenvolvido para professores sem experiência em design gráfico. Selecione imagens, configure a grade e clique em gerar para fichas prontas. Adicione elementos de texto com ferramentas simples e intuitivas. Interface em português brasileiro fácil de entender e usar. Qualquer professor consegue criar atividades grátis profissionais em minutos.',
-      },
-      {
-        id: '6',
-        question: 'Quais idiomas são suportados nas atividades grátis para crianças?',
-        answer: 'O gerador suporta 11 idiomas completos com interface e biblioteca traduzidas. Disponível em português brasileiro, inglês, alemão, francês, espanhol, italiano, holandês, sueco, dinamarquês, norueguês e finlandês. Crie atividades grátis de alfabetização e atividades vogais e alfabeto em qualquer idioma. Perfeito para escolas bilíngues e programas de imersão linguística no Brasil.',
-      },
-      {
-        id: '7',
-        question: 'Posso combinar imprimíveis grátis de encontre e conte com outras atividades?',
-        answer: 'Sim, o gerador oferece ferramentas de texto e edição completas. Adicione elementos de desenhos para colorir extras às suas fichas de contagem. Inclua campos para letra cursiva e pontilhado na mesma página de atividade. Personalize cada ficha de encontre e conte conforme sua necessidade pedagógica. Combine múltiplas habilidades em uma única atividade grátis integrada.',
-      },
-      {
-        id: '8',
-        question: 'Posso usar atividades grátis de encontre e conte na sala de aula?',
-        answer: 'Sua assinatura Pacote Essencial inclui uso ilimitado em sala de aula. Imprima quantas cópias precisar para seus alunos. Distribua atividades grátis de encontre e conte diariamente sem restrições. Use em qualquer contexto educacional institucional. Escolas públicas e privadas permitidas.',
-      },
-      {
-        id: '9',
-        question: 'Posso fazer upload de imagens próprias para criar atividades grátis para crianças?',
-        answer: 'O sistema aceita upload de imagens personalizadas. Carregue JPEG, PNG ou GIF do seu computador. Faça upload de múltiplos arquivos simultaneamente. Combine imagens próprias com a biblioteca do sistema. Use fotos de alunos para atividades grátis personalizadas. Adicione imagens temáticas de projetos escolares.',
-      },
-      {
-        id: '10',
-        question: 'Quanto tempo leva para criar uma atividade grátis de encontre e conte?',
-        answer: 'O processo completo leva menos de 3 minutos. Selecione imagens em 30 segundos. Configure a grade em mais 30 segundos. Gere e baixe em 2 minutos. Atividades grátis de encontre e conte profissionais prontas rapidamente. Comparado a 30-60 minutos de criação manual, a economia é enorme.',
-      },
-      {
-        id: '11',
-        question: 'As atividades grátis para educação infantil incluem gabarito?',
-        answer: 'Cada ficha gerada pode ter gabarito correspondente. Clique em "Gerar Gabarito" após criar a atividade grátis. O sistema destaca todos os objetos escondidos automaticamente com círculos coloridos. A quantidade correta é exibida ao lado de cada imagem. Baixe gabarito separadamente ou junto com a atividade.',
-      },
-      {
-        id: '12',
-        question: 'Posso cancelar minha assinatura a qualquer momento?',
-        answer: 'Sim, você pode cancelar sua assinatura a qualquer momento sem multas ou taxas. Continue usando o gerador até o fim do período já pago integralmente. Suas fichas de encontre e conte baixadas permanecem suas para sempre. Crie atividades enquanto sua assinatura estiver ativa. Reative quando quiser sem perder configurações ou preferências salvas.',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Pricing
@@ -483,40 +251,8 @@ Combine encontre e conte com desenhos para colorir em pacotes completos. Venda i
       securePayment: 'Pagamento seguro',
       cancelAnytime: 'Cancele quando quiser',
     },
-    items: [
-      {
-        id: '1',
-        slug: 'matching-app',
-        name: 'Associação',
-        category: 'Visual',
-        icon: '🔗',
-        description: 'Combine encontre e conte com atividades de associação para desenvolver observação visual e raciocínio lógico.',
-      },
-      {
-        id: '2',
-        slug: 'coloring',
-        name: 'Desenhos para Colorir',
-        category: 'Criativo',
-        icon: '🎨',
-        description: 'Adicione desenhos para colorir às suas fichas de contagem para atividades mais completas e envolventes.',
-      },
-      {
-        id: '3',
-        slug: 'addition',
-        name: 'Adição',
-        category: 'Matemática',
-        icon: '➕',
-        description: 'Expanda a contagem para operações de adição visual com imagens dos mesmos temas.',
-      },
-      {
-        id: '4',
-        slug: 'drawing-lines',
-        name: 'Grafomotricidade',
-        category: 'Coordenação',
-        icon: '✍️',
-        description: 'Desenvolva coordenação motora combinando encontre e conte com exercícios de traçado de linhas.',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 };
 

@@ -65,22 +65,8 @@ Full Tilgang inkluderer kommersielle rettigheter for print-on-demand. Selg dine 
     noPdfLabel: 'Ingen PDF tilgjengelig',
     freePdfCountLabel: '2 gratis nedlastinger',
     ofLabel: 'av',
-    items: [
-      {
-        id: '1',
-        worksheetSrc: '/samples/norwegian/crossword/sample-1.jpeg',
-        answerKeySrc: '/samples/norwegian/crossword/sample-1-answer.jpeg',
-        altText: 'Bildekryssord arbeidsark med bilder og rutenett for lesetrening på småskoletrinnet',
-        pdfDownloadUrl: '/samples/norwegian/crossword/sample-1.pdf',
-      },
-      {
-        id: '2',
-        worksheetSrc: '/samples/norwegian/crossword/sample-2.jpeg',
-        answerKeySrc: '/samples/norwegian/crossword/sample-2-answer.jpeg',
-        altText: 'Bildekryssord arbeidsark med ordforståelse oppgaver for oppgavehefter barn',
-        pdfDownloadUrl: '/samples/norwegian/crossword/sample-2.pdf',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Features Grid - FULL text from crossword.md feature sections
@@ -96,85 +82,8 @@ Full Tilgang inkluderer kommersielle rettigheter for print-on-demand. Selg dine 
       noHiddenFees: 'Ingen skjulte avgifter',
       cancelAnytime: 'Avbryt når som helst',
     },
-    items: [
-      {
-        id: '1',
-        icon: '⚡',
-        title: 'Lag Arbeidsark Gratis å Skrive Ut på 3 Klikk - Rask Bildekryssord Generator for Lesetrening',
-        description: `Generer profesjonelle bildekryssord uten designerferdigheter. Velg et tema eller individuelle bilder. Klikk "Generer" og kryssordet ditt er klart. Lastes ned som arbeidsark gratis å skrive ut hjemme eller på skolen.
-
-Systemet velger automatisk 8 bilder fra temaet ditt. Lager et 15×15 rutenett som passer perfekt på A4 eller Letter-format. Ordene plasseres smart slik at de krysser hverandre naturlig. Bildehintet viser hva elevene skal skrive.
-
-Hele prosessen tar under 3 minutter fra start til ferdig PDF. Perfekt for travle lærere som trenger raske løsninger. Lag oppgavehefter barn kan jobbe med selvstendig. Ingen opplæring nødvendig.`,
-        highlighted: false,
-      },
-      {
-        id: '2',
-        icon: '✏️',
-        title: 'Rediger Alt på Lesetrening Arbeidsark - Full Tilpasning av Matematikk Oppgaver og Bildekryssord',
-        description: `Hvert element på bildekryssord kan redigeres. Dra bilder til nye posisjoner. Endre størrelse på rutenett. Roter elementer fritt. Full kontroll over hele oppgavearketet.
-
-Legg til egne tekstfelt for instruksjoner. Endre farger på overskrifter. Juster plassering av bildehintet. Flytt rutenettet for bedre layout. Alt er redigerbart direkte på lerretet.
-
-Låsefunksjonen beskytter ferdige elementer. Lås rutenettet mens du justerer andre deler. Angre/Gjør om-knappene lar deg teste fritt. Lagrer automatisk alle endringer. Perfekt for å lage tilpassede arbeidsark gratis.`,
-        highlighted: false,
-      },
-      {
-        id: '3',
-        icon: '📤',
-        title: 'Last Opp Egne Bilder til Bokstaver Lære Skrive Arbeidsark - Personlige Bildekryssord',
-        description: `Last opp dine egne bilder for personaliserte kryssord. Støtter JPEG, PNG og GIF-formater. Velg flere filer samtidig. Kombiner egne bilder med biblioteksbilder.
-
-Benytt klassebilder for ord elevene kjenner. Last opp bilder fra skoleturer. Bruk elevenes tegninger som kryssordhintet. Dette gjør bokstaver lære skrive mer meningsfullt. Elevene får trene på ord fra sitt eget liv.
-
-Rediger bildene på lerretet etter opplasting. Endre størrelse og plassering. Kombiner med addisjon og subtraksjon-bilder fra biblioteket. Lag tematiske oppgavehefter barn finner relevante. Full fleksibilitet i bildevalg.`,
-        highlighted: false,
-      },
-      {
-        id: '4',
-        icon: '🌍',
-        title: 'Bildekryssord på 11 Språk - Flerspråklige Arbeidsark Gratis for Lesetrening og Ordforståelse',
-        description: `Grensesnittet støtter 11 språk inkludert norsk, engelsk, tysk, fransk og spansk. Bildebiblioteket har oversatte navn på alle 11 språk. Lag kryssord på elevenes morsmål eller andrespråk.
-
-For engelskundervisning lager du kryssord med engelske ord. For matematikk oppgaver på tysk bruker du tyske tallord. Bildenavnene tilpasser seg automatisk valgt språk. Perfekt for flerspråklige klasserom.
-
-Dette er kritisk for lærere i internasjonale skoler. Lag samme oppgave på flere språk raskt. Elevene får lesetrening på både norsk og engelsk. Støtter også finsk, svensk, dansk, nederlandsk, portugisisk og italiensk. Alle arbeidsark gratis å skrive ut på hvilket som helst språk.`,
-        highlighted: false,
-      },
-      {
-        id: '5',
-        icon: '💰',
-        title: 'Kommersiell Lisens for Bildekryssord - Selg Dine Oppgavehefter Barn på TPT og Etsy',
-        description: `Full Tilgang inkluderer print-on-demand lisens uten ekstra kostnader. Selg kryssordene dine på Teachers Pay Teachers. Last opp til Etsy som digitale nedlastinger. Bruk i Amazon KDP lavinnholdsbøker.
-
-Lærere tjener 5 000-50 000 kr månedlig på å selge arbeidsark. Lag tematiske pakker med fargeleggingsbilder barn og kryssord. Kombiner med matematikk oppgaver og tall og telling-aktiviteter. Lag oppgavehefter barn kan bruke hele året.
-
-Ingen krav om kreditering eller attribusjon. 300 DPI kvalitet er perfekt for kommersiell utskrift. Full tilgang til alle 33 generatorer for kr 1 800 årlig. Spar sammenlignet med konkurrenter som krever ekstra for lisens. Begynn å selge samme dag som du abonnerer.`,
-        highlighted: true,
-      },
-      {
-        id: '6',
-        icon: '🎨',
-        title: '3000+ Bildebibliotek for Finmotorikk Øvelser og Leseforståelse Arbeidsark',
-        description: `Over 3000 barnvennlige bilder organisert etter tema. Dyr, mat, transport, klær, leker og mer. Søkefunksjon finner bilder raskt. Velg tema for automatisk generering eller individuelle bilder for full kontroll.
-
-Alle bilder er designet for småskoletrinnet. Tydelige konturer perfekt for unge elever. Fargerike illustrasjoner holder interessen oppe. Kombineres enkelt med finmotorikk øvelser i samme pakke.
-
-Biblioteket inkluderer også bakgrunner og rammer. Legg til sesongbakgrunner for jul, påske, høst. Grenser med skolemotiv gjør arbeidsarkene mer profesjonelle. Alt inkludert i Full Tilgang uten ekstra kostnader. Lag leseforståelse-oppgaver som ser profesjonelle ut.`,
-        highlighted: false,
-      },
-      {
-        id: '7',
-        icon: '🖨️',
-        title: 'Profesjonell 300 DPI Kvalitet for Bildekryssord - PDF og JPEG Nedlasting',
-        description: `Alle kryssord lastes ned i høy oppløsning 300 DPI. Perfekt for utskrift på hjemme- eller skoleskrivere. Skarp tekst og klare bilder. Utskriften ser profesjonell ut hver gang.
-
-Velg mellom PDF og JPEG-format. PDF bevarer vektorgrafikk for skarpest mulig kvalitet. JPEG er ideelt for deling på sosiale medier. Gråtonealternativ sparer blekkostnader. Last ned både oppgaveark og fasit samtidig.
-
-Letter Portrait, Letter Landscape, A4 Portrait og A4 Landscape støttes. Tilpasset sidestørrelse for spesielle behov. Arbeidsarkene passer perfekt i mapper og oppgavehefter barn bruker på skolen. Last ned ubegrenset uten per-ark kostnader med Full Tilgang.`,
-        highlighted: true,
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // How-To Guide - FULL text from crossword.md step sections
@@ -266,92 +175,8 @@ Med Full Tilgang kan du laste ned ubegrenset uten per-ark kostnader. Lag nye mat
     badgeText: 'Hvem Er Det For',
     readMoreLabel: 'Les mer',
     showLessLabel: 'Vis mindre',
-    items: [
-      {
-        id: '1',
-        icon: '👶',
-        title: 'Barnehagepedagoger og Førskolelærere - Bokstaver Lære Skrive og Tall og Telling Arbeidsark',
-        subtitle: 'Språkstimulering og tidlig ordforståelse for førskolebarn',
-        description: `Barnehagepedagoger bruker bildekryssord til språkstimulering før skolestart. Lag enkle kryssord med 3-5 bokstavers ord. Velg tema som dyr, mat eller leker barna kjenner. Dette gir meningsfull bokstaver lære skrive-trening.
-
-Bruk bildebiblioteket til å lage tall og telling arbeidsark. Velg bilder av tallsymboler eller objekter for telling. Lag kryssord med tallord som "en", "to", "tre". Dette bygger tallforståelse gjennom visuell læring.
-
-Kombiner kryssord med fargeleggingsbilder barn i samme pakke. Print kryssordet på den ene siden, fargeleggingsbilder barn på den andre. Perfekt for avdelingens stilletidsaktiviteter. Førskolebarn får øve både ordgjenkjenning og finmotorikk.
-
-Full Tilgang lar deg lage ubegrenset med arbeidsark gratis å skrive ut. Lag nye oppgaver hver uke til de eldste barna. Bygg opp en samling tilpasset førskolens årsplan. Ingen ekstra kostnader utover abonnementet på kr 1 800 årlig.`,
-        quote: 'Barna elsker å finne ordene i kryssordene!',
-      },
-      {
-        id: '2',
-        icon: '👩‍🏫',
-        title: 'Småskolelærere 1. til 3. Trinn - Lesetrening og Matematikk Oppgaver for Småskoletrinnet',
-        subtitle: 'Daglige bildekryssord aktiviteter tilpasset hvert klassetrinn',
-        description: `Lærere på småskoletrinnet (1. trinn til 4. trinn) bruker bildekryssord til lesetrening på alle nivåer. Lag enkle kryssord for 1. trinn med 3-4 bokstavers ord. 2. trinn får lengre ord og mer komplekse mønstre. 3. trinn jobber med sammensatte ord og tematiske kryssord.
-
-Integrer matematikk oppgaver ved å bruke tallord, former eller regneoperasjoner. Lag kryssord med ord som "pluss", "minus", "sirkel", "trekant". Dette forsterker matematikkvokabularet gjennom lesetrening. Perfekt for tverrfaglig undervisning.
-
-Bruk gangetabellen arbeidsark som kryssordtema for 3. trinn. Lag kryssord med ord som "dobbel", "trippel", eller tallord. Kombiner med addisjon og subtraksjon arbeidsark for komplett talltrening. Dette gir variert matematikkøving.
-
-Last opp klassebilder fra skoleturer eller prosjekter. Lag kryssord med ord fra naturfag eller samfunnsfag. Elevene får jobbe med fagspesifikt ordforråd. Lærere rapporterer at personaliserte arbeidsark gratis gir høyere engasjement.`,
-        quote: 'Bildekryssord gjør norsktimene mye mer engasjerende for elevene.',
-      },
-      {
-        id: '3',
-        icon: '🏠',
-        title: 'Hjemmeundervisningsforeldre - Tilpassede Oppgavehefter Barn og Fargeleggingsbilder Barn',
-        subtitle: 'Fleksible bildekryssord aktiviteter for hjemmeundervisning',
-        description: `Hjemmeundervisningsforeldre setter stor pris på fleksibiliteten til å lage tilpassede arbeidsark gratis. Lag kryssord som matcher barnets interesser. Barnet elsker dinosaurer? Lag dinosaurkryssord. Interessert i verdensrommet? Lag romfartskryssord.
-
-Full Tilgang gir tilgang til alle 33 generatorer. Kombiner bildekryssord med finmotorikk øvelser, fargeleggingsbilder barn og skriveoppgaver. Bygg komplette ukentlige oppgavehefter barn. Dette sparer hundrevis av timer sammenlignet med å finne ressurser fra forskjellige kilder.
-
-Bruk kryssordene til flernivåundervisning når du har barn på forskjellige trinn. Lag lettere kryssord for yngre søsken og mer utfordrende for eldre. Samme verktøy, ulike vanskelighetsgrader. Perfekt for familier med flere barn.
-
-Kommersielle rettigheter lar deg selge overskuddsmateriell du lager. Mange hjemmeundervisningsforeldre tjener ekstra inntekt på Teachers Pay Teachers. Lag tematiske pakker med lesetrening og matematikk oppgaver.`,
-        quote: 'Endelig kan jeg lage perfekt tilpassede oppgaver for hvert av barna mine.',
-      },
-      {
-        id: '4',
-        icon: '🌍',
-        title: 'Engelsklærere og Fremmedspråklærere - Flerspråklige Arbeidsark Gratis og Bokstaver Lære Skrive',
-        subtitle: 'Støtt minoritetsspråklige elever med morsmålsoppgaver',
-        description: `Engelsklærere på norske skoler bruker bildekryssord til vokabulartrening. Bytt språk til engelsk i generatoren. Bildenavnene endres automatisk til engelsk. Elevene får bokstaver lære skrive engelske ord med visuell støtte.
-
-Lag tematiske kryssord som matcher pensum. Farger, tall, dyr, mat, klær - alle grunnleggende temaer dekkes. Dette gir gjentatt eksponering for nøkkelord. Visuell læring styrker ordforståelsen bedre enn lister.
-
-Støtten for 11 språk gjør verktøyet verdifullt for flerspråklige klasserom. Lag samme kryssord på norsk og engelsk for sammenligning. Eller lag kryssord på elevenes morsmål for inkluderende undervisning. Tysk, fransk, spansk, italiensk, portugisisk - alle støttes.
-
-Kombiner med lesetrening på norsk for tospråklig utvikling. Lag oppgavehefter barn kan ta med hjem til flerspråklige familier. Foreldre ser verdien av arbeidsark gratis på flere språk.`,
-        quote: 'Mine flerspråklige elever elsker å bruke bildekryssord på sitt eget språk.',
-      },
-      {
-        id: '5',
-        icon: '💜',
-        title: 'Spesialpedagoger - Tilpassede Lesetrening og Finmotorikk Øvelser Arbeidsark',
-        subtitle: 'Individualiser oppgaver for elever med spesielle behov',
-        description: `Spesialpedagoger trenger høy grad av tilpasning. Bildekryssord-generatoren gir full kontroll over vanskelighetsgrad. Velg enkle 3-4 bokstavers ord for elever som strever med lesing. Bruk store, tydelige rutenett.
-
-Last opp bilder av konkrete objekter fra elevens hverdag. Matpakke, sekk, sko, blyant - ord eleven bruker daglig. Dette gjør bokstaver lære skrive mer relevant. Meningsfulle ord er lettere å huske enn tilfeldige ord.
-
-Kombiner kryssord med andre arbeidsark gratis fra plattformen. Lag en pakke med finmotorikk øvelser, fargeleggingsbilder barn og enkle matematikk oppgaver. Varierte aktiviteter holder elevens fokus lenger. Spesialpedagoger rapporterer bedre resultater med multimodale oppgaver.
-
-Lås rutenettet og bildehintet før utskrift hvis eleven blir distrahert av for mye visuelt. Juster tekststørrelse for elever med synsvansker. Full redigerbarhet betyr full tilpasning.`,
-        quote: 'Jeg kan endelig lage perfekt tilpassede oppgaver til hver enkelt elev.',
-      },
-      {
-        id: '6',
-        icon: '💰',
-        title: 'Lærer-entreprenører - Selg Gangetabellen Arbeidsark og Oppgavehefter Barn på TPT',
-        subtitle: 'Bygg ekstrainntekt på Teachers Pay Teachers og Etsy',
-        description: `Lærere som selger på Teachers Pay Teachers (TPT) eller Etsy tjener godt på bildekryssord. Lag tematiske pakker med 10-20 kryssord. Sesongpakker (jul, påske, høst) selger spesielt godt. Kombiner med addisjon og subtraksjon arbeidsark for komplett tilbud.
-
-Full Tilgang inkluderer print-on-demand lisens på alle 33 generatorer. Lag kryssord, fargeleggingsbilder barn, matematikk oppgaver og finmotorikk øvelser. Kombiner i digitale produktpakker. Selgere rapporterer 5 000-50 000 kr månedlig inntekt.
-
-300 DPI kvalitet er essensiell for kommersiell suksess. Kjøpere forventer skarp utskrift. Vår generator sikrer profesjonell kvalitet hver gang. Ingen tilleggsprosessering nødvendig. Lag, last ned, last opp til TPT - ferdig.
-
-Lag gangetabellen arbeidsark for 3. trinn som populære produkter. Kombiner med lesetrening for tverrfaglige pakker. Bruk nøkkelord som "tall og telling arbeidsark" og "oppgavehefter barn" i produkttitlene. Mange selgere bygger heltidsvirksomheter på slike digitale produkter.`,
-        quote: 'Abonnementet betalte seg selv tilbake første måneden gjennom salg.',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // FAQ Section - From crossword.md
@@ -365,68 +190,8 @@ Lag gangetabellen arbeidsark for 3. trinn som populære produkter. Kombiner med 
     showLessLabel: 'Vis mindre',
     secureCheckout: 'Sikker betaling',
     cancelAnytime: 'Avbryt når som helst',
-    items: [
-      {
-        id: '1',
-        question: 'Er Denne Bildekryssord-Generatoren Virkelig Gratis å Bruke for Arbeidsark Gratis?',
-        answer: 'Bildekryssord-generatoren krever Full Tilgang-abonnement som koster kr 1 800 årlig eller kr 188 månedlig. Abonnementet gir ubegrenset tilgang til bildekryssord-opprettelse uten kostnader per arbeidsark. Generer så mange matematikk oppgaver og lesetrening-aktiviteter du trenger uten tilleggskostnader. Full Tilgang inkluderer alle 33 generatorer på plattformen. Du får ikke bare bildekryssord, men også fargeleggingsbilder barn, finmotorikk øvelser, gangetabellen arbeidsark og mye mer. Grunnpakke koster kr 1 075 årlig og inkluderer 10 populære generatorer. Full Tilgang inkluderer alle 33 generatortyper inkludert bildekryssord. Begge abonnementsnivåene inkluderer kommersiell lisens, støtte for 11 språk og profesjonell 300 DPI kvalitetseksport.',
-      },
-      {
-        id: '2',
-        question: 'Kan Jeg Skrive Ut Bildekryssord og Fargeleggingsbilder Barn Hjemme på en Vanlig Skriver?',
-        answer: 'Ja, alle bildekryssord er designet for utskrift på vanlige hjemme- og skoleskrivere. Velg A4 eller Letter sidestørrelse før generering. Filene lastes ned som PDF eller JPEG i 300 DPI oppløsning. Dette sikrer skarp tekst og klare bilder på enhver skriver. Gråtonealternativet sparer blekkostnader ved å konvertere alt til gråtoner før nedlasting. Dette er spesielt nyttig når du printer mange kopier av oppgavehefter barn. Kvaliteten forblir profesjonell selv i svart-hvitt. Fargeleggingsbilder barn fungerer utmerket i gråtone. Standard A4-papir fungerer perfekt. PDF-formatet bevarer layout nøyaktig.',
-      },
-      {
-        id: '3',
-        question: 'Trenger Jeg Designferdigheter for å Lage Matematikk Oppgaver og Bokstaver Lære Skrive Arbeidsark?',
-        answer: 'Nei, null designferdigheter kreves. Bildekryssord-generatoren er bygget for lærere uten grafisk bakgrunn. Velg bilder, klikk generer, last ned. Hele prosessen er automatisert. Ingen Adobe-programvare eller designkunnskap nødvendig. Systemet håndterer all layout automatisk. Rutenett tilpasses sidestørrelse. Bildehintet plasseres optimalt. Overskrifter formateres profesjonelt. Du får lærerkvalitet resultat uten å jobbe som designer. Perfekt for travle lærere som trenger matematikk oppgaver raskt. Mange lærere lager første kryssord på under 5 minutter.',
-      },
-      {
-        id: '4',
-        question: 'Kan Jeg Bruke Bildekryssord og Oppgavehefter Barn i Klasserommet med Elevene?',
-        answer: 'Ja, Full Tilgang-abonnement inkluderer ubegrenset klasserombruk. Skriv ut så mange kopier du trenger til elevene. Bruk i hele barnehagen, skolen eller hjemmeskolen. Ingen begrensning på antall elever eller kopier. Del digitale filer med kolleger på samme skole. Lag oppgavehefter barn for hele trinnet. Koordiner med andre lærere om felles ressurser. Bruk bildekryssord i stasjonsundervisning. Lag forskjellige vanskelighetsgrader for differensiering. Send arbeidsark hjem som lekser eller ekstraøving.',
-      },
-      {
-        id: '5',
-        question: 'Hvilke Språk er Tilgjengelig for Bildekryssord og Bokstaver Lære Skrive Arbeidsark?',
-        answer: 'Grensesnittet støtter 11 språk: norsk, engelsk, tysk, fransk, spansk, italiensk, portugisisk (brasiliansk), nederlandsk, svensk, dansk og finsk. Bildebiblioteket har bildnavn på alle 11 språk. Bytt språk i ett klikk for å generere kryssord på hvilket som helst språk. Dette er kritisk for engelsklærere som trenger både norske og engelske ressurser. Lag samme bokstaver lære skrive-aktivitet på begge språk. Internasjonale skoler drar stor nytte av flerspråkstøtte. Tospråklige programmer bruker verktøyet til begge språk.',
-      },
-      {
-        id: '6',
-        question: 'Kan Jeg Selge Bildekryssord og Gangetabellen Arbeidsark Jeg Lager med Denne Generatoren?',
-        answer: 'Ja, Full Tilgang inkluderer full kommersiell print-on-demand lisens uten ekstra kostnad. Selg kryssordene dine på Teachers Pay Teachers, Etsy eller Amazon KDP. Ingen krav om kreditering eller royalties tilbake til oss. Produktene er 100% dine. Lag tematiske pakker med gangetabellen arbeidsark for 3. trinn. Kombiner med tall og telling aktiviteter og addisjon og subtraksjon arbeidsark. TPT-selgere rapporterer 5 000-50 000 kr månedlig inntekt fra digitale produkter. Ingen lisensgebyr utover kr 1 800 årlige abonnement.',
-      },
-      {
-        id: '7',
-        question: 'Hvordan Tilpasser Jeg Bildekryssord og Tall og Telling Arbeidsark for Mine Elever?',
-        answer: 'Full redigerbarhet er kjernen i verktøyet. Etter generering kan du endre alt. Dra bildehintet til nye posisjoner. Endre størrelse på rutenettet. Roter elementer. Legg til egne tekstfelt med instruksjoner. Juster farger og skrifter. Lag tall og telling arbeidsark ved å velge talltema fra biblioteket. For differensiering lag samme kryssord i tre versjoner. Lett versjon med 3-4 bokstavers ord for 1. trinn. Medium versjon med 5-6 bokstavers ord for 2. trinn. Vanskelig versjon med lengre ord for 3. trinn.',
-      },
-      {
-        id: '8',
-        question: 'Hvilke Aldersgrupper Fungerer Best med Bildekryssord og Finmotorikk Øvelser?',
-        answer: 'Bildekryssord passer barnehage (5-6 år) til 3. trinn (8-9 år). Barnehageversjoner bruker 3-4 bokstavers ord med tydelige bilder. 1. trinn får 4-5 bokstavers ord. 2.-3. trinn håndterer lengre og mer komplekse ord. Førskolebarn kan jobbe med svært enkle bildekryssord under veiledning. Småskoletrinnet (1.-4. trinn) er den primære målgruppen. Spesialundervisning tilpasser etter individnivå fremfor alder. Voksne norskinnlærere bruker også bildekryssord for grunnleggende vokabular.',
-      },
-      {
-        id: '9',
-        question: 'Kan Jeg Laste Opp Mine Egne Bilder til Addisjon og Subtraksjon Arbeidsark og Bildekryssord?',
-        answer: 'Ja, opplastning av egne bilder er en nøkkelfunksjon. Klikk "Last opp egne bilder" i sidepanelet. Velg flere filer samtidig. Støtter JPEG, PNG og GIF-formater. Opplastede bilder vises i forhåndsvisning og kan kombineres med biblioteksbilder. For addisjon og subtraksjon arbeidsark last opp bilder av konkrete objekter. Bruk klassebilder fra skoleturer for tematiske kryssord. Last opp elevtegninger for ekstra motivasjon.',
-      },
-      {
-        id: '10',
-        question: 'Hvor Lang Tid Tar Det å Lage Bildekryssord og Lesetrening Arbeidsark?',
-        answer: 'Fra start til ferdig PDF tar det under 3 minutter. Velg tema (30 sekunder). Klikk generer (5 sekunder). Tilpass eventuelt layout (1 minutt). Last ned PDF (10 sekunder). Total tid: 2-3 minutter for grunnleggende kryssord. Mer tilpassede lesetrening-arbeidsark tar 5-10 minutter. Sammenlign med tradisjonell metode som tar 60+ minutter. Vår generator er 20x raskere. Erfarne brukere rapporterer 1-2 minutter per kryssord.',
-      },
-      {
-        id: '11',
-        question: 'Inkluderer Bildekryssord og Fargeleggingsbilder Barn Fasit for Læreren?',
-        answer: 'Ja, generer fasit separat ved å klikke "Generer" og velge "Fasit". Samme layout som elevkopien, men alle bokstaver fylt inn. Last ned både oppgaveark og fasit som separate PDF-filer. Fasiten er essensiell for effektiv retting. Skriv ut én lærerkopi. Bruk den til å sjekke elevarbeid raskt. Eller vis fasit på projektor for elever kan selv-rette. Fasiten genereres automatisk og er alltid 100% korrekt.',
-      },
-      {
-        id: '12',
-        question: 'Kan Jeg Lage Fagspesifikke Bildekryssord om Matematikk Oppgaver, Gangetabellen og Bokstaver Lære Skrive?',
-        answer: 'Absolutt. Bildebiblioteket dekker mange fagtema. For matematikk oppgaver velg temaer med former, tallsymboler, geometri. Lag kryssord med ord som "trekant", "firkant", "sirkel". For gangetabellen arbeidsark lag kryssord med multiplikasjonsord. For bokstaver lære skrive velg bilder som begynner med målbokstaven. Lag "B"-kryssord med bil, ball, banan, blomst. Naturfag-kryssord bruk dyr, planter, vær-tema. Full Tilgang gir deg verktøyet. Du bestemmer faglig innhold.',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Pricing
@@ -497,56 +262,8 @@ Lag gangetabellen arbeidsark for 3. trinn som populære produkter. Kombiner med 
       securePayment: 'Sikker betaling',
       cancelAnytime: 'Avbryt når som helst',
     },
-    items: [
-      {
-        id: '1',
-        slug: 'coloring',
-        name: 'Fargelegging',
-        category: 'Kunst og Kreativitet',
-        icon: '🎨',
-        description: 'Kombiner bildekryssord med fargeleggingsbilder barn kan fargelegge etter å ha løst oppgavene. Integrert læring og finmotorikk øvelser i samme arbeidsark.',
-      },
-      {
-        id: '2',
-        slug: 'word-search',
-        name: 'Ordsøk',
-        category: 'Språk',
-        icon: '🔍',
-        description: 'Kombiner bildekryssord med ordsøk for komplett ordforståelse og lesetrening. Elevene søker etter ordene de lærte i kryssordet.',
-      },
-      {
-        id: '3',
-        slug: 'word-scramble',
-        name: 'Ordmiks',
-        category: 'Språk',
-        icon: '🔤',
-        description: 'Kombiner bildekryssord med ordmiks for bokstavforståelse. Elevene løser kryssordet først, deretter mikser opp de samme ordene.',
-      },
-      {
-        id: '4',
-        slug: 'find-and-count',
-        name: 'Finn og Tell',
-        category: 'Matematikk',
-        icon: '🔢',
-        description: 'Kombiner bildekryssord med tall og telling for matematikkvokabular. Elevene teller objekter og skriver tallordene i kryssordet.',
-      },
-      {
-        id: '5',
-        slug: 'matching-app',
-        name: 'Kobling',
-        category: 'Logikk',
-        icon: '🔗',
-        description: 'Kombiner bildekryssord med koblingsspill for ordgjenkjenning. Perfekt for å styrke leseferdigheter og visuell diskriminering.',
-      },
-      {
-        id: '6',
-        slug: 'writing-app',
-        name: 'Skriveøvelser',
-        category: 'Språk',
-        icon: '✏️',
-        description: 'Kombiner bildekryssord med bokstaver lære skrive aktiviteter. Barn løser kryssordet og øver på å skrive ordene.',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 };
 

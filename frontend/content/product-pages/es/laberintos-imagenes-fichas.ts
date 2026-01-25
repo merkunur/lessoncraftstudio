@@ -96,43 +96,8 @@ Los maestros crean fichas gratis con cualquier tema. Practica el reconocimiento 
     badgeText: 'Ejemplos Gratis',
     downloadingLabel: 'Descargando...',
     ofLabel: 'de',
-    items: [
-      {
-        id: '1',
-        worksheetSrc: '/samples/spanish/picture-path/sample-1.jpeg',
-        answerKeySrc: '/samples/spanish/picture-path/sample-1-answer.jpeg',
-        altText: 'Fichas de laberintos gratis para imprimir - camino visual con imágenes para preescolar',
-        pdfDownloadUrl: '/samples/spanish/picture-path/sample-1.pdf',
-      },
-      {
-        id: '2',
-        worksheetSrc: '/samples/spanish/picture-path/sample-2.jpeg',
-        answerKeySrc: '/samples/spanish/picture-path/sample-2-answer.jpeg',
-        altText: 'Ficha de laberinto clásico gratis - ejercicio de grafomotricidad para fichas infantil',
-        pdfDownloadUrl: '/samples/spanish/picture-path/sample-2.pdf',
-      },
-      {
-        id: '3',
-        worksheetSrc: '/samples/spanish/picture-path/sample-3.jpeg',
-        answerKeySrc: '/samples/spanish/picture-path/sample-3-answer.jpeg',
-        altText: 'Fichas para imprimir de laberintos - elige el camino correcto para primaria',
-        pdfDownloadUrl: '/samples/spanish/picture-path/sample-3.pdf',
-      },
-      {
-        id: '4',
-        worksheetSrc: '/samples/spanish/picture-path/sample-4.jpeg',
-        answerKeySrc: '/samples/spanish/picture-path/sample-4-answer.jpeg',
-        altText: 'Material educativo gratis de laberintos con imágenes - ficha para preescolar',
-        pdfDownloadUrl: '/samples/spanish/picture-path/sample-4.pdf',
-      },
-      {
-        id: '5',
-        worksheetSrc: '/samples/spanish/picture-path/sample-5.jpeg',
-        answerKeySrc: '/samples/spanish/picture-path/sample-5-answer.jpeg',
-        altText: 'Ficha gratis de laberintos para niños - ejercicios de lectoescritura visual',
-        pdfDownloadUrl: '/samples/spanish/picture-path/sample-5.pdf',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Features Grid
@@ -148,57 +113,8 @@ Los maestros crean fichas gratis con cualquier tema. Practica el reconocimiento 
       noHiddenFees: 'Sin cargos ocultos',
       cancelAnytime: 'Cancela cuando quieras',
     },
-    items: [
-      {
-        id: '1',
-        icon: '⚡',
-        title: 'Crea Fichas de Laberintos en Tres Modos de Juego - Fichas Gratis para Fichas Preescolar y Fichas Infantil',
-        description: 'El generador ofrece tres modos diferentes de actividad. El modo Camino Visual conecta imágenes en secuencia desde inicio hasta fin. Perfecto para fichas infantil que trabajan seguimiento visual. Los estudiantes siguen el camino correcto entre las imágenes. El modo Laberinto Clásico genera laberintos tradicionales de cuadrícula. Incluye objetos coleccionables a lo largo del camino de solución. Ideal para ejercicios matemáticas que practican conteo. Configura tamaño de cuadrícula desde 12×12 hasta 15×15. El modo Elige el Camino Correcto presenta múltiples rutas. Solo una ruta es correcta desde inicio hasta fin. Selecciona dirección: arriba-abajo, abajo-arriba, izquierda-derecha o derecha-izquierda. Excelente para fichas gratis de razonamiento lógico.',
-        highlighted: false,
-      },
-      {
-        id: '2',
-        icon: '✏️',
-        title: 'Edita Todo en Tu Lienzo Digital - Fichas para Imprimir Personalizadas con Lectoescritura y Grafomotricidad',
-        description: 'El lienzo digital permite personalización completa de tus fichas gratis. Arrastra cualquier imagen a nueva posición. Gira elementos para mejor composición visual. Escala imágenes más grandes o más pequeñas según necesites. Bloquea elementos que no quieres mover accidentalmente. Elimina imágenes que no funcionan. Cambia colores de paredes del laberinto. Ajusta grosor de líneas desde 1 hasta 10 píxeles. Agrega texto personalizado para instrucciones. Cambia tamaño de fuente para fichas infantil. Selecciona entre 7 familias tipográficas diferentes. Ajusta color y contorno del texto.',
-        highlighted: false,
-      },
-      {
-        id: '3',
-        icon: '📤',
-        title: 'Sube Tus Propias Imágenes - Material Educativo Gratis Personalizado con Fichas de Matemáticas y Dibujos para Colorear',
-        description: 'Sube fotos de tus estudiantes para fichas preescolar personalizadas. Importa imágenes de tu unidad temática actual. Usa fotos de excursiones escolares. Convierte cualquier imagen en elemento de laberinto. El sistema acepta múltiples archivos simultáneamente. Formatos compatibles incluyen JPEG, PNG y GIF. Tus imágenes se combinan con la biblioteca de 3000+ imágenes. Crea fichas para imprimir totalmente únicas. Usa imágenes propias como punto de inicio del laberinto. Colócalas como destino final. Úsalas a lo largo del camino correcto. O agrégalas como elementos distractores.',
-        highlighted: false,
-      },
-      {
-        id: '4',
-        icon: '🌍',
-        title: 'Fichas de Laberintos en 11 Idiomas - Material Educativo Gratis Multilingüe para Fichas Infantil',
-        description: 'La interfaz del generador funciona en 11 idiomas completos. Español, inglés, alemán, francés, italiano y portugués brasileño. Incluye holandés, sueco, danés, noruego y finlandés. Cambia idioma con un clic. La biblioteca de imágenes usa nombres en tu idioma seleccionado. Las imágenes muestran vocabulario apropiado culturalmente. Perfecto para maestros de español como segunda lengua. Ideal para programas de inmersión dual. Crea fichas gratis bilingües para estudiantes multiculturales. Combina español con inglés en una misma actividad.',
-        highlighted: false,
-      },
-      {
-        id: '5',
-        icon: '💰',
-        title: 'Licencia Comercial Incluida - Vende Tus Fichas de Matemáticas Dibujos para Colorear y Fichas Preescolar',
-        description: 'Tu suscripción Acceso Completo incluye licencia comercial de impresión bajo demanda. Vende tus fichas para imprimir en Teachers Pay Teachers. Lista productos en Etsy. Publica en Amazon KDP. Sin cargos adicionales de licenciamiento más allá de tu suscripción. Crea catálogos completos de fichas gratis para vender. Diseña paquetes temáticos de ejercicios matemáticas. Ofrece colecciones de grafomotricidad para preescolar. La calidad profesional de 300 DPI asegura productos comerciales excelentes.',
-        highlighted: true,
-      },
-      {
-        id: '6',
-        icon: '🎨',
-        title: 'Biblioteca de Más de 3000 Imágenes - Fichas para Imprimir con Números Abecedario y Material Educativo Gratis',
-        description: 'Accede a más de 3000 imágenes infantiles de alta calidad. Organizadas por temas educativos relevantes. Animales, formas, colores, números, letras y mucho más. Búsqueda por palabra clave en tu idioma. Las imágenes funcionan perfectamente para fichas preescolar. Tamaño apropiado para fichas infantil. Colores brillantes que atraen atención. Diseños simples que los niños reconocen fácilmente. Define tipo de imagen: inicio, fin, camino correcto, distractor o decoración. El generador usa cada tipo apropiadamente en el laberinto.',
-        highlighted: false,
-      },
-      {
-        id: '7',
-        icon: '🖨️',
-        title: 'Calidad Profesional de 300 DPI - Descarga Fichas Gratis en PDF y JPEG para Colorear',
-        description: 'Cada ficha para imprimir se exporta en resolución profesional de 300 DPI. Perfecta para impresión casera en cualquier impresora. Ideal para impresión comercial de alta calidad. Las imágenes se ven nítidas y claras. Descarga en formato PDF para documentos multipágina. O elige JPEG para archivos de imagen individual. La opción de escala de grises convierte actividades de colorear. Ahorra tinta de color al imprimir. Cada descarga incluye versión de ejercicio y clave de respuestas.',
-        highlighted: true,
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // How-To Guide
@@ -260,56 +176,8 @@ Los maestros crean fichas gratis con cualquier tema. Practica el reconocimiento 
     badgeText: 'Para Quién Es',
     readMoreLabel: 'Leer más',
     showLessLabel: 'Ver menos',
-    items: [
-      {
-        id: '1',
-        icon: '👩‍🏫',
-        title: 'Maestros de Preescolar',
-        subtitle: 'Fichas Infantil con Abecedario Grafomotricidad y Números',
-        description: 'Los maestros de preescolar encuentran el generador invaluable. Los niños de 3 a 6 años adoran laberintos con imágenes. Las actividades desarrollan seguimiento visual esencial. Preparan a los estudiantes para lectura y escritura. Crea fichas gratis de reconocimiento del abecedario. Coloca letras a lo largo del camino del laberinto. Los niños identifican letras mientras navegan. Las actividades de grafomotricidad mejoran control motor fino. Los laberintos requieren seguimiento cuidadoso con el dedo. Prepara músculos de la mano para escritura.',
-        quote: '¡Los laberintos transformaron mis centros de aprendizaje!',
-      },
-      {
-        id: '2',
-        icon: '📚',
-        title: 'Maestros de Primaria Primer a Tercer Grado',
-        subtitle: 'Ejercicios Matemáticas Lectoescritura y Tablas de Multiplicar',
-        description: 'Los docentes de primaria usan laberintos para refuerzo de habilidades. Primer grado practica conceptos básicos de lectoescritura. Segundo grado trabaja ejercicios matemáticas más complejos. Tercer grado integra tablas de multiplicar con navegación visual. Las actividades de lectoescritura avanzan más allá del abecedario básico. Crea laberintos donde los estudiantes encuentran palabras específicas. Los ejercicios matemáticas integran operaciones en los laberintos. Coloca problemas de suma a lo largo del camino.',
-        quote: 'Mis estudiantes completan fichas de laberintos cada mañana con entusiasmo.',
-      },
-      {
-        id: '3',
-        icon: '🏠',
-        title: 'Familias que Educan en Casa',
-        subtitle: 'Material Educativo Gratis con Fichas de Matemáticas Abecedario y Dibujos para Colorear',
-        description: 'Los padres que educan en casa valoran la versatilidad del generador. Enseñar múltiples niveles de grado simultáneamente. Crear fichas gratis personalizadas para cada hijo. Un solo recurso sirve a toda la familia. Diseña lecciones temáticas completas con laberintos integrados. Unidad de océano? Crea laberintos con animales marinos. Las actividades de lectoescritura se adaptan al ritmo individual. Los ejercicios matemáticas refuerzan conceptos de currículo actual.',
-        quote: 'Una suscripción cubre las necesidades educativas de todos mis hijos.',
-      },
-      {
-        id: '4',
-        icon: '🌍',
-        title: 'Maestros de Español como Segunda Lengua y Aulas Bilingües',
-        subtitle: 'Fichas Infantil Multilingües con Abecedario y Lectoescritura',
-        description: 'Los maestros de ESL encuentran valor único en las capacidades multilingües. La biblioteca de imágenes funciona en 11 idiomas. Vocabulario apropiado en español o inglés. Cambia idioma según objetivos de lección. Crea actividades de lectoescritura bilingües comparando idiomas. Laberinto con palabras en español. Versión paralela con traducciones al inglés. Los estudiantes comparan estructuras de palabras. El abecedario en español difiere del inglés. Crea laberintos que destacan estas diferencias.',
-        quote: 'Las fichas bilingües conectan vocabulario con aprendizaje visual perfectamente.',
-      },
-      {
-        id: '5',
-        icon: '🎯',
-        title: 'Maestros de Educación Especial',
-        subtitle: 'Fichas Preescolar Diferenciadas con Grafomotricidad y Números',
-        description: 'Los especialistas en educación especial requieren adaptación extrema. Cada estudiante tiene necesidades únicas. El generador permite personalización total para acomodar diferencias. Las actividades de grafomotricidad se ajustan por habilidad motora. Caminos anchos para estudiantes con coordinación limitada. Paredes gruesas que definen claramente el camino. Los estudiantes con procesamiento visual lento necesitan diseños simples. Practica números con estudiantes que aprenden a ritmo diferente. Las fichas para imprimir visuales benefician estudiantes no verbales.',
-        quote: 'Los laberintos adaptados mantienen a mis estudiantes enfocados mucho más tiempo.',
-      },
-      {
-        id: '6',
-        icon: '💼',
-        title: 'Maestros Emprendedores',
-        subtitle: 'Vender Fichas de Matemáticas Tablas de Multiplicar y Dibujos para Colorear',
-        description: 'Los maestros emprendedores construyen negocios vendiendo fichas para imprimir. Teachers Pay Teachers, Etsy y Amazon KDP son mercados lucrativos. La licencia comercial incluida en Acceso Completo permite ventas sin restricciones. Crea productos una vez, vende infinitamente. Diseña paquetes temáticos de ejercicios matemáticas para venta. Los compradores valoran colecciones organizadas. Vende sets completos a precio premium. El mercado hispano está desatendido en Teachers Pay Teachers. Fichas infantil en español de calidad son escasas.',
-        quote: 'Recuperé mi inversión vendiendo mis primeros 20 paquetes de fichas.',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // FAQ Section
@@ -322,68 +190,8 @@ Los maestros crean fichas gratis con cualquier tema. Practica el reconocimiento 
     showLessLabel: 'Ver menos',
     secureCheckout: 'Pago seguro',
     cancelAnytime: 'Cancela cuando quieras',
-    items: [
-      {
-        id: '1',
-        question: '¿Este Generador de Laberintos es Realmente Gratuito para Crear Fichas para Imprimir y Fichas Gratis?',
-        answer: 'El generador de laberintos visuales requiere suscripción Acceso Completo que cuesta $240 anuales o $25 mensuales. Tu suscripción te da creación ilimitada sin cargos por hoja. Genera tantas fichas para imprimir como necesites sin costos adicionales. No hay límites de descargas ni restricciones de uso. Acceso Completo incluye acceso a los 33 generadores de la plataforma. No solo laberintos, sino también ejercicios matemáticas, actividades de lectoescritura, fichas de grafomotricidad y más. Todas las herramientas disponibles con una sola suscripción.',
-      },
-      {
-        id: '2',
-        question: '¿Puedo Imprimir Fichas de Laberintos en Casa con Impresora Regular para Fichas Preescolar y Fichas Infantil?',
-        answer: 'Absolutamente. Los laberintos se descargan en formato PDF y JPEG. Ambos formatos funcionan perfectamente con impresoras caseras. HP, Canon, Epson, Brother - todas las marcas comunes. Calidad de 300 DPI asegura impresiones nítidas en papel estándar. Para fichas preescolar, usa papel blanco estándar de 20-24 lb. Las líneas del laberinto imprimen claras y oscuras. La opción de escala de grises ahorra tinta de color.',
-      },
-      {
-        id: '3',
-        question: '¿Necesito Habilidades de Diseño para Crear Fichas de Matemáticas Tablas de Multiplicar y Lectoescritura?',
-        answer: 'Cero habilidades de diseño requeridas. La interfaz es completamente intuitiva. Selecciona opciones de menús desplegables. Haz clic en botones. El sistema genera diseños profesionales automáticamente. Si sabes usar email, sabes usar el generador. Crear laberinto básico toma 3 clics. Selecciona modo de juego. Elige tema de imágenes. Haz clic en "Crear". Tu laberinto aparece en pantalla. Listo para descargar.',
-      },
-      {
-        id: '4',
-        question: '¿Puedo Usar Fichas de Laberintos en Mi Salón para Estudiantes de Preescolar y Primaria?',
-        answer: 'Sí, Acceso Completo incluye uso ilimitado en aula. Imprime tantas copias como necesites para tus estudiantes. 5 estudiantes o 30 estudiantes, mismo precio. Sin cargos por alumno ni restricciones de clase. Tus fichas, tu aula, uso libre. Usa laberintos para centros de aprendizaje. Centro de matemáticas con laberintos numéricos. Centro de alfabetización con caminos de letras. Centro de grafomotricidad con actividades de trazado.',
-      },
-      {
-        id: '5',
-        question: '¿En Qué Idiomas Están Disponibles las Fichas Infantil con Abecedario Números y Lectoescritura?',
-        answer: 'El generador funciona en 11 idiomas completos. La interfaz de usuario se traduce completamente. Menús, botones, instrucciones - todo en tu idioma. Español, inglés, alemán, francés, italiano, portugués brasileño, holandés, sueco, danés, noruego y finlandés. La biblioteca de imágenes muestra vocabulario en idioma seleccionado. Para actividades de lectoescritura, el idioma importa tremendamente.',
-      },
-      {
-        id: '6',
-        question: '¿Puedo Vender Fichas de Laberintos que Creo para Tablas de Multiplicar Ejercicios Matemáticas y Dibujos para Colorear?',
-        answer: 'Sí. La suscripción Acceso Completo incluye licencia comercial completa de impresión bajo demanda sin costo adicional. Vende en Teachers Pay Teachers, Etsy, Amazon KDP y tu propia tienda web. Sin restricciones de plataforma ni límites de cantidad. No se requiere atribución ni marca de agua. Tus productos no muestran logotipo de LessonCraft Studio. Productos completamente white-label para tu marca personal.',
-      },
-      {
-        id: '7',
-        question: '¿Cómo Personalizo Laberintos para Diferentes Niveles de Grafomotricidad y Números?',
-        answer: 'El generador ofrece controles completos de dificultad. Tamaño de cuadrícula ajustable de 12×12 a 15×15. Cuadrículas pequeñas crean laberintos más fáciles. Cuadrículas grandes aumentan complejidad. Longitud del camino de solución se configura independientemente. Caminos cortos para principiantes. Caminos largos para avanzados. Grosor de paredes afecta dificultad de grafomotricidad. Paredes gruesas para preescolar. Paredes delgadas para estudiantes mayores.',
-      },
-      {
-        id: '8',
-        question: '¿Para Qué Grupos de Edad Funcionan Mejor Estos Laberintos de Fichas Preescolar y Fichas para Imprimir?',
-        answer: 'Los laberintos visuales funcionan desde 3 años hasta 9 años, cubriendo preescolar hasta tercer grado de primaria. Los rompecabezas más simples con caminos cortos y pocos distractores se ajustan a niños de 3-4 años. Los estudiantes de preescolar de 4-5 años manejan laberintos con dificultad media. Los estudiantes de primaria de 6-9 años completan laberintos complejos con múltiples rutas exitosamente.',
-      },
-      {
-        id: '9',
-        question: '¿Puedo Subir Mis Propias Imágenes para Crear Fichas Infantil de Lectoescritura Colorear y Abecedario?',
-        answer: 'Absolutamente. El generador acepta carga de imágenes personalizadas. Formato JPEG, PNG y GIF. Carga múltiple de varios archivos simultáneamente. Tus imágenes se integran con biblioteca de 3000+ imágenes existentes. Combina contenido personalizado con recursos profesionales. Sube fotos de tus estudiantes para conexión personal. Importa imágenes de tu unidad temática actual.',
-      },
-      {
-        id: '10',
-        question: '¿Cuánto Tiempo Toma Crear Conjuntos Completos de Fichas de Matemáticas Tablas de Multiplicar y Grafomotricidad?',
-        answer: 'Un solo laberinto básico toma 2-3 minutos de principio a fin. Selecciona modo, elige imágenes, genera, descarga. Crear paquete de 10 laberintos toma 20-30 minutos. Suficiente para semana completa de actividades matutinas. Paquete temático completo de 20 laberintos toma aproximadamente una hora. Comparado con métodos tradicionales, el ahorro es dramático.',
-      },
-      {
-        id: '11',
-        question: '¿Los Laberintos Incluyen Claves de Respuestas para Fichas para Imprimir de Números y Ejercicios Matemáticas?',
-        answer: 'Sí. Cada generación crea automáticamente dos versiones. Versión de ejercicio sin solución visible. Versión de clave de respuestas con camino correcto resaltado. Ambas se descargan simultáneamente. Ambas en calidad profesional de 300 DPI. La clave muestra camino de solución en color contrastante. Fácilmente visible a simple vista. Los maestros califican en segundos.',
-      },
-      {
-        id: '12',
-        question: '¿Puedo Crear Laberintos Temáticos sobre Materias Específicas para Lectoescritura Abecedario Números y Grafomotricidad?',
-        answer: 'Completamente. La biblioteca de 3000+ imágenes cubre docenas de temas educativos. Animales, plantas, comida, ropa, transporte, profesiones, formas, colores y mucho más. Crea laberintos de lectoescritura enfocados en categorías de vocabulario. Los laberintos del abecedario funcionan con cualquier tema. Actividades de números se tematizan fácilmente. Sube tus propias imágenes para temas ultra específicos.',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Pricing
@@ -454,56 +262,8 @@ Los maestros crean fichas gratis con cualquier tema. Practica el reconocimiento 
       securePayment: 'Pago seguro',
       cancelAnytime: 'Cancela cuando quieras',
     },
-    items: [
-      {
-        id: '1',
-        slug: 'addition',
-        name: 'Fichas de Suma',
-        category: 'Matemáticas',
-        icon: '➕',
-        description: 'Combina laberintos con fichas de suma para práctica completa de matemáticas y razonamiento visual.',
-      },
-      {
-        id: '2',
-        slug: 'matching-app',
-        name: 'Emparejar',
-        category: 'Visual',
-        icon: '🎯',
-        description: 'Empareja fichas de laberintos con actividades de emparejar para desarrollo de discriminación visual.',
-      },
-      {
-        id: '3',
-        slug: 'alphabet-train',
-        name: 'Tren del Abecedario',
-        category: 'Lectoescritura',
-        icon: '🚂',
-        description: 'Crea paquetes completos del abecedario combinando laberintos con fichas de tren del abecedario.',
-      },
-      {
-        id: '4',
-        slug: 'coloring',
-        name: 'Dibujos para Colorear',
-        category: 'Creatividad',
-        icon: '🎨',
-        description: 'Combina fichas de laberintos con dibujos para colorear para paquetes atractivos de educación infantil.',
-      },
-      {
-        id: '5',
-        slug: 'drawing-lines',
-        name: 'Líneas',
-        category: 'Grafomotricidad',
-        icon: '✏️',
-        description: 'Agrupa laberintos con fichas de líneas para desarrollo completo de motricidad fina.',
-      },
-      {
-        id: '6',
-        slug: 'find-and-count',
-        name: 'Buscar y Contar',
-        category: 'Matemáticas',
-        icon: '🔢',
-        description: 'Empareja laberintos con fichas de conteo para práctica de reconocimiento numérico.',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 };
 

@@ -96,43 +96,8 @@ Las fichas infantil generadas incluyen clave de respuestas automática. Los maes
     badgeText: 'Ejemplos Gratis',
     downloadingLabel: 'Descargando...',
     ofLabel: 'de',
-    items: [
-      {
-        id: '1',
-        worksheetSrc: '/samples/spanish/pattern-train/sample-1.jpeg',
-        answerKeySrc: '/samples/spanish/pattern-train/sample-1-answer.jpeg',
-        altText: 'Fichas de patrones gratis para imprimir - tren de patrones secuencia AB para preescolar',
-        pdfDownloadUrl: '/samples/spanish/pattern-train/sample-1.pdf',
-      },
-      {
-        id: '2',
-        worksheetSrc: '/samples/spanish/pattern-train/sample-2.jpeg',
-        answerKeySrc: '/samples/spanish/pattern-train/sample-2-answer.jpeg',
-        altText: 'Ficha infantil de patrones AAB - ejercicio matemáticas gratis para educación infantil',
-        pdfDownloadUrl: '/samples/spanish/pattern-train/sample-2.pdf',
-      },
-      {
-        id: '3',
-        worksheetSrc: '/samples/spanish/pattern-train/sample-3.jpeg',
-        answerKeySrc: '/samples/spanish/pattern-train/sample-3-answer.jpeg',
-        altText: 'Material educativo gratis de patrones ABB - fichas preescolar para imprimir',
-        pdfDownloadUrl: '/samples/spanish/pattern-train/sample-3.pdf',
-      },
-      {
-        id: '4',
-        worksheetSrc: '/samples/spanish/pattern-train/sample-4.jpeg',
-        answerKeySrc: '/samples/spanish/pattern-train/sample-4-answer.jpeg',
-        altText: 'Fichas de matemáticas de patrones ABC - ficha gratis para niños de preescolar',
-        pdfDownloadUrl: '/samples/spanish/pattern-train/sample-4.pdf',
-      },
-      {
-        id: '5',
-        worksheetSrc: '/samples/spanish/pattern-train/sample-5.jpeg',
-        answerKeySrc: '/samples/spanish/pattern-train/sample-5-answer.jpeg',
-        altText: 'Tren de patrones AABB para imprimir - fichas gratis de secuencias para educación infantil',
-        pdfDownloadUrl: '/samples/spanish/pattern-train/sample-5.pdf',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Features Grid - FULL text from pattern-train.md feature sections
@@ -148,85 +113,8 @@ Las fichas infantil generadas incluyen clave de respuestas automática. Los maes
       noHiddenFees: 'Sin cargos ocultos',
       cancelAnytime: 'Cancela cuando quieras',
     },
-    items: [
-      {
-        id: '1',
-        icon: '⚡',
-        title: 'Crea Fichas para Imprimir en 3 Clics - Generador Rápido de Fichas Infantil',
-        description: `El generador de fichas preescolar funciona con tres pasos simples. Primero selecciona el tipo de patrón que quieres enseñar. Segundo elige las imágenes de la biblioteca o sube tus propias fotos. Tercero haz clic en crear y tu ficha para imprimir está lista.
-
-No necesitas experiencia en diseño gráfico para crear fichas infantil profesionales. El sistema genera automáticamente el diseño del tren con los vagones de patrones. Los maestros de educación infantil pueden crear material educativo gratis en menos tiempo que preparar café.
-
-Cada ficha de matemáticas incluye espacios para nombre y fecha del estudiante. Los ejercicios matemáticas se generan con distribución perfecta de elementos. Las fichas preescolar mantienen proporciones ideales para impresión en papel carta o A4.`,
-        highlighted: false,
-      },
-      {
-        id: '2',
-        icon: '✏️',
-        title: 'Edita Todo en Tus Fichas de Matemáticas - Personalización Completa de Fichas para Imprimir',
-        description: `Después de generar tus fichas infantil, personaliza cada elemento en el lienzo. Arrastra imágenes para cambiar posiciones exactas. Rota elementos para crear diseños únicos. Escala cualquier imagen para ajustar el tamaño perfecto.
-
-El editor de fichas para imprimir funciona como programas profesionales pero sin complejidad. Haz clic en cualquier elemento para seleccionarlo. Modifica colores de fondo, opacidad de bordes, tamaño de fuentes. Las fichas preescolar se adaptan exactamente a tus necesidades pedagógicas.
-
-Los maestros pueden agregar texto adicional a las fichas de matemáticas generadas. Escribe instrucciones específicas en español. Cambia colores de texto para destacar elementos importantes. Las fichas infantil se transforman en materiales completamente personalizados para tu grupo.`,
-        highlighted: false,
-      },
-      {
-        id: '3',
-        icon: '📤',
-        title: 'Sube Tus Propias Imágenes para Fichas Preescolar Personalizadas',
-        description: `La función de carga de imágenes permite crear fichas para imprimir totalmente personalizadas. Sube fotos de objetos del aula para hacer ejercicios matemáticas relevantes. Usa imágenes de mascota de la clase para fichas infantil que los niños reconozcan instantáneamente.
-
-El sistema acepta archivos JPEG, PNG y GIF en carga múltiple. Sube 10 o 20 imágenes simultáneamente para crear bibliotecas temáticas. Combina imágenes subidas con las 3000+ imágenes incluidas para fichas preescolar únicas.
-
-Los maestros suben fotos de manipulativos matemáticos reales para ejercicios matemáticas auténticos. Toma fotos de bloques, fichas de colores, o materiales Montessori. Convierte esos recursos físicos en fichas de matemáticas imprimibles ilimitadas.`,
-        highlighted: false,
-      },
-      {
-        id: '4',
-        icon: '🌍',
-        title: 'Fichas para Imprimir en 11 Idiomas - Material Educativo Gratis Multilingüe',
-        description: `La interfaz del generador funciona en 11 idiomas incluyendo español mexicano. Los maestros de educación bilingüe crean fichas infantil en inglés y español sin cambiar plataformas. Las escuelas internacionales generan fichas preescolar en alemán, francés, italiano, portugués, holandés, sueco, danés, noruego y finés.
-
-Las fichas de matemáticas multilingües benefician programas de inmersión dual. Los estudiantes practican patrones mientras aprenden vocabulario en segundo idioma. Las fichas para imprimir en español desarrollan habilidades matemáticas y lingüísticas simultáneamente.
-
-Los maestros ESL usan el generador para crear ejercicios matemáticas con vocabulario específico. Las fichas infantil en múltiples idiomas sirven salones con estudiantes de diversos orígenes. El material educativo gratis en 11 idiomas representa un valor excepcional comparado con recursos comerciales limitados.`,
-        highlighted: false,
-      },
-      {
-        id: '5',
-        icon: '💰',
-        title: 'Licencia Comercial POD Incluida - Vende Tus Fichas para Imprimir en Teachers Pay Teachers',
-        description: `La suscripción Acceso Completo incluye licencia comercial de impresión bajo demanda sin costo adicional. Vende las fichas infantil que creas en Teachers Pay Teachers, Etsy, o Amazon KDP. Los maestros emprendedores generan ingresos pasivos de $500 a $5000 mensuales vendiendo fichas preescolar.
-
-Las fichas de matemáticas de patrones son productos populares en TPT. Los compradores buscan constantemente ejercicios matemáticas listos para imprimir. Tus fichas para imprimir compiten con recursos premium porque la calidad profesional de 300 DPI es idéntica.
-
-Crea paquetes temáticos de fichas infantil para maximizar ventas. Combina 10-15 fichas preescolar relacionadas en un archivo PDF. Los clientes pagan $3-8 por paquetes de material educativo gratis de esta calidad. La licencia POD te permite vender sin limitaciones de cantidad o restricciones geográficas.`,
-        highlighted: true,
-      },
-      {
-        id: '6',
-        icon: '🎨',
-        title: 'Biblioteca de 3000+ Imágenes para Fichas Infantil - Todas las Fichas para Imprimir Incluidas',
-        description: `Accede a más de 3000 imágenes infantiles organizadas por temas educativos. Encuentra imágenes perfectas para fichas preescolar sobre animales, alimentos, transportes, formas, colores. Los ejercicios matemáticas se enriquecen con ilustraciones profesionales que capturan atención de estudiantes.
-
-Las fichas de matemáticas de patrones necesitan imágenes claras y reconocibles. La biblioteca incluye objetos cotidianos ideales para patrones AB, AAB, ABB, ABC y AABB. Los niños identifican fácilmente manzanas, pelotas, estrellas, corazones en las fichas infantil.
-
-Cada tema contiene 20-50 imágenes relacionadas para variedad infinita. Crea 100 fichas para imprimir diferentes sobre frutas sin repetir diseño. Los fondos y bordes decorativos transforman fichas preescolar simples en materiales visualmente atractivos. Todo el material educativo gratis está incluido sin cargos adicionales por imagen.`,
-        highlighted: false,
-      },
-      {
-        id: '7',
-        icon: '🖨️',
-        title: 'Calidad Profesional de 300 DPI - Fichas para Imprimir Perfectas para Venta',
-        description: `Todas las fichas infantil se exportan en resolución de 300 DPI para calidad comercial. Las fichas preescolar impresas lucen nítidas y profesionales en cualquier impresora. Los ejercicios matemáticas mantienen claridad visual perfecta necesaria para estudiantes jóvenes.
-
-Descarga fichas de matemáticas en formato PDF o JPEG según prefieras. El PDF preserva calidad vectorial para impresión profesional. JPEG funciona perfectamente para compartir digitalmente o imprimir en casa. Las fichas para imprimir se ven profesionales en ambos formatos.
-
-La opción de escala de grises ahorra tinta sin sacrificar claridad. Las fichas infantil en blanco y negro mantienen todos los detalles visibles. Los maestros imprimen material educativo gratis económicamente. Las fichas preescolar en escala de grises funcionan perfectamente para práctica diaria mientras las versiones a color se reservan para evaluaciones.`,
-        highlighted: true,
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // How-To Guide - FULL text from pattern-train.md step sections
@@ -318,80 +206,8 @@ Descarga la hoja de trabajo estudiantil y la clave de respuestas como archivos s
     badgeText: 'Para Quién',
     readMoreLabel: 'Leer más',
     showLessLabel: 'Ver menos',
-    items: [
-      {
-        id: '1',
-        icon: '👶',
-        title: 'Maestros de Preescolar y Educación Infantil',
-        subtitle: 'Fichas Preescolar con Grafomotricidad y Números',
-        description: `Los maestros de educación infantil usan el generador para crear fichas preescolar que desarrollan múltiples habilidades simultáneamente. Los patrones visuales enseñan secuencias matemáticas mientras las actividades de completar mejoran grafomotricidad. Los niños de 3-5 años practican aprender los números mientras identifican qué elemento sigue en el patrón.
-
-Las fichas infantil de patrones integran perfectamente con el currículo de preescolar mexicano. Los patrones AB simples introducen pensamiento lógico a estudiantes de 3 años. Los patrones AAB y ABB desafían a niños de 4 años que dominaron secuencias básicas. Las fichas de matemáticas progresan naturalmente con el desarrollo infantil.
-
-Los maestros combinan el tren de patrones con dibujos para colorear para crear actividades multisensoriales. Primero los estudiantes completan el patrón identificando la imagen correcta. Después colorean todo el tren usando colores específicos para cada tipo de imagen. Esta combinación de ejercicios matemáticas y desarrollo de grafomotricidad mantiene a niños pequeños comprometidos por 15-20 minutos.`,
-        quote: '¡El tren de patrones captura la atención de mis alumnos inmediatamente!',
-      },
-      {
-        id: '2',
-        icon: '📚',
-        title: 'Maestros de Primaria',
-        subtitle: 'Ejercicios Matemáticas con Tablas de Multiplicar y Lectoescritura',
-        description: `Los maestros de primero a tercer grado usan fichas de matemáticas de patrones para reforzar conceptos avanzados. Los patrones AABB preparan a estudiantes de primer grado para entender agrupaciones en tablas de multiplicar. Dos estrellas, dos lunas, dos estrellas, dos lunas muestra el concepto de "grupos de dos" visualmente.
-
-Las fichas infantil con números crean puente entre reconocimiento de patrones y operaciones matemáticas. Un patrón AB con los números 2-4-2-4 introduce la idea de secuencias numéricas. Estudiantes de segundo grado que dominan patrones visuales transicionan más fácilmente a patrones numéricos abstractos. Los ejercicios matemáticas progresan de concreto a abstracto naturalmente.
-
-Los maestros de tercer grado integran lectoescritura con patrones matemáticos usando palabras como elementos del patrón. Un patrón AAB con gato-gato-perro desarrolla lectura de palabras y reconocimiento de patrones simultáneamente. Las fichas gratis combinan desarrollo de alfabetización con pensamiento lógico matemático.`,
-        quote: 'Las fichas de patrones son excelentes para introducir multiplicación visual.',
-      },
-      {
-        id: '3',
-        icon: '🏠',
-        title: 'Padres que Educan en Casa',
-        subtitle: 'Material Educativo Gratis para Múltiples Niveles con Grafomotricidad',
-        description: `Los padres homeschoolers valoran fichas preescolar que se adaptan a múltiples niños simultáneamente. Crea patrones AB simples para tu hijo de 4 años y patrones ABC complejos para tu hija de 6 años. Ambos trabajan con fichas infantil del mismo tema pero con niveles de dificultad apropiados. El material educativo gratis elimina necesidad de comprar cuadernos de trabajo caros para cada niño.
-
-Las familias que enseñan en español usan el generador para crear ejercicios matemáticas culturalmente relevantes. Sube fotos de alimentos tradicionales mexicanos para patrones temáticos. Los niños aprenden patrones matemáticos mientras se familiarizan con vocabulario cultural. Las fichas gratis en español desarrollan identidad cultural junto con habilidades académicas.
-
-Los padres sin formación pedagógica formal aprecian que las fichas de matemáticas siguen secuencias de desarrollo apropiadas. El sistema guía desde patrones simples AB hacia patrones complejos AABB. No necesitas entrenamiento especial para proporcionar ejercicios matemáticas progresivos.`,
-        quote: 'Una herramienta perfecta para toda la familia educando en casa.',
-      },
-      {
-        id: '4',
-        icon: '🌍',
-        title: 'Maestros de Español como Segundo Idioma',
-        subtitle: 'Fichas Infantil para Vocabulario y Abecedario',
-        description: `Los maestros ESL usan fichas de matemáticas de patrones para enseñar vocabulario temático. Un patrón sobre frutas enseña manzana-plátano-naranja mientras practica secuencias. Los estudiantes aprenden nombres de objetos en español mientras desarrollan habilidades matemáticas. Las fichas gratis eliminan barrera de idioma en instrucción de matemáticas.
-
-El generador crea fichas preescolar perfectas para estudiantes que aprenden el abecedario español. Patrones con las 27 letras del alfabeto español (incluyendo ñ) enseñan orden alfabético. Los niños practican A-B-C o reconocen que Ñ viene después de N. Los ejercicios matemáticas de patrones refuerzan aprender las letras del abecedario naturalmente.
-
-Las fichas infantil con imágenes claramente etiquetadas desarrollan vocabulario de lectura. Cada elemento del patrón incluye la palabra escrita debajo de la imagen. Los estudiantes asocian palabras escritas con imágenes mientras completan patrones. Esta combinación de lectoescritura visual y matemáticas acelera adquisición de idioma.`,
-        quote: 'El soporte multilingüe es esencial para programas de inmersión.',
-      },
-      {
-        id: '5',
-        icon: '💜',
-        title: 'Maestros de Educación Especial',
-        subtitle: 'Fichas Preescolar Diferenciadas con Dibujos para Colorear',
-        description: `Los maestros de educación especial valoran la capacidad de ajustar cada aspecto de las fichas infantil. Estudiantes con necesidades visuales especiales necesitan imágenes más grandes y contrastes más fuertes. El editor permite aumentar tamaño de elementos individuales. Cambia colores de fondo para maximizar visibilidad. Las fichas de matemáticas se adaptan perfectamente a necesidades sensoriales individuales.
-
-Los estudiantes con desafíos de atención se benefician de fichas preescolar con menos elementos por página. Genera patrones AB con solo 4 pistas en lugar de 10. Los ejercicios matemáticas simplificados reducen abrumamiento visual. Los estudiantes completan actividades exitosamente sin frustración. El éxito temprano construye confianza y motivación.
-
-Las fichas gratis que combinan patrones con dibujos para colorear extienden tiempo de compromiso. Estudiantes que completan el patrón rápidamente continúan coloreando las imágenes. La actividad de colorear proporciona descanso sensorial entre tareas cognitivas.`,
-        quote: 'Puedo adaptar las fichas rápidamente para cada estudiante.',
-      },
-      {
-        id: '6',
-        icon: '💰',
-        title: 'Maestros Emprendedores',
-        subtitle: 'Vende Fichas de Matemáticas en Teachers Pay Teachers',
-        description: `Los maestros que venden en Teachers Pay Teachers usan el generador para crear paquetes de ejercicios matemáticas rápidamente. Crea 20 fichas preescolar variadas sobre un tema en una tarde. Combínalas en un PDF y vende por $3-5. Los compradores buscan constantemente material educativo gratis de alta calidad sobre patrones. Las fichas infantil generadas compiten directamente con recursos comerciales premium.
-
-Los paquetes temáticos sobre días festivos mexicanos se venden especialmente bien. Fichas de matemáticas con imágenes de Día de Muertos o Navidad atraen maestros buscando contenido culturalmente relevante. El nicho de recursos en español tiene menos competencia que el mercado inglés. Los vendedores experimentados ganan $500-2000 mensuales con catálogos de 50-100 productos.
-
-La licencia POD incluida permite vender fichas gratis sin restricciones. No pagas regalías por cada venta. No hay límites geográficos o de cantidad. Vende en TPT, Etsy, tu propio sitio web simultáneamente.`,
-        quote: '¡Mi suscripción se pagó sola en el primer mes de ventas!',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // FAQ Section - Selected FAQs from pattern-train.md
@@ -405,68 +221,8 @@ La licencia POD incluida permite vender fichas gratis sin restricciones. No paga
     showLessLabel: 'Ver menos',
     secureCheckout: 'Pago seguro',
     cancelAnytime: 'Cancela cuando quieras',
-    items: [
-      {
-        id: '1',
-        question: '¿El Generador de Fichas Gratis Requiere Suscripción o es Completamente Gratuito?',
-        answer: 'El generador de tren de patrones requiere suscripción Acceso Completo que cuesta $240 anuales o $25 mensuales. Tu suscripción proporciona creación ilimitada de fichas de matemáticas sin cargos adicionales por ficha individual. Genera tantas fichas preescolar como necesites sin restricciones de uso. Acceso Completo incluye los 33 generadores de fichas infantil en la plataforma. La suscripción Paquete Esencial cuesta $144 anuales e incluye 10 generadores populares. Ambas suscripciones incluyen licencia comercial POD, soporte en 11 idiomas, y exportación de calidad profesional de 300 DPI. El material educativo gratis ilimitado justifica la inversión para maestros que crean ejercicios matemáticas regularmente.',
-      },
-      {
-        id: '2',
-        question: '¿Puedo Combinar Fichas de Patrones con Grafomotricidad y Lectoescritura en la Misma Hoja?',
-        answer: 'Sí. El editor permite agregar múltiples elementos a tus fichas de matemáticas después de generar el patrón base. Agrega ejercicios de grafomotricidad como líneas punteadas para trazar. Incluye elementos de lectoescritura como letras del abecedario o palabras de vocabulario. Las fichas infantil integran múltiples habilidades en una sola actividad. Los maestros crean fichas preescolar que combinan reconocimiento de patrones con práctica de escritura. Los estudiantes completan el patrón visual y luego practican grafomotricidad trazando alrededor de elementos. Esta integración multihabilidad maximiza valor educativo de cada ficha impresa.',
-      },
-      {
-        id: '3',
-        question: '¿Las Fichas Incluyen Actividades de Números, Abecedario y Tablas de Multiplicar?',
-        answer: 'El generador crea patrones usando cualquier tipo de imagen incluyendo números, letras del abecedario, y grupos de objetos para tablas de multiplicar. Sube imágenes de dígitos 0-9 para crear fichas de matemáticas enfocadas en aprender los números. Usa letras A-Z del abecedario español para patrones alfabéticos. Crea grupos de 2, 3, 4, 5 objetos para introducir conceptos de tablas de multiplicar. Las fichas preescolar con números enseñan secuencias numéricas y reconocimiento de dígitos. Un patrón AB con 1-2-1-2 combina patrones visuales con aprender los números. Las fichas infantil con letras del abecedario desarrollan orden alfabético.',
-      },
-      {
-        id: '4',
-        question: '¿Puedo Crear Fichas Gratis que Incluyan Dibujos para Colorear como Actividad Adicional?',
-        answer: 'Absolutamente. El generador funciona perfectamente para crear fichas de matemáticas que sirven doble propósito como dibujos para colorear. Genera el patrón con imágenes de líneas simples que los estudiantes pueden colorear después de completar la secuencia. Las fichas preescolar combinan pensamiento lógico con desarrollo de grafomotricidad a través del coloreo. Los maestros suben sus propios dibujos para colorear escaneados para crear fichas infantil totalmente personalizadas. Los estudiantes completan el patrón identificando qué imagen falta, luego colorean todo el tren. Esta actividad dual mantiene engagement por 15-20 minutos.',
-      },
-      {
-        id: '5',
-        question: '¿Las Fichas de Lectoescritura y Vocabulario del Abecedario Funcionan con Este Generador?',
-        answer: 'Sí. El generador crea excelentes fichas de lectoescritura cuando usas palabras o letras como elementos del patrón. Un patrón ABC usando las primeras tres letras del abecedario enseña orden alfabético. Las fichas infantil con imágenes etiquetadas desarrollan vocabulario de lectura mientras practican secuencias matemáticas. Los maestros ESL crean fichas preescolar donde cada elemento del patrón incluye la palabra escrita debajo de la imagen. Los estudiantes aprenden vocabulario nuevo mientras identifican qué continúa en la secuencia. Las actividades de lectoescritura combinadas con patrones matemáticos aceleran desarrollo de alfabetización.',
-      },
-      {
-        id: '6',
-        question: '¿Necesito Habilidades de Diseño para Crear Ejercicios Matemáticas Profesionales?',
-        answer: 'No necesitas experiencia en diseño gráfico para crear fichas de matemáticas de calidad profesional. El sistema genera automáticamente diseños equilibrados con espaciado perfecto. Las fichas infantil lucen como materiales comerciales premium sin entrenamiento especial. Los maestros sin habilidades técnicas crean material educativo gratis en su primer intento. La interfaz guía paso a paso elimina confusión sobre cómo proceder. Selecciona patrón, elige imágenes, haz clic en generar. Las fichas preescolar aparecen listas para descargar en segundos.',
-      },
-      {
-        id: '7',
-        question: '¿Puedo Usar Estas Fichas Infantil con Números en Mi Salón de Clases?',
-        answer: 'La suscripción Acceso Completo incluye uso ilimitado en el aula para maestros profesionales. Crea tantas fichas de matemáticas como necesites para tus estudiantes sin restricciones de cantidad. Imprime 25 copias de la misma ficha para toda la clase. Genera fichas preescolar diferentes para centros de matemáticas diarios durante todo el año escolar. El uso en aula incluye compartir material educativo gratis digitalmente con estudiantes vía Google Classroom o plataformas LMS. Los ejercicios matemáticas se distribuyen por correo electrónico a padres para práctica en casa.',
-      },
-      {
-        id: '8',
-        question: '¿Qué Idiomas Están Disponibles para Fichas de Grafomotricidad y Abecedario?',
-        answer: 'La interfaz del generador funciona en 11 idiomas: español, inglés, alemán, francés, italiano, portugués brasileño, holandés, sueco, danés, noruego, y finés. Crea fichas de matemáticas con instrucciones en cualquiera de estos idiomas. Las fichas infantil con el abecedario español incluyen todas 27 letras incluyendo Ñ. Los ejercicios de grafomotricidad funcionan en todos los idiomas porque el trazado motor no requiere idioma específico. Los maestros bilingües crean fichas preescolar idénticas en español e inglés para programas de inmersión dual.',
-      },
-      {
-        id: '9',
-        question: '¿Puedo Vender Fichas de Tablas de Multiplicar y Dibujos para Colorear que Creo?',
-        answer: 'Sí. La suscripción Acceso Completo incluye licencia comercial de impresión bajo demanda sin costo adicional. Vende fichas de matemáticas sobre tablas de multiplicar en Teachers Pay Teachers, Etsy, o Amazon KDP. Los paquetes de dibujos para colorear con patrones matemáticos son productos populares. Las fichas infantil que creas son completamente tuyas para propósitos comerciales. No pagas regalías por cada venta de fichas preescolar que generas. No hay límites geográficos o restricciones de cantidad para venta. Los maestros emprendedores ganan $500-5000 mensuales vendiendo paquetes de ejercicios matemáticas.',
-      },
-      {
-        id: '10',
-        question: '¿Cómo Personalizo Fichas Preescolar para Incluir Grafomotricidad, Números y Lectoescritura?',
-        answer: 'Después de generar las fichas de matemáticas base, usa el editor de lienzo para personalizar completamente. Agrega elementos de grafomotricidad como líneas punteadas o guías de trazado. Incluye números adicionales alrededor del borde para práctica de conteo. Agrega instrucciones de lectoescritura específicas en español. Arrastra imágenes para reposicionar elementos del patrón. Cambia tamaños de fuente para instrucciones de lectura. Agrega bordes decorativos o fondos temáticos. Las fichas infantil se transforman de plantillas básicas a material educativo gratis completamente personalizado.',
-      },
-      {
-        id: '11',
-        question: '¿Cuánto Tiempo Toma Crear Fichas de Matemáticas con Abecedario y Dibujos para Colorear?',
-        answer: 'El proceso completo toma menos de 3 minutos desde seleccionar patrón hasta descargar PDF. Crear fichas preescolar con elementos del abecedario toma el mismo tiempo que cualquier otro tema. Las fichas infantil diseñadas como dibujos para colorear no requieren pasos adicionales. El material educativo gratis se genera a la misma velocidad sin importar complejidad temática. Maestros experimentados crean 5-10 ejercicios matemáticas variados en 15 minutos. La velocidad permite generar fichas de matemáticas frescas diariamente sin estrés de preparación.',
-      },
-      {
-        id: '12',
-        question: '¿Las Fichas Gratis de Números y Tablas de Multiplicar Incluyen Clave de Respuestas?',
-        answer: 'Sí. Cada ficha de matemáticas de patrones se genera con clave de respuestas automática. La hoja estudiantil muestra el patrón parcialmente completo para que niños llenen elementos faltantes. La clave del maestro muestra el patrón totalmente completado en todos los vagones del tren. Ambas versiones se descargan como archivos separados. Las fichas preescolar con números incluyen respuestas mostrando la secuencia numérica correcta completa. Los ejercicios matemáticas sobre tablas de multiplicar muestran todos los grupos correctos. Las fichas infantil sobre el abecedario indican el orden alfabético correcto.',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Pricing - FULL ACCESS for pattern-train
@@ -537,56 +293,8 @@ La licencia POD incluida permite vender fichas gratis sin restricciones. No paga
       securePayment: 'Pago seguro',
       cancelAnytime: 'Cancela cuando quieras',
     },
-    items: [
-      {
-        id: '1',
-        slug: 'addition',
-        name: 'Sumas',
-        category: 'Matemáticas',
-        icon: '➕',
-        description: 'Combina fichas de patrones con sumas para práctica matemática completa. Los estudiantes avanzan de patrones visuales a operaciones numéricas.',
-      },
-      {
-        id: '2',
-        slug: 'find-and-count',
-        name: 'Buscar y Contar',
-        category: 'Matemáticas',
-        icon: '🔍',
-        description: 'Refuerza habilidades de conteo con actividades que complementan los patrones numéricos del tren.',
-      },
-      {
-        id: '3',
-        slug: 'matching-app',
-        name: 'Emparejamiento',
-        category: 'Vocabulario',
-        icon: '🔗',
-        description: 'Las fichas de emparejamiento refuerzan el vocabulario usado en patrones temáticos. Perfecto para desarrollo de lectoescritura.',
-      },
-      {
-        id: '4',
-        slug: 'coloring',
-        name: 'Colorear',
-        category: 'Arte',
-        icon: '🎨',
-        description: 'Combina patrones con páginas para colorear. Los estudiantes colorean los elementos del tren después de completar secuencias.',
-      },
-      {
-        id: '5',
-        slug: 'alphabet-train',
-        name: 'Tren del Abecedario',
-        category: 'Lectoescritura',
-        icon: '🚂',
-        description: 'Practica el abecedario con el tren de letras y refuerza con patrones alfabéticos. Perfecto para preescolar.',
-      },
-      {
-        id: '6',
-        slug: 'drawing-lines',
-        name: 'Trazar Líneas',
-        category: 'Grafomotricidad',
-        icon: '✏️',
-        description: 'Las actividades de trazar líneas desarrollan grafomotricidad que complementa la práctica de patrones.',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 };
 

@@ -108,43 +108,8 @@ Mustererkennung ist eine Schlüsselkompetenz im frühen Mathematikunterricht. Ki
     badgeText: 'Kostenlose Beispiele',
     downloadingLabel: 'Wird heruntergeladen...',
     ofLabel: 'von',
-    items: [
-      {
-        id: '1',
-        worksheetSrc: '/samples/german/pattern/sample-1.jpeg',
-        answerKeySrc: '/samples/german/pattern/sample-1-answer.jpeg',
-        altText: 'Muster-Arbeitsblatt Hochformat für Arbeitsblätter Grundschule und Vorschule - Kostenlose Arbeitsblätter',
-        pdfDownloadUrl: '/samples/german/pattern/sample-1.pdf',
-      },
-      {
-        id: '2',
-        worksheetSrc: '/samples/german/pattern/sample-2.jpeg',
-        answerKeySrc: '/samples/german/pattern/sample-2-answer.jpeg',
-        altText: 'Muster-Arbeitsblatt Variante für Mathe Arbeitsblätter und kostenlose Arbeitsblätter - Mustererkennung',
-        pdfDownloadUrl: '/samples/german/pattern/sample-2.pdf',
-      },
-      {
-        id: '3',
-        worksheetSrc: '/samples/german/pattern/sample-3.jpeg',
-        answerKeySrc: '/samples/german/pattern/sample-3-answer.jpeg',
-        altText: 'Muster-Arbeitsblatt für Vorschule Arbeitsblätter - Einmaleins Vorbereitung und Schwungübungen',
-        pdfDownloadUrl: '/samples/german/pattern/sample-3.pdf',
-      },
-      {
-        id: '4',
-        worksheetSrc: '/samples/german/pattern/sample-4.jpeg',
-        answerKeySrc: '/samples/german/pattern/sample-4-answer.jpeg',
-        altText: 'Muster-Arbeitsblatt für Buchstaben lernen und Deutsch Arbeitsblätter - Kostenlose Druckvorlagen',
-        pdfDownloadUrl: '/samples/german/pattern/sample-4.pdf',
-      },
-      {
-        id: '5',
-        worksheetSrc: '/samples/german/pattern/sample-5.jpeg',
-        answerKeySrc: '/samples/german/pattern/sample-5-answer.jpeg',
-        altText: 'Muster-Arbeitsblatt für Rechnen lernen und Arbeitsblatt für Kinder - Ausmalbilder ergänzend',
-        pdfDownloadUrl: '/samples/german/pattern/sample-5.pdf',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Features Grid - FULL text from muster-arbeitsblatt.md feature sections
@@ -160,98 +125,8 @@ Mustererkennung ist eine Schlüsselkompetenz im frühen Mathematikunterricht. Ki
       noHiddenFees: 'Keine versteckten Kosten',
       cancelAnytime: 'Jederzeit kündbar',
     },
-    items: [
-      {
-        id: '1',
-        icon: '⚡',
-        title: 'Kostenlose Arbeitsblätter in 3 Klicks erstellen - Schneller Generator für Arbeitsblätter Grundschule',
-        description: `Die Erstellung beginnt mit der Auswahl des Mustertyps. Neun verschiedene Muster stehen zur Verfügung. Wählen Sie passende Bilder aus der Bibliothek oder laden Sie eigene hoch. Ein Klick auf Erstellen generiert das fertige Arbeitsblatt. Die automatische Themenwahl spart zusätzlich Zeit.
-
-Stellen Sie die Anzahl der Übungen zwischen eins und acht ein. Jede Übung kann einen eigenen Mustertyp haben. So erstellen Sie differenzierte Arbeitsblätter Grundschule in Sekunden. Die Vorschau zeigt das Ergebnis vor dem Download.`,
-        highlighted: false,
-      },
-      {
-        id: '2',
-        icon: '✏️',
-        title: 'Vollständige Bearbeitbarkeit für Mathe Arbeitsblätter und Einmaleins Vorbereitung - Jedes Element anpassbar',
-        description: `Nach der Erstellung bearbeiten Sie alles auf der Arbeitsfläche. Verschieben Sie Bilder durch einfaches Ziehen mit der Maus. Drehen Sie Elemente mit den Eckgriffen in jeden Winkel. Vergrößern oder verkleinern Sie jedes Objekt nach Bedarf. Diese Flexibilität ermöglicht perfekte Anpassungen.
-
-Die Ebenensteuerung ordnet überlappende Elemente. Bringen Sie wichtige Objekte nach vorne. Senden Sie Hintergründe nach hinten. Ausrichtungswerkzeuge positionieren Elemente präzise. Die Sperr-Funktion schützt fertige Bereiche. Mit Rückgängig und Wiederholen korrigieren Sie jeden Schritt. Perfekt für Mathe Arbeitsblätter mit komplexen Layouts.`,
-        highlighted: true,
-      },
-      {
-        id: '3',
-        icon: '📤',
-        title: 'Eigene Bilder hochladen für Vorschule Arbeitsblätter und Deutsch Arbeitsblätter - Personalisierte Inhalte',
-        description: `Der Multi-Datei-Upload ermöglicht das Hochladen mehrerer Bilder gleichzeitig. JPEG, PNG und GIF Formate werden unterstützt. Kombinieren Sie eigene Bilder mit der integrierten Bibliothek. So erstellen Sie personalisierte Vorschule Arbeitsblätter mit bekannten Motiven.
-
-Eigene Bilder eignen sich besonders für thematische Einheiten. Verwenden Sie Klassenfotos für motivierende Materialien. Integrieren Sie Bilder aus dem aktuellen Unterrichtsthema. Die Kombination macht Deutsch Arbeitsblätter besonders ansprechend für Ihre Lerngruppe.`,
-        highlighted: false,
-      },
-      {
-        id: '4',
-        icon: '🌍',
-        title: '11 Sprachen für Arbeitsblätter Grundschule und Buchstaben lernen - Internationale Unterstützung',
-        description: `Die Benutzeroberfläche ist in elf Sprachen verfügbar. Deutsch, Englisch, Französisch, Spanisch, Italienisch und Portugiesisch. Dazu kommen Niederländisch, Schwedisch, Dänisch, Norwegisch und Finnisch. Die Bildbibliothek enthält sprachspezifische Beschriftungen.
-
-Für mehrsprachige Klassen erstellen Sie Arbeitsblätter in verschiedenen Sprachen. Internationale Schulen profitieren von dieser Vielfalt. Das Buchstaben lernen wird durch passende Bildbezeichnungen unterstützt. So finden Sie schnell die richtigen Motive für Arbeitsblätter Grundschule.`,
-        highlighted: false,
-      },
-      {
-        id: '5',
-        icon: '💰',
-        title: 'POD-Lizenz für Kostenlose Arbeitsblätter und Ausmalbilder - Verkaufen auf Etsy und Teachers Pay Teachers',
-        description: `Mit Ihrem Vollzugriff Abo erhalten Sie eine kommerzielle Lizenz. Verkaufen Sie erstellte Arbeitsblätter auf Teachers Pay Teachers. Bieten Sie Ihre Materialien auf Etsy an. Erstellen Sie Amazon KDP Bücher mit Ihren Muster-Arbeitsblättern. Keine zusätzlichen Lizenzgebühren erforderlich.
-
-Die 300 DPI Exportqualität erfüllt professionelle Druckstandards. Keine Quellenangabe ist notwendig. Lehrer-Unternehmer nutzen diese Funktion für zusätzliches Einkommen. Die kostenlose Arbeitsblätter Erstellung wird zur Geschäftsmöglichkeit. Kombinieren Sie Muster-Übungen mit Ausmalbilder für attraktive Bundles.`,
-        highlighted: true,
-      },
-      {
-        id: '6',
-        icon: '🎨',
-        title: 'Über 3000 Bilder für Schwungübungen und Malvorlagen - Themenbasierte Bildbibliothek',
-        description: `Die Bildbibliothek enthält über 3000 kindgerechte Illustrationen. Alle Bilder sind nach Themen organisiert. Tiere, Fahrzeuge, Lebensmittel, Natur und viele mehr stehen bereit. Die Suchfunktion findet schnell passende Motive für Ihre Arbeitsblätter.
-
-Hintergründe und Rahmen ergänzen die Bildbibliothek. Wählen Sie passende Hintergründe für jahreszeitliche Themen. Dekorative Rahmen verschönern jedes Arbeitsblatt. Die Transparenzregler passen die Intensität stufenlos an. Perfekt als Ergänzung zu Schwungübungen und Malvorlagen.`,
-        highlighted: false,
-      },
-      {
-        id: '7',
-        icon: '🖨️',
-        title: '300 DPI Qualität für Rechnen lernen und Rechnen 1. Klasse - Professioneller Druck',
-        description: `Der Export erfolgt wahlweise als JPEG oder PDF. Beide Formate liefern 300 DPI Auflösung für gestochen scharfe Ausdrucke. Auch bei Vergrößerung bleiben alle Details erhalten. Die Qualität entspricht professionellen Druckstandards.
-
-Die Graustufen-Option spart Druckerfarbe erheblich. Schwarz-weiß Arbeitsblätter eignen sich für große Klassensätze. Der Lösungsschlüssel wird automatisch erstellt. So haben Lehrkräfte die Korrekturvorlage zur Hand. Ideal für Rechnen lernen Übungen und Rechnen 1. Klasse Materialien.`,
-        highlighted: true,
-      },
-      {
-        id: '8',
-        icon: '🔢',
-        title: 'Neun Mustertypen für Einmaleins Vorbereitung und Mathe Arbeitsblätter - Von einfach bis komplex',
-        description: `Der Generator bietet neun verschiedene Mustertypen für alle Altersstufen. Das AB-Muster wechselt zwischen zwei Elementen. AAB und ABB fügen eine Wiederholung hinzu. ABC verwendet drei verschiedene Bilder im Wechsel. AABB zeigt Paare von gleichen Elementen.
-
-Für fortgeschrittene Schüler stehen ABBC, AABC und ABCC bereit. Das komplexeste ABCD-Muster verwendet vier verschiedene Elemente. Diese Progression bereitet optimal auf das Einmaleins vor. Mathe Arbeitsblätter mit steigender Schwierigkeit fördern kontinuierliches Lernen.`,
-        highlighted: false,
-      },
-      {
-        id: '9',
-        icon: '❓',
-        title: 'Zwei Fragetypen für Vorschule Arbeitsblätter und Arbeitsblätter Grundschule - Flexibles Üben',
-        description: `Wählen Sie zwischen zwei Fragetypen für unterschiedliche Lernziele. Der Lückenfeld-Typ zeigt eine leere Box zum Ausfüllen. Kinder zeichnen oder kleben das fehlende Element ein. Diese Methode fördert aktives Nachdenken und Problemlösung.
-
-Der Multiple-Choice-Typ bietet Auswahlmöglichkeiten. Kinder wählen das richtige Bild aus mehreren Optionen. Diese Variante eignet sich für schnellere Übungen. Beide Typen sind wertvoll für Vorschule Arbeitsblätter und Arbeitsblätter Grundschule.`,
-        highlighted: false,
-      },
-      {
-        id: '10',
-        icon: '✅',
-        title: 'Lösungsschlüssel für Deutsch Arbeitsblätter und Buchstaben lernen - Selbstkontrolle ermöglichen',
-        description: `Der Generator erstellt automatisch einen Lösungsschlüssel. Nach Erstellung des Arbeitsblatts aktivieren Sie diese Funktion. Das vollständige Muster erscheint ohne Lücken. Exportieren Sie den Lösungsschlüssel als separate Datei.
-
-Lehrkräfte nutzen den Lösungsschlüssel für schnelle Korrektur. Schüler können ihre Arbeit selbst überprüfen. Diese Selbstkontrolle fördert eigenständiges Lernen. Auch für Deutsch Arbeitsblätter mit Musterübungen und Buchstaben lernen Aktivitäten ist die Lösungsfunktion wertvoll.`,
-        highlighted: false,
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // How-To Guide - FULL text from muster-arbeitsblatt.md
@@ -343,92 +218,8 @@ Drucken Sie die Arbeitsblätter auf normalem Kopierpapier. Die 300 DPI Qualität
     badgeText: 'Anwendungsbereiche',
     readMoreLabel: 'Mehr lesen',
     showLessLabel: 'Weniger anzeigen',
-    items: [
-      {
-        id: '1',
-        icon: '👶',
-        title: 'Erzieherinnen und Erzieher für Vorschule Arbeitsblätter und Schwungübungen',
-        subtitle: 'Kindergarten und Kita',
-        description: `Erzieherinnen in Kindertagesstätten nutzen den Generator für erste Musterübungen. Das AB-Muster eignet sich perfekt für Vier- bis Fünfjährige. Die bunten Bilder wecken sofort Interesse und Motivation. Kinder lernen spielerisch logische Zusammenhänge zu erkennen.
-
-Die Musterübungen ergänzen Schwungübungen im Vorschulprogramm ideal. Beide fördern kognitive und motorische Fähigkeiten gleichzeitig. Das Erkennen von Mustern trainiert das Gehirn für spätere Lernaufgaben. Vorschule Arbeitsblätter mit Muster-Übungen sind bei Kindern besonders beliebt.
-
-Für thematische Einheiten wählen Erzieher passende Bildthemen aus. Jahreszeiten, Tiere oder Fahrzeuge unterstützen aktuelle Projekte. Die Kombination mit Schwungübungen verlängert die Beschäftigungszeit. So entstehen komplette Lerneinheiten für den Kindergartenalltag.`,
-        quote: 'Meine Vorschulkinder lieben die bunten Muster-Arbeitsblätter!',
-      },
-      {
-        id: '2',
-        icon: '📚',
-        title: 'Grundschullehrer für Arbeitsblätter Grundschule und Mathe Arbeitsblätter',
-        subtitle: '1. bis 3. Klasse',
-        description: `Lehrkräfte der 1. Klasse setzen Muster-Arbeitsblätter zur Einführung mathematischer Konzepte ein. Mustererkennung gehört zu den grundlegenden Kompetenzen im Lehrplan. Die visuellen Übungen bereiten auf abstrakte mathematische Konzepte vor. Arbeitsblätter Grundschule mit Mustern sind im Curriculum fest verankert.
-
-In der 2. Klasse werden komplexere Muster eingeführt und gefestigt. AAB und ABB Muster fordern mehr Konzentration und Aufmerksamkeit. Mathe Arbeitsblätter mit Musterübungen unterstützen das mathematische Denken nachhaltig. Kinder erkennen Strukturen, die beim späteren Rechnen helfen.
-
-Drittklässler arbeiten mit ABC und AABB Mustern auf höherem Niveau. Diese komplexen Strukturen bereiten direkt auf das Einmaleins vor. Das Erkennen von Wiederholungen ist grundlegend für Multiplikation. Der Muster-Generator macht diese Verbindung sichtbar und verständlich.`,
-        quote: 'Perfekte Vorbereitung auf das mathematische Denken in der Grundschule!',
-      },
-      {
-        id: '3',
-        icon: '🏠',
-        title: 'Eltern beim Homeschooling für Buchstaben lernen und Deutsch Arbeitsblätter',
-        subtitle: 'Lernen zu Hause',
-        description: `Homeschool-Familien schätzen die einfache Bedienung des Generators besonders. Ohne pädagogische Ausbildung erstellen Eltern professionelle Materialien. Die Schritt-für-Schritt-Anleitung führt sicher durch den Prozess. In wenigen Minuten entstehen druckfertige Lernmaterialien.
-
-Die verschiedenen Schwierigkeitsstufen ermöglichen individuelle Anpassung. Eltern beobachten den Lernfortschritt und steigern schrittweise die Komplexität. Geschwister unterschiedlichen Alters erhalten jeweils passende Aufgaben. Diese Differenzierung ist beim Unterricht zu Hause besonders wertvoll.
-
-Muster-Übungen ergänzen das Buchstaben lernen und Sprachtraining optimal. Die kognitive Förderung unterstützt alle Lernbereiche gleichzeitig. Homeschool-Eltern kombinieren Muster-Arbeitsblätter mit Deutsch Arbeitsblätter für ganzheitliches Lernen. So entstehen abwechslungsreiche Lernpakete für das Buchstaben lernen und mehr.`,
-        quote: 'Ein Werkzeug deckt alle Altersstufen meiner Kinder ab.',
-      },
-      {
-        id: '4',
-        icon: '🌐',
-        title: 'DaF und DaZ Lehrkräfte für Deutsch Arbeitsblätter und Buchstaben lernen',
-        subtitle: 'Sprachförderung mit Mustern',
-        description: `Lehrkräfte für Deutsch als Fremdsprache nutzen visuelle Lernmethoden intensiv. Muster-Übungen funktionieren komplett ohne Sprachkenntnisse der Lernenden. Kinder verstehen die Aufgabe allein durch die Bilder. Diese universelle Verständlichkeit macht Deutsch Arbeitsblätter zugänglich für alle Lernenden.
-
-Die Bildbibliothek enthält Alltagsgegenstände mit deutschen Bezeichnungen. Beim Arbeiten lernen Kinder Vokabeln ganz nebenbei. Apfel, Stern, Auto, Hund werden durch Wiederholung gefestigt. Deutsch Arbeitsblätter mit Muster-Übungen verbinden Sprach- und Denkförderung effektiv.
-
-DaZ-Klassen profitieren von der mehrsprachigen Benutzeroberfläche. Lehrkräfte erstellen Materialien in ihrer bevorzugten Arbeitssprache. Die Kinder sehen bekannte Bilder in neuen Lernkontexten. Mustererkennung überbrückt sprachliche Barrieren beim Buchstaben lernen und Spracherwerb.`,
-        quote: 'Die Mehrsprachigkeit ist genau was meine DaZ-Schüler brauchen.',
-      },
-      {
-        id: '5',
-        icon: '♿',
-        title: 'Sonderpädagogen für Schwungübungen und Einmaleins Vorbereitung',
-        subtitle: 'Förderschule und Inklusion',
-        description: `Sonderpädagogen passen Arbeitsblätter an individuelle Bedürfnisse präzise an. Die einstellbare Übungsanzahl ermöglicht feine Differenzierung. Mehr einfache Übungen für Kinder mit Lernschwierigkeiten. Weniger komplexe Übungen für fortgeschrittene Förderschüler.
-
-Für Schüler mit Konzentrationsschwächen sind die visuellen Muster besonders wertvoll. Die klare Struktur gibt Orientierung und Sicherheit. Die motivierenden Bilder halten die Aufmerksamkeit länger aufrecht. Wiederholte Erfolge stärken das Selbstvertrauen nachhaltig.
-
-In inklusiven Klassen erstellen Sonderpädagogen differenzierte Materialien effizient. Dasselbe Thema erscheint in verschiedenen Schwierigkeitsstufen. Alle Kinder arbeiten am gleichen Projekt gemeinsam. Die Einmaleins Vorbereitung gelingt durch visuelle Muster besser. Schwungübungen ergänzen die kognitiven Übungen für ganzheitliche Förderung.`,
-        quote: 'Ich kann schnell individualisierte Arbeitsblätter für jeden Förderbedarf erstellen.',
-      },
-      {
-        id: '6',
-        icon: '💼',
-        title: 'Lehrer-Unternehmer für Ausmalbilder und Malvorlagen',
-        subtitle: 'Verkauf auf Online-Plattformen',
-        description: `Pädagogen mit unternehmerischem Interesse nutzen die kommerzielle Lizenz. Das Vollzugriff Abo für 240 Euro jährlich enthält alle Verkaufsrechte. Erstellte Arbeitsblätter dürfen auf allen Plattformen verkauft werden. Teachers Pay Teachers und Etsy sind besonders beliebte Marktplätze.
-
-Die professionelle 300 DPI Qualität erfüllt höchste Marktstandards. Käufer erwarten druckfertige Produkte ohne Qualitätsverlust. Der Muster-Generator liefert diese Qualität automatisch bei jedem Export. Keine Nachbearbeitung in Grafikprogrammen erforderlich.
-
-Kombinieren Sie Muster-Arbeitsblätter mit Ausmalbilder für attraktive Bundles. Thematische Pakete erzielen deutlich höhere Verkaufspreise. Malvorlagen als Bonus-Material steigern den wahrgenommenen Wert. Die über 3000 Bilder ermöglichen endlose kreative Variationen für Ausmalbilder und Lernmaterialien.`,
-        quote: 'Mein Abonnement hat sich im ersten Monat bezahlt gemacht!',
-      },
-      {
-        id: '7',
-        icon: '🩺',
-        title: 'Therapeuten für Rechnen lernen und Mathe Arbeitsblätter',
-        subtitle: 'Ergotherapie und Lerntherapie',
-        description: `Ergotherapeuten setzen Muster-Übungen zur kognitiven Förderung gezielt ein. Der spielerische Kontext motiviert junge Patienten zur Mitarbeit. Die Kombination von Sehen, Denken und Handeln ist therapeutisch wertvoll. Kinder merken nicht, dass sie trainieren.
-
-Lerntherapeuten nutzen Muster-Übungen bei Rechenschwächen und Dyskalkulie. Das visuelle Erkennen von Strukturen stärkt mathematisches Denken. Der schrittweise Aufbau vom AB zum ABCD Muster entspricht therapeutischen Prinzipien. Das Rechnen lernen wird spielerisch vorbereitet.
-
-Für die Förderung mathematischer Grundlagen eignen sich einfache Muster besonders. Das Wiederholen von Mustern festigt neuronale Verbindungen im Gehirn. Die bunten Bilder halten die Aufmerksamkeit während der Therapiesitzung. Therapeuten schätzen die schnelle Erstellung individueller Mathe Arbeitsblätter.`,
-        quote: 'Muster-Übungen sind ein Kernbestandteil meiner Lerntherapie.',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // FAQ Section - FULL text from muster-arbeitsblatt.md
@@ -442,78 +233,8 @@ Für die Förderung mathematischer Grundlagen eignen sich einfache Muster besond
     showLessLabel: 'Weniger anzeigen',
     secureCheckout: 'Sichere Zahlung',
     cancelAnytime: 'Jederzeit kündbar',
-    items: [
-      {
-        id: '1',
-        question: 'Ist der Generator für Kostenlose Arbeitsblätter und Vorschule Arbeitsblätter wirklich unbegrenzt nutzbar?',
-        answer: `Der Muster-Arbeitsblatt Generator erfordert ein Vollzugriff Abo für 240 Euro jährlich oder 25 Euro monatlich. Mit Ihrem Abonnement erstellen Sie unbegrenzt viele Arbeitsblätter ohne zusätzliche Kosten pro Blatt. Es gibt keine versteckten Gebühren für Bilder, Downloads oder Exporte.
-
-Das Vollzugriff Abo enthält alle 33 Arbeitsblatt-Generatoren der gesamten Plattform. Neben dem Muster-Generator erhalten Sie Zugang zu Generatoren für Vorschule Arbeitsblätter und vieles mehr. Die monatliche Option ermöglicht flexible Nutzung ohne langfristige vertragliche Bindung.`,
-      },
-      {
-        id: '2',
-        question: 'Kann ich Muster-Arbeitsblätter für Schwungübungen und Buchstaben lernen zu Hause drucken?',
-        answer: `Ja, alle erstellten Arbeitsblätter können auf jedem handelsüblichen Heimdrucker ausgedruckt werden. Die 300 DPI Qualität garantiert gestochen scharfe Ausdrucke auf allen Papierformaten. Sowohl Farb- als auch Schwarzweiß-Druck funktionieren einwandfrei ohne Qualitätsverlust.
-
-Für Schwungübungen und Buchstaben lernen Übungen empfehlen wir normales Kopierpapier. Bei Aktivitäten mit Ausschneiden ist etwas dickeres Papier von Vorteil. Die Graustufen-Option spart erheblich Druckerfarbe bei großen Klassensätzen.`,
-      },
-      {
-        id: '3',
-        question: 'Brauche ich Designkenntnisse für Mathe Arbeitsblätter und Einmaleins Vorbereitung?',
-        answer: `Keine Designkenntnisse sind erforderlich für die Nutzung des Generators. Das System führt Sie Schritt für Schritt durch den gesamten Erstellungsprozess. Wählen Sie einfach Mustertyp und Bilder aus den Menüs. Der Generator erstellt automatisch professionelle Mathe Arbeitsblätter.
-
-Die automatische Themenwahl wählt passende Bilder vollständig für Sie aus. Für die Einmaleins Vorbereitung mit Musterübungen genügen wenige Klicks. Die Vorschau zeigt das Ergebnis sofort vor dem Download an. Anpassungen sind jederzeit ohne Aufwand möglich.`,
-      },
-      {
-        id: '4',
-        question: 'Kann ich erstellte Arbeitsblätter für Schwungübungen und Deutsch Arbeitsblätter im Unterricht verwenden?',
-        answer: `Das Vollzugriff Abo enthält unbegrenzte Nutzungsrechte für den gesamten Unterricht. Drucken Sie so viele Kopien wie benötigt für Ihre Klassen. Verteilen Sie Arbeitsblätter an alle Schüler ohne Einschränkungen. Keine zusätzlichen Lizenzgebühren für Schwungübungen oder andere Materialtypen.
-
-Die Arbeitsblätter eignen sich für Deutsch Arbeitsblätter Aktivitäten und Musterübungen gleichermaßen. Kombinieren Sie verschiedene Generatoren für komplette thematische Lerneinheiten. Auch für Vertretungsstunden und Hausaufgaben sind alle Materialien uneingeschränkt nutzbar.`,
-      },
-      {
-        id: '5',
-        question: 'In welchen Sprachen sind Arbeitsblätter Grundschule für Buchstaben lernen verfügbar?',
-        answer: `Der Generator unterstützt elf Sprachen vollständig und ohne Einschränkungen. Die Benutzeroberfläche ist verfügbar in Deutsch, Englisch, Französisch, Spanisch, Portugiesisch, Italienisch, Niederländisch, Schwedisch, Dänisch, Norwegisch und Finnisch.
-
-Die Bildbibliothek enthält sprachspezifische Beschriftungen für alle Sprachen. Für Arbeitsblätter Grundschule sind alle Bilder mit korrekten deutschen Namen versehen. Beim Buchstaben lernen unterstützen die Bildbezeichnungen den Wortschatzerwerb. Diese Vielfalt macht den Generator ideal für internationale Schulen.`,
-      },
-      {
-        id: '6',
-        question: 'Darf ich erstellte Arbeitsblätter für Ausmalbilder und Malvorlagen verkaufen?',
-        answer: `Ja, das Vollzugriff Abo enthält eine vollständige kommerzielle Lizenz ohne Einschränkungen. Verkaufen Sie Ihre Arbeitsblätter auf Teachers Pay Teachers, Etsy oder Amazon KDP. Keine zusätzlichen Lizenzgebühren für Ausmalbilder, Malvorlagen oder andere Materialien erforderlich.
-
-Die 300 DPI Exportqualität erfüllt alle professionellen Marktstandards. Käufer erwarten druckfertige Produkte und der Generator liefert genau das. Kombinieren Sie Muster-Arbeitsblätter mit Ausmalbilder für attraktive Verkaufsbundles. Die kommerzielle Nutzung ist vollständig im Abo enthalten.`,
-      },
-      {
-        id: '7',
-        question: 'Wie unterstützen Muster-Arbeitsblätter das Rechnen lernen und Rechnen 1. Klasse?',
-        answer: `Mustererkennung ist eine wissenschaftlich belegte Grundlage für mathematisches Denken. Das Erkennen von Wiederholungen trainiert exakt dieselben kognitiven Fähigkeiten wie Rechnen lernen. Kinder, die Muster verstehen, entwickeln ein besseres Zahlenverständnis für die Schule.
-
-Für Rechnen 1. Klasse sind einfache AB-Muster der ideale Einstieg in strukturiertes Denken. Die Progression zu AAB und ABC entspricht der steigenden Komplexität im Mathematikunterricht. Visuelle Muster werden später zu Zahlenmustern und bereiten auf alle Rechenoperationen vor.`,
-      },
-      {
-        id: '8',
-        question: 'Welche Mustertypen eignen sich für Vorschule Arbeitsblätter und Schwungübungen?',
-        answer: `Für Vorschulkinder empfehlen wir das einfache AB-Muster als idealen Einstieg. Zwei Elemente wechseln sich ab und sind leicht zu erkennen. Diese Grundlage schafft Selbstvertrauen und Motivation für weitere Lernschritte.
-
-Die Kombination mit Schwungübungen fördert kognitive und motorische Fähigkeiten gleichzeitig. Vorschule Arbeitsblätter mit Mustern bereiten optimal auf die Grundschule vor. Mit zunehmendem Können steigern Sie auf AAB oder ABB Muster für mehr Herausforderung.`,
-      },
-      {
-        id: '9',
-        question: 'Kann ich den Generator für Deutsch Arbeitsblätter und Buchstaben lernen in DaF-Klassen nutzen?',
-        answer: `Der Generator eignet sich hervorragend für Deutsch als Fremdsprache Unterricht. Muster-Übungen funktionieren vollständig ohne Sprachkenntnisse der Lernenden. Kinder verstehen die Aufgabe allein durch die visuellen Bilder und Muster.
-
-Die Bildbibliothek enthält Alltagsgegenstände mit deutschen Bezeichnungen für Deutsch Arbeitsblätter. Beim Arbeiten lernen Kinder Vokabeln durch Wiederholung ganz nebenbei. Das Buchstaben lernen wird durch die visuellen Muster zusätzlich unterstützt und gefestigt.`,
-      },
-      {
-        id: '10',
-        question: 'Wie viele Übungen kann ich auf einem Arbeitsblatt Grundschule für Einmaleins erstellen?',
-        answer: `Der Generator ermöglicht zwischen einer und acht Übungen pro Arbeitsblatt flexibel. Jede einzelne Übung kann einen eigenen Mustertyp und eigene Bilder haben. So erstellen Sie differenzierte Arbeitsblatt Grundschule Materialien für heterogene Klassen.
-
-Für die Einmaleins Vorbereitung empfehlen wir vier bis sechs Übungen pro Blatt. Diese Anzahl bietet ausreichend Wiederholung ohne Überforderung der Kinder. Die individuelle Einstellung ermöglicht perfekte Anpassung an jede Lerngruppe und jeden Unterrichtszweck.`,
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Related Apps Section - FULL text from muster-arbeitsblatt.md
@@ -530,56 +251,8 @@ Für die Einmaleins Vorbereitung empfehlen wir vier bis sechs Übungen pro Blatt
       securePayment: 'Sichere Zahlung',
       cancelAnytime: 'Jederzeit kündbar',
     },
-    items: [
-      {
-        id: '1',
-        slug: 'pattern-train',
-        name: 'Muster-Zug',
-        category: 'Logik',
-        icon: '🚂',
-        description: 'Kombinieren Sie Muster-Arbeitsblätter mit dem Muster-Zug für Ausschneide-Aktivitäten und motorische Förderung.',
-      },
-      {
-        id: '2',
-        slug: 'wordsearch',
-        name: 'Wortsuche',
-        category: 'Sprache',
-        icon: '🔍',
-        description: 'Verbinden Sie Muster-Übungen mit Wortsuch-Rätseln für abwechslungsreiche Deutsch Arbeitsblätter.',
-      },
-      {
-        id: '3',
-        slug: 'drawing-lines',
-        name: 'Linien Zeichnen',
-        category: 'Feinmotorik',
-        icon: '✏️',
-        description: 'Ergänzen Sie Muster-Arbeitsblätter mit Linienübungen für ganzheitliche Feinmotorik-Förderung.',
-      },
-      {
-        id: '4',
-        slug: 'chart-count',
-        name: 'Bilddiagramm',
-        category: 'Mathe',
-        icon: '📊',
-        description: 'Kombinieren Sie Muster mit Zählübungen für umfassende mathematische Grundlagenförderung.',
-      },
-      {
-        id: '5',
-        slug: 'matching-app',
-        name: 'Zuordnungsübungen',
-        category: 'Visuelles Lernen',
-        icon: '🔗',
-        description: 'Verbinden Sie Mustererkennung mit Zuordnungsaufgaben für visuelles Unterscheidungstraining.',
-      },
-      {
-        id: '6',
-        slug: 'coloring',
-        name: 'Ausmalbilder',
-        category: 'Kreativität',
-        icon: '🎨',
-        description: 'Kombinieren Sie Muster-Arbeitsblätter mit Ausmalbilder für kreative Lernpakete.',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Pricing Section

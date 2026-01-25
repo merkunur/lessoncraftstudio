@@ -96,43 +96,8 @@ Rutenetttegning arbeidsark forbereder barn for koordinatsystemer i matematikk. P
     noPdfLabel: 'Ingen PDF tilgjengelig',
     freePdfCountLabel: '3 gratis nedlastinger',
     ofLabel: 'av',
-    items: [
-      {
-        id: '1',
-        worksheetSrc: '/samples/norwegian/draw-and-color/sample-1.jpeg',
-        answerKeySrc: '',
-        altText: 'Rutenetttegning gratis arbeidsark for barn - finmotorikk øvelser barnehage',
-        pdfDownloadUrl: '/samples/norwegian/draw-and-color/sample-1.pdf',
-      },
-      {
-        id: '2',
-        worksheetSrc: '/samples/norwegian/draw-and-color/sample-2.jpeg',
-        answerKeySrc: '',
-        altText: 'Gratis arbeidsark rutenetttegning - visuospatiale øvelser for 1. trinn',
-        pdfDownloadUrl: '/samples/norwegian/draw-and-color/sample-2.pdf',
-      },
-      {
-        id: '3',
-        worksheetSrc: '/samples/norwegian/draw-and-color/sample-3.jpeg',
-        answerKeySrc: '',
-        altText: 'Arbeidsark for barn rutenetttegning - symmetri gratis utskrifter',
-        pdfDownloadUrl: '/samples/norwegian/draw-and-color/sample-3.pdf',
-      },
-      {
-        id: '4',
-        worksheetSrc: '/samples/norwegian/draw-and-color/sample-4.jpeg',
-        answerKeySrc: '',
-        altText: 'Rutenetttegning arbeidsark for 1. trinn - kopieringsøvelser småskole',
-        pdfDownloadUrl: '/samples/norwegian/draw-and-color/sample-4.pdf',
-      },
-      {
-        id: '5',
-        worksheetSrc: '/samples/norwegian/draw-and-color/sample-5.jpeg',
-        answerKeySrc: '',
-        altText: 'Gratis arbeidsark for barn rutenetttegning - fargeleggingsbilder',
-        pdfDownloadUrl: '/samples/norwegian/draw-and-color/sample-5.pdf',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Features Grid - FULL text from draw-and-color.md feature sections
@@ -148,85 +113,8 @@ Rutenetttegning arbeidsark forbereder barn for koordinatsystemer i matematikk. P
       noHiddenFees: 'Ingen skjulte avgifter',
       cancelAnytime: 'Avbryt når som helst',
     },
-    items: [
-      {
-        id: '1',
-        icon: '⚡',
-        title: 'Lag Rutenetttegning på 3 Klikk - Arbeidsark Gratis for Matematikk Oppgaver og Tall og Telling',
-        description: `Opprett rutenetttegning arbeidsark ekstremt raskt. Velg rutenettstørrelse fra 3x3 til 10x10 celler. Juster ledetråd-celle prosent fra 10% til 75%. Klikk Generer og arbeidsarket ditt vises på lerretet. Hele prosessen tar under ett minutt. Systemet genererer profesjonelle arbeidsark gratis umiddelbart.
-
-Ingen designferdigheter kreves for å lage rutenetttegning arbeidsark. Grensesnittet er intuitivt for alle pedagoger. Velg større rutenett for yngre barn eller mindre celler for eldre elever. Hver størrelse passer ulike ferdighetsnivåer. Barn lærer visuospatiale ferdigheter gjennom progressiv cellekopiering.
-
-Symmetri-modus tilbyr horisontal eller vertikal speiling. Systemet fyller automatisk ledetråd-celler i én halvdel. Barn tegner speilbildet i den tomme halvdelen. Dette utvikler symmetriforståelse verdifullt for matematikk oppgaver. Samme prinsipper støtter tall og telling når du legger til numre i cellene. Lag komplette matematikk arbeidsark med rutenett.`,
-        highlighted: false,
-      },
-      {
-        id: '2',
-        icon: '✏️',
-        title: 'Rediger Alt på Lerretet - Fargeleggingsbilder Barn og Finmotorikk Øvelser for Oppgavehefter Barn',
-        description: `Hvert element på arbeidsarket kan redigeres fullstendig. Dra, roter, endre størrelse eller slett hvilket som helst bilde eller tekst. Flytt rutenettet for perfekt plassering. Juster cellestørrelse for yngre eller eldre barn. Legg til tekstelementer med instruksjoner på norsk.
-
-Full redigerbarhet gjør arbeidsark tilpasset for fargeleggingsbilder barn. Barn kan fargelegge ferdig tegnet bilde. Kombiner rutenetttegning med fargelegging for komplette finmotorikk øvelser. Legg til bokstaver i celler for bokstaver lære skrive øvinger. Systemet støtter norske bokstaver perfekt.
-
-Verktøylinjen gir raske kontroller for alle objekter. Juster lag med Bring til front eller Send bakover. Juster elementer til venstre, høyre, topp eller bunn. Sentrér objekter med ett klikk. Zoom inn for presis redigering av små detaljer. Angre-funksjonen lar deg prøve ulike oppsett. Lag profesjonelle oppgavehefter barn med full kontroll.`,
-        highlighted: false,
-      },
-      {
-        id: '3',
-        icon: '📤',
-        title: 'Last Opp Egne Bilder - Tilpass Lesetrening og Gangetabellen Arbeidsark',
-        description: `Last opp dine egne bilder for personaliserte rutenetttegning arbeidsark. Systemet godtar JPEG, PNG og GIF formater. Last opp flere filer samtidig. Kombiner biblioteksbilder med egne bilder. Lag arbeidsark med elevenes ansikter eller klasseromsobjekter.
-
-Opplastede bilder vises i forhåndsvisningspanelet. Klikk på hvilket som helst bilde for å legge det til rutenettet. Bruk lokale bilder som barn kjenner igjen. Fotografer gjenstander fra klasserommet eller naturen. Personalisering øker barnas engasjement i lesetrening øvelser.
-
-Bildebiblioteket lagrer opplastinger for økten. Bruk samme bilder på tvers av flere arbeidsark. Lag sammenhengende oppgavehefter med gjenkjennelige tema. Kombiner rutenetttegning med gangetabellen ved å laste opp tallgitter-bilder. Barn lærer nye konsepter mens de øver visuospatiale ferdigheter.`,
-        highlighted: false,
-      },
-      {
-        id: '4',
-        icon: '🌍',
-        title: '11 Språk for Addisjon og Subtraksjon og Matematikk Oppgaver - Flerspråklig Støtte',
-        description: `Grensesnittet fungerer perfekt på norsk. Alle kontroller, knapper og meldinger vises på norsk. Bildenavnene er oversatt til norsk. Systemet støtter også 10 andre språk. Dette er verdifullt for flerspråklig barnehageundervisning og internasjonale skoler.
-
-Norsk grensesnitt gjør verktøyet tilgjengelig for alle norske pedagoger. Ingen engelskkunnskaper kreves. Lag rutenetttegning, addisjon og subtraksjon arbeidsark og matematikk oppgaver i ditt eget språk. Bildene har norske filnavn som støtter ordforrådsutvikling.
-
-Bytt språk når som helst via innstillingsmenyen. Bruk samme verktøy for norsk, engelsk, svensk eller andre språk. Flerspråkstøtte gjør verktøyet perfekt for tospråklige program. Lag arbeidsark for ulike språkgrupper. Full Tilgang inkluderer alle 11 språk uten ekstra kostnad.`,
-        highlighted: false,
-      },
-      {
-        id: '5',
-        icon: '💰',
-        title: 'Kommersiell Lisens for Salg - Oppgavehefter Barn og Fargeleggingsbilder Barn Inkludert',
-        description: `Full Tilgang-abonnementet inkluderer full kommersiell print-on-demand lisens. Selg rutenetttegning arbeidsark på Teachers Pay Teachers. List oppgavehefter barn på Etsy uten ekstra lisenskostnader. Publiser fargeleggingsbilder barn i lavinnholdsbøker på Amazon KDP.
-
-Kommersiell lisens er inkludert i $240/år abonnementet. Ingen ekstra avgifter for å selge arbeidsark. Lag oppgavehefter barn og selg dem umiddelbart. 300 DPI eksport sikrer profesjonell utskriftskvalitet. Kunder mottar skarpe, klare arbeidsark.
-
-Mange lærere tjener $500-$5000 per måned ved å selge arbeidsark. Lag rutenetttegning, fargeleggingsbilder barn og finmotorikk pakker. Kombiner ulike arbeidsarktyper i komplette læringsressurser. Full Tilgang gir deg 33 generatorer for varierte produkter. Markedsfør på Pinterest og sosiale medier.`,
-        highlighted: true,
-      },
-      {
-        id: '6',
-        icon: '🎨',
-        title: '3000+ Bildebibliotek for Finmotorikk Øvelser og Arbeidsark Gratis',
-        description: `Få tilgang til over 3000 barnvennlige illustrasjoner. Bildene er organisert etter tema. Velg dyr, kjøretøy, mat, sport eller feriedager. Hvert tema inneholder dusinvis av høykvalitetsbilder. Kombinér bilder for temabaserte finmotorikk øvelser og rutenetttegning arbeidsark.
-
-Søkefunksjonen finner spesifikke bilder raskt. Skriv "hund" for å se alle hundebilder. Filtrer etter tema for smalere valg. Alle bilder fungerer perfekt i rutenettet. Bruk samme bilder på tvers av forskjellige arbeidsarktyper. Lag arbeidsark gratis med ubegrenset tilgang til biblioteket.
-
-Bildebiblioteket inkluderer bakgrunner og rammer. Legg til temabaserte rammer til arbeidsark. Velg bakgrunner som matcher årstider eller ferier. Opasitetskontroller lar deg justere intensitet. Lag visuelt tiltalende arbeidsark som barn elsker. Alle bilder er inkludert uten per-bilde avgifter.`,
-        highlighted: false,
-      },
-      {
-        id: '7',
-        icon: '🖨️',
-        title: 'Profesjonell 300 DPI Kvalitet - Last Ned Bokstaver Lære Skrive og Lesetrening Arbeidsark',
-        description: `Eksporter arbeidsark i profesjonell 300 DPI oppløsning. Last ned som PDF eller JPEG filer. PDF-formatet er perfekt for direkte utskrift. JPEG-formatet fungerer for digital deling. Begge formater opprettholder skarp bildekvalitet.
-
-Gråtonevalgert reduserer blekkforbruk. Konverter fargede rutenetttegning arbeidsark til svart-hvitt utskrift. Spar blekkostnader mens du beholder klarhet. Perfekt for masseutskrift av bokstaver lære skrive øvelser. Gråtone fungerer også flott for lesetrening arbeidsark.
-
-Last ned arbeidsark umiddelbart etter generering. Ingen ventetid for rendering. Filer er klare på sekunder. Print hjemme eller på skolen. Del digitale kopier med foreldre. Lag komplette oppgavehefter for hjemmebruk eller kommersiell salg.`,
-        highlighted: true,
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // How-To Guide - FULL text from draw-and-color.md step sections
@@ -308,80 +196,8 @@ Alle nedlastinger er 300 DPI profesjonell kvalitet. Skarp oppløsning sikrer kla
     badgeText: 'Hvem Er Det For',
     readMoreLabel: 'Les mer',
     showLessLabel: 'Vis mindre',
-    items: [
-      {
-        id: '1',
-        icon: '👶',
-        title: 'Barnehagepedagoger - Finmotorikk Øvelser og Tall og Telling for Småbarnsutvikling',
-        subtitle: 'Utvikle visuospatiale ferdigheter hos 3-5 åringer',
-        description: `Barnehagepedagoger lager rutenetttegning arbeidsark for 3-5 åringer. Små rutenett (3x3 til 4x4) passer perfekt for små hender. Høy ledetråd-celle prosent (60-75%) gir mye støtte. Barn lærer grunnleggende celle-konsepter gjennom lekbasert læring. Dette forbereder for senere tall og telling ferdigheter.
-
-Kombiner rutenetttegning med enkle temaer barn kjenner. Velg bilder av dyr, kjøretøy eller mat fra biblioteket. Barn kopierer bildets form celle for celle. Dette utvikler visuospatial bevissthet og hånd-øye koordinasjon. Samme ferdigheter støtter senere finmotorikk øvelser og blyantgrep.
-
-Lag temabaserte uker med samsvarende arbeidsark. Bruk dyretema for én uke. Neste uke fokuser på transport. Konsistente tema hjelper barn gjenkjenne mønstre. Last opp bilder fra barnehageutflukter for personaliserte arbeidsark. Barn elsker å se kjente steder i rutenettet.`,
-        quote: 'Barna utvikler finmotorikk mens de har det gøy med rutenetttegning!',
-      },
-      {
-        id: '2',
-        icon: '👩‍🏫',
-        title: 'Lærere i Småskoletrinnet - Matematikk Oppgaver, Gangetabellen og Addisjon og Subtraksjon Integrering',
-        subtitle: 'Kombiner visuospatiale øvelser med matematikk læring',
-        description: `Lærere i 1.-3. trinn integrerer rutenetttegning med matematikk oppgaver. Rutenettets celle-struktur matcher koordinatsystem-læring. Barn øver x-akse og y-akse konsepter visuelt. Dette forbereder for formelle grafer senere. Rutenetttegning gjør abstrakt matematikk konkret.
-
-Legg til tallgitter i celler for gangetabellen øving. Barn kopierer rutenettet mens de øver multiplikasjon. Kombiner visuospatial læring med matematikk memorering. Denne multisensoriske tilnærmingen forbedrer retensjon. Samme metode fungerer for addisjon og subtraksjon arbeidsark.
-
-Større rutenett (6x6 til 8x8) utfordrer 2.-3. trinn elever. Lavere ledetråd-celle prosent (20-30%) krever mer selvstendig arbeid. Barn må analysere mønster og replikere nøyaktig. Dette utvikler problemløsningsferdigheter og konsentrasjon. Pedagoger justerer vanskelighetsgrad basert på individuelle behov.`,
-        quote: 'Rutenetttegning gjør matematikk morsommere for elevene mine.',
-      },
-      {
-        id: '3',
-        icon: '🏠',
-        title: 'Hjemmeskoleforeldre - Bokstaver Lære Skrive og Oppgavehefter Barn for Flernivå Undervisning',
-        subtitle: 'Fleksible arbeidsark for flere barn på forskjellige nivåer',
-        description: `Hjemmeskoleforeldre bruker rutenetttegning på tvers av flere barns alderstrinn. Lag forskjellige vanskelighetsgrader for hvert barn samtidig. Småbarn får enkle 3x3 rutenett. Eldre barn får utfordrende 10x10 rutenett. Systemet genererer ubegrensede arbeidsark gratis for hele familien.
-
-Kombiner rutenetttegning med bokstaver lære skrive øvelser. Legg til bokstaver i rutenettet. Barn kopierer både bildets form og bokstavene. Dette integrerer visuospatial læring med bokstavforming. Multisensorisk tilnærming støtter ulike læringsstiler. Hjemmeskolefamilier lager komplette oppgavehefter barn.
-
-Lag ukentlige oppgavehefter med rutenetttegning og andre aktiviteter. Kombiner rutenetttegning mandag, matematikk tirsdag, lesing onsdag. Alle arbeidsark har konsistent visuelt tema. Barn ser progresjon gjennom uken. Last ned alle arbeidsark søndag for neste ukes undervisning.`,
-        quote: 'Alle tre barna mine kan jobbe med tilpassede rutenetttegning oppgaver.',
-      },
-      {
-        id: '4',
-        icon: '🌐',
-        title: 'Norsk som Andrespråk Lærere - Lesetrening og Fargeleggingsbilder Barn for Ordforrådsutvikling',
-        subtitle: 'Flerspråklige arbeidsark for språklæring',
-        description: `Lærere i norsk som andrespråk bruker rutenetttegning for visuell ordforrådsundervisning. Bildenavnene i biblioteket er alle på norsk. Barn lærer nye ord mens de velger bilder. Rutenetttegning gir kontekst for ordforståelse. Visuelle ledetråder støtter språktilegnelse.
-
-Lag tematiske ordforråds-økter med rutenetttegning. Velg mattema og bruk matvarebilder. Barn lærer "eple", "banan", "gulrot" mens de tegner. Neste uke bruk dyretema for "hund", "katt", "fugl". Systematisk temabygging utvikler omfattende ordforråd. Dette støtter lesetrening og språkflyt.
-
-Kombiner rutenetttegning med skriftlige setninger. Barn tegner rutenettet først. Deretter skriver de setninger med bildets navn. "Jeg ser en hund." eller "Dette er et eple." Integrering av visuelt, motorisk og språklig læring forbedrer retensjon. Flerspråklige barn drar særlig nytte av multisensorisk tilnærming.`,
-        quote: 'Flerspråklige elever lærer norske ord mens de tegner.',
-      },
-      {
-        id: '5',
-        icon: '🎓',
-        title: 'Spesialpedagoger - Differensierte Finmotorikk Øvelser og Arbeidsark Gratis for Individuelle Behov',
-        subtitle: 'Tilpassede arbeidsark for elever med spesielle behov',
-        description: `Spesialpedagoger tilpasser rutenetttegning for elever med ulike læringsbehov. Juster rutenettstørrelse basert på finmotoriske ferdigheter. Store celler (3x3 rutenett) passer elever med koordinasjonsutfordringer. Små celler (8x8+) utfordrer elever klare for neste nivå. Ubegrenset tilgang til arbeidsark gratis støtter kontinuerlig differensiering.
-
-Høy ledetråd-celle prosent gir strukturert støtte for elever som trenger forutsigbarhet. Symmetri-modus tilbyr ekstra visuell støtte. Elever ser tydelig mønster i fyllte celler. Dette reduserer kognitiv belastning. Spesialpedagoger justerer støttenivå gradvis etter hvert som ferdigheter utvikles.
-
-Kombiner rutenetttegning med sensoriske pauser. Fem minutter tegning, deretter bevegelsespause. Rutenetttegning gir fokusert aktivitet mellom bevegelsesøkter. Forutsigbar struktur støtter elever med oppmerksomhetsutfordringer. Visuell natur av oppgaven holder engasjement.`,
-        quote: 'Jeg kan lage perfekt tilpassede rutenetttegning til hver elev.',
-      },
-      {
-        id: '6',
-        icon: '💼',
-        title: 'Lærerentreprenører - Selg Oppgavehefter Barn og Fargeleggingsbilder Barn på Teachers Pay Teachers',
-        subtitle: 'Bygg ekstrainntekt med profesjonelle arbeidsark',
-        description: `Lærerentreprenører tjener inntekt ved å selge rutenetttegning arbeidsark. Full Tilgang-abonnement inkluderer kommersiell print-on-demand lisens. Lag oppgavehefter barn for salg på Teachers Pay Teachers, Etsy eller Amazon KDP. Ingen ekstra lisenskostnader utover $240/år abonnementet. Mange lærere tjener $500-$5000 månedlig.
-
-Lag temabaserte rutenetttegning pakker for kommersielt salg. Sesongpakker selger godt før ferier. Lag påskepakke i februar, julpakke i oktober. Kombiner 20-30 arbeidsark i ett produkt. Pris pakker fra $3-$10 avhengig av innhold. Rutenetttegning kombinert med fargeleggingsbilder barn gir høyere verdi.
-
-Differensierte pakker appellerer til bredere marked. Lag "Rutenetttegning for Barnehage" med 3x3 rutenett. Lag "Utfordrende Rutenetttegning 3. trinn" med 10x10 rutenett. Markedsfør til ulike pedagoggrupper. Spesialisering øker salg sammenlignet med generiske pakker.`,
-        quote: 'Abonnementet betalte seg selv tilbake første måneden.',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // FAQ Section - FULL text from draw-and-color.md FAQ sections
@@ -393,62 +209,8 @@ Differensierte pakker appellerer til bredere marked. Lag "Rutenetttegning for Ba
     showLessLabel: 'Vis mindre',
     secureCheckout: 'Sikker betaling',
     cancelAnytime: 'Avbryt når som helst',
-    items: [
-      {
-        id: '1',
-        question: 'Er denne rutenetttegning generatoren virkelig gratis å bruke?',
-        answer: `Rutenetttegning generatoren krever Full Tilgang-abonnement som koster $240 årlig eller $25 månedlig. Abonnementet ditt gir deg ubegrenset rutenetttegning arbeidsark uten ekstra kostnader per ark. Generer så mange arbeidsark du trenger uten tilleggsavgifter. Full Tilgang inkluderer også 32 andre arbeidsarkgeneratorer.
-
-Kun Word Search er tilgjengelig gratis med vannmerke på arbeidsark. Alle andre generatorer inkludert rutenetttegning krever abonnement. Full Tilgang gir tilgang til alle 33 generatorer. Dette inkluderer rutenetttegning, matematikk, lesing, skriving og mer. Ingen per-ark avgifter betyr reell verdi for pedagoger som lager mange arbeidsark.
-
-Full Tilgang inkluderer kommersiell lisensering, 11 språkstøtte og profesjonell 300 DPI kvalitet. Disse funksjonene er inkludert i $240 årskostnaden. Ingen skjulte avgifter eller per-bruks kostnader. Ubegrenset nedlasting lar deg lage så mye du trenger.`,
-      },
-      {
-        id: '2',
-        question: 'Kan jeg printe rutenetttegning arbeidsark hjemme på vanlig skriver?',
-        answer: `Ja, rutenetttegning arbeidsark printer perfekt på vanlige hjemmeskrivere. Last ned som PDF-format for beste resultater. PDF bevarer layout og skarphet. Velg A4 eller Letter størrelse som matcher papiret ditt. Arbeidsark er designet for standard 8.5×11" eller A4-papir.
-
-300 DPI oppløsning sikrer klare rutenettlinjer. Ledetråd-celler printer skarpt. Tomme celler er tydelig definert. Barn ser enkelt hvor de skal tegne. Profesjonell kvalitet matcher kommersielle arbeidsark.
-
-Gråtone-alternativet sparer blekkostnader betydelig. Konverter farget rutenetttegning til svart-hvitt før utskrift. Klarhet opprettholdes i gråtone. Perfekt for masseutskrift av klasseromssett. Fargeversjon fungerer for digitale kopier eller spesielle anledninger.`,
-      },
-      {
-        id: '3',
-        question: 'Trenger jeg designferdigheter for å lage rutenetttegning arbeidsark?',
-        answer: `Nei, absolutt ingen designferdigheter kreves. Grensesnittet er intuitivt for alle pedagoger. Velg rutenettstørrelse fra rullegardinmeny. Juster ledetråd-celle prosent med enkel glidebryter. Klikk Generer og arbeidsarket vises umiddelbart. Hele prosessen er pek-og-klikk enkel.
-
-Forhåndsvalgte innstillinger fungerer utmerket for de fleste bruksområder. Standard 5×5 rutenett med 25% ledetråd-celler passer 1. trinn. Pedagoger kan bruke standarder uten justeringer. Avanserte brukere kan tilpasse hver detalj etter behov.
-
-Systemet håndterer all layout og formatering automatisk. Rutenettceller er perfekt justert. Symmetri-modus fungerer feilfritt. Ingen manuell justering kreves. Pedagoger fokuserer på pedagogisk innhold, ikke teknisk design.`,
-      },
-      {
-        id: '4',
-        question: 'Kan jeg bruke rutenetttegning arbeidsark i klasserommet for elever?',
-        answer: `Full Tilgang-abonnement inkluderer ubegrenset klasserombruk. Print så mange kopier du trenger for elevene dine. Del digitale versjoner via Google Classroom eller e-post. Ingen per-elev eller per-kopi begrensninger. Én lærerabonnement dekker hele klassen.
-
-Lag differensierte versjoner for ulike ferdighetsnivåer. Sterkere elever får utfordrende 8×8 rutenett. Elever som trenger støtte får enklere 3×3 rutenett. Print ulike versjoner for samme klasse. Full Tilgang støtter ubegrenset variasjon.
-
-Del arbeidsark med kollegaer på samme skole tillates. Skolelisens-avtaler tilgjengelige for hele skoler. Kontakt kundeservice for skolebrede rabatter. Individuelle lærerabonnementer fungerer perfekt for de fleste klasserom.`,
-      },
-      {
-        id: '5',
-        question: 'Hvilke aldersgrupper fungerer best med rutenetttegning arbeidsark?',
-        answer: `Rutenetttegning fungerer utmerket for barn fra 3 til 10 år. Barnehagealder (3-5 år) bruker små 3×3 til 4×4 rutenett. Høy ledetråd-celle prosent (60-75%) gir mye støtte. Enkle bilder som dyr eller kjøretøy engasjerer små barn.
-
-1. trinn (6-7 år) håndterer 5×5 til 6×6 rutenett. Middels ledetråd-celle prosent (40-50%) balanserer støtte og utfordring. Barn utvikler visuospatiale ferdigheter raskt på dette nivået. Rutenetttegning forbereder for koordinatsystem-læring i matematikk.
-
-2.-3. trinn (7-9 år) mestrer 7×7 til 10×10 rutenett. Lav ledetråd-celle prosent (20-30%) krever selvstendig analyse. Symmetri-modus tilbyr ekstra utfordring. Eldre elever integrerer rutenetttegning med akademiske emner. Systemet skalerer perfekt på tvers av alle aldersnivåer.`,
-      },
-      {
-        id: '6',
-        question: 'Kan jeg selge rutenetttegning arbeidsark jeg lager med denne generatoren?',
-        answer: `Ja. Full Tilgang-abonnement inkluderer full kommersiell print-on-demand lisens uten ekstra kostnad. Selg rutenetttegning arbeidsark på Teachers Pay Teachers, Etsy eller Amazon KDP. Ingen ekstra lisensavgifter utover $240 årlig abonnement. Mange lærere tjener $500-$5000 månedlig ved å selge arbeidsark.
-
-300 DPI profesjonell kvalitet sikrer fornøyde kunder. Arbeidsark matcher kommersielle standarder. Kunder forventer høy kvalitet og Full Tilgang leverer. Positive anmeldelser fører til gjenkjøp og høyere salg. Kommersiell lisens gir deg frihet til å bygge forretning.
-
-Kombiner rutenetttegning med andre generatorer for høyverdi produkter. Lag komplette ukepakker med rutenetttegning, matematikk og lesing. Bunter selges for høyere priser. Full Tilgang gir 33 generatorer for ubegrenset produktvariasjon. Ingen begrensninger på hvor mye du kan tjene.`,
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Pricing
@@ -484,56 +246,8 @@ Kombiner rutenetttegning med andre generatorer for høyverdi produkter. Lag komp
       securePayment: 'Sikker betaling',
       cancelAnytime: 'Avbryt når som helst',
     },
-    items: [
-      {
-        id: '1',
-        slug: 'coloring',
-        name: 'Fargelegging',
-        category: 'Kreativitet',
-        icon: '🎨',
-        description: 'Kombiner rutenetttegning med fargeleggingsbilder barn for komplette kreative øvelser. Barn tegner og farger for maksimalt engasjement.',
-      },
-      {
-        id: '2',
-        slug: 'drawing-lines',
-        name: 'Strek Øvelser',
-        category: 'Finmotorikk',
-        icon: '✏️',
-        description: 'Kombiner rutenetttegning med strektegning for å styrke penngrep og finmotorikk øvelser. Perfekt for småskoletrinnet.',
-      },
-      {
-        id: '3',
-        slug: 'image-addition',
-        name: 'Addisjon',
-        category: 'Matematikk',
-        icon: '➕',
-        description: 'Kombiner rutenetttegning med matematikk oppgaver. La barn tegne etter å ha løst addisjon og subtraksjon.',
-      },
-      {
-        id: '4',
-        slug: 'pattern-train',
-        name: 'Mønstertog',
-        category: 'Logikk',
-        icon: '🚂',
-        description: 'Kombiner rutenetttegning med mønstergjenkjenning for visuell læring og tall og telling øvelser.',
-      },
-      {
-        id: '5',
-        slug: 'matching',
-        name: 'Kobling',
-        category: 'Logikk',
-        icon: '🔗',
-        description: 'Kombiner rutenetttegning med koblingsspill for variert visuell øving og finmotorikk.',
-      },
-      {
-        id: '6',
-        slug: 'find-and-count',
-        name: 'Finn og Tell',
-        category: 'Matematikk',
-        icon: '🔍',
-        description: 'Kombiner rutenetttegning med tall og telling aktiviteter. Perfekt for småskoletrinnet matematikk.',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 };
 

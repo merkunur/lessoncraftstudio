@@ -94,43 +94,8 @@ Le graphisme en maternelle pose les bases de l'écriture. Les enfants tracent de
     badgeText: 'Exemples Gratuits',
     downloadingLabel: 'Téléchargement...',
     ofLabel: 'sur',
-    items: [
-      {
-        id: '1',
-        worksheetSrc: '/samples/french/drawing-lines/sample-1.jpeg',
-        answerKeySrc: '',
-        altText: 'Fiche gratuite de graphisme maternelle - tracé de lignes courbes pour la motricité fine des enfants',
-        pdfDownloadUrl: '/samples/french/drawing-lines/sample-1.pdf',
-      },
-      {
-        id: '2',
-        worksheetSrc: '/samples/french/drawing-lines/sample-2.jpeg',
-        answerKeySrc: '',
-        altText: 'Fiche gratuite pour enfants - graphisme avec lignes diagonales pour maternelle et CP',
-        pdfDownloadUrl: '/samples/french/drawing-lines/sample-2.pdf',
-      },
-      {
-        id: '3',
-        worksheetSrc: '/samples/french/drawing-lines/sample-3.jpeg',
-        answerKeySrc: '',
-        altText: 'Fiches gratuites de tracé - préparation à l\'écriture cursive pour maternelle',
-        pdfDownloadUrl: '/samples/french/drawing-lines/sample-3.pdf',
-      },
-      {
-        id: '4',
-        worksheetSrc: '/samples/french/drawing-lines/sample-4.jpeg',
-        answerKeySrc: '',
-        altText: 'Fiche pour maternelle - exercices de graphisme et motricité fine gratuits',
-        pdfDownloadUrl: '/samples/french/drawing-lines/sample-4.pdf',
-      },
-      {
-        id: '5',
-        worksheetSrc: '/samples/french/drawing-lines/sample-5.jpeg',
-        answerKeySrc: '',
-        altText: 'Imprimables gratuits de graphisme maternelle - fiches de tracé pour PS MS GS',
-        pdfDownloadUrl: '/samples/french/drawing-lines/sample-5.pdf',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Features Grid - FULL text from drawing-lines.md feature sections
@@ -146,80 +111,8 @@ Le graphisme en maternelle pose les bases de l'écriture. Les enfants tracent de
       noHiddenFees: 'Aucun frais caché',
       cancelAnytime: 'Annulez à tout moment',
     },
-    items: [
-      {
-        id: '1',
-        icon: '⚡',
-        title: 'Création Facile de Fiches Gratuites Maternelle - Graphisme en 3 Clics',
-        description: `La création de fiches maternelle ne prend que quelques minutes. Sélectionnez un modèle parmi nos 8 templates. Choisissez un thème d'images dans notre bibliothèque. Cliquez sur générer. Votre fiche de graphisme maternelle apparaît instantanément. L'option de remplissage automatique place les images pour vous. Plus besoin de glisser-déposer manuellement chaque illustration.
-
-Les 8 modèles couvrent tous les types de tracés. Les courbes préparent les boucles de l'écriture cursive. Les diagonales travaillent l'inclinaison. Les lignes horizontales et verticales stabilisent le geste. Chaque modèle propose 4 ou 5 paires d'images à relier.`,
-        highlighted: false,
-      },
-      {
-        id: '2',
-        icon: '✏️',
-        title: 'Personnalisation Complète des Fiches pour l\'Écriture Cursive',
-        description: `Chaque élément de votre fiche est modifiable. Déplacez les images où vous le souhaitez. Redimensionnez-les selon vos besoins. Faites-les pivoter pour varier les orientations. Supprimez celles qui ne conviennent pas. Cette flexibilité permet d'adapter chaque fiche à imprimer gratuit à votre classe.
-
-Les outils de texte enrichissent vos fiches d'écriture cursive. Ajoutez des consignes personnalisées. Choisissez parmi 7 polices adaptées aux enfants. Modifiez la taille et la couleur. Ajoutez un contour pour une meilleure lisibilité. Créez des titres attrayants pour motiver vos élèves.`,
-        highlighted: true,
-      },
-      {
-        id: '3',
-        icon: '📤',
-        title: 'Importez Vos Images - Fiches Gratuites pour Enfants et Exercices CP',
-        description: `L'importation d'images personnalise vos fiches de graphisme maternelle. Téléchargez les photos de vos élèves. Ajoutez des images liées à votre projet de classe. Importez plusieurs fichiers en une seule fois. Les formats JPEG, PNG et GIF sont acceptés. Combinez vos images avec celles de notre bibliothèque.
-
-Cette fonctionnalité transforme les exercices CP en activités personnalisées. Créez des fiches avec les prénoms de vos élèves. Utilisez des photos de la sortie scolaire. Intégrez les mascottes de votre classe. Les enfants s'impliquent davantage dans des activités qui leur ressemblent.`,
-        highlighted: false,
-      },
-      {
-        id: '4',
-        icon: '🌍',
-        title: '11 Langues pour les Exercices CE1 et l\'Apprentissage Multilingue',
-        description: `Notre générateur fonctionne en 11 langues. L'interface est disponible en français, anglais, allemand, espagnol, portugais, italien, néerlandais, suédois, danois, norvégien et finnois. Les noms des images s'affichent dans la langue choisie. Parfait pour les classes bilingues et l'enseignement des langues.
-
-Les exercices CE1 bénéficient de cette polyvalence linguistique. Créez des fiches pour apprendre à lire en plusieurs langues. Les élèves relient les images aux mots correspondants. L'apprentissage du vocabulaire devient ludique. Les écoles internationales apprécient cette flexibilité.`,
-        highlighted: false,
-      },
-      {
-        id: '5',
-        icon: '💰',
-        title: 'Licence Commerciale Incluse - Vendez Vos Fiches sur Teachers Pay Teachers',
-        description: `Votre abonnement Pack Essentiel inclut la licence commerciale. Vendez vos créations sur Teachers Pay Teachers. Proposez vos fiches à imprimer gratuit sur Etsy. Publiez des cahiers d'activités sur Amazon KDP. Aucuns frais supplémentaires pour la licence. Aucune attribution requise.
-
-Les fiches de coloriage à imprimer que vous créez vous appartiennent. La qualité 300 DPI convient à l'impression professionnelle. Créez des cahiers de graphisme complets. Vendez des packs thématiques saisonniers. Développez une source de revenus complémentaire grâce à vos créations pédagogiques.`,
-        highlighted: true,
-      },
-      {
-        id: '6',
-        icon: '🎨',
-        title: 'Bibliothèque de 3000+ Images - Apprendre les Lettres et l\'Alphabet',
-        description: `Notre bibliothèque contient plus de 3000 illustrations. Chaque image est adaptée aux enfants. Les thèmes couvrent tous les sujets scolaires. Animaux, fruits, véhicules, formes, lettres de l'alphabet. Trouvez l'image parfaite grâce à la recherche par mot-clé.
-
-Les images de l'alphabet enrichissent vos fiches de graphisme maternelle. Les enfants relient la lettre majuscule à la minuscule. Ils associent la lettre à un objet commençant par ce son. Ces exercices préparent l'apprentissage de la lecture. La reconnaissance des lettres devient un jeu.`,
-        highlighted: false,
-      },
-      {
-        id: '7',
-        icon: '📊',
-        title: 'Qualité Professionnelle 300 DPI pour Fiches Maternelle',
-        description: `Vos fiches maternelle s'exportent en haute résolution. Le format 300 DPI garantit une impression parfaite. Les lignes restent nettes et précises. Les images conservent tous leurs détails. Téléchargez en PDF ou JPEG selon vos besoins.
-
-L'option noir et blanc économise l'encre pour les exercices maths quotidiens. Les fiches grayscale s'impriment rapidement. Le contraste reste optimal pour le tracé. Cette option convient aux impressions en grande quantité. Réduisez vos coûts d'impression sans sacrifier la qualité.`,
-        highlighted: false,
-      },
-      {
-        id: '8',
-        icon: '🔧',
-        title: 'Outils d\'Édition Avancés pour Apprendre les Lettres',
-        description: `Les outils d'édition professionnels perfectionnent vos fiches. Le zoom permet de travailler les détails. L'annulation corrige les erreurs instantanément. Le verrouillage protège les éléments finalisés. La gestion des calques organise votre composition.
-
-Les outils d'alignement créent des fiches pour apprendre les lettres parfaitement ordonnées. Alignez les images à gauche, au centre ou à droite. Centrez les éléments sur la page. Ces détails donnent un aspect professionnel à vos fiches d'écriture. Vos élèves travaillent sur des supports de qualité.`,
-        highlighted: false,
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // How-To Guide - FULL text from drawing-lines.md step sections
@@ -301,68 +194,8 @@ Le fichier se télécharge sur votre ordinateur. Imprimez directement sur votre 
     badgeText: 'Cas d\'Utilisation',
     readMoreLabel: 'Lire la suite',
     showLessLabel: 'Voir moins',
-    items: [
-      {
-        id: '1',
-        icon: '👩‍🏫',
-        title: 'Enseignants de Maternelle - Fiches de Graphisme pour PS, MS et GS',
-        subtitle: 'Graphisme et préparation à l\'écriture',
-        description: `Les enseignants de maternelle utilisent quotidiennement les fiches de graphisme. En Petite Section, les tracés simples développent la prise en main du crayon. En Moyenne Section, les courbes préparent les boucles de l'écriture cursive. En Grande Section, les exercices se complexifient avant le CP.
-
-Notre générateur simplifie la préparation des ateliers. Créez des fiches maternelle adaptées à chaque niveau. Variez les thèmes selon les projets de classe. Les saisons, les fêtes, les albums étudiés inspirent vos créations. Le coloriage à imprimer intégré prolonge les activités en autonomie.`,
-        quote: 'Mes élèves adorent les fiches de tracé avec les images colorées !',
-      },
-      {
-        id: '2',
-        icon: '📚',
-        title: 'Enseignants de CP et CE1 - Exercices pour la Fluidité du Geste',
-        subtitle: 'Renforcement de la motricité fine',
-        description: `Les enseignants de CP poursuivent le travail de graphisme. Les tracés renforcent la fluidité du geste avant l'écriture. Les fiches de correspondance développent le vocabulaire. Les élèves relient l'image au mot pour apprendre à lire. Cette approche visuelle soutient les apprentissages fondamentaux.
-
-En CE1, les exercices CE1 de tracé maintiennent la motricité fine. Les élèves en difficulté bénéficient de ce renforcement. Les exercices CP adaptés servent de remédiation. Le graphisme reste un outil précieux tout au long du cycle 2. Créez des fiches différenciées selon les besoins de chaque élève.`,
-        quote: 'Le tracé renforce la fluidité du geste avant l\'écriture.',
-      },
-      {
-        id: '3',
-        icon: '🏠',
-        title: 'Parents IEF - Fiches à Imprimer pour l\'Écriture Cursive',
-        subtitle: 'Apprentissage personnalisé à la maison',
-        description: `Les familles pratiquant l'IEF apprécient notre générateur. Les fiches à imprimer gratuit complètent les manuels. Les parents créent des exercices personnalisés. Les centres d'intérêt de l'enfant motivent l'apprentissage. Dinosaures, princesses, véhicules deviennent supports de graphisme.
-
-L'écriture cursive se prépare progressivement à la maison. Les parents suivent le rythme de leur enfant. Pas de pression ni de comparaison. Les fiches de tracé développent la motricité fine naturellement. Le coloriage à imprimer associé transforme l'exercice en moment de plaisir partagé.`,
-        quote: 'Un outil adapté au rythme de chaque enfant.',
-      },
-      {
-        id: '4',
-        icon: '🌍',
-        title: 'Enseignants de Langues et FLE - Apprendre l\'Alphabet Multilingue',
-        subtitle: 'Vocabulaire multilingue et apprentissage des lettres',
-        description: `Les professeurs de langues exploitent la dimension multilingue. Créez des fiches pour apprendre les lettres de l'alphabet français. Puis passez à l'anglais, l'allemand ou l'espagnol. Les élèves relient les images aux mots dans la langue cible. L'alphabet devient concret grâce aux illustrations.
-
-Les cours de FLE bénéficient particulièrement de cet outil. Les apprenants associent vocabulaire et images. Le tracé renforce la mémorisation kinesthésique. Apprendre à lire en français devient plus accessible. Les fiches multilingues facilitent les comparaisons entre langues.`,
-        quote: 'Le support multilingue est essentiel pour mes élèves allophones.',
-      },
-      {
-        id: '5',
-        icon: '💜',
-        title: 'Enseignants Spécialisés - Exercices Maths et Graphisme Adaptés',
-        subtitle: 'Différenciation et adaptation aux besoins spécifiques',
-        description: `Les enseignants en ULIS et SEGPA trouvent des ressources adaptables. Les fiches de graphisme conviennent aux élèves à besoins particuliers. La personnalisation permet d'ajuster la difficulté. Moins de paires pour simplifier. Des images plus grandes pour faciliter le repérage.
-
-Les exercices maths s'intègrent au graphisme pour ces publics. Les tables de multiplication deviennent visuelles. Groupez des images pour représenter les multiplications. 3 groupes de 4 pommes illustrent 3×4. Les élèves comptent puis tracent. Les tables de multiplication s'ancrent dans le concret.`,
-        quote: 'Je peux adapter les fiches pour chaque élève de ma classe ULIS.',
-      },
-      {
-        id: '6',
-        icon: '💰',
-        title: 'Enseignants Entrepreneurs - Vendez Vos Fiches sur Teachers Pay Teachers',
-        subtitle: 'Licence commerciale incluse pour TPT, Etsy et Amazon KDP',
-        description: `Les enseignants créateurs développent leur activité en ligne. La licence commerciale Pack Essentiel autorise la vente. Teachers Pay Teachers accueille vos créations. Etsy propose une vitrine internationale. Amazon KDP permet de publier des cahiers complets.
-
-Les fiches de coloriage à imprimer combinées au graphisme se vendent bien. Les parents recherchent des activités complètes. Un cahier thématique sur les animaux attire l'attention. Les packs saisonniers génèrent des revenus récurrents. Noël, Pâques, la rentrée sont des périodes propices. Vos fiches de graphisme et exercices maths trouvent leur public.`,
-        quote: 'Mon abonnement s\'est rentabilisé dès le premier mois de ventes !',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // FAQ Section - Selected FAQs from drawing-lines.md
@@ -376,134 +209,8 @@ Les fiches de coloriage à imprimer combinées au graphisme se vendent bien. Les
     showLessLabel: 'Voir moins',
     secureCheckout: 'Paiement sécurisé',
     cancelAnytime: 'Résiliez à tout moment',
-    items: [
-      {
-        id: '1',
-        question: 'Ce Générateur de Fiches de Graphisme Est-il Vraiment Gratuit ?',
-        answer: `Le générateur de fiches de graphisme nécessite un abonnement Pack Essentiel. Le tarif s'élève à 144€ par an ou 15€ par mois. Votre abonnement donne accès à la création illimitée de fiches. Aucun frais supplémentaire par téléchargement. Générez autant de fiches que nécessaire sans coût additionnel.
-
-L'abonnement Pack Essentiel inclut 10 générateurs populaires. L'Accès Complet à 240€ par an donne accès aux 33 générateurs. Les deux formules incluent la licence commerciale. L'exportation en 300 DPI et le support des 11 langues sont compris. Un investissement rentable pour les enseignants actifs.`,
-      },
-      {
-        id: '2',
-        question: 'Puis-je Imprimer les Fiches de Graphisme à la Maison ?',
-        answer: `Absolument. Les fiches s'impriment sur n'importe quelle imprimante domestique. Le format PDF conserve parfaitement la mise en page. La qualité 300 DPI garantit des lignes nettes et précises. L'option noir et blanc économise l'encre pour les fiches de coloriage à imprimer quotidiennes.
-
-Le papier standard 80g convient parfaitement. Un papier légèrement plus épais améliore l'expérience de tracé. Les fiches au format Letter ou A4 s'adaptent à votre imprimante. Téléchargez, imprimez, distribuez. La simplicité au service de votre enseignement.`,
-      },
-      {
-        id: '3',
-        question: 'Faut-il des Compétences en Design pour Créer des Fiches de Graphisme ?',
-        answer: `Aucune compétence technique n'est requise. L'interface guide chaque étape intuitivement. Sélectionnez un modèle, choisissez un thème, cliquez sur générer. Vos exercices maths combinés au graphisme apparaissent en quelques secondes. Le remplissage automatique place les images pour vous.
-
-Les outils d'édition restent simples d'accès. Glissez-déposez pour repositionner. Les poignées d'angle redimensionnent. Un clic supprime les éléments indésirables. Créez des fiches professionnelles sans formation préalable. Notre générateur démocratise la création pédagogique.`,
-      },
-      {
-        id: '4',
-        question: 'Puis-je Utiliser les Fiches pour Apprendre à Lire dans Ma Classe ?',
-        answer: `L'abonnement Pack Essentiel autorise l'utilisation en classe illimitée. Imprimez pour tous vos élèves sans restriction. Les fiches pour apprendre à lire enrichissent vos ateliers de lecture. Distribuez, photocopiez, partagez librement dans votre établissement.
-
-Les exercices de correspondance image-mot facilitent l'apprentissage du vocabulaire. Les enfants relient l'illustration au mot correspondant. Cette approche visuelle soutient apprendre à lire efficacement. Les élèves en difficulté bénéficient particulièrement de ce renforcement multisensoriel.`,
-      },
-      {
-        id: '5',
-        question: 'Quelles Langues Sont Disponibles pour les Fiches d\'Alphabet ?',
-        answer: `Notre générateur supporte 11 langues complètes. Français, anglais, allemand, espagnol, portugais, italien. Néerlandais, suédois, danois, norvégien, finnois. L'interface et les noms d'images se traduisent automatiquement. Parfait pour créer des fiches d'alphabet multilingues.
-
-Les fiches pour apprendre les lettres existent dans chaque langue. L'alphabet français avec ses accents spécifiques. L'alphabet allemand avec ses umlauts. Les lettres nordiques avec leurs caractères particuliers. Un seul outil pour tous vos besoins linguistiques.`,
-      },
-      {
-        id: '6',
-        question: 'Puis-je Vendre les Fiches de Graphisme que Je Crée ?',
-        answer: `Oui. L'abonnement Pack Essentiel inclut la licence commerciale complète. Vendez vos fiches de graphisme sur Teachers Pay Teachers. Proposez vos exercices CP sur Etsy. Publiez des cahiers sur Amazon KDP. Aucune attribution requise. Aucun frais de licence supplémentaire.
-
-La qualité 300 DPI répond aux standards d'impression professionnelle. Vos fiches de graphisme rivalisent avec les produits commerciaux. Les exercices CP personnalisés trouvent leur public. Développez une source de revenus complémentaire grâce à vos créations.`,
-      },
-      {
-        id: '7',
-        question: 'Comment Personnaliser les Fiches de Coloriage et Graphisme ?',
-        answer: `Chaque élément sur le canvas est entièrement modifiable. Cliquez sur une image pour la sélectionner. Déplacez-la par glisser-déposer. Redimensionnez avec les poignées. Faites pivoter pour varier les orientations. Supprimez les éléments superflus d'un clic.
-
-Les fiches de coloriage à imprimer s'enrichissent de texte personnalisé. Ajoutez des consignes adaptées à vos exercices CE1. Choisissez parmi 7 polices enfantines. Modifiez taille, couleur et contour. Chaque fiche devient unique et adaptée à vos objectifs pédagogiques.`,
-      },
-      {
-        id: '8',
-        question: 'Quels Âges Conviennent aux Fiches de Graphisme Maternelle ?',
-        answer: `Les fiches de graphisme s'adressent aux enfants de 3 à 8 ans principalement. La Petite Section découvre les premiers tracés. La Moyenne Section progresse vers les courbes. La Grande Section prépare l'écriture cursive avec des tracés complexes.
-
-Le CP et le CE1 continuent le travail de motricité fine. Les fiches d'écriture cursive préparatoire renforcent la fluidité. Les élèves en difficulté bénéficient de ces exercices de consolidation. L'adaptation de la difficulté permet de toucher tous les niveaux.`,
-      },
-      {
-        id: '9',
-        question: 'Puis-je Importer Mes Propres Images pour les Fiches ?',
-        answer: `L'importation d'images personnelles enrichit vos créations. Téléchargez des photos, illustrations ou captures d'écran. Les formats JPEG, PNG et GIF sont acceptés. Importez plusieurs fichiers simultanément. Combinez avec les 3000 images de la bibliothèque.
-
-Créez des fiches d'exercices maths avec les photos de votre classe. Illustrez les tables de multiplication avec des objets familiers. Les prénoms des élèves personnalisent les exercices. L'engagement augmente quand les enfants se reconnaissent dans les activités.`,
-      },
-      {
-        id: '10',
-        question: 'Combien de Temps Faut-il pour Créer une Fiche de Graphisme ?',
-        answer: `Une fiche complète se génère en moins de 3 minutes. Sélectionnez le modèle en 10 secondes. Choisissez le thème d'images en 20 secondes. Activez le remplissage automatique. Cliquez sur générer. Votre fiche pour apprendre à lire apparaît instantanément.
-
-La personnalisation ajoute quelques minutes selon vos besoins. Les ajustements de position prennent 1 à 2 minutes. L'ajout de texte personnalisé demande 30 secondes. Une série de 5 fiches thématiques se crée en 15 minutes maximum.`,
-      },
-      {
-        id: '11',
-        question: 'Les Fiches de Graphisme Incluent-elles des Corrigés ?',
-        answer: `Les fiches de tracé ne nécessitent pas de corrigé traditionnel. L'objectif est de relier les images identiques par une ligne. La vérification est visuelle et immédiate. L'enseignant ou le parent valide le tracé réalisé.
-
-Les fiches d'alphabet pour les exercices CP fonctionnent sur le même principe. L'élève relie la lettre majuscule à la minuscule correspondante. Ou la lettre à l'image commençant par ce son. Le feedback est instantané et ne requiert pas de feuille de correction séparée.`,
-      },
-      {
-        id: '12',
-        question: 'Puis-je Créer des Fiches sur des Sujets Spécifiques comme les Tables de Multiplication ?',
-        answer: `Notre bibliothèque couvre tous les sujets scolaires classiques. Les animaux, les fruits, les véhicules, les formes géométriques. Les lettres, les chiffres, les couleurs, les saisons. Les fêtes, les métiers, les sports, la nature. Plus de 3000 images organisées par thèmes.
-
-Les fiches de tables de multiplication utilisent les images de quantités. Groupez des pommes pour illustrer 3×4. Alignez des voitures pour représenter 5×2. Le graphisme devient support d'apprentissage mathématique. Les tables de multiplication s'ancrent visuellement dans la mémoire des enfants.`,
-      },
-      {
-        id: '13',
-        question: 'Quelles Fiches Gratuites de Graphisme Proposez-vous pour la Maternelle ?',
-        answer: `Nos fiches gratuites de graphisme maternelle couvrent tous les types de tracés essentiels. Les lignes droites horizontales et verticales forment la base. Les courbes préparent les boucles de l'écriture cursive. Les diagonales travaillent l'inclinaison du geste.
-
-Chaque fiche gratuite pour enfants est disponible en format PDF haute résolution. La qualité 300 DPI garantit une impression parfaite. Les fiches pour maternelle s'adaptent aux niveaux PS, MS et GS. Téléchargez les imprimables gratuits et commencez immédiatement.`,
-      },
-      {
-        id: '14',
-        question: 'Comment Utiliser les Fiches Gratuites pour Enfants en Classe ?',
-        answer: `Les fiches gratuites pour enfants s'intègrent facilement dans votre routine de classe. En atelier autonome, les élèves travaillent seuls le tracé. En atelier dirigé, vous accompagnez les premiers essais. Les fiches pour maternelle conviennent aux deux formats.
-
-Imprimez plusieurs copies de chaque fiche gratuite pour la classe. Les exercices CP de tracé renforcent l'écriture quotidienne. Distribuez les imprimables gratuits en début de semaine. Variez les thèmes selon vos projets pédagogiques.`,
-      },
-      {
-        id: '15',
-        question: 'Les Fiches pour Maternelle Sont-elles Adaptées aux Différents Niveaux ?',
-        answer: `Nos fiches pour maternelle s'adaptent à tous les niveaux. En Petite Section, les tracés simples développent la prise en main. Les fiches gratuites proposent des lignes droites basiques. En Moyenne Section, les courbes apparaissent progressivement.
-
-La Grande Section travaille les tracés complexes pour apprendre les lettres. Les exercices CP poursuivent cette progression. Les imprimables gratuits permettent de différencier selon les besoins. Chaque fiche gratuite pour enfants trouve sa place dans votre programmation.`,
-      },
-      {
-        id: '16',
-        question: 'Puis-je Télécharger des Imprimables Gratuits pour l\'Écriture Cursive ?',
-        answer: `Les imprimables gratuits de graphisme préparent directement l'écriture cursive. Les courbes anticipent les boucles du l et du e. Les diagonales travaillent l'inclinaison des lettres. Les tracés fluides développent la souplesse du poignet.
-
-Téléchargez les fiches gratuites en PDF pour une qualité optimale. Les exercices CP de préparation à l'écriture sont essentiels. Les fiches pour maternelle posent les bases du geste. Utilisez ces imprimables gratuits pour apprendre les lettres progressivement.`,
-      },
-      {
-        id: '17',
-        question: 'Quelles Fiches Gratuites pour Enfants Incluent des Exercices CP ?',
-        answer: `Nos fiches gratuites pour enfants proposent de nombreux exercices CP. Les tracés de correspondance développent le vocabulaire. L'enfant relie l'image au mot pour apprendre à lire. Les fiches pour maternelle et CP partagent cette approche visuelle.
-
-Les exercices CP de graphisme renforcent la fluidité du geste. Les imprimables gratuits incluent des niveaux progressifs. Les fiches gratuites avec tables de multiplication combinent motricité et calcul. Chaque fiche gratuite pour enfants soutient les apprentissages fondamentaux.`,
-      },
-      {
-        id: '18',
-        question: 'Comment Combiner Fiches Gratuites de Graphisme et Tables de Multiplication ?',
-        answer: `Les fiches gratuites de graphisme s'associent naturellement aux tables de multiplication. Créez des exercices où les enfants relient des groupes d'images. 3 groupes de 4 pommes illustrent visuellement 3×4. Les tables de multiplication deviennent concrètes.
-
-Les imprimables gratuits permettent de varier les supports. Une fiche gratuite pour enfants peut combiner tracé et calcul. Les exercices CP de cette nature renforcent deux compétences simultanément. Les fiches pour maternelle introduisent les premières notions multiplicatives.`,
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Pricing
@@ -550,56 +257,8 @@ Les imprimables gratuits permettent de varier les supports. Une fiche gratuite p
       securePayment: 'Paiement sécurisé',
       cancelAnytime: 'Résiliez à tout moment',
     },
-    items: [
-      {
-        id: '1',
-        slug: 'exercices-maths-fiches',
-        name: 'Exercices Maths',
-        category: 'Mathématiques',
-        icon: '➕',
-        description: 'Les fiches de graphisme complètent naturellement les exercices maths. Le tracé développe la précision nécessaire à l\'écriture des chiffres. Les courbes préparent le dessin des boucles du 8 et du 9.',
-      },
-      {
-        id: '2',
-        slug: 'coloriage-fiches',
-        name: 'Coloriage à Imprimer',
-        category: 'Arts et Motricité',
-        icon: '🎨',
-        description: 'Le coloriage à imprimer prolonge naturellement les fiches de graphisme. Les enfants tracent d\'abord les lignes de correspondance. Ils colorient ensuite les images reliées.',
-      },
-      {
-        id: '3',
-        slug: 'train-alphabet-fiches',
-        name: 'Train de l\'Alphabet',
-        category: 'Lecture',
-        icon: '🚂',
-        description: 'Les fiches d\'alphabet complètent le programme de graphisme. Les tracés préparent l\'écriture des lettres. Les courbes annoncent les boucles du l et du e.',
-      },
-      {
-        id: '4',
-        slug: 'association-fiches',
-        name: 'Fiches d\'Association',
-        category: 'Visuel',
-        icon: '🔗',
-        description: 'Créez des packs hebdomadaires complets combinant graphisme et association. Les élèves découvrent le vocabulaire par plusieurs entrées sensorielles.',
-      },
-      {
-        id: '5',
-        slug: 'addition-fiches',
-        name: 'Addition',
-        category: 'Mathématiques',
-        icon: '🔢',
-        description: 'Combinez graphisme et tables de multiplication dans un même pack hebdomadaire. Les compétences motrices et mathématiques progressent simultanément.',
-      },
-      {
-        id: '6',
-        slug: 'cherche-et-compte-fiches',
-        name: 'Cherche et Compte',
-        category: 'Mathématiques',
-        icon: '🔍',
-        description: 'Le graphisme soutient efficacement apprendre à lire. Les fiches de correspondance relient images et mots pour renforcer la mémorisation du vocabulaire.',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 };
 

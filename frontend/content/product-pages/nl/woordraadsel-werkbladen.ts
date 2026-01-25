@@ -110,43 +110,8 @@ Maak 1 tot 10 woordraadsels per werkblad. Elk raadsel schaalt automatisch voor p
     badgeText: 'Gratis Voorbeelden',
     downloadingLabel: 'Downloaden...',
     ofLabel: 'van',
-    items: [
-      {
-        id: '1',
-        worksheetSrc: '/samples/dutch/word-guess/sample-1.jpeg',
-        answerKeySrc: '/samples/dutch/word-guess/sample-1-answer.jpeg',
-        altText: 'Woordraadsel gratis werkblad - werkblad voor kinderen met woordpuzzels groep 3',
-        pdfDownloadUrl: '/samples/dutch/word-guess/sample-1.pdf',
-      },
-      {
-        id: '2',
-        worksheetSrc: '/samples/dutch/word-guess/sample-2.jpeg',
-        answerKeySrc: '/samples/dutch/word-guess/sample-2-answer.jpeg',
-        altText: 'Woordraadsel werkblad voor kleuters - gratis werkbladen met letters leren',
-        pdfDownloadUrl: '/samples/dutch/word-guess/sample-2.pdf',
-      },
-      {
-        id: '3',
-        worksheetSrc: '/samples/dutch/word-guess/sample-3.jpeg',
-        answerKeySrc: '/samples/dutch/word-guess/sample-3-answer.jpeg',
-        altText: 'Gratis werkblad woordraadsel - werkblad voor kinderen schrijven oefenen',
-        pdfDownloadUrl: '/samples/dutch/word-guess/sample-3.pdf',
-      },
-      {
-        id: '4',
-        worksheetSrc: '/samples/dutch/word-guess/sample-4.jpeg',
-        answerKeySrc: '/samples/dutch/word-guess/sample-4-answer.jpeg',
-        altText: 'Woordraadsel gratis printables - werkblad voor kleuters fijne motoriek',
-        pdfDownloadUrl: '/samples/dutch/word-guess/sample-4.pdf',
-      },
-      {
-        id: '5',
-        worksheetSrc: '/samples/dutch/word-guess/sample-5.jpeg',
-        answerKeySrc: '/samples/dutch/word-guess/sample-5-answer.jpeg',
-        altText: 'Gratis werkbladen woordraadsel - werkblad voor kinderen groep 1 2',
-        pdfDownloadUrl: '/samples/dutch/word-guess/sample-5.pdf',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Features Grid - FULL text from word-guess.md feature sections
@@ -162,83 +127,8 @@ Maak 1 tot 10 woordraadsels per werkblad. Elk raadsel schaalt automatisch voor p
       noHiddenFees: 'Geen verborgen kosten',
       cancelAnytime: 'Altijd opzegbaar',
     },
-    items: [
-      {
-        id: '1',
-        icon: '⚡',
-        title: 'Maak Gratis Werkblad voor Kinderen in 3 Klikken - Snelle Oefenbladen Generator',
-        description: `Genereer werkbladen groep 3 en werkbladen kleuters in drie eenvoudige stappen. Kies een thema uit onze bibliotheek met 3000+ afbeeldingen. Klik op genereren en uw werkblad verschijnt direct. Download binnen 3 minuten hoogwaardige oefenbladen gratis.
-
-Geen ontwerpervaring nodig voor letters leren werkbladen. De generator doet al het werk automatisch. Perfect voor drukke leerkrachten groep 1 2 die tijd willen besparen. Ideaal voor veilig leren lezen materiaal en schrijven oefenen activiteiten.`,
-        highlighted: false,
-      },
-      {
-        id: '2',
-        icon: '✏️',
-        title: 'Bewerk Werkbladen Kleuters en Groep 1 2 Volledig - Alle Elementen Aanpasbaar',
-        description: `Elk element op uw werkbladen kleuters is volledig bewerkbaar. Sleep afbeeldingen naar nieuwe posities met uw muis. Roteer en schaal elk object precies zoals u wilt. Verwijder elementen die u niet nodig heeft met één klik.
-
-Voeg extra tekst toe voor letters leren oefeningen. Wijzig kleuren voor kleurplaten activiteiten. Pas lettergrootte aan voor verschillende leeftijdsgroepen groep 1 2. Volledige controle over uw oefenbladen gratis maken.
-
-Deze flexibiliteit is essentieel voor werkbladen groep 3 differentiatie. Pas moeilijkheid aan voor verschillende leerlingen. Maak aangepaste versies voor fijne motoriek niveaus. Perfect voor rekenen werkbladen en sommen tot 20 oefeningen.`,
-        highlighted: false,
-      },
-      {
-        id: '3',
-        icon: '📤',
-        title: 'Upload Eigen Afbeeldingen voor Werkbladen Groep 3 - Personaliseer Oefenbladen Gratis',
-        description: `Upload uw eigen foto's en afbeeldingen voor werkbladen groep 3. Ondersteunt JPEG, PNG en GIF bestandsformaten. Upload meerdere bestanden tegelijk voor snelle werkbladen kleuters creatie. Combineer bibliotheekafbeeldingen met uw eigen materiaal.
-
-Perfect voor thematische werkbladen groep 1 2 over klasonderwerpen. Voeg foto's van uw leerlingen toe voor gepersonaliseerde oefenbladen. Ideaal voor letters leren met bekende objecten uit de klas. Maak schrijven oefenen interessanter met herkenbare afbeeldingen.
-
-Upload afbeeldingen blijven beschikbaar tijdens uw sessie. Gebruik dezelfde afbeeldingen voor meerdere werkbladen kleuters. Perfect voor het maken van complete oefenbladen gratis pakketten. Ideaal voor veilig leren lezen thema-eenheden.`,
-        highlighted: false,
-      },
-      {
-        id: '4',
-        icon: '🌍',
-        title: 'Werkbladen Kleuters in 11 Talen - Nederlands voor Groep 1 2 en Groep 3',
-        description: `Alle werkbladen groep 3 zijn beschikbaar in 11 talen. Nederlandse interface voor leerkrachten in Nederland en België. Woordextractie werkt perfect voor Nederlandse bestandsnamen. Essentieel voor veilig leren lezen en letters leren programma's.
-
-Maak meertalige oefenbladen gratis voor taallessen. Ondersteunt Engels, Duits, Frans, Spaans en meer talen. Perfect voor internationale scholen met werkbladen kleuters. Ideaal voor NT2 lessen en meertalig onderwijs groep 1 2.
-
-De generator begrijpt Nederlandse woordstructuur. Genereert correcte aanwijzingen voor letters leren. Perfect voor schrijven oefenen in het Nederlands. Ondersteunt alle Nederlandse leesmethodes inclusief veilig leren lezen.`,
-        highlighted: false,
-      },
-      {
-        id: '5',
-        icon: '💼',
-        title: 'Commerciële Licentie voor Werkbladen Groep 3 - Verkoop Uw Oefenbladen Gratis Gemaakt',
-        description: `Volledige Toegang abonnement bevat commerciële print-on-demand licentie. Verkoop werkbladen groep 3 op platforms zoals Etsy. Geen extra kosten bovenop uw €240 per jaar abonnement. Perfect voor leerkrachten met een bijverdienste.
-
-Maak werkbladen kleuters en verkoop als PDF downloads. Upload naar Teachers Pay Teachers voor passief inkomen. Geen attributie vereist op uw oefenbladen gratis gemaakt. Volledige commerciële rechten voor letters leren materiaal.
-
-Veel leerkrachten verdienen €500-€5000 per maand. Verkoop werkbladen groep 1 2 pakketten op verschillende platforms. Combineer met kleurplaten en rekenen werkbladen voor sets. Professionele 300 DPI kwaliteit trekt kopers aan.`,
-        highlighted: true,
-      },
-      {
-        id: '6',
-        icon: '🎨',
-        title: '3000+ Afbeeldingen Bibliotheek voor Werkbladen Kleuters - Thema\'s voor Groep 1 2',
-        description: `Toegang tot meer dan 3000 kindvriendelijke afbeeldingen. Georganiseerd in thema's voor gemakkelijk zoeken. Perfect voor werkbladen groep 3 over dieren, voertuigen, eten en meer. Alle afbeeldingen geschikt voor letters leren en schrijven oefenen.
-
-Kies hele thema's voor consistente oefenbladen gratis. Zoek specifieke afbeeldingen met zoekfunctie. Elke afbeelding werkt perfect voor werkbladen kleuters. Ideaal voor veilig leren lezen woordenschat opbouw.
-
-Bibliotheek bevat afbeeldingen voor alle vakken. Rekenen werkbladen met getallen en vormen. Kleurplaten combineren met woordraadsels. Perfect voor sommen tot 20 visuele ondersteuning. Tafels oefenen met thematische afbeeldingen.`,
-        highlighted: true,
-      },
-      {
-        id: '7',
-        icon: '🖨️',
-        title: 'Professionele 300 DPI Kwaliteit Werkbladen Groep 3 - Perfect voor Printen',
-        description: `Download werkbladen groep 3 in hoge resolutie 300 DPI. Perfecte kwaliteit voor printen thuis of op school. Kies tussen PDF en JPEG bestandsformaten. Grijswaarden optie bespaart inkt voor werkbladen kleuters.
-
-Elk werkblad print scherp en duidelijk. Letters leren vakjes zijn precies de juiste grootte. Afbeeldingen printen helder zonder pixelvorming. Professionele kwaliteit oefenbladen gratis voor uw groep 1 2.
-
-PDF formaat behoudt exacte opmaak. JPEG werkt perfect voor online delen. Antwoordsleutels downloaden apart. Ideaal voor schrijven oefenen nakijken en veilig leren lezen assessment.`,
-        highlighted: false,
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // How-To Guide - FULL text from word-guess.md step sections
@@ -330,74 +220,8 @@ Gebruik downloadede werkbladen groep 3 direct in de klas. Print meerdere kopieë
     badgeText: 'Gebruikssituaties',
     readMoreLabel: 'Lees meer',
     showLessLabel: 'Minder tonen',
-    items: [
-      {
-        id: '1',
-        icon: '👶',
-        title: 'Leerkrachten Groep 1 2 - Werkbladen Kleuters voor Letters Leren en Schrijven Oefenen',
-        subtitle: 'Werkbladen kleuters en fijne motoriek',
-        description: `Leerkrachten groep 1 2 gebruiken onze generator dagelijks. Maak werkbladen kleuters voor veilig leren lezen lessen. Creëer oefenbladen gratis voor letters leren centra. Perfect voor fijne motoriek stations en schrijven oefenen hoeken.
-
-Combineer woordraadsels met kleurplaten voor differentiatie. Maak gemakkelijke versies voor zwakkere leerlingen groep 1 2. Moeilijke versies voor gevorderde kinderen. Ideaal voor werkbladen groep 3 overgang voorbereiden.
-
-Gebruik thematische afbeeldingen voor woordenschat opbouw. Maak seizoensgebonden oefenbladen gratis voor elk thema. Perfect voor veilig leren lezen woordenlijsten oefening. Combineer met rekenen werkbladen voor geïntegreerde thema's.`,
-      },
-      {
-        id: '2',
-        icon: '📚',
-        title: 'Leerkrachten Groep 3 - Rekenen Werkbladen en Tafels Oefenen Combinaties',
-        subtitle: 'Werkbladen groep 3 en multidisciplinair',
-        description: `Leerkrachten groep 3 maken multidisciplinaire werkbladen. Combineer woordraadsels met rekenen werkbladen voor getallen. Integreer tafels oefenen in woordenschat lessen. Perfect voor sommen tot 20 visuele ondersteuning.
-
-Maak werkbladen groep 3 voor spelling en rekenen samen. Gebruik afbeeldingen met getallen voor wiskundige woordenschat. Ideaal voor letters leren en rekenen werkbladen integratie. Perfect voor fijne motoriek en schrijven oefenen combinaties.
-
-Creëer weekpakketten met verschillende werkbladen kleuters types. Combineer met kleurplaten voor vrijdagmiddagen. Maak oefenbladen gratis voor huiswerk of extra oefening. Perfect voor veilig leren lezen en tafels oefenen thuis.`,
-      },
-      {
-        id: '3',
-        icon: '🏠',
-        title: 'Thuisonderwijzers - Oefenbladen Gratis voor Groep 1 2 en Fijne Motoriek Thuis',
-        subtitle: 'Thuisonderwijs en personalisatie',
-        description: `Thuisonderwijzers maken gepersonaliseerde werkbladen kleuters. Creëer oefenbladen gratis op basis van kinderinteresses. Perfect voor letters leren in eigen tempo. Ideaal voor schrijven oefenen zonder klasdruk.
-
-Gebruik eigen foto's voor herkenbare werkbladen groep 3. Upload afbeeldingen van huisdieren of speelgoed. Maak woordraadsels over familie en vrienden. Perfect voor veilig leren lezen met bekende woorden.
-
-Combineer met rekenen werkbladen voor complete lessen. Maak kleurplaten activiteiten voor pauzes. Integreer tafels oefenen en sommen tot 20 natuurlijk. Ideaal voor fijne motoriek ontwikkeling gedurende de dag.`,
-      },
-      {
-        id: '4',
-        icon: '🌐',
-        title: 'NT2 Leerkrachten - Werkbladen Kleuters voor Meertalige Groep 1 2 Leerlingen',
-        subtitle: 'Meertalig onderwijs en NT2',
-        description: `NT2 leerkrachten gebruiken de 11-talige ondersteuning. Maak werkbladen kleuters in Nederlands en moedertaal. Perfect voor letters leren met visuele context. Ideaal voor schrijven oefenen zonder taalbarrière.
-
-Visuele aanwijzingen helpen bij woordbegrip. Maak oefenbladen gratis voor basiswoordenschat. Perfect voor veilig leren lezen voor anderstaligen. Combineer met kleurplaten voor culturele thema's.
-
-Creëer werkbladen groep 3 voor geleidelijke progressie. Begin met eenvoudige woorden voor groep 1 2. Verhoog moeilijkheid naarmate taalvaardigheid groeit. Perfect voor fijne motoriek en rekenen werkbladen in het Nederlands.`,
-      },
-      {
-        id: '5',
-        icon: '🎯',
-        title: 'Remedial Teachers - Werkbladen Groep 3 voor Fijne Motoriek en Schrijven Oefenen Ondersteuning',
-        subtitle: 'Speciaal onderwijs en differentiatie',
-        description: `Remedial teachers maken aangepaste werkbladen kleuters. Grotere lettervakjes voor fijne motoriek uitdagingen. Minder raadsels per pagina voor concentratieproblemen. Perfect voor letters leren in kleine stappen.
-
-Pas moeilijkheidsgraad aan voor individuele behoeften. Maak oefenbladen gratis met veel visuele ondersteuning. Perfect voor veilig leren lezen interventies. Ideaal voor schrijven oefenen met succeservaringen.
-
-Combineer met kleurplaten voor motivatie. Gebruik thema's die interesseren voor betrokkenheid. Maak werkbladen groep 3 voor specifieke lettergrepen. Perfect voor rekenen werkbladen en tafels oefenen aanpassing.`,
-      },
-      {
-        id: '6',
-        icon: '💰',
-        title: 'Leerkrachten met Bijverdienste - Verkoop Werkbladen Kleuters en Oefenbladen Gratis Gemaakt',
-        subtitle: 'Commercieel gebruik en passief inkomen',
-        description: `Leerkrachten verkopen werkbladen groep 3 online. Upload oefenbladen gratis gemaakt naar Teachers Pay Teachers. Verkoop werkbladen kleuters pakketten op Etsy. Perfect voor passief inkomen van letters leren materiaal.
-
-Maak themapakketten met verschillende werkbladen types. Combineer woordraadsels met rekenen werkbladen en kleurplaten. Voeg tafels oefenen en sommen tot 20 werkbladen toe. Ideaal voor schrijven oefenen en veilig leren lezen bundels.
-
-Commerciële licentie maakt verkopen mogelijk. Geen extra kosten voor fijne motoriek werkbladen verkoop. Verdien €500-€5000 per maand met werkbladen groep 1 2. Perfect voor professionele oefenbladen gratis ontwerp en verkoop.`,
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // FAQ Section - FULL questions and answers
@@ -411,100 +235,8 @@ Commerciële licentie maakt verkopen mogelijk. Geen extra kosten voor fijne moto
     showLessLabel: 'Minder tonen',
     secureCheckout: 'Veilig afrekenen',
     cancelAnytime: 'Altijd opzegbaar',
-    items: [
-      {
-        id: '1',
-        question: 'Is Deze Werkbladen Kleuters Generator Echt Gratis voor Oefenbladen Maken?',
-        answer: `De woordraadsel generator vereist Volledige Toegang abonnement voor €240 per jaar of €25 per maand. Uw abonnement geeft onbeperkte werkbladen groep 3 en werkbladen kleuters creatie. Geen kosten per werkblad voor oefenbladen gratis maken. Perfect voor letters leren, schrijven oefenen en fijne motoriek materiaal.
-
-Volledige Toegang bevat alle 33 werkbladen generators. Maak rekenen werkbladen, kleurplaten, tafels oefenen en sommen tot 20 werkbladen onbeperkt. Perfect voor veilig leren lezen en groep 1 2 materiaal. Commerciële licentie, 11 talen ondersteuning en 300 DPI kwaliteit inbegrepen.`,
-      },
-      {
-        id: '2',
-        question: 'Kan Ik Werkbladen Groep 3 en Kleurplaten Thuis Printen voor Letters Leren?',
-        answer: `Ja, download werkbladen kleuters als PDF of JPEG bestanden. Print thuis op normale printer voor oefenbladen gratis gebruik. Perfect voor werkbladen groep 3 thuisonderwijs. Ideaal voor letters leren, schrijven oefenen en fijne motoriek oefeningen thuis.
-
-Grijswaarden optie bespaart inkt voor werkbladen kleuters. Zwart-wit versies werken perfect als kleurplaten. Kinderen kunnen afbeeldingen inkleuren na letters leren raadsels. Ideaal voor veilig leren lezen en fijne motoriek combinaties.
-
-PDF formaat behoudt kwaliteit op alle printers. Werkt perfect voor werkbladen groep 3 en rekenen werkbladen. Print meerdere kopieën voor klasgebruik. Ideaal voor tafels oefenen en sommen tot 20 oefeningen thuis.`,
-      },
-      {
-        id: '3',
-        question: 'Heb Ik Ontwerpervaring Nodig voor Werkbladen Kleuters en Rekenen Werkbladen Maken?',
-        answer: `Nee, geen ontwerpervaring nodig voor werkbladen groep 3 maken. Generator doet al het werk automatisch. Perfect voor leerkrachten zonder grafische vaardigheden. Ideaal voor snelle oefenbladen gratis creatie.
-
-Kies afbeeldingen en klik genereren voor werkbladen kleuters. Alles positioneert automatisch perfect. Werkt uitstekend voor letters leren, schrijven oefenen en kleurplaten. Perfect voor rekenen werkbladen, tafels oefenen en sommen tot 20 materiaal.
-
-Canvas bewerking is intuïtief voor werkbladen groep 3 aanpassing. Sleep elementen met muis voor werkbladen kleuters personalisatie. Perfect voor veilig leren lezen en fijne motoriek werkbladen. Geen speciale software kennis vereist.`,
-      },
-      {
-        id: '4',
-        question: 'Kan Ik Werkbladen Groep 3 en Oefenbladen Gratis in Mijn Klas Gebruiken voor Veilig Leren Lezen?',
-        answer: `Volledige Toegang abonnement bevat onbeperkt klasgebruik. Gebruik werkbladen kleuters met alle leerlingen groep 1 2. Print onbeperkte kopieën voor oefenbladen gratis distributie. Perfect voor letters leren, schrijven oefenen en fijne motoriek lessen.
-
-Deel werkbladen groep 3 digitaal of fysiek. Email PDF bestanden naar ouders voor thuiswerk. Perfect voor rekenen werkbladen en kleurplaten naar huis. Ideaal voor tafels oefenen, sommen tot 20 en veilig leren lezen oefeningen.`,
-      },
-      {
-        id: '5',
-        question: 'Welke Talen Zijn Beschikbaar voor Werkbladen Kleuters en Letters Leren Oefenbladen Gratis?',
-        answer: `Generator ondersteunt 11 talen voor werkbladen groep 3. Nederlands interface perfect voor Nederlandse leerkrachten. Maak werkbladen kleuters in Engels, Duits, Frans, Spaans en meer. Ideaal voor oefenbladen gratis meertalig onderwijs.
-
-Taal selectie beïnvloedt woordextractie voor letters leren. Perfect voor veilig leren lezen in verschillende talen. Maak rekenen werkbladen met meertalige wiskundetermen. Ideaal voor kleurplaten, schrijven oefenen en fijne motoriek in moedertaal.`,
-      },
-      {
-        id: '6',
-        question: 'Kan Ik Werkbladen Groep 3 Verkopen die Ik Maak met Rekenen Werkbladen en Kleurplaten Generator?',
-        answer: `Ja, Volledige Toegang abonnement bevat commerciële licentie. Verkoop werkbladen kleuters zonder extra kosten. Upload oefenbladen gratis gemaakt naar Teachers Pay Teachers en Etsy. Perfect voor letters leren en schrijven oefenen materiaal verkoop.
-
-Maak themapakketten met werkbladen groep 3 en kleurplaten. Combineer met rekenen werkbladen, tafels oefenen en sommen tot 20 sets. Perfect voor veilig leren lezen bundels verkoop. Verdien passief inkomen met fijne motoriek werkbladen.`,
-      },
-      {
-        id: '7',
-        question: 'Hoe Pas Ik Werkbladen Kleuters Aan voor Letters Leren en Schrijven Oefenen Differentiatie?',
-        answer: `Bewerk alle elementen op werkbladen groep 3 canvas. Sleep afbeeldingen voor werkbladen kleuters herpositionering. Voeg tekst toe voor oefenbladen gratis instructies. Perfect voor letters leren en schrijven oefenen aanpassing.
-
-Wijzig moeilijkheidsgraad voor verschillende niveaus. Maak gemakkelijke versies voor zwakkere groep 1 2 leerlingen. Moeilijke versies voor gevorderde kinderen. Perfect voor veilig leren lezen differentiatie en fijne motoriek niveaus.
-
-Pas kleuren aan voor kleurplaten thema's. Combineer met rekenen werkbladen elementen. Perfect voor tafels oefenen en sommen tot 20 visuele aanpassing. Ideaal voor werkbladen groep 3 personalisatie.`,
-      },
-      {
-        id: '8',
-        question: 'Voor Welke Leeftijden Werken Werkbladen Groep 3 en Kleurplaten het Beste voor Fijne Motoriek?',
-        answer: `Werkbladen kleuters werken perfect voor 4-9 jarigen. Groep 1 2 kinderen oefenen letters leren met visuele ondersteuning. Werkbladen groep 3 leerlingen ontwikkelen schrijven oefenen vaardigheden. Ideaal voor oefenbladen gratis alle basisschool leeftijden.
-
-Pas vakjesgrootte aan voor fijne motoriek niveaus. Grotere letters voor jonge kleuters. Kleinere letters voor oudere groep 3 kinderen. Perfect voor veilig leren lezen progressie.
-
-Combineer met kleurplaten voor motivatie. Gebruik rekenen werkbladen voor wiskunde integratie. Perfect voor tafels oefenen en sommen tot 20 alle leeftijden. Ideaal voor letters leren en schrijven oefenen ontwikkeling.`,
-      },
-      {
-        id: '9',
-        question: 'Kan Ik Eigen Afbeeldingen Uploaden voor Werkbladen Kleuters en Rekenen Werkbladen Personalisatie?',
-        answer: `Ja, upload uw eigen foto's voor werkbladen groep 3. Ondersteunt meerdere bestanden tegelijk voor werkbladen kleuters. Combineer met bibliotheek afbeeldingen voor oefenbladen gratis creatie. Perfect voor letters leren en schrijven oefenen personalisatie.
-
-Upload klassenfoto's voor herkenbare veilig leren lezen materiaal. Voeg getallen afbeeldingen toe voor rekenen werkbladen. Perfect voor thematische kleurplaten en fijne motoriek oefeningen. Ideaal voor tafels oefenen en sommen tot 20 visuele ondersteuning.`,
-      },
-      {
-        id: '10',
-        question: 'Hoe Lang Duurt Het om Werkbladen Groep 3 te Maken voor Letters Leren en Veilig Leren Lezen?',
-        answer: `Maak werkbladen kleuters in minder dan 3 minuten. Selecteer afbeeldingen, pas instellingen aan en genereer. Download oefenbladen gratis direct als PDF. Perfect voor snelle werkbladen groep 3 productie.
-
-Handmatige creatie duurt 30-60 minuten per werkblad. Generator bespaart enorme tijd voor letters leren materiaal. Perfect voor drukke leerkrachten schrijven oefenen behoeften. Ideaal voor fijne motoriek, rekenen werkbladen en kleurplaten snelle productie.`,
-      },
-      {
-        id: '11',
-        question: 'Bevatten Werkbladen Kleuters Antwoordsleutels voor Letters Leren en Schrijven Oefenen Nakijken?',
-        answer: `Ja, generator maakt automatisch antwoordsleutels voor werkbladen groep 3. Download werkblad en antwoorden apart. Perfect voor werkbladen kleuters nakijken. Ideaal voor oefenbladen gratis assessment.
-
-Antwoordsleutels tonen alle letters ingevuld. Perfect voor letters leren verificatie en schrijven oefenen beoordeling. Ideaal voor veilig leren lezen progressie volgen. Werkt uitstekend voor fijne motoriek en rekenen werkbladen controle.`,
-      },
-      {
-        id: '12',
-        question: 'Kan Ik Werkbladen Groep 3 Maken over Specifieke Vakken zoals Rekenen Werkbladen en Tafels Oefenen?',
-        answer: `Ja, maak thematische werkbladen kleuters voor alle vakken. Gebruik getallen afbeeldingen voor rekenen werkbladen en sommen tot 20. Perfect voor tafels oefenen visuele ondersteuning. Ideaal voor oefenbladen gratis wiskundewoordenschat.
-
-Maak letters leren werkbladen voor taal. Creëer schrijven oefenen materiaal voor Nederlands. Perfect voor veilig leren lezen thematische eenheden. Combineer met kleurplaten voor geïntegreerde werkbladen groep 3 en fijne motoriek lessen.`,
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Pricing Section
@@ -574,48 +306,8 @@ Maak letters leren werkbladen voor taal. Creëer schrijven oefenen materiaal voo
       securePayment: 'Veilig betalen',
       cancelAnytime: 'Altijd opzegbaar',
     },
-    items: [
-      {
-        id: '1',
-        slug: 'rekenen-werkbladen',
-        name: 'Rekenen Werkbladen',
-        description: 'Combineer woordraadsels met rekenen werkbladen voor wiskundewoordenschat. Maak raadsels over getallen voor tafels oefenen ondersteuning. Perfect voor sommen tot 20 visuele leren. Ideaal voor werkbladen kleuters wiskunde integratie.',
-        icon: '➕',
-        category: 'Wiskunde',
-      },
-      {
-        id: '2',
-        slug: 'kleurplaten-werkbladen',
-        name: 'Kleurplaten',
-        description: 'Combineer woordraadsels met kleurplaten voor fijne motoriek ontwikkeling. Kinderen kleuren afbeeldingen na letters leren raadsels. Perfect voor schrijven oefenen en fijne motoriek integratie. Ideaal voor werkbladen kleuters differentiatie.',
-        icon: '🎨',
-        category: 'Creatief',
-      },
-      {
-        id: '3',
-        slug: 'cryptogram-werkbladen',
-        name: 'Cryptogram Werkbladen',
-        description: 'Combineer woordraadsels met cryptogrammen voor volledige puzzeloefening. Beide puzzeltypes ontwikkelen probleemoplossend vermogen. Perfect voor werkbladen groep 3 die van raadsels houden. Combineer voor complete leerpakketten.',
-        icon: '🔐',
-        category: 'Puzzels',
-      },
-      {
-        id: '4',
-        slug: 'kruiswoordpuzzel-werkbladen',
-        name: 'Kruiswoordpuzzel',
-        description: 'Bundel woordraadsels met kruiswoordpuzzels voor gevarieerde woordenschat oefening. Beide activiteiten versterken spelling en woordherkenning. Perfect voor letters leren en veilig leren lezen programma\'s. Maak complete taalpakketten.',
-        icon: '📝',
-        category: 'Taal',
-      },
-      {
-        id: '5',
-        slug: 'alfabet-trein-werkbladen',
-        name: 'Alfabet Werkbladen',
-        description: 'Combineer woordraadsels met alfabetwerkbladen voor volledige letters leren programma\'s. Woordraadsels leren letter herkenning. Tracing werkbladen ontwikkelen schrijfvaardigheden. Samen bouwen ze complete alfabetisering voor werkbladen kleuters groep 1 2.',
-        icon: '🔤',
-        category: 'Alfabet',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 };
 

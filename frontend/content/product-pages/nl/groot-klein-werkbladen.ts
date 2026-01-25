@@ -100,36 +100,8 @@ De Groot en Klein werkbladen helpen bij de ontwikkeling van fijne motoriek. Kind
     badgeText: 'Gratis Voorbeelden',
     downloadingLabel: 'Downloaden...',
     ofLabel: 'van',
-    items: [
-      {
-        id: '1',
-        worksheetSrc: '/samples/dutch/big-small/sample-1.jpeg',
-        answerKeySrc: '/samples/dutch/big-small/sample-1-answer.jpeg',
-        altText: 'Groot klein werkblad met verschillende afbeeldingen voor werkbladen kleuters en groep 3',
-        pdfDownloadUrl: '/samples/dutch/big-small/sample-1.pdf',
-      },
-      {
-        id: '2',
-        worksheetSrc: '/samples/dutch/big-small/sample-2.jpeg',
-        answerKeySrc: '/samples/dutch/big-small/sample-2-answer.jpeg',
-        altText: 'Groot klein werkblad met identieke afbeeldingen voor fijne motoriek oefeningen',
-        pdfDownloadUrl: '/samples/dutch/big-small/sample-2.pdf',
-      },
-      {
-        id: '3',
-        worksheetSrc: '/samples/dutch/big-small/sample-3.jpeg',
-        answerKeySrc: '/samples/dutch/big-small/sample-3-answer.jpeg',
-        altText: 'Groot klein werkblad met nummering 1-2-3 voor ordenen van klein naar groot',
-        pdfDownloadUrl: '/samples/dutch/big-small/sample-3.pdf',
-      },
-      {
-        id: '4',
-        worksheetSrc: '/samples/dutch/big-small/sample-4.jpeg',
-        answerKeySrc: '/samples/dutch/big-small/sample-4-answer.jpeg',
-        altText: 'Groot klein oefenblad gratis voor werkbladen groep 3 en visuele discriminatie',
-        pdfDownloadUrl: '/samples/dutch/big-small/sample-4.pdf',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Features Grid - FULL text from big-small.md feature sections
@@ -145,80 +117,8 @@ De Groot en Klein werkbladen helpen bij de ontwikkeling van fijne motoriek. Kind
       noHiddenFees: 'Geen verborgen kosten',
       cancelAnytime: 'Altijd opzegbaar',
     },
-    items: [
-      {
-        id: '1',
-        icon: '⚡',
-        title: 'Werkbladen Groep 3 Maken in 3 Klikken - Snelle Oefenbladen Gratis Generator',
-        description: `Maak werkbladen groep 3 in slechts drie eenvoudige stappen. Kies eerst een thema of selecteer afbeeldingen uit de bibliotheek. Stel vervolgens het aantal oefeningen in van 1 tot 10. Klik op genereren en je werkblad is klaar. De hele procedure duurt minder dan drie minuten. Perfecte oefenbladen gratis voor drukke leerkrachten.
-
-De generator biedt vijf verschillende oefentypes. Kinderen kunnen de kleine omcirkelen. Of juist de grote aanwijzen. Bij drie afbeeldingen kunnen ze de middelste vinden. Ordenen van klein naar groot oefent getallenrijen. Van groot naar klein bereidt voor op aftrekken bij sommen tot 20.`,
-        highlighted: false,
-      },
-      {
-        id: '2',
-        icon: '✏️',
-        title: 'Werkbladen Kleuters Volledig Aanpasbaar - Fijne Motoriek Oefeningen Bewerken',
-        description: `Elk element op het werkblad is volledig bewerkbaar. Sleep afbeeldingen naar de gewenste positie. Vergroot of verklein objecten met je muis. Draai afbeeldingen voor variatie in je werkbladen kleuters. Verwijder elementen die je niet nodig hebt. Deze flexibiliteit maakt werkbladen groep 3 uniek voor elke klas.
-
-De bewerkingsmogelijkheden ondersteunen fijne motoriek ontwikkeling. Leerkrachten kunnen de moeilijkheidsgraad aanpassen. Grotere afbeeldingen voor beginners bij groep 1 2. Kleinere verschillen voor gevorderde leerlingen. Oefenbladen gratis met dit niveau van aanpassing zijn zeldzaam online.`,
-        highlighted: false,
-      },
-      {
-        id: '3',
-        icon: '📤',
-        title: 'Rekenen Werkbladen met Eigen Afbeeldingen Uploaden - Sommen tot 20 Personaliseren',
-        description: `Upload je eigen afbeeldingen voor gepersonaliseerde rekenen werkbladen. Gebruik foto's van klasgenoten of schoolprojecten. Combineer eigen uploads met bibliotheekafbeeldingen. Alle gangbare formaten worden ondersteund zoals JPEG en PNG. Dit maakt sommen tot 20 oefeningen relevant voor je specifieke klas.
-
-Eigen afbeeldingen verhogen de betrokkenheid van leerlingen. Kinderen herkennen bekende objecten en personen. Dit motiveert bij werkbladen kleuters en werkbladen groep 3. De uploadfunctie werkt per sessie zonder accountvereisten. Perfect voor het personaliseren van oefenbladen gratis.`,
-        highlighted: false,
-      },
-      {
-        id: '4',
-        icon: '🌍',
-        title: 'Veilig Leren Lezen Ondersteuning in 11 Talen - Letters Leren en Schrijven Oefenen',
-        description: `De generator ondersteunt 11 talen voor de gebruikersinterface. Nederlands, Engels, Duits, Frans, Spaans en meer. De afbeeldingenbibliotheek toont namen in de gekozen taal. Dit ondersteunt veilig leren lezen in meertalige klassen. Kinderen zien bekende woorden bij de afbeeldingen.
-
-Voor letters leren en schrijven oefenen zijn de afbeeldingsnamen waardevol. Leerkrachten kunnen woorden bespreken tijdens de les. De meertaligheid ondersteunt NT2-onderwijs. Internationale scholen profiteren van alle taalopties. Werkbladen kleuters in de moedertaal verhogen begrip.`,
-        highlighted: false,
-      },
-      {
-        id: '5',
-        icon: '💼',
-        title: 'Kleurplaten en Fijne Motoriek - Commerciële Licentie voor Verkoop Inbegrepen',
-        description: `Je Volledige Toegang abonnement bevat een commerciële print-on-demand licentie. Verkoop je werkbladen op platforms zoals Etsy. Maak kleurplaten en werkbladen voor Teachers Pay Teachers. Amazon KDP ondersteunt laagdrempelige werkboekjes. Geen extra licentiekosten boven je abonnement van 240 euro per jaar.
-
-De 300 DPI kwaliteit is perfect voor professionele verkoop. Kleurplaten en fijne motoriek werkbladen zijn populair bij ouders. Docent-ondernemers verdienen honderden euros per maand. De commerciële licentie maakt dit mogelijk zonder juridische zorgen. Werkbladen groep 3 verkopen is een groeiende markt.`,
-        highlighted: true,
-      },
-      {
-        id: '6',
-        icon: '🎨',
-        title: 'Tafels Oefenen Voorbereiding met 3000+ Afbeeldingen - Rekenen Werkbladen Bibliotheek',
-        description: `Toegang tot meer dan 3000 kindvriendelijke afbeeldingen. Alle afbeeldingen zijn georganiseerd per thema. Dieren, voertuigen, eten, seizoenen en meer. Zoek specifieke afbeeldingen met de zoekfunctie. Selecteer meerdere afbeeldingen voor gevarieerde werkbladen.
-
-De thematische organisatie ondersteunt tafels oefenen voorbereiding. Groepeer objecten voor visuele rekenlessen. Rekenen werkbladen worden interessanter met thematische afbeeldingen. De bibliotheek bevat ook achtergronden en randen. Alles inbegrepen in je abonnement zonder extra kosten voor oefenbladen gratis.`,
-        highlighted: true,
-      },
-      {
-        id: '7',
-        icon: '🖨️',
-        title: 'Sommen tot 20 Kwaliteit - Professionele 300 DPI Werkbladen Groep 3 Downloaden',
-        description: `Download werkbladen in professionele 300 DPI kwaliteit. Kies tussen JPEG en PDF formaten. Werkbladen en antwoordbladen apart downloadbaar. De grijstintenoptie bespaart inkt bij het printen. Perfect voor sommen tot 20 en andere rekenactiviteiten.
-
-De hoge resolutie is geschikt voor alle printers. Werkbladen groep 3 zien er scherp uit op papier. Kleuters kunnen kleine details goed onderscheiden. Dit ondersteunt fijne motoriek en visuele ontwikkeling. Oefenbladen gratis in deze kwaliteit zijn moeilijk te vinden elders.`,
-        highlighted: false,
-      },
-      {
-        id: '8',
-        icon: '✨',
-        title: 'Letters Leren met Veilig Leren Lezen Thema\'s - Schrijven Oefenen en Kleurplaten',
-        description: `Combineer groot-klein oefeningen met letters leren activiteiten. De afbeeldingenbibliotheek bevat alfabetthema's. Kinderen vergelijken grote en kleine letters. Dit ondersteunt veilig leren lezen methodes. Schrijven oefenen wordt voorbereid door visuele discriminatie.
-
-Kleurplaten met lettervormen zijn beschikbaar in de bibliotheek. Fijne motoriek wordt geoefend door omcirkelen. Werkbladen kleuters met letters verhogen letterherkenning. De combinatie met groot-klein concepten versterkt het leren. Groep 1 2 profiteert van deze geïntegreerde aanpak.`,
-        highlighted: false,
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // How-To Guide - FULL text from big-small.md step sections
@@ -306,80 +206,8 @@ Bewaar digitale kopies voor hergebruik. Maak variaties door opnieuw te genereren
     badgeText: 'Voor wie',
     readMoreLabel: 'Lees meer',
     showLessLabel: 'Minder tonen',
-    items: [
-      {
-        id: '1',
-        icon: '👶',
-        title: 'Leerkrachten Groep 1 2 en Kleuters - Werkbladen Kleuters voor Fijne Motoriek Ontwikkeling',
-        subtitle: 'Werkbladen kleuters en fijne motoriek',
-        description: `Leerkrachten in groep 1 2 gebruiken groot-klein werkbladen dagelijks. Werkbladen kleuters ondersteunen de fijne motoriek ontwikkeling van jonge kinderen. Het omcirkelen van grote of kleine objecten oefent pengreep. Kinderen leren visuele verschillen herkennen.
-
-De generator past perfect bij het kleuteronderwijs curriculum. Thematische werkbladen sluiten aan bij projecten over seizoenen of dieren. Fijne motoriek oefeningen bereiden voor op schrijven oefenen in groep 3. Leerkrachten besparen uren voorbereidingstijd met oefenbladen gratis.
-
-Combineer groot-klein met veilig leren lezen activiteiten. Bespreek de namen van afbeeldingen met de klas. Kinderen leren nieuwe woorden terwijl ze vergelijken. Letters leren wordt versterkt door letterafbeeldingen in de bibliotheek. Kleurplaten maken de activiteit compleet.`,
-        quote: 'Mijn kleuters zijn dol op de kleurrijke groot-klein werkbladen!',
-      },
-      {
-        id: '2',
-        icon: '📚',
-        title: 'Leerkrachten Groep 3 met Rekenen Werkbladen - Tafels Oefenen en Sommen tot 20 Voorbereiding',
-        subtitle: 'Werkbladen groep 3 en sommen tot 20',
-        description: `Groep 3 leerkrachten gebruiken groot-klein voor wiskundevoorbereiding. Werkbladen groep 3 met ordenen van klein naar groot oefenen getallenrijen. Dit is essentieel voor begrip van sommen tot 20. Visuele vergelijking versterkt het wiskundig denken.
-
-De nummer 1-2-3 oefeningen bereiden voor op tafels oefenen. Kinderen leren ordenen en rangschikken. Dit zijn fundamentele vaardigheden voor rekenen werkbladen. De overstap naar abstracte getallen wordt makkelijker door visuele oefening.
-
-Combineer met andere rekenen werkbladen uit de generator. Telrijen, optel- en aftrekoefeningen vullen groot-klein aan. Werkbladen groep 3 worden zo een compleet rekenpakket. Oefenbladen gratis voor het hele rekencurriculum zijn beschikbaar.`,
-        quote: 'Groot-klein werkbladen passen perfect bij onze rekenmethode.',
-      },
-      {
-        id: '3',
-        icon: '🏠',
-        title: 'Thuisonderwijs Ouders - Veilig Leren Lezen en Letters Leren met Werkbladen Kleuters',
-        subtitle: 'Oefenbladen gratis voor thuis',
-        description: `Thuisonderwijzende ouders waarderen de eenvoud van de generator. Geen ontwerpvaardigheden nodig voor professionele werkbladen kleuters. Maak materiaal dat aansluit bij veilig leren lezen methodes thuis. Kinderen krijgen dezelfde kwaliteit als op school.
-
-De flexibiliteit past bij individueel onderwijs. Pas moeilijkheidsgraad aan per kind. Gebruik eigen foto's voor gepersonaliseerde oefenbladen gratis. Motiveer kinderen met bekende afbeeldingen uit hun omgeving.
-
-Letters leren en schrijven oefenen combineren goed met groot-klein. Vergelijk grote en kleine letters visueel. Fijne motoriek ontwikkeling is cruciaal voor thuisonderwijs. De commerciële licentie maakt doorverkopen mogelijk voor extra inkomen.`,
-        quote: 'Eén tool voor al mijn kinderen op verschillende niveaus.',
-      },
-      {
-        id: '4',
-        icon: '🌐',
-        title: 'NT2-Docenten en Taalonderwijs - Veilig Leren Lezen in 11 Talen met Kleurplaten',
-        subtitle: 'Letters leren en schrijven oefenen',
-        description: `NT2-docenten profiteren van de meertalige ondersteuning. De generator toont afbeeldingsnamen in 11 talen. Dit ondersteunt veilig leren lezen voor anderstalige kinderen. Woordenschat groeit tijdens de groot-klein activiteit.
-
-Kleurplaten met benoemde objecten versterken taalverwerving. Kinderen leren Nederlandse woorden bij elke afbeelding. Letters leren gebeurt in context van betekenisvolle beelden. De visuele ondersteuning is essentieel voor taalleerders.
-
-Internationale scholen gebruiken de taalopties voor meertalig onderwijs. Werkbladen kleuters in de moedertaal ondersteunen de overgang. Oefenbladen gratis in meerdere talen zijn moeilijk te vinden elders. Schrijven oefenen wordt gekoppeld aan woordherkenning.`,
-        quote: 'Ik kan snel geïndividualiseerde werkbladen maken.',
-      },
-      {
-        id: '5',
-        icon: '🎓',
-        title: 'Speciaal Onderwijs - Fijne Motoriek en Sommen tot 20 met Werkbladen Groep 3',
-        subtitle: 'Fijne motoriek en speciaal onderwijs',
-        description: `Leerkrachten in het speciaal onderwijs waarderen de aanpasbaarheid. Vergroot afbeeldingen voor kinderen met visuele beperkingen. Vereenvoudig oefeningen tot 2 afbeeldingen per opdracht. Fijne motoriek oefeningen kunnen individueel worden afgestemd.
-
-Werkbladen groep 3 op aangepast niveau ondersteunen inclusief onderwijs. Sommen tot 20 voorbereiding gaat in eigen tempo. De herhaling van groot-klein concepten versterkt het leren. Oefenbladen gratis met antwoordbladen helpen bij zelfcorrectie.
-
-Kleurplaten bieden rustige verwerkingstijd na de cognitieve taak. Werkbladen kleuters met grote afbeeldingen zijn minder overweldigend. Tafels oefenen voorbereiding kan visueel beginnen. De generator ondersteunt gedifferentieerd onderwijs volledig.`,
-        quote: 'Perfecte ondersteuning voor mijn leerlingen met speciale behoeften.',
-      },
-      {
-        id: '6',
-        icon: '💰',
-        title: 'Docent-Ondernemers - Rekenen Werkbladen en Kleurplaten Verkopen met Commerciële Licentie',
-        subtitle: 'Commerciële licentie voor ondernemers',
-        description: `Docent-ondernemers verdienen met zelfgemaakte werkbladen. De commerciële licentie in Volledige Toegang maakt verkoop legaal. Verkoop rekenen werkbladen op Teachers Pay Teachers. Kleurplaten en werkbladen groep 3 zijn populaire producten.
-
-Maak complete lespakketten met groot-klein thema's. Combineer met sommen tot 20 werkbladen voor waardetoevoeging. Seizoensgebonden oefenbladen gratis voor jezelf, premium voor verkoop. De 300 DPI kwaliteit voldoet aan professionele standaarden.
-
-Etsy winkels floreren met educatieve printables. Tafels oefenen voorbereidende materialen zijn gewild. Werkbladen kleuters in thematische bundels verkopen goed. Het Volledige Toegang abonnement van 240 euro per jaar verdient zichzelf terug.`,
-        quote: 'Mijn abonnement heeft zichzelf terugverdiend in de eerste maand!',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // FAQ Section - FULL FAQs from big-small.md
@@ -393,58 +221,8 @@ Etsy winkels floreren met educatieve printables. Tafels oefenen voorbereidende m
     showLessLabel: 'Minder tonen',
     secureCheckout: 'Veilig betalen',
     cancelAnytime: 'Altijd opzegbaar',
-    items: [
-      {
-        id: '1',
-        question: 'Welke Leeftijden Zijn Geschikt voor Werkbladen Kleuters met Fijne Motoriek Oefeningen?',
-        answer: 'Groot en klein werkbladen zijn ontworpen voor kinderen van 4 tot 8 jaar. Werkbladen kleuters passen bij groep 1 en 2 in het Nederlandse systeem. Fijne motoriek oefeningen met omcirkelen zijn geschikt vanaf 4 jaar. De nummer 1-2-3 oefeningen passen bij groep 3 leerlingen van 6 tot 7 jaar. De moeilijkheidsgraad is aanpasbaar voor elke leeftijd. Gebruik 2 afbeeldingen voor jongere kinderen. Kies 3 afbeeldingen met de middelste optie voor oudere leerlingen. Grotere afbeeldingen maken werkbladen toegankelijker voor beginners.',
-      },
-      {
-        id: '2',
-        question: 'Hoe Ondersteunt de Generator Tafels Oefenen en Sommen tot 20 Voorbereiding?',
-        answer: 'De ordening van klein naar groot oefent sequentiële vaardigheden. Dit is fundamenteel voor begrip van getallenrijen bij tafels oefenen. Kinderen leren dat getallen een volgorde hebben. Sommen tot 20 worden makkelijker door visuele ordeningservaring. De nummer 1-2-3 oefeningen zijn directe voorbereiding. Kinderen schrijven cijfers bij objecten in volgorde. Dit combineert schrijven oefenen met wiskundig denken. Rekenen werkbladen profiteren van deze visuele basis.',
-      },
-      {
-        id: '3',
-        question: 'Kan Ik Werkbladen Groep 3 Combineren met Veilig Leren Lezen Methodes?',
-        answer: 'Ja, groot en klein werkbladen ondersteunen veilig leren lezen uitstekend. De afbeeldingenbibliotheek toont namen bij elke afbeelding. Kinderen leren woorden herkennen tijdens de activiteit. Letters leren wordt versterkt door visuele woordassociaties. Werkbladen groep 3 kunnen instructieteksten bevatten. Voeg leesopdrachten toe bovenaan het werkblad. Combineer met kleurplaten voor langere leesactiviteiten. De meertalige ondersteuning helpt bij anderstalige leerlingen.',
-      },
-      {
-        id: '4',
-        question: 'Zijn er Oefenbladen Gratis Beschikbaar voor Tafels Oefenen Voorbereiding?',
-        answer: 'Met je Volledige Toegang abonnement maak je onbeperkt oefenbladen gratis. Er zijn geen extra kosten per werkblad of download. Tafels oefenen voorbereidend materiaal is inbegrepen in je abonnement. De commerciële licentie maakt verkopen ook mogelijk. Het abonnement kost 240 euro per jaar of 25 euro per maand. Voor dit bedrag heb je toegang tot 33 generators. Oefenbladen gratis voor het hele schooljaar zijn dan beschikbaar. Geen verborgen kosten of limieten op downloads.',
-      },
-      {
-        id: '5',
-        question: 'Hoe Werkt Letters Leren met Groot en Klein Werkbladen en Schrijven Oefenen?',
-        answer: 'De afbeeldingenbibliotheek bevat alfabetthema\'s met lettervormen. Kinderen vergelijken grote en kleine letters visueel. Dit ondersteunt letters leren door vormherkenning. Schrijven oefenen combineert met de omcirkelopdrachten. Voeg tekst toe aan werkbladen met letterinstructies. Kies kindvriendelijke lettertypen voor leesbaarheid. De combinatie van visueel vergelijken en schrijven oefenen is krachtig. Werkbladen kleuters met letters bereiden voor op formeel schrijfonderwijs.',
-      },
-      {
-        id: '6',
-        question: 'Welke Kleurplaten en Rekenen Werkbladen Kan Ik Maken met de Generator?',
-        answer: 'De Groot en Klein generator focust op groottevergelijking. Kleurplaten ontstaan door de grijstintenoptie te gebruiken. Download in zwart-wit voor inkleuractiviteiten. Rekenen werkbladen met ordening ondersteunen wiskundevoorbereiding. Combineer met andere generators voor complete lespakketten. De optellen generator maakt sommen tot 20 werkbladen. Tafels oefenen materiaal komt uit de vermenigvuldigingsgenerator. Kleurplaten uit de teken- en kleurgenerator vullen aan.',
-      },
-      {
-        id: '7',
-        question: 'Is de Generator Geschikt voor Veilig Leren Lezen en Fijne Motoriek bij Speciaal Onderwijs?',
-        answer: 'Absoluut. De aanpasbaarheid maakt de generator perfect voor speciaal onderwijs. Vergroot afbeeldingen voor kinderen met visuele beperkingen. Veilig leren lezen gaat in aangepast tempo met individuele werkbladen. Fijne motoriek oefeningen kunnen vereenvoudigd worden. Gebruik grote omcirkelruimtes voor motorische uitdagingen. Werkbladen kleuters op aangepast niveau ondersteunen inclusief onderwijs. Antwoordbladen helpen bij zelfcorrectie en zelfstandig werken.',
-      },
-      {
-        id: '8',
-        question: 'Hoe Download Ik Werkbladen Groep 3 met Tafels Oefenen Kwaliteit?',
-        answer: 'Klik op de downloadknop na het genereren van je werkblad. Kies JPEG voor digitaal gebruik of PDF voor printen. Werkbladen groep 3 downloaden in 300 DPI voor professionele kwaliteit. Tafels oefenen materiaal ziet er scherp uit op elke printer. De grijstintenoptie bespaart inkt bij grote aantallen. Download werkblad en antwoordblad apart. Oefenbladen gratis downloaden is onbeperkt met je abonnement. Bewaar digitale kopies voor hergebruik in volgende schooljaren.',
-      },
-      {
-        id: '9',
-        question: 'Welke Talen Ondersteunt de Generator voor Sommen tot 20 en Letters Leren?',
-        answer: 'De generator ondersteunt 11 talen voor de interface. Nederlands, Engels, Duits, Frans, Spaans, Portugees, Italiaans, Zweeds, Deens, Noors en Fins. De afbeeldingenbibliotheek toont namen in de geselecteerde taal. Sommen tot 20 voorbereiding werkt in elke taal met universele cijfers. Letters leren kan in meerdere alfabetten met de juiste afbeeldingen. Internationale scholen en NT2-klassen profiteren van de meertaligheid. Veilig leren lezen methodes zijn taalspecifiek ondersteund.',
-      },
-      {
-        id: '10',
-        question: 'Wat Kost een Volledige Toegang Abonnement voor Groot en Klein Werkbladen?',
-        answer: 'Volledige Toegang kost 240 euro per jaar of 25 euro per maand. Dit geeft toegang tot alle 33 werkbladgeneratoren op het platform. Groot en Klein is een van de 23 apps exclusief voor Volledige Toegang. De Core Bundle van 144 euro bevat 10 populaire apps. Voor Groot en Klein werkbladen kleuters heb je Volledige Toegang nodig. De meerprijs van 96 euro per jaar ontsluit 23 extra generators. Tafels oefenen, sommen tot 20 en meer zijn dan beschikbaar. Beide abonnementen bevatten onbeperkte werkbladcreatie en commerciële licentie.',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Pricing - Full Access pricing (Big Small is Full Access only)
@@ -514,56 +292,8 @@ Etsy winkels floreren met educatieve printables. Tafels oefenen voorbereidende m
       securePayment: 'Veilig betalen',
       cancelAnytime: 'Altijd opzegbaar',
     },
-    items: [
-      {
-        id: '1',
-        slug: 'image-addition',
-        name: 'Optellen',
-        category: 'Rekenen',
-        icon: '➕',
-        description: 'Combineer groot-klein werkbladen met optelwerkbladen voor visuele sommen tot 20 voorbereiding.',
-      },
-      {
-        id: '2',
-        slug: 'coloring',
-        name: 'Kleurplaten',
-        category: 'Creativiteit',
-        icon: '🎨',
-        description: 'Beloon voltooide groot-klein werkbladen met thematische kleurplaten voor fijne motoriek.',
-      },
-      {
-        id: '3',
-        slug: 'matching-app',
-        name: 'Matching',
-        category: 'Visueel',
-        icon: '🔗',
-        description: 'Versterk visuele discriminatie door matching te combineren met groottevergelijking.',
-      },
-      {
-        id: '4',
-        slug: 'pattern-train',
-        name: 'Patroontrein',
-        category: 'Logica',
-        icon: '🚂',
-        description: 'Oefen sequenties en patronen als aanvulling op groot-klein ordening.',
-      },
-      {
-        id: '5',
-        slug: 'drawing-lines',
-        name: 'Tekenlijnen',
-        category: 'Fijne Motoriek',
-        icon: '✏️',
-        description: 'Train basislijnen voor fijne motoriek ontwikkeling naast groottevergelijking.',
-      },
-      {
-        id: '6',
-        slug: 'chart-count-color',
-        name: 'Tellen en Kleuren',
-        category: 'Rekenen',
-        icon: '📊',
-        description: 'Combineer groot-klein met grafiekvaardigheden voor visuele rekenlessen.',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 };
 

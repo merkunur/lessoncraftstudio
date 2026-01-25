@@ -88,36 +88,8 @@ Fuld Adgang-abonnementet inkluderer alle 33 opgavegeneratorer til 1.700 kr. om �
     noPdfLabel: 'Ingen PDF tilgængelig',
     freePdfCountLabel: '3 gratis downloads',
     ofLabel: 'af',
-    items: [
-      {
-        id: '1',
-        worksheetSrc: '/samples/danish/chart-count/sample-1.jpeg',
-        answerKeySrc: '/samples/danish/chart-count/sample-1-answer.jpeg',
-        altText: 'Billediagram gratis arbejdsark - tælleopgave arbejdsark til børn med farverige billeder til børnehaveklasse',
-        pdfDownloadUrl: '/samples/danish/chart-count/sample-1.pdf',
-      },
-      {
-        id: '2',
-        worksheetSrc: '/samples/danish/chart-count/sample-2.jpeg',
-        answerKeySrc: '/samples/danish/chart-count/sample-2-answer.jpeg',
-        altText: 'Billediagram arbejdsark til børnehaveklasse - gratis printables med billeder til matematiktræning',
-        pdfDownloadUrl: '/samples/danish/chart-count/sample-2.pdf',
-      },
-      {
-        id: '3',
-        worksheetSrc: '/samples/danish/chart-count/sample-3.jpeg',
-        answerKeySrc: '/samples/danish/chart-count/sample-3-answer.jpeg',
-        altText: 'Gratis arbejdsark billediagram - arbejdsark til børn med tælleopgaver til 0. klasse',
-        pdfDownloadUrl: '/samples/danish/chart-count/sample-3.pdf',
-      },
-      {
-        id: '4',
-        worksheetSrc: '/samples/danish/chart-count/sample-4.jpeg',
-        answerKeySrc: '/samples/danish/chart-count/sample-4-answer.jpeg',
-        altText: 'Arbejdsark til børnehaveklasse - billediagram gratis printables med matematikøvelser',
-        pdfDownloadUrl: '/samples/danish/chart-count/sample-4.pdf',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Features Grid - OPTIMIZED with keywords
@@ -133,71 +105,8 @@ Fuld Adgang-abonnementet inkluderer alle 33 opgavegeneratorer til 1.700 kr. om �
       noHiddenFees: 'Ingen skjulte gebyrer',
       cancelAnytime: 'Opsig når som helst',
     },
-    items: [
-      {
-        id: '1',
-        icon: '⚡',
-        title: 'Lav Gratis Arbejdsark til Børn på 3 Klik - Hurtig Billediagram Generator',
-        description: `Vælg tema eller billeder fra vores bibliotek. Klik på generer-knappen. Din opgave er klar på under 30 sekunder. Ingen designerfærdigheder nødvendige. Børnehaveklassen og 0. klasse lærere kan lave opgaver med det samme. Systemet vælger automatisk 6 billedkategorier og laver 20 tilfældige billeder. Eleverne tæller billederne og farvelægger kasserne. Facitarket genereres automatisk med de korrekte søjler.
-
-Vælg mellem temabaseret automatisk udvælgelse eller manuel billedvalg. Temaerne sikrer sammenhængende opgaver til print. Dyr, mad, transport og årstider er populære temaer. Hver generering giver en unik opgave. Lav 10 forskellige arbejdsark om samme tema på 5 minutter. Dit abonnement inkluderer ubegrænsede genereringer.`,
-        highlighted: false,
-      },
-      {
-        id: '2',
-        icon: '✏️',
-        title: 'Rediger Alt på Dit Gratis Arbejdsark - Fuld Tilpasning af Arbejdsark til Børn',
-        description: `Hver eneste element på lærredet kan redigeres. Træk billeder til nye positioner. Rotér, skalér eller slet elementer. Tekstfelter kan flyttes, ændres i farve og skriftstørrelse. Baggrunde og rammer justeres med uigennemsigtlighedskontrol. Dit billediagram bliver præcis som du vil have det.
-
-Lås elementer på plads når layoutet er perfekt. Oplås dem igen hvis du vil lave ændringer. Fortryd og annuller fortryd-funktioner sparer tid. Op til 20 trin kan fortrydes. Lag-kontrol lader dig flytte elementer foran eller bagved hinanden. Justering-værktøjer centrerer elementer perfekt. Alle redigeringsværktøjer fungerer intuitivt uden træning.`,
-        highlighted: false,
-      },
-      {
-        id: '3',
-        icon: '📤',
-        title: 'Upload Egne Billeder til Gratis Arbejdsark - Personaliser Arbejdsark til Børnehaveklasse',
-        description: `Upload dine egne fotos og illustrationer. Alle almindelige formater understøttes: JPEG, PNG, GIF. Kombiner biblioteksbilleder med dine uploadede filer. Personalisér opgaver til dine specifikke elever. Upload klassefoto til tælleopgaver. Brug lokale monumenter eller klasseværelsesgenstande.
-
-Multi-fil upload lader dig tilføje mange billeder på én gang. Uploadede billeder gemmes i din session. Brug dem sammen med vores 3000+ billedbibliotek. Lav unikke arbejdsark ingen andre har. Børnehaveklassen elsker opgaver med kendte ansigter og genstande. 0. klasse og 1. klasse profiterer af kulturelt relevante billeder.`,
-        highlighted: false,
-      },
-      {
-        id: '4',
-        icon: '🌍',
-        title: '11 Sprog til Gratis Arbejdsark - Flersproget Generator til Arbejdsark til Børn',
-        description: `Grænseflade og indhold på 11 sprog: dansk, engelsk, tysk, fransk, spansk, italiensk, portugisisk, hollandsk, svensk, norsk og finsk. Skift sprog med ét klik. Alle opgaver, arbejdsark og kopiark tilpasses dit valgte sprog. Overskrifter og instruktioner oversættes automatisk. Billednavne vises på dit foretrukne sprog.
-
-Perfekt til tosproget undervisning i børnehaveklassen og indskolingen. Lav matematikopgaver på dansk til hovedklassen. Lav samme opgaver på engelsk til sprogundervisning. ESL-lærere bruger vores generator til visuel ordforrådsopbygning. Internationale skoler får ensartede opgaver til print på flere sprog. Sprogsupport er inkluderet i Fuld Adgang uden ekstra omkostninger.`,
-        highlighted: false,
-      },
-      {
-        id: '5',
-        icon: '💰',
-        title: 'Kommerciel Licens til Gratis Printables - Sælg Dine Arbejdsark til Børn',
-        description: `Fuld Adgang inkluderer fuld print-on-demand kommerciel licens. Sælg dine billediagram-opgaver på Teachers Pay Teachers. Opret en Etsy-butik med printbare matematikopgaver. Udgiv lavindhold-bøger på Amazon KDP. Ingen attribution påkrævet. Professionel 300 DPI-kvalitet til kommerciel brug inkluderet.
-
-Mange lærere tjener 3.500-35.000 kr. om måneden ved at sælge opgaver til print. Dit abonnement på 1.700 kr. om året betaler sig selv. Lav opgavepakker for børnehaveklassen, 0. klasse og 1. klasse. Kombiner billediagrammer med andre arbejdsark-typer. Byg et abonnementsfirma eller medlemsskabssite. Pinterest-markedsføring driver trafik til dine produkter. Kommerciel licens er inkluderet i dit abonnement - ingen ekstra gebyrer.`,
-        highlighted: true,
-      },
-      {
-        id: '6',
-        icon: '🎨',
-        title: '3000+ Billedbibliotek til Gratis Arbejdsark - Arbejdsark til Børnehaveklasse',
-        description: `Over 3000 børnevenlige billeder inkluderet. Temabaseret organisering gør udvælgelsen nem. Dyr, mad, transport, årstider, former og farver. Gennemse individuelt eller vælg hele temaer. Søgefunktion finder specifikke billeder hurtigt. Alle billeder er inkluderet i dit abonnement.
-
-Baggrunde og rammer inkluderet uden ekstra omkostninger. Konkurrenter opkræver pr. billede eller pr. skabelon. Vi inkluderer alt i Fuld Adgang. Lav ubegrænsede matematikopgaver med alle 3000+ billeder. Børnehaveklassen og 0. klasse elsker farverige tematiske opgaver. 1. klasse profiterer af mere komplekse billedscenarier. Nyt indhold tilføjes regelmæssigt.`,
-        highlighted: false,
-      },
-      {
-        id: '7',
-        icon: '🖨️',
-        title: 'Professionel 300 DPI Kvalitet - Perfekte Gratis Arbejdsark og Gratis Printables',
-        description: `Høj opløsningseksport i 300 DPI. Perfekt til print derhjemme eller på skolen. Perfekt til salg af opgaver til print kommercielt. JPEG og PDF formater tilgængelige. Gråtoneoption sparer blækudgifter. Professionel kvalitet på hver opgave.
-
-Download arbejdsark og facitark separat. Facitarket viser den korrekte søjlegraf med farvede kasser. Eleverne kan tjekke deres eget arbejde. Lærere sparer rettetid. PDF-filer bevarer kvalitet uanset størrelse. JPEG-filer er nemme at dele og printe. Alle downloads er 300 DPI-kvalitet inkluderet i Fuld Adgang.`,
-        highlighted: true,
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // How-To Guide - OPTIMIZED with keywords
@@ -279,68 +188,8 @@ Gråtoneoption sparer blækudgifter når du printer. Alle farver konverteres til
     badgeText: 'Brugseksempler',
     readMoreLabel: 'Læs mere',
     showLessLabel: 'Vis mindre',
-    items: [
-      {
-        id: '1',
-        icon: '👶',
-        title: 'Børnehaveklasse og 0. Klasse Pædagoger',
-        subtitle: 'Matematikopgaver og Arbejdsark til Print for de Yngste',
-        description: `Børnehaveklassen lærer at tælle gennem visuelle aktiviteter. Billediagrammer kombinerer tælleøvelser med datavisualisering. 0. klasse elever bygger grundlæggende matematikfærdigheder. Tæl dyr, frugt eller transportmidler. Farvelæg kasser for at vise resultater. Dette lærer én-til-én korrespondance og tidlig grafforståelse.
-
-Kombiner billediagrammer med malebog-sider for komplet aktivitet. Start med tælleopgave, slut med farvelægning. Børnehaveklassen elsker denne variation. Tilføj finmotorik øvelser som klipning og limning. Lav tematiske pakker: efterårsdyr, vintermad, forårsblomster. Gratis skoleopgaver til print sparer penge på læremidler. Fuld Adgang giver ubegrænsede downloads til hele børnehaveklassen.`,
-        quote: 'Børnene elsker billediagrammer!',
-      },
-      {
-        id: '2',
-        icon: '📚',
-        title: '1. Klasse til 3. Klasse Lærere',
-        subtitle: 'Arbejdsark og Matematikopgaver for Indskolingen',
-        description: `1. klasse bruger billediagrammer til talforståelse op til 20. Eleverne tæller, registrerer og præsenterer data. 2. klasse arbejder med større talområder og mere komplekse kategorier. 3. klasse introduceres til søjlediagrammer som forberedelse til højere matematik. Progressionen følger Fælles Mål for matematik i indskolingen.
-
-Differentier nemt ved at justere billedantal og kompleksitet. Stærke elever får 6 kategorier med op til 5 i hver. Svage elever starter med 3-4 kategorier. Kombiner matematikopgaver med lære bogstaver aktiviteter. Brug bogstavtemaer: ting der starter med A, B, C. Tilføj skriv bogstaver øvelser på samme ark. Elever tæller, grafer og øver bogstavskrivning. Multi-fag integration sparer undervisningstid.`,
-        quote: 'Perfekt til differentieret undervisning!',
-      },
-      {
-        id: '3',
-        icon: '🏠',
-        title: 'Hjemmeundervisningsforældre',
-        subtitle: 'Gratis Skoleopgaver til Print og Arbejdsark for Flere Klassetrin',
-        description: `Hjemmeundervisningsfamilier underviser ofte flere børn i forskellige aldre. Lav billediagrammer for børnehaveklassen mens 1. klasse øver gangetabeller. Brug samme billeder men forskellige opgaver. Lillebror tæller dyr. Storesøster laver multiplikationsopgaver baseret på samme billeder. Én forberedelse tjener to klassetrin.
-
-Fuld Adgang giver adgang til alle 33 generatorer. Kombiner billediagrammer med læse og skrive opgaver. Lav tematiske uger med sammenhængende arbejdsark. Mandag: tællediagram om dyr. Tirsdag: læse tekst om samme dyr. Onsdag: skriv sætninger med dyrenavne. Torsdag: malebog med de samme dyr. Fredag: finmotorik øvelser - klip og lim dyr. Komplet tematisk læring på ét abonnement.`,
-        quote: 'Sparer tid med flere børn!',
-      },
-      {
-        id: '4',
-        icon: '🗣️',
-        title: 'Engelsklærere og Tosproget Undervisning',
-        subtitle: 'Matematikopgaver og Opgaver til Print på 11 Sprog',
-        description: `Engelsklærere i danske skoler bruger billediagrammer til ordforrådsopbygning. Lav samme opgave på dansk og engelsk. Eleverne lærer dyrenavne på begge sprog. Lær bogstaver og ord gennem visuel kontekst. Billeder hjælper med forståelse. Internationale skoler laver opgaver til print på elevernes modersmål.
-
-Tosprogede elever profiterer af multimodal læring. Se billedet, tæl, læs ordet, skriv tallet. Fire læringsstile i én opgave. Kombiner med læse og skrive aktiviteter på begge sprog. Stavning øves gennem billedassociation. Generer samme diagram på dansk mandag, engelsk onsdag. Sammenligning styrker begge sprog. Fuld Adgang inkluderer alle 11 sprog uden ekstra omkostninger.`,
-        quote: 'Flersproget support er fantastisk!',
-      },
-      {
-        id: '5',
-        icon: '♿',
-        title: 'Specialundervisningslærere',
-        subtitle: 'Differentierbare Arbejdsark og Matematikopgaver til Print',
-        description: `Specialundervisning kræver høj grad af tilpasning. Billediagram-generatoren giver fuld kontrol over sværhedsgrad. Reducer til 3 kategorier for elever med særlige behov. Brug store, tydelige billeder. Enkle temaer som former og farver. Tilføj ekstra instruktioner via tekstværktøjer. Visuel støtte hjælper alle elever.
-
-Upload fotos af klassekammerater eller kendte objekter. Personalisering øger engagement. Elever med autisme reagerer godt på forudsigelige strukturer. Lav samme type opgave hver uge med nye billeder. Konsistens reducerer angst. Kombiner med finmotorik øvelser tilpasset motoriske evner. Større kasser for børn med gribevanskeligheder. Gratis skoleopgaver til print betyder ubegrænsede forsøg og tilpasninger.`,
-        quote: 'Tilpasningsmulighederne er uvurderlige!',
-      },
-      {
-        id: '6',
-        icon: '💼',
-        title: 'Lærerforetagender',
-        subtitle: 'Sælg Matematikopgaver og Arbejdsark til Print Kommercielt',
-        description: `Teachers Pay Teachers sælgere tjener 3.500-35.000 kr. månedligt på opgaver til print. Fuld Adgang licens tillader kommercielt salg. Lav billediagram-pakker for børnehaveklassen, 0. klasse og 1. klasse. Kombiner med malebog-sider, gangetabeller-øvelser og lære bogstaver aktiviteter. Komplette månedspakker sælger bedst. Tematiske bundles for årstider er populære.
-
-Opret en Etsy-butik med printbare arbejdsark. Markedsfør på Pinterest med smukke eksempelbilleder. Byg email-liste med gratis prøver. Sælg abonnementer til månedlige opgavepakker. Amazon KDP low-content bøger er en anden indtægtskilde. Udgiv arbejdsbøger med billediagrammer plus læse og skrive øvelser. Dit abonnement på 1.700 kr. betaler sig selv med få salg. Kommerciel licens inkluderet - ingen ekstra gebyrer.`,
-        quote: 'Mit abonnement betalte sig selv i første måned!',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Pricing Section - Full Access pricing
@@ -407,64 +256,8 @@ Opret en Etsy-butik med printbare arbejdsark. Markedsfør på Pinterest med smuk
     showMoreText: 'Vis flere spørgsmål',
     secureCheckout: 'Sikker betaling',
     cancelAnytime: 'Opsig når som helst',
-    items: [
-      {
-        id: '1',
-        question: 'Kræver Billediagram Gratis Arbejdsark Generatoren et Abonnement?',
-        answer: `Billediagram-generatoren kræver et Fuld Adgang abonnement der koster 1.700 kr. årligt eller 175 kr. månedligt. Dit abonnement giver ubegrænset opgaveproduktion uden gebyrer pr. opgave. Generer så mange matematikopgaver og arbejdsark til print som du har brug for.
-
-Fuld Adgang inkluderer alle 33 generatorer til 1.700 kr. årligt. Begge abonnementer inkluderer kommerciel licens, 11 sprog og professionel 300 DPI kvalitet.`,
-      },
-      {
-        id: '2',
-        question: 'Kan Jeg Printe Gratis Arbejdsark til Børn Derhjemme?',
-        answer: `Ja. Download som PDF eller JPEG. Åbn filen på din computer. Print på enhver hjemmeprinter. Letter størrelse (21,6×27,9 cm) fungerer i USA. A4 størrelse (210×297 mm) bruges i Danmark og Europa. Gråtoneoption sparer farveblæk.
-
-Professionel 300 DPI kvalitet sikrer skarpe linjer og klare billeder. Print ét eksemplar til test. Juster indstillinger hvis nødvendigt. Print derefter klassesæt. Børnehaveklasse og 0. klasse opgaver printer perfekt på standard printerpapir.`,
-      },
-      {
-        id: '3',
-        question: 'Har Jeg Brug for Designfærdigheder for at Lave Gratis Arbejdsark?',
-        answer: `Nej. Ingen designerfærdigheder påkrævet. Vælg tema eller billeder. Klik generer. Din opgave er klar på 30 sekunder. Simpel brugerflade guider dig trin-for-trin.
-
-Alle kontroller er mærkede på dit sprog. Hjælpetekster forklarer hver funktion. Børnehaveklasse lærere uden tekniske færdigheder laver opgaver med det samme. 0. klasse og 1. klasse lærere bruger generatoren uden træning. Intuitiv design kræver nul indlæringskurve.`,
-      },
-      {
-        id: '4',
-        question: 'Kan Jeg Bruge Arbejdsark til Børnehaveklasse i Min Klasse?',
-        answer: `Fuld Adgang abonnement inkluderer ubegrænset klasseværelsesbrug. Print så mange kopier du har brug for. Uddel til alle elever i børnehaveklassen, 0. klasse og 1. klasse.
-
-Lav differentieringsmaterialer for forskellige niveauer. Upload på skolens læringsplatform. Del med kollegaer på samme skole. Kommerciel licens er separat - den handler om salg. Klasseværelsesbrug er fuldt inkluderet i dit abonnement uden begrænsninger.`,
-      },
-      {
-        id: '5',
-        question: 'Hvilke Sprog Er Tilgængelige for Gratis Arbejdsark til Børn?',
-        answer: `11 sprog: dansk, engelsk, tysk, fransk, spansk, italiensk, portugisisk, hollandsk, svensk, norsk og finsk. Skift sprog med ét klik. Grænseflade og indhold tilpasses dit valgte sprog.
-
-Overskrifter og instruktioner oversættes automatisk. Billednavne vises på dit foretrukne sprog. Perfekt til engelskundervisning i børnehaveklassen. 0. klasse lærer både dansk og engelsk. 1. klasse sammenligner sprog. Alle 11 sprog inkluderet i Fuld Adgang uden ekstra omkostninger.`,
-      },
-      {
-        id: '6',
-        question: 'Kan Jeg Sælge Arbejdsark til Børn og Gratis Printables Jeg Laver?',
-        answer: `Ja. Fuld Adgang inkluderer fuld print-on-demand kommerciel licens uden ekstra omkostninger. Sælg på Teachers Pay Teachers, Etsy eller Amazon KDP. Ingen attribution påkrævet.
-
-Lav opgavepakker for børnehaveklassen, 0. klasse og 1. klasse. Kombiner billediagrammer med malebog-sider, gangetabeller og finmotorik øvelser. Mange lærere tjener 3.500-35.000 kr. månedligt. Dit abonnement på 1.700 kr. betaler sig selv hurtigt. Konkurrenter opkræver ekstra for kommercielle rettigheder.`,
-      },
-      {
-        id: '7',
-        question: 'Hvor Lang Tid Tager Det at Lave Gratis Arbejdsark?',
-        answer: `Under 3 minutter fra start til færdigt PDF. Vælg tema: 10 sekunder. Klik generer: 5 sekunder. Rediger efter behov: 1-2 minutter. Download: 5 sekunder. Total: 3 minutter.
-
-Traditionelle metoder tager 30-60 minutter. Vores generator er 10-20 gange hurtigere. Lav en uges opgaver på 20 minutter. Kombiner med læse og skrive aktiviteter hurtigt. Tilføj gangetabeller eller stavning øvelser. Komplet ugepakke på 30 minutter total.`,
-      },
-      {
-        id: '8',
-        question: 'Inkluderer Arbejdsark til Børnehaveklasse Facitark?',
-        answer: `Ja. Facitark genereres automatisk. Klik "Generer" dropdown og vælg "Facitark". Systemet tæller hver billedkategori. Søjler farvelægges fra bunden op. Gul farve viser korrekt antal.
-
-Download facitark separat. Elever kan tjekke deres eget arbejde. Børnehaveklassen lærer selvkontrol. 0. klasse bygger uafhængighed. 1. klasse udvikler metakognitive færdigheder. Begge filer (opgave og facit) er 300 DPI professionel kvalitet.`,
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Related Apps Section - OPTIMIZED with keywords
@@ -481,56 +274,8 @@ Download facitark separat. Elever kan tjekke deres eget arbejde. Børnehaveklass
       securePayment: 'Sikker betaling',
       cancelAnytime: 'Opsig når som helst',
     },
-    items: [
-      {
-        id: '1',
-        slug: 'addition',
-        name: 'Addition',
-        category: 'Matematik',
-        icon: '➕',
-        description: 'Kombiner billediagrammer med additionsopgaver for komplet matematiktræning.',
-      },
-      {
-        id: '2',
-        slug: 'coloring',
-        name: 'Malebilleder',
-        category: 'Kunst og Kreativitet',
-        icon: '🎨',
-        description: 'Kombiner tælleøvelser med malebog-kreativitet for multi-sensorisk læring.',
-      },
-      {
-        id: '3',
-        slug: 'find-and-count',
-        name: 'Find og Tæl',
-        category: 'Visuel Læring',
-        icon: '🔍',
-        description: 'Styrk tællefærdigheder med supplerende søg-og-tæl opgaver.',
-      },
-      {
-        id: '4',
-        slug: 'matching',
-        name: 'Matchning',
-        category: 'Visuel Læring',
-        icon: '🔗',
-        description: 'Kombiner datavisualisering med mønstergenkendelse.',
-      },
-      {
-        id: '5',
-        slug: 'math-worksheet',
-        name: 'Matematikark',
-        category: 'Matematik',
-        icon: '🔢',
-        description: 'Tilføj regneark til din billediagram-pakke for komplet matematik.',
-      },
-      {
-        id: '6',
-        slug: 'writing',
-        name: 'Skriveopgaver',
-        category: 'Sprog',
-        icon: '✏️',
-        description: 'Kombiner tælling med skriveøvelser for multi-fag integration.',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 };
 

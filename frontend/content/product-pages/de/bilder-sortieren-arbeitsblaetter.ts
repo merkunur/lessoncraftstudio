@@ -110,43 +110,8 @@ Mit Ihrem Abonnement erhalten Sie Zugang zu über 3000 kindgerechten Bildern. Di
     badgeText: 'Kostenlose Beispiele',
     downloadingLabel: 'Wird heruntergeladen...',
     ofLabel: 'von',
-    items: [
-      {
-        id: '1',
-        worksheetSrc: '/samples/german/picture-sort/sample-1.jpeg',
-        answerKeySrc: '/samples/german/picture-sort/sample-1-answer.jpeg',
-        altText: 'Bilder Sortieren Arbeitsblatt kostenlos - Sortierübungen für Arbeitsblätter Grundschule und Vorschule',
-        pdfDownloadUrl: '/samples/german/picture-sort/sample-1.pdf',
-      },
-      {
-        id: '2',
-        worksheetSrc: '/samples/german/picture-sort/sample-2.jpeg',
-        answerKeySrc: '/samples/german/picture-sort/sample-2-answer.jpeg',
-        altText: 'Sortierarbeitsblatt für Kinder - Mathe Arbeitsblätter und Kostenlose Arbeitsblätter zum Ausdrucken',
-        pdfDownloadUrl: '/samples/german/picture-sort/sample-2.pdf',
-      },
-      {
-        id: '3',
-        worksheetSrc: '/samples/german/picture-sort/sample-3.jpeg',
-        answerKeySrc: '/samples/german/picture-sort/sample-3-answer.jpeg',
-        altText: 'Kategorisieren Übungsblatt - Vorschule Arbeitsblätter mit Einmaleins und Rechnen lernen',
-        pdfDownloadUrl: '/samples/german/picture-sort/sample-3.pdf',
-      },
-      {
-        id: '4',
-        worksheetSrc: '/samples/german/picture-sort/sample-4.jpeg',
-        answerKeySrc: '/samples/german/picture-sort/sample-4-answer.jpeg',
-        altText: 'Bilder Zuordnen Arbeitsblatt - Deutsch Arbeitsblätter und Schwungübungen für Grundschule',
-        pdfDownloadUrl: '/samples/german/picture-sort/sample-4.pdf',
-      },
-      {
-        id: '5',
-        worksheetSrc: '/samples/german/picture-sort/sample-5.jpeg',
-        answerKeySrc: '/samples/german/picture-sort/sample-5-answer.jpeg',
-        altText: 'Sortierübungen Generator Beispiel - Buchstaben lernen und Ausmalbilder Arbeitsblätter',
-        pdfDownloadUrl: '/samples/german/picture-sort/sample-5.pdf',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Features Grid - FULL text from bilder-sortieren.md feature sections
@@ -162,71 +127,8 @@ Mit Ihrem Abonnement erhalten Sie Zugang zu über 3000 kindgerechten Bildern. Di
       noHiddenFees: 'Keine versteckten Kosten',
       cancelAnytime: 'Jederzeit kündbar',
     },
-    items: [
-      {
-        id: '1',
-        icon: '🖱️',
-        title: 'Einfache Erstellung von Arbeitsblättern Grundschule in 3 Klicks - Kostenlose Arbeitsblätter ohne Designkenntnisse',
-        description: `Die Erstellung von Sortierarbeitsblättern ist kinderleicht. Wählen Sie zwei Kategorien für die Sortierung aus. Fügen Sie bis zu 12 Bilder hinzu. Klicken Sie auf Erstellen. Fertig ist Ihr professionelles Arbeitsblatt. Keine Designkenntnisse erforderlich. Auch Anfänger erstellen sofort ansprechende Materialien.
-
-Der Generator bietet zwei Modi: Automatische Generierung und manuelle Auswahl. Bei der automatischen Generierung wählen Sie einfach zwei Themen und der Generator erstellt das Arbeitsblatt. Bei der manuellen Auswahl bestimmen Sie selbst welche Bilder in welche Kategorie gehören. Beide Modi liefern professionelle Ergebnisse in unter drei Minuten.`,
-        highlighted: true,
-      },
-      {
-        id: '2',
-        icon: '✏️',
-        title: 'Vollständige Canvas-Bearbeitung für Vorschule Arbeitsblätter - Mathe Arbeitsblätter und Deutsch Arbeitsblätter individuell anpassen',
-        description: `Jedes Element auf dem Arbeitsblatt ist bearbeitbar. Verschieben Sie Bilder per Drag & Drop. Ändern Sie die Größe durch Ziehen an den Ecken. Drehen Sie Elemente nach Belieben. Löschen Sie unerwünschte Objekte. Die vollständige Editierbarkeit macht jeden Wunsch möglich. Passen Sie Mathe Arbeitsblätter und Deutsch Arbeitsblätter perfekt an.
-
-Die Ebenensteuerung bestimmt die Reihenfolge der Elemente. Bringen Sie wichtige Bilder nach vorne oder senden Sie Hintergründe nach hinten. Ausrichtungswerkzeuge positionieren mehrere Objekte gleichmäßig. Die Sperrfunktion verhindert versehentliche Änderungen an fertigen Elementen. So behalten Sie volle Kontrolle über Ihr Arbeitsblatt.`,
-        highlighted: false,
-      },
-      {
-        id: '3',
-        icon: '📤',
-        title: 'Eigene Bilder hochladen für Arbeitsblätter Grundschule - Schwungübungen und Buchstaben lernen mit persönlichen Fotos',
-        description: `Laden Sie eigene Bilder hoch für noch persönlichere Arbeitsblätter. Unterstützt werden JPEG, PNG und GIF Formate. Kombinieren Sie eigene Fotos mit der Bildbibliothek. Erstellen Sie Schwungübungen mit Klassenfotos. Gestalten Sie Buchstaben lernen Materialien mit vertrauten Bildern. Die Personalisierung steigert die Motivation der Kinder.
-
-Hochgeladene Bilder erscheinen sofort in der Vorschau. Sie weisen jedem Bild eine Kategorie zu. Links oder rechts - die Zuordnung erfolgt durch einfache Auswahl im Dropdown-Menü. So entstehen einzigartige Sortierarbeitsblätter für das Buchstaben lernen mit persönlichen Motiven.`,
-        highlighted: false,
-      },
-      {
-        id: '4',
-        icon: '🌍',
-        title: '11 Sprachen für Vorschule Arbeitsblätter - Kostenlose Arbeitsblätter in Deutsch, Englisch und 9 weiteren Sprachen',
-        description: `Der Generator unterstützt 11 Sprachen vollständig. Die Benutzeroberfläche ist komplett übersetzt. Auch die Bildbibliothek verwendet lokalisierte Bildnamen. Verfügbare Sprachen sind Deutsch, Englisch, Französisch, Spanisch und Portugiesisch. Dazu kommen Italienisch, Niederländisch, Schwedisch, Dänisch, Norwegisch und Finnisch. Perfekt für mehrsprachige Klassenzimmer.
-
-Die Spracheinstellung beeinflusst auch die Bildnamen in der Bibliothek. Bilder erscheinen mit deutschen Bezeichnungen für deutschsprachige Lehrkräfte. Internationale Schulen nutzen die entsprechende Unterrichtssprache. Diese Mehrsprachigkeit macht den Generator ideal für Deutsch Arbeitsblätter in DaZ-Klassen.`,
-        highlighted: false,
-      },
-      {
-        id: '5',
-        icon: '💰',
-        title: 'POD-Lizenz für kommerzielle Nutzung - Arbeitsblätter Grundschule und Mathe Arbeitsblätter verkaufen',
-        description: `Mit Ihrem Vollzugriff Abonnement erhalten Sie eine kommerzielle Print-on-Demand Lizenz. Verkaufen Sie Ihre Arbeitsblätter auf Teachers Pay Teachers. Bieten Sie Materialien auf Etsy an. Veröffentlichen Sie Arbeitshefte auf Amazon KDP. Die 300 DPI Qualität erfüllt professionelle Druckstandards. Keine zusätzlichen Lizenzgebühren erforderlich.
-
-Viele Lehrkräfte verdienen mit selbsterstellten Materialien ein Nebeneinkommen. Mathe Arbeitsblätter und Materialien für das Rechnen 1. Klasse sind besonders gefragt. Sortierarbeitsblätter ergänzen bestehende Produktlinien perfekt. Die professionelle Druckqualität erfüllt alle Verkaufsstandards.`,
-        highlighted: true,
-      },
-      {
-        id: '6',
-        icon: '🎨',
-        title: 'Über 3000 Bilder für Ausmalbilder und Malvorlagen - Rechnen lernen und Einmaleins mit kindgerechten Illustrationen',
-        description: `Die umfangreiche Bildbibliothek enthält über 3000 kindgerechte Bilder. Alle Bilder sind nach Themen organisiert. Finden Sie schnell passende Illustrationen für Rechnen lernen. Erstellen Sie ansprechende Einmaleins Übungen. Nutzen Sie die Suchfunktion für gezielte Ergebnisse. Hintergründe und Rahmen sind ebenfalls enthalten.
-
-Themenbereiche wie Tiere, Fahrzeuge, Lebensmittel und Natur stehen zur Auswahl. Die Suchfunktion findet passende Bilder schnell und zuverlässig. Thematische Hintergründe passen zu saisonalen Unterrichtseinheiten. Dekorative Rahmen verleihen Arbeitsblättern einen professionellen Look. Perfekt für Ausmalbilder und Malvorlagen mit Sortierelementen.`,
-        highlighted: false,
-      },
-      {
-        id: '7',
-        icon: '🖨️',
-        title: 'Professionelle 300 DPI Qualität für Deutsch Arbeitsblätter - Rechnen 1. Klasse Materialien in Druckqualität exportieren',
-        description: `Der Export erfolgt in professioneller 300 DPI Auflösung. Wählen Sie zwischen PDF und JPEG Format. Die Graustufen-Option spart Druckertinte. Jedes Arbeitsblatt enthält automatisch einen Lösungsschlüssel. Rechnen 1. Klasse Arbeitsblätter sehen gedruckt perfekt aus. Auch für den kommerziellen Verkauf geeignet.
-
-PDF-Dateien enthalten eingebettete Schriften für konsistente Darstellung. Die Graustufen-Option wandelt farbige Arbeitsblätter in Schwarzweiß um. Das spart Druckertinte und eignet sich für Kopiergeräte in Schulen. Die Bildqualität bleibt dabei vollständig erhalten.`,
-        highlighted: true,
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // How-To Guide - FULL text from bilder-sortieren.md
@@ -298,68 +200,8 @@ Generieren Sie den Lösungsschlüssel separat. Die Lösung zeigt alle Bilder kor
     badgeText: 'Anwendungsbereiche',
     readMoreLabel: 'Mehr lesen',
     showLessLabel: 'Weniger anzeigen',
-    items: [
-      {
-        id: '1',
-        icon: '👶',
-        title: 'Erzieher in der Vorschule nutzen Vorschule Arbeitsblätter - Schwungübungen und Buchstaben lernen für die Kleinsten',
-        subtitle: 'Kindergarten und Kita',
-        description: `Erzieher in der Vorschule erstellen täglich neue Sortierübungen. Kinder im Alter von 4 bis 6 Jahren lernen spielerisch das Kategorisieren. Die Bilder sind kindgerecht und ansprechend gestaltet. Kombinieren Sie Sortieraufgaben mit Schwungübungen für motorische Entwicklung. Ergänzen Sie Buchstaben lernen Materialien für die Literacy-Förderung. Die Vorschule Arbeitsblätter bereiten optimal auf die Grundschule vor.
-
-Sortierübungen fördern logisches Denken und visuelle Wahrnehmung. Kinder lernen Gemeinsamkeiten und Unterschiede zu erkennen. Das Erfolgserlebnis am Ende motiviert die Kinder. Thematische Sortieraufgaben passen zu Projekten im Kindergarten.`,
-        quote: 'Meine Vorschulkinder lieben die bunten Sortierarbeitsblätter!',
-      },
-      {
-        id: '2',
-        icon: '📚',
-        title: 'Grundschullehrer erstellen Arbeitsblätter Grundschule - Mathe Arbeitsblätter und Deutsch Arbeitsblätter für 1. bis 3. Klasse',
-        subtitle: '1. bis 3. Klasse',
-        description: `Lehrkräfte der Grundschule nutzen Sortierübungen im Sachunterricht. Kinder sortieren Tiere nach Lebensraum oder Nahrung. Im Deutschunterricht kategorisieren sie Wörter nach Wortarten. Erstellen Sie Mathe Arbeitsblätter mit geometrischen Formen. Gestalten Sie Deutsch Arbeitsblätter für Wortschatzarbeit. Die Arbeitsblätter Grundschule passen perfekt zum Lehrplan der 1. bis 3. Klasse.
-
-Sortieraufgaben verbinden verschiedene Fächer miteinander. Kinder trainieren gleichzeitig kognitive Fähigkeiten und Fachwissen. Die visuelle Struktur hilft beim Verstehen abstrakter Konzepte. Differenzierte Materialien entstehen schnell für verschiedene Lernniveaus.`,
-        quote: 'Perfekte Ergänzung für den differenzierten Unterricht in der Grundschule!',
-      },
-      {
-        id: '3',
-        icon: '🏠',
-        title: 'Eltern zu Hause nutzen Kostenlose Arbeitsblätter - Einmaleins und Rechnen lernen mit Sortierübungen unterstützen',
-        subtitle: 'Lernen zu Hause',
-        description: `Eltern unterstützen das schulische Lernen zu Hause. Sortierübungen machen das Üben interessanter als normale Arbeitsblätter. Kinder bleiben motiviert und lernen spielerisch. Erstellen Sie Kostenlose Arbeitsblätter für das Wochenende. Üben Sie Einmaleins Konzepte durch Gruppierungsaufgaben. Fördern Sie Rechnen lernen durch Mengenvergleiche. Die Materialien sind sofort einsatzbereit.
-
-Der Generator ermöglicht personalisierte Arbeitsblätter. Eigene Fotos verwandeln Sortieraufgaben in persönliche Abenteuer. Familienfotos oder Haustierbilder motivieren zusätzlich. Die Mehrsprachigkeit unterstützt bilinguale Familien.`,
-        quote: 'Ein Werkzeug deckt alle Altersstufen meiner Kinder ab.',
-      },
-      {
-        id: '4',
-        icon: '🌐',
-        title: 'DaF-Lehrer verwenden Deutsch Arbeitsblätter - Ausmalbilder und Malvorlagen für Sprachförderung kombinieren',
-        subtitle: 'Sprachförderung mit Sortierübungen',
-        description: `Deutsch als Fremdsprache Lehrer nutzen Sortierübungen für Wortschatzarbeit. Kinder ordnen Bilder nach Kategorien und lernen dabei neue Wörter. Die visuelle Darstellung unterstützt das Sprachverständnis. Kombinieren Sie mit Ausmalbilder und Malvorlagen für kreative Pausen. Deutsch Arbeitsblätter eignen sich perfekt für mehrsprachige Gruppen. Der Generator unterstützt 11 Sprachen für internationale Klassen.
-
-Die Mehrsprachigkeit des Generators unterstützt den Vergleich. Arbeitsblätter in der Herkunftssprache helfen beim Verstehen. Anschließend folgen deutsche Versionen derselben Aufgabe. Kinder erkennen Muster und übertragen Wissen.`,
-        quote: 'Die Mehrsprachigkeit ist genau was meine DaZ-Schüler brauchen.',
-      },
-      {
-        id: '5',
-        icon: '♿',
-        title: 'Förderschullehrer nutzen Arbeitsblätter Grundschule - Rechnen 1. Klasse und Vorschule Arbeitsblätter für Differenzierung',
-        subtitle: 'Förderschule und Inklusion',
-        description: `Sonderpädagogen benötigen differenzierte Materialien. Sortierübungen lassen sich leicht an verschiedene Niveaus anpassen. Weniger Bilder für Anfänger, mehr für Fortgeschrittene. Die klare Struktur hilft Kindern mit Lernschwierigkeiten. Erstellen Sie Rechnen 1. Klasse Materialien mit einfachen Mengen. Nutzen Sie Vorschule Arbeitsblätter für grundlegende Kategorisierung. Die Arbeitsblätter Grundschule sind flexibel einsetzbar.
-
-Die visuelle Struktur hilft Kindern mit Aufmerksamkeitsproblemen. Die klaren Kategorien geben Orientierung. Die Aufgabe ist überschaubar und schaffbar. Erfolgserlebnisse motivieren zur weiteren Arbeit.`,
-        quote: 'Ich kann schnell individualisierte Arbeitsblätter für jeden Förderbedarf erstellen.',
-      },
-      {
-        id: '6',
-        icon: '💼',
-        title: 'Lehrerunternehmer verkaufen Mathe Arbeitsblätter - Einmaleins und Kostenlose Arbeitsblätter auf Teachers Pay Teachers',
-        subtitle: 'Verkauf auf Online-Plattformen',
-        description: `Kreative Lehrkräfte verdienen mit selbst erstellten Materialien. Das Vollzugriff Abonnement enthält eine kommerzielle Lizenz. Verkaufen Sie Ihre Sortierarbeitsblätter auf Teachers Pay Teachers. Bieten Sie thematische Pakete auf Etsy an. Mathe Arbeitsblätter und Einmaleins Übungen sind besonders gefragt. Mit der Bezeichnung Kostenlose Arbeitsblätter erreichen Sie mehr Kunden. Die 300 DPI Qualität erfüllt professionelle Standards.
-
-Das Vollzugriff Abonnement für 240 Euro jährlich amortisiert sich schnell. Bereits wenige verkaufte Pakete decken die Kosten. Die 33 enthaltenen Generatoren ermöglichen vielfältige Produktlinien. Lehrkräfte bauen so ein passives Einkommen auf. Die Zeitersparnis gegenüber manueller Erstellung ist enorm.`,
-        quote: 'Mein Abonnement hat sich im ersten Monat bezahlt gemacht!',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // FAQ Section - FULL text from bilder-sortieren.md
@@ -373,68 +215,8 @@ Das Vollzugriff Abonnement für 240 Euro jährlich amortisiert sich schnell. Ber
     showLessLabel: 'Weniger anzeigen',
     secureCheckout: 'Sichere Zahlung',
     cancelAnytime: 'Jederzeit kündbar',
-    items: [
-      {
-        id: '1',
-        question: 'Ist der Sortierübungen Generator wirklich kostenlos für Mathe Arbeitsblätter und Einmaleins Übungen?',
-        answer: `Der Sortierübungen Generator erfordert ein Vollzugriff Abonnement für 240 Euro jährlich oder 25 Euro monatlich. Mit Ihrem Abonnement erstellen Sie unbegrenzt Sortierarbeitsblätter ohne zusätzliche Kosten. Keine Gebühren pro Arbeitsblatt fallen an. Das Vollzugriff Abonnement enthält alle 33 Arbeitsblatt-Generatoren. Die kommerzielle Lizenz und 11 Sprachversionen sind inklusive.`,
-      },
-      {
-        id: '2',
-        question: 'Kann ich Sortierarbeitsblätter zu Hause auf einem normalen Drucker für Schwungübungen und Buchstaben lernen ausdrucken?',
-        answer: `Ja, alle Sortierarbeitsblätter lassen sich auf jedem Heimdrucker ausdrucken. Wählen Sie zwischen PDF und JPEG Format. Die Graustufen-Option spart Druckertinte. Letter und A4 Formate sind verfügbar. Die 300 DPI Qualität sorgt für scharfe Bilder. Auch Schwungübungen und Buchstaben lernen Materialien drucken Sie problemlos zu Hause.`,
-      },
-      {
-        id: '3',
-        question: 'Brauche ich Designkenntnisse für Ausmalbilder und Malvorlagen mit Sortierübungen?',
-        answer: `Nein, der Generator ist für Anfänger konzipiert. Wählen Sie einfach Kategorien und Bilder aus. Der Generator erstellt das Layout automatisch. Alle Elemente lassen sich per Drag & Drop anpassen. Kombinieren Sie Sortieraufgaben mit Ausmalbilder und Malvorlagen aus der Bibliothek. Keine Vorkenntnisse in Grafikdesign erforderlich.`,
-      },
-      {
-        id: '4',
-        question: 'Kann ich Sortierarbeitsblätter im Unterricht für Deutsch Arbeitsblätter und Rechnen lernen verwenden?',
-        answer: `Das Vollzugriff Abonnement erlaubt unbegrenzte Nutzung im Unterricht. Drucken Sie beliebig viele Kopien für Ihre Schüler. Erstellen Sie differenzierte Deutsch Arbeitsblätter für verschiedene Niveaus. Nutzen Sie Sortierübungen für Rechnen lernen mit Mengenvergleichen. Die Materialien sind sofort im Klassenzimmer einsetzbar.`,
-      },
-      {
-        id: '5',
-        question: 'In welchen Sprachen sind Sortierarbeitsblätter für Einmaleins und Vorschule Arbeitsblätter verfügbar?',
-        answer: `Der Generator unterstützt 11 Sprachen vollständig. Verfügbar sind Deutsch, Englisch, Französisch, Spanisch und Portugiesisch. Dazu kommen Italienisch, Niederländisch, Schwedisch, Dänisch, Norwegisch und Finnisch. Erstellen Sie Einmaleins Übungen in jeder Sprache. Vorschule Arbeitsblätter funktionieren international.`,
-      },
-      {
-        id: '6',
-        question: 'Kann ich selbst erstellte Sortierarbeitsblätter mit Schwungübungen und Buchstaben lernen verkaufen?',
-        answer: `Ja, das Vollzugriff Abonnement enthält eine kommerzielle Print-on-Demand Lizenz. Verkaufen Sie Ihre Schwungübungen auf Teachers Pay Teachers. Bieten Sie Buchstaben lernen Pakete auf Etsy an. Veröffentlichen Sie Arbeitshefte auf Amazon KDP. Keine zusätzlichen Lizenzgebühren fallen an.`,
-      },
-      {
-        id: '7',
-        question: 'Wie passe ich Sortierarbeitsblätter für Rechnen 1. Klasse und Mathe Arbeitsblätter an?',
-        answer: `Jedes Element auf dem Arbeitsblatt ist bearbeitbar. Verschieben Sie Bilder per Drag & Drop. Ändern Sie die Größe durch Ziehen an den Ecken. Fügen Sie eigenen Text hinzu für Rechnen 1. Klasse Aufgaben. Wählen Sie Hintergründe und Rahmen für ansprechende Mathe Arbeitsblätter. Die vollständige Editierbarkeit macht jeden Wunsch möglich.`,
-      },
-      {
-        id: '8',
-        question: 'Für welche Altersgruppen eignen sich Sortierarbeitsblätter mit Ausmalbilder und Malvorlagen?',
-        answer: `Sortierarbeitsblätter eignen sich für Kinder von 4 bis 10 Jahren. Vorschulkinder lernen grundlegende Kategorisierung. Grundschüler üben komplexere Sortierungen. Die Anzahl der Bilder bestimmt den Schwierigkeitsgrad. Kombinieren Sie mit Ausmalbilder und Malvorlagen für jüngere Kinder. Ältere Schüler profitieren von anspruchsvolleren Kategorien.`,
-      },
-      {
-        id: '9',
-        question: 'Kann ich eigene Bilder hochladen für Deutsch Arbeitsblätter und Einmaleins Übungen?',
-        answer: `Ja, der Generator unterstützt den Upload eigener Bilder. Akzeptiert werden JPEG, PNG und GIF Formate. Kombinieren Sie eigene Fotos mit der Bildbibliothek. Erstellen Sie personalisierte Deutsch Arbeitsblätter mit Klassenfotos. Gestalten Sie Einmaleins Übungen mit vertrauten Motiven. Die Personalisierung steigert die Motivation.`,
-      },
-      {
-        id: '10',
-        question: 'Wie lange dauert die Erstellung eines Sortierarbeitsblatts für Schwungübungen und Buchstaben lernen?',
-        answer: `Die Erstellung dauert weniger als 3 Minuten. Kategorien auswählen benötigt 30 Sekunden. Bilder hinzufügen dauert etwa 1 Minute. Der Generator erstellt das Layout in Sekunden. Anpassungen erfolgen per Drag & Drop. Schwungübungen und Buchstaben lernen Materialien sind sofort fertig.`,
-      },
-      {
-        id: '11',
-        question: 'Gibt es Lösungsschlüssel für Sortierarbeitsblätter mit Rechnen lernen und Mathe Arbeitsblättern?',
-        answer: `Ja, jedes Sortierarbeitsblatt kann einen Lösungsschlüssel erhalten. Klicken Sie auf Lösungsschlüssel erstellen nach dem Generieren. Die Lösung zeigt alle Bilder korrekt sortiert. Laden Sie Arbeitsblatt und Lösung separat herunter. Perfekt für die Selbstkontrolle bei Rechnen lernen Übungen. Auch für Mathe Arbeitsblätter mit Sortieraufgaben ideal.`,
-      },
-      {
-        id: '12',
-        question: 'Kann ich Sortierarbeitsblätter für bestimmte Schulfächer mit Ausmalbilder und Malvorlagen erstellen?',
-        answer: `Ja, die über 3000 Bilder decken viele Themen ab. Erstellen Sie Sachunterricht Arbeitsblätter mit Tieren und Pflanzen. Gestalten Sie Deutschübungen mit Wörtern und Bildern. Nutzen Sie mathematische Motive für Zahlenübungen. Kombinieren Sie Fachthemen mit Ausmalbilder und Malvorlagen für kreative Pausen. Die thematische Vielfalt ist enorm.`,
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Related Apps Section - FULL text from bilder-sortieren.md
@@ -451,56 +233,8 @@ Das Vollzugriff Abonnement für 240 Euro jährlich amortisiert sich schnell. Ber
       securePayment: 'Sichere Zahlung',
       cancelAnytime: 'Jederzeit kündbar',
     },
-    items: [
-      {
-        id: '1',
-        slug: 'addition',
-        name: 'Additions-Arbeitsblätter',
-        category: 'Mathe',
-        icon: '➕',
-        description: 'Sortierübungen plus Mathe Arbeitsblätter - Kostenlose Arbeitsblätter für Rechenübungen und Mengenvergleiche',
-      },
-      {
-        id: '2',
-        slug: 'writing-app',
-        name: 'Schwungübungen',
-        category: 'Schreiben',
-        icon: '✏️',
-        description: 'Sortierübungen mit Schwungübungen und Buchstaben lernen kombinieren - Feinmotorik und Literacy fördern',
-      },
-      {
-        id: '3',
-        slug: 'coloring',
-        name: 'Ausmalbilder',
-        category: 'Kreativität',
-        icon: '🎨',
-        description: 'Ausmalbilder und Malvorlagen als Ergänzung zu Sortierarbeitsblättern - Kreative Pausen einbauen',
-      },
-      {
-        id: '4',
-        slug: 'image-crossword',
-        name: 'Kreuzworträtsel',
-        category: 'Sprache',
-        icon: '🔤',
-        description: 'Sortierarbeitsblätter plus Deutsch Arbeitsblätter und Einmaleins - Fächerübergreifende Lernpakete',
-      },
-      {
-        id: '5',
-        slug: 'word-search',
-        name: 'Wortsuche',
-        category: 'Sprache',
-        icon: '🔍',
-        description: 'Komplette Wochenpakete mit Buchstaben lernen und Schwungübungen - Arbeitsblätter Grundschule für jeden Tag',
-      },
-      {
-        id: '6',
-        slug: 'alphabet-train',
-        name: 'Alphabet-Zug',
-        category: 'Sprache',
-        icon: '🚂',
-        description: 'Thematische Lernpakete mit Ausmalbilder und Malvorlagen - Vorschule Arbeitsblätter für Teachers Pay Teachers',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Pricing Section

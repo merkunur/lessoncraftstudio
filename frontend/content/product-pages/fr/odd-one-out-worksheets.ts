@@ -98,43 +98,8 @@ Créez des fiches personnalisées avec plus de 3000 images thématiques. Choisis
     badgeText: 'Exemples Gratuits',
     downloadingLabel: 'Téléchargement...',
     ofLabel: 'sur',
-    items: [
-      {
-        id: '1',
-        worksheetSrc: '/samples/french/odd-one-out/sample-1.jpeg',
-        answerKeySrc: '/samples/french/odd-one-out/sample-1-answer.jpeg',
-        altText: 'Fiche intrus fiches gratuites à imprimer - exercice observation logique pour maternelle avec corrigé',
-        pdfDownloadUrl: '/samples/french/odd-one-out/sample-1.pdf',
-      },
-      {
-        id: '2',
-        worksheetSrc: '/samples/french/odd-one-out/sample-2.jpeg',
-        answerKeySrc: '/samples/french/odd-one-out/sample-2-answer.jpeg',
-        altText: 'Fiches maternelle intrus gratuites pour enfants - exercice discrimination visuelle CP avec réponses',
-        pdfDownloadUrl: '/samples/french/odd-one-out/sample-2.pdf',
-      },
-      {
-        id: '3',
-        worksheetSrc: '/samples/french/odd-one-out/sample-3.jpeg',
-        answerKeySrc: '/samples/french/odd-one-out/sample-3-answer.jpeg',
-        altText: 'Exercices CP intrus fiche gratuite à imprimer - activité logique maternelle avec correction',
-        pdfDownloadUrl: '/samples/french/odd-one-out/sample-3.pdf',
-      },
-      {
-        id: '4',
-        worksheetSrc: '/samples/french/odd-one-out/sample-4.jpeg',
-        answerKeySrc: '/samples/french/odd-one-out/sample-4-answer.jpeg',
-        altText: 'Fiche pour enfants intrus gratuite - exercices observation maternelle CP avec corrigé',
-        pdfDownloadUrl: '/samples/french/odd-one-out/sample-4.pdf',
-      },
-      {
-        id: '5',
-        worksheetSrc: '/samples/french/odd-one-out/sample-5.jpeg',
-        answerKeySrc: '/samples/french/odd-one-out/sample-5-answer.jpeg',
-        altText: 'Fiches à imprimer gratuit intrus pour maternelle - exercice logique CP CE1 avec réponses',
-        pdfDownloadUrl: '/samples/french/odd-one-out/sample-5.pdf',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Features Grid - FULL text from odd-one-out.md feature sections
@@ -150,98 +115,8 @@ Créez des fiches personnalisées avec plus de 3000 images thématiques. Choisis
       noHiddenFees: 'Aucun frais caché',
       cancelAnytime: 'Résiliez à tout moment',
     },
-    items: [
-      {
-        id: '1',
-        icon: '🖱️',
-        title: 'Créez des Fiches Maternelle et Exercices CP en 3 Clics',
-        description: `Sélectionnez un thème d'images pour vos fiches maternelle. Choisissez le nombre d'exercices entre 5 et 10. Cliquez sur Créer et votre fiche apparaît instantanément. Les exercices CP se génèrent en moins de 30 secondes. Aucune compétence en design graphique n'est requise.
-
-Le mode Similaire compare deux thèmes différents. Par exemple, animaux contre nourriture pour vos exercices maths. Le mode Identique utilise un seul thème. Trois images identiques et une légèrement différente. Parfait pour développer l'attention visuelle en graphisme maternelle.
-
-Configurez chaque exercice individuellement si nécessaire. Assignez des modes différents par exercice. Combinez modes Similaire et Identique sur une même fiche. Cette flexibilité permet une progression pédagogique adaptée. Les exercices CE1 peuvent être plus complexes que les fiches maternelle.`,
-        highlighted: true,
-      },
-      {
-        id: '2',
-        icon: '✏️',
-        title: 'Modifiez Tous les Éléments de vos Fiches à Imprimer Gratuit',
-        description: `Chaque élément de vos fiches maternelle est modifiable. Cliquez sur n'importe quelle image pour la déplacer. Redimensionnez les images en tirant les coins. Faites pivoter les éléments pour varier la présentation. Supprimez ce qui ne convient pas à vos exercices CP.
-
-Le titre et les instructions se modifient directement. Cliquez sur le texte pour l'éditer instantanément. Changez la police, la taille et la couleur. Adaptez les consignes au niveau de vos élèves. Les exercices CE1 nécessitent parfois des instructions plus précises.
-
-Les bordures et arrière-plans s'ajustent facilement. Plus de 3000 images thématiques disponibles. Glissez-déposez pour réorganiser votre mise en page. Chaque fiche à imprimer gratuit devient unique. Vos exercices maths personnalisés captent l'attention des enfants.
-
-Fonction annuler/refaire pour corriger les erreurs. Zoom avant pour travailler les détails précis. Verrouillez les éléments finalisés pour éviter modifications accidentelles. Interface intuitive semblable aux outils familiers. Les fiches maternelle se créent sans formation technique.`,
-        highlighted: false,
-      },
-      {
-        id: '3',
-        icon: '📤',
-        title: 'Importez vos Propres Images dans les Fiches Maternelle',
-        description: `Téléchargez plusieurs images simultanément depuis votre ordinateur. Formats JPEG, PNG et GIF acceptés. Combinez vos photos avec notre bibliothèque d'images. Créez des exercices CP avec les prénoms de vos élèves. Les fiches à imprimer gratuit deviennent très personnelles.
-
-Photographiez des objets de votre classe. Créez des exercices maths avec du matériel familier. Intégrez des images du quotidien des enfants. Cette personnalisation renforce l'engagement des élèves. Les fiches maternelle prennent tout leur sens pédagogique.
-
-Utilisez vos propres dessins ou cliparts. Créez des séries thématiques cohérentes pour l'année. Vos exercices CE1 reflètent votre progression pédagogique. Exportez et réutilisez vos images favorites. Construisez votre propre banque d'images personnalisée.`,
-        highlighted: false,
-      },
-      {
-        id: '4',
-        icon: '🌍',
-        title: 'Créez des Fiches à Imprimer Gratuit en 11 Langues',
-        description: `Interface disponible en 11 langues européennes. Bibliothèque d'images traduite dans chaque langue. Créez des fiches maternelle en français, anglais, allemand. Parfait pour l'enseignement bilingue en maternelle. Les exercices CP multilingues enrichissent l'apprentissage.
-
-Les noms de fichiers images sont traduits. Recherchez "pomme" ou "apple" selon la langue. Cette fonctionnalité facilite les cours de langues étrangères. Les exercices CE1 peuvent intégrer du vocabulaire multilingue. Idéal pour les programmes d'immersion linguistique.
-
-Écoles internationales et classes multilingues adorent cette fonction. Créez des fiches à imprimer gratuit pour tous vos groupes linguistiques. Un seul abonnement pour toutes vos langues d'enseignement. Les exercices maths deviennent accessibles à tous. Le graphisme maternelle transcende les barrières linguistiques.`,
-        highlighted: false,
-      },
-      {
-        id: '5',
-        icon: '💰',
-        title: 'Licence Commerciale Incluse avec vos Fiches Maternelle',
-        description: `Votre abonnement Accès Complet à 240€/an inclut la licence commerciale. Vendez vos fiches à imprimer gratuit sur Teachers Pay Teachers. Créez des cahiers d'activités pour Amazon KDP. Ouvrez une boutique Etsy de ressources pédagogiques. Aucuns frais de licence supplémentaires requis.
-
-Qualité 300 DPI professionnelle pour l'impression commerciale. Vos exercices CP se vendent au même prix que les créations premium. Les fiches maternelle de qualité supérieure attirent les acheteurs. Créez des packs thématiques d'exercices maths rentables. Monétisez votre expertise pédagogique facilement.
-
-Enseignants entrepreneurs gagnent 500€ à 5000€ mensuellement. Vos exercices CE1 deviennent une source de revenus passifs. Combinez enseignement et entrepreneuriat pédagogique. Les fiches à imprimer gratuit créées se revendent indéfiniment. Investissement unique pour revenus récurrents illimités.`,
-        highlighted: true,
-      },
-      {
-        id: '6',
-        icon: '🎨',
-        title: 'Bibliothèque de Plus de 3000 Images pour Fiches Maternelle',
-        description: `Plus de 3000 images adaptées aux jeunes enfants. Organisées en thèmes pédagogiques cohérents. Animaux, nourriture, transport, vêtements, nature disponibles. Chaque thème contient 20 à 50 images variées. Créez des fiches maternelle sans jamais manquer de contenu.
-
-Images colorées et attrayantes pour graphisme maternelle. Style graphique doux et enfantin parfait. Les exercices CP deviennent visuellement stimulants. Recherchez par mot-clé dans toute la bibliothèque. Trouvez exactement l'image nécessaire pour vos exercices maths.
-
-Arrière-plans et bordures thématiques inclus. Cohérence visuelle professionnelle garantie. Les fiches à imprimer gratuit rivalisent avec les ressources commerciales. Nouvelles images ajoutées régulièrement. Votre bibliothèque s'enrichit sans coût supplémentaire.`,
-        highlighted: false,
-      },
-      {
-        id: '7',
-        icon: '🖨️',
-        title: 'Exportez vos Fiches à Imprimer Gratuit en Qualité 300 DPI',
-        description: `Téléchargement en format PDF ou JPEG haute résolution. Qualité 300 DPI parfaite pour l'impression professionnelle. Vos fiches maternelle s'impriment nettes et éclatantes. Les exercices CP conservent tous les détails colorés. Impression commerciale ou domestique excellente.
-
-Option niveaux de gris pour économiser l'encre. Particulièrement utile pour les exercices maths répétés. Imprimez 30 copies sans vider vos cartouches. Les fiches à imprimer gratuit restent lisibles en noir et blanc. Le graphisme maternelle fonctionne en couleur ou monochrome.
-
-Créez automatiquement une fiche corrigé avec solutions. Les exercices CE1 incluent les bonnes réponses marquées. Gagnez un temps précieux lors des corrections. Distribuez les corrigés aux parents ou assistants. Vos fiches maternelle sont prêtes pour utilisation immédiate.`,
-        highlighted: true,
-      },
-      {
-        id: '8',
-        icon: '🎯',
-        title: 'Deux Modes d\'Activité Distincts',
-        description: `Le mode Identique utilise un seul thème d'images. Trois images identiques et une légèrement différente. Les élèves développent l'attention aux détails fins. Parfait pour les fiches graphisme maternelle débutantes. Cette activité prépare la reconnaissance des lettres.
-
-Le mode Similaire compare deux thèmes différents. Trois images d'un thème et une d'un autre. Par exemple, trois fruits et un légume. Les élèves pratiquent la catégorisation logique. Idéal pour les exercices CE1 plus avancés.
-
-Combinez les deux modes sur une même fiche. Exercices progressifs du simple au complexe. Les fiches maternelle évoluent avec le niveau des élèves. Différenciez facilement pour classes hétérogènes. Chaque mode génère un corrigé automatique.`,
-        highlighted: false,
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // How-To Guide - FULL text from odd-one-out.md step sections
@@ -337,80 +212,8 @@ Imprimez immédiatement ou sauvegardez pour utilisation future. Créez des banqu
     badgeText: 'Pour Qui',
     readMoreLabel: 'Lire la suite',
     showLessLabel: 'Voir moins',
-    items: [
-      {
-        id: '1',
-        icon: '👶',
-        title: 'Enseignants de Maternelle',
-        subtitle: 'Fiches Graphisme Maternelle et Coloriage à Imprimer pour Développement Précoce',
-        description: `Les enseignants de maternelle utilisent quotidiennement nos fiches. Créez des exercices de graphisme maternelle pour développer motricité fine. Les fiches coloriage à imprimer combinent art et apprentissage cognitif. Observation visuelle et discrimination se développent naturellement. Les fiches maternelle intrus préparent à apprendre à lire efficacement.
-
-Grande section et moyenne section bénéficient énormément. Activités d'observation développent l'attention soutenue des jeunes enfants. Les fiches à imprimer gratuit remplacent cahiers commerciaux coûteux. Thèmes variés maintiennent l'intérêt toute l'année scolaire. Le graphisme maternelle progresse avec exercices adaptés au développement.
-
-Différenciez facilement pour niveaux hétérogènes en maternelle. Mode Identique pour débutants découvrant l'activité. Mode Similaire pour enfants maîtrisant déjà l'observation. Combinez avec du coloriage à imprimer pour ateliers autonomes. Vos fiches maternelle deviennent outils pédagogiques polyvalents essentiels.`,
-        quote: 'Mes élèves adorent chercher l\'intrus !',
-      },
-      {
-        id: '2',
-        icon: '📚',
-        title: 'Professeurs de CP et CE1',
-        subtitle: 'Exercices CE1 Apprendre à Lire et Alphabet pour Lecture Précoce',
-        description: `Les professeurs de CP et CE1 créent exercices ciblés. Utilisez thèmes alphabet pour renforcer reconnaissance des lettres. Les exercices apprendre à lire intègrent discrimination visuelle fine. Images commençant par même son développent conscience phonologique. Les fiches à imprimer gratuit soutiennent méthodes syllabiques parfaitement.
-
-Créez exercices CE1 de vocabulaire thématique enrichi. Séries d'images animaux, plantes, métiers élargissent lexique. Les enfants nomment images avant de chercher l'intrus. Discussion collective après exercice renforce compréhension orale. Vos fiches maternelle évoluent vers exercices CE1 complexes.
-
-Intégrez avec exercices écriture cursive et alphabet pour apprentissage complet. Après avoir trouvé l'intrus, élèves écrivent le mot. Combinez observation visuelle avec production écrite progressive. Les exercices maths logiques préparent résolution de problèmes. Le coloriage à imprimer offre pause créative entre activités.`,
-        quote: 'La discrimination visuelle prépare parfaitement la lecture.',
-      },
-      {
-        id: '3',
-        icon: '🏠',
-        title: 'Parents en Instruction à Domicile',
-        subtitle: 'Fiches à Imprimer Gratuit Exercices Maths et Tables de Multiplication Progressifs',
-        description: `Parents en instruction à domicile adorent notre générateur. Créez progression personnalisée selon rythme de chaque enfant. Les fiches à imprimer gratuit couvrent tous niveaux simultanément. Fratries d'âges différents travaillent ensemble sur thèmes communs. Les exercices maths s'adaptent de la maternelle au CE1.
-
-Tables de multiplication se pratiquent visuellement avec intrus. Groupes de quantités différentes pour identifier l'intrus numérique. Trois groupes de 4 objets et un de 5. Les exercices CE1 renforcent concepts mathématiques concrètement. Le graphisme maternelle se combine avec calcul mental ludique.
-
-Programmez activités hebdomadaires avec banque de fiches. Lundi alphabet, mardi exercices maths, mercredi graphisme maternelle. Jeudi coloriage à imprimer créatif, vendredi révisions mixtes. Les fiches maternelle structurent emploi du temps flexible. Vos enfants progressent à leur rythme optimal personnel.`,
-        quote: 'Je crée des fiches adaptées au niveau exact de chaque enfant.',
-      },
-      {
-        id: '4',
-        icon: '🌍',
-        title: 'Enseignants de Langues Étrangères et FLE',
-        subtitle: 'Exercices Maths Multilingues et Fiches Alphabet pour Vocabulaire',
-        description: `Professeurs de FLE exploitent les 11 langues disponibles. Créez fiches alphabet bilingues français-anglais simultanément. Les images traduites facilitent acquisition vocabulaire thématique. Les exercices apprendre à lire deviennent multilingues naturellement. Bibliothèque d'images traduite dans chaque langue européenne.
-
-Utilisez pour enseigner nombres et tables de multiplication. Comptage d'objets en langue cible avec exercices maths. Trois groupes corrects et un groupe incorrect à identifier. Les exercices CE1 bilingues enrichissent apprentissage linguistique. Le coloriage à imprimer relaxe tout en révisant vocabulaire.
-
-Écoles internationales et sections bilingues adorent cette fonctionnalité. Créez fiches à imprimer gratuit pour tous groupes linguistiques. Un seul abonnement pour toutes langues enseignées. Les fiches maternelle s'adaptent contextes multiculturels facilement. Le graphisme maternelle transcende barrières linguistiques universellement.`,
-        quote: 'Les fiches deviennent un outil d\'apprentissage linguistique.',
-      },
-      {
-        id: '5',
-        icon: '💜',
-        title: 'Enseignants Spécialisés ULIS et SEGPA',
-        subtitle: 'Graphisme Maternelle et Exercices Écriture Différenciés Adaptés',
-        description: `Enseignants spécialisés trouvent outil parfaitement adaptable. Créez exercices graphisme maternelle pour élèves en difficulté. Mode Identique simplifie tâche pour troubles attention. Images grandes et claires facilitent discrimination visuelle. Les fiches à imprimer gratuit s'ajustent à tous handicaps.
-
-Différenciez finement selon profils individuels élèves SEGPA. Un élève reçoit 3 exercices simples grand format. Autre élève travaille 8 exercices complexes petit format. Les exercices CE1 deviennent accessibles à tous niveaux. Le coloriage à imprimer offre activité apaisante thérapeutique.
-
-Combinez avec exercices écriture cursive pour rééducation fine. Après observation, élèves tracent lettres des mots. Graphomotricité et cognition travaillent ensemble efficacement. Les exercices maths concrets soutiennent raisonnement logique. Vos fiches maternelle deviennent outils orthopédagogiques précieux.`,
-        quote: 'La personnalisation répond à chaque besoin individuel.',
-      },
-      {
-        id: '6',
-        icon: '💰',
-        title: 'Enseignants Entrepreneurs',
-        subtitle: 'Vendez Fiches Maternelle et Exercices CE1 sur Teachers Pay Teachers',
-        description: `Enseignants entrepreneurs monétisent leur expertise pédagogique facilement. Créez packs thématiques fiches à imprimer gratuit rentables. Licence commerciale Accès Complet à 240€/an incluse automatiquement. Vendez sur Teachers Pay Teachers, Etsy, Amazon KDP. Les exercices maths et tables de multiplication se vendent excellemment.
-
-Qualité 300 DPI professionnelle attire acheteurs exigeants. Vos fiches maternelle rivalisent avec créations commerciales établies. Pack "Graphisme Maternelle Animaux" à 5€ vendu 100 fois. Pack "Exercices CE1 Alphabet Complet" génère revenus réguliers. Le coloriage à imprimer thématique se vend très bien.
-
-Revenus mensuels 500€ à 5000€ selon investissement temps. Créez pendant vacances scolaires pour vendre toute année. Les exercices écriture cursive et apprendre à lire sont populaires. Combinez plusieurs types d'exercices en cahiers complets. Vos fiches à imprimer gratuit deviennent business pérenne profitable.`,
-        quote: 'Mon abonnement s\'est rentabilisé dès le premier mois !',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // FAQ Section - Selected FAQs from odd-one-out.md
@@ -424,58 +227,8 @@ Revenus mensuels 500€ à 5000€ selon investissement temps. Créez pendant va
     showLessLabel: 'Voir moins',
     secureCheckout: 'Paiement sécurisé',
     cancelAnytime: 'Résiliez à tout moment',
-    items: [
-      {
-        id: '1',
-        question: 'Puis-je Créer Fiches Apprendre à Lire et Alphabet avec Images Personnalisées pour Exercices CE1?',
-        answer: 'Oui, téléchargez vos propres images facilement. Combinez avec notre bibliothèque pour exercices apprendre à lire. Les fiches alphabet personnalisées renforcent reconnaissance des lettres. Parfait pour exercices CE1 adaptés à vos élèves. Les fiches maternelle intègrent vocabulaire familier des enfants. Photographiez objets de votre classe pour exercices authentiques. Créez fiches apprendre à lire avec prénoms élèves. Les exercices alphabet deviennent ultra-personnalisés et motivants. Images familières facilitent discrimination visuelle et mémorisation. Vos fiches à imprimer gratuit reflètent environnement quotidien. Formats JPEG, PNG, GIF acceptés pour uploads. Taille recommandée minimum 500x500 pixels pour qualité.',
-      },
-      {
-        id: '2',
-        question: 'Comment Utiliser ces Fiches pour Enseigner Tables de Multiplication et Exercices Maths aux Élèves CE1?',
-        answer: 'Les exercices intrus développent logique mathématique naturellement. Créez groupes de quantités pour tables de multiplication. Trois groupes de 4 objets et un de 5. Les exercices maths visuels renforcent concepts numériques. Les élèves CE1 comprennent multiplication concrètement. Utilisez mode Similaire pour comparer quantités différentes. Les exercices tables de multiplication deviennent jeux d\'observation. Comptage rapide développe calcul mental automatiquement. Les fiches maternelle préparent concepts mathématiques précoces. Exercices maths progressent de maternelle à CE1 naturellement. Combinez avec exercices écriture des nombres après observation.',
-      },
-      {
-        id: '3',
-        question: 'Les Fiches Graphisme Maternelle et Coloriage à Imprimer Conviennent-elles pour Exercices Écriture Cursive?',
-        answer: 'Absolument, les fiches graphisme maternelle préparent écriture cursive. Observation fine développe discrimination visuelle nécessaire. Les exercices intrus renforcent attention aux détails. Combinez avec fiches coloriage à imprimer pour motricité. Les exercices écriture cursive bénéficient de cette préparation. Après activité intrus, ajoutez tracés des mots. Les élèves CE1 écrivent noms des images observées. Graphisme maternelle et écriture cursive se complètent parfaitement. Les fiches maternelle évoluent en exercices écriture progressifs. Discrimination visuelle facilite reconnaissance formes des lettres.',
-      },
-      {
-        id: '4',
-        question: 'Combien de Fiches Maternelle Exercices Maths puis-je Créer avec Abonnement Accès Complet?',
-        answer: 'Créations absolument illimitées avec abonnement Accès Complet. Générez autant de fiches maternelle que nécessaire quotidiennement. Les exercices maths se renouvellent infiniment toute année. Aucune restriction sur téléchargements ou exports. Vos exercices CE1 se créent sans limite jamais. Créez 10, 50, 100 fiches différentes par semaine. Parents de fratries génèrent pour tous enfants. Les fiches à imprimer gratuit couvrent tous besoins. Exercices tables de multiplication, graphisme maternelle, alphabet illimités. Le coloriage à imprimer se diversifie chaque jour.',
-      },
-      {
-        id: '5',
-        question: 'Peut-on Créer Exercices CE1 Apprendre à Lire et Alphabet en Plusieurs Langues Simultanément?',
-        answer: 'Oui, interface disponible en 11 langues européennes. Créez exercices apprendre à lire multilingues instantanément. Les fiches alphabet bilingues français-anglais possibles. Parfait pour programmes immersion et écoles internationales. Les exercices CE1 enrichissent acquisition linguistique multiple. Bibliothèque d\'images traduite dans chaque langue. Recherchez "pomme" ou "apple" selon besoin. Les fiches maternelle s\'adaptent contextes multilingues facilement. Exercices tables de multiplication en langue cible. Le graphisme maternelle universel transcende barrières linguistiques.',
-      },
-      {
-        id: '6',
-        question: 'Les Exercices Conviennent-ils pour Élèves avec Difficultés Apprentissage Tables de Multiplication et Écriture?',
-        answer: 'Parfaitement adaptables aux besoins spécifiques ULIS SEGPA. Mode Identique simplifie tâche pour troubles attention. Les exercices tables de multiplication deviennent visuels concrets. Images grandes et claires facilitent discrimination. Les fiches maternelle s\'ajustent tous profils cognitifs. Différenciez finement selon capacités individuelles de chaque élève. Trois exercices simples grand format pour débutants. Huit exercices complexes pour élèves avancés. Les exercices CE1 deviennent accessibles tous niveaux. Graphisme maternelle et écriture cursive se graduent progressivement.',
-      },
-      {
-        id: '7',
-        question: 'Puis-je Vendre Fiches Graphisme Maternelle Coloriage et Exercices Alphabet sur Teachers Pay Teachers?',
-        answer: 'Absolument, licence commerciale Accès Complet incluse automatiquement. Vendez toutes fiches graphisme maternelle créées légalement. Les exercices alphabet, coloriage à imprimer monétisables immédiatement. Aucuns frais licence supplémentaires requis jamais. Vos fiches maternelle deviennent produits commerciaux rentables. Qualité 300 DPI professionnelle justifie prix premium. Les exercices CE1 se vendent excellemment autres enseignants. Fiches apprendre à lire très demandées sur plateformes. Exercices tables de multiplication et écriture cursive populaires. Vos fiches à imprimer gratuit génèrent revenus passifs. Teachers Pay Teachers, Etsy, Amazon KDP autorisés.',
-      },
-      {
-        id: '8',
-        question: 'Comment Combiner ces Fiches avec Autres Exercices Maths Écriture pour Cahiers Complets?',
-        answer: 'Votre abonnement Accès Complet inclut 30+ générateurs. Combinez fiches maternelle intrus avec autres activités. Les exercices maths incluent additions, soustractions, tables multiplication. Graphisme maternelle avec tracés, formes, motifs disponibles. Exercices écriture cursive, alphabet, apprendre à lire variés. Créez cahiers progressifs pour toute année scolaire. Page 1 fiches intrus, page 2 coloriage à imprimer. Page 3 exercices maths, page 4 graphisme maternelle. Les exercices CE1 alphabet s\'assemblent logiquement. Vos fiches à imprimer gratuit deviennent ressources ultra-complètes.',
-      },
-      {
-        id: '9',
-        question: 'Quelle Différence entre Mode Identique et Similaire pour Exercices Apprendre à Lire Alphabet?',
-        answer: 'Mode Identique utilise un seul thème d\'images. Trois images identiques et une légèrement différente. Parfait pour exercices alphabet débutants en maternelle. Les fiches apprendre à lire se concentrent observation fine. Différences subtiles développent discrimination visuelle précise. Mode Similaire compare deux thèmes différents. Trois images Thème A et une Thème B. Les exercices CE1 deviennent plus complexes logiquement. Parfait pour catégorisation et raisonnement abstrait. Les fiches maternelle progressent en difficulté naturellement. Combinez modes sur même fiche pour différenciation.',
-      },
-      {
-        id: '10',
-        question: 'Quel Est le Coût de l\'Abonnement Accès Complet?',
-        answer: 'L\'abonnement Accès Complet coûte 240€ par an ou 25€ par mois. Votre abonnement vous donne accès aux 33 types de générateurs de fiches. Créez des fiches illimitées sans frais supplémentaires par fiche. La licence commerciale est incluse pour vendre vos créations. Le support de 11 langues et l\'export 300 DPI sont inclus. Garantie satisfait ou remboursé 30 jours. Comparez avec les 150 à 300€ par an que coûtent les services de traduction seuls pour les enseignants multilingues.',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Pricing - Accès Complet Bundle for Odd One Out
@@ -546,56 +299,8 @@ Revenus mensuels 500€ à 5000€ selon investissement temps. Créez pendant va
       securePayment: 'Paiement sécurisé',
       cancelAnytime: 'Résiliez à tout moment',
     },
-    items: [
-      {
-        id: '1',
-        slug: 'find-objects',
-        name: 'Cherche les Objets',
-        category: 'Observation',
-        icon: '👁️',
-        description: 'Combinez avec le générateur Cherche les Objets pour une pratique complète de discrimination visuelle. Les deux activités développent l\'attention aux détails et le raisonnement logique.',
-      },
-      {
-        id: '2',
-        slug: 'coloring',
-        name: 'Coloriage',
-        category: 'Créativité',
-        icon: '🎨',
-        description: 'Le générateur de pages de coloriage complète parfaitement les activités intrus. Les enfants colorient après avoir trouvé l\'intrus. La séquence devient immersive et mémorable.',
-      },
-      {
-        id: '3',
-        slug: 'find-and-count',
-        name: 'Cherche et Compte',
-        category: 'Mathématiques',
-        icon: '🔢',
-        description: 'Combinez la discrimination visuelle avec le comptage. Les élèves trouvent des objets puis comptent les quantités. Parfait pour développer simultanément l\'attention visuelle et les compétences numériques.',
-      },
-      {
-        id: '4',
-        slug: 'matching-app',
-        name: 'Association',
-        category: 'Logique',
-        icon: '🔗',
-        description: 'Le générateur d\'association développe les compétences de correspondance visuelle. Combinez avec les fiches intrus pour une pratique complète de perception visuelle.',
-      },
-      {
-        id: '5',
-        slug: 'word-search',
-        name: 'Mots Cachés',
-        category: 'Langage',
-        icon: '🔍',
-        description: 'Associez les fiches intrus avec le générateur de mots mêlés. Les enfants cherchent d\'abord l\'intrus puis retrouvent les noms correspondants dans la grille.',
-      },
-      {
-        id: '6',
-        slug: 'drawing-lines',
-        name: 'Tracé de Lignes',
-        category: 'Graphisme',
-        icon: '✏️',
-        description: 'Le générateur de tracé de lignes développe la motricité fine. Combinez avec les fiches intrus pour une séance équilibrée entre concentration visuelle et geste graphique.',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 };
 

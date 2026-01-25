@@ -106,43 +106,8 @@ Unser kostenloser Additions-Generator bietet über 3000 kindgerechte Bilder für
     badgeText: 'Kostenlose Beispiele',
     downloadingLabel: 'Wird heruntergeladen...',
     ofLabel: 'von',
-    items: [
-      {
-        id: '1',
-        worksheetSrc: '/samples/german/addition/sample-1.jpeg',
-        answerKeySrc: '/samples/german/addition/sample-1-answer.jpeg',
-        altText: 'Additions-Arbeitsblätter kostenlos - Arbeitsblätter Grundschule mit Bildrechnen für Vorschul-Arbeitsblätter und Mathe-Arbeitsblätter zum Rechnen lernen',
-        pdfDownloadUrl: '/samples/german/addition/sample-1.pdf',
-      },
-      {
-        id: '2',
-        worksheetSrc: '/samples/german/addition/sample-2.jpeg',
-        answerKeySrc: '/samples/german/addition/sample-2-answer.jpeg',
-        altText: 'Kostenlose Arbeitsblätter Addition - Vorschule Arbeitsblätter mit Rechnen 1. Klasse Übungen für Arbeitsblätter Grundschule',
-        pdfDownloadUrl: '/samples/german/addition/sample-2.pdf',
-      },
-      {
-        id: '3',
-        worksheetSrc: '/samples/german/addition/sample-3.jpeg',
-        answerKeySrc: '/samples/german/addition/sample-3-answer.jpeg',
-        altText: 'Mathe-Arbeitsblätter Addition - Kostenlose Druckvorlagen für Arbeitsblätter Grundschule mit Rechnen lernen',
-        pdfDownloadUrl: '/samples/german/addition/sample-3.pdf',
-      },
-      {
-        id: '4',
-        worksheetSrc: '/samples/german/addition/sample-4.jpeg',
-        answerKeySrc: '/samples/german/addition/sample-4-answer.jpeg',
-        altText: 'Arbeitsblatt für Kinder Addition - Kostenlose Arbeitsblätter mit Mathe-Arbeitsblätter für Rechnen 1. Klasse',
-        pdfDownloadUrl: '/samples/german/addition/sample-4.pdf',
-      },
-      {
-        id: '5',
-        worksheetSrc: '/samples/german/addition/sample-5.jpeg',
-        answerKeySrc: '/samples/german/addition/sample-5-answer.jpeg',
-        altText: 'Vorschul-Arbeitsblätter Rechnen lernen - Kostenlose Mathe-Arbeitsblätter für Arbeitsblätter Grundschule',
-        pdfDownloadUrl: '/samples/german/addition/sample-5.pdf',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Features Grid - FULL text from addition.md feature sections
@@ -158,85 +123,8 @@ Unser kostenloser Additions-Generator bietet über 3000 kindgerechte Bilder für
       noHiddenFees: 'Keine versteckten Kosten',
       cancelAnytime: 'Jederzeit kündbar',
     },
-    items: [
-      {
-        id: '1',
-        icon: '🖼️',
-        title: 'Bildbasierte Addition - Kostenloses Arbeitsblatt für Kinder zum Rechnen lernen',
-        description: `Junge Lernende verstehen Zahlen durch konkrete Bilder. Unser Additions-Generator verwendet Tierbilder, Fahrzeuge, Früchte und über 3000 weitere Motive für Arbeitsblätter Grundschule. Visuelle Addition macht Mathe-Arbeitsblätter greifbar und verständlich für Vorschul-Arbeitsblätter.
-
-Die Methodik folgt bewährten pädagogischen Grundsätzen für Rechnen lernen 1. Klasse. Konkrete Darstellungen ermöglichen Begriffsverständnis. Schüler zählen Bilder vor der Abstraktion zu Zahlen. Das Basis-Paket für 144 € jährlich bietet Zugang zu allen Bildern ohne Beschränkungen.
-
-Vorschulkinder und Erstklässler profitieren enorm von bildbasiertem Lernen. Traditionelle Mathe-Arbeitsblätter mit nur Zahlen überfordern oft junge Lernende. Mit Bildern bauen Schüler Zahlensinn und Selbstvertrauen auf. Kostenlose Arbeitsblätter machen diese Methode allen zugänglich.`,
-        highlighted: true,
-      },
-      {
-        id: '2',
-        icon: '⚙️',
-        title: 'Fünf Übungsmodi - Arbeitsblatt für Vorschule bis Grundschule',
-        description: `Wählen Sie zwischen fünf Übungsmodi für differenzierte Arbeitsblätter Grundschule. Bild-plus-Bild zeigt beide Operanden als Bildgruppen. Bild-plus-Zahl kombiniert konkrete und abstrakte Darstellung. Zahl-plus-Bild kehrt die Reihenfolge um. Addend-Finden fordert Schüler, fehlende Summanden zu ermitteln. Der gemischte Modus kombiniert alle Typen auf einem Arbeitsblatt.
-
-Verschiedene Modi sprechen unterschiedliche Lernstadien an für Mathe-Arbeitsblätter. Anfänger beginnen mit Bild-plus-Bild. Fortgeschrittene arbeiten mit Bild-plus-Zahl. Meister lösen Addend-Finden-Aufgaben. Jeder Modus unterstützt progressive Entwicklung für Rechnen lernen.
-
-Differenzierte Vorschul-Arbeitsblätter entstehen durch Modi-Auswahl. Gleiche Themen, unterschiedliche Schwierigkeiten. Lehrkräfte verteilen passende Arbeitsblätter nach Schülerniveau. Alle arbeiten am gleichen Thema, aber auf ihrem eigenen Niveau. Das Basis-Paket macht Differenzierung einfach.`,
-        highlighted: false,
-      },
-      {
-        id: '3',
-        icon: '🔢',
-        title: 'Anpassbare Zahlenbereiche - Kostenlose Druckvorlagen für Vorschule',
-        description: `Stellen Sie Minimum- und Maximum-Werte für Operanden ein für kostenlose Arbeitsblätter. Vorschulkinder arbeiten mit 1-3 für einfache Summen. Erstklässler nutzen 1-10 für Mathe-Arbeitsblätter. Fortgeschrittene Schüler rechnen mit 1-20 oder höher für Arbeitsblätter Grundschule.
-
-Die Schwierigkeitsanpassung ermöglicht individualisiertes Lernen für Rechnen lernen. Kämpfende Schüler üben mit kleinen Zahlen. Begabte Lernende erhalten anspruchsvollere Aufgaben. Jedes Arbeitsblatt passt zum Entwicklungsstand des Kindes. Keine generischen Einheitslösungen mehr.
-
-Summen-Obergrenzen verhindern zu schwere Aufgaben für Vorschul-Arbeitsblätter. Stellen Sie maximale Summen auf 5 für Anfänger ein. Erhöhen Sie auf 10, 20 oder mehr nach Fortschritt. Der Generator erstellt Aufgaben innerhalb Ihrer Parameter. Perfekte Kontrolle über Schwierigkeit für Mathe-Arbeitsblätter.`,
-        highlighted: false,
-      },
-      {
-        id: '4',
-        icon: '✨',
-        title: 'Automatische Lösungsblätter - Kostenloses Arbeitsblatt mit Lösungsblatt',
-        description: `Jedes generierte Arbeitsblatt erstellt automatisch ein Lösungsblatt für Mathe-Arbeitsblätter. Die Antworten erscheinen klar in den Lösungsfeldern. Wechseln Sie zwischen Arbeitsblatt und Lösung mit einem Klick. Beide laden als separate Dateien für kostenlose Arbeitsblätter herunter.
-
-Lehrkräfte sparen enorme Korrekturzeit mit Vorschul-Arbeitsblättern. Keine manuelle Berechnung jeder Aufgabe mehr nötig. Schnelle visuelle Überprüfung mit dem Lösungsblatt. Mehr Zeit für eigentlichen Unterricht statt Korrektur. Das Basis-Paket maximiert Ihre Zeiteffizienz für Arbeitsblätter Grundschule.
-
-Selbstkorrektur wird mit Lösungsblättern möglich für Rechnen lernen. Schüler können ihre Arbeit eigenständig überprüfen. Fördert Verantwortung und Selbstständigkeit. Eltern helfen bei Hausaufgaben ohne Mathe-Angst. Lösungsblätter machen Additions-Übung für alle zugänglicher.`,
-        highlighted: true,
-      },
-      {
-        id: '5',
-        icon: '📐',
-        title: 'Flexibles Layout - Arbeitsblatt für Kinder in A4 oder Letter',
-        description: `Wählen Sie zwischen Hochformat und Querformat für Arbeitsblätter Grundschule. Hochformat passt mehr Aufgaben auf eine Seite. Querformat bietet größere Bilder für bessere Sichtbarkeit. Beide Formate drucken auf Standard A4 oder Letter Papier für Mathe-Arbeitsblätter.
-
-Die Aufgabenanzahl ist ebenfalls anpassbar für Vorschul-Arbeitsblätter. Weniger Aufgaben für Anfänger oder kurze Übungen. Mehr Aufgaben für Hausaufgaben oder Tests. Das Layout passt sich automatisch an Ihre Wahl an. Professionelle Formatierung ohne Designkenntnisse.
-
-A4 und Letter Größen decken alle Druckerbedürfnisse ab für kostenlose Arbeitsblätter. Europäische Schulen nutzen A4. Amerikanische Schulen bevorzugen Letter. Der Generator unterstützt beides. Perfekte Kompatibilität mit jedem Schuldrucker für Rechnen lernen.`,
-        highlighted: false,
-      },
-      {
-        id: '6',
-        icon: '🎨',
-        title: 'Über 3000 Bilder - Kostenlose Druckvorlagen für jeden Lehrplan',
-        description: `Die Bildbibliothek enthält über 3000 kindgerechte Bilder für Arbeitsblätter Grundschule. Organisiert nach Themen wie Tiere, Fahrzeuge, Essen, Natur und mehr. Durchsuchen Sie Bilder nach Kategorien oder nutzen Sie die Suchfunktion. Neue Bilder werden regelmäßig hinzugefügt.
-
-Erstellen Sie thematische Mathe-Arbeitsblätter passend zum Lehrplan. Zoo-Einheit bekommt Tier-Additions-Aufgaben. Herbst-Thema verwendet Blätter und Kürbisse. Ostern integriert Hasen und Eier. Thematische Kohärenz verstärkt Lernen über Fächer hinweg.
-
-Hochwertige Bilder machen Vorschul-Arbeitsblätter attraktiv. Klare, farbenfrohe Darstellungen motivieren junge Lernende. Schüler freuen sich auf Mathe mit bunten Bildern. Visuelle Anziehungskraft steigert Engagement und Lernbereitschaft für Rechnen lernen.`,
-        highlighted: true,
-      },
-      {
-        id: '7',
-        icon: '🖨️',
-        title: 'Professionelle Qualität - Arbeitsblatt für Vorschule in 300 DPI',
-        description: `Alle heruntergeladenen Arbeitsblätter exportieren in 300 DPI Auflösung für Mathe-Arbeitsblätter. Professioneller Druckstandard garantiert scharfe Bilder. Text bleibt klar bei jeder Größe. Farben drucken lebendig auf Standard-Schuldruckern.
-
-PDF-Exporte bewahren Qualität über Geräte und Plattformen hinweg für Arbeitsblätter Grundschule. Senden Sie Arbeitsblätter per E-Mail ohne Qualitätsverlust. Laden Sie zu Lernmanagementsystemen ohne Komprimierung hoch. Drucken Sie auf verschiedenen Druckern mit konsistenten Ergebnissen.
-
-Professionelle Qualität baut Lehrkraft-Glaubwürdigkeit auf für kostenlose Arbeitsblätter. Eltern respektieren polierte, professionell aussehende Materialien. Administratoren bemerken Qualitätsmaterialien während Beobachtungen. Ihre Mathe-Arbeitsblätter repräsentieren Ihren professionellen Standard.`,
-        highlighted: false,
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // How-To Guide - FULL text from addition.md step sections
@@ -318,80 +206,8 @@ Mit dem Basis-Paket für 144 € jährlich erhalten Sie wasserzeichenfreie Downl
     badgeText: 'Anwendungsbereiche',
     readMoreLabel: 'Mehr lesen',
     showLessLabel: 'Weniger anzeigen',
-    items: [
-      {
-        id: '1',
-        icon: '👶',
-        title: 'Erzieher in Vorschule und Kindergarten',
-        subtitle: 'Vorschul-Arbeitsblätter und Rechnen lernen',
-        description: `Vorschulerzieher benötigen sanfte Einführung in Mathe-Konzepte für Vorschul-Arbeitsblätter. Unser Additions-Generator schafft altersgerechte Materialien mit Bildern. Kinder zählen Tierbilder statt abstrakter Zahlen. Summen bleiben klein (1-5) für frühe Erfolge beim Rechnen lernen.
-
-Erstellen Sie Vorschul-Arbeitsblätter passend zu Wochen- oder Monatsthemen für Mathe-Arbeitsblätter. Zoo-Woche bekommt Tier-Additions-Aufgaben. Herbst-Monat verwendet Blätter und Kürbisse. Visuelle Konsistenz verstärkt Lernen über Aktivitäten hinweg.
-
-Kombinieren Sie Additions-Übungen mit Ausmalbildern für umfassende Vorschul-Aktivitäten. Nach Abschluss der Mathe-Aufgaben malen Kinder die Bilder aus. Schwungübungen können als Aufwärmaktivität vor Mathe dienen. Das Basis-Paket bietet alle Generatoren für ganzheitliche Vorschulbildung.`,
-        quote: 'Meine Vorschulkinder lieben die bunten Tier-Additions-Arbeitsblätter!',
-      },
-      {
-        id: '2',
-        icon: '📚',
-        title: 'Grundschullehrkräfte - Arbeitsblatt für Kinder 1. bis 3. Klasse',
-        subtitle: 'Mathe-Arbeitsblätter und Arbeitsblätter Grundschule',
-        description: `Grundschullehrkräfte benötigen differenzierte Additions-Materialien für Arbeitsblätter Grundschule. Der Generator ermöglicht schnelle Anpassung an verschiedene Leistungsniveaus für Mathe-Arbeitsblätter. Erstellen Sie einfache Aufgaben für kämpfende Schüler. Schwierigere Aufgaben fordern Begabte. Alle arbeiten am gleichen Thema.
-
-Nutzen Sie verschiedene Übungsmodi für progressives Lernen beim Rechnen lernen 1. Klasse. Beginnen Sie das Schuljahr mit Bild-plus-Bild. Steigern Sie zu Bild-plus-Zahl. Beenden Sie mit Addend-Finden. Die fünf Modi unterstützen natürlichen Lernfortschritt für Mathe-Arbeitsblätter.
-
-Erstellen Sie wöchentliche Übungsblätter in Minuten statt Stunden für kostenlose Arbeitsblätter. Montags-Diagnose, mittwochs Übung, freitags Assessment. Verschiedene Themen halten Schüler engagiert. Das Basis-Paket spart durchschnittlich 10-15 Stunden wöchentlich an Vorbereitungszeit.`,
-        quote: 'Die fünf Übungsmodi machen Differenzierung so einfach.',
-      },
-      {
-        id: '3',
-        icon: '🏠',
-        title: 'Homeschooling-Eltern - Kostenloses Arbeitsblatt für Kinder',
-        subtitle: 'Kostenlose Arbeitsblätter für individuelles Lernen',
-        description: `Homeschooling-Eltern schätzen kostenlose Additions-Arbeitsblätter für Mathe-Unterricht. Keine Abonnement-Kosten für Basis-Nutzung bei Vorschul-Arbeitsblättern. Erstellen Sie unbegrenzt viele Übungsblätter. Passen Sie Schwierigkeit an Ihr Kind an. Visuelle Addition macht Mathe zugänglich.
-
-Mehrere Kinder unterschiedlichen Alters benötigen verschiedene Niveaus für Arbeitsblätter Grundschule. Der Generator erstellt angepasste Mathe-Arbeitsblätter für jedes Kind. Gleiche Themen, unterschiedliche Schwierigkeiten. Geschwister arbeiten am selben Tisch an ihrem Niveau.
-
-Kombinieren Sie Additions-Übungen mit anderen Homeschool-Aktivitäten für Rechnen lernen. Thematische Kohärenz über Fächer verstärkt Lernen. Zoo-Tag kombiniert Tier-Mathe mit Tier-Sachkunde. Das Basis-Paket bietet zusätzlich Ausmalbilder, Schwungübungen und Buchstaben lernen.`,
-        quote: 'Ein Werkzeug deckt alle Mathematik-Niveaus meiner drei Kinder ab.',
-      },
-      {
-        id: '4',
-        icon: '🌍',
-        title: 'DaZ-Lehrkräfte - Arbeitsblatt für Vorschule mehrsprachig',
-        subtitle: 'Mehrsprachige Mathe-Arbeitsblätter',
-        description: `DaZ-Lehrkräfte nutzen Additions-Arbeitsblätter für Sprachintegration bei Mathe-Arbeitsblättern. Die 11-Sprachen-Funktion zeigt Bildnamen in der Zielsprache. Schüler lernen Zahlwörter und Objektnamen gleichzeitig. Mathe wird Sprachübung für Vorschul-Arbeitsblätter.
-
-Erstellen Sie dieselben Arbeitsblätter in Muttersprache und Deutsch für Arbeitsblätter Grundschule. Schüler sehen vertraute Konzepte in neuer Sprache. Visuelles Lernen überbrückt Sprachbarrieren. Addition funktioniert gleich in jeder Sprache.
-
-Bildbasierte Mathe-Arbeitsblätter ermöglichen Teilnahme vor Sprachbeherrschung für Rechnen lernen. Schüler verstehen Aufgaben durch Bilder. Zählen funktioniert ohne Lesekompetenz. Frühe Erfolgserlebnisse bauen Selbstvertrauen auf. Das Basis-Paket unterstützt mehrsprachige Klassenzimmer.`,
-        quote: 'Die Mehrsprachigkeit ist genau was meine DaZ-Schüler brauchen.',
-      },
-      {
-        id: '5',
-        icon: '💜',
-        title: 'Sonderpädagogen - Kostenlose Druckvorlagen individuell',
-        subtitle: 'Angepasste Vorschul-Arbeitsblätter und Mathe-Arbeitsblätter',
-        description: `Sonderpädagogen benötigen individualisierbare Materialien für diverse Lernende bei Vorschul-Arbeitsblättern. Unser Generator ermöglicht präzise Anpassung an Schülerbedürfnisse für Mathe-Arbeitsblätter. Sehr kleine Zahlen (1-3) für Anfänger. Wenige Aufgaben pro Seite für Fokus. Große, klare Bilder für visuelle Lernende.
-
-Verschiedene Übungsmodi sprechen unterschiedliche Lernstile an für Arbeitsblätter Grundschule. Bild-plus-Bild für konkrete Denker. Gemischter Modus für Abwechslung. Die Flexibilität des Generators unterstützt IEP-Ziele. Dokumentieren Sie Fortschritt mit angepassten Mathe-Arbeitsblättern.
-
-Visuelle Addition reduziert Mathe-Angst bei sensiblen Schülern für Rechnen lernen. Bilder machen Aufgaben weniger einschüchternd als reine Zahlen. Frühe Erfolge bauen Selbstvertrauen auf. Kostenlose Arbeitsblätter mit anpassbarer Schwierigkeit unterstützen jedes Lerntempo.`,
-        quote: 'Ich kann schnell individualisierte Arbeitsblätter für jeden IEP erstellen.',
-      },
-      {
-        id: '6',
-        icon: '💰',
-        title: 'Lehrkräfte-Unternehmer - Kostenloses Arbeitsblatt verkaufen',
-        subtitle: 'Verkaufen Sie Mathe-Arbeitsblätter',
-        description: `Viele Lehrkräfte verdienen Nebeneinkommen durch den Verkauf von Unterrichtsmaterialien bei Mathe-Arbeitsblättern. Das Basis-Paket für 144 € jährlich beinhaltet vollständige kommerzielle Lizenz. Verkaufen Sie Ihre Additions-Arbeitsblätter auf Teachers Pay Teachers, Etsy oder Amazon KDP ohne Einschränkungen für Arbeitsblätter Grundschule.
-
-Erstellen Sie thematische Additions-Pakete für verschiedene Jahreszeiten und Anlässe für kostenlose Arbeitsblätter. 20 Herbst-Additions-Arbeitsblätter. 30 Zoo-Tier-Mathe-Übungen. Käufer schätzen umfangreiche, thematisch kohärente Ressourcen. Die 300 DPI Qualität rechtfertigt Premium-Preise.
-
-Viele Lehrkräfte verdienen 500-5000 € monatlich mit druckbaren Ressourcen für Rechnen lernen. Das Abonnement zahlt sich nach wenigen Verkäufen selbst. Keine Per-Download-Gebühren oder Lizenzgebühren. Behalten Sie 100% Ihrer Einnahmen nach Plattformgebühren.`,
-        quote: 'Mein Abonnement hat sich im ersten Monat bezahlt gemacht!',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // FAQ Section - FULL FAQs from addition.md
@@ -405,68 +221,8 @@ Viele Lehrkräfte verdienen 500-5000 € monatlich mit druckbaren Ressourcen fü
     showLessLabel: 'Weniger anzeigen',
     secureCheckout: 'Sichere Bezahlung',
     cancelAnytime: 'Jederzeit kündbar',
-    items: [
-      {
-        id: '1',
-        question: 'Ist der Additions-Generator wirklich kostenlos für Mathe-Arbeitsblätter und Vorschul-Arbeitsblätter?',
-        answer: 'Der Generator ist kostenlos mit Wasserzeichen für persönliche, nicht-kommerzielle Nutzung. Erstellen Sie unbegrenzt Vorschul-Arbeitsblätter und Mathe-Aktivitäten für Ihr eigenes Klassenzimmer oder Homeschool. Kostenlose Arbeitsblätter enthalten ein kleines Wasserzeichen in der Ecke. Ideal für Lehrkräfte, die Materialien für ihre eigenen Schüler benötigen. Das Basis-Paket Abonnement kostet 144 Euro jährlich oder 15 Euro monatlich. Abonnenten erhalten wasserzeichenfreie Arbeitsblätter Grundschule in professioneller Qualität. Zugang zu 10 Premium-Generatoren inklusive. Kommerzielle Lizenzierung für den Verkauf Ihrer Arbeitsblätter enthalten.',
-      },
-      {
-        id: '2',
-        question: 'Kann ich Additions-Arbeitsblätter auf normalem Drucker drucken für kostenlose Arbeitsblätter Grundschule?',
-        answer: 'Ja, alle Arbeitsblätter Grundschule drucken perfekt auf Standard-Schuldruckern. Die 300 DPI Auflösung garantiert scharfe Bilder auf jedem Drucker. Farbdrucker produzieren lebendige, ansprechende Mathe-Arbeitsblätter. Schwarz-Weiß-Drucker funktionieren ebenso gut mit der Graustufen-Option. Aktivieren Sie den Graustufen-Modus vor dem Herunterladen für Tintenersparnis. Konvertiert alle Farben in Schwarz-Weiß, während Bildklarheit erhalten bleibt. Perfekt für Schulen mit Budgetbeschränkungen oder großen Klassensätzen. Standard A4 und Letter Größen passen auf normale Drucker.',
-      },
-      {
-        id: '3',
-        question: 'Benötige ich Design-Kenntnisse für Mathe-Arbeitsblätter und Arbeitsblätter Grundschule Erstellung?',
-        answer: 'Nein, absolut keine Design-Erfahrung erforderlich. Der Generator ist speziell für Lehrkräfte ohne Designhintergrund entwickelt. Wählen Sie Optionen aus Dropdown-Menüs. Klicken Sie Buttons. Sehen Sie sofortige Vorschau. Alles ist visuell und intuitiv. Erstellen Sie professionelle Vorschul-Arbeitsblätter in drei einfachen Schritten. Wählen Sie Bilder. Passen Sie Einstellungen an. Generieren und laden Sie herunter. Kein Photoshop benötigt. Keine Grafiksoftware zu erlernen. Der Generator handhabt alle technischen Aspekte automatisch.',
-      },
-      {
-        id: '4',
-        question: 'Kann ich Additions-Arbeitsblätter in meinem Klassenzimmer verwenden für Rechnen lernen 1. Klasse?',
-        answer: 'Ja, alle Abonnements beinhalten unbegrenzte Klassennutzung. Drucken Sie so viele Kopien wie Sie für Ihre Schüler benötigen. Verwenden Sie Mathe-Arbeitsblätter für tägliche Übung, Mathe-Zentren oder Hausaufgaben. Keine Mengenbeschränkung für Arbeitsblätter Grundschule. Ihre Abonnementgebühr deckt alle Klassenzimmer-Nutzung. Teilen Sie digitale Kopien mit Schülern über Lernmanagementsysteme. Laden Sie PDFs zu Google Classroom oder Seesaw hoch. Senden Sie Arbeitsblätter für Rechnen lernen per E-Mail an Eltern für Heimübung.',
-      },
-      {
-        id: '5',
-        question: 'Welche Sprachen sind verfügbar für kostenlose Arbeitsblätter und Deutsch-Arbeitsblätter Erstellung?',
-        answer: 'Der Generator unterstützt 11 Sprachen für Arbeitsblattinhalte. Deutsch, Englisch, Spanisch, Französisch, Italienisch, Portugiesisch, Niederländisch, Schwedisch, Dänisch, Norwegisch und Finnisch. Bildnamen erscheinen automatisch in der gewählten Sprache. Perfekt für Deutsch-Arbeitsblätter und mehrsprachige Klassenzimmer. Die Oberflächensprache ändert sich unabhängig vom Arbeitsblattinhalt. Lehren Sie auf Deutsch, erstellen Sie aber Arbeitsblätter Grundschule auf Englisch für bilinguale Schüler. Mehrsprachige Unterstützung ist ideal für DaZ-Unterricht.',
-      },
-      {
-        id: '6',
-        question: 'Kann ich selbst erstellte Arbeitsblätter verkaufen auf Teachers Pay Teachers mit Mathe-Arbeitsblättern?',
-        answer: 'Ja, Ihr Basis-Paket Abonnement beinhaltet vollständige kommerzielle Print-on-Demand-Lizenzierung. Verkaufen Sie Arbeitsblätter Grundschule auf Teachers Pay Teachers, Etsy oder Amazon KDP. Keine Namensnennung erforderlich. Keine Lizenzgebühren. Keine zusätzlichen Gebühren. Behalten Sie 100% der Einnahmen nach Plattformgebühren. Erstellen Sie Mathe-Arbeitsblätter-Bundles für kommerzielle Verkäufe. Viele Lehrkräfte verdienen 500-5000 Euro monatlich mit dem Verkauf druckbarer Ressourcen.',
-      },
-      {
-        id: '7',
-        question: 'Wie passe ich Additions-Arbeitsblätter an meine Schüler an für Vorschul-Arbeitsblätter und Rechnen lernen?',
-        answer: 'Passen Sie Schwierigkeit mit Min/Max-Operanden-Einstellungen an. Kleine Zahlen (1-3) für Vorschul-Arbeitsblätter. Größere Bereiche (1-10) für Arbeitsblätter Grundschule 1. Klasse. Jedes Arbeitsblatt generiert sich innerhalb Ihrer angegebenen Parameter. Wählen Sie Übungsmodi basierend auf Schülerbereitschaft. Bild-plus-Bild für beginnende Addition. Bild-plus-Zahl für Übergang zu Symbolen. Addend-Finden für fortgeschrittene Lernende. Personalisieren Sie Mathe-Arbeitsblätter mit eigenen Bildern.',
-      },
-      {
-        id: '8',
-        question: 'Für welche Altersgruppen eignen sich Additions-Arbeitsblätter mit Mathe-Arbeitsblättern und Ausmalbilder?',
-        answer: 'Additions-Arbeitsblätter funktionieren von Vorschule bis 3. Klasse. Vorschulkinder (5-6 Jahre) nutzen einfache Aufgaben mit Summen bis 5. Erstklässler (6-7 Jahre) bewältigen Summen bis 10 oder 20. Zweit- und Drittklässler (7-9 Jahre) üben zweistellige Addition. Passen Sie Schwierigkeit an jede Altersgruppe an. Kombinieren Sie Mathe-Arbeitsblätter mit altersgerechten Aktivitäten. Junge Lernende bekommen Ausmalbilder nach Mathe-Übung.',
-      },
-      {
-        id: '9',
-        question: 'Kann ich eigene Bilder hochladen für Arbeitsblätter Grundschule und kostenlose Arbeitsblätter Erstellung?',
-        answer: 'Ja, laden Sie unbegrenzt eigene Bilder hoch für personalisierte Mathe-Arbeitsblätter. Akzeptieren Sie alle gängigen Formate (JPEG, PNG, GIF). Multi-Upload-Funktion lädt mehrere Dateien gleichzeitig. Kombinieren Sie hochgeladene Bilder mit Bibliotheksbildern. Ihre Bilder bleiben für zukünftige Arbeitsblätter Grundschule verfügbar. Verwenden Sie Klassenfotos für ultra-personalisierte Vorschul-Arbeitsblätter. Laden Sie Schülerzeichnungen hoch für motivierende Materialien.',
-      },
-      {
-        id: '10',
-        question: 'Wie lange dauert die Erstellung von Mathe-Arbeitsblättern für Rechnen lernen und Vorschul-Arbeitsblätter?',
-        answer: 'Professionelle Arbeitsblätter Grundschule generieren in unter 3 Minuten. Wählen Sie Bilder (30 Sekunden). Passen Sie Einstellungen an (30 Sekunden). Klicken Sie Generieren (10 Sekunden). Laden Sie herunter (30 Sekunden). Lösungsblätter erstellen sich automatisch gleichzeitig. Traditionelle Mathe-Arbeitsblätter-Erstellung dauert 30-60 Minuten pro Arbeitsblatt. Der Generator reduziert Zeit um 90%. Erstellen Sie wöchentliche kostenlose Arbeitsblätter in 15 Minuten statt 5-6 Stunden.',
-      },
-      {
-        id: '11',
-        question: 'Enthalten Additions-Arbeitsblätter Lösungsblätter für schnelle Korrektur?',
-        answer: 'Ja, jedes generierte Arbeitsblatt erstellt automatisch ein Lösungsblatt. Die Antworten erscheinen klar in den Lösungsfeldern. Wechseln Sie zwischen Arbeitsblatt und Lösung mit einem Klick. Beide laden als separate Dateien herunter. Lehrkräfte sparen enorme Korrekturzeit. Keine manuelle Berechnung jeder Aufgabe mehr nötig. Schnelle visuelle Überprüfung mit dem Lösungsblatt. Selbstkorrektur wird möglich für selbstständiges Lernen.',
-      },
-      {
-        id: '12',
-        question: 'Welche Dateiformate sind für den Download verfügbar?',
-        answer: 'Exportieren Sie Ihre Mathe-Arbeitsblätter als PDF oder JPEG. Beide Formate sind in 300 DPI Qualität für professionellen Druck. PDF eignet sich ideal für direkte Weitergabe und Druck. JPEG ist perfekt für digitale Plattformen und Präsentationen. Die Graustufen-Option spart Druckertinte bei farbigen Bildern. Alle Downloads sind sofort druckbereit ohne weitere Bearbeitung.',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Pricing - Addition is FREE but needs subscription for no-watermark/commercial
@@ -513,56 +269,8 @@ Viele Lehrkräfte verdienen 500-5000 € monatlich mit druckbaren Ressourcen fü
       securePayment: 'Sichere Bezahlung',
       cancelAnytime: 'Jederzeit kündbar',
     },
-    items: [
-      {
-        id: '1',
-        slug: 'subtraction',
-        name: 'Subtraktion',
-        category: 'Mathematik',
-        icon: '➖',
-        description: 'Ergänzen Sie Additions-Arbeitsblätter mit Subtraktions-Übungen für umfassenden frühen Mathe-Unterricht.',
-      },
-      {
-        id: '2',
-        slug: 'coloring',
-        name: 'Ausmalbilder',
-        category: 'Kreativität',
-        icon: '🎨',
-        description: 'Kombinieren Sie Rechnen lernen mit kreativer Auszeit durch passende Ausmalbilder als Belohnung.',
-      },
-      {
-        id: '3',
-        slug: 'writing-app',
-        name: 'Schwungübungen',
-        category: 'Schreibvorbereitung',
-        icon: '✏️',
-        description: 'Integrieren Sie Schwungübungen mit Additions-Arbeitsblättern für umfassende motorische Entwicklung.',
-      },
-      {
-        id: '4',
-        slug: 'alphabet-train',
-        name: 'Buchstaben lernen',
-        category: 'Frühe Bildung',
-        icon: '🚂',
-        description: 'Verbinden Sie Rechnen lernen mit Buchstaben lernen für integrierte frühkindliche Bildung.',
-      },
-      {
-        id: '5',
-        slug: 'chart-count-color',
-        name: 'Diagramm-Zählen',
-        category: 'Mathematik',
-        icon: '📊',
-        description: 'Erweitern Sie Additions-Fähigkeiten mit Diagramm-Lesen und Zählaktivitäten.',
-      },
-      {
-        id: '6',
-        slug: 'find-and-count',
-        name: 'Suchen und Zählen',
-        category: 'Mathematik',
-        icon: '🔍',
-        description: 'Verstärken Sie Zählfähigkeiten mit Suchbildern als Vorbereitung für Addition.',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 };
 

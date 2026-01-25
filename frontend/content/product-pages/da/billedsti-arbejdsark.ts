@@ -98,43 +98,8 @@ Hver billedsti downloades som professionel 300 DPI PDF. Ideel til print derhjemm
     noPdfLabel: 'Ingen PDF tilgængelig',
     freePdfCountLabel: '3 gratis downloads',
     ofLabel: 'af',
-    items: [
-      {
-        id: '1',
-        worksheetSrc: '/samples/danish/picture-path/sample-1.jpeg',
-        answerKeySrc: '/samples/danish/picture-path/sample-1-answer.jpeg',
-        altText: 'Billedsti gratis arbejdsark - visuel labyrint arbejdsark til børn for børnehaveklasse med finmotorik',
-        pdfDownloadUrl: '/samples/danish/picture-path/sample-1.pdf',
-      },
-      {
-        id: '2',
-        worksheetSrc: '/samples/danish/picture-path/sample-2.jpeg',
-        answerKeySrc: '/samples/danish/picture-path/sample-2-answer.jpeg',
-        altText: 'Gratis arbejdsark billedsti - klassisk labyrint arbejdsark til børnehaveklasse med billeder',
-        pdfDownloadUrl: '/samples/danish/picture-path/sample-2.pdf',
-      },
-      {
-        id: '3',
-        worksheetSrc: '/samples/danish/picture-path/sample-3.jpeg',
-        answerKeySrc: '/samples/danish/picture-path/sample-3-answer.jpeg',
-        altText: 'Billedsti arbejdsark til børn - vælg rigtig vej gratis printables for 0. klasse',
-        pdfDownloadUrl: '/samples/danish/picture-path/sample-3.pdf',
-      },
-      {
-        id: '4',
-        worksheetSrc: '/samples/danish/picture-path/sample-4.jpeg',
-        answerKeySrc: '/samples/danish/picture-path/sample-4-answer.jpeg',
-        altText: 'Arbejdsark til børnehaveklasse billedsti - labyrint gratis arbejdsark med mønsteropgaver',
-        pdfDownloadUrl: '/samples/danish/picture-path/sample-4.pdf',
-      },
-      {
-        id: '5',
-        worksheetSrc: '/samples/danish/picture-path/sample-5.jpeg',
-        answerKeySrc: '/samples/danish/picture-path/sample-5-answer.jpeg',
-        altText: 'Gratis printables billedsti - arbejdsark til børn med finmotorik øvelser for 1. klasse',
-        pdfDownloadUrl: '/samples/danish/picture-path/sample-5.pdf',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Features Grid - FULL text from picture-path.md feature sections
@@ -150,111 +115,8 @@ Hver billedsti downloades som professionel 300 DPI PDF. Ideel til print derhjemm
       noHiddenFees: 'Ingen skjulte gebyrer',
       cancelAnytime: 'Opsig når som helst',
     },
-    items: [
-      {
-        id: '1',
-        icon: '⚡',
-        title: 'Opret Opgaver til Print på 3 Klik',
-        description: `Vælg et tema eller specifikke billeder. Klik generer. Din billedsti er klar. Så simpelt er det.
-
-Du behøver ingen designerfærdigheder. Vælg blandt børn, dyr, transport eller hundredvis af andre temaer. Systemet placerer billeder automatisk. Labyrinter genereres med ét klik. Billedstier oprettes øjeblikkeligt. Valgopgaver bygges automatisk.
-
-Generering tager under 10 sekunder. Du får både opgaveark og facitark automatisk. Perfekt til matematikopgaver med billeder langs stien. Ideelt til farvelægning kombineret med labyrintløsning. Brug til finmotorik øvelser hvor børn følger stier med fingeren eller blyant.
-
-Dit Fuld Adgang abonnement giver ubegrænset oprettelse. Lav så mange arbejdsark du har brug for. Ingen ekstra gebyrer per opgave. Skab unikke gratis skoleopgaver hver dag til børnehaveklassen og 1. klasse.`,
-        highlighted: false,
-      },
-      {
-        id: '2',
-        icon: '✏️',
-        title: 'Rediger Alle Elementer på Arbejdsark',
-        description: `Alt på lærredet kan redigeres. Træk billeder til nye positioner. Rotér elementer. Skalér størrelser. Slet uønskede dele.
-
-Hver billedsti er fuldt redigerbar efter generering. Flyt start-billeder. Justér slut-billeder. Omarranger vej-billeder. Tilpas distraktorbilleder rundt om labyrinten. Tilføj dekorative elementer hvor som helst.
-
-Brug farveværktøjet til baggrunde. Vælg mellem hundredvis af temaer for baggrund og ramme. Justér gennemsigtighed. Kombiner flere baggrundselementer. Perfekt til at lave malebog-aktiviteter med integrerede labyrinter.
-
-Tilføj tekst hvor som helst. Skriv instruktioner på dansk. Tilføj elevens navn og dato. Indsæt spørgsmål for matematikopgaver. Vælg skrifttype og farve. Perfekt til personlige opgaver til print og arbejdsark med navn.
-
-Låsefunktionen holder elementer på plads. Lås baggrunden mens du redigerer billeder. Lås labyrinter mens du tilføjer tekst. Fortryd og gendan knapper giver fuld kontrol. Lav præcise kopiark og finmotorik øvelser til børnehaveklassen.`,
-        highlighted: false,
-      },
-      {
-        id: '3',
-        icon: '📤',
-        title: 'Upload Egne Billeder til Matematikopgaver',
-        description: `Upload dine egne billeder direkte i generatoren. Kombiner med biblioteksbilleder. Lav personlige opgaver til print.
-
-Multi-fil upload understøtter alle billedformater. JPEG, PNG, GIF fungerer alle. Upload klassefotos. Brug billeder af elevernes navne. Indsæt fotos fra skolens emner.
-
-Brug uploadede billeder som start-billeder. Sæt dem som slut-billeder. Placer dem langs stien. Kombiner med temaer fra biblioteket. Perfekt til personlige arbejdsark hvor børn finder vej til deres eget foto.
-
-Ideelt til tematiske matematikopgaver. Upload tal-billeder for gangetabeller-træning. Brug bogstav-fotos for lære bogstaver aktiviteter. Upload ord for læse og skrive øvelser. Kombiner med labyrintstrukturen.
-
-Upload farvelægnings-skabeloner. Integrer i billedstier. Lav hybride aktiviteter med malebog-elementer og labyrintløsning. Upload årstidsbilleder. Lav sæsonbestemte gratis skoleopgaver. Perfekt til varierede kopiark og finmotorik øvelser.`,
-        highlighted: false,
-      },
-      {
-        id: '4',
-        icon: '🌍',
-        title: 'Billedsti Generator på 11 Sprog',
-        description: `Brugerfladen fungerer på 11 sprog. Billedbiblioteket understøtter 11 sprog. Perfekt til flersproget undervisning.
-
-Dansk, engelsk, tysk, fransk, spansk, italiensk, portugisisk, hollandsk, svensk, norsk og finsk. Skift sprog med ét klik. Hele systemet oversætter øjeblikkeligt. Billeder har navne på alle sprog.
-
-Brug til fremmedsprogsundervisning i børnehaveklassen og 1. klasse. Lav engelske billedstier. Opret tyske labyrinter. Skab spanske valgopgaver. Børn lærer ord mens de løser labyrinter.
-
-Billednavne bliver til ord-opgaver. Lav lære bogstaver aktiviteter på flere sprog. Opret læse og skrive øvelser hvor børn finder ord langs stien. Kombiner med matematikopgaver på forskellige sprog.
-
-Perfekt til internationale skoler. Ideelt til flersprogede familier. Brug til danskundervisning for tosproget børn. Lav arbejdsark med dansk og modersmål side om side. Dit Fuld Adgang abonnement inkluderer alle 11 sprog uden ekstra omkostninger.`,
-        highlighted: false,
-      },
-      {
-        id: '5',
-        icon: '💰',
-        title: 'Kommerciel Licens Inkluderet',
-        description: `Fuld Adgang abonnementet inkluderer fuld kommerciel print-on-demand licens. Ingen ekstra licensgebyrer. Sælg dine opgaver frit.
-
-Sælg på Teachers Pay Teachers. List arbejdsark på Etsy. Udgiv opgavebøger på Amazon KDP. Ingen tilskrivning påkrævet. Du ejer det du laver. 300 DPI kvalitet er perfekt til kommercielt salg.
-
-Mange danske pædagoger tjener 5.000-25.000 kr om måneden. Lav opgavepakker for børnehaveklassen. Skab matematikopgaver samlinger. Design finmotorik øvelser bundles. Sælg malebog med integrerede labyrinter.
-
-Kombiner flere opgavetyper i temapakker. Lav "Alle 1. klasse opgaver" bundles. Opret "Gratis skoleopgaver til hjemmet" pakker. Design "Kopiark til substitutter" samlinger. Sælg med fuld kommerciel ret.
-
-Pinterest-marketing fungerer godt for opgavesalg. Del gratis eksempler. Link til betalte pakker. Opbyg passiv indkomst mens du sover. Dit Fuld Adgang abonnement betaler sig selv gennem salg af opgaver til print.`,
-        highlighted: true,
-      },
-      {
-        id: '6',
-        icon: '🎨',
-        title: 'Bibliotek med 3000+ Billeder',
-        description: `Over 3000 børnevenlige billeder inkluderet. Alle organiseret efter temaer. Nem temavalg for hurtige opgaver til print.
-
-Dyr, transport, mad, tøj, natur, sport og hundredvis flere temaer. Søg efter nøgleord på dansk. Gennemse visuelt ordforråd. Vælg individuelle billeder eller hele temaer.
-
-Perfekt til matematikopgaver med visuelle elementer. Brug dyre-billeder til tælleøvelser. Lav transport-labyrinter for mobilitets-emner. Opret mad-billedstier for sundheds-undervisning. Kombiner temaer for tværfaglige arbejdsark.
-
-Brug til lære bogstaver aktiviteter. Vælg billeder der starter med samme bogstav. Lav "Find vejen gennem alle A-ord" billedstier. Opret alfabets-labyrinter. Perfekt til læse og skrive øvelser i børnehaveklassen.
-
-Alle billeder fungerer til farvelægning. Print i gråtoner. Børn kan farvelægge mens de løser labyrinter. Kombinér kognitiv udfordring med finmotorik øvelser. Skab engagerende kopiark og malebog-aktiviteter. Biblioteket opdateres regelmæssigt med nye temaer.`,
-        highlighted: false,
-      },
-      {
-        id: '7',
-        icon: '🖨️',
-        title: 'Professionel 300 DPI Kvalitet',
-        description: `Hver billedsti eksporteres i høj 300 DPI opløsning. Perfekt til print derhjemme og i skolen. Professionel kvalitet til kommercielt salg.
-
-Download som PDF eller JPEG. PDF bevarer skarp kvalitet i alle størrelser. JPEG fungerer til hurtige prints. Begge formater printer perfekt på standard printere.
-
-Gråtone-muligheden sparer blæk. Perfekt til store mængder kopiark. Børn kan farvelægge gråtone-versioner. Lav malebog aktiviteter fra enhver billedsti. Spar hundredvis af kroner på blæk årligt.
-
-Fortryd og gendan knapper giver fuld redigeringskontrol. Eksperimentér uden frygt. Test forskellige layouts. Prøv varierede farver. Gendan hvis noget går galt. Lav perfekte gratis skoleopgaver hver gang.
-
-Zoom-kontroller viser detaljer. Zoom ind for præcis placering. Zoom ud for helheds-visning. Nulstil zoom til standard. Perfekt til at lave detaljerede finmotorik øvelser og præcise matematikopgaver til børnehaveklassen og 1. klasse.`,
-        highlighted: true,
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // How-To Guide - FULL text from picture-path.md step sections
@@ -356,112 +218,8 @@ Gem filer til senere brug. Opbyg bibliotek af opgaver til print organiseret efte
     badgeText: 'Hvem Er Det Til',
     readMoreLabel: 'Læs mere',
     showLessLabel: 'Vis mindre',
-    items: [
-      {
-        id: '1',
-        icon: '👩‍🏫',
-        title: 'Pædagoger i Børnehaveklassen',
-        subtitle: 'Finmotorik Øvelser og Farvelægning',
-        description: `Pædagoger i danske børnehaver og 0. klasse bruger billedstier dagligt. Visuelle labyrinter engagerer små børn perfekt. Kombiner leg med læring gennem billedbaserede opgaver.
-
-Billedsti-mode fungerer bedst for 3-6 årige. Store tydelige billeder er nemme at se. Enkle stier fra start til slut udvikler logisk tænkning. Børn følger stien med fingeren først. Derefter bruger de blyant. Perfekt finmotorik øvelser for hånd-øje koordination.
-
-Vælg temaer børnene kender. Dyr, legetøj, mad, køretøjer. Brug biblioteket til at finde relevante billeder til aktuelle emner. Kombinér med årstider. Lav efterårsblade-stier i september. Opret snefnug-labyrinter i december. Design påskehare-valgopgaver i marts.
-
-Farvelægning integrerer perfekt. Print opgaver i gråtoner. Børn løser labyrinten først. Derefter farvelægger de alle billeder. Dobbelt aktivitet i én opgave. Sparer forberedelsestid. Holder børn engagerede længere.
-
-Tilføj navn-felter til hver opgave. Børn øver skrivning af deres navne. Kombinér flere læringszoner i én aktivitet. Problemløsning plus finmotorik øvelser plus skrive-træning. Dit Fuld Adgang abonnement lader dig lave ubegrænsede opgaver til print til hele børnehaveklassen.`,
-        quote: 'Mine elever elsker at følge billedstierne!',
-      },
-      {
-        id: '2',
-        icon: '📚',
-        title: 'Lærere i 1. Klasse og 2. Klasse',
-        subtitle: 'Matematikopgaver og Gangetabeller',
-        description: `Indskolings-lærere bruger billedstier til mange fag. Matematikopgaver med visuelle elementer fungerer godt. Lære bogstaver aktiviteter gennem billednavne. Tværfaglige opgaver kombinerer flere kompetencer.
-
-Klassiske labyrint-mode er perfekt til matematikopgaver. Indstil samlerobjekt-billeder til tal eller former. "Find alle 5-taller gennem labyrinten". Børn tæller mens de løser. Kombinér navigering med matematik. Perfekt til gangetabeller-indlæring med gentagne mønstre.
-
-Brug billednavne til lære bogstaver øvelser. Vælg billeder der starter med samme bogstav. "Find vejen gennem alle A-ord". Æble, abe, and. Børn lærer bogstav-lyd sammenhænge mens de navigerer. Kombinér med læse og skrive praksis.
-
-Sværhedsgrad justeres nemt. 12×12 gitre til 1. klasse. 14×14 gitre til 2. klasse. Længere løsningsstier for øvede elever. Kortere stier for dem der kæmper. Differentier inden for samme klasse med forskellige indstillinger.
-
-Valgopgave-mode træner kritisk tænkning. Flere stier ser korrekte ud. Kun én fører til målet. Børn skal analysere før de vælger. Perfekt til problemløsnings-kompetencer. Brug til matematikopgaver hvor børn vælger korrekt løsningsmetode.
-
-Upload klassefotos for personlige opgaver til print. Børn elsker at finde vej til deres egne billeder. "Hjælp kaninerne med at finde vej til Emmas foto". Motivation stiger markant med personlige elementer. Lav unikke arbejdsark for hver elev.`,
-        quote: 'Differentiation er blevet så meget nemmere med billedstier.',
-      },
-      {
-        id: '3',
-        icon: '🏠',
-        title: 'Hjemmeundervisnings-Forældre',
-        subtitle: 'Gratis Skoleopgaver til Flere Børn',
-        description: `Danske hjemmeundervisnings-familier har brug for varierede opgaver. Billedsti-generatoren løser dette perfekt. Lav forskellige opgaver til hvert barn på minutter. Tilpas sværhedsgrad til individuelle niveauer.
-
-Et abonnement dækker alle dine børn. Lav 1. klasse matematikopgaver til den ældste. Opret børnehaveklasse finmotorik øvelser til den yngste. Design 3. klasse gangetabeller-labyrinter til mellembarnet. Alt inkluderet i én pris.
-
-Tematisk læring fungerer godt hjemme. Vælg ugens tema. Find relevante billeder i biblioteket. Lav billedstier om rummet, havet eller dinosaurer. Kombiner med bøger I læser. Skab tværfaglige opgaver til print der forbinder emner.
-
-Fleksibilitet er nøglen for hjemmeundervisning. Lav opgaver når du har tid. Gem dem til senere brug. Print efter behov. Ingen deadlines. Ingen pres. Arbejd i jeres eget tempo med gratis skoleopgaver.
-
-Kombiner med andre aktiviteter. Brug billedstier som belønning efter læsning. Integrer i matematikopgaver-tiden. Lav farvelægning-pauser med labyrint-opgaver. Dit Fuld Adgang abonnement giver fleksibilitet til at tilpasse skemæt frit.`,
-        quote: 'Et værktøj dækker alle mine børns klassetrin.',
-      },
-      {
-        id: '4',
-        icon: '🌍',
-        title: 'Fremmedsprogs-Lærere',
-        subtitle: 'Lære Bogstaver på 11 Sprog',
-        description: `Fremmedsprogs-undervisning i danske skoler drager nytte af multilinguale billedstier. 11 sprog-support gør det unikt. Billednavne på målsproget giver ordforråds-praksis.
-
-Lav engelske billedstier for engelsk-undervisning i 1. klasse. Børn lærer "cat", "dog", "tree" mens de løser labyrinter. Ordforråd og problemløsning kombineres. Print opgaver med engelske billednavne. Børn associerer ord med visuelle repræsentationer.
-
-Tysk-undervisning drager nytte tilsvarende. Opret tyske labyrinter med "Hund", "Katze", "Baum". Spansk, fransk, italiensk alle understøttet. Skift sprog med ét klik. Samme opgavestruktur på forskellige sprog.
-
-Brug til tosprogede børn. Lav opgaver på både dansk og modersmål. Sammenlign ordforråd. Byg bro mellem sprog. Perfekt til integration og sprogudvikling. Kombinér læse og skrive øvelser på flere sprog.
-
-Kulturelle temaer integrerer nemt. Lav franske mad-labyrinter. Opret spanske festival-billedstier. Design italienske by-valgopgaver. Sprog og kultur læres sammen gennem visuelle opgaver til print.
-
-International skoler i Danmark elsker denne funktion. Undervis på modersmål mens børn lærer dansk. Billedstier fungerer på alle sprog samtidig. Dit Fuld Adgang abonnement inkluderer alle 11 sprog uden ekstra omkostninger.`,
-        quote: 'Den flersprogede support er essentiel for mine elever.',
-      },
-      {
-        id: '5',
-        icon: '💜',
-        title: 'Specialpædagoger',
-        subtitle: 'Tilpassede Opgaver til Individuelle Behov',
-        description: `Specialpædagoger har brug for meget tilpasning. Billedsti-generatoren giver præcis den fleksibilitet. Juster sværhedsgrad til hver elevs niveau. Tilpas visuelle elementer efter behov.
-
-Store tydelige billeder hjælper synshandicappede. Høj kontrast-indstillinger gør stier synlige. Tykke vægge i labyrinter er nemme at følge. Justér farver for farveblinde. Perfekt til inklusion i almindelige klasser.
-
-Finmotorik øvelser tilpasses præcist. Brede stier til børn med motoriske udfordringer. Smalle stier for finere kontrol efterhånden som færdigheder udvikles. Gradvis progression indbygget i samme værktøj. Track fremskridt over tid.
-
-Billede-baseret læring fungerer godt for mange diagnoser. Børn med ordblindhed drager nytte af visuelle stier. ADHD-børn engageres af interaktive opgaver. Autisme-spektrum børn elsker forudsigelige strukturer i labyrinter.
-
-Personlige billeder motiverer enormt. Upload fotos af elevens interesser. Lav Thomas Tog-labyrinter for tog-elskere. Opret dinosaur-billedstier for dinosaur-fans. Motivation stiger når indhold matcher interesser.
-
-Differentier inden for inkluderende klasser. Lav lettere versioner af samme tema til special-elever. Alle arbejder med samme emne på forskellige niveauer. Ingen føler sig ekskluderet. Alle får passende udfordringer med arbejdsark tilpasset deres niveau.`,
-        quote: 'Jeg kan hurtigt tilpasse arbejdsark til hver elevs behov.',
-      },
-      {
-        id: '6',
-        icon: '💰',
-        title: 'Lærer-Entreprenører',
-        subtitle: 'Sælg Arbejdsark på Teachers Pay Teachers',
-        description: `Danske lærer-entreprenører tjener godt på opgavesalg. Fuld Adgang abonnementet inkluderer kommerciel POD licens. Sælg alt du laver uden ekstra gebyrer. Teachers Pay Teachers, Etsy, Amazon KDP alle tilladt.
-
-Billedsti-opgaver sælger godt internationalt. Lav danske opgaver til print for det danske marked. Opret engelske versioner til globalt salg. Samme opgave på 11 sprog multiplicerer indtjenings-potentialet. Ét designs-arbejde bliver til 11 produkter.
-
-Temapakker sælger bedst. Kombiner 10-20 billedstier om samme emne. "20 Efterårs-Labyrinter til 1. Klasse". "15 Matematikopgaver med Dyre-Billeder". "25 Gangetabeller Labyrint-Udfordringer". Pakker giver højere priser end enkelte opgaver.
-
-Sæsonbestemte opgaver sælger på specifikke tidspunkter. Lav jul-opgaver i oktober-november. Opret påske-labyrinter i februar-marts. Design skolestart-opgaver i juli-august. Planlæg produktion forud for efterspørgsels-toppe.
-
-Pinterest driver trafik effektivt. Del gratis eksempler. Vatermark med dit brand. Link til betalte pakker i beskrivelser. Byg følgere over tid. Passive indtægter vokser mens du sover.
-
-Mange danske lærere tjener 5.000-25.000 kr månedligt. Nogle tjener meget mere. Kombiner opgave-salg med almindeligt lærerarbejde. Eller gå fuldtids med opgave-skabelse. Dit Fuld Adgang abonnement på 1.800 kr/årligt betaler sig selv efter få salg af arbejdsark og kopiark.`,
-        quote: 'Mit abonnement betalte sig selv i første måned!',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // FAQ Section - Selected FAQs from picture-path.md
@@ -475,68 +233,8 @@ Mange danske lærere tjener 5.000-25.000 kr månedligt. Nogle tjener meget mere.
     showLessLabel: 'Vis mindre',
     secureCheckout: 'Sikker betaling',
     cancelAnytime: 'Opsig når som helst',
-    items: [
-      {
-        id: '1',
-        question: 'Hvordan laver jeg opgaver til print med billedstier hurtigt?',
-        answer: 'Billedsti-opgaver til print laves på under 3 minutter. Log ind på systemet. Vælg billedsti-generator fra værktøjsmenuen. Vælg dine billeder efter tema eller individuelt. Klik generer. Rediger efter behov. Download som PDF. Print øjeblikkeligt. Systemet gør alt det tekniske arbejde. Du fokuserer kun på indhold og tema. Ingen grafisk design erfaring nødvendig. Perfekt til travle morgener hvor du har brug for hurtige opgaver til print til dagens lektioner.',
-      },
-      {
-        id: '2',
-        question: 'Er gangetabeller-labyrinter effektive til 1. klasse matematikopgaver?',
-        answer: 'Ja, gangetabeller-labyrinter fungerer ekstremt godt til matematikopgaver. Børn lærer bedre gennem visuel og kinetisk læring. Kombinerer navigation med talgentagelse. Hjerne associerer bevægelse med læring. Indstil samlerobjekt-billeder til specifikke tal-mønstre. "Find alle 3-ere gennem labyrinten". Børn tæller 3, 6, 9, 12 mens de navigerer. Gangetabeller læres organisk gennem gentagen eksponering i engagerende kontekst. Meget mere effektivt end memorisering ved gentagelse.',
-      },
-      {
-        id: '3',
-        question: 'Kan jeg lave lære bogstaver aktiviteter for børnehaveklassen med billedstier?',
-        answer: 'Absolut. Lære bogstaver aktiviteter fungerer perfekt med billedstier. Vælg billeder der starter med samme bogstav. "Find vejen gennem alle A-ord". Æble, abe, and, ål. Børn ser bogstavet. Hører lyden. Associerer med billede. Billednavne vises på dansk automatisk. Børn lærer bogstav-lyd sammenhænge visuelt. Alfabetisk orden kan læres gennem stige-formede billedstier. Starter med A-billeder nederst. Ender med Å-billeder øverst. Visuel repræsentation af alfabetisk progression.',
-      },
-      {
-        id: '4',
-        question: 'Hvordan integrerer jeg læse og skrive øvelser i billedsti-opgaver til print?',
-        answer: 'Læse og skrive øvelser integreres nemt. Tilføj tekst-elementer på lærredet. Skriv ordene under billeder langs stien. Børn læser mens de følger vejen. Kombinerer visuel genkendelse med læse-praksis. Avancerede øvelser: Lav billedsti uden tekst. Print to versioner. Version 1 har kun billeder. Børn navigerer og skriver ordene selv. Version 2 har ord inkluderet som facit. Kombinerer læse og skrive øvelser med problemløsning i én opgave til print.',
-      },
-      {
-        id: '5',
-        question: 'Kan jeg lave opgaver til print for både 0. klasse og 1. klasse samtidigt?',
-        answer: 'Ja, differentier nemt mellem klassetrin. Lav samme tema på forskellige sværhedsgrader. 0. klasse får 12×12 gitter med tydelige billeder. 1. klasse får 14×14 gitter med flere distraktorer. Samme forberedelsestid giver opgaver til begge niveauer. Upload-funktion lader dig personalisere yderligere. Brug elevfotos fra hver klasse. 0. klasse finder vej til deres klassebillede. 1. klasse finder vej til deres klassebillede. Samme opgavestruktur tilpasset til hvert klassetrin.',
-      },
-      {
-        id: '6',
-        question: 'Hvordan virker gangetabeller-træning bedst med visuelle opgaver?',
-        answer: 'Gangetabeller-træning gennem visuelle opgaver udnytter flere læringsstile. Visuelt: Ser tal-mønstre. Kinetisk: Navigerer fysisk gennem labyrint. Auditiv: Siger tal højt mens de løser. Multisensorisk læring forbedrer retention 300-400%. Lav progression over tid. Uge 1: 2-tabellen labyrint. Uge 2: 3-tabellen. Uge 3: 4-tabellen. Uge 12: Blandede tabeller. Gradvis sværhedsgrad indbygget i samme værktøj. Track fremskridt visuelt gennem arkiverede opgaver til print.',
-      },
-      {
-        id: '7',
-        question: 'Fungerer lære bogstaver aktiviteter på flere sprog samtidigt?',
-        answer: 'Ja perfekt til flersproget undervisning. Lav samme billedsti på dansk og engelsk. Sammenlign ord side-om-side. "Hund" på dansk. "Dog" på engelsk. Samme billede. Forskellige ord. Børn ser sammenhænge mellem sprog. Brug til tosprogede børn. Lære bogstaver på både modersmål og dansk. Alfabeter varierer mellem sprog. Dansk har Æ, Ø, Å. Tysk har Ü, Ö, Ä. Samme billedsti-struktur tilpasset hvert sprogs alfabet. Perfekt til integration og sprogudvikling.',
-      },
-      {
-        id: '8',
-        question: 'Kan jeg sælge mine gangetabeller-opgaver til print online?',
-        answer: 'Ja, Fuld Adgang inkluderer kommerciel POD licens. Sælg alle gangetabeller-opgaver du laver. Teachers Pay Teachers, Etsy, Amazon KDP alle tilladt. Ingen ekstra licensgebyrer udover abonnementsprisen på 1.800 kr/år. Gangetabeller-pakker sælger ekstremt godt. Lav "30 Gangetabeller Labyrinter - 2-12 Tabellen" bundle. Sælg for 50-100 kr digitalt. Efter 20-40 salg har abonnementet betalt sig selv. Resten er ren profit.',
-      },
-      {
-        id: '9',
-        question: 'Hvordan laver jeg hurtige læse og skrive opgaver til morgendagens lektion?',
-        answer: 'Læse og skrive opgaver laves på 5-10 minutter aftenen før. Vælg tema der matcher morgendagens lektion. Hvis I læser om dyr, vælg dyre-billeder. Systemet genererer øjeblikkeligt. Print før du forlader skolen. Klar til morgen. Gem skabeloner til gentagelse. Lav "Dyr-billedsti skabelon" med læse og skrive elementer. Næste gang I har dyre-emne, gendan fil. Modificer let. Re-download. Genbrugelig struktur sparer yderligere tid.',
-      },
-      {
-        id: '10',
-        question: 'Er opgaver til print fra systemet kompatible med danske printere og papir?',
-        answer: 'Ja helt kompatibelt. A4 format er standard for danske printere. PDF eksport bevarer dimensioner perfekt. Print på enhver printer hjemme eller i skolen. Fungerer med farve og sort-hvid printere. Gråtone-funktion optimerer til sort-hvid print. Høj kontrast sikrer klarhed. Ingen grå nuancer der forsvinder. Perfekt til skoler uden farve-printere. Opgaver til print ser professionelle ud uanset printer-type.',
-      },
-      {
-        id: '11',
-        question: 'Hvordan tilpasser jeg opgaver til print for elever med særlige behov?',
-        answer: 'Fuld redigerbarhed gør tilpasning nem. Forstør billeder til synshandicappede. Forøg vægtykkelse i labyrinter for motoriske udfordringer. Reducer distraktor-antal for koncentrations-problemer. Tilføj ekstra visuel guidning efter behov. Farve-indstillinger hjælper farveblinde. Høj kontrast-kombinationer. Undgå rød-grøn hvis relevant. Brug blå-gul i stedet. Opgaver til print tilpasses hver elevs specifikke behov på få minutter.',
-      },
-      {
-        id: '12',
-        question: 'Kan jeg integrere gangetabeller og lære bogstaver i samme opgave til print?',
-        answer: 'Ja, tværfaglige opgaver kombineres nemt. Lav matematikopgaver med ord-elementer. "Find vejen gennem alle 6-taller (seks, tolv, atten, fireogtyve)". Børn ser tal. Læser tal-ord. Navigerer gennem labyrint. Kombinerer gangetabeller med lære bogstaver i én aktivitet. Billedstier med alfabetisk rækkefølge kan inkludere tal. "A-æble (1), B-bil (2), C-cykel (3)". Alfabets-træning plus tal-træning simultant. Tværfaglige opgaver til print maksimerer læring per minut brugt.',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Pricing
@@ -607,56 +305,8 @@ Mange danske lærere tjener 5.000-25.000 kr månedligt. Nogle tjener meget mere.
       securePayment: 'Sikker betaling',
       cancelAnytime: 'Opsig når som helst',
     },
-    items: [
-      {
-        id: '1',
-        slug: 'coloring',
-        name: 'Malebilleder',
-        category: 'Kunst og Kreativitet',
-        icon: '🎨',
-        description: 'Kombinér billedstier med farvelægning for dobbelt-aktiviteter. Børn løser labyrinten og farvelægger bagefter.',
-      },
-      {
-        id: '2',
-        slug: 'drawing-lines',
-        name: 'Linjetræning',
-        category: 'Finmotorik',
-        icon: '✏️',
-        description: 'Udvikl finmotorik ved at kombinere billedstier med tegne-linjer øvelser. Perfekt til hånd-øje koordination.',
-      },
-      {
-        id: '3',
-        slug: 'matching',
-        name: 'Matching',
-        category: 'Visuel Læring',
-        icon: '🔗',
-        description: 'Styrk visuel læring ved at kombinere billedstier med matchingøvelser for varieret læring.',
-      },
-      {
-        id: '4',
-        slug: 'find-and-count',
-        name: 'Find og Tæl',
-        category: 'Matematik',
-        icon: '🔍',
-        description: 'Kombiner billedstier med tælleøvelser for matematik-integration i labyrint-aktiviteter.',
-      },
-      {
-        id: '5',
-        slug: 'alphabet-train',
-        name: 'Alfabettog',
-        category: 'Sprog og Bogstaver',
-        icon: '🚂',
-        description: 'Styrk lære bogstaver aktiviteter ved at kombinere billedstier med alfabets-træning.',
-      },
-      {
-        id: '6',
-        slug: 'treasure-hunt',
-        name: 'Skattejagt',
-        category: 'Problemløsning',
-        icon: '🗺️',
-        description: 'Kombinér billedstier med skattejagt for ekstra engagement og problemløsnings-udfordringer.',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 };
 

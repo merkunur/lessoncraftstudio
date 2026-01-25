@@ -106,36 +106,8 @@ De generator werkt in het Nederlands met volledige UI-ondersteuning. Alle labels
     badgeText: 'Gratis Voorbeelden',
     downloadingLabel: 'Downloaden...',
     ofLabel: 'van',
-    items: [
-      {
-        id: '1',
-        worksheetSrc: '/samples/dutch/picture-sort/sample-1.jpeg',
-        answerKeySrc: '/samples/dutch/picture-sort/sample-1-answer.jpeg',
-        altText: 'Gratis werkblad sorteer plaatjes - werkbladen groep 3 voor categoriseren en logisch denken kleuters',
-        pdfDownloadUrl: '/samples/dutch/picture-sort/sample-1.pdf',
-      },
-      {
-        id: '2',
-        worksheetSrc: '/samples/dutch/picture-sort/sample-2.jpeg',
-        answerKeySrc: '/samples/dutch/picture-sort/sample-2-answer.jpeg',
-        altText: 'Gratis werkbladen sorteren - werkblad voor kinderen met classificatie oefeningen',
-        pdfDownloadUrl: '/samples/dutch/picture-sort/sample-2.pdf',
-      },
-      {
-        id: '3',
-        worksheetSrc: '/samples/dutch/picture-sort/sample-3.jpeg',
-        answerKeySrc: '/samples/dutch/picture-sort/sample-3-answer.jpeg',
-        altText: 'Werkblad voor kleuters sorteren - gratis printables voor cognitieve ontwikkeling',
-        pdfDownloadUrl: '/samples/dutch/picture-sort/sample-3.pdf',
-      },
-      {
-        id: '4',
-        worksheetSrc: '/samples/dutch/picture-sort/sample-4.jpeg',
-        answerKeySrc: '/samples/dutch/picture-sort/sample-4-answer.jpeg',
-        altText: 'Sorteer oefenbladen gratis - werkblad voor kinderen fijne motoriek en logisch denken',
-        pdfDownloadUrl: '/samples/dutch/picture-sort/sample-4.pdf',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Features Grid
@@ -151,110 +123,8 @@ De generator werkt in het Nederlands met volledige UI-ondersteuning. Alle labels
       noHiddenFees: 'Geen verborgen kosten',
       cancelAnytime: 'Altijd opzegbaar',
     },
-    items: [
-      {
-        id: '1',
-        icon: '⚡',
-        title: 'Gratis Werkblad voor Kinderen in 3 Klikken - Snelle Sorteer Generator',
-        description: `De sorteer generator werkt razendsnel. Kies twee thema's voor links en rechts categorieën. Klik op Genereren. Je werkblad verschijnt binnen seconden. Totale tijd van start tot download: minder dan 3 minuten. Dit is perfect voor drukke leerkrachten die weinig tijd hebben voor lesvoorbereiding.
-
-Selecteer bijvoorbeeld "Dieren" voor de linker categorie en "Voedsel" voor de rechter categorie. De generator vult automatisch je werkblad met geschikte afbeeldingen. Je leerlingen sorteren vervolgens honden, katten en vogels naar links en appels, brood en melk naar rechts. Het antwoordblad toont de juiste sortering.
-
-Je kunt ook handmatig afbeeldingen selecteren voor meer controle. Blader door de beeldbibliotheek georganiseerd per thema. Zoek naar specifieke afbeeldingen zoals "koe" of "banaan". Klik om toe te voegen aan je selectie. Wijs elke afbeelding toe aan links of rechts categorie. Maximaal 12 afbeeldingen per werkblad zorgen ervoor dat het niet overweldigend wordt voor jonge leerlingen.`,
-        highlighted: false,
-      },
-      {
-        id: '2',
-        icon: '✏️',
-        title: 'Gratis Werkbladen Bewerken - Werkblad voor Kleuters Canvas Aanpassing',
-        description: `Elk element op je sorteer werkblad is bewerkbaar. Dit geldt voor oefenbladen groep 3, werkbladen kleuters, rekenen werkbladen en alle andere werkbladtypen. Klik op een afbeelding om deze te selecteren. Sleep om te verplaatsen. Gebruik hoekhandvatten om grootte aan te passen. Roteer met het ronde handvat bovenaan. Verwijder met de Delete-toets.
-
-Deze volledige bewerkbaarheid maakt differentiatie makkelijk. Vergroot afbeeldingen voor kinderen met visuele problemen. Verklein afbeeldingen om meer uitdaging te bieden. Verplaats elementen naar verschillende posities voor gevarieerde werkbladen. Voeg extra tekst toe met specifieke instructies voor individuele leerlingen.
-
-De canvas editor ondersteunt ook lagen beheer. Breng objecten naar voren of achteren. Dit is handig wanneer je achtergrondafbeeldingen toevoegt onder je sorteerafbeeldingen. Centreer objecten horizontaal of verticaal met één klik. Lijn meerdere geselecteerde objecten uit. Deze professionele functies geven je volledige ontwerpcontrole.
-
-Ongedaan maken en opnieuw uitvoeren zijn altijd beschikbaar via Ctrl+Z en Ctrl+Y. Dit betekent dat je vrijelijk kunt experimenteren zonder zorgen over fouten. Probeer verschillende lay-outs totdat je de perfecte vindt. Je bewerkingsgeschiedenis blijft behouden gedurende de hele sessie.`,
-        highlighted: false,
-      },
-      {
-        id: '3',
-        icon: '📤',
-        title: 'Upload Eigen Afbeeldingen - Gratis Printables en Werkblad voor Kinderen',
-        description: `De upload functie accepteert JPEG, PNG en GIF bestandsformaten. Selecteer meerdere bestanden tegelijk voor snelle uploads. Je afbeeldingen blijven beschikbaar gedurende je huidige sessie. Combineer geüploade afbeeldingen met beeldbibliotheek afbeeldingen op hetzelfde werkblad.
-
-Deze functie is krachtig voor gepersonaliseerde letters leren en schrijven oefenen activiteiten. Upload foto's van objecten in je klaslokaal. Gebruik afbeeldingen van je leerlingen's favoriete dingen. Voeg foto's toe van lokale plekken die je leerlingen herkennen. Deze personalisatie verhoogt de betrokkenheid omdat kinderen verbinding maken met bekende afbeeldingen.
-
-Leerkrachten gebruiken deze functie ook voor specifieke vocabulaire sets. Upload afbeeldingen voor een weekeenheid over boerderijdieren. Voeg foto's toe voor een les over verkeersborden. Maak sorteer werkbladen met afbeeldingen van gezonde versus ongezonde voedingsmiddelen. De mogelijkheden zijn eindeloos.
-
-Je geüploade afbeeldingen verschijnen in een apart voorbeeldpaneel. Klik om toe te voegen aan je werkblad. Wijs toe aan linker of rechter categorie net als beeldbibliotheek afbeeldingen. De generator behandelt geüploade en bibliotheek afbeeldingen identiek voor consistente workflow.`,
-        highlighted: false,
-      },
-      {
-        id: '4',
-        icon: '🌍',
-        title: 'Gratis Werkblad in 11 Talen - Nederlands UI Voor Werkblad voor Kleuters',
-        description: `De sorteer generator werkt in 11 talen: Engels, Duits, Frans, Spaans, Italiaans, Portugees, Nederlands, Zweeds, Deens, Noors en Fins. Selecteer je taal en de volledige interface wijzigt onmiddellijk. Alle knoppen, labels, menu's en instructies verschijnen in je gekozen taal.
-
-Voor Nederlandse leerkrachten betekent dit geen Engelse taalbarrière. Klik op "Genereer Werkblad" in plaats van "Generate Worksheet". Lees "Afbeeldingen Uploaden" in plaats van "Upload Images". Dit versnelt je workflow omdat je niet hoeft te vertalen in je hoofd. Je werkt natuurlijk in je moedertaal.
-
-De taalfunctie beïnvloedt ook bestandsnamen in de beeldbibliotheek. Onze 3000+ afbeeldingen zijn gelabeld in elke taal. Zoek naar "hond" in het Nederlands en vind relevante dieren afbeeldingen. Dit maakt bladeren en selecteren veel sneller. Je hoeft geen Engelse termen te kennen voor specifieke objecten.
-
-Deze meertalige ondersteuning is vooral waardevol voor ESL-leerkrachten en tweetalige scholen. Maak sorteer werkbladen in Nederlands voor Nederlandse lessen. Schakel over naar Engels voor Engelse lessen. Gebruik dezelfde generator voor alle taalvakken zonder tussen tools te wisselen. Dit bespaart abonnementskosten op meerdere platforms.`,
-        highlighted: false,
-      },
-      {
-        id: '5',
-        icon: '💼',
-        title: 'Commerciële Licentie - Gratis Werkbladen voor Kinderen Verkopen',
-        description: `Je Volledige Toegang abonnement (€240 per jaar of €25 per maand) bevat volledige print-on-demand commerciële licentie. Verkoop je sorteer werkbladen op Teachers Pay Teachers. Open een Etsy winkel met printbare werkbladen. Publiceer werkbladen bundels op Amazon KDP. Geen extra licentiekosten vereist buiten je abonnement.
-
-Deze licentie dekt alle werkblad typen die je maakt: oefenbladen groep 3, werkbladen kleuters, rekenen werkbladen, kleurplaten, letters leren materialen, tafels oefenen werkbladen, fijne motoriek activiteiten en meer. Elke export in 300 DPI is klaar voor commerciële verkoop zonder attributie vereist.
-
-Veel leerkrachten verdienen €500-€5000 per maand met werkbladen verkoop. De sorteer werkbladen zijn populair op TPT omdat ouders zoeken naar cognitieve ontwikkeling activiteiten. Bundel 10 thematische sorteer werkbladen samen. Prijs tegen €3-€5 per bundel. Verkoop 50 bundels per maand = €150-€250 extra inkomen.
-
-De commerciële licentie betekent ook dat je werkbladen kunt opnemen in betaalde curricula. Schrijf een complete "Sorteren en Categoriseren" cursus met 30 werkbladen. Verkoop de cursus aan andere leerkrachten. Voeg sorteer werkbladen toe aan tutoring pakketten die je aan ouders verkoopt. Gebruik werkbladen in je betaalde educatieve workshops.`,
-        highlighted: true,
-      },
-      {
-        id: '6',
-        icon: '🎨',
-        title: '3000+ Afbeeldingen - Gratis Printables en Werkblad voor Kinderen Bibliotheek',
-        description: `De beeldbibliotheek bevat meer dan 3000 kinderlijke afbeeldingen georganiseerd per thema. Blader door categorieën zoals Dieren, Voedsel, Transport, Schoolbenodigdheden, Natuur en meer. Elk thema bevat tientallen afbeeldingen in consistente stijl. Dit maakt het makkelijk om visueel samenhangende werkbladen te maken.
-
-Alle afbeeldingen zijn ontworpen voor jonge leerlingen. Felle kleuren trekken de aandacht. Eenvoudige vormen zijn gemakkelijk herkenbaar. Geen enge of ongepaste afbeeldingen. Elke afbeelding is zorgvuldig geselecteerd voor kleuterschool tot groep 3 geschiktheid. Je werkbladen kleuters en oefenbladen groep 3 zien er altijd professioneel en kinderen vriendelijk uit.
-
-De zoekfunctie maakt vinden van specifieke afbeeldingen snel. Typ "fiets" om vervoer afbeeldingen te vinden. Zoek "appel" voor voedsel afbeeldingen. Zoek "hond" voor dieren afbeeldingen. Zoekresultaten verschijnen onmiddellijk. Dit is veel sneller dan handmatig door categorieën bladeren.
-
-Naast reguliere afbeeldingen bevat de bibliotheek ook achtergrond thema's en rand thema's. Voeg een seizoensgebonden achtergrond toe aan je werkbladen. Gebruik een leuke rand om je sorteer vakken visueel te definiëren. Deze decoratieve elementen maken werkbladen aantrekkelijker zonder extra ontwerpwerk.`,
-        highlighted: true,
-      },
-      {
-        id: '7',
-        icon: '🖨️',
-        title: 'Professionele 300 DPI - Gratis Werkblad Hoge Kwaliteit Export',
-        description: `Alle sorteer werkbladen exporteren in 300 DPI resolutie. Dit is professionele drukkwaliteit. Je werkbladen printen scherp en helder op elke printer. Afbeeldingen blijven crisp zonder pixelatie. Tekst blijft leesbaar zelfs in kleine lettergroottes. Dit kwaliteitsniveau maakt je werkbladen geschikt voor commerciële verkoop.
-
-Download je werkbladen in PDF of JPEG formaat. PDF behoudt vectorkwaliteit en is perfect voor printen. JPEG is kleiner bestandsgrootte en werkt goed voor digitale distributie. Beide formaten exporteren in volledige 300 DPI resolutie. Kies het formaat dat het beste past bij je behoeften.
-
-De grijswaarden optie bespaart printerinkt. Schakel de checkbox in voordat je downloadt. Je werkblad exporteert in zwart-wit. Perfect voor scholen met beperkte printbudgetten. De grijswaarden versie behoudt dezelfde 300 DPI kwaliteit maar gebruikt 60-80% minder inkt.
-
-Beide werkblad en antwoordblad downloaden onafhankelijk. Genereer je sorteer werkblad eerst. Download het. Schakel dan over naar het Antwoordblad tabblad. Download de oplossing. Dit geeft je flexibiliteit om alleen het werkblad af te drukken voor leerlingen en het antwoordblad apart te bewaren voor je eigen referentie.`,
-        highlighted: false,
-      },
-      {
-        id: '8',
-        icon: '🎯',
-        title: 'Werkblad voor Kinderen - Twee Categorieën Sorteren Links en Rechts',
-        description: `De sorteer generator maakt werkbladen met twee categorieën. Links en rechts sorteren is de kern van het werkblad. Kinderen beslissen voor elke afbeelding of deze naar de linker of rechter categorie behoort. Dit eenvoudige format bouwt fundamentele classificatie vaardigheden op die essentieel zijn voor wiskunde en wetenschap.
-
-Elke categorie kan een thema vertegenwoordigen. Sorteer dieren versus planten. Sorteer groot versus klein. Sorteer levend versus niet-levend. De thematische flexibiliteit betekent dat je sorteer werkbladen kunt maken voor elk lesdoel. Van wetenschap tot taal tot sociale vaardigheden.
-
-Het twee-categorieën systeem is perfect voor jonge leerlingen. Niet te complex, niet te simpel. Kinderen kunnen de taak begrijpen na één demonstratie. Toch is er genoeg uitdaging om logisch denken te stimuleren. De zoektocht naar patronen en overeenkomsten tussen objecten ontwikkelt kritische denkvaardigheden.
-
-De generator ondersteunt ook labels voor elke categorie. Voeg tekst toe boven het linker vak dat de categorie naam toont. Voeg tekst toe boven het rechter vak. Deze labels helpen kinderen de sorteercriteria te begrijpen. Perfect voor zelfstandig werk waar leerkrachten niet bij elk kind kunnen staan om instructies te geven.`,
-        highlighted: false,
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // How-To Guide
@@ -346,92 +216,8 @@ Voordat je downloadt overweeg je de grijswaarden optie. Schakel de "Grijswaarden
     badgeText: 'Voor wie',
     readMoreLabel: 'Lees meer',
     showLessLabel: 'Minder tonen',
-    items: [
-      {
-        id: '1',
-        icon: '👶',
-        title: 'Kleuterleerkrachten Groep 1 2 - Werkbladen Kleuters Voor Fijne Motoriek en Cognitieve Ontwikkeling',
-        subtitle: 'Gratis werkblad voor kleuters in kleuterklas',
-        description: `Kleuterleerkrachten in groep 1 en groep 2 gebruiken sorteer werkbladen voor fundamentele classificatie vaardigheden. Jonge kinderen van 4-6 jaar leren objecten te groeperen op basis van gemeenschappelijke kenmerken. Dit cognitieve ontwikkeling is essentieel voor latere wiskunde en wetenschap concepten. Sorteren is een pre-math vaardigheid die telt, vergelijkt en patronen herkent ondersteunt.
-
-Maak werkbladen kleuters die dieren sorteren van voedsel. Grote, heldere afbeeldingen zijn gemakkelijk herkenbaar voor jonge leerlingen. Gebruik minder afbeeldingen (6-8 totaal) om overweldiging te voorkomen. Grotere afbeeldingsgroottes maken het gemakkelijker voor kleine handjes om te wijzen en aanwijzen. Deze aanpassingen zorgen voor succes bij de jongste leerlingen.
-
-Sorteer werkbladen ontwikkelen ook fijne motoriek vaardigheden. Kinderen knippen afbeeldingen uit en plakken ze in de juiste categorieën. Dit schaar en lijm werk bouwt handspier kracht op die nodig is voor schrijven. Combineer sorteer werkbladen met kleurplaten voor complete fijne motoriek lessen. Leerlingen sorteren eerst, dan kleuren de afbeeldingen in hun categorievakken.
-
-De generator maakt thematische sorteer werkbladen die aansluiten bij je curriculum. Maak "levend versus niet-levend" werkbladen voor wetenschap. Creëer "gezond versus ongezond voedsel" voor gezondheid onderwijs. Ontwikkel "groot versus klein" werkbladen voor grootte concepten. Deze thematische verbindingen versterken leerdoelen terwijl sorteer vaardigheden worden geoefend.`,
-        quote: 'Mijn kleuters vragen zelf om meer sorteer werkbladen!',
-      },
-      {
-        id: '2',
-        icon: '📚',
-        title: 'Basisschool Leerkrachten Groep 3 4 5 - Rekenen Werkbladen en Letters Leren Voor Hogere Niveaus',
-        subtitle: 'Gratis werkbladen voor kinderen rekenen',
-        description: `Leerkrachten in groep 3, groep 4 en groep 5 (leeftijden 6-9 jaar) gebruiken sorteer werkbladen voor meer geavanceerde classificatie. Oudere leerlingen sorteren op basis van meerdere kenmerken. Abstract categorieën zoals "levensbehoeften" versus "wensen". Grammaticale categorieën zoals "zelfstandige naamwoorden" versus "werkwoorden". Wiskundige concepten zoals "even versus oneven getallen".
-
-Rekenen werkbladen met sorteer activiteiten versterken wiskundige classificatie. Sorteer getallen tot 20 in even en oneven. Sorteer vormen in 2D en 3D. Sorteer breuken in groter dan half en kleiner dan half. Deze sommen tot 20 werkbladen maken abstract denken concreet door visuele categorisering.
-
-Letters leren profiteert van sorteer werkbladen. Sorteer woorden op beginklank. Sorteer afbeeldingen op eindklank. Sorteer woorden in korte en lange klinkers. Deze veilig leren lezen activiteiten bouwen fonologisch bewustzijn dat nodig is voor leesvaardigheid. Combineer met schrijven oefenen door leerlingen gesorteerde woorden te laten opschrijven.
-
-Tafels oefenen wordt boeiender met sorteer werkbladen. Sorteer vermenigvuldiging problemen in "antwoord kleiner dan 50" en "antwoord groter dan 50". Sorteer deling problemen in "gehele getal antwoord" en "rest antwoord". Dit classificeren versterkt number sense terwijl tafels worden geoefend.`,
-        quote: 'Mijn leerlingen vragen zelf om rekendoolhoven - dat zegt genoeg!',
-      },
-      {
-        id: '3',
-        icon: '🏠',
-        title: 'Thuisonderwijs Ouders - Werkbladen Kleuters en Werkbladen Groep 3 Voor Meerdere Kinderen',
-        subtitle: 'Gratis werkblad voor kinderen thuis',
-        description: `Thuisonderwijs ouders hebben vaak kinderen in verschillende leeftijden. De sorteer generator maakt differentiatie makkelijk. Maak werkbladen kleuters voor je 5-jarige. Maak werkbladen groep 3 voor je 7-jarige. Gebruik hetzelfde thema maar pas moeilijkheid aan. Beide kinderen werken aan "dieren sorteren" maar op hun eigen niveau.
-
-Voor jongere kinderen gebruik je grote afbeeldingen en brede categorieën. "Huisdieren versus wilde dieren" met 6 afbeeldingen totaal. Voor oudere kinderen gebruik je kleinere afbeeldingen en specifiekere categorieën. "Zoogdieren versus reptielen" met 12 afbeeldingen. Beide werkbladen nemen dezelfde tijd om te maken maar dienen verschillende leerniveaus.
-
-Thuisonderwijs ouders waarderen ook commerciële licentie. Maak sorteer werkbladen bundels en verkoop op Teachers Pay Teachers. Verdien €300-€1000 per maand terwijl je je eigen kinderen onderwijst. Gebruik dezelfde werkbladen die je voor je kinderen maakt. Upload naar TPT en genereer passief inkomen. Je Volledige Toegang abonnement betaalt zichzelf terug in 2-3 maanden verkoop.
-
-De generator bespaart ook voorbereidingstijd. Thuisonderwijs ouders leiden meerdere vakken voor meerdere kinderen. Elke minuut telt. Maak een week sorteer werkbladen in 20 minuten op zondag. Print ze allemaal. Gebruik ze als zelfstandig werk tijdens de week terwijl je één-op-één werkt met een ander kind. Deze efficiëntie is essentieel voor thuisonderwijs succes.`,
-        quote: 'Mijn kinderen vragen zelf om meer sorteer werkbladen!',
-      },
-      {
-        id: '4',
-        icon: '🌐',
-        title: 'ESL en Meertalige Leerkrachten - Woordenschat Met Kleurplaten en Fijne Motoriek Oefenbladen',
-        subtitle: 'Gratis printables werkblad voor kinderen NT2',
-        description: `ESL-leerkrachten en meertalige scholen gebruiken sorteer werkbladen voor visuele vocabulaire instructie. Afbeeldingen ondersteunen woordbegrip zonder vertaling nodig. Leerlingen zien een hond afbeelding en leren het Nederlandse woord "hond" in context. Sorteren vereist begrip niet alleen memorisatie.
-
-De 11 talen functie is krachtig voor tweetalig onderwijs. Maak sorteer werkbladen in Nederlands voor Nederlandse lessen. Schakel de UI over naar Engels voor Engelse lessen. Gebruik dezelfde afbeeldingen maar met verschillende taal instructies. Leerlingen bouwen vocabulaire in beide talen op door herhaalde blootstelling aan dezelfde concepten.
-
-Sorteer werkbladen onderwijzen categoriewoorden essentieel voor taalverwerving. "Voedsel", "kleding", "vervoer", "dieren" - deze categorieën zijn fundamentele vocabulaire groepen. Leerlingen leren niet alleen individuele woorden maar ook hoe woorden gerelateerd zijn. Dit semantisch netwerk versnelt taalverwerving.
-
-Combineer sorteer werkbladen met kleurplaten voor complete ESL lessen. Leerlingen sorteren eerst afbeeldingen en labelen categorieën in Nederlands. Dan kleuren ze afbeeldingen in terwijl ze vocabulaire herhalen. De fijne motoriek kleuractiviteit versterkt woordretentie door multi-sensorische betrokkenheid. Motoriek en taal leren combineren voor dieper begrip.`,
-        quote: 'De meertalige ondersteuning is perfect voor mijn internationale klas.',
-      },
-      {
-        id: '5',
-        icon: '🧒',
-        title: 'Speciaal Onderwijs Leerkrachten - Aangepaste Oefenbladen Gratis Voor Individuele Behoeften',
-        subtitle: 'Gratis werkblad voor kleuters speciaal onderwijs',
-        description: `Speciaal onderwijs leerkrachten passen sorteer werkbladen aan voor diverse behoeften. Vergroot afbeeldingen voor visueel gehandicapte leerlingen. Verminder afbeeldinghoeveelheden voor leerlingen met aandacht uitdagingen. Versimpel categorieën voor cognitieve ontwikkelingsniveaus. De volledige aanpasbaarheid ondersteunt echt gedifferentieerde instructie.
-
-Voor leerlingen met fijne motoriek uitdagingen maak je werkbladen met grotere afbeeldingen verder uit elkaar. Dit maakt knippen en plakken makkelijker. Of schakel naar digitaal gebruik - leerlingen cirkelen categorieën in plaats van knippen. De flexibiliteit ondersteunt alle fysieke capaciteiten.
-
-Leerlingen op het autisme spectrum profiteren van de visuele structuur van sorteer werkbladen. Duidelijke categorieën en concrete afbeeldingen passen bij visuele leren voorkeuren. Voorspelbare formaat vermindert angst. Herhaling van sorteer activiteiten bouwt routine dat comfort geeft. Deze structuur ondersteunt leren voor neurodiverse leerlingen.
-
-De generator maakt ook sociale vaardigheden werkbladen. Sorteer gezichtsuitdrukkingen in "blij versus verdrietig". Sorteer sociale situaties in "veilig versus onveilig". Sorteer passend gedrag versus onpassend gedrag. Deze sociale-emotionele leren werkbladen ondersteunen IEP-doelstellingen buiten academica.`,
-        quote: 'De aanpasbaarheid maakt differentiatie zo veel eenvoudiger.',
-      },
-      {
-        id: '6',
-        icon: '💰',
-        title: 'Onderwijs Ondernemers - Verkoop Rekenen Werkbladen en Tafels Oefenen Bundels Online',
-        subtitle: 'Gratis werkbladen verkopen met licentie',
-        description: `Onderwijs ondernemers gebruiken de sorteer generator om inkomsten te genereren. Maak thematische sorteer werkbladen bundels. Verkoop op Teachers Pay Teachers, Etsy of je eigen website. Volledige Toegang abonnement bevat commerciële print-on-demand licentie. Geen extra licentiekosten. Begin met verkopen onmiddellijk.
-
-Sorteer werkbladen bundels verkopen goed omdat leerkrachten meerdere variaties willen. Maak een "Dieren Classificatie" bundel met 10 verschillende sorteer werkbladen. Prijs tegen €4-€6. Verkoop 30 bundels per maand = €120-€180 inkomen. Schaal naar meerdere bundels voor €500+ maandelijks. Veel TPT-verkopers verdienen voltijds inkomen.
-
-Seizoensgebonden sorteer bundels presteren bijzonder goed. "Herfst Sorteren" bundel in september. "Winter Sorteren" bundel in november. "Lente Sorteren" bundel in maart. Leerkrachten kopen seizoensgebonden materialen elk jaar. Eenmaal gemaakte bundels verkopen jaar na jaar zonder extra werk.
-
-De commerciële licentie dekt ook bundel in curricula. Schrijf een complete "Vroege Classificatie Vaardigheden" cursus met 20 sorteer werkbladen. Verkoop de cursus voor €15-€25. Target thuisonderwijs ouders en privé tutors. Voeg instructie gidsen en antwoordbladen toe voor premium prijzen. Je sorteer werkbladen worden de basis voor grotere educatieve producten.`,
-        quote: 'Mijn abonnement heeft zichzelf terugverdiend in de eerste maand!',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // FAQ Section
@@ -445,68 +231,8 @@ De commerciële licentie dekt ook bundel in curricula. Schrijf een complete "Vro
     showLessLabel: 'Minder tonen',
     secureCheckout: 'Veilig betalen',
     cancelAnytime: 'Altijd opzegbaar',
-    items: [
-      {
-        id: '1',
-        question: 'Is Deze Sorteer Generator Echt Gratis Werkblad voor Kinderen en Werkblad voor Kleuters?',
-        answer: 'De sorteer werkbladen generator vereist een Volledige Toegang abonnement dat €240 per jaar of €25 per maand kost. Je abonnement geeft je onbeperkte sorteer werkblad creatie zonder kosten per werkblad. Genereer zoveel werkbladen kleuters en werkbladen groep 3 als je nodig hebt zonder extra kosten. Maak 10 werkbladen of 1000 werkbladen - de prijs blijft hetzelfde. Volledige Toegang bevat alle 33 werkbladen generators inclusief sorteer, rekenen werkbladen, kleurplaten, tafels oefenen, letters leren en meer. Basispakket kost €144 per jaar en bevat 10 populaire generators maar niet de sorteer generator. Volledige Toegang voor €240 per jaar geeft je toegang tot alle apps inclusief sorteer werkbladen.',
-      },
-      {
-        id: '2',
-        question: 'Kan Ik Gratis Werkbladen en Werkblad voor Kinderen Thuis Printen?',
-        answer: 'Ja. Alle sorteer werkbladen downloaden als PDF of JPEG bestanden. Open de PDF op je computer. Klik op Print in je PDF viewer. Selecteer je thuisprinter. De werkbladen printen op standaard A4 of Letter papier. Elke thuisprinter werkt - inkjet of laser, kleur of zwart-wit. De 300 DPI exportresolutie zorgt voor scherpe prints op elke printer. Afbeeldingen blijven helder. Tekst blijft leesbaar. Lijnen printen crisp zonder pixelatie. Deze professionele kwaliteit werkt zelfs op goedkope thuisprinters. Je hebt geen speciale printer nodig. Gebruik de grijswaarden optie om inkt te besparen.',
-      },
-      {
-        id: '3',
-        question: 'Heb Ik Ontwerpvaardigheden Nodig Voor Gratis Werkblad voor Kinderen?',
-        answer: 'Nee. De sorteer generator is ontworpen voor leerkrachten zonder ontwerpervaring. Geen Photoshop kennis vereist. Geen graphic design achtergrond nodig. Als je een browser kunt gebruiken kun je professionele werkbladen maken. De interface is intuïtief met Nederlandse labels en tooltips. Kies je categorieën uit dropdowns. Selecteer afbeeldingen met muisklikken. Klik op Genereren en je werkblad verschijnt. Download en print. Het hele proces gebruikt basis computerskills die elke leerkracht al heeft. Vergelijkbaar met het gebruiken van email of Google Docs.',
-      },
-      {
-        id: '4',
-        question: 'Kan Ik Gratis Werkbladen en Werkblad voor Kleuters Gebruiken in Mijn Klas?',
-        answer: 'Ja. Volledige Toegang abonnement bevat onbeperkt klasgebruik. Print zoveel kopieën als je nodig hebt voor je leerlingen. Gebruik werkbladen voor hele klas lessen. Gebruik ze voor kleine groep instructie. Gebruik ze voor individueel werk. Gebruik ze als huiswerk. Gebruik ze als centrumsactiviteiten. Geen beperkingen op klasgebruik. Je abonnement dekt ook meerdere klassen. Als je groep 3 en groep 4 onderwijst maak dan werkbladen voor beide klassen. Geen limiet op aantal werkbladen of aantal klassen. Eén abonnement dekt al je onderwijsbehoeften.',
-      },
-      {
-        id: '5',
-        question: 'Welke Talen Zijn Beschikbaar Voor Gratis Werkblad voor Kinderen?',
-        answer: 'De sorteer generator werkt in 11 talen. Engels, Duits, Frans, Spaans, Italiaans, Portugees (Braziliaans), Nederlands, Zweeds, Deens, Noors en Fins. Selecteer je taal in de instellingen en de volledige interface wijzigt onmiddellijk. Alle knoppen, labels en instructies verschijnen in je gekozen taal. De taalfunctie beïnvloedt ook afbeelding bestandsnamen in de bibliotheek. Zoek naar "hond" in Nederlands en vind relevante dieren afbeeldingen. Zoek naar "dog" in Engels voor dezelfde afbeeldingen. Deze gelokaliseerde zoekfunctie werkt in alle 11 talen.',
-      },
-      {
-        id: '6',
-        question: 'Kan Ik Gratis Werkbladen en Printables Verkopen Die Ik Maak?',
-        answer: 'Ja. Volledige Toegang abonnement bevat volledige print-on-demand commerciële licentie zonder extra kosten. Verkoop sorteer werkbladen op Teachers Pay Teachers, Etsy, je eigen website of Amazon KDP. Geen extra licentie vergoedingen vereist buiten je €240 jaarlijkse abonnement. Geen attributie vereist. Geen watermerken. De commerciële licentie dekt alle werkbladtypen die je maakt inclusief kleurplaten, tafels oefenen materialen, rekenen werkbladen, letters leren activiteiten en meer. Elke 300 DPI export is klaar voor commerciële verkoop. Je behoudt volledige rechten op je gecreëerde werkbladen.',
-      },
-      {
-        id: '7',
-        question: 'Hoe Pas Ik Gratis Werkblad voor Kinderen Aan Voor Mijn Leerlingen?',
-        answer: 'Volledige aanpassing is de kern functie van de sorteer generator. Selecteer specifieke afbeeldingen die passen bij je les. Upload eigen foto\'s die relevant zijn voor je leerlingen. Wijzig paginagroottes voor verschillende formaten. Voeg aangepaste tekst toe met specifieke instructies. Pas kleuren aan voor visuele voorkeur. De canvas editor laat je lay-outs wijzigen na generatie. Vergroot afbeeldingen voor visueel gehandicapte leerlingen. Verklein afbeeldingen voor meer uitdaging. Voeg extra witruimte toe voor notities. Verplaats elementen voor betere visuele flow.',
-      },
-      {
-        id: '8',
-        question: 'Voor Welke Leeftijden Werken Werkblad voor Kleuters Sorteer Werkbladen Het Beste?',
-        answer: 'Sorteer werkbladen werken het beste voor kleuters tot groep 5 (leeftijden 4-10 jaar). Jonge kleuters (groep 1-2, leeftijden 4-6) profiteren van eenvoudige categorieën met grote afbeeldingen. Oudere leerlingen (groep 3-5, leeftijden 6-9) verwerken complexere classificatie met meer afbeeldingen. Pas moeilijkheid aan door afbeeldinghoeveelheid en categoriecomplexiteit te wijzigen. Jonge leerlingen (4-6 jaar) hebben 6-8 afbeeldingen per werkblad nodig. Grotere afbeeldingsgroottes voorkom overweldiging. Oudere leerlingen (7-10 jaar) verwerken 10-12 afbeeldingen.',
-      },
-      {
-        id: '9',
-        question: 'Kan Ik Eigen Afbeeldingen Uploaden Voor Gratis Werkblad voor Kinderen?',
-        answer: 'Ja. De upload functie accepteert JPEG, PNG en GIF bestandsformaten. Klik op "Kies bestanden" in het Upload paneel. Selecteer meerdere afbeeldingen tegelijk van je computer. Je afbeeldingen uploaden binnen seconden. Ze blijven beschikbaar gedurende je huidige sessie. Combineer geüploade afbeeldingen met beeldbibliotheek afbeeldingen op hetzelfde werkblad. Upload foto\'s van objecten in je klaslokaal. Upload afbeeldingen van lokale plekken in je stad. Upload cultureel relevante afbeeldingen voor diverse leerlingen.',
-      },
-      {
-        id: '10',
-        question: 'Hoe Lang Duurt Het Om Gratis Werkbladen en Werkblad voor Kinderen Te Maken?',
-        answer: 'Het maken van sorteer werkbladen duurt minder dan 3 minuten van begin tot eind. Stap 1: Kies categorieën (30 seconden). Stap 2: Pas instellingen aan (30 seconden). Stap 3: Klik Genereren (5 seconden). Stap 4: Bewerk op canvas indien nodig (60 seconden). Stap 5: Download (10 seconden). Totale tijd: 2-3 minuten per werkblad. Deze snelheid is transformatief vergeleken met handmatig werkbladen maken. Traditionele methoden nemen 30-60 minuten per werkblad. De generator vermindert dit met 90%.',
-      },
-      {
-        id: '11',
-        question: 'Bevatten Gratis Werkbladen Antwoordbladen Voor Werkblad voor Kinderen?',
-        answer: 'Ja. Elke sorteer werkblad heeft een bijbehorend antwoordblad. Klik op "Creëer Antwoordblad" in het Genereer dropdown menu. Het antwoordblad toont dezelfde afbeeldingen maar in hun correcte gesorteerde posities. Dit geeft je een referentie voor het beoordelen van leerlingen werk. Of geef het antwoordblad aan leerlingen voor zelfcontrole activiteiten. Het antwoordblad tabblad laat je het antwoordblad onafhankelijk bekijken en bewerken. Beide versies gebruiken dezelfde pagina-instellingen. Beide downloaden onafhankelijk.',
-      },
-      {
-        id: '12',
-        question: 'Kan Ik Vakspecifieke Gratis Werkblad voor Kinderen en Werkblad voor Kleuters Maken?',
-        answer: 'Ja. De sorteer generator werkt voor alle vakgebieden. Rekenen werkbladen die getallen classificeren. Letters leren werkbladen die woorden sorteren op fonemen. Wetenschaps werkbladen die levend versus niet-levend sorteren. Sociale studies werkbladen die historische perioden classificeren. Taal werkbladen die woordsoorten sorteren. Elke vak dat classificatie gebruikt profiteert van sorteer werkbladen. De 3000+ plaatjes bibliotheek bevat thematische categorieën voor bijna elk schoolonderwerp.',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Pricing - Full Access pricing
@@ -576,56 +302,8 @@ De commerciële licentie dekt ook bundel in curricula. Schrijf een complete "Vro
       securePayment: 'Veilig betalen',
       cancelAnytime: 'Altijd opzegbaar',
     },
-    items: [
-      {
-        id: '1',
-        slug: 'matching-app',
-        name: 'Verbindingswerkbladen',
-        category: 'Visueel Leren',
-        icon: '🔗',
-        description: 'Combineer sorteer werkbladen met verbindingswerkbladen voor complete visuele training. Beide tools ontwikkelen logisch denken en classificatie vaardigheden.',
-      },
-      {
-        id: '2',
-        slug: 'coloring',
-        name: 'Kleurplaten',
-        category: 'Creativiteit',
-        icon: '🎨',
-        description: 'Na het sorteren kunnen kinderen de afbeeldingen inkleuren. Combineer sorteer activiteiten met kleurplaten voor complete fijne motoriek lessen.',
-      },
-      {
-        id: '3',
-        slug: 'image-addition',
-        name: 'Optellen',
-        category: 'Rekenen',
-        icon: '➕',
-        description: 'Combineer sorteren met rekenvaardigheden. Maak sorteer werkbladen met wiskundige thema\'s voor sommen tot 20 oefening.',
-      },
-      {
-        id: '4',
-        slug: 'big-small',
-        name: 'Groot en Klein',
-        category: 'Logisch Denken',
-        icon: '📏',
-        description: 'Sorteer werkbladen en groot-klein werkbladen vullen elkaar perfect aan. Beide bouwen vergelijking en classificatie vaardigheden op.',
-      },
-      {
-        id: '5',
-        slug: 'odd-one-out',
-        name: 'Welke Hoort Niet',
-        category: 'Logisch Denken',
-        icon: '🔍',
-        description: 'Combineer categoriseren met identificeren wat niet past. Beide tools bouwen kritisch denken en classificatie vaardigheden op.',
-      },
-      {
-        id: '6',
-        slug: 'picture-path',
-        name: 'Doolhof Werkbladen',
-        category: 'Fijne Motoriek',
-        icon: '🗺️',
-        description: 'Sorteer werkbladen en doolhof werkbladen combineren cognitieve uitdaging met fijne motoriek ontwikkeling. Perfecte combinatie voor kleuters.',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 };
 

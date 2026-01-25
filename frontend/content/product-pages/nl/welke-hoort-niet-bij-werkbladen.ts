@@ -100,36 +100,8 @@ Onze generator biedt twee verschillende modiussen voor gevarieerde oefeningen. D
     badgeText: 'Gratis Voorbeelden',
     downloadingLabel: 'Downloaden...',
     ofLabel: 'van',
-    items: [
-      {
-        id: '1',
-        worksheetSrc: '/samples/dutch/odd-one-out/sample-1.jpeg',
-        answerKeySrc: '/samples/dutch/odd-one-out/sample-1-answer.jpeg',
-        altText: 'Gratis werkblad welke hoort niet bij - visuele discriminatie werkblad voor kinderen en kleuters',
-        pdfDownloadUrl: '/samples/dutch/odd-one-out/sample-1.pdf',
-      },
-      {
-        id: '2',
-        worksheetSrc: '/samples/dutch/odd-one-out/sample-2.jpeg',
-        answerKeySrc: '/samples/dutch/odd-one-out/sample-2-answer.jpeg',
-        altText: 'Gratis werkbladen welke hoort niet bij - werkblad voor kleuters visuele discriminatie',
-        pdfDownloadUrl: '/samples/dutch/odd-one-out/sample-2.pdf',
-      },
-      {
-        id: '3',
-        worksheetSrc: '/samples/dutch/odd-one-out/sample-3.jpeg',
-        answerKeySrc: '/samples/dutch/odd-one-out/sample-3-answer.jpeg',
-        altText: 'Welke hoort niet bij gratis printables - werkblad voor kinderen categorisatie oefeningen',
-        pdfDownloadUrl: '/samples/dutch/odd-one-out/sample-3.pdf',
-      },
-      {
-        id: '4',
-        worksheetSrc: '/samples/dutch/odd-one-out/sample-4.jpeg',
-        answerKeySrc: '/samples/dutch/odd-one-out/sample-4-answer.jpeg',
-        altText: 'Gratis werkblad voor kleuters welke hoort niet bij - visuele discriminatie oefenbladen',
-        pdfDownloadUrl: '/samples/dutch/odd-one-out/sample-4.pdf',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Features Grid - FULL text from odd-one-out.md feature sections
@@ -145,96 +117,8 @@ Onze generator biedt twee verschillende modiussen voor gevarieerde oefeningen. D
       noHiddenFees: 'Geen verborgen kosten',
       cancelAnytime: 'Altijd opzegbaar',
     },
-    items: [
-      {
-        id: '1',
-        icon: '⚡',
-        title: 'Maak Gratis Werkblad in 3 Klikken - Snelle Generator voor Werkblad voor Kinderen',
-        description: `De generator maakt het creëren van werkbladen eenvoudig en snel. Kies een thema uit de bibliotheek of selecteer individuele afbeeldingen. Klik op genereren en je werkblad verschijnt direct. Geen ingewikkelde stappen of technische kennis vereist. Perfect voor drukke leerkrachten die snel werkbladen groep 3 nodig hebben.
-
-De themagebaseerde selectie versnelt het werkproces aanzienlijk. Kies dieren, voertuigen, fruit of seizoenen met één klik. De generator vult automatisch vier afbeeldingen in per oefening. Je bespaart minuten per werkblad vergeleken met handmatig zoeken. Ideaal voor het maken van meerdere oefenbladen gratis van tijdverlies.
-
-Je kunt kiezen tussen 5 tot 10 oefeningen per werkblad. Pas het aantal aan voor verschillende leeftijdsgroepen. Groep 1 2 werkbladen kunnen korter zijn met 5 oefeningen. Werkbladen voor groep 3 kunnen uitdagender zijn met 10 oefeningen. Deze flexibiliteit maakt differentiatie eenvoudig.`,
-        highlighted: false,
-      },
-      {
-        id: '2',
-        icon: '✏️',
-        title: 'Bewerk Alles op Je Canvas - Werkblad voor Kleuters Volledig Aanpasbaar',
-        description: `Elk element op het canvas is volledig bewerkbaar. Sleep afbeeldingen naar een andere positie met je muis. Verklein of vergroot afbeeldingen door te slepen aan de hoeken. Roteer elementen voor een levendiger ontwerp. Deze flexibiliteit is essentieel voor werkbladen kleuters die aantrekkelijk moeten zijn.
-
-Verwijder afbeeldingen die niet perfect passen met één klik. Vervang ze met andere afbeeldingen uit de bibliotheek. Voeg extra tekst toe voor instructies of namen. Pas lettertypes en kleuren aan voor optimale leesbaarheid. Alle aanpassingen gebeuren in real-time op het canvas.
-
-De ongedaan maken en opnieuw functie geeft je vrijheid om te experimenteren. Probeer verschillende lay-outs zonder angst voor fouten. Elk werkblad wordt precies zoals jij het wilt. Perfect voor het maken van gepersonaliseerde oefenbladen voor specifieke leerlingen. Deze editeerbare functie bespaart uren herwerk.`,
-        highlighted: false,
-      },
-      {
-        id: '3',
-        icon: '📤',
-        title: 'Upload Eigen Afbeeldingen voor Gratis Werkbladen en Gratis Printables',
-        description: `Upload je eigen afbeeldingen in alle gangbare formaten. JPEG, PNG en GIF bestanden worden allemaal ondersteund. Selecteer meerdere bestanden tegelijk voor snellere uploads. Je geüploade afbeeldingen verschijnen direct in je sessie. Combineer ze met bibliotheek afbeeldingen voor unieke werkbladen.
-
-Deze functie is waardevol voor thematisch onderwijs en projecten. Upload foto's van schooluitstapjes voor gepersonaliseerde oefeningen. Voeg afbeeldingen toe die aansluiten bij je lesmethode. Maak werkbladen die perfect passen bij Veilig Leren Lezen themas. Combineer met rekenen werkbladen voor geïntegreerde lessen.
-
-Geüploade afbeeldingen blijven beschikbaar tijdens je sessie. Gebruik dezelfde afbeelding in meerdere werkbladen. Creëer consistentie in je lesmateriaal. Upload klasfoto's of studentenwerk voor extra motivatie. Leerlingen herkennen vertrouwde afbeeldingen en raken meer betrokken.`,
-        highlighted: false,
-      },
-      {
-        id: '4',
-        icon: '🌍',
-        title: '11 Talen Ondersteuning - Gratis Werkblad voor Kinderen in Meerdere Talen',
-        description: `De generator ondersteunt 11 verschillende talen voor de gebruikersinterface. Nederlands, Engels, Duits, Frans, Spaans, Italiaans, Portugees zijn beschikbaar. Ook Zweeds, Deens, Noors en Fins voor internationale scholen. Schakel tussen talen met één klik in het instellingenmenu.
-
-Deze meertalige ondersteuning is cruciaal voor tweetalig onderwijs. Maak werkbladen voor ESL lessen en vreemde talen. Gebruik dezelfde generator voor Nederlands en Engels. Perfect voor internationale scholen met diverse leerlingpopulaties. Ook handig voor letters leren en schrijven oefenen in verschillende talen.
-
-De afbeeldingen bibliotheek werkt in alle talen. Thema's zijn universeel herkenbaar voor alle culturen. Instructies en menu's verschijnen in de gekozen taal. Leerlingen kunnen zelfstandig werken in hun voorkeurstaal. Dit vergroot de toegankelijkheid van je oefenbladen gratis.`,
-        highlighted: false,
-      },
-      {
-        id: '5',
-        icon: '💼',
-        title: 'Commerciële Licentie voor Gratis Werkbladen en Werkblad voor Kinderen Verkopen',
-        description: `Je Volledige Toegang abonnement bevat een volledige print-on-demand licentie. Verkoop je gemaakte werkbladen op Teachers Pay Teachers. Publiceer werkbladen bundles op Etsy zonder extra licentiekosten. Upload naar Amazon KDP voor passief inkomen. De commerciële licentie is inbegrepen zonder toeslagen.
-
-Veel leerkrachten verdienen €500 tot €5000 per maand met werkbladen verkoop. Maak tafels oefenen werkbladen die populair zijn bij ouders. Creëer sommen tot 20 bundels voor thuisonderwijs gezinnen. Voeg fijne motoriek oefeningen toe aan je productcatalogus. De professionele 300 DPI kwaliteit maakt verkoop mogelijk.
-
-Je hebt geen toestemming nodig om individuele werkbladen te verkopen. Maak onbeperkt producten voor je online shop. Combineer verschillende werkblad types in één bundel. Deze licentie bespaart je €100 tot €200 per jaar vergeleken met concurrenten. Start vandaag nog met je leerkracht ondernemerschap.`,
-        highlighted: true,
-      },
-      {
-        id: '6',
-        icon: '🎨',
-        title: '3000+ Afbeeldingen Bibliotheek - Werkblad voor Kleuters en Gratis Printables',
-        description: `De bibliotheek bevat meer dan 3000 kindvriendelijke afbeeldingen. Alle afbeeldingen zijn georganiseerd in thematische categorieën. Dieren, voertuigen, fruit, groenten, seizoenen en meer. Zoek specifieke afbeeldingen met de zoekfunctie. Klik op een afbeelding om deze toe te voegen aan je oefening.
-
-Thema selectie maakt het kiezen van afbeeldingen supersnel. Selecteer het dieren thema en zie honderden dieren afbeeldingen. Kies het voertuigen thema voor auto's, vliegtuigen en treinen. Deze organisatie bespaart tijd bij het maken van werkbladen kleuters. Vind perfect passende afbeeldingen in seconden.
-
-Alle achtergronden en decoratieve randen zijn ook inbegrepen. Voeg kleurrijke achtergronden toe zonder extra kosten. Selecteer seizoen gebonden randen voor feestdagen. Deze visuele materialen maken werkbladen aantrekkelijker. Leerlingen werken liever met visueel aantrekkelijke oefenbladen. Geen extra kosten voor clipart zoals bij concurrenten.`,
-        highlighted: true,
-      },
-      {
-        id: '7',
-        icon: '🖨️',
-        title: 'Professionele 300 DPI Kwaliteit - Download Gratis Werkblad voor Kleuters',
-        description: `Download je werkbladen in professionele 300 DPI resolutie. Perfect voor printen op elke printer thuis of op school. Kies tussen JPEG en PDF formaten voor flexibiliteit. PDF behoudt perfecte kwaliteit bij elk zoomniveau. JPEG bestanden zijn kleiner voor snellere downloads.
-
-De grijswaarden optie bespaart printer inkt aanzienlijk. Converteer kleurrijke werkbladen naar grijstinten met één klik. Behoud de duidelijkheid terwijl je inktkosten verlaagt. Perfect voor scholen met beperkte budgetten. Ouders waarderen deze kostenbesparende optie.
-
-Elk werkblad bevat ook een automatisch gegenereerde antwoordsleutel. De odd one out is gemarkeerd in de antwoordsleutel. Bespaar tijd met nakijken en beoordelen. Geef antwoordsleutels aan oudere leerlingen voor zelfstandig werk. Deze professionele details maken je werkbladen compleet.`,
-        highlighted: false,
-      },
-      {
-        id: '8',
-        icon: '🎯',
-        title: 'Twee Verschillende Modiussen - Identiek en Vergelijkbaar voor Differentiatie',
-        description: `De identieke modus toont drie identieke afbeeldingen plus één licht verschillende afbeelding. Bijvoorbeeld drie rode appels en één groene appel. Perfect voor jonge leerlingen die subtiele verschillen leren herkennen. Focus op details en observatievaardigheden.
-
-De vergelijkbare modus toont drie afbeeldingen uit categorie A plus één uit categorie B. Bijvoorbeeld drie dieren en één voertuig. Ideaal voor categorisatie oefeningen en logisch denken. Leerlingen leren classificeren en groeperen.
-
-Wissel tussen modi voor gevarieerde oefeningen. Combineer beide in één werkblad voor uitdaging. Pas de moeilijkheidsgraad aan voor elk kind. Differentiatie wordt eenvoudig met deze twee opties. Perfect voor mixed-ability groepen in werkbladen groep 3.`,
-        highlighted: false,
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // How-To Guide - FULL text from odd-one-out.md step sections
@@ -330,92 +214,8 @@ Print je gedownloade werkblad op elk type printer. Laser printers geven de scher
     badgeText: 'Voor wie',
     readMoreLabel: 'Lees meer',
     showLessLabel: 'Minder tonen',
-    items: [
-      {
-        id: '1',
-        icon: '👶',
-        title: 'Leerkrachten Groep 1 2 en Werkblad voor Kleuters - Gratis Werkblad voor Kinderen',
-        subtitle: 'Gratis werkblad voor kleuters en fijne motoriek',
-        description: `Kleuterjuffen gebruiken welke-hoort-niet-bij werkbladen dagelijks voor cognitieve ontwikkeling. Jonge leerlingen ontwikkelen observatievaardigheden door verschillen te herkennen. Begin met eenvoudige categorieën zoals dieren versus voertuigen. Gebruik grote, duidelijke afbeeldingen voor optimale zichtbaarheid. De visuele discriminatie vaardigheden vormen de basis voor later lezen.
-
-Combineer welke-hoort-niet-bij oefeningen met fijne motoriek activiteiten. Leerlingen kunnen de odd one out omcirkelen met potlood. Dit ontwikkelt pennengreep en handcoördinatie tegelijkertijd. Kleuters kunnen ook de correcte afbeeldingen inkleuren. Of een kruis zetten door de verkeerde afbeelding. Deze multi-sensorische aanpak versterkt het leren.
-
-Maak thematische werkbladen die aansluiten bij jouw jaarthema's. Herfst thema met bladeren, pompoenen en paddenstoelen. Winter thema met sneeuwpoppen, sjaals en handschoenen. Deze seizoen gebonden werkbladen maken lessen relevant. Leerlingen herkennen objecten uit hun dagelijkse omgeving. De betrokkenheid stijgt aanzienlijk met bekende thema's.
-
-Pas de moeilijkheidsgraad aan voor verschillende ontwikkelingsniveaus. Begin met de vergelijkbare modus voor duidelijke categorieverschillen. Een appel tussen drie auto's is makkelijk te herkennen. Ga later over naar de identieke modus voor subtiele verschillen. Drie rode appels en één groene appel vraagt meer focus. Deze progressie ondersteunt natuurlijke ontwikkeling.`,
-        quote: 'Mijn kleuters vinden de kleurrijke welke-hoort-niet-bij werkbladen geweldig!',
-      },
-      {
-        id: '2',
-        icon: '📚',
-        title: 'Basisschool Leerkrachten Groep 3 - Gratis Werkbladen en Gratis Printables',
-        subtitle: 'Gratis werkbladen en werkblad voor kinderen',
-        description: `Groep 3 leerkrachten integreren welke-hoort-niet-bij oefeningen met Veilig Leren Lezen. Upload afbeeldingen die beginnen met specifieke klanken. Drie woorden met P-klank en één met B-klank. Leerlingen identificeren de afwijkende beginletter door visuele herkenning. Deze aanpak versterkt fonologisch bewustzijn op speelse manier.
-
-Maak werkbladen die aansluiten bij de kernthema's van je leesmethode. Kern 1 richt zich op bijvoorbeeld huisdieren en familie. Selecteer afbeeldingen uit deze categorieën voor thematische consistentie. Leerlingen herkennen woorden die ze in hun leesboek zien. De overlap tussen werkbladen en leesmateriaal versterkt woordenschat.
-
-Gebruik categorisatie oefeningen voor begrijpend lezen vaardigheden. Drie voedingsmiddelen en één kledingstuk ontwikkelt begrip van categorieën. Dit logisch denken ondersteunt tekstbegrip bij latere leestaken. Leerlingen die categorieën begrijpen, kunnen beter hoofdgedachten identificeren. De connectie tussen visuele en tekstuele organisatie is sterk.
-
-Differentieer voor verschillende leesniveaus binnen je groep. Sterke lezers krijgen subtielere verschillen met identieke modus. Zwakkere lezers werken met duidelijke categorieverschillen. Upload foto's van klasgenoten voor extra motivatie. Of gebruik afbeeldingen van schooluitstapjes voor persoonlijke relevantie. Gepersonaliseerde werkbladen verhogen betrokkenheid significant.`,
-        quote: 'Welke-hoort-niet-bij werkbladen passen perfect bij onze Veilig Leren Lezen methode.',
-      },
-      {
-        id: '3',
-        icon: '🏠',
-        title: 'Thuisonderwijs Ouders - Gratis Werkblad en Werkblad voor Kinderen voor Meerdere Leeftijden',
-        subtitle: 'Gratis printables voor thuisonderwijs',
-        description: `Thuisonderwijs ouders waarderen de efficiëntie van één generator voor meerdere kinderen. Maak welke-hoort-niet-bij werkbladen voor je kleuter. Maak tegelijkertijd rekenen werkbladen voor je oudere kind. De Volledige Toegang geeft toegang tot alle 33 generators. Dit bespaart geld vergeleken met meerdere losse programma's.
-
-Combineer visuele discriminatie met vroege reken vaardigheden. Drie afbeeldingen met 5 objecten en één met 3 objecten. Leerlingen tellen en vergelijken aantallen. Dit ontwikkelt getalsbegrip door visuele oefening. Voeg later tafels oefenen toe door vermenigvuldiging te integreren. Drie groepen van 2 appels versus één groep van 3 appels.
-
-Thematische lessen worden eenvoudiger met aangepaste werkbladen. Je gezin bestudeerde dinosaurussen deze week. Maak welke-hoort-niet-bij werkbladen met dinosaurussen categorieën. Planteneters versus vleeseters. Vliegende versus landgebonden dinosaurussen. Upload afbeeldingen uit jullie bibliotheekboeken. Leerlingen herkennen deze specifieke dinosaurussen direct.
-
-Plan een hele week lesmateriaal in één zitting. Maak maandag een eenvoudig kleuren thema werkblad. Dinsdag wordt lastiger met vormen verschillen. Woensdag tot vrijdag bouw je verder op moeilijkheid. Bewaar alle werkbladen in een map per kind. Track hun vooruitgang door wekelijks werkbladen te vergelijken. Deze structuur geeft overzicht in thuisonderwijs chaos.`,
-        quote: 'Eén tool voor al mijn kinderen op verschillende niveaus.',
-      },
-      {
-        id: '4',
-        icon: '🌐',
-        title: 'Taalleerkrachten - Gratis Werkbladen voor Werkblad voor Kleuters en Tweetalig Onderwijs',
-        subtitle: 'Gratis werkblad voor kinderen en taalonderwijs',
-        description: `ESL leerkrachten gebruiken visuele werkbladen voor woordenschat ontwikkeling. Afbeeldingen transcenderen taalbarrières bij beginnende leerlingen. Drie fruit items en één groente item leert categorieën. Leerlingen leren Nederlandse woorden door visuele associatie. Spreek de woorden hardop terwijl leerlingen de odd one out aanwijzen.
-
-De 11 talen ondersteuning is essentieel voor internationale scholen. Schakel tussen Nederlands voor lokale leerlingen. Engels voor internationale studenten. Gebruik dezelfde generator voor beide groepen. Dit bespaart enorm veel voorbereidingstijd. Een leerkracht die drie talen onderwijst maakt drie werkbladen in minuten.
-
-Maak werkbladen die cultuurspecifieke categorieën onderwijzen. Nederlandse feestdagen versus Amerikaanse feestdagen. Typisch Nederlandse voedsel versus internationale gerechten. Deze culturele context helpt ESL leerlingen Nederlandse cultuur begrijpen. Visuele voorbeelden maken abstracte culturele concepten concreet. Leerlingen onthouden culturele lessen beter met afbeeldingen.
-
-Combineer met Veilig Leren Lezen voor tweetalige alfabetisering. Gebruik afbeeldingen die Nederlandse fonemen illustreren. Drie woorden met de UI klank en één zonder. Visuele ondersteuning helpt niet-moedertaalsprekers klanken onderscheiden. De afbeeldingen geven context voor moeilijke Nederlandse klanken. Deze multi-modale aanpak versnelt taalverwerving aanzienlijk.`,
-        quote: 'Ik kan snel meertalige werkbladen maken voor mijn diverse klas.',
-      },
-      {
-        id: '5',
-        icon: '🎓',
-        title: 'Speciaal Onderwijs Leerkrachten - Werkblad voor Kleuters en Gratis Werkblad voor Differentiatie',
-        subtitle: 'Gratis werkbladen en speciaal onderwijs',
-        description: `Speciaal onderwijs leerkrachten passen werkbladen aan voor specifieke behoeften. Vergroot afbeeldingen voor leerlingen met visuele beperkingen. Gebruik hoog contrast kleuren voor optimale zichtbaarheid. Verminder het aantal oefeningen van 10 naar 5 voor kortere aandachtspanne. De volledige bewerkbaarheid maakt deze aanpassingen mogelijk.
-
-Maak kleurplaten versies van welke-hoort-niet-bij werkbladen. Leerlingen kleuren eerst alle afbeeldingen in. Dit ontwikkelt fijne motoriek voordat cognitieve taak begint. Dan identificeren ze de odd one out na het kleuren. De dubbele activiteit houdt aandacht vast. Perfect voor leerlingen die moeite hebben met focus.
-
-Gebruik de werkbladen voor getalsbegrip tot 20. Drie afbeeldingen met 8 objecten en één met 12 objecten. Leerlingen tellen en vergelijken binnen sommen tot 20 bereik. Begin met kleinere getallen en bouw langzaam op. De visuele ondersteuning helpt bij abstract rekenen. Concreet tellen van afbeeldingen versterkt getalsbegrip.
-
-Creëer sociale verhalen met aangepaste werkbladen. Upload foto's van schoolsituaties. Drie gepast gedrag voorbeelden en één ongepast. Leerlingen herkennen sociaal acceptabel gedrag visueel. Deze concrete voorbeelden zijn effectiever dan abstracte instructies. Vooral voor leerlingen op het autisme spectrum. Visuele sociale verhalen zijn bewezen effectief.`,
-        quote: 'Perfecte ondersteuning voor mijn leerlingen met speciale behoeften.',
-      },
-      {
-        id: '6',
-        icon: '💰',
-        title: 'Leerkracht Ondernemers - Verkoop Gratis Printables en Werkblad voor Kinderen Bundels',
-        subtitle: 'Commerciële licentie voor gratis werkbladen verkoop',
-        description: `Leerkracht ondernemers maken passief inkomen met werkbladen verkoop. De commerciële licentie staat verkoop toe zonder extra kosten. Upload je werkbladen naar Teachers Pay Teachers. Maak bundles met 20 werkbladen voor €5 tot €10. Veel kopers zoeken klaar-voor-gebruik materiaal. Jouw aangepaste werkbladen vullen deze vraag perfect.
-
-Creëer niche bundels die specifieke behoeften dienen. Tafels oefenen met visuele discriminatie combineert twee vaardigheden. Schrijven oefenen bundels met naam tracing en letter herkenning. Seizoen bundels voor elk kwartaal van het schooljaar. Niche producten hebben minder concurrentie. Gespecialiseerde bundels verkopen tegen hogere prijzen.
-
-Gebruik Pinterest marketing om kopers te vinden. Creëer aantrekkelijke preview afbeeldingen van je werkbladen. Link naar je Teachers Pay Teachers shop. Pin wekelijks nieuwe werkblad voorbeelden. Pinterest gebruikers zoeken actief naar onderwijsmateriaal. Organische traffic kan leiden tot honderden verkopen per maand.
-
-Bouw een mailing lijst van trouwe klanten. Bied gratis sample werkbladen aan in ruil voor email. Stuur maandelijkse nieuwsbrieven met nieuwe producten. Geef subscribers vroege toegang of kortingen. Een lijst van 1000 subscribers kan €500 extra per maand genereren. De combinatie van TPT verkoop en direct email marketing maximaliseert inkomsten.`,
-        quote: 'Mijn abonnement heeft zichzelf terugverdiend in de eerste maand!',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // FAQ Section - FULL FAQs from odd-one-out.md
@@ -429,68 +229,8 @@ Bouw een mailing lijst van trouwe klanten. Bied gratis sample werkbladen aan in 
     showLessLabel: 'Minder tonen',
     secureCheckout: 'Veilig betalen',
     cancelAnytime: 'Altijd opzegbaar',
-    items: [
-      {
-        id: '1',
-        question: 'Is Deze Generator Echt Gratis voor Werkblad voor Kleuters en Gratis Werkblad Maken?',
-        answer: 'De welke-hoort-niet-bij generator vereist een Volledige Toegang abonnement voor €240 per jaar of €25 per maand. Je abonnement geeft onbeperkte toegang tot deze generator zonder kosten per werkblad. Maak zoveel werkbladen kleuters en sommen tot 20 oefeningen als je nodig hebt zonder extra kosten. Dit betekent geen per-werkblad tarieven zoals sommige concurrenten rekenen. Volledige Toegang bevat toegang tot alle 33 werkblad generators op het platform. Basispakket kost €144 per jaar en bevat 10 populaire generators. Volledige Toegang kost €240 per jaar en bevat alle 33 generators inclusief welke-hoort-niet-bij. Beide abonnementen bevatten commerciële licentie, 11 talen ondersteuning en professionele 300 DPI kwaliteit exports. De term "oefenbladen gratis" verwijst naar het SEO zoekterm dat ouders gebruiken. Zij zoeken naar printbare werkbladen online. Met je abonnement maak je onbeperkt werkbladen zonder per-werkblad kosten. Dit is anders dan sites die €2 tot €5 per individueel werkblad rekenen. Je Volledige Toegang abonnement bespaart honderden euro\'s per jaar.',
-      },
-      {
-        id: '2',
-        question: 'Kan Ik Gratis Werkbladen en Werkblad voor Kinderen Printen op Mijn Thuisprinter?',
-        answer: 'Absoluut. Alle werkbladen downloaden in professionele 300 DPI resolutie. Dit is perfect voor printen op elke thuisprinter. Zowel inkjet als laser printers produceren uitstekende resultaten. Print fijne motoriek werkbladen en letters leren oefeningen op standaard A4 papier. De kwaliteit is identiek aan commercieel geproduceerde werkbladen. De grijswaarden optie bespaart enorm veel inkt op kleurenprinters. Converteer kleurrijke werkbladen naar zwart-wit tinten voordat je downloadt. De duidelijkheid blijft volledig behouden. Perfect voor thuis printen met beperkte inkt budgetten. Veel leerkrachten gebruiken grijswaarden voor dagelijkse werkbladen. Kleur reserveren ze voor speciale projecten. PDF formaat behoudt perfecte kwaliteit bij elk zoomniveau. JPEG bestanden zijn kleiner voor snellere downloads en delen. Beide formaten printen uitstekend op gewone printers. Test beide formaten om je voorkeur te bepalen. Sommige leerkrachten prefereren PDF voor consistentie. Anderen kiezen JPEG voor kleinere bestandsgroottes.',
-      },
-      {
-        id: '3',
-        question: 'Heb Ik Ontwerpvaardigheden Nodig voor Gratis Werkblad voor Kinderen en Kleuters?',
-        answer: 'Nee, absoluut geen ontwerpvaardigheden vereist. De generator is ontworpen voor drukke leerkrachten zonder technische kennis. Kies een thema en klik op genereren. Je werkblad verschijnt automatisch met professionele lay-out. Maak rekenen werkbladen en tafels oefenen combinaties in minuten zonder training. Alle elementen plaatsen zich automatisch in optimale posities. Afbeeldingen zijn proportioneel en goed leesbaar. Tekst is groot genoeg voor jonge leerlingen. De standaard instellingen werken perfect voor de meeste doeleinden. Geavanceerde gebruikers kunnen natuurlijk alles aanpassen. Maar aanpassen is optioneel, niet vereist. De themagebaseerde selectie maakt ontwerp super eenvoudig. Selecteer "dieren" en zie honderden dieren afbeeldingen. Selecteer "voertuigen" voor transport thema werkbladen. De generator kiest automatisch compatibele afbeeldingen. Geen zorgen over kleur coördinatie of visuele harmonie. Het systeem handelt alle ontwerp beslissingen af.',
-      },
-      {
-        id: '4',
-        question: 'Kan Ik Gratis Printables en Werkblad voor Kleuters Gebruiken in Mijn Klas?',
-        answer: 'Ja. Volledige Toegang abonnement bevat onbeperkt klasgebruik. Print zoveel kopieën als je nodig hebt voor je leerlingen. Maak werkbladen groep 3 voor 25 studenten zonder extra kosten. Gebruik Veilig Leren Lezen aangepaste werkbladen voor thematische lessen. Je abonnement dekt alle educatief gebruik in je klas. Deel digitale kopieën met leerlingen via Google Classroom of email. Upload naar je school leerplatform voor thuiswerk. Leerlingen kunnen werkbladen downloaden en printen thuis. Ouders waarderen hoogwaardige oefenmateriaal voor thuis oefening. Deze flexibiliteit ondersteunt zowel klas als thuisonderwijs. School licenties zijn beschikbaar voor hele scholen of districten. Contacteer support voor prijzen op institutionele licenties. Individuele leerkracht abonnementen dekken één leerkracht gebruik. Maar delen binnen je school team is toegestaan. Collega\'s kunnen samen een abonnement delen voor kostenbesparing.',
-      },
-      {
-        id: '5',
-        question: 'Welke Talen Zijn Beschikbaar voor Gratis Werkbladen en Werkblad voor Kinderen?',
-        answer: 'De generator ondersteunt 11 talen voor zowel interface als inhoud. Nederlands, Engels, Duits, Frans, Spaans en Italiaans zijn beschikbaar. Ook Portugees, Zweeds, Deens, Noors en Fins. Maak kleurplaten en schrijven oefenen werkbladen in elke taal. Schakel tussen talen met één klik in het menu. De meertalige ondersteuning is vooral waardevol voor tweetalig onderwijs. Maak identieke werkbladen in twee talen voor vergelijking. Nederlandse versie voor moedertaal leerlingen. Engelse versie voor ESL studenten. Dezelfde afbeeldingen maar verschillende interface taal. Deze consistentie helpt bij tweetalige alfabetisering enorm. Alle thema\'s en categorieën werken universeel in alle talen. Dieren, voertuigen en fruit zijn herkenbaar wereldwijd. De afbeeldingen bibliotheek bevat cultureel neutrale objecten. Perfect voor internationale scholen met diverse leerlingpopulaties. Leerlingen herkennen afbeeldingen ongeacht hun culturele achtergrond.',
-      },
-      {
-        id: '6',
-        question: 'Mag Ik Gratis Werkblad en Werkblad voor Kleuters Verkopen Die Ik Maak?',
-        answer: 'Ja. Volledige Toegang abonnement bevat volledige commerciële print-on-demand licentie zonder extra kosten. Verkoop je sommen tot 20 werkbladen en fijne motoriek oefeningen op Teachers Pay Teachers. Publiceer op Etsy zonder extra licentie toestemming. Upload naar Amazon KDP voor passief inkomen. De POD licentie is volledig inbegrepen in je €240 per jaar. Je hebt geen toestemming nodig voor individuele werkbladen verkoop. Maak onbeperkt producten voor je online shop. Combineer verschillende werkblad types in bundels. Verkoop seizoen gebonden collecties gedurende het hele jaar. De enige beperking is dat je werkbladen niet mag doorverkopen als templates. Maar eindproducten verkoop is volledig toegestaan. Veel leerkrachten verdienen €500 tot €5000 per maand met werkbladen verkoop. De commerciële licentie bespaart €79 tot €199 per jaar. Andere platformen rekenen extra voor commerciële rechten. Volledige Toegang bevat alles voor één prijs. Start vandaag nog met je leerkracht ondernemerschap.',
-      },
-      {
-        id: '7',
-        question: 'Hoe Pas Ik Gratis Printables en Werkblad voor Kinderen Aan voor Mijn Leerlingen?',
-        answer: 'Elk element op het canvas is volledig bewerkbaar. Klik op een afbeelding om deze te selecteren. Sleep naar nieuwe positie, verander grootte of roteer. Pas letters leren en rekenen werkbladen volledig aan. Voeg tekst toe voor instructies of leerdoelen. Verander kleuren voor visuele voorkeuren. Upload je eigen afbeeldingen om werkbladen te personaliseren. Voeg klasfoto\'s toe voor extra motivatie. Upload afbeeldingen die aansluiten bij je lesmethode. Combineer bibliotheek afbeeldingen met eigen content. Deze personalisatie maakt werkbladen relevanter voor leerlingen. Bekende gezichten en objecten verhogen betrokkenheid significant. Achtergronden en randen zijn volledig optioneel en aanpasbaar. Kies thematische achtergronden voor feestdagen. Of gebruik neutrale achtergronden voor focus op inhoud. Pas opacity aan voor subtiliteit. Voeg decoratieve randen toe voor professionele uitstraling. Of laat ze weg voor minimalisme. Volledige controle over elk visueel element.',
-      },
-      {
-        id: '8',
-        question: 'Voor Welke Leeftijdsgroepen Werken Gratis Werkbladen en Gratis Printables Het Beste?',
-        answer: 'Welke-hoort-niet-bij werkbladen zijn geschikt voor 3 tot 9 jaar. Kleuters vanaf 3 jaar genieten van eenvoudige categorie verschillen. Groep 1 en 2 (4-6 jaar) werken met basis visuele discriminatie. Groep 3 tot 5 (6-9 jaar) kunnen subtiele verschillen herkennen. Pas moeilijkheid aan voor elk leeftijd. Voor jongste leerlingen gebruik je de vergelijkbare modus. Duidelijke categorie verschillen zoals dieren versus voertuigen. Grote afbeeldingen voor optimale zichtbaarheid. Minimale tekst en instructies. Eenvoudige lay-out zonder afleidingen. Deze aanpak werkt perfect voor oefenbladen gratis ontwikkeling. Oudere leerlingen genieten van de identieke modus uitdaging. Drie rode appels en één groene appel vereist meer focus. Subtiele kleurverschillen of kleine details. Integreer met tafels oefenen door objecten te tellen. Drie groepen van 4 versus één groep van 5. Deze complexiteit houdt oudere leerlingen uitgedaagd.',
-      },
-      {
-        id: '9',
-        question: 'Kan Ik Mijn Eigen Afbeeldingen Uploaden voor Werkblad voor Kleuters en Gratis Werkblad?',
-        answer: 'Absoluut. Upload onbeperkt eigen afbeeldingen in JPEG, PNG of GIF formaat. Selecteer meerdere bestanden tegelijk voor snellere uploads. Je geüploade afbeeldingen verschijnen direct in je sessie. Gebruik ze voor werkbladen kleuters en fijne motoriek oefeningen. Combineer met bibliotheek afbeeldingen voor unieke werkbladen. Upload foto\'s van schooluitstapjes voor gepersonaliseerde oefeningen. Voeg afbeeldingen van klasgenoten toe voor extra motivatie. Upload materiaal uit je lesmethode voor consistentie. Deze personalisatie maakt werkbladen relevanter. Leerlingen herkennen vertrouwde personen en plekken. De betrokkenheid stijgt aanzienlijk met bekende content. Geüploade afbeeldingen blijven beschikbaar tijdens je sessie. Gebruik dezelfde foto\'s in meerdere werkbladen. Creëer visuele consistentie in je lesmateriaal. Deze herbruikbaarheid bespaart tijd bij het maken van series. Bouw een persoonlijke bibliotheek van favoriete afbeeldingen. Perfect voor thematisch onderwijs gedurende het schooljaar.',
-      },
-      {
-        id: '10',
-        question: 'Hoe Lang Duurt Het om Gratis Werkblad voor Kinderen en Werkblad voor Kleuters te Maken?',
-        answer: 'Creëer complete werkbladen in minder dan 3 minuten van start tot download. Selecteer een thema en aantal oefeningen in 30 seconden. Klik op genereren en je werkblad verschijnt in 10 seconden. Eventueel aanpassen op canvas kost 1 tot 2 minuten. Download in je gewenste formaat in 10 seconden. Totaal onder 3 minuten voor sommen tot 20 werkbladen. Vergelijk dit met traditionele methoden die 30 tot 60 minuten kosten. Zoeken naar geschikte clipart neemt alleen al 15 minuten. Lay-out ontwerpen in Word kost 20 minuten. Formatteren en testen nog eens 10 minuten. De generator bespaart 27 tot 57 minuten per werkblad. Deze tijdsbesparing accumuleert snel bij meerdere werkbladen. Ervaren gebruikers maken werkbladen nog sneller. Hergebruik favoriete thema\'s voor consistentie. Skip aanpassingen voor standaard werkbladen. Batch maak meerdere werkbladen in één sessie. Sommige leerkrachten maken 10 werkbladen in 20 minuten. Deze efficiëntie transformeert lesvoorbereiding volledig.',
-      },
-      {
-        id: '11',
-        question: 'Bevatten Gratis Werkbladen Antwoordsleutels voor Werkblad voor Kinderen?',
-        answer: 'Ja. Elk werkblad genereert automatisch een antwoordsleutel. De antwoordsleutel toont duidelijk welke afbeelding de odd one out is. Download de antwoordsleutel apart in PDF of JPEG formaat. Dit bespaart enorm veel tijd bij nakijken. Geef antwoordsleutels aan oudere leerlingen voor zelfcontrole. De antwoordsleutel markeert de odd one out met duidelijke visuele indicatie. Meestal een cirkel of kruis rond de correcte afbeelding. Leerlingen kunnen hun werk vergelijken met de sleutel. Dit bevordert zelfstandigheid en zelfbeoordeling vaardigheden. Vooral handig voor werkbladen groep 3 waar autonomie belangrijk is. Bewaar antwoordsleutels in een aparte map voor gemakkelijke toegang. Print één kopie voor de leerkracht. Of lamineer voor hergebruik gedurende het jaar. Digitaal delen met assistenten of ouderhulpen. Antwoordsleutels maken differentiatie en individuele begeleiding praktischer. Leerlingen kunnen zelfstandig werken terwijl jij kleine groepen helpt.',
-      },
-      {
-        id: '12',
-        question: 'Kan Ik Gratis Printables en Werkblad voor Kleuters Combineren in Welke-Hoort-Niet-Bij Werkbladen?',
-        answer: 'Absoluut. Welke-hoort-niet-bij werkbladen zijn ideaal voor letters leren en schrijven oefenen combinaties. Upload afbeeldingen die beginnen met specifieke letters. Drie woorden met P-klank en één met B-klank. Leerlingen identificeren de afwijkende beginletter. Deze oefening versterkt fonologisch bewustzijn op speelse manier. Combineer visuele discriminatie met letter tracing activiteiten. Voeg tekst toe met letters die leerlingen kunnen natrekken. De naam van elk object schrijven onder de afbeelding. Of de beginletter omcirkelen van de odd one out. Deze multi-modale aanpak versterkt schrijven oefenen natuurlijk. Leerlingen oefenen fijne motoriek terwijl ze letters leren. Maak werkbladen die aansluiten bij je Veilig Leren Lezen kern. Kern 1 focust op specifieke lettercombinaties en klanken. Selecteer afbeeldingen met deze doelklanken. Leerlingen herkennen woorden uit hun leesboek. De overlap tussen werkbladen en leesmateriaal versterkt woordherkenning. Deze geïntegreerde aanpak verbetert alfabetisering resultaten meetbaar.',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Pricing - Volledige Toegang pricing (Full Access)
@@ -560,56 +300,8 @@ Bouw een mailing lijst van trouwe klanten. Bied gratis sample werkbladen aan in 
       securePayment: 'Veilig betalen',
       cancelAnytime: 'Altijd opzegbaar',
     },
-    items: [
-      {
-        id: '1',
-        slug: 'zoek-voorwerpen-werkbladen',
-        name: 'Zoek de Voorwerpen',
-        category: 'Visuele Discriminatie',
-        icon: '🔍',
-        description: 'Combineer welke-hoort-niet-bij met zoek de voorwerpen werkbladen voor complete visuele discriminatie training.',
-      },
-      {
-        id: '2',
-        slug: 'groot-klein-werkbladen',
-        name: 'Groot Klein',
-        category: 'Vergelijken',
-        icon: '📏',
-        description: 'Versterk vergelijkingsvaardigheden met groot klein werkbladen als aanvulling op categorisatie oefeningen.',
-      },
-      {
-        id: '3',
-        slug: 'verbindings-werkbladen',
-        name: 'Verbindings Werkbladen',
-        category: 'Logica',
-        icon: '🔗',
-        description: 'Bouw voort op visuele discriminatie met matching werkbladen voor logisch denken.',
-      },
-      {
-        id: '4',
-        slug: 'kleurplaten-werkbladen',
-        name: 'Kleurplaten',
-        category: 'Creativiteit',
-        icon: '🎨',
-        description: 'Beloon voltooide welke-hoort-niet-bij werkbladen met thematische kleurplaten die fijne motoriek ontwikkelen.',
-      },
-      {
-        id: '5',
-        slug: 'raster-puzzel-werkbladen',
-        name: 'Raster Puzzel',
-        category: 'Logica',
-        icon: '🧩',
-        description: 'Combineer categorisatie met puzzel werkbladen voor gevorderde logische vaardigheden.',
-      },
-      {
-        id: '6',
-        slug: 'meer-minder-werkbladen',
-        name: 'Meer Minder',
-        category: 'Rekenen',
-        icon: '⚖️',
-        description: 'Vergelijkbare visuele vergelijkingsactiviteiten voor wiskunde vaardigheden ontwikkeling.',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 };
 

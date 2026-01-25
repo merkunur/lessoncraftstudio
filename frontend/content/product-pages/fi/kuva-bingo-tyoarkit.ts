@@ -64,22 +64,8 @@ Peruspaketti-tilaus maksaa 144 dollaria vuodessa tai 15 dollaria kuukaudessa. Ti
     badgeText: 'Ilmaiset Esimerkit',
     downloadingLabel: 'Ladataan...',
     ofLabel: '/',
-    items: [
-      {
-        id: '1',
-        worksheetSrc: '/samples/finnish/bingo/sample-1.jpeg',
-        answerKeySrc: '/samples/finnish/bingo/sample-1-answer.jpeg',
-        altText: 'Kuva-bingo pelikortti kuvilla esiopetukseen',
-        pdfDownloadUrl: '/samples/finnish/bingo/sample-1.pdf',
-      },
-      {
-        id: '2',
-        worksheetSrc: '/samples/finnish/bingo/sample-2.jpeg',
-        answerKeySrc: '/samples/finnish/bingo/sample-2-answer.jpeg',
-        altText: 'Kuva-sana bingo pelikortti lukemaan oppimiseen',
-        pdfDownloadUrl: '/samples/finnish/bingo/sample-2.pdf',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Features Grid - FULL text from Finnish bingo.md feature sections
@@ -95,85 +81,8 @@ Peruspaketti-tilaus maksaa 144 dollaria vuodessa tai 15 dollaria kuukaudessa. Ti
       noHiddenFees: 'Ei piilomaksuja',
       cancelAnytime: 'Peruuta milloin tahansa',
     },
-    items: [
-      {
-        id: '1',
-        icon: '⚡',
-        title: 'Luo Bingo-Pelejä 3 Klikkauksella',
-        description: `Valitse kuvateema tai yksittäiset kuvat kirjastosta. Aseta ruudukon koko 3×3:sta 5×5:een. Klikkaa Luo-painiketta ja bingo-korttisi ilmestyvät. Koko prosessi vie alle 3 minuuttia alusta loppuun.
-
-Generaattori luo 1–10 ainutlaatuista bingo-korttia kerralla. Jokainen kortti sisältää eri kuvien sijoittelun. Ei kahta samanlaista korttia samassa pelissä. Täydellinen ratkaisu luokkahuonepeleihin ja esiopetus materiaali ilmainen -aktiviteetteihin.
-
-Valitse haluatko korttien ruuduissa kuvia vai sanoja. Valitse myös huutolistalle kuvat tai sanat. Neljä eri yhdistelmävaihtoehtoa tukevat erilaisia oppimistyylejä. Visuaalinen oppiminen kuvabingolla tai lukemaan oppiminen tehtävät sanabingolla.`,
-        highlighted: false,
-      },
-      {
-        id: '2',
-        icon: '✏️',
-        title: 'Muokkaa Kaikkea Työskentelyalueella',
-        description: `Raahaa ja pudota kuvia uusiin paikkoihin. Muuta kokoa vetämällä kulmista. Kierrä elementtejä haluttuun kulmaan. Poista elementtejä yhdellä klikkauksella. Kaikki työskentelyalueella on täysin muokattavaa.
-
-Lisää teksti bingo-kortteihin helposti. Vaihda fontteja seitsemästä lapsille sopivasta fontista. Muuta tekstin kokoa ja väriä. Lisää ääriviivat parempaan luettavuuteen. Luo ammattimaisia tulostettavat tehtävät lapsille ilmainen -tyyppisiä pelejä.
-
-Käytä tasotyökaluja järjestämään elementtejä. Tuo eteen tai vie taakse yksittäisiä objekteja. Tasaa valittuja elementtejä toisiinsa tai sivuun. Täydellinen hallinta jokaisesta yksityiskohdasta.`,
-        highlighted: false,
-      },
-      {
-        id: '3',
-        icon: '📤',
-        title: 'Lataa Omia Kuvia',
-        description: `Lataa useita kuvatiedostoja kerralla. Tuetut muodot sisältävät JPEG PNG ja GIF. Yhdistä ladatut kuvat kirjaston kuviin. Luo täysin personoituja bingo-pelejä oppilaiden kuvamateriaalilla.
-
-Käytä luokkahuoneen esineiden kuvia. Lataa oppilaiden piirustuksia peleihin. Lisää koulun ympäristön valokuvia. Mukauta bingo-pelit täysin oppilaidesi maailmaan. Täydellinen tapa luoda esiopetus materiaali ilmainen -tyyppisiä pelejä.
-
-Ladatut kuvat toimivat sekä korttien ruuduissa että huutolistalla. Ei rajoituksia kuvia kohden. Kaikki kuvat pysyvät istunnon ajan saatavilla. Yhdistä vapaan kirjaston kuvat omiin kuvaasi rajattomiin yhdistelmiin.`,
-        highlighted: false,
-      },
-      {
-        id: '4',
-        icon: '🌍',
-        title: '11 Kieltä Sisältöön ja Käyttöliittymään',
-        description: `Vaihda käyttöliittymän kieli suomesta muihin 10 kieleen. Vaihda kuvakirjaston kieli erikseen sisältöä varten. Kriittinen ominaisuus monikielisille luokkahuoneille ja lukemaan oppiminen tehtävät -aktiviteeteille.
-
-Kuvatiedostojen nimet vaihtuvat valitun kielen mukaan. Sanabingossa sanat tulevat valitulla kielellä. Täydellinen työkalu kaksikieliseen opetukseen ja vieraan kielen oppimiseen. Tue oppilaiden sanaston kehitystä heidän äidinkielellään.
-
-Käytettävissä olevat kielet sisältävät suomen englannin saksan ranskan espanjan. Myös portugali italia hollanti ruotsi tanska ja norja. Luo bingo-pelejä jokaiselle kielelle erikseen tai yhdistä kieliä samassa pelissä.`,
-        highlighted: false,
-      },
-      {
-        id: '5',
-        icon: '💰',
-        title: 'Kaupallinen POD-Lisenssi Sisältyy',
-        description: `Peruspaketti sisältää täyden print-on-demand kaupallisen lisenssin. Myy luomiasi bingo-pelejä Teachers Pay Teachers -palvelussa. Myy Etsy-kaupassa tulostettavia bingo-paketteja. Julkaise Amazon KDP:ssä matalan sisällön kirjoja.
-
-Ei ylimääräisiä lisenssimaksuja tilauksen lisäksi. Ei attribuutiovaatimuksia myytäviin tuotteisiin. Täydellinen ratkaisu opettajayrittäjille. Luo tulostettavat tehtävät lapsille ilmainen -tyyppisiä tuotteita myyntiin.
-
-300 DPI kaupallinen laatu varmistaa ammattimaiset tulosteet. Asiakkaasi saavat terävät selkeät bingo-kortit. Rakenna kannattava sivutulovirta opettajien markkinarakoa varten. Tilauksen hinta 144 dollaria vuodessa maksaa itsensä takaisin yhdellä myynnillä.`,
-        highlighted: true,
-      },
-      {
-        id: '6',
-        icon: '🎨',
-        title: '3000+ Kuvakirjasto',
-        description: `Yli 3000 lapsiystävällistä kuvaa teemoittain järjestettynä. Valitse eläimet ruoka välineet kulkuneuvot kasvit vaatteet. Jokaisella teemalla kymmeniä tai satoja kuvia. Helppo löytää oikea kuva jokaiseen bingo-peliin.
-
-Haku toiminnolla löydät nopeasti tietyt kuvat. Kirjoita hakusana kuten omena auto tai kissa. Näet kaikki vastaavat kuvat välittömästi. Yhdistä teemavalinta ja haku täydelliseen kontrolliin.
-
-Käytä samaa kuvakirjastoa myös muihin tehtävämonisteihin. Yhdistä bingo-pelit värityskuvia lapsille tulostettava -tehtäviin. Luo hienomotoriikka harjoitukset samoilla kuvilla. Yhtenäinen visuaalinen tyyli kaikissa opetusmateriaalissa.`,
-        highlighted: false,
-      },
-      {
-        id: '7',
-        icon: '🖨️',
-        title: 'Ammattimainen 300 DPI Laatu',
-        description: `Lataa bingo-pelit 300 DPI tarkkuudella. Täydellinen laatu kotitulostimille ja ammattipainoihin. Terävät kirkkaät värit jokaisessa tulostetussa kortissa. Ei pikselöitymistä tai epäselvyyttä.
-
-Valitse JPEG tai PDF -muoto lataukseen. PDF säilyttää vektorigrafiikan laadun. JPEG sopii nopeaan jakamiseen ja tulostukseen. Molemmat muodot tuottavat ammattimaisia tuloksia. Harmaasävyvaihtoehto säästää mustetta tulostuksessa.
-
-Lataa kortit ja huutolista erikseen tai yhdessä. Tulosta kortteja oppilaiden määrän mukaan. Laminoi kortit toistuvaan käyttöön. Luo pysyvä bingo-peli luokkahuoneen pelikokoelmaan.`,
-        highlighted: true,
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // How-To Guide - FULL text from Finnish bingo.md step sections
@@ -255,80 +164,8 @@ Lataa kortit ja huutolista erikseen omina tiedostoinaan. Tulosta kortteja oppila
     badgeText: 'Kenelle Sopii',
     readMoreLabel: 'Lue lisää',
     showLessLabel: 'Näytä vähemmän',
-    items: [
-      {
-        id: '1',
-        icon: '👶',
-        title: 'Esiopettajat',
-        subtitle: 'Kirjaimet Harjoittelu Esikoulu ja Pisteestä Pisteeseen Tehtävät',
-        description: `Esiopetuksen opettajat luovat kirjaimet harjoittelu esikoulu -tyyppisiä bingo-pelejä. Käytä kirjainten kuvia opettaaksesi aakkosia. Luo sanabingo-pelit yksinkertaisilla sanoilla. Yhdistä visuaalinen oppiminen ja lukemaan oppiminen tehtävät samassa pelissä.
-
-Bingo tukee hienomotoriikka harjoitukset -kehitystä. Lapset käyttävät pieniä pelimerkkejä ruutujen peittämiseen. Tämä vahvistaa silmän ja käden yhteistyötä. Yhdistä bingo-pelit pisteestä pisteeseen tehtävät -aktiviteetteihin kokonaisvaltaiseen oppimiseen.
-
-Luo teemabingo-pelejä vuodenaikojen mukaan. Syksy-bingo eläinkuvilla ja lehtikuvilla. Talvi-bingo lumihiutaleilla ja talvieläimillä. Kevät- ja kesä-bingot kasvien ja kukkien kuvilla. Esiopetus materiaali ilmainen -tyyppiset pelit koko vuodelle.`,
-        quote: 'Oppilaani rakastavat kuvallisia bingo-pelejä!',
-      },
-      {
-        id: '2',
-        icon: '📚',
-        title: 'Alakoulun Opettajat',
-        subtitle: 'Matematiikka Tehtävät Alakoulu ja Yhteenlasku ja Vähennyslasku Tehtävät',
-        description: `Ala-asteen opettajat luovat matematiikka tehtävät alakoulu -tyyppisiä bingo-pelejä. Käytä numerokuvia harjoittelemaan lukumäärien tunnistamista. Luo yhteenlasku ja vähennyslasku tehtävät -bingoja laskutoimituksilla. Oppilaat ratkaisevat laskun ja merkitsevät vastauksen kortilleen.
-
-Kertotaulut tulostettava -tyyppiset bingo-pelit sopivat kertolasku-harjoitteluun. Huutolista sisältää kertolaskuja. Oppilaat etsivät vastauksen kortiltaan. Hauska tapa harjoitella kertotauluja pelimuodossa.
-
-Luo geometria-bingoja muodoilla ja kuvioilla. Kolmiot neliöt ympyrät ja muut perusmuodot. Tai käytä 3D-muotoja kuten pallot kuutiot ja pyramidit. Yhdistä matematiikka tehtävät alakoulu visuaaliseen oppimiseen.`,
-        quote: 'Bingo tekee matematiikasta hauskaa!',
-      },
-      {
-        id: '3',
-        icon: '🏠',
-        title: 'Kotikouluvanhemmat',
-        subtitle: 'Esiopetus Materiaali Ilmainen Monikäyttöisyyteen',
-        description: `Kotikouluvanhemmat arvostavat esiopetus materiaali ilmainen -tyyppisiä resursseja. Luo bingo-pelejä kaikille ikäryhmille perheessä. Yhdistä useita oppimistasoja samassa pelissä. Nuoremmat tunnistavat kuvia ja vanhemmat lukevat sanoja.
-
-Personoi bingo-pelit perheen kiinnostuksen kohteiden mukaan. Lataa perheen lemmikkien kuvia. Käytä kodin esineiden valokuvia. Luo bingo-pelejä perheen harrastuksista. Oppiminen on tehokkainta kun se koskettaa lapsen elämää.
-
-Käytä bingo-pelejä arviointityökaluna. Tarkista oppiko lapsi viikon sanavarat. Testaa matematiikka tehtävät alakoulu -tyyppisiä taitoja. Yhdistä arviointi hauskaan peliin ilman stressiä.`,
-        quote: 'Yksi työkalu kattaa kaikkien lasteni tarpeet.',
-      },
-      {
-        id: '4',
-        icon: '🌍',
-        title: 'ESL ja Kielenopettajat',
-        subtitle: 'Lukemaan Oppiminen Tehtävät Monikielisesti',
-        description: `ESL-opettajat luovat lukemaan oppiminen tehtävät -tyyppisiä bingo-pelejä. Kuva-sanapari-bingo yhdistää visuaalin ja sanan. Oppilaat näkevät kuvan ja kuulevat sanan ääneen luettuna. Vahvistaa sanaston oppimista usealla aistitasolla.
-
-Vaihda käyttöliittymän ja sisällön kieli tarpeen mukaan. Opeta suomen kieltä englanninkielisille. Tai opeta englantia suomalaisille oppilaille. 11 kielen tuki tekee generaattorista monipuolisen työkalun. Kirjaimet harjoittelu esikoulu toimii kaikilla kielillä.
-
-Luo kaksikielistä bingo-pelejä. Kortit suomeksi ja huutolista englanniksi. Tai päinvastoin. Pakottaa oppilaat yhdistämään sanat kielten välillä.`,
-        quote: 'Monikielisyystuki on ratkaisevaa luokkahuoneessani.',
-      },
-      {
-        id: '5',
-        icon: '💜',
-        title: 'Erityisopettajat',
-        subtitle: 'Hienomotoriikka Harjoitukset ja Pisteestä Pisteeseen Tehtävät Yksilöllisesti',
-        description: `Erityisopettajat personoivat bingo-pelit oppilaan tarpeisiin. Isot selkeät kuvat näkövammaisille oppilaille. Yksinkertaiset 3×3 ruudukot keskittymisvaikeuksisille. Mukauta jokainen peli oppilaan taitotasolle. Hienomotoriikka harjoitukset integroituna peliin.
-
-Luo bingo-pelejä sosiaalisten taitojen harjoitteluun. Tunteet-bingo kasvojen ilmeillä. Käyttäytyminen-bingo sopivista toimintatavoista. Turvallinen tapa harjoitella sosiaalisia tilanteita. Yhdistä pisteestä pisteeseen tehtävät tunne-teemaan.
-
-Käytä bingo-pelejä palkintojärjestelmänä. Jokainen täytetty rivi ansaitsee tarran. Täysi kortti ansaitsee palkinnon. Motivoi oppilaita positiivisella vahvistuksella.`,
-        quote: 'Voin nopeasti mukauttaa pelejä jokaisen oppilaan tarpeisiin.',
-      },
-      {
-        id: '6',
-        icon: '💰',
-        title: 'Opettajayrittäjät',
-        subtitle: 'Myy Tulostettavat Tehtävät Lapsille Ilmainen Tuotteita',
-        description: `Opettajayrittäjät myyvät bingo-pelejä Teachers Pay Teachers -palvelussa. Luo teemallisia bingo-paketteja eri oppiaineisiin. Myy esiopetus materiaali ilmainen -tyyppisiä resursseja. Peruspaketti sisältää kaupallisen lisenssin ilman lisämaksuja.
-
-Rakenna tuotelinjoja eri vuodenajoille. Joulu-bingo-paketti joulukuiseen myyntiin. Halloween-bingo lokakuulle. Ympärivuotiset aiheet kuten eläimet ja ruoka myyvät jatkuvasti.
-
-Yhdistä useita tehtävämonistegeneraattoreita tuotepaketteihin. Bingo plus värityskuvia lapsille tulostettava -sivut. Lisää yhteenlasku ja vähennyslasku tehtävät samaan pakettiin. Tarjoa kattavampia paketteja korkeampaan hintaan.`,
-        quote: 'Tilaukseni maksoi itsensä takaisin ensimmäisessä kuussa!',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // FAQ Section - Selected FAQs from Finnish bingo.md
@@ -342,48 +179,8 @@ Yhdistä useita tehtävämonistegeneraattoreita tuotepaketteihin. Bingo plus vä
     showLessLabel: 'Näytä vähemmän',
     secureCheckout: 'Turvallinen maksu',
     cancelAnytime: 'Peruuta milloin tahansa',
-    items: [
-      {
-        id: '1',
-        question: 'Voinko Yhdistää Värityskuvia Lapsille Tulostettava ja Kertotaulut Tulostettava Bingo-Peleihin Samassa Paketissa?',
-        answer: 'Kyllä voit. Peruspaketti sisältää 10 eri generaattoria. Luo bingo-pelejä kuva-bingogeneraattorilla. Luo värityskuvia lapsille tulostettava -sivuja väritysgeneraattorilla. Luo kertotaulut tulostettava -tehtäviä matematiikkageneraattorilla. Kaikki samalla 144 dollarin vuosimaksulla.',
-      },
-      {
-        id: '2',
-        question: 'Sopiiko Generaattori Kirjaimet Harjoittelu Esikoulu ja Matematiikka Tehtävät Alakoulu Opetukseen?',
-        answer: 'Kyllä sopii täydellisesti. Kirjaimet harjoittelu esikoulu onnistuu kirjainkuvilla. Luo bingo-kortti jossa jokaisessa ruudussa yksi kirjain. Oppilaat kuulevat kirjaimen ja etsivät sen kortiltaan. Visuaalinen ja auditiivinen oppiminen yhdessä. Matematiikka tehtävät alakoulu toimivat numerobingolla.',
-      },
-      {
-        id: '3',
-        question: 'Sisältyykö Esiopetus Materiaali Ilmainen ja Lukemaan Oppiminen Tehtävät Peruspaketti-Tilaukseen?',
-        answer: 'Kyllä sisältyy. Peruspaketti antaa rajattoman pääsyn kaikkiin generaattoreihin. Luo niin paljon esiopetus materiaali ilmainen -tyyppisiä pelejä kuin haluat. Ei rajoituksia luomisten määrässä. Ei ylimääräisiä maksuja per peli. Lukemaan oppiminen tehtävät ovat keskeinen osa bingo-generaattoria.',
-      },
-      {
-        id: '4',
-        question: 'Kuinka Nopeasti Luon Bingo-Kortit?',
-        answer: 'Alle 3 minuutissa luot täydelliset bingo-kortit. Valitse kuvateema (30 sekuntia). Säädä ruudukon koko ja korttien määrä (30 sekuntia). Generoi kortit (10 sekuntia). Lataa PDF (10 sekuntia). Koko prosessi on uskomattoman nopea.',
-      },
-      {
-        id: '5',
-        question: 'Toimiiko Generaattori Hienomotoriikka Harjoitukset ja Värityskuvia Lapsille Tulostettava Yhdistelmänä?',
-        answer: 'Kyllä toimii erinomaisesti. Bingo-peli on jo hienomotoriikka harjoitukset itsessään. Lapset käyttävät pieniä pelimerkkejä. Tarkkuus ruutujen peittämisessä kehittää silmän ja käden koordinaatiota. Yhdistä värityskuvia lapsille tulostettava -sivuja bingo-peliin samoilla kuvilla.',
-      },
-      {
-        id: '6',
-        question: 'Voinko Myydä Luomiani Bingo-Pelejä?',
-        answer: 'Kyllä. Peruspaketti-tilaus sisältää kaupallisen POD-lisenssin. Myy bingo-pelejä Teachers Pay Teachers -palvelussa. Listaa tulostettavia paketteja Etsyssä. Julkaise Amazon KDP:ssä. Ei lisälisenssimaksuja. Ei attribuutiovaatimuksia.',
-      },
-      {
-        id: '7',
-        question: 'Millä Kielillä Bingo-Kortit Ovat Saatavilla?',
-        answer: 'Bingo-generaattori tukee 11 kieltä täydellisesti. Suomi, englanti, saksa, ranska, espanja, italia, portugali, hollanti, ruotsi, tanska, norja. Käyttöliittymä ja sisältö molemmat vaihtuvat valitulle kielelle. Täydellinen ESL-opettajille ja kaksikielisille luokkahuoneille.',
-      },
-      {
-        id: '8',
-        question: 'Voinko Ladata Omia Kuvia Bingo-Peleihin?',
-        answer: 'Kyllä. Monitiedostolataus tukee useiden kuvien lataamisen kerralla. Klikkaa "Valitse tiedostot" ja valitse JPEG, PNG tai GIF -tiedostoja tietokoneeltasi. Ladatut kuvat toimivat sekä korteissa että huutolistalla. Luo täysin personoituja bingo-pelejä.',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Pricing - Finnish Core Bundle terminology
@@ -430,56 +227,8 @@ Yhdistä useita tehtävämonistegeneraattoreita tuotepaketteihin. Bingo plus vä
       securePayment: 'Turvallinen maksu',
       cancelAnytime: 'Peruuta milloin tahansa',
     },
-    items: [
-      {
-        id: '1',
-        slug: 'matching',
-        name: 'Yhdistä Parit',
-        category: 'Visuaalinen Oppiminen',
-        icon: '🔗',
-        description: 'Täydennä bingo-pelejä yhdistämistehtävillä visuaalisen tunnistamisen vahvistamiseksi.',
-      },
-      {
-        id: '2',
-        slug: 'find-and-count',
-        name: 'Etsi ja Laske',
-        category: 'Matematiikka',
-        icon: '🔍',
-        description: 'Yhdistä bingo laskutehtäviin numerotuntemuksen kehittämiseksi.',
-      },
-      {
-        id: '3',
-        slug: 'coloring',
-        name: 'Värityskuvat',
-        category: 'Luovuus',
-        icon: '🎨',
-        description: 'Palkitse valmiit bingo-pelit teemaattisilla värityskuvilla hienomotoriikan kehittämiseksi.',
-      },
-      {
-        id: '4',
-        slug: 'word-search',
-        name: 'Sananhaku',
-        category: 'Kieli',
-        icon: '🔤',
-        description: 'Yhdistä bingo sanaston laajentamiseen sananhakutehtävillä.',
-      },
-      {
-        id: '5',
-        slug: 'sudoku',
-        name: 'Sudoku',
-        category: 'Logiikka',
-        icon: '🧩',
-        description: 'Täydennä bingo-pelejä loogisen ajattelun harjoituksilla.',
-      },
-      {
-        id: '6',
-        slug: 'pattern-train',
-        name: 'Kuviojuna',
-        category: 'Hahmottaminen',
-        icon: '🚂',
-        description: 'Yhdistä bingo kuviotehtäviin hahmottamiskyvyn kehittämiseksi.',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 };
 

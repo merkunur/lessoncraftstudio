@@ -90,36 +90,8 @@ Förskoleklass material fokuserar på grundläggande storleksbegrepp. Elever i �
     badgeText: 'Gratis Exempel',
     downloadingLabel: 'Laddar ner...',
     ofLabel: 'av',
-    items: [
-      {
-        id: '1',
-        worksheetSrc: '/samples/swedish/big-small/sample-1.jpeg',
-        answerKeySrc: '/samples/swedish/big-small/sample-1-answer.jpeg',
-        altText: 'Gratis arbetsblad stort och litet - storleksjämförelse för förskoleklass material',
-        pdfDownloadUrl: '/samples/swedish/big-small/sample-1.pdf',
-      },
-      {
-        id: '2',
-        worksheetSrc: '/samples/swedish/big-small/sample-2.jpeg',
-        answerKeySrc: '/samples/swedish/big-small/sample-2-answer.jpeg',
-        altText: 'Arbetsblad gratis för barn - matematik arbetsblad med storleksövningar',
-        pdfDownloadUrl: '/samples/swedish/big-small/sample-2.pdf',
-      },
-      {
-        id: '3',
-        worksheetSrc: '/samples/swedish/big-small/sample-3.jpeg',
-        answerKeySrc: '/samples/swedish/big-small/sample-3-answer.jpeg',
-        altText: 'Förskoleklass material gratis - stort och litet matte övningar',
-        pdfDownloadUrl: '/samples/swedish/big-small/sample-3.pdf',
-      },
-      {
-        id: '4',
-        worksheetSrc: '/samples/swedish/big-small/sample-4.jpeg',
-        answerKeySrc: '/samples/swedish/big-small/sample-4-answer.jpeg',
-        altText: 'Gratis utskrifter storleksjämförelse - arbetsblad för barn',
-        pdfDownloadUrl: '/samples/swedish/big-small/sample-4.pdf',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Features Grid - FULL text from big-small.md feature sections
@@ -135,85 +107,8 @@ Förskoleklass material fokuserar på grundläggande storleksbegrepp. Elever i �
       noHiddenFees: 'Inga dolda avgifter',
       cancelAnytime: 'Avsluta när som helst',
     },
-    items: [
-      {
-        id: '1',
-        icon: '⚡',
-        title: 'Enkel Skapande av Arbetsblad Gratis på 3 Klick - Förskoleklass Material Klart på Under 3 Minuter',
-        description: `Att skapa förskoleklass material har aldrig varit enklare. Välj ett bildtema från vårt bibliotek. Bestäm antal övningar du önskar. Klicka på generera. Ditt arbetsblad gratis visas omedelbart på skärmen.
-
-Generatorn erbjuder fem olika frågetyper för matematik arbetsblad. Eleverna kan ringa in det största eller minsta objektet. De kan också ordna bilder från minst till störst. Denna variation håller barnens intresse genom hela läsåret med engagerande matte övningar.
-
-Varje matematik arbetsblad genereras automatiskt med bilder i olika storlekar. Algoritmen garanterar tydligt synliga storleksskillnader för förskoleklass material. Barn skiljer lätt på stort och litet på varje arbetsblad gratis. Denna tydlighet är avgörande för framgångsrika matte övningar.`,
-        highlighted: false,
-      },
-      {
-        id: '2',
-        icon: '✏️',
-        title: 'Fullständig Anpassning av Matematik Arbetsblad - Redigera Varje Element på Arbetsytan för Matte Övningar',
-        description: `Alla arbetsblad gratis är helt anpassningsbara. Flytta bilder dit du vill ha dem i ditt förskoleklass material. Ändra storlek på element efter dina behov. Rotera objekt för att skapa unika kompositioner av matematik arbetsblad.
-
-Redigeringsarbetsytan fungerar med dra-och-släpp för enkla matte övningar. Inga tekniska färdigheter krävs för att skapa förskoleklass material. Lägg till anpassad text för instruktioner på dina arbetsblad gratis. Ändra färger och typsnitt med ett klick på matematik arbetsblad.
-
-Förskoleklass material kan inkludera ett utrymme för namn och datum. Detta alternativ aktiveras med en enkel kryssruta. Dina arbetsblad gratis är redo för distribution i klassen med professionella matte övningar.`,
-        highlighted: false,
-      },
-      {
-        id: '3',
-        icon: '📤',
-        title: 'Ladda Upp Egna Bilder för Anpassat Förskoleklass Material - Målarbilder Barn med Klassfoton',
-        description: `Ladda upp dina egna bilder för att skapa unika arbetsblad gratis. Använd klassfoton eller tematiska bilder i ditt förskoleklass material. Kombinera dina bilder med vårt bibliotek för varierade matematik arbetsblad. Denna flexibilitet möjliggör skapandet av personliga målarbilder barn.
-
-Uppladdningen accepterar alla vanliga format för matte övningar. JPEG, PNG och GIF stöds för förskoleklass material. Ladda upp flera filer i en enda operation. Dina bilder förblir tillgängliga under hela sessionen för arbetsblad gratis.
-
-Anpassat förskoleklass material engagerar eleverna mer. De känner igen bekanta föremål från sin miljö i matematik arbetsblad. Lärandet blir mer konkret och meningsfullt med personliga matte övningar och målarbilder barn.`,
-        highlighted: false,
-      },
-      {
-        id: '4',
-        icon: '🌍',
-        title: 'Stöd för 11 Språk i Matematik Arbetsblad - Gränssnitt på Svenska för Förskoleklass Material',
-        description: `Vår generator av arbetsblad gratis fungerar på 11 språk. Användargränssnittet visas helt på svenska för förskoleklass material. Bildbiblioteket erbjuder namn på ditt språk i matematik arbetsblad. Denna funktion underlättar flerspråkiga matte övningar.
-
-De 11 tillgängliga språken inkluderar svenska, tyska, spanska och italienska. Portugisiska, nederländska och skandinaviska språk erbjuds också för arbetsblad gratis. Byt språk med ett enkelt klick i menyn för förskoleklass material.
-
-För tvåspråkiga klasser, skapa matematik arbetsblad på flera språk. Storleksjämförelseövningarna fungerar på alla språk i matte övningar. Perfekt för språkundervisning redan i förskolan med arbetsblad gratis.`,
-        highlighted: false,
-      },
-      {
-        id: '5',
-        icon: '💰',
-        title: 'Kommersiell Licens Inkluderad för att Sälja Arbetsblad Gratis - Förskoleklass Material på Teachers Pay Teachers',
-        description: `Din Full Tillgång-prenumeration inkluderar fullständig kommersiell licens. Sälj dina arbetsblad gratis på Teachers Pay Teachers. Skapa en Etsy-butik med pedagogiska resurser som förskoleklass material. Publicera på Amazon KDP utan extra avgifter för matematik arbetsblad.
-
-De arbetsblad gratis du skapar tillhör dig helt. Ingen hänvisning krävs vid försäljning av förskoleklass material. 300 DPI-kvaliteten garanterar professionella utskrifter av matematik arbetsblad. Dina kunder uppskattar bildernas skärpa i matte övningar.
-
-Många lärare genererar extra inkomster med förskoleklass material. Vissa tjänar mellan 5000 och 50000 kronor per månad på arbetsblad gratis. Dina matematik arbetsblad kan bli en källa till passiv inkomst genom matte övningar.`,
-        highlighted: true,
-      },
-      {
-        id: '6',
-        icon: '🎨',
-        title: 'Bildbibliotek med Över 3000 Bilder för Målarbilder Barn - Varierande Teman för Förskoleklass Material',
-        description: `Vårt bibliotek innehåller över 3000 barnvänliga bilder. Varje bild passar perfekt för målarbilder barn och arbetsblad gratis. Varierande teman täcker djur, fordon och natur för förskoleklass material. Vardagliga föremål och mat finns också tillgängliga för matematik arbetsblad.
-
-Bilderna organiseras efter teman för att underlätta sökningen i matte övningar. Använd sökfältet för att hitta specifika bilder till förskoleklass material. Välj ett helt tema för automatisk generering av arbetsblad gratis. Matematik arbetsblad använder attraktiva och tydliga bilder för målarbilder barn.
-
-Bakgrunder och ramar ingår i biblioteket för matte övningar. Lägg till en dekorativ ram till ditt förskoleklass material. Säsongsteman gör det möjligt att variera arbetsblad gratis genom hela året med matematik arbetsblad.`,
-        highlighted: false,
-      },
-      {
-        id: '7',
-        icon: '🖨️',
-        title: 'Professionell 300 DPI-Kvalitet för Arbetsblad Gratis - Matematik Arbetsblad och Matte Övningar Redo att Distribuera',
-        description: `Varje arbetsblad gratis exporteras i professionell kvalitet. Upplösningen på 300 DPI garanterar skarpa utskrifter av förskoleklass material. Bilderna förblir perfekt tydliga även i stort format för matematik arbetsblad. Dina matte övningar får ett professionellt utseende.
-
-Ladda ner dina arbetsblad gratis i PDF- eller JPEG-format. PDF-formatet passar perfekt för utskrift av förskoleklass material. JPEG-formatet används för digitala presentationer av matematik arbetsblad. Svartvit-alternativet sparar bläck i skrivaren för matte övningar.
-
-Facit genereras automatiskt för arbetsblad gratis. Ett klick räcker för att skapa svarsbladet till förskoleklass material. Lösningarna visas tydligt med gröna bockar i matematik arbetsblad. Spara tid på rättning av matte övningar.`,
-        highlighted: true,
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // How-To Guide - FULL text from big-small.md step sections
@@ -305,80 +200,8 @@ Generera också facit med ett klick för arbetsblad gratis. Svarsbladet visar l�
     badgeText: 'Vem Det Är För',
     readMoreLabel: 'Läs mer',
     showLessLabel: 'Visa mindre',
-    items: [
-      {
-        id: '1',
-        icon: '👶',
-        title: 'Lärare i Förskoleklass och Förskola',
-        subtitle: 'Finmotorik Övningar och Målarbilder Barn för 6-åringar',
-        description: `Lärare i förskoleklass utgör vår huvudsakliga målgrupp med arbetsblad gratis. För 6-åringar i förskoleklassen varierar behoven. Finmotorik övningar integreras naturligt i storleksjämförelser. Målarbilder barn kompletterar perfekt dessa aktiviteter med matematik arbetsblad.
-
-I förskolan använder barn enkla övningar med 2 bilder för förskoleklass material. Barn från 3 år koncentrerar sig på att skilja stort från litet. Enkla arbetsblad gratis undviker kognitiv överbelastning. Finmotorik övningar i denna ålder förblir grundläggande men väsentliga.
-
-Förskoleklassen förbereder inträdet till årskurs 1 med matematik arbetsblad. Övningar i storleksordning blir vanliga. Arbetsblad gratis förbereder för formellt matematiskt lärande. Finmotorik övningar når sin mest utvecklade nivå med målarbilder barn.`,
-        quote: 'Mina 6-åringar älskar att jämföra storlekar med dessa arbetsblad!',
-      },
-      {
-        id: '2',
-        icon: '📚',
-        title: 'Lärare i Lågstadiet Årskurs 1-3',
-        subtitle: 'Addition och Subtraktion med Matematik Arbetsblad',
-        description: `Lärare i lågstadiet använder arbetsblad gratis för att förstärka matematiska grunder. Storleksjämförelser stöder taluppfattning i matematik arbetsblad. Innan man tar itu med addition och subtraktion behärskar elever storleksrelationer. Arbetsblad gratis förbereder dessa beräkningar.
-
-I årskurs 1 stöder storleksjämförelse lärandet av siffror och tal. Större, mindre, lika: dessa begrepp grundar kalkyl med matematik arbetsblad. Övningar förbereder addition och subtraktion. Multiplikationstabellen kommer senare med dessa solida grunder.
-
-I årskurs 2-3 fungerar arbetsblad gratis som repetition och differentiering. Elever med svårigheter återupptar grunderna med matematik arbetsblad. Storleksjämförelseövningar förblir relevanta. Förberedelsen för multiplikationstabellen går via denna förståelse av addition och subtraktion.`,
-        quote: 'Storleksjämförelser ger en stark grund för matematiskt tänkande.',
-      },
-      {
-        id: '3',
-        icon: '🏠',
-        title: 'Föräldrar med Hemundervisning',
-        subtitle: 'Bokstäver Lära Sig och Målarbilder Barn Hemma',
-        description: `Föräldrar som bedriver hemundervisning hittar värdefulla resurser med arbetsblad gratis. Övningar för att bokstäver lära sig kombinerar flera färdigheter. Alfabetet undervisas parallellt med storleksbegrepp i matematik arbetsblad. Detta globala tillvägagångssätt optimerar undervisningstiden med målarbilder barn.
-
-Hemma är flexibilitet väsentlig med arbetsblad gratis. Skapa arbetsblad anpassade till ditt barns tempo. Alfabetet kan läras bokstav för bokstav med storleksjämförelser i matematik arbetsblad. Övningarna för att bokstäver lära sig blir roliga och personliga med målarbilder barn.
-
-Föräldrar uppskattar enkelheten i skapandet av arbetsblad gratis. Ingen pedagogisk utbildning krävs. Professionella arbetsblad konkurrerar med skolmaterial i matematik arbetsblad. Alfabetet och storleksjämförelse arbetas samtidigt för att bokstäver lära sig.`,
-        quote: 'Ett verktyg täcker alla mina barns behov hemma.',
-      },
-      {
-        id: '4',
-        icon: '🌍',
-        title: 'Språklärare',
-        subtitle: 'Siffror och Tal på Svenska som Andraspråk',
-        description: `Språklärare använder våra arbetsblad gratis för svenska som andraspråk. Visuella övningar överskrider språkbarriärer i matematik arbetsblad. Elever jämför storlekar innan de behärskar ordförrådet. Siffror och tal på svenska blir mer tillgängligt.
-
-Grundläggande ordförråd förvärvas naturligt med arbetsblad gratis. Stor, liten, medelstor: dessa väsentliga ord lärs i sammanhang. Förskoleklass material illustrerar konkret begreppen i matematik arbetsblad. Elever som lär sig svenska framsteg i språket samtidigt som de utvecklar matematiska färdigheter.
-
-De 11 språken i gränssnittet underlättar undervisningen med arbetsblad gratis. Börja på elevens modersmål. Gå progressivt över till svenska. Jämföra storlekar sker mjukt med siffror och tal.`,
-        quote: 'Flerspråkigt stöd är avgörande för mitt klassrum.',
-      },
-      {
-        id: '5',
-        icon: '💜',
-        title: 'Specialpedagoger',
-        subtitle: 'Finmotorik Övningar och Addition och Subtraktion för Särskilda Behov',
-        description: `Specialpedagoger anpassar våra arbetsblad gratis till särskilda behov. Finmotorik övningar justeras till varje elev i matematik arbetsblad. Storleksjämförelseövningar utvecklar övergripande färdigheter. Addition och subtraktion introduceras progressivt.
-
-För elever med inlärningssvårigheter är visuell tydlighet avgörande med arbetsblad gratis. Våra arbetsblad erbjuder skarpa bilder och enkla instruktioner i matematik arbetsblad. Finmotorik övningar läggs till gradvis. Addition och subtraktion anpassas till motoriska förmågor.
-
-Differentiering är kärnan i specialundervisning med arbetsblad gratis. Skapa personliga arbetsblad för varje elev. Finmotorik övningar och storleksjämförelse arbetas i individuell takt i matematik arbetsblad. Framstegen är synliga och mätbara med addition och subtraktion.`,
-        quote: 'Jag kan snabbt anpassa arbetsblad för varje elevs behov.',
-      },
-      {
-        id: '6',
-        icon: '💰',
-        title: 'Lärarentreprenörer',
-        subtitle: 'Sälja Arbetsblad Gratis och Målarbilder Barn på Teachers Pay Teachers',
-        description: `Lärarentreprenörer genererar inkomster med våra arbetsblad gratis. Den inkluderade kommersiella licensen tillåter omedelbar försäljning. Målarbilder barn säljer mycket bra på plattformar i matematik arbetsblad. Teachers Pay Teachers välkomnar dina skapelser med arbetsblad gratis.
-
-Skapa tematiska samlingar av arbetsblad gratis. Säsongspaket lockar köpare. Målarbilder barn kombinerat med storleksjämförelseövningar erbjuder mervärde i matematik arbetsblad. Lärare söker färdiga resurser med arbetsblad gratis.
-
-Etsy och Amazon KDP är andra lönsamma möjligheter för arbetsblad gratis. Gratisutsändningar blir betalda produkter med din personliga touch. Målarbilder barn utvecklas till aktivitetshäften i matematik arbetsblad. Din kreativitet tjänar pengar lätt med arbetsblad gratis.`,
-        quote: 'Min prenumeration betalade sig själv första månaden!',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // FAQ Section - Selected FAQs from big-small.md
@@ -392,68 +215,8 @@ Etsy och Amazon KDP är andra lönsamma möjligheter för arbetsblad gratis. Gra
     showLessLabel: 'Visa mindre',
     secureCheckout: 'Säker betalning',
     cancelAnytime: 'Avsluta när som helst',
-    items: [
-      {
-        id: '1',
-        question: 'Är Denna Generator för Arbetsblad Gratis Verkligen Gratis att Använda?',
-        answer: 'Generatorn för arbetsblad gratis kräver en Full Tillgång-prenumeration som kostar 240 euro per år eller 25 euro per månad. Din prenumeration ger dig obegränsad skapande av arbetsblad gratis utan extra avgifter per arbetsblad. Generera så många matematik arbetsblad som du behöver utan ytterligare kostnader. Full Tillgång-prenumerationen inkluderar alla 33 generatorer på plattformen. Grundpaketet-prenumerationen inkluderar 10 populära generatorer och kostar 144 euro per år. Båda prenumerationerna inkluderar kommersiell licensiering, support på 11 språk och professionella exporter i 300 DPI-kvalitet för arbetsblad gratis.',
-      },
-      {
-        id: '2',
-        question: 'Kan jag Skriva Ut Arbetsblad Gratis på en Vanlig Hemskrivare?',
-        answer: 'Alla arbetsblad gratis skrivs ut perfekt på en vanlig hemskrivare. Arbetsblad för storleksjämförelse och finmotorik övningar kommer ut i hög kvalitet. Upplösningen på 300 DPI garanterar skarpa bilder på matematik arbetsblad. PDF-formatet anpassar sig till alla typer av skrivare. Välj pappersformat som passar din skrivare för arbetsblad gratis. Letter för USA, A4 för Europa. Svartvit-alternativet sparar färgbläck för arbetsblad gratis.',
-      },
-      {
-        id: '3',
-        question: 'Krävs Designkunskaper för att Skapa Matematik Arbetsblad?',
-        answer: 'Inga designkunskaper krävs för att skapa arbetsblad gratis. Övningar med storleksjämförelse genereras automatiskt med några klick. Det intuitiva gränssnittet guidar varje steg i processen. Välj ett bildtema och klicka på generera för arbetsblad gratis. Redigeringsverktygen förblir enkla och tillgängliga för arbetsblad gratis. Din kreativitet uttrycks utan tekniska hinder.',
-      },
-      {
-        id: '4',
-        question: 'Kan jag Använda Arbetsblad Gratis i min Klass?',
-        answer: 'Full Tillgång-prenumerationen tillåter obegränsad användning i klassrummet med arbetsblad gratis. Arbetsblad om storleksjämförelse distribueras till alla dina elever. Skriv ut så många kopior som nödvändigt. Dela arbetsblad gratis med dina kollegor på skolan. Prenumerationen täcker alla pedagogiska användningar.',
-      },
-      {
-        id: '5',
-        question: 'Vilka Språk är Arbetsblad Gratis Tillgängliga på?',
-        answer: 'Arbetsblad gratis finns på 11 olika språk. Finmotorik övningar visas på svenska, tyska, spanska och italienska. Portugisiska, nederländska och skandinaviska språk erbjuds också för matematik arbetsblad. Denna mångfald svarar mot behoven i flerspråkiga klasser. Byt språk med ett enkelt klick för arbetsblad gratis.',
-      },
-      {
-        id: '6',
-        question: 'Kan jag Sälja Arbetsblad Gratis som jag Skapar?',
-        answer: 'Full Tillgång-prenumerationen inkluderar en fullständig kommersiell licens för arbetsblad gratis. Sälj dina arbetsblad på Teachers Pay Teachers. Publicera på Amazon KDP. Inga extra avgifter för den kommersiella licensen med arbetsblad gratis. Dina skapelser tillhör dig helt. Din kreativitet blir en inkomstkälla.',
-      },
-      {
-        id: '7',
-        question: 'Hur Anpassar jag Arbetsblad Gratis för mina Elever?',
-        answer: 'Anpassningen av arbetsblad gratis är total och intuitiv. Välj antal övningar och svårighetsgrad. Lägg till anpassad text med specifika instruktioner. Ladda upp dina egna bilder för mer anpassning. Skapa unika material för varje elev med arbetsblad gratis.',
-      },
-      {
-        id: '8',
-        question: 'Vilka Åldersgrupper Passar Bäst för Storleksjämförelseövningar?',
-        answer: 'Storleksjämförelseövningar passar barn från 3 till 8 år med arbetsblad gratis. I förskolan räcker övningar med 2 bilder. I förskoleklass och årskurs 1-3 ökar komplexiteten progressivt med arbetsblad gratis. Finmotorik övningar utvecklas med storleksjämförelser.',
-      },
-      {
-        id: '9',
-        question: 'Kan jag Ladda Upp Mina Egna Bilder till Arbetsblad Gratis?',
-        answer: 'Import av personliga bilder stöds fullt ut för arbetsblad gratis. Dina övningar integrerar klassfoton. Ladda upp flera bilder i en enda operation för arbetsblad gratis. JPEG, PNG och GIF accepteras. Kombinera personliga bilder och bibliotek för mer variation. Ditt pedagogiska material blir verkligen unikt.',
-      },
-      {
-        id: '10',
-        question: 'Hur Lång Tid Tar det att Skapa Arbetsblad Gratis?',
-        answer: 'Att skapa arbetsblad gratis tar mindre än 3 minuter. Välj ett tema och konfigurera parametrarna. Arbetsbladet genereras automatiskt. Valfri anpassning lägger till några minuter. Jämför med traditionell manuell skapande som tog 30-60 minuter. Vår generator minskar denna tid med 90%.',
-      },
-      {
-        id: '11',
-        question: 'Inkluderar Arbetsblad Gratis Facit?',
-        answer: 'Varje genererat arbetsblad gratis har ett automatiskt facit. Facit använder tydliga visuella indikatorer. Gröna bockar markerar rätt svar. Ladda ner facit separat eller med arbetsblad gratis. Den pedagogiska hanteringen förblir flexibel.',
-      },
-      {
-        id: '12',
-        question: 'Kan jag Skapa Arbetsblad Gratis på Specifika Teman?',
-        answer: 'Arbetsblad gratis skapas på vilket tema du än väljer. Över 3000 bilder täcker alla ämnen. Djur, fordon, mat och säsongsbetonade teman finns tillgängliga. Skapa dina egna teman genom att importera bilder. Tematisk personalisering är obegränsad.',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Pricing
@@ -498,56 +261,8 @@ Etsy och Amazon KDP är andra lönsamma möjligheter för arbetsblad gratis. Gra
       securePayment: 'Säker betalning',
       cancelAnytime: 'Avsluta när som helst',
     },
-    items: [
-      {
-        id: '1',
-        slug: 'more-less',
-        name: 'Mer eller Mindre',
-        category: 'Matematik',
-        icon: '⚖️',
-        description: 'Kombinera storleksjämförelser med mer eller mindre övningar för att förstärka matematiska begrepp.',
-      },
-      {
-        id: '2',
-        slug: 'pattern-train',
-        name: 'Mönstertåg',
-        category: 'Logik',
-        icon: '🚂',
-        description: 'Lägg till mönsterigenkänningsövningar för att utveckla logiskt tänkande och sekvensförståelse.',
-      },
-      {
-        id: '3',
-        slug: 'matching-app',
-        name: 'Matchning',
-        category: 'Visuell Perception',
-        icon: '🔗',
-        description: 'Komplettera med matchningsövningar för att förstärka visuell diskriminering och kategorisering.',
-      },
-      {
-        id: '4',
-        slug: 'find-and-count',
-        name: 'Hitta och Räkna',
-        category: 'Matematik',
-        icon: '🔢',
-        description: 'Kombinera storleksjämförelse med räkning för att bygga taluppfattning.',
-      },
-      {
-        id: '5',
-        slug: 'picture-sort',
-        name: 'Bildsortering',
-        category: 'Kategorisering',
-        icon: '📊',
-        description: 'Utöka med sorteringsövningar för att utveckla klassificeringsförmåga.',
-      },
-      {
-        id: '6',
-        slug: 'coloring',
-        name: 'Målarbilder',
-        category: 'Kreativitet',
-        icon: '🎨',
-        description: 'Belöna färdiga storleksjämförelseövningar med tematiska målarbilder som utvecklar finmotorik.',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 };
 

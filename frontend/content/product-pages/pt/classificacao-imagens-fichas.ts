@@ -90,36 +90,8 @@ Professores de todo o Brasil confiam no LessonCraft Studio. Nossa plataforma ofe
     badgeText: 'Exemplos Grátis',
     downloadingLabel: 'Baixando...',
     ofLabel: 'de',
-    items: [
-      {
-        id: '1',
-        worksheetSrc: '/samples/portuguese/picture-sort/sample-1.jpeg',
-        answerKeySrc: '/samples/portuguese/picture-sort/sample-1-answer.jpeg',
-        altText: 'Atividade grátis de classificação de imagens - coordenação motora para educação infantil',
-        pdfDownloadUrl: '/samples/portuguese/picture-sort/sample-1.pdf',
-      },
-      {
-        id: '2',
-        worksheetSrc: '/samples/portuguese/picture-sort/sample-2.jpeg',
-        answerKeySrc: '/samples/portuguese/picture-sort/sample-2-answer.jpeg',
-        altText: 'Atividade grátis de classificação por categorias - atividade para crianças',
-        pdfDownloadUrl: '/samples/portuguese/picture-sort/sample-2.pdf',
-      },
-      {
-        id: '3',
-        worksheetSrc: '/samples/portuguese/picture-sort/sample-3.jpeg',
-        answerKeySrc: '/samples/portuguese/picture-sort/sample-3-answer.jpeg',
-        altText: 'Atividade para crianças de classificação - atividades grátis para imprimir',
-        pdfDownloadUrl: '/samples/portuguese/picture-sort/sample-3.pdf',
-      },
-      {
-        id: '4',
-        worksheetSrc: '/samples/portuguese/picture-sort/sample-4.jpeg',
-        answerKeySrc: '/samples/portuguese/picture-sort/sample-4-answer.jpeg',
-        altText: 'Imprimíveis grátis de classificação - atividade para educação infantil',
-        pdfDownloadUrl: '/samples/portuguese/picture-sort/sample-4.pdf',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Features Grid - FULL text from picture-sort.md feature sections
@@ -135,80 +107,8 @@ Professores de todo o Brasil confiam no LessonCraft Studio. Nossa plataforma ofe
       noHiddenFees: 'Sem taxas ocultas',
       cancelAnytime: 'Cancele quando quiser',
     },
-    items: [
-      {
-        id: '1',
-        icon: '⚡',
-        title: 'Criação Fácil - Atividade Grátis para Imprimir em 3 Cliques',
-        description: `Criar atividades para imprimir nunca foi tão simples. Selecione dois temas para as categorias de classificação. Clique em gerar e sua atividade educação infantil está pronta. Todo o processo leva menos de 3 minutos do início ao fim.
-
-Você pode escolher temas como animais, frutas, transportes e muito mais. O sistema seleciona automaticamente as imagens de cada tema. Até 12 imagens aparecem na atividade para classificação. Perfeito para atividades 1º ano com diferentes níveis de dificuldade.`,
-        highlighted: false,
-      },
-      {
-        id: '2',
-        icon: '✏️',
-        title: 'Edição Completa - Atividade Grátis para Crianças Personalizável',
-        description: `Cada elemento da sua atividade de alfabetização pode ser editado. Arraste imagens para qualquer posição da página. Gire, redimensione ou delete elementos com facilidade. A coordenação motora visual também é trabalhada no próprio design.
-
-Adicione textos personalizados com diferentes fontes. Escolha entre 7 opções de fontes infantis. Ajuste cores, tamanhos e contornos dos textos. Crie atividades vogais com instruções claras e bonitas.`,
-        highlighted: false,
-      },
-      {
-        id: '3',
-        icon: '📤',
-        title: 'Upload de Imagens - Atividade para Crianças Personalizada',
-        description: `Envie suas próprias imagens para criar atividades para imprimir exclusivas. O sistema aceita JPEG, PNG e GIF. Combine imagens enviadas com a biblioteca de 3000+ figuras. Crie desenhos para colorir únicos para sua turma.
-
-Professores usam fotos da escola ou mascote da turma. Personalize atividades educação infantil com rostos familiares. Crianças se engajam mais com imagens conhecidas. Upload múltiplo permite enviar várias imagens de uma vez.`,
-        highlighted: true,
-      },
-      {
-        id: '4',
-        icon: '🌍',
-        title: '11 Idiomas - Atividade Grátis para Educação Infantil',
-        description: `A interface funciona em 11 idiomas diferentes. Os nomes das imagens aparecem no idioma selecionado. Perfeito para atividades de alfabetização em português. Também disponível para escolas bilíngues.
-
-Idiomas incluem português, inglês, espanhol, alemão e francês. Também italiano, holandês, sueco, dinamarquês, norueguês e finlandês. Crie atividades alfabeto em qualquer um desses idiomas. Ideal para ensino de línguas estrangeiras.`,
-        highlighted: false,
-      },
-      {
-        id: '5',
-        icon: '💰',
-        title: 'Licença Comercial - Venda Imprimíveis Grátis que Você Cria',
-        description: `Sua assinatura Acesso Completo inclui licença comercial completa. Venda suas atividades para imprimir no Teachers Pay Teachers. Crie lojas no Etsy com atividades de matemática e classificação. Publique no Amazon KDP sem pagar taxas extras.
-
-A licença cobre uso print-on-demand ilimitado. Não precisa de atribuição nas vendas. Exportação em 300 DPI garante qualidade profissional. Muitos professores faturam R$2.000 a R$10.000 mensais vendendo materiais.`,
-        highlighted: true,
-      },
-      {
-        id: '6',
-        icon: '🎨',
-        title: 'Biblioteca 3000+ Imagens - Atividade para Crianças com Desenhos',
-        description: `Acesse mais de 3000 imagens infantis na biblioteca. Todas organizadas por temas fáceis de navegar. Busque por palavra-chave como "maçã" ou "carro". Desenhos para colorir e figuras coloridas disponíveis.
-
-Temas incluem animais, alimentos, transportes, profissões e natureza. Também escola, esportes, brinquedos, casa e muito mais. Cada atividade educação infantil pode usar imagens diferentes. Bordas e fundos temáticos também inclusos.`,
-        highlighted: false,
-      },
-      {
-        id: '7',
-        icon: '🖨️',
-        title: 'Qualidade 300 DPI - Imprimíveis Grátis em PDF',
-        description: `Todas as exportações têm resolução de 300 DPI. Suas atividades para imprimir ficam nítidas e profissionais. Baixe em PDF para impressão ou JPEG para digital. Opção de escala de cinza economiza tinta.
-
-Adicione campos de nome e data automaticamente. Ideal para organizar atividades de letra cursiva e pontilhado. O gabarito também é gerado com a mesma qualidade. Imprima em casa ou gráfica com resultados perfeitos.`,
-        highlighted: false,
-      },
-      {
-        id: '8',
-        icon: '📊',
-        title: 'Matemática e Tabuada - Atividades Grátis de Classificação',
-        description: `Use classificação para ensinar conceitos de atividades de matemática. Separe números pares de ímpares. Classifique quantidades maiores e menores. Prepare crianças para entender tabuada através de agrupamentos.
-
-A coordenação motora é desenvolvida junto com matemática. Crianças manipulam fichas enquanto classificam. Recortar e colar reforça o aprendizado numérico. Atividades 2º ano podem incluir classificação de resultados.`,
-        highlighted: false,
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // How-To Guide - FULL text from picture-sort.md step sections
@@ -290,80 +190,8 @@ Combine com atividades de letra cursiva para pacotes completos. Adicione folhas 
     badgeText: 'Para Quem',
     readMoreLabel: 'Leia mais',
     showLessLabel: 'Mostrar menos',
-    items: [
-      {
-        id: '1',
-        icon: '👩‍🏫',
-        title: 'Professores de Educação Infantil',
-        subtitle: 'Atividade Grátis para Educação Infantil com Coordenação Motora',
-        description: `Professores de educação infantil usam classificação diariamente. Atividades vogais ajudam no reconhecimento de letras. Crianças de 4 a 6 anos adoram separar figuras em categorias. A coordenação motora é desenvolvida naturalmente.
-
-Crie atividades alfabeto com classificação por letra inicial. Separe "Começa com A" de "Começa com B". Atividades educação infantil com imagens coloridas engajam os pequenos. Use desenhos para colorir após a classificação como recompensa.
-
-Na pré-escola, classificação ensina conceitos fundamentais. Igual e diferente, grande e pequeno, vivo e não-vivo. Prepare crianças para atividades 1º ano com estas bases. O raciocínio lógico começa na educação infantil.`,
-        quote: 'Meus alunos adoram separar as figuras em categorias diferentes!',
-      },
-      {
-        id: '2',
-        icon: '📚',
-        title: 'Professores do Ensino Fundamental',
-        subtitle: 'Atividades Grátis com Tabuada e Matemática',
-        description: `Professores de atividades 1º ano usam classificação para reforço. Separe palavras por famílias silábicas. Classifique números pares e ímpares. Introduza conceitos de atividades de matemática visualmente.
-
-Para atividades 2º ano, aumente a complexidade. Classifique resultados de operações matemáticas. Prepare conceitos de tabuada através de grupos. Separe "Resultados menores que 10" de "Resultados maiores que 10".
-
-Atividades de matemática com classificação fixam o aprendizado. Crianças manipulam conceitos concretamente. O ensino fundamental se beneficia muito desta abordagem. Combine com letra cursiva e pontilhado para pacotes completos.`,
-        quote: 'A classificação visual ajuda meus alunos a entender matemática!',
-      },
-      {
-        id: '3',
-        icon: '🏠',
-        title: 'Pais que Educam em Casa',
-        subtitle: 'Atividade para Educação Infantil com Desenhos para Colorir',
-        description: `Famílias que praticam homeschool adoram atividades para imprimir. Crie materiais personalizados para cada filho. Combine desenhos para colorir com classificação temática. Ensine em casa com qualidade profissional.
-
-Pais usam classificação para ensinar vocabulário. Separe animais domésticos de selvagens. Classifique alimentos saudáveis e não saudáveis. Atividades educação infantil ficam mais significativas em família.
-
-Prepare seus filhos para letra cursiva com coordenação motora. Atividades de pontilhado complementam a classificação. Crie rotinas de estudo com materiais variados. O aprendizado em casa fica mais organizado.`,
-        quote: 'Consigo criar atividades perfeitas para cada um dos meus filhos!',
-      },
-      {
-        id: '4',
-        icon: '🌍',
-        title: 'Professores de Línguas',
-        subtitle: 'Atividade para Crianças em 11 Idiomas',
-        description: `Professores de inglês usam classificação para vocabulário. Separe "Animals" de "Food" em atividades bilíngues. Atividades de alfabetização em dois idiomas simultaneamente. O gerador suporta 11 idiomas diferentes.
-
-Escolas bilíngues criam atividades vogais em português e inglês. Compare sons vocálicos entre idiomas. Atividades alfabeto mostram diferenças e semelhanças. Crianças aprendem duas línguas naturalmente.
-
-Professores de espanhol, francês e alemão também se beneficiam. Classifique palavras por gênero gramatical. Separe cognatos de falsos cognatos. Atividades de alfabetização multilíngue enriquecem o currículo.`,
-        quote: 'O suporte a 11 idiomas facilita muito meu trabalho!',
-      },
-      {
-        id: '5',
-        icon: '♿',
-        title: 'Professores de Educação Especial',
-        subtitle: 'Atividade para Crianças de Coordenação Motora Adaptada',
-        description: `Educação especial requer materiais adaptados. Atividades para imprimir com imagens grandes ajudam alunos com baixa visão. Coordenação motora é trabalhada em ritmo individualizado. Cada criança avança no seu tempo.
-
-Crie atividades com menos elementos para reduzir sobrecarga. Use categorias simples e claras. Atividades educação infantil adaptadas promovem inclusão. Todos os alunos participam da mesma atividade base.
-
-Desenvolva coordenação motora com recorte supervisionado. Atividades 1º ano podem ser simplificadas. Desenhos para colorir oferecem pausa sensorial. A flexibilidade do gerador atende necessidades especiais.`,
-        quote: 'Consigo adaptar cada atividade para as necessidades dos meus alunos!',
-      },
-      {
-        id: '6',
-        icon: '💼',
-        title: 'Professores Empreendedores',
-        subtitle: 'Atividade para Educação Infantil para Venda',
-        description: `Professores empreendedores faturam vendendo materiais. Atividades para imprimir de classificação vendem muito bem. Crie pacotes de atividades de matemática temáticos. Inclua fichas de tabuada visual para atrair compradores.
-
-No Teachers Pay Teachers, classificação é categoria popular. Venda atividades 1º ano e atividades 2º ano separadamente. Crie bundles com desenhos para colorir inclusos. A licença comercial Acesso Completo permite vendas ilimitadas.
-
-Monte lojas no Etsy com atividades para imprimir exclusivas. Tabuada visual atrai pais preocupados com matemática. Atividades vogais e alfabeto vendem o ano todo. Muitos professores faturam R$5.000 mensais com materiais digitais.`,
-        quote: 'Já faturei mais de R$3.000 vendendo minhas atividades online!',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Pricing - Full Access (Acesso Completo)
@@ -431,92 +259,8 @@ Monte lojas no Etsy com atividades para imprimir exclusivas. Tabuada visual atra
     showLessLabel: 'Mostrar menos',
     secureCheckout: 'Pagamento seguro',
     cancelAnytime: 'Cancele quando quiser',
-    items: [
-      {
-        id: '1',
-        question: 'O Gerador Oferece Atividade Grátis para Imprimir?',
-        answer: `O gerador de classificação requer assinatura Acesso Completo. O custo é $240 anuais ou $25 mensais. Sua assinatura permite criar atividades 1º ano ilimitadas. Não há taxas por atividade gerada.
-
-O Acesso Completo inclui 33 geradores de atividades para imprimir diferentes. Você acessa classificação, desenhos para colorir, letra cursiva e muito mais. O Pacote Essencial custa $144 anuais e inclui 10 apps populares. Classificação está disponível apenas no Acesso Completo.`,
-      },
-      {
-        id: '2',
-        question: 'Posso Imprimir Atividades Grátis de Classificação em Casa?',
-        answer: `Sim, todas as atividades de alfabetização imprimem perfeitamente em impressoras domésticas. A resolução de 300 DPI garante qualidade profissional. Atividades vogais ficam nítidas em papel comum ou sulfite.
-
-Use a opção escala de cinza para economizar tinta colorida. Atividades de alfabetização em preto e branco funcionam muito bem. Crianças podem colorir as imagens após classificar. Isso transforma a atividade em desenhos para colorir também.`,
-      },
-      {
-        id: '3',
-        question: 'Preciso de Design para Criar Atividade Grátis para Educação Infantil?',
-        answer: `Não é necessário nenhum conhecimento técnico. O gerador de atividades educação infantil é intuitivo. Basta selecionar temas e clicar em gerar. Sua atividade fica pronta em menos de 3 minutos.
-
-A interface funciona em português brasileiro. Todos os botões e menus são claros e simples. Professores de qualquer idade usam sem dificuldade. O suporte está disponível se precisar de ajuda.`,
-      },
-      {
-        id: '4',
-        question: 'Posso Usar Atividades Grátis de Classificação na Sala de Aula?',
-        answer: `A assinatura Acesso Completo inclui uso ilimitado em sala de aula. Imprima quantas cópias precisar para atividades 2º ano. Não há limite de alunos ou turmas atendidas. Use em todas as suas classes sem restrições.
-
-Professores de atividades 1º ano e atividades 2º ano usam diariamente. A classificação funciona para qualquer faixa etária. Adapte a complexidade conforme a turma. O mesmo gerador serve múltiplas séries.`,
-      },
-      {
-        id: '5',
-        question: 'Quais Idiomas Oferecem Imprimíveis Grátis de Classificação?',
-        answer: `O gerador suporta 11 idiomas completos. Português brasileiro é totalmente suportado. Também disponível em inglês, espanhol, alemão e francês. Italiano, holandês, sueco, dinamarquês, norueguês e finlandês completam a lista.
-
-Atividades de alfabetização aparecem no idioma selecionado. Os nomes das imagens são traduzidos automaticamente. Crie tabuada visual em qualquer idioma para escolas bilíngues. A flexibilidade multilíngue é exclusiva da nossa plataforma.`,
-      },
-      {
-        id: '6',
-        question: 'Posso Vender Atividade Grátis para Crianças que Crio?',
-        answer: `Sim, a assinatura Acesso Completo inclui licença comercial completa. Venda atividades 1º ano no Teachers Pay Teachers sem restrições. Crie lojas no Etsy com atividades 2º ano e desenhos para colorir. Publique no Amazon KDP livros de atividades.
-
-A licença cobre uso print-on-demand ilimitado. Não precisa de atribuição nos materiais vendidos. Muitos professores faturam R$5.000 mensais vendendo online. Desenhos para colorir com classificação são muito populares.`,
-      },
-      {
-        id: '7',
-        question: 'Como Personalizo Atividades Grátis de Classificação?',
-        answer: `O canvas permite edição completa de atividades de matemática. Arraste imagens para qualquer posição. Adicione textos personalizados com instruções específicas. Inclua conceitos de tabuada através de agrupamentos visuais.
-
-Escolha entre 7 fontes infantis diferentes. Ajuste cores e tamanhos de texto. Adicione bordas e fundos temáticos. Cada atividade de tabuada visual fica única para sua turma.`,
-      },
-      {
-        id: '8',
-        question: 'Para Quais Idades Funcionam Atividade para Crianças de Classificação?',
-        answer: `Classificação funciona de 3 a 10 anos. Educação infantil usa categorias simples como animais e frutas. Atividades 1º ano trabalham classificação por letra inicial. Atividades 2º ano incluem classificação numérica.
-
-Combine classificação com preparação para letra cursiva. O recorte e colagem desenvolve coordenação motora. Depois, crianças estão prontas para pontilhado e traçado. A sequência prepara para escrita formal.`,
-      },
-      {
-        id: '9',
-        question: 'Posso Enviar Imagens Próprias para Atividades Grátis?',
-        answer: `Sim, o upload de imagens próprias está disponível. Envie fotos da escola, mascote da turma ou alunos. Combine com imagens da biblioteca de 3000+ figuras. Atividades educação infantil ficam personalizadas.
-
-O sistema aceita JPEG, PNG e GIF. Upload múltiplo permite enviar várias imagens de uma vez. Coordenação motora com imagens familiares engaja mais as crianças. Personalize classificação para projetos específicos.`,
-      },
-      {
-        id: '10',
-        question: 'Quanto Tempo para Criar Imprimíveis Grátis de Classificação?',
-        answer: `Uma atividade completa fica pronta em menos de 3 minutos. Selecione temas, clique em gerar, baixe o PDF. Atividades vogais e alfabeto seguem o mesmo processo rápido. Tabuada visual com classificação leva o mesmo tempo.
-
-Professores criam semanas de material em uma tarde. O gabarito é gerado automaticamente junto. Não há tempo de espera ou processamento longo. Atividades para imprimir ficam prontas instantaneamente.`,
-      },
-      {
-        id: '11',
-        question: 'As Atividades Grátis Incluem Gabarito?',
-        answer: `Sim, o gabarito é gerado automaticamente. Clique em "Criar Gabarito" após gerar a atividade. As imagens aparecem já classificadas corretamente. A correção fica instantânea para o professor.
-
-O gabarito não inclui letra cursiva ou pontilhado, mas você pode adicionar. Use o gerador de escrita para criar folhas de letra cursiva. O gerador de coordenação motora oferece pontilhado. Combine os três para pacotes completos.`,
-      },
-      {
-        id: '12',
-        question: 'Posso Criar Atividade Grátis para Educação Infantil de Qualquer Tema?',
-        answer: `Sim, a biblioteca tem mais de 3000 imagens organizadas por temas. Encontre animais, alimentos, transportes, profissões e natureza. Também escola, esportes, brinquedos, casa e festas. Desenhos para colorir estão inclusos em todos os temas.
-
-Busque por palavra-chave como "dinossauro" ou "festa junina". Crie atividades para imprimir temáticas para qualquer projeto. Combine classificação com desenhos para colorir relacionados. Cada tema oferece dezenas de imagens diferentes.`,
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Related Apps Section
@@ -533,48 +277,8 @@ Busque por palavra-chave como "dinossauro" ou "festa junina". Crie atividades pa
       securePayment: 'Pagamento seguro',
       cancelAnytime: 'Cancele quando quiser',
     },
-    items: [
-      {
-        id: '1',
-        slug: 'atividades-matematica-fichas',
-        name: 'Atividades de Matemática',
-        category: 'Matemática',
-        icon: '➕',
-        description: 'Combine classificação com geradores de adição e subtração. Crie pacotes de atividades de matemática completos.',
-      },
-      {
-        id: '2',
-        slug: 'trem-alfabeto-fichas',
-        name: 'Trenzinho do Alfabeto',
-        category: 'Alfabetização',
-        icon: '🔤',
-        description: 'Use classificação junto com o gerador de alfabeto. Crianças classificam e depois escrevem.',
-      },
-      {
-        id: '3',
-        slug: 'tracar-linhas-fichas',
-        name: 'Traçar Linhas',
-        category: 'Coordenação Motora',
-        icon: '✏️',
-        description: 'Complemente classificação com folhas de escrita. A sequência desenvolve coordenação motora.',
-      },
-      {
-        id: '4',
-        slug: 'desenhos-colorir-fichas',
-        name: 'Desenhos para Colorir',
-        category: 'Arte',
-        icon: '🎨',
-        description: 'Adicione páginas de colorir após a classificação. Atividades educação infantil mais completas.',
-      },
-      {
-        id: '5',
-        slug: 'caca-palavras-fichas',
-        name: 'Caça-Palavras',
-        category: 'Vocabulário',
-        icon: '🔢',
-        description: 'Combine com caça-palavras para vocabulário. Classificação e busca trabalham juntas.',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 };
 

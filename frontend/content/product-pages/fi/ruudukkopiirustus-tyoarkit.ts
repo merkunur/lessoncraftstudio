@@ -64,50 +64,8 @@ Generaattori luo kaksi vierekkäistä ruudukkoa: viheruudukko paljastaa osan kuv
     badgeText: 'Ilmaiset Esimerkit',
     downloadingLabel: 'Ladataan...',
     ofLabel: '/',
-    items: [
-      {
-        id: '1',
-        worksheetSrc: '/samples/finnish/draw and color/sample-1.jpeg',
-        answerKeySrc: '',
-        altText: 'Ruudukkopiirustus tehtävä lapsille tulostettava esiopetukseen',
-        pdfDownloadUrl: '/samples/finnish/draw and color/sample-1.pdf',
-      },
-      {
-        id: '2',
-        worksheetSrc: '/samples/finnish/draw and color/sample-2.jpeg',
-        answerKeySrc: '',
-        altText: 'Ruudukkopiirustus tehtävä alakoululaisille hienomotoriikka harjoitus',
-        pdfDownloadUrl: '/samples/finnish/draw and color/sample-2.pdf',
-      },
-      {
-        id: '3',
-        worksheetSrc: '/samples/finnish/draw and color/sample-3.jpeg',
-        answerKeySrc: '',
-        altText: 'Ruudukkopiirustus tehtävä koordinaattiharjoitus lapsille',
-        pdfDownloadUrl: '/samples/finnish/draw and color/sample-3.pdf',
-      },
-      {
-        id: '4',
-        worksheetSrc: '/samples/finnish/draw and color/sample-4.jpeg',
-        answerKeySrc: '',
-        altText: 'Ruudukkopiirustus tehtävä visuaalinen hahmotus esiopetus materiaali',
-        pdfDownloadUrl: '/samples/finnish/draw and color/sample-4.pdf',
-      },
-      {
-        id: '5',
-        worksheetSrc: '/samples/finnish/draw and color/sample-5.jpeg',
-        answerKeySrc: '',
-        altText: 'Ruudukkopiirustus tehtävä spatiaalinen päättely alakoulu',
-        pdfDownloadUrl: '/samples/finnish/draw and color/sample-5.pdf',
-      },
-      {
-        id: '6',
-        worksheetSrc: '/samples/finnish/draw and color/sample-6.jpeg',
-        answerKeySrc: '',
-        altText: 'Ruudukkopiirustus tehtävä pikselipiirustus lapsille',
-        pdfDownloadUrl: '/samples/finnish/draw and color/sample-6.pdf',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Features Grid - FULL text from Finnish draw-and-color.md feature sections
@@ -123,112 +81,8 @@ Generaattori luo kaksi vierekkäistä ruudukkoa: viheruudukko paljastaa osan kuv
       noHiddenFees: 'Ei piilomaksuja',
       cancelAnytime: 'Peruuta milloin tahansa',
     },
-    items: [
-      {
-        id: '1',
-        icon: '⚡',
-        title: 'Luo Tehtäviä Kolmessa Klikkauksessa',
-        description: `Ruudukkopiirustustehtävien luominen on uskomattoman nopeaa ja yksinkertaista. Valitse kuva yli 3000 kuvan kirjastosta tai lataa oma kuva. Säädä ruudukon kokoa ja vaikeustasoa. Klikkaa "Generoi" ja tehtäväsi on valmis.
-
-Koko prosessi kestää alle 3 minuuttia alusta loppuun. Ei tarvitse monimutkaiseen suunnitteluohjelmistoon. Ei tarvitse taiteilutaitoja. Generaattori tekee kaiken teknisen työn puolestasi.
-
-Esiopetus materiaali ilmainen -tehtävien luominen on tehty mahdollisimman helpoksi. Valitse teema, säädä asetukset ja lataa. Yksinkertainen kolmen vaiheen prosessi takaa nopeat tulokset joka kerta.
-
-Voit luoda tulostettavat tehtävät lapsille ilmainen eritasoisille oppilaille. Aloittelijoille isompi ruudukko ja enemmän vihjeitä. Edistyneemmille pienempi ruudukko ja vähemmän vihjeitä. Mukauta vaikeustaso täydellisesti oppilaidesi taitotasolle.`,
-        highlighted: false,
-      },
-      {
-        id: '2',
-        icon: '✏️',
-        title: 'Muokkaa Kaikkea Pohjalla',
-        description: `Kaikki ruudukkopiirustustehtävässäsi on täysin muokattavissa luomisen jälkeen. Vedä tekstiä uuteen paikkaan. Kierrä elementtejä. Muuta kokoja vetämällä kulmista. Poista elementtejä, jotka eivät toimi.
-
-Täysi muokattavuus tarkoittaa täydellistä kontrollia. Lisää ohjeteksti esiopetusikäisille lapsille. Lisää nimikentät tai päivämääräkentät. Mukauta värityskuvia lapsille tulostettava -tehtävät täsmälleen haluamaksesi.
-
-Pohjalla toimii Fabric.js-editori, joka antaa ammattitason muokkaustyökalut. Tasohallinta, kohdistustyökalut ja lukitustoiminnot. Kaikki saatavilla intuitiivisesta kontekstinauhasta, joka ilmestyy, kun valitset elementin.
-
-Kumoa ja toista -toiminnot tallentavat 20 viimeistä muokkausta. Tee rohkeita muutoksia tietäen, että voit aina peruuttaa. Kokeile erilaisia asetteluja löytääksesi täydellisen ulkoasun hienomotoriikka harjoitukset -tehtävillesi.`,
-        highlighted: false,
-      },
-      {
-        id: '3',
-        icon: '📤',
-        title: 'Lataa Omia Kuvia',
-        description: `Lataa omia kuvia luodaksesi personoituja ruudukkopiirustustehtäviä oppilaillesi. Monilataus tukee JPEG, PNG ja GIF -formaatteja. Yhdistä kirjaston kuvia omiin kuvilisi.
-
-Henkilökohtaiset kuvat tekevät värityskuvia lapsille tulostettava -tehtävistä merkityksellisempiä oppilaille. Käytä luokkahuoneen lemmikkieläimen kuvaa. Lataa koulun maskotit. Luo tehtäviä oppilaiden harrastuksista.
-
-Oma kuvien lataus avaa rajattomat mahdollisuudet. Luo teemaviikko-tehtäviä paikallisista maamerkeistä. Tee esiopetus materiaali ilmainen perhekuvista. Mukauta jokainen tehtävä oppilaittesi kiinnostuksen kohteiden mukaan.
-
-Ladatut kuvat pysyvät saatavilla koko istunnon ajan. Luo useita tulostettavat tehtävät lapsille ilmainen -variaatioita samasta ladatusta kuvasta. Vaihda vaikeustasoja tai ruudukon kokoja käyttäen samaa henkilökohtaista kuvaa.`,
-        highlighted: false,
-      },
-      {
-        id: '4',
-        icon: '🌍',
-        title: '11 Kielen Tuki',
-        description: `Ruudukkopiirustustehtävägeneraattori tukee 11 kieltä: suomi, englanti, saksa, ranska, espanja, portugali, italia, hollanti, ruotsi, tanska ja norja. Kaikki käyttöliittymätekstit ja kuvakirjaston nimet käännetty jokaiselle kielelle.
-
-Monikielinen tuki on kriittisen tärkeää ESL-opettajille ja kaksikielisille kouluille. Luo matematiikka tehtävät alakoulu suomeksi aamupäivällä ja englanniksi iltapäivällä. Opeta samoja käsitteitä eri kielillä.
-
-Kansainväliset koulut hyötyvät monikielisestä tuesta. Luo esiopetus materiaali ilmainen kaikille koulussa puhutuille kielille. Tue perintökieliohjelmia värityskuvia lapsille tulostettava -tehtävillä lapsen äidinkielellä.
-
-Kielituki ulottuu myös kuvakirjastoon. Kuvatiedostojen nimet käännetty 11 kielelle. Tämä tekee lukemaan oppiminen tehtävät -luomisesta helppoa millä tahansa tuetulla kielellä. Hae kuvia termillä "kissa" suomeksi tai "cat" englanniksi.`,
-        highlighted: false,
-      },
-      {
-        id: '5',
-        icon: '💰',
-        title: 'Kaupallinen Lisenssi Mukana',
-        description: `Täysi Käyttöoikeus -tilauksesi sisältää täyden kaupallisen print-on-demand -lisenssin ilman lisäkustannuksia. Myy luomiasi ruudukkopiirustustehtäviä Teachers Pay Teachers -palvelussa, Etsyssä tai Amazon KDP:ssä. Ei tekijänmainintoja vaadita.
-
-Kaupallinen lisenssi avaa tulonlähteen opettajayrittäjille. Monet opettajat tienaavat 500-5000€ kuukaudessa myymällä tulostettavat tehtävät lapsille ilmainen -materiaaleja verkossa. Värityskuvia lapsille tulostettava -tehtävät myyvät erityisen hyvin.
-
-Luo tehtäväpaketteja eri teemoista ja myy digitaalisina latauksina. Sesonkitehtävät (joulu, pääsiäinen, koulujen alkaminen) myyvät hyvin. 300 DPI -vientilaatuinen PDF sopii täydellisesti ammattimaiseen myyntiin.
-
-Kilpailijat veloittavat 100-200€ vuodessa ylimääräistä kaupallisesta lisenssistä. Täysi Käyttöoikeus sisältää sen ilman lisäkustannuksia. Säästät rahaa ja saat heti pääsyn kaikille 33 generaattorille.`,
-        highlighted: true,
-      },
-      {
-        id: '6',
-        icon: '🎨',
-        title: '3000+ Kuvakirjasto',
-        description: `Käytössäsi on yli 3000 lapsiystävällistä kuvaa järjestetty teemoittain. Eläimet, ajoneuvot, ruoka, luonto, ammattit ja paljon muuta. Jokainen kuva optimoitu värityskuvia lapsille tulostettava -tehtäviin.
-
-Teemapohjainen järjestely tekee oikean kuvan löytämisestä nopeaa. Selaa teemat nähdäksesi kaikki tietyn kategorian kuvat. Tai käytä hakutoimintoa löytääksesi tarkalleen mitä tarvitset. Haku toimii kaikilla 11 kielellä.
-
-Kuvakirjasto sisältää kuvat, jotka toimivat täydellisesti ruudukkopiirustustehtävissä. Selkeät ääriviivat ja tunnistettavat muodot. Ei liian yksityiskohtaisia kuvia, jotka olisivat liian vaikeita pikseloida. Jokainen kuva testattu esiopetus materiaali ilmainen -käyttöön.
-
-Uusia kuvia lisätään säännöllisesti. Tilauksesi antaa pääsyn kasvavaan kirjastoon. Kaikki taustat ja reunukset sisältyvät. Ei per-kuva -maksuja kuten kilpailijoilla. Luo tulostettavat tehtävät lapsille ilmainen käyttäen mitä tahansa kirjaston kuvista.`,
-        highlighted: false,
-      },
-      {
-        id: '7',
-        icon: '🖨️',
-        title: 'Ammattimainen 300 DPI Laatu',
-        description: `Kaikki ruudukkopiirustustehtävät viedään ammattilaatuisella 300 DPI -resoluutiolla. Terävät viivat, selkeät ruudukot ja täydelliset tulostukset joka kerta. JPEG- ja PDF-muodot saatavilla.
-
-300 DPI -laatu tarkoittaa ammattitason tulostuksia. Täydellinen luokkahuonekäyttöön normaalilla tulostimella. Täydellinen myyntiin Teachers Pay Teachers -palvelussa. Täydellinen julkaisemiseen Amazon KDP:ssä värityskuvia lapsille tulostettava -kirjoina.
-
-Harmaasävyvaihtoehto säästää mustetta tulostettaessa. Muunna tehtävä harmaasävyksi ennen latausta. Säilytä kaikki yksityiskohdat käyttäen vähemmän värimustetta. Täydellinen kouluille, joilla on rajalliset tulostusbudjetit.
-
-PDF-vienti säilyttää vektorlaadun tekstille ja terävät reunat ruudukoille. Skaalautuva mikä tahansa kokoon ilman laadun menetystä. Lataa kerran ja tulosta montaa eri kokoa tarpeen mukaan esiopetus materiaali ilmainen -materiaaleihin.`,
-        highlighted: true,
-      },
-      {
-        id: '8',
-        icon: '📝',
-        title: 'Säädettävä Vaikeustaso',
-        description: `Säädä ruudukon kokoa oppilaittesi taitotason mukaan. Pienempi ruudukko (3×3 tai 4×4) sopii nuoremmille lapsille. Suurempi ruudukko (9×9 tai 10×10) haastaa vanhempia oppilaita. Valitse riviä ja sarakeita vastaamaan hienomotoriikka harjoitukset -taitoja.
-
-Vihjeprosentin säätäminen kontrolloi vaikeustasoa. 70-90% vihjeitä tekee tehtävästä helpomman esiopetusikäisille. 20-40% vihjeitä luo haastavan matematiikka tehtävät alakoulu -aktiviteetin. Liukusäädin tekee säätämisestä intuitiivista.
-
-Peilausasetukset luovat symmetrisiä kuvioita. Valitse vaakapeilaus vasemmasta oikealle symmetrialle. Valitse pystypeilaus ylhäältä alas symmetrialle. Symmetriset kuviot ovat helpompia lapsille seurata.
-
-Sivukoko vaikuttaa tulostuskokoon. Letter Portrait (8.5×11") on standardi Yhdysvalloissa. A4 Portrait (210×297mm) on standardi Euroopassa ja Suomessa. Valitse maisema-asento leveämmille ruudukoille.`,
-        highlighted: false,
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // How-To Guide - FULL text from Finnish draw-and-color.md step sections
@@ -320,86 +174,8 @@ Harmaasävyvaihtoehto säästää mustetta tulostettaessa. Valitse ennen lataami
     badgeText: 'Kenelle Soveltuu',
     readMoreLabel: 'Lue lisää',
     showLessLabel: 'Näytä vähemmän',
-    items: [
-      {
-        id: '1',
-        icon: '👶',
-        title: 'Esiopetuksen Opettajat',
-        subtitle: 'Hienomotoriikka ja koordinaatio',
-        description: `Esiopetuksen opettajat käyttävät ruudukkopiirustustehtäviä hienomotoristen taitojen kehittämiseen. Tarkat väritystehtävät parantavat kynäotetta. Ruudukkokoordinaattien seuraaminen kehittää silmän ja käden yhteistyötä. Nämä taidot ovat perusta kirjoituksen oppimiselle.
-
-Esiopetusikäiset lapset (5-6-vuotiaat) rakastavat värityskuvia lapsille tulostettava -tehtäviä. Yhdistää leikkiä oppimiseen. Tehtävät tuntuvat hauskalta pulmalta, ei tylsältä harjoitukselta. Oppilaat eivät edes huomaa harjoittelevansa tärkeitä esiopetus materiaali ilmainen -taitoja.
-
-Ruudukot opettavat spatiaalista hahmotusta esiopetuksessa. Lapset oppivat ymmärtämään "vasemmalla", "oikealla", "ylhäällä" ja "alhaalla". Nämä käsitteet ovat tärkeitä lukemisen ja matematiikan valmiuksille.
-
-Säädettävä vaikeustaso mahdollistaa eriyttämisen esiopetusluokassa. Jotkut lapset ovat valmiita monimutkaisempiin kuvioihin. Toiset tarvitsevat enemmän vihjeitä ja isompia ruudukoita.`,
-      },
-      {
-        id: '2',
-        icon: '🏫',
-        title: 'Alakoulun Opettajat',
-        subtitle: 'Matematiikka ja koordinaatit',
-        description: `Alakoulun opettajat (1.-3. luokka) käyttävät ruudukkopiirustustehtäviä matematiikan opetuksessa. Ruudukot opettavat koordinaattijärjestelmää. Oppilaat oppivat rivejä ja sarakkeita. Nämä ovat perustaitoja myöhemmälle geometrialle ja algebralle.
-
-Matematiikka tehtävät alakoulu -aktiviteetit tekevät ruudukoista hauskoja. Perinteinen koordinaattiopetus voi olla kuivaa. Ruudukkopiirustus tekee konseptista visuaalisen ja sitouttavan.
-
-Yhdistä ruudukkopiirustustehtävät muihin matematiikan aiheisiin. Käytä symmetrisiä kuvioita opettamaan peilaamista. Laske kuinka monta ruutua väritetty opettaaksesi laskemista.
-
-Ensimmäisen luokan oppilaat (6-7-vuotiaat) aloittavat yksinkertaisilla ruudukoilla. Toisen luokan oppilaat (7-8-vuotiaat) siirtyvät keskikokoisiin haasteisiin. Kolmannen luokan oppilaat (8-9-vuotiaat) ratkaisevat monimutkaisia kuvioita vähäisillä vihjeillä.`,
-      },
-      {
-        id: '3',
-        icon: '🏠',
-        title: 'Kotiopettajat',
-        subtitle: 'Joustava monitasoinen opetus',
-        description: `Kotiopettajat hyötyvät erityisesti ruudukkopiirustustehtävien mukautettavuudesta. Opeta useita lapsia eri ikäryhmistä samanaikaisesti. Luo helpompia värityskuvia lapsille tulostettava nuoremmalle lapselle. Anna haastavammat tehtävät vanhemmalle lapselle.
-
-Kotiopetuksen joustavuus mahdollistaa teemojen syväluotaamisen. Luo viikon mittainen projekti tietystä aiheesta. Maanantaina eläinruudukot. Tiistaina kasvit. Keskiviikkona ajoneuvot.
-
-Ruudukkopiirustustehtävät täyttävät useita oppiainealueita kotiopetuksessa. Taide (väritys ja luovuus). Matematiikka (ruudukoiden ja koordinaattien ymmärtäminen). Hienomotoriikka harjoitukset (kynäote ja tarkkuus).
-
-Ei aikaa vieviä valmisteluja tai kalliita materiaaleja. Lataa, tulosta ja aloita. Täydellinen kiireisille kotiopettajavanhemmille, jotka tasapainottelevat useita vastuita.`,
-      },
-      {
-        id: '4',
-        icon: '🌐',
-        title: 'Kielenopettajat',
-        subtitle: 'Monikielinen opetus',
-        description: `Kielenopettajat käyttävät ruudukkopiirustustehtävien 11 kielen tukea ESL- ja kaksikielisessä opetuksessa. Lataa samat tehtävät suomeksi ja englanniksi. Opeta sanastoa molemmilla kielillä käyttäen samoja kuvia.
-
-Kuvakirjaston nimet ovat käännetty kaikille 11 kielelle. Tämä tekee lukemaan oppiminen tehtävät -luomisesta helppoa millä tahansa tuetulla kielellä. Oppilaat näkevät sanan "kissa" suomeksi ja "cat" englanniksi.
-
-Kaksikieliset ohjelmat hyötyvät visuaalisesta oppimisesta. Ruudukkopiirustus ei ole kieliriippuvaista aktiviteettia. Ohjeet voidaan antaa millä tahansa kielellä.
-
-Maailmankoulut, joissa on oppilaita monista maista, käyttävät ruudukkopiirustustehtäviä. Luo esiopetus materiaali ilmainen kaikille koulussa puhutuille kielille.`,
-      },
-      {
-        id: '5',
-        icon: '🧩',
-        title: 'Erityisopettajat',
-        subtitle: 'Eriytetty opetus ja tuki',
-        description: `Erityisopettajat käyttävät ruudukkopiirustustehtäviä eriyttävän opetuksen työkaluna. Säädä vaikeustasoa vastaamaan jokaisen oppilaan kykyjä. Isommat ruudukot ja enemmän vihjeitä oppilaille, jotka tarvitsevat lisätukea.
-
-Hienomotoriset haasteet ovat yleisiä erityisopetuksessa. Ruudukkopiirustustehtävät tarjoavat strukturoitua harjoitusta. Selkeät rajat jokaiselle ruudulle opettavat kontrollia.
-
-Visuaaliset oppijat menestyvät ruudukkopiirustustehtävissä. Ei sanallisia ohjeita, joita voi olla vaikea seurata. Pelkkä visuaalinen malli kopioitavaksi.
-
-Luo onnistumisen kokemuksia kaikille oppilaille. Aloita hyvin helpolla tehtävällä rakentaaksesi itseluottamusta. Nosta vaikeustasoa vähitellen oppilaan kehittyessä.`,
-      },
-      {
-        id: '6',
-        icon: '💼',
-        title: 'Opettajayrittäjät',
-        subtitle: 'Kaupallinen lisenssi myyntiin',
-        description: `Opettajayrittäjät tienaavat tuloja myymällä ruudukkopiirustustehtäviä verkossa. Teachers Pay Teachers, Etsy ja Amazon KDP ovat suosittuja alustoja. Täysi Käyttöoikeus -tilaus sisältää kaupallisen lisenssin. Ei tekijänmainintoja vaadita.
-
-Monet opettajat tienaavat 500-5000€ kuukaudessa myymällä tulostettavat tehtävät lapsille ilmainen -materiaaleja. Ruudukkopiirustustehtävät myyvät hyvin. Ainutlaatuinen tuotetyyppi, joka erottuu markkinapaikalla.
-
-Luo tehtäväpaketteja teemoittain maksimoidaksesi myyntiä. "Eläinten ruudukkopiirustus -paketti - 20 tehtävää" myy paremmin kuin yksittäiset tehtävät. Sesonkiteemat (joulu, pääsiäinen, koulujen alkaminen) myyvät erityisen hyvin.
-
-300 DPI -laatu takaa ammattimaiset tulostukset ostajille. Asiakkaat luottavat korkealaatuisiin tuotteisiin. Generaattorimme takaa ammattitason tulokset joka kerta.`,
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // FAQ Section - FULL text from Finnish draw-and-color.md
@@ -413,78 +189,8 @@ Luo tehtäväpaketteja teemoittain maksimoidaksesi myyntiä. "Eläinten ruudukko
     showLessLabel: 'Näytä vähemmän',
     secureCheckout: 'Turvallinen maksu',
     cancelAnytime: 'Peruuta milloin tahansa',
-    items: [
-      {
-        id: '1',
-        question: 'Onko Tämä Ruudukkopiirustustehtävägeneraattori Todella Ilmainen Käyttää?',
-        answer: `Ruudukkopiirustustehtävägeneraattori vaatii Täysi Käyttöoikeus -tilauksen, joka maksaa 240€ vuodessa tai 25€ kuukaudessa. Tilauksesi antaa rajattoman ruudukkopiirustustehtävien luomisen ilman per-tehtävä -maksuja. Generoi niin monta tulostettavat tehtävät lapsille ilmainen -tehtävää kuin tarvitset ilman lisäkustannuksia.
-
-Peruspaketti sisältää 10 suosittua tehtävägeneraattoria ja maksaa 144€ vuodessa. Täysi Käyttöoikeus -tilaus maksaa 240€ vuodessa ja sisältää kaikki 33 tehtävägeneraattorityyppiä mukaan lukien ruudukkopiirustus. Molemmat tilaukset sisältävät kaupallisen lisenssin, 11 kielen tuen ja ammattimaisen 300 DPI -laatuiset viennit.`,
-      },
-      {
-        id: '2',
-        question: 'Voinko Tulostaa Tehtäviä Kotona Tavallisella Tulostimella?',
-        answer: `Kyllä. Kaikki ruudukkopiirustustehtävät on suunniteltu tulostettavaksi tavallisella kotitulostimella. 300 DPI -laatu takaa terävät viivat ja selkeät ruudukot missä tahansa kuluttajatulostimessa. Ei tarvitse erikoistulostimiin tai ammattilaisiin tulostuspalveluihin.
-
-Valitse Letter (8.5×11") tai A4 (210×297mm) sivukoko vastaamaan tulostimesi paperia. Molemmat koot toimivat täydellisesti. Harmaasävyvaihtoehto säästää värimustetta. Muunna värillinen tehtävä mustavalkoiseksi ennen tulostusta säästääksesi 70% musteesta.
-
-PDF-vienti toimii parhaiten tulostukseen. PDF säilyttää täydellisen laadun ja toimii kaikissa tulostimissa.`,
-      },
-      {
-        id: '3',
-        question: 'Tarvitsenko Suunnittelutaitoja Luodakseni Ruudukkopiirustustehtäviä?',
-        answer: `Ei. Ruudukkopiirustustehtävägeneraattori on suunniteltu opettajille ilman suunnittelukokemusta. Valitse kuva, säädä asetukset ja klikkaa generoi. Generaattori tekee kaiken teknisen työn puolestasi. Ei tarvitse Photoshoppia, Canvaa tai muita suunnittelutyökaluja.
-
-Intuitiivinen käyttöliittymä opastaa jokaisen vaiheen läpi. Selkeät otsikot ja yksinkertaiset kontrollit. Ei monimutkaisia valikoita tai piilotettuja asetuksia.
-
-Pohjalla oleva muokkain antaa lisäkontrollia niille, jotka haluavat mukautusta. Mutta perustason käyttö ei vaadi mitään muokkausta. Generoidut tehtävät ovat valmiita tulostettaviksi sellaisenaan.`,
-      },
-      {
-        id: '4',
-        question: 'Voinko Käyttää Ruudukkopiirustustehtäviä Luokkahuoneessani?',
-        answer: `Täysi Käyttöoikeus -tilaus sisältää rajattoman luokkahuonekäytön. Tulosta niin monta kappaletta kuin tarvitset oppilaillesi. Jaa digitaalisesti Google Classroomin kautta. Käytä dokumenttikameroissa. Ei rajoituksia luokkahuonekäytölle.
-
-Luo eriytettyjä tehtäviä eri taitotasoille. Helpommat tehtävät tukea tarvitseville oppilaille. Haastavammat tehtävät edistyneille oppilaille.
-
-Säilytä tehtävät sijaiskansiossa. Luo viikon verran aktiviteetteja etukäteen. Tulosta ja arkistoi. Aina valmista sisältöä kun tarvitset sijaismateriaalia.`,
-      },
-      {
-        id: '5',
-        question: 'Millä Kielillä Tehtävät Ovat Saatavilla?',
-        answer: `Ruudukkopiirustustehtävägeneraattori tukee 11 kieltä: suomi, englanti, saksa, ranska, espanja, portugali (brasilialainen), italia, hollanti, ruotsi, tanska ja norja. Kaikki käyttöliittymätekstit käännetty jokaiselle kielelle.
-
-Monikielinen tuki on erityisen tärkeä ESL-opettajille ja kaksikielisille kouluille. Luo materiaaleja suomeksi aamulla ja englanniksi iltapäivällä. Opeta samoja konsepteja eri kielillä käyttäen samoja kuvia ja asettelua.
-
-Kansainväliset koulut hyötyvät laajasta kielituista. Tue kaikkia oppilaittasi heidän äidinkielillään.`,
-      },
-      {
-        id: '6',
-        question: 'Voinko Myydä Tehtäviä, Jotka Luon Tällä Generaattorilla?',
-        answer: `Kyllä. Täysi Käyttöoikeus -tilaus sisältää täyden kaupallisen print-on-demand -lisenssin ilman lisäkustannuksia. Myy ruudukkopiirustustehtäviä Teachers Pay Teachers -palvelussa, Etsyssä, Amazon KDP:ssä ja muilla alustoilla. Ei tekijänmainintoja vaadita.
-
-Monet opettajat tienaavat 500-5000€ kuukaudessa myymällä materiaaleja verkossa. Luo teemapaketteja maksimoidaksesi tulot. Sesonkiteemat myyvät erityisen hyvin.
-
-Kilpailijat veloittavat 100-200€/vuosi ylimääräistä kaupallisesta lisenssistä. Täysi Käyttöoikeus sisältää sen ilman lisäkustannuksia.`,
-      },
-      {
-        id: '7',
-        question: 'Miten Mukaan Ruudukkopiirustustehtäviä Oppilailleni?',
-        answer: `Kaikki ruudukkopiirustustehtävässä on täysin muokattavissa luomisen jälkeen. Klikkaa mitä tahansa elementtiä valitaksesi sen. Vedä uuteen paikkaan. Kierrä. Muuta kokoa. Poista. Täysi muokattavuus antaa täydellisen kontrollin.
-
-Lisää ohjetekstit esiopetusikäisille lapsille. Muuta fonttikokoja luettavuuden parantamiseksi. Valitse seitsemästä lapsille sopivasta fontista.
-
-Lataa omia kuvia personoidaksesi tehtävät. Käytä luokkahuoneen lemmikkieläimen kuvia. Luo tehtäviä oppilaiden harrastuksista.`,
-      },
-      {
-        id: '8',
-        question: 'Millä Ikäryhmillä Nämä Tehtävät Toimivat Parhaiten?',
-        answer: `Ruudukkopiirustustehtävät toimivat parhaiten 5-9-vuotiaille lapsille. Esiopetusikäiset (5-6-vuotiaat) käyttävät isompia ruudukoita enemmillä vihjeillä. Ensimmäisen luokan oppilaat (6-7-vuotiaat) sopivat keskikokoisiin ruudukoihin. Toisen ja kolmannen luokan oppilaat (7-9-vuotiaat) haastavat itseään pienemmillä ruudukoilla.
-
-Säädettävä vaikeustaso tekee tehtävistä sopiviksi laajalle ikähaarukalle. 4×4 ruudukko 80% vihjeillä sopii 5-vuotiaille. 10×10 ruudukko 20% vihjeillä haastaa 9-vuotiaita.
-
-Erityisopetuksessa ruudukkopiirustustehtävät toimivat vanhemmillekin oppilaille. Hienomotoriset haasteet eivät katoa iän myötä.`,
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Related Apps Section
@@ -501,40 +207,8 @@ Erityisopetuksessa ruudukkopiirustustehtävät toimivat vanhemmillekin oppilaill
       securePayment: 'Turvallinen maksu',
       cancelAnytime: 'Peruuta milloin tahansa',
     },
-    items: [
-      {
-        id: '1',
-        slug: 'coloring',
-        name: 'Värityskuvat',
-        category: 'Taide',
-        icon: '🎨',
-        description: 'Luo kauniita värityskuvia kaikille ikäryhmille',
-      },
-      {
-        id: '2',
-        slug: 'drawing-lines',
-        name: 'Viivojen Piirtäminen',
-        category: 'Hienomotoriikka',
-        icon: '✏️',
-        description: 'Kehitä hienomotorisia taitoja viivaharjoituksilla',
-      },
-      {
-        id: '3',
-        slug: 'matching-app',
-        name: 'Yhdistäminen',
-        category: 'Oppiminen',
-        icon: '🔗',
-        description: 'Yhdistä parit ja kehitä visuaalista hahmotusta',
-      },
-      {
-        id: '4',
-        slug: 'find-and-count',
-        name: 'Etsi ja Laske',
-        category: 'Matematiikka',
-        icon: '🔍',
-        description: 'Visuaaliset laskuharjoitukset kuvilla',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Pricing Section - Full Access (draw-and-color requires Full Access tier)

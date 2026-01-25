@@ -104,36 +104,8 @@ Volledige Toegang abonnement kost €240 per jaar of €25 per maand. Onbeperkt 
     badgeText: 'Gratis Voorbeelden',
     downloadingLabel: 'Downloaden...',
     ofLabel: 'van',
-    items: [
-      {
-        id: '1',
-        worksheetSrc: '/samples/dutch/crossword/sample-1.jpeg',
-        answerKeySrc: '/samples/dutch/crossword/sample-1-answer.jpeg',
-        altText: 'Gratis werkblad kruiswoordpuzzel - werkbladen groep 3 voor letters leren en werkblad voor kinderen',
-        pdfDownloadUrl: '/samples/dutch/crossword/sample-1.pdf',
-      },
-      {
-        id: '2',
-        worksheetSrc: '/samples/dutch/crossword/sample-2.jpeg',
-        answerKeySrc: '/samples/dutch/crossword/sample-2-answer.jpeg',
-        altText: 'Gratis werkbladen kruiswoordpuzzel - werkblad voor kleuters met afbeeldingen en oefenbladen',
-        pdfDownloadUrl: '/samples/dutch/crossword/sample-2.pdf',
-      },
-      {
-        id: '3',
-        worksheetSrc: '/samples/dutch/crossword/sample-3.jpeg',
-        answerKeySrc: '/samples/dutch/crossword/sample-3-answer.jpeg',
-        altText: 'Werkblad voor kinderen kruiswoordpuzzel - gratis printables voor groep 1 2 en kleuters',
-        pdfDownloadUrl: '/samples/dutch/crossword/sample-3.pdf',
-      },
-      {
-        id: '4',
-        worksheetSrc: '/samples/dutch/crossword/sample-4.jpeg',
-        answerKeySrc: '/samples/dutch/crossword/sample-4-answer.jpeg',
-        altText: 'Gratis werkblad kruiswoordpuzzel puzzel - werkbladen groep 3 voor veilig leren lezen',
-        pdfDownloadUrl: '/samples/dutch/crossword/sample-4.pdf',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Features Grid - FULL text from crossword.md feature sections
@@ -149,99 +121,8 @@ Volledige Toegang abonnement kost €240 per jaar of €25 per maand. Onbeperkt 
       noHiddenFees: 'Geen verborgen kosten',
       cancelAnytime: 'Altijd opzegbaar',
     },
-    items: [
-      {
-        id: '1',
-        icon: '⚡',
-        title: 'Maak Werkbladen Groep 3 in 3 Klikken - Snelle Kruiswoordpuzzel Generator',
-        description: `Kies een thema uit de bibliotheek. Klik op genereren. Uw werkblad verschijnt direct op het canvas. Geen ingewikkelde instellingen nodig voor basis oefenbladen gratis. Geen design vaardigheden vereist voor professionele werkbladen kleuters.
-
-De generator plaatst automatisch afbeeldingen in het raster. Woorden kruisen elkaar op logische punten. Elk plaatje krijgt een nummer voor duidelijke instructies. Kleuters en groep 1 2 leerlingen begrijpen direct wat ze moeten doen.
-
-Thema's dekken alle schoolvakken en interesses. Dieren voor woordenschat uitbreiding. Eten voor dagelijks Nederlands. Getallen voor sommen tot 20 oefening. Vormen voor ruimtelijk inzicht. Meer dan 150 thema's beschikbaar in 11 talen.
-
-Pas formaat aan naar Letter of A4 papier. Kies portret of landschap oriëntatie. Wijzig rastergrootte voor moeilijkheidsgraad. Grotere vakjes voor groep 1. Kleinere vakjes voor groep 3. Volledig aanpasbaar aan uw lesbehoeften.`,
-        highlighted: false,
-      },
-      {
-        id: '2',
-        icon: '✏️',
-        title: 'Volledige Bewerkbaarheid voor Kleurplaten en Rekenen Werkbladen',
-        description: `Elk element op het canvas is versleepbaar. Vergroot of verklein afbeeldingen met de muis. Roteer plaatjes voor creatieve layouts. Verwijder items die niet passen bij uw les. Voeg nieuwe elementen toe waar u wilt.
-
-Sleep afbeeldingen naar verschillende posities. Verander de volgorde van puzzel elementen. Pas de grootte aan voor nadruk op specifieke woorden. Deze flexibiliteit maakt elk werkblad uniek voor uw klas.
-
-Voeg tekstvakken toe voor instructies. Wijzig lettergrootte voor leesbaarheid. Kies uit 6 kindvriendelijke fonts. Pas kleuren aan voor visuele aantrekkelijkheid. Maak werkbladen die kinderen echt willen invullen.
-
-Upload uw eigen afbeeldingen voor gepersonaliseerd leren. Foto's van klasgenoten voor namen oefenen. Plaatjes van schoolspullen voor woordenschat. Afbeeldingen van lokale omgeving voor contextrijk leren. Combineer bibliotheek beelden met eigen materiaal.`,
-        highlighted: false,
-      },
-      {
-        id: '3',
-        icon: '📤',
-        title: 'Upload Eigen Afbeeldingen voor Letters Leren en Schrijven Oefenen',
-        description: `Selecteer meerdere bestanden tegelijk voor snelle upload. Alle gangbare formaten ondersteund: JPEG, PNG, GIF. Uploaded afbeeldingen verschijnen direct in uw persoonlijke bibliotheek. Gebruik ze in elke kruiswoordpuzzel voor uw groep.
-
-Maak gepersonaliseerde werkbladen met foto's van uw leerlingen. Namen leren wordt leuker met gezichten erbij. Schrijven oefenen wordt persoonlijker met bekende objecten. Letters leren krijgt meer betekenis met herkenbare items uit de klas.
-
-Upload plaatjes voor thematische lessen. Herfstbladeren voor seizoenen project. Dieren uit de dierentuin na excursie. Instrumenten na muziekles. Verbind kruiswoordpuzzels met uw lesprogramma.
-
-Combineer eigen foto's met bibliotheek afbeeldingen. Mix vertrouwde items met nieuwe woordenschat. Bouw brug tussen bekend en onbekend. Ondersteun veilig leren lezen met contextuele visuele hints.`,
-        highlighted: false,
-      },
-      {
-        id: '4',
-        icon: '🌍',
-        title: '11 Talen voor Werkbladen Kleuters - Nederlands, Engels, Duits en Meer',
-        description: `Alle 3000+ afbeeldingen hebben Nederlandse bestandsnamen. Perfect voor woordenschat ontwikkeling en spelling oefening. Elk plaatje toont automatisch de Nederlandse naam. Ideaal voor groep 1 2 die beginnen met lezen.
-
-Switch naar Engels voor tweetalig onderwijs. Duitse namen voor taalvakken. Franse bestandsnamen voor internationale scholen. Elke taal ondersteunt authentieke woordenschat ontwikkeling.
-
-De interface verschijnt in uw gekozen taal. Knoppen, menu's en instructies in Nederlands. Geen Engels nodig om werkbladen te maken. Volledig toegankelijk voor alle Nederlandse leerkrachten.
-
-Gebruik verschillende talen voor gevorderde groep 3 leerlingen. Maak meertalige kruiswoordpuzzels voor uitdaging. Vergelijk woorden tussen talen. Ontwikkel taalbewustzijn vanaf jonge leeftijd.`,
-        highlighted: false,
-      },
-      {
-        id: '5',
-        icon: '💼',
-        title: 'Commerciële Licentie voor Oefenbladen Gratis Verkopen op TPT',
-        description: `Volledige Toegang abonnement bevat volledige commerciële licentie. Verkoop uw kruiswoordpuzzels op Teachers Pay Teachers. Open een Etsy shop met printbare werkbladen. Publiceer op Amazon KDP als werkboeken.
-
-Geen extra kosten voor verkoop rechten. Geen attribution vereist op uw producten. Geen limieten aan hoeveel u mag verkopen. Profiteer volledig van uw creativiteit en onderwijsexpertise.
-
-Leerkrachten verdienen €500-€5000 per maand met werkbladen verkoop. Bouw passief inkomen met herbruikbare designs. Maak eenmaal, verkoop onbeperkt. Perfect voor leerkrachten die extra willen verdienen.
-
-300 DPI kwaliteit garandeert professionele uitstraling. Scherpe afbeeldingen na printen. Duidelijke lijnen in het raster. Klanten zijn tevreden met premium kwaliteit. Positieve reviews leiden tot meer verkoop.`,
-        highlighted: true,
-      },
-      {
-        id: '6',
-        icon: '🎨',
-        title: '3000+ Afbeeldingen voor Fijne Motoriek en Tafels Oefenen',
-        description: `Bibliotheek bevat meer dan 3000 kindvriendelijke illustraties. Georganiseerd in 150+ thema's. Van ABC letters tot getallen voor sommen tot 20. Van dieren tot voertuigen. Van eten tot sport.
-
-Elke afbeelding is geoptimaliseerd voor jonge kinderen. Eenvoudige, duidelijke vormen. Herkenbare objecten zonder verwarring. Kleurrijk maar niet overweldigend. Perfect voor kleuters en groep 1 2.
-
-Zoekfunctie helpt snel de juiste plaatjes vinden. Type "appel" voor fruit afbeeldingen. Zoek "hond" voor huisdieren. Filter op thema voor snelle selectie. Bladeren door categorieën voor inspiratie.
-
-Thema selectie genereert instant werkbladen. Kies "Tafels oefenen" voor wiskundige kruiswoordpuzzels. Selecteer "Fijne motoriek" voor schrijfoefeningen. Pick "Rekenen werkbladen" voor getallen tot 20. Één klik naar compleet werkblad.`,
-        highlighted: true,
-      },
-      {
-        id: '7',
-        icon: '🖨️',
-        title: 'Professionele 300 DPI Kwaliteit voor Kleurplaten en Werkbladen Groep 3',
-        description: `Download als JPEG voor snelle digitale distributie. Export als PDF voor professioneel printen. Beide formaten bevatten 300 DPI resolutie. Perfecte kwaliteit voor klassikale kopieën.
-
-Grijswaarden optie bespaart printer inkt. Behoud kwaliteit zonder kleur kosten. Ideaal voor scholen met beperkte budgetten. Print honderden kopieën zonder inkt zorgen.
-
-Antwoordsleutel genereert automatisch na puzzel creatie. Toon oplossingen voor leerkrachten. Versnelt nakijken van leerlingen werk. Bespaart tijd bij groepsactiviteiten. Perfecte ondersteuning voor drukke docenten.
-
-Elk werkblad print perfect op standaard papier. A4 formaat voor Nederlandse scholen. Letter formaat voor internationale instellingen. Geen randjes afgesneden. Geen schaalfouten bij printen. Betrouwbare kwaliteit elke keer.`,
-        highlighted: false,
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // How-To Guide - FULL text from crossword.md step sections
@@ -359,104 +240,8 @@ Voor oefenbladen gratis verkoop op TPT: download hoogste kwaliteit. PDF formaat 
     badgeText: 'Voor wie',
     readMoreLabel: 'Lees meer',
     showLessLabel: 'Minder tonen',
-    items: [
-      {
-        id: '1',
-        icon: '👶',
-        title: 'Kleuter Leerkrachten - Fijne Motoriek en Veilig Leren Lezen voor Groep 1 2',
-        subtitle: 'Werkbladen kleuters en fijne motoriek',
-        description: `Groep 1 en 2 leerkrachten gebruiken kruiswoordpuzzels voor beginnende geletterdheid. Afbeeldingen koppelen aan woorden ontwikkelt woordherkenning. Perfect voor veilig leren lezen voorbereiding. Kinderen leren letter-klank relaties met visuele ondersteuning.
-
-Maak werkbladen kleuters met grote raster vakjes voor beginnende schrijvers. Extra grote lettertypes voor beginnende lezers. Eenvoudige drieletter woorden zoals "kat", "hond", "bal". Herkenbare afbeeldingen uit de leefwereld van kleuters. Dagelijkse objecten die elk kind kent.
-
-Kruiswoordpuzzels ontwikkelen fijne motoriek vaardigheden. Kleine vakjes invullen traint pengreep. Letters schrijven binnen lijnen oefent schrijfcontrole. Kruiswoordrasters versterken ruimtelijk begrip. Horizontaal en verticaal schrijven oefent schrijfrichtingen.
-
-Gebruik thema's uit uw kleuterklas lesprogramma. Dieren voor woordenschat rond de boerderij. Kleuren voor basis visuele discriminatie. Vormen voor wiskundige voorbereidingsvaardigheden. Koppel puzzels aan seizoenen en feestdagen voor contextrijk leren.
-
-Ouders waarderen werkbladen kleuters die ze thuis kunnen gebruiken. Stuur kruiswoordpuzzels mee als huiswerk. Print extra kopieën voor herhaling. Maak wekelijkse oefenbladen gratis voor consistente thuisoefening. Betrek ouders bij geletterdheid ontwikkeling.`,
-        quote: 'Mijn kleuters vinden de plaatjes-puzzels geweldig voor letters leren!',
-      },
-      {
-        id: '2',
-        icon: '📚',
-        title: 'Basisschool Leerkrachten - Sommen tot 20 en Tafels Oefenen Groep 3',
-        subtitle: 'Werkbladen groep 3 en rekenen',
-        description: `Groep 3 leerkrachten integreren kruiswoordpuzzels in meerdere vakken. Nederlands les gebruikt puzzels voor spelling oefening. Rekenen les maakt wiskundige woordenschat kruiswoordpuzzels. Wereldoriëntatie puzzels versterken thematische woordenschat. Multifunctioneel gereedschap voor de hele schooldag.
-
-Maak rekenen werkbladen met getallen en rekenwoorden. Sommen tot 20 puzzels voor optellen en aftrekken oefening. Tafels oefenen kruiswoordpuzzels voor vermenigvuldiging introductie. Mix cijfers met wiskundige termen zoals "som", "verschil", "product". Visuele wiskunde versterkt abstract denken.
-
-Voor veilig leren lezen: gebruik kern woordenschat uit uw leesmethode. Veel scholen gebruiken specifieke woord lijsten per kern. Upload die woorden als custom lijst. Genereer kruiswoordpuzzels perfect afgestemd op uw curriculum. Synchroniseer werkbladen met lesprogramma progressie.
-
-Differentieer voor verschillende leesniveaus in één klas. Maak simpele puzzels voor zwakke lezers. Creëer uitdagende varianten voor sterke lezers. Gebruik dezelfde thema's, verschillende woordenschat. Elke leerling werkt op passend niveau.
-
-Kruiswoordpuzzels werken perfect als zelfstandig werk. Leerlingen oefenen onafhankelijk terwijl u kleine groepen begeleidt. Automatisch nakijken met antwoordsleutel. Geen correctie tijd nodig. Efficiënt gebruik van instructietijd.`,
-        quote: 'Kruiswoordpuzzels maken spelling oefenen leuk voor mijn groep 3.',
-      },
-      {
-        id: '3',
-        icon: '🏠',
-        title: 'Thuisonderwijs Ouders - Letters Leren en Schrijven Oefenen Thuis',
-        subtitle: 'Oefenbladen gratis voor thuis',
-        description: `Thuisonderwijs gezinnen maken gepersonaliseerde werkbladen voor elk kind. Jongere kinderen krijgen letters leren puzzels. Oudere kinderen ontvangen spelling uitdagingen. Alles van één generator, aangepast per kind. Bespaart tijd in multi-leeftijd onderwijssituaties.
-
-Upload foto's van familie activiteiten voor contextrijk leren. Vakantie plaatjes worden woordenschat lessen. Huisdieren foto's ontwikkelen schrijven oefenen. Tuin groenten maken natuurkunde woordenschat. Persoonlijk onderwijs op zijn best.
-
-Thuisonderwijs ouders waarderen commerciële licentie. Maak materialen voor coöp groepen. Deel werkbladen met andere thuisonderwijs families. Verkoop curriculum pakketten op Teachers Pay Teachers. Genereer inkomen terwijl u uw kinderen onderwijst.
-
-Plan wekelijkse thema's met matching kruiswoordpuzzels. Dinosaurus week krijgt prehistorische woordenschat puzzel. Ruimte eenheid gebruikt planeten en sterren. Seizoen studie combineert weer en natuur woorden. Gestructureerd leren met creatieve flexibiliteit.
-
-Print werkbladen in bulk voor hele week. Lamineer voor herbruikbaar leermateriaal. Kinderen oefenen meerdere keren met uitwisbare markers. Duurzame oplossing voor beperkte thuisonderwijs budgetten.`,
-        quote: 'Eén tool voor al mijn kinderen op verschillende niveaus.',
-      },
-      {
-        id: '4',
-        icon: '🌐',
-        title: 'Taalleerkrachten - Veilig Leren Lezen in 11 Talen met Oefenbladen Gratis',
-        subtitle: 'Meertalig onderwijs',
-        description: `Engels leerkrachten op Nederlandse scholen maken tweetalige kruiswoordpuzzels. Nederlandse woorden voor basis les. Engelse woorden voor gevorderde leerlingen. Switch tussen talen met één klik. Vergelijk woordenschat tussen talen.
-
-Alle 3000+ afbeeldingen ondersteunen 11 talen. Nederlands, Engels, Duits, Frans, Spaans. Italiaans, Portugees, Zweeds, Deens, Noors, Fins. Elke afbeelding toont correcte spelling in gekozen taal. Authentiek taalmateriaal voor vreemde talen onderwijs.
-
-Maak cognaten puzzels voor taalvergelijking. Woorden die vergelijkbaar zijn tussen Nederlands en Engels. Leerlingen ontdekken taalpatronen door puzzels. Metacognitief taalbewustzijn ontwikkelt vanaf jonge leeftijd.
-
-Internationale scholen gebruiken kruiswoordpuzzels voor meertalige leerlingen. Kind spreekt Spaans thuis, leert Nederlands op school. Maak puzzels in beide talen. Ontwikkel academische woordenschat in schooltaal. Behoud moedertaal met thuisoefeningen.
-
-Volwassen ESL programma's maken werkbladen voor beginnende lezers. Eenvoudige Nederlandse woorden met duidelijke afbeeldingen. Dagelijks vocabulaire voor nieuwkomers. Supermarkt woorden, vervoer termen, gezondheid vocabulaire. Praktisch Nederlands voor integratie.`,
-        quote: 'Meertalige werkbladen helpen mijn NT2-leerlingen enorm.',
-      },
-      {
-        id: '5',
-        icon: '🧩',
-        title: 'Speciale Onderwijs Leerkrachten - Fijne Motoriek Werkbladen en Kleurplaten',
-        subtitle: 'Speciaal onderwijs en differentiatie',
-        description: `SO leerkrachten differentiëren kruiswoordpuzzels voor individuele leerplan doelen. Extra grote vakjes voor leerlingen met motorische uitdagingen. Grotere lettertypes voor visueel beperkte kinderen. Simpele woorden voor cognitieve uitdagingen. Volledige personalisatie per leerling.
-
-Kruiswoordpuzzels ontwikkelen fijne motoriek op spelende wijze. Minder confronterend dan traditionele schrijfoefeningen. Puzzel element maakt motoriek training leuker. Kinderen vergeten dat ze moeilijke vaardigheden oefenen. Motivatie verhoogt door spel element.
-
-Gebruik kleurplaten functie voor multisensorische leren. Eerst puzzel oplossen, dan inkleuren. Tactiele versterking van woordenschat. Kleur codering voor woord categorieën. Visueel-ruimtelijke vaardigheden ontwikkelen naast taal.
-
-Maak individuele werkbladen voor elk IEP doel. Letters leren voor pre-geletterdheid doelen. Getallen herkenning voor vroege wiskundige vaardigheden. Sociale woorden voor pragmatische taal ontwikkeling. Werkbladen documenteren voortgang per leerdoel.
-
-Herhaling is cruciaal in speciaal onderwijs. Genereer tien varianten van dezelfde woordenlijst. Iedere week dezelfde woorden, andere puzzel layout. Herkenning zonder verveling door visuele variatie. Gemakkelijk om progressie data te verzamelen.`,
-        quote: 'De visuele aanpak werkt perfect voor mijn leerlingen.',
-      },
-      {
-        id: '6',
-        icon: '💰',
-        title: 'Ondernemer Leerkrachten - Verkoop Rekenen Werkbladen en Tafels Oefenen Materiaal',
-        subtitle: 'Commerciële licentie voor ondernemers',
-        description: `Duizenden leerkrachten verdienen passief inkomen met werkbladen verkoop. Teachers Pay Teachers, Etsy, Amazon KDP. Volledige Toegang abonnement bevat volledige commerciële licentie. Maak eenmaal, verkoop onbeperkt. Bouw business terwijl u slaapt.
-
-Populaire niches omvatten sommen tot 20 werkbladen voor jonge leerlingen. Tafels oefenen pakketten voor groep 3-4. Veilig leren lezen materialen voor kern 1-12. Seizoensgebonden thema pakketten verkopen goed tijdens feestdagen. Niche focusing verhoogt winstgevendheid.
-
-Bundle meerdere kruiswoordpuzzels in thema pakketten. 20 dieren puzzels in één download. 30 wiskundige woordenschat kruiswoordpuzzels. Complete jaar curriculum met 100+ werkbladen. Klanten betalen meer voor comprehensive pakketten.
-
-300 DPI kwaliteit geeft professionele uitstraling. Klanten delen positieve reviews over print kwaliteit. Scherpe afbeeldingen en duidelijke rasters. Premium product rechtvaardigt premium prijs. Concurreer met traditionele uitgevers.
-
-Gebruik Pinterest marketing om verkoop te boosten. Pin voorbeeld werkbladen naar educatie boards. Gratis sample als lead magnet. Link naar betaalde volledige collectie. Passieve traffic genereert passief inkomen.`,
-        quote: 'Mijn abonnement heeft zichzelf terugverdiend in de eerste maand!',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // FAQ Section - FULL FAQs from crossword.md
@@ -470,68 +255,8 @@ Gebruik Pinterest marketing om verkoop te boosten. Pin voorbeeld werkbladen naar
     showLessLabel: 'Minder tonen',
     secureCheckout: 'Veilig betalen',
     cancelAnytime: 'Altijd opzegbaar',
-    items: [
-      {
-        id: '1',
-        question: 'Zijn Deze Werkbladen Kleuters en Oefenbladen Gratis Echt Gratis?',
-        answer: 'De kruiswoordpuzzel generator vereist een Volledige Toegang abonnement van €240 per jaar of €25 per maand. Uw abonnement geeft onbeperkte werkblad creatie zonder kosten per werkblad. Genereer zoveel werkbladen kleuters en groep 1-3 materiaal als u nodig heeft zonder extra kosten. Het woord "gratis" in "oefenbladen gratis" verwijst naar de zoekterm die mensen gebruiken. Eenmaal geabonneerd, creëert u onbeperkt zonder per-werkblad kosten. Volledige Toegang omvat alle 33 worksheet generators op het platform. Beide abonnementen bevatten commerciële licentie, 11 talen ondersteuning en professionele 300 DPI kwaliteit exports.',
-      },
-      {
-        id: '2',
-        question: 'Kan ik Rekenen Werkbladen en Sommen tot 20 Printen op Thuisprinter?',
-        answer: 'Ja. Alle kruiswoordpuzzels printen perfect op standaard thuisprinters. Download als PDF voor beste print kwaliteit. Gebruik A4 papier voor Nederlandse printers. Letter formaat werkt voor Amerikaanse printers. Geen speciale apparatuur vereist. Rekenen werkbladen met sommen tot 20 bevatten duidelijke cijfers en symbolen. Getallen blijven leesbaar na printen. 300 DPI resolutie garandeert professionele kwaliteit zelfs op budget printers. Grijswaarden optie bespaart inkt voor grote print runs. Lamineer geprinte werkbladen voor herbruikbaar materiaal.',
-      },
-      {
-        id: '3',
-        question: 'Heb ik Design Vaardigheden Nodig voor Fijne Motoriek Werkbladen?',
-        answer: 'Nee. Geen design ervaring vereist voor professionele werkbladen. De generator doet alles automatisch. Selecteer afbeeldingen, klik genereren, download direct. Zelfs technisch onervaren leerkrachten creëren mooie materialen binnen minuten. Fijne motoriek werkbladen vereisen zorgvuldige spacing en grootte. Generator optimaliseert automatisch voor kleine kinderhanden. Vakjes zijn groot genoeg voor beginnende schrijvers. Drag-and-drop editing maakt aanpassingen simpel. Geen Photoshop kennis nodig.',
-      },
-      {
-        id: '4',
-        question: 'Kan ik Veilig Leren Lezen Werkbladen Gebruiken in Mijn Klas?',
-        answer: 'Volledige Toegang abonnement bevat onbeperkt klasgebruik. Print zoveel kopieën als uw klas nodig heeft. Deel digitale versies via online leeromgeving. Gebruik in fysieke en digitale lessen. Geen limieten op aantal leerlingen of klassen. Veilig leren lezen materialen combineren perfect met Nederlandse leesmethoden. Upload kern woordenschat uit uw programma. Genereer kruiswoordpuzzels per kern voor systematische progressie. Differentieer voor verschillende leesniveaus binnen één klas.',
-      },
-      {
-        id: '5',
-        question: 'Welke Talen Ondersteunen Werkbladen voor Tafels Oefenen?',
-        answer: 'Alle 3000+ afbeeldingen bevatten bestandsnamen in 11 talen. Nederlands, Engels, Duits, Frans, Spaans, Italiaans, Portugees, Zweeds, Deens, Noors en Fins. Elke afbeelding toont correcte spelling in gekozen taal voor authentieke woordenschat ontwikkeling. Voor tafels oefenen materiaal: gebruik getallen thema in elke taal. Cijfers zijn universeel maar rekenwoorden variëren per taal. Nederlandse "keer" wordt Engels "times". Meertalige scholen maken kruiswoordpuzzels in meerdere talen.',
-      },
-      {
-        id: '6',
-        question: 'Kan ik Kleurplaten en Fijne Motoriek Oefeningen Verkopen die ik Maak?',
-        answer: 'Ja. Volledige Toegang abonnement bevat volledige commerciële print-on-demand licentie zonder extra kosten. Verkoop uw kruiswoordpuzzels op Teachers Pay Teachers, Etsy, Amazon KDP. Geen attribution vereist. Geen limieten op verkoop volume of inkomsten. Kleurplaten combinatie kruiswoordpuzzels verkopen uitstekend online. Prijs €3-5 per individueel werkblad. Bundle 20 thema puzzels voor €12-15. Fijne motoriek oefeningen zijn populaire niche voor kleuter materialen.',
-      },
-      {
-        id: '7',
-        question: 'Hoe Pas ik Letters Leren Kruiswoordpuzzels aan voor Mijn Leerlingen?',
-        answer: 'Volledige canvas editing geeft complete controle. Klik op elk element om te selecteren. Sleep afbeeldingen naar nieuwe posities. Vergroot of verklein met hoek handles. Roteer met de draaiknop. Delete items die niet passen. Voor letters leren differentiatie: pas woordlengte aan per niveau. Beginnende groep 1 krijgt drieletter woorden. Gevorderde groep 2 krijgt vierletter woorden. Voeg tekstvakken toe voor specifieke instructies. Wijzig font grootte voor visuele behoeften.',
-      },
-      {
-        id: '8',
-        question: 'Wat is de Beste Leeftijd voor Sommen tot 20 Kruiswoordpuzzels?',
-        answer: 'Sommen tot 20 materiaal werkt best voor groep 2-3 leerlingen, leeftijd 6-9 jaar. Jonge groep 1 kinderen focussen op getallen 1-10 eerst. Tegen eind groep 2 zijn meeste kinderen klaar voor optellen en aftrekken tot 20. Pas moeilijkheid aan per kind ontwikkeling, niet leeftijd. Start met concrete getallen voor jonge leerlingen. Gebruik afbeeldingen van aantallen. Wiskundige kruiswoordpuzzels maken getallen oefening minder saai. Kinderen zien het als puzzel game.',
-      },
-      {
-        id: '9',
-        question: 'Kan ik Eigen Foto\'s Uploaden voor Schrijven Oefenen Werkbladen?',
-        answer: 'Ja. Multi-file upload ondersteunt alle gangbare formaten: JPEG, PNG, GIF. Selecteer meerdere afbeeldingen tegelijk van uw computer. Uploaded foto\'s verschijnen direct in uw persoonlijke bibliotheek. Gebruik ze in elke kruiswoordpuzzel die u maakt. Voor schrijven oefenen: upload foto\'s van uw klas leerlingen. Namen leren wordt leuker met gezichten erbij. Upload plaatjes van schoolspullen voor woordenschat uitbreiding. Combineer uploaded foto\'s met bibliotheek afbeeldingen.',
-      },
-      {
-        id: '10',
-        question: 'Hoe Lang Duurt het om Rekenen Werkbladen te Maken?',
-        answer: 'Gemiddelde creatie tijd is 2-3 minuten per werkblad. Selecteer thema: 15 seconden. Klik genereren: 3 seconden. Preview en download: 30 seconden. Totaal onder 1 minuut voor basis werkbladen zonder aanpassingen. Voor aangepaste rekenen werkbladen: 5-10 minuten inclusief editing. Upload custom getallen lijst: 1 minuut. Canvas editing voor perfectie: 3-5 minuten. Traditionele methode duurt 30-60 minuten per kruiswoordpuzzel.',
-      },
-      {
-        id: '11',
-        question: 'Bevatten Werkbladen Kleuters Antwoordsleutels voor Controle?',
-        answer: 'Ja. Automatische antwoordsleutel generatie met één klik. Dezelfde layout als leerlingen versie maar met ingevulde letters. Print antwoordsleutel op apart papier voor leerkrachten. Vereenvoudigt nakijken van leerlingen werk dramatisch. Voor werkbladen kleuters: antwoordsleutels helpen ouders thuis. Niet alle ouders weten juiste spelling van elk woord. Antwoordsleutel geeft vertrouwen bij thuisoefening. Speciale onderwijs leerkrachten gebruiken antwoordsleutels voor data verzameling.',
-      },
-      {
-        id: '12',
-        question: 'Kan ik Tafels Oefenen Kruiswoordpuzzels voor Specifieke Schoolvakken Maken?',
-        answer: 'Absoluut. Thema selectie dekt alle school vakken. Wiskunde thema\'s voor tafels oefenen en rekenen. Nederlands thema\'s voor spelling en woordenschat. Wereldoriëntatie voor dieren, planten, landen. Elk vak krijgt aangepaste kruiswoordpuzzels. Voor vak-specifieke tafels oefenen: gebruik getallen en rekenwoorden samen. Upload eigen woordenlijsten voor niche vakken. Cross-curriculaire kruiswoordpuzzels combineren meerdere vakken.',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Pricing - Full Access pricing (€240/year)
@@ -602,56 +327,8 @@ Gebruik Pinterest marketing om verkoop te boosten. Pin voorbeeld werkbladen naar
       securePayment: 'Veilig betalen',
       cancelAnytime: 'Altijd opzegbaar',
     },
-    items: [
-      {
-        id: '1',
-        slug: 'woordzoeker-werkbladen',
-        name: 'Woordzoeker',
-        category: 'Taal',
-        icon: '🔍',
-        description: 'Combineer kruiswoordpuzzels met woordzoekers voor uitgebreide woordenschat oefening en letters leren.',
-      },
-      {
-        id: '2',
-        slug: 'woordkruisel-werkbladen',
-        name: 'Woordmixer',
-        category: 'Taal',
-        icon: '🔤',
-        description: 'Combineer met woordmixer werkbladen voor complete spelling en woordherkenning oefening.',
-      },
-      {
-        id: '3',
-        slug: 'kleurplaten-werkbladen',
-        name: 'Kleurplaten',
-        category: 'Creativiteit',
-        icon: '🎨',
-        description: 'Beloon voltooide kruiswoordpuzzels met thematische kleurplaten die de fijne motoriek ontwikkelen.',
-      },
-      {
-        id: '4',
-        slug: 'verbindings-werkbladen',
-        name: 'Verbinden',
-        category: 'Vroege Educatie',
-        icon: '🔗',
-        description: 'Vul kruiswoordpuzzels aan met verbindingsoefeningen voor woordherkenning en visuele associatie.',
-      },
-      {
-        id: '5',
-        slug: 'lijnen-trekken-werkbladen',
-        name: 'Lijnen Trekken',
-        category: 'Fijne Motoriek',
-        icon: '✏️',
-        description: 'Train handschrift en fijne motoriek naast kruiswoordpuzzel woordenschat oefening.',
-      },
-      {
-        id: '6',
-        slug: 'sudoku-werkbladen',
-        name: 'Sudoku',
-        category: 'Logisch Denken',
-        icon: '🧩',
-        description: 'Combineer met sudoku puzzels voor extra logisch denken en probleemoplossing.',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 };
 

@@ -102,36 +102,8 @@ Je Volledige Toegang abonnement geeft toegang tot onbeperkte werkbladen maken. D
     badgeText: 'Gratis Voorbeelden',
     downloadingLabel: 'Downloaden...',
     ofLabel: 'van',
-    items: [
-      {
-        id: '1',
-        worksheetSrc: '/samples/dutch/treasure-hunt/sample-1.jpeg',
-        answerKeySrc: '/samples/dutch/treasure-hunt/sample-1-answer.jpeg',
-        altText: 'Schattenjacht gratis werkblad - werkblad voor kinderen met richtingswoorden groep 3',
-        pdfDownloadUrl: '/samples/dutch/treasure-hunt/sample-1.pdf',
-      },
-      {
-        id: '2',
-        worksheetSrc: '/samples/dutch/treasure-hunt/sample-2.jpeg',
-        answerKeySrc: '/samples/dutch/treasure-hunt/sample-2-answer.jpeg',
-        altText: 'Schattenjacht werkblad voor kleuters - gratis werkbladen met fijne motoriek oefeningen',
-        pdfDownloadUrl: '/samples/dutch/treasure-hunt/sample-2.pdf',
-      },
-      {
-        id: '3',
-        worksheetSrc: '/samples/dutch/treasure-hunt/sample-3.jpeg',
-        answerKeySrc: '/samples/dutch/treasure-hunt/sample-3-answer.jpeg',
-        altText: 'Gratis werkblad schattenjacht - werkblad voor kinderen met ruimtelijk inzicht',
-        pdfDownloadUrl: '/samples/dutch/treasure-hunt/sample-3.pdf',
-      },
-      {
-        id: '4',
-        worksheetSrc: '/samples/dutch/treasure-hunt/sample-4.jpeg',
-        answerKeySrc: '/samples/dutch/treasure-hunt/sample-4-answer.jpeg',
-        altText: 'Schattenjacht gratis printables - werkblad voor kleuters met richtingsoefeningen',
-        pdfDownloadUrl: '/samples/dutch/treasure-hunt/sample-4.pdf',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Features Grid
@@ -147,85 +119,8 @@ Je Volledige Toegang abonnement geeft toegang tot onbeperkte werkbladen maken. D
       noHiddenFees: 'Geen verborgen kosten',
       cancelAnytime: 'Altijd opzegbaar',
     },
-    items: [
-      {
-        id: '1',
-        icon: '⚡',
-        title: 'Maak Werkbladen Kleuters in 3 Klikken - Fijne Motoriek en Ruimtelijk Inzicht Oefenen',
-        description: `Het maken van schattenjacht werkbladen kost geen technische kennis. Selecteer een thema uit de bibliotheek met meer dan drieduizend afbeeldingen. De generator plaatst automatisch zes verschillende objecten in een vijf-bij-vijf rooster. Binnen drie klikken heb je een compleet werkblad.
-
-Kies thema's die passen bij je les. Dieren voor werkbladen kleuters in groep 1 2. Voertuigen voor jongens die gemotiveerd moeten blijven. Fruit en groenten voor gezondheidsthema's. Elk thema bevat tientallen afbeeldingen.
-
-De generator maakt automatisch vijf richtingsaanwijzingen. Leerlingen volgen de instructies stap voor stap. Links, rechts, omhoog en omlaag voor beginners. Noord, zuid, oost en west voor gevorderde leerlingen in groep 3 en hoger. Dit oefent fijne motoriek bij het volgen van de route met een potlood.`,
-        highlighted: false,
-      },
-      {
-        id: '2',
-        icon: '✏️',
-        title: 'Volledig Bewerkbaar Canvas voor Rekenen Werkbladen en Kleurplaten Combinaties',
-        description: `Na het genereren pas je alles aan op het canvas. Sleep de puzzelrooster naar een andere positie. Vergroot of verklein elementen. Draai objecten of verwijder ze volledig. Volledige controle over je werkblad.
-
-Deze flexibiliteit maakt combinaties mogelijk met rekenen werkbladen. Voeg getallen toe aan de roostervakjes. Leerlingen tellen terwijl ze de route volgen. Of combineer met kleurplaten elementen. Kinderen kleuren de gevonden objecten na het oplossen.
-
-Voeg eigen teksten toe bovenaan het werkblad. Kies uit zeven verschillende lettertypen. Pas kleuren en groottes aan. Maak werkbladen groep 3 met duidelijke instructies voor zelfstandig werk. Perfect voor differentiatie binnen je klas.`,
-        highlighted: false,
-      },
-      {
-        id: '3',
-        icon: '📤',
-        title: 'Eigen Afbeeldingen Uploaden voor Schrijven Oefenen en Letters Leren Thema\'s',
-        description: `Upload je eigen foto's voor gepersonaliseerde schattenjachten. De tool accepteert JPG, PNG en GIF bestanden. Meerdere bestanden tegelijk uploaden werkt probleemloos. Combineer eigen afbeeldingen met bibliotheekplaatjes.
-
-Dit is ideaal voor letters leren activiteiten. Upload afbeeldingen die beginnen met dezelfde letter. Maak een B-schattenjacht met bal, beer en banaan. Kinderen oefenen letterherkenning terwijl ze de route volgen.
-
-Voor schrijven oefenen voeg je afbeeldingen toe met woorden. Kinderen volgen de schattenjacht en schrijven gevonden woorden over. Ruimtelijk inzicht en schrijfvaardigheid in een werkblad. Efficiënt en educatief tegelijk.`,
-        highlighted: false,
-      },
-      {
-        id: '4',
-        icon: '🌍',
-        title: 'Nederlands en 10 Andere Talen - Veilig Leren Lezen Ondersteuning in Meerdere Talen',
-        description: `De schattenjacht generator ondersteunt elf talen volledig. Nederlands staat centraal voor Nederlandse basisscholen. Maar ook Engels, Duits, Frans en Spaans zijn beschikbaar. Ideaal voor meertalig onderwijs en internationale scholen.
-
-Voor Veilig leren lezen ondersteuning werken de Nederlandse richtingswoorden perfect. Links, rechts, boven, onder. Woorden die kinderen in groep 3 kennen. De instructies zijn helder en eenduidig. Kinderen begrijpen direct wat ze moeten doen.
-
-De interface is volledig vertaald naar het Nederlands. Alle knoppen en menu's. Ook de thema-namen zijn in het Nederlands. Zo werk je altijd in je eigen taal. Geen Engelse termen die verwarring veroorzaken.`,
-        highlighted: false,
-      },
-      {
-        id: '5',
-        icon: '💼',
-        title: 'Commerciële Licentie voor Tafels Oefenen Werkbladen en Kleurplaten Verkopen',
-        description: `Met je Volledige Toegang abonnement krijg je commerciële rechten. Dit betekent dat je schattenjacht werkbladen mag verkopen. Op platforms zoals Etsy of Teachers Pay Teachers. Geen extra kosten per verkocht werkblad.
-
-De licentie geldt voor alle werkbladen die je maakt. Ook combinaties met tafels oefenen materialen. Of bundels met kleurplaten en schrijfopdrachten. Alles zit inbegrepen in je abonnement van €240 per jaar.
-
-Veel leerkrachten verdienen honderden euro's per maand met lesmateriaal. Ze maken themapakketten met schattenjachten. Combineren deze met rekenen werkbladen en kleurplaten. Verkopen complete lespakketten online. De 300 DPI kwaliteit maakt dit mogelijk.`,
-        highlighted: true,
-      },
-      {
-        id: '6',
-        icon: '🎨',
-        title: 'Meer dan 3000 Afbeeldingen - Van Sommen tot 20 Thema\'s tot Complete Lespakketten',
-        description: `De beeldbibliotheek bevat meer dan drieduizend kindvriendelijke afbeeldingen. Georganiseerd in tientallen thema's. Dieren, voertuigen, seizoenen, feestdagen. Er is altijd een thema dat past bij je les.
-
-Voor sommen tot 20 integratie vind je getallen en rekenobjecten. Appels om te tellen. Blokken voor optel- en aftreksommen. Vingers voor getalherkenning. Combineer schattenjachten met rekenen voor complete lespakketten.
-
-De zoekfunctie werkt snel en efficiënt. Typ een woord in het zoekveld. Alle relevante afbeeldingen verschijnen direct. Vind precies wat je zoekt voor werkbladen kleuters of groep 3. Geen tijdverspilling aan bladeren door mappen.`,
-        highlighted: true,
-      },
-      {
-        id: '7',
-        icon: '🖨️',
-        title: 'Professionele 300 DPI Kwaliteit voor Oefenbladen Gratis Printen en Verkopen',
-        description: `Alle werkbladen exporteren in 300 DPI resolutie. Dit is de professionele standaard voor drukwerk. Je schattenjachten zien er scherp en helder uit op papier. Perfect voor printen thuis of op school.
-
-Deze kwaliteit is essentieel voor oefenbladen gratis verzamelingen. De roostervakjes blijven duidelijk zichtbaar. Afbeeldingen zijn scherp en herkenbaar. Teksten zijn goed leesbaar. Kinderen werken met overzichtelijke werkbladen.
-
-Download als PDF of JPEG naar keuze. PDF werkt perfect voor printen. JPEG is handig voor digitaal delen. Er is ook een grijswaarden optie. Bespaar inkt zonder kwaliteitsverlies. De puzzels blijven even goed bruikbaar.`,
-        highlighted: false,
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // How-To Guide
@@ -307,68 +202,8 @@ De grijswaarden optie bespaart inkt. Vink deze aan voor zwart-wit afdrukken. De 
     badgeText: 'Voor wie',
     readMoreLabel: 'Lees meer',
     showLessLabel: 'Minder tonen',
-    items: [
-      {
-        id: '1',
-        icon: '👶',
-        title: 'Leerkrachten Groep 1 2 - Werkbladen Kleuters met Fijne Motoriek en Ruimtelijk Inzicht',
-        subtitle: 'Werkbladen kleuters en fijne motoriek',
-        description: `Werk je met kleuters in groep 1 of 2? Dan weet je hoe belangrijk ruimtelijk inzicht is. Schattenjachten oefenen dit op een speelse manier. Kinderen leren begrippen als links, rechts, boven en onder.
-
-De werkbladen kleuters bevatten herkenbare afbeeldingen. Dieren, speelgoed en voorwerpen uit hun leefwereld. Dit maakt de puzzels toegankelijk. Ook kinderen die nog niet kunnen lezen volgen de visuele aanwijzingen.
-
-Fijne motoriek ontwikkeling staat centraal in de kleuterklas. Schattenjachten oefenen het nauwkeurig volgen van lijnen. Kinderen trekken de route met een potlood. Ze leren binnen de lijntjes blijven. Dit is voorbereiding op schrijven oefenen later.`,
-        quote: 'Mijn kleuters vinden de schattenjacht werkbladen geweldig!',
-      },
-      {
-        id: '2',
-        icon: '📚',
-        title: 'Leerkrachten Groep 3 - Veilig Leren Lezen en Rekenen Werkbladen Combinaties',
-        subtitle: 'Werkbladen groep 3 en Veilig leren lezen',
-        description: `Groep 3 is het jaar van leren lezen en rekenen. Schattenjachten ondersteunen beide vaardigheden. Voor Veilig leren lezen maak je puzzels met kernwoorden. Kinderen herkennen de woorden uit hun leesmethode.
-
-De richtingsaanwijzingen bevatten eenvoudige zinnen. "Ga twee naar rechts." "Ga één omhoog." Korte instructies die kinderen zelfstandig kunnen lezen. Dit versterkt het leesvertrouwen enorm.
-
-Werkbladen groep 3 met schattenjachten passen perfect bij zelfstandig werk. Leerlingen die klaar zijn met hun reguliere werk krijgen een puzzel. Geen extra uitleg nodig. Ze weten precies wat te doen. Jij hebt tijd voor kinderen die extra hulp nodig hebben.`,
-        quote: 'Schattenjachten maken leren leuk voor mijn groep 3!',
-      },
-      {
-        id: '3',
-        icon: '🔢',
-        title: 'Leerkrachten Groep 4 en 5 - Tafels Oefenen en Sommen tot 20 met Richtingspuzzels',
-        subtitle: 'Tafels oefenen en rekenen werkbladen',
-        description: `In groep 4 en 5 worden schattenjachten uitdagender. Gebruik windrichtingen in plaats van links-rechts. Noord, zuid, oost en west. Kinderen leren aardrijkskundige begrippen terwijl ze puzzelen.
-
-Voor tafels oefenen maak je rekenroutes. Elk roostervakje bevat een tafelssom. "3 × 4 = ?" Kinderen berekenen het antwoord. Dan verplaatsen ze twaalf vakjes in de aangegeven richting. Zo wordt de schattenjacht een rekenparcours.
-
-Sommen tot 20 uitbreiden naar grotere getallen werkt ook. Of introduceer decimalen voor gevorderde leerlingen. "Tel 1,5 naar rechts" betekent anderhalf vakje. Kinderen leren breuken en kommagetallen in een praktische context.`,
-        quote: 'Tafels oefenen is nooit zo leuk geweest!',
-      },
-      {
-        id: '4',
-        icon: '🏠',
-        title: 'Ouders met Thuisonderwijs - Oefenbladen Gratis voor Alle Vakken Combineren',
-        subtitle: 'Gratis werkblad voor kinderen en gratis printables',
-        description: `Geef je thuisonderwijs? Dan waarder je flexibele materialen. Schattenjachten werk je in elk vak. Taal voor woordenschat. Rekenen voor getalbegrip. Aardrijkskunde voor richtingen.
-
-Maak wekelijkse themapakketten met oefenbladen gratis downloaden. Maandag een natuurthema met planten en dieren. Dinsdag voertuigen en transport. Woensdag eten en gezondheid. Elke dag een nieuwe schattenjacht die past bij je les.
-
-Combineer met letters leren activiteiten. Upload eigen afbeeldingen van voorwerpen in huis. Kinderen zoeken objecten die ze dagelijks zien. Dit maakt leren persoonlijk en relevant. Ze herkennen de afbeeldingen direct.`,
-        quote: 'Perfect voor gevarieerd thuisonderwijs!',
-      },
-      {
-        id: '5',
-        icon: '💼',
-        title: 'Onderwijsondernemers - Rekenen Werkbladen en Tafels Oefenen Bundels Verkopen',
-        subtitle: 'Commerciële licentie en verkopen',
-        description: `Wil je geld verdienen met lesmateriaal? Schattenjachten verkopen uitstekend online. Teachers Pay Teachers heeft grote vraag naar richtingspuzzels. Ook Etsy shoppers zoeken printbare werkbladen.
-
-Maak themabundels met schattenjachten, rekenen werkbladen en kleurplaten. Een herfstpakket met tien verschillende activiteiten. Ouders en leerkrachten betalen graag voor complete sets. Eén thema voor een hele week lessen.
-
-De commerciële licentie in je Volledige Toegang abonnement maakt dit mogelijk. Geen extra kosten per verkocht werkblad. Eén abonnement van €240 per jaar. Onbeperkt werkbladen maken en verkopen. Veel onderwijsondernemers verdienen dit bedrag terug in de eerste maand.`,
-        quote: 'Ik verdien €500 per maand met mijn schattenjacht bundels!',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // FAQ Section
@@ -381,78 +216,8 @@ De commerciële licentie in je Volledige Toegang abonnement maakt dit mogelijk. 
     showLessLabel: 'Minder tonen',
     secureCheckout: 'Veilige betaling',
     cancelAnytime: 'Altijd opzegbaar',
-    items: [
-      {
-        id: '1',
-        question: 'Zijn Schattenjacht Werkbladen Groep 3 Echt Gratis of Zit er een Watermerk op Oefenbladen Gratis?',
-        answer: `De schattenjacht generator vereist een Volledige Toegang abonnement dat €240 per jaar of €25 per maand kost. Je abonnement geeft je onbeperkte schattenjacht creatie zonder kosten per werkblad. Genereer zoveel werkbladen als je nodig hebt zonder extra kosten.
-
-Het Basis Pakket bevat 10 populaire werkblad generators en kost €144 per jaar. Volledige Toegang kost €240 per jaar en geeft toegang tot alle 33 werkblad generators inclusief schattenjacht. Beide abonnementen bevatten commerciële licentie, ondersteuning voor 11 talen en professionele 300 DPI exportkwaliteit.`,
-      },
-      {
-        id: '2',
-        question: 'Werken Schattenjachten als Gratis Werkblad voor Kinderen met Fijne Motoriek Ontwikkeling?',
-        answer: `Absoluut. Schattenjachten zijn uitstekend voor fijne motoriek training. Kinderen volgen de route met een potlood. Ze trekken lijnen van vakje naar vakje. Dit oefent nauwkeurigheid en handcoördinatie.
-
-Voor werkbladen kleuters in groep 1 2 maak je eenvoudige schattenjachten. Grote roostervakjes van 5×5. Weinig instructies. Vier of vijf stappen. Kinderen leren de beweging van het potlood te controleren. Essentiële voorbereiding op schrijven later.`,
-      },
-      {
-        id: '3',
-        question: 'Kan Ik Gratis Werkblad voor Kinderen Combineren met Veilig Leren Lezen en Letters Leren?',
-        answer: `Ja, schattenjachten ondersteunen Veilig leren lezen perfect. Maak puzzels met kernwoorden uit de actuele kern. Kinderen herkennen woorden uit hun leesboek. Dit versterkt woordherkenning op een speelse manier.
-
-Voor letters leren selecteer je afbeeldingen die beginnen met dezelfde letter. Een M-schattenjacht met muis, maan en melk. Kinderen zien het verband tussen letter en woord. Visueel leren gekoppeld aan fonetisch bewustzijn.`,
-      },
-      {
-        id: '4',
-        question: 'Hoe Integreer Ik Sommen tot 20 en Rekenen Werkbladen in Schattenjachten?',
-        answer: `Schattenjachten combineren uitstekend met sommen tot 20 oefeningen. Voeg getallen toe aan de instructies. "Tel tot 3 en ga naar rechts." Kinderen moeten eerst tellen. Dan de beweging uitvoeren. Rekenen en richtingen in één activiteit.
-
-Voor rekenen werkbladen integratie plaats je sommen in de roostervakjes. "5 + 3 = ?" staat in een vakje. Kinderen berekenen het antwoord. Verplaatsen dan acht vakjes verder. Zo wordt elke stap een rekenopgave.`,
-      },
-      {
-        id: '5',
-        question: 'Zijn Schattenjachten Geschikt voor Tafels Oefenen en Schrijven Oefenen Combinaties?',
-        answer: `Zeker. Tafels oefenen werkt uitstekend in schattenjachten. Plaats tafelsommen in de roostervakjes. "4 × 3 = ?" Kinderen lossen de som op. Bewegen twaalf vakjes in de aangegeven richting. Actief leren in plaats van passief stampen.
-
-Voor schrijven oefenen voeg je een opdracht toe onder de schattenjacht. "Schrijf alle objecten die je vindt." Kinderen volgen de route. Noteren de gevonden afbeeldingen. Oefenen schrijfvaardigheid in een betekenisvolle context.`,
-      },
-      {
-        id: '6',
-        question: 'Kan Ik Gratis Printables met Kleurplaten Elementen Maken voor Langere Activiteiten?',
-        answer: `Absoluut. Combineer schattenjachten met kleurplaten voor uitgebreide werkbladen. Kinderen volgen eerst de route. Markeren de gevonden objecten. Daarna kleuren ze alle afbeeldingen in. Activiteit van twintig tot dertig minuten.
-
-Voeg achtergronden toe met thema's. Herfstbladeren rond het rooster. Sneeuwvlokken voor winterthema's. Bloemen voor lente-activiteiten. De achtergrond geeft extra inkleuring. Kinderen maken een compleet kunstwerk van hun werkblad.`,
-      },
-      {
-        id: '7',
-        question: 'Hoeveel Kost Volledige Toegang voor Alle Generators Inclusief Oefenbladen Gratis Downloads?',
-        answer: `Volledige Toegang kost €240 per jaar of €25 per maand. Dit geeft toegang tot alle 33 werkblad generators. Niet alleen schattenjachten. Ook woordzoekers, kruiswoordpuzzels, sudoku's en meer. Plus onbeperkte oefenbladen downloaden zonder watermerk.
-
-Je krijgt ook commerciële rechten. Verkoop je werkbladen op Teachers Pay Teachers. Of op Etsy en Amazon KDP. Geen extra licentiekosten. Alles inbegrepen in het abonnement. Veel leerkrachten verdienen het abonnement terug in de eerste maand.`,
-      },
-      {
-        id: '8',
-        question: 'Ondersteunt de Generator Meertalig Onderwijs voor Werkbladen Kleuters in Verschillende Talen?',
-        answer: `Ja, de schattenjacht generator ondersteunt elf talen volledig. Nederlands, Engels, Duits, Frans, Spaans, Portugees, Italiaans, Zweeds, Deens, Noors en Fins. Maak werkbladen kleuters in elke taal.
-
-De interface past zich aan de gekozen taal aan. Alle knoppen en menu's worden vertaald. Ook de afbeeldingsnamen veranderen mee. Richtingswoorden verschijnen in de juiste taal. "Left" in Engels. "Links" in Nederlands. "Gauche" in Frans.`,
-      },
-      {
-        id: '9',
-        question: 'Werken Schattenjachten op Tablets voor Digitale Rekenen Werkbladen en Oefenbladen Gratis?',
-        answer: `De generator werkt op alle apparaten. Desktop computers, laptops, tablets en smartphones. De interface past zich aan het schermformaat aan. Je maakt werkbladen overal waar je internet hebt.
-
-Voor digitale rekenen werkbladen download je PDF of JPEG bestanden. Deel deze via Google Classroom of Teams. Leerlingen openen ze op hun tablet. Gebruiken een stylus of vinger om de route te tekenen. Geen printen nodig voor digitaal onderwijs.`,
-      },
-      {
-        id: '10',
-        question: 'Hoe Lang Duurt Het om Werkbladen Groep 3 met Schattenjachten en Fijne Motoriek Oefeningen te Maken?',
-        answer: `Gemiddeld drie minuten van start tot download. Kies een thema uit het menu. Klik op genereren. Pas eventueel aan op het canvas. Download als PDF. Klaar om te printen. Geen langdurige voorbereiding.
-
-Voor werkbladen groep 3 met specifieke fijne motoriek oefeningen voeg je extra elementen toe. Schrijflijnen onder het rooster. Tekstvakken met instructies. Dit kost vijf tot zeven minuten totaal. Nog steeds veel sneller dan handmatig maken.`,
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Pricing Section
@@ -523,40 +288,8 @@ Voor werkbladen groep 3 met specifieke fijne motoriek oefeningen voeg je extra e
       securePayment: 'Veilige betaling',
       cancelAnytime: 'Altijd opzegbaar',
     },
-    items: [
-      {
-        id: '1',
-        slug: 'find-and-count',
-        name: 'Zoek en Tel',
-        category: 'Visuele Waarneming',
-        icon: '🔍',
-        description: 'Combineer zoek- en teloefeningen met schattenjachten voor complete rekenen werkbladen.',
-      },
-      {
-        id: '2',
-        slug: 'drawing-lines',
-        name: 'Lijnen Trekken',
-        category: 'Fijne Motoriek',
-        icon: '✏️',
-        description: 'Perfect voor fijne motoriek oefeningen samen met schattenjacht routes.',
-      },
-      {
-        id: '3',
-        slug: 'matching-app',
-        name: 'Verbinden',
-        category: 'Visueel Leren',
-        icon: '🔗',
-        description: 'Voeg verbindingsoefeningen toe aan schattenjacht werkbladen voor extra uitdaging.',
-      },
-      {
-        id: '4',
-        slug: 'coloring',
-        name: 'Kleurplaten',
-        category: 'Creativiteit',
-        icon: '🎨',
-        description: 'Combineer kleurplaten met schattenjachten voor langere activiteiten.',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 };
 

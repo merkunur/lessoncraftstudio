@@ -64,29 +64,8 @@ Hver skyggematching oppgave kommer med automatisk fasit. Barna øver visuell mat
     noPdfLabel: 'Ingen PDF tilgjengelig',
     freePdfCountLabel: '3 gratis nedlastinger',
     ofLabel: 'av',
-    items: [
-      {
-        id: '1',
-        worksheetSrc: '/samples/norwegian/shadow match/sample-1.jpeg',
-        answerKeySrc: '/samples/norwegian/shadow match/sample-1-answer.jpeg',
-        altText: 'Skyggematching arbeidsark med fargede bilder og svarte silhuetter for visuell diskriminering øvelser',
-        pdfDownloadUrl: '/samples/norwegian/shadow match/sample-1.pdf',
-      },
-      {
-        id: '2',
-        worksheetSrc: '/samples/norwegian/shadow match/sample-2.jpeg',
-        answerKeySrc: '/samples/norwegian/shadow match/sample-2-answer.jpeg',
-        altText: 'Skyggematching arbeidsark landskapsformat med visuell persepsjon aktiviteter for barnehage',
-        pdfDownloadUrl: '/samples/norwegian/shadow match/sample-2.pdf',
-      },
-      {
-        id: '3',
-        worksheetSrc: '/samples/norwegian/shadow match/sample-3.jpeg',
-        answerKeySrc: '/samples/norwegian/shadow match/sample-3-answer.jpeg',
-        altText: 'Skyggematching arbeidsark portrettformat med romlig resonnement oppgaver for småskoletrinnet',
-        pdfDownloadUrl: '/samples/norwegian/shadow match/sample-3.pdf',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Features Grid - FULL text from shadow-match.md feature sections
@@ -102,71 +81,8 @@ Hver skyggematching oppgave kommer med automatisk fasit. Barna øver visuell mat
       noHiddenFees: 'Ingen skjulte avgifter',
       cancelAnytime: 'Avbryt når som helst',
     },
-    items: [
-      {
-        id: '1',
-        icon: '⚡',
-        title: 'Lag Skyggematching Arbeidsark på 3 Klikk - Arbeidsark Gratis å Skrive ut for Oppgavehefter Barn',
-        description: `Velg 4 bilder fra vårt bibliotek. Klikk generer og ditt skyggematching arbeidsark vises umiddelbart. Ingen designerferdigheter nødvendig. Skyggematching bygger visuell diskriminering gjennom objektgjenkjenning. Barna matcher fargede objekter med deres svarte silhuetter. Perfekt for barnehage og 1. trinn visuell persepsjon trening.
-
-Systemet lager automatisk arbeidsark med fargede bilder på venstre side. Svarte silhuetter vises på høyre side i tilfeldig rekkefølge. Barna tegner linjer for å matche objekter med skygger. Utvikler kritisk observasjonsferdighet. Kombiner skyggematching med finmotorikk øvelser for komplett barnehage læringspakke. Last ned som PDF arbeidsark gratis å skrive ut.`,
-        highlighted: false,
-      },
-      {
-        id: '2',
-        icon: '✏️',
-        title: 'Rediger Alt på Skyggematching Arbeidsark - Full Tilpasning for Matematikk Oppgaver og Fargeleggingsbilder',
-        description: `Dra, roter, skaler og slett alle elementer på lerretet. Full redigerbarhet gir deg total kontroll. Flytt bilder til perfekt plassering. Endre størrelse for å passe dine elever. Roter objekter for ekstra utfordring. Legg til egendefinert tekst med 7 skrifttyper. Perfekt for tilpasset opplæring.
-
-Kombiner skyggematching med matematikk oppgaver tekst. Legg til talloppgaver ved siden av visuell matching. Integrer tall og telling øvelser i samme arbeidsark. Bruk skyggematching for å bygge tellferdigheter. La barna telle objekter før matching. Lag multi-fag oppgavehefter barn med skyggematching, addisjon og fargeleggingsbilder.`,
-        highlighted: false,
-      },
-      {
-        id: '3',
-        icon: '📤',
-        title: 'Last Opp Egne Bilder til Skyggematching - Personaliserte Arbeidsark Gratis for Finmotorikk Øvelser',
-        description: `Multi-fil opplasting støtter JPEG, PNG og GIF formater. Last opp klasseromsfoto for personaliserte oppgaver. Kombiner biblioteksbilder med dine egne. Lag skyggematching med studentenes favorittfigurer. Utmerket for temauker og sesongtilpassede arbeidsark gratis. Personalisering øker elevengasjement kraftig.
-
-Last opp bilder av bokstaver for bokstaver lære skrive aktiviteter. Kombiner skyggematching med alfabetgjenkjenning. Lag visuelle oppgaver hvor barn matcher store og små bokstaver. Integrer skyggematching i lesetrening program. Bygg visuell diskriminering ferdigheter som støtter leseopplæring. Perfekt forberedelse for formell bokstaver lære skrive undervisning.`,
-        highlighted: false,
-      },
-      {
-        id: '4',
-        icon: '🌍',
-        title: '11 Språk Støtte - Skyggematching Arbeidsark Gratis for Flerspråklige Oppgavehefter Barn',
-        description: `Fullt grensesnitt på norsk, engelsk, tysk, fransk, spansk, portugisisk, italiensk, nederlandsk, svensk, dansk og finsk. Skyggematching fungerer perfekt på alle språk fordi bilder er universelle. Ingen oversettelse nødvendig. Utmerket for flerspråklige barnehager og internasjonale skoler. Bytt språk med ett klikk.
-
-Lag skyggematching for ESL-studenter. Visuell matching krever ikke språkferdigheter. Barna kan lykkes uavhengig av lesenivå. Kombiner med lesetrening når elever er klare. Bruk skyggematching for å bygge selvtillit før leseforståelse oppgaver. Perfekt broaktivitet mellom visuell læring og tekstbasert arbeid.`,
-        highlighted: false,
-      },
-      {
-        id: '5',
-        icon: '💰',
-        title: 'Kommersiell Lisens Inkludert - Selg Skyggematching Arbeidsark Gratis på Teachers Pay Teachers',
-        description: `Full Tilgang inkluderer print-on-demand kommersiell lisens. Selg dine skyggematching arbeidsark uten ekstra kostnader. Ingen attribusjon påkrevd. Perfekt for lærere som bygger inntekt. Selg på Etsy, Teachers Pay Teachers eller Amazon KDP. 300 DPI profesjonell kvalitet for kommersiell salg.
-
-Lag oppgavehefter barn pakker med skyggematching, matematikk oppgaver og fargeleggingsbilder. Selg komplette barnehage læringssett. Kombiner skyggematching med gangetabellen, addisjon og subtraksjon arbeidsark. Lærere tjener 4 000-40 000 kr per måned med arbeidsark gratis salg. Full Tilgang gjør deg til lærer-entreprenør.`,
-        highlighted: true,
-      },
-      {
-        id: '6',
-        icon: '🎨',
-        title: '3000+ Bildebibliotek - Skyggematching Arbeidsark Gratis med Matematikk og Finmotorikk Temaer',
-        description: `Over 3000 barnvennlige bilder organisert etter tema. Enkel temavelger viser relevante bilder umiddelbart. Søkefunksjon finner spesifikke objekter raskt. Alle bakgrunner og rammer inkludert uten ekstra kostnad. Kombiner skyggematching bilder med fargeleggingsbilder barn i samme arbeidsark.
-
-Velg matematikk oppgaver temaer som former, tall og telling objekter. Lag skyggematching med geometriske figurer. Integrer romlig resonnement med matematikkonsepter. Kombiner skyggematching med addisjon og subtraksjon bilder. Barna teller objekter mens de matcher skygger. Multi-faglig tilnærming styrker læring på tvers av tall og telling, finmotorikk og visuell persepsjon.`,
-        highlighted: false,
-      },
-      {
-        id: '7',
-        icon: '🖨️',
-        title: 'Profesjonell 300 DPI Kvalitet - Last Ned Skyggematching Arbeidsark Gratis som PDF og JPEG',
-        description: `Eksporter i høyoppløselig 300 DPI for perfekt utskrift. JPEG og PDF formater tilgjengelig. Gråtonealternativ sparer blekkostnader. Perfekt for hjemmeskrivere og profesjonelle trykkerier. Last ned arbeidsark gratis å skrive ut så mange du trenger. Ingen per-arbeidsark avgifter med Full Tilgang.
-
-Automatisk fasit genereres for hvert skyggematching arbeidsark. Fasiten viser korrekte par med linjer. Spar tid på retting. Barna kan selvsjekke sitt arbeid. Utmerket for selvstendige læringsstasjon. Kombiner skyggematching fasit med matematikk oppgaver svarark for komplette oppgavehefter barn pakker.`,
-        highlighted: true,
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // How-To Guide - FULL text from shadow-match.md step sections
@@ -248,80 +164,8 @@ Del arbeidsark gratis digitalt med foreldre. Send PDF via e-post eller læringsp
     badgeText: 'Hvem Er Det For',
     readMoreLabel: 'Les mer',
     showLessLabel: 'Vis mindre',
-    items: [
-      {
-        id: '1',
-        icon: '👶',
-        title: 'Barnehagepersonale - Skyggematching Arbeidsark Gratis for Finmotorikk Øvelser og Visuell Persepsjon',
-        subtitle: 'Visuelle matching oppgaver for førskolebarn',
-        description: `Barnehagepersonale bruker skyggematching for å utvikle tidlige visuelle ferdigheter. Barna lærer objektgjenkjenning gjennom skyggematching. Matcher fargede bilder med svarte silhuetter. Bygger visuell diskriminering før formell leseopplæring starter. Kombiner skyggematching med fargeleggingsbilder barn for komplett finmotorikk øvelser program.
-
-Skyggematching støtter barnehagens læringsmål. Utvikler observasjonsferdigheter hos førskolebarn. Barna øver visuell matching uten språkkrav. Perfekt for 3-5 år aldersgruppen. Integrer skyggematching med bokstaver lære skrive forberedelse. Visuell diskriminering er grunnlag for senere bokstavgjenkjenning. Lag oppgavehefter barn med skyggematching, fargeleggingsbilder og enkle finmotorikk øvelser.
-
-Barnehagepersonale trenger raske aktivitetspreparasjoner. Skyggematching lages på 3 minutter. Ingen forberedelsestid eller klipping. Last ned arbeidsark gratis og skriv ut. Perfekt for daglige stasjonslæring. Kombiner skyggematching med matematikk oppgaver som telling og tallgjenkjenning. Bygg oppgavehefter barn bibliotek for hele barnehageåret.`,
-        quote: 'Barna elsker skyggematching - de aner ikke at de lærer!',
-      },
-      {
-        id: '2',
-        icon: '👩‍🏫',
-        title: 'Småskoletrinnet Lærere - Skyggematching med Matematikk Oppgaver og Tall og Telling Integrasjon',
-        subtitle: 'Romlig resonnement for 1. til 3. trinn',
-        description: `Lærere for 1. trinn, 2. trinn og 3. trinn bruker skyggematching for visuell persepsjon utvikling. Småskoletrinnet elever trenger romlig resonnement ferdigheter. Skyggematching bygger visuell-spatiale evner kritiske for matematikk. Kombiner skyggematching med addisjon og subtraksjon øvelser. Integrer tall og telling aktiviteter i samme arbeidsark gratis.
-
-Lag tverrfaglige oppgavehefter barn for småskoletrinnet. Kombiner skyggematching med gangetabellen øvelser. La elever telle objekter før matching. Legg til matematikk oppgaver som bruker samme bilder. Multi-faglig tilnærming styrker læring. Skyggematching støtter geometriforståelse gjennom formgjenkjenning. Utmerket forberedelse for mer avanserte romlige matematikk oppgaver.
-
-Småskoletrinnet lærere trenger differensieringsverktøy. Skyggematching tilpasser seg alle nivåer. Enklere bilder for 1. trinn. Mer komplekse objekter for 3. trinn. Kombiner med lesetrening for flerfaglig læring. Integrer skyggematching i ukentlige oppgavehefter barn pakker. Full Tilgang gir ubegrenset arbeidsark gratis for hele småskoletrinnet.`,
-        quote: 'Skyggematching bygger romlig resonnement perfekt for matematikk.',
-      },
-      {
-        id: '3',
-        icon: '🏠',
-        title: 'Hjemmeskoleforeldre - Skyggematching Oppgavehefter Barn med Fargeleggingsbilder og Lesetrening',
-        subtitle: 'Fleksible arbeidsark for hjemmeundervisning',
-        description: `Hjemmeskoleforeldre trenger omfattende oppgavehefter barn ressurser. Skyggematching gir visuell persepsjon øvelse hjemme. Kombiner med fargeleggingsbilder barn for finmotorikk utvikling. Integrer bokstaver lære skrive aktiviteter i samme læringspakke. Full Tilgang gir alle verktøy for komplett hjemmeundervisning.
-
-Hjemmeskoleforeldre lærer flere barn på ulike nivåer. Skyggematching differensieres enkelt. Lag barnehage arbeidsark gratis for yngre barn. Kombiner skyggematching med matematikk oppgaver for eldre. Integrer lesetrening og leseforståelse øvelser. Bygg flernivå oppgavehefter barn som dekker alle fag. Spar tid med ubegrenset arbeidsark gratis produksjon.
-
-Lag ukentlige læringspakker med varierte aktiviteter. Mandag skyggematching med fargeleggingsbilder barn. Tirsdag matematikk oppgaver med tall og telling. Onsdag bokstaver lære skrive kombinert med skyggematching. Torsdag addisjon og subtraksjon øvelser. Fredag gangetabellen og visuell matching. Full Tilgang støtter full uke hjemmeskole oppgavehefter barn.`,
-        quote: 'Endelig kan jeg lage perfekt tilpassede oppgaver for hvert barn.',
-      },
-      {
-        id: '4',
-        icon: '🌍',
-        title: 'ESL og Flerspråklige Lærere - Skyggematching Arbeidsark Gratis Uten Språkbarrierer',
-        subtitle: 'Visuell læring for alle språknivåer',
-        description: `ESL lærere elsker skyggematching fordi bilder er universelle. Ingen norsk leseforståelse nødvendig for å lykkes. Barn kan utføre skyggematching uavhengig av språknivå. Bygger selvtillit før tekstbasert lesetrening starter. Perfekt broaktivitet for nyankomne elever. Kombiner skyggematching med fargeleggingsbilder barn for språkfri læring.
-
-Skyggematching støtter vokabularutvikling. Bruk bildenavn for å lære nye norske ord. Barna matcher objekter mens de lærer begreper. Integrer skyggematching i bokstaver lære skrive program. Visuell matching forsterker bokstavgjenkjenning. Kombiner med matematikk oppgaver for flerspråklig matematikkundervisning. Tall og telling læres gjennom visuell kontekst.
-
-Flerspråklige klasserom trenger inkluderende oppgavehefter barn. Skyggematching fungerer for alle språkbakgrunner. Kombiner med fargeleggingsbilder, matematikk oppgaver og finmotorikk øvelser. Lag komplette læringspakker som ikke krever høyt lesenivå. Full Tilgang gir arbeidsark gratis for flerspråklig undervisning året rundt.`,
-        quote: 'Mine flerspråklige elever trives med visuell matching.',
-      },
-      {
-        id: '5',
-        icon: '💜',
-        title: 'Spesialpedagoger - Skyggematching for Visuell Prosessering og Finmotorikk Øvelser',
-        subtitle: 'Tilpassede oppgaver for spesielle behov',
-        description: `Spesialpedagoger bruker skyggematching for visuell prosesseringsutfordringer. Mange elever med lærevansker drar nytte av visuell matching. Bygger observasjonsferdigheter uten språkpress. Utmerket for autismespekteret elever som er visuelle lærere. Kombiner skyggematching med fargeleggingsbilder barn for sansemotorisk integrasjon.
-
-Skyggematching støtter ergoterapi mål. Finmotorikk øvelser gjennom linjetegning. Hånd-øye koordinasjon utvikles ved matching. Romlig bevissthet bygges gjennom formdiskriminering. Kombiner med matematikk oppgaver for multi-sensorisk læring. Integrer tall og telling med visuell matching. Lag tilpassede oppgavehefter barn for individuelle opplæringsplaner.
-
-Spesialpedagoger trenger fleksible differensieringsverktøy. Skyggematching tilpasser seg alle funksjonsnivåer. Stort bilder for synshemmede. Enkle former for kognitive utfordringer. Kombiner med bokstaver lære skrive for dysleksistøtte. Full Tilgang gir ubegrenset arbeidsark gratis for spesialundervisning.`,
-        quote: 'Jeg kan endelig lage perfekt tilpassede oppgaver til hver enkelt elev.',
-      },
-      {
-        id: '6',
-        icon: '💰',
-        title: 'Lærere-Entreprenører - Selg Skyggematching Oppgavehefter Barn på Teachers Pay Teachers',
-        subtitle: 'Bygg inntekt med kommersiell lisens',
-        description: `Lærere-entreprenører bygger inntekt ved å selge oppgavehefter barn. Full Tilgang inkluderer kommersiell lisens uten ekstra kostnad. Lag skyggematching pakker for Teachers Pay Teachers. Kombiner med fargeleggingsbilder barn, matematikk oppgaver og finmotorikk øvelser. Selg komplette læringspakker med skyggematching, addisjon og subtraksjon, gangetabellen og lesetrening.
-
-Lag tematiske oppgavehefter barn for sesongbasert salg. Høst skyggematching med høstbilder. Vinter pakker med snøflak og julemotiver. Vår oppgavehefter med blomster og dyr. Kombiner skyggematching med fargeleggingsbilder, matematikk oppgaver og bokstaver lære skrive. Temabaserte pakker selger best på Etsy og Teachers Pay Teachers.
-
-Lærere tjener 4 000-40 000 kr per måned med arbeidsark gratis produksjon. Full Tilgang gir ubegrenset oppretting uten per-ark avgifter. Lag hundrevis av oppgavehefter barn produkter. 300 DPI kvalitet perfekt for kommersiell salg. Kombiner skyggematching med alle 33 generatorer. Bygg omfattende produktkatalog raskt.`,
-        quote: 'Abonnementet betalte seg selv tilbake første måneden.',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // FAQ Section - From shadow-match.md
@@ -335,68 +179,8 @@ Lærere tjener 4 000-40 000 kr per måned med arbeidsark gratis produksjon. Full
     showLessLabel: 'Vis mindre',
     secureCheckout: 'Sikker betaling',
     cancelAnytime: 'Avbryt når som helst',
-    items: [
-      {
-        id: '1',
-        question: 'Er Denne Skyggematching Generator Virkelig Gratis å Bruke for Arbeidsark Gratis?',
-        answer: 'Skyggematching generatoren krever Full Tilgang-abonnement som koster 1 800 kr årlig eller 200 kr månedlig. Abonnementet ditt gir ubegrenset skyggematching oppretting uten per-ark avgifter. Generer så mange arbeidsark gratis å skrive ut som du trenger uten tilleggskostnader. Lag skyggematching, fargeleggingsbilder barn, matematikk oppgaver og oppgavehefter barn ubegrenset. Full Tilgang inkluderer alle 33 generatortyper. Skyggematching, addisjon og subtraksjon, gangetabellen, bokstaver lære skrive, lesetrening, finmotorikk øvelser og tall og telling. Alle inkludert i 1 800 kr årlig abonnement. Begge abonnementer inkluderer kommersiell lisensiering, 11 språkstøtte og profesjonell 300 DPI kvalitetseksport. Ubegrenset arbeidsark gratis produksjon for alle oppgavehefter barn behov.',
-      },
-      {
-        id: '2',
-        question: 'Kan Jeg Skrive Ut Skyggematching Arbeidsark Hjemme på Vanlig Skriver med Fargeleggingsbilder Barn?',
-        answer: 'Ja. Skyggematching arbeidsark gratis skrives ut perfekt på standard hjemmeskrivere. Last ned som PDF eller JPEG. Skriv ut på vanlig A4 eller Letter papir. Gråtonealternativ sparer blekkostnader. Utmerket for hjemmeskrivere med begrenset blekkbudsjett. Kombiner skyggematching med fargeleggingsbilder barn for varierte oppgavehefter barn. 300 DPI høyoppløselig kvalitet ser profesjonell ut på hjemmeskrivere. Skyggematching arbeidsark matcher kommersiell trykk kvalitet. Skriv ut enkeltark eller komplette oppgavehefter barn. Kombiner skyggematching med matematikk oppgaver, addisjon og subtraksjon, gangetabellen og bokstaver lære skrive. Alle skrives ut vakkert hjemme. Full Tilgang gir ubegrenset arbeidsark gratis utskrift.',
-      },
-      {
-        id: '3',
-        question: 'Trenger Jeg Designferdigheter for å Lage Skyggematching med Matematikk Oppgaver og Bokstaver Lære Skrive?',
-        answer: 'Nei. Ingen designferdigheter nødvendig for skyggematching arbeidsark gratis. Velg 4 bilder fra biblioteket. Klikk generer. Arbeidsarket vises umiddelbart. Så enkelt. Redigerbarhet på lerretet er intuitiv. Dra, roter, skaler elementer med musen. Legg til matematikk oppgaver tekst med 7 skrifttyper. Kombiner skyggematching med bokstaver lære skrive elementer. Barnehagepersonale uten datakompetanse lykkes. Småskoletrinnet lærere lager skyggematching med addisjon og subtraksjon på minutter. Integrer gangetabellen og tall og telling enkelt. Kombiner skyggematching med fargeleggingsbilder barn, finmotorikk øvelser og lesetrening. Full Tilgang gjør alle oppgavehefter barn enkle å lage uavhengig av tekniske ferdigheter.',
-      },
-      {
-        id: '4',
-        question: 'Kan Jeg Bruke Skyggematching Arbeidsark Gratis i Mitt Klasserom for Matematikk Oppgaver og Tall og Telling?',
-        answer: 'Full Tilgang-abonnement inkluderer ubegrenset klasserombruk. Skriv ut skyggematching for hele klassen. Lag oppgavehefter barn for barnehage, 1. trinn, 2. trinn og 3. trinn. Kombiner skyggematching med matematikk oppgaver daglig. Integrer addisjon og subtraksjon, gangetabellen og tall og telling øvelser. Alle inkludert i 1 800 kr årlig abonnement. Bruk skyggematching for morgenarbeid, stasjonsrotasjon og vikar aktiviteter. Kombiner med fargeleggingsbilder barn for finmotorikk øvelser. Integrer bokstaver lære skrive og lesetrening. Lag komplette oppgavehefter barn for ukentlig arbeid. Full Tilgang støtter alle klasseromsbehov med ubegrenset arbeidsark gratis produksjon for alle fag.',
-      },
-      {
-        id: '5',
-        question: 'Hvilke Språk er Skyggematching Arbeidsark Gratis Tilgjengelig På for Oppgavehefter Barn?',
-        answer: 'Skyggematching støtter 11 grensesnittspråk. Norsk, engelsk, tysk, fransk, spansk, portugisisk, italiensk, nederlandsk, svensk, dansk og finsk. Bytt språk med ett klikk. Skyggematching fungerer universelt fordi bilder er språkfrie. Perfekt for ESL, flerspråklige klasserom og internasjonale skoler. Kombiner skyggematching med matematikk oppgaver, fargeleggingsbilder barn og oppgavehefter barn. Alle 33 generatorer støtter samme 11 språk. Lag skyggematching, addisjon og subtraksjon, gangetabellen, bokstaver lære skrive, lesetrening og finmotorikk øvelser på norsk. Bytt til engelsk for tospråklig program. Tall og telling læres på alle språk. Full Tilgang gir arbeidsark gratis på alle 11 språk for komplette oppgavehefter barn.',
-      },
-      {
-        id: '6',
-        question: 'Kan Jeg Selge Skyggematching Arbeidsark Gratis Jeg Lager med Fargeleggingsbilder Barn og Gangetabellen?',
-        answer: 'Ja. Full Tilgang-abonnement inkluderer full kommersiell print-on-demand lisensiering uten ekstra kostnad. Selg skyggematching arbeidsark på Teachers Pay Teachers, Etsy og Amazon KDP. Kombiner skyggematching med fargeleggingsbilder barn for komplette pakker. Integrer matematikk oppgaver, addisjon og subtraksjon, gangetabellen og bokstaver lære skrive. Lag oppgavehefter barn produkter for passive inntekter. Ingen attribusjon påkrevd. 300 DPI profesjonell kvalitet perfekt for kommersiell salg. Selg skyggematching kombinert med lesetrening, finmotorikk øvelser og tall og telling. Lærere tjener 4 000-40 000 kr månedlig. Full Tilgang-lisens dekker alle oppgavehefter barn du lager. 1 800 kr årlig abonnement gir ubegrenset arbeidsark gratis for kommersiell salg.',
-      },
-      {
-        id: '7',
-        question: 'Hvordan Tilpasser Jeg Skyggematching Arbeidsark Gratis for Mine Elever med Finmotorikk Øvelser?',
-        answer: 'Full redigerbarhet gir total tilpasningskontroll. Dra bilder til perfekt plassering. Endre størrelse for barnehage eller småskoletrinnet behov. Roter objekter for ekstra utfordring. Legg til egendefinert tekst med matematikk oppgaver, addisjon og subtraksjon, gangetabellen og tall og telling. Kombiner skyggematching med fargeleggingsbilder barn og finmotorikk øvelser. Last opp egne bilder for personaliserte oppgavehefter barn. Bruk studentfoto eller klasseromsobjekter. Integrer bokstaver lære skrive elementer. Kombiner skyggematching med lesetrening tekst. Juster vanskelighetsgrad gjennom bildevalg. Full Tilgang gir alle verktøy for tilpassede arbeidsark gratis til dine spesifikke eleverbehov på tvers av alle fag.',
-      },
-      {
-        id: '8',
-        question: 'Hvilke Aldersgrupper Fungerer Best med Skyggematching og Addisjon og Subtraksjon Arbeidsark Gratis?',
-        answer: 'Skyggematching fungerer utmerket for barnehage (3-5 år) til 3. trinn (8-9 år). Barnehage bruker enkle objekter for visuell diskriminering. Kombineres med fargeleggingsbilder barn og grunnleggende finmotorikk øvelser. 1. trinn integrerer skyggematching med bokstaver lære skrive og tall og telling. 2. trinn og 3. trinn kombinerer med matematikk oppgaver, addisjon og subtraksjon. Småskoletrinnet bruker skyggematching for romlig resonnement. Integrer gangetabellen og mer avanserte matematikk oppgaver. Kombiner skyggematching med lesetrening og leseforståelse. Spesialundervisning tilpasser skyggematching til alle funksjonsnivåer. Full Tilgang støtter oppgavehefter barn for alle aldersgrupper fra barnehage gjennom småskoletrinnet med ubegrenset arbeidsark gratis.',
-      },
-      {
-        id: '9',
-        question: 'Kan Jeg Laste Opp Egne Bilder til Skyggematching for Bokstaver Lære Skrive og Lesetrening?',
-        answer: 'Ja. Multi-fil opplasting støtter JPEG, PNG og GIF. Last opp klasseromsfoto, studentarbeider eller tematiske bilder. Kombiner biblioteksbilder med egne for unike oppgavehefter barn. Utmerket for bokstaver lære skrive med alfabetbilder. Integrer skyggematching i lesetrening program med relevante objekter. Kombiner med fargeleggingsbilder barn og finmotorikk øvelser. Last opp matematikk oppgaver bilder som tallsymboler og former. Lag skyggematching med addisjon og subtraksjon elementer. Integrer gangetabellen visuelt. Kombiner med tall og telling objekter. Personaliserte oppgavehefter barn øker elevengasjement. Full Tilgang gir ubegrenset bildeopplasting for alle arbeidsark gratis tilpasningsbehov.',
-      },
-      {
-        id: '10',
-        question: 'Hvor Lang Tid Tar Det å Lage Skyggematching med Gangetabellen og Tall og Telling Arbeidsark Gratis?',
-        answer: 'Skyggematching lages på under 3 minutter. Velg 4 bilder (30 sekunder). Klikk generer (5 sekunder). Last ned PDF (10 sekunder). Total tid under 1 minutt for grunnleggende skyggematching. Redigering og tilpasning legger til 2 minutter. Kombiner skyggematching med matematikk oppgaver, gangetabellen og tall og telling på samme arbeidsark. Tradisjonell skyggematching oppretting tar 30-60 minutter. Full Tilgang sparer 90% av tiden. Lag komplette oppgavehefter barn på minutter i stedet for timer. Kombiner skyggematching med fargeleggingsbilder barn, addisjon og subtraksjon, bokstaver lære skrive, lesetrening og finmotorikk øvelser raskt. Hele ukens arbeidsark gratis lages på 2 timer.',
-      },
-      {
-        id: '11',
-        question: 'Inkluderer Skyggematching Arbeidsark Gratis Fasit for Matematikk Oppgaver og Leseforståelse?',
-        answer: 'Ja. Automatisk fasit genereres for hvert skyggematching arbeidsark. Fasiten viser korrekte matchende par med linjer. Spar tid på retting. Barna kan selvsjekke arbeidet sitt. Utmerket for selvstendige læringsstasjon. Kombiner skyggematching fasit med matematikk oppgaver svarark, addisjon og subtraksjon fasit, gangetabellen svar og leseforståelse veiledninger. Last ned både arbeidsark gratis og fasit samtidig. Arbeidsarket for studentene. Fasiten for lærerbruk og selvsjekking. Lag komplette oppgavehefter barn med svar inkludert. Kombiner skyggematching, fargeleggingsbilder barn, bokstaver lære skrive, finmotorikk øvelser og tall og telling med tilhørende fasit. Full Tilgang gir automatisk fasit for alle arbeidstyper.',
-      },
-      {
-        id: '12',
-        question: 'Kan Jeg Lage Skyggematching om Spesifikke Skolefag som Addisjon og Subtraksjon eller Bokstaver Lære Skrive?',
-        answer: 'Ja. Velg tematiske bilder fra biblioteket vårt. Matematikk oppgaver temaer inkluderer tallsymboler, former og telling objekter. Lag skyggematching med addisjon og subtraksjon bilder. Integrer gangetabellen visuelt. Kombiner tall og telling objekter for matematikk fokuserte oppgavehefter barn. Alle matematiske konsepter dekkes. Bokstaver lære skrive temaer inkluderer alfabetbilder. Lag skyggematching med store og små bokstaver. Kombiner med lesetrening elementer. Integrer fargeleggingsbilder barn for multi-fag læring. Finmotorikk øvelser gjennom linjetegning. Full Tilgang gir 3000+ bilder på tvers av alle skolefag for varierte oppgavehefter barn og arbeidsark gratis.',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Pricing
@@ -432,56 +216,8 @@ Lærere tjener 4 000-40 000 kr per måned med arbeidsark gratis produksjon. Full
       securePayment: 'Sikker betaling',
       cancelAnytime: 'Avbryt når som helst',
     },
-    items: [
-      {
-        id: '1',
-        slug: 'coloring',
-        name: 'Fargelegging',
-        category: 'Kunst og Kreativitet',
-        icon: '🎨',
-        description: 'Kombiner skyggematching med fargeleggingsbilder barn kan fargelegge etter å ha løst oppgavene. Integrert læring og finmotorikk øvelser i samme arbeidsark.',
-      },
-      {
-        id: '2',
-        slug: 'matching-app',
-        name: 'Kobling',
-        category: 'Logikk',
-        icon: '🔗',
-        description: 'Kombiner skyggematching med koblingsspill for variert visuell øving. Perfekt for å styrke visuell diskriminering og oppmerksomhet til detaljer.',
-      },
-      {
-        id: '3',
-        slug: 'find-objects',
-        name: 'Finn Objektene',
-        category: 'Visuell',
-        icon: '🔍',
-        description: 'Kombiner skyggematching med finn objektene for avansert visuell diskriminering. Barn lærer å identifisere forskjeller og likheter.',
-      },
-      {
-        id: '4',
-        slug: 'image-addition',
-        name: 'Addisjon',
-        category: 'Matematikk',
-        icon: '➕',
-        description: 'Kombiner skyggematching med addisjon for å styrke telleferdighetene. Perfekt for å forberede barn til mer avanserte matematikk oppgaver.',
-      },
-      {
-        id: '5',
-        slug: 'drawing-lines',
-        name: 'Tegning av Linjer',
-        category: 'Finmotorikk',
-        icon: '✏️',
-        description: 'Kombiner skyggematching med linjetegning for omfattende finmotorikk øvelser. Utvikler hånd-øye koordinasjon.',
-      },
-      {
-        id: '6',
-        slug: 'writing-app',
-        name: 'Skriveøvelser',
-        category: 'Språk',
-        icon: '📝',
-        description: 'Kombiner skyggematching med bokstaver lære skrive aktiviteter. Barn matcher objekter og skriver navnene for tverrfaglig læring.',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 };
 

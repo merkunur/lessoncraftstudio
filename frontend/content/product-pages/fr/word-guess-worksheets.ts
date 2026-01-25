@@ -99,43 +99,8 @@ Votre abonnement Accès Complet inclut une licence commerciale pour vendre vos f
     badgeText: 'Exemples Gratuits',
     downloadingLabel: 'Téléchargement...',
     ofLabel: 'sur',
-    items: [
-      {
-        id: '1',
-        worksheetSrc: '/samples/french/word-guess/sample-1.jpeg',
-        answerKeySrc: '/samples/french/word-guess/sample-1-answer.jpeg',
-        altText: 'Fiche deviner les mots gratuite avec indices visuels - fiches maternelle vocabulaire pour enfants',
-        pdfDownloadUrl: '/samples/french/word-guess/sample-1.pdf',
-      },
-      {
-        id: '2',
-        worksheetSrc: '/samples/french/word-guess/sample-2.jpeg',
-        answerKeySrc: '/samples/french/word-guess/sample-2-answer.jpeg',
-        altText: 'Fiche deviner les mots à imprimer gratuit niveau facile - exercices CP orthographe pour enfants',
-        pdfDownloadUrl: '/samples/french/word-guess/sample-2.pdf',
-      },
-      {
-        id: '3',
-        worksheetSrc: '/samples/french/word-guess/sample-3.jpeg',
-        answerKeySrc: '/samples/french/word-guess/sample-3-answer.jpeg',
-        altText: 'Fiche gratuite deviner les mots thème animaux - fiches à imprimer gratuit maternelle vocabulaire',
-        pdfDownloadUrl: '/samples/french/word-guess/sample-3.pdf',
-      },
-      {
-        id: '4',
-        worksheetSrc: '/samples/french/word-guess/sample-4.jpeg',
-        answerKeySrc: '/samples/french/word-guess/sample-4-answer.jpeg',
-        altText: 'Fiche deviner les mots pour enfants thème nature - exercices CE1 gratuits apprendre à lire',
-        pdfDownloadUrl: '/samples/french/word-guess/sample-4.pdf',
-      },
-      {
-        id: '5',
-        worksheetSrc: '/samples/french/word-guess/sample-5.jpeg',
-        answerKeySrc: '/samples/french/word-guess/sample-5-answer.jpeg',
-        altText: 'Fiches gratuites deviner les mots niveau difficile - fiche pour maternelle écriture vocabulaire',
-        pdfDownloadUrl: '/samples/french/word-guess/sample-5.pdf',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Features Grid - FULL text from word-guess.md feature sections
@@ -151,85 +116,8 @@ Votre abonnement Accès Complet inclut une licence commerciale pour vendre vos f
       noHiddenFees: 'Aucun frais caché',
       cancelAnytime: 'Annulez à tout moment',
     },
-    items: [
-      {
-        id: '1',
-        icon: '⚡',
-        title: 'Créer des Fiches Maternelle en 3 Clics - Générateur Rapide d\'Exercices CP',
-        description: `La création de fiches maternelle n'a jamais été aussi simple. Sélectionnez un thème d'images pour vos exercices CP. Cliquez sur générer et votre fiche apparaît instantanément. Trois clics suffisent pour créer des exercices professionnels.
-
-Choisissez parmi plus de 3000 images organisées par thèmes. Les thèmes populaires incluent les animaux, les aliments et les objets du quotidien. Parfait pour créer des fiches à imprimer gratuit sur n'importe quel sujet. Les images sont adaptées aux jeunes enfants avec des illustrations claires.
-
-Le générateur calcule automatiquement la mise en page optimale. Créez de 1 à 10 devinettes par page selon vos besoins. Chaque fiche maternelle s'adapte parfaitement au format choisi. Portrait ou paysage, A4 ou Lettre, tout fonctionne parfaitement.`,
-        highlighted: true,
-      },
-      {
-        id: '2',
-        icon: '✏️',
-        title: 'Modifier Toutes les Fiches à Imprimer Gratuit - Personnalisation Complète des Exercices Maternelle',
-        description: `Chaque élément sur votre fiche maternelle est entièrement modifiable. Déplacez les images, redimensionnez les boîtes de lettres, changez les couleurs. Faites glisser, pivoter et ajuster n'importe quel élément avec la souris. Aucune compétence technique requise.
-
-Ajoutez du texte personnalisé n'importe où sur la page. Changez la taille, la couleur et la police du texte. Ajoutez des titres, des instructions ou des consignes spécifiques. Parfait pour créer des exercices CP adaptés à votre classe.
-
-Modifiez les fiches après génération pour les personnaliser davantage. Supprimez des éléments qui ne conviennent pas. Ajoutez vos propres images téléchargées. La flexibilité totale garantit que chaque fiche maternelle correspond exactement à vos besoins pédagogiques.`,
-        highlighted: false,
-      },
-      {
-        id: '3',
-        icon: '📤',
-        title: 'Télécharger vos Propres Images - Fiches Maternelle Personnalisées pour Apprendre à Lire',
-        description: `Téléchargez plusieurs images simultanément pour vos exercices maternelle. Tous les formats courants sont acceptés : JPEG, PNG, GIF. Combinez les images de la bibliothèque avec vos propres photos. Créez des fiches à imprimer gratuit ultra-personnalisées pour vos élèves.
-
-Utilisez des photos de votre classe pour un apprentissage contextualisé. Téléchargez des images de vocabulaire spécifique à votre programme. Parfait pour créer des exercices CP sur des thèmes particuliers. Les enfants adorent voir des objets familiers dans leurs exercices.
-
-Les images téléchargées fonctionnent exactement comme celles de la bibliothèque. Redimensionnez, pivotez et positionnez-les librement sur le canevas. Le nom du fichier devient automatiquement le mot à deviner. Modifiez manuellement les noms si nécessaire pour créer des fiches maternelle précises.`,
-        highlighted: false,
-      },
-      {
-        id: '4',
-        icon: '🌍',
-        title: 'Support de 11 Langues - Exercices Maternelle Multilingues pour Apprendre l\'Alphabet',
-        description: `L'interface utilisateur fonctionne dans 11 langues différentes. Français, anglais, allemand, espagnol, italien et portugais. Également néerlandais, suédois, danois, norvégien et finnois. Parfait pour les écoles internationales et les programmes bilingues.
-
-Le support linguistique est essentiel pour créer des exercices d'apprentissage à lire. Les mots sont extraits des noms de fichiers dans la langue sélectionnée. Créez des fiches maternelle en français, puis passez à une autre langue. Idéal pour l'enseignement des langues étrangères dès la maternelle.
-
-Les enseignants de CP apprécient la flexibilité multilingue. Créez des exercices pour apprendre les lettres de l'alphabet dans plusieurs langues. Comparez le vocabulaire entre les langues pour enrichir l'apprentissage. Les programmes d'immersion bilingue bénéficient particulièrement de cette fonctionnalité.`,
-        highlighted: true,
-      },
-      {
-        id: '5',
-        icon: '💰',
-        title: 'Licence Commerciale POD Incluse - Vendez vos Fiches à Imprimer Gratuit sur Etsy',
-        description: `Votre abonnement Accès Complet inclut une licence commerciale complète. Vendez vos fiches maternelle sur Teachers Pay Teachers sans frais supplémentaires. Créez une boutique Etsy de ressources pédagogiques imprimables. Publiez des cahiers d'activités sur Amazon KDP.
-
-La qualité 300 DPI garantit des impressions professionnelles parfaites. Vos clients reçoivent des fiches nettes et claires. Parfait pour vendre des exercices CP premium. Les enseignants entrepreneurs génèrent entre 500€ et 5000€ par mois.
-
-Aucune attribution requise sur vos créations. Marquez les fiches à imprimer gratuit avec votre propre logo. Créez votre marque d'exercices maternelle unique. La licence commerciale POD est incluse dans l'abonnement Accès Complet à 240€ par an. Les concurrents facturent 80-200€ supplémentaires pour les droits commerciaux.`,
-        highlighted: false,
-      },
-      {
-        id: '6',
-        icon: '🎨',
-        title: 'Bibliothèque de Plus de 3000 Images - Thèmes pour Fiches Maternelle et Exercices de Graphisme Maternelle',
-        description: `Accédez à plus de 3000 images adaptées aux enfants. Organisation thématique pour trouver rapidement ce dont vous avez besoin. Sélectionnez un thème entier en un clic pour vos fiches maternelle. Parcourez individuellement pour choisir des images spécifiques.
-
-Les thèmes populaires incluent les animaux de la ferme et de la forêt. Fruits, légumes, véhicules et objets du quotidien. Parfait pour créer des exercices CP sur le vocabulaire concret. Chaque image est claire avec des contours nets.
-
-La fonction recherche trouve instantanément des images spécifiques. Tapez « pomme » pour voir toutes les images de pommes. Créez des fiches à imprimer gratuit thématiques cohérentes. Combinez différents thèmes pour des exercices variés et des fiches de graphisme maternelle enrichissantes.`,
-        highlighted: false,
-      },
-      {
-        id: '7',
-        icon: '🖨️',
-        title: 'Qualité Professionnelle 300 DPI - Exercices Maternelle Parfaits pour l\'Impression',
-        description: `Téléchargez vos fiches maternelle en qualité 300 DPI. Parfait pour l'impression professionnelle et la vente. Chaque lettre et chaque image reste nette et claire. Les parents et collègues impressionnés par la qualité.
-
-Choisissez entre les formats PDF et JPEG pour vos exercices CP. Le PDF conserve la qualité vectorielle pour les textes. Le JPEG fonctionne partout et se partage facilement. Les deux formats garantissent des fiches à imprimer gratuit de qualité supérieure.
-
-L'option niveaux de gris économise l'encre d'imprimante. Convertit automatiquement toutes les couleurs en nuances de gris. Parfait pour imprimer de nombreuses copies économiquement. Les exercices maternelle restent clairs et lisibles en noir et blanc. Les fonctions annuler et refaire permettent de corriger facilement les erreurs.`,
-        highlighted: false,
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // How-To Guide - FULL text from word-guess.md step sections
@@ -323,80 +211,8 @@ Téléchargez également le corrigé automatiquement généré. Cliquez sur l'on
     badgeText: 'Cas d\'Utilisation',
     readMoreLabel: 'Lire la suite',
     showLessLabel: 'Voir moins',
-    items: [
-      {
-        id: '1',
-        icon: '👩‍🏫',
-        title: 'Enseignants de Maternelle - Fiches à Imprimer Gratuit pour Apprendre les Lettres et Graphisme Maternelle',
-        subtitle: 'Fiches alphabet et conscience phonologique',
-        description: `Les enseignants de petite, moyenne et grande section adorent notre générateur. Créez des fiches maternelle adaptées aux enfants de 3 à 6 ans. Les exercices de graphisme maternelle renforcent la motricité fine essentielle. Les devinettes visuelles captent l'attention des jeunes apprenants qui commencent à apprendre les lettres.
-
-Utilisez les fiches pour les centres d'apprentissage autonome. Les élèves travaillent seuls pendant que vous aidez d'autres groupes. Les images claires permettent aux enfants de deviner sans aide constante. Parfait pour développer l'autonomie dès la maternelle avec des exercices de graphisme maternelle progressifs.
-
-Créez des cahiers thématiques hebdomadaires pour vos élèves. Thème des animaux en septembre, fruits en octobre, véhicules en novembre. Les enfants adorent les exercices cohérents avec les thèmes de classe. Combinez avec du coloriage à imprimer pour des activités complètes qui développent simultanément reconnaissance des lettres et motricité fine.`,
-        quote: 'Mes élèves adorent les fiches avec les images colorées !',
-      },
-      {
-        id: '2',
-        icon: '📚',
-        title: 'Enseignants de CP et CE1 - Exercices CP pour Apprendre à Lire et Écriture Cursive',
-        subtitle: 'Fiches de lecture et exercices maths',
-        description: `Les enseignants de CP utilisent nos fiches pour consolider la lecture. Les élèves de 6-7 ans pratiquent le décodage et l'orthographe simultanément. Chaque devinette renforce le lien entre les lettres et les sons. Parfait pour les exercices CP quotidiens qui soutiennent l'apprentissage de la lecture. Idéal aussi pour pratiquer l'écriture cursive avec les minuscules.
-
-Les enseignants de CE1 créent des défis de vocabulaire avancés. Les élèves de 7-8 ans travaillent avec des mots plus longs et complexes. Téléchargez des images de vocabulaire académique spécifique. Créez des fiches sur les thèmes scientifiques ou géographiques du programme. Excellent pour apprendre à lire des textes plus complexes et perfectionner l'écriture cursive.
-
-Intégrez les fiches dans votre progression d'apprentissage de la lecture. Commencez l'année avec des mots simples de 3-4 lettres. Progressez vers des mots de 6-8 lettres au fil des trimestres. Le générateur s'adapte parfaitement à votre planification pédagogique.`,
-        quote: 'Les fiches rendent l\'apprentissage de la lecture ludique.',
-      },
-      {
-        id: '3',
-        icon: '🏠',
-        title: 'Parents d\'Instruction en Famille - Fiches Maternelle et Exercices Maths pour Apprendre les Lettres',
-        subtitle: 'Apprentissage personnalisé à la maison',
-        description: `Les parents qui font l'école à la maison adorent la flexibilité totale. Créez des fiches maternelle exactement adaptées au niveau de votre enfant. Progressez à son rythme sans suivre un manuel rigide. Les exercices personnalisés maintiennent la motivation et l'engagement. Parfait pour enseigner les lettres de façon ludique et personnalisée.
-
-Combinez les devinettes avec d'autres activités d'apprentissage. Créez des fiches sur le vocabulaire du livre que vous lisez ensemble. Thématisez selon les sorties et expériences de votre famille. L'apprentissage devient contextuel et significatif pour votre enfant. Intégrez même des exercices maths en comptant les lettres ou les images.
-
-La licence commerciale permet de partager avec d'autres familles. Créez des packs thématiques pour votre coopérative d'instruction en famille. Échangez des ressources avec d'autres parents éducateurs. Certains parents créent même des revenus en vendant leurs créations.`,
-        quote: 'Un outil adapté à tous les niveaux de mes enfants.',
-      },
-      {
-        id: '4',
-        icon: '🌍',
-        title: 'Enseignants de Langues Étrangères - Exercices CP et CE1 Multilingues pour Apprendre à Lire',
-        subtitle: 'Vocabulaire multilingue et apprentissage progressif',
-        description: `Les professeurs de langues utilisent le support de 11 langues. Enseignez l'anglais, l'espagnol ou l'allemand avec des supports visuels. Les enfants apprennent le vocabulaire étranger avec des indices visuels clairs. Parfait pour les programmes d'immersion bilingue dès la maternelle. Les exercices CE1 avancés introduisent du vocabulaire académique en langue étrangère.
-
-Créez des fiches comparatives entre le français et la langue cible. Une page en français, une page en anglais avec les mêmes images. Les élèves comparent l'orthographe et découvrent les similarités. L'apprentissage comparatif renforce la compréhension dans les deux langues.
-
-Les cours de FLE pour enfants non-francophones bénéficient énormément. Les images aident à comprendre sans traduction constante. Les élèves apprennent le vocabulaire français contextuellement. La progression du facile au difficile suit leur acquisition linguistique.`,
-        quote: 'Le support multilingue est essentiel pour mes élèves allophones.',
-      },
-      {
-        id: '5',
-        icon: '💜',
-        title: 'Enseignants Spécialisés - Fiches à Imprimer Gratuit pour Écriture Cursive et Coloriage à Imprimer',
-        subtitle: 'Différenciation et adaptation aux besoins spécifiques',
-        description: `Les orthophonistes créent des exercices ciblés pour leurs patients. Travaillez la conscience phonologique avec des mots spécifiques. Ciblez les sons problématiques pour chaque enfant individuellement. Les images claires supportent la compréhension pour tous les profils. Pratiquez l'écriture cursive avec des mots adaptés au niveau de chaque patient.
-
-Les enseignants d'ULIS adaptent facilement les fiches pour leurs élèves. Créez des versions très simplifiées avec peu de lettres. Utilisez de grandes images et peu de devinettes par page. La différenciation extrême devient possible avec notre générateur. Ajoutez du coloriage à imprimer pour rendre les fiches encore plus accessibles et motivantes.
-
-Les éducateurs spécialisés travaillant avec des enfants autistes apprécient la prévisibilité. Le format constant rassure les enfants ayant besoin de routine. Les indices visuels supportent les apprenants visuels parfaitement.`,
-        quote: 'Je peux adapter les fiches pour chaque élève de ma classe ULIS.',
-      },
-      {
-        id: '6',
-        icon: '💰',
-        title: 'Enseignants Entrepreneurs - Vendre des Fiches Maternelle avec Tables de Multiplication et Calcul',
-        subtitle: 'Licence commerciale incluse pour TPT, Etsy et Amazon KDP',
-        description: `Les enseignants entrepreneurs génèrent des revenus passifs avec nos fiches. Créez des packs thématiques pour Teachers Pay Teachers. Vendez des cahiers d'activités sur Etsy ou votre propre site. La licence commerciale Accès Complet permet la vente illimitée. Combinez devinettes de mots avec des exercices maths et tables de multiplication.
-
-Les boutiques Etsy de ressources pédagogiques prospèrent avec nos outils. Créez 50 fiches thématiques en une après-midi de travail. Vendez le pack à 5-10€ et générez des revenus récurrents. Les clients adorent les fiches professionnelles personnalisables.
-
-Les auteurs auto-édités sur Amazon KDP publient des cahiers d'activités. Combinez 100 fiches maternelle en un cahier thématique. Ajoutez une couverture attrayante et publiez en quelques heures. Les royautés s'accumulent passivement pendant des années.`,
-        quote: 'Mon abonnement s\'est rentabilisé dès le premier mois de ventes !',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // FAQ Section - Selected FAQs from word-guess.md
@@ -410,92 +226,8 @@ Les auteurs auto-édités sur Amazon KDP publient des cahiers d'activités. Comb
     showLessLabel: 'Voir moins',
     secureCheckout: 'Paiement sécurisé',
     cancelAnytime: 'Résiliez à tout moment',
-    items: [
-      {
-        id: '1',
-        question: 'Ce Générateur de Fiches Maternelle et Exercices Maths est-il Vraiment Gratuit?',
-        answer: `Le générateur de fiches maternelle nécessite un abonnement Accès Complet à 240€ annuels ou 25€ mensuels. Votre abonnement vous donne accès illimité à la création de fiches sans frais supplémentaires. Générez autant d'exercices maths, tables de multiplication et fiches à imprimer gratuit que nécessaire. Aucun coût par fiche individuelle après votre abonnement.
-
-L'abonnement Accès Complet inclut tous les 33 générateurs de la plateforme. Créez des fiches maternelle, exercices de calcul, graphisme maternelle et coloriage à imprimer. L'abonnement Pack Essentiel coûte 144€ annuellement et inclut 10 générateurs populaires. Les deux abonnements incluent la licence commerciale, le support de 11 langues et les exports 300 DPI professionnels pour vos exercices maths et écriture cursive.`,
-      },
-      {
-        id: '2',
-        question: 'Puis-je Imprimer ces Fiches à Imprimer Gratuit et Exercices de Calcul à la Maison?',
-        answer: `L'abonnement Accès Complet permet l'impression illimitée à domicile ou à l'école. Utilisez n'importe quelle imprimante standard pour vos fiches maternelle. Les formats PDF et JPEG fonctionnent parfaitement avec toutes les imprimantes. Imprimez autant de copies que nécessaire pour vos élèves. Les exercices de calcul, tables de multiplication et graphisme maternelle s'impriment nettement.
-
-Les fiches téléchargées restent sur votre ordinateur définitivement. Réimprimez les mêmes exercices maths l'année suivante si besoin. Partagez les PDF avec vos collègues enseignants. L'option niveaux de gris économise l'encre pour les impressions multiples. Parfait pour imprimer des classes complètes de fiches à imprimer gratuit et coloriage à imprimer.`,
-      },
-      {
-        id: '3',
-        question: 'Ai-je Besoin de Compétences en Design pour Créer des Exercices Maths et Graphisme Maternelle?',
-        answer: `Aucune compétence technique requise pour utiliser notre générateur de fiches maternelle. L'interface intuitive guide chaque étape de création. Sélectionnez vos images, choisissez les paramètres, cliquez sur générer. Vos exercices maths et tables de multiplication apparaissent instantanément professionnels. Même les enseignants peu à l'aise avec la technologie réussissent facilement.
-
-Les contrôles simples permettent la personnalisation sans formation. Changez les couleurs, ajoutez du texte, déplacez les éléments avec la souris. Les fiches de graphisme maternelle et écriture cursive se créent aussi simplement. Des milliers d'enseignants sans expérience design créent quotidiennement des ressources magnifiques. Les tutoriels intégrés expliquent chaque fonctionnalité clairement pour vos fiches à imprimer gratuit.`,
-      },
-      {
-        id: '4',
-        question: 'Puis-je Utiliser ces Fiches Maternelle et Exercices CP pour Apprendre à Lire en Classe?',
-        answer: `L'abonnement Accès Complet inclut l'utilisation illimitée en classe. Distribuez vos fiches maternelle à tous vos élèves sans restriction. Créez des exercices CP pour apprendre à lire adaptés à chaque niveau. Imprimez des copies pour toute l'école si nécessaire. La licence couvre l'usage éducatif complet dans les établissements scolaires.
-
-Partagez les fiches avec vos collègues enseignants librement. Créez des banques de ressources communes pour votre niveau scolaire. Les exercices pour apprendre à lire et l'alphabet s'utilisent en centres d'apprentissage. Les fiches de graphisme maternelle fonctionnent parfaitement en ateliers autonomes. Distribuez aux familles pour le travail à domicile également.`,
-      },
-      {
-        id: '5',
-        question: 'Quelles Langues sont Disponibles pour les Fiches à Imprimer Gratuit et Tables de Multiplication?',
-        answer: `L'interface utilisateur fonctionne dans 11 langues européennes. Créez des fiches maternelle en français, anglais, allemand, espagnol et italien. Également portugais brésilien, néerlandais, suédois, danois, norvégien et finnois. Parfait pour les écoles internationales et programmes bilingues. Les exercices maths et tables de multiplication s'adaptent à chaque langue.
-
-Le contenu des fiches s'adapte aussi à la langue sélectionnée. Les mots extraits des noms d'images correspondent à la langue choisie. Créez des exercices pour apprendre à lire en plusieurs langues simultanément. Les programmes d'immersion bénéficient des ressources multilingues cohérentes. Enseignez l'alphabet et les tables de multiplication dans toutes les langues européennes principales.`,
-      },
-      {
-        id: '6',
-        question: 'Puis-je Vendre les Fiches avec Tables de Multiplication et Exercices de Calcul que je Crée?',
-        answer: `L'abonnement Accès Complet inclut une licence commerciale POD complète sans frais supplémentaires. Vendez vos fiches maternelle sur Teachers Pay Teachers librement. Créez une boutique Etsy de ressources imprimables pédagogiques. Publiez des cahiers d'activités avec tables de multiplication sur Amazon KDP. Les enseignants entrepreneurs génèrent des revenus significatifs grâce aux exercices de calcul.
-
-Aucune attribution requise sur vos créations vendues. Ajoutez votre propre logo et marque sur les fiches à imprimer gratuit. Vendez des packs thématiques d'exercices maths pour 5-15€ chacun. Les cahiers de tables de multiplication se vendent particulièrement bien auprès des parents. La licence couvre la vente illimitée sans royalties supplémentaires pour graphisme maternelle et écriture cursive.`,
-      },
-      {
-        id: '7',
-        question: 'Comment Personnaliser les Fiches de Graphisme Maternelle et Écriture Cursive pour mes Élèves?',
-        answer: `La personnalisation complète est possible après génération de vos fiches maternelle. Cliquez sur n'importe quel élément pour le modifier. Changez les couleurs, redimensionnez les images, déplacez les boîtes de lettres. Ajoutez du texte personnalisé avec des instructions spécifiques. Parfait pour adapter les exercices de graphisme maternelle à vos besoins exacts.
-
-Téléchargez vos propres images pour des fiches ultra-personnalisées. Ajoutez des thèmes de fond et bordures décoratives. Modifiez la police et la taille du texte pour l'écriture cursive. Choisissez entre majuscules et minuscules selon votre objectif pédagogique. Les options de personnalisation sont infinies pour vos fiches à imprimer gratuit et coloriage à imprimer.`,
-      },
-      {
-        id: '8',
-        question: 'Pour Quels Âges ces Exercices pour Apprendre à Lire et l\'Alphabet Conviennent-ils?',
-        answer: `Les fiches maternelle conviennent aux enfants de 3 à 8 ans principalement. Les tout-petits de maternelle petite section utilisent les versions très simplifiées. Les élèves de grande section et CP bénéficient le plus des exercices pour apprendre à lire. Les CE1 et CE2 travaillent avec les versions difficiles sans indices. Ajustez la difficulté selon le niveau de chaque élève pour l'alphabet.
-
-Les quatre niveaux de difficulté s'adaptent à tous les âges. Sans indices convient aux lecteurs avancés de CE1-CE2. Facile parfait pour les débutants en maternelle grande section. Normal idéal pour les élèves de CP en cours d'apprentissage. Les exercices pour apprendre les lettres de l'alphabet évoluent avec vos élèves. Les fiches de graphisme maternelle supportent le développement moteur essentiel.`,
-      },
-      {
-        id: '9',
-        question: 'Puis-je Télécharger mes Propres Images pour les Fiches à Imprimer Gratuit et Coloriage à Imprimer?',
-        answer: `Le téléchargement d'images personnalisées est entièrement supporté. Cliquez sur le menu Télécharger Images Personnalisées. Sélectionnez plusieurs fichiers simultanément depuis votre ordinateur. Tous les formats standards fonctionnent : JPEG, PNG, GIF. Parfait pour créer des fiches à imprimer gratuit sur votre vocabulaire spécifique.
-
-Combinez vos images avec celles de la bibliothèque de 3000+ images. Créez des fiches thématiques sur des sujets particuliers à votre programme. Les images téléchargées fonctionnent exactement comme celles de la bibliothèque. Le nom du fichier devient automatiquement le mot à deviner. Modifiez manuellement si nécessaire pour vos exercices de coloriage à imprimer personnalisés.`,
-      },
-      {
-        id: '10',
-        question: 'Combien de Temps pour Créer des Exercices de Calcul, Tables de Multiplication et Graphisme Maternelle?',
-        answer: `La création complète prend moins de 3 minutes du début au téléchargement. Sélectionnez vos images en 30 secondes. Configurez les paramètres en 1 minute. La génération est instantanée en 2 secondes. Modifications finales et téléchargement en 1 minute. Vos exercices de calcul et tables de multiplication sont prêts immédiatement.
-
-Comparez avec 30-60 minutes pour créer manuellement la même fiche maternelle. Notre générateur économise 90% de votre temps de préparation. Créez 10 fiches différentes en 30 minutes totales. Impossible manuellement sans y passer des heures entières. Les exercices de graphisme maternelle et écriture cursive se génèrent aussi rapidement que les autres types.`,
-      },
-      {
-        id: '11',
-        question: 'Les Corrigés sont-ils Inclus pour les Exercices Maths et Tables de Multiplication?',
-        answer: `Chaque fiche maternelle génère automatiquement son corrigé complet. Basculez vers l'onglet Corrigé pour voir toutes les lettres remplies. Téléchargez le corrigé en PDF ou JPEG comme la fiche de travail. Parfait pour la correction rapide des exercices maths en classe. Les enseignants apprécient énormément cette fonctionnalité pour les tables de multiplication.
-
-Les corrigés facilitent aussi l'auto-correction des élèves. Plastifiez les corrigés pour les centres d'apprentissage autonome. Les élèves vérifient leurs réponses indépendamment. Développe l'autonomie et la responsabilité dans l'apprentissage. Les corrigés fonctionnent pour tous types de fiches à imprimer gratuit incluant graphisme maternelle et exercices de calcul.`,
-      },
-      {
-        id: '12',
-        question: 'Puis-je Créer des Fiches sur des Matières Spécifiques comme Apprendre à Lire et Tables de Multiplication?',
-        answer: `Créez des fiches maternelle sur absolument n'importe quel sujet académique. Téléchargez des images de vocabulaire mathématique pour les tables de multiplication. Utilisez des images scientifiques pour enseigner le vocabulaire académique. Créez des fiches géographiques avec des monuments et pays. Les exercices pour apprendre à lire s'adaptent à tous les thèmes curriculaires.
-
-Les thèmes de la bibliothèque couvrent les sujets scolaires principaux. Animaux pour les sciences naturelles, aliments pour la nutrition. Véhicules pour les transports, objets quotidiens pour le vocabulaire. Combinez avec vos images téléchargées pour des sujets très spécifiques. Les exercices de calcul et graphisme maternelle deviennent des outils transdisciplinaires puissants pour apprendre l'alphabet.`,
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Pricing - FULL ACCESS (€240/an)
@@ -565,56 +297,8 @@ Les thèmes de la bibliothèque couvrent les sujets scolaires principaux. Animau
       securePayment: 'Paiement sécurisé',
       cancelAnytime: 'Résiliez à tout moment',
     },
-    items: [
-      {
-        id: '1',
-        slug: 'exercices-maths-fiches',
-        name: 'Exercices Maths',
-        category: 'Mathématiques',
-        icon: '➕',
-        description: 'Combinez les fiches deviner les mots avec nos générateurs d\'exercices maths pour créer des packs mathématiques complets. Créez des fiches avec du vocabulaire mathématique. Plus, moins, égal, somme, différence, total.',
-      },
-      {
-        id: '2',
-        slug: 'train-alphabet-fiches',
-        name: 'Train de l\'Alphabet',
-        category: 'Lecture',
-        icon: '🚂',
-        description: 'Combinez les fiches deviner les mots avec nos générateurs d\'alphabet et de graphisme maternelle pour développer les compétences d\'écriture précoces. Les devinettes montrent aux enfants comment les lettres se combinent en mots.',
-      },
-      {
-        id: '3',
-        slug: 'coloriage-fiches',
-        name: 'Coloriage à Imprimer',
-        category: 'Arts et Motricité',
-        icon: '🎨',
-        description: 'Combinez les fiches deviner les mots avec du coloriage à imprimer pour créer des packs d\'activités calmes parfaits. Ces combinaisons fonctionnent merveilleusement pour les temps de transition, les centres autonomes ou les activités de fin de journée.',
-      },
-      {
-        id: '4',
-        slug: 'cherche-et-compte-fiches',
-        name: 'Cherche et Compte',
-        category: 'Mathématiques',
-        icon: '🔍',
-        description: 'Combinez les fiches deviner les mots avec des exercices de comptage pour une instruction complète des nombres. Créez des associations image-nombre montrant les représentations de quantités.',
-      },
-      {
-        id: '5',
-        slug: 'mots-croises-images-fiches',
-        name: 'Mots Croisés en Images',
-        category: 'Lecture',
-        icon: '📝',
-        description: 'Combinez les fiches deviner les mots avec les mots croisés pour une pratique complète du vocabulaire. Les élèves complètent les devinettes puis trouvent les mêmes mots de vocabulaire dans les mots croisés.',
-      },
-      {
-        id: '6',
-        slug: 'mots-melanges-fiches',
-        name: 'Mots Mélangés',
-        category: 'Lecture',
-        icon: '🔤',
-        description: 'Combinez les fiches deviner les mots avec les mots mélangés pour renforcer l\'orthographe. Les élèves devinent d\'abord les mots, puis les retrouvent avec les lettres mélangées.',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 };
 

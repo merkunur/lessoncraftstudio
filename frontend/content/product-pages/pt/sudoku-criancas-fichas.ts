@@ -88,36 +88,8 @@ O sudoku infantil usa grade 4x4 com imagens coloridas. Perfeito para atividades 
     badgeText: 'Exemplos Grátis',
     downloadingLabel: 'Baixando...',
     ofLabel: 'de',
-    items: [
-      {
-        id: '1',
-        worksheetSrc: '/samples/portuguese/sudoku/sample-1.jpeg',
-        answerKeySrc: '/samples/portuguese/sudoku/sample-1-answer.jpeg',
-        altText: 'Sudoku visual atividade grátis - nível fácil com imagens coloridas para educação infantil',
-        pdfDownloadUrl: '/samples/portuguese/sudoku/sample-1.pdf',
-      },
-      {
-        id: '2',
-        worksheetSrc: '/samples/portuguese/sudoku/sample-2.jpeg',
-        answerKeySrc: '/samples/portuguese/sudoku/sample-2-answer.jpeg',
-        altText: 'Atividade grátis para crianças de sudoku visual - nível médio para 1º ano',
-        pdfDownloadUrl: '/samples/portuguese/sudoku/sample-2.pdf',
-      },
-      {
-        id: '3',
-        worksheetSrc: '/samples/portuguese/sudoku/sample-3.jpeg',
-        answerKeySrc: '/samples/portuguese/sudoku/sample-3-answer.jpeg',
-        altText: 'Imprimíveis grátis de sudoku infantil - raciocínio lógico para atividades educação infantil',
-        pdfDownloadUrl: '/samples/portuguese/sudoku/sample-3.pdf',
-      },
-      {
-        id: '4',
-        worksheetSrc: '/samples/portuguese/sudoku/sample-4.jpeg',
-        answerKeySrc: '/samples/portuguese/sudoku/sample-4-answer.jpeg',
-        altText: 'Atividades grátis de sudoku visual para crianças - nível difícil para 2º ano',
-        pdfDownloadUrl: '/samples/portuguese/sudoku/sample-4.pdf',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Features Grid - FULL text from sudoku.md feature sections
@@ -133,80 +105,8 @@ O sudoku infantil usa grade 4x4 com imagens coloridas. Perfeito para atividades 
       noHiddenFees: 'Sem taxas ocultas',
       cancelAnytime: 'Cancele quando quiser',
     },
-    items: [
-      {
-        id: '1',
-        icon: '⚡',
-        title: 'Criação Rápida de Atividades Grátis em 3 Cliques',
-        description: `Criar atividades para imprimir nunca foi tão simples. Selecione um tema de imagens e clique em gerar. O sudoku visual aparece instantaneamente na tela. Todo o processo leva menos de 3 minutos.
-
-Professores de educação infantil economizam horas de trabalho. Atividades de matemática prontas para download imediato. Não precisa de habilidades de design ou software caro. Tudo acontece diretamente no navegador.`,
-        highlighted: false,
-      },
-      {
-        id: '2',
-        icon: '✏️',
-        title: 'Atividade Grátis Totalmente Editável no Canvas',
-        description: `Cada elemento da atividade para imprimir é editável. Arraste, redimensione e gire qualquer imagem. Adicione textos personalizados com diferentes fontes. Mude cores e posições conforme necessário.
-
-Atividades educação infantil ficam únicas para cada turma. Professores têm controle total sobre o design final. Escolha entre 7 fontes infantis diferentes. Use cores e tamanhos variados de texto.`,
-        highlighted: false,
-      },
-      {
-        id: '3',
-        icon: '🧩',
-        title: 'Três Níveis de Dificuldade - Atividade Grátis para Crianças',
-        description: `Três níveis de dificuldade disponíveis no gerador. Fácil com 4 células vazias para iniciantes. Médio com 6 células para atividades 1º ano. Difícil com 8 células para atividades 2º ano.
-
-Atividades para imprimir progressivas acompanham o desenvolvimento. Professores adaptam desafios conforme a turma. Cada puzzle tem solução única garantida pelo sistema. Gabarito gerado automaticamente para correção rápida.`,
-        highlighted: true,
-      },
-      {
-        id: '4',
-        icon: '🌍',
-        title: 'Atividades Grátis de Sudoku Visual em 11 Idiomas',
-        description: `O gerador suporta 11 idiomas diferentes. Perfeito para atividades de alfabetização bilíngue. Crie sudoku em português, inglês, espanhol e mais. Atividades educação infantil para escolas internacionais.
-
-Professores de idiomas usam para ensino de vocabulário. Atividades para imprimir em qualquer língua necessária. Interface traduzida profissionalmente em todos os idiomas.`,
-        highlighted: false,
-      },
-      {
-        id: '5',
-        icon: '📤',
-        title: 'Upload de Imagens - Imprimíveis Grátis Personalizados',
-        description: `Faça upload de suas próprias imagens para o sudoku. Use fotos dos alunos ou mascotes da escola. Atividades de matemática ficam muito mais especiais. Combine imagens enviadas com a biblioteca do sistema.
-
-Atividades para imprimir personalizadas engajam mais as crianças. Professores de educação infantil adoram esta flexibilidade. Sistema aceita JPEG, PNG e GIF em upload múltiplo.`,
-        highlighted: false,
-      },
-      {
-        id: '6',
-        icon: '💰',
-        title: 'Licença Comercial POD - Venda Atividades Grátis',
-        description: `Sua assinatura Pacote Essencial inclui licença comercial completa. Venda atividades de coordenação motora no Teachers Pay Teachers. Crie loja de atividades para imprimir na Etsy. Publique livros de atividades na Amazon KDP.
-
-Atividades educação infantil podem gerar renda extra. Nenhuma taxa adicional por licenciamento comercial. Exportação em 300 DPI garante qualidade para produtos comerciais.`,
-        highlighted: true,
-      },
-      {
-        id: '7',
-        icon: '🎨',
-        title: '3000+ Imagens para Atividades Grátis para Crianças',
-        description: `Acesse mais de 3000 imagens infantis na biblioteca. Desenhos para colorir organizados por temas. Animais, frutas, veículos, formas e muito mais. Atividades para imprimir sempre com visual renovado.
-
-Professores encontram imagens para qualquer tema curricular. Atividades de matemática com ilustrações atrativas. Busque por nome em português usando a barra de pesquisa.`,
-        highlighted: false,
-      },
-      {
-        id: '8',
-        icon: '🖨️',
-        title: 'Qualidade 300 DPI - Atividade Grátis para Educação Infantil',
-        description: `Todas as atividades exportam em 300 DPI profissional. Atividades vogais e alfabeto com nitidez perfeita. Download em PDF ou JPEG de alta resolução. Opção de escala de cinza economiza tinta.
-
-Atividades para imprimir com qualidade de material comercial. Professores de educação infantil impressionam com resultados profissionais. Formato A4 ou Letter conforme sua impressora.`,
-        highlighted: false,
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // How-To Guide - FULL text from sudoku.md step sections
@@ -278,68 +178,8 @@ Baixe worksheet e gabarito separadamente. Atividades 1º ano e 2º ano em múlti
     badgeText: 'Para Quem',
     readMoreLabel: 'Leia mais',
     showLessLabel: 'Mostrar menos',
-    items: [
-      {
-        id: '1',
-        icon: '👩‍🏫',
-        title: 'Professores de Educação Infantil',
-        subtitle: 'Atividades Grátis para Imprimir na Pré-escola',
-        description: `Professores de educação infantil usam sudoku visual constantemente. Atividades para imprimir perfeitas para crianças de 4 a 6 anos. Pré-escola e últimos anos da creche se beneficiam. Atividades educação infantil desenvolvem raciocínio lógico precoce.
-
-Coordenação motora trabalhada ao marcar respostas. Professores criam rotinas de puzzle semanais. Professores usam sudoku para atividades de alfabetização criativas. Imagens de letras e vogais no puzzle.`,
-        quote: 'Meus alunos adoram resolver puzzles com imagens coloridas!',
-      },
-      {
-        id: '2',
-        icon: '📚',
-        title: 'Professores do 1º e 2º Ano',
-        subtitle: 'Atividades Grátis de Matemática para Crianças',
-        description: `Professores do 1º ano usam sudoku como atividade complementar. Atividades de matemática que desenvolvem raciocínio lógico. Atividades 1º ano e 2º ano com níveis progressivos. Atividades para imprimir ideais para momentos de revisão.
-
-Sudoku visual prepara alunos para desafios de tabuada. Professores do 3º ano reconhecem benefícios prévios. Atividades de matemática constroem raciocínio sequencial.`,
-        quote: 'Alunos que praticam sudoku têm mais facilidade com tabuada.',
-      },
-      {
-        id: '3',
-        icon: '🏠',
-        title: 'Pais Homeschoolers',
-        subtitle: 'Imprimíveis Grátis para Educação Domiciliar',
-        description: `Pais que fazem educação domiciliar adoram o gerador. Desenhos para colorir combinados com raciocínio lógico. Atividades para imprimir variadas para cada dia. Atividades de matemática sem necessidade de aulas expositivas.
-
-Crianças aprendem autonomamente com sudoku visual. Pais criam currículos personalizados facilmente. Pais homeschoolers trabalham coordenação motora com sudoku.`,
-        quote: 'Uma ferramenta que atende todos os níveis dos meus filhos.',
-      },
-      {
-        id: '4',
-        icon: '🌍',
-        title: 'Professores de Idiomas',
-        subtitle: 'Atividades Grátis Bilíngues em 11 Idiomas',
-        description: `Professores de inglês usam sudoku em 11 idiomas. Atividades vogais e alfabeto em língua estrangeira. Atividades para imprimir para escolas bilíngues. Atividades de alfabetização em português e inglês.
-
-Professores de idiomas diversificam materiais didáticos. Alunos praticam vocabulário de forma lúdica. Escolas internacionais economizam tempo com materiais prontos.`,
-        quote: 'O suporte multilíngue é essencial para meu programa bilíngue.',
-      },
-      {
-        id: '5',
-        icon: '💜',
-        title: 'Professores de Educação Especial',
-        subtitle: 'Atividade Grátis para Educação Infantil Inclusiva',
-        description: `Professores de educação especial adaptam sudoku visual. Atividades de letra cursiva combinadas com puzzle. Pontilhado facilita para alunos com dificuldades motoras. Atividades para imprimir em tamanhos maiores.
-
-Atividades educação infantil inclusivas e acessíveis. Professores personalizam conforme necessidades individuais. Canvas editável permite modificar qualquer elemento.`,
-        quote: 'Posso adaptar rapidamente as atividades para cada aluno.',
-      },
-      {
-        id: '6',
-        icon: '💰',
-        title: 'Professores Empreendedores',
-        subtitle: 'Venda Atividades Grátis - Empreendedorismo Docente',
-        description: `Professores criam desenhos para colorir com sudoku para vender. Licença comercial inclusa na assinatura Pacote Essencial. Atividades para imprimir vendidas no Teachers Pay Teachers. Atividades de matemática em lojas da Etsy.
-
-Professores empreendedores monetizam criatividade. Renda extra com atividades educação infantil. Qualidade 300 DPI ideal para produtos comerciais.`,
-        quote: 'Minha assinatura se pagou no primeiro mês de vendas!',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // FAQ Section - Selected FAQs from sudoku.md
@@ -353,68 +193,8 @@ Professores empreendedores monetizam criatividade. Renda extra com atividades ed
     showLessLabel: 'Mostrar menos',
     secureCheckout: 'Pagamento seguro',
     cancelAnytime: 'Cancele quando quiser',
-    items: [
-      {
-        id: '1',
-        question: 'O gerador de atividades grátis de sudoku é gratuito para usar?',
-        answer: 'O gerador de sudoku requer assinatura Pacote Essencial. O custo é R$144 por ano ou R$15 por mês. Sua assinatura permite criar atividades para imprimir ilimitadas. Não há taxas por worksheet gerado. Atividades educação infantil em quantidade ilimitada. O Pacote Essencial inclui 10 geradores populares de atividades.',
-      },
-      {
-        id: '2',
-        question: 'Posso imprimir atividades grátis de sudoku em impressora comum?',
-        answer: 'Sim, atividades educação infantil imprimem perfeitamente em casa. Qualquer impressora doméstica funciona bem. Atividades para imprimir exportam em PDF de alta qualidade. Opção de escala de cinza economiza tinta colorida. Papel comum A4 ou Letter funciona perfeitamente. Atividades de matemática com qualidade profissional em casa.',
-      },
-      {
-        id: '3',
-        question: 'Preciso de habilidades de design para criar atividades grátis?',
-        answer: 'Não precisa de nenhuma habilidade de design. Atividades de alfabetização criadas automaticamente pelo sistema. Clique em gerar e o sudoku aparece pronto. Atividades para imprimir profissionais sem experiência prévia. Atividades educação infantil acessíveis para qualquer professor. Interface intuitiva guia todo o processo.',
-      },
-      {
-        id: '4',
-        question: 'Posso usar atividades grátis de sudoku para crianças na sala de aula?',
-        answer: 'Sua assinatura Pacote Essencial inclui uso ilimitado em sala de aula. Atividades de matemática para todos os seus alunos. Imprima quantas cópias precisar sem restrições. Atividades para imprimir para a turma inteira. Atividades educação infantil licenciadas para uso educacional. Compartilhe com colegas da mesma escola.',
-      },
-      {
-        id: '5',
-        question: 'Quais idiomas estão disponíveis para atividades grátis de sudoku?',
-        answer: 'Atividades vogais e alfabeto disponíveis em 11 idiomas. Português, inglês, espanhol, francês, alemão e italiano. Também holandês, sueco, dinamarquês, norueguês e finlandês. Atividades para imprimir multilíngues para escolas bilíngues. Atividades de alfabetização em qualquer língua necessária. Atividades educação infantil para programas de imersão.',
-      },
-      {
-        id: '6',
-        question: 'Posso vender imprimíveis grátis de sudoku que criar?',
-        answer: 'Sim, sua assinatura Pacote Essencial inclui licença comercial POD. Atividades de coordenação motora podem ser vendidas legalmente. Venda no Teachers Pay Teachers, Etsy ou Amazon KDP. Atividades para imprimir comercializadas sem taxas extras. Nenhuma atribuição ou royalty adicional necessário. Coordenação motora vira produto comercial.',
-      },
-      {
-        id: '7',
-        question: 'Como personalizo atividades grátis para crianças de sudoku?',
-        answer: 'Combine atividades de letra cursiva e pontilhado com sudoku facilmente. Adicione textos personalizados após gerar o puzzle. Escolha entre 7 fontes infantis diferentes. Atividades para imprimir com instruções customizadas. Letra cursiva e pontilhado em qualquer posição da página. Atividades educação infantil únicas para cada turma.',
-      },
-      {
-        id: '8',
-        question: 'Qual faixa etária funciona melhor para atividade grátis de sudoku visual?',
-        answer: 'Sudoku visual funciona perfeitamente para atividades 1º ano e 2º ano. Crianças de 4 a 8 anos se beneficiam muito. Atividades educação infantil para pré-escola até 2º ano. Três níveis de dificuldade atendem diferentes idades. Atividades para imprimir progressivas acompanham desenvolvimento. Atividades 1º ano e 2º ano com desafio adequado.',
-      },
-      {
-        id: '9',
-        question: 'Posso fazer upload de imagens para atividade grátis para educação infantil?',
-        answer: 'Sim, faça upload de suas próprias imagens para sudoku. Use imagens temáticas de tabuada se desejar. Atividades para imprimir com fotos personalizadas. Combine uploads com biblioteca de 3000+ imagens. Atividades de matemática únicas com seus materiais. Sistema aceita JPEG, PNG e GIF.',
-      },
-      {
-        id: '10',
-        question: 'Quanto tempo leva para criar atividades grátis de sudoku para crianças?',
-        answer: 'Criar atividades de coordenação motora leva menos de 3 minutos. Selecione imagens, configure dificuldade e clique gerar. Atividades para imprimir prontas instantaneamente. Edição opcional adiciona poucos minutos extras. Coordenação motora desenvolvida com materiais rápidos. Professores economizam horas de trabalho manual.',
-      },
-      {
-        id: '11',
-        question: 'As atividades grátis de sudoku para crianças incluem gabarito?',
-        answer: 'Sim, todas as atividades vogais e alfabeto incluem gabarito. Sistema gera worksheet e resposta automaticamente. Atividades para imprimir com correção facilitada. Baixe cada arquivo separadamente conforme necessário. Atividades de alfabetização completas em um clique. Professores economizam tempo na correção.',
-      },
-      {
-        id: '12',
-        question: 'As atividades grátis de sudoku ajudam no raciocínio lógico?',
-        answer: 'Sudoku visual desenvolve raciocínio lógico desde cedo. Crianças aprendem a identificar padrões visuais. Atividades de matemática preparam para conceitos avançados. Professores usam como preparação para tabuada futura. Raciocínio sequencial e dedutivo trabalhados naturalmente. Base sólida para matemática do ensino fundamental.',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Pricing
@@ -461,40 +241,8 @@ Professores empreendedores monetizam criatividade. Renda extra com atividades ed
       securePayment: 'Pagamento seguro',
       cancelAnytime: 'Cancele quando quiser',
     },
-    items: [
-      {
-        id: '1',
-        slug: 'math-worksheet',
-        name: 'Fichas de Matemática',
-        category: 'Matemática',
-        icon: '🔢',
-        description: 'Combine sudoku visual com fichas de matemática completas para desenvolvimento de raciocínio lógico-matemático.',
-      },
-      {
-        id: '2',
-        slug: 'matching',
-        name: 'Atividades de Ligar',
-        category: 'Visual',
-        icon: '🔗',
-        description: 'Atividades de ligar complementam sudoku visual trabalhando reconhecimento de padrões e coordenação motora.',
-      },
-      {
-        id: '3',
-        slug: 'coloring',
-        name: 'Desenhos para Colorir',
-        category: 'Criativo',
-        icon: '🎨',
-        description: 'Combine sudoku com desenhos para colorir criando atividades multissensoriais e engajantes.',
-      },
-      {
-        id: '4',
-        slug: 'find-and-count',
-        name: 'Encontre e Conte',
-        category: 'Matemática',
-        icon: '🔍',
-        description: 'Atividades de encontrar e contar desenvolvem habilidades visuais que complementam o raciocínio do sudoku.',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 };
 

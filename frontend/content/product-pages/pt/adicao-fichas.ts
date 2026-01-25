@@ -94,43 +94,8 @@ O sistema funciona com mais de 3000 imagens infantis organizadas por temas. Anim
     badgeText: 'Exemplos Grátis',
     downloadingLabel: 'Baixando...',
     ofLabel: 'de',
-    items: [
-      {
-        id: '1',
-        worksheetSrc: '/samples/portuguese/addition/sample-1.jpeg',
-        answerKeySrc: '/samples/portuguese/addition/sample-1-answer.jpeg',
-        altText: 'Atividade de adição grátis - formato retrato com imagens para educação infantil',
-        pdfDownloadUrl: '/samples/portuguese/addition/sample-1.pdf',
-      },
-      {
-        id: '2',
-        worksheetSrc: '/samples/portuguese/addition/sample-2.jpeg',
-        answerKeySrc: '/samples/portuguese/addition/sample-2-answer.jpeg',
-        altText: 'Atividade grátis de adição - formato paisagem para ensino fundamental',
-        pdfDownloadUrl: '/samples/portuguese/addition/sample-2.pdf',
-      },
-      {
-        id: '3',
-        worksheetSrc: '/samples/portuguese/addition/sample-3.jpeg',
-        answerKeySrc: '/samples/portuguese/addition/sample-3-answer.jpeg',
-        altText: 'Atividades grátis de matemática - modo imagem e número para crianças',
-        pdfDownloadUrl: '/samples/portuguese/addition/sample-3.pdf',
-      },
-      {
-        id: '4',
-        worksheetSrc: '/samples/portuguese/addition/sample-4.jpeg',
-        answerKeySrc: '/samples/portuguese/addition/sample-4-answer.jpeg',
-        altText: 'Atividade para crianças - encontre o termo para raciocínio algébrico',
-        pdfDownloadUrl: '/samples/portuguese/addition/sample-4.pdf',
-      },
-      {
-        id: '5',
-        worksheetSrc: '/samples/portuguese/addition/sample-5.jpeg',
-        answerKeySrc: '/samples/portuguese/addition/sample-5-answer.jpeg',
-        altText: 'Imprimíveis grátis de adição - modo misto com variedade de exercícios',
-        pdfDownloadUrl: '/samples/portuguese/addition/sample-5.pdf',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Features Grid - FULL text from addition.md feature sections
@@ -146,80 +111,8 @@ O sistema funciona com mais de 3000 imagens infantis organizadas por temas. Anim
       noHiddenFees: 'Sem taxas ocultas',
       cancelAnytime: 'Cancele quando quiser',
     },
-    items: [
-      {
-        id: '1',
-        icon: '⚡',
-        title: 'Crie Atividades Grátis em 3 Cliques',
-        description: `O processo de criação é simples e direto. Primeiro, selecione um tema de imagens ou escolha figuras individuais. Segundo, defina as configurações do exercício como quantidade e dificuldade. Terceiro, clique em gerar e sua atividade aparece instantaneamente.
-
-Não precisa de habilidades de design. Não precisa de software caro. Tudo acontece no navegador. Suas atividades de matemática ficam prontas em menos de 3 minutos. O sistema cuida de todo o layout automaticamente.`,
-        highlighted: false,
-      },
-      {
-        id: '2',
-        icon: '✏️',
-        title: 'Atividades Grátis Totalmente Editáveis para Crianças',
-        description: `Após gerar sua atividade, você tem controle total sobre cada elemento. Arraste imagens para novas posições. Redimensione qualquer figura com o mouse. Gire elementos para criar layouts únicos. Delete itens que não precisa.
-
-O canvas interativo funciona como um editor profissional. Adicione textos personalizados com diferentes fontes e cores. Escolha entre Lexend Deca, Baloo 2, Nunito, Quicksand e Fredoka. Aplique contornos nos textos para maior destaque. Suas atividades educação infantil ficam exatamente como você imaginou.`,
-        highlighted: false,
-      },
-      {
-        id: '3',
-        icon: '🔢',
-        title: 'Quatro Modos de Exercícios - Atividades Grátis de Matemática',
-        description: `Nosso gerador de atividades de adição oferece quatro modos diferentes de exercícios. O modo "Imagem + Imagem" mostra grupos de figuras para somar. O modo "Imagem + Número" combina figuras com números. O modo "Encontre o Segundo Termo" desafia alunos a descobrir quantos faltam. O modo "Misto" combina todos os estilos em uma única folha.
-
-Você controla a dificuldade de cada atividade. Defina o mínimo e máximo de itens por grupo de 1 a 10. Crie até 10 exercícios por página. Adicione campos para nome e data. Inclua ou remova números de exercícios. Todas as opções ficam ao seu alcance.`,
-        highlighted: true,
-      },
-      {
-        id: '4',
-        icon: '🌍',
-        title: 'Atividades para Crianças em 11 Idiomas',
-        description: `O gerador suporta 11 idiomas diferentes. Português brasileiro, inglês, alemão, francês, espanhol, italiano, holandês, sueco, dinamarquês, norueguês e finlandês. Ideal para escolas bilíngues e professores de idiomas.
-
-Os nomes das imagens aparecem no idioma escolhido. Isso permite criar atividades de matemática que também reforçam vocabulário. Professores de escolas internacionais aproveitam essa funcionalidade diariamente.`,
-        highlighted: false,
-      },
-      {
-        id: '5',
-        icon: '📤',
-        title: 'Upload de Imagens - Atividades Grátis Personalizadas',
-        description: `Carregue suas próprias imagens para personalizar ainda mais. O sistema aceita JPEG, PNG e GIF. Faça upload de múltiplos arquivos de uma vez. Combine imagens próprias com a biblioteca do sistema.
-
-Use fotos dos próprios alunos para criar atividades especiais. Adicione imagens temáticas de datas comemorativas. Crie atividades de alfabetização personalizadas com letras e números. Integre com suas atividades de matemática para pacotes completos de aprendizado.`,
-        highlighted: false,
-      },
-      {
-        id: '6',
-        icon: '💰',
-        title: 'Licença Comercial - Venda Imprimíveis Grátis',
-        description: `Sua assinatura Pacote Essencial inclui licença comercial completa. Venda suas atividades no Teachers Pay Teachers. Comercialize no Etsy e Amazon KDP. Crie produtos impressos sem taxas extras de licenciamento.
-
-Exportação em 300 DPI garante qualidade profissional para venda. Nenhuma atribuição necessária. Suas atividades 1º ano e 2º ano podem gerar renda extra. Professores empreendedores aproveitam essa funcionalidade para criar negócios lucrativos.`,
-        highlighted: true,
-      },
-      {
-        id: '7',
-        icon: '🎨',
-        title: 'Biblioteca com 3000+ Imagens para Atividades Grátis',
-        description: `Acesse mais de 3000 imagens infantis prontas para usar. Todas organizadas por temas como animais, alimentos, veículos, natureza. Busque imagens pelo nome em português. Selecione múltiplas figuras para seus exercícios.
-
-A biblioteca inclui desenhos para colorir em estilo contorno. Perfeitos para atividades que combinam matemática com arte. Economize tempo buscando cliparts. Tudo incluído na sua assinatura sem custos adicionais. Suas atividades educação infantil ganham visual profissional instantaneamente.`,
-        highlighted: false,
-      },
-      {
-        id: '8',
-        icon: '🖨️',
-        title: 'Qualidade 300 DPI - Atividades para Imprimir Profissionais',
-        description: `Todas as exportações usam resolução 300 DPI. Padrão profissional para impressão comercial. Escolha entre formato PDF ou JPEG. Selecione tamanho A4 ou Carta conforme sua impressora.
-
-Orientação retrato ou paisagem disponível. Dimensões personalizadas para projetos especiais. Opção escala de cinza para economizar tinta. Suas atividades de matemática imprimem com nitidez perfeita em qualquer equipamento.`,
-        highlighted: false,
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // How-To Guide - FULL text from addition.md step sections
@@ -301,80 +194,8 @@ O sistema também gera gabarito automaticamente. Clique em "Gerar Gabarito" apó
     badgeText: 'Para Quem',
     readMoreLabel: 'Leia mais',
     showLessLabel: 'Mostrar menos',
-    items: [
-      {
-        id: '1',
-        icon: '👩‍🏫',
-        title: 'Professores de Educação Infantil',
-        subtitle: 'Atividades Grátis com Coordenação Motora e Desenhos para Colorir',
-        description: `Professores de pré-escola e educação infantil formam nosso maior grupo de usuários. Eles precisam de atividades visuais que engajam crianças pequenas. Nosso gerador oferece exatamente isso.
-
-Exercícios de adição com imagens coloridas capturam atenção infantil. Crianças contam figuras de animais e frutas com entusiasmo. A matemática se torna brincadeira educativa. Professores economizam horas de preparação toda semana.
-
-Atividades educação infantil combinam múltiplas habilidades. Coordenação motora se desenvolve ao escrever respostas. Reconhecimento numérico se fortalece com prática visual. Desenhos para colorir adicionam elemento artístico aos exercícios.`,
-        quote: 'Meus alunos adoram as atividades coloridas de matemática!',
-      },
-      {
-        id: '2',
-        icon: '📚',
-        title: 'Professores do 1º e 2º Ano',
-        subtitle: 'Atividades Grátis de Matemática e Tabuada para Crianças',
-        description: `Docentes de 1º ano, 2º ano e 3º ano usam nosso gerador diariamente. A transição da educação infantil para o ensino fundamental exige materiais adequados. Nosso sistema oferece níveis progressivos de dificuldade.
-
-Configure exercícios simples para início do 1º ano. Aumente complexidade para atividades 2º ano mais desafiadoras. Prepare alunos para conceitos de tabuada com somas repetidas. Atividades de matemática acompanham o currículo escolar brasileiro.
-
-O modo "Encontre o Segundo Termo" desafia pensamento algébrico inicial. Alunos descobrem valores faltantes em equações visuais. Prepara fundamentos para álgebra futura. Professores do ensino fundamental valorizam essa funcionalidade avançada.`,
-        quote: 'A progressão de dificuldade acompanha o desenvolvimento dos alunos.',
-      },
-      {
-        id: '3',
-        icon: '🏠',
-        title: 'Pais que Fazem Educação Domiciliar',
-        subtitle: 'Atividades Grátis de Alfabetização para Crianças',
-        description: `Famílias que optam por educação domiciliar encontram recursos valiosos em nosso gerador. Pais criam materiais personalizados para cada filho. Adaptam dificuldade conforme progresso individual.
-
-Combine atividades de adição com prática de alfabetização. Use imagens que reforçam reconhecimento de letras. Crie exercícios onde crianças identificam vogais nas palavras das figuras. Atividades de alfabetização ganham contexto matemático envolvente.
-
-Adicione elementos de letra cursiva aos exercícios gerados. Pratique escrita de números em formato cursivo. Combine atividades vogais com contagem de imagens. Educação domiciliar fica mais rica com materiais interdisciplinares.`,
-        quote: 'Uma ferramenta atende todos os níveis dos meus filhos.',
-      },
-      {
-        id: '4',
-        icon: '🌍',
-        title: 'Professores de Idiomas',
-        subtitle: 'Atividades Grátis para Imprimir em 11 Idiomas',
-        description: `Educadores de línguas estrangeiras descobrem valor único em nosso gerador. O suporte a 11 idiomas permite criar materiais bilíngues. Alunos aprendem vocabulário enquanto praticam matemática.
-
-Gere atividades em inglês para turmas de idiomas. Os nomes das imagens aparecem na língua selecionada. Crianças associam palavras estrangeiras com figuras familiares. Atividades de alfabetização em novo idioma ficam mais acessíveis.
-
-Escolas bilíngues e internacionais aproveitam especialmente. Crie versões da mesma atividade em português e inglês. Compare vocabulário entre idiomas. Atividades para imprimir atendem programas de imersão linguística completos.`,
-        quote: 'O suporte multilíngue é essencial para meu programa bilíngue.',
-      },
-      {
-        id: '5',
-        icon: '💜',
-        title: 'Professores de Educação Especial',
-        subtitle: 'Imprimíveis Grátis Adaptados para Educação Especial',
-        description: `Educadores especializados encontram ferramentas de adaptação em nosso gerador. O canvas editável permite modificar qualquer elemento. Crie versões simplificadas ou ampliadas conforme necessidade.
-
-Aumente o tamanho das imagens para alunos com dificuldades visuais. Use a caixa infantil com espaços maiores para respostas. Reduza quantidade de exercícios por página. Adapte cada atividade para necessidades individuais.
-
-Exercícios visuais desenvolvem coordenação motora em ritmo adequado. Adicione linhas de pontilhado para suporte motor adicional. Crie materiais que respeitam diferentes velocidades de aprendizado. Atividades educação infantil adaptadas ficam prontas rapidamente.`,
-        quote: 'Posso adaptar rapidamente as atividades para cada aluno.',
-      },
-      {
-        id: '6',
-        icon: '💰',
-        title: 'Professores Empreendedores',
-        subtitle: 'Venda Atividades Grátis com Licença Comercial',
-        description: `Educadores que vendem materiais online formam grupo crescente de usuários. Nossa licença comercial POD permite monetização sem custos extras. Crie produtos para Teachers Pay Teachers, Etsy e Amazon KDP.
-
-Desenvolva pacotes temáticos de atividades de matemática. Combine com desenhos para colorir para maior valor percebido. Crie coleções sazonais para datas comemorativas. Materiais de volta às aulas vendem especialmente bem.
-
-Exportação em 300 DPI garante qualidade profissional para venda. Nenhuma marca d'água nas atividades geradas. Direitos comerciais completos inclusos na assinatura Pacote Essencial. Professores empreendedores constroem renda passiva com materiais educativos.`,
-        quote: 'Minha assinatura se pagou no primeiro mês de vendas!',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // FAQ Section - Selected FAQs from addition.md
@@ -388,68 +209,8 @@ Exportação em 300 DPI garante qualidade profissional para venda. Nenhuma marca
     showLessLabel: 'Mostrar menos',
     secureCheckout: 'Pagamento seguro',
     cancelAnytime: 'Cancele quando quiser',
-    items: [
-      {
-        id: '1',
-        question: 'As atividades de matemática são grátis para criar e imprimir?',
-        answer: 'O gerador de atividades de adição requer assinatura Pacote Essencial. O custo é R$720 por ano ou R$72 por mês. Sua assinatura oferece criação ilimitada de atividades de matemática sem taxas adicionais por atividade. Gere quantas atividades para imprimir precisar sem custos extras. Não há limites de downloads mensais.',
-      },
-      {
-        id: '2',
-        question: 'Posso imprimir atividades grátis de adição em impressora comum?',
-        answer: 'Todas as atividades exportam em formatos compatíveis com qualquer impressora. PDF e JPEG funcionam em impressoras jato de tinta e laser. A qualidade 300 DPI garante nitidez mesmo em equipamentos básicos. Use a opção escala de cinza para economizar tinta colorida. Atividades de adição ficam nítidas em qualquer configuração.',
-      },
-      {
-        id: '3',
-        question: 'Preciso de habilidades de design para criar atividades grátis para crianças?',
-        answer: 'Nenhuma habilidade de design é necessária. O sistema gera layouts profissionais automaticamente. Você apenas seleciona imagens e configura dificuldade. Atividades educação infantil ficam prontas em cliques. Exercícios de coordenação motora surgem sem esforço artístico.',
-      },
-      {
-        id: '4',
-        question: 'Posso usar atividades grátis de matemática na sala de aula?',
-        answer: 'Sua assinatura Pacote Essencial inclui uso ilimitado em sala de aula. Imprima quantas cópias precisar para seus alunos. Distribua atividades de matemática diariamente sem restrições. Use em qualquer contexto educacional institucional. Escolas públicas e privadas permitidas.',
-      },
-      {
-        id: '5',
-        question: 'Quais idiomas estão disponíveis para atividades grátis para crianças?',
-        answer: 'O gerador suporta 11 idiomas completos para conteúdo. Português brasileiro com vocabulário local adequado. Inglês, alemão, francês, espanhol e italiano disponíveis. Holandês, sueco, dinamarquês, norueguês e finlandês também. Crie atividades de alfabetização em qualquer idioma listado.',
-      },
-      {
-        id: '6',
-        question: 'Posso vender imprimíveis grátis que criar com a plataforma?',
-        answer: 'Sua assinatura Pacote Essencial inclui licença comercial POD completa. Venda atividades para imprimir no Teachers Pay Teachers livremente. Comercialize no Etsy sem taxas extras. Publique no Amazon KDP com direitos completos. Nenhuma atribuição necessária em produtos vendidos.',
-      },
-      {
-        id: '7',
-        question: 'Como personalizar atividades grátis para educação infantil e 1º ano?',
-        answer: 'O painel de configuração oferece controle total sobre dificuldade. Defina mínimo e máximo de itens por grupo. Use 1 a 3 itens para atividades 1º ano iniciais. Aumente para 5 a 10 itens em atividades 2º ano avançadas. Escolha entre quatro modos de exercício diferentes. Adapte cada atividade para o nível específico da sua turma.',
-      },
-      {
-        id: '8',
-        question: 'Quais faixas etárias funcionam com atividades grátis de adição para crianças?',
-        answer: 'Atividades de adição visual funcionam da pré-escola ao 3º ano. Crianças de 4 anos contam imagens com supervisão. Alunos de educação infantil desenvolvem conceitos numéricos básicos. Estudantes do ensino fundamental praticam operações formais. Configure poucos itens por grupo para os menores. Aumente complexidade gradualmente conforme desenvolvimento.',
-      },
-      {
-        id: '9',
-        question: 'Posso fazer upload de imagens próprias para atividades grátis?',
-        answer: 'O sistema aceita upload de imagens personalizadas. Carregue JPEG, PNG ou GIF do seu computador. Faça upload de múltiplos arquivos simultaneamente. Combine imagens próprias com a biblioteca do sistema. Use fotos de alunos para atividades personalizadas. Adicione imagens temáticas de projetos escolares.',
-      },
-      {
-        id: '10',
-        question: 'Quanto tempo leva para criar atividades grátis para imprimir?',
-        answer: 'O processo completo leva menos de 3 minutos. Selecione imagens em 30 segundos. Configure exercícios em mais 30 segundos. Gere e baixe em 2 minutos. Atividades de matemática profissionais prontas rapidamente. Comparado a 30-60 minutos de criação manual, a economia é enorme.',
-      },
-      {
-        id: '11',
-        question: 'As atividades grátis de adição incluem gabarito?',
-        answer: 'Cada atividade gerada pode ter gabarito correspondente. Clique em "Gerar Gabarito" após criar a atividade. O sistema preenche todas as respostas automaticamente. Baixe gabarito separadamente ou junto com a atividade. Facilita correção rápida em sala.',
-      },
-      {
-        id: '12',
-        question: 'Atividades grátis de adição para crianças ajudam na coordenação motora?',
-        answer: 'Nossos exercícios de adição desenvolvem múltiplas habilidades simultaneamente. Crianças contam imagens exercitando coordenação motora fina. Escrevem números nos espaços de resposta. O modo de caixa infantil oferece espaços grandes para escrita. Ideal para crianças em fase de desenvolvimento motor.',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Pricing
@@ -496,40 +257,8 @@ Exportação em 300 DPI garante qualidade profissional para venda. Nenhuma marca
       securePayment: 'Pagamento seguro',
       cancelAnytime: 'Cancele quando quiser',
     },
-    items: [
-      {
-        id: '1',
-        slug: 'subtraction',
-        name: 'Subtração',
-        category: 'Matemática',
-        icon: '➖',
-        description: 'Complete atividades de adição com subtração usando os mesmos temas de imagens para prática completa de operações básicas.',
-      },
-      {
-        id: '2',
-        slug: 'math-worksheet',
-        name: 'Fichas de Matemática',
-        category: 'Matemática',
-        icon: '🔢',
-        description: 'Expanda além de adição com fichas de matemática completas incluindo todas as operações numéricas.',
-      },
-      {
-        id: '3',
-        slug: 'code-addition',
-        name: 'Adição com Código',
-        category: 'Matemática',
-        icon: '🔐',
-        description: 'Adicione um elemento de resolução de enigmas às atividades de adição com exercícios de adição codificada.',
-      },
-      {
-        id: '4',
-        slug: 'chart-count',
-        name: 'Gráficos e Contagem',
-        category: 'Matemática',
-        icon: '📊',
-        description: 'Combine adição com atividades de gráficos e contagem para análise de dados e conceitos de soma visual.',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 };
 

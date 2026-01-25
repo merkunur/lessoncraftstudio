@@ -98,43 +98,8 @@ Cette méthode d'apprentissage par la visualisation aide les enfants à comprend
     badgeText: 'Exemples Gratuits',
     downloadingLabel: 'Téléchargement...',
     ofLabel: 'sur',
-    items: [
-      {
-        id: '1',
-        worksheetSrc: '/samples/french/chart-count/sample-1.jpeg',
-        answerKeySrc: '/samples/french/chart-count/sample-1-answer.jpeg',
-        altText: 'Graphique en images fiches gratuites à imprimer - comptage et diagramme pour maternelle et CP',
-        pdfDownloadUrl: '/samples/french/chart-count/sample-1.pdf',
-      },
-      {
-        id: '2',
-        worksheetSrc: '/samples/french/chart-count/sample-2.jpeg',
-        answerKeySrc: '/samples/french/chart-count/sample-2-answer.jpeg',
-        altText: 'Graphique en images fiche gratuite pour enfants - exercices de comptage pour GS et CP',
-        pdfDownloadUrl: '/samples/french/chart-count/sample-2.pdf',
-      },
-      {
-        id: '3',
-        worksheetSrc: '/samples/french/chart-count/sample-3.jpeg',
-        answerKeySrc: '/samples/french/chart-count/sample-3-answer.jpeg',
-        altText: 'Fiches de graphique pictogramme gratuites - activité coloriage et comptage pour maternelle',
-        pdfDownloadUrl: '/samples/french/chart-count/sample-3.pdf',
-      },
-      {
-        id: '4',
-        worksheetSrc: '/samples/french/chart-count/sample-4.jpeg',
-        answerKeySrc: '/samples/french/chart-count/sample-4-answer.jpeg',
-        altText: 'Exercices graphique en images fiche pour maternelle - diagramme en barre pour enfants',
-        pdfDownloadUrl: '/samples/french/chart-count/sample-4.pdf',
-      },
-      {
-        id: '5',
-        worksheetSrc: '/samples/french/chart-count/sample-5.jpeg',
-        answerKeySrc: '/samples/french/chart-count/sample-5-answer.jpeg',
-        altText: 'Graphique en images imprimables gratuits - fiche comptage et représentation de données CP',
-        pdfDownloadUrl: '/samples/french/chart-count/sample-5.pdf',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Features Grid - FULL text from chart-count.md feature sections
@@ -150,96 +115,8 @@ Cette méthode d'apprentissage par la visualisation aide les enfants à comprend
       noHiddenFees: 'Aucun frais caché',
       cancelAnytime: 'Annulez à tout moment',
     },
-    items: [
-      {
-        id: '1',
-        icon: '⚡',
-        title: 'Création Facile de Fiches Maternelle en 3 Clics - Exercices CP de Graphiques Prêts en Moins de 3 Minutes',
-        description: `La création de fiches maternelle de graphiques n'a jamais été aussi simple. Sélectionnez un thème d'images parmi notre bibliothèque. Cliquez sur le bouton créer. Votre fiche apparaît instantanément sur l'écran avec 20 images et un tableau à compléter.
-
-Le générateur propose 6 catégories d'images différentes par fiche. Les élèves comptent combien de fois chaque image apparaît dans la grille. Ils colorient ensuite les cases correspondantes dans le tableau. Cette méthode visuelle rend les exercices CP de mathématiques concrets et engageants.
-
-Chaque graphique se génère automatiquement avec une distribution aléatoire. L'algorithme garantit une variété intéressante pour chaque nouvelle fiche. Les enfants ne s'ennuient jamais avec du contenu toujours renouvelé.`,
-        highlighted: true,
-      },
-      {
-        id: '2',
-        icon: '✏️',
-        title: 'Personnalisation Complète des Fiches à Imprimer Gratuit - Graphisme Maternelle et Exercices Maths sur le Canevas',
-        description: `Toutes les fiches à imprimer gratuit sont entièrement personnalisables. Déplacez les éléments où vous le souhaitez sur le canevas. Redimensionnez les images et le tableau selon vos besoins. Faites pivoter les objets pour créer des compositions uniques.
-
-Le canevas d'édition fonctionne par glisser-déposer intuitif. Aucune compétence technique n'est requise. Ajoutez du texte personnalisé pour les consignes de graphisme maternelle. Modifiez les couleurs et les polices en un clic.
-
-Les exercices maths peuvent inclure un espace pour le nom et la date. Cette option s'active d'une simple case à cocher. Vos fiches sont prêtes pour la distribution en classe. Les outils d'alignement garantissent une mise en page professionnelle.`,
-        highlighted: false,
-      },
-      {
-        id: '3',
-        icon: '📤',
-        title: 'Importez Vos Propres Images pour des Fiches Maternelle Personnalisées - Coloriage à Imprimer avec Photos de Classe',
-        description: `Téléchargez vos propres images pour créer des fiches maternelle uniques. Utilisez des photos de la classe ou des images thématiques spécifiques. Combinez vos images avec celles de notre bibliothèque. Cette flexibilité permet de créer du coloriage à imprimer vraiment personnalisé.
-
-L'importation accepte tous les formats courants d'images. JPEG, PNG et GIF sont pris en charge sans problème. Téléchargez plusieurs fichiers en une seule opération. Vos images restent disponibles pendant toute la session de travail.
-
-Les graphiques personnalisés captivent davantage les élèves. Ils reconnaissent les objets familiers de leur environnement quotidien. L'apprentissage du comptage devient plus concret et significatif avec le coloriage à imprimer adapté.`,
-        highlighted: false,
-      },
-      {
-        id: '4',
-        icon: '🌍',
-        title: 'Support de 11 Langues pour Exercices Maths et Calcul - Interface en Français pour Fiches Maternelle Multilingues',
-        description: `Notre générateur d'exercices maths fonctionne en 11 langues différentes. L'interface utilisateur s'affiche entièrement en français. La bibliothèque d'images propose des noms traduits dans votre langue. Les instructions sur les fiches sont automatiquement adaptées.
-
-Les 11 langues disponibles incluent le français, l'allemand et l'espagnol. L'italien, le portugais et le néerlandais sont aussi proposés. Les langues scandinaves complètent cette offre multilingue. Changez de langue d'un simple clic dans le menu.
-
-Pour les classes bilingues, créez des fiches maternelle dans plusieurs langues. Les exercices de calcul et de comptage fonctionnent dans toutes les langues. Cette fonctionnalité s'avère idéale pour l'enseignement des langues vivantes dès la maternelle.`,
-        highlighted: false,
-      },
-      {
-        id: '5',
-        icon: '💰',
-        title: 'Licence Commerciale Incluse pour Vendre vos Exercices CP - Fiches à Imprimer sur Teachers Pay Teachers et Etsy',
-        description: `Votre abonnement Accès Complet inclut une licence commerciale complète. Vendez vos exercices CP sur Teachers Pay Teachers sans frais supplémentaires. Créez une boutique Etsy de ressources pédagogiques. Publiez sur Amazon KDP des cahiers d'activités professionnels.
-
-Les fiches à imprimer que vous créez vous appartiennent entièrement. Aucune attribution n'est requise lors de la vente commerciale. La qualité 300 DPI garantit des impressions professionnelles. Vos clients apprécieront la netteté des images et des graphiques.
-
-De nombreux enseignants génèrent des revenus complémentaires significatifs. Certains gagnent entre 500 et 5000 euros par mois. Vos fiches à imprimer gratuit peuvent devenir une source de revenus passive durable.`,
-        highlighted: true,
-      },
-      {
-        id: '6',
-        icon: '🎨',
-        title: 'Bibliothèque de Plus de 3000 Images pour Coloriage et Exercices Maths - Thèmes Variés pour Fiches Maternelle et Graphisme',
-        description: `Notre bibliothèque contient plus de 3000 images adaptées aux enfants. Chaque image convient parfaitement au coloriage à imprimer éducatif. Les thèmes variés couvrent les animaux, les véhicules et la nature. Les objets du quotidien et les aliments sont également disponibles.
-
-Les images sont organisées par thèmes pour faciliter la recherche. Utilisez la barre de recherche pour trouver des images spécifiques. Sélectionnez un thème entier pour une génération automatique. Les exercices maths utilisent des images attrayantes et adaptées au graphisme maternelle.
-
-Les arrière-plans et les bordures sont inclus dans la bibliothèque complète. Ajoutez un cadre décoratif à vos fiches maternelle. Les thèmes saisonniers permettent de varier les supports tout au long de l'année scolaire.`,
-        highlighted: false,
-      },
-      {
-        id: '7',
-        icon: '📊',
-        title: 'Qualité Professionnelle 300 DPI pour Fiches à Imprimer Gratuit - Exercices CP et CE1 Prêts à Distribuer en Classe',
-        description: `Chaque fiche à imprimer gratuit s'exporte en qualité professionnelle. La résolution de 300 DPI garantit des impressions parfaitement nettes. Les images restent claires même en grand format A4. Vos exercices CP et CE1 ont un aspect professionnel irréprochable.
-
-Téléchargez vos fiches en format PDF ou JPEG selon vos besoins. Le format PDF convient parfaitement à l'impression directe. Le format JPEG s'utilise pour les présentations numériques sur écran. L'option noir et blanc économise l'encre de votre imprimante.
-
-Les corrigés se génèrent automatiquement en un seul clic. Les cases colorées en jaune indiquent les réponses correctes du graphique. Les solutions apparaissent clairement pour faciliter la correction. Gagnez un temps précieux sur la vérification des exercices.`,
-        highlighted: false,
-      },
-      {
-        id: '8',
-        icon: '✍️',
-        title: 'Écriture et Graphisme Maternelle sur le Même Support - Ajoutez du Texte à vos Fiches à Imprimer pour Apprendre les Lettres',
-        description: `Combinez l'écriture avec les exercices de graphiques en images. Ajoutez des consignes personnalisées à vos fiches pour apprendre les lettres. Les élèves pratiquent la lecture des instructions tout en comptant. Cette approche intégrée renforce plusieurs compétences simultanément.
-
-Le graphisme maternelle s'enrichit avec des titres et des instructions personnalisés. Choisissez parmi sept polices adaptées aux enfants et faciles à lire. Modifiez la taille et la couleur du texte librement. Ajoutez un contour pour une meilleure lisibilité sur tous les fonds.
-
-Les fiches à imprimer deviennent des supports pédagogiques complets. L'écriture et le comptage se travaillent ensemble naturellement. Vos élèves progressent sur plusieurs fronts avec une seule fiche d'activité.`,
-        highlighted: false,
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // How-To Guide - FULL text from chart-count.md step sections
@@ -331,82 +208,8 @@ Générez également le corrigé en un seul clic depuis le menu. La fiche répon
     badgeText: 'Cas d\'Utilisation',
     readMoreLabel: 'Lire la suite',
     showLessLabel: 'Voir moins',
-    items: [
-      {
-        id: '1',
-        icon: '👩‍🏫',
-        title: 'Enseignants de Maternelle - Fiches de Graphisme Maternelle et Coloriage à Imprimer pour la PS, MS et GS',
-        subtitle: 'Exercices de comptage adaptés aux 3-6 ans',
-        description: `Les enseignants de maternelle constituent notre public principal pour les graphiques. De la Petite Section à la Grande Section, les besoins varient considérablement. Le graphisme maternelle s'intègre naturellement aux exercices de comptage visuel. Le coloriage à imprimer des cases complète parfaitement ces activités mathématiques.
-
-En Petite Section, les graphiques utilisent des images très simples et reconnaissables. Les enfants de 3 ans se concentrent sur le comptage jusqu'à 5 maximum. Les fiches proposent des catégories d'images très distinctes visuellement. Le graphisme maternelle à cet âge reste basique mais essentiel pour le développement.
-
-La Moyenne Section introduit progressivement plus de complexité dans les graphiques. Les élèves de 4-5 ans comptent avec plus de précision et de confiance. Les 6 catégories d'images offrent un défi approprié à leur niveau. Le coloriage à imprimer des cases développe la motricité fine en parallèle.
-
-La Grande Section prépare l'entrée au CP avec des graphiques plus élaborés. Les exercices de comptage et de représentation deviennent plus structurés. Les fiches préparent aux apprentissages mathématiques formels du cycle 2. Le graphisme maternelle atteint son niveau le plus élaboré avant l'école élémentaire.`,
-        quote: 'Mes élèves adorent colorier les cases du graphique après avoir compté les images !',
-      },
-      {
-        id: '2',
-        icon: '📚',
-        title: 'Enseignants de CP et CE1 - Exercices Maths et Tables de Multiplication avec Introduction aux Diagrammes',
-        subtitle: 'Raisonnement logique et bases mathématiques',
-        description: `Les enseignants de CP et CE1 utilisent les graphiques pour renforcer les bases mathématiques. Les exercices maths de comptage et de représentation consolident la numération acquise. Les graphiques en images préparent la compréhension des tables de multiplication futures.
-
-Au CP, les graphiques en images soutiennent l'apprentissage des nombres jusqu'à 20. Les élèves comptent les images et représentent les quantités visuellement. Cette visualisation des données prépare les additions et les exercices maths plus complexes. Les tables de multiplication viendront plus tard avec ces bases solides en numération.
-
-En CE1, les fiches servent de révision et d'introduction aux statistiques. Les élèves en difficulté reprennent les fondamentaux du comptage avec confiance. Les graphiques préparent la lecture de diagrammes plus complexes au cycle 3. La préparation aux tables de multiplication passe par cette compréhension visuelle des quantités.`,
-        quote: 'Les graphiques en images aident mes élèves à visualiser les quantités avant d\'aborder les calculs.',
-      },
-      {
-        id: '3',
-        icon: '🏠',
-        title: 'Parents en Instruction à Domicile - Fiches pour Apprendre à Lire et l\'Alphabet avec Graphiques Éducatifs',
-        subtitle: 'Apprentissage personnalisé en famille',
-        description: `Les parents pratiquant l'instruction en famille trouvent ici des ressources précieuses. Les fiches de graphiques combinent plusieurs compétences fondamentales simultanément. L'alphabet s'enseigne parallèlement aux notions de comptage et de représentation. Cette approche globale optimise le temps d'enseignement à la maison.
-
-Les graphiques avec des lettres aident les enfants à apprendre à lire progressivement. Les élèves comptent les voyelles ou les consonnes tout en les reconnaissant. L'alphabet devient un support de comptage ludique et éducatif. Cette méthode multisensorielle accélère l'apprentissage de la lecture et du calcul.
-
-Les parents apprécient la simplicité de création des fiches personnalisées. Téléchargez des images familières pour créer des graphiques sur mesure. Les enfants reconnaissent leurs jouets ou animaux préférés dans les exercices. L'apprentissage pour apprendre à lire devient concret et motivant à la maison.`,
-        quote: 'Un outil parfait pour nos séances d\'instruction en famille avec des activités variées.',
-      },
-      {
-        id: '4',
-        icon: '🌍',
-        title: 'Enseignants de FLE - Fiches à Imprimer en 11 Langues pour Apprendre les Lettres et le Vocabulaire',
-        subtitle: 'Vocabulaire multilingue et immersion',
-        description: `Les enseignants de français langue étrangère utilisent les graphiques pour le vocabulaire. Les fiches à imprimer fonctionnent en 11 langues différentes pour tous les publics. Les apprenants comptent des images tout en apprenant les mots français correspondants. Cette méthode visuelle facilite la mémorisation du vocabulaire essentiel.
-
-Les graphiques thématiques enseignent le vocabulaire par catégories logiques. Les animaux, les fruits et les véhicules forment des ensembles cohérents. Les élèves apprennent les lettres de l'alphabet français en contexte visuel. Cette approche communicative rend l'apprentissage du français plus naturel et efficace.
-
-Les classes multilingues bénéficient du support en 11 langues disponibles. Créez des fiches à imprimer avec les instructions dans la langue maternelle des élèves. Puis passez progressivement aux instructions en français uniquement. Pour apprendre les lettres et le vocabulaire, cette transition douce fonctionne parfaitement.`,
-        quote: 'Le support multilingue est idéal pour mes cours de FLE avec des élèves de différentes origines.',
-      },
-      {
-        id: '5',
-        icon: '💜',
-        title: 'Enseignants Spécialisés - Exercices CP Adaptés avec Écriture Cursive et Graphisme pour Tous les Apprenants',
-        subtitle: 'Adaptation aux besoins spécifiques',
-        description: `Les enseignants spécialisés adaptent les graphiques aux besoins de chaque élève. Les exercices CP se personnalisent facilement pour différents niveaux de difficulté. L'écriture cursive des consignes s'ajuste en taille et en police pour la lisibilité. Le graphisme simplifié aide les élèves avec des difficultés visuelles ou motrices.
-
-Les graphiques en images conviennent parfaitement aux élèves avec des troubles d'apprentissage. Le support visuel renforce la compréhension des concepts mathématiques abstraits. L'écriture cursive peut être remplacée par des polices plus lisibles si nécessaire. Chaque fiche s'adapte aux besoins spécifiques de l'apprenant concerné.
-
-Les élèves à haut potentiel trouvent également des défis appropriés avec ces graphiques. Augmentez le nombre de catégories ou la complexité des images utilisées. Le graphisme et les exercices CP évoluent avec le niveau de chaque enfant. La différenciation pédagogique devient simple avec notre générateur flexible.`,
-        quote: 'Je peux adapter les fiches à chaque élève de ma classe ULIS avec facilité.',
-      },
-      {
-        id: '6',
-        icon: '💰',
-        title: 'Enseignants Entrepreneurs - Vendre des Exercices Maths et Fiches à Imprimer Gratuit sur les Marketplaces',
-        subtitle: 'Licence commerciale incluse pour TPT, Etsy et Amazon KDP',
-        description: `Les enseignants entrepreneurs créent des ressources pour la vente en ligne. Les exercices maths de graphiques se vendent très bien sur Teachers Pay Teachers. Votre abonnement Accès Complet inclut la licence commerciale complète sans frais supplémentaires. Les fiches à imprimer gratuit que vous créez génèrent des revenus passifs durables.
-
-Créez des packs thématiques de graphiques pour chaque saison scolaire. Les thèmes de Noël, Pâques et la rentrée sont particulièrement populaires auprès des acheteurs. Combinez les exercices maths avec d'autres types de fiches pour des bundles attractifs. Les clients apprécient les ressources complètes et prêtes à utiliser immédiatement.
-
-La qualité 300 DPI garantit des impressions professionnelles pour vos clients satisfaits. Les fiches à imprimer rivalisent avec les ressources des éditeurs professionnels établis. Certains enseignants gagnent entre 500 et 5000 euros par mois avec leurs créations. Votre expertise pédagogique devient une source de revenus complémentaire appréciable.`,
-        quote: 'Mon abonnement s\'est rentabilisé dès le premier mois de ventes sur TPT !',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // FAQ Section - Selected FAQs from chart-count.md
@@ -420,98 +223,8 @@ La qualité 300 DPI garantit des impressions professionnelles pour vos clients s
     showLessLabel: 'Voir moins',
     secureCheckout: 'Paiement sécurisé',
     cancelAnytime: 'Résiliez à tout moment',
-    items: [
-      {
-        id: '1',
-        question: 'Combien d\'images faut-il sélectionner pour créer un graphique - Exercices Maths et Fiches à Imprimer Gratuit ?',
-        answer: `Vous devez sélectionner exactement 6 images différentes pour créer un graphique complet. Le générateur distribue ensuite ces 6 catégories sur une grille de 20 cases aléatoirement. Chaque catégorie apparaît entre 1 et 5 fois pour créer des exercices maths variés et intéressants. Les fiches à imprimer gratuit présentent ainsi une vraie activité de comptage éducative pour les élèves.`,
-      },
-      {
-        id: '2',
-        question: 'Puis-je combiner les graphiques avec des fiches pour Apprendre à Lire et l\'Alphabet efficacement ?',
-        answer: `Les graphiques en images se combinent parfaitement avec d'autres apprentissages fondamentaux. Utilisez des images de lettres de l'alphabet pour créer des graphiques de reconnaissance visuelle. Les élèves comptent les lettres tout en les identifiant pour apprendre à lire progressivement. Cette approche multisensorielle accélère l'acquisition de l'alphabet et de la lecture simultanément.`,
-      },
-      {
-        id: '3',
-        question: 'Quelles langues sont disponibles pour les Fiches Maternelle et Exercices CP de graphiques ?',
-        answer: `Notre générateur fonctionne en 11 langues différentes pour tous les publics internationaux. Le français, l'allemand, l'espagnol, l'italien et le portugais sont disponibles immédiatement. Le néerlandais et les langues scandinaves complètent cette offre multilingue étendue. Les fiches maternelle et exercices CP s'adaptent automatiquement à la langue sélectionnée dans le menu.`,
-      },
-      {
-        id: '4',
-        question: 'Comment les graphiques préparent-ils aux Tables de Multiplication et au Calcul avancé ?',
-        answer: `Les graphiques en images développent la compréhension visuelle des quantités dès le plus jeune âge. Compter et représenter des groupes d'objets prépare la notion de multiplication future. Les tables de multiplication deviennent plus accessibles quand les élèves visualisent les quantités concrètement. Le calcul s'appuie sur cette base solide de représentation graphique des nombres.`,
-      },
-      {
-        id: '5',
-        question: 'Comment imprimer les Fiches à Imprimer Gratuit en haute qualité pour le Graphisme Maternelle ?',
-        answer: `Toutes les fiches s'exportent en résolution 300 DPI pour une qualité d'impression professionnelle. Téléchargez au format PDF pour l'impression directe depuis n'importe quelle imprimante standard. Les fiches à imprimer gratuit rivalisent avec les ressources des éditeurs professionnels établis. Le graphisme maternelle apparaît net et précis sur tous les types de papier utilisés.`,
-      },
-      {
-        id: '6',
-        question: 'Puis-je télécharger mes propres images pour des Exercices CP et Coloriage à Imprimer personnalisés ?',
-        answer: `L'importation d'images personnelles est entièrement prise en charge par notre générateur. Téléchargez des photos de la classe ou des objets familiers aux élèves facilement. Combinez vos images avec celles de la bibliothèque pour des exercices CP uniques. Le coloriage à imprimer devient vraiment personnalisé avec des visuels que les enfants reconnaissent.`,
-      },
-      {
-        id: '7',
-        question: 'Combien coûte l\'abonnement Accès Complet pour les Graphiques en Images et tous les Générateurs ?',
-        answer: `L'abonnement Accès Complet coûte 240 euros par an ou 25 euros par mois. Ce prix inclut l'accès illimité à plus de 33 générateurs de fiches différents. Les outils pour apprendre les lettres et les tables de multiplication sont tous inclus sans frais supplémentaires. Aucun coût caché ni limitation sur le nombre de fiches créées chaque jour.`,
-      },
-      {
-        id: '8',
-        question: 'Le générateur inclut-il un corrigé automatique pour les Graphiques en Images ?',
-        answer: `Le corrigé se génère automatiquement en un seul clic depuis le menu télécharger. Les cases correctement colorées apparaissent en jaune sur la fiche réponse générée. L'écriture cursive des consignes reste identique sur le corrigé et la fiche élève. Le graphisme et la mise en page professionnelle se conservent parfaitement sur les deux versions.`,
-      },
-      {
-        id: '9',
-        question: 'Comment combiner Apprendre à Lire avec les graphiques pour un apprentissage intégré et efficace ?',
-        answer: `Créez des graphiques utilisant les lettres de l'alphabet comme catégories d'images visuelles. Les élèves comptent les A, E, I, O, U tout en les reconnaissant pour apprendre à lire. Ajoutez des consignes de lecture sur la fiche pour renforcer la compréhension écrite. Cette méthode intégrée développe plusieurs compétences simultanément avec un seul support pédagogique.`,
-      },
-      {
-        id: '10',
-        question: 'Puis-je vendre mes créations de Graphiques et Coloriage à Imprimer sur les marketplaces ?',
-        answer: `Votre abonnement Accès Complet inclut une licence commerciale POD complète sans restrictions. Vendez votre coloriage à imprimer et vos fiches d'écriture cursive sur Teachers Pay Teachers librement. Etsy, Amazon KDP et toutes les autres plateformes acceptent vos créations professionnelles. Aucune attribution requise lors de la vente de vos ressources pédagogiques créées.`,
-      },
-      {
-        id: '11',
-        question: 'Faut-il des Compétences en Design pour Créer des Fiches de Graphiques en Images ?',
-        answer: `Aucune compétence en design n'est requise pour créer des fiches de graphiques. Le générateur crée automatiquement des fiches professionnelles en quelques clics. L'interface intuitive guide chaque étape du processus de création. Même les enseignants débutants en informatique réussissent du premier coup sans formation préalable.`,
-      },
-      {
-        id: '12',
-        question: 'Les Fiches de Graphiques Conviennent-elles à ma Classe de Maternelle ou CP ?',
-        answer: `Les fiches de graphiques s'adaptent parfaitement aux classes de maternelle et de CP. De la Petite Section au CE1, chaque niveau trouve des exercices appropriés. La difficulté se règle selon les besoins et le niveau de vos élèves. L'abonnement Accès Complet autorise une utilisation illimitée en classe sans restriction de copies.`,
-      },
-      {
-        id: '13',
-        question: 'Le Générateur de Graphiques en Images est-il une Fiche Gratuite pour Enfants ou Payante ?',
-        answer: `Vous pouvez tester le générateur gratuitement avec des téléchargements d'exemples sans engagement. Les fiches gratuites pour enfants vous permettent de découvrir la qualité professionnelle de nos ressources. Pour une création illimitée de graphiques, l'abonnement Accès Complet offre un excellent rapport qualité-prix. Les enseignants créent autant de fiches qu'ils souhaitent chaque jour.`,
-      },
-      {
-        id: '14',
-        question: 'Puis-je Télécharger des Fiches Gratuites de Graphiques sans Abonnement pour Tester ?',
-        answer: `Oui, plusieurs fiches gratuites de graphiques sont disponibles en téléchargement immédiat. Ces exemples gratuits vous permettent de vérifier la qualité avant tout engagement. Les fiches gratuites incluent le graphique complet et le corrigé automatique. Testez notre générateur sans risque et découvrez la qualité professionnelle de nos ressources.`,
-      },
-      {
-        id: '15',
-        question: 'Les Imprimables Gratuits de Graphiques Incluent-ils le Corrigé pour la Maternelle ?',
-        answer: `Tous les imprimables gratuits de graphiques incluent le corrigé automatique généré en un clic. Le corrigé montre les cases colorées en jaune pour une vérification rapide. Les enseignants de maternelle gagnent un temps précieux sur la correction des exercices. Cette fonctionnalité est incluse sans frais supplémentaires dans tous les téléchargements.`,
-      },
-      {
-        id: '16',
-        question: 'Comment Utiliser les Fiches pour Maternelle de Graphiques en Centres d\'Activités ?',
-        answer: `Les fiches pour maternelle de graphiques fonctionnent parfaitement en ateliers autonomes. Imprimez plusieurs copies pour votre centre de mathématiques en libre accès. Les élèves travaillent à leur rythme sur le comptage et le coloriage des cases. Le corrigé permet l'auto-correction et développe l'autonomie des enfants en classe.`,
-      },
-      {
-        id: '17',
-        question: 'Le Générateur Crée-t-il des Fiches Gratuites pour Enfants Adaptées aux Différents Niveaux ?',
-        answer: `Le générateur s'adapte à tous les niveaux de la Petite Section au CE1. Les fiches gratuites pour enfants proposent des images simples pour les plus jeunes. La complexité augmente progressivement avec des catégories plus nombreuses pour les grands. Chaque fiche correspond aux compétences attendues à chaque niveau scolaire.`,
-      },
-      {
-        id: '18',
-        question: 'Les Fiches Gratuites de Graphiques Respectent-elles les Programmes Scolaires Français ?',
-        answer: `Nos fiches gratuites de graphiques sont alignées sur les programmes de l'Éducation Nationale. Les compétences de représentation des données sont couvertes dès la maternelle. Le comptage et le coloriage développent la numération exigée au cycle 1 et 2. Les graphiques en images préparent aux tableaux et diagrammes du cycle 3.`,
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Pricing - Accès Complet tier for Chart Count
@@ -582,56 +295,8 @@ La qualité 300 DPI garantit des impressions professionnelles pour vos clients s
       securePayment: 'Paiement sécurisé',
       cancelAnytime: 'Résiliez à tout moment',
     },
-    items: [
-      {
-        id: '1',
-        slug: 'cherche-et-compte-fiches',
-        name: 'Cherche et Compte',
-        category: 'Numération',
-        icon: '🔢',
-        description: 'Les exercices de comptage complètent parfaitement les graphiques. Les élèves apprennent à dénombrer puis à représenter. Une progression naturelle vers la visualisation des données.',
-      },
-      {
-        id: '2',
-        slug: 'addition-fiches',
-        name: 'Exercices d\'Addition',
-        category: 'Mathématiques',
-        icon: '➕',
-        description: 'Combinez les graphiques avec les exercices d\'addition. La compréhension des quantités prépare naturellement aux calculs. Les élèves visualisent avant d\'additionner.',
-      },
-      {
-        id: '3',
-        slug: 'coloriage-fiches',
-        name: 'Coloriage à Imprimer',
-        category: 'Arts et Motricité',
-        icon: '🎨',
-        description: 'Le coloriage prolonge les exercices de graphiques. Les enfants colorient les cases puis les images. Motricité fine et comptage se combinent naturellement.',
-      },
-      {
-        id: '4',
-        slug: 'grand-petit-fiches',
-        name: 'Grand et Petit',
-        category: 'Comparaison',
-        icon: '📏',
-        description: 'Les exercices de comparaison renforcent les graphiques. Les enfants comparent des quantités visuellement. La logique mathématique se développe progressivement.',
-      },
-      {
-        id: '5',
-        slug: 'association-fiches',
-        name: 'Association',
-        category: 'Logique',
-        icon: '🔗',
-        description: 'Les exercices d\'association complètent les graphiques. Les enfants relient les catégories aux quantités. La discrimination visuelle se développe avec le comptage.',
-      },
-      {
-        id: '6',
-        slug: 'mots-caches-fiches',
-        name: 'Mots Cachés',
-        category: 'Vocabulaire',
-        icon: '🔍',
-        description: 'Créez des packs combinant mots cachés et graphiques. Les élèves enrichissent leur vocabulaire tout en comptant. Lecture et mathématiques se rejoignent sur les mêmes thèmes.',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 };
 

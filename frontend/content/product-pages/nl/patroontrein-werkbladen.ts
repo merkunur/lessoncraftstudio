@@ -106,43 +106,8 @@ Werkbladen groep 3 vereisen vaak meer uitdagende patronen dan werkblad voor kleu
     badgeText: 'Gratis Voorbeelden',
     downloadingLabel: 'Downloaden...',
     ofLabel: 'van',
-    items: [
-      {
-        id: '1',
-        worksheetSrc: '/samples/dutch/pattern-train/sample-1.jpeg',
-        answerKeySrc: '/samples/dutch/pattern-train/sample-1-answer.jpeg',
-        altText: 'Gratis werkblad patroontrein - werkblad voor kinderen groep 3 patroonherkenning',
-        pdfDownloadUrl: '/samples/dutch/pattern-train/sample-1.pdf',
-      },
-      {
-        id: '2',
-        worksheetSrc: '/samples/dutch/pattern-train/sample-2.jpeg',
-        answerKeySrc: '/samples/dutch/pattern-train/sample-2-answer.jpeg',
-        altText: 'Gratis werkbladen patroontrein - werkblad voor kleuters fijne motoriek',
-        pdfDownloadUrl: '/samples/dutch/pattern-train/sample-2.pdf',
-      },
-      {
-        id: '3',
-        worksheetSrc: '/samples/dutch/pattern-train/sample-3.jpeg',
-        answerKeySrc: '/samples/dutch/pattern-train/sample-3-answer.jpeg',
-        altText: 'Gratis printables patroontrein - gratis werkblad voor kinderen groep 1 2',
-        pdfDownloadUrl: '/samples/dutch/pattern-train/sample-3.pdf',
-      },
-      {
-        id: '4',
-        worksheetSrc: '/samples/dutch/pattern-train/sample-4.jpeg',
-        answerKeySrc: '/samples/dutch/pattern-train/sample-4-answer.jpeg',
-        altText: 'Werkblad voor kinderen patroontrein - gratis werkbladen patroonherkenning',
-        pdfDownloadUrl: '/samples/dutch/pattern-train/sample-4.pdf',
-      },
-      {
-        id: '5',
-        worksheetSrc: '/samples/dutch/pattern-train/sample-5.jpeg',
-        answerKeySrc: '/samples/dutch/pattern-train/sample-5-answer.jpeg',
-        altText: 'Werkblad voor kleuters patroontrein - gratis printables groep 1 2 3',
-        pdfDownloadUrl: '/samples/dutch/pattern-train/sample-5.pdf',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Features Grid
@@ -158,96 +123,8 @@ Werkbladen groep 3 vereisen vaak meer uitdagende patronen dan werkblad voor kleu
       noHiddenFees: 'Geen verborgen kosten',
       cancelAnytime: 'Altijd opzegbaar',
     },
-    items: [
-      {
-        id: '1',
-        icon: '⚡',
-        title: 'Maak Gratis Werkblad Patroontrein in 3 Klikken - Gratis Werkbladen Generator',
-        description: `Selecteer een patroontype (AB, AAB, ABB, ABC of AABB) met één klik. Kies een thema uit 50+ categorieën of selecteer individuele afbeeldingen. Klik op "Creëer" en uw werkblad verschijnt direct op het canvas.
-
-Geen ontwerpervaring nodig voor professionele werkbladen groep 3. De app selecteert automatisch passende afbeeldingen wanneer u een thema kiest. Voor werkbladen kleuters kiest u eenvoudige AB patronen met herkenbare afbeeldingen. Voor oudere leerlingen kiest u complexere ABC of AABB patronen.
-
-Pas het aantal aanwijzingen aan van 4 tot 10 voorbeelden. Meer aanwijzingen maken het werkblad makkelijker voor groep 1 2 leerlingen. Minder aanwijzingen verhogen de moeilijkheid voor groep 3 en 4. Voeg optioneel naam/datum velden toe voor klasorganisatie.`,
-        highlighted: false,
-      },
-      {
-        id: '2',
-        icon: '✏️',
-        title: 'Bewerk Alles op Uw Gratis Werkblad - Werkblad voor Kinderen Aanpassen',
-        description: `Elk element op het canvas is volledig bewerkbaar met uw muis. Sleep afbeeldingen naar nieuwe posities op het werkblad. Vergroot of verklein afbeeldingen door aan de hoeken te slepen. Draai afbeeldingen naar elke hoek voor visuele variatie.
-
-Verwijder ongewenste elementen met de delete-toets. Voeg extra afbeeldingen toe uit de 3000+ bibliotheek. Combineer patroontrein werkbladen met rekenen werkbladen elementen. Maak aangepaste oefenbladen gratis van ontwerpbeperkingen.
-
-Pas tekstkleur, lettergrootte en lettertype aan voor elke tekst. Kies uit 7 kindvriendelijke lettertypen inclusief Baloo 2 en Fredoka. Voeg gekleurde omlijningen toe aan tekst voor betere leesbaarheid. Alle aanpassingen gebeuren in real-time op het canvas.`,
-        highlighted: false,
-      },
-      {
-        id: '3',
-        icon: '📤',
-        title: 'Upload Eigen Afbeeldingen - Personaliseer Werkblad voor Kleuters en Gratis Printables',
-        description: `Upload meerdere afbeeldingen tegelijk in JPEG, PNG of GIF formaat. Uw afbeeldingen verschijnen direct in de lijst met beschikbare afbeeldingen. Combineer uw uploads met de 3000+ bibliotheekafbeeldingen op één werkblad.
-
-Personaliseer werkbladen kleuters met foto's van klasgenoten of huisdieren. Upload afbeeldingen van klasobjecten die leerlingen herkennen. Maak cultureel relevante oefenbladen gratis van generieke content.
-
-Voor letters leren kunt u eigen letterkaarten uploaden. Voor rekenen werkbladen upload getallen of rekenobjecten. Voor fijne motoriek activiteiten upload traceerbare vormen. Alle uploads blijven beschikbaar tijdens uw editeersessie.`,
-        highlighted: false,
-      },
-      {
-        id: '4',
-        icon: '🌍',
-        title: 'Gratis Werkblad voor Kinderen in 11 Talen - Werkblad voor Kleuters Ondersteuning',
-        description: `De gebruikersinterface is beschikbaar in 11 talen inclusief Nederlands. Wissel tussen talen met één klik in het taalinstellingen menu. Alle labels, knoppen en instructies verschijnen in uw gekozen taal.
-
-Nederlands ondersteunt leerkrachten in Nederland en België (Vlaanderen). De interface gebruikt correcte Nederlandse terminologie voor onderwijs. Groep 1 2 3 niveaus worden herkend door Nederlandse leerkrachten. Dit ondersteunt veilig leren lezen programma's met vertrouwde taalgebruik.
-
-De 11 talen zijn: Engels, Duits, Frans, Spaans, Italiaans, Portugees (Braziliaans), Nederlands, Zweeds, Deens, Noors en Fins. Europese leerkrachten vinden hun moedertaal ondersteund. Dit maakt de tool toegankelijk voor 400+ miljoen native speakers.`,
-        highlighted: false,
-      },
-      {
-        id: '5',
-        icon: '💼',
-        title: 'Commerciële Licentie Inbegrepen - Verkoop Gratis Werkbladen en Gratis Printables',
-        description: `Volledige Toegang abonnement (€240 per jaar) bevat volledige commerciële print-on-demand licentie. Verkoop uw patroontrein werkbladen op Etsy, Teachers Pay Teachers en Amazon KDP. Geen extra licentiekosten bovenop uw abonnement.
-
-Veel leerkrachten verdienen €500-€5000 per maand met verkoop van werkbladen. Maak sets thematische werkbladen groep 3 voor verschillende seizoenen. Combineer patroontrein werkbladen met rekenen werkbladen en kleurplaten voor complete pakketten. Verkoop digitale downloads of print-on-demand producten.
-
-De 300 DPI exportkwaliteit is perfect voor professioneel printen. Uw werkbladen zien er scherp en helder uit op elk printertype. Geen naamsvermelding vereist op verkochte werkbladen. Uw branding en logo kunnen op elk werkblad.`,
-        highlighted: true,
-      },
-      {
-        id: '6',
-        icon: '🎨',
-        title: '3000+ Afbeeldingenbibliotheek - Gratis Werkblad voor Kinderen Thema\'s',
-        description: `Toegang tot meer dan 3000 kindvriendelijke afbeeldingen georganiseerd per thema. Kies uit 50+ thema's inclusief dieren, eten, vormen, transport en seizoenen. Elke thema bevat 30-100 gerelateerde afbeeldingen voor variatie.
-
-Thema-gebaseerde selectie bespaart tijd bij het maken van werkbladen groep 3. Kies "Dieren" thema en de app selecteert automatisch diverse dieren voor uw patroon. Kies "Vormen" thema voor geometrische patroonherkenning. Kies "Eten" voor alledaagse herkenbare objecten.
-
-Achtergronden en randen zijn ook inbegrepen in uw abonnement. Kies uit 50+ achtergrondthema's om visuele interesse toe te voegen. Pas achtergrond-opaciteit aan om afleidingen te minimaliseren. Voeg professionele randen toe voor afgewerkte oefenbladen gratis van extra kosten.`,
-        highlighted: true,
-      },
-      {
-        id: '7',
-        icon: '🖨️',
-        title: 'Professionele 300 DPI Kwaliteit - Download Gratis Werkblad voor Kleuters als PDF',
-        description: `Exporteer alle werkbladen in 300 DPI resolutie voor commercieel gebruik. Download als JPEG voor digitaal delen of printen thuis. Download als PDF voor professionele printshops en publicaties.
-
-JPEG bestanden zijn perfect voor het delen op sociale media of e-mail. Ouders kunnen werkbladen groep 3 downloaden en direct printen thuis. Digitale downloads voor uw Teachers Pay Teachers shop zijn hoogwaardig. Alle kleuren en details blijven scherp en helder.
-
-Grijswaarden optie converteert werkbladen naar zwart-wit voor inktbesparing. Perfect voor scholen met beperkte printbudgetten. Werkbladen kleuters zijn nog steeds duidelijk leesbaar in grijstinten. Kopiëren en vermenigvuldigen behoudt leesbaarheid.`,
-        highlighted: false,
-      },
-      {
-        id: '8',
-        icon: '🔢',
-        title: '5 Patroonsoorten voor Elke Leeftijd - Gratis Werkbladen voor Kinderen AB tot AABB',
-        description: `Kies uit vijf patroontypen voor alle leeftijden en niveaus. AB patronen (cirkel, vierkant, cirkel, vierkant) zijn perfect voor werkbladen kleuters en groep 1. AAB patronen voegen een extra uitdaging toe voor groep 2 leerlingen.
-
-ABC patronen (cirkel, vierkant, driehoek) ontwikkelen gevorderd patroondenken voor groep 3. AABB patronen (cirkel, cirkel, vierkant, vierkant) voorbereiden op tafels oefenen door herhaalde groepen te herkennen. ABB patronen bieden variatie voor gevorderde groep 2.
-
-De patroontrein visualisatie maakt abstract patroondenken concreet en speels. Leerlingen zien een trein met vagons die het patroon tonen en moeten bepalen wat er in de lege wagon komt. Dit ondersteunt veilig leren lezen door visuele discriminatie en sequentiële verwerking te oefenen.`,
-        highlighted: false,
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // How-To Guide
@@ -329,80 +206,8 @@ Download Worksheet (PDF) voor professionele printkwaliteit. PDF formaat behoudt 
     badgeText: 'Voor wie',
     readMoreLabel: 'Lees meer',
     showLessLabel: 'Minder tonen',
-    items: [
-      {
-        id: '1',
-        icon: '👶',
-        title: 'Leerkrachten Groep 1 en Groep 2 - Gratis Werkblad voor Kleuters Fijne Motoriek',
-        subtitle: 'Gratis werkblad voor kleuters en fijne motoriek',
-        description: `Leerkrachten in groep 1 en 2 gebruiken patroontrein werkbladen voor visuele discriminatie oefeningen. Jonge leerlingen (4-6 jaar) ontwikkelen patroonherkenning als wiskundige basisvaardigheid. AB patronen met grote, herkenbare afbeeldingen zijn perfect voor beginners.
-
-Patroonherkenning ondersteunt veilig leren lezen door visuele sequenties te oefenen. Leerlingen die patronen kunnen herkennen, leren sneller letter- en woordpatronen. Gebruik patroontrein werkbladen parallel aan letterherkenning lessen.
-
-Fijne motoriek ontwikkelt door leerlingen patronen na te tekenen of in te kleuren. Vraag leerlingen het juiste element te tekenen in de lege wagon. Combineer met kleurplaten door patronen eerst in te kleuren.`,
-        quote: 'Mijn kleuters vinden de patroontrein werkbladen geweldig!',
-      },
-      {
-        id: '2',
-        icon: '📚',
-        title: 'Leerkrachten Groep 3 tot 5 - Gratis Werkbladen met Gratis Printables',
-        subtitle: 'Gratis werkbladen en gratis printables groep 3',
-        description: `Leerkrachten in groep 3, 4 en 5 gebruiken complexere patronen voor gevorderde wiskundige vaardigheden. ABC en AABB patronen ontwikkelen algebraïsch denken. Leerlingen beginnen de onderliggende regel van patronen te begrijpen.
-
-Combineer patroontrein werkbladen met rekenen werkbladen voor geïntegreerde wiskundeles. Gebruik getallenpatronen (2, 4, 6, 8) op de trein. Leerlingen oefenen sommen tot 20 door visuele tellingen. Patronen met groepen voorbereiden op tafels oefenen door herhaalde optelling.
-
-AABB patronen introduceren vermenigvuldiging concepten. Leerlingen zien dat 2+2 hetzelfde is als 2×2. Deze visuele representatie ondersteunt begrip van tafels oefenen.`,
-        quote: 'Patroontrein werkbladen passen perfect bij onze rekenlessen.',
-      },
-      {
-        id: '3',
-        icon: '🏠',
-        title: 'Thuisonderwijsouders - Gratis Werkblad voor Kinderen Multi-Level Instructie',
-        subtitle: 'Gratis werkblad voor kinderen thuisonderwijs',
-        description: `Thuisonderwijsouders onderwijzen vaak meerdere leeftijden tegelijkertijd. Patroontrein generator maakt gedifferentieerde oefenbladen in minuten. Maak AB patronen voor uw 4-jarige en ABC patronen voor uw 7-jarige. Beide werkbladen gebruiken dezelfde thema's voor gezamenlijke lessen.
-
-Volledige Toegang abonnement (€240 per jaar) ondersteunt volledige curriculum planning voor thuisonderwijs. Maak rekenen werkbladen, kleurplaten, letters leren activiteiten en patroonherkenning oefeningen. Onbeperkte creatie betekent geen extra kosten per kind of per activiteit.
-
-Seizoensthema's houden thuisonderwijs fris en interessant. Maak pompoen patronen in oktober, bloemenpatronen in mei. Upload familiefoto's voor gepersonaliseerde patronen tijdens verjaardagen.`,
-        quote: 'Eén tool voor al mijn kinderen op verschillende niveaus.',
-      },
-      {
-        id: '4',
-        icon: '🌐',
-        title: 'ESL en Tweetalige Leerkrachten - Gratis Werkbladen met Visuele Patronen',
-        subtitle: 'Gratis werkbladen voor taalonderwijs',
-        description: `ESL leerkrachten gebruiken visuele patroontrein werkbladen voor taal-onafhankelijke instructie. Patronen vereisen geen taalvaardigheid om te begrijpen. Nieuwkomers kunnen succesvol zijn met visuele patroonherkenning. Dit bouwt vertrouwen op terwijl ze Nederlands leren.
-
-Combineer patronen met letters leren door alfabetische sequenties te gebruiken. Upload letterkaarten (A, B, C) als patroonelementen. Leerlingen oefenen alfabetische volgorde door letterpatronen. Dit ondersteunt veilig leren lezen door letterherkenning te versterken.
-
-Tweetalige programma's gebruiken patronen in beide talen. Maak werkbladen in Nederlands en wissel interface naar Engels. Dezelfde afbeeldingen werken in beide talen.`,
-        quote: 'Visuele patronen werken voor alle taalniveaus.',
-      },
-      {
-        id: '5',
-        icon: '💡',
-        title: 'Speciaal Onderwijs Leerkrachten - Gratis Werkblad voor Kinderen Gedifferentieerd',
-        subtitle: 'Werkblad voor kinderen diverse leerbehoeften',
-        description: `Speciaal onderwijs leerkrachten gebruiken visuele patronen voor leerlingen met diverse behoeften. Grote, duidelijke afbeeldingen ondersteunen leerlingen met visuele verwerkingsproblemen. Verstelbare moeilijkheid maakt individuele educatieve plannen (IEP) mogelijk.
-
-Leerlingen met ontwikkelingsachterstanden profiteren van concrete visuele patronen. Begin met eenvoudige AB patronen met zeer herkenbare objecten. Graduele toename naar AAB patronen over maanden. Werkbladen documenteren meetbare vooruitgang voor IEP verslagen.
-
-Autisme spectrum leerlingen gedijen bij visuele, voorspelbare structuren. Patronen bieden precies deze voorspelbaarheid en orde. Gebruik interessegebieden als patroonelementen (treinen, dinosauriërs).`,
-        quote: 'Perfecte aanpassing voor elke leerling.',
-      },
-      {
-        id: '6',
-        icon: '💰',
-        title: 'Leraar-Ondernemers - Verkoop Gratis Printables op Teachers Pay Teachers',
-        subtitle: 'Commerciële licentie gratis werkbladen',
-        description: `Leraar-ondernemers maken passief inkomen door hoogwaardige werkbladen te verkopen. Patroontrein generator met commerciële licentie ondersteunt dit ondernemerschap. Maak thematische werkbladen groep 3 bundels voor Teachers Pay Teachers. Volledige Toegang (€240 per jaar) geeft onbeperkte commerciële creatie.
-
-Succesvolle werkblad verkopers verdienen €500-€5000 per maand. Maak seizoensbundels met 20-30 werkbladen per set. Prijs bundels €8-€15 voor maximale conversie. Patroontrein werkbladen gecombineerd met rekenen werkbladen en kleurplaten maken complete pakketten.
-
-Pinterest marketing drijft verkeer naar uw Teachers Pay Teachers winkel. Maak visueel aantrekkelijke preview afbeeldingen van uw beste werkbladen. Patroontrein werkbladen zijn visueel aantrekkelijk voor Pinterest pinners.`,
-        quote: 'Mijn abonnement heeft zichzelf terugverdiend in de eerste maand!',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // FAQ Section
@@ -416,68 +221,8 @@ Pinterest marketing drijft verkeer naar uw Teachers Pay Teachers winkel. Maak vi
     showLessLabel: 'Minder tonen',
     secureCheckout: 'Veilig betalen',
     cancelAnytime: 'Altijd opzegbaar',
-    items: [
-      {
-        id: '1',
-        question: 'Is de Patroontrein Generator Echt Gratis - Gratis Werkblad voor Kleuters?',
-        answer: 'De patroontrein generator vereist Volledige Toegang abonnement voor €240 per jaar of €25 per maand. Uw abonnement geeft onbeperkte werkblad creatie zonder per-werkblad kosten. Genereer zoveel werkbladen groep 3 en werkbladen kleuters als u nodig heeft zonder extra charges. Dit is zeer kosteneffectief vergeleken met per-werkblad platforms. Volledige Toegang bevat alle 33 worksheet generator types inclusief patroontrein. U krijgt ook rekenen werkbladen, kleurplaten, tafels oefenen generatoren en sommen tot 20 materialen.',
-      },
-      {
-        id: '2',
-        question: 'Kan Ik Gratis Werkblad Patroontrein Printen op Normale Thuisprinter?',
-        answer: 'Ja, alle patroontrein werkbladen downloaden als print-ready PDF of JPEG bestanden. Print thuis op elke standaard printer. 300 DPI kwaliteit zorgt voor scherpe, professionele afdrukken. Werkbladen kleuters en werkbladen groep 3 printen perfect op A4 of Letter papier. PDF formaat behoudt exacte layout op elke printer. Stuur naar schoolprinter, thuisprinter of professionele printservice. Grijswaarden optie converteert werkbladen naar zwart-wit voor inktbesparing.',
-      },
-      {
-        id: '3',
-        question: 'Heb Ik Ontwerpvaardigheden Nodig voor Gratis Werkblad voor Kinderen?',
-        answer: 'Nee, absoluut geen ontwerpervaring vereist. Patroontrein generator is ontworpen voor leerkrachten zonder grafische ontwerp achtergrond. Kies patroontype, selecteer thema, klik genereren. Werkblad verschijnt in 3 minuten klaar voor gebruik. Thema-gebaseerde auto-selectie kiest automatisch passende afbeeldingen. Geen manuele afbeelding plaatsing nodig. Generator optimaliseert afbeeldingsgroottes en posities. Professionele uitstraling is gegarandeerd zonder enige inspanning.',
-      },
-      {
-        id: '4',
-        question: 'Kan Ik Gratis Werkbladen Gebruiken in Mijn Klas - Werkblad voor Kinderen?',
-        answer: 'Volledige Toegang abonnement bevat onbeperkt klasgebruik. Print zoveel kopieën als u nodig heeft voor alle leerlingen. Deel digitaal via Google Classroom of andere platforms. Geen per-leerling of per-werkblad limieten. Patroonwerkbladen ondersteunen fijne motoriek ontwikkeling op meerdere manieren. Leerlingen traceren rond afbeeldingen voor handschrift voorbereiding. Tekenen het juiste element in de lege wagon ontwikkelt hand-oog coördinatie.',
-      },
-      {
-        id: '5',
-        question: 'In Welke Talen Zijn Gratis Printables Patroontrein Beschikbaar?',
-        answer: 'Gebruikersinterface is beschikbaar in 11 talen. Engels, Duits, Frans, Spaans, Italiaans, Portugees (Braziliaans), Nederlands, Zweeds, Deens, Noors en Fins. Wissel tussen talen met één klik. Alle labels en instructies verschijnen in uw taal. Nederlands interface ondersteunt leerkrachten in Nederland en België. Groep 1 2 3 terminologie wordt correct gebruikt. Dit ondersteunt veilig leren lezen programma\'s met juiste taalgebruik.',
-      },
-      {
-        id: '6',
-        question: 'Kan Ik Gratis Werkbladen Verkopen Die Ik Maak met Deze Generator?',
-        answer: 'Ja. Volledige Toegang abonnement bevat volledige commerciële print-on-demand licentie. Verkoop alle werkbladen die u maakt op Teachers Pay Teachers, Etsy en Amazon KDP. Geen extra licentiekosten bovenop uw €240/jaar abonnement. Geen naamsvermelding vereist. Maak thematische bundels met patroontrein + kleurplaten + tafels oefenen materialen. 300 DPI exportkwaliteit is essentieel voor commerciële verkoop.',
-      },
-      {
-        id: '7',
-        question: 'Hoe Pas Ik Werkblad voor Kleuters Aan voor Specifieke Leerlingen?',
-        answer: 'Volledige canvas bewerkbaarheid geeft controle over elk element. Vergroot afbeeldingen voor leerlingen met visuele beperkingen. Verklein afbeeldingen voor uitdaging. Sleep elementen naar nieuwe posities voor optimale layout. Voeg extra tekst toe met instructies voor fijne motoriek activiteiten. Aanpas aantal aanwijzingen voor cognitief niveau. 8-10 aanwijzingen voor leerlingen die meer herhaling nodig hebben. 4-5 aanwijzingen voor gevorderde leerlingen.',
-      },
-      {
-        id: '8',
-        question: 'Welke Leeftijdsgroepen Werken Beste met Patroontrein Werkbladen?',
-        answer: 'Patroontrein werkbladen zijn perfect voor 4-8 jaar (groep 1 tot en met groep 4). Eenvoudige AB patronen werken voor 4-5 jarigen in groep 1. Complexe ABC en AABB patronen uitdagen 7-8 jarigen in groep 3 en 4. Groep 1 en 2 leerlingen beginnen met grote, herkenbare afbeeldingen. Dieren, vormen, kleuren zijn vertrouwd. AB patronen zijn toegankelijk. 8-10 aanwijzingen geven voldoende voorbeelden voor begrip.',
-      },
-      {
-        id: '9',
-        question: 'Kan Ik Eigen Afbeeldingen Uploaden voor Gratis Werkblad voor Kinderen?',
-        answer: 'Ja, multi-file upload accepteert JPEG, PNG en GIF formaten. Upload zoveel afbeeldingen tegelijk als u wilt. Uw afbeeldingen verschijnen direct in beschikbare afbeeldingen lijst. Combineer met 3000+ bibliotheek afbeeldingen op één werkblad. Upload letterkaarten voor letters leren activiteiten. Maak alfabetpatronen (A, B, C, A, B, C). Upload foto\'s van klasobjecten voor gepersonaliseerde werkbladen kleuters.',
-      },
-      {
-        id: '10',
-        question: 'Hoe Lang Duurt Het om Gratis Werkbladen Patroontrein te Maken?',
-        answer: 'Standaard patroontrein werkblad neemt 2-3 minuten van selectie tot download. Kies patroontype (30 seconden), selecteer thema (30 seconden), genereer (instant), download (30 seconden). Sneller dan koffie zetten. Aangepaste werkbladen met specifieke afbeeldingen nemen 5-7 minuten. Browse bibliotheek, selecteer exacte afbeeldingen, plaats op canvas. Nog steeds 10x sneller dan handmatig ontwerpen.',
-      },
-      {
-        id: '11',
-        question: 'Bevatten Gratis Printables Patroontrein Antwoordsleutels?',
-        answer: 'Ja, patroontrein generator maakt automatisch antwoordsleutel voor elk werkblad. Antwoordsleutel toont complete patroon met alle vagons gevuld. Leerkrachten zien direct het correcte antwoord. Nakijken is snel en gemakkelijk. Download zowel werkblad als antwoordsleutel in JPEG of PDF formaat. Beide bestanden zijn 300 DPI kwaliteit. Print antwoordsleutel voor eigen referentie of projecteer op smartboard.',
-      },
-      {
-        id: '12',
-        question: 'Kan Ik Werkblad voor Kinderen Maken over Specifieke Schoolvakken?',
-        answer: 'Ja, thematische afbeeldingen dekken alle basisschool vakken. Wiskundethema\'s voor rekenen werkbladen en sommen tot 20 oefening. Letterthema\'s voor veilig leren lezen en letters leren. Wetenschapsthema\'s (dieren, planten, weer) voor wereldoriëntatie. Combineer patroonherkenning met vakspecifieke vocabulaire. Seizoensthema\'s linken aan jaarkalender en weerkunde. Upload vakspecifieke afbeeldingen voor gespecialiseerde eenheden.',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Pricing - Full Access pricing
@@ -549,56 +294,8 @@ Pinterest marketing drijft verkeer naar uw Teachers Pay Teachers winkel. Maak vi
       securePayment: 'Veilig betalen',
       cancelAnytime: 'Altijd opzegbaar',
     },
-    items: [
-      {
-        id: '1',
-        slug: 'alphabet-train',
-        name: 'Alfabet Trein',
-        category: 'Letters Leren',
-        icon: '🚂',
-        description: 'Combineer patroontrein met alfabettrein voor letters leren en patroonherkenning samen.',
-      },
-      {
-        id: '2',
-        slug: 'pattern-worksheet',
-        name: 'Patroon Werkbladen',
-        category: 'Logisch Denken',
-        icon: '🔢',
-        description: 'Vul patroontrein aan met patroon werkbladen voor uitgebreide patroonherkenning oefeningen.',
-      },
-      {
-        id: '3',
-        slug: 'image-addition',
-        name: 'Optellen',
-        category: 'Rekenen',
-        icon: '➕',
-        description: 'Combineer met optelwerkbladen voor geïntegreerde rekenlessen met visuele elementen.',
-      },
-      {
-        id: '4',
-        slug: 'coloring',
-        name: 'Kleurplaten',
-        category: 'Creatief',
-        icon: '🎨',
-        description: 'Voeg kleuractiviteiten toe aan patroonwerkbladen voor fijne motoriek ontwikkeling.',
-      },
-      {
-        id: '5',
-        slug: 'find-and-count',
-        name: 'Zoek en Tel',
-        category: 'Rekenen',
-        icon: '🔢',
-        description: 'Combineer met Zoek en Tel voor extra telling en patroonherkenning vaardigheden.',
-      },
-      {
-        id: '6',
-        slug: 'matching-app',
-        name: 'Koppelspel',
-        category: 'Logica',
-        icon: '🔗',
-        description: 'Voeg koppelactiviteiten toe aan patroonwerkbladen voor visuele discriminatie.',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 };
 

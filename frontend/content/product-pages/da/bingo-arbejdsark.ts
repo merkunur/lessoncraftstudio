@@ -88,36 +88,8 @@ Bingo gratis arbejdsark styrker mange vigtige færdigheder hos børn. Billedgenk
     noPdfLabel: 'Ingen PDF tilgængelig',
     freePdfCountLabel: '3 gratis downloads',
     ofLabel: 'af',
-    items: [
-      {
-        id: '1',
-        worksheetSrc: '/samples/danish/bingo/sample-1.jpeg',
-        answerKeySrc: '/samples/danish/bingo/sample-1-answer.jpeg',
-        altText: 'Bingo gratis arbejdsark - billedbingo arbejdsark til børn med farverige billeder til børnehaveklasse',
-        pdfDownloadUrl: '/samples/danish/bingo/sample-1.pdf',
-      },
-      {
-        id: '2',
-        worksheetSrc: '/samples/danish/bingo/sample-2.jpeg',
-        answerKeySrc: '/samples/danish/bingo/sample-2-answer.jpeg',
-        altText: 'Bingo arbejdsark til børnehaveklasse - gratis printables med billeder og ord til læse og skrive træning',
-        pdfDownloadUrl: '/samples/danish/bingo/sample-2.pdf',
-      },
-      {
-        id: '3',
-        worksheetSrc: '/samples/danish/bingo/sample-3.jpeg',
-        answerKeySrc: '/samples/danish/bingo/sample-3-answer.jpeg',
-        altText: 'Gratis arbejdsark bingo - arbejdsark til børn med tematiske billeder til 0. klasse aktiviteter',
-        pdfDownloadUrl: '/samples/danish/bingo/sample-3.pdf',
-      },
-      {
-        id: '4',
-        worksheetSrc: '/samples/danish/bingo/sample-4.jpeg',
-        answerKeySrc: '/samples/danish/bingo/sample-4-answer.jpeg',
-        altText: 'Arbejdsark til børnehaveklasse - bingo gratis printables perfekt til finmotorik og visuel læring',
-        pdfDownloadUrl: '/samples/danish/bingo/sample-4.pdf',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Features Grid
@@ -133,71 +105,8 @@ Bingo gratis arbejdsark styrker mange vigtige færdigheder hos børn. Billedgenk
       noHiddenFees: 'Ingen skjulte gebyrer',
       cancelAnytime: 'Opsig når som helst',
     },
-    items: [
-      {
-        id: '1',
-        icon: '⚡',
-        title: 'Lav Bingo Gratis Arbejdsark til Print på 3 Klik',
-        description: `Opret bingo gratis arbejdsark på sekunder med vores simple generator. Vælg et billedtema fra over 100 temaer. Klik generer og dine bingo-kort vises øjeblikkeligt. Processen tager under 30 sekunder fra start til færdig. Perfekt til travle pædagoger der har brug for hurtige arbejdsark til børn.
-
-Du kan generere 1-10 bingo-kort på én gang. Hvert kort bliver automatisk forskelligt. Billederne blandes så ingen to kort er ens. Ring-ark til at trække billeder genereres automatisk. Dit Grundpakke abonnement giver ubegrænset generering af arbejdsark til børnehaveklasse. Lav så mange bingo gratis printables som du har brug for.`,
-        highlighted: false,
-      },
-      {
-        id: '2',
-        icon: '✏️',
-        title: 'Rediger Alt på dit Bingo Arbejdsark til Børn',
-        description: `Hvert element på dit bingo-kort kan redigeres fuldstændigt. Træk billeder rundt med musen. Skaler dem større eller mindre efter behov. Rotér elementer til den perfekte vinkel. Slet billeder du ikke vil have med. Tilføj dine egne tekstelementer hvor som helst på siden.
-
-Farver kan ændres på alle elementer. Skift baggrundsfarve på bingo-cellerne. Tilpas tekstfarver til dit tema. Juster størrelsen på bingo-gitteret. Alt er tilgængeligt med simple klik. Denne fleksibilitet betyder dine gratis arbejdsark altid ser præcis ud som du ønsker. Ingen to pædagoger behøver lave ens arbejdsark til børn.`,
-        highlighted: false,
-      },
-      {
-        id: '3',
-        icon: '📤',
-        title: 'Upload Egne Billeder til Gratis Arbejdsark og Bingo Aktiviteter',
-        description: `Upload dine egne fotos og illustrationer til bingo-kortene. Multi-fil upload lader dig tilføje mange billeder på én gang. Alle almindelige formater fungerer - JPEG, PNG og GIF. Kombiner dine uploadede billeder med vores billedbibliotek. Perfekt til personaliserede arbejdsark til børnehaveklasse med manipulativer.
-
-Brug fotos af dine elever til navne-bingo. Upload billeder af klasseværelsets genstande. Tilføj billeder fra årstidsture eller eksperimenter. Kombiner med farvelægning elementer for kreative gratis printables. Dine uploadede billeder gør arbejdsark til børn relevante for netop dine elever. Dette personlige touch øger engagementet betydeligt i både børnehaveklassen og 1. klasse.`,
-        highlighted: false,
-      },
-      {
-        id: '4',
-        icon: '🌍',
-        title: 'Bingo Arbejdsark til Børn på 11 Sprog',
-        description: `Generatoren understøtter 11 sprog i både interface og indhold. Dansk, engelsk, tysk, fransk, spansk, italiensk, portugisisk, hollandsk, svensk, norsk og finsk. Billednavne vises på det valgte sprog. Perfekt til flersproget undervisning med gratis arbejdsark. Ideel til læse og skrive træning med ord under billeder.
-
-Lav bingo med engelske ord for sprogindlæring. Skab tyske bingo-kort til begyndere. Kombiner dansk og engelsk på samme kort. Elever lærer ny ordforråd gennem spil. Multi-sprog support gør generatoren uvurderlig for internationale skoler. Dit Grundpakke abonnement inkluderer alle 11 sprog uden ekstra omkostninger for arbejdsark til børnehaveklasse.`,
-        highlighted: false,
-      },
-      {
-        id: '5',
-        icon: '💰',
-        title: 'Kommerciel Licens til Gratis Arbejdsark og Arbejdsark til Børnehaveklasse',
-        description: `Grundpakke abonnementet inkluderer fuld kommerciel print-on-demand licens. Sælg dine bingo gratis arbejdsark på Teachers Pay Teachers. List dem på Etsy som digitale downloads. Udgiv opgavehæfter på Amazon KDP. Ingen ekstra licensomkostninger ud over dit abonnement. Perfekt til pædagoger der vil skabe indtægt med arbejdsark til børn.
-
-Ingen kreditering påkrævet på dine produkter. Sælg så mange arbejdsark til børnehaveklasse som du vil. Opret abonnementsbaserede ressourcer for forældre. Byg en forretning omkring gratis printables materialer. Mange pædagoger tjener 3000-30000 kr om måneden. Den kommercielle licens er inkluderet i alle Grundpakke abonnementer. Professionel 300 DPI kvalitet sikrer dine produkter ser fantastiske ud.`,
-        highlighted: true,
-      },
-      {
-        id: '6',
-        icon: '🎨',
-        title: '3000+ Billedbibliotek til Gratis Arbejdsark og Arbejdsark til Børn',
-        description: `Få adgang til over 3000 børnevenlige illustrationer. Billederne er organiseret i temabaserede kategorier. Dyr, mad, transport, tal, bogstaver og meget mere. Søg efter specifikke billeder med søgefunktionen. Gennemse temaer for hurtigt at finde det perfekte indhold. Alle billeder er optimeret til arbejdsark til børnehaveklasse.
-
-Brug dyrebilleder til naturfagsbingo. Vælg mademner til ernæringslære. Transportbilleder perfekt til temauge om trafik. Talbilleder til matematikopgaver kombineret med bingo. Bogstavbilleder til læse og skrive aktiviteter. Baggrunde og rammer inkluderet i biblioteket. Alt indhold inkluderet i dit Grundpakke abonnement. Generer unikke gratis arbejdsark hver uge uden at løbe tør for billeder.`,
-        highlighted: false,
-      },
-      {
-        id: '7',
-        icon: '🖨️',
-        title: 'Professionel 300 DPI Kvalitet til Gratis Printables',
-        description: `Download alle bingo gratis arbejdsark i professionel 300 DPI opløsning. Perfekt til udskrivning på enhver printer. Vælg mellem PDF og JPEG formater. PDF bevarer skarp tekst og klare linjer. JPEG fungerer godt til farverige bingo-kort. Begge formater printer smukt for arbejdsark til børn.
-
-Gråtonesindstilling sparer blæk når du printer. Konverter farverige bingo-kort til sort-hvid. Behold al detalje selv i gråtone. Printkvaliteten matcher professionelt producerede arbejdsark til børnehaveklasse. Dit Grundpakke abonnement sikrer uanset hvor mange gratis printables du genererer ser de alle professionelle ud. Ingen pixelerede billeder eller uskarpe kanter nogensinde.`,
-        highlighted: true,
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // How-To Guide
@@ -279,80 +188,8 @@ Aktiver gråtone-indstillingen inden download for at spare blæk. Konvertering t
     badgeText: 'Hvem Er Det Til',
     readMoreLabel: 'Læs mere',
     showLessLabel: 'Vis mindre',
-    items: [
-      {
-        id: '1',
-        icon: '👩‍🏫',
-        title: 'Børnehaveklasse Pædagoger - Gratis Arbejdsark',
-        subtitle: 'Arbejdsark til Børn Kombineret med Bingo Aktiviteter',
-        description: `Pædagoger i børnehaveklassen bruger bingo til mange formål med gratis arbejdsark. Billedgenkendelse styrkes gennem gentagne spil. Ordforrådsopbygning sker når billeder navngives højt. Koncentration udvikles gennem lytning til ring-ark. Sociale færdigheder øves når børn spiller sammen. Bingo integrerer leg og læring perfekt med arbejdsark til børn.
-
-Kombiner bingo med finmotorik øvelser for komplet læring. Lad børn farvelægge bingo-kortene før spillet. Brug små manipulativer som brikker træner finmotorik. Klipning af bingo-kort styrker saksefærdigheder. Limning af billederne på kartoner udvikler hånd-øje koordination. Dit Grundpakke abonnement giver ubegrænsede arbejdsark til børnehaveklasse ressourcer.
-
-Tematisk bingo matcher børnehaveklassens emner. Årstidsbingo til efterår og vinter. Dyrebingo til naturfag. Farve-bingo til farvelære. Form-bingo til geometri med gratis printables. Hver uge nye temaer holder børnene engagerede. Generer nye gratis arbejdsark til hvert tema uden ekstra omkostninger.`,
-        quote: 'Bingo gør læring sjovt for de små!',
-      },
-      {
-        id: '2',
-        icon: '📚',
-        title: '0. Klasse og 1. Klasse Lærere - Arbejdsark til Børn',
-        subtitle: 'Gratis Arbejdsark og Matematikopgaver Integration',
-        description: `Lærere i 0. klasse og 1. klasse kombinerer bingo med læseplan-mål og gratis arbejdsark. Alfabetbingo hjælper børn lære bogstaver visuelt. Talbingo styrker talgenkendelse. Ord-bingo understøtter læse og skrive udvikling med arbejdsark til børnehaveklasse. Matematik-bingo gør gangetabeller sjove. Bingo er et alsidigt undervisningsværktøj for indskolingen.
-
-Skab specialiserede matematikopgaver med bingo-formatet og arbejdsark til børn. Additions-bingo viser resultater i cellerne. Børn markerer svaret når du læser opgaven op. Subtraktion-bingo fungerer på samme måde. For 2. og 3. klasse bruges gangetabeller i bingo-format. Dette gør tavle-drill sjov og interaktiv. Alle børn deltager aktivt i stedet for at sidde passivt med gratis arbejdsark.
-
-Kombiner bingo med skriv bogstaver aktiviteter. Print bingo-kort i gråtone til farvelægning. Børn skriver bogstavet i hver celle efter at have farvelagt. Dette integrerer visuel, motorisk og skriftlig læring med gratis printables. Perfekt til elever der har brug for multimodal undervisning. Dit Grundpakke abonnement understøtter differentieret undervisning for alle elever.`,
-        quote: 'Differentiation er blevet så meget nemmere.',
-      },
-      {
-        id: '3',
-        icon: '🏠',
-        title: 'Hjemmeskole Forældre - Gratis Arbejdsark til Børn',
-        subtitle: 'Arbejdsark til Børnehaveklasse og Multi-Niveau Undervisning',
-        description: `Hjemmeskole forældre underviser ofte flere børn på forskellige niveauer med gratis arbejdsark. Bingo-generatoren løser dette problem elegant. Lav simple 3x3 bingo-kort til de yngste. Skab udfordrende 5x5 ord-bingo til de ældste med arbejdsark til børn. Alle børn kan spille samme spil med forskellige sværhedsgrader. Dette sparer tid og holder alle engagerede.
-
-Brug bingo til at gennemgå læste bøger med arbejdsark til børnehaveklasse. Skab karakter-bingo efter en historie. Lav settings-bingo til geografiundervisning. Historiske personer-bingo gør historie levende. Science-bingo med dyrearter eller planeter. Hver lektie kan blive et interaktivt bingo-spil med gratis printables. Dette holder hjemmeundervisningen frisk og sjov.
-
-Grundpakke abonnementet giver hjemmeskole familier enorm værdi. Generer ubegrænsede gratis arbejdsark for alle fag. Lav ugens arbejdsark til børn mandag morgen. Skab quiz-bingo til fredag eftermiddag. Alt fra én generator til ét abonnement. Hjemmeskole budgetter sætter pris på den økonomiske besparelse sammenlignet med at købe færdige opgavehæfter.`,
-        quote: 'Et værktøj dækker alle mine børns klassetrin.',
-      },
-      {
-        id: '4',
-        icon: '🌍',
-        title: 'Sprogundervisere - Arbejdsark til Børn på 11 Sprog',
-        subtitle: 'Gratis Arbejdsark og Læse og Skrive Træning',
-        description: `Sprogundervisere bruger bingo-generatorens multi-sprog support intensivt med gratis arbejdsark. Lav engelsk-bingo for begyndere. Skab tysk ord-bingo til ordforrådsopbygning. Fransk bingo kombinerer billeder med nye ord. Spansk bingo gør grammatik-drill sjov med arbejdsark til børnehaveklasse. Alle 11 understøttede sprog giver enorme undervisningsmuligheder.
-
-Kombiner billedbaseret og ordbaseret bingo for sprogindlæring. Vis billedet på ring-arket. Læs ordet op på målsproget. Elever finder det matchende ord på deres kort for arbejdsark til børn. Dette styrker lytteforståelse og læsning samtidigt. Perfekt til læse og skrive træning i fremmedsprog. Visuel association hjælper med huskelse.
-
-Internationale skoler og flersprogede klasseværelser elsker denne funktion. Skab bingo på dansk for danske elever. Lav samme bingo på engelsk for internationale elever. Alle spiller sammen med kort på deres modersmål med gratis printables. Dette fremmer inklusion og fællesskab på tværs af sprogbarrierer. Dit Grundpakke abonnement inkluderer alle 11 sprog uden ekstra omkostninger for gratis arbejdsark.`,
-        quote: 'Den flersprogede support er essentiel for mine elever.',
-      },
-      {
-        id: '5',
-        icon: '💜',
-        title: 'Specialpædagoger - Arbejdsark til Børnehaveklasse',
-        subtitle: 'Gratis Arbejdsark og Differentierede Aktiviteter',
-        description: `Specialpædagoger skaber tilpassede bingo arbejdsark til børn til individuelle behov. Store bingo-celler for elever med finmotorik udfordringer. Ekstra tydelige billeder for synshandicappede. Færre rækker for elever med koncentrationsudfordringer med gratis arbejdsark. Kendte billeder fra elevens hverdag for autismespektrum-elever. Tilpasning er nøglen til inklusiv undervisning.
-
-Bingo understøtter mange special-pædagogiske mål med arbejdsark til børnehaveklasse. Kategorisering læres gennem tematisk bingo. Tur-tagning øves i lille-gruppe bingo. Frustrationstoleranse bygges gennem spil. Sejrs- og tabskoncepter introduceres i en lav-stress aktivitet. Bingo er terapeutisk og lærerigt samtidigt med gratis printables. Perfekt til børn med særlige behov.
-
-Upload personlige billeder for maksimal relevans. Fotos af eleven selv. Billeder af familiemedlemmer. Yndlingsting fra hjemmet. Klasseværelsets daglige rutiner med arbejdsark til børn. Personalisering øger engagement dramatisk for mange specialpædagogiske elever. Dit Grundpakke abonnement giver ubegrænset upload og generering til alle dine elever med gratis arbejdsark.`,
-        quote: 'Jeg kan tilpasse arbejdsark til hver elevs behov.',
-      },
-      {
-        id: '6',
-        icon: '💰',
-        title: 'Lærer-Iværksættere - Gratis Arbejdsark til Salg',
-        subtitle: 'Sælg Arbejdsark til Børn på Teachers Pay Teachers og Etsy',
-        description: `Mange lærere bygger indtægt ved at sælge undervisningsmaterialer online med gratis arbejdsark. Teachers Pay Teachers er en enorm markedsplads. Etsy sælger digitale downloads til forældre. Amazon KDP udgiver opgavehæfter. Bingo-ressourcer sælger ekstremt godt. Forældre og lærere søger konstant efter nye bingo-temaer med arbejdsark til børnehaveklasse. Grundpakke inkluderer fuld kommerciel licens.
-
-Skab tematiske bingo-pakker til salg med arbejdsark til børn. Halloween bingo-sæt med 20 forskellige kort. Jul-bingo med nordiske motiver. Påske-bingo kombineret med farvelægning. Skolestart-bingo til august. Hver måned nye sæsonbestemte produkter med gratis printables. Sælg dem som PDF-downloads for passiv indkomst. Mange lærer-iværksættere tjener 3000-15000 kr om måneden.
-
-Professionel 300 DPI kvalitet sikrer dine produkter ser fantastiske ud. Kunder forventer høj kvalitet når de betaler. Generatoren giver dig samme kvalitet som dyre designprogrammer. Ingen grafisk design-færdigheder nødvendige. Grundpakke abonnement koster 144 USD årligt. Sælg bare tre produkter og abonnementet har betalt sig selv for gratis arbejdsark. Kommerciel licens inkluderet uden ekstra gebyrer.`,
-        quote: 'Mit abonnement betalte sig selv i første måned!',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // FAQ Section
@@ -366,68 +203,8 @@ Professionel 300 DPI kvalitet sikrer dine produkter ser fantastiske ud. Kunder f
     showLessLabel: 'Vis mindre',
     secureCheckout: 'Sikker betaling',
     cancelAnytime: 'Opsig når som helst',
-    items: [
-      {
-        id: '1',
-        question: 'Er denne Bingo Generator med Gratis Arbejdsark Virkelig Gratis at Bruge?',
-        answer: 'Bingo-generatoren kræver et Grundpakke abonnement til 144 USD årligt eller 15 USD månedligt. Dit abonnement giver ubegrænset bingo-generering uden omkostninger per arbejdsark til børn. Generér så mange gratis arbejdsark som du har brug for uden ekstra gebyrer. Skab hundredvis af arbejdsark til børnehaveklasse hver måned inkluderet i abonnementet. Grundpakke inkluderer 10 populære arbejdsark-generatorer. Alle abonnementer inkluderer kommerciel licens, 11-sprog support og professionel 300 DPI kvalitet.',
-      },
-      {
-        id: '2',
-        question: 'Kan jeg Printe Bingo Gratis Arbejdsark Derhjemme på min Printer?',
-        answer: 'Ja. Alle bingo gratis arbejdsark kan printes på enhver hjemmeprinter. Download som PDF eller JPEG. Begge formater printer perfekt på standard A4 eller Letter papir. 300 DPI kvalitet sikrer skarpe linjer og klare billeder på alle printere. Brug gråtone-indstillingen for at spare farveblæk. Print på almindeligt kopipapir for daglig brug med arbejdsark til børn. Brug tykkere karton for holdbare genbrugelige bingo-kort. Laminer kortene for permanent brug i klasseværelset.',
-      },
-      {
-        id: '3',
-        question: 'Skal jeg Have Design-Færdigheder til at Lave Gratis Arbejdsark til Børn?',
-        answer: 'Nej. Ingen design-færdigheder påkrævet for at skabe professionelle gratis arbejdsark eller arbejdsark til børnehaveklasse. Generatoren håndterer alt layout automatisk. Vælg et tema eller billeder. Klik generer. Bingo-kortene oprettes på sekunder. Så simpelt som det kan blive. Editerings-værktøjerne er intuitive og nemme at bruge for arbejdsark til børn. Træk-og-slip for at flytte elementer. Klik for at ændre farver. Simple kontroller for størrelse og rotation. Hvis du kan bruge en mus kan du skabe smukke gratis printables.',
-      },
-      {
-        id: '4',
-        question: 'Kan jeg Bruge Bingo Arbejdsark til Børn i mit Klasseværelse?',
-        answer: 'Ja. Grundpakke abonnement inkluderer ubegrænset klasseværelsebrug for gratis arbejdsark. Generer bingo arbejdsark til børnehaveklasse, 0. klasse, 1. klasse og alle klassetrin. Print så mange kopier som du har brug for. Del opgaverne med kolleger på samme skole. Brug dem til hele klassen, små grupper eller individuelle elever med arbejdsark til børn. Skab differentierede gratis printables til forskellige niveauer. Simple 3x3 bingo-kort til børnehaveklassen. Udfordrende 5x5 ord-bingo til 1. klasse.',
-      },
-      {
-        id: '5',
-        question: 'Hvilke Sprog er Tilgængelige til Gratis Arbejdsark og Bingo?',
-        answer: 'Bingo-generatoren understøtter 11 sprog fuldt ud for arbejdsark til børn. Dansk, engelsk, tysk, fransk, spansk, italiensk, portugisisk, hollandsk, svensk, norsk og finsk. Både interface og indhold tilgængeligt på alle sprog. Perfekt til gratis arbejdsark i modersmål eller fremmedsprog. Billednavne vises på det valgte sprog når du bruger ord-baseret bingo med arbejdsark til børnehaveklasse. Skab danske gratis printables med danske ord. Lav engelske ord-bingo for sprogundervisning. Kombiner flere sprog på samme bingo-kort for avancerede elever.',
-      },
-      {
-        id: '6',
-        question: 'Kan jeg Sælge Bingo Gratis Arbejdsark jeg Skaber med Generatoren?',
-        answer: 'Ja. Grundpakke abonnement inkluderer fuld kommerciel print-on-demand licens uden ekstra gebyrer for arbejdsark til børn. Sælg dine bingo-pakker på Teachers Pay Teachers. List dem på Etsy som instant downloads. Udgiv opgavehæfter på Amazon KDP. Ingen royalties ud over dit 144 USD årlige abonnement med gratis arbejdsark. Ingen begrænsninger på antal salg eller indtjening. Ingen kreditering påkrævet på dine produkter med arbejdsark til børnehaveklasse. Mange pædagoger bygger succesfulde side-forretninger med gratis printables.',
-      },
-      {
-        id: '7',
-        question: 'Hvilke Aldersgrupper Passer til Bingo Arbejdsark til Børn?',
-        answer: 'Bingo arbejdsark til børn fungerer fra 3 til 10 år. Børnehaveklassen elsker simple billedbingo gratis arbejdsark. 0. klasse kombinerer billeder med ordgenkendelse med arbejdsark til børnehaveklasse. 1. klasse håndterer ord-baseret bingo komfortabelt. 2. og 3. klasse nyder udfordrende 5x5 bingo med mere komplekst indhold. Tilpas sværhedsgraden til ethvert niveau. Multi-age klasseværelser bruger forskellige sværhedsgrader af samme tema med gratis printables.',
-      },
-      {
-        id: '8',
-        question: 'Kan jeg Uploade Egne Billeder til Gratis Arbejdsark Bingo-Kort?',
-        answer: 'Ja. Upload ubegrænset mange egne billeder til arbejdsark til børn. Multi-fil upload understøttet. JPEG, PNG og GIF formater accepteret. Kombiner uploadede billeder med biblioteksbilleder for gratis arbejdsark. Brug fotos af klasseværelsets materialer for personaliserede bingo-kort. Tilføj fotos fra ekskursioner til tematisk bingo med arbejdsark til børnehaveklasse. Klassekæledyret kan blive del af dyrebingo. Personlige billeder gør hver gratis printables unik og relevant.',
-      },
-      {
-        id: '9',
-        question: 'Hvor Lang Tid Tager det at Lave Bingo Gratis Arbejdsark?',
-        answer: 'Generering af bingo gratis arbejdsark tager under 3 minutter fra start til download. Vælg tema eller billeder - 30 sekunder. Sæt indstillinger som gitterstørrelse - 20 sekunder. Klik generer - 10 sekunder for arbejdsark til børn. Mindre redigeringer - 1 minut. Download PDF - 10 sekunder. Total tid cirka 2-3 minutter per bingo-sæt med arbejdsark til børnehaveklasse. Sammenlign med traditionel oprettelse der tager 2-3 timer. Generatoren er 40 gange hurtigere for gratis printables.',
-      },
-      {
-        id: '10',
-        question: 'Inkluderer Bingo Arbejdsark til Børn Facitark eller Ring-Ark?',
-        answer: 'Ja. Ring-arket fungerer som facit for alle bingo-spil med gratis arbejdsark. Viser alle billeder eller ord brugt på kortene for arbejdsark til børnehaveklasse. Perfekt til at kalde ud under spillet. Efter spillet kan elever kontrollere deres kort mod ring-arket. Læreren bestemmer hvordan ring-arket bruges afhængigt af klasseværelsets behov med arbejdsark til børn. Ring-arket genereres automatisk når du opretter bingo-kortene til gratis printables.',
-      },
-      {
-        id: '11',
-        question: 'Kan jeg Kombinere Bingo Gratis Arbejdsark med Andre Læringsaktiviteter?',
-        answer: 'Ja. Bingo fungerer fantastisk sammen med andre arbejdsark til børn. Skab komplette tematiske læringspakker med gratis arbejdsark. Kombiner matematikopgaver med ordforråds-bingo. Blend læse og skrive aktiviteter med bingo-spil og arbejdsark til børnehaveklasse. Tilføj farvelægning efter bingo-spillet. Print bingo-kort i gråtone og lad børn farvelægge billederne. Kombiner bingo med finmotorik øvelser. Klipning af bingo-kort styrker saksefærdigheder med gratis printables.',
-      },
-      {
-        id: '12',
-        question: 'Kan jeg Lave 1. Klasse Gratis Arbejdsark til Børn med Bingo?',
-        answer: 'Ja. Kombiner læse og skrive mål med bingo-formatet nemt for arbejdsark til børnehaveklasse. Skab ord-bingo til 1. klasse med sight words eller nye ord som gratis arbejdsark. Print i gråtone. Elever farvelægger cellerne mens de øver ordgenkendelse med arbejdsark til børn. Tilføj skrivekomponenter til bingo-aktiviteten. Elever skriver ord fra bingo-kortet efter spillet. Kombiner 1. klasse læse og skrive standarder med sjov bingo-format som gratis printables.',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Pricing
@@ -474,56 +251,8 @@ Professionel 300 DPI kvalitet sikrer dine produkter ser fantastiske ud. Kunder f
       securePayment: 'Sikker betaling',
       cancelAnytime: 'Opsig når som helst',
     },
-    items: [
-      {
-        id: '1',
-        slug: 'matching-app',
-        name: 'Matchning',
-        category: 'Visuel Læring',
-        icon: '🔗',
-        description: 'Kombiner bingo gratis arbejdsark med matchingøvelser for at styrke billedgenkendelse og visuel hukommelse med arbejdsark til børn.',
-      },
-      {
-        id: '2',
-        slug: 'find-and-count',
-        name: 'Find og Tæl',
-        category: 'Matematik',
-        icon: '🔍',
-        description: 'Udvikl tællefærdigheder gennem søge-og-tælle aktiviteter der supplerer bingo-spil med arbejdsark til børnehaveklasse.',
-      },
-      {
-        id: '3',
-        slug: 'coloring',
-        name: 'Malebilleder',
-        category: 'Kunst og Kreativitet',
-        icon: '🎨',
-        description: 'Beløn færdiggjorte bingo-spil med tematiske malebilleder som gratis printables der udvikler finmotorik.',
-      },
-      {
-        id: '4',
-        slug: 'image-addition',
-        name: 'Addition',
-        category: 'Matematik',
-        icon: '➕',
-        description: 'Kombiner bingo med billedbaserede matematikopgaver for tal og regning træning med gratis arbejdsark til børn.',
-      },
-      {
-        id: '5',
-        slug: 'word-search',
-        name: 'Ordsøgning',
-        category: 'Sprog',
-        icon: '🔤',
-        description: 'Styrk ordforråd ved at kombinere bingo med ordpuslespil og bogstavgenkendelse som arbejdsark til børnehaveklasse.',
-      },
-      {
-        id: '6',
-        slug: 'drawing-lines',
-        name: 'Linjetræning',
-        category: 'Finmotorik',
-        icon: '✏️',
-        description: 'Udvikl finmotorik færdigheder gennem linjetræning der supplerer bingo-aktiviteter med gratis arbejdsark.',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 };
 

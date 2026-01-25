@@ -104,43 +104,8 @@ Este gerador oferece 5 tipos de padrões diferentes para atividades grátis. Voc
     badgeText: 'Exemplos Grátis',
     downloadingLabel: 'Baixando...',
     ofLabel: 'de',
-    items: [
-      {
-        id: '1',
-        worksheetSrc: '/samples/portuguese/pattern-train/sample-1.jpeg',
-        answerKeySrc: '/samples/portuguese/pattern-train/sample-1-answer.jpeg',
-        altText: 'Atividade grátis trenzinho de padrões - sequência lógica para educação infantil',
-        pdfDownloadUrl: '/samples/portuguese/pattern-train/sample-1.pdf',
-      },
-      {
-        id: '2',
-        worksheetSrc: '/samples/portuguese/pattern-train/sample-2.jpeg',
-        answerKeySrc: '/samples/portuguese/pattern-train/sample-2-answer.jpeg',
-        altText: 'Atividade grátis para crianças - trenzinho de padrões formato paisagem',
-        pdfDownloadUrl: '/samples/portuguese/pattern-train/sample-2.pdf',
-      },
-      {
-        id: '3',
-        worksheetSrc: '/samples/portuguese/pattern-train/sample-3.jpeg',
-        answerKeySrc: '/samples/portuguese/pattern-train/sample-3-answer.jpeg',
-        altText: 'Atividades grátis de sequência lógica - padrões ABC para 1º ano',
-        pdfDownloadUrl: '/samples/portuguese/pattern-train/sample-3.pdf',
-      },
-      {
-        id: '4',
-        worksheetSrc: '/samples/portuguese/pattern-train/sample-4.jpeg',
-        answerKeySrc: '/samples/portuguese/pattern-train/sample-4-answer.jpeg',
-        altText: 'Atividade para crianças - trenzinho de padrões AABB para imprimir',
-        pdfDownloadUrl: '/samples/portuguese/pattern-train/sample-4.pdf',
-      },
-      {
-        id: '5',
-        worksheetSrc: '/samples/portuguese/pattern-train/sample-5.jpeg',
-        answerKeySrc: '/samples/portuguese/pattern-train/sample-5-answer.jpeg',
-        altText: 'Imprimíveis grátis de trenzinho de padrões - atividade para educação infantil',
-        pdfDownloadUrl: '/samples/portuguese/pattern-train/sample-5.pdf',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Features Grid - FULL text from pattern-train.md feature sections
@@ -156,96 +121,8 @@ Este gerador oferece 5 tipos de padrões diferentes para atividades grátis. Voc
       noHiddenFees: 'Sem taxas ocultas',
       cancelAnytime: 'Cancele quando quiser',
     },
-    items: [
-      {
-        id: '1',
-        icon: '⚡',
-        title: 'Criação Fácil de Atividade Grátis em 3 Cliques - Imprimíveis Grátis Rápidas',
-        description: `Criar atividade grátis nunca foi tão simples. Primeiro, escolha o tipo de padrão desejado. Segundo, selecione as imagens para a sequência. Terceiro, clique em gerar. Sua atividade para crianças de coordenação motora está pronta para imprimir.
-
-O processo leva menos de 3 minutos do início ao fim. Professores de educação infantil ganham tempo para outras tarefas. Não precisa de habilidades de design ou programas complexos. O gerador faz todo o trabalho pesado automaticamente.
-
-Escolha entre 5 tipos de padrões diferentes. Padrões AB são ideais para iniciantes. Padrões AABB desafiam alunos mais avançados. Cada worksheet pode ter de 4 a 10 exercícios. Personalize a quantidade conforme a necessidade da sua turma.`,
-        highlighted: false,
-      },
-      {
-        id: '2',
-        icon: '✏️',
-        title: 'Edição Completa de Atividade Grátis para Crianças - Atividade para Educação Infantil',
-        description: `Tudo na tela pode ser editado livremente em suas atividades grátis. Arraste elementos para reposicionar. Gire imagens para criar variações. Redimensione objetos conforme necessário. Delete elementos que não deseja incluir.
-
-A barra de ferramentas contextual aparece ao selecionar objetos. Controle camadas com opções de trazer para frente ou enviar para trás. Alinhe múltiplos elementos com precisão. Centralize objetos na página automaticamente.
-
-O recurso de desfazer e refazer salva até 20 passos. Erros são facilmente corrigidos. Experimente diferentes layouts sem medo. O histórico de edições protege seu trabalho de atividade grátis para crianças.`,
-        highlighted: false,
-      },
-      {
-        id: '3',
-        icon: '📤',
-        title: 'Upload de Imagens Próprias para Atividades Grátis - Atividade para Crianças Personalizada',
-        description: `Personalize suas atividades grátis com fotos da turma. Faça upload de múltiplos arquivos de uma vez. O gerador aceita formatos JPEG, PNG e GIF. Combine imagens próprias com a biblioteca do sistema.
-
-Crie atividade grátis para crianças temáticas para datas comemorativas. Use fotos de passeios escolares. Inclua mascotes ou símbolos da escola. Imagens personalizadas aumentam o engajamento dos alunos.
-
-Suas imagens ficam disponíveis durante toda a sessão. Organize uma pasta com imagens favoritas. Reutilize em diferentes atividade para educação infantil e matemática. A flexibilidade é total.`,
-        highlighted: false,
-      },
-      {
-        id: '4',
-        icon: '🌍',
-        title: 'Atividade para Educação Infantil em 11 Idiomas - Atividades Grátis Multilíngues',
-        description: `O gerador suporta 11 idiomas completos para atividade grátis. Português brasileiro é totalmente integrado. Também disponível em inglês, alemão, francês e espanhol. Italiano, holandês, sueco, dinamarquês, norueguês e finlandês completam a lista.
-
-Professores de escolas bilíngues aproveitam todos os idiomas. Ensine padrões em inglês ou espanhol. A interface muda completamente para o idioma escolhido. Nomes de imagens também são traduzidos.
-
-Use este recurso para atividade grátis para crianças de língua estrangeira. Combine aprendizado de padrões com vocabulário novo. É perfeito para programas de imersão linguística. Imprimíveis grátis multilíngues expandem possibilidades.`,
-        highlighted: true,
-      },
-      {
-        id: '5',
-        icon: '💰',
-        title: 'Licença Comercial para Imprimíveis Grátis - Venda suas Atividades Grátis',
-        description: `Sua assinatura Acesso Completo inclui licença comercial completa. Venda suas atividades grátis no Teachers Pay Teachers. Comercialize no Etsy ou Amazon KDP. Não há custos extras de licenciamento.
-
-Professores empreendedores monetizam seu trabalho criativo. Crie pacotes de atividade grátis para crianças para vender. Desenvolva coleções de tabuada temáticas. O formato 300 DPI é perfeito para impressão comercial.
-
-Não precisa dar créditos ou atribuição. A licença cobre uso comercial ilimitado. Muitos professores ganham renda extra significativa. Transforme preparação de aula em fonte de receita.`,
-        highlighted: true,
-      },
-      {
-        id: '6',
-        icon: '🎨',
-        title: 'Biblioteca com 3000+ Imagens para Atividade Grátis - Atividade para Crianças Visual',
-        description: `Acesse mais de 3000 imagens infantis de alta qualidade para atividades grátis. Todas organizadas por temas específicos. Encontre facilmente animais, frutas, veículos e formas. Letras do alfabeto e vogais também disponíveis.
-
-A busca por texto acelera a localização. Digite o nome da imagem desejada. Resultados aparecem instantaneamente. Navegue por categorias quando preferir explorar.
-
-Fundos decorativos estão incluídos na biblioteca. Bordas temáticas emolduram suas atividade grátis para crianças. Tudo sem custo adicional além da assinatura. Materiais visuais completos para atividade para educação infantil.`,
-        highlighted: false,
-      },
-      {
-        id: '7',
-        icon: '🖨️',
-        title: 'Qualidade Profissional 300 DPI para Atividade Grátis para Crianças - Imprimíveis Grátis',
-        description: `Exporte em resolução profissional de 300 DPI suas atividades grátis. Perfeito para impressão em qualquer equipamento. Ideal para venda em plataformas digitais. Qualidade comercial garantida.
-
-Escolha entre formatos JPEG ou PDF. JPEG é ótimo para visualização rápida. PDF mantém vetores e escalabilidade. Ambos disponíveis para worksheet e gabarito.
-
-A opção escala de cinza economiza tinta. Atividade grátis ficam prontas para fotocópia. Mantenha qualidade mesmo em preto e branco. Perfeito para atividade para educação infantil em grande volume.`,
-        highlighted: false,
-      },
-      {
-        id: '8',
-        icon: '🔧',
-        title: 'Atividade Grátis de Letra Cursiva e Pontilhado - Atividades Grátis Complementares',
-        description: `Combine o Trenzinho de Padrões com outros geradores de atividade grátis. Use junto com atividades de letra cursiva. Complete com exercícios de pontilhado e tracejado. Crie pacotes de aprendizagem completos.
-
-Professores de educação infantil montam sequências didáticas. Primeiro, a criança faz o padrão do trenzinho. Depois, pratica letra cursiva relacionada. Finalize com pontilhado para coordenação motora.
-
-Todos os 33 geradores estão na assinatura Acesso Completo para imprimíveis grátis. Acesse por R$240 ao ano ou R$25 ao mês. Crie atividade grátis para crianças ilimitadas em todas as ferramentas. Valor incomparável para educadores.`,
-        highlighted: false,
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // How-To Guide - FULL text from pattern-train.md step sections
@@ -337,80 +214,8 @@ Todos os 33 geradores estão na assinatura Acesso Completo para imprimíveis gr�
     badgeText: 'Para Quem',
     readMoreLabel: 'Leia mais',
     showLessLabel: 'Mostrar menos',
-    items: [
-      {
-        id: '1',
-        icon: '👩‍🏫',
-        title: 'Professores de Educação Infantil',
-        subtitle: 'Atividade Grátis para Crianças com Padrões de Letras',
-        description: `Use o Trenzinho de Padrões para criar atividade grátis ensinando letras do alfabeto. Crie sequências usando vogais e consoantes. A criança identifica qual letra completa o padrão. É uma forma lúdica de trabalhar atividades grátis de alfabetização.
-
-Exemplo prático: Padrão AB com letras A e B em atividade grátis para crianças. O trenzinho mostra A-B-A-B-?. A criança identifica que falta a letra A. Simples e eficaz para atividade para educação infantil.
-
-Avance com padrões AAB usando vogais. Sequência A-A-E-A-A-?. A criança pratica reconhecimento de vogais. Combine com imprimíveis grátis tradicionais para reforço.`,
-        quote: 'Meus alunos adoram completar os vagões do trenzinho!',
-      },
-      {
-        id: '2',
-        icon: '📚',
-        title: 'Professores do 1º e 2º Ano',
-        subtitle: 'Atividades Grátis de Tabuada Visual com Padrões Numéricos',
-        description: `Adapte o conceito de padrões para introduzir tabuada em atividades grátis. Use imagens que representam quantidades. Três maçãs seguidas de duas bananas formam padrões visuais. A criança começa a perceber relações numéricas.
-
-Para tabuada do 2, crie atividade grátis com pares de objetos. Dois carros, dois aviões, dois carros, dois aviões. A repetição visual prepara para multiplicação. Atividade grátis para crianças de tabuada ficam mais concretas.
-
-Professores do 1º ano e 2º ano usam esta estratégia frequentemente. Padrões visuais antecedem cálculos abstratos. A criança desenvolve senso numérico naturalmente. Base sólida para atividade para educação infantil futuras.`,
-        quote: 'A progressão de dificuldade acompanha o desenvolvimento dos alunos.',
-      },
-      {
-        id: '3',
-        icon: '🏠',
-        title: 'Pais Educadores Domiciliares',
-        subtitle: 'Atividade Grátis de Coordenação Motora e Letra Cursiva',
-        description: `Combine o Trenzinho de Padrões com exercícios de coordenação motora em atividades grátis. Depois de completar a sequência, a criança traça letras. Use letra cursiva relacionada ao tema do padrão.
-
-Se o padrão usa animais, pratique letra cursiva de "gato" ou "cão" em atividade grátis para crianças. Se usa frutas, escreva "maçã" ou "uva". Integração natural entre reconhecimento de padrões e coordenação motora fina.
-
-Adicione pontilhado para crianças iniciantes. O contorno do trenzinho em pontilhado desenvolve traço. Letra cursiva e pontilhado trabalham habilidades motoras complementares. Imprimíveis grátis ficam contextualizadas.`,
-        quote: 'Uma ferramenta atende todos os níveis dos meus filhos.',
-      },
-      {
-        id: '4',
-        icon: '🌍',
-        title: 'Professores de Idiomas',
-        subtitle: 'Atividade para Educação Infantil de Vogais e Alfabeto',
-        description: `Foque em atividade grátis de vogais para turmas de pré-escola. Use apenas A, E, I, O, U nos padrões. Crianças memorizam vogais enquanto identificam sequências. Duas habilidades em uma atividades grátis.
-
-Para o 1º ano e 2º ano, expanda para o alfabeto completo em atividade grátis para crianças. Padrões ABC com diferentes letras cada vez. B-C-D-B-C-?. A criança revisa o alfabeto enquanto raciocina. Atividade para crianças e alfabeto se complementam.
-
-Crie cadernos semanais de vogais. Segunda-feira foca na letra A. Terça-feira na letra E. Cada dia uma vogal diferente nos padrões. Imprimíveis grátis estruturadas e progressivas.`,
-        quote: 'O suporte multilíngue é essencial para meu programa bilíngue.',
-      },
-      {
-        id: '5',
-        icon: '💜',
-        title: 'Professores de Educação Especial',
-        subtitle: 'Atividade Grátis com Desenhos para Colorir após Matemática',
-        description: `Use desenhos para colorir como atividade grátis de encerramento. Após completar os padrões, a criança colore o trenzinho. É um momento de relaxamento após esforço cognitivo. Equilíbrio entre atividade grátis para crianças de matemática e arte.
-
-Professores relatam maior engajamento com esta estratégia em atividades grátis. Crianças se esforçam sabendo que podem colorir depois. Desenhos para colorir funcionam como incentivo natural. Motivação intrínseca para completar atividade para educação infantil.
-
-Combine com temas sazonais. Trenzinho de Páscoa com ovos coloridos. Trenzinho de Natal com presentes. Imprimíveis grátis temáticas aumentam interesse. Atividade para crianças ficam mais festivas.`,
-        quote: 'Posso adaptar rapidamente as atividades para cada aluno.',
-      },
-      {
-        id: '6',
-        icon: '💰',
-        title: 'Professores Empreendedores',
-        subtitle: 'Imprimíveis Grátis de Reforço Escolar em Casa',
-        description: `Envie atividade grátis de padrões para prática em casa. Pais apreciam materiais prontos para usar. Atividades grátis para imprimir facilitam o reforço escolar. A criança pratica reconhecimento de padrões com a família.
-
-Inclua instruções simples para os pais em atividade grátis para crianças. Explique como verificar as respostas. Forneça o gabarito separadamente. Comunicação escola-família melhora com atividade para educação infantil estruturadas.
-
-Crie pacotes semanais de 5 imprimíveis grátis. Uma para cada dia útil. Variedade de padrões mantém interesse. Progressão de dificuldade gradual. Atividade para crianças organizadas para rotina familiar.`,
-        quote: 'Minha assinatura se pagou no primeiro mês de vendas!',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // FAQ Section - FULL text from pattern-train.md FAQ sections
@@ -424,68 +229,8 @@ Crie pacotes semanais de 5 imprimíveis grátis. Uma para cada dia útil. Varied
     showLessLabel: 'Mostrar menos',
     secureCheckout: 'Pagamento seguro',
     cancelAnytime: 'Cancele quando quiser',
-    items: [
-      {
-        id: '1',
-        question: 'O Gerador de Atividade Grátis do Trenzinho de Padrões é Gratuito? Quanto Custam as Imprimíveis Grátis?',
-        answer: 'O gerador de atividade grátis de Trenzinho de Padrões requer assinatura Acesso Completo. O custo é R$240 por ano ou R$25 por mês. Sua assinatura permite criação ilimitada de atividades grátis. Não há taxas extras por ficha gerada. O Acesso Completo inclui todos os 33 geradores de atividade grátis para crianças. O Pacote Essencial custa R$144 por ano e inclui 10 geradores populares. Ambas as assinaturas incluem licença comercial e suporte a 11 idiomas. Exportação em 300 DPI qualidade profissional de imprimíveis grátis.',
-      },
-      {
-        id: '2',
-        question: 'Posso Imprimir Atividade Grátis para Crianças do Trenzinho em Casa na Impressora Comum?',
-        answer: 'Sim. Atividade grátis para crianças do trenzinho imprimem perfeitamente em impressoras domésticas. O formato PDF funciona em qualquer impressora. A resolução de 300 DPI garante qualidade mesmo em equipamentos simples. Use papel sulfite comum para uso diário. Escolha papel mais grosso para atividades grátis especiais. A opção de escala de cinza economiza tinta colorida. Imprima quantas cópias precisar para sua turma de atividade para educação infantil.',
-      },
-      {
-        id: '3',
-        question: 'Preciso de Habilidades de Design para Criar Atividades Grátis de Coordenação Motora?',
-        answer: 'Não precisa de nenhuma habilidade de design para atividade grátis. Atividades grátis de coordenação motora são geradas automaticamente. O sistema faz todo o trabalho visual. Você apenas escolhe padrões e imagens. O modo automático é perfeito para iniciantes. Clique em gerar e receba imprimíveis grátis prontas. O modo manual oferece mais controle para atividade grátis para crianças. Arraste e solte elementos como quiser no canvas.',
-      },
-      {
-        id: '4',
-        question: 'Posso Usar Atividade Grátis para Crianças do Trenzinho na Sala de Aula?',
-        answer: 'A assinatura Acesso Completo inclui uso ilimitado de atividade grátis em sala de aula. Imprima atividades grátis para imprimir para todos os alunos. Distribua para quantas turmas precisar. Não há limite de cópias ou distribuição educacional. Use atividade grátis para crianças em escolas públicas ou particulares livremente. Compartilhe com colegas professoras da mesma escola. Inclua em portfólios e reuniões de pais. Todo uso educacional de atividade para educação infantil está coberto pela assinatura.',
-      },
-      {
-        id: '5',
-        question: 'Em Quais Idiomas Estão Disponíveis as Atividades Grátis de Alfabetização com Trenzinho?',
-        answer: 'Atividades grátis de alfabetização estão disponíveis em 11 idiomas completos. Português brasileiro com vocabulário nativo para atividade grátis. Inglês, alemão, francês, espanhol e italiano incluídos. Holandês, sueco, dinamarquês, norueguês e finlandês também. Cada idioma usa nomes de imagens na língua correta para atividade grátis para crianças. Alfabetos especiais funcionam perfeitamente. Ideal para escolas bilíngues e internacionais com imprimíveis grátis. Perfeito para professores de línguas estrangeiras.',
-      },
-      {
-        id: '6',
-        question: 'Posso Vender Atividade Grátis e Imprimíveis Grátis de Matemática Criadas com o Gerador?',
-        answer: 'Sim. A assinatura Acesso Completo inclui licença comercial completa para atividades grátis. Venda atividade grátis de matemática e tabuada sem taxas extras. Publique no Teachers Pay Teachers, Hotmart ou Eduzz. Liste na Amazon KDP para livros de atividade grátis para crianças. Crie apostilas completas para comercialização. Monte pacotes temáticos de imprimíveis grátis para datas comemorativas. Desenvolva coleções por série escolar. Construa renda passiva com produtos digitais educacionais.',
-      },
-      {
-        id: '7',
-        question: 'Como Personalizo Atividade para Educação Infantil com Atividades Grátis de Coordenação Motora?',
-        answer: 'Personalize atividade para educação infantil no canvas interativo. Adicione exercícios de coordenação motora manualmente às atividades grátis. Inclua linhas tracejadas para treino motor. Combine alfabetização com desenvolvimento de habilidades em atividade grátis para crianças. Use as ferramentas de texto para instruções personalizadas. Adicione seu nome ou logo da escola às imprimíveis grátis. Inclua campos de nome e data para alunos. Ajuste cores, fontes e tamanhos livremente.',
-      },
-      {
-        id: '8',
-        question: 'Qual Faixa Etária Funciona Melhor com Atividade Grátis de Vogais e Alfabeto do Trenzinho?',
-        answer: 'Atividade grátis de vogais e alfabeto do trenzinho funcionam para 3 a 8 anos. Crianças de 3-5 anos na educação infantil adoram o formato de atividades grátis. Alunos de 6-7 anos no 1º ano reforçam aprendizados. Estudantes de 7-8 anos no 2º ano praticam revisão. Adapte a complexidade da atividade grátis para crianças para cada idade. Menos elementos e padrões simples para os menores. Mais desafios e padrões complexos para os maiores. O mesmo gerador de imprimíveis grátis atende múltiplas faixas etárias.',
-      },
-      {
-        id: '9',
-        question: 'Posso Fazer Upload de Imagens para Atividades Grátis com Desenhos para Colorir?',
-        answer: 'Sim. Faça upload de imagens próprias para atividade grátis com desenhos para colorir personalizados. Aceita formatos JPEG, PNG e GIF para atividades grátis. Carregue múltiplos arquivos de uma vez. Combine com imagens da biblioteca para atividade grátis para crianças. Use fotos dos alunos para engajamento especial. Inclua mascotes e símbolos da escola em imprimíveis grátis. Adicione imagens de projetos temáticos. Personalize completamente suas atividade para educação infantil.',
-      },
-      {
-        id: '10',
-        question: 'Quanto Tempo Leva para Criar Atividades Grátis de Sequência Lógica Completas?',
-        answer: 'Criar atividades grátis de sequência lógica completas leva menos de 3 minutos. O modo automático gera atividade grátis em segundos. O modo manual permite personalização detalhada. Mesmo com edições, raramente passa de 5 minutos para atividade grátis para crianças. Compare com 30-60 minutos do método tradicional. Economize até 90% do tempo de preparação de imprimíveis grátis. Use o tempo extra para planejar outras atividade para educação infantil. Foque em ensinar, não em criar materiais.',
-      },
-      {
-        id: '11',
-        question: 'Atividades Grátis do Trenzinho Incluem Gabarito com Letra Cursiva e Pontilhado?',
-        answer: 'O trenzinho gera gabarito separado com respostas para atividade grátis. Mostra as associações corretas entre padrões e imagens. Você pode adicionar letra cursiva e pontilhado manualmente no canvas de atividades grátis. Combine exercícios de escrita com o gabarito. Baixe ficha e gabarito de atividade grátis para crianças em arquivos separados. Distribua apenas a ficha para alunos. Guarde o gabarito de imprimíveis grátis para correção. Imprima ambos quando precisar de materiais completos.',
-      },
-      {
-        id: '12',
-        question: 'Posso Criar Atividade Grátis de Matemática e Tabuada com o Trenzinho de Padrões?',
-        answer: 'O Trenzinho de Padrões prepara crianças para conceitos matemáticos com atividades grátis. Padrões visuais desenvolvem raciocínio lógico pré-numérico em atividade grátis para crianças. Use grupos de objetos para introduzir conceitos de tabuada. Para atividade grátis de matemática específicas, use outros geradores da plataforma. O Acesso Completo inclui geradores de matemática dedicados para imprimíveis grátis. Combine diferentes apps para pacotes completos. O trenzinho complementa atividade para educação infantil de matemática tematicamente.',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Pricing - Full Access for Pattern Train
@@ -556,40 +301,8 @@ Crie pacotes semanais de 5 imprimíveis grátis. Uma para cada dia útil. Varied
       securePayment: 'Pagamento seguro',
       cancelAnytime: 'Cancele quando quiser',
     },
-    items: [
-      {
-        id: '1',
-        slug: 'desenhos-colorir-fichas',
-        name: 'Desenhos para Colorir',
-        category: 'Criativo',
-        icon: '🎨',
-        description: 'Combine atividade grátis de padrões com desenhos para colorir temáticos para desenvolvimento de coordenação motora completo.',
-      },
-      {
-        id: '2',
-        slug: 'trem-alfabeto-fichas',
-        name: 'Trenzinho do Alfabeto',
-        category: 'Alfabetização',
-        icon: '🚂',
-        description: 'Expanda o aprendizado de padrões com atividades grátis de alfabetização que usam o mesmo formato de trenzinho.',
-      },
-      {
-        id: '3',
-        slug: 'encontre-conte-fichas',
-        name: 'Encontre e Conte',
-        category: 'Matemática',
-        icon: '🔢',
-        description: 'Adicione conceitos matemáticos às atividade grátis para crianças de padrões com exercícios de contagem visual.',
-      },
-      {
-        id: '4',
-        slug: 'tracando-linhas-fichas',
-        name: 'Traçar Linhas',
-        category: 'Motor',
-        icon: '✏️',
-        description: 'Desenvolva coordenação motora fina com imprimíveis grátis de traçar linhas que complementam o trenzinho de padrões.',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 };
 

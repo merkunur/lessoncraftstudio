@@ -82,29 +82,8 @@ Skriveopgaver kombinerer finmotorik øvelser med bogstavlæring. Hvert arbejdsar
     noPdfLabel: 'Ingen PDF tilgængelig',
     freePdfCountLabel: '3 gratis downloads',
     ofLabel: 'af',
-    items: [
-      {
-        id: '1',
-        worksheetSrc: '/samples/danish/writing/sample-1.jpeg',
-        answerKeySrc: '',
-        altText: 'Skriveopgaver gratis arbejdsark - sporbare bogstaver til børnehaveklasse',
-        pdfDownloadUrl: '/samples/danish/writing/sample-1.pdf',
-      },
-      {
-        id: '2',
-        worksheetSrc: '/samples/danish/writing/sample-2.jpeg',
-        answerKeySrc: '',
-        altText: 'Skriveopgaver gratis arbejdsark til børn - skrifttræning til 0. klasse',
-        pdfDownloadUrl: '/samples/danish/writing/sample-2.pdf',
-      },
-      {
-        id: '3',
-        worksheetSrc: '/samples/danish/writing/sample-3.jpeg',
-        answerKeySrc: '',
-        altText: 'Skriveopgaver arbejdsark til børnehaveklasse - lære bogstaver finmotorik øvelser',
-        pdfDownloadUrl: '/samples/danish/writing/sample-3.pdf',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Features Grid - FULL text from writing.md feature sections
@@ -120,71 +99,8 @@ Skriveopgaver kombinerer finmotorik øvelser med bogstavlæring. Hvert arbejdsar
       noHiddenFees: 'Ingen skjulte gebyrer',
       cancelAnytime: 'Opsig når som helst',
     },
-    items: [
-      {
-        id: '1',
-        icon: '⚡',
-        title: 'Lav Gratis Arbejdsark på 3 Klik - Hurtig Skriveopgaver Generator til Børn',
-        description: `Opret et komplet skriveopgaver arbejdsark på under 3 minutter. Vælg din skrifttype blandt fem muligheder inklusiv trykbogstaver, prikket sporskrift og skriveskrift. Vælg rækketypen mellem fuld sporing, gradvist falmende spor eller guidet kopiering hvor første bogstav er fuldt synligt og resten falmet. Tilføj tilpasset tekst, enkeltbogstaver eller lad rækkerne være tomme for fri øvelse. Hver række kan konfigureres uafhængigt for at skabe progressiv læringsoplevelse.
-
-Børn i børnehaveklassen og 0. klasse har brug for struktureret bogstavtræning der udvikler korrekt pennegreb og bogstavformation. Vores værktøj lader dig oprette opgaver til print med retningspile der viser korrekt skriveretning. Kombiner alfabetet øvelser med finmotorik udvikling. Tilføj billeder der gør skriveopgaverne visuelt engagerende. Personalisér med elevens navn eller interesser for øget motivation.`,
-        highlighted: false,
-      },
-      {
-        id: '2',
-        icon: '✏️',
-        title: 'Rediger Gratis Arbejdsark Fuldstændigt - Arbejdsark til Børnehaveklasse',
-        description: `Hvert element på dit skriveopgaver arbejdsark er fuldstændig redigerbart. Træk, rotér, skalér eller slet ethvert billede eller tekstelement. Tilføj titler, instruktioner og navnefelter hvor som helst på siden. Justér størrelsen af skriverækkerne til forskellige finmotorik niveauer. Større rækkespacing for begyndere i børnehaveklassen, tættere spacing for avancerede 1. klasse elever.
-
-Kombiner skrifttræning med andre læringsområder på samme arbejdsark. Tilføj matematikopgaver til bunden for talskrivning øvelse. Inkluder malebog elementer for kreativ pause mellem skriveøvelser. Opret multifunktionelle gratis skoleopgaver der dækker flere læringsstandarder på én opgave til print. Denne fleksibilitet sparer forberedelsestid og giver elever varieret øvelse.`,
-        highlighted: false,
-      },
-      {
-        id: '3',
-        icon: '📤',
-        title: 'Upload Egne Billeder til Gratis Arbejdsark - Tilpas Skriveopgaver',
-        description: `Upload dine egne fotos og billeder til skriveopgaver arbejdsarkene. Brug billeder af klasseværelsets genstande til relevant ordforråd øvelse. Upload studentfotos for navneskrivning aktiviteter. Tilføj billeder af dyrepark besøg, skoleudflugt eller klasseværelsets kæledyr for motiverende skriveopgaver.
-
-Kombinér uploadede billeder med billedbiblioteket for komplet tilpasning. Upload bogstavkort der matcher dit læse og skrive program. Tilføj billeder fra vores billedbibliotek for ekstra visuel støtte. Opret tematiske gratis skoleopgaver der forbinder skrifttræning med videnskab, samfundsfag eller andre fagområder. Personalisering øger elevmotivation markant især for 0. klasse og 1. klasse elever der udvikler grundlæggende lære bogstaver færdigheder.`,
-        highlighted: false,
-      },
-      {
-        id: '4',
-        icon: '🌍',
-        title: '11 Sprog til Gratis Arbejdsark - Dansk Skriveopgaver Arbejdsark til Børn',
-        description: `Værktøjet understøtter 11 sprog i både brugergrænseflade og indhold. Opret skriveopgaver på dansk, engelsk, tysk, fransk, spansk, italiensk, portugisisk, hollandsk, svensk, norsk og finsk. Perfekt til tosprogede klasseværelser, modersmålsundervisning og internationale skoler. Skift sprog med ét klik. Alle instruktioner og UI elementer oversættes automatisk.
-
-Flersproget support er uvurderlig for moderne danske klasseværelser. Opret alfabetet øvelser der sammenligner danske og engelske bogstaver. Lav arbejdsark til arabisktalende eller somalisktalende elever der lærer danske bogstaver. Støt tosprogede børn i børnehaveklassen med parallelle opgaver til print på modersmål og dansk. Denne funktion gør værktøjet væsentligt mere værdifuldt end ensproget skriveopgaver software.`,
-        highlighted: false,
-      },
-      {
-        id: '5',
-        icon: '💰',
-        title: 'Kommerciel Licens til Gratis Arbejdsark - Sælg Arbejdsark til Børn',
-        description: `Fuld Adgang abonnementet inkluderer fuld kommerciel print-on-demand licens uden ekstra omkostninger. Sælg dine skriveopgaver på Teachers Pay Teachers, Etsy eller Amazon KDP. Ingen tilskrivning påkrævet. Alle arbejdsark du opretter kan sælges kommercielt. Perfekt for lærerentreprenører der bygger passiv indkomst gennem opgaver til print salg.
-
-Mange lærere tjener 500-5000 DKK månedligt ved at sælge specialiserede skriveopgaver bundter. Opret tematiske alfabetet pakker, ferielære bogstaver sæt eller finmotorik progression serier. Kombinér skrifttræning med matematikopgaver, malebog sider og læse og skrive aktiviteter for komplet læringspakker. 300 DPI professionel kvalitet sikrer dine gratis skoleopgaver designs ser skarpe ud i trykt form. Byg et Teachers Pay Teachers varemærke omkring kvalitetsopgaver til print.`,
-        highlighted: true,
-      },
-      {
-        id: '6',
-        icon: '🎨',
-        title: '3000+ Billeder til Gratis Arbejdsark - Arbejdsark til Børnehaveklasse',
-        description: `Få adgang til over 3000 børnevenlige billeder organiseret efter temaer. Vælg et komplet tema for visuelt sammenhængende skriveopgaver. Gennemse individuelle billeder for præcis tilpasning. Søg efter specifikke emner relevante for dit læse og skrive curriculum. Alle billeder er inkluderet i dit abonnement uden ekstra billedgebyrer.
-
-Billedbiblioteket inkluderer alfabetet illustrationer, dyr, planter, køretøjer, mad, årstider og meget mere. Perfekt til at oprette sammenhængende skriveopgaver der forbinder bogstavlæring med ordforråd opbygning. Brug malebog stil lineart for kombination skriv-og-farvelæg opgaver til print. Tilføj temabaserede baggrunde og rammer der matcher dine 0. klasse eller 1. klasse enheders emner. Gratis skoleopgaver ser professionelle ud og engagerende for unge elever.`,
-        highlighted: false,
-      },
-      {
-        id: '7',
-        icon: '🖨️',
-        title: '300 DPI Kvalitet til Gratis Arbejdsark - Professionelle Arbejdsark til Børn',
-        description: `Alle skriveopgaver arbejdsark eksporteres i høj opløsning 300 DPI kvalitet. Download som PDF eller JPEG filer. Vælg gråtoneoption for blækbesparende print. Skarp, klar tekst og grafik ser perfekt ud på standard kontorprintere. Professionel kvalitet matcher kommercielt publicerede opgaver til print.
-
-300 DPI opløsning sikrer at selv små bogstaver og retningspile printer tydeligt. Kritisk for børnehaveklasse og 0. klasse elever der lærer korrekt bogstavformation. Sporlinjer og prikket tekst forbliver skarpe gennem print processen. Kombiner skrifttræning med matematikopgaver, alfabetet diagrammer eller malebog sider i samme høje kvalitet dokument. Dine gratis skoleopgaver matcher eller overgår forlagspubliceret materialer i print kvalitet.`,
-        highlighted: true,
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // How-To Guide - FULL text from writing.md step sections
@@ -256,80 +172,8 @@ Vælg gråtoneoption før download for blækbesparende print. Især nyttig når 
     badgeText: 'Hvem Er Det Til',
     readMoreLabel: 'Læs mere',
     showLessLabel: 'Vis mindre',
-    items: [
-      {
-        id: '1',
-        icon: '👶',
-        title: 'Pædagoger i Børnehaveklassen og 0. Klasse',
-        subtitle: 'Gratis Arbejdsark og Finmotorik Øvelser til Børnehaveklasse',
-        description: `Børnehaveklasse pædagoger har brug for forskellige skriveopgaver der udvikler pre-skrive færdigheder før formel bogstavtræning. Opret arbejdsark med tomme rækker indeholdende lodrette linjer, vandrette linjer, cirkler og zigzag linjer til grundlæggende finmotorik øvelser. Disse fundamentale stregtyper bygger hånd-øje koordination og pennekontrol essentiel til senere bogstavformation. Progression fra simple lodrette linjer til komplekse zigzag mønstre udvikler muskelhukommelse.
-
-Introduktion af alfabetet bogstaver kræver multi-sensorisk tilgang. Kombiner store sporbare bogstaver med relaterede billeder. Et billede af en abe ved siden af stort "A" skaber visuel association. Brug prikket skrift med retningspile der viser korrekt pennestrøg rækkefølge og retning. Børn i børnehaveklassen drager fordel af overdimensionerede bogstaver med bred spacing der imødekommer udviklingsmæssige finmotorik begrænsninger.
-
-Tematiske gratis skoleopgaver øger engagement for denne aldersgruppe. Opret årstidstematiske arbejdsark der kombinerer bogstavøvelse med sæsonbevidsthed. Efterårsblade baggrund til øvelse af "E" bogstavet. Vintermand tema til "V" introduktion. Kombiner lære bogstaver med malebog sektioner hvor børn farvelægger billeder efter at have færdiggjort skriveøvelsen.`,
-        quote: 'Mine elever elsker de farverige bogstavøvelser!',
-      },
-      {
-        id: '2',
-        icon: '📚',
-        title: 'Lærere i 1. Klasse',
-        subtitle: 'Gratis Arbejdsark og Læse Skrive til Børn',
-        description: `0. klasse lærere står overfor opgaven at flytte elever fra pre-skrive aktiviteter til formel bogstavformation og ordskrivning. Opret progression arbejdsark der starter med fuld bogstav sporing, bevæger sig til falmende spor, og kulminerer i selvstændig kopiering. Denne graduelle frigivelsesmodel bygger tillid samtidig med at den udvikler uafhængighed. Differentiér nemt ved at oprette flere versioner af samme arbejdsark med forskellige sværhedsgrader.
-
-1. klasse curriculum kræver øget fokus på ordskrivning, sætningskonstruktion og læsbar håndskrift. Brug tilpasset tekst funktion til at oprette stavning ord lister, høj frekvens ord øvelse og tematiske ordforråd arbejdsark. Integrér skrifttræning med læse og skrive instruktion ved at matche skriveopgaver med nuværende læseenheder. Elever der lærer om dyr kan øve på dyrenavn i skriveskrift stil forberedelse.
-
-Kombiner skriveopgaver med matematikopgaver til effektiv tværfaglig instruktion. Opret talskrivning arbejdsark der bruger samme sporformat som bogstavskrivning. Tilføj simple addition eller subtraktion opgaver under skriværækkerne. Elever øver bogstaver og tal i samme session. Denne integration maksimerer instruktionsmæssig tid og hjælper elever med at se forbindelser mellem fagområder.`,
-        quote: 'Differentiering er blevet så meget nemmere med denne generator.',
-      },
-      {
-        id: '3',
-        icon: '🏠',
-        title: 'Hjemmeskoleforældre',
-        subtitle: 'Gratis Arbejdsark til Børn i Hjemmeskolen',
-        description: `Hjemmeundervisende forældre sætter pris på værktøjets tilpasningsmuligheder til at matche individuelle børns interesser og læringshastigheder. Opret personaliserede lære bogstaver arbejdsark med familiefotos, kæledyr eller yndlingssteder. Et barn der elsker dinosaurer vil engagere mere med dinosaur-tematiske skriveopgaver end generiske arbejdsark. Upload fotos fra familieture og opret rejsedagbog skriveøvelser.
-
-Hjemmeundervisning tillader fleksibel hastighed gennem læse og skrive curriculum. Opret fremskridtsprogression arbejdsark der dokumenterer vækst over tid. Måned 1 arbejdsark med store skrivetræning bogstaver. Måned 6 arbejdsark med mindre bogstaver og tættere spacing. Sammenlign tidlige og senere prøver for håndgribelig demonstration af forbedring. Denne visuelle fremskridtsjournal booster barnets tillid og motiverer fortsat indsats.
-
-Flerfagsfamilier drager fordel af multi-niveau arbejdsark funktion. Opret differenterede versioner af samme tema til søskende på forskellige klassetrin. Ældre søskende får mere udfordrende alfabetet arbejdsark med kompleks ordforråd. Yngre søskende får forenklede versioner med store bogstaver og mere sporing support.`,
-        quote: 'Et værktøj dækker alle mine børns klassetrin.',
-      },
-      {
-        id: '4',
-        icon: '🌐',
-        title: 'Sproglærere',
-        subtitle: 'Gratis Arbejdsark med Læse og Skrive Fokus',
-        description: `Dansk som andetsprog undervisere har brug for materialer der støtter arabisktalende, somalisktalende eller andre flersprogede elever der lærer danske bogstaver. Opret parallelle arbejdsark i elevens modersmål og dansk. Side om side sammenligning hjælper elever med at se bogstavforskelle og ligheder. Værktøjets 11 sprogsupport muliggør autentisk tosprogede opgaver til print som ville være dyre at købe kommercielt.
-
-Internationale skoler undervisende på engelsk, tysk eller andre sprog drager fordel af samme flersproget funktionalitet. Skift sprog med ét klik. Opret arbejdsark der matcher din instruktionssprog. Alle UI elementer og instruktioner oversættes automatisk. Denne funktion sparer enorm tid sammenlignet med at oprette fra bunden på hvert sprog eller betale for oversættelser.
-
-Kombiner sprogindlæring med kulturel bevidsthed ved at bruge temabaserede billeder fra forskellige kulturer. Opret alfabetet arbejdsark med mad fra forskellige lande. Lær bogstaver gennem multikulturel linser. Inkluder malebog stil lineart der tillader elever at farvelægge mens de lærer sprog og kultur samtidigt.`,
-        quote: 'Den flersprogede support er essentiel for mine elever.',
-      },
-      {
-        id: '5',
-        icon: '♿',
-        title: 'Specialpædagoger',
-        subtitle: 'Tilpassede Gratis Arbejdsark til Børn med Særlige Behov',
-        description: `Elever med specielle behov kræver ofte stærkt differenterede skriveopgaver tilpasset specifikke sensoriske, motoriske eller kognitive profiler. Opret ekstra store bogstaver med bred spacing til elever med finmotorik forsinkelser. Brug kraftig prikket skrift med overdimensionerede retningspile til visuel klarhed. Justér baggrundsfarver for reduceret visuel stimulation eller øget kontrast baseret på individuelle behov.
-
-Elever med autisme drager ofte fordel af interessebaserede arbejdsark. Upload billeder af elevens særlige interesser. Et tog-entusiastisk barn vil engagere bedre med togtemafotografier indlejret i lære bogstaver aktiviteter. Personalisering øger motivation dramatisk for elever der kæmper med konventionelle opgaver til print. Forudsigelig arbejdsark struktur giver komfort for elever der foretrækker rutine.
-
-Beskæftigelsesterapi integration er enkel. Samarbejd med OT specialist om at oprette progressive finmotorik øvelser sekvenser. Start med brede vandrette linjer. Graduér til smallere linjer over måneder. Tilføj kompleksitet med kurver, cirkler og til sidst bogstaver. Dokumentér fremskridt med daterede arbejdsark prøver.`,
-        quote: 'Jeg kan hurtigt tilpasse arbejdsark til hver elevs behov.',
-      },
-      {
-        id: '6',
-        icon: '💼',
-        title: 'Pædagog-Iværksættere',
-        subtitle: 'Sælg Gratis Arbejdsark - Arbejdsark til Børnehaveklasse',
-        description: `Tusinder af lærere bygger passive indkomststrømme ved at sælge arbejdsark på Teachers Pay Teachers, Etsy og egne hjemmesider. Opret tematiske skriveopgaver bundles omkring feriesæsoner, populære børnebøger eller curriculum standarder. Kombiner lære bogstaver arbejdsark med tilsvarende matematikopgaver, malebog sider og læse og skrive aktiviteter for komplet læringspakker der sælges til premium priser.
-
-Fuld Adgang abonnementet inkluderer kommerciel print-on-demand licens uden ekstra gebyrer. Ingen royalties. Ingen tilskrivning påkrævet. Sælg ubegrænset kopier af hvert design du opretter. 300 DPI professionel kvalitet sikrer dine opgaver til print ser forlagskvalitet ud. Konkurrér med etablerede forlag ved brøkdelen af udviklingsomkostninger.
-
-Byg niche mærker omkring specifikke emner eller pædagogiske tilgange. Specialisér i Montessori-inspireret finmotorik øvelser. Fokusér på tosprogede alfabetet ressourcer. Opret inklusive specialuddannelsesvenlige materialer. Niche ekspertise tiltrækkelig dedikerede kunde baser villige til at betale premium priser.`,
-        quote: 'Mit abonnement betalte sig selv i første måned!',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // FAQ Section - Selected FAQs from writing.md
@@ -343,68 +187,8 @@ Byg niche mærker omkring specifikke emner eller pædagogiske tilgange. Speciali
     showLessLabel: 'Vis mindre',
     secureCheckout: 'Sikker betaling',
     cancelAnytime: 'Opsig når som helst',
-    items: [
-      {
-        id: '1',
-        question: 'Er Denne Skriveopgaver Generator Gratis? - Gratis Arbejdsark til Børn',
-        answer: 'Skriveopgave-generatoren kræver Fuld Adgang abonnement der koster 240 USD årligt eller 25 USD månedligt. Dit abonnement giver dig ubegrænset skriveopgaver oprettelse uden per-arbejdsark gebyrer. Generer så mange lære bogstaver arbejdsark, matematikopgaver, alfabetet aktiviteter og malebog kombinationer som du har brug for uden ekstra omkostninger. Opret hundredvis af gratis skoleopgaver til print månedligt for én fast abonnementspris. Core Bundle inkluderer 10 populære arbejdsark generatorer og koster 144 USD årligt.',
-      },
-      {
-        id: '2',
-        question: 'Kan Jeg Printe Gratis Arbejdsark Hjemme på En Almindelig Printer?',
-        answer: 'Ja. Alle skriveopgaver arbejdsark eksporteres som standard PDF eller JPEG filer optimeret til almindelige kontorprintere. 300 DPI opløsning sikrer sporlinjer, retningspile og bogstaver printer skarpt på standard inkjet eller laserprintere. Kombiner lære bogstaver øvelser med matematikopgaver, alfabetet diagrammer eller malebog elementer i samme print job. Vælg gråtoneoption for blækbesparende print af daglige finmotorik øvelser arbejdsark.',
-      },
-      {
-        id: '3',
-        question: 'Skal Jeg Have Designfærdigheder til Gratis Arbejdsark til Børnehaveklasse?',
-        answer: 'Ingen designerfærdigheder påkrævet. Værktøjet guider dig gennem hver trin med klare instruktioner. Vælg skrifttype fra dropdown menu. Konfigurér rækketyper med simple valg. Klik Generér og dit skriveopgaver arbejdsark vises øjeblikkeligt. Kombiner alfabetet træning med matematikopgaver eller malebog elementer ved at bruge træk-og-slip billeder. Ingen grafisk design erfaring nødvendig for at oprette professionelle gratis skoleopgaver til 0. klasse og 1. klasse elever.',
-      },
-      {
-        id: '4',
-        question: 'Kan Jeg Bruge Gratis Arbejdsark til Børn i Mit Klasseværelse?',
-        answer: 'Fuld Adgang abonnement inkluderer ubegrænset klasseværelsesbrug. Print så mange kopier af hvert lære bogstaver arbejdsark som du har brug for til alle dine elever. Del gratis skoleopgaver digitalt via Google Classroom eller Seesaw. Projicér skriveopgaver på smartboard til fælles instruktion. Brug som lektier, morgenarbejde, centres aktiviteter eller exitbilletter. Ingen per-elev licensgebyrer eller kopierbegrænsninger.',
-      },
-      {
-        id: '5',
-        question: 'Hvilke Sprog er Tilgængelige til Gratis Arbejdsark?',
-        answer: 'Værktøjet understøtter 11 sprog fuldt: Dansk, engelsk, tysk, fransk, spansk, italiensk, portugisisk, hollandsk, svensk, norsk og finsk. Skift brugergrænseflade sprog med ét klik. Opret skriveopgaver på ethvert af disse sprog for lære bogstaver instruktion. Alle UI elementer, instruktioner og tooltips oversættes automatisk. Perfekt til tosprogede klasseværelser, internationale skoler og modersmålsundervisning programmer.',
-      },
-      {
-        id: '6',
-        question: 'Kan Jeg Sælge Gratis Arbejdsark til Børn Jeg Laver?',
-        answer: 'Ja. Fuld Adgang abonnement inkluderer fuld kommerciel print-on-demand licens uden ekstra gebyrer. Sælg ubegrænsede kopier af enhver skriveopgaver, matematikopgaver, alfabetet aktiviteter eller malebog arbejdsark du opretter. Ingen royalties. Ingen tilskrivning påkrævet. Upload til Teachers Pay Teachers, Etsy eller din egen hjemmeside. Byg passive indkomststrømme ved at sælge specialiserede gratis skoleopgaver bundles til børnehaveklasse, 0. klasse og 1. klasse lærere.',
-      },
-      {
-        id: '7',
-        question: 'Hvordan Tilpasser Jeg Gratis Arbejdsark til Børnehaveklasse?',
-        answer: 'Tilpasning sker på flere niveauer. Vælg mellem fem skrifttyper inklusive trykbogstaver, prikket sporing og skriveskrift. Konfigurér hver række individuelt med tre rækketyper: fuld sporing, falmende spor eller guidet kopiering. Vælg indhold type: tomme linjer til fri øvelse, enkelt bogstav gentagelse til alfabetet introduktion eller tilpasset tekst til specifikke lære bogstaver ord. Kombiner forskellige konfigurationer på samme arbejdsark for progressiv læring.',
-      },
-      {
-        id: '8',
-        question: 'Hvilke Aldersgrupper Passer Gratis Arbejdsark til Børn?',
-        answer: 'Skriveopgaver generator fungerer primært til aldre 4-8 år dækkende børnehaveklasse, 0. klasse og 1. klasse. Yngre børn (4-5 år) drager fordel af tomme rækker med grundlæggende stregtyper til pre-skrive finmotorik udvikling. Lodrette linjer, vandrette linjer og cirkler bygger pennekontrol før bogstavintroduktion. Kombiner med malebog aktiviteter til varieret håndstyrke øvelse.',
-      },
-      {
-        id: '9',
-        question: 'Kan Jeg Uploade Egne Billeder til Gratis Arbejdsark?',
-        answer: 'Ja. Multi-fil upload understøtter JPEG, PNG og GIF formater. Upload klasseværelsets fotos, elevbilleder, familiefotos eller enhver grafik du ejer. Kombiner uploadede billeder med 3000+ billedbibliotek for maksimal tilpasning. Upload bogstavkort der matcher dit lære bogstaver program. Tilføj fotos fra skoleudflugt til kontekstrig ordforråds skriveøvelse. Inkluder elevens kæledyr til motiverende personaliseret gratis skoleopgaver.',
-      },
-      {
-        id: '10',
-        question: 'Hvor Lang Tid Tager Det At Lave Gratis Arbejdsark til Børn?',
-        answer: 'Opret et komplet skriveopgaver arbejdsark på under 3 minutter. Vælg skrifttype (30 sekunder). Konfigurér tre til fem rækker (90 sekunder). Tilføj baggrund og ramme (20 sekunder). Klik Generér (øjeblikkeligt). Download PDF (10 sekunder). Total tid under 3 minutter for grundlæggende lære bogstaver arbejdsark. Kombiner med matematikopgaver, alfabetet diagrammer eller malebog elementer tilføjer 1-2 minutter ekstra.',
-      },
-      {
-        id: '11',
-        question: 'Inkluderer Gratis Arbejdsark Sporingsguider?',
-        answer: 'Skriveopgaver inkluderer visuelle sporingsguider direkte på arbejdsarket. Prikket skrift viser præcis hvor pennen skal gå. Retningspile indikerer korrekt pennestrøg rækkefølge og retning. Fuld sporing rækker viser komplet bogstav i sporbar form. Falmende spor rækker giver progressiv support. Guidet kopiering rækker viser modeleksempel med plads til uafhængig øvelse. Disse indbyggede guides eliminerer behovet for separate svarark.',
-      },
-      {
-        id: '12',
-        question: 'Kan Jeg Lave Gratis Arbejdsark Om Specifikke Skolefag?',
-        answer: 'Ja. Tilpasset tekst funktion lader dig indtaste ethvert indhold relevant til nuværende undervisningsenheder. Undervis om havet? Opret alfabetet arbejdsark med havdyr ordforråd. Lærer om årstider? Kombiner efterårs bogstavøvelse med efterårsblade malebog elementer. Integrér skrifttræning med videnskab, samfundsfag eller sundhed curriculum ved at matche ordforråd til emner. Matematikopgaver integration er indbygget med talskrivning arbejdsark.',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Pricing
@@ -474,56 +258,8 @@ Byg niche mærker omkring specifikke emner eller pædagogiske tilgange. Speciali
       securePayment: 'Sikker betaling',
       cancelAnytime: 'Opsig når som helst',
     },
-    items: [
-      {
-        id: '1',
-        slug: 'coloring',
-        name: 'Malebog',
-        category: 'Kreativ',
-        icon: '🎨',
-        description: 'Kombinér skriveopgaver med malebog aktiviteter for varieret finmotorik træning.',
-      },
-      {
-        id: '2',
-        slug: 'alphabet-train',
-        name: 'Alfabettog',
-        category: 'Sprog',
-        icon: '🚂',
-        description: 'Styrk bogstavgenkendelse ved at kombinere skrifttræning med alfabettog øvelser.',
-      },
-      {
-        id: '3',
-        slug: 'drawing-lines',
-        name: 'Linjetræning',
-        category: 'Visuel Læring',
-        icon: '✏️',
-        description: 'Udvikl finmotorik færdigheder med linjetræning som forberedelse til bogstavskrivning.',
-      },
-      {
-        id: '4',
-        slug: 'word-search',
-        name: 'Ordletar',
-        category: 'Sprog',
-        icon: '🔍',
-        description: 'Kombinér skriveopgaver med ordletaraktiviteter for komplet bogstav- og ordlæring.',
-      },
-      {
-        id: '5',
-        slug: 'matching',
-        name: 'Matching',
-        category: 'Visuel Læring',
-        icon: '🔗',
-        description: 'Styrk bogstavgenkendelse ved at kombinere skrifttræning med matchingøvelser.',
-      },
-      {
-        id: '6',
-        slug: 'image-addition',
-        name: 'Addition',
-        category: 'Matematik',
-        icon: '➕',
-        description: 'Kombinér bogstavskrivning med talskrivning øvelser for tværfaglig læring.',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 };
 

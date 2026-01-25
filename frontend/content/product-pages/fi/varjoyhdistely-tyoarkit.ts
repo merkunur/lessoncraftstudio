@@ -62,29 +62,8 @@ Varjoyhdistelygeneraattorimme tarjoaa kaksi harjoitustyyppiä: perinteisen varjo
     badgeText: 'Ilmaiset Esimerkit',
     downloadingLabel: 'Ladataan...',
     ofLabel: '/',
-    items: [
-      {
-        id: '1',
-        worksheetSrc: '/samples/finnish/shadow match/sample-1.jpeg',
-        answerKeySrc: '/samples/finnish/shadow match/sample-1-answer.jpeg',
-        altText: 'Varjoyhdistely tehtävä perinteisellä varjoyhdistely-tilalla esiopetukseen',
-        pdfDownloadUrl: '/samples/finnish/shadow match/sample-1.pdf',
-      },
-      {
-        id: '2',
-        worksheetSrc: '/samples/finnish/shadow match/sample-2.jpeg',
-        answerKeySrc: '/samples/finnish/shadow match/sample-2-answer.jpeg',
-        altText: 'Varjoyhdistely tehtävä vaakasuoralla Tee Kokonaiseksi -tilalla',
-        pdfDownloadUrl: '/samples/finnish/shadow match/sample-2.pdf',
-      },
-      {
-        id: '3',
-        worksheetSrc: '/samples/finnish/shadow match/sample-3.jpeg',
-        answerKeySrc: '/samples/finnish/shadow match/sample-3-answer.jpeg',
-        altText: 'Varjoyhdistely tehtävä pystysuoralla Tee Kokonaiseksi -tilalla',
-        pdfDownloadUrl: '/samples/finnish/shadow match/sample-3.pdf',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Features Grid - FULL text from Finnish varjoyhdistely.md feature sections
@@ -100,85 +79,8 @@ Varjoyhdistelygeneraattorimme tarjoaa kaksi harjoitustyyppiä: perinteisen varjo
       noHiddenFees: 'Ei piilomaksuja',
       cancelAnytime: 'Peruuta milloin tahansa',
     },
-    items: [
-      {
-        id: '1',
-        icon: '⚡',
-        title: 'Luo Tulostettavat Tehtävät Lapsille Ilmainen Kolmella Klikkauksella',
-        description: `Valitse neljä kuvaa kirjastostamme tai lataa omia kuvia. Valitse harjoitusmuoto: perinteinen varjoyhdistely tai "Tee Kokonaiseksi" -tila. Klikkaa Luo ja varjoyhdistelyn tehtäväsi on valmis. Koko prosessi vie alle kolme minuuttia alusta valmiiseen tulostettavat tehtävät lapsille ilmainen -materiaaliin.
-
-Generaattori luo automaattisesti vasemman sarakkeen värillisillä kuvilla ja oikean sarakkeen vastaavilla varjoilla tai jaettuilla kuvapaloilla. Oppilaat yhdistävät pareja piirtämällä viivoja tai kirjoittamalla numeroita. Jokainen matematiikka tehtävät alakoulu yhdistyy luonnollisesti värityskuvia lapsille tulostettava ja hienomotoriikka harjoitukset -teemoihin.
-
-Ei tarvitse taitoja tai koulutusta. Jos osaat klikata hiirtä, osaat luoda ammattitasoisia esiopetus materiaali ilmainen ja kirjaimet harjoittelu esikoulu -tehtäviä. Generaattorimme tekee kaiken vaikean työn puolestasi, joten voit keskittyä opettamiseen.`,
-        highlighted: false,
-      },
-      {
-        id: '2',
-        icon: '✏️',
-        title: 'Muokkaa Kaikkea Varjoyhdistelyn Tehtävässä - Täysi Mukauttaminen',
-        description: `Jokainen elementti piirtoalustalla on muokattavissa. Vedä, kierrä, skaalaa tai poista mitä tahansa kuvaa, tekstiä tai reunusta. Tämä täysi muokattavuus tekee jokaisesta tulostettavat tehtävät lapsille ilmainen -materiaalista ainutlaatuisen.
-
-Muuta kuvan kokoa suuremmaksi esiopetuksen lapsille tai pienemmäksi alakoululaisille. Siirrä elementtejä luodaksesi paremman asettelun kertotaulut tulostettava ja yhteenlasku ja vähennyslasku tehtävät -harjoituksia varten. Lisää tekstielementtejä ohjeiden tai lauseiden antamiseen. Säädä värejä varjoyhdistelyn tehtävän vaikeustason muuttamiseksi.
-
-Kumoa ja tee uudelleen -painikkeet tallentavat jokaisen muutoksen. Voit kokeilla erilaisia asetteluja ja palata takaisin, jos jokin ei toimi. Tämä joustava muokkausjärjestelmä toimii täydellisesti värityskuvia lapsille tulostettava, pisteestä pisteeseen tehtävät ja lukemaan oppiminen tehtävät -luomiseen.`,
-        highlighted: false,
-      },
-      {
-        id: '3',
-        icon: '📤',
-        title: 'Lataa Omia Kuvia Henkilökohtaisiin Esiopetus Materiaali Ilmainen Tehtäviin',
-        description: `Usean tiedoston lataus tukee JPEG, PNG ja GIF -muotoja. Yhdistä kirjastomme kuvia omiin kuviisi luodaksesi täysin mukautettuja tulostettavat tehtävät lapsille ilmainen -materiaaleja. Tämä ominaisuus tekee varjoyhdistelygeneraattorista täydellisen luokkahuonekohtaisiin teemoihin.
-
-Lataa oppilaittesi valokuvia, luokkahuoneen esineitä tai aihealuekohtaisia kuvia. Käytä perheen kuvia kotikouluun tai lemmikkien kuvia eläinteemaisiin matematiikka tehtävät alakoulu -harjoituksiin. Yhdistä omat kuvasi meidän kuvakiemme kanssa luodaksesi sekoitettuja harjoituksia.
-
-Ladatut kuvat näkyvät istuntokohtaisessa kirjastossa. Klikkaa niitä lisätäksesi varjoyhdistelyn tehtävään aivan kuten minkä tahansa kirjastokuvan. Tämä ominaisuus toimii loistavasti värityskuvia lapsille tulostettava, hienomotoriikka harjoitukset ja kirjaimet harjoittelu esikoulu -personointiin.`,
-        highlighted: false,
-      },
-      {
-        id: '4',
-        icon: '🌍',
-        title: 'Varjoyhdistelyn Tehtävät 11 Kielellä - Monikielinen Tuki',
-        description: `Täysi käyttöliittymätuki 11 kielellä: suomi, englanti, saksa, ranska, espanja, portugali, italia, hollanti, ruotsi, tanska ja norja. Vaihda kieli yhdellä klikkauksella luodaksesi tulostettavat tehtävät lapsille ilmainen -materiaaleja mille tahansa luokkahuoneelle.
-
-Tämä monikielinen tuki on korvaamaton kaksikieliselle opetukselle, kielikouluille ja monikansallisille kouluille. Luo pisteestä pisteeseen tehtävät suomeksi aamulla ja englanniksi iltapäivällä. Käytä samaa työkalua esiopetus materiaali ilmainen -luomiseen kaikilla tukemillamme kielillä.
-
-Kaikki painikkeet, työkaluvihjeet ja käyttöliittymätekstit käännetään automaattisesti valitsemaasi kieleen. Luo matematiikka tehtävät alakoulu, kertotaulut tulostettava ja yhteenlasku ja vähennyslasku tehtävät millä tahansa kielellä ilman erillisiä generaattoreita. Yksi työkalu, yksi tilaus, 11 kieltä.`,
-        highlighted: false,
-      },
-      {
-        id: '5',
-        icon: '💰',
-        title: 'Kaupallinen Lisenssi Tulostettavat Tehtävät Lapsille Ilmainen Myymiseen',
-        description: `Täysi Pääsy -tilaus sisältää täyden kaupallisen print-on-demand -lisenssin ilman lisäkustannuksia. Myy varjoyhdistelyn tehtäviä Teachers Pay Teachers -palvelussa, Etsyssä ja Amazon KDP:ssä. Ei attribuutiovaatimusta. Ei lisämaksuja lisensointiin.
-
-Luo paketteja esiopetus materiaali ilmainen, matematiikka tehtävät alakoulu ja hienomotoriikka harjoitukset -myyntiä varten. Monet opettajat ansaitsevat 500-5000 dollaria kuukaudessa myymällä mukautettuja tehtäviä. 300 DPI -laatu varmistaa, että kirjaimet harjoittelu esikoulu, kertotaulut tulostettava ja yhteenlasku ja vähennyslasku tehtävät näyttävät ammattimaisilta.
-
-Kilpailijat veloittavat 79-199 dollaria vuodessa erillisestä kaupallisesta lisenssistä. Täysi Pääsy sisältää sen 240 euron vuosimaksussa. Säästät rahaa ja aloitat myymisen välittömästi. Kaupallinen lisenssi kattaa kaikki 33 tehtävägeneraattoriamme, joten voit myydä pisteestä pisteeseen tehtävät ja lukemaan oppiminen tehtävät -materiaaleja ilman huolia.`,
-        highlighted: true,
-      },
-      {
-        id: '6',
-        icon: '🎨',
-        title: '3000+ Kuvakirjasto - Teemaorganisoidut Kuvat Esiopetus Materiaali Ilmainen Varten',
-        description: `Laaja kirjastomme sisältää yli 3000 lapsiystävällistä kuvaa. Teemavalitsin helpottaa sopivien kuvien löytämistä. Valitse "Kaikki Teemat" selataksesi kaikkea tai valitse tietty teema, kuten eläimet, ruoka, kulkuneuvot tai koulutarvikkeet.
-
-Hakutoiminto suodattaa kuvia tiedostonimen mukaan. Kirjoita "koira" löytääksesi kaikki koirakuvat. Kirjoita "pallo" löytääksesi pallo- ja palloilukuvat. Tämä nopea haku säästää aikaa luodessasi tulostettavat tehtävät lapsille ilmainen ja matematiikka tehtävät alakoulu -materiaaleja.
-
-Jokainen varjoyhdistelyn tehtävä käyttää tasan neljää kuvaa. Valitse yksinkertaisia muotoja esiopetukselle tai monimutkaisia kuvia alakoululle. Sekoita teemoja luodaksesi vaikeampia harjoituksia. Kaikki taustat ja reunukset sisältyvät ilman lisämaksuja, toisin kuin kilpailijat, jotka veloittavat kuvaa kohden.`,
-        highlighted: false,
-      },
-      {
-        id: '7',
-        icon: '🖨️',
-        title: 'Ammattimainen 300 DPI -Laatu - Korkearesoluutioiset Tulostettavat Tehtävät',
-        description: `Lataa JPEG tai PDF -muodossa. 300 DPI -resoluutio varmistaa täydellisen tulostuslaadun. Kaikki varjoyhdistelyn tehtävät näyttävät ammattimaisilta kotitulostimella tai kaupallisella tulostuspalvelulla. Tämä laatu on ratkaisevaa esiopetus materiaali ilmainen ja matematiikka tehtävät alakoulu -myyntiin.
-
-Harmaasävyvaihtoehto säästää mustetta tulostettaessa luokkahuoneelle. Muunna värillinen varjoyhdistelyn tehtävä mustavalkoiseksi yhdellä klikkauksella. Täydellinen budjettitietoisille opettajille, jotka tarvitsevat kymmeniä kopioita. Harmaasävy toimii loistavasti kirjaimet harjoittelu esikoulu, kertotaulut tulostettava ja lukemaan oppiminen tehtävät -materiaaleihin.
-
-PDF-muoto säilyttää tarkan asettelun kaikilla laitteilla. Jaa PDF-tiedostoja kollegojen kanssa tai lataa ne Learning Management System -järjestelmään. JPEG-muoto toimii hyvin sosiaalisessa mediassa tai upottamiseen verkkosivustoille. Molemmat muodot säilyttävät täyden 300 DPI -laadun.`,
-        highlighted: true,
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // How-To Guide - FULL text from Finnish varjoyhdistely.md step sections
@@ -260,80 +162,8 @@ Tallenna molemmat tiedostot: tehtävä oppilaille ja vastausavain sinulle. Järj
     badgeText: 'Kenelle Sopii',
     readMoreLabel: 'Lue lisää',
     showLessLabel: 'Näytä vähemmän',
-    items: [
-      {
-        id: '1',
-        icon: '👶',
-        title: 'Esiopettajat ja Esikoulun Pedagogit',
-        subtitle: 'Kirjaimet Harjoittelu Esikoulu, Hienomotoriikka Harjoitukset ja Värityskuvia Lapsille Tulostettava',
-        description: `Esiopetus keskittyy visuaalisen hahmotuksen perustaitojen kehittämiseen. Varjoyhdistely on täydellinen esiopetus materiaali ilmainen -työkalu tälle ikäryhmälle. 3-6-vuotiaat lapset tarvitsevat konkreettisia visuaalisia harjoituksia kehittääkseen silmän ja käden koordinaatiota sekä hahmotuskykyä.
-
-Käytä yksinkertaisia, tuttuja kuvia esiopetuksen varjoyhdistelyn tehtävissä. Eläimet, lelut, ruoka-aineet ja päivittäiset esineet toimivat loistavasti. Nämä kuvat yhdistyvät luonnollisesti kirjaimet harjoittelu esikoulu -teemoihin, kun käytät kuvia, jotka alkavat tietyillä kirjaimilla.
-
-Varjoyhdistelygeneraattori tukee hienomotoriikka harjoitukset -kehitystä. Lapset piirtävät viivoja yhdistääkseen kuvia ja niiden varjoja. Tämä kynänhallintaharjoitus valmistaa heitä kirjoittamaan. Yhdistä varjoyhdistely tulostettavat tehtävät lapsille ilmainen -materiaaleihin kokonaisvaltaisia oppimispaketteja varten.`,
-        quote: 'Varjoyhdistely kehittää lasten visuaalista hahmotusta leikkien!',
-      },
-      {
-        id: '2',
-        icon: '📚',
-        title: 'Alakoulun Opettajat 1.-3. Luokka',
-        subtitle: 'Matematiikka Tehtävät Alakoulu, Hienomotoriikka Harjoitukset ja Kertotaulut Tulostettava',
-        description: `Alakoululuokat 1-3 tarvitsevat monimutkaisempia visuaalisen hahmotuksen harjoituksia. Varjoyhdistelygeneraattori skaalautuu esiopetuksesta alakouluun käyttämällä yksityiskohtaisempia kuvia. Valitse kuvat, joissa on enemmän pieniä yksityiskohtia, jotta 7-9-vuotiaat lapset saavat sopivan haasteen.
-
-Tee Kokonaiseksi -tila on erityisen hyödyllinen alakoululle. Jaettujen kuvien yhdistäminen kehittää avaruudellista päättelyä ja osa-kokonaisuus-ymmärrystä. Nämä taidot tukevat matematiikka tehtävät alakoulu -oppimista, erityisesti geometriaa ja murto-osia.
-
-Yhdistä varjoyhdistely aihealuekohtaisiin teemoihin. Tiedeviikko: varjoyhdistely eläimistä ja kasveista, tulostettavat tehtävät lapsille ilmainen tiedesanastosta. Matematiikkaviikko: varjoyhdistely geometrisista muodoista, kertotaulut tulostettava, yhteenlasku ja vähennyslasku tehtävät.`,
-        quote: 'Eriyttäminen on helppoa varjoyhdistelygeneraattorilla.',
-      },
-      {
-        id: '3',
-        icon: '🏠',
-        title: 'Kotikoulutusvanhemmat',
-        subtitle: 'Esiopetus Materiaali Ilmainen ja Värityskuvia Lapsille Tulostettava Moniikäiseen Oppimiseen',
-        description: `Kotikoulutusperheet opettavat usein useita lapsia eri ikäryhmissä samanaikaisesti. Varjoyhdistelygeneraattori skaalautuu täydellisesti 3-vuotiaista 9-vuotiaisiin lapsiin. Luo yksi teema-aihe ja eriytä vaikeustasoa kunkin lapsen ikätason mukaan.
-
-Nuorimmalle lapselle (3-5 vuotta): yksinkertaiset eläinvarjot, suuret kuvat, A/B/C-tunnisteet käytössä. Keskimmäiselle lapselle (6-7 vuotta): monimutkaisemmat kuvat, Tee Kokonaiseksi -tila, ei tunnisteita. Vanhimmalle lapselle (8-9 vuotta): hyvin yksityiskohtaiset kuvat, kirjoitustehtävä jokaisesta parista.
-
-Täysi Pääsy -tilaus säästää kotikoulutusvanhempien rahaa merkittävästi. Sen sijaan, että ostaisit useita työkirjoja eri aihealueille, käytä yhtä tilausta kaikkiin esiopetus materiaali ilmainen, kertotaulut tulostettava, yhteenlasku ja vähennyslasku tehtävät ja värityskuvia lapsille tulostettava -tarpeisiin.`,
-        quote: 'Yksi työkalu kaikille lapsilleni eri ikäryhmissä.',
-      },
-      {
-        id: '4',
-        icon: '🌍',
-        title: 'Suomi Toisena Kielenä ja Monikieliset Opettajat',
-        subtitle: 'Kirjaimet Harjoittelu Esikoulu, Lukemaan Oppiminen Tehtävät ja Tulostettavat Tehtävät Lapsille Ilmainen',
-        description: `Kieltenopettajat rakastavat varjoyhdistelygeneraattoria, koska kuvat ovat universaaleja. Sama tehtävä toimii suomeksi, englanniksi, ruotsiksi tai millä tahansa 11 tuetulla kielellä. Vaihda käyttöliittymän kieli luodaksesi tulostettavat tehtävät lapsille ilmainen -materiaaleja eri kieliryhmille.
-
-Käytä varjoyhdistelyn kuvia sanastoharjoituksiin. Kun oppilaat yhdistävät kuvia, he sanovat sanan ääneen kohdekielellä. Tämä visuaalinen ankkurointi auttaa muistissa säilyttämisessä. Yhdistä värityskuvia lapsille tulostettava ja kirjaimet harjoittelu esikoulu -tehtäviin kokonaisvaltaisiin kielipaketteihin.
-
-Maahanmuuttaja-oppilaat tarvitsevat konkreettisia visuaalisia työkaluja. Varjoyhdistely tarjoaa ei-kielellisen oppimisaktiviteetin. Oppilaat, jotka kamppailevat lukemaan oppiminen tehtävät -tehtävien kanssa suomeksi, voivat menestyä varjoyhdistelyssä. Menestys rakentaa itseluottamusta ja motivaatiota.`,
-        quote: 'Monikielisyystuki on korvaamaton luokassani.',
-      },
-      {
-        id: '5',
-        icon: '💜',
-        title: 'Erityisopettajat',
-        subtitle: 'Hienomotoriikka Harjoitukset Yksilölliseen Tukeen',
-        description: `Erityisopetus vaatii erittäin yksilöllistä lähestymistapaa. Varjoyhdistelygeneraattori tarjoaa äärettömän joustavuuden sopeutettavaksi kunkin oppilaan tarpeisiin. Säädä vaikeustasoa, kuvien kokoa, tunnisteita ja harjoitustyyppiä täsmälleen oikean haasteen tarjoamiseksi.
-
-Autismikirjon oppilailla on usein vahvat visuaaliset prosessointitaidot. Varjoyhdistely hyödyntää tätä vahvuutta. Selkeät visuaaliset yhdistämistehtävät ilman kielellistä monimutkaisuutta. Yhdistä tulostettavat tehtävät lapsille ilmainen -materiaaleihin strukturoiduissa oppimisjaksoissa.
-
-Hienomotoriikka harjoitukset ovat keskeisiä monille erityisopetuksen oppilaille. Varjoyhdistely tarjoaa merkityksellistä viivan piirtämisen harjoitusta. Sen sijaan, että piirtäisit tylsiä viivoja ei-mihinkään, oppilaat piirtävät viivoja yhdistääkseen kiinnostavia kuvia. Tämä motivoi harjoittelua ja kehittää kynänhallintaa.`,
-        quote: 'Voin nopeasti mukauttaa tehtäviä jokaisen oppilaan tarpeisiin.',
-      },
-      {
-        id: '6',
-        icon: '💰',
-        title: 'Opettajayrittäjät',
-        subtitle: 'Myy Tulostettavat Tehtävät Lapsille Ilmainen Teachers Pay Teachers -palvelussa',
-        description: `Tuhannet opettajat ansaitsevat sivutuloja tai kokoaikaisia tuloja myymällä tulostettavia tehtäviä verkossa. Teachers Pay Teachers, Etsy ja Amazon KDP ovat suosittuja alustoja. Täysi Pääsy -tilaus antaa sinulle kaikki työkalut tämän liiketoiminnan aloittamiseen ilman suuria etukäteisinvestointeja.
-
-Luo tehtäväpaketteja myytäväksi. Esimerkiksi: "20 Varjoyhdistelyn Tehtävää Esiopetukseen" -paketti. Sisällytä erilaisia teemoja: eläimet, ruoka, kulkuneuvot, lelut. Hinnoittele 5-15 dollaria paketista. Monet opettajat myyvät satoja paketteja kuukaudessa.
-
-Kaupallinen lisenssi on mukana Täysi Pääsy -tilauksessa ilman lisämaksuja. Kilpailijat veloittavat 79-199 dollaria vuodessa erillisestä kaupallisesta lisenssistä. Täysi Pääsy sisältää sen 240 euron vuosimaksussa. Tämä on valtava säästö opettajayrittäjille.`,
-        quote: 'Tilaukseni maksoi itsensä takaisin ensimmäisessä kuussa!',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // FAQ Section - Selected FAQs from Finnish varjoyhdistely.md
@@ -347,68 +177,8 @@ Kaupallinen lisenssi on mukana Täysi Pääsy -tilauksessa ilman lisämaksuja. K
     showLessLabel: 'Näytä vähemmän',
     secureCheckout: 'Turvallinen maksu',
     cancelAnytime: 'Peruuta milloin tahansa',
-    items: [
-      {
-        id: '1',
-        question: 'Onko Tämä Varjoyhdistelygeneraattori Todella Ilmainen?',
-        answer: 'Varjoyhdistelygeneraattori vaatii Täysi Pääsy -tilauksen, joka maksaa 240 euroa vuodessa tai 25 euroa kuukaudessa. Tilauksesi antaa sinulle rajattoman varjoyhdistelyn tehtävien luomisen ilman tehtäväkohtaisia maksuja. Luo niin monta värityskuvia lapsille tulostettava ja pisteestä pisteeseen tehtävät -materiaalia kuin tarvitset ilman lisämaksuja.',
-      },
-      {
-        id: '2',
-        question: 'Voinko Tulostaa Varjoyhdistelyn Tehtäviä Kotona Tavallisella Tulostimella?',
-        answer: 'Kyllä. Kaikki varjoyhdistelyn tehtävät on suunniteltu tulostettaviksi tavallisilla kotitulostimilla. 300 DPI -resoluutio varmistaa kristallinkirkkaiden tulosteen jokaisella kotitulostimella. PDF-muoto säilyttää tarkan asettelun ja laadun kaikilla tulostimilla. A4-paperimuoto on standardi Euroopassa ja toimii täydellisesti suomalaisilla kotitulostimilla.',
-      },
-      {
-        id: '3',
-        question: 'Tarvitsenko Suunnittelutaitoja Luodakseni Varjoyhdistelyn Tehtäviä?',
-        answer: 'Ei. Varjoyhdistelygeneraattori on suunniteltu täydellisen helppokäyttöiseksi opettajille ilman graafisen suunnittelun taitoja. Valitse neljä kuvaa, klikkaa Luo, ja ammattitasoinen tehtäväsi on valmis alle kolmessa minuutissa. Kaikki monimutkainen taitto-, asettelu- ja suunnittelutyö tapahtuu automaattisesti.',
-      },
-      {
-        id: '4',
-        question: 'Voinko Käyttää Varjoyhdistelyn Tehtäviä Luokkahuoneessani?',
-        answer: 'Täysi Pääsy -tilaus sisältää rajattoman luokkahuonekäytön. Luo niin monta varjoyhdistelyn tehtävää kuin tarvitset oppilaittesi kanssa käytettäväksi. Tulosta kopioita koko luokallesi. Jaa digitaalisia versioita Learning Management System -järjestelmäsi kautta. Käytä tehtäviä ryhmätyöhön, yksilölliseen harjoitukseen tai arviointiin.',
-      },
-      {
-        id: '5',
-        question: 'Mitä Kieliä Varjoyhdistelyn Tehtävät Tukevat?',
-        answer: 'Täysi käyttöliittymätuki 11 kielellä: suomi, englanti, saksa, ranska, espanja, portugali (Brasilia), italia, hollanti, ruotsi, tanska ja norja. Vaihda käyttöliittymän kieli yhdellä klikkauksella. Kaikki painikkeet, valikot, työkaluvihjeet ja ohjeet käännetään automaattisesti valitsemaasi kieleen.',
-      },
-      {
-        id: '6',
-        question: 'Voinko Myydä Luomiani Varjoyhdistelyn Tehtäviä?',
-        answer: 'Kyllä. Täysi Pääsy -tilaus sisältää täyden kaupallisen print-on-demand -lisenssin ilman lisämaksuja. Myy varjoyhdistelyn tehtäviäsi Teachers Pay Teachers -palvelussa, Etsyssä, Amazon KDP:ssä tai millä tahansa muulla alustalla. Ei attribuutiovaatimusta. Ei lisämaksuja kaupalliseen käyttöön. Ei rojaltimaksuja.',
-      },
-      {
-        id: '7',
-        question: 'Kuinka Mukautan Varjoyhdistelyn Tehtäviä Oppilailleni?',
-        answer: 'Varjoyhdistelygeneraattori tarjoaa useita mukautusmahdollisuuksia. Valitse kuvia, jotka kiinnostavat oppilaitasi. Säädä vaikeustasoa kuvan monimutkaisuudella. Esiopetuksen oppilaat saavat yksinkertaisia, selkeitä muotoja. Alakoulun oppilaat saavat yksityiskohtaisia, monimutkaisia kuvia. A/B/C ja 1/2/3 -tunnisteet auttavat nuorempia oppilaita.',
-      },
-      {
-        id: '8',
-        question: 'Mille Ikäryhmille Varjoyhdistelyn Tehtävät Toimivat Parhaiten?',
-        answer: 'Varjoyhdistely toimii erinomaisesti 3-9-vuotiaille lapsille. Esiopetus (3-6 vuotta) käyttää yksinkertaisia muotoja ja tuttuja esineitä. Alakoulu (6-9 vuotta) käyttää monimutkaisempia kuvia ja Tee Kokonaiseksi -tilaa. Jokainen ikäryhmä kehittää visuaalista hahmotuskykyä sopivalla tasolla.',
-      },
-      {
-        id: '9',
-        question: 'Voinko Ladata Omia Kuvia Varjoyhdistelyn Tehtäviin?',
-        answer: 'Kyllä. Usean tiedoston lataus tukee JPEG, PNG ja GIF -muotoja. Lataa oppilaittesi valokuvia, luokkahuoneen esineitä, perheen kuvia tai mitä tahansa henkilökohtaisia kuvia. Yhdistä kirjaston kuvia omiin luodaksesi täysin mukautettuja tulostettavat tehtävät lapsille ilmainen -materiaaleja.',
-      },
-      {
-        id: '10',
-        question: 'Kuinka Kauan Varjoyhdistelyn Tehtävän Luominen Vie?',
-        answer: 'Alle kolme minuuttia alusta valmiiseen PDF-tiedostoon. Tämä sisältää kuvien valinnan (1 minuutti), asetusten säätämisen (30 sekuntia), generoinnin (5 sekuntia), mahdollisen piirtoalustamuokkauksen (1 minuutti) ja lataamisen (15 sekuntia). Yhteensä 2-3 minuuttia ammattitasoiseen tulostettavat tehtävät lapsille ilmainen -materiaaliin.',
-      },
-      {
-        id: '11',
-        question: 'Sisältävätkö Varjoyhdistelyn Tehtävät Vastausavaimia?',
-        answer: 'Kyllä. Jokainen varjoyhdistelyn tehtävä generoi automaattisesti vastausavaimen. Vastausavain näyttää oikeat yhdistelmät viivoin. Ei tarvetta piirtää vastauksia käsin. Ei tarvetta arvata oikeita pareja. Lataa sekä tehtävä että vastausavain erillisinä PDF-tiedostoina.',
-      },
-      {
-        id: '12',
-        question: 'Voinko Luoda Aihealuekohtaisia Varjoyhdistelyn Tehtäviä?',
-        answer: 'Kyllä. Kuvakirjastomme sisältää teemaorganisoidut kuvat monille aihealueille. Tiede: eläimet, kasvit, sääilmiöt, planeetto. Matematiikka: muodot, numerot, mittausvälineet. Lukeminen: esineet alkukirjaimittain järjestettynä. Lataa omia kuvia yhdistääksesi varjoyhdistelyn suoraan opetussuunnitelmaasi.',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Pricing - Finnish Täysi Pääsy terminology (NOT Core Bundle)
@@ -454,56 +224,8 @@ Kaupallinen lisenssi on mukana Täysi Pääsy -tilauksessa ilman lisämaksuja. K
       securePayment: 'Turvallinen maksu',
       cancelAnytime: 'Peruuta milloin tahansa',
     },
-    items: [
-      {
-        id: '1',
-        slug: 'matching',
-        name: 'Yhdistä Parit',
-        category: 'Kognitiivinen',
-        icon: '🔗',
-        description: 'Yhdistä varjoyhdistely yhdistä parit -tehtäviin kaksinkertaiseen visuaaliseen harjoitteluun.',
-      },
-      {
-        id: '2',
-        slug: 'coloring',
-        name: 'Värityskuvat',
-        category: 'Luovuus',
-        icon: '🎨',
-        description: 'Yhdistä varjoyhdistely värityskuviin kokonaisvaltaiseen taiteelliseen oppimiskokemukseen.',
-      },
-      {
-        id: '3',
-        slug: 'drawing-lines',
-        name: 'Viivan Piirtäminen',
-        category: 'Hienomotoriikka',
-        icon: '✏️',
-        description: 'Täydennä varjoyhdistelyjä viivan piirtämisharjoituksilla hienomotoriikan kehittämiseen.',
-      },
-      {
-        id: '4',
-        slug: 'find-objects',
-        name: 'Etsi Esineet',
-        category: 'Visuaalinen',
-        icon: '🔍',
-        description: 'Laajenna visuaalista hahmotusta etsi esineet -tehtävillä silmän tarkkuuden kehittämiseen.',
-      },
-      {
-        id: '5',
-        slug: 'odd-one-out',
-        name: 'Mikä Ei Kuulu Joukkoon',
-        category: 'Kognitiivinen',
-        icon: '❓',
-        description: 'Yhdistä looginen päättely visuaaliseen hahmotukseen mikä ei kuulu joukkoon -tehtävillä.',
-      },
-      {
-        id: '6',
-        slug: 'missing-pieces',
-        name: 'Puuttuvat Palat',
-        category: 'Visuaalinen',
-        icon: '🧩',
-        description: 'Kehitä avaruudellista hahmotusta puuttuvat palat -tehtävillä.',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 };
 

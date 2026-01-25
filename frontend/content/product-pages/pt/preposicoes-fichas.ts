@@ -90,36 +90,8 @@ Crianças na educação infantil aprendem melhor com recursos visuais. Nossas at
     badgeText: 'Exemplos Grátis',
     downloadingLabel: 'Baixando...',
     ofLabel: 'de',
-    items: [
-      {
-        id: '1',
-        worksheetSrc: '/samples/portuguese/prepositions/sample-1.jpeg',
-        answerKeySrc: '/samples/portuguese/prepositions/sample-1-answer.jpeg',
-        altText: 'Atividade grátis de preposições - imprimíveis grátis para educação infantil',
-        pdfDownloadUrl: '/samples/portuguese/prepositions/sample-1.pdf',
-      },
-      {
-        id: '2',
-        worksheetSrc: '/samples/portuguese/prepositions/sample-2.jpeg',
-        answerKeySrc: '/samples/portuguese/prepositions/sample-2-answer.jpeg',
-        altText: 'Atividade grátis para crianças - preposições múltipla escolha',
-        pdfDownloadUrl: '/samples/portuguese/prepositions/sample-2.pdf',
-      },
-      {
-        id: '3',
-        worksheetSrc: '/samples/portuguese/prepositions/sample-3.jpeg',
-        answerKeySrc: '/samples/portuguese/prepositions/sample-3-answer.jpeg',
-        altText: 'Atividades grátis de preposições - conceitos espaciais para crianças',
-        pdfDownloadUrl: '/samples/portuguese/prepositions/sample-3.pdf',
-      },
-      {
-        id: '4',
-        worksheetSrc: '/samples/portuguese/prepositions/sample-4.jpeg',
-        answerKeySrc: '/samples/portuguese/prepositions/sample-4-answer.jpeg',
-        altText: 'Atividade para educação infantil - preposições em português',
-        pdfDownloadUrl: '/samples/portuguese/prepositions/sample-4.pdf',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Features Grid - FULL text from prepositions.md feature sections
@@ -135,80 +107,8 @@ Crianças na educação infantil aprendem melhor com recursos visuais. Nossas at
       noHiddenFees: 'Sem taxas ocultas',
       cancelAnytime: 'Cancele quando quiser',
     },
-    items: [
-      {
-        id: '1',
-        icon: '⚡',
-        title: 'Atividade Grátis para Crianças - Criação Fácil em 3 Cliques',
-        description: `Criar atividades de preposições nunca foi tão simples. Selecione o tema de imagens desejado. Escolha quantos exercícios quer na página. Clique em gerar e sua ficha está pronta. Todo o processo leva menos de 3 minutos.
-
-Não é necessário conhecimento de design ou programas complicados. O gerador faz todo o trabalho pesado automaticamente. Professores e pais criam materiais profissionais sem esforço. A interface em português facilita o uso por qualquer educador.`,
-        highlighted: false,
-      },
-      {
-        id: '2',
-        icon: '✏️',
-        title: 'Imprimíveis Grátis Totalmente Editáveis - Personalize Cada Elemento',
-        description: `Todas as atividades de alfabetização são completamente editáveis. Arraste qualquer imagem para reposicioná-la. Gire elementos com um clique. Redimensione textos e figuras livremente. Delete itens que não deseja na ficha.
-
-Esta flexibilidade permite adaptar cada atividade para imprimir às necessidades específicas da sua turma. Professores personalizam exercícios para diferentes níveis de aprendizagem. O canvas de edição oferece controle total sobre o layout final.`,
-        highlighted: false,
-      },
-      {
-        id: '3',
-        icon: '📤',
-        title: 'Atividade para Educação Infantil com Upload de Imagens Próprias',
-        description: `O gerador aceita upload de suas próprias imagens. Adicione fotos dos alunos às atividades educação infantil. Use imagens de objetos da sala de aula. Combine fotos pessoais com a biblioteca de 3000+ ilustrações.
-
-Formatos aceitos incluem JPEG, PNG e GIF. Crie atividades para imprimir verdadeiramente personalizadas para sua turma. Crianças se engajam mais com imagens familiares e conhecidas.`,
-        highlighted: true,
-      },
-      {
-        id: '4',
-        icon: '🌍',
-        title: 'Atividades Grátis de Preposições em 11 Idiomas',
-        description: `O gerador suporta 11 idiomas completos. Português brasileiro é totalmente integrado. Todas as 8 preposições aparecem traduzidas corretamente. Ideal para professores de língua estrangeira.
-
-Escolas bilíngues aproveitam ao máximo este recurso. Crie atividades de alfabetização em português, inglês, espanhol e mais. Idiomas incluem alemão, francês, italiano, holandês, sueco, dinamarquês, norueguês e finlandês.`,
-        highlighted: false,
-      },
-      {
-        id: '5',
-        icon: '💰',
-        title: 'Atividade para Crianças com Licença Comercial POD',
-        description: `Sua assinatura Acesso Completo inclui licença comercial completa. Venda atividades de coordenação motora no Teachers Pay Teachers. Crie produtos para Etsy e Amazon KDP. A qualidade 300 DPI é perfeita para impressão profissional.
-
-Nenhuma taxa extra de licenciamento. Ganhe dinheiro com suas criações educativas. Muitos professores faturam R$2.000 a R$10.000 mensais vendendo materiais pedagógicos online.`,
-        highlighted: true,
-      },
-      {
-        id: '6',
-        icon: '🎨',
-        title: 'Biblioteca com 3000+ Imagens para Atividade Grátis',
-        description: `Acesse mais de 3000 ilustrações adequadas para crianças. Imagens organizadas por temas facilitam a busca. Encontre animais, alimentos, brinquedos e objetos diversos. Todas as ilustrações são coloridas e atrativas.
-
-Fundos e bordas temáticos também estão incluídos. Crie atividades para imprimir visualmente ricas sem custo adicional. A variedade de temas permite criar materiais para qualquer projeto pedagógico.`,
-        highlighted: false,
-      },
-      {
-        id: '7',
-        icon: '🖨️',
-        title: 'Imprimíveis Grátis em Qualidade Profissional 300 DPI',
-        description: `Exporte suas atividades de alfabetização em alta resolução. O formato PDF é ideal para impressão em lote. JPEG funciona bem para compartilhamento digital. A qualidade 300 DPI garante nitidez perfeita.
-
-Opção de escala de cinza economiza tinta da impressora. Crie materiais que parecem feitos por designer profissional. Suas atividades ficam perfeitas tanto em impressora doméstica quanto em gráfica.`,
-        highlighted: false,
-      },
-      {
-        id: '8',
-        icon: '🎨',
-        title: 'Atividade Grátis para Crianças - Desenhos para Colorir',
-        description: `Transforme qualquer ficha em desenhos para colorir. A opção escala de cinza remove as cores das imagens. Alunos aprendem preposições enquanto pintam. Atividade perfeita para momentos de transição.
-
-Desenvolve coordenação motora fina naturalmente. Combine aprendizado linguístico com expressão artística. Crianças adoram colorir e aprender ao mesmo tempo.`,
-        highlighted: false,
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // How-To Guide - FULL text from prepositions.md step sections
@@ -290,80 +190,8 @@ A opção "Escala de Cinza" converte para preto e branco. Economiza tinta colori
     badgeText: 'Para Quem',
     readMoreLabel: 'Leia mais',
     showLessLabel: 'Mostrar menos',
-    items: [
-      {
-        id: '1',
-        icon: '👩‍🏫',
-        title: 'Professores de Educação Infantil',
-        subtitle: 'Atividade Grátis para Educação Infantil',
-        description: `Professores de educação infantil usam preposições diariamente. Crianças de 4 a 6 anos estão desenvolvendo vocabulário básico. Conceitos espaciais como "dentro", "fora" e "em cima" são fundamentais. Nossas atividades educação infantil apresentam estes conceitos visualmente.
-
-O gerador oferece imagens coloridas e atrativas para a pré-escola. Cada exercício mostra cenas simples e claras. Professores selecionam preposições adequadas à faixa etária. O modo múltipla escolha funciona bem para quem ainda não escreve.
-
-Atividades educação infantil de preposições complementam rodas de conversa. Após discutir posições oralmente, a ficha reforça o aprendizado. Crianças identificam onde está cada objeto na imagem. A conexão entre linguagem oral e visual se fortalece.`,
-        quote: 'Meus alunos adoram identificar onde cada animal está na cena!',
-      },
-      {
-        id: '2',
-        icon: '📚',
-        title: 'Professores de 1º ao 3º Ano',
-        subtitle: 'Atividade Grátis para Crianças do 1º ao 3º Ano',
-        description: `Professores do ensino fundamental anos iniciais integram preposições à alfabetização. No 1º ano, alunos começam a escrever palavras simples. Preposições são palavras curtas ideais para prática. Atividades 1º ano de preencher lacunas desenvolvem escrita contextualizada.
-
-No 2º ano, alunos já leem frases completas. Atividades 2º ano incluem sentenças mais elaboradas. "O gato está embaixo da mesa" trabalha leitura e compreensão. O gabarito permite autocorreção independente.
-
-O 3º ano revisa e consolida todo vocabulário espacial. Fichas com 8 exercícios cobrem todas as preposições. Professores usam como avaliação diagnóstica no início do ano. Identificam quais conceitos precisam reforço.`,
-        quote: 'A integração com alfabetização acelera o aprendizado dos meus alunos!',
-      },
-      {
-        id: '3',
-        icon: '🏠',
-        title: 'Pais que Educam em Casa',
-        subtitle: 'Imprimíveis Grátis para Homeschool Brasileiro',
-        description: `Famílias que educam em casa precisam de materiais variados. Pais não têm acesso a recursos de escolas tradicionais. O gerador oferece atividades de alfabetização profissionais para uso doméstico. Cada ficha parece feita por especialista.
-
-Atividades de alfabetização de preposições complementam currículos de homeschool. Vocabulário espacial aparece em diversos componentes curriculares. Pais criam fichas alinhadas aos conteúdos que estão trabalhando. A biblioteca de 3000+ imagens oferece temas variados.
-
-O custo-benefício é excelente para famílias. Uma assinatura atende múltiplos filhos de diferentes idades. Gere atividades de alfabetização personalizadas para cada criança. Adapte dificuldade e quantidade conforme cada nível.`,
-        quote: 'Consigo criar atividades perfeitas para cada um dos meus filhos!',
-      },
-      {
-        id: '4',
-        icon: '🌍',
-        title: 'Professores de Línguas Estrangeiras',
-        subtitle: 'Atividades Grátis de Preposições em 11 Idiomas',
-        description: `Professores de línguas estrangeiras ensinam preposições em todos os níveis. Preposições são diferentes em cada idioma. O gerador suporta 11 línguas com traduções precisas. Crie atividades para imprimir em inglês, espanhol, francês e mais.
-
-Escolas bilíngues aproveitam o recurso multilíngue. Professores geram a mesma ficha em dois idiomas. Alunos comparam preposições entre português e inglês. A aprendizagem comparativa acelera a aquisição.
-
-Cursos de idiomas para crianças usam abordagem visual. Atividades para imprimir com imagens transcendem barreiras linguísticas. O aluno vê a cena e aprende a preposição no novo idioma. Contexto visual facilita memorização.`,
-        quote: 'O suporte multilíngue é perfeito para minha escola bilíngue!',
-      },
-      {
-        id: '5',
-        icon: '♿',
-        title: 'Professores de Educação Especial',
-        subtitle: 'Atividade para Crianças com Necessidades Especiais',
-        description: `Professores de educação especial adaptam materiais constantemente. O gerador permite personalização total para diferentes necessidades. Atividades de coordenação motora com preposições trabalham múltiplas habilidades. Alunos praticam escrita enquanto aprendem vocabulário.
-
-Reduza o número de exercícios por página para menos estímulos visuais. Aumente o tamanho das imagens para melhor visualização. Use apenas 2-3 preposições por ficha para não sobrecarregar. A edição no canvas permite ajustes precisos.
-
-O modo múltipla escolha elimina a barreira da escrita. Alunos com dificuldades motoras demonstram compreensão circulando. Atividades de coordenação motora ficam acessíveis para todos os perfis de aprendizagem.`,
-        quote: 'A flexibilidade do gerador permite adaptar para cada aluno!',
-      },
-      {
-        id: '6',
-        icon: '💼',
-        title: 'Professores Empreendedores',
-        subtitle: 'Venda Atividades Grátis com Licença Comercial',
-        description: `Professores empreendedores criam produtos digitais para venda. O mercado de materiais pedagógicos cresce constantemente. Atividades de preposições são sempre procuradas por educadores. Sua assinatura Acesso Completo inclui licença comercial.
-
-Venda desenhos para colorir de preposições no Teachers Pay Teachers. Pacotes temáticos atraem compradores. Combine preposições com temas sazonais como Natal e Páscoa. A biblioteca de imagens oferece elementos para todas as épocas.
-
-Crie kits completos combinando diferentes tipos de atividades. Inclua fichas de preposições junto com tabuada e alfabeto. Pacotes maiores justificam preços mais altos. Professores preferem comprar materiais integrados.`,
-        quote: 'Já faturei mais de R$3.000 vendendo minhas atividades online!',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Pricing - Full Access (Acesso Completo)
@@ -431,92 +259,8 @@ Crie kits completos combinando diferentes tipos de atividades. Inclua fichas de 
     showLessLabel: 'Mostrar menos',
     secureCheckout: 'Pagamento seguro',
     cancelAnytime: 'Cancele quando quiser',
-    items: [
-      {
-        id: '1',
-        question: 'Como Criar Atividade Grátis de Preposições sem Conhecimento de Design?',
-        answer: `Criar atividades de alfabetização profissionais não requer habilidades de design. O gerador faz todo o trabalho automaticamente. Selecione suas preferências nos menus. Clique em gerar e a ficha aparece pronta. Atividades de alfabetização de qualidade profissional em 3 minutos.
-
-A interface é totalmente em português e intuitiva. Professores de qualquer idade usam sem dificuldade. O suporte está disponível se precisar de ajuda. Não é necessário instalar nenhum programa.`,
-      },
-      {
-        id: '2',
-        question: 'Posso Usar Atividade para Educação Infantil de Preposições para Crianças de 3 Anos?',
-        answer: `Sim, atividades educação infantil de preposições funcionam para crianças pequenas. Use o modo múltipla escolha para quem não escreve. Selecione apenas 2-3 preposições simples como "em" e "em cima de". Atividades educação infantil com poucas opções evitam sobrecarga cognitiva.
-
-Imagens grandes e coloridas atraem a atenção dos pequenos. Comece com conceitos básicos e avance gradualmente. A repetição visual ajuda na memorização das preposições.`,
-      },
-      {
-        id: '3',
-        question: 'As Atividades Grátis Incluem Formas Geométricas nas Cenas?',
-        answer: `Sim, atividades de matemática com preposições usam formas geométricas. O gerador inclui círculos, quadrados, triângulos e outras formas. Alunos aprendem vocabulário espacial enquanto reconhecem figuras geométricas. Atividades de matemática e linguagem se integram naturalmente.
-
-Conceitos como "acima", "abaixo" e "entre" são fundamentais em geometria. Use formas geométricas como objetos de referência. O gerador prepara alunos para linguagem matemática formal.`,
-      },
-      {
-        id: '4',
-        question: 'Como Desenvolver Coordenação Motora com Imprimíveis Grátis?',
-        answer: `Atividades de coordenação motora surgem no modo preencher lacunas. Alunos escrevem as preposições nas linhas indicadas. O ato de escrever desenvolve habilidades motoras finas. Atividades de coordenação motora ficam contextualizadas em exercícios significativos.
-
-Combine com atividades de recorte e colagem para desenvolvimento motor completo. O gerador complementa materiais de escrita existentes. A repetição prazerosa fortalece a coordenação.`,
-      },
-      {
-        id: '5',
-        question: 'Posso Transformar Atividade Grátis para Crianças em Desenhos para Colorir?',
-        answer: `Sim, qualquer ficha vira desenhos para colorir com um clique. Ative a opção "Escala de Cinza" antes do download. As imagens ficam em contornos prontos para pintura. Desenhos para colorir de preposições combinam arte e aprendizado linguístico.
-
-Alunos completam os exercícios e depois colorem. Esta abordagem oferece duas atividades em uma. Primeiro, trabalho cognitivo com preposições. Depois, atividade relaxante de colorir.`,
-      },
-      {
-        id: '6',
-        question: 'As Atividades Grátis de Vogais e Alfabeto Podem Incluir Preposições?',
-        answer: `Absolutamente. Combine atividades vogais e alfabeto com exercícios de preposições. Use imagens de objetos que começam com cada letra. "A abelha está em cima da árvore" trabalha letra A e preposição. Atividades vogais e alfabeto ficam mais ricas com contexto espacial.
-
-A integração curricular economiza tempo de planejamento. Cada ficha trabalha múltiplas habilidades simultaneamente. Professores inteligentes combinam conteúdos em uma única atividade.`,
-      },
-      {
-        id: '7',
-        question: 'Como Praticar Letra Cursiva e Pontilhado com Preposições?',
-        answer: `O modo preencher lacunas oferece prática de letra cursiva e pontilhado. Alunos escrevem preposições em contexto de frase real. Cada exercício reforça caligrafia com propósito. Letra cursiva e pontilhado ganham significado através do conteúdo linguístico.
-
-Combine fichas de preposições com cadernos de caligrafia. Primeiro, pratique a preposição em letra cursiva separadamente. Depois, aplique na ficha de exercícios. A transferência de habilidades se concretiza.`,
-      },
-      {
-        id: '8',
-        question: 'Posso Combinar Preposições com Exercícios de Tabuada?',
-        answer: `Indiretamente, sim. Crie pacotes que incluam fichas de tabuada junto com preposições. Vocabulário espacial como "entre" e "dividido" conecta os conteúdos. Tabuada e preposições compartilham conceitos de distribuição e posicionamento.
-
-Preposições são essenciais para problemas matemáticos. "Coloque o triângulo entre os círculos" requer compreensão espacial. O gerador prepara alunos para linguagem matemática.`,
-      },
-      {
-        id: '9',
-        question: 'Quais Atividades Grátis para Crianças do 1º e 2º Ano Funcionam Melhor?',
-        answer: `Para atividades 1º ano, use 4-6 exercícios com preposições simples. O modo preencher lacunas desenvolve escrita inicial. Linhas espaçadas dão espaço adequado para caligrafia iniciante.
-
-Para atividades 2º ano, aumente para 6-8 exercícios com todas as preposições. O modo múltipla escolha funciona bem para avaliações rápidas. Inclua preposições mais complexas como "entre" e "na frente de".`,
-      },
-      {
-        id: '10',
-        question: 'Atividade Grátis de Preposições Serve para Adultos Aprendendo Português?',
-        answer: `Sim, atividades de alfabetização com preposições funcionam para qualquer idade. Adultos aprendendo português como segunda língua beneficiam-se do contexto visual. As imagens ajudam a compreender significados sem tradução. Atividades de alfabetização visuais transcendem faixas etárias.
-
-O suporte a 11 idiomas facilita comparações linguísticas. Adultos podem ver a mesma atividade em seu idioma nativo e em português. A aprendizagem comparativa acelera a aquisição.`,
-      },
-      {
-        id: '11',
-        question: 'Quantas Atividades Grátis para Educação Infantil Posso Criar por Mês?',
-        answer: `Com a assinatura Acesso Completo, crie atividades educação infantil ilimitadas. Não há limite de fichas por mês ou por ano. Gere quantas atividades educação infantil precisar para suas turmas. O acesso ilimitado está incluído no valor anual de $240.
-
-Professores criam semanas de material em uma tarde. O gabarito é gerado automaticamente junto. Não há tempo de espera ou processamento longo. Atividades para imprimir ficam prontas instantaneamente.`,
-      },
-      {
-        id: '12',
-        question: 'Imprimíveis Grátis de Preposições Podem Ser Vendidos Comercialmente?',
-        answer: `Sim, a licença comercial está incluída na assinatura Acesso Completo. Venda seus desenhos para colorir no Teachers Pay Teachers, Etsy ou Amazon KDP. Desenhos para colorir educativos têm alta demanda online. Sua assinatura cobre uso comercial sem taxas extras.
-
-A qualidade 300 DPI garante impressão profissional. Compradores reconhecem e pagam por qualidade superior. Muitos professores ganham renda extra significativa com materiais digitais.`,
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Related Apps Section
@@ -533,48 +277,8 @@ A qualidade 300 DPI garante impressão profissional. Compradores reconhecem e pa
       securePayment: 'Pagamento seguro',
       cancelAnytime: 'Cancele quando quiser',
     },
-    items: [
-      {
-        id: '1',
-        slug: 'atividades-matematica-fichas',
-        name: 'Atividades de Matemática',
-        category: 'Matemática',
-        icon: '➕',
-        description: 'Combine preposições com geradores de adição e subtração. Crie pacotes de atividades de matemática completos.',
-      },
-      {
-        id: '2',
-        slug: 'trem-alfabeto-fichas',
-        name: 'Trenzinho do Alfabeto',
-        category: 'Alfabetização',
-        icon: '🔤',
-        description: 'Use preposições junto com o gerador de alfabeto. Crianças classificam e depois escrevem.',
-      },
-      {
-        id: '3',
-        slug: 'tracar-linhas-fichas',
-        name: 'Traçar Linhas',
-        category: 'Coordenação Motora',
-        icon: '✏️',
-        description: 'Complemente preposições com folhas de escrita. A sequência desenvolve coordenação motora.',
-      },
-      {
-        id: '4',
-        slug: 'desenhos-colorir-fichas',
-        name: 'Desenhos para Colorir',
-        category: 'Arte',
-        icon: '🎨',
-        description: 'Adicione páginas de colorir após as preposições. Atividades educação infantil mais completas.',
-      },
-      {
-        id: '5',
-        slug: 'caca-palavras-fichas',
-        name: 'Caça-Palavras',
-        category: 'Vocabulário',
-        icon: '🔢',
-        description: 'Combine com caça-palavras para vocabulário. Preposições e busca trabalham juntas.',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 };
 

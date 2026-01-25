@@ -100,36 +100,8 @@ Zoek-en-tel activiteiten stimuleren meerdere vaardigheden tegelijk. Kinderen oef
     badgeText: 'Gratis Voorbeelden',
     downloadingLabel: 'Downloaden...',
     ofLabel: 'van',
-    items: [
-      {
-        id: '1',
-        worksheetSrc: '/samples/dutch/find-and-count/sample-1.jpeg',
-        answerKeySrc: '/samples/dutch/find-and-count/sample-1-answer.jpeg',
-        altText: 'Gratis zoek en tel werkblad voor kinderen - werkbladen groep 3 voor rekenen werkbladen',
-        pdfDownloadUrl: '/samples/dutch/find-and-count/sample-1.pdf',
-      },
-      {
-        id: '2',
-        worksheetSrc: '/samples/dutch/find-and-count/sample-2.jpeg',
-        answerKeySrc: '/samples/dutch/find-and-count/sample-2-answer.jpeg',
-        altText: 'Gratis werkbladen zoek en tel - werkblad voor kleuters met sommen tot 20',
-        pdfDownloadUrl: '/samples/dutch/find-and-count/sample-2.pdf',
-      },
-      {
-        id: '3',
-        worksheetSrc: '/samples/dutch/find-and-count/sample-3.jpeg',
-        answerKeySrc: '/samples/dutch/find-and-count/sample-3-answer.jpeg',
-        altText: 'Gratis printables zoek en tel - werkblad voor kinderen met fijne motoriek',
-        pdfDownloadUrl: '/samples/dutch/find-and-count/sample-3.pdf',
-      },
-      {
-        id: '4',
-        worksheetSrc: '/samples/dutch/find-and-count/sample-4.jpeg',
-        answerKeySrc: '/samples/dutch/find-and-count/sample-4-answer.jpeg',
-        altText: 'Werkblad voor kinderen zoek en tel - gratis werkblad met oefenbladen kwaliteit',
-        pdfDownloadUrl: '/samples/dutch/find-and-count/sample-4.pdf',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Features Grid - FULL text from find-and-count.md feature sections
@@ -145,96 +117,8 @@ Zoek-en-tel activiteiten stimuleren meerdere vaardigheden tegelijk. Kinderen oef
       noHiddenFees: 'Geen verborgen kosten',
       cancelAnytime: 'Altijd opzegbaar',
     },
-    items: [
-      {
-        id: '1',
-        icon: '⚡',
-        title: 'Gratis Werkblad Maken in 3 Klikken - Werkblad voor Kinderen met Sommen tot 20',
-        description: `Het maken van een zoek-en-tel werkblad kost geen technische kennis. Je selecteert een thema uit de bibliotheek met meer dan 3000 afbeeldingen. Kies hoeveel verschillende objecten kinderen moeten zoeken. Klik op genereren en je werkblad is klaar.
-
-De rastergrootte bepaal je zelf voor werkbladen kleuters. Kies vijf bij vijf voor beginners. Of negen bij negen voor gevorderde leerlingen. Het raster vult zich automatisch met afbeeldingen. Sommige objecten komen vaker voor dan andere.
-
-Kinderen zoeken specifieke plaatjes en tellen hoeveel ze vinden. Dit oefent sommen tot 20 op een speelse manier. Ze noteren hun antwoord naast elk zoekobject. Het antwoordblad bevestigt of ze correct hebben geteld.`,
-        highlighted: false,
-      },
-      {
-        id: '2',
-        icon: '✏️',
-        title: 'Gratis Werkbladen Bewerkbaar Canvas - Werkblad voor Kleuters Aanpassen',
-        description: `Na het genereren kun je alles aanpassen op het canvas. Sleep afbeeldingen naar een andere positie. Vergroot of verklein elementen met je muis. Draai objecten of verwijder ze volledig. Deze flexibiliteit maakt elke werkblad uniek.
-
-De bewerkingsfuncties zijn perfect voor fijne motoriek integratie. Voeg schrijflijnen toe waar kinderen hun antwoorden noteren. Maak ruimte voor letters leren oefeningen onderaan het werkblad. Combineer visueel zoeken met schrijfvaardigheid.
-
-Je kunt eigen teksten toevoegen aan het werkblad. Schrijf instructies in kindvriendelijke taal. Voeg de naam van de leerling toe. Of maak een titel die past bij je thema. Zeven verschillende lettertypen zijn beschikbaar.`,
-        highlighted: false,
-      },
-      {
-        id: '3',
-        icon: '📤',
-        title: 'Gratis Printables met Eigen Afbeeldingen - Werkblad voor Kinderen Veilig Leren Lezen',
-        description: `Wil je gepersonaliseerde zoek-en-tel werkbladen maken? Upload je eigen afbeeldingen. De tool accepteert JPG, PNG en GIF bestanden. Je kunt meerdere bestanden tegelijk uploaden voor efficiënt werken.
-
-Dit is ideaal voor schrijven oefenen in combinatie met zoeken. Upload afbeeldingen van voorwerpen uit de klas. Kinderen zoeken en tellen bekende objecten. Daarna schrijven ze de namen op. Visueel leren en taalvaardigheid samen.
-
-De uploadfunctie ondersteunt ook Veilig leren lezen integratie. Upload plaatjes die passen bij de huidige kern. Kinderen zoeken de kat, de maan of de roos. Ze oefenen woordherkenning terwijl ze tellen.`,
-        highlighted: false,
-      },
-      {
-        id: '4',
-        icon: '🌍',
-        title: 'Gratis Werkblad voor Kinderen in 11 Talen - Werkblad voor Kleuters Meertalig',
-        description: `De zoek-en-tel generator ondersteunt elf talen volledig. Nederlands staat voorop met afbeeldingsnamen die aansluiten bij Veilig leren lezen woordenschat. Maar je maakt ook werkbladen in het Duits, Frans of Engels.
-
-De interface is volledig in het Nederlands beschikbaar. Alle knoppen en menu's zijn vertaald. Ook de thema-namen in de bibliotheek zijn Nederlands. Zo werk je altijd in je eigen taal zonder verwarring.
-
-Voor meertalig onderwijs is dit bijzonder waardevol. Maak rekenen werkbladen in het Nederlands voor de ochtend. Dezelfde zoekactiviteit in het Engels voor de middag. Kinderen leren telwoorden in meerdere talen.`,
-        highlighted: false,
-      },
-      {
-        id: '5',
-        icon: '💼',
-        title: 'Gratis Werkbladen Commerciële Licentie - Werkblad voor Kinderen Verkopen',
-        description: `Met je Basispakket abonnement krijg je een commerciële licentie inbegrepen. Dit betekent dat je jouw werkbladen mag verkopen. Op platforms zoals Etsy, Teachers Pay Teachers of Amazon KDP.
-
-De licentie geldt voor alle werkbladen die je maakt. Ook voor kleurplaten en andere materialen uit de tien Basispakket generators. Je hoeft geen extra kosten te betalen per werkblad of per verkoop.
-
-Veel leerkrachten verdienen extra inkomen met hun materialen. Ze maken zoek-en-tel werkbladen met seizoensthema's. Combineren deze met kleurplaten en rekenwerkbladen. Complete lespakketten verkopen bijzonder goed.`,
-        highlighted: true,
-      },
-      {
-        id: '6',
-        icon: '🎨',
-        title: 'Gratis Printables met 3000+ Afbeeldingen - Werkblad voor Kleuters Thema\'s',
-        description: `De beeldbibliotheek bevat meer dan drieduizend kindvriendelijke afbeeldingen. Ze zijn georganiseerd in thema's. Van dieren en voertuigen tot seizoenen en feestdagen. Er is altijd iets dat past bij je les.
-
-Voor zoek-en-tel werkbladen vind je perfecte afbeeldingen. Appels, sterren, bloemen en dieren. Objecten die kinderen direct herkennen. Het zoeken wordt leuk en het tellen betekenisvol.
-
-De afbeeldingen ondersteunen ook tafels oefenen in hogere groepen. Groepeer objecten voor vermenigvuldigingsbegrip. Toon drie groepen van vier sterren. Kinderen tellen eerst, dan vermenigvuldigen ze.`,
-        highlighted: true,
-      },
-      {
-        id: '7',
-        icon: '🖨️',
-        title: 'Gratis Werkblad 300 DPI Kwaliteit - Werkblad voor Kinderen Professioneel Printen',
-        description: `Alle werkbladen worden geëxporteerd in 300 DPI. Dit is de standaard voor professioneel drukwerk. Je zoek-en-tel werkbladen zien er scherp en helder uit op papier.
-
-Deze kwaliteit is belangrijk voor fijne motoriek activiteiten. De afbeeldingen zijn goed zichtbaar en gedetailleerd. Kinderen kunnen de objecten duidelijk onderscheiden. Het tellen wordt nauwkeurig mogelijk.
-
-Je downloadt werkbladen als PDF of JPEG. De PDF-optie is ideaal voor printen. JPEG werkt goed voor digitaal delen. Er is ook een grijswaarden optie om inkt te besparen.`,
-        highlighted: false,
-      },
-      {
-        id: '8',
-        icon: '🔢',
-        title: 'Gratis Werkbladen Groep 3 - Werkblad voor Kleuters Visueel Zoeken',
-        description: `Leerlingen in groep 3 profiteren enorm van zoek-en-tel oefeningen. Ze leren systematisch zoeken in een raster. Het tellen tot hogere getallen wordt geoefend. Werkbladen groep 3 met deze aanpak versterken getalbegrip op een speelse manier.
-
-De generator maakt automatisch antwoordbladen. Je hoeft niet zelf te tellen hoeveel objecten er verstopt zijn. Het antwoordblad toont exact de aantallen. Dit bespaart correctietijd voor drukke leerkrachten.
-
-Voor werkbladen kleuters zijn zoek-en-tel activiteiten extra waardevol. Kleuters ontwikkelen hun visuele aandacht. Ze leren patronen herkennen in een groter geheel. Het tellen tot vijf of tien wordt speels geoefend.`,
-        highlighted: false,
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // How-To Guide - FULL text from find-and-count.md step sections
@@ -316,80 +200,8 @@ De grijswaarden optie bespaart inkt voor werkbladen groep 3. Alle afbeeldingen b
     badgeText: 'Voor wie',
     readMoreLabel: 'Lees meer',
     showLessLabel: 'Minder tonen',
-    items: [
-      {
-        id: '1',
-        icon: '👶',
-        title: 'Leerkrachten Groep 1 2 - Werkbladen Kleuters met Fijne Motoriek en Veilig Leren Lezen',
-        subtitle: 'Gratis werkblad voor kleuters en fijne motoriek',
-        description: `Leerkrachten in groep 1 en 2 gebruiken zoek-en-tel werkbladen dagelijks. Kleuters ontwikkelen hun visuele aandacht met deze activiteiten. Ze leren systematisch zoeken in een raster. Het tellen wordt speels geoefend.
-
-De werkbladen kleuters ondersteunen fijne motoriek ontwikkeling. Kinderen wijzen naar gevonden objecten. Ze tellen op hun vingers. Daarna schrijven ze het getal in het antwoordvakje.
-
-Voor Veilig leren lezen integratie zijn zoekwerkbladen ideaal. Upload afbeeldingen van kernwoorden. Kinderen zoeken de kat tussen alle dieren. Ze tellen hoeveel katten ze vinden. Lezen en rekenen komen samen.`,
-        quote: 'Mijn kleuters vinden de kleurrijke zoekwerkbladen geweldig!',
-      },
-      {
-        id: '2',
-        icon: '📚',
-        title: 'Leerkrachten Werkbladen Groep 3 en Groep 4 - Sommen tot 20 met Kleurplaten Thema\'s',
-        subtitle: 'Gratis werkbladen groep 3 en sommen tot 20',
-        description: `In groep 3 en 4 worden zoek-en-tel werkbladen uitdagender. Grotere rasters met meer objecten. Hogere aantallen om te tellen. Sommen tot 20 worden standaard.
-
-De werkbladen groep 3 combineren zoeken met rekenvaardigheid. Kinderen tellen eerst alle appels. Dan alle peren. Ze vergelijken de aantallen. Wie heeft er meer? Dit oefent vergelijkend rekenen.
-
-Met kleurplaten thema's worden de werkbladen aantrekkelijker. Kies seizoensgebonden afbeeldingen. Herfstbladeren in oktober. Sneeuwvlokken in december. Kinderen zijn extra gemotiveerd door herkenbare thema's.`,
-        quote: 'Zoek-en-tel werkbladen passen perfect bij onze leesmethode.',
-      },
-      {
-        id: '3',
-        icon: '🏠',
-        title: 'Thuisonderwijzende Ouders - Oefenbladen Gratis Niveau voor Rekenen Werkbladen Thuis',
-        subtitle: 'Gratis werkblad voor kinderen thuis',
-        description: `Ouders die thuisonderwijs geven profiteren enorm van deze generator. Ze maken professionele werkbladen zonder grafische vaardigheden. De oefenbladen gratis niveau kwaliteit is indrukwekkend.
-
-Rekenen werkbladen voor thuis sluiten aan bij schoolmethodes. De visuele aanpak helpt kinderen begrijpen. Tellen wordt concreet door afbeeldingen. Ouders leggen makkelijker uit wat rekenen betekent.
-
-De flexibiliteit past bij thuisonderwijs. Maak werkbladen wanneer je wilt. Pas de moeilijkheid aan per kind. Geen vaste lesmethode die je moet volgen.`,
-        quote: 'Eén tool voor al mijn kinderen op verschillende niveaus.',
-      },
-      {
-        id: '4',
-        icon: '🌐',
-        title: 'NT2 en Taalleerkrachten - Letters Leren en Schrijven Oefenen met Visueel Zoeken',
-        subtitle: 'Werkblad voor kinderen taal en letters leren',
-        description: `Voor NT2-onderwijs zijn zoek-en-tel werkbladen bijzonder effectief. Nieuwkomers leren Nederlandse woorden via afbeeldingen. Ze zoeken objecten en horen de naam. Visueel leren overstijgt taalbarrières.
-
-De generator ondersteunt letters leren voor anderstaligen. Kinderen zoeken afbeeldingen die beginnen met een specifieke letter. Alle A-woorden: appel, auto, aap. Ze tellen en leren tegelijk.
-
-Schrijven oefenen combineert met zoekactiviteiten. Kinderen vinden een object en schrijven de naam. Dit versterkt spelling en woordherkenning. Het antwoordblad helpt bij zelfcontrole.`,
-        quote: 'Ik kan snel geïndividualiseerde werkbladen maken.',
-      },
-      {
-        id: '5',
-        icon: '🎓',
-        title: 'Leerkrachten Speciaal Onderwijs - Fijne Motoriek en Tafels Oefenen met Visuele Ondersteuning',
-        subtitle: 'Gratis printables speciaal onderwijs fijne motoriek',
-        description: `In het speciaal onderwijs bieden zoek-en-tel werkbladen structuur. De visuele aanpak werkt voor veel leerlingen. Het raster geeft overzicht. De zoektaak is duidelijk afgebakend.
-
-Voor fijne motoriek doelen zijn deze werkbladen perfect. Kinderen wijzen, tellen en schrijven. Elke stap oefent handvaardigheid. De afbeeldingen zijn groot genoeg om aan te raken.
-
-Tafels oefenen wordt visueel met zoekwerkbladen. Kinderen zoeken groepen van objecten. Drie groepen van vier sterren. Ze tellen eerst, dan vermenigvuldigen. Abstract wordt concreet.`,
-        quote: 'Perfecte ondersteuning voor mijn leerlingen met speciale behoeften.',
-      },
-      {
-        id: '6',
-        icon: '💰',
-        title: 'Leerkracht-Ondernemers - Kleurplaten en Werkbladen Groep 3 Verkopen met Commerciële Licentie',
-        subtitle: 'Gratis werkbladen verkopen commerciële licentie',
-        description: `De commerciële licentie opent deuren voor ondernemende leerkrachten. Je mag alle werkbladen verkopen die je maakt. Op Etsy, Teachers Pay Teachers of Amazon KDP.
-
-Zoek-en-tel werkbladen verkopen uitstekend. Ouders zoeken activiteiten voor thuis. Leerkrachten zoeken aanvulling op hun methode. Seizoensgebonden pakketten zijn populair.
-
-Combineer zoekwerkbladen met kleurplaten in je webshop. Maak thematische bundels. Pasen, Sinterklaas, zomervakantie. Complete lespakketten trekken meer kopers.`,
-        quote: 'Mijn abonnement heeft zichzelf terugverdiend in de eerste maand!',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // FAQ Section - FULL FAQs from find-and-count.md
@@ -403,58 +215,8 @@ Combineer zoekwerkbladen met kleurplaten in je webshop. Maak thematische bundels
     showLessLabel: 'Minder tonen',
     secureCheckout: 'Veilig betalen',
     cancelAnytime: 'Altijd opzegbaar',
-    items: [
-      {
-        id: '1',
-        question: 'Hoe Combineer Ik Gratis Werkblad Zoek en Tel met Veilig Leren Lezen en Werkblad voor Kleuters?',
-        answer: 'De zoek-en-tel generator integreert naadloos met Veilig leren lezen. Upload afbeeldingen van kernwoorden uit de huidige kern. Kinderen zoeken de kat, de maan of de roos in het raster. Ze tellen hoeveel ze vinden en noteren het getal. Voor werkbladen kleuters kies je een kleiner raster van vijf bij vijf. Dit geeft 25 zoekposities. Kleuters behouden het overzicht terwijl ze zoeken. Het tellen blijft binnen hun vaardigheidsniveau. De Veilig leren lezen woordenschat versterkt woordherkenning.',
-      },
-      {
-        id: '2',
-        question: 'Kan Ik Gratis Werkbladen Tafels Oefenen Combineren met Zoek en Tel voor Werkblad voor Kinderen Groep 3?',
-        answer: 'Absoluut. Zoek-en-tel werkbladen zijn ideaal voor visuele tafels oefenen. Kinderen zoeken groepen van objecten in het raster. Drie groepen van vier sterren bijvoorbeeld. Ze tellen eerst, dan vermenigvuldigen ze. Voor werkbladen groep 3 maak je grotere rasters met meer objecten. Kinderen zoeken en tellen hogere aantallen. De overgang naar vermenigvuldigen wordt concreet. Abstract rekenwerk krijgt visuele betekenis. Je voegt vermenigvuldigingsvragen toe via de teksttools.',
-      },
-      {
-        id: '3',
-        question: 'Zijn de Gratis Werkbladen Geschikt als Kleurplaten en Gratis Printables Niveau?',
-        answer: 'De afbeeldingen in de bibliotheek hebben kleurplaten kwaliteit. Heldere lijnen en herkenbare vormen. Kinderen kunnen de gevonden objecten inkleuren na het tellen. Zoeken, tellen en kleuren in één activiteit. De oefenbladen gratis niveau kwaliteit is gegarandeerd door 300 DPI export. Alle werkbladen printen scherp en professioneel. Geen korrelige afbeeldingen of vage lijnen. Printklaar materiaal voor elke printer.',
-      },
-      {
-        id: '4',
-        question: 'Hoe Ondersteunt Gratis Werkblad voor Kinderen Fijne Motoriek en Schrijven Oefenen?',
-        answer: 'Zoek-en-tel activiteiten oefenen fijne motoriek op meerdere manieren. Kinderen wijzen naar gevonden objecten. Ze tellen op hun vingers. Daarna schrijven ze het getal in het antwoordvakje. Voor schrijven oefenen voeg je extra tekstgebieden toe. Kinderen schrijven de naam van elk zoekobject. Ze tellen appels en schrijven "appel". Het werkblad combineert drie vaardigheden. De fijne motoriek ontwikkeling profiteert van de detailrijke afbeeldingen.',
-      },
-      {
-        id: '5',
-        question: 'Hoeveel Sommen tot 20 Kan Ik Op Één Gratis Werkblad voor Kinderen Plaatsen?',
-        answer: 'De rastergrootte bepaalt hoeveel telwerk mogelijk is. Een zes bij zes raster bevat 36 vakjes. Kinderen kunnen tot vier verschillende objecten zoeken en tellen. Elk object verschijnt meerdere keren. Voor sommen tot 20 houd je de aantallen per object onder twintig. In een klein raster zoeken kinderen bijvoorbeeld acht appels en twaalf peren. Beide tellingen blijven binnen het bereik. Grotere rasters van negen bij negen geven 81 posities.',
-      },
-      {
-        id: '6',
-        question: 'Kan Ik Gratis Werkblad voor Kinderen Maken met Eigen Afbeeldingen voor Veilig Leren Lezen?',
-        answer: 'Ja, de uploadfunctie accepteert je eigen afbeeldingen. JPG, PNG en GIF formaten werken allemaal. Upload plaatjes die passen bij je huidige Veilig leren lezen kern. Je rekenen werkbladen worden volledig gepersonaliseerd. Kinderen herkennen de afbeeldingen uit hun leesmethode. Het zoeken wordt betekenisvoller. De motivatie stijgt door herkenbare thema\'s. Combineer eigen uploads met bibliotheekafbeeldingen.',
-      },
-      {
-        id: '7',
-        question: 'Werkt de Gratis Werkbladen Generator voor Werkblad voor Kleuters en Hogere Groepen?',
-        answer: 'De zoek-en-tel generator is flexibel voor alle niveaus. Voor hogere groepen maak je complexere rasters. Meer zoekobjecten in grotere aantallen. Tafels oefenen wordt visueel en concreet. Kinderen zoeken groepen objecten voor vermenigvuldigingsoefeningen. Ze tellen het aantal per groep en het aantal groepen. Dan berekenen ze het totaal. Visueel rekenen voor abstracte concepten. De kleurplaten functie werkt voor alle leeftijden.',
-      },
-      {
-        id: '8',
-        question: 'Hoe Download Ik Werkblad voor Kleuters met Gratis Printables Kwaliteit en Antwoordblad?',
-        answer: 'Downloaden is eenvoudig met twee klikken. Kies PDF of JPEG formaat. PDF werkt het beste voor printen. JPEG is handig voor digitaal delen met ouders. De werkbladen kleuters hebben dezelfde oefenbladen gratis kwaliteit als alle andere niveaus. 300 DPI resolutie garandeert scherpe afdrukken. Antwoordbladen genereren automatisch met correcte aantallen. De grijswaarden optie bespaart inkt voor scholen met beperkt budget.',
-      },
-      {
-        id: '9',
-        question: 'Wat Kost een Basispakket voor Gratis Werkblad voor Kinderen Zoek en Tel?',
-        answer: 'Het Basispakket abonnement kost €144 per jaar of €15 per maand. Je krijgt toegang tot tien populaire werkblad generators waaronder de zoek-en-tel generator. Inclusief commerciële licentie voor verkoop van je materialen. Onbeperkt werkbladen maken zonder extra kosten per download. 3000+ afbeeldingen in de bibliotheek. 11 talen ondersteuning. 300 DPI professionele kwaliteit. 30 dagen geld-terug-garantie.',
-      },
-      {
-        id: '10',
-        question: 'Kan Ik Gratis Werkbladen Zoek en Tel Verkopen met de Commerciële Licentie?',
-        answer: 'Ja, je Basispakket abonnement bevat een volledige commerciële licentie. Verkoop je werkbladen op Teachers Pay Teachers, Etsy of Amazon KDP. Geen extra kosten per werkblad of per verkoop. Combineer zoek-en-tel werkbladen met kleurplaten tot complete pakketten. Themabundels verkopen beter dan losse werkbladen. De 300 DPI kwaliteit is professioneel genoeg voor verkoop. Kopers zien geen verschil met uitgeverijmateriaal.',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Pricing - Core Bundle pricing
@@ -501,56 +263,8 @@ Combineer zoekwerkbladen met kleurplaten in je webshop. Maak thematische bundels
       securePayment: 'Veilig betalen',
       cancelAnytime: 'Altijd opzegbaar',
     },
-    items: [
-      {
-        id: '1',
-        slug: 'image-addition',
-        name: 'Optellen',
-        category: 'Rekenen',
-        icon: '➕',
-        description: 'Combineer zoek-en-tel werkbladen met optelwerkbladen voor complete rekenlessen met visuele ondersteuning.',
-      },
-      {
-        id: '2',
-        slug: 'coloring',
-        name: 'Kleurplaten',
-        category: 'Creativiteit',
-        icon: '🎨',
-        description: 'Beloon voltooide zoekwerkbladen met thematische kleurplaten die de fijne motoriek ontwikkelen.',
-      },
-      {
-        id: '3',
-        slug: 'matching-app',
-        name: 'Matching',
-        category: 'Visueel',
-        icon: '🔗',
-        description: 'Combineer met matchingwerkbladen voor visuele discriminatie en concentratie-oefeningen.',
-      },
-      {
-        id: '4',
-        slug: 'word-search',
-        name: 'Woordzoeker',
-        category: 'Taal',
-        icon: '🔍',
-        description: 'Vul zoek-en-tel werkbladen aan met woordzoekers voor taalrijke activiteiten met Veilig leren lezen woorden.',
-      },
-      {
-        id: '5',
-        slug: 'drawing-lines',
-        name: 'Tekenlijnen',
-        category: 'Fijne Motoriek',
-        icon: '✏️',
-        description: 'Train basislijnen voor fijne motoriek ontwikkeling naast het zoeken en tellen.',
-      },
-      {
-        id: '6',
-        slug: 'chart-count-color',
-        name: 'Tellen en Kleuren',
-        category: 'Rekenen',
-        icon: '📊',
-        description: 'Combineer met tellen en kleuren werkbladen voor uitgebreide visuele rekenlessen.',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 };
 

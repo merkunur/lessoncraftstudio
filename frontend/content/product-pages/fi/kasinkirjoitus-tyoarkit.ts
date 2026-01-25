@@ -64,29 +64,8 @@ Generaattori toimii 11 kielellä mukaan lukien suomi. Kaikki käyttöliittymän 
     badgeText: 'Ilmaiset Esimerkit',
     downloadingLabel: 'Ladataan...',
     ofLabel: '/',
-    items: [
-      {
-        id: '1',
-        worksheetSrc: '/samples/finnish/writing/sample-1.jpeg',
-        answerKeySrc: '',
-        altText: 'Kirjaimet harjoittelu esikoulu käsinkirjoitustehtävä pystysuuntainen',
-        pdfDownloadUrl: '/samples/finnish/writing/sample-1.pdf',
-      },
-      {
-        id: '2',
-        worksheetSrc: '/samples/finnish/writing/sample-2.jpeg',
-        answerKeySrc: '',
-        altText: 'Kirjaimet harjoittelu esikoulu mukautettu käsinkirjoitustehtävä',
-        pdfDownloadUrl: '/samples/finnish/writing/sample-2.pdf',
-      },
-      {
-        id: '3',
-        worksheetSrc: '/samples/finnish/writing/sample-3.jpeg',
-        answerKeySrc: '',
-        altText: 'Kirjaimet harjoittelu esikoulu alkukirjaintehtävä',
-        pdfDownloadUrl: '/samples/finnish/writing/sample-3.pdf',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Features Grid - FULL text from Finnish writing.md feature sections
@@ -102,110 +81,8 @@ Generaattori toimii 11 kielellä mukaan lukien suomi. Kaikki käyttöliittymän 
       noHiddenFees: 'Ei piilomaksuja',
       cancelAnytime: 'Peruuta milloin tahansa',
     },
-    items: [
-      {
-        id: '1',
-        icon: '⚡',
-        title: 'Luo Käsinkirjoitustehtäviä Kolmella Klikkauksella - Tulostettavat Tehtävät Lapsille Ilmainen Generaattori',
-        description: `Ei muotoiluohjelmien taitoja tarvita. Valitse kirjasintyyli valikosta. Kirjoita harjoiteltava teksti. Klikkaa generoi ja tehtävä ilmestyy. Koko prosessi vie alle kolme minuuttia alusta loppuun.
-
-Generaattori tukee viittä kirjasintyliä. Print Regular on selkeä painokirjasintyyli. Print Regular Arrow sisältää suuntanuolet kirjoittamisen ohjaamiseen. Print Tracing käyttää pisteviiva-ääriviivoja jäljentämiseen. Print Tracing Arrow yhdistää pisteet ja nuolet. Cursive luo kauniita kursiivikirjaimia.
-
-Valitse kolmesta rivityypistä oppimisen etenemiseen. Trace-rivit näyttävät täydet kirjaimet jäljennettäväksi. Fading Trace -rivit haalentuvat asteittain. Guided Copy -rivit näyttävät ensimmäisen kirjaimen täytenä ja loput haalistuneina. Tämä asteittainen eteneminen tukee luontevaa oppimista.`,
-        highlighted: false,
-      },
-      {
-        id: '2',
-        icon: '✏️',
-        title: 'Muokkaa Kaikkea - Hienomotoriikka Harjoitukset Täydellä Muokkauskontrollilla',
-        description: `Jokainen elementti tehtävässä on muokattavissa. Vedä kuvia uusiin paikkoihin hiirellä. Muuta kokoa vetämällä kulmista. Kierrä objekteja vapaasti. Poista tarpeettomat elementit yhdellä klikkauksella.
-
-Lisää tekstiobjekteja otsikoiksi tai ohjeiksi. Valitse fontti seitsemästä vaihtoehdosta. Säädä fonttikokoa pikselitarkasti. Muuta tekstin väriä väripalettista. Lisää ääriviivat tekstiin korostusta varten. Jokainen tekstielementti on erikseen muokattavissa.
-
-Käsinkirjoitusrivit ovat myös muokattavia. Siirrä rivejä ylös tai alas. Poista tarpeettomia rivejä. Lisää uusia rivejä milloin tahansa. Jokainen rivi voi käyttää eri kirjasintyyliä ja rivityyppiä. Luo vaihtelevia harjoittelutehtäviä samalle sivulle.
-
-Muokkaustyökalut toimivat välittömästi. Ei odotusaikoja tai lataamisia. Vedä, pudota ja muokkaa reaaliajassa. Katso muutokset heti esikatselussa. Kokeile erilaisia asetteluja nopeasti.`,
-        highlighted: false,
-      },
-      {
-        id: '3',
-        icon: '📤',
-        title: 'Lataa Omia Kuvia - Personoi Esiopetus Materiaali Ilmainen Tehtävät',
-        description: `Lataa omia kuvia tehtäviin personointia varten. Tukee JPEG-, PNG- ja GIF-muotoja. Lataa useita tiedostoja kerralla. Yhdistä omia kuvia kirjaston 3000+ kuvaan.
-
-Omat kuvat tekevät tehtävistä henkilökohtaisempia. Käytä oppilaiden nimiä kuvina. Lisää luokan lemmikkieläimen kuva. Sisällytä paikallisesti tuttuja kohteita. Lapset motivoituvat harjoittelemaan kun sisältö on heille merkityksellistä.
-
-Ladatut kuvat näkyvät omassa galleriassaan. Valitse kuva yhdellä klikkauksella. Lisää valittu kuva tehtävään. Käytä samoja kuvia useissa tehtävissä. Rakenna johdonmukainen visuaalinen kieli oppimismateriaaleihisi.
-
-Kuvien lataus on rajatonta tilauksella. Ei tiedostokokorajoituksia. Ei kuvakohtaisia maksuja. Lataa niin monta kuvaa kuin tarvitset opetustarpeitasi varten.`,
-        highlighted: false,
-      },
-      {
-        id: '4',
-        icon: '🌍',
-        title: 'Tuki 11 Kielelle - Lukemaan Oppiminen Tehtävät Suomeksi ja Muilla Kielillä',
-        description: `Generaattori toimii 11 kielellä täydellisesti. Kaikki käyttöliittymän tekstit käännetty suomeksi. Valikot ja painikkeet suomeksi. Ohjeet ja vihjeet suomeksi. Suomalaisille opettajille äidinkielellä.
-
-Vaihda kieli milloin tahansa kielivalikosta. Englanti, saksa, ranska, espanja, italia, portugali. Hollanti, tanska, ruotsi, norja ja suomi. Ihanteellinen monikielisille kouluille ja kaksikieliselle opetukselle.
-
-Kielituki on erityisen tärkeä käsinkirjoitustehtävissä. Eri kielet käyttävät eri merkkejä. Suomi käyttää ä- ja ö-kirjaimia. Generaattori tukee kaikkia skandinaavisia erikoismerkkejä täydellisesti. Luo tehtäviä suomen aakkosten harjoitteluun.
-
-Kielivalinta ei vaikuta vain käyttöliittymään. Tehtävien sisältö voi olla millä tahansa kielellä. Luo suomenkielisiä sanoja harjoitteluun. Tai luo monikielisiä tehtäviä kielten oppimiseen. Täysi joustavuus opetussuunnitelmasi tarpeisiin.`,
-        highlighted: false,
-      },
-      {
-        id: '5',
-        icon: '💰',
-        title: 'Kaupallinen Lisenssi - Myy Tulostettavat Tehtävät Lapsille Teachers Pay Teachersissa',
-        description: `Täysi Pääsy -tilaus sisältää täyden kaupallisen print-on-demand-lisenssin. Myy luomiasi käsinkirjoitustehtäviä verkossa. Ei lisälisensointimaksuja. Ei rojalteja. Ei rajoituksia myyntimäärille.
-
-Myy Teachers Pay Teachersissa helposti. Lataa 300 DPI PDF-tiedostot. Luo tuotelistaukset muutamassa minuutissa. Hinnoittele tehtävät haluamallasi tavalla. Pidä kaikki myyntitulot itsellesi.
-
-Etsy-myynti toimii samalla lisenssillä. Luo tulostettavien tehtävien kauppa. Myy digitaalisia latauksia välittömästi. Ei fyysistä varastointia tai lähetystä. Täysin passiivinen tulonlähde opettajille.
-
-Amazon KDP low-content-kirjat ovat mahdollisia. Yhdistä käsinkirjoitustehtäviä työkirjoiksi. Julkaise Amazonissa maailmanlaajuisesti. Ansaitse rojalteja jokaisesta myynnistä. Rakenna pitkäaikainen tulonlähde opetusosaamisellasi.`,
-        highlighted: true,
-      },
-      {
-        id: '6',
-        icon: '🎨',
-        title: 'Yli 3000 Kuvaa - Värityskuvia Lapsille Tulostettava ja Kirjainharjoittelukuvia',
-        description: `Kuvakirjasto sisältää yli 3000 lapsille sopivaa kuvaa. Järjestetty teemoittain helppojen valintojen tekemiseen. Eläimet, ruoka, liikenne, luonto ja paljon muuta. Jokainen kuva on ammattitasoisesti piirretty.
-
-Valitse yksittäisiä kuvia selaamalla. Tai valitse koko teema kerralla. Teemavalinnat nopeuttavat työnkulkua huomattavasti. Halloweenteema tuo kaikki kurpitsat ja haamut. Jouluteema tuo joulupukin ja lumihiutaleet.
-
-Kaikki kuvat sisältyvät tilaukseen. Ei kuvakohtaisia lisämaksuja. Kilpailijat veloittavat 1-5 euroa per kuva. Säästät satoja euroja vuodessa verrattuna muihin alustoihin.
-
-Kuvat toimivat täydellisesti käsinkirjoitustehtävissä. Lisää kuva yläreunaan visuaaliseksi teemaksi. Käytä kuvia sanaharjoitteluun. Lapsi jäljentää kuvan nimen alla. Yhdistä visuaalinen oppiminen käsinkirjoitusharjoitteluun.`,
-        highlighted: false,
-      },
-      {
-        id: '7',
-        icon: '🖨️',
-        title: 'Ammattitasoinen 300 DPI Laatu - Kirjaimet Harjoittelu Esikoulu Tulostettavat PDF-tiedostot',
-        description: `Lataa tehtävät 300 DPI tarkkuudella. Täysin terävä tulostus kotitulostimella. Ammattitasoinen laatu jokaisessa tehtävässä. Sopii myös kaupalliseen painatukseen.
-
-Valitse PDF- tai JPEG-muoto lataukseen. PDF säilyttää vektorit terävänä. JPEG toimii useimmissa sovelluksissa. Molemmat muodot 300 DPI laadussa. Valitse parhaiten tarpeisiisi sopiva.
-
-Harmaasävyvaihtoehto säästää mustetta. Muunna väritehtävä mustavalkoiseksi yhdellä klikkauksella. Säästä jopa 70% mustekuluissa. Ihanteellinen päivittäiseen luokkahuonekäyttöön.
-
-Lataukset ovat välittömiä. Ei jonoja tai odotusaikoja. Klikkaa lataa ja tiedosto valmis. Tulosta samantien tai tallenna myöhempää käyttöä varten. Täysi nopeus ja laatu.`,
-        highlighted: true,
-      },
-      {
-        id: '8',
-        icon: '📝',
-        title: 'Viisi Kirjasintyyliä - Hienomotoriikka Harjoitukset Kaikille Taitotasoille',
-        description: `Generaattori tukee viittä eri kirjasintyyliä eri taitotasoille. Print Regular on selkeä ja yksinkertainen painokirjasintyyli. Sopii täydellisesti aloittelijoille ja kirjainten perusharjoitteluun.
-
-Print Regular Arrow sisältää nuolet kirjoitussuunnan ohjaamiseen. Näyttää lapselle mistä aloittaa ja mihin suuntaan edetä. Täydellinen oikean kirjoitussuunnan oppimiseen.
-
-Print Tracing käyttää pisteviiva-ääriviivoja jäljentämiseen. Lapsi seuraa pisteitä piirtäen kirjaimen muodon. Kehittää hienomotoriikkaa ja käden koordinaatiota.
-
-Print Tracing Arrow yhdistää pisteet ja nuolet. Paras vaihtoehto aloittelijoille jotka oppivat sekä muodon että suunnan. Cursive opettaa kaunokirjoitusta elegantilla tyylillä.`,
-        highlighted: false,
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // How-To Guide - FULL text from Finnish writing.md step sections
@@ -297,92 +174,8 @@ Tallenna tiedosto tietokoneellesi myöhempää käyttöä varten. Luo tehtäväp
     badgeText: 'Kenelle Sopii',
     readMoreLabel: 'Lue lisää',
     showLessLabel: 'Näytä vähemmän',
-    items: [
-      {
-        id: '1',
-        icon: '👶',
-        title: 'Esiopetuksen Opettajat - Tulostettavat Tehtävät Lapsille Ilmainen Esikouluun',
-        subtitle: 'Kirjainten Tunnistus ja Hienomotoriikka Harjoitukset',
-        description: `Esiopetuksessa lapset oppivat kirjaintunnistusta ja kynäotetta. Käsinkirjoitusgeneraattori tukee näitä perustavanlaatuisia taitoja. Luo yksinkertaisia jäljennöstehtäviä yksittäisille kirjaimille. Aloita isoista kirjaimista ja etene pieniin kirjaimiin.
-
-Trace-tyypin rivit sopivat täydellisesti 6-vuotiaille. Täydet kirjaimet näkyvät selkeästi. Lapsi piirtää suoraan kirjaimen päälle. Oppii oikean kirjoitussuunnan ja muodon. Toisto vahvistaa lihasmuistia.
-
-Lisää kuvia tekemään harjoittelusta hauskempaa. Kun harjoittelet kirjainta K, lisää kissakuva. Kun harjoittelet kirjainta A, lisää omenakuva. Visuaalinen yhteys motivoi lapsia. Tehtävästä tulee leikki oppimisen sijaan.
-
-Luo teemaviikkoja eri kirjaimille. Viikko 1 keskittyy kirjaimiin A-E. Viikko 2 käsittelee kirjaimia F-J. Järjestelmällinen eteneminen kattaa koko aakkoston. Lapset näkevät selkeän edistymisen.`,
-        quote: 'Oppilaani rakastavat käsinkirjoitustehtäviä osana päivittäistä rutiinia!',
-      },
-      {
-        id: '2',
-        icon: '📚',
-        title: 'Alakoulun Opettajat 1.-3. Luokka - Lukemaan Oppiminen Tehtävät',
-        subtitle: 'Hienomotoriikka Harjoitukset ja Kirjoitustaidon Kehitys',
-        description: `1. luokan opettajat tarvitsevat jatkuvaa käsinkirjoitusharjoittelua. Lapset oppivat lukemaan ja kirjoittamaan samanaikaisesti. Käsinkirjoitustehtävät yhdistävät molemmat taidot. Jäljennä sana samalla kun luet sen.
-
-Fading Trace -tyyli sopii 1. luokan keväälle täydellisesti. Lapset ovat harjoitelleet jäljentämistä syksyllä. Keväällä he ovat valmiita itsenäisempään kirjoittamiseen. Haalentuvat kirjaimet tarjoavat asteittaisen siirtymän. Tuki vähenee kun taito kasvaa.
-
-2. luokan opettajat keskittyvät sujuvuuteen. Kirjaimet ovat jo tuttuja. Nyt harjoitellaan nopeutta ja kauneutta. Guided Copy -rivit sopivat tähän täydellisesti. Yksi esimerkki ja paljon vapaata tilaa harjoitteluun.
-
-3. luokan opettajat käyttävät käsinkirjoitusta kaikissa aineissa. Harjoittele oikeinkirjoitussanoja käsinkirjoituksella. Kirjoita matematiikkasanoja numeroiden kanssa. Yhdistä kirjoitus- ja sisältöopetus.`,
-        quote: 'Käsinkirjoitus yhdistettynä lukemaan oppimiseen on tehokas yhdistelmä.',
-      },
-      {
-        id: '3',
-        icon: '🏠',
-        title: 'Kotiopettajat - Esiopetus Materiaali Ilmainen ja Personoitu Oppiminen',
-        subtitle: 'Joustava Materiaali Kaikille Ikätasoille',
-        description: `Kotiopettajat tarvitsevat joustavia materiaaleja. Jokainen lapsi oppii omaan tahtiin. Käsinkirjoitusgeneraattori mahdollistaa täydellisen personoinnin. Luo tehtävät juuri lapsesi taitotasolle. Ei liian helppoja eikä liian vaikeita.
-
-Opeta useaa lasta samanaikaisesti eri tasoilla. 6-vuotias harjoittelee Trace-tehtävillä. 8-vuotias tekee Guided Copy -tehtäviä. 10-vuotias kirjoittaa kursiivilla. Kaikki tehtävät samasta generaattorista. Säästää aikaa ja rahaa.
-
-Yhdistä käsinkirjoitus perheen kiinnostuksiin. Jos perhe rakastaa luontoa, käytä luontosanoja. Jos lapset rakastavat dinosauruksia, kirjoita dinosaurusten nimiä. Personointi pitää motivaation korkeana. Lapset harjoittelevat mielellään kiinnostavia aiheita.
-
-Luo pitkän aikavälin oppimissuunnitelma. Syyslukukauden tavoitteet ja kevätlukukauden tavoitteet. Harjoittele systemaattisesti läpi lukuvuoden. Seuraa edistymistä säännöllisesti.`,
-        quote: 'Yksi työkalu kattaa kaikkien lasteni ikätasot.',
-      },
-      {
-        id: '4',
-        icon: '🌍',
-        title: 'Kielten Opettajat - Lukemaan Oppiminen Tehtävät Useilla Kielillä',
-        subtitle: 'Suomen ja Vieraiden Kielten Opetus',
-        description: `Suomen kielen opettajat tarvitsevat erikoismerkkien harjoittelua. Ä ja ö ovat olennaisia suomen kirjoituksessa. Generaattori tukee täydellisesti kaikkia skandinaavisia merkkejä. Luo tehtäviä suomen aakkosten harjoitteluun.
-
-Englannin kielen opettajat käyttävät käsinkirjoitusta sanasto-oppimiseen. Kirjoita uudet sanat käsin muistin vahvistamiseksi. Tutkimukset osoittavat että käsinkirjoitus parantaa muistia. Parempi kuin näppäimistöllä kirjoittaminen oppimisen kannalta.
-
-Ruotsin kielen opettajat harjoittelevat å, ä ja ö -kirjaimia. Generaattorin kielituki kattaa ruotsin täydellisesti. Vaihda käyttöliittymä ruotsiksi. Luo tehtäviä ruotsin sanaston harjoitteluun. Monikielinen tuki yhdessä työkalussa.
-
-Kaksikielisessä opetuksessa käsinkirjoitus on tärkeää molemmilla kielillä. Luo suomenkielisiä tehtäviä aamupäivällä. Luo ruotsinkielisiä tehtäviä iltapäivällä. Sama työkalu palvelee molempia kieliä.`,
-        quote: 'Visuaalinen oppiminen auttaa oppilaita muistamaan sanoja.',
-      },
-      {
-        id: '5',
-        icon: '💜',
-        title: 'Erityisopettajat - Hienomotoriikka Harjoitukset ja Yksilöllinen Tuki',
-        subtitle: 'Mukautettavat Tehtävät Erityistarpeisiin',
-        description: `Erityisopettajat tarvitsevat erittäin joustavia materiaaleja. Jokainen oppilas tarvitsee yksilöllisen lähestymistavan. Käsinkirjoitusgeneraattori mahdollistaa täydellisen mukauttamisen. Luo tehtävät jokaisen oppilaan tarpeisiin.
-
-Motoriset haasteet vaativat suurempia kirjaimia. Säädä kirjasinkokoa täsmälleen sopivaksi. Suuret kirjaimet ovat helpompia jäljentää. Pienennä kokoa vähitellen taitojen kehittyessä. Asteittainen eteneminen tukee onnistumista.
-
-Tarkkaavuusvaikeudet vaativat yksinkertaisia tehtäviä. Luo lyhyitä rivejä vähäisellä visuaalisella hälytyksellä. Ei monimutkaisia taustoja tai reunoja. Selkeä ja yksinkertainen asettelu. Keskittyminen pysyy käsinkirjoituksessa.
-
-Dysleksiset oppilaat tarvitsevat multisensorista oppimista. Yhdistä käsinkirjoitus kuviin ja ääniin. Sano kirjaimen ääni ääneen kirjoittaessa. Katso kuvaa kirjoittaessa sanaa. Usean aistin käyttö vahvistaa oppimista.`,
-        quote: 'Voin nopeasti mukauttaa tehtäviä jokaisen oppilaan tarpeisiin.',
-      },
-      {
-        id: '6',
-        icon: '💰',
-        title: 'Yrittäjäopettajat - Myy Tulostettavat Tehtävät Teachers Pay Teachersissa',
-        subtitle: 'Kaupallinen Lisenssi ja Passiivinen Tulo',
-        description: `Yrittäjäopettajat luovat ja myyvät opetusmateriaaleja. Käsinkirjoitustehtävät myyvät erittäin hyvin verkossa. Teachers Pay Teachers on täynnä käsinkirjoitustuotteita. Kilpailu on kovaa mutta kysyntä on valtava.
-
-Täysi Pääsy -tilaus sisältää kaupallisen lisenssin. Myy luomiasi tehtäviä rajoituksetta. Ei rojalteja tai lisämaksuja. Pidä kaikki myyntitulot itsellesi. Generaattorin vuosimaksu maksaa itsensä takaisin muutamalla tuotemyynnillä.
-
-Luo teemakohtaisia tehtäväpaketteja. Halloween-käsinkirjoituspaketti lokakuulle. Joulu-käsinkirjoituspaketti joulukuulle. Teemapaketit myyvät hyvin kausiluonteisesti. Opettajat ostavat valmiita materiaaleja kiireisiin aikoihin.
-
-Amazon KDP -käsinkirjoituskirjat ovat passiivista tuloa. Luo 100-sivuinen käsinkirjoitusharjoittelukirja. Julkaise Amazon Kindle Direct Publishingissa. Ansaitse rojalteja jokaisesta myynnistä. Rakenna pitkäaikainen tulonlähde kerran tehdyllä työllä.`,
-        quote: 'Tilaukseni maksoi itsensä takaisin ensimmäisessä kuussa!',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // FAQ Section - Selected FAQs from Finnish writing.md
@@ -396,68 +189,8 @@ Amazon KDP -käsinkirjoituskirjat ovat passiivista tuloa. Luo 100-sivuinen käsi
     showLessLabel: 'Näytä vähemmän',
     secureCheckout: 'Turvallinen maksu',
     cancelAnytime: 'Peruuta milloin tahansa',
-    items: [
-      {
-        id: '1',
-        question: 'Onko Tämä Käsinkirjoitusgeneraattori Todella Ilmainen Käyttää - Tulostettavat Tehtävät Lapsille Ilmainen Hinnoittelu?',
-        answer: 'Käsinkirjoitusgeneraattori vaatii Täysi Pääsy -tilauksen joka maksaa 240€ vuodessa tai 25€ kuukaudessa. Tilauksesi antaa rajattoman käsinkirjoitustehtävien luomisen ilman tehtäväkohtaisia maksuja. Generoi niin monta kirjaimet harjoittelu esikoulu tehtävää kuin tarvitset ilman lisäkustannuksia. Täysi Pääsy sisältää kaikki 33 tehtävägeneraattoria alustalla.',
-      },
-      {
-        id: '2',
-        question: 'Voinko Tulostaa Käsinkirjoitustehtäviä Kotona Tavallisella Tulostimella - Hienomotoriikka Harjoitukset Kotitulostus?',
-        answer: 'Kyllä. Käsinkirjoitustehtävät tulostavat täydellisesti tavallisilla kotitulostimilla. Lataa tehtävät 300 DPI PDF-muodossa. Avaa PDF tietokoneellasi. Tulosta millä tahansa inkjet- tai lasertulostimella. A4-paperi on standardi Euroopassa mukaan lukien Suomi. Harmaasävyvaihtoehto säästää värimustetta jopa 70%.',
-      },
-      {
-        id: '3',
-        question: 'Tarvitsenko Suunnittelutaitoja Luodakseni Kirjaimet Harjoittelu Esikoulu Tehtäviä?',
-        answer: 'Ei. Ei suunnittelutaitoja tarvita ollenkaan. Generaattori on suunniteltu tavallisille opettajille. Ei graafisen suunnittelun kokemusta vaadittu. Käyttöliittymä on äärimmäisen yksinkertainen. Valitse vaihtoehdot valikoista. Kirjoita harjoiteltava teksti tekstikenttään. Klikkaa generoi-painiketta. Tehtävä ilmestyy välittömästi.',
-      },
-      {
-        id: '4',
-        question: 'Voinko Käyttää Käsinkirjoitustehtäviä Luokassani Oppilaille - Lukemaan Oppiminen Tehtävät Luokkahuonekäyttö?',
-        answer: 'Kyllä. Täysi Pääsy -tilaus sisältää rajattoman luokkahuonekäytön. Luo tehtäviä kaikille oppilaillesi. Tulosta niin monta kopiota kuin tarvitset. Jaa tehtävät oppilaille vapaasti. Ei rajoituksia oppilasmäärille tai kopioille. Käytä tehtäviä päivittäisessä opetuksessa.',
-      },
-      {
-        id: '5',
-        question: 'Millä Kielillä Käsinkirjoitustehtävät Ovat Saatavilla - Hienomotoriikka Harjoitukset Monikielisesti?',
-        answer: 'Generaattori toimii 11 kielellä täydellisesti. Suomi, ruotsi, englanti, saksa, ranska, espanja, italia, portugali, hollanti, tanska ja norja. Kaikki käyttöliittymän tekstit käännetty ammattimaisesti jokaiselle kielelle. Erikoismerkit toimivat täydellisesti kaikilla kielillä. Suomen ä ja ö. Ruotsin å, ä ja ö.',
-      },
-      {
-        id: '6',
-        question: 'Voinko Myydä Luomiani Käsinkirjoitustehtäviä - Esiopetus Materiaali Ilmainen Kaupallinen Lisenssi Myyntiin?',
-        answer: 'Kyllä. Täysi Pääsy -tilaus sisältää täyden kaupallisen print-on-demand-lisenssin. Myy luomiasi käsinkirjoitustehtäviä verkossa rajoituksetta. Teachers Pay Teachers, Etsy, Amazon KDP ja kaikki muut alustat ovat sallittuja. Ei rojalteja tai lisämaksuja. Monet opettajat ansaitsevat 500-5000€ kuukaudessa.',
-      },
-      {
-        id: '7',
-        question: 'Kuinka Mukautetaan Käsinkirjoitustehtäviä Oppilailleni - Esiopetus Materiaali Ilmainen Personointi?',
-        answer: 'Muokkaus on täysin joustavaa. Jokainen elementti tehtävässä on muokattavissa. Klikkaa mitä tahansa objektia valitaksesi sen. Vedä uuteen paikkaan. Muuta kokoa vetämällä kulmista. Kierrä vapaasti kiertokahvasta. Lisää omia kuvia personointia varten. Lataa oppilaiden kuvat. Luo useita versioita samasta tehtävästä eri tasoille.',
-      },
-      {
-        id: '8',
-        question: 'Mille Ikäryhmille Käsinkirjoitustehtävät Sopivat - Hienomotoriikka Harjoitukset Esiopetuksesta Alakouluun?',
-        answer: 'Käsinkirjoitustehtävät sopivat 5-10-vuotiaille lapsille. Esikoululaiset (6-vuotiaat) aloittavat kirjainten jäljentämisen. Alakoulun 1.-3. luokat (7-9-vuotiaat) kehittävät sujuvuutta. Trace-tyypin rivit sopivat täydellisesti 6-vuotiaille. Fading Trace sopii 1. luokalle. Guided Copy sopii 2.-3. luokille.',
-      },
-      {
-        id: '9',
-        question: 'Voinko Ladata Omia Kuvia Käsinkirjoitustehtäviin - Tulostettavat Tehtävät Lapsille Ilmainen Personointi Kuvilla?',
-        answer: 'Kyllä. Oma kuvien lataus on yksi tärkeimmistä ominaisuuksista. Lataa JPEG-, PNG- tai GIF-kuvia. Lataa useita tiedostoja kerralla. Ei tiedostokokorajoituksia. Yhdistä omia kuvia kirjaston 3000+ kuvaan. Ladatut kuvat tallennetaan tilillesi. Käytä samoja kuvia useissa tehtävissä.',
-      },
-      {
-        id: '10',
-        question: 'Kauanko Käsinkirjoitustehtävän Luominen Vie - Kirjaimet Harjoittelu Esikoulu Nopea Luominen?',
-        answer: 'Ensimmäisen tehtävän luominen vie 3-5 minuuttia. Toisen tehtävän luominen vie 1-2 minuuttia. Kolmannesta tehtävästä eteenpäin vie alle minuutin. Voit luoda 10 tehtävää 10 minuutissa. Perinteinen käsinkirjoitustehtävän luominen vie 30-60 minuuttia. Generaattori tekee saman 3 minuutissa.',
-      },
-      {
-        id: '11',
-        question: 'Voiko Käsinkirjoitustehtäviä Luoda Tietyistä Kouluaineista - Lukemaan Oppiminen Tehtävät Ainekohtaisesti?',
-        answer: 'Kyllä. Käsinkirjoitustehtävät sopivat kaikkiin kouluaineisiin. Kirjoita aineeseen liittyviä sanoja ja lauseita. Suomen kielen tunneilla harjoittele oikeinkirjoitussanoja. Matematiikan tunneilla kirjoita matematiikkasanoja. Historian tunneilla kirjoita historiallisia nimiä ja paikkoja. Yhdistä käsinkirjoitusharjoittelu sisältöoppimiseen.',
-      },
-      {
-        id: '12',
-        question: 'Voiko Käsinkirjoitusta Yhdistää Muihin Hienomotoriikka Harjoituksiin - Esiopetus Materiaali Ilmainen Kokonaisvaltainen Kehitys?',
-        answer: 'Kyllä. Käsinkirjoitus on vain yksi osa hienomotoriikan kehitystä. Yhdistä käsinkirjoitus värityskuviin, pisteestä pisteeseen tehtäviin ja lukemaan oppiminen tehtäviin. Täysi Pääsy sisältää kaikki 33 generaattoria. Luo kokonaisvaltainen hienomotoriikan kehitysohjelma yhdellä tilauksella.',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Pricing - Finnish Full Access terminology
@@ -527,56 +260,8 @@ Amazon KDP -käsinkirjoituskirjat ovat passiivista tuloa. Luo 100-sivuinen käsi
       securePayment: 'Turvallinen maksu',
       cancelAnytime: 'Peruuta milloin tahansa',
     },
-    items: [
-      {
-        id: '1',
-        slug: 'coloring',
-        name: 'Värityskuvat',
-        category: 'Luovuus',
-        icon: '🎨',
-        description: 'Yhdistä käsinkirjoitus värityskuviin hienomotoriikan kokonaisvaltaiseen kehitykseen.',
-      },
-      {
-        id: '2',
-        slug: 'alphabet-train',
-        name: 'Aakkosjuna',
-        category: 'Kieli',
-        icon: '🚂',
-        description: 'Opeta kirjaimia hauskoilla junateemaisilla aakkostehtävillä käsinkirjoituksen ohella.',
-      },
-      {
-        id: '3',
-        slug: 'drawing-lines',
-        name: 'Viivanjäljitys',
-        category: 'Hienomotoriikka',
-        icon: '✍️',
-        description: 'Kehitä kynäotetta ja hienomotoriikkaa viivanjäljitystehtävillä käsinkirjoituksen lisäksi.',
-      },
-      {
-        id: '4',
-        slug: 'word-scramble',
-        name: 'Sanansekoitus',
-        category: 'Kieli',
-        icon: '🔤',
-        description: 'Yhdistä käsinkirjoitus sanansekoitustehtäviin lukutaidon kehittämiseksi.',
-      },
-      {
-        id: '5',
-        slug: 'matching',
-        name: 'Yhdistämistehtävät',
-        category: 'Logiikka',
-        icon: '🔗',
-        description: 'Kehitä loogista ajattelua yhdistämistehtävillä käsinkirjoituksen rinnalla.',
-      },
-      {
-        id: '6',
-        slug: 'find-and-count',
-        name: 'Etsi ja Laske',
-        category: 'Matematiikka',
-        icon: '🔍',
-        description: 'Yhdistä laskeminen etsintätehtäviin visuaalisen numerotuntemuksen kehittämiseksi.',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 };
 

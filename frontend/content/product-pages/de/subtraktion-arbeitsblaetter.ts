@@ -114,43 +114,8 @@ Der Generator unterstützt 11 Sprachen für die Benutzeroberfläche und Bildbesc
     badgeText: 'Kostenlose Beispiele',
     downloadingLabel: 'Wird heruntergeladen...',
     ofLabel: 'von',
-    items: [
-      {
-        id: '1',
-        worksheetSrc: '/samples/german/subtraction/sample-1.jpeg',
-        answerKeySrc: '/samples/german/subtraction/sample-1-answer.jpeg',
-        altText: 'Subtraktion Arbeitsblatt mit Durchstreich-Modus für Arbeitsblätter Grundschule - Minusrechnen kostenlos',
-        pdfDownloadUrl: '/samples/german/subtraction/sample-1.pdf',
-      },
-      {
-        id: '2',
-        worksheetSrc: '/samples/german/subtraction/sample-2.jpeg',
-        answerKeySrc: '/samples/german/subtraction/sample-2-answer.jpeg',
-        altText: 'Mathe Arbeitsblätter Bild-Zahl-Modus für Vorschule Arbeitsblätter - Rechnen lernen spielerisch',
-        pdfDownloadUrl: '/samples/german/subtraction/sample-2.pdf',
-      },
-      {
-        id: '3',
-        worksheetSrc: '/samples/german/subtraction/sample-3.jpeg',
-        answerKeySrc: '/samples/german/subtraction/sample-3-answer.jpeg',
-        altText: 'Kostenlose Arbeitsblätter zum Subtrahend finden für Rechnen 1. Klasse und Arbeitsblatt für Kinder',
-        pdfDownloadUrl: '/samples/german/subtraction/sample-3.pdf',
-      },
-      {
-        id: '4',
-        worksheetSrc: '/samples/german/subtraction/sample-4.jpeg',
-        answerKeySrc: '/samples/german/subtraction/sample-4-answer.jpeg',
-        altText: 'Subtraktion Arbeitsblätter gemischter Modus für Kostenloses Arbeitsblatt Vorschule und Grundschule',
-        pdfDownloadUrl: '/samples/german/subtraction/sample-4.pdf',
-      },
-      {
-        id: '5',
-        worksheetSrc: '/samples/german/subtraction/sample-5.jpeg',
-        answerKeySrc: '/samples/german/subtraction/sample-5-answer.jpeg',
-        altText: 'Minusrechnen Arbeitsblätter für Kostenlose Druckvorlagen - Mathe Arbeitsblätter Grundschule',
-        pdfDownloadUrl: '/samples/german/subtraction/sample-5.pdf',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Features Grid - FULL text from subtraktion.md feature sections
@@ -166,71 +131,8 @@ Der Generator unterstützt 11 Sprachen für die Benutzeroberfläche und Bildbesc
       noHiddenFees: 'Keine versteckten Kosten',
       cancelAnytime: 'Jederzeit kündbar',
     },
-    items: [
-      {
-        id: '1',
-        icon: '⚡',
-        title: 'Subtraktion Arbeitsblätter in 3 Klicks erstellen - Schneller Mathe Arbeitsblätter Generator für Rechnen lernen',
-        description: `Die Erstellung von Subtraktion Arbeitsblättern gelingt in nur drei Schritten. Wählen Sie zuerst ein Bilderthema aus der Bibliothek. Stellen Sie dann die Schwierigkeit ein. Klicken Sie auf Generieren. Ihr Mathe Arbeitsblatt erscheint sofort auf dem Bildschirm. Der gesamte Vorgang dauert weniger als eine Minute.
-
-Der Generator bietet vier verschiedene Übungsmodi für das Rechnen lernen. Der Durchstreich-Modus zeigt Bilder zum Durchstreichen. Der Bild-Zahl-Modus kombiniert Bilder mit Zahlen. Der Subtrahend-finden-Modus fordert das Finden der fehlenden Zahl. Der gemischte Modus wechselt zwischen verschiedenen Aufgabentypen.`,
-        highlighted: false,
-      },
-      {
-        id: '2',
-        icon: '✏️',
-        title: 'Vorschule Arbeitsblätter und Arbeitsblätter Grundschule - Volle Bearbeitbarkeit für alle Mathe Arbeitsblätter',
-        description: `Jedes Element auf dem Arbeitsblatt lässt sich frei bearbeiten. Verschieben Sie Bilder an beliebige Positionen. Vergrößern oder verkleinern Sie einzelne Elemente. Drehen Sie Objekte nach Bedarf. Diese Flexibilität macht unsere Vorschule Arbeitsblätter und Arbeitsblätter Grundschule einzigartig.
-
-Fügen Sie eigenen Text hinzu mit verschiedenen Schriftarten. Wählen Sie aus sieben kindgerechten Schriftarten. Passen Sie Textfarbe und Größe individuell an. Fügen Sie Umrandungen für bessere Lesbarkeit hinzu. So werden Ihre Mathe Arbeitsblätter persönlich und ansprechend.`,
-        highlighted: false,
-      },
-      {
-        id: '3',
-        icon: '📤',
-        title: 'Kostenlose Arbeitsblätter mit eigenen Bildern - Subtraktion Arbeitsblätter personalisieren für Rechnen 1. Klasse',
-        description: `Laden Sie eigene Bilder hoch für personalisierte Subtraktion Arbeitsblätter. Der Generator akzeptiert alle gängigen Bildformate. Nutzen Sie Klassenfotos oder thematische Bilder. Kombinieren Sie hochgeladene Bilder mit der Bibliothek. Perfekt für kostenlose Arbeitsblätter zu besonderen Anlässen.
-
-Diese Funktion eignet sich besonders für Rechnen 1. Klasse. Kinder erkennen vertraute Bilder und bleiben motiviert. Lehrer können saisonale Themen einbinden. Weihnachten, Ostern oder Schuljahresbeginn werden lebendig. Die Personalisierung steigert den Lernerfolg nachweislich.`,
-        highlighted: false,
-      },
-      {
-        id: '4',
-        icon: '🌍',
-        title: 'Mathe Arbeitsblätter in 11 Sprachen - Subtraktion Arbeitsblätter für mehrsprachigen Unterricht',
-        description: `Der Subtraktion Arbeitsblätter Generator unterstützt 11 Sprachen vollständig. Die Benutzeroberfläche erscheint in Ihrer gewählten Sprache. Bildbeschriftungen passen sich automatisch an. Arbeitsblatt-Titel werden übersetzt. Ideal für den mehrsprachigen Mathe-Unterricht.
-
-Verfügbare Sprachen sind Deutsch, Englisch, Französisch und Spanisch. Dazu kommen Portugiesisch, Italienisch und Niederländisch. Skandinavische Sprachen umfassen Schwedisch, Dänisch und Norwegisch. Finnisch rundet das Angebot ab. So erreichen Sie Schüler aller Herkunftssprachen.`,
-        highlighted: false,
-      },
-      {
-        id: '5',
-        icon: '💰',
-        title: 'Arbeitsblätter Grundschule mit kommerzieller Lizenz - Mathe Arbeitsblätter zum Verkauf erstellen',
-        description: `Das Vollzugriff Abonnement enthält eine vollständige kommerzielle Lizenz. Verkaufen Sie Ihre Subtraktion Arbeitsblätter auf Teachers Pay Teachers. Bieten Sie Mathe Arbeitsblätter auf Etsy an. Veröffentlichen Sie bei Amazon KDP. Keine zusätzlichen Lizenzgebühren erforderlich.
-
-Die 300 DPI Exportqualität erfüllt professionelle Druckstandards. Jedes Arbeitsblatt eignet sich für den kommerziellen Druck. Die Lizenz gilt für unbegrenzt viele Arbeitsblätter Grundschule. Teacher-Preneure nutzen diese Möglichkeit für passives Einkommen. Ihre Vorschule Arbeitsblätter können weltweit verkauft werden.`,
-        highlighted: true,
-      },
-      {
-        id: '6',
-        icon: '🎨',
-        title: 'Über 3000 Bilder für Vorschule Arbeitsblätter und Mathe Arbeitsblätter - Umfangreiche Bildbibliothek',
-        description: `Die integrierte Bildbibliothek enthält über 3000 kindgerechte Illustrationen. Alle Bilder sind thematisch organisiert. Tiere, Fahrzeuge, Lebensmittel und mehr stehen bereit. Eine Suchfunktion findet schnell das gewünschte Motiv. Perfekt für abwechslungsreiche Vorschule Arbeitsblätter.
-
-Jedes Bild wurde für den Bildungsbereich optimiert. Klare Konturen erleichtern das Erkennen. Freundliche Farben motivieren Kinder. Die Bilder eignen sich für alle Mathe Arbeitsblätter. Auch Graustufen-Export ist möglich für kostengünstiges Drucken.`,
-        highlighted: true,
-      },
-      {
-        id: '7',
-        icon: '🖨️',
-        title: 'Kostenlose Arbeitsblätter in Profiqualität - 300 DPI Export für Arbeitsblätter Grundschule und Vorschule Arbeitsblätter',
-        description: `Exportieren Sie Ihre Arbeitsblätter in professioneller 300 DPI Qualität. Wählen Sie zwischen JPEG und PDF Format. Die Graustufen-Option spart Druckkosten. Jedes Arbeitsblatt behält seine Qualität beim Drucken. Kostenlose Arbeitsblätter waren noch nie so professionell.
-
-Der Generator erstellt automatisch einen Lösungsschlüssel. Dieser zeigt alle korrekten Antworten übersichtlich. Der Lösungsschlüssel nutzt farbliche Hervorhebungen. Grüne Markierungen zeigen die Lösungen deutlich. So sparen Lehrkräfte Zeit bei der Korrektur.`,
-        highlighted: true,
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // How-To Guide - FULL text from subtraktion.md
@@ -312,78 +214,8 @@ Laden Sie Arbeitsblatt und Lösungsschlüssel separat herunter. Beide Dateien si
     badgeText: 'Anwendungsbereiche',
     readMoreLabel: 'Mehr lesen',
     showLessLabel: 'Weniger anzeigen',
-    items: [
-      {
-        id: '1',
-        icon: '🎒',
-        title: 'Erzieher und Vorschullehrer - Vorschule Arbeitsblätter für erstes Rechnen lernen und Minusrechnen',
-        subtitle: 'Vorschule Arbeitsblätter und Mathe Arbeitsblätter für frühe Bildung',
-        description: `Erzieher in Kindertagesstätten nutzen unsere Vorschule Arbeitsblätter für den mathematischen Erstunterricht. Das Rechnen lernen beginnt mit einfachen Mengenvergleichen. Der Durchstreich-Modus vermittelt Subtraktion spielerisch. Kinder streichen Bilder durch und erleben Minusrechnen konkret.
-
-Die Vorschule Arbeitsblätter verwenden große, klare Bilder. Der Zahlenbereich bleibt bewusst klein. Zwei bis fünf ist ideal für Vorschulkinder. Erzieher schätzen die schnelle Erstellung individueller Materialien. Thematische Bilder passen zu aktuellen Projekten in der Kita.`,
-        quote: 'Meine Vorschulkinder lieben die bunten Subtraktionsübungen mit Tierbildern!',
-      },
-      {
-        id: '2',
-        icon: '📚',
-        title: 'Grundschullehrer 1. bis 3. Klasse - Arbeitsblätter Grundschule für Minusrechnen und Rechnen 1. Klasse',
-        subtitle: 'Arbeitsblätter Grundschule, Mathe Arbeitsblätter und kostenlose Arbeitsblätter',
-        description: `Grundschullehrer der 1. Klasse führen das systematische Minusrechnen ein. Unsere Arbeitsblätter Grundschule bieten differenzierte Übungsmöglichkeiten. Der Zahlenbereich lässt sich von 5 bis 20 anpassen. So wachsen die Anforderungen mit den Fähigkeiten der Kinder.
-
-Für Rechnen 1. Klasse eignet sich der Bild-Zahl-Modus besonders gut. Kinder verbinden visuelle Mengen mit abstrakten Zahlen. Die Arbeitsblätter Grundschule unterstützen den Übergang zum Kopfrechnen. Lehrer der 2. und 3. Klasse nutzen den erweiterten Zahlenbereich bis 20.
-
-Der gemischte Modus bietet Abwechslung im Unterricht. Verschiedene Aufgabentypen fordern unterschiedliche Denkweisen. Die Arbeitsblätter Grundschule eignen sich für Einzel-, Partner- und Gruppenarbeit. Lehrkräfte sparen wertvolle Vorbereitungszeit durch schnelle Generierung.`,
-        quote: 'Ich erstelle differenzierte Subtraktion-Arbeitsblätter für alle meine Mathematikgruppen in Minuten!',
-      },
-      {
-        id: '3',
-        icon: '🏠',
-        title: 'Homeschooling-Eltern - Kostenlose Arbeitsblätter für Mathe Arbeitsblätter zu Hause erstellen',
-        subtitle: 'Rechnen lernen und Rechnen 1. Klasse für individuelles Lerntempo',
-        description: `Homeschooling-Familien benötigen vielfältige Lernmaterialien. Unsere kostenlosen Arbeitsblätter decken den Mathematikunterricht ab. Eltern erstellen Mathe Arbeitsblätter passend zum aktuellen Lernstand. Die Anpassung an individuelle Bedürfnisse gelingt mühelos.
-
-Der Generator ermöglicht thematische Gestaltung nach Interessen des Kindes. Liebt Ihr Kind Dinosaurier, erstellen Sie Dino-Mathe Arbeitsblätter. Die Personalisierung steigert die Lernmotivation erheblich. Kostenlose Arbeitsblätter in dieser Qualität sind sonst kaum verfügbar.
-
-Homeschooling-Eltern unterrichten oft mehrere Kinder verschiedenen Alters. Der anpassbare Schwierigkeitsgrad ermöglicht differenziertes Material. Jedes Kind erhält passende Herausforderungen. Die kommerzielle Lizenz erlaubt auch den Verkauf eigener Materialien.`,
-        quote: 'Ein Werkzeug deckt alle Klassenstufen meiner Kinder ab.',
-      },
-      {
-        id: '4',
-        icon: '🌐',
-        title: 'DaZ und DaF-Lehrkräfte - Subtraktion Arbeitsblätter für mehrsprachigen Mathematikunterricht',
-        subtitle: 'Kostenlose Arbeitsblätter für mehrsprachige Klassenzimmer',
-        description: `Lehrkräfte für Deutsch als Zweitsprache nutzen Subtraktion Arbeitsblätter für sprachsensiblen Fachunterricht. Mathematik ist eine universelle Sprache. Bilder transportieren mathematische Konzepte ohne Sprachbarrieren. Der Generator unterstützt 11 verschiedene Sprachen.
-
-Internationale Vorbereitungsklassen profitieren besonders von unseren Subtraktion Arbeitsblättern. Neue Schüler verstehen die Aufgaben durch visuelle Darstellung. Die Benutzeroberfläche erscheint in der Muttersprache. Bildbeschriftungen helfen beim Deutschlernen nebenbei.
-
-Bilinguale Schulen erstellen zweisprachige Materialien mit dem Generator. Der Sprachwechsel erfolgt mit einem Klick. So entstehen Arbeitsblätter für den immersiven Unterricht. Mathematik und Sprachförderung verbinden sich optimal.`,
-        quote: 'Die Mehrsprachigkeit ist genau was meine DaZ-Schüler brauchen.',
-      },
-      {
-        id: '5',
-        icon: '♿',
-        title: 'Förderschullehrer und Sonderpädagogen - Vorschule Arbeitsblätter und Arbeitsblätter Grundschule für inklusive Förderung',
-        subtitle: 'Mathe Arbeitsblätter für differenzierte Lernbedürfnisse',
-        description: `Sonderpädagogen schätzen die Differenzierungsmöglichkeiten unserer Vorschule Arbeitsblätter. Kinder mit Lernschwierigkeiten benötigen angepasste Materialien. Der reduzierte Zahlenbereich verhindert Überforderung. Große Bilder und klare Strukturen unterstützen das Verständnis.
-
-Die Arbeitsblätter Grundschule eignen sich für inklusive Settings. Förderschullehrer erstellen individualisierte Übungsblätter. Jedes Kind arbeitet auf seinem Niveau. Die vier Übungsmodi bieten verschiedene Zugänge zum Lernstoff.
-
-Der Durchstreich-Modus unterstützt handlungsorientiertes Lernen. Kinder mit motorischen Einschränkungen profitieren von großen Bildern. Die Graustufen-Option reduziert visuelle Reize. So entstehen Vorschule Arbeitsblätter und Arbeitsblätter Grundschule für jeden Förderbedarf.`,
-        quote: 'Ich kann schnell individualisierte Arbeitsblätter für jeden IEP erstellen.',
-      },
-      {
-        id: '6',
-        icon: '💼',
-        title: 'Teacher-Preneure - Kostenlose Arbeitsblätter erstellen und Mathe Arbeitsblätter verkaufen',
-        subtitle: 'Kommerzielle Lizenz für passive Einnahmen',
-        description: `Unternehmerische Lehrkräfte nutzen den Generator für passives Einkommen. Die kommerzielle Lizenz im Vollzugriff Abonnement ermöglicht den Verkauf. Erstellen Sie kostenlose Arbeitsblätter für Ihre Kunden. Bieten Sie Mathe Arbeitsblätter auf Teachers Pay Teachers an.
-
-Der Markt für Bildungsmaterialien wächst kontinuierlich. Deutsche Lehrkräfte suchen hochwertige Unterrichtsmaterialien. Ihre Subtraktion Arbeitsblätter füllen eine Nische. Mit 300 DPI Qualität erfüllen Sie professionelle Standards.
-
-Erfolgreiche Teacher-Preneure verdienen 500 bis 5000 Euro monatlich. Einmal erstellte Mathe Arbeitsblätter verkaufen sich wiederholt. Die Investition in das Vollzugriff Abonnement amortisiert sich schnell. Starten Sie Ihr eigenes Bildungsunternehmen mit professionellen kostenlosen Arbeitsblättern.`,
-        quote: 'Mein Abonnement hat sich im ersten Monat bezahlt gemacht!',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // FAQ Section - FULL text from subtraktion.md
@@ -397,92 +229,8 @@ Erfolgreiche Teacher-Preneure verdienen 500 bis 5000 Euro monatlich. Einmal erst
     showLessLabel: 'Weniger anzeigen',
     secureCheckout: 'Sichere Zahlung',
     cancelAnytime: 'Jederzeit kündbar',
-    items: [
-      {
-        id: '1',
-        question: 'Welche Übungsmodi bieten die Subtraktion Arbeitsblätter für Minusrechnen?',
-        answer: `Der Generator bietet vier verschiedene Übungsmodi für Subtraktion Arbeitsblätter. Der Durchstreich-Modus zeigt Bilder, die Kinder durchstreichen. Diese Methode eignet sich besonders für Minusrechnen Anfänger. Kinder erleben die Subtraktion als konkrete Handlung.
-
-Der Bild-Zahl-Modus kombiniert Bilder mit numerischen Werten. Der Subtrahend-finden-Modus fordert das Ermitteln der fehlenden Zahl. Der gemischte Modus wechselt zwischen verschiedenen Aufgabentypen. So entstehen abwechslungsreiche Minusrechnen Übungen für alle Lernstufen.`,
-      },
-      {
-        id: '2',
-        question: 'Für welche Altersgruppen eignen sich die Kostenlose Arbeitsblätter zum Minusrechnen?',
-        answer: `Unsere kostenlosen Arbeitsblätter eignen sich für Kinder von 4 bis 9 Jahren. Der anpassbare Zahlenbereich ermöglicht Differenzierung. Vorschulkinder üben Minusrechnen im Bereich 2 bis 5. Erstklässler arbeiten mit Zahlen bis 10.
-
-Zweitklässler erweitern den Zahlenbereich auf 15 bis 20. Die Bildgröße passt sich automatisch an die Aufgabenzahl an. Weniger Aufgaben bedeuten größere, klarere Bilder. Kostenlose Arbeitsblätter in dieser Qualität decken alle Altersstufen ab.`,
-      },
-      {
-        id: '3',
-        question: 'Kann ich eigene Bilder für Subtraktion Arbeitsblätter hochladen?',
-        answer: `Der Generator akzeptiert eigene Bilder in allen gängigen Formaten. JPEG, PNG und GIF werden unterstützt. Laden Sie Klassenfotos oder thematische Bilder hoch. Kombinieren Sie eigene Bilder mit der 3000-Bilder-Bibliothek.
-
-Personalisierte Subtraktion Arbeitsblätter steigern die Motivation. Kinder erkennen vertraute Motive und bleiben aufmerksam. Saisonale Themen wie Weihnachten oder Ostern werden möglich. Ihre hochgeladenen Bilder bleiben während der Sitzung verfügbar.`,
-      },
-      {
-        id: '4',
-        question: 'Wie funktioniert der Lösungsschlüssel für Mathe Arbeitsblätter?',
-        answer: `Jedes Mathe Arbeitsblatt erhält einen automatischen Lösungsschlüssel. Klicken Sie nach der Generierung auf den entsprechenden Button. Der Lösungsschlüssel zeigt alle korrekten Antworten übersichtlich. Farbliche Hervorhebungen erleichtern die Korrektur.
-
-Der Lösungsschlüssel nutzt dasselbe Design wie das Arbeitsblatt. Grüne Markierungen kennzeichnen die richtigen Lösungen. Im Subtrahend-finden-Modus erscheinen die fehlenden Zahlen farbig. Mathe Arbeitsblätter korrigieren sich so praktisch von selbst.`,
-      },
-      {
-        id: '5',
-        question: 'Welche Seitenformate unterstützen Arbeitsblätter Grundschule?',
-        answer: `Der Generator bietet sieben verschiedene Seitenformate für Arbeitsblätter Grundschule. Letter Portrait und Landscape entsprechen amerikanischen Standards. A4 Portrait und Landscape passen zu europäischen Druckern. Das Quadratformat eignet sich für spezielle Projekte.
-
-Benutzerdefinierte Größen ermöglichen maximale Flexibilität. Die Arbeitsblätter Grundschule passen sich automatisch an jedes Format an. Bilder und Text skalieren proportional. Professionelle Ränder bleiben bei allen Formaten erhalten.`,
-      },
-      {
-        id: '6',
-        question: 'Sind die Vorschule Arbeitsblätter wirklich kostenlos nutzbar?',
-        answer: `Der Subtraktion Arbeitsblätter Generator erfordert ein Vollzugriff Abonnement für 240 Euro jährlich oder 25 Euro monatlich. Ihr Abonnement ermöglicht unbegrenzte Arbeitsblatt-Erstellung ohne zusätzliche Kosten pro Blatt. Generieren Sie so viele Vorschule Arbeitsblätter wie Sie benötigen.
-
-Das Vollzugriff Abonnement beinhaltet alle 33 Arbeitsblatt-Generatoren. Die kommerzielle Lizenz ermöglicht den Verkauf erstellter Materialien. 11-Sprachen-Unterstützung und professionelle 300 DPI Qualitätsexporte sind inklusive.`,
-      },
-      {
-        id: '7',
-        question: 'Wie speichere ich Kostenlose Arbeitsblätter für Rechnen lernen?',
-        answer: `Exportieren Sie kostenlose Arbeitsblätter in zwei Formaten. JPEG eignet sich für schnelles Teilen und Drucken. PDF bietet optimale Qualität für professionelle Ausdrucke. Beide Formate nutzen 300 DPI Auflösung.
-
-Die Graustufen-Option reduziert Druckkosten beim Rechnen lernen Material. Schwarzweiß-Druck spart Farbpatronen erheblich. Speichern Sie beide Versionen für verschiedene Zwecke. Kostenlose Arbeitsblätter in dieser Qualität erfüllen professionelle Standards.`,
-      },
-      {
-        id: '8',
-        question: 'Unterstützt der Generator Minusrechnen in verschiedenen Sprachen?',
-        answer: `Elf Sprachen stehen für Minusrechnen Materialien zur Verfügung. Deutsch, Englisch, Französisch und Spanisch sind verfügbar. Dazu kommen Portugiesisch, Italienisch und Niederländisch. Schwedisch, Dänisch, Norwegisch und Finnisch runden das Angebot ab.
-
-Die Benutzeroberfläche erscheint in der gewählten Sprache. Bildbeschriftungen werden automatisch übersetzt. Der Sprachwechsel erfolgt mit einem Klick. Minusrechnen im mehrsprachigen Unterricht wird so einfach möglich.`,
-      },
-      {
-        id: '9',
-        question: 'Was kostet das Abonnement für Subtraktion Arbeitsblätter und alle Generatoren?',
-        answer: `Das Vollzugriff Abonnement kostet 240 Euro pro Jahr. Monatlich entspricht das 25 Euro. Alle 33 Generatoren sind enthalten. Unbegrenzte Subtraktion Arbeitsblätter und weitere Materialien inklusive.
-
-Die kommerzielle Lizenz ermöglicht den Verkauf erstellter Materialien. 300 DPI Exportqualität erfüllt professionelle Standards. Über 3000 Bilder stehen zur Verfügung. Das Abonnement amortisiert sich bereits nach wenigen kommerziellen Verkäufen.`,
-      },
-      {
-        id: '10',
-        question: 'Kann ich Subtraktion Arbeitsblätter mit Einmaleins und Schwungübungen kombinieren?',
-        answer: `Ja. Das Vollzugriff Abonnement enthält 33 verschiedene Generatoren. Kombinieren Sie Subtraktion Arbeitsblätter mit Einmaleins Übungen. Ergänzen Sie Mathe mit Schwungübungen und Buchstaben lernen. So entstehen ganzheitliche Lernpakete.
-
-Einmaleins, Ausmalbilder und Deutsch Arbeitsblätter sind alle im Abonnement enthalten. Erstellen Sie komplette Lernpakete mit allen Generatoren. Das Vollzugriff Abonnement bietet maximalen Wert für Lehrkräfte.`,
-      },
-      {
-        id: '11',
-        question: 'Brauche ich Designkenntnisse für Subtraktion Arbeitsblätter?',
-        answer: `Die Arbeitsblatt-Erstellung erfordert absolut keine Designkenntnisse. Der einfache Drei-Schritte-Prozess führt durch Bildauswahl und Einstellungen. Erstellen Sie professionelle Subtraktion Arbeitsblätter so einfach wie Kopieren. Kein Grafikdesign-Hintergrund für schöne Ergebnisse nötig.
-
-Die Oberfläche verwendet klare Beschriftungen und intuitive Steuerungen. Nach der Generierung bleiben optionale Bearbeitungsfunktionen einfach. Erstellen Sie Mathe Arbeitsblätter ohne Design-Expertise.`,
-      },
-      {
-        id: '12',
-        question: 'Kann ich Subtraktion Arbeitsblätter im Unterricht nutzen mit Ausmalbilder und Buchstaben lernen?',
-        answer: `Das Vollzugriff Abonnement beinhaltet unbegrenzte Unterrichtsnutzung. Drucken Sie Subtraktion Arbeitsblätter für ganze Klassen ohne Schülergebühren. Verteilen Sie als Hausaufgaben, Klassenarbeit oder Prüfungsmaterial. Nutzen Sie in Lernstationen neben Ausmalbilder und Buchstaben lernen.
-
-Teilen Sie Arbeitsblätter mit Klassenstufen-Kollegen. Koordinieren Sie Unterrichtspläne mit identischen Materialien. Kombinieren Sie mit Ausmalbilder und Buchstaben lernen für umfassende Lernpakete.`,
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Related Apps Section - FULL text from subtraktion.md Section 7
@@ -499,56 +247,8 @@ Teilen Sie Arbeitsblätter mit Klassenstufen-Kollegen. Koordinieren Sie Unterric
       securePayment: 'Sichere Zahlung',
       cancelAnytime: 'Jederzeit kündbar',
     },
-    items: [
-      {
-        id: '1',
-        slug: 'addition',
-        name: 'Addition',
-        category: 'Mathematik',
-        icon: '➕',
-        description: 'Kombinieren Sie Subtraktion mit Addition Arbeitsblättern für umfassende Mathe-Übungen. Kinder verstehen Rechenoperationen durch beide Richtungen besser.',
-      },
-      {
-        id: '2',
-        slug: 'math-worksheet',
-        name: 'Mathe-Arbeitsblätter',
-        category: 'Mathematik',
-        icon: '📊',
-        description: 'Erstellen Sie gemischte Mathe Arbeitsblätter mit verschiedenen Rechenarten. Perfekte Ergänzung zu den spezialisierten Subtraktion Arbeitsblättern.',
-      },
-      {
-        id: '3',
-        slug: 'coloring',
-        name: 'Ausmalbilder',
-        category: 'Kreativität',
-        icon: '🎨',
-        description: 'Bieten Sie Ausmalbilder als kreative Belohnung nach Rechenübungen. Kinder bleiben motiviert durch abwechslungsreiche Aktivitäten.',
-      },
-      {
-        id: '4',
-        slug: 'writing-app',
-        name: 'Schwungübungen',
-        category: 'Feinmotorik',
-        icon: '✍️',
-        description: 'Bereiten Sie die Feinmotorik mit Schwungübungen vor dem Rechnen vor. Die Kombination optimiert den Lerneffekt nachhaltig.',
-      },
-      {
-        id: '5',
-        slug: 'alphabet-train',
-        name: 'Alphabet-Zug',
-        category: 'Literacy',
-        icon: '🔤',
-        description: 'Verbinden Sie Buchstaben lernen mit Mathematik für ganzheitliche Förderung. Beide Fähigkeiten nutzen ähnliche kognitive Prozesse.',
-      },
-      {
-        id: '6',
-        slug: 'find-and-count',
-        name: 'Suchen und Zählen',
-        category: 'Mathematik',
-        icon: '🔍',
-        description: 'Üben Sie Zählfähigkeiten als Grundlage für Subtraktion. Kinder lernen Mengen visuell zu erfassen und zu vergleichen.',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Pricing Section

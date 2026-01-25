@@ -85,29 +85,8 @@ Las fichas preescolar que creas son totalmente personalizables. Agrega imágenes
     badgeText: 'Ejemplos Gratis',
     downloadingLabel: 'Descargando...',
     ofLabel: 'de',
-    items: [
-      {
-        id: '1',
-        worksheetSrc: '/samples/spanish/writing/sample-1.jpeg',
-        answerKeySrc: '',
-        altText: 'Ficha gratis de lectoescritura - ejercicios de grafomotricidad para niños de preescolar',
-        pdfDownloadUrl: '/samples/spanish/writing/sample-1.pdf',
-      },
-      {
-        id: '2',
-        worksheetSrc: '/samples/spanish/writing/sample-2.jpeg',
-        answerKeySrc: '',
-        altText: 'Ficha gratis de caligrafía para preescolar - práctica de abecedario para educación infantil',
-        pdfDownloadUrl: '/samples/spanish/writing/sample-2.pdf',
-      },
-      {
-        id: '3',
-        worksheetSrc: '/samples/spanish/writing/sample-3.jpeg',
-        answerKeySrc: '',
-        altText: 'Imprimibles gratis de escritura - ficha para niños de grafomotricidad para primaria',
-        pdfDownloadUrl: '/samples/spanish/writing/sample-3.pdf',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Features Grid - FULL text from writing.md feature sections
@@ -123,80 +102,8 @@ Las fichas preescolar que creas son totalmente personalizables. Agrega imágenes
       noHiddenFees: 'Sin cargos ocultos',
       cancelAnytime: 'Cancela cuando quieras',
     },
-    items: [
-      {
-        id: '1',
-        icon: '⚡',
-        title: 'Crear Ficha Gratis de Grafomotricidad en 3 Clics - Generador Rápido de Ficha para Niños',
-        description: `La creación de fichas infantil es extremadamente sencilla. Selecciona el tipo de fila que necesitas entre tres opciones. Escoge Calcar para letras completas que los niños trazan. Elige Calcar Difuminado para práctica intermedia con letras semi-transparentes. Selecciona Copia Guiada para mostrar una letra completa seguida de letras difuminadas. Cada ficha de lectoescritura se genera instantáneamente con un solo clic. El proceso completo de crear fichas preescolar profesionales toma menos de 3 minutos desde el inicio hasta la descarga.
-
-Agrega tantas filas como necesites a cada ficha. Cada fila puede tener configuración diferente. Una ficha para imprimir puede combinar práctica de abecedario en la fila superior con números en la fila inferior. Mezcla letra cursiva con letra de molde en la misma página. El generador adapta automáticamente las guías visuales basándose en el contenido que seleccionas. Las fichas de grafomotricidad resultantes son perfectas para enseñar formación correcta de letras.`,
-        highlighted: false,
-      },
-      {
-        id: '2',
-        icon: '✏️',
-        title: 'Cinco Estilos de Tipografía - Ficha Gratis para Niños con Letra Cursiva y Letra de Molde',
-        description: `Crea fichas para imprimir que enseñan el abecedario completo en mayúsculas y minúsculas. El generador incluye cinco estilos de tipografía diferentes. Escoge entre letra de molde regular, letra de molde con flechas direccionales, letra punteada para calcar, letra punteada con flechas, y letra cursiva. Cada estilo enseña la formación correcta de letras. Las flechas direccionales muestran el orden y dirección de trazos. Las fichas de lectoescritura se adaptan a niños de 4 a 8 años.
-
-El modo Calcar muestra letras completas para trazar. El modo Calcar Difuminado presenta letras semi-transparentes. El modo Copia Guiada combina una letra completa seguida de letras difuminadas. Cada modo apoya diferentes niveles de habilidad en lectoescritura. Las fichas de grafomotricidad con tipografía variada diferencian para niveles de habilidad mixtos en tu salón de clases.`,
-        highlighted: true,
-      },
-      {
-        id: '3',
-        icon: '🎨',
-        title: 'Editar Todo en el Lienzo - Ficha Gratis para Preescolar 100% Personalizable - Imprimibles Gratis',
-        description: `Cada elemento en tu ficha infantil es completamente editable después de generarse. Arrastra imágenes a cualquier posición con el mouse. Cambia el tamaño de elementos con las esquinas de redimensionamiento. Rota texto o imágenes al ángulo perfecto. Elimina cualquier elemento que no necesites. Esta editabilidad completa te da control total sobre el diseño final de tus fichas para imprimir.
-
-Ajusta las filas de grafomotricidad después de generarlas. Redimensiona una fila completa para hacerla más grande o más pequeña. Mueve filas hacia arriba o abajo en la página. Agrega espacio entre filas para dibujos de los niños. Las fichas de lectoescritura se adaptan perfectamente a tus necesidades específicas. Cada ficha preescolar queda exactamente como la imaginas sin limitaciones de plantillas fijas.`,
-        highlighted: false,
-      },
-      {
-        id: '4',
-        icon: '📤',
-        title: 'Subir Imágenes Personalizadas - Ficha para Niños con Fotos de tus Alumnos - Imprimibles Gratis',
-        description: `Sube tus propias fotografías e ilustraciones al generador. El sistema acepta formatos JPG, PNG y GIF. Sube múltiples archivos simultáneamente con la función de carga múltiple. Tus imágenes aparecen inmediatamente en la biblioteca de carga disponibles para usar. Combina imágenes personalizadas con las 3000+ imágenes de nuestra biblioteca incluida. Esta flexibilidad hace que cada ficha infantil sea única y relevante para tus estudiantes.
-
-Usa fotos de tu salón de clases en las fichas de grafomotricidad. Sube fotos de objetos familiares para los niños. Incluye fotografías de mascotas de la clase o proyectos estudiantiles. Las fichas para imprimir con contenido personalizado aumentan el compromiso de los alumnos. Los niños se emocionan más practicando lectoescritura cuando reconocen las imágenes.`,
-        highlighted: false,
-      },
-      {
-        id: '5',
-        icon: '🌍',
-        title: '11 Idiomas Disponibles - Generador de Fichas de Lectoescritura en Español Mexicano',
-        description: `El generador funciona completamente en 11 idiomas incluyendo español mexicano. La interfaz completa se traduce a tu idioma preferido. Todas las fichas infantil se generan con contenido en español adaptado al sistema educativo mexicano. Los términos educativos reflejan el lenguaje que usan maestros mexicanos en educación infantil y primaria. Esta localización hace el generador perfecto para escuelas en México y comunidades hispanohablantes.
-
-Las fichas de grafomotricidad usan terminología correcta para el contexto mexicano. Referencias a preescolar reflejan el sistema educativo de México. Menciones de grados usan "primer grado", "segundo grado", "tercer grado" como es estándar en México. Las fichas para imprimir incluyen contenido culturalmente relevante.`,
-        highlighted: false,
-      },
-      {
-        id: '6',
-        icon: '💰',
-        title: 'Licencia Comercial Incluida - Vende tu Ficha Gratis para Niños en Teachers Pay Teachers',
-        description: `Tu suscripción Acceso Completo incluye licencia comercial completa de impresión bajo demanda. Vende las fichas infantil que creas en plataformas como Teachers Pay Teachers sin costo adicional de licencia. Abre una tienda en Etsy vendiendo fichas de grafomotricidad digitales. Publica libros de actividades en Amazon KDP usando tus fichas preescolar. La licencia comercial no requiere atribución ni pagos de regalías adicionales.
-
-Muchos maestros generan ingresos significativos vendiendo material educativo gratis que crean. Maestros emprendedores ganan $500 a $5,000 mensuales vendiendo fichas de lectoescritura en Teachers Pay Teachers. Crea paquetes temáticos de fichas para imprimir sobre diferentes temas educativos. Las fichas infantil se exportan en calidad profesional 300 DPI perfecta para impresión comercial.`,
-        highlighted: true,
-      },
-      {
-        id: '7',
-        icon: '📚',
-        title: 'Biblioteca de 3000+ Imágenes - Ficha para Preescolar con Imprimibles Gratis de Abecedario y Números',
-        description: `Accede a más de 3000 ilustraciones infantiles organizadas por temas educativos. La biblioteca incluye imágenes para cada letra del abecedario. Encuentra múltiples opciones para cada número del 0 al 9. Las categorías temáticas facilitan encontrar la imagen perfecta para tus fichas de grafomotricidad. Busca imágenes por palabra clave en español. Todas las imágenes están incluidas en tu suscripción sin costos adicionales por imagen.
-
-Las ilustraciones son apropiadas para educación infantil y primaria. Los estilos visuales atraen a niños de 3 a 8 años. Cada imagen tiene fondo transparente para integración perfecta en fichas para imprimir. Los colores son vibrantes pero apropiados para impresión económica. Las fichas preescolar con estas imágenes mantienen a los niños comprometidos durante práctica de lectoescritura.`,
-        highlighted: false,
-      },
-      {
-        id: '8',
-        icon: '🖨️',
-        title: 'Calidad Profesional 300 DPI - Fichas de Grafomotricidad Perfectas para Imprimir y Vender',
-        description: `Todas las fichas para imprimir se exportan en resolución profesional 300 DPI. Esta calidad garantiza texto nítido y líneas claras al imprimir. Las guías de grafomotricidad se ven perfectamente definidas. Los niños pueden ver claramente dónde trazar cada letra. La calidad de impresión profesional hace que las fichas infantil luzcan como material comprado en tienda.
-
-Escoge entre formatos PDF y JPEG para descarga. El formato PDF mantiene calidad perfecta en cualquier tamaño de página. Los archivos JPEG son ideales para compartir digitalmente. Ambos formatos incluyen la opción de escala de grises. Las fichas preescolar en escala de grises ahorran tinta de impresora significativamente.`,
-        highlighted: true,
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // How-To Guide - FULL text from writing.md step sections
@@ -278,74 +185,8 @@ Activa la casilla "Escala de Grises" antes de descargar si quieres ahorrar tinta
     badgeText: 'Para Quién',
     readMoreLabel: 'Leer más',
     showLessLabel: 'Ver menos',
-    items: [
-      {
-        id: '1',
-        icon: '👶',
-        title: 'Maestros de Preescolar y Educación Infantil - Fichas de Abecedario para Niños de 3-6 Años',
-        subtitle: 'Ficha gratis para preescolar con enfoque visual',
-        description: `Los maestros de educación infantil en México trabajan con niños de 3 a 6 años desarrollando habilidades motoras finas fundamentales. El generador crea fichas preescolar específicamente diseñadas para manos pequeñas apenas aprendiendo control de lápiz. Las filas de práctica de trazos básicos desarrollan fuerza muscular antes de formar letras. Los niños practican líneas verticales, horizontales, círculos y zigzags que preparan para escribir letras del abecedario posteriormente.
-
-Las fichas infantil con letra grande son perfectas para principiantes de preescolar. El generador crea guías visuales extra claras que niños pequeños pueden seguir fácilmente. Las letras mayúsculas grandes son más fáciles de formar que minúsculas para deditos en desarrollo. Cada ficha de grafomotricidad puede incluir solo 2-3 letras para no abrumar a estudiantes jóvenes.
-
-Los maestros de preescolar aprecian la capacidad de agregar imágenes familiares a las fichas para imprimir. Una manzana junto a la letra "A" ayuda a niños pequeños conectar letras con sonidos.`,
-      },
-      {
-        id: '2',
-        icon: '📚',
-        title: 'Maestros de Primaria - Fichas de Lectoescritura para Primer, Segundo y Tercer Grado',
-        subtitle: 'Ficha gratis para niños de primaria y grados superiores',
-        description: `Los docentes de primer grado usan el generador para transicionar estudiantes de calcar a escribir independientemente. El modo "Copia Guiada" es perfecto para este nivel. La primera letra completa provee un modelo. Las letras difuminadas siguientes dan apoyo decreciente. Los niños de 6-7 años desarrollan confianza escribiendo con menos guía gradualmente. Las fichas preescolar con este enfoque de andamiaje apoyan desarrollo apropiado de habilidades.
-
-Los maestros de segundo grado enfatizan letra cursiva además de letra de molde. El generador incluye fuente cursiva elegante para enseñar escritura conectada. Las fichas de grafomotricidad con letra cursiva muestran el flujo correcto de letras unidas. Los estudiantes de 7-8 años practican transiciones suaves entre letras.
-
-Los docentes de tercer grado integran práctica de números con letras. Las fichas infantil pueden combinar escritura de abecedario con números del 0 al 100.`,
-      },
-      {
-        id: '3',
-        icon: '🏠',
-        title: 'Padres de Familia que Educan en Casa - Material Educativo Gratis Personalizado',
-        subtitle: 'Imprimibles gratis con flexibilidad para educación en el hogar',
-        description: `Los padres que educan en casa valoran la capacidad de personalizar fichas para imprimir completamente para sus hijos. Generan fichas preescolar con los nombres de sus hijos para práctica de escritura motivadora. Los niños se emocionan más practicando escribir su propio nombre que palabras aleatorias. Cada ficha infantil puede incluir fotos familiares de mascotas, juguetes favoritos o miembros de la familia. Este contenido personalizado hace que las fichas de grafomotricidad sean significativamente más atractivas.
-
-Las familias que educan en casa frecuentemente enseñan múltiples niveles de grado simultáneamente. El generador permite crear fichas gratis diferentes para cada niño en una sesión. Un padre genera fichas de abecedario mayúsculo para el niño de 4 años. Simultáneamente crea fichas de lectoescritura cursiva para el niño de 7 años.
-
-Los padres aprecian no depender de cuadernillos preimpresos con contenido fijo. Si un niño necesita práctica extra con letras específicas, el padre genera fichas para imprimir enfocadas exactamente en esas letras.`,
-      },
-      {
-        id: '4',
-        icon: '🌐',
-        title: 'Maestros de ESL y Educación Bilingüe - Fichas Preescolar Bilingües para Enseñanza de Idiomas',
-        subtitle: 'Ficha para niños con apoyo multilingüe para ESL',
-        description: `Los maestros de ESL en México usan el generador para crear fichas infantil bilingües. Generan una ficha con el abecedario en español y otra versión idéntica en inglés. Los estudiantes comparan las dos versiones y notan similitudes y diferencias. Esta comparación directa apoya aprendizaje de idiomas efectivamente. Las fichas de lectoescritura en ambos idiomas ayudan a estudiantes conectar conceptos entre idiomas.
-
-Las escuelas bilingües necesitan material educativo gratis en ambos idiomas consistentemente. El generador cambia de idioma con un clic manteniendo el mismo diseño. Un maestro crea fichas para imprimir perfectamente pareadas en español e inglés. Los estudiantes practican formación de letras en inglés usando las mismas técnicas que aprendieron en español.
-
-Los maestros de inglés también usan las fichas preescolar para enseñar vocabulario visualmente. Agregan imágenes etiquetadas en inglés a fichas de práctica de letras.`,
-      },
-      {
-        id: '5',
-        icon: '🎯',
-        title: 'Maestros de Educación Especial - Fichas de Grafomotricidad Diferenciadas',
-        subtitle: 'Ficha para preescolar con diferenciación para necesidades especiales',
-        description: `Los maestros de educación especial necesitan fichas infantil altamente personalizables para estudiantes con necesidades diversas. Algunos niños necesitan guías extra gruesas y oscuras para ver claramente. Otros requieren espaciado extra amplio para control motor limitado. El generador permite ajustar cada aspecto visual de las fichas preescolar. Las filas se hacen más grandes para niños con desafíos motores finos. Las letras se hacen más gruesas para niños con problemas visuales.
-
-Los estudiantes con retrasos de desarrollo frecuentemente necesitan práctica repetitiva masiva. El generador produce fichas de lectoescritura ilimitadas sin costo adicional. Un maestro genera 50 fichas practicando la misma letra "M" con variaciones sutiles. Esta repetición extrema sería prohibitivamente cara con materiales comerciales.
-
-Los estudiantes con autismo frecuentemente responden mejor a intereses especiales incorporados. Un maestro crea fichas para imprimir con imágenes de trenes para un estudiante obsesionado con trenes.`,
-      },
-      {
-        id: '6',
-        icon: '💼',
-        title: 'Maestros Emprendedores - Vender Fichas para Imprimir en Teachers Pay Teachers y Etsy',
-        subtitle: 'Oportunidades comerciales',
-        description: `Los maestros emprendedores generan ingresos adicionales creando y vendiendo fichas infantil en plataformas digitales. Teachers Pay Teachers es el mercado más grande para recursos educativos creados por maestros. Miles de educadores ganan $500 a $5,000 mensuales vendiendo material educativo gratis que diseñan. La licencia comercial incluida en Acceso Completo permite esta venta sin costos adicionales.
-
-Los compradores en Teachers Pay Teachers buscan específicamente fichas de grafomotricidad en español. La demanda de recursos educativos de calidad en español mexicano supera significativamente la oferta disponible. Los maestros bilingües tienen ventaja única creando contenido culturalmente apropiado. Un paquete de 20 fichas de lectoescritura se vende por $3-$5.
-
-Etsy es otra plataforma popular para vender fichas gratis digitales. Los padres que educan en casa buscan en Etsy materiales educativos imprimibles.`,
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // FAQ Section - FULL text from writing.md FAQ sections
@@ -359,92 +200,8 @@ Etsy es otra plataforma popular para vender fichas gratis digitales. Los padres 
     showLessLabel: 'Ver menos',
     secureCheckout: 'Pago seguro',
     cancelAnytime: 'Cancela cuando quieras',
-    items: [
-      {
-        id: '1',
-        question: '¿El Generador de Ficha Gratis de Grafomotricidad para Niños es Gratuito o Requiere Suscripción?',
-        answer: `El generador de fichas de grafomotricidad requiere una suscripción Acceso Completo que cuesta $240 anuales o $25 mensuales. Tu suscripción te da creación ilimitada de fichas infantil sin costos adicionales por hoja. Genera tantas fichas preescolar como necesites sin cargos extras. La suscripción Acceso Completo elimina costos por hoja que cobran otras plataformas.
-
-La suscripción Paquete Esencial incluye 10 generadores populares y cuesta $144 anuales. La suscripción Acceso Completo cuesta $240 anuales e incluye los 33 tipos de generadores incluyendo el generador de fichas de lectoescritura. Ambas suscripciones incluyen licencia comercial, soporte para 11 idiomas y exportación de calidad profesional 300 DPI.`,
-      },
-      {
-        id: '2',
-        question: '¿Puedo Imprimir la Ficha Gratis para Niños de Grafomotricidad en Casa con una Impresora Normal?',
-        answer: `Sí, todas las fichas infantil se exportan en formato PDF o JPEG perfectamente optimizado para impresión casera. Las impresoras domésticas estándar manejan los archivos PDF sin problemas. La calidad 300 DPI garantiza texto nítido y líneas claras en impresoras caseras. Las guías de grafomotricidad se imprimen perfectamente definidas. Los niños pueden ver todas las líneas y letras claramente en hojas impresas en casa.
-
-Las fichas para imprimir funcionan con impresoras de inyección de tinta y láser. El tamaño Carta (8.5×11") es estándar en México y funciona en todas las impresoras. La opción de escala de grises ahorra tinta de color significativamente.`,
-      },
-      {
-        id: '3',
-        question: '¿Necesito Habilidades de Diseño para Crear Ficha para Preescolar de Abecedario Profesionales?',
-        answer: `No necesitas absolutamente ninguna habilidad de diseño. El generador hace todo el trabajo de diseño automáticamente. Simplemente seleccionas las opciones que quieres de menús desplegables simples. El sistema genera fichas de grafomotricidad con diseño profesional instantáneamente. Cualquier maestro o padre puede crear fichas para imprimir hermosas sin experiencia en diseño gráfico.
-
-La interfaz es tan simple que niños de 10 años pueden usarla. Escoges tamaño de página, tipo de fila, estilo de fuente y contenido. El generador organiza todo perfectamente en la página. Las guías horizontales se espacian automáticamente. Las letras se dimensionan proporcionalmente.`,
-      },
-      {
-        id: '4',
-        question: '¿Puedo Usar la Ficha Gratis para Niños de Lectoescritura en Mi Salón de Clases?',
-        answer: `La suscripción Acceso Completo incluye uso ilimitado en salones de clases. Imprime tantas copias de cada ficha de grafomotricidad como necesites para todos tus estudiantes. Usa las fichas para imprimir para instrucción diaria, tarea, centros de aprendizaje y evaluaciones. No hay límites en número de estudiantes o copias impresas.
-
-Los maestros usan las fichas infantil como actividades de trabajo matutino cuando llegan estudiantes. Asignan fichas preescolar como tarea semanal de práctica de escritura. Colocan fichas de lectoescritura en centros de alfabetización para trabajo independiente.`,
-      },
-      {
-        id: '5',
-        question: '¿En Qué Idiomas Están Disponibles los Imprimibles Gratis de Grafomotricidad?',
-        answer: `El generador funciona completamente en 11 idiomas incluyendo español mexicano, inglés, alemán, francés, italiano, portugués brasileño, holandés, danés, sueco, noruego y finlandés. La interfaz completa se traduce a tu idioma preferido. Todas las opciones de menú y botones aparecen en español cuando seleccionas español como idioma.
-
-Los maestros de educación bilingüe cambian entre idiomas con un clic. Genera fichas infantil en español para un grupo de estudiantes. Cambia a inglés y genera la misma ficha para estudiantes de ESL.`,
-      },
-      {
-        id: '6',
-        question: '¿Puedo Vender la Ficha Gratis para Niños que Creo con Este Generador de Imprimibles Gratis?',
-        answer: `Sí. La suscripción Acceso Completo incluye licencia comercial completa de impresión bajo demanda sin costo adicional. Vende las fichas de grafomotricidad que creas en Teachers Pay Teachers sin restricciones. Abre una tienda Etsy vendiendo paquetes descargables de fichas infantil. Publica libros de actividades en Amazon KDP usando tus fichas preescolar.
-
-Miles de maestros generan ingresos significativos vendiendo fichas para imprimir que diseñan. Los recursos en español mexicano tienen demanda especialmente alta con oferta limitada. Un paquete de 20 fichas de lectoescritura se vende por $3-$5 en Teachers Pay Teachers.`,
-      },
-      {
-        id: '7',
-        question: '¿Cómo Personalizo Ficha para Preescolar de Abecedario para Mis Estudiantes?',
-        answer: `Cada aspecto de las fichas infantil es completamente personalizable. Escribe nombres de estudiantes individuales para práctica de escritura personalizada. Ajusta tamaño de letra para niños con desafíos visuales o motores. Cambia espaciado entre filas basándote en habilidades de estudiantes. Agrega imágenes personalizadas relevantes para tus estudiantes específicos.
-
-Sube fotos de tu salón de clases para hacer fichas de grafomotricidad más relevantes. Incluye imágenes de mascotas de la clase o proyectos estudiantiles. Los niños se comprometen más cuando reconocen contenido en las fichas preescolar.`,
-      },
-      {
-        id: '8',
-        question: '¿Para Qué Edades Funcionan Mejor la Ficha para Niños de Grafomotricidad?',
-        answer: `Las fichas infantil funcionan mejor para niños de 3 a 9 años aproximadamente. Los niños de preescolar (3-5 años) usan fichas con práctica de trazos básicos y letras grandes. Los estudiantes de primer grado (6-7 años) practican formación de letras mayúsculas y minúsculas. Los niños de segundo grado (7-8 años) trabajan en escritura cursiva y precisión. Los estudiantes de tercer grado (8-9 años) refinan caligrafía y practican escribir números.
-
-El generador permite ajustar dificultad para cualquier nivel. Crea fichas preescolar simples con solo 2-3 letras grandes para niños de 3 años. Genera fichas de lectoescritura complejas con oraciones completas para niños de 8 años.`,
-      },
-      {
-        id: '9',
-        question: '¿Puedo Subir Mis Propias Imágenes a los Imprimibles Gratis para Imprimir?',
-        answer: `Sí, el generador incluye función de carga de imágenes personalizadas. Sube fotografías propias en formatos JPG, PNG o GIF. El sistema acepta carga de múltiples archivos simultáneamente. Tus imágenes aparecen inmediatamente disponibles para agregar a fichas infantil. Combina tus fotos con las 3000+ imágenes de la biblioteca incluida.
-
-Los maestros suben fotos de estudiantes, mascotas de clase y materiales del salón. Los padres que educan en casa cargan fotos de juguetes favoritos de sus hijos y miembros de familia. Las fichas preescolar con contenido personal aumentan compromiso dramáticamente.`,
-      },
-      {
-        id: '10',
-        question: '¿Cuánto Tiempo Toma Crear Ficha Gratis de Grafomotricidad para Niños Profesionales?',
-        answer: `Crear una ficha de lectoescritura completa toma menos de 3 minutos del inicio a la descarga. La mayoría de maestros completa fichas para imprimir en 2 minutos con práctica. Seleccionas opciones de menús desplegables simples. El generador produce la vista previa instantáneamente. Haces ajustes menores si es necesario. Descargas el archivo PDF o JPEG terminado.
-
-Crear la misma ficha de grafomotricidad manualmente con software de diseño tomaría 30-60 minutos. El generador automatiza todos los pasos técnicos. Un maestro que crea 10 fichas preescolar semanalmente ahorra 5-9 horas por semana.`,
-      },
-      {
-        id: '11',
-        question: '¿Puedo Crear Fichas de Números y Ejercicios Matemáticos?',
-        answer: `Sí, el generador crea excelentes fichas para imprimir para práctica de números y matemáticas básicas. Genera fichas infantil que enseñan a escribir números del 0 al 9 correctamente. Los niños practican formación de números con las mismas guías que para letras. Crea fichas preescolar que combinan números con ejercicios matemáticos simples de conteo.
-
-Las fichas de números usan los mismos estilos de fuente que fichas de abecedario. Selecciona letra de molde punteada para calcar números. Escoge letra de molde con flechas mostrando dirección correcta de trazos.`,
-      },
-      {
-        id: '12',
-        question: '¿Puedo Crear Fichas Temáticas sobre Materias Escolares Específicas?',
-        answer: `Absolutamente. El generador tiene más de 3000 imágenes organizadas por temas educativos. Crea fichas de grafomotricidad sobre animales, plantas, formas geométricas, estaciones del año, profesiones y docenas de otros temas. Cada ficha infantil puede combinar práctica de letras con aprendizaje de contenido temático.
-
-Genera fichas preescolar sobre unidades curriculares específicas que estás enseñando. Si estudias el océano, crea fichas para imprimir con imágenes de animales marinos. Los niños practican escribir "ballena", "pulpo" y "tiburón" con imágenes correspondientes.`,
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Related Apps Section
@@ -461,56 +218,8 @@ Genera fichas preescolar sobre unidades curriculares específicas que estás ens
       securePayment: 'Pago seguro',
       cancelAnytime: 'Cancela cuando quieras',
     },
-    items: [
-      {
-        id: '1',
-        slug: 'coloring',
-        name: 'Dibujos para Colorear',
-        category: 'Arte',
-        icon: '🎨',
-        description: 'Los dibujos para colorear se integran perfectamente con fichas de grafomotricidad. Alterna entre práctica de escritura y colorear para mantener niños pequeños comprometidos.',
-      },
-      {
-        id: '2',
-        slug: 'alphabet-train',
-        name: 'Tren del Abecedario',
-        category: 'Letras',
-        icon: '🚂',
-        description: 'Combina práctica de grafomotricidad con el generador de Tren del Abecedario. Los niños practican escribir letras y después las ven en contexto de tren educativo.',
-      },
-      {
-        id: '3',
-        slug: 'drawing-lines',
-        name: 'Trazos y Líneas',
-        category: 'Grafomotricidad',
-        icon: '✏️',
-        description: 'Las fichas de trazos complementan perfectamente la práctica de escritura. Los niños desarrollan control de lápiz con líneas antes de formar letras completas.',
-      },
-      {
-        id: '4',
-        slug: 'image-addition',
-        name: 'Fichas de Sumas',
-        category: 'Matemáticas',
-        icon: '➕',
-        description: 'Combina práctica de escritura de números con fichas de sumas. Los estudiantes escriben números correctamente mientras aprenden operaciones matemáticas básicas.',
-      },
-      {
-        id: '5',
-        slug: 'word-search',
-        name: 'Sopa de Letras',
-        category: 'Vocabulario',
-        icon: '🔍',
-        description: 'Después de practicar escribir letras, los estudiantes buscan esas letras en sopas de letras. Refuerza reconocimiento de letras desde múltiples ángulos.',
-      },
-      {
-        id: '6',
-        slug: 'matching-app',
-        name: 'Fichas de Asociación',
-        category: 'Lógica',
-        icon: '🔗',
-        description: 'Las fichas de asociación complementan grafomotricidad perfectamente. Los niños emparejan letras mayúsculas con minúsculas después de practicar escribirlas.',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Pricing Section - Full Access ($240/year)

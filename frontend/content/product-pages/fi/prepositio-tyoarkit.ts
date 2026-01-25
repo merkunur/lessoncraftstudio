@@ -67,22 +67,8 @@ Generaattori sisältää yli 3000 lapsille sopivaa kuvaa. Kaikki kuvat on järje
     badgeText: 'Ilmaiset Esimerkit',
     downloadingLabel: 'Ladataan...',
     ofLabel: '/',
-    items: [
-      {
-        id: '1',
-        worksheetSrc: '/samples/finnish/prepositions/sample-1.jpeg',
-        answerKeySrc: '/samples/finnish/prepositions/sample-1-answer.jpeg',
-        altText: 'Prepositioharjoitus täydennystyypillä sijaintisanojen oppimiseen',
-        pdfDownloadUrl: '/samples/finnish/prepositions/sample-1.pdf',
-      },
-      {
-        id: '2',
-        worksheetSrc: '/samples/finnish/prepositions/sample-2.jpeg',
-        answerKeySrc: '/samples/finnish/prepositions/sample-2-answer.jpeg',
-        altText: 'Prepositioharjoitus monivalintatyypillä aloittelijoille',
-        pdfDownloadUrl: '/samples/finnish/prepositions/sample-2.pdf',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Features Grid - FULL text from Finnish prepositions.md feature sections
@@ -98,85 +84,8 @@ Generaattori sisältää yli 3000 lapsille sopivaa kuvaa. Kaikki kuvat on järje
       noHiddenFees: 'Ei piilomaksuja',
       cancelAnytime: 'Peruuta milloin tahansa',
     },
-    items: [
-      {
-        id: '1',
-        icon: '⚡',
-        title: 'Luo Tulostettavia Tehtäviä Kolmella Klikkauksella',
-        description: `Prepositioiden tehtävien luominen on uskomattoman yksinkertaista. Valitse harjoitusten määrä yhdestä kahdeksaan tehtävää per työarkki. Valitse prepositiot, joita haluat harjoitella. Napsauta "Generoi" ja tehtävä on valmis. Koko prosessi kestää alle kolme minuuttia alusta loppuun.
-
-Valitse kahdesta harjoitustyypistä. Täydennysharjoitukset sopivat itsenäiseen työskentelyyn. Monivalintatehtävät tarjoavat tukea vaikeuksissa oleville oppilaille. Molemmat muodot luodaan samoista kuvista ja teemoista. Vaihda harjoitustyyppiä yhdellä klikkauksella.
-
-Generaattori luo automaattisesti vastausavaimen. Napsauta "Vastausavain" -välilehteä nähdäksesi oikeat vastaukset. Vastausavain säästää aikaa tarkistamisessa. Tulosta vastausavain erikseen tai pidä se digitaalisena.`,
-        highlighted: false,
-      },
-      {
-        id: '2',
-        icon: '✏️',
-        title: 'Muokkaa Kaikkea Työalueella',
-        description: `Jokainen elementti tehtävällä on täysin muokattavissa. Vedä kuvia uusiin paikkoihin hiirellä. Muuta kokoa vetämällä kulmista. Kierrä objekteja täydelliseen asentoon. Poista tarpeettomat elementit yhdellä klikkauksella.
-
-Lisää omia tekstejä tehtävään milloin tahansa. Muuta tekstin kokoa, väriä ja fonttia. Valitse seitsemästä lapsille sopivasta fontista. Säädä tekstin ääriviivaa parempaan luettavuuteen. Kaikki tekstit mukautuvat valitsemaasi kieleen.
-
-Järjestä elementtejä kerrosjärjestyksessä. Tuo elementtejä etualalle tai lähetä taustalle. Tasaa objekteja toisiinsa nähden tai sivun reunoihin. Kohdistustyökalut nopeuttavat siistin asettelun luomista.`,
-        highlighted: false,
-      },
-      {
-        id: '3',
-        icon: '📤',
-        title: 'Lataa Omia Kuvia',
-        description: `Lataa omia kuvia suoraan generaattoriin. Tukee JPEG-, PNG- ja GIF-muotoja. Lataa useita tiedostoja kerralla nopeaan työskentelyyn. Kuvat näkyvät välittömästi kuvagalleriassa.
-
-Yhdistä omat kuvasi kirjaston kuviin. Luo personoituja tehtäviä oppilaidesi kiinnostuksen kohteiden mukaan. Lataa luokkahuoneen esineiden kuvia konkreettiseen oppimiseen. Käytä oppilaiden nimiä ja tuttuja paikkoja prepositioharjoituksissa.
-
-Omat kuvat sopivat erityisesti monikielisiin luokkahuoneisiin. Kuvaa luokkahuoneen esineitä ja luo niistä sanastoa. Lataa kulttuurisesti merkityksellisiä kuvia maahanmuuttajaoppilaille. Personoidut kuvat lisäävät oppilaiden sitoutumista tehtäviin.`,
-        highlighted: false,
-      },
-      {
-        id: '4',
-        icon: '🌍',
-        title: '11 Kielen Tuki',
-        description: `Generaattori toimii täydellä tuella 11 kielellä. Valitse suomi, ruotsi, englanti, saksa, ranska, espanja, portugali, italia, hollanti, tanska tai norja. Sekä käyttöliittymä että tehtävien sisältö mukautuvat valittuun kieleen. Kielivalinta vaikuttaa prepositiolauseisiin automaattisesti.
-
-Kuvien tiedostonimet generoivat lauseita valitulla kielellä. Jokainen kuva sisältää metatiedot kaikilla 11 kielellä. Lauseet muodostuvat automaattisesti oikealla kieliopilla. Ei tarvetta kääntää tehtäviä manuaalisesti.
-
-Täydellinen ESL- ja kielenoppimisen opettajille. Luo samoja tehtäviä eri kielillä vertailua varten. Opeta prepositioita äidinkielellä ennen vierasta kieltä. Vahvista kielitaitoa konkreettisten esimerkkien avulla.`,
-        highlighted: false,
-      },
-      {
-        id: '5',
-        icon: '💰',
-        title: 'Kaupalliset Oikeudet Sisältyvät',
-        description: `Täysi Käyttöoikeus -tilaus sisältää täyden kaupallisen POD-lisenssin ilman lisäkuluja. Myy luomiasi tehtäviä Teachers Pay Teachersissa, Etsyssä tai Amazon KDP:ssä. Ei tekijänoikeusmerkintöjä tarvita. Täydellinen opettajayrittäjille, jotka haluavat ansaita lisätuloja.
-
-Monet opettajat ansaitsevat 500-5000 euroa kuukaudessa myymällä tehtäviä. Luo tehtäväpaketteja eri teemoista ja prepositioista. Myy digitaalisia tulostettavia materiaaleja passiivisena tulona. Generaattori nopeuttaa tuotekehitystä valtavasti.
-
-Kilpailijoiden alustat veloittavat 79-199 euroa vuodessa lisensseistä erikseen. LessonCraft Studion Täysi Käyttöoikeus sisältää kaupalliset oikeudet hintaan 240 euroa vuodessa. Säästät 100-200 euroa vuodessa verrattuna muihin alustoihin.`,
-        highlighted: true,
-      },
-      {
-        id: '6',
-        icon: '🎨',
-        title: 'Yli 3000 Lapsille Sopivaa Kuvaa',
-        description: `Kuvasto sisältää yli 3000 huolellisesti valittua kuvaa. Kaikki kuvat on suunniteltu lapsille sopiviksi ja opettavaisiksi. Teemapohjaiset kokoelmat helpottavat oikeiden kuvien löytämistä. Selaa teemoja tai valitse yksittäisiä kuvia manuaalisesti.
-
-Prepositioihin sopivat kuvat esittävät sijaintisuhteita selkeästi. Esineet, eläimet ja hahmot eri paikoissa. Kuvat auttavat lapsia ymmärtämään abstrakteja käsitteitä konkreettisesti. Visuaalinen oppiminen tehostaa muistamista.
-
-Manuaalinen valinta antaa täyden kontrollin. Valitse tietyt kuvat tiettyjen prepositioiden harjoitteluun. Luo temaattisia tehtäväpaketteja. Yhdistä aiheeseen sopivia kuvia muuhun opetukseen.`,
-        highlighted: false,
-      },
-      {
-        id: '7',
-        icon: '🖨️',
-        title: 'Ammattimainen 300 DPI -Laatu',
-        description: `Kaikki tehtävät viedään ammattilaatuisella 300 DPI tarkkuudella. Täydellinen laatu kotitulostimilla ja ammattitulostimilla. Tekstit pysyvät terävänä ja luettavana. Kuvat näyttävät ammattimaisilta tulostetussa muodossa.
-
-Valitse PDF- tai JPEG-vientimuoto. PDF säilyttää vektorigrafiikan terävänä kaikissa koissa. JPEG sopii suoraan jakamiseen digitaalisesti. Molemmat muodot tukevat 300 DPI laatua.
-
-Harmaasävyvaihtoehto säästää värimustetta. Muunna värilliset tehtävät mustavalkoisiksi yhdellä klikkauksella. Oppilaat voivat värittää mustavalkoisia versioita. Säästä kymmeniä euroja mustekustannuksissa vuodessa.`,
-        highlighted: true,
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // How-To Guide - FULL text from Finnish prepositions.md step sections
@@ -258,80 +167,8 @@ Kaikki tehtävät viedään 300 DPI -laadulla. Täydellinen terävyys kotitulost
     badgeText: 'Kenelle Sopii',
     readMoreLabel: 'Lue lisää',
     showLessLabel: 'Näytä vähemmän',
-    items: [
-      {
-        id: '1',
-        icon: '👶',
-        title: 'Esiopetuksen Opettajat',
-        subtitle: 'Hienomotoriikka Harjoitukset ja Esiopetus Materiaali 6-Vuotiaille',
-        description: `Esiopetuksen opettajat valmistavat 6-vuotiaita lapsia alakouluun. Prepositioharjoitukset opettavat sijaintisuhteita leikkisästi. Yhdistä prepositiot hienomotoriikan harjoituksiin kattavaan oppimiseen. Luo värityskuvia lapsille tulostettava -tyyppisiä tehtäviä, joissa oppilaat värittävät kuvia.
-
-Esiopetuksessa prepositiot opetetaan konkreettisten esimerkkien kautta. Kuvat eläimistä, leluista ja arjen esineistä toimivat täydellisesti. Oppilaat oppivat sanoja "päällä", "alla", "vieressä", "sisällä" ja "ulkona". Visuaaliset esimerkit tekevät abstrakteista käsitteistä konkreettisia.
-
-Monivalintatehtävät sopivat parhaiten esiopetukseen. Kuusivuotiaat oppilaat eivät vielä kirjoita sujuvasti. Valitseminen on helpompaa kuin kirjoittaminen. Tarjoa 2-3 vaihtoehtoa selkeyden vuoksi.`,
-        quote: 'Prepositioharjoitukset tekevät sijaintisanojen oppimisesta hauskaa!',
-      },
-      {
-        id: '2',
-        icon: '📚',
-        title: 'Alakoulun Opettajat 1.-3. Luokka',
-        subtitle: 'Matematiikka Tehtävät Alakoulu ja Kielioppi Tehtävät',
-        description: `Alakoulun opettajat käyttävät prepositioharjoituksia kieliopin tunneilla. Ensimmäinen luokka oppii perus prepositiot. Toinen ja kolmas luokka syventävät ymmärrystä monimutkaisemmilla prepositioilla. Yhdistä prepositiot matematiikka tehtäviin alakoulu kokonaisvaltaiseen oppimiseen.
-
-Täydennysharjoitukset sopivat paremmin alakoululaisille. Oppilaat kirjoittavat prepositiot tyhjille viivoille. Kirjoittaminen vahvistaa oikeinkirjoitusta. Testaa ymmärrystä ilman apuvihjeitä.
-
-Luo eriytettyjä tehtäviä eri taitotasoille. Vahvemmille oppilaille monimutkaisempia prepositioita. Tukea tarvitseville yksinkertaisempia harjoituksia. Kaikki oppilaat työskentelevät samalla aiheella eri tasoilla.`,
-        quote: 'Prepositioharjoitukset tukevat kieliopin oppimista erinomaisesti!',
-      },
-      {
-        id: '3',
-        icon: '🏠',
-        title: 'Kotiopettajat',
-        subtitle: 'Tulostettavat Tehtävät Useille Luokkatasoille',
-        description: `Kotiopettajat opettavat usein useita lapsia eri ikäisenä. Prepositioiden generaattori luo tehtäviä kaikille tasoille. Generoi 1. luokan tehtävät yksinkertaisilla prepositioilla. Luo 3. luokan tehtävät monimutkaisemmilla sijaintisuhteilla. Kaikki tehtävät samalla alustalla.
-
-Säästä tunteja valmistelua kotiopetuksessa. Generoi viikon tehtävät kymmenessä minuutissa. Luo eri versioita eri lapsille. Ei tarvetta etsiä eri lähteitä eri aiheisiin.
-
-Personoi tehtävät lasten kiinnostuksen kohteiden mukaan. Lataa kuvia perheen lemmikeistä tai kiinnostavista aiheista. Personoidut tehtävät lisäävät motivaatiota. Lapset oppivat paremmin henkilökohtaisilla yhteyksillä.`,
-        quote: 'Yksi työkalu kattaa kaikkien lasteni tarpeet.',
-      },
-      {
-        id: '4',
-        icon: '🌍',
-        title: 'Kielenopetuksen Opettajat',
-        subtitle: 'Lukemaan Oppiminen Tehtävät 11 Kielellä',
-        description: `Suomea toisena kielenä opettavat hyötyvät valtavasti. Prepositiot ovat haastavia maahanmuuttajaoppilaille. Visuaaliset esimerkit selventävät merkityksiä. Luo prepositioharjoituksia suomeksi ja oppilaiden äidinkielellä vertailuun.
-
-Opeta prepositioita äidinkielellä ensin. Varmista ymmärrys käsitteestä. Sitten siirry suomen kielelle. Käännä sama tehtävä molemmille kielille yhdellä klikkauksella.
-
-Kaksikielisissä luokissa luo rinnakkaisia tehtäviä. Osa oppilaista työskentelee suomeksi. Toiset työskentelevät ruotsiksi tai englanniksi. Kaikki oppilaat harjoittelevat samoja prepositioita.`,
-        quote: 'Monikielisyystuki on ratkaisevaa luokkahuoneessani.',
-      },
-      {
-        id: '5',
-        icon: '💜',
-        title: 'Erityisopettajat',
-        subtitle: 'Värityskuvia Lapsille ja Eriyttäminen',
-        description: `Erityisopettajat tarvitsevat eriytettyä materiaalia eri oppimistyyleihin. Prepositioiden generaattori mahdollistaa täydellisen mukautuksen. Luo yksinkertaisia tehtäviä kehitysvammaisille oppilaille. Generoi haastavampia harjoituksia lahjakkaammille.
-
-Visuaaliset oppijat hyötyvät kuvista valtavasti. Suurenna kuvia selkeyden vuoksi. Käytä kirkkaita, kontrastisia värejä. Vähennä tekstiä vain olennaiseen.
-
-Luo värityskuvia lapsille tulostettava keskittymisen parantamiseksi. Värittäminen rauhoittaa levottomia oppilaita. Yhdistä värittäminen prepositioiden oppimiseen. Kaksoistoiminta pitää oppilaat kiinnittyneinä.`,
-        quote: 'Voin nopeasti mukauttaa tehtäviä jokaisen oppilaan tarpeisiin.',
-      },
-      {
-        id: '6',
-        icon: '💰',
-        title: 'Opettajayrittäjät',
-        subtitle: 'Myy Tehtäviä Kaupallisella Lisenssillä',
-        description: `Opettajayrittäjät myyvät tehtäviä Teachers Pay Teachersissa ja Etsyssä. Täysi Käyttöoikeus -tilaus sisältää kaupalliset oikeudet. Luo tehtäväpaketteja myyntiin ilman lisälisenssikuluja. Monet opettajat ansaitsevat 500-5000 euroa kuukaudessa.
-
-Luo temaattisia prepositiopaketteja eri aiheista. Myy eläinteemaisia prepositiopaketteja. Luo juhlapyhäversiot (joulu, pääsiäinen, halloween). Temaattiset paketit myyvät paremmin kuin yksittäiset tehtävät.
-
-Myy valmiita tehtäväkirjoja Amazon KDP:ssä. Yhdistä 50-100 prepositioharjoitusta kirjaksi. Lataa PDF Amazon KDP:hen. Ansaitse rojalteja jokaisesta myynnistä passiivisesti.`,
-        quote: 'Tilaukseni maksoi itsensä takaisin ensimmäisessä kuussa!',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // FAQ Section - Selected FAQs from Finnish prepositions.md
@@ -345,58 +182,8 @@ Myy valmiita tehtäväkirjoja Amazon KDP:ssä. Yhdistä 50-100 prepositioharjoit
     showLessLabel: 'Näytä vähemmän',
     secureCheckout: 'Turvallinen maksu',
     cancelAnytime: 'Peruuta milloin tahansa',
-    items: [
-      {
-        id: '1',
-        question: 'Onko Tämä Prepositioiden Generaattori Todella Ilmainen?',
-        answer: 'Prepositioiden tehtävägeneraattori vaatii Täysi Käyttöoikeus -tilauksen, joka maksaa 240 euroa vuodessa tai 25 euroa kuukaudessa. Tilauksesi antaa sinulle rajoittamattoman prepositioharjoitusten luomisen ilman maksuja yksittäisistä tehtävistä. Peruspaketti sisältää 10 suosittua tehtävägeneraattoria ja maksaa 144 euroa vuodessa. Molemmat tilaukset sisältävät kaupalliset oikeudet ja 11 kielen tuen.',
-      },
-      {
-        id: '2',
-        question: 'Voinko Tulostaa Prepositioharjoitukset Kotona?',
-        answer: 'Kyllä voit tulostaa kaikki prepositioharjoitukset kotitulostimella. 300 DPI -laatu toimii täydellisesti tavallisilla kotitulostimilla. A4-paperi on suositeltu koko Suomessa. Väritulostus tekee tehtävistä värikkäitä ja houkuttelevia. Harmaasävytulostus säästää mustetta ja toimii yhtä hyvin.',
-      },
-      {
-        id: '3',
-        question: 'Tarvitsenko Suunnittelutaitoja Prepositioharjoitusten Luomiseen?',
-        answer: 'Ei tarvitse mitään suunnittelutaitoja. Prepositioiden generaattori on suunniteltu opettajille ilman teknistä taustaa. Kolme klikkausta luo valmiin tehtävän. Valitse harjoitusten määrä ja prepositiot. Napsauta Generoi. Tehtävä on valmis. Ei Photoshoppia. Ei InDesigniä. Ei oppimiskäyrää.',
-      },
-      {
-        id: '4',
-        question: 'Voinko Käyttää Prepositioharjoituksia Luokassani?',
-        answer: 'Täysi Käyttöoikeus -tilaus sisältää rajattoman luokkahuonekäytön prepositioharjoituksille. Tulosta niin monta kappaletta kuin luokassasi on oppilaita. Jaa tehtävät oppilaille. Käytä tehtäviä kotitehtävinä. Käytä tehtäviä kokeissa ja arvioinneissa. Kaikki tämä sisältyy tilaukseen.',
-      },
-      {
-        id: '5',
-        question: 'Millä Kielillä Prepositioharjoitukset Ovat Saatavilla?',
-        answer: 'Kaikki 11 kieltä toimivat täydellisesti prepositioiden generaattorissa. Suomi, ruotsi, norja, tanska, englanti, saksa, ranska, espanja, italia, portugali ja hollanti. Vaihda kieltä yhdellä klikkauksella asetuksista. Kuvien nimet ja prepositiolauseet näytetään valitsemallasi kielellä.',
-      },
-      {
-        id: '6',
-        question: 'Voinko Myydä Prepositioharjoituksia, Jotka Luon?',
-        answer: 'Kyllä voit. Täysi Käyttöoikeus -tilaus sisältää täyden kaupallisen print-on-demand -lisenssin ilman lisämaksuja. Myy prepositioharjoituksia Teachers Pay Teachers -alustalla. Myy Etsy-verkkokaupassa digitaalisina latauksina. Myy Amazon KDP -palvelussa matalan sisällön kirjoina. Ei tekijänoikeusmerkintöjä vaadittu.',
-      },
-      {
-        id: '7',
-        question: 'Mille Ikäryhmille Prepositioharjoitukset Sopivat Parhaiten?',
-        answer: 'Prepositioharjoitukset sopivat erinomaisesti 6-9-vuotiaille lapsille. Esiopetuksessa monivalintatehtävät sopivat 6-vuotiaille. Täydennysharjoitukset sopivat paremmin 1.-3. luokkalaisille. Vaikeustasoa voi säätää prepositioiden valinnalla ja tehtävien määrällä.',
-      },
-      {
-        id: '8',
-        question: 'Voinko Ladata Omia Kuvia Prepositioharjoituksiin?',
-        answer: 'Kyllä voit ladata omia kuvia helposti. Monilataus tukee useita tiedostoja kerralla. PNG, JPEG ja GIF formaatit tuettu. Yhdistä omia kuvia 3000+ kuvan kirjaston kuviin. Lataa luokkahuoneen esineiden kuvia konkreettiseen oppimiseen.',
-      },
-      {
-        id: '9',
-        question: 'Kuinka Kauan Prepositioharjoituksen Luominen Kestää?',
-        answer: 'Prepositioharjoituksen luominen kestää alle kolme minuuttia. Yksi minuutti asetusten valintaan. 10 sekuntia generointiin. 1-2 minuuttia muokkaukseen ja lataamiseen. Voit luoda viikon tehtävät alle 15 minuutissa.',
-      },
-      {
-        id: '10',
-        question: 'Sisältyykö Vastausavain Prepositioharjoituksiin?',
-        answer: 'Kyllä sisältyy aina. Vastausavain luodaan automaattisesti jokaisen prepositioharjoituksen yhteydessä. Näet vastaukset "Vastausavain" -välilehdellä. Lataa vastausavain erikseen PDF-muodossa. Tulosta vastausavain itsellesi nopeaa tarkistusta varten.',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Pricing - Finnish terminology
@@ -441,56 +228,8 @@ Myy valmiita tehtäväkirjoja Amazon KDP:ssä. Yhdistä 50-100 prepositioharjoit
       securePayment: 'Turvallinen maksu',
       cancelAnytime: 'Peruuta milloin tahansa',
     },
-    items: [
-      {
-        id: '1',
-        slug: 'matching',
-        name: 'Yhdistä Parit',
-        category: 'Visuaalinen Oppiminen',
-        icon: '🔗',
-        description: 'Yhdistä prepositioharjoitukset yhdistämistehtäviin sijaintisanojen vahvistamiseksi.',
-      },
-      {
-        id: '2',
-        slug: 'find-and-count',
-        name: 'Etsi ja Laske',
-        category: 'Matematiikka',
-        icon: '🔍',
-        description: 'Yhdistä prepositiot laskutehtäviin sanallisten ongelmien harjoitteluun.',
-      },
-      {
-        id: '3',
-        slug: 'coloring',
-        name: 'Värityskuvat',
-        category: 'Luovuus',
-        icon: '🎨',
-        description: 'Tulosta prepositioharjoitukset harmaasävyinä väritystehtäviksi.',
-      },
-      {
-        id: '4',
-        slug: 'drawing-lines',
-        name: 'Viivojen Piirtäminen',
-        category: 'Hienomotoriikka',
-        icon: '✏️',
-        description: 'Yhdistä prepositiot piirustusharjoituksiin motoristen taitojen kehittämiseksi.',
-      },
-      {
-        id: '5',
-        slug: 'word-search',
-        name: 'Sananhaku',
-        category: 'Kieli',
-        icon: '🔤',
-        description: 'Vahvista prepositiosanastoa sananhakutehtävillä.',
-      },
-      {
-        id: '6',
-        slug: 'picture-sort',
-        name: 'Kuvalajittelu',
-        category: 'Logiikka',
-        icon: '📊',
-        description: 'Yhdistä prepositiot lajittelutehtäviin kategorioiden harjoitteluun.',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 };
 

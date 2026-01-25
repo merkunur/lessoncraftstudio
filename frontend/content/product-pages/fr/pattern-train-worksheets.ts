@@ -96,43 +96,8 @@ Les enseignants gagnent du temps précieux. Créer des fiches maternelle de suit
     badgeText: 'Exemples Gratuits',
     downloadingLabel: 'Téléchargement...',
     ofLabel: 'sur',
-    items: [
-      {
-        id: '1',
-        worksheetSrc: '/samples/french/pattern-train/sample-1.jpeg',
-        answerKeySrc: '/samples/french/pattern-train/sample-1-answer.jpeg',
-        altText: 'Fiche suites logiques gratuite train - exercice CP reconnaissance de motifs pour maternelle',
-        pdfDownloadUrl: '/samples/french/pattern-train/sample-1.pdf',
-      },
-      {
-        id: '2',
-        worksheetSrc: '/samples/french/pattern-train/sample-2.jpeg',
-        answerKeySrc: '/samples/french/pattern-train/sample-2-answer.jpeg',
-        altText: 'Fiches maternelle suites logiques train - fiches à imprimer gratuit pour enfants',
-        pdfDownloadUrl: '/samples/french/pattern-train/sample-2.pdf',
-      },
-      {
-        id: '3',
-        worksheetSrc: '/samples/french/pattern-train/sample-3.jpeg',
-        answerKeySrc: '/samples/french/pattern-train/sample-3-answer.jpeg',
-        altText: 'Exercices CP suites logiques train - fiche gratuite pour maternelle et CP',
-        pdfDownloadUrl: '/samples/french/pattern-train/sample-3.pdf',
-      },
-      {
-        id: '4',
-        worksheetSrc: '/samples/french/pattern-train/sample-4.jpeg',
-        answerKeySrc: '/samples/french/pattern-train/sample-4-answer.jpeg',
-        altText: 'Fiche gratuite suites logiques train - exercice maternelle reconnaissance de motifs',
-        pdfDownloadUrl: '/samples/french/pattern-train/sample-4.pdf',
-      },
-      {
-        id: '5',
-        worksheetSrc: '/samples/french/pattern-train/sample-5.jpeg',
-        answerKeySrc: '/samples/french/pattern-train/sample-5-answer.jpeg',
-        altText: 'Fiches pour enfants suites logiques train - fiche maternelle à imprimer gratuit',
-        pdfDownloadUrl: '/samples/french/pattern-train/sample-5.pdf',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Features Grid - FULL text from pattern-train.md feature sections
@@ -148,85 +113,8 @@ Les enseignants gagnent du temps précieux. Créer des fiches maternelle de suit
       noHiddenFees: 'Aucun frais caché',
       cancelAnytime: 'Résiliez à tout moment',
     },
-    items: [
-      {
-        id: '1',
-        icon: '⚡',
-        title: 'Créer des Fiches Maternelle en 3 Clics',
-        description: `La création de fiches maternelle n'a jamais été aussi simple. Sélectionnez votre type de suite logique parmi 5 options. Choisissez vos images dans notre bibliothèque de 3000 visuels. Cliquez sur générer et votre fiche à imprimer gratuit apparaît instantanément. Les exercices CP sont prêts en moins de 3 minutes. Aucune compétence en design requise.
-
-Le générateur propose 5 types de suites logiques. Les suites AB conviennent aux petits de maternelle. Les suites AAB et ABB s'adaptent aux moyens. Les suites ABC et AABB défient les grands de maternelle et CP. Ajustez le nombre d'indices de 4 à 10. Plus d'indices signifie une fiche maternelle plus facile. Moins d'indices crée des exercices CP plus difficiles.
-
-Sélectionnez un thème pour que le générateur choisisse les images automatiquement. Ou cliquez manuellement sur vos images préférées. Chaque fiche à imprimer gratuit reflète votre vision pédagogique. Les enfants travaillent avec des visuels adaptés à leur âge et leurs intérêts.`,
-        highlighted: false,
-      },
-      {
-        id: '2',
-        icon: '✏️',
-        title: 'Modifier Tous les Éléments des Fiches Maternelle',
-        description: `Chaque élément de vos fiches maternelle est modifiable après génération. Déplacez le train vers le haut ou le bas. Agrandissez ou réduisez les images. Faites pivoter les éléments visuels. Supprimez ce qui ne vous convient pas. Cette flexibilité distingue nos fiches à imprimer gratuit des modèles figés.
-
-Ajoutez du texte personnalisé n'importe où sur la fiche. Changez la couleur du texte pour correspondre à votre thème. Modifiez la taille de police de 8 à 72 points. Choisissez parmi 7 polices adaptées aux enfants. Ajoutez un contour au texte pour améliorer la lisibilité. Vos exercices CP portent votre signature pédagogique unique.
-
-Les outils d'alignement facilitent la mise en page professionnelle. Alignez plusieurs éléments en un clic. Centrez le titre parfaitement sur la page. Organisez les images en rangées ordonnées. Vos fiches maternelle ont l'apparence de documents professionnels achetés en magasin. Mais vous les avez créées vous-même en 3 minutes.`,
-        highlighted: false,
-      },
-      {
-        id: '3',
-        icon: '📤',
-        title: 'Importer Vos Propres Images pour Fiches Personnalisées',
-        description: `Combinez notre bibliothèque de 3000 images avec vos propres visuels. Téléchargez plusieurs fichiers simultanément. Tous les formats courants fonctionnent. JPEG, PNG et GIF s'intègrent parfaitement. Créez des fiches maternelle avec les mascottes de votre classe.
-
-Les photos de vos élèves rendent les exercices CP ultra-personnalisés. Photographiez les objets de votre classe. Scannez les dessins d'enfants. Importez des images de votre vie quotidienne. Les fiches à imprimer gratuit deviennent des supports d'apprentissage vraiment adaptés à votre groupe.
-
-Les images téléchargées restent disponibles pendant toute votre session. Réutilisez-les sur plusieurs fiches maternelle différentes. Créez une série cohérente d'exercices CP avec les mêmes personnages. Les enfants développent une connexion émotionnelle avec les supports qui leur parlent personnellement.`,
-        highlighted: false,
-      },
-      {
-        id: '4',
-        icon: '🌍',
-        title: 'Fiches Maternelle en 11 Langues',
-        description: `Notre générateur produit des fiches maternelle en 11 langues différentes. Français, anglais, allemand, espagnol, portugais brésilien, italien, néerlandais, suédois, danois, norvégien et finnois. Chaque langue bénéficie d'une bibliothèque d'images avec noms traduits. Les exercices CP multilingues soutiennent l'apprentissage des langues étrangères.
-
-Les enseignants de FLE créent des fiches à imprimer gratuit en français pour leurs élèves internationaux. Les classes bilingues produisent la même fiche maternelle en deux langues. Les écoles internationales adaptent les exercices CP à leur langue d'enseignement. Un seul outil sert tous vos besoins linguistiques.
-
-La fonctionnalité multilingue ouvre des possibilités pédagogiques infinies. Créez des fiches maternelle de comparaison linguistique. Montrez la même suite logique avec vocabulaire anglais et français. Les enfants développent la conscience métalinguistique tout en pratiquant les suites. Vos fiches à imprimer gratuit enseignent deux compétences simultanément.`,
-        highlighted: false,
-      },
-      {
-        id: '5',
-        icon: '💰',
-        title: 'Licence Commerciale Incluse',
-        description: `Votre abonnement Accès Complet inclut une licence commerciale print-on-demand complète. Vendez vos fiches maternelle sur Teachers Pay Teachers. Ouvrez une boutique Etsy de fiches à imprimer gratuit. Publiez des cahiers d'exercices CP sur Amazon KDP. Aucun frais de licence supplémentaire. Aucune attribution requise.
-
-La qualité 300 DPI convient parfaitement à la vente professionnelle. Vos clients reçoivent des fiches maternelle nettes et claires. Les images restent précises même après impression. Les exercices CP ressemblent à des produits commerciaux professionnels. Certains enseignants gagnent 500 à 5000 euros mensuels en vendant leurs créations.
-
-Créez des packs thématiques de fiches maternelle pour maximiser vos ventes. Combinez 10 fiches à imprimer gratuit sur les animaux de la ferme. Proposez une série complète d'exercices CP sur les suites logiques progressives. Les acheteurs adorent les collections cohérentes. Votre bibliothèque de produits grandit rapidement.`,
-        highlighted: true,
-      },
-      {
-        id: '6',
-        icon: '🎨',
-        title: 'Bibliothèque de 3000+ Images',
-        description: `Accédez à plus de 3000 images enfantines organisées par thèmes. Animaux, véhicules, aliments, jouets, nature, vêtements et bien plus. Chaque thème contient des dizaines d'images colorées. Trouvez toujours le visuel parfait pour vos fiches maternelle. Les enfants reconnaissent instantanément les objets familiers.
-
-Le moteur de recherche localise n'importe quelle image rapidement. Tapez "chat" et voyez tous les chats disponibles. Recherchez "pomme" pour les activités sur les fruits. Parcourez les thèmes ou cherchez précisément. Vos fiches à imprimer gratuit utilisent exactement les images souhaitées.
-
-Les images s'adaptent automatiquement aux suites logiques. Le générateur maintient la cohérence visuelle. Toutes les images d'une fiche maternelle ont le même style. Pas de mélanges bizarres entre photos réelles et dessins animés. Vos exercices CP ont l'apparence professionnelle et cohérente que les parents apprécient.`,
-        highlighted: false,
-      },
-      {
-        id: '7',
-        icon: '🖨️',
-        title: 'Qualité Professionnelle 300 DPI',
-        description: `Exportez vos fiches maternelle en format PDF ou JPEG haute résolution. La qualité 300 DPI garantit des impressions parfaitement nettes. Imprimez chez vous sur une imprimante standard. Ou envoyez à un imprimeur professionnel. Les exercices CP restent clairs et lisibles à toutes les tailles.
-
-L'option niveaux de gris économise l'encre précieuse de votre imprimante. Les fiches à imprimer gratuit en noir et blanc restent parfaitement utilisables. Les contours nets permettent aux enfants de distinguer facilement les images. Les enseignants économisent 70% d'encre sans sacrifier la qualité pédagogique.
-
-Téléchargez la fiche maternelle et sa correction séparément. La correction montre la suite complète avec toutes les réponses. Les enfants vérifient leur travail de manière autonome. Vous gagnez du temps de correction. Les deux fichiers sont prêts en un clic. Vos exercices CP incluent tout le matériel nécessaire pour une activité complète.`,
-        highlighted: true,
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // How-To Guide - FULL text from pattern-train.md step sections
@@ -318,80 +206,8 @@ Cochez "Grayscale" avant de télécharger pour économiser l'encre couleur. La f
     badgeText: 'Pour Qui',
     readMoreLabel: 'Lire la suite',
     showLessLabel: 'Voir moins',
-    items: [
-      {
-        id: '1',
-        icon: '👶',
-        title: 'Enseignants de Maternelle',
-        subtitle: 'Fiches à Imprimer Gratuit pour Petite, Moyenne et Grande Section',
-        description: `Les enseignants de maternelle jonglent avec trois niveaux simultanément. La petite section nécessite des activités de graphisme maternelle simples. La moyenne section demande plus de complexité cognitive. La grande section prépare au CP avec des exercices structurés. Le générateur permet de différencier facilement les fiches maternelle pour chaque niveau.
-
-Créez des suites AB simples pour vos petits de trois ans. Utilisez de grosses images colorées d'animaux familiers. Montrez 8 indices sur 10 positions. Les enfants comprennent le motif rapidement. Ajoutez des exercices de graphisme maternelle en intégrant du tracé autour des images. Les petits développent motricité fine et logique simultanément.
-
-Les moyens de quatre ans réussissent les suites AAB et ABB. Réduisez les indices à 6 positions. Choisissez des images plus variées comme véhicules et objets du quotidien. Combinez ces fiches maternelle avec des activités de coloriage. Les enfants colorient les images avant de découper. Double apprentissage en une seule fiche à imprimer gratuit.`,
-        quote: 'Mes élèves adorent le train coloré !',
-      },
-      {
-        id: '2',
-        icon: '📚',
-        title: 'Enseignants de CP et CE1',
-        subtitle: 'Exercices CP et Exercices CE1 de Suites Logiques Progressives',
-        description: `Les enseignants de CP utilisent les suites logiques pour renforcer le raisonnement mathématique. Les suites visuelles préparent aux suites numériques. Chat-chien-chat-chien devient 1-2-1-2 ensuite. Les enfants comprennent que les suites existent partout. Cette base facilite l'apprentissage des exercices maths ultérieurs.
-
-Combinez suites logiques et alphabet pour des exercices CP multicompétences. Créez une suite avec pomme, banane, cerise. Demandez aux enfants d'identifier les lettres initiales. P-B-C forme une suite alphabétique. Ou utilisez des objets dont les noms ont 3-4-5 lettres. Les exercices CP deviennent des activités d'apprendre à lire déguisées.
-
-Le CE1 approfondit avec des suites à motifs multiples. AABBCC demande de suivre trois éléments doublés. Les élèves développent mémoire de travail et attention visuelle. Intégrez des exercices maths en demandant combien d'images de chaque type.`,
-        quote: 'Parfait pour les exercices de raisonnement logique.',
-      },
-      {
-        id: '3',
-        icon: '🏠',
-        title: 'Parents en Instruction à Domicile',
-        subtitle: 'Fiches Maternelle et Exercices CP Personnalisés',
-        description: `Les parents en instruction à domicile adorent la personnalisation totale. Créez des fiches maternelle sur les passions de votre enfant. Votre fille adore les chevaux. Toutes les suites utilisent des images équestres. Votre fils collectionne les dinosaures. Créez 10 fiches à imprimer gratuit uniquement avec des dinosaures. L'engagement explose quand les supports parlent aux intérêts personnels.
-
-Photographiez les jouets de votre enfant. Importez les photos dans le générateur. Créez des suites avec le doudou, le camion préféré et la poupée. Les tout-petits reconnaissent leurs objets familiers. La motivation intrinsèque remplace la contrainte. Les exercices CP deviennent des jeux attendus avec impatience.
-
-Adaptez le rythme exactement aux besoins individuels. Votre enfant maîtrise les suites AB en deux jours. Passez immédiatement aux AAB. Un autre enfant nécessite trois semaines sur les AB. Aucun problème. Créez 20 fiches maternelle différentes sur les suites AB.`,
-        quote: 'Je peux adapter les fiches au niveau exact de mon enfant.',
-      },
-      {
-        id: '4',
-        icon: '🌍',
-        title: 'Enseignants de Langues Étrangères',
-        subtitle: 'Fiches Maternelle Multilingues pour Apprendre à Lire',
-        description: `Les enseignants de FLE créent des fiches maternelle en français pour élèves allophones. Les images universelles transcendent la barrière linguistique. Chat reste chat en toutes langues visuellement. Mais le mot "chat" s'apprend en français. Demandez aux enfants de nommer les images en français. Les suites logiques deviennent des exercices d'apprendre à lire le vocabulaire.
-
-Les classes bilingues produisent la même fiche en deux langues. Suite avec pomme-banane-orange en français lundi. Même suite avec apple-banana-orange en anglais mardi. Les enfants comprennent que les langues nomment différemment les mêmes concepts. Vos fiches à imprimer gratuit enseignent conscience métalinguistique dès la maternelle.
-
-Utilisez les 11 langues disponibles pour l'apprentissage progressif. Commencez avec français en septembre. Ajoutez espagnol en janvier pour initiation précoce. Créez exercices CP identiques en format bilingue.`,
-        quote: 'Les 11 langues ouvrent des possibilités infinies.',
-      },
-      {
-        id: '5',
-        icon: '💜',
-        title: 'Orthophonistes et Enseignants Spécialisés',
-        subtitle: 'Fiches à Imprimer Gratuit pour Rééducation et Soutien',
-        description: `Les orthophonistes utilisent les suites logiques pour développer mémoire de travail et attention. Les enfants dyslexiques bénéficient d'exercices visuels sans texte. Les suites logiques entraînent le cerveau à reconnaître les motifs. Cette compétence transfère ensuite à la reconnaissance des lettres et des mots. Vos fiches maternelle deviennent outils thérapeutiques puissants.
-
-Créez des progressions ultra-graduelles pour enfants en difficulté. Commencez avec suite AB montrant 9 indices sur 10. Facile. Puis 8 indices. Puis 7. Diminuez un indice par semaine. Sur trois mois, l'enfant progresse jusqu'à 4 indices. La confiance augmente avec chaque succès. Les fiches à imprimer gratuit documentent les progrès visuellement.
-
-Les enfants autistes apprécient la prévisibilité des suites logiques. Le motif se répète de manière rassurante. Créez des fiches maternelle avec des routines visuelles. Suite montrant matin-midi-soir avec symboles soleil-nuages-lune.`,
-        quote: 'Progressions ultra-graduelles pour tous les besoins.',
-      },
-      {
-        id: '6',
-        icon: '💰',
-        title: 'Enseignants Entrepreneurs',
-        subtitle: 'Vendez Fiches Maternelle sur Teachers Pay Teachers',
-        description: `Votre licence commerciale Accès Complet transforme votre créativité en revenus. Créez des packs de 10 fiches maternelle thématiques. "Suites Logiques Animaux de la Ferme" pour 3 euros. "Exercices CP Suites Logiques Progressives" pour 5 euros. Vendez sur Teachers Pay Teachers France et Etsy. Les acheteurs adorent les ressources prêtes à imprimer.
-
-La qualité 300 DPI justifie des prix premium. Vos fiches à imprimer gratuit ressemblent à des produits commerciaux professionnels. Pas de pixels flous. Pas d'images mal alignées. La mise en page soignée impressionne les acheteurs exigeants. Facturez 20-30% plus cher que les concurrents pour qualité supérieure.
-
-Créez des collections saisonnières pour ventes régulières. Suites logiques d'Halloween en octobre. Noël en décembre. Pâques en mars. Plage et été en juin. Les enseignants achètent du matériel thématique toute l'année.`,
-        quote: 'Mon abonnement s\'est rentabilisé dès le premier mois !',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // FAQ Section - Selected FAQs from pattern-train.md
@@ -405,58 +221,8 @@ Créez des collections saisonnières pour ventes régulières. Suites logiques d
     showLessLabel: 'Voir moins',
     secureCheckout: 'Paiement sécurisé',
     cancelAnytime: 'Résiliez à tout moment',
-    items: [
-      {
-        id: '1',
-        question: 'Ce Générateur de Fiches Maternelle et Exercices CP est-il Vraiment Gratuit à Utiliser?',
-        answer: 'Le générateur de suites logiques nécessite un abonnement Accès Complet coûtant 240 euros annuellement ou 25 euros mensuellement. Votre abonnement donne accès illimité à la création de fiches maternelle sans frais par fiche. Générez autant de fiches à imprimer gratuit que nécessaire sans charges supplémentaires. Créez 10, 50 ou 200 fiches mensuellement au même prix fixe. Accès Complet inclut 33 générateurs différents pour fiches maternelle et exercices CP.',
-      },
-      {
-        id: '2',
-        question: 'Puis-je Imprimer les Fiches à Imprimer Gratuit sur une Imprimante Normale?',
-        answer: 'Absolument. Toutes les fiches maternelle s\'impriment parfaitement sur imprimante domestique standard. Format PDF compatible avec n\'importe quelle imprimante jet d\'encre ou laser. Papier A4 ou Letter standard fonctionne idéalement. Les fiches à imprimer gratuit sortent nettes et claires. La qualité 300 DPI garantit texte lisible et images précises. L\'option niveaux de gris économise 70% d\'encre couleur.',
-      },
-      {
-        id: '3',
-        question: 'Ai-je Besoin de Compétences en Design pour Créer des Fiches Maternelle?',
-        answer: 'Aucune compétence technique requise. Le générateur fonctionne en 3 clics simples. Sélectionnez type de suite, choisissez images, cliquez générer. Vos fiches maternelle apparaissent instantanément. Aucune formation en graphisme maternelle, mise en page ou design graphique nécessaire. Les enseignants sans expérience informatique créent des fiches à imprimer gratuit professionnelles dès la première utilisation.',
-      },
-      {
-        id: '4',
-        question: 'Quelles Langues Sont Disponibles pour les Fiches de Suites Logiques?',
-        answer: 'Le générateur produit fiches maternelle en 11 langues différentes. Français, anglais, allemand, espagnol, portugais brésilien, italien, néerlandais, suédois, danois, norvégien et finnois. Chaque langue bénéficie d\'images avec noms traduits dans la bibliothèque. Les fiches à imprimer gratuit s\'adaptent parfaitement à l\'enseignement de langues étrangères et programmes bilingues.',
-      },
-      {
-        id: '5',
-        question: 'Puis-Je Vendre les Fiches sur Teachers Pay Teachers?',
-        answer: 'Oui absolument. Accès Complet inclut licence commerciale print-on-demand complète sans frais supplémentaire. Vendez vos fiches maternelle sur Teachers Pay Teachers France. Ouvrez boutique Etsy de ressources éducatives. Publiez cahiers d\'exercices CP sur Amazon KDP. Aucune attribution requise. Aucune limite de ventes ou revenus.',
-      },
-      {
-        id: '6',
-        question: 'Les Fiches Incluent-elles des Corrections?',
-        answer: 'Oui, chaque fiche maternelle génère correction automatiquement. Cliquez "Answer Key" dans menu Créer. La correction affiche suite complète avec toutes bonnes réponses. Tous wagons contiennent images correctes. Téléchargez séparément comme PDF indépendant. Vos fiches à imprimer gratuit incluent toujours solutions complètes.',
-      },
-      {
-        id: '7',
-        question: 'Pour Quels Âges Fonctionnent les Fiches de Suites Logiques?',
-        answer: 'Les fiches maternelle s\'adaptent de la petite section au CE1. Petite section (3-4 ans) réussit suites AB simples avec 8-10 indices. Moyenne section (4-5 ans) progresse vers suites AAB et ABB avec 6-7 indices. Grande section et CP (5-7 ans) maîtrisent suites ABC et AABB complexes avec 4-5 indices. CE1 (7-8 ans) utilise les fiches pour interventions et soutien.',
-      },
-      {
-        id: '8',
-        question: 'Combien de Temps Faut-il pour Créer une Fiche?',
-        answer: 'Moins de 3 minutes du début à téléchargement final. Sélectionnez type de suite (30 secondes). Choisissez images ou thème (1 minute). Générez et examinez (30 secondes). Téléchargez PDF (30 secondes). Personnalisation approfondie ajoute 2-5 minutes supplémentaires. Total 5-8 minutes maximum pour fiche maternelle entièrement personnalisée.',
-      },
-      {
-        id: '9',
-        question: 'Puis-Je Télécharger Mes Propres Images?',
-        answer: 'Absolument. L\'import multi-fichiers permet téléchargement simultané de plusieurs images. JPEG, PNG et GIF fonctionnent parfaitement. Photographiez objets de votre classe, mascottes, ou créations d\'élèves. Vos images personnelles s\'intègrent parfaitement aux 3000 images de bibliothèque. Les images téléchargées restent disponibles toute la session.',
-      },
-      {
-        id: '10',
-        question: 'Comment Différencier les Fiches pour Différents Niveaux?',
-        answer: 'L\'ajustement du nombre d\'indices différencie instantanément les fiches. Créez des fiches stimulantes avec seulement 4 indices pour les élèves avancés. Générez des fiches de soutien montrant 9-10 indices pour les apprenants en difficulté. Produisez trois versions à différents niveaux de difficulté à partir d\'un seul modèle. Choisissez également différents types de suites (AB simple vs ABC complexe).',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Pricing
@@ -526,56 +292,8 @@ Créez des collections saisonnières pour ventes régulières. Suites logiques d
       securePayment: 'Paiement sécurisé',
       cancelAnytime: 'Résiliez à tout moment',
     },
-    items: [
-      {
-        id: '1',
-        slug: 'alphabet-train',
-        name: 'Train Alphabet',
-        category: 'Littératie',
-        icon: '🚂',
-        description: 'Combinez les suites logiques avec l\'apprentissage de l\'alphabet pour des fiches maternelle complètes.',
-      },
-      {
-        id: '2',
-        slug: 'coloring',
-        name: 'Coloriage',
-        category: 'Créativité',
-        icon: '🎨',
-        description: 'Transformez les fiches de suites en activités de coloriage après la complétion de l\'exercice.',
-      },
-      {
-        id: '3',
-        slug: 'matching',
-        name: 'Correspondance',
-        category: 'Apprentissage',
-        icon: '🔗',
-        description: 'Renforcez la reconnaissance des motifs avec des activités de correspondance image-image.',
-      },
-      {
-        id: '4',
-        slug: 'addition',
-        name: 'Addition',
-        category: 'Mathématiques',
-        icon: '➕',
-        description: 'Passez des suites visuelles aux suites numériques pour une progression mathématique naturelle.',
-      },
-      {
-        id: '5',
-        slug: 'drawing-lines',
-        name: 'Tracer des Lignes',
-        category: 'Graphisme',
-        icon: '✏️',
-        description: 'Développez la motricité fine avec des fiches de graphisme maternelle complémentaires.',
-      },
-      {
-        id: '6',
-        slug: 'pattern-worksheet',
-        name: 'Fiches Motifs',
-        category: 'Logique',
-        icon: '🔄',
-        description: 'Explorez d\'autres formats de fiches de suites logiques pour varier les activités.',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 };
 

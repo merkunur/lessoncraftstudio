@@ -96,43 +96,8 @@ Hver alfabetopgave har en farverig togskabelon med elleve vogne. Eleverne matche
     noPdfLabel: 'Ingen PDF tilgængelig',
     freePdfCountLabel: '3 gratis downloads',
     ofLabel: 'af',
-    items: [
-      {
-        id: '1',
-        worksheetSrc: '/samples/danish/alphabet-train/sample-1.jpeg',
-        answerKeySrc: '/samples/danish/alphabet-train/sample-1-answer.jpeg',
-        altText: 'Alfabettog gratis arbejdsark - portrætformat med bogstav-til-billede matching til børnehaveklassen',
-        pdfDownloadUrl: '/samples/danish/alphabet-train/sample-1.pdf',
-      },
-      {
-        id: '2',
-        worksheetSrc: '/samples/danish/alphabet-train/sample-2.jpeg',
-        answerKeySrc: '/samples/danish/alphabet-train/sample-2-answer.jpeg',
-        altText: 'Alfabettog arbejdsark til børn - landskabsformat med farverigt togdesign til børnehaveklasse',
-        pdfDownloadUrl: '/samples/danish/alphabet-train/sample-2.pdf',
-      },
-      {
-        id: '3',
-        worksheetSrc: '/samples/danish/alphabet-train/sample-3.jpeg',
-        answerKeySrc: '/samples/danish/alphabet-train/sample-3-answer.jpeg',
-        altText: 'Gratis arbejdsark alfabettog - bogstavgenkendelse til 0. klasse opgaver',
-        pdfDownloadUrl: '/samples/danish/alphabet-train/sample-3.pdf',
-      },
-      {
-        id: '4',
-        worksheetSrc: '/samples/danish/alphabet-train/sample-4.jpeg',
-        answerKeySrc: '/samples/danish/alphabet-train/sample-4-answer.jpeg',
-        altText: 'Alfabettog arbejdsark til børnehaveklasse - lære bogstaver aktivitet med billeder',
-        pdfDownloadUrl: '/samples/danish/alphabet-train/sample-4.pdf',
-      },
-      {
-        id: '5',
-        worksheetSrc: '/samples/danish/alphabet-train/sample-5.jpeg',
-        answerKeySrc: '/samples/danish/alphabet-train/sample-5-answer.jpeg',
-        altText: 'Gratis printables alfabettog - finmotorik øvelser og bogstavpraksis',
-        pdfDownloadUrl: '/samples/danish/alphabet-train/sample-5.pdf',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Features Grid
@@ -148,85 +113,8 @@ Hver alfabetopgave har en farverig togskabelon med elleve vogne. Eleverne matche
       noHiddenFees: 'Ingen skjulte gebyrer',
       cancelAnytime: 'Opsig når som helst',
     },
-    items: [
-      {
-        id: '1',
-        icon: '⚡',
-        title: 'Lav Gratis Arbejdsark på Tre Klik - Alfabetopgaver til Børn',
-        description: `Generer komplette alfabetopgaver på under tre minutter fra start til slut. Vælg elleve bogstaver fra dit valgte sprogs alfabet. Klik på billeder for automatisk at tildele dem til hvert bogstav. Klik på Opret-knappen og dit alfabetarbejdsark vises øjeblikkeligt.
-
-Auto-opret-tilstanden gør alfabetopgaver endnu hurtigere for travle lærere. Vælg et hvilket som helst tema fra billedbiblioteket. Klik på én knap og systemet vælger tilfældigt elleve bogstaver. Det tildeler automatisk matchende billeder for at skabe et komplet alfabetarbejdsark. Perfekt til hurtigt at lave gratis skoleopgaver eller 0. klasse opgaver til morgenarbejde.
-
-Manuel tilstand giver dig fuld kontrol over alfabetopgavernes indhold. Vælg præcis hvilke elleve bogstaver der skal inkluderes på dine arbejdsark til print. Vælg specifikke billeder der matcher din nuværende ordforrådsemne. Lav tematiske alfabetopgaver til højtider, årstider eller klasseværelsesemner.`,
-        highlighted: false,
-      },
-      {
-        id: '2',
-        icon: '✏️',
-        title: 'Rediger Alt på Dine Gratis Arbejdsark til Børnehaveklasse',
-        description: `Hvert element på dit alfabetarbejdsark er fuldstændigt redigerbart efter generering. Træk bogstaver til nye positioner på toget. Roter billeder for at skabe visuel interesse. Skaler billeder større eller mindre for at fremhæve visse elementer. Slet enhver ting du ikke ønsker på dine alfabetopgaver.
-
-Tilføj brugerdefineret tekst hvor som helst på dine opgaver til print med syv professionelle skrifttyper. Skift tekstfarver til at matche dit klasseværelsestema eller skolefarver. Juster skriftstørrelser fra små etiketter til store titler. Tilføj konturer til tekst for bedre synlighed på farverige baggrunde.
-
-Fortryd og gendan knapperne forhindrer fejl mens du redigerer alfabetopgaver. Lavede du en ændring du ikke kan lide? Klik fortryd for øjeblikkeligt at vende den tilbage. Systemet gemmer tyve redigeringstrin for komplet kontrol.`,
-        highlighted: false,
-      },
-      {
-        id: '3',
-        icon: '📤',
-        title: 'Upload Dine Egne Billeder',
-        description: `Upload ubegrænsede brugerdefinerede billeder for at personliggøre dine alfabetopgaver til dine elever. Tilføj fotos af klasseværelsesobjekter der matcher din ordforrådsundervisning. Inkluder billeder af elevers navne til personlige alfabetopgaver. Upload sæsonbilleder til tematiske opgaver til print gennem året.
-
-Multi-fil upload accepterer alle almindelige billedformater inklusive JPEG, PNG og GIF. Upload ti billeder på én gang eller ét ad gangen. Uploadede billeder vises øjeblikkeligt i dit billedvalgspanel. Kombiner biblioteksbilleder med dine uploadede fotos på samme alfabetarbejdsark.
-
-Lærere bruger brugerdefinerede uploads til meget specifikke gratis skoleopgaver. Upload billeder af skolens maskotter, klasseværelseskæledyr eller lokale vartegn. Lav alfabetopgaver med elevkunstværker fra kunstundervisning.`,
-        highlighted: false,
-      },
-      {
-        id: '4',
-        icon: '🌍',
-        title: 'Lav Alfabetopgaver på Elleve Sprog',
-        description: `Skift mellem elleve komplette alfabeter øjeblikkeligt til flersprogede gratis skoleopgaver. Det tyske alfabet inkluderer Ä, Ö og Ü i deres korrekte alfabetiske positioner. Spanske alfabetopgaver inkluderer Ñ placeret korrekt efter N. Skandinaviske sprog inkluderer Æ, Ø og Å til sidst i alfabetet.
-
-Hvert sprog har over 3000 oversatte billeder til autentiske alfabetopgaver. Vælg fransk og hvert billednavn vises på fransk automatisk. Vælg italiensk og se italiensk ordforråd på dine arbejdsark til print. Oversættelserne sikrer at eleverne lærer korrekt ordforråd på deres målsprog.
-
-Denne flersprogede funktion gør vores alfabetopgaver essentielle til lærere i tosproget undervisning. Lav alfabetopgaver på elevers hjemmesprog til todelt-sprog programmer.`,
-        highlighted: false,
-      },
-      {
-        id: '5',
-        icon: '💰',
-        title: 'Kommerciel Licens Inkluderet',
-        description: `Dit Grundpakke-abonnement inkluderer fuld kommerciel licens til alfabetopgaver. Sælg ubegrænsede alfabetopgaver på Teachers Pay Teachers uden ekstra licensgebyrer. List alfabetopgavepakker på Etsy printable-butikker. Lav lavt-indhold bøger med dine alfabetopgaver til Amazon KDP.
-
-Den kommercielle licens dækker alle opgavetyper inklusive alfabetopgaver og gratis skoleopgaver. Ingen attribution krævet på nogen alfabetopgaver du sælger. Lav opgavebundter der kombinerer alfabetopgaver med andre arbejdsark til print. Mange lærere tjener 500 til 5000 dollars månedligt ved at sælge opgaver til print online.
-
-Eksporter dine alfabetopgaver i professionel 300 DPI kvalitet til kommercielle produkter. Købere modtager skarpe, klare alfabetopgaver der printer perfekt hver gang.`,
-        highlighted: true,
-      },
-      {
-        id: '6',
-        icon: '🎨',
-        title: 'Adgang til 3000+ Billeder',
-        description: `Gennemse over 3000 børnevenlige billeder organiseret i temaer for nem søgning. Vælg dyretema til alfabetopgaver med zoo- og gårdsordforråd. Vælg madtema til ernæringsfokuserede arbejdsark til print. Vælg transporttema til børnehaveklasseelever der elsker køretøjer.
-
-Hvert billede i biblioteket fungerer på tværs af alle elleve sprog automatisk. Det samme søde æblebillede vises mærket som "apple," "Apfel," "pomme" eller "manzana" afhængigt af dit valgte sprog. Dette oversættelsessystem sikrer autentisk ordforråd på flersprogede alfabetopgaver.
-
-Søg i hele billedbiblioteket øjeblikkeligt for at finde specifikke billeder. Skriv "kat" for at se alle kat-relaterede billeder til dine alfabetopgaver.`,
-        highlighted: false,
-      },
-      {
-        id: '7',
-        icon: '🖨️',
-        title: 'Professionel 300 DPI Kvalitet',
-        description: `Download hver alfabetopgave som en høj-opløsning 300 DPI fil til professionel printning. Vælg JPEG-format til hurtig deling via e-mail eller klasseværelsesplatforme. Vælg PDF-format til filer der bibeholder kvalitet på tværs af alle enheder og printere.
-
-Gråskala-konverteringsmuligheden sparer klasseværelsesprinterblæk på alfabetopgaver. Konverter dit farverige alfabetarbejdsark til sort-hvid med ét klik. Gråskalaversionen bibeholder al visuel klarhed mens den bruger betydeligt mindre blæk. Perfekt til at printe klassesæt af gratis skoleopgaver på skolebudgetter.
-
-Generer både arbejdsark og svarark versioner af hver alfabetopgave automatisk. Svarark viser alle bogstaver udfyldt til hurtig lærerreference.`,
-        highlighted: true,
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // How-To Guide
@@ -308,80 +196,8 @@ Aktiver gråskala-afkrydsningsfeltet før download for at spare printerblæk på
     badgeText: 'Hvem Er Det Til',
     readMoreLabel: 'Læs mere',
     showLessLabel: 'Vis mindre',
-    items: [
-      {
-        id: '1',
-        icon: '👩‍🏫',
-        title: 'Pædagoger i Børnehaveklassen',
-        subtitle: 'Lære Bogstaver Opgaver og Finmotorik Øvelser',
-        description: `Børnehaveklasse-lærere og pædagoger i 0. klasse står overfor unikke udfordringer når de lærer småbørn alfabetet. Små elever har brug for visuelt engagerende materialer der fanger opmærksomhed. Togskabelonen gør alfabetlæring sjov og tematisk. Børn elsker tog og forbinder positivt med lære bogstaver aktiviteter gennem denne tilgang.
-
-Alfabetopgaver kombinerer lære bogstaver med finmotorik øvelser naturligt. Klip-og-indsæt aktiviteten udvikler sakse-færdigheder samtidig med bogstavgenkendelse. Små elever klipper bogstavblokke nederst på siden. De matcher og limer bogstaver til korrekte vogne på toget. Denne hånd-på praksis styrker både finmotorik øvelser og alfabethukommelse.
-
-Differentier nemt efter udviklingsniveau med ledtrådssystemet på gratis skoleopgaver. Tidlige børnehaveklasse-elever får elleve ledtråde for maksimal støtte. Sent-børnehaveklasse elever der er klar til 0. klasse får syv ledtråde.`,
-        quote: 'Mine elever elsker togdesignet og beder om alfabetopgaver hver dag!',
-      },
-      {
-        id: '2',
-        icon: '📚',
-        title: 'Indskolingslærere for 1. Klasse',
-        subtitle: 'Læse og Skrive Arbejdsark og Stavning',
-        description: `Lærere i 1. klasse til 3. klasse integrerer alfabetopgaver i bredere læse og skrive programmer. Første klasse har brug for kontinuerlig alfabetgennemgang mens de lærer lytte. Alfabettog-aktiviteter forstærker bogstav-lyd-forbindelser visuelt. Elever ser bogstavet og et billede der starter med den lyd samtidigt på gratis skoleopgaver.
-
-Flersprogsunderstøttelsen er uvurderlig for danske skoler der underviser i engelsk. Lav matchende alfabetopgaver på dansk og engelsk til sammenligning. Elever ser hvordan "Æble" på dansk bliver "Apple" på engelsk. Samme billede med forskellige bogstaver understreger sprogforskelle.
-
-Brug alfabetopgaver som ugentlige stavning præ-test for 1. klasse opgaver. Lav arbejdsark med den uges stavningsord. Elever øver bogstavrækkefølge mens de matcher billeder til ord.`,
-        quote: 'Den flersprogede funktion er essentiel for min tosprogsundervisning.',
-      },
-      {
-        id: '3',
-        icon: '🏠',
-        title: 'Hjemmeundervisende Forældre',
-        subtitle: 'Personlige Gratis Skoleopgaver til Multi-Niveau Undervisning',
-        description: `Hjemmeundervisende familier værdsætter fleksibilitet til at undervise flere børn på forskellige niveauer samtidigt. Lav alfabetopgaver til 0. klasse barn med enkle vokaler. Generer læse og skrive opgaver til print til 1. klasse barn med konsonant-blends. Brug samme værktøj til alle børns behov på gratis skoleopgaver.
-
-Upload familiefotos til dybt personlige alfabetopgaver. Inkluder billeder af kæledyr, søskende, bedsteforældre eller familievogne. Børn lærer alfabetet gennem genstande de elsker og kender. Denne personlige forbindelse motiverer modvillige lærere og bygger selvtillid.
-
-Tematiske enheds-studier bliver nemme med organiseret billedbibliotek for gratis skoleopgaver. Studerer havliv denne måned? Lav ocean-dyr alfabetopgaver hver uge.`,
-        quote: 'Et værktøj dækker alle mine børns klassetrin og interesser.',
-      },
-      {
-        id: '4',
-        icon: '🌍',
-        title: 'Sproglærere og Tosproget Undervisning',
-        subtitle: 'Flersprogede Gratis Skoleopgaver på Elleve Sprog',
-        description: `Lærere i tosproget undervisning har brug for identiske materialer på to sprog for sammenligning. Lav samme alfabetopgave på dansk og elevernes modersmål. Generer matchende arbejdsark til print på dansk og engelsk til samtidige sprog-sammenligning.
-
-Internationale skoler i Danmark underviser elever fra tyve-plus nationaliteter. Elleve understøttede sprog dækker de fleste elevs hjemmesprog. Lav alfabetopgaver på elevs modersmål til indledende alfabetisering. Overgå gradvist til dansk og engelsk gratis skoleopgaver når elever bygger selvtillid.
-
-Arvesprog-programmer for dansk-amerikanske børn trives med tosprogede alfabetopgaver. Weekendsprog-skoler laver arbejdsark til print helt på dansk. Børn lærer at læse og skrive på deres forældres sprog.`,
-        quote: 'Den flersprogede support er essentiel for mine internationale elever.',
-      },
-      {
-        id: '5',
-        icon: '💜',
-        title: 'Specialpædagoger',
-        subtitle: 'Differentierede Gratis Skoleopgaver til Individuelle Behov',
-        description: `Specialpædagoger kræver højt tilpasselige materialer til forskellige funktionsevner. Justerbart ledtrådssystem skaber perfekt differentering for gratis skoleopgaver. Elever med hukommelsesudfordringer får maksimale ledtråde. Gifted elever der har brug for udfordring får minimale ledtråde. Samme grundlæggende opgave tjener hele IEP-spektret.
-
-Visuelle lærere trives med billedtunge alfabetopgaver. Store, klare billeder støtter begrebsforståelse uden at stole på tekstinstruktioner. Togskabelon giver struktureret visuelt layout der reducerer kognitiv belastning.
-
-Upload fotos af elevs specifikke interesser til motiverende alfabetopgaver. Autistiske elever med specialinteresser får alfabetopgaver om togtyper eller dyrearter.`,
-        quote: 'Jeg kan hurtigt tilpasse arbejdsark til hver elevs behov.',
-      },
-      {
-        id: '6',
-        icon: '💰',
-        title: 'Lærer-Iværksættere',
-        subtitle: 'Sælg Alfabetopgaver på Teachers Pay Teachers og Etsy',
-        description: `Lærere der sælger arbejdsark til print online tjener 500 til 5000 dollars månedligt som sideindkomst. Alfabetopgaver sælger godt på Teachers Pay Teachers året rundt. Børnehaveklasse- og 1. klasse lærere køber konstant nye alfabetressourcer. Kommerciel licens lader dig sælge ubegrænsede alfabetopgaver uden ekstra gebyrer.
-
-Lav tematiske alfabetopgave-bundter til hver måned for gratis skoleopgaver. September tilbage-til-skole tema. Oktober græskar-og-halloween. November efterår-og-taknemmelighed. December vinter-og-højtider. Fortsæt gennem hele året med sæsonrelevante opgaver til print.
-
-Niche ned i specifikke sprog-markeeder for mindre konkurrence. Danske alfabetopgaver har langt færre sælgere end engelske. Tosprogede bundter på to sprog kommanderer premium-priser.`,
-        quote: 'Mit abonnement betalte sig selv i første måned med salg!',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // FAQ Section
@@ -395,68 +211,8 @@ Niche ned i specifikke sprog-markeeder for mindre konkurrence. Danske alfabetopg
     showLessLabel: 'Vis mindre',
     secureCheckout: 'Sikker betaling',
     cancelAnytime: 'Opsig når som helst',
-    items: [
-      {
-        id: '1',
-        question: 'Er denne alfabetopgave-generator virkelig gratis at bruge?',
-        answer: 'Alfabettog-generatoren kræver et Grundpakke-abonnement der koster 144 dollars årligt eller 15 dollars månedligt. Dit abonnement giver dig ubegrænset alfabetopgave-oprettelse uden per-opgave gebyrer. Generer så mange opgaver til print som du har brug for uden yderligere omkostninger. Alle elleve sprog inkluderet i én abonnementspris for gratis skoleopgaver.',
-      },
-      {
-        id: '2',
-        question: 'Kan jeg printe alfabetopgaver derhjemme på en almindelig printer?',
-        answer: 'Ja. Alfabetopgaver eksporterer som standard PDF-filer der printer perfekt på enhver hjemmeprinter. Vælg Letter- eller A4-papirstørrelse til at matche din regions standard. Farve-alfabetopgaver printer smukt på farveprintere. Gråskala-mulighed konverterer til sort-hvid til blæk-besparelse på opgaver til print.',
-      },
-      {
-        id: '3',
-        question: 'Har jeg brug for designfærdigheder for at lave alfabetopgaver?',
-        answer: 'Nul designfærdigheder krævet for at skabe professionelle alfabetopgaver. Systemet håndterer alt layout og formatering automatisk. Vælg bogstaver og billeder så genererer værktøjet færdige opgaver til print. Selv ikke-tekniske lærere mestrer værktøjet på minutter.',
-      },
-      {
-        id: '4',
-        question: 'Kan jeg bruge alfabetopgaver i mit klasseværelse til alle elever?',
-        answer: 'Grundpakke-abonnement inkluderer ubegrænset klasseværelsesbrug til alle alfabetopgaver. Print så mange kopier som du har brug for til dine elever. Del digitale kopier via Google Classroom eller Seesaw. Ingen begrænsninger på klasseværelsesbrug med dit abonnement til 0. klasse opgaver.',
-      },
-      {
-        id: '5',
-        question: 'Hvilke sprog er alfabetopgaver tilgængelige på?',
-        answer: 'Alfabetopgaver understøtter elleve komplette sprog til lære bogstaver instruktion. Engelsk, tysk, fransk, spansk, portugisisk, italiensk, hollandsk, svensk, dansk, norsk og finsk. Hver sprogs unikke alfabetkarakterer vises korrekt i alfabetgitteret. Tysk inkluderer Ä, Ö, Ü. Spansk inkluderer Ñ. Skandinaviske sprog inkluderer Æ, Ø, Å.',
-      },
-      {
-        id: '6',
-        question: 'Kan jeg sælge de alfabetopgaver jeg laver med denne generator?',
-        answer: 'Ja. Grundpakke-abonnement inkluderer fuld kommerciel print-on-demand licens uden ekstra omkostninger. Sælg ubegrænsede alfabetopgaver på Teachers Pay Teachers uden licensgebyrer. List opgavebundter på Etsy printable-butikker. Udgiv lavt-indhold bøger med dine alfabetopgaver til Amazon KDP. Ingen attribution krævet.',
-      },
-      {
-        id: '7',
-        question: 'Hvordan tilpasser jeg alfabetopgaver til mine elevers behov?',
-        answer: 'Juster ledtrådstallet fra tre til elleve for øjeblikkelig differentering. Tre ledtråde udfordrer avancerede elever. Elleve ledtråde støtter kæmpende læsere. Mellem-niveauer får syv ledtråde. Upload brugerdefinerede billeder der matcher din specifikke læseplan. Tilføj brugerdefineret tekst til instruktioner eller titler.',
-      },
-      {
-        id: '8',
-        question: 'Hvilke aldersgrupper fungerer bedst med disse alfabetopgaver?',
-        answer: 'Alfabetopgaver fungerer bedst for 0. klasse børnehaveklassen gennem 1. klasse elever. Fire- til syv-årige barn i den tidlige læsefase drager mest fordel. Togskabelonen appellerer til denne aldersgruppens interesser perfekt. Visuelt stimulerende design holder opmærksomhed under lære bogstaver aktiviteter.',
-      },
-      {
-        id: '9',
-        question: 'Kan jeg uploade mine egne billeder til alfabetopgaver?',
-        answer: 'Ja. Multi-fil upload understøtter ubegrænsede brugerdefinerede billeder. Upload JPEG, PNG eller GIF-formater direkte til generatoren. Ti filer på én gang eller én ad gangen. Uploadede billeder vises øjeblikkeligt i dit billede-valgpanel til gratis skoleopgaver.',
-      },
-      {
-        id: '10',
-        question: 'Hvor lang tid tager det at lave en alfabetopgave?',
-        answer: 'Tre minutter total fra start til download med manuel tilstand. Tredive sekunder at vælge elleve bogstaver. Et minut at klikke elleve billeder til bogstav-tildeling. Et minut til eventuelle canvas-justeringer. Ti sekunder at downloade som PDF. Auto-opret-tilstand reducerer dette til tredive sekunder total.',
-      },
-      {
-        id: '11',
-        question: 'Inkluderer alfabetopgaver svarark?',
-        answer: 'Ja. Hvert alfabetopgave-sæt genererer to separate filer automatisk. Arbejdsarket viser ledtråde baseret på din indstilling. Svarark viser alle bogstaver udfyldt korrekt. Begge eksporterer som separate PDF- eller JPEG-filer til gratis skoleopgaver.',
-      },
-      {
-        id: '12',
-        question: 'Kan jeg lave alfabetopgaver om specifikke skoleemner?',
-        answer: 'Ja. Billedbiblioteket organiseret i tematiske kategorier dækker mange emner. Videnskabstemaer inkluderer dyr, planter, vejr og rummet. Lav dyrehave-alfabetopgaver med zoo-tema. Studerer havliv? Vælg ocean-tema til marine-dyr billeder. Brugerdefinerede uploads lader dig matche enhver emne-område.',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Pricing
@@ -503,56 +259,8 @@ Niche ned i specifikke sprog-markeeder for mindre konkurrence. Danske alfabetopg
       securePayment: 'Sikker betaling',
       cancelAnytime: 'Opsig når som helst',
     },
-    items: [
-      {
-        id: '1',
-        slug: 'coloring',
-        name: 'Malebilleder',
-        category: 'Kunst og Kreativitet',
-        icon: '🎨',
-        description: 'Kombinér alfabetopgaver med malebilleder for at udvikle finmotorik og bogstavgenkendelse samtidig.',
-      },
-      {
-        id: '2',
-        slug: 'matching',
-        name: 'Matching',
-        category: 'Visuel Læring',
-        icon: '🔗',
-        description: 'Styrk bogstavforståelse ved at kombinere alfabettog med visuelle matchingøvelser.',
-      },
-      {
-        id: '3',
-        slug: 'pattern-train',
-        name: 'Mønstertog',
-        category: 'Matematik',
-        icon: '🚂',
-        description: 'Udvikl mønstergenkendelse med togdesign der supplerer alfabetlæring perfekt.',
-      },
-      {
-        id: '4',
-        slug: 'writing',
-        name: 'Skriveopgaver',
-        category: 'Sprog',
-        icon: '✏️',
-        description: 'Fortsæt bogstavlæring med skriveopgaver der øver bogstavformning og finmotorik.',
-      },
-      {
-        id: '5',
-        slug: 'word-search',
-        name: 'Ordsøgning',
-        category: 'Sprog',
-        icon: '🔍',
-        description: 'Udvid ordforråd med ordsøgninger der styrker bogstavgenkendelse fra alfabettog.',
-      },
-      {
-        id: '6',
-        slug: 'picture-sort',
-        name: 'Billedesortering',
-        category: 'Visuel Læring',
-        icon: '📊',
-        description: 'Kombiner alfabetopgaver med sorteringsøvelser for at udvikle kategoriserings-færdigheder.',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 };
 

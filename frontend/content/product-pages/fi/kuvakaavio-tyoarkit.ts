@@ -62,15 +62,8 @@ Tulostettavat tehtävät lapsille sisältävät kaksi osaa. Ensimmäinen osa nä
     badgeText: 'Ilmaiset Esimerkit',
     downloadingLabel: 'Ladataan...',
     ofLabel: '/',
-    items: [
-      {
-        id: '1',
-        worksheetSrc: '/samples/finnish/chart count/sample-1.jpeg',
-        answerKeySrc: '/samples/finnish/chart count/sample-1-answer.jpeg',
-        altText: 'Kuvakaavio laskutehtävä lapsille esiopetukseen ja alakouluun',
-        pdfDownloadUrl: '/samples/finnish/chart count/sample-1.pdf',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Features Grid - FULL text from Finnish chart-count.md feature sections
@@ -86,97 +79,8 @@ Tulostettavat tehtävät lapsille sisältävät kaksi osaa. Ensimmäinen osa nä
       noHiddenFees: 'Ei piilomaksuja',
       cancelAnytime: 'Peruuta milloin tahansa',
     },
-    items: [
-      {
-        id: '1',
-        icon: '⚡',
-        title: 'Luo Matematiikka Tehtävät Alakoulu Kolmessa Klikkauksessa - Tulostettavat Tehtävät Lapsille Ilmainen',
-        description: `Kuvakaavion luominen vie vain kolme yksinkertaista vaihetta. Valitse kuusi kuvaa teemavalitsimesta tai kirjastosta. Klikkaa "Luo tehtävä" -painiketta. Tehtäväsi on valmis tulostettavaksi alle minuutissa. Ei suunnittelutaitoja tarvita. Ei monimutkaisia asetuksia. Vain nopea ja helppo tehtävien luominen.
-
-Jokainen generoitu tehtävä sisältää 20 satunnaista kuvaa kuudesta kategoriasta. Oppilaat laskevat jokaisen kuvatyypin esiintymät. He värittävät kaaviossa ruutuja näyttämään tulokset. Tämä opettaa sekä laskutaitoja että tietojen visualisointia. Esiopetus materiaali ilmainen -tilaus antaa rajattoman luomisen.
-
-Vastausavain generoidaan automaattisesti jokaiselle tehtävälle. Opettajat näkevät oikeat laskut ja kaavion värityksen. Tämä säästää arviointiaikaa. Oppilaat voivat tarkistaa työnsä itsenäisesti. Matematiikan oppiminen tulee tehokkaammaksi.`,
-        highlighted: false,
-      },
-      {
-        id: '2',
-        icon: '✏️',
-        title: 'Muokkaa Kaikkea Pohjalla - Täysi Mukautettavuus Matematiikka Tehtävät Alakoulu',
-        description: `Jokainen elementti tehtäväpohjalla on täysin muokattavissa. Vedä kuvia uusiin paikkoihin. Muuta kaavion kokoa tai sijaintia. Lisää omaa tekstiä ohjeisiin. Muokkaa värejä ja fontteja. Kaikki on sinun hallinnassasi.
-
-Klikkaa mitä tahansa elementtiä valitaksesi sen. Vedä siirtääksesi. Käännä tai skaalaa nurkista vetämällä. Poista ei-toivotut elementit. Lisää uusia kuvia kirjastosta tai lataa omia. Pohja mukautuu täysin opetustarpeisiisi.
-
-Lukitustyökalu suojaa elemettejä tahattomilta muutoksilta. Lukitse otsikko ja kaavio paikoilleen. Muokkaa vain kuvia tai tekstiä. Avaa lukitus milloin tahansa. Tämä antaa sinulle täydellisen hallinnan luomisprosessissa. Tulostettavat tehtävät lapsille ilmainen -malliin voit lisätä omia elementtejä.
-
-Kerrostyökalut hallitsevat päällekkäisyyksiä. Tuo elementti etualalle. Lähetä taka-alalle. Siirrä yksi kerros ylös tai alas. Luo monimutkaisia asetelmia helposti. Kaikki muutokset tallentuvat automaattisesti.`,
-        highlighted: false,
-      },
-      {
-        id: '3',
-        icon: '📤',
-        title: 'Lataa Omia Kuvia - Personoi Matematiikka Tehtävät Alakoulu Oppilaillesi',
-        description: `Lataa omia kuvia tietokoneeltasi tai tabletilta. Tuetut tiedostomuodot: JPEG, PNG, GIF. Valitse useita tiedostoja kerralla. Ladatut kuvat näkyvät heti valitsimessa. Yhdistä ne kirjaston kuvien kanssa.
-
-Käytä luokkahuoneesi valokuvia tehtävissä. Lisää oppilaiden nimet tai kasvot. Luo tehtäviä paikallisista kohteista. Käytä opetusyksikkösi teemakuvia. Personointi lisää oppilaiden kiinnostusta tehtäviin.
-
-Ladatut kuvat säilyvät istunnon ajan. Luo useita tehtäviä samoilla kuvilla. Lataa tiedostoja tarpeen mukaan. Ei rajoituksia kuvan määrälle tai koolle. Hienomotoriikka harjoitukset voivat hyötyä personoiduista kuvista.
-
-Yhdistä omat kuvat kirjaston 3000+ kuvaan. Sekoita oppilaiden valokuvia eläinten tai ajoneuvojen kuviin. Luo ainutlaatuisia tehtäväpaketteja. Personoidut tehtävät saavat oppilaat innostumaan oppimisesta.`,
-        highlighted: false,
-      },
-      {
-        id: '4',
-        icon: '🌍',
-        title: '11 Kieltä - Esiopetus Materiaali Ilmainen Monikieliseen Opetukseen',
-        description: `Generaattorimme tukee 11 kieltä: suomi, englanti, saksa, ranska, espanja, italia, portugali, hollanti, ruotsi, tanska ja norja. Vaihda kieltä milloin tahansa. Kaikki ohjeet ja tekstit käännetään automaattisesti. Kuvakirjaston nimet päivittyvät valitun kielen mukaan.
-
-Tämä on välttämätöntä monikielisessä opetuksessa. Luo matematiikka tehtävät suomeksi. Vaihda espanjaksi seuraavaa oppituntia varten. Sama tehtäväpohja toimii kaikilla kielillä. Säästät aikaa ja vaivaa.
-
-Kuvatiedostojen nimet mukautuvat kieleen. Suomeksi näet "omena". Englanniksi näet "apple". Tämä auttaa sanavaraston oppimisessa. Matematiikka yhdistyy kieltenoppimiseen luonnollisesti.
-
-Monikielinen tuki sopii kansainvälisille kouluille. Opeta maahanmuuttajaoppilaita heidän äidinkielellään. Luo kaksikielisiä tehtäviä. Tue kielellä rikastettua opetusta kaikilla tasoilla. Lukemaan oppiminen tehtävät hyötyvät monikielisestä tuesta.`,
-        highlighted: false,
-      },
-      {
-        id: '5',
-        icon: '💰',
-        title: 'Kaupallinen Lisenssi - Myy Tulostettavat Tehtävät Lapsille Teachers Pay Teachersissa',
-        description: `Täysi Käyttöoikeus -tilaus sisältää täyden print-on-demand kaupallisen lisenssin. Myy luomasi tehtävät Teachers Pay Teachersissa, Etsyssä tai Amazon KDP:ssä. Ei ylimääräisiä lisenssimaksuja. Ei tekijänoikeusmerkintöjä vaadita. 300 DPI -laatu on täydellinen kaupalliseen myyntiin.
-
-Monet opettajat tienaavat 500-5000 euroa kuukaudessa myymällä tehtäviä verkossa. Luo ainutlaatuisia tehtäväpaketteja nopeasti. Lataa korkealaatuisina PDF-tiedostoina. Myy heti. Tilauksesi maksaa itsensä takaisin ensimmäisillä myynneillä.
-
-Yhdistä kuvakaaviot muihin tehtävätyyppeihin. Luo kokonaisia opetuspaketteja. Myy teemapaketteja eri vuodenaikoihin. Personoi tehtäviä eri ikäryhmille. Kaupallinen lisenssi avaa yrittäjyysmahdollisuudet.
-
-Kilpailijat veloittavat 79-199 euroa vuodessa erillisestä kaupallisesta lisenssistä. Meidän lisenssimme sisältyy 240 euron vuosimaksuun. Säästät satoja euroja vuodessa. Saat myös kaikki 33 generaattoria samalla hinnalla.`,
-        highlighted: true,
-      },
-      {
-        id: '6',
-        icon: '🎨',
-        title: '3000+ Kuvien Kirjasto - Esiopetus Materiaali Ilmainen Kaikilla Teemoilla',
-        description: `Pääset käsiksi yli 3000 lapsiystävälliseen kuvaan. Kuvat on järjestetty teemoittain helpottamaan valintaa. Eläimet, ajoneuvot, ruoka, luonto, koulu, urheilu ja paljon muuta. Jokainen kuva on suunniteltu varhaiskasvatukseen.
-
-Valitse teema nähdäksesi kaikki sen kuvat. Tai selaa koko kirjastoa. Hakutoiminto löytää kuvat nopeasti. Kirjoita "koira" nähdäksesi kaikki koirakuvat. Pikkukuvat näyttävät jokaisen kuvan selkeästi.
-
-Taustojen ja reunusten teemat sisältyvät myös. Lisää värikäs tausta tehtävään. Valitse juhlavat reunukset erityisiin päiviin. Kaikki visuaaliset elementit sisältyvät tilaukseen. Ei ylimääräisiä maksuja kuvista tai mallineista.
-
-Kilpailijat veloittavat 1-5 euroa kuvapakettia kohden. Säästät satoja euroja vuodessa. Kaikki kuvamme sisältyvät 240 euron vuosimaksuun. Luo rajattomasti tehtäviä kaikilla kuvilla.`,
-        highlighted: false,
-      },
-      {
-        id: '7',
-        icon: '🖨️',
-        title: 'Ammattilaatuinen 300 DPI Tulostettavat Tehtävät Lapsille Ilmainen PDF ja JPEG',
-        description: `Kaikki lataukset ovat 300 DPI:n tarkkuudella. Tämä on ammattipaino- ja myyntilaatu. Tehtävät tulostuvat kristallinkirkkaasti. Kuvat ovat teräviä. Teksti on helppolukuista. Ammattilaatuiset tulokset joka kerta.
-
-Lataa JPEG- tai PDF-muodossa. JPEG sopii nopeaan jakamiseen. PDF säilyttää täydellisen laadun tulostukseen. Molemmat muodot ovat 300 DPI. Valitse muoto käyttötarkoituksesi mukaan.
-
-Harmaasävyvaihtoehto säästää mustekustannuksia. Muunna kaikki värit harmaasävyiksi yhdellä klikkauksella. Täydellinen luokkahuonetulostukseen. Säästä jopa 60 prosenttia musteesta. Laatu pysyy erinomaisena.
-
-Tulosta kotitulostimella tai ammattipalvelulla. Kopioi luokalle tai myy verkossa. 300 DPI -laatu toimii kaikissa tapauksissa. Oppilaat ansaitsevat korkealaatuisia oppimateriaaleja.`,
-        highlighted: true,
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // How-To Guide - FULL text from Finnish chart-count.md step sections
@@ -268,92 +172,8 @@ Harmaasävyvaihtoehto säästää mustetta. Rastita "Harmaasävy" -valintaruutu 
     badgeText: 'Kenelle Sopii',
     readMoreLabel: 'Lue lisää',
     showLessLabel: 'Näytä vähemmän',
-    items: [
-      {
-        id: '1',
-        icon: '👶',
-        title: 'Esiopetuksen Opettajat',
-        subtitle: 'Esiopetus Materiaali Ilmainen ja Datan Visualisointi Varhaiskasvatukseen',
-        description: `Esiopetuksen opettajat käyttävät kuvakaavioita johdattamaan lapsia matematiikan maailmaan. Kuusivuotiaat oppilaat harjoittelevat laskemista ja luokittelua samanaikaisesti. Tehtävät opettavat peruslaskutaitoja hauskalla tavalla. Visualisointi tekee abstrakteista käsitteistä konkreettisia.
-
-Valitse teemoja jotka kiinnostavat esikouluikäisiä. Eläimet, lelut, välineet ja ruoka toimivat erinomaisesti. Kuusivuotiaat innostuvat tuntemistaan kuvista. He laskevat mielellään kissoja, autoja ja omenoita. Personoidut kuvat lisäävät motivaatiota entisestään.
-
-Kuvakaaviot sopivat erinomaisesti pienryhmätoimintaan. Ohjaa lapsia laskemaan yhdessä. He voivat merkitä tuloksia yhteiseen kaavioon. Tämä opettaa yhteistyötaitoja ja vuorovaikutusta. Lapset oppivat myös toisiltaan tehokkaasti.
-
-Esiopetus materiaali ilmainen -työkalu tukee varhaiskasvatuksen opetussuunnitelmaa. Matematiikan taidot kehittyvät leikkisästi. Lapset eivät huomaa oppivansa. He vain nauttivat kuvien laskemisesta ja kaavion värittämisestä. Näin rakennetaan positiivinen suhde matematiikkaan.`,
-        quote: 'Kuvakaaviot tekevät matematiikasta hauskaa esikouluikäisille!',
-      },
-      {
-        id: '2',
-        icon: '📚',
-        title: 'Alakoulun Opettajat 1-3 Luokka',
-        subtitle: 'Matematiikka Tehtävät Alakoulu ja Tietojen Analysointi',
-        description: `Alakoulun opettajat käyttävät kuvakaavioita kaikilla luokilla ykkösestä kolmoseen. Ensimmäisen luokan oppilaat harjoittelevat laskemista viiteen asti. Toisen luokan oppilaat työskentelevät suurempien lukujen kanssa. Kolmannen luokan oppilaat analysoivat dataa syvällisemmin. Sama työkalu mukautuu kaikkiin ikätasoihin.
-
-Käytä kuvakaavioita jokapäiväisen matematiikan osana. Aloita tunti lyhyellä laskuharjoituksella. Oppilaat laskevat ja värittävät kaaviota. Tämä aktivoi heidän matemaattiset taitonsa. He ovat valmiita vaativampiin tehtäviin.
-
-Eriyttäminen onnistuu helposti. Luo helpompia tehtäviä tukea tarvitseville oppilaille. Anna vain kolme tai neljä kuvakategoriaa. Lahjakkaimmille oppilaille tarjoa haastavampia tehtäviä. He voivat analysoida tuloksia tai verrata eri kaavioita. Kaikki oppilaat työskentelevät omalla tasollaan.
-
-Arvioi oppilaiden edistymistä kuvakaaviotehtävillä. Tarkkaile laskutaitojen kehittymistä viikosta viikkoon. Huomaa kuka tarvitsee lisätukea. Tunnista lahjakkaita oppilaita. Säännölliset tehtävät antavat arvokasta tietoa oppilaiden taidoista.`,
-        quote: 'Kuvakaaviot auttavat oppilaita ymmärtämään dataa visuaalisesti.',
-      },
-      {
-        id: '3',
-        icon: '🏠',
-        title: 'Kotiopettajat',
-        subtitle: 'Tulostettavat Tehtävät Lapsille Ilmainen Personointiin Kotona',
-        description: `Kotiopettajat rakastavat kuvakaavioiden personointimahdollisuuksia. Lataa kuvia perheen lemmikeistä tai harrastuksista. Luo tehtäviä lasten omista piirustuksista. Käytä kuvia kodin ympäristöstä. Personoidut tehtävät innostavat lapsia oppimaan enemmän.
-
-Kotiopetuksessa voit työskennellä lapsen tahdissa. Jos lapsi pitää dinosauruksista, luo dinosaurusteemaisia kaavioita. Jos hän harrastaa urheilua, käytä urheilukuvia. Kiinnostuksen kohteiden hyödyntäminen tehostaa oppimista merkittävästi. Motivaatio kasvaa kun aihe on tärkeä lapselle.
-
-Kotiopettajilla on usein useita eri-ikäisiä lapsia. Luo eriyttäviä tehtäviä jokaiselle lapselle. Kuusivuotias laskee kolmea kuvakategoriaa. Kahdeksanvuotias analysoi kuutta kategoriaa. Molemmat työskentelevät samanaikaisesti eri tasoisilla tehtävillä. Tämä säästää vanhemman aikaa.
-
-Rakenna kokonainen opetusyksikkö kuvakaaviotehtävien ympärille. Viikon yksi keskittyy kotieläimiin. Viikko kaksi käsittelee villiä eläimiä. Joka viikko uusi teema ja uudet kaaviot. Lapset odottavat innolla seuraavaa tehtävää. Oppiminen muuttuu jännittäväksi seikkailuksi.`,
-        quote: 'Personoidut kuvakaaviot motivoivat lapsiani oppimaan.',
-      },
-      {
-        id: '4',
-        icon: '🌍',
-        title: 'Monikieliset Opettajat',
-        subtitle: 'Matematiikka Tehtävät Alakoulu 11 Kielellä',
-        description: `Monikieliset opettajat tarvitsevat materiaaleja useilla kielillä. Kuvakaavion generaattori tukee 11 kieltä. Vaihda kieli yhdellä klikkauksella. Kaikki ohjeet käännetään automaattisesti. Sama tehtävä toimii suomeksi, englanniksi tai espanjaksi.
-
-Kielikylpyopettajat luovat tehtäviä oppilaan äidinkielellä. Oppilaat ymmärtävät ohjeet paremmin. He voivat keskittyä matematiikkaan kieliongelmien sijaan. Tämä on erityisen tärkeää nuoremmille oppilaille. Matematiikan oppiminen ei saa hidastua kielitaidon vuoksi.
-
-Luo kaksikielisiä tehtäviä maahanmuuttajaoppilaille. Generoi sama tehtävä kahdella kielellä. Oppilaat vertailevat versioita. He oppivat matemaattisia termejä molemmilla kielillä. Sanavarastonsa kasvaa luonnollisesti.
-
-Kansainvälisissä kouluissa opetetaan monilla kielillä. Luo tehtäväpaketteja jokaiselle kieliryhmälle. Suomenkielinen ryhmä saa suomenkieliset tehtävät. Englanninkielinen ryhmä saa englanninkieliset tehtävät. Kaikki oppivat samaa matematiikkaa omalla kielellään.`,
-        quote: 'Monikielinen tuki on korvaamaton kansainvälisessä opetuksessa.',
-      },
-      {
-        id: '5',
-        icon: '💜',
-        title: 'Erityisopettajat',
-        subtitle: 'Esiopetus Materiaali Ilmainen Eriytettyyn Opetukseen',
-        description: `Erityisopettajat tarvitsevat joustavia työkaluja. Kuvakaaviot mukautuvat jokaisen oppilaan tarpeisiin. Luo yksinkertaisia tehtäviä kehitysvammaisille oppilaille. Tai haastavia tehtäviä lahjakkaille oppilaille. Sama työkalu palvelee kaikkia.
-
-Visualisointi auttaa erityisesti oppimisvaikeuksissa. Kuvat tekevät luvuista konkreettisia. Oppilaat näkevät mitä laskevat. He eivät työskentele abstraktien symbolien kanssa. Tämä vähentää ahdistusta ja lisää ymmärrystä.
-
-Käytä tuttuja kuvia autististen lasten kanssa. Lataa kuvia heidän erityisistä kiinnostuksen kohteistaan. Jos lapsi rakastaa junia, käytä junakuvia. Tutut aiheet luovat turvallisuuden tunnetta. Oppiminen sujuu rauhallisemmin.
-
-Toista sama tehtävätyyppi säännöllisesti. Rutiinit auttavat monia erityislapsia. Joka maanantai uusi kuvakaavio. Aina sama rakenne, vain kuvat vaihtuvat. Ennustettavuus vähentää stressiä. Oppilaat tietävät mitä odottaa.`,
-        quote: 'Voin räätälöidä tehtävät jokaisen oppilaan tarpeisiin.',
-      },
-      {
-        id: '6',
-        icon: '💰',
-        title: 'Opettajayrittäjät',
-        subtitle: 'Myy Tehtäviä Teachers Pay Teachers Palvelussa',
-        description: `Opettajayrittäjät myyvät tehtäviä Teachers Pay Teachersissa ja Etsyssä. Kuvakaavion generaattori nopeuttaa tuotantoa merkittävästi. Luo ainutlaatuisia tehtäväpaketteja minuuteissa. Lataa 300 DPI PDF-tiedostot suoraan myyntiin. Täysi Käyttöoikeus -tilaus sisältää kaupallisen lisenssin.
-
-Luo teemapaketteja eri vuodenajoille. Syksyllä myy syysteemaisia kaavioita. Talvella tarjoa jouluteemaisia tehtäviä. Kevät ja kesä tuovat omat teemansa. Kausiluonteiset tuotteet myyvät hyvin tiettyinä aikoina. Valmistaudu etukäteen ja luo tuotteet ajoissa.
-
-Erilaista tuotteesi markkinoilla. Monet myyjät tarjoavat samankaltaisia tehtäviä. Sinun täytyy erottua joukosta. Käytä ainutlaatuisia teemoja. Personoi tehtävät tietyille ikäryhmille. Tarjoa kokonaisia opetusyksiköitä yksittäisten tehtävien sijaan.
-
-Monet opettajat tienaavat 500-5000 euroa kuukaudessa. Tilauksesi maksaa itsensä takaisin ensimmäisillä myynneillä. Pinterest-markkinointi toimii hyvin tulostettavien tehtävien kanssa. Rakenna brändiä johdonmukaisella visuaalisella tyylillä.`,
-        quote: 'Tilaukseni maksoi itsensä takaisin ensimmäisessä kuussa!',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // FAQ Section - Selected FAQs from Finnish chart-count.md
@@ -367,68 +187,8 @@ Monet opettajat tienaavat 500-5000 euroa kuukaudessa. Tilauksesi maksaa itsensä
     showLessLabel: 'Näytä vähemmän',
     secureCheckout: 'Turvallinen maksu',
     cancelAnytime: 'Peruuta milloin tahansa',
-    items: [
-      {
-        id: '1',
-        question: 'Onko Tämä Kuvakaavion Generaattori Todella Ilmainen Käyttää?',
-        answer: 'Kuvakaavion generaattori vaatii Täysi Käyttöoikeus -tilauksen joka maksaa 240 euroa vuodessa tai 25 euroa kuukaudessa. Tilauksesi antaa rajattoman kuvakaavioiden luomisen ilman tehtäväkohtaisia maksuja. Luo niin monta tulostettavat tehtävät lapsille ilmainen -tehtävää kuin tarvitset ilman lisäkustannuksia. Peruspaketti sisältää 10 suosittua generaattoria ja maksaa 144 euroa vuodessa. Täysi Käyttöoikeus sisältää kaikki 33 generaattorityyppiä mukaan lukien kuvakaaviolaskurit.',
-      },
-      {
-        id: '2',
-        question: 'Voinko Tulostaa Kuvakaaviotehtäviä Kotitulostimella Tavallisella Paperilla?',
-        answer: 'Kyllä voit. Kuvakaaviotehtävät tulostuvat täydellisesti tavallisella A4-paperilla kotitulostimella. 300 DPI -tarkkuus varmistaa kristallinkirkkaat tulosteet. Kaikki viivat ja kuvat ovat teräviä. Ei pikselöitymistä tavallisellakaan tulostimella. Väritulostus näyttää kauniilta mutta ei ole pakollista. Harmaasävyvaihtoehto säästää mustetta. Mustavalkoiset tehtävät toimivat yhtä hyvin oppimiseen.',
-      },
-      {
-        id: '3',
-        question: 'Tarvitsenko Suunnittelutaitoja Luodakseni Kuvakaaviotehtäviä?',
-        answer: 'Ei tarvitse mitään suunnittelutaitoja. Työkalu tekee kaiken automaattisesti. Valitse kuusi kuvaa. Klikkaa "Luo tehtävä". Tehtäväsi on valmis. Koko prosessi vie alle kolme minuuttia. Jos osaat käyttää sähköpostia, osaat käyttää generaattoria. Ei Photoshopin oppimista. Ei graafisen suunnittelun kursseja. Vain yksinkertainen valinta ja klikkaus. Ammattilaatuiset tulokset joka kerta.',
-      },
-      {
-        id: '4',
-        question: 'Voinko Käyttää Kuvakaaviotehtäviä Luokassani Oppilailleni?',
-        answer: 'Kyllä. Täysi Käyttöoikeus -tilaus sisältää rajattoman luokkahuonekäytön. Tulosta tehtäviä kaikille oppilaillesi. Ei rajoituksia kopioiden määrälle. Ei ylimääräisiä maksuja. Jaa tehtäviä digitaalisesti Google Classroomissa tai muilla alustoilla. Lähetä PDF-tiedostoja sähköpostitse vanhemmille. Kaikki jakotavat ovat sallittuja tilauksellasi.',
-      },
-      {
-        id: '5',
-        question: 'Millä Kielillä Kuvakaaviotehtävät Ovat Saatavilla?',
-        answer: 'Kuvakaaviotehtävät ovat saatavilla 11 kielellä. Tuetut kielet ovat suomi, englanti, saksa, ranska, espanja, italia, portugali, hollanti, ruotsi, tanska ja norja. Vaihda kieltä milloin tahansa pudotusvalikosta. Kaikki käyttöliittymän tekstit käännetään automaattisesti. Ohjeet näkyvät valitsemallasi kielellä. Kuvakirjaston nimet päivittyvät kielelle sopiviksi.',
-      },
-      {
-        id: '6',
-        question: 'Voinko Myydä Tehtäviä Joita Luon Tällä Generaattorilla?',
-        answer: 'Kyllä. Täysi Käyttöoikeus -tilaus sisältää täyden print-on-demand kaupallisen lisenssin. Myy Teachers Pay Teachersissa, Etsyssä tai Amazon KDP:ssä. Ei ylimääräisiä lisenssimaksuja. Ei tekijänoikeusmerkintöjä vaadita. 300 DPI -lataukset ovat ammattilaatuisia myyntiin. Monet opettajat tienaavat 500-5000 euroa kuukaudessa myymällä tehtäviä verkossa.',
-      },
-      {
-        id: '7',
-        question: 'Kuinka Muokkaan Kuvakaaviotehtäviä Oppilailleni Sopiviksi?',
-        answer: 'Voit mukauttaa kuvakaaviotehtäviä täysin oppilaidesi tarpeisiin. Lataa omia kuvia personointia varten. Valitse teemoja jotka kiinnostavat oppilaita. Muokkaa värejä ja fontteja. Lisää omaa tekstiä ohjeisiin. Kaikki pohjalla olevat elementit ovat muokattavissa. Klikkaa mitä tahansa kohdetta valitaksesi sen. Vedä siirtääksesi. Skaalaa suuremmaksi tai pienemmäksi.',
-      },
-      {
-        id: '8',
-        question: 'Mille Ikäryhmille Kuvakaaviotehtävät Sopivat Parhaiten?',
-        answer: 'Kuvakaaviotehtävät sopivat esikoulusta kolmanteen luokkaan. Esiopetuksen 5-6-vuotiaat harjoittelevat laskemista viiteen. Ensimmäisen luokan 6-7-vuotiaat työskentelevät suurempien lukujen kanssa. Toisen ja kolmannen luokan oppilaat analysoivat dataa syvällisemmin. Vaikeustaso mukautuu helposti eri ikäryhmille. Käytä vähemmän kuvia nuoremmille ja enemmän vanhemmille oppilaille.',
-      },
-      {
-        id: '9',
-        question: 'Voinko Ladata Omia Kuvia Kuvakaaviotehtäviin?',
-        answer: 'Kyllä voit ladata omia kuvia. Klikkaa "Lataa omia kuvia" -osiota sivupalkissa. Valitse tiedostot tietokoneeltasi tai tabletilta. Tuetut muodot ovat JPEG, PNG ja GIF. Valitse useita tiedostoja kerralla. Ladatut kuvat näkyvät heti kuvavalitsimessa. Yhdistä ne kirjaston 3000+ kuvaan. Personoidut tehtävät motivoivat oppilaita oppimaan.',
-      },
-      {
-        id: '10',
-        question: 'Kuinka Kauan Kestää Luoda Kuvakaaviotehtävä?',
-        answer: 'Kuvakaaviotehtävän luominen kestää alle kolme minuuttia. Valitse kuusi kuvaa 30 sekunnissa. Säädä asetukset 30 sekunnissa. Generoi tehtävä välittömästi. Lataa PDF 10 sekunnissa. Koko prosessi on erittäin nopea. Kokeneet käyttäjät luovat tehtäviä alle kahdessa minuutissa. Verrattuna perinteiseen luomiseen ajansäästö on valtava.',
-      },
-      {
-        id: '11',
-        question: 'Sisältyykö Kuvakaaviotehtäviin Vastausavaimet?',
-        answer: 'Kyllä. Generaattori luo vastausavaimen automaattisesti jokaiselle tehtävälle. Vastausavain näyttää täsmälleen miten kaavio tulisi värittää. Kunkin kuvatyypin oikea määrä näkyy väritettyinä ruutuina. Lataa sekä oppilastehtävä että vastausavain erikseen. Tulosta tehtävä oppilaille. Pidä vastausavain itsellesi. Tarkista työt nopeasti vertaamalla vastausavaimeen.',
-      },
-      {
-        id: '12',
-        question: 'Voinko Luoda Kuvakaaviotehtäviä Tietyistä Kouluaineista?',
-        answer: 'Kyllä voit luoda ainekohtaisia tehtäviä. Valitse kuvia aineesi mukaan. Luonnontiede-aiheeseen valitse eläimiä tai kasveja. Historian aiheeseen valitse historiallisia symboleita. Matematiikkaan valitse geometrisia muotoja. 3000+ kuvan kirjasto kattaa kaikki perusaiheet. Lataa omia kuvia täydentämään kirjastoa. Integrointi syventää oppimista kaikilla alueilla.',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Pricing - Finnish Full Access terminology
@@ -498,56 +258,8 @@ Monet opettajat tienaavat 500-5000 euroa kuukaudessa. Tilauksesi maksaa itsensä
       securePayment: 'Turvallinen maksu',
       cancelAnytime: 'Peruuta milloin tahansa',
     },
-    items: [
-      {
-        id: '1',
-        slug: 'etsi-ja-laske-tyoarkit',
-        name: 'Etsi ja Laske',
-        category: 'Matematiikka',
-        icon: '🔢',
-        description: 'Yhdistä kuvakaaviot etsi ja laske -tehtäviin kokonaisvaltaiseen laskuharjoitteluun.',
-      },
-      {
-        id: '2',
-        slug: 'varityskuvat-tyoarkit',
-        name: 'Värityskuvat',
-        category: 'Luovuus',
-        icon: '🎨',
-        description: 'Täydennä kuvakaaviolaskemista väritystehtävillä rentoutumiseen ja hienomotoriikkaan.',
-      },
-      {
-        id: '3',
-        slug: 'yhteenlasku-tyoarkit',
-        name: 'Yhteenlasku',
-        category: 'Matematiikka',
-        icon: '➕',
-        description: 'Yhdistä kuvakaavioiden tulokset yhteenlaskutehtäviin matemaattisen ajattelun kehittämiseen.',
-      },
-      {
-        id: '4',
-        slug: 'yhdista-parit-tyoarkit',
-        name: 'Yhdistä Parit',
-        category: 'Kognitiivinen',
-        icon: '🔗',
-        description: 'Laajenna visuaalista oppimista yhdistämistehtävillä käsitteiden vahvistamiseen.',
-      },
-      {
-        id: '5',
-        slug: 'viivojen-piirtaminen-tyoarkit',
-        name: 'Viivojen Piirtäminen',
-        category: 'Hienomotoriikka',
-        icon: '✏️',
-        description: 'Täydennä kuvakaaviolaskemista viivan piirtämisharjoituksilla hienomotoriikan kehittämiseen.',
-      },
-      {
-        id: '6',
-        slug: 'iso-pieni-tyoarkit',
-        name: 'Iso ja Pieni',
-        category: 'Matematiikka',
-        icon: '⚖️',
-        description: 'Laajenna kuvakaavioita kokovertailutehtävillä matemaattisen ajattelun monipuolistamiseen.',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 };
 

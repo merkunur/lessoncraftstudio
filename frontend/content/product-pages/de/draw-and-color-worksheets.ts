@@ -106,43 +106,8 @@ Unser Generator bietet über 3000 kindgerechte Bilder. Sie wählen ein Thema ode
     badgeText: 'Kostenlose Beispiele',
     downloadingLabel: 'Wird heruntergeladen...',
     ofLabel: 'von',
-    items: [
-      {
-        id: '1',
-        worksheetSrc: '/samples/german/draw-and-color/sample-1.jpeg',
-        answerKeySrc: '/samples/german/draw-and-color/sample-1-answer.jpeg',
-        altText: 'Rasterzeichnen-Arbeitsblatt kostenlos zum Ausdrucken - Arbeitsblätter Grundschule Malvorlagen für Vorschul-Arbeitsblätter und Schwungübungen',
-        pdfDownloadUrl: '/samples/german/draw-and-color/sample-1.pdf',
-      },
-      {
-        id: '2',
-        worksheetSrc: '/samples/german/draw-and-color/sample-2.jpeg',
-        answerKeySrc: '/samples/german/draw-and-color/sample-2-answer.jpeg',
-        altText: 'Kostenlose Arbeitsblätter Rasterzeichnen Generator - Arbeitsblatt für Kinder Ausmalbilder und Feinmotorik Training',
-        pdfDownloadUrl: '/samples/german/draw-and-color/sample-2.pdf',
-      },
-      {
-        id: '3',
-        worksheetSrc: '/samples/german/draw-and-color/sample-3.jpeg',
-        answerKeySrc: '/samples/german/draw-and-color/sample-3-answer.jpeg',
-        altText: 'Vorschul-Arbeitsblätter Rasterzeichnen - Kostenloses Arbeitsblatt für Vorschule Buchstaben lernen und Malvorlagen',
-        pdfDownloadUrl: '/samples/german/draw-and-color/sample-3.pdf',
-      },
-      {
-        id: '4',
-        worksheetSrc: '/samples/german/draw-and-color/sample-4.jpeg',
-        answerKeySrc: '/samples/german/draw-and-color/sample-4-answer.jpeg',
-        altText: 'Mathe-Arbeitsblätter Rasterzeichnen - Kostenlose Druckvorlagen Arbeitsblätter Grundschule räumliches Denken',
-        pdfDownloadUrl: '/samples/german/draw-and-color/sample-4.pdf',
-      },
-      {
-        id: '5',
-        worksheetSrc: '/samples/german/draw-and-color/sample-5.jpeg',
-        answerKeySrc: '/samples/german/draw-and-color/sample-5-answer.jpeg',
-        altText: 'Ausmalbilder Rasterzeichnen Arbeitsblatt - Arbeitsblatt für Kinder Schwungübungen und visuelle Wahrnehmung',
-        pdfDownloadUrl: '/samples/german/draw-and-color/sample-5.pdf',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Features Grid - FULL text from draw-and-color.md feature sections
@@ -158,98 +123,8 @@ Unser Generator bietet über 3000 kindgerechte Bilder. Sie wählen ein Thema ode
       noHiddenFees: 'Keine versteckten Kosten',
       cancelAnytime: 'Jederzeit kündbar',
     },
-    items: [
-      {
-        id: '1',
-        icon: '⚡',
-        title: 'Arbeitsblätter Grundschule in 3 Klicks erstellen - Schneller Generator für Ausmalbilder und Malvorlagen',
-        description: `Erstellen Sie Arbeitsblätter Grundschule in nur drei Schritten. Zuerst wählen Sie ein Bild aus der Bibliothek. Dann stellen Sie die Rastergröße ein. Schließlich klicken Sie auf Erstellen. Der Generator erzeugt automatisch ein Hinweisraster. Einige Zellen zeigen bereits Teile des Bildes. Diese Hinweise helfen Kindern beim Kopieren.
-
-Das Raster lässt sich von 3x3 bis 10x10 Zellen anpassen. Kleine Raster eignen sich für Anfänger. Größere Raster bieten mehr Herausforderung. Der Hinweisanteil ist ebenfalls einstellbar. Mehr Hinweiszellen bedeuten einfachere Aufgaben. Weniger Hinweise fordern fortgeschrittene Schüler heraus. Diese Flexibilität macht den Generator perfekt für Ausmalbilder und Malvorlagen aller Schwierigkeitsgrade.`,
-        highlighted: false,
-      },
-      {
-        id: '2',
-        icon: '✏️',
-        title: 'Vorschul-Arbeitsblätter vollständig bearbeiten - Schwungübungen und Feinmotorik Training',
-        description: `Jedes Element auf der Arbeitsfläche ist vollständig bearbeitbar. Sie können Bilder verschieben, drehen und skalieren. Texte lassen sich frei positionieren. Rahmen und Hintergründe passen Sie nach Wunsch an. Die intuitive Bedienung erfordert keine technischen Vorkenntnisse.
-
-Das Rückgängig-System speichert bis zu 20 Arbeitsschritte. Fehler lassen sich jederzeit korrigieren. Die Zoom-Funktion ermöglicht präzises Arbeiten. Vergrößern Sie Details für exakte Platzierungen. Verkleinern Sie die Ansicht für einen Gesamtüberblick. Diese Bearbeitungswerkzeuge machen Vorschul-Arbeitsblätter professionell. Auch Schwungübungen gelingen mit wenigen Klicks.`,
-        highlighted: false,
-      },
-      {
-        id: '3',
-        icon: '📤',
-        title: 'Eigene Bilder hochladen für Mathe-Arbeitsblätter und Buchstaben lernen Übungen',
-        description: `Laden Sie eigene Fotos und Grafiken hoch. Der Generator akzeptiert JPEG, PNG und GIF Formate. Verwenden Sie Klassenfotos für personalisierte Arbeitsblätter. Nutzen Sie Buchstabenbilder für das Buchstaben lernen. Kombinieren Sie eigene Bilder mit der Bibliothek.
-
-Die Upload-Funktion unterstützt mehrere Dateien gleichzeitig. Alle hochgeladenen Bilder bleiben während der Sitzung verfügbar. Sie wählen einfach das gewünschte Bild aus. Der Generator erstellt dann das passende Raster. Eigene Bilder machen Mathe-Arbeitsblätter persönlicher. Kinder erkennen vertraute Motive und arbeiten motivierter.`,
-        highlighted: false,
-      },
-      {
-        id: '4',
-        icon: '🌍',
-        title: 'Kostenlose Arbeitsblätter in 11 Sprachen - Deutsch-Arbeitsblätter und internationale Bildnamen',
-        description: `Der Generator unterstützt elf Sprachen vollständig. Die Benutzeroberfläche ist komplett übersetzt. Alle Bildnamen erscheinen in der gewählten Sprache. Diese Funktion ist besonders wertvoll für Deutsch-Arbeitsblätter. Aber auch für mehrsprachigen Unterricht bietet sie Vorteile.
-
-Die verfügbaren Sprachen sind Deutsch, Englisch, Französisch, Spanisch, Portugiesisch, Italienisch, Niederländisch, Schwedisch, Dänisch, Norwegisch und Finnisch. Internationale Schulen nutzen diese Vielfalt täglich. Sprachlehrkräfte erstellen zweisprachige Materialien. Die Sprachauswahl beeinflusst auch die Suchfunktion. So finden Sie schnell passende Bilder in Ihrer Sprache.`,
-        highlighted: false,
-      },
-      {
-        id: '5',
-        icon: '💰',
-        title: 'Kommerzielle Lizenz für Arbeitsblätter Grundschule - Einmaleins und Rechnen lernen Materialien verkaufen',
-        description: `Mit dem Vollzugriff Abonnement erhalten Sie eine kommerzielle Lizenz. Verkaufen Sie Ihre Arbeitsblätter auf Teachers Pay Teachers. Bieten Sie Materialien auf Etsy an. Veröffentlichen Sie Arbeitsbücher auf Amazon KDP. Keine zusätzlichen Lizenzgebühren fallen an.
-
-Die Print-on-Demand Lizenz deckt alle Verkaufskanäle ab. Sie erstellen einmal und verkaufen unbegrenzt. Erfolgreiche Lehrkräfte verdienen 500 bis 5000 Euro monatlich. Einmaleins Übungen und Rechnen lernen Materialien sind besonders gefragt. Die 300 DPI Qualität erfüllt alle Druckanforderungen. Professionelle Arbeitsblätter Grundschule verkaufen sich hervorragend.`,
-        highlighted: true,
-      },
-      {
-        id: '6',
-        icon: '🎨',
-        title: 'Über 3000 Bilder für Ausmalbilder und Malvorlagen - Rechnen 1. Klasse Themen inklusive',
-        description: `Die Bildbibliothek enthält über 3000 kindgerechte Grafiken. Alle Bilder sind thematisch sortiert. Sie finden Tiere, Fahrzeuge, Lebensmittel und Natur. Auch Zahlen und Buchstaben sind verfügbar. Perfekt für Rechen-Arbeitsblätter der 1. Klasse.
-
-Die Suchfunktion findet Bilder nach Namen. Tippen Sie einfach ein Stichwort ein. Die Ergebnisse erscheinen sofort. Die Themenauswahl filtert große Kategorien. Kombinieren Sie Suche und Themenfilter für optimale Ergebnisse. Neue Bilder werden regelmäßig hinzugefügt. Die Bibliothek wächst kontinuierlich für noch mehr Ausmalbilder und Malvorlagen.`,
-        highlighted: true,
-      },
-      {
-        id: '7',
-        icon: '🖨️',
-        title: 'Professionelle 300 DPI Qualität für Vorschul-Arbeitsblätter und Kostenlose Arbeitsblätter',
-        description: `Der Export erfolgt in professioneller Druckqualität. 300 DPI garantieren scharfe Linien und klare Details. Die Arbeitsblätter sehen gedruckt genauso gut aus wie am Bildschirm. Diese Qualität ist wichtig für Verkaufsmaterialien. Aber auch für den Klassenraum macht sie einen Unterschied.
-
-Sie wählen zwischen PDF und JPEG Format. PDF eignet sich für mehrseitige Dokumente. JPEG ist ideal für einzelne Arbeitsblätter. Die Graustufen-Option spart Druckertinte. Schwarzweiße Vorschul-Arbeitsblätter sind genauso effektiv. Die kostenlose Arbeitsblätter Funktion exportiert ohne Wasserzeichen. Ihr Vollzugriff Abonnement garantiert unbegrenzten Download.`,
-        highlighted: true,
-      },
-      {
-        id: '8',
-        icon: '🎯',
-        title: 'Anpassbare Rastergröße für differenzierte Arbeitsblätter Grundschule',
-        description: `Wählen Sie die Rastergröße passend zum Alter und Können der Kinder. Ein 3x3 Raster eignet sich für Vorschüler und Anfänger. Ein 5x5 Raster fordert Grundschüler der ersten und zweiten Klasse. Große 10x10 Raster bieten maximale Herausforderung für fortgeschrittene Schüler.
-
-Die Hinweiszellen sind ebenfalls anpassbar. Mehr Hinweise bedeuten leichtere Aufgaben. Weniger Hinweise erhöhen den Schwierigkeitsgrad. Diese Differenzierung ermöglicht individuelles Lernen. Jedes Kind arbeitet auf seinem Niveau. Arbeitsblätter Grundschule werden so zu personalisierten Lernwerkzeugen.`,
-        highlighted: false,
-      },
-      {
-        id: '9',
-        icon: '🔄',
-        title: 'Spiegelungsfunktion für räumliches Denken und Mathe-Arbeitsblätter',
-        description: `Die Spiegelungsoption erstellt symmetrische Muster. Wählen Sie horizontal oder vertikal gespiegelte Raster. Diese Funktion trainiert das räumliche Denken besonders intensiv. Kinder lernen Symmetrie durch praktische Anwendung.
-
-Gespiegelte Rasterzeichnungen verbinden Kunst mit Mathematik. Mathe-Arbeitsblätter profitieren von dieser Integration. Kinder verstehen Symmetriekonzepte durch Zeichnen. Die visuelle Erfahrung prägt sich besser ein als abstrakte Erklärungen. Vorschul-Arbeitsblätter mit Spiegelungen bereiten auf Geometrie vor.`,
-        highlighted: false,
-      },
-      {
-        id: '10',
-        icon: '📝',
-        title: 'Namens- und Datumsfelder für Klassenarbeitsblätter und Schwungübungen',
-        description: `Aktivieren Sie Namens- und Datumsfelder für organisierte Klassenarbeitsblätter. Schüler beschriften ihre Arbeiten selbstständig. Lehrkräfte sammeln und bewerten Arbeitsblätter einfacher. Die Felder sind optional und lassen sich jederzeit ein- oder ausschalten.
-
-Diese Funktion ist ideal für Schwungübungen und regelmäßige Übungsblätter. Kinder entwickeln Routine beim Beschriften. Das Schreiben des eigenen Namens fördert die Schreibentwicklung. Datumsangaben helfen bei der chronologischen Organisation. Arbeitsblätter Grundschule werden so zu dokumentierten Lernfortschritten.`,
-        highlighted: false,
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // How-To Guide - FULL text from draw-and-color.md step sections
@@ -329,68 +204,8 @@ Speichern Sie das Arbeitsblatt auf Ihrem Computer. Drucken Sie es für Ihre Klas
     badgeText: 'Anwendungsbereiche',
     readMoreLabel: 'Mehr lesen',
     showLessLabel: 'Weniger anzeigen',
-    items: [
-      {
-        id: '1',
-        icon: '👶',
-        title: 'Erzieher und Vorschul-Arbeitsblätter für Schwungübungen - Ausmalbilder und Malvorlagen für den Kindergarten',
-        subtitle: 'Vorschul-Arbeitsblätter und Feinmotorik-Training',
-        description: `Erzieherinnen und Erzieher in Kindergärten und Vorschulen profitieren besonders. Rasterzeichnen bereitet Kinder auf das Schreiben vor. Die präzisen Bewegungen trainieren die Handmuskulatur. Diese Fertigkeit ist grundlegend für spätere Schwungübungen. Vorschul-Arbeitsblätter mit Rasterzeichnen fördern die visuelle Wahrnehmung.
-
-Kinder lernen, ein Bild systematisch zu betrachten. Sie übertragen Details Zelle für Zelle. Diese Konzentration hilft bei der Schulreife. Die fertigen Werke werden zu individuellen Ausmalbilder und Malvorlagen. So verbindet Rasterzeichnen Lernen mit kreativem Gestalten. Der Generator bietet einfache Motive für die Jüngsten. Große Raster mit wenigen Zellen sind ideal für den Einstieg.`,
-        quote: 'Meine Vorschulkinder lieben die bunten Rasterzeichnungen mit Tierbildern!',
-      },
-      {
-        id: '2',
-        icon: '📚',
-        title: 'Grundschullehrer und Arbeitsblätter Grundschule für Mathe-Arbeitsblätter - 1. bis 3. Klasse Materialien',
-        subtitle: 'Arbeitsblätter Grundschule für Kunst und Mathematik',
-        description: `Grundschullehrkräfte von der 1. bis 3. Klasse finden zahlreiche Einsatzmöglichkeiten. Rasterzeichnen verbindet Kunst mit mathematischen Konzepten. Kinder lernen Koordinaten durch praktische Anwendung. Die Rasterstruktur führt zu Mathe-Arbeitsblätter mit räumlichem Bezug.
-
-Arbeitsblätter Grundschule mit Rasterzeichnen eignen sich für den Kunstunterricht. Sie passen auch in den Sachunterricht als Entspannungsübung. Vertretungsstunden gelingen mit vorbereiteten Materialien problemlos. Der Generator erstellt schnell passende Arbeitsblätter für jede Klassenstufe. Schwierigkeitsgrade lassen sich präzise anpassen. So fordern Sie leistungsstarke und unterstützen schwächere Schüler.`,
-        quote: 'Ich erstelle differenzierte Rasterzeichnungen für alle meine Schüler in Minuten!',
-      },
-      {
-        id: '3',
-        icon: '🏠',
-        title: 'Eltern und kostenlose Arbeitsblätter für Buchstaben lernen zu Hause - Homeschooling Material',
-        subtitle: 'Buchstaben lernen und Feinmotorik für zu Hause',
-        description: `Eltern nutzen den Generator für Übungsmaterial zu Hause. Homeschooling-Familien erstellen komplette Lernpakete. Rasterzeichnen eignet sich für ruhige Nachmittage. Kinder arbeiten selbstständig an den Aufgaben. Die Eltern haben Zeit für andere Tätigkeiten.
-
-Kostenlose Arbeitsblätter mit Buchstabenbildern unterstützen das Buchstaben lernen. Kinder zeichnen einen Buchstaben Zelle für Zelle nach. So prägen sich die Formen besser ein. Die motorische Aktivität verstärkt den Lerneffekt. Eltern kombinieren Rasterzeichnen mit Vorlesezeiten. Ein thematisch passendes Arbeitsblatt zum Buch motiviert zusätzlich. Der Generator ermöglicht personalisierte Inhalte mit eigenen Fotos.`,
-        quote: 'Perfekt für ruhige Nachmittage zu Hause!',
-      },
-      {
-        id: '4',
-        icon: '🌍',
-        title: 'Sprachlehrer und Deutsch-Arbeitsblätter in 11 Sprachen - Einmaleins und Vokabeln visuell lernen',
-        subtitle: 'Deutsch-Arbeitsblätter und mehrsprachiger Unterricht',
-        description: `Deutschlehrer und DaF-Lehrkräfte nutzen die Mehrsprachigkeit. Der Generator zeigt Bildnamen in elf Sprachen. So entstehen zweisprachige Deutsch-Arbeitsblätter für den Sprachunterricht. Kinder zeichnen ein Bild und lernen das Wort dazu.
-
-Einmaleins Übungen lassen sich mit Bildern visualisieren. Kinder zeichnen drei Äpfel und lernen die Multiplikation. Die visuelle Unterstützung verstärkt das Verständnis. Internationale Schulen erstellen Materialien in mehreren Sprachen. Sprachförderklassen profitieren von bildbasierten Arbeitsblättern. Die Bilder vermitteln Bedeutung ohne Textverständnis. So gelingt Sprachlernen auch für Anfänger.`,
-        quote: 'Die Mehrsprachigkeit ist genau was meine DaF-Schüler brauchen.',
-      },
-      {
-        id: '5',
-        icon: '💜',
-        title: 'Förderschullehrer und Vorschul-Arbeitsblätter für Rechnen lernen - Differenzierte Malvorlagen erstellen',
-        subtitle: 'Differenzierte Materialien für individuelle Förderung',
-        description: `Sonderpädagogen und Förderschullehrkräfte schätzen die Anpassbarkeit. Der Schwierigkeitsgrad lässt sich präzise einstellen. Einfache 3x3 Raster mit vielen Hinweiszellen gelingen auch bei motorischen Einschränkungen. Komplexere Aufgaben fordern leistungsstarke Schüler heraus.
-
-Vorschul-Arbeitsblätter für Rechnen lernen entstehen mit Zahlenbildern. Kinder zeichnen eine Zahl im Raster nach. Die visuelle und motorische Verarbeitung stärkt das Zahlenverständnis. Differenzierte Malvorlagen für den gleichen Unterrichtsinhalt sind schnell erstellt. Jeder Schüler arbeitet auf seinem Niveau. Der Generator ermöglicht individuelle Förderung ohne großen Zeitaufwand.`,
-        quote: 'Ich kann schnell individualisierte Arbeitsblätter für jeden Schüler erstellen.',
-      },
-      {
-        id: '6',
-        icon: '💰',
-        title: 'Lehrer-Unternehmer und Arbeitsblätter Grundschule verkaufen - Rechnen 1. Klasse Materialien auf Etsy und TPT',
-        subtitle: 'Kommerzielle Lizenz für passive Einnahmen',
-        description: `Unternehmerisch denkende Lehrkräfte verkaufen ihre Materialien online. Der Generator erstellt verkaufsfertige Arbeitsblätter Grundschule. Die kommerzielle Lizenz im Vollzugriff Abonnement deckt alle Plattformen ab. Teachers Pay Teachers, Etsy und Amazon KDP sind möglich.
-
-Rechnen 1. Klasse Materialien mit Rasterzeichnen sind besonders gefragt. Die Kombination aus Kunst und Mathematik spricht viele Käufer an. Erfolgreiche Verkäufer verdienen 500 bis 5000 Euro monatlich. Die 300 DPI Qualität erfüllt professionelle Standards. Einmal erstellte Arbeitsblätter verkaufen sich unbegrenzt. So entsteht passives Einkommen neben dem Lehrberuf.`,
-        quote: 'Mein Abonnement hat sich im ersten Monat bezahlt gemacht!',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // FAQ Section - FULL FAQs from draw-and-color.md
@@ -404,68 +219,8 @@ Rechnen 1. Klasse Materialien mit Rasterzeichnen sind besonders gefragt. Die Kom
     showLessLabel: 'Weniger anzeigen',
     secureCheckout: 'Sichere Bezahlung',
     cancelAnytime: 'Jederzeit kündbar',
-    items: [
-      {
-        id: '1',
-        question: 'Für welches Alter eignen sich Vorschul-Arbeitsblätter und Schwungübungen mit Rasterzeichnen?',
-        answer: 'Rasterzeichnen eignet sich für Kinder von 4 bis 10 Jahren. Vorschul-Arbeitsblätter mit großen 3x3 Rastern passen für 4- bis 6-Jährige. Die einfachen Strukturen fördern erste Schwungübungen und Feinmotorik. Grundschulkinder von 6 bis 10 Jahren arbeiten mit komplexeren Rastern. 8x8 oder 10x10 Zellen fordern auch ältere Schüler heraus. Der einstellbare Schwierigkeitsgrad macht den Generator universell einsetzbar.',
-      },
-      {
-        id: '2',
-        question: 'Funktioniert der Ausmalbilder und Malvorlagen Generator auch offline ohne Internet?',
-        answer: 'Der Generator ist eine webbasierte Anwendung. Sie benötigen eine Internetverbindung für die Nutzung. Die Bildbibliothek wird online geladen. Auch das Speichern und Exportieren erfordert Verbindung. Einmal heruntergeladene PDF-Dateien funktionieren jedoch offline. Sie können Ausmalbilder und Malvorlagen auf Ihrem Computer speichern. Diese Dateien drucken Sie jederzeit ohne Internet.',
-      },
-      {
-        id: '3',
-        question: 'Welche Exportformate bietet der Einmaleins und Buchstaben lernen Arbeitsblatt Generator?',
-        answer: 'Der Generator exportiert in zwei Formaten. PDF eignet sich für professionellen Druck und mehrseitige Dokumente. JPEG ist ideal für digitale Verwendung und schnelles Teilen. Beide Formate haben 300 DPI Auflösung. Diese Qualität garantiert scharfe Linien beim Drucken. Die Graustufen-Option spart Druckertinte. Einmaleins und Buchstaben lernen Arbeitsblätter sehen in beiden Formaten professionell aus.',
-      },
-      {
-        id: '4',
-        question: 'Kann ich eigene Bilder für Rechnen lernen und Deutsch-Arbeitsblätter hochladen?',
-        answer: 'Ja, der Generator unterstützt eigene Bilder vollständig. Sie laden JPEG, PNG oder GIF Dateien hoch. Mehrere Bilder gleichzeitig sind möglich. Verwenden Sie Klassenfotos für personalisierte Arbeitsblätter. Nutzen Sie eigene Grafiken für Rechnen lernen Übungen. Erstellen Sie Deutsch-Arbeitsblätter mit selbst fotografierten Gegenständen. Die Upload-Funktion erweitert die Möglichkeiten unbegrenzt.',
-      },
-      {
-        id: '5',
-        question: 'Welche Sprachen unterstützt der Kostenlose Arbeitsblätter Generator für Rechnen 1. Klasse?',
-        answer: 'Der Generator unterstützt elf Sprachen. Deutsch, Englisch, Französisch, Spanisch und Portugiesisch sind verfügbar. Dazu kommen Italienisch, Niederländisch, Schwedisch, Dänisch, Norwegisch und Finnisch. Die Benutzeroberfläche ist komplett übersetzt. Alle Bildnamen erscheinen in der gewählten Sprache. Kostenlose Arbeitsblätter für Rechnen 1. Klasse entstehen in jeder dieser Sprachen. Internationale Schulen nutzen die Vielfalt täglich.',
-      },
-      {
-        id: '6',
-        question: 'Ist der Mathe-Arbeitsblätter Generator kostenlos oder kostenpflichtig?',
-        answer: 'Der Generator ist Teil des Vollzugriff Abonnements. Dieses kostet 240 Euro im Jahr oder 25 Euro monatlich. Dafür erhalten Sie Zugang zu allen 33 Arbeitsblatt-Generatoren. Die kommerzielle Lizenz ist inklusive. Mathe-Arbeitsblätter und alle anderen Arbeitsblätter dürfen Sie verkaufen. Ein kostenloser Test ist nach Registrierung verfügbar. So prüfen Sie die Funktionen vor dem Kauf.',
-      },
-      {
-        id: '7',
-        question: 'Darf ich erstellte Arbeitsblätter Grundschule auf Etsy und TPT verkaufen?',
-        answer: 'Ja, mit dem Vollzugriff Abonnement erhalten Sie eine kommerzielle Lizenz. Diese erlaubt den Verkauf auf allen Plattformen. Teachers Pay Teachers, Etsy und Amazon KDP sind abgedeckt. Keine zusätzlichen Gebühren fallen an. Arbeitsblätter Grundschule verkaufen sich besonders gut. Erfolgreiche Lehrkräfte verdienen 500 bis 5000 Euro monatlich. Die Lizenz gilt unbegrenzt für alle erstellten Materialien.',
-      },
-      {
-        id: '8',
-        question: 'Was unterscheidet diesen Generator von anderen Vorschul-Arbeitsblätter Tools?',
-        answer: 'Unser Generator bietet einzigartige Vorteile. Über 3000 kindgerechte Bilder sind sofort verfügbar. Elf Sprachen werden vollständig unterstützt. Die vollständige Bearbeitbarkeit auf der Arbeitsfläche ist selten. Die kommerzielle Lizenz ohne Aufpreis unterscheidet uns deutlich. 300 DPI Exportqualität erfüllt professionelle Standards. Vorschul-Arbeitsblätter entstehen in unter drei Minuten. Diese Kombination macht den Generator einzigartig am Markt.',
-      },
-      {
-        id: '9',
-        question: 'Wie viele Hinweiszellen sollte ich für verschiedene Altersstufen einstellen?',
-        answer: 'Für Vorschulkinder (4-5 Jahre) empfehlen wir 70-80% Hinweiszellen. Für Schulanfänger (5-6 Jahre) sind 50-60% Hinweise ideal. Grundschüler der 1. und 2. Klasse arbeiten gut mit 30-40% Hinweisen. Fortgeschrittene Schüler ab der 3. Klasse können mit 10-20% Hinweisen beginnen. Der Regler lässt sich stufenlos anpassen. Testen Sie verschiedene Einstellungen für optimale Ergebnisse.',
-      },
-      {
-        id: '10',
-        question: 'Können Rasterzeichnen-Arbeitsblätter auch als Ausmalbilder verwendet werden?',
-        answer: 'Ja, Rasterzeichnen-Arbeitsblätter eignen sich perfekt als Ausmalbilder. Nach dem Kopieren des Bildes können Kinder ihr Werk ausmalen. So verbindet die Aktivität Zeichnen und Malen. Die Malvorlagen entstehen aus der eigenen Arbeit. Das erhöht den Stolz und die Motivation. Farbstifte, Buntstifte oder Wasserfarben sind alle geeignet. Die fertigen Werke eignen sich als Dekoration oder Geschenk.',
-      },
-      {
-        id: '11',
-        question: 'Wie speichere ich meine Arbeitsblätter für spätere Verwendung?',
-        answer: 'Laden Sie fertige Arbeitsblätter als PDF oder JPEG herunter. Speichern Sie die Dateien in einem Ordner auf Ihrem Computer. Organisieren Sie nach Themen oder Klassenstufen. Für spätere Änderungen erstellen Sie einfach ein neues Arbeitsblatt. Der Generator speichert keine Entwürfe online. Deshalb empfehlen wir den sofortigen Download nach der Erstellung.',
-      },
-      {
-        id: '12',
-        question: 'Welche Rastergröße eignet sich für Buchstaben lernen Übungen?',
-        answer: 'Für Buchstaben lernen empfehlen wir 5x5 oder 6x6 Raster. Diese Größe zeigt genug Details für Buchstabenformen. Gleichzeitig bleibt die Aufgabe überschaubar. Für komplexe Buchstaben wie W oder M kann ein 8x8 Raster besser sein. Einfache Buchstaben wie I oder O gelingen auch mit 4x4 Zellen. Experimentieren Sie mit verschiedenen Größen für optimale Ergebnisse.',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 
   // Pricing - Vollzugriff pricing (240€/year)
@@ -536,56 +291,8 @@ Rechnen 1. Klasse Materialien mit Rasterzeichnen sind besonders gefragt. Die Kom
       securePayment: 'Sichere Bezahlung',
       cancelAnytime: 'Jederzeit kündbar',
     },
-    items: [
-      {
-        id: '1',
-        slug: 'drawing-lines',
-        name: 'Schwungübungen',
-        category: 'Feinmotorik',
-        icon: '✍️',
-        description: 'Ergänzen Sie Rasterzeichnen mit Schwungübungen für vollständige Schreibvorbereitung. Beide Apps trainieren Feinmotorik auf unterschiedliche Weise.',
-      },
-      {
-        id: '2',
-        slug: 'coloring',
-        name: 'Ausmalbilder',
-        category: 'Kreativität',
-        icon: '🎨',
-        description: 'Nach dem Rasterzeichnen können Kinder ihre Werke ausmalen. So verbindet sich Zeichnen mit kreativem Gestalten.',
-      },
-      {
-        id: '3',
-        slug: 'word-search',
-        name: 'Wortsuchrätsel',
-        category: 'Sprache',
-        icon: '🔍',
-        description: 'Wortsuchrätsel ergänzen Rasterzeichnen für Deutsch-Arbeitsblätter. Kinder zeichnen ein Tier und finden den Namen im Rätsel.',
-      },
-      {
-        id: '4',
-        slug: 'matching-app',
-        name: 'Zuordnung',
-        category: 'Logik',
-        icon: '🔗',
-        description: 'Kombinieren Sie Rasterzeichnen mit Zuordnungsübungen. Beide fördern visuelle Wahrnehmung und Konzentration.',
-      },
-      {
-        id: '5',
-        slug: 'image-addition',
-        name: 'Addition',
-        category: 'Mathematik',
-        icon: '➕',
-        description: 'Verbinden Sie Rasterzeichnen mit dem Mathe-Arbeitsblätter Generator für integriertes Rechnen lernen.',
-      },
-      {
-        id: '6',
-        slug: 'pattern-train',
-        name: 'Muster-Zug',
-        category: 'Logik',
-        icon: '🚂',
-        description: 'Mustererkennungsaufgaben ergänzen Rasterzeichnen perfekt. Beide trainieren räumliches Denken und Konzentration.',
-      },
-    ],
+    items: [], // Samples loaded dynamically from content manager
+    
   },
 };
 

@@ -94,33 +94,28 @@ const appDisplayNames: Record<string, string> = {
   'code-addition': 'Code Addition Worksheets',
 };
 
-// Number of sample slots per app
-const SLOTS_PER_APP = 5;
-
 // Base path for samples
 const SAMPLES_BASE = process.env.NODE_ENV === 'production'
   ? '/opt/lessoncraftstudio/samples'
   : path.join(process.cwd(), 'public', 'samples');
 
-interface SlotStatus {
-  slot: number;
-  hasWorksheet: boolean;
-  hasWorksheetThumb: boolean;
-  hasWorksheetPreview: boolean;
-  hasAnswer: boolean;
-  hasAnswerThumb: boolean;
-  hasAnswerPreview: boolean;
+interface DiscoveredSample {
+  filename: string;
+  worksheetPath: string;
+  answerKeyPath?: string;
+  hasThumb: boolean;
+  hasPreview: boolean;
   hasPdf: boolean;
-  isComplete: boolean;
+  pdfPath?: string;
 }
 
 interface AppStatus {
   appId: string;
   folderName: string;
   displayName: string;
-  slots: SlotStatus[];
-  completedSlots: number;
-  totalSlots: number;
+  samples: DiscoveredSample[];
+  completedSamples: number;
+  totalSamples: number;
 }
 
 interface LanguageStatus {
@@ -129,8 +124,8 @@ interface LanguageStatus {
   apps: Record<string, AppStatus>;
   stats: {
     totalApps: number;
-    totalSlots: number;
-    completedSlots: number;
+    totalSamples: number;
+    completedSamples: number;
     worksheets: number;
     answers: number;
     pdfs: number;
@@ -143,8 +138,8 @@ interface MatrixResult {
   globalStats: {
     totalLanguages: number;
     totalApps: number;
-    totalSlots: number;
-    completedSlots: number;
+    totalSamples: number;
+    completedSamples: number;
     totalWorksheets: number;
     totalAnswers: number;
     totalPdfs: number;
@@ -163,67 +158,181 @@ async function fileExists(filePath: string): Promise<boolean> {
   }
 }
 
-async function checkSlotStatus(dir: string, slot: number): Promise<SlotStatus> {
-  const [
-    hasWorksheet,
-    hasWorksheetThumb,
-    hasWorksheetPreview,
-    hasAnswer,
-    hasAnswerThumb,
-    hasAnswerPreview,
-    hasPdf
-  ] = await Promise.all([
-    fileExists(path.join(dir, `sample-${slot}.jpeg`)),
-    fileExists(path.join(dir, `sample-${slot}_thumb.webp`)),
-    fileExists(path.join(dir, `sample-${slot}_preview.webp`)),
-    fileExists(path.join(dir, `sample-${slot}-answer.jpeg`)),
-    fileExists(path.join(dir, `sample-${slot}-answer_thumb.webp`)),
-    fileExists(path.join(dir, `sample-${slot}-answer_preview.webp`)),
-    fileExists(path.join(dir, `sample-${slot}.pdf`))
-  ]);
+/**
+ * Check if a filename is an answer key (case-insensitive).
+ * Answer keys contain "answer" in the filename.
+ */
+function isAnswerKey(filename: string): boolean {
+  return /answer/i.test(filename);
+}
 
-  // A slot is complete if it has worksheet with WebP variants and PDF
-  // Answer key is optional but nice to have
-  const isComplete = hasWorksheet && hasWorksheetThumb && hasWorksheetPreview && hasPdf;
+/**
+ * Get the base name of a file without extension.
+ * E.g. "sample-1.jpeg" → "sample-1", "addition_worksheet portrait.jpeg" → "addition_worksheet portrait"
+ */
+function getBaseName(filename: string): string {
+  const lastDot = filename.lastIndexOf('.');
+  return lastDot === -1 ? filename : filename.substring(0, lastDot);
+}
 
-  return {
-    slot,
-    hasWorksheet,
-    hasWorksheetThumb,
-    hasWorksheetPreview,
-    hasAnswer,
-    hasAnswerThumb,
-    hasAnswerPreview,
-    hasPdf,
-    isComplete
-  };
+/**
+ * Try to find a matching answer key for a given worksheet filename.
+ * Matching strategies:
+ * 1. sample-N.jpeg → sample-N-answer.jpeg
+ * 2. {name}.jpeg → {name} answer key.jpeg, {name}_answer_key.jpeg
+ * 3. Fuzzy: any answer key JPEG that shares significant words with the worksheet
+ */
+function findAnswerKey(worksheetFilename: string, answerKeyFiles: string[]): string | undefined {
+  const wsBase = getBaseName(worksheetFilename);
+
+  // Strategy 1: sample-N → sample-N-answer
+  const sampleMatch = wsBase.match(/^sample-(\d+)$/);
+  if (sampleMatch) {
+    const num = sampleMatch[1];
+    const exact = answerKeyFiles.find(f =>
+      getBaseName(f).toLowerCase() === `sample-${num}-answer`
+    );
+    if (exact) return exact;
+  }
+
+  // Strategy 2: direct name variations
+  const wsBaseLower = wsBase.toLowerCase();
+  const variations = [
+    `${wsBaseLower} answer key`,
+    `${wsBaseLower}_answer_key`,
+    `${wsBaseLower}-answer`,
+    `${wsBaseLower}_answer`,
+    wsBaseLower.replace('worksheet', 'answer_key'),
+    wsBaseLower.replace('worksheet', 'answer key'),
+  ];
+
+  for (const variation of variations) {
+    const match = answerKeyFiles.find(f =>
+      getBaseName(f).toLowerCase() === variation
+    );
+    if (match) return match;
+  }
+
+  // Strategy 3: fuzzy word matching - find answer key that shares the most significant words
+  const wsWords = wsBaseLower
+    .replace(/[_\-]/g, ' ')
+    .split(/\s+/)
+    .filter(w => w.length > 2 && !['the', 'and', 'for', 'with'].includes(w));
+
+  if (wsWords.length > 0) {
+    let bestMatch: string | undefined;
+    let bestScore = 0;
+
+    for (const akFile of answerKeyFiles) {
+      const akBase = getBaseName(akFile).toLowerCase().replace(/[_\-]/g, ' ');
+      const akWords = akBase.split(/\s+/).filter(w => w.length > 2);
+
+      let score = 0;
+      for (const word of wsWords) {
+        if (akWords.includes(word)) score++;
+      }
+
+      // Require at least half the worksheet words to match
+      if (score > bestScore && score >= Math.ceil(wsWords.length / 2)) {
+        bestScore = score;
+        bestMatch = akFile;
+      }
+    }
+
+    if (bestMatch) return bestMatch;
+  }
+
+  return undefined;
+}
+
+/**
+ * Scan an app directory and discover all sample files.
+ * Returns an array of DiscoveredSample sorted alphabetically by filename.
+ */
+async function scanAppDirectory(dir: string, language: string, folderName: string): Promise<DiscoveredSample[]> {
+  let files: string[];
+  try {
+    files = await fs.readdir(dir);
+  } catch {
+    // Directory doesn't exist
+    return [];
+  }
+
+  // Classify files
+  const jpegFiles = files.filter(f => /\.(jpeg|jpg)$/i.test(f));
+  const webpFiles = new Set(files.filter(f => /\.webp$/i.test(f)).map(f => f.toLowerCase()));
+  const pdfFiles = new Set(files.filter(f => /\.pdf$/i.test(f)).map(f => f.toLowerCase()));
+
+  // Separate worksheets from answer keys
+  const worksheetFiles = jpegFiles.filter(f => !isAnswerKey(f));
+  const answerKeyFiles = jpegFiles.filter(f => isAnswerKey(f));
+
+  // Sort worksheets alphabetically for consistent ordering
+  worksheetFiles.sort((a, b) => a.localeCompare(b, undefined, { numeric: true }));
+
+  const basePath = `/samples/${language}/${folderName}`;
+
+  const samples: DiscoveredSample[] = [];
+
+  for (const wsFile of worksheetFiles) {
+    const wsBase = getBaseName(wsFile);
+
+    // Find matching answer key
+    const answerFile = findAnswerKey(wsFile, answerKeyFiles);
+
+    // Check for WebP variants (thumbnail and preview)
+    const hasThumb = webpFiles.has(`${wsBase}_thumb.webp`.toLowerCase());
+    const hasPreview = webpFiles.has(`${wsBase}_preview.webp`.toLowerCase());
+
+    // Check for PDF
+    const pdfFilename = `${wsBase}.pdf`.toLowerCase();
+    const hasPdf = pdfFiles.has(pdfFilename);
+
+    // Find actual PDF filename (preserve original casing)
+    let pdfPath: string | undefined;
+    if (hasPdf) {
+      const actualPdf = files.find(f => f.toLowerCase() === pdfFilename);
+      pdfPath = actualPdf ? `${basePath}/${actualPdf}` : `${basePath}/${wsBase}.pdf`;
+    }
+
+    samples.push({
+      filename: wsFile,
+      worksheetPath: `${basePath}/${wsFile}`,
+      answerKeyPath: answerFile ? `${basePath}/${answerFile}` : undefined,
+      hasThumb,
+      hasPreview,
+      hasPdf,
+      pdfPath,
+    });
+  }
+
+  return samples;
 }
 
 async function checkAppStatus(language: string, appId: string, folderName: string): Promise<AppStatus> {
   const dir = path.join(SAMPLES_BASE, language, folderName);
 
-  // Check all slots in parallel
-  const slotChecks = await Promise.all(
-    Array.from({ length: SLOTS_PER_APP }, (_, i) => checkSlotStatus(dir, i + 1))
-  );
+  const samples = await scanAppDirectory(dir, language, folderName);
 
-  const completedSlots = slotChecks.filter(s => s.isComplete).length;
+  const completedSamples = samples.filter(s =>
+    s.hasThumb && s.hasPreview && s.hasPdf
+  ).length;
 
   return {
     appId,
     folderName,
     displayName: appDisplayNames[appId] || appId,
-    slots: slotChecks,
-    completedSlots,
-    totalSlots: SLOTS_PER_APP
+    samples,
+    completedSamples,
+    totalSamples: samples.length,
   };
 }
 
 async function checkLanguageStatus(locale: string, language: string): Promise<LanguageStatus> {
   const apps: Record<string, AppStatus> = {};
 
-  let totalSlots = 0;
-  let completedSlots = 0;
+  let totalSamples = 0;
+  let completedSamples = 0;
   let worksheets = 0;
   let answers = 0;
   let pdfs = 0;
@@ -239,14 +348,11 @@ async function checkLanguageStatus(locale: string, language: string): Promise<La
   // Aggregate results
   for (const { appId, status } of appChecks) {
     apps[appId] = status;
-    totalSlots += status.totalSlots;
-    completedSlots += status.completedSlots;
-
-    for (const slot of status.slots) {
-      if (slot.hasWorksheet) worksheets++;
-      if (slot.hasAnswer) answers++;
-      if (slot.hasPdf) pdfs++;
-    }
+    totalSamples += status.totalSamples;
+    completedSamples += status.completedSamples;
+    worksheets += status.samples.length;
+    answers += status.samples.filter(s => s.answerKeyPath).length;
+    pdfs += status.samples.filter(s => s.hasPdf).length;
   }
 
   return {
@@ -255,8 +361,8 @@ async function checkLanguageStatus(locale: string, language: string): Promise<La
     apps,
     stats: {
       totalApps: Object.keys(appIdToFolder).length,
-      totalSlots,
-      completedSlots,
+      totalSamples,
+      completedSamples,
       worksheets,
       answers,
       pdfs
@@ -277,16 +383,16 @@ export async function GET(): Promise<NextResponse> {
     );
 
     // Aggregate global stats
-    let totalSlots = 0;
-    let completedSlots = 0;
+    let totalSamples = 0;
+    let completedSamples = 0;
     let totalWorksheets = 0;
     let totalAnswers = 0;
     let totalPdfs = 0;
 
     for (const { locale, status } of languageChecks) {
       matrix[locale] = status;
-      totalSlots += status.stats.totalSlots;
-      completedSlots += status.stats.completedSlots;
+      totalSamples += status.stats.totalSamples;
+      completedSamples += status.stats.completedSamples;
       totalWorksheets += status.stats.worksheets;
       totalAnswers += status.stats.answers;
       totalPdfs += status.stats.pdfs;
@@ -301,12 +407,12 @@ export async function GET(): Promise<NextResponse> {
       globalStats: {
         totalLanguages,
         totalApps,
-        totalSlots,
-        completedSlots,
+        totalSamples,
+        completedSamples,
         totalWorksheets,
         totalAnswers,
         totalPdfs,
-        percentComplete: totalSlots > 0 ? Math.round((completedSlots / totalSlots) * 100) : 0
+        percentComplete: totalSamples > 0 ? Math.round((completedSamples / totalSamples) * 100) : 0
       },
       appIds: Object.keys(appIdToFolder),
       locales: Object.keys(localeToFolder)

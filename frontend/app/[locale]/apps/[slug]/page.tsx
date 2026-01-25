@@ -316,6 +316,9 @@ function SchemaScripts({
     height: 3508
   })) || [];
 
+  // Gallery name for ImageGallery schema
+  const galleryName = content?.samples?.sectionTitle;
+
   // Generate all schemas using the comprehensive function
   const schemas = generateAllProductPageSchemas(
     appData,
@@ -324,7 +327,8 @@ function SchemaScripts({
     faqs,
     howTo,
     sampleImages,
-    baseUrl
+    baseUrl,
+    galleryName
   );
 
   return (
@@ -357,14 +361,15 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
         ? `https://www.lessoncraftstudio.com${content.samples.items[0].worksheetSrc.replace(/ /g, '%20')}`
         : `https://www.lessoncraftstudio.com/opengraph-image.png`;
 
-    // Use seo.images if available for Google Image Thumbnails, otherwise use fallback
+    // Derive og:image from actual sample items (always correct filenames)
+    // Falls back to seo.images dimensions if available
     const seoTitle = content.seo.title;
-    const ogImages = content.seo.images?.length
-      ? content.seo.images.map(img => ({
-          url: img.url,
-          width: img.width,
-          height: img.height,
-          alt: img.caption || content.hero?.title || seoTitle,
+    const ogImages = content.samples?.items?.length
+      ? content.samples.items.slice(0, 3).map((item: any, index: number) => ({
+          url: `https://www.lessoncraftstudio.com${item.worksheetSrc.replace(/ /g, '%20')}`,
+          width: content.seo.images?.[index]?.width || 2480,
+          height: content.seo.images?.[index]?.height || 3508,
+          alt: item.imageTitle || item.altText || content.hero?.title || seoTitle,
         }))
       : [{
           url: fallbackOgImage,

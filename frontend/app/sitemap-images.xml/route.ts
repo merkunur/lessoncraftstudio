@@ -1,60 +1,7 @@
 import { productPageSlugs } from '@/config/product-page-slugs';
+import { contentRegistry } from '@/config/product-page-content';
 
 export const revalidate = 1800; // 30 minutes ISR
-
-const localeToFolder: Record<string, string> = {
-  en: 'english',
-  de: 'german',
-  fr: 'french',
-  es: 'spanish',
-  pt: 'portuguese',
-  it: 'italian',
-  nl: 'dutch',
-  sv: 'swedish',
-  da: 'danish',
-  no: 'norwegian',
-  fi: 'finnish',
-};
-
-// CRITICAL: Maps appId from productPageSlugs to actual folder name in /samples/
-// These 9 appIds differ from folder names - verified against productPageSlugs:
-const appIdToFolder: Record<string, string> = {
-  // 9 CORRECTED mappings (appId → folder)
-  'word-search': 'wordsearch',
-  'image-addition': 'addition',
-  'matching-app': 'matching',
-  'picture-bingo': 'bingo',
-  'big-small-app': 'big-small',
-  'chart-count-color': 'chart-count',
-  'image-crossword': 'crossword',
-  'image-cryptogram': 'cryptogram',
-  'writing-app': 'writing',
-  // 24 unchanged (appId matches folder name)
-  'subtraction': 'subtraction',
-  'math-worksheet': 'math',
-  'pattern-worksheet': 'pattern',
-  'word-scramble': 'word-scramble',
-  'word-guess': 'word-guess',
-  'alphabet-train': 'alphabet-train',
-  'prepositions': 'prepositions',
-  'coloring': 'coloring',
-  'sudoku': 'sudoku',
-  'treasure-hunt': 'treasure-hunt',
-  'odd-one-out': 'odd-one-out',
-  'picture-path': 'picture-path',
-  'pattern-train': 'pattern-train',
-  'draw-and-color': 'draw-and-color',
-  'drawing-lines': 'drawing-lines',
-  'find-and-count': 'find-and-count',
-  'find-objects': 'find-objects',
-  'grid-match': 'grid-match',
-  'math-puzzle': 'math-puzzle',
-  'missing-pieces': 'missing-pieces',
-  'more-less': 'more-less',
-  'picture-sort': 'picture-sort',
-  'shadow-match': 'shadow-match',
-  'code-addition': 'code-addition',
-};
 
 function escapeXml(str: string): string {
   return str
@@ -71,25 +18,61 @@ export async function GET() {
   let urls = '';
 
   for (const app of productPageSlugs) {
-    const appFolder = appIdToFolder[app.appId] || app.appId;
-
     for (const [locale, slug] of Object.entries(app.slugs)) {
       if (!slug) continue;
 
-      const languageFolder = localeToFolder[locale] || 'english';
       const pageUrl = `${baseUrl}/${locale}/apps/${slug}`;
 
-      // Generate image URLs for samples - actual files use sample-1.jpeg, sample-2.jpeg pattern
-      const images = [
-        `${baseUrl}/samples/${languageFolder}/${appFolder}/sample-1.jpeg`,
-        `${baseUrl}/samples/${languageFolder}/${appFolder}/sample-2.jpeg`,
-      ];
+      // Look up content from the registry for real filenames + metadata
+      const content = contentRegistry[locale]?.[slug];
+      const sampleItems = content?.samples?.items;
 
-      const imageXml = images
-        .map(img => `    <image:image>\n      <image:loc>${escapeXml(img)}</image:loc>\n    </image:image>`)
-        .join('\n');
+      if (sampleItems && sampleItems.length > 0) {
+        // Generate image entries from actual content data
+        const imageXml = sampleItems
+          .map((item: any) => {
+            const lines: string[] = [];
 
-      urls += `  <url>\n    <loc>${escapeXml(pageUrl)}</loc>\n${imageXml}\n  </url>\n`;
+            // Worksheet image
+            if (item.worksheetSrc) {
+              const wsUrl = `${baseUrl}${item.worksheetSrc.replace(/ /g, '%20')}`;
+              const wsTitle = item.imageTitle || item.altText?.split(' - ')[0] || '';
+              const wsCaption = item.altText || '';
+
+              lines.push(`    <image:image>`);
+              lines.push(`      <image:loc>${escapeXml(wsUrl)}</image:loc>`);
+              if (wsTitle) lines.push(`      <image:title>${escapeXml(wsTitle)}</image:title>`);
+              if (wsCaption) lines.push(`      <image:caption>${escapeXml(wsCaption)}</image:caption>`);
+              lines.push(`    </image:image>`);
+            }
+
+            // Answer key image
+            if (item.answerKeySrc && item.answerKeySrc !== item.worksheetSrc) {
+              const akUrl = `${baseUrl}${item.answerKeySrc.replace(/ /g, '%20')}`;
+              const akTitle = item.imageTitle
+                ? `${item.imageTitle} - Answer Key`
+                : 'Answer Key';
+              const akCaption = item.altText
+                ? `Answer key for ${item.altText.split(' - ')[0] || 'worksheet'}`
+                : 'Answer key';
+
+              lines.push(`    <image:image>`);
+              lines.push(`      <image:loc>${escapeXml(akUrl)}</image:loc>`);
+              if (akTitle) lines.push(`      <image:title>${escapeXml(akTitle)}</image:title>`);
+              if (akCaption) lines.push(`      <image:caption>${escapeXml(akCaption)}</image:caption>`);
+              lines.push(`    </image:image>`);
+            }
+
+            return lines.join('\n');
+          })
+          .filter((xml: string) => xml.length > 0)
+          .join('\n');
+
+        if (imageXml) {
+          urls += `  <url>\n    <loc>${escapeXml(pageUrl)}</loc>\n${imageXml}\n  </url>\n`;
+        }
+      }
+      // No fallback: skip pages without content registry entries to avoid broken URLs
     }
   }
 

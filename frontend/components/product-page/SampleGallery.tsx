@@ -14,14 +14,13 @@ interface Sample {
 }
 
 interface DynamicSample {
-  slot: number;
-  hasWorksheet: boolean;
-  hasWorksheetThumb: boolean;
-  hasWorksheetPreview: boolean;
-  hasAnswer: boolean;
-  hasAnswerThumb: boolean;
-  hasAnswerPreview: boolean;
+  filename: string;
+  worksheetPath: string;
+  answerKeyPath?: string;
+  hasThumb: boolean;
+  hasPreview: boolean;
   hasPdf: boolean;
+  pdfPath?: string;
 }
 
 // Locale to language folder mapping for dynamic mode
@@ -109,7 +108,6 @@ const defaultLabels = {
 
 // Generate descriptive filename from altText
 function generateFilename(altText: string): string {
-  // Extract key words from alt text and create a clean filename
   const cleaned = altText
     .toLowerCase()
     .replace(/worksheet|sample|mode|with|for|and|the|a|an/gi, '')
@@ -125,7 +123,6 @@ function generateFilename(altText: string): string {
 // Convert image path to optimized thumbnail path (400px webp)
 function getThumbnailPath(src: string): string {
   if (!src) return src;
-  // Split off query string if present, then replace extension
   const [pathPart, queryPart] = src.split('?');
   const lastDot = pathPart.lastIndexOf('.');
   if (lastDot === -1) return src;
@@ -136,7 +133,6 @@ function getThumbnailPath(src: string): string {
 // Convert image path to optimized preview path (800px webp)
 function getPreviewPath(src: string): string {
   if (!src) return src;
-  // Split off query string if present, then replace extension
   const [pathPart, queryPart] = src.split('?');
   const lastDot = pathPart.lastIndexOf('.');
   if (lastDot === -1) return src;
@@ -152,30 +148,25 @@ function convertDynamicSamples(
   appId: string,
   propSamples?: Sample[]
 ): Sample[] {
-  const language = localeToFolder[locale] || 'english';
-  const folder = appIdToFolder[appId] || appId;
-  const basePath = `/samples/${language}/${folder}`;
   // Cache buster ensures fresh images are loaded after uploads via the content manager
   const cacheBuster = `?v=${Date.now()}`;
 
-  return dynamicSamples
-    .filter(s => s.hasWorksheet) // Only include slots with worksheets
-    .map((s, index) => {
-      // Use SEO-optimized alt text from content file if available (index-based mapping)
-      const seoAltText = propSamples?.[index]?.altText;
-      const seoImageTitle = propSamples?.[index]?.imageTitle;
+  return dynamicSamples.map((s, index) => {
+    // Use SEO-optimized alt text from content file if available (index-based mapping)
+    const seoAltText = propSamples?.[index]?.altText;
+    const seoImageTitle = propSamples?.[index]?.imageTitle;
 
-      return {
-        id: `sample-${s.slot}`,
-        worksheetSrc: `${basePath}/sample-${s.slot}.jpeg${cacheBuster}`,
-        answerKeySrc: s.hasAnswer
-          ? `${basePath}/sample-${s.slot}-answer.jpeg${cacheBuster}`
-          : `${basePath}/sample-${s.slot}.jpeg${cacheBuster}`,
-        altText: seoAltText || `Sample worksheet ${s.slot}`,
-        imageTitle: seoImageTitle,
-        pdfDownloadUrl: s.hasPdf ? `${basePath}/sample-${s.slot}.pdf` : undefined,
-      };
-    });
+    return {
+      id: `sample-${index + 1}`,
+      worksheetSrc: `${s.worksheetPath}${cacheBuster}`,
+      answerKeySrc: s.answerKeyPath
+        ? `${s.answerKeyPath}${cacheBuster}`
+        : `${s.worksheetPath}${cacheBuster}`,
+      altText: seoAltText || `Sample worksheet ${index + 1}`,
+      imageTitle: seoImageTitle,
+      pdfDownloadUrl: s.hasPdf ? s.pdfPath : undefined,
+    };
+  });
 }
 
 export default function SampleGallery({
@@ -205,6 +196,8 @@ export default function SampleGallery({
   const [dynamicSamples, setDynamicSamples] = useState<Sample[]>([]);
   const [dynamicLoading, setDynamicLoading] = useState(!!appId);
   const thumbnailContainerRef = useRef<HTMLDivElement>(null);
+  const [canScrollLeft, setCanScrollLeft] = useState(false);
+  const [canScrollRight, setCanScrollRight] = useState(false);
   const touchStartX = useRef(0);
   const touchEndX = useRef(0);
 
@@ -220,9 +213,8 @@ export default function SampleGallery({
 
         if (data.success && data.matrix[locale]) {
           const appData = data.matrix[locale].apps[appId];
-          if (appData && appData.slots) {
-            // Pass propSamples to use SEO-optimized alt text from content files
-            const converted = convertDynamicSamples(appData.slots, locale, appId, propSamples);
+          if (appData && appData.samples) {
+            const converted = convertDynamicSamples(appData.samples, locale, appId, propSamples);
             setDynamicSamples(converted);
           }
         }
@@ -237,11 +229,31 @@ export default function SampleGallery({
   }, [appId, locale, propSamples]);
 
   // Use dynamic samples if appId is provided and samples exist, otherwise fall back to prop samples
-  // This allows the content manager uploads to take precedence, but falls back to hardcoded samples if none uploaded
   const samples = (appId && dynamicSamples.length > 0) ? dynamicSamples : (propSamples || []);
 
   // Count samples with PDFs available
   const samplesWithPdf = samples.filter(s => s.pdfDownloadUrl).length;
+
+  // Check scroll overflow state for thumbnail strip arrows
+  const updateScrollState = useCallback(() => {
+    const el = thumbnailContainerRef.current;
+    if (!el) return;
+    setCanScrollLeft(el.scrollLeft > 2);
+    setCanScrollRight(el.scrollLeft < el.scrollWidth - el.clientWidth - 2);
+  }, []);
+
+  useEffect(() => {
+    const el = thumbnailContainerRef.current;
+    if (!el) return;
+    updateScrollState();
+    el.addEventListener('scroll', updateScrollState, { passive: true });
+    const ro = new ResizeObserver(updateScrollState);
+    ro.observe(el);
+    return () => {
+      el.removeEventListener('scroll', updateScrollState);
+      ro.disconnect();
+    };
+  }, [samples.length, updateScrollState]);
 
   // Download handler - directly download via anchor link
   const handleDownload = useCallback(async (e: React.MouseEvent, sample: Sample) => {
@@ -251,7 +263,6 @@ export default function SampleGallery({
     setDownloadingId(sample.id);
 
     try {
-      // Create anchor and trigger download
       const link = document.createElement('a');
       link.href = sample.pdfDownloadUrl;
       link.download = generateFilename(sample.altText);
@@ -268,11 +279,9 @@ export default function SampleGallery({
   }, [downloadingId]);
 
   const currentSample = samples[currentIndex];
-  // Original source (for lightbox full quality)
   const currentImageSrc = showAnswerKey
     ? currentSample?.answerKeySrc
     : currentSample?.worksheetSrc;
-  // Optimized preview (for main preview area - 800px)
   const currentPreviewSrc = getPreviewPath(currentImageSrc || '');
 
   // Keyboard navigation
@@ -289,7 +298,7 @@ export default function SampleGallery({
     return () => window.removeEventListener('keydown', handleKeyDown);
   }, [lightboxOpen, currentIndex]);
 
-  // Scroll thumbnail into view
+  // Scroll selected thumbnail into view
   useEffect(() => {
     if (thumbnailContainerRef.current) {
       const thumbnail = thumbnailContainerRef.current.children[currentIndex] as HTMLElement;
@@ -318,6 +327,14 @@ export default function SampleGallery({
   const goToIndex = (index: number) => {
     setDirection(index > currentIndex ? 1 : -1);
     setCurrentIndex(index);
+  };
+
+  // Scroll the thumbnail strip by a set amount
+  const scrollStrip = (dir: 'left' | 'right') => {
+    const el = thumbnailContainerRef.current;
+    if (!el) return;
+    const amount = el.clientWidth * 0.6;
+    el.scrollBy({ left: dir === 'right' ? amount : -amount, behavior: 'smooth' });
   };
 
   // Touch handlers for swipe
@@ -355,18 +372,26 @@ export default function SampleGallery({
     }),
   };
 
-  // Show loading state for dynamic samples
+  // Skeleton loading state
   if (appId && dynamicLoading) {
     return (
       <section id="samples-gallery" className="py-24 relative overflow-hidden" style={{ background: 'linear-gradient(180deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%)' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
-          <div className="text-center">
-            <div className="inline-flex items-center gap-3 text-white/70">
-              <svg className="w-5 h-5 animate-spin" fill="none" viewBox="0 0 24 24">
-                <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
-                <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z" />
-              </svg>
-              <span>Loading samples...</span>
+          {/* Skeleton header */}
+          <div className="text-center mb-16">
+            <div className="inline-block w-32 h-8 rounded-full bg-white/10 animate-pulse mb-6" />
+            <div className="w-80 h-12 mx-auto rounded-lg bg-white/10 animate-pulse mb-4" />
+            <div className="w-96 h-6 mx-auto rounded bg-white/8 animate-pulse" />
+          </div>
+
+          {/* Skeleton preview */}
+          <div className="max-w-4xl mx-auto">
+            <div className="aspect-[4/3] rounded-2xl bg-white/5 border border-white/10 animate-pulse" />
+            {/* Skeleton thumbnail strip */}
+            <div className="flex gap-3 mt-6 overflow-hidden">
+              {[...Array(6)].map((_, i) => (
+                <div key={i} className="flex-shrink-0 w-[100px] sm:w-[120px] aspect-[3/4] rounded-lg bg-white/8 animate-pulse" />
+              ))}
             </div>
           </div>
         </div>
@@ -384,7 +409,6 @@ export default function SampleGallery({
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <div className="absolute top-0 left-1/4 w-96 h-96 bg-blue-500/10 rounded-full blur-3xl" />
         <div className="absolute bottom-0 right-1/4 w-80 h-80 bg-purple-500/10 rounded-full blur-3xl" />
-        {/* Grid pattern */}
         <div
           className="absolute inset-0 opacity-5"
           style={{
@@ -443,122 +467,15 @@ export default function SampleGallery({
           )}
         </motion.div>
 
-        {/* Thumbnail Grid with Download Buttons */}
-        <motion.div
-          className="mb-12"
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.7, delay: 0.2 }}
-        >
-          <div
-            ref={thumbnailContainerRef}
-            className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4"
-          >
-            {samples.map((sample, index) => (
-              <motion.div
-                key={sample.id}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ delay: index * 0.1 }}
-                className="group relative"
-              >
-                {/* Thumbnail Card - Wrapped in figure for SEO */}
-                <figure
-                  onClick={() => goToIndex(index)}
-                  className={`relative aspect-[3/4] rounded-xl overflow-hidden cursor-pointer transition-all duration-300 m-0 ${
-                    index === currentIndex
-                      ? 'ring-4 ring-blue-400 ring-offset-4 ring-offset-[#16213e] scale-105 shadow-2xl shadow-blue-500/30'
-                      : 'ring-1 ring-white/20 hover:ring-white/40 hover:shadow-xl hover:shadow-white/10 hover:scale-102'
-                  }`}
-                >
-                  <Image
-                    src={failedThumbs.has(sample.id) ? sample.worksheetSrc : getThumbnailPath(sample.worksheetSrc)}
-                    alt={sample.altText}
-                    title={sample.imageTitle || sample.altText}
-                    fill
-                    className="object-cover"
-                    sizes="(max-width: 640px) 50vw, (max-width: 1024px) 25vw, 20vw"
-                    onError={() => setFailedThumbs(prev => new Set(prev).add(sample.id))}
-                    priority={index < 4}
-                  />
-
-                  {/* Overlay gradient */}
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-
-                  {/* Selected indicator */}
-                  {index === currentIndex && (
-                    <motion.div
-                      className="absolute inset-0 bg-blue-500/20"
-                      initial={{ opacity: 0 }}
-                      animate={{ opacity: 1 }}
-                    />
-                  )}
-
-                  {/* Screen-reader only figcaption for SEO */}
-                  <figcaption className="sr-only">
-                    {sample.altText}
-                  </figcaption>
-                </figure>
-
-                {/* Download Button ON the thumbnail */}
-                {sample.pdfDownloadUrl && (
-                  <motion.button
-                    onClick={(e) => handleDownload(e, sample)}
-                    disabled={downloadingId === sample.id}
-                    className={`absolute bottom-2 left-1/2 -translate-x-1/2 flex items-center gap-1.5 px-3 py-2 rounded-lg font-semibold text-xs transition-all duration-300 ${
-                      downloadingId === sample.id
-                        ? 'bg-emerald-500 text-white'
-                        : 'bg-white/95 text-slate-800 hover:bg-emerald-500 hover:text-white shadow-lg shadow-black/30 hover:shadow-emerald-500/40'
-                    } backdrop-blur-sm`}
-                    whileHover={{ scale: 1.05 }}
-                    whileTap={{ scale: 0.95 }}
-                  >
-                    {downloadingId === sample.id ? (
-                      <>
-                        <svg className="w-3.5 h-3.5 animate-spin" fill="none" viewBox="0 0 24 24">
-                          <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
-                          <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z" />
-                        </svg>
-                        <span>...</span>
-                      </>
-                    ) : (
-                      <>
-                        <svg className="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 20 20">
-                          <path fillRule="evenodd" d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm3.293-7.707a1 1 0 011.414 0L9 10.586V3a1 1 0 112 0v7.586l1.293-1.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z" clipRule="evenodd" />
-                        </svg>
-                        <span>PDF</span>
-                      </>
-                    )}
-                  </motion.button>
-                )}
-
-                {/* No PDF indicator */}
-                {!sample.pdfDownloadUrl && (
-                  <div className="absolute bottom-2 left-1/2 -translate-x-1/2 px-2 py-1 rounded bg-white/10 backdrop-blur-sm text-white/60 text-xs">
-                    {noPdfLabel}
-                  </div>
-                )}
-
-                {/* Sample number */}
-                <div className="absolute top-2 left-2 w-6 h-6 rounded-full bg-white/90 backdrop-blur-sm flex items-center justify-center text-xs font-bold text-slate-700 shadow">
-                  {index + 1}
-                </div>
-              </motion.div>
-            ))}
-          </div>
-        </motion.div>
-
         {/* Main Preview Area */}
         <motion.div
           className="relative max-w-4xl mx-auto"
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          transition={{ duration: 0.7, delay: 0.3 }}
+          transition={{ duration: 0.7, delay: 0.2 }}
         >
-          {/* Toggle bar */}
+          {/* Top bar: toggle + counter */}
           <div className="flex items-center justify-between mb-6 flex-wrap gap-4">
             {/* Worksheet/Answer Key toggle */}
             <div className="relative flex items-center p-1 bg-white/10 backdrop-blur-sm rounded-full border border-white/20">
@@ -589,11 +506,11 @@ export default function SampleGallery({
               </button>
             </div>
 
-            {/* Current sample info */}
-            <div className="flex items-center gap-3 text-white/60 text-sm">
-              <span className="font-semibold text-white">{currentIndex + 1}</span>
-              <span>{ofLabel}</span>
-              <span>{samples.length}</span>
+            {/* Counter pill */}
+            <div className="flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 text-sm">
+              <span className="font-bold text-white tabular-nums">{currentIndex + 1}</span>
+              <span className="text-white/50">{ofLabel}</span>
+              <span className="font-bold text-white tabular-nums">{samples.length}</span>
             </div>
           </div>
 
@@ -661,7 +578,7 @@ export default function SampleGallery({
               </motion.div>
             </div>
 
-            {/* Navigation arrows */}
+            {/* Navigation arrows on main preview */}
             {samples.length > 1 && (
               <>
                 <button
@@ -686,7 +603,7 @@ export default function SampleGallery({
             )}
           </div>
 
-          {/* Current sample download button (larger, for main preview) */}
+          {/* Current sample download button */}
           {currentSample?.pdfDownloadUrl && (
             <motion.div
               className="mt-6 text-center"
@@ -718,6 +635,100 @@ export default function SampleGallery({
               </button>
             </motion.div>
           )}
+
+          {/* ── Horizontal Thumbnail Carousel ── */}
+          <motion.div
+            className="relative mt-8"
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, delay: 0.35 }}
+          >
+            {/* Scroll-fade left */}
+            {canScrollLeft && (
+              <div className="absolute left-0 top-0 bottom-0 w-12 z-10 pointer-events-none bg-gradient-to-r from-[#16213e] to-transparent" />
+            )}
+            {/* Scroll-fade right */}
+            {canScrollRight && (
+              <div className="absolute right-0 top-0 bottom-0 w-12 z-10 pointer-events-none bg-gradient-to-l from-[#16213e] to-transparent" />
+            )}
+
+            {/* Strip scroll arrows */}
+            {canScrollLeft && (
+              <button
+                onClick={() => scrollStrip('left')}
+                className="absolute -left-1 top-1/2 -translate-y-1/2 z-20 w-9 h-9 flex items-center justify-center rounded-full bg-white/90 backdrop-blur-sm shadow-lg text-slate-600 hover:text-blue-600 hover:bg-white hover:scale-110 transition-all duration-200"
+                aria-label="Scroll thumbnails left"
+              >
+                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M15 19l-7-7 7-7" />
+                </svg>
+              </button>
+            )}
+            {canScrollRight && (
+              <button
+                onClick={() => scrollStrip('right')}
+                className="absolute -right-1 top-1/2 -translate-y-1/2 z-20 w-9 h-9 flex items-center justify-center rounded-full bg-white/90 backdrop-blur-sm shadow-lg text-slate-600 hover:text-blue-600 hover:bg-white hover:scale-110 transition-all duration-200"
+                aria-label="Scroll thumbnails right"
+              >
+                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M9 5l7 7-7 7" />
+                </svg>
+              </button>
+            )}
+
+            {/* Scrollable thumbnail strip */}
+            <div
+              ref={thumbnailContainerRef}
+              className="flex gap-3 overflow-x-auto scrollbar-hide px-1 py-2 snap-x snap-mandatory"
+              style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}
+            >
+              {samples.map((sample, index) => (
+                <figure
+                  key={sample.id}
+                  onClick={() => goToIndex(index)}
+                  className={`relative flex-shrink-0 w-[100px] sm:w-[120px] md:w-[130px] aspect-[3/4] rounded-lg overflow-hidden cursor-pointer m-0 snap-center transition-all duration-300 ${
+                    index === currentIndex
+                      ? 'ring-3 ring-blue-400 ring-offset-2 ring-offset-[#16213e] scale-105 shadow-xl shadow-blue-500/25'
+                      : 'ring-1 ring-white/15 hover:ring-white/40 hover:scale-[1.03] opacity-70 hover:opacity-100'
+                  }`}
+                >
+                  <Image
+                    src={failedThumbs.has(sample.id) ? sample.worksheetSrc : getThumbnailPath(sample.worksheetSrc)}
+                    alt={sample.altText}
+                    title={sample.imageTitle || sample.altText}
+                    fill
+                    className="object-cover"
+                    sizes="130px"
+                    onError={() => setFailedThumbs(prev => new Set(prev).add(sample.id))}
+                    priority={index < 4}
+                  />
+
+                  {/* Selected glow */}
+                  {index === currentIndex && (
+                    <div className="absolute inset-0 bg-blue-500/15" />
+                  )}
+
+                  {/* PDF badge on thumbnail */}
+                  {sample.pdfDownloadUrl && (
+                    <div className="absolute bottom-1 right-1 px-1.5 py-0.5 rounded bg-emerald-500/90 text-[10px] font-bold text-white leading-none">
+                      PDF
+                    </div>
+                  )}
+
+                  {/* Number badge */}
+                  <div className="absolute top-1 left-1 w-5 h-5 rounded-full bg-black/50 backdrop-blur-sm flex items-center justify-center text-[10px] font-bold text-white/90">
+                    {index + 1}
+                  </div>
+
+                  {/* Screen-reader only figcaption for SEO */}
+                  <figcaption className="sr-only">
+                    {sample.altText}
+                  </figcaption>
+                </figure>
+              ))}
+            </div>
+          </motion.div>
         </motion.div>
       </div>
 
@@ -837,7 +848,7 @@ export default function SampleGallery({
 
             {/* Counter and download in lightbox */}
             <div className="absolute bottom-4 left-1/2 -translate-x-1/2 z-10 flex items-center gap-4">
-              <span className="text-white/70 text-sm font-medium">
+              <span className="text-white/70 text-sm font-medium tabular-nums">
                 {currentIndex + 1} / {samples.length}
               </span>
               {currentSample?.pdfDownloadUrl && (

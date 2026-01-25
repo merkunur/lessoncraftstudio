@@ -746,6 +746,36 @@ export function generateImageObjectSchema(
 }
 
 /**
+ * Generate ImageGallery Schema for sample image collections
+ * Helps Google understand the gallery structure and index all images
+ */
+export function generateImageGallerySchema(
+  images: SampleImageData[],
+  galleryName: string,
+  pageUrl: string,
+  locale: string,
+  baseUrl: string = getBaseUrl()
+) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "ImageGallery",
+    "name": galleryName,
+    "url": pageUrl,
+    "numberOfItems": images.length,
+    "inLanguage": locale,
+    "image": images.map(img => ({
+      "@type": "ImageObject",
+      "contentUrl": `${baseUrl}${img.src.replace(/ /g, '%20')}`,
+      "name": img.name,
+      "caption": img.caption,
+      "width": img.width || 2480,
+      "height": img.height || 3508,
+    })),
+    "creator": { "@type": "Organization", "name": "LessonCraftStudio" }
+  };
+}
+
+/**
  * Generate Product Schema for PDF downloads
  * Marks downloadable PDFs as products for rich results
  */
@@ -792,7 +822,8 @@ export function generateAllProductPageSchemas(
   faqs?: Array<{ question: string; answer: string }>,
   howTo?: { title: string; description: string; steps: HowToStepData[] },
   sampleImages?: SampleImageData[],
-  baseUrl: string = getBaseUrl()
+  baseUrl: string = getBaseUrl(),
+  galleryName?: string
 ): object[] {
   const schemas: object[] = [];
 
@@ -814,12 +845,16 @@ export function generateAllProductPageSchemas(
     ));
   }
 
-  // 4. ImageObject schemas for sample images (limit to first 5 for performance)
+  // 4. ImageObject schemas for all sample images
   if (sampleImages && sampleImages.length > 0) {
-    const imagesToProcess = sampleImages.slice(0, 5);
-    for (const image of imagesToProcess) {
+    for (const image of sampleImages) {
       schemas.push(generateImageObjectSchema(image, pageUrl, baseUrl));
     }
+  }
+
+  // 5. ImageGallery schema (if gallery name provided)
+  if (galleryName && sampleImages && sampleImages.length > 0) {
+    schemas.push(generateImageGallerySchema(sampleImages, galleryName, pageUrl, locale, baseUrl));
   }
 
   return schemas;

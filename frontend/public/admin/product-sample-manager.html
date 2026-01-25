@@ -1,0 +1,1811 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page Sample Manager</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary: #4F46E5;
+            --primary-dark: #4338CA;
+            --success: #10B981;
+            --danger: #EF4444;
+            --warning: #F59E0B;
+            --info: #3B82F6;
+            --gray-50: #F9FAFB;
+            --gray-100: #F3F4F6;
+            --gray-200: #E5E7EB;
+            --gray-300: #D1D5DB;
+            --gray-400: #9CA3AF;
+            --gray-500: #6B7280;
+            --gray-600: #4B5563;
+            --gray-700: #374151;
+            --gray-800: #1F2937;
+            --gray-900: #111827;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: linear-gradient(135deg, #059669 0%, #065f46 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 16px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+            overflow: hidden;
+        }
+
+        /* Header */
+        .header {
+            background: var(--gray-900);
+            color: white;
+            padding: 25px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .header h1 {
+            font-size: 28px;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .header .subtitle {
+            color: var(--gray-400);
+            margin-top: 4px;
+            font-size: 14px;
+        }
+
+        .header-actions {
+            display: flex;
+            gap: 12px;
+        }
+
+        /* Language Tabs */
+        .language-tabs {
+            display: flex;
+            background: var(--gray-100);
+            border-bottom: 2px solid var(--gray-200);
+            padding: 0 20px;
+            flex-wrap: wrap;
+        }
+
+        .language-tab {
+            padding: 15px 20px;
+            background: none;
+            border: none;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 600;
+            color: var(--gray-600);
+            transition: all 0.2s;
+            position: relative;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .language-tab:hover {
+            color: var(--primary);
+            background: var(--gray-50);
+        }
+
+        .language-tab.active {
+            color: var(--primary);
+            background: white;
+        }
+
+        .language-tab.active::after {
+            content: '';
+            position: absolute;
+            bottom: -2px;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background: var(--primary);
+        }
+
+        .language-tab .count {
+            background: var(--gray-200);
+            color: var(--gray-600);
+            font-size: 11px;
+            padding: 2px 6px;
+            border-radius: 10px;
+        }
+
+        .language-tab.active .count {
+            background: var(--primary);
+            color: white;
+        }
+
+        /* Stats Bar */
+        .stats-bar {
+            background: var(--gray-50);
+            padding: 20px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid var(--gray-200);
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .stats-group {
+            display: flex;
+            gap: 30px;
+        }
+
+        .stat-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .stat-value {
+            font-size: 24px;
+            font-weight: 700;
+            color: var(--gray-900);
+        }
+
+        .stat-label {
+            font-size: 12px;
+            color: var(--gray-500);
+            margin-top: 2px;
+        }
+
+        .progress-container {
+            flex: 1;
+            max-width: 400px;
+            margin: 0 20px;
+        }
+
+        .progress-bar {
+            height: 10px;
+            background: var(--gray-200);
+            border-radius: 5px;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, var(--success), #34D399);
+            transition: width 0.3s ease;
+        }
+
+        .progress-text {
+            text-align: center;
+            font-size: 12px;
+            color: var(--gray-600);
+            margin-top: 4px;
+        }
+
+        /* Filter Tabs */
+        .filter-tabs {
+            display: flex;
+            gap: 10px;
+            padding: 15px 30px;
+            border-bottom: 1px solid var(--gray-200);
+            background: white;
+        }
+
+        .filter-tab {
+            padding: 8px 16px;
+            background: var(--gray-100);
+            border: 1px solid var(--gray-200);
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 13px;
+            color: var(--gray-600);
+            transition: all 0.2s;
+        }
+
+        .filter-tab:hover {
+            background: var(--gray-200);
+        }
+
+        .filter-tab.active {
+            background: var(--primary);
+            color: white;
+            border-color: var(--primary);
+        }
+
+        /* App Grid */
+        .app-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+            gap: 20px;
+            padding: 30px;
+        }
+
+        .app-card {
+            background: white;
+            border: 2px solid var(--gray-200);
+            border-radius: 12px;
+            overflow: hidden;
+            transition: all 0.2s;
+        }
+
+        .app-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .app-card.complete {
+            border-color: var(--success);
+        }
+
+        .app-card.partial {
+            border-color: var(--warning);
+        }
+
+        .app-card.empty {
+            border-color: var(--danger);
+        }
+
+        .app-card-header {
+            padding: 15px;
+            background: var(--gray-50);
+            border-bottom: 1px solid var(--gray-200);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .app-name {
+            font-weight: 600;
+            color: var(--gray-900);
+            font-size: 16px;
+        }
+
+        .app-progress {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 13px;
+            color: var(--gray-600);
+        }
+
+        .app-progress .badge {
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-size: 11px;
+            font-weight: 600;
+        }
+
+        .badge.complete {
+            background: var(--success);
+            color: white;
+        }
+
+        .badge.partial {
+            background: var(--warning);
+            color: white;
+        }
+
+        .badge.empty {
+            background: var(--danger);
+            color: white;
+        }
+
+        /* Dynamic samples container - scrollable */
+        .samples-container {
+            padding: 15px;
+            max-height: 350px;
+            overflow-y: auto;
+        }
+
+        .samples-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .sample-card {
+            background: var(--gray-50);
+            border: 1px solid var(--gray-200);
+            border-radius: 8px;
+            padding: 10px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.2s;
+            width: 90px;
+            flex-shrink: 0;
+        }
+
+        .sample-card:hover {
+            border-color: var(--primary);
+            background: rgba(79, 70, 229, 0.05);
+        }
+
+        .sample-card.complete {
+            background: rgba(16, 185, 129, 0.1);
+            border-color: var(--success);
+        }
+
+        .sample-card.partial {
+            background: rgba(245, 158, 11, 0.1);
+            border-color: var(--warning);
+        }
+
+        .sample-number {
+            font-weight: 600;
+            color: var(--gray-700);
+            margin-bottom: 5px;
+            font-size: 12px;
+        }
+
+        .sample-preview {
+            width: 100%;
+            height: 50px;
+            background: var(--gray-200);
+            border-radius: 4px;
+            margin-bottom: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+
+        .sample-preview img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .sample-preview .placeholder {
+            color: var(--gray-400);
+            font-size: 16px;
+        }
+
+        .sample-status {
+            display: flex;
+            justify-content: center;
+            gap: 3px;
+            font-size: 12px;
+        }
+
+        .sample-status .icon {
+            opacity: 0.3;
+        }
+
+        .sample-status .icon.active {
+            opacity: 1;
+        }
+
+        /* Add new sample button */
+        .add-sample-btn {
+            background: var(--gray-100);
+            border: 2px dashed var(--gray-300);
+            border-radius: 8px;
+            padding: 10px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.2s;
+            width: 90px;
+            flex-shrink: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100px;
+        }
+
+        .add-sample-btn:hover {
+            border-color: var(--primary);
+            background: rgba(79, 70, 229, 0.05);
+        }
+
+        .add-sample-btn .plus-icon {
+            font-size: 24px;
+            color: var(--gray-400);
+        }
+
+        .add-sample-btn span {
+            font-size: 11px;
+            color: var(--gray-500);
+            margin-top: 5px;
+        }
+
+        /* Buttons */
+        .btn {
+            padding: 10px 18px;
+            border-radius: 8px;
+            font-size: 13px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.2s;
+            border: none;
+        }
+
+        .btn-primary {
+            background: var(--primary);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background: var(--primary-dark);
+        }
+
+        .btn-secondary {
+            background: var(--gray-100);
+            color: var(--gray-700);
+            border: 1px solid var(--gray-300);
+        }
+
+        .btn-secondary:hover {
+            background: var(--gray-200);
+        }
+
+        .btn-success {
+            background: var(--success);
+            color: white;
+        }
+
+        .btn-danger {
+            background: var(--danger);
+            color: white;
+        }
+
+        .btn-sm {
+            padding: 6px 12px;
+            font-size: 12px;
+        }
+
+        /* Modal */
+        .modal-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.6);
+            display: none;
+            align-items: center;
+            justify-content: center;
+            z-index: 1000;
+        }
+
+        .modal-overlay.active {
+            display: flex;
+        }
+
+        .modal {
+            background: white;
+            border-radius: 16px;
+            width: 90%;
+            max-width: 800px;
+            max-height: 90vh;
+            overflow-y: auto;
+            box-shadow: 0 25px 50px rgba(0, 0, 0, 0.25);
+        }
+
+        .modal-header {
+            padding: 20px 25px;
+            border-bottom: 1px solid var(--gray-200);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .modal-header h2 {
+            font-size: 20px;
+            color: var(--gray-900);
+        }
+
+        .modal-close {
+            background: none;
+            border: none;
+            font-size: 24px;
+            color: var(--gray-500);
+            cursor: pointer;
+        }
+
+        .modal-body {
+            padding: 25px;
+        }
+
+        .modal-footer {
+            padding: 20px 25px;
+            border-top: 1px solid var(--gray-200);
+            display: flex;
+            justify-content: flex-end;
+            gap: 12px;
+        }
+
+        /* Form groups */
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            font-size: 13px;
+            font-weight: 600;
+            color: var(--gray-700);
+            margin-bottom: 6px;
+        }
+
+        .form-group input,
+        .form-group textarea,
+        .form-group select {
+            width: 100%;
+            padding: 10px 12px;
+            border: 1px solid var(--gray-300);
+            border-radius: 8px;
+            font-size: 14px;
+            transition: border-color 0.2s;
+        }
+
+        .form-group input:focus,
+        .form-group textarea:focus,
+        .form-group select:focus {
+            outline: none;
+            border-color: var(--primary);
+        }
+
+        .form-group textarea {
+            resize: vertical;
+            min-height: 80px;
+        }
+
+        .form-group .hint {
+            font-size: 11px;
+            color: var(--gray-500);
+            margin-top: 4px;
+        }
+
+        .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+        }
+
+        /* SEO Section */
+        .seo-section {
+            background: var(--gray-50);
+            border-radius: 12px;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        .seo-section h3 {
+            font-size: 16px;
+            color: var(--gray-800);
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .seo-badge {
+            background: var(--info);
+            color: white;
+            font-size: 10px;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-weight: 600;
+        }
+
+        /* Upload Zone */
+        .upload-section {
+            margin-bottom: 25px;
+        }
+
+        .upload-section h3 {
+            margin-bottom: 10px;
+            color: var(--gray-700);
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .upload-zone {
+            border: 2px dashed var(--gray-300);
+            border-radius: 12px;
+            padding: 25px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .upload-zone:hover, .upload-zone.dragover {
+            border-color: var(--primary);
+            background: rgba(79, 70, 229, 0.05);
+        }
+
+        .upload-zone-icon {
+            font-size: 32px;
+            color: var(--gray-400);
+            margin-bottom: 10px;
+        }
+
+        .upload-zone-text {
+            color: var(--gray-600);
+            font-size: 13px;
+            margin-bottom: 4px;
+        }
+
+        .upload-zone-hint {
+            color: var(--gray-400);
+            font-size: 11px;
+        }
+
+        .upload-preview {
+            margin-top: 15px;
+        }
+
+        .upload-preview img {
+            max-width: 100%;
+            max-height: 150px;
+            border-radius: 8px;
+            border: 1px solid var(--gray-200);
+        }
+
+        .upload-preview p {
+            margin-top: 8px;
+            color: var(--gray-600);
+            font-size: 12px;
+        }
+
+        /* Current files display */
+        .current-files {
+            background: var(--gray-50);
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+
+        .current-files h4 {
+            font-size: 13px;
+            color: var(--gray-700);
+            margin-bottom: 10px;
+        }
+
+        .file-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .file-item {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            padding: 6px 10px;
+            background: white;
+            border: 1px solid var(--gray-200);
+            border-radius: 6px;
+            font-size: 12px;
+        }
+
+        .file-item.exists {
+            border-color: var(--success);
+            background: rgba(16, 185, 129, 0.1);
+        }
+
+        .file-item.missing {
+            border-color: var(--gray-300);
+            color: var(--gray-500);
+        }
+
+        /* Toast */
+        .toast-container {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 2000;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .toast {
+            background: white;
+            padding: 15px 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            animation: slideIn 0.3s ease;
+            min-width: 300px;
+        }
+
+        @keyframes slideIn {
+            from {
+                transform: translateX(100%);
+                opacity: 0;
+            }
+            to {
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+
+        .toast.success {
+            border-left: 4px solid var(--success);
+        }
+
+        .toast.error {
+            border-left: 4px solid var(--danger);
+        }
+
+        .toast.warning {
+            border-left: 4px solid var(--warning);
+        }
+
+        .toast-icon {
+            font-size: 20px;
+        }
+
+        .toast.success .toast-icon {
+            color: var(--success);
+        }
+
+        .toast.error .toast-icon {
+            color: var(--danger);
+        }
+
+        .toast-message {
+            flex: 1;
+            color: var(--gray-700);
+        }
+
+        /* Loading Spinner */
+        .spinner {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border: 2px solid var(--gray-200);
+            border-top-color: var(--primary);
+            border-radius: 50%;
+            animation: spin 0.8s linear infinite;
+        }
+
+        @keyframes spin {
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        /* Checkbox */
+        .checkbox-group {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-top: 15px;
+            padding: 12px;
+            background: var(--gray-50);
+            border-radius: 8px;
+        }
+
+        .checkbox-group input {
+            width: 18px;
+            height: 18px;
+        }
+
+        .checkbox-group label {
+            font-size: 13px;
+            color: var(--gray-600);
+        }
+
+        /* Hidden file input */
+        .hidden-input {
+            display: none;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .header {
+                flex-direction: column;
+                gap: 15px;
+                text-align: center;
+            }
+
+            .stats-bar {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .stats-group {
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+            .app-grid {
+                grid-template-columns: 1fr;
+                padding: 15px;
+                gap: 15px;
+            }
+
+            .form-row {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div>
+                <h1>Product Page Sample Manager</h1>
+                <div class="subtitle">Upload and manage unlimited sample worksheets with SEO metadata for all 363 product pages (33 apps x 11 languages)</div>
+            </div>
+            <div class="header-actions">
+                <button class="btn btn-secondary" onclick="exportStatusCSV()">Export CSV</button>
+                <button class="btn btn-primary" onclick="refreshData()">Refresh</button>
+            </div>
+        </header>
+
+        <!-- Language Tabs -->
+        <div class="language-tabs" id="language-tabs">
+            <!-- Generated by JS -->
+        </div>
+
+        <!-- Stats Bar -->
+        <div class="stats-bar">
+            <div class="stats-group">
+                <div class="stat-item">
+                    <div class="stat-value" id="stat-worksheets">0</div>
+                    <div class="stat-label">Worksheets</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value" id="stat-answers">0</div>
+                    <div class="stat-label">Answer Keys</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value" id="stat-pdfs">0</div>
+                    <div class="stat-label">PDFs</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value" id="stat-complete">0</div>
+                    <div class="stat-label">Complete Samples</div>
+                </div>
+            </div>
+            <div class="progress-container">
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progress-fill" style="width: 0%"></div>
+                </div>
+                <div class="progress-text" id="progress-text">0% Complete</div>
+            </div>
+        </div>
+
+        <!-- Filter Tabs -->
+        <div class="filter-tabs">
+            <button class="filter-tab active" data-filter="all">All (33)</button>
+            <button class="filter-tab" data-filter="complete">Complete</button>
+            <button class="filter-tab" data-filter="partial">Partial</button>
+            <button class="filter-tab" data-filter="empty">Empty</button>
+        </div>
+
+        <!-- App Grid -->
+        <div class="app-grid" id="app-grid">
+            <!-- Generated by JS -->
+        </div>
+    </div>
+
+    <!-- Upload Modal -->
+    <div class="modal-overlay" id="upload-modal">
+        <div class="modal">
+            <div class="modal-header">
+                <h2 id="modal-title">Upload Sample Files</h2>
+                <button class="modal-close" onclick="closeModal()">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div style="margin-bottom: 20px;">
+                    <strong>App:</strong> <span id="modal-app-name"></span><br>
+                    <strong>Language:</strong> <span id="modal-language"></span><br>
+                    <strong>Sample:</strong> <span id="modal-slot"></span>
+                </div>
+
+                <!-- Current Files -->
+                <div class="current-files" id="current-files">
+                    <h4>Current Files</h4>
+                    <div class="file-list" id="file-list">
+                        <!-- Generated by JS -->
+                    </div>
+                </div>
+
+                <!-- Worksheet Upload -->
+                <div class="upload-section">
+                    <h3>Worksheet Image</h3>
+                    <div class="upload-zone" id="worksheet-upload-zone" onclick="document.getElementById('worksheet-input').click()">
+                        <div class="upload-zone-icon">📝</div>
+                        <div class="upload-zone-text">Drop worksheet image or click to browse</div>
+                        <div class="upload-zone-hint">JPEG, PNG, WebP - Max 10MB</div>
+                    </div>
+                    <input type="file" class="hidden-input" id="worksheet-input" accept="image/jpeg,image/png,image/webp" onchange="handleWorksheetSelect(this)">
+                    <div class="upload-preview" id="worksheet-preview"></div>
+                </div>
+
+                <!-- Answer Upload -->
+                <div class="upload-section">
+                    <h3>Answer Key Image (Optional)</h3>
+                    <div class="upload-zone" id="answer-upload-zone" onclick="document.getElementById('answer-input').click()">
+                        <div class="upload-zone-icon">✅</div>
+                        <div class="upload-zone-text">Drop answer key image or click to browse</div>
+                        <div class="upload-zone-hint">JPEG, PNG, WebP - Max 10MB</div>
+                    </div>
+                    <input type="file" class="hidden-input" id="answer-input" accept="image/jpeg,image/png,image/webp" onchange="handleAnswerSelect(this)">
+                    <div class="upload-preview" id="answer-preview"></div>
+                </div>
+
+                <!-- PDF Upload -->
+                <div class="upload-section">
+                    <h3>PDF Sample</h3>
+                    <div class="upload-zone" id="pdf-upload-zone" onclick="document.getElementById('pdf-input').click()">
+                        <div class="upload-zone-icon">📄</div>
+                        <div class="upload-zone-text">Drop PDF file or click to browse</div>
+                        <div class="upload-zone-hint">PDF - Max 50MB</div>
+                    </div>
+                    <input type="file" class="hidden-input" id="pdf-input" accept="application/pdf" onchange="handlePdfSelect(this)">
+                    <div class="upload-preview" id="pdf-preview"></div>
+                </div>
+
+                <!-- SEO Metadata Section -->
+                <div class="seo-section">
+                    <h3>SEO Metadata <span class="seo-badge">OPTIONAL</span></h3>
+
+                    <div class="form-group">
+                        <label for="seo-alt-text">Alt Text</label>
+                        <input type="text" id="seo-alt-text" placeholder="e.g., Free printable addition worksheet for grade 1">
+                        <div class="hint">Descriptive text for screen readers and SEO (recommended: 50-150 characters)</div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="seo-title">Image Title</label>
+                        <input type="text" id="seo-title" placeholder="e.g., Addition Practice - Single Digit">
+                        <div class="hint">Short title for the image (displayed in Google Images)</div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="seo-grade">Grade Level</label>
+                            <select id="seo-grade">
+                                <option value="">Select grade...</option>
+                                <option value="Pre-K">Pre-K</option>
+                                <option value="Kindergarten">Kindergarten</option>
+                                <option value="1st Grade">1st Grade</option>
+                                <option value="2nd Grade">2nd Grade</option>
+                                <option value="3rd Grade">3rd Grade</option>
+                                <option value="4th Grade">4th Grade</option>
+                                <option value="5th Grade">5th Grade</option>
+                                <option value="6th Grade">6th Grade</option>
+                                <option value="7th Grade">7th Grade</option>
+                                <option value="8th Grade">8th Grade</option>
+                                <option value="All Ages">All Ages</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="seo-subject">Subject (Auto)</label>
+                            <input type="text" id="seo-subject" readonly placeholder="Auto-populated from app">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="seo-description">Description</label>
+                        <textarea id="seo-description" placeholder="e.g., This free printable worksheet helps students practice single-digit addition problems. Perfect for kindergarten and first grade math practice."></textarea>
+                        <div class="hint">Longer description for search engines (1-2 sentences)</div>
+                    </div>
+
+                    <button class="btn btn-secondary btn-sm" onclick="generateSeoFromApp()">Auto-Generate SEO</button>
+                </div>
+
+                <!-- Overwrite Warning -->
+                <div class="checkbox-group" id="overwrite-warning" style="display: none;">
+                    <input type="checkbox" id="overwrite-confirm">
+                    <label for="overwrite-confirm">File(s) already exist. Check to confirm overwrite (backup will be created)</label>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-danger" id="delete-btn" onclick="deleteSampleFiles()" style="margin-right: auto;">Delete All</button>
+                <button class="btn btn-secondary" onclick="closeModal()">Cancel</button>
+                <button class="btn btn-success" id="save-seo-btn" onclick="saveSeoOnly()">Save SEO Only</button>
+                <button class="btn btn-primary" id="upload-btn" onclick="uploadFiles()">
+                    <span id="upload-btn-text">Upload</span>
+                    <span id="upload-spinner" class="spinner" style="display: none;"></span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast Container -->
+    <div class="toast-container" id="toast-container"></div>
+
+    <script>
+        // Configuration
+        const locales = ['en', 'de', 'fr', 'es', 'it', 'pt', 'nl', 'da', 'sv', 'no', 'fi'];
+        const localeNames = {
+            en: 'English', de: 'German', fr: 'French', es: 'Spanish',
+            it: 'Italian', pt: 'Portuguese', nl: 'Dutch', da: 'Danish',
+            sv: 'Swedish', no: 'Norwegian', fi: 'Finnish'
+        };
+        const localeFlags = {
+            en: '🇬🇧', de: '🇩🇪', fr: '🇫🇷', es: '🇪🇸',
+            it: '🇮🇹', pt: '🇵🇹', nl: '🇳🇱', da: '🇩🇰',
+            sv: '🇸🇪', no: '🇳🇴', fi: '🇫🇮'
+        };
+        const languageFolders = {
+            en: 'english', de: 'german', fr: 'french', es: 'spanish',
+            it: 'italian', pt: 'portuguese', nl: 'dutch', da: 'danish',
+            sv: 'swedish', no: 'norwegian', fi: 'finnish'
+        };
+
+        // App to Subject mapping
+        const appToSubject = {
+            'addition': 'Math', 'subtraction': 'Math', 'math-worksheet': 'Math',
+            'pattern-worksheet': 'Math', 'math-puzzle': 'Math', 'code-addition': 'Math',
+            'chart-count': 'Math', 'more-less': 'Math', 'find-and-count': 'Math', 'big-small': 'Math',
+            'wordsearch': 'Language', 'word-scramble': 'Language', 'word-guess': 'Language',
+            'crossword': 'Language', 'cryptogram': 'Language', 'alphabet-train': 'Language',
+            'prepositions': 'Language', 'writing': 'Language',
+            'coloring': 'Art', 'draw-and-color': 'Art',
+            'drawing-lines': 'Fine Motor',
+            'bingo': 'Games',
+            'sudoku': 'Logic', 'treasure-hunt': 'Logic', 'odd-one-out': 'Logic',
+            'picture-path': 'Logic', 'pattern-train': 'Logic', 'grid-match': 'Logic',
+            'matching': 'Logic', 'missing-pieces': 'Logic', 'picture-sort': 'Logic',
+            'find-objects': 'Visual', 'shadow-match': 'Visual'
+        };
+
+        // State
+        let currentLocale = 'en';
+        let currentFilter = 'all';
+        let matrixData = null;
+        let seoMetadata = {};  // Cache for SEO metadata
+        let selectedApp = null;
+        let selectedSample = null;
+        let worksheetFile = null;
+        let answerFile = null;
+        let pdfFile = null;
+
+        // Initialize
+        document.addEventListener('DOMContentLoaded', () => {
+            initLanguageTabs();
+            initFilterTabs();
+            initDragDrop();
+            refreshData();
+            loadSeoMetadata();
+        });
+
+        function initLanguageTabs() {
+            const container = document.getElementById('language-tabs');
+            container.innerHTML = locales.map(locale => `
+                <button class="language-tab ${locale === currentLocale ? 'active' : ''}"
+                        data-locale="${locale}"
+                        onclick="selectLocale('${locale}')">
+                    ${localeFlags[locale]} ${localeNames[locale]}
+                    <span class="count" id="count-${locale}">0</span>
+                </button>
+            `).join('');
+        }
+
+        function initFilterTabs() {
+            document.querySelectorAll('.filter-tab').forEach(tab => {
+                tab.addEventListener('click', () => {
+                    document.querySelectorAll('.filter-tab').forEach(t => t.classList.remove('active'));
+                    tab.classList.add('active');
+                    currentFilter = tab.dataset.filter;
+                    renderAppGrid();
+                });
+            });
+        }
+
+        function initDragDrop() {
+            ['worksheet-upload-zone', 'answer-upload-zone', 'pdf-upload-zone'].forEach(zoneId => {
+                const zone = document.getElementById(zoneId);
+
+                zone.addEventListener('dragover', (e) => {
+                    e.preventDefault();
+                    zone.classList.add('dragover');
+                });
+
+                zone.addEventListener('dragleave', () => {
+                    zone.classList.remove('dragover');
+                });
+
+                zone.addEventListener('drop', (e) => {
+                    e.preventDefault();
+                    zone.classList.remove('dragover');
+                    const file = e.dataTransfer.files[0];
+                    if (zoneId === 'worksheet-upload-zone' && file.type.startsWith('image/')) {
+                        handleWorksheetFile(file);
+                    } else if (zoneId === 'answer-upload-zone' && file.type.startsWith('image/')) {
+                        handleAnswerFile(file);
+                    } else if (zoneId === 'pdf-upload-zone' && file.type === 'application/pdf') {
+                        handlePdfFile(file);
+                    }
+                });
+            });
+        }
+
+        async function loadSeoMetadata() {
+            try {
+                const response = await fetch('/api/sample-meta');
+                const data = await response.json();
+                if (data.success && data.samples) {
+                    // Index by appId:locale:filename
+                    data.samples.forEach(s => {
+                        const key = `${s.appId}:${s.locale}:${s.filename}`;
+                        seoMetadata[key] = s;
+                    });
+                }
+            } catch (error) {
+                console.warn('Could not load SEO metadata:', error);
+            }
+        }
+
+        async function refreshData() {
+            try {
+                const response = await fetch('/api/product-samples/list');
+                const data = await response.json();
+
+                if (data.success) {
+                    matrixData = data;
+                    updateStats(data.globalStats);
+                    updateLocaleCounts();
+                    renderAppGrid();
+                } else {
+                    showToast('Failed to load data: ' + data.error, 'error');
+                }
+            } catch (error) {
+                showToast('Network error: ' + error.message, 'error');
+            }
+        }
+
+        function updateStats(stats) {
+            document.getElementById('stat-worksheets').textContent = stats.totalWorksheets;
+            document.getElementById('stat-answers').textContent = stats.totalAnswers;
+            document.getElementById('stat-pdfs').textContent = stats.totalPdfs;
+            document.getElementById('stat-complete').textContent = stats.completedSamples;
+
+            const percent = stats.totalSamples > 0
+                ? Math.round((stats.completedSamples / stats.totalSamples) * 100)
+                : 0;
+            document.getElementById('progress-fill').style.width = percent + '%';
+            document.getElementById('progress-text').textContent =
+                `${percent}% Complete (${stats.completedSamples}/${stats.totalSamples} samples)`;
+        }
+
+        function updateLocaleCounts() {
+            if (!matrixData) return;
+
+            locales.forEach(locale => {
+                const langData = matrixData.matrix[locale];
+                if (langData) {
+                    document.getElementById(`count-${locale}`).textContent = langData.stats.totalSamples;
+                }
+            });
+        }
+
+        function selectLocale(locale) {
+            currentLocale = locale;
+            document.querySelectorAll('.language-tab').forEach(tab => {
+                tab.classList.toggle('active', tab.dataset.locale === locale);
+            });
+            renderAppGrid();
+        }
+
+        function renderAppGrid() {
+            const container = document.getElementById('app-grid');
+
+            if (!matrixData || !matrixData.matrix[currentLocale]) {
+                container.innerHTML = '<p style="padding: 30px; color: var(--gray-500);">No data available</p>';
+                return;
+            }
+
+            const langData = matrixData.matrix[currentLocale];
+            const apps = Object.values(langData.apps);
+
+            // Apply filter
+            const filteredApps = apps.filter(app => {
+                const status = getAppStatus(app);
+                switch (currentFilter) {
+                    case 'complete': return status === 'complete';
+                    case 'partial': return status === 'partial';
+                    case 'empty': return status === 'empty';
+                    default: return true;
+                }
+            });
+
+            container.innerHTML = filteredApps.map(app => {
+                const status = getAppStatus(app);
+
+                return `
+                    <div class="app-card ${status}">
+                        <div class="app-card-header">
+                            <span class="app-name">${app.displayName}</span>
+                            <div class="app-progress">
+                                <span>${app.completedSamples}/${app.totalSamples}</span>
+                                <span class="badge ${status}">${status}</span>
+                            </div>
+                        </div>
+                        <div class="samples-container">
+                            <div class="samples-list">
+                                ${renderSamples(app)}
+                                <div class="add-sample-btn" onclick="openUploadModalNew('${app.appId}')">
+                                    <div class="plus-icon">+</div>
+                                    <span>Add New</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+
+            // Update filter counts
+            const allCount = apps.length;
+            const completeCount = apps.filter(a => getAppStatus(a) === 'complete').length;
+            const partialCount = apps.filter(a => getAppStatus(a) === 'partial').length;
+            const emptyCount = apps.filter(a => getAppStatus(a) === 'empty').length;
+
+            document.querySelector('[data-filter="all"]').textContent = `All (${allCount})`;
+            document.querySelector('[data-filter="complete"]').textContent = `Complete (${completeCount})`;
+            document.querySelector('[data-filter="partial"]').textContent = `Partial (${partialCount})`;
+            document.querySelector('[data-filter="empty"]').textContent = `Empty (${emptyCount})`;
+        }
+
+        function getAppStatus(app) {
+            if (app.completedSamples === app.totalSamples && app.totalSamples > 0) return 'complete';
+            if (app.totalSamples > 0) return 'partial';
+            return 'empty';
+        }
+
+        function renderSamples(app) {
+            const language = languageFolders[currentLocale];
+
+            // Use discovered samples from API (supports unlimited samples)
+            if (!app.samples || app.samples.length === 0) {
+                return '';
+            }
+
+            return app.samples.map((sample, index) => {
+                const hasAll = sample.hasThumb && sample.hasPreview && sample.hasPdf;
+                const hasAny = sample.hasThumb || sample.hasPreview || sample.hasPdf;
+                const slotStatus = hasAll ? 'complete' : hasAny ? 'partial' : '';
+
+                // Get thumbnail URL
+                const baseName = sample.filename.replace(/\.(jpeg|jpg|png|webp)$/i, '');
+                const thumbUrl = sample.hasThumb
+                    ? `/samples/${language}/${encodeURIComponent(app.folderName)}/${encodeURIComponent(baseName)}_thumb.webp?t=${Date.now()}`
+                    : null;
+
+                return `
+                    <div class="sample-card ${slotStatus}" onclick="openUploadModal('${app.appId}', '${encodeURIComponent(sample.filename)}')">
+                        <div class="sample-number">#${index + 1}</div>
+                        <div class="sample-preview">
+                            ${thumbUrl
+                                ? `<img src="${thumbUrl}" alt="Sample ${index + 1}" onerror="this.style.display='none'; this.nextElementSibling.style.display='block'">
+                                   <div class="placeholder" style="display: none;">📝</div>`
+                                : `<div class="placeholder">📝</div>`
+                            }
+                        </div>
+                        <div class="sample-status">
+                            <span class="icon ${sample.hasThumb ? 'active' : ''}" title="Thumbnail">📝</span>
+                            <span class="icon ${sample.answerKeyPath ? 'active' : ''}" title="Answer">✅</span>
+                            <span class="icon ${sample.hasPdf ? 'active' : ''}" title="PDF">📄</span>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        function openUploadModalNew(appId) {
+            // Find the next available slot number
+            if (!matrixData) return;
+
+            const langData = matrixData.matrix[currentLocale];
+            const app = langData.apps[appId];
+
+            // Find the highest existing slot number
+            let maxSlot = 0;
+            if (app.samples) {
+                app.samples.forEach(s => {
+                    const match = s.filename.match(/sample-(\d+)/);
+                    if (match) {
+                        const num = parseInt(match[1], 10);
+                        if (num > maxSlot) maxSlot = num;
+                    }
+                });
+            }
+
+            const newSlot = maxSlot + 1;
+            const newFilename = `sample-${newSlot}.jpeg`;
+
+            openUploadModalInternal(app, {
+                filename: newFilename,
+                worksheetPath: null,
+                answerKeyPath: null,
+                hasThumb: false,
+                hasPreview: false,
+                hasPdf: false,
+                isNew: true
+            });
+        }
+
+        function openUploadModal(appId, encodedFilename) {
+            if (!matrixData) return;
+
+            const filename = decodeURIComponent(encodedFilename);
+            const langData = matrixData.matrix[currentLocale];
+            const app = langData.apps[appId];
+            const sample = app.samples?.find(s => s.filename === filename);
+
+            if (!sample) {
+                showToast('Sample not found', 'error');
+                return;
+            }
+
+            openUploadModalInternal(app, sample);
+        }
+
+        function openUploadModalInternal(app, sample) {
+            selectedApp = app;
+            selectedSample = sample;
+            worksheetFile = null;
+            answerFile = null;
+            pdfFile = null;
+
+            document.getElementById('modal-app-name').textContent = app.displayName;
+            document.getElementById('modal-language').textContent = localeNames[currentLocale];
+            document.getElementById('modal-slot').textContent = sample.filename;
+            document.getElementById('worksheet-preview').innerHTML = '';
+            document.getElementById('answer-preview').innerHTML = '';
+            document.getElementById('pdf-preview').innerHTML = '';
+            document.getElementById('worksheet-input').value = '';
+            document.getElementById('answer-input').value = '';
+            document.getElementById('pdf-input').value = '';
+
+            // Set subject
+            document.getElementById('seo-subject').value = appToSubject[app.appId] || 'General';
+
+            // Load existing SEO metadata
+            const seoKey = `${app.appId}:${currentLocale}:${sample.filename}`;
+            const existingSeo = seoMetadata[seoKey];
+            if (existingSeo) {
+                document.getElementById('seo-alt-text').value = existingSeo.altText || '';
+                document.getElementById('seo-title').value = existingSeo.title || '';
+                document.getElementById('seo-grade').value = existingSeo.grade || '';
+                document.getElementById('seo-description').value = existingSeo.description || '';
+            } else {
+                document.getElementById('seo-alt-text').value = '';
+                document.getElementById('seo-title').value = '';
+                document.getElementById('seo-grade').value = '';
+                document.getElementById('seo-description').value = '';
+            }
+
+            // Show current files status
+            const fileListHtml = `
+                <span class="file-item ${sample.hasThumb ? 'exists' : 'missing'}">
+                    ${sample.hasThumb ? '✓' : '✗'} Worksheet
+                </span>
+                <span class="file-item ${sample.hasThumb ? 'exists' : 'missing'}">
+                    ${sample.hasThumb ? '✓' : '✗'} Thumb WebP
+                </span>
+                <span class="file-item ${sample.hasPreview ? 'exists' : 'missing'}">
+                    ${sample.hasPreview ? '✓' : '✗'} Preview WebP
+                </span>
+                <span class="file-item ${sample.answerKeyPath ? 'exists' : 'missing'}">
+                    ${sample.answerKeyPath ? '✓' : '✗'} Answer Key
+                </span>
+                <span class="file-item ${sample.hasPdf ? 'exists' : 'missing'}">
+                    ${sample.hasPdf ? '✓' : '✗'} PDF
+                </span>
+            `;
+            document.getElementById('file-list').innerHTML = fileListHtml;
+
+            // Show overwrite warning if files exist
+            const hasExisting = sample.hasThumb || sample.answerKeyPath || sample.hasPdf;
+            document.getElementById('overwrite-warning').style.display = hasExisting ? 'flex' : 'none';
+            document.getElementById('overwrite-confirm').checked = false;
+
+            // Show/hide delete button
+            document.getElementById('delete-btn').style.display = hasExisting ? 'block' : 'none';
+
+            document.getElementById('upload-modal').classList.add('active');
+        }
+
+        function closeModal() {
+            document.getElementById('upload-modal').classList.remove('active');
+            selectedApp = null;
+            selectedSample = null;
+            worksheetFile = null;
+            answerFile = null;
+            pdfFile = null;
+        }
+
+        function handleWorksheetSelect(input) {
+            if (input.files && input.files[0]) {
+                handleWorksheetFile(input.files[0]);
+            }
+        }
+
+        function handleWorksheetFile(file) {
+            if (!file.type.startsWith('image/')) {
+                showToast('Please select an image file', 'error');
+                return;
+            }
+            if (file.size > 10 * 1024 * 1024) {
+                showToast('Image must be under 10MB', 'error');
+                return;
+            }
+
+            worksheetFile = file;
+
+            const reader = new FileReader();
+            reader.onload = (e) => {
+                document.getElementById('worksheet-preview').innerHTML = `
+                    <img src="${e.target.result}" alt="Preview">
+                    <p>${file.name} (${(file.size / 1024).toFixed(1)} KB)</p>
+                `;
+            };
+            reader.readAsDataURL(file);
+        }
+
+        function handleAnswerSelect(input) {
+            if (input.files && input.files[0]) {
+                handleAnswerFile(input.files[0]);
+            }
+        }
+
+        function handleAnswerFile(file) {
+            if (!file.type.startsWith('image/')) {
+                showToast('Please select an image file', 'error');
+                return;
+            }
+            if (file.size > 10 * 1024 * 1024) {
+                showToast('Image must be under 10MB', 'error');
+                return;
+            }
+
+            answerFile = file;
+
+            const reader = new FileReader();
+            reader.onload = (e) => {
+                document.getElementById('answer-preview').innerHTML = `
+                    <img src="${e.target.result}" alt="Preview">
+                    <p>${file.name} (${(file.size / 1024).toFixed(1)} KB)</p>
+                `;
+            };
+            reader.readAsDataURL(file);
+        }
+
+        function handlePdfSelect(input) {
+            if (input.files && input.files[0]) {
+                handlePdfFile(input.files[0]);
+            }
+        }
+
+        function handlePdfFile(file) {
+            if (file.type !== 'application/pdf') {
+                showToast('Please select a PDF file', 'error');
+                return;
+            }
+            if (file.size > 50 * 1024 * 1024) {
+                showToast('PDF must be under 50MB', 'error');
+                return;
+            }
+
+            pdfFile = file;
+            document.getElementById('pdf-preview').innerHTML = `
+                <p style="color: var(--success);">✓ ${file.name} (${(file.size / 1024).toFixed(1)} KB)</p>
+            `;
+        }
+
+        function generateSeoFromApp() {
+            if (!selectedApp) return;
+
+            const appName = selectedApp.displayName.replace(' Worksheets', '').replace(' Pages', '');
+            const language = localeNames[currentLocale];
+            const grade = document.getElementById('seo-grade').value || 'elementary school';
+
+            document.getElementById('seo-alt-text').value =
+                `Free printable ${appName.toLowerCase()} worksheet for ${grade} students - ${language}`;
+            document.getElementById('seo-title').value =
+                `${appName} Practice Worksheet`;
+            document.getElementById('seo-description').value =
+                `This free printable ${appName.toLowerCase()} worksheet is perfect for ${grade} students learning ${appToSubject[selectedApp.appId] || 'skills'}. Download and print for classroom or home use.`;
+
+            showToast('SEO fields auto-generated', 'success');
+        }
+
+        async function saveSeoOnly() {
+            if (!selectedApp || !selectedSample) return;
+
+            const altText = document.getElementById('seo-alt-text').value.trim();
+            const title = document.getElementById('seo-title').value.trim();
+            const grade = document.getElementById('seo-grade').value;
+            const description = document.getElementById('seo-description').value.trim();
+
+            if (!altText && !title && !description) {
+                showToast('Please fill in at least one SEO field', 'warning');
+                return;
+            }
+
+            try {
+                const response = await fetch('/api/sample-meta', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        appId: selectedApp.appId,
+                        locale: currentLocale,
+                        filename: selectedSample.filename,
+                        altText: altText || null,
+                        title: title || null,
+                        grade: grade || null,
+                        description: description || null
+                    })
+                });
+
+                const result = await response.json();
+                if (result.success) {
+                    // Update cache
+                    const seoKey = `${selectedApp.appId}:${currentLocale}:${selectedSample.filename}`;
+                    seoMetadata[seoKey] = result.sample;
+                    showToast('SEO metadata saved', 'success');
+                } else {
+                    showToast('Failed to save SEO: ' + result.error, 'error');
+                }
+            } catch (error) {
+                showToast('Error saving SEO: ' + error.message, 'error');
+            }
+        }
+
+        async function uploadFiles() {
+            if (!selectedApp || !selectedSample) return;
+            if (!worksheetFile && !answerFile && !pdfFile) {
+                showToast('Please select at least one file to upload', 'warning');
+                return;
+            }
+
+            // Check overwrite confirmation
+            const hasExisting = selectedSample.hasThumb || selectedSample.answerKeyPath || selectedSample.hasPdf;
+            const overwriteConfirmed = document.getElementById('overwrite-confirm').checked;
+
+            if (hasExisting && (worksheetFile || answerFile || pdfFile) && !overwriteConfirmed) {
+                showToast('Please confirm overwrite by checking the checkbox', 'warning');
+                return;
+            }
+
+            const btn = document.getElementById('upload-btn');
+            const btnText = document.getElementById('upload-btn-text');
+            const spinner = document.getElementById('upload-spinner');
+
+            btn.disabled = true;
+            btnText.textContent = 'Uploading...';
+            spinner.style.display = 'inline-block';
+
+            // Extract slot number from filename
+            const slotMatch = selectedSample.filename.match(/sample-(\d+)/);
+            const slot = slotMatch ? parseInt(slotMatch[1], 10) : 1;
+
+            try {
+                // Upload worksheet
+                if (worksheetFile) {
+                    const formData = new FormData();
+                    formData.append('file', worksheetFile);
+                    formData.append('locale', currentLocale);
+                    formData.append('appId', selectedApp.appId);
+                    formData.append('slot', slot);
+                    formData.append('fileType', 'worksheet');
+                    formData.append('overwrite', 'true');
+
+                    const response = await fetch('/api/product-samples/upload', {
+                        method: 'POST',
+                        body: formData
+                    });
+                    const result = await response.json();
+
+                    if (result.success) {
+                        showToast('Worksheet uploaded with WebP variants generated', 'success');
+                    } else {
+                        showToast('Worksheet upload failed: ' + result.error, 'error');
+                    }
+                }
+
+                // Upload answer key
+                if (answerFile) {
+                    const formData = new FormData();
+                    formData.append('file', answerFile);
+                    formData.append('locale', currentLocale);
+                    formData.append('appId', selectedApp.appId);
+                    formData.append('slot', slot);
+                    formData.append('fileType', 'answer');
+                    formData.append('overwrite', 'true');
+
+                    const response = await fetch('/api/product-samples/upload', {
+                        method: 'POST',
+                        body: formData
+                    });
+                    const result = await response.json();
+
+                    if (result.success) {
+                        showToast('Answer key uploaded with WebP variants generated', 'success');
+                    } else {
+                        showToast('Answer key upload failed: ' + result.error, 'error');
+                    }
+                }
+
+                // Upload PDF
+                if (pdfFile) {
+                    const formData = new FormData();
+                    formData.append('file', pdfFile);
+                    formData.append('locale', currentLocale);
+                    formData.append('appId', selectedApp.appId);
+                    formData.append('slot', slot);
+                    formData.append('fileType', 'pdf');
+                    formData.append('overwrite', 'true');
+
+                    const response = await fetch('/api/product-samples/upload', {
+                        method: 'POST',
+                        body: formData
+                    });
+                    const result = await response.json();
+
+                    if (result.success) {
+                        showToast('PDF uploaded successfully', 'success');
+                    } else {
+                        showToast('PDF upload failed: ' + result.error, 'error');
+                    }
+                }
+
+                // Also save SEO metadata if provided
+                const altText = document.getElementById('seo-alt-text').value.trim();
+                const title = document.getElementById('seo-title').value.trim();
+                const grade = document.getElementById('seo-grade').value;
+                const description = document.getElementById('seo-description').value.trim();
+
+                if (altText || title || description) {
+                    await fetch('/api/samples', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({
+                            appId: selectedApp.appId,
+                            locale: currentLocale,
+                            filename: selectedSample.filename,
+                            altText: altText || null,
+                            title: title || null,
+                            grade: grade || null,
+                            description: description || null
+                        })
+                    });
+                }
+
+                // Refresh data and close modal
+                await refreshData();
+                closeModal();
+
+            } catch (error) {
+                showToast('Upload error: ' + error.message, 'error');
+            } finally {
+                btn.disabled = false;
+                btnText.textContent = 'Upload';
+                spinner.style.display = 'none';
+            }
+        }
+
+        async function deleteSampleFiles() {
+            if (!selectedApp || !selectedSample) return;
+
+            // Extract slot number from filename
+            const slotMatch = selectedSample.filename.match(/sample-(\d+)/);
+            const slot = slotMatch ? parseInt(slotMatch[1], 10) : 1;
+
+            if (!confirm(`Are you sure you want to delete all files for ${selectedSample.filename}? A backup will be created.`)) {
+                return;
+            }
+
+            try {
+                const response = await fetch('/api/product-samples/delete', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        locale: currentLocale,
+                        appId: selectedApp.appId,
+                        slot: slot,
+                        deleteType: 'all',
+                        createBackups: true
+                    })
+                });
+                const result = await response.json();
+
+                if (result.success) {
+                    showToast(`Deleted ${result.deletedFiles.length} file(s)`, 'success');
+                    await refreshData();
+                    closeModal();
+                } else {
+                    showToast('Delete failed: ' + result.error, 'error');
+                }
+            } catch (error) {
+                showToast('Delete error: ' + error.message, 'error');
+            }
+        }
+
+        function exportStatusCSV() {
+            if (!matrixData) {
+                showToast('No data to export', 'warning');
+                return;
+            }
+
+            const rows = [['Locale', 'Language', 'App ID', 'App Name', 'Filename', 'Has Worksheet', 'Has Thumb', 'Has Preview', 'Has Answer', 'Has PDF', 'Complete']];
+
+            Object.entries(matrixData.matrix).forEach(([locale, langData]) => {
+                Object.values(langData.apps).forEach(app => {
+                    if (app.samples) {
+                        app.samples.forEach(sample => {
+                            const hasAll = sample.hasThumb && sample.hasPreview && sample.hasPdf;
+                            rows.push([
+                                locale,
+                                langData.language,
+                                app.appId,
+                                app.displayName,
+                                sample.filename,
+                                sample.hasThumb ? 'Yes' : 'No',
+                                sample.hasThumb ? 'Yes' : 'No',
+                                sample.hasPreview ? 'Yes' : 'No',
+                                sample.answerKeyPath ? 'Yes' : 'No',
+                                sample.hasPdf ? 'Yes' : 'No',
+                                hasAll ? 'Yes' : 'No'
+                            ]);
+                        });
+                    }
+                });
+            });
+
+            const csv = rows.map(row => row.map(cell => `"${cell}"`).join(',')).join('\n');
+            const blob = new Blob([csv], { type: 'text/csv' });
+            const url = URL.createObjectURL(blob);
+
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `product-samples-status-${new Date().toISOString().split('T')[0]}.csv`;
+            a.click();
+
+            URL.revokeObjectURL(url);
+            showToast('CSV exported successfully', 'success');
+        }
+
+        function showToast(message, type = 'info') {
+            const container = document.getElementById('toast-container');
+            const toast = document.createElement('div');
+            toast.className = `toast ${type}`;
+
+            const icons = {
+                success: '✓',
+                error: '✗',
+                warning: '⚠',
+                info: 'ℹ'
+            };
+
+            toast.innerHTML = `
+                <span class="toast-icon">${icons[type]}</span>
+                <span class="toast-message">${message}</span>
+            `;
+
+            container.appendChild(toast);
+
+            setTimeout(() => {
+                toast.style.opacity = '0';
+                toast.style.transform = 'translateX(100%)';
+                setTimeout(() => toast.remove(), 300);
+            }, 4000);
+        }
+    </script>
+</body>
+</html>

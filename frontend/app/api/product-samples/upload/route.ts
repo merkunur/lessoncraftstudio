@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import sharp from 'sharp';
 import fs from 'fs/promises';
 import path from 'path';
+import { execSync } from 'child_process';
 
 // Locale to language folder mapping
 const localeToFolder: Record<string, string> = {
@@ -55,10 +56,29 @@ const appIdToFolder: Record<string, string> = {
   'code-addition': 'code addition',
 };
 
-// Base path for samples - production uses /opt/lessoncraftstudio/samples
+// Base path for samples - production uses isolated /var/www/lcs-media/samples
+// This is COMPLETELY SEPARATE from the code repository to prevent accidental deletion
 const SAMPLES_BASE = process.env.NODE_ENV === 'production'
-  ? '/opt/lessoncraftstudio/samples'
+  ? '/var/www/lcs-media/samples'
   : path.join(process.cwd(), 'public', 'samples');
+
+// Set immutable flag on a file to prevent accidental deletion
+function setImmutable(filePath: string): void {
+  try {
+    execSync(`chattr +i "${filePath}"`, { stdio: 'ignore' });
+  } catch {
+    // Non-fatal if chattr not available (e.g., development environment)
+  }
+}
+
+// Remove immutable flag before modifying a file
+function removeImmutable(filePath: string): void {
+  try {
+    execSync(`chattr -i "${filePath}"`, { stdio: 'ignore' });
+  } catch {
+    // Non-fatal if chattr not available
+  }
+}
 
 // Valid file types for upload
 const VALID_FILE_TYPES = ['worksheet', 'answer', 'pdf'];
@@ -142,6 +162,10 @@ async function processWorksheetUpload(
 
   // Create backup if overwriting
   if (originalExists && overwrite) {
+    // Remove immutable flags before backup/overwrite
+    removeImmutable(originalPath);
+    removeImmutable(thumbPath);
+    removeImmutable(previewPath);
     await createBackup(originalPath);
     await createBackup(thumbPath);
     await createBackup(previewPath);
@@ -170,6 +194,12 @@ async function processWorksheetUpload(
       .toBuffer();
     await fs.writeFile(previewPath, previewBuffer);
     console.log(`[PRODUCT-SAMPLES] Generated preview: ${previewPath}`);
+
+    // Set immutable flags to protect files from accidental deletion
+    setImmutable(originalPath);
+    setImmutable(thumbPath);
+    setImmutable(previewPath);
+    console.log(`[PRODUCT-SAMPLES] Set immutable protection on files`);
 
     return {
       success: true,
@@ -221,6 +251,10 @@ async function processAnswerUpload(
 
   // Create backup if overwriting
   if (originalExists && overwrite) {
+    // Remove immutable flags before backup/overwrite
+    removeImmutable(originalPath);
+    removeImmutable(thumbPath);
+    removeImmutable(previewPath);
     await createBackup(originalPath);
     await createBackup(thumbPath);
     await createBackup(previewPath);
@@ -249,6 +283,12 @@ async function processAnswerUpload(
       .toBuffer();
     await fs.writeFile(previewPath, previewBuffer);
     console.log(`[PRODUCT-SAMPLES] Generated answer preview: ${previewPath}`);
+
+    // Set immutable flags to protect files from accidental deletion
+    setImmutable(originalPath);
+    setImmutable(thumbPath);
+    setImmutable(previewPath);
+    console.log(`[PRODUCT-SAMPLES] Set immutable protection on answer files`);
 
     return {
       success: true,
@@ -298,12 +338,18 @@ async function processPdfUpload(
 
   // Create backup if overwriting
   if (pdfExists && overwrite) {
+    // Remove immutable flag before backup/overwrite
+    removeImmutable(pdfPath);
     await createBackup(pdfPath);
   }
 
   try {
     await fs.writeFile(pdfPath, buffer);
     console.log(`[PRODUCT-SAMPLES] Saved PDF: ${pdfPath}`);
+
+    // Set immutable flag to protect file from accidental deletion
+    setImmutable(pdfPath);
+    console.log(`[PRODUCT-SAMPLES] Set immutable protection on PDF`);
 
     return {
       success: true,

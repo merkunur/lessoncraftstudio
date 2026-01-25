@@ -5,8 +5,10 @@ import path from 'path';
 // Force dynamic to prevent build-time caching
 export const dynamic = 'force-dynamic';
 
+// Base path for samples - production uses isolated /var/www/lcs-media/samples
+// This is COMPLETELY SEPARATE from the code repository to prevent accidental deletion
 const SAMPLES_BASE = process.env.NODE_ENV === 'production'
-  ? '/opt/lessoncraftstudio/samples'
+  ? '/var/www/lcs-media/samples'
   : path.join(process.cwd(), 'public', 'samples');
 
 const LANGUAGES = [

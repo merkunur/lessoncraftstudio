@@ -1,6 +1,16 @@
 import { NextRequest, NextResponse } from 'next/server';
 import fs from 'fs/promises';
 import path from 'path';
+import { execSync } from 'child_process';
+
+// Remove immutable flag before deleting/moving a file
+function removeImmutable(filePath: string): void {
+  try {
+    execSync(`chattr -i "${filePath}"`, { stdio: 'ignore' });
+  } catch {
+    // Non-fatal if chattr not available
+  }
+}
 
 // Locale to language folder mapping
 const localeToFolder: Record<string, string> = {
@@ -54,9 +64,10 @@ const appIdToFolder: Record<string, string> = {
   'code-addition': 'code addition',
 };
 
-// Base path for samples - production uses /opt/lessoncraftstudio/samples
+// Base path for samples - production uses isolated /var/www/lcs-media/samples
+// This is COMPLETELY SEPARATE from the code repository to prevent accidental deletion
 const SAMPLES_BASE = process.env.NODE_ENV === 'production'
-  ? '/opt/lessoncraftstudio/samples'
+  ? '/var/www/lcs-media/samples'
   : path.join(process.cwd(), 'public', 'samples');
 
 // Valid slot numbers (1-99 to support unlimited samples)
@@ -110,6 +121,8 @@ async function deleteWorksheetFiles(
   for (const file of files) {
     const filePath = path.join(dir, file);
     if (await fileExists(filePath)) {
+      // Remove immutable flag before delete/backup
+      removeImmutable(filePath);
       if (createBackups) {
         await createBackup(filePath);
       } else {
@@ -137,6 +150,8 @@ async function deleteAnswerFiles(
   for (const file of files) {
     const filePath = path.join(dir, file);
     if (await fileExists(filePath)) {
+      // Remove immutable flag before delete/backup
+      removeImmutable(filePath);
       if (createBackups) {
         await createBackup(filePath);
       } else {
@@ -159,6 +174,8 @@ async function deletePdfFile(
   const filePath = path.join(dir, file);
 
   if (await fileExists(filePath)) {
+    // Remove immutable flag before delete/backup
+    removeImmutable(filePath);
     if (createBackups) {
       await createBackup(filePath);
     } else {

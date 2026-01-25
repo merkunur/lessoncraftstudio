@@ -1,0 +1,35 @@
+# LessonCraftStudio Sample Media Backup Schedule
+# Install: sudo cp lcs-media-backups.cron /etc/cron.d/lcs-media-backups
+#
+# This cron file schedules:
+# - Hourly backups during business hours (4 per day)
+# - Daily backup at 2 AM
+# - Weekly backup on Sundays at 3 AM
+# - Monthly backup on the 1st at 4 AM
+# - Health check every 15 minutes
+# - Cleanup of old backups weekly
+
+SHELL=/bin/bash
+PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
+MAILTO=""
+
+# Hourly backups at 8 AM, 12 PM, 4 PM, 8 PM
+0 8,12,16,20 * * * root /var/www/lcs-media/scripts/scheduled-backup.sh hourly >> /var/log/lcs-media-backup.log 2>&1
+
+# Daily backup at 2 AM
+0 2 * * * root /var/www/lcs-media/scripts/scheduled-backup.sh daily >> /var/log/lcs-media-backup.log 2>&1
+
+# Weekly backup on Sunday at 3 AM
+0 3 * * 0 root /var/www/lcs-media/scripts/scheduled-backup.sh weekly >> /var/log/lcs-media-backup.log 2>&1
+
+# Monthly backup on the 1st at 4 AM
+0 4 1 * * root /var/www/lcs-media/scripts/scheduled-backup.sh monthly >> /var/log/lcs-media-backup.log 2>&1
+
+# Health check every 15 minutes
+*/15 * * * * root /var/www/lcs-media/scripts/health-check.sh >> /var/log/lcs-media-health.log 2>&1
+
+# Clean up old log files weekly (keep last 30 days)
+0 5 * * 0 root find /var/log -name "lcs-media-*.log" -mtime +30 -delete
+
+# Clean up any stale backups older than 90 days in all backup directories
+0 6 * * 0 root find /var/www/lcs-media/backups -name "*.tar.gz" -mtime +90 -delete >> /var/log/lcs-media-backup.log 2>&1

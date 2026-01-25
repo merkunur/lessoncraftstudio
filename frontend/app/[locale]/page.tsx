@@ -10,6 +10,64 @@ import {
   HomepageCTA,
 } from '@/components/homepage';
 
+// Locale to language folder mapping (same as in SampleGallery)
+const localeToLanguage: Record<string, string> = {
+  en: 'english',
+  de: 'german',
+  fr: 'french',
+  es: 'spanish',
+  it: 'italian',
+  pt: 'portuguese',
+  nl: 'dutch',
+  da: 'danish',
+  sv: 'swedish',
+  no: 'norwegian',
+  fi: 'finnish',
+};
+
+// Types for homepage samples data
+interface HomepageSamplesData {
+  dynamicImages: Record<string, string>;
+  seoData: Record<string, { altText?: string; title?: string }>;
+}
+
+// Server-side function to fetch homepage dynamic images
+async function getHomepageSamplesData(locale: string): Promise<HomepageSamplesData> {
+  const result: HomepageSamplesData = { dynamicImages: {}, seoData: {} };
+
+  try {
+    // Use internal API call on server - absolute URL required for server-side fetch
+    const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.lessoncraftstudio.com';
+    const response = await fetch(`${baseUrl}/api/homepage-samples/list`, {
+      next: { revalidate: 3600 } // Match page revalidate (1 hour)
+    });
+    const data = await response.json();
+
+    if (data.success && data.matrix[locale]) {
+      const langData = data.matrix[locale];
+
+      // Build map of appId -> thumbnail URL
+      Object.entries(langData.apps).forEach(([appId, app]: [string, unknown]) => {
+        const appData = app as { hasThumbnail?: boolean; hasPreviewWebp?: boolean };
+        if (appData.hasThumbnail && appData.hasPreviewWebp) {
+          // Homepage thumbnails use hyphenated appId in filename
+          result.dynamicImages[appId] = `/samples/${langData.language}/homepage/${appId}-thumbnail_preview.webp`;
+        }
+      });
+
+      // Extract SEO data if available
+      if (langData.seo) {
+        result.seoData = langData.seo;
+      }
+    }
+  } catch (error) {
+    // Silent fallback to hardcoded images - no console spam in production
+    console.error('Failed to fetch homepage samples:', error);
+  }
+
+  return result;
+}
+
 // Localized SEO metadata with researched keywords for all 11 languages
 const homepageMetadata: Record<string, { title: string; description: string; keywords: string }> = {
   en: {
@@ -126,6 +184,9 @@ export default async function HomePage({ params }: { params: { locale: string } 
   // Generate JSON-LD schemas for SEO
   const schemas = generateHomepageSchemas(locale);
 
+  // Fetch dynamic homepage images server-side (baked into ISR HTML)
+  const { dynamicImages, seoData } = await getHomepageSamplesData(locale);
+
   return (
     <>
       {/* JSON-LD Structured Data */}
@@ -141,7 +202,7 @@ export default async function HomePage({ params }: { params: { locale: string } 
       <HomepageHero locale={locale} />
 
       {/* Free Sample Downloads - Dark background continues */}
-      <SampleGallery locale={locale} />
+      <SampleGallery locale={locale} dynamicImages={dynamicImages} seoData={seoData} />
 
       {/* App Categories - Light background transition */}
       <AppCategories locale={locale} />

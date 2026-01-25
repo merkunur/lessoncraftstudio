@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -776,6 +776,8 @@ const localePdfs: Record<string, Record<string, string>> = {
 
 interface SampleGalleryProps {
   locale: string;
+  dynamicImages?: Record<string, string>;  // Server-side fetched homepage thumbnails
+  seoData?: Record<string, { altText?: string; title?: string }>;  // Server-side fetched SEO metadata
 }
 
 // Localization content
@@ -1251,59 +1253,11 @@ const categoryColorsFi: Record<string, string> = {
   Logiikka: 'from-rose-500 to-red-500',
 };
 
-// Interface for dynamic homepage thumbnail data
-interface DynamicThumbnailData {
-  [appId: string]: string; // appId -> image URL
-}
-
-interface SeoMetadata {
-  [appId: string]: {
-    altText?: string;
-    title?: string;
-  };
-}
-
-export default function SampleGallery({ locale }: SampleGalleryProps) {
+export default function SampleGallery({ locale, dynamicImages = {}, seoData = {} }: SampleGalleryProps) {
   const [hoveredId, setHoveredId] = useState<string | null>(null);
   const [downloadingId, setDownloadingId] = useState<string | null>(null);
-  const [dynamicImages, setDynamicImages] = useState<DynamicThumbnailData>({});
-  const [seoData, setSeoData] = useState<SeoMetadata>({});
-
-  // Fetch homepage samples from content manager API
-  useEffect(() => {
-    const fetchHomepageSamples = async () => {
-      try {
-        const response = await fetch('/api/homepage-samples/list');
-        const data = await response.json();
-
-        if (data.success && data.matrix[locale]) {
-          const langData = data.matrix[locale];
-          const images: DynamicThumbnailData = {};
-
-          // Build map of appId -> thumbnail URL
-          // appId is hyphenated (e.g., 'alphabet-train')
-          Object.entries(langData.apps).forEach(([appId, app]) => {
-            const appData = app as { hasThumbnail?: boolean; hasPreviewWebp?: boolean };
-            if (appData.hasThumbnail && appData.hasPreviewWebp) {
-              // Homepage thumbnails use hyphenated appId in filename
-              images[appId] = `/samples/${langData.language}/homepage/${appId}-thumbnail_preview.webp`;
-            }
-          });
-
-          setDynamicImages(images);
-
-          // Extract SEO data if available from database
-          if (langData.seo) {
-            setSeoData(langData.seo);
-          }
-        }
-      } catch (error) {
-        // Silent fallback to hardcoded images - no console spam
-      }
-    };
-
-    fetchHomepageSamples();
-  }, [locale]);
+  // dynamicImages and seoData are now passed as props from server-side (page.tsx)
+  // This ensures the correct image paths are baked into ISR HTML immediately
 
   // Get content for current locale, fallback to English
   const content = localeContent[locale] || localeContent.en;

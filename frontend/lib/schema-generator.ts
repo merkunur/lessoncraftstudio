@@ -703,11 +703,14 @@ export interface SampleImageData {
   width?: number;
   height?: number;
   thumbnailSrc?: string;
+  grade?: string;          // Grade level for educational alignment
+  appType?: string;        // Type of worksheet app (math, language, etc.)
 }
 
 /**
  * Generate ImageObject Schema for sample images
  * Critical for Google Image Search visibility
+ * Enhanced with educational schema.org properties for better SERP positioning
  */
 export function generateImageObjectSchema(
   image: SampleImageData,
@@ -717,6 +720,23 @@ export function generateImageObjectSchema(
   // Encode URL properly for spaces
   const encodedSrc = image.src.replace(/ /g, '%20');
   const encodedThumb = image.thumbnailSrc?.replace(/ /g, '%20');
+
+  // Map grade string to educational level for schema
+  const gradeToEducationalLevel: Record<string, string> = {
+    'Pre-K': 'Preschool',
+    'Kindergarten': 'Kindergarten',
+    '1st Grade': 'Grade 1',
+    '2nd Grade': 'Grade 2',
+    '3rd Grade': 'Grade 3',
+    '4th Grade': 'Grade 4',
+    '5th Grade': 'Grade 5',
+    '6th Grade': 'Grade 6',
+    '7th Grade': 'Grade 7',
+    '8th Grade': 'Grade 8',
+    'All Ages': 'Elementary School',
+  };
+
+  const educationalLevel = image.grade ? gradeToEducationalLevel[image.grade] || 'Elementary School' : 'Elementary School';
 
   return {
     "@context": "https://schema.org",
@@ -741,6 +761,31 @@ export function generateImageObjectSchema(
     "associatedArticle": {
       "@type": "WebPage",
       "url": pageUrl
+    },
+    // Educational schema.org properties for better search visibility
+    "educationalUse": ["assignment", "homework", "practice", "classwork"],
+    "learningResourceType": "Worksheet",
+    "isAccessibleForFree": true,
+    "educationalAlignment": {
+      "@type": "AlignmentObject",
+      "alignmentType": "educationalLevel",
+      "educationalFramework": "US Grade Levels",
+      "targetName": educationalLevel
+    },
+    "accessibilityFeature": [
+      "highContrastDisplay",
+      "readingOrder",
+      "structuralNavigation",
+      "printPageNumbers"
+    ],
+    "accessMode": ["textual", "visual"],
+    "accessModeSufficient": [
+      { "@type": "ItemList", "itemListElement": ["textual", "visual"] }
+    ],
+    "typicalAgeRange": "5-12",
+    "audience": {
+      "@type": "EducationalAudience",
+      "educationalRole": ["teacher", "parent", "student"]
     }
   };
 }
@@ -748,6 +793,7 @@ export function generateImageObjectSchema(
 /**
  * Generate ImageGallery Schema for sample image collections
  * Helps Google understand the gallery structure and index all images
+ * Enhanced with educational properties for worksheet sample galleries
  */
 export function generateImageGallerySchema(
   images: SampleImageData[],
@@ -770,8 +816,20 @@ export function generateImageGallerySchema(
       "caption": img.caption,
       "width": img.width || 2480,
       "height": img.height || 3508,
+      "learningResourceType": "Worksheet",
+      "isAccessibleForFree": true
     })),
-    "creator": { "@type": "Organization", "name": "LessonCraftStudio" }
+    "creator": { "@type": "Organization", "name": "LessonCraftStudio" },
+    // Educational properties for the gallery
+    "about": {
+      "@type": "LearningResource",
+      "name": galleryName,
+      "learningResourceType": "Worksheet",
+      "educationalUse": ["assignment", "homework", "practice"],
+      "isAccessibleForFree": true
+    },
+    "license": `${baseUrl}/terms`,
+    "isAccessibleForFree": true
   };
 }
 

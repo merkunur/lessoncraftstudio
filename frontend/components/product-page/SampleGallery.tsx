@@ -79,6 +79,71 @@ const appIdToFolder: Record<string, string> = {
   'code-addition': 'code addition',
 };
 
+// App ID to human-readable display name for SEO
+const appIdToDisplayName: Record<string, string> = {
+  'addition': 'Addition',
+  'subtraction': 'Subtraction',
+  'math-worksheet': 'Math',
+  'pattern-worksheet': 'Pattern Recognition',
+  'wordsearch': 'Word Search',
+  'word-scramble': 'Word Scramble',
+  'word-guess': 'Word Guess',
+  'alphabet-train': 'Alphabet Train',
+  'prepositions': 'Prepositions',
+  'bingo': 'Bingo',
+  'coloring': 'Coloring',
+  'sudoku': 'Sudoku',
+  'treasure-hunt': 'Treasure Hunt',
+  'odd-one-out': 'Odd One Out',
+  'picture-path': 'Picture Path',
+  'pattern-train': 'Pattern Train',
+  'crossword': 'Crossword',
+  'cryptogram': 'Cryptogram',
+  'draw-and-color': 'Draw and Color',
+  'drawing-lines': 'Drawing Lines',
+  'find-and-count': 'Find and Count',
+  'find-objects': 'Find Objects',
+  'grid-match': 'Grid Match',
+  'matching': 'Matching',
+  'math-puzzle': 'Math Puzzle',
+  'missing-pieces': 'Missing Pieces',
+  'more-less': 'More or Less',
+  'picture-sort': 'Picture Sort',
+  'shadow-match': 'Shadow Match',
+  'writing': 'Writing',
+  'big-small': 'Big and Small',
+  'chart-count': 'Chart Count',
+  'code-addition': 'Code Addition',
+};
+
+// Locale to language display name for SEO
+const localeToLanguageName: Record<string, string> = {
+  en: 'English',
+  de: 'German',
+  fr: 'French',
+  es: 'Spanish',
+  it: 'Italian',
+  pt: 'Portuguese',
+  nl: 'Dutch',
+  da: 'Danish',
+  sv: 'Swedish',
+  no: 'Norwegian',
+  fi: 'Finnish',
+};
+
+/**
+ * Generate SEO-friendly default alt text when database/content SEO is not available
+ * Creates descriptive, keyword-rich alt text that helps with Google Image Search
+ */
+function generateDefaultAltText(appId: string, locale: string, index: number): string {
+  const appName = appIdToDisplayName[appId] || appId.replace(/-/g, ' ');
+  const languageName = localeToLanguageName[locale] || 'English';
+  const sampleNumber = index + 1;
+
+  // Create keyword-rich, descriptive alt text
+  return `Free printable ${appName.toLowerCase()} worksheet ${sampleNumber} - ${languageName} educational activity for elementary students`;
+}
+
 interface SampleGalleryProps {
   locale: string;
   samples?: Sample[];  // Optional for backward compatibility
@@ -185,8 +250,8 @@ function convertDynamicSamples(
     const filename = normalizeFilename(s.worksheetPath);
     const contentSeo = contentSeoMap.get(filename);
 
-    // Priority: API database SEO → Content file SEO → Generic fallback
-    const altText = s.altText || contentSeo?.altText || `Sample worksheet ${index + 1}`;
+    // Priority: API database SEO → Content file SEO → Context-aware SEO fallback
+    const altText = s.altText || contentSeo?.altText || generateDefaultAltText(appId, locale, index);
     const imageTitle = s.title || contentSeo?.imageTitle;
 
     return {

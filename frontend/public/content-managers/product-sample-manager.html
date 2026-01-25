@@ -600,6 +600,150 @@
             font-weight: 600;
         }
 
+        /* SEO Score Indicator */
+        .seo-score-indicator {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 15px;
+            background: var(--gray-100);
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        .seo-score-circle {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            font-weight: 700;
+            color: white;
+        }
+
+        .seo-score-circle.excellent {
+            background: linear-gradient(135deg, var(--success), #34D399);
+        }
+
+        .seo-score-circle.good {
+            background: linear-gradient(135deg, var(--warning), #FBBF24);
+        }
+
+        .seo-score-circle.poor {
+            background: linear-gradient(135deg, var(--danger), #F87171);
+        }
+
+        .seo-score-details {
+            flex: 1;
+        }
+
+        .seo-score-label {
+            font-weight: 600;
+            color: var(--gray-800);
+            margin-bottom: 4px;
+        }
+
+        .seo-score-feedback {
+            font-size: 12px;
+            color: var(--gray-600);
+        }
+
+        .seo-issues-list {
+            margin-top: 8px;
+        }
+
+        .seo-issue {
+            font-size: 11px;
+            color: var(--danger);
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            margin-bottom: 2px;
+        }
+
+        .seo-suggestion {
+            font-size: 11px;
+            color: var(--info);
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            margin-bottom: 2px;
+        }
+
+        /* Character Counter */
+        .char-counter {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 4px;
+        }
+
+        .char-count {
+            font-size: 11px;
+            color: var(--gray-500);
+        }
+
+        .char-count.optimal {
+            color: var(--success);
+        }
+
+        .char-count.warning {
+            color: var(--warning);
+        }
+
+        .char-count.error {
+            color: var(--danger);
+        }
+
+        .optimal-range {
+            font-size: 10px;
+            color: var(--gray-400);
+        }
+
+        /* Keyword Suggestions */
+        .keyword-suggestions {
+            margin-top: 10px;
+        }
+
+        .keyword-suggestion-label {
+            font-size: 12px;
+            color: var(--gray-600);
+            margin-bottom: 6px;
+        }
+
+        .keyword-chips {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+        }
+
+        .keyword-chip {
+            padding: 4px 10px;
+            background: var(--gray-100);
+            border: 1px solid var(--gray-200);
+            border-radius: 15px;
+            font-size: 11px;
+            color: var(--gray-700);
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .keyword-chip:hover {
+            background: var(--primary);
+            color: white;
+            border-color: var(--primary);
+        }
+
+        /* SEO Actions Row */
+        .seo-actions {
+            display: flex;
+            gap: 8px;
+            margin-top: 15px;
+            flex-wrap: wrap;
+        }
+
         /* Upload Zone */
         .upload-section {
             margin-bottom: 25px;
@@ -959,24 +1103,45 @@
 
                 <!-- SEO Metadata Section -->
                 <div class="seo-section">
-                    <h3>SEO Metadata <span class="seo-badge">OPTIONAL</span></h3>
+                    <h3>SEO Metadata <span class="seo-badge">IMPORTANT FOR RANKINGS</span></h3>
+
+                    <!-- SEO Score Indicator -->
+                    <div class="seo-score-indicator" id="seo-score-indicator">
+                        <div class="seo-score-circle poor" id="seo-score-circle">0</div>
+                        <div class="seo-score-details">
+                            <div class="seo-score-label" id="seo-score-label">SEO Score: Not calculated</div>
+                            <div class="seo-score-feedback" id="seo-score-feedback">Fill in SEO fields to improve visibility</div>
+                            <div class="seo-issues-list" id="seo-issues-list"></div>
+                        </div>
+                    </div>
 
                     <div class="form-group">
-                        <label for="seo-alt-text">Alt Text</label>
-                        <input type="text" id="seo-alt-text" placeholder="e.g., Free printable addition worksheet for grade 1">
-                        <div class="hint">Descriptive text for screen readers and SEO (recommended: 50-150 characters)</div>
+                        <label for="seo-alt-text">Alt Text <span style="color: var(--danger);">*</span></label>
+                        <input type="text" id="seo-alt-text" placeholder="e.g., Free printable addition worksheet for grade 1" oninput="updateAltTextCounter(); calculateLiveSeoScore()">
+                        <div class="char-counter">
+                            <span class="char-count" id="alt-text-counter">0 characters</span>
+                            <span class="optimal-range">Optimal: 50-150 characters</span>
+                        </div>
+                    </div>
+
+                    <!-- Keyword Suggestions -->
+                    <div class="keyword-suggestions" id="keyword-suggestions">
+                        <div class="keyword-suggestion-label">Suggested keywords (click to add):</div>
+                        <div class="keyword-chips" id="keyword-chips">
+                            <!-- Populated by JS -->
+                        </div>
                     </div>
 
                     <div class="form-group">
                         <label for="seo-title">Image Title</label>
-                        <input type="text" id="seo-title" placeholder="e.g., Addition Practice - Single Digit">
+                        <input type="text" id="seo-title" placeholder="e.g., Addition Practice - Single Digit" oninput="calculateLiveSeoScore()">
                         <div class="hint">Short title for the image (displayed in Google Images)</div>
                     </div>
 
                     <div class="form-row">
                         <div class="form-group">
                             <label for="seo-grade">Grade Level</label>
-                            <select id="seo-grade">
+                            <select id="seo-grade" onchange="calculateLiveSeoScore()">
                                 <option value="">Select grade...</option>
                                 <option value="Pre-K">Pre-K</option>
                                 <option value="Kindergarten">Kindergarten</option>
@@ -1000,11 +1165,15 @@
 
                     <div class="form-group">
                         <label for="seo-description">Description</label>
-                        <textarea id="seo-description" placeholder="e.g., This free printable worksheet helps students practice single-digit addition problems. Perfect for kindergarten and first grade math practice."></textarea>
+                        <textarea id="seo-description" placeholder="e.g., This free printable worksheet helps students practice single-digit addition problems. Perfect for kindergarten and first grade math practice." oninput="calculateLiveSeoScore()"></textarea>
                         <div class="hint">Longer description for search engines (1-2 sentences)</div>
                     </div>
 
-                    <button class="btn btn-secondary btn-sm" onclick="generateSeoFromApp()">Auto-Generate SEO</button>
+                    <div class="seo-actions">
+                        <button class="btn btn-primary btn-sm" onclick="generateSeoFromApp()">Auto-Generate SEO</button>
+                        <button class="btn btn-secondary btn-sm" onclick="generateAltTextOnly()">Generate Alt Text Only</button>
+                        <button class="btn btn-secondary btn-sm" onclick="clearSeoFields()">Clear All</button>
+                    </div>
                 </div>
 
                 <!-- Overwrite Warning -->
@@ -1062,6 +1231,43 @@
             'picture-path': 'Logic', 'pattern-train': 'Logic', 'grid-match': 'Logic',
             'matching': 'Logic', 'missing-pieces': 'Logic', 'picture-sort': 'Logic',
             'find-objects': 'Visual', 'shadow-match': 'Visual'
+        };
+
+        // App to SEO keywords mapping for suggestions
+        const appToKeywords = {
+            'addition': ['addition', 'math', 'worksheet', 'printable', 'elementary', 'practice'],
+            'subtraction': ['subtraction', 'math', 'worksheet', 'printable', 'elementary', 'practice'],
+            'math-worksheet': ['math', 'worksheet', 'printable', 'arithmetic', 'elementary'],
+            'pattern-worksheet': ['pattern', 'recognition', 'worksheet', 'sequence', 'printable'],
+            'wordsearch': ['word search', 'puzzle', 'vocabulary', 'printable', 'educational'],
+            'word-scramble': ['word scramble', 'unscramble', 'spelling', 'vocabulary', 'printable'],
+            'word-guess': ['word guess', 'vocabulary', 'spelling', 'language', 'printable'],
+            'alphabet-train': ['alphabet', 'letters', 'abc', 'printable', 'preschool'],
+            'prepositions': ['preposition', 'grammar', 'english', 'language', 'worksheet'],
+            'bingo': ['bingo', 'game', 'vocabulary', 'educational', 'printable'],
+            'coloring': ['coloring', 'color', 'art', 'creative', 'printable'],
+            'sudoku': ['sudoku', 'puzzle', 'logic', 'numbers', 'printable'],
+            'treasure-hunt': ['treasure hunt', 'activity', 'puzzle', 'educational', 'printable'],
+            'odd-one-out': ['odd one out', 'logic', 'different', 'comparison', 'printable'],
+            'picture-path': ['picture path', 'maze', 'visual', 'puzzle', 'printable'],
+            'pattern-train': ['pattern', 'train', 'sequence', 'recognition', 'printable'],
+            'crossword': ['crossword', 'puzzle', 'vocabulary', 'spelling', 'printable'],
+            'cryptogram': ['cryptogram', 'code', 'cipher', 'puzzle', 'printable'],
+            'draw-and-color': ['draw', 'color', 'art', 'creative', 'printable'],
+            'drawing-lines': ['drawing', 'lines', 'tracing', 'fine motor', 'printable'],
+            'find-and-count': ['find', 'count', 'counting', 'math', 'printable'],
+            'find-objects': ['find objects', 'visual', 'observation', 'hidden', 'printable'],
+            'grid-match': ['grid', 'match', 'logic', 'visual', 'printable'],
+            'matching': ['matching', 'pairs', 'memory', 'logic', 'printable'],
+            'math-puzzle': ['math puzzle', 'arithmetic', 'problem solving', 'printable'],
+            'missing-pieces': ['missing pieces', 'puzzle', 'visual', 'logic', 'printable'],
+            'more-less': ['more', 'less', 'comparison', 'math', 'printable'],
+            'picture-sort': ['picture sort', 'sorting', 'categorize', 'logic', 'printable'],
+            'shadow-match': ['shadow', 'match', 'visual', 'silhouette', 'printable'],
+            'writing': ['writing', 'handwriting', 'letters', 'practice', 'printable'],
+            'big-small': ['big', 'small', 'size', 'comparison', 'printable'],
+            'chart-count': ['chart', 'count', 'counting', 'graph', 'printable'],
+            'code-addition': ['code addition', 'math', 'puzzle', 'arithmetic', 'printable'],
         };
 
         // State
@@ -1390,6 +1596,11 @@
                 document.getElementById('seo-description').value = '';
             }
 
+            // Initialize SEO features
+            populateKeywordSuggestions();
+            updateAltTextCounter();
+            calculateLiveSeoScore();
+
             // Show current files status
             const fileListHtml = `
                 <span class="file-item ${sample.hasThumb ? 'exists' : 'missing'}">
@@ -1522,7 +1733,182 @@
             document.getElementById('seo-description').value =
                 `This free printable ${appName.toLowerCase()} worksheet is perfect for ${grade} students learning ${appToSubject[selectedApp.appId] || 'skills'}. Download and print for classroom or home use.`;
 
+            updateAltTextCounter();
+            calculateLiveSeoScore();
             showToast('SEO fields auto-generated', 'success');
+        }
+
+        function generateAltTextOnly() {
+            if (!selectedApp) return;
+
+            const appName = selectedApp.displayName.replace(' Worksheets', '').replace(' Pages', '');
+            const language = localeNames[currentLocale];
+            const grade = document.getElementById('seo-grade').value || 'elementary school';
+
+            document.getElementById('seo-alt-text').value =
+                `Free printable ${appName.toLowerCase()} worksheet for ${grade} students - ${language} educational activity`;
+
+            updateAltTextCounter();
+            calculateLiveSeoScore();
+            showToast('Alt text generated', 'success');
+        }
+
+        function clearSeoFields() {
+            document.getElementById('seo-alt-text').value = '';
+            document.getElementById('seo-title').value = '';
+            document.getElementById('seo-description').value = '';
+            document.getElementById('seo-grade').value = '';
+            updateAltTextCounter();
+            calculateLiveSeoScore();
+        }
+
+        function updateAltTextCounter() {
+            const altText = document.getElementById('seo-alt-text').value;
+            const counter = document.getElementById('alt-text-counter');
+            const length = altText.length;
+
+            counter.textContent = `${length} characters`;
+            counter.classList.remove('optimal', 'warning', 'error');
+
+            if (length === 0) {
+                counter.classList.add('error');
+            } else if (length >= 50 && length <= 150) {
+                counter.classList.add('optimal');
+            } else if (length < 50) {
+                counter.classList.add('warning');
+            } else {
+                counter.classList.add('error');
+            }
+        }
+
+        function calculateLiveSeoScore() {
+            if (!selectedApp) return;
+
+            const altText = document.getElementById('seo-alt-text').value.trim();
+            const title = document.getElementById('seo-title').value.trim();
+            const description = document.getElementById('seo-description').value.trim();
+            const grade = document.getElementById('seo-grade').value;
+
+            let score = 0;
+            const issues = [];
+            const suggestions = [];
+
+            // Get app keywords
+            const keywords = appToKeywords[selectedApp.appId] || [];
+
+            // Alt text present: +20
+            if (altText.length > 0) {
+                score += 20;
+
+                // Alt text 50-150 chars: +15
+                if (altText.length >= 50 && altText.length <= 150) {
+                    score += 15;
+                } else if (altText.length < 50) {
+                    issues.push('Alt text too short');
+                } else {
+                    issues.push('Alt text too long');
+                }
+
+                // Contains app keyword: +20
+                const altLower = altText.toLowerCase();
+                const hasKeyword = keywords.some(kw => altLower.includes(kw.toLowerCase()));
+                if (hasKeyword) {
+                    score += 20;
+                } else {
+                    issues.push('Missing app keyword in alt text');
+                    suggestions.push(`Add: ${keywords.slice(0, 2).join(', ')}`);
+                }
+            } else {
+                issues.push('Alt text is required');
+            }
+
+            // Title present: +15
+            if (title.length > 0) {
+                score += 15;
+            } else {
+                suggestions.push('Add image title');
+            }
+
+            // Description present: +15
+            if (description.length > 0) {
+                score += 15;
+            } else {
+                suggestions.push('Add description');
+            }
+
+            // Grade level set: +10
+            if (grade) {
+                score += 10;
+            } else {
+                suggestions.push('Set grade level');
+            }
+
+            // Keywords populated: +5 (automatic from app)
+            score += 5;
+
+            // Update UI
+            const scoreCircle = document.getElementById('seo-score-circle');
+            const scoreLabel = document.getElementById('seo-score-label');
+            const scoreFeedback = document.getElementById('seo-score-feedback');
+            const issuesList = document.getElementById('seo-issues-list');
+
+            scoreCircle.textContent = score;
+            scoreCircle.classList.remove('excellent', 'good', 'poor');
+
+            if (score >= 80) {
+                scoreCircle.classList.add('excellent');
+                scoreLabel.textContent = 'SEO Score: Excellent';
+                scoreFeedback.textContent = 'Great job! Your sample is well-optimized for search.';
+            } else if (score >= 50) {
+                scoreCircle.classList.add('good');
+                scoreLabel.textContent = 'SEO Score: Good';
+                scoreFeedback.textContent = 'SEO is acceptable but could be improved.';
+            } else {
+                scoreCircle.classList.add('poor');
+                scoreLabel.textContent = 'SEO Score: Needs Work';
+                scoreFeedback.textContent = 'Please improve SEO for better visibility.';
+            }
+
+            // Show issues and suggestions
+            let issuesHtml = '';
+            issues.forEach(issue => {
+                issuesHtml += `<div class="seo-issue">⚠ ${issue}</div>`;
+            });
+            suggestions.slice(0, 2).forEach(suggestion => {
+                issuesHtml += `<div class="seo-suggestion">💡 ${suggestion}</div>`;
+            });
+            issuesList.innerHTML = issuesHtml;
+        }
+
+        function populateKeywordSuggestions() {
+            if (!selectedApp) return;
+
+            const keywords = appToKeywords[selectedApp.appId] || ['worksheet', 'printable', 'educational'];
+            const chipsContainer = document.getElementById('keyword-chips');
+
+            chipsContainer.innerHTML = keywords.map(kw =>
+                `<span class="keyword-chip" onclick="addKeywordToAltText('${kw}')">${kw}</span>`
+            ).join('');
+        }
+
+        function addKeywordToAltText(keyword) {
+            const altTextInput = document.getElementById('seo-alt-text');
+            const currentText = altTextInput.value.trim();
+
+            if (currentText.toLowerCase().includes(keyword.toLowerCase())) {
+                showToast(`"${keyword}" already present`, 'warning');
+                return;
+            }
+
+            if (currentText) {
+                altTextInput.value = currentText + ' ' + keyword;
+            } else {
+                altTextInput.value = keyword;
+            }
+
+            updateAltTextCounter();
+            calculateLiveSeoScore();
+            showToast(`Added "${keyword}"`, 'success');
         }
 
         async function saveSeoOnly() {
@@ -1558,7 +1944,22 @@
                     // Update cache
                     const seoKey = `${selectedApp.appId}:${currentLocale}:${selectedSample.filename}`;
                     seoMetadata[seoKey] = result.sample;
-                    showToast('SEO metadata saved', 'success');
+
+                    // Show success with SEO score feedback
+                    const scoreMsg = result.seoScore >= 80
+                        ? `SEO saved (Score: ${result.seoScore}/100 - Excellent!)`
+                        : result.seoScore >= 50
+                        ? `SEO saved (Score: ${result.seoScore}/100 - Could be better)`
+                        : `SEO saved (Score: ${result.seoScore}/100 - Needs improvement)`;
+
+                    showToast(scoreMsg, result.seoScore >= 50 ? 'success' : 'warning');
+
+                    // Show any issues from the API
+                    if (result.seoIssues && result.seoIssues.length > 0) {
+                        setTimeout(() => {
+                            showToast('Tip: ' + result.seoSuggestions[0], 'info');
+                        }, 2000);
+                    }
                 } else {
                     showToast('Failed to save SEO: ' + result.error, 'error');
                 }

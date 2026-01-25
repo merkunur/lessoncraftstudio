@@ -84,6 +84,10 @@ frontend/public/homepage-content-manager.html
 # These are deployed manually from REFERENCE CONTENT MANAGERS folder
 frontend/public/admin/*.html
 
+# Content managers folder - DEPLOYED VERSIONS (NOT tracked by git)
+# These are deployed manually from REFERENCE CONTENT MANAGERS folder
+frontend/public/content-managers/*.html
+
 # Note: REFERENCE APPS/ and REFERENCE CONTENT MANAGERS/ folders ARE tracked by git (source of truth)
 
 # ============================================

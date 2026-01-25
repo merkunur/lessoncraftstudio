@@ -32,21 +32,30 @@ SAMPLE_COUNT=$(find /opt/lessoncraftstudio/samples -name "*.jpeg" 2>/dev/null | 
 WEBP_COUNT=$(find /opt/lessoncraftstudio/samples -name "*.webp" 2>/dev/null | wc -l)
 echo "   Found $SAMPLE_COUNT JPEG files, $WEBP_COUNT WebP files"
 
-if [ "$SAMPLE_COUNT" -lt 1000 ]; then
-    echo ""
-    echo "🚨🚨🚨 DEPLOYMENT ABORTED 🚨🚨🚨"
-    echo ""
-    echo "Sample count is $SAMPLE_COUNT (expected 3000+)"
-    echo "This indicates samples may have been deleted or corrupted."
-    echo ""
-    echo "RECOVERY OPTIONS:"
-    echo "1. Restore from backup: tar -xzf /opt/lessoncraftstudio/backups/samples_*.tar.gz -C /opt/lessoncraftstudio/"
-    echo "2. Re-upload samples from local machine"
-    echo ""
-    echo "Deployment aborted to protect sample images."
-    exit 1
+echo "   (Samples are managed via content manager - zero is valid)"
+echo "✅ Sample directory checked"
+echo ""
+
+# ============================================
+# DATABASE PROTECTION - PRE-DEPLOYMENT BACKUP
+# ============================================
+echo "🗄️  Checking database and creating backup..."
+mkdir -p /opt/lessoncraftstudio/backups
+
+# Get pre-deployment database counts
+PRE_DB_PRODUCT_SAMPLES=$(PGPASSWORD=LcS2025SecureDBPass psql -U lcs_user -d lessoncraftstudio_prod -t -c "SELECT COUNT(*) FROM product_samples;" 2>/dev/null | tr -d ' ' || echo "0")
+PRE_DB_SAMPLE_WORKSHEETS=$(PGPASSWORD=LcS2025SecureDBPass psql -U lcs_user -d lessoncraftstudio_prod -t -c "SELECT COUNT(*) FROM sample_worksheets;" 2>/dev/null | tr -d ' ' || echo "0")
+
+echo "   Pre-deployment database: $PRE_DB_PRODUCT_SAMPLES product samples, $PRE_DB_SAMPLE_WORKSHEETS sample worksheets"
+
+# Create database backup before deployment
+BACKUP_FILE="/opt/lessoncraftstudio/backups/pre-deploy-$(date +%Y%m%d-%H%M%S).sql.gz"
+PGPASSWORD=LcS2025SecureDBPass pg_dump -U lcs_user lessoncraftstudio_prod 2>/dev/null | gzip > "$BACKUP_FILE"
+if [ -f "$BACKUP_FILE" ] && [ -s "$BACKUP_FILE" ]; then
+    echo "   Database backup created: $BACKUP_FILE"
+else
+    echo "   ⚠️  Database backup may have failed (continuing deployment)"
 fi
-echo "✅ Sample integrity verified"
 echo ""
 
 # Navigate to project root
@@ -142,9 +151,35 @@ else
     echo "⚠️  Sample HTTP test returned: $SAMPLE_TEST (may be OK if testing via nginx)"
 fi
 
+# ============================================
+# DATABASE PROTECTION - POST-DEPLOYMENT CHECK
+# ============================================
+echo ""
+echo "🗄️  Verifying database after deployment..."
+POST_DB_PRODUCT_SAMPLES=$(PGPASSWORD=LcS2025SecureDBPass psql -U lcs_user -d lessoncraftstudio_prod -t -c "SELECT COUNT(*) FROM product_samples;" 2>/dev/null | tr -d ' ' || echo "0")
+POST_DB_SAMPLE_WORKSHEETS=$(PGPASSWORD=LcS2025SecureDBPass psql -U lcs_user -d lessoncraftstudio_prod -t -c "SELECT COUNT(*) FROM sample_worksheets;" 2>/dev/null | tr -d ' ' || echo "0")
+
+echo "   Post-deployment database: $POST_DB_PRODUCT_SAMPLES product samples, $POST_DB_SAMPLE_WORKSHEETS sample worksheets"
+
+if [ "$POST_DB_PRODUCT_SAMPLES" -lt "$PRE_DB_PRODUCT_SAMPLES" ] 2>/dev/null; then
+    echo "   ⚠️  WARNING: Product sample count dropped from $PRE_DB_PRODUCT_SAMPLES to $POST_DB_PRODUCT_SAMPLES"
+else
+    echo "✅ Database integrity maintained"
+fi
+
+# ============================================
+# SITEMAP REVALIDATION
+# ============================================
+echo ""
+echo "🗺️  Revalidating sitemap..."
+sleep 3  # Wait for PM2 to fully start
+SITEMAP_RESULT=$(curl -s -X POST http://localhost:3000/api/revalidate-sitemap 2>/dev/null || echo '{"status":"error"}')
+echo "   Sitemap revalidation: $SITEMAP_RESULT"
+
 echo ""
 echo "✅ Deployment complete!"
 echo ""
 echo "🌐 Website should now be accessible with all CSS/JavaScript working!"
 echo "📸 Sample images: $POST_SAMPLE_COUNT JPEG + $POST_WEBP_COUNT WebP files protected"
+echo "🗄️  Database: $POST_DB_PRODUCT_SAMPLES product samples, $POST_DB_SAMPLE_WORKSHEETS sample worksheets"
 echo ""

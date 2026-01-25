@@ -1325,11 +1325,23 @@ export default function SampleGallery({ locale, dynamicImages = {}, seoData = {}
     return sample.imageSrc;
   };
 
-  // Get PDF for the sample - use locale-specific paths for non-English
+  // Get PDF for the sample - prioritize dynamic homepage PDFs from content manager
   const getSamplePdf = (sample: Sample) => {
+    const appSlug = getAppSlug(sample.productPageSlug);
+
+    // Priority 1: If thumbnail uploaded, use matching homepage PDF
+    // PDFs are uploaded alongside thumbnails at: /samples/{language}/homepage/{appSlug}-sample.pdf
+    if (dynamicImages[appSlug]) {
+      const language = localeToLanguage[locale] || 'english';
+      return `/samples/${language}/homepage/${appSlug}-sample.pdf`;
+    }
+
+    // Priority 2: Locale-specific hardcoded path (legacy fallback)
     if (locale !== 'en' && localePdfs[locale]?.[sample.id]) {
       return localePdfs[locale][sample.id];
     }
+
+    // Priority 3: Default English path from sample.pdfUrl
     return sample.pdfUrl;
   };
 

@@ -272,6 +272,15 @@ const SAMPLES_BASE = process.env.NODE_ENV === 'production'
 
 // Map appId from slug to folder name in /samples/
 const appIdToSamplesFolder: Record<string, string> = {
+  // Variant appIds found in content files (fixes 47 broken product pages)
+  'wordsearch': 'wordsearch',              // ALL 11 languages use this
+  'bingo': 'bingo',                        // ALL 11 languages use this
+  'math-worksheet': 'math worksheet',      // ALL 11 languages use this
+  'pattern-worksheet': 'pattern worksheet', // ALL 11 languages use this
+  'big-small-app': 'big small',            // English uses this variant
+  'image-crossword': 'crossword',          // English + French use this variant
+
+  // Standard appIds
   'word-search': 'wordsearch',
   'addition': 'addition',
   'alphabet-train': 'alphabet train',

@@ -5,7 +5,8 @@
   "scripts": {
     "sync": "node scripts/sync-directus-simple.js",
     "dev": "npm run sync && next dev",
-    "build": "npm run sync && next build",
+    "build": "npm run sync && next build && npm run postbuild",
+    "postbuild": "cp -r .next/static .next/standalone/.next/static && cp -r public .next/standalone/public && echo STATIC_FILES_COPIED",
     "start": "node .next/standalone/server.js",
     "lint": "eslint",
     "test:e2e": "playwright test",

@@ -1488,6 +1488,7 @@ export default function SampleGallery({ locale, dynamicImages = {}, seoData = {}
                     fill
                     className="object-cover transition-transform duration-500 group-hover:scale-105"
                     sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 20vw"
+                    unoptimized={getSampleImage(sample).startsWith('/samples/')}
                   />
 
                   {/* Hover overlay */}

@@ -1,9 +1,15 @@
 import { productPageSlugs } from '@/config/product-page-slugs';
-import { contentRegistry } from '@/config/product-page-content';
 import { prisma } from '@/lib/prisma';
+import fs from 'fs/promises';
+import path from 'path';
 
 export const revalidate = 1800; // 30 minutes ISR
 export const dynamic = 'force-dynamic';
+
+// Base path for samples (filesystem scanning)
+const SAMPLES_BASE = process.env.NODE_ENV === 'production'
+  ? '/opt/lessoncraftstudio/samples'
+  : path.join(process.cwd(), 'public', 'samples');
 
 // Type for SEO metadata from database
 interface SampleSeoMeta {
@@ -13,41 +19,93 @@ interface SampleSeoMeta {
   updatedAt?: Date | null;
 }
 
+// Locale to language folder mapping (for filesystem paths)
+const localeToFolder: Record<string, string> = {
+  en: 'english',
+  de: 'german',
+  fr: 'french',
+  es: 'spanish',
+  it: 'italian',
+  pt: 'portuguese',
+  nl: 'dutch',
+  da: 'danish',
+  sv: 'swedish',
+  no: 'norwegian',
+  fi: 'finnish',
+};
+
+// Map productPageSlugs appId → folder name in /samples/
+const appIdToFolderName: Record<string, string> = {
+  'word-search': 'wordsearch',
+  'image-addition': 'addition',
+  'alphabet-train': 'alphabet train',
+  'coloring': 'coloring',
+  'math-worksheet': 'math worksheet',
+  'word-scramble': 'word scramble',
+  'find-and-count': 'find and count',
+  'matching-app': 'matching',
+  'drawing-lines': 'drawing lines',
+  'picture-bingo': 'bingo',
+  'sudoku': 'sudoku',
+  'big-small-app': 'big small',
+  'chart-count-color': 'chart count',
+  'code-addition': 'code addition',
+  'draw-and-color': 'draw and color',
+  'find-objects': 'find objects',
+  'grid-match': 'grid match',
+  'image-crossword': 'crossword',
+  'image-cryptogram': 'cryptogram',
+  'math-puzzle': 'math puzzle',
+  'missing-pieces': 'missing pieces',
+  'more-less': 'more less',
+  'odd-one-out': 'odd one out',
+  'pattern-train': 'pattern train',
+  'pattern-worksheet': 'pattern worksheet',
+  'picture-path': 'picture path',
+  'picture-sort': 'picture sort',
+  'prepositions': 'prepositions',
+  'shadow-match': 'shadow match',
+  'subtraction': 'subtraction',
+  'treasure-hunt': 'treasure hunt',
+  'word-guess': 'word guess',
+  'writing-app': 'writing',
+};
+
 // App ID to display name mapping for improved fallbacks
 const appIdToDisplayName: Record<string, string> = {
-  'addition': 'Addition',
-  'subtraction': 'Subtraction',
-  'math-worksheet': 'Math',
-  'pattern-worksheet': 'Pattern Recognition',
-  'wordsearch': 'Word Search',
-  'word-scramble': 'Word Scramble',
-  'word-guess': 'Word Guess',
+  'word-search': 'Word Search',
+  'image-addition': 'Addition',
   'alphabet-train': 'Alphabet Train',
-  'prepositions': 'Prepositions',
-  'bingo': 'Bingo',
   'coloring': 'Coloring',
-  'sudoku': 'Sudoku',
-  'treasure-hunt': 'Treasure Hunt',
-  'odd-one-out': 'Odd One Out',
-  'picture-path': 'Picture Path',
-  'pattern-train': 'Pattern Train',
-  'crossword': 'Crossword',
-  'cryptogram': 'Cryptogram',
-  'draw-and-color': 'Draw and Color',
-  'drawing-lines': 'Drawing Lines',
+  'math-worksheet': 'Math',
+  'word-scramble': 'Word Scramble',
   'find-and-count': 'Find and Count',
+  'matching-app': 'Matching',
+  'drawing-lines': 'Drawing Lines',
+  'picture-bingo': 'Bingo',
+  'sudoku': 'Sudoku',
+  'big-small-app': 'Big and Small',
+  'chart-count-color': 'Chart Count',
+  'code-addition': 'Code Addition',
+  'draw-and-color': 'Draw and Color',
   'find-objects': 'Find Objects',
   'grid-match': 'Grid Match',
-  'matching': 'Matching',
+  'image-crossword': 'Crossword',
+  'image-cryptogram': 'Cryptogram',
   'math-puzzle': 'Math Puzzle',
   'missing-pieces': 'Missing Pieces',
   'more-less': 'More or Less',
+  'odd-one-out': 'Odd One Out',
+  'pattern-train': 'Pattern Train',
+  'pattern-worksheet': 'Pattern Recognition',
+  'picture-path': 'Picture Path',
   'picture-sort': 'Picture Sort',
+  'prepositions': 'Prepositions',
   'shadow-match': 'Shadow Match',
-  'writing': 'Writing',
-  'big-small': 'Big and Small',
-  'chart-count': 'Chart Count',
-  'code-addition': 'Code Addition',
+  'subtraction': 'Subtraction',
+  'treasure-hunt': 'Treasure Hunt',
+  'word-guess': 'Word Guess',
+  'writing-app': 'Writing',
 };
 
 // Locale to language name mapping
@@ -81,6 +139,135 @@ function generateDefaultCaption(appId: string, locale: string, index: number): s
   const appName = appIdToDisplayName[appId] || appId.replace(/-/g, ' ');
   const languageName = localeToLanguageName[locale] || 'English';
   return `Free printable ${appName.toLowerCase()} worksheet ${index + 1} for elementary students - ${languageName} educational resource`;
+}
+
+// Interface for discovered sample
+interface DiscoveredSample {
+  filename: string;
+  worksheetPath: string;
+  answerKeyPath?: string;
+}
+
+/**
+ * Check if a filename is an answer key (case-insensitive).
+ */
+function isAnswerKey(filename: string): boolean {
+  return /answer/i.test(filename);
+}
+
+/**
+ * Get the base name of a file without extension.
+ */
+function getBaseName(filename: string): string {
+  const lastDot = filename.lastIndexOf('.');
+  return lastDot === -1 ? filename : filename.substring(0, lastDot);
+}
+
+/**
+ * Try to find a matching answer key for a given worksheet filename.
+ */
+function findAnswerKey(worksheetFilename: string, answerKeyFiles: string[]): string | undefined {
+  const wsBase = getBaseName(worksheetFilename);
+
+  // Strategy 1: sample-N → sample-N-answer
+  const sampleMatch = wsBase.match(/^sample-(\d+)$/);
+  if (sampleMatch) {
+    const num = sampleMatch[1];
+    const exact = answerKeyFiles.find(f =>
+      getBaseName(f).toLowerCase() === `sample-${num}-answer`
+    );
+    if (exact) return exact;
+  }
+
+  // Strategy 2: direct name variations
+  const wsBaseLower = wsBase.toLowerCase();
+  const variations = [
+    `${wsBaseLower} answer key`,
+    `${wsBaseLower}_answer_key`,
+    `${wsBaseLower}-answer`,
+    `${wsBaseLower}_answer`,
+    wsBaseLower.replace('worksheet', 'answer_key'),
+    wsBaseLower.replace('worksheet', 'answer key'),
+  ];
+
+  for (const variation of variations) {
+    const match = answerKeyFiles.find(f =>
+      getBaseName(f).toLowerCase() === variation
+    );
+    if (match) return match;
+  }
+
+  // Strategy 3: fuzzy word matching
+  const wsWords = wsBaseLower
+    .replace(/[_\-]/g, ' ')
+    .split(/\s+/)
+    .filter(w => w.length > 2 && !['the', 'and', 'for', 'with'].includes(w));
+
+  if (wsWords.length > 0) {
+    let bestMatch: string | undefined;
+    let bestScore = 0;
+
+    for (const akFile of answerKeyFiles) {
+      const akBase = getBaseName(akFile).toLowerCase().replace(/[_\-]/g, ' ');
+      const akWords = akBase.split(/\s+/).filter(w => w.length > 2);
+
+      let score = 0;
+      for (const word of wsWords) {
+        if (akWords.includes(word)) score++;
+      }
+
+      if (score > bestScore && score >= Math.ceil(wsWords.length / 2)) {
+        bestScore = score;
+        bestMatch = akFile;
+      }
+    }
+
+    if (bestMatch) return bestMatch;
+  }
+
+  return undefined;
+}
+
+/**
+ * Scan an app directory and discover all sample files.
+ * Returns an array of DiscoveredSample sorted alphabetically.
+ */
+async function scanAppDirectory(language: string, folderName: string): Promise<DiscoveredSample[]> {
+  const dir = path.join(SAMPLES_BASE, language, folderName);
+
+  let files: string[];
+  try {
+    files = await fs.readdir(dir);
+  } catch {
+    // Directory doesn't exist
+    return [];
+  }
+
+  // Get all JPEG files
+  const jpegFiles = files.filter(f => /\.(jpeg|jpg)$/i.test(f));
+
+  // Separate worksheets from answer keys
+  const worksheetFiles = jpegFiles.filter(f => !isAnswerKey(f));
+  const answerKeyFiles = jpegFiles.filter(f => isAnswerKey(f));
+
+  // Sort worksheets alphabetically for consistent ordering
+  worksheetFiles.sort((a, b) => a.localeCompare(b, undefined, { numeric: true }));
+
+  const basePath = `/samples/${language}/${folderName}`;
+
+  const samples: DiscoveredSample[] = [];
+
+  for (const wsFile of worksheetFiles) {
+    const answerFile = findAnswerKey(wsFile, answerKeyFiles);
+
+    samples.push({
+      filename: wsFile,
+      worksheetPath: `${basePath}/${wsFile}`,
+      answerKeyPath: answerFile ? `${basePath}/${answerFile}` : undefined,
+    });
+  }
+
+  return samples;
 }
 
 function escapeXml(str: string): string {
@@ -129,35 +316,42 @@ export async function GET() {
 
   let urls = '';
 
+  // Process all apps and locales
   for (const app of productPageSlugs) {
+    const folderName = appIdToFolderName[app.appId];
+    if (!folderName) {
+      console.warn(`[IMAGE-SITEMAP] No folder mapping for appId: ${app.appId}`);
+      continue;
+    }
+
     for (const [locale, slug] of Object.entries(app.slugs)) {
       if (!slug) continue;
 
+      const language = localeToFolder[locale];
+      if (!language) continue;
+
       const pageUrl = `${baseUrl}/${locale}/apps/${slug}`;
 
-      // Look up content from the registry for real filenames + metadata
-      const content = contentRegistry[locale]?.[slug];
-      const sampleItems = content?.samples?.items;
+      // Scan filesystem to discover actual sample files
+      const samples = await scanAppDirectory(language, folderName);
 
-      if (sampleItems && sampleItems.length > 0) {
-        // Generate image entries from actual content data
-        const imageXml = sampleItems
-          .map((item: any, index: number) => {
+      if (samples.length > 0) {
+        // Generate image entries from discovered files
+        const imageXml = samples
+          .map((sample, index) => {
             const lines: string[] = [];
 
             // Worksheet image
-            if (item.worksheetSrc) {
-              const wsUrl = `${baseUrl}${item.worksheetSrc.replace(/ /g, '%20')}`;
+            if (sample.worksheetPath) {
+              const wsUrl = `${baseUrl}${sample.worksheetPath.replace(/ /g, '%20')}`;
 
               // Try to get SEO metadata from database first
-              // Extract filename from worksheetSrc (e.g., /samples/english/addition/sample-1.jpeg -> sample-1.jpeg)
-              const wsFilename = item.worksheetSrc.split('/').pop() || '';
-              const seoKey = `${app.appId}:${locale}:${wsFilename}`;
+              const seoKey = `${app.appId}:${locale}:${sample.filename}`;
               const seoMeta = seoMetaMap.get(seoKey);
 
-              // Use database metadata if available, then content registry, then context-aware fallback
-              const wsTitle = seoMeta?.title || item.imageTitle || item.altText?.split(' - ')[0] || generateDefaultTitle(app.appId, locale, index);
-              const wsCaption = seoMeta?.description || seoMeta?.altText || item.altText || generateDefaultCaption(app.appId, locale, index);
+              // Use database metadata if available, otherwise generate defaults
+              const wsTitle = seoMeta?.title || generateDefaultTitle(app.appId, locale, index);
+              const wsCaption = seoMeta?.description || seoMeta?.altText || generateDefaultCaption(app.appId, locale, index);
 
               lines.push(`    <image:image>`);
               lines.push(`      <image:loc>${escapeXml(wsUrl)}</image:loc>`);
@@ -168,23 +362,20 @@ export async function GET() {
             }
 
             // Answer key image
-            if (item.answerKeySrc && item.answerKeySrc !== item.worksheetSrc) {
-              const akUrl = `${baseUrl}${item.answerKeySrc.replace(/ /g, '%20')}`;
+            if (sample.answerKeyPath) {
+              const akUrl = `${baseUrl}${sample.answerKeyPath.replace(/ /g, '%20')}`;
 
-              // Extract filename for answer key
-              const akFilename = item.answerKeySrc.split('/').pop() || '';
+              // Extract answer key filename for SEO lookup
+              const akFilename = sample.answerKeyPath.split('/').pop() || '';
               const akSeoKey = `${app.appId}:${locale}:${akFilename}`;
               const akSeoMeta = seoMetaMap.get(akSeoKey);
 
               const appName = appIdToDisplayName[app.appId] || app.appId.replace(/-/g, ' ');
               const akTitle = akSeoMeta?.title
                 ? `${akSeoMeta.title} - Answer Key`
-                : item.imageTitle
-                ? `${item.imageTitle} - Answer Key`
                 : `${appName} Worksheet ${index + 1} - Answer Key`;
-              const akCaption = akSeoMeta?.description || akSeoMeta?.altText || (item.altText
-                ? `Answer key for ${item.altText.split(' - ')[0] || 'worksheet'}`
-                : `Answer key for ${appName.toLowerCase()} worksheet ${index + 1}`);
+              const akCaption = akSeoMeta?.description || akSeoMeta?.altText
+                || `Answer key for ${appName.toLowerCase()} worksheet ${index + 1}`;
 
               lines.push(`    <image:image>`);
               lines.push(`      <image:loc>${escapeXml(akUrl)}</image:loc>`);
@@ -203,7 +394,6 @@ export async function GET() {
           urls += `  <url>\n    <loc>${escapeXml(pageUrl)}</loc>\n${imageXml}\n  </url>\n`;
         }
       }
-      // No fallback: skip pages without content registry entries to avoid broken URLs
     }
   }
 

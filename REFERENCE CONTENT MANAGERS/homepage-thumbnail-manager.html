@@ -599,6 +599,62 @@
             box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.1);
         }
 
+        .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+        }
+
+        /* SEO Section */
+        .seo-section {
+            background: var(--gray-50);
+            border-radius: 12px;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        .seo-section h3 {
+            font-size: 16px;
+            color: var(--gray-800);
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .seo-badge {
+            background: var(--info);
+            color: white;
+            font-size: 10px;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-weight: 600;
+        }
+
+        .hint {
+            font-size: 12px;
+            color: var(--gray-500);
+            margin-top: 4px;
+        }
+
+        .btn-info {
+            background: var(--info);
+            color: white;
+        }
+
+        .btn-info:hover {
+            background: #2563EB;
+        }
+
+        .btn-success {
+            background: var(--success);
+            color: white;
+        }
+
+        .btn-success:hover {
+            background: #059669;
+        }
+
         /* Checkbox */
         .checkbox-group {
             display: flex;
@@ -779,6 +835,45 @@
                 <input type="file" class="hidden-input" id="pdf-input" accept="application/pdf" onchange="handlePdfSelect(this)">
                 <div class="upload-preview" id="pdf-preview"></div>
 
+                <!-- SEO Metadata Section -->
+                <div class="seo-section">
+                    <h3>SEO Metadata <span class="seo-badge">OPTIONAL</span></h3>
+                    <div class="form-group">
+                        <label for="seo-alt-text">Alt Text</label>
+                        <input type="text" id="seo-alt-text" class="form-control" placeholder="e.g., Free printable addition worksheet for kindergarten">
+                        <div class="hint">Descriptive text for screen readers and SEO (recommended: 50-150 characters)</div>
+                    </div>
+                    <div class="form-group">
+                        <label for="seo-title">Image Title</label>
+                        <input type="text" id="seo-title" class="form-control" placeholder="e.g., Addition Practice Worksheet">
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="seo-grade">Grade Level</label>
+                            <select id="seo-grade" class="form-control">
+                                <option value="">Select grade...</option>
+                                <option value="Pre-K">Pre-K</option>
+                                <option value="Kindergarten">Kindergarten</option>
+                                <option value="1st Grade">1st Grade</option>
+                                <option value="2nd Grade">2nd Grade</option>
+                                <option value="3rd Grade">3rd Grade</option>
+                                <option value="4th Grade">4th Grade</option>
+                                <option value="5th Grade">5th Grade</option>
+                                <option value="All Ages">All Ages</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="seo-subject">Subject (Auto)</label>
+                            <input type="text" id="seo-subject" class="form-control" readonly placeholder="Auto-populated from app">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="seo-description">Description</label>
+                        <textarea id="seo-description" class="form-control" rows="2" placeholder="e.g., A fun worksheet to practice basic addition skills..."></textarea>
+                    </div>
+                    <button class="btn btn-secondary" style="font-size: 12px; padding: 6px 12px;" onclick="generateSeoFromApp()">Auto-Generate SEO</button>
+                </div>
+
                 <!-- Overwrite Warning -->
                 <div class="checkbox-group" id="overwrite-warning" style="display: none;">
                     <input type="checkbox" id="overwrite-confirm">
@@ -787,6 +882,7 @@
             </div>
             <div class="modal-footer">
                 <button class="btn btn-secondary" onclick="closeModal()">Cancel</button>
+                <button class="btn btn-info" id="save-seo-btn" onclick="saveSeoOnly()">Save SEO Only</button>
                 <button class="btn btn-primary" id="upload-btn" onclick="uploadFiles()">
                     <span id="upload-btn-text">Upload</span>
                     <span id="upload-spinner" class="spinner" style="display: none;"></span>
@@ -819,6 +915,44 @@
         let selectedApp = null;
         let thumbnailFile = null;
         let pdfFile = null;
+        let seoMetadata = {};  // Cache for SEO metadata
+
+        // App to Subject mapping
+        const appToSubject = {
+            'addition': 'Math',
+            'subtraction': 'Math',
+            'math-worksheet': 'Math',
+            'math-puzzle': 'Math',
+            'code-addition': 'Math',
+            'chart-count': 'Math',
+            'more-less': 'Math',
+            'sudoku': 'Math',
+            'alphabet-train': 'Reading',
+            'crossword': 'Reading',
+            'word-scramble': 'Reading',
+            'wordsearch': 'Reading',
+            'word-guess': 'Reading',
+            'cryptogram': 'Reading',
+            'writing': 'Writing',
+            'drawing-lines': 'Fine Motor',
+            'coloring': 'Art',
+            'draw-and-color': 'Art',
+            'matching': 'Logic',
+            'shadow-match': 'Logic',
+            'grid-match': 'Logic',
+            'odd-one-out': 'Logic',
+            'pattern-train': 'Logic',
+            'pattern-worksheet': 'Logic',
+            'missing-pieces': 'Logic',
+            'picture-path': 'Logic',
+            'picture-sort': 'Logic',
+            'bingo': 'Games',
+            'treasure-hunt': 'Games',
+            'big-small': 'Concepts',
+            'prepositions': 'Language',
+            'find-and-count': 'Math',
+            'find-objects': 'Visual'
+        };
 
         // Initialize
         document.addEventListener('DOMContentLoaded', () => {
@@ -826,6 +960,7 @@
             initFilterTabs();
             initDragDrop();
             refreshData();
+            loadSeoMetadata();
         });
 
         function initLanguageTabs() {
@@ -1018,6 +1153,24 @@
             document.getElementById('overwrite-warning').style.display = hasExisting ? 'flex' : 'none';
             document.getElementById('overwrite-confirm').checked = false;
 
+            // Populate subject from app
+            document.getElementById('seo-subject').value = appToSubject[app.appId] || 'General';
+
+            // Load existing SEO metadata
+            const seoKey = `${app.appId}:${currentLocale}:${app.appId}-thumbnail.jpeg`;
+            const existingSeo = seoMetadata[seoKey];
+            if (existingSeo) {
+                document.getElementById('seo-alt-text').value = existingSeo.altText || '';
+                document.getElementById('seo-title').value = existingSeo.title || '';
+                document.getElementById('seo-grade').value = existingSeo.grade || '';
+                document.getElementById('seo-description').value = existingSeo.description || '';
+            } else {
+                document.getElementById('seo-alt-text').value = '';
+                document.getElementById('seo-title').value = '';
+                document.getElementById('seo-grade').value = '';
+                document.getElementById('seo-description').value = '';
+            }
+
             document.getElementById('upload-modal').classList.add('active');
         }
 
@@ -1146,6 +1299,38 @@
                         showToast('PDF uploaded successfully', 'success');
                     } else {
                         showToast('PDF upload failed: ' + result.error, 'error');
+                    }
+                }
+
+                // Also save SEO metadata if provided
+                const altText = document.getElementById('seo-alt-text').value.trim();
+                const title = document.getElementById('seo-title').value.trim();
+                const grade = document.getElementById('seo-grade').value;
+                const description = document.getElementById('seo-description').value.trim();
+
+                if (altText || title || description) {
+                    try {
+                        const seoResponse = await fetch('/api/sample-meta', {
+                            method: 'POST',
+                            headers: { 'Content-Type': 'application/json' },
+                            body: JSON.stringify({
+                                appId: selectedApp.appId,
+                                locale: currentLocale,
+                                filename: `${selectedApp.appId}-thumbnail.jpeg`,
+                                altText: altText || null,
+                                title: title || null,
+                                grade: grade || null,
+                                description: description || null
+                            })
+                        });
+
+                        const seoResult = await seoResponse.json();
+                        if (seoResult.success) {
+                            const seoKey = `${selectedApp.appId}:${currentLocale}:${selectedApp.appId}-thumbnail.jpeg`;
+                            seoMetadata[seoKey] = seoResult.sample;
+                        }
+                    } catch (seoError) {
+                        console.warn('Could not save SEO metadata:', seoError);
                     }
                 }
 
@@ -1318,6 +1503,80 @@
                 }
             } catch (error) {
                 showToast(`Upload error: ${error.message}`, 'error');
+            }
+        }
+
+        // SEO Functions
+        async function loadSeoMetadata() {
+            try {
+                const response = await fetch('/api/sample-meta');
+                if (response.ok) {
+                    const data = await response.json();
+                    data.samples.forEach(s => {
+                        const key = `${s.appId}:${s.locale}:${s.filename}`;
+                        seoMetadata[key] = s;
+                    });
+                }
+            } catch (error) {
+                console.warn('Could not load SEO metadata:', error);
+            }
+        }
+
+        function generateSeoFromApp() {
+            if (!selectedApp) return;
+
+            const appName = selectedApp.displayName;
+            const langName = localeNames[currentLocale];
+            const grade = document.getElementById('seo-grade').value || 'elementary school';
+
+            document.getElementById('seo-alt-text').value =
+                `Free printable ${appName.toLowerCase()} worksheet for ${grade} students`;
+            document.getElementById('seo-title').value =
+                `${appName} Practice Worksheet - ${langName}`;
+            document.getElementById('seo-description').value =
+                `Download this free printable ${appName.toLowerCase()} worksheet. Perfect for ${grade} students to practice essential skills at home or in the classroom.`;
+
+            showToast('SEO fields auto-generated', 'success');
+        }
+
+        async function saveSeoOnly() {
+            if (!selectedApp) return;
+
+            const altText = document.getElementById('seo-alt-text').value.trim();
+            const title = document.getElementById('seo-title').value.trim();
+            const grade = document.getElementById('seo-grade').value;
+            const description = document.getElementById('seo-description').value.trim();
+
+            if (!altText && !title && !description) {
+                showToast('Please fill in at least one SEO field', 'warning');
+                return;
+            }
+
+            try {
+                const response = await fetch('/api/sample-meta', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        appId: selectedApp.appId,
+                        locale: currentLocale,
+                        filename: `${selectedApp.appId}-thumbnail.jpeg`,
+                        altText: altText || null,
+                        title: title || null,
+                        grade: grade || null,
+                        description: description || null
+                    })
+                });
+
+                const result = await response.json();
+                if (result.success) {
+                    const seoKey = `${selectedApp.appId}:${currentLocale}:${selectedApp.appId}-thumbnail.jpeg`;
+                    seoMetadata[seoKey] = result.sample;
+                    showToast('SEO metadata saved', 'success');
+                } else {
+                    showToast('Failed to save SEO: ' + result.error, 'error');
+                }
+            } catch (error) {
+                showToast('Error saving SEO: ' + error.message, 'error');
             }
         }
     </script>

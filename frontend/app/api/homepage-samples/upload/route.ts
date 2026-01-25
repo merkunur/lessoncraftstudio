@@ -2,6 +2,25 @@ import { NextRequest, NextResponse } from 'next/server';
 import sharp from 'sharp';
 import fs from 'fs/promises';
 import path from 'path';
+import { execSync } from 'child_process';
+
+// Set immutable flag on a file to prevent accidental deletion
+function setImmutable(filePath: string): void {
+  try {
+    execSync(`chattr +i "${filePath}"`, { stdio: 'ignore' });
+  } catch {
+    // Non-fatal if chattr not available (e.g., development environment)
+  }
+}
+
+// Remove immutable flag before modifying a file
+function removeImmutable(filePath: string): void {
+  try {
+    execSync(`chattr -i "${filePath}"`, { stdio: 'ignore' });
+  } catch {
+    // Non-fatal if chattr not available
+  }
+}
 
 // Locale to language folder mapping
 const localeToFolder: Record<string, string> = {
@@ -29,9 +48,9 @@ const validAppIds = [
   'word-scramble', 'wordsearch', 'writing'
 ];
 
-// Base path for samples - production uses /opt/lessoncraftstudio/samples
+// Base path for samples - production uses isolated storage at /var/www/lcs-media/samples
 const SAMPLES_BASE = process.env.NODE_ENV === 'production'
-  ? '/opt/lessoncraftstudio/samples'
+  ? '/var/www/lcs-media/samples'
   : path.join(process.cwd(), 'public', 'samples');
 
 // Valid file types for upload
@@ -69,6 +88,8 @@ async function ensureDirectoryExists(dir: string): Promise<void> {
 async function createBackup(filePath: string): Promise<string | null> {
   try {
     await fs.access(filePath);
+    // Remove immutable flag before backup
+    removeImmutable(filePath);
     const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
     const backupPath = `${filePath}.bak.${timestamp}`;
     await fs.copyFile(filePath, backupPath);
@@ -119,6 +140,7 @@ async function processImageUpload(
   try {
     // Save original JPEG
     await fs.writeFile(originalPath, buffer);
+    setImmutable(originalPath);
     console.log(`[HOMEPAGE-SAMPLES] Saved original: ${originalPath}`);
 
     // Generate 400px thumbnail WebP
@@ -127,6 +149,7 @@ async function processImageUpload(
       .webp({ quality: 75 })
       .toBuffer();
     await fs.writeFile(thumbPath, thumbBuffer);
+    setImmutable(thumbPath);
     console.log(`[HOMEPAGE-SAMPLES] Generated thumb: ${thumbPath}`);
 
     // Generate 800px preview WebP
@@ -135,6 +158,7 @@ async function processImageUpload(
       .webp({ quality: 85 })
       .toBuffer();
     await fs.writeFile(previewPath, previewBuffer);
+    setImmutable(previewPath);
     console.log(`[HOMEPAGE-SAMPLES] Generated preview: ${previewPath}`);
 
     return {
@@ -189,6 +213,7 @@ async function processPdfUpload(
 
   try {
     await fs.writeFile(pdfPath, buffer);
+    setImmutable(pdfPath);
     console.log(`[HOMEPAGE-SAMPLES] Saved PDF: ${pdfPath}`);
 
     return {
@@ -246,6 +271,7 @@ async function processHeroImageUpload(
   try {
     // Save original JPEG
     await fs.writeFile(originalPath, buffer);
+    setImmutable(originalPath);
     console.log(`[HOMEPAGE-SAMPLES] Saved hero original: ${originalPath}`);
 
     // Generate 400px thumbnail WebP
@@ -254,6 +280,7 @@ async function processHeroImageUpload(
       .webp({ quality: 75 })
       .toBuffer();
     await fs.writeFile(thumbPath, thumbBuffer);
+    setImmutable(thumbPath);
     console.log(`[HOMEPAGE-SAMPLES] Generated hero thumb: ${thumbPath}`);
 
     // Generate 800px preview WebP
@@ -262,6 +289,7 @@ async function processHeroImageUpload(
       .webp({ quality: 85 })
       .toBuffer();
     await fs.writeFile(previewPath, previewBuffer);
+    setImmutable(previewPath);
     console.log(`[HOMEPAGE-SAMPLES] Generated hero preview: ${previewPath}`);
 
     return {

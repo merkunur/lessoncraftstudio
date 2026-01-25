@@ -1960,6 +1960,13 @@
                             showToast('Tip: ' + result.seoSuggestions[0], 'info');
                         }, 2000);
                     }
+
+                    // Trigger sitemap revalidation after SEO save
+                    try {
+                        await fetch('/api/revalidate-sitemap', { method: 'POST' });
+                    } catch (e) {
+                        console.warn('Sitemap revalidation failed:', e);
+                    }
                 } else {
                     showToast('Failed to save SEO: ' + result.error, 'error');
                 }
@@ -2086,6 +2093,13 @@
                             description: description || null
                         })
                     });
+                }
+
+                // Trigger sitemap revalidation after uploads complete
+                try {
+                    await fetch('/api/revalidate-sitemap', { method: 'POST' });
+                } catch (e) {
+                    console.warn('Sitemap revalidation failed:', e);
                 }
 
                 // Refresh data and close modal

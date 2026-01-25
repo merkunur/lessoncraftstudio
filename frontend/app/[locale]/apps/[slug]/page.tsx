@@ -4,6 +4,7 @@ import { notFound, redirect } from 'next/navigation';
 import ProductPageClient from '@/components/product-page/ProductPageClient';
 import { getContentBySlug, getAllStaticParams, getAlternateLanguageUrls } from '@/config/product-page-content';
 import { generateAppProductSchemas, generateAllProductPageSchemas, AppProductData, ogLocaleMap, localeToLanguageFolder } from '@/lib/schema-generator';
+import { getSampleSeoMetadataMap, SampleSeoMetadata } from '@/lib/sample-seo';
 import additionEnContent from '@/content/product-pages/en/addition-worksheets';
 import wordSearchEnContent from '@/content/product-pages/en/word-search-worksheets';
 import alphabetTrainEnContent from '@/content/product-pages/en/alphabet-train-worksheets';
@@ -272,17 +273,20 @@ interface PageProps {
  * Schema Markup Component for SEO
  * Injects JSON-LD structured data for Google Search
  * Includes: SoftwareApplication, BreadcrumbList, WebPage, FAQPage, HowTo, and ImageObject schemas
+ * Enhanced with database SEO metadata for improved Google Image Search visibility
  */
 function SchemaScripts({
   appData,
   locale,
   slug,
-  content
+  content,
+  sampleSeoMap
 }: {
   appData: AppProductData;
   locale: string;
   slug: string;
   content?: any;
+  sampleSeoMap?: Map<string, SampleSeoMetadata>;
 }) {
   const baseUrl = 'https://www.lessoncraftstudio.com';
   const pageUrl = `${baseUrl}/${locale}/apps/${slug}`;
@@ -305,16 +309,30 @@ function SchemaScripts({
   } : undefined;
 
   // Prepare sample images for ImageObject schema
+  // Enhanced: Merge database SEO metadata with static content for better search visibility
   const languageFolder = localeToLanguageFolder[locale] || 'english';
-  const sampleImages = content?.samples?.items?.map((sample: any) => ({
-    src: sample.worksheetSrc,
-    name: sample.altText?.split(' - ')[0] || `${appData.name} Sample`,
-    description: sample.altText || `Sample worksheet for ${appData.name}`,
-    caption: `Free printable ${appData.name.toLowerCase()} for educational use`,
-    thumbnailSrc: sample.worksheetSrc?.replace(/\.(jpeg|jpg|png)$/i, '_thumb.webp'),
-    width: 2480,
-    height: 3508
-  })) || [];
+  const sampleImages = content?.samples?.items?.map((sample: any) => {
+    // Extract filename from worksheetSrc path to look up database SEO
+    const pathParts = sample.worksheetSrc?.split('/') || [];
+    const filename = pathParts[pathParts.length - 1];
+    const dbMeta = sampleSeoMap?.get(filename);
+
+    // Use database SEO values if available, fall back to static content
+    const name = dbMeta?.title || sample.imageTitle || sample.altText?.split(' - ')[0] || `${appData.name} Sample`;
+    const description = dbMeta?.altText || sample.altText || `Sample worksheet for ${appData.name}`;
+    const caption = dbMeta?.description || `Free printable ${appData.name.toLowerCase()} for educational use`;
+
+    return {
+      src: sample.worksheetSrc,
+      name,
+      description,
+      caption,
+      thumbnailSrc: sample.worksheetSrc?.replace(/\.(jpeg|jpg|png)$/i, '_thumb.webp'),
+      width: 2480,
+      height: 3508,
+      grade: dbMeta?.grade || undefined,
+    };
+  }) || [];
 
   // Gallery name for ImageGallery schema
   const galleryName = content?.samples?.sectionTitle;
@@ -3459,9 +3477,14 @@ export default async function AppPage({ params: { locale, slug } }: PageProps) {
       category: 'Worksheet Generator'
     };
 
+    // Fetch database SEO metadata for enhanced ImageObject schemas
+    // This merges content manager SEO data into JSON-LD for better Google Image Search visibility
+    const appId = content.seo?.appId || slug.replace(/-worksheets$/, '');
+    const sampleSeoMap = await getSampleSeoMetadataMap(appId, locale);
+
     return (
       <>
-        <SchemaScripts appData={schemaAppData} locale={locale} slug={slug} content={content} />
+        <SchemaScripts appData={schemaAppData} locale={locale} slug={slug} content={content} sampleSeoMap={sampleSeoMap} />
         <ProductPageClient locale={locale} content={content} slug={slug} />
       </>
     );

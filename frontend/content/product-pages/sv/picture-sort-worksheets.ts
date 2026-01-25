@@ -22,33 +22,7 @@ export const pictureSortSvContent: ProductPageContent = {
     description: 'Skapa professionella sorteringsaktiviteter för barn med vår bildsorteringsgenerator. Generera anpassade utskrivbara sorteringsövningar perfekta för.',
     keywords: 'arbetsblad gratis, bildsortering, förskoleklass material, matematik arbetsblad, matte övningar, finmotorik övningar, multiplikationstabellen, siffror och tal, klockan lära sig, addition och subtraktion, målarbilder barn, bokstäver lära sig, sorteringsaktiviteter',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/bildsortering-arbetsblad',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/picture-sort/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis arbetsblad för barn bildsortering - sorteringsaktiviteter för förskoleklass material'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/picture-sort/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Arbetsblad gratis bildsortering - matematik arbetsblad med siffror och tal för förskoleklass'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/picture-sort/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Förskoleklass material bildsortering - finmotorik övningar med klippa och klistra för barn'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/picture-sort/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Sorteringsaktiviteter arbetsblad gratis - matte övningar och matematik arbetsblad'
-      }
-    ],
-  },
 
   // Hero Section - FULL text from picture-sort.md paragraphs 1-4
   hero: {
@@ -93,36 +67,7 @@ Använd sorteringsarbetsblad för förskoleklass material och lågstadiet. Kombi
     badgeText: 'Gratis Exempel',
     downloadingLabel: 'Laddar ner...',
     ofLabel: 'av',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/swedish/picture-sort/sample-1.jpeg',
-        answerKeySrc: '/samples/swedish/picture-sort/sample-1.jpeg',
-        altText: 'Gratis arbetsblad för barn bildsortering - sorteringsaktiviteter för förskoleklass material',
-        imageTitle: 'Gratis arbetsblad för barn bildsortering',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/swedish/picture-sort/sample-2.jpeg',
-        answerKeySrc: '/samples/swedish/picture-sort/sample-2.jpeg',
-        altText: 'Arbetsblad gratis bildsortering - matematik arbetsblad med siffror och tal för förskoleklass',
-        imageTitle: 'Arbetsblad gratis bildsortering',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/swedish/picture-sort/sample-3.jpeg',
-        answerKeySrc: '/samples/swedish/picture-sort/sample-3.jpeg',
-        altText: 'Förskoleklass material bildsortering - finmotorik övningar med klippa och klistra för barn',
-        imageTitle: 'Förskoleklass material bildsortering',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/swedish/picture-sort/sample-4.jpeg',
-        answerKeySrc: '/samples/swedish/picture-sort/sample-4.jpeg',
-        altText: 'Sorteringsaktiviteter arbetsblad gratis - matte övningar och matematik arbetsblad',
-        imageTitle: 'Sorteringsaktiviteter arbetsblad gratis',
-      },
-    ],
+    items: [],
     
   },
 

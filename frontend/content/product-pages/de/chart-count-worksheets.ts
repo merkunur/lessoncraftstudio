@@ -31,39 +31,7 @@ export const chartCountDeContent: ProductPageContent = {
     description: 'Erstellen Sie Bilddiagramm Arbeitsblätter für Grundschule und Vorschule. Kostenlose Druckvorlagen zum Ausdrucken. PDF-Download in 3 Minuten - jetzt starten!',
     keywords: 'bilddiagramm arbeitsblätter, arbeitsblätter grundschule, kostenlose arbeitsblätter, mathe arbeitsblätter, vorschule arbeitsblätter, rechnen lernen, deutsch arbeitsblätter, einmaleins, schwungübungen, ausmalbilder',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/bilddiagramm-arbeitsblaetter',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/chart-count/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Bilddiagramm Arbeitsblatt kostenlos - Mathe Arbeitsblätter für Vorschule und Grundschule zum Ausdrucken'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/chart-count/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Kostenloses Arbeitsblatt Bilddiagramm - Zählen lernen Vorschul-Arbeitsblätter mit bunten Bildern'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/chart-count/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Bilddiagramm Mathe Arbeitsblätter Grundschule - Kostenlose Arbeitsblätter zum Rechnen lernen'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/chart-count/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Kostenloses Arbeitsblatt Bilddiagramm - Arbeitsblatt für Kinder Grundschule mit Zählübungen'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/chart-count/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Kostenlose Druckvorlagen Bilddiagramm - Arbeitsblatt für Vorschule mit Diagrammkästchen'
-      }
-    ],
-  },
 
   // Hero Section - FULL text from bilddiagramm.md paragraphs 1-3
   hero: {
@@ -106,43 +74,7 @@ Unser Bilddiagramm Arbeitsblätter Generator erstellt zweiteilige Arbeitsblätte
     badgeText: 'Kostenlose Beispiele',
     downloadingLabel: 'Wird heruntergeladen...',
     ofLabel: 'von',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/german/chart-count/sample-1.jpeg',
-        answerKeySrc: '/samples/german/chart-count/sample-1.jpeg',
-        altText: 'Bilddiagramm Arbeitsblatt kostenlos - Mathe Arbeitsblätter für Vorschule und Grundschule zum Ausdrucken',
-        imageTitle: 'Bilddiagramm Arbeitsblatt kostenlos',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/german/chart-count/sample-2.jpeg',
-        answerKeySrc: '/samples/german/chart-count/sample-2.jpeg',
-        altText: 'Kostenloses Arbeitsblatt Bilddiagramm - Zählen lernen Vorschul-Arbeitsblätter mit bunten Bildern',
-        imageTitle: 'Kostenloses Arbeitsblatt Bilddiagramm',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/german/chart-count/sample-3.jpeg',
-        answerKeySrc: '/samples/german/chart-count/sample-3.jpeg',
-        altText: 'Bilddiagramm Mathe Arbeitsblätter Grundschule - Kostenlose Arbeitsblätter zum Rechnen lernen',
-        imageTitle: 'Bilddiagramm Mathe Arbeitsblätter Grundschule',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/german/chart-count/sample-4.jpeg',
-        answerKeySrc: '/samples/german/chart-count/sample-4.jpeg',
-        altText: 'Kostenloses Arbeitsblatt Bilddiagramm - Arbeitsblatt für Kinder Grundschule mit Zählübungen',
-        imageTitle: 'Kostenloses Arbeitsblatt Bilddiagramm',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/german/chart-count/sample-5.jpeg',
-        answerKeySrc: '/samples/german/chart-count/sample-5.jpeg',
-        altText: 'Kostenlose Druckvorlagen Bilddiagramm - Arbeitsblatt für Vorschule mit Diagrammkästchen',
-        imageTitle: 'Kostenlose Druckvorlagen Bilddiagramm',
-      },
-    ],
+    items: [],
     
   },
 

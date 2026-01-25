@@ -21,39 +21,7 @@ export const moreLessPtContent: ProductPageContent = {
     description: 'Crie atividades grátis de maior e menor profissionais em poucos minutos com nosso gerador de atividades para imprimir. Atividade grátis para crianças com sua.',
     keywords: 'atividade grátis, atividade grátis para crianças, atividades grátis, imprimíveis grátis, atividade para crianças, atividade para educação infantil, atividade, maior e menor, atividades para imprimir, atividades educação infantil, coordenação motora, comparação de quantidades',
     canonicalUrl: 'https://www.lessoncraftstudio.com/pt/apps/maior-menor-fichas',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/more-less/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Atividade grátis de maior e menor - comparação de quantidades para educação infantil'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/more-less/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Atividade grátis para crianças - maior e menor com imagens coloridas'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/more-less/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Atividades grátis de comparação - discriminação visual para pré-escola'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/more-less/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Atividade para crianças - maior menor e igual para imprimir'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/more-less/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Imprimíveis grátis de maior e menor - atividade para educação infantil'
-      }
-    ]
-  },
 
   // Hero Section - FULL text from more-less.md paragraphs
   hero: {
@@ -96,43 +64,7 @@ Crianças da educação infantil aprendem melhor com recursos visuais. Este gera
     badgeText: 'Exemplos Grátis',
     downloadingLabel: 'Baixando...',
     ofLabel: 'de',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/portuguese/more-less/sample-1.jpeg',
-        answerKeySrc: '/samples/portuguese/more-less/sample-1.jpeg',
-        altText: 'Atividade grátis de maior e menor - comparação de quantidades para educação infantil',
-        imageTitle: 'Atividade grátis de maior e menor',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/portuguese/more-less/sample-2.jpeg',
-        answerKeySrc: '/samples/portuguese/more-less/sample-2.jpeg',
-        altText: 'Atividade grátis para crianças - maior e menor com imagens coloridas',
-        imageTitle: 'Atividade grátis para crianças',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/portuguese/more-less/sample-3.jpeg',
-        answerKeySrc: '/samples/portuguese/more-less/sample-3.jpeg',
-        altText: 'Atividades grátis de comparação - discriminação visual para pré-escola',
-        imageTitle: 'Atividades grátis de comparação',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/portuguese/more-less/sample-4.jpeg',
-        answerKeySrc: '/samples/portuguese/more-less/sample-4.jpeg',
-        altText: 'Atividade para crianças - maior menor e igual para imprimir',
-        imageTitle: 'Atividade para crianças',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/portuguese/more-less/sample-5.jpeg',
-        answerKeySrc: '/samples/portuguese/more-less/sample-5.jpeg',
-        altText: 'Imprimíveis grátis de maior e menor - atividade para educação infantil',
-        imageTitle: 'Imprimíveis grátis de maior e menor',
-      },
-    ],
+    items: [],
     
   },
 

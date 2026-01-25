@@ -21,33 +21,7 @@ export const alphabetTrainEsContent: ProductPageContent = {
     description: 'Crea fichas del tren del abecedario con nuestro generador gratis. Descarga fichas para imprimir de lectoescritura en PDF de 300 DPI en menos de 3 minutos.',
     keywords: 'fichas para imprimir, fichas infantil, fichas preescolar, grafomotricidad, lectoescritura, abecedario, aprender las letras, fichas gratis, material educativo gratis, dibujos para colorear, tren del alfabeto, números, educación infantil',
     canonicalUrl: 'https://www.lessoncraftstudio.com/es/apps/tren-alfabeto-fichas',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/spanish/alphabet-train/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Ficha gratis del tren del abecedario para imprimir - aprender las letras para preescolar',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/spanish/alphabet-train/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Fichas infantil del abecedario para imprimir - lectoescritura para niños',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/spanish/alphabet-train/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Fichas para niños del tren del abecedario - grafomotricidad y aprender las letras',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/spanish/alphabet-train/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Imprimibles gratis del abecedario - fichas preescolar de lectoescritura',
-      },
-    ],
-  },
 
   // Hero Section - FULL text from alphabet-train.md paragraphs 1-3
   hero: {
@@ -90,36 +64,7 @@ Nuestro generador hace que crear fichas para imprimir sea increíblemente fácil
     badgeText: 'Ejemplos Gratis',
     downloadingLabel: 'Descargando...',
     ofLabel: 'de',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/spanish/alphabet-train/sample-1.jpeg',
-        answerKeySrc: '/samples/spanish/alphabet-train/sample-1.jpeg',
-        altText: 'Ficha gratis del tren del abecedario para imprimir - aprender las letras para preescolar',
-        imageTitle: 'Ficha gratis del tren del abecedario para imprimir',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/spanish/alphabet-train/sample-2.jpeg',
-        answerKeySrc: '/samples/spanish/alphabet-train/sample-2.jpeg',
-        altText: 'Fichas infantil del abecedario para imprimir - lectoescritura para niños',
-        imageTitle: 'Fichas infantil del abecedario para imprimir',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/spanish/alphabet-train/sample-3.jpeg',
-        answerKeySrc: '/samples/spanish/alphabet-train/sample-3.jpeg',
-        altText: 'Fichas para niños del tren del abecedario - grafomotricidad y aprender las letras',
-        imageTitle: 'Fichas para niños del tren del abecedario',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/spanish/alphabet-train/sample-4.jpeg',
-        answerKeySrc: '/samples/spanish/alphabet-train/sample-4.jpeg',
-        altText: 'Imprimibles gratis del abecedario - fichas preescolar de lectoescritura',
-        imageTitle: 'Imprimibles gratis del abecedario',
-      },
-    ],
+    items: [],
     
   },
 

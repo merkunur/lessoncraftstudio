@@ -21,39 +21,7 @@ export const picturePathFrContent: ProductPageContent = {
     description: 'Créez des parcours d\'images professionnels en quelques clics. Notre générateur transforme vos fiches maternelle en activités ludiques et éducatives.',
     keywords: 'fiches à imprimer gratuit, fiches maternelle, parcours images, labyrinthe, exercices CP, graphisme maternelle, motricité fine, coloriage à imprimer, exercices maths, apprendre à lire, alphabet, tables de multiplication',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fr/apps/parcours-images-fiches',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/french/picture-path/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Parcours images fiche gratuite - labyrinthe maternelle exercices graphisme'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/french/picture-path/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Fiche labyrinthe gratuite pour enfants - exercices CP raisonnement spatial'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/french/picture-path/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Fiches maternelle gratuites - parcours images graphisme PS MS GS'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/french/picture-path/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Labyrinthe fiche pour enfants - imprimables gratuits concentration'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/french/picture-path/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Parcours images fiches gratuites maternelle - coloriage à imprimer'
-      },
-    ],
-  },
 
   // Hero Section - FULL text from picture-path.md paragraphs 1-4
   hero: {
@@ -98,43 +66,7 @@ Les fiches maternelle créées développent plusieurs compétences. Le graphisme
     badgeText: 'Exemples Gratuits',
     downloadingLabel: 'Téléchargement...',
     ofLabel: 'sur',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/french/picture-path/sample-1.jpeg',
-        answerKeySrc: '/samples/french/picture-path/sample-1.jpeg',
-        altText: 'Parcours images fiche gratuite - labyrinthe maternelle exercices graphisme',
-        imageTitle: 'Parcours images fiche gratuite',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/french/picture-path/sample-2.jpeg',
-        answerKeySrc: '/samples/french/picture-path/sample-2.jpeg',
-        altText: 'Fiche labyrinthe gratuite pour enfants - exercices CP raisonnement spatial',
-        imageTitle: 'Fiche labyrinthe gratuite pour enfants',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/french/picture-path/sample-3.jpeg',
-        answerKeySrc: '/samples/french/picture-path/sample-3.jpeg',
-        altText: 'Fiches maternelle gratuites - parcours images graphisme PS MS GS',
-        imageTitle: 'Fiches maternelle gratuites',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/french/picture-path/sample-4.jpeg',
-        answerKeySrc: '/samples/french/picture-path/sample-4.jpeg',
-        altText: 'Labyrinthe fiche pour enfants - imprimables gratuits concentration',
-        imageTitle: 'Labyrinthe fiche pour enfants',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/french/picture-path/sample-5.jpeg',
-        answerKeySrc: '/samples/french/picture-path/sample-5.jpeg',
-        altText: 'Parcours images fiches gratuites maternelle - coloriage à imprimer',
-        imageTitle: 'Parcours images fiches gratuites maternelle',
-      },
-    ],
+    items: [],
     
   },
 

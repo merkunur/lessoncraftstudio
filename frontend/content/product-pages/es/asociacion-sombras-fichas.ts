@@ -19,39 +19,7 @@ export const shadowMatchEsContent: ProductPageContent = {
     description: 'Crea fichas profesionales de asociación de sombras con nuestro generador de fichas educativas. Genera fichas gratis personalizadas perfectas para estudiantes.',
     keywords: 'fichas para imprimir, asociación de sombras, fichas preescolar, fichas infantil, percepción visual, material educativo gratis, fichas de matemáticas, lectoescritura, abecedario, grafomotricidad, dibujos para colorear, tablas de multiplicar, fichas gratis',
     canonicalUrl: 'https://www.lessoncraftstudio.com/es/apps/asociacion-sombras-fichas',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/spanish/shadow-match/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Ficha gratis de asociación de sombras para imprimir - ejercicio de percepción visual para preescolar',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/spanish/shadow-match/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Ficha de asociación de sombras para educación infantil - actividad de discriminación visual gratis',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/spanish/shadow-match/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Ficha gratis para niños de asociación de sombras - material educativo de percepción visual',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/spanish/shadow-match/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Ficha para preescolar de asociación de sombras - ejercicio de razonamiento espacial gratis',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/spanish/shadow-match/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Imprimibles gratis de asociación de sombras - ficha de discriminación visual para educación infantil',
-      },
-    ],
-  },
 
   // Hero Section
   hero: {
@@ -96,43 +64,7 @@ Cada ficha incluye cuatro imágenes organizadas en columnas de izquierda a derec
     badgeText: 'Ejemplos Gratis',
     downloadingLabel: 'Descargando...',
     ofLabel: 'de',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/spanish/shadow-match/sample-1.jpeg',
-        answerKeySrc: '/samples/spanish/shadow-match/sample-1.jpeg',
-        altText: 'Ficha gratis de asociación de sombras para imprimir - ejercicio de percepción visual para preescolar',
-        imageTitle: 'Ficha gratis de asociación de sombras para imprimir',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/spanish/shadow-match/sample-2.jpeg',
-        answerKeySrc: '/samples/spanish/shadow-match/sample-2.jpeg',
-        altText: 'Ficha de asociación de sombras para educación infantil - actividad de discriminación visual gratis',
-        imageTitle: 'Ficha de asociación de sombras para educación infantil',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/spanish/shadow-match/sample-3.jpeg',
-        answerKeySrc: '/samples/spanish/shadow-match/sample-3.jpeg',
-        altText: 'Ficha gratis para niños de asociación de sombras - material educativo de percepción visual',
-        imageTitle: 'Ficha gratis para niños de asociación de sombras',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/spanish/shadow-match/sample-4.jpeg',
-        answerKeySrc: '/samples/spanish/shadow-match/sample-4.jpeg',
-        altText: 'Ficha para preescolar de asociación de sombras - ejercicio de razonamiento espacial gratis',
-        imageTitle: 'Ficha para preescolar de asociación de sombras',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/spanish/shadow-match/sample-5.jpeg',
-        answerKeySrc: '/samples/spanish/shadow-match/sample-5.jpeg',
-        altText: 'Imprimibles gratis de asociación de sombras - ficha de discriminación visual para educación infantil',
-        imageTitle: 'Imprimibles gratis de asociación de sombras',
-      },
-    ],
+    items: [],
     
   },
 

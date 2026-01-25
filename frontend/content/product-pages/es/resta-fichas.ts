@@ -21,39 +21,7 @@ export const subtractionEsContent: ProductPageContent = {
     description: 'Crea fichas de restas profesionales con imágenes usando nuestro generador de ejercicios matemáticas. Genera fichas para imprimir personalizadas perfectas para.',
     keywords: 'fichas de restas, fichas para imprimir, ejercicios matemáticas, fichas de matemáticas, fichas infantil, fichas preescolar, grafomotricidad, lectoescritura, aprender los números, tablas de multiplicar, dibujos para colorear, fichas gratis, material educativo gratis',
     canonicalUrl: 'https://www.lessoncraftstudio.com/es/apps/resta-fichas',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/spanish/subtraction/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Fichas de restas gratis para imprimir - ejercicios matemáticas modo tachar para preescolar y primaria'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/spanish/subtraction/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Fichas de restas para niños - ejercicios matemáticas modo imagen-número para educación infantil'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/spanish/subtraction/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Fichas de restas para preescolar - ejercicios matemáticas modo encontrar sustraendo para primaria'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/spanish/subtraction/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Fichas de restas imprimibles gratis - ejercicios matemáticas modo mixto para educación inicial'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/spanish/subtraction/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Fichas de matemáticas gratis para niños - ejercicios de restas con imágenes para preescolar'
-      },
-    ],
-  },
 
   // Hero Section - FULL text from subtraction.md paragraphs 1-3
   hero: {
@@ -96,43 +64,7 @@ La plataforma incluye más de 3000 imágenes apropiadas para niños. Selecciona 
     badgeText: 'Ejemplos Gratis',
     downloadingLabel: 'Descargando...',
     ofLabel: 'de',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/spanish/subtraction/sample-1.jpeg',
-        answerKeySrc: '/samples/spanish/subtraction/sample-1.jpeg',
-        altText: 'Fichas de restas gratis para imprimir - ejercicios matemáticas modo tachar para preescolar y primaria',
-        imageTitle: 'Fichas de restas gratis para imprimir',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/spanish/subtraction/sample-2.jpeg',
-        answerKeySrc: '/samples/spanish/subtraction/sample-2.jpeg',
-        altText: 'Fichas de restas para niños - ejercicios matemáticas modo imagen-número para educación infantil',
-        imageTitle: 'Fichas de restas para niños',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/spanish/subtraction/sample-3.jpeg',
-        answerKeySrc: '/samples/spanish/subtraction/sample-3.jpeg',
-        altText: 'Fichas de restas para preescolar - ejercicios matemáticas modo encontrar sustraendo para primaria',
-        imageTitle: 'Fichas de restas para preescolar',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/spanish/subtraction/sample-4.jpeg',
-        answerKeySrc: '/samples/spanish/subtraction/sample-4.jpeg',
-        altText: 'Fichas de restas imprimibles gratis - ejercicios matemáticas modo mixto para educación inicial',
-        imageTitle: 'Fichas de restas imprimibles gratis',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/spanish/subtraction/sample-5.jpeg',
-        answerKeySrc: '/samples/spanish/subtraction/sample-5.jpeg',
-        altText: 'Fichas de matemáticas gratis para niños - ejercicios de restas con imágenes para preescolar',
-        imageTitle: 'Fichas de matemáticas gratis para niños',
-      },
-    ],
+    items: [],
     
   },
 

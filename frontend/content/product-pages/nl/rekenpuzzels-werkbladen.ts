@@ -33,39 +33,7 @@ export const mathPuzzleNlContent: ProductPageContent = {
     description: 'Maak professionele rekenpuzzels met onze math puzzle generator voor groep 1 2 en groep 3. Perfect voor leerkrachten die werkbladen kleuters en rekenen.',
     keywords: 'rekenpuzzels werkbladen, werkbladen groep 3, werkbladen kleuters, oefenbladen gratis, rekenen werkbladen, sommen tot 20, tafels oefenen, fijne motoriek, kleurplaten, veilig leren lezen',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/rekenpuzzels-werkbladen',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/math-puzzle/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis werkblad rekenpuzzels - werkbladen groep 3 voor sommen tot 20',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/math-puzzle/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis werkbladen rekenpuzzels - werkblad voor kleuters met tafels oefenen',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/math-puzzle/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Werkblad voor kinderen - rekenpuzzels met plaatjes voor groep 1 2',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/math-puzzle/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis printables rekenpuzzels - oefenbladen voor rekenen werkbladen',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/math-puzzle/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Rekenpuzzels werkblad voor kinderen - fijne motoriek en kleurplaten',
-      },
-    ],
-  },
 
   // Hero Section - FULL text from math-puzzle.md paragraphs 1-3
   hero: {
@@ -108,43 +76,7 @@ Kies puzzelroosters van 2×2 tot 4×4. Selecteer optellen subtractie of beide be
     badgeText: 'Gratis Voorbeelden',
     downloadingLabel: 'Downloaden...',
     ofLabel: 'van',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/dutch/math-puzzle/sample-1.jpeg',
-        answerKeySrc: '/samples/dutch/math-puzzle/sample-1.jpeg',
-        altText: 'Gratis werkblad rekenpuzzels - werkbladen groep 3 voor sommen tot 20',
-        imageTitle: 'Gratis werkblad rekenpuzzels',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/dutch/math-puzzle/sample-2.jpeg',
-        answerKeySrc: '/samples/dutch/math-puzzle/sample-2.jpeg',
-        altText: 'Gratis werkbladen rekenpuzzels - werkblad voor kleuters met tafels oefenen',
-        imageTitle: 'Gratis werkbladen rekenpuzzels',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/dutch/math-puzzle/sample-3.jpeg',
-        answerKeySrc: '/samples/dutch/math-puzzle/sample-3.jpeg',
-        altText: 'Werkblad voor kinderen - rekenpuzzels met plaatjes voor groep 1 2',
-        imageTitle: 'Werkblad voor kinderen',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/dutch/math-puzzle/sample-4.jpeg',
-        answerKeySrc: '/samples/dutch/math-puzzle/sample-4.jpeg',
-        altText: 'Gratis printables rekenpuzzels - oefenbladen voor rekenen werkbladen',
-        imageTitle: 'Gratis printables rekenpuzzels',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/dutch/math-puzzle/sample-5.jpeg',
-        answerKeySrc: '/samples/dutch/math-puzzle/sample-5.jpeg',
-        altText: 'Rekenpuzzels werkblad voor kinderen - fijne motoriek en kleurplaten',
-        imageTitle: 'Rekenpuzzels werkblad voor kinderen',
-      },
-    ],
+    items: [],
     
   },
 

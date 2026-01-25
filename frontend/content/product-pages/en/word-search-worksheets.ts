@@ -20,39 +20,7 @@ export const wordSearchEnContent: ProductPageContent = {
     keywords: 'word search worksheets, word search generator, kindergarten worksheets, printable worksheets, word search puzzles, free worksheets, first grade worksheets, vocabulary worksheets, sight words worksheets, phonics worksheets, free worksheet for kids, free printables, worksheet for kindergarten, word puzzles',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/word-search-worksheets',
     // Images for Google Image Thumbnails in search results
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/wordsearch/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Free printable word search worksheets for kindergarten - vocabulary puzzles with colorful themed images',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/wordsearch/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Word search generator printable worksheets - word puzzles for first grade kids with picture clues',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/wordsearch/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Free word search worksheets - sight words and phonics practice for kindergarten students',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/wordsearch/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Word search printable free - vocabulary word puzzle for preschool learning',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/wordsearch/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Free word puzzles for kids - word search worksheet for kindergarten vocabulary building',
-      },
-    ],
-  },
 
   // Hero Section - FULL text from wordsearch.md paragraphs 1-3
   hero: {
@@ -81,43 +49,7 @@ This word search generator works in 11 languages. Select a theme like animals or
     downloadLabel: 'Download Free Sample',
     worksheetLabel: 'Worksheet',
     answerKeyLabel: 'Answer Key',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/english/wordsearch/sample-1.jpeg',
-        answerKeySrc: '/samples/english/wordsearch/sample-1.jpeg',
-        altText: 'Free printable word search worksheets for kindergarten - vocabulary puzzles with colorful themed images',
-        imageTitle: 'Free printable word search worksheets for kindergarten',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/english/wordsearch/sample-2.jpeg',
-        answerKeySrc: '/samples/english/wordsearch/sample-2.jpeg',
-        altText: 'Word search generator printable worksheets - word puzzles for first grade kids with picture clues',
-        imageTitle: 'Word search generator printable worksheets',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/english/wordsearch/sample-3.jpeg',
-        answerKeySrc: '/samples/english/wordsearch/sample-3.jpeg',
-        altText: 'Free word search worksheets - sight words and phonics practice for kindergarten students',
-        imageTitle: 'Free word search worksheets',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/english/wordsearch/sample-4.jpeg',
-        answerKeySrc: '/samples/english/wordsearch/sample-4.jpeg',
-        altText: 'Word search printable free - vocabulary word puzzle for preschool learning',
-        imageTitle: 'Word search printable free',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/english/wordsearch/sample-5.jpeg',
-        answerKeySrc: '/samples/english/wordsearch/sample-5.jpeg',
-        altText: 'Free word puzzles for kids - word search worksheet for kindergarten vocabulary building',
-        imageTitle: 'Free word puzzles for kids',
-      },
-    ],
+    items: [],
     
   },
 

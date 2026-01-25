@@ -19,33 +19,7 @@ export const wordSearchEsContent: ProductPageContent = {
     description: 'Crea sopas de letras gratis con nuestro generador de fichas para imprimir. Perfecto para educación infantil y preescolar. Descarga PDF 300 DPI en 3 minutos.',
     keywords: 'sopa de letras, generador fichas gratis, fichas para imprimir, educación infantil, preescolar, fichas del abecedario, grafomotricidad, lectoescritura, tablas de multiplicar, dibujos para colorear',
     canonicalUrl: 'https://www.lessoncraftstudio.com/es/apps/sopa-letras-fichas',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/spanish/wordsearch/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Sopa de letras fichas gratis para imprimir - puzzles vocabulario para educación infantil',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/spanish/wordsearch/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Sopa de letras ficha gratis para niños - puzzles vocabulario para preescolar',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/spanish/wordsearch/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Sopa de letras fichas para imprimir personalizada - lista de palabras para educación infantil',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/spanish/wordsearch/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Generador sopa de letras gratis - fichas vocabulario para primaria',
-      },
-    ],
-  },
 
   // Hero Section - FULL text from wordsearch.md paragraphs 1-3
   hero: {
@@ -88,36 +62,7 @@ Este generador funciona en 11 idiomas completos. Selecciona un tema como animale
     badgeText: 'Ejemplos Gratis',
     downloadingLabel: 'Descargando...',
     ofLabel: 'de',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/spanish/wordsearch/sample-1.jpeg',
-        answerKeySrc: '/samples/spanish/wordsearch/sample-1.jpeg',
-        altText: 'Sopa de letras fichas gratis para imprimir - puzzles vocabulario para educación infantil',
-        imageTitle: 'Sopa de letras fichas gratis para imprimir',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/spanish/wordsearch/sample-2.jpeg',
-        answerKeySrc: '/samples/spanish/wordsearch/sample-2.jpeg',
-        altText: 'Sopa de letras ficha gratis para niños - puzzles vocabulario para preescolar',
-        imageTitle: 'Sopa de letras ficha gratis para niños',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/spanish/wordsearch/sample-3.jpeg',
-        answerKeySrc: '/samples/spanish/wordsearch/sample-3.jpeg',
-        altText: 'Sopa de letras fichas para imprimir personalizada - lista de palabras para educación infantil',
-        imageTitle: 'Sopa de letras fichas para imprimir personalizada',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/spanish/wordsearch/sample-4.jpeg',
-        answerKeySrc: '/samples/spanish/wordsearch/sample-4.jpeg',
-        altText: 'Generador sopa de letras gratis - fichas vocabulario para primaria',
-        imageTitle: 'Generador sopa de letras gratis',
-      },
-    ],
+    items: [],
     
   },
 

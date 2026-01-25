@@ -19,39 +19,7 @@ export const drawingLinesNoContent: ProductPageContent = {
     description: 'Lag profesjonelle arbeidsark for tegning av linjer med vår tegnelinjer-generator. Din Kjernepakke-abonnement gir deg ubegrenset arbeidsark uten ekstra.',
     keywords: 'tegning av linjer, arbeidsark gratis, finmotorikk øvelser, oppgavehefter barn, bokstaver lære skrive, lesetrening, matematikk oppgaver, fargeleggingsbilder barn, tall og telling, gangetabellen',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/tegning-av-linjer-arbeidsark',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/norwegian/drawing-lines/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Tegning av linjer gratis arbeidsark - finmotorikk øvelser for barnehage'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/norwegian/drawing-lines/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis arbeidsark for barn tegnelinjer - bokstaver lære skrive forberedelse'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/norwegian/drawing-lines/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Arbeidsark for 1. trinn tegning av linjer - gratis utskrifter finmotorikk'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/norwegian/drawing-lines/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis utskrifter tegnelinjer arbeidsark - finmotorikk øvelser barn'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/norwegian/drawing-lines/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Arbeidsark for barn tegning av linjer - gratis arbeidsark skrivetrening'
-      }
-    ],
-  },
 
   // Hero Section - FULL text from drawing-lines.md paragraphs 1-4
   hero: {
@@ -94,43 +62,7 @@ Arbeidsark for tegning av linjer støtter barnehagepedagoger og lærere i småsk
     noPdfLabel: 'Ingen PDF tilgjengelig',
     freePdfCountLabel: '3 gratis nedlastinger',
     ofLabel: 'av',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/norwegian/drawing-lines/sample-1.jpeg',
-        answerKeySrc: '/samples/norwegian/drawing-lines/sample-1.jpeg',
-        altText: 'Tegning av linjer gratis arbeidsark - finmotorikk øvelser for barnehage',
-        imageTitle: 'Tegning av linjer gratis arbeidsark',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/norwegian/drawing-lines/sample-2.jpeg',
-        answerKeySrc: '/samples/norwegian/drawing-lines/sample-2.jpeg',
-        altText: 'Gratis arbeidsark for barn tegnelinjer - bokstaver lære skrive forberedelse',
-        imageTitle: 'Gratis arbeidsark for barn tegnelinjer',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/norwegian/drawing-lines/sample-3.jpeg',
-        answerKeySrc: '/samples/norwegian/drawing-lines/sample-3.jpeg',
-        altText: 'Arbeidsark for 1. trinn tegning av linjer - gratis utskrifter finmotorikk',
-        imageTitle: 'Arbeidsark for 1. trinn tegning av linjer',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/norwegian/drawing-lines/sample-4.jpeg',
-        answerKeySrc: '/samples/norwegian/drawing-lines/sample-4.jpeg',
-        altText: 'Gratis utskrifter tegnelinjer arbeidsark - finmotorikk øvelser barn',
-        imageTitle: 'Gratis utskrifter tegnelinjer arbeidsark',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/norwegian/drawing-lines/sample-5.jpeg',
-        answerKeySrc: '/samples/norwegian/drawing-lines/sample-5.jpeg',
-        altText: 'Arbeidsark for barn tegning av linjer - gratis arbeidsark skrivetrening',
-        imageTitle: 'Arbeidsark for barn tegning av linjer',
-      },
-    ],
+    items: [],
     
   },
 

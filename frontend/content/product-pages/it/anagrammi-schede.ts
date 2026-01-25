@@ -19,33 +19,7 @@ export const wordScrambleItContent: ProductPageContent = {
     description: 'Crea schede anagrammi gratuite per bambini. Generatore stampabili gratuiti per scuola dell\'infanzia e primaria. Scarica scheda gratuita PDF in 3 minuti.',
     keywords: 'schede didattiche anagrammi, generatore schede scuola primaria, schede italiano classe prima, anagrammi per bambini, schede stampabili, lettere dell\'alfabeto, riconoscimento lettere, ortografia',
     canonicalUrl: 'https://www.lessoncraftstudio.com/it/apps/anagrammi-schede',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/word-scramble/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Scheda gratuita anagrammi per bambini - stampabili gratuiti scuola infanzia',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/word-scramble/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Schede gratuite anagrammi - stampabili gratuiti scuola primaria',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/word-scramble/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Scheda gratuita per bambini - anagrammi parole personalizzate',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/word-scramble/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Anagrammi schede didattiche - stampabili gratuiti lettere alfabeto',
-      },
-    ],
-  },
 
   // Hero Section - FULL text from word-scramble.md
   hero: {
@@ -90,36 +64,7 @@ Perfetto per insegnanti della scuola primaria, genitori homeschool ed educatori 
     badgeText: 'Esempi Gratuiti',
     downloadingLabel: 'Scaricamento...',
     ofLabel: 'di',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/italian/word-scramble/sample-1.jpeg',
-        answerKeySrc: '/samples/italian/word-scramble/sample-1.jpeg',
-        altText: 'Scheda gratuita anagrammi per bambini - stampabili gratuiti scuola infanzia',
-        imageTitle: 'Scheda gratuita anagrammi per bambini',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/italian/word-scramble/sample-2.jpeg',
-        answerKeySrc: '/samples/italian/word-scramble/sample-2.jpeg',
-        altText: 'Schede gratuite anagrammi - stampabili gratuiti scuola primaria',
-        imageTitle: 'Schede gratuite anagrammi',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/italian/word-scramble/sample-3.jpeg',
-        answerKeySrc: '/samples/italian/word-scramble/sample-3.jpeg',
-        altText: 'Scheda gratuita per bambini - anagrammi parole personalizzate',
-        imageTitle: 'Scheda gratuita per bambini',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/italian/word-scramble/sample-4.jpeg',
-        answerKeySrc: '/samples/italian/word-scramble/sample-4.jpeg',
-        altText: 'Anagrammi schede didattiche - stampabili gratuiti lettere alfabeto',
-        imageTitle: 'Anagrammi schede didattiche',
-      },
-    ],
+    items: [],
     
   },
 

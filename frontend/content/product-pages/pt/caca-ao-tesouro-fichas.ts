@@ -19,33 +19,7 @@ export const treasureHuntPtContent: ProductPageContent = {
     description: 'Crie atividades grátis de caça ao tesouro para imprimir em PDF. Gerador de fichas de orientação espacial para educação infantil e 1º ano. Baixe em 3 minutos.',
     keywords: 'caça ao tesouro, atividades para imprimir, atividades educação infantil, atividades de alfabetização, atividades de matemática, coordenação motora, desenhos para colorir, atividades 1º ano, atividades 2º ano, atividades vogais, tabuada, letra cursiva, pontilhado, orientação espacial',
     canonicalUrl: 'https://www.lessoncraftstudio.com/pt/apps/caca-ao-tesouro-fichas',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/treasure-hunt/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Atividade grátis de caça ao tesouro - orientação espacial para educação infantil',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/treasure-hunt/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Atividade grátis para crianças de caça ao tesouro - direções básicas',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/treasure-hunt/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Atividades grátis de orientação espacial - imprimíveis grátis para 1º ano',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/treasure-hunt/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Atividade para crianças de caça ao tesouro - pontos cardeais para 2º ano',
-      },
-    ],
-  },
 
   // Hero Section - FULL text from treasure-hunt.md paragraphs 1-3
   hero: {
@@ -88,36 +62,7 @@ Esta ferramenta cria fichas que ensinam conceitos importantes. Alunos praticam s
     badgeText: 'Exemplos Grátis',
     downloadingLabel: 'Baixando...',
     ofLabel: 'de',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/portuguese/treasure-hunt/sample-1.jpeg',
-        answerKeySrc: '/samples/portuguese/treasure-hunt/sample-1.jpeg',
-        altText: 'Atividade grátis de caça ao tesouro - orientação espacial para educação infantil',
-        imageTitle: 'Atividade grátis de caça ao tesouro',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/portuguese/treasure-hunt/sample-2.jpeg',
-        answerKeySrc: '/samples/portuguese/treasure-hunt/sample-2.jpeg',
-        altText: 'Atividade grátis para crianças de caça ao tesouro - direções básicas',
-        imageTitle: 'Atividade grátis para crianças de caça ao tesouro',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/portuguese/treasure-hunt/sample-3.jpeg',
-        answerKeySrc: '/samples/portuguese/treasure-hunt/sample-3.jpeg',
-        altText: 'Atividades grátis de orientação espacial - imprimíveis grátis para 1º ano',
-        imageTitle: 'Atividades grátis de orientação espacial',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/portuguese/treasure-hunt/sample-4.jpeg',
-        answerKeySrc: '/samples/portuguese/treasure-hunt/sample-4.jpeg',
-        altText: 'Atividade para crianças de caça ao tesouro - pontos cardeais para 2º ano',
-        imageTitle: 'Atividade para crianças de caça ao tesouro',
-      },
-    ],
+    items: [],
     
   },
 

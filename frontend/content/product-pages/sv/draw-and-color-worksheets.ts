@@ -19,39 +19,7 @@ export const drawAndColorSvContent: ProductPageContent = {
     description: 'Skapa gratis arbetsblad för rutnätsritning och målarbilder barn. Ladda ner finmotorik övningar för förskoleklass på under 3 minuter. Prova gratis idag!',
     keywords: 'målarbilder barn, ritövningar, arbetsblad gratis, förskoleklass material, finmotorik övningar, rutnätsteknik, matematik arbetsblad, bokstäver lära sig, siffror och tal, rutnätsritning',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/rutritning-arbetsblad',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/draw-and-color/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis arbetsblad rutnätsritning - målarbilder barn och ritövningar för förskoleklass',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/draw-and-color/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Arbetsblad för barn - rutnätsteknik finmotorik övningar gratis utskrifter',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/draw-and-color/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis arbetsblad för förskoleklass - rutnätsritning matematik arbetsblad',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/draw-and-color/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Målarbilder barn med rutnätsritning - gratis arbetsblad för barn',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/draw-and-color/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Finmotorik övningar rutnätsteknik - arbetsblad för förskoleklass gratis utskrifter',
-      },
-    ],
-  },
 
   // Hero Section - FULL text from draw-and-color.md paragraphs 1-4
   hero: {
@@ -96,43 +64,7 @@ Full Tillgång-prenumerationen kostar 240 dollar per år. Du får tillgång till
     badgeText: 'Gratis Exempel',
     downloadingLabel: 'Laddar ner...',
     ofLabel: 'av',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/swedish/draw-and-color/sample-1.jpeg',
-        answerKeySrc: '/samples/swedish/draw-and-color/sample-1.jpeg',
-        altText: 'Gratis arbetsblad rutnätsritning - målarbilder barn och ritövningar för förskoleklass',
-        imageTitle: 'Gratis arbetsblad rutnätsritning',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/swedish/draw-and-color/sample-2.jpeg',
-        answerKeySrc: '/samples/swedish/draw-and-color/sample-2.jpeg',
-        altText: 'Arbetsblad för barn - rutnätsteknik finmotorik övningar gratis utskrifter',
-        imageTitle: 'Arbetsblad för barn',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/swedish/draw-and-color/sample-3.jpeg',
-        answerKeySrc: '/samples/swedish/draw-and-color/sample-3.jpeg',
-        altText: 'Gratis arbetsblad för förskoleklass - rutnätsritning matematik arbetsblad',
-        imageTitle: 'Gratis arbetsblad för förskoleklass',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/swedish/draw-and-color/sample-4.jpeg',
-        answerKeySrc: '/samples/swedish/draw-and-color/sample-4.jpeg',
-        altText: 'Målarbilder barn med rutnätsritning - gratis arbetsblad för barn',
-        imageTitle: 'Målarbilder barn med rutnätsritning',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/swedish/draw-and-color/sample-5.jpeg',
-        answerKeySrc: '/samples/swedish/draw-and-color/sample-5.jpeg',
-        altText: 'Finmotorik övningar rutnätsteknik - arbetsblad för förskoleklass gratis utskrifter',
-        imageTitle: 'Finmotorik övningar rutnätsteknik',
-      },
-    ],
+    items: [],
     
   },
 

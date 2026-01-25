@@ -19,39 +19,7 @@ export const wordSearchFrContent: ProductPageContent = {
     description: 'Créez des mots mêlés professionnels en 3 clics. Fiches gratuites maternelle et CP à imprimer. 3000+ images, 11 langues. Téléchargez en PDF 300 DPI maintenant.',
     keywords: 'mots mêlés, générateur mots cachés, fiches maternelle, fiches à imprimer gratuit, exercices CP, apprendre à lire, alphabet, graphisme maternelle, tables de multiplication, coloriage à imprimer',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fr/apps/mots-caches-fiches',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/french/wordsearch/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Mots mêlés fiches gratuites - puzzle vocabulaire format portrait pour maternelle'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/french/wordsearch/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Générateur mots mêlés - fiche gratuite avec images thématiques pour CP'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/french/wordsearch/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Mots cachés fiches pour enfants - grille de lettres éducative pour CE1'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/french/wordsearch/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Fiches vocabulaire mots mêlés - puzzle recherche de mots pour primaire'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/french/wordsearch/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Jeu de mots fiches gratuites - activité vocabulaire personnalisable pour classe'
-      }
-    ],
-  },
 
   // Hero Section - FULL text from wordsearch.md paragraphs 1-4
   hero: {
@@ -94,43 +62,7 @@ Ce générateur de mots mêlés fonctionne en 11 langues complètes. Français, 
     badgeText: 'Exemples Gratuits',
     downloadingLabel: 'Téléchargement...',
     ofLabel: 'sur',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/french/wordsearch/sample-1.jpeg',
-        answerKeySrc: '/samples/french/wordsearch/sample-1.jpeg',
-        altText: 'Mots mêlés fiches gratuites - puzzle vocabulaire format portrait pour maternelle',
-        imageTitle: 'Mots mêlés fiches gratuites',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/french/wordsearch/sample-2.jpeg',
-        answerKeySrc: '/samples/french/wordsearch/sample-2.jpeg',
-        altText: 'Générateur mots mêlés - fiche gratuite avec images thématiques pour CP',
-        imageTitle: 'Générateur mots mêlés',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/french/wordsearch/sample-3.jpeg',
-        answerKeySrc: '/samples/french/wordsearch/sample-3.jpeg',
-        altText: 'Mots cachés fiches pour enfants - grille de lettres éducative pour CE1',
-        imageTitle: 'Mots cachés fiches pour enfants',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/french/wordsearch/sample-4.jpeg',
-        answerKeySrc: '/samples/french/wordsearch/sample-4.jpeg',
-        altText: 'Fiches vocabulaire mots mêlés - puzzle recherche de mots pour primaire',
-        imageTitle: 'Fiches vocabulaire mots mêlés',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/french/wordsearch/sample-5.jpeg',
-        answerKeySrc: '/samples/french/wordsearch/sample-5.jpeg',
-        altText: 'Jeu de mots fiches gratuites - activité vocabulaire personnalisable pour classe',
-        imageTitle: 'Jeu de mots fiches gratuites',
-      },
-    ],
+    items: [],
     
   },
 

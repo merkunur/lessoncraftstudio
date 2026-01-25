@@ -19,33 +19,7 @@ export const mathPuzzleEsContent: ProductPageContent = {
     description: 'Crea fichas de matemáticas profesionales con rompecabezas divertidos que combinan práctica numérica con imágenes atractivas. Genera ejercicios matemáticos.',
     keywords: 'fichas de matemáticas, rompecabezas matemáticos, fichas para imprimir, ejercicios matemáticas, material educativo gratis, fichas infantil, fichas preescolar, aprender los números, grafomotricidad, tablas de multiplicar, fichas gratis, dibujos para colorear, abecedario, lectoescritura',
     canonicalUrl: 'https://www.lessoncraftstudio.com/es/apps/rompecabezas-matematicos-fichas',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/spanish/math-puzzle/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Rompecabezas matemáticos ficha gratis - ejercicios de números para preescolar',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/spanish/math-puzzle/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Fichas de matemáticas para imprimir gratis - actividad de suma para primaria',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/spanish/math-puzzle/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Ejercicios matemáticas ficha para niños - práctica de números infantil',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/spanish/math-puzzle/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Fichas gratis de rompecabezas matemáticos - material educativo para preescolar',
-      },
-    ],
-  },
 
   // Hero Section
   hero: {
@@ -90,36 +64,7 @@ Las fichas de matemáticas con rompecabezas funcionan excepcionalmente bien para
     badgeText: 'Ejemplos Gratis',
     downloadingLabel: 'Descargando...',
     ofLabel: 'de',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/spanish/math-puzzle/sample-1.jpeg',
-        answerKeySrc: '/samples/spanish/math-puzzle/sample-1.jpeg',
-        altText: 'Rompecabezas matemáticos ficha gratis - ejercicios de números para preescolar',
-        imageTitle: 'Rompecabezas matemáticos ficha gratis',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/spanish/math-puzzle/sample-2.jpeg',
-        answerKeySrc: '/samples/spanish/math-puzzle/sample-2.jpeg',
-        altText: 'Fichas de matemáticas para imprimir gratis - actividad de suma para primaria',
-        imageTitle: 'Fichas de matemáticas para imprimir gratis',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/spanish/math-puzzle/sample-3.jpeg',
-        answerKeySrc: '/samples/spanish/math-puzzle/sample-3.jpeg',
-        altText: 'Ejercicios matemáticas ficha para niños - práctica de números infantil',
-        imageTitle: 'Ejercicios matemáticas ficha para niños',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/spanish/math-puzzle/sample-4.jpeg',
-        answerKeySrc: '/samples/spanish/math-puzzle/sample-4.jpeg',
-        altText: 'Fichas gratis de rompecabezas matemáticos - material educativo para preescolar',
-        imageTitle: 'Fichas gratis de rompecabezas matemáticos',
-      },
-    ],
+    items: [],
     
   },
 

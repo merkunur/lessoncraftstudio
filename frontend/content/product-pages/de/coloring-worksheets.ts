@@ -31,39 +31,7 @@ export const coloringDeContent: ProductPageContent = {
     description: 'Erstellen Sie professionelle Malvorlagen und Ausmalbilder für Arbeitsblätter Grundschule. Kostenlose Druckvorlagen in 3 Minuten erstellen.',
     keywords: 'malvorlagen generator, ausmalbilder, arbeitsblätter grundschule, kostenlose arbeitsblätter, vorschule arbeitsblätter, schwungübungen, buchstaben lernen, mathe arbeitsblätter, deutsch arbeitsblätter, einmaleins',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/malvorlagen-arbeitsblaetter',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/coloring/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Kostenlose Malvorlagen Arbeitsblätter Grundschule - Ausmalbilder zum Ausdrucken für Vorschul-Arbeitsblätter'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/coloring/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Malvorlagen-Generator für kostenlose Arbeitsblätter - Ausmalbilder für Buchstaben lernen und Schwungübungen'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/coloring/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Vorschul-Arbeitsblätter mit Ausmalbildern - Kostenlose Druckvorlagen für Mathe-Arbeitsblätter'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/coloring/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Arbeitsblatt für Kinder Ausmalbilder - Kostenlose Malvorlagen für Arbeitsblätter Grundschule'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/coloring/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Kostenlose Druckvorlagen Malvorlagen - Ausmalbilder für Vorschul-Arbeitsblätter und Feinmotorik'
-      }
-    ],
-  },
 
   // Hero Section - FULL text from coloring.md paragraphs 1-4
   hero: {
@@ -108,43 +76,7 @@ Exportiere fertige Malvorlagen als hochauflösende PDF oder JPEG Dateien. Profes
     badgeText: 'Kostenlose Beispiele',
     downloadingLabel: 'Wird heruntergeladen...',
     ofLabel: 'von',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/german/coloring/sample-1.jpeg',
-        answerKeySrc: '/samples/german/coloring/sample-1.jpeg',
-        altText: 'Kostenlose Malvorlagen Arbeitsblätter Grundschule - Ausmalbilder zum Ausdrucken für Vorschul-Arbeitsblätter',
-        imageTitle: 'Kostenlose Malvorlagen Arbeitsblätter Grundschule',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/german/coloring/sample-2.jpeg',
-        answerKeySrc: '/samples/german/coloring/sample-2.jpeg',
-        altText: 'Malvorlagen-Generator für kostenlose Arbeitsblätter - Ausmalbilder für Buchstaben lernen und Schwungübungen',
-        imageTitle: 'Malvorlagen-Generator für kostenlose Arbeitsblätter',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/german/coloring/sample-3.jpeg',
-        answerKeySrc: '/samples/german/coloring/sample-3.jpeg',
-        altText: 'Vorschul-Arbeitsblätter mit Ausmalbildern - Kostenlose Druckvorlagen für Mathe-Arbeitsblätter',
-        imageTitle: 'Vorschul-Arbeitsblätter mit Ausmalbildern',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/german/coloring/sample-4.jpeg',
-        answerKeySrc: '/samples/german/coloring/sample-4.jpeg',
-        altText: 'Arbeitsblatt für Kinder Ausmalbilder - Kostenlose Malvorlagen für Arbeitsblätter Grundschule',
-        imageTitle: 'Arbeitsblatt für Kinder Ausmalbilder',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/german/coloring/sample-5.jpeg',
-        answerKeySrc: '/samples/german/coloring/sample-5.jpeg',
-        altText: 'Kostenlose Druckvorlagen Malvorlagen - Ausmalbilder für Vorschul-Arbeitsblätter und Feinmotorik',
-        imageTitle: 'Kostenlose Druckvorlagen Malvorlagen',
-      },
-    ],
+    items: [],
     
   },
 

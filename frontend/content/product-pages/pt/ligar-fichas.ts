@@ -19,33 +19,7 @@ export const matchingPtContent: ProductPageContent = {
     description: 'Crie atividades de ligar profissionais em menos de 3 minutos. Gerador de atividades grátis para imprimir com licença comercial. Baixe PDFs de alta qualidade.',
     keywords: 'atividades de ligar, atividades para imprimir, atividades de alfabetização, educação infantil, coordenação motora, associação, atividades vogais, 1º ano, 2º ano, desenhos para colorir, letra cursiva, pontilhado',
     canonicalUrl: 'https://www.lessoncraftstudio.com/pt/apps/ligar-fichas',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/matching/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Atividade grátis de ligar para educação infantil - ficha de associação visual'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/matching/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Atividade grátis para crianças - ligar imagem e palavra para alfabetização'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/matching/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Imprimíveis grátis de ligar - atividade para educação infantil'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/matching/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Atividades grátis de associação - ligar para crianças'
-      },
-    ],
-  },
 
   // Hero Section - FULL text from matching.md paragraphs 1-3
   hero: {
@@ -88,36 +62,7 @@ Desenvolva materiais didáticos que associam imagens a letras iniciais. Ideal pa
     badgeText: 'Exemplos Grátis',
     downloadingLabel: 'Baixando...',
     ofLabel: 'de',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/portuguese/matching/sample-1.jpeg',
-        answerKeySrc: '/samples/portuguese/matching/sample-1.jpeg',
-        altText: 'Atividade grátis de ligar para educação infantil - ficha de associação visual',
-        imageTitle: 'Atividade grátis de ligar para educação infantil',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/portuguese/matching/sample-2.jpeg',
-        answerKeySrc: '/samples/portuguese/matching/sample-2.jpeg',
-        altText: 'Atividade grátis para crianças - ligar imagem e palavra para alfabetização',
-        imageTitle: 'Atividade grátis para crianças',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/portuguese/matching/sample-3.jpeg',
-        answerKeySrc: '/samples/portuguese/matching/sample-3.jpeg',
-        altText: 'Imprimíveis grátis de ligar - atividade para educação infantil',
-        imageTitle: 'Imprimíveis grátis de ligar',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/portuguese/matching/sample-4.jpeg',
-        answerKeySrc: '/samples/portuguese/matching/sample-4.jpeg',
-        altText: 'Atividades grátis de associação - ligar para crianças',
-        imageTitle: 'Atividades grátis de associação',
-      },
-    ],
+    items: [],
     
   },
 

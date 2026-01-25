@@ -19,39 +19,7 @@ export const findObjectsNoContent: ProductPageContent = {
     description: 'Lag gratis arbeidsark for barn med finn objektene aktiviteter. Gratis utskrifter med I Spy og Odd One Out. Last ned arbeidsark for 1. trinn på 3 min. Perfekt for lærere og foreldre.',
     keywords: 'finn objektene arbeidsark, arbeidsark gratis, matematikk oppgaver, finmotorikk øvelser, oppgavehefter barn, tall og telling, småskoletrinnet, i spy aktiviteter, visuell diskriminering, fargeleggingsbilder barn',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/finn-objektene-arbeidsark',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/norwegian/find-objects/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis arbeidsark for barn - finn objektene I Spy aktiviteter med visuell diskriminering'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/norwegian/find-objects/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Arbeidsark for 1. trinn - gratis utskrifter finn objektene med Odd One Out øvelser'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/norwegian/find-objects/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis arbeidsark finn objektene - visuell diskriminering for barn på småskoletrinnet'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/norwegian/find-objects/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis utskrifter arbeidsark for barn - finn objektene med finmotorikk øvelser'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/norwegian/find-objects/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Arbeidsark for 1. trinn gratis - finn objektene I Spy og tall og telling aktiviteter'
-      },
-    ],
-  },
 
   // Hero Section - FULL text from find-objects.md paragraphs 1-3
   hero: {
@@ -94,43 +62,7 @@ Full Tilgang-abonnement inkluderer alle 33 oppgavegeneratorer på plattformen. L
     noPdfLabel: 'Ingen PDF tilgjengelig',
     freePdfCountLabel: '2 gratis nedlastinger',
     ofLabel: 'av',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/norwegian/find-objects/sample-1.jpeg',
-        answerKeySrc: '/samples/norwegian/find-objects/sample-1.jpeg',
-        altText: 'Gratis arbeidsark for barn - finn objektene I Spy aktiviteter med visuell diskriminering',
-        imageTitle: 'Gratis arbeidsark for barn',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/norwegian/find-objects/sample-2.jpeg',
-        answerKeySrc: '/samples/norwegian/find-objects/sample-2.jpeg',
-        altText: 'Arbeidsark for 1. trinn - gratis utskrifter finn objektene med Odd One Out øvelser',
-        imageTitle: 'Arbeidsark for 1. trinn',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/norwegian/find-objects/sample-3.jpeg',
-        answerKeySrc: '/samples/norwegian/find-objects/sample-3.jpeg',
-        altText: 'Gratis arbeidsark finn objektene - visuell diskriminering for barn på småskoletrinnet',
-        imageTitle: 'Gratis arbeidsark finn objektene',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/norwegian/find-objects/sample-4.jpeg',
-        answerKeySrc: '/samples/norwegian/find-objects/sample-4.jpeg',
-        altText: 'Gratis utskrifter arbeidsark for barn - finn objektene med finmotorikk øvelser',
-        imageTitle: 'Gratis utskrifter arbeidsark for barn',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/norwegian/find-objects/sample-5.jpeg',
-        answerKeySrc: '/samples/norwegian/find-objects/sample-5.jpeg',
-        altText: 'Arbeidsark for 1. trinn gratis - finn objektene I Spy og tall og telling aktiviteter',
-        imageTitle: 'Arbeidsark for 1. trinn gratis',
-      },
-    ],
+    items: [],
     
   },
 

@@ -22,33 +22,7 @@ export const prepositionsSvContent: ProductPageContent = {
     description: 'Skapa professionella prepositionsarbetsblad för förskoleklass och lågstadiet. Generera arbetsblad gratis för elever som lär sig rumsliga begrepp.',
     keywords: 'prepositioner arbetsblad, arbetsblad gratis, förskoleklass material, finmotorik övningar, rumsliga begrepp, i på under, bredvid bakom, svenska prepositioner, lågstadiet material',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/prepositioner-arbetsblad',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/prepositions/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Prepositioner arbetsblad gratis - rumsliga begrepp för förskoleklass material',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/prepositions/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis arbetsblad prepositioner - finmotorik övningar för barn',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/prepositions/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Arbetsblad för barn prepositioner - språkträning i på under',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/prepositions/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis utskrifter prepositioner - rumsord arbetsblad förskoleklass',
-      },
-    ],
-  },
 
   // Hero Section - FULL text from prepositions.md paragraphs 1-4
   hero: {
@@ -93,36 +67,7 @@ Kombinera prepositionsträning med målarbilder barn gillar. Lägg till egna bil
     badgeText: 'Gratis Exempel',
     downloadingLabel: 'Laddar ner...',
     ofLabel: 'av',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/swedish/prepositions/sample-1.jpeg',
-        answerKeySrc: '/samples/swedish/prepositions/sample-1.jpeg',
-        altText: 'Prepositioner arbetsblad gratis - rumsliga begrepp för förskoleklass material',
-        imageTitle: 'Prepositioner arbetsblad gratis',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/swedish/prepositions/sample-2.jpeg',
-        answerKeySrc: '/samples/swedish/prepositions/sample-2.jpeg',
-        altText: 'Gratis arbetsblad prepositioner - finmotorik övningar för barn',
-        imageTitle: 'Gratis arbetsblad prepositioner',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/swedish/prepositions/sample-3.jpeg',
-        answerKeySrc: '/samples/swedish/prepositions/sample-3.jpeg',
-        altText: 'Arbetsblad för barn prepositioner - språkträning i på under',
-        imageTitle: 'Arbetsblad för barn prepositioner',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/swedish/prepositions/sample-4.jpeg',
-        answerKeySrc: '/samples/swedish/prepositions/sample-4.jpeg',
-        altText: 'Gratis utskrifter prepositioner - rumsord arbetsblad förskoleklass',
-        imageTitle: 'Gratis utskrifter prepositioner',
-      },
-    ],
+    items: [],
     
   },
 

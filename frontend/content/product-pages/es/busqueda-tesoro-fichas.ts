@@ -19,33 +19,7 @@ export const treasureHuntEsContent: ProductPageContent = {
     description: 'Crea fichas gratis de búsqueda del tesoro para niños. Generador de fichas para preescolar con direcciones. Descarga fichas gratis para imprimir en 3 minutos.',
     keywords: 'fichas para imprimir, búsqueda del tesoro, fichas infantil, fichas preescolar, direcciones, material educativo gratis, grafomotricidad, lectoescritura, ejercicios matemáticas, fichas gratis',
     canonicalUrl: 'https://www.lessoncraftstudio.com/es/apps/busqueda-tesoro-fichas',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/spanish/treasure-hunt/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Fichas gratis de búsqueda del tesoro para niños - direcciones básicas arriba abajo para preescolar'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/spanish/treasure-hunt/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Ficha gratis para niños de búsqueda del tesoro - direcciones cardinales norte sur para primaria'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/spanish/treasure-hunt/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Ficha para preescolar de búsqueda del tesoro - ejercicios de direccionalidad espacial'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/spanish/treasure-hunt/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Imprimibles gratis de búsqueda del tesoro - fichas de direcciones para educación infantil'
-      },
-    ],
-  },
 
   // Hero Section - FULL text from treasure-hunt.md paragraphs 1-4
   hero: {
@@ -90,36 +64,7 @@ Cada ficha incluye seis pasos de direcciones y una cuadrícula visual con imáge
     badgeText: 'Ejemplos Gratis',
     downloadingLabel: 'Descargando...',
     ofLabel: 'de',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/spanish/treasure-hunt/sample-1.jpeg',
-        answerKeySrc: '/samples/spanish/treasure-hunt/sample-1.jpeg',
-        altText: 'Fichas gratis de búsqueda del tesoro para niños - direcciones básicas arriba abajo para preescolar',
-        imageTitle: 'Fichas gratis de búsqueda del tesoro para niños',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/spanish/treasure-hunt/sample-2.jpeg',
-        answerKeySrc: '/samples/spanish/treasure-hunt/sample-2.jpeg',
-        altText: 'Ficha gratis para niños de búsqueda del tesoro - direcciones cardinales norte sur para primaria',
-        imageTitle: 'Ficha gratis para niños de búsqueda del tesoro',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/spanish/treasure-hunt/sample-3.jpeg',
-        answerKeySrc: '/samples/spanish/treasure-hunt/sample-3.jpeg',
-        altText: 'Ficha para preescolar de búsqueda del tesoro - ejercicios de direccionalidad espacial',
-        imageTitle: 'Ficha para preescolar de búsqueda del tesoro',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/spanish/treasure-hunt/sample-4.jpeg',
-        answerKeySrc: '/samples/spanish/treasure-hunt/sample-4.jpeg',
-        altText: 'Imprimibles gratis de búsqueda del tesoro - fichas de direcciones para educación infantil',
-        imageTitle: 'Imprimibles gratis de búsqueda del tesoro',
-      },
-    ],
+    items: [],
     
   },
 

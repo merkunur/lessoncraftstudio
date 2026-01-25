@@ -21,33 +21,7 @@ export const pictureSortItContent: ProductPageContent = {
     description: 'Crea schede gratuite classificazione per bambini. Scheda gratuita classificazione per scuola dell\'infanzia e primaria. Stampabili gratuiti classificazione.',
     keywords: 'schede gratuite classificazione, scheda gratuita classificazione, stampabili gratuiti classificazione, scheda per bambini classificazione, scheda per scuola dell\'infanzia, schede didattiche classificazione, ordinamento immagini',
     canonicalUrl: 'https://www.lessoncraftstudio.com/it/apps/classificazione-immagini-schede',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/picture-sort/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Scheda Gratuita Classificazione Immagini - Stampabili Gratuiti Scuola Primaria',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/picture-sort/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Schede Gratuite Classificazione per Bambini - Scheda per Scuola dell\'Infanzia',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/picture-sort/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Stampabili Gratuiti Ordinamento Immagini - Scheda Gratuita per Bambini',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/picture-sort/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Schede Gratuite Categorizzazione - Stampabili Gratuiti Sviluppo Logico',
-      },
-    ],
-  },
 
   // Hero Section
   hero: {
@@ -92,29 +66,7 @@ Le attività di classificazione aiutano i bambini a identificare somiglianze e d
     badgeText: 'Schede Gratuite',
     downloadingLabel: 'Scaricamento...',
     ofLabel: 'di',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/italian/picture-sort/sample-1.jpeg',
-        answerKeySrc: '/samples/italian/picture-sort/sample-1.jpeg',
-        altText: 'Scheda Gratuita Classificazione Immagini - Stampabili Gratuiti Scuola Primaria',
-        imageTitle: 'Scheda Gratuita Classificazione Immagini',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/italian/picture-sort/sample-3.jpeg',
-        answerKeySrc: '/samples/italian/picture-sort/sample-3.jpeg',
-        altText: 'Stampabili Gratuiti Ordinamento Immagini - Scheda Gratuita per Bambini',
-        imageTitle: 'Stampabili Gratuiti Ordinamento Immagini',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/italian/picture-sort/sample-4.jpeg',
-        answerKeySrc: '/samples/italian/picture-sort/sample-4.jpeg',
-        altText: 'Schede Gratuite Categorizzazione - Stampabili Gratuiti Sviluppo Logico',
-        imageTitle: 'Schede Gratuite Categorizzazione',
-      },
-    ],
+    items: [],
     
   },
 

@@ -33,39 +33,7 @@ export const prepositionsDeContent: ProductPageContent = {
     description: 'Erstellen Sie Präpositionen-Arbeitsblätter in 3 Minuten. Generator für Vorschule & Grundschule. Räumliche Begriffe üben - kostenlos testen! Perfekt für Lehrer und Eltern.',
     keywords: 'präpositionen arbeitsblätter, räumliche begriffe arbeitsblätter, arbeitsblätter grundschule, kostenlose arbeitsblätter, mathe arbeitsblätter, vorschule arbeitsblätter, deutsch arbeitsblätter, schwungübungen, buchstaben lernen, rechnen lernen',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/praepositionen-arbeitsblaetter',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/prepositions/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Präpositionen Arbeitsblätter kostenlos zum Ausdrucken - Lückentext Übungen für Vorschule und Grundschule',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/prepositions/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Präpositionen Multiple-Choice Arbeitsblätter für Kinder - Räumliche Begriffe üben für Arbeitsblätter Grundschule',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/prepositions/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Kostenlose Präpositionen Übungsblätter - In, auf, unter, neben für Vorschule Arbeitsblätter',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/prepositions/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Präpositionen Arbeitsblätter Grundschule - Räumliche Beziehungen spielerisch lernen',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/prepositions/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Druckbare Präpositionen Arbeitsblätter - Kostenlose Arbeitsblätter für Deutsch Unterricht',
-      },
-    ],
-  },
 
   // Hero Section - FULL text from praepositionen.md
   hero: {
@@ -110,43 +78,7 @@ Perfekt für Erzieher in der Vorschule und Lehrkräfte in der Grundschule, die s
     badgeText: 'Kostenlose Beispiele',
     downloadingLabel: 'Wird heruntergeladen...',
     ofLabel: 'von',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/german/prepositions/sample-1.jpeg',
-        answerKeySrc: '/samples/german/prepositions/sample-1.jpeg',
-        altText: 'Präpositionen Arbeitsblätter kostenlos zum Ausdrucken - Lückentext Übungen für Vorschule und Grundschule',
-        imageTitle: 'Präpositionen Arbeitsblätter kostenlos zum Ausdrucken',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/german/prepositions/sample-2.jpeg',
-        answerKeySrc: '/samples/german/prepositions/sample-2.jpeg',
-        altText: 'Präpositionen Multiple-Choice Arbeitsblätter für Kinder - Räumliche Begriffe üben für Arbeitsblätter Grundschule',
-        imageTitle: 'Präpositionen Multiple-Choice Arbeitsblätter für Kinder',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/german/prepositions/sample-3.jpeg',
-        answerKeySrc: '/samples/german/prepositions/sample-3.jpeg',
-        altText: 'Kostenlose Präpositionen Übungsblätter - In, auf, unter, neben für Vorschule Arbeitsblätter',
-        imageTitle: 'Kostenlose Präpositionen Übungsblätter',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/german/prepositions/sample-4.jpeg',
-        answerKeySrc: '/samples/german/prepositions/sample-4.jpeg',
-        altText: 'Präpositionen Arbeitsblätter Grundschule - Räumliche Beziehungen spielerisch lernen',
-        imageTitle: 'Präpositionen Arbeitsblätter Grundschule',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/german/prepositions/sample-5.jpeg',
-        answerKeySrc: '/samples/german/prepositions/sample-5.jpeg',
-        altText: 'Druckbare Präpositionen Arbeitsblätter - Kostenlose Arbeitsblätter für Deutsch Unterricht',
-        imageTitle: 'Druckbare Präpositionen Arbeitsblätter',
-      },
-    ],
+    items: [],
     
   },
 

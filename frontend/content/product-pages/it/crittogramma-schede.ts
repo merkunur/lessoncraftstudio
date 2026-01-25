@@ -25,39 +25,7 @@ export const cryptogramItContent: ProductPageContent = {
     description: 'Schede gratuite crittogramma per bambini. Stampabili gratuiti per scuola infanzia e primaria. Generatore schede didattiche con 3000+ immagini. Perfetto per insegnanti e genitori.',
     keywords: 'crittogramma con immagini, schede gratuite, scheda gratuita per bambini, stampabili gratuiti, scheda per scuola dell\'infanzia, schede didattiche scuola primaria, pregrafismo, lettere dell\'alfabeto, schede italiano classe prima, generatore crittogramma, schede didattiche scuola infanzia, schede stampabili, crittogramma bambini, attività didattiche',
     canonicalUrl: 'https://www.lessoncraftstudio.com/it/apps/crittogramma-schede',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/cryptogram/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Scheda Gratuita Crittogramma - Stampabili Gratuiti Scuola Infanzia',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/cryptogram/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Schede Gratuite Crittogramma con Immagini per Bambini',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/cryptogram/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Scheda Gratuita per Bambini - Crittogramma Alfabeto',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/cryptogram/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Scheda per Scuola dell\'Infanzia - Crittogramma Stampabile',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/cryptogram/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Schede Didattiche Crittogramma - Stampabili Gratuiti per Bambini',
-      },
-    ],
-  },
 
   // Hero Section
   hero: {
@@ -104,36 +72,7 @@ La libreria di oltre 3000 immagini adatte ai bambini include temi per ogni mater
     badgeText: 'Stampabili Gratuiti',
     downloadingLabel: 'Scaricamento...',
     ofLabel: 'di',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/italian/cryptogram/sample-1.jpeg',
-        answerKeySrc: '/samples/italian/cryptogram/sample-1.jpeg',
-        altText: 'Scheda Gratuita Crittogramma - Stampabili Gratuiti Scuola Infanzia',
-        imageTitle: 'Scheda Gratuita Crittogramma',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/italian/cryptogram/sample-2.jpeg',
-        answerKeySrc: '/samples/italian/cryptogram/sample-2.jpeg',
-        altText: 'Schede Gratuite Crittogramma con Immagini per Bambini',
-        imageTitle: 'Schede Gratuite Crittogramma con Immagini per Bambini',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/italian/cryptogram/sample-3.jpeg',
-        answerKeySrc: '/samples/italian/cryptogram/sample-3.jpeg',
-        altText: 'Scheda Gratuita per Bambini - Crittogramma Alfabeto',
-        imageTitle: 'Scheda Gratuita per Bambini',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/italian/cryptogram/sample-5.jpeg',
-        answerKeySrc: '/samples/italian/cryptogram/sample-5.jpeg',
-        altText: 'Schede Didattiche Crittogramma - Stampabili Gratuiti per Bambini',
-        imageTitle: 'Schede Didattiche Crittogramma',
-      },
-    ],
+    items: [],
     
   },
 

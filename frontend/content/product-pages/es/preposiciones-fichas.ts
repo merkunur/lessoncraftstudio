@@ -21,33 +21,7 @@ export const prepositionsEsContent: ProductPageContent = {
     description: 'Crea fichas de preposiciones profesionales con nuestro generador de fichas para imprimir. Genera fichas infantil personalizadas perfectas para preescolar y.',
     keywords: 'fichas para imprimir, fichas de preposiciones, fichas infantil, material educativo gratis, fichas preescolar, fichas gratis, grafomotricidad, lectoescritura, abecedario, números, tablas de multiplicar, dibujos para colorear, ejercicios matemáticas',
     canonicalUrl: 'https://www.lessoncraftstudio.com/es/apps/preposiciones-fichas',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/spanish/prepositions/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Ficha gratis de preposiciones para imprimir - ejercicio de relaciones espaciales para preescolar',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/spanish/prepositions/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Ficha gratis para ninos de preposiciones - actividad de vocabulario espacial para educacion infantil',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/spanish/prepositions/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Fichas gratis de preposiciones espaciales - material educativo para imprimir',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/spanish/prepositions/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Imprimibles gratis de preposiciones - ficha de vocabulario espacial para preescolar',
-      },
-    ],
-  },
 
   // Hero Section - FULL text from prepositions.md paragraphs 1-6
   hero: {
@@ -96,36 +70,7 @@ Tu suscripcion incluye acceso a mas de 3000 imagenes infantiles organizadas por 
     badgeText: 'Ejemplos Gratis',
     downloadingLabel: 'Descargando...',
     ofLabel: 'de',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/spanish/prepositions/sample-1.jpeg',
-        answerKeySrc: '/samples/spanish/prepositions/sample-1.jpeg',
-        altText: 'Ficha gratis de preposiciones para imprimir - ejercicio de relaciones espaciales para preescolar',
-        imageTitle: 'Ficha gratis de preposiciones para imprimir',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/spanish/prepositions/sample-2.jpeg',
-        answerKeySrc: '/samples/spanish/prepositions/sample-2.jpeg',
-        altText: 'Ficha gratis para ninos de preposiciones - actividad de vocabulario espacial para educacion infantil',
-        imageTitle: 'Ficha gratis para ninos de preposiciones',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/spanish/prepositions/sample-3.jpeg',
-        answerKeySrc: '/samples/spanish/prepositions/sample-3.jpeg',
-        altText: 'Fichas gratis de preposiciones espaciales - material educativo para imprimir',
-        imageTitle: 'Fichas gratis de preposiciones espaciales',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/spanish/prepositions/sample-4.jpeg',
-        answerKeySrc: '/samples/spanish/prepositions/sample-4.jpeg',
-        altText: 'Imprimibles gratis de preposiciones - ficha de vocabulario espacial para preescolar',
-        imageTitle: 'Imprimibles gratis de preposiciones',
-      },
-    ],
+    items: [],
     
   },
 

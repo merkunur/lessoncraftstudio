@@ -21,33 +21,7 @@ export const pictureSortEsContent: ProductPageContent = {
     description: 'Crea fichas profesionales de clasificación con nuestro generador especializado. Tu suscripción Acceso Completo te permite crear fichas infantil ilimitadas sin.',
     keywords: 'fichas para imprimir, fichas de clasificación, fichas preescolar, fichas infantil, material educativo gratis, fichas gratis, grafomotricidad, lectoescritura, abecedario, tablas de multiplicar, dibujos para colorear, educación infantil, categorizar objetos',
     canonicalUrl: 'https://www.lessoncraftstudio.com/es/apps/clasificar-imagenes-fichas',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/spanish/picture-sort/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Ficha gratis de clasificacion para imprimir - ejercicio de categorizacion para preescolar',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/spanish/picture-sort/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Ficha gratis para ninos de clasificacion de imagenes - actividad educativa para infantil',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/spanish/picture-sort/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Fichas gratis de clasificacion - material educativo para educacion primaria',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/spanish/picture-sort/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Imprimibles gratis de clasificacion de imagenes - fichas preescolar profesionales',
-      },
-    ],
-  },
 
   // Hero Section
   hero: {
@@ -92,36 +66,7 @@ Tu suscripción Acceso Completo incluye licencia comercial completa. Vende tus f
     badgeText: 'Ejemplos Gratis',
     downloadingLabel: 'Descargando...',
     ofLabel: 'de',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/spanish/picture-sort/sample-1.jpeg',
-        answerKeySrc: '/samples/spanish/picture-sort/sample-1.jpeg',
-        altText: 'Ficha gratis de clasificacion para imprimir - ejercicio de categorizacion para preescolar',
-        imageTitle: 'Ficha gratis de clasificacion para imprimir',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/spanish/picture-sort/sample-2.jpeg',
-        answerKeySrc: '/samples/spanish/picture-sort/sample-2.jpeg',
-        altText: 'Ficha gratis para ninos de clasificacion de imagenes - actividad educativa para infantil',
-        imageTitle: 'Ficha gratis para ninos de clasificacion de imagenes',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/spanish/picture-sort/sample-3.jpeg',
-        answerKeySrc: '/samples/spanish/picture-sort/sample-3.jpeg',
-        altText: 'Fichas gratis de clasificacion - material educativo para educacion primaria',
-        imageTitle: 'Fichas gratis de clasificacion',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/spanish/picture-sort/sample-4.jpeg',
-        answerKeySrc: '/samples/spanish/picture-sort/sample-4.jpeg',
-        altText: 'Imprimibles gratis de clasificacion de imagenes - fichas preescolar profesionales',
-        imageTitle: 'Imprimibles gratis de clasificacion de imagenes',
-      },
-    ],
+    items: [],
     
   },
 

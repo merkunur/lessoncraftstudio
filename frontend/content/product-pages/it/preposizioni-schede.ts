@@ -19,33 +19,7 @@ export const prepositionsItContent: ProductPageContent = {
     description: 'Crea schede gratuite preposizioni per bambini. Stampabili gratuiti per scuola dell\'infanzia e primaria. Scarica scheda gratuita PDF in 3 minuti.',
     keywords: 'schede gratuite preposizioni, scheda gratuita per bambini, stampabili gratuiti, scheda per scuola dell\'infanzia, schede didattiche scuola primaria, preposizioni spaziali, concetti spaziali, schede italiano classe prima',
     canonicalUrl: 'https://www.lessoncraftstudio.com/it/apps/preposizioni-schede',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/prepositions/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Schede gratuite preposizioni - esercizi spaziali stampabili gratuiti per scuola dell\'infanzia'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/prepositions/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Scheda gratuita per bambini - preposizioni dentro sopra sotto per scuola primaria'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/prepositions/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Schede didattiche preposizioni - stampabili gratuiti concetti spaziali per bambini'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/prepositions/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Scheda per scuola dell\'infanzia - preposizioni spaziali schede gratuite PDF'
-      }
-    ],
-  },
 
   // Hero Section
   hero: {
@@ -90,22 +64,7 @@ Il generatore funziona in 11 lingue diverse. Le preposizioni vengono tradotte au
     badgeText: 'Schede Gratuite',
     downloadingLabel: 'Scaricamento...',
     ofLabel: 'di',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/italian/prepositions/sample-2.jpeg',
-        answerKeySrc: '/samples/italian/prepositions/sample-2.jpeg',
-        altText: 'Scheda gratuita per bambini - preposizioni dentro sopra sotto per scuola primaria',
-        imageTitle: 'Scheda gratuita per bambini',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/italian/prepositions/sample-3.jpeg',
-        answerKeySrc: '/samples/italian/prepositions/sample-3.jpeg',
-        altText: 'Schede didattiche preposizioni - stampabili gratuiti concetti spaziali per bambini',
-        imageTitle: 'Schede didattiche preposizioni',
-      },
-    ],
+    items: [],
     
   },
 

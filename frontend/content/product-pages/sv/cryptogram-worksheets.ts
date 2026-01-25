@@ -19,39 +19,7 @@ export const cryptogramSvContent: ProductPageContent = {
     description: 'Skapa gratis arbetsblad för bildkryptogram. Generera bokstavspussel för förskoleklass och lågstadiet. Ladda ner professionella PDF-arbetsblad på under 3.',
     keywords: 'gratis arbetsblad, gratis arbetsblad för barn, gratis utskrifter, arbetsblad för barn, arbetsblad för förskoleklass, bildkryptogram generator, bokstavspussel, kryptogram barn, bildkryptogram, matematik arbetsblad, finmotorik övningar',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/bildkryptogram-arbetsblad',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/cryptogram/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis arbetsblad bildkryptogram - bokstavspussel för förskoleklass',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/cryptogram/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis arbetsblad för barn - bildkryptogram med tematiska bilder',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/cryptogram/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis utskrifter bildkryptogram - arbetsblad för barn',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/cryptogram/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Arbetsblad för förskoleklass - bildkryptogram bokstavsinlärning',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/cryptogram/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Arbetsblad för barn - gratis bildkryptogram generator',
-      },
-    ],
-  },
 
   // Hero Section - FULL text from cryptogram.md paragraphs 1-4
   hero: {
@@ -96,43 +64,7 @@ Full Tillgång-prenumerationen inkluderar alla 33 arbetsbladsverktyg för 2 880 
     badgeText: 'Gratis Exempel',
     downloadingLabel: 'Laddar ner...',
     ofLabel: 'av',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/swedish/cryptogram/sample-1.jpeg',
-        answerKeySrc: '/samples/swedish/cryptogram/sample-1.jpeg',
-        altText: 'Gratis arbetsblad bildkryptogram - bokstavspussel för förskoleklass',
-        imageTitle: 'Gratis arbetsblad bildkryptogram',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/swedish/cryptogram/sample-2.jpeg',
-        answerKeySrc: '/samples/swedish/cryptogram/sample-2.jpeg',
-        altText: 'Gratis arbetsblad för barn - bildkryptogram med tematiska bilder',
-        imageTitle: 'Gratis arbetsblad för barn',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/swedish/cryptogram/sample-3.jpeg',
-        answerKeySrc: '/samples/swedish/cryptogram/sample-3.jpeg',
-        altText: 'Gratis utskrifter bildkryptogram - arbetsblad för barn',
-        imageTitle: 'Gratis utskrifter bildkryptogram',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/swedish/cryptogram/sample-4.jpeg',
-        answerKeySrc: '/samples/swedish/cryptogram/sample-4.jpeg',
-        altText: 'Arbetsblad för förskoleklass - bildkryptogram bokstavsinlärning',
-        imageTitle: 'Arbetsblad för förskoleklass',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/swedish/cryptogram/sample-5.jpeg',
-        answerKeySrc: '/samples/swedish/cryptogram/sample-5.jpeg',
-        altText: 'Arbetsblad för barn - gratis bildkryptogram generator',
-        imageTitle: 'Arbetsblad för barn',
-      },
-    ],
+    items: [],
     
   },
 

@@ -20,39 +20,7 @@ export const mathWorksheetsEnContent: ProductPageContent = {
     keywords: 'math worksheets, free printable worksheets, kindergarten worksheets, first grade worksheets, printable math worksheets, worksheet for kids, free worksheet, free worksheets, free printables, math puzzle worksheets',
 
     // Google Image Thumbnails - Required for search result images
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/math/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Free math worksheets for kindergarten - picture-based math puzzle with symbols for kids',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/math/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Printable math worksheets - visual equation puzzles for first grade students',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/math/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Free worksheet for kids - math puzzle generator output with answer key',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/math/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Math worksheets free printable - picture math puzzles for kindergarten problem solving',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/math/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Free printables math worksheet - visual equation worksheet for first grade',
-      },
-    ],
-  },
 
   // Hero Section - FULL text from math-worksheet.md paragraphs 1-6
   hero: {
@@ -87,43 +55,7 @@ Each math worksheet includes a matching answer key. Perfect for classroom use or
     downloadLabel: 'Download Free Sample',
     worksheetLabel: 'Worksheet',
     answerKeyLabel: 'Answer Key',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/english/math/sample-1.jpeg',
-        answerKeySrc: '/samples/english/math/sample-1.jpeg',
-        altText: 'Free math worksheets for kindergarten - picture-based math puzzle with symbols for kids',
-        imageTitle: 'Free math worksheets for kindergarten',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/english/math/sample-2.jpeg',
-        answerKeySrc: '/samples/english/math/sample-2.jpeg',
-        altText: 'Printable math worksheets - visual equation puzzles for first grade students',
-        imageTitle: 'Printable math worksheets',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/english/math/sample-3.jpeg',
-        answerKeySrc: '/samples/english/math/sample-3.jpeg',
-        altText: 'Free worksheet for kids - math puzzle generator output with answer key',
-        imageTitle: 'Free worksheet for kids',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/english/math/sample-4.jpeg',
-        answerKeySrc: '/samples/english/math/sample-4.jpeg',
-        altText: 'Math worksheets free printable - picture math puzzles for kindergarten problem solving',
-        imageTitle: 'Math worksheets free printable',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/english/math/sample-5.jpeg',
-        answerKeySrc: '/samples/english/math/sample-5.jpeg',
-        altText: 'Free printables math worksheet - visual equation worksheet for first grade',
-        imageTitle: 'Free printables math worksheet',
-      },
-    ],
+    items: [],
     
   },
 

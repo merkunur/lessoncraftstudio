@@ -31,39 +31,7 @@ export const additionDeContent: ProductPageContent = {
     description: 'Erstellen Sie Additions-Arbeitsblätter für Grundschule und Vorschule. Kostenlose Mathe-Arbeitsblätter mit Lösungsblatt. PDF in 3 Minuten herunterladen.',
     keywords: 'additions generator, mathe arbeitsblätter, arbeitsblätter grundschule, kostenlose arbeitsblätter, vorschule arbeitsblätter, rechnen lernen, rechnen 1 klasse, einmaleins, schwungübungen, ausmalbilder',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/addition-arbeitsblaetter',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/addition/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Kostenlose Additions-Arbeitsblätter für Vorschule - Mathe-Arbeitsblätter mit Bildrechnen für Rechnen lernen'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/addition/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Arbeitsblätter Grundschule Addition - Kostenlose Arbeitsblätter mit Lösungsblatt für 1. Klasse'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/addition/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Vorschul-Arbeitsblätter Mathe - Kostenlose Druckvorlagen für Rechnen lernen mit Bildern'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/addition/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Arbeitsblatt für Kinder Addition - Kostenlose Druckvorlagen für Rechnen 1. Klasse'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/addition/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Kostenloses Arbeitsblatt für Vorschule - Bildbasierte Additions-Übungen für Kinder'
-      }
-    ],
-  },
 
   // Hero Section - FULL text from addition.md paragraphs 1-4
   hero: {
@@ -106,43 +74,7 @@ Unser kostenloser Additions-Generator bietet über 3000 kindgerechte Bilder für
     badgeText: 'Kostenlose Beispiele',
     downloadingLabel: 'Wird heruntergeladen...',
     ofLabel: 'von',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/german/addition/sample-1.jpeg',
-        answerKeySrc: '/samples/german/addition/sample-1.jpeg',
-        altText: 'Kostenlose Additions-Arbeitsblätter für Vorschule - Mathe-Arbeitsblätter mit Bildrechnen für Rechnen lernen',
-        imageTitle: 'Kostenlose Additions-Arbeitsblätter für Vorschule',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/german/addition/sample-2.jpeg',
-        answerKeySrc: '/samples/german/addition/sample-2.jpeg',
-        altText: 'Arbeitsblätter Grundschule Addition - Kostenlose Arbeitsblätter mit Lösungsblatt für 1. Klasse',
-        imageTitle: 'Arbeitsblätter Grundschule Addition',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/german/addition/sample-3.jpeg',
-        answerKeySrc: '/samples/german/addition/sample-3.jpeg',
-        altText: 'Vorschul-Arbeitsblätter Mathe - Kostenlose Druckvorlagen für Rechnen lernen mit Bildern',
-        imageTitle: 'Vorschul-Arbeitsblätter Mathe',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/german/addition/sample-4.jpeg',
-        answerKeySrc: '/samples/german/addition/sample-4.jpeg',
-        altText: 'Arbeitsblatt für Kinder Addition - Kostenlose Druckvorlagen für Rechnen 1. Klasse',
-        imageTitle: 'Arbeitsblatt für Kinder Addition',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/german/addition/sample-5.jpeg',
-        answerKeySrc: '/samples/german/addition/sample-5.jpeg',
-        altText: 'Kostenloses Arbeitsblatt für Vorschule - Bildbasierte Additions-Übungen für Kinder',
-        imageTitle: 'Kostenloses Arbeitsblatt für Vorschule',
-      },
-    ],
+    items: [],
     
   },
 

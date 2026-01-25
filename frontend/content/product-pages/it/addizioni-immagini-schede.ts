@@ -21,33 +21,7 @@ export const codeAdditionItContent: ProductPageContent = {
     description: 'Crea schede gratuite addizioni con immagini. Stampabili gratuiti per bambini scuola infanzia e primaria. Scheda gratuita per bambini matematica visiva.',
     keywords: 'schede didattiche addizioni, addizioni con immagini, schede matematica, schede scuola primaria, schede scuola infanzia, numeri da stampare, pregrafismo, disegni da colorare, tabelline, alfabeto, schede italiano classe prima',
     canonicalUrl: 'https://www.lessoncraftstudio.com/it/apps/addizioni-immagini-schede',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/code-addition/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Scheda Gratuita Addizioni con Immagini - Stampabili Gratuiti Scuola Infanzia',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/code-addition/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Scheda Gratuita per Bambini - Schede Gratuite Addizioni Matematica Visiva',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/code-addition/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Scheda per Bambini Addizioni - Stampabili Gratuiti Matematica Contare',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/code-addition/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Scheda per Scuola dell\'Infanzia - Schede Gratuite Addizioni Immagini',
-      },
-    ],
-  },
 
   // Hero Section
   hero: {
@@ -92,29 +66,7 @@ Modifica tutto sulla scheda gratuita dopo la generazione. Sposta, ruota, ridimen
     badgeText: 'Esempi Gratuiti',
     downloadingLabel: 'Scaricamento...',
     ofLabel: 'di',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/italian/code-addition/sample-1.jpeg',
-        answerKeySrc: '/samples/italian/code-addition/sample-1.jpeg',
-        altText: 'Scheda Gratuita Addizioni con Immagini - Stampabili Gratuiti Scuola Infanzia',
-        imageTitle: 'Scheda Gratuita Addizioni con Immagini',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/italian/code-addition/sample-2.jpeg',
-        answerKeySrc: '/samples/italian/code-addition/sample-2.jpeg',
-        altText: 'Scheda Gratuita per Bambini - Schede Gratuite Addizioni Matematica Visiva',
-        imageTitle: 'Scheda Gratuita per Bambini',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/italian/code-addition/sample-3.jpeg',
-        answerKeySrc: '/samples/italian/code-addition/sample-3.jpeg',
-        altText: 'Scheda per Bambini Addizioni - Stampabili Gratuiti Matematica Contare',
-        imageTitle: 'Scheda per Bambini Addizioni',
-      },
-    ],
+    items: [],
     
   },
 

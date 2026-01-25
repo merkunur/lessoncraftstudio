@@ -19,27 +19,7 @@ export const writingDaContent: ProductPageContent = {
     description: 'Lav gratis arbejdsark til børn med skriveopgaver og skrifttræning. Arbejdsark til børnehaveklasse. Download som PDF. 3 gratis eksempler. Perfekt til lærere og forældre.',
     keywords: 'gratis arbejdsark, arbejdsark til børn, arbejdsark til børnehaveklasse, skriveopgaver, skrifttræning, gratis printables, 0. klasse, 1. klasse, finmotorik øvelser, lære bogstaver',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/skriveopgaver-arbejdsark',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/danish/writing/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis arbejdsark skriveopgaver - skrifttræning til børnehaveklasse'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/danish/writing/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis arbejdsark skriveopgaver - lære bogstaver til 0. klasse'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/danish/writing/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis arbejdsark til børn - skrifttræning finmotorik øvelser'
-      }
-    ],
-  },
 
   // Hero Section - FULL text from writing.md paragraphs 1-3
   hero: {
@@ -82,29 +62,7 @@ Skriveopgaver kombinerer finmotorik øvelser med bogstavlæring. Hvert arbejdsar
     noPdfLabel: 'Ingen PDF tilgængelig',
     freePdfCountLabel: '3 gratis downloads',
     ofLabel: 'af',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/danish/writing/sample-1.jpeg',
-        answerKeySrc: '/samples/danish/writing/sample-1.jpeg',
-        altText: 'Gratis arbejdsark skriveopgaver - skrifttræning til børnehaveklasse',
-        imageTitle: 'Gratis arbejdsark skriveopgaver',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/danish/writing/sample-2.jpeg',
-        answerKeySrc: '/samples/danish/writing/sample-2.jpeg',
-        altText: 'Gratis arbejdsark skriveopgaver - lære bogstaver til 0. klasse',
-        imageTitle: 'Gratis arbejdsark skriveopgaver',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/danish/writing/sample-3.jpeg',
-        answerKeySrc: '/samples/danish/writing/sample-3.jpeg',
-        altText: 'Gratis arbejdsark til børn - skrifttræning finmotorik øvelser',
-        imageTitle: 'Gratis arbejdsark til børn',
-      },
-    ],
+    items: [],
     
   },
 

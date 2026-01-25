@@ -21,39 +21,7 @@ export const findObjectsPtContent: ProductPageContent = {
     description: 'Crie atividades para imprimir profissionais de encontrar objetos com nosso gerador de fichas educativas. Sua assinatura Acesso Completo permite criar.',
     keywords: 'encontrar objetos, atividades para imprimir, atividades educação infantil, atividades de alfabetização, atividades de matemática, coordenação motora, desenhos para colorir, atividades 1º ano, atividades 2º ano, atividades vogais, tabuada, letra cursiva, pontilhado',
     canonicalUrl: 'https://www.lessoncraftstudio.com/pt/apps/encontrar-objetos-fichas',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/find-objects/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Atividade grátis de encontrar objetos para crianças - modo Eu Espio para educação infantil',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/find-objects/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Atividade grátis para crianças de encontrar objetos - imprimíveis grátis para 1º ano',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/find-objects/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Atividades grátis de encontrar objetos infantil - atividade para educação infantil',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/find-objects/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Imprimíveis grátis de encontrar objetos - modo Qual é o Diferente para crianças',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/find-objects/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Atividade grátis para educação infantil de encontrar objetos - fichas com gabarito',
-      },
-    ],
-  },
 
   // Hero Section
   hero: {
@@ -94,43 +62,7 @@ O gerador de atividades para imprimir de encontrar objetos oferece dois modos de
     badgeText: 'Exemplos Grátis',
     downloadingLabel: 'Baixando...',
     ofLabel: 'de',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/portuguese/find-objects/sample-1.jpeg',
-        answerKeySrc: '/samples/portuguese/find-objects/sample-1.jpeg',
-        altText: 'Atividade grátis de encontrar objetos para crianças - modo Eu Espio para educação infantil',
-        imageTitle: 'Atividade grátis de encontrar objetos para crianças',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/portuguese/find-objects/sample-2.jpeg',
-        answerKeySrc: '/samples/portuguese/find-objects/sample-2.jpeg',
-        altText: 'Atividade grátis para crianças de encontrar objetos - imprimíveis grátis para 1º ano',
-        imageTitle: 'Atividade grátis para crianças de encontrar objetos',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/portuguese/find-objects/sample-3.jpeg',
-        answerKeySrc: '/samples/portuguese/find-objects/sample-3.jpeg',
-        altText: 'Atividades grátis de encontrar objetos infantil - atividade para educação infantil',
-        imageTitle: 'Atividades grátis de encontrar objetos infantil',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/portuguese/find-objects/sample-4.jpeg',
-        answerKeySrc: '/samples/portuguese/find-objects/sample-4.jpeg',
-        altText: 'Imprimíveis grátis de encontrar objetos - modo Qual é o Diferente para crianças',
-        imageTitle: 'Imprimíveis grátis de encontrar objetos',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/portuguese/find-objects/sample-5.jpeg',
-        answerKeySrc: '/samples/portuguese/find-objects/sample-5.jpeg',
-        altText: 'Atividade grátis para educação infantil de encontrar objetos - fichas com gabarito',
-        imageTitle: 'Atividade grátis para educação infantil de encontrar objetos',
-      },
-    ],
+    items: [],
     
   },
 

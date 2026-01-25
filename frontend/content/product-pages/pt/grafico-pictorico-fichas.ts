@@ -19,33 +19,7 @@ export const chartCountPtContent: ProductPageContent = {
     description: 'Crie fichas de gráficos pictóricos personalizadas para suas aulas de matemática. Com sua assinatura Acesso Completo, você cria quantas fichas precisar sem.',
     keywords: 'atividades de matemática, gráfico pictórico, atividades para imprimir, educação infantil, atividades 1º ano, atividades 2º ano, contagem, interpretação de dados, fichas matemática, atividades de alfabetização',
     canonicalUrl: 'https://www.lessoncraftstudio.com/pt/apps/grafico-pictorico-fichas',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/chart-count/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gráfico pictórico atividade grátis - contagem de imagens para educação infantil'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/chart-count/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Atividade de gráfico pictórico grátis para crianças - matemática visual'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/chart-count/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Fichas de gráfico pictórico grátis - atividade para educação infantil'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/chart-count/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gráfico pictórico atividades grátis para imprimir - contagem infantil'
-      }
-    ],
-  },
 
   // Hero Section
   hero: {
@@ -88,36 +62,7 @@ Gráficos pictóricos são ferramentas essenciais para ensinar contagem. Crianç
     badgeText: 'Exemplos Grátis',
     downloadingLabel: 'Baixando...',
     ofLabel: 'de',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/portuguese/chart-count/sample-1.jpeg',
-        answerKeySrc: '/samples/portuguese/chart-count/sample-1.jpeg',
-        altText: 'Gráfico pictórico atividade grátis - contagem de imagens para educação infantil',
-        imageTitle: 'Gráfico pictórico atividade grátis',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/portuguese/chart-count/sample-2.jpeg',
-        answerKeySrc: '/samples/portuguese/chart-count/sample-2.jpeg',
-        altText: 'Atividade de gráfico pictórico grátis para crianças - matemática visual',
-        imageTitle: 'Atividade de gráfico pictórico grátis para crianças',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/portuguese/chart-count/sample-3.jpeg',
-        answerKeySrc: '/samples/portuguese/chart-count/sample-3.jpeg',
-        altText: 'Fichas de gráfico pictórico grátis - atividade para educação infantil',
-        imageTitle: 'Fichas de gráfico pictórico grátis',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/portuguese/chart-count/sample-4.jpeg',
-        answerKeySrc: '/samples/portuguese/chart-count/sample-4.jpeg',
-        altText: 'Gráfico pictórico atividades grátis para imprimir - contagem infantil',
-        imageTitle: 'Gráfico pictórico atividades grátis para imprimir',
-      },
-    ],
+    items: [],
     
   },
 

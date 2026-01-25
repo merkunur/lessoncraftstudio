@@ -19,39 +19,7 @@ export const findAndCountDaContent: ProductPageContent = {
     description: 'Lav professionelle find og tæl gratis arbejdsark til børn med vores pædagogiske værktøj. Download gratis printables og matematikopgaver til børnehaveklassen.',
     keywords: 'find og tæl, gratis arbejdsark, gratis arbejdsark til børn, gratis printables, arbejdsark til børn, arbejdsark til børnehaveklasse, opgaver til print, matematikopgaver, børnehaveklassen, 0. klasse, 1. klasse, gratis skoleopgaver, tælleøvelser',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/find-og-tael-arbejdsark',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/danish/find-and-count/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Find og tæl gratis arbejdsark - tælleøvelser til børnehaveklassen',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/danish/find-and-count/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Find og tæl gratis arbejdsark til børn - matematikopgaver til 1. klasse',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/danish/find-and-count/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis printables find og tæl - arbejdsark til børnehaveklasse',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/danish/find-and-count/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Arbejdsark til børn - find og tæl gratis opgaver til print',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/danish/find-and-count/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis arbejdsark til børnehaveklasse - find og tæl matematikopgaver',
-      },
-    ],
-  },
 
   // Hero Section - FULL text from find-and-count.md paragraphs 1-4
   hero: {
@@ -96,43 +64,7 @@ Opret gratis skoleopgaver til print med dit abonnement. Ingen ekstra omkostninge
     noPdfLabel: 'Ingen PDF tilgængelig',
     freePdfCountLabel: '2 gratis downloads',
     ofLabel: 'af',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/danish/find-and-count/sample-1.jpeg',
-        answerKeySrc: '/samples/danish/find-and-count/sample-1.jpeg',
-        altText: 'Find og tæl gratis arbejdsark - tælleøvelser til børnehaveklassen',
-        imageTitle: 'Find og tæl gratis arbejdsark',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/danish/find-and-count/sample-2.jpeg',
-        answerKeySrc: '/samples/danish/find-and-count/sample-2.jpeg',
-        altText: 'Find og tæl gratis arbejdsark til børn - matematikopgaver til 1. klasse',
-        imageTitle: 'Find og tæl gratis arbejdsark til børn',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/danish/find-and-count/sample-3.jpeg',
-        answerKeySrc: '/samples/danish/find-and-count/sample-3.jpeg',
-        altText: 'Gratis printables find og tæl - arbejdsark til børnehaveklasse',
-        imageTitle: 'Gratis printables find og tæl',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/danish/find-and-count/sample-4.jpeg',
-        answerKeySrc: '/samples/danish/find-and-count/sample-4.jpeg',
-        altText: 'Arbejdsark til børn - find og tæl gratis opgaver til print',
-        imageTitle: 'Arbejdsark til børn',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/danish/find-and-count/sample-5.jpeg',
-        answerKeySrc: '/samples/danish/find-and-count/sample-5.jpeg',
-        altText: 'Gratis arbejdsark til børnehaveklasse - find og tæl matematikopgaver',
-        imageTitle: 'Gratis arbejdsark til børnehaveklasse',
-      },
-    ],
+    items: [],
     
   },
 

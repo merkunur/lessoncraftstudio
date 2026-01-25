@@ -19,39 +19,7 @@ export const coloringEnContent: ProductPageContent = {
     title: 'Free Printable Coloring Worksheets for Kids | Coloring Pages Generator',
     description: 'Create free printable coloring worksheets for kindergarten and first grade. Generate coloring pages for kids with 3000+ images. Download PDF worksheets in 3.',
     keywords: 'coloring worksheets, free printable coloring pages, coloring pages for kids, kindergarten coloring worksheets, free worksheets, coloring activities, first grade worksheets, printable worksheets, free printables, worksheet for kids',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/coloring/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Free printable coloring worksheets for kindergarten - coloring pages for kids developing fine motor skills',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/coloring/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Kindergarten coloring worksheets free printables - coloring activities for preschool and early childhood',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/coloring/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Printable coloring pages for kids - free worksheet for kindergarten with educational coloring activities',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/coloring/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Free coloring worksheets for kids - printable coloring pages for preschool fine motor development',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/coloring/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Coloring pages printable free - kindergarten coloring worksheets for creative learning',
-      },
-    ],
-  },
 
   // Hero Section
   hero: {
@@ -80,43 +48,7 @@ Every element on your coloring page is fully editable. Drag images anywhere on t
     downloadLabel: 'Download Free Sample',
     worksheetLabel: 'Worksheet',
     answerKeyLabel: 'Answer Key',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/english/coloring/sample-1.jpeg',
-        answerKeySrc: '/samples/english/coloring/sample-1.jpeg',
-        altText: 'Free printable coloring worksheets for kindergarten - coloring pages for kids developing fine motor skills',
-        imageTitle: 'Free printable coloring worksheets for kindergarten',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/english/coloring/sample-2.jpeg',
-        answerKeySrc: '/samples/english/coloring/sample-2.jpeg',
-        altText: 'Kindergarten coloring worksheets free printables - coloring activities for preschool and early childhood',
-        imageTitle: 'Kindergarten coloring worksheets free printables',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/english/coloring/sample-3.jpeg',
-        answerKeySrc: '/samples/english/coloring/sample-3.jpeg',
-        altText: 'Printable coloring pages for kids - free worksheet for kindergarten with educational coloring activities',
-        imageTitle: 'Printable coloring pages for kids',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/english/coloring/sample-4.jpeg',
-        answerKeySrc: '/samples/english/coloring/sample-4.jpeg',
-        altText: 'Free coloring worksheets for kids - printable coloring pages for preschool fine motor development',
-        imageTitle: 'Free coloring worksheets for kids',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/english/coloring/sample-5.jpeg',
-        answerKeySrc: '/samples/english/coloring/sample-5.jpeg',
-        altText: 'Coloring pages printable free - kindergarten coloring worksheets for creative learning',
-        imageTitle: 'Coloring pages printable free',
-      },
-    ],
+    items: [],
     
   },
 

@@ -39,39 +39,7 @@ export const findObjectsNlContent: ProductPageContent = {
     description: 'Maak professionele zoekwerkbladen met onze gebruiksvriendelijke generator. Jouw Volledige Toegang abonnement geeft je onbeperkte toegang tot werkbladen voor.',
     keywords: 'zoek voorwerpen werkbladen, werkbladen groep 3, werkbladen kleuters, oefenbladen gratis, fijne motoriek, visuele discriminatie, veilig leren lezen, letters leren, rekenen werkbladen, I Spy werkbladen',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/zoek-voorwerpen-werkbladen',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/find-objects/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Zoek voorwerpen werkbladen - gratis werkblad voor kinderen met visuele discriminatie oefeningen',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/find-objects/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis werkbladen zoek voorwerpen - werkblad voor kleuters met I Spy activiteit',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/find-objects/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Werkblad voor kinderen zoek de vreemde eend - gratis printables voor groep 3',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/find-objects/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis werkblad zoek voorwerpen - oefenbladen gratis voor werkbladen kleuters',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/find-objects/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Zoek voorwerpen gratis werkbladen - werkblad voor kleuters en visuele training',
-      },
-    ],
-  },
 
   // Hero Section - FULL text from find-objects.md paragraphs 1-2
   hero: {
@@ -114,43 +82,7 @@ Deze werkbladen kleuters ondersteunen de ontwikkeling van visuele waarneming en 
     badgeText: 'Gratis Voorbeelden',
     downloadingLabel: 'Downloaden...',
     ofLabel: 'van',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/dutch/find-objects/sample-1.jpeg',
-        answerKeySrc: '/samples/dutch/find-objects/sample-1.jpeg',
-        altText: 'Zoek voorwerpen werkbladen - gratis werkblad voor kinderen met visuele discriminatie oefeningen',
-        imageTitle: 'Zoek voorwerpen werkbladen',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/dutch/find-objects/sample-2.jpeg',
-        answerKeySrc: '/samples/dutch/find-objects/sample-2.jpeg',
-        altText: 'Gratis werkbladen zoek voorwerpen - werkblad voor kleuters met I Spy activiteit',
-        imageTitle: 'Gratis werkbladen zoek voorwerpen',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/dutch/find-objects/sample-3.jpeg',
-        answerKeySrc: '/samples/dutch/find-objects/sample-3.jpeg',
-        altText: 'Werkblad voor kinderen zoek de vreemde eend - gratis printables voor groep 3',
-        imageTitle: 'Werkblad voor kinderen zoek de vreemde eend',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/dutch/find-objects/sample-4.jpeg',
-        answerKeySrc: '/samples/dutch/find-objects/sample-4.jpeg',
-        altText: 'Gratis werkblad zoek voorwerpen - oefenbladen gratis voor werkbladen kleuters',
-        imageTitle: 'Gratis werkblad zoek voorwerpen',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/dutch/find-objects/sample-5.jpeg',
-        answerKeySrc: '/samples/dutch/find-objects/sample-5.jpeg',
-        altText: 'Zoek voorwerpen gratis werkbladen - werkblad voor kleuters en visuele training',
-        imageTitle: 'Zoek voorwerpen gratis werkbladen',
-      },
-    ],
+    items: [],
     
   },
 

@@ -19,39 +19,7 @@ export const sudokuSvContent: ProductPageContent = {
     description: 'Skapa gratis bildsudoku arbetsblad för förskoleklass och lågstadiet. Ladda ner PDF matematik arbetsblad med facit på under 3 minuter. 300 DPI kvalitet.',
     keywords: 'sudoku för barn, bildsudoku, arbetsblad gratis, förskoleklass material, matematik arbetsblad, matte övningar, finmotorik övningar, bokstäver lära sig, siffror och tal, målarbilder barn, lågstadiet',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/bildsudoku-arbetsblad',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/sudoku/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis bildsudoku arbetsblad för förskoleklass - 4x4 logikpussel för barn',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/sudoku/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Sudoku för barn arbetsblad gratis - matematik övningar med bilder',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/sudoku/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Arbetsblad för förskoleklass - gratis bildsudoku med facit',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/sudoku/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis utskrifter sudoku för barn - logikpussel arbetsblad',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/sudoku/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Arbetsblad för barn gratis - bildsudoku förskoleklass material',
-      },
-    ],
-  },
 
   // Hero Section - FULL text from sudoku.md paragraphs 1-4
   hero: {
@@ -96,43 +64,7 @@ Verktyget fungerar för alla lärarnivåer. Ingen designerfarenhet behövs. Väl
     badgeText: 'Gratis Exempel',
     downloadingLabel: 'Laddar ner...',
     ofLabel: 'av',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/swedish/sudoku/sample-1.jpeg',
-        answerKeySrc: '/samples/swedish/sudoku/sample-1.jpeg',
-        altText: 'Gratis bildsudoku arbetsblad för förskoleklass - 4x4 logikpussel för barn',
-        imageTitle: 'Gratis bildsudoku arbetsblad för förskoleklass',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/swedish/sudoku/sample-2.jpeg',
-        answerKeySrc: '/samples/swedish/sudoku/sample-2.jpeg',
-        altText: 'Sudoku för barn arbetsblad gratis - matematik övningar med bilder',
-        imageTitle: 'Sudoku för barn arbetsblad gratis',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/swedish/sudoku/sample-3.jpeg',
-        answerKeySrc: '/samples/swedish/sudoku/sample-3.jpeg',
-        altText: 'Arbetsblad för förskoleklass - gratis bildsudoku med facit',
-        imageTitle: 'Arbetsblad för förskoleklass',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/swedish/sudoku/sample-4.jpeg',
-        answerKeySrc: '/samples/swedish/sudoku/sample-4.jpeg',
-        altText: 'Gratis utskrifter sudoku för barn - logikpussel arbetsblad',
-        imageTitle: 'Gratis utskrifter sudoku för barn',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/swedish/sudoku/sample-5.jpeg',
-        answerKeySrc: '/samples/swedish/sudoku/sample-5.jpeg',
-        altText: 'Arbetsblad för barn gratis - bildsudoku förskoleklass material',
-        imageTitle: 'Arbetsblad för barn gratis',
-      },
-    ],
+    items: [],
     
   },
 

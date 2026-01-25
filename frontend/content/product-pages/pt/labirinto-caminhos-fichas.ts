@@ -21,33 +21,7 @@ export const picturePathPtContent: ProductPageContent = {
     description: 'Crie labirintos e caminhos personalizados com imagens em minutos. O gerador de Picture Path oferece três modos únicos para educação infantil.',
     keywords: 'atividade grátis, atividades grátis, imprimíveis grátis, atividade para crianças, atividade para educação infantil, labirintos, coordenação motora, atividades de alfabetização, desenhos para colorir, letra cursiva, pontilhado, tabuada, atividades de matemática, atividades 1º ano, atividades 2º ano',
     canonicalUrl: 'https://www.lessoncraftstudio.com/pt/apps/labirinto-caminhos-fichas',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/picture-path/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Atividade grátis de labirinto e caminho de imagens para educação infantil'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/picture-path/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Atividade grátis de labirinto clássico com colecionáveis para crianças'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/picture-path/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Atividade grátis escolha o caminho certo para educação infantil'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/picture-path/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Atividade grátis de coordenação motora com labirintos para crianças'
-      }
-    ],
-  },
 
   // Hero Section
   hero: {
@@ -90,36 +64,7 @@ Combine labirintos com aprendizado de letras e palavras. Crie atividades grátis
     badgeText: 'Exemplos Grátis',
     downloadingLabel: 'Baixando...',
     ofLabel: 'de',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/portuguese/picture-path/sample-1.jpeg',
-        answerKeySrc: '/samples/portuguese/picture-path/sample-1.jpeg',
-        altText: 'Atividade grátis de labirinto e caminho de imagens para educação infantil',
-        imageTitle: 'Atividade grátis de labirinto e caminho de imagens para educação infantil',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/portuguese/picture-path/sample-2.jpeg',
-        answerKeySrc: '/samples/portuguese/picture-path/sample-2.jpeg',
-        altText: 'Atividade grátis de labirinto clássico com colecionáveis para crianças',
-        imageTitle: 'Atividade grátis de labirinto clássico com colecionáveis para crianças',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/portuguese/picture-path/sample-3.jpeg',
-        answerKeySrc: '/samples/portuguese/picture-path/sample-3.jpeg',
-        altText: 'Atividade grátis escolha o caminho certo para educação infantil',
-        imageTitle: 'Atividade grátis escolha o caminho certo para educação infantil',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/portuguese/picture-path/sample-4.jpeg',
-        answerKeySrc: '/samples/portuguese/picture-path/sample-4.jpeg',
-        altText: 'Atividade grátis de coordenação motora com labirintos para crianças',
-        imageTitle: 'Atividade grátis de coordenação motora com labirintos para crianças',
-      },
-    ],
+    items: [],
     
   },
 

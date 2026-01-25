@@ -19,33 +19,7 @@ export const mathWorksheetsNoContent: ProductPageContent = {
     description: 'Lag gratis matematikk oppgaver for barn. Bildebaserte matteoppgaver for småskoletrinnet. Last ned PDF arbeidsark på 3 min. 3000+ bilder tilgjengelig. Perfekt for lærere og foreldre.',
     keywords: 'matematikk oppgaver, arbeidsark gratis, matteoppgaver, oppgavehefter barn, addisjon og subtraksjon, tall og telling, småskoletrinnet, barneskolen, gangetabellen, fargeleggingsbilder barn',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/matematikk-oppgaver-arbeidsark',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/norwegian/math/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Matematikk oppgaver arbeidsark gratis - bildebaserte matteoppgaver for småskoletrinnet',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/norwegian/math/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis arbeidsark matematikk oppgaver - tall og telling for barneskolen',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/norwegian/math/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Arbeidsark gratis matteoppgaver - addisjon og subtraksjon for barn',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/norwegian/math/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Matematikk oppgaver gratis arbeidsark - oppgavehefter barn for småskoletrinnet',
-      },
-    ],
-  },
 
   // Hero Section - FULL text from math-worksheet.md paragraphs 1-4
   hero: {
@@ -90,36 +64,7 @@ Hver matematikk oppgave bruker bilder fra vårt bibliotek på 3000+ barnevennlig
     noPdfLabel: 'Ingen PDF tilgjengelig',
     freePdfCountLabel: '4 gratis nedlastinger',
     ofLabel: 'av',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/norwegian/math/sample-1.jpeg',
-        answerKeySrc: '/samples/norwegian/math/sample-1.jpeg',
-        altText: 'Matematikk oppgaver arbeidsark gratis - bildebaserte matteoppgaver for småskoletrinnet',
-        imageTitle: 'Matematikk oppgaver arbeidsark gratis',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/norwegian/math/sample-2.jpeg',
-        answerKeySrc: '/samples/norwegian/math/sample-2.jpeg',
-        altText: 'Gratis arbeidsark matematikk oppgaver - tall og telling for barneskolen',
-        imageTitle: 'Gratis arbeidsark matematikk oppgaver',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/norwegian/math/sample-3.jpeg',
-        answerKeySrc: '/samples/norwegian/math/sample-3.jpeg',
-        altText: 'Arbeidsark gratis matteoppgaver - addisjon og subtraksjon for barn',
-        imageTitle: 'Arbeidsark gratis matteoppgaver',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/norwegian/math/sample-4.jpeg',
-        answerKeySrc: '/samples/norwegian/math/sample-4.jpeg',
-        altText: 'Matematikk oppgaver gratis arbeidsark - oppgavehefter barn for småskoletrinnet',
-        imageTitle: 'Matematikk oppgaver gratis arbeidsark',
-      },
-    ],
+    items: [],
     
   },
 

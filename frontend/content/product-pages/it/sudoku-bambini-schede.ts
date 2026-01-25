@@ -19,33 +19,7 @@ export const sudokuItContent: ProductPageContent = {
     description: 'Crea schede gratuite sudoku per bambini con il nostro generatore. Puzzle visivi 4x4 per scuola dell\'infanzia. Scarica stampabili gratuiti in 3 minuti!',
     keywords: 'sudoku per bambini, schede didattiche scuola infanzia, puzzle visivi, sudoku 4x4, schede didattiche classe prima, schede matematica, pregrafismo, generatore sudoku, schede stampabili, pensiero critico',
     canonicalUrl: 'https://www.lessoncraftstudio.com/it/apps/sudoku-bambini-schede',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/sudoku/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Scheda gratuita sudoku per bambini - puzzle visivo 4x4 facile per scuola dell\'infanzia'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/sudoku/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Schede gratuite sudoku visivo medio - stampabili gratuiti per scuola primaria'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/sudoku/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Scheda per bambini puzzle sudoku difficile - schede didattiche classe prima'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/sudoku/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Stampabili gratuiti sudoku con immagini - scheda gratuita puzzle logico educativo'
-      }
-    ],
-  },
 
   // Hero Section
   hero: {
@@ -88,29 +62,7 @@ Questo generatore di schede didattiche sudoku è perfetto per insegnanti della s
     badgeText: 'Esempi Gratuiti',
     downloadingLabel: 'Scaricamento...',
     ofLabel: 'di',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/italian/sudoku/sample-2.jpeg',
-        answerKeySrc: '/samples/italian/sudoku/sample-2.jpeg',
-        altText: 'Schede gratuite sudoku visivo medio - stampabili gratuiti per scuola primaria',
-        imageTitle: 'Schede gratuite sudoku visivo medio',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/italian/sudoku/sample-3.jpeg',
-        answerKeySrc: '/samples/italian/sudoku/sample-3.jpeg',
-        altText: 'Scheda per bambini puzzle sudoku difficile - schede didattiche classe prima',
-        imageTitle: 'Scheda per bambini puzzle sudoku difficile',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/italian/sudoku/sample-4.jpeg',
-        answerKeySrc: '/samples/italian/sudoku/sample-4.jpeg',
-        altText: 'Stampabili gratuiti sudoku con immagini - scheda gratuita puzzle logico educativo',
-        imageTitle: 'Stampabili gratuiti sudoku con immagini',
-      },
-    ],
+    items: [],
     
   },
 

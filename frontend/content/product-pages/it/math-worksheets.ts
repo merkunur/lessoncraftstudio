@@ -26,33 +26,7 @@ export const mathWorksheetsItContent: ProductPageContent = {
     description: 'Crea schede matematica professionali con il nostro generatore schede didattiche. Genera schede didattiche scuola primaria personalizzate con immagini per.',
     keywords: 'schede matematica, generatore schede didattiche, schede didattiche scuola primaria, schede stampabili, numeri da stampare, pregrafismo, tabelline, disegni da colorare, schede italiano classe prima, alfabeto',
     canonicalUrl: 'https://www.lessoncraftstudio.com/it/apps/matematica-schede',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/math/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Schede matematica scheda gratuita per bambini - esercizi visivi scuola infanzia',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/math/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Schede gratuite matematica stampabili gratuiti - scheda per bambini scuola primaria',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/math/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Scheda gratuita matematica schede gratuite - stampabili gratuiti per bambini',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/math/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Scheda per scuola dell\'infanzia matematica - schede gratuite esercizi conteggio',
-      },
-    ],
-  },
 
   // Hero Section - FULL text from math-worksheet.md paragraphs 1-3
   hero: {
@@ -95,29 +69,7 @@ Perfetto per insegnanti della scuola dell'infanzia e della scuola primaria. Le s
     badgeText: 'Esempi Gratuiti',
     downloadingLabel: 'Scaricamento...',
     ofLabel: 'di',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/italian/math/sample-1.jpeg',
-        answerKeySrc: '/samples/italian/math/sample-1.jpeg',
-        altText: 'Schede matematica scheda gratuita per bambini - esercizi visivi scuola infanzia',
-        imageTitle: 'Schede matematica scheda gratuita per bambini',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/italian/math/sample-2.jpeg',
-        answerKeySrc: '/samples/italian/math/sample-2.jpeg',
-        altText: 'Schede gratuite matematica stampabili gratuiti - scheda per bambini scuola primaria',
-        imageTitle: 'Schede gratuite matematica stampabili gratuiti',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/italian/math/sample-3.jpeg',
-        answerKeySrc: '/samples/italian/math/sample-3.jpeg',
-        altText: 'Scheda gratuita matematica schede gratuite - stampabili gratuiti per bambini',
-        imageTitle: 'Scheda gratuita matematica schede gratuite',
-      },
-    ],
+    items: [],
     
   },
 

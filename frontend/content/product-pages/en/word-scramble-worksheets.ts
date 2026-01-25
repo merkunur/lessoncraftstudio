@@ -19,39 +19,7 @@ export const wordScrambleEnContent: ProductPageContent = {
     description: 'Create free word scramble worksheets for kindergarten and first grade. Generate printable vocabulary puzzles with answer keys. Download PDF worksheets.',
     keywords: 'word scramble worksheets, free printable worksheets, kindergarten worksheets, vocabulary worksheets, word scramble generator, spelling worksheets, first grade worksheets, sight words worksheets, phonics worksheets, ABC worksheets',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/word-scramble-worksheets',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/word-scramble/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Free printable word scramble worksheets for kindergarten - vocabulary puzzle with picture clues',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/word-scramble/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Word scramble worksheets - spelling puzzles for first grade vocabulary practice',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/word-scramble/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Free word scramble worksheet custom word list - sight words practice for kids',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/word-scramble/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Word scramble printable free - vocabulary unscramble worksheet for preschool',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/word-scramble/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Free spelling worksheets - word scramble puzzle for kindergarten phonics',
-      },
-    ]
-  },
 
   // Hero Section - FULL text from word-scramble.md paragraphs 1-5
   hero: {
@@ -84,43 +52,7 @@ Every worksheet downloads as a 300 DPI professional-quality PDF or JPEG file. In
     downloadLabel: 'Download Free Sample',
     worksheetLabel: 'Worksheet',
     answerKeyLabel: 'Answer Key',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/english/word-scramble/sample-1.jpeg',
-        answerKeySrc: '/samples/english/word-scramble/sample-1.jpeg',
-        altText: 'Free printable word scramble worksheets for kindergarten - vocabulary puzzle with picture clues',
-        imageTitle: 'Free printable word scramble worksheets for kindergarten',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/english/word-scramble/sample-2.jpeg',
-        answerKeySrc: '/samples/english/word-scramble/sample-2.jpeg',
-        altText: 'Word scramble worksheets - spelling puzzles for first grade vocabulary practice',
-        imageTitle: 'Word scramble worksheets',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/english/word-scramble/sample-3.jpeg',
-        answerKeySrc: '/samples/english/word-scramble/sample-3.jpeg',
-        altText: 'Free word scramble worksheet custom word list - sight words practice for kids',
-        imageTitle: 'Free word scramble worksheet custom word list',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/english/word-scramble/sample-4.jpeg',
-        answerKeySrc: '/samples/english/word-scramble/sample-4.jpeg',
-        altText: 'Word scramble printable free - vocabulary unscramble worksheet for preschool',
-        imageTitle: 'Word scramble printable free',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/english/word-scramble/sample-5.jpeg',
-        answerKeySrc: '/samples/english/word-scramble/sample-5.jpeg',
-        altText: 'Free spelling worksheets - word scramble puzzle for kindergarten phonics',
-        imageTitle: 'Free spelling worksheets',
-      },
-    ],
+    items: [],
     
   },
 

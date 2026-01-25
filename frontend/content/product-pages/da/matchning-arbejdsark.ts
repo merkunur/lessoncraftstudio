@@ -19,27 +19,7 @@ export const matchingDaContent: ProductPageContent = {
     description: 'Lav professionelle matchingsopgaver med vores opgavegenerator til dansk folkeskole. Dit Core Bundle-abonnement giver dig ubegrænset adgang til at lave.',
     keywords: 'matchingsopgaver, gratis skoleopgaver, arbejdsark til print, 0. klasse opgaver, 1. klasse, børnehaveklassen, kopiark, finmotorik øvelser, lære bogstaver, parspil',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/matchning-arbejdsark',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/danish/matching/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Matchningsopgave arbejdsark - gratis skoleopgaver til børnehaveklassen'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/danish/matching/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Billede og ord matchning - arbejdsark til 0. klasse og 1. klasse'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/danish/matching/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Tilpasset matchningsopgave - gratis arbejdsark til børn'
-      }
-    ],
-  },
 
   // Hero Section - FULL text from matching.md paragraphs 1-4
   hero: {
@@ -84,29 +64,7 @@ Udvid dine opgaver med farvelægning og skriv bogstaver aktiviteter. Kombiner ma
     noPdfLabel: 'Ingen PDF tilgængelig',
     freePdfCountLabel: '3 gratis downloads',
     ofLabel: 'af',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/danish/matching/sample-1.jpeg',
-        answerKeySrc: '/samples/danish/matching/sample-1.jpeg',
-        altText: 'Matchningsopgave arbejdsark - gratis skoleopgaver til børnehaveklassen',
-        imageTitle: 'Matchningsopgave arbejdsark',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/danish/matching/sample-2.jpeg',
-        answerKeySrc: '/samples/danish/matching/sample-2.jpeg',
-        altText: 'Billede og ord matchning - arbejdsark til 0. klasse og 1. klasse',
-        imageTitle: 'Billede og ord matchning',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/danish/matching/sample-3.jpeg',
-        answerKeySrc: '/samples/danish/matching/sample-3.jpeg',
-        altText: 'Tilpasset matchningsopgave - gratis arbejdsark til børn',
-        imageTitle: 'Tilpasset matchningsopgave',
-      },
-    ],
+    items: [],
     
   },
 

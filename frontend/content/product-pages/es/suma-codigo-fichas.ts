@@ -19,33 +19,7 @@ export const sumaCodigoEsContent: ProductPageContent = {
     description: 'Crea fichas de matemáticas únicas con nuestro generador de código de imágenes. Fichas infantil personalizadas perfectas para preescolar y primer grado.',
     keywords: 'fichas de matemáticas, fichas para imprimir, fichas infantil, fichas preescolar, material educativo gratis, ejercicios matemáticas, suma, código imágenes',
     canonicalUrl: 'https://www.lessoncraftstudio.com/es/apps/suma-codigo-fichas',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/spanish/code-addition/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Fichas de matemáticas con código fichas gratis para imprimir - ejercicios suma para preescolar',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/spanish/code-addition/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Suma con código de imágenes fichas infantil - material educativo gratis para primer grado',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/spanish/code-addition/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Fichas para imprimir código de suma - fichas preescolar con ejercicios matemáticas visuales',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/spanish/code-addition/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Código de suma fichas gratis - material educativo para aprender los números con imágenes',
-      },
-    ],
-  },
 
   // Hero Section - FULL text from code-addition.md paragraphs 1-4
   hero: {
@@ -90,36 +64,7 @@ El generador funciona en 11 idiomas con más de 3000 imágenes infantiles. Selec
     badgeText: 'Ejemplos',
     downloadingLabel: 'Descargando',
     ofLabel: 'de',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/spanish/code-addition/sample-1.jpeg',
-        answerKeySrc: '/samples/spanish/code-addition/sample-1.jpeg',
-        altText: 'Fichas de matemáticas con código fichas gratis para imprimir - ejercicios suma para preescolar',
-        imageTitle: 'Fichas de matemáticas con código fichas gratis para imprimir',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/spanish/code-addition/sample-2.jpeg',
-        answerKeySrc: '/samples/spanish/code-addition/sample-2.jpeg',
-        altText: 'Suma con código de imágenes fichas infantil - material educativo gratis para primer grado',
-        imageTitle: 'Suma con código de imágenes fichas infantil',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/spanish/code-addition/sample-3.jpeg',
-        answerKeySrc: '/samples/spanish/code-addition/sample-3.jpeg',
-        altText: 'Fichas para imprimir código de suma - fichas preescolar con ejercicios matemáticas visuales',
-        imageTitle: 'Fichas para imprimir código de suma',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/spanish/code-addition/sample-4.jpeg',
-        answerKeySrc: '/samples/spanish/code-addition/sample-4.jpeg',
-        altText: 'Código de suma fichas gratis - material educativo para aprender los números con imágenes',
-        imageTitle: 'Código de suma fichas gratis',
-      },
-    ],
+    items: [],
     
   },
 

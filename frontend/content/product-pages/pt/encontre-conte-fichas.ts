@@ -19,33 +19,7 @@ export const findAndCountPtContent: ProductPageContent = {
     description: 'Crie fichas de encontre e conte profissionais com nosso gerador de atividades grátis para imprimir. Com sua assinatura Pacote Essencial, você gera atividades.',
     keywords: 'encontre e conte, atividade grátis, atividades grátis, atividade para crianças, atividade para educação infantil, imprimíveis grátis, atividades para imprimir, atividades de matemática, educação infantil, objetos escondidos, coordenação motora, contagem visual',
     canonicalUrl: 'https://www.lessoncraftstudio.com/pt/apps/encontre-conte-fichas',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/find-and-count/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Atividade grátis de encontre e conte para educação infantil - ficha de contagem visual'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/find-and-count/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Atividade grátis para crianças - encontre e conte com objetos escondidos'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/find-and-count/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Imprimíveis grátis de encontre e conte - atividade para educação infantil'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/find-and-count/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Atividades grátis de contagem visual - encontre e conte para crianças'
-      },
-    ],
-  },
 
   // Hero Section - FULL text from find-and-count.md paragraphs 1-3
   hero: {
@@ -88,36 +62,7 @@ Nossa ferramenta gera grades de 5x5 até 10x10 com imagens variadas. Selecione d
     badgeText: 'Exemplos Grátis',
     downloadingLabel: 'Baixando...',
     ofLabel: 'de',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/portuguese/find-and-count/sample-1.jpeg',
-        answerKeySrc: '/samples/portuguese/find-and-count/sample-1.jpeg',
-        altText: 'Atividade grátis de encontre e conte para educação infantil - ficha de contagem visual',
-        imageTitle: 'Atividade grátis de encontre e conte para educação infantil',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/portuguese/find-and-count/sample-2.jpeg',
-        answerKeySrc: '/samples/portuguese/find-and-count/sample-2.jpeg',
-        altText: 'Atividade grátis para crianças - encontre e conte com objetos escondidos',
-        imageTitle: 'Atividade grátis para crianças',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/portuguese/find-and-count/sample-3.jpeg',
-        answerKeySrc: '/samples/portuguese/find-and-count/sample-3.jpeg',
-        altText: 'Imprimíveis grátis de encontre e conte - atividade para educação infantil',
-        imageTitle: 'Imprimíveis grátis de encontre e conte',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/portuguese/find-and-count/sample-4.jpeg',
-        answerKeySrc: '/samples/portuguese/find-and-count/sample-4.jpeg',
-        altText: 'Atividades grátis de contagem visual - encontre e conte para crianças',
-        imageTitle: 'Atividades grátis de contagem visual',
-      },
-    ],
+    items: [],
     
   },
 

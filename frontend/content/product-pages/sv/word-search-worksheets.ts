@@ -19,39 +19,7 @@ export const wordSearchSvContent: ProductPageContent = {
     description: 'Skapa professionella ordletarpussel med vår gratis ordletare generator. Perfekt för förskoleklass material och lågstadiet. Ladda ner arbetsblad gratis som.',
     keywords: 'ordletare generator, arbetsblad gratis, förskoleklass material, matematik arbetsblad, ordletarpussel, gratis arbetsblad, lågstadiet, bokstäver lära sig, skriva bokstäver, målarbilder barn',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/ordletar-arbetsblad',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/wordsearch/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Ordletarpussel arbetsblad gratis för förskoleklass - svensk ordjaktsövning'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/wordsearch/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis ordletare arbetsblad för barn - ordförråd övning för lågstadiet'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/wordsearch/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Svenska ordletarpussel - gratis utskrifter för förskoleklass material'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/wordsearch/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Ordletare arbetsblad för barn gratis - finmotorik övningar på svenska'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/wordsearch/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis arbetsblad ordjakts generator - förskoleklass och lågstadiet'
-      },
-    ],
-  },
 
   // Hero Section - FULL text from wordsearch.md paragraphs 1-4
   hero: {
@@ -94,43 +62,7 @@ Generatorn stöder elev material för alla åldrar. Använd den för att skapa m
     badgeText: 'Gratis Exempel',
     downloadingLabel: 'Laddar ner...',
     ofLabel: 'av',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/swedish/wordsearch/sample-1.jpeg',
-        answerKeySrc: '/samples/swedish/wordsearch/sample-1.jpeg',
-        altText: 'Ordletarpussel arbetsblad gratis för förskoleklass - svensk ordjaktsövning',
-        imageTitle: 'Ordletarpussel arbetsblad gratis för förskoleklass',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/swedish/wordsearch/sample-2.jpeg',
-        answerKeySrc: '/samples/swedish/wordsearch/sample-2.jpeg',
-        altText: 'Gratis ordletare arbetsblad för barn - ordförråd övning för lågstadiet',
-        imageTitle: 'Gratis ordletare arbetsblad för barn',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/swedish/wordsearch/sample-3.jpeg',
-        answerKeySrc: '/samples/swedish/wordsearch/sample-3.jpeg',
-        altText: 'Svenska ordletarpussel - gratis utskrifter för förskoleklass material',
-        imageTitle: 'Svenska ordletarpussel',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/swedish/wordsearch/sample-4.jpeg',
-        answerKeySrc: '/samples/swedish/wordsearch/sample-4.jpeg',
-        altText: 'Ordletare arbetsblad för barn gratis - finmotorik övningar på svenska',
-        imageTitle: 'Ordletare arbetsblad för barn gratis',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/swedish/wordsearch/sample-5.jpeg',
-        answerKeySrc: '/samples/swedish/wordsearch/sample-5.jpeg',
-        altText: 'Gratis arbetsblad ordjakts generator - förskoleklass och lågstadiet',
-        imageTitle: 'Gratis arbetsblad ordjakts generator',
-      },
-    ],
+    items: [],
     
   },
 

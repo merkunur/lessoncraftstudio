@@ -21,39 +21,7 @@ export const patternTrainSvContent: ProductPageContent = {
     description: 'Skapa professionella mönsterigenkänningsarbetsblad med vår Pattern Train-generator. Perfekt för förskoleklass material och matematik arbetsblad.',
     keywords: 'mönster arbetsblad, arbetsblad gratis, förskoleklass material, matematik arbetsblad, matte övningar, finmotorik övningar, bokstäver lära sig, siffror och tal, målarbilder barn, lågstadiet, mönsterigenkänning',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/monster-tag-arbetsblad',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/pattern-train/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis arbetsblad mönster tåg - mönsterigenkänning arbetsblad för förskoleklass',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/pattern-train/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis arbetsblad för barn - mönster tåg arbetsblad för lågstadiet',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/pattern-train/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis utskrifter mönster arbetsblad - AB AAB ABB mönster för förskoleklass',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/pattern-train/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Arbetsblad för förskoleklass - mönsterigenkänning med tåg tema',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/pattern-train/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Arbetsblad för barn - ABC AABB mönster övningar gratis',
-      },
-    ],
-  },
 
   // Hero Section - FULL text from pattern-train.md paragraphs 1-4
   hero: {
@@ -98,43 +66,7 @@ Full Tillgång-prenumerationen inkluderar kommersiell print-on-demand-licens. S�
     badgeText: 'Gratis Exempel',
     downloadingLabel: 'Laddar ner...',
     ofLabel: 'av',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/swedish/pattern-train/sample-1.jpeg',
-        answerKeySrc: '/samples/swedish/pattern-train/sample-1.jpeg',
-        altText: 'Gratis arbetsblad mönster tåg - mönsterigenkänning arbetsblad för förskoleklass',
-        imageTitle: 'Gratis arbetsblad mönster tåg',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/swedish/pattern-train/sample-2.jpeg',
-        answerKeySrc: '/samples/swedish/pattern-train/sample-2.jpeg',
-        altText: 'Gratis arbetsblad för barn - mönster tåg arbetsblad för lågstadiet',
-        imageTitle: 'Gratis arbetsblad för barn',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/swedish/pattern-train/sample-3.jpeg',
-        answerKeySrc: '/samples/swedish/pattern-train/sample-3.jpeg',
-        altText: 'Gratis utskrifter mönster arbetsblad - AB AAB ABB mönster för förskoleklass',
-        imageTitle: 'Gratis utskrifter mönster arbetsblad',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/swedish/pattern-train/sample-4.jpeg',
-        answerKeySrc: '/samples/swedish/pattern-train/sample-4.jpeg',
-        altText: 'Arbetsblad för förskoleklass - mönsterigenkänning med tåg tema',
-        imageTitle: 'Arbetsblad för förskoleklass',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/swedish/pattern-train/sample-5.jpeg',
-        answerKeySrc: '/samples/swedish/pattern-train/sample-5.jpeg',
-        altText: 'Arbetsblad för barn - ABC AABB mönster övningar gratis',
-        imageTitle: 'Arbetsblad för barn',
-      },
-    ],
+    items: [],
     
   },
 

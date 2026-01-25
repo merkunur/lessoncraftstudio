@@ -21,39 +21,7 @@ export const shadowMatchSvContent: ProductPageContent = {
     description: 'Skapa professionella skuggmatchningsövningar med vår skuggmatchningsgenerator. Generera anpassade utskrivbara skuggmatchningsarbetsblad perfekta för.',
     keywords: 'skuggmatchning arbetsblad, gratis arbetsblad, gratis arbetsblad för barn, arbetsblad för barn, förskoleklass material, finmotorik övningar, visuell perception, matcha skuggor, gör det helt, svenska arbetsblad, lågstadiet material, gratis utskrifter',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/skuggmatchning-arbetsblad',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/shadow-match/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Skuggmatchning gratis arbetsblad för barn - visuell perception övningar för förskoleklass material',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/shadow-match/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis arbetsblad skuggmatchning - matcha bilder med skuggor för arbetsblad för barn',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/shadow-match/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Arbetsblad för förskoleklass skuggmatchning - gratis utskrifter för visuell diskriminering',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/shadow-match/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gör det helt arbetsblad för barn - gratis arbetsblad för spatialt resonemang',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/shadow-match/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Skuggmatchning gratis utskrifter - arbetsblad för barn visuell perception övningar',
-      },
-    ],
-  },
 
   // Hero Section - FULL text from shadow-match.md paragraphs 1-4
   hero: {
@@ -98,43 +66,7 @@ Full Tillgång-prenumerationen inkluderar kommersiell licens för utskrift-på-b
     badgeText: 'Gratis Exempel',
     downloadingLabel: 'Laddar ner...',
     ofLabel: 'av',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/swedish/shadow-match/sample-1.jpeg',
-        answerKeySrc: '/samples/swedish/shadow-match/sample-1.jpeg',
-        altText: 'Skuggmatchning gratis arbetsblad för barn - visuell perception övningar för förskoleklass material',
-        imageTitle: 'Skuggmatchning gratis arbetsblad för barn',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/swedish/shadow-match/sample-2.jpeg',
-        answerKeySrc: '/samples/swedish/shadow-match/sample-2.jpeg',
-        altText: 'Gratis arbetsblad skuggmatchning - matcha bilder med skuggor för arbetsblad för barn',
-        imageTitle: 'Gratis arbetsblad skuggmatchning',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/swedish/shadow-match/sample-3.jpeg',
-        answerKeySrc: '/samples/swedish/shadow-match/sample-3.jpeg',
-        altText: 'Arbetsblad för förskoleklass skuggmatchning - gratis utskrifter för visuell diskriminering',
-        imageTitle: 'Arbetsblad för förskoleklass skuggmatchning',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/swedish/shadow-match/sample-4.jpeg',
-        answerKeySrc: '/samples/swedish/shadow-match/sample-4.jpeg',
-        altText: 'Gör det helt arbetsblad för barn - gratis arbetsblad för spatialt resonemang',
-        imageTitle: 'Gör det helt arbetsblad för barn',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/swedish/shadow-match/sample-5.jpeg',
-        answerKeySrc: '/samples/swedish/shadow-match/sample-5.jpeg',
-        altText: 'Skuggmatchning gratis utskrifter - arbetsblad för barn visuell perception övningar',
-        imageTitle: 'Skuggmatchning gratis utskrifter',
-      },
-    ],
+    items: [],
     
   },
 

@@ -21,33 +21,7 @@ export const codeAdditionNoContent: ProductPageContent = {
     description: 'Lag profesjonelle bildeaddisjonsoppgaver med vår matematikk oppgaver generator. Generer egendefinerte arbeidsark gratis for utskrift for barnehage og.',
     keywords: 'bildeaddisjonsoppgaver, matematikk oppgaver, arbeidsark gratis, oppgavehefter barn, addisjon og subtraksjon, tall og telling, matteoppgaver, småskoletrinnet, barnehage, gangetabellen',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/bildeaddisjon-arbeidsark',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/norwegian/code-addition/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis arbeidsark bildeaddisjon - matematikk oppgaver med tall og telling for barnehage',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/norwegian/code-addition/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Bildeaddisjonsoppgaver arbeidsark gratis - addisjon og subtraksjon for 1. trinn',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/norwegian/code-addition/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Matematikk oppgaver gratis arbeidsark - oppgavehefter barn for smaskoletrinnet',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/norwegian/code-addition/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Arbeidsark for barn tall og telling - gratis utskrifter bildeaddisjon barnehage',
-      },
-    ],
-  },
 
   // Hero Section - FULL text from code-addition.md
   hero: {
@@ -90,36 +64,7 @@ Full Tilgang-abonnementet koster $240 per år eller $25 per måned. Du får tilg
     noPdfLabel: 'Ingen PDF tilgjengelig',
     freePdfCountLabel: '4 gratis nedlastinger',
     ofLabel: 'av',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/norwegian/code-addition/sample-1.jpeg',
-        answerKeySrc: '/samples/norwegian/code-addition/sample-1.jpeg',
-        altText: 'Gratis arbeidsark bildeaddisjon - matematikk oppgaver med tall og telling for barnehage',
-        imageTitle: 'Gratis arbeidsark bildeaddisjon',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/norwegian/code-addition/sample-2.jpeg',
-        answerKeySrc: '/samples/norwegian/code-addition/sample-2.jpeg',
-        altText: 'Bildeaddisjonsoppgaver arbeidsark gratis - addisjon og subtraksjon for 1. trinn',
-        imageTitle: 'Bildeaddisjonsoppgaver arbeidsark gratis',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/norwegian/code-addition/sample-3.jpeg',
-        answerKeySrc: '/samples/norwegian/code-addition/sample-3.jpeg',
-        altText: 'Matematikk oppgaver gratis arbeidsark - oppgavehefter barn for smaskoletrinnet',
-        imageTitle: 'Matematikk oppgaver gratis arbeidsark',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/norwegian/code-addition/sample-4.jpeg',
-        answerKeySrc: '/samples/norwegian/code-addition/sample-4.jpeg',
-        altText: 'Arbeidsark for barn tall og telling - gratis utskrifter bildeaddisjon barnehage',
-        imageTitle: 'Arbeidsark for barn tall og telling',
-      },
-    ],
+    items: [],
     
   },
 

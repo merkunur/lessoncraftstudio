@@ -19,33 +19,7 @@ export const chartCountDaContent: ProductPageContent = {
     description: 'Lav billediagram gratis arbejdsark til børn med vores generator. Ubegrænset arbejdsark til børnehaveklasse. Download gratis printables som PDF på 3 minutter.',
     keywords: 'billediagram arbejdsark, gratis arbejdsark, arbejdsark til børn, arbejdsark til børnehaveklasse, gratis printables, 0. klasse arbejdsark, 1. klasse, tælleopgaver, matematikopgaver',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/billediagram-arbejdsark',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/danish/chart-count/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Billediagram gratis arbejdsark - tælleopgave arbejdsark til børn for børnehaveklasse'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/danish/chart-count/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Billediagram arbejdsark til børnehaveklasse - gratis printables med farverige billeder'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/danish/chart-count/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis arbejdsark billediagram - arbejdsark til børn med tælleopgaver til 0. klasse'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/danish/chart-count/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Arbejdsark til børnehaveklasse - billediagram gratis printables med matematikøvelser'
-      },
-    ],
-  },
 
   // Hero Section - OPTIMIZED with keywords
   hero: {
@@ -88,36 +62,7 @@ Fuld Adgang-abonnementet inkluderer alle 33 opgavegeneratorer til 1.700 kr. om �
     noPdfLabel: 'Ingen PDF tilgængelig',
     freePdfCountLabel: '3 gratis downloads',
     ofLabel: 'af',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/danish/chart-count/sample-1.jpeg',
-        answerKeySrc: '/samples/danish/chart-count/sample-1.jpeg',
-        altText: 'Billediagram gratis arbejdsark - tælleopgave arbejdsark til børn for børnehaveklasse',
-        imageTitle: 'Billediagram gratis arbejdsark',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/danish/chart-count/sample-2.jpeg',
-        answerKeySrc: '/samples/danish/chart-count/sample-2.jpeg',
-        altText: 'Billediagram arbejdsark til børnehaveklasse - gratis printables med farverige billeder',
-        imageTitle: 'Billediagram arbejdsark til børnehaveklasse',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/danish/chart-count/sample-3.jpeg',
-        answerKeySrc: '/samples/danish/chart-count/sample-3.jpeg',
-        altText: 'Gratis arbejdsark billediagram - arbejdsark til børn med tælleopgaver til 0. klasse',
-        imageTitle: 'Gratis arbejdsark billediagram',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/danish/chart-count/sample-4.jpeg',
-        answerKeySrc: '/samples/danish/chart-count/sample-4.jpeg',
-        altText: 'Arbejdsark til børnehaveklasse - billediagram gratis printables med matematikøvelser',
-        imageTitle: 'Arbejdsark til børnehaveklasse',
-      },
-    ],
+    items: [],
     
   },
 

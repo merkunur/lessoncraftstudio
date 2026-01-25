@@ -21,39 +21,7 @@ export const picturePathItContent: ProductPageContent = {
     description: 'Crea schede gratuite percorso illustrato per bambini. Stampabili gratuiti per scuola dell\'infanzia e primaria. Scarica scheda gratuita PDF in 3 minuti.',
     keywords: 'schede gratuite percorso illustrato, scheda gratuita per bambini, stampabili gratuiti, scheda per scuola dell\'infanzia, schede didattiche labirinti, labirinti bambini, pregrafismo, attività logica bambini',
     canonicalUrl: 'https://www.lessoncraftstudio.com/it/apps/percorso-illustrato-schede',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/picture-path/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Scheda gratuita percorso illustrato - stampabili gratuiti per scuola dell\'infanzia'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/picture-path/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Schede gratuite labirinto classico - scheda per bambini attività logica'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/picture-path/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Stampabili gratuiti percorso giusto - scheda gratuita per scuola primaria'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/picture-path/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Scheda per bambini labirinti - schede gratuite pregrafismo logica'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/picture-path/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Schede gratuite percorsi - scheda gratuita per bambini coordinazione'
-      }
-    ],
-  },
 
   // Hero Section
   hero: {
@@ -96,36 +64,7 @@ Ogni modalità di gioco ti permette di creare schede didattiche completamente pe
     badgeText: 'Esempi Gratuiti',
     downloadingLabel: 'Scaricamento...',
     ofLabel: 'di',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/italian/picture-path/sample-2.jpeg',
-        answerKeySrc: '/samples/italian/picture-path/sample-2.jpeg',
-        altText: 'Schede gratuite labirinto classico - scheda per bambini attività logica',
-        imageTitle: 'Schede gratuite labirinto classico',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/italian/picture-path/sample-3.jpeg',
-        answerKeySrc: '/samples/italian/picture-path/sample-3.jpeg',
-        altText: 'Stampabili gratuiti percorso giusto - scheda gratuita per scuola primaria',
-        imageTitle: 'Stampabili gratuiti percorso giusto',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/italian/picture-path/sample-4.jpeg',
-        answerKeySrc: '/samples/italian/picture-path/sample-4.jpeg',
-        altText: 'Scheda per bambini labirinti - schede gratuite pregrafismo logica',
-        imageTitle: 'Scheda per bambini labirinti',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/italian/picture-path/sample-5.jpeg',
-        answerKeySrc: '/samples/italian/picture-path/sample-5.jpeg',
-        altText: 'Schede gratuite percorsi - scheda gratuita per bambini coordinazione',
-        imageTitle: 'Schede gratuite percorsi',
-      },
-    ],
+    items: [],
     
   },
 

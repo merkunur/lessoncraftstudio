@@ -19,33 +19,7 @@ export const matchingSvContent: ProductPageContent = {
     description: 'Skapa gratis matchningsarbetsblad för förskoleklass och årskurs 1-3. Generera PDF-arbetsblad på under 3 minuter. 3000+ bilder, kommersiell licens inkluderad.',
     keywords: 'matchningsarbetsblad, gratis arbetsblad, förskoleklass material, matematik arbetsblad, bokstäver lära sig, matchningsövningar, finmotorik övningar, målarbilder barn, siffror och tal, multiplikationstabellen',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/matchnings-arbetsblad',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/matching/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis arbetsblad matchningsövningar för förskoleklass - visuell parbildning för barn',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/matching/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Arbetsblad för barn matchning med bilder och ord - ordförrådsträning för lågstadiet',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/matching/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis utskrifter matchningsarbetsblad - anpassade matchningsövningar för tematisk undervisning',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/matching/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Arbetsblad för förskoleklass matchning - finmotorik övningar med bildparbildning',
-      },
-    ],
-  },
 
   // Hero Section - FULL text from matching.md paragraphs 1-4
   hero: {
@@ -90,36 +64,7 @@ Varje arbetsblad gratis mall inkluderar fullt redigerbar canvas. Dra, rotera, sk
     badgeText: 'Gratis Exempel',
     downloadingLabel: 'Laddar ner...',
     ofLabel: 'av',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/swedish/matching/sample-1.jpeg',
-        answerKeySrc: '/samples/swedish/matching/sample-1.jpeg',
-        altText: 'Gratis arbetsblad matchningsövningar för förskoleklass - visuell parbildning för barn',
-        imageTitle: 'Gratis arbetsblad matchningsövningar för förskoleklass',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/swedish/matching/sample-2.jpeg',
-        answerKeySrc: '/samples/swedish/matching/sample-2.jpeg',
-        altText: 'Arbetsblad för barn matchning med bilder och ord - ordförrådsträning för lågstadiet',
-        imageTitle: 'Arbetsblad för barn matchning med bilder och ord',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/swedish/matching/sample-3.jpeg',
-        answerKeySrc: '/samples/swedish/matching/sample-3.jpeg',
-        altText: 'Gratis utskrifter matchningsarbetsblad - anpassade matchningsövningar för tematisk undervisning',
-        imageTitle: 'Gratis utskrifter matchningsarbetsblad',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/swedish/matching/sample-4.jpeg',
-        answerKeySrc: '/samples/swedish/matching/sample-4.jpeg',
-        altText: 'Arbetsblad för förskoleklass matchning - finmotorik övningar med bildparbildning',
-        imageTitle: 'Arbetsblad för förskoleklass matchning',
-      },
-    ],
+    items: [],
     
   },
 

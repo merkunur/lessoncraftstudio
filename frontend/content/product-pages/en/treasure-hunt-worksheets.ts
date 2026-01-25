@@ -19,39 +19,7 @@ export const treasureHuntEnContent: ProductPageContent = {
     description: 'Create professional treasure hunt worksheets for kindergarten. Free printable following directions worksheets with answer keys. Download PDF in 3 minutes.',
     keywords: 'treasure hunt worksheets, following directions worksheets, kindergarten worksheets, free printable worksheets, directional vocabulary worksheets, first grade worksheets, free worksheets, worksheet for kids, spatial awareness, navigation worksheets',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/treasure-hunt-worksheets',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/treasure-hunt/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Free treasure hunt worksheets for kindergarten - up down left right directions practice',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/treasure-hunt/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Following directions worksheets free printable - cardinal directions for first grade',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/treasure-hunt/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Treasure hunt printable free - directional vocabulary worksheet for preschool',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/treasure-hunt/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Free following directions worksheets - treasure hunt navigation activity for kids',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/treasure-hunt/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Direction worksheets kindergarten - free printable treasure hunt with spatial awareness',
-      },
-    ]
-  },
 
   // Hero Section - FULL text from treasure-hunt.md paragraphs 1-4
   hero: {
@@ -80,43 +48,7 @@ This treasure hunt generator creates unique worksheets every time you click gene
     downloadLabel: 'Download Free Sample',
     worksheetLabel: 'Worksheet',
     answerKeyLabel: 'Answer Key',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/english/treasure-hunt/sample-1.jpeg',
-        answerKeySrc: '/samples/english/treasure-hunt/sample-1.jpeg',
-        altText: 'Free treasure hunt worksheets for kindergarten - up down left right directions practice',
-        imageTitle: 'Free treasure hunt worksheets for kindergarten',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/english/treasure-hunt/sample-2.jpeg',
-        answerKeySrc: '/samples/english/treasure-hunt/sample-2.jpeg',
-        altText: 'Following directions worksheets free printable - cardinal directions for first grade',
-        imageTitle: 'Following directions worksheets free printable',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/english/treasure-hunt/sample-3.jpeg',
-        answerKeySrc: '/samples/english/treasure-hunt/sample-3.jpeg',
-        altText: 'Treasure hunt printable free - directional vocabulary worksheet for preschool',
-        imageTitle: 'Treasure hunt printable free',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/english/treasure-hunt/sample-4.jpeg',
-        answerKeySrc: '/samples/english/treasure-hunt/sample-4.jpeg',
-        altText: 'Free following directions worksheets - treasure hunt navigation activity for kids',
-        imageTitle: 'Free following directions worksheets',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/english/treasure-hunt/sample-5.jpeg',
-        answerKeySrc: '/samples/english/treasure-hunt/sample-5.jpeg',
-        altText: 'Direction worksheets kindergarten - free printable treasure hunt with spatial awareness',
-        imageTitle: 'Direction worksheets kindergarten',
-      },
-    ],
+    items: [],
     
   },
 

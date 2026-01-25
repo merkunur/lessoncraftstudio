@@ -19,33 +19,7 @@ export const alphabetTrainItContent: ProductPageContent = {
     description: 'Crea schede didattiche alfabeto professionali con il nostro generatore. Schede lettere dell\'alfabeto per scuola dell\'infanzia e classe prima.',
     keywords: 'schede didattiche alfabeto, lettere dell\'alfabeto, scuola dell\'infanzia, classe prima, schede italiano, pregrafismo, schede stampabili, generatore schede, treno alfabeto, riconoscimento lettere',
     canonicalUrl: 'https://www.lessoncraftstudio.com/it/apps/treno-alfabeto-schede',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/alphabet-train/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Scheda gratuita treno alfabeto per bambini - stampabili gratuiti lettere scuola infanzia'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/alphabet-train/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Schede gratuite alfabeto per scuola dell\'infanzia - scheda per bambini classe prima'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/alphabet-train/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Stampabili gratuiti lettere dell\'alfabeto - scheda gratuita per bambini'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/alphabet-train/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Scheda per scuola dell\'infanzia alfabeto - schede gratuite pregrafismo'
-      }
-    ],
-  },
 
   // Hero Section - FULL text from alphabet-train.md
   hero: {
@@ -88,15 +62,7 @@ Perfetto per insegnanti della scuola dell'infanzia che necessitano di schede ita
     badgeText: 'Esempi Gratuiti',
     downloadingLabel: 'Scaricamento...',
     ofLabel: 'di',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/italian/alphabet-train/sample-1.jpeg',
-        answerKeySrc: '/samples/italian/alphabet-train/sample-1.jpeg',
-        altText: 'Scheda gratuita treno alfabeto per bambini - stampabili gratuiti lettere scuola infanzia',
-        imageTitle: 'Scheda gratuita treno alfabeto per bambini',
-      },
-    ],
+    items: [],
     
   },
 

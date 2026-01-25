@@ -31,39 +31,7 @@ export const patternTrainNlContent: ProductPageContent = {
     description: 'Maak gratis werkbladen patroontrein voor kinderen en kleuters. Werkblad voor groep 1 2 3 met patroonherkenning. Download gratis printables in 3 minuten.',
     keywords: 'patroontrein, werkbladen groep 3, werkbladen kleuters, oefenbladen gratis, fijne motoriek, rekenen werkbladen, patroonherkenning, groep 1 2, letters leren, veilig leren lezen, gratis werkblad, gratis werkbladen, gratis printables, werkblad voor kinderen, werkblad voor kleuters',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/patroontrein-werkbladen',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/pattern-train/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis werkblad patroontrein - werkblad voor kinderen patroonherkenning',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/pattern-train/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis werkbladen patroontrein - werkblad voor kleuters groep 1 2',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/pattern-train/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis printables patroontrein - gratis werkblad voor kinderen',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/pattern-train/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Werkblad voor kinderen patroontrein - gratis werkbladen groep 3',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/pattern-train/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Werkblad voor kleuters patroontrein - gratis printables patroonherkenning',
-      },
-    ],
-  },
 
   // Hero Section
   hero: {
@@ -106,43 +74,7 @@ Werkbladen groep 3 vereisen vaak meer uitdagende patronen dan werkblad voor kleu
     badgeText: 'Gratis Voorbeelden',
     downloadingLabel: 'Downloaden...',
     ofLabel: 'van',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/dutch/pattern-train/sample-1.jpeg',
-        answerKeySrc: '/samples/dutch/pattern-train/sample-1.jpeg',
-        altText: 'Gratis werkblad patroontrein - werkblad voor kinderen patroonherkenning',
-        imageTitle: 'Gratis werkblad patroontrein',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/dutch/pattern-train/sample-2.jpeg',
-        answerKeySrc: '/samples/dutch/pattern-train/sample-2.jpeg',
-        altText: 'Gratis werkbladen patroontrein - werkblad voor kleuters groep 1 2',
-        imageTitle: 'Gratis werkbladen patroontrein',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/dutch/pattern-train/sample-3.jpeg',
-        answerKeySrc: '/samples/dutch/pattern-train/sample-3.jpeg',
-        altText: 'Gratis printables patroontrein - gratis werkblad voor kinderen',
-        imageTitle: 'Gratis printables patroontrein',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/dutch/pattern-train/sample-4.jpeg',
-        answerKeySrc: '/samples/dutch/pattern-train/sample-4.jpeg',
-        altText: 'Werkblad voor kinderen patroontrein - gratis werkbladen groep 3',
-        imageTitle: 'Werkblad voor kinderen patroontrein',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/dutch/pattern-train/sample-5.jpeg',
-        answerKeySrc: '/samples/dutch/pattern-train/sample-5.jpeg',
-        altText: 'Werkblad voor kleuters patroontrein - gratis printables patroonherkenning',
-        imageTitle: 'Werkblad voor kleuters patroontrein',
-      },
-    ],
+    items: [],
     
   },
 

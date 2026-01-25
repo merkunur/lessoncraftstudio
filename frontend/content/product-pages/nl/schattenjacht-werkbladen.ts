@@ -33,33 +33,7 @@ export const treasureHuntNlContent: ProductPageContent = {
     description: 'Maak professionele schattenjacht werkbladen met onze richtingswoorden generator. Genereer aangepaste oefenbladen perfect voor groep 1, groep 2 en groep 3.',
     keywords: 'schattenjacht, werkbladen groep 3, werkbladen kleuters, oefenbladen gratis, fijne motoriek, rekenen werkbladen, richtingswoorden, groep 1 2, veilig leren lezen, ruimtelijk inzicht',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/schattenjacht-werkbladen',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/treasure-hunt/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Schattenjacht gratis werkblad - werkblad voor kinderen met richtingswoorden voor groep 3'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/treasure-hunt/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Schattenjacht werkblad voor kleuters - gratis werkbladen met fijne motoriek oefeningen'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/treasure-hunt/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis werkblad schattenjacht - werkblad voor kinderen met ruimtelijk inzicht'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/treasure-hunt/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Schattenjacht gratis printables - werkblad voor kleuters met richtingsoefeningen'
-      },
-    ],
-  },
 
   // Hero Section
   hero: {
@@ -102,36 +76,7 @@ Je Volledige Toegang abonnement geeft toegang tot onbeperkte werkbladen maken. D
     badgeText: 'Gratis Voorbeelden',
     downloadingLabel: 'Downloaden...',
     ofLabel: 'van',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/dutch/treasure-hunt/sample-1.jpeg',
-        answerKeySrc: '/samples/dutch/treasure-hunt/sample-1.jpeg',
-        altText: 'Schattenjacht gratis werkblad - werkblad voor kinderen met richtingswoorden voor groep 3',
-        imageTitle: 'Schattenjacht gratis werkblad',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/dutch/treasure-hunt/sample-2.jpeg',
-        answerKeySrc: '/samples/dutch/treasure-hunt/sample-2.jpeg',
-        altText: 'Schattenjacht werkblad voor kleuters - gratis werkbladen met fijne motoriek oefeningen',
-        imageTitle: 'Schattenjacht werkblad voor kleuters',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/dutch/treasure-hunt/sample-3.jpeg',
-        answerKeySrc: '/samples/dutch/treasure-hunt/sample-3.jpeg',
-        altText: 'Gratis werkblad schattenjacht - werkblad voor kinderen met ruimtelijk inzicht',
-        imageTitle: 'Gratis werkblad schattenjacht',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/dutch/treasure-hunt/sample-4.jpeg',
-        answerKeySrc: '/samples/dutch/treasure-hunt/sample-4.jpeg',
-        altText: 'Schattenjacht gratis printables - werkblad voor kleuters met richtingsoefeningen',
-        imageTitle: 'Schattenjacht gratis printables',
-      },
-    ],
+    items: [],
     
   },
 

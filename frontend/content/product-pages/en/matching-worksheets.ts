@@ -19,39 +19,7 @@ export const matchingEnContent: ProductPageContent = {
     description: 'Create free matching worksheets for kids with our matching generator. Free printables for kindergarten and first grade. Download PDF worksheet in 3 clicks.',
     keywords: 'matching worksheets, matching worksheet generator, kindergarten worksheets, first grade worksheets, free printable worksheets, alphabet worksheets, sight words worksheets, phonics worksheets, math worksheets, free worksheet for kids, free printables, worksheet for kindergarten, tracing worksheets, addition worksheets',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/matching-worksheets',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/matching/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Free printable matching worksheets for kindergarten - alphabet letter recognition practice'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/matching/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Matching worksheet generator for kids - sight words and vocabulary practice for first grade'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/matching/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Free matching worksheets with custom vocabulary - phonics worksheets for kindergarten'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/matching/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Free worksheet for kids matching activity - kindergarten alphabet learning worksheets'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/matching/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Free printables matching worksheets - first grade phonics and sight words practice'
-      }
-    ],
-  },
 
   // Hero Section - FULL text from matching.md paragraphs 1-4
   hero: {
@@ -82,43 +50,7 @@ Your Core Bundle subscription includes complete access to all visual materials. 
     downloadLabel: 'Download Free Sample',
     worksheetLabel: 'Worksheet',
     answerKeyLabel: 'Answer Key',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/english/matching/sample-1.jpeg',
-        answerKeySrc: '/samples/english/matching/sample-1.jpeg',
-        altText: 'Free printable matching worksheets for kindergarten - alphabet letter recognition practice',
-        imageTitle: 'Free printable matching worksheets for kindergarten',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/english/matching/sample-2.jpeg',
-        answerKeySrc: '/samples/english/matching/sample-2.jpeg',
-        altText: 'Matching worksheet generator for kids - sight words and vocabulary practice for first grade',
-        imageTitle: 'Matching worksheet generator for kids',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/english/matching/sample-3.jpeg',
-        answerKeySrc: '/samples/english/matching/sample-3.jpeg',
-        altText: 'Free matching worksheets with custom vocabulary - phonics worksheets for kindergarten',
-        imageTitle: 'Free matching worksheets with custom vocabulary',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/english/matching/sample-4.jpeg',
-        answerKeySrc: '/samples/english/matching/sample-4.jpeg',
-        altText: 'Free worksheet for kids matching activity - kindergarten alphabet learning worksheets',
-        imageTitle: 'Free worksheet for kids matching activity',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/english/matching/sample-5.jpeg',
-        answerKeySrc: '/samples/english/matching/sample-5.jpeg',
-        altText: 'Free printables matching worksheets - first grade phonics and sight words practice',
-        imageTitle: 'Free printables matching worksheets',
-      },
-    ],
+    items: [],
     
   },
 

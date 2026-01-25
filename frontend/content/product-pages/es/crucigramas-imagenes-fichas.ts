@@ -19,33 +19,7 @@ export const crosswordEsContent: ProductPageContent = {
     description: 'Crea crucigramas con imágenes en minutos. Genera fichas para imprimir gratis para preescolar y primaria. Descarga en PDF o JPEG. 3000+ imágenes incluidas.',
     keywords: 'crucigramas con imágenes, fichas para imprimir, crucigramas educativos, fichas preescolar, fichas infantil, material educativo gratis, lectoescritura, grafomotricidad, abecedario, vocabulario',
     canonicalUrl: 'https://www.lessoncraftstudio.com/es/apps/crucigramas-imagenes-fichas',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/spanish/crossword/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Crucigramas con imagenes ficha gratis - ejercicio de lectoescritura para preescolar',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/spanish/crossword/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Ficha de crucigrama para imprimir gratis - actividad de vocabulario para primaria',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/spanish/crossword/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Crucigrama educativo ficha para ninos - practica de grafomotricidad infantil',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/spanish/crossword/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Fichas gratis de crucigramas con imagenes - material educativo para preescolar',
-      },
-    ],
-  },
 
   // Hero Section - FULL text from crossword.md paragraphs 1-5
   hero: {
@@ -90,36 +64,7 @@ Cada crucigrama incluye una hoja de respuestas con las soluciones. Perfecto para
     badgeText: 'Ejemplos Gratis',
     downloadingLabel: 'Descargando...',
     ofLabel: 'de',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/spanish/crossword/sample-1.jpeg',
-        answerKeySrc: '/samples/spanish/crossword/sample-1.jpeg',
-        altText: 'Crucigramas con imagenes ficha gratis - ejercicio de lectoescritura para preescolar',
-        imageTitle: 'Crucigramas con imagenes ficha gratis',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/spanish/crossword/sample-2.jpeg',
-        answerKeySrc: '/samples/spanish/crossword/sample-2.jpeg',
-        altText: 'Ficha de crucigrama para imprimir gratis - actividad de vocabulario para primaria',
-        imageTitle: 'Ficha de crucigrama para imprimir gratis',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/spanish/crossword/sample-3.jpeg',
-        answerKeySrc: '/samples/spanish/crossword/sample-3.jpeg',
-        altText: 'Crucigrama educativo ficha para ninos - practica de grafomotricidad infantil',
-        imageTitle: 'Crucigrama educativo ficha para ninos',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/spanish/crossword/sample-4.jpeg',
-        answerKeySrc: '/samples/spanish/crossword/sample-4.jpeg',
-        altText: 'Fichas gratis de crucigramas con imagenes - material educativo para preescolar',
-        imageTitle: 'Fichas gratis de crucigramas con imagenes',
-      },
-    ],
+    items: [],
     
   },
 

@@ -19,39 +19,7 @@ export const findObjectsSvContent: ProductPageContent = {
     description: 'Skapa gratis arbetsblad för barn med hitta föremål-aktiviteter. Perfekta finmotorik övningar för förskoleklass. Ladda ner professionella 300 DPI PDF-arbetsblad.',
     keywords: 'hitta föremål arbetsblad, arbetsblad gratis, förskoleklass material, finmotorik övningar, i spy arbetsblad, odd one out, visuell perception, matematik arbetsblad, bokstäver lära sig, siffror och tal',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/hitta-foremal-arbetsblad',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/find-objects/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis arbetsblad hitta föremål för förskoleklass - visuell perception träning',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/find-objects/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Arbetsblad för barn hitta föremål - finmotorik övningar för lågstadiet',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/find-objects/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis utskrifter hitta föremål arbetsblad - visuell diskriminering',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/find-objects/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Arbetsblad för förskoleklass hitta föremål - I Spy aktiviteter',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/find-objects/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis arbetsblad för barn hitta föremål - Odd One Out övningar',
-      },
-    ],
-  },
 
   // Hero Section - FULL text from find-objects.md paragraphs 1-4
   hero: {
@@ -96,43 +64,7 @@ Generera arbetsblad gratis som kombinerar målarbilder barn med perceptionsträn
     badgeText: 'Gratis Exempel',
     downloadingLabel: 'Laddar ner...',
     ofLabel: 'av',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/swedish/find-objects/sample-1.jpeg',
-        answerKeySrc: '/samples/swedish/find-objects/sample-1.jpeg',
-        altText: 'Gratis arbetsblad hitta föremål för förskoleklass - visuell perception träning',
-        imageTitle: 'Gratis arbetsblad hitta föremål för förskoleklass',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/swedish/find-objects/sample-2.jpeg',
-        answerKeySrc: '/samples/swedish/find-objects/sample-2.jpeg',
-        altText: 'Arbetsblad för barn hitta föremål - finmotorik övningar för lågstadiet',
-        imageTitle: 'Arbetsblad för barn hitta föremål',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/swedish/find-objects/sample-3.jpeg',
-        answerKeySrc: '/samples/swedish/find-objects/sample-3.jpeg',
-        altText: 'Gratis utskrifter hitta föremål arbetsblad - visuell diskriminering',
-        imageTitle: 'Gratis utskrifter hitta föremål arbetsblad',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/swedish/find-objects/sample-4.jpeg',
-        answerKeySrc: '/samples/swedish/find-objects/sample-4.jpeg',
-        altText: 'Arbetsblad för förskoleklass hitta föremål - I Spy aktiviteter',
-        imageTitle: 'Arbetsblad för förskoleklass hitta föremål',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/swedish/find-objects/sample-5.jpeg',
-        answerKeySrc: '/samples/swedish/find-objects/sample-5.jpeg',
-        altText: 'Gratis arbetsblad för barn hitta föremål - Odd One Out övningar',
-        imageTitle: 'Gratis arbetsblad för barn hitta föremål',
-      },
-    ],
+    items: [],
     
   },
 

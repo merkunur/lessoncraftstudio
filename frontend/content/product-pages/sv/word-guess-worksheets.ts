@@ -19,33 +19,7 @@ export const wordGuessSvContent: ProductPageContent = {
     description: 'Skapa professionella gissa-ordet-arbetsblad med vår generator. Generera anpassade arbetsblad gratis perfekta för förskoleklass och lågstadiet.',
     keywords: 'gissa ordet generator, arbetsblad gratis, förskoleklass material, bokstäver lära sig, skriva bokstäver, ordgissning, matematik arbetsblad, finmotorik övningar, målarbilder barn, lågstadiet',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/gissa-ordet-arbetsblad',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/word-guess/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis gissa ordet arbetsblad för barn - bildtips och bokstavsrutor för förskoleklass',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/word-guess/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gissa ordet arbetsblad gratis - ordgissning för bokstäver lära sig för lågstadiet',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/word-guess/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis arbetsblad gissa ordet för förskoleklass - visuell ordträning',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/word-guess/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Arbetsblad gratis gissa ordet för barn - stavningsträning med bildledtrådar',
-      },
-    ],
-  },
 
   // Hero Section - FULL text from word-guess.md paragraphs 1-4
   hero: {
@@ -88,36 +62,7 @@ Varje arbetsblad innehåller 1-10 gåtor per sida. Välj mellan fyra svårighets
     badgeText: 'Gratis Exempel',
     downloadingLabel: 'Laddar ner...',
     ofLabel: 'av',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/swedish/word-guess/sample-1.jpeg',
-        answerKeySrc: '/samples/swedish/word-guess/sample-1.jpeg',
-        altText: 'Gratis gissa ordet arbetsblad för barn - bildtips och bokstavsrutor för förskoleklass',
-        imageTitle: 'Gratis gissa ordet arbetsblad för barn',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/swedish/word-guess/sample-2.jpeg',
-        answerKeySrc: '/samples/swedish/word-guess/sample-2.jpeg',
-        altText: 'Gissa ordet arbetsblad gratis - ordgissning för bokstäver lära sig för lågstadiet',
-        imageTitle: 'Gissa ordet arbetsblad gratis',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/swedish/word-guess/sample-3.jpeg',
-        answerKeySrc: '/samples/swedish/word-guess/sample-3.jpeg',
-        altText: 'Gratis arbetsblad gissa ordet för förskoleklass - visuell ordträning',
-        imageTitle: 'Gratis arbetsblad gissa ordet för förskoleklass',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/swedish/word-guess/sample-4.jpeg',
-        answerKeySrc: '/samples/swedish/word-guess/sample-4.jpeg',
-        altText: 'Arbetsblad gratis gissa ordet för barn - stavningsträning med bildledtrådar',
-        imageTitle: 'Arbetsblad gratis gissa ordet för barn',
-      },
-    ],
+    items: [],
     
   },
 

@@ -19,39 +19,7 @@ export const pictureBingoFrContent: ProductPageContent = {
     description: 'Créez des cartes bingo professionnelles avec notre générateur de fiches à imprimer gratuit. Votre abonnement Pack Essentiel vous offre une création illimitée.',
     keywords: 'bingo images, cartes bingo, fiches maternelle, fiches à imprimer gratuit, exercices CP, exercices CE1, graphisme maternelle, jeux éducatifs, bingo alphabet, bingo maths, apprendre à lire',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fr/apps/bingo-images-fiches',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/french/bingo/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Fiche gratuite de bingo images pour maternelle - cartes bingo illustrées avec jetons d\'appel',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/french/bingo/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Fiche gratuite pour enfants - bingo images thématique pour exercices CP CE1',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/french/bingo/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Fiches gratuites de bingo - cartes bingo pour fiches maternelle et graphisme',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/french/bingo/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Fiche pour maternelle - bingo images éducatif avec feuille d\'appel',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/french/bingo/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Imprimables gratuits de bingo - fiches à imprimer gratuit pour exercices maths',
-      },
-    ],
-  },
 
   // Hero Section - FULL text from picture-bingo.md paragraphs 1-3
   hero: {
@@ -94,29 +62,7 @@ Notre générateur de bingo illustré crée deux fiches à imprimer à chaque g�
     badgeText: 'Exemples Gratuits',
     downloadingLabel: 'Téléchargement...',
     ofLabel: 'sur',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/french/bingo/sample-2.jpeg',
-        answerKeySrc: '/samples/french/bingo/sample-2.jpeg',
-        altText: 'Fiche gratuite pour enfants - bingo images thématique pour exercices CP CE1',
-        imageTitle: 'Fiche gratuite pour enfants',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/french/bingo/sample-3.jpeg',
-        answerKeySrc: '/samples/french/bingo/sample-3.jpeg',
-        altText: 'Fiches gratuites de bingo - cartes bingo pour fiches maternelle et graphisme',
-        imageTitle: 'Fiches gratuites de bingo',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/french/bingo/sample-5.jpeg',
-        answerKeySrc: '/samples/french/bingo/sample-5.jpeg',
-        altText: 'Imprimables gratuits de bingo - fiches à imprimer gratuit pour exercices maths',
-        imageTitle: 'Imprimables gratuits de bingo',
-      },
-    ],
+    items: [],
     
   },
 

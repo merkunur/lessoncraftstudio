@@ -19,39 +19,7 @@ export const gridMatchDaContent: ProductPageContent = {
     description: 'Lav professionelle raster-puslespil med vores opgavegenerator. Din Fuld Adgang-abonnement giver dig ubegrænset oprettelse af opgaver uden gebyrer per opgave.',
     keywords: 'raster-puslespil, opgaver til print, matematikopgaver, arbejdsark, gratis skoleopgaver, børnehaveklassen, 1. klasse, finmotorik øvelser, visuel opfattelse, problemløsning',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/raster-puslespil-arbejdsark',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/danish/grid-match/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis arbejdsark raster-puslespil - arbejdsark til børn med visuelle matchingopgaver til børnehaveklasse'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/danish/grid-match/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Raster-puslespil gratis printables - arbejdsark til børnehaveklasse med finmotorik øvelser'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/danish/grid-match/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis arbejdsark til børn - raster-puslespil med visuel perception træning'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/danish/grid-match/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Arbejdsark til børnehaveklasse - gratis raster-puslespil med problemløsning'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/danish/grid-match/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis printables raster-puslespil - arbejdsark til børn med matching øvelser'
-      },
-    ],
-  },
 
   // Hero Section - FULL text from grid-match.md paragraphs 1-4
   hero: {
@@ -96,43 +64,7 @@ Med Fuld Adgang kan du lave malebog aktiviteter kombineret med puslespil. Genera
     noPdfLabel: 'Ingen PDF tilgængelig',
     freePdfCountLabel: '5 gratis downloads',
     ofLabel: 'af',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/danish/grid-match/sample-1.jpeg',
-        answerKeySrc: '/samples/danish/grid-match/sample-1.jpeg',
-        altText: 'Gratis arbejdsark raster-puslespil - arbejdsark til børn med visuelle matchingopgaver til børnehaveklasse',
-        imageTitle: 'Gratis arbejdsark raster-puslespil',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/danish/grid-match/sample-2.jpeg',
-        answerKeySrc: '/samples/danish/grid-match/sample-2.jpeg',
-        altText: 'Raster-puslespil gratis printables - arbejdsark til børnehaveklasse med finmotorik øvelser',
-        imageTitle: 'Raster-puslespil gratis printables',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/danish/grid-match/sample-3.jpeg',
-        answerKeySrc: '/samples/danish/grid-match/sample-3.jpeg',
-        altText: 'Gratis arbejdsark til børn - raster-puslespil med visuel perception træning',
-        imageTitle: 'Gratis arbejdsark til børn',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/danish/grid-match/sample-4.jpeg',
-        answerKeySrc: '/samples/danish/grid-match/sample-4.jpeg',
-        altText: 'Arbejdsark til børnehaveklasse - gratis raster-puslespil med problemløsning',
-        imageTitle: 'Arbejdsark til børnehaveklasse',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/danish/grid-match/sample-5.jpeg',
-        answerKeySrc: '/samples/danish/grid-match/sample-5.jpeg',
-        altText: 'Gratis printables raster-puslespil - arbejdsark til børn med matching øvelser',
-        imageTitle: 'Gratis printables raster-puslespil',
-      },
-    ],
+    items: [],
     
   },
 

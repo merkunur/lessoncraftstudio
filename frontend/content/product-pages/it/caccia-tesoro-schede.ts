@@ -19,33 +19,7 @@ export const treasureHuntItContent: ProductPageContent = {
     description: 'Crea schede didattiche caccia al tesoro con il nostro generatore professionale. Il tuo abbonamento Accesso Completo ti consente di creare schede illimitate.',
     keywords: 'schede didattiche caccia al tesoro, schede didattiche scuola primaria, schede didattiche scuola infanzia, orientamento spaziale, ragionamento spaziale, vocabolario direzionale, schede italiano classe prima, schede matematica, disegni da colorare, pregrafismo, seguire istruzioni',
     canonicalUrl: 'https://www.lessoncraftstudio.com/it/apps/caccia-tesoro-schede',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/treasure-hunt/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Scheda gratuita caccia al tesoro - orientamento spaziale per scuola dell\'infanzia'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/treasure-hunt/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Schede gratuite caccia al tesoro - scheda per bambini scuola primaria'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/treasure-hunt/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Stampabili gratuiti caccia al tesoro - scheda per scuola dell\'infanzia'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/treasure-hunt/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Scheda per bambini - scheda gratuita per bambini orientamento'
-      },
-    ],
-  },
 
   // Hero Section
   hero: {
@@ -90,22 +64,7 @@ Perfetto per insegnanti di scuola dell'infanzia che necessitano di attività di 
     badgeText: 'Esempi Gratuiti',
     downloadingLabel: 'Scaricamento...',
     ofLabel: 'di',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/italian/treasure-hunt/sample-2.jpeg',
-        answerKeySrc: '/samples/italian/treasure-hunt/sample-2.jpeg',
-        altText: 'Schede gratuite caccia al tesoro - scheda per bambini scuola primaria',
-        imageTitle: 'Schede gratuite caccia al tesoro',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/italian/treasure-hunt/sample-4.jpeg',
-        answerKeySrc: '/samples/italian/treasure-hunt/sample-4.jpeg',
-        altText: 'Scheda per bambini - scheda gratuita per bambini orientamento',
-        imageTitle: 'Scheda per bambini',
-      },
-    ],
+    items: [],
     
   },
 

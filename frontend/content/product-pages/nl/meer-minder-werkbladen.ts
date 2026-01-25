@@ -31,39 +31,7 @@ export const moreLessNlContent: ProductPageContent = {
     description: 'Maak gratis werkbladen meer minder voor kleuters en groep 3. Professionele 300 DPI kwaliteit. Download in minder dan 3 minuten. Perfect voor leraren en ouders.',
     keywords: 'meer minder werkbladen, gratis werkblad, werkblad voor kinderen, werkblad voor kleuters, gratis printables, gratis werkbladen, rekenen werkbladen',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/meer-minder-werkbladen',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/more-less/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis werkblad meer minder - werkbladen groep 3 vergelijken oefenbladen'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/more-less/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis werkbladen meer minder - werkblad voor kleuters rekenen'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/more-less/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis printables meer minder - werkblad voor kinderen vergelijkingen'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/more-less/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Werkblad voor kinderen meer minder - gratis werkblad rekenen groep 3'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/more-less/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Werkblad voor kleuters meer minder - gratis werkbladen vergelijken'
-      },
-    ],
-  },
 
   // Hero Section - FULL text from more-less.md paragraphs 1-3
   hero: {
@@ -106,43 +74,7 @@ Dit gereedschap is ideaal voor basisonderwijs leerkrachten die sommen tot 20 oef
     badgeText: 'Gratis Voorbeelden',
     downloadingLabel: 'Downloaden...',
     ofLabel: 'van',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/dutch/more-less/sample-1.jpeg',
-        answerKeySrc: '/samples/dutch/more-less/sample-1.jpeg',
-        altText: 'Gratis werkblad meer minder - werkbladen groep 3 vergelijken oefenbladen',
-        imageTitle: 'Gratis werkblad meer minder',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/dutch/more-less/sample-2.jpeg',
-        answerKeySrc: '/samples/dutch/more-less/sample-2.jpeg',
-        altText: 'Gratis werkbladen meer minder - werkblad voor kleuters rekenen',
-        imageTitle: 'Gratis werkbladen meer minder',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/dutch/more-less/sample-3.jpeg',
-        answerKeySrc: '/samples/dutch/more-less/sample-3.jpeg',
-        altText: 'Gratis printables meer minder - werkblad voor kinderen vergelijkingen',
-        imageTitle: 'Gratis printables meer minder',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/dutch/more-less/sample-4.jpeg',
-        answerKeySrc: '/samples/dutch/more-less/sample-4.jpeg',
-        altText: 'Werkblad voor kinderen meer minder - gratis werkblad rekenen groep 3',
-        imageTitle: 'Werkblad voor kinderen meer minder',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/dutch/more-less/sample-5.jpeg',
-        answerKeySrc: '/samples/dutch/more-less/sample-5.jpeg',
-        altText: 'Werkblad voor kleuters meer minder - gratis werkbladen vergelijken',
-        imageTitle: 'Werkblad voor kleuters meer minder',
-      },
-    ],
+    items: [],
     
   },
 

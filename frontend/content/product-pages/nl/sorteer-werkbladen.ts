@@ -35,33 +35,7 @@ export const pictureSortNlContent: ProductPageContent = {
     description: 'Maak professionele sorteer werkbladen met onze werkbladen generator. Je Volledige Toegang abonnement geeft je onbeperkte werkbladen zonder extra kosten per.',
     keywords: 'sorteer werkbladen, werkbladen groep 3, werkbladen kleuters, oefenbladen gratis, fijne motoriek, rekenen werkbladen, letters leren, veilig leren lezen, tafels oefenen, sommen tot 20',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/sorteer-werkbladen',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/picture-sort/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis werkblad sorteer plaatjes - werkbladen groep 3 voor categoriseren',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/picture-sort/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis werkbladen sorteren - werkblad voor kinderen classificatie',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/picture-sort/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Werkblad voor kleuters - gratis printables cognitieve ontwikkeling',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/picture-sort/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Sorteer oefenbladen - werkblad voor kinderen logisch denken',
-      },
-    ],
-  },
 
   // Hero Section
   hero: {
@@ -106,36 +80,7 @@ De generator werkt in het Nederlands met volledige UI-ondersteuning. Alle labels
     badgeText: 'Gratis Voorbeelden',
     downloadingLabel: 'Downloaden...',
     ofLabel: 'van',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/dutch/picture-sort/sample-1.jpeg',
-        answerKeySrc: '/samples/dutch/picture-sort/sample-1.jpeg',
-        altText: 'Gratis werkblad sorteer plaatjes - werkbladen groep 3 voor categoriseren',
-        imageTitle: 'Gratis werkblad sorteer plaatjes',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/dutch/picture-sort/sample-2.jpeg',
-        answerKeySrc: '/samples/dutch/picture-sort/sample-2.jpeg',
-        altText: 'Gratis werkbladen sorteren - werkblad voor kinderen classificatie',
-        imageTitle: 'Gratis werkbladen sorteren',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/dutch/picture-sort/sample-3.jpeg',
-        answerKeySrc: '/samples/dutch/picture-sort/sample-3.jpeg',
-        altText: 'Werkblad voor kleuters - gratis printables cognitieve ontwikkeling',
-        imageTitle: 'Werkblad voor kleuters',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/dutch/picture-sort/sample-4.jpeg',
-        answerKeySrc: '/samples/dutch/picture-sort/sample-4.jpeg',
-        altText: 'Sorteer oefenbladen - werkblad voor kinderen logisch denken',
-        imageTitle: 'Sorteer oefenbladen',
-      },
-    ],
+    items: [],
     
   },
 

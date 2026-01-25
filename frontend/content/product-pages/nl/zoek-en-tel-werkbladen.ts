@@ -31,33 +31,7 @@ export const findAndCountNlContent: ProductPageContent = {
     description: 'Maak professionele zoek-en-tel werkbladen in enkele minuten. Deze interactieve werkblad generator combineert visueel zoeken met tellen. Met je Basispakket.',
     keywords: 'zoek en tel werkbladen, rekenen werkbladen, werkbladen groep 3, werkbladen kleuters, sommen tot 20, oefenbladen gratis, tafels oefenen, veilig leren lezen, fijne motoriek, letters leren',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/zoek-en-tel-werkbladen',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/find-and-count/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis werkblad zoek en tel - werkbladen groep 3 voor rekenen',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/find-and-count/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis werkbladen voor kinderen - zoek en tel met sommen tot 20',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/find-and-count/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis printables zoek en tel - werkblad voor kleuters met fijne motoriek',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/find-and-count/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Werkblad voor kinderen zoek en tel - oefenbladen gratis kwaliteit',
-      },
-    ],
-  },
 
   // Hero Section - FULL text from find-and-count.md paragraphs 1-2
   hero: {
@@ -100,36 +74,7 @@ Zoek-en-tel activiteiten stimuleren meerdere vaardigheden tegelijk. Kinderen oef
     badgeText: 'Gratis Voorbeelden',
     downloadingLabel: 'Downloaden...',
     ofLabel: 'van',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/dutch/find-and-count/sample-1.jpeg',
-        answerKeySrc: '/samples/dutch/find-and-count/sample-1.jpeg',
-        altText: 'Gratis werkblad zoek en tel - werkbladen groep 3 voor rekenen',
-        imageTitle: 'Gratis werkblad zoek en tel',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/dutch/find-and-count/sample-2.jpeg',
-        answerKeySrc: '/samples/dutch/find-and-count/sample-2.jpeg',
-        altText: 'Gratis werkbladen voor kinderen - zoek en tel met sommen tot 20',
-        imageTitle: 'Gratis werkbladen voor kinderen',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/dutch/find-and-count/sample-3.jpeg',
-        answerKeySrc: '/samples/dutch/find-and-count/sample-3.jpeg',
-        altText: 'Gratis printables zoek en tel - werkblad voor kleuters met fijne motoriek',
-        imageTitle: 'Gratis printables zoek en tel',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/dutch/find-and-count/sample-4.jpeg',
-        answerKeySrc: '/samples/dutch/find-and-count/sample-4.jpeg',
-        altText: 'Werkblad voor kinderen zoek en tel - oefenbladen gratis kwaliteit',
-        imageTitle: 'Werkblad voor kinderen zoek en tel',
-      },
-    ],
+    items: [],
     
   },
 

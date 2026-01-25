@@ -19,39 +19,7 @@ export const graficosConteoEsContent: ProductPageContent = {
     description: 'Crea fichas de gráficos con imágenes profesionales con nuestro generador especializado. Los gráficos de conteo con imágenes enseñan a los niños a contar.',
     keywords: 'fichas de gráficos, gráficos con imágenes, fichas para imprimir, fichas infantil, fichas preescolar, fichas de matemáticas, ejercicios matemáticas, material educativo gratis, fichas gratis, aprender los números, grafomotricidad, lectoescritura, dibujos para colorear, tablas de multiplicar',
     canonicalUrl: 'https://www.lessoncraftstudio.com/es/apps/graficos-conteo-fichas',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/spanish/chart-count/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Fichas de gráficos con imágenes gratis para imprimir - ejercicios de conteo para preescolar',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/spanish/chart-count/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gráficos de conteo fichas para imprimir gratis - material educativo matemáticas infantil',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/spanish/chart-count/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Fichas de matemáticas para preescolar gratis - gráficos con imágenes para niños',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/spanish/chart-count/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gráficos para contar fichas gratis para imprimir - ejercicios visuales educación infantil',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/spanish/chart-count/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Fichas infantil de gráficos de conteo gratis - material educativo para primaria',
-      },
-    ],
-  },
 
   // Hero Section - FULL text from chart-count.md paragraphs 1-4
   hero: {
@@ -96,43 +64,7 @@ Los maestros de preescolar usan estas fichas para imprimir para enseñar clasifi
     badgeText: 'Ejemplos Gratis',
     downloadingLabel: 'Descargando...',
     ofLabel: 'de',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/spanish/chart-count/sample-1.jpeg',
-        answerKeySrc: '/samples/spanish/chart-count/sample-1.jpeg',
-        altText: 'Fichas de gráficos con imágenes gratis para imprimir - ejercicios de conteo para preescolar',
-        imageTitle: 'Fichas de gráficos con imágenes gratis para imprimir',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/spanish/chart-count/sample-2.jpeg',
-        answerKeySrc: '/samples/spanish/chart-count/sample-2.jpeg',
-        altText: 'Gráficos de conteo fichas para imprimir gratis - material educativo matemáticas infantil',
-        imageTitle: 'Gráficos de conteo fichas para imprimir gratis',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/spanish/chart-count/sample-3.jpeg',
-        answerKeySrc: '/samples/spanish/chart-count/sample-3.jpeg',
-        altText: 'Fichas de matemáticas para preescolar gratis - gráficos con imágenes para niños',
-        imageTitle: 'Fichas de matemáticas para preescolar gratis',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/spanish/chart-count/sample-4.jpeg',
-        answerKeySrc: '/samples/spanish/chart-count/sample-4.jpeg',
-        altText: 'Gráficos para contar fichas gratis para imprimir - ejercicios visuales educación infantil',
-        imageTitle: 'Gráficos para contar fichas gratis para imprimir',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/spanish/chart-count/sample-5.jpeg',
-        answerKeySrc: '/samples/spanish/chart-count/sample-5.jpeg',
-        altText: 'Fichas infantil de gráficos de conteo gratis - material educativo para primaria',
-        imageTitle: 'Fichas infantil de gráficos de conteo gratis',
-      },
-    ],
+    items: [],
     
   },
 

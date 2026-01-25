@@ -21,33 +21,7 @@ export const crosswordPtContent: ProductPageContent = {
     description: 'Crie palavras cruzadas educativas com imagens como pistas visuais. Atividades grátis de alfabetização para crianças. Baixe em PDF 300 DPI em 3 minutos.',
     keywords: 'palavras cruzadas, atividades para imprimir, atividades de alfabetização, atividades educação infantil, atividades de matemática, desenhos para colorir, coordenação motora, atividades vogais, tabuada, letra cursiva, pontilhado, atividades 1º ano, atividades 2º ano',
     canonicalUrl: 'https://www.lessoncraftstudio.com/pt/apps/palavras-cruzadas-imagens-fichas',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/crossword/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Atividade de palavras cruzadas grátis para imprimir - exercícios de alfabetização para educação infantil'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/crossword/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Atividade grátis de palavras cruzadas com imagens - atividade para crianças do 1º ano'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/crossword/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Atividades grátis de vocabulário - imprimíveis grátis para educação infantil'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/crossword/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Atividade para crianças - palavras cruzadas com imagens para alfabetização grátis'
-      }
-    ],
-  },
 
   // Hero Section
   hero: {
@@ -90,36 +64,7 @@ Palavras cruzadas com imagens são perfeitas para crianças em fase de alfabetiz
     badgeText: 'Exemplos Grátis',
     downloadingLabel: 'Baixando...',
     ofLabel: 'de',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/portuguese/crossword/sample-1.jpeg',
-        answerKeySrc: '/samples/portuguese/crossword/sample-1.jpeg',
-        altText: 'Atividade de palavras cruzadas grátis para imprimir - exercícios de alfabetização para educação infantil',
-        imageTitle: 'Atividade de palavras cruzadas grátis para imprimir',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/portuguese/crossword/sample-2.jpeg',
-        answerKeySrc: '/samples/portuguese/crossword/sample-2.jpeg',
-        altText: 'Atividade grátis de palavras cruzadas com imagens - atividade para crianças do 1º ano',
-        imageTitle: 'Atividade grátis de palavras cruzadas com imagens',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/portuguese/crossword/sample-3.jpeg',
-        answerKeySrc: '/samples/portuguese/crossword/sample-3.jpeg',
-        altText: 'Atividades grátis de vocabulário - imprimíveis grátis para educação infantil',
-        imageTitle: 'Atividades grátis de vocabulário',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/portuguese/crossword/sample-4.jpeg',
-        answerKeySrc: '/samples/portuguese/crossword/sample-4.jpeg',
-        altText: 'Atividade para crianças - palavras cruzadas com imagens para alfabetização grátis',
-        imageTitle: 'Atividade para crianças',
-      },
-    ],
+    items: [],
     
   },
 

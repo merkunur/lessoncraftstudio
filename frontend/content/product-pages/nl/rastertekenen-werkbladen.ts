@@ -32,39 +32,7 @@ export const drawAndColorNlContent: ProductPageContent = {
     description: 'Maak professionele rastertekenen werkbladen met onze gebruiksvriendelijke generator. Met je Volledige Toegang abonnement krijg je onbeperkte toegang tot het.',
     keywords: 'rastertekenen, werkbladen groep 3, werkbladen kleuters, oefenbladen gratis, fijne motoriek, letters leren, schrijven oefenen, rekenen werkbladen, veilig leren lezen, sommen tot 20, tafels oefenen, kleurplaten',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/rastertekenen-werkbladen',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/draw-and-color/sample-1.jpeg',
-        width: 800,
-        height: 1132,
-        caption: 'Gratis werkblad rastertekenen - Werkblad voor kinderen met rasterpatronen',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/draw-and-color/sample-2.jpeg',
-        width: 800,
-        height: 1132,
-        caption: 'Gratis werkbladen rastertekenen - Werkblad voor kleuters met fijne motoriek oefeningen',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/draw-and-color/sample-3.jpeg',
-        width: 800,
-        height: 1132,
-        caption: 'Gratis printables rastertekenen - Werkblad voor kinderen met patronen natekenen',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/draw-and-color/sample-4.jpeg',
-        width: 800,
-        height: 1132,
-        caption: 'Werkblad voor kleuters rastertekenen - Gratis werkblad voor fijne motoriek',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/draw-and-color/sample-5.jpeg',
-        width: 800,
-        height: 1132,
-        caption: 'Gratis werkblad voor kinderen - Werkblad rastertekenen voor groep 3',
-      },
-    ],
-  },
 
   // Hero Section - FULL text from draw-and-color.md paragraphs 1-4
   hero: {
@@ -107,43 +75,7 @@ Rastertekenen is een van de beste activiteiten voor jonge kinderen. Het combinee
     badgeText: 'Gratis Voorbeelden',
     downloadingLabel: 'Downloaden...',
     ofLabel: 'van',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/dutch/draw-and-color/sample-1.jpeg',
-        answerKeySrc: '/samples/dutch/draw-and-color/sample-1.jpeg',
-        altText: 'Gratis werkblad rastertekenen - Werkblad voor kinderen met rasterpatronen',
-        imageTitle: 'Gratis werkblad rastertekenen',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/dutch/draw-and-color/sample-2.jpeg',
-        answerKeySrc: '/samples/dutch/draw-and-color/sample-2.jpeg',
-        altText: 'Gratis werkbladen rastertekenen - Werkblad voor kleuters met fijne motoriek oefeningen',
-        imageTitle: 'Gratis werkbladen rastertekenen',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/dutch/draw-and-color/sample-3.jpeg',
-        answerKeySrc: '/samples/dutch/draw-and-color/sample-3.jpeg',
-        altText: 'Gratis printables rastertekenen - Werkblad voor kinderen met patronen natekenen',
-        imageTitle: 'Gratis printables rastertekenen',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/dutch/draw-and-color/sample-4.jpeg',
-        answerKeySrc: '/samples/dutch/draw-and-color/sample-4.jpeg',
-        altText: 'Werkblad voor kleuters rastertekenen - Gratis werkblad voor fijne motoriek',
-        imageTitle: 'Werkblad voor kleuters rastertekenen',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/dutch/draw-and-color/sample-5.jpeg',
-        answerKeySrc: '/samples/dutch/draw-and-color/sample-5.jpeg',
-        altText: 'Gratis werkblad voor kinderen - Werkblad rastertekenen voor groep 3',
-        imageTitle: 'Gratis werkblad voor kinderen',
-      },
-    ],
+    items: [],
     
   },
 

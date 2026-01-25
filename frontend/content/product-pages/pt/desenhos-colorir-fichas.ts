@@ -19,39 +19,7 @@ export const coloringPtContent: ProductPageContent = {
     description: 'Crie desenhos para colorir profissionais com nosso gerador de atividades grátis para imprimir. Com sua assinatura, gere páginas de colorir ilimitadas.',
     keywords: 'desenhos para colorir, atividades para imprimir, atividades educação infantil, coordenação motora, atividades de alfabetização, atividades vogais, letra cursiva, pontilhado, tabuada, atividades de matemática, 1º ano, 2º ano',
     canonicalUrl: 'https://www.lessoncraftstudio.com/pt/apps/desenhos-colorir-fichas',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/coloring/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Desenhos para colorir atividade grátis - página de colorir para educação infantil',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/coloring/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Atividade grátis para crianças de colorir - coordenação motora fina',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/coloring/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Desenhos para colorir imprimíveis grátis para pré-escola',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/coloring/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Atividades grátis de colorir para sala de aula',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/coloring/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Atividade para crianças de colorir - atividade para educação infantil',
-      },
-    ],
-  },
 
   // Hero Section - FULL text from coloring.md
   hero: {
@@ -94,43 +62,7 @@ Nossa biblioteca oferece mais de 3000 imagens infantis. Escolha temas como anima
     badgeText: 'Exemplos Grátis',
     downloadingLabel: 'Baixando...',
     ofLabel: 'de',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/portuguese/coloring/sample-1.jpeg',
-        answerKeySrc: '/samples/portuguese/coloring/sample-1.jpeg',
-        altText: 'Desenhos para colorir atividade grátis - página de colorir para educação infantil',
-        imageTitle: 'Desenhos para colorir atividade grátis',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/portuguese/coloring/sample-2.jpeg',
-        answerKeySrc: '/samples/portuguese/coloring/sample-2.jpeg',
-        altText: 'Atividade grátis para crianças de colorir - coordenação motora fina',
-        imageTitle: 'Atividade grátis para crianças de colorir',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/portuguese/coloring/sample-3.jpeg',
-        answerKeySrc: '/samples/portuguese/coloring/sample-3.jpeg',
-        altText: 'Desenhos para colorir imprimíveis grátis para pré-escola',
-        imageTitle: 'Desenhos para colorir imprimíveis grátis para pré-escola',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/portuguese/coloring/sample-4.jpeg',
-        answerKeySrc: '/samples/portuguese/coloring/sample-4.jpeg',
-        altText: 'Atividades grátis de colorir para sala de aula',
-        imageTitle: 'Atividades grátis de colorir para sala de aula',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/portuguese/coloring/sample-5.jpeg',
-        answerKeySrc: '/samples/portuguese/coloring/sample-5.jpeg',
-        altText: 'Atividade para crianças de colorir - atividade para educação infantil',
-        imageTitle: 'Atividade para crianças de colorir',
-      },
-    ],
+    items: [],
     
   },
 

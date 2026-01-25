@@ -19,33 +19,7 @@ export const wordScramblePtContent: ProductPageContent = {
     description: 'Crie atividades grátis de palavras embaralhadas para educação infantil e ensino fundamental. Baixe imprimíveis grátis de alfabetização em PDF com gabarito.',
     keywords: 'palavras embaralhadas, atividade grátis, atividades grátis, imprimíveis grátis, atividade para crianças, atividade para educação infantil, atividades de alfabetização, educação infantil, 1º ano, 2º ano, vogais, alfabeto, coordenação motora, letra cursiva, pontilhado, desenhos para colorir',
     canonicalUrl: 'https://www.lessoncraftstudio.com/pt/apps/palavras-embaralhadas-fichas',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/word-scramble/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Atividade grátis de palavras embaralhadas para crianças - ficha de alfabetização para educação infantil',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/word-scramble/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Imprimíveis grátis de palavras embaralhadas - atividade para educação infantil com imagens coloridas',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/word-scramble/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Atividades grátis de palavras embaralhadas para crianças - ficha de alfabetização com gabarito',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/word-scramble/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Atividade grátis para crianças - palavras embaralhadas com vogais e alfabeto para imprimir',
-      },
-    ],
-  },
 
   // Hero Section - FULL text from word-scramble.md paragraphs 1-3
   hero: {
@@ -88,36 +62,7 @@ O gerador de atividades para imprimir oferece personalização completa para ate
     badgeText: 'Exemplos Grátis',
     downloadingLabel: 'Baixando...',
     ofLabel: 'de',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/portuguese/word-scramble/sample-1.jpeg',
-        answerKeySrc: '/samples/portuguese/word-scramble/sample-1.jpeg',
-        altText: 'Atividade grátis de palavras embaralhadas para crianças - ficha de alfabetização para educação infantil',
-        imageTitle: 'Atividade grátis de palavras embaralhadas para crianças',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/portuguese/word-scramble/sample-2.jpeg',
-        answerKeySrc: '/samples/portuguese/word-scramble/sample-2.jpeg',
-        altText: 'Imprimíveis grátis de palavras embaralhadas - atividade para educação infantil com imagens coloridas',
-        imageTitle: 'Imprimíveis grátis de palavras embaralhadas',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/portuguese/word-scramble/sample-3.jpeg',
-        answerKeySrc: '/samples/portuguese/word-scramble/sample-3.jpeg',
-        altText: 'Atividades grátis de palavras embaralhadas para crianças - ficha de alfabetização com gabarito',
-        imageTitle: 'Atividades grátis de palavras embaralhadas para crianças',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/portuguese/word-scramble/sample-4.jpeg',
-        answerKeySrc: '/samples/portuguese/word-scramble/sample-4.jpeg',
-        altText: 'Atividade grátis para crianças - palavras embaralhadas com vogais e alfabeto para imprimir',
-        imageTitle: 'Atividade grátis para crianças',
-      },
-    ],
+    items: [],
     
   },
 

@@ -22,39 +22,7 @@ export const wordGuessFrContent: ProductPageContent = {
     description: 'Créez des fiches deviner les mots en 3 minutes. Abonnement 240€/an, création illimitée. Vocabulaire et orthographe pour maternelle et CP. Parfait pour enseignants et parents.',
     keywords: 'deviner les mots, fiches maternelle, exercices CP, fiches à imprimer gratuit, apprendre à lire, fiches alphabet, graphisme maternelle, exercices maths, apprendre les lettres, coloriage à imprimer, écriture cursive, tables de multiplication, exercices CE1',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fr/apps/deviner-mots-fiches',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/french/word-guess/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Fiche deviner les mots gratuite avec indices visuels pour maternelle',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/french/word-guess/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Fiche deviner les mots gratuite niveau facile pour exercices CP',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/french/word-guess/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Fiche deviner les mots à imprimer gratuit vocabulaire pour enfants',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/french/word-guess/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Fiches gratuites deviner les mots thème animaux maternelle',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/french/word-guess/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Fiche gratuite deviner les mots orthographe exercices CE1',
-      },
-    ],
-  },
 
   // Hero Section - FULL text from word-guess.md paragraphs 1-4
   hero: {
@@ -99,43 +67,7 @@ Votre abonnement Accès Complet inclut une licence commerciale pour vendre vos f
     badgeText: 'Exemples Gratuits',
     downloadingLabel: 'Téléchargement...',
     ofLabel: 'sur',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/french/word-guess/sample-1.jpeg',
-        answerKeySrc: '/samples/french/word-guess/sample-1.jpeg',
-        altText: 'Fiche deviner les mots gratuite avec indices visuels pour maternelle',
-        imageTitle: 'Fiche deviner les mots gratuite avec indices visuels pour maternelle',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/french/word-guess/sample-2.jpeg',
-        answerKeySrc: '/samples/french/word-guess/sample-2.jpeg',
-        altText: 'Fiche deviner les mots gratuite niveau facile pour exercices CP',
-        imageTitle: 'Fiche deviner les mots gratuite niveau facile pour exercices CP',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/french/word-guess/sample-3.jpeg',
-        answerKeySrc: '/samples/french/word-guess/sample-3.jpeg',
-        altText: 'Fiche deviner les mots à imprimer gratuit vocabulaire pour enfants',
-        imageTitle: 'Fiche deviner les mots à imprimer gratuit vocabulaire pour enfants',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/french/word-guess/sample-4.jpeg',
-        answerKeySrc: '/samples/french/word-guess/sample-4.jpeg',
-        altText: 'Fiches gratuites deviner les mots thème animaux maternelle',
-        imageTitle: 'Fiches gratuites deviner les mots thème animaux maternelle',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/french/word-guess/sample-5.jpeg',
-        answerKeySrc: '/samples/french/word-guess/sample-5.jpeg',
-        altText: 'Fiche gratuite deviner les mots orthographe exercices CE1',
-        imageTitle: 'Fiche gratuite deviner les mots orthographe exercices CE1',
-      },
-    ],
+    items: [],
     
   },
 

@@ -31,39 +31,7 @@ export const additionNlContent: ProductPageContent = {
     description: 'Maak professionele optelwerkbladen met plaatjes in enkele minuten. Deze rekenen werkbladen generator is perfect voor leerkrachten in het basisonderwijs.',
     keywords: 'optellen werkbladen, rekenen werkbladen, werkbladen groep 3, werkbladen kleuters, sommen tot 20, oefenbladen gratis, tafels oefenen, veilig leren lezen, fijne motoriek, letters leren, gratis werkblad, gratis werkbladen, gratis printables, werkblad voor kinderen, werkblad voor kleuters',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/optellen-werkbladen',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/addition/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis werkblad optellen - rekenen werkbladen voor werkbladen groep 3',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/addition/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis werkbladen voor kinderen - optelwerkblad met plaatjes en sommen tot 20',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/addition/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis printables optellen - werkblad voor kleuters met afbeeldingen',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/addition/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Werkblad voor kinderen optellen - oefenbladen gratis kwaliteit',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/addition/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis werkblad voor kinderen - rekenen werkbladen groep 3',
-      },
-    ],
-  },
 
   // Hero Section - FULL text from addition.md paragraphs 1-4
   hero: {
@@ -106,43 +74,7 @@ Rekenen met plaatjes maakt abstract tellen concreet. Kinderen zien drie appels p
     badgeText: 'Gratis Voorbeelden',
     downloadingLabel: 'Downloaden...',
     ofLabel: 'van',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/dutch/addition/sample-1.jpeg',
-        answerKeySrc: '/samples/dutch/addition/sample-1.jpeg',
-        altText: 'Gratis werkblad optellen - rekenen werkbladen voor werkbladen groep 3',
-        imageTitle: 'Gratis werkblad optellen',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/dutch/addition/sample-2.jpeg',
-        answerKeySrc: '/samples/dutch/addition/sample-2.jpeg',
-        altText: 'Gratis werkbladen voor kinderen - optelwerkblad met plaatjes en sommen tot 20',
-        imageTitle: 'Gratis werkbladen voor kinderen',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/dutch/addition/sample-3.jpeg',
-        answerKeySrc: '/samples/dutch/addition/sample-3.jpeg',
-        altText: 'Gratis printables optellen - werkblad voor kleuters met afbeeldingen',
-        imageTitle: 'Gratis printables optellen',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/dutch/addition/sample-4.jpeg',
-        answerKeySrc: '/samples/dutch/addition/sample-4.jpeg',
-        altText: 'Werkblad voor kinderen optellen - oefenbladen gratis kwaliteit',
-        imageTitle: 'Werkblad voor kinderen optellen',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/dutch/addition/sample-5.jpeg',
-        answerKeySrc: '/samples/dutch/addition/sample-5.jpeg',
-        altText: 'Gratis werkblad voor kinderen - rekenen werkbladen groep 3',
-        imageTitle: 'Gratis werkblad voor kinderen',
-      },
-    ],
+    items: [],
     
   },
 

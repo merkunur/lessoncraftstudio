@@ -19,33 +19,7 @@ export const wordGuessEsContent: ProductPageContent = {
     description: 'Crea fichas gratis de adivina la palabra para ninos. Genera imprimibles gratis de lectoescritura para preescolar. Descarga ficha para ninos PDF en 3 minutos.',
     keywords: 'fichas para imprimir, adivina la palabra, fichas gratis, lectoescritura, abecedario, fichas infantil, fichas preescolar, material educativo gratis, grafomotricidad, ejercicios matematicas',
     canonicalUrl: 'https://www.lessoncraftstudio.com/es/apps/adivinar-palabras-fichas',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/spanish/word-guess/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Ficha gratis de adivina la palabra con cuadricula de pistas para lectoescritura infantil',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/spanish/word-guess/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Ficha gratis para niños de adivina la palabra para preescolar',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/spanish/word-guess/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Imprimibles gratis de adivina la palabra con lista personalizada para educación infantil',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/spanish/word-guess/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Fichas para imprimir adivina la palabra - ejercicios vocabulario para primaria',
-      },
-    ],
-  },
 
   // Hero Section - FULL text from word-guess.md paragraphs 1-6
   hero: {
@@ -90,36 +64,7 @@ Tu suscripcion Acceso Completo incluye licencia comercial completa. Puedes vende
     badgeText: 'Ejemplos Gratis',
     downloadingLabel: 'Descargando...',
     ofLabel: 'de',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/spanish/word-guess/sample-1.jpeg',
-        answerKeySrc: '/samples/spanish/word-guess/sample-1.jpeg',
-        altText: 'Ficha gratis de adivina la palabra con cuadricula de pistas para lectoescritura infantil',
-        imageTitle: 'Ficha gratis de adivina la palabra con cuadricula de pistas para lectoescritura infantil',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/spanish/word-guess/sample-2.jpeg',
-        answerKeySrc: '/samples/spanish/word-guess/sample-2.jpeg',
-        altText: 'Ficha gratis para niños de adivina la palabra para preescolar',
-        imageTitle: 'Ficha gratis para niños de adivina la palabra para preescolar',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/spanish/word-guess/sample-3.jpeg',
-        answerKeySrc: '/samples/spanish/word-guess/sample-3.jpeg',
-        altText: 'Imprimibles gratis de adivina la palabra con lista personalizada para educación infantil',
-        imageTitle: 'Imprimibles gratis de adivina la palabra con lista personalizada para educación infantil',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/spanish/word-guess/sample-4.jpeg',
-        answerKeySrc: '/samples/spanish/word-guess/sample-4.jpeg',
-        altText: 'Fichas para imprimir adivina la palabra - ejercicios vocabulario para primaria',
-        imageTitle: 'Fichas para imprimir adivina la palabra',
-      },
-    ],
+    items: [],
     
   },
 

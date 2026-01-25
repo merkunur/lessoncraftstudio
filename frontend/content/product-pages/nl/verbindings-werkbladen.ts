@@ -33,27 +33,7 @@ export const matchingNlContent: ProductPageContent = {
     description: 'Maak professionele verbindingswerkbladen met onze werkbladen generator. Met je Basispakket abonnement creëer je onbeperkt oefenbladen zonder extra kosten per.',
     keywords: 'verbindingswerkbladen, werkbladen groep 3, werkbladen kleuters, oefenbladen gratis, letters leren, fijne motoriek, veilig leren lezen, rekenen werkbladen, tafels oefenen, sommen tot 20',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/verbindings-werkbladen',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/matching/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis werkblad verbindingsopdracht - werkblad voor kinderen met afbeeldingen koppelen'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/matching/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis werkbladen verbindingspuzzel - werkblad voor kleuters letters leren'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/matching/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis printables verbindingswerkblad - werkblad voor kinderen woordenschat'
-      }
-    ]
-  },
 
   // Hero Section
   hero: {
@@ -96,29 +76,7 @@ Ontwerp werkbladen groep 3 die perfect aansluiten bij jouw lesmateriaal. Kies ui
     badgeText: 'Gratis Voorbeelden',
     downloadingLabel: 'Downloaden...',
     ofLabel: 'van',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/dutch/matching/sample-1.jpeg',
-        answerKeySrc: '/samples/dutch/matching/sample-1.jpeg',
-        altText: 'Gratis werkblad verbindingsopdracht - werkblad voor kinderen met afbeeldingen koppelen',
-        imageTitle: 'Gratis werkblad verbindingsopdracht',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/dutch/matching/sample-2.jpeg',
-        answerKeySrc: '/samples/dutch/matching/sample-2.jpeg',
-        altText: 'Gratis werkbladen verbindingspuzzel - werkblad voor kleuters letters leren',
-        imageTitle: 'Gratis werkbladen verbindingspuzzel',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/dutch/matching/sample-3.jpeg',
-        answerKeySrc: '/samples/dutch/matching/sample-3.jpeg',
-        altText: 'Gratis printables verbindingswerkblad - werkblad voor kinderen woordenschat',
-        imageTitle: 'Gratis printables verbindingswerkblad',
-      },
-    ],
+    items: [],
     
   },
 

@@ -19,39 +19,7 @@ export const treasureHuntSvContent: ProductPageContent = {
     description: 'Skapa professionella skattjakt arbetsblad med vår generator. Generera anpassade utskrivbara riktningsövningar perfekta för förskoleklass material och.',
     keywords: 'skattjakt arbetsblad, riktningsövningar, förskoleklass material, arbetsblad gratis, bokstäver lära sig, väderstreck, upp ner vänster höger, elev material, lågstadiet, finmotorik övningar',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/skattjakt-arbetsblad',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/treasure-hunt/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis skattjakt arbetsblad för barn - riktningsövningar med upp ner vänster höger för förskoleklass',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/treasure-hunt/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis skattjakt arbetsblad för förskoleklass - väderstreck riktningsövningar norr söder öst väst',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/treasure-hunt/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Skattjakt arbetsblad gratis utskrift - spatial medvetenhet övning för lågstadiet',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/treasure-hunt/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis arbetsblad skattjakt för barn - rutnätsnavigering och instruktionsföljning',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/treasure-hunt/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis skattjakt arbetsblad - riktningsinlärning och läsförståelse för förskoleklass',
-      },
-    ],
-  },
 
   // Hero Section - FULL text from treasure-hunt.md paragraphs 1-4
   hero: {
@@ -94,43 +62,7 @@ Vår skattjakt generator erbjuder över 3000 barnvänliga bilder organiserade ef
     badgeText: 'Gratis Exempel',
     downloadingLabel: 'Laddar ner...',
     ofLabel: 'av',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/swedish/treasure-hunt/sample-1.jpeg',
-        answerKeySrc: '/samples/swedish/treasure-hunt/sample-1.jpeg',
-        altText: 'Gratis skattjakt arbetsblad för barn - riktningsövningar med upp ner vänster höger för förskoleklass',
-        imageTitle: 'Gratis skattjakt arbetsblad för barn',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/swedish/treasure-hunt/sample-2.jpeg',
-        answerKeySrc: '/samples/swedish/treasure-hunt/sample-2.jpeg',
-        altText: 'Gratis skattjakt arbetsblad för förskoleklass - väderstreck riktningsövningar norr söder öst väst',
-        imageTitle: 'Gratis skattjakt arbetsblad för förskoleklass',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/swedish/treasure-hunt/sample-3.jpeg',
-        answerKeySrc: '/samples/swedish/treasure-hunt/sample-3.jpeg',
-        altText: 'Skattjakt arbetsblad gratis utskrift - spatial medvetenhet övning för lågstadiet',
-        imageTitle: 'Skattjakt arbetsblad gratis utskrift',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/swedish/treasure-hunt/sample-4.jpeg',
-        answerKeySrc: '/samples/swedish/treasure-hunt/sample-4.jpeg',
-        altText: 'Gratis arbetsblad skattjakt för barn - rutnätsnavigering och instruktionsföljning',
-        imageTitle: 'Gratis arbetsblad skattjakt för barn',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/swedish/treasure-hunt/sample-5.jpeg',
-        answerKeySrc: '/samples/swedish/treasure-hunt/sample-5.jpeg',
-        altText: 'Gratis skattjakt arbetsblad - riktningsinlärning och läsförståelse för förskoleklass',
-        imageTitle: 'Gratis skattjakt arbetsblad',
-      },
-    ],
+    items: [],
     
   },
 

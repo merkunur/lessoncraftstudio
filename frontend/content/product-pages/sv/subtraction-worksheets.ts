@@ -19,33 +19,7 @@ export const subtractionSvContent: ProductPageContent = {
     description: 'Skapa professionella subtraktionsblad med vår matematikgenerator. Generera anpassade utskrivbara matematik arbetsblad perfekta för förskoleklass material och.',
     keywords: 'subtraktion arbetsblad, matematik arbetsblad, förskoleklass material, matte övningar, siffror och tal, arbetsblad gratis, addition och subtraktion, subtraktionsblad, räkneövningar, taluppfattning',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/subtraktion-arbetsblad',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/subtraction/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Subtraktionsarbetsblad gratis arbetsblad för barn - matematik övningar för förskoleklass'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/subtraction/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis arbetsblad subtraktion - matte övningar med bilder för barn'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/subtraction/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Arbetsblad för förskoleklass subtraktion - gratis utskrifter matematik'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/subtraction/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Arbetsblad för barn subtraktion - gratis matematik arbetsblad'
-      }
-    ],
-  },
 
   // Hero Section - FULL text from subtraction.md paragraphs 1-4
   hero: {
@@ -90,36 +64,7 @@ Exportera i 300 DPI professionell kvalitet. Perfekt för klassrumsbruk och förs
     badgeText: 'Gratis Exempel',
     downloadingLabel: 'Laddar ner...',
     ofLabel: 'av',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/swedish/subtraction/sample-1.jpeg',
-        answerKeySrc: '/samples/swedish/subtraction/sample-1.jpeg',
-        altText: 'Subtraktionsarbetsblad gratis arbetsblad för barn - matematik övningar för förskoleklass',
-        imageTitle: 'Subtraktionsarbetsblad gratis arbetsblad för barn',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/swedish/subtraction/sample-2.jpeg',
-        answerKeySrc: '/samples/swedish/subtraction/sample-2.jpeg',
-        altText: 'Gratis arbetsblad subtraktion - matte övningar med bilder för barn',
-        imageTitle: 'Gratis arbetsblad subtraktion',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/swedish/subtraction/sample-3.jpeg',
-        answerKeySrc: '/samples/swedish/subtraction/sample-3.jpeg',
-        altText: 'Arbetsblad för förskoleklass subtraktion - gratis utskrifter matematik',
-        imageTitle: 'Arbetsblad för förskoleklass subtraktion',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/swedish/subtraction/sample-4.jpeg',
-        answerKeySrc: '/samples/swedish/subtraction/sample-4.jpeg',
-        altText: 'Arbetsblad för barn subtraktion - gratis matematik arbetsblad',
-        imageTitle: 'Arbetsblad för barn subtraktion',
-      },
-    ],
+    items: [],
     
   },
 

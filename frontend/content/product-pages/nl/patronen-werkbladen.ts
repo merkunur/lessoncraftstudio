@@ -33,33 +33,7 @@ export const patternWorksheetsNlContent: ProductPageContent = {
     description: 'Maak gratis werkbladen patronen voor groep 3 en kleuters. Genereer gratis printables met visuele patronen. Perfect werkblad voor kinderen en fijne motoriek.',
     keywords: 'patronen werkbladen, oefenbladen gratis, werkbladen groep 3, werkbladen kleuters, rekenen werkbladen, letters leren, schrijven oefenen, veilig leren lezen, fijne motoriek, kleurplaten, tafels oefenen, sommen tot 20, gratis werkblad, gratis werkbladen, gratis printables, werkblad voor kinderen, werkblad voor kleuters',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/patronen-werkbladen',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/pattern/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis werkblad patronen - oefenblad voor kleuters en groep 3'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/pattern/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis werkbladen patronen herkenning - werkblad voor kinderen'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/pattern/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis printables patronen oefening - werkblad voor kleuters'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/pattern/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Patronen werkblad gratis werkblad voor kinderen - groep 1-3'
-      },
-    ],
-  },
 
   // Hero Section
   hero: {
@@ -104,36 +78,7 @@ Combineer patronen werkbladen met kleurplaten voor extra oefening. Maak gratis w
     badgeText: 'Gratis Voorbeelden',
     downloadingLabel: 'Downloaden...',
     ofLabel: 'van',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/dutch/pattern/sample-1.jpeg',
-        answerKeySrc: '/samples/dutch/pattern/sample-1.jpeg',
-        altText: 'Gratis werkblad patronen - oefenblad voor kleuters en groep 3',
-        imageTitle: 'Gratis werkblad patronen',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/dutch/pattern/sample-2.jpeg',
-        answerKeySrc: '/samples/dutch/pattern/sample-2.jpeg',
-        altText: 'Gratis werkbladen patronen herkenning - werkblad voor kinderen',
-        imageTitle: 'Gratis werkbladen patronen herkenning',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/dutch/pattern/sample-3.jpeg',
-        answerKeySrc: '/samples/dutch/pattern/sample-3.jpeg',
-        altText: 'Gratis printables patronen oefening - werkblad voor kleuters',
-        imageTitle: 'Gratis printables patronen oefening',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/dutch/pattern/sample-4.jpeg',
-        answerKeySrc: '/samples/dutch/pattern/sample-4.jpeg',
-        altText: 'Patronen werkblad gratis werkblad voor kinderen - groep 1-3',
-        imageTitle: 'Patronen werkblad gratis werkblad voor kinderen',
-      },
-    ],
+    items: [],
     
   },
 

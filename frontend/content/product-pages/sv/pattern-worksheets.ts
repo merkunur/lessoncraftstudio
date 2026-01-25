@@ -21,39 +21,7 @@ export const patternWorksheetsSvContent: ProductPageContent = {
     description: 'Skapa professionella mönsterigenkänning arbetsblad med vår digitala generator. Din Full Tillgång-prenumeration ger dig obegränsad tillgång till arbetsblad utan.',
     keywords: 'mönsterigenkänning arbetsblad, arbetsblad gratis, förskoleklass material, matematik arbetsblad, matte övningar, siffror och tal, bokstäver lära sig, finmotorik övningar, målarbilder barn, lågstadiet',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/monster-arbetsblad',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/pattern/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis arbetsblad mönster - mönsterigenkänning arbetsblad för förskoleklass och barn'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/pattern/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis arbetsblad för barn - mönsterigenkänning övningar med bilder'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/pattern/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis utskrifter mönster - arbetsblad för förskoleklass matematik'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/pattern/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Arbetsblad för barn gratis - mönsterigenkänning logiskt tänkande'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/pattern/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis arbetsblad för förskoleklass - mönster sekvenser och problemlösning'
-      },
-    ],
-  },
 
   // Hero Section - FULL text from pattern-worksheet.md paragraphs 1-4
   hero: {
@@ -98,43 +66,7 @@ Vår generator erbjuder 9 olika mönstertyper från enkla AB-mönster till avanc
     badgeText: 'Gratis Exempel',
     downloadingLabel: 'Laddar ner...',
     ofLabel: 'av',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/swedish/pattern/sample-1.jpeg',
-        answerKeySrc: '/samples/swedish/pattern/sample-1.jpeg',
-        altText: 'Gratis arbetsblad mönster - mönsterigenkänning arbetsblad för förskoleklass och barn',
-        imageTitle: 'Gratis arbetsblad mönster',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/swedish/pattern/sample-2.jpeg',
-        answerKeySrc: '/samples/swedish/pattern/sample-2.jpeg',
-        altText: 'Gratis arbetsblad för barn - mönsterigenkänning övningar med bilder',
-        imageTitle: 'Gratis arbetsblad för barn',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/swedish/pattern/sample-3.jpeg',
-        answerKeySrc: '/samples/swedish/pattern/sample-3.jpeg',
-        altText: 'Gratis utskrifter mönster - arbetsblad för förskoleklass matematik',
-        imageTitle: 'Gratis utskrifter mönster',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/swedish/pattern/sample-4.jpeg',
-        answerKeySrc: '/samples/swedish/pattern/sample-4.jpeg',
-        altText: 'Arbetsblad för barn gratis - mönsterigenkänning logiskt tänkande',
-        imageTitle: 'Arbetsblad för barn gratis',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/swedish/pattern/sample-5.jpeg',
-        answerKeySrc: '/samples/swedish/pattern/sample-5.jpeg',
-        altText: 'Gratis arbetsblad för förskoleklass - mönster sekvenser och problemlösning',
-        imageTitle: 'Gratis arbetsblad för förskoleklass',
-      },
-    ],
+    items: [],
     
   },
 

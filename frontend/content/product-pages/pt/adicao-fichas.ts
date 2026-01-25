@@ -19,39 +19,7 @@ export const additionPtContent: ProductPageContent = {
     description: 'Crie atividades de adição personalizadas com nosso gerador de atividades de matemática. Sua assinatura Pacote Essencial oferece criação ilimitada de atividades.',
     keywords: 'atividades de adição, atividades para imprimir, atividades de matemática, educação infantil, 1º ano, 2º ano, coordenação motora, tabuada, desenhos para colorir, atividades de alfabetização, atividades vogais, letra cursiva, pontilhado',
     canonicalUrl: 'https://www.lessoncraftstudio.com/pt/apps/adicao-fichas',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/addition/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Atividade de adição grátis para imprimir - exercícios de matemática para educação infantil'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/addition/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Atividade grátis de adição com imagens - atividade para crianças do 1º ano'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/addition/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Atividades grátis de matemática - imprimíveis grátis para educação infantil'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/addition/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Atividade de adição para crianças - ficha de matemática grátis para imprimir'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/addition/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Imprimíveis grátis de adição - atividade para educação infantil e 1º ano'
-      }
-    ],
-  },
 
   // Hero Section - FULL text from addition.md paragraphs 1-3
   hero: {
@@ -94,43 +62,7 @@ O sistema funciona com mais de 3000 imagens infantis organizadas por temas. Anim
     badgeText: 'Exemplos Grátis',
     downloadingLabel: 'Baixando...',
     ofLabel: 'de',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/portuguese/addition/sample-1.jpeg',
-        answerKeySrc: '/samples/portuguese/addition/sample-1.jpeg',
-        altText: 'Atividade de adição grátis para imprimir - exercícios de matemática para educação infantil',
-        imageTitle: 'Atividade de adição grátis para imprimir',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/portuguese/addition/sample-2.jpeg',
-        answerKeySrc: '/samples/portuguese/addition/sample-2.jpeg',
-        altText: 'Atividade grátis de adição com imagens - atividade para crianças do 1º ano',
-        imageTitle: 'Atividade grátis de adição com imagens',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/portuguese/addition/sample-3.jpeg',
-        answerKeySrc: '/samples/portuguese/addition/sample-3.jpeg',
-        altText: 'Atividades grátis de matemática - imprimíveis grátis para educação infantil',
-        imageTitle: 'Atividades grátis de matemática',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/portuguese/addition/sample-4.jpeg',
-        answerKeySrc: '/samples/portuguese/addition/sample-4.jpeg',
-        altText: 'Atividade de adição para crianças - ficha de matemática grátis para imprimir',
-        imageTitle: 'Atividade de adição para crianças',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/portuguese/addition/sample-5.jpeg',
-        answerKeySrc: '/samples/portuguese/addition/sample-5.jpeg',
-        altText: 'Imprimíveis grátis de adição - atividade para educação infantil e 1º ano',
-        imageTitle: 'Imprimíveis grátis de adição',
-      },
-    ],
+    items: [],
     
   },
 

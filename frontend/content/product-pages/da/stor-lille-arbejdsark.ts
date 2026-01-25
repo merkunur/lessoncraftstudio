@@ -19,39 +19,7 @@ export const bigSmallDaContent: ProductPageContent = {
     description: 'Lav gratis arbejdsark til børn med stor og lille størrelsessammenligning. Arbejdsark til børnehaveklasse og 0. klasse. Download gratis printables som PDF.',
     keywords: 'stor og lille, opgaver til print, gratis opgaver, arbejdsark, 0. klasse, børnehaveklasse, 1. klasse, matematikopgaver, størrelsessammenligning, finmotorik øvelser, gratis skoleopgaver',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/stor-lille-arbejdsark',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/danish/big-small/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis arbejdsark stor og lille - arbejdsark til børn med størrelsessammenligning til børnehaveklasse'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/danish/big-small/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Stor og lille arbejdsark til børnehaveklasse - gratis printables med identiske billeder'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/danish/big-small/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis arbejdsark størrelsessammenligning - arbejdsark til børn med nummeringsopgave til 0. klasse'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/danish/big-small/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Arbejdsark til børnehaveklasse - stor og lille gratis printables med forskellige billeder'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/danish/big-small/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Stor og lille arbejdsark til børn - gratis arbejdsark nummerering fra lille til stor'
-      },
-    ],
-  },
 
   // Hero Section - FULL text from big-small.md paragraphs 1-4
   hero: {
@@ -96,43 +64,7 @@ Med over 3000 barnvenlige billeder kan du nemt lave tematiske arbejdsark. Kombin
     noPdfLabel: 'Ingen PDF tilgængelig',
     freePdfCountLabel: '3 gratis downloads',
     ofLabel: 'af',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/danish/big-small/sample-1.jpeg',
-        answerKeySrc: '/samples/danish/big-small/sample-1.jpeg',
-        altText: 'Gratis arbejdsark stor og lille - arbejdsark til børn med størrelsessammenligning til børnehaveklasse',
-        imageTitle: 'Gratis arbejdsark stor og lille',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/danish/big-small/sample-2.jpeg',
-        answerKeySrc: '/samples/danish/big-small/sample-2.jpeg',
-        altText: 'Stor og lille arbejdsark til børnehaveklasse - gratis printables med identiske billeder',
-        imageTitle: 'Stor og lille arbejdsark til børnehaveklasse',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/danish/big-small/sample-3.jpeg',
-        answerKeySrc: '/samples/danish/big-small/sample-3.jpeg',
-        altText: 'Gratis arbejdsark størrelsessammenligning - arbejdsark til børn med nummeringsopgave til 0. klasse',
-        imageTitle: 'Gratis arbejdsark størrelsessammenligning',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/danish/big-small/sample-4.jpeg',
-        answerKeySrc: '/samples/danish/big-small/sample-4.jpeg',
-        altText: 'Arbejdsark til børnehaveklasse - stor og lille gratis printables med forskellige billeder',
-        imageTitle: 'Arbejdsark til børnehaveklasse',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/danish/big-small/sample-5.jpeg',
-        answerKeySrc: '/samples/danish/big-small/sample-5.jpeg',
-        altText: 'Stor og lille arbejdsark til børn - gratis arbejdsark nummerering fra lille til stor',
-        imageTitle: 'Stor og lille arbejdsark til børn',
-      },
-    ],
+    items: [],
     
   },
 

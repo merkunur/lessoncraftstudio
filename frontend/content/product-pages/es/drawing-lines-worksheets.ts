@@ -22,39 +22,7 @@ export const drawingLinesEsContent: ProductPageContent = {
     description: 'Crea fichas de grafomotricidad profesionales en segundos. Genera fichas infantil para motricidad fina. Descarga gratis en PDF 300 DPI. ¡Prueba ahora! Perfecto para maestros y padres.',
     keywords: 'fichas de grafomotricidad, fichas para imprimir, fichas preescolar, fichas infantil, material educativo gratis, ejercicios de trazos, motricidad fina, lectoescritura, fichas gratis, dibujos para colorear',
     canonicalUrl: 'https://www.lessoncraftstudio.com/es/apps/grafomotricidad-fichas',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/spanish/drawing-lines/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Fichas de grafomotricidad gratis para imprimir - ejercicios de trazos curvas para preescolar'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/spanish/drawing-lines/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Fichas infantil de grafomotricidad - trazos diagonales para kinder y motricidad fina'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/spanish/drawing-lines/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Material educativo gratis de grafomotricidad - líneas horizontales para lectoescritura'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/spanish/drawing-lines/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Fichas preescolar de trazos - ejercicios verticales para coordinación ojo-mano'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/spanish/drawing-lines/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Fichas gratis para niños - grafomotricidad y desarrollo de motricidad fina'
-      }
-    ],
-  },
 
   // Hero Section - FULL text from drawing-lines.md paragraphs 1-4
   hero: {
@@ -99,43 +67,7 @@ El generador incluye 8 plantillas diferentes con varios patrones de líneas y or
     badgeText: 'Ejemplos Gratis',
     downloadingLabel: 'Descargando...',
     ofLabel: 'de',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/spanish/drawing-lines/sample-1.jpeg',
-        answerKeySrc: '/samples/spanish/drawing-lines/sample-1.jpeg',
-        altText: 'Fichas de grafomotricidad gratis para imprimir - ejercicios de trazos curvas para preescolar',
-        imageTitle: 'Fichas de grafomotricidad gratis para imprimir',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/spanish/drawing-lines/sample-2.jpeg',
-        answerKeySrc: '/samples/spanish/drawing-lines/sample-2.jpeg',
-        altText: 'Fichas infantil de grafomotricidad - trazos diagonales para kinder y motricidad fina',
-        imageTitle: 'Fichas infantil de grafomotricidad',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/spanish/drawing-lines/sample-3.jpeg',
-        answerKeySrc: '/samples/spanish/drawing-lines/sample-3.jpeg',
-        altText: 'Material educativo gratis de grafomotricidad - líneas horizontales para lectoescritura',
-        imageTitle: 'Material educativo gratis de grafomotricidad',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/spanish/drawing-lines/sample-4.jpeg',
-        answerKeySrc: '/samples/spanish/drawing-lines/sample-4.jpeg',
-        altText: 'Fichas preescolar de trazos - ejercicios verticales para coordinación ojo-mano',
-        imageTitle: 'Fichas preescolar de trazos',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/spanish/drawing-lines/sample-5.jpeg',
-        answerKeySrc: '/samples/spanish/drawing-lines/sample-5.jpeg',
-        altText: 'Fichas gratis para niños - grafomotricidad y desarrollo de motricidad fina',
-        imageTitle: 'Fichas gratis para niños',
-      },
-    ],
+    items: [],
     
   },
 

@@ -31,39 +31,7 @@ export const wordScrambleDeContent: ProductPageContent = {
     description: 'Erstellen Sie Buchstabensalat-Arbeitsblätter in 3 Minuten. Kostenlose Druckvorlagen für Grundschule und Vorschule. 3000+ Bilder, 11 Sprachen. Jetzt testen!',
     keywords: 'buchstabensalat generator, arbeitsblätter grundschule, kostenlose arbeitsblätter, mathe arbeitsblätter, vorschule arbeitsblätter, buchstaben lernen, deutsch arbeitsblätter, einmaleins, schwungübungen, ausmalbilder',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/buchstabensalat-arbeitsblaetter',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/word-scramble/sample-1.jpeg',
-        width: 3672,
-        height: 4752,
-        caption: 'Kostenloses Buchstabensalat Arbeitsblatt Grundschule - Buchstaben lernen mit bunten Bildern für Kinder'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/word-scramble/sample-2.jpeg',
-        width: 3672,
-        height: 4752,
-        caption: 'Buchstabensalat Generator Arbeitsblatt - Deutsch-Arbeitsblätter für Vorschule und 1. Klasse'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/word-scramble/sample-3.jpeg',
-        width: 3672,
-        height: 4752,
-        caption: 'Kostenlose Druckvorlagen Wortsalat - Arbeitsblatt für Kinder mit thematischen Bildhinweisen'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/word-scramble/sample-4.jpeg',
-        width: 3672,
-        height: 4752,
-        caption: 'Buchstabensalat Arbeitsblatt Grundschule - Schwungübungen und Einmaleins für Vorschule Kinder'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/word-scramble/sample-5.jpeg',
-        width: 3672,
-        height: 4752,
-        caption: 'Kostenlose Druckvorlagen Wortsalat - Mathe-Arbeitsblätter und Rechnen lernen 1. Klasse'
-      }
-    ],
-  },
 
   // Hero Section - FULL text from word-scramble.md paragraphs 1-4
   hero: {
@@ -108,43 +76,7 @@ Lehrer nutzen unseren Generator für Rechtschreibübungen, Wortschatzerweiterung
     badgeText: 'Kostenlose Beispiele',
     downloadingLabel: 'Wird heruntergeladen...',
     ofLabel: 'von',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/german/word-scramble/sample-1.jpeg',
-        answerKeySrc: '/samples/german/word-scramble/sample-1.jpeg',
-        altText: 'Kostenloses Buchstabensalat Arbeitsblatt Grundschule - Buchstaben lernen mit bunten Bildern für Kinder',
-        imageTitle: 'Kostenloses Buchstabensalat Arbeitsblatt Grundschule',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/german/word-scramble/sample-2.jpeg',
-        answerKeySrc: '/samples/german/word-scramble/sample-2.jpeg',
-        altText: 'Buchstabensalat Generator Arbeitsblatt - Deutsch-Arbeitsblätter für Vorschule und 1. Klasse',
-        imageTitle: 'Buchstabensalat Generator Arbeitsblatt',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/german/word-scramble/sample-3.jpeg',
-        answerKeySrc: '/samples/german/word-scramble/sample-3.jpeg',
-        altText: 'Kostenlose Druckvorlagen Wortsalat - Arbeitsblatt für Kinder mit thematischen Bildhinweisen',
-        imageTitle: 'Kostenlose Druckvorlagen Wortsalat',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/german/word-scramble/sample-4.jpeg',
-        answerKeySrc: '/samples/german/word-scramble/sample-4.jpeg',
-        altText: 'Buchstabensalat Arbeitsblatt Grundschule - Schwungübungen und Einmaleins für Vorschule Kinder',
-        imageTitle: 'Buchstabensalat Arbeitsblatt Grundschule',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/german/word-scramble/sample-5.jpeg',
-        answerKeySrc: '/samples/german/word-scramble/sample-5.jpeg',
-        altText: 'Kostenlose Druckvorlagen Wortsalat - Mathe-Arbeitsblätter und Rechnen lernen 1. Klasse',
-        imageTitle: 'Kostenlose Druckvorlagen Wortsalat',
-      },
-    ],
+    items: [],
     
   },
 

@@ -19,39 +19,7 @@ export const drawAndColorDaContent: ProductPageContent = {
     description: 'Lav tegn og farvelæg gratis arbejdsark til børn med vores generator. Ubegrænset arbejdsark til børnehaveklasse og 0. klasse. Download PDF på 3 minutter.',
     keywords: 'tegn og farvelæg, malebog generator, gratis arbejdsark, arbejdsark til børn, arbejdsark til børnehaveklasse, gratis printables, 0. klasse, 1. klasse, finmotorik øvelser, gitter-tegne',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/tegn-og-farvelaeg-arbejdsark',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/danish/draw-and-color/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Tegn og farvelæg gratis arbejdsark - gitter-tegne arbejdsark til børn for børnehaveklasse'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/danish/draw-and-color/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis arbejdsark tegn og farvelæg - arbejdsark til børnehaveklasse med farvelægning'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/danish/draw-and-color/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Arbejdsark til børn tegn og farvelæg - gratis printables finmotorik øvelser'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/danish/draw-and-color/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Malebog gratis arbejdsark - arbejdsark til børnehaveklasse med gitter-tegne'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/danish/draw-and-color/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Tegn og farvelæg arbejdsark til børn - gratis arbejdsark til 0. klasse'
-      },
-    ],
-  },
 
   // Hero Section - FULL text from draw-and-color.md paragraphs 1-4
   hero: {
@@ -96,43 +64,7 @@ Generer tilpassede tegne-opgaver på få sekunder. Justér gitterstørrelse fra 
     noPdfLabel: 'Ingen PDF tilgængelig',
     freePdfCountLabel: '2 gratis downloads',
     ofLabel: 'af',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/danish/draw-and-color/sample-1.jpeg',
-        answerKeySrc: '/samples/danish/draw-and-color/sample-1.jpeg',
-        altText: 'Tegn og farvelæg gratis arbejdsark - gitter-tegne arbejdsark til børn for børnehaveklasse',
-        imageTitle: 'Tegn og farvelæg gratis arbejdsark',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/danish/draw-and-color/sample-2.jpeg',
-        answerKeySrc: '/samples/danish/draw-and-color/sample-2.jpeg',
-        altText: 'Gratis arbejdsark tegn og farvelæg - arbejdsark til børnehaveklasse med farvelægning',
-        imageTitle: 'Gratis arbejdsark tegn og farvelæg',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/danish/draw-and-color/sample-3.jpeg',
-        answerKeySrc: '/samples/danish/draw-and-color/sample-3.jpeg',
-        altText: 'Arbejdsark til børn tegn og farvelæg - gratis printables finmotorik øvelser',
-        imageTitle: 'Arbejdsark til børn tegn og farvelæg',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/danish/draw-and-color/sample-4.jpeg',
-        answerKeySrc: '/samples/danish/draw-and-color/sample-4.jpeg',
-        altText: 'Malebog gratis arbejdsark - arbejdsark til børnehaveklasse med gitter-tegne',
-        imageTitle: 'Malebog gratis arbejdsark',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/danish/draw-and-color/sample-5.jpeg',
-        answerKeySrc: '/samples/danish/draw-and-color/sample-5.jpeg',
-        altText: 'Tegn og farvelæg arbejdsark til børn - gratis arbejdsark til 0. klasse',
-        imageTitle: 'Tegn og farvelæg arbejdsark til børn',
-      },
-    ],
+    items: [],
     
   },
 

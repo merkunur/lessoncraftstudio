@@ -21,33 +21,7 @@ export const billedsorteringDaContent: ProductPageContent = {
     description: 'Lav billedsortering gratis arbejdsark med vores generator. Download gratis printables som PDF. Arbejdsark til børn for børnehaveklasse på 3 minutter! Perfekt til lærere og forældre.',
     keywords: 'billedsortering, gratis arbejdsark, gratis arbejdsark til børn, gratis printables, arbejdsark til børn, arbejdsark til børnehaveklasse, 0. klasse opgaver, 1. klasse, kopiark, kategorisering, sorteringsaktiviteter',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/billedsortering-arbejdsark',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/danish/picture-sort/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Billedsortering gratis arbejdsark - sorteringsaktiviteter til børnehaveklasse'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/danish/picture-sort/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis arbejdsark billedsortering - kategorisering arbejdsark til børn'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/danish/picture-sort/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Arbejdsark til børn billedsortering - gratis printables for 0. klasse'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/danish/picture-sort/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Arbejdsark til børnehaveklasse billedsortering - sortering gratis arbejdsark'
-      },
-    ],
-  },
 
   // Hero Section - FULL text from picture-sort.md paragraphs 1-4
   hero: {
@@ -92,36 +66,7 @@ Fuld Adgang abonnement inkluderer ubegrænset adgang til alle 33 opgavegenerator
     noPdfLabel: 'Ingen PDF tilgængelig',
     freePdfCountLabel: '3 gratis downloads',
     ofLabel: 'af',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/danish/picture-sort/sample-1.jpeg',
-        answerKeySrc: '/samples/danish/picture-sort/sample-1.jpeg',
-        altText: 'Billedsortering gratis arbejdsark - sorteringsaktiviteter til børnehaveklasse',
-        imageTitle: 'Billedsortering gratis arbejdsark',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/danish/picture-sort/sample-2.jpeg',
-        answerKeySrc: '/samples/danish/picture-sort/sample-2.jpeg',
-        altText: 'Gratis arbejdsark billedsortering - kategorisering arbejdsark til børn',
-        imageTitle: 'Gratis arbejdsark billedsortering',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/danish/picture-sort/sample-3.jpeg',
-        answerKeySrc: '/samples/danish/picture-sort/sample-3.jpeg',
-        altText: 'Arbejdsark til børn billedsortering - gratis printables for 0. klasse',
-        imageTitle: 'Arbejdsark til børn billedsortering',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/danish/picture-sort/sample-4.jpeg',
-        answerKeySrc: '/samples/danish/picture-sort/sample-4.jpeg',
-        altText: 'Arbejdsark til børnehaveklasse billedsortering - sortering gratis arbejdsark',
-        imageTitle: 'Arbejdsark til børnehaveklasse billedsortering',
-      },
-    ],
+    items: [],
     
   },
 

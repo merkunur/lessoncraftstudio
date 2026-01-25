@@ -33,39 +33,7 @@ export const shadowMatchNlContent: ProductPageContent = {
     description: 'Maak professionele schaduw matching werkbladen met onze werkbladen generator. Met uw Volledige Toegang abonnement creëert u onbeperkt visuele.',
     keywords: 'schaduw matching werkbladen, werkbladen groep 3, werkbladen kleuters, oefenbladen gratis, letters leren, fijne motoriek, veilig leren lezen, rekenen werkbladen, tafels oefenen, sommen tot 20',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/schaduw-matching-werkbladen',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/shadow-match/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis werkblad schaduw matching - werkblad voor kinderen visuele waarneming oefening',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/shadow-match/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis werkbladen schaduw matching - werkblad voor kleuters visuele discriminatie training',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/shadow-match/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Werkblad voor kinderen schaduw matching - gratis printables fijne motoriek ontwikkeling',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/shadow-match/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis werkblad voor kinderen schaduw matching - werkblad voor kleuters vormen herkenning',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/shadow-match/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis werkbladen schaduw matching - werkblad voor kinderen en kleuters hand-oog coordinatie',
-      },
-    ],
-  },
 
   // Hero Section
   hero: {
@@ -108,43 +76,7 @@ Schaduw matching werkbladen ondersteunen meerdere ontwikkelingsgebieden. Kindere
     badgeText: 'Gratis Voorbeelden',
     downloadingLabel: 'Downloaden...',
     ofLabel: 'van',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/dutch/shadow-match/sample-1.jpeg',
-        answerKeySrc: '/samples/dutch/shadow-match/sample-1.jpeg',
-        altText: 'Gratis werkblad schaduw matching - werkblad voor kinderen visuele waarneming oefening',
-        imageTitle: 'Gratis werkblad schaduw matching',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/dutch/shadow-match/sample-2.jpeg',
-        answerKeySrc: '/samples/dutch/shadow-match/sample-2.jpeg',
-        altText: 'Gratis werkbladen schaduw matching - werkblad voor kleuters visuele discriminatie training',
-        imageTitle: 'Gratis werkbladen schaduw matching',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/dutch/shadow-match/sample-3.jpeg',
-        answerKeySrc: '/samples/dutch/shadow-match/sample-3.jpeg',
-        altText: 'Werkblad voor kinderen schaduw matching - gratis printables fijne motoriek ontwikkeling',
-        imageTitle: 'Werkblad voor kinderen schaduw matching',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/dutch/shadow-match/sample-4.jpeg',
-        answerKeySrc: '/samples/dutch/shadow-match/sample-4.jpeg',
-        altText: 'Gratis werkblad voor kinderen schaduw matching - werkblad voor kleuters vormen herkenning',
-        imageTitle: 'Gratis werkblad voor kinderen schaduw matching',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/dutch/shadow-match/sample-5.jpeg',
-        answerKeySrc: '/samples/dutch/shadow-match/sample-5.jpeg',
-        altText: 'Gratis werkbladen schaduw matching - werkblad voor kinderen en kleuters hand-oog coordinatie',
-        imageTitle: 'Gratis werkbladen schaduw matching',
-      },
-    ],
+    items: [],
     
   },
 

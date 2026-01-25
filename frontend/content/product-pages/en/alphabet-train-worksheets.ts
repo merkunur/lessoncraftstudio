@@ -19,39 +19,7 @@ export const alphabetTrainEnContent: ProductPageContent = {
     description: 'Create free printable alphabet worksheets for kids. Professional ABC worksheet generator for kindergarten. Download letter recognition worksheets in 3 minutes.',
     keywords: 'free worksheet, free worksheets, free printables, worksheet for kids, worksheet for kindergarten, ABC worksheets, alphabet worksheets, kindergarten worksheets, phonics worksheets, tracing worksheets, coloring worksheets, first grade worksheets',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/alphabet-train-worksheets',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/alphabet-train/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Free printable alphabet train worksheets for kindergarten - ABC letter matching cut and paste activity'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/alphabet-train/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'ABC worksheets free printable - alphabet train letter recognition worksheet for first grade'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/alphabet-train/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Phonics worksheets for kindergarten - alphabet train matching letters to pictures activity'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/alphabet-train/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Free worksheets for kids - alphabet train tracing and letter recognition practice'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/alphabet-train/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Alphabet worksheets for kindergarten - letter-sound matching train activity worksheet'
-      }
-    ],
-  },
 
   // Hero Section - FULL text from alphabet-train.md paragraphs 1-3
   hero: {
@@ -78,43 +46,7 @@ The Alphabet Train worksheet maker transforms alphabet learning into an exciting
     downloadLabel: 'Download Free Sample',
     worksheetLabel: 'Worksheet',
     answerKeyLabel: 'Answer Key',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/english/alphabet-train/sample-1.jpeg',
-        answerKeySrc: '/samples/english/alphabet-train/sample-1.jpeg',
-        altText: 'Free printable alphabet train worksheets for kindergarten - ABC letter matching cut and paste activity',
-        imageTitle: 'Free printable alphabet train worksheets for kindergarten',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/english/alphabet-train/sample-2.jpeg',
-        answerKeySrc: '/samples/english/alphabet-train/sample-2.jpeg',
-        altText: 'ABC worksheets free printable - alphabet train letter recognition worksheet for first grade',
-        imageTitle: 'ABC worksheets free printable',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/english/alphabet-train/sample-3.jpeg',
-        answerKeySrc: '/samples/english/alphabet-train/sample-3.jpeg',
-        altText: 'Phonics worksheets for kindergarten - alphabet train matching letters to pictures activity',
-        imageTitle: 'Phonics worksheets for kindergarten',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/english/alphabet-train/sample-4.jpeg',
-        answerKeySrc: '/samples/english/alphabet-train/sample-4.jpeg',
-        altText: 'Free worksheets for kids - alphabet train tracing and letter recognition practice',
-        imageTitle: 'Free worksheets for kids',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/english/alphabet-train/sample-5.jpeg',
-        answerKeySrc: '/samples/english/alphabet-train/sample-5.jpeg',
-        altText: 'Alphabet worksheets for kindergarten - letter-sound matching train activity worksheet',
-        imageTitle: 'Alphabet worksheets for kindergarten',
-      },
-    ],
+    items: [],
     
   },
 

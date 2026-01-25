@@ -33,39 +33,7 @@ export const pictureSortDeContent: ProductPageContent = {
     description: 'Sortierarbeitsblätter in 3 Minuten erstellen. 3000+ Bilder, 300 DPI Qualität. Perfekt für Arbeitsblätter Grundschule und Vorschule. Jetzt kostenlos testen!',
     keywords: 'bilder sortieren arbeitsblätter, sortierarbeitsblätter, arbeitsblätter grundschule, kostenlose arbeitsblätter, mathe arbeitsblätter, vorschule arbeitsblätter, einmaleins, schwungübungen, buchstaben lernen, rechnen lernen, ausmalbilder',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/bilder-sortieren-arbeitsblaetter',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/picture-sort/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Bilder Sortieren Arbeitsblatt - Kostenlose Arbeitsblätter für Grundschule',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/picture-sort/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Sortierübungen Arbeitsblatt - Vorschule Arbeitsblätter zum Ausdrucken',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/picture-sort/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Kategorisieren Arbeitsblatt - Mathe Arbeitsblätter für Kinder',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/picture-sort/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Bilder Sortieren Übung - Kostenlose Druckvorlagen für Einmaleins',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/picture-sort/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Sortierarbeitsblatt - Deutsch Arbeitsblätter und Schwungübungen',
-      },
-    ],
-  },
 
   // Hero Section - FULL text from bilder-sortieren.md
   hero: {
@@ -110,43 +78,7 @@ Mit Ihrem Abonnement erhalten Sie Zugang zu über 3000 kindgerechten Bildern. Di
     badgeText: 'Kostenlose Beispiele',
     downloadingLabel: 'Wird heruntergeladen...',
     ofLabel: 'von',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/german/picture-sort/sample-1.jpeg',
-        answerKeySrc: '/samples/german/picture-sort/sample-1.jpeg',
-        altText: 'Bilder Sortieren Arbeitsblatt - Kostenlose Arbeitsblätter für Grundschule',
-        imageTitle: 'Bilder Sortieren Arbeitsblatt',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/german/picture-sort/sample-2.jpeg',
-        answerKeySrc: '/samples/german/picture-sort/sample-2.jpeg',
-        altText: 'Sortierübungen Arbeitsblatt - Vorschule Arbeitsblätter zum Ausdrucken',
-        imageTitle: 'Sortierübungen Arbeitsblatt',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/german/picture-sort/sample-3.jpeg',
-        answerKeySrc: '/samples/german/picture-sort/sample-3.jpeg',
-        altText: 'Kategorisieren Arbeitsblatt - Mathe Arbeitsblätter für Kinder',
-        imageTitle: 'Kategorisieren Arbeitsblatt',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/german/picture-sort/sample-4.jpeg',
-        answerKeySrc: '/samples/german/picture-sort/sample-4.jpeg',
-        altText: 'Bilder Sortieren Übung - Kostenlose Druckvorlagen für Einmaleins',
-        imageTitle: 'Bilder Sortieren Übung',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/german/picture-sort/sample-5.jpeg',
-        answerKeySrc: '/samples/german/picture-sort/sample-5.jpeg',
-        altText: 'Sortierarbeitsblatt - Deutsch Arbeitsblätter und Schwungübungen',
-        imageTitle: 'Sortierarbeitsblatt',
-      },
-    ],
+    items: [],
     
   },
 

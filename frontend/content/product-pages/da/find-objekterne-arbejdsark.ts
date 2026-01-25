@@ -19,39 +19,7 @@ export const findObjectsDaContent: ProductPageContent = {
     description: 'Lav professionelle find-objekterne opgaver med vores opgavegenerator. Dit Fuld Adgang abonnement giver dig ubegrænset adgang til at lave gratis arbejdsark til.',
     keywords: 'find objekterne, opgaver til print, matematikopgaver, arbejdsark, gratis skoleopgaver, 0. klasse, 1. klasse, børnehaveklasse, finmotorik øvelser, visuel diskriminering, gratis arbejdsark, gratis arbejdsark til børn, gratis printables, arbejdsark til børn, arbejdsark til børnehaveklasse',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/find-objekterne-arbejdsark',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/danish/find-objects/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Find objekterne gratis arbejdsark til børn - visuel søgeopgave for børnehaveklasse'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/danish/find-objects/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Find objekterne gratis printables - opgaver til print for 0. klasse elever'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/danish/find-objects/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Find objekterne arbejdsark til børn - finmotorik øvelser til 1. klasse'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/danish/find-objects/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Find objekterne gratis arbejdsark - visuel diskriminering til børnehaveklasse'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/danish/find-objects/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Find objekterne arbejdsark til børnehaveklasse - gratis skoleopgaver til print'
-      }
-    ]
-  },
 
   // Hero Section - FULL text from find-objects.md paragraphs 1-4
   hero: {
@@ -96,43 +64,7 @@ Fuld Adgang abonnementet koster 1.800 kr årligt eller 200 kr månedligt. Du få
     noPdfLabel: 'Ingen PDF tilgængelig',
     freePdfCountLabel: '5 gratis downloads',
     ofLabel: 'af',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/danish/find-objects/sample-1.jpeg',
-        answerKeySrc: '/samples/danish/find-objects/sample-1.jpeg',
-        altText: 'Find objekterne gratis arbejdsark til børn - visuel søgeopgave for børnehaveklasse',
-        imageTitle: 'Find objekterne gratis arbejdsark til børn',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/danish/find-objects/sample-2.jpeg',
-        answerKeySrc: '/samples/danish/find-objects/sample-2.jpeg',
-        altText: 'Find objekterne gratis printables - opgaver til print for 0. klasse elever',
-        imageTitle: 'Find objekterne gratis printables',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/danish/find-objects/sample-3.jpeg',
-        answerKeySrc: '/samples/danish/find-objects/sample-3.jpeg',
-        altText: 'Find objekterne arbejdsark til børn - finmotorik øvelser til 1. klasse',
-        imageTitle: 'Find objekterne arbejdsark til børn',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/danish/find-objects/sample-4.jpeg',
-        answerKeySrc: '/samples/danish/find-objects/sample-4.jpeg',
-        altText: 'Find objekterne gratis arbejdsark - visuel diskriminering til børnehaveklasse',
-        imageTitle: 'Find objekterne gratis arbejdsark',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/danish/find-objects/sample-5.jpeg',
-        answerKeySrc: '/samples/danish/find-objects/sample-5.jpeg',
-        altText: 'Find objekterne arbejdsark til børnehaveklasse - gratis skoleopgaver til print',
-        imageTitle: 'Find objekterne arbejdsark til børnehaveklasse',
-      },
-    ],
+    items: [],
     
   },
 

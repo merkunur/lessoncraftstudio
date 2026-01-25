@@ -21,33 +21,7 @@ export const chartCountItContent: ProductPageContent = {
     description: 'Crea grafici con immagini professionali con il nostro generatore di schede didattiche. Genera schede didattiche scuola primaria personalizzate perfette per.',
     keywords: 'schede didattiche grafici, grafici con immagini, schede matematica, schede scuola primaria, schede scuola infanzia, contare immagini, visualizzazione dati, grafici a barre bambini, schede didattiche scuola primaria, pregrafismo',
     canonicalUrl: 'https://www.lessoncraftstudio.com/it/apps/grafici-immagini-schede',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/chart-count/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Scheda Gratuita Grafici Immagini - Stampabili Gratuiti Scuola Infanzia',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/chart-count/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Scheda Gratuita per Bambini - Schede Gratuite Conteggio Visualizzazione',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/chart-count/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Scheda per Bambini Grafici - Stampabili Gratuiti Matematica Contare',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/chart-count/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Scheda per Scuola dell\'Infanzia - Schede Gratuite Conteggio Immagini',
-      },
-    ],
-  },
 
   // Hero Section
   hero: {
@@ -94,29 +68,7 @@ L'abbonamento Accesso Completo include la licenza commerciale per la stampa su r
     badgeText: 'Esempi Gratuiti',
     downloadingLabel: 'Scaricamento...',
     ofLabel: 'di',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/italian/chart-count/sample-1.jpeg',
-        answerKeySrc: '/samples/italian/chart-count/sample-1.jpeg',
-        altText: 'Scheda Gratuita Grafici Immagini - Stampabili Gratuiti Scuola Infanzia',
-        imageTitle: 'Scheda Gratuita Grafici Immagini',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/italian/chart-count/sample-2.jpeg',
-        answerKeySrc: '/samples/italian/chart-count/sample-2.jpeg',
-        altText: 'Scheda Gratuita per Bambini - Schede Gratuite Conteggio Visualizzazione',
-        imageTitle: 'Scheda Gratuita per Bambini',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/italian/chart-count/sample-3.jpeg',
-        answerKeySrc: '/samples/italian/chart-count/sample-3.jpeg',
-        altText: 'Scheda per Bambini Grafici - Stampabili Gratuiti Matematica Contare',
-        imageTitle: 'Scheda per Bambini Grafici',
-      },
-    ],
+    items: [],
     
   },
 

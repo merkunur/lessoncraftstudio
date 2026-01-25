@@ -19,39 +19,7 @@ export const alphabetTrainDaContent: ProductPageContent = {
     description: 'Lav gratis arbejdsark med alfabettog-generatoren. Professionelle alfabetopgaver til børnehaveklasse og 1. klasse. Download PDF på under 3 minutter. Perfekt til lærere og forældre.',
     keywords: 'alfabetopgaver, alfabettog, gratis skoleopgaver, arbejdsark til print, børnehaveklassen, 0. klasse opgaver, 1. klasse, lære bogstaver, læse og skrive, finmotorik øvelser',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/alfabet-tog-arbejdsark',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/danish/alphabet-train/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Alfabettog gratis arbejdsark - bogstav-til-billede matching til børnehaveklassen',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/danish/alphabet-train/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Alfabettog arbejdsark til børn - farverigt togdesign til 0. klasse',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/danish/alphabet-train/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis arbejdsark alfabettog - bogstavgenkendelse til børnehaveklasse',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/danish/alphabet-train/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Alfabettog arbejdsark til børnehaveklasse - lære bogstaver aktivitet',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/danish/alphabet-train/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis printables alfabettog - finmotorik øvelser og bogstavpraksis',
-      },
-    ],
-  },
 
   // Hero Section
   hero: {
@@ -96,43 +64,7 @@ Hver alfabetopgave har en farverig togskabelon med elleve vogne. Eleverne matche
     noPdfLabel: 'Ingen PDF tilgængelig',
     freePdfCountLabel: '3 gratis downloads',
     ofLabel: 'af',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/danish/alphabet-train/sample-1.jpeg',
-        answerKeySrc: '/samples/danish/alphabet-train/sample-1.jpeg',
-        altText: 'Alfabettog gratis arbejdsark - bogstav-til-billede matching til børnehaveklassen',
-        imageTitle: 'Alfabettog gratis arbejdsark',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/danish/alphabet-train/sample-2.jpeg',
-        answerKeySrc: '/samples/danish/alphabet-train/sample-2.jpeg',
-        altText: 'Alfabettog arbejdsark til børn - farverigt togdesign til 0. klasse',
-        imageTitle: 'Alfabettog arbejdsark til børn',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/danish/alphabet-train/sample-3.jpeg',
-        answerKeySrc: '/samples/danish/alphabet-train/sample-3.jpeg',
-        altText: 'Gratis arbejdsark alfabettog - bogstavgenkendelse til børnehaveklasse',
-        imageTitle: 'Gratis arbejdsark alfabettog',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/danish/alphabet-train/sample-4.jpeg',
-        answerKeySrc: '/samples/danish/alphabet-train/sample-4.jpeg',
-        altText: 'Alfabettog arbejdsark til børnehaveklasse - lære bogstaver aktivitet',
-        imageTitle: 'Alfabettog arbejdsark til børnehaveklasse',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/danish/alphabet-train/sample-5.jpeg',
-        answerKeySrc: '/samples/danish/alphabet-train/sample-5.jpeg',
-        altText: 'Gratis printables alfabettog - finmotorik øvelser og bogstavpraksis',
-        imageTitle: 'Gratis printables alfabettog',
-      },
-    ],
+    items: [],
     
   },
 

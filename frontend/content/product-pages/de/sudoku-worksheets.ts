@@ -31,39 +31,7 @@ export const sudokuDeContent: ProductPageContent = {
     description: 'Erstellen Sie 4x4 Kinder-Sudoku Arbeitsblätter Grundschule und Vorschule. Kostenlose Druckvorlagen mit Lösungsschlüssel. PDF-Download in unter 3 Minuten.',
     keywords: 'kinder sudoku arbeitsblätter, arbeitsblätter grundschule, kostenlose arbeitsblätter, mathe arbeitsblätter, vorschule arbeitsblätter, rechnen lernen, deutsch arbeitsblätter, einmaleins, schwungübungen, ausmalbilder',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/kinder-sudoku-arbeitsblaetter',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/sudoku/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Kostenloses Kinder-Sudoku Arbeitsblatt Grundschule - 4x4 Bilder-Sudoku für Vorschule und Rechnen lernen'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/sudoku/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Sudoku Arbeitsblatt für Kinder - Kostenlose Vorschul-Arbeitsblätter mit Logik-Rätseln zum Ausdrucken'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/sudoku/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Arbeitsblätter Grundschule Sudoku - Mathe-Arbeitsblätter für Rechnen 1. Klasse mit Bildern'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/sudoku/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Kostenlose Arbeitsblätter Kinder-Sudoku - Vorschul-Arbeitsblätter für Buchstaben lernen und Logik'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/sudoku/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Sudoku Druckvorlagen für Kinder - Einmaleins und Mathe-Arbeitsblätter mit Schwungübungen'
-      }
-    ],
-  },
 
   // Hero Section - FULL text from sudoku.md paragraphs 1-3
   hero: {
@@ -106,43 +74,7 @@ Dieser Sudoku-Arbeitsblatt-Generator ist perfekt für Erzieher, Grundschullehrer
     badgeText: 'Kostenlose Beispiele',
     downloadingLabel: 'Wird heruntergeladen...',
     ofLabel: 'von',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/german/sudoku/sample-1.jpeg',
-        answerKeySrc: '/samples/german/sudoku/sample-1.jpeg',
-        altText: 'Kostenloses Kinder-Sudoku Arbeitsblatt Grundschule - 4x4 Bilder-Sudoku für Vorschule und Rechnen lernen',
-        imageTitle: 'Kostenloses Kinder-Sudoku Arbeitsblatt Grundschule',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/german/sudoku/sample-2.jpeg',
-        answerKeySrc: '/samples/german/sudoku/sample-2.jpeg',
-        altText: 'Sudoku Arbeitsblatt für Kinder - Kostenlose Vorschul-Arbeitsblätter mit Logik-Rätseln zum Ausdrucken',
-        imageTitle: 'Sudoku Arbeitsblatt für Kinder',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/german/sudoku/sample-3.jpeg',
-        answerKeySrc: '/samples/german/sudoku/sample-3.jpeg',
-        altText: 'Arbeitsblätter Grundschule Sudoku - Mathe-Arbeitsblätter für Rechnen 1. Klasse mit Bildern',
-        imageTitle: 'Arbeitsblätter Grundschule Sudoku',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/german/sudoku/sample-4.jpeg',
-        answerKeySrc: '/samples/german/sudoku/sample-4.jpeg',
-        altText: 'Kostenlose Arbeitsblätter Kinder-Sudoku - Vorschul-Arbeitsblätter für Buchstaben lernen und Logik',
-        imageTitle: 'Kostenlose Arbeitsblätter Kinder-Sudoku',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/german/sudoku/sample-5.jpeg',
-        answerKeySrc: '/samples/german/sudoku/sample-5.jpeg',
-        altText: 'Sudoku Druckvorlagen für Kinder - Einmaleins und Mathe-Arbeitsblätter mit Schwungübungen',
-        imageTitle: 'Sudoku Druckvorlagen für Kinder',
-      },
-    ],
+    items: [],
     
   },
 

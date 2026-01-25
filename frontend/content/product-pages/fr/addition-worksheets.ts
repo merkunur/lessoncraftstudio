@@ -19,39 +19,7 @@ export const additionFrContent: ProductPageContent = {
     description: 'Créez des fiches d\'addition gratuites avec notre générateur. Parfait pour maternelle, CP et CE1. Téléchargez en PDF haute qualité en moins de 3 minutes.',
     keywords: 'fiches addition, exercices maths, fiches maternelle, fiches à imprimer gratuit, exercices CP, exercices CE1, addition avec images, générateur fiches, mathématiques maternelle, calcul visuel',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fr/apps/addition-fiches',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/french/addition/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Fiche d\'addition gratuite format portrait pour maternelle et CP',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/french/addition/sample-2.jpeg',
-        width: 3508,
-        height: 2480,
-        caption: 'Fiche d\'addition gratuite format paysage avec exercices maths visuels',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/french/addition/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Fiche d\'addition gratuite mode image plus nombre pour enfants',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/french/addition/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Fiche d\'addition gratuite mode trouver l\'addend pour CP',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/french/addition/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Fiche d\'addition gratuite mode mixte pour exercices maths variés',
-      },
-    ],
-  },
 
   // Hero Section - FULL text from addition.md paragraphs 1-4
   hero: {

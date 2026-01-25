@@ -19,33 +19,7 @@ export const findAndCountItContent: ProductPageContent = {
     description: 'Crea schede didattiche professionali trova e conta con il nostro generatore. Genera schede didattiche scuola primaria personalizzate perfette per bambini della.',
     keywords: 'schede didattiche trova e conta, schede matematica, scuola infanzia, scuola primaria, schede stampabili, generatore schede, conteggio, classe prima, esercizi matematica, numeri da stampare',
     canonicalUrl: 'https://www.lessoncraftstudio.com/it/apps/trova-e-conta-schede',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/find and count/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Scheda gratuita trova e conta per bambini - stampabili gratuiti scuola infanzia'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/find and count/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Schede gratuite trova e conta - scheda per scuola dell\'infanzia matematica'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/find and count/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Scheda gratuita per bambini conteggio - stampabili gratuiti scuola primaria'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/find and count/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Scheda per bambini trova e conta - schede gratuite attivita matematica'
-      }
-    ],
-  },
 
   // Hero Section
   hero: {
@@ -88,29 +62,7 @@ Il nostro generatore crea schede con griglie personalizzabili da 5x5 a 10x10 cel
     badgeText: 'Esempi Gratuiti',
     downloadingLabel: 'Scaricamento...',
     ofLabel: 'di',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/italian/find and count/sample-1.jpeg',
-        answerKeySrc: '/samples/italian/find and count/sample-1.jpeg',
-        altText: 'Scheda gratuita trova e conta per bambini - stampabili gratuiti scuola infanzia',
-        imageTitle: 'Scheda gratuita trova e conta per bambini',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/italian/find and count/sample-3.jpeg',
-        answerKeySrc: '/samples/italian/find and count/sample-3.jpeg',
-        altText: 'Scheda gratuita per bambini conteggio - stampabili gratuiti scuola primaria',
-        imageTitle: 'Scheda gratuita per bambini conteggio',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/italian/find and count/sample-4.jpeg',
-        answerKeySrc: '/samples/italian/find and count/sample-4.jpeg',
-        altText: 'Scheda per bambini trova e conta - schede gratuite attivita matematica',
-        imageTitle: 'Scheda per bambini trova e conta',
-      },
-    ],
+    items: [],
     
   },
 

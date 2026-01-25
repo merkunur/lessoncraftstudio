@@ -33,33 +33,7 @@ export const imageCrosswordNlContent: ProductPageContent = {
     description: 'Maak professionele kruiswoordpuzzel werkbladen met afbeeldingen voor groep 1-3. Met uw Volledige Toegang abonnement creëert u onbeperkt kleurplaten en.',
     keywords: 'kruiswoordpuzzel werkbladen, werkbladen groep 3, werkbladen kleuters, oefenbladen gratis, letters leren, schrijven oefenen, veilig leren lezen, fijne motoriek, kleurplaten, rekenen werkbladen',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/kruiswoordpuzzel-werkbladen',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/crossword/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis werkblad kruiswoordpuzzel - werkbladen groep 3 voor letters leren',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/crossword/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis werkbladen kruiswoordpuzzel - werkblad voor kleuters met afbeeldingen',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/crossword/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Werkblad voor kinderen - kruiswoordpuzzel met plaatjes voor groep 1 2',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/crossword/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis printables kruiswoordpuzzel - oefenbladen voor veilig leren lezen',
-      },
-    ],
-  },
 
   // Hero Section - FULL text from crossword.md paragraphs 1-4
   hero: {
@@ -104,36 +78,7 @@ Volledige Toegang abonnement kost €240 per jaar of €25 per maand. Onbeperkt 
     badgeText: 'Gratis Voorbeelden',
     downloadingLabel: 'Downloaden...',
     ofLabel: 'van',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/dutch/crossword/sample-1.jpeg',
-        answerKeySrc: '/samples/dutch/crossword/sample-1.jpeg',
-        altText: 'Gratis werkblad kruiswoordpuzzel - werkbladen groep 3 voor letters leren',
-        imageTitle: 'Gratis werkblad kruiswoordpuzzel',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/dutch/crossword/sample-2.jpeg',
-        answerKeySrc: '/samples/dutch/crossword/sample-2.jpeg',
-        altText: 'Gratis werkbladen kruiswoordpuzzel - werkblad voor kleuters met afbeeldingen',
-        imageTitle: 'Gratis werkbladen kruiswoordpuzzel',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/dutch/crossword/sample-3.jpeg',
-        answerKeySrc: '/samples/dutch/crossword/sample-3.jpeg',
-        altText: 'Werkblad voor kinderen - kruiswoordpuzzel met plaatjes voor groep 1 2',
-        imageTitle: 'Werkblad voor kinderen',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/dutch/crossword/sample-4.jpeg',
-        answerKeySrc: '/samples/dutch/crossword/sample-4.jpeg',
-        altText: 'Gratis printables kruiswoordpuzzel - oefenbladen voor veilig leren lezen',
-        imageTitle: 'Gratis printables kruiswoordpuzzel',
-      },
-    ],
+    items: [],
     
   },
 

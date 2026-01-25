@@ -19,33 +19,7 @@ export const additionItContent: ProductPageContent = {
     description: 'Crea schede gratuite di addizioni per bambini. Generatore di stampabili gratuiti per scuola dell\'infanzia e primaria. Scarica scheda gratuita PDF in 3 minuti.',
     keywords: 'schede didattiche addizioni, schede matematica, scuola primaria, scuola infanzia, schede stampabili, generatore schede, addizioni immagini, classe prima, esercizi matematica, numeri da stampare',
     canonicalUrl: 'https://www.lessoncraftstudio.com/it/apps/addizione-schede',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/addition/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Scheda gratuita di addizioni per bambini - stampabili gratuiti matematica scuola infanzia'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/addition/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Schede gratuite addizioni stampabili - scheda per bambini scuola primaria classe prima'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/addition/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Scheda gratuita per bambini - esercizi addizioni con immagini stampabili gratuiti'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/addition/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Stampabili gratuiti matematica - schede gratuite addizioni per scuola dell\'infanzia'
-      }
-    ],
-  },
 
   // Hero Section - FULL text from addition.md paragraphs 1-3
   hero: {
@@ -88,29 +62,7 @@ Ogni scheda didattica si scarica in formato PDF o JPEG di alta qualità. Perfett
     badgeText: 'Esempi Gratuiti',
     downloadingLabel: 'Scaricamento...',
     ofLabel: 'di',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/italian/addition/sample-1.jpeg',
-        answerKeySrc: '/samples/italian/addition/sample-1.jpeg',
-        altText: 'Scheda gratuita di addizioni per bambini - stampabili gratuiti matematica scuola infanzia',
-        imageTitle: 'Scheda gratuita di addizioni per bambini',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/italian/addition/sample-2.jpeg',
-        answerKeySrc: '/samples/italian/addition/sample-2.jpeg',
-        altText: 'Schede gratuite addizioni stampabili - scheda per bambini scuola primaria classe prima',
-        imageTitle: 'Schede gratuite addizioni stampabili',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/italian/addition/sample-3.jpeg',
-        answerKeySrc: '/samples/italian/addition/sample-3.jpeg',
-        altText: 'Scheda gratuita per bambini - esercizi addizioni con immagini stampabili gratuiti',
-        imageTitle: 'Scheda gratuita per bambini',
-      },
-    ],
+    items: [],
     
   },
 

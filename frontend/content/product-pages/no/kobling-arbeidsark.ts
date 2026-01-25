@@ -19,33 +19,7 @@ export const matchingNoContent: ProductPageContent = {
     description: 'Lag profesjonelle matchingsoppgaver med vår generator for arbeidsark. Din Kjernepakke-abonnement gir deg ubegrenset tilgang til å lage matchingsoppgaver uten.',
     keywords: 'matchingsoppgaver, arbeidsark gratis, oppgavehefter barn, bokstaver lære skrive, matematikk oppgaver, finmotorikk øvelser, småskoletrinnet, barneskolen, gangetabellen, tall og telling',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/kobling-arbeidsark',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/norwegian/matching/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis arbeidsark matchingsoppgaver - kobling aktiviteter for barn',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/norwegian/matching/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Matchingsoppgaver arbeidsark gratis - oppgavehefter barn for småskoletrinnet',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/norwegian/matching/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Arbeidsark for barn matchingsoppgaver - finmotorikk øvelser gratis utskrifter',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/norwegian/matching/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Kobling arbeidsark gratis - matematikk oppgaver og tall og telling',
-      },
-    ],
-  },
 
   // Hero Section - FULL text from matching.md paragraphs 1-4
   hero: {
@@ -90,36 +64,7 @@ Kjernepakke-abonnentet inkluderer 10 populære oppgavegeneratorer. Du får tilga
     noPdfLabel: 'Ingen PDF tilgjengelig',
     freePdfCountLabel: '4 gratis nedlastinger',
     ofLabel: 'av',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/norwegian/matching/sample-1.jpeg',
-        answerKeySrc: '/samples/norwegian/matching/sample-1.jpeg',
-        altText: 'Gratis arbeidsark matchingsoppgaver - kobling aktiviteter for barn',
-        imageTitle: 'Gratis arbeidsark matchingsoppgaver',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/norwegian/matching/sample-2.jpeg',
-        answerKeySrc: '/samples/norwegian/matching/sample-2.jpeg',
-        altText: 'Matchingsoppgaver arbeidsark gratis - oppgavehefter barn for småskoletrinnet',
-        imageTitle: 'Matchingsoppgaver arbeidsark gratis',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/norwegian/matching/sample-3.jpeg',
-        answerKeySrc: '/samples/norwegian/matching/sample-3.jpeg',
-        altText: 'Arbeidsark for barn matchingsoppgaver - finmotorikk øvelser gratis utskrifter',
-        imageTitle: 'Arbeidsark for barn matchingsoppgaver',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/norwegian/matching/sample-4.jpeg',
-        answerKeySrc: '/samples/norwegian/matching/sample-4.jpeg',
-        altText: 'Kobling arbeidsark gratis - matematikk oppgaver og tall og telling',
-        imageTitle: 'Kobling arbeidsark gratis',
-      },
-    ],
+    items: [],
     
   },
 

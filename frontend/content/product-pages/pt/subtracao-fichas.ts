@@ -21,33 +21,7 @@ export const subtractionPtContent: ProductPageContent = {
     description: 'Crie atividades de subtração profissionais para seus alunos em menos de 3 minutos. Com sua assinatura Acesso Completo, você tem acesso ilimitado para gerar.',
     keywords: 'atividades de subtração, atividades de matemática, atividades para imprimir, educação infantil, 1º ano, 2º ano, coordenação motora, tabuada, desenhos para colorir, atividades de alfabetização, letra cursiva, pontilhado',
     canonicalUrl: 'https://www.lessoncraftstudio.com/pt/apps/subtracao-fichas',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/subtraction/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Atividade de subtração grátis para imprimir - exercícios de matemática para educação infantil'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/subtraction/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Atividade grátis de subtração com imagens - atividade para crianças do 1º ano'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/subtraction/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Atividades grátis de matemática - imprimíveis grátis para educação infantil'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/subtraction/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Atividade de subtração para crianças - ficha de matemática grátis para imprimir'
-      },
-    ],
-  },
 
   // Hero Section - FULL text from subtraction.md paragraphs 1-3
   hero: {
@@ -90,36 +64,7 @@ Nosso gerador cria atividades de subtração usando imagens temáticas. As crian
     badgeText: 'Exemplos Grátis',
     downloadingLabel: 'Baixando...',
     ofLabel: 'de',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/portuguese/subtraction/sample-1.jpeg',
-        answerKeySrc: '/samples/portuguese/subtraction/sample-1.jpeg',
-        altText: 'Atividade de subtração grátis para imprimir - exercícios de matemática para educação infantil',
-        imageTitle: 'Atividade de subtração grátis para imprimir',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/portuguese/subtraction/sample-2.jpeg',
-        answerKeySrc: '/samples/portuguese/subtraction/sample-2.jpeg',
-        altText: 'Atividade grátis de subtração com imagens - atividade para crianças do 1º ano',
-        imageTitle: 'Atividade grátis de subtração com imagens',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/portuguese/subtraction/sample-3.jpeg',
-        answerKeySrc: '/samples/portuguese/subtraction/sample-3.jpeg',
-        altText: 'Atividades grátis de matemática - imprimíveis grátis para educação infantil',
-        imageTitle: 'Atividades grátis de matemática',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/portuguese/subtraction/sample-4.jpeg',
-        answerKeySrc: '/samples/portuguese/subtraction/sample-4.jpeg',
-        altText: 'Atividade de subtração para crianças - ficha de matemática grátis para imprimir',
-        imageTitle: 'Atividade de subtração para crianças',
-      },
-    ],
+    items: [],
     
   },
 

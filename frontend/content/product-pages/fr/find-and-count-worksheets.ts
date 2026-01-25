@@ -20,39 +20,7 @@ export const findAndCountFrContent: ProductPageContent = {
     description: 'Créez des fiches cherche et compte personnalisées avec 3000+ images. Générateur maternelle CP gratuit en PDF 300 DPI. Parfait pour enseignants et parents.',
     keywords: 'fiches cherche et compte, fiches maternelle, fiches à imprimer gratuit, exercices CP, exercices CE1, graphisme maternelle, coloriage à imprimer, apprendre à compter, dénombrement, générateur fiches',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fr/apps/cherche-et-compte-fiches',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/french/find-and-count/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Fiche cherche et compte gratuite - exercices dénombrement maternelle',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/french/find-and-count/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Fiches maternelle cherche et compte - fiches à imprimer gratuit pour enfants',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/french/find-and-count/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Exercices CP cherche et compte - fiche pour maternelle avec images',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/french/find-and-count/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Fiche gratuite cherche et compte - graphisme maternelle et dénombrement',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/french/find-and-count/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Fiches gratuites cherche et compte - exercices maths CP CE1 à imprimer',
-      },
-    ],
-  },
 
   // Hero Section - FULL text from find-and-count.md paragraphs 1-4
   hero: {
@@ -97,43 +65,7 @@ Combinez le cherche et compte avec des activités de graphisme maternelle. Nos f
     badgeText: 'Exemples Gratuits',
     downloadingLabel: 'Téléchargement...',
     ofLabel: 'sur',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/french/find-and-count/sample-1.jpeg',
-        answerKeySrc: '/samples/french/find-and-count/sample-1.jpeg',
-        altText: 'Fiche cherche et compte gratuite - exercices dénombrement maternelle',
-        imageTitle: 'Fiche cherche et compte gratuite',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/french/find-and-count/sample-2.jpeg',
-        answerKeySrc: '/samples/french/find-and-count/sample-2.jpeg',
-        altText: 'Fiches maternelle cherche et compte - fiches à imprimer gratuit pour enfants',
-        imageTitle: 'Fiches maternelle cherche et compte',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/french/find-and-count/sample-3.jpeg',
-        answerKeySrc: '/samples/french/find-and-count/sample-3.jpeg',
-        altText: 'Exercices CP cherche et compte - fiche pour maternelle avec images',
-        imageTitle: 'Exercices CP cherche et compte',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/french/find-and-count/sample-4.jpeg',
-        answerKeySrc: '/samples/french/find-and-count/sample-4.jpeg',
-        altText: 'Fiche gratuite cherche et compte - graphisme maternelle et dénombrement',
-        imageTitle: 'Fiche gratuite cherche et compte',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/french/find-and-count/sample-5.jpeg',
-        answerKeySrc: '/samples/french/find-and-count/sample-5.jpeg',
-        altText: 'Fiches gratuites cherche et compte - exercices maths CP CE1 à imprimer',
-        imageTitle: 'Fiches gratuites cherche et compte',
-      },
-    ],
+    items: [],
     
   },
 

@@ -22,27 +22,7 @@ export const writingEsContent: ProductPageContent = {
     description: 'Crea fichas profesionales de lectoescritura y caligrafía con nuestro generador de fichas para imprimir. Genera fichas preescolar personalizadas de abecedario.',
     keywords: 'fichas de lectoescritura, fichas para imprimir, fichas de caligrafía, fichas preescolar, fichas infantil, abecedario, letra cursiva, letra de molde, material educativo gratis, fichas gratis, aprender las letras',
     canonicalUrl: 'https://www.lessoncraftstudio.com/es/apps/lectoescritura-fichas',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/spanish/writing/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Ficha gratis de lectoescritura para niños - ejercicios de grafomotricidad para preescolar'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/spanish/writing/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Ficha gratis de caligrafía para preescolar - práctica de abecedario para educación infantil'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/spanish/writing/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Imprimibles gratis de escritura para niños - fichas de grafomotricidad para primaria'
-      },
-    ],
-  },
 
   // Hero Section - FULL text from writing.md paragraphs 1-3
   hero: {
@@ -85,29 +65,7 @@ Las fichas preescolar que creas son totalmente personalizables. Agrega imágenes
     badgeText: 'Ejemplos Gratis',
     downloadingLabel: 'Descargando...',
     ofLabel: 'de',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/spanish/writing/sample-1.jpeg',
-        answerKeySrc: '/samples/spanish/writing/sample-1.jpeg',
-        altText: 'Ficha gratis de lectoescritura para niños - ejercicios de grafomotricidad para preescolar',
-        imageTitle: 'Ficha gratis de lectoescritura para niños',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/spanish/writing/sample-2.jpeg',
-        answerKeySrc: '/samples/spanish/writing/sample-2.jpeg',
-        altText: 'Ficha gratis de caligrafía para preescolar - práctica de abecedario para educación infantil',
-        imageTitle: 'Ficha gratis de caligrafía para preescolar',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/spanish/writing/sample-3.jpeg',
-        answerKeySrc: '/samples/spanish/writing/sample-3.jpeg',
-        altText: 'Imprimibles gratis de escritura para niños - fichas de grafomotricidad para primaria',
-        imageTitle: 'Imprimibles gratis de escritura para niños',
-      },
-    ],
+    items: [],
     
   },
 

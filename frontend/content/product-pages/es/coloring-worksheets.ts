@@ -19,39 +19,7 @@ export const coloringEsContent: ProductPageContent = {
     description: 'Crea dibujos para colorear gratis con nuestro generador de fichas para imprimir. Descarga fichas preescolar en PDF de 300 DPI en menos de 3 minutos. Perfecto para maestros y padres.',
     keywords: 'dibujos para colorear, fichas para imprimir, páginas de colorear, fichas preescolar, fichas infantil, material educativo gratis, grafomotricidad, lectoescritura, abecedario para aprender las letras, ejercicios matemáticas',
     canonicalUrl: 'https://www.lessoncraftstudio.com/es/apps/dibujos-colorear-fichas',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/spanish/coloring/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Ficha gratis de dibujos para colorear para imprimir - páginas de colorear para preescolar',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/spanish/coloring/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Fichas para imprimir de colorear gratis - material educativo de motricidad fina',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/spanish/coloring/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Fichas preescolar de dibujos para colorear - fichas gratis para educación infantil',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/spanish/coloring/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Páginas para colorear gratis para imprimir - fichas infantil de colorear',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/spanish/coloring/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Dibujos para colorear gratis para niños - fichas para imprimir de colorear',
-      },
-    ],
-  },
 
   // Hero Section - FULL text from coloring.md paragraphs 1-2
   hero: {
@@ -94,43 +62,7 @@ Las páginas de colorear que creas son completamente editables. Cambia tamaños,
     badgeText: 'Ejemplos Gratis',
     downloadingLabel: 'Descargando...',
     ofLabel: 'de',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/spanish/coloring/sample-1.jpeg',
-        answerKeySrc: '/samples/spanish/coloring/sample-1.jpeg',
-        altText: 'Ficha gratis de dibujos para colorear para imprimir - páginas de colorear para preescolar',
-        imageTitle: 'Ficha gratis de dibujos para colorear para imprimir',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/spanish/coloring/sample-2.jpeg',
-        answerKeySrc: '/samples/spanish/coloring/sample-2.jpeg',
-        altText: 'Fichas para imprimir de colorear gratis - material educativo de motricidad fina',
-        imageTitle: 'Fichas para imprimir de colorear gratis',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/spanish/coloring/sample-3.jpeg',
-        answerKeySrc: '/samples/spanish/coloring/sample-3.jpeg',
-        altText: 'Fichas preescolar de dibujos para colorear - fichas gratis para educación infantil',
-        imageTitle: 'Fichas preescolar de dibujos para colorear',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/spanish/coloring/sample-4.jpeg',
-        answerKeySrc: '/samples/spanish/coloring/sample-4.jpeg',
-        altText: 'Páginas para colorear gratis para imprimir - fichas infantil de colorear',
-        imageTitle: 'Páginas para colorear gratis para imprimir',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/spanish/coloring/sample-5.jpeg',
-        answerKeySrc: '/samples/spanish/coloring/sample-5.jpeg',
-        altText: 'Dibujos para colorear gratis para niños - fichas para imprimir de colorear',
-        imageTitle: 'Dibujos para colorear gratis para niños',
-      },
-    ],
+    items: [],
     
   },
 

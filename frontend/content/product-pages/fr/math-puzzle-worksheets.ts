@@ -20,39 +20,7 @@ export const mathPuzzleFrContent: ProductPageContent = {
     description: 'Créez des puzzles maths de décodage par symboles avec notre générateur. Parfait pour maternelle, CP et CE1. Fiches à imprimer gratuit PDF. Parfait pour enseignants et parents.',
     keywords: 'puzzle maths, exercices maths, décodage symboles, fiches maternelle, fiches à imprimer gratuit, exercices CP, exercices CE1, énigmes mathématiques, générateur fiches, calcul visuel',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fr/apps/puzzle-maths-fiches',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/french/math-puzzle/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Puzzle maths fiches gratuites - décodage symboles pour maternelle et CP',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/french/math-puzzle/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Exercices maths fiche à imprimer gratuit - puzzle décodage pour enfants CE1',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/french/math-puzzle/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Fiches maternelle puzzle maths - exercices décodage symboles colorés',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/french/math-puzzle/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Puzzle maths à imprimer - énigmes mathématiques pour CP et CE1',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/french/math-puzzle/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Fiches gratuites puzzle maths - exercices décodage calcul visuel maternelle',
-      },
-    ],
-  },
 
   // Hero Section - FULL text from math-worksheet.md paragraphs 1-4
   hero: {
@@ -95,43 +63,7 @@ Le générateur crée des puzzles mathématiques avec 1 à 6 exercices par page.
     badgeText: 'Exemples Gratuits',
     downloadingLabel: 'Téléchargement...',
     ofLabel: 'sur',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/french/math-puzzle/sample-1.jpeg',
-        answerKeySrc: '/samples/french/math-puzzle/sample-1.jpeg',
-        altText: 'Puzzle maths fiches gratuites - décodage symboles pour maternelle et CP',
-        imageTitle: 'Puzzle maths fiches gratuites',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/french/math-puzzle/sample-2.jpeg',
-        answerKeySrc: '/samples/french/math-puzzle/sample-2.jpeg',
-        altText: 'Exercices maths fiche à imprimer gratuit - puzzle décodage pour enfants CE1',
-        imageTitle: 'Exercices maths fiche à imprimer gratuit',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/french/math-puzzle/sample-3.jpeg',
-        answerKeySrc: '/samples/french/math-puzzle/sample-3.jpeg',
-        altText: 'Fiches maternelle puzzle maths - exercices décodage symboles colorés',
-        imageTitle: 'Fiches maternelle puzzle maths',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/french/math-puzzle/sample-4.jpeg',
-        answerKeySrc: '/samples/french/math-puzzle/sample-4.jpeg',
-        altText: 'Puzzle maths à imprimer - énigmes mathématiques pour CP et CE1',
-        imageTitle: 'Puzzle maths à imprimer',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/french/math-puzzle/sample-5.jpeg',
-        answerKeySrc: '/samples/french/math-puzzle/sample-5.jpeg',
-        altText: 'Fiches gratuites puzzle maths - exercices décodage calcul visuel maternelle',
-        imageTitle: 'Fiches gratuites puzzle maths',
-      },
-    ],
+    items: [],
     
   },
 

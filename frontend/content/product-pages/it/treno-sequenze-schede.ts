@@ -19,39 +19,7 @@ export const patternTrainItContent: ProductPageContent = {
     description: 'Crea schede gratuite Treno delle Sequenze con il nostro generatore. Stampabili gratuiti per bambini della scuola dell\'infanzia e classe prima.',
     keywords: 'schede gratuite treno sequenze, scheda gratuita bambini, stampabili gratuiti scuola infanzia, scheda per bambini sequenze, treno delle sequenze, schede didattiche sequenze, scuola primaria, classe prima, riconoscimento sequenze, pregrafismo',
     canonicalUrl: 'https://www.lessoncraftstudio.com/it/apps/treno-sequenze-schede',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/pattern-train/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Scheda gratuita Treno delle Sequenze per bambini - sequenza AB scuola dell\'infanzia'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/pattern-train/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Schede gratuite Treno delle Sequenze - stampabili gratuiti sequenza AAB'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/pattern-train/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Scheda per bambini Treno delle Sequenze - sequenza ABB classe prima'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/pattern-train/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Stampabili gratuiti Treno delle Sequenze - scheda per scuola dell\'infanzia ABC'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/pattern-train/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Scheda gratuita per bambini - Treno delle Sequenze AABB stampabile'
-      }
-    ],
-  },
 
   // Hero Section
   hero: {
@@ -94,29 +62,7 @@ Insegnanti della scuola dell'infanzia e della scuola primaria utilizzano il nost
     badgeText: 'Stampabili Gratuiti',
     downloadingLabel: 'Scaricamento...',
     ofLabel: 'di',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/italian/pattern-train/sample-2.jpeg',
-        answerKeySrc: '/samples/italian/pattern-train/sample-2.jpeg',
-        altText: 'Schede gratuite Treno delle Sequenze - stampabili gratuiti sequenza AAB',
-        imageTitle: 'Schede gratuite Treno delle Sequenze',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/italian/pattern-train/sample-3.jpeg',
-        answerKeySrc: '/samples/italian/pattern-train/sample-3.jpeg',
-        altText: 'Scheda per bambini Treno delle Sequenze - sequenza ABB classe prima',
-        imageTitle: 'Scheda per bambini Treno delle Sequenze',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/italian/pattern-train/sample-5.jpeg',
-        answerKeySrc: '/samples/italian/pattern-train/sample-5.jpeg',
-        altText: 'Scheda gratuita per bambini - Treno delle Sequenze AABB stampabile',
-        imageTitle: 'Scheda gratuita per bambini',
-      },
-    ],
+    items: [],
     
   },
 

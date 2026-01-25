@@ -19,39 +19,7 @@ export const drawingLinesItContent: ProductPageContent = {
     description: 'Crea schede gratuite di pregrafismo professionali per collegare immagini abbinate. Scheda per bambini con 8 modelli di tracciamento, 3000+ immagini e supporto.',
     keywords: 'schede gratuite pregrafismo, scheda gratuita per bambini, scheda per scuola dell\'infanzia, stampabili gratuiti, tracciamento linee, motricità fine, schede stampabili, generatore schede, coordinazione occhio-mano, classe prima, preparazione scrittura',
     canonicalUrl: 'https://www.lessoncraftstudio.com/it/apps/pregrafismo-schede',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/drawing-lines/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Scheda gratuita di pregrafismo per bambini - tracciamento linee curve scuola primaria'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/drawing-lines/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Schede gratuite pregrafismo stampabili gratuiti per scuola dell\'infanzia'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/drawing-lines/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Scheda per bambini pregrafismo linee diagonali classe prima'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/drawing-lines/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Scheda per scuola dell\'infanzia pregrafismo linee orizzontali'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/drawing-lines/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Stampabili gratuiti pregrafismo motricità fine bambini'
-      }
-    ],
-  },
 
   // Hero Section
   hero: {
@@ -94,29 +62,7 @@ Ogni scheda gratuita si scarica in formato PDF o JPEG di alta qualità. Perfetto
     badgeText: 'Esempi Gratuiti',
     downloadingLabel: 'Scaricamento...',
     ofLabel: 'di',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/italian/drawing-lines/sample-1.jpeg',
-        answerKeySrc: '/samples/italian/drawing-lines/sample-1.jpeg',
-        altText: 'Scheda gratuita di pregrafismo per bambini - tracciamento linee curve scuola primaria',
-        imageTitle: 'Scheda gratuita di pregrafismo per bambini',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/italian/drawing-lines/sample-3.jpeg',
-        answerKeySrc: '/samples/italian/drawing-lines/sample-3.jpeg',
-        altText: 'Scheda per bambini pregrafismo linee diagonali classe prima',
-        imageTitle: 'Scheda per bambini pregrafismo linee diagonali classe prima',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/italian/drawing-lines/sample-5.jpeg',
-        answerKeySrc: '/samples/italian/drawing-lines/sample-5.jpeg',
-        altText: 'Stampabili gratuiti pregrafismo motricità fine bambini',
-        imageTitle: 'Stampabili gratuiti pregrafismo motricità fine bambini',
-      },
-    ],
+    items: [],
     
   },
 

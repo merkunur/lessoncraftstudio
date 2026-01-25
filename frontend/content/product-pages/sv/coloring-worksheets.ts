@@ -19,39 +19,7 @@ export const coloringSvContent: ProductPageContent = {
     description: 'Skapa professionella målarbilder barn med vårt enkla verktyg. Din Grundpaketet-prenumeration ger dig obegränsad tillgång att skapa målarbilder barn utan extra.',
     keywords: 'målarbilder barn, arbetsblad gratis, förskoleklass material, finmotorik övningar, matematik arbetsblad, bokstäver lära sig, siffror och tal, multiplikationstabellen, klockan lära sig, addition och subtraktion',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/malarbilder-arbetsblad',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/coloring/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis arbetsblad målarbilder barn - finmotorik övningar för förskoleklass'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/coloring/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Arbetsblad för barn målarbilder - gratis utskrifter för lågstadiet'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/coloring/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis arbetsblad för barn - målarbilder för finmotorik övningar'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/coloring/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Arbetsblad för förskoleklass - gratis målarbilder barn att skriva ut'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/coloring/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis utskrifter målarbilder - arbetsblad för barn i förskoleklass'
-      },
-    ],
-  },
 
   // Hero Section - FULL text from coloring.md paragraphs 1-4
   hero: {
@@ -96,43 +64,7 @@ Verktyget för målarbilder barn stöder 11 språk för användargränssnittet. 
     badgeText: 'Gratis Exempel',
     downloadingLabel: 'Laddar ner...',
     ofLabel: 'av',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/swedish/coloring/sample-1.jpeg',
-        answerKeySrc: '/samples/swedish/coloring/sample-1.jpeg',
-        altText: 'Gratis arbetsblad målarbilder barn - finmotorik övningar för förskoleklass',
-        imageTitle: 'Gratis arbetsblad målarbilder barn',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/swedish/coloring/sample-2.jpeg',
-        answerKeySrc: '/samples/swedish/coloring/sample-2.jpeg',
-        altText: 'Arbetsblad för barn målarbilder - gratis utskrifter för lågstadiet',
-        imageTitle: 'Arbetsblad för barn målarbilder',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/swedish/coloring/sample-3.jpeg',
-        answerKeySrc: '/samples/swedish/coloring/sample-3.jpeg',
-        altText: 'Gratis arbetsblad för barn - målarbilder för finmotorik övningar',
-        imageTitle: 'Gratis arbetsblad för barn',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/swedish/coloring/sample-4.jpeg',
-        answerKeySrc: '/samples/swedish/coloring/sample-4.jpeg',
-        altText: 'Arbetsblad för förskoleklass - gratis målarbilder barn att skriva ut',
-        imageTitle: 'Arbetsblad för förskoleklass',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/swedish/coloring/sample-5.jpeg',
-        answerKeySrc: '/samples/swedish/coloring/sample-5.jpeg',
-        altText: 'Gratis utskrifter målarbilder - arbetsblad för barn i förskoleklass',
-        imageTitle: 'Gratis utskrifter målarbilder',
-      },
-    ],
+    items: [],
     
   },
 

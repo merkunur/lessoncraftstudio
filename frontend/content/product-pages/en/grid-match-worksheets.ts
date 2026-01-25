@@ -19,39 +19,7 @@ export const gridMatchEnContent: ProductPageContent = {
     description: 'Create free grid match worksheets with our puzzle generator. Free printables for kindergarten and first grade. Download PDF worksheets in 3 clicks. Perfect for teachers and parents.',
     keywords: 'grid match worksheets, puzzle worksheets, kindergarten worksheets, free printable worksheets, visual discrimination worksheets, first grade worksheets, math worksheets, spatial reasoning worksheets, worksheet for kids, free worksheets, worksheet for kindergarten, free printables',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/grid-match-worksheets',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/grid-match/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Free printable grid match worksheets - visual discrimination puzzle for kindergarten spatial reasoning practice'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/grid-match/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Grid match puzzle worksheets for kids - free printable visual matching activity for first grade'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/grid-match/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Visual discrimination worksheets free - grid match puzzle printables for kindergarten pattern recognition'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/grid-match/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Free worksheet for kids - grid match visual spatial puzzle activity for kindergarten students'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/grid-match/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Grid match free printables - visual matching puzzle worksheet for kids spatial skills development'
-      }
-    ],
-  },
 
   // Hero Section - FULL text from grid-match.md paragraphs 1-3
   hero: {
@@ -80,43 +48,7 @@ Teachers love grid match worksheets because they combine fun with learning. Crea
     downloadLabel: 'Download Free Sample',
     worksheetLabel: 'Worksheet',
     answerKeyLabel: 'Answer Key',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/english/grid-match/sample-1.jpeg',
-        answerKeySrc: '/samples/english/grid-match/sample-1.jpeg',
-        altText: 'Free printable grid match worksheets - visual discrimination puzzle for kindergarten spatial reasoning practice',
-        imageTitle: 'Free printable grid match worksheets',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/english/grid-match/sample-2.jpeg',
-        answerKeySrc: '/samples/english/grid-match/sample-2.jpeg',
-        altText: 'Grid match puzzle worksheets for kids - free printable visual matching activity for first grade',
-        imageTitle: 'Grid match puzzle worksheets for kids',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/english/grid-match/sample-3.jpeg',
-        answerKeySrc: '/samples/english/grid-match/sample-3.jpeg',
-        altText: 'Visual discrimination worksheets free - grid match puzzle printables for kindergarten pattern recognition',
-        imageTitle: 'Visual discrimination worksheets free',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/english/grid-match/sample-4.jpeg',
-        answerKeySrc: '/samples/english/grid-match/sample-4.jpeg',
-        altText: 'Free worksheet for kids - grid match visual spatial puzzle activity for kindergarten students',
-        imageTitle: 'Free worksheet for kids',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/english/grid-match/sample-5.jpeg',
-        answerKeySrc: '/samples/english/grid-match/sample-5.jpeg',
-        altText: 'Grid match free printables - visual matching puzzle worksheet for kids spatial skills development',
-        imageTitle: 'Grid match free printables',
-      },
-    ],
+    items: [],
     
   },
 

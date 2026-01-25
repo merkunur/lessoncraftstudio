@@ -31,33 +31,7 @@ export const mathWorksheetsEsContent: ProductPageContent = {
     description: 'Crea fichas de matemáticas para imprimir gratis. Genera ejercicios matemáticas para preescolar y primaria en PDF de alta calidad. ¡Descarga en 3 minutos!',
     keywords: 'fichas de matemáticas, ejercicios matemáticas, fichas para imprimir, fichas infantil, fichas preescolar, grafomotricidad, lectoescritura, aprender los números, material educativo gratis, fichas gratis, acertijos matemáticos, ficha gratis, ficha gratis para niños, imprimibles gratis, ficha para niños, ficha para preescolar, ficha',
     canonicalUrl: 'https://www.lessoncraftstudio.com/es/apps/acertijos-matematicos-fichas',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/spanish/math/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Ficha de matemáticas gratis para imprimir - ejercicios matemáticas con símbolos para preescolar',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/spanish/math/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Ficha de matemáticas para niños - fichas infantil con acertijos numéricos para primaria',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/spanish/math/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Ejercicios matemáticas para imprimir gratis - fichas preescolar con operaciones de suma',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/spanish/math/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Fichas gratis de matemáticas - material educativo gratis para aprender los números',
-      },
-    ],
-  },
 
   // Hero Section - FULL text from math-worksheet.md paragraphs 1-4
   hero: {
@@ -102,36 +76,7 @@ Las fichas de matemáticas incluyen temas educativos adaptados a intereses infan
     badgeText: 'Ejemplos Gratis',
     downloadingLabel: 'Descargando...',
     ofLabel: 'de',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/spanish/math/sample-1.jpeg',
-        answerKeySrc: '/samples/spanish/math/sample-1.jpeg',
-        altText: 'Ficha de matemáticas gratis para imprimir - ejercicios matemáticas con símbolos para preescolar',
-        imageTitle: 'Ficha de matemáticas gratis para imprimir',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/spanish/math/sample-2.jpeg',
-        answerKeySrc: '/samples/spanish/math/sample-2.jpeg',
-        altText: 'Ficha de matemáticas para niños - fichas infantil con acertijos numéricos para primaria',
-        imageTitle: 'Ficha de matemáticas para niños',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/spanish/math/sample-3.jpeg',
-        answerKeySrc: '/samples/spanish/math/sample-3.jpeg',
-        altText: 'Ejercicios matemáticas para imprimir gratis - fichas preescolar con operaciones de suma',
-        imageTitle: 'Ejercicios matemáticas para imprimir gratis',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/spanish/math/sample-4.jpeg',
-        answerKeySrc: '/samples/spanish/math/sample-4.jpeg',
-        altText: 'Fichas gratis de matemáticas - material educativo gratis para aprender los números',
-        imageTitle: 'Fichas gratis de matemáticas',
-      },
-    ],
+    items: [],
     
   },
 

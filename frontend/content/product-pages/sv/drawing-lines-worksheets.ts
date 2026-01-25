@@ -19,39 +19,7 @@ export const drawingLinesSvContent: ProductPageContent = {
     description: 'Skapa professionella arbetsblad där barn ritar linjer mellan matchande bilder. Generera anpassade finmotorik övningar perfekta för förskoleklass och årskurs.',
     keywords: 'finmotorik övningar, rita linjer arbetsblad, arbetsblad gratis, förskoleklass material, penngrepp övningar, hand-öga-koordination, finmotorik förskola, linjeövningar barn',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/rita-linjer-arbetsblad',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/drawing-lines/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis arbetsblad finmotorik övningar för förskoleklass - rita linjer mellan matchande bilder',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/drawing-lines/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Arbetsblad för barn rita linjer - hand-öga-koordination träning för lågstadiet',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/drawing-lines/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis utskrifter rita linjer arbetsblad - penngrepp övningar för förskoleklass',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/drawing-lines/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Arbetsblad för förskoleklass finmotorik - diagonala linjer övningar',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/drawing-lines/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis arbetsblad för barn rita linjer - vertikala och horisontella linjer träning',
-      },
-    ],
-  },
 
   // Hero Section - FULL text from drawing-lines.md paragraphs 1-4
   hero: {
@@ -96,43 +64,7 @@ Med Grundpaketet-prenumeration på 1 800 SEK per år får du tillgång till 10 p
     badgeText: 'Gratis Exempel',
     downloadingLabel: 'Laddar ner...',
     ofLabel: 'av',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/swedish/drawing-lines/sample-1.jpeg',
-        answerKeySrc: '/samples/swedish/drawing-lines/sample-1.jpeg',
-        altText: 'Gratis arbetsblad finmotorik övningar för förskoleklass - rita linjer mellan matchande bilder',
-        imageTitle: 'Gratis arbetsblad finmotorik övningar för förskoleklass',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/swedish/drawing-lines/sample-2.jpeg',
-        answerKeySrc: '/samples/swedish/drawing-lines/sample-2.jpeg',
-        altText: 'Arbetsblad för barn rita linjer - hand-öga-koordination träning för lågstadiet',
-        imageTitle: 'Arbetsblad för barn rita linjer',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/swedish/drawing-lines/sample-3.jpeg',
-        answerKeySrc: '/samples/swedish/drawing-lines/sample-3.jpeg',
-        altText: 'Gratis utskrifter rita linjer arbetsblad - penngrepp övningar för förskoleklass',
-        imageTitle: 'Gratis utskrifter rita linjer arbetsblad',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/swedish/drawing-lines/sample-4.jpeg',
-        answerKeySrc: '/samples/swedish/drawing-lines/sample-4.jpeg',
-        altText: 'Arbetsblad för förskoleklass finmotorik - diagonala linjer övningar',
-        imageTitle: 'Arbetsblad för förskoleklass finmotorik',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/swedish/drawing-lines/sample-5.jpeg',
-        answerKeySrc: '/samples/swedish/drawing-lines/sample-5.jpeg',
-        altText: 'Gratis arbetsblad för barn rita linjer - vertikala och horisontella linjer träning',
-        imageTitle: 'Gratis arbetsblad för barn rita linjer',
-      },
-    ],
+    items: [],
     
   },
 

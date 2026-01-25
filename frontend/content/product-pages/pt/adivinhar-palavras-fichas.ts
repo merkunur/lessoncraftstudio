@@ -21,33 +21,7 @@ export const wordGuessPtContent: ProductPageContent = {
     description: 'Crie atividades grátis de adivinhar palavras com nosso gerador. Imprimíveis grátis em PDF para educação infantil e ensino fundamental. Atividade para crianças.',
     keywords: 'atividade grátis, atividades grátis, adivinhar palavras, atividade para crianças, atividade para educação infantil, imprimíveis grátis, atividade grátis para crianças, alfabetização',
     canonicalUrl: 'https://www.lessoncraftstudio.com/pt/apps/adivinhar-palavras-fichas',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/word-guess/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Atividade grátis de adivinhar palavras - atividade para educação infantil',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/word-guess/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Atividades grátis de adivinhar palavras - atividade grátis para crianças',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/word-guess/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Atividade para crianças de adivinhar palavras - imprimíveis grátis',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/word-guess/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Atividade grátis para crianças de adivinhar palavras - atividade de alfabetização',
-      },
-    ],
-  },
 
   // Hero Section
   hero: {
@@ -90,36 +64,7 @@ Este gerador cria atividades para imprimir que combinam reconhecimento de imagen
     badgeText: 'Exemplos Grátis',
     downloadingLabel: 'Baixando...',
     ofLabel: 'de',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/portuguese/word-guess/sample-1.jpeg',
-        answerKeySrc: '/samples/portuguese/word-guess/sample-1.jpeg',
-        altText: 'Atividade grátis de adivinhar palavras - atividade para educação infantil',
-        imageTitle: 'Atividade grátis de adivinhar palavras',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/portuguese/word-guess/sample-2.jpeg',
-        answerKeySrc: '/samples/portuguese/word-guess/sample-2.jpeg',
-        altText: 'Atividades grátis de adivinhar palavras - atividade grátis para crianças',
-        imageTitle: 'Atividades grátis de adivinhar palavras',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/portuguese/word-guess/sample-3.jpeg',
-        answerKeySrc: '/samples/portuguese/word-guess/sample-3.jpeg',
-        altText: 'Atividade para crianças de adivinhar palavras - imprimíveis grátis',
-        imageTitle: 'Atividade para crianças de adivinhar palavras',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/portuguese/word-guess/sample-4.jpeg',
-        answerKeySrc: '/samples/portuguese/word-guess/sample-4.jpeg',
-        altText: 'Atividade grátis para crianças de adivinhar palavras - atividade de alfabetização',
-        imageTitle: 'Atividade grátis para crianças de adivinhar palavras',
-      },
-    ],
+    items: [],
     
   },
 

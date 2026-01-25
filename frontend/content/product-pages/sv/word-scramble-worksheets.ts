@@ -19,39 +19,7 @@ export const wordScrambleSvContent: ProductPageContent = {
     description: 'Skapa gratis arbetsblad för barn med vår ordpussel generator. Perfekta arbetsblad för förskoleklass med gratis utskrifter. Ladda ner PDF på 3 minuter.',
     keywords: 'ordpussel generator, gratis arbetsblad, gratis arbetsblad för barn, gratis utskrifter, arbetsblad för barn, arbetsblad för förskoleklass, förskoleklass material, bokstäver lära sig',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/ordpussel-arbetsblad',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/word-scramble/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Ordpussel gratis arbetsblad för barn - porträttformat övningar för förskoleklass'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/word-scramble/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Ordpussel arbetsblad för förskoleklass - gratis utskrifter med bilder'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/word-scramble/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis arbetsblad ordpussel - arbetsblad för barn bokstavsträning'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/word-scramble/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Ordpussel gratis utskrifter för förskoleklass och lågstadiet'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/word-scramble/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Arbetsblad för barn ordpussel - gratis arbetsblad för förskoleklass'
-      },
-    ],
-  },
 
   // Hero Section - FULL text from word-scramble.md paragraphs 1-4
   hero: {
@@ -94,43 +62,7 @@ Generatorn skapar vackra arbetsblad för barn med professionell 300 DPI-kvalitet
     badgeText: 'Gratis Exempel',
     downloadingLabel: 'Laddar ner...',
     ofLabel: 'av',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/swedish/word-scramble/sample-1.jpeg',
-        answerKeySrc: '/samples/swedish/word-scramble/sample-1.jpeg',
-        altText: 'Ordpussel gratis arbetsblad för barn - porträttformat övningar för förskoleklass',
-        imageTitle: 'Ordpussel gratis arbetsblad för barn',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/swedish/word-scramble/sample-2.jpeg',
-        answerKeySrc: '/samples/swedish/word-scramble/sample-2.jpeg',
-        altText: 'Ordpussel arbetsblad för förskoleklass - gratis utskrifter med bilder',
-        imageTitle: 'Ordpussel arbetsblad för förskoleklass',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/swedish/word-scramble/sample-3.jpeg',
-        answerKeySrc: '/samples/swedish/word-scramble/sample-3.jpeg',
-        altText: 'Gratis arbetsblad ordpussel - arbetsblad för barn bokstavsträning',
-        imageTitle: 'Gratis arbetsblad ordpussel',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/swedish/word-scramble/sample-4.jpeg',
-        answerKeySrc: '/samples/swedish/word-scramble/sample-4.jpeg',
-        altText: 'Ordpussel gratis utskrifter för förskoleklass och lågstadiet',
-        imageTitle: 'Ordpussel gratis utskrifter för förskoleklass och lågstadiet',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/swedish/word-scramble/sample-5.jpeg',
-        answerKeySrc: '/samples/swedish/word-scramble/sample-5.jpeg',
-        altText: 'Arbetsblad för barn ordpussel - gratis arbetsblad för förskoleklass',
-        imageTitle: 'Arbetsblad för barn ordpussel',
-      },
-    ],
+    items: [],
     
   },
 

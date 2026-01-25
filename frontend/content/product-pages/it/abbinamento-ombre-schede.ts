@@ -19,39 +19,7 @@ export const shadowMatchItContent: ProductPageContent = {
     description: 'Crea schede didattiche di abbinamento ombre e ricostruzioni con il nostro generatore professionale. Perfetto per scuola dell\'infanzia e scuola primaria.',
     keywords: 'schede didattiche abbinamento, abbinamento ombre, schede scuola primaria, discriminazione visiva, scuola infanzia, schede stampabili, generatore schede, riconoscimento visivo, classe prima, percezione visiva',
     canonicalUrl: 'https://www.lessoncraftstudio.com/it/apps/abbinamento-ombre-schede',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/shadow-match/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Scheda gratuita abbinamento ombre - discriminazione visiva scuola infanzia'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/shadow-match/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Schede gratuite abbinamento ombre - esercizio per bambini scuola primaria'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/shadow-match/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Stampabili gratuiti abbinamento ombre - scheda per bambini'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/shadow-match/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Scheda gratuita per bambini - abbinamento ombre animali'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/shadow-match/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Scheda per scuola dell\'infanzia - abbinamento ombre oggetti'
-      },
-    ],
-  },
 
   // Hero Section
   hero: {
@@ -94,36 +62,7 @@ Ogni scheda didattica è completamente personalizzabile. Scegli tra oltre 3000 i
     badgeText: 'Esempi Gratuiti',
     downloadingLabel: 'Scaricamento...',
     ofLabel: 'di',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/italian/shadow-match/sample-1.jpeg',
-        answerKeySrc: '/samples/italian/shadow-match/sample-1.jpeg',
-        altText: 'Scheda gratuita abbinamento ombre - discriminazione visiva scuola infanzia',
-        imageTitle: 'Scheda gratuita abbinamento ombre',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/italian/shadow-match/sample-2.jpeg',
-        answerKeySrc: '/samples/italian/shadow-match/sample-2.jpeg',
-        altText: 'Schede gratuite abbinamento ombre - esercizio per bambini scuola primaria',
-        imageTitle: 'Schede gratuite abbinamento ombre',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/italian/shadow-match/sample-3.jpeg',
-        answerKeySrc: '/samples/italian/shadow-match/sample-3.jpeg',
-        altText: 'Stampabili gratuiti abbinamento ombre - scheda per bambini',
-        imageTitle: 'Stampabili gratuiti abbinamento ombre',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/italian/shadow-match/sample-4.jpeg',
-        answerKeySrc: '/samples/italian/shadow-match/sample-4.jpeg',
-        altText: 'Scheda gratuita per bambini - abbinamento ombre animali',
-        imageTitle: 'Scheda gratuita per bambini',
-      },
-    ],
+    items: [],
     
   },
 

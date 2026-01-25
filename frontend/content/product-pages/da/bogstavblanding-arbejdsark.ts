@@ -19,39 +19,7 @@ export const wordScrambleDaContent: ProductPageContent = {
     description: 'Lav gratis arbejdsark med bogstavblanding-generatoren. Professionelle ordøvelser til børnehaveklasse og 1. klasse. Download PDF på under 3 minutter. Perfekt til lærere og forældre.',
     keywords: 'bogstavblanding, gratis arbejdsark, gratis arbejdsark til børn, gratis printables, arbejdsark til børn, arbejdsark til børnehaveklasse, lære bogstaver, læse og skrive, stavning',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/bogstavblanding-arbejdsark',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/danish/word-scramble/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis arbejdsark bogstavblanding - ordøvelser til børnehaveklasse'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/danish/word-scramble/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Arbejdsark til børn bogstavblanding - stavning opgaver til 1. klasse'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/danish/word-scramble/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis arbejdsark til børn - bogstavblanding med billeder'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/danish/word-scramble/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Arbejdsark til børnehaveklasse - gratis bogstavblanding opgaver'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/danish/word-scramble/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis printables bogstavblanding - læse og skrive arbejdsark'
-      }
-    ],
-  },
 
   // Hero Section
   hero: {
@@ -94,43 +62,7 @@ Opret bogstavblanding arbejdsark på dansk, tysk, fransk, spansk, italiensk, por
     noPdfLabel: 'Ingen PDF tilgængelig',
     freePdfCountLabel: '5 gratis downloads',
     ofLabel: 'af',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/danish/word-scramble/sample-1.jpeg',
-        answerKeySrc: '/samples/danish/word-scramble/sample-1.jpeg',
-        altText: 'Gratis arbejdsark bogstavblanding - ordøvelser til børnehaveklasse',
-        imageTitle: 'Gratis arbejdsark bogstavblanding',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/danish/word-scramble/sample-2.jpeg',
-        answerKeySrc: '/samples/danish/word-scramble/sample-2.jpeg',
-        altText: 'Arbejdsark til børn bogstavblanding - stavning opgaver til 1. klasse',
-        imageTitle: 'Arbejdsark til børn bogstavblanding',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/danish/word-scramble/sample-3.jpeg',
-        answerKeySrc: '/samples/danish/word-scramble/sample-3.jpeg',
-        altText: 'Gratis arbejdsark til børn - bogstavblanding med billeder',
-        imageTitle: 'Gratis arbejdsark til børn',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/danish/word-scramble/sample-4.jpeg',
-        answerKeySrc: '/samples/danish/word-scramble/sample-4.jpeg',
-        altText: 'Arbejdsark til børnehaveklasse - gratis bogstavblanding opgaver',
-        imageTitle: 'Arbejdsark til børnehaveklasse',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/danish/word-scramble/sample-5.jpeg',
-        answerKeySrc: '/samples/danish/word-scramble/sample-5.jpeg',
-        altText: 'Gratis printables bogstavblanding - læse og skrive arbejdsark',
-        imageTitle: 'Gratis printables bogstavblanding',
-      },
-    ],
+    items: [],
     
   },
 

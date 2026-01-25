@@ -19,39 +19,7 @@ export const wordScrambleNoContent: ProductPageContent = {
     description: 'Lag gratis arbeidsark med bokstavoppgaver for barn. Generer tilpassede oppgavehefter for lesetrening på under 3 minutter. Last ned PDF nå! Perfekt for lærere og foreldre.',
     keywords: 'bokstavoppgaver, gratis arbeidsark, lesetrening, bokstaver lære skrive, oppgavehefter barn, matematikk oppgaver, finmotorikk øvelser, tall og telling, fargeleggingsbilder barn, leseforståelse',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/bokstavoppgaver-arbeidsark',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/norwegian/word-scramble/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis arbeidsark bokstavoppgaver - lesetrening for barn i barneskolen'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/norwegian/word-scramble/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Bokstavoppgaver arbeidsark for barn - gratis utskrifter med bokstaver lære skrive'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/norwegian/word-scramble/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Arbeidsark for 1. trinn bokstavoppgaver - gratis arbeidsark for barn'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/norwegian/word-scramble/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis arbeidsark lesetrening - oppgavehefter barn med bokstavøvelser'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/norwegian/word-scramble/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis utskrifter bokstavoppgaver - arbeidsark for barn i 1. trinn'
-      },
-    ],
-  },
 
   // Hero Section - FULL text from word-scramble.md paragraphs 1-4
   hero: {
@@ -96,43 +64,7 @@ Bokstavoppgavene kan tilpasses fullstendig for alle aldersnivåer. Juster vanske
     noPdfLabel: 'Ingen PDF tilgjengelig',
     freePdfCountLabel: '3 gratis nedlastinger',
     ofLabel: 'av',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/norwegian/word-scramble/sample-1.jpeg',
-        answerKeySrc: '/samples/norwegian/word-scramble/sample-1.jpeg',
-        altText: 'Gratis arbeidsark bokstavoppgaver - lesetrening for barn i barneskolen',
-        imageTitle: 'Gratis arbeidsark bokstavoppgaver',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/norwegian/word-scramble/sample-2.jpeg',
-        answerKeySrc: '/samples/norwegian/word-scramble/sample-2.jpeg',
-        altText: 'Bokstavoppgaver arbeidsark for barn - gratis utskrifter med bokstaver lære skrive',
-        imageTitle: 'Bokstavoppgaver arbeidsark for barn',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/norwegian/word-scramble/sample-3.jpeg',
-        answerKeySrc: '/samples/norwegian/word-scramble/sample-3.jpeg',
-        altText: 'Arbeidsark for 1. trinn bokstavoppgaver - gratis arbeidsark for barn',
-        imageTitle: 'Arbeidsark for 1. trinn bokstavoppgaver',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/norwegian/word-scramble/sample-4.jpeg',
-        answerKeySrc: '/samples/norwegian/word-scramble/sample-4.jpeg',
-        altText: 'Gratis arbeidsark lesetrening - oppgavehefter barn med bokstavøvelser',
-        imageTitle: 'Gratis arbeidsark lesetrening',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/norwegian/word-scramble/sample-5.jpeg',
-        answerKeySrc: '/samples/norwegian/word-scramble/sample-5.jpeg',
-        altText: 'Gratis utskrifter bokstavoppgaver - arbeidsark for barn i 1. trinn',
-        imageTitle: 'Gratis utskrifter bokstavoppgaver',
-      },
-    ],
+    items: [],
     
   },
 

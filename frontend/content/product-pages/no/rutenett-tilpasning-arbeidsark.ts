@@ -19,21 +19,7 @@ export const gridMatchNoContent: ProductPageContent = {
     description: 'Lag profesjonelle rutenetttilpasning arbeidsark med vår visuell matching generator. Full Tilgang-abonnement gir deg ubegrenset tilgang til å lage.',
     keywords: 'rutenetttilpasning, arbeidsark gratis, visuell matching, oppgavehefter barn, matematikk oppgaver, finmotorikk øvelser, småskoletrinnet, barneskolen, romlig resonnering, visuell diskriminering',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/rutenett-tilpasning-arbeidsark',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/norwegian/grid match/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Rutenetttilpasning arbeidsark gratis - visuell matching gåte for barn og småskoletrinnet'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/norwegian/grid match/sample-2.jpeg',
-        width: 3508,
-        height: 2480,
-        caption: 'Gratis arbeidsark for barn - rutenetttilpasning landskapsformat for romlig resonnering'
-      }
-    ],
-  },
 
   // Hero Section - FULL text from grid-match.md paragraphs 1-3
   hero: {
@@ -76,22 +62,7 @@ Full Tilgang-abonnement gir deg tilgang til alle 33 arbeidsarkgeneratorer inklud
     noPdfLabel: 'Ingen PDF tilgjengelig',
     freePdfCountLabel: '3 gratis nedlastinger',
     ofLabel: 'av',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/norwegian/grid match/sample-1.jpeg',
-        answerKeySrc: '/samples/norwegian/grid match/sample-1.jpeg',
-        altText: 'Rutenetttilpasning arbeidsark gratis - visuell matching gåte for barn og småskoletrinnet',
-        imageTitle: 'Rutenetttilpasning arbeidsark gratis',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/norwegian/grid match/sample-2.jpeg',
-        answerKeySrc: '/samples/norwegian/grid match/sample-2.jpeg',
-        altText: 'Gratis arbeidsark for barn - rutenetttilpasning landskapsformat for romlig resonnering',
-        imageTitle: 'Gratis arbeidsark for barn',
-      },
-    ],
+    items: [],
     
   },
 

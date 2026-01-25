@@ -31,33 +31,7 @@ export const mathWorksheetsNlContent: ProductPageContent = {
     description: 'Maak een gratis werkblad voor kinderen met onze gebruiksvriendelijke generator. Met je Basispakket abonnement krijg je onbeperkte toegang tot alle functies.',
     keywords: 'rekenen werkbladen, werkbladen groep 3, werkbladen kleuters, sommen tot 20, oefenbladen gratis, tafels oefenen, veilig leren lezen, fijne motoriek, letters leren, kleurplaten',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/rekenen-werkbladen',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/math/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis werkblad rekenen - sommen tot 20 voor werkbladen groep 3',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/math/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis werkblad voor kinderen - rekenen werkbladen kleuters',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/math/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis werkbladen rekenen - oefenbladen gratis voor kleuters',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/math/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Werkblad voor kinderen - sommen tot 20 met afbeeldingen',
-      },
-    ],
-  },
 
   // Hero Section - FULL text from math-worksheet.md paragraphs 1-4
   hero: {
@@ -100,36 +74,7 @@ Met deze tool maak je werkbladen groep 3 in enkele minuten. De generator onderst
     badgeText: 'Gratis Voorbeelden',
     downloadingLabel: 'Downloaden...',
     ofLabel: 'van',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/dutch/math/sample-1.jpeg',
-        answerKeySrc: '/samples/dutch/math/sample-1.jpeg',
-        altText: 'Gratis werkblad rekenen - sommen tot 20 voor werkbladen groep 3',
-        imageTitle: 'Gratis werkblad rekenen',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/dutch/math/sample-2.jpeg',
-        answerKeySrc: '/samples/dutch/math/sample-2.jpeg',
-        altText: 'Gratis werkblad voor kinderen - rekenen werkbladen kleuters',
-        imageTitle: 'Gratis werkblad voor kinderen',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/dutch/math/sample-3.jpeg',
-        answerKeySrc: '/samples/dutch/math/sample-3.jpeg',
-        altText: 'Gratis werkbladen rekenen - oefenbladen gratis voor kleuters',
-        imageTitle: 'Gratis werkbladen rekenen',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/dutch/math/sample-4.jpeg',
-        answerKeySrc: '/samples/dutch/math/sample-4.jpeg',
-        altText: 'Werkblad voor kinderen - sommen tot 20 met afbeeldingen',
-        imageTitle: 'Werkblad voor kinderen',
-      },
-    ],
+    items: [],
     
   },
 

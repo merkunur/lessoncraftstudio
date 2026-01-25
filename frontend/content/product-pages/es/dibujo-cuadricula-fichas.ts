@@ -19,39 +19,7 @@ export const dibujoCuadriculaEsContent: ProductPageContent = {
     description: 'Crea fichas de dibujo en cuadrícula profesionales con nuestro generador. Perfecto para maestros de educación infantil que necesitan fichas para imprimir de.',
     keywords: 'fichas para imprimir, fichas infantil, fichas preescolar, dibujos para colorear, grafomotricidad, material educativo gratis, fichas gratis, cuadrícula',
     canonicalUrl: 'https://www.lessoncraftstudio.com/es/apps/dibujo-cuadricula-fichas',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/spanish/draw-and-color/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Ficha de dibujo en cuadrícula fichas gratis para imprimir - grafomotricidad para preescolar',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/spanish/draw-and-color/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Dibujos para colorear en cuadrícula fichas infantil - material educativo gratis educación infantil',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/spanish/draw-and-color/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Fichas para imprimir cuadrícula de dibujo - fichas preescolar grafomotricidad y lectoescritura',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/spanish/draw-and-color/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Cuadrícula de dibujo fichas gratis - desarrollo motricidad fina para niños preescolar',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/spanish/draw-and-color/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Dibujo en cuadrícula material educativo gratis - fichas infantil habilidades visual-espaciales',
-      },
-    ],
-  },
 
   // Hero Section - FULL text from draw-and-color.md paragraphs 1-3
   hero: {
@@ -94,43 +62,7 @@ Este generador funciona perfectamente para fichas de matemáticas y ejercicios d
     badgeText: 'Ejemplos',
     downloadingLabel: 'Descargando',
     ofLabel: 'de',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/spanish/draw-and-color/sample-1.jpeg',
-        answerKeySrc: '/samples/spanish/draw-and-color/sample-1.jpeg',
-        altText: 'Ficha de dibujo en cuadrícula fichas gratis para imprimir - grafomotricidad para preescolar',
-        imageTitle: 'Ficha de dibujo en cuadrícula fichas gratis para imprimir',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/spanish/draw-and-color/sample-2.jpeg',
-        answerKeySrc: '/samples/spanish/draw-and-color/sample-2.jpeg',
-        altText: 'Dibujos para colorear en cuadrícula fichas infantil - material educativo gratis educación infantil',
-        imageTitle: 'Dibujos para colorear en cuadrícula fichas infantil',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/spanish/draw-and-color/sample-3.jpeg',
-        answerKeySrc: '/samples/spanish/draw-and-color/sample-3.jpeg',
-        altText: 'Fichas para imprimir cuadrícula de dibujo - fichas preescolar grafomotricidad y lectoescritura',
-        imageTitle: 'Fichas para imprimir cuadrícula de dibujo',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/spanish/draw-and-color/sample-4.jpeg',
-        answerKeySrc: '/samples/spanish/draw-and-color/sample-4.jpeg',
-        altText: 'Cuadrícula de dibujo fichas gratis - desarrollo motricidad fina para niños preescolar',
-        imageTitle: 'Cuadrícula de dibujo fichas gratis',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/spanish/draw-and-color/sample-5.jpeg',
-        answerKeySrc: '/samples/spanish/draw-and-color/sample-5.jpeg',
-        altText: 'Dibujo en cuadrícula material educativo gratis - fichas infantil habilidades visual-espaciales',
-        imageTitle: 'Dibujo en cuadrícula material educativo gratis',
-      },
-    ],
+    items: [],
     
   },
 

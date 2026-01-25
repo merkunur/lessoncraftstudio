@@ -19,39 +19,7 @@ export const patternTrainEnContent: ProductPageContent = {
     description: 'Create free pattern train worksheets for kindergarten with our pattern recognition generator. Free printables with cut and paste activities. Download PDF.',
     keywords: 'pattern train worksheets, pattern recognition worksheets, kindergarten worksheets, free printable worksheets, first grade worksheets, math worksheets, pattern worksheets, cut and paste worksheets, free worksheets, worksheet for kids',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/pattern-train-worksheets',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/pattern-train/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Free printable pattern train worksheets for kindergarten - cut and paste pattern recognition activity',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/pattern-train/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Pattern train worksheet generator - AB and ABC pattern exercises for first grade',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/pattern-train/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Pattern worksheets kindergarten - free printable cut and paste pattern train activity',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/pattern-train/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Free pattern recognition worksheets - train pattern worksheet for preschool math',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/pattern-train/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Pattern train printable free - AABB pattern worksheet for kindergarten',
-      },
-    ],
-  },
 
   // Hero Section - FULL text from pattern-train.md paragraphs 1-4
   hero: {
@@ -82,43 +50,7 @@ Pattern worksheets help kindergarten students develop critical thinking skills a
     downloadLabel: 'Download Free Sample',
     worksheetLabel: 'Worksheet',
     answerKeyLabel: 'Answer Key',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/english/pattern-train/sample-1.jpeg',
-        answerKeySrc: '/samples/english/pattern-train/sample-1.jpeg',
-        altText: 'Free printable pattern train worksheets for kindergarten - cut and paste pattern recognition activity',
-        imageTitle: 'Free printable pattern train worksheets for kindergarten',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/english/pattern-train/sample-2.jpeg',
-        answerKeySrc: '/samples/english/pattern-train/sample-2.jpeg',
-        altText: 'Pattern train worksheet generator - AB and ABC pattern exercises for first grade',
-        imageTitle: 'Pattern train worksheet generator',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/english/pattern-train/sample-3.jpeg',
-        answerKeySrc: '/samples/english/pattern-train/sample-3.jpeg',
-        altText: 'Pattern worksheets kindergarten - free printable cut and paste pattern train activity',
-        imageTitle: 'Pattern worksheets kindergarten',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/english/pattern-train/sample-4.jpeg',
-        answerKeySrc: '/samples/english/pattern-train/sample-4.jpeg',
-        altText: 'Free pattern recognition worksheets - train pattern worksheet for preschool math',
-        imageTitle: 'Free pattern recognition worksheets',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/english/pattern-train/sample-5.jpeg',
-        answerKeySrc: '/samples/english/pattern-train/sample-5.jpeg',
-        altText: 'Pattern train printable free - AABB pattern worksheet for kindergarten',
-        imageTitle: 'Pattern train printable free',
-      },
-    ],
+    items: [],
     
   },
 

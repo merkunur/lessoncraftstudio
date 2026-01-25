@@ -21,39 +21,7 @@ export const cryptogramPtContent: ProductPageContent = {
     description: 'Crie atividades de criptograma com imagens profissionais em poucos minutos. Com sua assinatura Acesso Completo, você tem acesso ilimitado ao gerador de.',
     keywords: 'criptograma, atividades para imprimir, atividades de alfabetização, atividades educação infantil, atividades de matemática, desenhos para colorir, coordenação motora, atividades vogais, tabuada, letra cursiva, pontilhado, atividades 1º ano, atividades 2º ano',
     canonicalUrl: 'https://www.lessoncraftstudio.com/pt/apps/criptograma-imagens-fichas',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/cryptogram/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Atividade grátis de criptograma com imagens - alfabetização para educação infantil',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/cryptogram/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Atividades grátis de criptograma para crianças - decodificação de letras',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/cryptogram/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Imprimíveis grátis de criptograma - atividade para educação infantil',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/cryptogram/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Atividade para crianças grátis - criptograma com código de imagens',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/cryptogram/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Atividade grátis de criptograma para alfabetização - 1º e 2º ano',
-      },
-    ],
-  },
 
   // Hero Section
   hero: {
@@ -96,43 +64,7 @@ O gerador de criptograma oferece recursos exclusivos para educadores. Você esco
     badgeText: 'Exemplos Grátis',
     downloadingLabel: 'Baixando...',
     ofLabel: 'de',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/portuguese/cryptogram/sample-1.jpeg',
-        answerKeySrc: '/samples/portuguese/cryptogram/sample-1.jpeg',
-        altText: 'Atividade grátis de criptograma com imagens - alfabetização para educação infantil',
-        imageTitle: 'Atividade grátis de criptograma com imagens',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/portuguese/cryptogram/sample-2.jpeg',
-        answerKeySrc: '/samples/portuguese/cryptogram/sample-2.jpeg',
-        altText: 'Atividades grátis de criptograma para crianças - decodificação de letras',
-        imageTitle: 'Atividades grátis de criptograma para crianças',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/portuguese/cryptogram/sample-3.jpeg',
-        answerKeySrc: '/samples/portuguese/cryptogram/sample-3.jpeg',
-        altText: 'Imprimíveis grátis de criptograma - atividade para educação infantil',
-        imageTitle: 'Imprimíveis grátis de criptograma',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/portuguese/cryptogram/sample-4.jpeg',
-        answerKeySrc: '/samples/portuguese/cryptogram/sample-4.jpeg',
-        altText: 'Atividade para crianças grátis - criptograma com código de imagens',
-        imageTitle: 'Atividade para crianças grátis',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/portuguese/cryptogram/sample-5.jpeg',
-        answerKeySrc: '/samples/portuguese/cryptogram/sample-5.jpeg',
-        altText: 'Atividade grátis de criptograma para alfabetização - 1º e 2º ano',
-        imageTitle: 'Atividade grátis de criptograma para alfabetização',
-      },
-    ],
+    items: [],
     
   },
 

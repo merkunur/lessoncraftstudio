@@ -21,27 +21,7 @@ export const gridMatchPtContent: ProductPageContent = {
     description: 'Crie atividades de quebra-cabeça visual para seus alunos com o gerador Grid Match. Com sua assinatura Acesso Completo, você produz atividades para imprimir.',
     keywords: 'atividade gratis, atividade gratis para criancas, atividades gratis, imprimiveis gratis, atividade para criancas, atividade para educacao infantil, grid match, quebra-cabeça, atividades para imprimir, coordenação motora, atividades de alfabetização, atividades de matemática, desenhos para colorir, atividades 1º ano, atividades 2º ano',
     canonicalUrl: 'https://www.lessoncraftstudio.com/pt/apps/quebra-cabeca-grade-fichas',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/grid-match/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Atividade gratis de quebra-cabeca grid match - coordenacao motora para educacao infantil'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/grid-match/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Atividades gratis de grid match para criancas - percepcao visual e raciocinio espacial'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/grid-match/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Imprimiveis gratis de quebra-cabeca visual para atividade para educacao infantil'
-      }
-    ],
-  },
 
   // Hero Section
   hero: {
@@ -82,29 +62,7 @@ O Grid Match transforma qualquer imagem em um desafio pedagógico envolvente. Um
     badgeText: 'Exemplos Grátis',
     downloadingLabel: 'Baixando...',
     ofLabel: 'de',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/portuguese/grid-match/sample-1.jpeg',
-        answerKeySrc: '/samples/portuguese/grid-match/sample-1.jpeg',
-        altText: 'Atividade gratis de quebra-cabeca grid match - coordenacao motora para educacao infantil',
-        imageTitle: 'Atividade gratis de quebra-cabeca grid match',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/portuguese/grid-match/sample-2.jpeg',
-        answerKeySrc: '/samples/portuguese/grid-match/sample-2.jpeg',
-        altText: 'Atividades gratis de grid match para criancas - percepcao visual e raciocinio espacial',
-        imageTitle: 'Atividades gratis de grid match para criancas',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/portuguese/grid-match/sample-3.jpeg',
-        answerKeySrc: '/samples/portuguese/grid-match/sample-3.jpeg',
-        altText: 'Imprimiveis gratis de quebra-cabeca visual para atividade para educacao infantil',
-        imageTitle: 'Imprimiveis gratis de quebra-cabeca visual para atividade para educacao infantil',
-      },
-    ],
+    items: [],
     
   },
 

@@ -23,39 +23,7 @@ export const mathPuzzleItContent: ProductPageContent = {
     description: 'Crea schede gratuite puzzle matematici professionali con simboli e immagini. Stampabili gratuiti per scuola dell\'infanzia e primaria. Scheda gratuita per.',
     keywords: 'puzzle matematici, schede gratuite, scheda gratuita, stampabili gratuiti, scheda per bambini, scheda per scuola dell\'infanzia, schede didattiche matematica, schede didattiche scuola primaria, generatore puzzle matematici, classe prima, classe seconda, classe terza',
     canonicalUrl: 'https://www.lessoncraftstudio.com/it/apps/puzzle-matematici-schede',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/math-puzzle/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Scheda Gratuita Puzzle Matematici - Stampabili Gratuiti Scuola Primaria',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/math-puzzle/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Schede Gratuite Puzzle Matematici - Scheda per Bambini Addizione',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/math-puzzle/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Stampabili Gratuiti Puzzle Matematici - Scheda per Scuola dell\'Infanzia',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/math-puzzle/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Scheda Gratuita per Bambini - Puzzle Matematici Classe Prima',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/math-puzzle/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Schede Gratuite Matematica - Stampabili Gratuiti con Simboli',
-      },
-    ],
-  },
 
   // Hero Section
   hero: {
@@ -98,36 +66,7 @@ L'abbonamento Accesso Completo costa 240 euro all'anno o 25 euro al mese. Includ
     badgeText: 'Esempi Gratuiti',
     downloadingLabel: 'Scaricamento...',
     ofLabel: 'di',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/italian/math-puzzle/sample-1.jpeg',
-        answerKeySrc: '/samples/italian/math-puzzle/sample-1.jpeg',
-        altText: 'Scheda Gratuita Puzzle Matematici - Stampabili Gratuiti Scuola Primaria',
-        imageTitle: 'Scheda Gratuita Puzzle Matematici',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/italian/math-puzzle/sample-2.jpeg',
-        answerKeySrc: '/samples/italian/math-puzzle/sample-2.jpeg',
-        altText: 'Schede Gratuite Puzzle Matematici - Scheda per Bambini Addizione',
-        imageTitle: 'Schede Gratuite Puzzle Matematici',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/italian/math-puzzle/sample-4.jpeg',
-        answerKeySrc: '/samples/italian/math-puzzle/sample-4.jpeg',
-        altText: 'Scheda Gratuita per Bambini - Puzzle Matematici Classe Prima',
-        imageTitle: 'Scheda Gratuita per Bambini',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/italian/math-puzzle/sample-5.jpeg',
-        answerKeySrc: '/samples/italian/math-puzzle/sample-5.jpeg',
-        altText: 'Schede Gratuite Matematica - Stampabili Gratuiti con Simboli',
-        imageTitle: 'Schede Gratuite Matematica',
-      },
-    ],
+    items: [],
     
   },
 

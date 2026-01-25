@@ -18,39 +18,7 @@ export const chartCountEnContent: ProductPageContent = {
     title: 'Picture Graph Worksheets Free Printable | Kindergarten Math Generator',
     description: 'Create picture graph worksheets with our math worksheet generator. Free printable counting and graphing worksheets for kindergarten. Download PDF in 3 minutes.',
     keywords: 'picture graph worksheets, graphing worksheets, counting worksheets, math worksheets, kindergarten worksheets, free printable worksheets, data worksheets, bar graph worksheets, worksheet for kids, first grade worksheets',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/chart-count/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Free printable picture graph worksheets for kindergarten - counting and graphing activity with colorful images'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/chart-count/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Picture graph worksheet with answer key for first grade math data visualization practice'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/chart-count/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Math worksheets free printable - kindergarten graphing worksheet for counting and coloring'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/chart-count/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Free printable kindergarten picture graph worksheet - colorful counting activity with answer key'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/chart-count/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Picture graph worksheets for kids - data visualization and counting practice for first grade math'
-      }
-    ],
-    canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/chart-count-worksheets',
+        canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/chart-count-worksheets',
   },
 
   // Hero Section - FULL text from chart-count.md opening paragraphs
@@ -82,43 +50,7 @@ Every picture graph worksheet downloads as a professional 300 DPI file in PDF or
     downloadLabel: 'Download Free Sample',
     worksheetLabel: 'Worksheet',
     answerKeyLabel: 'Answer Key',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/english/chart-count/sample-1.jpeg',
-        answerKeySrc: '/samples/english/chart-count/sample-1.jpeg',
-        altText: 'Free printable picture graph worksheets for kindergarten - counting and graphing activity with colorful images',
-        imageTitle: 'Free printable picture graph worksheets for kindergarten',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/english/chart-count/sample-2.jpeg',
-        answerKeySrc: '/samples/english/chart-count/sample-2.jpeg',
-        altText: 'Picture graph worksheet with answer key for first grade math data visualization practice',
-        imageTitle: 'Picture graph worksheet with answer key for first grade math data visualization practice',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/english/chart-count/sample-3.jpeg',
-        answerKeySrc: '/samples/english/chart-count/sample-3.jpeg',
-        altText: 'Math worksheets free printable - kindergarten graphing worksheet for counting and coloring',
-        imageTitle: 'Math worksheets free printable',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/english/chart-count/sample-4.jpeg',
-        answerKeySrc: '/samples/english/chart-count/sample-4.jpeg',
-        altText: 'Free printable kindergarten picture graph worksheet - colorful counting activity with answer key',
-        imageTitle: 'Free printable kindergarten picture graph worksheet',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/english/chart-count/sample-5.jpeg',
-        answerKeySrc: '/samples/english/chart-count/sample-5.jpeg',
-        altText: 'Picture graph worksheets for kids - data visualization and counting practice for first grade math',
-        imageTitle: 'Picture graph worksheets for kids',
-      },
-    ],
+    items: [],
     
   },
 

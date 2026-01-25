@@ -30,39 +30,7 @@ export const patternWorksheetPtContent: ProductPageContent = {
     description: 'Crie atividades grátis de sequência e padrões profissionais com nosso gerador especializado. Atividade grátis para crianças com sua assinatura Acesso Completo.',
     keywords: 'atividade grátis, atividade grátis para crianças, atividades grátis, imprimíveis grátis, atividade para crianças, atividade para educação infantil, atividade, atividades de sequência, atividades para imprimir, coordenação motora, raciocínio lógico, padrões, fichas de padrões',
     canonicalUrl: 'https://www.lessoncraftstudio.com/pt/apps/fichas-padroes-sequencias',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/pattern/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Atividade grátis de padrões e sequências - raciocínio lógico para educação infantil'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/pattern/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Atividade grátis para crianças - padrões sequenciais com imagens coloridas'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/pattern/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Atividades grátis de sequência lógica - padrões visuais para pré-escola'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/pattern/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Atividade para crianças - fichas de padrões para imprimir grátis'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/pattern/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Imprimíveis grátis de padrões e sequências - atividade para educação infantil'
-      }
-    ]
-  },
 
   // Hero Section - FULL text from pattern-worksheet.md
   hero: {
@@ -105,43 +73,7 @@ O gerador inclui mais de 3000 imagens temáticas organizadas por categorias. Voc
     badgeText: 'Exemplos Grátis',
     downloadingLabel: 'Baixando...',
     ofLabel: 'de',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/portuguese/pattern/sample-1.jpeg',
-        answerKeySrc: '/samples/portuguese/pattern/sample-1.jpeg',
-        altText: 'Atividade grátis de padrões e sequências - raciocínio lógico para educação infantil',
-        imageTitle: 'Atividade grátis de padrões e sequências',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/portuguese/pattern/sample-2.jpeg',
-        answerKeySrc: '/samples/portuguese/pattern/sample-2.jpeg',
-        altText: 'Atividade grátis para crianças - padrões sequenciais com imagens coloridas',
-        imageTitle: 'Atividade grátis para crianças',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/portuguese/pattern/sample-3.jpeg',
-        answerKeySrc: '/samples/portuguese/pattern/sample-3.jpeg',
-        altText: 'Atividades grátis de sequência lógica - padrões visuais para pré-escola',
-        imageTitle: 'Atividades grátis de sequência lógica',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/portuguese/pattern/sample-4.jpeg',
-        answerKeySrc: '/samples/portuguese/pattern/sample-4.jpeg',
-        altText: 'Atividade para crianças - fichas de padrões para imprimir grátis',
-        imageTitle: 'Atividade para crianças',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/portuguese/pattern/sample-5.jpeg',
-        answerKeySrc: '/samples/portuguese/pattern/sample-5.jpeg',
-        altText: 'Imprimíveis grátis de padrões e sequências - atividade para educação infantil',
-        imageTitle: 'Imprimíveis grátis de padrões e sequências',
-      },
-    ],
+    items: [],
     
   },
 

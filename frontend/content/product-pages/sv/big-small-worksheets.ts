@@ -19,33 +19,7 @@ export const bigSmallSvContent: ProductPageContent = {
     description: 'Skapa professionella arbetsblad för att lära barn skilja på stort och litet. Generera anpassade matematik arbetsblad för storleksjämförelse på under 3 minuter.',
     keywords: 'arbetsblad gratis, stort och litet, storleksjämförelse, förskoleklass material, matematik arbetsblad, matte övningar, finmotorik övningar, målarbilder barn, siffror och tal',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/stort-litet-arbetsblad',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/big-small/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis arbetsblad stort och litet - storleksjämförelse förskoleklass material',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/big-small/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Arbetsblad gratis för barn - matematik arbetsblad storleksövningar',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/big-small/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Förskoleklass material gratis - stort och litet matte övningar',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/big-small/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis utskrifter storleksjämförelse - arbetsblad för förskoleklass',
-      },
-    ],
-  },
 
   // Hero Section - FULL text from big-small.md paragraphs 1-4
   hero: {
@@ -90,36 +64,7 @@ Förskoleklass material fokuserar på grundläggande storleksbegrepp. Elever i �
     badgeText: 'Gratis Exempel',
     downloadingLabel: 'Laddar ner...',
     ofLabel: 'av',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/swedish/big-small/sample-1.jpeg',
-        answerKeySrc: '/samples/swedish/big-small/sample-1.jpeg',
-        altText: 'Gratis arbetsblad stort och litet - storleksjämförelse förskoleklass material',
-        imageTitle: 'Gratis arbetsblad stort och litet',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/swedish/big-small/sample-2.jpeg',
-        answerKeySrc: '/samples/swedish/big-small/sample-2.jpeg',
-        altText: 'Arbetsblad gratis för barn - matematik arbetsblad storleksövningar',
-        imageTitle: 'Arbetsblad gratis för barn',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/swedish/big-small/sample-3.jpeg',
-        answerKeySrc: '/samples/swedish/big-small/sample-3.jpeg',
-        altText: 'Förskoleklass material gratis - stort och litet matte övningar',
-        imageTitle: 'Förskoleklass material gratis',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/swedish/big-small/sample-4.jpeg',
-        answerKeySrc: '/samples/swedish/big-small/sample-4.jpeg',
-        altText: 'Gratis utskrifter storleksjämförelse - arbetsblad för förskoleklass',
-        imageTitle: 'Gratis utskrifter storleksjämförelse',
-      },
-    ],
+    items: [],
     
   },
 

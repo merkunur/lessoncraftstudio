@@ -19,39 +19,7 @@ export const drawAndColorEnContent: ProductPageContent = {
     description: 'Create professional grid drawing coloring worksheets for kindergarten and first grade. Free printable worksheets with 3000+ images. Download PDF in 3 minutes.',
     keywords: 'coloring worksheets, grid drawing worksheets, free printable worksheets, kindergarten worksheets, first grade worksheets, free worksheets for kids, worksheet generator, printable coloring pages, visual-spatial worksheets, fine motor skills worksheets',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/draw-and-color-worksheets',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/draw-and-color/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Free printable grid drawing coloring worksheets for kindergarten visual-spatial skills',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/draw-and-color/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Grid drawing worksheet generator - coloring worksheets for fine motor development',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/draw-and-color/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Printable coloring pages for kids - free worksheet for kindergarten and first grade',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/draw-and-color/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Visual-spatial worksheets - free printables for fine motor skills practice',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/draw-and-color/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Free coloring worksheets for kids with grid drawing pattern recognition',
-      },
-    ],
-  },
 
   // Hero Section - FULL text from draw-and-color.md paragraphs 1-5
   hero: {
@@ -84,43 +52,7 @@ Every worksheet downloads as a professional 300 DPI PDF file. Print at home on s
     downloadLabel: 'Download Free Sample',
     worksheetLabel: 'Worksheet',
     answerKeyLabel: 'Answer Key',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/english/draw-and-color/sample-1.jpeg',
-        answerKeySrc: '/samples/english/draw-and-color/sample-1.jpeg',
-        altText: 'Free printable grid drawing coloring worksheets for kindergarten visual-spatial skills',
-        imageTitle: 'Free printable grid drawing coloring worksheets for kindergarten visual-spatial skills',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/english/draw-and-color/sample-2.jpeg',
-        answerKeySrc: '/samples/english/draw-and-color/sample-2.jpeg',
-        altText: 'Grid drawing worksheet generator - coloring worksheets for fine motor development',
-        imageTitle: 'Grid drawing worksheet generator',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/english/draw-and-color/sample-3.jpeg',
-        answerKeySrc: '/samples/english/draw-and-color/sample-3.jpeg',
-        altText: 'Printable coloring pages for kids - free worksheet for kindergarten and first grade',
-        imageTitle: 'Printable coloring pages for kids',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/english/draw-and-color/sample-4.jpeg',
-        answerKeySrc: '/samples/english/draw-and-color/sample-4.jpeg',
-        altText: 'Visual-spatial worksheets - free printables for fine motor skills practice',
-        imageTitle: 'Visual-spatial worksheets',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/english/draw-and-color/sample-5.jpeg',
-        answerKeySrc: '/samples/english/draw-and-color/sample-5.jpeg',
-        altText: 'Free coloring worksheets for kids with grid drawing pattern recognition',
-        imageTitle: 'Free coloring worksheets for kids with grid drawing pattern recognition',
-      },
-    ],
+    items: [],
     
   },
 

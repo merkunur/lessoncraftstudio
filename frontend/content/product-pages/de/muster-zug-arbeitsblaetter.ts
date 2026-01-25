@@ -33,39 +33,7 @@ export const patternTrainDeContent: ProductPageContent = {
     description: 'Muster-Zug Arbeitsblätter in 3 Minuten erstellen. 5 Mustertypen, 3000+ Bilder, 300 DPI. Perfekt für Vorschule und Grundschule. Jetzt testen! Perfekt für Lehrer und Eltern.',
     keywords: 'muster zug arbeitsblätter, arbeitsblätter grundschule, kostenlose arbeitsblätter, mathe arbeitsblätter, vorschule arbeitsblätter, einmaleins, schwungübungen, buchstaben lernen, rechnen lernen, ausmalbilder',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/muster-zug-arbeitsblaetter',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/pattern-train/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Muster-Zug Arbeitsblatt Hochformat - Kostenlose Arbeitsblätter für Arbeitsblätter Grundschule und Vorschule',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/pattern-train/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Muster-Zug Arbeitsblatt Querformat - Kostenlose Arbeitsblätter für Mathe Arbeitsblätter',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/pattern-train/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Muster-Zug Lösungsblatt Hochformat - Arbeitsblätter Grundschule mit Antworten',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/pattern-train/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Muster Zug Arbeitsblatt kostenlos - Muster erkennen Übung für Kindergarten',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/pattern-train/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Mustererkennung Arbeitsblatt - ABC Muster Übung für Vorschule',
-      },
-    ],
-  },
 
   // Hero Section - FULL text from muster-zug.md
   hero: {
@@ -108,43 +76,7 @@ Dieses Lernwerkzeug verbindet Mustererkennung mit praktischem Basteln. Die ferti
     badgeText: 'Kostenlose Beispiele',
     downloadingLabel: 'Wird heruntergeladen...',
     ofLabel: 'von',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/german/pattern-train/sample-1.jpeg',
-        answerKeySrc: '/samples/german/pattern-train/sample-1.jpeg',
-        altText: 'Muster-Zug Arbeitsblatt Hochformat - Kostenlose Arbeitsblätter für Arbeitsblätter Grundschule und Vorschule',
-        imageTitle: 'Muster-Zug Arbeitsblatt Hochformat',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/german/pattern-train/sample-2.jpeg',
-        answerKeySrc: '/samples/german/pattern-train/sample-2.jpeg',
-        altText: 'Muster-Zug Arbeitsblatt Querformat - Kostenlose Arbeitsblätter für Mathe Arbeitsblätter',
-        imageTitle: 'Muster-Zug Arbeitsblatt Querformat',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/german/pattern-train/sample-3.jpeg',
-        answerKeySrc: '/samples/german/pattern-train/sample-3.jpeg',
-        altText: 'Muster-Zug Lösungsblatt Hochformat - Arbeitsblätter Grundschule mit Antworten',
-        imageTitle: 'Muster-Zug Lösungsblatt Hochformat',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/german/pattern-train/sample-4.jpeg',
-        answerKeySrc: '/samples/german/pattern-train/sample-4.jpeg',
-        altText: 'Muster Zug Arbeitsblatt kostenlos - Muster erkennen Übung für Kindergarten',
-        imageTitle: 'Muster Zug Arbeitsblatt kostenlos',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/german/pattern-train/sample-5.jpeg',
-        answerKeySrc: '/samples/german/pattern-train/sample-5.jpeg',
-        altText: 'Mustererkennung Arbeitsblatt - ABC Muster Übung für Vorschule',
-        imageTitle: 'Mustererkennung Arbeitsblatt',
-      },
-    ],
+    items: [],
     
   },
 

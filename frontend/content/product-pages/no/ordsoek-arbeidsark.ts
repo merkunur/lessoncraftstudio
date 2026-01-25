@@ -19,33 +19,7 @@ export const wordSearchNoContent: ProductPageContent = {
     description: 'Lag profesjonelle ordgåter med vår ordgåte generator. Verktøyet er gratis å bruke for personlig bruk. Last ned høykvalitets PDF-arbeidsark på under 3 minutter.',
     keywords: 'ordgåte generator, arbeidsark gratis, lesetrening, bokstaver lære skrive, oppgavehefter barn, finmotorikk øvelser, tall og telling, matematikk oppgaver, fargeleggingsbilder barn, norsk barneskole',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/ordsoek-arbeidsark',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/norwegian/wordsearch/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis arbeidsark ordsoek - norsk ordgate ovelse for barn i barneskolen'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/norwegian/wordsearch/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Ordsoek arbeidsark for barn - gratis utskrifter med lesetrening aktiviteter'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/norwegian/wordsearch/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Arbeidsark for 1. trinn ordsoek - gratis arbeidsark for bokstaver lare skrive'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/norwegian/wordsearch/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis arbeidsark ordgate generator - norsk lesetrening for barneskolen'
-      },
-    ],
-  },
 
   // Hero Section - FULL text from wordsearch.md paragraphs 1-3
   hero: {
@@ -88,36 +62,7 @@ Generer ubegrenset antall ordgåter uten kostnad per arbeidsark. Bruk for matema
     noPdfLabel: 'Ingen PDF tilgjengelig',
     freePdfCountLabel: '3 gratis nedlastinger',
     ofLabel: 'av',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/norwegian/wordsearch/sample-1.jpeg',
-        answerKeySrc: '/samples/norwegian/wordsearch/sample-1.jpeg',
-        altText: 'Gratis arbeidsark ordsoek - norsk ordgate ovelse for barn i barneskolen',
-        imageTitle: 'Gratis arbeidsark ordsoek',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/norwegian/wordsearch/sample-2.jpeg',
-        answerKeySrc: '/samples/norwegian/wordsearch/sample-2.jpeg',
-        altText: 'Ordsoek arbeidsark for barn - gratis utskrifter med lesetrening aktiviteter',
-        imageTitle: 'Ordsoek arbeidsark for barn',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/norwegian/wordsearch/sample-3.jpeg',
-        answerKeySrc: '/samples/norwegian/wordsearch/sample-3.jpeg',
-        altText: 'Arbeidsark for 1. trinn ordsoek - gratis arbeidsark for bokstaver lare skrive',
-        imageTitle: 'Arbeidsark for 1. trinn ordsoek',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/norwegian/wordsearch/sample-4.jpeg',
-        answerKeySrc: '/samples/norwegian/wordsearch/sample-4.jpeg',
-        altText: 'Gratis arbeidsark ordgate generator - norsk lesetrening for barneskolen',
-        imageTitle: 'Gratis arbeidsark ordgate generator',
-      },
-    ],
+    items: [],
     
   },
 

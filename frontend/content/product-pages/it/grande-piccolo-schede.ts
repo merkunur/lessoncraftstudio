@@ -21,33 +21,7 @@ export const bigSmallItContent: ProductPageContent = {
     description: 'Crea schede gratuite grande piccolo per bambini. Generatore stampabili gratuiti confronto dimensioni scuola infanzia. Scarica scheda gratuita in 3 minuti!',
     keywords: 'schede didattiche grande piccolo, schede scuola infanzia, confronto dimensioni, schede matematica, pregrafismo, schede didattiche scuola primaria, discriminazione visiva, schede italiano classe prima, disegni da colorare, numeri da stampare',
     canonicalUrl: 'https://www.lessoncraftstudio.com/it/apps/grande-piccolo-schede',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/big-small/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Scheda gratuita grande piccolo per bambini - confronto dimensioni scuola infanzia'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/big-small/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Schede gratuite grande piccolo immagini diverse - stampabili gratuiti scuola infanzia'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/big-small/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Scheda per bambini ordinamento grande piccolo - scheda gratuita scuola primaria'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/big-small/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Stampabili gratuiti grande piccolo medio - schede gratuite scuola dell\'infanzia'
-      }
-    ],
-  },
 
   // Hero Section
   hero: {
@@ -90,29 +64,7 @@ Ogni scheda didattica si scarica in formato PDF o JPEG di alta qualità professi
     badgeText: 'Esempi Gratuiti',
     downloadingLabel: 'Scaricamento...',
     ofLabel: 'di',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/italian/big-small/sample-1.jpeg',
-        answerKeySrc: '/samples/italian/big-small/sample-1.jpeg',
-        altText: 'Scheda gratuita grande piccolo per bambini - confronto dimensioni scuola infanzia',
-        imageTitle: 'Scheda gratuita grande piccolo per bambini',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/italian/big-small/sample-2.jpeg',
-        answerKeySrc: '/samples/italian/big-small/sample-2.jpeg',
-        altText: 'Schede gratuite grande piccolo immagini diverse - stampabili gratuiti scuola infanzia',
-        imageTitle: 'Schede gratuite grande piccolo immagini diverse',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/italian/big-small/sample-3.jpeg',
-        answerKeySrc: '/samples/italian/big-small/sample-3.jpeg',
-        altText: 'Scheda per bambini ordinamento grande piccolo - scheda gratuita scuola primaria',
-        imageTitle: 'Scheda per bambini ordinamento grande piccolo',
-      },
-    ],
+    items: [],
     
   },
 

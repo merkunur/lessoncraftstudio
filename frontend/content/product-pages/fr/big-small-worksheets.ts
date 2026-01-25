@@ -21,39 +21,7 @@ export const bigSmallFrContent: ProductPageContent = {
     description: 'Créez des fiches grand petit gratuites en 3 minutes. Exercices de comparaison de tailles pour maternelle et CP. 3000+ images, corrigé automatique, PDF 300 DPI.',
     keywords: 'fiches grand et petit, fiches maternelle, fiches à imprimer gratuit, exercices CP, exercices CE1, exercices maths, graphisme maternelle, coloriage à imprimer, apprendre à lire, comparaison de tailles',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fr/apps/grand-petit-fiches',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/french/big-small/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Fiche grand et petit gratuite - exercice comparaison de tailles pour maternelle'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/french/big-small/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Fiche gratuite pour enfants - fiches de comparaison grand petit pour CP'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/french/big-small/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Fiches gratuites grand petit - classement par taille avec numerotation'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/french/big-small/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Imprimables gratuits comparaison de tailles - graphisme maternelle'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/french/big-small/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Fiche pour maternelle - exercices grand petit discrimination visuelle'
-      }
-    ],
-  },
 
   // Hero Section - FULL text from big-small.md paragraphs 1-3
   hero: {
@@ -96,43 +64,7 @@ Les fiches de comparaison de tailles conviennent parfaitement aux classes de mat
     badgeText: 'Exemples Gratuits',
     downloadingLabel: 'Téléchargement...',
     ofLabel: 'sur',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/french/big-small/sample-1.jpeg',
-        answerKeySrc: '/samples/french/big-small/sample-1.jpeg',
-        altText: 'Fiche grand et petit gratuite - exercice comparaison de tailles pour maternelle',
-        imageTitle: 'Fiche grand et petit gratuite',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/french/big-small/sample-2.jpeg',
-        answerKeySrc: '/samples/french/big-small/sample-2.jpeg',
-        altText: 'Fiche gratuite pour enfants - fiches de comparaison grand petit pour CP',
-        imageTitle: 'Fiche gratuite pour enfants',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/french/big-small/sample-3.jpeg',
-        answerKeySrc: '/samples/french/big-small/sample-3.jpeg',
-        altText: 'Fiches gratuites grand petit - classement par taille avec numerotation',
-        imageTitle: 'Fiches gratuites grand petit',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/french/big-small/sample-4.jpeg',
-        answerKeySrc: '/samples/french/big-small/sample-4.jpeg',
-        altText: 'Imprimables gratuits comparaison de tailles - graphisme maternelle',
-        imageTitle: 'Imprimables gratuits comparaison de tailles',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/french/big-small/sample-5.jpeg',
-        answerKeySrc: '/samples/french/big-small/sample-5.jpeg',
-        altText: 'Fiche pour maternelle - exercices grand petit discrimination visuelle',
-        imageTitle: 'Fiche pour maternelle',
-      },
-    ],
+    items: [],
     
   },
 

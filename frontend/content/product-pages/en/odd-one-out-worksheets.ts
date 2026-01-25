@@ -40,39 +40,7 @@ The odd one out generator creates worksheets for any subject or theme. Choose fr
     description: 'Create free odd one out worksheets for kindergarten visual discrimination. Generate printable critical thinking worksheets for kids. Download PDF in 3 minutes.',
     keywords: 'odd one out worksheets, visual discrimination worksheets, critical thinking worksheets, categorization worksheets, logic worksheets, kindergarten worksheets, first grade worksheets, free printable worksheets, worksheet generator, printable worksheets',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/odd-one-out-worksheets',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/odd-one-out/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Free odd one out worksheets for kindergarten - visual discrimination activity with themed categorization exercises',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/odd-one-out/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Odd one out worksheet printable - critical thinking puzzles for kids with identical mode logic exercises',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/odd-one-out/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Free printable odd one out worksheets - categorization worksheet for preschool visual learning',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/odd-one-out/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Odd one out printable free - critical thinking worksheets for kindergarten logic practice',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/odd-one-out/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Which one is different worksheet - free odd one out puzzles for kids visual discrimination',
-      },
-    ],
-  },
 
   // Sample Gallery - REAL file paths from samples/english/odd-one-out/
   samples: {
@@ -80,43 +48,7 @@ The odd one out generator creates worksheets for any subject or theme. Choose fr
     downloadLabel: 'Download Free Sample',
     worksheetLabel: 'Worksheet',
     answerKeyLabel: 'Answer Key',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/english/odd-one-out/sample-1.jpeg',
-        answerKeySrc: '/samples/english/odd-one-out/sample-1.jpeg',
-        altText: 'Free odd one out worksheets for kindergarten - visual discrimination activity with themed categorization exercises',
-        imageTitle: 'Free odd one out worksheets for kindergarten',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/english/odd-one-out/sample-2.jpeg',
-        answerKeySrc: '/samples/english/odd-one-out/sample-2.jpeg',
-        altText: 'Odd one out worksheet printable - critical thinking puzzles for kids with identical mode logic exercises',
-        imageTitle: 'Odd one out worksheet printable',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/english/odd-one-out/sample-3.jpeg',
-        answerKeySrc: '/samples/english/odd-one-out/sample-3.jpeg',
-        altText: 'Free printable odd one out worksheets - categorization worksheet for preschool visual learning',
-        imageTitle: 'Free printable odd one out worksheets',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/english/odd-one-out/sample-4.jpeg',
-        answerKeySrc: '/samples/english/odd-one-out/sample-4.jpeg',
-        altText: 'Odd one out printable free - critical thinking worksheets for kindergarten logic practice',
-        imageTitle: 'Odd one out printable free',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/english/odd-one-out/sample-5.jpeg',
-        answerKeySrc: '/samples/english/odd-one-out/sample-5.jpeg',
-        altText: 'Which one is different worksheet - free odd one out puzzles for kids visual discrimination',
-        imageTitle: 'Which one is different worksheet',
-      },
-    ],
+    items: [],
     
   },
 

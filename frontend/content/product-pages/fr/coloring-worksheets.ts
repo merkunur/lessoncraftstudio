@@ -19,39 +19,7 @@ export const coloringFrContent: ProductPageContent = {
     description: 'Créez des coloriages personnalisés avec 3000+ images. Générateur de fiches maternelle gratuit en PDF 300 DPI. Parfait pour enseignants et parents. Parfait pour enseignants et parents.',
     keywords: 'coloriage à imprimer, fiches maternelle, graphisme maternelle, fiches à imprimer gratuit, exercices CP, exercices CE1, coloriage enfant, générateur coloriage, coloriage maternelle, pages de coloriage',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fr/apps/coloriage-fiches',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/french/coloring/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Coloriage à imprimer gratuit - fiche maternelle portrait avec scène thématique pour enfants'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/french/coloring/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Fiches à imprimer gratuit - coloriage éducatif pour exercices CP et graphisme maternelle'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/french/coloring/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Coloriage enfant personnalisé - fiche maternelle avec images adaptées aux petits'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/french/coloring/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Générateur coloriage - fiches maternelle thématiques pour apprendre les lettres'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/french/coloring/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Pages de coloriage imprimables - exercices CE1 et graphisme maternelle en PDF 300 DPI'
-      },
-    ],
-  },
 
   // Hero Section - FULL text from coloring.md paragraphs 1-3
   hero: {
@@ -94,43 +62,7 @@ Le créateur de coloriage fonctionne en 11 langues. Parfait pour les classes bil
     badgeText: 'Exemples Gratuits',
     downloadingLabel: 'Téléchargement...',
     ofLabel: 'sur',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/french/coloring/sample-1.jpeg',
-        answerKeySrc: '/samples/french/coloring/sample-1.jpeg',
-        altText: 'Coloriage à imprimer gratuit - fiche maternelle portrait avec scène thématique pour enfants',
-        imageTitle: 'Coloriage à imprimer gratuit',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/french/coloring/sample-2.jpeg',
-        answerKeySrc: '/samples/french/coloring/sample-2.jpeg',
-        altText: 'Fiches à imprimer gratuit - coloriage éducatif pour exercices CP et graphisme maternelle',
-        imageTitle: 'Fiches à imprimer gratuit',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/french/coloring/sample-3.jpeg',
-        answerKeySrc: '/samples/french/coloring/sample-3.jpeg',
-        altText: 'Coloriage enfant personnalisé - fiche maternelle avec images adaptées aux petits',
-        imageTitle: 'Coloriage enfant personnalisé',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/french/coloring/sample-4.jpeg',
-        answerKeySrc: '/samples/french/coloring/sample-4.jpeg',
-        altText: 'Générateur coloriage - fiches maternelle thématiques pour apprendre les lettres',
-        imageTitle: 'Générateur coloriage',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/french/coloring/sample-5.jpeg',
-        answerKeySrc: '/samples/french/coloring/sample-5.jpeg',
-        altText: 'Pages de coloriage imprimables - exercices CE1 et graphisme maternelle en PDF 300 DPI',
-        imageTitle: 'Pages de coloriage imprimables',
-      },
-    ],
+    items: [],
     
   },
 

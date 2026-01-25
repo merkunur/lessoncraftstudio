@@ -21,39 +21,7 @@ export const gridMatchFrContent: ProductPageContent = {
     description: 'Créez des fiches puzzle grille gratuites avec notre générateur. PDF haute qualité en 3 minutes. Parfait pour maternelle et CP. Essayez maintenant ! Parfait pour enseignants et parents.',
     keywords: 'fiches maternelle, exercices CP, graphisme maternelle, coloriage à imprimer, apprendre à lire, exercices maths, alphabet, tables de multiplication, fiches à imprimer gratuit, écriture cursive',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fr/apps/puzzle-grille-fiches',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/french/grid-match/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Fiche gratuite puzzle grille pour discrimination visuelle et raisonnement spatial',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/french/grid-match/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Fiches gratuites puzzle grille pour exercices CP et graphisme maternelle',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/french/grid-match/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Fiche pour maternelle puzzle grille avec imprimables gratuits',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/french/grid-match/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Fiche pour enfants puzzle grille combinant exercices maths et graphisme',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/french/grid-match/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Imprimables gratuits puzzle grille pour fiches maternelle et exercices CP',
-      },
-    ],
-  },
 
   // Hero Section - FULL text from grid-match.md paragraphs 1-3
   hero: {
@@ -96,43 +64,7 @@ Les enseignants adorent les fiches puzzle grille car elles combinent plaisir et 
     badgeText: 'Exemples Gratuits',
     downloadingLabel: 'Téléchargement...',
     ofLabel: 'sur',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/french/grid-match/sample-1.jpeg',
-        answerKeySrc: '/samples/french/grid-match/sample-1.jpeg',
-        altText: 'Fiche gratuite puzzle grille pour discrimination visuelle et raisonnement spatial',
-        imageTitle: 'Fiche gratuite puzzle grille pour discrimination visuelle et raisonnement spatial',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/french/grid-match/sample-2.jpeg',
-        answerKeySrc: '/samples/french/grid-match/sample-2.jpeg',
-        altText: 'Fiches gratuites puzzle grille pour exercices CP et graphisme maternelle',
-        imageTitle: 'Fiches gratuites puzzle grille pour exercices CP et graphisme maternelle',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/french/grid-match/sample-3.jpeg',
-        answerKeySrc: '/samples/french/grid-match/sample-3.jpeg',
-        altText: 'Fiche pour maternelle puzzle grille avec imprimables gratuits',
-        imageTitle: 'Fiche pour maternelle puzzle grille avec imprimables gratuits',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/french/grid-match/sample-4.jpeg',
-        answerKeySrc: '/samples/french/grid-match/sample-4.jpeg',
-        altText: 'Fiche pour enfants puzzle grille combinant exercices maths et graphisme',
-        imageTitle: 'Fiche pour enfants puzzle grille combinant exercices maths et graphisme',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/french/grid-match/sample-5.jpeg',
-        answerKeySrc: '/samples/french/grid-match/sample-5.jpeg',
-        altText: 'Imprimables gratuits puzzle grille pour fiches maternelle et exercices CP',
-        imageTitle: 'Imprimables gratuits puzzle grille pour fiches maternelle et exercices CP',
-      },
-    ],
+    items: [],
     
   },
 

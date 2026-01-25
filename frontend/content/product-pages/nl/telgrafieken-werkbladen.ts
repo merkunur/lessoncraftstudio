@@ -31,21 +31,7 @@ export const chartCountNlContent: ProductPageContent = {
     description: 'Maak professionele telgrafieken werkbladen met onze werkbladen generator. Met je Volledige Toegang abonnement maak je onbeperkt werkbladen zonder extra kosten.',
     keywords: 'telgrafieken werkbladen, werkbladen groep 3, werkbladen kleuters, rekenen werkbladen, oefenbladen gratis, kleurplaten, letters leren, schrijven oefenen, tafels oefenen, veilig leren lezen, fijne motoriek, sommen tot 20',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/telgrafieken-werkbladen',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/chart-count/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Telgrafieken werkblad - gratis werkblad voor kinderen met rekenen oefeningen',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/chart-count/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis werkbladen voor kleuters - telgrafieken werkbladen met sommen tot 20',
-      },
-    ],
-  },
 
   // Hero Section - FULL text from chart-count.md paragraphs 1-4
   hero: {
@@ -86,22 +72,7 @@ Telgrafieken zijn perfecte rekenen werkbladen voor werkbladen groep 3 en werkbla
     badgeText: 'Gratis Voorbeelden',
     downloadingLabel: 'Downloaden...',
     ofLabel: 'van',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/dutch/chart-count/sample-1.jpeg',
-        answerKeySrc: '/samples/dutch/chart-count/sample-1.jpeg',
-        altText: 'Telgrafieken werkblad - gratis werkblad voor kinderen met rekenen oefeningen',
-        imageTitle: 'Telgrafieken werkblad',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/dutch/chart-count/sample-2.jpeg',
-        answerKeySrc: '/samples/dutch/chart-count/sample-2.jpeg',
-        altText: 'Gratis werkbladen voor kleuters - telgrafieken werkbladen met sommen tot 20',
-        imageTitle: 'Gratis werkbladen voor kleuters',
-      },
-    ],
+    items: [],
     
   },
 

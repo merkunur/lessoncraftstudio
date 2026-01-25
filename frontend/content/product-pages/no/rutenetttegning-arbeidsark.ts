@@ -19,39 +19,7 @@ export const drawAndColorNoContent: ProductPageContent = {
     description: 'Lag profesjonelle rutenetttegning arbeidsark med vår grid drawing generator. Generer tilpassede fargeleggingsbilder barn perfekt for barnehage og 1.-3. trinn.',
     keywords: 'rutenetttegning, fargeleggingsbilder barn, arbeidsark gratis, finmotorikk øvelser, barnehage, matematikk oppgaver, tall og telling, oppgavehefter barn, bokstaver lære skrive, lesetrening',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/rutenetttegning-arbeidsark',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/norwegian/draw-and-color/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Rutenetttegning arbeidsark gratis for barn - finmotorikk øvelser barnehage'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/norwegian/draw-and-color/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis arbeidsark rutenetttegning - visuospatiale ferdigheter for 1. trinn'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/norwegian/draw-and-color/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Arbeidsark for barn rutenetttegning - symmetriøvelser gratis utskrifter'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/norwegian/draw-and-color/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Rutenetttegning gratis arbeidsark for barn - kopieringsøvelser småskole'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/norwegian/draw-and-color/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis arbeidsark rutenetttegning - finmotorikk arbeidsark for 1. trinn'
-      }
-    ],
-  },
 
   // Hero Section - FULL text from draw-and-color.md paragraphs 1-4
   hero: {
@@ -96,43 +64,7 @@ Rutenetttegning arbeidsark forbereder barn for koordinatsystemer i matematikk. P
     noPdfLabel: 'Ingen PDF tilgjengelig',
     freePdfCountLabel: '3 gratis nedlastinger',
     ofLabel: 'av',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/norwegian/draw-and-color/sample-1.jpeg',
-        answerKeySrc: '/samples/norwegian/draw-and-color/sample-1.jpeg',
-        altText: 'Rutenetttegning arbeidsark gratis for barn - finmotorikk øvelser barnehage',
-        imageTitle: 'Rutenetttegning arbeidsark gratis for barn',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/norwegian/draw-and-color/sample-2.jpeg',
-        answerKeySrc: '/samples/norwegian/draw-and-color/sample-2.jpeg',
-        altText: 'Gratis arbeidsark rutenetttegning - visuospatiale ferdigheter for 1. trinn',
-        imageTitle: 'Gratis arbeidsark rutenetttegning',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/norwegian/draw-and-color/sample-3.jpeg',
-        answerKeySrc: '/samples/norwegian/draw-and-color/sample-3.jpeg',
-        altText: 'Arbeidsark for barn rutenetttegning - symmetriøvelser gratis utskrifter',
-        imageTitle: 'Arbeidsark for barn rutenetttegning',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/norwegian/draw-and-color/sample-4.jpeg',
-        answerKeySrc: '/samples/norwegian/draw-and-color/sample-4.jpeg',
-        altText: 'Rutenetttegning gratis arbeidsark for barn - kopieringsøvelser småskole',
-        imageTitle: 'Rutenetttegning gratis arbeidsark for barn',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/norwegian/draw-and-color/sample-5.jpeg',
-        answerKeySrc: '/samples/norwegian/draw-and-color/sample-5.jpeg',
-        altText: 'Gratis arbeidsark rutenetttegning - finmotorikk arbeidsark for 1. trinn',
-        imageTitle: 'Gratis arbeidsark rutenetttegning',
-      },
-    ],
+    items: [],
     
   },
 

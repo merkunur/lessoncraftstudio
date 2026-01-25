@@ -19,21 +19,7 @@ export const mathWorksheetsSvContent: ProductPageContent = {
     description: 'Skapa gratis arbetsblad för barn med vår matematik generator. Perfekt för förskoleklass - ladda ner professionella matte övningar som PDF på 3 minuter.',
     keywords: 'matematik arbetsblad, arbetsblad gratis, matte övningar, förskoleklass material, addition och subtraktion, siffror och tal, multiplikationstabellen, klockan lära sig, bokstäver lära sig, målarbilder barn, finmotorik övningar, gratis arbetsblad för barn, gratis utskrifter, arbetsblad för barn',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/matematik-arbetsblad',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/math/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Matematik arbetsblad gratis - porträttformat övningar för förskoleklass och lågstadiet'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/math/sample-2.jpeg',
-        width: 3508,
-        height: 2480,
-        caption: 'Gratis arbetsblad för barn - landskapsformat matte övningar för förskoleklass'
-      },
-    ],
-  },
 
   // Hero Section - FULL text from math-worksheet.md paragraphs 1-4
   hero: {
@@ -78,22 +64,7 @@ Grundpaketsprenumerationen kostar 144 dollar per år eller 15 dollar per månad.
     badgeText: 'Gratis Exempel',
     downloadingLabel: 'Laddar ner...',
     ofLabel: 'av',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/swedish/math/sample-1.jpeg',
-        answerKeySrc: '/samples/swedish/math/sample-1.jpeg',
-        altText: 'Matematik arbetsblad gratis - porträttformat övningar för förskoleklass och lågstadiet',
-        imageTitle: 'Matematik arbetsblad gratis',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/swedish/math/sample-2.jpeg',
-        answerKeySrc: '/samples/swedish/math/sample-2.jpeg',
-        altText: 'Gratis arbetsblad för barn - landskapsformat matte övningar för förskoleklass',
-        imageTitle: 'Gratis arbetsblad för barn',
-      },
-    ],
+    items: [],
     
   },
 

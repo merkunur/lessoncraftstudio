@@ -19,33 +19,7 @@ export const chartCountNoContent: ProductPageContent = {
     description: 'Lag gratis arbeidsark for bildediagram og telling. Ubegrenset tilgang til matematikk oppgaver for barnehage og 1. trinn. Last ned PDF på 3 minutter. Perfekt for lærere og foreldre.',
     keywords: 'bildediagram arbeidsark, tall og telling, matematikk oppgaver, arbeidsark gratis, oppgavehefter barn, finmotorikk øvelser, barnehage, småskoletrinnet, fargeleggingsbilder barn, gangetabellen',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/bildediagram-arbeidsark',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/norwegian/chart-count/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis arbeidsark bildediagram for barnehage - tall og telling matematikk oppgaver'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/norwegian/chart-count/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis arbeidsark for barn - bildediagram med finmotorikk øvelser for 1. trinn'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/norwegian/chart-count/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Arbeidsark for 1. trinn gratis - bildediagram telling og grafisk fremstilling'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/norwegian/chart-count/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis utskrifter bildediagram - arbeidsark for barn med tall og telling'
-      },
-    ],
-  },
 
   // Hero Section - FULL text from chart-count.md paragraphs 1-4
   hero: {
@@ -90,36 +64,7 @@ Verktøyet passer perfekt til barnehage og 1.-3. trinn. Elevene øver både tell
     noPdfLabel: 'Ingen PDF tilgjengelig',
     freePdfCountLabel: '2 gratis nedlastinger',
     ofLabel: 'av',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/norwegian/chart-count/sample-1.jpeg',
-        answerKeySrc: '/samples/norwegian/chart-count/sample-1.jpeg',
-        altText: 'Gratis arbeidsark bildediagram for barnehage - tall og telling matematikk oppgaver',
-        imageTitle: 'Gratis arbeidsark bildediagram for barnehage',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/norwegian/chart-count/sample-2.jpeg',
-        answerKeySrc: '/samples/norwegian/chart-count/sample-2.jpeg',
-        altText: 'Gratis arbeidsark for barn - bildediagram med finmotorikk øvelser for 1. trinn',
-        imageTitle: 'Gratis arbeidsark for barn',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/norwegian/chart-count/sample-3.jpeg',
-        answerKeySrc: '/samples/norwegian/chart-count/sample-3.jpeg',
-        altText: 'Arbeidsark for 1. trinn gratis - bildediagram telling og grafisk fremstilling',
-        imageTitle: 'Arbeidsark for 1. trinn gratis',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/norwegian/chart-count/sample-4.jpeg',
-        answerKeySrc: '/samples/norwegian/chart-count/sample-4.jpeg',
-        altText: 'Gratis utskrifter bildediagram - arbeidsark for barn med tall og telling',
-        imageTitle: 'Gratis utskrifter bildediagram',
-      },
-    ],
+    items: [],
     
   },
 

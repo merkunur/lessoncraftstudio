@@ -19,39 +19,7 @@ export const crosswordDaContent: ProductPageContent = {
     description: 'Lav professionelle krydsord opgaver til print med billeder som visuelle ledetråde. Perfekt til lære bogstaver, læse og skrive øvelser, og stavning i.',
     keywords: 'krydsord arbejdsark, gratis arbejdsark, gratis arbejdsark til børn, arbejdsark til børn, arbejdsark til børnehaveklasse, gratis printables, krydsord generator, printklare opgaver, dansk skoleopgaver',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/krydsord-arbejdsark',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/danish/crossword/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Krydsord gratis arbejdsark - arbejdsark til børn med billeder som ledetråde til børnehaveklasse'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/danish/crossword/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis arbejdsark til børn - krydsord med visuelle billedledetråde til stavning øvelser'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/danish/crossword/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Arbejdsark til børnehaveklasse - gratis printables krydsord med tematiske billeder'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/danish/crossword/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis printables - arbejdsark til børn med krydsord og ordforråd øvelser'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/danish/crossword/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Arbejdsark til børn - gratis arbejdsark krydsord generator til børnehaveklasse'
-      },
-    ],
-  },
 
   // Hero Section - FULL text from crossword.md paragraphs 1-3
   hero: {
@@ -94,43 +62,7 @@ Fuld Adgang-abonnement koster 240 USD om året eller 25 USD per måned. Du får 
     noPdfLabel: 'Ingen PDF tilgængelig',
     freePdfCountLabel: '2 gratis downloads',
     ofLabel: 'af',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/danish/crossword/sample-1.jpeg',
-        answerKeySrc: '/samples/danish/crossword/sample-1.jpeg',
-        altText: 'Krydsord gratis arbejdsark - arbejdsark til børn med billeder som ledetråde til børnehaveklasse',
-        imageTitle: 'Krydsord gratis arbejdsark',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/danish/crossword/sample-2.jpeg',
-        answerKeySrc: '/samples/danish/crossword/sample-2.jpeg',
-        altText: 'Gratis arbejdsark til børn - krydsord med visuelle billedledetråde til stavning øvelser',
-        imageTitle: 'Gratis arbejdsark til børn',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/danish/crossword/sample-3.jpeg',
-        answerKeySrc: '/samples/danish/crossword/sample-3.jpeg',
-        altText: 'Arbejdsark til børnehaveklasse - gratis printables krydsord med tematiske billeder',
-        imageTitle: 'Arbejdsark til børnehaveklasse',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/danish/crossword/sample-4.jpeg',
-        answerKeySrc: '/samples/danish/crossword/sample-4.jpeg',
-        altText: 'Gratis printables - arbejdsark til børn med krydsord og ordforråd øvelser',
-        imageTitle: 'Gratis printables',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/danish/crossword/sample-5.jpeg',
-        answerKeySrc: '/samples/danish/crossword/sample-5.jpeg',
-        altText: 'Arbejdsark til børn - gratis arbejdsark krydsord generator til børnehaveklasse',
-        imageTitle: 'Arbejdsark til børn',
-      },
-    ],
+    items: [],
     
   },
 

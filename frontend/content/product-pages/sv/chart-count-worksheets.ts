@@ -19,39 +19,7 @@ export const chartCountSvContent: ProductPageContent = {
     description: 'Skapa gratis arbetsblad för barn med diagram och bildräkning. Gratis utskrifter för förskoleklass med siffror och tal. Ladda ner arbetsblad PDF på 3 minuter.',
     keywords: 'gratis arbetsblad, gratis arbetsblad för barn, gratis utskrifter, arbetsblad för barn, arbetsblad för förskoleklass, arbetsblad, diagram arbetsblad, bildräkning',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/diagram-rakning-arbetsblad',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/chart-count/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis arbetsblad diagram med bildräkning - matematik arbetsblad förskoleklass material',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/chart-count/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Arbetsblad gratis för barn - stapeldiagram siffror och tal övningar',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/chart-count/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis utskrifter bildräkning - arbetsblad för förskoleklass material',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/chart-count/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Arbetsblad för barn diagram räkning - matte övningar gratis',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/chart-count/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Förskoleklass material gratis - finmotorik övningar diagram arbetsblad',
-      },
-    ],
-  },
 
   // Hero Section - FULL text from chart-count.md paragraphs 1-4
   hero: {
@@ -96,43 +64,7 @@ Dessa diagram fungerar utmärkt som matematik arbetsblad för förskoleklass mat
     badgeText: 'Gratis Exempel',
     downloadingLabel: 'Laddar ner...',
     ofLabel: 'av',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/swedish/chart-count/sample-1.jpeg',
-        answerKeySrc: '/samples/swedish/chart-count/sample-1.jpeg',
-        altText: 'Gratis arbetsblad diagram med bildräkning - matematik arbetsblad förskoleklass material',
-        imageTitle: 'Gratis arbetsblad diagram med bildräkning',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/swedish/chart-count/sample-2.jpeg',
-        answerKeySrc: '/samples/swedish/chart-count/sample-2.jpeg',
-        altText: 'Arbetsblad gratis för barn - stapeldiagram siffror och tal övningar',
-        imageTitle: 'Arbetsblad gratis för barn',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/swedish/chart-count/sample-3.jpeg',
-        answerKeySrc: '/samples/swedish/chart-count/sample-3.jpeg',
-        altText: 'Gratis utskrifter bildräkning - arbetsblad för förskoleklass material',
-        imageTitle: 'Gratis utskrifter bildräkning',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/swedish/chart-count/sample-4.jpeg',
-        answerKeySrc: '/samples/swedish/chart-count/sample-4.jpeg',
-        altText: 'Arbetsblad för barn diagram räkning - matte övningar gratis',
-        imageTitle: 'Arbetsblad för barn diagram räkning',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/swedish/chart-count/sample-5.jpeg',
-        answerKeySrc: '/samples/swedish/chart-count/sample-5.jpeg',
-        altText: 'Förskoleklass material gratis - finmotorik övningar diagram arbetsblad',
-        imageTitle: 'Förskoleklass material gratis',
-      },
-    ],
+    items: [],
     
   },
 

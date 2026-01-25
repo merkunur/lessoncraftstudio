@@ -19,39 +19,7 @@ export const wordGuessDaContent: ProductPageContent = {
     description: 'Lav gratis arbejdsark til børn med gæt-ordet stavningsopgaver. Arbejdsark til børnehaveklasse og 0. klasse. Download gratis arbejdsark som PDF. 5 eksempler.',
     keywords: 'gæt ordet arbejdsark, gratis arbejdsark, gratis arbejdsark til børn, arbejdsark til børn, arbejdsark til børnehaveklasse, gratis printables, stavning øvelser, lære bogstaver',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/gaet-ordet-arbejdsark',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/danish/word-guess/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gæt ordet gratis arbejdsark - stavningsøvelser til børnehaveklasse'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/danish/word-guess/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis arbejdsark til børn - gæt ordet ordforråd praksis'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/danish/word-guess/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Arbejdsark til børnehaveklasse - lære bogstaver med billedgæt'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/danish/word-guess/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis arbejdsark - skriv bogstaver øvelser til 0. klasse'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/danish/word-guess/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Arbejdsark til børn - gæt ordet opgaver til 1. klasse'
-      }
-    ],
-  },
 
   // Hero Section - FULL text from word-guess.md paragraphs 1-3
   hero: {
@@ -94,43 +62,7 @@ Generatoren fungerer på 11 sprog inklusiv dansk, engelsk, tysk og fransk. Tilpa
     noPdfLabel: 'Ingen PDF tilgængelig',
     freePdfCountLabel: '3 gratis downloads',
     ofLabel: 'af',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/danish/word-guess/sample-1.jpeg',
-        answerKeySrc: '/samples/danish/word-guess/sample-1.jpeg',
-        altText: 'Gæt ordet gratis arbejdsark - stavningsøvelser til børnehaveklasse',
-        imageTitle: 'Gæt ordet gratis arbejdsark',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/danish/word-guess/sample-2.jpeg',
-        answerKeySrc: '/samples/danish/word-guess/sample-2.jpeg',
-        altText: 'Gratis arbejdsark til børn - gæt ordet ordforråd praksis',
-        imageTitle: 'Gratis arbejdsark til børn',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/danish/word-guess/sample-3.jpeg',
-        answerKeySrc: '/samples/danish/word-guess/sample-3.jpeg',
-        altText: 'Arbejdsark til børnehaveklasse - lære bogstaver med billedgæt',
-        imageTitle: 'Arbejdsark til børnehaveklasse',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/danish/word-guess/sample-4.jpeg',
-        answerKeySrc: '/samples/danish/word-guess/sample-4.jpeg',
-        altText: 'Gratis arbejdsark - skriv bogstaver øvelser til 0. klasse',
-        imageTitle: 'Gratis arbejdsark',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/danish/word-guess/sample-5.jpeg',
-        answerKeySrc: '/samples/danish/word-guess/sample-5.jpeg',
-        altText: 'Arbejdsark til børn - gæt ordet opgaver til 1. klasse',
-        imageTitle: 'Arbejdsark til børn',
-      },
-    ],
+    items: [],
     
   },
 

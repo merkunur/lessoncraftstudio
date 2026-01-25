@@ -31,39 +31,7 @@ export const wordScrambleNlContent: ProductPageContent = {
     description: 'Maak in enkele klikken professionele woordkruisels voor je leerlingen. Deze woordkruisel generator is perfect voor leerkrachten in het basisonderwijs.',
     keywords: 'woordkruisel generator, werkbladen groep 3, werkbladen kleuters, oefenbladen gratis, fijne motoriek, letters leren, schrijven oefenen, rekenen werkbladen, veilig leren lezen, sommen tot 20, tafels oefenen',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/woordkruisel-werkbladen',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/word-scramble/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis werkblad woordkruisel - werkbladen groep 3 voor letters leren',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/word-scramble/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis werkbladen voor kinderen - woordkruisel met werkbladen kleuters',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/word-scramble/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis printables woordkruisel - werkblad voor kleuters met fijne motoriek',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/word-scramble/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Werkblad voor kinderen woordkruisel - oefenbladen gratis kwaliteit',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/word-scramble/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis werkblad voor kinderen - woordkruisel werkbladen groep 3',
-      },
-    ],
-  },
 
   // Hero Section - FULL text from word-scramble.md paragraphs 1-4
   hero: {
@@ -106,43 +74,7 @@ Bij een woordkruisel zien kinderen een afbeelding met daaronder de letters van h
     badgeText: 'Gratis Voorbeelden',
     downloadingLabel: 'Downloaden...',
     ofLabel: 'van',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/dutch/word-scramble/sample-1.jpeg',
-        answerKeySrc: '/samples/dutch/word-scramble/sample-1.jpeg',
-        altText: 'Gratis werkblad woordkruisel - werkbladen groep 3 voor letters leren',
-        imageTitle: 'Gratis werkblad woordkruisel',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/dutch/word-scramble/sample-2.jpeg',
-        answerKeySrc: '/samples/dutch/word-scramble/sample-2.jpeg',
-        altText: 'Gratis werkbladen voor kinderen - woordkruisel met werkbladen kleuters',
-        imageTitle: 'Gratis werkbladen voor kinderen',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/dutch/word-scramble/sample-3.jpeg',
-        answerKeySrc: '/samples/dutch/word-scramble/sample-3.jpeg',
-        altText: 'Gratis printables woordkruisel - werkblad voor kleuters met fijne motoriek',
-        imageTitle: 'Gratis printables woordkruisel',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/dutch/word-scramble/sample-4.jpeg',
-        answerKeySrc: '/samples/dutch/word-scramble/sample-4.jpeg',
-        altText: 'Werkblad voor kinderen woordkruisel - oefenbladen gratis kwaliteit',
-        imageTitle: 'Werkblad voor kinderen woordkruisel',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/dutch/word-scramble/sample-5.jpeg',
-        answerKeySrc: '/samples/dutch/word-scramble/sample-5.jpeg',
-        altText: 'Gratis werkblad voor kinderen - woordkruisel werkbladen groep 3',
-        imageTitle: 'Gratis werkblad voor kinderen',
-      },
-    ],
+    items: [],
     
   },
 

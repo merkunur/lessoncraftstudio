@@ -21,39 +21,7 @@ export const oddOneOutItContent: ProductPageContent = {
     description: 'Crea schede gratuite trova l\'intruso con il nostro generatore. Stampabili gratuiti per discriminazione visiva. Scheda gratuita per bambini e scheda per scuola.',
     keywords: 'trova l\'intruso, schede gratuite, scheda gratuita, stampabili gratuiti, scheda per bambini, scheda per scuola dell\'infanzia, discriminazione visiva, ragionamento logico',
     canonicalUrl: 'https://www.lessoncraftstudio.com/it/apps/trova-intruso-schede',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/odd-one-out/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Scheda Gratuita Trova l\'Intruso - Stampabili Gratuiti Scuola Primaria',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/odd-one-out/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Schede Gratuite Trova l\'Intruso - Scheda per Bambini Discriminazione Visiva',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/odd-one-out/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Stampabili Gratuiti Trova l\'Intruso - Scheda per Scuola dell\'Infanzia',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/odd-one-out/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Scheda Gratuita per Bambini - Trova l\'Intruso Ragionamento Logico',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/odd-one-out/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Schede Gratuite Discriminazione Visiva - Stampabili Gratuiti Trova l\'Intruso',
-      },
-    ],
-  },
 
   // Hero Section
   hero: {

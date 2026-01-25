@@ -22,33 +22,7 @@ export const matchingEsContent: ProductPageContent = {
     description: 'Crea fichas de relacionar profesionales con nuestro generador gratuito. Fichas para imprimir personalizadas para preescolar y primaria. Descarga PDF en 3 min.',
     keywords: 'fichas para imprimir, fichas preescolar, fichas infantil, material educativo gratis, relacionar columnas, grafomotricidad, lectoescritura, abecedario, fichas de matemáticas, tablas de multiplicar',
     canonicalUrl: 'https://www.lessoncraftstudio.com/es/apps/relacionar-fichas',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/spanish/matching/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Ficha de relacionar imagen con letra - ficha gratis para preescolar',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/spanish/matching/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Ficha de relacionar imagen con palabra - fichas gratis para lectoescritura',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/spanish/matching/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Ficha de relacionar columnas - ficha para niños con grafomotricidad',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/spanish/matching/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Ficha de relacionar personalizada - imprimibles gratis de matemáticas',
-      },
-    ],
-  },
 
   // Hero Section - FULL text from matching.md paragraphs 1-6
   hero: {
@@ -97,36 +71,7 @@ El generador incluye soporte para 11 idiomas. Perfecto para clases bilingües de
     badgeText: 'Ejemplos Gratis',
     downloadingLabel: 'Descargando...',
     ofLabel: 'de',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/spanish/matching/sample-1.jpeg',
-        answerKeySrc: '/samples/spanish/matching/sample-1.jpeg',
-        altText: 'Ficha de relacionar imagen con letra - ficha gratis para preescolar',
-        imageTitle: 'Ficha de relacionar imagen con letra',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/spanish/matching/sample-2.jpeg',
-        answerKeySrc: '/samples/spanish/matching/sample-2.jpeg',
-        altText: 'Ficha de relacionar imagen con palabra - fichas gratis para lectoescritura',
-        imageTitle: 'Ficha de relacionar imagen con palabra',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/spanish/matching/sample-3.jpeg',
-        answerKeySrc: '/samples/spanish/matching/sample-3.jpeg',
-        altText: 'Ficha de relacionar columnas - ficha para niños con grafomotricidad',
-        imageTitle: 'Ficha de relacionar columnas',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/spanish/matching/sample-4.jpeg',
-        answerKeySrc: '/samples/spanish/matching/sample-4.jpeg',
-        altText: 'Ficha de relacionar personalizada - imprimibles gratis de matemáticas',
-        imageTitle: 'Ficha de relacionar personalizada',
-      },
-    ],
+    items: [],
     
   },
 

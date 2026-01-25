@@ -22,33 +22,7 @@ export const picturePathSvContent: ProductPageContent = {
     description: 'Skapa gratis arbetsblad för barn med vår bildlabyrint generator. Perfekt arbetsblad för förskoleklass och finmotorik övningar. Ladda ner PDF på 3 min.',
     keywords: 'arbetsblad gratis, bildlabyrint, förskoleklass material, matematik arbetsblad, matte övningar, finmotorik övningar, multiplikationstabellen, siffror och tal, klockan lära sig, addition och subtraktion, målarbilder barn, bokstäver lära sig, skriva bokstäver',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/bildlabyrint-arbetsblad',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/picture-path/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Bildlabyrint gratis arbetsblad för förskoleklass - finmotorik övningar visuell problemlösning'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/picture-path/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis arbetsblad bildlabyrint - arbetsblad för barn matte övningar'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/picture-path/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Arbetsblad för förskoleklass bildlabyrint - gratis utskrifter matematik arbetsblad'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/picture-path/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Bildlabyrint arbetsblad för barn - gratis arbetsblad siffror och tal'
-      },
-    ],
-  },
 
   // Hero Section - FULL text from picture-path.md paragraphs 1-4
   hero: {
@@ -93,36 +67,7 @@ Bildlabyrint generatorn stöder svenska och tio andra språk. Bildnamn visas på
     badgeText: 'Gratis Exempel',
     downloadingLabel: 'Laddar ner...',
     ofLabel: 'av',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/swedish/picture-path/sample-1.jpeg',
-        answerKeySrc: '/samples/swedish/picture-path/sample-1.jpeg',
-        altText: 'Bildlabyrint gratis arbetsblad för förskoleklass - finmotorik övningar visuell problemlösning',
-        imageTitle: 'Bildlabyrint gratis arbetsblad för förskoleklass',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/swedish/picture-path/sample-2.jpeg',
-        answerKeySrc: '/samples/swedish/picture-path/sample-2.jpeg',
-        altText: 'Gratis arbetsblad bildlabyrint - arbetsblad för barn matte övningar',
-        imageTitle: 'Gratis arbetsblad bildlabyrint',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/swedish/picture-path/sample-3.jpeg',
-        answerKeySrc: '/samples/swedish/picture-path/sample-3.jpeg',
-        altText: 'Arbetsblad för förskoleklass bildlabyrint - gratis utskrifter matematik arbetsblad',
-        imageTitle: 'Arbetsblad för förskoleklass bildlabyrint',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/swedish/picture-path/sample-4.jpeg',
-        answerKeySrc: '/samples/swedish/picture-path/sample-4.jpeg',
-        altText: 'Bildlabyrint arbetsblad för barn - gratis arbetsblad siffror och tal',
-        imageTitle: 'Bildlabyrint arbetsblad för barn',
-      },
-    ],
+    items: [],
     
   },
 

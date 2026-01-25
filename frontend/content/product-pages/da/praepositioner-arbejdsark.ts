@@ -19,33 +19,7 @@ export const prepositionsDaContent: ProductPageContent = {
     description: 'Lav gratis arbejdsark med præpositioner til børn. Generator til opgaver med rumlig læring for børnehaveklasse og 0. klasse. Download PDF på 3 minutter.',
     keywords: 'præpositioner arbejdsark, gratis skoleopgaver, opgaver til print, 0 klasse opgaver, 1 klasse undervisning, rumlig læring, sprogudvikling, præpositions-generator, kopiark, finmotorik øvelser',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/praepositioner-arbejdsark',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/danish/prepositions/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis præpositioner arbejdsark til print - rumlig læring opgave til børnehaveklasse'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/danish/prepositions/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis arbejdsark med præpositioner til børn - sprogudvikling øvelse til 0. klasse'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/danish/prepositions/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Præpositions arbejdsark gratis til print - finmotorik øvelser til 1. klasse'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/danish/prepositions/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis præpositioner opgaver til print - arbejdsark til børnehaveklassen'
-      },
-    ],
-  },
 
   // Hero Section - FULL text from prepositions.md paragraphs 1-3
   hero: {
@@ -88,36 +62,7 @@ Fuld Adgang abonnementet koster $240 om året eller $25 om måneden. Dit abonnem
     noPdfLabel: 'Ingen PDF tilgængelig',
     freePdfCountLabel: '2 gratis downloads',
     ofLabel: 'af',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/danish/prepositions/sample-1.jpeg',
-        answerKeySrc: '/samples/danish/prepositions/sample-1.jpeg',
-        altText: 'Gratis præpositioner arbejdsark til print - rumlig læring opgave til børnehaveklasse',
-        imageTitle: 'Gratis præpositioner arbejdsark til print',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/danish/prepositions/sample-2.jpeg',
-        answerKeySrc: '/samples/danish/prepositions/sample-2.jpeg',
-        altText: 'Gratis arbejdsark med præpositioner til børn - sprogudvikling øvelse til 0. klasse',
-        imageTitle: 'Gratis arbejdsark med præpositioner til børn',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/danish/prepositions/sample-3.jpeg',
-        answerKeySrc: '/samples/danish/prepositions/sample-3.jpeg',
-        altText: 'Præpositions arbejdsark gratis til print - finmotorik øvelser til 1. klasse',
-        imageTitle: 'Præpositions arbejdsark gratis til print',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/danish/prepositions/sample-4.jpeg',
-        answerKeySrc: '/samples/danish/prepositions/sample-4.jpeg',
-        altText: 'Gratis præpositioner opgaver til print - arbejdsark til børnehaveklassen',
-        imageTitle: 'Gratis præpositioner opgaver til print',
-      },
-    ],
+    items: [],
     
   },
 

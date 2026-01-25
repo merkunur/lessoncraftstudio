@@ -21,39 +21,7 @@ export const drawAndColorPtContent: ProductPageContent = {
     description: 'Crie atividades de desenho em grade com nosso gerador profissional. Sua assinatura Acesso Completo oferece criação ilimitada de fichas sem taxas por atividade.',
     keywords: 'atividades para imprimir, desenhos para colorir, educação infantil, coordenação motora, atividades de matemática, 1º ano, 2º ano, pontilhado, tabuada, atividades de alfabetização, atividades vogais, letra cursiva',
     canonicalUrl: 'https://www.lessoncraftstudio.com/pt/apps/desenho-grade-fichas',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/draw-and-color/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Atividade gratis de desenho em grade - coordenacao motora para educacao infantil'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/draw-and-color/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Atividades gratis de desenho em grade para criancas - imprimiveis gratis'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/draw-and-color/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Atividade para criancas de colorir em grade - atividade gratis para educacao infantil'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/draw-and-color/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Atividade gratis para criancas de desenho em grade com coordenacao motora'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/draw-and-color/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Imprimiveis gratis de desenho em grade - atividades gratis para criancas'
-      }
-    ],
-  },
 
   // Hero Section
   hero: {
@@ -96,43 +64,7 @@ As atividades de desenho em grade combinam arte com matemática básica. Enquant
     badgeText: 'Exemplos Grátis',
     downloadingLabel: 'Baixando...',
     ofLabel: 'de',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/portuguese/draw-and-color/sample-1.jpeg',
-        answerKeySrc: '/samples/portuguese/draw-and-color/sample-1.jpeg',
-        altText: 'Atividade gratis de desenho em grade - coordenacao motora para educacao infantil',
-        imageTitle: 'Atividade gratis de desenho em grade',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/portuguese/draw-and-color/sample-2.jpeg',
-        answerKeySrc: '/samples/portuguese/draw-and-color/sample-2.jpeg',
-        altText: 'Atividades gratis de desenho em grade para criancas - imprimiveis gratis',
-        imageTitle: 'Atividades gratis de desenho em grade para criancas',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/portuguese/draw-and-color/sample-3.jpeg',
-        answerKeySrc: '/samples/portuguese/draw-and-color/sample-3.jpeg',
-        altText: 'Atividade para criancas de colorir em grade - atividade gratis para educacao infantil',
-        imageTitle: 'Atividade para criancas de colorir em grade',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/portuguese/draw-and-color/sample-4.jpeg',
-        answerKeySrc: '/samples/portuguese/draw-and-color/sample-4.jpeg',
-        altText: 'Atividade gratis para criancas de desenho em grade com coordenacao motora',
-        imageTitle: 'Atividade gratis para criancas de desenho em grade com coordenacao motora',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/portuguese/draw-and-color/sample-5.jpeg',
-        answerKeySrc: '/samples/portuguese/draw-and-color/sample-5.jpeg',
-        altText: 'Imprimiveis gratis de desenho em grade - atividades gratis para criancas',
-        imageTitle: 'Imprimiveis gratis de desenho em grade',
-      },
-    ],
+    items: [],
     
   },
 

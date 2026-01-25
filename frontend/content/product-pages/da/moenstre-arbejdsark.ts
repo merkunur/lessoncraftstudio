@@ -21,39 +21,7 @@ export const patternWorksheetDaContent: ProductPageContent = {
     description: 'Lav mønstergenkendelses gratis arbejdsark til børn med vores professionelle generator. Ubegrænset arbejdsark til børnehaveklasse. Download gratis printables.',
     keywords: 'mønstergenkendelse, gratis arbejdsark, arbejdsark til børn, arbejdsark til børnehaveklasse, gratis printables, opgaver til print, matematikopgaver, 0. klasse, 1. klasse, mønstre, kopiark',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/moenstre-arbejdsark',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/danish/pattern/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Mønster gratis arbejdsark - mønsteropgave arbejdsark til børn for børnehaveklasse'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/danish/pattern/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Mønster arbejdsark til børnehaveklasse - gratis printables med mønstergenkendelse'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/danish/pattern/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis arbejdsark mønster - arbejdsark til børn med mønsteropgaver til 0. klasse'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/danish/pattern/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Arbejdsark til børnehaveklasse - mønster gratis printables med matematikøvelser'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/danish/pattern/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Opgaver til print mønster - gratis arbejdsark med mønstergenkendelse til børn'
-      },
-    ],
-  },
 
   // Hero Section - OPTIMIZED with keywords
   hero: {
@@ -96,43 +64,7 @@ Børn kan øve sig med to forskellige opgavetyper. Første type er tom boks hvor
     noPdfLabel: 'Ingen PDF tilgængelig',
     freePdfCountLabel: '5 gratis downloads',
     ofLabel: 'af',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/danish/pattern/sample-1.jpeg',
-        answerKeySrc: '/samples/danish/pattern/sample-1.jpeg',
-        altText: 'Mønster gratis arbejdsark - mønsteropgave arbejdsark til børn for børnehaveklasse',
-        imageTitle: 'Mønster gratis arbejdsark',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/danish/pattern/sample-2.jpeg',
-        answerKeySrc: '/samples/danish/pattern/sample-2.jpeg',
-        altText: 'Mønster arbejdsark til børnehaveklasse - gratis printables med mønstergenkendelse',
-        imageTitle: 'Mønster arbejdsark til børnehaveklasse',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/danish/pattern/sample-3.jpeg',
-        answerKeySrc: '/samples/danish/pattern/sample-3.jpeg',
-        altText: 'Gratis arbejdsark mønster - arbejdsark til børn med mønsteropgaver til 0. klasse',
-        imageTitle: 'Gratis arbejdsark mønster',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/danish/pattern/sample-4.jpeg',
-        answerKeySrc: '/samples/danish/pattern/sample-4.jpeg',
-        altText: 'Arbejdsark til børnehaveklasse - mønster gratis printables med matematikøvelser',
-        imageTitle: 'Arbejdsark til børnehaveklasse',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/danish/pattern/sample-5.jpeg',
-        answerKeySrc: '/samples/danish/pattern/sample-5.jpeg',
-        altText: 'Opgaver til print mønster - gratis arbejdsark med mønstergenkendelse til børn',
-        imageTitle: 'Opgaver til print mønster',
-      },
-    ],
+    items: [],
     
   },
 

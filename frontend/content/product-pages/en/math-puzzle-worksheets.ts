@@ -19,39 +19,7 @@ export const mathPuzzleEnContent: ProductPageContent = {
     description: 'Create free math puzzle worksheets for kindergarten and first grade with our worksheet generator. Download printable math worksheets PDF in 3 minutes.',
     keywords: 'math puzzle worksheets, math worksheets, free printable worksheets, kindergarten worksheets, first grade worksheets, addition worksheets, free worksheet for kids, math puzzle generator, printable math activities, worksheet for kindergarten',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/math-puzzle-worksheets',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/math-puzzle/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Free math puzzle worksheets for kindergarten - printable addition grid worksheet for kids'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/math-puzzle/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Math puzzle worksheets free printable - subtraction practice worksheet for first grade students'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/math-puzzle/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Free worksheets for kids - mixed operations math puzzle for kindergarten and first grade'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/math-puzzle/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Free printables math puzzle worksheet - visual addition practice for kindergarten kids'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/math-puzzle/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Worksheet for kindergarten math puzzle - free worksheet for kids with colorful images'
-      }
-    ]
-  },
 
   // Hero Section - FULL text from math-puzzle.md
   hero: {
@@ -82,43 +50,7 @@ The puzzles use familiar images children love. Select from our 3000+ image libra
     downloadLabel: 'Download Free Sample',
     worksheetLabel: 'Worksheet',
     answerKeyLabel: 'Answer Key',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/english/math-puzzle/sample-1.jpeg',
-        answerKeySrc: '/samples/english/math-puzzle/sample-1.jpeg',
-        altText: 'Free math puzzle worksheets for kindergarten - printable addition grid worksheet for kids',
-        imageTitle: 'Free math puzzle worksheets for kindergarten',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/english/math-puzzle/sample-2.jpeg',
-        answerKeySrc: '/samples/english/math-puzzle/sample-2.jpeg',
-        altText: 'Math puzzle worksheets free printable - subtraction practice worksheet for first grade students',
-        imageTitle: 'Math puzzle worksheets free printable',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/english/math-puzzle/sample-3.jpeg',
-        answerKeySrc: '/samples/english/math-puzzle/sample-3.jpeg',
-        altText: 'Free worksheets for kids - mixed operations math puzzle for kindergarten and first grade',
-        imageTitle: 'Free worksheets for kids',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/english/math-puzzle/sample-4.jpeg',
-        answerKeySrc: '/samples/english/math-puzzle/sample-4.jpeg',
-        altText: 'Free printables math puzzle worksheet - visual addition practice for kindergarten kids',
-        imageTitle: 'Free printables math puzzle worksheet',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/english/math-puzzle/sample-5.jpeg',
-        answerKeySrc: '/samples/english/math-puzzle/sample-5.jpeg',
-        altText: 'Worksheet for kindergarten math puzzle - free worksheet for kids with colorful images',
-        imageTitle: 'Worksheet for kindergarten math puzzle',
-      },
-    ],
+    items: [],
     
   },
 

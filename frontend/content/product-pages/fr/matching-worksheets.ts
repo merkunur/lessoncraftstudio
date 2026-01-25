@@ -19,39 +19,7 @@ export const matchingFrContent: ProductPageContent = {
     description: 'Créez des fiches d\'association professionnelles avec notre générateur MatchUp Maker. Votre abonnement Pack Essentiel vous donne un accès illimité à la création.',
     keywords: 'fiches association, fiches maternelle, exercices CP, fiches à imprimer gratuit, apprendre à lire, fiches alphabet, graphisme maternelle, exercices maths, apprendre les lettres, coloriage à imprimer, écriture cursive, tables de multiplication',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fr/apps/association-fiches',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/french/matching/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Fiche d\'association gratuite - exercice image vers lettre pour maternelle'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/french/matching/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Fiche d\'association gratuite - exercice image et mot pour CP'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/french/matching/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Fiche d\'association gratuite - vocabulaire personnalisé pour enfants'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/french/matching/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Fiche d\'association gratuite - graphisme maternelle et reconnaissance des lettres'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/french/matching/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Fiche d\'association gratuite - fiches maternelle pour apprendre à lire'
-      }
-    ],
-  },
 
   // Hero Section - FULL text from matching.md paragraphs 1-6
   hero: {

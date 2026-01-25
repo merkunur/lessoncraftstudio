@@ -22,39 +22,7 @@ export const subtractionDaContent: ProductPageContent = {
     description: 'Skab professionelle minus-stykker og matematikopgaver med vores avancerede arbejdsark generator. Perfekt til danske lærere og pædagoger der har brug for gratis.',
     keywords: 'minus-stykker, matematikopgaver, subtraktion, gratis skoleopgaver, arbejdsark til print, 0. klasse opgaver, 1. klasse, regning, børnehaveklassen, kopiark, finmotorik øvelser',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/subtraktion-arbejdsark',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/danish/subtraction/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis arbejdsark til børn - subtraktion minus-stykker opgave til børnehaveklasse'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/danish/subtraction/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis arbejdsark subtraktion - matematikopgaver til 0. klasse og 1. klasse'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/danish/subtraction/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Arbejdsark til børn - minus-stykker opgaver til print med visuelle billeder'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/danish/subtraction/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Arbejdsark til børnehaveklasse - gratis skoleopgaver subtraktion til print'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/danish/subtraction/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis printables subtraktion - matematikopgaver arbejdsark til indskoling'
-      },
-    ],
-  },
 
   // Hero Section
   hero: {
@@ -97,43 +65,7 @@ Minus-stykker matematikopgaver er visuelle opgaver til print der bruger billeder
     noPdfLabel: 'Ingen PDF tilgængelig',
     freePdfCountLabel: '5 gratis downloads',
     ofLabel: 'af',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/danish/subtraction/sample-1.jpeg',
-        answerKeySrc: '/samples/danish/subtraction/sample-1.jpeg',
-        altText: 'Gratis arbejdsark til børn - subtraktion minus-stykker opgave til børnehaveklasse',
-        imageTitle: 'Gratis arbejdsark til børn',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/danish/subtraction/sample-2.jpeg',
-        answerKeySrc: '/samples/danish/subtraction/sample-2.jpeg',
-        altText: 'Gratis arbejdsark subtraktion - matematikopgaver til 0. klasse og 1. klasse',
-        imageTitle: 'Gratis arbejdsark subtraktion',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/danish/subtraction/sample-3.jpeg',
-        answerKeySrc: '/samples/danish/subtraction/sample-3.jpeg',
-        altText: 'Arbejdsark til børn - minus-stykker opgaver til print med visuelle billeder',
-        imageTitle: 'Arbejdsark til børn',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/danish/subtraction/sample-4.jpeg',
-        answerKeySrc: '/samples/danish/subtraction/sample-4.jpeg',
-        altText: 'Arbejdsark til børnehaveklasse - gratis skoleopgaver subtraktion til print',
-        imageTitle: 'Arbejdsark til børnehaveklasse',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/danish/subtraction/sample-5.jpeg',
-        answerKeySrc: '/samples/danish/subtraction/sample-5.jpeg',
-        altText: 'Gratis printables subtraktion - matematikopgaver arbejdsark til indskoling',
-        imageTitle: 'Gratis printables subtraktion',
-      },
-    ],
+    items: [],
     
   },
 

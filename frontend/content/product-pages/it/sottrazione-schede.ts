@@ -21,39 +21,7 @@ export const subtractionItContent: ProductPageContent = {
     description: 'Crea schede didattiche di sottrazione professionali con immagini per la scuola primaria e dell\'infanzia. Genera schede matematica illimitate con il nostro.',
     keywords: 'schede didattiche sottrazione, schede matematica, scuola primaria, scuola infanzia, schede stampabili, generatore schede, sottrazioni immagini, classe prima, esercizi matematica, numeri da stampare',
     canonicalUrl: 'https://www.lessoncraftstudio.com/it/apps/sottrazione-schede',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/subtraction/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Scheda gratuita sottrazione - esercizio matematica scuola infanzia'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/subtraction/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Schede gratuite sottrazione - scheda per bambini e scuola dell\'infanzia'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/subtraction/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Stampabili gratuiti sottrazione - scheda per scuola dell\'infanzia'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/subtraction/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Scheda per bambini - scheda per scuola dell\'infanzia sottrazione'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/subtraction/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Scheda per scuola dell\'infanzia - sottrazione visuale'
-      },
-    ],
-  },
 
   // Hero Section - FULL text from subtraction.md paragraphs 1-4
   hero: {
@@ -96,15 +64,7 @@ Scegli tra quattro diverse modalità di esercizi di sottrazione per variare la p
     badgeText: 'Esempi Gratuiti',
     downloadingLabel: 'Scaricamento...',
     ofLabel: 'di',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/italian/subtraction/sample-1.jpeg',
-        answerKeySrc: '/samples/italian/subtraction/sample-1.jpeg',
-        altText: 'Scheda gratuita sottrazione - esercizio matematica scuola infanzia',
-        imageTitle: 'Scheda gratuita sottrazione',
-      },
-    ],
+    items: [],
     
   },
 

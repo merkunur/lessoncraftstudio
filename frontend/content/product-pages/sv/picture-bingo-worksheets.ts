@@ -19,33 +19,7 @@ export const pictureBingoSvContent: ProductPageContent = {
     description: 'Skapa professionella bildlottokort med vår bildlotto generator. Perfekt för förskoleklass material och lågstadiet. Ladda ner arbetsblad gratis som.',
     keywords: 'bildlotto generator, arbetsblad gratis, förskoleklass material, matematik arbetsblad, bildlottokort, gratis arbetsblad, lågstadiet, bokstäver lära sig, siffror och tal, målarbilder barn',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/bildlotto-arbetsblad',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/bingo/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis arbetsblad bildlotto för barn - färgglada bingokort för förskoleklass och lågstadiet'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/bingo/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Bildlotto arbetsblad gratis för förskoleklass - professionella bingokort med bilder för visuellt lärande'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/bingo/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Arbetsblad för barn bildlotto - gratis utskrifter med uppropskort för matematik arbetsblad'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/bingo/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis bildlotto arbetsblad för förskoleklass - pedagogiskt material med bingokort för klassrummet'
-      }
-    ],
-  },
 
   // Hero Section - FULL text from picture-bingo.md paragraphs 1-3
   hero: {
@@ -88,36 +62,7 @@ Använd bildlotto generator för förskoleklass material, lågstadiet aktivitete
     badgeText: 'Gratis Exempel',
     downloadingLabel: 'Laddar ner...',
     ofLabel: 'av',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/swedish/bingo/sample-1.jpeg',
-        answerKeySrc: '/samples/swedish/bingo/sample-1.jpeg',
-        altText: 'Gratis arbetsblad bildlotto för barn - färgglada bingokort för förskoleklass och lågstadiet',
-        imageTitle: 'Gratis arbetsblad bildlotto för barn',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/swedish/bingo/sample-2.jpeg',
-        answerKeySrc: '/samples/swedish/bingo/sample-2.jpeg',
-        altText: 'Bildlotto arbetsblad gratis för förskoleklass - professionella bingokort med bilder för visuellt lärande',
-        imageTitle: 'Bildlotto arbetsblad gratis för förskoleklass',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/swedish/bingo/sample-3.jpeg',
-        answerKeySrc: '/samples/swedish/bingo/sample-3.jpeg',
-        altText: 'Arbetsblad för barn bildlotto - gratis utskrifter med uppropskort för matematik arbetsblad',
-        imageTitle: 'Arbetsblad för barn bildlotto',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/swedish/bingo/sample-4.jpeg',
-        answerKeySrc: '/samples/swedish/bingo/sample-4.jpeg',
-        altText: 'Gratis bildlotto arbetsblad för förskoleklass - pedagogiskt material med bingokort för klassrummet',
-        imageTitle: 'Gratis bildlotto arbetsblad för förskoleklass',
-      },
-    ],
+    items: [],
     
   },
 

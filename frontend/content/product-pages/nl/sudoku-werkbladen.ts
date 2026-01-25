@@ -31,33 +31,7 @@ export const sudokuNlContent: ProductPageContent = {
     description: 'Maak prachtige visuele sudoku puzzels voor jonge kinderen. Onze sudoku werkbladen generator is speciaal ontworpen voor kleuters en basisschoolleerlingen.',
     keywords: 'sudoku werkbladen, werkbladen groep 3, werkbladen kleuters, rekenen werkbladen, oefenbladen gratis, kleurplaten, letters leren, schrijven oefenen, tafels oefenen, veilig leren lezen, fijne motoriek, sommen tot 20',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/sudoku-werkbladen',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/sudoku/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis werkblad sudoku voor kinderen - makkelijk niveau met plaatjes'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/sudoku/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis werkblad sudoku voor kleuters - medium moeilijkheidsgraad'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/sudoku/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis werkbladen sudoku - moeilijk niveau voor groep 3'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/sudoku/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Werkblad voor kinderen sudoku puzzels - gratis printables educatief'
-      }
-    ],
-  },
 
   // Hero Section - FULL text from sudoku.md paragraphs 1-4
   hero: {
@@ -100,36 +74,7 @@ Onze sudoku voor kinderen gebruikt afbeeldingen in plaats van cijfers. Een 4x4 r
     badgeText: 'Gratis Voorbeelden',
     downloadingLabel: 'Downloaden...',
     ofLabel: 'van',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/dutch/sudoku/sample-1.jpeg',
-        answerKeySrc: '/samples/dutch/sudoku/sample-1.jpeg',
-        altText: 'Gratis werkblad sudoku voor kinderen - makkelijk niveau met plaatjes',
-        imageTitle: 'Gratis werkblad sudoku voor kinderen',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/dutch/sudoku/sample-2.jpeg',
-        answerKeySrc: '/samples/dutch/sudoku/sample-2.jpeg',
-        altText: 'Gratis werkblad sudoku voor kleuters - medium moeilijkheidsgraad',
-        imageTitle: 'Gratis werkblad sudoku voor kleuters',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/dutch/sudoku/sample-3.jpeg',
-        answerKeySrc: '/samples/dutch/sudoku/sample-3.jpeg',
-        altText: 'Gratis werkbladen sudoku - moeilijk niveau voor groep 3',
-        imageTitle: 'Gratis werkbladen sudoku',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/dutch/sudoku/sample-4.jpeg',
-        answerKeySrc: '/samples/dutch/sudoku/sample-4.jpeg',
-        altText: 'Werkblad voor kinderen sudoku puzzels - gratis printables educatief',
-        imageTitle: 'Werkblad voor kinderen sudoku puzzels',
-      },
-    ],
+    items: [],
     
   },
 

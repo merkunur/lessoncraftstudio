@@ -33,27 +33,7 @@ export const writingDeContent: ProductPageContent = {
     description: 'Schreibübungen Arbeitsblätter in 3 Minuten erstellen. Schwungübungen & Buchstaben lernen für Vorschule & Grundschule. 3000+ Bilder, 300 DPI. Jetzt testen!',
     keywords: 'schreibübungen arbeitsblätter, schwungübungen, buchstaben lernen, arbeitsblätter grundschule, kostenlose arbeitsblätter, vorschule arbeitsblätter, mathe arbeitsblätter, einmaleins, deutsch arbeitsblätter, rechnen lernen, ausmalbilder, malvorlagen',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/schreibuebungen-arbeitsblaetter',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/writing/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Schreibübungen Arbeitsblatt kostenlos - Schwungübungen für Vorschule und Grundschule',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/writing/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Buchstaben lernen Arbeitsblatt kostenlos - Kostenloses Arbeitsblatt für Kinder zum Nachspuren',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/writing/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Schreibübungen Kostenlose Druckvorlagen - Arbeitsblätter Grundschule zum Ausdrucken',
-      },
-    ],
-  },
 
   // Hero Section - FULL text from schreibuebungen.md
   hero: {
@@ -96,29 +76,7 @@ Generieren Sie Schwungübungen für Buchstaben, Wörter, Namen oder eigene Texte
     badgeText: 'Kostenlose Beispiele',
     downloadingLabel: 'Wird heruntergeladen...',
     ofLabel: 'von',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/german/writing/sample-1.jpeg',
-        answerKeySrc: '/samples/german/writing/sample-1.jpeg',
-        altText: 'Schreibübungen Arbeitsblatt kostenlos - Schwungübungen für Vorschule und Grundschule',
-        imageTitle: 'Schreibübungen Arbeitsblatt kostenlos',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/german/writing/sample-2.jpeg',
-        answerKeySrc: '/samples/german/writing/sample-2.jpeg',
-        altText: 'Buchstaben lernen Arbeitsblatt kostenlos - Kostenloses Arbeitsblatt für Kinder zum Nachspuren',
-        imageTitle: 'Buchstaben lernen Arbeitsblatt kostenlos',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/german/writing/sample-3.jpeg',
-        answerKeySrc: '/samples/german/writing/sample-3.jpeg',
-        altText: 'Schreibübungen Kostenlose Druckvorlagen - Arbeitsblätter Grundschule zum Ausdrucken',
-        imageTitle: 'Schreibübungen Kostenlose Druckvorlagen',
-      },
-    ],
+    items: [],
     
   },
 

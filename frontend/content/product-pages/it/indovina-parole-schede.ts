@@ -18,33 +18,7 @@ export const wordGuessItContent: ProductPageContent = {
     title: 'Schede Gratuite Indovina la Parola | Stampabili Gratuiti Scuola',
     description: 'Crea schede didattiche professionali per indovinare le parole con il nostro generatore specializzato. Il tuo abbonamento Accesso Completo ti permette di creare.',
     keywords: 'schede didattiche indovinare parole, schede didattiche scuola primaria, schede didattiche scuola infanzia, alfabeto, lettere dell\'alfabeto, vocabolario, schede italiano classe prima, schede matematica, disegni da colorare, pregrafismo, numeri da stampare, tabelline',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/word-guess/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Scheda gratuita indovina la parola - vocabolario per scuola dell\'infanzia'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/word-guess/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Schede gratuite indovina la parola - scheda per bambini scuola primaria'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/word-guess/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Stampabili gratuiti indovina la parola - scheda per scuola dell\'infanzia'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/word-guess/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Scheda per bambini - scheda gratuita per bambini alfabeto'
-      },
-    ],
-    canonicalUrl: 'https://www.lessoncraftstudio.com/it/apps/indovina-parole-schede',
+        canonicalUrl: 'https://www.lessoncraftstudio.com/it/apps/indovina-parole-schede',
   },
 
   // Hero Section
@@ -90,22 +64,7 @@ Personalizza completamente ogni elemento sulla tua scheda didattica. Aggiungi sf
     badgeText: 'Esempi Gratuiti',
     downloadingLabel: 'Scaricamento...',
     ofLabel: 'di',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/italian/word-guess/sample-2.jpeg',
-        answerKeySrc: '/samples/italian/word-guess/sample-2.jpeg',
-        altText: 'Schede gratuite indovina la parola - scheda per bambini scuola primaria',
-        imageTitle: 'Schede gratuite indovina la parola',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/italian/word-guess/sample-4.jpeg',
-        answerKeySrc: '/samples/italian/word-guess/sample-4.jpeg',
-        altText: 'Scheda per bambini - scheda gratuita per bambini alfabeto',
-        imageTitle: 'Scheda per bambini',
-      },
-    ],
+    items: [],
     
   },
 

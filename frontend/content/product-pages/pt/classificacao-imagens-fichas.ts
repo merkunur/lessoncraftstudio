@@ -21,33 +21,7 @@ export const pictureSortPtContent: ProductPageContent = {
     description: 'Crie atividades de classificação profissionais em minutos. Nosso gerador de fichas de classificação faz parte da assinatura Acesso Completo do LessonCraft.',
     keywords: 'atividade grátis, atividades grátis, imprimíveis grátis, atividade para crianças, atividade para educação infantil, atividades de classificação, atividades para imprimir, atividades educação infantil, atividades 1º ano, atividades 2º ano, coordenação motora, classificação de imagens, atividades de matemática, desenhos para colorir, letra cursiva, pontilhado, atividades de alfabetização',
     canonicalUrl: 'https://www.lessoncraftstudio.com/pt/apps/classificacao-imagens-fichas',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/picture-sort/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Atividade grátis de classificação de imagens para educação infantil'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/picture-sort/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Atividade grátis de classificação por categorias para crianças'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/picture-sort/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Atividade para crianças de classificação - atividades grátis'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/picture-sort/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Imprimíveis grátis de classificação para educação infantil'
-      }
-    ],
-  },
 
   // Hero Section - FULL text from picture-sort.md paragraphs 1-3
   hero: {
@@ -90,36 +64,7 @@ Professores de todo o Brasil confiam no LessonCraft Studio. Nossa plataforma ofe
     badgeText: 'Exemplos Grátis',
     downloadingLabel: 'Baixando...',
     ofLabel: 'de',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/portuguese/picture-sort/sample-1.jpeg',
-        answerKeySrc: '/samples/portuguese/picture-sort/sample-1.jpeg',
-        altText: 'Atividade grátis de classificação de imagens para educação infantil',
-        imageTitle: 'Atividade grátis de classificação de imagens para educação infantil',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/portuguese/picture-sort/sample-2.jpeg',
-        answerKeySrc: '/samples/portuguese/picture-sort/sample-2.jpeg',
-        altText: 'Atividade grátis de classificação por categorias para crianças',
-        imageTitle: 'Atividade grátis de classificação por categorias para crianças',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/portuguese/picture-sort/sample-3.jpeg',
-        answerKeySrc: '/samples/portuguese/picture-sort/sample-3.jpeg',
-        altText: 'Atividade para crianças de classificação - atividades grátis',
-        imageTitle: 'Atividade para crianças de classificação',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/portuguese/picture-sort/sample-4.jpeg',
-        answerKeySrc: '/samples/portuguese/picture-sort/sample-4.jpeg',
-        altText: 'Imprimíveis grátis de classificação para educação infantil',
-        imageTitle: 'Imprimíveis grátis de classificação para educação infantil',
-      },
-    ],
+    items: [],
     
   },
 

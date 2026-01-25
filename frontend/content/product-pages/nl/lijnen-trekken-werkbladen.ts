@@ -42,39 +42,7 @@ export const drawingLinesNlContent: ProductPageContent = {
     description: 'Maak professionele lijnen trekken werkbladen met onze gebruiksvriendelijke generator. Met je Basispakket abonnement creëer je onbeperkt werkbladen kleuters en.',
     keywords: 'lijnen trekken werkbladen, werkbladen groep 3, werkbladen kleuters, oefenbladen gratis, fijne motoriek, schrijven oefenen, letters leren, veilig leren lezen, rekenen werkbladen, tafels oefenen, gratis werkblad, gratis werkbladen, werkblad voor kinderen, werkblad voor kleuters',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/lijnen-trekken-werkbladen',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/drawing-lines/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis werkblad lijnen trekken - werkblad voor kinderen met gebogen lijnen voor fijne motoriek',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/drawing-lines/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis werkbladen lijnen trekken - werkblad voor kleuters met diagonale lijnen oefeningen',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/drawing-lines/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis printables lijnen trekken - werkblad schrijven oefenen met horizontale lijnen',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/drawing-lines/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis werkblad voor kinderen - lijnen trekken verticale lijnen fijne motoriek training',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/drawing-lines/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Werkblad voor kleuters lijnen trekken - gratis werkblad letters leren voorbereiding',
-      },
-    ],
-  },
 
   // Hero Section
   hero: {
@@ -117,43 +85,7 @@ De fijne motoriek die nodig is voor schrijven ontwikkelt zich geleidelijk. Recht
     badgeText: 'Gratis Voorbeelden',
     downloadingLabel: 'Downloaden...',
     ofLabel: 'van',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/dutch/drawing-lines/sample-1.jpeg',
-        answerKeySrc: '/samples/dutch/drawing-lines/sample-1.jpeg',
-        altText: 'Gratis werkblad lijnen trekken - werkblad voor kinderen met gebogen lijnen voor fijne motoriek',
-        imageTitle: 'Gratis werkblad lijnen trekken',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/dutch/drawing-lines/sample-2.jpeg',
-        answerKeySrc: '/samples/dutch/drawing-lines/sample-2.jpeg',
-        altText: 'Gratis werkbladen lijnen trekken - werkblad voor kleuters met diagonale lijnen oefeningen',
-        imageTitle: 'Gratis werkbladen lijnen trekken',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/dutch/drawing-lines/sample-3.jpeg',
-        answerKeySrc: '/samples/dutch/drawing-lines/sample-3.jpeg',
-        altText: 'Gratis printables lijnen trekken - werkblad schrijven oefenen met horizontale lijnen',
-        imageTitle: 'Gratis printables lijnen trekken',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/dutch/drawing-lines/sample-4.jpeg',
-        answerKeySrc: '/samples/dutch/drawing-lines/sample-4.jpeg',
-        altText: 'Gratis werkblad voor kinderen - lijnen trekken verticale lijnen fijne motoriek training',
-        imageTitle: 'Gratis werkblad voor kinderen',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/dutch/drawing-lines/sample-5.jpeg',
-        answerKeySrc: '/samples/dutch/drawing-lines/sample-5.jpeg',
-        altText: 'Werkblad voor kleuters lijnen trekken - gratis werkblad letters leren voorbereiding',
-        imageTitle: 'Werkblad voor kleuters lijnen trekken',
-      },
-    ],
+    items: [],
     
   },
 

@@ -19,39 +19,7 @@ export const sudokuFrContent: ProductPageContent = {
     description: 'Créez des puzzles sudoku visuels avec notre générateur de fiches gratuites. Abonnement illimité, PDF 300 DPI avec clés de correction. Essai gratuit! Parfait pour enseignants et parents.',
     keywords: 'sudoku enfants, fiches maternelle, fiches à imprimer gratuit, exercices CP, exercices CE1, exercices maths, graphisme maternelle, coloriage à imprimer, apprendre à lire, tables de multiplication',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fr/apps/sudoku-enfants-fiches',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/french/sudoku/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Fiche gratuite de sudoku pour enfants - puzzle visuel niveau facile pour maternelle',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/french/sudoku/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Fiche gratuite pour enfants - sudoku images thématique pour exercices CP CE1',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/french/sudoku/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Fiches gratuites de sudoku - puzzles visuels pour fiches maternelle et graphisme',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/french/sudoku/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Fiche pour maternelle - sudoku éducatif avec images colorées niveau moyen',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/french/sudoku/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Imprimables gratuits de sudoku - fiches pour exercices maths et raisonnement logique',
-      },
-    ],
-  },
 
   // Hero Section - FULL text from sudoku.md paragraphs 1-3
   hero: {
@@ -94,43 +62,7 @@ Les puzzles sudoku complètent parfaitement les exercices maths traditionnels. L
     badgeText: 'Exemples Gratuits',
     downloadingLabel: 'Téléchargement...',
     ofLabel: 'sur',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/french/sudoku/sample-1.jpeg',
-        answerKeySrc: '/samples/french/sudoku/sample-1.jpeg',
-        altText: 'Fiche gratuite de sudoku pour enfants - puzzle visuel niveau facile pour maternelle',
-        imageTitle: 'Fiche gratuite de sudoku pour enfants',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/french/sudoku/sample-2.jpeg',
-        answerKeySrc: '/samples/french/sudoku/sample-2.jpeg',
-        altText: 'Fiche gratuite pour enfants - sudoku images thématique pour exercices CP CE1',
-        imageTitle: 'Fiche gratuite pour enfants',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/french/sudoku/sample-3.jpeg',
-        answerKeySrc: '/samples/french/sudoku/sample-3.jpeg',
-        altText: 'Fiches gratuites de sudoku - puzzles visuels pour fiches maternelle et graphisme',
-        imageTitle: 'Fiches gratuites de sudoku',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/french/sudoku/sample-4.jpeg',
-        answerKeySrc: '/samples/french/sudoku/sample-4.jpeg',
-        altText: 'Fiche pour maternelle - sudoku éducatif avec images colorées niveau moyen',
-        imageTitle: 'Fiche pour maternelle',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/french/sudoku/sample-5.jpeg',
-        answerKeySrc: '/samples/french/sudoku/sample-5.jpeg',
-        altText: 'Imprimables gratuits de sudoku - fiches pour exercices maths et raisonnement logique',
-        imageTitle: 'Imprimables gratuits de sudoku',
-      },
-    ],
+    items: [],
     
   },
 

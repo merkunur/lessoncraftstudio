@@ -19,33 +19,7 @@ export const pictureBingoNoContent: ProductPageContent = {
     description: 'Lag gratis bildlotto arbeidsark for barn i barnehage og 1. trinn. Gratis utskrifter med 3000+ bilder. Last ned PDF på 3 min. Perfekt for lærere og foreldre.',
     keywords: 'bildlotto, gratis arbeidsark, gratis arbeidsark for barn, gratis utskrifter, arbeidsark for barn, arbeidsark for 1. trinn, arbeidsark, oppgavehefter barn, matematikk oppgaver, tall og telling, barnehage, fargeleggingsbilder barn, lesetrening, finmotorikk øvelser',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/bildlotto-arbeidsark',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/norwegian/bingo/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis bildlotto arbeidsark for barnehage - bildlottokort med bilder for visuell laering'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/norwegian/bingo/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis arbeidsark for barn - bildlotto med ord og bilder for lesetrening'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/norwegian/bingo/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Arbeidsark for 1. trinn - bildlotto med tall og telling aktiviteter'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/norwegian/bingo/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis utskrifter bildlotto - arbeidsark for barn med tematiske bilder'
-      },
-    ],
-  },
 
   // Hero Section - FULL text from bingo.md paragraphs 1-3
   hero: {
@@ -88,36 +62,7 @@ Vår generator gjør det enkelt. Velg størrelse på rutenettet fra 3x3 til 5x5.
     noPdfLabel: 'Ingen PDF tilgjengelig',
     freePdfCountLabel: '3 gratis nedlastinger',
     ofLabel: 'av',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/norwegian/bingo/sample-1.jpeg',
-        answerKeySrc: '/samples/norwegian/bingo/sample-1.jpeg',
-        altText: 'Gratis bildlotto arbeidsark for barnehage - bildlottokort med bilder for visuell laering',
-        imageTitle: 'Gratis bildlotto arbeidsark for barnehage',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/norwegian/bingo/sample-2.jpeg',
-        answerKeySrc: '/samples/norwegian/bingo/sample-2.jpeg',
-        altText: 'Gratis arbeidsark for barn - bildlotto med ord og bilder for lesetrening',
-        imageTitle: 'Gratis arbeidsark for barn',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/norwegian/bingo/sample-3.jpeg',
-        answerKeySrc: '/samples/norwegian/bingo/sample-3.jpeg',
-        altText: 'Arbeidsark for 1. trinn - bildlotto med tall og telling aktiviteter',
-        imageTitle: 'Arbeidsark for 1. trinn',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/norwegian/bingo/sample-4.jpeg',
-        answerKeySrc: '/samples/norwegian/bingo/sample-4.jpeg',
-        altText: 'Gratis utskrifter bildlotto - arbeidsark for barn med tematiske bilder',
-        imageTitle: 'Gratis utskrifter bildlotto',
-      },
-    ],
+    items: [],
     
   },
 

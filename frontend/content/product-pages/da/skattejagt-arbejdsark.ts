@@ -21,33 +21,7 @@ export const skattejagtDaContent: ProductPageContent = {
     description: 'Lav gratis arbejdsark til børn med skattejagt retningsopgaver. Arbejdsark til børnehaveklasse og 0. klasse. Download professionelle gratis arbejdsark som PDF.',
     keywords: 'gratis arbejdsark, arbejdsark til børn, arbejdsark til børnehaveklasse, skattejagt arbejdsark, retningsopgaver, gratis printables, 0. klasse, 1. klasse, finmotorik øvelser',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/skattejagt-arbejdsark',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/danish/treasure-hunt/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis arbejdsark skattejagt - retningsopgaver til børnehaveklasse'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/danish/treasure-hunt/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis arbejdsark skattejagt - kompasretninger til 1. klasse'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/danish/treasure-hunt/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis arbejdsark til børn - avanceret skattejagt'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/danish/treasure-hunt/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Arbejdsark til børnehaveklasse - tematisk skattejagt'
-      }
-    ],
-  },
 
   // Hero Section - FULL text from treasure-hunt.md paragraphs 1-5
   hero: {
@@ -94,36 +68,7 @@ Retningsopgaver understøtter 11 sprog inklusiv dansk. Billednavne vises på dan
     noPdfLabel: 'Ingen PDF tilgængelig',
     freePdfCountLabel: '3 gratis downloads',
     ofLabel: 'af',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/danish/treasure-hunt/sample-1.jpeg',
-        answerKeySrc: '/samples/danish/treasure-hunt/sample-1.jpeg',
-        altText: 'Gratis arbejdsark skattejagt - retningsopgaver til børnehaveklasse',
-        imageTitle: 'Gratis arbejdsark skattejagt',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/danish/treasure-hunt/sample-2.jpeg',
-        answerKeySrc: '/samples/danish/treasure-hunt/sample-2.jpeg',
-        altText: 'Gratis arbejdsark skattejagt - kompasretninger til 1. klasse',
-        imageTitle: 'Gratis arbejdsark skattejagt',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/danish/treasure-hunt/sample-3.jpeg',
-        answerKeySrc: '/samples/danish/treasure-hunt/sample-3.jpeg',
-        altText: 'Gratis arbejdsark til børn - avanceret skattejagt',
-        imageTitle: 'Gratis arbejdsark til børn',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/danish/treasure-hunt/sample-4.jpeg',
-        answerKeySrc: '/samples/danish/treasure-hunt/sample-4.jpeg',
-        altText: 'Arbejdsark til børnehaveklasse - tematisk skattejagt',
-        imageTitle: 'Arbejdsark til børnehaveklasse',
-      },
-    ],
+    items: [],
     
   },
 

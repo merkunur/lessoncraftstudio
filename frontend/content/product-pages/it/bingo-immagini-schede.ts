@@ -19,33 +19,7 @@ export const pictureBingoItContent: ProductPageContent = {
     description: 'Crea schede didattiche Picture Bingo professionali con il nostro generatore. Perfette per scuola dell\'infanzia e classi prime. Genera carte bingo con immagini.',
     keywords: 'schede didattiche bingo, generatore schede didattiche, schede scuola primaria, carte bingo immagini, scuola infanzia, schede stampabili, bingo didattico, classe prima, pregrafismo, materiale didattico',
     canonicalUrl: 'https://www.lessoncraftstudio.com/it/apps/bingo-immagini-schede',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/bingo/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Scheda gratuita bingo immagini per bambini - carte bingo scuola dell\'infanzia'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/bingo/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Schede gratuite bingo didattico - stampabili gratuiti per scuola primaria'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/bingo/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Scheda per bambini bingo con immagini - schede didattiche scuola infanzia'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/bingo/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Stampabili gratuiti bingo educativo - scheda per scuola dell\'infanzia'
-      }
-    ],
-  },
 
   // Hero Section
   hero: {
@@ -88,22 +62,7 @@ Genera da 1 a 10 carte bingo in pochi minuti. Scegli griglie da 3x3 a 5x5. Perso
     badgeText: 'Esempi Gratuiti',
     downloadingLabel: 'Scaricamento...',
     ofLabel: 'di',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/italian/bingo/sample-2.jpeg',
-        answerKeySrc: '/samples/italian/bingo/sample-2.jpeg',
-        altText: 'Schede gratuite bingo didattico - stampabili gratuiti per scuola primaria',
-        imageTitle: 'Schede gratuite bingo didattico',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/italian/bingo/sample-3.jpeg',
-        answerKeySrc: '/samples/italian/bingo/sample-3.jpeg',
-        altText: 'Scheda per bambini bingo con immagini - schede didattiche scuola infanzia',
-        imageTitle: 'Scheda per bambini bingo con immagini',
-      },
-    ],
+    items: [],
     
   },
 

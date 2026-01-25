@@ -19,27 +19,7 @@ export const writingSvContent: ProductPageContent = {
     description: 'Skapa professionella arbetsblad för skrivövning med vår handstilsgenerator. Full Tillgång-prenumeration ger dig obegränsad åtkomst till alla 33 verktyg för.',
     keywords: 'skriva bokstäver, arbetsblad gratis, förskoleklass material, finmotorik övningar, bokstäver lära sig, handstilsövningar, skrivarbetsblad, spårningsövningar, matematik arbetsblad, målarbilder barn',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/skrivovningar-arbetsblad',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/writing/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis skrivarbetsblad för barn - bokstavsspårning för förskoleklass'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/writing/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis arbetsblad för bokstäver lära sig - handstilsövningar för barn'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/writing/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis finmotorik övningar arbetsblad - skrivträning för förskoleklass'
-      }
-    ],
-  },
 
   // Hero Section - FULL text from writing.md paragraphs 1-4
   hero: {
@@ -84,29 +64,7 @@ Full Tillgång-prenumeration inkluderar kommersiell licens. Sälj dina skrivarbe
     badgeText: 'Gratis Exempel',
     downloadingLabel: 'Laddar ner...',
     ofLabel: 'av',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/swedish/writing/sample-1.jpeg',
-        answerKeySrc: '/samples/swedish/writing/sample-1.jpeg',
-        altText: 'Gratis skrivarbetsblad för barn - bokstavsspårning för förskoleklass',
-        imageTitle: 'Gratis skrivarbetsblad för barn',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/swedish/writing/sample-2.jpeg',
-        answerKeySrc: '/samples/swedish/writing/sample-2.jpeg',
-        altText: 'Gratis arbetsblad för bokstäver lära sig - handstilsövningar för barn',
-        imageTitle: 'Gratis arbetsblad för bokstäver lära sig',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/swedish/writing/sample-3.jpeg',
-        answerKeySrc: '/samples/swedish/writing/sample-3.jpeg',
-        altText: 'Gratis finmotorik övningar arbetsblad - skrivträning för förskoleklass',
-        imageTitle: 'Gratis finmotorik övningar arbetsblad',
-      },
-    ],
+    items: [],
     
   },
 

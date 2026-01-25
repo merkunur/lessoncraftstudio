@@ -19,33 +19,7 @@ export const crosswordItContent: ProductPageContent = {
     description: 'Crea cruciverba con immagini per la scuola dell\'infanzia e la scuola primaria. Il nostro generatore di cruciverba trasforma le tue schede didattiche in.',
     keywords: 'cruciverba con immagini, schede didattiche scuola primaria, pregrafismo, lettere dell\'alfabeto, schede italiano classe prima, generatore cruciverba, schede didattiche scuola infanzia, schede stampabili, cruciverba bambini, attività didattiche, scheda gratuita, schede gratuite, scheda per bambini, stampabili gratuiti',
     canonicalUrl: 'https://www.lessoncraftstudio.com/it/apps/cruciverba-immagini-schede',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/crossword/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Cruciverba con immagini scheda gratuita - schede didattiche scuola primaria italiano',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/crossword/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Cruciverba con immagini schede gratuite per bambini - pregrafismo e lettere alfabeto',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/crossword/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Cruciverba con immagini scheda per bambini - stampabili gratuiti scuola infanzia',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/crossword/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Cruciverba con immagini scheda gratuita per bambini - schede italiano classe prima',
-      },
-    ],
-  },
 
   // Hero Section
   hero: {
@@ -92,36 +66,7 @@ L'abbonamento Accesso Completo include licenza commerciale per la stampa su rich
     badgeText: 'Esempi Gratuiti',
     downloadingLabel: 'Scaricamento...',
     ofLabel: 'di',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/italian/crossword/sample-1.jpeg',
-        answerKeySrc: '/samples/italian/crossword/sample-1.jpeg',
-        altText: 'Cruciverba con immagini scheda gratuita - schede didattiche scuola primaria italiano',
-        imageTitle: 'Cruciverba con immagini scheda gratuita',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/italian/crossword/sample-2.jpeg',
-        answerKeySrc: '/samples/italian/crossword/sample-2.jpeg',
-        altText: 'Cruciverba con immagini schede gratuite per bambini - pregrafismo e lettere alfabeto',
-        imageTitle: 'Cruciverba con immagini schede gratuite per bambini',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/italian/crossword/sample-3.jpeg',
-        answerKeySrc: '/samples/italian/crossword/sample-3.jpeg',
-        altText: 'Cruciverba con immagini scheda per bambini - stampabili gratuiti scuola infanzia',
-        imageTitle: 'Cruciverba con immagini scheda per bambini',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/italian/crossword/sample-4.jpeg',
-        answerKeySrc: '/samples/italian/crossword/sample-4.jpeg',
-        altText: 'Cruciverba con immagini scheda gratuita per bambini - schede italiano classe prima',
-        imageTitle: 'Cruciverba con immagini scheda gratuita per bambini',
-      },
-    ],
+    items: [],
     
   },
 

@@ -19,33 +19,7 @@ export const bingoDaContent: ProductPageContent = {
     description: 'Lav bingo gratis arbejdsark til børn med vores generator. Ubegrænset arbejdsark til børnehaveklasse. Download gratis printables som professionelle PDF-filer.',
     keywords: 'bingo generator, gratis arbejdsark, arbejdsark til børn, arbejdsark til børnehaveklasse, gratis printables, 0. klasse arbejdsark, 1. klasse, kopiark, billedbingo, ordbingo',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/bingo-arbejdsark',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/danish/bingo/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Bingo gratis arbejdsark - billedbingo arbejdsark til børn for børnehaveklasse'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/danish/bingo/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Bingo arbejdsark til børnehaveklasse - gratis printables med farverige billeder'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/danish/bingo/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis arbejdsark bingo - arbejdsark til børn med ord og billeder til 0. klasse'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/danish/bingo/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Arbejdsark til børnehaveklasse - bingo gratis printables med tematiske billeder'
-      },
-    ],
-  },
 
   // Hero Section
   hero: {
@@ -88,36 +62,7 @@ Bingo gratis arbejdsark styrker mange vigtige færdigheder hos børn. Billedgenk
     noPdfLabel: 'Ingen PDF tilgængelig',
     freePdfCountLabel: '3 gratis downloads',
     ofLabel: 'af',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/danish/bingo/sample-1.jpeg',
-        answerKeySrc: '/samples/danish/bingo/sample-1.jpeg',
-        altText: 'Bingo gratis arbejdsark - billedbingo arbejdsark til børn for børnehaveklasse',
-        imageTitle: 'Bingo gratis arbejdsark',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/danish/bingo/sample-2.jpeg',
-        answerKeySrc: '/samples/danish/bingo/sample-2.jpeg',
-        altText: 'Bingo arbejdsark til børnehaveklasse - gratis printables med farverige billeder',
-        imageTitle: 'Bingo arbejdsark til børnehaveklasse',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/danish/bingo/sample-3.jpeg',
-        answerKeySrc: '/samples/danish/bingo/sample-3.jpeg',
-        altText: 'Gratis arbejdsark bingo - arbejdsark til børn med ord og billeder til 0. klasse',
-        imageTitle: 'Gratis arbejdsark bingo',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/danish/bingo/sample-4.jpeg',
-        answerKeySrc: '/samples/danish/bingo/sample-4.jpeg',
-        altText: 'Arbejdsark til børnehaveklasse - bingo gratis printables med tematiske billeder',
-        imageTitle: 'Arbejdsark til børnehaveklasse',
-      },
-    ],
+    items: [],
     
   },
 

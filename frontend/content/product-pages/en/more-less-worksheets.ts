@@ -19,39 +19,7 @@ export const moreLessEnContent: ProductPageContent = {
     description: 'Create free printable comparison worksheets for kindergarten. Generate greater than less than math worksheets in minutes. Download PDF for kids now. Perfect for teachers and parents.',
     keywords: 'comparison worksheets, greater than less than worksheets, math worksheets, kindergarten worksheets, first grade worksheets, number comparison, printable worksheets, worksheet generator, counting worksheets, more or less worksheets',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/more-less-worksheets',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/more-less/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Free printable comparison worksheets for kindergarten - greater than less than math worksheet with colorful counting images'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/more-less/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Greater than less than worksheets for first grade - number comparison worksheet for kids with visual counting exercises'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/more-less/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'More or less worksheets free printables - counting and number comparison practice for kindergarten math skills'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/more-less/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Free worksheet for kindergarten number comparison - printable greater than less than worksheets with visual counting activities for kids'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/more-less/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Counting worksheets and number comparison practice - free printable math worksheets for first grade with greater than less than symbols'
-      }
-    ],
-  },
 
   // Hero Section - FULL text from more-less.md paragraphs 1-4
   hero: {
@@ -80,43 +48,7 @@ The worksheet maker offers flexible comparison modes including image-to-image co
     downloadLabel: 'Download Free Sample',
     worksheetLabel: 'Worksheet',
     answerKeyLabel: 'Answer Key',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/english/more-less/sample-1.jpeg',
-        answerKeySrc: '/samples/english/more-less/sample-1.jpeg',
-        altText: 'Free printable comparison worksheets for kindergarten - greater than less than math worksheet with colorful counting images',
-        imageTitle: 'Free printable comparison worksheets for kindergarten',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/english/more-less/sample-2.jpeg',
-        answerKeySrc: '/samples/english/more-less/sample-2.jpeg',
-        altText: 'Greater than less than worksheets for first grade - number comparison worksheet for kids with visual counting exercises',
-        imageTitle: 'Greater than less than worksheets for first grade',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/english/more-less/sample-3.jpeg',
-        answerKeySrc: '/samples/english/more-less/sample-3.jpeg',
-        altText: 'More or less worksheets free printables - counting and number comparison practice for kindergarten math skills',
-        imageTitle: 'More or less worksheets free printables',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/english/more-less/sample-4.jpeg',
-        answerKeySrc: '/samples/english/more-less/sample-4.jpeg',
-        altText: 'Free worksheet for kindergarten number comparison - printable greater than less than worksheets with visual counting activities for kids',
-        imageTitle: 'Free worksheet for kindergarten number comparison',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/english/more-less/sample-5.jpeg',
-        answerKeySrc: '/samples/english/more-less/sample-5.jpeg',
-        altText: 'Counting worksheets and number comparison practice - free printable math worksheets for first grade with greater than less than symbols',
-        imageTitle: 'Counting worksheets and number comparison practice',
-      },
-    ],
+    items: [],
     
   },
 

@@ -31,27 +31,7 @@ export const gridMatchNlContent: ProductPageContent = {
     description: 'Maak gratis werkbladen raster-puzzel in 3 minuten. Visuele puzzels voor werkbladen kleuters en groep 3. Download PDF werkbladen direct - geen ontwerpkennis.',
     keywords: 'grid match werkbladen, puzzelwerkbladen, werkbladen groep 3, werkbladen kleuters, oefenbladen gratis, fijne motoriek, visuele puzzels, veilig leren lezen, rekenen werkbladen, ruimtelijk inzicht, gratis werkblad, gratis werkbladen, werkblad voor kinderen, werkblad voor kleuters',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/raster-puzzel-werkbladen',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/grid-match/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis werkblad raster-puzzel - visuele puzzel werkbladen voor kleuters en groep 3'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/grid-match/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis werkblad voor kinderen - raster-puzzel werkblad met visuele oefening'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/grid-match/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Werkblad voor kleuters - gratis printables raster-puzzel voor fijne motoriek'
-      },
-    ],
-  },
 
   // Hero Section - FULL text from grid-match.md paragraphs 1-2
   hero: {
@@ -94,29 +74,7 @@ De grid match generator maakt werkbladen kleuters en werkbladen groep 3 met aanp
     badgeText: 'Gratis Voorbeelden',
     downloadingLabel: 'Downloaden...',
     ofLabel: 'van',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/dutch/grid-match/sample-1.jpeg',
-        answerKeySrc: '/samples/dutch/grid-match/sample-1.jpeg',
-        altText: 'Gratis werkblad raster-puzzel - visuele puzzel werkbladen voor kleuters en groep 3',
-        imageTitle: 'Gratis werkblad raster-puzzel',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/dutch/grid-match/sample-2.jpeg',
-        answerKeySrc: '/samples/dutch/grid-match/sample-2.jpeg',
-        altText: 'Gratis werkblad voor kinderen - raster-puzzel werkblad met visuele oefening',
-        imageTitle: 'Gratis werkblad voor kinderen',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/dutch/grid-match/sample-3.jpeg',
-        answerKeySrc: '/samples/dutch/grid-match/sample-3.jpeg',
-        altText: 'Werkblad voor kleuters - gratis printables raster-puzzel voor fijne motoriek',
-        imageTitle: 'Werkblad voor kleuters',
-      },
-    ],
+    items: [],
     
   },
 

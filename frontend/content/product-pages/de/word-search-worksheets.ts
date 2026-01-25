@@ -31,39 +31,7 @@ export const wordSearchDeContent: ProductPageContent = {
     description: 'Erstellen Sie kostenlose Suchsel-Arbeitsblätter für die Grundschule in 3 Minuten. Perfekt zum Buchstaben lernen. PDF-Download sofort. 11 Sprachen verfügbar.',
     keywords: 'suchsel generator, arbeitsblätter grundschule, kostenlose arbeitsblätter, mathe arbeitsblätter, vorschule arbeitsblätter, buchstaben lernen, deutsch arbeitsblätter, einmaleins, schwungübungen, ausmalbilder',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/suchsel-arbeitsblaetter',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/wordsearch/sample-1.jpeg',
-        width: 3672,
-        height: 4752,
-        caption: 'Kostenloses Suchsel Arbeitsblatt Grundschule - Wortschatz Übungen mit bunten Bildern für Kinder'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/wordsearch/sample-2.jpeg',
-        width: 3672,
-        height: 4752,
-        caption: 'Suchsel Generator Arbeitsblatt - Buchstaben lernen und Deutsch-Arbeitsblätter für die Vorschule'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/wordsearch/sample-3.jpeg',
-        width: 3672,
-        height: 4752,
-        caption: 'Kostenlose Druckvorlagen Wortsuchrätsel - Arbeitsblatt für Kinder mit thematischen Bildern'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/wordsearch/sample-4.jpeg',
-        width: 3672,
-        height: 4752,
-        caption: 'Suchsel Arbeitsblatt für Kinder - Wortsuchrätsel mit bunten Bildhinweisen für Vorschule und Grundschule'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/wordsearch/sample-5.jpeg',
-        width: 3672,
-        height: 4752,
-        caption: 'Kostenloses Arbeitsblatt Wortsuchrätsel - Deutsch-Arbeitsblätter Wortschatz für 1. bis 3. Klasse Grundschule'
-      }
-    ],
-  },
 
   // Hero Section - FULL text from wordsearch.md paragraphs 1-4
   hero: {
@@ -106,43 +74,7 @@ Unser kostenloser Suchsel Generator bietet über 3000 kindgerechte Bilder für A
     badgeText: 'Kostenlose Beispiele',
     downloadingLabel: 'Wird heruntergeladen...',
     ofLabel: 'von',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/german/wordsearch/sample-1.jpeg',
-        answerKeySrc: '/samples/german/wordsearch/sample-1.jpeg',
-        altText: 'Kostenloses Suchsel Arbeitsblatt Grundschule - Wortschatz Übungen mit bunten Bildern für Kinder',
-        imageTitle: 'Kostenloses Suchsel Arbeitsblatt Grundschule',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/german/wordsearch/sample-2.jpeg',
-        answerKeySrc: '/samples/german/wordsearch/sample-2.jpeg',
-        altText: 'Suchsel Generator Arbeitsblatt - Buchstaben lernen und Deutsch-Arbeitsblätter für die Vorschule',
-        imageTitle: 'Suchsel Generator Arbeitsblatt',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/german/wordsearch/sample-3.jpeg',
-        answerKeySrc: '/samples/german/wordsearch/sample-3.jpeg',
-        altText: 'Kostenlose Druckvorlagen Wortsuchrätsel - Arbeitsblatt für Kinder mit thematischen Bildern',
-        imageTitle: 'Kostenlose Druckvorlagen Wortsuchrätsel',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/german/wordsearch/sample-4.jpeg',
-        answerKeySrc: '/samples/german/wordsearch/sample-4.jpeg',
-        altText: 'Suchsel Arbeitsblatt für Kinder - Wortsuchrätsel mit bunten Bildhinweisen für Vorschule und Grundschule',
-        imageTitle: 'Suchsel Arbeitsblatt für Kinder',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/german/wordsearch/sample-5.jpeg',
-        answerKeySrc: '/samples/german/wordsearch/sample-5.jpeg',
-        altText: 'Kostenloses Arbeitsblatt Wortsuchrätsel - Deutsch-Arbeitsblätter Wortschatz für 1. bis 3. Klasse Grundschule',
-        imageTitle: 'Kostenloses Arbeitsblatt Wortsuchrätsel',
-      },
-    ],
+    items: [],
     
   },
 

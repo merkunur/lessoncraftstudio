@@ -19,33 +19,7 @@ export const mathWorksheetsPtContent: ProductPageContent = {
     description: 'Crie atividades grátis de matemática em minutos. Gerador de fichas para imprimir com tabuada e operações. Perfeito para educação infantil e 1º ano. 300 DPI.',
     keywords: 'atividades de matemática, atividades para imprimir, atividades educação infantil, atividades 1º ano, atividades 2º ano, coordenação motora, tabuada, desenhos para colorir, atividades de alfabetização, atividades vogais, letra cursiva, pontilhado',
     canonicalUrl: 'https://www.lessoncraftstudio.com/pt/apps/atividades-matematica-fichas',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/math/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Atividade grátis de matemática para imprimir - exercícios para educação infantil'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/math/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Atividades grátis de matemática com tabuada - atividade para crianças do 1º ano'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/math/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Imprimíveis grátis de matemática - atividade para educação infantil com desenhos'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/math/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Atividade grátis para crianças - fichas de matemática para imprimir'
-      },
-    ],
-  },
 
   // Hero Section - FULL text from math-worksheet.md paragraphs 1-3
   hero: {
@@ -88,36 +62,7 @@ Cada atividade de matemática que você cria é 100% editável. Arraste, redimen
     badgeText: 'Exemplos Grátis',
     downloadingLabel: 'Baixando...',
     ofLabel: 'de',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/portuguese/math/sample-1.jpeg',
-        answerKeySrc: '/samples/portuguese/math/sample-1.jpeg',
-        altText: 'Atividade grátis de matemática para imprimir - exercícios para educação infantil',
-        imageTitle: 'Atividade grátis de matemática para imprimir',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/portuguese/math/sample-2.jpeg',
-        answerKeySrc: '/samples/portuguese/math/sample-2.jpeg',
-        altText: 'Atividades grátis de matemática com tabuada - atividade para crianças do 1º ano',
-        imageTitle: 'Atividades grátis de matemática com tabuada',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/portuguese/math/sample-3.jpeg',
-        answerKeySrc: '/samples/portuguese/math/sample-3.jpeg',
-        altText: 'Imprimíveis grátis de matemática - atividade para educação infantil com desenhos',
-        imageTitle: 'Imprimíveis grátis de matemática',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/portuguese/math/sample-4.jpeg',
-        answerKeySrc: '/samples/portuguese/math/sample-4.jpeg',
-        altText: 'Atividade grátis para crianças - fichas de matemática para imprimir',
-        imageTitle: 'Atividade grátis para crianças',
-      },
-    ],
+    items: [],
     
   },
 

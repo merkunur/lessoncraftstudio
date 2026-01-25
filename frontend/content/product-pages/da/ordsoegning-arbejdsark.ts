@@ -19,27 +19,7 @@ export const wordSearchDaContent: ProductPageContent = {
     description: 'Lav professionelle ordsøgningsopgaver til børnehaveklassen og indskolingen med vores gratis generator. Perfekt til gratis skoleopgaver, arbejdsark til print og.',
     keywords: 'ordsøgning arbejdsark, gratis skoleopgaver, arbejdsark til print, opgaver til 0 klasse, opgaver til 1 klasse, lære bogstaver, læse og skrive, ordsøgningsgenerator, printklare opgaver, dansk skoleopgaver',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/ordsoegning-arbejdsark',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/danish/wordsearch/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Ordsøgning arbejdsark gratis til print - portrætformat til børnehaveklassen',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/danish/wordsearch/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Ordsøgning gratis arbejdsark - tematisk ordforrådsøvelse til 0. klasse og 1. klasse',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/danish/wordsearch/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis arbejdsark ordsøgning - brugerdefineret ordliste til stavning',
-      },
-    ],
-  },
 
   // Hero Section - FULL text from wordsearch.md paragraphs 1-3
   hero: {
@@ -82,29 +62,7 @@ Vores gratis ordsøgningsgenerator tilbyder over 3000 børnevenlige billeder til
     noPdfLabel: 'Ingen PDF tilgængelig',
     freePdfCountLabel: '3 gratis downloads',
     ofLabel: 'af',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/danish/wordsearch/sample-1.jpeg',
-        answerKeySrc: '/samples/danish/wordsearch/sample-1.jpeg',
-        altText: 'Ordsøgning arbejdsark gratis til print - portrætformat til børnehaveklassen',
-        imageTitle: 'Ordsøgning arbejdsark gratis til print',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/danish/wordsearch/sample-2.jpeg',
-        answerKeySrc: '/samples/danish/wordsearch/sample-2.jpeg',
-        altText: 'Ordsøgning gratis arbejdsark - tematisk ordforrådsøvelse til 0. klasse og 1. klasse',
-        imageTitle: 'Ordsøgning gratis arbejdsark',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/danish/wordsearch/sample-3.jpeg',
-        answerKeySrc: '/samples/danish/wordsearch/sample-3.jpeg',
-        altText: 'Gratis arbejdsark ordsøgning - brugerdefineret ordliste til stavning',
-        imageTitle: 'Gratis arbejdsark ordsøgning',
-      },
-    ],
+    items: [],
     
   },
 

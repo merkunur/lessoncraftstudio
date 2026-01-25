@@ -21,33 +21,7 @@ export const missingPiecesItContent: ProductPageContent = {
     description: 'Crea schede gratuite pezzi mancanti per bambini. Stampabili gratuiti per scuola dell\'infanzia e primaria. Scarica scheda gratuita PDF in 3 minuti. Perfetto per insegnanti e genitori.',
     keywords: 'schede gratuite pezzi mancanti, scheda gratuita per bambini, stampabili gratuiti, scheda per scuola dell\'infanzia, schede didattiche scuola primaria, generatore schede, discriminazione visiva, pregrafismo, puzzle visivo',
     canonicalUrl: 'https://www.lessoncraftstudio.com/it/apps/pezzi-mancanti-schede',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/missing-pieces/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Scheda gratuita pezzi mancanti - stampabili gratuiti per scuola dell\'infanzia'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/missing-pieces/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Schede gratuite puzzle visivo - scheda per bambini discriminazione visiva'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/missing-pieces/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Stampabili gratuiti pezzi mancanti - scheda gratuita per scuola primaria'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/missing-pieces/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Scheda per bambini puzzle visivo - schede gratuite attività cognitiva'
-      }
-    ],
-  },
 
   // Hero Section
   hero: {
@@ -92,29 +66,7 @@ L'abbonamento Accesso Completo include licenza commerciale per la vendita di sta
     badgeText: 'Esempi Gratuiti',
     downloadingLabel: 'Scaricamento...',
     ofLabel: 'di',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/italian/missing-pieces/sample-2.jpeg',
-        answerKeySrc: '/samples/italian/missing-pieces/sample-2.jpeg',
-        altText: 'Schede gratuite puzzle visivo - scheda per bambini discriminazione visiva',
-        imageTitle: 'Schede gratuite puzzle visivo',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/italian/missing-pieces/sample-3.jpeg',
-        answerKeySrc: '/samples/italian/missing-pieces/sample-3.jpeg',
-        altText: 'Stampabili gratuiti pezzi mancanti - scheda gratuita per scuola primaria',
-        imageTitle: 'Stampabili gratuiti pezzi mancanti',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/italian/missing-pieces/sample-4.jpeg',
-        answerKeySrc: '/samples/italian/missing-pieces/sample-4.jpeg',
-        altText: 'Scheda per bambini puzzle visivo - schede gratuite attività cognitiva',
-        imageTitle: 'Scheda per bambini puzzle visivo',
-      },
-    ],
+    items: [],
     
   },
 

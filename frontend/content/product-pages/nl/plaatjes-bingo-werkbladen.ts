@@ -33,33 +33,7 @@ export const pictureBingoNlContent: ProductPageContent = {
     description: 'Maak professionele bingo werkbladen met onze plaatjes bingo generator. Met je Basispakket abonnement genereer je onbeperkt werkbladen voor groep 1, 2 en 3.',
     keywords: 'plaatjes bingo, werkbladen kleuters, werkbladen groep 3, oefenbladen gratis, rekenen werkbladen, letters leren, veilig leren lezen, sommen tot 20, kleurplaten, fijne motoriek, tafels oefenen, bingo generator',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/plaatjes-bingo-werkbladen',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/bingo/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis werkblad plaatjes bingo - werkblad voor kinderen met afbeeldingen voor groep 1-3'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/bingo/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis werkbladen bingo - werkblad voor kleuters met thematische plaatjes'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/bingo/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis printables bingo - werkblad letters leren en veilig leren lezen'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/bingo/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Werkblad voor kinderen bingo - oefenbladen gratis fijne motoriek'
-      }
-    ],
-  },
 
   // Hero Section - FULL text from bingo.md paragraphs
   hero: {
@@ -102,36 +76,7 @@ Met je abonnement maak je zoveel bingokaarten als je nodig hebt. Geen extra kost
     badgeText: 'Gratis Voorbeelden',
     downloadingLabel: 'Downloaden...',
     ofLabel: 'van',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/dutch/bingo/sample-1.jpeg',
-        answerKeySrc: '/samples/dutch/bingo/sample-1.jpeg',
-        altText: 'Gratis werkblad plaatjes bingo - werkblad voor kinderen met afbeeldingen voor groep 1-3',
-        imageTitle: 'Gratis werkblad plaatjes bingo',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/dutch/bingo/sample-2.jpeg',
-        answerKeySrc: '/samples/dutch/bingo/sample-2.jpeg',
-        altText: 'Gratis werkbladen bingo - werkblad voor kleuters met thematische plaatjes',
-        imageTitle: 'Gratis werkbladen bingo',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/dutch/bingo/sample-3.jpeg',
-        answerKeySrc: '/samples/dutch/bingo/sample-3.jpeg',
-        altText: 'Gratis printables bingo - werkblad letters leren en veilig leren lezen',
-        imageTitle: 'Gratis printables bingo',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/dutch/bingo/sample-4.jpeg',
-        answerKeySrc: '/samples/dutch/bingo/sample-4.jpeg',
-        altText: 'Werkblad voor kinderen bingo - oefenbladen gratis fijne motoriek',
-        imageTitle: 'Werkblad voor kinderen bingo',
-      },
-    ],
+    items: [],
     
   },
 

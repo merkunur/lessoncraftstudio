@@ -31,39 +31,7 @@ export const missingPiecesNlContent: ProductPageContent = {
     description: 'Maak gratis werkbladen ontbrekende puzzelstukjes voor kleuters en groep 3. Professionele 300 DPI kwaliteit. Download in minder dan 3 minuten. Perfect voor leraren en ouders.',
     keywords: 'ontbrekende puzzelstukjes werkbladen, werkbladen groep 3, werkbladen kleuters, oefenbladen gratis, fijne motoriek, visuele discriminatie, veilig leren lezen, letters leren, rekenen werkbladen, puzzel werkbladen',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/ontbrekende-puzzelstukjes-werkbladen',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/missing-pieces/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis werkblad ontbrekende puzzelstukjes - visuele discriminatie oefenbladen voor kleuters'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/missing-pieces/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Puzzelstukjes werkbladen gratis - werkbladen groep 3 visuele discriminatie'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/missing-pieces/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis printables ontbrekende puzzelstukjes - werkbladen kleuters fijne motoriek'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/missing-pieces/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Werkblad voor kinderen puzzelstukjes - oefenbladen gratis visuele discriminatie'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/missing-pieces/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis werkbladen ontbrekende stukjes - werkbladen groep 3 puzzel oefeningen'
-      },
-    ],
-  },
 
   // Hero Section - FULL text from missing-pieces.md paragraphs 1-2
   hero: {
@@ -106,43 +74,7 @@ Onze werkbladen groep 3 generator maakt het gemakkelijk om gedifferentieerde puz
     badgeText: 'Gratis Voorbeelden',
     downloadingLabel: 'Downloaden...',
     ofLabel: 'van',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/dutch/missing-pieces/sample-1.jpeg',
-        answerKeySrc: '/samples/dutch/missing-pieces/sample-1.jpeg',
-        altText: 'Gratis werkblad ontbrekende puzzelstukjes - visuele discriminatie oefenbladen voor kleuters',
-        imageTitle: 'Gratis werkblad ontbrekende puzzelstukjes',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/dutch/missing-pieces/sample-2.jpeg',
-        answerKeySrc: '/samples/dutch/missing-pieces/sample-2.jpeg',
-        altText: 'Puzzelstukjes werkbladen gratis - werkbladen groep 3 visuele discriminatie',
-        imageTitle: 'Puzzelstukjes werkbladen gratis',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/dutch/missing-pieces/sample-3.jpeg',
-        answerKeySrc: '/samples/dutch/missing-pieces/sample-3.jpeg',
-        altText: 'Gratis printables ontbrekende puzzelstukjes - werkbladen kleuters fijne motoriek',
-        imageTitle: 'Gratis printables ontbrekende puzzelstukjes',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/dutch/missing-pieces/sample-4.jpeg',
-        answerKeySrc: '/samples/dutch/missing-pieces/sample-4.jpeg',
-        altText: 'Werkblad voor kinderen puzzelstukjes - oefenbladen gratis visuele discriminatie',
-        imageTitle: 'Werkblad voor kinderen puzzelstukjes',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/dutch/missing-pieces/sample-5.jpeg',
-        answerKeySrc: '/samples/dutch/missing-pieces/sample-5.jpeg',
-        altText: 'Gratis werkbladen ontbrekende stukjes - werkbladen groep 3 puzzel oefeningen',
-        imageTitle: 'Gratis werkbladen ontbrekende stukjes',
-      },
-    ],
+    items: [],
     
   },
 

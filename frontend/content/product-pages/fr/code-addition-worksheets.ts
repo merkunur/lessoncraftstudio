@@ -21,39 +21,7 @@ export const codeAdditionFrContent: ProductPageContent = {
     description: 'Créez des fiches d\'addition codée pour maternelle et CP. Images colorées, légende à décoder, corrigé automatique. Téléchargez PDF gratuit en 3 minutes.',
     keywords: 'fiches maternelle, exercices maths, exercices CP, fiches à imprimer gratuit, graphisme maternelle, coloriage à imprimer, apprendre à lire, alphabet, tables de multiplication, écriture cursive, calcul',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fr/apps/addition-codee-fiches',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/french/code-addition/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Fiche addition codée fiches maternelle avec exercices maths et images pour enfants'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/french/code-addition/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Fiches à imprimer gratuit addition codée exercices CP avec légende décodage'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/french/code-addition/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Exercices maths maternelle coloriage à imprimer fiches addition images'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/french/code-addition/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Graphisme maternelle calcul fiches maternelle addition codée pour enfants'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/french/code-addition/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Fiche apprendre à lire nombres exercices CP CE1 addition avec images'
-      }
-    ],
-  },
 
   // Hero Section - FULL text from code-addition.md paragraphs 1-4
   hero: {
@@ -98,43 +66,7 @@ Notre générateur propose des fiches à imprimer gratuit adaptées à tous les 
     badgeText: 'Exemples Gratuits',
     downloadingLabel: 'Téléchargement...',
     ofLabel: 'sur',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/french/code-addition/sample-1.jpeg',
-        answerKeySrc: '/samples/french/code-addition/sample-1.jpeg',
-        altText: 'Fiche addition codée fiches maternelle avec exercices maths et images pour enfants',
-        imageTitle: 'Fiche addition codée fiches maternelle avec exercices maths et images pour enfants',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/french/code-addition/sample-2.jpeg',
-        answerKeySrc: '/samples/french/code-addition/sample-2.jpeg',
-        altText: 'Fiches à imprimer gratuit addition codée exercices CP avec légende décodage',
-        imageTitle: 'Fiches à imprimer gratuit addition codée exercices CP avec légende décodage',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/french/code-addition/sample-3.jpeg',
-        answerKeySrc: '/samples/french/code-addition/sample-3.jpeg',
-        altText: 'Exercices maths maternelle coloriage à imprimer fiches addition images',
-        imageTitle: 'Exercices maths maternelle coloriage à imprimer fiches addition images',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/french/code-addition/sample-4.jpeg',
-        answerKeySrc: '/samples/french/code-addition/sample-4.jpeg',
-        altText: 'Graphisme maternelle calcul fiches maternelle addition codée pour enfants',
-        imageTitle: 'Graphisme maternelle calcul fiches maternelle addition codée pour enfants',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/french/code-addition/sample-5.jpeg',
-        answerKeySrc: '/samples/french/code-addition/sample-5.jpeg',
-        altText: 'Fiche apprendre à lire nombres exercices CP CE1 addition avec images',
-        imageTitle: 'Fiche apprendre à lire nombres exercices CP CE1 addition avec images',
-      },
-    ],
+    items: [],
     
   },
 

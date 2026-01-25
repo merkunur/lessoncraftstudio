@@ -19,27 +19,7 @@ export const writingItContent: ProductPageContent = {
     description: 'Crea schede gratuite scrittura e pregrafismo per bambini. Stampabili gratuiti per scuola dell\'infanzia. Scarica scheda gratuita PDF in 3 minuti.',
     keywords: 'schede gratuite scrittura, scheda gratuita per bambini, stampabili gratuiti, scheda per scuola dell\'infanzia, schede didattiche pregrafismo, schede didattiche scuola primaria, schede italiano classe prima, lettere dell\'alfabeto, numeri da stampare, pregrafismo scuola infanzia',
     canonicalUrl: 'https://www.lessoncraftstudio.com/it/apps/scrittura-schede',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/writing/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Schede gratuite scrittura - pregrafismo stampabili gratuiti per scuola dell\'infanzia'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/writing/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Scheda gratuita per bambini - scrittura lettere dell\'alfabeto per scuola primaria'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/writing/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Schede didattiche pregrafismo - stampabili gratuiti numeri da stampare per bambini'
-      }
-    ],
-  },
 
   // Hero Section
   hero: {
@@ -84,15 +64,7 @@ Il generatore funziona in 11 lingue diverse. Le schede didattiche pregrafismo ve
     badgeText: 'Schede Gratuite',
     downloadingLabel: 'Scaricamento...',
     ofLabel: 'di',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/italian/writing/sample-3.jpeg',
-        answerKeySrc: '/samples/italian/writing/sample-3.jpeg',
-        altText: 'Schede didattiche pregrafismo - stampabili gratuiti numeri da stampare per bambini',
-        imageTitle: 'Schede didattiche pregrafismo',
-      },
-    ],
+    items: [],
     
   },
 

@@ -31,27 +31,7 @@ export const writingNlContent: ProductPageContent = {
     description: 'Maak professionele schrijfoefeningen voor letters leren met onze schrijfwerkbladen generator. Uw Volledige Toegang abonnement geeft u onbeperkte toegang tot.',
     keywords: 'schrijven oefenen, letters leren, werkbladen kleuters, werkbladen groep 3, oefenbladen gratis, fijne motoriek, veilig leren lezen, rekenen werkbladen, tafels oefenen, sommen tot 20, gratis werkblad, gratis werkbladen, gratis printables, werkblad voor kinderen, werkblad voor kleuters',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/schrijfoefeningen-werkbladen',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/writing/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Schrijfoefeningen gratis werkblad voor letters leren - werkbladen kleuters',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/writing/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis werkblad schrijven oefenen - fijne motoriek werkbladen groep 3',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/writing/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Schrijfwerkbladen gratis werkblad voor kinderen - veilig leren lezen oefenbladen',
-      },
-    ],
-  },
 
   // Hero Section - FULL text from writing.md paragraphs 1-4
   hero: {
@@ -98,29 +78,7 @@ De schrijfoefeningen generator bespaart leerkrachten uren voorbereidingstijd. Ma
     badgeText: 'Gratis Voorbeelden',
     downloadingLabel: 'Downloaden...',
     ofLabel: 'van',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/dutch/writing/sample-1.jpeg',
-        answerKeySrc: '/samples/dutch/writing/sample-1.jpeg',
-        altText: 'Schrijfoefeningen gratis werkblad voor letters leren - werkbladen kleuters',
-        imageTitle: 'Schrijfoefeningen gratis werkblad voor letters leren',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/dutch/writing/sample-2.jpeg',
-        answerKeySrc: '/samples/dutch/writing/sample-2.jpeg',
-        altText: 'Gratis werkblad schrijven oefenen - fijne motoriek werkbladen groep 3',
-        imageTitle: 'Gratis werkblad schrijven oefenen',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/dutch/writing/sample-3.jpeg',
-        answerKeySrc: '/samples/dutch/writing/sample-3.jpeg',
-        altText: 'Schrijfwerkbladen gratis werkblad voor kinderen - veilig leren lezen oefenbladen',
-        imageTitle: 'Schrijfwerkbladen gratis werkblad voor kinderen',
-      },
-    ],
+    items: [],
     
   },
 

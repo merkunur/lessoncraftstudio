@@ -33,33 +33,7 @@ export const codeAdditionNlContent: ProductPageContent = {
     description: 'Maak gratis werkbladen visuele optelsommen met onze generator. Gratis printables voor kinderen en kleuters. Download werkblad voor kinderen in 3 minuten.',
     keywords: 'visuele optelsommen, rekenen werkbladen, werkbladen groep 3, werkbladen kleuters, sommen tot 20, oefenbladen gratis, tafels oefenen, veilig leren lezen, fijne motoriek, letters leren',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/visuele-optelsommen-werkbladen',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/code-addition/sample-1.jpeg',
-        width: 800,
-        height: 1132,
-        caption: 'Gratis werkblad visuele optelsommen - Werkblad voor kinderen met kleurrijke plaatjes',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/code-addition/sample-2.jpeg',
-        width: 800,
-        height: 1132,
-        caption: 'Gratis werkbladen voor kleuters - Werkblad voor kleuters met dierenplaatjes',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/code-addition/sample-3.jpeg',
-        width: 800,
-        height: 1132,
-        caption: 'Gratis printables optelsommen - Werkblad rekenen met afbeeldingen',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/code-addition/sample-4.jpeg',
-        width: 800,
-        height: 1132,
-        caption: 'Werkblad voor kinderen visueel rekenen - Gratis werkblad sommen tot 20',
-      },
-    ],
-  },
 
   // Hero Section - FULL text from code-addition.md paragraphs 1-4
   hero: {
@@ -102,36 +76,7 @@ Kinderen leren het beste door te doen. Onze gratis werkblad voor kinderen gebrui
     badgeText: 'Gratis Voorbeelden',
     downloadingLabel: 'Downloaden...',
     ofLabel: 'van',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/dutch/code-addition/sample-1.jpeg',
-        answerKeySrc: '/samples/dutch/code-addition/sample-1.jpeg',
-        altText: 'Gratis werkblad visuele optelsommen - Werkblad voor kinderen met kleurrijke plaatjes',
-        imageTitle: 'Gratis werkblad visuele optelsommen',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/dutch/code-addition/sample-2.jpeg',
-        answerKeySrc: '/samples/dutch/code-addition/sample-2.jpeg',
-        altText: 'Gratis werkbladen voor kleuters - Werkblad voor kleuters met dierenplaatjes',
-        imageTitle: 'Gratis werkbladen voor kleuters',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/dutch/code-addition/sample-3.jpeg',
-        answerKeySrc: '/samples/dutch/code-addition/sample-3.jpeg',
-        altText: 'Gratis printables optelsommen - Werkblad rekenen met afbeeldingen',
-        imageTitle: 'Gratis printables optelsommen',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/dutch/code-addition/sample-4.jpeg',
-        answerKeySrc: '/samples/dutch/code-addition/sample-4.jpeg',
-        altText: 'Werkblad voor kinderen visueel rekenen - Gratis werkblad sommen tot 20',
-        imageTitle: 'Werkblad voor kinderen visueel rekenen',
-      },
-    ],
+    items: [],
     
   },
 

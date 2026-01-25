@@ -21,33 +21,7 @@ export const prepositionsPtContent: ProductPageContent = {
     description: 'Crie atividades grátis de preposições com nosso gerador. Imprimíveis grátis para educação infantil com conceitos espaciais. Fichas de preposições para crianças.',
     keywords: 'atividade grátis, atividade grátis para crianças, atividades grátis, imprimíveis grátis, atividade para crianças, atividade para educação infantil, atividades de preposições, atividades para imprimir, conceitos espaciais, em cima, embaixo, ao lado, atrás, entre',
     canonicalUrl: 'https://www.lessoncraftstudio.com/pt/apps/preposicoes-fichas',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/prepositions/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Atividade grátis de preposições para educação infantil - preencher lacunas',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/prepositions/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Atividade grátis de preposições para crianças - múltipla escolha',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/prepositions/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Imprimíveis grátis de preposições - conceitos espaciais',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/prepositions/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Atividade para educação infantil - preposições em português',
-      },
-    ],
-  },
 
   // Hero Section - FULL text from prepositions.md paragraphs 1-6
   hero: {
@@ -90,36 +64,7 @@ Crianças na educação infantil aprendem melhor com recursos visuais. Nossas at
     badgeText: 'Exemplos Grátis',
     downloadingLabel: 'Baixando...',
     ofLabel: 'de',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/portuguese/prepositions/sample-1.jpeg',
-        answerKeySrc: '/samples/portuguese/prepositions/sample-1.jpeg',
-        altText: 'Atividade grátis de preposições para educação infantil - preencher lacunas',
-        imageTitle: 'Atividade grátis de preposições para educação infantil',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/portuguese/prepositions/sample-2.jpeg',
-        answerKeySrc: '/samples/portuguese/prepositions/sample-2.jpeg',
-        altText: 'Atividade grátis de preposições para crianças - múltipla escolha',
-        imageTitle: 'Atividade grátis de preposições para crianças',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/portuguese/prepositions/sample-3.jpeg',
-        answerKeySrc: '/samples/portuguese/prepositions/sample-3.jpeg',
-        altText: 'Imprimíveis grátis de preposições - conceitos espaciais',
-        imageTitle: 'Imprimíveis grátis de preposições',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/portuguese/prepositions/sample-4.jpeg',
-        answerKeySrc: '/samples/portuguese/prepositions/sample-4.jpeg',
-        altText: 'Atividade para educação infantil - preposições em português',
-        imageTitle: 'Atividade para educação infantil',
-      },
-    ],
+    items: [],
     
   },
 

@@ -33,39 +33,7 @@ export const patternWorksheetDeContent: ProductPageContent = {
     description: 'Muster-Arbeitsblätter in 3 Minuten erstellen. 9 Mustertypen, 3000+ Bilder, 300 DPI. Perfekt für Vorschule und Grundschule. Jetzt testen! Perfekt für Lehrer und Eltern.',
     keywords: 'muster arbeitsblatt generator, arbeitsblätter grundschule, kostenlose arbeitsblätter, mathe arbeitsblätter, vorschule arbeitsblätter, einmaleins, schwungübungen, buchstaben lernen, rechnen lernen, ausmalbilder',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/muster-arbeitsblatt-arbeitsblaetter',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/pattern/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Muster-Arbeitsblatt Hochformat - Kostenlose Arbeitsblätter für Arbeitsblätter Grundschule und Vorschule',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/pattern/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Muster-Arbeitsblatt Variante 2 - Mathe Arbeitsblätter für Mustererkennung',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/pattern/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Muster-Arbeitsblatt Variante 3 - Vorschule Arbeitsblätter mit Mustern',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/pattern/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Muster-Arbeitsblatt Variante 4 - Kostenlose Arbeitsblätter zum Ausdrucken',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/pattern/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Muster-Arbeitsblatt Variante 5 - Arbeitsblätter Grundschule mit Lösungen',
-      },
-    ],
-  },
 
   // Hero Section - FULL text from muster-arbeitsblatt.md
   hero: {
@@ -108,43 +76,7 @@ Mustererkennung ist eine Schlüsselkompetenz im frühen Mathematikunterricht. Ki
     badgeText: 'Kostenlose Beispiele',
     downloadingLabel: 'Wird heruntergeladen...',
     ofLabel: 'von',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/german/pattern/sample-1.jpeg',
-        answerKeySrc: '/samples/german/pattern/sample-1.jpeg',
-        altText: 'Muster-Arbeitsblatt Hochformat - Kostenlose Arbeitsblätter für Arbeitsblätter Grundschule und Vorschule',
-        imageTitle: 'Muster-Arbeitsblatt Hochformat',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/german/pattern/sample-2.jpeg',
-        answerKeySrc: '/samples/german/pattern/sample-2.jpeg',
-        altText: 'Muster-Arbeitsblatt Variante 2 - Mathe Arbeitsblätter für Mustererkennung',
-        imageTitle: 'Muster-Arbeitsblatt Variante 2',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/german/pattern/sample-3.jpeg',
-        answerKeySrc: '/samples/german/pattern/sample-3.jpeg',
-        altText: 'Muster-Arbeitsblatt Variante 3 - Vorschule Arbeitsblätter mit Mustern',
-        imageTitle: 'Muster-Arbeitsblatt Variante 3',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/german/pattern/sample-4.jpeg',
-        answerKeySrc: '/samples/german/pattern/sample-4.jpeg',
-        altText: 'Muster-Arbeitsblatt Variante 4 - Kostenlose Arbeitsblätter zum Ausdrucken',
-        imageTitle: 'Muster-Arbeitsblatt Variante 4',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/german/pattern/sample-5.jpeg',
-        answerKeySrc: '/samples/german/pattern/sample-5.jpeg',
-        altText: 'Muster-Arbeitsblatt Variante 5 - Arbeitsblätter Grundschule mit Lösungen',
-        imageTitle: 'Muster-Arbeitsblatt Variante 5',
-      },
-    ],
+    items: [],
     
   },
 

@@ -21,39 +21,7 @@ export const moreLessItContent: ProductPageContent = {
     description: 'Crea schede gratuite professionali per confrontare numeri con il nostro generatore. Stampabili gratuiti con simboli maggiore, minore e uguale.',
     keywords: 'schede gratuite confronto numeri, scheda gratuita per bambini, stampabili gratuiti, scheda per scuola dell\'infanzia, maggiore minore uguale, schede matematica, numeri da stampare',
     canonicalUrl: 'https://www.lessoncraftstudio.com/it/apps/confronto-numeri-schede',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/more-less/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Scheda gratuita confronto numeri - stampabili gratuiti maggiore minore per scuola dell\'infanzia',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/more-less/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Schede gratuite confronto immagini e numeri - scheda gratuita per bambini',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/more-less/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Stampabili gratuiti matematica - scheda per bambini confronto quantità',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/more-less/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Scheda gratuita per scuola dell\'infanzia - esercizi maggiore minore uguale',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/more-less/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Schede gratuite matematica - confronto numeri stampabili per scuola primaria',
-      },
-    ],
-  },
 
   // Hero Section
   hero: {
@@ -98,29 +66,7 @@ Gli insegnanti della scuola dell'infanzia apprezzano la flessibilità del genera
     badgeText: 'Schede Gratuite',
     downloadingLabel: 'Scaricamento...',
     ofLabel: 'di',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/italian/more-less/sample-2.jpeg',
-        answerKeySrc: '/samples/italian/more-less/sample-2.jpeg',
-        altText: 'Schede gratuite confronto immagini e numeri - scheda gratuita per bambini',
-        imageTitle: 'Schede gratuite confronto immagini e numeri',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/italian/more-less/sample-3.jpeg',
-        answerKeySrc: '/samples/italian/more-less/sample-3.jpeg',
-        altText: 'Stampabili gratuiti matematica - scheda per bambini confronto quantità',
-        imageTitle: 'Stampabili gratuiti matematica',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/italian/more-less/sample-5.jpeg',
-        answerKeySrc: '/samples/italian/more-less/sample-5.jpeg',
-        altText: 'Schede gratuite matematica - confronto numeri stampabili per scuola primaria',
-        imageTitle: 'Schede gratuite matematica',
-      },
-    ],
+    items: [],
     
   },
 

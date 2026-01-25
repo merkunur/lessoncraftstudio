@@ -19,39 +19,7 @@ export const wordGuessEnContent: ProductPageContent = {
     description: 'Create word guess worksheets for kindergarten. Generate spelling puzzles with picture clues. Download free printable PDF worksheets in 3 minutes. Perfect for teachers and parents.',
     keywords: 'word guess worksheets, spelling worksheets, vocabulary worksheets, kindergarten worksheets, first grade worksheets, free printable worksheets, phonics worksheets, sight words worksheets, alphabet worksheets, worksheet for kids',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/word-guess-worksheets',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/word-guess/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Free printable word guess worksheet with picture clues for kindergarten vocabulary practice',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/word-guess/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Word guess spelling worksheet for first grade phonics practice',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/word-guess/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Custom word list word guess worksheet for sight words and spelling practice',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/word-guess/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Word guess printable free - vocabulary worksheet for preschool letter recognition',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/word-guess/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Free spelling worksheets - word guess puzzle for kindergarten vocabulary building',
-      },
-    ]
-  },
 
   // Hero Section - FULL text from word-guess.md paragraphs 1-5
   hero: {
@@ -84,43 +52,7 @@ Generate 1-10 puzzles per page with automatic layout optimization. Add name and 
     downloadLabel: 'Download Free Sample',
     worksheetLabel: 'Worksheet',
     answerKeyLabel: 'Answer Key',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/english/word-guess/sample-1.jpeg',
-        answerKeySrc: '/samples/english/word-guess/sample-1.jpeg',
-        altText: 'Free printable word guess worksheet with picture clues for kindergarten vocabulary practice',
-        imageTitle: 'Free printable word guess worksheet with picture clues for kindergarten vocabulary practice',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/english/word-guess/sample-2.jpeg',
-        answerKeySrc: '/samples/english/word-guess/sample-2.jpeg',
-        altText: 'Word guess spelling worksheet for first grade phonics practice',
-        imageTitle: 'Word guess spelling worksheet for first grade phonics practice',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/english/word-guess/sample-3.jpeg',
-        answerKeySrc: '/samples/english/word-guess/sample-3.jpeg',
-        altText: 'Custom word list word guess worksheet for sight words and spelling practice',
-        imageTitle: 'Custom word list word guess worksheet for sight words and spelling practice',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/english/word-guess/sample-4.jpeg',
-        answerKeySrc: '/samples/english/word-guess/sample-4.jpeg',
-        altText: 'Word guess printable free - vocabulary worksheet for preschool letter recognition',
-        imageTitle: 'Word guess printable free',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/english/word-guess/sample-5.jpeg',
-        answerKeySrc: '/samples/english/word-guess/sample-5.jpeg',
-        altText: 'Free spelling worksheets - word guess puzzle for kindergarten vocabulary building',
-        imageTitle: 'Free spelling worksheets',
-      },
-    ],
+    items: [],
     
   },
 

@@ -19,33 +19,7 @@ export const sudokuPtContent: ProductPageContent = {
     description: 'Crie quebra-cabeças de sudoku visual perfeitos para educação infantil e ensino fundamental. O gerador de sudoku infantil do LessonCraft Studio transforma.',
     keywords: 'sudoku para crianças, atividades para imprimir, atividades de matemática, educação infantil, raciocínio lógico, 1º ano, 2º ano, coordenação motora, desenhos para colorir, atividades de alfabetização, atividades vogais, letra cursiva, pontilhado, tabuada',
     canonicalUrl: 'https://www.lessoncraftstudio.com/pt/apps/sudoku-criancas-fichas',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/sudoku/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Atividade grátis de sudoku visual para crianças - atividade de matemática nível fácil para educação infantil',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/sudoku/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Atividade grátis para crianças de sudoku com imagens - imprimíveis grátis de raciocínio lógico para 1º ano',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/sudoku/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Atividades grátis de sudoku infantil - atividade para educação infantil com imagens coloridas',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/sudoku/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Imprimíveis grátis de sudoku visual - atividade de matemática para crianças nível avançado',
-      },
-    ],
-  },
 
   // Hero Section - FULL text from sudoku.md
   hero: {
@@ -88,36 +62,7 @@ O sudoku infantil usa grade 4x4 com imagens coloridas. Perfeito para atividades 
     badgeText: 'Exemplos Grátis',
     downloadingLabel: 'Baixando...',
     ofLabel: 'de',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/portuguese/sudoku/sample-1.jpeg',
-        answerKeySrc: '/samples/portuguese/sudoku/sample-1.jpeg',
-        altText: 'Atividade grátis de sudoku visual para crianças - atividade de matemática nível fácil para educação infantil',
-        imageTitle: 'Atividade grátis de sudoku visual para crianças',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/portuguese/sudoku/sample-2.jpeg',
-        answerKeySrc: '/samples/portuguese/sudoku/sample-2.jpeg',
-        altText: 'Atividade grátis para crianças de sudoku com imagens - imprimíveis grátis de raciocínio lógico para 1º ano',
-        imageTitle: 'Atividade grátis para crianças de sudoku com imagens',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/portuguese/sudoku/sample-3.jpeg',
-        answerKeySrc: '/samples/portuguese/sudoku/sample-3.jpeg',
-        altText: 'Atividades grátis de sudoku infantil - atividade para educação infantil com imagens coloridas',
-        imageTitle: 'Atividades grátis de sudoku infantil',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/portuguese/sudoku/sample-4.jpeg',
-        answerKeySrc: '/samples/portuguese/sudoku/sample-4.jpeg',
-        altText: 'Imprimíveis grátis de sudoku visual - atividade de matemática para crianças nível avançado',
-        imageTitle: 'Imprimíveis grátis de sudoku visual',
-      },
-    ],
+    items: [],
     
   },
 

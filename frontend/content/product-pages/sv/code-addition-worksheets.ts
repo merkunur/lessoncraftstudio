@@ -19,33 +19,7 @@ export const codeAdditionSvContent: ProductPageContent = {
     description: 'Skapa gratis arbetsblad för kodaddition med bilder. Generera matematik övningar för förskoleklass och årskurs 1-3. Ladda ner professionella PDF-arbetsblad för.',
     keywords: 'gratis arbetsblad, gratis arbetsblad för barn, gratis utskrifter, arbetsblad för barn, arbetsblad för förskoleklass, arbetsblad, kodaddition, matematik arbetsblad, addition och subtraktion, förskoleklass material, matte övningar',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/kodaddition-arbetsblad',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/code-addition/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis arbetsblad kodaddition - matematik övningar för förskoleklass porträttformat',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/code-addition/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis arbetsblad kodaddition - matematik övningar för barn liggande format',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/code-addition/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis arbetsblad för förskoleklass - kodaddition med bilder',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/code-addition/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Arbetsblad för barn - kodaddition matematik gratis utskrifter',
-      },
-    ],
-  },
 
   // Hero Section - FULL text from code-addition.md paragraphs 1-4
   hero: {
@@ -90,36 +64,7 @@ Full Tillgång-prenumerationen kostar 2400 kr per år eller 250 kr per månad. D
     badgeText: 'Gratis Exempel',
     downloadingLabel: 'Laddar ner...',
     ofLabel: 'av',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/swedish/code-addition/sample-1.jpeg',
-        answerKeySrc: '/samples/swedish/code-addition/sample-1.jpeg',
-        altText: 'Gratis arbetsblad kodaddition - matematik övningar för förskoleklass porträttformat',
-        imageTitle: 'Gratis arbetsblad kodaddition',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/swedish/code-addition/sample-2.jpeg',
-        answerKeySrc: '/samples/swedish/code-addition/sample-2.jpeg',
-        altText: 'Gratis arbetsblad kodaddition - matematik övningar för barn liggande format',
-        imageTitle: 'Gratis arbetsblad kodaddition',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/swedish/code-addition/sample-3.jpeg',
-        answerKeySrc: '/samples/swedish/code-addition/sample-3.jpeg',
-        altText: 'Gratis arbetsblad för förskoleklass - kodaddition med bilder',
-        imageTitle: 'Gratis arbetsblad för förskoleklass',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/swedish/code-addition/sample-4.jpeg',
-        answerKeySrc: '/samples/swedish/code-addition/sample-4.jpeg',
-        altText: 'Arbetsblad för barn - kodaddition matematik gratis utskrifter',
-        imageTitle: 'Arbetsblad för barn',
-      },
-    ],
+    items: [],
     
   },
 

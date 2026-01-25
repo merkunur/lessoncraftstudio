@@ -31,39 +31,7 @@ export const missingPiecesDeContent: ProductPageContent = {
     description: 'Erstellen Sie professionelle Puzzle-Arbeitsblätter mit unserem Generator für fehlende Puzzleteile. Perfekt für Arbeitsblätter Grundschule, Vorschule.',
     keywords: 'fehlende puzzleteile arbeitsblätter, arbeitsblätter grundschule, kostenlose arbeitsblätter, vorschule arbeitsblätter, mathe arbeitsblätter, visuelle wahrnehmung, puzzle arbeitsblätter, schwungübungen, ausmalbilder, buchstaben lernen',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/fehlende-puzzleteile-arbeitsblaetter',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/missing-pieces/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Fehlende Puzzleteile Arbeitsblätter Grundschule - kostenlose Druckvorlagen'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/missing-pieces/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Puzzle-Arbeitsblätter Vorschule - visuelle Wahrnehmung für Kinder'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/missing-pieces/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Kostenlose Arbeitsblätter fehlende Teile - Mathe Arbeitsblätter visuelles Denken'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/missing-pieces/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Vorschule Arbeitsblätter Puzzle-Generator - räumliches Denken fördern'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/missing-pieces/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Fehlende Puzzleteile Arbeitsblätter PDF - Problemlösung für Grundschule'
-      },
-    ],
-  },
 
   // Hero Section - FULL text from fehlende-puzzleteile.md
   hero: {
@@ -108,43 +76,7 @@ Ideal für Erzieherinnen in der Vorschule, Grundschullehrkräfte und Eltern im H
     badgeText: 'Kostenlose Beispiele',
     downloadingLabel: 'Wird heruntergeladen...',
     ofLabel: 'von',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/german/missing-pieces/sample-1.jpeg',
-        answerKeySrc: '/samples/german/missing-pieces/sample-1.jpeg',
-        altText: 'Fehlende Puzzleteile Arbeitsblätter Grundschule - kostenlose Druckvorlagen',
-        imageTitle: 'Fehlende Puzzleteile Arbeitsblätter Grundschule',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/german/missing-pieces/sample-2.jpeg',
-        answerKeySrc: '/samples/german/missing-pieces/sample-2.jpeg',
-        altText: 'Puzzle-Arbeitsblätter Vorschule - visuelle Wahrnehmung für Kinder',
-        imageTitle: 'Puzzle-Arbeitsblätter Vorschule',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/german/missing-pieces/sample-3.jpeg',
-        answerKeySrc: '/samples/german/missing-pieces/sample-3.jpeg',
-        altText: 'Kostenlose Arbeitsblätter fehlende Teile - Mathe Arbeitsblätter visuelles Denken',
-        imageTitle: 'Kostenlose Arbeitsblätter fehlende Teile',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/german/missing-pieces/sample-4.jpeg',
-        answerKeySrc: '/samples/german/missing-pieces/sample-4.jpeg',
-        altText: 'Vorschule Arbeitsblätter Puzzle-Generator - räumliches Denken fördern',
-        imageTitle: 'Vorschule Arbeitsblätter Puzzle-Generator',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/german/missing-pieces/sample-5.jpeg',
-        answerKeySrc: '/samples/german/missing-pieces/sample-5.jpeg',
-        altText: 'Fehlende Puzzleteile Arbeitsblätter PDF - Problemlösung für Grundschule',
-        imageTitle: 'Fehlende Puzzleteile Arbeitsblätter PDF',
-      },
-    ],
+    items: [],
     
   },
 

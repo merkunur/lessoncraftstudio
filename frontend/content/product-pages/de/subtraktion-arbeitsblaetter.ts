@@ -33,39 +33,7 @@ export const subtractionDeContent: ProductPageContent = {
     description: 'Erstellen Sie Subtraktion-Arbeitsblätter in 3 Minuten. Generator für Vorschule & Grundschule. Minusrechnen spielerisch lernen - kostenlos testen! Perfekt für Lehrer und Eltern.',
     keywords: 'subtraktion arbeitsblätter, mathe arbeitsblätter, arbeitsblätter grundschule, kostenlose arbeitsblätter, vorschule arbeitsblätter, rechnen lernen, minusrechnen, einmaleins, schwungübungen, buchstaben lernen',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/subtraktion-arbeitsblaetter',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/subtraction/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Subtraktion Arbeitsblätter kostenlos zum Ausdrucken - Minusrechnen für Vorschule und Grundschule',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/subtraction/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Mathe Arbeitsblätter Minusrechnen für Kinder - Rechnen lernen für Arbeitsblätter Grundschule',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/subtraction/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Kostenlose Subtraktion Übungsblätter - Rechnen 1. Klasse für Vorschule Arbeitsblätter',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/subtraction/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Subtraktion Arbeitsblätter Grundschule - Minusrechnen spielerisch lernen mit Bildern',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/subtraction/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Druckbare Subtraktion Arbeitsblätter - Kostenlose Arbeitsblätter für Mathe Rechnen lernen',
-      },
-    ],
-  },
 
   // Hero Section - FULL text from subtraktion.md
   hero: {
@@ -114,43 +82,7 @@ Der Generator unterstützt 11 Sprachen für die Benutzeroberfläche und Bildbesc
     badgeText: 'Kostenlose Beispiele',
     downloadingLabel: 'Wird heruntergeladen...',
     ofLabel: 'von',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/german/subtraction/sample-1.jpeg',
-        answerKeySrc: '/samples/german/subtraction/sample-1.jpeg',
-        altText: 'Subtraktion Arbeitsblätter kostenlos zum Ausdrucken - Minusrechnen für Vorschule und Grundschule',
-        imageTitle: 'Subtraktion Arbeitsblätter kostenlos zum Ausdrucken',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/german/subtraction/sample-2.jpeg',
-        answerKeySrc: '/samples/german/subtraction/sample-2.jpeg',
-        altText: 'Mathe Arbeitsblätter Minusrechnen für Kinder - Rechnen lernen für Arbeitsblätter Grundschule',
-        imageTitle: 'Mathe Arbeitsblätter Minusrechnen für Kinder',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/german/subtraction/sample-3.jpeg',
-        answerKeySrc: '/samples/german/subtraction/sample-3.jpeg',
-        altText: 'Kostenlose Subtraktion Übungsblätter - Rechnen 1. Klasse für Vorschule Arbeitsblätter',
-        imageTitle: 'Kostenlose Subtraktion Übungsblätter',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/german/subtraction/sample-4.jpeg',
-        answerKeySrc: '/samples/german/subtraction/sample-4.jpeg',
-        altText: 'Subtraktion Arbeitsblätter Grundschule - Minusrechnen spielerisch lernen mit Bildern',
-        imageTitle: 'Subtraktion Arbeitsblätter Grundschule',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/german/subtraction/sample-5.jpeg',
-        answerKeySrc: '/samples/german/subtraction/sample-5.jpeg',
-        altText: 'Druckbare Subtraktion Arbeitsblätter - Kostenlose Arbeitsblätter für Mathe Rechnen lernen',
-        imageTitle: 'Druckbare Subtraktion Arbeitsblätter',
-      },
-    ],
+    items: [],
     
   },
 

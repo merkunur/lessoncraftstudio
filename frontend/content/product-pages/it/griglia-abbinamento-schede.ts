@@ -26,39 +26,7 @@ export const gridMatchItContent: ProductPageContent = {
     description: 'Crea schede gratuite griglia abbinamento con il nostro generatore. Stampabili gratuiti personalizzabili perfetti per scuola dell\'infanzia e scuola primaria.',
     keywords: 'schede gratuite griglia abbinamento, scheda gratuita per bambini, stampabili gratuiti, scheda per bambini, scheda per scuola dell\'infanzia, puzzle griglia, schede stampabili, generatore schede, abbinamento immagini, classe prima, pregrafismo',
     canonicalUrl: 'https://www.lessoncraftstudio.com/it/apps/griglia-abbinamento-schede',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/grid-match/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Scheda gratuita griglia abbinamento - schede gratuite puzzle visivo per bambini scuola primaria'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/grid-match/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Stampabili gratuiti griglia abbinamento - scheda gratuita per bambini scuola dell\'infanzia'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/grid-match/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Scheda per bambini griglia abbinamento - schede gratuite educative per classe prima'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/grid-match/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Scheda gratuita per bambini - stampabili gratuiti puzzle griglia scuola primaria'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/grid-match/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Schede gratuite griglia abbinamento - scheda per scuola dell\'infanzia stampabile'
-      },
-    ],
-  },
 
   // Hero Section
   hero: {
@@ -101,29 +69,7 @@ Il nostro generatore di schede gratuite offre personalizzazione completa per ogn
     badgeText: 'Stampabili Gratuiti',
     downloadingLabel: 'Scaricamento...',
     ofLabel: 'di',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/italian/grid-match/sample-1.jpeg',
-        answerKeySrc: '/samples/italian/grid-match/sample-1.jpeg',
-        altText: 'Scheda gratuita griglia abbinamento - schede gratuite puzzle visivo per bambini scuola primaria',
-        imageTitle: 'Scheda gratuita griglia abbinamento',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/italian/grid-match/sample-3.jpeg',
-        answerKeySrc: '/samples/italian/grid-match/sample-3.jpeg',
-        altText: 'Scheda per bambini griglia abbinamento - schede gratuite educative per classe prima',
-        imageTitle: 'Scheda per bambini griglia abbinamento',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/italian/grid-match/sample-4.jpeg',
-        answerKeySrc: '/samples/italian/grid-match/sample-4.jpeg',
-        altText: 'Scheda gratuita per bambini - stampabili gratuiti puzzle griglia scuola primaria',
-        imageTitle: 'Scheda gratuita per bambini',
-      },
-    ],
+    items: [],
     
   },
 

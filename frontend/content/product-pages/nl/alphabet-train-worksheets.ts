@@ -31,33 +31,7 @@ export const alphabetTrainNlContent: ProductPageContent = {
     description: 'Maak gratis werkbladen voor alfabet trein met deze professionele generator. Letters leren werkblad voor kinderen, kleuters en groep 3. Download als PDF -.',
     keywords: 'gratis werkblad, gratis werkbladen, werkblad voor kinderen, werkblad voor kleuters, gratis printables, alfabet trein werkbladen, letters leren, werkbladen kleuters, werkbladen groep 3, oefenbladen gratis',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/alfabet-trein-werkbladen',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/alphabet-train/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Alfabet trein gratis werkblad - letters leren voor kleuters en groep 3'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/alphabet-train/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis werkblad voor kinderen - alfabet trein letters leren'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/alphabet-train/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis werkbladen alfabet trein - werkblad voor kleuters'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/alphabet-train/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Letters leren gratis printables - alfabet werkblad voor kinderen'
-      },
-    ]
-  },
 
   // Hero Section - FULL text from alphabet-train.md
   hero: {
@@ -100,36 +74,7 @@ Deze werkbladen generator biedt meer dan 3000 kindvriendelijke afbeeldingen. Kie
     badgeText: 'Gratis Voorbeelden',
     downloadingLabel: 'Downloaden...',
     ofLabel: 'van',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/dutch/alphabet-train/sample-1.jpeg',
-        answerKeySrc: '/samples/dutch/alphabet-train/sample-1.jpeg',
-        altText: 'Alfabet trein gratis werkblad - letters leren voor kleuters en groep 3',
-        imageTitle: 'Alfabet trein gratis werkblad',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/dutch/alphabet-train/sample-2.jpeg',
-        answerKeySrc: '/samples/dutch/alphabet-train/sample-2.jpeg',
-        altText: 'Gratis werkblad voor kinderen - alfabet trein letters leren',
-        imageTitle: 'Gratis werkblad voor kinderen',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/dutch/alphabet-train/sample-3.jpeg',
-        answerKeySrc: '/samples/dutch/alphabet-train/sample-3.jpeg',
-        altText: 'Gratis werkbladen alfabet trein - werkblad voor kleuters',
-        imageTitle: 'Gratis werkbladen alfabet trein',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/dutch/alphabet-train/sample-4.jpeg',
-        answerKeySrc: '/samples/dutch/alphabet-train/sample-4.jpeg',
-        altText: 'Letters leren gratis printables - alfabet werkblad voor kinderen',
-        imageTitle: 'Letters leren gratis printables',
-      },
-    ],
+    items: [],
     
   },
 

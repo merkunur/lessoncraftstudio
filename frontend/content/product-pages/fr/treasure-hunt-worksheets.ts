@@ -22,39 +22,7 @@ export const treasureHuntFrContent: ProductPageContent = {
     description: 'Créez des fiches chasse au trésor en 3 minutes. Abonnement 240€/an, création illimitée. Directions spatiales pour maternelle et CP. Parfait pour enseignants et.',
     keywords: 'fiches chasse au trésor, fiches à imprimer gratuit, fiches maternelle, exercices CP, directions spatiales, exercices CE1, graphisme maternelle, coloriage à imprimer, apprendre à lire, alphabet, écriture cursive, tables de multiplication',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fr/apps/chasse-au-tresor-fiches',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/french/treasure-hunt/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Fiche chasse au trésor gratuite avec directions de base pour maternelle',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/french/treasure-hunt/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Fiche chasse au trésor gratuite avec directions cardinales pour CP',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/french/treasure-hunt/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Fiche chasse au trésor gratuite thème animaux pour enfants',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/french/treasure-hunt/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Fiche chasse au trésor à imprimer gratuit thème nature',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/french/treasure-hunt/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Fiches gratuites chasse au trésor directions spatiales maternelle',
-      },
-    ],
-  },
 
   // Hero Section - FULL text from French treasure-hunt.md Section 1
   hero: {
@@ -97,43 +65,7 @@ Notre générateur propose deux types de vocabulaire de directions adaptés à l
     badgeText: 'Exemples Gratuits',
     downloadingLabel: 'Téléchargement...',
     ofLabel: 'sur',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/french/treasure-hunt/sample-1.jpeg',
-        answerKeySrc: '/samples/french/treasure-hunt/sample-1.jpeg',
-        altText: 'Fiche chasse au trésor gratuite avec directions de base pour maternelle',
-        imageTitle: 'Fiche chasse au trésor gratuite avec directions de base pour maternelle',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/french/treasure-hunt/sample-2.jpeg',
-        answerKeySrc: '/samples/french/treasure-hunt/sample-2.jpeg',
-        altText: 'Fiche chasse au trésor gratuite avec directions cardinales pour CP',
-        imageTitle: 'Fiche chasse au trésor gratuite avec directions cardinales pour CP',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/french/treasure-hunt/sample-3.jpeg',
-        answerKeySrc: '/samples/french/treasure-hunt/sample-3.jpeg',
-        altText: 'Fiche chasse au trésor gratuite thème animaux pour enfants',
-        imageTitle: 'Fiche chasse au trésor gratuite thème animaux pour enfants',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/french/treasure-hunt/sample-4.jpeg',
-        answerKeySrc: '/samples/french/treasure-hunt/sample-4.jpeg',
-        altText: 'Fiche chasse au trésor à imprimer gratuit thème nature',
-        imageTitle: 'Fiche chasse au trésor à imprimer gratuit thème nature',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/french/treasure-hunt/sample-5.jpeg',
-        answerKeySrc: '/samples/french/treasure-hunt/sample-5.jpeg',
-        altText: 'Fiches gratuites chasse au trésor directions spatiales maternelle',
-        imageTitle: 'Fiches gratuites chasse au trésor directions spatiales maternelle',
-      },
-    ],
+    items: [],
     
   },
 

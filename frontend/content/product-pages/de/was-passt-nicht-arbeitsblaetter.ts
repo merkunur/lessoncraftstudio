@@ -33,39 +33,7 @@ export const oddOneOutDeContent: ProductPageContent = {
     description: 'Erstellen Sie Was passt nicht Arbeitsblätter in unter 3 Minuten. Kostenlose Logik-Übungen für Grundschule und Vorschule. Jetzt Generator testen! Perfekt für Lehrer und Eltern.',
     keywords: 'was passt nicht arbeitsblätter, arbeitsblätter grundschule, kostenlose arbeitsblätter, mathe arbeitsblätter, vorschule arbeitsblätter, einmaleins, schwungübungen, buchstaben lernen, rechnen lernen, ausmalbilder',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/was-passt-nicht-arbeitsblaetter',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/odd-one-out/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Was passt nicht Arbeitsblätter Grundschule - kostenlose Logik-Übungen zum Ausdrucken',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/odd-one-out/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Vorschule Arbeitsblätter Was passt nicht - visuelle Wahrnehmungsübungen für Kinder',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/odd-one-out/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Mathe Arbeitsblätter mit Kategorisierung - kostenlose Arbeitsblätter Generator',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/odd-one-out/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Kostenlose Arbeitsblätter Logik - Was passt nicht Übungen für Grundschule',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/odd-one-out/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Arbeitsblätter Grundschule Konzentration - Was passt nicht für Vorschule',
-      },
-    ],
-  },
 
   // Hero Section - FULL text from was-passt-nicht.md
   hero: {
@@ -110,43 +78,7 @@ Die umfangreiche Bildbibliothek enthält über 3000 kindgerechte Bilder. Alle Bi
     badgeText: 'Kostenlose Beispiele',
     downloadingLabel: 'Wird heruntergeladen...',
     ofLabel: 'von',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/german/odd-one-out/sample-1.jpeg',
-        answerKeySrc: '/samples/german/odd-one-out/sample-1.jpeg',
-        altText: 'Was passt nicht Arbeitsblätter Grundschule - kostenlose Logik-Übungen zum Ausdrucken',
-        imageTitle: 'Was passt nicht Arbeitsblätter Grundschule',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/german/odd-one-out/sample-2.jpeg',
-        answerKeySrc: '/samples/german/odd-one-out/sample-2.jpeg',
-        altText: 'Vorschule Arbeitsblätter Was passt nicht - visuelle Wahrnehmungsübungen für Kinder',
-        imageTitle: 'Vorschule Arbeitsblätter Was passt nicht',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/german/odd-one-out/sample-3.jpeg',
-        answerKeySrc: '/samples/german/odd-one-out/sample-3.jpeg',
-        altText: 'Mathe Arbeitsblätter mit Kategorisierung - kostenlose Arbeitsblätter Generator',
-        imageTitle: 'Mathe Arbeitsblätter mit Kategorisierung',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/german/odd-one-out/sample-4.jpeg',
-        answerKeySrc: '/samples/german/odd-one-out/sample-4.jpeg',
-        altText: 'Kostenlose Arbeitsblätter Logik - Was passt nicht Übungen für Grundschule',
-        imageTitle: 'Kostenlose Arbeitsblätter Logik',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/german/odd-one-out/sample-5.jpeg',
-        answerKeySrc: '/samples/german/odd-one-out/sample-5.jpeg',
-        altText: 'Arbeitsblätter Grundschule Konzentration - Was passt nicht für Vorschule',
-        imageTitle: 'Arbeitsblätter Grundschule Konzentration',
-      },
-    ],
+    items: [],
     
   },
 

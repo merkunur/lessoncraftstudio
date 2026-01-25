@@ -33,39 +33,7 @@ export const moreLessDeContent: ProductPageContent = {
     description: 'Erstellen Sie Vergleichs-Arbeitsblätter in unter 3 Minuten. Kostenlose Mathe Arbeitsblätter zum Ausdrucken. Jetzt Generator testen! Perfekt für Lehrer und.',
     keywords: 'vergleichs arbeitsblätter, arbeitsblätter grundschule, kostenlose arbeitsblätter, mathe arbeitsblätter, vorschule arbeitsblätter, größer kleiner gleich, einmaleins, schwungübungen, buchstaben lernen, rechnen lernen',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/mehr-weniger-arbeitsblaetter',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/more-less/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Vergleichs-Arbeitsblätter Grundschule - kostenlose Mathe Druckvorlagen Größer Kleiner Gleich',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/more-less/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Mathe Arbeitsblätter Generator - Bild-zu-Zahl Vergleichsübungen für Rechnen lernen',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/more-less/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Arbeitsblätter Grundschule - illustrierte Vergleichssymbole für Vorschule',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/more-less/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Mehr oder weniger Arbeitsblatt kostenlos - Zahlenvergleich Übung für Vorschule',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/more-less/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Größer kleiner gleich Arbeitsblatt - Mathe Übung für Kindergarten',
-      },
-    ],
-  },
 
   // Hero Section - FULL text from mehr-weniger.md
   hero: {
@@ -112,43 +80,7 @@ Die Benutzeroberfläche ist komplett auf Deutsch verfügbar. Alle Schaltflächen
     badgeText: 'Kostenlose Beispiele',
     downloadingLabel: 'Wird heruntergeladen...',
     ofLabel: 'von',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/german/more-less/sample-1.jpeg',
-        answerKeySrc: '/samples/german/more-less/sample-1.jpeg',
-        altText: 'Vergleichs-Arbeitsblätter Grundschule - kostenlose Mathe Druckvorlagen Größer Kleiner Gleich',
-        imageTitle: 'Vergleichs-Arbeitsblätter Grundschule',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/german/more-less/sample-2.jpeg',
-        answerKeySrc: '/samples/german/more-less/sample-2.jpeg',
-        altText: 'Mathe Arbeitsblätter Generator - Bild-zu-Zahl Vergleichsübungen für Rechnen lernen',
-        imageTitle: 'Mathe Arbeitsblätter Generator',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/german/more-less/sample-3.jpeg',
-        answerKeySrc: '/samples/german/more-less/sample-3.jpeg',
-        altText: 'Arbeitsblätter Grundschule - illustrierte Vergleichssymbole für Vorschule',
-        imageTitle: 'Arbeitsblätter Grundschule',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/german/more-less/sample-4.jpeg',
-        answerKeySrc: '/samples/german/more-less/sample-4.jpeg',
-        altText: 'Mehr oder weniger Arbeitsblatt kostenlos - Zahlenvergleich Übung für Vorschule',
-        imageTitle: 'Mehr oder weniger Arbeitsblatt kostenlos',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/german/more-less/sample-5.jpeg',
-        answerKeySrc: '/samples/german/more-less/sample-5.jpeg',
-        altText: 'Größer kleiner gleich Arbeitsblatt - Mathe Übung für Kindergarten',
-        imageTitle: 'Größer kleiner gleich Arbeitsblatt',
-      },
-    ],
+    items: [],
     
   },
 

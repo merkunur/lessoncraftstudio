@@ -35,33 +35,7 @@ export const picturePathNlContent: ProductPageContent = {
     description: 'Maak professionele doolhof werkbladen met plaatjes in enkele minuten. Onze doolhof generator biedt drie verschillende spelmodi voor werkbladen groep 3 en.',
     keywords: 'doolhof werkbladen, werkbladen groep 3, werkbladen kleuters, oefenbladen gratis, fijne motoriek, visuele discriminatie, letters leren, veilig leren lezen, rekenen werkbladen, tafels oefenen',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/doolhof-werkbladen',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/picture-path/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis werkblad doolhof - plaatjes pad werkbladen groep 3 voor visuele discriminatie',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/picture-path/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis werkbladen doolhof - werkblad voor kleuters met klassiek doolhof',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/picture-path/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Werkblad voor kinderen - kies het juiste pad doolhof voor fijne motoriek',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/picture-path/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis printables doolhof - oefenbladen voor letters leren en veilig leren lezen',
-      },
-    ],
-  },
 
   // Hero Section
   hero: {
@@ -104,36 +78,7 @@ Download hoogwaardige PDF en JPEG bestanden binnen 3 minuten. Alle werkbladen ex
     badgeText: 'Gratis Voorbeelden',
     downloadingLabel: 'Downloaden...',
     ofLabel: 'van',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/dutch/picture-path/sample-1.jpeg',
-        answerKeySrc: '/samples/dutch/picture-path/sample-1.jpeg',
-        altText: 'Gratis werkblad doolhof - plaatjes pad werkbladen groep 3 voor visuele discriminatie',
-        imageTitle: 'Gratis werkblad doolhof',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/dutch/picture-path/sample-2.jpeg',
-        answerKeySrc: '/samples/dutch/picture-path/sample-2.jpeg',
-        altText: 'Gratis werkbladen doolhof - werkblad voor kleuters met klassiek doolhof',
-        imageTitle: 'Gratis werkbladen doolhof',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/dutch/picture-path/sample-3.jpeg',
-        answerKeySrc: '/samples/dutch/picture-path/sample-3.jpeg',
-        altText: 'Werkblad voor kinderen - kies het juiste pad doolhof voor fijne motoriek',
-        imageTitle: 'Werkblad voor kinderen',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/dutch/picture-path/sample-4.jpeg',
-        answerKeySrc: '/samples/dutch/picture-path/sample-4.jpeg',
-        altText: 'Gratis printables doolhof - oefenbladen voor letters leren en veilig leren lezen',
-        imageTitle: 'Gratis printables doolhof',
-      },
-    ],
+    items: [],
     
   },
 

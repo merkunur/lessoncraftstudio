@@ -31,39 +31,7 @@ export const findObjectsDeContent: ProductPageContent = {
     description: 'Erstellen Sie professionelle Suchbilder-Arbeitsblätter für Grundschule und Vorschule. Ich-Sehe-Was Generator. PDF Download in unter 3 Minuten. Perfekt für Lehrer und Eltern.',
     keywords: 'suchbilder arbeitsblätter, arbeitsblätter grundschule, kostenlose arbeitsblätter, vorschule arbeitsblätter, mathe arbeitsblätter, ich sehe was, welches passt nicht, visuelle wahrnehmung, schwungübungen, ausmalbilder',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/suchbilder-arbeitsblaetter',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/find-objects/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Suchbilder Arbeitsblätter Grundschule - Ich-Sehe-Was Vorschul-Arbeitsblätter zum kostenlosen Ausdrucken'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/find-objects/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Kostenlose Arbeitsblätter Suchbilder - Welches-Passt-Nicht Aktivitäten für Grundschule'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/find-objects/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Vorschul-Arbeitsblätter Suchbilder - Visuelle Wahrnehmung Arbeitsblätter für Kinder'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/find-objects/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Arbeitsblätter Grundschule Suchbilder - Kostenloses Arbeitsblatt für Konzentration'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/find-objects/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Kostenlose Druckvorlagen Suchbilder - Arbeitsblatt für Kinder visuelle Wahrnehmung'
-      }
-    ],
-  },
 
   // Hero Section - FULL text from find-objects.md
   hero: {
@@ -106,43 +74,7 @@ Das Vollzugriff Abonnement enthält alle 33 Arbeitsblatt-Generatoren. Kombiniere
     badgeText: 'Kostenlose Beispiele',
     downloadingLabel: 'Wird heruntergeladen...',
     ofLabel: 'von',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/german/find-objects/sample-1.jpeg',
-        answerKeySrc: '/samples/german/find-objects/sample-1.jpeg',
-        altText: 'Suchbilder Arbeitsblätter Grundschule - Ich-Sehe-Was Vorschul-Arbeitsblätter zum kostenlosen Ausdrucken',
-        imageTitle: 'Suchbilder Arbeitsblätter Grundschule',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/german/find-objects/sample-2.jpeg',
-        answerKeySrc: '/samples/german/find-objects/sample-2.jpeg',
-        altText: 'Kostenlose Arbeitsblätter Suchbilder - Welches-Passt-Nicht Aktivitäten für Grundschule',
-        imageTitle: 'Kostenlose Arbeitsblätter Suchbilder',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/german/find-objects/sample-3.jpeg',
-        answerKeySrc: '/samples/german/find-objects/sample-3.jpeg',
-        altText: 'Vorschul-Arbeitsblätter Suchbilder - Visuelle Wahrnehmung Arbeitsblätter für Kinder',
-        imageTitle: 'Vorschul-Arbeitsblätter Suchbilder',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/german/find-objects/sample-4.jpeg',
-        answerKeySrc: '/samples/german/find-objects/sample-4.jpeg',
-        altText: 'Arbeitsblätter Grundschule Suchbilder - Kostenloses Arbeitsblatt für Konzentration',
-        imageTitle: 'Arbeitsblätter Grundschule Suchbilder',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/german/find-objects/sample-5.jpeg',
-        answerKeySrc: '/samples/german/find-objects/sample-5.jpeg',
-        altText: 'Kostenlose Druckvorlagen Suchbilder - Arbeitsblatt für Kinder visuelle Wahrnehmung',
-        imageTitle: 'Kostenlose Druckvorlagen Suchbilder',
-      },
-    ],
+    items: [],
     
   },
 

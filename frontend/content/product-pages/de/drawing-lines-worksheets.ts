@@ -31,39 +31,7 @@ export const drawingLinesDeContent: ProductPageContent = {
     description: 'Erstellen Sie Schwungübungen Arbeitsblätter in 3 Minuten. Kostenlose Arbeitsblätter für Grundschule und Vorschule. 3000+ Bilder, 11 Sprachen. Jetzt testen!',
     keywords: 'schwungübungen, arbeitsblätter grundschule, kostenlose arbeitsblätter, mathe arbeitsblätter, vorschule arbeitsblätter, buchstaben lernen, deutsch arbeitsblätter, einmaleins, ausmalbilder, rechnen lernen',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/linien-ziehen-arbeitsblaetter',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/drawing-lines/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Schwungübungen Arbeitsblätter Grundschule - Kostenlose Arbeitsblätter für Vorschule mit Kurvenlinien-Zuordnung'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/drawing-lines/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Kostenlose Arbeitsblätter für Kinder - Vorschul-Arbeitsblätter Linien ziehen für Buchstaben lernen'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/drawing-lines/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Arbeitsblatt für Kinder Grundschule - Schwungübungen mit Diagonallinien für Feinmotorik-Entwicklung'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/drawing-lines/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Kostenloses Arbeitsblatt Linien-Ziehen - Horizontale Schwungübungen für Arbeitsblatt für Vorschule'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/drawing-lines/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Kostenlose Druckvorlagen Schwungübungen - Vertikale Linien-Zuordnung als Arbeitsblatt für Kinder'
-      }
-    ],
-  },
 
   // Hero Section - FULL text from linien-ziehen.md paragraphs 1-4
   hero: {
@@ -106,43 +74,7 @@ Der Generator umfasst 8 verschiedene Vorlagen mit verschiedenen Linienmustern un
     badgeText: 'Kostenlose Beispiele',
     downloadingLabel: 'Wird heruntergeladen...',
     ofLabel: 'von',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/german/drawing-lines/sample-1.jpeg',
-        answerKeySrc: '/samples/german/drawing-lines/sample-1.jpeg',
-        altText: 'Schwungübungen Arbeitsblätter Grundschule - Kostenlose Arbeitsblätter für Vorschule mit Kurvenlinien-Zuordnung',
-        imageTitle: 'Schwungübungen Arbeitsblätter Grundschule',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/german/drawing-lines/sample-2.jpeg',
-        answerKeySrc: '/samples/german/drawing-lines/sample-2.jpeg',
-        altText: 'Kostenlose Arbeitsblätter für Kinder - Vorschul-Arbeitsblätter Linien ziehen für Buchstaben lernen',
-        imageTitle: 'Kostenlose Arbeitsblätter für Kinder',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/german/drawing-lines/sample-3.jpeg',
-        answerKeySrc: '/samples/german/drawing-lines/sample-3.jpeg',
-        altText: 'Arbeitsblatt für Kinder Grundschule - Schwungübungen mit Diagonallinien für Feinmotorik-Entwicklung',
-        imageTitle: 'Arbeitsblatt für Kinder Grundschule',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/german/drawing-lines/sample-4.jpeg',
-        answerKeySrc: '/samples/german/drawing-lines/sample-4.jpeg',
-        altText: 'Kostenloses Arbeitsblatt Linien-Ziehen - Horizontale Schwungübungen für Arbeitsblatt für Vorschule',
-        imageTitle: 'Kostenloses Arbeitsblatt Linien-Ziehen',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/german/drawing-lines/sample-5.jpeg',
-        answerKeySrc: '/samples/german/drawing-lines/sample-5.jpeg',
-        altText: 'Kostenlose Druckvorlagen Schwungübungen - Vertikale Linien-Zuordnung als Arbeitsblatt für Kinder',
-        imageTitle: 'Kostenlose Druckvorlagen Schwungübungen',
-      },
-    ],
+    items: [],
     
   },
 

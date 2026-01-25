@@ -21,39 +21,7 @@ export const oddOneOutDaContent: ProductPageContent = {
     description: 'Skab gratis arbejdsark til børn med Find Den Ulige generatoren. Visuelle opgaver til børnehaveklasse og 0. klasse. Download PDF i 300 DPI på 3 minutter.',
     keywords: 'find den ulige, gratis skoleopgaver, opgaver til print, 0. klasse, 1. klasse, børnehaveklassen, visuel diskrimination, kognitiv udvikling, arbejdsark, finmotorik øvelser',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/find-den-ulige-arbejdsark',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/danish/odd-one-out/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Find den ulige gratis arbejdsark til børn - visuel diskrimination til børnehaveklasse'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/danish/odd-one-out/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Find den ulige gratis arbejdsark - opgaver til print for 0. klasse'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/danish/odd-one-out/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Find den ulige arbejdsark til børn - visuel perception til 1. klasse'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/danish/odd-one-out/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Find den ulige gratis printables - kognitiv udvikling til børnehaveklasse'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/danish/odd-one-out/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Find den ulige arbejdsark til børnehaveklasse - kritisk tænkning for indskolingen'
-      },
-    ],
-  },
 
   // Hero Section - FULL text from odd-one-out.md
   hero: {
@@ -98,43 +66,7 @@ Vores generator understøtter 11 sprog og indeholder over 3000 børnevenlige bil
     noPdfLabel: 'Ingen PDF tilgængelig',
     freePdfCountLabel: '2 gratis downloads',
     ofLabel: 'af',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/danish/odd-one-out/sample-1.jpeg',
-        answerKeySrc: '/samples/danish/odd-one-out/sample-1.jpeg',
-        altText: 'Find den ulige gratis arbejdsark til børn - visuel diskrimination til børnehaveklasse',
-        imageTitle: 'Find den ulige gratis arbejdsark til børn',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/danish/odd-one-out/sample-2.jpeg',
-        answerKeySrc: '/samples/danish/odd-one-out/sample-2.jpeg',
-        altText: 'Find den ulige gratis arbejdsark - opgaver til print for 0. klasse',
-        imageTitle: 'Find den ulige gratis arbejdsark',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/danish/odd-one-out/sample-3.jpeg',
-        answerKeySrc: '/samples/danish/odd-one-out/sample-3.jpeg',
-        altText: 'Find den ulige arbejdsark til børn - visuel perception til 1. klasse',
-        imageTitle: 'Find den ulige arbejdsark til børn',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/danish/odd-one-out/sample-4.jpeg',
-        answerKeySrc: '/samples/danish/odd-one-out/sample-4.jpeg',
-        altText: 'Find den ulige gratis printables - kognitiv udvikling til børnehaveklasse',
-        imageTitle: 'Find den ulige gratis printables',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/danish/odd-one-out/sample-5.jpeg',
-        answerKeySrc: '/samples/danish/odd-one-out/sample-5.jpeg',
-        altText: 'Find den ulige arbejdsark til børnehaveklasse - kritisk tænkning for indskolingen',
-        imageTitle: 'Find den ulige arbejdsark til børnehaveklasse',
-      },
-    ],
+    items: [],
     
   },
 

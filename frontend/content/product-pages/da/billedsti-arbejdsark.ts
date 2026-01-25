@@ -21,39 +21,7 @@ export const bildeStiDaContent: ProductPageContent = {
     description: 'Lav billedsti gratis arbejdsark til børn med vores labyrint generator. Download gratis printables som PDF. Arbejdsark til børnehaveklasse på 3 minutter!',
     keywords: 'billedsti, labyrint, matematikopgaver, gratis skoleopgaver, arbejdsark til print, 0. klasse opgaver, 1. klasse, finmotorik øvelser, børnehaveklassen, kopiark, visuelt læringsarbejde',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/billedsti-arbejdsark',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/danish/picture-path/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Billedsti gratis arbejdsark - labyrint arbejdsark til børn for børnehaveklasse'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/danish/picture-path/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis arbejdsark billedsti - klassisk labyrint arbejdsark til børnehaveklasse'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/danish/picture-path/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Billedsti arbejdsark til børn - vælg rigtig vej gratis printables for 0. klasse'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/danish/picture-path/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Arbejdsark til børnehaveklasse billedsti - labyrint gratis arbejdsark'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/danish/picture-path/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis printables billedsti - arbejdsark til børn med finmotorik for 1. klasse'
-      },
-    ],
-  },
 
   // Hero Section - FULL text from picture-path.md paragraphs 1-4
   hero: {
@@ -98,43 +66,7 @@ Hver billedsti downloades som professionel 300 DPI PDF. Ideel til print derhjemm
     noPdfLabel: 'Ingen PDF tilgængelig',
     freePdfCountLabel: '3 gratis downloads',
     ofLabel: 'af',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/danish/picture-path/sample-1.jpeg',
-        answerKeySrc: '/samples/danish/picture-path/sample-1.jpeg',
-        altText: 'Billedsti gratis arbejdsark - labyrint arbejdsark til børn for børnehaveklasse',
-        imageTitle: 'Billedsti gratis arbejdsark',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/danish/picture-path/sample-2.jpeg',
-        answerKeySrc: '/samples/danish/picture-path/sample-2.jpeg',
-        altText: 'Gratis arbejdsark billedsti - klassisk labyrint arbejdsark til børnehaveklasse',
-        imageTitle: 'Gratis arbejdsark billedsti',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/danish/picture-path/sample-3.jpeg',
-        answerKeySrc: '/samples/danish/picture-path/sample-3.jpeg',
-        altText: 'Billedsti arbejdsark til børn - vælg rigtig vej gratis printables for 0. klasse',
-        imageTitle: 'Billedsti arbejdsark til børn',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/danish/picture-path/sample-4.jpeg',
-        answerKeySrc: '/samples/danish/picture-path/sample-4.jpeg',
-        altText: 'Arbejdsark til børnehaveklasse billedsti - labyrint gratis arbejdsark',
-        imageTitle: 'Arbejdsark til børnehaveklasse billedsti',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/danish/picture-path/sample-5.jpeg',
-        answerKeySrc: '/samples/danish/picture-path/sample-5.jpeg',
-        altText: 'Gratis printables billedsti - arbejdsark til børn med finmotorik for 1. klasse',
-        imageTitle: 'Gratis printables billedsti',
-      },
-    ],
+    items: [],
     
   },
 

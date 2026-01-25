@@ -20,33 +20,7 @@ export const codeAdditionPtContent: ProductPageContent = {
     description: 'Crie atividades de matemática exclusivas com nosso gerador de código de imagens. Sua assinatura Acesso Completo oferece criação ilimitada de atividades para.',
     keywords: 'atividades de matemática, atividades para imprimir, atividades educação infantil, exercícios de soma, 1º ano, 2º ano, coordenação motora, tabuada, desenhos para colorir, atividades de alfabetização, atividades vogais, letra cursiva, pontilhado',
     canonicalUrl: 'https://www.lessoncraftstudio.com/pt/apps/adicao-codigo-fichas',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/code-addition/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Atividade gratis de codigo de imagens - exercicios de soma para educacao infantil'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/code-addition/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Atividades gratis de codigo de soma para criancas - matematica visual'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/code-addition/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Imprimiveis gratis de matematica com codigo de imagens'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/code-addition/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Atividade para criancas com codigo de soma para educacao infantil'
-      }
-    ],
-  },
 
   // Hero Section
   hero: {
@@ -89,36 +63,7 @@ Os professores adoram essas atividades para imprimir porque engajam os aprendize
     badgeText: 'Exemplos Grátis',
     downloadingLabel: 'Baixando...',
     ofLabel: 'de',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/portuguese/code-addition/sample-1.jpeg',
-        answerKeySrc: '/samples/portuguese/code-addition/sample-1.jpeg',
-        altText: 'Atividade gratis de codigo de imagens - exercicios de soma para educacao infantil',
-        imageTitle: 'Atividade gratis de codigo de imagens',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/portuguese/code-addition/sample-2.jpeg',
-        answerKeySrc: '/samples/portuguese/code-addition/sample-2.jpeg',
-        altText: 'Atividades gratis de codigo de soma para criancas - matematica visual',
-        imageTitle: 'Atividades gratis de codigo de soma para criancas',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/portuguese/code-addition/sample-3.jpeg',
-        answerKeySrc: '/samples/portuguese/code-addition/sample-3.jpeg',
-        altText: 'Imprimiveis gratis de matematica com codigo de imagens',
-        imageTitle: 'Imprimiveis gratis de matematica com codigo de imagens',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/portuguese/code-addition/sample-4.jpeg',
-        answerKeySrc: '/samples/portuguese/code-addition/sample-4.jpeg',
-        altText: 'Atividade para criancas com codigo de soma para educacao infantil',
-        imageTitle: 'Atividade para criancas com codigo de soma para educacao infantil',
-      },
-    ],
+    items: [],
     
   },
 

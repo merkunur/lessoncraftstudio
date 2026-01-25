@@ -19,33 +19,7 @@ export const matchingItContent: ProductPageContent = {
     description: 'Crea schede gratuite di abbinamenti professionali in pochi minuti. La nostra scheda per bambini permette di creare esercizi visivi perfetti.',
     keywords: 'schede gratuite abbinamenti, scheda per bambini, scheda per scuola dell\'infanzia, schede stampabili gratuiti, generatore schede, abbinamento immagini, classe prima, pregrafismo, materiale didattico',
     canonicalUrl: 'https://www.lessoncraftstudio.com/it/apps/abbinamenti-schede',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/matching/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Scheda gratuita di abbinamenti per bambini - esercizi visivi scuola primaria'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/matching/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Schede gratuite abbinamento immagine e parola per scuola dell\'infanzia'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/matching/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Scheda per bambini abbinamenti stampabili gratuiti classe prima'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/matching/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Scheda per scuola dell\'infanzia abbinamenti visivi pregrafismo'
-      }
-    ],
-  },
 
   // Hero Section
   hero: {
@@ -88,22 +62,7 @@ Le schede didattiche di abbinamenti sono uno strumento essenziale per l'insegnam
     badgeText: 'Esempi Gratuiti',
     downloadingLabel: 'Scaricamento...',
     ofLabel: 'di',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/italian/matching/sample-1.jpeg',
-        answerKeySrc: '/samples/italian/matching/sample-1.jpeg',
-        altText: 'Scheda gratuita di abbinamenti per bambini - esercizi visivi scuola primaria',
-        imageTitle: 'Scheda gratuita di abbinamenti per bambini',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/italian/matching/sample-3.jpeg',
-        answerKeySrc: '/samples/italian/matching/sample-3.jpeg',
-        altText: 'Scheda per bambini abbinamenti stampabili gratuiti classe prima',
-        imageTitle: 'Scheda per bambini abbinamenti stampabili gratuiti classe prima',
-      },
-    ],
+    items: [],
     
   },
 

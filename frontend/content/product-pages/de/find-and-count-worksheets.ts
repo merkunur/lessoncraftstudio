@@ -31,39 +31,7 @@ export const findAndCountDeContent: ProductPageContent = {
     description: 'Erstellen Sie Suchen-und-Zählen-Arbeitsblätter für Grundschule und Vorschule. Kostenlose Mathe-Arbeitsblätter mit Lösungsblatt. PDF in 3 Minuten. Perfekt für Lehrer und Eltern.',
     keywords: 'suchen und zählen generator, arbeitsblätter grundschule, kostenlose arbeitsblätter, mathe arbeitsblätter, vorschule arbeitsblätter, rechnen lernen, ich sehe was was du nicht siehst, zählen lernen, visuelle wahrnehmung, einmaleins',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/suchen-und-zaehlen-arbeitsblaetter',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/find-and-count/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Kostenlose Suchen-und-Zählen-Arbeitsblätter für Vorschule - Arbeitsblätter Grundschule mit visueller Wahrnehmung'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/find-and-count/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Arbeitsblätter Grundschule Zählübungen - Kostenlose Arbeitsblätter mit Lösungsblatt für Vorschul-Arbeitsblätter'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/find-and-count/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Mathe-Arbeitsblätter Suchen und Zählen - Kostenlose Druckvorlagen für Rechnen lernen'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/find-and-count/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Arbeitsblatt für Kinder Suchen und Zählen - Vorschule Arbeitsblätter mit Zählübungen für Grundschule'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/find-and-count/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Vorschul-Arbeitsblätter Zählübungen - Kostenlose Mathe-Arbeitsblätter mit Einmaleins für Grundschule'
-      }
-    ],
-  },
 
   // Hero Section - FULL text from suchen-und-zaehlen.md paragraphs 1-4
   hero: {
@@ -108,43 +76,7 @@ Die Arbeitsblätter unterstützen verschiedene pädagogische Ziele. Fördern Sie
     badgeText: 'Kostenlose Beispiele',
     downloadingLabel: 'Wird heruntergeladen...',
     ofLabel: 'von',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/german/find-and-count/sample-1.jpeg',
-        answerKeySrc: '/samples/german/find-and-count/sample-1.jpeg',
-        altText: 'Kostenlose Suchen-und-Zählen-Arbeitsblätter für Vorschule - Arbeitsblätter Grundschule mit visueller Wahrnehmung',
-        imageTitle: 'Kostenlose Suchen-und-Zählen-Arbeitsblätter für Vorschule',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/german/find-and-count/sample-2.jpeg',
-        answerKeySrc: '/samples/german/find-and-count/sample-2.jpeg',
-        altText: 'Arbeitsblätter Grundschule Zählübungen - Kostenlose Arbeitsblätter mit Lösungsblatt für Vorschul-Arbeitsblätter',
-        imageTitle: 'Arbeitsblätter Grundschule Zählübungen',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/german/find-and-count/sample-3.jpeg',
-        answerKeySrc: '/samples/german/find-and-count/sample-3.jpeg',
-        altText: 'Mathe-Arbeitsblätter Suchen und Zählen - Kostenlose Druckvorlagen für Rechnen lernen',
-        imageTitle: 'Mathe-Arbeitsblätter Suchen und Zählen',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/german/find-and-count/sample-4.jpeg',
-        answerKeySrc: '/samples/german/find-and-count/sample-4.jpeg',
-        altText: 'Arbeitsblatt für Kinder Suchen und Zählen - Vorschule Arbeitsblätter mit Zählübungen für Grundschule',
-        imageTitle: 'Arbeitsblatt für Kinder Suchen und Zählen',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/german/find-and-count/sample-5.jpeg',
-        answerKeySrc: '/samples/german/find-and-count/sample-5.jpeg',
-        altText: 'Vorschul-Arbeitsblätter Zählübungen - Kostenlose Mathe-Arbeitsblätter mit Einmaleins für Grundschule',
-        imageTitle: 'Vorschul-Arbeitsblätter Zählübungen',
-      },
-    ],
+    items: [],
     
   },
 

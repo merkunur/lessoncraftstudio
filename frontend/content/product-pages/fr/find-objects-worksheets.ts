@@ -21,39 +21,7 @@ export const findObjectsFrContent: ProductPageContent = {
     description: 'Créez des fiches cherche les objets gratuites avec notre générateur. PDF haute qualité en 3 minutes. Parfait pour maternelle et CP. Essayez maintenant !',
     keywords: 'fiches à imprimer gratuit, fiches maternelle, exercices CP, discrimination visuelle, je vois, intrus, graphisme maternelle, coloriage à imprimer, apprendre à lire, alphabet',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fr/apps/cherche-objets-fiches',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/french/find-objects/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Fiche cherche les objets gratuite - discrimination visuelle maternelle avec corrigé PDF',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/french/find-objects/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Fiche cherche les objets gratuite - exercices CP discrimination visuelle imprimable',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/french/find-objects/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Fiche gratuite cherche les objets - activité attention visuelle pour enfants',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/french/find-objects/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Fiche cherche les objets gratuite pour maternelle - jeu de perception visuelle',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/french/find-objects/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Fiche cherche les objets gratuite CP - discrimination visuelle avec corrigé inclus',
-      },
-    ],
-  },
 
   // Hero Section - FULL text from find-objects.md paragraphs 1-4
   hero: {
@@ -98,43 +66,7 @@ Les enseignants utilisent notre générateur pour développer les compétences d
     badgeText: 'Exemples Gratuits',
     downloadingLabel: 'Téléchargement...',
     ofLabel: 'sur',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/french/find-objects/sample-1.jpeg',
-        answerKeySrc: '/samples/french/find-objects/sample-1.jpeg',
-        altText: 'Fiche cherche les objets gratuite - discrimination visuelle maternelle avec corrigé PDF',
-        imageTitle: 'Fiche cherche les objets gratuite',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/french/find-objects/sample-2.jpeg',
-        answerKeySrc: '/samples/french/find-objects/sample-2.jpeg',
-        altText: 'Fiche cherche les objets gratuite - exercices CP discrimination visuelle imprimable',
-        imageTitle: 'Fiche cherche les objets gratuite',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/french/find-objects/sample-3.jpeg',
-        answerKeySrc: '/samples/french/find-objects/sample-3.jpeg',
-        altText: 'Fiche gratuite cherche les objets - activité attention visuelle pour enfants',
-        imageTitle: 'Fiche gratuite cherche les objets',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/french/find-objects/sample-4.jpeg',
-        answerKeySrc: '/samples/french/find-objects/sample-4.jpeg',
-        altText: 'Fiche cherche les objets gratuite pour maternelle - jeu de perception visuelle',
-        imageTitle: 'Fiche cherche les objets gratuite pour maternelle',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/french/find-objects/sample-5.jpeg',
-        answerKeySrc: '/samples/french/find-objects/sample-5.jpeg',
-        altText: 'Fiche cherche les objets gratuite CP - discrimination visuelle avec corrigé inclus',
-        imageTitle: 'Fiche cherche les objets gratuite CP',
-      },
-    ],
+    items: [],
     
   },
 

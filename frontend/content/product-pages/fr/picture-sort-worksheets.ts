@@ -21,33 +21,7 @@ export const pictureSortFrContent: ProductPageContent = {
     description: 'Créez des fiches de tri d\'images gratuites pour maternelle et CP. Générateur professionnel avec corrigés inclus. Téléchargez en PDF haute qualité en 3 min.',
     keywords: 'fiches à imprimer gratuit, fiches maternelle, exercices CP, tri images, graphisme maternelle, exercices maths, coloriage à imprimer, apprendre à lire, alphabet, écriture cursive, tables de multiplication, fiche gratuite pour enfants, imprimables gratuits, fiche pour enfants',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fr/apps/tri-images-fiches',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/french/picture-sort/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Fiche de tri d\'images gratuite pour maternelle - classement et catégorisation pour enfants'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/french/picture-sort/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Exercices CP tri d\'images - fiches gratuites pour enfants avec classification'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/french/picture-sort/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Fiche gratuite tri d\'images pour enfants - graphisme maternelle et logique'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/french/picture-sort/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Fiches gratuites classification images - exercices CE1 et coloriage à imprimer'
-      }
-    ],
-  },
 
   // Hero Section - FULL text from picture-sort.md paragraphs 1-4
   hero: {
@@ -92,15 +66,7 @@ Notre générateur s'adresse aux enseignants de maternelle GS, CP et CE1. Les fi
     badgeText: 'Exemples Gratuits',
     downloadingLabel: 'Téléchargement...',
     ofLabel: 'sur',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/french/picture-sort/sample-4.jpeg',
-        answerKeySrc: '/samples/french/picture-sort/sample-4.jpeg',
-        altText: 'Fiches gratuites classification images - exercices CE1 et coloriage à imprimer',
-        imageTitle: 'Fiches gratuites classification images',
-      },
-    ],
+    items: [],
     
   },
 

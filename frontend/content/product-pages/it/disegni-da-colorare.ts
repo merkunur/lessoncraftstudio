@@ -19,39 +19,7 @@ export const coloringItContent: ProductPageContent = {
     description: 'Crea disegni da colorare con schede gratuite per bambini. Genera schede per scuola dell\'infanzia e primaria. Scarica PDF 300 DPI in 3 minuti. Prova gratis!',
     keywords: 'disegni da colorare, schede gratuite, scheda gratuita, scheda gratuita per bambini, stampabili gratuiti, scheda per bambini, scheda per scuola dell\'infanzia, scuola primaria, pregrafismo',
     canonicalUrl: 'https://www.lessoncraftstudio.com/it/apps/disegni-da-colorare',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/coloring/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Disegni da colorare scheda gratuita per bambini - attività scuola infanzia',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/coloring/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Schede gratuite colorare animali - stampabili gratuiti scuola primaria',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/coloring/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Scheda per bambini disegni da colorare - formato verticale pregrafismo',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/coloring/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Schede per scuola dell\'infanzia colorare - attività motricità fine',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/coloring/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Stampabili gratuiti disegni tematici - schede gratuite per bambini',
-      },
-    ],
-  },
 
   // Hero Section
   hero: {
@@ -94,36 +62,7 @@ Il pregrafismo è fondamentale nello sviluppo delle competenze di scrittura. I n
     badgeText: 'Schede Gratuite',
     downloadingLabel: 'Scaricamento...',
     ofLabel: 'di',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/italian/coloring/sample-1.jpeg',
-        answerKeySrc: '/samples/italian/coloring/sample-1.jpeg',
-        altText: 'Disegni da colorare scheda gratuita per bambini - attività scuola infanzia',
-        imageTitle: 'Disegni da colorare scheda gratuita per bambini',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/italian/coloring/sample-2.jpeg',
-        answerKeySrc: '/samples/italian/coloring/sample-2.jpeg',
-        altText: 'Schede gratuite colorare animali - stampabili gratuiti scuola primaria',
-        imageTitle: 'Schede gratuite colorare animali',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/italian/coloring/sample-3.jpeg',
-        answerKeySrc: '/samples/italian/coloring/sample-3.jpeg',
-        altText: 'Scheda per bambini disegni da colorare - formato verticale pregrafismo',
-        imageTitle: 'Scheda per bambini disegni da colorare',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/italian/coloring/sample-5.jpeg',
-        answerKeySrc: '/samples/italian/coloring/sample-5.jpeg',
-        altText: 'Stampabili gratuiti disegni tematici - schede gratuite per bambini',
-        imageTitle: 'Stampabili gratuiti disegni tematici',
-      },
-    ],
+    items: [],
     
   },
 

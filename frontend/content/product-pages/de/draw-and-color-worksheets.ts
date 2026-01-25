@@ -31,39 +31,7 @@ export const drawAndColorDeContent: ProductPageContent = {
     description: 'Erstellen Sie kostenlose Rasterzeichnen-Arbeitsblätter für Grundschule und Vorschule. 3000+ Bilder, 300 DPI Qualität. PDF-Download in unter 3 Minuten.',
     keywords: 'rasterzeichnen arbeitsblätter, arbeitsblätter grundschule, kostenlose arbeitsblätter, vorschule arbeitsblätter, malvorlagen, ausmalbilder, schwungübungen, buchstaben lernen, mathe arbeitsblätter, feinmotorik',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/rasterzeichnen-arbeitsblaetter',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/draw-and-color/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Rasterzeichnen-Arbeitsblatt kostenlos - Arbeitsblätter Grundschule zum Ausdrucken für Malvorlagen und Vorschule',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/draw-and-color/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Kostenlose Arbeitsblätter Rasterzeichnen - Arbeitsblatt für Kinder mit Ausmalbilder und Schwungübungen',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/draw-and-color/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Vorschul-Arbeitsblätter Rasterzeichnen Generator - Kostenloses Arbeitsblatt für Kinder Feinmotorik',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/draw-and-color/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Rasterzeichnen Malvorlagen Arbeitsblatt - Kostenlose Druckvorlagen für Arbeitsblätter Grundschule',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/draw-and-color/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Arbeitsblatt für Vorschule Rasterzeichnen - Ausmalbilder und Schwungübungen kostenlos zum Ausdrucken',
-      },
-    ],
-  },
 
   // Hero Section - FULL text from draw-and-color.md
   hero: {
@@ -106,43 +74,7 @@ Unser Generator bietet über 3000 kindgerechte Bilder. Sie wählen ein Thema ode
     badgeText: 'Kostenlose Beispiele',
     downloadingLabel: 'Wird heruntergeladen...',
     ofLabel: 'von',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/german/draw-and-color/sample-1.jpeg',
-        answerKeySrc: '/samples/german/draw-and-color/sample-1.jpeg',
-        altText: 'Rasterzeichnen-Arbeitsblatt kostenlos - Arbeitsblätter Grundschule zum Ausdrucken für Malvorlagen und Vorschule',
-        imageTitle: 'Rasterzeichnen-Arbeitsblatt kostenlos',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/german/draw-and-color/sample-2.jpeg',
-        answerKeySrc: '/samples/german/draw-and-color/sample-2.jpeg',
-        altText: 'Kostenlose Arbeitsblätter Rasterzeichnen - Arbeitsblatt für Kinder mit Ausmalbilder und Schwungübungen',
-        imageTitle: 'Kostenlose Arbeitsblätter Rasterzeichnen',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/german/draw-and-color/sample-3.jpeg',
-        answerKeySrc: '/samples/german/draw-and-color/sample-3.jpeg',
-        altText: 'Vorschul-Arbeitsblätter Rasterzeichnen Generator - Kostenloses Arbeitsblatt für Kinder Feinmotorik',
-        imageTitle: 'Vorschul-Arbeitsblätter Rasterzeichnen Generator',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/german/draw-and-color/sample-4.jpeg',
-        answerKeySrc: '/samples/german/draw-and-color/sample-4.jpeg',
-        altText: 'Rasterzeichnen Malvorlagen Arbeitsblatt - Kostenlose Druckvorlagen für Arbeitsblätter Grundschule',
-        imageTitle: 'Rasterzeichnen Malvorlagen Arbeitsblatt',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/german/draw-and-color/sample-5.jpeg',
-        answerKeySrc: '/samples/german/draw-and-color/sample-5.jpeg',
-        altText: 'Arbeitsblatt für Vorschule Rasterzeichnen - Ausmalbilder und Schwungübungen kostenlos zum Ausdrucken',
-        imageTitle: 'Arbeitsblatt für Vorschule Rasterzeichnen',
-      },
-    ],
+    items: [],
     
   },
 

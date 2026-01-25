@@ -31,39 +31,7 @@ export const crosswordDeContent: ProductPageContent = {
     description: 'Bilderkreuzworträtsel Generator für Arbeitsblätter Grundschule. Kostenlose Vorschule Arbeitsblätter mit Lösungsblatt. PDF in unter 3 Minuten! Perfekt für Lehrer und Eltern.',
     keywords: 'bilderkreuzworträtsel, kreuzworträtsel generator, arbeitsblätter grundschule, kostenlose arbeitsblätter, vorschule arbeitsblätter, deutsch arbeitsblätter, buchstaben lernen, mathe arbeitsblätter, schwungübungen, ausmalbilder',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/bilderkreuzwortraetsel-arbeitsblaetter',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/crossword/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Bilderkreuzworträtsel Arbeitsblätter kostenlos - Buchstaben lernen Übungen für Arbeitsblätter Grundschule'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/crossword/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Kostenlose Arbeitsblätter Kreuzworträtsel - Vorschule Arbeitsblätter für Deutsch Arbeitsblätter'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/crossword/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Arbeitsblätter Grundschule Bilderkreuzworträtsel - Mathe Arbeitsblätter und Rechnen lernen'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/crossword/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Vorschule Arbeitsblätter Kreuzworträtsel - Kostenlose Druckvorlagen für Einmaleins und Schwungübungen'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/crossword/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Kostenloses Arbeitsblatt Kreuzworträtsel - Deutsch Arbeitsblätter mit Ausmalbilder für Kinder'
-      }
-    ],
-  },
 
   // Hero Section - FULL text from kreuzwortraetsel.md
   hero: {
@@ -106,43 +74,7 @@ Bilderkreuzworträtsel machen das Lernen für Leseanfänger spannend. Schüler b
     badgeText: 'Kostenlose Beispiele',
     downloadingLabel: 'Wird heruntergeladen...',
     ofLabel: 'von',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/german/crossword/sample-1.jpeg',
-        answerKeySrc: '/samples/german/crossword/sample-1.jpeg',
-        altText: 'Bilderkreuzworträtsel Arbeitsblätter kostenlos - Buchstaben lernen Übungen für Arbeitsblätter Grundschule',
-        imageTitle: 'Bilderkreuzworträtsel Arbeitsblätter kostenlos',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/german/crossword/sample-2.jpeg',
-        answerKeySrc: '/samples/german/crossword/sample-2.jpeg',
-        altText: 'Kostenlose Arbeitsblätter Kreuzworträtsel - Vorschule Arbeitsblätter für Deutsch Arbeitsblätter',
-        imageTitle: 'Kostenlose Arbeitsblätter Kreuzworträtsel',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/german/crossword/sample-3.jpeg',
-        answerKeySrc: '/samples/german/crossword/sample-3.jpeg',
-        altText: 'Arbeitsblätter Grundschule Bilderkreuzworträtsel - Mathe Arbeitsblätter und Rechnen lernen',
-        imageTitle: 'Arbeitsblätter Grundschule Bilderkreuzworträtsel',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/german/crossword/sample-4.jpeg',
-        answerKeySrc: '/samples/german/crossword/sample-4.jpeg',
-        altText: 'Vorschule Arbeitsblätter Kreuzworträtsel - Kostenlose Druckvorlagen für Einmaleins und Schwungübungen',
-        imageTitle: 'Vorschule Arbeitsblätter Kreuzworträtsel',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/german/crossword/sample-5.jpeg',
-        answerKeySrc: '/samples/german/crossword/sample-5.jpeg',
-        altText: 'Kostenloses Arbeitsblatt Kreuzworträtsel - Deutsch Arbeitsblätter mit Ausmalbilder für Kinder',
-        imageTitle: 'Kostenloses Arbeitsblatt Kreuzworträtsel',
-      },
-    ],
+    items: [],
     
   },
 

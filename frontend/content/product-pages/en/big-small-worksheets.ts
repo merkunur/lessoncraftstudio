@@ -19,39 +19,7 @@ export const bigSmallEnContent: ProductPageContent = {
     description: 'Create free big and small worksheets for kindergarten. Size comparison generator with visual discrimination activities. Download PDF worksheets in 3 minutes.',
     keywords: 'free worksheet, free worksheets, free printables, worksheet for kids, worksheet for kindergarten, big and small worksheets, size comparison worksheets, kindergarten worksheets, math worksheets, preschool worksheets, first grade worksheets, visual discrimination worksheets, size sorting worksheets, big or small worksheets, free printable worksheets',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/big-small-worksheets',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/big-small/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Free printable big and small worksheets for kindergarten - size comparison circle the big one activity'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/big-small/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Size comparison worksheets for kids - big or small worksheet with visual discrimination practice'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/big-small/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Free worksheet for kindergarten - size sorting worksheets for first grade math foundations'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/big-small/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Math worksheets for size comparison - free printable visual discrimination worksheets with three objects for preschool and kindergarten learning'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/big-small/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Kindergarten worksheets free printable - big and small size comparison activity with themed images for first grade visual discrimination skills'
-      }
-    ]
-  },
 
   // Hero Section - FULL text from big-small.md introduction paragraphs
   hero: {
@@ -80,43 +48,7 @@ The Big and Small worksheet maker offers five different question types. Students
     downloadLabel: 'Download Free Sample',
     worksheetLabel: 'Worksheet',
     answerKeyLabel: 'Answer Key',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/english/big-small/sample-1.jpeg',
-        answerKeySrc: '/samples/english/big-small/sample-1.jpeg',
-        altText: 'Free printable big and small worksheets for kindergarten - size comparison circle the big one activity',
-        imageTitle: 'Free printable big and small worksheets for kindergarten',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/english/big-small/sample-2.jpeg',
-        answerKeySrc: '/samples/english/big-small/sample-2.jpeg',
-        altText: 'Size comparison worksheets for kids - big or small worksheet with visual discrimination practice',
-        imageTitle: 'Size comparison worksheets for kids',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/english/big-small/sample-3.jpeg',
-        answerKeySrc: '/samples/english/big-small/sample-3.jpeg',
-        altText: 'Free worksheet for kindergarten - size sorting worksheets for first grade math foundations',
-        imageTitle: 'Free worksheet for kindergarten',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/english/big-small/sample-4.jpeg',
-        answerKeySrc: '/samples/english/big-small/sample-4.jpeg',
-        altText: 'Math worksheets for size comparison - free printable visual discrimination worksheets with three objects for preschool and kindergarten learning',
-        imageTitle: 'Math worksheets for size comparison',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/english/big-small/sample-5.jpeg',
-        answerKeySrc: '/samples/english/big-small/sample-5.jpeg',
-        altText: 'Kindergarten worksheets free printable - big and small size comparison activity with themed images for first grade visual discrimination skills',
-        imageTitle: 'Kindergarten worksheets free printable',
-      },
-    ],
+    items: [],
     
   },
 

@@ -19,39 +19,7 @@ export const findAndCountEnContent: ProductPageContent = {
     description: 'Create free printable find and count worksheets for kindergarten and first grade. Generate I Spy counting worksheets for kids with answer keys. Try free now!',
     keywords: 'find and count worksheets, I Spy worksheets, kindergarten worksheets, counting worksheets, visual discrimination worksheets, hidden object worksheets, math worksheets, first grade worksheets, free printable worksheets, counting practice, free worksheets for kids, worksheet for kindergarten',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/find-and-count-worksheets',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/find-and-count/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Free printable find and count worksheets for kindergarten - I Spy counting worksheet for kids with hidden objects',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/find-and-count/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Free worksheets for kids - visual discrimination counting worksheet for first grade with colorful images',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/find-and-count/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Free printables I Spy worksheets - hidden object counting practice worksheet for kindergarten',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/find-and-count/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Find and count worksheets free - I Spy activity for preschool counting and visual scanning',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/find-and-count/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Counting worksheets kindergarten - free printable find and count with hidden pictures',
-      },
-    ],
-  },
 
   // Hero Section - FULL text from find-and-count.md paragraphs 1-6
   hero: {
@@ -86,43 +54,7 @@ Our math worksheets help young students master early counting skills through vis
     downloadLabel: 'Download Free Sample',
     worksheetLabel: 'Worksheet',
     answerKeyLabel: 'Answer Key',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/english/find-and-count/sample-1.jpeg',
-        answerKeySrc: '/samples/english/find-and-count/sample-1.jpeg',
-        altText: 'Free printable find and count worksheets for kindergarten - I Spy counting worksheet for kids with hidden objects',
-        imageTitle: 'Free printable find and count worksheets for kindergarten',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/english/find-and-count/sample-2.jpeg',
-        answerKeySrc: '/samples/english/find-and-count/sample-2.jpeg',
-        altText: 'Free worksheets for kids - visual discrimination counting worksheet for first grade with colorful images',
-        imageTitle: 'Free worksheets for kids',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/english/find-and-count/sample-3.jpeg',
-        answerKeySrc: '/samples/english/find-and-count/sample-3.jpeg',
-        altText: 'Free printables I Spy worksheets - hidden object counting practice worksheet for kindergarten',
-        imageTitle: 'Free printables I Spy worksheets',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/english/find-and-count/sample-4.jpeg',
-        answerKeySrc: '/samples/english/find-and-count/sample-4.jpeg',
-        altText: 'Find and count worksheets free - I Spy activity for preschool counting and visual scanning',
-        imageTitle: 'Find and count worksheets free',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/english/find-and-count/sample-5.jpeg',
-        answerKeySrc: '/samples/english/find-and-count/sample-5.jpeg',
-        altText: 'Counting worksheets kindergarten - free printable find and count with hidden pictures',
-        imageTitle: 'Counting worksheets kindergarten',
-      },
-    ],
+    items: [],
     
   },
 

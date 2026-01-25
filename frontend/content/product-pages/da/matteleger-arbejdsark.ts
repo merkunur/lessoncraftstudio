@@ -19,39 +19,7 @@ export const mathPuzzleDaContent: ProductPageContent = {
     description: 'Lav professionelle matematikopgaver med symbolbaserede matteleger på få minutter. Generer gratis arbejdsark til børn med facitark. Perfekt til børnehaveklasse.',
     keywords: 'gratis arbejdsark, gratis arbejdsark til børn, arbejdsark til børn, arbejdsark til børnehaveklasse, matematikopgaver, matteleger, opgaver til print, gratis skoleopgaver, 1 klasse opgaver, 2 klasse matematikopgaver',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/matteleger-arbejdsark',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/danish/math-puzzle/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Matteleger gratis arbejdsark til børn - symbolbaseret matematikpuslespil til børnehaveklasse'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/danish/math-puzzle/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis arbejdsark matteleger - matematikopgaver til børn i 1. klasse og 2. klasse'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/danish/math-puzzle/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Arbejdsark til børn - symbolbaseret matematikpuslespil til børnehaveklasse'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/danish/math-puzzle/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis arbejdsark til børnehaveklasse - matematikopgaver med symboler'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/danish/math-puzzle/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Arbejdsark til børnehaveklasse - matteleger med logiske matematikopgaver'
-      },
-    ],
-  },
 
   // Hero Section - FULL text from math-puzzle.md paragraphs 1-3
   hero: {
@@ -94,43 +62,7 @@ Fuld Adgang-abonnementet inkluderer kommerciel licens til print-on-demand. Sælg
     noPdfLabel: 'Ingen PDF tilgængelig',
     freePdfCountLabel: '5 gratis downloads',
     ofLabel: 'af',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/danish/math-puzzle/sample-1.jpeg',
-        answerKeySrc: '/samples/danish/math-puzzle/sample-1.jpeg',
-        altText: 'Matteleger gratis arbejdsark til børn - symbolbaseret matematikpuslespil til børnehaveklasse',
-        imageTitle: 'Matteleger gratis arbejdsark til børn',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/danish/math-puzzle/sample-2.jpeg',
-        answerKeySrc: '/samples/danish/math-puzzle/sample-2.jpeg',
-        altText: 'Gratis arbejdsark matteleger - matematikopgaver til børn i 1. klasse og 2. klasse',
-        imageTitle: 'Gratis arbejdsark matteleger',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/danish/math-puzzle/sample-3.jpeg',
-        answerKeySrc: '/samples/danish/math-puzzle/sample-3.jpeg',
-        altText: 'Arbejdsark til børn - symbolbaseret matematikpuslespil til børnehaveklasse',
-        imageTitle: 'Arbejdsark til børn',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/danish/math-puzzle/sample-4.jpeg',
-        answerKeySrc: '/samples/danish/math-puzzle/sample-4.jpeg',
-        altText: 'Gratis arbejdsark til børnehaveklasse - matematikopgaver med symboler',
-        imageTitle: 'Gratis arbejdsark til børnehaveklasse',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/danish/math-puzzle/sample-5.jpeg',
-        answerKeySrc: '/samples/danish/math-puzzle/sample-5.jpeg',
-        altText: 'Arbejdsark til børnehaveklasse - matteleger med logiske matematikopgaver',
-        imageTitle: 'Arbejdsark til børnehaveklasse',
-      },
-    ],
+    items: [],
     
   },
 

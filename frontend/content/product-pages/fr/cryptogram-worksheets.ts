@@ -22,39 +22,7 @@ export const cryptogramFrContent: ProductPageContent = {
     description: 'Créez des cryptogrammes en images professionnels avec notre générateur de fiches à imprimer gratuit. Votre abonnement Accès Complet à 240 € par an vous permet.',
     keywords: 'cryptogramme en images, fiches maternelle, exercices CP, fiches à imprimer gratuit, apprendre à lire, fiches alphabet, graphisme maternelle, exercices maths, apprendre les lettres, coloriage à imprimer, écriture cursive, tables de multiplication, exercices CE1',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fr/apps/cryptogramme-images-fiches',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/french/cryptogram/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Cryptogramme en images fiches gratuites - exercices décodage pour maternelle et CP'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/french/cryptogram/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Fiches cryptogramme à imprimer gratuit - apprendre les lettres pour enfants'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/french/cryptogram/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Cryptogramme vocabulaire fiches maternelle - exercices CP graphisme'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/french/cryptogram/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Fiches alphabet cryptogramme images - apprendre à lire pour maternelle'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/french/cryptogram/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Cryptogramme en images exercices CP - fiches à imprimer gratuit pour enfants'
-      }
-    ],
-  },
 
   // Hero Section - FULL text from cryptogram.md paragraphs 1-4
   hero: {
@@ -99,43 +67,7 @@ Générez votre premier cryptogramme en 3 clics. Tapez une phrase et assignez de
     badgeText: 'Exemples Gratuits',
     downloadingLabel: 'Téléchargement...',
     ofLabel: 'sur',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/french/cryptogram/sample-1.jpeg',
-        answerKeySrc: '/samples/french/cryptogram/sample-1.jpeg',
-        altText: 'Cryptogramme en images fiches gratuites - exercices décodage pour maternelle et CP',
-        imageTitle: 'Cryptogramme en images fiches gratuites',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/french/cryptogram/sample-2.jpeg',
-        answerKeySrc: '/samples/french/cryptogram/sample-2.jpeg',
-        altText: 'Fiches cryptogramme à imprimer gratuit - apprendre les lettres pour enfants',
-        imageTitle: 'Fiches cryptogramme à imprimer gratuit',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/french/cryptogram/sample-3.jpeg',
-        answerKeySrc: '/samples/french/cryptogram/sample-3.jpeg',
-        altText: 'Cryptogramme vocabulaire fiches maternelle - exercices CP graphisme',
-        imageTitle: 'Cryptogramme vocabulaire fiches maternelle',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/french/cryptogram/sample-4.jpeg',
-        answerKeySrc: '/samples/french/cryptogram/sample-4.jpeg',
-        altText: 'Fiches alphabet cryptogramme images - apprendre à lire pour maternelle',
-        imageTitle: 'Fiches alphabet cryptogramme images',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/french/cryptogram/sample-5.jpeg',
-        answerKeySrc: '/samples/french/cryptogram/sample-5.jpeg',
-        altText: 'Cryptogramme en images exercices CP - fiches à imprimer gratuit pour enfants',
-        imageTitle: 'Cryptogramme en images exercices CP',
-      },
-    ],
+    items: [],
     
   },
 

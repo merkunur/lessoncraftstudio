@@ -19,39 +19,7 @@ export const missingPiecesPtContent: ProductPageContent = {
     description: 'Crie atividades grátis de peças faltantes profissionais em poucos minutos com nosso gerador de atividades para imprimir. Atividade grátis para crianças com sua.',
     keywords: 'atividade grátis, atividade grátis para crianças, atividades grátis, imprimíveis grátis, atividade para crianças, atividade para educação infantil, peças faltantes, atividades para imprimir, atividades educação infantil, coordenação motora',
     canonicalUrl: 'https://www.lessoncraftstudio.com/pt/apps/pecas-faltantes-fichas',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/missing-pieces/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Atividade de peças faltantes grátis - quebra-cabeça educativo para educação infantil'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/missing-pieces/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Atividade grátis para crianças - peças faltantes para coordenação motora'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/missing-pieces/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Atividades grátis de peças faltantes - discriminação visual para pré-escola'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/missing-pieces/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Atividade para crianças - quebra-cabeça de peças faltantes para imprimir'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/missing-pieces/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Imprimíveis grátis de peças faltantes - atividade para educação infantil'
-      }
-    ]
-  },
 
   // Hero Section - FULL text from Portuguese missing-pieces.md paragraphs 1-6
   hero: {
@@ -96,43 +64,7 @@ O gerador inclui uma biblioteca com mais de 3000 imagens temáticas. Crie ativid
     badgeText: 'Exemplos Grátis',
     downloadingLabel: 'Baixando...',
     ofLabel: 'de',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/portuguese/missing-pieces/sample-1.jpeg',
-        answerKeySrc: '/samples/portuguese/missing-pieces/sample-1.jpeg',
-        altText: 'Atividade de peças faltantes grátis - quebra-cabeça educativo para educação infantil',
-        imageTitle: 'Atividade de peças faltantes grátis',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/portuguese/missing-pieces/sample-2.jpeg',
-        answerKeySrc: '/samples/portuguese/missing-pieces/sample-2.jpeg',
-        altText: 'Atividade grátis para crianças - peças faltantes para coordenação motora',
-        imageTitle: 'Atividade grátis para crianças',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/portuguese/missing-pieces/sample-3.jpeg',
-        answerKeySrc: '/samples/portuguese/missing-pieces/sample-3.jpeg',
-        altText: 'Atividades grátis de peças faltantes - discriminação visual para pré-escola',
-        imageTitle: 'Atividades grátis de peças faltantes',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/portuguese/missing-pieces/sample-4.jpeg',
-        answerKeySrc: '/samples/portuguese/missing-pieces/sample-4.jpeg',
-        altText: 'Atividade para crianças - quebra-cabeça de peças faltantes para imprimir',
-        imageTitle: 'Atividade para crianças',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/portuguese/missing-pieces/sample-5.jpeg',
-        answerKeySrc: '/samples/portuguese/missing-pieces/sample-5.jpeg',
-        altText: 'Imprimíveis grátis de peças faltantes - atividade para educação infantil',
-        imageTitle: 'Imprimíveis grátis de peças faltantes',
-      },
-    ],
+    items: [],
     
   },
 

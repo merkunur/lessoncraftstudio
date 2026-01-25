@@ -25,39 +25,7 @@ export const sudokuEnContent: ProductPageContent = {
     description: 'Create free printable sudoku worksheets for kindergarten and first grade. 4x4 picture puzzles with answer keys. Download PDF worksheets for kids in minutes.',
     keywords: 'sudoku worksheets, sudoku for kids, kindergarten worksheets, first grade worksheets, free printable worksheets, logic puzzles for kids, picture sudoku, 4x4 sudoku puzzles, math worksheets, free worksheets for kids, sudoku worksheet generator, printable sudoku puzzles, free worksheet, free worksheet for kids, puzzle worksheets',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/sudoku-worksheets',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/sudoku/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Free printable sudoku worksheets for kindergarten - 4x4 picture puzzle logic worksheets for kids ages 4-6'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/sudoku/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Sudoku worksheets for kids free printable - picture sudoku puzzle worksheet for first grade math practice'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/sudoku/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Free worksheet for kindergarten - 4x4 sudoku puzzles with colorful images for logic and problem solving'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/sudoku/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'First grade worksheets free printable - sudoku for kids with easy medium hard difficulty levels'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/sudoku/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Free printable worksheets - picture sudoku logic puzzles for kindergarten and first grade students'
-      }
-    ]
-  },
 
   // Hero Section - FULL text from sudoku.md paragraphs 1-3
   hero: {
@@ -86,43 +54,7 @@ This sudoku worksheet generator is perfect for kindergarten teachers, first grad
     downloadLabel: 'Download Free Sample',
     worksheetLabel: 'Worksheet',
     answerKeyLabel: 'Answer Key',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/english/sudoku/sample-1.jpeg',
-        answerKeySrc: '/samples/english/sudoku/sample-1.jpeg',
-        altText: 'Free printable sudoku worksheets for kindergarten - 4x4 picture puzzle logic worksheets for kids ages 4-6',
-        imageTitle: 'Free printable sudoku worksheets for kindergarten',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/english/sudoku/sample-2.jpeg',
-        answerKeySrc: '/samples/english/sudoku/sample-2.jpeg',
-        altText: 'Sudoku worksheets for kids free printable - picture sudoku puzzle worksheet for first grade math practice',
-        imageTitle: 'Sudoku worksheets for kids free printable',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/english/sudoku/sample-3.jpeg',
-        answerKeySrc: '/samples/english/sudoku/sample-3.jpeg',
-        altText: 'Free worksheet for kindergarten - 4x4 sudoku puzzles with colorful images for logic and problem solving',
-        imageTitle: 'Free worksheet for kindergarten',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/english/sudoku/sample-4.jpeg',
-        answerKeySrc: '/samples/english/sudoku/sample-4.jpeg',
-        altText: 'First grade worksheets free printable - sudoku for kids with easy medium hard difficulty levels',
-        imageTitle: 'First grade worksheets free printable',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/english/sudoku/sample-5.jpeg',
-        answerKeySrc: '/samples/english/sudoku/sample-5.jpeg',
-        altText: 'Free printable worksheets - picture sudoku logic puzzles for kindergarten and first grade students',
-        imageTitle: 'Free printable worksheets',
-      },
-    ],
+    items: [],
     
   },
 

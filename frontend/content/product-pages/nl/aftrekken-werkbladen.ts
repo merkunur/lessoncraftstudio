@@ -31,39 +31,7 @@ export const subtractionNlContent: ProductPageContent = {
     description: 'Maak professionele aftrekken werkbladen met onze rekenen werkbladen generator. Met een Volledige Toegang abonnement krijg je onbeperkt werkbladen zonder kosten.',
     keywords: 'aftrekken werkbladen, rekenen werkbladen, werkbladen groep 3, werkbladen kleuters, sommen tot 20, oefenbladen gratis, tafels oefenen, veilig leren lezen, fijne motoriek, letters leren',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/aftrekken-werkbladen',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/subtraction/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis werkblad aftrekken - werkblad voor kinderen rekenen oefeningen groep 3',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/subtraction/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Aftrekken werkblad voor kleuters - gratis werkbladen sommen tot 20 oefenbladen',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/subtraction/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis printables aftrekken - werkblad voor kinderen rekenen werkbladen basisschool',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/subtraction/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Werkblad voor kleuters aftrekken - gratis werkblad sommen oefenbladen printen',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/subtraction/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis werkbladen aftrekken - werkblad voor kinderen rekenen groep 1 2 3',
-      },
-    ],
-  },
 
   // Hero Section - FULL text from subtraction.md paragraphs 1-4
   hero: {
@@ -106,43 +74,7 @@ De generator biedt vier verschillende oefenmodi voor aftrekken. Kies tussen trad
     badgeText: 'Gratis Voorbeelden',
     downloadingLabel: 'Downloaden...',
     ofLabel: 'van',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/dutch/subtraction/sample-1.jpeg',
-        answerKeySrc: '/samples/dutch/subtraction/sample-1.jpeg',
-        altText: 'Gratis werkblad aftrekken - werkblad voor kinderen rekenen oefeningen groep 3',
-        imageTitle: 'Gratis werkblad aftrekken',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/dutch/subtraction/sample-2.jpeg',
-        answerKeySrc: '/samples/dutch/subtraction/sample-2.jpeg',
-        altText: 'Aftrekken werkblad voor kleuters - gratis werkbladen sommen tot 20 oefenbladen',
-        imageTitle: 'Aftrekken werkblad voor kleuters',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/dutch/subtraction/sample-3.jpeg',
-        answerKeySrc: '/samples/dutch/subtraction/sample-3.jpeg',
-        altText: 'Gratis printables aftrekken - werkblad voor kinderen rekenen werkbladen basisschool',
-        imageTitle: 'Gratis printables aftrekken',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/dutch/subtraction/sample-4.jpeg',
-        answerKeySrc: '/samples/dutch/subtraction/sample-4.jpeg',
-        altText: 'Werkblad voor kleuters aftrekken - gratis werkblad sommen oefenbladen printen',
-        imageTitle: 'Werkblad voor kleuters aftrekken',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/dutch/subtraction/sample-5.jpeg',
-        answerKeySrc: '/samples/dutch/subtraction/sample-5.jpeg',
-        altText: 'Gratis werkbladen aftrekken - werkblad voor kinderen rekenen groep 1 2 3',
-        imageTitle: 'Gratis werkbladen aftrekken',
-      },
-    ],
+    items: [],
     
   },
 

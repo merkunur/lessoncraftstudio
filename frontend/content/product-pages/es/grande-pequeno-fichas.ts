@@ -21,33 +21,7 @@ export const bigSmallEsContent: ProductPageContent = {
     description: 'Crea fichas de comparación de tamaños profesionales con nuestro generador de fichas infantil. Tu suscripción a Acceso Completo te da acceso ilimitado a la.',
     keywords: 'fichas grande pequeño, fichas para imprimir, fichas infantil, fichas preescolar, material educativo gratis, fichas gratis, comparación de tamaños, ejercicios matemáticas, grafomotricidad, lectoescritura, dibujos para colorear',
     canonicalUrl: 'https://www.lessoncraftstudio.com/es/apps/grande-pequeno-fichas',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/spanish/big-small/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Ficha de grande y pequeño para imprimir - comparación de tamaños fichas gratis preescolar',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/spanish/big-small/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Fichas gratis de grande y pequeño para niños - ejercicios visuales infantil',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/spanish/big-small/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Fichas para imprimir comparación de tamaños - material educativo gratis',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/spanish/big-small/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Fichas infantil grande pequeño para imprimir - fichas gratis comparación',
-      },
-    ],
-  },
 
   // Hero Section - FULL text from big-small.md paragraphs 1-4
   hero: {
@@ -92,36 +66,7 @@ El generador crea de 1 a 10 ejercicios por hoja. Usa imágenes idénticas en dif
     badgeText: 'Ejemplos Gratis',
     downloadingLabel: 'Descargando...',
     ofLabel: 'de',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/spanish/big-small/sample-1.jpeg',
-        answerKeySrc: '/samples/spanish/big-small/sample-1.jpeg',
-        altText: 'Ficha de grande y pequeño para imprimir - comparación de tamaños fichas gratis preescolar',
-        imageTitle: 'Ficha de grande y pequeño para imprimir',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/spanish/big-small/sample-2.jpeg',
-        answerKeySrc: '/samples/spanish/big-small/sample-2.jpeg',
-        altText: 'Fichas gratis de grande y pequeño para niños - ejercicios visuales infantil',
-        imageTitle: 'Fichas gratis de grande y pequeño para niños',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/spanish/big-small/sample-3.jpeg',
-        answerKeySrc: '/samples/spanish/big-small/sample-3.jpeg',
-        altText: 'Fichas para imprimir comparación de tamaños - material educativo gratis',
-        imageTitle: 'Fichas para imprimir comparación de tamaños',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/spanish/big-small/sample-4.jpeg',
-        answerKeySrc: '/samples/spanish/big-small/sample-4.jpeg',
-        altText: 'Fichas infantil grande pequeño para imprimir - fichas gratis comparación',
-        imageTitle: 'Fichas infantil grande pequeño para imprimir',
-      },
-    ],
+    items: [],
     
   },
 

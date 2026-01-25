@@ -19,33 +19,7 @@ export const patternWorksheetsItContent: ProductPageContent = {
     description: 'Crea schede gratuite pattern con il nostro generatore. Stampabili gratuiti per bambini della scuola dell\'infanzia e classe prima. Scheda gratuita per bambini.',
     keywords: 'schede gratuite pattern, scheda gratuita bambini, stampabili gratuiti scuola infanzia, scheda per bambini pattern, schede didattiche sequenze, scuola primaria, classe prima, riconoscimento pattern, pregrafismo',
     canonicalUrl: 'https://www.lessoncraftstudio.com/it/apps/schede-pattern',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/pattern/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Scheda gratuita pattern per bambini - sequenze AB scuola dell\'infanzia'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/pattern/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Schede gratuite pattern - stampabili gratuiti sequenza AAB'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/pattern/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Scheda per bambini pattern - sequenza ABB classe prima gratuita'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/pattern/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Stampabili gratuiti pattern - scheda per scuola dell\'infanzia ABC'
-      }
-    ],
-  },
 
   // Hero Section
   hero: {
@@ -88,22 +62,7 @@ Scarica schede gratuite di alta qualità in formato PDF o JPEG. Ogni foglio di l
     badgeText: 'Stampabili Gratuiti',
     downloadingLabel: 'Scaricamento...',
     ofLabel: 'di',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/italian/pattern/sample-2.jpeg',
-        answerKeySrc: '/samples/italian/pattern/sample-2.jpeg',
-        altText: 'Schede gratuite pattern - stampabili gratuiti sequenza AAB',
-        imageTitle: 'Schede gratuite pattern',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/italian/pattern/sample-3.jpeg',
-        answerKeySrc: '/samples/italian/pattern/sample-3.jpeg',
-        altText: 'Scheda per bambini pattern - sequenza ABB classe prima gratuita',
-        imageTitle: 'Scheda per bambini pattern',
-      },
-    ],
+    items: [],
     
   },
 

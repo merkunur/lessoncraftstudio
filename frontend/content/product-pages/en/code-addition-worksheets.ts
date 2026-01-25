@@ -19,39 +19,7 @@ export const codeAdditionEnContent: ProductPageContent = {
     description: 'Create free addition worksheets for kindergarten. Visual math worksheet generator with counting pictures. Download printable PDF worksheets in 3 minutes.',
     keywords: 'addition worksheets, math worksheets, kindergarten worksheets, first grade worksheets, free printable worksheets, image addition worksheets, picture counting worksheets, visual math worksheets, worksheet generator, counting worksheets',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/code-addition-worksheets',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/code-addition/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Free printable addition worksheets for kindergarten - image counting math worksheet with colorful pictures'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/code-addition/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Addition worksheets free printable - visual math worksheet for first grade with picture counting'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/code-addition/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Free worksheet for kids - image addition math worksheets for kindergarten practice'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/code-addition/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Free printables math worksheets - visual addition worksheet for kindergarten with picture counting'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/code-addition/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Worksheet for kindergarten - free addition worksheets with image counting activities for kids'
-      }
-    ],
-  },
 
   // Hero Section - FULL text from code-addition.md paragraphs 1-4
   hero: {
@@ -86,43 +54,7 @@ The image addition generator creates worksheets with 3 to 10 problems per page. 
     downloadLabel: 'Download Free Sample',
     worksheetLabel: 'Worksheet',
     answerKeyLabel: 'Answer Key',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/english/code-addition/sample-1.jpeg',
-        answerKeySrc: '/samples/english/code-addition/sample-1.jpeg',
-        altText: 'Free printable addition worksheets for kindergarten - image counting math worksheet with colorful pictures',
-        imageTitle: 'Free printable addition worksheets for kindergarten',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/english/code-addition/sample-2.jpeg',
-        answerKeySrc: '/samples/english/code-addition/sample-2.jpeg',
-        altText: 'Addition worksheets free printable - visual math worksheet for first grade with picture counting',
-        imageTitle: 'Addition worksheets free printable',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/english/code-addition/sample-3.jpeg',
-        answerKeySrc: '/samples/english/code-addition/sample-3.jpeg',
-        altText: 'Free worksheet for kids - image addition math worksheets for kindergarten practice',
-        imageTitle: 'Free worksheet for kids',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/english/code-addition/sample-4.jpeg',
-        answerKeySrc: '/samples/english/code-addition/sample-4.jpeg',
-        altText: 'Free printables math worksheets - visual addition worksheet for kindergarten with picture counting',
-        imageTitle: 'Free printables math worksheets',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/english/code-addition/sample-5.jpeg',
-        answerKeySrc: '/samples/english/code-addition/sample-5.jpeg',
-        altText: 'Worksheet for kindergarten - free addition worksheets with image counting activities for kids',
-        imageTitle: 'Worksheet for kindergarten',
-      },
-    ],
+    items: [],
     
   },
 

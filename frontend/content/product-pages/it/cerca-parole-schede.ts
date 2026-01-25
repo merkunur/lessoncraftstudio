@@ -19,39 +19,7 @@ export const wordSearchItContent: ProductPageContent = {
     description: 'Crea crucipuzzle professionali con il nostro generatore di schede didattiche. Genera schede didattiche scuola primaria illimitate per la scuola dell\'infanzia e.',
     keywords: 'crucipuzzle, schede didattiche, scuola primaria, schede stampabili, generatore crucipuzzle, schede didattiche scuola primaria, schede italiano classe prima, pregrafismo, alfabeto, schede matematica',
     canonicalUrl: 'https://www.lessoncraftstudio.com/it/apps/cerca-parole-schede',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/wordsearch/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Scheda gratuita di crucipuzzle per bambini - stampabili gratuiti per scuola dell\'infanzia',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/wordsearch/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Schede gratuite di crucipuzzle - scheda per bambini stampabile',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/wordsearch/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Stampabili gratuiti di crucipuzzle - scheda gratuita per scuola dell\'infanzia',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/wordsearch/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Crucipuzzle schede didattiche - scheda gratuita vocabolario scuola primaria',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/wordsearch/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Generatore crucipuzzle gratuito - stampabili gratuiti per bambini',
-      },
-    ],
-  },
 
   // Hero Section - FULL text from wordsearch.md paragraphs 1-3
   hero: {
@@ -94,29 +62,7 @@ Le schede didattiche scuola primaria create con il nostro generatore sono stampa
     badgeText: 'Esempi Gratuiti',
     downloadingLabel: 'Scaricamento...',
     ofLabel: 'di',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/italian/wordsearch/sample-2.jpeg',
-        answerKeySrc: '/samples/italian/wordsearch/sample-2.jpeg',
-        altText: 'Schede gratuite di crucipuzzle - scheda per bambini stampabile',
-        imageTitle: 'Schede gratuite di crucipuzzle',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/italian/wordsearch/sample-4.jpeg',
-        answerKeySrc: '/samples/italian/wordsearch/sample-4.jpeg',
-        altText: 'Crucipuzzle schede didattiche - scheda gratuita vocabolario scuola primaria',
-        imageTitle: 'Crucipuzzle schede didattiche',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/italian/wordsearch/sample-5.jpeg',
-        answerKeySrc: '/samples/italian/wordsearch/sample-5.jpeg',
-        altText: 'Generatore crucipuzzle gratuito - stampabili gratuiti per bambini',
-        imageTitle: 'Generatore crucipuzzle gratuito',
-      },
-    ],
+    items: [],
     
   },
 

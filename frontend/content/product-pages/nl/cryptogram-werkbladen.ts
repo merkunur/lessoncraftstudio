@@ -33,33 +33,7 @@ export const imageCryptogramNlContent: ProductPageContent = {
     description: 'Maak professionele cryptogram werkbladen met afbeeldingen met onze cryptogram generator. Met uw Volledige Toegang abonnement creëert u onbeperkt educatieve.',
     keywords: 'cryptogram werkbladen, werkbladen groep 3, werkbladen kleuters, oefenbladen gratis, letters leren, schrijven oefenen, veilig leren lezen, fijne motoriek, kleurplaten, rekenen werkbladen',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/cryptogram-werkbladen',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/cryptogram/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis werkblad cryptogram - werkbladen groep 3 voor letters leren',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/cryptogram/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis werkbladen cryptogram - werkblad voor kleuters met afbeeldingen',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/cryptogram/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Werkblad voor kinderen - cryptogram met plaatjes voor groep 1 2',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/dutch/cryptogram/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis printables cryptogram - oefenbladen voor veilig leren lezen',
-      },
-    ],
-  },
 
   // Hero Section - FULL text from cryptogram.md paragraphs 1-4
   hero: {
@@ -104,36 +78,7 @@ Genereer cryptogram werkbladen in seconden. Pas elke letter-afbeelding toewijzin
     badgeText: 'Gratis Voorbeelden',
     downloadingLabel: 'Downloaden...',
     ofLabel: 'van',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/dutch/cryptogram/sample-1.jpeg',
-        answerKeySrc: '/samples/dutch/cryptogram/sample-1.jpeg',
-        altText: 'Gratis werkblad cryptogram - werkbladen groep 3 voor letters leren',
-        imageTitle: 'Gratis werkblad cryptogram',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/dutch/cryptogram/sample-2.jpeg',
-        answerKeySrc: '/samples/dutch/cryptogram/sample-2.jpeg',
-        altText: 'Gratis werkbladen cryptogram - werkblad voor kleuters met afbeeldingen',
-        imageTitle: 'Gratis werkbladen cryptogram',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/dutch/cryptogram/sample-3.jpeg',
-        answerKeySrc: '/samples/dutch/cryptogram/sample-3.jpeg',
-        altText: 'Werkblad voor kinderen - cryptogram met plaatjes voor groep 1 2',
-        imageTitle: 'Werkblad voor kinderen',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/dutch/cryptogram/sample-4.jpeg',
-        answerKeySrc: '/samples/dutch/cryptogram/sample-4.jpeg',
-        altText: 'Gratis printables cryptogram - oefenbladen voor veilig leren lezen',
-        imageTitle: 'Gratis printables cryptogram',
-      },
-    ],
+    items: [],
     
   },
 

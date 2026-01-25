@@ -25,33 +25,7 @@ export const wordSearchPtContent: ProductPageContent = {
     description: 'Crie atividades gratis caca-palavras para criancas. Gerador de imprimiveis gratis para educacao infantil. Baixe atividade gratis PDF em 3 minutos com gabarito.',
     keywords: 'caca-palavras, atividade gratis, atividades gratis, imprimiveis gratis, atividade para criancas, atividade para educacao infantil, atividades de alfabetizacao, educacao infantil, ensino fundamental, coordenacao motora',
     canonicalUrl: 'https://www.lessoncraftstudio.com/pt/apps/caca-palavras-fichas',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/wordsearch/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Atividades gratis caca-palavras - atividade gratis para criancas formato retrato'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/wordsearch/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Atividade gratis caca-palavras para educacao infantil - imprimiveis gratis'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/wordsearch/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Atividade para criancas caca-palavras - atividades gratis com gabarito'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/wordsearch/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Imprimiveis gratis caca-palavras - atividade para educacao infantil'
-      }
-    ],
-  },
 
   // Hero Section - Universal keywords injected
   hero: {
@@ -94,36 +68,7 @@ Nosso gerador de atividades gratis cria imprimiveis gratis em segundos. Escolha 
     badgeText: 'Exemplos Gratis',
     downloadingLabel: 'Baixando...',
     ofLabel: 'de',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/portuguese/wordsearch/sample-1.jpeg',
-        answerKeySrc: '/samples/portuguese/wordsearch/sample-1.jpeg',
-        altText: 'Atividades gratis caca-palavras - atividade gratis para criancas formato retrato',
-        imageTitle: 'Atividades gratis caca-palavras',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/portuguese/wordsearch/sample-2.jpeg',
-        answerKeySrc: '/samples/portuguese/wordsearch/sample-2.jpeg',
-        altText: 'Atividade gratis caca-palavras para educacao infantil - imprimiveis gratis',
-        imageTitle: 'Atividade gratis caca-palavras para educacao infantil',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/portuguese/wordsearch/sample-3.jpeg',
-        answerKeySrc: '/samples/portuguese/wordsearch/sample-3.jpeg',
-        altText: 'Atividade para criancas caca-palavras - atividades gratis com gabarito',
-        imageTitle: 'Atividade para criancas caca-palavras',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/portuguese/wordsearch/sample-4.jpeg',
-        answerKeySrc: '/samples/portuguese/wordsearch/sample-4.jpeg',
-        altText: 'Imprimiveis gratis caca-palavras - atividade para educacao infantil',
-        imageTitle: 'Imprimiveis gratis caca-palavras',
-      },
-    ],
+    items: [],
     
   },
 

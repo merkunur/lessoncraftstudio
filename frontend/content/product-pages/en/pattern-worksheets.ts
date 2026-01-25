@@ -19,39 +19,7 @@ export const patternWorksheetsEnContent: ProductPageContent = {
     description: 'Create free pattern worksheets for kids with our pattern recognition generator. Free printables with AB, ABC, ABCD patterns. Download worksheet for.',
     keywords: 'pattern worksheets, pattern recognition worksheets, free worksheets, free printables, worksheet for kids, worksheet for kindergarten, free worksheet for kids, math worksheets, kindergarten worksheets, first grade worksheets',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/pattern-worksheets',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/pattern/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Free pattern worksheets for kindergarten - AB pattern recognition worksheet for kids',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/pattern/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Free printable pattern worksheets - ABC pattern worksheet for first grade math',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/pattern/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Pattern recognition worksheet for kids - ABCD pattern completion free printables',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/pattern/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Worksheet for kindergarten - visual pattern recognition math worksheet free',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/pattern/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Free worksheet for kids - pattern recognition printable for classroom use',
-      },
-    ],
-  },
 
   // Hero Section - FULL text from pattern-worksheet.md paragraphs 1-4
   hero: {
@@ -82,43 +50,7 @@ Full Access subscription includes commercial licensing for Teachers Pay Teachers
     downloadLabel: 'Download Free Sample',
     worksheetLabel: 'Worksheet',
     answerKeyLabel: 'Answer Key',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/english/pattern/sample-1.jpeg',
-        answerKeySrc: '/samples/english/pattern/sample-1.jpeg',
-        altText: 'Free pattern worksheets for kindergarten - AB pattern recognition worksheet for kids',
-        imageTitle: 'Free pattern worksheets for kindergarten',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/english/pattern/sample-2.jpeg',
-        answerKeySrc: '/samples/english/pattern/sample-2.jpeg',
-        altText: 'Free printable pattern worksheets - ABC pattern worksheet for first grade math',
-        imageTitle: 'Free printable pattern worksheets',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/english/pattern/sample-3.jpeg',
-        answerKeySrc: '/samples/english/pattern/sample-3.jpeg',
-        altText: 'Pattern recognition worksheet for kids - ABCD pattern completion free printables',
-        imageTitle: 'Pattern recognition worksheet for kids',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/english/pattern/sample-4.jpeg',
-        answerKeySrc: '/samples/english/pattern/sample-4.jpeg',
-        altText: 'Worksheet for kindergarten - visual pattern recognition math worksheet free',
-        imageTitle: 'Worksheet for kindergarten',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/english/pattern/sample-5.jpeg',
-        answerKeySrc: '/samples/english/pattern/sample-5.jpeg',
-        altText: 'Free worksheet for kids - pattern recognition printable for classroom use',
-        imageTitle: 'Free worksheet for kids',
-      },
-    ],
+    items: [],
     
   },
 

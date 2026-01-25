@@ -21,39 +21,7 @@ export const findObjectsItContent: ProductPageContent = {
     description: 'Crea schede gratuite trova gli oggetti con il nostro generatore. Stampabili gratuiti personalizzabili perfetti per scuola dell\'infanzia e scuola primaria.',
     keywords: 'schede gratuite trova gli oggetti, scheda gratuita per bambini, stampabili gratuiti, scheda per scuola dell\'infanzia, schede didattiche scuola primaria, generatore schede, trova l\'intruso, cerca gli oggetti, discriminazione visiva',
     canonicalUrl: 'https://www.lessoncraftstudio.com/it/apps/trova-oggetti-schede',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/find-objects/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Scheda gratuita trova gli oggetti - attività visiva per scuola dell\'infanzia',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/find-objects/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Schede gratuite cerca oggetti - stampabili gratuiti per bambini scuola primaria',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/find-objects/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Scheda per bambini trova l\'intruso - schede gratuite discriminazione visiva',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/find-objects/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Stampabili gratuiti trova oggetti - scheda gratuita per scuola dell\'infanzia',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/find-objects/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Schede gratuite cerca oggetti nascosti - stampabili gratuiti scuola primaria',
-      },
-    ],
-  },
 
   // Hero Section
   hero: {
@@ -96,22 +64,7 @@ Questo strumento è perfetto per insegnanti italiani. Genera scheda gratuita per
     badgeText: 'Esempi Gratuiti',
     downloadingLabel: 'Scaricamento...',
     ofLabel: 'di',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/italian/find-objects/sample-2.jpeg',
-        answerKeySrc: '/samples/italian/find-objects/sample-2.jpeg',
-        altText: 'Schede gratuite cerca oggetti - stampabili gratuiti per bambini scuola primaria',
-        imageTitle: 'Schede gratuite cerca oggetti',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/italian/find-objects/sample-5.jpeg',
-        answerKeySrc: '/samples/italian/find-objects/sample-5.jpeg',
-        altText: 'Schede gratuite cerca oggetti nascosti - stampabili gratuiti scuola primaria',
-        imageTitle: 'Schede gratuite cerca oggetti nascosti',
-      },
-    ],
+    items: [],
     
   },
 

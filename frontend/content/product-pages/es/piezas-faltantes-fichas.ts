@@ -19,39 +19,7 @@ export const missingPiecesEsContent: ProductPageContent = {
     description: 'Crea fichas profesionales de piezas faltantes con nuestro generador de rompecabezas visuales. Genera fichas para imprimir personalizadas perfectas para.',
     keywords: 'fichas para imprimir, piezas faltantes, fichas preescolar, fichas infantil, rompecabezas visuales, material educativo gratis, fichas de matemáticas, lectoescritura, abecedario, grafomotricidad, dibujos para colorear, tablas de multiplicar, fichas gratis',
     canonicalUrl: 'https://www.lessoncraftstudio.com/es/apps/piezas-faltantes-fichas',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/spanish/missing-pieces/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Ficha de piezas faltantes con rompecabezas visual - fichas gratis para imprimir preescolar'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/spanish/missing-pieces/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Ficha de piezas faltantes para niños - material educativo gratis primaria'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/spanish/missing-pieces/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Rompecabezas visual piezas faltantes - fichas infantil discriminación visual'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/spanish/missing-pieces/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Actividad de piezas faltantes - fichas preescolar razonamiento espacial'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/spanish/missing-pieces/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Ficha de piezas faltantes imprimible - fichas gratis para niños educación infantil'
-      }
-    ],
-  },
 
   // Hero Section
   hero: {
@@ -96,43 +64,7 @@ Perfecto para maestros de preescolar, educadores de educación infantil y padres
     badgeText: 'Ejemplos Gratis',
     downloadingLabel: 'Descargando...',
     ofLabel: 'de',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/spanish/missing-pieces/sample-1.jpeg',
-        answerKeySrc: '/samples/spanish/missing-pieces/sample-1.jpeg',
-        altText: 'Ficha de piezas faltantes con rompecabezas visual - fichas gratis para imprimir preescolar',
-        imageTitle: 'Ficha de piezas faltantes con rompecabezas visual',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/spanish/missing-pieces/sample-2.jpeg',
-        answerKeySrc: '/samples/spanish/missing-pieces/sample-2.jpeg',
-        altText: 'Ficha de piezas faltantes para niños - material educativo gratis primaria',
-        imageTitle: 'Ficha de piezas faltantes para niños',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/spanish/missing-pieces/sample-3.jpeg',
-        answerKeySrc: '/samples/spanish/missing-pieces/sample-3.jpeg',
-        altText: 'Rompecabezas visual piezas faltantes - fichas infantil discriminación visual',
-        imageTitle: 'Rompecabezas visual piezas faltantes',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/spanish/missing-pieces/sample-4.jpeg',
-        answerKeySrc: '/samples/spanish/missing-pieces/sample-4.jpeg',
-        altText: 'Actividad de piezas faltantes - fichas preescolar razonamiento espacial',
-        imageTitle: 'Actividad de piezas faltantes',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/spanish/missing-pieces/sample-5.jpeg',
-        answerKeySrc: '/samples/spanish/missing-pieces/sample-5.jpeg',
-        altText: 'Ficha de piezas faltantes imprimible - fichas gratis para niños educación infantil',
-        imageTitle: 'Ficha de piezas faltantes imprimible',
-      },
-    ],
+    items: [],
     
   },
 

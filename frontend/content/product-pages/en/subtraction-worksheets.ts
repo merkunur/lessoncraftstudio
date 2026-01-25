@@ -19,39 +19,7 @@ export const subtractionEnContent: ProductPageContent = {
     description: 'Create professional subtraction worksheets for kindergarten and first grade. Free printable math worksheets with answer keys. Download PDF in 3 minutes.',
     keywords: 'subtraction worksheets, math worksheets, kindergarten worksheets, free printable worksheets, first grade worksheets, free worksheets, worksheet for kids, math worksheet generator, free printables, worksheet for kindergarten',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/subtraction-worksheets',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/subtraction/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Free printable subtraction worksheets for kindergarten - cross-out counting math practice for kids'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/subtraction/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Subtraction worksheets with pictures - free printable image-number format for first grade'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/subtraction/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Free printable subtraction worksheets - find the subtrahend math practice for kindergarten'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/subtraction/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Mixed mode subtraction worksheets - free math worksheet for kids with varied problem types'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/subtraction/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Kindergarten subtraction worksheets free printable - visual math practice worksheet'
-      }
-    ]
-  },
 
   // Hero Section - FULL text from subtraction.md paragraphs 1-4
   hero: {
@@ -82,43 +50,7 @@ Adjust difficulty settings to create kindergarten worksheets for early learners 
     downloadLabel: 'Download Free Sample',
     worksheetLabel: 'Worksheet',
     answerKeyLabel: 'Answer Key',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/english/subtraction/sample-1.jpeg',
-        answerKeySrc: '/samples/english/subtraction/sample-1.jpeg',
-        altText: 'Free printable subtraction worksheets for kindergarten - cross-out counting math practice for kids',
-        imageTitle: 'Free printable subtraction worksheets for kindergarten',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/english/subtraction/sample-2.jpeg',
-        answerKeySrc: '/samples/english/subtraction/sample-2.jpeg',
-        altText: 'Subtraction worksheets with pictures - free printable image-number format for first grade',
-        imageTitle: 'Subtraction worksheets with pictures',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/english/subtraction/sample-3.jpeg',
-        answerKeySrc: '/samples/english/subtraction/sample-3.jpeg',
-        altText: 'Free printable subtraction worksheets - find the subtrahend math practice for kindergarten',
-        imageTitle: 'Free printable subtraction worksheets',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/english/subtraction/sample-4.jpeg',
-        answerKeySrc: '/samples/english/subtraction/sample-4.jpeg',
-        altText: 'Mixed mode subtraction worksheets - free math worksheet for kids with varied problem types',
-        imageTitle: 'Mixed mode subtraction worksheets',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/english/subtraction/sample-5.jpeg',
-        answerKeySrc: '/samples/english/subtraction/sample-5.jpeg',
-        altText: 'Kindergarten subtraction worksheets free printable - visual math practice worksheet',
-        imageTitle: 'Kindergarten subtraction worksheets free printable',
-      },
-    ],
+    items: [],
     
   },
 

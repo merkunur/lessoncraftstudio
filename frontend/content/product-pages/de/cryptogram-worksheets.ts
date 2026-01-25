@@ -31,39 +31,7 @@ export const cryptogramDeContent: ProductPageContent = {
     description: 'Erstellen Sie professionelle Bilder-Kryptogramm Arbeitsblätter kostenlos. Perfekt für Grundschule und Vorschule. PDF in 3 Minuten herunterladen! Perfekt für Lehrer und Eltern.',
     keywords: 'bilder-kryptogramm, kryptogramm generator, arbeitsblätter grundschule, kostenlose arbeitsblätter, vorschule arbeitsblätter, deutsch arbeitsblätter, buchstaben lernen, mathe arbeitsblätter, schwungübungen, ausmalbilder',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/bildkryptogramm-arbeitsblaetter',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/cryptogram/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Bilder-Kryptogramm Arbeitsblatt - Kostenlose Arbeitsblätter für Grundschule und Vorschule',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/cryptogram/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Kryptogramm Rätsel Arbeitsblatt - Buchstaben lernen mit Bildcodes für Kinder',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/cryptogram/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Geheimschrift Arbeitsblatt - Arbeitsblätter Grundschule mit visuellen Hinweisen',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/cryptogram/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Bilder-Code Rätsel - Vorschule Arbeitsblätter zum Entschlüsseln',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/cryptogram/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Kryptogramm für Kinder - Deutsch Arbeitsblätter mit Bilderrätseln',
-      },
-    ],
-  },
 
   // Hero Section - FULL text from kryptogramm.md
   hero: {
@@ -106,43 +74,7 @@ Unser Kryptogramm-Generator erstellt individuelle Rätsel in 11 Sprachen. Laden 
     badgeText: 'Kostenlose Beispiele',
     downloadingLabel: 'Wird heruntergeladen...',
     ofLabel: 'von',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/german/cryptogram/sample-1.jpeg',
-        answerKeySrc: '/samples/german/cryptogram/sample-1.jpeg',
-        altText: 'Bilder-Kryptogramm Arbeitsblatt - Kostenlose Arbeitsblätter für Grundschule und Vorschule',
-        imageTitle: 'Bilder-Kryptogramm Arbeitsblatt',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/german/cryptogram/sample-2.jpeg',
-        answerKeySrc: '/samples/german/cryptogram/sample-2.jpeg',
-        altText: 'Kryptogramm Rätsel Arbeitsblatt - Buchstaben lernen mit Bildcodes für Kinder',
-        imageTitle: 'Kryptogramm Rätsel Arbeitsblatt',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/german/cryptogram/sample-3.jpeg',
-        answerKeySrc: '/samples/german/cryptogram/sample-3.jpeg',
-        altText: 'Geheimschrift Arbeitsblatt - Arbeitsblätter Grundschule mit visuellen Hinweisen',
-        imageTitle: 'Geheimschrift Arbeitsblatt',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/german/cryptogram/sample-4.jpeg',
-        answerKeySrc: '/samples/german/cryptogram/sample-4.jpeg',
-        altText: 'Bilder-Code Rätsel - Vorschule Arbeitsblätter zum Entschlüsseln',
-        imageTitle: 'Bilder-Code Rätsel',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/german/cryptogram/sample-5.jpeg',
-        answerKeySrc: '/samples/german/cryptogram/sample-5.jpeg',
-        altText: 'Kryptogramm für Kinder - Deutsch Arbeitsblätter mit Bilderrätseln',
-        imageTitle: 'Kryptogramm für Kinder',
-      },
-    ],
+    items: [],
     
   },
 

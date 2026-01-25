@@ -31,39 +31,7 @@ export const mathPuzzleDeContent: ProductPageContent = {
     description: 'Erstellen Sie Mathe-Rätsel Arbeitsblätter in 3 Minuten. Perfekt für Grundschule und Vorschule. 3000+ Bilder, Lösungsblätter inklusive. Jetzt kostenlos testen!',
     keywords: 'mathe-rätsel, mathe arbeitsblätter, arbeitsblätter grundschule, kostenlose arbeitsblätter, vorschule arbeitsblätter, rechnen lernen, rechnen 1. klasse, einmaleins, addition subtraktion, ausdrucken',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/mathe-raetsel-arbeitsblaetter',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/math-puzzle/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Mathe-Rätsel Arbeitsblatt kostenlos - Addition und Subtraktion für Grundschule',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/math-puzzle/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Kostenloses Mathe-Rätsel Arbeitsblatt - Rechnen lernen für Vorschule',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/math-puzzle/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Mathe-Rätsel zum Ausdrucken - Kostenlose Arbeitsblätter für Kinder',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/math-puzzle/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Bilderrätsel Mathe Arbeitsblatt - Rechnen 1. Klasse mit Spaß',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/german/math-puzzle/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Mathe-Rätsel Generator Arbeitsblatt - Grundschule Addition Subtraktion',
-      },
-    ],
-  },
 
   // Hero Section - FULL text from mathe-raetsel.md
   hero: {
@@ -106,43 +74,7 @@ Unser Mathe-Rätsel Generator erstellt individuelle Arbeitsblätter für die 1. 
     badgeText: 'Kostenlose Beispiele',
     downloadingLabel: 'Wird heruntergeladen...',
     ofLabel: 'von',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/german/math-puzzle/sample-1.jpeg',
-        answerKeySrc: '/samples/german/math-puzzle/sample-1.jpeg',
-        altText: 'Mathe-Rätsel Arbeitsblatt kostenlos - Addition und Subtraktion für Grundschule',
-        imageTitle: 'Mathe-Rätsel Arbeitsblatt kostenlos',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/german/math-puzzle/sample-2.jpeg',
-        answerKeySrc: '/samples/german/math-puzzle/sample-2.jpeg',
-        altText: 'Kostenloses Mathe-Rätsel Arbeitsblatt - Rechnen lernen für Vorschule',
-        imageTitle: 'Kostenloses Mathe-Rätsel Arbeitsblatt',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/german/math-puzzle/sample-3.jpeg',
-        answerKeySrc: '/samples/german/math-puzzle/sample-3.jpeg',
-        altText: 'Mathe-Rätsel zum Ausdrucken - Kostenlose Arbeitsblätter für Kinder',
-        imageTitle: 'Mathe-Rätsel zum Ausdrucken',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/german/math-puzzle/sample-4.jpeg',
-        answerKeySrc: '/samples/german/math-puzzle/sample-4.jpeg',
-        altText: 'Bilderrätsel Mathe Arbeitsblatt - Rechnen 1. Klasse mit Spaß',
-        imageTitle: 'Bilderrätsel Mathe Arbeitsblatt',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/german/math-puzzle/sample-5.jpeg',
-        answerKeySrc: '/samples/german/math-puzzle/sample-5.jpeg',
-        altText: 'Mathe-Rätsel Generator Arbeitsblatt - Grundschule Addition Subtraktion',
-        imageTitle: 'Mathe-Rätsel Generator Arbeitsblatt',
-      },
-    ],
+    items: [],
     
   },
 

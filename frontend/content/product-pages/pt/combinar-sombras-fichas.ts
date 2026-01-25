@@ -21,39 +21,7 @@ export const shadowMatchPtContent: ProductPageContent = {
     description: 'Crie atividades de combinar sombras profissionais em menos de 3 minutos. Com sua assinatura Acesso Completo, você gera fichas ilimitadas sem taxas adicionais.',
     keywords: 'atividades para imprimir, combinar sombras, atividades educação infantil, coordenação motora, atividades de alfabetização, desenhos para colorir, atividades 1º ano, atividades 2º ano, letra cursiva, pontilhado, tabuada, atividades vogais, alfabeto',
     canonicalUrl: 'https://www.lessoncraftstudio.com/pt/apps/combinar-sombras-fichas',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/shadow-match/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Atividade grátis de combinar sombras para educação infantil',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/shadow-match/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Atividade grátis para crianças - combinar sombras com animais',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/shadow-match/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Atividades grátis de combinar sombras para coordenação motora',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/shadow-match/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Imprimíveis grátis de combinar sombras para educação infantil',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/shadow-match/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Atividade para crianças de combinar sombras - pareamento visual',
-      },
-    ],
-  },
 
   // Hero Section - FULL text from Portuguese shadow-match.md
   hero: {
@@ -98,43 +66,7 @@ Acesse uma biblioteca com mais de 3000 imagens organizadas por temas. Encontre a
     badgeText: 'Exemplos Grátis',
     downloadingLabel: 'Baixando...',
     ofLabel: 'de',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/portuguese/shadow-match/sample-1.jpeg',
-        answerKeySrc: '/samples/portuguese/shadow-match/sample-1.jpeg',
-        altText: 'Atividade grátis de combinar sombras para educação infantil',
-        imageTitle: 'Atividade grátis de combinar sombras para educação infantil',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/portuguese/shadow-match/sample-2.jpeg',
-        answerKeySrc: '/samples/portuguese/shadow-match/sample-2.jpeg',
-        altText: 'Atividade grátis para crianças - combinar sombras com animais',
-        imageTitle: 'Atividade grátis para crianças',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/portuguese/shadow-match/sample-3.jpeg',
-        answerKeySrc: '/samples/portuguese/shadow-match/sample-3.jpeg',
-        altText: 'Atividades grátis de combinar sombras para coordenação motora',
-        imageTitle: 'Atividades grátis de combinar sombras para coordenação motora',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/portuguese/shadow-match/sample-4.jpeg',
-        answerKeySrc: '/samples/portuguese/shadow-match/sample-4.jpeg',
-        altText: 'Imprimíveis grátis de combinar sombras para educação infantil',
-        imageTitle: 'Imprimíveis grátis de combinar sombras para educação infantil',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/portuguese/shadow-match/sample-5.jpeg',
-        answerKeySrc: '/samples/portuguese/shadow-match/sample-5.jpeg',
-        altText: 'Atividade para crianças de combinar sombras - pareamento visual',
-        imageTitle: 'Atividade para crianças de combinar sombras',
-      },
-    ],
+    items: [],
     
   },
 

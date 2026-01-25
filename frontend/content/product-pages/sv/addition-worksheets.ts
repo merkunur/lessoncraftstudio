@@ -19,33 +19,7 @@ export const additionSvContent: ProductPageContent = {
     description: 'Skapa professionella additionsarbetsblad med vår bildbaserade matematik arbetsblad generator. Generera skräddarsydda utskrivbara matte övningar perfekta för.',
     keywords: 'arbetsblad gratis, addition och subtraktion, matematik arbetsblad, förskoleklass material, matte övningar, siffror och tal, additionsarbetsblad, multiplikationstabellen, klockan lära sig, bokstäver lära sig, skriva bokstäver, målarbilder barn, finmotorik övningar',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/addition-arbetsblad',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/addition/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Additionsarbetsblad gratis för förskoleklass - matematik övningar med bilder'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/addition/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Gratis arbetsblad för barn - addition och subtraktion matte övningar'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/addition/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Matematik arbetsblad gratis - siffror och tal övningar för lågstadiet'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/swedish/addition/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Addition arbetsblad för förskoleklass - gratis utskrifter med facit'
-      },
-    ],
-  },
 
   // Hero Section - FULL text from addition.md paragraphs 1-4
   hero: {
@@ -90,36 +64,7 @@ Verktyget fungerar för alla lärarnivåer. Ingen designerfarenhet behövs. Väl
     badgeText: 'Gratis Exempel',
     downloadingLabel: 'Laddar ner...',
     ofLabel: 'av',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/swedish/addition/sample-1.jpeg',
-        answerKeySrc: '/samples/swedish/addition/sample-1.jpeg',
-        altText: 'Additionsarbetsblad gratis för förskoleklass - matematik övningar med bilder',
-        imageTitle: 'Additionsarbetsblad gratis för förskoleklass',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/swedish/addition/sample-2.jpeg',
-        answerKeySrc: '/samples/swedish/addition/sample-2.jpeg',
-        altText: 'Gratis arbetsblad för barn - addition och subtraktion matte övningar',
-        imageTitle: 'Gratis arbetsblad för barn',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/swedish/addition/sample-3.jpeg',
-        answerKeySrc: '/samples/swedish/addition/sample-3.jpeg',
-        altText: 'Matematik arbetsblad gratis - siffror och tal övningar för lågstadiet',
-        imageTitle: 'Matematik arbetsblad gratis',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/swedish/addition/sample-4.jpeg',
-        answerKeySrc: '/samples/swedish/addition/sample-4.jpeg',
-        altText: 'Addition arbetsblad för förskoleklass - gratis utskrifter med facit',
-        imageTitle: 'Addition arbetsblad för förskoleklass',
-      },
-    ],
+    items: [],
     
   },
 

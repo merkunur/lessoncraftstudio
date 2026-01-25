@@ -19,39 +19,7 @@ export const patternWorksheetEsContent: ProductPageContent = {
     description: 'Crea fichas de patrones profesionales con nuestro generador de ejercicios de patrones. Genera fichas para imprimir personalizadas perfectas para educación.',
     keywords: 'fichas de patrones, ejercicios de patrones, fichas para imprimir, fichas infantil, fichas preescolar, material educativo gratis, fichas gratis, ejercicios matemáticas, grafomotricidad, lectoescritura, patrones AB, patrones ABC, tablas de multiplicar, abecedario, números',
     canonicalUrl: 'https://www.lessoncraftstudio.com/es/apps/fichas-patrones',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/spanish/pattern/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Ficha gratis de patrones para imprimir - ejercicio de secuencias AB para preescolar',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/spanish/pattern/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Ficha gratis para niños de patrones - actividad de secuencias ABC para infantil',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/spanish/pattern/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Fichas gratis de ejercicios de patrones - material educativo para educación primaria',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/spanish/pattern/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Imprimibles gratis de fichas de patrones - ejercicios de grafomotricidad para preescolar',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/spanish/pattern/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Ficha para niños de patrones - fichas para imprimir con secuencias ABCD',
-      },
-    ],
-  },
 
   // Hero Section - FULL text from pattern-worksheet.md paragraphs 1-4
   hero: {
@@ -94,43 +62,7 @@ El reconocimiento de patrones desarrolla habilidades matemáticas esenciales. Es
     badgeText: 'Ejemplos Gratis',
     downloadingLabel: 'Descargando...',
     ofLabel: 'de',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/spanish/pattern/sample-1.jpeg',
-        answerKeySrc: '/samples/spanish/pattern/sample-1.jpeg',
-        altText: 'Ficha gratis de patrones para imprimir - ejercicio de secuencias AB para preescolar',
-        imageTitle: 'Ficha gratis de patrones para imprimir',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/spanish/pattern/sample-2.jpeg',
-        answerKeySrc: '/samples/spanish/pattern/sample-2.jpeg',
-        altText: 'Ficha gratis para niños de patrones - actividad de secuencias ABC para infantil',
-        imageTitle: 'Ficha gratis para niños de patrones',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/spanish/pattern/sample-3.jpeg',
-        answerKeySrc: '/samples/spanish/pattern/sample-3.jpeg',
-        altText: 'Fichas gratis de ejercicios de patrones - material educativo para educación primaria',
-        imageTitle: 'Fichas gratis de ejercicios de patrones',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/spanish/pattern/sample-4.jpeg',
-        answerKeySrc: '/samples/spanish/pattern/sample-4.jpeg',
-        altText: 'Imprimibles gratis de fichas de patrones - ejercicios de grafomotricidad para preescolar',
-        imageTitle: 'Imprimibles gratis de fichas de patrones',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/spanish/pattern/sample-5.jpeg',
-        answerKeySrc: '/samples/spanish/pattern/sample-5.jpeg',
-        altText: 'Ficha para niños de patrones - fichas para imprimir con secuencias ABCD',
-        imageTitle: 'Ficha para niños de patrones',
-      },
-    ],
+    items: [],
     
   },
 

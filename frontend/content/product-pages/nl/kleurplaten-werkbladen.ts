@@ -31,14 +31,7 @@ export const coloringNlContent: ProductPageContent = {
     description: 'Maak professionele kleurplaten met onze gratis werkbladen generator. Met je Basispakket abonnement krijg je onbeperkt toegang tot werkblad voor kinderen maken.',
     keywords: 'kleurplaten, gratis werkblad, gratis werkbladen, gratis printables, werkblad voor kinderen, werkblad voor kleuters, werkbladen groep 3, werkbladen kleuters, oefenbladen gratis, fijne motoriek',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/kleurplaten-werkbladen',
-    images: [
-      { url: 'https://www.lessoncraftstudio.com/samples/dutch/coloring/sample-1.jpeg', width: 2480, height: 3508, caption: 'Gratis werkblad kleurplaat - werkblad voor kinderen met dierenthema' },
-      { url: 'https://www.lessoncraftstudio.com/samples/dutch/coloring/sample-2.jpeg', width: 2480, height: 3508, caption: 'Gratis werkbladen kleurplaat - werkblad voor kleuters met fijne motoriek' },
-      { url: 'https://www.lessoncraftstudio.com/samples/dutch/coloring/sample-3.jpeg', width: 2480, height: 3508, caption: 'Gratis printables kleurplaat - oefenbladen gratis voor werkbladen groep 3' },
-      { url: 'https://www.lessoncraftstudio.com/samples/dutch/coloring/sample-4.jpeg', width: 2480, height: 3508, caption: 'Werkblad voor kinderen kleurplaat - gratis werkblad met seizoensthema' },
-      { url: 'https://www.lessoncraftstudio.com/samples/dutch/coloring/sample-5.jpeg', width: 2480, height: 3508, caption: 'Gratis werkblad voor kinderen - kleurplaat voor fijne motoriek' },
-    ],
-  },
+      },
 
   // Hero Section - FULL text from coloring.md paragraphs 1-4
   hero: {
@@ -81,43 +74,7 @@ Kleurplaten zijn essentieel voor de ontwikkeling van jonge kinderen. Ze stimuler
     badgeText: 'Gratis Voorbeelden',
     downloadingLabel: 'Downloaden...',
     ofLabel: 'van',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/dutch/coloring/sample-1.jpeg',
-        answerKeySrc: '/samples/dutch/coloring/sample-1.jpeg',
-        altText: 'Gratis werkblad kleurplaat - werkblad voor kinderen met dierenthema',
-        imageTitle: 'Gratis werkblad kleurplaat',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/dutch/coloring/sample-2.jpeg',
-        answerKeySrc: '/samples/dutch/coloring/sample-2.jpeg',
-        altText: 'Gratis werkbladen kleurplaat - werkblad voor kleuters met fijne motoriek',
-        imageTitle: 'Gratis werkbladen kleurplaat',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/dutch/coloring/sample-3.jpeg',
-        answerKeySrc: '/samples/dutch/coloring/sample-3.jpeg',
-        altText: 'Gratis printables kleurplaat - oefenbladen gratis voor werkbladen groep 3',
-        imageTitle: 'Gratis printables kleurplaat',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/dutch/coloring/sample-4.jpeg',
-        answerKeySrc: '/samples/dutch/coloring/sample-4.jpeg',
-        altText: 'Werkblad voor kinderen kleurplaat - gratis werkblad met seizoensthema',
-        imageTitle: 'Werkblad voor kinderen kleurplaat',
-      },
-      {
-        id: 'sample-5',
-        worksheetSrc: '/samples/dutch/coloring/sample-5.jpeg',
-        answerKeySrc: '/samples/dutch/coloring/sample-5.jpeg',
-        altText: 'Gratis werkblad voor kinderen - kleurplaat voor fijne motoriek',
-        imageTitle: 'Gratis werkblad voor kinderen',
-      },
-    ],
+    items: [],
     
   },
 

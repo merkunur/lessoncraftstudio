@@ -19,27 +19,7 @@ export const writingEnContent: ProductPageContent = {
     description: 'Create free letter tracing worksheets for kindergarten and first grade. Handwriting practice with guided lines. Download printable PDF in 3 minutes. Perfect for teachers and parents.',
     keywords: 'tracing worksheets, letter tracing worksheets, handwriting worksheets, kindergarten worksheets, first grade worksheets, free printable worksheets, alphabet worksheets, abc worksheets, sight words worksheets, worksheet for kids',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/writing-worksheets',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/writing/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Free printable letter tracing worksheet with guided writing lines for kindergarten handwriting practice'
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/writing/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Custom text tracing worksheet for first grade handwriting and sight words practice'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/writing/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Beginning letter tracing worksheet with image prompts for alphabet learning and phonics'
-      }
-    ]
-  },
 
   // Hero Section - FULL text from writing.md paragraphs 1-3
   hero: {
@@ -68,29 +48,7 @@ Generate tracing worksheets for letters, words, names, or custom text. Your Full
     downloadLabel: 'Download Free Sample',
     worksheetLabel: 'Worksheet',
     answerKeyLabel: 'Answer Key',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/english/writing/sample-1.jpeg',
-        answerKeySrc: '/samples/english/writing/sample-1.jpeg',
-        altText: 'Free printable letter tracing worksheet with guided writing lines for kindergarten handwriting practice',
-        imageTitle: 'Free printable letter tracing worksheet with guided writing lines for kindergarten handwriting practice',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/english/writing/sample-2.jpeg',
-        answerKeySrc: '/samples/english/writing/sample-2.jpeg',
-        altText: 'Custom text tracing worksheet for first grade handwriting and sight words practice',
-        imageTitle: 'Custom text tracing worksheet for first grade handwriting and sight words practice',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/english/writing/sample-3.jpeg',
-        answerKeySrc: '/samples/english/writing/sample-3.jpeg',
-        altText: 'Beginning letter tracing worksheet with image prompts for alphabet learning and phonics',
-        imageTitle: 'Beginning letter tracing worksheet with image prompts for alphabet learning and phonics',
-      },
-    ],
+    items: [],
     
   },
 

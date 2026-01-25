@@ -19,39 +19,7 @@ export const drawingLinesFrContent: ProductPageContent = {
     description: 'Créez des fiches gratuites de graphisme maternelle avec notre générateur. Téléchargez des exercices CP de tracé en PDF haute résolution en moins de 3 minutes.',
     keywords: 'fiches maternelle, graphisme maternelle, fiches à imprimer gratuit, écriture cursive, exercices CP, motricité fine, coloriage à imprimer, exercices maths, apprendre les lettres, tables de multiplication, exercices CE1, alphabet, fiche gratuite, fiches gratuites, fiche pour enfants, fiche pour maternelle, imprimables gratuits',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fr/apps/graphisme-fiches',
-    images: [
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/french/drawing-lines/sample-1.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Fiche gratuite de graphisme maternelle - tracé de lignes courbes pour la motricité fine',
       },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/french/drawing-lines/sample-2.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Fiche gratuite pour enfants - graphisme avec lignes diagonales pour maternelle',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/french/drawing-lines/sample-3.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Fiches gratuites de tracé de lignes - préparation à l\'écriture cursive',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/french/drawing-lines/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Fiche pour maternelle - exercices de graphisme et motricité fine',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/french/drawing-lines/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Imprimables gratuits de graphisme - fiches de tracé pour PS MS GS',
-      },
-    ],
-  },
 
   // Hero Section - FULL text from drawing-lines.md paragraphs 1-6
   hero: {
@@ -94,36 +62,7 @@ Le graphisme en maternelle pose les bases de l'écriture. Les enfants tracent de
     badgeText: 'Exemples Gratuits',
     downloadingLabel: 'Téléchargement...',
     ofLabel: 'sur',
-    items: [
-      {
-        id: 'sample-1',
-        worksheetSrc: '/samples/french/drawing-lines/sample-1.jpeg',
-        answerKeySrc: '/samples/french/drawing-lines/sample-1.jpeg',
-        altText: 'Fiche gratuite de graphisme maternelle - tracé de lignes courbes pour la motricité fine',
-        imageTitle: 'Fiche gratuite de graphisme maternelle',
-      },
-      {
-        id: 'sample-2',
-        worksheetSrc: '/samples/french/drawing-lines/sample-2.jpeg',
-        answerKeySrc: '/samples/french/drawing-lines/sample-2.jpeg',
-        altText: 'Fiche gratuite pour enfants - graphisme avec lignes diagonales pour maternelle',
-        imageTitle: 'Fiche gratuite pour enfants',
-      },
-      {
-        id: 'sample-3',
-        worksheetSrc: '/samples/french/drawing-lines/sample-4.jpeg',
-        answerKeySrc: '/samples/french/drawing-lines/sample-4.jpeg',
-        altText: 'Fiche pour maternelle - exercices de graphisme et motricité fine',
-        imageTitle: 'Fiche pour maternelle',
-      },
-      {
-        id: 'sample-4',
-        worksheetSrc: '/samples/french/drawing-lines/sample-5.jpeg',
-        answerKeySrc: '/samples/french/drawing-lines/sample-5.jpeg',
-        altText: 'Imprimables gratuits de graphisme - fiches de tracé pour PS MS GS',
-        imageTitle: 'Imprimables gratuits de graphisme',
-      },
-    ],
+    items: [],
     
   },
 

@@ -367,8 +367,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     const ogImages = content.samples?.items?.length
       ? content.samples.items.slice(0, 3).map((item: any, index: number) => ({
           url: `https://www.lessoncraftstudio.com${item.worksheetSrc.replace(/ /g, '%20')}`,
-          width: content.seo.images?.[index]?.width || 2480,
-          height: content.seo.images?.[index]?.height || 3508,
+          width: content.seo?.images?.[index]?.width || 2480,
+          height: content.seo?.images?.[index]?.height || 3508,
           alt: item.imageTitle || item.altText || content.hero?.title || seoTitle,
         }))
       : [{

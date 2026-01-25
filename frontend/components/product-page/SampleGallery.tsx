@@ -38,41 +38,41 @@ const localeToFolder: Record<string, string> = {
   fi: 'finnish',
 };
 
-// App ID to folder mapping for dynamic mode
+// App ID to folder mapping for dynamic mode (use spaces, not hyphens)
 const appIdToFolder: Record<string, string> = {
   'addition': 'addition',
   'subtraction': 'subtraction',
-  'math-worksheet': 'math',
-  'pattern-worksheet': 'pattern',
+  'math-worksheet': 'math worksheet',
+  'pattern-worksheet': 'pattern worksheet',
   'wordsearch': 'wordsearch',
-  'word-scramble': 'word-scramble',
-  'word-guess': 'word-guess',
-  'alphabet-train': 'alphabet-train',
+  'word-scramble': 'word scramble',
+  'word-guess': 'word guess',
+  'alphabet-train': 'alphabet train',
   'prepositions': 'prepositions',
   'bingo': 'bingo',
   'coloring': 'coloring',
   'sudoku': 'sudoku',
-  'treasure-hunt': 'treasure-hunt',
-  'odd-one-out': 'odd-one-out',
-  'picture-path': 'picture-path',
-  'pattern-train': 'pattern-train',
+  'treasure-hunt': 'treasure hunt',
+  'odd-one-out': 'odd one out',
+  'picture-path': 'picture path',
+  'pattern-train': 'pattern train',
   'crossword': 'crossword',
   'cryptogram': 'cryptogram',
-  'draw-and-color': 'draw-and-color',
-  'drawing-lines': 'drawing-lines',
-  'find-and-count': 'find-and-count',
-  'find-objects': 'find-objects',
-  'grid-match': 'grid-match',
+  'draw-and-color': 'draw and color',
+  'drawing-lines': 'drawing lines',
+  'find-and-count': 'find and count',
+  'find-objects': 'find objects',
+  'grid-match': 'grid match',
   'matching': 'matching',
-  'math-puzzle': 'math-puzzle',
-  'missing-pieces': 'missing-pieces',
-  'more-less': 'more-less',
-  'picture-sort': 'picture-sort',
-  'shadow-match': 'shadow-match',
+  'math-puzzle': 'math puzzle',
+  'missing-pieces': 'missing pieces',
+  'more-less': 'more less',
+  'picture-sort': 'picture sort',
+  'shadow-match': 'shadow match',
   'writing': 'writing',
-  'big-small': 'big-small',
-  'chart-count': 'chart-count',
-  'code-addition': 'code-addition',
+  'big-small': 'big small',
+  'chart-count': 'chart count',
+  'code-addition': 'code addition',
 };
 
 interface SampleGalleryProps {
@@ -689,7 +689,7 @@ export default function SampleGallery({
                   onClick={() => goToIndex(index)}
                   className={`relative flex-shrink-0 w-[100px] sm:w-[120px] md:w-[130px] aspect-[3/4] rounded-lg overflow-hidden cursor-pointer m-0 snap-center transition-all duration-300 ${
                     index === currentIndex
-                      ? 'ring-3 ring-blue-400 ring-offset-2 ring-offset-[#16213e] scale-105 shadow-xl shadow-blue-500/25'
+                      ? 'ring-2 ring-blue-400 ring-offset-2 ring-offset-[#16213e] scale-105 shadow-xl shadow-blue-500/25'
                       : 'ring-1 ring-white/15 hover:ring-white/40 hover:scale-[1.03] opacity-70 hover:opacity-100'
                   }`}
                 >

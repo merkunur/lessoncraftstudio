@@ -64,10 +64,8 @@ const getAppSlug = (productPageSlug: string): string => {
   return slugToServerName[baseSlug] || baseSlug;
 };
 
-// REMOVED: Old hardcoded localeImages - now using standardized homepage folder paths
-// REMOVED: Old hardcoded localePdfs - now using standardized homepage folder paths
-
-// Legacy locale-specific image mappings (kept for reference, no longer used)
+// Locale-specific image mappings for non-English languages
+// Maps sample ID to locale-specific image paths - 33 samples per language
 const localeImages: Record<string, Record<string, string>> = {
   de: {
     '1': '/samples/german/addition/Additionsspa 1.jpeg',
@@ -1302,20 +1300,20 @@ export default function SampleGallery({ locale }: SampleGalleryProps) {
     return sample.categoryEn;
   };
 
-  // Get image for the sample from standardized homepage folder
+  // Get image for the sample - use locale-specific paths for non-English
   const getSampleImage = (sample: Sample) => {
-    const language = localeToLanguage[locale] || 'english';
-    const appSlug = getAppSlug(sample.productPageSlug);
-    // Use WebP preview from homepage folder (uploaded via content manager)
-    return `/samples/${language}/homepage/${appSlug}-thumbnail_preview.webp`;
+    if (locale !== 'en' && localeImages[locale]?.[sample.id]) {
+      return localeImages[locale][sample.id];
+    }
+    return sample.imageSrc;
   };
 
-  // Get PDF for the sample from standardized homepage folder
+  // Get PDF for the sample - use locale-specific paths for non-English
   const getSamplePdf = (sample: Sample) => {
-    const language = localeToLanguage[locale] || 'english';
-    const appSlug = getAppSlug(sample.productPageSlug);
-    // Use PDF from homepage folder (uploaded via content manager)
-    return `/samples/${language}/homepage/${appSlug}-sample.pdf`;
+    if (locale !== 'en' && localePdfs[locale]?.[sample.id]) {
+      return localePdfs[locale][sample.id];
+    }
+    return sample.pdfUrl;
   };
 
   const handleDownload = async (sample: Sample) => {

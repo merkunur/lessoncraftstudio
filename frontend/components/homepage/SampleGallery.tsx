@@ -1291,6 +1291,11 @@ export default function SampleGallery({ locale }: SampleGalleryProps) {
           });
 
           setDynamicImages(images);
+
+          // Extract SEO data if available from database
+          if (langData.seo) {
+            setSeoData(langData.seo);
+          }
         }
       } catch (error) {
         // Silent fallback to hardcoded images - no console spam
@@ -1524,7 +1529,8 @@ export default function SampleGallery({ locale }: SampleGalleryProps) {
                 <div className="relative aspect-[3/4] bg-white overflow-hidden">
                   <Image
                     src={getSampleImage(sample)}
-                    alt={getSampleName(sample)}
+                    alt={seoData[getAppSlug(sample.productPageSlug)]?.altText || getSampleName(sample)}
+                    title={seoData[getAppSlug(sample.productPageSlug)]?.title || undefined}
                     fill
                     className="object-cover transition-transform duration-500 group-hover:scale-105"
                     sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 20vw"

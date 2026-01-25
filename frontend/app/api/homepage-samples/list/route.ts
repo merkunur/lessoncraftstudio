@@ -1,6 +1,7 @@
 import { NextResponse } from 'next/server';
 import fs from 'fs/promises';
 import path from 'path';
+import { prisma } from '@/lib/prisma';
 
 // Force dynamic to prevent build-time caching
 export const dynamic = 'force-dynamic';
@@ -93,6 +94,13 @@ interface HeroStatus {
   isComplete: boolean;
 }
 
+interface SeoData {
+  altText?: string | null;
+  title?: string | null;
+  description?: string | null;
+  grade?: string | null;
+}
+
 interface LanguageStatus {
   locale: string;
   language: string;
@@ -106,6 +114,7 @@ interface LanguageStatus {
     pdfs: number;
     complete: number;
   };
+  seo: Record<string, SeoData>;
 }
 
 interface MatrixResult {
@@ -201,6 +210,34 @@ async function checkLanguageStatus(locale: string, language: string): Promise<La
     if (app.isComplete) complete++;
   }
 
+  // Query SEO data from database for homepage thumbnails
+  let seo: Record<string, SeoData> = {};
+  try {
+    const seoRecords = await prisma.productSample.findMany({
+      where: {
+        locale,
+        filename: { endsWith: '-thumbnail.jpeg' }
+      },
+      select: {
+        appId: true,
+        altText: true,
+        title: true,
+        description: true,
+        grade: true
+      }
+    });
+    seo = Object.fromEntries(
+      seoRecords.map(s => [s.appId, {
+        altText: s.altText,
+        title: s.title,
+        description: s.description,
+        grade: s.grade
+      }])
+    );
+  } catch (error) {
+    console.warn('[HOMEPAGE-SAMPLES] Could not fetch SEO data:', error);
+  }
+
   return {
     locale,
     language,
@@ -213,7 +250,8 @@ async function checkLanguageStatus(locale: string, language: string): Promise<La
       previewWebps,
       pdfs,
       complete
-    }
+    },
+    seo
   };
 }
 

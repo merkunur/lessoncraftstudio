@@ -88,7 +88,29 @@ Il nostro generatore crea schede con griglie personalizzabili da 5x5 a 10x10 cel
     badgeText: 'Esempi Gratuiti',
     downloadingLabel: 'Scaricamento...',
     ofLabel: 'di',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/italian/find and count/sample-1.jpeg',
+        answerKeySrc: '/samples/italian/find and count/sample-1.jpeg',
+        altText: 'Scheda gratuita trova e conta per bambini - stampabili gratuiti scuola infanzia',
+        imageTitle: 'Scheda gratuita trova e conta per bambini',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/italian/find and count/sample-3.jpeg',
+        answerKeySrc: '/samples/italian/find and count/sample-3.jpeg',
+        altText: 'Scheda gratuita per bambini conteggio - stampabili gratuiti scuola primaria',
+        imageTitle: 'Scheda gratuita per bambini conteggio',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/italian/find and count/sample-4.jpeg',
+        answerKeySrc: '/samples/italian/find and count/sample-4.jpeg',
+        altText: 'Scheda per bambini trova e conta - schede gratuite attivita matematica',
+        imageTitle: 'Scheda per bambini trova e conta',
+      },
+    ],
     
   },
 

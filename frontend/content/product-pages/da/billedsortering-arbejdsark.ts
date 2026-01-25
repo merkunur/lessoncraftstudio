@@ -92,7 +92,36 @@ Fuld Adgang abonnement inkluderer ubegrænset adgang til alle 33 opgavegenerator
     noPdfLabel: 'Ingen PDF tilgængelig',
     freePdfCountLabel: '3 gratis downloads',
     ofLabel: 'af',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/danish/picture-sort/sample-1.jpeg',
+        answerKeySrc: '/samples/danish/picture-sort/sample-1.jpeg',
+        altText: 'Billedsortering gratis arbejdsark - sorteringsaktiviteter til børnehaveklasse',
+        imageTitle: 'Billedsortering gratis arbejdsark',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/danish/picture-sort/sample-2.jpeg',
+        answerKeySrc: '/samples/danish/picture-sort/sample-2.jpeg',
+        altText: 'Gratis arbejdsark billedsortering - kategorisering arbejdsark til børn',
+        imageTitle: 'Gratis arbejdsark billedsortering',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/danish/picture-sort/sample-3.jpeg',
+        answerKeySrc: '/samples/danish/picture-sort/sample-3.jpeg',
+        altText: 'Arbejdsark til børn billedsortering - gratis printables for 0. klasse',
+        imageTitle: 'Arbejdsark til børn billedsortering',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/danish/picture-sort/sample-4.jpeg',
+        answerKeySrc: '/samples/danish/picture-sort/sample-4.jpeg',
+        altText: 'Arbejdsark til børnehaveklasse billedsortering - sortering gratis arbejdsark',
+        imageTitle: 'Arbejdsark til børnehaveklasse billedsortering',
+      },
+    ],
     
   },
 

@@ -97,7 +97,43 @@ Notre générateur propose deux types de vocabulaire de directions adaptés à l
     badgeText: 'Exemples Gratuits',
     downloadingLabel: 'Téléchargement...',
     ofLabel: 'sur',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/french/treasure-hunt/sample-1.jpeg',
+        answerKeySrc: '/samples/french/treasure-hunt/sample-1.jpeg',
+        altText: 'Fiche chasse au trésor gratuite avec directions de base pour maternelle',
+        imageTitle: 'Fiche chasse au trésor gratuite avec directions de base pour maternelle',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/french/treasure-hunt/sample-2.jpeg',
+        answerKeySrc: '/samples/french/treasure-hunt/sample-2.jpeg',
+        altText: 'Fiche chasse au trésor gratuite avec directions cardinales pour CP',
+        imageTitle: 'Fiche chasse au trésor gratuite avec directions cardinales pour CP',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/french/treasure-hunt/sample-3.jpeg',
+        answerKeySrc: '/samples/french/treasure-hunt/sample-3.jpeg',
+        altText: 'Fiche chasse au trésor gratuite thème animaux pour enfants',
+        imageTitle: 'Fiche chasse au trésor gratuite thème animaux pour enfants',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/french/treasure-hunt/sample-4.jpeg',
+        answerKeySrc: '/samples/french/treasure-hunt/sample-4.jpeg',
+        altText: 'Fiche chasse au trésor à imprimer gratuit thème nature',
+        imageTitle: 'Fiche chasse au trésor à imprimer gratuit thème nature',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/french/treasure-hunt/sample-5.jpeg',
+        answerKeySrc: '/samples/french/treasure-hunt/sample-5.jpeg',
+        altText: 'Fiches gratuites chasse au trésor directions spatiales maternelle',
+        imageTitle: 'Fiches gratuites chasse au trésor directions spatiales maternelle',
+      },
+    ],
     
   },
 

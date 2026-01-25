@@ -106,7 +106,43 @@ Das Vollzugriff Abonnement enthält alle 33 Arbeitsblatt-Generatoren. Kombiniere
     badgeText: 'Kostenlose Beispiele',
     downloadingLabel: 'Wird heruntergeladen...',
     ofLabel: 'von',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/german/find-objects/sample-1.jpeg',
+        answerKeySrc: '/samples/german/find-objects/sample-1.jpeg',
+        altText: 'Suchbilder Arbeitsblätter Grundschule - Ich-Sehe-Was Vorschul-Arbeitsblätter zum kostenlosen Ausdrucken',
+        imageTitle: 'Suchbilder Arbeitsblätter Grundschule',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/german/find-objects/sample-2.jpeg',
+        answerKeySrc: '/samples/german/find-objects/sample-2.jpeg',
+        altText: 'Kostenlose Arbeitsblätter Suchbilder - Welches-Passt-Nicht Aktivitäten für Grundschule',
+        imageTitle: 'Kostenlose Arbeitsblätter Suchbilder',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/german/find-objects/sample-3.jpeg',
+        answerKeySrc: '/samples/german/find-objects/sample-3.jpeg',
+        altText: 'Vorschul-Arbeitsblätter Suchbilder - Visuelle Wahrnehmung Arbeitsblätter für Kinder',
+        imageTitle: 'Vorschul-Arbeitsblätter Suchbilder',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/german/find-objects/sample-4.jpeg',
+        answerKeySrc: '/samples/german/find-objects/sample-4.jpeg',
+        altText: 'Arbeitsblätter Grundschule Suchbilder - Kostenloses Arbeitsblatt für Konzentration',
+        imageTitle: 'Arbeitsblätter Grundschule Suchbilder',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/german/find-objects/sample-5.jpeg',
+        answerKeySrc: '/samples/german/find-objects/sample-5.jpeg',
+        altText: 'Kostenlose Druckvorlagen Suchbilder - Arbeitsblatt für Kinder visuelle Wahrnehmung',
+        imageTitle: 'Kostenlose Druckvorlagen Suchbilder',
+      },
+    ],
     
   },
 

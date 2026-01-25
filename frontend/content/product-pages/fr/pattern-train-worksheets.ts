@@ -96,7 +96,43 @@ Les enseignants gagnent du temps précieux. Créer des fiches maternelle de suit
     badgeText: 'Exemples Gratuits',
     downloadingLabel: 'Téléchargement...',
     ofLabel: 'sur',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/french/pattern-train/sample-1.jpeg',
+        answerKeySrc: '/samples/french/pattern-train/sample-1.jpeg',
+        altText: 'Fiche suites logiques train gratuite - exercice CP de reconnaissance de motifs pour maternelle',
+        imageTitle: 'Fiche suites logiques train gratuite',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/french/pattern-train/sample-2.jpeg',
+        answerKeySrc: '/samples/french/pattern-train/sample-2.jpeg',
+        altText: 'Fiches maternelle suites logiques train - fiches à imprimer gratuit pour enfants',
+        imageTitle: 'Fiches maternelle suites logiques train',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/french/pattern-train/sample-3.jpeg',
+        answerKeySrc: '/samples/french/pattern-train/sample-3.jpeg',
+        altText: 'Exercices CP suites logiques train - fiche gratuite pour maternelle et CP',
+        imageTitle: 'Exercices CP suites logiques train',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/french/pattern-train/sample-4.jpeg',
+        answerKeySrc: '/samples/french/pattern-train/sample-4.jpeg',
+        altText: 'Fiche gratuite suites logiques train - exercice maternelle reconnaissance de motifs',
+        imageTitle: 'Fiche gratuite suites logiques train',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/french/pattern-train/sample-5.jpeg',
+        answerKeySrc: '/samples/french/pattern-train/sample-5.jpeg',
+        altText: 'Fiches pour enfants suites logiques train - fiche maternelle à imprimer gratuit',
+        imageTitle: 'Fiches pour enfants suites logiques train',
+      },
+    ],
     
   },
 

@@ -90,7 +90,36 @@ Crianças da pré-escola e do 1º ano aprendem conceitos de grande e pequeno nat
     badgeText: 'Exemplos Grátis',
     downloadingLabel: 'Baixando...',
     ofLabel: 'de',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/portuguese/big-small/sample-1.jpeg',
+        answerKeySrc: '/samples/portuguese/big-small/sample-1.jpeg',
+        altText: 'Atividade grátis de grande e pequeno - comparação de tamanhos para educação infantil',
+        imageTitle: 'Atividade grátis de grande e pequeno',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/portuguese/big-small/sample-2.jpeg',
+        answerKeySrc: '/samples/portuguese/big-small/sample-2.jpeg',
+        altText: 'Atividade grátis para crianças de comparação de tamanhos - imprimíveis grátis para 1º ano',
+        imageTitle: 'Atividade grátis para crianças de comparação de tamanhos',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/portuguese/big-small/sample-3.jpeg',
+        answerKeySrc: '/samples/portuguese/big-small/sample-3.jpeg',
+        altText: 'Atividades grátis de maior e menor - atividade para educação infantil com imagens coloridas',
+        imageTitle: 'Atividades grátis de maior e menor',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/portuguese/big-small/sample-4.jpeg',
+        answerKeySrc: '/samples/portuguese/big-small/sample-4.jpeg',
+        altText: 'Imprimíveis grátis de ordenação por tamanho - atividade de matemática para crianças',
+        imageTitle: 'Imprimíveis grátis de ordenação por tamanho',
+      },
+    ],
     
   },
 

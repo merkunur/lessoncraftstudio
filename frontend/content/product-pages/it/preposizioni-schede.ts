@@ -90,7 +90,22 @@ Il generatore funziona in 11 lingue diverse. Le preposizioni vengono tradotte au
     badgeText: 'Schede Gratuite',
     downloadingLabel: 'Scaricamento...',
     ofLabel: 'di',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/italian/prepositions/sample-2.jpeg',
+        answerKeySrc: '/samples/italian/prepositions/sample-2.jpeg',
+        altText: 'Scheda gratuita per bambini - preposizioni dentro sopra sotto per scuola primaria',
+        imageTitle: 'Scheda gratuita per bambini',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/italian/prepositions/sample-3.jpeg',
+        answerKeySrc: '/samples/italian/prepositions/sample-3.jpeg',
+        altText: 'Schede didattiche preposizioni - stampabili gratuiti concetti spaziali per bambini',
+        imageTitle: 'Schede didattiche preposizioni',
+      },
+    ],
     
   },
 

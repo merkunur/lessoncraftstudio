@@ -88,7 +88,36 @@ Perfekt for lærere i barneskolen som trenger matematikk oppgaver til daglig bru
     noPdfLabel: 'Ingen PDF tilgjengelig',
     freePdfCountLabel: '3 gratis nedlastinger',
     ofLabel: 'av',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/norwegian/addition/sample-1.jpeg',
+        answerKeySrc: '/samples/norwegian/addition/sample-1.jpeg',
+        altText: 'Gratis arbeidsark addisjon - matematikk oppgaver for barneskolen',
+        imageTitle: 'Gratis arbeidsark addisjon',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/norwegian/addition/sample-2.jpeg',
+        answerKeySrc: '/samples/norwegian/addition/sample-2.jpeg',
+        altText: 'Addisjonsoppgaver arbeidsark for barn - gratis utskrifter med tall og telling',
+        imageTitle: 'Addisjonsoppgaver arbeidsark for barn',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/norwegian/addition/sample-3.jpeg',
+        answerKeySrc: '/samples/norwegian/addition/sample-3.jpeg',
+        altText: 'Arbeidsark for 1. trinn addisjon - gratis arbeidsark for barn',
+        imageTitle: 'Arbeidsark for 1. trinn addisjon',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/norwegian/addition/sample-4.jpeg',
+        answerKeySrc: '/samples/norwegian/addition/sample-4.jpeg',
+        altText: 'Gratis arbeidsark matematikk - addisjon og subtraksjon for barn',
+        imageTitle: 'Gratis arbeidsark matematikk',
+      },
+    ],
     
   },
 

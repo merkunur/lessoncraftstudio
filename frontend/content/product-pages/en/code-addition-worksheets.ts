@@ -86,7 +86,43 @@ The image addition generator creates worksheets with 3 to 10 problems per page. 
     downloadLabel: 'Download Free Sample',
     worksheetLabel: 'Worksheet',
     answerKeyLabel: 'Answer Key',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/english/code-addition/sample-1.jpeg',
+        answerKeySrc: '/samples/english/code-addition/sample-1.jpeg',
+        altText: 'Free printable addition worksheets for kindergarten - image counting math worksheet with colorful pictures',
+        imageTitle: 'Free printable addition worksheets for kindergarten',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/english/code-addition/sample-2.jpeg',
+        answerKeySrc: '/samples/english/code-addition/sample-2.jpeg',
+        altText: 'Addition worksheets free printable - visual math worksheet for first grade with picture counting',
+        imageTitle: 'Addition worksheets free printable',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/english/code-addition/sample-3.jpeg',
+        answerKeySrc: '/samples/english/code-addition/sample-3.jpeg',
+        altText: 'Free worksheet for kids - image addition math worksheets for kindergarten practice',
+        imageTitle: 'Free worksheet for kids',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/english/code-addition/sample-4.jpeg',
+        answerKeySrc: '/samples/english/code-addition/sample-4.jpeg',
+        altText: 'Free printables math worksheets - visual addition worksheet for kindergarten with picture counting',
+        imageTitle: 'Free printables math worksheets',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/english/code-addition/sample-5.jpeg',
+        answerKeySrc: '/samples/english/code-addition/sample-5.jpeg',
+        altText: 'Worksheet for kindergarten - free addition worksheets with image counting activities for kids',
+        imageTitle: 'Worksheet for kindergarten',
+      },
+    ],
     
   },
 

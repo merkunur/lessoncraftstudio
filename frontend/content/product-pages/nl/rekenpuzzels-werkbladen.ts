@@ -108,7 +108,43 @@ Kies puzzelroosters van 2×2 tot 4×4. Selecteer optellen subtractie of beide be
     badgeText: 'Gratis Voorbeelden',
     downloadingLabel: 'Downloaden...',
     ofLabel: 'van',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/dutch/math-puzzle/sample-1.jpeg',
+        answerKeySrc: '/samples/dutch/math-puzzle/sample-1.jpeg',
+        altText: 'Gratis werkblad rekenpuzzels - werkbladen groep 3 voor sommen tot 20',
+        imageTitle: 'Gratis werkblad rekenpuzzels',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/dutch/math-puzzle/sample-2.jpeg',
+        answerKeySrc: '/samples/dutch/math-puzzle/sample-2.jpeg',
+        altText: 'Gratis werkbladen rekenpuzzels - werkblad voor kleuters met tafels oefenen',
+        imageTitle: 'Gratis werkbladen rekenpuzzels',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/dutch/math-puzzle/sample-3.jpeg',
+        answerKeySrc: '/samples/dutch/math-puzzle/sample-3.jpeg',
+        altText: 'Werkblad voor kinderen - rekenpuzzels met plaatjes voor groep 1 2',
+        imageTitle: 'Werkblad voor kinderen',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/dutch/math-puzzle/sample-4.jpeg',
+        answerKeySrc: '/samples/dutch/math-puzzle/sample-4.jpeg',
+        altText: 'Gratis printables rekenpuzzels - oefenbladen voor rekenen werkbladen',
+        imageTitle: 'Gratis printables rekenpuzzels',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/dutch/math-puzzle/sample-5.jpeg',
+        answerKeySrc: '/samples/dutch/math-puzzle/sample-5.jpeg',
+        altText: 'Rekenpuzzels werkblad voor kinderen - fijne motoriek en kleurplaten',
+        imageTitle: 'Rekenpuzzels werkblad voor kinderen',
+      },
+    ],
     
   },
 

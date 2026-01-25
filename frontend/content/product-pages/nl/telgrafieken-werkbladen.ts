@@ -86,7 +86,22 @@ Telgrafieken zijn perfecte rekenen werkbladen voor werkbladen groep 3 en werkbla
     badgeText: 'Gratis Voorbeelden',
     downloadingLabel: 'Downloaden...',
     ofLabel: 'van',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/dutch/chart-count/sample-1.jpeg',
+        answerKeySrc: '/samples/dutch/chart-count/sample-1.jpeg',
+        altText: 'Telgrafieken werkblad - gratis werkblad voor kinderen met rekenen oefeningen',
+        imageTitle: 'Telgrafieken werkblad',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/dutch/chart-count/sample-2.jpeg',
+        answerKeySrc: '/samples/dutch/chart-count/sample-2.jpeg',
+        altText: 'Gratis werkbladen voor kleuters - telgrafieken werkbladen met sommen tot 20',
+        imageTitle: 'Gratis werkbladen voor kleuters',
+      },
+    ],
     
   },
 

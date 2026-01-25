@@ -106,7 +106,43 @@ Der Generator umfasst 8 verschiedene Vorlagen mit verschiedenen Linienmustern un
     badgeText: 'Kostenlose Beispiele',
     downloadingLabel: 'Wird heruntergeladen...',
     ofLabel: 'von',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/german/drawing-lines/sample-1.jpeg',
+        answerKeySrc: '/samples/german/drawing-lines/sample-1.jpeg',
+        altText: 'Schwungübungen Arbeitsblätter Grundschule - Kostenlose Arbeitsblätter für Vorschule mit Kurvenlinien-Zuordnung',
+        imageTitle: 'Schwungübungen Arbeitsblätter Grundschule',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/german/drawing-lines/sample-2.jpeg',
+        answerKeySrc: '/samples/german/drawing-lines/sample-2.jpeg',
+        altText: 'Kostenlose Arbeitsblätter für Kinder - Vorschul-Arbeitsblätter Linien ziehen für Buchstaben lernen',
+        imageTitle: 'Kostenlose Arbeitsblätter für Kinder',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/german/drawing-lines/sample-3.jpeg',
+        answerKeySrc: '/samples/german/drawing-lines/sample-3.jpeg',
+        altText: 'Arbeitsblatt für Kinder Grundschule - Schwungübungen mit Diagonallinien für Feinmotorik-Entwicklung',
+        imageTitle: 'Arbeitsblatt für Kinder Grundschule',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/german/drawing-lines/sample-4.jpeg',
+        answerKeySrc: '/samples/german/drawing-lines/sample-4.jpeg',
+        altText: 'Kostenloses Arbeitsblatt Linien-Ziehen - Horizontale Schwungübungen für Arbeitsblatt für Vorschule',
+        imageTitle: 'Kostenloses Arbeitsblatt Linien-Ziehen',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/german/drawing-lines/sample-5.jpeg',
+        answerKeySrc: '/samples/german/drawing-lines/sample-5.jpeg',
+        altText: 'Kostenlose Druckvorlagen Schwungübungen - Vertikale Linien-Zuordnung als Arbeitsblatt für Kinder',
+        imageTitle: 'Kostenlose Druckvorlagen Schwungübungen',
+      },
+    ],
     
   },
 

@@ -90,7 +90,36 @@ Verktyget fungerar för alla lärarnivåer. Ingen designerfarenhet behövs. Väl
     badgeText: 'Gratis Exempel',
     downloadingLabel: 'Laddar ner...',
     ofLabel: 'av',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/swedish/addition/sample-1.jpeg',
+        answerKeySrc: '/samples/swedish/addition/sample-1.jpeg',
+        altText: 'Additionsarbetsblad gratis för förskoleklass - matematik övningar med bilder',
+        imageTitle: 'Additionsarbetsblad gratis för förskoleklass',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/swedish/addition/sample-2.jpeg',
+        answerKeySrc: '/samples/swedish/addition/sample-2.jpeg',
+        altText: 'Gratis arbetsblad för barn - addition och subtraktion matte övningar',
+        imageTitle: 'Gratis arbetsblad för barn',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/swedish/addition/sample-3.jpeg',
+        answerKeySrc: '/samples/swedish/addition/sample-3.jpeg',
+        altText: 'Matematik arbetsblad gratis - siffror och tal övningar för lågstadiet',
+        imageTitle: 'Matematik arbetsblad gratis',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/swedish/addition/sample-4.jpeg',
+        answerKeySrc: '/samples/swedish/addition/sample-4.jpeg',
+        altText: 'Addition arbetsblad för förskoleklass - gratis utskrifter med facit',
+        imageTitle: 'Addition arbetsblad för förskoleklass',
+      },
+    ],
     
   },
 

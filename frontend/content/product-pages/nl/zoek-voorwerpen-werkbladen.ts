@@ -114,7 +114,43 @@ Deze werkbladen kleuters ondersteunen de ontwikkeling van visuele waarneming en 
     badgeText: 'Gratis Voorbeelden',
     downloadingLabel: 'Downloaden...',
     ofLabel: 'van',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/dutch/find-objects/sample-1.jpeg',
+        answerKeySrc: '/samples/dutch/find-objects/sample-1.jpeg',
+        altText: 'Zoek voorwerpen werkbladen - gratis werkblad voor kinderen met visuele discriminatie oefeningen',
+        imageTitle: 'Zoek voorwerpen werkbladen',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/dutch/find-objects/sample-2.jpeg',
+        answerKeySrc: '/samples/dutch/find-objects/sample-2.jpeg',
+        altText: 'Gratis werkbladen zoek voorwerpen - werkblad voor kleuters met I Spy activiteit',
+        imageTitle: 'Gratis werkbladen zoek voorwerpen',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/dutch/find-objects/sample-3.jpeg',
+        answerKeySrc: '/samples/dutch/find-objects/sample-3.jpeg',
+        altText: 'Werkblad voor kinderen zoek de vreemde eend - gratis printables voor groep 3',
+        imageTitle: 'Werkblad voor kinderen zoek de vreemde eend',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/dutch/find-objects/sample-4.jpeg',
+        answerKeySrc: '/samples/dutch/find-objects/sample-4.jpeg',
+        altText: 'Gratis werkblad zoek voorwerpen - oefenbladen gratis voor werkbladen kleuters',
+        imageTitle: 'Gratis werkblad zoek voorwerpen',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/dutch/find-objects/sample-5.jpeg',
+        answerKeySrc: '/samples/dutch/find-objects/sample-5.jpeg',
+        altText: 'Zoek voorwerpen gratis werkbladen - werkblad voor kleuters en visuele training',
+        imageTitle: 'Zoek voorwerpen gratis werkbladen',
+      },
+    ],
     
   },
 

@@ -110,7 +110,43 @@ Perfekt für Erzieher in der Vorschule und Lehrkräfte in der Grundschule, die s
     badgeText: 'Kostenlose Beispiele',
     downloadingLabel: 'Wird heruntergeladen...',
     ofLabel: 'von',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/german/prepositions/sample-1.jpeg',
+        answerKeySrc: '/samples/german/prepositions/sample-1.jpeg',
+        altText: 'Präpositionen Arbeitsblätter kostenlos zum Ausdrucken - Lückentext Übungen für Vorschule und Grundschule',
+        imageTitle: 'Präpositionen Arbeitsblätter kostenlos zum Ausdrucken',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/german/prepositions/sample-2.jpeg',
+        answerKeySrc: '/samples/german/prepositions/sample-2.jpeg',
+        altText: 'Präpositionen Multiple-Choice Arbeitsblätter für Kinder - Räumliche Begriffe üben für Arbeitsblätter Grundschule',
+        imageTitle: 'Präpositionen Multiple-Choice Arbeitsblätter für Kinder',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/german/prepositions/sample-3.jpeg',
+        answerKeySrc: '/samples/german/prepositions/sample-3.jpeg',
+        altText: 'Kostenlose Präpositionen Übungsblätter - In, auf, unter, neben für Vorschule Arbeitsblätter',
+        imageTitle: 'Kostenlose Präpositionen Übungsblätter',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/german/prepositions/sample-4.jpeg',
+        answerKeySrc: '/samples/german/prepositions/sample-4.jpeg',
+        altText: 'Präpositionen Arbeitsblätter Grundschule - Räumliche Beziehungen spielerisch lernen',
+        imageTitle: 'Präpositionen Arbeitsblätter Grundschule',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/german/prepositions/sample-5.jpeg',
+        answerKeySrc: '/samples/german/prepositions/sample-5.jpeg',
+        altText: 'Druckbare Präpositionen Arbeitsblätter - Kostenlose Arbeitsblätter für Deutsch Unterricht',
+        imageTitle: 'Druckbare Präpositionen Arbeitsblätter',
+      },
+    ],
     
   },
 

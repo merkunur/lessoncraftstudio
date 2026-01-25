@@ -98,7 +98,36 @@ L'abbonamento Accesso Completo costa 240 euro all'anno o 25 euro al mese. Includ
     badgeText: 'Esempi Gratuiti',
     downloadingLabel: 'Scaricamento...',
     ofLabel: 'di',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/italian/math-puzzle/sample-1.jpeg',
+        answerKeySrc: '/samples/italian/math-puzzle/sample-1.jpeg',
+        altText: 'Scheda Gratuita Puzzle Matematici - Stampabili Gratuiti Scuola Primaria',
+        imageTitle: 'Scheda Gratuita Puzzle Matematici',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/italian/math-puzzle/sample-2.jpeg',
+        answerKeySrc: '/samples/italian/math-puzzle/sample-2.jpeg',
+        altText: 'Schede Gratuite Puzzle Matematici - Scheda per Bambini Addizione',
+        imageTitle: 'Schede Gratuite Puzzle Matematici',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/italian/math-puzzle/sample-4.jpeg',
+        answerKeySrc: '/samples/italian/math-puzzle/sample-4.jpeg',
+        altText: 'Scheda Gratuita per Bambini - Puzzle Matematici Classe Prima',
+        imageTitle: 'Scheda Gratuita per Bambini',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/italian/math-puzzle/sample-5.jpeg',
+        answerKeySrc: '/samples/italian/math-puzzle/sample-5.jpeg',
+        altText: 'Schede Gratuite Matematica - Stampabili Gratuiti con Simboli',
+        imageTitle: 'Schede Gratuite Matematica',
+      },
+    ],
     
   },
 

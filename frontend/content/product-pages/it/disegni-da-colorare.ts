@@ -94,7 +94,36 @@ Il pregrafismo è fondamentale nello sviluppo delle competenze di scrittura. I n
     badgeText: 'Schede Gratuite',
     downloadingLabel: 'Scaricamento...',
     ofLabel: 'di',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/italian/coloring/sample-1.jpeg',
+        answerKeySrc: '/samples/italian/coloring/sample-1.jpeg',
+        altText: 'Disegni da colorare scheda gratuita per bambini - attività scuola infanzia',
+        imageTitle: 'Disegni da colorare scheda gratuita per bambini',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/italian/coloring/sample-2.jpeg',
+        answerKeySrc: '/samples/italian/coloring/sample-2.jpeg',
+        altText: 'Schede gratuite colorare animali - stampabili gratuiti scuola primaria',
+        imageTitle: 'Schede gratuite colorare animali',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/italian/coloring/sample-3.jpeg',
+        answerKeySrc: '/samples/italian/coloring/sample-3.jpeg',
+        altText: 'Scheda per bambini disegni da colorare - formato verticale pregrafismo',
+        imageTitle: 'Scheda per bambini disegni da colorare',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/italian/coloring/sample-5.jpeg',
+        answerKeySrc: '/samples/italian/coloring/sample-5.jpeg',
+        altText: 'Stampabili gratuiti disegni tematici - schede gratuite per bambini',
+        imageTitle: 'Stampabili gratuiti disegni tematici',
+      },
+    ],
     
   },
 

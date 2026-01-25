@@ -82,7 +82,43 @@ Full Access subscription costs $240 annually or $25 monthly. This includes all 3
     downloadLabel: 'Download Free Sample',
     worksheetLabel: 'Worksheet',
     answerKeyLabel: 'Answer Key',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/english/shadow-match/sample-1.jpeg',
+        answerKeySrc: '/samples/english/shadow-match/sample-1.jpeg',
+        altText: 'Free shadow match worksheets for kindergarten - visual perception silhouette matching activity',
+        imageTitle: 'Free shadow match worksheets for kindergarten',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/english/shadow-match/sample-2.jpeg',
+        answerKeySrc: '/samples/english/shadow-match/sample-2.jpeg',
+        altText: 'Shadow matching worksheet for first grade - free printable visual discrimination practice',
+        imageTitle: 'Shadow matching worksheet for first grade',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/english/shadow-match/sample-3.jpeg',
+        answerKeySrc: '/samples/english/shadow-match/sample-3.jpeg',
+        altText: 'Free printable shadow match worksheet - shape recognition for kindergarten kids',
+        imageTitle: 'Free printable shadow match worksheet',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/english/shadow-match/sample-4.jpeg',
+        answerKeySrc: '/samples/english/shadow-match/sample-4.jpeg',
+        altText: 'Visual perception worksheets free printable - shadow matching activity for kids',
+        imageTitle: 'Visual perception worksheets free printable',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/english/shadow-match/sample-5.jpeg',
+        answerKeySrc: '/samples/english/shadow-match/sample-5.jpeg',
+        altText: 'Kindergarten shadow match worksheets - free silhouette matching worksheet for kids',
+        imageTitle: 'Kindergarten shadow match worksheets',
+      },
+    ],
     
   },
 

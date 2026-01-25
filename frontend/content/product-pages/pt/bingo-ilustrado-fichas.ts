@@ -114,7 +114,64 @@ O bingo educativo serve múltiplos propósitos pedagógicos. Use-o para reforça
     badgeText: 'Exemplos Grátis',
     downloadingLabel: 'Baixando...',
     ofLabel: 'de',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/portuguese/bingo/sample-1.jpeg',
+        answerKeySrc: '/samples/portuguese/bingo/sample-1.jpeg',
+        altText: 'Atividades grátis de bingo ilustrado - atividade para crianças com cartelas educativas',
+        imageTitle: 'Atividades grátis de bingo ilustrado',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/portuguese/bingo/sample-2.jpeg',
+        answerKeySrc: '/samples/portuguese/bingo/sample-2.jpeg',
+        altText: 'Atividade grátis para crianças de bingo com imagens - imprimíveis grátis para alfabetização',
+        imageTitle: 'Atividade grátis para crianças de bingo com imagens',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/portuguese/bingo/sample-3.jpeg',
+        answerKeySrc: '/samples/portuguese/bingo/sample-3.jpeg',
+        altText: 'Atividades grátis de bingo educativo - atividade para crianças com reconhecimento visual',
+        imageTitle: 'Atividades grátis de bingo educativo',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/portuguese/bingo/sample-4.jpeg',
+        answerKeySrc: '/samples/portuguese/bingo/sample-4.jpeg',
+        altText: 'Atividade grátis para crianças de bingo ilustrado - imprimíveis grátis com vocabulário',
+        imageTitle: 'Atividade grátis para crianças de bingo ilustrado',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/portuguese/bingo/sample-1-answer.jpeg',
+        answerKeySrc: '/samples/portuguese/bingo/sample-1-answer.jpeg',
+        altText: 'Imprimíveis grátis de fichas de sorteio - atividade para crianças de bingo para pré-escola',
+        imageTitle: 'Imprimíveis grátis de fichas de sorteio',
+      },
+      {
+        id: 'sample-6',
+        worksheetSrc: '/samples/portuguese/bingo/sample-2-answer.jpeg',
+        answerKeySrc: '/samples/portuguese/bingo/sample-2-answer.jpeg',
+        altText: 'Atividades grátis de bingo - atividade para educação infantil com fichas recortáveis',
+        imageTitle: 'Atividades grátis de bingo',
+      },
+      {
+        id: 'sample-7',
+        worksheetSrc: '/samples/portuguese/bingo/sample-3-answer.jpeg',
+        answerKeySrc: '/samples/portuguese/bingo/sample-3-answer.jpeg',
+        altText: 'Atividade grátis para crianças de bingo - atividade para educação infantil imprimíveis grátis',
+        imageTitle: 'Atividade grátis para crianças de bingo',
+      },
+      {
+        id: 'sample-8',
+        worksheetSrc: '/samples/portuguese/bingo/sample-4-answer.jpeg',
+        answerKeySrc: '/samples/portuguese/bingo/sample-4-answer.jpeg',
+        altText: 'Imprimíveis grátis de bingo - atividade para educação infantil com gabarito completo',
+        imageTitle: 'Imprimíveis grátis de bingo',
+      },
+    ],
     
   },
 

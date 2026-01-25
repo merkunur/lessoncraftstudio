@@ -102,7 +102,36 @@ Kinderen leren het beste door te doen. Onze gratis werkblad voor kinderen gebrui
     badgeText: 'Gratis Voorbeelden',
     downloadingLabel: 'Downloaden...',
     ofLabel: 'van',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/dutch/code-addition/sample-1.jpeg',
+        answerKeySrc: '/samples/dutch/code-addition/sample-1.jpeg',
+        altText: 'Gratis werkblad visuele optelsommen - Werkblad voor kinderen met kleurrijke plaatjes',
+        imageTitle: 'Gratis werkblad visuele optelsommen',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/dutch/code-addition/sample-2.jpeg',
+        answerKeySrc: '/samples/dutch/code-addition/sample-2.jpeg',
+        altText: 'Gratis werkbladen voor kleuters - Werkblad voor kleuters met dierenplaatjes',
+        imageTitle: 'Gratis werkbladen voor kleuters',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/dutch/code-addition/sample-3.jpeg',
+        answerKeySrc: '/samples/dutch/code-addition/sample-3.jpeg',
+        altText: 'Gratis printables optelsommen - Werkblad rekenen met afbeeldingen',
+        imageTitle: 'Gratis printables optelsommen',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/dutch/code-addition/sample-4.jpeg',
+        answerKeySrc: '/samples/dutch/code-addition/sample-4.jpeg',
+        altText: 'Werkblad voor kinderen visueel rekenen - Gratis werkblad sommen tot 20',
+        imageTitle: 'Werkblad voor kinderen visueel rekenen',
+      },
+    ],
     
   },
 

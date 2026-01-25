@@ -90,7 +90,36 @@ Varje arbetsblad gratis mall inkluderar fullt redigerbar canvas. Dra, rotera, sk
     badgeText: 'Gratis Exempel',
     downloadingLabel: 'Laddar ner...',
     ofLabel: 'av',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/swedish/matching/sample-1.jpeg',
+        answerKeySrc: '/samples/swedish/matching/sample-1.jpeg',
+        altText: 'Gratis arbetsblad matchningsövningar för förskoleklass - visuell parbildning för barn',
+        imageTitle: 'Gratis arbetsblad matchningsövningar för förskoleklass',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/swedish/matching/sample-2.jpeg',
+        answerKeySrc: '/samples/swedish/matching/sample-2.jpeg',
+        altText: 'Arbetsblad för barn matchning med bilder och ord - ordförrådsträning för lågstadiet',
+        imageTitle: 'Arbetsblad för barn matchning med bilder och ord',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/swedish/matching/sample-3.jpeg',
+        answerKeySrc: '/samples/swedish/matching/sample-3.jpeg',
+        altText: 'Gratis utskrifter matchningsarbetsblad - anpassade matchningsövningar för tematisk undervisning',
+        imageTitle: 'Gratis utskrifter matchningsarbetsblad',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/swedish/matching/sample-4.jpeg',
+        answerKeySrc: '/samples/swedish/matching/sample-4.jpeg',
+        altText: 'Arbetsblad för förskoleklass matchning - finmotorik övningar med bildparbildning',
+        imageTitle: 'Arbetsblad för förskoleklass matchning',
+      },
+    ],
     
   },
 

@@ -98,7 +98,43 @@ Lærer og forældre finder mønstertog arbejdsark ideelle til børn der lærer b
     noPdfLabel: 'Ingen PDF tilgængelig',
     freePdfCountLabel: '5 gratis downloads',
     ofLabel: 'af',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/danish/pattern-train/sample-1.jpeg',
+        answerKeySrc: '/samples/danish/pattern-train/sample-1.jpeg',
+        altText: 'Mønstertog gratis arbejdsark til børn - arbejdsark til børnehaveklasse',
+        imageTitle: 'Mønstertog gratis arbejdsark til børn',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/danish/pattern-train/sample-2.jpeg',
+        answerKeySrc: '/samples/danish/pattern-train/sample-2.jpeg',
+        altText: 'Gratis arbejdsark til børn - mønstertog opgaver med finmotorik',
+        imageTitle: 'Gratis arbejdsark til børn',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/danish/pattern-train/sample-3.jpeg',
+        answerKeySrc: '/samples/danish/pattern-train/sample-3.jpeg',
+        altText: 'Arbejdsark til børnehaveklasse - gratis printables mønstertog',
+        imageTitle: 'Arbejdsark til børnehaveklasse',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/danish/pattern-train/sample-4.jpeg',
+        answerKeySrc: '/samples/danish/pattern-train/sample-4.jpeg',
+        altText: 'Gratis printables - arbejdsark til børn med mønstertog',
+        imageTitle: 'Gratis printables',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/danish/pattern-train/sample-5.jpeg',
+        answerKeySrc: '/samples/danish/pattern-train/sample-5.jpeg',
+        altText: 'Arbejdsark til børn - gratis arbejdsark mønstertog generator',
+        imageTitle: 'Arbejdsark til børn',
+      },
+    ],
     
   },
 

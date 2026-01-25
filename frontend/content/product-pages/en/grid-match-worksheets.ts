@@ -80,7 +80,43 @@ Teachers love grid match worksheets because they combine fun with learning. Crea
     downloadLabel: 'Download Free Sample',
     worksheetLabel: 'Worksheet',
     answerKeyLabel: 'Answer Key',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/english/grid-match/sample-1.jpeg',
+        answerKeySrc: '/samples/english/grid-match/sample-1.jpeg',
+        altText: 'Free printable grid match worksheets - visual discrimination puzzle for kindergarten spatial reasoning practice',
+        imageTitle: 'Free printable grid match worksheets',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/english/grid-match/sample-2.jpeg',
+        answerKeySrc: '/samples/english/grid-match/sample-2.jpeg',
+        altText: 'Grid match puzzle worksheets for kids - free printable visual matching activity for first grade',
+        imageTitle: 'Grid match puzzle worksheets for kids',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/english/grid-match/sample-3.jpeg',
+        answerKeySrc: '/samples/english/grid-match/sample-3.jpeg',
+        altText: 'Visual discrimination worksheets free - grid match puzzle printables for kindergarten pattern recognition',
+        imageTitle: 'Visual discrimination worksheets free',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/english/grid-match/sample-4.jpeg',
+        answerKeySrc: '/samples/english/grid-match/sample-4.jpeg',
+        altText: 'Free worksheet for kids - grid match visual spatial puzzle activity for kindergarten students',
+        imageTitle: 'Free worksheet for kids',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/english/grid-match/sample-5.jpeg',
+        answerKeySrc: '/samples/english/grid-match/sample-5.jpeg',
+        altText: 'Grid match free printables - visual matching puzzle worksheet for kids spatial skills development',
+        imageTitle: 'Grid match free printables',
+      },
+    ],
     
   },
 

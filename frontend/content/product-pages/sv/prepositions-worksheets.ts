@@ -93,7 +93,36 @@ Kombinera prepositionsträning med målarbilder barn gillar. Lägg till egna bil
     badgeText: 'Gratis Exempel',
     downloadingLabel: 'Laddar ner...',
     ofLabel: 'av',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/swedish/prepositions/sample-1.jpeg',
+        answerKeySrc: '/samples/swedish/prepositions/sample-1.jpeg',
+        altText: 'Prepositioner arbetsblad gratis - rumsliga begrepp för förskoleklass material',
+        imageTitle: 'Prepositioner arbetsblad gratis',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/swedish/prepositions/sample-2.jpeg',
+        answerKeySrc: '/samples/swedish/prepositions/sample-2.jpeg',
+        altText: 'Gratis arbetsblad prepositioner - finmotorik övningar för barn',
+        imageTitle: 'Gratis arbetsblad prepositioner',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/swedish/prepositions/sample-3.jpeg',
+        answerKeySrc: '/samples/swedish/prepositions/sample-3.jpeg',
+        altText: 'Arbetsblad för barn prepositioner - språkträning i på under',
+        imageTitle: 'Arbetsblad för barn prepositioner',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/swedish/prepositions/sample-4.jpeg',
+        answerKeySrc: '/samples/swedish/prepositions/sample-4.jpeg',
+        altText: 'Gratis utskrifter prepositioner - rumsord arbetsblad förskoleklass',
+        imageTitle: 'Gratis utskrifter prepositioner',
+      },
+    ],
     
   },
 

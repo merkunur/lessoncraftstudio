@@ -96,7 +96,36 @@ Ogni modalità di gioco ti permette di creare schede didattiche completamente pe
     badgeText: 'Esempi Gratuiti',
     downloadingLabel: 'Scaricamento...',
     ofLabel: 'di',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/italian/picture-path/sample-2.jpeg',
+        answerKeySrc: '/samples/italian/picture-path/sample-2.jpeg',
+        altText: 'Schede gratuite labirinto classico - scheda per bambini attività logica',
+        imageTitle: 'Schede gratuite labirinto classico',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/italian/picture-path/sample-3.jpeg',
+        answerKeySrc: '/samples/italian/picture-path/sample-3.jpeg',
+        altText: 'Stampabili gratuiti percorso giusto - scheda gratuita per scuola primaria',
+        imageTitle: 'Stampabili gratuiti percorso giusto',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/italian/picture-path/sample-4.jpeg',
+        answerKeySrc: '/samples/italian/picture-path/sample-4.jpeg',
+        altText: 'Scheda per bambini labirinti - schede gratuite pregrafismo logica',
+        imageTitle: 'Scheda per bambini labirinti',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/italian/picture-path/sample-5.jpeg',
+        answerKeySrc: '/samples/italian/picture-path/sample-5.jpeg',
+        altText: 'Schede gratuite percorsi - scheda gratuita per bambini coordinazione',
+        imageTitle: 'Schede gratuite percorsi',
+      },
+    ],
     
   },
 

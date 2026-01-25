@@ -94,7 +94,29 @@ Le schede didattiche scuola primaria create con il nostro generatore sono stampa
     badgeText: 'Esempi Gratuiti',
     downloadingLabel: 'Scaricamento...',
     ofLabel: 'di',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/italian/wordsearch/sample-2.jpeg',
+        answerKeySrc: '/samples/italian/wordsearch/sample-2.jpeg',
+        altText: 'Schede gratuite di crucipuzzle - scheda per bambini stampabile',
+        imageTitle: 'Schede gratuite di crucipuzzle',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/italian/wordsearch/sample-4.jpeg',
+        answerKeySrc: '/samples/italian/wordsearch/sample-4.jpeg',
+        altText: 'Crucipuzzle schede didattiche - scheda gratuita vocabolario scuola primaria',
+        imageTitle: 'Crucipuzzle schede didattiche',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/italian/wordsearch/sample-5.jpeg',
+        answerKeySrc: '/samples/italian/wordsearch/sample-5.jpeg',
+        altText: 'Generatore crucipuzzle gratuito - stampabili gratuiti per bambini',
+        imageTitle: 'Generatore crucipuzzle gratuito',
+      },
+    ],
     
   },
 

@@ -106,7 +106,43 @@ Onze werkbladen groep 3 generator maakt het gemakkelijk om gedifferentieerde puz
     badgeText: 'Gratis Voorbeelden',
     downloadingLabel: 'Downloaden...',
     ofLabel: 'van',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/dutch/missing-pieces/sample-1.jpeg',
+        answerKeySrc: '/samples/dutch/missing-pieces/sample-1.jpeg',
+        altText: 'Gratis werkblad ontbrekende puzzelstukjes - visuele discriminatie oefenbladen voor kleuters',
+        imageTitle: 'Gratis werkblad ontbrekende puzzelstukjes',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/dutch/missing-pieces/sample-2.jpeg',
+        answerKeySrc: '/samples/dutch/missing-pieces/sample-2.jpeg',
+        altText: 'Puzzelstukjes werkbladen gratis - werkbladen groep 3 visuele discriminatie',
+        imageTitle: 'Puzzelstukjes werkbladen gratis',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/dutch/missing-pieces/sample-3.jpeg',
+        answerKeySrc: '/samples/dutch/missing-pieces/sample-3.jpeg',
+        altText: 'Gratis printables ontbrekende puzzelstukjes - werkbladen kleuters fijne motoriek',
+        imageTitle: 'Gratis printables ontbrekende puzzelstukjes',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/dutch/missing-pieces/sample-4.jpeg',
+        answerKeySrc: '/samples/dutch/missing-pieces/sample-4.jpeg',
+        altText: 'Werkblad voor kinderen puzzelstukjes - oefenbladen gratis visuele discriminatie',
+        imageTitle: 'Werkblad voor kinderen puzzelstukjes',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/dutch/missing-pieces/sample-5.jpeg',
+        answerKeySrc: '/samples/dutch/missing-pieces/sample-5.jpeg',
+        altText: 'Gratis werkbladen ontbrekende stukjes - werkbladen groep 3 puzzel oefeningen',
+        imageTitle: 'Gratis werkbladen ontbrekende stukjes',
+      },
+    ],
     
   },
 

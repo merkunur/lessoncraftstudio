@@ -99,7 +99,43 @@ El generador incluye 8 plantillas diferentes con varios patrones de líneas y or
     badgeText: 'Ejemplos Gratis',
     downloadingLabel: 'Descargando...',
     ofLabel: 'de',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/spanish/drawing-lines/sample-1.jpeg',
+        answerKeySrc: '/samples/spanish/drawing-lines/sample-1.jpeg',
+        altText: 'Fichas de grafomotricidad gratis para imprimir - ejercicios de trazos curvas para preescolar',
+        imageTitle: 'Fichas de grafomotricidad gratis para imprimir',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/spanish/drawing-lines/sample-2.jpeg',
+        answerKeySrc: '/samples/spanish/drawing-lines/sample-2.jpeg',
+        altText: 'Fichas infantil de grafomotricidad - trazos diagonales para kinder y motricidad fina',
+        imageTitle: 'Fichas infantil de grafomotricidad',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/spanish/drawing-lines/sample-3.jpeg',
+        answerKeySrc: '/samples/spanish/drawing-lines/sample-3.jpeg',
+        altText: 'Material educativo gratis de grafomotricidad - líneas horizontales para lectoescritura',
+        imageTitle: 'Material educativo gratis de grafomotricidad',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/spanish/drawing-lines/sample-4.jpeg',
+        answerKeySrc: '/samples/spanish/drawing-lines/sample-4.jpeg',
+        altText: 'Fichas preescolar de trazos - ejercicios verticales para coordinación ojo-mano',
+        imageTitle: 'Fichas preescolar de trazos',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/spanish/drawing-lines/sample-5.jpeg',
+        answerKeySrc: '/samples/spanish/drawing-lines/sample-5.jpeg',
+        altText: 'Fichas gratis para niños - grafomotricidad y desarrollo de motricidad fina',
+        imageTitle: 'Fichas gratis para niños',
+      },
+    ],
     
   },
 

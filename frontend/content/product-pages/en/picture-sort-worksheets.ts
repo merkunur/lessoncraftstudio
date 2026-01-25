@@ -82,7 +82,43 @@ Full Access subscription costs $240 annually or $25 monthly. This includes all 3
     downloadLabel: 'Download Free Sample',
     worksheetLabel: 'Worksheet',
     answerKeyLabel: 'Answer Key',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/english/picture-sort/sample-1.jpeg',
+        answerKeySrc: '/samples/english/picture-sort/sample-1.jpeg',
+        altText: 'Free printable sorting worksheets for kindergarten - picture classification activity with colorful images',
+        imageTitle: 'Free printable sorting worksheets for kindergarten',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/english/picture-sort/sample-2.jpeg',
+        answerKeySrc: '/samples/english/picture-sort/sample-2.jpeg',
+        altText: 'Free worksheet for kids - picture sort categorization activity for first grade critical thinking',
+        imageTitle: 'Free worksheet for kids',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/english/picture-sort/sample-3.jpeg',
+        answerKeySrc: '/samples/english/picture-sort/sample-3.jpeg',
+        altText: 'Free printables for kindergarten - sorting worksheet with cut and paste classification for kids',
+        imageTitle: 'Free printables for kindergarten',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/english/picture-sort/sample-4.jpeg',
+        answerKeySrc: '/samples/english/picture-sort/sample-4.jpeg',
+        altText: 'Sorting worksheets free printable - picture classification activity for first grade math',
+        imageTitle: 'Sorting worksheets free printable',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/english/picture-sort/sample-5.jpeg',
+        answerKeySrc: '/samples/english/picture-sort/sample-5.jpeg',
+        altText: 'Free worksheet for kindergarten - picture sort educational activity with answer key',
+        imageTitle: 'Free worksheet for kindergarten',
+      },
+    ],
     
   },
 

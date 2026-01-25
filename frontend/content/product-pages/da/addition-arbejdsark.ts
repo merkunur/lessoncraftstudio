@@ -94,7 +94,43 @@ Hver matematikopgave kan tilpasses efter elevernes niveau og læringsbehov. Væl
     noPdfLabel: 'Ingen PDF tilgængelig',
     freePdfCountLabel: '3 gratis downloads',
     ofLabel: 'af',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/danish/addition/sample-1.jpeg',
+        answerKeySrc: '/samples/danish/addition/sample-1.jpeg',
+        altText: 'Gratis arbejdsark til børn - billedbaseret addition matematik',
+        imageTitle: 'Gratis arbejdsark til børn',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/danish/addition/sample-2.jpeg',
+        answerKeySrc: '/samples/danish/addition/sample-2.jpeg',
+        altText: 'Gratis arbejdsark til børnehaveklasse - plusstykker matematikopgaver',
+        imageTitle: 'Gratis arbejdsark til børnehaveklasse',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/danish/addition/sample-3.jpeg',
+        answerKeySrc: '/samples/danish/addition/sample-3.jpeg',
+        altText: 'Arbejdsark til børn - billede og tal addition opgave',
+        imageTitle: 'Arbejdsark til børn',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/danish/addition/sample-4.jpeg',
+        answerKeySrc: '/samples/danish/addition/sample-4.jpeg',
+        altText: 'Gratis printables - find manglende led addition arbejdsark',
+        imageTitle: 'Gratis printables',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/danish/addition/sample-5.jpeg',
+        answerKeySrc: '/samples/danish/addition/sample-5.jpeg',
+        altText: 'Arbejdsark til børnehaveklasse - blandet tilstand matematikopgaver',
+        imageTitle: 'Arbejdsark til børnehaveklasse',
+      },
+    ],
     
   },
 

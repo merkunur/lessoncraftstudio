@@ -94,7 +94,36 @@ Retningsopgaver understøtter 11 sprog inklusiv dansk. Billednavne vises på dan
     noPdfLabel: 'Ingen PDF tilgængelig',
     freePdfCountLabel: '3 gratis downloads',
     ofLabel: 'af',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/danish/treasure-hunt/sample-1.jpeg',
+        answerKeySrc: '/samples/danish/treasure-hunt/sample-1.jpeg',
+        altText: 'Gratis arbejdsark skattejagt - retningsopgaver til børnehaveklasse',
+        imageTitle: 'Gratis arbejdsark skattejagt',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/danish/treasure-hunt/sample-2.jpeg',
+        answerKeySrc: '/samples/danish/treasure-hunt/sample-2.jpeg',
+        altText: 'Gratis arbejdsark skattejagt - kompasretninger til 1. klasse',
+        imageTitle: 'Gratis arbejdsark skattejagt',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/danish/treasure-hunt/sample-3.jpeg',
+        answerKeySrc: '/samples/danish/treasure-hunt/sample-3.jpeg',
+        altText: 'Gratis arbejdsark til børn - avanceret skattejagt',
+        imageTitle: 'Gratis arbejdsark til børn',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/danish/treasure-hunt/sample-4.jpeg',
+        answerKeySrc: '/samples/danish/treasure-hunt/sample-4.jpeg',
+        altText: 'Arbejdsark til børnehaveklasse - tematisk skattejagt',
+        imageTitle: 'Arbejdsark til børnehaveklasse',
+      },
+    ],
     
   },
 

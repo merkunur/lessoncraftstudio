@@ -90,7 +90,36 @@ Este gerador cria atividades para imprimir que combinam reconhecimento de imagen
     badgeText: 'Exemplos Grátis',
     downloadingLabel: 'Baixando...',
     ofLabel: 'de',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/portuguese/word-guess/sample-1.jpeg',
+        answerKeySrc: '/samples/portuguese/word-guess/sample-1.jpeg',
+        altText: 'Atividade grátis de adivinhar palavras - atividade para educação infantil',
+        imageTitle: 'Atividade grátis de adivinhar palavras',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/portuguese/word-guess/sample-2.jpeg',
+        answerKeySrc: '/samples/portuguese/word-guess/sample-2.jpeg',
+        altText: 'Atividades grátis de adivinhar palavras - atividade grátis para crianças',
+        imageTitle: 'Atividades grátis de adivinhar palavras',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/portuguese/word-guess/sample-3.jpeg',
+        answerKeySrc: '/samples/portuguese/word-guess/sample-3.jpeg',
+        altText: 'Atividade para crianças de adivinhar palavras - imprimíveis grátis',
+        imageTitle: 'Atividade para crianças de adivinhar palavras',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/portuguese/word-guess/sample-4.jpeg',
+        answerKeySrc: '/samples/portuguese/word-guess/sample-4.jpeg',
+        altText: 'Atividade grátis para crianças de adivinhar palavras - atividade de alfabetização',
+        imageTitle: 'Atividade grátis para crianças de adivinhar palavras',
+      },
+    ],
     
   },
 

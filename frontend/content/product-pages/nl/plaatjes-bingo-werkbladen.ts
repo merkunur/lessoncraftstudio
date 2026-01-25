@@ -102,7 +102,36 @@ Met je abonnement maak je zoveel bingokaarten als je nodig hebt. Geen extra kost
     badgeText: 'Gratis Voorbeelden',
     downloadingLabel: 'Downloaden...',
     ofLabel: 'van',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/dutch/bingo/sample-1.jpeg',
+        answerKeySrc: '/samples/dutch/bingo/sample-1.jpeg',
+        altText: 'Gratis werkblad plaatjes bingo - werkblad voor kinderen met afbeeldingen voor groep 1-3',
+        imageTitle: 'Gratis werkblad plaatjes bingo',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/dutch/bingo/sample-2.jpeg',
+        answerKeySrc: '/samples/dutch/bingo/sample-2.jpeg',
+        altText: 'Gratis werkbladen bingo - werkblad voor kleuters met thematische plaatjes',
+        imageTitle: 'Gratis werkbladen bingo',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/dutch/bingo/sample-3.jpeg',
+        answerKeySrc: '/samples/dutch/bingo/sample-3.jpeg',
+        altText: 'Gratis printables bingo - werkblad letters leren en veilig leren lezen',
+        imageTitle: 'Gratis printables bingo',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/dutch/bingo/sample-4.jpeg',
+        answerKeySrc: '/samples/dutch/bingo/sample-4.jpeg',
+        altText: 'Werkblad voor kinderen bingo - oefenbladen gratis fijne motoriek',
+        imageTitle: 'Werkblad voor kinderen bingo',
+      },
+    ],
     
   },
 

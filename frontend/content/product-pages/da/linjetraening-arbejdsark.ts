@@ -94,7 +94,43 @@ Tegn linjer opgaver kombinerer finmotorik øvelser med sjove billeder børn elsk
     noPdfLabel: 'Ingen PDF tilgængelig',
     freePdfCountLabel: '3 gratis downloads',
     ofLabel: 'af',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/danish/drawing-lines/sample-1.jpeg',
+        answerKeySrc: '/samples/danish/drawing-lines/sample-1.jpeg',
+        altText: 'Linjetræning gratis arbejdsark - finmotorik øvelser til børnehaveklasse',
+        imageTitle: 'Linjetræning gratis arbejdsark',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/danish/drawing-lines/sample-2.jpeg',
+        answerKeySrc: '/samples/danish/drawing-lines/sample-2.jpeg',
+        altText: 'Tegn linjer gratis arbejdsark til børn - arbejdsark til 0. klasse',
+        imageTitle: 'Tegn linjer gratis arbejdsark til børn',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/danish/drawing-lines/sample-3.jpeg',
+        answerKeySrc: '/samples/danish/drawing-lines/sample-3.jpeg',
+        altText: 'Diagonal linjetræning - gratis printables til finmotorik øvelser',
+        imageTitle: 'Diagonal linjetræning',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/danish/drawing-lines/sample-4.jpeg',
+        answerKeySrc: '/samples/danish/drawing-lines/sample-4.jpeg',
+        altText: 'Kurvede linjer gratis arbejdsark - arbejdsark til børnehaveklasse',
+        imageTitle: 'Kurvede linjer gratis arbejdsark',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/danish/drawing-lines/sample-5.jpeg',
+        answerKeySrc: '/samples/danish/drawing-lines/sample-5.jpeg',
+        altText: 'Linjetræning øvelser - gratis arbejdsark til børn og 1. klasse',
+        imageTitle: 'Linjetræning øvelser',
+      },
+    ],
     
   },
 

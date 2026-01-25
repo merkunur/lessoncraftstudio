@@ -84,7 +84,29 @@ Full Tillgång-prenumeration inkluderar kommersiell licens. Sälj dina skrivarbe
     badgeText: 'Gratis Exempel',
     downloadingLabel: 'Laddar ner...',
     ofLabel: 'av',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/swedish/writing/sample-1.jpeg',
+        answerKeySrc: '/samples/swedish/writing/sample-1.jpeg',
+        altText: 'Gratis skrivarbetsblad för barn - bokstavsspårning för förskoleklass',
+        imageTitle: 'Gratis skrivarbetsblad för barn',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/swedish/writing/sample-2.jpeg',
+        answerKeySrc: '/samples/swedish/writing/sample-2.jpeg',
+        altText: 'Gratis arbetsblad för bokstäver lära sig - handstilsövningar för barn',
+        imageTitle: 'Gratis arbetsblad för bokstäver lära sig',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/swedish/writing/sample-3.jpeg',
+        answerKeySrc: '/samples/swedish/writing/sample-3.jpeg',
+        altText: 'Gratis finmotorik övningar arbetsblad - skrivträning för förskoleklass',
+        imageTitle: 'Gratis finmotorik övningar arbetsblad',
+      },
+    ],
     
   },
 

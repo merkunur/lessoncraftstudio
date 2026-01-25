@@ -96,7 +96,43 @@ Core Bundle inkluderer adgang til 10 populære opgave-generatorer for kun 144 kr
     noPdfLabel: 'Ingen PDF tilgængelig',
     freePdfCountLabel: '3 gratis downloads',
     ofLabel: 'af',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/danish/coloring/sample-1.jpeg',
+        answerKeySrc: '/samples/danish/coloring/sample-1.jpeg',
+        altText: 'Gratis arbejdsark farvelægning til børnehaveklasse - malebog sider til print',
+        imageTitle: 'Gratis arbejdsark farvelægning til børnehaveklasse',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/danish/coloring/sample-2.jpeg',
+        answerKeySrc: '/samples/danish/coloring/sample-2.jpeg',
+        altText: 'Gratis printables farvelægning - arbejdsark til børn med tematiske billeder',
+        imageTitle: 'Gratis printables farvelægning',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/danish/coloring/sample-3.jpeg',
+        answerKeySrc: '/samples/danish/coloring/sample-3.jpeg',
+        altText: 'Arbejdsark til børnehaveklasse - farvelægning med store konturer',
+        imageTitle: 'Arbejdsark til børnehaveklasse',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/danish/coloring/sample-4.jpeg',
+        answerKeySrc: '/samples/danish/coloring/sample-4.jpeg',
+        altText: 'Gratis arbejdsark malebog landskab - farvelægning til 0. klasse',
+        imageTitle: 'Gratis arbejdsark malebog landskab',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/danish/coloring/sample-5.jpeg',
+        answerKeySrc: '/samples/danish/coloring/sample-5.jpeg',
+        altText: 'Arbejdsark til børn farvelægning - gratis printables malebog sider',
+        imageTitle: 'Arbejdsark til børn farvelægning',
+      },
+    ],
     
   },
 

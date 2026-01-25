@@ -108,7 +108,43 @@ Exportiere fertige Malvorlagen als hochauflösende PDF oder JPEG Dateien. Profes
     badgeText: 'Kostenlose Beispiele',
     downloadingLabel: 'Wird heruntergeladen...',
     ofLabel: 'von',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/german/coloring/sample-1.jpeg',
+        answerKeySrc: '/samples/german/coloring/sample-1.jpeg',
+        altText: 'Kostenlose Malvorlagen Arbeitsblätter Grundschule - Ausmalbilder zum Ausdrucken für Vorschul-Arbeitsblätter',
+        imageTitle: 'Kostenlose Malvorlagen Arbeitsblätter Grundschule',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/german/coloring/sample-2.jpeg',
+        answerKeySrc: '/samples/german/coloring/sample-2.jpeg',
+        altText: 'Malvorlagen-Generator für kostenlose Arbeitsblätter - Ausmalbilder für Buchstaben lernen und Schwungübungen',
+        imageTitle: 'Malvorlagen-Generator für kostenlose Arbeitsblätter',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/german/coloring/sample-3.jpeg',
+        answerKeySrc: '/samples/german/coloring/sample-3.jpeg',
+        altText: 'Vorschul-Arbeitsblätter mit Ausmalbildern - Kostenlose Druckvorlagen für Mathe-Arbeitsblätter',
+        imageTitle: 'Vorschul-Arbeitsblätter mit Ausmalbildern',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/german/coloring/sample-4.jpeg',
+        answerKeySrc: '/samples/german/coloring/sample-4.jpeg',
+        altText: 'Arbeitsblatt für Kinder Ausmalbilder - Kostenlose Malvorlagen für Arbeitsblätter Grundschule',
+        imageTitle: 'Arbeitsblatt für Kinder Ausmalbilder',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/german/coloring/sample-5.jpeg',
+        answerKeySrc: '/samples/german/coloring/sample-5.jpeg',
+        altText: 'Kostenlose Druckvorlagen Malvorlagen - Ausmalbilder für Vorschul-Arbeitsblätter und Feinmotorik',
+        imageTitle: 'Kostenlose Druckvorlagen Malvorlagen',
+      },
+    ],
     
   },
 

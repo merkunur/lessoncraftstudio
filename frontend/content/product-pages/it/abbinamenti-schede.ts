@@ -88,7 +88,22 @@ Le schede didattiche di abbinamenti sono uno strumento essenziale per l'insegnam
     badgeText: 'Esempi Gratuiti',
     downloadingLabel: 'Scaricamento...',
     ofLabel: 'di',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/italian/matching/sample-1.jpeg',
+        answerKeySrc: '/samples/italian/matching/sample-1.jpeg',
+        altText: 'Scheda gratuita di abbinamenti per bambini - esercizi visivi scuola primaria',
+        imageTitle: 'Scheda gratuita di abbinamenti per bambini',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/italian/matching/sample-3.jpeg',
+        answerKeySrc: '/samples/italian/matching/sample-3.jpeg',
+        altText: 'Scheda per bambini abbinamenti stampabili gratuiti classe prima',
+        imageTitle: 'Scheda per bambini abbinamenti stampabili gratuiti classe prima',
+      },
+    ],
     
   },
 

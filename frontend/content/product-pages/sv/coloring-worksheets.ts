@@ -96,7 +96,43 @@ Verktyget för målarbilder barn stöder 11 språk för användargränssnittet. 
     badgeText: 'Gratis Exempel',
     downloadingLabel: 'Laddar ner...',
     ofLabel: 'av',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/swedish/coloring/sample-1.jpeg',
+        answerKeySrc: '/samples/swedish/coloring/sample-1.jpeg',
+        altText: 'Gratis arbetsblad målarbilder barn - finmotorik övningar för förskoleklass',
+        imageTitle: 'Gratis arbetsblad målarbilder barn',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/swedish/coloring/sample-2.jpeg',
+        answerKeySrc: '/samples/swedish/coloring/sample-2.jpeg',
+        altText: 'Arbetsblad för barn målarbilder - gratis utskrifter för lågstadiet',
+        imageTitle: 'Arbetsblad för barn målarbilder',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/swedish/coloring/sample-3.jpeg',
+        answerKeySrc: '/samples/swedish/coloring/sample-3.jpeg',
+        altText: 'Gratis arbetsblad för barn - målarbilder för finmotorik övningar',
+        imageTitle: 'Gratis arbetsblad för barn',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/swedish/coloring/sample-4.jpeg',
+        answerKeySrc: '/samples/swedish/coloring/sample-4.jpeg',
+        altText: 'Arbetsblad för förskoleklass - gratis målarbilder barn att skriva ut',
+        imageTitle: 'Arbetsblad för förskoleklass',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/swedish/coloring/sample-5.jpeg',
+        answerKeySrc: '/samples/swedish/coloring/sample-5.jpeg',
+        altText: 'Gratis utskrifter målarbilder - arbetsblad för barn i förskoleklass',
+        imageTitle: 'Gratis utskrifter målarbilder',
+      },
+    ],
     
   },
 

@@ -90,7 +90,36 @@ O formato de grade permite configurar de 2x2 até 4x4 peças. Escolha operaçõe
     badgeText: 'Exemplos Grátis',
     downloadingLabel: 'Baixando...',
     ofLabel: 'de',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/portuguese/math puzzle/sample-1.jpeg',
+        answerKeySrc: '/samples/portuguese/math puzzle/sample-1.jpeg',
+        altText: 'Atividade grátis de quebra-cabeça de matemática - adição para educação infantil',
+        imageTitle: 'Atividade grátis de quebra-cabeça de matemática',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/portuguese/math puzzle/sample-2.jpeg',
+        answerKeySrc: '/samples/portuguese/math puzzle/sample-2.jpeg',
+        altText: 'Atividades grátis de matemática para crianças - subtração e adição',
+        imageTitle: 'Atividades grátis de matemática para crianças',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/portuguese/math puzzle/sample-3.jpeg',
+        answerKeySrc: '/samples/portuguese/math puzzle/sample-3.jpeg',
+        altText: 'Imprimíveis grátis de quebra-cabeça matemático - atividade para educação infantil',
+        imageTitle: 'Imprimíveis grátis de quebra-cabeça matemático',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/portuguese/math puzzle/sample-4.jpeg',
+        answerKeySrc: '/samples/portuguese/math puzzle/sample-4.jpeg',
+        altText: 'Atividade para crianças grátis - quebra-cabeça matemática 1º ano',
+        imageTitle: 'Atividade para crianças grátis',
+      },
+    ],
     
   },
 

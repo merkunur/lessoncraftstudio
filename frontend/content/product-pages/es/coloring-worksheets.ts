@@ -94,7 +94,43 @@ Las páginas de colorear que creas son completamente editables. Cambia tamaños,
     badgeText: 'Ejemplos Gratis',
     downloadingLabel: 'Descargando...',
     ofLabel: 'de',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/spanish/coloring/sample-1.jpeg',
+        answerKeySrc: '/samples/spanish/coloring/sample-1.jpeg',
+        altText: 'Ficha gratis de dibujos para colorear para imprimir - páginas de colorear para preescolar',
+        imageTitle: 'Ficha gratis de dibujos para colorear para imprimir',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/spanish/coloring/sample-2.jpeg',
+        answerKeySrc: '/samples/spanish/coloring/sample-2.jpeg',
+        altText: 'Fichas para imprimir de colorear gratis - material educativo de motricidad fina',
+        imageTitle: 'Fichas para imprimir de colorear gratis',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/spanish/coloring/sample-3.jpeg',
+        answerKeySrc: '/samples/spanish/coloring/sample-3.jpeg',
+        altText: 'Fichas preescolar de dibujos para colorear - fichas gratis para educación infantil',
+        imageTitle: 'Fichas preescolar de dibujos para colorear',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/spanish/coloring/sample-4.jpeg',
+        answerKeySrc: '/samples/spanish/coloring/sample-4.jpeg',
+        altText: 'Páginas para colorear gratis para imprimir - fichas infantil de colorear',
+        imageTitle: 'Páginas para colorear gratis para imprimir',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/spanish/coloring/sample-5.jpeg',
+        answerKeySrc: '/samples/spanish/coloring/sample-5.jpeg',
+        altText: 'Dibujos para colorear gratis para niños - fichas para imprimir de colorear',
+        imageTitle: 'Dibujos para colorear gratis para niños',
+      },
+    ],
     
   },
 

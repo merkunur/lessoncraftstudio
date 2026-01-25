@@ -94,7 +94,43 @@ Cada atividade trabalha habilidades essenciais para a alfabetização. As crian�
     badgeText: 'Exemplos Grátis',
     downloadingLabel: 'Baixando...',
     ofLabel: 'de',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/portuguese/drawing-lines/sample-1.jpeg',
+        answerKeySrc: '/samples/portuguese/drawing-lines/sample-1.jpeg',
+        altText: 'Atividade grátis de traçar linhas curvas para coordenação motora - atividade para educação infantil',
+        imageTitle: 'Atividade grátis de traçar linhas curvas para coordenação motora',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/portuguese/drawing-lines/sample-2.jpeg',
+        answerKeySrc: '/samples/portuguese/drawing-lines/sample-2.jpeg',
+        altText: 'Atividade grátis para crianças de traçar linhas diagonais - imprimíveis grátis para alfabetização',
+        imageTitle: 'Atividade grátis para crianças de traçar linhas diagonais',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/portuguese/drawing-lines/sample-3.jpeg',
+        answerKeySrc: '/samples/portuguese/drawing-lines/sample-3.jpeg',
+        altText: 'Atividades grátis de traçar linhas horizontais - atividade para crianças da pré-escola',
+        imageTitle: 'Atividades grátis de traçar linhas horizontais',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/portuguese/drawing-lines/sample-4.jpeg',
+        answerKeySrc: '/samples/portuguese/drawing-lines/sample-4.jpeg',
+        altText: 'Imprimíveis grátis de coordenação motora fina - atividade para educação infantil com pontilhado',
+        imageTitle: 'Imprimíveis grátis de coordenação motora fina',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/portuguese/drawing-lines/sample-5.jpeg',
+        answerKeySrc: '/samples/portuguese/drawing-lines/sample-5.jpeg',
+        altText: 'Atividade grátis de traçar caminhos - atividades grátis de ligar imagens para crianças',
+        imageTitle: 'Atividade grátis de traçar caminhos',
+      },
+    ],
     
   },
 

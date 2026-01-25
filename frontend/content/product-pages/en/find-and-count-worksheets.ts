@@ -86,7 +86,43 @@ Our math worksheets help young students master early counting skills through vis
     downloadLabel: 'Download Free Sample',
     worksheetLabel: 'Worksheet',
     answerKeyLabel: 'Answer Key',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/english/find-and-count/sample-1.jpeg',
+        answerKeySrc: '/samples/english/find-and-count/sample-1.jpeg',
+        altText: 'Free printable find and count worksheets for kindergarten - I Spy counting worksheet for kids with hidden objects',
+        imageTitle: 'Free printable find and count worksheets for kindergarten',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/english/find-and-count/sample-2.jpeg',
+        answerKeySrc: '/samples/english/find-and-count/sample-2.jpeg',
+        altText: 'Free worksheets for kids - visual discrimination counting worksheet for first grade with colorful images',
+        imageTitle: 'Free worksheets for kids',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/english/find-and-count/sample-3.jpeg',
+        answerKeySrc: '/samples/english/find-and-count/sample-3.jpeg',
+        altText: 'Free printables I Spy worksheets - hidden object counting practice worksheet for kindergarten',
+        imageTitle: 'Free printables I Spy worksheets',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/english/find-and-count/sample-4.jpeg',
+        answerKeySrc: '/samples/english/find-and-count/sample-4.jpeg',
+        altText: 'Find and count worksheets free - I Spy activity for preschool counting and visual scanning',
+        imageTitle: 'Find and count worksheets free',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/english/find-and-count/sample-5.jpeg',
+        answerKeySrc: '/samples/english/find-and-count/sample-5.jpeg',
+        altText: 'Counting worksheets kindergarten - free printable find and count with hidden pictures',
+        imageTitle: 'Counting worksheets kindergarten',
+      },
+    ],
     
   },
 

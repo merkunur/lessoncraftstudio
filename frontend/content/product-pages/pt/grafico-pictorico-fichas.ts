@@ -88,7 +88,36 @@ Gráficos pictóricos são ferramentas essenciais para ensinar contagem. Crianç
     badgeText: 'Exemplos Grátis',
     downloadingLabel: 'Baixando...',
     ofLabel: 'de',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/portuguese/chart-count/sample-1.jpeg',
+        answerKeySrc: '/samples/portuguese/chart-count/sample-1.jpeg',
+        altText: 'Gráfico pictórico atividade grátis - contagem de imagens para educação infantil',
+        imageTitle: 'Gráfico pictórico atividade grátis',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/portuguese/chart-count/sample-2.jpeg',
+        answerKeySrc: '/samples/portuguese/chart-count/sample-2.jpeg',
+        altText: 'Atividade de gráfico pictórico grátis para crianças - matemática visual',
+        imageTitle: 'Atividade de gráfico pictórico grátis para crianças',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/portuguese/chart-count/sample-3.jpeg',
+        answerKeySrc: '/samples/portuguese/chart-count/sample-3.jpeg',
+        altText: 'Fichas de gráfico pictórico grátis - atividade para educação infantil',
+        imageTitle: 'Fichas de gráfico pictórico grátis',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/portuguese/chart-count/sample-4.jpeg',
+        answerKeySrc: '/samples/portuguese/chart-count/sample-4.jpeg',
+        altText: 'Gráfico pictórico atividades grátis para imprimir - contagem infantil',
+        imageTitle: 'Gráfico pictórico atividades grátis para imprimir',
+      },
+    ],
     
   },
 

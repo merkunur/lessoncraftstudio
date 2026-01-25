@@ -86,7 +86,43 @@ Our picture bingo generator creates two free printable worksheets with every gen
     downloadLabel: 'Download Free Sample',
     worksheetLabel: 'Worksheet',
     answerKeyLabel: 'Answer Key',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/english/bingo/sample-1.jpeg',
+        answerKeySrc: '/samples/english/bingo/sample-1.jpeg',
+        altText: 'Free printable bingo cards for kindergarten - picture bingo worksheet with colorful images for visual learning',
+        imageTitle: 'Free printable bingo cards for kindergarten',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/english/bingo/sample-2.jpeg',
+        answerKeySrc: '/samples/english/bingo/sample-2.jpeg',
+        altText: 'Bingo worksheets for first grade - printable picture bingo cards with word labels for sight words practice',
+        imageTitle: 'Bingo worksheets for first grade',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/english/bingo/sample-3.jpeg',
+        answerKeySrc: '/samples/english/bingo/sample-3.jpeg',
+        altText: 'Free worksheet for kids - kindergarten bingo cards with educational images and calling chips',
+        imageTitle: 'Free worksheet for kids',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/english/bingo/sample-4.jpeg',
+        answerKeySrc: '/samples/english/bingo/sample-4.jpeg',
+        altText: 'Kindergarten worksheets bingo printable - free printables with colorful animal and object images for vocabulary',
+        imageTitle: 'Kindergarten worksheets bingo printable',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/english/bingo/sample-5.jpeg',
+        answerKeySrc: '/samples/english/bingo/sample-5.jpeg',
+        altText: 'Picture bingo free worksheet for kids - first grade worksheets with custom grid layout for classroom games',
+        imageTitle: 'Picture bingo free worksheet for kids',
+      },
+    ],
     
   },
 

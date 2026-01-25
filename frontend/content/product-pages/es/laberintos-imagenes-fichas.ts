@@ -96,7 +96,43 @@ Los maestros crean fichas gratis con cualquier tema. Practica el reconocimiento 
     badgeText: 'Ejemplos Gratis',
     downloadingLabel: 'Descargando...',
     ofLabel: 'de',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/spanish/picture-path/sample-1.jpeg',
+        answerKeySrc: '/samples/spanish/picture-path/sample-1.jpeg',
+        altText: 'Fichas de laberintos gratis para imprimir - camino visual para preescolar',
+        imageTitle: 'Fichas de laberintos gratis para imprimir',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/spanish/picture-path/sample-2.jpeg',
+        answerKeySrc: '/samples/spanish/picture-path/sample-2.jpeg',
+        altText: 'Ficha de laberinto clásico gratis - ejercicio de grafomotricidad para primaria',
+        imageTitle: 'Ficha de laberinto clásico gratis',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/spanish/picture-path/sample-3.jpeg',
+        answerKeySrc: '/samples/spanish/picture-path/sample-3.jpeg',
+        altText: 'Fichas para imprimir de laberintos - elige el camino correcto para fichas infantil',
+        imageTitle: 'Fichas para imprimir de laberintos',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/spanish/picture-path/sample-4.jpeg',
+        answerKeySrc: '/samples/spanish/picture-path/sample-4.jpeg',
+        altText: 'Material educativo gratis de laberintos - fichas preescolar con imágenes',
+        imageTitle: 'Material educativo gratis de laberintos',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/spanish/picture-path/sample-5.jpeg',
+        answerKeySrc: '/samples/spanish/picture-path/sample-5.jpeg',
+        altText: 'Ficha gratis de laberintos para niños - ejercicios de lectoescritura visual',
+        imageTitle: 'Ficha gratis de laberintos para niños',
+      },
+    ],
     
   },
 

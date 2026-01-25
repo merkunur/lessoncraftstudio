@@ -96,7 +96,36 @@ Ces fiches maternelle travaillent les compétences essentielles du programme de 
     badgeText: 'Exemples Gratuits',
     downloadingLabel: 'Téléchargement...',
     ofLabel: 'sur',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/french/shadow-match/sample-2.jpeg',
+        answerKeySrc: '/samples/french/shadow-match/sample-2.jpeg',
+        altText: 'Exercice discrimination visuelle fiches maternelle - reconnaissance visuelle',
+        imageTitle: 'Exercice discrimination visuelle fiches maternelle',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/french/shadow-match/sample-3.jpeg',
+        answerKeySrc: '/samples/french/shadow-match/sample-3.jpeg',
+        altText: 'Fiches gratuites discrimination visuelle CP - exercices graphisme maternelle',
+        imageTitle: 'Fiches gratuites discrimination visuelle CP',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/french/shadow-match/sample-4.jpeg',
+        answerKeySrc: '/samples/french/shadow-match/sample-4.jpeg',
+        altText: 'Fiche pour maternelle association ombres - discrimination visuelle à imprimer',
+        imageTitle: 'Fiche pour maternelle association ombres',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/french/shadow-match/sample-5.jpeg',
+        answerKeySrc: '/samples/french/shadow-match/sample-5.jpeg',
+        altText: 'Fiches reconnaissance visuelle gratuites pour enfants - exercices CP',
+        imageTitle: 'Fiches reconnaissance visuelle gratuites pour enfants',
+      },
+    ],
     
   },
 

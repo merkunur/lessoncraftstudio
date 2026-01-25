@@ -100,7 +100,36 @@ Onze generator biedt twee verschillende modiussen voor gevarieerde oefeningen. D
     badgeText: 'Gratis Voorbeelden',
     downloadingLabel: 'Downloaden...',
     ofLabel: 'van',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/dutch/odd-one-out/sample-1.jpeg',
+        answerKeySrc: '/samples/dutch/odd-one-out/sample-1.jpeg',
+        altText: 'Gratis werkblad welke hoort niet bij - visuele discriminatie werkbladen voor kleuters en groep 3',
+        imageTitle: 'Gratis werkblad welke hoort niet bij',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/dutch/odd-one-out/sample-2.jpeg',
+        answerKeySrc: '/samples/dutch/odd-one-out/sample-2.jpeg',
+        altText: 'Welke hoort niet bij oefenbladen gratis - werkblad voor kinderen met fijne motoriek',
+        imageTitle: 'Welke hoort niet bij oefenbladen gratis',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/dutch/odd-one-out/sample-3.jpeg',
+        answerKeySrc: '/samples/dutch/odd-one-out/sample-3.jpeg',
+        altText: 'Gratis werkbladen welke hoort niet bij - werkblad voor kleuters visuele discriminatie',
+        imageTitle: 'Gratis werkbladen welke hoort niet bij',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/dutch/odd-one-out/sample-4.jpeg',
+        answerKeySrc: '/samples/dutch/odd-one-out/sample-4.jpeg',
+        altText: 'Werkblad welke hoort niet bij gratis printables - categorisatie oefeningen groep 1 2 3',
+        imageTitle: 'Werkblad welke hoort niet bij gratis printables',
+      },
+    ],
     
   },
 

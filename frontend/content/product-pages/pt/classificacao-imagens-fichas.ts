@@ -90,7 +90,36 @@ Professores de todo o Brasil confiam no LessonCraft Studio. Nossa plataforma ofe
     badgeText: 'Exemplos Grátis',
     downloadingLabel: 'Baixando...',
     ofLabel: 'de',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/portuguese/picture-sort/sample-1.jpeg',
+        answerKeySrc: '/samples/portuguese/picture-sort/sample-1.jpeg',
+        altText: 'Atividade grátis de classificação de imagens para educação infantil',
+        imageTitle: 'Atividade grátis de classificação de imagens para educação infantil',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/portuguese/picture-sort/sample-2.jpeg',
+        answerKeySrc: '/samples/portuguese/picture-sort/sample-2.jpeg',
+        altText: 'Atividade grátis de classificação por categorias para crianças',
+        imageTitle: 'Atividade grátis de classificação por categorias para crianças',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/portuguese/picture-sort/sample-3.jpeg',
+        answerKeySrc: '/samples/portuguese/picture-sort/sample-3.jpeg',
+        altText: 'Atividade para crianças de classificação - atividades grátis',
+        imageTitle: 'Atividade para crianças de classificação',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/portuguese/picture-sort/sample-4.jpeg',
+        answerKeySrc: '/samples/portuguese/picture-sort/sample-4.jpeg',
+        altText: 'Imprimíveis grátis de classificação para educação infantil',
+        imageTitle: 'Imprimíveis grátis de classificação para educação infantil',
+      },
+    ],
     
   },
 

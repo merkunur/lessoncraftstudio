@@ -96,7 +96,43 @@ Opret gratis skoleopgaver til print med dit abonnement. Ingen ekstra omkostninge
     noPdfLabel: 'Ingen PDF tilgængelig',
     freePdfCountLabel: '2 gratis downloads',
     ofLabel: 'af',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/danish/find-and-count/sample-1.jpeg',
+        answerKeySrc: '/samples/danish/find-and-count/sample-1.jpeg',
+        altText: 'Find og tæl gratis arbejdsark - tælleøvelser til børnehaveklassen',
+        imageTitle: 'Find og tæl gratis arbejdsark',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/danish/find-and-count/sample-2.jpeg',
+        answerKeySrc: '/samples/danish/find-and-count/sample-2.jpeg',
+        altText: 'Find og tæl gratis arbejdsark til børn - matematikopgaver til 1. klasse',
+        imageTitle: 'Find og tæl gratis arbejdsark til børn',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/danish/find-and-count/sample-3.jpeg',
+        answerKeySrc: '/samples/danish/find-and-count/sample-3.jpeg',
+        altText: 'Gratis printables find og tæl - arbejdsark til børnehaveklasse',
+        imageTitle: 'Gratis printables find og tæl',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/danish/find-and-count/sample-4.jpeg',
+        answerKeySrc: '/samples/danish/find-and-count/sample-4.jpeg',
+        altText: 'Arbejdsark til børn - find og tæl gratis opgaver til print',
+        imageTitle: 'Arbejdsark til børn',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/danish/find-and-count/sample-5.jpeg',
+        answerKeySrc: '/samples/danish/find-and-count/sample-5.jpeg',
+        altText: 'Gratis arbejdsark til børnehaveklasse - find og tæl matematikopgaver',
+        imageTitle: 'Gratis arbejdsark til børnehaveklasse',
+      },
+    ],
     
   },
 

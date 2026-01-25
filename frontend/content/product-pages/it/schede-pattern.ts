@@ -88,7 +88,22 @@ Scarica schede gratuite di alta qualità in formato PDF o JPEG. Ogni foglio di l
     badgeText: 'Stampabili Gratuiti',
     downloadingLabel: 'Scaricamento...',
     ofLabel: 'di',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/italian/pattern/sample-2.jpeg',
+        answerKeySrc: '/samples/italian/pattern/sample-2.jpeg',
+        altText: 'Schede gratuite pattern - stampabili gratuiti sequenza AAB',
+        imageTitle: 'Schede gratuite pattern',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/italian/pattern/sample-3.jpeg',
+        answerKeySrc: '/samples/italian/pattern/sample-3.jpeg',
+        altText: 'Scheda per bambini pattern - sequenza ABB classe prima gratuita',
+        imageTitle: 'Scheda per bambini pattern',
+      },
+    ],
     
   },
 

@@ -81,7 +81,43 @@ Kleurplaten zijn essentieel voor de ontwikkeling van jonge kinderen. Ze stimuler
     badgeText: 'Gratis Voorbeelden',
     downloadingLabel: 'Downloaden...',
     ofLabel: 'van',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/dutch/coloring/sample-1.jpeg',
+        answerKeySrc: '/samples/dutch/coloring/sample-1.jpeg',
+        altText: 'Gratis werkblad kleurplaat - werkblad voor kinderen met dierenthema',
+        imageTitle: 'Gratis werkblad kleurplaat',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/dutch/coloring/sample-2.jpeg',
+        answerKeySrc: '/samples/dutch/coloring/sample-2.jpeg',
+        altText: 'Gratis werkbladen kleurplaat - werkblad voor kleuters met fijne motoriek',
+        imageTitle: 'Gratis werkbladen kleurplaat',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/dutch/coloring/sample-3.jpeg',
+        answerKeySrc: '/samples/dutch/coloring/sample-3.jpeg',
+        altText: 'Gratis printables kleurplaat - oefenbladen gratis voor werkbladen groep 3',
+        imageTitle: 'Gratis printables kleurplaat',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/dutch/coloring/sample-4.jpeg',
+        answerKeySrc: '/samples/dutch/coloring/sample-4.jpeg',
+        altText: 'Werkblad voor kinderen kleurplaat - gratis werkblad met seizoensthema',
+        imageTitle: 'Werkblad voor kinderen kleurplaat',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/dutch/coloring/sample-5.jpeg',
+        answerKeySrc: '/samples/dutch/coloring/sample-5.jpeg',
+        altText: 'Gratis werkblad voor kinderen - kleurplaat voor fijne motoriek',
+        imageTitle: 'Gratis werkblad voor kinderen',
+      },
+    ],
     
   },
 

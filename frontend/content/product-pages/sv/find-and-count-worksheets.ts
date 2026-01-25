@@ -96,7 +96,43 @@ Grundpaketsprenumerationen kostar 144 dollar per år eller 15 dollar per månad.
     badgeText: 'Gratis Exempel',
     downloadingLabel: 'Laddar ner...',
     ofLabel: 'av',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/swedish/find-and-count/sample-1.jpeg',
+        answerKeySrc: '/samples/swedish/find-and-count/sample-1.jpeg',
+        altText: 'Gratis arbetsblad hitta och räkna för förskoleklass - matematik övningar med rutnät',
+        imageTitle: 'Gratis arbetsblad hitta och räkna för förskoleklass',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/swedish/find-and-count/sample-2.jpeg',
+        answerKeySrc: '/samples/swedish/find-and-count/sample-2.jpeg',
+        altText: 'Arbetsblad gratis hitta och räkna för barn - visuell räkneövning för lågstadiet',
+        imageTitle: 'Arbetsblad gratis hitta och räkna för barn',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/swedish/find-and-count/sample-3.jpeg',
+        answerKeySrc: '/samples/swedish/find-and-count/sample-3.jpeg',
+        altText: 'Gratis utskrifter hitta och räkna arbetsblad - siffror och tal för förskoleklass',
+        imageTitle: 'Gratis utskrifter hitta och räkna arbetsblad',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/swedish/find-and-count/sample-4.jpeg',
+        answerKeySrc: '/samples/swedish/find-and-count/sample-4.jpeg',
+        altText: 'Arbetsblad för barn hitta och räkna - finmotorik övningar med färgglada bilder',
+        imageTitle: 'Arbetsblad för barn hitta och räkna',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/swedish/find-and-count/sample-5.jpeg',
+        answerKeySrc: '/samples/swedish/find-and-count/sample-5.jpeg',
+        altText: 'Hitta och räkna matematik arbetsblad gratis - räkneträning för årskurs 1-3',
+        imageTitle: 'Hitta och räkna matematik arbetsblad gratis',
+      },
+    ],
     
   },
 

@@ -94,7 +94,29 @@ De grid match generator maakt werkbladen kleuters en werkbladen groep 3 met aanp
     badgeText: 'Gratis Voorbeelden',
     downloadingLabel: 'Downloaden...',
     ofLabel: 'van',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/dutch/grid-match/sample-1.jpeg',
+        answerKeySrc: '/samples/dutch/grid-match/sample-1.jpeg',
+        altText: 'Gratis werkblad raster-puzzel - visuele puzzel werkbladen voor kleuters en groep 3',
+        imageTitle: 'Gratis werkblad raster-puzzel',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/dutch/grid-match/sample-2.jpeg',
+        answerKeySrc: '/samples/dutch/grid-match/sample-2.jpeg',
+        altText: 'Gratis werkblad voor kinderen - raster-puzzel werkblad met visuele oefening',
+        imageTitle: 'Gratis werkblad voor kinderen',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/dutch/grid-match/sample-3.jpeg',
+        answerKeySrc: '/samples/dutch/grid-match/sample-3.jpeg',
+        altText: 'Werkblad voor kleuters - gratis printables raster-puzzel voor fijne motoriek',
+        imageTitle: 'Werkblad voor kleuters',
+      },
+    ],
     
   },
 

@@ -82,7 +82,43 @@ Adjust difficulty settings to create kindergarten worksheets for early learners 
     downloadLabel: 'Download Free Sample',
     worksheetLabel: 'Worksheet',
     answerKeyLabel: 'Answer Key',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/english/subtraction/sample-1.jpeg',
+        answerKeySrc: '/samples/english/subtraction/sample-1.jpeg',
+        altText: 'Free printable subtraction worksheets for kindergarten - cross-out counting math practice for kids',
+        imageTitle: 'Free printable subtraction worksheets for kindergarten',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/english/subtraction/sample-2.jpeg',
+        answerKeySrc: '/samples/english/subtraction/sample-2.jpeg',
+        altText: 'Subtraction worksheets with pictures - free printable image-number format for first grade',
+        imageTitle: 'Subtraction worksheets with pictures',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/english/subtraction/sample-3.jpeg',
+        answerKeySrc: '/samples/english/subtraction/sample-3.jpeg',
+        altText: 'Free printable subtraction worksheets - find the subtrahend math practice for kindergarten',
+        imageTitle: 'Free printable subtraction worksheets',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/english/subtraction/sample-4.jpeg',
+        answerKeySrc: '/samples/english/subtraction/sample-4.jpeg',
+        altText: 'Mixed mode subtraction worksheets - free math worksheet for kids with varied problem types',
+        imageTitle: 'Mixed mode subtraction worksheets',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/english/subtraction/sample-5.jpeg',
+        answerKeySrc: '/samples/english/subtraction/sample-5.jpeg',
+        altText: 'Kindergarten subtraction worksheets free printable - visual math practice worksheet',
+        imageTitle: 'Kindergarten subtraction worksheets free printable',
+      },
+    ],
     
   },
 

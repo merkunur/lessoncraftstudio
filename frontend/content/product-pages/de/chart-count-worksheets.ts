@@ -106,7 +106,43 @@ Unser Bilddiagramm Arbeitsblätter Generator erstellt zweiteilige Arbeitsblätte
     badgeText: 'Kostenlose Beispiele',
     downloadingLabel: 'Wird heruntergeladen...',
     ofLabel: 'von',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/german/chart-count/sample-1.jpeg',
+        answerKeySrc: '/samples/german/chart-count/sample-1.jpeg',
+        altText: 'Bilddiagramm Arbeitsblatt kostenlos - Mathe Arbeitsblätter für Vorschule und Grundschule zum Ausdrucken',
+        imageTitle: 'Bilddiagramm Arbeitsblatt kostenlos',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/german/chart-count/sample-2.jpeg',
+        answerKeySrc: '/samples/german/chart-count/sample-2.jpeg',
+        altText: 'Kostenloses Arbeitsblatt Bilddiagramm - Zählen lernen Vorschul-Arbeitsblätter mit bunten Bildern',
+        imageTitle: 'Kostenloses Arbeitsblatt Bilddiagramm',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/german/chart-count/sample-3.jpeg',
+        answerKeySrc: '/samples/german/chart-count/sample-3.jpeg',
+        altText: 'Bilddiagramm Mathe Arbeitsblätter Grundschule - Kostenlose Arbeitsblätter zum Rechnen lernen',
+        imageTitle: 'Bilddiagramm Mathe Arbeitsblätter Grundschule',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/german/chart-count/sample-4.jpeg',
+        answerKeySrc: '/samples/german/chart-count/sample-4.jpeg',
+        altText: 'Kostenloses Arbeitsblatt Bilddiagramm - Arbeitsblatt für Kinder Grundschule mit Zählübungen',
+        imageTitle: 'Kostenloses Arbeitsblatt Bilddiagramm',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/german/chart-count/sample-5.jpeg',
+        answerKeySrc: '/samples/german/chart-count/sample-5.jpeg',
+        altText: 'Kostenlose Druckvorlagen Bilddiagramm - Arbeitsblatt für Vorschule mit Diagrammkästchen',
+        imageTitle: 'Kostenlose Druckvorlagen Bilddiagramm',
+      },
+    ],
     
   },
 

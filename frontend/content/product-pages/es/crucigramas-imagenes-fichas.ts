@@ -90,7 +90,36 @@ Cada crucigrama incluye una hoja de respuestas con las soluciones. Perfecto para
     badgeText: 'Ejemplos Gratis',
     downloadingLabel: 'Descargando...',
     ofLabel: 'de',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/spanish/crossword/sample-1.jpeg',
+        answerKeySrc: '/samples/spanish/crossword/sample-1.jpeg',
+        altText: 'Crucigramas con imagenes ficha gratis - ejercicio de lectoescritura para preescolar',
+        imageTitle: 'Crucigramas con imagenes ficha gratis',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/spanish/crossword/sample-2.jpeg',
+        answerKeySrc: '/samples/spanish/crossword/sample-2.jpeg',
+        altText: 'Ficha de crucigrama para imprimir gratis - actividad de vocabulario para primaria',
+        imageTitle: 'Ficha de crucigrama para imprimir gratis',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/spanish/crossword/sample-3.jpeg',
+        answerKeySrc: '/samples/spanish/crossword/sample-3.jpeg',
+        altText: 'Crucigrama educativo ficha para ninos - practica de grafomotricidad infantil',
+        imageTitle: 'Crucigrama educativo ficha para ninos',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/spanish/crossword/sample-4.jpeg',
+        answerKeySrc: '/samples/spanish/crossword/sample-4.jpeg',
+        altText: 'Fichas gratis de crucigramas con imagenes - material educativo para preescolar',
+        imageTitle: 'Fichas gratis de crucigramas con imagenes',
+      },
+    ],
     
   },
 

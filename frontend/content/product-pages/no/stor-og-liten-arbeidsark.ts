@@ -96,7 +96,43 @@ Vår generator lager arbeidsark der barn ringer inn den største gjenstanden. El
     noPdfLabel: 'Ingen PDF tilgjengelig',
     freePdfCountLabel: '5 gratis nedlastinger',
     ofLabel: 'av',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/norwegian/big-small/sample-1.jpeg',
+        answerKeySrc: '/samples/norwegian/big-small/sample-1.jpeg',
+        altText: 'Gratis arbeidsark stor og liten for barnehage - størrelsessammenligning med matematikk oppgaver',
+        imageTitle: 'Gratis arbeidsark stor og liten for barnehage',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/norwegian/big-small/sample-2.jpeg',
+        answerKeySrc: '/samples/norwegian/big-small/sample-2.jpeg',
+        altText: 'Gratis arbeidsark for barn - stor liten middels sammenligning for 1. trinn',
+        imageTitle: 'Gratis arbeidsark for barn',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/norwegian/big-small/sample-3.jpeg',
+        answerKeySrc: '/samples/norwegian/big-small/sample-3.jpeg',
+        altText: 'Arbeidsark for 1. trinn gratis - størrelsesortering med finmotorikk øvelser',
+        imageTitle: 'Arbeidsark for 1. trinn gratis',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/norwegian/big-small/sample-4.jpeg',
+        answerKeySrc: '/samples/norwegian/big-small/sample-4.jpeg',
+        altText: 'Gratis utskrifter stor og liten arbeidsark - oppgavehefter barn med tall og telling',
+        imageTitle: 'Gratis utskrifter stor og liten arbeidsark',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/norwegian/big-small/sample-5.jpeg',
+        answerKeySrc: '/samples/norwegian/big-small/sample-5.jpeg',
+        altText: 'Arbeidsark for barn gratis - størrelsessammenligning arbeidsark nedlasting',
+        imageTitle: 'Arbeidsark for barn gratis',
+      },
+    ],
     
   },
 

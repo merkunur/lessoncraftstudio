@@ -104,7 +104,36 @@ La libreria di oltre 3000 immagini adatte ai bambini include temi per ogni mater
     badgeText: 'Stampabili Gratuiti',
     downloadingLabel: 'Scaricamento...',
     ofLabel: 'di',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/italian/cryptogram/sample-1.jpeg',
+        answerKeySrc: '/samples/italian/cryptogram/sample-1.jpeg',
+        altText: 'Scheda Gratuita Crittogramma - Stampabili Gratuiti Scuola Infanzia',
+        imageTitle: 'Scheda Gratuita Crittogramma',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/italian/cryptogram/sample-2.jpeg',
+        answerKeySrc: '/samples/italian/cryptogram/sample-2.jpeg',
+        altText: 'Schede Gratuite Crittogramma con Immagini per Bambini',
+        imageTitle: 'Schede Gratuite Crittogramma con Immagini per Bambini',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/italian/cryptogram/sample-3.jpeg',
+        answerKeySrc: '/samples/italian/cryptogram/sample-3.jpeg',
+        altText: 'Scheda Gratuita per Bambini - Crittogramma Alfabeto',
+        imageTitle: 'Scheda Gratuita per Bambini',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/italian/cryptogram/sample-5.jpeg',
+        answerKeySrc: '/samples/italian/cryptogram/sample-5.jpeg',
+        altText: 'Schede Didattiche Crittogramma - Stampabili Gratuiti per Bambini',
+        imageTitle: 'Schede Didattiche Crittogramma',
+      },
+    ],
     
   },
 

@@ -96,7 +96,43 @@ Rutenetttegning arbeidsark forbereder barn for koordinatsystemer i matematikk. P
     noPdfLabel: 'Ingen PDF tilgjengelig',
     freePdfCountLabel: '3 gratis nedlastinger',
     ofLabel: 'av',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/norwegian/draw-and-color/sample-1.jpeg',
+        answerKeySrc: '/samples/norwegian/draw-and-color/sample-1.jpeg',
+        altText: 'Rutenetttegning arbeidsark gratis for barn - finmotorikk øvelser barnehage',
+        imageTitle: 'Rutenetttegning arbeidsark gratis for barn',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/norwegian/draw-and-color/sample-2.jpeg',
+        answerKeySrc: '/samples/norwegian/draw-and-color/sample-2.jpeg',
+        altText: 'Gratis arbeidsark rutenetttegning - visuospatiale ferdigheter for 1. trinn',
+        imageTitle: 'Gratis arbeidsark rutenetttegning',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/norwegian/draw-and-color/sample-3.jpeg',
+        answerKeySrc: '/samples/norwegian/draw-and-color/sample-3.jpeg',
+        altText: 'Arbeidsark for barn rutenetttegning - symmetriøvelser gratis utskrifter',
+        imageTitle: 'Arbeidsark for barn rutenetttegning',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/norwegian/draw-and-color/sample-4.jpeg',
+        answerKeySrc: '/samples/norwegian/draw-and-color/sample-4.jpeg',
+        altText: 'Rutenetttegning gratis arbeidsark for barn - kopieringsøvelser småskole',
+        imageTitle: 'Rutenetttegning gratis arbeidsark for barn',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/norwegian/draw-and-color/sample-5.jpeg',
+        answerKeySrc: '/samples/norwegian/draw-and-color/sample-5.jpeg',
+        altText: 'Gratis arbeidsark rutenetttegning - finmotorikk arbeidsark for 1. trinn',
+        imageTitle: 'Gratis arbeidsark rutenetttegning',
+      },
+    ],
     
   },
 

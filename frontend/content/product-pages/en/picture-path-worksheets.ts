@@ -82,7 +82,43 @@ The picture path worksheet maker works perfectly for differentiated instruction 
     downloadLabel: 'Download Free Sample',
     worksheetLabel: 'Worksheet',
     answerKeyLabel: 'Answer Key',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/english/picture-path/sample-1.jpeg',
+        answerKeySrc: '/samples/english/picture-path/sample-1.jpeg',
+        altText: 'Free printable maze worksheets for kindergarten - picture path visual tracking activity with colorful images',
+        imageTitle: 'Free printable maze worksheets for kindergarten',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/english/picture-path/sample-2.jpeg',
+        answerKeySrc: '/samples/english/picture-path/sample-2.jpeg',
+        altText: 'Free worksheet for kids - classic maze with collectible counting for first grade math integration',
+        imageTitle: 'Free worksheet for kids',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/english/picture-path/sample-3.jpeg',
+        answerKeySrc: '/samples/english/picture-path/sample-3.jpeg',
+        altText: 'Free printables for kindergarten - choose the right path maze worksheet for critical thinking',
+        imageTitle: 'Free printables for kindergarten',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/english/picture-path/sample-4.jpeg',
+        answerKeySrc: '/samples/english/picture-path/sample-4.jpeg',
+        altText: 'Maze worksheets printable free - picture path activity for preschool visual tracking',
+        imageTitle: 'Maze worksheets printable free',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/english/picture-path/sample-5.jpeg',
+        answerKeySrc: '/samples/english/picture-path/sample-5.jpeg',
+        altText: 'Free maze printables for kids - picture path worksheet for kindergarten fine motor skills',
+        imageTitle: 'Free maze printables for kids',
+      },
+    ],
     
   },
 

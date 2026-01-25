@@ -82,7 +82,29 @@ Skriveopgaver kombinerer finmotorik øvelser med bogstavlæring. Hvert arbejdsar
     noPdfLabel: 'Ingen PDF tilgængelig',
     freePdfCountLabel: '3 gratis downloads',
     ofLabel: 'af',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/danish/writing/sample-1.jpeg',
+        answerKeySrc: '/samples/danish/writing/sample-1.jpeg',
+        altText: 'Gratis arbejdsark skriveopgaver - skrifttræning til børnehaveklasse',
+        imageTitle: 'Gratis arbejdsark skriveopgaver',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/danish/writing/sample-2.jpeg',
+        answerKeySrc: '/samples/danish/writing/sample-2.jpeg',
+        altText: 'Gratis arbejdsark skriveopgaver - lære bogstaver til 0. klasse',
+        imageTitle: 'Gratis arbejdsark skriveopgaver',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/danish/writing/sample-3.jpeg',
+        answerKeySrc: '/samples/danish/writing/sample-3.jpeg',
+        altText: 'Gratis arbejdsark til børn - skrifttræning finmotorik øvelser',
+        imageTitle: 'Gratis arbejdsark til børn',
+      },
+    ],
     
   },
 

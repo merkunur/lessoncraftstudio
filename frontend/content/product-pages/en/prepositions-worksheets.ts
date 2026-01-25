@@ -82,7 +82,43 @@ Perfect for kindergarten teachers and first grade educators who need quality pre
     downloadLabel: 'Download Free Sample',
     worksheetLabel: 'Worksheet',
     answerKeyLabel: 'Answer Key',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/english/prepositions/sample-1.jpeg',
+        answerKeySrc: '/samples/english/prepositions/sample-1.jpeg',
+        altText: 'Free prepositions worksheets for kindergarten - spatial concepts fill-in-the-blank activity',
+        imageTitle: 'Free prepositions worksheets for kindergarten',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/english/prepositions/sample-2.jpeg',
+        answerKeySrc: '/samples/english/prepositions/sample-2.jpeg',
+        altText: 'Prepositions multiple choice worksheet for first grade - in on under practice',
+        imageTitle: 'Prepositions multiple choice worksheet for first grade',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/english/prepositions/sample-3.jpeg',
+        answerKeySrc: '/samples/english/prepositions/sample-3.jpeg',
+        altText: 'Free printable prepositions worksheet - spatial vocabulary practice for kids',
+        imageTitle: 'Free printable prepositions worksheet',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/english/prepositions/sample-4.jpeg',
+        answerKeySrc: '/samples/english/prepositions/sample-4.jpeg',
+        altText: 'Kindergarten prepositions worksheet - position words learning activity',
+        imageTitle: 'Kindergarten prepositions worksheet',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/english/prepositions/sample-5.jpeg',
+        answerKeySrc: '/samples/english/prepositions/sample-5.jpeg',
+        altText: 'First grade spatial concepts worksheet - prepositions practice with pictures',
+        imageTitle: 'First grade spatial concepts worksheet',
+      },
+    ],
     
   },
 

@@ -106,7 +106,43 @@ Dieser Sudoku-Arbeitsblatt-Generator ist perfekt für Erzieher, Grundschullehrer
     badgeText: 'Kostenlose Beispiele',
     downloadingLabel: 'Wird heruntergeladen...',
     ofLabel: 'von',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/german/sudoku/sample-1.jpeg',
+        answerKeySrc: '/samples/german/sudoku/sample-1.jpeg',
+        altText: 'Kostenloses Kinder-Sudoku Arbeitsblatt Grundschule - 4x4 Bilder-Sudoku für Vorschule und Rechnen lernen',
+        imageTitle: 'Kostenloses Kinder-Sudoku Arbeitsblatt Grundschule',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/german/sudoku/sample-2.jpeg',
+        answerKeySrc: '/samples/german/sudoku/sample-2.jpeg',
+        altText: 'Sudoku Arbeitsblatt für Kinder - Kostenlose Vorschul-Arbeitsblätter mit Logik-Rätseln zum Ausdrucken',
+        imageTitle: 'Sudoku Arbeitsblatt für Kinder',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/german/sudoku/sample-3.jpeg',
+        answerKeySrc: '/samples/german/sudoku/sample-3.jpeg',
+        altText: 'Arbeitsblätter Grundschule Sudoku - Mathe-Arbeitsblätter für Rechnen 1. Klasse mit Bildern',
+        imageTitle: 'Arbeitsblätter Grundschule Sudoku',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/german/sudoku/sample-4.jpeg',
+        answerKeySrc: '/samples/german/sudoku/sample-4.jpeg',
+        altText: 'Kostenlose Arbeitsblätter Kinder-Sudoku - Vorschul-Arbeitsblätter für Buchstaben lernen und Logik',
+        imageTitle: 'Kostenlose Arbeitsblätter Kinder-Sudoku',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/german/sudoku/sample-5.jpeg',
+        answerKeySrc: '/samples/german/sudoku/sample-5.jpeg',
+        altText: 'Sudoku Druckvorlagen für Kinder - Einmaleins und Mathe-Arbeitsblätter mit Schwungübungen',
+        imageTitle: 'Sudoku Druckvorlagen für Kinder',
+      },
+    ],
     
   },
 

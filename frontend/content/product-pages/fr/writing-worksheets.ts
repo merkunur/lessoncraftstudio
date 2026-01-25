@@ -85,7 +85,29 @@ Générez des fiches d'écriture pour les lettres de l'alphabet, les mots ou le 
     badgeText: 'Exemples Gratuits',
     downloadingLabel: 'Téléchargement...',
     ofLabel: 'sur',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/french/writing/sample-1.jpeg',
+        answerKeySrc: '/samples/french/writing/sample-1.jpeg',
+        altText: 'Fiches écriture gratuites graphisme maternelle exercices CP pour apprendre à écrire',
+        imageTitle: 'Fiches écriture gratuites graphisme maternelle exercices CP pour apprendre à écrire',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/french/writing/sample-2.jpeg',
+        answerKeySrc: '/samples/french/writing/sample-2.jpeg',
+        altText: 'Fiches écriture personnalisées exercices CP graphisme maternelle fiches gratuites pour enfants',
+        imageTitle: 'Fiches écriture personnalisées exercices CP graphisme maternelle fiches gratuites pour enfants',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/french/writing/sample-3.jpeg',
+        answerKeySrc: '/samples/french/writing/sample-3.jpeg',
+        altText: 'Fiches alphabet gratuites lettres maternelle exercices CP pour apprendre les lettres',
+        imageTitle: 'Fiches alphabet gratuites lettres maternelle exercices CP pour apprendre les lettres',
+      },
+    ],
     
   },
 

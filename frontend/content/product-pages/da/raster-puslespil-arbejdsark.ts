@@ -96,7 +96,43 @@ Med Fuld Adgang kan du lave malebog aktiviteter kombineret med puslespil. Genera
     noPdfLabel: 'Ingen PDF tilgængelig',
     freePdfCountLabel: '5 gratis downloads',
     ofLabel: 'af',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/danish/grid-match/sample-1.jpeg',
+        answerKeySrc: '/samples/danish/grid-match/sample-1.jpeg',
+        altText: 'Gratis arbejdsark raster-puslespil - arbejdsark til børn med visuelle matchingopgaver til børnehaveklasse',
+        imageTitle: 'Gratis arbejdsark raster-puslespil',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/danish/grid-match/sample-2.jpeg',
+        answerKeySrc: '/samples/danish/grid-match/sample-2.jpeg',
+        altText: 'Raster-puslespil gratis printables - arbejdsark til børnehaveklasse med finmotorik øvelser',
+        imageTitle: 'Raster-puslespil gratis printables',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/danish/grid-match/sample-3.jpeg',
+        answerKeySrc: '/samples/danish/grid-match/sample-3.jpeg',
+        altText: 'Gratis arbejdsark til børn - raster-puslespil med visuel perception træning',
+        imageTitle: 'Gratis arbejdsark til børn',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/danish/grid-match/sample-4.jpeg',
+        answerKeySrc: '/samples/danish/grid-match/sample-4.jpeg',
+        altText: 'Arbejdsark til børnehaveklasse - gratis raster-puslespil med problemløsning',
+        imageTitle: 'Arbejdsark til børnehaveklasse',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/danish/grid-match/sample-5.jpeg',
+        answerKeySrc: '/samples/danish/grid-match/sample-5.jpeg',
+        altText: 'Gratis printables raster-puslespil - arbejdsark til børn med matching øvelser',
+        imageTitle: 'Gratis printables raster-puslespil',
+      },
+    ],
     
   },
 

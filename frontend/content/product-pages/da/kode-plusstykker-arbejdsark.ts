@@ -96,7 +96,43 @@ Fuld Adgang-abonnementet koster 1800 DKK om året eller 200 DKK om måneden. Dit
     noPdfLabel: 'Ingen PDF tilgængelig',
     freePdfCountLabel: '2 gratis downloads',
     ofLabel: 'af',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/danish/code-addition/sample-1.jpeg',
+        answerKeySrc: '/samples/danish/code-addition/sample-1.jpeg',
+        altText: 'Gratis arbejdsark til børn - kode-addition matematikopgave til børnehaveklasse',
+        imageTitle: 'Gratis arbejdsark til børn',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/danish/code-addition/sample-2.jpeg',
+        answerKeySrc: '/samples/danish/code-addition/sample-2.jpeg',
+        altText: 'Arbejdsark til børnehaveklasse - gratis printables med billedbaserede plusstykker',
+        imageTitle: 'Arbejdsark til børnehaveklasse',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/danish/code-addition/sample-3.jpeg',
+        answerKeySrc: '/samples/danish/code-addition/sample-3.jpeg',
+        altText: 'Gratis arbejdsark kode-addition - arbejdsark til børn med billeder til 0. klasse',
+        imageTitle: 'Gratis arbejdsark kode-addition',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/danish/code-addition/sample-4.jpeg',
+        answerKeySrc: '/samples/danish/code-addition/sample-4.jpeg',
+        altText: 'Arbejdsark til børn - kode-addition gratis printables matematikopgaver',
+        imageTitle: 'Arbejdsark til børn',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/danish/code-addition/sample-5.jpeg',
+        answerKeySrc: '/samples/danish/code-addition/sample-5.jpeg',
+        altText: 'Gratis printables kode-addition - arbejdsark til børnehaveklasse og 1. klasse',
+        imageTitle: 'Gratis printables kode-addition',
+      },
+    ],
     
   },
 

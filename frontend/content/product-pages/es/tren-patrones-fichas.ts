@@ -96,7 +96,43 @@ Las fichas infantil generadas incluyen clave de respuestas automática. Los maes
     badgeText: 'Ejemplos Gratis',
     downloadingLabel: 'Descargando...',
     ofLabel: 'de',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/spanish/pattern-train/sample-1.jpeg',
+        answerKeySrc: '/samples/spanish/pattern-train/sample-1.jpeg',
+        altText: 'Ficha de tren de patrones gratis para preescolar - ejercicio de secuencias AB',
+        imageTitle: 'Ficha de tren de patrones gratis para preescolar',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/spanish/pattern-train/sample-2.jpeg',
+        answerKeySrc: '/samples/spanish/pattern-train/sample-2.jpeg',
+        altText: 'Fichas de patrones para imprimir - práctica de secuencias AAB para educación infantil',
+        imageTitle: 'Fichas de patrones para imprimir',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/spanish/pattern-train/sample-3.jpeg',
+        answerKeySrc: '/samples/spanish/pattern-train/sample-3.jpeg',
+        altText: 'Material educativo gratis de patrones - fichas infantil con secuencias ABB',
+        imageTitle: 'Material educativo gratis de patrones',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/spanish/pattern-train/sample-4.jpeg',
+        answerKeySrc: '/samples/spanish/pattern-train/sample-4.jpeg',
+        altText: 'Ejercicios matemáticas de patrones ABC - fichas gratis para preescolar',
+        imageTitle: 'Ejercicios matemáticas de patrones ABC',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/spanish/pattern-train/sample-5.jpeg',
+        answerKeySrc: '/samples/spanish/pattern-train/sample-5.jpeg',
+        altText: 'Fichas preescolar de patrones AABB - tren de patrones para imprimir',
+        imageTitle: 'Fichas preescolar de patrones AABB',
+      },
+    ],
     
   },
 

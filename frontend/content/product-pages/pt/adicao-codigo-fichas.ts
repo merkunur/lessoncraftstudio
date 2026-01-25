@@ -89,7 +89,36 @@ Os professores adoram essas atividades para imprimir porque engajam os aprendize
     badgeText: 'Exemplos Grátis',
     downloadingLabel: 'Baixando...',
     ofLabel: 'de',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/portuguese/code-addition/sample-1.jpeg',
+        answerKeySrc: '/samples/portuguese/code-addition/sample-1.jpeg',
+        altText: 'Atividade gratis de codigo de imagens - exercicios de soma para educacao infantil',
+        imageTitle: 'Atividade gratis de codigo de imagens',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/portuguese/code-addition/sample-2.jpeg',
+        answerKeySrc: '/samples/portuguese/code-addition/sample-2.jpeg',
+        altText: 'Atividades gratis de codigo de soma para criancas - matematica visual',
+        imageTitle: 'Atividades gratis de codigo de soma para criancas',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/portuguese/code-addition/sample-3.jpeg',
+        answerKeySrc: '/samples/portuguese/code-addition/sample-3.jpeg',
+        altText: 'Imprimiveis gratis de matematica com codigo de imagens',
+        imageTitle: 'Imprimiveis gratis de matematica com codigo de imagens',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/portuguese/code-addition/sample-4.jpeg',
+        answerKeySrc: '/samples/portuguese/code-addition/sample-4.jpeg',
+        altText: 'Atividade para criancas com codigo de soma para educacao infantil',
+        imageTitle: 'Atividade para criancas com codigo de soma para educacao infantil',
+      },
+    ],
     
   },
 

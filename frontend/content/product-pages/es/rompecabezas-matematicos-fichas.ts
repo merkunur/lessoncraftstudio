@@ -90,7 +90,36 @@ Las fichas de matemáticas con rompecabezas funcionan excepcionalmente bien para
     badgeText: 'Ejemplos Gratis',
     downloadingLabel: 'Descargando...',
     ofLabel: 'de',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/spanish/math-puzzle/sample-1.jpeg',
+        answerKeySrc: '/samples/spanish/math-puzzle/sample-1.jpeg',
+        altText: 'Rompecabezas matemáticos ficha gratis - ejercicios de números para preescolar',
+        imageTitle: 'Rompecabezas matemáticos ficha gratis',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/spanish/math-puzzle/sample-2.jpeg',
+        answerKeySrc: '/samples/spanish/math-puzzle/sample-2.jpeg',
+        altText: 'Fichas de matemáticas para imprimir gratis - actividad de suma para primaria',
+        imageTitle: 'Fichas de matemáticas para imprimir gratis',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/spanish/math-puzzle/sample-3.jpeg',
+        answerKeySrc: '/samples/spanish/math-puzzle/sample-3.jpeg',
+        altText: 'Ejercicios matemáticas ficha para niños - práctica de números infantil',
+        imageTitle: 'Ejercicios matemáticas ficha para niños',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/spanish/math-puzzle/sample-4.jpeg',
+        answerKeySrc: '/samples/spanish/math-puzzle/sample-4.jpeg',
+        altText: 'Fichas gratis de rompecabezas matemáticos - material educativo para preescolar',
+        imageTitle: 'Fichas gratis de rompecabezas matemáticos',
+      },
+    ],
     
   },
 

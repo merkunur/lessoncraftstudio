@@ -97,7 +97,43 @@ Les enseignants de maternelle et de CP utilisent ces fiches de soustraction pour
     badgeText: 'Exemples Gratuits',
     downloadingLabel: 'Téléchargement...',
     ofLabel: 'sur',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/french/subtraction/sample-1.jpeg',
+        answerKeySrc: '/samples/french/subtraction/sample-1.jpeg',
+        altText: 'Fiches soustraction gratuites - exercices maths barrer des images pour maternelle',
+        imageTitle: 'Fiches soustraction gratuites',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/french/subtraction/sample-2.jpeg',
+        answerKeySrc: '/samples/french/subtraction/sample-2.jpeg',
+        altText: 'Fiche soustraction gratuite pour enfants - exercices CP image moins chiffre',
+        imageTitle: 'Fiche soustraction gratuite pour enfants',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/french/subtraction/sample-3.jpeg',
+        answerKeySrc: '/samples/french/subtraction/sample-3.jpeg',
+        altText: 'Fiches gratuites soustraction - exercices CE1 trouver le nombre soustrait',
+        imageTitle: 'Fiches gratuites soustraction',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/french/subtraction/sample-4.jpeg',
+        answerKeySrc: '/samples/french/subtraction/sample-4.jpeg',
+        altText: 'Fiche pour maternelle soustraction - exercices maths mixtes imprimables gratuits',
+        imageTitle: 'Fiche pour maternelle soustraction',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/french/subtraction/sample-5.jpeg',
+        answerKeySrc: '/samples/french/subtraction/sample-5.jpeg',
+        altText: 'Fiches soustraction à imprimer - exercices calcul visuel pour CP et CE1',
+        imageTitle: 'Fiches soustraction à imprimer',
+      },
+    ],
     
   },
 

@@ -94,7 +94,43 @@ Generatorn stöder elev material för alla åldrar. Använd den för att skapa m
     badgeText: 'Gratis Exempel',
     downloadingLabel: 'Laddar ner...',
     ofLabel: 'av',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/swedish/wordsearch/sample-1.jpeg',
+        answerKeySrc: '/samples/swedish/wordsearch/sample-1.jpeg',
+        altText: 'Ordletarpussel arbetsblad gratis för förskoleklass - svensk ordjaktsövning',
+        imageTitle: 'Ordletarpussel arbetsblad gratis för förskoleklass',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/swedish/wordsearch/sample-2.jpeg',
+        answerKeySrc: '/samples/swedish/wordsearch/sample-2.jpeg',
+        altText: 'Gratis ordletare arbetsblad för barn - ordförråd övning för lågstadiet',
+        imageTitle: 'Gratis ordletare arbetsblad för barn',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/swedish/wordsearch/sample-3.jpeg',
+        answerKeySrc: '/samples/swedish/wordsearch/sample-3.jpeg',
+        altText: 'Svenska ordletarpussel - gratis utskrifter för förskoleklass material',
+        imageTitle: 'Svenska ordletarpussel',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/swedish/wordsearch/sample-4.jpeg',
+        answerKeySrc: '/samples/swedish/wordsearch/sample-4.jpeg',
+        altText: 'Ordletare arbetsblad för barn gratis - finmotorik övningar på svenska',
+        imageTitle: 'Ordletare arbetsblad för barn gratis',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/swedish/wordsearch/sample-5.jpeg',
+        answerKeySrc: '/samples/swedish/wordsearch/sample-5.jpeg',
+        altText: 'Gratis arbetsblad ordjakts generator - förskoleklass och lågstadiet',
+        imageTitle: 'Gratis arbetsblad ordjakts generator',
+      },
+    ],
     
   },
 

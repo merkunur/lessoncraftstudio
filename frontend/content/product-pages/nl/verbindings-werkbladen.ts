@@ -96,7 +96,29 @@ Ontwerp werkbladen groep 3 die perfect aansluiten bij jouw lesmateriaal. Kies ui
     badgeText: 'Gratis Voorbeelden',
     downloadingLabel: 'Downloaden...',
     ofLabel: 'van',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/dutch/matching/sample-1.jpeg',
+        answerKeySrc: '/samples/dutch/matching/sample-1.jpeg',
+        altText: 'Gratis werkblad verbindingsopdracht - werkblad voor kinderen met afbeeldingen koppelen',
+        imageTitle: 'Gratis werkblad verbindingsopdracht',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/dutch/matching/sample-2.jpeg',
+        answerKeySrc: '/samples/dutch/matching/sample-2.jpeg',
+        altText: 'Gratis werkbladen verbindingspuzzel - werkblad voor kleuters letters leren',
+        imageTitle: 'Gratis werkbladen verbindingspuzzel',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/dutch/matching/sample-3.jpeg',
+        answerKeySrc: '/samples/dutch/matching/sample-3.jpeg',
+        altText: 'Gratis printables verbindingswerkblad - werkblad voor kinderen woordenschat',
+        imageTitle: 'Gratis printables verbindingswerkblad',
+      },
+    ],
     
   },
 

@@ -106,7 +106,43 @@ Bilderkreuzworträtsel machen das Lernen für Leseanfänger spannend. Schüler b
     badgeText: 'Kostenlose Beispiele',
     downloadingLabel: 'Wird heruntergeladen...',
     ofLabel: 'von',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/german/crossword/sample-1.jpeg',
+        answerKeySrc: '/samples/german/crossword/sample-1.jpeg',
+        altText: 'Bilderkreuzworträtsel Arbeitsblätter kostenlos - Buchstaben lernen Übungen für Arbeitsblätter Grundschule',
+        imageTitle: 'Bilderkreuzworträtsel Arbeitsblätter kostenlos',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/german/crossword/sample-2.jpeg',
+        answerKeySrc: '/samples/german/crossword/sample-2.jpeg',
+        altText: 'Kostenlose Arbeitsblätter Kreuzworträtsel - Vorschule Arbeitsblätter für Deutsch Arbeitsblätter',
+        imageTitle: 'Kostenlose Arbeitsblätter Kreuzworträtsel',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/german/crossword/sample-3.jpeg',
+        answerKeySrc: '/samples/german/crossword/sample-3.jpeg',
+        altText: 'Arbeitsblätter Grundschule Bilderkreuzworträtsel - Mathe Arbeitsblätter und Rechnen lernen',
+        imageTitle: 'Arbeitsblätter Grundschule Bilderkreuzworträtsel',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/german/crossword/sample-4.jpeg',
+        answerKeySrc: '/samples/german/crossword/sample-4.jpeg',
+        altText: 'Vorschule Arbeitsblätter Kreuzworträtsel - Kostenlose Druckvorlagen für Einmaleins und Schwungübungen',
+        imageTitle: 'Vorschule Arbeitsblätter Kreuzworträtsel',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/german/crossword/sample-5.jpeg',
+        answerKeySrc: '/samples/german/crossword/sample-5.jpeg',
+        altText: 'Kostenloses Arbeitsblatt Kreuzworträtsel - Deutsch Arbeitsblätter mit Ausmalbilder für Kinder',
+        imageTitle: 'Kostenloses Arbeitsblatt Kreuzworträtsel',
+      },
+    ],
     
   },
 

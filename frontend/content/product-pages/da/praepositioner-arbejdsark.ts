@@ -88,7 +88,36 @@ Fuld Adgang abonnementet koster $240 om året eller $25 om måneden. Dit abonnem
     noPdfLabel: 'Ingen PDF tilgængelig',
     freePdfCountLabel: '2 gratis downloads',
     ofLabel: 'af',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/danish/prepositions/sample-1.jpeg',
+        answerKeySrc: '/samples/danish/prepositions/sample-1.jpeg',
+        altText: 'Gratis præpositioner arbejdsark til print - rumlig læring opgave til børnehaveklasse',
+        imageTitle: 'Gratis præpositioner arbejdsark til print',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/danish/prepositions/sample-2.jpeg',
+        answerKeySrc: '/samples/danish/prepositions/sample-2.jpeg',
+        altText: 'Gratis arbejdsark med præpositioner til børn - sprogudvikling øvelse til 0. klasse',
+        imageTitle: 'Gratis arbejdsark med præpositioner til børn',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/danish/prepositions/sample-3.jpeg',
+        answerKeySrc: '/samples/danish/prepositions/sample-3.jpeg',
+        altText: 'Præpositions arbejdsark gratis til print - finmotorik øvelser til 1. klasse',
+        imageTitle: 'Præpositions arbejdsark gratis til print',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/danish/prepositions/sample-4.jpeg',
+        answerKeySrc: '/samples/danish/prepositions/sample-4.jpeg',
+        altText: 'Gratis præpositioner opgaver til print - arbejdsark til børnehaveklassen',
+        imageTitle: 'Gratis præpositioner opgaver til print',
+      },
+    ],
     
   },
 

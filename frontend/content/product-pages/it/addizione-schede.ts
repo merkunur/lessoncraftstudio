@@ -88,7 +88,29 @@ Ogni scheda didattica si scarica in formato PDF o JPEG di alta qualità. Perfett
     badgeText: 'Esempi Gratuiti',
     downloadingLabel: 'Scaricamento...',
     ofLabel: 'di',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/italian/addition/sample-1.jpeg',
+        answerKeySrc: '/samples/italian/addition/sample-1.jpeg',
+        altText: 'Scheda gratuita di addizioni per bambini - stampabili gratuiti matematica scuola infanzia',
+        imageTitle: 'Scheda gratuita di addizioni per bambini',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/italian/addition/sample-2.jpeg',
+        answerKeySrc: '/samples/italian/addition/sample-2.jpeg',
+        altText: 'Schede gratuite addizioni stampabili - scheda per bambini scuola primaria classe prima',
+        imageTitle: 'Schede gratuite addizioni stampabili',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/italian/addition/sample-3.jpeg',
+        answerKeySrc: '/samples/italian/addition/sample-3.jpeg',
+        altText: 'Scheda gratuita per bambini - esercizi addizioni con immagini stampabili gratuiti',
+        imageTitle: 'Scheda gratuita per bambini',
+      },
+    ],
     
   },
 

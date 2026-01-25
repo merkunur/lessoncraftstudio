@@ -94,7 +94,43 @@ Le créateur de coloriage fonctionne en 11 langues. Parfait pour les classes bil
     badgeText: 'Exemples Gratuits',
     downloadingLabel: 'Téléchargement...',
     ofLabel: 'sur',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/french/coloring/sample-1.jpeg',
+        answerKeySrc: '/samples/french/coloring/sample-1.jpeg',
+        altText: 'Coloriage à imprimer gratuit - fiche maternelle portrait avec scène thématique pour enfants',
+        imageTitle: 'Coloriage à imprimer gratuit',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/french/coloring/sample-2.jpeg',
+        answerKeySrc: '/samples/french/coloring/sample-2.jpeg',
+        altText: 'Fiches à imprimer gratuit - coloriage éducatif pour exercices CP et graphisme maternelle',
+        imageTitle: 'Fiches à imprimer gratuit',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/french/coloring/sample-3.jpeg',
+        answerKeySrc: '/samples/french/coloring/sample-3.jpeg',
+        altText: 'Coloriage enfant personnalisé - fiche maternelle avec images adaptées aux petits',
+        imageTitle: 'Coloriage enfant personnalisé',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/french/coloring/sample-4.jpeg',
+        answerKeySrc: '/samples/french/coloring/sample-4.jpeg',
+        altText: 'Générateur coloriage - fiches maternelle thématiques pour apprendre les lettres',
+        imageTitle: 'Générateur coloriage',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/french/coloring/sample-5.jpeg',
+        answerKeySrc: '/samples/french/coloring/sample-5.jpeg',
+        altText: 'Pages de coloriage imprimables - exercices CE1 et graphisme maternelle en PDF 300 DPI',
+        imageTitle: 'Pages de coloriage imprimables',
+      },
+    ],
     
   },
 

@@ -92,7 +92,36 @@ El generador crea de 1 a 10 ejercicios por hoja. Usa imágenes idénticas en dif
     badgeText: 'Ejemplos Gratis',
     downloadingLabel: 'Descargando...',
     ofLabel: 'de',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/spanish/big-small/sample-1.jpeg',
+        answerKeySrc: '/samples/spanish/big-small/sample-1.jpeg',
+        altText: 'Ficha de grande y pequeño para imprimir - comparación de tamaños fichas gratis preescolar',
+        imageTitle: 'Ficha de grande y pequeño para imprimir',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/spanish/big-small/sample-2.jpeg',
+        answerKeySrc: '/samples/spanish/big-small/sample-2.jpeg',
+        altText: 'Fichas gratis de grande y pequeño para niños - ejercicios visuales infantil',
+        imageTitle: 'Fichas gratis de grande y pequeño para niños',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/spanish/big-small/sample-3.jpeg',
+        answerKeySrc: '/samples/spanish/big-small/sample-3.jpeg',
+        altText: 'Fichas para imprimir comparación de tamaños - material educativo gratis',
+        imageTitle: 'Fichas para imprimir comparación de tamaños',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/spanish/big-small/sample-4.jpeg',
+        answerKeySrc: '/samples/spanish/big-small/sample-4.jpeg',
+        altText: 'Fichas infantil grande pequeño para imprimir - fichas gratis comparación',
+        imageTitle: 'Fichas infantil grande pequeño para imprimir',
+      },
+    ],
     
   },
 

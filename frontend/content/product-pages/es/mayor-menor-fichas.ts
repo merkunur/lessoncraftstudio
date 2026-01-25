@@ -100,7 +100,43 @@ Genera de 1 a 8 ejercicios por hoja según las necesidades de tu clase. Elige en
     badgeText: 'Ejemplos Gratis',
     downloadingLabel: 'Descargando...',
     ofLabel: 'de',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/spanish/more-less/sample-1.jpeg',
+        answerKeySrc: '/samples/spanish/more-less/sample-1.jpeg',
+        altText: 'Fichas de mayor menor gratis para imprimir - ejercicios de comparación numérica para preescolar',
+        imageTitle: 'Fichas de mayor menor gratis para imprimir',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/spanish/more-less/sample-2.jpeg',
+        answerKeySrc: '/samples/spanish/more-less/sample-2.jpeg',
+        altText: 'Fichas de mayor menor gratis para niños - ejercicios de matemáticas para educación infantil',
+        imageTitle: 'Fichas de mayor menor gratis para niños',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/spanish/more-less/sample-3.jpeg',
+        answerKeySrc: '/samples/spanish/more-less/sample-3.jpeg',
+        altText: 'Fichas gratis de comparación numérica - material educativo para imprimir',
+        imageTitle: 'Fichas gratis de comparación numérica',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/spanish/more-less/sample-4.jpeg',
+        answerKeySrc: '/samples/spanish/more-less/sample-4.jpeg',
+        altText: 'Imprimibles gratis de mayor menor igual - fichas de matemáticas para preescolar',
+        imageTitle: 'Imprimibles gratis de mayor menor igual',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/spanish/more-less/sample-5.jpeg',
+        answerKeySrc: '/samples/spanish/more-less/sample-5.jpeg',
+        altText: 'Fichas para niños de comparación numérica - ejercicios de números gratis para imprimir',
+        imageTitle: 'Fichas para niños de comparación numérica',
+      },
+    ],
     
   },
 

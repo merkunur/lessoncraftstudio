@@ -100,7 +100,36 @@ Met deze tool maak je werkbladen groep 3 in enkele minuten. De generator onderst
     badgeText: 'Gratis Voorbeelden',
     downloadingLabel: 'Downloaden...',
     ofLabel: 'van',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/dutch/math/sample-1.jpeg',
+        answerKeySrc: '/samples/dutch/math/sample-1.jpeg',
+        altText: 'Gratis werkblad rekenen - sommen tot 20 voor werkbladen groep 3',
+        imageTitle: 'Gratis werkblad rekenen',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/dutch/math/sample-2.jpeg',
+        answerKeySrc: '/samples/dutch/math/sample-2.jpeg',
+        altText: 'Gratis werkblad voor kinderen - rekenen werkbladen kleuters',
+        imageTitle: 'Gratis werkblad voor kinderen',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/dutch/math/sample-3.jpeg',
+        answerKeySrc: '/samples/dutch/math/sample-3.jpeg',
+        altText: 'Gratis werkbladen rekenen - oefenbladen gratis voor kleuters',
+        imageTitle: 'Gratis werkbladen rekenen',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/dutch/math/sample-4.jpeg',
+        answerKeySrc: '/samples/dutch/math/sample-4.jpeg',
+        altText: 'Werkblad voor kinderen - sommen tot 20 met afbeeldingen',
+        imageTitle: 'Werkblad voor kinderen',
+      },
+    ],
     
   },
 

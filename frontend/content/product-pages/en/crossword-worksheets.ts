@@ -84,7 +84,43 @@ Generate crossword puzzles in 11 languages including English, Spanish, French, G
     downloadLabel: 'Download Free Sample',
     worksheetLabel: 'Worksheet',
     answerKeyLabel: 'Answer Key',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/english/crossword/sample-1.jpeg',
+        answerKeySrc: '/samples/english/crossword/sample-1.jpeg',
+        altText: 'Free printable crossword worksheets for kids - picture crossword puzzle vocabulary worksheet for kindergarten spelling practice',
+        imageTitle: 'Free printable crossword worksheets for kids',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/english/crossword/sample-2.jpeg',
+        answerKeySrc: '/samples/english/crossword/sample-2.jpeg',
+        altText: 'Crossword puzzles for kindergarten - free worksheet for kids with word puzzle vocabulary worksheets for first grade',
+        imageTitle: 'Crossword puzzles for kindergarten',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/english/crossword/sample-3.jpeg',
+        answerKeySrc: '/samples/english/crossword/sample-3.jpeg',
+        altText: 'Vocabulary worksheets free printables - crossword for kids spelling worksheets for kindergarten word puzzle practice',
+        imageTitle: 'Vocabulary worksheets free printables',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/english/crossword/sample-4.jpeg',
+        answerKeySrc: '/samples/english/crossword/sample-4.jpeg',
+        altText: 'Spelling worksheets for kindergarten - free printables crossword puzzles with word puzzle worksheets for kids vocabulary practice',
+        imageTitle: 'Spelling worksheets for kindergarten',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/english/crossword/sample-5.jpeg',
+        answerKeySrc: '/samples/english/crossword/sample-5.jpeg',
+        altText: 'Word puzzle worksheets for first grade - crossword for kindergarten with vocabulary worksheets and free worksheet for kids spelling',
+        imageTitle: 'Word puzzle worksheets for first grade',
+      },
+    ],
     
   },
 

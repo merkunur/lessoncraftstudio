@@ -108,7 +108,43 @@ Ideal für Erzieherinnen in der Vorschule, Grundschullehrkräfte und Eltern im H
     badgeText: 'Kostenlose Beispiele',
     downloadingLabel: 'Wird heruntergeladen...',
     ofLabel: 'von',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/german/missing-pieces/sample-1.jpeg',
+        answerKeySrc: '/samples/german/missing-pieces/sample-1.jpeg',
+        altText: 'Fehlende Puzzleteile Arbeitsblätter Grundschule - kostenlose Druckvorlagen',
+        imageTitle: 'Fehlende Puzzleteile Arbeitsblätter Grundschule',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/german/missing-pieces/sample-2.jpeg',
+        answerKeySrc: '/samples/german/missing-pieces/sample-2.jpeg',
+        altText: 'Puzzle-Arbeitsblätter Vorschule - visuelle Wahrnehmung für Kinder',
+        imageTitle: 'Puzzle-Arbeitsblätter Vorschule',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/german/missing-pieces/sample-3.jpeg',
+        answerKeySrc: '/samples/german/missing-pieces/sample-3.jpeg',
+        altText: 'Kostenlose Arbeitsblätter fehlende Teile - Mathe Arbeitsblätter visuelles Denken',
+        imageTitle: 'Kostenlose Arbeitsblätter fehlende Teile',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/german/missing-pieces/sample-4.jpeg',
+        answerKeySrc: '/samples/german/missing-pieces/sample-4.jpeg',
+        altText: 'Vorschule Arbeitsblätter Puzzle-Generator - räumliches Denken fördern',
+        imageTitle: 'Vorschule Arbeitsblätter Puzzle-Generator',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/german/missing-pieces/sample-5.jpeg',
+        answerKeySrc: '/samples/german/missing-pieces/sample-5.jpeg',
+        altText: 'Fehlende Puzzleteile Arbeitsblätter PDF - Problemlösung für Grundschule',
+        imageTitle: 'Fehlende Puzzleteile Arbeitsblätter PDF',
+      },
+    ],
     
   },
 

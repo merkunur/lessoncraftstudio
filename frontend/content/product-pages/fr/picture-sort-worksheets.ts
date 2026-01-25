@@ -92,7 +92,15 @@ Notre générateur s'adresse aux enseignants de maternelle GS, CP et CE1. Les fi
     badgeText: 'Exemples Gratuits',
     downloadingLabel: 'Téléchargement...',
     ofLabel: 'sur',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/french/picture-sort/sample-4.jpeg',
+        answerKeySrc: '/samples/french/picture-sort/sample-4.jpeg',
+        altText: 'Fiches gratuites classification images - exercices CE1 et coloriage à imprimer',
+        imageTitle: 'Fiches gratuites classification images',
+      },
+    ],
     
   },
 

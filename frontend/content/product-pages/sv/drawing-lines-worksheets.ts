@@ -96,7 +96,43 @@ Med Grundpaketet-prenumeration på 1 800 SEK per år får du tillgång till 10 p
     badgeText: 'Gratis Exempel',
     downloadingLabel: 'Laddar ner...',
     ofLabel: 'av',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/swedish/drawing-lines/sample-1.jpeg',
+        answerKeySrc: '/samples/swedish/drawing-lines/sample-1.jpeg',
+        altText: 'Gratis arbetsblad finmotorik övningar för förskoleklass - rita linjer mellan matchande bilder',
+        imageTitle: 'Gratis arbetsblad finmotorik övningar för förskoleklass',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/swedish/drawing-lines/sample-2.jpeg',
+        answerKeySrc: '/samples/swedish/drawing-lines/sample-2.jpeg',
+        altText: 'Arbetsblad för barn rita linjer - hand-öga-koordination träning för lågstadiet',
+        imageTitle: 'Arbetsblad för barn rita linjer',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/swedish/drawing-lines/sample-3.jpeg',
+        answerKeySrc: '/samples/swedish/drawing-lines/sample-3.jpeg',
+        altText: 'Gratis utskrifter rita linjer arbetsblad - penngrepp övningar för förskoleklass',
+        imageTitle: 'Gratis utskrifter rita linjer arbetsblad',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/swedish/drawing-lines/sample-4.jpeg',
+        answerKeySrc: '/samples/swedish/drawing-lines/sample-4.jpeg',
+        altText: 'Arbetsblad för förskoleklass finmotorik - diagonala linjer övningar',
+        imageTitle: 'Arbetsblad för förskoleklass finmotorik',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/swedish/drawing-lines/sample-5.jpeg',
+        answerKeySrc: '/samples/swedish/drawing-lines/sample-5.jpeg',
+        altText: 'Gratis arbetsblad för barn rita linjer - vertikala och horisontella linjer träning',
+        imageTitle: 'Gratis arbetsblad för barn rita linjer',
+      },
+    ],
     
   },
 

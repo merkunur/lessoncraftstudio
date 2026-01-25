@@ -99,7 +99,43 @@ Votre abonnement Accès Complet inclut une licence commerciale pour vendre vos f
     badgeText: 'Exemples Gratuits',
     downloadingLabel: 'Téléchargement...',
     ofLabel: 'sur',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/french/word-guess/sample-1.jpeg',
+        answerKeySrc: '/samples/french/word-guess/sample-1.jpeg',
+        altText: 'Fiche deviner les mots gratuite avec indices visuels pour maternelle',
+        imageTitle: 'Fiche deviner les mots gratuite avec indices visuels pour maternelle',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/french/word-guess/sample-2.jpeg',
+        answerKeySrc: '/samples/french/word-guess/sample-2.jpeg',
+        altText: 'Fiche deviner les mots gratuite niveau facile pour exercices CP',
+        imageTitle: 'Fiche deviner les mots gratuite niveau facile pour exercices CP',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/french/word-guess/sample-3.jpeg',
+        answerKeySrc: '/samples/french/word-guess/sample-3.jpeg',
+        altText: 'Fiche deviner les mots à imprimer gratuit vocabulaire pour enfants',
+        imageTitle: 'Fiche deviner les mots à imprimer gratuit vocabulaire pour enfants',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/french/word-guess/sample-4.jpeg',
+        answerKeySrc: '/samples/french/word-guess/sample-4.jpeg',
+        altText: 'Fiches gratuites deviner les mots thème animaux maternelle',
+        imageTitle: 'Fiches gratuites deviner les mots thème animaux maternelle',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/french/word-guess/sample-5.jpeg',
+        answerKeySrc: '/samples/french/word-guess/sample-5.jpeg',
+        altText: 'Fiche gratuite deviner les mots orthographe exercices CE1',
+        imageTitle: 'Fiche gratuite deviner les mots orthographe exercices CE1',
+      },
+    ],
     
   },
 

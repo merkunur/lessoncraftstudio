@@ -106,7 +106,43 @@ Sie wählen Schwierigkeitsstufen von sehr leicht bis schwer. Der Generator passt
     badgeText: 'Kostenlose Beispiele',
     downloadingLabel: 'Wird heruntergeladen...',
     ofLabel: 'von',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/german/math/sample-1.jpeg',
+        answerKeySrc: '/samples/german/math/sample-1.jpeg',
+        altText: 'Kostenlose Mathe-Arbeitsblätter Grundschule - Mathe-Rätsel mit Symbolen für Rechnen lernen',
+        imageTitle: 'Kostenlose Mathe-Arbeitsblätter Grundschule',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/german/math/sample-2.jpeg',
+        answerKeySrc: '/samples/german/math/sample-2.jpeg',
+        altText: 'Mathe-Arbeitsblätter Querformat - Visuelle Rechenaufgaben für Vorschul-Arbeitsblätter',
+        imageTitle: 'Mathe-Arbeitsblätter Querformat',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/german/math/sample-3.jpeg',
+        answerKeySrc: '/samples/german/math/sample-3.jpeg',
+        altText: 'Arbeitsblätter Grundschule Mathematik - Rechnen 1. Klasse mit Bildsymbolen',
+        imageTitle: 'Arbeitsblätter Grundschule Mathematik',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/german/math/sample-4.jpeg',
+        answerKeySrc: '/samples/german/math/sample-4.jpeg',
+        altText: 'Arbeitsblätter Grundschule Mathe-Rätsel - Rechnen 1. Klasse mit Symbolen und Gleichungen',
+        imageTitle: 'Arbeitsblätter Grundschule Mathe-Rätsel',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/german/math/sample-5.jpeg',
+        answerKeySrc: '/samples/german/math/sample-5.jpeg',
+        altText: 'Kostenlose Arbeitsblätter Mathematik Grundschule - Mathe-Arbeitsblätter zum Ausdrucken',
+        imageTitle: 'Kostenlose Arbeitsblätter Mathematik Grundschule',
+      },
+    ],
     
   },
 

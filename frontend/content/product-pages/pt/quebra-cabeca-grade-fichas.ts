@@ -82,7 +82,29 @@ O Grid Match transforma qualquer imagem em um desafio pedagógico envolvente. Um
     badgeText: 'Exemplos Grátis',
     downloadingLabel: 'Baixando...',
     ofLabel: 'de',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/portuguese/grid-match/sample-1.jpeg',
+        answerKeySrc: '/samples/portuguese/grid-match/sample-1.jpeg',
+        altText: 'Atividade gratis de quebra-cabeca grid match - coordenacao motora para educacao infantil',
+        imageTitle: 'Atividade gratis de quebra-cabeca grid match',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/portuguese/grid-match/sample-2.jpeg',
+        answerKeySrc: '/samples/portuguese/grid-match/sample-2.jpeg',
+        altText: 'Atividades gratis de grid match para criancas - percepcao visual e raciocinio espacial',
+        imageTitle: 'Atividades gratis de grid match para criancas',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/portuguese/grid-match/sample-3.jpeg',
+        answerKeySrc: '/samples/portuguese/grid-match/sample-3.jpeg',
+        altText: 'Imprimiveis gratis de quebra-cabeca visual para atividade para educacao infantil',
+        imageTitle: 'Imprimiveis gratis de quebra-cabeca visual para atividade para educacao infantil',
+      },
+    ],
     
   },
 

@@ -92,7 +92,29 @@ L'abbonamento Accesso Completo include licenza commerciale per la vendita di sta
     badgeText: 'Esempi Gratuiti',
     downloadingLabel: 'Scaricamento...',
     ofLabel: 'di',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/italian/missing-pieces/sample-2.jpeg',
+        answerKeySrc: '/samples/italian/missing-pieces/sample-2.jpeg',
+        altText: 'Schede gratuite puzzle visivo - scheda per bambini discriminazione visiva',
+        imageTitle: 'Schede gratuite puzzle visivo',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/italian/missing-pieces/sample-3.jpeg',
+        answerKeySrc: '/samples/italian/missing-pieces/sample-3.jpeg',
+        altText: 'Stampabili gratuiti pezzi mancanti - scheda gratuita per scuola primaria',
+        imageTitle: 'Stampabili gratuiti pezzi mancanti',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/italian/missing-pieces/sample-4.jpeg',
+        answerKeySrc: '/samples/italian/missing-pieces/sample-4.jpeg',
+        altText: 'Scheda per bambini puzzle visivo - schede gratuite attività cognitiva',
+        imageTitle: 'Scheda per bambini puzzle visivo',
+      },
+    ],
     
   },
 

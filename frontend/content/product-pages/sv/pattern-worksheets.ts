@@ -98,7 +98,43 @@ Vår generator erbjuder 9 olika mönstertyper från enkla AB-mönster till avanc
     badgeText: 'Gratis Exempel',
     downloadingLabel: 'Laddar ner...',
     ofLabel: 'av',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/swedish/pattern/sample-1.jpeg',
+        answerKeySrc: '/samples/swedish/pattern/sample-1.jpeg',
+        altText: 'Gratis arbetsblad mönster - mönsterigenkänning arbetsblad för förskoleklass och barn',
+        imageTitle: 'Gratis arbetsblad mönster',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/swedish/pattern/sample-2.jpeg',
+        answerKeySrc: '/samples/swedish/pattern/sample-2.jpeg',
+        altText: 'Gratis arbetsblad för barn - mönsterigenkänning övningar med bilder',
+        imageTitle: 'Gratis arbetsblad för barn',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/swedish/pattern/sample-3.jpeg',
+        answerKeySrc: '/samples/swedish/pattern/sample-3.jpeg',
+        altText: 'Gratis utskrifter mönster - arbetsblad för förskoleklass matematik',
+        imageTitle: 'Gratis utskrifter mönster',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/swedish/pattern/sample-4.jpeg',
+        answerKeySrc: '/samples/swedish/pattern/sample-4.jpeg',
+        altText: 'Arbetsblad för barn gratis - mönsterigenkänning logiskt tänkande',
+        imageTitle: 'Arbetsblad för barn gratis',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/swedish/pattern/sample-5.jpeg',
+        answerKeySrc: '/samples/swedish/pattern/sample-5.jpeg',
+        altText: 'Gratis arbetsblad för förskoleklass - mönster sekvenser och problemlösning',
+        imageTitle: 'Gratis arbetsblad för förskoleklass',
+      },
+    ],
     
   },
 

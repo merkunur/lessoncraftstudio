@@ -21,6 +21,10 @@ interface DynamicSample {
   hasPreview: boolean;
   hasPdf: boolean;
   pdfPath?: string;
+  // SEO metadata from database (returned by API)
+  altText?: string;
+  title?: string;
+  description?: string;
 }
 
 // Locale to language folder mapping for dynamic mode
@@ -151,7 +155,7 @@ function normalizeFilename(path: string): string {
 }
 
 // Convert dynamic samples to the Sample interface for consistent rendering
-// Uses SEO-optimized alt text from propSamples if available, falling back to generic text
+// SEO Priority: 1) Database (from API) → 2) Content file (propSamples) → 3) Generic fallback
 // FILENAME-BASED LOOKUP: Matches samples by filename, not array index
 function convertDynamicSamples(
   dynamicSamples: DynamicSample[],
@@ -162,14 +166,14 @@ function convertDynamicSamples(
   // Cache buster ensures fresh images are loaded after uploads via the content manager
   const cacheBuster = `?v=${Date.now()}`;
 
-  // Build a lookup map by normalized filename for SEO metadata
+  // Build a lookup map by normalized filename for SEO metadata from content files
   // This allows samples uploaded via content manager (sample-1.jpeg, etc.)
   // to match SEO entries regardless of their position in the filesystem listing
-  const seoMap = new Map<string, { altText: string; imageTitle?: string }>();
+  const contentSeoMap = new Map<string, { altText: string; imageTitle?: string }>();
   if (propSamples) {
     for (const sample of propSamples) {
       const filename = normalizeFilename(sample.worksheetSrc);
-      seoMap.set(filename, {
+      contentSeoMap.set(filename, {
         altText: sample.altText,
         imageTitle: sample.imageTitle,
       });
@@ -179,7 +183,11 @@ function convertDynamicSamples(
   return dynamicSamples.map((s, index) => {
     // Filename-based SEO lookup: match by actual filename, not array position
     const filename = normalizeFilename(s.worksheetPath);
-    const seo = seoMap.get(filename);
+    const contentSeo = contentSeoMap.get(filename);
+
+    // Priority: API database SEO → Content file SEO → Generic fallback
+    const altText = s.altText || contentSeo?.altText || `Sample worksheet ${index + 1}`;
+    const imageTitle = s.title || contentSeo?.imageTitle;
 
     return {
       id: `sample-${index + 1}`,
@@ -187,8 +195,8 @@ function convertDynamicSamples(
       answerKeySrc: s.answerKeyPath
         ? `${s.answerKeyPath}${cacheBuster}`
         : `${s.worksheetPath}${cacheBuster}`,
-      altText: seo?.altText || `Sample worksheet ${index + 1}`,
-      imageTitle: seo?.imageTitle,
+      altText,
+      imageTitle,
       pdfDownloadUrl: s.hasPdf ? s.pdfPath : undefined,
     };
   });

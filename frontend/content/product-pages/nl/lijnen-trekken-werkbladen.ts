@@ -117,7 +117,43 @@ De fijne motoriek die nodig is voor schrijven ontwikkelt zich geleidelijk. Recht
     badgeText: 'Gratis Voorbeelden',
     downloadingLabel: 'Downloaden...',
     ofLabel: 'van',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/dutch/drawing-lines/sample-1.jpeg',
+        answerKeySrc: '/samples/dutch/drawing-lines/sample-1.jpeg',
+        altText: 'Gratis werkblad lijnen trekken - werkblad voor kinderen met gebogen lijnen voor fijne motoriek',
+        imageTitle: 'Gratis werkblad lijnen trekken',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/dutch/drawing-lines/sample-2.jpeg',
+        answerKeySrc: '/samples/dutch/drawing-lines/sample-2.jpeg',
+        altText: 'Gratis werkbladen lijnen trekken - werkblad voor kleuters met diagonale lijnen oefeningen',
+        imageTitle: 'Gratis werkbladen lijnen trekken',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/dutch/drawing-lines/sample-3.jpeg',
+        answerKeySrc: '/samples/dutch/drawing-lines/sample-3.jpeg',
+        altText: 'Gratis printables lijnen trekken - werkblad schrijven oefenen met horizontale lijnen',
+        imageTitle: 'Gratis printables lijnen trekken',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/dutch/drawing-lines/sample-4.jpeg',
+        answerKeySrc: '/samples/dutch/drawing-lines/sample-4.jpeg',
+        altText: 'Gratis werkblad voor kinderen - lijnen trekken verticale lijnen fijne motoriek training',
+        imageTitle: 'Gratis werkblad voor kinderen',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/dutch/drawing-lines/sample-5.jpeg',
+        answerKeySrc: '/samples/dutch/drawing-lines/sample-5.jpeg',
+        altText: 'Werkblad voor kleuters lijnen trekken - gratis werkblad letters leren voorbereiding',
+        imageTitle: 'Werkblad voor kleuters lijnen trekken',
+      },
+    ],
     
   },
 

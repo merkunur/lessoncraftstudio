@@ -99,7 +99,43 @@ Générez votre premier mot croisé en images en 3 clics. Choisissez un thème o
     badgeText: 'Exemples Gratuits',
     downloadingLabel: 'Téléchargement...',
     ofLabel: 'sur',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/french/crossword/sample-1.jpeg',
+        answerKeySrc: '/samples/french/crossword/sample-1.jpeg',
+        altText: 'Mots croisés en images fiches gratuites - exercices vocabulaire pour maternelle et CP',
+        imageTitle: 'Mots croisés en images fiches gratuites',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/french/crossword/sample-2.jpeg',
+        answerKeySrc: '/samples/french/crossword/sample-2.jpeg',
+        altText: 'Fiches mots croisés à imprimer gratuit - apprendre les lettres pour enfants',
+        imageTitle: 'Fiches mots croisés à imprimer gratuit',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/french/crossword/sample-3.jpeg',
+        answerKeySrc: '/samples/french/crossword/sample-3.jpeg',
+        altText: 'Mots croisés vocabulaire fiches maternelle - exercices CP graphisme',
+        imageTitle: 'Mots croisés vocabulaire fiches maternelle',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/french/crossword/sample-4.jpeg',
+        answerKeySrc: '/samples/french/crossword/sample-4.jpeg',
+        altText: 'Fiches alphabet mots croisés images - apprendre à lire pour maternelle',
+        imageTitle: 'Fiches alphabet mots croisés images',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/french/crossword/sample-5.jpeg',
+        answerKeySrc: '/samples/french/crossword/sample-5.jpeg',
+        altText: 'Mots croisés en images exercices CP - fiches à imprimer gratuit pour enfants',
+        imageTitle: 'Mots croisés en images exercices CP',
+      },
+    ],
     
   },
 

@@ -106,7 +106,43 @@ Unser kostenloser Additions-Generator bietet über 3000 kindgerechte Bilder für
     badgeText: 'Kostenlose Beispiele',
     downloadingLabel: 'Wird heruntergeladen...',
     ofLabel: 'von',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/german/addition/sample-1.jpeg',
+        answerKeySrc: '/samples/german/addition/sample-1.jpeg',
+        altText: 'Kostenlose Additions-Arbeitsblätter für Vorschule - Mathe-Arbeitsblätter mit Bildrechnen für Rechnen lernen',
+        imageTitle: 'Kostenlose Additions-Arbeitsblätter für Vorschule',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/german/addition/sample-2.jpeg',
+        answerKeySrc: '/samples/german/addition/sample-2.jpeg',
+        altText: 'Arbeitsblätter Grundschule Addition - Kostenlose Arbeitsblätter mit Lösungsblatt für 1. Klasse',
+        imageTitle: 'Arbeitsblätter Grundschule Addition',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/german/addition/sample-3.jpeg',
+        answerKeySrc: '/samples/german/addition/sample-3.jpeg',
+        altText: 'Vorschul-Arbeitsblätter Mathe - Kostenlose Druckvorlagen für Rechnen lernen mit Bildern',
+        imageTitle: 'Vorschul-Arbeitsblätter Mathe',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/german/addition/sample-4.jpeg',
+        answerKeySrc: '/samples/german/addition/sample-4.jpeg',
+        altText: 'Arbeitsblatt für Kinder Addition - Kostenlose Druckvorlagen für Rechnen 1. Klasse',
+        imageTitle: 'Arbeitsblatt für Kinder Addition',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/german/addition/sample-5.jpeg',
+        answerKeySrc: '/samples/german/addition/sample-5.jpeg',
+        altText: 'Kostenloses Arbeitsblatt für Vorschule - Bildbasierte Additions-Übungen für Kinder',
+        imageTitle: 'Kostenloses Arbeitsblatt für Vorschule',
+      },
+    ],
     
   },
 

@@ -109,7 +109,43 @@ Unsere Bildbibliothek umfasst über 3000 Bilder. Alle Bilder sind kindgerecht un
     badgeText: 'Kostenlose Beispiele',
     downloadingLabel: 'Wird heruntergeladen...',
     ofLabel: 'von',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/german/code-addition/sample-1.jpeg',
+        answerKeySrc: '/samples/german/code-addition/sample-1.jpeg',
+        altText: 'Bilder-Additions-Arbeitsblatt kostenlos - Mathe-Arbeitsblätter für Grundschule zum Ausdrucken',
+        imageTitle: 'Bilder-Additions-Arbeitsblatt kostenlos',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/german/code-addition/sample-2.jpeg',
+        answerKeySrc: '/samples/german/code-addition/sample-2.jpeg',
+        altText: 'Kostenlose Arbeitsblätter Bilder-Addition - Rechnen lernen mit Bildern für Vorschule',
+        imageTitle: 'Kostenlose Arbeitsblätter Bilder-Addition',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/german/code-addition/sample-3.jpeg',
+        answerKeySrc: '/samples/german/code-addition/sample-3.jpeg',
+        altText: 'Bilder-Additions-Generator Arbeitsblatt - Arbeitsblätter Grundschule Mathematik',
+        imageTitle: 'Bilder-Additions-Generator Arbeitsblatt',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/german/code-addition/sample-4.jpeg',
+        answerKeySrc: '/samples/german/code-addition/sample-4.jpeg',
+        altText: 'Bilder-Additions-Arbeitsblatt - Rechnen lernen Arbeitsblätter Grundschule zum Ausdrucken',
+        imageTitle: 'Bilder-Additions-Arbeitsblatt',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/german/code-addition/sample-5.jpeg',
+        answerKeySrc: '/samples/german/code-addition/sample-5.jpeg',
+        altText: 'Mathe-Arbeitsblätter Bilder-Addition - Kostenlose Arbeitsblätter für Vorschule und 1. Klasse',
+        imageTitle: 'Mathe-Arbeitsblätter Bilder-Addition',
+      },
+    ],
     
   },
 

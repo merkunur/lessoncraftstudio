@@ -90,7 +90,36 @@ Exportera i 300 DPI professionell kvalitet. Perfekt för klassrumsbruk och förs
     badgeText: 'Gratis Exempel',
     downloadingLabel: 'Laddar ner...',
     ofLabel: 'av',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/swedish/subtraction/sample-1.jpeg',
+        answerKeySrc: '/samples/swedish/subtraction/sample-1.jpeg',
+        altText: 'Subtraktionsarbetsblad gratis arbetsblad för barn - matematik övningar för förskoleklass',
+        imageTitle: 'Subtraktionsarbetsblad gratis arbetsblad för barn',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/swedish/subtraction/sample-2.jpeg',
+        answerKeySrc: '/samples/swedish/subtraction/sample-2.jpeg',
+        altText: 'Gratis arbetsblad subtraktion - matte övningar med bilder för barn',
+        imageTitle: 'Gratis arbetsblad subtraktion',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/swedish/subtraction/sample-3.jpeg',
+        answerKeySrc: '/samples/swedish/subtraction/sample-3.jpeg',
+        altText: 'Arbetsblad för förskoleklass subtraktion - gratis utskrifter matematik',
+        imageTitle: 'Arbetsblad för förskoleklass subtraktion',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/swedish/subtraction/sample-4.jpeg',
+        answerKeySrc: '/samples/swedish/subtraction/sample-4.jpeg',
+        altText: 'Arbetsblad för barn subtraktion - gratis matematik arbetsblad',
+        imageTitle: 'Arbetsblad för barn subtraktion',
+      },
+    ],
     
   },
 

@@ -112,7 +112,43 @@ Das Vollzugriff Abonnement kostet 240 Euro pro Jahr oder 25 Euro monatlich. Es u
     badgeText: 'Kostenlose Beispiele',
     downloadingLabel: 'Wird heruntergeladen...',
     ofLabel: 'von',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/german/picture-path/sample-1.jpeg',
+        answerKeySrc: '/samples/german/picture-path/sample-1.jpeg',
+        altText: 'Bilderpfad Arbeitsblatt - Kostenlose Arbeitsblätter für Arbeitsblätter Grundschule',
+        imageTitle: 'Bilderpfad Arbeitsblatt',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/german/picture-path/sample-2.jpeg',
+        answerKeySrc: '/samples/german/picture-path/sample-2.jpeg',
+        altText: 'Klassisches Labyrinth Arbeitsblatt - Mathe Arbeitsblätter für Vorschule',
+        imageTitle: 'Klassisches Labyrinth Arbeitsblatt',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/german/picture-path/sample-3.jpeg',
+        answerKeySrc: '/samples/german/picture-path/sample-3.jpeg',
+        altText: 'Wähle den richtigen Weg Arbeitsblatt - Kostenlose Arbeitsblätter zum Ausdrucken',
+        imageTitle: 'Wähle den richtigen Weg Arbeitsblatt',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/german/picture-path/sample-4.jpeg',
+        answerKeySrc: '/samples/german/picture-path/sample-4.jpeg',
+        altText: 'Bilderpfad Labyrinth für Einmaleins - Vorschule Arbeitsblätter',
+        imageTitle: 'Bilderpfad Labyrinth für Einmaleins',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/german/picture-path/sample-5.jpeg',
+        answerKeySrc: '/samples/german/picture-path/sample-5.jpeg',
+        altText: 'Labyrinth Arbeitsblatt für Kinder - Deutsch Arbeitsblätter und Schwungübungen',
+        imageTitle: 'Labyrinth Arbeitsblatt für Kinder',
+      },
+    ],
     
   },
 

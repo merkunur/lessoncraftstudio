@@ -76,7 +76,22 @@ Full Tilgang-abonnement gir deg tilgang til alle 33 arbeidsarkgeneratorer inklud
     noPdfLabel: 'Ingen PDF tilgjengelig',
     freePdfCountLabel: '3 gratis nedlastinger',
     ofLabel: 'av',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/norwegian/grid match/sample-1.jpeg',
+        answerKeySrc: '/samples/norwegian/grid match/sample-1.jpeg',
+        altText: 'Rutenetttilpasning arbeidsark gratis - visuell matching gåte for barn og småskoletrinnet',
+        imageTitle: 'Rutenetttilpasning arbeidsark gratis',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/norwegian/grid match/sample-2.jpeg',
+        answerKeySrc: '/samples/norwegian/grid match/sample-2.jpeg',
+        altText: 'Gratis arbeidsark for barn - rutenetttilpasning landskapsformat for romlig resonnering',
+        imageTitle: 'Gratis arbeidsark for barn',
+      },
+    ],
     
   },
 

@@ -90,7 +90,36 @@ El generador funciona en 11 idiomas con más de 3000 imágenes infantiles. Selec
     badgeText: 'Ejemplos',
     downloadingLabel: 'Descargando',
     ofLabel: 'de',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/spanish/code-addition/sample-1.jpeg',
+        answerKeySrc: '/samples/spanish/code-addition/sample-1.jpeg',
+        altText: 'Fichas de matemáticas con código fichas gratis para imprimir - ejercicios suma para preescolar',
+        imageTitle: 'Fichas de matemáticas con código fichas gratis para imprimir',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/spanish/code-addition/sample-2.jpeg',
+        answerKeySrc: '/samples/spanish/code-addition/sample-2.jpeg',
+        altText: 'Suma con código de imágenes fichas infantil - material educativo gratis para primer grado',
+        imageTitle: 'Suma con código de imágenes fichas infantil',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/spanish/code-addition/sample-3.jpeg',
+        answerKeySrc: '/samples/spanish/code-addition/sample-3.jpeg',
+        altText: 'Fichas para imprimir código de suma - fichas preescolar con ejercicios matemáticas visuales',
+        imageTitle: 'Fichas para imprimir código de suma',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/spanish/code-addition/sample-4.jpeg',
+        answerKeySrc: '/samples/spanish/code-addition/sample-4.jpeg',
+        altText: 'Código de suma fichas gratis - material educativo para aprender los números con imágenes',
+        imageTitle: 'Código de suma fichas gratis',
+      },
+    ],
     
   },
 

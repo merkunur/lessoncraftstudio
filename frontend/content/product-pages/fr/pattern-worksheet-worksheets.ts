@@ -96,7 +96,43 @@ Les fiches de séquences développent la reconnaissance de motifs dès la petite
     badgeText: 'Exemples Gratuits',
     downloadingLabel: 'Téléchargement...',
     ofLabel: 'sur',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/french/pattern/sample-1.jpeg',
+        answerKeySrc: '/samples/french/pattern/sample-1.jpeg',
+        altText: 'Fiches de séquences logiques gratuites - exercices maths pour maternelle et CP',
+        imageTitle: 'Fiches de séquences logiques gratuites',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/french/pattern/sample-2.jpeg',
+        answerKeySrc: '/samples/french/pattern/sample-2.jpeg',
+        altText: 'Fiches maternelle séquences logiques - fiches à imprimer gratuit pour enfants',
+        imageTitle: 'Fiches maternelle séquences logiques',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/french/pattern/sample-3.jpeg',
+        answerKeySrc: '/samples/french/pattern/sample-3.jpeg',
+        altText: 'Exercices CP séquences logiques - fiche gratuite pour maternelle et CP',
+        imageTitle: 'Exercices CP séquences logiques',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/french/pattern/sample-4.jpeg',
+        answerKeySrc: '/samples/french/pattern/sample-4.jpeg',
+        altText: 'Fiche gratuite séquences logiques - exercice maternelle reconnaissance de motifs',
+        imageTitle: 'Fiche gratuite séquences logiques',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/french/pattern/sample-5.jpeg',
+        answerKeySrc: '/samples/french/pattern/sample-5.jpeg',
+        altText: 'Fiches pour enfants séquences logiques - fiche maternelle à imprimer gratuit',
+        imageTitle: 'Fiches pour enfants séquences logiques',
+      },
+    ],
     
   },
 

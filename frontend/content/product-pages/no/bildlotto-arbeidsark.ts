@@ -88,7 +88,36 @@ Vår generator gjør det enkelt. Velg størrelse på rutenettet fra 3x3 til 5x5.
     noPdfLabel: 'Ingen PDF tilgjengelig',
     freePdfCountLabel: '3 gratis nedlastinger',
     ofLabel: 'av',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/norwegian/bingo/sample-1.jpeg',
+        answerKeySrc: '/samples/norwegian/bingo/sample-1.jpeg',
+        altText: 'Gratis bildlotto arbeidsark for barnehage - bildlottokort med bilder for visuell laering',
+        imageTitle: 'Gratis bildlotto arbeidsark for barnehage',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/norwegian/bingo/sample-2.jpeg',
+        answerKeySrc: '/samples/norwegian/bingo/sample-2.jpeg',
+        altText: 'Gratis arbeidsark for barn - bildlotto med ord og bilder for lesetrening',
+        imageTitle: 'Gratis arbeidsark for barn',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/norwegian/bingo/sample-3.jpeg',
+        answerKeySrc: '/samples/norwegian/bingo/sample-3.jpeg',
+        altText: 'Arbeidsark for 1. trinn - bildlotto med tall og telling aktiviteter',
+        imageTitle: 'Arbeidsark for 1. trinn',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/norwegian/bingo/sample-4.jpeg',
+        answerKeySrc: '/samples/norwegian/bingo/sample-4.jpeg',
+        altText: 'Gratis utskrifter bildlotto - arbeidsark for barn med tematiske bilder',
+        imageTitle: 'Gratis utskrifter bildlotto',
+      },
+    ],
     
   },
 

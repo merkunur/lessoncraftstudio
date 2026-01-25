@@ -110,7 +110,43 @@ Maak 1 tot 10 woordraadsels per werkblad. Elk raadsel schaalt automatisch voor p
     badgeText: 'Gratis Voorbeelden',
     downloadingLabel: 'Downloaden...',
     ofLabel: 'van',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/dutch/word-guess/sample-1.jpeg',
+        answerKeySrc: '/samples/dutch/word-guess/sample-1.jpeg',
+        altText: 'Woordraadsel gratis werkblad - werkblad voor kinderen met woordpuzzels voor groep 3',
+        imageTitle: 'Woordraadsel gratis werkblad',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/dutch/word-guess/sample-2.jpeg',
+        answerKeySrc: '/samples/dutch/word-guess/sample-2.jpeg',
+        altText: 'Woordraadsel werkblad voor kleuters - gratis werkbladen met letters leren oefeningen',
+        imageTitle: 'Woordraadsel werkblad voor kleuters',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/dutch/word-guess/sample-3.jpeg',
+        answerKeySrc: '/samples/dutch/word-guess/sample-3.jpeg',
+        altText: 'Gratis werkblad woordraadsel - werkblad voor kinderen met schrijven oefenen',
+        imageTitle: 'Gratis werkblad woordraadsel',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/dutch/word-guess/sample-4.jpeg',
+        answerKeySrc: '/samples/dutch/word-guess/sample-4.jpeg',
+        altText: 'Woordraadsel gratis printables - werkblad voor kleuters met fijne motoriek',
+        imageTitle: 'Woordraadsel gratis printables',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/dutch/word-guess/sample-5.jpeg',
+        answerKeySrc: '/samples/dutch/word-guess/sample-5.jpeg',
+        altText: 'Gratis werkbladen woordraadsel - werkblad voor kinderen groep 1 2',
+        imageTitle: 'Gratis werkbladen woordraadsel',
+      },
+    ],
     
   },
 

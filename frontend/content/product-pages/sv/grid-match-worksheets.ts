@@ -96,7 +96,43 @@ Rutnätsmatching-arbetsblad fungerar utmärkt som finmotorik övningar för för
     badgeText: 'Gratis Exempel',
     downloadingLabel: 'Laddar ner...',
     ofLabel: 'av',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/swedish/grid-match/sample-1.jpeg',
+        answerKeySrc: '/samples/swedish/grid-match/sample-1.jpeg',
+        altText: 'Rutnätsmatching arbetsblad gratis för förskoleklass - visuell matchning finmotorik övningar',
+        imageTitle: 'Rutnätsmatching arbetsblad gratis för förskoleklass',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/swedish/grid-match/sample-2.jpeg',
+        answerKeySrc: '/samples/swedish/grid-match/sample-2.jpeg',
+        altText: 'Gratis arbetsblad rutnätsmatching för barn - matematik arbetsblad matte övningar',
+        imageTitle: 'Gratis arbetsblad rutnätsmatching för barn',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/swedish/grid-match/sample-3.jpeg',
+        answerKeySrc: '/samples/swedish/grid-match/sample-3.jpeg',
+        altText: 'Rutnätsmatching förskoleklass material - arbetsblad gratis visuell diskriminering',
+        imageTitle: 'Rutnätsmatching förskoleklass material',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/swedish/grid-match/sample-4.jpeg',
+        answerKeySrc: '/samples/swedish/grid-match/sample-4.jpeg',
+        altText: 'Arbetsblad för barn rutnätsmatching - spatial medvetenhet finmotorik övningar',
+        imageTitle: 'Arbetsblad för barn rutnätsmatching',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/swedish/grid-match/sample-5.jpeg',
+        answerKeySrc: '/samples/swedish/grid-match/sample-5.jpeg',
+        altText: 'Rutnätsmatching arbetsblad för förskoleklass - gratis arbetsblad matte övningar',
+        imageTitle: 'Rutnätsmatching arbetsblad för förskoleklass',
+      },
+    ],
     
   },
 

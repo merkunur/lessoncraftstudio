@@ -106,7 +106,43 @@ Rekenen met plaatjes maakt abstract tellen concreet. Kinderen zien drie appels p
     badgeText: 'Gratis Voorbeelden',
     downloadingLabel: 'Downloaden...',
     ofLabel: 'van',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/dutch/addition/sample-1.jpeg',
+        answerKeySrc: '/samples/dutch/addition/sample-1.jpeg',
+        altText: 'Gratis werkblad optellen - rekenen werkbladen voor werkbladen groep 3',
+        imageTitle: 'Gratis werkblad optellen',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/dutch/addition/sample-2.jpeg',
+        answerKeySrc: '/samples/dutch/addition/sample-2.jpeg',
+        altText: 'Gratis werkbladen voor kinderen - optelwerkblad met plaatjes en sommen tot 20',
+        imageTitle: 'Gratis werkbladen voor kinderen',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/dutch/addition/sample-3.jpeg',
+        answerKeySrc: '/samples/dutch/addition/sample-3.jpeg',
+        altText: 'Gratis printables optellen - werkblad voor kleuters met afbeeldingen',
+        imageTitle: 'Gratis printables optellen',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/dutch/addition/sample-4.jpeg',
+        answerKeySrc: '/samples/dutch/addition/sample-4.jpeg',
+        altText: 'Werkblad voor kinderen optellen - oefenbladen gratis kwaliteit',
+        imageTitle: 'Werkblad voor kinderen optellen',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/dutch/addition/sample-5.jpeg',
+        answerKeySrc: '/samples/dutch/addition/sample-5.jpeg',
+        altText: 'Gratis werkblad voor kinderen - rekenen werkbladen groep 3',
+        imageTitle: 'Gratis werkblad voor kinderen',
+      },
+    ],
     
   },
 

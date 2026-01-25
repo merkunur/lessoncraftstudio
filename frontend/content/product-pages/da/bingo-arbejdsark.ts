@@ -88,7 +88,36 @@ Bingo gratis arbejdsark styrker mange vigtige færdigheder hos børn. Billedgenk
     noPdfLabel: 'Ingen PDF tilgængelig',
     freePdfCountLabel: '3 gratis downloads',
     ofLabel: 'af',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/danish/bingo/sample-1.jpeg',
+        answerKeySrc: '/samples/danish/bingo/sample-1.jpeg',
+        altText: 'Bingo gratis arbejdsark - billedbingo arbejdsark til børn for børnehaveklasse',
+        imageTitle: 'Bingo gratis arbejdsark',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/danish/bingo/sample-2.jpeg',
+        answerKeySrc: '/samples/danish/bingo/sample-2.jpeg',
+        altText: 'Bingo arbejdsark til børnehaveklasse - gratis printables med farverige billeder',
+        imageTitle: 'Bingo arbejdsark til børnehaveklasse',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/danish/bingo/sample-3.jpeg',
+        answerKeySrc: '/samples/danish/bingo/sample-3.jpeg',
+        altText: 'Gratis arbejdsark bingo - arbejdsark til børn med ord og billeder til 0. klasse',
+        imageTitle: 'Gratis arbejdsark bingo',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/danish/bingo/sample-4.jpeg',
+        answerKeySrc: '/samples/danish/bingo/sample-4.jpeg',
+        altText: 'Arbejdsark til børnehaveklasse - bingo gratis printables med tematiske billeder',
+        imageTitle: 'Arbejdsark til børnehaveklasse',
+      },
+    ],
     
   },
 

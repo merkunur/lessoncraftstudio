@@ -94,7 +94,29 @@ Notre générateur de bingo illustré crée deux fiches à imprimer à chaque g�
     badgeText: 'Exemples Gratuits',
     downloadingLabel: 'Téléchargement...',
     ofLabel: 'sur',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/french/bingo/sample-2.jpeg',
+        answerKeySrc: '/samples/french/bingo/sample-2.jpeg',
+        altText: 'Fiche gratuite pour enfants - bingo images thématique pour exercices CP CE1',
+        imageTitle: 'Fiche gratuite pour enfants',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/french/bingo/sample-3.jpeg',
+        answerKeySrc: '/samples/french/bingo/sample-3.jpeg',
+        altText: 'Fiches gratuites de bingo - cartes bingo pour fiches maternelle et graphisme',
+        imageTitle: 'Fiches gratuites de bingo',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/french/bingo/sample-5.jpeg',
+        answerKeySrc: '/samples/french/bingo/sample-5.jpeg',
+        altText: 'Imprimables gratuits de bingo - fiches à imprimer gratuit pour exercices maths',
+        imageTitle: 'Imprimables gratuits de bingo',
+      },
+    ],
     
   },
 

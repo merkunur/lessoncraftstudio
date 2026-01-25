@@ -104,7 +104,36 @@ Volledige Toegang abonnement kost €240 per jaar of €25 per maand. Onbeperkt 
     badgeText: 'Gratis Voorbeelden',
     downloadingLabel: 'Downloaden...',
     ofLabel: 'van',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/dutch/crossword/sample-1.jpeg',
+        answerKeySrc: '/samples/dutch/crossword/sample-1.jpeg',
+        altText: 'Gratis werkblad kruiswoordpuzzel - werkbladen groep 3 voor letters leren',
+        imageTitle: 'Gratis werkblad kruiswoordpuzzel',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/dutch/crossword/sample-2.jpeg',
+        answerKeySrc: '/samples/dutch/crossword/sample-2.jpeg',
+        altText: 'Gratis werkbladen kruiswoordpuzzel - werkblad voor kleuters met afbeeldingen',
+        imageTitle: 'Gratis werkbladen kruiswoordpuzzel',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/dutch/crossword/sample-3.jpeg',
+        answerKeySrc: '/samples/dutch/crossword/sample-3.jpeg',
+        altText: 'Werkblad voor kinderen - kruiswoordpuzzel met plaatjes voor groep 1 2',
+        imageTitle: 'Werkblad voor kinderen',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/dutch/crossword/sample-4.jpeg',
+        answerKeySrc: '/samples/dutch/crossword/sample-4.jpeg',
+        altText: 'Gratis printables kruiswoordpuzzel - oefenbladen voor veilig leren lezen',
+        imageTitle: 'Gratis printables kruiswoordpuzzel',
+      },
+    ],
     
   },
 

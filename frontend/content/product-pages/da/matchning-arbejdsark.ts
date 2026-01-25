@@ -84,7 +84,29 @@ Udvid dine opgaver med farvelægning og skriv bogstaver aktiviteter. Kombiner ma
     noPdfLabel: 'Ingen PDF tilgængelig',
     freePdfCountLabel: '3 gratis downloads',
     ofLabel: 'af',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/danish/matching/sample-1.jpeg',
+        answerKeySrc: '/samples/danish/matching/sample-1.jpeg',
+        altText: 'Matchningsopgave arbejdsark - gratis skoleopgaver til børnehaveklassen',
+        imageTitle: 'Matchningsopgave arbejdsark',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/danish/matching/sample-2.jpeg',
+        answerKeySrc: '/samples/danish/matching/sample-2.jpeg',
+        altText: 'Billede og ord matchning - arbejdsark til 0. klasse og 1. klasse',
+        imageTitle: 'Billede og ord matchning',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/danish/matching/sample-3.jpeg',
+        answerKeySrc: '/samples/danish/matching/sample-3.jpeg',
+        altText: 'Tilpasset matchningsopgave - gratis arbejdsark til børn',
+        imageTitle: 'Tilpasset matchningsopgave',
+      },
+    ],
     
   },
 

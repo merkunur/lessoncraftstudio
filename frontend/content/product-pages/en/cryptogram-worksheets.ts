@@ -80,7 +80,43 @@ Our cryptogram worksheet generator creates custom puzzles in 11 languages. Uploa
     downloadLabel: 'Download Free Sample',
     worksheetLabel: 'Worksheet',
     answerKeyLabel: 'Answer Key',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/english/cryptogram/sample-1.jpeg',
+        answerKeySrc: '/samples/english/cryptogram/sample-1.jpeg',
+        altText: 'Free printable cryptogram worksheets for kids - picture code puzzle vocabulary worksheet for kindergarten alphabet practice',
+        imageTitle: 'Free printable cryptogram worksheets for kids',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/english/cryptogram/sample-2.jpeg',
+        answerKeySrc: '/samples/english/cryptogram/sample-2.jpeg',
+        altText: 'Cryptogram puzzle worksheets for kindergarten - free worksheet for kids with picture codes for first grade spelling',
+        imageTitle: 'Cryptogram puzzle worksheets for kindergarten',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/english/cryptogram/sample-3.jpeg',
+        answerKeySrc: '/samples/english/cryptogram/sample-3.jpeg',
+        altText: 'Picture cryptogram free printables - puzzle worksheets with alphabet codes for kindergarten phonics practice',
+        imageTitle: 'Picture cryptogram free printables',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/english/cryptogram/sample-4.jpeg',
+        answerKeySrc: '/samples/english/cryptogram/sample-4.jpeg',
+        altText: 'Cryptogram worksheets for kindergarten - free worksheet for kids with picture code puzzles for alphabet practice',
+        imageTitle: 'Cryptogram worksheets for kindergarten',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/english/cryptogram/sample-5.jpeg',
+        answerKeySrc: '/samples/english/cryptogram/sample-5.jpeg',
+        altText: 'Free printables cryptogram puzzle worksheets - worksheet for kids with picture codes for first grade phonics',
+        imageTitle: 'Free printables cryptogram puzzle worksheets',
+      },
+    ],
     
   },
 

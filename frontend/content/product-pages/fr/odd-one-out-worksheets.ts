@@ -98,7 +98,43 @@ Créez des fiches personnalisées avec plus de 3000 images thématiques. Choisis
     badgeText: 'Exemples Gratuits',
     downloadingLabel: 'Téléchargement...',
     ofLabel: 'sur',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/french/odd-one-out/sample-1.jpeg',
+        answerKeySrc: '/samples/french/odd-one-out/sample-1.jpeg',
+        altText: 'Fiche intrus gratuite à imprimer - exercice observation maternelle avec correction',
+        imageTitle: 'Fiche intrus gratuite à imprimer',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/french/odd-one-out/sample-2.jpeg',
+        answerKeySrc: '/samples/french/odd-one-out/sample-2.jpeg',
+        altText: 'Fiches maternelle intrus gratuites - activité logique pour enfants CP CE1',
+        imageTitle: 'Fiches maternelle intrus gratuites',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/french/odd-one-out/sample-3.jpeg',
+        answerKeySrc: '/samples/french/odd-one-out/sample-3.jpeg',
+        altText: 'Exercices CP intrus fiches gratuites - discrimination visuelle pour maternelle',
+        imageTitle: 'Exercices CP intrus fiches gratuites',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/french/odd-one-out/sample-4.jpeg',
+        answerKeySrc: '/samples/french/odd-one-out/sample-4.jpeg',
+        altText: 'Fiche gratuite intrus pour enfants - exercice logique maternelle à imprimer',
+        imageTitle: 'Fiche gratuite intrus pour enfants',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/french/odd-one-out/sample-5.jpeg',
+        answerKeySrc: '/samples/french/odd-one-out/sample-5.jpeg',
+        altText: 'Fiches à imprimer gratuit intrus - exercices observation CP maternelle',
+        imageTitle: 'Fiches à imprimer gratuit intrus',
+      },
+    ],
     
   },
 

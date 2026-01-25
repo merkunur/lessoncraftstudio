@@ -90,7 +90,36 @@ Full Tilgang-abonnementet koster $240 per år eller $25 per måned. Du får tilg
     noPdfLabel: 'Ingen PDF tilgjengelig',
     freePdfCountLabel: '4 gratis nedlastinger',
     ofLabel: 'av',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/norwegian/code-addition/sample-1.jpeg',
+        answerKeySrc: '/samples/norwegian/code-addition/sample-1.jpeg',
+        altText: 'Gratis arbeidsark bildeaddisjon - matematikk oppgaver med tall og telling for barnehage',
+        imageTitle: 'Gratis arbeidsark bildeaddisjon',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/norwegian/code-addition/sample-2.jpeg',
+        answerKeySrc: '/samples/norwegian/code-addition/sample-2.jpeg',
+        altText: 'Bildeaddisjonsoppgaver arbeidsark gratis - addisjon og subtraksjon for 1. trinn',
+        imageTitle: 'Bildeaddisjonsoppgaver arbeidsark gratis',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/norwegian/code-addition/sample-3.jpeg',
+        answerKeySrc: '/samples/norwegian/code-addition/sample-3.jpeg',
+        altText: 'Matematikk oppgaver gratis arbeidsark - oppgavehefter barn for smaskoletrinnet',
+        imageTitle: 'Matematikk oppgaver gratis arbeidsark',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/norwegian/code-addition/sample-4.jpeg',
+        answerKeySrc: '/samples/norwegian/code-addition/sample-4.jpeg',
+        altText: 'Arbeidsark for barn tall og telling - gratis utskrifter bildeaddisjon barnehage',
+        imageTitle: 'Arbeidsark for barn tall og telling',
+      },
+    ],
     
   },
 

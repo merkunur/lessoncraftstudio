@@ -68,7 +68,29 @@ Generate tracing worksheets for letters, words, names, or custom text. Your Full
     downloadLabel: 'Download Free Sample',
     worksheetLabel: 'Worksheet',
     answerKeyLabel: 'Answer Key',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/english/writing/sample-1.jpeg',
+        answerKeySrc: '/samples/english/writing/sample-1.jpeg',
+        altText: 'Free printable letter tracing worksheet with guided writing lines for kindergarten handwriting practice',
+        imageTitle: 'Free printable letter tracing worksheet with guided writing lines for kindergarten handwriting practice',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/english/writing/sample-2.jpeg',
+        answerKeySrc: '/samples/english/writing/sample-2.jpeg',
+        altText: 'Custom text tracing worksheet for first grade handwriting and sight words practice',
+        imageTitle: 'Custom text tracing worksheet for first grade handwriting and sight words practice',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/english/writing/sample-3.jpeg',
+        answerKeySrc: '/samples/english/writing/sample-3.jpeg',
+        altText: 'Beginning letter tracing worksheet with image prompts for alphabet learning and phonics',
+        imageTitle: 'Beginning letter tracing worksheet with image prompts for alphabet learning and phonics',
+      },
+    ],
     
   },
 

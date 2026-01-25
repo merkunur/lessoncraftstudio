@@ -82,7 +82,29 @@ O gerador de atividades para imprimir inclui cinco estilos de fonte diferentes. 
     badgeText: 'Exemplos Grátis',
     downloadingLabel: 'Baixando...',
     ofLabel: 'de',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/portuguese/writing/sample-1.jpeg',
+        answerKeySrc: '/samples/portuguese/writing/sample-1.jpeg',
+        altText: 'Atividade gratis de caligrafia - atividade para educacao infantil com letra cursiva',
+        imageTitle: 'Atividade gratis de caligrafia',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/portuguese/writing/sample-2.jpeg',
+        answerKeySrc: '/samples/portuguese/writing/sample-2.jpeg',
+        altText: 'Atividades gratis de caligrafia - atividade gratis para criancas com pontilhado',
+        imageTitle: 'Atividades gratis de caligrafia',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/portuguese/writing/sample-3.jpeg',
+        answerKeySrc: '/samples/portuguese/writing/sample-3.jpeg',
+        altText: 'Atividade para criancas de caligrafia - imprimiveis gratis de alfabetizacao',
+        imageTitle: 'Atividade para criancas de caligrafia',
+      },
+    ],
     
   },
 

@@ -88,7 +88,36 @@ O sudoku infantil usa grade 4x4 com imagens coloridas. Perfeito para atividades 
     badgeText: 'Exemplos Grátis',
     downloadingLabel: 'Baixando...',
     ofLabel: 'de',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/portuguese/sudoku/sample-1.jpeg',
+        answerKeySrc: '/samples/portuguese/sudoku/sample-1.jpeg',
+        altText: 'Atividade grátis de sudoku visual para crianças - atividade de matemática nível fácil para educação infantil',
+        imageTitle: 'Atividade grátis de sudoku visual para crianças',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/portuguese/sudoku/sample-2.jpeg',
+        answerKeySrc: '/samples/portuguese/sudoku/sample-2.jpeg',
+        altText: 'Atividade grátis para crianças de sudoku com imagens - imprimíveis grátis de raciocínio lógico para 1º ano',
+        imageTitle: 'Atividade grátis para crianças de sudoku com imagens',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/portuguese/sudoku/sample-3.jpeg',
+        answerKeySrc: '/samples/portuguese/sudoku/sample-3.jpeg',
+        altText: 'Atividades grátis de sudoku infantil - atividade para educação infantil com imagens coloridas',
+        imageTitle: 'Atividades grátis de sudoku infantil',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/portuguese/sudoku/sample-4.jpeg',
+        answerKeySrc: '/samples/portuguese/sudoku/sample-4.jpeg',
+        altText: 'Imprimíveis grátis de sudoku visual - atividade de matemática para crianças nível avançado',
+        imageTitle: 'Imprimíveis grátis de sudoku visual',
+      },
+    ],
     
   },
 

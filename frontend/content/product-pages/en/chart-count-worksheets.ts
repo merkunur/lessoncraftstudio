@@ -82,7 +82,43 @@ Every picture graph worksheet downloads as a professional 300 DPI file in PDF or
     downloadLabel: 'Download Free Sample',
     worksheetLabel: 'Worksheet',
     answerKeyLabel: 'Answer Key',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/english/chart-count/sample-1.jpeg',
+        answerKeySrc: '/samples/english/chart-count/sample-1.jpeg',
+        altText: 'Free printable picture graph worksheets for kindergarten - counting and graphing activity with colorful images',
+        imageTitle: 'Free printable picture graph worksheets for kindergarten',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/english/chart-count/sample-2.jpeg',
+        answerKeySrc: '/samples/english/chart-count/sample-2.jpeg',
+        altText: 'Picture graph worksheet with answer key for first grade math data visualization practice',
+        imageTitle: 'Picture graph worksheet with answer key for first grade math data visualization practice',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/english/chart-count/sample-3.jpeg',
+        answerKeySrc: '/samples/english/chart-count/sample-3.jpeg',
+        altText: 'Math worksheets free printable - kindergarten graphing worksheet for counting and coloring',
+        imageTitle: 'Math worksheets free printable',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/english/chart-count/sample-4.jpeg',
+        answerKeySrc: '/samples/english/chart-count/sample-4.jpeg',
+        altText: 'Free printable kindergarten picture graph worksheet - colorful counting activity with answer key',
+        imageTitle: 'Free printable kindergarten picture graph worksheet',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/english/chart-count/sample-5.jpeg',
+        answerKeySrc: '/samples/english/chart-count/sample-5.jpeg',
+        altText: 'Picture graph worksheets for kids - data visualization and counting practice for first grade math',
+        imageTitle: 'Picture graph worksheets for kids',
+      },
+    ],
     
   },
 

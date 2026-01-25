@@ -88,7 +88,36 @@ Velg mellom tre vanskelighetsgrader tilpasset ulike alderstrinn. Lett nivå har 
     noPdfLabel: 'Ingen PDF tilgjengelig',
     freePdfCountLabel: '3 gratis nedlastinger',
     ofLabel: 'av',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/norwegian/sudoku/sample-1.jpeg',
+        answerKeySrc: '/samples/norwegian/sudoku/sample-1.jpeg',
+        altText: 'Gratis sudoku arbeidsark for barnehage - 4x4 bildesudoku for barn med logiske oppgaver',
+        imageTitle: 'Gratis sudoku arbeidsark for barnehage',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/norwegian/sudoku/sample-2.jpeg',
+        answerKeySrc: '/samples/norwegian/sudoku/sample-2.jpeg',
+        altText: 'Gratis arbeidsark for barn - sudoku med bilder for 1. trinn og finmotorikk øvelser',
+        imageTitle: 'Gratis arbeidsark for barn',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/norwegian/sudoku/sample-3.jpeg',
+        answerKeySrc: '/samples/norwegian/sudoku/sample-3.jpeg',
+        altText: 'Arbeidsark for 1. trinn - gratis sudoku utskrifter med matematikk oppgaver for barn',
+        imageTitle: 'Arbeidsark for 1. trinn',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/norwegian/sudoku/sample-4.jpeg',
+        answerKeySrc: '/samples/norwegian/sudoku/sample-4.jpeg',
+        altText: 'Gratis utskrifter sudoku arbeidsark - oppgavehefter barn med tall og telling aktiviteter',
+        imageTitle: 'Gratis utskrifter sudoku arbeidsark',
+      },
+    ],
     
   },
 

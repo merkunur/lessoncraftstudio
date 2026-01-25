@@ -88,7 +88,36 @@ Generer gratis skoleopgaver til print med temaer som børnene elsker. Over 3000 
     noPdfLabel: 'Ingen PDF tilgængelig',
     freePdfCountLabel: '3 gratis downloads',
     ofLabel: 'af',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/danish/math/sample-1.jpeg',
+        answerKeySrc: '/samples/danish/math/sample-1.jpeg',
+        altText: 'Gratis arbejdsark matematikopgaver portrætformat - billedbaserede puslespil til børnehaveklasse',
+        imageTitle: 'Gratis arbejdsark matematikopgaver portrætformat',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/danish/math/sample-2.jpeg',
+        answerKeySrc: '/samples/danish/math/sample-2.jpeg',
+        altText: 'Gratis arbejdsark matematikopgaver - opgaver til print til 0. klasse og 1. klasse',
+        imageTitle: 'Gratis arbejdsark matematikopgaver',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/danish/math/sample-3.jpeg',
+        answerKeySrc: '/samples/danish/math/sample-3.jpeg',
+        altText: 'Arbejdsark til børn matematikopgaver - gratis skoleopgaver med billedsymboler',
+        imageTitle: 'Arbejdsark til børn matematikopgaver',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/danish/math/sample-4.jpeg',
+        answerKeySrc: '/samples/danish/math/sample-4.jpeg',
+        altText: 'Gratis printables matematikopgaver - kopiark til indskoling',
+        imageTitle: 'Gratis printables matematikopgaver',
+      },
+    ],
     
   },
 

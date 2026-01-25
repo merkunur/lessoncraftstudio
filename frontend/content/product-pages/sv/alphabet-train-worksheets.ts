@@ -94,7 +94,43 @@ Vår alfabettåg-generator skapar målarbilder barn älskar. Varje gratis arbets
     badgeText: 'Gratis Exempel',
     downloadingLabel: 'Laddar ner...',
     ofLabel: 'av',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/swedish/alphabet-train/sample-1.jpeg',
+        answerKeySrc: '/samples/swedish/alphabet-train/sample-1.jpeg',
+        altText: 'Gratis arbetsblad alfabettåg för förskoleklass - bokstavsigenkänning på svenska',
+        imageTitle: 'Gratis arbetsblad alfabettåg för förskoleklass',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/swedish/alphabet-train/sample-2.jpeg',
+        answerKeySrc: '/samples/swedish/alphabet-train/sample-2.jpeg',
+        altText: 'Gratis arbetsblad för barn - alfabettåg med svenska bokstäver',
+        imageTitle: 'Gratis arbetsblad för barn',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/swedish/alphabet-train/sample-3.jpeg',
+        answerKeySrc: '/samples/swedish/alphabet-train/sample-3.jpeg',
+        altText: 'Arbetsblad för förskoleklass - bokstäver lära sig med tågvagnar',
+        imageTitle: 'Arbetsblad för förskoleklass',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/swedish/alphabet-train/sample-4.jpeg',
+        answerKeySrc: '/samples/swedish/alphabet-train/sample-4.jpeg',
+        altText: 'Gratis utskrifter alfabettåg - arbetsblad för barn i förskoleklass',
+        imageTitle: 'Gratis utskrifter alfabettåg',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/swedish/alphabet-train/sample-5.jpeg',
+        answerKeySrc: '/samples/swedish/alphabet-train/sample-5.jpeg',
+        altText: 'Arbetsblad för barn - bokstäver och bilder på svenska alfabettåg',
+        imageTitle: 'Arbetsblad för barn',
+      },
+    ],
     
   },
 

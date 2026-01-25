@@ -96,7 +96,43 @@ Crianças da educação infantil aprendem melhor com recursos visuais. Este gera
     badgeText: 'Exemplos Grátis',
     downloadingLabel: 'Baixando...',
     ofLabel: 'de',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/portuguese/more-less/sample-1.jpeg',
+        answerKeySrc: '/samples/portuguese/more-less/sample-1.jpeg',
+        altText: 'Atividade grátis de maior e menor - comparação de quantidades para educação infantil',
+        imageTitle: 'Atividade grátis de maior e menor',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/portuguese/more-less/sample-2.jpeg',
+        answerKeySrc: '/samples/portuguese/more-less/sample-2.jpeg',
+        altText: 'Atividade grátis para crianças - maior e menor com imagens coloridas',
+        imageTitle: 'Atividade grátis para crianças',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/portuguese/more-less/sample-3.jpeg',
+        answerKeySrc: '/samples/portuguese/more-less/sample-3.jpeg',
+        altText: 'Atividades grátis de comparação - discriminação visual para pré-escola',
+        imageTitle: 'Atividades grátis de comparação',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/portuguese/more-less/sample-4.jpeg',
+        answerKeySrc: '/samples/portuguese/more-less/sample-4.jpeg',
+        altText: 'Atividade para crianças - maior menor e igual para imprimir',
+        imageTitle: 'Atividade para crianças',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/portuguese/more-less/sample-5.jpeg',
+        answerKeySrc: '/samples/portuguese/more-less/sample-5.jpeg',
+        altText: 'Imprimíveis grátis de maior e menor - atividade para educação infantil',
+        imageTitle: 'Imprimíveis grátis de maior e menor',
+      },
+    ],
     
   },
 

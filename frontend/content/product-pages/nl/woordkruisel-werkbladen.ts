@@ -106,7 +106,43 @@ Bij een woordkruisel zien kinderen een afbeelding met daaronder de letters van h
     badgeText: 'Gratis Voorbeelden',
     downloadingLabel: 'Downloaden...',
     ofLabel: 'van',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/dutch/word-scramble/sample-1.jpeg',
+        answerKeySrc: '/samples/dutch/word-scramble/sample-1.jpeg',
+        altText: 'Gratis werkblad woordkruisel - werkbladen groep 3 voor letters leren',
+        imageTitle: 'Gratis werkblad woordkruisel',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/dutch/word-scramble/sample-2.jpeg',
+        answerKeySrc: '/samples/dutch/word-scramble/sample-2.jpeg',
+        altText: 'Gratis werkbladen voor kinderen - woordkruisel met werkbladen kleuters',
+        imageTitle: 'Gratis werkbladen voor kinderen',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/dutch/word-scramble/sample-3.jpeg',
+        answerKeySrc: '/samples/dutch/word-scramble/sample-3.jpeg',
+        altText: 'Gratis printables woordkruisel - werkblad voor kleuters met fijne motoriek',
+        imageTitle: 'Gratis printables woordkruisel',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/dutch/word-scramble/sample-4.jpeg',
+        answerKeySrc: '/samples/dutch/word-scramble/sample-4.jpeg',
+        altText: 'Werkblad voor kinderen woordkruisel - oefenbladen gratis kwaliteit',
+        imageTitle: 'Werkblad voor kinderen woordkruisel',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/dutch/word-scramble/sample-5.jpeg',
+        answerKeySrc: '/samples/dutch/word-scramble/sample-5.jpeg',
+        altText: 'Gratis werkblad voor kinderen - woordkruisel werkbladen groep 3',
+        imageTitle: 'Gratis werkblad voor kinderen',
+      },
+    ],
     
   },
 

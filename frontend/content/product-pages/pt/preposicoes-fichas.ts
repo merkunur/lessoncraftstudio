@@ -90,7 +90,36 @@ Crianças na educação infantil aprendem melhor com recursos visuais. Nossas at
     badgeText: 'Exemplos Grátis',
     downloadingLabel: 'Baixando...',
     ofLabel: 'de',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/portuguese/prepositions/sample-1.jpeg',
+        answerKeySrc: '/samples/portuguese/prepositions/sample-1.jpeg',
+        altText: 'Atividade grátis de preposições para educação infantil - preencher lacunas',
+        imageTitle: 'Atividade grátis de preposições para educação infantil',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/portuguese/prepositions/sample-2.jpeg',
+        answerKeySrc: '/samples/portuguese/prepositions/sample-2.jpeg',
+        altText: 'Atividade grátis de preposições para crianças - múltipla escolha',
+        imageTitle: 'Atividade grátis de preposições para crianças',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/portuguese/prepositions/sample-3.jpeg',
+        answerKeySrc: '/samples/portuguese/prepositions/sample-3.jpeg',
+        altText: 'Imprimíveis grátis de preposições - conceitos espaciais',
+        imageTitle: 'Imprimíveis grátis de preposições',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/portuguese/prepositions/sample-4.jpeg',
+        answerKeySrc: '/samples/portuguese/prepositions/sample-4.jpeg',
+        altText: 'Atividade para educação infantil - preposições em português',
+        imageTitle: 'Atividade para educação infantil',
+      },
+    ],
     
   },
 

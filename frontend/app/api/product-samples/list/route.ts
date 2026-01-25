@@ -1,6 +1,7 @@
 import { NextResponse } from 'next/server';
 import fs from 'fs/promises';
 import path from 'path';
+import prisma from '@/lib/prisma';
 
 // Force dynamic to prevent build-time caching
 export const dynamic = 'force-dynamic';
@@ -107,6 +108,10 @@ interface DiscoveredSample {
   hasPreview: boolean;
   hasPdf: boolean;
   pdfPath?: string;
+  // SEO metadata from database
+  altText?: string;
+  title?: string;
+  description?: string;
 }
 
 interface AppStatus {
@@ -309,12 +314,49 @@ async function scanAppDirectory(dir: string, language: string, folderName: strin
   return samples;
 }
 
-async function checkAppStatus(language: string, appId: string, folderName: string): Promise<AppStatus> {
+async function checkAppStatus(language: string, appId: string, folderName: string, locale: string): Promise<AppStatus> {
   const dir = path.join(SAMPLES_BASE, language, folderName);
 
   const samples = await scanAppDirectory(dir, language, folderName);
 
-  const completedSamples = samples.filter(s =>
+  // Query database for SEO metadata for all samples in this app/locale
+  const filenames = samples.map(s => s.filename);
+  let seoRecords: { filename: string; altText: string | null; title: string | null; description: string | null }[] = [];
+
+  try {
+    seoRecords = await prisma.productSample.findMany({
+      where: {
+        appId,
+        locale,
+        filename: { in: filenames }
+      },
+      select: {
+        filename: true,
+        altText: true,
+        title: true,
+        description: true,
+      }
+    });
+  } catch (error) {
+    // Database might not be available in all environments, continue without SEO data
+    console.warn('[PRODUCT-SAMPLES] Could not fetch SEO from database:', error instanceof Error ? error.message : 'Unknown error');
+  }
+
+  // Create lookup map for SEO data
+  const seoMap = new Map(seoRecords.map(r => [r.filename, r]));
+
+  // Merge SEO data into samples
+  const samplesWithSeo = samples.map(sample => {
+    const seo = seoMap.get(sample.filename);
+    return {
+      ...sample,
+      altText: seo?.altText || undefined,
+      title: seo?.title || undefined,
+      description: seo?.description || undefined,
+    };
+  });
+
+  const completedSamples = samplesWithSeo.filter(s =>
     s.hasThumb && s.hasPreview && s.hasPdf
   ).length;
 
@@ -322,9 +364,9 @@ async function checkAppStatus(language: string, appId: string, folderName: strin
     appId,
     folderName,
     displayName: appDisplayNames[appId] || appId,
-    samples,
+    samples: samplesWithSeo,
     completedSamples,
-    totalSamples: samples.length,
+    totalSamples: samplesWithSeo.length,
   };
 }
 
@@ -340,7 +382,7 @@ async function checkLanguageStatus(locale: string, language: string): Promise<La
   // Check all apps in parallel
   const appChecks = await Promise.all(
     Object.entries(appIdToFolder).map(async ([appId, folderName]) => {
-      const status = await checkAppStatus(language, appId, folderName);
+      const status = await checkAppStatus(language, appId, folderName, locale);
       return { appId, status };
     })
   );

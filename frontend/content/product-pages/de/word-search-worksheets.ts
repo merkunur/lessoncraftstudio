@@ -106,7 +106,43 @@ Unser kostenloser Suchsel Generator bietet über 3000 kindgerechte Bilder für A
     badgeText: 'Kostenlose Beispiele',
     downloadingLabel: 'Wird heruntergeladen...',
     ofLabel: 'von',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/german/wordsearch/sample-1.jpeg',
+        answerKeySrc: '/samples/german/wordsearch/sample-1.jpeg',
+        altText: 'Kostenloses Suchsel Arbeitsblatt Grundschule - Wortschatz Übungen mit bunten Bildern für Kinder',
+        imageTitle: 'Kostenloses Suchsel Arbeitsblatt Grundschule',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/german/wordsearch/sample-2.jpeg',
+        answerKeySrc: '/samples/german/wordsearch/sample-2.jpeg',
+        altText: 'Suchsel Generator Arbeitsblatt - Buchstaben lernen und Deutsch-Arbeitsblätter für die Vorschule',
+        imageTitle: 'Suchsel Generator Arbeitsblatt',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/german/wordsearch/sample-3.jpeg',
+        answerKeySrc: '/samples/german/wordsearch/sample-3.jpeg',
+        altText: 'Kostenlose Druckvorlagen Wortsuchrätsel - Arbeitsblatt für Kinder mit thematischen Bildern',
+        imageTitle: 'Kostenlose Druckvorlagen Wortsuchrätsel',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/german/wordsearch/sample-4.jpeg',
+        answerKeySrc: '/samples/german/wordsearch/sample-4.jpeg',
+        altText: 'Suchsel Arbeitsblatt für Kinder - Wortsuchrätsel mit bunten Bildhinweisen für Vorschule und Grundschule',
+        imageTitle: 'Suchsel Arbeitsblatt für Kinder',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/german/wordsearch/sample-5.jpeg',
+        answerKeySrc: '/samples/german/wordsearch/sample-5.jpeg',
+        altText: 'Kostenloses Arbeitsblatt Wortsuchrätsel - Deutsch-Arbeitsblätter Wortschatz für 1. bis 3. Klasse Grundschule',
+        imageTitle: 'Kostenloses Arbeitsblatt Wortsuchrätsel',
+      },
+    ],
     
   },
 

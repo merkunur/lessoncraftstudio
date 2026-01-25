@@ -94,7 +94,43 @@ El generador crea fichas para imprimir completamente personalizables en segundos
     badgeText: 'Ejemplos Gratis',
     downloadingLabel: 'Descargando...',
     ofLabel: 'de',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/spanish/addition/sample-1.jpeg',
+        answerKeySrc: '/samples/spanish/addition/sample-1.jpeg',
+        altText: 'Ficha de sumas gratis para imprimir - ejercicios matemáticas con imágenes para preescolar',
+        imageTitle: 'Ficha de sumas gratis para imprimir',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/spanish/addition/sample-2.jpeg',
+        answerKeySrc: '/samples/spanish/addition/sample-2.jpeg',
+        altText: 'Fichas infantil de sumas para imprimir - fichas de matemáticas para educación infantil',
+        imageTitle: 'Fichas infantil de sumas para imprimir',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/spanish/addition/sample-3.jpeg',
+        answerKeySrc: '/samples/spanish/addition/sample-3.jpeg',
+        altText: 'Fichas preescolar de sumas gratis - material educativo de grafomotricidad',
+        imageTitle: 'Fichas preescolar de sumas gratis',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/spanish/addition/sample-4.jpeg',
+        answerKeySrc: '/samples/spanish/addition/sample-4.jpeg',
+        altText: 'Ejercicios matemáticas de sumas para imprimir - fichas gratis para primaria',
+        imageTitle: 'Ejercicios matemáticas de sumas para imprimir',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/spanish/addition/sample-5.jpeg',
+        answerKeySrc: '/samples/spanish/addition/sample-5.jpeg',
+        altText: 'Fichas de sumas para imprimir gratis - aprender los números con fichas infantil',
+        imageTitle: 'Fichas de sumas para imprimir gratis',
+      },
+    ],
     
   },
 

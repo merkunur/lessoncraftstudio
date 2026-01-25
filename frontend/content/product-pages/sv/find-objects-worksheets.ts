@@ -96,7 +96,43 @@ Generera arbetsblad gratis som kombinerar målarbilder barn med perceptionsträn
     badgeText: 'Gratis Exempel',
     downloadingLabel: 'Laddar ner...',
     ofLabel: 'av',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/swedish/find-objects/sample-1.jpeg',
+        answerKeySrc: '/samples/swedish/find-objects/sample-1.jpeg',
+        altText: 'Gratis arbetsblad hitta föremål för förskoleklass - visuell perception träning',
+        imageTitle: 'Gratis arbetsblad hitta föremål för förskoleklass',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/swedish/find-objects/sample-2.jpeg',
+        answerKeySrc: '/samples/swedish/find-objects/sample-2.jpeg',
+        altText: 'Arbetsblad för barn hitta föremål - finmotorik övningar för lågstadiet',
+        imageTitle: 'Arbetsblad för barn hitta föremål',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/swedish/find-objects/sample-3.jpeg',
+        answerKeySrc: '/samples/swedish/find-objects/sample-3.jpeg',
+        altText: 'Gratis utskrifter hitta föremål arbetsblad - visuell diskriminering',
+        imageTitle: 'Gratis utskrifter hitta föremål arbetsblad',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/swedish/find-objects/sample-4.jpeg',
+        answerKeySrc: '/samples/swedish/find-objects/sample-4.jpeg',
+        altText: 'Arbetsblad för förskoleklass hitta föremål - I Spy aktiviteter',
+        imageTitle: 'Arbetsblad för förskoleklass hitta föremål',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/swedish/find-objects/sample-5.jpeg',
+        answerKeySrc: '/samples/swedish/find-objects/sample-5.jpeg',
+        altText: 'Gratis arbetsblad för barn hitta föremål - Odd One Out övningar',
+        imageTitle: 'Gratis arbetsblad för barn hitta föremål',
+      },
+    ],
     
   },
 

@@ -110,7 +110,43 @@ Mit Ihrem Abonnement erhalten Sie Zugang zu über 3000 kindgerechten Bildern. Di
     badgeText: 'Kostenlose Beispiele',
     downloadingLabel: 'Wird heruntergeladen...',
     ofLabel: 'von',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/german/shadow-match/sample-1.jpeg',
+        answerKeySrc: '/samples/german/shadow-match/sample-1.jpeg',
+        altText: 'Schattenbilder Arbeitsblätter kostenlos zum Ausdrucken - Silhouetten zuordnen für Vorschule und Grundschule',
+        imageTitle: 'Schattenbilder Arbeitsblätter kostenlos zum Ausdrucken',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/german/shadow-match/sample-2.jpeg',
+        answerKeySrc: '/samples/german/shadow-match/sample-2.jpeg',
+        altText: 'Schattenbilder Zuordnung Arbeitsblätter für Kinder - Visuelle Wahrnehmung üben für Arbeitsblätter Grundschule',
+        imageTitle: 'Schattenbilder Zuordnung Arbeitsblätter für Kinder',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/german/shadow-match/sample-3.jpeg',
+        answerKeySrc: '/samples/german/shadow-match/sample-3.jpeg',
+        altText: 'Kostenlose Schattenbilder Übungsblätter - Bild zusammenfügen für Vorschule Arbeitsblätter',
+        imageTitle: 'Kostenlose Schattenbilder Übungsblätter',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/german/shadow-match/sample-4.jpeg',
+        answerKeySrc: '/samples/german/shadow-match/sample-4.jpeg',
+        altText: 'Schattenbilder Arbeitsblätter Grundschule - Räumliches Denken spielerisch lernen',
+        imageTitle: 'Schattenbilder Arbeitsblätter Grundschule',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/german/shadow-match/sample-5.jpeg',
+        answerKeySrc: '/samples/german/shadow-match/sample-5.jpeg',
+        altText: 'Druckbare Schattenbilder Arbeitsblätter - Kostenlose Arbeitsblätter für Wahrnehmungsübungen',
+        imageTitle: 'Druckbare Schattenbilder Arbeitsblätter',
+      },
+    ],
     
   },
 

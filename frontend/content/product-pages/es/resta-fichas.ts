@@ -96,7 +96,43 @@ La plataforma incluye más de 3000 imágenes apropiadas para niños. Selecciona 
     badgeText: 'Ejemplos Gratis',
     downloadingLabel: 'Descargando...',
     ofLabel: 'de',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/spanish/subtraction/sample-1.jpeg',
+        answerKeySrc: '/samples/spanish/subtraction/sample-1.jpeg',
+        altText: 'Fichas de restas gratis para imprimir - ejercicios matemáticas modo tachar para preescolar y primaria',
+        imageTitle: 'Fichas de restas gratis para imprimir',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/spanish/subtraction/sample-2.jpeg',
+        answerKeySrc: '/samples/spanish/subtraction/sample-2.jpeg',
+        altText: 'Fichas de restas para niños - ejercicios matemáticas modo imagen-número para educación infantil',
+        imageTitle: 'Fichas de restas para niños',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/spanish/subtraction/sample-3.jpeg',
+        answerKeySrc: '/samples/spanish/subtraction/sample-3.jpeg',
+        altText: 'Fichas de restas para preescolar - ejercicios matemáticas modo encontrar sustraendo para primaria',
+        imageTitle: 'Fichas de restas para preescolar',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/spanish/subtraction/sample-4.jpeg',
+        answerKeySrc: '/samples/spanish/subtraction/sample-4.jpeg',
+        altText: 'Fichas de restas imprimibles gratis - ejercicios matemáticas modo mixto para educación inicial',
+        imageTitle: 'Fichas de restas imprimibles gratis',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/spanish/subtraction/sample-5.jpeg',
+        answerKeySrc: '/samples/spanish/subtraction/sample-5.jpeg',
+        altText: 'Fichas de matemáticas gratis para niños - ejercicios de restas con imágenes para preescolar',
+        imageTitle: 'Fichas de matemáticas gratis para niños',
+      },
+    ],
     
   },
 

@@ -94,7 +94,29 @@ L'abbonamento Accesso Completo include la licenza commerciale per la stampa su r
     badgeText: 'Esempi Gratuiti',
     downloadingLabel: 'Scaricamento...',
     ofLabel: 'di',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/italian/chart-count/sample-1.jpeg',
+        answerKeySrc: '/samples/italian/chart-count/sample-1.jpeg',
+        altText: 'Scheda Gratuita Grafici Immagini - Stampabili Gratuiti Scuola Infanzia',
+        imageTitle: 'Scheda Gratuita Grafici Immagini',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/italian/chart-count/sample-2.jpeg',
+        answerKeySrc: '/samples/italian/chart-count/sample-2.jpeg',
+        altText: 'Scheda Gratuita per Bambini - Schede Gratuite Conteggio Visualizzazione',
+        imageTitle: 'Scheda Gratuita per Bambini',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/italian/chart-count/sample-3.jpeg',
+        answerKeySrc: '/samples/italian/chart-count/sample-3.jpeg',
+        altText: 'Scheda per Bambini Grafici - Stampabili Gratuiti Matematica Contare',
+        imageTitle: 'Scheda per Bambini Grafici',
+      },
+    ],
     
   },
 

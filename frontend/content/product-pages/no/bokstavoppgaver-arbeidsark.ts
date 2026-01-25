@@ -96,7 +96,43 @@ Bokstavoppgavene kan tilpasses fullstendig for alle aldersnivåer. Juster vanske
     noPdfLabel: 'Ingen PDF tilgjengelig',
     freePdfCountLabel: '3 gratis nedlastinger',
     ofLabel: 'av',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/norwegian/word-scramble/sample-1.jpeg',
+        answerKeySrc: '/samples/norwegian/word-scramble/sample-1.jpeg',
+        altText: 'Gratis arbeidsark bokstavoppgaver - lesetrening for barn i barneskolen',
+        imageTitle: 'Gratis arbeidsark bokstavoppgaver',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/norwegian/word-scramble/sample-2.jpeg',
+        answerKeySrc: '/samples/norwegian/word-scramble/sample-2.jpeg',
+        altText: 'Bokstavoppgaver arbeidsark for barn - gratis utskrifter med bokstaver lære skrive',
+        imageTitle: 'Bokstavoppgaver arbeidsark for barn',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/norwegian/word-scramble/sample-3.jpeg',
+        answerKeySrc: '/samples/norwegian/word-scramble/sample-3.jpeg',
+        altText: 'Arbeidsark for 1. trinn bokstavoppgaver - gratis arbeidsark for barn',
+        imageTitle: 'Arbeidsark for 1. trinn bokstavoppgaver',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/norwegian/word-scramble/sample-4.jpeg',
+        answerKeySrc: '/samples/norwegian/word-scramble/sample-4.jpeg',
+        altText: 'Gratis arbeidsark lesetrening - oppgavehefter barn med bokstavøvelser',
+        imageTitle: 'Gratis arbeidsark lesetrening',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/norwegian/word-scramble/sample-5.jpeg',
+        answerKeySrc: '/samples/norwegian/word-scramble/sample-5.jpeg',
+        altText: 'Gratis utskrifter bokstavoppgaver - arbeidsark for barn i 1. trinn',
+        imageTitle: 'Gratis utskrifter bokstavoppgaver',
+      },
+    ],
     
   },
 

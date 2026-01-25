@@ -84,7 +84,15 @@ Il generatore funziona in 11 lingue diverse. Le schede didattiche pregrafismo ve
     badgeText: 'Schede Gratuite',
     downloadingLabel: 'Scaricamento...',
     ofLabel: 'di',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/italian/writing/sample-3.jpeg',
+        answerKeySrc: '/samples/italian/writing/sample-3.jpeg',
+        altText: 'Schede didattiche pregrafismo - stampabili gratuiti numeri da stampare per bambini',
+        imageTitle: 'Schede didattiche pregrafismo',
+      },
+    ],
     
   },
 

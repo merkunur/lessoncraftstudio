@@ -96,7 +96,43 @@ Prenumerationen inkluderar kommersiell licens för print-on-demand. Sälj dina a
     badgeText: 'Gratis Exempel',
     downloadingLabel: 'Laddar ner...',
     ofLabel: 'av',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/swedish/missing-pieces/sample-1.jpeg',
+        answerKeySrc: '/samples/swedish/missing-pieces/sample-1.jpeg',
+        altText: 'Saknade bitar arbetsblad gratis - visuellt pussel för förskoleklass material',
+        imageTitle: 'Saknade bitar arbetsblad gratis',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/swedish/missing-pieces/sample-2.jpeg',
+        answerKeySrc: '/samples/swedish/missing-pieces/sample-2.jpeg',
+        altText: 'Saknade bitar pussel med finmotorik övningar för barn',
+        imageTitle: 'Saknade bitar pussel med finmotorik övningar för barn',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/swedish/missing-pieces/sample-3.jpeg',
+        answerKeySrc: '/samples/swedish/missing-pieces/sample-3.jpeg',
+        altText: 'Gratis arbetsblad för barn med saknade bitar och matematik arbetsblad',
+        imageTitle: 'Gratis arbetsblad för barn med saknade bitar och matematik arbetsblad',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/swedish/missing-pieces/sample-4.jpeg',
+        answerKeySrc: '/samples/swedish/missing-pieces/sample-4.jpeg',
+        altText: 'Arbetsblad för förskoleklass med visuella saknade bitar övningar',
+        imageTitle: 'Arbetsblad för förskoleklass med visuella saknade bitar övningar',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/swedish/missing-pieces/sample-5.jpeg',
+        answerKeySrc: '/samples/swedish/missing-pieces/sample-5.jpeg',
+        altText: 'Gratis utskrifter saknade bitar pussel för siffror och tal',
+        imageTitle: 'Gratis utskrifter saknade bitar pussel för siffror och tal',
+      },
+    ],
     
   },
 

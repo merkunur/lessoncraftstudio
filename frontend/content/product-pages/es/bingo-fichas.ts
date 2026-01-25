@@ -94,7 +94,43 @@ Tu suscripción Paquete Esencial cuesta $144 al año o $15 al mes. Incluye 10 ge
     badgeText: 'Ejemplos Gratis',
     downloadingLabel: 'Descargando...',
     ofLabel: 'de',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/spanish/bingo/sample-1.jpeg',
+        answerKeySrc: '/samples/spanish/bingo/sample-1.jpeg',
+        altText: 'Fichas de bingo para imprimir gratis - bingo con imágenes para educación infantil',
+        imageTitle: 'Fichas de bingo para imprimir gratis',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/spanish/bingo/sample-2.jpeg',
+        answerKeySrc: '/samples/spanish/bingo/sample-2.jpeg',
+        altText: 'Bingo de imágenes fichas gratis - material educativo con abecedario y números',
+        imageTitle: 'Bingo de imágenes fichas gratis',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/spanish/bingo/sample-3.jpeg',
+        answerKeySrc: '/samples/spanish/bingo/sample-3.jpeg',
+        altText: 'Fichas de bingo infantil - lectoescritura y grafomotricidad para preescolar',
+        imageTitle: 'Fichas de bingo infantil',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/spanish/bingo/sample-4.jpeg',
+        answerKeySrc: '/samples/spanish/bingo/sample-4.jpeg',
+        altText: 'Bingo educativo fichas para imprimir - colorear y ejercicios matemáticas',
+        imageTitle: 'Bingo educativo fichas para imprimir',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/spanish/bingo/sample-5.jpeg',
+        answerKeySrc: '/samples/spanish/bingo/sample-5.jpeg',
+        altText: 'Fichas de bingo para preescolar - tablas de multiplicar y números',
+        imageTitle: 'Fichas de bingo para preescolar',
+      },
+    ],
     
   },
 

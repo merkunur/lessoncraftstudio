@@ -98,7 +98,43 @@ Med Fuld Adgang-abonnement får du adgang til alle 33 opgavegeneratorer. Kombine
     noPdfLabel: 'Ingen PDF tilgængelig',
     freePdfCountLabel: '5 gratis downloads',
     ofLabel: 'af',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/danish/more-less/sample-1.jpeg',
+        answerKeySrc: '/samples/danish/more-less/sample-1.jpeg',
+        altText: 'Sammenligningsopgaver gratis arbejdsark til børn - matematikopgaver til børnehaveklasse',
+        imageTitle: 'Sammenligningsopgaver gratis arbejdsark til børn',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/danish/more-less/sample-2.jpeg',
+        answerKeySrc: '/samples/danish/more-less/sample-2.jpeg',
+        altText: 'Sammenligningsopgaver gratis printables - mere eller mindre til 0. klasse',
+        imageTitle: 'Sammenligningsopgaver gratis printables',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/danish/more-less/sample-3.jpeg',
+        answerKeySrc: '/samples/danish/more-less/sample-3.jpeg',
+        altText: 'Sammenligningsopgaver arbejdsark til børn - større end mindre end til 1. klasse',
+        imageTitle: 'Sammenligningsopgaver arbejdsark til børn',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/danish/more-less/sample-4.jpeg',
+        answerKeySrc: '/samples/danish/more-less/sample-4.jpeg',
+        altText: 'Sammenligningsopgaver gratis arbejdsark - talforståelse til børnehaveklasse',
+        imageTitle: 'Sammenligningsopgaver gratis arbejdsark',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/danish/more-less/sample-5.jpeg',
+        answerKeySrc: '/samples/danish/more-less/sample-5.jpeg',
+        altText: 'Sammenligningsopgaver arbejdsark til børnehaveklasse - gratis printables',
+        imageTitle: 'Sammenligningsopgaver arbejdsark til børnehaveklasse',
+      },
+    ],
     
   },
 

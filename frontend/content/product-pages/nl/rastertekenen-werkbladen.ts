@@ -107,7 +107,43 @@ Rastertekenen is een van de beste activiteiten voor jonge kinderen. Het combinee
     badgeText: 'Gratis Voorbeelden',
     downloadingLabel: 'Downloaden...',
     ofLabel: 'van',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/dutch/draw-and-color/sample-1.jpeg',
+        answerKeySrc: '/samples/dutch/draw-and-color/sample-1.jpeg',
+        altText: 'Gratis werkblad rastertekenen - Werkblad voor kinderen met rasterpatronen',
+        imageTitle: 'Gratis werkblad rastertekenen',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/dutch/draw-and-color/sample-2.jpeg',
+        answerKeySrc: '/samples/dutch/draw-and-color/sample-2.jpeg',
+        altText: 'Gratis werkbladen rastertekenen - Werkblad voor kleuters met fijne motoriek oefeningen',
+        imageTitle: 'Gratis werkbladen rastertekenen',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/dutch/draw-and-color/sample-3.jpeg',
+        answerKeySrc: '/samples/dutch/draw-and-color/sample-3.jpeg',
+        altText: 'Gratis printables rastertekenen - Werkblad voor kinderen met patronen natekenen',
+        imageTitle: 'Gratis printables rastertekenen',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/dutch/draw-and-color/sample-4.jpeg',
+        answerKeySrc: '/samples/dutch/draw-and-color/sample-4.jpeg',
+        altText: 'Werkblad voor kleuters rastertekenen - Gratis werkblad voor fijne motoriek',
+        imageTitle: 'Werkblad voor kleuters rastertekenen',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/dutch/draw-and-color/sample-5.jpeg',
+        answerKeySrc: '/samples/dutch/draw-and-color/sample-5.jpeg',
+        altText: 'Gratis werkblad voor kinderen - Werkblad rastertekenen voor groep 3',
+        imageTitle: 'Gratis werkblad voor kinderen',
+      },
+    ],
     
   },
 

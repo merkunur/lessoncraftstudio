@@ -94,7 +94,29 @@ Ogni scheda gratuita si scarica in formato PDF o JPEG di alta qualità. Perfetto
     badgeText: 'Esempi Gratuiti',
     downloadingLabel: 'Scaricamento...',
     ofLabel: 'di',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/italian/drawing-lines/sample-1.jpeg',
+        answerKeySrc: '/samples/italian/drawing-lines/sample-1.jpeg',
+        altText: 'Scheda gratuita di pregrafismo per bambini - tracciamento linee curve scuola primaria',
+        imageTitle: 'Scheda gratuita di pregrafismo per bambini',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/italian/drawing-lines/sample-3.jpeg',
+        answerKeySrc: '/samples/italian/drawing-lines/sample-3.jpeg',
+        altText: 'Scheda per bambini pregrafismo linee diagonali classe prima',
+        imageTitle: 'Scheda per bambini pregrafismo linee diagonali classe prima',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/italian/drawing-lines/sample-5.jpeg',
+        answerKeySrc: '/samples/italian/drawing-lines/sample-5.jpeg',
+        altText: 'Stampabili gratuiti pregrafismo motricità fine bambini',
+        imageTitle: 'Stampabili gratuiti pregrafismo motricità fine bambini',
+      },
+    ],
     
   },
 

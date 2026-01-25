@@ -100,7 +100,36 @@ De Groot en Klein werkbladen helpen bij de ontwikkeling van fijne motoriek. Kind
     badgeText: 'Gratis Voorbeelden',
     downloadingLabel: 'Downloaden...',
     ofLabel: 'van',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/dutch/big-small/sample-1.jpeg',
+        answerKeySrc: '/samples/dutch/big-small/sample-1.jpeg',
+        altText: 'Groot klein werkbladen - oefenbladen gratis voor werkbladen kleuters en fijne motoriek ontwikkeling',
+        imageTitle: 'Groot klein werkbladen',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/dutch/big-small/sample-2.jpeg',
+        answerKeySrc: '/samples/dutch/big-small/sample-2.jpeg',
+        altText: 'Werkbladen groep 3 groot klein - groottevergelijking oefeningen voor rekenen werkbladen voorbereiding',
+        imageTitle: 'Werkbladen groep 3 groot klein',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/dutch/big-small/sample-3.jpeg',
+        answerKeySrc: '/samples/dutch/big-small/sample-3.jpeg',
+        altText: 'Groot en klein werkblad met nummering - sommen tot 20 voorbereiding en tafels oefenen basis',
+        imageTitle: 'Groot en klein werkblad met nummering',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/dutch/big-small/sample-4.jpeg',
+        answerKeySrc: '/samples/dutch/big-small/sample-4.jpeg',
+        altText: 'Oefenbladen gratis groot klein - werkbladen kleuters voor visuele discriminatie en fijne motoriek',
+        imageTitle: 'Oefenbladen gratis groot klein',
+      },
+    ],
     
   },
 

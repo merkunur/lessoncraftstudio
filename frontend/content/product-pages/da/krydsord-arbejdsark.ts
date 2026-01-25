@@ -94,7 +94,43 @@ Fuld Adgang-abonnement koster 240 USD om året eller 25 USD per måned. Du får 
     noPdfLabel: 'Ingen PDF tilgængelig',
     freePdfCountLabel: '2 gratis downloads',
     ofLabel: 'af',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/danish/crossword/sample-1.jpeg',
+        answerKeySrc: '/samples/danish/crossword/sample-1.jpeg',
+        altText: 'Krydsord gratis arbejdsark - arbejdsark til børn med billeder som ledetråde til børnehaveklasse',
+        imageTitle: 'Krydsord gratis arbejdsark',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/danish/crossword/sample-2.jpeg',
+        answerKeySrc: '/samples/danish/crossword/sample-2.jpeg',
+        altText: 'Gratis arbejdsark til børn - krydsord med visuelle billedledetråde til stavning øvelser',
+        imageTitle: 'Gratis arbejdsark til børn',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/danish/crossword/sample-3.jpeg',
+        answerKeySrc: '/samples/danish/crossword/sample-3.jpeg',
+        altText: 'Arbejdsark til børnehaveklasse - gratis printables krydsord med tematiske billeder',
+        imageTitle: 'Arbejdsark til børnehaveklasse',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/danish/crossword/sample-4.jpeg',
+        answerKeySrc: '/samples/danish/crossword/sample-4.jpeg',
+        altText: 'Gratis printables - arbejdsark til børn med krydsord og ordforråd øvelser',
+        imageTitle: 'Gratis printables',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/danish/crossword/sample-5.jpeg',
+        answerKeySrc: '/samples/danish/crossword/sample-5.jpeg',
+        altText: 'Arbejdsark til børn - gratis arbejdsark krydsord generator til børnehaveklasse',
+        imageTitle: 'Arbejdsark til børn',
+      },
+    ],
     
   },
 

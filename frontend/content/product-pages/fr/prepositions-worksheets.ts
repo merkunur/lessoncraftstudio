@@ -98,7 +98,43 @@ L'abonnement Accès Complet coûte 240 € par an ou 25 € par mois. Vous accé
     badgeText: 'Exemples Gratuits',
     downloadingLabel: 'Téléchargement...',
     ofLabel: 'sur',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/french/prepositions/sample-1.jpeg',
+        answerKeySrc: '/samples/french/prepositions/sample-1.jpeg',
+        altText: 'Fiche exercices prépositions spatiales maternelle - fiches à imprimer gratuit pour enfants',
+        imageTitle: 'Fiche exercices prépositions spatiales maternelle',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/french/prepositions/sample-2.jpeg',
+        answerKeySrc: '/samples/french/prepositions/sample-2.jpeg',
+        altText: 'Exercices CP prépositions - fiche gratuite avec images colorées',
+        imageTitle: 'Exercices CP prépositions',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/french/prepositions/sample-3.jpeg',
+        answerKeySrc: '/samples/french/prepositions/sample-3.jpeg',
+        altText: 'Fiche maternelle prépositions dans sous sur - graphisme maternelle',
+        imageTitle: 'Fiche maternelle prépositions dans sous sur',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/french/prepositions/sample-4.jpeg',
+        answerKeySrc: '/samples/french/prepositions/sample-4.jpeg',
+        altText: 'Prépositions spatiales exercices CP - fiche pour enfants à imprimer',
+        imageTitle: 'Prépositions spatiales exercices CP',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/french/prepositions/sample-5.jpeg',
+        answerKeySrc: '/samples/french/prepositions/sample-5.jpeg',
+        altText: 'Fiches gratuites prépositions maternelle - apprendre à lire les prépositions',
+        imageTitle: 'Fiches gratuites prépositions maternelle',
+      },
+    ],
     
   },
 

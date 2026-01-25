@@ -82,7 +82,43 @@ These printable addition worksheets work perfectly for math centers, homework pa
     downloadLabel: 'Download Free Worksheet Sample',
     worksheetLabel: 'Worksheet',
     answerKeyLabel: 'Answer Key',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/english/addition/sample-1.jpeg',
+        answerKeySrc: '/samples/english/addition/sample-1.jpeg',
+        altText: 'Free printable addition worksheets for kindergarten - colorful counting pictures for math practice',
+        imageTitle: 'Free printable addition worksheets for kindergarten',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/english/addition/sample-2.jpeg',
+        answerKeySrc: '/samples/english/addition/sample-2.jpeg',
+        altText: 'Addition worksheets for first grade - math worksheet with visual counting exercises',
+        imageTitle: 'Addition worksheets for first grade',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/english/addition/sample-3.jpeg',
+        answerKeySrc: '/samples/english/addition/sample-3.jpeg',
+        altText: 'Free worksheet for kids - addition practice with answer key for kindergarten',
+        imageTitle: 'Free worksheet for kids',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/english/addition/sample-4.jpeg',
+        answerKeySrc: '/samples/english/addition/sample-4.jpeg',
+        altText: 'Printable addition worksheets - kindergarten math with picture-based counting',
+        imageTitle: 'Printable addition worksheets',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/english/addition/sample-5.jpeg',
+        answerKeySrc: '/samples/english/addition/sample-5.jpeg',
+        altText: 'Free printables addition worksheet - first grade math practice with visual aids',
+        imageTitle: 'Free printables addition worksheet',
+      },
+    ],
   },
 
   // Features Grid - FULL descriptions from addition.md H3 sections

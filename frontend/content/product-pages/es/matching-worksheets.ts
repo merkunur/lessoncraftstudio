@@ -97,7 +97,36 @@ El generador incluye soporte para 11 idiomas. Perfecto para clases bilingües de
     badgeText: 'Ejemplos Gratis',
     downloadingLabel: 'Descargando...',
     ofLabel: 'de',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/spanish/matching/sample-1.jpeg',
+        answerKeySrc: '/samples/spanish/matching/sample-1.jpeg',
+        altText: 'Ficha de relacionar imagen con letra - ficha gratis para preescolar',
+        imageTitle: 'Ficha de relacionar imagen con letra',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/spanish/matching/sample-2.jpeg',
+        answerKeySrc: '/samples/spanish/matching/sample-2.jpeg',
+        altText: 'Ficha de relacionar imagen con palabra - fichas gratis para lectoescritura',
+        imageTitle: 'Ficha de relacionar imagen con palabra',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/spanish/matching/sample-3.jpeg',
+        answerKeySrc: '/samples/spanish/matching/sample-3.jpeg',
+        altText: 'Ficha de relacionar columnas - ficha para niños con grafomotricidad',
+        imageTitle: 'Ficha de relacionar columnas',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/spanish/matching/sample-4.jpeg',
+        answerKeySrc: '/samples/spanish/matching/sample-4.jpeg',
+        altText: 'Ficha de relacionar personalizada - imprimibles gratis de matemáticas',
+        imageTitle: 'Ficha de relacionar personalizada',
+      },
+    ],
     
   },
 

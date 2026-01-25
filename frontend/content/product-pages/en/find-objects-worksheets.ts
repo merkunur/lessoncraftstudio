@@ -82,7 +82,43 @@ Teachers use our find objects generator to build visual perception skills in you
     downloadLabel: 'Download Free Sample',
     worksheetLabel: 'Worksheet',
     answerKeyLabel: 'Answer Key',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/english/find-objects/sample-1.jpeg',
+        answerKeySrc: '/samples/english/find-objects/sample-1.jpeg',
+        altText: 'Free printable find objects worksheets - I Spy visual discrimination worksheet for kindergarten kids',
+        imageTitle: 'Free printable find objects worksheets',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/english/find-objects/sample-2.jpeg',
+        answerKeySrc: '/samples/english/find-objects/sample-2.jpeg',
+        altText: 'Visual discrimination worksheet generator - odd one out worksheets for first grade students',
+        imageTitle: 'Visual discrimination worksheet generator',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/english/find-objects/sample-3.jpeg',
+        answerKeySrc: '/samples/english/find-objects/sample-3.jpeg',
+        altText: 'I Spy worksheets free printable - hidden objects worksheet for kids visual scanning practice',
+        imageTitle: 'I Spy worksheets free printable',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/english/find-objects/sample-4.jpeg',
+        answerKeySrc: '/samples/english/find-objects/sample-4.jpeg',
+        altText: 'Hidden objects worksheets for kindergarten - free worksheet for kids attention skills',
+        imageTitle: 'Hidden objects worksheets for kindergarten',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/english/find-objects/sample-5.jpeg',
+        answerKeySrc: '/samples/english/find-objects/sample-5.jpeg',
+        altText: 'Free printables visual discrimination - find objects worksheet generator for early learning',
+        imageTitle: 'Free printables visual discrimination',
+      },
+    ],
     
   },
 

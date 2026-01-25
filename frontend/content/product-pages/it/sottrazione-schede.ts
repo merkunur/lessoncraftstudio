@@ -96,7 +96,15 @@ Scegli tra quattro diverse modalità di esercizi di sottrazione per variare la p
     badgeText: 'Esempi Gratuiti',
     downloadingLabel: 'Scaricamento...',
     ofLabel: 'di',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/italian/subtraction/sample-1.jpeg',
+        answerKeySrc: '/samples/italian/subtraction/sample-1.jpeg',
+        altText: 'Scheda gratuita sottrazione - esercizio matematica scuola infanzia',
+        imageTitle: 'Scheda gratuita sottrazione',
+      },
+    ],
     
   },
 

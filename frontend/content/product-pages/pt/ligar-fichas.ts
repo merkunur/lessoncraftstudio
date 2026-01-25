@@ -88,7 +88,36 @@ Desenvolva materiais didáticos que associam imagens a letras iniciais. Ideal pa
     badgeText: 'Exemplos Grátis',
     downloadingLabel: 'Baixando...',
     ofLabel: 'de',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/portuguese/matching/sample-1.jpeg',
+        answerKeySrc: '/samples/portuguese/matching/sample-1.jpeg',
+        altText: 'Atividade grátis de ligar para educação infantil - ficha de associação visual',
+        imageTitle: 'Atividade grátis de ligar para educação infantil',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/portuguese/matching/sample-2.jpeg',
+        answerKeySrc: '/samples/portuguese/matching/sample-2.jpeg',
+        altText: 'Atividade grátis para crianças - ligar imagem e palavra para alfabetização',
+        imageTitle: 'Atividade grátis para crianças',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/portuguese/matching/sample-3.jpeg',
+        answerKeySrc: '/samples/portuguese/matching/sample-3.jpeg',
+        altText: 'Imprimíveis grátis de ligar - atividade para educação infantil',
+        imageTitle: 'Imprimíveis grátis de ligar',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/portuguese/matching/sample-4.jpeg',
+        answerKeySrc: '/samples/portuguese/matching/sample-4.jpeg',
+        altText: 'Atividades grátis de associação - ligar para crianças',
+        imageTitle: 'Atividades grátis de associação',
+      },
+    ],
     
   },
 

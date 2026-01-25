@@ -90,7 +90,22 @@ Personalizza completamente ogni elemento sulla tua scheda didattica. Aggiungi sf
     badgeText: 'Esempi Gratuiti',
     downloadingLabel: 'Scaricamento...',
     ofLabel: 'di',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/italian/word-guess/sample-2.jpeg',
+        answerKeySrc: '/samples/italian/word-guess/sample-2.jpeg',
+        altText: 'Schede gratuite indovina la parola - scheda per bambini scuola primaria',
+        imageTitle: 'Schede gratuite indovina la parola',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/italian/word-guess/sample-4.jpeg',
+        answerKeySrc: '/samples/italian/word-guess/sample-4.jpeg',
+        altText: 'Scheda per bambini - scheda gratuita per bambini alfabeto',
+        imageTitle: 'Scheda per bambini',
+      },
+    ],
     
   },
 

@@ -90,7 +90,22 @@ Perfetto per insegnanti di scuola dell'infanzia che necessitano di attività di 
     badgeText: 'Esempi Gratuiti',
     downloadingLabel: 'Scaricamento...',
     ofLabel: 'di',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/italian/treasure-hunt/sample-2.jpeg',
+        answerKeySrc: '/samples/italian/treasure-hunt/sample-2.jpeg',
+        altText: 'Schede gratuite caccia al tesoro - scheda per bambini scuola primaria',
+        imageTitle: 'Schede gratuite caccia al tesoro',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/italian/treasure-hunt/sample-4.jpeg',
+        answerKeySrc: '/samples/italian/treasure-hunt/sample-4.jpeg',
+        altText: 'Scheda per bambini - scheda gratuita per bambini orientamento',
+        imageTitle: 'Scheda per bambini',
+      },
+    ],
     
   },
 

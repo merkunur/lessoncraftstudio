@@ -94,7 +94,43 @@ Nossa biblioteca oferece mais de 3000 imagens infantis. Escolha temas como anima
     badgeText: 'Exemplos Grátis',
     downloadingLabel: 'Baixando...',
     ofLabel: 'de',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/portuguese/coloring/sample-1.jpeg',
+        answerKeySrc: '/samples/portuguese/coloring/sample-1.jpeg',
+        altText: 'Desenhos para colorir atividade grátis - página de colorir para educação infantil',
+        imageTitle: 'Desenhos para colorir atividade grátis',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/portuguese/coloring/sample-2.jpeg',
+        answerKeySrc: '/samples/portuguese/coloring/sample-2.jpeg',
+        altText: 'Atividade grátis para crianças de colorir - coordenação motora fina',
+        imageTitle: 'Atividade grátis para crianças de colorir',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/portuguese/coloring/sample-3.jpeg',
+        answerKeySrc: '/samples/portuguese/coloring/sample-3.jpeg',
+        altText: 'Desenhos para colorir imprimíveis grátis para pré-escola',
+        imageTitle: 'Desenhos para colorir imprimíveis grátis para pré-escola',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/portuguese/coloring/sample-4.jpeg',
+        answerKeySrc: '/samples/portuguese/coloring/sample-4.jpeg',
+        altText: 'Atividades grátis de colorir para sala de aula',
+        imageTitle: 'Atividades grátis de colorir para sala de aula',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/portuguese/coloring/sample-5.jpeg',
+        answerKeySrc: '/samples/portuguese/coloring/sample-5.jpeg',
+        altText: 'Atividade para crianças de colorir - atividade para educação infantil',
+        imageTitle: 'Atividade para crianças de colorir',
+      },
+    ],
     
   },
 

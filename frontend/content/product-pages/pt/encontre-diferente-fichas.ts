@@ -96,7 +96,43 @@ O gerador oferece dois modos de exercícios pensados para diferentes níveis de 
     badgeText: 'Exemplos Grátis',
     downloadingLabel: 'Baixando...',
     ofLabel: 'de',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/portuguese/odd-one-out/sample-1.jpeg',
+        answerKeySrc: '/samples/portuguese/odd-one-out/sample-1.jpeg',
+        altText: 'Atividade grátis qual é o diferente - raciocínio lógico para educação infantil',
+        imageTitle: 'Atividade grátis qual é o diferente',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/portuguese/odd-one-out/sample-2.jpeg',
+        answerKeySrc: '/samples/portuguese/odd-one-out/sample-2.jpeg',
+        altText: 'Atividade grátis para crianças - qual é o diferente com imagens coloridas',
+        imageTitle: 'Atividade grátis para crianças',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/portuguese/odd-one-out/sample-3.jpeg',
+        answerKeySrc: '/samples/portuguese/odd-one-out/sample-3.jpeg',
+        altText: 'Atividades grátis de discriminação visual - identificar o diferente para pré-escola',
+        imageTitle: 'Atividades grátis de discriminação visual',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/portuguese/odd-one-out/sample-4.jpeg',
+        answerKeySrc: '/samples/portuguese/odd-one-out/sample-4.jpeg',
+        altText: 'Atividade para crianças - qual é o diferente modo idêntico para imprimir',
+        imageTitle: 'Atividade para crianças',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/portuguese/odd-one-out/sample-5.jpeg',
+        answerKeySrc: '/samples/portuguese/odd-one-out/sample-5.jpeg',
+        altText: 'Imprimíveis grátis de qual é o diferente - atividade para educação infantil',
+        imageTitle: 'Imprimíveis grátis de qual é o diferente',
+      },
+    ],
     
   },
 

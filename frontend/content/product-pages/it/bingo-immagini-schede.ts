@@ -88,7 +88,22 @@ Genera da 1 a 10 carte bingo in pochi minuti. Scegli griglie da 3x3 a 5x5. Perso
     badgeText: 'Esempi Gratuiti',
     downloadingLabel: 'Scaricamento...',
     ofLabel: 'di',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/italian/bingo/sample-2.jpeg',
+        answerKeySrc: '/samples/italian/bingo/sample-2.jpeg',
+        altText: 'Schede gratuite bingo didattico - stampabili gratuiti per scuola primaria',
+        imageTitle: 'Schede gratuite bingo didattico',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/italian/bingo/sample-3.jpeg',
+        answerKeySrc: '/samples/italian/bingo/sample-3.jpeg',
+        altText: 'Scheda per bambini bingo con immagini - schede didattiche scuola infanzia',
+        imageTitle: 'Scheda per bambini bingo con immagini',
+      },
+    ],
     
   },
 

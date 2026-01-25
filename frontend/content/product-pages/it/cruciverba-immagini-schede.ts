@@ -92,7 +92,36 @@ L'abbonamento Accesso Completo include licenza commerciale per la stampa su rich
     badgeText: 'Esempi Gratuiti',
     downloadingLabel: 'Scaricamento...',
     ofLabel: 'di',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/italian/crossword/sample-1.jpeg',
+        answerKeySrc: '/samples/italian/crossword/sample-1.jpeg',
+        altText: 'Cruciverba con immagini scheda gratuita - schede didattiche scuola primaria italiano',
+        imageTitle: 'Cruciverba con immagini scheda gratuita',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/italian/crossword/sample-2.jpeg',
+        answerKeySrc: '/samples/italian/crossword/sample-2.jpeg',
+        altText: 'Cruciverba con immagini schede gratuite per bambini - pregrafismo e lettere alfabeto',
+        imageTitle: 'Cruciverba con immagini schede gratuite per bambini',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/italian/crossword/sample-3.jpeg',
+        answerKeySrc: '/samples/italian/crossword/sample-3.jpeg',
+        altText: 'Cruciverba con immagini scheda per bambini - stampabili gratuiti scuola infanzia',
+        imageTitle: 'Cruciverba con immagini scheda per bambini',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/italian/crossword/sample-4.jpeg',
+        answerKeySrc: '/samples/italian/crossword/sample-4.jpeg',
+        altText: 'Cruciverba con immagini scheda gratuita per bambini - schede italiano classe prima',
+        imageTitle: 'Cruciverba con immagini scheda gratuita per bambini',
+      },
+    ],
     
   },
 

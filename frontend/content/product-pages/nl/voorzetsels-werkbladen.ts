@@ -102,7 +102,36 @@ Perfect voor leerkrachten van kleuters en groep 3 die snel kwalitatieve gratis w
     badgeText: 'Gratis Voorbeelden',
     downloadingLabel: 'Downloaden...',
     ofLabel: 'van',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/dutch/prepositions/sample-1.jpeg',
+        answerKeySrc: '/samples/dutch/prepositions/sample-1.jpeg',
+        altText: 'Gratis werkblad voorzetsels - werkblad voor kleuters ruimtelijke begrippen oefening',
+        imageTitle: 'Gratis werkblad voorzetsels',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/dutch/prepositions/sample-2.jpeg',
+        answerKeySrc: '/samples/dutch/prepositions/sample-2.jpeg',
+        altText: 'Voorzetsels werkblad voor kinderen - gratis werkbladen groep 3 invuloefening',
+        imageTitle: 'Voorzetsels werkblad voor kinderen',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/dutch/prepositions/sample-3.jpeg',
+        answerKeySrc: '/samples/dutch/prepositions/sample-3.jpeg',
+        altText: 'Gratis werkblad voor kinderen voorzetsels - werkblad voor kleuters meerkeuze',
+        imageTitle: 'Gratis werkblad voor kinderen voorzetsels',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/dutch/prepositions/sample-4.jpeg',
+        answerKeySrc: '/samples/dutch/prepositions/sample-4.jpeg',
+        altText: 'Werkblad voor kinderen voorzetsels - gratis printables ruimtelijke taal oefening',
+        imageTitle: 'Werkblad voor kinderen voorzetsels',
+      },
+    ],
     
   },
 

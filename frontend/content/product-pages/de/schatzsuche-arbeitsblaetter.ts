@@ -108,7 +108,43 @@ Dieser Schatzsuche Generator erstellt bei jedem Klick einzigartige Arbeitsblätt
     badgeText: 'Kostenlose Beispiele',
     downloadingLabel: 'Wird heruntergeladen...',
     ofLabel: 'von',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/german/treasure-hunt/sample-1.jpeg',
+        answerKeySrc: '/samples/german/treasure-hunt/sample-1.jpeg',
+        altText: 'Schatzsuche Arbeitsblatt kostenlos - Richtungsübungen für Arbeitsblätter Grundschule',
+        imageTitle: 'Schatzsuche Arbeitsblatt kostenlos',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/german/treasure-hunt/sample-2.jpeg',
+        answerKeySrc: '/samples/german/treasure-hunt/sample-2.jpeg',
+        altText: 'Schatzsuche Kostenlose Druckvorlagen - Richtungsvokabular für Vorschule und Grundschule',
+        imageTitle: 'Schatzsuche Kostenlose Druckvorlagen',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/german/treasure-hunt/sample-3.jpeg',
+        answerKeySrc: '/samples/german/treasure-hunt/sample-3.jpeg',
+        altText: 'Schatzsuche Arbeitsblatt für Kinder - Navigation und Orientierung üben',
+        imageTitle: 'Schatzsuche Arbeitsblatt für Kinder',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/german/treasure-hunt/sample-4.jpeg',
+        answerKeySrc: '/samples/german/treasure-hunt/sample-4.jpeg',
+        altText: 'Schatzsuche Arbeitsblatt für Vorschule - Himmelsrichtungen spielerisch lernen',
+        imageTitle: 'Schatzsuche Arbeitsblatt für Vorschule',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/german/treasure-hunt/sample-5.jpeg',
+        answerKeySrc: '/samples/german/treasure-hunt/sample-5.jpeg',
+        altText: 'Schatzsuche Kostenloses Arbeitsblatt - Räumliches Denken und Leseverständnis',
+        imageTitle: 'Schatzsuche Kostenloses Arbeitsblatt',
+      },
+    ],
     
   },
 

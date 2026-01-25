@@ -106,7 +106,43 @@ De generator biedt vier verschillende oefenmodi voor aftrekken. Kies tussen trad
     badgeText: 'Gratis Voorbeelden',
     downloadingLabel: 'Downloaden...',
     ofLabel: 'van',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/dutch/subtraction/sample-1.jpeg',
+        answerKeySrc: '/samples/dutch/subtraction/sample-1.jpeg',
+        altText: 'Gratis werkblad aftrekken - werkblad voor kinderen rekenen oefeningen groep 3',
+        imageTitle: 'Gratis werkblad aftrekken',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/dutch/subtraction/sample-2.jpeg',
+        answerKeySrc: '/samples/dutch/subtraction/sample-2.jpeg',
+        altText: 'Aftrekken werkblad voor kleuters - gratis werkbladen sommen tot 20 oefenbladen',
+        imageTitle: 'Aftrekken werkblad voor kleuters',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/dutch/subtraction/sample-3.jpeg',
+        answerKeySrc: '/samples/dutch/subtraction/sample-3.jpeg',
+        altText: 'Gratis printables aftrekken - werkblad voor kinderen rekenen werkbladen basisschool',
+        imageTitle: 'Gratis printables aftrekken',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/dutch/subtraction/sample-4.jpeg',
+        answerKeySrc: '/samples/dutch/subtraction/sample-4.jpeg',
+        altText: 'Werkblad voor kleuters aftrekken - gratis werkblad sommen oefenbladen printen',
+        imageTitle: 'Werkblad voor kleuters aftrekken',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/dutch/subtraction/sample-5.jpeg',
+        answerKeySrc: '/samples/dutch/subtraction/sample-5.jpeg',
+        altText: 'Gratis werkbladen aftrekken - werkblad voor kinderen rekenen groep 1 2 3',
+        imageTitle: 'Gratis werkbladen aftrekken',
+      },
+    ],
     
   },
 

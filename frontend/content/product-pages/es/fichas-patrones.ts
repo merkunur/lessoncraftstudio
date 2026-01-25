@@ -94,7 +94,43 @@ El reconocimiento de patrones desarrolla habilidades matemáticas esenciales. Es
     badgeText: 'Ejemplos Gratis',
     downloadingLabel: 'Descargando...',
     ofLabel: 'de',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/spanish/pattern/sample-1.jpeg',
+        answerKeySrc: '/samples/spanish/pattern/sample-1.jpeg',
+        altText: 'Ficha gratis de patrones para imprimir - ejercicio de secuencias AB para preescolar',
+        imageTitle: 'Ficha gratis de patrones para imprimir',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/spanish/pattern/sample-2.jpeg',
+        answerKeySrc: '/samples/spanish/pattern/sample-2.jpeg',
+        altText: 'Ficha gratis para niños de patrones - actividad de secuencias ABC para infantil',
+        imageTitle: 'Ficha gratis para niños de patrones',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/spanish/pattern/sample-3.jpeg',
+        answerKeySrc: '/samples/spanish/pattern/sample-3.jpeg',
+        altText: 'Fichas gratis de ejercicios de patrones - material educativo para educación primaria',
+        imageTitle: 'Fichas gratis de ejercicios de patrones',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/spanish/pattern/sample-4.jpeg',
+        answerKeySrc: '/samples/spanish/pattern/sample-4.jpeg',
+        altText: 'Imprimibles gratis de fichas de patrones - ejercicios de grafomotricidad para preescolar',
+        imageTitle: 'Imprimibles gratis de fichas de patrones',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/spanish/pattern/sample-5.jpeg',
+        answerKeySrc: '/samples/spanish/pattern/sample-5.jpeg',
+        altText: 'Ficha para niños de patrones - fichas para imprimir con secuencias ABCD',
+        imageTitle: 'Ficha para niños de patrones',
+      },
+    ],
     
   },
 

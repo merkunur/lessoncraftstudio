@@ -96,7 +96,43 @@ Chaque fiche alphabet présente un modèle de train coloré avec onze wagons. Le
     badgeText: 'Exemples Gratuits',
     downloadingLabel: 'Téléchargement...',
     ofLabel: 'sur',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/french/alphabet-train/sample-1.jpeg',
+        answerKeySrc: '/samples/french/alphabet-train/sample-1.jpeg',
+        altText: 'Fiche alphabet train gratuite pour maternelle - exercice de correspondance lettre-image pour apprendre les lettres',
+        imageTitle: 'Fiche alphabet train gratuite pour maternelle',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/french/alphabet-train/sample-2.jpeg',
+        answerKeySrc: '/samples/french/alphabet-train/sample-2.jpeg',
+        altText: 'Fiches alphabet gratuites à imprimer - train des lettres avec images thématiques pour la maternelle et le CP',
+        imageTitle: 'Fiches alphabet gratuites à imprimer',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/french/alphabet-train/sample-3.jpeg',
+        answerKeySrc: '/samples/french/alphabet-train/sample-3.jpeg',
+        altText: 'Fiche gratuite pour enfants - train alphabet avec exercice de découpage et collage pour apprendre les lettres',
+        imageTitle: 'Fiche gratuite pour enfants',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/french/alphabet-train/sample-4.jpeg',
+        answerKeySrc: '/samples/french/alphabet-train/sample-4.jpeg',
+        altText: 'Fiches maternelle train alphabet - reconnaissance des lettres avec images pour exercices CP gratuits',
+        imageTitle: 'Fiches maternelle train alphabet',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/french/alphabet-train/sample-5.jpeg',
+        answerKeySrc: '/samples/french/alphabet-train/sample-5.jpeg',
+        altText: 'Imprimables gratuits train des lettres - fiche alphabet multilingue pour graphisme maternelle et apprendre à lire',
+        imageTitle: 'Imprimables gratuits train des lettres',
+      },
+    ],
     
   },
 

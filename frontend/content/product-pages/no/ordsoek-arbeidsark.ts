@@ -88,7 +88,36 @@ Generer ubegrenset antall ordgåter uten kostnad per arbeidsark. Bruk for matema
     noPdfLabel: 'Ingen PDF tilgjengelig',
     freePdfCountLabel: '3 gratis nedlastinger',
     ofLabel: 'av',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/norwegian/wordsearch/sample-1.jpeg',
+        answerKeySrc: '/samples/norwegian/wordsearch/sample-1.jpeg',
+        altText: 'Gratis arbeidsark ordsoek - norsk ordgate ovelse for barn i barneskolen',
+        imageTitle: 'Gratis arbeidsark ordsoek',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/norwegian/wordsearch/sample-2.jpeg',
+        answerKeySrc: '/samples/norwegian/wordsearch/sample-2.jpeg',
+        altText: 'Ordsoek arbeidsark for barn - gratis utskrifter med lesetrening aktiviteter',
+        imageTitle: 'Ordsoek arbeidsark for barn',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/norwegian/wordsearch/sample-3.jpeg',
+        answerKeySrc: '/samples/norwegian/wordsearch/sample-3.jpeg',
+        altText: 'Arbeidsark for 1. trinn ordsoek - gratis arbeidsark for bokstaver lare skrive',
+        imageTitle: 'Arbeidsark for 1. trinn ordsoek',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/norwegian/wordsearch/sample-4.jpeg',
+        answerKeySrc: '/samples/norwegian/wordsearch/sample-4.jpeg',
+        altText: 'Gratis arbeidsark ordgate generator - norsk lesetrening for barneskolen',
+        imageTitle: 'Gratis arbeidsark ordgate generator',
+      },
+    ],
     
   },
 

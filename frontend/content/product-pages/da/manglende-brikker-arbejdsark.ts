@@ -96,7 +96,43 @@ Fuld Adgang abonnementet inkluderer kommerciel licens til at sælge dine opgaver
     noPdfLabel: 'Ingen PDF tilgængelig',
     freePdfCountLabel: '5 gratis downloads',
     ofLabel: 'af',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/danish/missing-pieces/sample-1.jpeg',
+        answerKeySrc: '/samples/danish/missing-pieces/sample-1.jpeg',
+        altText: 'Manglende brikker gratis arbejdsark til børn - visuelle puslespil til børnehaveklasse',
+        imageTitle: 'Manglende brikker gratis arbejdsark til børn',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/danish/missing-pieces/sample-2.jpeg',
+        answerKeySrc: '/samples/danish/missing-pieces/sample-2.jpeg',
+        altText: 'Manglende brikker gratis printables - finmotorik øvelser til 0. klasse',
+        imageTitle: 'Manglende brikker gratis printables',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/danish/missing-pieces/sample-3.jpeg',
+        answerKeySrc: '/samples/danish/missing-pieces/sample-3.jpeg',
+        altText: 'Manglende brikker arbejdsark til børn - mønstergenkendelse til 1. klasse',
+        imageTitle: 'Manglende brikker arbejdsark til børn',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/danish/missing-pieces/sample-4.jpeg',
+        answerKeySrc: '/samples/danish/missing-pieces/sample-4.jpeg',
+        altText: 'Manglende brikker gratis arbejdsark - visuel diskriminering til børnehaveklasse',
+        imageTitle: 'Manglende brikker gratis arbejdsark',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/danish/missing-pieces/sample-5.jpeg',
+        answerKeySrc: '/samples/danish/missing-pieces/sample-5.jpeg',
+        altText: 'Manglende brikker arbejdsark til børnehaveklasse - gratis printables',
+        imageTitle: 'Manglende brikker arbejdsark til børnehaveklasse',
+      },
+    ],
     
   },
 

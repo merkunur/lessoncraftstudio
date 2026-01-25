@@ -103,7 +103,43 @@ Téléchargez vos fiches en format JPEG ou PDF. L'option niveau de gris permet d
     badgeText: 'Exemples Gratuits',
     downloadingLabel: 'Téléchargement...',
     ofLabel: 'sur',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/french/missing-pieces/sample-1.jpeg',
+        answerKeySrc: '/samples/french/missing-pieces/sample-1.jpeg',
+        altText: 'Fiche pièces manquantes gratuite pour maternelle - exercice discrimination visuelle',
+        imageTitle: 'Fiche pièces manquantes gratuite pour maternelle',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/french/missing-pieces/sample-2.jpeg',
+        answerKeySrc: '/samples/french/missing-pieces/sample-2.jpeg',
+        altText: 'Fiches gratuites puzzle visuel pour enfants - exercices CP et maternelle',
+        imageTitle: 'Fiches gratuites puzzle visuel pour enfants',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/french/missing-pieces/sample-3.jpeg',
+        answerKeySrc: '/samples/french/missing-pieces/sample-3.jpeg',
+        altText: 'Fiche gratuite pièces manquantes avec graphisme maternelle et coloriage',
+        imageTitle: 'Fiche gratuite pièces manquantes avec graphisme maternelle et coloriage',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/french/missing-pieces/sample-4.jpeg',
+        answerKeySrc: '/samples/french/missing-pieces/sample-4.jpeg',
+        altText: 'Fiches à imprimer gratuit pièces manquantes - exercices maths pour CE1',
+        imageTitle: 'Fiches à imprimer gratuit pièces manquantes',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/french/missing-pieces/sample-5.jpeg',
+        answerKeySrc: '/samples/french/missing-pieces/sample-5.jpeg',
+        altText: 'Fiche pièces manquantes pour apprendre à lire - puzzle éducatif maternelle',
+        imageTitle: 'Fiche pièces manquantes pour apprendre à lire',
+      },
+    ],
     
   },
 

@@ -100,7 +100,36 @@ Onze sudoku voor kinderen gebruikt afbeeldingen in plaats van cijfers. Een 4x4 r
     badgeText: 'Gratis Voorbeelden',
     downloadingLabel: 'Downloaden...',
     ofLabel: 'van',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/dutch/sudoku/sample-1.jpeg',
+        answerKeySrc: '/samples/dutch/sudoku/sample-1.jpeg',
+        altText: 'Gratis werkblad sudoku voor kinderen - makkelijk niveau met plaatjes',
+        imageTitle: 'Gratis werkblad sudoku voor kinderen',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/dutch/sudoku/sample-2.jpeg',
+        answerKeySrc: '/samples/dutch/sudoku/sample-2.jpeg',
+        altText: 'Gratis werkblad sudoku voor kleuters - medium moeilijkheidsgraad',
+        imageTitle: 'Gratis werkblad sudoku voor kleuters',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/dutch/sudoku/sample-3.jpeg',
+        answerKeySrc: '/samples/dutch/sudoku/sample-3.jpeg',
+        altText: 'Gratis werkbladen sudoku - moeilijk niveau voor groep 3',
+        imageTitle: 'Gratis werkbladen sudoku',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/dutch/sudoku/sample-4.jpeg',
+        answerKeySrc: '/samples/dutch/sudoku/sample-4.jpeg',
+        altText: 'Werkblad voor kinderen sudoku puzzels - gratis printables educatief',
+        imageTitle: 'Werkblad voor kinderen sudoku puzzels',
+      },
+    ],
     
   },
 

@@ -106,7 +106,36 @@ De generator werkt in het Nederlands met volledige UI-ondersteuning. Alle labels
     badgeText: 'Gratis Voorbeelden',
     downloadingLabel: 'Downloaden...',
     ofLabel: 'van',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/dutch/picture-sort/sample-1.jpeg',
+        answerKeySrc: '/samples/dutch/picture-sort/sample-1.jpeg',
+        altText: 'Gratis werkblad sorteer plaatjes - werkbladen groep 3 voor categoriseren',
+        imageTitle: 'Gratis werkblad sorteer plaatjes',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/dutch/picture-sort/sample-2.jpeg',
+        answerKeySrc: '/samples/dutch/picture-sort/sample-2.jpeg',
+        altText: 'Gratis werkbladen sorteren - werkblad voor kinderen classificatie',
+        imageTitle: 'Gratis werkbladen sorteren',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/dutch/picture-sort/sample-3.jpeg',
+        answerKeySrc: '/samples/dutch/picture-sort/sample-3.jpeg',
+        altText: 'Werkblad voor kleuters - gratis printables cognitieve ontwikkeling',
+        imageTitle: 'Werkblad voor kleuters',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/dutch/picture-sort/sample-4.jpeg',
+        answerKeySrc: '/samples/dutch/picture-sort/sample-4.jpeg',
+        altText: 'Sorteer oefenbladen - werkblad voor kinderen logisch denken',
+        imageTitle: 'Sorteer oefenbladen',
+      },
+    ],
     
   },
 

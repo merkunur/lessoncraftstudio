@@ -96,7 +96,43 @@ Full Tillgång-prenumerationen inkluderar alla 33 verktyg för arbetsblad gratis
     badgeText: 'Gratis Exempel',
     downloadingLabel: 'Laddar ner...',
     ofLabel: 'av',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/swedish/odd-one-out/sample-1.jpeg',
+        answerKeySrc: '/samples/swedish/odd-one-out/sample-1.jpeg',
+        altText: 'Hitta udda bilden gratis arbetsblad för förskoleklass - visuell diskriminering övning',
+        imageTitle: 'Hitta udda bilden gratis arbetsblad för förskoleklass',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/swedish/odd-one-out/sample-2.jpeg',
+        answerKeySrc: '/samples/swedish/odd-one-out/sample-2.jpeg',
+        altText: 'Gratis arbetsblad hitta udda bilden - arbetsblad för barn kognitiv utveckling',
+        imageTitle: 'Gratis arbetsblad hitta udda bilden',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/swedish/odd-one-out/sample-3.jpeg',
+        answerKeySrc: '/samples/swedish/odd-one-out/sample-3.jpeg',
+        altText: 'Arbetsblad för förskoleklass hitta udda bilden - gratis utskrifter visuell perception',
+        imageTitle: 'Arbetsblad för förskoleklass hitta udda bilden',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/swedish/odd-one-out/sample-4.jpeg',
+        answerKeySrc: '/samples/swedish/odd-one-out/sample-4.jpeg',
+        altText: 'Hitta udda bilden arbetsblad för barn - gratis arbetsblad logiskt tänkande',
+        imageTitle: 'Hitta udda bilden arbetsblad för barn',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/swedish/odd-one-out/sample-5.jpeg',
+        answerKeySrc: '/samples/swedish/odd-one-out/sample-5.jpeg',
+        altText: 'Gratis arbetsblad för förskoleklass - hitta udda bilden finmotorik övning',
+        imageTitle: 'Gratis arbetsblad för förskoleklass',
+      },
+    ],
     
   },
 

@@ -98,7 +98,43 @@ Les fiches maternelle créées développent plusieurs compétences. Le graphisme
     badgeText: 'Exemples Gratuits',
     downloadingLabel: 'Téléchargement...',
     ofLabel: 'sur',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/french/picture-path/sample-1.jpeg',
+        answerKeySrc: '/samples/french/picture-path/sample-1.jpeg',
+        altText: 'Parcours images fiche gratuite - labyrinthe maternelle exercices graphisme',
+        imageTitle: 'Parcours images fiche gratuite',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/french/picture-path/sample-2.jpeg',
+        answerKeySrc: '/samples/french/picture-path/sample-2.jpeg',
+        altText: 'Fiche labyrinthe gratuite pour enfants - exercices CP raisonnement spatial',
+        imageTitle: 'Fiche labyrinthe gratuite pour enfants',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/french/picture-path/sample-3.jpeg',
+        answerKeySrc: '/samples/french/picture-path/sample-3.jpeg',
+        altText: 'Fiches maternelle gratuites - parcours images graphisme PS MS GS',
+        imageTitle: 'Fiches maternelle gratuites',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/french/picture-path/sample-4.jpeg',
+        answerKeySrc: '/samples/french/picture-path/sample-4.jpeg',
+        altText: 'Labyrinthe fiche pour enfants - imprimables gratuits concentration',
+        imageTitle: 'Labyrinthe fiche pour enfants',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/french/picture-path/sample-5.jpeg',
+        answerKeySrc: '/samples/french/picture-path/sample-5.jpeg',
+        altText: 'Parcours images fiches gratuites maternelle - coloriage à imprimer',
+        imageTitle: 'Parcours images fiches gratuites maternelle',
+      },
+    ],
     
   },
 

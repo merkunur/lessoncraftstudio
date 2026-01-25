@@ -88,7 +88,36 @@ O gerador de atividades para imprimir oferece personalização completa para ate
     badgeText: 'Exemplos Grátis',
     downloadingLabel: 'Baixando...',
     ofLabel: 'de',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/portuguese/word-scramble/sample-1.jpeg',
+        answerKeySrc: '/samples/portuguese/word-scramble/sample-1.jpeg',
+        altText: 'Atividade grátis de palavras embaralhadas para crianças - ficha de alfabetização para educação infantil',
+        imageTitle: 'Atividade grátis de palavras embaralhadas para crianças',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/portuguese/word-scramble/sample-2.jpeg',
+        answerKeySrc: '/samples/portuguese/word-scramble/sample-2.jpeg',
+        altText: 'Imprimíveis grátis de palavras embaralhadas - atividade para educação infantil com imagens coloridas',
+        imageTitle: 'Imprimíveis grátis de palavras embaralhadas',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/portuguese/word-scramble/sample-3.jpeg',
+        answerKeySrc: '/samples/portuguese/word-scramble/sample-3.jpeg',
+        altText: 'Atividades grátis de palavras embaralhadas para crianças - ficha de alfabetização com gabarito',
+        imageTitle: 'Atividades grátis de palavras embaralhadas para crianças',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/portuguese/word-scramble/sample-4.jpeg',
+        answerKeySrc: '/samples/portuguese/word-scramble/sample-4.jpeg',
+        altText: 'Atividade grátis para crianças - palavras embaralhadas com vogais e alfabeto para imprimir',
+        imageTitle: 'Atividade grátis para crianças',
+      },
+    ],
     
   },
 

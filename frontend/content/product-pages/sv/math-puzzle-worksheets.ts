@@ -94,7 +94,43 @@ Förskoleklass material behöver vara både pedagogiskt och engagerande. Våra m
     badgeText: 'Gratis Exempel',
     downloadingLabel: 'Laddar ner...',
     ofLabel: 'av',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/swedish/math-puzzle/sample-1.jpeg',
+        answerKeySrc: '/samples/swedish/math-puzzle/sample-1.jpeg',
+        altText: 'Gratis arbetsblad mattepussel - addition övningar för förskoleklass',
+        imageTitle: 'Gratis arbetsblad mattepussel',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/swedish/math-puzzle/sample-2.jpeg',
+        answerKeySrc: '/samples/swedish/math-puzzle/sample-2.jpeg',
+        altText: 'Gratis arbetsblad för barn - mattepussel med subtraktion',
+        imageTitle: 'Gratis arbetsblad för barn',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/swedish/math-puzzle/sample-3.jpeg',
+        answerKeySrc: '/samples/swedish/math-puzzle/sample-3.jpeg',
+        altText: 'Gratis utskrifter mattepussel - matematik arbetsblad för barn',
+        imageTitle: 'Gratis utskrifter mattepussel',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/swedish/math-puzzle/sample-4.jpeg',
+        answerKeySrc: '/samples/swedish/math-puzzle/sample-4.jpeg',
+        altText: 'Arbetsblad för förskoleklass - mattepussel addition och subtraktion',
+        imageTitle: 'Arbetsblad för förskoleklass',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/swedish/math-puzzle/sample-5.jpeg',
+        answerKeySrc: '/samples/swedish/math-puzzle/sample-5.jpeg',
+        altText: 'Gratis arbetsblad matematik - matte övningar för lågstadiet',
+        imageTitle: 'Gratis arbetsblad matematik',
+      },
+    ],
     
   },
 

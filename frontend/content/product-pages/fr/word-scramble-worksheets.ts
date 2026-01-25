@@ -94,7 +94,43 @@ Notre générateur propose 11 langues. L'interface et le contenu s'adaptent à v
     badgeText: 'Exemples Gratuits',
     downloadingLabel: 'Téléchargement...',
     ofLabel: 'sur',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/french/word-scramble/sample-1.jpeg',
+        answerKeySrc: '/samples/french/word-scramble/sample-1.jpeg',
+        altText: 'Mots mélangés fiche gratuite - exercices vocabulaire maternelle CP',
+        imageTitle: 'Mots mélangés fiche gratuite',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/french/word-scramble/sample-2.jpeg',
+        answerKeySrc: '/samples/french/word-scramble/sample-2.jpeg',
+        altText: 'Mots mélangés fiches gratuites pour enfants - orthographe CP CE1',
+        imageTitle: 'Mots mélangés fiches gratuites pour enfants',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/french/word-scramble/sample-3.jpeg',
+        answerKeySrc: '/samples/french/word-scramble/sample-3.jpeg',
+        altText: 'Mots mélangés fiche pour maternelle - apprendre les lettres',
+        imageTitle: 'Mots mélangés fiche pour maternelle',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/french/word-scramble/sample-4.jpeg',
+        answerKeySrc: '/samples/french/word-scramble/sample-4.jpeg',
+        altText: 'Mots mélangés imprimables gratuits - alphabet pour enfants',
+        imageTitle: 'Mots mélangés imprimables gratuits',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/french/word-scramble/sample-5.jpeg',
+        answerKeySrc: '/samples/french/word-scramble/sample-5.jpeg',
+        altText: 'Mots mélangés fiche gratuite pour enfants - vocabulaire thématique',
+        imageTitle: 'Mots mélangés fiche gratuite pour enfants',
+      },
+    ],
     
   },
 

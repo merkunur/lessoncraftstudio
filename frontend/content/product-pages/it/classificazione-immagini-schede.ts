@@ -92,7 +92,29 @@ Le attività di classificazione aiutano i bambini a identificare somiglianze e d
     badgeText: 'Schede Gratuite',
     downloadingLabel: 'Scaricamento...',
     ofLabel: 'di',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/italian/picture-sort/sample-1.jpeg',
+        answerKeySrc: '/samples/italian/picture-sort/sample-1.jpeg',
+        altText: 'Scheda Gratuita Classificazione Immagini - Stampabili Gratuiti Scuola Primaria',
+        imageTitle: 'Scheda Gratuita Classificazione Immagini',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/italian/picture-sort/sample-3.jpeg',
+        answerKeySrc: '/samples/italian/picture-sort/sample-3.jpeg',
+        altText: 'Stampabili Gratuiti Ordinamento Immagini - Scheda Gratuita per Bambini',
+        imageTitle: 'Stampabili Gratuiti Ordinamento Immagini',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/italian/picture-sort/sample-4.jpeg',
+        answerKeySrc: '/samples/italian/picture-sort/sample-4.jpeg',
+        altText: 'Schede Gratuite Categorizzazione - Stampabili Gratuiti Sviluppo Logico',
+        imageTitle: 'Schede Gratuite Categorizzazione',
+      },
+    ],
     
   },
 

@@ -96,7 +96,43 @@ Verktyget fungerar för alla lärarnivåer. Ingen designerfarenhet behövs. Väl
     badgeText: 'Gratis Exempel',
     downloadingLabel: 'Laddar ner...',
     ofLabel: 'av',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/swedish/sudoku/sample-1.jpeg',
+        answerKeySrc: '/samples/swedish/sudoku/sample-1.jpeg',
+        altText: 'Gratis bildsudoku arbetsblad för förskoleklass - 4x4 logikpussel för barn',
+        imageTitle: 'Gratis bildsudoku arbetsblad för förskoleklass',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/swedish/sudoku/sample-2.jpeg',
+        answerKeySrc: '/samples/swedish/sudoku/sample-2.jpeg',
+        altText: 'Sudoku för barn arbetsblad gratis - matematik övningar med bilder',
+        imageTitle: 'Sudoku för barn arbetsblad gratis',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/swedish/sudoku/sample-3.jpeg',
+        answerKeySrc: '/samples/swedish/sudoku/sample-3.jpeg',
+        altText: 'Arbetsblad för förskoleklass - gratis bildsudoku med facit',
+        imageTitle: 'Arbetsblad för förskoleklass',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/swedish/sudoku/sample-4.jpeg',
+        answerKeySrc: '/samples/swedish/sudoku/sample-4.jpeg',
+        altText: 'Gratis utskrifter sudoku för barn - logikpussel arbetsblad',
+        imageTitle: 'Gratis utskrifter sudoku för barn',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/swedish/sudoku/sample-5.jpeg',
+        answerKeySrc: '/samples/swedish/sudoku/sample-5.jpeg',
+        altText: 'Arbetsblad för barn gratis - bildsudoku förskoleklass material',
+        imageTitle: 'Arbetsblad för barn gratis',
+      },
+    ],
     
   },
 

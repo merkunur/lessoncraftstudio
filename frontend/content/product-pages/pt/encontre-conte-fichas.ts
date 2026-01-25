@@ -88,7 +88,36 @@ Nossa ferramenta gera grades de 5x5 até 10x10 com imagens variadas. Selecione d
     badgeText: 'Exemplos Grátis',
     downloadingLabel: 'Baixando...',
     ofLabel: 'de',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/portuguese/find-and-count/sample-1.jpeg',
+        answerKeySrc: '/samples/portuguese/find-and-count/sample-1.jpeg',
+        altText: 'Atividade grátis de encontre e conte para educação infantil - ficha de contagem visual',
+        imageTitle: 'Atividade grátis de encontre e conte para educação infantil',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/portuguese/find-and-count/sample-2.jpeg',
+        answerKeySrc: '/samples/portuguese/find-and-count/sample-2.jpeg',
+        altText: 'Atividade grátis para crianças - encontre e conte com objetos escondidos',
+        imageTitle: 'Atividade grátis para crianças',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/portuguese/find-and-count/sample-3.jpeg',
+        answerKeySrc: '/samples/portuguese/find-and-count/sample-3.jpeg',
+        altText: 'Imprimíveis grátis de encontre e conte - atividade para educação infantil',
+        imageTitle: 'Imprimíveis grátis de encontre e conte',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/portuguese/find-and-count/sample-4.jpeg',
+        answerKeySrc: '/samples/portuguese/find-and-count/sample-4.jpeg',
+        altText: 'Atividades grátis de contagem visual - encontre e conte para crianças',
+        imageTitle: 'Atividades grátis de contagem visual',
+      },
+    ],
     
   },
 

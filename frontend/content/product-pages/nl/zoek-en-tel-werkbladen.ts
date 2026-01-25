@@ -100,7 +100,36 @@ Zoek-en-tel activiteiten stimuleren meerdere vaardigheden tegelijk. Kinderen oef
     badgeText: 'Gratis Voorbeelden',
     downloadingLabel: 'Downloaden...',
     ofLabel: 'van',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/dutch/find-and-count/sample-1.jpeg',
+        answerKeySrc: '/samples/dutch/find-and-count/sample-1.jpeg',
+        altText: 'Gratis werkblad zoek en tel - werkbladen groep 3 voor rekenen',
+        imageTitle: 'Gratis werkblad zoek en tel',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/dutch/find-and-count/sample-2.jpeg',
+        answerKeySrc: '/samples/dutch/find-and-count/sample-2.jpeg',
+        altText: 'Gratis werkbladen voor kinderen - zoek en tel met sommen tot 20',
+        imageTitle: 'Gratis werkbladen voor kinderen',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/dutch/find-and-count/sample-3.jpeg',
+        answerKeySrc: '/samples/dutch/find-and-count/sample-3.jpeg',
+        altText: 'Gratis printables zoek en tel - werkblad voor kleuters met fijne motoriek',
+        imageTitle: 'Gratis printables zoek en tel',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/dutch/find-and-count/sample-4.jpeg',
+        answerKeySrc: '/samples/dutch/find-and-count/sample-4.jpeg',
+        altText: 'Werkblad voor kinderen zoek en tel - oefenbladen gratis kwaliteit',
+        imageTitle: 'Werkblad voor kinderen zoek en tel',
+      },
+    ],
     
   },
 

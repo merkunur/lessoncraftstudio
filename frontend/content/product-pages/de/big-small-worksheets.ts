@@ -106,7 +106,43 @@ Das Lehren von Größenkonzepten war noch nie einfacher mit unseren anpassbaren 
     badgeText: 'Kostenlose Beispiele',
     downloadingLabel: 'Wird heruntergeladen...',
     ofLabel: 'von',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/german/big-small/sample-1.jpeg',
+        answerKeySrc: '/samples/german/big-small/sample-1.jpeg',
+        altText: 'Groß-Klein Arbeitsblatt kostenlos - Größenvergleich Übung für Vorschule und Grundschule',
+        imageTitle: 'Groß-Klein Arbeitsblatt kostenlos',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/german/big-small/sample-2.jpeg',
+        answerKeySrc: '/samples/german/big-small/sample-2.jpeg',
+        altText: 'Kostenlose Arbeitsblätter Größenvergleich - Mathe-Arbeitsblätter für Kindergarten',
+        imageTitle: 'Kostenlose Arbeitsblätter Größenvergleich',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/german/big-small/sample-3.jpeg',
+        answerKeySrc: '/samples/german/big-small/sample-3.jpeg',
+        altText: 'Vorschul-Arbeitsblätter groß und klein - Arbeitsblätter Grundschule zum Ausdrucken',
+        imageTitle: 'Vorschul-Arbeitsblätter groß und klein',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/german/big-small/sample-4.jpeg',
+        answerKeySrc: '/samples/german/big-small/sample-4.jpeg',
+        altText: 'Arbeitsblatt für Kinder Größenvergleich - kostenlose Arbeitsblätter Vorschule zum Ausdrucken',
+        imageTitle: 'Arbeitsblatt für Kinder Größenvergleich',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/german/big-small/sample-5.jpeg',
+        answerKeySrc: '/samples/german/big-small/sample-5.jpeg',
+        altText: 'Mathe-Arbeitsblätter groß klein - Arbeitsblatt für Vorschule und Grundschule kostenlos',
+        imageTitle: 'Mathe-Arbeitsblätter groß klein',
+      },
+    ],
     
   },
 

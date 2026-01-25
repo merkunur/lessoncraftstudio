@@ -78,7 +78,43 @@ The Alphabet Train worksheet maker transforms alphabet learning into an exciting
     downloadLabel: 'Download Free Sample',
     worksheetLabel: 'Worksheet',
     answerKeyLabel: 'Answer Key',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/english/alphabet-train/sample-1.jpeg',
+        answerKeySrc: '/samples/english/alphabet-train/sample-1.jpeg',
+        altText: 'Free printable alphabet train worksheets for kindergarten - ABC letter matching cut and paste activity',
+        imageTitle: 'Free printable alphabet train worksheets for kindergarten',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/english/alphabet-train/sample-2.jpeg',
+        answerKeySrc: '/samples/english/alphabet-train/sample-2.jpeg',
+        altText: 'ABC worksheets free printable - alphabet train letter recognition worksheet for first grade',
+        imageTitle: 'ABC worksheets free printable',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/english/alphabet-train/sample-3.jpeg',
+        answerKeySrc: '/samples/english/alphabet-train/sample-3.jpeg',
+        altText: 'Phonics worksheets for kindergarten - alphabet train matching letters to pictures activity',
+        imageTitle: 'Phonics worksheets for kindergarten',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/english/alphabet-train/sample-4.jpeg',
+        answerKeySrc: '/samples/english/alphabet-train/sample-4.jpeg',
+        altText: 'Free worksheets for kids - alphabet train tracing and letter recognition practice',
+        imageTitle: 'Free worksheets for kids',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/english/alphabet-train/sample-5.jpeg',
+        answerKeySrc: '/samples/english/alphabet-train/sample-5.jpeg',
+        altText: 'Alphabet worksheets for kindergarten - letter-sound matching train activity worksheet',
+        imageTitle: 'Alphabet worksheets for kindergarten',
+      },
+    ],
     
   },
 

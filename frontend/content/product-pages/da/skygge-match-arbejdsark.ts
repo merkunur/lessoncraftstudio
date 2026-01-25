@@ -98,7 +98,43 @@ Skygge-match opgaver understøtter finmotorik øvelser når børn tegner linjer 
     noPdfLabel: 'Ingen PDF tilgængelig',
     freePdfCountLabel: '3 gratis downloads',
     ofLabel: 'af',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/danish/shadow-match/sample-1.jpeg',
+        answerKeySrc: '/samples/danish/shadow-match/sample-1.jpeg',
+        altText: 'Gratis skygge-match arbejdsark til børn - visuel perception til børnehaveklasse',
+        imageTitle: 'Gratis skygge-match arbejdsark til børn',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/danish/shadow-match/sample-2.jpeg',
+        answerKeySrc: '/samples/danish/shadow-match/sample-2.jpeg',
+        altText: 'Gratis printable skygge-match opgaver - finmotorik øvelser til 0. klasse',
+        imageTitle: 'Gratis printable skygge-match opgaver',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/danish/shadow-match/sample-3.jpeg',
+        answerKeySrc: '/samples/danish/shadow-match/sample-3.jpeg',
+        altText: 'Gratis arbejdsark billedmatching - visuel diskrimination til 1. klasse',
+        imageTitle: 'Gratis arbejdsark billedmatching',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/danish/shadow-match/sample-4.jpeg',
+        answerKeySrc: '/samples/danish/shadow-match/sample-4.jpeg',
+        altText: 'Gratis skygge-match kopiark til børnehaveklasse - visuel læring',
+        imageTitle: 'Gratis skygge-match kopiark til børnehaveklasse',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/danish/shadow-match/sample-5.jpeg',
+        answerKeySrc: '/samples/danish/shadow-match/sample-5.jpeg',
+        altText: 'Gratis opgaver visuel perception - skygge-match til børn',
+        imageTitle: 'Gratis opgaver visuel perception',
+      },
+    ],
     
   },
 

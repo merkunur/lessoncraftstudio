@@ -106,7 +106,43 @@ Unser Bilder-Bingo-Generator erstellt zwei druckbare Arbeitsblätter bei jeder G
     badgeText: 'Kostenlose Beispiele',
     downloadingLabel: 'Wird heruntergeladen...',
     ofLabel: 'von',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/german/bingo/sample-1.jpeg',
+        answerKeySrc: '/samples/german/bingo/sample-1.jpeg',
+        altText: 'Bilder-Bingo Arbeitsblätter kostenlos für Grundschule - Arbeitsblatt mit bunten Bildern für Buchstaben lernen und Vorschule',
+        imageTitle: 'Bilder-Bingo Arbeitsblätter kostenlos für Grundschule',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/german/bingo/sample-2.jpeg',
+        answerKeySrc: '/samples/german/bingo/sample-2.jpeg',
+        altText: 'Kostenlose Arbeitsblätter Bilder-Bingo für Kinder - Mathe-Arbeitsblätter mit Bild-und-Wort-Zuordnung für Rechnen lernen',
+        imageTitle: 'Kostenlose Arbeitsblätter Bilder-Bingo für Kinder',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/german/bingo/sample-3.jpeg',
+        answerKeySrc: '/samples/german/bingo/sample-3.jpeg',
+        altText: 'Vorschul-Arbeitsblätter Bilder-Bingo druckbar - kostenloses Arbeitsblatt für Kindergarten mit Ausmalbilder',
+        imageTitle: 'Vorschul-Arbeitsblätter Bilder-Bingo druckbar',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/german/bingo/sample-4.jpeg',
+        answerKeySrc: '/samples/german/bingo/sample-4.jpeg',
+        altText: 'Bilder-Bingo Arbeitsblatt für Vorschule und Grundschule - kostenlose Druckvorlage mit Einmaleins und Rechnen 1. Klasse',
+        imageTitle: 'Bilder-Bingo Arbeitsblatt für Vorschule und Grundschule',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/german/bingo/sample-5.jpeg',
+        answerKeySrc: '/samples/german/bingo/sample-5.jpeg',
+        altText: 'Deutsch-Arbeitsblätter Bilder-Bingo Generator - kostenloses Arbeitsblatt für Schwungübungen und Klassenaktivitäten',
+        imageTitle: 'Deutsch-Arbeitsblätter Bilder-Bingo Generator',
+      },
+    ],
     
   },
 

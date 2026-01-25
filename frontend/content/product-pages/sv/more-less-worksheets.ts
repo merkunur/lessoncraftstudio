@@ -94,7 +94,43 @@ Använd vårt verktyg för att skapa arbetsblad gratis från per-arbetsblad-avgi
     badgeText: 'Gratis Exempel',
     downloadingLabel: 'Laddar ner...',
     ofLabel: 'av',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/swedish/more-less/sample-1.jpeg',
+        answerKeySrc: '/samples/swedish/more-less/sample-1.jpeg',
+        altText: 'Gratis arbetsblad jämförelse för förskoleklass - siffror och tal matematik övningar',
+        imageTitle: 'Gratis arbetsblad jämförelse för förskoleklass',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/swedish/more-less/sample-2.jpeg',
+        answerKeySrc: '/samples/swedish/more-less/sample-2.jpeg',
+        altText: 'Gratis arbetsblad för barn - större än mindre än jämförelse matematik',
+        imageTitle: 'Gratis arbetsblad för barn',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/swedish/more-less/sample-3.jpeg',
+        answerKeySrc: '/samples/swedish/more-less/sample-3.jpeg',
+        altText: 'Arbetsblad för förskoleklass - jämförelse siffror och tal matte övningar',
+        imageTitle: 'Arbetsblad för förskoleklass',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/swedish/more-less/sample-4.jpeg',
+        answerKeySrc: '/samples/swedish/more-less/sample-4.jpeg',
+        altText: 'Gratis utskrifter jämförelse arbetsblad - matematik för barn',
+        imageTitle: 'Gratis utskrifter jämförelse arbetsblad',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/swedish/more-less/sample-5.jpeg',
+        answerKeySrc: '/samples/swedish/more-less/sample-5.jpeg',
+        altText: 'Arbetsblad för barn jämförelse - större mindre lika med övningar',
+        imageTitle: 'Arbetsblad för barn jämförelse',
+      },
+    ],
     
   },
 

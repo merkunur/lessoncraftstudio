@@ -82,7 +82,43 @@ The puzzles use familiar images children love. Select from our 3000+ image libra
     downloadLabel: 'Download Free Sample',
     worksheetLabel: 'Worksheet',
     answerKeyLabel: 'Answer Key',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/english/math-puzzle/sample-1.jpeg',
+        answerKeySrc: '/samples/english/math-puzzle/sample-1.jpeg',
+        altText: 'Free math puzzle worksheets for kindergarten - printable addition grid worksheet for kids',
+        imageTitle: 'Free math puzzle worksheets for kindergarten',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/english/math-puzzle/sample-2.jpeg',
+        answerKeySrc: '/samples/english/math-puzzle/sample-2.jpeg',
+        altText: 'Math puzzle worksheets free printable - subtraction practice worksheet for first grade students',
+        imageTitle: 'Math puzzle worksheets free printable',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/english/math-puzzle/sample-3.jpeg',
+        answerKeySrc: '/samples/english/math-puzzle/sample-3.jpeg',
+        altText: 'Free worksheets for kids - mixed operations math puzzle for kindergarten and first grade',
+        imageTitle: 'Free worksheets for kids',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/english/math-puzzle/sample-4.jpeg',
+        answerKeySrc: '/samples/english/math-puzzle/sample-4.jpeg',
+        altText: 'Free printables math puzzle worksheet - visual addition practice for kindergarten kids',
+        imageTitle: 'Free printables math puzzle worksheet',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/english/math-puzzle/sample-5.jpeg',
+        answerKeySrc: '/samples/english/math-puzzle/sample-5.jpeg',
+        altText: 'Worksheet for kindergarten math puzzle - free worksheet for kids with colorful images',
+        imageTitle: 'Worksheet for kindergarten math puzzle',
+      },
+    ],
     
   },
 

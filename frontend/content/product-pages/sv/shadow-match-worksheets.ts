@@ -98,7 +98,43 @@ Full Tillgång-prenumerationen inkluderar kommersiell licens för utskrift-på-b
     badgeText: 'Gratis Exempel',
     downloadingLabel: 'Laddar ner...',
     ofLabel: 'av',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/swedish/shadow-match/sample-1.jpeg',
+        answerKeySrc: '/samples/swedish/shadow-match/sample-1.jpeg',
+        altText: 'Skuggmatchning gratis arbetsblad för barn - visuell perception övningar för förskoleklass material',
+        imageTitle: 'Skuggmatchning gratis arbetsblad för barn',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/swedish/shadow-match/sample-2.jpeg',
+        answerKeySrc: '/samples/swedish/shadow-match/sample-2.jpeg',
+        altText: 'Gratis arbetsblad skuggmatchning - matcha bilder med skuggor för arbetsblad för barn',
+        imageTitle: 'Gratis arbetsblad skuggmatchning',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/swedish/shadow-match/sample-3.jpeg',
+        answerKeySrc: '/samples/swedish/shadow-match/sample-3.jpeg',
+        altText: 'Arbetsblad för förskoleklass skuggmatchning - gratis utskrifter för visuell diskriminering',
+        imageTitle: 'Arbetsblad för förskoleklass skuggmatchning',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/swedish/shadow-match/sample-4.jpeg',
+        answerKeySrc: '/samples/swedish/shadow-match/sample-4.jpeg',
+        altText: 'Gör det helt arbetsblad för barn - gratis arbetsblad för spatialt resonemang',
+        imageTitle: 'Gör det helt arbetsblad för barn',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/swedish/shadow-match/sample-5.jpeg',
+        answerKeySrc: '/samples/swedish/shadow-match/sample-5.jpeg',
+        altText: 'Skuggmatchning gratis utskrifter - arbetsblad för barn visuell perception övningar',
+        imageTitle: 'Skuggmatchning gratis utskrifter',
+      },
+    ],
     
   },
 

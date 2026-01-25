@@ -98,7 +98,43 @@ El generador funciona en 11 idiomas diferentes. Los nombres de las imágenes se 
     badgeText: 'Ejemplos Gratis',
     downloadingLabel: 'Descargando...',
     ofLabel: 'de',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/spanish/find-objects/sample-1.jpeg',
+        answerKeySrc: '/samples/spanish/find-objects/sample-1.jpeg',
+        altText: 'Fichas para imprimir de buscar objetos - actividad Veo Veo para preescolar',
+        imageTitle: 'Fichas para imprimir de buscar objetos',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/spanish/find-objects/sample-2.jpeg',
+        answerKeySrc: '/samples/spanish/find-objects/sample-2.jpeg',
+        altText: 'Fichas infantil de encuentra el diferente - discriminación visual para primaria',
+        imageTitle: 'Fichas infantil de encuentra el diferente',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/spanish/find-objects/sample-3.jpeg',
+        answerKeySrc: '/samples/spanish/find-objects/sample-3.jpeg',
+        altText: 'Fichas preescolar de buscar objetos - ejercicio de observación visual gratis',
+        imageTitle: 'Fichas preescolar de buscar objetos',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/spanish/find-objects/sample-4.jpeg',
+        answerKeySrc: '/samples/spanish/find-objects/sample-4.jpeg',
+        altText: 'Material educativo gratis de Veo Veo - fichas para imprimir con grafomotricidad',
+        imageTitle: 'Material educativo gratis de Veo Veo',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/spanish/find-objects/sample-5.jpeg',
+        answerKeySrc: '/samples/spanish/find-objects/sample-5.jpeg',
+        altText: 'Fichas gratis de buscar objetos - actividad de discriminación visual infantil',
+        imageTitle: 'Fichas gratis de buscar objetos',
+      },
+    ],
     
   },
 

@@ -114,7 +114,43 @@ Der Generator unterstützt 11 Sprachen für die Benutzeroberfläche und Bildbesc
     badgeText: 'Kostenlose Beispiele',
     downloadingLabel: 'Wird heruntergeladen...',
     ofLabel: 'von',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/german/subtraction/sample-1.jpeg',
+        answerKeySrc: '/samples/german/subtraction/sample-1.jpeg',
+        altText: 'Subtraktion Arbeitsblätter kostenlos zum Ausdrucken - Minusrechnen für Vorschule und Grundschule',
+        imageTitle: 'Subtraktion Arbeitsblätter kostenlos zum Ausdrucken',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/german/subtraction/sample-2.jpeg',
+        answerKeySrc: '/samples/german/subtraction/sample-2.jpeg',
+        altText: 'Mathe Arbeitsblätter Minusrechnen für Kinder - Rechnen lernen für Arbeitsblätter Grundschule',
+        imageTitle: 'Mathe Arbeitsblätter Minusrechnen für Kinder',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/german/subtraction/sample-3.jpeg',
+        answerKeySrc: '/samples/german/subtraction/sample-3.jpeg',
+        altText: 'Kostenlose Subtraktion Übungsblätter - Rechnen 1. Klasse für Vorschule Arbeitsblätter',
+        imageTitle: 'Kostenlose Subtraktion Übungsblätter',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/german/subtraction/sample-4.jpeg',
+        answerKeySrc: '/samples/german/subtraction/sample-4.jpeg',
+        altText: 'Subtraktion Arbeitsblätter Grundschule - Minusrechnen spielerisch lernen mit Bildern',
+        imageTitle: 'Subtraktion Arbeitsblätter Grundschule',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/german/subtraction/sample-5.jpeg',
+        answerKeySrc: '/samples/german/subtraction/sample-5.jpeg',
+        altText: 'Druckbare Subtraktion Arbeitsblätter - Kostenlose Arbeitsblätter für Mathe Rechnen lernen',
+        imageTitle: 'Druckbare Subtraktion Arbeitsblätter',
+      },
+    ],
     
   },
 

@@ -96,7 +96,43 @@ As atividades de desenho em grade combinam arte com matemática básica. Enquant
     badgeText: 'Exemplos Grátis',
     downloadingLabel: 'Baixando...',
     ofLabel: 'de',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/portuguese/draw-and-color/sample-1.jpeg',
+        answerKeySrc: '/samples/portuguese/draw-and-color/sample-1.jpeg',
+        altText: 'Atividade gratis de desenho em grade - coordenacao motora para educacao infantil',
+        imageTitle: 'Atividade gratis de desenho em grade',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/portuguese/draw-and-color/sample-2.jpeg',
+        answerKeySrc: '/samples/portuguese/draw-and-color/sample-2.jpeg',
+        altText: 'Atividades gratis de desenho em grade para criancas - imprimiveis gratis',
+        imageTitle: 'Atividades gratis de desenho em grade para criancas',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/portuguese/draw-and-color/sample-3.jpeg',
+        answerKeySrc: '/samples/portuguese/draw-and-color/sample-3.jpeg',
+        altText: 'Atividade para criancas de colorir em grade - atividade gratis para educacao infantil',
+        imageTitle: 'Atividade para criancas de colorir em grade',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/portuguese/draw-and-color/sample-4.jpeg',
+        answerKeySrc: '/samples/portuguese/draw-and-color/sample-4.jpeg',
+        altText: 'Atividade gratis para criancas de desenho em grade com coordenacao motora',
+        imageTitle: 'Atividade gratis para criancas de desenho em grade com coordenacao motora',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/portuguese/draw-and-color/sample-5.jpeg',
+        answerKeySrc: '/samples/portuguese/draw-and-color/sample-5.jpeg',
+        altText: 'Imprimiveis gratis de desenho em grade - atividades gratis para criancas',
+        imageTitle: 'Imprimiveis gratis de desenho em grade',
+      },
+    ],
     
   },
 

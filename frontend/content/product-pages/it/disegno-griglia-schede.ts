@@ -94,7 +94,36 @@ Perfetto per insegnanti della scuola dell'infanzia che hanno bisogno di material
     badgeText: 'Esempi Gratuiti',
     downloadingLabel: 'Scaricamento...',
     ofLabel: 'di',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/italian/draw-and-color/sample-1.jpeg',
+        answerKeySrc: '/samples/italian/draw-and-color/sample-1.jpeg',
+        altText: 'Disegni con griglia schede gratuite - scheda gratuita pregrafismo per bambini scuola infanzia',
+        imageTitle: 'Disegni con griglia schede gratuite',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/italian/draw-and-color/sample-2.jpeg',
+        answerKeySrc: '/samples/italian/draw-and-color/sample-2.jpeg',
+        altText: 'Scheda gratuita disegno griglia per bambini - stampabili gratuiti scuola primaria',
+        imageTitle: 'Scheda gratuita disegno griglia per bambini',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/italian/draw-and-color/sample-4.jpeg',
+        answerKeySrc: '/samples/italian/draw-and-color/sample-4.jpeg',
+        altText: 'Schede gratuite disegni da colorare griglia - scheda gratuita per bambini',
+        imageTitle: 'Schede gratuite disegni da colorare griglia',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/italian/draw-and-color/sample-5.jpeg',
+        answerKeySrc: '/samples/italian/draw-and-color/sample-5.jpeg',
+        altText: 'Disegno griglia scheda gratuita bambini - stampabili gratuiti pregrafismo',
+        imageTitle: 'Disegno griglia scheda gratuita bambini',
+      },
+    ],
     
   },
 

@@ -81,7 +81,43 @@ This word search generator works in 11 languages. Select a theme like animals or
     downloadLabel: 'Download Free Sample',
     worksheetLabel: 'Worksheet',
     answerKeyLabel: 'Answer Key',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/english/wordsearch/sample-1.jpeg',
+        answerKeySrc: '/samples/english/wordsearch/sample-1.jpeg',
+        altText: 'Free printable word search worksheets for kindergarten - vocabulary puzzles with colorful themed images',
+        imageTitle: 'Free printable word search worksheets for kindergarten',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/english/wordsearch/sample-2.jpeg',
+        answerKeySrc: '/samples/english/wordsearch/sample-2.jpeg',
+        altText: 'Word search generator printable worksheets - word puzzles for first grade kids with picture clues',
+        imageTitle: 'Word search generator printable worksheets',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/english/wordsearch/sample-3.jpeg',
+        answerKeySrc: '/samples/english/wordsearch/sample-3.jpeg',
+        altText: 'Free word search worksheets - sight words and phonics practice for kindergarten students',
+        imageTitle: 'Free word search worksheets',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/english/wordsearch/sample-4.jpeg',
+        answerKeySrc: '/samples/english/wordsearch/sample-4.jpeg',
+        altText: 'Word search printable free - vocabulary word puzzle for preschool learning',
+        imageTitle: 'Word search printable free',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/english/wordsearch/sample-5.jpeg',
+        answerKeySrc: '/samples/english/wordsearch/sample-5.jpeg',
+        altText: 'Free word puzzles for kids - word search worksheet for kindergarten vocabulary building',
+        imageTitle: 'Free word puzzles for kids',
+      },
+    ],
     
   },
 

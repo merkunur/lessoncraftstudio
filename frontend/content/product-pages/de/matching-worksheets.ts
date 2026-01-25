@@ -106,7 +106,43 @@ Der Zuordnungs-Generator bietet flexible Inhaltserstellung für jedes Fach. Erst
     badgeText: 'Kostenlose Beispiele',
     downloadingLabel: 'Wird heruntergeladen...',
     ofLabel: 'von',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/german/matching/sample-1.jpeg',
+        answerKeySrc: '/samples/german/matching/sample-1.jpeg',
+        altText: 'Zuordnungs-Arbeitsblätter kostenlos - Bild-zu-Buchstabe-Zuordnung für Arbeitsblätter Grundschule',
+        imageTitle: 'Zuordnungs-Arbeitsblätter kostenlos',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/german/matching/sample-2.jpeg',
+        answerKeySrc: '/samples/german/matching/sample-2.jpeg',
+        altText: 'Kostenlose Arbeitsblätter für Kinder - Zuordnungsübungen für Vorschule',
+        imageTitle: 'Kostenlose Arbeitsblätter für Kinder',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/german/matching/sample-3.jpeg',
+        answerKeySrc: '/samples/german/matching/sample-3.jpeg',
+        altText: 'Arbeitsblatt für Kinder - Bild-Wort-Zuordnung für Deutsch-Arbeitsblätter',
+        imageTitle: 'Arbeitsblatt für Kinder',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/german/matching/sample-4.jpeg',
+        answerKeySrc: '/samples/german/matching/sample-4.jpeg',
+        altText: 'Kostenlose Druckvorlagen Zuordnung - Mathe-Arbeitsblätter mit visueller Zuordnung für Rechnen lernen',
+        imageTitle: 'Kostenlose Druckvorlagen Zuordnung',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/german/matching/sample-5.jpeg',
+        answerKeySrc: '/samples/german/matching/sample-5.jpeg',
+        altText: 'Arbeitsblatt für Vorschule - Zuordnungsarbeitsblatt mit Bildern für kostenlose Arbeitsblätter Grundschule',
+        imageTitle: 'Arbeitsblatt für Vorschule',
+      },
+    ],
     
   },
 

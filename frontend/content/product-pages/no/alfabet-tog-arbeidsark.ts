@@ -94,7 +94,43 @@ Perfekt for norske lærere som trenger bokstavarbeidsark raskt. Velg 11 bokstave
     noPdfLabel: 'Ingen PDF tilgjengelig',
     freePdfCountLabel: '2 gratis nedlastinger',
     ofLabel: 'av',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/norwegian/alphabet-train/sample-1.jpeg',
+        answerKeySrc: '/samples/norwegian/alphabet-train/sample-1.jpeg',
+        altText: 'Gratis arbeidsark alfabet-tog - bokstavinnlæring for barn i barnehage',
+        imageTitle: 'Gratis arbeidsark alfabet-tog',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/norwegian/alphabet-train/sample-2.jpeg',
+        answerKeySrc: '/samples/norwegian/alphabet-train/sample-2.jpeg',
+        altText: 'Arbeidsark for 1. trinn alfabet-tog - gratis utskrifter med bokstaver',
+        imageTitle: 'Arbeidsark for 1. trinn alfabet-tog',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/norwegian/alphabet-train/sample-3.jpeg',
+        answerKeySrc: '/samples/norwegian/alphabet-train/sample-3.jpeg',
+        altText: 'Gratis arbeidsark for barn - alfabet-tog bokstaver lære skrive',
+        imageTitle: 'Gratis arbeidsark for barn',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/norwegian/alphabet-train/sample-4.jpeg',
+        answerKeySrc: '/samples/norwegian/alphabet-train/sample-4.jpeg',
+        altText: 'Arbeidsark for barn alfabet-tog - gratis utskrifter barnehage',
+        imageTitle: 'Arbeidsark for barn alfabet-tog',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/norwegian/alphabet-train/sample-5.jpeg',
+        answerKeySrc: '/samples/norwegian/alphabet-train/sample-5.jpeg',
+        altText: 'Gratis arbeidsark bokstavinnlæring - alfabet-tog for 1. trinn',
+        imageTitle: 'Gratis arbeidsark bokstavinnlæring',
+      },
+    ],
     
   },
 

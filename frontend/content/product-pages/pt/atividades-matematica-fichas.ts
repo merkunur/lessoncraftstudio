@@ -88,7 +88,36 @@ Cada atividade de matemática que você cria é 100% editável. Arraste, redimen
     badgeText: 'Exemplos Grátis',
     downloadingLabel: 'Baixando...',
     ofLabel: 'de',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/portuguese/math/sample-1.jpeg',
+        answerKeySrc: '/samples/portuguese/math/sample-1.jpeg',
+        altText: 'Atividade grátis de matemática para imprimir - exercícios para educação infantil',
+        imageTitle: 'Atividade grátis de matemática para imprimir',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/portuguese/math/sample-2.jpeg',
+        answerKeySrc: '/samples/portuguese/math/sample-2.jpeg',
+        altText: 'Atividades grátis de matemática com tabuada - atividade para crianças do 1º ano',
+        imageTitle: 'Atividades grátis de matemática com tabuada',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/portuguese/math/sample-3.jpeg',
+        answerKeySrc: '/samples/portuguese/math/sample-3.jpeg',
+        altText: 'Imprimíveis grátis de matemática - atividade para educação infantil com desenhos',
+        imageTitle: 'Imprimíveis grátis de matemática',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/portuguese/math/sample-4.jpeg',
+        answerKeySrc: '/samples/portuguese/math/sample-4.jpeg',
+        altText: 'Atividade grátis para crianças - fichas de matemática para imprimir',
+        imageTitle: 'Atividade grátis para crianças',
+      },
+    ],
     
   },
 

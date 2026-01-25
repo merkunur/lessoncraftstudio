@@ -94,7 +94,43 @@ O gerador de atividades para imprimir de encontrar objetos oferece dois modos de
     badgeText: 'Exemplos Grátis',
     downloadingLabel: 'Baixando...',
     ofLabel: 'de',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/portuguese/find-objects/sample-1.jpeg',
+        answerKeySrc: '/samples/portuguese/find-objects/sample-1.jpeg',
+        altText: 'Atividade grátis de encontrar objetos para crianças - modo Eu Espio para educação infantil',
+        imageTitle: 'Atividade grátis de encontrar objetos para crianças',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/portuguese/find-objects/sample-2.jpeg',
+        answerKeySrc: '/samples/portuguese/find-objects/sample-2.jpeg',
+        altText: 'Atividade grátis para crianças de encontrar objetos - imprimíveis grátis para 1º ano',
+        imageTitle: 'Atividade grátis para crianças de encontrar objetos',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/portuguese/find-objects/sample-3.jpeg',
+        answerKeySrc: '/samples/portuguese/find-objects/sample-3.jpeg',
+        altText: 'Atividades grátis de encontrar objetos infantil - atividade para educação infantil',
+        imageTitle: 'Atividades grátis de encontrar objetos infantil',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/portuguese/find-objects/sample-4.jpeg',
+        answerKeySrc: '/samples/portuguese/find-objects/sample-4.jpeg',
+        altText: 'Imprimíveis grátis de encontrar objetos - modo Qual é o Diferente para crianças',
+        imageTitle: 'Imprimíveis grátis de encontrar objetos',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/portuguese/find-objects/sample-5.jpeg',
+        answerKeySrc: '/samples/portuguese/find-objects/sample-5.jpeg',
+        altText: 'Atividade grátis para educação infantil de encontrar objetos - fichas com gabarito',
+        imageTitle: 'Atividade grátis para educação infantil de encontrar objetos',
+      },
+    ],
     
   },
 

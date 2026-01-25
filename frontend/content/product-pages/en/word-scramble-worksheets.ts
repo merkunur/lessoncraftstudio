@@ -84,7 +84,43 @@ Every worksheet downloads as a 300 DPI professional-quality PDF or JPEG file. In
     downloadLabel: 'Download Free Sample',
     worksheetLabel: 'Worksheet',
     answerKeyLabel: 'Answer Key',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/english/word-scramble/sample-1.jpeg',
+        answerKeySrc: '/samples/english/word-scramble/sample-1.jpeg',
+        altText: 'Free printable word scramble worksheets for kindergarten - vocabulary puzzle with picture clues',
+        imageTitle: 'Free printable word scramble worksheets for kindergarten',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/english/word-scramble/sample-2.jpeg',
+        answerKeySrc: '/samples/english/word-scramble/sample-2.jpeg',
+        altText: 'Word scramble worksheets - spelling puzzles for first grade vocabulary practice',
+        imageTitle: 'Word scramble worksheets',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/english/word-scramble/sample-3.jpeg',
+        answerKeySrc: '/samples/english/word-scramble/sample-3.jpeg',
+        altText: 'Free word scramble worksheet custom word list - sight words practice for kids',
+        imageTitle: 'Free word scramble worksheet custom word list',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/english/word-scramble/sample-4.jpeg',
+        answerKeySrc: '/samples/english/word-scramble/sample-4.jpeg',
+        altText: 'Word scramble printable free - vocabulary unscramble worksheet for preschool',
+        imageTitle: 'Word scramble printable free',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/english/word-scramble/sample-5.jpeg',
+        answerKeySrc: '/samples/english/word-scramble/sample-5.jpeg',
+        altText: 'Free spelling worksheets - word scramble puzzle for kindergarten phonics',
+        imageTitle: 'Free spelling worksheets',
+      },
+    ],
     
   },
 

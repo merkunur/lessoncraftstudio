@@ -94,7 +94,43 @@ Este generador funciona perfectamente para fichas de matemáticas y ejercicios d
     badgeText: 'Ejemplos',
     downloadingLabel: 'Descargando',
     ofLabel: 'de',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/spanish/draw-and-color/sample-1.jpeg',
+        answerKeySrc: '/samples/spanish/draw-and-color/sample-1.jpeg',
+        altText: 'Ficha de dibujo en cuadrícula fichas gratis para imprimir - grafomotricidad para preescolar',
+        imageTitle: 'Ficha de dibujo en cuadrícula fichas gratis para imprimir',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/spanish/draw-and-color/sample-2.jpeg',
+        answerKeySrc: '/samples/spanish/draw-and-color/sample-2.jpeg',
+        altText: 'Dibujos para colorear en cuadrícula fichas infantil - material educativo gratis educación infantil',
+        imageTitle: 'Dibujos para colorear en cuadrícula fichas infantil',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/spanish/draw-and-color/sample-3.jpeg',
+        answerKeySrc: '/samples/spanish/draw-and-color/sample-3.jpeg',
+        altText: 'Fichas para imprimir cuadrícula de dibujo - fichas preescolar grafomotricidad y lectoescritura',
+        imageTitle: 'Fichas para imprimir cuadrícula de dibujo',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/spanish/draw-and-color/sample-4.jpeg',
+        answerKeySrc: '/samples/spanish/draw-and-color/sample-4.jpeg',
+        altText: 'Cuadrícula de dibujo fichas gratis - desarrollo motricidad fina para niños preescolar',
+        imageTitle: 'Cuadrícula de dibujo fichas gratis',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/spanish/draw-and-color/sample-5.jpeg',
+        answerKeySrc: '/samples/spanish/draw-and-color/sample-5.jpeg',
+        altText: 'Dibujo en cuadrícula material educativo gratis - fichas infantil habilidades visual-espaciales',
+        imageTitle: 'Dibujo en cuadrícula material educativo gratis',
+      },
+    ],
     
   },
 

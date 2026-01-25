@@ -88,7 +88,36 @@ Este generador funciona en 11 idiomas completos. Selecciona un tema como animale
     badgeText: 'Ejemplos Gratis',
     downloadingLabel: 'Descargando...',
     ofLabel: 'de',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/spanish/wordsearch/sample-1.jpeg',
+        answerKeySrc: '/samples/spanish/wordsearch/sample-1.jpeg',
+        altText: 'Sopa de letras fichas gratis para imprimir - puzzles vocabulario para educación infantil',
+        imageTitle: 'Sopa de letras fichas gratis para imprimir',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/spanish/wordsearch/sample-2.jpeg',
+        answerKeySrc: '/samples/spanish/wordsearch/sample-2.jpeg',
+        altText: 'Sopa de letras ficha gratis para niños - puzzles vocabulario para preescolar',
+        imageTitle: 'Sopa de letras ficha gratis para niños',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/spanish/wordsearch/sample-3.jpeg',
+        answerKeySrc: '/samples/spanish/wordsearch/sample-3.jpeg',
+        altText: 'Sopa de letras fichas para imprimir personalizada - lista de palabras para educación infantil',
+        imageTitle: 'Sopa de letras fichas para imprimir personalizada',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/spanish/wordsearch/sample-4.jpeg',
+        answerKeySrc: '/samples/spanish/wordsearch/sample-4.jpeg',
+        altText: 'Generador sopa de letras gratis - fichas vocabulario para primaria',
+        imageTitle: 'Generador sopa de letras gratis',
+      },
+    ],
     
   },
 

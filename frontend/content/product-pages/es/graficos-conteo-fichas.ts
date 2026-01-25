@@ -96,7 +96,43 @@ Los maestros de preescolar usan estas fichas para imprimir para enseñar clasifi
     badgeText: 'Ejemplos Gratis',
     downloadingLabel: 'Descargando...',
     ofLabel: 'de',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/spanish/chart-count/sample-1.jpeg',
+        answerKeySrc: '/samples/spanish/chart-count/sample-1.jpeg',
+        altText: 'Fichas de gráficos con imágenes gratis para imprimir - ejercicios de conteo para preescolar',
+        imageTitle: 'Fichas de gráficos con imágenes gratis para imprimir',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/spanish/chart-count/sample-2.jpeg',
+        answerKeySrc: '/samples/spanish/chart-count/sample-2.jpeg',
+        altText: 'Gráficos de conteo fichas para imprimir gratis - material educativo matemáticas infantil',
+        imageTitle: 'Gráficos de conteo fichas para imprimir gratis',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/spanish/chart-count/sample-3.jpeg',
+        answerKeySrc: '/samples/spanish/chart-count/sample-3.jpeg',
+        altText: 'Fichas de matemáticas para preescolar gratis - gráficos con imágenes para niños',
+        imageTitle: 'Fichas de matemáticas para preescolar gratis',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/spanish/chart-count/sample-4.jpeg',
+        answerKeySrc: '/samples/spanish/chart-count/sample-4.jpeg',
+        altText: 'Gráficos para contar fichas gratis para imprimir - ejercicios visuales educación infantil',
+        imageTitle: 'Gráficos para contar fichas gratis para imprimir',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/spanish/chart-count/sample-5.jpeg',
+        answerKeySrc: '/samples/spanish/chart-count/sample-5.jpeg',
+        altText: 'Fichas infantil de gráficos de conteo gratis - material educativo para primaria',
+        imageTitle: 'Fichas infantil de gráficos de conteo gratis',
+      },
+    ],
     
   },
 

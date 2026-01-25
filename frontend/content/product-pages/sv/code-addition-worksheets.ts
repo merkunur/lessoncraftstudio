@@ -90,7 +90,36 @@ Full Tillgång-prenumerationen kostar 2400 kr per år eller 250 kr per månad. D
     badgeText: 'Gratis Exempel',
     downloadingLabel: 'Laddar ner...',
     ofLabel: 'av',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/swedish/code-addition/sample-1.jpeg',
+        answerKeySrc: '/samples/swedish/code-addition/sample-1.jpeg',
+        altText: 'Gratis arbetsblad kodaddition - matematik övningar för förskoleklass porträttformat',
+        imageTitle: 'Gratis arbetsblad kodaddition',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/swedish/code-addition/sample-2.jpeg',
+        answerKeySrc: '/samples/swedish/code-addition/sample-2.jpeg',
+        altText: 'Gratis arbetsblad kodaddition - matematik övningar för barn liggande format',
+        imageTitle: 'Gratis arbetsblad kodaddition',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/swedish/code-addition/sample-3.jpeg',
+        answerKeySrc: '/samples/swedish/code-addition/sample-3.jpeg',
+        altText: 'Gratis arbetsblad för förskoleklass - kodaddition med bilder',
+        imageTitle: 'Gratis arbetsblad för förskoleklass',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/swedish/code-addition/sample-4.jpeg',
+        answerKeySrc: '/samples/swedish/code-addition/sample-4.jpeg',
+        altText: 'Arbetsblad för barn - kodaddition matematik gratis utskrifter',
+        imageTitle: 'Arbetsblad för barn',
+      },
+    ],
     
   },
 

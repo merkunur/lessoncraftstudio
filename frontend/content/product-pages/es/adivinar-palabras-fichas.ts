@@ -90,7 +90,36 @@ Tu suscripcion Acceso Completo incluye licencia comercial completa. Puedes vende
     badgeText: 'Ejemplos Gratis',
     downloadingLabel: 'Descargando...',
     ofLabel: 'de',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/spanish/word-guess/sample-1.jpeg',
+        answerKeySrc: '/samples/spanish/word-guess/sample-1.jpeg',
+        altText: 'Ficha gratis de adivina la palabra con cuadricula de pistas para lectoescritura infantil',
+        imageTitle: 'Ficha gratis de adivina la palabra con cuadricula de pistas para lectoescritura infantil',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/spanish/word-guess/sample-2.jpeg',
+        answerKeySrc: '/samples/spanish/word-guess/sample-2.jpeg',
+        altText: 'Ficha gratis para niños de adivina la palabra para preescolar',
+        imageTitle: 'Ficha gratis para niños de adivina la palabra para preescolar',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/spanish/word-guess/sample-3.jpeg',
+        answerKeySrc: '/samples/spanish/word-guess/sample-3.jpeg',
+        altText: 'Imprimibles gratis de adivina la palabra con lista personalizada para educación infantil',
+        imageTitle: 'Imprimibles gratis de adivina la palabra con lista personalizada para educación infantil',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/spanish/word-guess/sample-4.jpeg',
+        answerKeySrc: '/samples/spanish/word-guess/sample-4.jpeg',
+        altText: 'Fichas para imprimir adivina la palabra - ejercicios vocabulario para primaria',
+        imageTitle: 'Fichas para imprimir adivina la palabra',
+      },
+    ],
     
   },
 

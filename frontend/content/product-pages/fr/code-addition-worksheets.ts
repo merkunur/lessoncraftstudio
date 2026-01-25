@@ -98,7 +98,43 @@ Notre générateur propose des fiches à imprimer gratuit adaptées à tous les 
     badgeText: 'Exemples Gratuits',
     downloadingLabel: 'Téléchargement...',
     ofLabel: 'sur',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/french/code-addition/sample-1.jpeg',
+        answerKeySrc: '/samples/french/code-addition/sample-1.jpeg',
+        altText: 'Fiche addition codée fiches maternelle avec exercices maths et images pour enfants',
+        imageTitle: 'Fiche addition codée fiches maternelle avec exercices maths et images pour enfants',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/french/code-addition/sample-2.jpeg',
+        answerKeySrc: '/samples/french/code-addition/sample-2.jpeg',
+        altText: 'Fiches à imprimer gratuit addition codée exercices CP avec légende décodage',
+        imageTitle: 'Fiches à imprimer gratuit addition codée exercices CP avec légende décodage',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/french/code-addition/sample-3.jpeg',
+        answerKeySrc: '/samples/french/code-addition/sample-3.jpeg',
+        altText: 'Exercices maths maternelle coloriage à imprimer fiches addition images',
+        imageTitle: 'Exercices maths maternelle coloriage à imprimer fiches addition images',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/french/code-addition/sample-4.jpeg',
+        answerKeySrc: '/samples/french/code-addition/sample-4.jpeg',
+        altText: 'Graphisme maternelle calcul fiches maternelle addition codée pour enfants',
+        imageTitle: 'Graphisme maternelle calcul fiches maternelle addition codée pour enfants',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/french/code-addition/sample-5.jpeg',
+        answerKeySrc: '/samples/french/code-addition/sample-5.jpeg',
+        altText: 'Fiche apprendre à lire nombres exercices CP CE1 addition avec images',
+        imageTitle: 'Fiche apprendre à lire nombres exercices CP CE1 addition avec images',
+      },
+    ],
     
   },
 

@@ -90,7 +90,36 @@ Förskoleklass material fokuserar på grundläggande storleksbegrepp. Elever i �
     badgeText: 'Gratis Exempel',
     downloadingLabel: 'Laddar ner...',
     ofLabel: 'av',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/swedish/big-small/sample-1.jpeg',
+        answerKeySrc: '/samples/swedish/big-small/sample-1.jpeg',
+        altText: 'Gratis arbetsblad stort och litet - storleksjämförelse förskoleklass material',
+        imageTitle: 'Gratis arbetsblad stort och litet',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/swedish/big-small/sample-2.jpeg',
+        answerKeySrc: '/samples/swedish/big-small/sample-2.jpeg',
+        altText: 'Arbetsblad gratis för barn - matematik arbetsblad storleksövningar',
+        imageTitle: 'Arbetsblad gratis för barn',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/swedish/big-small/sample-3.jpeg',
+        answerKeySrc: '/samples/swedish/big-small/sample-3.jpeg',
+        altText: 'Förskoleklass material gratis - stort och litet matte övningar',
+        imageTitle: 'Förskoleklass material gratis',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/swedish/big-small/sample-4.jpeg',
+        answerKeySrc: '/samples/swedish/big-small/sample-4.jpeg',
+        altText: 'Gratis utskrifter storleksjämförelse - arbetsblad för förskoleklass',
+        imageTitle: 'Gratis utskrifter storleksjämförelse',
+      },
+    ],
     
   },
 

@@ -96,7 +96,43 @@ Cada ficha incluye cuatro imágenes organizadas en columnas de izquierda a derec
     badgeText: 'Ejemplos Gratis',
     downloadingLabel: 'Descargando...',
     ofLabel: 'de',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/spanish/shadow-match/sample-1.jpeg',
+        answerKeySrc: '/samples/spanish/shadow-match/sample-1.jpeg',
+        altText: 'Ficha gratis de asociación de sombras para imprimir - ejercicio de percepción visual para preescolar',
+        imageTitle: 'Ficha gratis de asociación de sombras para imprimir',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/spanish/shadow-match/sample-2.jpeg',
+        answerKeySrc: '/samples/spanish/shadow-match/sample-2.jpeg',
+        altText: 'Ficha de asociación de sombras para educación infantil - actividad de discriminación visual gratis',
+        imageTitle: 'Ficha de asociación de sombras para educación infantil',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/spanish/shadow-match/sample-3.jpeg',
+        answerKeySrc: '/samples/spanish/shadow-match/sample-3.jpeg',
+        altText: 'Ficha gratis para niños de asociación de sombras - material educativo de percepción visual',
+        imageTitle: 'Ficha gratis para niños de asociación de sombras',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/spanish/shadow-match/sample-4.jpeg',
+        answerKeySrc: '/samples/spanish/shadow-match/sample-4.jpeg',
+        altText: 'Ficha para preescolar de asociación de sombras - ejercicio de razonamiento espacial gratis',
+        imageTitle: 'Ficha para preescolar de asociación de sombras',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/spanish/shadow-match/sample-5.jpeg',
+        answerKeySrc: '/samples/spanish/shadow-match/sample-5.jpeg',
+        altText: 'Imprimibles gratis de asociación de sombras - ficha de discriminación visual para educación infantil',
+        imageTitle: 'Imprimibles gratis de asociación de sombras',
+      },
+    ],
     
   },
 

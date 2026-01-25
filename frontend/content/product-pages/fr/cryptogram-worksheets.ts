@@ -99,7 +99,43 @@ Générez votre premier cryptogramme en 3 clics. Tapez une phrase et assignez de
     badgeText: 'Exemples Gratuits',
     downloadingLabel: 'Téléchargement...',
     ofLabel: 'sur',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/french/cryptogram/sample-1.jpeg',
+        answerKeySrc: '/samples/french/cryptogram/sample-1.jpeg',
+        altText: 'Cryptogramme en images fiches gratuites - exercices décodage pour maternelle et CP',
+        imageTitle: 'Cryptogramme en images fiches gratuites',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/french/cryptogram/sample-2.jpeg',
+        answerKeySrc: '/samples/french/cryptogram/sample-2.jpeg',
+        altText: 'Fiches cryptogramme à imprimer gratuit - apprendre les lettres pour enfants',
+        imageTitle: 'Fiches cryptogramme à imprimer gratuit',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/french/cryptogram/sample-3.jpeg',
+        answerKeySrc: '/samples/french/cryptogram/sample-3.jpeg',
+        altText: 'Cryptogramme vocabulaire fiches maternelle - exercices CP graphisme',
+        imageTitle: 'Cryptogramme vocabulaire fiches maternelle',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/french/cryptogram/sample-4.jpeg',
+        answerKeySrc: '/samples/french/cryptogram/sample-4.jpeg',
+        altText: 'Fiches alphabet cryptogramme images - apprendre à lire pour maternelle',
+        imageTitle: 'Fiches alphabet cryptogramme images',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/french/cryptogram/sample-5.jpeg',
+        answerKeySrc: '/samples/french/cryptogram/sample-5.jpeg',
+        altText: 'Cryptogramme en images exercices CP - fiches à imprimer gratuit pour enfants',
+        imageTitle: 'Cryptogramme en images exercices CP',
+      },
+    ],
     
   },
 

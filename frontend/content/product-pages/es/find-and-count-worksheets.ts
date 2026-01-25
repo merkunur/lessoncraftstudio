@@ -90,7 +90,36 @@ El generador produce fichas para imprimir con calidad profesional de 300 DPI ide
     badgeText: 'Ejemplos Gratis',
     downloadingLabel: 'Descargando...',
     ofLabel: 'de',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/spanish/find-and-count/sample-1.jpeg',
+        answerKeySrc: '/samples/spanish/find-and-count/sample-1.jpeg',
+        altText: 'Ficha Veo Veo gratis para imprimir - fichas infantil de buscar y contar objetos para preescolar',
+        imageTitle: 'Ficha Veo Veo gratis para imprimir',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/spanish/find-and-count/sample-2.jpeg',
+        answerKeySrc: '/samples/spanish/find-and-count/sample-2.jpeg',
+        altText: 'Ficha para niños de buscar y contar - material educativo gratis con cuadrícula de imágenes',
+        imageTitle: 'Ficha para niños de buscar y contar',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/spanish/find-and-count/sample-3.jpeg',
+        answerKeySrc: '/samples/spanish/find-and-count/sample-3.jpeg',
+        altText: 'Fichas gratis Veo Veo - imprimibles gratis de grafomotricidad para educación infantil',
+        imageTitle: 'Fichas gratis Veo Veo',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/spanish/find-and-count/sample-4.jpeg',
+        answerKeySrc: '/samples/spanish/find-and-count/sample-4.jpeg',
+        altText: 'Ficha para preescolar de buscar objetos - fichas para imprimir con números y conteo',
+        imageTitle: 'Ficha para preescolar de buscar objetos',
+      },
+    ],
     
   },
 

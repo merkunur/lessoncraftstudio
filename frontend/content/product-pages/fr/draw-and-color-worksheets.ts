@@ -98,7 +98,43 @@ Chaque fiche se télécharge sous forme de fichier PDF professionnel 300 DPI. Im
     badgeText: 'Exemples Gratuits',
     downloadingLabel: 'Téléchargement...',
     ofLabel: 'sur',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/french/draw-and-color/sample-1.jpeg',
+        answerKeySrc: '/samples/french/draw-and-color/sample-1.jpeg',
+        altText: 'Fiche de dessin sur quadrillage gratuite pour maternelle - coloriage à imprimer',
+        imageTitle: 'Fiche de dessin sur quadrillage gratuite pour maternelle',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/french/draw-and-color/sample-2.jpeg',
+        answerKeySrc: '/samples/french/draw-and-color/sample-2.jpeg',
+        altText: 'Coloriage à imprimer sur quadrillage avec difficulté ajustable - fiche gratuite CP',
+        imageTitle: 'Coloriage à imprimer sur quadrillage avec difficulté ajustable',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/french/draw-and-color/sample-3.jpeg',
+        answerKeySrc: '/samples/french/draw-and-color/sample-3.jpeg',
+        altText: 'Fiche gratuite de dessin sur grille pour graphisme maternelle à imprimer',
+        imageTitle: 'Fiche gratuite de dessin sur grille pour graphisme maternelle à imprimer',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/french/draw-and-color/sample-4.jpeg',
+        answerKeySrc: '/samples/french/draw-and-color/sample-4.jpeg',
+        altText: 'Fiche de raisonnement visuospatial gratuite - coloriage sur quadrillage enfants',
+        imageTitle: 'Fiche de raisonnement visuospatial gratuite',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/french/draw-and-color/sample-5.jpeg',
+        answerKeySrc: '/samples/french/draw-and-color/sample-5.jpeg',
+        altText: 'Fiche gratuite de reproduction de motifs sur grille à imprimer pour maternelle',
+        imageTitle: 'Fiche gratuite de reproduction de motifs sur grille à imprimer pour maternelle',
+      },
+    ],
     
   },
 

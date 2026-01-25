@@ -88,7 +88,15 @@ Perfetto per insegnanti della scuola dell'infanzia che necessitano di schede ita
     badgeText: 'Esempi Gratuiti',
     downloadingLabel: 'Scaricamento...',
     ofLabel: 'di',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/italian/alphabet-train/sample-1.jpeg',
+        answerKeySrc: '/samples/italian/alphabet-train/sample-1.jpeg',
+        altText: 'Scheda gratuita treno alfabeto per bambini - stampabili gratuiti lettere scuola infanzia',
+        imageTitle: 'Scheda gratuita treno alfabeto per bambini',
+      },
+    ],
     
   },
 

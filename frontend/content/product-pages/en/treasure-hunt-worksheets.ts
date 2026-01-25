@@ -80,7 +80,43 @@ This treasure hunt generator creates unique worksheets every time you click gene
     downloadLabel: 'Download Free Sample',
     worksheetLabel: 'Worksheet',
     answerKeyLabel: 'Answer Key',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/english/treasure-hunt/sample-1.jpeg',
+        answerKeySrc: '/samples/english/treasure-hunt/sample-1.jpeg',
+        altText: 'Free treasure hunt worksheets for kindergarten - up down left right directions practice',
+        imageTitle: 'Free treasure hunt worksheets for kindergarten',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/english/treasure-hunt/sample-2.jpeg',
+        answerKeySrc: '/samples/english/treasure-hunt/sample-2.jpeg',
+        altText: 'Following directions worksheets free printable - cardinal directions for first grade',
+        imageTitle: 'Following directions worksheets free printable',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/english/treasure-hunt/sample-3.jpeg',
+        answerKeySrc: '/samples/english/treasure-hunt/sample-3.jpeg',
+        altText: 'Treasure hunt printable free - directional vocabulary worksheet for preschool',
+        imageTitle: 'Treasure hunt printable free',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/english/treasure-hunt/sample-4.jpeg',
+        answerKeySrc: '/samples/english/treasure-hunt/sample-4.jpeg',
+        altText: 'Free following directions worksheets - treasure hunt navigation activity for kids',
+        imageTitle: 'Free following directions worksheets',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/english/treasure-hunt/sample-5.jpeg',
+        answerKeySrc: '/samples/english/treasure-hunt/sample-5.jpeg',
+        altText: 'Direction worksheets kindergarten - free printable treasure hunt with spatial awareness',
+        imageTitle: 'Direction worksheets kindergarten',
+      },
+    ],
     
   },
 

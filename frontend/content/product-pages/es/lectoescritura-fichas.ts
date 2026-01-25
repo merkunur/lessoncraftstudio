@@ -85,7 +85,29 @@ Las fichas preescolar que creas son totalmente personalizables. Agrega imágenes
     badgeText: 'Ejemplos Gratis',
     downloadingLabel: 'Descargando...',
     ofLabel: 'de',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/spanish/writing/sample-1.jpeg',
+        answerKeySrc: '/samples/spanish/writing/sample-1.jpeg',
+        altText: 'Ficha gratis de lectoescritura para niños - ejercicios de grafomotricidad para preescolar',
+        imageTitle: 'Ficha gratis de lectoescritura para niños',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/spanish/writing/sample-2.jpeg',
+        answerKeySrc: '/samples/spanish/writing/sample-2.jpeg',
+        altText: 'Ficha gratis de caligrafía para preescolar - práctica de abecedario para educación infantil',
+        imageTitle: 'Ficha gratis de caligrafía para preescolar',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/spanish/writing/sample-3.jpeg',
+        answerKeySrc: '/samples/spanish/writing/sample-3.jpeg',
+        altText: 'Imprimibles gratis de escritura para niños - fichas de grafomotricidad para primaria',
+        imageTitle: 'Imprimibles gratis de escritura para niños',
+      },
+    ],
     
   },
 

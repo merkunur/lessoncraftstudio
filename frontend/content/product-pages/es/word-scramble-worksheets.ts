@@ -96,7 +96,43 @@ El generador soporta 11 idiomas completos. Cuando seleccionas español en la int
     badgeText: 'Ejemplos Gratis',
     downloadingLabel: 'Descargando...',
     ofLabel: 'de',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/spanish/word-scramble/sample-1.jpeg',
+        answerKeySrc: '/samples/spanish/word-scramble/sample-1.jpeg',
+        altText: 'Ficha de letras revueltas gratis para imprimir - ejercicio de lectoescritura para preescolar',
+        imageTitle: 'Ficha de letras revueltas gratis para imprimir',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/spanish/word-scramble/sample-2.jpeg',
+        answerKeySrc: '/samples/spanish/word-scramble/sample-2.jpeg',
+        altText: 'Ficha para niños de palabras revueltas - material educativo gratis de lectoescritura',
+        imageTitle: 'Ficha para niños de palabras revueltas',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/spanish/word-scramble/sample-3.jpeg',
+        answerKeySrc: '/samples/spanish/word-scramble/sample-3.jpeg',
+        altText: 'Fichas infantil de letras revueltas - ejercicios de abecedario gratis',
+        imageTitle: 'Fichas infantil de letras revueltas',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/spanish/word-scramble/sample-4.jpeg',
+        answerKeySrc: '/samples/spanish/word-scramble/sample-4.jpeg',
+        altText: 'Ficha preescolar de letras revueltas - ejercicios de grafomotricidad',
+        imageTitle: 'Ficha preescolar de letras revueltas',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/spanish/word-scramble/sample-5.jpeg',
+        answerKeySrc: '/samples/spanish/word-scramble/sample-5.jpeg',
+        altText: 'Material educativo gratis de letras revueltas - ficha de lectoescritura',
+        imageTitle: 'Material educativo gratis de letras revueltas',
+      },
+    ],
     
   },
 

@@ -88,7 +88,36 @@ Maestros de preescolar y primaria usan nuestras fichas de sudoku para desarrolla
     badgeText: 'Ejemplos Gratis',
     downloadingLabel: 'Descargando...',
     ofLabel: 'de',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/spanish/sudoku/sample-1.jpeg',
+        answerKeySrc: '/samples/spanish/sudoku/sample-1.jpeg',
+        altText: 'Sudoku visual fichas gratis para imprimir - rompecabezas lógica para niños de preescolar',
+        imageTitle: 'Sudoku visual fichas gratis para imprimir',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/spanish/sudoku/sample-2.jpeg',
+        answerKeySrc: '/samples/spanish/sudoku/sample-2.jpeg',
+        altText: 'Sudoku para niños fichas para imprimir gratis - material educativo pensamiento crítico',
+        imageTitle: 'Sudoku para niños fichas para imprimir gratis',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/spanish/sudoku/sample-3.jpeg',
+        answerKeySrc: '/samples/spanish/sudoku/sample-3.jpeg',
+        altText: 'Fichas de sudoku para preescolar imprimibles gratis - ejercicios de lógica educación infantil',
+        imageTitle: 'Fichas de sudoku para preescolar imprimibles gratis',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/spanish/sudoku/sample-4.jpeg',
+        answerKeySrc: '/samples/spanish/sudoku/sample-4.jpeg',
+        altText: 'Sudoku visual para niños ficha gratis - rompecabezas con grafomotricidad primaria',
+        imageTitle: 'Sudoku visual para niños ficha gratis',
+      },
+    ],
     
   },
 

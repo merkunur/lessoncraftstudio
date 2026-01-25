@@ -108,7 +108,43 @@ Der Worträtsel-Generator erstellt Arbeitsblätter für die Grundschule in Sekun
     badgeText: 'Kostenlose Beispiele',
     downloadingLabel: 'Wird heruntergeladen...',
     ofLabel: 'von',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/german/word-guess/sample-1.jpeg',
+        answerKeySrc: '/samples/german/word-guess/sample-1.jpeg',
+        altText: 'Wörter Raten Arbeitsblatt - Kostenloses Arbeitsblatt für Buchstaben lernen in der Grundschule',
+        imageTitle: 'Wörter Raten Arbeitsblatt',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/german/word-guess/sample-2.jpeg',
+        answerKeySrc: '/samples/german/word-guess/sample-2.jpeg',
+        altText: 'Worträtsel Kostenlose Druckvorlagen - Deutsch Arbeitsblätter für Vorschule',
+        imageTitle: 'Worträtsel Kostenlose Druckvorlagen',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/german/word-guess/sample-3.jpeg',
+        answerKeySrc: '/samples/german/word-guess/sample-3.jpeg',
+        altText: 'Wörter Raten Arbeitsblatt für Kinder - Wortschatz spielerisch erweitern',
+        imageTitle: 'Wörter Raten Arbeitsblatt für Kinder',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/german/word-guess/sample-4.jpeg',
+        answerKeySrc: '/samples/german/word-guess/sample-4.jpeg',
+        altText: 'Worträtsel Arbeitsblatt für Vorschule - Buchstaben und Bilder kombinieren',
+        imageTitle: 'Worträtsel Arbeitsblatt für Vorschule',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/german/word-guess/sample-5.jpeg',
+        answerKeySrc: '/samples/german/word-guess/sample-5.jpeg',
+        altText: 'Wörter Raten Kostenloses Arbeitsblatt - Leseverständnis und Schreibübungen',
+        imageTitle: 'Wörter Raten Kostenloses Arbeitsblatt',
+      },
+    ],
     
   },
 

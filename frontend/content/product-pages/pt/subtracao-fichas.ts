@@ -90,7 +90,36 @@ Nosso gerador cria atividades de subtração usando imagens temáticas. As crian
     badgeText: 'Exemplos Grátis',
     downloadingLabel: 'Baixando...',
     ofLabel: 'de',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/portuguese/subtraction/sample-1.jpeg',
+        answerKeySrc: '/samples/portuguese/subtraction/sample-1.jpeg',
+        altText: 'Atividade de subtração grátis para imprimir - exercícios de matemática para educação infantil',
+        imageTitle: 'Atividade de subtração grátis para imprimir',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/portuguese/subtraction/sample-2.jpeg',
+        answerKeySrc: '/samples/portuguese/subtraction/sample-2.jpeg',
+        altText: 'Atividade grátis de subtração com imagens - atividade para crianças do 1º ano',
+        imageTitle: 'Atividade grátis de subtração com imagens',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/portuguese/subtraction/sample-3.jpeg',
+        answerKeySrc: '/samples/portuguese/subtraction/sample-3.jpeg',
+        altText: 'Atividades grátis de matemática - imprimíveis grátis para educação infantil',
+        imageTitle: 'Atividades grátis de matemática',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/portuguese/subtraction/sample-4.jpeg',
+        answerKeySrc: '/samples/portuguese/subtraction/sample-4.jpeg',
+        altText: 'Atividade de subtração para crianças - ficha de matemática grátis para imprimir',
+        imageTitle: 'Atividade de subtração para crianças',
+      },
+    ],
     
   },
 

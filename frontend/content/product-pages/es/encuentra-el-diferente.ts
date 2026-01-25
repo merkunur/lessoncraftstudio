@@ -94,7 +94,36 @@ Las fichas para imprimir se exportan en formato PDF y JPEG a 300 DPI. Perfectas 
     badgeText: 'Ejemplos Gratis',
     downloadingLabel: 'Descargando...',
     ofLabel: 'de',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/spanish/odd-one-out/sample-1.jpeg',
+        answerKeySrc: '/samples/spanish/odd-one-out/sample-1.jpeg',
+        altText: 'Ficha gratis de encuentra el diferente para imprimir - ejercicio de discriminación visual para preescolar',
+        imageTitle: 'Ficha gratis de encuentra el diferente para imprimir',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/spanish/odd-one-out/sample-2.jpeg',
+        answerKeySrc: '/samples/spanish/odd-one-out/sample-2.jpeg',
+        altText: 'Ficha gratis para niños de encuentra el diferente - actividad de pensamiento crítico para infantil',
+        imageTitle: 'Ficha gratis para niños de encuentra el diferente',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/spanish/odd-one-out/sample-3.jpeg',
+        answerKeySrc: '/samples/spanish/odd-one-out/sample-3.jpeg',
+        altText: 'Fichas gratis de discriminación visual para imprimir - material educativo para preescolar',
+        imageTitle: 'Fichas gratis de discriminación visual para imprimir',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/spanish/odd-one-out/sample-4.jpeg',
+        answerKeySrc: '/samples/spanish/odd-one-out/sample-4.jpeg',
+        altText: 'Imprimibles gratis de encuentra el diferente - fichas para niños de lógica y categorización',
+        imageTitle: 'Imprimibles gratis de encuentra el diferente',
+      },
+    ],
     
   },
 

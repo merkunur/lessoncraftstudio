@@ -94,7 +94,43 @@ Ce générateur de mots mêlés fonctionne en 11 langues complètes. Français, 
     badgeText: 'Exemples Gratuits',
     downloadingLabel: 'Téléchargement...',
     ofLabel: 'sur',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/french/wordsearch/sample-1.jpeg',
+        answerKeySrc: '/samples/french/wordsearch/sample-1.jpeg',
+        altText: 'Mots mêlés fiches gratuites - puzzle vocabulaire format portrait pour maternelle',
+        imageTitle: 'Mots mêlés fiches gratuites',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/french/wordsearch/sample-2.jpeg',
+        answerKeySrc: '/samples/french/wordsearch/sample-2.jpeg',
+        altText: 'Générateur mots mêlés - fiche gratuite avec images thématiques pour CP',
+        imageTitle: 'Générateur mots mêlés',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/french/wordsearch/sample-3.jpeg',
+        answerKeySrc: '/samples/french/wordsearch/sample-3.jpeg',
+        altText: 'Mots cachés fiches pour enfants - grille de lettres éducative pour CE1',
+        imageTitle: 'Mots cachés fiches pour enfants',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/french/wordsearch/sample-4.jpeg',
+        answerKeySrc: '/samples/french/wordsearch/sample-4.jpeg',
+        altText: 'Fiches vocabulaire mots mêlés - puzzle recherche de mots pour primaire',
+        imageTitle: 'Fiches vocabulaire mots mêlés',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/french/wordsearch/sample-5.jpeg',
+        answerKeySrc: '/samples/french/wordsearch/sample-5.jpeg',
+        altText: 'Jeu de mots fiches gratuites - activité vocabulaire personnalisable pour classe',
+        imageTitle: 'Jeu de mots fiches gratuites',
+      },
+    ],
     
   },
 

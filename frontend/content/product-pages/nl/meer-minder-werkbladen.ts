@@ -106,7 +106,43 @@ Dit gereedschap is ideaal voor basisonderwijs leerkrachten die sommen tot 20 oef
     badgeText: 'Gratis Voorbeelden',
     downloadingLabel: 'Downloaden...',
     ofLabel: 'van',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/dutch/more-less/sample-1.jpeg',
+        answerKeySrc: '/samples/dutch/more-less/sample-1.jpeg',
+        altText: 'Gratis werkblad meer minder - werkbladen groep 3 vergelijken oefenbladen',
+        imageTitle: 'Gratis werkblad meer minder',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/dutch/more-less/sample-2.jpeg',
+        answerKeySrc: '/samples/dutch/more-less/sample-2.jpeg',
+        altText: 'Gratis werkbladen meer minder - werkblad voor kleuters rekenen',
+        imageTitle: 'Gratis werkbladen meer minder',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/dutch/more-less/sample-3.jpeg',
+        answerKeySrc: '/samples/dutch/more-less/sample-3.jpeg',
+        altText: 'Gratis printables meer minder - werkblad voor kinderen vergelijkingen',
+        imageTitle: 'Gratis printables meer minder',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/dutch/more-less/sample-4.jpeg',
+        answerKeySrc: '/samples/dutch/more-less/sample-4.jpeg',
+        altText: 'Werkblad voor kinderen meer minder - gratis werkblad rekenen groep 3',
+        imageTitle: 'Werkblad voor kinderen meer minder',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/dutch/more-less/sample-5.jpeg',
+        answerKeySrc: '/samples/dutch/more-less/sample-5.jpeg',
+        altText: 'Werkblad voor kleuters meer minder - gratis werkbladen vergelijken',
+        imageTitle: 'Werkblad voor kleuters meer minder',
+      },
+    ],
     
   },
 

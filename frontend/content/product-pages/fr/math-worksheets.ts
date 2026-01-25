@@ -98,7 +98,43 @@ Ces fiches mathématiques fonctionnent idéalement pour les centres de numérati
     badgeText: 'Exemples Gratuits',
     downloadingLabel: 'Téléchargement...',
     ofLabel: 'sur',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/french/math/sample-1.jpeg',
+        answerKeySrc: '/samples/french/math/sample-1.jpeg',
+        altText: 'Exercices maths fiches gratuites à imprimer - puzzles décodage pour maternelle',
+        imageTitle: 'Exercices maths fiches gratuites à imprimer',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/french/math/sample-2.jpeg',
+        answerKeySrc: '/samples/french/math/sample-2.jpeg',
+        altText: 'Fiches exercices maths CP CE1 gratuites - activités calcul pour enfants',
+        imageTitle: 'Fiches exercices maths CP CE1 gratuites',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/french/math/sample-3.jpeg',
+        answerKeySrc: '/samples/french/math/sample-3.jpeg',
+        altText: 'Exercices maths maternelle fiches gratuites - puzzles symboles éducatifs',
+        imageTitle: 'Exercices maths maternelle fiches gratuites',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/french/math/sample-4.jpeg',
+        answerKeySrc: '/samples/french/math/sample-4.jpeg',
+        altText: 'Fiches calcul gratuites à imprimer - exercices maths pour enfants',
+        imageTitle: 'Fiches calcul gratuites à imprimer',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/french/math/sample-5.jpeg',
+        answerKeySrc: '/samples/french/math/sample-5.jpeg',
+        altText: 'Exercices maths fiches maternelle gratuites - tables multiplication préparation',
+        imageTitle: 'Exercices maths fiches maternelle gratuites',
+      },
+    ],
     
   },
 

@@ -98,7 +98,29 @@ Gli insegnanti della scuola dell'infanzia apprezzano la flessibilità del genera
     badgeText: 'Schede Gratuite',
     downloadingLabel: 'Scaricamento...',
     ofLabel: 'di',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/italian/more-less/sample-2.jpeg',
+        answerKeySrc: '/samples/italian/more-less/sample-2.jpeg',
+        altText: 'Schede gratuite confronto immagini e numeri - scheda gratuita per bambini',
+        imageTitle: 'Schede gratuite confronto immagini e numeri',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/italian/more-less/sample-3.jpeg',
+        answerKeySrc: '/samples/italian/more-less/sample-3.jpeg',
+        altText: 'Stampabili gratuiti matematica - scheda per bambini confronto quantità',
+        imageTitle: 'Stampabili gratuiti matematica',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/italian/more-less/sample-5.jpeg',
+        answerKeySrc: '/samples/italian/more-less/sample-5.jpeg',
+        altText: 'Schede gratuite matematica - confronto numeri stampabili per scuola primaria',
+        imageTitle: 'Schede gratuite matematica',
+      },
+    ],
     
   },
 

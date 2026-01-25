@@ -94,7 +94,43 @@ Vores generator laver 4x4 sudoku gratis arbejdsark med billeder. Børn skal fyld
     noPdfLabel: 'Ingen PDF tilgængelig',
     freePdfCountLabel: '3 gratis downloads',
     ofLabel: 'af',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/danish/sudoku/sample-1.jpeg',
+        answerKeySrc: '/samples/danish/sudoku/sample-1.jpeg',
+        altText: 'Sudoku gratis arbejdsark - let sudoku arbejdsark til børn for børnehaveklasse',
+        imageTitle: 'Sudoku gratis arbejdsark',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/danish/sudoku/sample-2.jpeg',
+        answerKeySrc: '/samples/danish/sudoku/sample-2.jpeg',
+        altText: 'Sudoku arbejdsark til børnehaveklasse - gratis printables med farverige billeder',
+        imageTitle: 'Sudoku arbejdsark til børnehaveklasse',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/danish/sudoku/sample-3.jpeg',
+        answerKeySrc: '/samples/danish/sudoku/sample-3.jpeg',
+        altText: 'Gratis arbejdsark sudoku - arbejdsark til børn med billeder til 0. klasse',
+        imageTitle: 'Gratis arbejdsark sudoku',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/danish/sudoku/sample-4.jpeg',
+        answerKeySrc: '/samples/danish/sudoku/sample-4.jpeg',
+        altText: 'Arbejdsark til børnehaveklasse - sudoku gratis printables mellem sværhedsgrad',
+        imageTitle: 'Arbejdsark til børnehaveklasse',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/danish/sudoku/sample-5.jpeg',
+        answerKeySrc: '/samples/danish/sudoku/sample-5.jpeg',
+        altText: 'Sudoku arbejdsark til børn - svær sudoku gratis arbejdsark til 1. klasse',
+        imageTitle: 'Sudoku arbejdsark til børn',
+      },
+    ],
     
   },
 

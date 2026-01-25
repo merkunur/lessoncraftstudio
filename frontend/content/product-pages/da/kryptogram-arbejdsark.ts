@@ -94,7 +94,43 @@ Kryptogram opgaver fungerer som hemmelige koder hvor hvert bogstav erstattes af 
     noPdfLabel: 'Ingen PDF tilgængelig',
     freePdfCountLabel: '5 gratis downloads',
     ofLabel: 'af',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/danish/cryptogram/sample-1.jpeg',
+        answerKeySrc: '/samples/danish/cryptogram/sample-1.jpeg',
+        altText: 'Kryptogram gratis arbejdsark til børn - arbejdsark til børnehaveklasse med billednøgler',
+        imageTitle: 'Kryptogram gratis arbejdsark til børn',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/danish/cryptogram/sample-2.jpeg',
+        answerKeySrc: '/samples/danish/cryptogram/sample-2.jpeg',
+        altText: 'Gratis arbejdsark til børn - kryptogram puslespil med visuelle billedtips',
+        imageTitle: 'Gratis arbejdsark til børn',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/danish/cryptogram/sample-3.jpeg',
+        answerKeySrc: '/samples/danish/cryptogram/sample-3.jpeg',
+        altText: 'Arbejdsark til børnehaveklasse - gratis printables kryptogram opgaver',
+        imageTitle: 'Arbejdsark til børnehaveklasse',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/danish/cryptogram/sample-4.jpeg',
+        answerKeySrc: '/samples/danish/cryptogram/sample-4.jpeg',
+        altText: 'Gratis printables - arbejdsark til børn med kryptogram stavning øvelser',
+        imageTitle: 'Gratis printables',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/danish/cryptogram/sample-5.jpeg',
+        answerKeySrc: '/samples/danish/cryptogram/sample-5.jpeg',
+        altText: 'Arbejdsark til børn - gratis arbejdsark kryptogram generator til børnehaveklasse',
+        imageTitle: 'Arbejdsark til børn',
+      },
+    ],
     
   },
 

@@ -106,7 +106,43 @@ Unser Kryptogramm-Generator erstellt individuelle Rätsel in 11 Sprachen. Laden 
     badgeText: 'Kostenlose Beispiele',
     downloadingLabel: 'Wird heruntergeladen...',
     ofLabel: 'von',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/german/cryptogram/sample-1.jpeg',
+        answerKeySrc: '/samples/german/cryptogram/sample-1.jpeg',
+        altText: 'Bilder-Kryptogramm Arbeitsblatt - Kostenlose Arbeitsblätter für Grundschule und Vorschule',
+        imageTitle: 'Bilder-Kryptogramm Arbeitsblatt',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/german/cryptogram/sample-2.jpeg',
+        answerKeySrc: '/samples/german/cryptogram/sample-2.jpeg',
+        altText: 'Kryptogramm Rätsel Arbeitsblatt - Buchstaben lernen mit Bildcodes für Kinder',
+        imageTitle: 'Kryptogramm Rätsel Arbeitsblatt',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/german/cryptogram/sample-3.jpeg',
+        answerKeySrc: '/samples/german/cryptogram/sample-3.jpeg',
+        altText: 'Geheimschrift Arbeitsblatt - Arbeitsblätter Grundschule mit visuellen Hinweisen',
+        imageTitle: 'Geheimschrift Arbeitsblatt',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/german/cryptogram/sample-4.jpeg',
+        answerKeySrc: '/samples/german/cryptogram/sample-4.jpeg',
+        altText: 'Bilder-Code Rätsel - Vorschule Arbeitsblätter zum Entschlüsseln',
+        imageTitle: 'Bilder-Code Rätsel',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/german/cryptogram/sample-5.jpeg',
+        answerKeySrc: '/samples/german/cryptogram/sample-5.jpeg',
+        altText: 'Kryptogramm für Kinder - Deutsch Arbeitsblätter mit Bilderrätseln',
+        imageTitle: 'Kryptogramm für Kinder',
+      },
+    ],
     
   },
 

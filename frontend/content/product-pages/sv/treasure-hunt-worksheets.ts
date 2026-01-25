@@ -94,7 +94,43 @@ Vår skattjakt generator erbjuder över 3000 barnvänliga bilder organiserade ef
     badgeText: 'Gratis Exempel',
     downloadingLabel: 'Laddar ner...',
     ofLabel: 'av',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/swedish/treasure-hunt/sample-1.jpeg',
+        answerKeySrc: '/samples/swedish/treasure-hunt/sample-1.jpeg',
+        altText: 'Gratis skattjakt arbetsblad för barn - riktningsövningar med upp ner vänster höger för förskoleklass',
+        imageTitle: 'Gratis skattjakt arbetsblad för barn',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/swedish/treasure-hunt/sample-2.jpeg',
+        answerKeySrc: '/samples/swedish/treasure-hunt/sample-2.jpeg',
+        altText: 'Gratis skattjakt arbetsblad för förskoleklass - väderstreck riktningsövningar norr söder öst väst',
+        imageTitle: 'Gratis skattjakt arbetsblad för förskoleklass',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/swedish/treasure-hunt/sample-3.jpeg',
+        answerKeySrc: '/samples/swedish/treasure-hunt/sample-3.jpeg',
+        altText: 'Skattjakt arbetsblad gratis utskrift - spatial medvetenhet övning för lågstadiet',
+        imageTitle: 'Skattjakt arbetsblad gratis utskrift',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/swedish/treasure-hunt/sample-4.jpeg',
+        answerKeySrc: '/samples/swedish/treasure-hunt/sample-4.jpeg',
+        altText: 'Gratis arbetsblad skattjakt för barn - rutnätsnavigering och instruktionsföljning',
+        imageTitle: 'Gratis arbetsblad skattjakt för barn',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/swedish/treasure-hunt/sample-5.jpeg',
+        answerKeySrc: '/samples/swedish/treasure-hunt/sample-5.jpeg',
+        altText: 'Gratis skattjakt arbetsblad - riktningsinlärning och läsförståelse för förskoleklass',
+        imageTitle: 'Gratis skattjakt arbetsblad',
+      },
+    ],
     
   },
 

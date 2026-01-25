@@ -104,7 +104,36 @@ Combineer patronen werkbladen met kleurplaten voor extra oefening. Maak gratis w
     badgeText: 'Gratis Voorbeelden',
     downloadingLabel: 'Downloaden...',
     ofLabel: 'van',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/dutch/pattern/sample-1.jpeg',
+        answerKeySrc: '/samples/dutch/pattern/sample-1.jpeg',
+        altText: 'Gratis werkblad patronen - oefenblad voor kleuters en groep 3',
+        imageTitle: 'Gratis werkblad patronen',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/dutch/pattern/sample-2.jpeg',
+        answerKeySrc: '/samples/dutch/pattern/sample-2.jpeg',
+        altText: 'Gratis werkbladen patronen herkenning - werkblad voor kinderen',
+        imageTitle: 'Gratis werkbladen patronen herkenning',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/dutch/pattern/sample-3.jpeg',
+        answerKeySrc: '/samples/dutch/pattern/sample-3.jpeg',
+        altText: 'Gratis printables patronen oefening - werkblad voor kleuters',
+        imageTitle: 'Gratis printables patronen oefening',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/dutch/pattern/sample-4.jpeg',
+        answerKeySrc: '/samples/dutch/pattern/sample-4.jpeg',
+        altText: 'Patronen werkblad gratis werkblad voor kinderen - groep 1-3',
+        imageTitle: 'Patronen werkblad gratis werkblad voor kinderen',
+      },
+    ],
     
   },
 

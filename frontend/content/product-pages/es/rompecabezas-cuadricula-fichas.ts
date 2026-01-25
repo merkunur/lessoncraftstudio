@@ -91,7 +91,36 @@ Los estudiantes combinan piezas mezcladas para completar imágenes. Cada ficha i
     badgeText: 'Ejemplos Gratis',
     downloadingLabel: 'Descargando...',
     ofLabel: 'de',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/spanish/grid-match/sample-1.jpeg',
+        answerKeySrc: '/samples/spanish/grid-match/sample-1.jpeg',
+        altText: 'Rompecabezas de cuadricula fichas gratis para imprimir - ejercicio de razonamiento espacial para preescolar',
+        imageTitle: 'Rompecabezas de cuadricula fichas gratis para imprimir',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/spanish/grid-match/sample-2.jpeg',
+        answerKeySrc: '/samples/spanish/grid-match/sample-2.jpeg',
+        altText: 'Fichas infantil de rompecabezas cuadricula - material educativo gratis para grafomotricidad',
+        imageTitle: 'Fichas infantil de rompecabezas cuadricula',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/spanish/grid-match/sample-3.jpeg',
+        answerKeySrc: '/samples/spanish/grid-match/sample-3.jpeg',
+        altText: 'Fichas preescolar de rompecabezas con cuadricula - fichas de matematicas visuales para primaria',
+        imageTitle: 'Fichas preescolar de rompecabezas con cuadricula',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/spanish/grid-match/sample-4.jpeg',
+        answerKeySrc: '/samples/spanish/grid-match/sample-4.jpeg',
+        altText: 'Rompecabezas de cuadricula fichas para imprimir - lectoescritura y numeros para educacion infantil',
+        imageTitle: 'Rompecabezas de cuadricula fichas para imprimir',
+      },
+    ],
     
   },
 

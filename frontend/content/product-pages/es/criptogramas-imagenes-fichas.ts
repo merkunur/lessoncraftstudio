@@ -94,7 +94,43 @@ Nuestro generador ofrece personalización completa. Elija entre más de 3000 im�
     badgeText: 'Ejemplos Gratis',
     downloadingLabel: 'Descargando...',
     ofLabel: 'de',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/spanish/cryptogram/sample-1.jpeg',
+        answerKeySrc: '/samples/spanish/cryptogram/sample-1.jpeg',
+        altText: 'Criptograma de imágenes ficha gratis - ejercicio de lectoescritura para preescolar',
+        imageTitle: 'Criptograma de imágenes ficha gratis',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/spanish/cryptogram/sample-2.jpeg',
+        answerKeySrc: '/samples/spanish/cryptogram/sample-2.jpeg',
+        altText: 'Criptograma con imágenes fichas para imprimir - actividad de vocabulario para niños',
+        imageTitle: 'Criptograma con imágenes fichas para imprimir',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/spanish/cryptogram/sample-3.jpeg',
+        answerKeySrc: '/samples/spanish/cryptogram/sample-3.jpeg',
+        altText: 'Criptograma educativo fichas gratis para niños - ejercicio de pensamiento lógico',
+        imageTitle: 'Criptograma educativo fichas gratis para niños',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/spanish/cryptogram/sample-4.jpeg',
+        answerKeySrc: '/samples/spanish/cryptogram/sample-4.jpeg',
+        altText: 'Criptograma infantil fichas para preescolar - actividad de descifrado con imágenes',
+        imageTitle: 'Criptograma infantil fichas para preescolar',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/spanish/cryptogram/sample-5.jpeg',
+        answerKeySrc: '/samples/spanish/cryptogram/sample-5.jpeg',
+        altText: 'Criptograma de letras material educativo gratis - ejercicio de abecedario visual',
+        imageTitle: 'Criptograma de letras material educativo gratis',
+      },
+    ],
     
   },
 

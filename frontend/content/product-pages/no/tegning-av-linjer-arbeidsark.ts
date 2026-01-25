@@ -94,7 +94,43 @@ Arbeidsark for tegning av linjer støtter barnehagepedagoger og lærere i småsk
     noPdfLabel: 'Ingen PDF tilgjengelig',
     freePdfCountLabel: '3 gratis nedlastinger',
     ofLabel: 'av',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/norwegian/drawing-lines/sample-1.jpeg',
+        answerKeySrc: '/samples/norwegian/drawing-lines/sample-1.jpeg',
+        altText: 'Tegning av linjer gratis arbeidsark - finmotorikk øvelser for barnehage',
+        imageTitle: 'Tegning av linjer gratis arbeidsark',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/norwegian/drawing-lines/sample-2.jpeg',
+        answerKeySrc: '/samples/norwegian/drawing-lines/sample-2.jpeg',
+        altText: 'Gratis arbeidsark for barn tegnelinjer - bokstaver lære skrive forberedelse',
+        imageTitle: 'Gratis arbeidsark for barn tegnelinjer',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/norwegian/drawing-lines/sample-3.jpeg',
+        answerKeySrc: '/samples/norwegian/drawing-lines/sample-3.jpeg',
+        altText: 'Arbeidsark for 1. trinn tegning av linjer - gratis utskrifter finmotorikk',
+        imageTitle: 'Arbeidsark for 1. trinn tegning av linjer',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/norwegian/drawing-lines/sample-4.jpeg',
+        answerKeySrc: '/samples/norwegian/drawing-lines/sample-4.jpeg',
+        altText: 'Gratis utskrifter tegnelinjer arbeidsark - finmotorikk øvelser barn',
+        imageTitle: 'Gratis utskrifter tegnelinjer arbeidsark',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/norwegian/drawing-lines/sample-5.jpeg',
+        answerKeySrc: '/samples/norwegian/drawing-lines/sample-5.jpeg',
+        altText: 'Arbeidsark for barn tegning av linjer - gratis arbeidsark skrivetrening',
+        imageTitle: 'Arbeidsark for barn tegning av linjer',
+      },
+    ],
     
   },
 

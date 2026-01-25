@@ -94,7 +94,29 @@ Insegnanti della scuola dell'infanzia e della scuola primaria utilizzano il nost
     badgeText: 'Stampabili Gratuiti',
     downloadingLabel: 'Scaricamento...',
     ofLabel: 'di',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/italian/pattern-train/sample-2.jpeg',
+        answerKeySrc: '/samples/italian/pattern-train/sample-2.jpeg',
+        altText: 'Schede gratuite Treno delle Sequenze - stampabili gratuiti sequenza AAB',
+        imageTitle: 'Schede gratuite Treno delle Sequenze',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/italian/pattern-train/sample-3.jpeg',
+        answerKeySrc: '/samples/italian/pattern-train/sample-3.jpeg',
+        altText: 'Scheda per bambini Treno delle Sequenze - sequenza ABB classe prima',
+        imageTitle: 'Scheda per bambini Treno delle Sequenze',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/italian/pattern-train/sample-5.jpeg',
+        answerKeySrc: '/samples/italian/pattern-train/sample-5.jpeg',
+        altText: 'Scheda gratuita per bambini - Treno delle Sequenze AABB stampabile',
+        imageTitle: 'Scheda gratuita per bambini',
+      },
+    ],
     
   },
 

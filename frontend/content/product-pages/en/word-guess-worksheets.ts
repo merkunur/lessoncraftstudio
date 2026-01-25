@@ -84,7 +84,43 @@ Generate 1-10 puzzles per page with automatic layout optimization. Add name and 
     downloadLabel: 'Download Free Sample',
     worksheetLabel: 'Worksheet',
     answerKeyLabel: 'Answer Key',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/english/word-guess/sample-1.jpeg',
+        answerKeySrc: '/samples/english/word-guess/sample-1.jpeg',
+        altText: 'Free printable word guess worksheet with picture clues for kindergarten vocabulary practice',
+        imageTitle: 'Free printable word guess worksheet with picture clues for kindergarten vocabulary practice',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/english/word-guess/sample-2.jpeg',
+        answerKeySrc: '/samples/english/word-guess/sample-2.jpeg',
+        altText: 'Word guess spelling worksheet for first grade phonics practice',
+        imageTitle: 'Word guess spelling worksheet for first grade phonics practice',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/english/word-guess/sample-3.jpeg',
+        answerKeySrc: '/samples/english/word-guess/sample-3.jpeg',
+        altText: 'Custom word list word guess worksheet for sight words and spelling practice',
+        imageTitle: 'Custom word list word guess worksheet for sight words and spelling practice',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/english/word-guess/sample-4.jpeg',
+        answerKeySrc: '/samples/english/word-guess/sample-4.jpeg',
+        altText: 'Word guess printable free - vocabulary worksheet for preschool letter recognition',
+        imageTitle: 'Word guess printable free',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/english/word-guess/sample-5.jpeg',
+        answerKeySrc: '/samples/english/word-guess/sample-5.jpeg',
+        altText: 'Free spelling worksheets - word guess puzzle for kindergarten vocabulary building',
+        imageTitle: 'Free spelling worksheets',
+      },
+    ],
     
   },
 

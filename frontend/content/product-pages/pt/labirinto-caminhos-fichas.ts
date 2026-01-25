@@ -90,7 +90,36 @@ Combine labirintos com aprendizado de letras e palavras. Crie atividades grátis
     badgeText: 'Exemplos Grátis',
     downloadingLabel: 'Baixando...',
     ofLabel: 'de',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/portuguese/picture-path/sample-1.jpeg',
+        answerKeySrc: '/samples/portuguese/picture-path/sample-1.jpeg',
+        altText: 'Atividade grátis de labirinto e caminho de imagens para educação infantil',
+        imageTitle: 'Atividade grátis de labirinto e caminho de imagens para educação infantil',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/portuguese/picture-path/sample-2.jpeg',
+        answerKeySrc: '/samples/portuguese/picture-path/sample-2.jpeg',
+        altText: 'Atividade grátis de labirinto clássico com colecionáveis para crianças',
+        imageTitle: 'Atividade grátis de labirinto clássico com colecionáveis para crianças',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/portuguese/picture-path/sample-3.jpeg',
+        answerKeySrc: '/samples/portuguese/picture-path/sample-3.jpeg',
+        altText: 'Atividade grátis escolha o caminho certo para educação infantil',
+        imageTitle: 'Atividade grátis escolha o caminho certo para educação infantil',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/portuguese/picture-path/sample-4.jpeg',
+        answerKeySrc: '/samples/portuguese/picture-path/sample-4.jpeg',
+        altText: 'Atividade grátis de coordenação motora com labirintos para crianças',
+        imageTitle: 'Atividade grátis de coordenação motora com labirintos para crianças',
+      },
+    ],
     
   },
 

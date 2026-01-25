@@ -82,7 +82,43 @@ Your Core Bundle subscription includes complete access to all visual materials. 
     downloadLabel: 'Download Free Sample',
     worksheetLabel: 'Worksheet',
     answerKeyLabel: 'Answer Key',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/english/matching/sample-1.jpeg',
+        answerKeySrc: '/samples/english/matching/sample-1.jpeg',
+        altText: 'Free printable matching worksheets for kindergarten - alphabet letter recognition practice',
+        imageTitle: 'Free printable matching worksheets for kindergarten',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/english/matching/sample-2.jpeg',
+        answerKeySrc: '/samples/english/matching/sample-2.jpeg',
+        altText: 'Matching worksheet generator for kids - sight words and vocabulary practice for first grade',
+        imageTitle: 'Matching worksheet generator for kids',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/english/matching/sample-3.jpeg',
+        answerKeySrc: '/samples/english/matching/sample-3.jpeg',
+        altText: 'Free matching worksheets with custom vocabulary - phonics worksheets for kindergarten',
+        imageTitle: 'Free matching worksheets with custom vocabulary',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/english/matching/sample-4.jpeg',
+        answerKeySrc: '/samples/english/matching/sample-4.jpeg',
+        altText: 'Free worksheet for kids matching activity - kindergarten alphabet learning worksheets',
+        imageTitle: 'Free worksheet for kids matching activity',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/english/matching/sample-5.jpeg',
+        answerKeySrc: '/samples/english/matching/sample-5.jpeg',
+        altText: 'Free printables matching worksheets - first grade phonics and sight words practice',
+        imageTitle: 'Free printables matching worksheets',
+      },
+    ],
     
   },
 

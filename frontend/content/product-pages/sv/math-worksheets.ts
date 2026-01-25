@@ -78,7 +78,22 @@ Grundpaketsprenumerationen kostar 144 dollar per år eller 15 dollar per månad.
     badgeText: 'Gratis Exempel',
     downloadingLabel: 'Laddar ner...',
     ofLabel: 'av',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/swedish/math/sample-1.jpeg',
+        answerKeySrc: '/samples/swedish/math/sample-1.jpeg',
+        altText: 'Matematik arbetsblad gratis - porträttformat övningar för förskoleklass och lågstadiet',
+        imageTitle: 'Matematik arbetsblad gratis',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/swedish/math/sample-2.jpeg',
+        answerKeySrc: '/samples/swedish/math/sample-2.jpeg',
+        altText: 'Gratis arbetsblad för barn - landskapsformat matte övningar för förskoleklass',
+        imageTitle: 'Gratis arbetsblad för barn',
+      },
+    ],
     
   },
 

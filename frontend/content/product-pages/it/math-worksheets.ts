@@ -95,7 +95,29 @@ Perfetto per insegnanti della scuola dell'infanzia e della scuola primaria. Le s
     badgeText: 'Esempi Gratuiti',
     downloadingLabel: 'Scaricamento...',
     ofLabel: 'di',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/italian/math/sample-1.jpeg',
+        answerKeySrc: '/samples/italian/math/sample-1.jpeg',
+        altText: 'Schede matematica scheda gratuita per bambini - esercizi visivi scuola infanzia',
+        imageTitle: 'Schede matematica scheda gratuita per bambini',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/italian/math/sample-2.jpeg',
+        answerKeySrc: '/samples/italian/math/sample-2.jpeg',
+        altText: 'Schede gratuite matematica stampabili gratuiti - scheda per bambini scuola primaria',
+        imageTitle: 'Schede gratuite matematica stampabili gratuiti',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/italian/math/sample-3.jpeg',
+        answerKeySrc: '/samples/italian/math/sample-3.jpeg',
+        altText: 'Scheda gratuita matematica schede gratuite - stampabili gratuiti per bambini',
+        imageTitle: 'Scheda gratuita matematica schede gratuite',
+      },
+    ],
     
   },
 

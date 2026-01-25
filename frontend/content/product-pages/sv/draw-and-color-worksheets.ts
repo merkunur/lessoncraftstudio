@@ -96,7 +96,43 @@ Full Tillgång-prenumerationen kostar 240 dollar per år. Du får tillgång till
     badgeText: 'Gratis Exempel',
     downloadingLabel: 'Laddar ner...',
     ofLabel: 'av',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/swedish/draw-and-color/sample-1.jpeg',
+        answerKeySrc: '/samples/swedish/draw-and-color/sample-1.jpeg',
+        altText: 'Gratis arbetsblad rutnätsritning - målarbilder barn och ritövningar för förskoleklass',
+        imageTitle: 'Gratis arbetsblad rutnätsritning',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/swedish/draw-and-color/sample-2.jpeg',
+        answerKeySrc: '/samples/swedish/draw-and-color/sample-2.jpeg',
+        altText: 'Arbetsblad för barn - rutnätsteknik finmotorik övningar gratis utskrifter',
+        imageTitle: 'Arbetsblad för barn',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/swedish/draw-and-color/sample-3.jpeg',
+        answerKeySrc: '/samples/swedish/draw-and-color/sample-3.jpeg',
+        altText: 'Gratis arbetsblad för förskoleklass - rutnätsritning matematik arbetsblad',
+        imageTitle: 'Gratis arbetsblad för förskoleklass',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/swedish/draw-and-color/sample-4.jpeg',
+        answerKeySrc: '/samples/swedish/draw-and-color/sample-4.jpeg',
+        altText: 'Målarbilder barn med rutnätsritning - gratis arbetsblad för barn',
+        imageTitle: 'Målarbilder barn med rutnätsritning',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/swedish/draw-and-color/sample-5.jpeg',
+        answerKeySrc: '/samples/swedish/draw-and-color/sample-5.jpeg',
+        altText: 'Finmotorik övningar rutnätsteknik - arbetsblad för förskoleklass gratis utskrifter',
+        imageTitle: 'Finmotorik övningar rutnätsteknik',
+      },
+    ],
     
   },
 

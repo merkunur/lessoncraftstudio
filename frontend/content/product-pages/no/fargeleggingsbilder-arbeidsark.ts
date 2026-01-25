@@ -94,7 +94,43 @@ Grunnpakke-abonnement inkluderer 10 populære arbeidsarkverktøy for bare $144 p
     noPdfLabel: 'Ingen PDF tilgjengelig',
     freePdfCountLabel: '3 gratis nedlastinger',
     ofLabel: 'av',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/norwegian/coloring/sample-1.jpeg',
+        answerKeySrc: '/samples/norwegian/coloring/sample-1.jpeg',
+        altText: 'Fargeleggingsbilder barn gratis arbeidsark for småskoletrinnet med finmotorikk øvelser',
+        imageTitle: 'Fargeleggingsbilder barn gratis arbeidsark for småskoletrinnet med finmotorikk øvelser',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/norwegian/coloring/sample-2.jpeg',
+        answerKeySrc: '/samples/norwegian/coloring/sample-2.jpeg',
+        altText: 'Gratis arbeidsark for barn - fargeleggingsbilder for barneskole og 1. trinn',
+        imageTitle: 'Gratis arbeidsark for barn',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/norwegian/coloring/sample-3.jpeg',
+        answerKeySrc: '/samples/norwegian/coloring/sample-3.jpeg',
+        altText: 'Arbeidsark for barn fargelegging - gratis utskrifter med oppgavehefter barn',
+        imageTitle: 'Arbeidsark for barn fargelegging',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/norwegian/coloring/sample-4.jpeg',
+        answerKeySrc: '/samples/norwegian/coloring/sample-4.jpeg',
+        altText: 'Fargeleggingsbilder barn arbeidsark gratis - tall og telling øvelser',
+        imageTitle: 'Fargeleggingsbilder barn arbeidsark gratis',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/norwegian/coloring/sample-5.jpeg',
+        answerKeySrc: '/samples/norwegian/coloring/sample-5.jpeg',
+        altText: 'Gratis arbeidsark fargeleggingsbilder - finmotorikk øvelser og bokstaver',
+        imageTitle: 'Gratis arbeidsark fargeleggingsbilder',
+      },
+    ],
     
   },
 

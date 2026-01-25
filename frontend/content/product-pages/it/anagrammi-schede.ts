@@ -90,7 +90,36 @@ Perfetto per insegnanti della scuola primaria, genitori homeschool ed educatori 
     badgeText: 'Esempi Gratuiti',
     downloadingLabel: 'Scaricamento...',
     ofLabel: 'di',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/italian/word-scramble/sample-1.jpeg',
+        answerKeySrc: '/samples/italian/word-scramble/sample-1.jpeg',
+        altText: 'Scheda gratuita anagrammi per bambini - stampabili gratuiti scuola infanzia',
+        imageTitle: 'Scheda gratuita anagrammi per bambini',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/italian/word-scramble/sample-2.jpeg',
+        answerKeySrc: '/samples/italian/word-scramble/sample-2.jpeg',
+        altText: 'Schede gratuite anagrammi - stampabili gratuiti scuola primaria',
+        imageTitle: 'Schede gratuite anagrammi',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/italian/word-scramble/sample-3.jpeg',
+        answerKeySrc: '/samples/italian/word-scramble/sample-3.jpeg',
+        altText: 'Scheda gratuita per bambini - anagrammi parole personalizzate',
+        imageTitle: 'Scheda gratuita per bambini',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/italian/word-scramble/sample-4.jpeg',
+        answerKeySrc: '/samples/italian/word-scramble/sample-4.jpeg',
+        altText: 'Anagrammi schede didattiche - stampabili gratuiti lettere alfabeto',
+        imageTitle: 'Anagrammi schede didattiche',
+      },
+    ],
     
   },
 

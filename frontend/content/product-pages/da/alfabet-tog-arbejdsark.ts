@@ -96,7 +96,43 @@ Hver alfabetopgave har en farverig togskabelon med elleve vogne. Eleverne matche
     noPdfLabel: 'Ingen PDF tilgængelig',
     freePdfCountLabel: '3 gratis downloads',
     ofLabel: 'af',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/danish/alphabet-train/sample-1.jpeg',
+        answerKeySrc: '/samples/danish/alphabet-train/sample-1.jpeg',
+        altText: 'Alfabettog gratis arbejdsark - bogstav-til-billede matching til børnehaveklassen',
+        imageTitle: 'Alfabettog gratis arbejdsark',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/danish/alphabet-train/sample-2.jpeg',
+        answerKeySrc: '/samples/danish/alphabet-train/sample-2.jpeg',
+        altText: 'Alfabettog arbejdsark til børn - farverigt togdesign til 0. klasse',
+        imageTitle: 'Alfabettog arbejdsark til børn',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/danish/alphabet-train/sample-3.jpeg',
+        answerKeySrc: '/samples/danish/alphabet-train/sample-3.jpeg',
+        altText: 'Gratis arbejdsark alfabettog - bogstavgenkendelse til børnehaveklasse',
+        imageTitle: 'Gratis arbejdsark alfabettog',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/danish/alphabet-train/sample-4.jpeg',
+        answerKeySrc: '/samples/danish/alphabet-train/sample-4.jpeg',
+        altText: 'Alfabettog arbejdsark til børnehaveklasse - lære bogstaver aktivitet',
+        imageTitle: 'Alfabettog arbejdsark til børnehaveklasse',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/danish/alphabet-train/sample-5.jpeg',
+        answerKeySrc: '/samples/danish/alphabet-train/sample-5.jpeg',
+        altText: 'Gratis printables alfabettog - finmotorik øvelser og bogstavpraksis',
+        imageTitle: 'Gratis printables alfabettog',
+      },
+    ],
     
   },
 

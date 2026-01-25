@@ -96,7 +96,43 @@ Les fiches de comparaison de tailles conviennent parfaitement aux classes de mat
     badgeText: 'Exemples Gratuits',
     downloadingLabel: 'Téléchargement...',
     ofLabel: 'sur',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/french/big-small/sample-1.jpeg',
+        answerKeySrc: '/samples/french/big-small/sample-1.jpeg',
+        altText: 'Fiche grand et petit gratuite - exercice comparaison de tailles pour maternelle',
+        imageTitle: 'Fiche grand et petit gratuite',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/french/big-small/sample-2.jpeg',
+        answerKeySrc: '/samples/french/big-small/sample-2.jpeg',
+        altText: 'Fiche gratuite pour enfants - fiches de comparaison grand petit pour CP',
+        imageTitle: 'Fiche gratuite pour enfants',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/french/big-small/sample-3.jpeg',
+        answerKeySrc: '/samples/french/big-small/sample-3.jpeg',
+        altText: 'Fiches gratuites grand petit - classement par taille avec numerotation',
+        imageTitle: 'Fiches gratuites grand petit',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/french/big-small/sample-4.jpeg',
+        answerKeySrc: '/samples/french/big-small/sample-4.jpeg',
+        altText: 'Imprimables gratuits comparaison de tailles - graphisme maternelle',
+        imageTitle: 'Imprimables gratuits comparaison de tailles',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/french/big-small/sample-5.jpeg',
+        answerKeySrc: '/samples/french/big-small/sample-5.jpeg',
+        altText: 'Fiche pour maternelle - exercices grand petit discrimination visuelle',
+        imageTitle: 'Fiche pour maternelle',
+      },
+    ],
     
   },
 

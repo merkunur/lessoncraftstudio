@@ -96,7 +96,43 @@ Full Tillgång-prenumerationen inkluderar alla 33 arbetsbladsverktyg för 2 880 
     badgeText: 'Gratis Exempel',
     downloadingLabel: 'Laddar ner...',
     ofLabel: 'av',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/swedish/cryptogram/sample-1.jpeg',
+        answerKeySrc: '/samples/swedish/cryptogram/sample-1.jpeg',
+        altText: 'Gratis arbetsblad bildkryptogram - bokstavspussel för förskoleklass',
+        imageTitle: 'Gratis arbetsblad bildkryptogram',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/swedish/cryptogram/sample-2.jpeg',
+        answerKeySrc: '/samples/swedish/cryptogram/sample-2.jpeg',
+        altText: 'Gratis arbetsblad för barn - bildkryptogram med tematiska bilder',
+        imageTitle: 'Gratis arbetsblad för barn',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/swedish/cryptogram/sample-3.jpeg',
+        answerKeySrc: '/samples/swedish/cryptogram/sample-3.jpeg',
+        altText: 'Gratis utskrifter bildkryptogram - arbetsblad för barn',
+        imageTitle: 'Gratis utskrifter bildkryptogram',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/swedish/cryptogram/sample-4.jpeg',
+        answerKeySrc: '/samples/swedish/cryptogram/sample-4.jpeg',
+        altText: 'Arbetsblad för förskoleklass - bildkryptogram bokstavsinlärning',
+        imageTitle: 'Arbetsblad för förskoleklass',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/swedish/cryptogram/sample-5.jpeg',
+        answerKeySrc: '/samples/swedish/cryptogram/sample-5.jpeg',
+        altText: 'Arbetsblad för barn - gratis bildkryptogram generator',
+        imageTitle: 'Arbetsblad för barn',
+      },
+    ],
     
   },
 

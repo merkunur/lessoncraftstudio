@@ -98,7 +98,43 @@ Cette méthode d'apprentissage par la visualisation aide les enfants à comprend
     badgeText: 'Exemples Gratuits',
     downloadingLabel: 'Téléchargement...',
     ofLabel: 'sur',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/french/chart-count/sample-1.jpeg',
+        answerKeySrc: '/samples/french/chart-count/sample-1.jpeg',
+        altText: 'Fiche gratuite graphique en images pour maternelle - exercice de comptage et coloriage de diagramme',
+        imageTitle: 'Fiche gratuite graphique en images pour maternelle',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/french/chart-count/sample-2.jpeg',
+        answerKeySrc: '/samples/french/chart-count/sample-2.jpeg',
+        altText: 'Fiches gratuites de graphique pictogramme pour CP - activité comptage avec images colorées',
+        imageTitle: 'Fiches gratuites de graphique pictogramme pour CP',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/french/chart-count/sample-3.jpeg',
+        answerKeySrc: '/samples/french/chart-count/sample-3.jpeg',
+        altText: 'Imprimables gratuits graphique en images - fiche pour enfants avec diagramme et comptage',
+        imageTitle: 'Imprimables gratuits graphique en images',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/french/chart-count/sample-4.jpeg',
+        answerKeySrc: '/samples/french/chart-count/sample-4.jpeg',
+        altText: 'Fiche gratuite pour enfants graphique comptage - exercice maternelle avec corrigé automatique',
+        imageTitle: 'Fiche gratuite pour enfants graphique comptage',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/french/chart-count/sample-5.jpeg',
+        answerKeySrc: '/samples/french/chart-count/sample-5.jpeg',
+        altText: 'Fiche pour maternelle graphique en images - diagramme pictogramme et comptage pour CP',
+        imageTitle: 'Fiche pour maternelle graphique en images',
+      },
+    ],
     
   },
 

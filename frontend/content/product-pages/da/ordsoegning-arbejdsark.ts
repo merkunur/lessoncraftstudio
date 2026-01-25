@@ -82,7 +82,29 @@ Vores gratis ordsøgningsgenerator tilbyder over 3000 børnevenlige billeder til
     noPdfLabel: 'Ingen PDF tilgængelig',
     freePdfCountLabel: '3 gratis downloads',
     ofLabel: 'af',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/danish/wordsearch/sample-1.jpeg',
+        answerKeySrc: '/samples/danish/wordsearch/sample-1.jpeg',
+        altText: 'Ordsøgning arbejdsark gratis til print - portrætformat til børnehaveklassen',
+        imageTitle: 'Ordsøgning arbejdsark gratis til print',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/danish/wordsearch/sample-2.jpeg',
+        answerKeySrc: '/samples/danish/wordsearch/sample-2.jpeg',
+        altText: 'Ordsøgning gratis arbejdsark - tematisk ordforrådsøvelse til 0. klasse og 1. klasse',
+        imageTitle: 'Ordsøgning gratis arbejdsark',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/danish/wordsearch/sample-3.jpeg',
+        answerKeySrc: '/samples/danish/wordsearch/sample-3.jpeg',
+        altText: 'Gratis arbejdsark ordsøgning - brugerdefineret ordliste til stavning',
+        imageTitle: 'Gratis arbejdsark ordsøgning',
+      },
+    ],
     
   },
 

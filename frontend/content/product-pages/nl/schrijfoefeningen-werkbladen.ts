@@ -98,7 +98,29 @@ De schrijfoefeningen generator bespaart leerkrachten uren voorbereidingstijd. Ma
     badgeText: 'Gratis Voorbeelden',
     downloadingLabel: 'Downloaden...',
     ofLabel: 'van',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/dutch/writing/sample-1.jpeg',
+        answerKeySrc: '/samples/dutch/writing/sample-1.jpeg',
+        altText: 'Schrijfoefeningen gratis werkblad voor letters leren - werkbladen kleuters',
+        imageTitle: 'Schrijfoefeningen gratis werkblad voor letters leren',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/dutch/writing/sample-2.jpeg',
+        answerKeySrc: '/samples/dutch/writing/sample-2.jpeg',
+        altText: 'Gratis werkblad schrijven oefenen - fijne motoriek werkbladen groep 3',
+        imageTitle: 'Gratis werkblad schrijven oefenen',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/dutch/writing/sample-3.jpeg',
+        answerKeySrc: '/samples/dutch/writing/sample-3.jpeg',
+        altText: 'Schrijfwerkbladen gratis werkblad voor kinderen - veilig leren lezen oefenbladen',
+        imageTitle: 'Schrijfwerkbladen gratis werkblad voor kinderen',
+      },
+    ],
     
   },
 

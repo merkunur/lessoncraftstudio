@@ -92,7 +92,29 @@ Modifica tutto sulla scheda gratuita dopo la generazione. Sposta, ruota, ridimen
     badgeText: 'Esempi Gratuiti',
     downloadingLabel: 'Scaricamento...',
     ofLabel: 'di',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/italian/code-addition/sample-1.jpeg',
+        answerKeySrc: '/samples/italian/code-addition/sample-1.jpeg',
+        altText: 'Scheda Gratuita Addizioni con Immagini - Stampabili Gratuiti Scuola Infanzia',
+        imageTitle: 'Scheda Gratuita Addizioni con Immagini',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/italian/code-addition/sample-2.jpeg',
+        answerKeySrc: '/samples/italian/code-addition/sample-2.jpeg',
+        altText: 'Scheda Gratuita per Bambini - Schede Gratuite Addizioni Matematica Visiva',
+        imageTitle: 'Scheda Gratuita per Bambini',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/italian/code-addition/sample-3.jpeg',
+        answerKeySrc: '/samples/italian/code-addition/sample-3.jpeg',
+        altText: 'Scheda per Bambini Addizioni - Stampabili Gratuiti Matematica Contare',
+        imageTitle: 'Scheda per Bambini Addizioni',
+      },
+    ],
     
   },
 

@@ -92,7 +92,36 @@ Tu suscripción Acceso Completo incluye licencia comercial completa. Vende tus f
     badgeText: 'Ejemplos Gratis',
     downloadingLabel: 'Descargando...',
     ofLabel: 'de',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/spanish/picture-sort/sample-1.jpeg',
+        answerKeySrc: '/samples/spanish/picture-sort/sample-1.jpeg',
+        altText: 'Ficha gratis de clasificacion para imprimir - ejercicio de categorizacion para preescolar',
+        imageTitle: 'Ficha gratis de clasificacion para imprimir',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/spanish/picture-sort/sample-2.jpeg',
+        answerKeySrc: '/samples/spanish/picture-sort/sample-2.jpeg',
+        altText: 'Ficha gratis para ninos de clasificacion de imagenes - actividad educativa para infantil',
+        imageTitle: 'Ficha gratis para ninos de clasificacion de imagenes',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/spanish/picture-sort/sample-3.jpeg',
+        answerKeySrc: '/samples/spanish/picture-sort/sample-3.jpeg',
+        altText: 'Fichas gratis de clasificacion - material educativo para educacion primaria',
+        imageTitle: 'Fichas gratis de clasificacion',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/spanish/picture-sort/sample-4.jpeg',
+        answerKeySrc: '/samples/spanish/picture-sort/sample-4.jpeg',
+        altText: 'Imprimibles gratis de clasificacion de imagenes - fichas preescolar profesionales',
+        imageTitle: 'Imprimibles gratis de clasificacion de imagenes',
+      },
+    ],
     
   },
 

@@ -108,7 +108,43 @@ Die Arbeitsblätter eignen sich hervorragend für Vorschul-Arbeitsblätter und D
     badgeText: 'Kostenlose Beispiele',
     downloadingLabel: 'Wird heruntergeladen...',
     ofLabel: 'von',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/german/alphabet-train/sample-1.jpeg',
+        answerKeySrc: '/samples/german/alphabet-train/sample-1.jpeg',
+        altText: 'Kostenloses Alphabet-Zug Arbeitsblatt Grundschule - Buchstaben lernen mit bunten Waggons für Vorschule und 1. Klasse',
+        imageTitle: 'Kostenloses Alphabet-Zug Arbeitsblatt Grundschule',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/german/alphabet-train/sample-2.jpeg',
+        answerKeySrc: '/samples/german/alphabet-train/sample-2.jpeg',
+        altText: 'Alphabet-Zug Arbeitsblatt Querformat - Vorschul-Arbeitsblätter zum Buchstaben lernen mit ABC-Bildern',
+        imageTitle: 'Alphabet-Zug Arbeitsblatt Querformat',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/german/alphabet-train/sample-3.jpeg',
+        answerKeySrc: '/samples/german/alphabet-train/sample-3.jpeg',
+        altText: 'Kostenlose Arbeitsblätter Buchstaben lernen - Alphabet-Zug Generator für Arbeitsblätter Grundschule',
+        imageTitle: 'Kostenlose Arbeitsblätter Buchstaben lernen',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/german/alphabet-train/sample-4.jpeg',
+        answerKeySrc: '/samples/german/alphabet-train/sample-4.jpeg',
+        altText: 'Alphabet-Zug Arbeitsblatt für Kinder - Kostenlose Druckvorlagen zum Buchstaben lernen für Vorschule',
+        imageTitle: 'Alphabet-Zug Arbeitsblatt für Kinder',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/german/alphabet-train/sample-5.jpeg',
+        answerKeySrc: '/samples/german/alphabet-train/sample-5.jpeg',
+        altText: 'Arbeitsblatt für Vorschule Alphabet-Zug - Kostenlose Arbeitsblätter Grundschule mit ABC-Waggons',
+        imageTitle: 'Arbeitsblatt für Vorschule Alphabet-Zug',
+      },
+    ],
     
   },
 

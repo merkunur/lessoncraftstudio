@@ -98,7 +98,43 @@ Acesse uma biblioteca com mais de 3000 imagens organizadas por temas. Encontre a
     badgeText: 'Exemplos Grátis',
     downloadingLabel: 'Baixando...',
     ofLabel: 'de',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/portuguese/shadow-match/sample-1.jpeg',
+        answerKeySrc: '/samples/portuguese/shadow-match/sample-1.jpeg',
+        altText: 'Atividade grátis de combinar sombras para educação infantil',
+        imageTitle: 'Atividade grátis de combinar sombras para educação infantil',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/portuguese/shadow-match/sample-2.jpeg',
+        answerKeySrc: '/samples/portuguese/shadow-match/sample-2.jpeg',
+        altText: 'Atividade grátis para crianças - combinar sombras com animais',
+        imageTitle: 'Atividade grátis para crianças',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/portuguese/shadow-match/sample-3.jpeg',
+        answerKeySrc: '/samples/portuguese/shadow-match/sample-3.jpeg',
+        altText: 'Atividades grátis de combinar sombras para coordenação motora',
+        imageTitle: 'Atividades grátis de combinar sombras para coordenação motora',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/portuguese/shadow-match/sample-4.jpeg',
+        answerKeySrc: '/samples/portuguese/shadow-match/sample-4.jpeg',
+        altText: 'Imprimíveis grátis de combinar sombras para educação infantil',
+        imageTitle: 'Imprimíveis grátis de combinar sombras para educação infantil',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/portuguese/shadow-match/sample-5.jpeg',
+        answerKeySrc: '/samples/portuguese/shadow-match/sample-5.jpeg',
+        altText: 'Atividade para crianças de combinar sombras - pareamento visual',
+        imageTitle: 'Atividade para crianças de combinar sombras',
+      },
+    ],
     
   },
 

@@ -90,7 +90,36 @@ Varje bildkorsord exporteras i professionell 300 DPI-kvalitet. Ladda ner som PDF
     badgeText: 'Gratis Exempel',
     downloadingLabel: 'Laddar ner...',
     ofLabel: 'av',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/swedish/crossword/sample-1.jpeg',
+        answerKeySrc: '/samples/swedish/crossword/sample-1.jpeg',
+        altText: 'Bildkorsord arbetsblad gratis - generator för förskoleklass ordförrådsövningar',
+        imageTitle: 'Bildkorsord arbetsblad gratis',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/swedish/crossword/sample-2.jpeg',
+        answerKeySrc: '/samples/swedish/crossword/sample-2.jpeg',
+        altText: 'Gratis arbetsblad bildkorsord för barn - matematik arbetsblad bokstäver lära sig',
+        imageTitle: 'Gratis arbetsblad bildkorsord för barn',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/swedish/crossword/sample-3.jpeg',
+        answerKeySrc: '/samples/swedish/crossword/sample-3.jpeg',
+        altText: 'Arbetsblad för förskoleklass - bildkorsord gratis utskrifter ordförråd',
+        imageTitle: 'Arbetsblad för förskoleklass',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/swedish/crossword/sample-4.jpeg',
+        answerKeySrc: '/samples/swedish/crossword/sample-4.jpeg',
+        altText: 'Gratis utskrifter arbetsblad för barn - bildkorsord förskoleklass material',
+        imageTitle: 'Gratis utskrifter arbetsblad för barn',
+      },
+    ],
     
   },
 

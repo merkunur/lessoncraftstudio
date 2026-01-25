@@ -96,7 +96,29 @@ Generieren Sie Schwungübungen für Buchstaben, Wörter, Namen oder eigene Texte
     badgeText: 'Kostenlose Beispiele',
     downloadingLabel: 'Wird heruntergeladen...',
     ofLabel: 'von',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/german/writing/sample-1.jpeg',
+        answerKeySrc: '/samples/german/writing/sample-1.jpeg',
+        altText: 'Schreibübungen Arbeitsblatt kostenlos - Schwungübungen für Vorschule und Grundschule',
+        imageTitle: 'Schreibübungen Arbeitsblatt kostenlos',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/german/writing/sample-2.jpeg',
+        answerKeySrc: '/samples/german/writing/sample-2.jpeg',
+        altText: 'Buchstaben lernen Arbeitsblatt kostenlos - Kostenloses Arbeitsblatt für Kinder zum Nachspuren',
+        imageTitle: 'Buchstaben lernen Arbeitsblatt kostenlos',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/german/writing/sample-3.jpeg',
+        answerKeySrc: '/samples/german/writing/sample-3.jpeg',
+        altText: 'Schreibübungen Kostenlose Druckvorlagen - Arbeitsblätter Grundschule zum Ausdrucken',
+        imageTitle: 'Schreibübungen Kostenlose Druckvorlagen',
+      },
+    ],
     
   },
 

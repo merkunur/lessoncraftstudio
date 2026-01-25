@@ -104,7 +104,36 @@ Download hoogwaardige PDF en JPEG bestanden binnen 3 minuten. Alle werkbladen ex
     badgeText: 'Gratis Voorbeelden',
     downloadingLabel: 'Downloaden...',
     ofLabel: 'van',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/dutch/picture-path/sample-1.jpeg',
+        answerKeySrc: '/samples/dutch/picture-path/sample-1.jpeg',
+        altText: 'Gratis werkblad doolhof - plaatjes pad werkbladen groep 3 voor visuele discriminatie',
+        imageTitle: 'Gratis werkblad doolhof',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/dutch/picture-path/sample-2.jpeg',
+        answerKeySrc: '/samples/dutch/picture-path/sample-2.jpeg',
+        altText: 'Gratis werkbladen doolhof - werkblad voor kleuters met klassiek doolhof',
+        imageTitle: 'Gratis werkbladen doolhof',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/dutch/picture-path/sample-3.jpeg',
+        answerKeySrc: '/samples/dutch/picture-path/sample-3.jpeg',
+        altText: 'Werkblad voor kinderen - kies het juiste pad doolhof voor fijne motoriek',
+        imageTitle: 'Werkblad voor kinderen',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/dutch/picture-path/sample-4.jpeg',
+        answerKeySrc: '/samples/dutch/picture-path/sample-4.jpeg',
+        altText: 'Gratis printables doolhof - oefenbladen voor letters leren en veilig leren lezen',
+        imageTitle: 'Gratis printables doolhof',
+      },
+    ],
     
   },
 

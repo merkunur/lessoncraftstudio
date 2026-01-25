@@ -86,7 +86,43 @@ Generate worksheets in 11 languages including English, Spanish, French, and Germ
     downloadLabel: 'Download Free Sample',
     worksheetLabel: 'Worksheet',
     answerKeyLabel: 'Answer Key',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/english/missing-pieces/sample-1.jpeg',
+        answerKeySrc: '/samples/english/missing-pieces/sample-1.jpeg',
+        altText: 'Free printable missing pieces worksheets for kindergarten - visual discrimination puzzle with spatial reasoning practice for kids',
+        imageTitle: 'Free printable missing pieces worksheets for kindergarten',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/english/missing-pieces/sample-2.jpeg',
+        answerKeySrc: '/samples/english/missing-pieces/sample-2.jpeg',
+        altText: 'Missing pieces puzzle worksheets free printable - visual learning worksheet for first grade spatial reasoning',
+        imageTitle: 'Missing pieces puzzle worksheets free printable',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/english/missing-pieces/sample-3.jpeg',
+        answerKeySrc: '/samples/english/missing-pieces/sample-3.jpeg',
+        altText: 'Visual discrimination worksheets for kindergarten - free missing pieces puzzle activity for kids',
+        imageTitle: 'Visual discrimination worksheets for kindergarten',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/english/missing-pieces/sample-4.jpeg',
+        answerKeySrc: '/samples/english/missing-pieces/sample-4.jpeg',
+        altText: 'Free printable missing pieces worksheets - spatial reasoning puzzle for kindergarten visual learning',
+        imageTitle: 'Free printable missing pieces worksheets',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/english/missing-pieces/sample-5.jpeg',
+        answerKeySrc: '/samples/english/missing-pieces/sample-5.jpeg',
+        altText: 'Visual discrimination worksheets free printable - missing pieces puzzle activity for first grade kids',
+        imageTitle: 'Visual discrimination worksheets free printable',
+      },
+    ],
     
   },
 

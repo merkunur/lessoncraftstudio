@@ -96,7 +96,22 @@ Questo strumento è perfetto per insegnanti italiani. Genera scheda gratuita per
     badgeText: 'Esempi Gratuiti',
     downloadingLabel: 'Scaricamento...',
     ofLabel: 'di',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/italian/find-objects/sample-2.jpeg',
+        answerKeySrc: '/samples/italian/find-objects/sample-2.jpeg',
+        altText: 'Schede gratuite cerca oggetti - stampabili gratuiti per bambini scuola primaria',
+        imageTitle: 'Schede gratuite cerca oggetti',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/italian/find-objects/sample-5.jpeg',
+        answerKeySrc: '/samples/italian/find-objects/sample-5.jpeg',
+        altText: 'Schede gratuite cerca oggetti nascosti - stampabili gratuiti scuola primaria',
+        imageTitle: 'Schede gratuite cerca oggetti nascosti',
+      },
+    ],
     
   },
 

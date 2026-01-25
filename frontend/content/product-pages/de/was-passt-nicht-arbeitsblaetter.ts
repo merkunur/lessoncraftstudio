@@ -110,7 +110,43 @@ Die umfangreiche Bildbibliothek enthält über 3000 kindgerechte Bilder. Alle Bi
     badgeText: 'Kostenlose Beispiele',
     downloadingLabel: 'Wird heruntergeladen...',
     ofLabel: 'von',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: 'sample-1',
+        worksheetSrc: '/samples/german/odd-one-out/sample-1.jpeg',
+        answerKeySrc: '/samples/german/odd-one-out/sample-1.jpeg',
+        altText: 'Was passt nicht Arbeitsblätter Grundschule - kostenlose Logik-Übungen zum Ausdrucken',
+        imageTitle: 'Was passt nicht Arbeitsblätter Grundschule',
+      },
+      {
+        id: 'sample-2',
+        worksheetSrc: '/samples/german/odd-one-out/sample-2.jpeg',
+        answerKeySrc: '/samples/german/odd-one-out/sample-2.jpeg',
+        altText: 'Vorschule Arbeitsblätter Was passt nicht - visuelle Wahrnehmungsübungen für Kinder',
+        imageTitle: 'Vorschule Arbeitsblätter Was passt nicht',
+      },
+      {
+        id: 'sample-3',
+        worksheetSrc: '/samples/german/odd-one-out/sample-3.jpeg',
+        answerKeySrc: '/samples/german/odd-one-out/sample-3.jpeg',
+        altText: 'Mathe Arbeitsblätter mit Kategorisierung - kostenlose Arbeitsblätter Generator',
+        imageTitle: 'Mathe Arbeitsblätter mit Kategorisierung',
+      },
+      {
+        id: 'sample-4',
+        worksheetSrc: '/samples/german/odd-one-out/sample-4.jpeg',
+        answerKeySrc: '/samples/german/odd-one-out/sample-4.jpeg',
+        altText: 'Kostenlose Arbeitsblätter Logik - Was passt nicht Übungen für Grundschule',
+        imageTitle: 'Kostenlose Arbeitsblätter Logik',
+      },
+      {
+        id: 'sample-5',
+        worksheetSrc: '/samples/german/odd-one-out/sample-5.jpeg',
+        answerKeySrc: '/samples/german/odd-one-out/sample-5.jpeg',
+        altText: 'Arbeitsblätter Grundschule Konzentration - Was passt nicht für Vorschule',
+        imageTitle: 'Arbeitsblätter Grundschule Konzentration',
+      },
+    ],
     
   },
 

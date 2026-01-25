@@ -32,7 +32,7 @@ Valitse teema tai yksittäiset kuvat yli 3000 kuvan kirjastosta. Sanapeli genera
 Sanapelitehtävät sopivat esikoululaisille ja alakoululaisille. Tue lukemaan oppiminen tehtävät ja kirjaimet harjoittelu esikoulu tavoitteita. Käytä matematiikka tehtävät alakoulu sanastoa tai värityskuvia lapsille tulostettava nimiä. Kaikki tehtävät tulostuvat korkealla 300 DPI laadulla.
 
 Ilmainen perusversio sisältää vesileiman henkilökohtaiseen käyttöön. Peruspaketti tai Täysi Pääsy tilaus poistaa vesileiman. Tilaus sisältää kaupallisen lisenssin ja kaikki premium-ominaisuudet. Luo rajoittamattomasti tulostettavat tehtävät lapsille ilmainen tilauksen kanssa.`,
-    previewImageSrc: '/samples/english/wordsearch/wordsearch portrait.jpeg',
+    previewImageSrc: '/samples/finnish/wordsearch/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Kokeile Ilmaiseksi',
       viewSamples: 'Katso Esimerkkejä',
@@ -67,24 +67,24 @@ Ilmainen perusversio sisältää vesileiman henkilökohtaiseen käyttöön. Peru
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/wordsearch/wordsearch portrait.jpeg',
-        answerKeySrc: '/samples/english/wordsearch/wordsearch portrait answer_key.jpeg',
+        worksheetSrc: '/samples/finnish/wordsearch/sample-1.jpeg',
+        answerKeySrc: '/samples/finnish/wordsearch/sample-1-answer.jpeg',
         altText: 'Sanapeli pystysuunnassa teemaattisilla kuvilla esiopetuksen sanaston harjoitteluun',
-        pdfDownloadUrl: '/samples/english/wordsearch/wordsearch portrait.pdf',
+        pdfDownloadUrl: '/samples/finnish/wordsearch/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/wordsearch/wordsearch landscape.jpeg',
-        answerKeySrc: '/samples/english/wordsearch/wordsearch landscape answer_key.jpeg',
+        worksheetSrc: '/samples/finnish/wordsearch/sample-2.jpeg',
+        answerKeySrc: '/samples/finnish/wordsearch/sample-2-answer.jpeg',
         altText: 'Sanapeli vaakasuunnassa värikkäillä kuvavinkeillä alakoululaisille',
-        pdfDownloadUrl: '/samples/english/wordsearch/wordsearch landscape.pdf',
+        pdfDownloadUrl: '/samples/finnish/wordsearch/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/wordsearch/custom word list.jpeg',
-        answerKeySrc: '/samples/english/wordsearch/custom word list answer_key.jpeg',
+        worksheetSrc: '/samples/finnish/wordsearch/sample-3.jpeg',
+        answerKeySrc: '/samples/finnish/wordsearch/sample-3-answer.jpeg',
         altText: 'Mukautettu sanalista sanapeli oikeinkirjoituksen ja sanaston harjoitteluun',
-        pdfDownloadUrl: '/samples/english/wordsearch/custom word list.pdf',
+        pdfDownloadUrl: '/samples/finnish/wordsearch/sample-3.pdf',
       },
     ],
   },

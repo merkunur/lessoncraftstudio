@@ -30,7 +30,7 @@ export const moreLessFiContent: ProductPageContent = {
 Lukujen vertailu on perustavanlaatuinen matemaattinen taito. Lapset oppivat ymmärtämään suurempi, pienempi ja yhtä suuri -käsitteet. Tehtävägeneraattorimme tekee vertailutehtävien luomisesta helppoa. Valitse kuvat tai teemat, aseta asetukset, ja tehtävä on valmis. Jokainen tehtävä sisältää visuaalisia elementtejä, jotka auttavat lapsia hahmottamaan määriä.
 
 Täysi Käyttöoikeus -tilaus antaa sinulle pääsyn kaikkiin 33 tehtävägeneraattoriin yhteen hintaan. Luo niin monta matematiikkatehtävää kuin tarvitset. Ei piilotettuja kuluja tai rajoituksia. Kaikki kuvat, taustat ja reunukset sisältyvät tilaukseen. 300 DPI:n laatu takaa ammattimaiset tulosteet.`,
-    previewImageSrc: '/samples/english/more less/image to image.jpeg',
+    previewImageSrc: '/samples/finnish/more less/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Kokeile Ilmaiseksi',
       viewSamples: 'Katso Esimerkkejä',
@@ -65,24 +65,24 @@ Täysi Käyttöoikeus -tilaus antaa sinulle pääsyn kaikkiin 33 tehtävägenera
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/more less/image to image.jpeg',
-        answerKeySrc: '/samples/english/more less/image to image answer_key.jpeg',
+        worksheetSrc: '/samples/finnish/more less/sample-1.jpeg',
+        answerKeySrc: '/samples/finnish/more less/sample-1-answer.jpeg',
         altText: 'Enemmän vai vähemmän vertailutehtävä kuva kuvaan -tilassa esiopetukseen',
-        pdfDownloadUrl: '/samples/english/more less/image to image.pdf',
+        pdfDownloadUrl: '/samples/finnish/more less/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/more less/image to number.jpeg',
-        answerKeySrc: '/samples/english/more less/image to number answer_key.jpeg',
+        worksheetSrc: '/samples/finnish/more less/sample-2.jpeg',
+        answerKeySrc: '/samples/finnish/more less/sample-2-answer.jpeg',
         altText: 'Vertailutehtävä kuva numeroon -tilassa matematiikan harjoitteluun',
-        pdfDownloadUrl: '/samples/english/more less/image to number.pdf',
+        pdfDownloadUrl: '/samples/finnish/more less/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/more less/illustration.jpeg',
-        answerKeySrc: '/samples/english/more less/illustration answer_key.jpeg',
+        worksheetSrc: '/samples/finnish/more less/sample-3.jpeg',
+        answerKeySrc: '/samples/finnish/more less/sample-3-answer.jpeg',
         altText: 'Kuvitussymboleilla varustettu vertailutehtävä nuoremmille oppilaille',
-        pdfDownloadUrl: '/samples/english/more less/illustration.pdf',
+        pdfDownloadUrl: '/samples/finnish/more less/sample-3.pdf',
       },
     ],
   },

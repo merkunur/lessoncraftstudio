@@ -30,7 +30,7 @@ export const shadowMatchFiContent: ProductPageContent = {
 Varjoyhdistely on visuaalinen hahmotusharjoitus, joka kehittää lasten näköhavaintoa, avaruudellista hahmotuskykyä ja ongelmanratkaisutaitoja. Esiopetus materiaali ilmainen ja matematiikka tehtävät alakoulu yhdistyvät täydellisesti värityskuvia lapsille tulostettava ja hienomotoriikka harjoitukset -teemoihin. Täysi Pääsy -tilaus sisältää kaikki 33 tehtävägeneraattoria, kaupallisen lisenssin ja 11 kielen tuen.
 
 Varjoyhdistelygeneraattorimme tarjoaa kaksi harjoitustyyppiä: perinteisen varjoyhdistelyn, jossa lapset yhdistävät värilliset kuvat niiden mustiin varjoihin, sekä "Tee Kokonaiseksi" -tilan, jossa jaetut kuvat yhdistetään kokonaisiksi. Molemmat harjoitustyypit sopivat täydellisesti tulostettavat tehtävät lapsille ilmainen -hakuihin ja tukevat kirjaimet harjoittelu esikoulu, kertotaulut tulostettava ja yhteenlasku ja vähennyslasku tehtävät -oppimista.`,
-    previewImageSrc: '/samples/english/shadow match/shadow-match-worksheet.jpeg',
+    previewImageSrc: '/samples/finnish/shadow match/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Kokeile Ilmaiseksi',
       viewSamples: 'Katso Esimerkkejä',
@@ -65,24 +65,24 @@ Varjoyhdistelygeneraattorimme tarjoaa kaksi harjoitustyyppiä: perinteisen varjo
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/shadow match/shadow-match-worksheet.jpeg',
-        answerKeySrc: '/samples/english/shadow match/shadow-match-answer-key.jpeg',
+        worksheetSrc: '/samples/finnish/shadow match/sample-1.jpeg',
+        answerKeySrc: '/samples/finnish/shadow match/sample-1-answer.jpeg',
         altText: 'Varjoyhdistely tehtävä perinteisellä varjoyhdistely-tilalla esiopetukseen',
-        pdfDownloadUrl: '/samples/english/shadow match/shadow-match-worksheet.pdf',
+        pdfDownloadUrl: '/samples/finnish/shadow match/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/shadow match/shadow-match-horizontal.jpeg',
-        answerKeySrc: '/samples/english/shadow match/shadow-match-horizontal answer-key.jpeg',
+        worksheetSrc: '/samples/finnish/shadow match/sample-2.jpeg',
+        answerKeySrc: '/samples/finnish/shadow match/sample-2-answer.jpeg',
         altText: 'Varjoyhdistely tehtävä vaakasuoralla Tee Kokonaiseksi -tilalla',
-        pdfDownloadUrl: '/samples/english/shadow match/shadow-match-horizontal.pdf',
+        pdfDownloadUrl: '/samples/finnish/shadow match/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/shadow match/shadow-match-vertical.jpeg',
-        answerKeySrc: '/samples/english/shadow match/shadow-match-vertical answer-key.jpeg',
+        worksheetSrc: '/samples/finnish/shadow match/sample-3.jpeg',
+        answerKeySrc: '/samples/finnish/shadow match/sample-3-answer.jpeg',
         altText: 'Varjoyhdistely tehtävä pystysuoralla Tee Kokonaiseksi -tilalla',
-        pdfDownloadUrl: '/samples/english/shadow match/shadow-match-vertical.pdf',
+        pdfDownloadUrl: '/samples/finnish/shadow match/sample-3.pdf',
       },
     ],
   },

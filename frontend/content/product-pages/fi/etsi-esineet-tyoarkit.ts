@@ -32,7 +32,7 @@ export const findObjectsFiContent: ProductPageContent = {
 Find Objects -generaattorimme luo kaksi erityyppistä visuaalista havainnointi tehtävää. I Spy -tilassa lapset etsivät 1-5 kätkettyä esinettä 8-12 häiritsevan kuvan joukosta. Odd One Out -tilassa lapset löytävät parittomat kuvat 8-12 kuvaparrin joukosta. Molemmat toiminnot kehittävät visuaalista havainnointia ja tarkkaavaisuustaitoja.
 
 Työkalumme sisältää yli 3000 lapsille sopivaa kuvaa 11 kielellä. Kuvien tiedostonimet ovat suomeksi, mikä tekee työkalusta erinomaisen kieltenoppimiseen. Täysi Pääsy -tilauksesi sisältää kaupallisen lisenssin, 11 kielen tuen ja ammattimaisen 300 DPI laadun. Luo tulostettavat tehtävät lapsille ilmainen hakusanalla, mutta Täysi Pääsy -tilaus antaa rajattomat mahdollisuudet.`,
-    previewImageSrc: '/samples/english/find objects/find objects portrait.jpeg',
+    previewImageSrc: '/samples/finnish/find objects/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Kokeile Ilmaiseksi',
       viewSamples: 'Katso Esimerkkejä',
@@ -67,17 +67,17 @@ Työkalumme sisältää yli 3000 lapsille sopivaa kuvaa 11 kielellä. Kuvien tie
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/find objects/find objects portrait.jpeg',
-        answerKeySrc: '/samples/english/find objects/find objects portrait answer_key.jpeg',
+        worksheetSrc: '/samples/finnish/find objects/sample-1.jpeg',
+        answerKeySrc: '/samples/finnish/find objects/sample-1-answer.jpeg',
         altText: 'Etsi esineet -tehtävä pystysuunnassa esiopetukseen ja alakouluun',
-        pdfDownloadUrl: '/samples/english/find objects/find objects portrait.pdf',
+        pdfDownloadUrl: '/samples/finnish/find objects/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/find objects/find objects landscape.jpeg',
-        answerKeySrc: '/samples/english/find objects/find objects landscape answer_key.jpeg',
+        worksheetSrc: '/samples/finnish/find objects/sample-2.jpeg',
+        answerKeySrc: '/samples/finnish/find objects/sample-2-answer.jpeg',
         altText: 'Etsi esineet -tehtävä vaakasuunnassa värikkäillä kuvilla',
-        pdfDownloadUrl: '/samples/english/find objects/find objects landscape.pdf',
+        pdfDownloadUrl: '/samples/finnish/find objects/sample-2.pdf',
       },
     ],
   },

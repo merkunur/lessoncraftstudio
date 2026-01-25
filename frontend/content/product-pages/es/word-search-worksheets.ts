@@ -56,7 +56,7 @@ export const wordSearchEsContent: ProductPageContent = {
 Nuestro creador de sopas de letras te ayuda a diseñar actividades educativas atractivas. Elige entre más de 3000 imágenes infantiles organizadas por tema. Cada sopa de letras se descarga como PDF o JPEG de alta calidad. Tus alumnos disfrutarán buscando palabras escondidas basadas en dibujos coloridos. La suscripción elimina la marca de agua e incluye licencia comercial.
 
 Este generador funciona en 11 idiomas completos. Selecciona un tema como animales o transportes. La aplicación crea una sopa de letras completa con hoja de respuestas. Edita todo en el lienzo antes de descargar. Añade texto personalizado, cambia colores o sube tus propias imágenes. Genera fichas gratis ilimitadas para el aula o la educación en casa.`,
-    previewImageSrc: '/samples/english/wordsearch/wordsearch portrait.jpeg',
+    previewImageSrc: '/samples/spanish/wordsearch/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Probar Gratis',
       viewSamples: 'Ver Ejemplos',
@@ -91,24 +91,24 @@ Este generador funciona en 11 idiomas completos. Selecciona un tema como animale
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/wordsearch/wordsearch portrait.jpeg',
-        answerKeySrc: '/samples/english/wordsearch/wordsearch portrait answer_key.jpeg',
+        worksheetSrc: '/samples/spanish/wordsearch/sample-1.jpeg',
+        answerKeySrc: '/samples/spanish/wordsearch/sample-1-answer.jpeg',
         altText: 'Sopa de letras fichas gratis para imprimir - puzzles vocabulario vertical para educación infantil y preescolar',
-        pdfDownloadUrl: '/samples/english/wordsearch/wordsearch portrait.pdf',
+        pdfDownloadUrl: '/samples/spanish/wordsearch/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/wordsearch/wordsearch landscape.jpeg',
-        answerKeySrc: '/samples/english/wordsearch/wordsearch landscape answer_key.jpeg',
+        worksheetSrc: '/samples/spanish/wordsearch/sample-2.jpeg',
+        answerKeySrc: '/samples/spanish/wordsearch/sample-2-answer.jpeg',
         altText: 'Sopa de letras ficha gratis para niños - puzzles vocabulario horizontal para educación infantil',
-        pdfDownloadUrl: '/samples/english/wordsearch/wordsearch landscape.pdf',
+        pdfDownloadUrl: '/samples/spanish/wordsearch/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/wordsearch/custom word list.jpeg',
-        answerKeySrc: '/samples/english/wordsearch/custom word list answer_key.jpeg',
+        worksheetSrc: '/samples/spanish/wordsearch/sample-3.jpeg',
+        answerKeySrc: '/samples/spanish/wordsearch/sample-3-answer.jpeg',
         altText: 'Sopa de letras fichas para imprimir con lista personalizada - ficha gratis vocabulario preescolar',
-        pdfDownloadUrl: '/samples/english/wordsearch/custom word list.pdf',
+        pdfDownloadUrl: '/samples/spanish/wordsearch/sample-3.pdf',
       },
     ],
   },

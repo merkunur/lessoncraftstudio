@@ -32,7 +32,7 @@ export const pictureSortFiContent: ProductPageContent = {
 Kuvalajittelugeneraattori auttaa lapsia oppimaan luokittelua ja kategorisointia. Lapset lajittelevat kuvia kahteen ryhmään. Vasen ja oikea kategoria. Jokainen tehtävä harjoittaa kriittistä ajattelua ja visuaalista erottelukykyä.
 
 Työkalumme tekee laadukkaiden esiopetus materiaali ilmainen -tehtävien luomisesta nopeaa. Valitse kaksi teemaa automaattista generointia varten. Tai valitse yksittäisiä kuvia manuaalisesti 3000+ kuvan kirjastosta. Muokkaa kaikkea pohjalla suoraan. Lisää omia kuvia personoidaksesi tehtävät oppilaillesi.`,
-    previewImageSrc: '/samples/english/picture sort/picture sort portrait.jpeg',
+    previewImageSrc: '/samples/finnish/picture sort/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Kokeile Ilmaiseksi',
       viewSamples: 'Katso Esimerkkejä',
@@ -67,17 +67,17 @@ Työkalumme tekee laadukkaiden esiopetus materiaali ilmainen -tehtävien luomise
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/picture sort/picture sort portrait.jpeg',
-        answerKeySrc: '/samples/english/picture sort/picture sort portrait answer_key.jpeg',
+        worksheetSrc: '/samples/finnish/picture sort/sample-1.jpeg',
+        answerKeySrc: '/samples/finnish/picture sort/sample-1-answer.jpeg',
         altText: 'Kuvalajittelutehtävä pystysuunnassa esiopetukseen',
-        pdfDownloadUrl: '/samples/english/picture sort/picture sort portrait.pdf',
+        pdfDownloadUrl: '/samples/finnish/picture sort/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/picture sort/picture sort landscape.jpeg',
-        answerKeySrc: '/samples/english/picture sort/picture sort landscape answer_key.jpeg',
+        worksheetSrc: '/samples/finnish/picture sort/sample-2.jpeg',
+        answerKeySrc: '/samples/finnish/picture sort/sample-2-answer.jpeg',
         altText: 'Kuvalajittelutehtävä vaakasuunnassa hienomotoriikan harjoitteluun',
-        pdfDownloadUrl: '/samples/english/picture sort/picture sort landscape.pdf',
+        pdfDownloadUrl: '/samples/finnish/picture sort/sample-2.pdf',
       },
     ],
   },

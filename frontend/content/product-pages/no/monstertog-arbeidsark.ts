@@ -34,7 +34,7 @@ Mønstergenkjenning er en grunnleggende tidlig matematikkferdighet. Vår togtemp
 Full Tilgang-abonnementet inkluderer alle 33 arbeidsarkgeneratorer for $240 årlig eller $25 månedlig. Lag ubegrensede mønsterarbeidsark, matteoppgaver, arbeidsark gratis for utskrift, og kombinere med andre oppgavehefter barn for komplett læring. Hver arbeidsark kan lastes ned som høyoppløselig PDF eller JPEG med profesjonell 300 DPI-kvalitet.
 
 Vår mønstergenerator inkluderer fasit for alle arbeidsark. Lærere på småskoletrinnet bruker disse arbeidsarkene for mønstergenkjenning, visuell læring og tidlig matematikkferdigheter. Kombiner med fargeleggingsbilder barn, finmotorikk øvelser og addisjon og subtraksjon arbeidsark for fullstendige leksehefter.`,
-    previewImageSrc: '/samples/english/pattern train/pattern_train portrait.jpeg',
+    previewImageSrc: '/samples/norwegian/pattern train/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Prøv Gratis',
       viewSamples: 'Se Eksempler',
@@ -69,17 +69,17 @@ Vår mønstergenerator inkluderer fasit for alle arbeidsark. Lærere på småsko
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/pattern train/pattern_train portrait.jpeg',
-        answerKeySrc: '/samples/english/pattern train/pattern_train portrait answer_key.jpeg',
+        worksheetSrc: '/samples/norwegian/pattern train/sample-1.jpeg',
+        answerKeySrc: '/samples/norwegian/pattern train/sample-1-answer.jpeg',
         altText: 'Mønstergenkjenning arbeidsark med togtemplate i portrettformat',
-        pdfDownloadUrl: '/samples/english/pattern train/pattern_train portrait.pdf',
+        pdfDownloadUrl: '/samples/norwegian/pattern train/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/pattern train/pattern_train landscape.jpeg',
-        answerKeySrc: '/samples/english/pattern train/pattern_train landscape answer_key.jpeg',
+        worksheetSrc: '/samples/norwegian/pattern train/sample-2.jpeg',
+        answerKeySrc: '/samples/norwegian/pattern train/sample-2-answer.jpeg',
         altText: 'Mønstergenkjenning arbeidsark med togtemplate i landskapsformat',
-        pdfDownloadUrl: '/samples/english/pattern train/pattern_train landscape.pdf',
+        pdfDownloadUrl: '/samples/norwegian/pattern train/sample-2.pdf',
       },
     ],
   },

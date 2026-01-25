@@ -32,7 +32,7 @@ Sanansekoitus-generaattorimme sopii täydellisesti opettajille jotka tarvitsevat
 Sovellus tukee 11 kieltä täysin mukautetulla sisällöllä. Kuvapohjainen lähestymistapa auttaa visuaalisia oppijoita. Kukin sanansekoitustehtävä voidaan muokata täysin luomisen jälkeen. Tallenna aikaa ja luo ammattimaisia tehtäviä minuuteissa tuntien sijaan.
 
 Opettajat käyttävät tätä työkalua kirjainharjoitteluun esikoulussa. Vanhemmat luovat mukautettuja tehtäviä kotiopetukseen. Kielenopettajat rakentavat sanasto-opetusta 11 kielellä. Erityisopettajat säätävät vaikeustason jokaisen oppilaan tarpeisiin. Yrittäjäopettajat myyvät tehtäviä Teachers Pay Teachers ja Etsy -alustoilla.`,
-    previewImageSrc: '/samples/english/word scramble/word scramble portrait.jpeg',
+    previewImageSrc: '/samples/finnish/word scramble/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Kokeile Ilmaiseksi',
       viewSamples: 'Katso Esimerkkejä',
@@ -67,24 +67,24 @@ Opettajat käyttävät tätä työkalua kirjainharjoitteluun esikoulussa. Vanhem
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/word scramble/word scramble portrait.jpeg',
-        answerKeySrc: '/samples/english/word scramble/word scramble portrait answer-key.jpeg',
+        worksheetSrc: '/samples/finnish/word scramble/sample-1.jpeg',
+        answerKeySrc: '/samples/finnish/word scramble/sample-1-answer.jpeg',
         altText: 'Sanansekoitustehtävä pystysuunnassa kuvavihjeineen esiopetukseen',
-        pdfDownloadUrl: '/samples/english/word scramble/word scramble portrait.pdf',
+        pdfDownloadUrl: '/samples/finnish/word scramble/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/word scramble/word scramble landscape.jpeg',
-        answerKeySrc: '/samples/english/word scramble/word scramble landscape answer-key.jpeg',
+        worksheetSrc: '/samples/finnish/word scramble/sample-2.jpeg',
+        answerKeySrc: '/samples/finnish/word scramble/sample-2-answer.jpeg',
         altText: 'Sanansekoitustehtävä vaakasuunnassa monella sanalla alakoululaisille',
-        pdfDownloadUrl: '/samples/english/word scramble/word scramble landscape.pdf',
+        pdfDownloadUrl: '/samples/finnish/word scramble/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/word scramble/custom word list.jpeg',
-        answerKeySrc: '/samples/english/word scramble/custom word list answer-key.jpeg',
+        worksheetSrc: '/samples/finnish/word scramble/sample-3.jpeg',
+        answerKeySrc: '/samples/finnish/word scramble/sample-3-answer.jpeg',
         altText: 'Mukautettu sanalista sanansekoitustehtävä oikeinkirjoitusharjoituksiin',
-        pdfDownloadUrl: '/samples/english/word scramble/custom word list.pdf',
+        pdfDownloadUrl: '/samples/finnish/word scramble/sample-3.pdf',
       },
     ],
   },

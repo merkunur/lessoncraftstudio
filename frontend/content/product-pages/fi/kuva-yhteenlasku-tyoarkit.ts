@@ -32,7 +32,7 @@ Yhteenlasku ja vähennyslasku tehtävät tulevat eläviksi kuvilla. Lapset näke
 Generaattori luo automaattisesti sekä tehtävämonisteen että vastausavaimen. Valitse 3-5 kuvaa kirjastosta tai lataa omia kuvia. Aseta vähimmäis- ja enimmäisnumerot määrittääksesi vaikeustason. Klikkaa "Luo tehtävä" ja saat ammattimaisen matematiikkamonisteen alle kolmessa minuutissa.
 
 Jokainen tehtävä on täysin muokattavissa luomisen jälkeen. Raahaa, kierrä, skaalaa tai poista mitä tahansa elementtiä. Lisää teksti, taustat ja reunat. Lataa PDF- tai JPEG-muodossa 300 DPI laadulla ammattimaiseen tulostukseen. Esiopetus materiaali ilmainen -hakutermi kuvaa täydellisesti sitä mitä opettajat etsivät, ja tämä työkalu vastaa tarpeeseen.`,
-    previewImageSrc: '/samples/english/code addition/code addition portrait.jpeg',
+    previewImageSrc: '/samples/finnish/code addition/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Kokeile Ilmaiseksi',
       viewSamples: 'Katso Esimerkkejä',
@@ -67,17 +67,17 @@ Jokainen tehtävä on täysin muokattavissa luomisen jälkeen. Raahaa, kierrä, 
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/code addition/code addition portrait.jpeg',
-        answerKeySrc: '/samples/english/code addition/code addition portrait answer_key.jpeg',
+        worksheetSrc: '/samples/finnish/code addition/sample-1.jpeg',
+        answerKeySrc: '/samples/finnish/code addition/sample-1-answer.jpeg',
         altText: 'Kuvapohjainen yhteenlaskutehtävä pystysuunnassa esiopetukseen',
-        pdfDownloadUrl: '/samples/english/code addition/code addition portrait.pdf',
+        pdfDownloadUrl: '/samples/finnish/code addition/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/code addition/code addition landscape.jpeg',
-        answerKeySrc: '/samples/english/code addition/code addition landscape answer_key.jpeg',
+        worksheetSrc: '/samples/finnish/code addition/sample-2.jpeg',
+        answerKeySrc: '/samples/finnish/code addition/sample-2-answer.jpeg',
         altText: 'Kuvapohjainen yhteenlaskutehtävä vaakasuunnassa alakoululaisille',
-        pdfDownloadUrl: '/samples/english/code addition/code addition landscape.pdf',
+        pdfDownloadUrl: '/samples/finnish/code addition/sample-2.pdf',
       },
     ],
   },

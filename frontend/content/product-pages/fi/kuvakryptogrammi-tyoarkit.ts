@@ -34,7 +34,7 @@ export const cryptogramFiContent: ProductPageContent = {
 Kuvakryptogrammit yhdistävät kirjainten harjoittelun ja ongelmanratkaisun. Oppilaat purkavat salatun viestin tunnistamalla, mikä kuva edustaa mitäkin kirjainta. Täydellinen lukemaan oppimisen tehtäville ja kirjainten tunnistuksen harjoittelulle.
 
 Tehtävägeneraattori toimii 11 kielellä. Valitse esiopetus materiaali ja matematiikka tehtävät alakouluun suomeksi. Luo värityskuvia lapsille tulostettavia ja yhteenlasku ja vähennyslasku tehtäviä samalla alustalla. Jokainen kryptogrammitehtävä sisältää sekä tehtävän että vastausavaimen.`,
-    previewImageSrc: '/samples/english/cryptogram/cryptogram_worksheet.jpeg',
+    previewImageSrc: '/samples/finnish/cryptogram/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Kokeile Ilmaiseksi',
       viewSamples: 'Katso Esimerkkejä',
@@ -69,17 +69,17 @@ Tehtävägeneraattori toimii 11 kielellä. Valitse esiopetus materiaali ja matem
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/cryptogram/cryptogram_worksheet.jpeg',
-        answerKeySrc: '/samples/english/cryptogram/cryptogram_answer_key.jpeg',
+        worksheetSrc: '/samples/finnish/cryptogram/sample-1.jpeg',
+        answerKeySrc: '/samples/finnish/cryptogram/sample-1-answer.jpeg',
         altText: 'Kuvakryptogrammi tehtävä lapsille - kirjaimet harjoittelu esikoulu',
-        pdfDownloadUrl: '/samples/english/cryptogram/cryptogram_worksheet.pdf',
+        pdfDownloadUrl: '/samples/finnish/cryptogram/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/cryptogram/cryptogram_worksheet (1).jpeg',
-        answerKeySrc: '/samples/english/cryptogram/cryptogram_answer_key (1).jpeg',
+        worksheetSrc: '/samples/finnish/cryptogram/sample-2.jpeg',
+        answerKeySrc: '/samples/finnish/cryptogram/sample-2-answer.jpeg',
         altText: 'Kuvakryptogrammi tehtävä kuvilla - lukemaan oppiminen tehtävät',
-        pdfDownloadUrl: '/samples/english/cryptogram/cryptogram_worksheet (1).pdf',
+        pdfDownloadUrl: '/samples/finnish/cryptogram/sample-2.pdf',
       },
     ],
   },

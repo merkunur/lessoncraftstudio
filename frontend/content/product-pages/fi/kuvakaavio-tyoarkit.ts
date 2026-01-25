@@ -30,7 +30,7 @@ export const chartCountFiContent: ProductPageContent = {
 Kuvakaaviot opettavat lapsille tärkeitä datataidonedustuksen periaatteita. Oppilaat laskevat kuvia ja värittävät ruutuja luodakseen pylväsdiagrammin. Tämä kehittää sekä laskutaitoja että graafisen esitystavan ymmärtämistä. Tehtävät ovat ihanteellisia esikoulusta kolmanteen luokkaan.
 
 Tulostettavat tehtävät lapsille sisältävät kaksi osaa. Ensimmäinen osa näyttää 20 kuvaa satunnaisessa järjestyksessä. Toinen osa sisältää tyhjän kaavion, johon lapset värittävät laskemansa määrät. Vastausavain näyttää oikean ratkaisun opettajille ja vanhemmille. Jokainen tehtävä on ainutlaatuinen ja muokattavissa.`,
-    previewImageSrc: '/samples/english/chart count/chart count.jpeg',
+    previewImageSrc: '/samples/finnish/chart count/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Kokeile Ilmaiseksi',
       viewSamples: 'Katso Esimerkkejä',
@@ -65,10 +65,10 @@ Tulostettavat tehtävät lapsille sisältävät kaksi osaa. Ensimmäinen osa nä
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/chart count/chart count.jpeg',
-        answerKeySrc: '/samples/english/chart count/chart count answer_key.jpeg',
+        worksheetSrc: '/samples/finnish/chart count/sample-1.jpeg',
+        answerKeySrc: '/samples/finnish/chart count/sample-1-answer.jpeg',
         altText: 'Kuvakaavio laskutehtävä lapsille esiopetukseen ja alakouluun',
-        pdfDownloadUrl: '/samples/english/chart count/chart count.pdf',
+        pdfDownloadUrl: '/samples/finnish/chart count/sample-1.pdf',
       },
     ],
   },

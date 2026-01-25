@@ -32,7 +32,7 @@ Vår skriveark generator hjelper barn med finmotorikk øvelser og håndskriftstr
 Full Tilgang-abonnementet inkluderer alle 33 arbeidsarkgeneratorer. Last ned ubegrenset antall skriveark uten ekstra kostnader per ark. Perfekt for pedagoger som trenger matematikk oppgaver, fargeleggingsbilder barn og lesetrening kombinert med skrivepraksis. Start skrivetrening i dag med profesjonelle arbeidsark.
 
 Skrivearkene støtter flere skrivemoduser inkludert sporing, gradvis uttoning og guidet kopiering. Velg mellom trykkbokstaver og skråskrift. Lag tilpassede øvelser for tall og telling, gangetabellen eller bokstavlæring. Kombinér skriveark med addisjon og subtraksjon for tverrfaglig læring.`,
-    previewImageSrc: '/samples/english/writing/writing.jpeg',
+    previewImageSrc: '/samples/norwegian/writing/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Prøv Gratis',
       viewSamples: 'Se Eksempler',
@@ -67,24 +67,24 @@ Skrivearkene støtter flere skrivemoduser inkludert sporing, gradvis uttoning og
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/writing/writing.jpeg',
+        worksheetSrc: '/samples/norwegian/writing/sample-1.jpeg',
         answerKeySrc: '',
         altText: 'Skriveark med sporingslinjer for bokstaver lære skrive og håndskriftstrening',
-        pdfDownloadUrl: '/samples/english/writing/writing.pdf',
+        pdfDownloadUrl: '/samples/norwegian/writing/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/writing/writing custom.jpeg',
+        worksheetSrc: '/samples/norwegian/writing/sample-2.jpeg',
         answerKeySrc: '',
         altText: 'Tilpasset skriveark for egendefinert tekst og finmotorikk øvelser',
-        pdfDownloadUrl: '/samples/english/writing/writing custom.pdf',
+        pdfDownloadUrl: '/samples/norwegian/writing/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/writing/writing beginning letter.jpeg',
+        worksheetSrc: '/samples/norwegian/writing/sample-3.jpeg',
         answerKeySrc: '',
         altText: 'Skriveark for begynnerbokstaver og bokstavlæring i barnehagen',
-        pdfDownloadUrl: '/samples/english/writing/writing beginning letter.pdf',
+        pdfDownloadUrl: '/samples/norwegian/writing/sample-3.pdf',
       },
     ],
   },

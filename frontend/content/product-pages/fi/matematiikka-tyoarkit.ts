@@ -32,7 +32,7 @@ Visuaaliset matematiikkatehtävät auttavat lapsia oppimaan yhteenlaskua ja väh
 Matematiikkatehtävien generaattori tarjoaa neljä vaikeustasoa. Hyvin helppo ja helppo taso käyttävät kahta symbolia per tehtävä. Keskitaso käyttää kolmea symbolia. Vaikea taso käyttää neljää symbolia. Valitse vaikeustaso joka sopii oppilaittesi taitotasolle.
 
 Luo tehtäviä joko pelkästään yhteenlaskusta tai yhteenlaskun ja vähennyslasku yhdistelmästä. Aseta minimiarvo ja maksimiarvo numeroille. Päätä salliiko tehtävät negatiiviset tulokset. Nämä asetukset antavat sinulle täydellisen kontrollin tehtävien sopivuudesta.`,
-    previewImageSrc: '/samples/english/math worksheet/math worksheet portrait.jpeg',
+    previewImageSrc: '/samples/finnish/math worksheet/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Kokeile Ilmaiseksi',
       viewSamples: 'Katso Esimerkkejä',
@@ -67,17 +67,17 @@ Luo tehtäviä joko pelkästään yhteenlaskusta tai yhteenlaskun ja vähennysla
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/math worksheet/math worksheet portrait.jpeg',
-        answerKeySrc: '/samples/english/math worksheet/math worksheet portrait answer_key.jpeg',
+        worksheetSrc: '/samples/finnish/math worksheet/sample-1.jpeg',
+        answerKeySrc: '/samples/finnish/math worksheet/sample-1-answer.jpeg',
         altText: 'Visuaalinen matematiikkatehtävä pystysuunnassa esiopetukseen',
-        pdfDownloadUrl: '/samples/english/math worksheet/math worksheet portrait.pdf',
+        pdfDownloadUrl: '/samples/finnish/math worksheet/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/math worksheet/math worksheet landscape.jpeg',
-        answerKeySrc: '/samples/english/math worksheet/math worksheet landscape answer_key.jpeg',
+        worksheetSrc: '/samples/finnish/math worksheet/sample-2.jpeg',
+        answerKeySrc: '/samples/finnish/math worksheet/sample-2-answer.jpeg',
         altText: 'Visuaalinen matematiikkatehtävä vaakasuunnassa alakoululaisille',
-        pdfDownloadUrl: '/samples/english/math worksheet/math worksheet landscape.pdf',
+        pdfDownloadUrl: '/samples/finnish/math worksheet/sample-2.pdf',
       },
     ],
   },

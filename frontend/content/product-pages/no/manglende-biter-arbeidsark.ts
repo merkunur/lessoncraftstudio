@@ -32,7 +32,7 @@ Manglende biter puslespill hjelper barn med å utvikle oppmerksomhet til detalje
 Arbeidsark gratis for manglende biter støtter pedagoger i barnehage og småskoletrinnet. Barn øver visuell matching og problemløsning mens de identifiserer korrekte biter. Systemet genererer både arbeidsark og fasit automatisk. Eksporter som profesjonelle PDF-filer i 300 DPI kvalitet perfekt for oppgavehefter barn. Du kan også laste opp egne bilder for personlige finmotorikk øvelser tilpasset dine elever.
 
 Puslespillene støtter bokstaver lære skrive aktiviteter ved å bruke bokstavbilder. Kombiner med tall og telling oppgaver ved å bruke tallbilder i puslespillet. Juster vanskelighetsgrad fra 1 til 5 manglende biter. Velg antall svaralternativer fra 2 til 6 for differensiering. Perfekt for lesetrening og fargeleggingsbilder barn som belønning etter fullført oppgave.`,
-    previewImageSrc: '/samples/english/missing pieces/worksheet.jpeg',
+    previewImageSrc: '/samples/norwegian/missing pieces/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Prøv Gratis',
       viewSamples: 'Se Eksempler',
@@ -67,17 +67,17 @@ Puslespillene støtter bokstaver lære skrive aktiviteter ved å bruke bokstavbi
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/missing pieces/worksheet.jpeg',
-        answerKeySrc: '/samples/english/missing pieces/answer_key.jpeg',
+        worksheetSrc: '/samples/norwegian/missing pieces/sample-1.jpeg',
+        answerKeySrc: '/samples/norwegian/missing pieces/sample-1-answer.jpeg',
         altText: 'Manglende biter puslespill arbeidsark med visuell diskriminering øvelser for barnehage og småskoletrinnet',
-        pdfDownloadUrl: '/samples/english/missing pieces/worksheet.pdf',
+        pdfDownloadUrl: '/samples/norwegian/missing pieces/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/missing pieces/worksheet (1).jpeg',
-        answerKeySrc: '/samples/english/missing pieces/answer_key (1).jpeg',
+        worksheetSrc: '/samples/norwegian/missing pieces/sample-2.jpeg',
+        answerKeySrc: '/samples/norwegian/missing pieces/sample-2-answer.jpeg',
         altText: 'Manglende biter puslespill arbeidsark med finmotorikk øvelser og matematikk oppgaver for oppgavehefter barn',
-        pdfDownloadUrl: '/samples/english/missing pieces/worksheet (1).pdf',
+        pdfDownloadUrl: '/samples/norwegian/missing pieces/sample-2.pdf',
       },
     ],
   },

@@ -34,7 +34,7 @@ Mønstergjenkjenning er en grunnleggende matematikkferdighet for barnehage og 1.
 Mønsteroppgave-generatoren tilbyr fullstendig tilpasning for matematikkundervisning. Last opp dine egne bilder eller bla gjennom 3000+ temabilder på 11 språk. Lag arbeidsark gratis for matematikk oppgaver, tall og telling-øvelser eller lekser. Hvert arbeidsark lastes ned som 300 DPI profesjonell kvalitet JPEG eller PDF-filer.
 
 Full Tilgang-abonnementet inkluderer kommersiell lisens for salg på nettbutikker. Lag og selg mønsteroppgaver, matematikk oppgaver og arbeidsark gratis uten ekstra lisenskostnader. Mønsteroppgave-generator sparer 85% av tradisjonell tid brukt på oppgaveark-opprettelse sammenlignet med designprogramvare og bildesøk.`,
-    previewImageSrc: '/samples/english/pattern worksheet/pattern_worksheet portrait.jpeg',
+    previewImageSrc: '/samples/norwegian/pattern worksheet/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Prøv Gratis',
       viewSamples: 'Se Eksempler',
@@ -69,17 +69,17 @@ Full Tilgang-abonnementet inkluderer kommersiell lisens for salg på nettbutikke
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/pattern worksheet/pattern_worksheet portrait.jpeg',
-        answerKeySrc: '/samples/english/pattern worksheet/pattern_worksheet portrait answer_key.jpeg',
+        worksheetSrc: '/samples/norwegian/pattern worksheet/sample-1.jpeg',
+        answerKeySrc: '/samples/norwegian/pattern worksheet/sample-1-answer.jpeg',
         altText: 'Mønsteroppgaver arbeidsark i portrettformat med tomme bokser',
-        pdfDownloadUrl: '/samples/english/pattern worksheet/pattern_worksheet portrait.pdf',
+        pdfDownloadUrl: '/samples/norwegian/pattern worksheet/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/pattern worksheet/pattern_worksheet landscape.jpeg',
-        answerKeySrc: '/samples/english/pattern worksheet/pattern_worksheet landscape answer_key (1).jpeg',
+        worksheetSrc: '/samples/norwegian/pattern worksheet/sample-2.jpeg',
+        answerKeySrc: '/samples/norwegian/pattern worksheet/sample-2-answer.jpeg',
         altText: 'Mønsteroppgaver arbeidsark i landskapsformat med flervalgsalternativer',
-        pdfDownloadUrl: '/samples/english/pattern worksheet/pattern_worksheet landscape.pdf',
+        pdfDownloadUrl: '/samples/norwegian/pattern worksheet/sample-2.pdf',
       },
     ],
   },

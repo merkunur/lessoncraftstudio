@@ -37,7 +37,7 @@ export const mathPuzzleFiContent: ProductPageContent = {
 Matematiikkapulmat yhdistävät laskutehtävät visuaaliseen oppimiseen. Oppilaasi ratkaisevat yhteenlasku- ja vähennyslaskutehtäviä etsimällä oikeita lukuarvoja kuville. Jokaisessa pulmassa on 2×2 - 4×4 ruudukko. Kukin ruutu sisältää kuvan ja matemaattisen yhtälön. Oppilaat laskevat vastauksen ja yhdistävät sen oikeaan kuvaan.
 
 Generaattori tukee esiopetuksesta 3. luokkaan. Valitse vaikeustaso säätämällä ruudukon kokoa ja laskutyyppiä. Käytä 3000+ lasten kuvakirjastoa. Lataa omat kuvat henkilökohtaista oppimista varten. Muokkaa kaikkea pohjalla olevalla editorilla. Jokaiselle tehtävälle luodaan automaattisesti vastausavain. Lataa sekä oppilastehtävä että opettajan vastausavain erikseen. Molemmat PDF- ja JPEG-muodoissa 300 DPI -tarkkuudella. Täysi Käyttöoikeus sisältää kaupalliset oikeudet. Myy tehtäviäsi Teachers Pay Teachers -palvelussa, Etsyssä tai Amazon KDP:ssä.`,
-    previewImageSrc: '/samples/english/math puzzle/worksheet.jpeg',
+    previewImageSrc: '/samples/finnish/math puzzle/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Kokeile Ilmaiseksi',
       viewSamples: 'Katso Esimerkkejä',
@@ -72,17 +72,17 @@ Generaattori tukee esiopetuksesta 3. luokkaan. Valitse vaikeustaso säätämäll
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/math puzzle/worksheet.jpeg',
-        answerKeySrc: '/samples/english/math puzzle/answer_key.jpeg',
+        worksheetSrc: '/samples/finnish/math puzzle/sample-1.jpeg',
+        answerKeySrc: '/samples/finnish/math puzzle/sample-1-answer.jpeg',
         altText: 'Matematiikkapulma yhteenlaskutehtävällä alakoululaisille',
-        pdfDownloadUrl: '/samples/english/math puzzle/worksheet.pdf',
+        pdfDownloadUrl: '/samples/finnish/math puzzle/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/math puzzle/worksheet (1).jpeg',
-        answerKeySrc: '/samples/english/math puzzle/answer_key (1).jpeg',
+        worksheetSrc: '/samples/finnish/math puzzle/sample-2.jpeg',
+        answerKeySrc: '/samples/finnish/math puzzle/sample-2-answer.jpeg',
         altText: 'Matematiikkapulma vähennyslaskutehtävällä esiopetukseen',
-        pdfDownloadUrl: '/samples/english/math puzzle/worksheet (1).pdf',
+        pdfDownloadUrl: '/samples/finnish/math puzzle/sample-2.pdf',
       },
     ],
   },

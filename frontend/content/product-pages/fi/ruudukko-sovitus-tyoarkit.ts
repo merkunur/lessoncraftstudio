@@ -32,7 +32,7 @@ export const gridMatchFiContent: ProductPageContent = {
 Lataa valmiit tehtävät PDF- tai JPEG-muodossa alle 3 minuutissa. Ruudukko Sovitus kehittää visuaalista havainnointikykyä, avaruudellista päättelyä ja keskittymiskykyä lapsilla. Tilaus sisältää kaikki 33 työkalutyyppiä, kaupallisen lisenssin ja 11 kielen tuen. Säästä tunteja aikaa joka viikko luomalla mukautettuja tehtäviä nopeasti.
 
 Ruudukko Sovitus jakaa kuvan ruudukkoon ja poistaa joitain soluja. Lapset tunnistavat, mitkä palaset kuuluvat mihinkin paikkaan. Tämä harjoitus kehittää yksityiskohtien havainnointia, avaruudellista suuntautumista ja loogista ajattelua. Käytä yli 3000 lapsille sopivaa kuvaa tai lataa omia kuvia henkilökohtaiseen opetukseen.`,
-    previewImageSrc: '/samples/english/grid match/grid match portrait .jpeg',
+    previewImageSrc: '/samples/finnish/grid match/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Kokeile Ilmaiseksi',
       viewSamples: 'Katso Esimerkkejä',
@@ -67,17 +67,17 @@ Ruudukko Sovitus jakaa kuvan ruudukkoon ja poistaa joitain soluja. Lapset tunnis
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/grid match/grid match portrait .jpeg',
-        answerKeySrc: '/samples/english/grid match/grid match portrait  answer_key.jpeg',
+        worksheetSrc: '/samples/finnish/grid match/sample-1.jpeg',
+        answerKeySrc: '/samples/finnish/grid match/sample-1-answer.jpeg',
         altText: 'Ruudukon sovitustehtävä pystysuunnassa esiopetukseen ja alakouluun',
-        pdfDownloadUrl: '/samples/english/grid match/grid match portrait .pdf',
+        pdfDownloadUrl: '/samples/finnish/grid match/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/grid match/grid match landscape.jpeg',
-        answerKeySrc: '/samples/english/grid match/grid match landscape answer_key.jpeg',
+        worksheetSrc: '/samples/finnish/grid match/sample-2.jpeg',
+        answerKeySrc: '/samples/finnish/grid match/sample-2-answer.jpeg',
         altText: 'Ruudukon sovitustehtävä vaakasuunnassa värikkäillä kuvilla',
-        pdfDownloadUrl: '/samples/english/grid match/grid match landscape.pdf',
+        pdfDownloadUrl: '/samples/finnish/grid match/sample-2.pdf',
       },
     ],
   },

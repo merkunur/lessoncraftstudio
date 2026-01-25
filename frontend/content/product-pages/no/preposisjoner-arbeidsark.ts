@@ -34,7 +34,7 @@ Preposisjoner er grunnleggende byggesteiner i språkutvikling for barn. Vårt ve
 Abonnementet ditt inkluderer kommersielle rettigheter for print-on-demand. Selg preposisjonsarbeidsarkene dine på Teachers Pay Teachers eller Etsy. Last ned profesjonelle arbeidsark i 300 DPI kvalitet. Ingen ekstra lisenskostnader utover ditt kr 1 800 årlige abonnement.
 
 Med Full Tilgang får du tilgang til alle 33 arbeidsarkgeneratorer. Lag preposisjonsarbeidsark, matematikk oppgaver, fargeleggingsbilder barn og mye mer. Alt inkludert i ett abonnement til kr 188 per måned. Spar hundrevis av timer på arbeidsarkplanlegging hvert skoleår.`,
-    previewImageSrc: '/samples/english/prepositions/prepositions_worksheet.jpeg',
+    previewImageSrc: '/samples/norwegian/prepositions/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Prøv Gratis',
       viewSamples: 'Se Eksempler',
@@ -69,17 +69,17 @@ Med Full Tilgang får du tilgang til alle 33 arbeidsarkgeneratorer. Lag preposis
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/prepositions/prepositions_worksheet.jpeg',
-        answerKeySrc: '/samples/english/prepositions/prepositions_answer_key.jpeg',
+        worksheetSrc: '/samples/norwegian/prepositions/sample-1.jpeg',
+        answerKeySrc: '/samples/norwegian/prepositions/sample-1-answer.jpeg',
         altText: 'Preposisjoner arbeidsark med fyll ut tomrommet øvelser for romlige forhold',
-        pdfDownloadUrl: '/samples/english/prepositions/prepositions_worksheet.pdf',
+        pdfDownloadUrl: '/samples/norwegian/prepositions/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/prepositions/prepositions multiple choice.jpeg',
-        answerKeySrc: '/samples/english/prepositions/prepositions multiple choice answer_key.jpeg',
+        worksheetSrc: '/samples/norwegian/prepositions/sample-2.jpeg',
+        answerKeySrc: '/samples/norwegian/prepositions/sample-2-answer.jpeg',
         altText: 'Preposisjoner arbeidsark med flervalg øvelser for barnehage og småskoletrinnet',
-        pdfDownloadUrl: '/samples/english/prepositions/prepositions multiple choice.pdf',
+        pdfDownloadUrl: '/samples/norwegian/prepositions/sample-2.pdf',
       },
     ],
   },

@@ -58,7 +58,7 @@ Gli anagrammi aiutano i bambini a riconoscere le lettere dell'alfabeto e svilupp
 Scegli tra oltre 3000 immagini adatte ai bambini organizzate per temi educativi. Seleziona il tema dalla nostra libreria oppure carica le tue immagini personalizzate. Il generatore crea automaticamente anagrammi dalle parole delle immagini. Ogni scheda include da 1 a 10 puzzle di anagrammi per pagina. Personalizza tutto sulla tela - trascina, ruota, ridimensiona e modifica ogni elemento. Scarica le tue schede in formato PDF o JPEG ad alta risoluzione 300 DPI pronte per la stampa.
 
 Perfetto per insegnanti della scuola primaria, genitori homeschool ed educatori della scuola dell'infanzia. Usa gli anagrammi per lezioni di alfabeto, ortografia e riconoscimento delle lettere. Combina con le nostre altre schede didattiche per creare pacchetti di apprendimento completi. L'abbonamento Pacchetto Essenziale include 10 generatori di schede popolari a soli 144 euro all'anno. Inizia a creare schede didattiche professionali oggi stesso.`,
-    previewImageSrc: '/samples/english/word scramble/word scramble portrait.jpeg',
+    previewImageSrc: '/samples/italian/word scramble/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Prova Gratis',
       viewSamples: 'Vedi Esempi',
@@ -93,24 +93,24 @@ Perfetto per insegnanti della scuola primaria, genitori homeschool ed educatori 
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/word scramble/word scramble portrait.jpeg',
-        answerKeySrc: '/samples/english/word scramble/word scramble portrait answer-key.jpeg',
+        worksheetSrc: '/samples/italian/word scramble/sample-1.jpeg',
+        answerKeySrc: '/samples/italian/word scramble/sample-1-answer.jpeg',
         altText: 'Scheda gratuita anagrammi per bambini - stampabili gratuiti formato verticale scuola primaria',
-        pdfDownloadUrl: '/samples/english/word scramble/word scramble portrait.pdf',
+        pdfDownloadUrl: '/samples/italian/word scramble/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/word scramble/word scramble landscape.jpeg',
-        answerKeySrc: '/samples/english/word scramble/word scramble landscape answer-key.jpeg',
+        worksheetSrc: '/samples/italian/word scramble/sample-2.jpeg',
+        answerKeySrc: '/samples/italian/word scramble/sample-2-answer.jpeg',
         altText: 'Schede gratuite anagrammi - stampabili gratuiti formato orizzontale classe prima',
-        pdfDownloadUrl: '/samples/english/word scramble/word scramble landscape.pdf',
+        pdfDownloadUrl: '/samples/italian/word scramble/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/word scramble/custom word list.jpeg',
-        answerKeySrc: '/samples/english/word scramble/custom word list answer-key.jpeg',
+        worksheetSrc: '/samples/italian/word scramble/sample-3.jpeg',
+        answerKeySrc: '/samples/italian/word scramble/sample-3-answer.jpeg',
         altText: 'Scheda gratuita per bambini anagrammi - parole personalizzate stampabili',
-        pdfDownloadUrl: '/samples/english/word scramble/custom word list.pdf',
+        pdfDownloadUrl: '/samples/italian/word scramble/sample-3.pdf',
       },
     ],
   },

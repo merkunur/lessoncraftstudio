@@ -33,7 +33,7 @@ Matematikkgåter kombinerer visuell læring med tallforståelse. Hver matematikk
 Generatoren vår lager automatisk både oppgaveark og fasit. Velg rutenettstørrelse fra 2×2 til 4×4. Bestem om du vil ha addisjon, subtraksjon eller begge regnearter. Velg bilder fra vårt bibliotek med 3000+ barnvennlige illustrasjoner. Systemet beregner tallene automatisk basert på bildene.
 
 Alle arbeidsark kan tilpasses fullstendig etter generering. Dra, roter, skaler og rediger hvert element på lerretet. Endre farger, skrifter og layout. Legg til egne instruksjoner og overskrifter. Last opp dine egne bilder for personaliserte oppgaver. Last ned både oppgaveark og fasitark i høyoppløselig PDF eller JPEG.`,
-    previewImageSrc: '/samples/english/math puzzle/worksheet.jpeg',
+    previewImageSrc: '/samples/norwegian/math puzzle/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Prøv Gratis',
       viewSamples: 'Se Eksempler',
@@ -68,17 +68,17 @@ Alle arbeidsark kan tilpasses fullstendig etter generering. Dra, roter, skaler o
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/math puzzle/worksheet.jpeg',
-        answerKeySrc: '/samples/english/math puzzle/answer_key.jpeg',
+        worksheetSrc: '/samples/norwegian/math puzzle/sample-1.jpeg',
+        answerKeySrc: '/samples/norwegian/math puzzle/sample-1-answer.jpeg',
         altText: 'Matematikkgåter arbeidsark med addisjon og subtraksjon for småskoletrinnet',
-        pdfDownloadUrl: '/samples/english/math puzzle/worksheet.pdf',
+        pdfDownloadUrl: '/samples/norwegian/math puzzle/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/math puzzle/worksheet (1).jpeg',
-        answerKeySrc: '/samples/english/math puzzle/answer_key (1).jpeg',
+        worksheetSrc: '/samples/norwegian/math puzzle/sample-2.jpeg',
+        answerKeySrc: '/samples/norwegian/math puzzle/sample-2-answer.jpeg',
         altText: 'Matematikkgåter oppgave med tall og telling og regnepuslespill',
-        pdfDownloadUrl: '/samples/english/math puzzle/worksheet (1).pdf',
+        pdfDownloadUrl: '/samples/norwegian/math puzzle/sample-2.pdf',
       },
     ],
   },

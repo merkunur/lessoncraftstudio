@@ -30,7 +30,7 @@ export const pictureSortNoContent: ProductPageContent = {
 Bildesortering utvikler kritisk tenkning og kategoriseringsferdigheter hos barn. Vårt verktøy hjelper pedagoger med å lage engasjerende oppgavehefter barn som lærer barn å sortere objekter etter egenskaper. Velg to kategorier fra vårt bildebibliotek på over 3000 barnvennlige illustrasjoner. Systemet genererer automatisk 12 bilder for sorteringsaktiviteter. Kombiner med matematikk oppgaver for integrert læring.
 
 Bildesorteringsarbeidsark støtter barnehagepedagoger og lærere med arbeidsark gratis som en del av abonnementet. Barn lærer å klassifisere objekter etter farge, størrelse, type eller funksjon. Full Tilgang-abonnementet inkluderer alle 33 arbeidsarkgeneratorer. Eksporter som profesjonelle PDF-filer i 300 DPI kvalitet perfekt for utskrift. Du kan også laste opp egne bilder for å personalisere arbeidsark til dine elevers spesifikke læringsbehov.`,
-    previewImageSrc: '/samples/english/picture sort/picture sort portrait.jpeg',
+    previewImageSrc: '/samples/norwegian/picture sort/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Prøv Gratis',
       viewSamples: 'Se Eksempler',
@@ -65,17 +65,17 @@ Bildesorteringsarbeidsark støtter barnehagepedagoger og lærere med arbeidsark 
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/picture sort/picture sort portrait.jpeg',
-        answerKeySrc: '/samples/english/picture sort/picture sort portrait answer_key.jpeg',
+        worksheetSrc: '/samples/norwegian/picture sort/sample-1.jpeg',
+        answerKeySrc: '/samples/norwegian/picture sort/sample-1-answer.jpeg',
         altText: 'Bildesortering arbeidsark portrettformat med kategoriseringsøvelser for barnehage og småskoletrinnet',
-        pdfDownloadUrl: '/samples/english/picture sort/picture sort portrait.pdf',
+        pdfDownloadUrl: '/samples/norwegian/picture sort/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/picture sort/picture sort landscape.jpeg',
-        answerKeySrc: '/samples/english/picture sort/picture sort landscape answer_key.jpeg',
+        worksheetSrc: '/samples/norwegian/picture sort/sample-2.jpeg',
+        answerKeySrc: '/samples/norwegian/picture sort/sample-2-answer.jpeg',
         altText: 'Bildesortering arbeidsark landskapsformat med sorteringsoppgaver for oppgavehefter barn',
-        pdfDownloadUrl: '/samples/english/picture sort/picture sort landscape.pdf',
+        pdfDownloadUrl: '/samples/norwegian/picture sort/sample-2.pdf',
       },
     ],
   },

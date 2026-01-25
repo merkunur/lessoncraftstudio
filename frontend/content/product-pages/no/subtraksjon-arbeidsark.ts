@@ -36,7 +36,7 @@ Full Tilgang-abonnementet inkluderer alle 33 arbeidsark-generatorer. Bruk subtra
 Generatoren produserer fire forskjellige øvelsestyper. Den tradisjonelle krysser-ut-metoden lar barn se subtraksjon fysisk. Bilde-minus-tall formatet viser tallforståelse. Finn-subtrahend oppgaver utvikler problemløsningsevner. Blandet modus kombinerer flere øvelsestyper på samme ark. Velg vanskelighetsgrad fra 2 til 20 for perfekt differensiering.
 
 Hvert arbeidsark kommer med automatisk generert fasit. Spar tid på retting. Elevene kan sjekke eget arbeid. Fasiten bruker samme layout som oppgavearkene. Alt du trenger er inkludert i ett klikk.`,
-    previewImageSrc: '/samples/english/subtraction/cross out.jpeg',
+    previewImageSrc: '/samples/norwegian/subtraction/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Prøv Gratis',
       viewSamples: 'Se Eksempler',
@@ -71,31 +71,31 @@ Hvert arbeidsark kommer med automatisk generert fasit. Spar tid på retting. Ele
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/subtraction/cross out.jpeg',
-        answerKeySrc: '/samples/english/subtraction/cross out answer_key.jpeg',
+        worksheetSrc: '/samples/norwegian/subtraction/sample-1.jpeg',
+        answerKeySrc: '/samples/norwegian/subtraction/sample-1-answer.jpeg',
         altText: 'Kryss ut modus for subtraksjon arbeidsark - barn ser subtraksjon visuelt',
-        pdfDownloadUrl: '/samples/english/subtraction/cross out.pdf',
+        pdfDownloadUrl: '/samples/norwegian/subtraction/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/subtraction/image number.jpeg',
-        answerKeySrc: '/samples/english/subtraction/image number answer_key.jpeg',
+        worksheetSrc: '/samples/norwegian/subtraction/sample-2.jpeg',
+        answerKeySrc: '/samples/norwegian/subtraction/sample-2-answer.jpeg',
         altText: 'Bilde minus tall modus for matematikk oppgaver på småskoletrinnet',
-        pdfDownloadUrl: '/samples/english/subtraction/image number.pdf',
+        pdfDownloadUrl: '/samples/norwegian/subtraction/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/subtraction/find subtrahend.jpeg',
-        answerKeySrc: '/samples/english/subtraction/find subtrahend answer_key.jpeg',
+        worksheetSrc: '/samples/norwegian/subtraction/sample-3.jpeg',
+        answerKeySrc: '/samples/norwegian/subtraction/sample-3-answer.jpeg',
         altText: 'Finn subtrahend oppgaver for å øve problemløsning i matteoppgaver',
-        pdfDownloadUrl: '/samples/english/subtraction/find subtrahend.pdf',
+        pdfDownloadUrl: '/samples/norwegian/subtraction/sample-3.pdf',
       },
       {
         id: '4',
-        worksheetSrc: '/samples/english/subtraction/mixed.jpeg',
-        answerKeySrc: '/samples/english/subtraction/mixed answer_key.jpeg',
+        worksheetSrc: '/samples/norwegian/subtraction/sample-4.jpeg',
+        answerKeySrc: '/samples/norwegian/subtraction/sample-4-answer.jpeg',
         altText: 'Blandet modus med varierte subtraksjon arbeidsark for alle nivåer',
-        pdfDownloadUrl: '/samples/english/subtraction/mixed.pdf',
+        pdfDownloadUrl: '/samples/norwegian/subtraction/sample-4.pdf',
       },
     ],
   },

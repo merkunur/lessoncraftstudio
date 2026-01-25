@@ -32,7 +32,7 @@ Peruspaketti-tilaus sisältää 10 suosittua tehtävägeneraattoria. Luo värity
 Värityskuvasuunnittelija yhdistää helppokäyttöisyyden ammattimaisen laadun kanssa. Valitse teema tai yksittäiset kuvat yli 3000 lapsystävällisen kuvan kirjastosta. Lisää tekstiä, piirrä vapaalla kädellä tai lataa omia kuvia. Muokkaa kaikkea pohjalla vetämällä, kiertämällä ja skaalaamalla. Lataa tulostettavat tehtävät lapsille ilmainen tilauksen kautta ilman lisämaksuja per sivu.
 
 Jokainen värityskuva vie sekunteja luoda. Ei suunnittelutaitoja tarvita. Ei monimutkaisia työkaluja opittavaksi. Vain kolme klikkausta täydellisiin värityskuviin esiopetukseen. Säästä tunteja viikoittain ammattimaisilla esiopetus materiaali ilmainen tulostettavilla tehtävillä jotka herättävät oppilaiden mielenkiinnon.`,
-    previewImageSrc: '/samples/english/coloring/coloring portrait 1.png',
+    previewImageSrc: '/samples/finnish/coloring/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Kokeile Ilmaiseksi',
       viewSamples: 'Katso Esimerkkejä',
@@ -67,42 +67,42 @@ Jokainen värityskuva vie sekunteja luoda. Ei suunnittelutaitoja tarvita. Ei mon
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/coloring/coloring portrait 1.png',
+        worksheetSrc: '/samples/finnish/coloring/sample-1.jpeg',
         answerKeySrc: '',
         altText: 'Värityskuva lapsille pystysuuntainen tulostettava tehtävä esiopetukseen',
         pdfDownloadUrl: '',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/coloring/coloring portrait 2.png',
+        worksheetSrc: '/samples/finnish/coloring/sample-2.jpeg',
         answerKeySrc: '',
         altText: 'Värityskuva lapsille pystysuuntainen tulostettava tehtävä alakoululaisille',
         pdfDownloadUrl: '',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/coloring/coloring portrait 3.png',
+        worksheetSrc: '/samples/finnish/coloring/sample-3.jpeg',
         answerKeySrc: '',
         altText: 'Värityskuva lapsille hienomotoriikka harjoitus pystysuuntainen',
         pdfDownloadUrl: '',
       },
       {
         id: '4',
-        worksheetSrc: '/samples/english/coloring/coloring landscape 1.png',
+        worksheetSrc: '/samples/finnish/coloring/sample-4.jpeg',
         answerKeySrc: '',
         altText: 'Värityskuva lapsille vaakasuuntainen tulostettava esiopetus materiaali',
         pdfDownloadUrl: '',
       },
       {
         id: '5',
-        worksheetSrc: '/samples/english/coloring/coloring landscape 2.png',
+        worksheetSrc: '/samples/finnish/coloring/sample-5.jpeg',
         answerKeySrc: '',
         altText: 'Värityskuva lapsille vaakasuuntainen hienomotoriikka harjoitus',
         pdfDownloadUrl: '',
       },
       {
         id: '6',
-        worksheetSrc: '/samples/english/coloring/coloring landscape 3.png',
+        worksheetSrc: '/samples/finnish/coloring/sample-6.jpeg',
         answerKeySrc: '',
         altText: 'Värityskuva lapsille vaakasuuntainen tulostettava tehtävä',
         pdfDownloadUrl: '',

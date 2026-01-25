@@ -34,7 +34,7 @@ export const sudokuFiContent: ProductPageContent = {
 Lasten sudoku on hauska tapa opettaa loogista ajattelua. Generaattorimme luo 4×4-ruudukoita värikkäillä kuvilla numeroiden sijaan. Tämä tekee sudokuista houkuttelevia ja sopivia 5-9-vuotiaille lapsille. Valitse kolmesta vaikeustasosta oppilaidesi taitojen mukaan. Helppo taso sopii esiopetukseen neljällä tyhjällä ruudulla. Keskitaso sopii ensimmäiselle luokalle kuudella tyhjällä ruudulla. Vaikea taso haastaa toisen ja kolmannen luokan oppilaat kahdeksalla tyhjällä ruudulla. Jokainen vaikeustaso kehittää hahmottamista ja keskittymiskykyä. Peruspaketti-tilauksesi sisältää kaupallisen lisenssin.
 
 Tulostettavat tehtävät lapsille ilmainen on tärkein hakusana suomalaisille opettajille. Lasten sudoku -generaattorimme yhdistää esiopetus materiaalin tehokkaaseen luomiseen. Voit luoda matematiikka tehtäviä alakouluun samalla tilauksella. Voit luoda hienomotoriikka harjoituksia esiopetusryhmällesi. Voit luoda värityskuvia lapsille tulostettava muodossa. Kaikki tämä sisältyy Peruspaketti-tilaukseen. Ei lisämaksuja 3000+ kuvan käytöstä. Ei lisämaksuja 11 kielen tuesta. Ei lisämaksuja kaupallisesta lisenssistä. Vain 144 dollaria vuodessa tai 15 dollaria kuukaudessa. Peruspaketti sisältää 10 suosittua tehtävägeneraattoria. Luo niin monta sudoku-tehtävää kuin luokkasi tarvitsee.`,
-    previewImageSrc: '/samples/english/sudoku/sudoku_easy.jpeg',
+    previewImageSrc: '/samples/finnish/sudoku/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Kokeile Ilmaiseksi',
       viewSamples: 'Katso Esimerkkejä',
@@ -69,24 +69,24 @@ Tulostettavat tehtävät lapsille ilmainen on tärkein hakusana suomalaisille op
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/sudoku/sudoku_easy.jpeg',
-        answerKeySrc: '/samples/english/sudoku/sudoku_easy answer_key.jpeg',
+        worksheetSrc: '/samples/finnish/sudoku/sample-1.jpeg',
+        answerKeySrc: '/samples/finnish/sudoku/sample-1-answer.jpeg',
         altText: 'Helppo kuvasudoku esiopetukseen 4 tyhjällä ruudulla',
-        pdfDownloadUrl: '/samples/english/sudoku/sudoku_easy.pdf',
+        pdfDownloadUrl: '/samples/finnish/sudoku/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/sudoku/sudoku medium.jpeg',
-        answerKeySrc: '/samples/english/sudoku/sudoku medium answer_key.jpeg',
+        worksheetSrc: '/samples/finnish/sudoku/sample-2.jpeg',
+        answerKeySrc: '/samples/finnish/sudoku/sample-2-answer.jpeg',
         altText: 'Keskivaikea kuvasudoku alakoululaisille 6 tyhjällä ruudulla',
-        pdfDownloadUrl: '/samples/english/sudoku/sudoku medium.pdf',
+        pdfDownloadUrl: '/samples/finnish/sudoku/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/sudoku/sudoku hard.jpeg',
-        answerKeySrc: '/samples/english/sudoku/sudoku hard answer_key.jpeg',
+        worksheetSrc: '/samples/finnish/sudoku/sample-3.jpeg',
+        answerKeySrc: '/samples/finnish/sudoku/sample-3-answer.jpeg',
         altText: 'Vaikea kuvasudoku 2-3 luokkalaisille 8 tyhjällä ruudulla',
-        pdfDownloadUrl: '/samples/english/sudoku/sudoku hard.pdf',
+        pdfDownloadUrl: '/samples/finnish/sudoku/sample-3.pdf',
       },
     ],
   },

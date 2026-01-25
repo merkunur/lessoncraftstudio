@@ -35,7 +35,7 @@ export const prepositionsFiContent: ProductPageContent = {
 Prepositioiden tehtävägeneraattori tukee kahta harjoitustyyppiä. Valitse täydennysharjoitukset tai monivalintatehtävät. Molemmat muodot auttavat lapsia oppimaan sijaintisanat konkreettisten esimerkkien avulla. Tehtävät sopivat 1. luokasta 3. luokkaan sekä esiopetukseen.
 
 Generaattori sisältää yli 3000 lapsille sopivaa kuvaa. Kaikki kuvat on järjestetty teemoittain helppoa valintaa varten. Valitse yksittäisiä kuvia tai anna generaattorin valita satunnaisesti kaikista teemoista. Voit myös ladata omia kuvia personoidaksesi tehtävät oppilaillesi.`,
-    previewImageSrc: '/samples/english/prepositions/prepositions_worksheet.jpeg',
+    previewImageSrc: '/samples/finnish/prepositions/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Kokeile Ilmaiseksi',
       viewSamples: 'Katso Esimerkkejä',
@@ -70,17 +70,17 @@ Generaattori sisältää yli 3000 lapsille sopivaa kuvaa. Kaikki kuvat on järje
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/prepositions/prepositions_worksheet.jpeg',
-        answerKeySrc: '/samples/english/prepositions/prepositions_answer_key.jpeg',
+        worksheetSrc: '/samples/finnish/prepositions/sample-1.jpeg',
+        answerKeySrc: '/samples/finnish/prepositions/sample-1-answer.jpeg',
         altText: 'Prepositioharjoitus täydennystyypillä sijaintisanojen oppimiseen',
-        pdfDownloadUrl: '/samples/english/prepositions/prepositions_worksheet.pdf',
+        pdfDownloadUrl: '/samples/finnish/prepositions/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/prepositions/prepositions multiple choice.jpeg',
-        answerKeySrc: '/samples/english/prepositions/prepositions multiple choice answer_key.jpeg',
+        worksheetSrc: '/samples/finnish/prepositions/sample-2.jpeg',
+        answerKeySrc: '/samples/finnish/prepositions/sample-2-answer.jpeg',
         altText: 'Prepositioharjoitus monivalintatyypillä aloittelijoille',
-        pdfDownloadUrl: '/samples/english/prepositions/prepositions multiple choice.pdf',
+        pdfDownloadUrl: '/samples/finnish/prepositions/sample-2.pdf',
       },
     ],
   },

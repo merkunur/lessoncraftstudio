@@ -33,7 +33,7 @@ Bildekryssord kombinerer visuell læring med ordforståelse. Elevene ser på bil
 Velg mellom over 3000 bilder organisert etter tema. Lag kryssord om matematikk oppgaver, bokstaver lære skrive, eller tall og telling. Tilpass vanskelighetsgrad til din klasse. Generer både oppgaveark og fasit automatisk.
 
 Full Tilgang inkluderer kommersielle rettigheter for print-on-demand. Selg dine arbeidsark på Teachers Pay Teachers eller Etsy. Alle oppgaver lastes ned i høy kvalitet 300 DPI - perfekt for utskrift og videresalg.`,
-    previewImageSrc: '/samples/english/crossword/crossword_worksheet.jpeg',
+    previewImageSrc: '/samples/norwegian/crossword/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Prøv Gratis',
       viewSamples: 'Se Eksempler',
@@ -68,17 +68,17 @@ Full Tilgang inkluderer kommersielle rettigheter for print-on-demand. Selg dine 
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/crossword/crossword_worksheet.jpeg',
-        answerKeySrc: '/samples/english/crossword/crossword_answer_key.jpeg',
+        worksheetSrc: '/samples/norwegian/crossword/sample-1.jpeg',
+        answerKeySrc: '/samples/norwegian/crossword/sample-1-answer.jpeg',
         altText: 'Bildekryssord arbeidsark med bilder og rutenett for lesetrening på småskoletrinnet',
-        pdfDownloadUrl: '/samples/english/crossword/image-crossword-worksheet.pdf',
+        pdfDownloadUrl: '/samples/norwegian/crossword/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/crossword/crossword_worksheet (1).jpeg',
-        answerKeySrc: '/samples/english/crossword/crossword_answer_key (1).jpeg',
+        worksheetSrc: '/samples/norwegian/crossword/sample-2.jpeg',
+        answerKeySrc: '/samples/norwegian/crossword/sample-2-answer.jpeg',
         altText: 'Bildekryssord arbeidsark med ordforståelse oppgaver for oppgavehefter barn',
-        pdfDownloadUrl: '/samples/english/crossword/image-crossword-worksheet (1).pdf',
+        pdfDownloadUrl: '/samples/norwegian/crossword/sample-2.pdf',
       },
     ],
   },

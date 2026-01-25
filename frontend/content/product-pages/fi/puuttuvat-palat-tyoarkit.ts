@@ -32,7 +32,7 @@ export const missingPiecesFiContent: ProductPageContent = {
 Puuttuvan palan tehtävät sopivat esiopetukseen ja alakoulun ala-asteelle. Voit luoda tehtäviä millä tahansa aiheella. Valitse kuva yli 3000 kuvasta tai lataa omat kuvasi. Säädä vaikeustasoa 1-5 puuttuvalla palalla ja 2-6 vastausvaihtoehdolla. Jokainen tehtävä sisältää vastausavaimen.
 
 Täysi Käyttöoikeus -tilauksesi antaa rajattoman tehtävien luonnin ilman tehtäväkohtaisia maksuja. Luo niin monta puuttuvan palan tehtävää kuin tarvitset. Tilaus sisältää kaupalliset käyttöoikeudet. Myy tehtäviäsi Teachers Pay Teachersissa, Etsyssä tai Amazon KDP:ssä. Kaikki tehtävät ovat 300 DPI:n ammattilaatuisia.`,
-    previewImageSrc: '/samples/english/missing pieces/worksheet.jpeg',
+    previewImageSrc: '/samples/finnish/missing pieces/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Kokeile Ilmaiseksi',
       viewSamples: 'Katso Esimerkkejä',
@@ -67,17 +67,17 @@ Täysi Käyttöoikeus -tilauksesi antaa rajattoman tehtävien luonnin ilman teht
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/missing pieces/worksheet.jpeg',
-        answerKeySrc: '/samples/english/missing pieces/answer_key.jpeg',
+        worksheetSrc: '/samples/finnish/missing pieces/sample-1.jpeg',
+        answerKeySrc: '/samples/finnish/missing pieces/sample-1-answer.jpeg',
         altText: 'Puuttuvan palan tehtävä esiopetukseen ja alakouluun',
-        pdfDownloadUrl: '/samples/english/missing pieces/worksheet.pdf',
+        pdfDownloadUrl: '/samples/finnish/missing pieces/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/missing pieces/worksheet (1).jpeg',
-        answerKeySrc: '/samples/english/missing pieces/answer_key (1).jpeg',
+        worksheetSrc: '/samples/finnish/missing pieces/sample-2.jpeg',
+        answerKeySrc: '/samples/finnish/missing pieces/sample-2-answer.jpeg',
         altText: 'Puuttuvan palan tehtävä värikkäillä kuvilla',
-        pdfDownloadUrl: '/samples/english/missing pieces/worksheet (1).pdf',
+        pdfDownloadUrl: '/samples/finnish/missing pieces/sample-2.pdf',
       },
     ],
   },

@@ -32,7 +32,7 @@ export const picturePathFiContent: ProductPageContent = {
 Kuvapolkugeneraattori tarjoaa kolme erilaista pelitilaa. Luo klassisia sokkeloita, kuvapolkuja tai valitse oikea polku -tehtäviä. Jokainen tehtävä yhdistää hienomotoriikan harjoituksia visuaaliseen oppimiseen. Lapset seuraavat polkua alusta loppuun keräten kuvia matkan varrelta.
 
 Työkalumme tekee laadukkaiden tehtävien luomisesta nopeaa. Valitse teema tai yksittäisiä kuvia yli 3000 kuvan kirjastosta. Muokkaa kaikkea pohjalla suoraan. Lisää omia kuvia personoidaksesi tehtävät oppilaillesi. Vie valmiit tehtävät tulostettavana PDF-tiedostona tai JPEG-kuvana.`,
-    previewImageSrc: '/samples/english/picture path/picture path.jpeg',
+    previewImageSrc: '/samples/finnish/picture path/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Kokeile Ilmaiseksi',
       viewSamples: 'Katso Esimerkkejä',
@@ -67,24 +67,24 @@ Työkalumme tekee laadukkaiden tehtävien luomisesta nopeaa. Valitse teema tai y
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/picture path/picture path.jpeg',
-        answerKeySrc: '/samples/english/picture path/picture path answer_key.jpeg',
+        worksheetSrc: '/samples/finnish/picture path/sample-1.jpeg',
+        answerKeySrc: '/samples/finnish/picture path/sample-1-answer.jpeg',
         altText: 'Kuvapolkutehtävä kuvien keräämiseen polun varrella esiopetukseen',
-        pdfDownloadUrl: '/samples/english/picture path/picture path.pdf',
+        pdfDownloadUrl: '/samples/finnish/picture path/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/picture path/classic maze.jpeg',
-        answerKeySrc: '/samples/english/picture path/classic maze answer_key.jpeg',
+        worksheetSrc: '/samples/finnish/picture path/sample-2.jpeg',
+        answerKeySrc: '/samples/finnish/picture path/sample-2-answer.jpeg',
         altText: 'Klassinen sokkelotehtävä hienomotoriikan harjoitteluun',
-        pdfDownloadUrl: '/samples/english/picture path/classic maze.pdf',
+        pdfDownloadUrl: '/samples/finnish/picture path/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/picture path/right path.jpeg',
-        answerKeySrc: '/samples/english/picture path/right path answer_key.jpeg',
+        worksheetSrc: '/samples/finnish/picture path/sample-3.jpeg',
+        answerKeySrc: '/samples/finnish/picture path/sample-3-answer.jpeg',
         altText: 'Valitse oikea polku -tehtävä ongelmanratkaisun harjoitteluun',
-        pdfDownloadUrl: '/samples/english/picture path/right path.pdf',
+        pdfDownloadUrl: '/samples/finnish/picture path/sample-3.pdf',
       },
     ],
   },

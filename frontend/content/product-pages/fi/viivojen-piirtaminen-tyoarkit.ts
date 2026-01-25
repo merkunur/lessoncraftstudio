@@ -32,7 +32,7 @@ Peruspaketti-tilaus (144€ vuodessa tai 15€ kuukaudessa) antaa sinulle rajatt
 Viivojen piirtäminen tehtävät ovat täydellisiä esiopetukseen ja alakoulun 1-2 luokille. Nämä hienomotoriikka harjoitukset valmistavat lapsia kirjoittamiseen. Kahdeksan erilaista mallia tarjoavat vaihtelua. Vaaka- ja pystysuuntaiset taidot molemmat kehittyvät. Lapset nauttivat kuvien yhdistämisestä viivoilla.
 
 Peruspaketti sisältää kaupallisen print-on-demand -lisenssin. Myy tehtäviäsi Etsyssä tai Teachers Pay Teachersissa. 300 DPI ammattilaadulla. Kaikki 11 kieltä mukana käyttöliittymässä. Rajattomasti muokattavissa jokainen elementti.`,
-    previewImageSrc: '/samples/english/drawing lines/drawing_lines_curve 1.jpeg',
+    previewImageSrc: '/samples/finnish/drawing lines/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Kokeile Ilmaiseksi',
       viewSamples: 'Katso Esimerkkejä',
@@ -67,38 +67,38 @@ Peruspaketti sisältää kaupallisen print-on-demand -lisenssin. Myy tehtäviäs
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/drawing lines/drawing_lines_curve 1.jpeg',
+        worksheetSrc: '/samples/finnish/drawing lines/sample-1.jpeg',
         answerKeySrc: '',
         altText: 'Viivojen piirtäminen tehtävä kaarevilta viivoilla hienomotoriikka harjoituksiin',
-        pdfDownloadUrl: '/samples/english/drawing lines/drawing_lines_curve 1.pdf',
+        pdfDownloadUrl: '/samples/finnish/drawing lines/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/drawing lines/drawing_lines_curve 2.jpeg',
+        worksheetSrc: '/samples/finnish/drawing lines/sample-2.jpeg',
         answerKeySrc: '',
         altText: 'Viivojen piirtäminen tehtävä kaarevilla viivoilla esiopetukseen',
-        pdfDownloadUrl: '/samples/english/drawing lines/drawing_lines_curve 2.pdf',
+        pdfDownloadUrl: '/samples/finnish/drawing lines/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/drawing lines/drawing_lines_diagonal 1.jpeg',
+        worksheetSrc: '/samples/finnish/drawing lines/sample-3.jpeg',
         answerKeySrc: '',
         altText: 'Viivojen piirtäminen tehtävä diagonaalisilla viivoilla silmän ja käden koordinaatioon',
-        pdfDownloadUrl: '/samples/english/drawing lines/drawing_lines_diagonal 1.pdf',
+        pdfDownloadUrl: '/samples/finnish/drawing lines/sample-3.pdf',
       },
       {
         id: '4',
-        worksheetSrc: '/samples/english/drawing lines/drawing_lines_horizontal.jpeg',
+        worksheetSrc: '/samples/finnish/drawing lines/sample-4.jpeg',
         answerKeySrc: '',
         altText: 'Viivojen piirtäminen tehtävä vaakasuuntaisilla viivoilla kirjoittamiseen valmistautumiseen',
-        pdfDownloadUrl: '/samples/english/drawing lines/drawing_lines_horizontal.pdf',
+        pdfDownloadUrl: '/samples/finnish/drawing lines/sample-4.pdf',
       },
       {
         id: '5',
-        worksheetSrc: '/samples/english/drawing lines/drawing_lines_vertical.jpeg',
+        worksheetSrc: '/samples/finnish/drawing lines/sample-5.jpeg',
         answerKeySrc: '',
         altText: 'Viivojen piirtäminen tehtävä pystysuuntaisilla viivoilla kynänotteen harjoitteluun',
-        pdfDownloadUrl: '/samples/english/drawing lines/drawing_lines_vertical.pdf',
+        pdfDownloadUrl: '/samples/finnish/drawing lines/sample-5.pdf',
       },
     ],
   },

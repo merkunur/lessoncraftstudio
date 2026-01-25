@@ -32,7 +32,7 @@ export const oddOneOutNoContent: ProductPageContent = {
 Finn den ulike-oppgaver bygger kritisk tenkning og visuell diskriminering. Elevene analyserer fire bilder og identifiserer hvilket som ikke hører hjemme. Dette utvikler observasjonsferdigheter, kategoriseringsevne og leseforståelse gjennom bildekort og arbeidsark gratis.
 
 Vår generator tilbyr to vanskelighetsgrader for tilpasset læring. Identisk modus viser tre like bilder pluss ett litt forskjellig bilde fra samme tema. Dette krever nøye observasjon og er perfekt for eldre elever. Lignende modus viser tre bilder fra én kategori pluss ett bilde fra en annen kategori. Dette er enklere og ideelt for yngre barn som lærer grunnleggende kategorisering.`,
-    previewImageSrc: '/samples/english/odd one out/similar.jpeg',
+    previewImageSrc: '/samples/norwegian/odd one out/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Prøv Gratis',
       viewSamples: 'Se Eksempler',
@@ -67,17 +67,17 @@ Vår generator tilbyr to vanskelighetsgrader for tilpasset læring. Identisk mod
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/odd one out/similar.jpeg',
-        answerKeySrc: '/samples/english/odd one out/similar answer-key.jpeg',
+        worksheetSrc: '/samples/norwegian/odd one out/sample-1.jpeg',
+        answerKeySrc: '/samples/norwegian/odd one out/sample-1-answer.jpeg',
         altText: 'Finn den ulike arbeidsark med lignende modus - kategorisammenligning',
-        pdfDownloadUrl: '/samples/english/odd one out/similar.pdf',
+        pdfDownloadUrl: '/samples/norwegian/odd one out/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/odd one out/identical.jpeg',
-        answerKeySrc: '/samples/english/odd one out/identical answer-key.jpeg',
+        worksheetSrc: '/samples/norwegian/odd one out/sample-2.jpeg',
+        answerKeySrc: '/samples/norwegian/odd one out/sample-2-answer.jpeg',
         altText: 'Finn den ulike arbeidsark med identisk modus - detaljobservasjon',
-        pdfDownloadUrl: '/samples/english/odd one out/identical.pdf',
+        pdfDownloadUrl: '/samples/norwegian/odd one out/sample-2.pdf',
       },
     ],
   },

@@ -34,7 +34,7 @@ Kuviotehtävä on visuaalinen matematiikan työkalu, joka opettaa kuviontunnistu
 Tehtävämonisteet tukevat esiopetuksen ja alakoulun matematiikan opetussuunnitelmaa. Kuviontunnistus on perustaito, joka johtaa algebran ja kertolaskun ymmärtämiseen. Opettajat käyttävät kuviotehtävää luodakseen havainnollisia matematiikka tehtävät alakoulu, jotka pitävät lapset kiinnostuneina.
 
 Jokaisessa tehtävässä on selkeät esimerkit ja vastausavain. Voit mukauttaa vaikeustasoa valitsemalla kuviotyypin, kysymystyypin ja kuvien määrän. Täydellinen sekä esiopetukseen että alakoulun ensimmäisille luokille. Luo esiopetus materiaali ilmainen muutamassa minuutissa.`,
-    previewImageSrc: '/samples/english/pattern worksheet/pattern_worksheet portrait.jpeg',
+    previewImageSrc: '/samples/finnish/pattern worksheet/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Kokeile Ilmaiseksi',
       viewSamples: 'Katso Esimerkkejä',
@@ -69,17 +69,17 @@ Jokaisessa tehtävässä on selkeät esimerkit ja vastausavain. Voit mukauttaa v
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/pattern worksheet/pattern_worksheet portrait.jpeg',
-        answerKeySrc: '/samples/english/pattern worksheet/pattern_worksheet portrait answer_key.jpeg',
+        worksheetSrc: '/samples/finnish/pattern worksheet/sample-1.jpeg',
+        answerKeySrc: '/samples/finnish/pattern worksheet/sample-1-answer.jpeg',
         altText: 'Kuviotehtävä pystysuunta esiopetukseen ja alakouluun',
-        pdfDownloadUrl: '/samples/english/pattern worksheet/pattern_worksheet portrait.pdf',
+        pdfDownloadUrl: '/samples/finnish/pattern worksheet/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/pattern worksheet/pattern_worksheet landscape.jpeg',
-        answerKeySrc: '/samples/english/pattern worksheet/pattern_worksheet landscape answer_key (1).jpeg',
+        worksheetSrc: '/samples/finnish/pattern worksheet/sample-2.jpeg',
+        answerKeySrc: '/samples/finnish/pattern worksheet/sample-2-answer.jpeg',
         altText: 'Kuviotehtävä vaakasuunta kuviontunnistukseen',
-        pdfDownloadUrl: '/samples/english/pattern worksheet/pattern_worksheet landscape.pdf',
+        pdfDownloadUrl: '/samples/finnish/pattern worksheet/sample-2.pdf',
       },
     ],
   },

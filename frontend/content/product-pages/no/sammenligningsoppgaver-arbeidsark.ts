@@ -32,7 +32,7 @@ export const moreLessNoContent: ProductPageContent = {
 Mer-mindre-sammenligningsverktøyet vårt hjelper lærere med å lage matematikk oppgaver for tall og telling. Barn lærer å sammenligne antall ved hjelp av symbolene større enn (>), mindre enn (<) og lik (=). Dette er grunnleggende matteoppgaver for barnehage, 1. trinn og 2. trinn. Verktøyet skaper oppgavehefter barn kan bruke i klasserommet eller hjemme.
 
 Full Tilgang-abonnementet inkluderer alle 33 arbeidsarkgeneratorer. Lag addisjon og subtraksjon arbeidsark, matematikk oppgaver for gangetabellen, og mer-mindre-sammenligninger. Kombiner tall og telling øvelser med fargeleggingsbilder barn elsker. Hver oppgave lastes ned som profesjonell PDF klar for utskrift.`,
-    previewImageSrc: '/samples/english/more less/image to image.jpeg',
+    previewImageSrc: '/samples/norwegian/more less/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Prøv Gratis',
       viewSamples: 'Se Eksempler',
@@ -67,24 +67,24 @@ Full Tilgang-abonnementet inkluderer alle 33 arbeidsarkgeneratorer. Lag addisjon
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/more less/image to image.jpeg',
-        answerKeySrc: '/samples/english/more less/image to image answer_key.jpeg',
+        worksheetSrc: '/samples/norwegian/more less/sample-1.jpeg',
+        answerKeySrc: '/samples/norwegian/more less/sample-1-answer.jpeg',
         altText: 'Sammenligningsoppgaver arbeidsark med bilde-til-bilde sammenligning',
-        pdfDownloadUrl: '/samples/english/more less/image to image.pdf',
+        pdfDownloadUrl: '/samples/norwegian/more less/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/more less/image to number.jpeg',
-        answerKeySrc: '/samples/english/more less/image to number answer_key.jpeg',
+        worksheetSrc: '/samples/norwegian/more less/sample-2.jpeg',
+        answerKeySrc: '/samples/norwegian/more less/sample-2-answer.jpeg',
         altText: 'Sammenligningsoppgaver arbeidsark med bilde-til-tall sammenligning',
-        pdfDownloadUrl: '/samples/english/more less/image to number.pdf',
+        pdfDownloadUrl: '/samples/norwegian/more less/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/more less/illustration.jpeg',
-        answerKeySrc: '/samples/english/more less/illustration answer_key.jpeg',
+        worksheetSrc: '/samples/norwegian/more less/sample-3.jpeg',
+        answerKeySrc: '/samples/norwegian/more less/sample-3-answer.jpeg',
         altText: 'Sammenligningsoppgaver arbeidsark med illustrerte symboler',
-        pdfDownloadUrl: '/samples/english/more less/illustration.pdf',
+        pdfDownloadUrl: '/samples/norwegian/more less/sample-3.pdf',
       },
     ],
   },

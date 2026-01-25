@@ -34,7 +34,7 @@ Kuviojuna on visuaalinen matematiikan työkalu, joka opettaa kuviontunnistusta j
 Tehtävämonisteet tukevat esiopetuksen ja alakoulun matematiikan opetussuunnitelmaa. Kuviontunnistus on perustaito, joka johtaa algebran ymmärtämiseen. Opettajat käyttävät kuviojunaa havainnollisten matematiikkatehtävien luomiseen, jotka pitävät lapset kiinnostuneina.
 
 Jokaisessa tehtävässä on selkeät esimerkit ja vastausavain. Voit mukauttaa vaikeustasoa valitsemalla kuviotyypin ja vihjeiden määrän. Täydellinen sekä esiopetukseen että alakoulun ensimmäisille luokille.`,
-    previewImageSrc: '/samples/english/pattern train/pattern_train portrait.jpeg',
+    previewImageSrc: '/samples/finnish/pattern train/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Kokeile Ilmaiseksi',
       viewSamples: 'Katso Esimerkkejä',
@@ -69,17 +69,17 @@ Jokaisessa tehtävässä on selkeät esimerkit ja vastausavain. Voit mukauttaa v
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/pattern train/pattern_train portrait.jpeg',
-        answerKeySrc: '/samples/english/pattern train/pattern_train portrait answer_key.jpeg',
+        worksheetSrc: '/samples/finnish/pattern train/sample-1.jpeg',
+        answerKeySrc: '/samples/finnish/pattern train/sample-1-answer.jpeg',
         altText: 'Kuviojuna tehtävä pystysuunta esiopetukseen ja alakouluun',
-        pdfDownloadUrl: '/samples/english/pattern train/pattern_train portrait.pdf',
+        pdfDownloadUrl: '/samples/finnish/pattern train/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/pattern train/pattern_train landscape.jpeg',
-        answerKeySrc: '/samples/english/pattern train/pattern_train landscape answer_key.jpeg',
+        worksheetSrc: '/samples/finnish/pattern train/sample-2.jpeg',
+        answerKeySrc: '/samples/finnish/pattern train/sample-2-answer.jpeg',
         altText: 'Kuviojuna tehtävä vaakasuunta kuviontunnistukseen',
-        pdfDownloadUrl: '/samples/english/pattern train/pattern_train landscape.pdf',
+        pdfDownloadUrl: '/samples/finnish/pattern train/sample-2.pdf',
       },
     ],
   },

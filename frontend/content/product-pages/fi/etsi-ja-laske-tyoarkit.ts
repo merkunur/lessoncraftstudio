@@ -32,7 +32,7 @@ Etsi ja laske -tehtävät kehittävät laskutaitoja ja visuaalista havainnointia
 Generaattori käyttää 3000+ lapsille sopivaa kuvaa. Voit valita teemat tai yksittäiset kuvat. Voit myös ladata omia kuvia. Kaikki kuvat, taustat ja reunukset sisältyvät tilaukseen ilman lisämaksuja.
 
 Jokainen tehtävä latautuu 300 DPI -laadulla. Täydellinen tulostamiseen ja myyntiin. PDF- ja JPEG-muodot saatavilla. Peruspaketti sisältää kaupallisen POD-lisenssin ilman lisäkustannuksia.`,
-    previewImageSrc: '/samples/english/find and count/find and count portrait.jpeg',
+    previewImageSrc: '/samples/finnish/find and count/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Kokeile Ilmaiseksi',
       viewSamples: 'Katso Esimerkkejä',
@@ -67,17 +67,17 @@ Jokainen tehtävä latautuu 300 DPI -laadulla. Täydellinen tulostamiseen ja myy
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/find and count/find and count portrait.jpeg',
-        answerKeySrc: '/samples/english/find and count/find and count portrait answer_key.jpeg',
+        worksheetSrc: '/samples/finnish/find and count/sample-1.jpeg',
+        answerKeySrc: '/samples/finnish/find and count/sample-1-answer.jpeg',
         altText: 'Etsi ja laske -tehtävä pystysuunnassa esiopetukseen ja alakouluun',
-        pdfDownloadUrl: '/samples/english/find and count/find and count portrait.pdf',
+        pdfDownloadUrl: '/samples/finnish/find and count/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/find and count/find and count landscape.jpeg',
-        answerKeySrc: '/samples/english/find and count/find and count landscape answer_key.jpeg',
+        worksheetSrc: '/samples/finnish/find and count/sample-2.jpeg',
+        answerKeySrc: '/samples/finnish/find and count/sample-2-answer.jpeg',
         altText: 'Etsi ja laske -tehtävä vaakasuunnassa värikkäillä kuvilla',
-        pdfDownloadUrl: '/samples/english/find and count/find and count landscape.pdf',
+        pdfDownloadUrl: '/samples/finnish/find and count/sample-2.pdf',
       },
     ],
   },

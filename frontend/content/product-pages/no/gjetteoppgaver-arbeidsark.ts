@@ -32,7 +32,7 @@ Full Tilgang-abonnementet inkluderer ubegrenset tilgang til gjetteoppgaveverktø
 Gjetteoppgaver kombinerer ordforståelse med visuell læring. Elevene får bildehintkryss som viser deler av ordet. De må gjette hele ordet basert på bildene. Ideell for tall og telling aktiviteter eller gangetabellen øving. Egnet for addisjon og subtraksjon gjennom tematiske øvelser.
 
 Verktøyet støtter 11 språk inkludert norsk. Bruk bildebiblioteket vårt med over 3000 barnvennlige illustrasjoner. Last opp egne bilder for personaliserte oppgavehefter barn kan relatere til. Kombineres lett med fargeleggingsbilder barn kan farge inn. Alle arbeidsark lastes ned som utskriftsklare PDF-filer.`,
-    previewImageSrc: '/samples/english/word guess/clue-grid_worksheet.jpeg',
+    previewImageSrc: '/samples/norwegian/word guess/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Prøv Gratis',
       viewSamples: 'Se Eksempler',
@@ -67,24 +67,24 @@ Verktøyet støtter 11 språk inkludert norsk. Bruk bildebiblioteket vårt med o
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/word guess/clue-grid_worksheet.jpeg',
-        answerKeySrc: '/samples/english/word guess/clue-grid_answer-key.jpeg',
+        worksheetSrc: '/samples/norwegian/word guess/sample-1.jpeg',
+        answerKeySrc: '/samples/norwegian/word guess/sample-1-answer.jpeg',
         altText: 'Gjetteoppgave med bildehintkryss i rutenettformat for ordforståelse og lesetrening',
-        pdfDownloadUrl: '/samples/english/word guess/clue-grid_worksheet.pdf',
+        pdfDownloadUrl: '/samples/norwegian/word guess/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/word guess/landscape.jpeg',
-        answerKeySrc: '/samples/english/word guess/landscape answer-key.jpeg',
+        worksheetSrc: '/samples/norwegian/word guess/sample-2.jpeg',
+        answerKeySrc: '/samples/norwegian/word guess/sample-2-answer.jpeg',
         altText: 'Gjetteoppgave landskapsformat med fargerike bilder for 1. trinn og 2. trinn',
-        pdfDownloadUrl: '/samples/english/word guess/landscape.pdf',
+        pdfDownloadUrl: '/samples/norwegian/word guess/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/word guess/custom word list.jpeg',
-        answerKeySrc: '/samples/english/word guess/custom word list answer-key.jpeg',
+        worksheetSrc: '/samples/norwegian/word guess/sample-3.jpeg',
+        answerKeySrc: '/samples/norwegian/word guess/sample-3-answer.jpeg',
         altText: 'Gjetteoppgave med egendefinert ordliste til staveøvelser og ordforrådsbygging',
-        pdfDownloadUrl: '/samples/english/word guess/custom word list.pdf',
+        pdfDownloadUrl: '/samples/norwegian/word guess/sample-3.pdf',
       },
     ],
   },

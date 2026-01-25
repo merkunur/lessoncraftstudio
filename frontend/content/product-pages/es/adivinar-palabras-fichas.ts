@@ -58,7 +58,7 @@ Nuestro generador de fichas para imprimir combina imagenes con pistas de letras 
 El sistema funciona en 11 idiomas diferentes, lo que lo hace ideal para ensenanza de idiomas y programas bilingues. Selecciona imagenes de nuestra biblioteca de mas de 3000 ilustraciones infantiles o sube tus propias imagenes personalizadas. Configura el nivel de dificultad ajustando cuantas letras aparecen como pistas. Las fichas gratis para imprimir se adaptan perfectamente a cualquier nivel desde preescolar hasta tercer grado de primaria.
 
 Tu suscripcion Acceso Completo incluye licencia comercial completa. Puedes vender tus fichas en Teachers Pay Teachers, Etsy o Amazon KDP sin costos adicionales de licencia. Esto convierte el generador en una herramienta esencial tanto para maestros de aula como para emprendedores educativos. Crea material educativo gratis ilimitado con una sola suscripcion anual de $240 o $25 mensuales.`,
-    previewImageSrc: '/samples/english/word guess/clue-grid_worksheet.jpeg',
+    previewImageSrc: '/samples/spanish/word guess/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Probar Gratis',
       viewSamples: 'Ver Ejemplos',
@@ -93,24 +93,24 @@ Tu suscripcion Acceso Completo incluye licencia comercial completa. Puedes vende
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/word guess/clue-grid_worksheet.jpeg',
-        answerKeySrc: '/samples/english/word guess/clue-grid_answer-key.jpeg',
+        worksheetSrc: '/samples/spanish/word guess/sample-1.jpeg',
+        answerKeySrc: '/samples/spanish/word guess/sample-1-answer.jpeg',
         altText: 'Ficha gratis de adivina la palabra con cuadricula de pistas - ficha para ninos de lectoescritura',
-        pdfDownloadUrl: '/samples/english/word guess/clue-grid_worksheet.pdf',
+        pdfDownloadUrl: '/samples/spanish/word guess/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/word guess/landscape.jpeg',
-        answerKeySrc: '/samples/english/word guess/landscape answer-key.jpeg',
+        worksheetSrc: '/samples/spanish/word guess/sample-2.jpeg',
+        answerKeySrc: '/samples/spanish/word guess/sample-2-answer.jpeg',
         altText: 'Ficha para preescolar de adivina la palabra formato horizontal - imprimibles gratis',
-        pdfDownloadUrl: '/samples/english/word guess/landscape.pdf',
+        pdfDownloadUrl: '/samples/spanish/word guess/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/word guess/custom word list.jpeg',
-        answerKeySrc: '/samples/english/word guess/custom word list answer-key.jpeg',
+        worksheetSrc: '/samples/spanish/word guess/sample-3.jpeg',
+        answerKeySrc: '/samples/spanish/word guess/sample-3-answer.jpeg',
         altText: 'Ficha gratis para ninos de adivina la palabra con lista personalizada - ficha para preescolar',
-        pdfDownloadUrl: '/samples/english/word guess/custom word list.pdf',
+        pdfDownloadUrl: '/samples/spanish/word guess/sample-3.pdf',
       },
     ],
   },

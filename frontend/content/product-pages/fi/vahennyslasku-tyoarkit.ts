@@ -32,7 +32,7 @@ export const subtractionFiContent: ProductPageContent = {
 Vähennyslasku generaattorimme käyttää kuvapohjaista lähestymistapaa joka tekee matemaattisista käsitteistä konkreettisia lapsille. Oppilaiden on helpompi ymmärtää vähennyslaskun käsite kun he näkevät kuvia esineitä. Generaattori luo automaattisesti vastausavaimet jotka säästävät opettajien aikaa. Täysi Käyttöoikeus -tilaus sisältää kaupallisen lisenssin ja pääsyn kaikkiin 33 tehtävägeneraattoriin.
 
 Vähennyslasku on perustaidoksi alakoulun matematiikan opetuksessa. Esiopetuksessa ja ensimmäisellä luokalla oppilaat aloittavat vähennyslaskun perusteiden oppimisen. Kuvat auttavat lapsia visualisoimaan vähennyslaskun käsitteen ennen siirtymistä abstrakteihin numeroihin. Tehtävägeneraattori tarjoaa neljä erilaista tehtävämuotoa jotka soveltuvat eri taitotasoille.`,
-    previewImageSrc: '/samples/english/subtraction/cross out.jpeg',
+    previewImageSrc: '/samples/finnish/subtraction/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Kokeile Ilmaiseksi',
       viewSamples: 'Katso Esimerkkejä',
@@ -67,31 +67,31 @@ Vähennyslasku on perustaidoksi alakoulun matematiikan opetuksessa. Esiopetukses
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/subtraction/cross out.jpeg',
-        answerKeySrc: '/samples/english/subtraction/cross out answer_key.jpeg',
+        worksheetSrc: '/samples/finnish/subtraction/sample-1.jpeg',
+        answerKeySrc: '/samples/finnish/subtraction/sample-1-answer.jpeg',
         altText: 'Yliviivaa-muoto vähennyslaskutehtävä esiopetukseen konkreettisella visualisoinnilla',
-        pdfDownloadUrl: '/samples/english/subtraction/cross out.pdf',
+        pdfDownloadUrl: '/samples/finnish/subtraction/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/subtraction/image number.jpeg',
-        answerKeySrc: '/samples/english/subtraction/image number answer_key.jpeg',
+        worksheetSrc: '/samples/finnish/subtraction/sample-2.jpeg',
+        answerKeySrc: '/samples/finnish/subtraction/sample-2-answer.jpeg',
         altText: 'Kuva ja numero -tila vähennyslaskutehtävä yhdistämään visuaalinen ja numeerinen esitys',
-        pdfDownloadUrl: '/samples/english/subtraction/image number.pdf',
+        pdfDownloadUrl: '/samples/finnish/subtraction/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/subtraction/find subtrahend.jpeg',
-        answerKeySrc: '/samples/english/subtraction/find subtrahend answer_key.jpeg',
+        worksheetSrc: '/samples/finnish/subtraction/sample-3.jpeg',
+        answerKeySrc: '/samples/finnish/subtraction/sample-3-answer.jpeg',
         altText: 'Etsi vähentäjä -tehtävä ongelmanratkaisutaitojen kehittämiseen',
-        pdfDownloadUrl: '/samples/english/subtraction/find subtrahend.pdf',
+        pdfDownloadUrl: '/samples/finnish/subtraction/sample-3.pdf',
       },
       {
         id: '4',
-        worksheetSrc: '/samples/english/subtraction/mixed.jpeg',
-        answerKeySrc: '/samples/english/subtraction/mixed answer_key.jpeg',
+        worksheetSrc: '/samples/finnish/subtraction/sample-4.jpeg',
+        answerKeySrc: '/samples/finnish/subtraction/sample-4-answer.jpeg',
         altText: 'Sekoitettu muoto vähennyslaskutehtävä monipuoliseen harjoitteluun',
-        pdfDownloadUrl: '/samples/english/subtraction/mixed.pdf',
+        pdfDownloadUrl: '/samples/finnish/subtraction/sample-4.pdf',
       },
     ],
   },

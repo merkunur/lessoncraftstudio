@@ -30,7 +30,7 @@ export const oddOneOutFiContent: ProductPageContent = {
 Visuaalisen hahmottamisen tehtävät kehittävät lasten tarkkaavaisuutta ja loogista ajattelua. Oppilas etsii neljästä kuvasta sen, joka ei kuulu joukkoon. Voit luoda 5-10 harjoitusta yhdelle tehtävämonistelle. Kaksi vaikeustasoa: identtinen-tila (hankalampi) ja samankaltainen-tila (helpompi). Soveltuu erinomaisesti esiopetuksen materiaaliin ja alakoulun matematiikan, lukemisen ja hienomotoriikan harjoituksiin.
 
 Täysi Käyttöoikeus -tilaus maksaa 240 dollaria vuodessa tai 25 dollaria kuukaudessa. Tilaus sisältää kaikki 33 tehtävägeneraattoria, kaupallisen lisenssin ja 11 kielen tuen. Luo niin monta tulostettavaa tehtävää lapsille kuin tarvitset ilman lisämaksuja. Jokainen tehtävämonsteri on 300 DPI -laatua ja valmis tulostettavaksi tai myytäväksi.`,
-    previewImageSrc: '/samples/english/odd one out/similar.jpeg',
+    previewImageSrc: '/samples/finnish/odd one out/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Kokeile Ilmaiseksi',
       viewSamples: 'Katso Esimerkkejä',
@@ -65,17 +65,17 @@ Täysi Käyttöoikeus -tilaus maksaa 240 dollaria vuodessa tai 25 dollaria kuuka
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/odd one out/similar.jpeg',
-        answerKeySrc: '/samples/english/odd one out/similar answer-key.jpeg',
+        worksheetSrc: '/samples/finnish/odd one out/sample-1.jpeg',
+        answerKeySrc: '/samples/finnish/odd one out/sample-1-answer.jpeg',
         altText: 'Poikkea joukosta tehtävä samankaltainen-tilassa esiopetukseen',
-        pdfDownloadUrl: '/samples/english/odd one out/similar.pdf',
+        pdfDownloadUrl: '/samples/finnish/odd one out/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/odd one out/identical.jpeg',
-        answerKeySrc: '/samples/english/odd one out/identical answer-key.jpeg',
+        worksheetSrc: '/samples/finnish/odd one out/sample-2.jpeg',
+        answerKeySrc: '/samples/finnish/odd one out/sample-2-answer.jpeg',
         altText: 'Poikkea joukosta tehtävä identtinen-tilassa haastavampaan harjoitteluun',
-        pdfDownloadUrl: '/samples/english/odd one out/identical.pdf',
+        pdfDownloadUrl: '/samples/finnish/odd one out/sample-2.pdf',
       },
     ],
   },

@@ -21,13 +21,13 @@ export const gridMatchNoContent: ProductPageContent = {
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/rutenett-tilpasning-arbeidsark',
     images: [
       {
-        url: 'https://www.lessoncraftstudio.com/samples/english/grid match/grid match portrait .jpeg',
+        url: 'https://www.lessoncraftstudio.com/samples/norwegian/grid match/sample-1.jpeg',
         width: 2480,
         height: 3508,
         caption: 'Rutenetttilpasning arbeidsark gratis - visuell matching gåte for barn og småskoletrinnet'
       },
       {
-        url: 'https://www.lessoncraftstudio.com/samples/english/grid match/grid match landscape.jpeg',
+        url: 'https://www.lessoncraftstudio.com/samples/norwegian/grid match/sample-2.jpeg',
         width: 3508,
         height: 2480,
         caption: 'Gratis arbeidsark for barn - rutenetttilpasning landskapsformat for romlig resonnering'
@@ -44,7 +44,7 @@ export const gridMatchNoContent: ProductPageContent = {
 Rutenetttilpasning er en visuell gåte hvor barn matcher brikker for å fullføre et bilde. Et stort bilde deles inn i et rutenett med noen celler fjernet. Barn må identifisere hvilke brikker som hører hvor. Dette utvikler visuell diskriminering og romlig resonnering. Perfekt for matematikk oppgaver og finmotorikk øvelser.
 
 Full Tilgang-abonnement gir deg tilgang til alle 33 arbeidsarkgeneratorer inkludert rutenetttilpasning. Lag ubegrensede arbeidsark gratis for alle dine elever. Ingen ekstra kostnader per ark. Kombinér rutenetttilpasning med fargeleggingsbilder barn og bokstaver lære skrive for komplette læringspakker. Ideell for oppgavehefter barn med varierte aktiviteter.`,
-    previewImageSrc: '/samples/english/grid match/grid match portrait .jpeg',
+    previewImageSrc: '/samples/norwegian/grid match/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Prøv Gratis',
       viewSamples: 'Se Eksempler',
@@ -79,17 +79,17 @@ Full Tilgang-abonnement gir deg tilgang til alle 33 arbeidsarkgeneratorer inklud
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/grid match/grid match portrait .jpeg',
-        answerKeySrc: '/samples/english/grid match/grid match portrait  answer_key.jpeg',
+        worksheetSrc: '/samples/norwegian/grid match/sample-1.jpeg',
+        answerKeySrc: '/samples/norwegian/grid match/sample-1-answer.jpeg',
         altText: 'Rutenetttilpasning gratis arbeidsark - portrettformat visuell matching for barn og småskoletrinnet',
-        pdfDownloadUrl: '/samples/english/grid match/grid match portrait .pdf',
+        pdfDownloadUrl: '/samples/norwegian/grid match/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/grid match/grid match landscape.jpeg',
-        answerKeySrc: '/samples/english/grid match/grid match landscape answer_key.jpeg',
+        worksheetSrc: '/samples/norwegian/grid match/sample-2.jpeg',
+        answerKeySrc: '/samples/norwegian/grid match/sample-2-answer.jpeg',
         altText: 'Gratis arbeidsark for barn - rutenetttilpasning landskapsformat for romlig resonnering',
-        pdfDownloadUrl: '/samples/english/grid match/grid match landscape.pdf',
+        pdfDownloadUrl: '/samples/norwegian/grid match/sample-2.pdf',
       },
     ],
   },

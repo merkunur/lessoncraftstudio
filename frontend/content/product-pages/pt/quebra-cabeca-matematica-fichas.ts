@@ -23,25 +23,25 @@ export const mathPuzzlePtContent: ProductPageContent = {
     canonicalUrl: 'https://www.lessoncraftstudio.com/pt/apps/quebra-cabeca-matematica-fichas',
     images: [
       {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/math%20puzzle/Quebra-Cabe%C3%A7as%20Matem%C3%A1tico%201.jpeg',
+        url: 'https://www.lessoncraftstudio.com/samples/portuguese/math puzzle/sample-1.jpeg',
         width: 2480,
         height: 3508,
         caption: 'Atividade grátis de quebra-cabeça de matemática - adição para educação infantil',
       },
       {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/math%20puzzle/Quebra-Cabe%C3%A7as%20Matem%C3%A1tico%202.jpeg',
+        url: 'https://www.lessoncraftstudio.com/samples/portuguese/math puzzle/sample-2.jpeg',
         width: 2480,
         height: 3508,
         caption: 'Atividades grátis de matemática para crianças - subtração e adição',
       },
       {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/math%20puzzle/Quebra-Cabe%C3%A7as%20Matem%C3%A1tico%203.jpeg',
+        url: 'https://www.lessoncraftstudio.com/samples/portuguese/math puzzle/sample-3.jpeg',
         width: 2480,
         height: 3508,
         caption: 'Imprimíveis grátis de quebra-cabeça matemático - atividade para educação infantil',
       },
       {
-        url: 'https://www.lessoncraftstudio.com/samples/portuguese/math%20puzzle/Quebra-Cabe%C3%A7as%20Matem%C3%A1tico%204.jpeg',
+        url: 'https://www.lessoncraftstudio.com/samples/portuguese/math puzzle/sample-4.jpeg',
         width: 2480,
         height: 3508,
         caption: 'Atividade para crianças grátis - quebra-cabeça matemática 1º ano',
@@ -58,7 +58,7 @@ export const mathPuzzlePtContent: ProductPageContent = {
 O gerador de quebra-cabeça de matemática transforma o aprendizado em diversão. As crianças resolvem problemas de adição e subtração para revelar uma imagem escondida. Esta abordagem combina atividades de matemática com elementos visuais motivadores. Cada peça do quebra-cabeça contém um problema matemático. Quando o aluno resolve corretamente, a peça revela parte de uma imagem. Esta metodologia transforma atividades para imprimir em experiências envolventes.
 
 O formato de grade permite configurar de 2x2 até 4x4 peças. Escolha operações de adição, subtração ou ambas. Adapte a dificuldade para cada faixa etária. Crie atividades 1º ano com problemas mais simples. Desenvolva desafios maiores para o 2º ano. A biblioteca inclui mais de 3000 imagens apropriadas para crianças. Encontre temas como animais, frutas, veículos e personagens. Cada imagem funciona como recompensa visual quando o aluno completa as atividades de matemática.`,
-    previewImageSrc: '/samples/portuguese/math puzzle/Quebra-Cabeças Matemático 1.jpeg',
+    previewImageSrc: '/samples/portuguese/math puzzle/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Experimente Grátis',
       viewSamples: 'Ver Exemplos',
@@ -93,31 +93,31 @@ O formato de grade permite configurar de 2x2 até 4x4 peças. Escolha operaçõe
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/portuguese/math puzzle/Quebra-Cabeças Matemático 1.jpeg',
-        answerKeySrc: '/samples/portuguese/math puzzle/Quebra-Cabeças Matemático 1 answer_key.jpeg',
+        worksheetSrc: '/samples/portuguese/math puzzle/sample-1.jpeg',
+        answerKeySrc: '/samples/portuguese/math puzzle/sample-1-answer.jpeg',
         altText: 'Atividade grátis de quebra-cabeça de matemática para educação infantil',
-        pdfDownloadUrl: '/samples/portuguese/math puzzle/Quebra-Cabeças Matemático 1.pdf',
+        pdfDownloadUrl: '/samples/portuguese/math puzzle/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/portuguese/math puzzle/Quebra-Cabeças Matemático 2.jpeg',
-        answerKeySrc: '/samples/portuguese/math puzzle/Quebra-Cabeças Matemático 2 answer_key.jpeg',
+        worksheetSrc: '/samples/portuguese/math puzzle/sample-2.jpeg',
+        answerKeySrc: '/samples/portuguese/math puzzle/sample-2-answer.jpeg',
         altText: 'Atividades grátis de quebra-cabeça matemático para crianças - 1º ano',
-        pdfDownloadUrl: '/samples/portuguese/math puzzle/Quebra-Cabeças Matemático 2.pdf',
+        pdfDownloadUrl: '/samples/portuguese/math puzzle/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/portuguese/math puzzle/Quebra-Cabeças Matemático 3.jpeg',
-        answerKeySrc: '/samples/portuguese/math puzzle/Quebra-Cabeças Matemático 3 answer_key.jpeg',
+        worksheetSrc: '/samples/portuguese/math puzzle/sample-3.jpeg',
+        answerKeySrc: '/samples/portuguese/math puzzle/sample-3-answer.jpeg',
         altText: 'Imprimíveis grátis de quebra-cabeça de matemática - atividade para crianças',
-        pdfDownloadUrl: '/samples/portuguese/math puzzle/Quebra-Cabeças Matemático 3.pdf',
+        pdfDownloadUrl: '/samples/portuguese/math puzzle/sample-3.pdf',
       },
       {
         id: '4',
-        worksheetSrc: '/samples/portuguese/math puzzle/Quebra-Cabeças Matemático 4.jpeg',
-        answerKeySrc: '/samples/portuguese/math puzzle/Quebra-Cabeças Matemático 4 answer_key.jpeg',
+        worksheetSrc: '/samples/portuguese/math puzzle/sample-4.jpeg',
+        answerKeySrc: '/samples/portuguese/math puzzle/sample-4-answer.jpeg',
         altText: 'Atividade para educação infantil de quebra-cabeça matemático com gabarito',
-        pdfDownloadUrl: '/samples/portuguese/math puzzle/Quebra-Cabeças Matemático 4.pdf',
+        pdfDownloadUrl: '/samples/portuguese/math puzzle/sample-4.pdf',
       },
     ],
   },

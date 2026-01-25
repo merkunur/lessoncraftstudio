@@ -30,7 +30,7 @@ export const bigSmallFiContent: ProductPageContent = {
 Kokovertailutehtävät ovat tärkeitä esiopetuksen ja alakoulun matematiikassa. Lapset oppivat ymmärtämään käsitteet iso, pieni ja keskikokoinen. Tämä työkalu luo automaattisesti tehtäviä, joissa on 2-3 kuvaa eri kokoina. Valitse viidestä eri tehtävätyypistä. Ympyröi pienin, ympyröi suurin tai järjestä kuvat kokonsa mukaan.
 
 Jokainen tehtävä sopii esiopetukseen ja matematiikan alkuopetukseen alakoulussa. Mukauta jokaista tehtävää täydellisesti. Vedä, kierrä ja muuta kaikkia elementtejä. Lisää omia kuvia. Valitse yli 3000 lapsille sopivasta kuvasta. Luo ainutlaatuisia tehtävämonsteita, jotka sopivat juuri sinun oppilaiden tarpeisiin.`,
-    previewImageSrc: '/samples/english/big small/big-small-different images.jpeg',
+    previewImageSrc: '/samples/finnish/big small/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Kokeile Ilmaiseksi',
       viewSamples: 'Katso Esimerkkejä',
@@ -65,24 +65,24 @@ Jokainen tehtävä sopii esiopetukseen ja matematiikan alkuopetukseen alakouluss
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/big small/big-small-different images.jpeg',
-        answerKeySrc: '/samples/english/big small/big-small-different images answer_key.jpeg',
+        worksheetSrc: '/samples/finnish/big small/sample-1.jpeg',
+        answerKeySrc: '/samples/finnish/big small/sample-1-answer.jpeg',
         altText: 'Iso ja pieni kokovertailutehtävä erilaisilla kuvilla esiopetukseen',
-        pdfDownloadUrl: '/samples/english/big small/big-small-different images.pdf',
+        pdfDownloadUrl: '/samples/finnish/big small/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/big small/big-small identical images.jpeg',
-        answerKeySrc: '/samples/english/big small/big-small identical images answer_key.jpeg',
+        worksheetSrc: '/samples/finnish/big small/sample-2.jpeg',
+        answerKeySrc: '/samples/finnish/big small/sample-2-answer.jpeg',
         altText: 'Kokovertailutehtävä identtisillä kuvilla eri kokoina matematiikan harjoitteluun',
-        pdfDownloadUrl: '/samples/english/big small/big-small identical images.pdf',
+        pdfDownloadUrl: '/samples/finnish/big small/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/big small/big-small number 1-2-3.jpeg',
-        answerKeySrc: '/samples/english/big small/big-small number 1-2-3 answer_key.jpeg',
+        worksheetSrc: '/samples/finnish/big small/sample-3.jpeg',
+        answerKeySrc: '/samples/finnish/big small/sample-3-answer.jpeg',
         altText: 'Järjestämistehtävä jossa oppilaat numeroivat kuvat pienimmästä suurimpaan',
-        pdfDownloadUrl: '/samples/english/big small/big-small number 1-2-3.pdf',
+        pdfDownloadUrl: '/samples/finnish/big small/sample-3.pdf',
       },
     ],
   },

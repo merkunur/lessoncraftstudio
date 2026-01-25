@@ -30,7 +30,7 @@ export const alphabetTrainFiContent: ProductPageContent = {
 Aakkosjuna-sovelluksemme yhdistää kirjaimet harjoittelun hauskaan junateemaan. Jokainen tehtävä sisältää täsmälleen 11 kirjainta juna-aiheisessa asettelussa. Valitse joko satunnaiset kirjaimet tai tietyt kirjaimet, jotka haluat harjoitella. Liitä kullekin kirjaimelle kuva yli 3000 lapsille sopivan kuvan kirjastosta. Esiopetus materiaali on täysin muokattavissa ja sisältää vastausavaimen opettajille.
 
 Kirjainten tunnistus ja aakkosharjoittelu onnistuvat nopeasti. Luo, muokkaa ja lataa tulostettavat tehtävät minuuteissa. Ei tarvita suunnittelutaitoja. Peruspaketti sisältää 10 suosittua tehtävätyökalua ja kaupallisen lisenssin.`,
-    previewImageSrc: '/samples/english/alphabet train/alphabet train portrait.jpeg',
+    previewImageSrc: '/samples/finnish/alphabet train/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Kokeile Ilmaiseksi',
       viewSamples: 'Katso Esimerkkejä',
@@ -65,17 +65,17 @@ Kirjainten tunnistus ja aakkosharjoittelu onnistuvat nopeasti. Luo, muokkaa ja l
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/alphabet train/alphabet train portrait.jpeg',
-        answerKeySrc: '/samples/english/alphabet train/alphabet train portrait answer_key.jpeg',
+        worksheetSrc: '/samples/finnish/alphabet train/sample-1.jpeg',
+        answerKeySrc: '/samples/finnish/alphabet train/sample-1-answer.jpeg',
         altText: 'Aakkosjuna tehtävä pystysuunnassa kirjainten harjoitteluun esiopetukseen',
-        pdfDownloadUrl: '/samples/english/alphabet train/alphabet train portrait.pdf',
+        pdfDownloadUrl: '/samples/finnish/alphabet train/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/alphabet train/alphabet train landscape.jpeg',
-        answerKeySrc: '/samples/english/alphabet train/alphabet train landscape answer_key.jpeg',
+        worksheetSrc: '/samples/finnish/alphabet train/sample-2.jpeg',
+        answerKeySrc: '/samples/finnish/alphabet train/sample-2-answer.jpeg',
         altText: 'Aakkosjuna tehtävä vaakasuunnassa värikkäillä kuvilla alakoululaisille',
-        pdfDownloadUrl: '/samples/english/alphabet train/alphabet train landscape.pdf',
+        pdfDownloadUrl: '/samples/finnish/alphabet train/sample-2.pdf',
       },
     ],
   },

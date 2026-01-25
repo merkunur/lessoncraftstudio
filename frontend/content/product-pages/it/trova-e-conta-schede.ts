@@ -21,25 +21,25 @@ export const findAndCountItContent: ProductPageContent = {
     canonicalUrl: 'https://www.lessoncraftstudio.com/it/apps/trova-e-conta-schede',
     images: [
       {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/find and count/Vedo Vedo 1.jpeg',
+        url: 'https://www.lessoncraftstudio.com/samples/italian/find and count/sample-1.jpeg',
         width: 2480,
         height: 3508,
         caption: 'Scheda gratuita trova e conta per bambini - stampabili gratuiti scuola infanzia'
       },
       {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/find and count/Vedo Vedo 2.jpeg',
+        url: 'https://www.lessoncraftstudio.com/samples/italian/find and count/sample-2.jpeg',
         width: 2480,
         height: 3508,
         caption: 'Schede gratuite trova e conta - scheda per scuola dell\'infanzia matematica'
       },
       {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/find and count/Vedo Vedo 3.jpeg',
+        url: 'https://www.lessoncraftstudio.com/samples/italian/find and count/sample-3.jpeg',
         width: 2480,
         height: 3508,
         caption: 'Scheda gratuita per bambini conteggio - stampabili gratuiti scuola primaria'
       },
       {
-        url: 'https://www.lessoncraftstudio.com/samples/italian/find and count/Vedo Vedo 4.jpeg',
+        url: 'https://www.lessoncraftstudio.com/samples/italian/find and count/sample-4.jpeg',
         width: 2480,
         height: 3508,
         caption: 'Scheda per bambini trova e conta - schede gratuite attivita matematica'
@@ -56,7 +56,7 @@ export const findAndCountItContent: ProductPageContent = {
 Le schede trova e conta sono attività essenziali per sviluppare le abilità di conteggio nei bambini piccoli. I tuoi alunni cercano oggetti nascosti in una griglia e contano quanti ne trovano. Queste schede didattiche combinano discriminazione visiva con pratica matematica. Ideale per insegnanti della scuola dell'infanzia che necessitano di numeri da stampare e schede matematica rapidamente.
 
 Il nostro generatore crea schede con griglie personalizzabili da 5x5 a 10x10 celle. Seleziona immagini dalla nostra libreria di oltre 3000 elementi adatti ai bambini. Genera automaticamente le soluzioni che mostrano le quantità corrette. Perfetto per schede italiano classe prima e attività di pregrafismo che combinano conteggio con riconoscimento visivo.`,
-    previewImageSrc: '/samples/italian/find and count/Vedo Vedo 1.jpeg',
+    previewImageSrc: '/samples/italian/find and count/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Prova Gratis',
       viewSamples: 'Vedi Esempi',
@@ -91,31 +91,31 @@ Il nostro generatore crea schede con griglie personalizzabili da 5x5 a 10x10 cel
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/italian/find and count/Vedo Vedo 1.jpeg',
-        answerKeySrc: '/samples/italian/find and count/Vedo Vedo 1 answer_key.jpeg',
+        worksheetSrc: '/samples/italian/find and count/sample-1.jpeg',
+        answerKeySrc: '/samples/italian/find and count/sample-1-answer.jpeg',
         altText: 'Scheda gratuita trova e conta per bambini - stampabili gratuiti scuola infanzia',
-        pdfDownloadUrl: '/samples/italian/find and count/Vedo Vedo 1.pdf',
+        pdfDownloadUrl: '/samples/italian/find and count/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/italian/find and count/Vedo Vedo 2.jpeg',
-        answerKeySrc: '/samples/italian/find and count/Vedo Vedo 2 answer_key.jpeg',
+        worksheetSrc: '/samples/italian/find and count/sample-2.jpeg',
+        answerKeySrc: '/samples/italian/find and count/sample-2-answer.jpeg',
         altText: 'Schede gratuite trova e conta - scheda per scuola dell\'infanzia matematica',
-        pdfDownloadUrl: '/samples/italian/find and count/Vedo Vedo 2.pdf',
+        pdfDownloadUrl: '/samples/italian/find and count/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/italian/find and count/Vedo Vedo 3.jpeg',
-        answerKeySrc: '/samples/italian/find and count/Vedo Vedo 3 answer_key.jpeg',
+        worksheetSrc: '/samples/italian/find and count/sample-3.jpeg',
+        answerKeySrc: '/samples/italian/find and count/sample-3-answer.jpeg',
         altText: 'Scheda gratuita per bambini conteggio - stampabili gratuiti scuola primaria',
-        pdfDownloadUrl: '/samples/italian/find and count/Vedo Vedo 3.pdf',
+        pdfDownloadUrl: '/samples/italian/find and count/sample-3.pdf',
       },
       {
         id: '4',
-        worksheetSrc: '/samples/italian/find and count/Vedo Vedo 4.jpeg',
-        answerKeySrc: '/samples/italian/find and count/Vedo Vedo 4 answer_key.jpeg',
+        worksheetSrc: '/samples/italian/find and count/sample-4.jpeg',
+        answerKeySrc: '/samples/italian/find and count/sample-4-answer.jpeg',
         altText: 'Scheda per bambini trova e conta - schede gratuite attivita matematica',
-        pdfDownloadUrl: '/samples/italian/find and count/Vedo Vedo 4.pdf',
+        pdfDownloadUrl: '/samples/italian/find and count/sample-4.pdf',
       },
     ],
   },

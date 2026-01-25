@@ -34,7 +34,7 @@ export const crosswordFiContent: ProductPageContent = {
 Ristisanatehtävät ovat loistava tapa opettaa sanastoa ja kirjainten tunnistusta. Generaattorimme luo automaattisesti ristikon valitsemistasi kuvista. Jokainen kuva muuttuu sanaksi ristikossa. Voit valita teemoja tai yksittäisiä kuvia yli 3000 kuvan kirjastosta. Esiopetus materiaali ilmainen luominen tilauksella tarkoittaa rajattomia tehtäviä ilman lisäkustannuksia.
 
 Generaattori toimii täysin suomeksi. Kaikki kuvien nimet ja teemat näkyvät suomeksi. Voit myös ladata omia kuvia ja muokata niiden nimiä ennen ristikon luomista. Lataa valmiit tehtävät PDF- tai JPEG-muodossa. Tehtävät sopivat kotitulostimelle ja ammattilaistulosteelle. Täysi Käyttöoikeus -tilaus sisältää kaupallisen lisenssin, joten voit myydä luomiasi tehtäviä.`,
-    previewImageSrc: '/samples/english/crossword/crossword_worksheet.jpeg',
+    previewImageSrc: '/samples/finnish/crossword/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Kokeile Ilmaiseksi',
       viewSamples: 'Katso Esimerkkejä',
@@ -69,17 +69,17 @@ Generaattori toimii täysin suomeksi. Kaikki kuvien nimet ja teemat näkyvät su
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/crossword/crossword_worksheet.jpeg',
-        answerKeySrc: '/samples/english/crossword/crossword_answer_key.jpeg',
+        worksheetSrc: '/samples/finnish/crossword/sample-1.jpeg',
+        answerKeySrc: '/samples/finnish/crossword/sample-1-answer.jpeg',
         altText: 'Kuvallinen ristisanatehtävä lapsille - esiopetus ja alakoulu',
-        pdfDownloadUrl: '/samples/english/crossword/image-crossword-worksheet.pdf',
+        pdfDownloadUrl: '/samples/finnish/crossword/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/crossword/crossword_worksheet (1).jpeg',
-        answerKeySrc: '/samples/english/crossword/crossword_answer_key (1).jpeg',
+        worksheetSrc: '/samples/finnish/crossword/sample-2.jpeg',
+        answerKeySrc: '/samples/finnish/crossword/sample-2-answer.jpeg',
         altText: 'Ristisanatehtävä kuvilla - sanasto ja kirjaimet harjoittelu',
-        pdfDownloadUrl: '/samples/english/crossword/image-crossword-worksheet (1).pdf',
+        pdfDownloadUrl: '/samples/finnish/crossword/sample-2.pdf',
       },
     ],
   },

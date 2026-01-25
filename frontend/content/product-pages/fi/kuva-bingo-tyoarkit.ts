@@ -32,7 +32,7 @@ Kuva-bingogeneraattori on suunniteltu suomalaisille esiopettajille ja opettajill
 Työkalu sopii täydellisesti esiopetus materiaali ilmainen -tyyppisten pelien luomiseen. Käytä 3000+ lapsiystävällistä kuvaa tai lataa omia kuvia. Yhdistä bingo-pelit muihin tehtäviin kuten hienomotoriikka harjoitukset ja värityskuvia lapsille tulostettava -aktiviteetteihin. Generaattori tukee 11 kieltä sisältöön ja käyttöliittymään.
 
 Peruspaketti-tilaus maksaa 144 dollaria vuodessa tai 15 dollaria kuukaudessa. Tilaus sisältää 10 suosittua tehtävämonistegeneraattoria. Kaikki generaattorit tuottavat 300 DPI laatua tulostettavat tehtävät lapsille. Täydellinen valinta esikouluille ja ala-asteen opettajille jotka tarvitsevat esiopetus materiaali ilmainen -tyyppisiä resursseja.`,
-    previewImageSrc: '/samples/english/bingo/image and image.jpeg',
+    previewImageSrc: '/samples/finnish/bingo/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Kokeile Ilmaiseksi',
       viewSamples: 'Katso Esimerkkejä',
@@ -67,17 +67,17 @@ Peruspaketti-tilaus maksaa 144 dollaria vuodessa tai 15 dollaria kuukaudessa. Ti
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/bingo/image and image.jpeg',
-        answerKeySrc: '/samples/english/bingo/image and image callout.jpeg',
+        worksheetSrc: '/samples/finnish/bingo/sample-1.jpeg',
+        answerKeySrc: '/samples/finnish/bingo/sample-1-answer.jpeg',
         altText: 'Kuva-bingo pelikortti kuvilla esiopetukseen',
-        pdfDownloadUrl: '/samples/english/bingo/image and image.pdf',
+        pdfDownloadUrl: '/samples/finnish/bingo/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/bingo/image and word.jpeg',
-        answerKeySrc: '/samples/english/bingo/image and word callout.jpeg',
+        worksheetSrc: '/samples/finnish/bingo/sample-2.jpeg',
+        answerKeySrc: '/samples/finnish/bingo/sample-2-answer.jpeg',
         altText: 'Kuva-sana bingo pelikortti lukemaan oppimiseen',
-        pdfDownloadUrl: '/samples/english/bingo/image and word.pdf',
+        pdfDownloadUrl: '/samples/finnish/bingo/sample-2.pdf',
       },
     ],
   },

@@ -1,258 +1,282 @@
+#!/usr/bin/env node
 /**
- * Script to update content files with language-specific sample paths
+ * Update Sample Paths Script v2
  *
- * This script reads each non-English content file, maps it to the corresponding
- * sample folder, and updates the sample paths to use language-specific samples.
+ * Updates all content files to use the new sample-N.jpeg naming convention.
+ * Preserves all SEO metadata (altText, imageTitle, etc.) while updating file paths.
  *
- * EXCEPTION: Coloring and Writing pages keep their English samples.
+ * Usage: node scripts/update-sample-paths.js [--dry-run]
  */
 
 const fs = require('fs');
 const path = require('path');
 
-// Locale code to language folder mapping
-const localeToLanguage = {
-  da: 'danish',
-  nl: 'dutch',
-  fi: 'finnish',
-  fr: 'french',
+const DRY_RUN = process.argv.includes('--dry-run');
+const CONTENT_DIR = path.join(__dirname, '../frontend/content/product-pages');
+
+const localeToFolder = {
+  en: 'english',
   de: 'german',
-  it: 'italian',
-  no: 'norwegian',
-  pt: 'portuguese',
+  fr: 'french',
   es: 'spanish',
-  sv: 'swedish'
+  it: 'italian',
+  pt: 'portuguese',
+  nl: 'dutch',
+  da: 'danish',
+  sv: 'swedish',
+  no: 'norwegian',
+  fi: 'finnish'
 };
 
-// Content file pattern to sample folder name mapping
-const contentFileToSampleFolder = {
+const appIdToFolder = {
   'addition': 'addition',
+  'subtraction': 'subtraction',
+  'math-worksheet': 'math worksheet',
+  'pattern-worksheet': 'pattern worksheet',
+  'wordsearch': 'wordsearch',
+  'word-scramble': 'word scramble',
+  'word-guess': 'word guess',
   'alphabet-train': 'alphabet train',
-  'treno-alfabeto': 'alphabet train',
-  'big-small': 'big small',
+  'prepositions': 'prepositions',
   'bingo': 'bingo',
-  'picture-bingo': 'bingo',
-  'chart-count': 'chart count',
-  'code-addition': 'code addition',
+  'coloring': 'coloring',
+  'sudoku': 'sudoku',
+  'treasure-hunt': 'treasure hunt',
+  'odd-one-out': 'odd one out',
+  'picture-path': 'picture path',
+  'pattern-train': 'pattern train',
   'crossword': 'crossword',
   'cryptogram': 'cryptogram',
   'draw-and-color': 'draw and color',
   'drawing-lines': 'drawing lines',
   'find-and-count': 'find and count',
-  'trova-e-conta': 'find and count',
   'find-objects': 'find objects',
-  'trova-oggetti': 'find objects',
   'grid-match': 'grid match',
   'matching': 'matching',
   'math-puzzle': 'math puzzle',
-  'math-worksheet': 'math worksheet',
-  'math': 'math worksheet',
   'missing-pieces': 'missing pieces',
   'more-less': 'more less',
-  'mehr-weniger': 'more less',
-  'odd-one-out': 'odd one out',
-  'trova-intruso': 'odd one out',
-  'was-passt-nicht': 'odd one out',
-  'pattern-train': 'pattern train',
-  'muster-zug': 'pattern train',
-  'treno-sequenze': 'pattern train',
-  'pattern-worksheet': 'pattern worksheet',
-  'pattern': 'pattern worksheet',
-  'muster-arbeitsblatt': 'pattern worksheet',
-  'picture-path': 'picture path',
-  'bilderpfad': 'picture path',
   'picture-sort': 'picture sort',
-  'bilder-sortieren': 'picture sort',
-  'prepositions': 'prepositions',
-  'praepositionen': 'prepositions',
   'shadow-match': 'shadow match',
-  'schattenbilder-zuordnen': 'shadow match',
-  'subtraction': 'subtraction',
-  'subtraktion': 'subtraction',
-  'sudoku': 'sudoku',
-  'treasure-hunt': 'treasure hunt',
-  'schatzsuche': 'treasure hunt',
-  'word-guess': 'word guess',
-  'woerter-raten': 'word guess',
-  'word-scramble': 'word scramble',
-  'word-search': 'wordsearch',
-  'wordsearch': 'wordsearch',
-  'schreibuebungen': 'SKIP', // Writing - keep English
-  'writing': 'SKIP', // Writing - keep English
-  'coloring': 'SKIP', // Coloring - keep English
+  'writing': 'writing',
+  'big-small': 'big small',
+  'chart-count': 'chart count',
+  'code-addition': 'code addition'
 };
 
-// Apps to skip (keep English samples)
-const skipApps = ['coloring', 'writing', 'schreibuebungen'];
-
-const contentDir = path.join(__dirname, '..', 'frontend', 'content', 'product-pages');
-const samplesDir = path.join(__dirname, '..', 'frontend', 'public', 'samples');
-
-let updatedCount = 0;
-let skippedCount = 0;
-let errorCount = 0;
-
-function extractAppName(fileName) {
-  // Remove .ts extension
-  const baseName = fileName.replace('.ts', '');
-
-  // Try to match known patterns
-  for (const [pattern, sampleFolder] of Object.entries(contentFileToSampleFolder)) {
-    if (baseName.includes(pattern)) {
-      return sampleFolder;
-    }
-  }
-
-  // Fallback: extract the app name from common patterns
-  // e.g., "addition-worksheets" -> "addition"
-  // e.g., "alphabet-train-worksheets" -> "alphabet train"
-  const parts = baseName.split('-');
-
-  // Remove common suffixes like "worksheets", "arbeitsblaetter", "schede", etc.
-  const suffixes = ['worksheets', 'arbeitsblaetter', 'schede', 'fichas', 'werkbladen', 'arbetsblad', 'opgaver', 'oppgaver', 'tehtavat'];
-  const filtered = parts.filter(p => !suffixes.includes(p.toLowerCase()));
-
-  return filtered.join(' ');
-}
-
-function getSampleFiles(language, appFolder) {
-  const folderPath = path.join(samplesDir, language, appFolder);
-
-  if (!fs.existsSync(folderPath)) {
-    return null;
-  }
-
-  const files = fs.readdirSync(folderPath);
-
-  // Filter to get unique worksheet base names (not answer keys)
-  const worksheets = [];
-  const seen = new Set();
-
-  for (const file of files) {
-    if (file.endsWith('.jpeg') && !file.includes('answer_key')) {
-      const baseName = file.replace('.jpeg', '');
-      if (!seen.has(baseName)) {
-        seen.add(baseName);
-        worksheets.push({
-          baseName,
-          worksheetJpeg: file,
-          answerKeyJpeg: `${baseName} answer_key.jpeg`,
-          pdf: `${baseName}.pdf`
-        });
+function getAllContentFiles(dir) {
+  const files = [];
+  try {
+    const entries = fs.readdirSync(dir, { withFileTypes: true });
+    for (const entry of entries) {
+      const fullPath = path.join(dir, entry.name);
+      if (entry.isDirectory()) {
+        files.push(...getAllContentFiles(fullPath));
+      } else if (entry.name.endsWith('.ts')) {
+        files.push(fullPath);
       }
     }
+  } catch (e) {
+    console.error('Error reading directory:', dir, e.message);
   }
-
-  // Sort by number if present
-  worksheets.sort((a, b) => {
-    const numA = parseInt(a.baseName.match(/(\d+)$/)?.[1] || '0');
-    const numB = parseInt(b.baseName.match(/(\d+)$/)?.[1] || '0');
-    return numA - numB;
-  });
-
-  return worksheets;
+  return files;
 }
 
-function updateContentFile(filePath, language, appFolder, worksheets) {
-  let content = fs.readFileSync(filePath, 'utf-8');
+function extractAppIdFromContent(content) {
+  const match = content.match(/appId:\s*['"]([^'"]+)['"]/);
+  return match ? match[1] : null;
+}
 
-  // Build new sample paths
-  const sampleBasePath = `/samples/${language}/${appFolder}`;
+function extractLocaleFromPath(filePath) {
+  const parts = filePath.split(path.sep);
+  const idx = parts.indexOf('product-pages');
+  return (idx >= 0 && parts[idx + 1]) ? parts[idx + 1] : null;
+}
 
-  // Update hero.previewImageSrc - use the first worksheet
-  const firstWorksheet = worksheets[0];
-  const newPreviewSrc = `${sampleBasePath}/${encodeURIComponent(firstWorksheet.worksheetJpeg)}`;
+function hasLegacyPaths(content) {
+  const matches = content.match(/worksheetSrc:\s*['"][^'"]+['"]/g) || [];
+  return matches.some(m => !m.match(/sample-\d+(-answer)?\.jpeg/));
+}
 
-  // Replace previewImageSrc
-  content = content.replace(
-    /previewImageSrc:\s*['"][^'"]+['"]/g,
-    `previewImageSrc: '${newPreviewSrc}'`
+function escapeRegex(str) {
+  return str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
+function updateSamplePaths(content, locale, appId) {
+  const langFolder = localeToFolder[locale];
+  const appFolder = appIdToFolder[appId];
+
+  if (!langFolder || !appFolder) {
+    console.log('  Warning: Unknown locale (' + locale + ') or appId (' + appId + ')');
+    return content;
+  }
+
+  let updated = content;
+  const basePath = '/samples/' + langFolder + '/' + appFolder;
+
+  // Find and update worksheetSrc paths
+  const wsRegex = /worksheetSrc:\s*['"]([^'"]+)['"]/g;
+  let wsMatch;
+  let wsIndex = 0;
+  const wsReplacements = [];
+
+  while ((wsMatch = wsRegex.exec(content)) !== null) {
+    wsIndex++;
+    const oldPath = wsMatch[1];
+    if (!oldPath.match(/sample-\d+\.jpeg$/)) {
+      wsReplacements.push({
+        old: oldPath,
+        new: basePath + '/sample-' + wsIndex + '.jpeg'
+      });
+    }
+  }
+
+  for (const r of wsReplacements) {
+    updated = updated.replace(
+      new RegExp("worksheetSrc:\\s*['\"]" + escapeRegex(r.old) + "['\"]", 'g'),
+      "worksheetSrc: '" + r.new + "'"
+    );
+  }
+
+  // Find and update answerKeySrc paths
+  const asRegex = /answerKeySrc:\s*['"]([^'"]+)['"]/g;
+  let asMatch;
+  let asIndex = 0;
+  const asReplacements = [];
+
+  while ((asMatch = asRegex.exec(updated)) !== null) {
+    asIndex++;
+    const oldPath = asMatch[1];
+    if (oldPath && !oldPath.match(/sample-\d+(-answer)?\.jpeg$/)) {
+      asReplacements.push({
+        old: oldPath,
+        new: basePath + '/sample-' + asIndex + '-answer.jpeg'
+      });
+    }
+  }
+
+  for (const r of asReplacements) {
+    updated = updated.replace(
+      new RegExp("answerKeySrc:\\s*['\"]" + escapeRegex(r.old) + "['\"]", 'g'),
+      "answerKeySrc: '" + r.new + "'"
+    );
+  }
+
+  // Find and update pdfDownloadUrl paths
+  const pdfRegex = /pdfDownloadUrl:\s*['"]([^'"]+\.pdf)['"]/g;
+  let pdfMatch;
+  let pdfIndex = 0;
+  const pdfReplacements = [];
+
+  while ((pdfMatch = pdfRegex.exec(updated)) !== null) {
+    pdfIndex++;
+    const oldPath = pdfMatch[1];
+    if (!oldPath.match(/sample-\d+\.pdf$/)) {
+      pdfReplacements.push({
+        old: oldPath,
+        new: basePath + '/sample-' + pdfIndex + '.pdf'
+      });
+    }
+  }
+
+  for (const r of pdfReplacements) {
+    updated = updated.replace(
+      new RegExp("pdfDownloadUrl:\\s*['\"]" + escapeRegex(r.old) + "['\"]", 'g'),
+      "pdfDownloadUrl: '" + r.new + "'"
+    );
+  }
+
+  // Update hero.previewImageSrc
+  const heroMatch = updated.match(/previewImageSrc:\s*['"]([^'"]+)['"]/);
+  if (heroMatch && !heroMatch[1].match(/sample-\d+\.jpeg$/)) {
+    updated = updated.replace(
+      /previewImageSrc:\s*['"][^'"]+['"]/,
+      "previewImageSrc: '" + basePath + "/sample-1.jpeg'"
+    );
+  }
+
+  // Update seo.images URLs
+  let seoIndex = 0;
+  updated = updated.replace(
+    /url:\s*['"]https:\/\/www\.lessoncraftstudio\.com\/samples\/[^'"]+['"]/g,
+    (match) => {
+      seoIndex++;
+      if (match.match(/sample-\d+\.jpeg/)) return match;
+      return "url: 'https://www.lessoncraftstudio.com/samples/" + langFolder + "/" + appFolder + "/sample-" + seoIndex + ".jpeg'";
+    }
   );
 
-  // Build new items array
-  const items = worksheets.slice(0, 5).map((ws, index) => {
-    return `      {
-        id: '${index + 1}',
-        worksheetSrc: '${sampleBasePath}/${encodeURIComponent(ws.worksheetJpeg)}',
-        answerKeySrc: '${sampleBasePath}/${encodeURIComponent(ws.answerKeyJpeg)}',
-        altText: 'Worksheet sample ${index + 1}',
-        pdfDownloadUrl: '${sampleBasePath}/${encodeURIComponent(ws.pdf)}',
-      }`;
-  });
-
-  const newItemsString = `items: [\n${items.join(',\n')},\n    ]`;
-
-  // Replace items array in samples section
-  // Match from "items: [" to the closing "]," within the samples object
-  const itemsRegex = /items:\s*\[\s*\{[\s\S]*?\}\s*,?\s*\]/;
-  content = content.replace(itemsRegex, newItemsString);
-
-  fs.writeFileSync(filePath, content, 'utf-8');
-  return true;
+  return updated;
 }
 
-function processLocale(locale) {
-  const language = localeToLanguage[locale];
-  if (!language) {
-    console.log(`Unknown locale: ${locale}`);
-    return;
-  }
+function main() {
+  console.log('='.repeat(60));
+  console.log('Sample Path Update Script v2');
+  console.log(DRY_RUN ? '(DRY RUN - no files will be modified)' : '');
+  console.log('='.repeat(60));
+  console.log('');
 
-  const localeDir = path.join(contentDir, locale);
-  if (!fs.existsSync(localeDir)) {
-    console.log(`Locale directory not found: ${localeDir}`);
-    return;
-  }
+  const files = getAllContentFiles(CONTENT_DIR);
+  console.log('Found ' + files.length + ' content files');
+  console.log('');
 
-  const files = fs.readdirSync(localeDir).filter(f => f.endsWith('.ts'));
+  let updatedCount = 0;
+  let skippedCount = 0;
+  let errorCount = 0;
 
-  for (const file of files) {
-    const filePath = path.join(localeDir, file);
-    const appName = extractAppName(file);
-
-    // Check if this app should be skipped
-    if (appName === 'SKIP' || skipApps.some(skip => file.toLowerCase().includes(skip))) {
-      console.log(`  SKIP: ${file} (coloring/writing - keeping English samples)`);
-      skippedCount++;
-      continue;
-    }
-
-    // Get the corresponding sample folder
-    const sampleFolder = appName;
-    const worksheets = getSampleFiles(language, sampleFolder);
-
-    if (!worksheets || worksheets.length === 0) {
-      console.log(`  NO SAMPLES: ${file} -> ${language}/${sampleFolder}`);
-      skippedCount++;
-      continue;
-    }
+  for (const filePath of files) {
+    const relativePath = path.relative(CONTENT_DIR, filePath);
 
     try {
-      updateContentFile(filePath, language, sampleFolder, worksheets);
-      console.log(`  UPDATED: ${file} -> ${language}/${sampleFolder} (${worksheets.length} samples)`);
-      updatedCount++;
-    } catch (err) {
-      console.error(`  ERROR: ${file} - ${err.message}`);
+      const content = fs.readFileSync(filePath, 'utf-8');
+
+      if (!hasLegacyPaths(content)) {
+        skippedCount++;
+        continue;
+      }
+
+      const locale = extractLocaleFromPath(filePath);
+      const appId = extractAppIdFromContent(content);
+
+      if (!locale || !appId) {
+        console.log('Skipping ' + relativePath + ': Could not extract locale/appId');
+        skippedCount++;
+        continue;
+      }
+
+      console.log('Updating: ' + relativePath + ' (locale: ' + locale + ', appId: ' + appId + ')');
+
+      const updatedContent = updateSamplePaths(content, locale, appId);
+
+      if (updatedContent !== content) {
+        if (!DRY_RUN) {
+          fs.writeFileSync(filePath, updatedContent, 'utf-8');
+        }
+        updatedCount++;
+        console.log('  -> Updated sample paths');
+      } else {
+        console.log('  -> No changes needed');
+        skippedCount++;
+      }
+
+    } catch (error) {
+      console.error('Error processing ' + relativePath + ': ' + error.message);
       errorCount++;
     }
   }
+
+  console.log('');
+  console.log('='.repeat(60));
+  console.log('Summary:');
+  console.log('  Updated: ' + updatedCount + ' files');
+  console.log('  Skipped: ' + skippedCount + ' files');
+  console.log('  Errors:  ' + errorCount + ' files');
+  console.log('='.repeat(60));
+
+  if (DRY_RUN && updatedCount > 0) {
+    console.log('');
+    console.log('Run without --dry-run to apply changes');
+  }
 }
 
-console.log('='.repeat(60));
-console.log('Updating content files with language-specific sample paths');
-console.log('='.repeat(60));
-console.log('');
-
-// Process each locale
-for (const locale of Object.keys(localeToLanguage)) {
-  console.log(`\nProcessing locale: ${locale} -> ${localeToLanguage[locale]}`);
-  console.log('-'.repeat(40));
-  processLocale(locale);
-}
-
-console.log('\n' + '='.repeat(60));
-console.log('Summary:');
-console.log(`  Updated: ${updatedCount} files`);
-console.log(`  Skipped: ${skippedCount} files`);
-console.log(`  Errors: ${errorCount} files`);
-console.log('='.repeat(60));
+main();

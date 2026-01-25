@@ -33,7 +33,7 @@ Din Full Tilgang-abonnement gir deg ubegrenset opprettelse av kryptogram-oppgave
 Kryptogram-generatoren vår gjør det enkelt å lage engasjerende oppgavehefter barn elsker. Velg bilder fra vårt bibliotek med 3000+ barnevennlige bilder eller last opp dine egne. Tilpass vanskelighetsgrad ved å velge hvor mange bokstaver som skal vises som hint. Perfekt for leseforståelse og finmotorikk øvelser.
 
 Hver kryptogram-oppgave inkluderer to versjoner. Oppgavearket viser bildekodene som elevene må løse. Fasitarket viser løsningen med alle bokstaver synlige. Ideelt for gratis skoleopgaver i 1. trinn og småskoletrinnet.`,
-    previewImageSrc: '/samples/english/cryptogram/cryptogram_worksheet.jpeg',
+    previewImageSrc: '/samples/norwegian/cryptogram/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Prøv Gratis',
       viewSamples: 'Se Eksempler',
@@ -68,17 +68,17 @@ Hver kryptogram-oppgave inkluderer to versjoner. Oppgavearket viser bildekodene 
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/cryptogram/cryptogram_worksheet.jpeg',
-        answerKeySrc: '/samples/english/cryptogram/cryptogram_answer_key.jpeg',
+        worksheetSrc: '/samples/norwegian/cryptogram/sample-1.jpeg',
+        answerKeySrc: '/samples/norwegian/cryptogram/sample-1-answer.jpeg',
         altText: 'Kryptogram arbeidsark med bildekoder for bokstaver lære skrive på småskoletrinnet',
-        pdfDownloadUrl: '/samples/english/cryptogram/cryptogram_worksheet.pdf',
+        pdfDownloadUrl: '/samples/norwegian/cryptogram/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/cryptogram/cryptogram_worksheet (1).jpeg',
-        answerKeySrc: '/samples/english/cryptogram/cryptogram_answer_key (1).jpeg',
+        worksheetSrc: '/samples/norwegian/cryptogram/sample-2.jpeg',
+        answerKeySrc: '/samples/norwegian/cryptogram/sample-2-answer.jpeg',
         altText: 'Kryptogram oppgave med lesetrening og dekoding for oppgavehefter barn',
-        pdfDownloadUrl: '/samples/english/cryptogram/cryptogram_worksheet (1).pdf',
+        pdfDownloadUrl: '/samples/norwegian/cryptogram/sample-2.pdf',
       },
     ],
   },

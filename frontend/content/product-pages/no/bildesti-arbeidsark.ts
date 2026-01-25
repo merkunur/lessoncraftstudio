@@ -32,7 +32,7 @@ export const bildestiNoContent: ProductPageContent = {
 Bildesti-generatoren har tre ulike spillmoduser. Bildesti-modus lar barna følge stien fra startbilde til sluttbilde. Klassisk Labyrint-modus lager tradisjonelle labyrinter med samleobjekter underveis. Velg Riktig Sti-modus gir en retningsutfordring hvor bare én sti fører til målet. Alle tre modusene kombinerer visuell læring med problemløsning.
 
 Perfekt for å lage finmotorikk øvelser, tall og telling aktiviteter og visuell diskriminering oppgaver. Kombiner med fargeleggingsbilder barn eller matematikk oppgaver for varierte læringspakker. Skriv ut arbeidsark gratis så mange ganger du trenger med Full Tilgang-abonnementet ditt. Alle tre spillmodusene inkluderer automatisk fasitgenerering.`,
-    previewImageSrc: '/samples/english/picture path/picture path.jpeg',
+    previewImageSrc: '/samples/norwegian/picture path/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Prøv Gratis',
       viewSamples: 'Se Eksempler',
@@ -67,24 +67,24 @@ Perfekt for å lage finmotorikk øvelser, tall og telling aktiviteter og visuell
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/picture path/picture path.jpeg',
-        answerKeySrc: '/samples/english/picture path/picture path answer_key.jpeg',
+        worksheetSrc: '/samples/norwegian/picture path/sample-1.jpeg',
+        answerKeySrc: '/samples/norwegian/picture path/sample-1-answer.jpeg',
         altText: 'Bildesti-arbeidsark hvor barn følger bilder fra start til mål',
-        pdfDownloadUrl: '/samples/english/picture path/picture path.pdf',
+        pdfDownloadUrl: '/samples/norwegian/picture path/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/picture path/classic maze.jpeg',
-        answerKeySrc: '/samples/english/picture path/classic maze answer_key.jpeg',
+        worksheetSrc: '/samples/norwegian/picture path/sample-2.jpeg',
+        answerKeySrc: '/samples/norwegian/picture path/sample-2-answer.jpeg',
         altText: 'Klassisk labyrint med samleobjekter spredt gjennom labyrinten',
-        pdfDownloadUrl: '/samples/english/picture path/classic maze.pdf',
+        pdfDownloadUrl: '/samples/norwegian/picture path/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/picture path/right path.jpeg',
-        answerKeySrc: '/samples/english/picture path/right path answer_key.jpeg',
+        worksheetSrc: '/samples/norwegian/picture path/sample-3.jpeg',
+        answerKeySrc: '/samples/norwegian/picture path/sample-3-answer.jpeg',
         altText: 'Velg riktig sti-oppgave hvor bare én vei fører til målet',
-        pdfDownloadUrl: '/samples/english/picture path/right path.pdf',
+        pdfDownloadUrl: '/samples/norwegian/picture path/sample-3.pdf',
       },
     ],
   },

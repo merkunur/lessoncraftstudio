@@ -32,7 +32,7 @@ export const treasureHuntFiContent: ProductPageContent = {
 Aarteenetsintä-tehtävät opettavat suuntasanastoa ja visuaalista tunnistamista. Lapset tunnistavat kuvia ruudukossa ja kuvaavat niiden sijainteja käyttäen suuntakieltä. Valitse kuusi kuvaa teemoista tai lataa omia kuvia. Sovellus luo ruudukon jossa oppilaat harjoittelevat "ylös", "alas", "vasen", "oikea" tai "pohjoinen", "etelä", "itä", "länsi" -sanastoa. Täydellinen esikoululaisille, ensimmäisen luokan ja toisen luokan oppilaille.
 
 Tulostettavat tehtävät lapsille ilmainen suunnittelija tekee aarteenetsintä-tehtävien luomisesta helppoa. Valitse kuusi kuvaa yli 3000 lapsille sopivasta kuvasta. Tai lataa omia kuvia yhdistääksesi luokan aiheisiin. Jokainen tehtävä on täysin muokattavissa canvasilla. Vedä, kierrä, skaalaa tai poista mitä tahansa elementtiä. Lisää tekstielementtejä, vaihda taustoja ja reunuksia. Luo rajattomasti ainutlaatuisia esiopetus materiaali ilmainen tehtäviä.`,
-    previewImageSrc: '/samples/english/treasure hunt/up down.jpeg',
+    previewImageSrc: '/samples/finnish/treasure hunt/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Kokeile Ilmaiseksi',
       viewSamples: 'Katso Esimerkkejä',
@@ -67,17 +67,17 @@ Tulostettavat tehtävät lapsille ilmainen suunnittelija tekee aarteenetsintä-t
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/treasure hunt/up down.jpeg',
-        answerKeySrc: '/samples/english/treasure hunt/up down answer_key.jpeg',
+        worksheetSrc: '/samples/finnish/treasure hunt/sample-1.jpeg',
+        answerKeySrc: '/samples/finnish/treasure hunt/sample-1-answer.jpeg',
         altText: 'Aarteenetsintätehtävä perussuunnilla ylös alas vasen oikea esiopetukseen',
-        pdfDownloadUrl: '/samples/english/treasure hunt/up down.pdf',
+        pdfDownloadUrl: '/samples/finnish/treasure hunt/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/treasure hunt/north south.jpeg',
-        answerKeySrc: '/samples/english/treasure hunt/north south answer_key.jpeg',
+        worksheetSrc: '/samples/finnish/treasure hunt/sample-2.jpeg',
+        answerKeySrc: '/samples/finnish/treasure hunt/sample-2-answer.jpeg',
         altText: 'Aarteenetsintätehtävä ilmansuunnilla pohjoinen etelä itä länsi alakouluun',
-        pdfDownloadUrl: '/samples/english/treasure hunt/north south.pdf',
+        pdfDownloadUrl: '/samples/finnish/treasure hunt/sample-2.pdf',
       },
     ],
   },

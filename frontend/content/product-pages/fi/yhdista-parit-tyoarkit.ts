@@ -32,7 +32,7 @@ MatchUp Maker on helppokäyttöinen generaattori yhdistä parit -tehtäville. Va
 Työkalulla luodut tehtävämonisteet ovat ammattilaistason tulostettavia tehtäviä lapsille. Jokaisessa tehtävämonisteessa voi olla 4, 5 tai 6 paria. Voit muokata kaikkea pohjalla olevaa sisältöä. Voit lisätä omia kuvia. Voit muuttaa fontteja ja värejä. Voit lisätä taustakuvia ja reunuksia. Kaikki elementit ovat muokattavissa vedä ja pudota -toiminnolla.
 
 Peruspaketti-tilaus sisältää kaupallisen lisenssin. Voit myydä luomiasi tehtävämonisteitä Teachers Pay Teachers -palvelussa. Voit myydä niitä Etsy-kaupassa. Voit käyttää niitä Amazon KDP -julkaisuissa. 300 DPI -laatu takaa ammattimaiset tulosteet. Ei vesileimoja. Ei tekijätunnistusta vaadita. Kaikki tulostettavat tehtävät lapsille ovat myyntivalmiita heti latauksen jälkeen.`,
-    previewImageSrc: '/samples/english/matching/matching portrait.jpeg',
+    previewImageSrc: '/samples/finnish/matching/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Kokeile Ilmaiseksi',
       viewSamples: 'Katso Esimerkkejä',
@@ -67,24 +67,24 @@ Peruspaketti-tilaus sisältää kaupallisen lisenssin. Voit myydä luomiasi teht
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/matching/matching portrait.jpeg',
-        answerKeySrc: '/samples/english/matching/matching portrait answer_key.jpeg',
+        worksheetSrc: '/samples/finnish/matching/sample-1.jpeg',
+        answerKeySrc: '/samples/finnish/matching/sample-1-answer.jpeg',
         altText: 'Yhdistä parit tehtävä pystysuunnassa kuva-alkukirjain tilassa esiopetukseen',
-        pdfDownloadUrl: '/samples/english/matching/matching portrait.pdf',
+        pdfDownloadUrl: '/samples/finnish/matching/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/matching/image and word.jpeg',
-        answerKeySrc: '/samples/english/matching/image and word answer_key.jpeg',
+        worksheetSrc: '/samples/finnish/matching/sample-2.jpeg',
+        answerKeySrc: '/samples/finnish/matching/sample-2-answer.jpeg',
         altText: 'Yhdistä parit tehtävä kuva ja sana -tilassa sanaston harjoitteluun',
-        pdfDownloadUrl: '/samples/english/matching/image and word.pdf',
+        pdfDownloadUrl: '/samples/finnish/matching/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/matching/image and custom word.jpeg',
-        answerKeySrc: '/samples/english/matching/image and custom word answer_key.jpeg',
+        worksheetSrc: '/samples/finnish/matching/sample-3.jpeg',
+        answerKeySrc: '/samples/finnish/matching/sample-3-answer.jpeg',
         altText: 'Yhdistä parit tehtävä omilla sanoilla personoitua oppimista varten',
-        pdfDownloadUrl: '/samples/english/matching/image and custom word.pdf',
+        pdfDownloadUrl: '/samples/finnish/matching/sample-3.pdf',
       },
     ],
   },

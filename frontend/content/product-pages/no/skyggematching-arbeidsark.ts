@@ -32,7 +32,7 @@ Skyggematching bygger kritiske visuelle diskrimineringsferdigheter hos unge elev
 Med verktøyet vårt lager du skyggematching arbeidsark tilpasset dine elevers behov. Velg fra vårt 3000+ bildebibliotek. Last opp dine egne bilder for personaliserte oppgaver. Kombiner skyggematching med andre finmotorikk øvelser for komplette læringspakker. Full Tilgang inkluderer alle 33 verktøy for å lage varierte arbeidsark gratis å skrive ut.
 
 Hver skyggematching oppgave kommer med automatisk fasit. Barna øver visuell matching, formmatch og detaljobservasjon. Perfekt for differensiert undervisning på ulike nivåer. Bruk skyggematching arbeidsark i kombinasjon med fargeleggingsbilder barn, matematikk oppgaver og lesetrening for helhetlig utvikling.`,
-    previewImageSrc: '/samples/english/shadow match/shadow-match-worksheet.jpeg',
+    previewImageSrc: '/samples/norwegian/shadow match/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Prøv Gratis',
       viewSamples: 'Se Eksempler',
@@ -67,24 +67,24 @@ Hver skyggematching oppgave kommer med automatisk fasit. Barna øver visuell mat
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/shadow match/shadow-match-worksheet.jpeg',
-        answerKeySrc: '/samples/english/shadow match/shadow-match-answer-key.jpeg',
+        worksheetSrc: '/samples/norwegian/shadow match/sample-1.jpeg',
+        answerKeySrc: '/samples/norwegian/shadow match/sample-1-answer.jpeg',
         altText: 'Skyggematching arbeidsark med fargede bilder og svarte silhuetter for visuell diskriminering øvelser',
-        pdfDownloadUrl: '/samples/english/shadow match/shadow-match-worksheet.pdf',
+        pdfDownloadUrl: '/samples/norwegian/shadow match/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/shadow match/shadow-match-horizontal.jpeg',
-        answerKeySrc: '/samples/english/shadow match/shadow-match-horizontal answer-key.jpeg',
+        worksheetSrc: '/samples/norwegian/shadow match/sample-2.jpeg',
+        answerKeySrc: '/samples/norwegian/shadow match/sample-2-answer.jpeg',
         altText: 'Skyggematching arbeidsark landskapsformat med visuell persepsjon aktiviteter for barnehage',
-        pdfDownloadUrl: '/samples/english/shadow match/shadow-match-horizontal.pdf',
+        pdfDownloadUrl: '/samples/norwegian/shadow match/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/shadow match/shadow-match-vertical.jpeg',
-        answerKeySrc: '/samples/english/shadow match/shadow-match-vertical answer-key.jpeg',
+        worksheetSrc: '/samples/norwegian/shadow match/sample-3.jpeg',
+        answerKeySrc: '/samples/norwegian/shadow match/sample-3-answer.jpeg',
         altText: 'Skyggematching arbeidsark portrettformat med romlig resonnement oppgaver for småskoletrinnet',
-        pdfDownloadUrl: '/samples/english/shadow match/shadow-match-vertical.pdf',
+        pdfDownloadUrl: '/samples/norwegian/shadow match/sample-3.pdf',
       },
     ],
   },

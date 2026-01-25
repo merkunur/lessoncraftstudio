@@ -32,7 +32,7 @@ export const skattejaktNoContent: ProductPageContent = {
 Skattejakt generatoren hjelper lærere med å lage tilpassede arbeidsark gratis for barn. Perfekt for lesetrening og finmotorikk øvelser i småskoletrinnet. Velg 6 bilder fra over 3000 barnevennlige bilder organisert i temaer. Du kan også laste opp dine egne bilder for personlige oppgavehefter barn. Støtter 11 språk inkludert norsk for autentisk språklæring.
 
 Full Tilgang-abonnement koster kr 1 800 per år eller kr 190 per måned. Inkluderer alle 33 verktøy for komplett læremiddelproduksjon. Lag matematikk oppgaver, fargeleggingsbilder barn og bokstaver lære skrive aktiviteter. Kombiner skattejakter med tall og telling for tverrfaglig læring. Eksporter som JPEG eller PDF med profesjonell 300 DPI kvalitet.`,
-    previewImageSrc: '/samples/english/treasure hunt/up down.jpeg',
+    previewImageSrc: '/samples/norwegian/treasure hunt/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Prøv Gratis',
       viewSamples: 'Se Eksempler',
@@ -67,17 +67,17 @@ Full Tilgang-abonnement koster kr 1 800 per år eller kr 190 per måned. Inklude
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/treasure hunt/up down.jpeg',
-        answerKeySrc: '/samples/english/treasure hunt/up down answer_key.jpeg',
+        worksheetSrc: '/samples/norwegian/treasure hunt/sample-1.jpeg',
+        answerKeySrc: '/samples/norwegian/treasure hunt/sample-1-answer.jpeg',
         altText: 'Skattejakt-arbeidsark med opp og ned retningsanvisninger for barn',
-        pdfDownloadUrl: '/samples/english/treasure hunt/up down.pdf',
+        pdfDownloadUrl: '/samples/norwegian/treasure hunt/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/treasure hunt/north south.jpeg',
-        answerKeySrc: '/samples/english/treasure hunt/north south answer_key.jpeg',
+        worksheetSrc: '/samples/norwegian/treasure hunt/sample-2.jpeg',
+        answerKeySrc: '/samples/norwegian/treasure hunt/sample-2-answer.jpeg',
         altText: 'Skattejakt-arbeidsark med nord og sør kompassretninger',
-        pdfDownloadUrl: '/samples/english/treasure hunt/north south.pdf',
+        pdfDownloadUrl: '/samples/norwegian/treasure hunt/sample-2.pdf',
       },
     ],
   },

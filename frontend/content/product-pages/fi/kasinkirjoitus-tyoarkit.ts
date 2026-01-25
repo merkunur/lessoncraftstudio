@@ -32,7 +32,7 @@ Käsinkirjoituksen generaattori auttaa opettajia luomaan personoituja hienomotor
 Täysi Pääsy -tilaus sisältää kaikki 33 tehtävägeneraattoria. Käsinkirjoituksen harjoittelutehtävät täydentävät matematiikka tehtäviä alakouluun ja lukemaan oppiminen tehtäviä. Yhdistä eri tehtävätyypit kokonaisiksi oppimispaketeiksi. Luo esiopetus materiaali ilmaiseksi ilman tehtäväkohtaisia lisämaksuja.
 
 Generaattori toimii 11 kielellä mukaan lukien suomi. Kaikki käyttöliittymän tekstit ja ohjeet suomeksi. Ihanteellinen suomalaisille opettajille ja vanhemmille. Lataa ammattitasoisia 300 DPI -tehtäviä kotitulostimella tulostettavaksi.`,
-    previewImageSrc: '/samples/english/writing/writing.jpeg',
+    previewImageSrc: '/samples/finnish/writing/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Kokeile Ilmaiseksi',
       viewSamples: 'Katso Esimerkkejä',
@@ -67,24 +67,24 @@ Generaattori toimii 11 kielellä mukaan lukien suomi. Kaikki käyttöliittymän 
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/writing/writing.jpeg',
+        worksheetSrc: '/samples/finnish/writing/sample-1.jpeg',
         answerKeySrc: '',
         altText: 'Kirjaimet harjoittelu esikoulu käsinkirjoitustehtävä pystysuuntainen',
-        pdfDownloadUrl: '/samples/english/writing/writing.pdf',
+        pdfDownloadUrl: '/samples/finnish/writing/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/writing/writing custom.jpeg',
+        worksheetSrc: '/samples/finnish/writing/sample-2.jpeg',
         answerKeySrc: '',
         altText: 'Kirjaimet harjoittelu esikoulu mukautettu käsinkirjoitustehtävä',
-        pdfDownloadUrl: '/samples/english/writing/writing custom.pdf',
+        pdfDownloadUrl: '/samples/finnish/writing/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/writing/writing beginning letter.jpeg',
+        worksheetSrc: '/samples/finnish/writing/sample-3.jpeg',
         answerKeySrc: '',
         altText: 'Kirjaimet harjoittelu esikoulu alkukirjaintehtävä',
-        pdfDownloadUrl: '/samples/english/writing/writing beginning letter.pdf',
+        pdfDownloadUrl: '/samples/finnish/writing/sample-3.pdf',
       },
     ],
   },

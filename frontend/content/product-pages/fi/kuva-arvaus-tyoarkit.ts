@@ -32,7 +32,7 @@ export const wordGuessFiContent: ProductPageContent = {
 Kuva-arvaustyökalu auttaa lapsia kehittämään kirjaimien tunnistustaitoja, kielellisiä taitoja ja loogista päättelyä. Jokainen tehtävä sisältää kuvia, joista osa kirjaimista on piilotettu vihjeiksi. Lapset täyttävät puuttuvat kirjaimet ja kirjoittavat koko sanan. Tämä yhdistää kirjainten harjoittelun esikoulussa visuaaliseen oppimiseen luonnollisella tavalla.
 
 Täysi Käyttöoikeus -tilaus sisältää kaikkien 33 tehtävägeneraattorin käytön. Luo kuva-arvaustehtäviä, matematiikka tehtäviä alakouluun, kirjaimien harjoitteluun esikoululle, yhteenlasku ja vähennyslasku tehtäviä sekä kaikki muut tehtävätyypit yhdellä tilauksella. Ei ylimääräisiä maksuja. Ei sivukohtaisia veloituksia. Vain yksi yksinkertainen tilaus kaikille työkaluille.`,
-    previewImageSrc: '/samples/english/word guess/clue-grid_worksheet.jpeg',
+    previewImageSrc: '/samples/finnish/word guess/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Kokeile Ilmaiseksi',
       viewSamples: 'Katso Esimerkkejä',
@@ -67,24 +67,24 @@ Täysi Käyttöoikeus -tilaus sisältää kaikkien 33 tehtävägeneraattorin kä
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/word guess/clue-grid_worksheet.jpeg',
-        answerKeySrc: '/samples/english/word guess/clue-grid_answer-key.jpeg',
+        worksheetSrc: '/samples/finnish/word guess/sample-1.jpeg',
+        answerKeySrc: '/samples/finnish/word guess/sample-1-answer.jpeg',
         altText: 'Kuva-arvaustehtävä vihjeruudukolla esiopetukseen kirjainten tunnistus',
-        pdfDownloadUrl: '/samples/english/word guess/clue-grid_worksheet.pdf',
+        pdfDownloadUrl: '/samples/finnish/word guess/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/word guess/landscape.jpeg',
-        answerKeySrc: '/samples/english/word guess/landscape answer-key.jpeg',
+        worksheetSrc: '/samples/finnish/word guess/sample-2.jpeg',
+        answerKeySrc: '/samples/finnish/word guess/sample-2-answer.jpeg',
         altText: 'Kuva-arvaustehtävä vaakasuuntainen alakoululaisille sanasto',
-        pdfDownloadUrl: '/samples/english/word guess/landscape.pdf',
+        pdfDownloadUrl: '/samples/finnish/word guess/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/word guess/custom word list.jpeg',
-        answerKeySrc: '/samples/english/word guess/custom word list answer-key.jpeg',
+        worksheetSrc: '/samples/finnish/word guess/sample-3.jpeg',
+        answerKeySrc: '/samples/finnish/word guess/sample-3-answer.jpeg',
         altText: 'Kuva-arvaustehtävä mukautetulla sanalistalla personoitu oppiminen',
-        pdfDownloadUrl: '/samples/english/word guess/custom word list.pdf',
+        pdfDownloadUrl: '/samples/finnish/word guess/sample-3.pdf',
       },
     ],
   },

@@ -1445,9 +1445,12 @@ export default function SampleGallery({ locale, dynamicImages = {}, seoData = {}
           </motion.div>
         </motion.div>
 
-        {/* Samples grid */}
+        {/* Samples grid - only show samples with uploaded homepage thumbnails */}
+        {/* Filter to prevent 404 errors from non-existent fallback image paths */}
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 sm:gap-6">
-          {samples.map((sample, index) => (
+          {samples
+            .filter(sample => dynamicImages[getAppSlug(sample.productPageSlug)] !== undefined)
+            .map((sample, index) => (
             <motion.div
               key={sample.id}
               initial={{ opacity: 0, y: 30 }}

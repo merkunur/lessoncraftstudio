@@ -7,8 +7,9 @@ export const revalidate = 1800; // 30 minutes ISR
 export const dynamic = 'force-dynamic';
 
 // Base path for samples (filesystem scanning)
+// Production uses isolated /var/www/lcs-media/samples - COMPLETELY SEPARATE from code repository
 const SAMPLES_BASE = process.env.NODE_ENV === 'production'
-  ? '/opt/lessoncraftstudio/samples'
+  ? '/var/www/lcs-media/samples'
   : path.join(process.cwd(), 'public', 'samples');
 
 // Type for SEO metadata from database

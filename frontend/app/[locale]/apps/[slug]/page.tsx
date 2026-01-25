@@ -5,6 +5,8 @@ import ProductPageClient from '@/components/product-page/ProductPageClient';
 import { getContentBySlug, getAllStaticParams, getAlternateLanguageUrls } from '@/config/product-page-content';
 import { generateAppProductSchemas, generateAllProductPageSchemas, AppProductData, ogLocaleMap, localeToLanguageFolder } from '@/lib/schema-generator';
 import { getSampleSeoMetadataMap, SampleSeoMetadata } from '@/lib/sample-seo';
+import * as fs from 'fs/promises';
+import * as path from 'path';
 import additionEnContent from '@/content/product-pages/en/addition-worksheets';
 import wordSearchEnContent from '@/content/product-pages/en/word-search-worksheets';
 import alphabetTrainEnContent from '@/content/product-pages/en/alphabet-train-worksheets';
@@ -262,6 +264,146 @@ import shadowMatchFiContent from '@/content/product-pages/fi/varjoyhdistely-tyoa
 import subtractionFiContent from '@/content/product-pages/fi/vahennyslasku-tyoarkit';
 import writingFiContent from '@/content/product-pages/fi/kasinkirjoitus-tyoarkit';
 
+// Base path for samples (filesystem scanning for SEO schemas)
+// Production uses isolated /var/www/lcs-media/samples - COMPLETELY SEPARATE from code repository
+const SAMPLES_BASE = process.env.NODE_ENV === 'production'
+  ? '/var/www/lcs-media/samples'
+  : path.join(process.cwd(), 'public', 'samples');
+
+// Map appId from slug to folder name in /samples/
+const appIdToSamplesFolder: Record<string, string> = {
+  'word-search': 'wordsearch',
+  'addition': 'addition',
+  'alphabet-train': 'alphabet train',
+  'coloring': 'coloring',
+  'math': 'math worksheet',
+  'word-scramble': 'word scramble',
+  'find-and-count': 'find and count',
+  'matching': 'matching',
+  'drawing-lines': 'drawing lines',
+  'picture-bingo': 'bingo',
+  'sudoku': 'sudoku',
+  'big-small': 'big small',
+  'chart-count': 'chart count',
+  'code-addition': 'code addition',
+  'draw-and-color': 'draw and color',
+  'find-objects': 'find objects',
+  'grid-match': 'grid match',
+  'crossword': 'crossword',
+  'cryptogram': 'cryptogram',
+  'math-puzzle': 'math puzzle',
+  'missing-pieces': 'missing pieces',
+  'more-less': 'more less',
+  'odd-one-out': 'odd one out',
+  'pattern-train': 'pattern train',
+  'pattern': 'pattern worksheet',
+  'picture-path': 'picture path',
+  'picture-sort': 'picture sort',
+  'prepositions': 'prepositions',
+  'shadow-match': 'shadow match',
+  'subtraction': 'subtraction',
+  'treasure-hunt': 'treasure hunt',
+  'word-guess': 'word guess',
+  'writing': 'writing',
+};
+
+// Discovered sample interface for SchemaScripts
+interface DiscoveredSample {
+  filename: string;
+  worksheetSrc: string;
+  answerKeySrc?: string;
+}
+
+/**
+ * Check if a filename is an answer key (case-insensitive)
+ */
+function isAnswerKey(filename: string): boolean {
+  return /answer/i.test(filename);
+}
+
+/**
+ * Get base name without extension
+ */
+function getBaseName(filename: string): string {
+  const lastDot = filename.lastIndexOf('.');
+  return lastDot === -1 ? filename : filename.substring(0, lastDot);
+}
+
+/**
+ * Find matching answer key for a worksheet
+ */
+function findAnswerKeyForWorksheet(worksheetFilename: string, answerKeyFiles: string[]): string | undefined {
+  const wsBase = getBaseName(worksheetFilename).toLowerCase();
+
+  // sample-N → sample-N-answer
+  const sampleMatch = wsBase.match(/^sample-(\d+)$/);
+  if (sampleMatch) {
+    const num = sampleMatch[1];
+    const exact = answerKeyFiles.find(f => getBaseName(f).toLowerCase() === `sample-${num}-answer`);
+    if (exact) return exact;
+  }
+
+  // Direct variations
+  const variations = [
+    `${wsBase} answer key`,
+    `${wsBase}_answer_key`,
+    `${wsBase}-answer`,
+    `${wsBase}_answer`,
+  ];
+
+  for (const variation of variations) {
+    const match = answerKeyFiles.find(f => getBaseName(f).toLowerCase() === variation);
+    if (match) return match;
+  }
+
+  return undefined;
+}
+
+/**
+ * Discover sample files from filesystem for a given app and locale
+ * Used for generating ImageObject schemas
+ */
+async function discoverSamplesFromFilesystem(
+  appId: string,
+  locale: string
+): Promise<DiscoveredSample[]> {
+  const languageFolder = localeToLanguageFolder[locale] || 'english';
+  const samplesFolder = appIdToSamplesFolder[appId];
+
+  if (!samplesFolder) {
+    return [];
+  }
+
+  const dir = path.join(SAMPLES_BASE, languageFolder, samplesFolder);
+
+  let files: string[];
+  try {
+    files = await fs.readdir(dir);
+  } catch {
+    // Directory doesn't exist
+    return [];
+  }
+
+  // Get JPEG files
+  const jpegFiles = files.filter(f => /\.(jpeg|jpg)$/i.test(f));
+  const worksheetFiles = jpegFiles.filter(f => !isAnswerKey(f));
+  const answerKeyFiles = jpegFiles.filter(f => isAnswerKey(f));
+
+  // Sort worksheets alphabetically
+  worksheetFiles.sort((a, b) => a.localeCompare(b, undefined, { numeric: true }));
+
+  const basePath = `/samples/${languageFolder}/${samplesFolder}`;
+
+  return worksheetFiles.map(wsFile => {
+    const answerFile = findAnswerKeyForWorksheet(wsFile, answerKeyFiles);
+    return {
+      filename: wsFile,
+      worksheetSrc: `${basePath}/${wsFile}`,
+      answerKeySrc: answerFile ? `${basePath}/${answerFile}` : undefined,
+    };
+  });
+}
+
 interface PageProps {
   params: {
     locale: string;
@@ -280,13 +422,15 @@ function SchemaScripts({
   locale,
   slug,
   content,
-  sampleSeoMap
+  sampleSeoMap,
+  discoveredSamples
 }: {
   appData: AppProductData;
   locale: string;
   slug: string;
   content?: any;
   sampleSeoMap?: Map<string, SampleSeoMetadata>;
+  discoveredSamples?: DiscoveredSample[];
 }) {
   const baseUrl = 'https://www.lessoncraftstudio.com';
   const pageUrl = `${baseUrl}/${locale}/apps/${slug}`;
@@ -309,16 +453,22 @@ function SchemaScripts({
   } : undefined;
 
   // Prepare sample images for ImageObject schema
-  // Enhanced: Merge database SEO metadata with static content for better search visibility
+  // Enhanced: Use discovered samples from filesystem when content.samples.items is empty
+  // This ensures ImageObject schemas are generated even when static content has empty arrays
   const languageFolder = localeToLanguageFolder[locale] || 'english';
-  const sampleImages = content?.samples?.items?.map((sample: any) => {
+
+  // Determine sample source: prefer content items if available, otherwise use discovered samples
+  const contentSamples = content?.samples?.items || [];
+  const samplesSource = contentSamples.length > 0 ? contentSamples : discoveredSamples || [];
+
+  const sampleImages = samplesSource.map((sample: any, index: number) => {
     // Extract filename from worksheetSrc path to look up database SEO
     const pathParts = sample.worksheetSrc?.split('/') || [];
-    const filename = pathParts[pathParts.length - 1];
+    const filename = pathParts[pathParts.length - 1] || sample.filename;
     const dbMeta = sampleSeoMap?.get(filename);
 
-    // Use database SEO values if available, fall back to static content
-    const name = dbMeta?.title || sample.imageTitle || sample.altText?.split(' - ')[0] || `${appData.name} Sample`;
+    // Use database SEO values if available, fall back to static content or generate defaults
+    const name = dbMeta?.title || sample.imageTitle || sample.altText?.split(' - ')[0] || `${appData.name} Worksheet ${index + 1}`;
     const description = dbMeta?.altText || sample.altText || `Sample worksheet for ${appData.name}`;
     const caption = dbMeta?.description || `Free printable ${appData.name.toLowerCase()} for educational use`;
 
@@ -332,7 +482,7 @@ function SchemaScripts({
       height: 3508,
       grade: dbMeta?.grade || undefined,
     };
-  }) || [];
+  });
 
   // Gallery name for ImageGallery schema
   const galleryName = content?.samples?.sectionTitle;
@@ -3482,9 +3632,13 @@ export default async function AppPage({ params: { locale, slug } }: PageProps) {
     const appId = content.seo?.appId || slug.replace(/-worksheets$/, '');
     const sampleSeoMap = await getSampleSeoMetadataMap(appId, locale);
 
+    // Discover samples from filesystem for ImageObject schemas
+    // This ensures schemas are generated even when content.samples.items is empty (most content files)
+    const discoveredSamples = await discoverSamplesFromFilesystem(appId, locale);
+
     return (
       <>
-        <SchemaScripts appData={schemaAppData} locale={locale} slug={slug} content={content} sampleSeoMap={sampleSeoMap} />
+        <SchemaScripts appData={schemaAppData} locale={locale} slug={slug} content={content} sampleSeoMap={sampleSeoMap} discoveredSamples={discoveredSamples} />
         <ProductPageClient locale={locale} content={content} slug={slug} />
       </>
     );

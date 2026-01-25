@@ -72,19 +72,20 @@ echo "📥 Pulling latest code from repository..."
 git pull
 
 # ============================================
-# SYMLINK PROTECTION - AFTER GIT PULL
+# SYMLINK PROTECTION - KEEP REMOVED DURING BUILD
 # ============================================
-# Recreate the symlink after git pull
-echo "🔗 Recreating samples symlink..."
-ln -sfn /opt/lessoncraftstudio/samples frontend/public/samples
-echo "   Symlink restored: frontend/public/samples -> /opt/lessoncraftstudio/samples"
+# DO NOT recreate the symlink yet!
+# Next.js build follows symlinks and can delete the target files.
+# We will create the symlink ONLY in standalone/public after build.
+echo "   Symlink will be created in standalone/public after build"
 
 # 2. Navigate to frontend
 cd frontend
 
-# 3. Build the application
+# 3. Build the application (WITHOUT the samples symlink to protect them)
 echo ""
 echo "🔨 Building Next.js application..."
+echo "   (samples symlink removed to prevent Next.js from touching them)"
 npm run build
 
 # 4. CRITICAL: Copy static files to standalone directory
@@ -98,6 +99,10 @@ cp -r public .next/standalone/public
 
 echo "   → Creating samples symlink in standalone/public"
 ln -sfn /opt/lessoncraftstudio/samples .next/standalone/public/samples
+
+# Recreate symlink in frontend/public for future local development
+echo "   → Recreating samples symlink in frontend/public"
+ln -sfn /opt/lessoncraftstudio/samples public/samples
 
 # 5. Restart PM2 application
 echo ""

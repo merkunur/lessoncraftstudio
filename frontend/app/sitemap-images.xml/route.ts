@@ -1,7 +1,16 @@
 import { productPageSlugs } from '@/config/product-page-slugs';
 import { contentRegistry } from '@/config/product-page-content';
+import { prisma } from '@/lib/prisma';
 
 export const revalidate = 1800; // 30 minutes ISR
+export const dynamic = 'force-dynamic';
+
+// Type for SEO metadata from database
+interface SampleSeoMeta {
+  altText?: string | null;
+  title?: string | null;
+  description?: string | null;
+}
 
 function escapeXml(str: string): string {
   return str
@@ -14,6 +23,33 @@ function escapeXml(str: string): string {
 
 export async function GET() {
   const baseUrl = process.env.NEXT_PUBLIC_APP_URL || 'https://www.lessoncraftstudio.com';
+
+  // Fetch SEO metadata from database
+  const seoMetaMap = new Map<string, SampleSeoMeta>();
+  try {
+    const samples = await prisma.productSample.findMany({
+      select: {
+        appId: true,
+        locale: true,
+        filename: true,
+        altText: true,
+        title: true,
+        description: true,
+      }
+    });
+
+    for (const sample of samples) {
+      // Key format: appId:locale:filename
+      const key = `${sample.appId}:${sample.locale}:${sample.filename}`;
+      seoMetaMap.set(key, {
+        altText: sample.altText,
+        title: sample.title,
+        description: sample.description,
+      });
+    }
+  } catch (error) {
+    console.warn('[IMAGE-SITEMAP] Could not fetch SEO metadata from database, using defaults');
+  }
 
   let urls = '';
 
@@ -36,8 +72,16 @@ export async function GET() {
             // Worksheet image
             if (item.worksheetSrc) {
               const wsUrl = `${baseUrl}${item.worksheetSrc.replace(/ /g, '%20')}`;
-              const wsTitle = item.imageTitle || item.altText?.split(' - ')[0] || '';
-              const wsCaption = item.altText || '';
+
+              // Try to get SEO metadata from database first
+              // Extract filename from worksheetSrc (e.g., /samples/english/addition/sample-1.jpeg -> sample-1.jpeg)
+              const wsFilename = item.worksheetSrc.split('/').pop() || '';
+              const seoKey = `${app.appId}:${locale}:${wsFilename}`;
+              const seoMeta = seoMetaMap.get(seoKey);
+
+              // Use database metadata if available, otherwise fall back to content registry
+              const wsTitle = seoMeta?.title || item.imageTitle || item.altText?.split(' - ')[0] || '';
+              const wsCaption = seoMeta?.description || seoMeta?.altText || item.altText || '';
 
               lines.push(`    <image:image>`);
               lines.push(`      <image:loc>${escapeXml(wsUrl)}</image:loc>`);
@@ -49,12 +93,20 @@ export async function GET() {
             // Answer key image
             if (item.answerKeySrc && item.answerKeySrc !== item.worksheetSrc) {
               const akUrl = `${baseUrl}${item.answerKeySrc.replace(/ /g, '%20')}`;
-              const akTitle = item.imageTitle
+
+              // Extract filename for answer key
+              const akFilename = item.answerKeySrc.split('/').pop() || '';
+              const akSeoKey = `${app.appId}:${locale}:${akFilename}`;
+              const akSeoMeta = seoMetaMap.get(akSeoKey);
+
+              const akTitle = akSeoMeta?.title
+                ? `${akSeoMeta.title} - Answer Key`
+                : item.imageTitle
                 ? `${item.imageTitle} - Answer Key`
                 : 'Answer Key';
-              const akCaption = item.altText
+              const akCaption = akSeoMeta?.description || akSeoMeta?.altText || (item.altText
                 ? `Answer key for ${item.altText.split(' - ')[0] || 'worksheet'}`
-                : 'Answer key';
+                : 'Answer key');
 
               lines.push(`    <image:image>`);
               lines.push(`      <image:loc>${escapeXml(akUrl)}</image:loc>`);

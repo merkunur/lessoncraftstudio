@@ -17,41 +17,41 @@ const localeToFolder: Record<string, string> = {
   fi: 'finnish',
 };
 
-// Valid app IDs (33 apps) - mapped to their server folder names
+// Valid app IDs (33 apps) - mapped to their server folder names (use spaces, not hyphens)
 const appIdToFolder: Record<string, string> = {
   'addition': 'addition',
   'subtraction': 'subtraction',
-  'math-worksheet': 'math',
-  'pattern-worksheet': 'pattern',
+  'math-worksheet': 'math worksheet',
+  'pattern-worksheet': 'pattern worksheet',
   'wordsearch': 'wordsearch',
-  'word-scramble': 'word-scramble',
-  'word-guess': 'word-guess',
-  'alphabet-train': 'alphabet-train',
+  'word-scramble': 'word scramble',
+  'word-guess': 'word guess',
+  'alphabet-train': 'alphabet train',
   'prepositions': 'prepositions',
   'bingo': 'bingo',
   'coloring': 'coloring',
   'sudoku': 'sudoku',
-  'treasure-hunt': 'treasure-hunt',
-  'odd-one-out': 'odd-one-out',
-  'picture-path': 'picture-path',
-  'pattern-train': 'pattern-train',
+  'treasure-hunt': 'treasure hunt',
+  'odd-one-out': 'odd one out',
+  'picture-path': 'picture path',
+  'pattern-train': 'pattern train',
   'crossword': 'crossword',
   'cryptogram': 'cryptogram',
-  'draw-and-color': 'draw-and-color',
-  'drawing-lines': 'drawing-lines',
-  'find-and-count': 'find-and-count',
-  'find-objects': 'find-objects',
-  'grid-match': 'grid-match',
+  'draw-and-color': 'draw and color',
+  'drawing-lines': 'drawing lines',
+  'find-and-count': 'find and count',
+  'find-objects': 'find objects',
+  'grid-match': 'grid match',
   'matching': 'matching',
-  'math-puzzle': 'math-puzzle',
-  'missing-pieces': 'missing-pieces',
-  'more-less': 'more-less',
-  'picture-sort': 'picture-sort',
-  'shadow-match': 'shadow-match',
+  'math-puzzle': 'math puzzle',
+  'missing-pieces': 'missing pieces',
+  'more-less': 'more less',
+  'picture-sort': 'picture sort',
+  'shadow-match': 'shadow match',
   'writing': 'writing',
-  'big-small': 'big-small',
-  'chart-count': 'chart-count',
-  'code-addition': 'code-addition',
+  'big-small': 'big small',
+  'chart-count': 'chart count',
+  'code-addition': 'code addition',
 };
 
 // Base path for samples - production uses /opt/lessoncraftstudio/samples
@@ -59,8 +59,9 @@ const SAMPLES_BASE = process.env.NODE_ENV === 'production'
   ? '/opt/lessoncraftstudio/samples'
   : path.join(process.cwd(), 'public', 'samples');
 
-// Valid slot numbers
-const VALID_SLOTS = [1, 2, 3, 4, 5];
+// Valid slot numbers (1-99 to support unlimited samples)
+const MIN_SLOT = 1;
+const MAX_SLOT = 99;
 
 // Valid delete types
 const VALID_DELETE_TYPES = ['worksheet', 'answer', 'pdf', 'all'];
@@ -191,10 +192,10 @@ export async function POST(request: NextRequest): Promise<NextResponse> {
     }
 
     const slotNum = parseInt(slot, 10);
-    if (isNaN(slotNum) || !VALID_SLOTS.includes(slotNum)) {
+    if (isNaN(slotNum) || slotNum < MIN_SLOT || slotNum > MAX_SLOT) {
       return NextResponse.json({
         success: false,
-        error: `Invalid slot. Must be one of: ${VALID_SLOTS.join(', ')}`
+        error: `Invalid slot. Must be between ${MIN_SLOT} and ${MAX_SLOT}`
       }, { status: 400 });
     }
 
@@ -268,7 +269,7 @@ export async function GET(): Promise<NextResponse> {
         bodyFields: {
           locale: `Locale code: ${Object.keys(localeToFolder).join(', ')}`,
           appId: `App identifier: ${Object.keys(appIdToFolder).slice(0, 5).join(', ')}... (${Object.keys(appIdToFolder).length} total)`,
-          slot: `Slot number: ${VALID_SLOTS.join(', ')}`,
+          slot: `Slot number: ${MIN_SLOT}-${MAX_SLOT}`,
           deleteType: `${VALID_DELETE_TYPES.join(', ')}`,
           createBackups: 'Set to false to permanently delete (default: true - moves to .deleted.timestamp)'
         }
@@ -276,7 +277,7 @@ export async function GET(): Promise<NextResponse> {
     },
     validLocales: Object.keys(localeToFolder),
     validAppIds: Object.keys(appIdToFolder),
-    validSlots: VALID_SLOTS,
+    validSlots: { min: MIN_SLOT, max: MAX_SLOT },
     validDeleteTypes: VALID_DELETE_TYPES
   });
 }

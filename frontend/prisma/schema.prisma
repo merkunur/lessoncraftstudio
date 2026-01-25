@@ -318,6 +318,37 @@ model SampleWorksheet {
   @@map("sample_worksheets")
 }
 
+// Product page sample with SEO metadata
+model ProductSample {
+  id            String   @id @default(cuid())
+  appId         String   @map("app_id")      // e.g., "addition", "word-scramble"
+  locale        String                        // e.g., "en", "de", "fr"
+  filename      String                        // e.g., "sample-1.jpeg"
+
+  // SEO Fields
+  altText       String?  @map("alt_text")     // e.g., "Free printable addition worksheet for grade 1"
+  title         String?                       // e.g., "Addition Practice - Single Digit"
+  description   String?  @db.Text             // Longer description for schema.org
+  keywords      String[] @default([])         // Related keywords
+  grade         String?                       // Target grade level: "Pre-K", "K", "1", "2", etc.
+  subject       String?                       // Math, Language, etc. (auto-populated from app)
+
+  // File info
+  fileSize      Int?     @map("file_size")    // In bytes
+  dimensions    String?                       // e.g., "2480x3508"
+
+  // Metadata
+  sortOrder     Int      @default(0) @map("sort_order")
+  createdAt     DateTime @default(now()) @map("created_at")
+  updatedAt     DateTime @updatedAt @map("updated_at")
+
+  @@unique([appId, locale, filename])
+  @@index([appId, locale])
+  @@index([appId])
+  @@index([locale])
+  @@map("product_samples")
+}
+
 // ==========================================
 // IMAGE LIBRARY & CONTENT MANAGEMENT
 // ==========================================

@@ -11,6 +11,7 @@ import {
   PasswordResetEmail,
   WelcomeEmail,
   SubscriptionUpgradeEmail,
+  SubscriptionCancelledEmail,
   PaymentReceiptEmail,
   FailedPaymentEmail,
   RefundConfirmationEmail,
@@ -629,6 +630,65 @@ export async function sendServiceSuspendedEmail(params: {
       html,
     },
     { priority: "critical", immediate: true }
+  );
+}
+
+/**
+ * Send subscription cancelled confirmation email
+ */
+export async function sendSubscriptionCancelledEmail(params: {
+  email: string;
+  firstName: string;
+  plan: string;
+  cancelDate: string;
+  accessEndsDate: string;
+  language?: string;
+}): Promise<void> {
+  const {
+    email,
+    firstName,
+    plan,
+    cancelDate,
+    accessEndsDate,
+    language = "en",
+  } = params;
+
+  const reactivateUrl = `${process.env.NEXT_PUBLIC_APP_URL}/dashboard/billing`;
+
+  const subjects: Record<string, string> = {
+    en: "Subscription Cancelled - LessonCraftStudio",
+    de: "Abonnement gekündigt - LessonCraftStudio",
+    fr: "Abonnement annulé - LessonCraftStudio",
+    es: "Suscripción cancelada - LessonCraftStudio",
+    sv: "Prenumeration avslutad - LessonCraftStudio",
+    it: "Abbonamento cancellato - LessonCraftStudio",
+    pt: "Assinatura cancelada - LessonCraftStudio",
+    nl: "Abonnement geannuleerd - LessonCraftStudio",
+    da: "Abonnement annulleret - LessonCraftStudio",
+    no: "Abonnement kansellert - LessonCraftStudio",
+    fi: "Tilaus peruutettu - LessonCraftStudio",
+  };
+
+  const subject = subjects[language] || subjects.en;
+
+  const html = await render(
+    SubscriptionCancelledEmail({
+      firstName,
+      plan,
+      cancelDate,
+      accessEndsDate,
+      reactivateUrl,
+      language,
+    })
+  );
+
+  await sendEmail(
+    {
+      to: email,
+      subject,
+      html,
+    },
+    { priority: "high" }
   );
 }
 

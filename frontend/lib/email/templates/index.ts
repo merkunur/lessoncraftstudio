@@ -11,3 +11,4 @@ export { SubscriptionUpgradeEmail } from './subscription-upgrade-email';
 export { PaymentReceiptEmail } from './payment-receipt-email';
 export { FailedPaymentEmail } from './failed-payment-email';
 export { RefundConfirmationEmail } from './refund-confirmation-email';
+export { SubscriptionCancelledEmail } from './subscription-cancelled-email';

@@ -7,7 +7,9 @@ import Stripe from 'stripe';
 import {
   sendSubscriptionUpgradeEmail,
   sendPaymentReceiptEmail,
-  sendFailedPaymentEmail
+  sendPaymentFailedEmail,
+  sendPaymentReminderEmail,
+  sendServiceSuspendedEmail
 } from '@/lib/email';
 
 export const dynamic = 'force-dynamic';
@@ -46,8 +48,31 @@ export async function POST(request: NextRequest) {
 
     console.log(`📨 Processing webhook event: ${event.type}`);
 
-    // Handle the event
-    switch (event.type) {
+    // Idempotency check - prevent duplicate processing
+    const existingEvent = await prisma.webhookEvent.findUnique({
+      where: { stripeEventId: event.id },
+    });
+
+    if (existingEvent) {
+      console.log(`⚠️ Duplicate webhook event detected: ${event.id}`);
+      return NextResponse.json({ received: true, duplicate: true });
+    }
+
+    // Log event before processing
+    await prisma.webhookEvent.create({
+      data: {
+        stripeEventId: event.id,
+        eventType: event.type,
+        status: 'processing',
+        payload: event.data.object as any,
+      },
+    });
+
+    let processingError: string | null = null;
+
+    try {
+      // Handle the event
+      switch (event.type) {
       case STRIPE_WEBHOOK_EVENTS.CHECKOUT_COMPLETED: {
         console.log('🛒 Handling checkout.session.completed');
         const session = event.data.object as Stripe.Checkout.Session;
@@ -81,8 +106,27 @@ export async function POST(request: NextRequest) {
         break;
       }
 
-      default:
-        console.log(`Unhandled event type: ${event.type}`);
+        default:
+          console.log(`Unhandled event type: ${event.type}`);
+      }
+    } catch (eventError) {
+      processingError = eventError instanceof Error ? eventError.message : 'Unknown error';
+      console.error('Event processing error:', eventError);
+    }
+
+    // Update webhook event status
+    await prisma.webhookEvent.update({
+      where: { stripeEventId: event.id },
+      data: {
+        status: processingError ? 'failed' : 'processed',
+        errorMessage: processingError,
+      },
+    });
+
+    if (processingError) {
+      // Still return 200 to prevent Stripe from retrying
+      // The error is logged for investigation
+      return NextResponse.json({ received: true, error: processingError });
     }
 
     return NextResponse.json({ received: true });
@@ -172,12 +216,18 @@ async function handleSubscriptionDeleted(subscription: Stripe.Subscription) {
     return;
   }
 
+  // Check if this was due to non-payment (status was unpaid or past_due)
+  const wasDueToNonPayment = subscription.status === 'unpaid' || subscription.status === 'past_due';
+
   // Update user subscription status
   await prisma.user.update({
     where: { id: user.id },
     data: {
       subscriptionStatus: 'cancelled',
       subscriptionTier: 'free',
+      // If suspended due to non-payment, record the suspension
+      accountSuspendedAt: wasDueToNonPayment ? new Date() : undefined,
+      gracePeriodEndsAt: null,
     },
   });
 
@@ -193,17 +243,46 @@ async function handleSubscriptionDeleted(subscription: Stripe.Subscription) {
     },
   });
 
+  // Mark any pending payment failures as failed
+  await prisma.paymentFailure.updateMany({
+    where: {
+      userId: user.id,
+      status: { in: ['pending', 'retrying'] },
+    },
+    data: {
+      status: 'failed',
+    },
+  });
+
   // Create activity log
   await prisma.activityLog.create({
     data: {
       userId: user.id,
-      action: 'subscription_cancelled',
-      details: 'Subscription cancelled',
+      action: wasDueToNonPayment ? 'subscription_suspended_nonpayment' : 'subscription_cancelled',
+      details: wasDueToNonPayment ? 'Subscription suspended due to non-payment' : 'Subscription cancelled',
       metadata: {
         subscriptionId: subscription.id,
+        reason: wasDueToNonPayment ? 'non_payment' : 'user_cancelled',
       },
     },
   });
+
+  // Send service suspended email if due to non-payment
+  if (wasDueToNonPayment) {
+    console.log(`📧 Sending service suspended email to ${user.email}`);
+    const updatePaymentUrl = `${process.env.NEXT_PUBLIC_APP_URL}/dashboard/billing`;
+
+    sendServiceSuspendedEmail({
+      email: user.email,
+      firstName: user.firstName || '',
+      suspensionDate: new Date().toLocaleDateString(),
+      dataRetentionDays: 30, // Data retained for 30 days
+      updatePaymentUrl,
+      language: user.language || 'en',
+    }).catch(error => {
+      console.error('❌ Failed to send service suspended email:', error);
+    });
+  }
 }
 
 // Handle successful invoice payment
@@ -291,7 +370,7 @@ async function handleInvoicePaid(invoice: Stripe.Invoice) {
   }
 }
 
-// Handle failed invoice payment
+// Handle failed invoice payment with enhanced dunning logic
 async function handleInvoicePaymentFailed(invoice: Stripe.Invoice) {
   const user = await prisma.user.findFirst({
     where: { stripeCustomerId: invoice.customer as string },
@@ -306,17 +385,20 @@ async function handleInvoicePaymentFailed(invoice: Stripe.Invoice) {
   const invoicePaymentIntent = ((invoice as any).payment_intent as string | null);
   const invoiceCharge = ((invoice as any).charge as string | null);
   const paymentId = invoicePaymentIntent || invoiceCharge || invoice.id;
+  const failureReason = (invoice as any).last_payment_error?.message || 'Payment declined';
+  const failureCode = (invoice as any).last_payment_error?.code || 'card_declined';
 
   // Prepare payment data
   const paymentData = {
     userId: user.id,
     stripePaymentIntentId: paymentId,
     stripeInvoiceId: invoice.id,
-    stripePaymentId: invoiceCharge || undefined, // Store charge ID separately if available
+    stripePaymentId: invoiceCharge || undefined,
     amount: invoice.amount_due / 100,
     currency: invoice.currency,
     status: 'failed',
     description: 'Subscription payment failed',
+    failureReason,
   };
 
   // Record failed payment (upsert for idempotency)
@@ -329,9 +411,69 @@ async function handleInvoicePaymentFailed(invoice: Stripe.Invoice) {
       amount: paymentData.amount,
       stripeInvoiceId: paymentData.stripeInvoiceId,
       stripePaymentId: paymentData.stripePaymentId,
+      failureReason: paymentData.failureReason,
     },
     create: paymentData,
   });
+
+  // Track payment failure for dunning
+  const existingFailure = await prisma.paymentFailure.findFirst({
+    where: {
+      userId: user.id,
+      stripeInvoiceId: invoice.id,
+      status: { in: ['pending', 'retrying'] },
+    },
+    orderBy: { createdAt: 'desc' },
+  });
+
+  const retryCount = (existingFailure?.retryCount || 0) + 1;
+  const GRACE_PERIOD_DAYS = 14;
+  const now = new Date();
+
+  // Calculate next retry date (Stripe typically retries every 3-5 days)
+  const nextRetryDate = new Date(now);
+  nextRetryDate.setDate(nextRetryDate.getDate() + 3);
+
+  if (existingFailure) {
+    // Update existing failure record
+    await prisma.paymentFailure.update({
+      where: { id: existingFailure.id },
+      data: {
+        retryCount,
+        lastRetryAt: now,
+        nextRetryAt: nextRetryDate,
+        failureCode,
+        failureMessage: failureReason,
+        status: 'retrying',
+      },
+    });
+  } else {
+    // Create new failure record
+    await prisma.paymentFailure.create({
+      data: {
+        userId: user.id,
+        stripeInvoiceId: invoice.id,
+        stripePaymentIntentId: invoicePaymentIntent ?? undefined,
+        failureCode,
+        failureMessage: failureReason,
+        amount: invoice.amount_due / 100,
+        currency: invoice.currency,
+        retryCount: 1,
+        lastRetryAt: now,
+        nextRetryAt: nextRetryDate,
+        status: 'pending',
+      },
+    });
+
+    // Set grace period on first failure
+    const gracePeriodEndsAt = new Date(now);
+    gracePeriodEndsAt.setDate(gracePeriodEndsAt.getDate() + GRACE_PERIOD_DAYS);
+
+    await prisma.user.update({
+      where: { id: user.id },
+      data: { gracePeriodEndsAt },
+    });
+  }
 
   // Create notification
   await prisma.notification.create({
@@ -339,7 +481,7 @@ async function handleInvoicePaymentFailed(invoice: Stripe.Invoice) {
       userId: user.id,
       type: 'payment_failed',
       title: 'Payment Failed',
-      message: 'Your subscription payment failed. Please update your payment method.',
+      message: `Your subscription payment failed. Please update your payment method. Attempt ${retryCount}.`,
       priority: 'high',
     },
   });
@@ -349,36 +491,58 @@ async function handleInvoicePaymentFailed(invoice: Stripe.Invoice) {
     data: {
       userId: user.id,
       action: 'payment_failed',
-      details: `Payment failed: ${invoice.currency.toUpperCase()} ${(invoice.amount_due / 100).toFixed(2)}`,
+      details: `Payment failed (attempt ${retryCount}): ${invoice.currency.toUpperCase()} ${(invoice.amount_due / 100).toFixed(2)}`,
       metadata: {
         amount: invoice.amount_due / 100,
         currency: invoice.currency,
         invoiceId: invoice.id,
+        retryCount,
+        failureCode,
       },
     },
   });
 
-  // Send failed payment notification email
+  // Send appropriate dunning email based on retry count
   const subscription = await prisma.subscription.findUnique({
     where: { userId: user.id },
   });
 
   if (subscription) {
-    console.log(`📧 Sending failed payment notification email to ${user.email}`);
     const updatePaymentUrl = `${process.env.NEXT_PUBLIC_APP_URL}/dashboard/billing`;
 
-    sendFailedPaymentEmail({
-      email: user.email,
-      firstName: user.firstName || '',
-      amount: invoice.amount_due / 100,
-      currency: invoice.currency,
-      plan: subscription.planName,
-      failureReason: (invoice as any).last_payment_error?.message || 'Payment declined',
-      updatePaymentUrl,
-      language: user.language || 'en',
-    }).catch(error => {
-      console.error('❌ Failed to send payment failed email:', error);
-    });
+    if (retryCount === 1) {
+      // First failure - send initial failed payment email
+      console.log(`📧 Sending first payment failed email to ${user.email}`);
+      sendPaymentFailedEmail({
+        email: user.email,
+        firstName: user.firstName || '',
+        amount: invoice.amount_due / 100,
+        currency: invoice.currency,
+        failureReason,
+        updatePaymentUrl,
+        nextRetryDate: nextRetryDate.toLocaleDateString(),
+        language: user.language || 'en',
+      }).catch(error => {
+        console.error('❌ Failed to send payment failed email:', error);
+      });
+    } else {
+      // Subsequent failures - send escalating reminder with days countdown
+      const daysUntilSuspension = Math.max(0, GRACE_PERIOD_DAYS - (retryCount * 3));
+      console.log(`📧 Sending payment reminder email (attempt ${retryCount}) to ${user.email}, ${daysUntilSuspension} days until suspension`);
+
+      sendPaymentReminderEmail({
+        email: user.email,
+        firstName: user.firstName || '',
+        amount: invoice.amount_due / 100,
+        currency: invoice.currency,
+        failureReason,
+        updatePaymentUrl,
+        daysUntilSuspension,
+        language: user.language || 'en',
+      }).catch(error => {
+        console.error('❌ Failed to send payment reminder email:', error);
+      });
+    }
   }
 }
 

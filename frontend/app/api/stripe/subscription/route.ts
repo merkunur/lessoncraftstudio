@@ -149,9 +149,28 @@ export async function DELETE(request: NextRequest) {
       },
     });
 
+    // Send cancellation confirmation email
+    const { sendSubscriptionCancelledEmail } = await import('@/lib/email');
+    const accessEndsDate = new Date((cancelledSubscription as any).current_period_end * 1000);
+    const tierFromPlan = subscription.planName.split('_')[0].toUpperCase();
+
+    try {
+      await sendSubscriptionCancelledEmail({
+        email: user.email,
+        firstName: user.firstName || 'there',
+        plan: tierFromPlan,
+        cancelDate: new Date().toLocaleDateString(),
+        accessEndsDate: accessEndsDate.toLocaleDateString(),
+        language: user.language || 'en',
+      });
+    } catch (emailError) {
+      console.error('Failed to send cancellation email:', emailError);
+      // Don't fail the request if email fails
+    }
+
     return NextResponse.json({
       message: 'Subscription will be cancelled at the end of the billing period',
-      cancelAt: new Date((cancelledSubscription as any).current_period_end * 1000),
+      cancelAt: accessEndsDate,
     });
   } catch (error) {
     console.error('Cancel subscription error:', error);

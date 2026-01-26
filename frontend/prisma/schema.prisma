@@ -284,6 +284,22 @@ model PaymentFailure {
   @@map("payment_failures")
 }
 
+model WebhookEvent {
+  id            String   @id @default(cuid())
+  stripeEventId String   @unique @map("stripe_event_id")
+  eventType     String   @map("event_type")
+  processedAt   DateTime @default(now()) @map("processed_at")
+  status        String   @default("processing") // "processing", "processed", "failed"
+  errorMessage  String?  @map("error_message") @db.Text
+  payload       Json?
+
+  @@index([stripeEventId])
+  @@index([eventType])
+  @@index([status])
+  @@index([processedAt])
+  @@map("webhook_events")
+}
+
 // ==========================================
 // WORKSHEET SAMPLES
 // ==========================================

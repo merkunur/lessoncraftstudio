@@ -49,6 +49,18 @@ Nuestro generador hace que crear fichas para imprimir sea increíblemente fácil
       action: 'Crear y Descargar',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Mira cómo funciona',
+        modalTitle: 'Vista rápida de funciones',
+      },
+      appSpecific: {
+        videoId: '_dDQegRq9JQ',
+        buttonText: 'Funciones Tren del Alfabeto',
+        modalTitle: 'Tutorial Tren del Alfabeto',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/alphabet train/

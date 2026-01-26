@@ -38,6 +38,18 @@ The Alphabet Train worksheet maker transforms alphabet learning into an exciting
       images: '3000+ Images',
       license: 'Commercial License',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'See How It Works',
+        modalTitle: 'Quick Feature Overview',
+      },
+      appSpecific: {
+        videoId: '_dDQegRq9JQ',
+        buttonText: 'Alphabet Train Features',
+        modalTitle: 'Alphabet Train Tutorial',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/alphabet-train/

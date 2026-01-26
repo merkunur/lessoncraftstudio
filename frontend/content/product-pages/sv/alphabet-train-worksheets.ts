@@ -47,6 +47,18 @@ Vår alfabettåg-generator skapar målarbilder barn älskar. Varje gratis arbets
       action: 'Skapa & Ladda Ner',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Se hur det fungerar',
+        modalTitle: 'Funktionsöversikt',
+      },
+      appSpecific: {
+        videoId: '_dDQegRq9JQ',
+        buttonText: 'Alfabettåg-funktioner',
+        modalTitle: 'Alfabettåg-handledning',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/swedish/alphabet-train/

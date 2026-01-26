@@ -49,6 +49,18 @@ Chaque fiche alphabet présente un modèle de train coloré avec onze wagons. Le
       action: 'Créer & Télécharger',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Découvrir en vidéo',
+        modalTitle: 'Aperçu des fonctionnalités',
+      },
+      appSpecific: {
+        videoId: '_dDQegRq9JQ',
+        buttonText: 'Fonctions Train Alphabet',
+        modalTitle: 'Tutoriel Train Alphabet',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/alphabet train/

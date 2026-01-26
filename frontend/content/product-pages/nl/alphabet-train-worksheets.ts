@@ -59,6 +59,18 @@ Deze werkbladen generator biedt meer dan 3000 kindvriendelijke afbeeldingen. Kie
       action: 'Maken & Downloaden',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Bekijk hoe het werkt',
+        modalTitle: 'Overzicht van functies',
+      },
+      appSpecific: {
+        videoId: '_dDQegRq9JQ',
+        buttonText: 'Alfabet Trein Functies',
+        modalTitle: 'Alfabet Trein Tutorial',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/alphabet train/

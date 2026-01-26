@@ -6,9 +6,11 @@ import {
   validateImageFile,
   generateUniqueFilename,
   saveFile,
+  optimizeImage,
 } from '@/lib/upload';
 
 // POST /api/admin/blog/upload-image - Upload blog featured image
+// Images are saved to ISOLATED STORAGE (/var/www/lcs-media/blog/) to survive deployments
 export async function POST(request: NextRequest) {
   const adminCheck = await requireAdmin(request);
   if (adminCheck instanceof NextResponse) {
@@ -36,14 +38,20 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    // Save image
+    // Convert to WebP for better performance (smaller files, faster loading)
     const imageBuffer = Buffer.from(await imageFile.arrayBuffer());
-    const imageFilename = generateUniqueFilename(imageFile.name);
-    const imagePath = await saveFile(imageBuffer, imageFilename, 'blog', type);
+    const optimized = await optimizeImage(imageBuffer, imageFile.type, 1200, 800);
+
+    // Generate filename with .webp extension
+    const baseFilename = generateUniqueFilename(imageFile.name);
+    const webpFilename = baseFilename.replace(/\.[^.]+$/, '.webp');
+
+    // Save to isolated storage (survives deployments)
+    const imagePath = await saveFile(optimized.buffer, webpFilename, 'blog', type);
 
     return NextResponse.json({
       path: imagePath,
-      filename: imageFilename,
+      filename: webpFilename,
     });
   } catch (error) {
     console.error('Failed to upload image:', error);

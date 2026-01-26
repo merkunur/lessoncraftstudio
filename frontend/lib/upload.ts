@@ -17,8 +17,16 @@ function getSourceRoot(): string {
 
 const SOURCE_ROOT = getSourceRoot();
 
+// ISOLATED STORAGE for blog content (protected from deployments)
+// On production server: /var/www/lcs-media/blog/
+// On local dev: use public folder
+const BLOG_ISOLATED_STORAGE = process.env.NODE_ENV === 'production'
+  ? '/var/www/lcs-media/blog'
+  : path.join(SOURCE_ROOT, 'public', 'blog');
+
 // Storage paths - always use source directory
 // Pattern: Main images use /images/{theme}, special types use /images/{type}/{theme}
+// Blog content uses ISOLATED STORAGE to survive deployments
 export const STORAGE_PATHS = {
   images: path.join(SOURCE_ROOT, 'public', 'images'),
   borders: path.join(SOURCE_ROOT, 'public', 'images', 'borders'),
@@ -26,9 +34,9 @@ export const STORAGE_PATHS = {
   trainTemplates: path.join(SOURCE_ROOT, 'public', 'images', 'train-templates'),
   worksheetTemplates: path.join(SOURCE_ROOT, 'public', 'images', 'worksheet-templates'),
   worksheetSamples: path.join(SOURCE_ROOT, 'public', 'worksheet-samples'),
-  blog: path.join(SOURCE_ROOT, 'public', 'blog', 'images'),
-  blogPdfs: path.join(SOURCE_ROOT, 'public', 'blog', 'pdfs'),
-  blogThumbnails: path.join(SOURCE_ROOT, 'public', 'blog', 'thumbnails'),
+  blog: path.join(BLOG_ISOLATED_STORAGE, 'images'),
+  blogPdfs: path.join(BLOG_ISOLATED_STORAGE, 'pdfs'),
+  blogThumbnails: path.join(BLOG_ISOLATED_STORAGE, 'thumbnails'),
 };
 
 // Ensure all storage directories exist

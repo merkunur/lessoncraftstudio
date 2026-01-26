@@ -49,6 +49,18 @@ Las fichas infantil generadas incluyen clave de respuestas automática. Los maes
       action: 'Crear y Descargar',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Mira cómo funciona',
+        modalTitle: 'Vista rápida de funciones',
+      },
+      appSpecific: {
+        videoId: '5A4aHvcC5u4',
+        buttonText: 'Funciones Tren de Patrones',
+        modalTitle: 'Tutorial Tren de Patrones',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/pattern train/

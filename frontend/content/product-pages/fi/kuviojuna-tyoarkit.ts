@@ -51,6 +51,18 @@ Jokaisessa tehtävässä on selkeät esimerkit ja vastausavain. Voit mukauttaa v
       action: 'Luo & Lataa',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Katso miten se toimii',
+        modalTitle: 'Toimintojen yleiskatsaus',
+      },
+      appSpecific: {
+        videoId: '5A4aHvcC5u4',
+        buttonText: 'Kuviojuna Toiminnot',
+        modalTitle: 'Kuviojuna Opas',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/pattern train/

@@ -51,6 +51,18 @@ Full Tillgång-prenumerationen inkluderar kommersiell print-on-demand-licens. S�
       action: 'Skapa & Ladda Ner',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Se hur det fungerar',
+        modalTitle: 'Funktionsöversikt',
+      },
+      appSpecific: {
+        videoId: '5A4aHvcC5u4',
+        buttonText: 'Mönsterståg Funktioner',
+        modalTitle: 'Mönsterståg Guide',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/pattern train/

@@ -61,6 +61,18 @@ Dieses Lernwerkzeug verbindet Mustererkennung mit praktischem Basteln. Die ferti
       action: 'Erstellen & Herunterladen',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'So einfach geht\'s',
+        modalTitle: 'Funktionen im Überblick',
+      },
+      appSpecific: {
+        videoId: '5A4aHvcC5u4',
+        buttonText: 'Muster-Zug Funktionen',
+        modalTitle: 'Muster-Zug Anleitung',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/german/pattern-train/

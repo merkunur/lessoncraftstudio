@@ -47,6 +47,18 @@ Insegnanti della scuola dell'infanzia e della scuola primaria utilizzano il nost
       action: 'Crea e Scarica',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Guarda come funziona',
+        modalTitle: 'Panoramica delle funzioni',
+      },
+      appSpecific: {
+        videoId: '5A4aHvcC5u4',
+        buttonText: 'Funzioni Trenino delle sequenze',
+        modalTitle: 'Tutorial Trenino delle sequenze',
+      },
+    },
   },
 
   // Sample Gallery - Italian samples

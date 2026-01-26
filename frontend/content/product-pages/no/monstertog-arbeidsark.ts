@@ -51,6 +51,18 @@ Vår mønstergenerator inkluderer fasit for alle arbeidsark. Lærere på småsko
       action: 'Enkelt å bruke',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Se hvordan det fungerer',
+        modalTitle: 'Funksjonsoversikt',
+      },
+      appSpecific: {
+        videoId: '5A4aHvcC5u4',
+        buttonText: 'Mønstertog Funksjoner',
+        modalTitle: 'Mønstertog Veiledning',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/pattern train/

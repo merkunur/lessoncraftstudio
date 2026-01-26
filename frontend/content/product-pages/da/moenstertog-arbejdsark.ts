@@ -51,6 +51,18 @@ Lærer og forældre finder mønstertog arbejdsark ideelle til børn der lærer b
       action: 'Nemt at bruge',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Se hvordan det virker',
+        modalTitle: 'Funktionsoversigt',
+      },
+      appSpecific: {
+        videoId: '5A4aHvcC5u4',
+        buttonText: 'Mønstertog Funktioner',
+        modalTitle: 'Mønstertog Vejledning',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/danish/pattern-train/

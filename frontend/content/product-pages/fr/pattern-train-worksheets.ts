@@ -49,6 +49,18 @@ Les enseignants gagnent du temps précieux. Créer des fiches maternelle de suit
       action: 'Créer & Télécharger',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Découvrir en vidéo',
+        modalTitle: 'Aperçu des fonctionnalités',
+      },
+      appSpecific: {
+        videoId: '5A4aHvcC5u4',
+        buttonText: 'Fonctions Train Suites Logiques',
+        modalTitle: 'Tutoriel Train Suites Logiques',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/pattern train/

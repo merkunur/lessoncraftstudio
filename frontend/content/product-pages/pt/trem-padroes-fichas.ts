@@ -57,6 +57,18 @@ Este gerador oferece 5 tipos de padrões diferentes para atividades grátis. Voc
       action: 'Crie e Baixe',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Veja como funciona',
+        modalTitle: 'Visão geral das funções',
+      },
+      appSpecific: {
+        videoId: '5A4aHvcC5u4',
+        buttonText: 'Funções Trenzinho de Sequências',
+        modalTitle: 'Tutorial Trenzinho de Sequências',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/portuguese/pattern-train/

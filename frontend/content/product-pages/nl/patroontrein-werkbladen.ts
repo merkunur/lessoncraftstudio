@@ -59,6 +59,18 @@ Werkbladen groep 3 vereisen vaak meer uitdagende patronen dan werkblad voor kleu
       action: 'Maken & Downloaden',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Bekijk hoe het werkt',
+        modalTitle: 'Overzicht van functies',
+      },
+      appSpecific: {
+        videoId: '5A4aHvcC5u4',
+        buttonText: 'Patronentrein Functies',
+        modalTitle: 'Patronentrein Handleiding',
+      },
+    },
   },
 
   // Sample Gallery

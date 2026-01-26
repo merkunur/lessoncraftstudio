@@ -59,6 +59,18 @@ Unser Mathe-Rätsel Generator erstellt individuelle Arbeitsblätter für die 1. 
       action: 'Erstellen & Herunterladen',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'So einfach geht\'s',
+        modalTitle: 'Funktionen im Überblick',
+      },
+      appSpecific: {
+        videoId: 'n5QO39Lq5l8',
+        buttonText: 'Mathe-Rätsel Funktionen',
+        modalTitle: 'Mathe-Rätsel Anleitung',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/math puzzle/

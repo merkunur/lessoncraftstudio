@@ -54,6 +54,18 @@ Generaattori tukee esiopetuksesta 3. luokkaan. Valitse vaikeustaso säätämäll
       action: 'Luo & Lataa',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Katso miten se toimii',
+        modalTitle: 'Toimintojen yleiskatsaus',
+      },
+      appSpecific: {
+        videoId: 'n5QO39Lq5l8',
+        buttonText: 'Matematiikkapulmat Toiminnot',
+        modalTitle: 'Matematiikkapulmat Opas',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/math puzzle/

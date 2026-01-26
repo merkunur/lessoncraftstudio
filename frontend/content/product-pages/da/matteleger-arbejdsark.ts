@@ -47,6 +47,18 @@ Fuld Adgang-abonnementet inkluderer kommerciel licens til print-on-demand. Sælg
       action: 'Nemt at bruge',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Se hvordan det virker',
+        modalTitle: 'Funktionsoversigt',
+      },
+      appSpecific: {
+        videoId: 'n5QO39Lq5l8',
+        buttonText: 'Matteleger Funktioner',
+        modalTitle: 'Matteleger Vejledning',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/danish/math-puzzle/

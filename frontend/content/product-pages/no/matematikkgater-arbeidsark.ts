@@ -50,6 +50,18 @@ Alle arbeidsark kan tilpasses fullstendig etter generering. Dra, roter, skaler o
       action: 'Enkelt å bruke',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Se hvordan det fungerer',
+        modalTitle: 'Funksjonsoversikt',
+      },
+      appSpecific: {
+        videoId: 'n5QO39Lq5l8',
+        buttonText: 'Matematikkgåter Funksjoner',
+        modalTitle: 'Matematikkgåter Veiledning',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/math puzzle/

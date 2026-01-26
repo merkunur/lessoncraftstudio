@@ -49,6 +49,18 @@ Las fichas de matemáticas con rompecabezas funcionan excepcionalmente bien para
       action: 'Crear y Descargar',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Mira cómo funciona',
+        modalTitle: 'Vista rápida de funciones',
+      },
+      appSpecific: {
+        videoId: 'n5QO39Lq5l8',
+        buttonText: 'Funciones Rompecabezas Matemáticos',
+        modalTitle: 'Tutorial Rompecabezas Matemáticos',
+      },
+    },
   },
 
   // Sample Gallery

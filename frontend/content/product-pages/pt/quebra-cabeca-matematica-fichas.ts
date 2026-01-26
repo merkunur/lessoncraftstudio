@@ -49,6 +49,18 @@ O formato de grade permite configurar de 2x2 até 4x4 peças. Escolha operaçõe
       action: 'Crie e Baixe',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Veja como funciona',
+        modalTitle: 'Visão geral das funções',
+      },
+      appSpecific: {
+        videoId: 'n5QO39Lq5l8',
+        buttonText: 'Funções Quebra-Cabeça',
+        modalTitle: 'Tutorial Quebra-Cabeça',
+      },
+    },
   },
 
   // Sample Gallery

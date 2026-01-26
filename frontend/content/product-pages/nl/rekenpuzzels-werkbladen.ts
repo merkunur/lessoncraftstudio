@@ -61,6 +61,18 @@ Kies puzzelroosters van 2×2 tot 4×4. Selecteer optellen subtractie of beide be
       action: 'Maken & Downloaden',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Bekijk hoe het werkt',
+        modalTitle: 'Overzicht van functies',
+      },
+      appSpecific: {
+        videoId: 'n5QO39Lq5l8',
+        buttonText: 'Rekenpuzzels Functies',
+        modalTitle: 'Rekenpuzzels Handleiding',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/dutch/math-puzzle/

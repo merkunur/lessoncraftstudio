@@ -47,6 +47,18 @@ Förskoleklass material behöver vara både pedagogiskt och engagerande. Våra m
       action: 'Skapa & Ladda Ner',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Se hur det fungerar',
+        modalTitle: 'Funktionsöversikt',
+      },
+      appSpecific: {
+        videoId: 'n5QO39Lq5l8',
+        buttonText: 'Mattepussel Funktioner',
+        modalTitle: 'Mattepussel Guide',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/swedish/math-puzzle/

@@ -48,6 +48,18 @@ Le générateur crée des puzzles mathématiques avec 1 à 6 exercices par page.
       action: 'Créer & Télécharger',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Découvrir en vidéo',
+        modalTitle: 'Aperçu des fonctionnalités',
+      },
+      appSpecific: {
+        videoId: 'n5QO39Lq5l8',
+        buttonText: 'Fonctions Puzzle Maths',
+        modalTitle: 'Tutoriel Puzzle Maths',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/math puzzle/

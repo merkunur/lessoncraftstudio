@@ -51,6 +51,18 @@ L'abbonamento Accesso Completo costa 240 euro all'anno o 25 euro al mese. Includ
       action: 'Crea e Scarica',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Guarda come funziona',
+        modalTitle: 'Panoramica delle funzioni',
+      },
+      appSpecific: {
+        videoId: 'n5QO39Lq5l8',
+        buttonText: 'Funzioni Puzzle Matematici',
+        modalTitle: 'Tutorial Puzzle Matematici',
+      },
+    },
   },
 
   // Sample Gallery

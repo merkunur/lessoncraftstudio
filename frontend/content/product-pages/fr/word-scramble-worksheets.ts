@@ -47,6 +47,18 @@ Notre générateur propose 11 langues. L'interface et le contenu s'adaptent à v
       action: 'Créer & Télécharger',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Découvrir en vidéo',
+        modalTitle: 'Aperçu des fonctionnalités',
+      },
+      appSpecific: {
+        videoId: 'Hc3g5VsSHEU',
+        buttonText: 'Fonctions Mots mélangés',
+        modalTitle: 'Tutoriel Mots mélangés',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/word scramble/

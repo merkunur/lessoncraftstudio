@@ -49,6 +49,18 @@ El generador soporta 11 idiomas completos. Cuando seleccionas español en la int
       action: 'Crear y Descargar',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Mira cómo funciona',
+        modalTitle: 'Vista rápida de funciones',
+      },
+      appSpecific: {
+        videoId: 'Hc3g5VsSHEU',
+        buttonText: 'Funciones Palabras revueltas',
+        modalTitle: 'Tutorial Palabras revueltas',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/word scramble/

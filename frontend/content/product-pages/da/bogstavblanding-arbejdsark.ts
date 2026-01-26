@@ -47,6 +47,18 @@ Opret bogstavblanding arbejdsark på dansk, tysk, fransk, spansk, italiensk, por
       action: 'Nemt at bruge',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Se hvordan det virker',
+        modalTitle: 'Funktionsoversigt',
+      },
+      appSpecific: {
+        videoId: 'Hc3g5VsSHEU',
+        buttonText: 'Ordmiks Funktioner',
+        modalTitle: 'Ordmiks Vejledning',
+      },
+    },
   },
 
   // Sample Gallery

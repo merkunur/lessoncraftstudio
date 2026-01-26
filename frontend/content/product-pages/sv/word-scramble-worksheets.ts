@@ -47,6 +47,18 @@ Generatorn skapar vackra arbetsblad för barn med professionell 300 DPI-kvalitet
       action: 'Skapa & Ladda Ner',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Se hur det fungerar',
+        modalTitle: 'Funktionsöversikt',
+      },
+      appSpecific: {
+        videoId: 'Hc3g5VsSHEU',
+        buttonText: 'Ordmix Funktioner',
+        modalTitle: 'Ordmix Guide',
+      },
+    },
   },
 
   // Sample Gallery - Swedish sample paths

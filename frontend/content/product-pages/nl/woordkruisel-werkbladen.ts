@@ -59,6 +59,18 @@ Bij een woordkruisel zien kinderen een afbeelding met daaronder de letters van h
       action: 'Maken & Downloaden',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Bekijk hoe het werkt',
+        modalTitle: 'Overzicht van functies',
+      },
+      appSpecific: {
+        videoId: 'Hc3g5VsSHEU',
+        buttonText: 'Woordmix Functies',
+        modalTitle: 'Woordmix Handleiding',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/dutch/word-scramble/

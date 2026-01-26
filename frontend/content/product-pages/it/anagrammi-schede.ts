@@ -49,6 +49,18 @@ Perfetto per insegnanti della scuola primaria, genitori homeschool ed educatori 
       action: 'Crea e Scarica',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Guarda come funziona',
+        modalTitle: 'Panoramica delle funzioni',
+      },
+      appSpecific: {
+        videoId: 'Hc3g5VsSHEU',
+        buttonText: 'Funzioni Parole scramble',
+        modalTitle: 'Tutorial Parole scramble',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/word scramble/

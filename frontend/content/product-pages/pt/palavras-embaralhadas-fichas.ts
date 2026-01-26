@@ -47,6 +47,18 @@ O gerador de atividades para imprimir oferece personalização completa para ate
       action: 'Crie e Baixe',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Veja como funciona',
+        modalTitle: 'Visão geral das funções',
+      },
+      appSpecific: {
+        videoId: 'Hc3g5VsSHEU',
+        buttonText: 'Funções Palavras embaralhadas',
+        modalTitle: 'Tutorial Palavras embaralhadas',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/portuguese/word-scramble/

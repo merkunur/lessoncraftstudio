@@ -44,6 +44,18 @@ Every worksheet downloads as a 300 DPI professional-quality PDF or JPEG file. In
       images: '3000+ Images',
       license: 'Commercial License',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'See How It Works',
+        modalTitle: 'Quick Feature Overview',
+      },
+      appSpecific: {
+        videoId: 'Hc3g5VsSHEU',
+        buttonText: 'Word Scramble Features',
+        modalTitle: 'Word Scramble Tutorial',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/word-scramble/

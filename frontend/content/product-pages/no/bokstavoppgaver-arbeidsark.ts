@@ -49,6 +49,18 @@ Bokstavoppgavene kan tilpasses fullstendig for alle aldersnivåer. Juster vanske
       action: 'Enkelt å bruke',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Se hvordan det fungerer',
+        modalTitle: 'Funksjonsoversikt',
+      },
+      appSpecific: {
+        videoId: 'Hc3g5VsSHEU',
+        buttonText: 'Ordmiks Funksjoner',
+        modalTitle: 'Ordmiks Veiledning',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/norwegian/word-scramble/

@@ -49,6 +49,18 @@ Opettajat käyttävät tätä työkalua kirjainharjoitteluun esikoulussa. Vanhem
       action: 'Luo & Lataa',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Katso miten se toimii',
+        modalTitle: 'Toimintojen yleiskatsaus',
+      },
+      appSpecific: {
+        videoId: 'Hc3g5VsSHEU',
+        buttonText: 'Sanapulmapeli Toiminnot',
+        modalTitle: 'Sanapulmapeli Opas',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/word scramble/

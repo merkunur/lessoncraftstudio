@@ -61,6 +61,18 @@ Lehrer nutzen unseren Generator für Rechtschreibübungen, Wortschatzerweiterung
       action: 'Erstellen & Herunterladen',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'So einfach geht\'s',
+        modalTitle: 'Funktionen im Überblick',
+      },
+      appSpecific: {
+        videoId: 'Hc3g5VsSHEU',
+        buttonText: 'Buchstabensalat Funktionen',
+        modalTitle: 'Buchstabensalat Anleitung',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/german/word-scramble/

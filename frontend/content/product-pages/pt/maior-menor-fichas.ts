@@ -49,6 +49,18 @@ Crianças da educação infantil aprendem melhor com recursos visuais. Este gera
       action: 'Crie e Baixe',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Veja como funciona',
+        modalTitle: 'Visão geral das funções',
+      },
+      appSpecific: {
+        videoId: 'eNguG63nYVs',
+        buttonText: 'Funções Mais ou Menos',
+        modalTitle: 'Tutorial Mais ou Menos',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/portuguese/more-less/

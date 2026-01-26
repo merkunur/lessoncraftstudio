@@ -47,6 +47,18 @@ Täysi Käyttöoikeus -tilaus antaa sinulle pääsyn kaikkiin 33 tehtävägenera
       action: 'Luo & Lataa',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Katso miten se toimii',
+        modalTitle: 'Toimintojen yleiskatsaus',
+      },
+      appSpecific: {
+        videoId: 'eNguG63nYVs',
+        buttonText: 'Enemmän vai Vähemmän Toiminnot',
+        modalTitle: 'Enemmän vai Vähemmän Opas',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/more less/

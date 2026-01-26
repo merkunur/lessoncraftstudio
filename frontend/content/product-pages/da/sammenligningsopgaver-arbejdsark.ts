@@ -51,6 +51,18 @@ Med Fuld Adgang-abonnement får du adgang til alle 33 opgavegeneratorer. Kombine
       action: 'Nemt at bruge',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Se hvordan det virker',
+        modalTitle: 'Funktionsoversigt',
+      },
+      appSpecific: {
+        videoId: 'eNguG63nYVs',
+        buttonText: 'Mere eller Mindre Funktioner',
+        modalTitle: 'Mere eller Mindre Vejledning',
+      },
+    },
   },
 
   // Sample Gallery - Danish samples from samples/danish/more-less/

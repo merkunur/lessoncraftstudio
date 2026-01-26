@@ -51,6 +51,18 @@ Gli insegnanti della scuola dell'infanzia apprezzano la flessibilità del genera
       action: 'Crea e Scarica',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Guarda come funziona',
+        modalTitle: 'Panoramica delle funzioni',
+      },
+      appSpecific: {
+        videoId: 'eNguG63nYVs',
+        buttonText: 'Funzioni Di Più o Di Meno',
+        modalTitle: 'Tutorial Di Più o Di Meno',
+      },
+    },
   },
 
   // Sample Gallery

@@ -53,6 +53,18 @@ Genera de 1 a 8 ejercicios por hoja según las necesidades de tu clase. Elige en
       action: 'Crear y Descargar',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Mira cómo funciona',
+        modalTitle: 'Vista rápida de funciones',
+      },
+      appSpecific: {
+        videoId: 'eNguG63nYVs',
+        buttonText: 'Funciones Mayor o Menor',
+        modalTitle: 'Tutorial Mayor o Menor',
+      },
+    },
   },
 
   // Sample Gallery

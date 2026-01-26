@@ -49,6 +49,18 @@ Full Tilgang-abonnementet inkluderer alle 33 arbeidsarkgeneratorer. Lag addisjon
       action: 'Enkelt å bruke',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Se hvordan det fungerer',
+        modalTitle: 'Funksjonsoversikt',
+      },
+      appSpecific: {
+        videoId: 'eNguG63nYVs',
+        buttonText: 'Mer Mindre Funksjoner',
+        modalTitle: 'Mer Mindre Veiledning',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/more less/

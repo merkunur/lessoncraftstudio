@@ -40,6 +40,18 @@ The worksheet maker offers flexible comparison modes including image-to-image co
       images: '3000+ Images',
       license: 'Commercial License',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'See How It Works',
+        modalTitle: 'Quick Feature Overview',
+      },
+      appSpecific: {
+        videoId: 'eNguG63nYVs',
+        buttonText: 'More or Less Features',
+        modalTitle: 'More or Less Tutorial',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/more-less/

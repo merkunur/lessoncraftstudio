@@ -59,6 +59,18 @@ Dit gereedschap is ideaal voor basisonderwijs leerkrachten die sommen tot 20 oef
       action: 'Maken & Downloaden',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Bekijk hoe het werkt',
+        modalTitle: 'Overzicht van functies',
+      },
+      appSpecific: {
+        videoId: 'eNguG63nYVs',
+        buttonText: 'Meer of Minder Functies',
+        modalTitle: 'Meer of Minder Handleiding',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/dutch/more-less/

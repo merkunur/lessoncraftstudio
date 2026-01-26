@@ -52,6 +52,18 @@ Les enseignants choisissent l'abonnement Accès Complet pour trois raisons essen
       action: 'Créer & Télécharger',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Découvrir en vidéo',
+        modalTitle: 'Aperçu des fonctionnalités',
+      },
+      appSpecific: {
+        videoId: 'eNguG63nYVs',
+        buttonText: 'Fonctions Plus ou Moins',
+        modalTitle: 'Tutoriel Plus ou Moins',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/french/more-less/

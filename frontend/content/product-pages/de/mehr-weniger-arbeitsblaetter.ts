@@ -65,6 +65,18 @@ Die Benutzeroberfläche ist komplett auf Deutsch verfügbar. Alle Schaltflächen
       action: 'Erstellen & Herunterladen',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'So einfach geht\'s',
+        modalTitle: 'Funktionen im Überblick',
+      },
+      appSpecific: {
+        videoId: 'eNguG63nYVs',
+        buttonText: 'Mehr oder Weniger Funktionen',
+        modalTitle: 'Mehr oder Weniger Anleitung',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/german/more-less/

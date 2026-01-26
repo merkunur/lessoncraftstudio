@@ -47,6 +47,18 @@ Kirjainten tunnistus ja aakkosharjoittelu onnistuvat nopeasti. Luo, muokkaa ja l
       action: 'Luo & Lataa',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Katso miten se toimii',
+        modalTitle: 'Toimintojen yleiskatsaus',
+      },
+      appSpecific: {
+        videoId: '_dDQegRq9JQ',
+        buttonText: 'Aakkosjuna-toiminnot',
+        modalTitle: 'Aakkosjuna-opas',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/alphabet train/

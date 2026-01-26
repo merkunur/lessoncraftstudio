@@ -49,6 +49,18 @@ Hver alfabetopgave har en farverig togskabelon med elleve vogne. Eleverne matche
       action: 'Nemt at bruge',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Se hvordan det virker',
+        modalTitle: 'Funktionsoversigt',
+      },
+      appSpecific: {
+        videoId: '_dDQegRq9JQ',
+        buttonText: 'Alfabettog Funktioner',
+        modalTitle: 'Alfabettog Vejledning',
+      },
+    },
   },
 
   // Sample Gallery

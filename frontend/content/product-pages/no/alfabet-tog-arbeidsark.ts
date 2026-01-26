@@ -47,6 +47,18 @@ Perfekt for norske lærere som trenger bokstavarbeidsark raskt. Velg 11 bokstave
       action: 'Enkelt å bruke',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Se hvordan det fungerer',
+        modalTitle: 'Funksjoner i oversikt',
+      },
+      appSpecific: {
+        videoId: '_dDQegRq9JQ',
+        buttonText: 'Alfabet-tog Funksjoner',
+        modalTitle: 'Alfabet-tog Veiledning',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/alphabet train/

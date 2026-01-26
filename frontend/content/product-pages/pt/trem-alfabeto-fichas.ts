@@ -49,6 +49,18 @@ O gerador de trenzinho do alfabeto cria fichas educativas de forma rápida. Sele
       action: 'Crie e Baixe',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Veja como funciona',
+        modalTitle: 'Visão geral das funções',
+      },
+      appSpecific: {
+        videoId: '_dDQegRq9JQ',
+        buttonText: 'Funções Trenzinho do Alfabeto',
+        modalTitle: 'Tutorial Trenzinho do Alfabeto',
+      },
+    },
   },
 
   // Sample Gallery - Portuguese samples from samples/portuguese/alphabet-train/

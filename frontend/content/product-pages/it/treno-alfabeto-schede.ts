@@ -47,6 +47,18 @@ Perfetto per insegnanti della scuola dell'infanzia che necessitano di schede ita
       action: 'Crea e Scarica',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Scopri come funziona',
+        modalTitle: 'Panoramica delle funzionalità',
+      },
+      appSpecific: {
+        videoId: '_dDQegRq9JQ',
+        buttonText: 'Funzioni Treno Alfabeto',
+        modalTitle: 'Tutorial Treno Alfabeto',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/alphabet train/

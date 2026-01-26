@@ -50,6 +50,18 @@ Hver kryptogram-oppgave inkluderer to versjoner. Oppgavearket viser bildekodene 
       action: 'Enkelt å bruke',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Se hvordan det fungerer',
+        modalTitle: 'Funksjonsoversikt',
+      },
+      appSpecific: {
+        videoId: '9U0BIIjCnco',
+        buttonText: 'Kryptogram Funksjoner',
+        modalTitle: 'Kryptogram Veiledning',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/cryptogram/

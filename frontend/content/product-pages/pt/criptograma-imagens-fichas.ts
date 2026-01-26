@@ -49,6 +49,18 @@ O gerador de criptograma oferece recursos exclusivos para educadores. Você esco
       action: 'Crie e Baixe',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Veja como funciona',
+        modalTitle: 'Visão geral das funções',
+      },
+      appSpecific: {
+        videoId: '9U0BIIjCnco',
+        buttonText: 'Funções Criptograma',
+        modalTitle: 'Tutorial Criptograma',
+      },
+    },
   },
 
   // Sample Gallery

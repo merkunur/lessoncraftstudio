@@ -47,6 +47,18 @@ Kryptogram opgaver fungerer som hemmelige koder hvor hvert bogstav erstattes af 
       action: 'Nemt at bruge',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Se hvordan det virker',
+        modalTitle: 'Funktionsoversigt',
+      },
+      appSpecific: {
+        videoId: '9U0BIIjCnco',
+        buttonText: 'Kryptogram Funktioner',
+        modalTitle: 'Kryptogram Vejledning',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/danish/cryptogram/

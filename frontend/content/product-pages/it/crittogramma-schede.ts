@@ -57,6 +57,18 @@ La libreria di oltre 3000 immagini adatte ai bambini include temi per ogni mater
       action: 'Crea e Scarica',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Guarda come funziona',
+        modalTitle: 'Panoramica delle funzioni',
+      },
+      appSpecific: {
+        videoId: '9U0BIIjCnco',
+        buttonText: 'Funzioni Crittogramma',
+        modalTitle: 'Tutorial Crittogramma',
+      },
+    },
   },
 
   // Sample Gallery

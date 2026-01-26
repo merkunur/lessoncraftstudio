@@ -47,6 +47,18 @@ Nuestro generador ofrece personalización completa. Elija entre más de 3000 im�
       action: 'Crear y Descargar',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Mira cómo funciona',
+        modalTitle: 'Vista rápida de funciones',
+      },
+      appSpecific: {
+        videoId: '9U0BIIjCnco',
+        buttonText: 'Funciones Criptogramas de Imágenes',
+        modalTitle: 'Tutorial Criptogramas de Imágenes',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/spanish/cryptogram/

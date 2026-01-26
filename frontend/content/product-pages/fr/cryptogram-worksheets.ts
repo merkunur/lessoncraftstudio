@@ -52,6 +52,18 @@ Générez votre premier cryptogramme en 3 clics. Tapez une phrase et assignez de
       action: 'Créer & Télécharger',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Découvrir en vidéo',
+        modalTitle: 'Aperçu des fonctionnalités',
+      },
+      appSpecific: {
+        videoId: '9U0BIIjCnco',
+        buttonText: 'Fonctions Cryptogrammes en Images',
+        modalTitle: 'Tutoriel Cryptogrammes en Images',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/cryptogram/

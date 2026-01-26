@@ -63,6 +63,18 @@ Genereer cryptogram werkbladen in seconden. Pas elke letter-afbeelding toewijzin
       action: 'Maken & Downloaden',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Bekijk hoe het werkt',
+        modalTitle: 'Overzicht van functies',
+      },
+      appSpecific: {
+        videoId: '9U0BIIjCnco',
+        buttonText: 'Cryptogram Functies',
+        modalTitle: 'Cryptogram Handleiding',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/cryptogram/

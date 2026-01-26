@@ -30,6 +30,18 @@ Our cryptogram worksheet generator creates custom puzzles in 11 languages. Uploa
       images: '3000+ Images',
       license: 'Commercial License',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'See How It Works',
+        modalTitle: 'Quick Feature Overview',
+      },
+      appSpecific: {
+        videoId: '9U0BIIjCnco',
+        buttonText: 'Cryptogram Features',
+        modalTitle: 'Cryptogram Tutorial',
+      },
+    },
   },
 
   // SEO Metadata

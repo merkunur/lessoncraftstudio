@@ -51,6 +51,18 @@ Tehtävägeneraattori toimii 11 kielellä. Valitse esiopetus materiaali ja matem
       action: 'Luo & Lataa',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Katso miten se toimii',
+        modalTitle: 'Toimintojen yleiskatsaus',
+      },
+      appSpecific: {
+        videoId: '9U0BIIjCnco',
+        buttonText: 'Kuvakryptogrammi Toiminnot',
+        modalTitle: 'Kuvakryptogrammi Opas',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/cryptogram/

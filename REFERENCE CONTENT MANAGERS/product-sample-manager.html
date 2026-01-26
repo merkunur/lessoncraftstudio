@@ -600,6 +600,51 @@
             font-weight: 600;
         }
 
+        /* SEO Quick Select Dropdowns */
+        .seo-quick-select-wrapper {
+            margin-bottom: 8px;
+        }
+
+        .seo-quick-select {
+            width: 100%;
+            padding: 8px 12px;
+            border: 1px solid var(--gray-300);
+            border-radius: 6px;
+            font-size: 13px;
+            background: linear-gradient(to bottom, #f8f9fa, #e9ecef);
+            color: var(--gray-700);
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .seo-quick-select:hover {
+            background: linear-gradient(to bottom, #fff, #f8f9fa);
+            border-color: var(--primary);
+        }
+
+        .seo-quick-select:focus {
+            outline: none;
+            border-color: var(--primary);
+            box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.1);
+        }
+
+        .seo-quick-select option {
+            padding: 8px;
+            background: white;
+        }
+
+        .seo-field-label {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .seo-char-count {
+            font-size: 11px;
+            color: var(--gray-400);
+            font-weight: normal;
+        }
+
         /* Upload Zone */
         .upload-section {
             margin-bottom: 25px;
@@ -959,20 +1004,39 @@
 
                 <!-- SEO Metadata Section -->
                 <div class="seo-section">
-                    <h3>SEO Metadata <span class="seo-badge">OPTIONAL</span></h3>
+                    <h3>SEO Metadata <span class="seo-badge">IMPORTANT FOR SEO</span></h3>
 
+                    <!-- Alt Text -->
                     <div class="form-group">
-                        <label for="seo-alt-text">Alt Text</label>
-                        <input type="text" id="seo-alt-text" placeholder="e.g., Free printable addition worksheet for grade 1">
-                        <div class="hint">Descriptive text for screen readers and SEO (recommended: 50-150 characters)</div>
+                        <label class="seo-field-label">
+                            <span>Alt Text</span>
+                            <span class="seo-char-count" id="alt-char-count">0/125 chars</span>
+                        </label>
+                        <div class="seo-quick-select-wrapper">
+                            <select id="seo-alt-select" class="seo-quick-select" onchange="applySeoSelection('alt')">
+                                <option value="">-- Select pre-written alt text --</option>
+                            </select>
+                        </div>
+                        <input type="text" id="seo-alt-text" placeholder="e.g., Free printable addition worksheet for kindergarten" oninput="updateCharCount('alt')">
+                        <div class="hint">Describes image for search engines & screen readers (50-125 chars optimal)</div>
                     </div>
 
+                    <!-- Image Title -->
                     <div class="form-group">
-                        <label for="seo-title">Image Title</label>
-                        <input type="text" id="seo-title" placeholder="e.g., Addition Practice - Single Digit">
-                        <div class="hint">Short title for the image (displayed in Google Images)</div>
+                        <label class="seo-field-label">
+                            <span>Image Title</span>
+                            <span class="seo-char-count" id="title-char-count">0/60 chars</span>
+                        </label>
+                        <div class="seo-quick-select-wrapper">
+                            <select id="seo-title-select" class="seo-quick-select" onchange="applySeoSelection('title')">
+                                <option value="">-- Select pre-written title --</option>
+                            </select>
+                        </div>
+                        <input type="text" id="seo-title" placeholder="e.g., Addition Worksheet - Picture Counting" oninput="updateCharCount('title')">
+                        <div class="hint">Short title shown in Google Images (30-60 chars)</div>
                     </div>
 
+                    <!-- Grade and Subject Row -->
                     <div class="form-row">
                         <div class="form-group">
                             <label for="seo-grade">Grade Level</label>
@@ -985,23 +1049,28 @@
                                 <option value="3rd Grade">3rd Grade</option>
                                 <option value="4th Grade">4th Grade</option>
                                 <option value="5th Grade">5th Grade</option>
-                                <option value="6th Grade">6th Grade</option>
-                                <option value="7th Grade">7th Grade</option>
-                                <option value="8th Grade">8th Grade</option>
                                 <option value="All Ages">All Ages</option>
                             </select>
                         </div>
-
                         <div class="form-group">
                             <label for="seo-subject">Subject (Auto)</label>
-                            <input type="text" id="seo-subject" readonly placeholder="Auto-populated from app">
+                            <input type="text" id="seo-subject" readonly placeholder="Auto-populated">
                         </div>
                     </div>
 
+                    <!-- Description -->
                     <div class="form-group">
-                        <label for="seo-description">Description</label>
-                        <textarea id="seo-description" placeholder="e.g., This free printable worksheet helps students practice single-digit addition problems. Perfect for kindergarten and first grade math practice."></textarea>
-                        <div class="hint">Longer description for search engines (1-2 sentences)</div>
+                        <label class="seo-field-label">
+                            <span>Description</span>
+                            <span class="seo-char-count" id="desc-char-count">0/200 chars</span>
+                        </label>
+                        <div class="seo-quick-select-wrapper">
+                            <select id="seo-desc-select" class="seo-quick-select" onchange="applySeoSelection('desc')">
+                                <option value="">-- Select pre-written description --</option>
+                            </select>
+                        </div>
+                        <textarea id="seo-description" placeholder="e.g., This free printable worksheet helps students practice..." oninput="updateCharCount('desc')"></textarea>
+                        <div class="hint">Fuller description for search engines (100-200 chars)</div>
                     </div>
 
                     <button class="btn btn-secondary btn-sm" onclick="generateSeoFromApp()">Auto-Generate SEO</button>
@@ -1063,6 +1132,2438 @@
             'matching': 'Logic', 'missing-pieces': 'Logic', 'picture-sort': 'Logic',
             'find-objects': 'Visual', 'shadow-match': 'Visual'
         };
+
+        // SEO Presets - 33 apps x 5 options x 3 fields = 495 pieces of content
+        const seoPresets = {
+            // ===== MATH APPS =====
+            'addition': {
+                altText: [
+                    "Free printable addition worksheet with picture counting for kindergarten math practice",
+                    "Visual addition problems worksheet for first grade students with colorful images",
+                    "Single-digit addition worksheet with animal pictures for early math learners",
+                    "Kindergarten addition practice sheet featuring counting images and sum boxes",
+                    "Elementary addition worksheet with visual aids for beginner math students"
+                ],
+                title: [
+                    "Addition Worksheet - Picture Counting",
+                    "Visual Addition Practice Sheet",
+                    "Kindergarten Addition with Images",
+                    "First Grade Addition Problems",
+                    "Beginner Addition Math Worksheet"
+                ],
+                description: [
+                    "Practice single-digit addition with this free printable worksheet featuring colorful counting pictures. Perfect for kindergarten and first grade math.",
+                    "This visual addition worksheet helps early learners master basic math through picture counting. Includes answer key for easy grading.",
+                    "Engaging addition practice sheet designed for kindergarten students. Features adorable images that make learning math fun.",
+                    "Free downloadable addition worksheet with visual counting problems. Ideal for classroom centers or homework practice.",
+                    "Help young students build strong addition skills with this image-based math worksheet. Great for homeschool or classroom use."
+                ]
+            },
+            'subtraction': {
+                altText: [
+                    "Free printable subtraction worksheet with picture counting for kindergarten students",
+                    "Visual subtraction problems worksheet for first grade with colorful images",
+                    "Single-digit subtraction worksheet with animal pictures for early learners",
+                    "Kindergarten subtraction practice sheet featuring take-away counting images",
+                    "Elementary subtraction worksheet with visual aids for beginning math"
+                ],
+                title: [
+                    "Subtraction Worksheet - Picture Counting",
+                    "Visual Subtraction Practice Sheet",
+                    "Kindergarten Subtraction with Images",
+                    "First Grade Subtraction Problems",
+                    "Beginner Subtraction Math Worksheet"
+                ],
+                description: [
+                    "Practice single-digit subtraction with this free printable worksheet featuring visual counting pictures. Perfect for kindergarten math.",
+                    "This visual subtraction worksheet helps early learners understand take-away concepts through picture counting activities.",
+                    "Engaging subtraction practice sheet designed for kindergarten and first grade. Features colorful images for hands-on learning.",
+                    "Free downloadable subtraction worksheet with visual problems. Ideal for math centers or independent practice.",
+                    "Help young students master subtraction skills with this image-based worksheet. Includes answer key for self-checking."
+                ]
+            },
+            'math-worksheet': {
+                altText: [
+                    "Free printable math worksheet with mixed operations for elementary students",
+                    "Multi-skill math practice sheet with addition and subtraction problems",
+                    "Elementary math worksheet featuring visual number problems with answer key",
+                    "Kindergarten math practice worksheet with counting and number recognition",
+                    "Printable math facts worksheet for first and second grade students"
+                ],
+                title: [
+                    "Math Worksheet - Mixed Practice",
+                    "Multi-Skill Math Problems",
+                    "Elementary Math Practice Sheet",
+                    "Kindergarten Math Worksheet",
+                    "Math Facts Practice Worksheet"
+                ],
+                description: [
+                    "Comprehensive math worksheet covering multiple skills for elementary students. Includes addition, subtraction, and number recognition.",
+                    "Practice essential math facts with this versatile worksheet designed for K-2 students. Features mixed problem types.",
+                    "This multi-skill math worksheet reinforces core concepts through varied exercises. Perfect for daily math practice.",
+                    "Free printable math worksheet with visual problems for early learners. Great for classroom or homeschool use.",
+                    "Build math fluency with this practice sheet featuring mixed operations. Includes answer key for easy grading."
+                ]
+            },
+            'pattern-worksheet': {
+                altText: [
+                    "Free printable pattern recognition worksheet for kindergarten with colorful images",
+                    "Visual pattern completion worksheet for preschool and elementary students",
+                    "ABAB pattern worksheet with pictures for early learners to complete",
+                    "Kindergarten pattern practice sheet featuring shapes and color sequences",
+                    "Elementary pattern recognition worksheet with visual sequence problems"
+                ],
+                title: [
+                    "Pattern Worksheet - Visual Sequences",
+                    "Pattern Recognition Practice",
+                    "Kindergarten Pattern Activity",
+                    "Complete the Pattern Worksheet",
+                    "Visual Pattern Practice Sheet"
+                ],
+                description: [
+                    "Develop pattern recognition skills with this colorful worksheet. Students identify and complete visual sequences.",
+                    "This pattern worksheet helps preschool and kindergarten students understand sequencing through picture patterns.",
+                    "Practice ABAB and AABB patterns with this engaging visual worksheet. Perfect for early math foundations.",
+                    "Free printable pattern recognition activity for young learners. Features colorful images in repeating sequences.",
+                    "Build logical thinking skills with this pattern completion worksheet. Ideal for math centers and morning work."
+                ]
+            },
+            'math-puzzle': {
+                altText: [
+                    "Free printable math puzzle worksheet for elementary students with picture clues",
+                    "Number puzzle worksheet combining math practice with problem solving",
+                    "Visual math puzzle for kindergarten featuring addition with secret codes",
+                    "Elementary math brain teaser worksheet with picture-based number puzzles",
+                    "Engaging math puzzle activity sheet for first and second grade students"
+                ],
+                title: [
+                    "Math Puzzle - Number Challenge",
+                    "Math Brain Teaser Worksheet",
+                    "Picture Math Puzzle Activity",
+                    "Math Puzzle for Kids",
+                    "Number Puzzle Practice Sheet"
+                ],
+                description: [
+                    "Challenge students with this engaging math puzzle worksheet. Combines number practice with critical thinking skills.",
+                    "This math puzzle activity develops problem-solving abilities while reinforcing arithmetic. Fun for grades K-2.",
+                    "Free printable math brain teaser featuring picture clues. Students solve puzzles to reveal hidden answers.",
+                    "Engaging math puzzle worksheet that makes number practice exciting. Perfect for early finishers or enrichment.",
+                    "Build mathematical reasoning with this creative puzzle worksheet. Includes visual clues for solving challenges."
+                ]
+            },
+            'code-addition': {
+                altText: [
+                    "Free printable code addition worksheet with secret message for elementary students",
+                    "Addition with code cracking worksheet for kindergarten and first grade",
+                    "Math code breaker worksheet featuring addition problems with letter codes",
+                    "Secret code addition activity sheet for early math learners",
+                    "Crack the code math worksheet with addition problems for kids"
+                ],
+                title: [
+                    "Code Addition - Secret Message",
+                    "Addition Code Breaker Activity",
+                    "Math Secret Code Worksheet",
+                    "Crack the Code Addition",
+                    "Code Addition Puzzle Sheet"
+                ],
+                description: [
+                    "Solve addition problems to crack the secret code in this engaging math worksheet. Perfect for K-2 students.",
+                    "This code addition worksheet combines math practice with puzzle solving. Students decode messages using sums.",
+                    "Free printable code breaker math activity featuring addition problems. Makes math practice exciting and fun.",
+                    "Crack the secret code by solving addition problems on this worksheet. Great for math centers or enrichment.",
+                    "Engaging code addition activity that motivates students to practice math. Includes answer key with decoded message."
+                ]
+            },
+            'chart-count': {
+                altText: [
+                    "Free printable chart counting worksheet for kindergarten with picture graphs",
+                    "Count and color chart worksheet for early math graphing practice",
+                    "Visual counting chart activity for preschool and kindergarten students",
+                    "Picture graph counting worksheet with colorful images for young learners",
+                    "Elementary chart count worksheet teaching data collection basics"
+                ],
+                title: [
+                    "Chart Count Worksheet",
+                    "Count and Color Graph",
+                    "Picture Graph Activity",
+                    "Counting Chart for Kids",
+                    "Data Counting Worksheet"
+                ],
+                description: [
+                    "Practice counting and graphing with this visual chart worksheet. Perfect for introducing data concepts to young learners.",
+                    "This chart counting activity helps kindergarten students organize and count objects. Features colorful images.",
+                    "Free printable picture graph worksheet for early math. Students count items and record data on charts.",
+                    "Engage students with this counting and charting worksheet. Builds foundational graphing and math skills.",
+                    "Visual chart counting activity ideal for kindergarten math centers. Includes counting pictures and recording spaces."
+                ]
+            },
+            'more-less': {
+                altText: [
+                    "Free printable more or less comparison worksheet for kindergarten math",
+                    "Comparing numbers worksheet with visual counting for early learners",
+                    "Greater than less than worksheet with picture comparison for kids",
+                    "Kindergarten comparison math worksheet featuring more and fewer concepts",
+                    "Visual number comparison worksheet for preschool and first grade"
+                ],
+                title: [
+                    "More or Less Worksheet",
+                    "Comparing Numbers Activity",
+                    "Greater Than Less Than",
+                    "Number Comparison Practice",
+                    "More and Fewer Worksheet"
+                ],
+                description: [
+                    "Practice comparing quantities with this visual more or less worksheet. Perfect for kindergarten number sense.",
+                    "This comparison worksheet helps students understand greater than and less than using picture counting.",
+                    "Free printable comparing numbers activity for early learners. Students identify which group has more or fewer.",
+                    "Build number comparison skills with this engaging worksheet. Features visual counting for concrete understanding.",
+                    "Develop math vocabulary with this more and less worksheet. Ideal for kindergarten and first grade students."
+                ]
+            },
+            'find-and-count': {
+                altText: [
+                    "Free printable find and count worksheet for kindergarten with themed pictures",
+                    "Visual counting activity worksheet for preschool number practice",
+                    "I Spy counting worksheet with hidden objects for young learners",
+                    "Find and count math worksheet featuring colorful search images",
+                    "Counting and searching worksheet for early elementary students"
+                ],
+                title: [
+                    "Find and Count Worksheet",
+                    "I Spy Counting Activity",
+                    "Search and Count Practice",
+                    "Visual Counting Worksheet",
+                    "Find Objects and Count"
+                ],
+                description: [
+                    "Practice counting skills with this engaging find and count worksheet. Students search for and tally themed pictures.",
+                    "This I Spy counting activity builds number recognition while developing visual discrimination skills.",
+                    "Free printable search and count worksheet for kindergarten. Features hidden objects for students to find and count.",
+                    "Fun find and count activity that makes number practice exciting. Perfect for math centers or morning work.",
+                    "Develop counting fluency with this visual search worksheet. Students find themed objects and record totals."
+                ]
+            },
+            'big-small': {
+                altText: [
+                    "Free printable big and small comparison worksheet for preschool students",
+                    "Size comparison worksheet for kindergarten with visual sorting activities",
+                    "Bigger smaller worksheet with picture comparison for early learners",
+                    "Visual size sorting worksheet featuring big and small objects",
+                    "Preschool size comparison activity with large and small pictures"
+                ],
+                title: [
+                    "Big and Small Worksheet",
+                    "Size Comparison Activity",
+                    "Bigger or Smaller Practice",
+                    "Size Sorting Worksheet",
+                    "Compare Sizes Activity"
+                ],
+                description: [
+                    "Practice size comparison with this big and small worksheet. Perfect for preschool visual discrimination skills.",
+                    "This size comparison worksheet helps young learners understand bigger and smaller through picture sorting.",
+                    "Free printable size sorting activity for preschool and kindergarten. Students identify and compare object sizes.",
+                    "Build comparison vocabulary with this big and small worksheet. Features clear visual examples for understanding.",
+                    "Develop spatial awareness with this size comparison activity. Ideal for early childhood math foundations."
+                ]
+            },
+
+            // ===== LANGUAGE ARTS APPS =====
+            'wordsearch': {
+                altText: [
+                    "Free printable word search puzzle worksheet for elementary vocabulary practice",
+                    "Educational word find activity with themed vocabulary for kids",
+                    "Word search puzzle worksheet for classroom spelling and word recognition",
+                    "Printable word search with hidden words for reading practice",
+                    "Themed word search puzzle for elementary language arts students"
+                ],
+                title: [
+                    "Word Search Puzzle Worksheet",
+                    "Educational Word Find Activity",
+                    "Vocabulary Word Search",
+                    "Spelling Practice Word Search",
+                    "Themed Word Search for Kids"
+                ],
+                description: [
+                    "Boost vocabulary with this engaging word search puzzle. Students find hidden words while building spelling skills.",
+                    "This educational word search features themed vocabulary perfect for elementary language arts practice.",
+                    "Free printable word find puzzle for classroom or homework. Develops word recognition and visual scanning.",
+                    "Practice spelling and vocabulary with this themed word search worksheet. Great for literacy centers.",
+                    "Engaging word search activity that makes vocabulary practice fun. Includes word list and answer key."
+                ]
+            },
+            'word-scramble': {
+                altText: [
+                    "Free printable word scramble worksheet for elementary spelling practice",
+                    "Unscramble the words activity with picture clues for kids",
+                    "Word scramble puzzle worksheet for vocabulary and spelling skills",
+                    "Printable jumbled words activity for reading and spelling practice",
+                    "Themed word scramble worksheet with visual hints for students"
+                ],
+                title: [
+                    "Word Scramble Worksheet",
+                    "Unscramble Words Activity",
+                    "Spelling Scramble Puzzle",
+                    "Jumbled Words Practice",
+                    "Word Scramble with Pictures"
+                ],
+                description: [
+                    "Practice spelling by unscrambling jumbled words on this fun worksheet. Picture clues help students decode answers.",
+                    "This word scramble activity builds spelling and vocabulary skills. Perfect for literacy centers and homework.",
+                    "Free printable unscramble worksheet with themed vocabulary. Students rearrange letters to form correct words.",
+                    "Engage students with this word scramble puzzle. Develops spelling awareness and problem-solving skills.",
+                    "Challenging word scramble worksheet with visual hints. Great for elementary spelling practice and word study."
+                ]
+            },
+            'word-guess': {
+                altText: [
+                    "Free printable word guess worksheet with picture clues for vocabulary",
+                    "Guess the word activity using image hints for elementary students",
+                    "Visual vocabulary worksheet with picture clues for word guessing",
+                    "Word guessing game worksheet for reading and spelling practice",
+                    "Picture clue vocabulary worksheet for elementary language arts"
+                ],
+                title: [
+                    "Word Guess Activity Sheet",
+                    "Guess the Word Worksheet",
+                    "Picture Clue Vocabulary",
+                    "Word Guessing Game",
+                    "Visual Vocabulary Practice"
+                ],
+                description: [
+                    "Build vocabulary with this word guessing activity. Students use picture clues to identify and spell words.",
+                    "This guess the word worksheet develops vocabulary through visual associations. Perfect for early readers.",
+                    "Free printable word guessing activity with image hints. Great for vocabulary building and word recognition.",
+                    "Engage students with this picture clue vocabulary worksheet. Builds connections between images and words.",
+                    "Fun word guessing game that reinforces spelling and vocabulary. Includes themed pictures as hints."
+                ]
+            },
+            'crossword': {
+                altText: [
+                    "Free printable picture crossword puzzle for elementary vocabulary practice",
+                    "Visual crossword worksheet with image clues for young learners",
+                    "Kid-friendly crossword puzzle with pictures instead of word clues",
+                    "Elementary crossword worksheet featuring themed picture hints",
+                    "Printable crossword puzzle for spelling and vocabulary skills"
+                ],
+                title: [
+                    "Picture Crossword Puzzle",
+                    "Visual Crossword for Kids",
+                    "Elementary Crossword Worksheet",
+                    "Crossword with Pictures",
+                    "Vocabulary Crossword Puzzle"
+                ],
+                description: [
+                    "Solve this picture crossword puzzle to practice vocabulary and spelling. Image clues help students find answers.",
+                    "This visual crossword worksheet is perfect for young learners. Pictures replace traditional word clues.",
+                    "Free printable crossword puzzle with themed images. Builds vocabulary while developing problem-solving skills.",
+                    "Engage students with this picture-based crossword activity. Great for literacy centers and word study.",
+                    "Kid-friendly crossword puzzle featuring visual clues. Perfect for elementary spelling and vocabulary practice."
+                ]
+            },
+            'cryptogram': {
+                altText: [
+                    "Free printable cryptogram puzzle worksheet for elementary code breaking",
+                    "Secret code word puzzle with letter substitution for kids",
+                    "Decode the message worksheet for spelling and critical thinking",
+                    "Cryptogram activity sheet with picture clues for young learners",
+                    "Letter code puzzle worksheet for vocabulary and problem solving"
+                ],
+                title: [
+                    "Cryptogram Puzzle Worksheet",
+                    "Secret Code Word Puzzle",
+                    "Decode the Message Activity",
+                    "Letter Code Puzzle",
+                    "Cryptogram for Kids"
+                ],
+                description: [
+                    "Crack the code in this cryptogram puzzle worksheet. Students decode letters to reveal hidden words.",
+                    "This secret code activity develops critical thinking while practicing letter recognition and spelling.",
+                    "Free printable decode the message worksheet with picture hints. Perfect for language arts enrichment.",
+                    "Engage students with this cryptogram puzzle. Combines problem-solving with vocabulary practice.",
+                    "Fun code-breaking worksheet for elementary students. Builds logical thinking and spelling awareness."
+                ]
+            },
+            'alphabet-train': {
+                altText: [
+                    "Free printable alphabet train worksheet for preschool letter learning",
+                    "ABC train activity sheet for kindergarten letter sequencing practice",
+                    "Alphabet train worksheet with letters in order for early learners",
+                    "Letter train activity for teaching alphabet sequence to young children",
+                    "Printable ABC train worksheet for preschool and kindergarten"
+                ],
+                title: [
+                    "Alphabet Train Worksheet",
+                    "ABC Train Letter Activity",
+                    "Letter Sequence Train",
+                    "Alphabet Train for Kids",
+                    "ABC Learning Train"
+                ],
+                description: [
+                    "Learn letter order with this colorful alphabet train worksheet. Perfect for preschool and kindergarten.",
+                    "This ABC train activity helps children practice letter sequencing in a fun, engaging format.",
+                    "Free printable alphabet train for early learners. Students identify and sequence letters A through Z.",
+                    "Build letter recognition with this train-themed alphabet worksheet. Great for literacy centers.",
+                    "Fun alphabet train activity that teaches letter order. Ideal for preschool and kindergarten classrooms."
+                ]
+            },
+            'prepositions': {
+                altText: [
+                    "Free printable prepositions worksheet with visual examples for kids",
+                    "Spatial words activity sheet teaching in on under beside for students",
+                    "Preposition practice worksheet with picture scenes for early learners",
+                    "Visual prepositions worksheet showing position words for elementary",
+                    "Where is it worksheet teaching prepositions through pictures"
+                ],
+                title: [
+                    "Prepositions Worksheet",
+                    "Spatial Words Activity",
+                    "Position Words Practice",
+                    "Prepositions with Pictures",
+                    "Where Is It Worksheet"
+                ],
+                description: [
+                    "Learn prepositions with this visual worksheet featuring in, on, under, and beside. Perfect for grammar basics.",
+                    "This prepositions activity teaches spatial vocabulary through clear picture examples. Great for early learners.",
+                    "Free printable position words worksheet for elementary students. Visual scenes demonstrate preposition meanings.",
+                    "Build grammar skills with this prepositions practice sheet. Students identify where objects are located.",
+                    "Engaging prepositions worksheet using pictures to teach spatial relationships. Ideal for language arts."
+                ]
+            },
+            'writing': {
+                altText: [
+                    "Free printable handwriting practice worksheet with dotted letter guides",
+                    "Tracing letters worksheet for kindergarten writing skill development",
+                    "Handwriting worksheet with lined paper for elementary students",
+                    "Letter formation practice sheet with tracing guides for beginners",
+                    "Writing practice worksheet with alphabet tracing for young learners"
+                ],
+                title: [
+                    "Handwriting Practice Worksheet",
+                    "Letter Tracing Activity",
+                    "Writing Practice Sheet",
+                    "Alphabet Writing Worksheet",
+                    "Handwriting for Beginners"
+                ],
+                description: [
+                    "Develop handwriting skills with this tracing worksheet. Features dotted guides for proper letter formation.",
+                    "This letter tracing activity helps kindergarten students practice correct handwriting technique.",
+                    "Free printable handwriting worksheet with lined guides. Perfect for writing practice and fine motor development.",
+                    "Build writing foundations with this letter formation worksheet. Includes tracing and independent practice.",
+                    "Practice handwriting with this guided writing worksheet. Ideal for kindergarten and first grade students."
+                ]
+            },
+
+            // ===== ART APPS =====
+            'coloring': {
+                altText: [
+                    "Free printable coloring page with detailed illustration for kids",
+                    "Coloring worksheet featuring themed pictures for elementary students",
+                    "Printable coloring sheet with line art for creative expression",
+                    "Kid-friendly coloring page for fine motor skill development",
+                    "Themed coloring worksheet for classroom or home art activities"
+                ],
+                title: [
+                    "Coloring Page - Printable",
+                    "Coloring Worksheet for Kids",
+                    "Creative Coloring Activity",
+                    "Themed Coloring Sheet",
+                    "Coloring Page Download"
+                ],
+                description: [
+                    "Express creativity with this detailed coloring page. Perfect for developing fine motor skills and artistic expression.",
+                    "This printable coloring worksheet features engaging imagery for elementary students. Great for quiet time activities.",
+                    "Free coloring page with themed illustration. Develops hand-eye coordination and color recognition.",
+                    "Beautiful coloring sheet for classroom or home use. Provides calming creative activity for children.",
+                    "Engage young artists with this printable coloring page. Ideal for art centers and indoor activities."
+                ]
+            },
+            'draw-and-color': {
+                altText: [
+                    "Free printable draw and color activity worksheet for creative kids",
+                    "Directed drawing worksheet with coloring space for young artists",
+                    "Draw and color activity sheet with step-by-step picture guides",
+                    "Creative drawing worksheet combining art instruction with coloring",
+                    "Printable draw and color page for elementary art activities"
+                ],
+                title: [
+                    "Draw and Color Activity",
+                    "Directed Drawing Worksheet",
+                    "Draw and Color for Kids",
+                    "Creative Art Worksheet",
+                    "Drawing and Coloring Sheet"
+                ],
+                description: [
+                    "Develop art skills with this draw and color worksheet. Students create and color their own pictures.",
+                    "This directed drawing activity guides students through creating artwork, then coloring their masterpiece.",
+                    "Free printable draw and color worksheet for creative expression. Perfect for art class or quiet time.",
+                    "Engage young artists with this combined drawing and coloring activity. Builds fine motor and creativity.",
+                    "Fun draw and color worksheet that encourages artistic expression. Great for elementary art activities."
+                ]
+            },
+
+            // ===== FINE MOTOR APP =====
+            'drawing-lines': {
+                altText: [
+                    "Free printable line tracing worksheet for preschool fine motor practice",
+                    "Drawing lines activity for kindergarten pencil control development",
+                    "Pre-writing tracing worksheet with various line patterns for kids",
+                    "Fine motor line tracing practice sheet for early learners",
+                    "Printable tracing lines worksheet for handwriting readiness"
+                ],
+                title: [
+                    "Line Tracing Worksheet",
+                    "Drawing Lines Practice",
+                    "Pre-Writing Tracing Activity",
+                    "Fine Motor Line Practice",
+                    "Tracing Lines for Kids"
+                ],
+                description: [
+                    "Develop fine motor skills with this line tracing worksheet. Features various patterns for pencil control practice.",
+                    "This pre-writing activity helps young learners practice drawing straight and curved lines accurately.",
+                    "Free printable tracing worksheet for preschool and kindergarten. Builds handwriting readiness skills.",
+                    "Practice pencil control with this line drawing worksheet. Includes zigzags, curves, and straight lines.",
+                    "Build fine motor foundations with this tracing activity. Perfect for pre-writing skill development."
+                ]
+            },
+
+            // ===== GAMES APPS =====
+            'bingo': {
+                altText: [
+                    "Free printable picture bingo cards for classroom games and activities",
+                    "Visual bingo game cards with themed images for kids",
+                    "Printable bingo worksheet with picture squares for group play",
+                    "Educational bingo cards featuring colorful pictures for learning",
+                    "Themed bingo game printable for classroom or party activities"
+                ],
+                title: [
+                    "Picture Bingo Cards",
+                    "Bingo Game Printable",
+                    "Visual Bingo for Kids",
+                    "Classroom Bingo Cards",
+                    "Themed Bingo Game"
+                ],
+                description: [
+                    "Play bingo with these printable picture cards. Perfect for classroom games, parties, and learning activities.",
+                    "This visual bingo game features themed images for engaging group play. Includes multiple unique cards.",
+                    "Free printable bingo cards for educational games. Great for vocabulary review and classroom fun.",
+                    "Engage students with these picture bingo cards. Perfect for learning centers and reward activities.",
+                    "Fun bingo game printables with colorful pictures. Ideal for classroom games and group activities."
+                ]
+            },
+            'treasure-hunt': {
+                altText: [
+                    "Free printable treasure hunt activity worksheet with picture clues",
+                    "Scavenger hunt worksheet for kids with visual search clues",
+                    "Treasure hunt game printable with themed picture puzzles",
+                    "Adventure treasure hunt activity sheet for classroom games",
+                    "Printable treasure hunt with picture clues for young explorers"
+                ],
+                title: [
+                    "Treasure Hunt Activity",
+                    "Scavenger Hunt Worksheet",
+                    "Treasure Hunt Game",
+                    "Adventure Hunt Printable",
+                    "Picture Clue Treasure Hunt"
+                ],
+                description: [
+                    "Go on an adventure with this treasure hunt worksheet. Follow picture clues to find the hidden treasure.",
+                    "This scavenger hunt activity engages students with visual puzzles. Perfect for indoor or outdoor play.",
+                    "Free printable treasure hunt game for classroom or home. Features themed picture clues for solving.",
+                    "Engage young explorers with this adventure treasure hunt. Develops problem-solving and observation skills.",
+                    "Fun treasure hunt activity with visual clues. Great for parties, classroom games, and learning activities."
+                ]
+            },
+
+            // ===== LOGIC APPS =====
+            'sudoku': {
+                altText: [
+                    "Free printable picture sudoku puzzle for kids with colorful images",
+                    "Easy sudoku worksheet for beginners using pictures instead of numbers",
+                    "Visual sudoku puzzle for elementary students with themed images",
+                    "Kid-friendly sudoku activity with picture symbols for logical thinking",
+                    "Printable picture sudoku for developing reasoning skills in children"
+                ],
+                title: [
+                    "Picture Sudoku Puzzle",
+                    "Easy Sudoku for Kids",
+                    "Visual Sudoku Worksheet",
+                    "Beginner Sudoku Activity",
+                    "Picture Logic Puzzle"
+                ],
+                description: [
+                    "Develop logical thinking with this picture sudoku puzzle. Uses images instead of numbers for young solvers.",
+                    "This kid-friendly sudoku worksheet introduces logic puzzles using colorful pictures. Perfect for beginners.",
+                    "Free printable visual sudoku for elementary students. Builds reasoning skills through picture-based puzzles.",
+                    "Engage young minds with this picture sudoku activity. Great introduction to logical thinking and problem-solving.",
+                    "Easy sudoku puzzle using themed images. Develops critical thinking skills while having fun."
+                ]
+            },
+            'odd-one-out': {
+                altText: [
+                    "Free printable odd one out worksheet for critical thinking practice",
+                    "Find the different picture activity for visual discrimination skills",
+                    "Odd one out puzzle worksheet for elementary reasoning practice",
+                    "Which one is different activity sheet for logical thinking kids",
+                    "Printable odd one out activity for categorization and reasoning"
+                ],
+                title: [
+                    "Odd One Out Worksheet",
+                    "Find the Different One",
+                    "Which One is Different",
+                    "Odd One Out Puzzle",
+                    "Critical Thinking Activity"
+                ],
+                description: [
+                    "Develop critical thinking with this odd one out worksheet. Students identify which picture doesn't belong.",
+                    "This visual discrimination activity builds reasoning skills. Perfect for elementary logic practice.",
+                    "Free printable find the different picture worksheet. Great for developing categorization abilities.",
+                    "Engage students with this odd one out puzzle. Builds observation and logical thinking skills.",
+                    "Fun which one is different activity for critical thinking. Ideal for early childhood reasoning development."
+                ]
+            },
+            'picture-path': {
+                altText: [
+                    "Free printable picture path maze worksheet for visual reasoning",
+                    "Follow the path activity with themed pictures for young learners",
+                    "Picture pathway puzzle for developing sequential thinking skills",
+                    "Visual maze worksheet following picture sequences for kids",
+                    "Printable picture path activity for logical thinking practice"
+                ],
+                title: [
+                    "Picture Path Worksheet",
+                    "Follow the Path Activity",
+                    "Picture Pathway Puzzle",
+                    "Visual Sequence Maze",
+                    "Picture Path for Kids"
+                ],
+                description: [
+                    "Navigate through this picture path maze worksheet. Students follow visual sequences to reach the goal.",
+                    "This pathway activity develops sequential thinking through picture-based navigation. Perfect for logic practice.",
+                    "Free printable picture path puzzle for young learners. Builds visual reasoning and directional skills.",
+                    "Engage students with this follow the path worksheet. Great for developing logical thinking abilities.",
+                    "Fun picture pathway activity for visual discrimination and sequencing. Ideal for early logic skills."
+                ]
+            },
+            'pattern-train': {
+                altText: [
+                    "Free printable pattern train worksheet for sequence recognition practice",
+                    "Train car pattern activity for kindergarten logical thinking",
+                    "Visual pattern train worksheet with repeating picture sequences",
+                    "Complete the pattern train activity for early math reasoning",
+                    "Printable train pattern worksheet for sequence learning"
+                ],
+                title: [
+                    "Pattern Train Worksheet",
+                    "Train Sequence Activity",
+                    "Complete the Pattern Train",
+                    "Pattern Train for Kids",
+                    "Train Pattern Puzzle"
+                ],
+                description: [
+                    "Practice pattern recognition with this train-themed worksheet. Students complete repeating sequences on train cars.",
+                    "This pattern train activity teaches sequencing through visual train car patterns. Perfect for kindergarten math.",
+                    "Free printable train pattern worksheet for early learners. Develops logical thinking and pattern recognition.",
+                    "Engage students with this complete the pattern train activity. Builds foundational math reasoning skills.",
+                    "Fun train-themed pattern worksheet for sequence practice. Great for early childhood math foundations."
+                ]
+            },
+            'grid-match': {
+                altText: [
+                    "Free printable grid matching puzzle worksheet for visual reasoning",
+                    "Grid match activity with picture pairs for memory and logic",
+                    "Matching grid puzzle worksheet for elementary cognitive skills",
+                    "Visual grid matching game worksheet for pattern recognition",
+                    "Printable grid match activity for spatial reasoning practice"
+                ],
+                title: [
+                    "Grid Match Puzzle",
+                    "Grid Matching Activity",
+                    "Picture Grid Match",
+                    "Visual Grid Puzzle",
+                    "Grid Matching Worksheet"
+                ],
+                description: [
+                    "Develop visual reasoning with this grid matching worksheet. Students find and connect matching picture pairs.",
+                    "This grid match activity builds cognitive skills through pattern matching. Perfect for memory and logic.",
+                    "Free printable matching grid puzzle for elementary students. Enhances visual discrimination and reasoning.",
+                    "Engage students with this picture grid matching worksheet. Great for spatial awareness development.",
+                    "Fun grid matching activity for visual learners. Builds pattern recognition and matching skills."
+                ]
+            },
+            'matching': {
+                altText: [
+                    "Free printable matching worksheet with picture pairs for kids",
+                    "Draw lines matching activity for visual discrimination practice",
+                    "Picture matching worksheet for elementary memory and reasoning",
+                    "Connect the pairs activity with themed images for learning",
+                    "Printable matching game worksheet for cognitive skill building"
+                ],
+                title: [
+                    "Matching Worksheet",
+                    "Picture Matching Activity",
+                    "Connect the Pairs",
+                    "Matching Pairs Worksheet",
+                    "Visual Matching Practice"
+                ],
+                description: [
+                    "Practice matching skills with this picture pairs worksheet. Students draw lines connecting matching images.",
+                    "This matching activity develops visual discrimination and memory. Perfect for early cognitive development.",
+                    "Free printable connect the pairs worksheet for kids. Builds recognition and association skills.",
+                    "Engage students with this picture matching activity. Great for learning centers and independent practice.",
+                    "Fun matching pairs worksheet for visual learners. Develops cognitive skills through pair recognition."
+                ]
+            },
+            'missing-pieces': {
+                altText: [
+                    "Free printable missing pieces puzzle worksheet for visual reasoning",
+                    "Complete the picture activity with missing puzzle pieces for kids",
+                    "Find the missing piece worksheet for critical thinking practice",
+                    "Visual puzzle worksheet with missing sections for reasoning skills",
+                    "Printable missing pieces activity for spatial awareness development"
+                ],
+                title: [
+                    "Missing Pieces Puzzle",
+                    "Complete the Picture",
+                    "Find the Missing Piece",
+                    "Missing Pieces Worksheet",
+                    "Visual Puzzle Activity"
+                ],
+                description: [
+                    "Develop visual reasoning with this missing pieces puzzle. Students identify which piece completes each picture.",
+                    "This complete the picture activity builds critical thinking through visual puzzle solving. Perfect for logic skills.",
+                    "Free printable find the missing piece worksheet. Enhances spatial awareness and visual discrimination.",
+                    "Engage students with this missing pieces puzzle worksheet. Great for cognitive development and reasoning.",
+                    "Fun visual puzzle activity for problem-solving practice. Students match pieces to complete images."
+                ]
+            },
+            'picture-sort': {
+                altText: [
+                    "Free printable picture sorting worksheet for categorization practice",
+                    "Sort and classify activity with themed pictures for kids",
+                    "Visual sorting worksheet for elementary critical thinking skills",
+                    "Picture categorization activity for logical reasoning development",
+                    "Printable sort the pictures worksheet for classification practice"
+                ],
+                title: [
+                    "Picture Sort Worksheet",
+                    "Sort and Classify Activity",
+                    "Picture Categorization",
+                    "Sorting Pictures Worksheet",
+                    "Visual Sorting Activity"
+                ],
+                description: [
+                    "Practice categorization with this picture sorting worksheet. Students group images by common attributes.",
+                    "This sort and classify activity develops logical reasoning through visual categorization. Perfect for critical thinking.",
+                    "Free printable sorting worksheet for kids. Builds classification skills through picture organization.",
+                    "Engage students with this picture sorting activity. Great for developing categorization and reasoning abilities.",
+                    "Fun visual sorting worksheet for elementary logic. Students identify categories and sort pictures accordingly."
+                ]
+            },
+
+            // ===== VISUAL APPS =====
+            'find-objects': {
+                altText: [
+                    "Free printable hidden objects worksheet for visual scanning practice",
+                    "Find the hidden pictures activity for attention and focus skills",
+                    "I Spy hidden objects worksheet with themed scene for kids",
+                    "Visual search activity with concealed pictures for observation",
+                    "Printable find objects puzzle for visual perception development"
+                ],
+                title: [
+                    "Hidden Objects Worksheet",
+                    "Find the Hidden Pictures",
+                    "I Spy Activity Sheet",
+                    "Visual Search Puzzle",
+                    "Find Objects Activity"
+                ],
+                description: [
+                    "Search for hidden objects in this detailed scene worksheet. Develops visual scanning and attention skills.",
+                    "This I Spy activity challenges students to find concealed pictures. Perfect for focus and observation practice.",
+                    "Free printable hidden objects puzzle for kids. Builds visual perception and concentration abilities.",
+                    "Engage students with this find the pictures worksheet. Great for developing attention to detail.",
+                    "Fun visual search activity with themed hidden objects. Ideal for quiet time and focus development."
+                ]
+            },
+            'shadow-match': {
+                altText: [
+                    "Free printable shadow matching worksheet for visual discrimination",
+                    "Match the shadow activity with silhouettes for shape recognition",
+                    "Shadow match puzzle worksheet for elementary visual perception",
+                    "Picture and shadow matching activity for cognitive development",
+                    "Printable shadow matching game for visual reasoning practice"
+                ],
+                title: [
+                    "Shadow Match Worksheet",
+                    "Match the Shadow Activity",
+                    "Shadow Matching Puzzle",
+                    "Silhouette Matching Game",
+                    "Shadow Match for Kids"
+                ],
+                description: [
+                    "Develop visual discrimination with this shadow matching worksheet. Students connect pictures to their silhouettes.",
+                    "This match the shadow activity builds shape recognition and visual perception. Perfect for early learning.",
+                    "Free printable shadow matching puzzle for kids. Enhances visual reasoning through silhouette matching.",
+                    "Engage students with this picture and shadow activity. Great for cognitive development and observation.",
+                    "Fun shadow matching game for visual learners. Develops shape recognition and matching skills."
+                ]
+            }
+        };
+
+        // German SEO Presets - 33 apps x 5 options x 3 fields = 495 pieces of content
+        const seoPresetsDE = {
+            // ===== MATHE APPS =====
+            'addition': {
+                altText: [
+                    "Kostenlose Mathe Arbeitsblätter für Addition mit Bildern für die Grundschule",
+                    "Rechnen lernen 1. Klasse - Additionsaufgaben mit visuellen Zählübungen",
+                    "Arbeitsblätter Grundschule Addition mit Tierbildern zum Ausdrucken",
+                    "Vorschule Arbeitsblätter Plus-Rechnen mit bunten Zählbildern",
+                    "Mathe Arbeitsblätter Addition für Kindergarten und 1. Klasse kostenlos"
+                ],
+                title: [
+                    "Addition Arbeitsblatt - Bilder zählen",
+                    "Mathe Übungen Plus-Rechnen",
+                    "Addieren lernen Grundschule",
+                    "Rechenaufgaben 1. Klasse",
+                    "Addition mit Bildern kostenlos"
+                ],
+                description: [
+                    "Üben Sie Addition mit diesen kostenlosen Mathe Arbeitsblättern für die Grundschule. Mit bunten Zählbildern perfekt für Vorschule und 1. Klasse.",
+                    "Diese Additionsübungen helfen Kindern beim Rechnen lernen durch visuelle Zählaufgaben. Ideal für den Mathematikunterricht.",
+                    "Kostenlose Arbeitsblätter zum Addieren mit Bildern. Perfekt für Grundschüler zum Üben von Plus-Aufgaben.",
+                    "Mathe Arbeitsblätter Addition zum Ausdrucken für 1. und 2. Klasse. Mit Lösungen für einfache Korrektur.",
+                    "Rechnen lernen leicht gemacht mit diesen visuellen Additionsübungen. Ideal für Zuhause oder den Unterricht."
+                ]
+            },
+            'subtraction': {
+                altText: [
+                    "Kostenlose Mathe Arbeitsblätter für Subtraktion mit Bildern für die Grundschule",
+                    "Rechnen lernen 1. Klasse - Minus-Aufgaben mit visuellen Zählübungen",
+                    "Arbeitsblätter Grundschule Subtraktion mit Tierbildern zum Ausdrucken",
+                    "Vorschule Arbeitsblätter Minus-Rechnen mit bunten Zählbildern",
+                    "Mathe Arbeitsblätter Subtraktion für Kindergarten und 1. Klasse kostenlos"
+                ],
+                title: [
+                    "Subtraktion Arbeitsblatt - Bilder zählen",
+                    "Mathe Übungen Minus-Rechnen",
+                    "Subtrahieren lernen Grundschule",
+                    "Minus-Aufgaben 1. Klasse",
+                    "Subtraktion mit Bildern kostenlos"
+                ],
+                description: [
+                    "Üben Sie Subtraktion mit diesen kostenlosen Mathe Arbeitsblättern für die Grundschule. Mit bunten Zählbildern für Vorschule und 1. Klasse.",
+                    "Diese Subtraktionsübungen helfen Kindern beim Rechnen lernen durch visuelle Wegnehm-Aufgaben. Ideal für den Unterricht.",
+                    "Kostenlose Arbeitsblätter zum Subtrahieren mit Bildern. Perfekt für Grundschüler zum Üben von Minus-Aufgaben.",
+                    "Mathe Arbeitsblätter Subtraktion zum Ausdrucken für 1. und 2. Klasse. Mit Lösungen für einfache Korrektur.",
+                    "Rechnen lernen leicht gemacht mit diesen visuellen Subtraktionsübungen. Ideal für Zuhause oder Unterricht."
+                ]
+            },
+            'math-worksheet': {
+                altText: [
+                    "Kostenlose Mathe Arbeitsblätter mit gemischten Rechenaufgaben für die Grundschule",
+                    "Rechnen lernen Arbeitsblätter mit Addition und Subtraktion für 1. Klasse",
+                    "Arbeitsblätter Grundschule Mathematik mit verschiedenen Übungstypen",
+                    "Vorschule Mathe Arbeitsblätter mit Zahlen und Zählübungen zum Ausdrucken",
+                    "Gemischte Mathe Übungen für Kindergarten und Grundschule kostenlos"
+                ],
+                title: [
+                    "Mathe Arbeitsblatt gemischte Übungen",
+                    "Rechenübungen Grundschule",
+                    "Mathematik Arbeitsblatt 1. Klasse",
+                    "Mathe Übungsblatt kostenlos",
+                    "Rechnen lernen Arbeitsblatt"
+                ],
+                description: [
+                    "Vielseitige Mathe Arbeitsblätter mit gemischten Rechenaufgaben für die Grundschule. Addition, Subtraktion und Zahlenerkennung.",
+                    "Diese Arbeitsblätter bieten verschiedene Mathe-Übungen für 1. und 2. Klasse. Perfekt für tägliches Rechnen lernen.",
+                    "Kostenlose Mathematik Arbeitsblätter zum Ausdrucken für Grundschüler. Mit verschiedenen Aufgabentypen.",
+                    "Rechnen lernen mit diesen visuellen Mathe Arbeitsblättern. Ideal für den Unterricht oder Zuhause.",
+                    "Mathe Übungsblätter für Vorschule und Grundschule. Mit Lösungen für einfache Kontrolle."
+                ]
+            },
+            'pattern-worksheet': {
+                altText: [
+                    "Kostenlose Arbeitsblätter Muster erkennen für Vorschule und Kindergarten",
+                    "Muster fortsetzen Arbeitsblätter mit bunten Bildern für die Grundschule",
+                    "Logisches Denken Arbeitsblätter mit Musterreihen für Kinder",
+                    "Vorschule Arbeitsblätter Reihenfolge ergänzen mit visuellen Mustern",
+                    "Mathe Arbeitsblätter Muster und Reihen für 1. Klasse kostenlos"
+                ],
+                title: [
+                    "Muster Arbeitsblatt - Reihen fortsetzen",
+                    "Muster erkennen Vorschule",
+                    "Logisches Denken Übungen",
+                    "Musterreihen Arbeitsblatt",
+                    "Muster ergänzen Grundschule"
+                ],
+                description: [
+                    "Muster erkennen und fortsetzen mit diesen kostenlosen Arbeitsblättern. Perfekt für logisches Denken in Vorschule und Grundschule.",
+                    "Diese Muster-Arbeitsblätter fördern das logische Denken bei Kindern. Bunte Bilder machen das Lernen zum Spaß.",
+                    "Kostenlose Arbeitsblätter zum Muster ergänzen für Kindergarten und 1. Klasse. Mit visuellen Reihenfolgen.",
+                    "Arbeitsblätter für Musterreihen und Sequenzen. Ideal für Vorschule und Grundschule zum Ausdrucken.",
+                    "Logisches Denken fördern mit diesen Muster-Übungen. Perfekt für den Mathematik-Unterricht."
+                ]
+            },
+            'math-puzzle': {
+                altText: [
+                    "Kostenlose Mathe Rätsel Arbeitsblätter für Grundschule mit Bildern",
+                    "Zahlen Rätsel Arbeitsblatt für Kinder mit logischen Denkspielen",
+                    "Mathe Knobelaufgaben für 1. und 2. Klasse zum Ausdrucken",
+                    "Rechnen lernen mit Rätseln und Bildern für Vorschulkinder",
+                    "Mathematik Denksportaufgaben Arbeitsblätter für Grundschüler"
+                ],
+                title: [
+                    "Mathe Rätsel Arbeitsblatt",
+                    "Zahlen Knobelaufgaben",
+                    "Mathe Denkspiel für Kinder",
+                    "Rechenrätsel Grundschule",
+                    "Mathematik Rätsel kostenlos"
+                ],
+                description: [
+                    "Spannende Mathe Rätsel für die Grundschule. Kombiniert Rechnen lernen mit logischem Denken und Problemlösung.",
+                    "Diese Knobelaufgaben machen Mathe zum Abenteuer. Perfekt für Kinder der 1. und 2. Klasse zum Knobeln.",
+                    "Kostenlose Mathe Rätsel Arbeitsblätter zum Ausdrucken. Fördert logisches Denken und Rechenfertigkeiten.",
+                    "Mathematik Denksportaufgaben für Grundschüler. Mit Bildern und versteckten Lösungen zum Entdecken.",
+                    "Rechnen lernen mit Spaß durch diese Mathe-Rätsel. Ideal für schnelle Denker und kleine Mathefans."
+                ]
+            },
+            'code-addition': {
+                altText: [
+                    "Kostenlose Geheimcode Addition Arbeitsblätter für Grundschule Kinder",
+                    "Rechnen lernen mit Code knacken - Mathe Arbeitsblätter 1. Klasse",
+                    "Additions-Rätsel mit Buchstaben-Code zum Ausdrucken für Kinder",
+                    "Mathe Geheimschrift Arbeitsblatt für Vorschule und Grundschule",
+                    "Code-Rätsel Additionsaufgaben Arbeitsblätter kostenlos"
+                ],
+                title: [
+                    "Code Addition - Geheime Nachricht",
+                    "Mathe Code knacken",
+                    "Rechenrätsel mit Code",
+                    "Addition Geheimschrift",
+                    "Zahlen Code Arbeitsblatt"
+                ],
+                description: [
+                    "Löse Additionsaufgaben und knacke den Geheimcode auf diesem spannenden Mathe Arbeitsblatt. Perfekt für 1. und 2. Klasse.",
+                    "Diese Code-Addition verbindet Rechnen lernen mit Rätselspaß. Kinder entschlüsseln Nachrichten durch Addieren.",
+                    "Kostenlose Mathe Arbeitsblätter mit Geheimcode zum Ausdrucken. Macht Addition zum spannenden Abenteuer.",
+                    "Geheimschrift Mathe Rätsel für Grundschüler. Durch richtiges Rechnen wird die versteckte Botschaft sichtbar.",
+                    "Motivierende Code-Additions-Übungen für den Mathe-Unterricht. Mit Lösungsschlüssel für einfache Korrektur."
+                ]
+            },
+            'chart-count': {
+                altText: [
+                    "Kostenlose Diagramm und Zählen Arbeitsblätter für Vorschule und Kindergarten",
+                    "Bilddiagramm Arbeitsblatt zum Zählen und Ausfüllen für die Grundschule",
+                    "Mathe Arbeitsblätter Daten sammeln und Diagramme für 1. Klasse",
+                    "Vorschule Arbeitsblätter Zählen und Tabellen ausfüllen mit Bildern",
+                    "Diagramme lesen und erstellen Arbeitsblätter für Grundschüler kostenlos"
+                ],
+                title: [
+                    "Diagramm Zählen Arbeitsblatt",
+                    "Bilddiagramm ausfüllen",
+                    "Zählen und Diagramm",
+                    "Tabelle ausfüllen Mathe",
+                    "Daten sammeln Arbeitsblatt"
+                ],
+                description: [
+                    "Zählen und Diagramme erstellen mit diesen kostenlosen Arbeitsblättern. Perfekt für erste Daten-Konzepte in der Grundschule.",
+                    "Diese Diagramm-Arbeitsblätter helfen Kindern beim Sortieren und Zählen von Objekten. Mit bunten Bildern.",
+                    "Kostenlose Bilddiagramm Arbeitsblätter zum Ausdrucken für Vorschule und 1. Klasse. Daten sammeln lernen.",
+                    "Mathe Arbeitsblätter mit Zählen und Tabellen ausfüllen. Fördert mathematisches Denken bei Grundschülern.",
+                    "Diagramme verstehen und erstellen für Kinder. Ideale Einführung in Daten und Statistik."
+                ]
+            },
+            'more-less': {
+                altText: [
+                    "Kostenlose Arbeitsblätter mehr oder weniger Vergleichen für Vorschule",
+                    "Größer kleiner Arbeitsblätter mit Bildern für die Grundschule",
+                    "Mengen vergleichen Arbeitsblätter für Kindergarten und 1. Klasse",
+                    "Mathe Arbeitsblätter mehr weniger gleich zum Ausdrucken",
+                    "Zahlen vergleichen Arbeitsblätter für Vorschule kostenlos"
+                ],
+                title: [
+                    "Mehr oder Weniger Arbeitsblatt",
+                    "Größer Kleiner Vergleichen",
+                    "Mengen vergleichen Übung",
+                    "Zahlen Vergleich Arbeitsblatt",
+                    "Mehr Weniger Gleich Mathe"
+                ],
+                description: [
+                    "Mengen vergleichen mit diesen kostenlosen Arbeitsblättern für Vorschule und 1. Klasse. Größer, kleiner, gleich verstehen.",
+                    "Diese Vergleichs-Arbeitsblätter helfen beim Verständnis von mehr und weniger durch Bilder zählen.",
+                    "Kostenlose Arbeitsblätter zum Zahlen vergleichen für Kindergarten. Welche Gruppe hat mehr oder weniger?",
+                    "Mathe Arbeitsblätter für Mengenvergleich mit visuellen Zählübungen. Perfekt für Zahlensinn entwickeln.",
+                    "Größer kleiner gleich Übungen für Grundschüler. Ideal für den frühen Mathematik-Unterricht."
+                ]
+            },
+            'find-and-count': {
+                altText: [
+                    "Kostenlose Suchen und Zählen Arbeitsblätter für Vorschule und Kindergarten",
+                    "Bilder finden und zählen Arbeitsblätter mit Themen für Kinder",
+                    "Ich sehe was Zählübung Arbeitsblatt für die Grundschule",
+                    "Vorschule Arbeitsblätter Such und Zähl Übungen mit bunten Bildern",
+                    "Mathe Arbeitsblätter Objekte finden und Zahlen üben kostenlos"
+                ],
+                title: [
+                    "Suchen und Zählen Arbeitsblatt",
+                    "Finde und Zähle Übung",
+                    "Ich sehe was Zählspiel",
+                    "Such-Zähl Arbeitsblatt",
+                    "Bilder finden und zählen"
+                ],
+                description: [
+                    "Suchen und Zählen Arbeitsblätter für Vorschule und Kindergarten. Kinder finden Themenbilder und zählen sie zusammen.",
+                    "Diese Such-und-Zähl-Übungen fördern Zahlenerkennung und visuelle Wahrnehmung bei Kindern.",
+                    "Kostenlose Arbeitsblätter zum Finden und Zählen von versteckten Objekten. Perfekt für Mathe-Übungen.",
+                    "Spannende Such-Zähl-Aktivitäten die Zahlenübung zum Spaß machen. Ideal für Lernzentren oder Zuhause.",
+                    "Zählen üben mit diesen visuellen Suchbildern. Kinder finden Themenobjekte und notieren die Summen."
+                ]
+            },
+            'big-small': {
+                altText: [
+                    "Kostenlose Groß und Klein Arbeitsblätter für Vorschule und Kindergarten",
+                    "Größen vergleichen Arbeitsblätter mit Bildern für Kinder",
+                    "Größer kleiner Sortier-Arbeitsblätter für die Grundschule",
+                    "Vorschule Arbeitsblätter Größenvergleich mit bunten Objekten",
+                    "Groß Klein Sortieren Arbeitsblätter zum Ausdrucken kostenlos"
+                ],
+                title: [
+                    "Groß und Klein Arbeitsblatt",
+                    "Größen vergleichen Übung",
+                    "Größer oder Kleiner Sortieren",
+                    "Größen Sortier-Arbeitsblatt",
+                    "Groß Klein Vergleich"
+                ],
+                description: [
+                    "Größen vergleichen mit diesen Groß-Klein Arbeitsblättern für Vorschule. Perfekt für visuelle Wahrnehmung.",
+                    "Diese Größenvergleich-Arbeitsblätter helfen Kindern größer und kleiner durch Bildersortieren zu verstehen.",
+                    "Kostenlose Sortier-Arbeitsblätter für Vorschule und Kindergarten. Objektgrößen erkennen und vergleichen.",
+                    "Groß Klein Vergleich Übungen mit klaren visuellen Beispielen. Fördert räumliches Denken bei Kindern.",
+                    "Arbeitsblätter zum Größen sortieren für die frühe Mathematik-Förderung. Ideal für Lernzentren."
+                ]
+            },
+
+            // ===== SPRACHE APPS =====
+            'wordsearch': {
+                altText: [
+                    "Kostenlose Wörter suchen Rätsel Arbeitsblätter für Grundschule Deutsch",
+                    "Buchstabenrätsel Arbeitsblatt mit Themen-Wortschatz für Kinder",
+                    "Suchsel Arbeitsblatt für Rechtschreibung und Wortfindung Grundschule",
+                    "Deutsch Arbeitsblätter Wörtersuche mit versteckten Wörtern",
+                    "Wörter finden Rätsel Arbeitsblätter für den Deutschunterricht"
+                ],
+                title: [
+                    "Wörtersuche Rätsel Arbeitsblatt",
+                    "Buchstabenrätsel für Kinder",
+                    "Suchsel Deutschunterricht",
+                    "Wörter finden Übung",
+                    "Themen-Wörtersuche kostenlos"
+                ],
+                description: [
+                    "Wortschatz erweitern mit diesen spannenden Wörtersuche-Rätseln. Kinder finden versteckte Wörter und üben Rechtschreibung.",
+                    "Diese Suchsel-Arbeitsblätter bieten Themen-Wortschatz für den Deutschunterricht in der Grundschule.",
+                    "Kostenlose Buchstabenrätsel zum Ausdrucken für Zuhause oder Schule. Fördert Wortfindung und Konzentration.",
+                    "Deutsch Arbeitsblätter Wörtersuche für Rechtschreibung und Wortschatz-Training. Mit Wortliste und Lösung.",
+                    "Motivierende Wörter-Suchspiele die Vokabeln-Üben zum Spaß machen. Perfekt für Lese-Lernzentren."
+                ]
+            },
+            'word-scramble': {
+                altText: [
+                    "Kostenlose Buchstaben Durcheinander Arbeitsblätter für Grundschule Rechtschreibung",
+                    "Wörter entwirren Arbeitsblatt mit Bildhinweisen für Kinder",
+                    "Buchstabensalat Rätsel Arbeitsblätter für Deutsch und Rechtschreibung",
+                    "Deutsch Arbeitsblätter Buchstaben sortieren mit visuellen Hinweisen",
+                    "Wörter ordnen Rätsel Arbeitsblätter zum Ausdrucken kostenlos"
+                ],
+                title: [
+                    "Buchstabensalat Arbeitsblatt",
+                    "Wörter entwirren Übung",
+                    "Buchstaben sortieren Rätsel",
+                    "Durcheinander Wörter Deutsch",
+                    "Wörter ordnen mit Bildern"
+                ],
+                description: [
+                    "Rechtschreibung üben durch Entwirren von durcheinander geratenen Wörtern. Bildhinweise helfen beim Lösen.",
+                    "Diese Buchstabensalat-Arbeitsblätter fördern Rechtschreibung und Wortschatz. Perfekt für Lernzentren.",
+                    "Kostenlose Buchstaben-Sortier-Arbeitsblätter mit Themen-Wortschatz. Kinder ordnen Buchstaben zu richtigen Wörtern.",
+                    "Deutsch Arbeitsblätter zum Wörter entwirren. Entwickelt Rechtschreibbewusstsein und Problemlösung.",
+                    "Herausfordernde Buchstabensalat-Rätsel mit visuellen Hinweisen. Ideal für Deutsch-Übungen Grundschule."
+                ]
+            },
+            'word-guess': {
+                altText: [
+                    "Kostenlose Wort erraten Arbeitsblätter mit Bildhinweisen für Kinder",
+                    "Bilder-Wortschatz Arbeitsblatt zum Wörter erraten für Grundschule",
+                    "Deutsch Arbeitsblätter Wort erkennen mit Bild-Hinweisen",
+                    "Wörter raten Spiel Arbeitsblatt für Lesen und Rechtschreibung",
+                    "Bildhinweise Wortschatz Arbeitsblätter für Deutschunterricht"
+                ],
+                title: [
+                    "Wort erraten Arbeitsblatt",
+                    "Bilder-Wortschatz Übung",
+                    "Wort erkennen mit Bildern",
+                    "Ratespiel Wörter Deutsch",
+                    "Visueller Wortschatz Übung"
+                ],
+                description: [
+                    "Wortschatz aufbauen mit diesen Wort-erraten Arbeitsblättern. Kinder nutzen Bildhinweise zum Erkennen und Schreiben.",
+                    "Diese Bilder-Wortschatz Arbeitsblätter entwickeln Wortschatz durch visuelle Verbindungen. Perfekt für Leseanfänger.",
+                    "Kostenlose Wort-erraten Arbeitsblätter mit Bildhinweisen. Ideal für Wortschatz und Wortfindung üben.",
+                    "Deutsch Arbeitsblätter mit Bild-zu-Wort Verbindungen. Fördert Wortschatz und Rechtschreibung.",
+                    "Lustiges Wörter-Ratespiel das Rechtschreibung und Wortschatz festigt. Mit Themenbildern als Hinweise."
+                ]
+            },
+            'crossword': {
+                altText: [
+                    "Kostenlose Bilder Kreuzworträtsel Arbeitsblätter für Grundschule Deutsch",
+                    "Visuelles Kreuzworträtsel Arbeitsblatt mit Bildhinweisen für Kinder",
+                    "Kinderfreundliches Kreuzworträtsel mit Bildern statt Wort-Hinweisen",
+                    "Deutsch Arbeitsblätter Kreuzworträtsel mit Themen-Bildern",
+                    "Kreuzworträtsel zum Ausdrucken für Rechtschreibung und Wortschatz"
+                ],
+                title: [
+                    "Bilder Kreuzworträtsel",
+                    "Visuelles Kreuzworträtsel Kinder",
+                    "Kreuzworträtsel Grundschule",
+                    "Kreuzworträtsel mit Bildern",
+                    "Wortschatz Kreuzworträtsel"
+                ],
+                description: [
+                    "Löse dieses Bilder-Kreuzworträtsel für Wortschatz und Rechtschreibung. Bildhinweise helfen beim Finden der Wörter.",
+                    "Dieses visuelle Kreuzworträtsel ist perfekt für junge Lerner. Bilder ersetzen traditionelle Wort-Hinweise.",
+                    "Kostenloses Kreuzworträtsel mit Themenbildern zum Ausdrucken. Fördert Wortschatz und logisches Denken.",
+                    "Deutsch Arbeitsblätter mit bilderbasiertem Kreuzworträtsel. Ideal für Lernzentren und Wortschatzübung.",
+                    "Kinderfreundliches Kreuzworträtsel mit visuellen Hinweisen. Perfekt für Deutsch Rechtschreibung Grundschule."
+                ]
+            },
+            'cryptogram': {
+                altText: [
+                    "Kostenlose Geheimschrift Rätsel Arbeitsblätter für Grundschule Kinder",
+                    "Buchstaben Code Rätsel mit Entschlüsselung für den Deutschunterricht",
+                    "Geheimcode Arbeitsblatt für Rechtschreibung und logisches Denken",
+                    "Deutsch Arbeitsblätter Code knacken mit Bildhinweisen für Kinder",
+                    "Buchstaben Rätsel Arbeitsblätter zum Ausdrucken kostenlos"
+                ],
+                title: [
+                    "Geheimschrift Rätsel Arbeitsblatt",
+                    "Buchstaben Code Rätsel",
+                    "Nachricht entschlüsseln Übung",
+                    "Code knacken Deutsch",
+                    "Geheimcode für Kinder"
+                ],
+                description: [
+                    "Knacke den Code in diesem Geheimschrift-Rätsel. Kinder entschlüsseln Buchstaben um versteckte Wörter zu finden.",
+                    "Diese Geheimcode-Arbeitsblätter fördern logisches Denken und Buchstabenerkennung bei Grundschülern.",
+                    "Kostenlose Entschlüsselungs-Arbeitsblätter mit Bildhinweisen zum Ausdrucken. Perfekt für Deutsch-Förderung.",
+                    "Deutsch Arbeitsblätter mit Buchstabenrätseln. Kombiniert Problemlösung mit Wortschatz-Übungen.",
+                    "Lustiges Code-Knacker-Rätsel für Grundschüler. Fördert logisches Denken und Rechtschreibbewusstsein."
+                ]
+            },
+            'alphabet-train': {
+                altText: [
+                    "Kostenlose Alphabet Zug Arbeitsblätter für Vorschule Buchstaben lernen",
+                    "ABC Zug Arbeitsblatt für Kindergarten Buchstabenreihenfolge üben",
+                    "Buchstaben lernen Alphabet Zug Arbeitsblätter mit bunten Waggons",
+                    "Vorschule Arbeitsblätter Buchstabenzug für ABC Reihenfolge",
+                    "Alphabet lernen Zug Arbeitsblätter zum Ausdrucken kostenlos"
+                ],
+                title: [
+                    "Alphabet Zug Arbeitsblatt",
+                    "ABC Zug Buchstaben lernen",
+                    "Buchstabenreihenfolge Zug",
+                    "Alphabet Zug für Kinder",
+                    "ABC Lernzug Vorschule"
+                ],
+                description: [
+                    "Buchstabenreihenfolge lernen mit diesem bunten Alphabet-Zug Arbeitsblatt. Perfekt für Vorschule und Kindergarten.",
+                    "Dieser ABC-Zug hilft Kindern beim Üben der Buchstabenreihenfolge in einem lustigen, ansprechenden Format.",
+                    "Kostenloser Alphabet-Zug zum Ausdrucken für Leseanfänger. Kinder ordnen Buchstaben von A bis Z.",
+                    "Buchstaben lernen mit diesem zugthematischen Alphabet-Arbeitsblatt. Ideal für Vorschule Lernzentren.",
+                    "Lustiges Alphabet-Zug Arbeitsblatt das Buchstabenreihenfolge lehrt. Perfekt für Kindergarten und Vorschule."
+                ]
+            },
+            'prepositions': {
+                altText: [
+                    "Kostenlose Präpositionen Arbeitsblätter mit Bildbeispielen für Kinder",
+                    "Lagebeziehungen Arbeitsblatt in auf unter neben für Grundschule",
+                    "Deutsch Arbeitsblätter Präpositionen mit Bildszenen für Anfänger",
+                    "Wo ist es Arbeitsblatt Ortsangaben mit visuellen Beispielen",
+                    "Raumbegriffe Arbeitsblätter für Deutschunterricht Grundschule"
+                ],
+                title: [
+                    "Präpositionen Arbeitsblatt",
+                    "Lagebeziehungen Übung",
+                    "Ortsangaben Arbeitsblatt",
+                    "Präpositionen mit Bildern",
+                    "Wo ist es Arbeitsblatt"
+                ],
+                description: [
+                    "Präpositionen lernen mit diesem visuellen Arbeitsblatt. In, auf, unter, neben anschaulich erklärt für Grundschüler.",
+                    "Diese Lagebeziehungen-Arbeitsblätter vermitteln räumlichen Wortschatz durch klare Bildbeispiele.",
+                    "Kostenlose Präpositionen Arbeitsblätter zum Ausdrucken für Deutsch Grundschule. Visuelle Szenen zeigen Bedeutungen.",
+                    "Deutsch Grammatik Übungen für Ortsangaben und Lagebeziehungen. Kinder erkennen wo Objekte sich befinden.",
+                    "Ansprechende Präpositionen-Arbeitsblätter mit Bildern für räumliche Beziehungen. Ideal für Deutschunterricht."
+                ]
+            },
+            'writing': {
+                altText: [
+                    "Kostenlose Schreibübungen Arbeitsblätter mit gepunkteten Buchstaben-Führungen",
+                    "Buchstaben nachspuren Arbeitsblatt für Kindergarten Schreibenlernen",
+                    "Schwungübungen Arbeitsblätter mit Linien für Grundschule Schrift",
+                    "Vorschule Arbeitsblätter Buchstabenformen mit Nachspurübungen",
+                    "Schreiben lernen Arbeitsblätter mit Alphabet-Nachspuren für Anfänger"
+                ],
+                title: [
+                    "Schreibübung Arbeitsblatt",
+                    "Buchstaben nachspuren Übung",
+                    "Schreiben lernen Vorschule",
+                    "Alphabet Schreibübung",
+                    "Schwungübungen Anfänger"
+                ],
+                description: [
+                    "Schreibfertigkeiten entwickeln mit diesem Nachspur-Arbeitsblatt. Mit gepunkteten Führungen für richtige Buchstabenformen.",
+                    "Diese Buchstaben-Nachspurübungen helfen Kindergartenkindern beim Üben korrekter Schreibtechnik.",
+                    "Kostenlose Schwungübungen Arbeitsblätter mit Linienführung zum Ausdrucken. Perfekt für Feinmotorik-Entwicklung.",
+                    "Schreiben lernen mit diesem Buchstabenform-Arbeitsblatt. Mit Nachspuren und freien Übungsbereichen.",
+                    "Schreibübung Arbeitsblatt für Kindergarten und 1. Klasse. Fördert Handschrift und Feinmotorik."
+                ]
+            },
+
+            // ===== KUNST APPS =====
+            'coloring': {
+                altText: [
+                    "Kostenlose Ausmalbilder zum Ausdrucken mit detaillierten Illustrationen für Kinder",
+                    "Malvorlagen Arbeitsblatt mit Themenbild für Grundschule und Kindergarten",
+                    "Ausmalbilder Kinder mit Strichzeichnungen für kreatives Gestalten",
+                    "Kinderfreundliche Malvorlagen für Feinmotorik-Entwicklung",
+                    "Themen Ausmalbilder für Unterricht oder Zuhause kostenlos"
+                ],
+                title: [
+                    "Ausmalbild zum Ausdrucken",
+                    "Malvorlage für Kinder",
+                    "Kreatives Ausmalen Arbeitsblatt",
+                    "Themen Ausmalbild",
+                    "Malvorlage Download kostenlos"
+                ],
+                description: [
+                    "Kreativität ausdrücken mit diesem detaillierten Ausmalbild. Perfekt für Feinmotorik und künstlerischen Ausdruck.",
+                    "Diese druckbare Malvorlage bietet ansprechende Bildmotive für Grundschulkinder. Ideal für ruhige Beschäftigung.",
+                    "Kostenloses Ausmalbild mit Themenillustration. Fördert Hand-Auge-Koordination und Farberkennung.",
+                    "Schöne Malvorlage für den Unterricht oder Zuhause. Bietet beruhigende kreative Beschäftigung für Kinder.",
+                    "Ausmalbilder für junge Künstler zum Ausdrucken. Ideal für Kunstzentren und Beschäftigung drinnen."
+                ]
+            },
+            'draw-and-color': {
+                altText: [
+                    "Kostenlose Malen und Zeichnen Arbeitsblätter für kreative Kinder",
+                    "Anleitungszeichnen Arbeitsblatt mit Ausmalbereich für junge Künstler",
+                    "Zeichnen und Ausmalen Arbeitsblatt mit Schritt-für-Schritt Bildanleitung",
+                    "Kreatives Zeichnen Arbeitsblatt mit Mal-Anleitung und Ausmalen",
+                    "Malen und Zeichnen Arbeitsblatt für Kunst-Aktivitäten Grundschule"
+                ],
+                title: [
+                    "Malen und Zeichnen Arbeitsblatt",
+                    "Anleitungszeichnen Übung",
+                    "Zeichnen und Ausmalen für Kinder",
+                    "Kreatives Kunst Arbeitsblatt",
+                    "Zeichnen und Ausmalen Vorlage"
+                ],
+                description: [
+                    "Kunstfertigkeiten entwickeln mit diesem Malen-und-Zeichnen Arbeitsblatt. Kinder gestalten und malen eigene Bilder.",
+                    "Diese Anleitungszeichnen-Arbeitsblätter führen Kinder durch Kunstwerke erstellen und dann ihr Meisterwerk ausmalen.",
+                    "Kostenlose Malen-und-Zeichnen Arbeitsblätter für kreativen Ausdruck zum Ausdrucken. Perfekt für Kunstunterricht.",
+                    "Kunst-Arbeitsblatt das junge Künstler mit kombiniertem Zeichnen und Ausmalen begeistert. Fördert Feinmotorik.",
+                    "Lustiges Malen-und-Zeichnen Arbeitsblatt das künstlerischen Ausdruck ermutigt. Ideal für Kunst-Aktivitäten Grundschule."
+                ]
+            },
+
+            // ===== FEINMOTORIK APP =====
+            'drawing-lines': {
+                altText: [
+                    "Kostenlose Schwungübungen Arbeitsblätter für Vorschule Feinmotorik Training",
+                    "Linien nachspuren Arbeitsblatt für Kindergarten Stiftführung üben",
+                    "Vorbereitende Schreibübungen Arbeitsblatt mit Linienmustern für Kinder",
+                    "Feinmotorik Linien Nachspurübungen Arbeitsblatt für Anfänger",
+                    "Schwungübungen Linien Arbeitsblätter für Schreibvorbereitung kostenlos"
+                ],
+                title: [
+                    "Schwungübungen Arbeitsblatt",
+                    "Linien nachspuren Übung",
+                    "Vorbereitendes Schreiben Übung",
+                    "Feinmotorik Linien Übung",
+                    "Schwungübungen für Kinder"
+                ],
+                description: [
+                    "Feinmotorik entwickeln mit diesem Schwungübungen Arbeitsblatt. Verschiedene Muster für Stiftführung üben.",
+                    "Diese vorbereitenden Schreibübungen helfen Kindern gerade und geschwungene Linien genau zu zeichnen.",
+                    "Kostenlose Schwungübungen Arbeitsblätter für Vorschule und Kindergarten zum Ausdrucken. Fördert Schreibbereitschaft.",
+                    "Stiftführung üben mit diesem Linien-Arbeitsblatt. Mit Zickzack, Wellen und geraden Linien.",
+                    "Feinmotorik Grundlagen aufbauen mit diesen Nachspurübungen. Perfekt für Schreibvorbereitung."
+                ]
+            },
+
+            // ===== SPIELE APPS =====
+            'bingo': {
+                altText: [
+                    "Kostenlose Bilder Bingo Karten zum Ausdrucken für Unterricht Spiele",
+                    "Visuelles Bingo Spielkarten mit Themenbildern für Kinder",
+                    "Bingo Arbeitsblatt mit Bildfeldern für Gruppenspiel Grundschule",
+                    "Lernspiel Bingo Karten mit bunten Bildern zum Spielen und Lernen",
+                    "Themen Bingo Spiel Vorlagen für Unterricht oder Feier kostenlos"
+                ],
+                title: [
+                    "Bilder Bingo Karten",
+                    "Bingo Spiel Vorlage",
+                    "Visuelles Bingo für Kinder",
+                    "Unterricht Bingo Karten",
+                    "Themen Bingo Spiel"
+                ],
+                description: [
+                    "Bingo spielen mit diesen druckbaren Bildkarten. Perfekt für Unterrichtsspiele, Feiern und Lernaktivitäten.",
+                    "Dieses visuelle Bingo-Spiel bietet Themenbilder für spannendes Gruppenspiel. Mit mehreren einzigartigen Karten.",
+                    "Kostenlose Bingo Karten zum Ausdrucken für Lernspiele. Ideal für Wortschatz-Wiederholung und Unterrichtsspaß.",
+                    "Lernspiel Bingo mit Bildkarten für Kinder. Perfekt für Lernzentren und Belohnungsaktivitäten.",
+                    "Lustiges Bingo Spiel Vorlagen mit bunten Bildern. Ideal für Unterrichtsspiele und Gruppenaktivitäten."
+                ]
+            },
+            'treasure-hunt': {
+                altText: [
+                    "Kostenlose Schatzsuche Arbeitsblätter mit Bild-Hinweisen für Kinder",
+                    "Schnitzeljagd Arbeitsblatt mit visuellen Such-Hinweisen zum Ausdrucken",
+                    "Schatzsuche Spiel Vorlage mit Themen Bild-Rätseln für Grundschule",
+                    "Abenteuer Schatzsuche Arbeitsblatt für Unterrichtsspiele Kinder",
+                    "Schatzsuche mit Bildhinweisen für junge Entdecker kostenlos"
+                ],
+                title: [
+                    "Schatzsuche Arbeitsblatt",
+                    "Schnitzeljagd Arbeitsblatt",
+                    "Schatzsuche Spiel",
+                    "Abenteuer Such-Vorlage",
+                    "Bildhinweise Schatzsuche"
+                ],
+                description: [
+                    "Auf Abenteuer gehen mit diesem Schatzsuche Arbeitsblatt. Bild-Hinweisen folgen um den versteckten Schatz zu finden.",
+                    "Diese Schnitzeljagd begeistert Kinder mit visuellen Rätseln. Perfekt für drinnen oder draußen spielen.",
+                    "Kostenlose Schatzsuche Spiel Vorlage für Unterricht oder Zuhause zum Ausdrucken. Mit Themen Bild-Hinweisen.",
+                    "Junge Entdecker begeistern mit dieser Abenteuer-Schatzsuche. Fördert Problemlösung und Beobachtung.",
+                    "Lustige Schatzsuche mit visuellen Hinweisen. Ideal für Feiern, Unterrichtsspiele und Lernaktivitäten."
+                ]
+            },
+
+            // ===== LOGIK APPS =====
+            'sudoku': {
+                altText: [
+                    "Kostenlose Bilder Sudoku Rätsel für Kinder mit bunten Motiven",
+                    "Einfaches Sudoku Arbeitsblatt für Anfänger mit Bildern statt Zahlen",
+                    "Visuelles Sudoku Rätsel für Grundschule mit Themenbildern",
+                    "Kinderfreundliches Sudoku mit Bildsymbolen für logisches Denken",
+                    "Bilder Sudoku Arbeitsblätter für Denkfähigkeiten bei Kindern"
+                ],
+                title: [
+                    "Bilder Sudoku Rätsel",
+                    "Einfaches Sudoku für Kinder",
+                    "Visuelles Sudoku Arbeitsblatt",
+                    "Anfänger Sudoku Übung",
+                    "Bilder Logik Rätsel"
+                ],
+                description: [
+                    "Logisches Denken entwickeln mit diesem Bilder-Sudoku Rätsel. Verwendet Bilder statt Zahlen für junge Rätsellöser.",
+                    "Dieses kinderfreundliche Sudoku-Arbeitsblatt führt Logik-Rätsel mit bunten Bildern ein. Perfekt für Anfänger.",
+                    "Kostenloses visuelles Sudoku für Grundschüler zum Ausdrucken. Fördert Denkfähigkeiten durch bildbasierte Rätsel.",
+                    "Junge Köpfe mit diesem Bilder-Sudoku fordern. Tolle Einführung in logisches Denken und Problemlösung.",
+                    "Einfaches Sudoku Rätsel mit Themenbildern. Entwickelt kritisches Denken während Kinder Spaß haben."
+                ]
+            },
+            'odd-one-out': {
+                altText: [
+                    "Kostenlose Was passt nicht Arbeitsblätter für logisches Denken üben",
+                    "Finde das Andere Arbeitsblatt für visuelle Unterscheidung bei Kindern",
+                    "Was passt nicht Rätsel Arbeitsblätter für Grundschule Denkübungen",
+                    "Welches ist anders Arbeitsblatt für logisches Denken Kinder",
+                    "Außenseiter finden Arbeitsblätter für Kategorisieren und Denken"
+                ],
+                title: [
+                    "Was passt nicht Arbeitsblatt",
+                    "Finde das Andere Übung",
+                    "Welches ist anders Rätsel",
+                    "Was passt nicht Rätsel",
+                    "Logisches Denken Übung"
+                ],
+                description: [
+                    "Kritisches Denken entwickeln mit diesem Was-passt-nicht Arbeitsblatt. Kinder erkennen welches Bild nicht dazugehört.",
+                    "Diese Unterscheidungs-Arbeitsblätter fördern Denkfähigkeiten. Perfekt für Grundschule Logik-Übungen.",
+                    "Kostenloses Finde-das-Andere Arbeitsblatt zum Ausdrucken. Ideal für Kategorisierungsfähigkeiten entwickeln.",
+                    "Kinder mit diesem Was-passt-nicht Rätsel fordern. Fördert Beobachtung und logisches Denken.",
+                    "Lustiges Welches-ist-anders Arbeitsblatt für kritisches Denken. Ideal für frühe Denkentwicklung."
+                ]
+            },
+            'picture-path': {
+                altText: [
+                    "Kostenlose Bild-Pfad Labyrinth Arbeitsblätter für visuelles Denken",
+                    "Folge dem Pfad Arbeitsblatt mit Themenbildern für junge Lerner",
+                    "Bildweg Rätsel für Reihenfolge-Denken bei Kindern entwickeln",
+                    "Visuelles Labyrinth Arbeitsblatt Bildfolgen für Grundschüler",
+                    "Bild-Pfad Arbeitsblätter für logisches Denken üben kostenlos"
+                ],
+                title: [
+                    "Bild-Pfad Arbeitsblatt",
+                    "Folge dem Pfad Übung",
+                    "Bildweg Rätsel",
+                    "Visuelles Reihenfolge Labyrinth",
+                    "Bild-Pfad für Kinder"
+                ],
+                description: [
+                    "Durch dieses Bild-Pfad Labyrinth navigieren. Kinder folgen visuellen Reihenfolgen um das Ziel zu erreichen.",
+                    "Diese Pfad-Arbeitsblätter entwickeln Reihenfolge-Denken durch bildbasierte Navigation. Perfekt für Logik üben.",
+                    "Kostenloses Bild-Pfad Rätsel für junge Lerner zum Ausdrucken. Fördert visuelles Denken und Richtungssinn.",
+                    "Kinder mit diesem Folge-dem-Pfad Arbeitsblatt fordern. Ideal für logische Denkfähigkeiten entwickeln.",
+                    "Lustiges Bildweg Arbeitsblatt für visuelle Unterscheidung und Reihenfolgen. Ideal für frühe Logik-Fähigkeiten."
+                ]
+            },
+            'pattern-train': {
+                altText: [
+                    "Kostenlose Muster-Zug Arbeitsblätter für Reihenfolge erkennen üben",
+                    "Zugwaggon Muster Arbeitsblatt für Kindergarten logisches Denken",
+                    "Visuelles Muster-Zug Arbeitsblatt mit wiederholenden Bildfolgen",
+                    "Muster fortsetzen Zug Arbeitsblatt für frühes Mathe-Denken",
+                    "Zug Muster Arbeitsblätter für Reihenfolge lernen kostenlos"
+                ],
+                title: [
+                    "Muster-Zug Arbeitsblatt",
+                    "Zug Reihenfolge Übung",
+                    "Muster fortsetzen Zug",
+                    "Muster-Zug für Kinder",
+                    "Zug Muster Rätsel"
+                ],
+                description: [
+                    "Muster erkennen üben mit diesem zugthematischen Arbeitsblatt. Kinder vervollständigen wiederholende Reihenfolgen auf Waggons.",
+                    "Dieses Muster-Zug Arbeitsblatt lehrt Reihenfolgen durch visuelle Zugwaggon-Muster. Perfekt für Kindergarten Mathe.",
+                    "Kostenloses Zug-Muster Arbeitsblatt für Leseanfänger zum Ausdrucken. Entwickelt logisches Denken und Mustererkennung.",
+                    "Kinder mit diesem Muster-fortsetzen Zug Arbeitsblatt fordern. Fördert grundlegende Mathe-Denkfähigkeiten.",
+                    "Lustiges zugthematisches Muster-Arbeitsblatt für Reihenfolge üben. Ideal für frühe Mathe-Grundlagen."
+                ]
+            },
+            'grid-match': {
+                altText: [
+                    "Kostenlose Gitter-Zuordnung Rätsel Arbeitsblätter für visuelles Denken",
+                    "Gitter-Paare Arbeitsblatt mit Bildpaaren für Gedächtnis und Logik",
+                    "Zuordnungs-Gitter Rätsel Arbeitsblatt für Grundschule kognitive Fähigkeiten",
+                    "Visuelles Gitter-Zuordnung Spiel Arbeitsblatt für Mustererkennung",
+                    "Gitter-Paare Arbeitsblätter für räumliches Denken üben kostenlos"
+                ],
+                title: [
+                    "Gitter-Zuordnung Rätsel",
+                    "Gitter-Paare Arbeitsblatt",
+                    "Bilder Gitter Zuordnung",
+                    "Visuelles Gitter Rätsel",
+                    "Gitter-Zuordnung Arbeitsblatt"
+                ],
+                description: [
+                    "Visuelles Denken entwickeln mit diesem Gitter-Zuordnung Arbeitsblatt. Kinder finden und verbinden passende Bildpaare.",
+                    "Diese Gitter-Zuordnung Arbeitsblätter fördern kognitive Fähigkeiten durch Mustererkennung. Perfekt für Gedächtnis und Logik.",
+                    "Kostenloses Zuordnungs-Gitter Rätsel für Grundschüler zum Ausdrucken. Verbessert visuelle Unterscheidung und Denken.",
+                    "Kinder mit diesem Bilder-Gitter Zuordnungs-Arbeitsblatt fordern. Ideal für räumliches Bewusstsein entwickeln.",
+                    "Lustiges Gitter-Zuordnung Arbeitsblatt für visuelle Lerner. Fördert Mustererkennung und Zuordnungsfähigkeiten."
+                ]
+            },
+            'matching': {
+                altText: [
+                    "Kostenlose Zuordnung Arbeitsblätter mit Bildpaaren für Kinder",
+                    "Linien ziehen Zuordnungs-Arbeitsblatt für visuelle Unterscheidung üben",
+                    "Bilder zuordnen Arbeitsblatt für Grundschule Gedächtnis und Denken",
+                    "Paare verbinden Arbeitsblatt mit Themenbildern zum Lernen",
+                    "Zuordnungs-Spiel Arbeitsblätter für kognitive Fähigkeiten kostenlos"
+                ],
+                title: [
+                    "Zuordnung Arbeitsblatt",
+                    "Bilder zuordnen Übung",
+                    "Paare verbinden Arbeitsblatt",
+                    "Zuordnungs-Paare Arbeitsblatt",
+                    "Visuelle Zuordnung Übung"
+                ],
+                description: [
+                    "Zuordnungsfähigkeiten üben mit diesem Bildpaare Arbeitsblatt. Kinder ziehen Linien zwischen passenden Bildern.",
+                    "Diese Zuordnungs-Arbeitsblätter entwickeln visuelle Unterscheidung und Gedächtnis. Perfekt für frühe kognitive Entwicklung.",
+                    "Kostenloses Paare-verbinden Arbeitsblatt für Kinder zum Ausdrucken. Fördert Erkennen und Verbindungsfähigkeiten.",
+                    "Kinder mit diesem Bilder-Zuordnungs Arbeitsblatt fordern. Ideal für Lernzentren und selbstständiges Üben.",
+                    "Lustiges Zuordnungs-Paare Arbeitsblatt für visuelle Lerner. Entwickelt kognitive Fähigkeiten durch Paar-Erkennung."
+                ]
+            },
+            'missing-pieces': {
+                altText: [
+                    "Kostenlose Fehlende Teile Rätsel Arbeitsblätter für visuelles Denken",
+                    "Bild vervollständigen Arbeitsblatt mit fehlenden Puzzleteilen für Kinder",
+                    "Fehlendes Teil finden Arbeitsblatt für kritisches Denken üben",
+                    "Visuelles Rätsel Arbeitsblatt mit fehlenden Abschnitten für Denkfähigkeiten",
+                    "Fehlende Teile Arbeitsblätter für räumliches Bewusstsein kostenlos"
+                ],
+                title: [
+                    "Fehlende Teile Rätsel",
+                    "Bild vervollständigen",
+                    "Fehlendes Teil finden",
+                    "Fehlende Teile Arbeitsblatt",
+                    "Visuelles Rätsel Übung"
+                ],
+                description: [
+                    "Visuelles Denken entwickeln mit diesem Fehlende-Teile Rätsel. Kinder erkennen welches Teil jedes Bild vervollständigt.",
+                    "Dieses Bild-Vervollständigen Arbeitsblatt fördert kritisches Denken durch visuelles Rätsellösen. Perfekt für Logik.",
+                    "Kostenloses Fehlendes-Teil-finden Arbeitsblatt zum Ausdrucken. Verbessert räumliches Bewusstsein und visuelle Unterscheidung.",
+                    "Kinder mit diesem Fehlende-Teile Rätsel Arbeitsblatt fordern. Ideal für kognitive Entwicklung und Denken.",
+                    "Lustiges visuelles Rätsel Arbeitsblatt für Problemlösung üben. Kinder ordnen Teile zu um Bilder zu vervollständigen."
+                ]
+            },
+            'picture-sort': {
+                altText: [
+                    "Kostenlose Bilder sortieren Arbeitsblätter für Kategorisieren üben",
+                    "Sortieren und Ordnen Arbeitsblatt mit Themenbildern für Kinder",
+                    "Visuelles Sortieren Arbeitsblatt für Grundschule kritisches Denken",
+                    "Bilder Kategorisieren Arbeitsblatt für logisches Denken entwickeln",
+                    "Sortier-Arbeitsblätter für Klassifizieren üben kostenlos"
+                ],
+                title: [
+                    "Bilder sortieren Arbeitsblatt",
+                    "Sortieren und Ordnen Übung",
+                    "Bilder Kategorisieren",
+                    "Sortier-Arbeitsblatt",
+                    "Visuelles Sortieren Übung"
+                ],
+                description: [
+                    "Kategorisieren üben mit diesem Bilder-Sortieren Arbeitsblatt. Kinder gruppieren Bilder nach gemeinsamen Merkmalen.",
+                    "Diese Sortier-Arbeitsblätter entwickeln logisches Denken durch visuelles Kategorisieren. Perfekt für kritisches Denken.",
+                    "Kostenloses Sortier-Arbeitsblatt für Kinder zum Ausdrucken. Fördert Klassifizierungsfähigkeiten durch Bilder ordnen.",
+                    "Kinder mit diesem Bilder-Sortieren Arbeitsblatt fordern. Ideal für Kategorisieren und Denkfähigkeiten entwickeln.",
+                    "Lustiges visuelles Sortier-Arbeitsblatt für Grundschule Logik. Kinder erkennen Kategorien und ordnen Bilder entsprechend."
+                ]
+            },
+
+            // ===== VISUAL APPS =====
+            'find-objects': {
+                altText: [
+                    "Kostenlose Versteckte Objekte Arbeitsblätter für visuelles Suchen üben",
+                    "Finde die versteckten Bilder Arbeitsblatt für Aufmerksamkeit und Konzentration",
+                    "Ich sehe was Suchbild Arbeitsblatt mit Themenszene für Kinder",
+                    "Visuelles Suchspiel Arbeitsblatt mit versteckten Bildern zum Beobachten",
+                    "Objekte finden Rätsel Arbeitsblätter für visuelle Wahrnehmung kostenlos"
+                ],
+                title: [
+                    "Versteckte Objekte Arbeitsblatt",
+                    "Finde die versteckten Bilder",
+                    "Ich sehe was Arbeitsblatt",
+                    "Visuelles Suchspiel",
+                    "Objekte finden Arbeitsblatt"
+                ],
+                description: [
+                    "Versteckte Objekte in dieser detaillierten Szene suchen. Entwickelt visuelles Suchen und Aufmerksamkeit.",
+                    "Dieses Ich-sehe-was Arbeitsblatt fordert Kinder versteckte Bilder zu finden. Perfekt für Konzentration üben.",
+                    "Kostenloses Versteckte-Objekte Rätsel für Kinder zum Ausdrucken. Fördert visuelle Wahrnehmung und Aufmerksamkeit.",
+                    "Kinder mit diesem Finde-die-Bilder Arbeitsblatt fordern. Ideal für Aufmerksamkeit für Details entwickeln.",
+                    "Lustiges visuelles Suchspiel mit thematischen versteckten Objekten. Perfekt für ruhige Zeit und Konzentration."
+                ]
+            },
+            'shadow-match': {
+                altText: [
+                    "Kostenlose Schatten zuordnen Arbeitsblätter für visuelle Unterscheidung",
+                    "Finde den Schatten Arbeitsblatt mit Silhouetten für Formen erkennen",
+                    "Schatten-Zuordnung Rätsel Arbeitsblatt für Grundschule visuelle Wahrnehmung",
+                    "Bild und Schatten zuordnen Arbeitsblatt für kognitive Entwicklung",
+                    "Schatten-Zuordnung Spiel Arbeitsblätter für visuelles Denken kostenlos"
+                ],
+                title: [
+                    "Schatten zuordnen Arbeitsblatt",
+                    "Finde den Schatten Übung",
+                    "Schatten-Zuordnung Rätsel",
+                    "Silhouetten Zuordnungsspiel",
+                    "Schatten zuordnen für Kinder"
+                ],
+                description: [
+                    "Visuelle Unterscheidung entwickeln mit diesem Schatten-Zuordnung Arbeitsblatt. Kinder verbinden Bilder mit ihren Silhouetten.",
+                    "Dieses Finde-den-Schatten Arbeitsblatt fördert Formerkennung und visuelle Wahrnehmung. Perfekt für frühes Lernen.",
+                    "Kostenloses Schatten-Zuordnung Rätsel für Kinder zum Ausdrucken. Verbessert visuelles Denken durch Silhouetten zuordnen.",
+                    "Kinder mit diesem Bild-und-Schatten Arbeitsblatt fordern. Ideal für kognitive Entwicklung und Beobachtung.",
+                    "Lustiges Schatten-Zuordnung Spiel für visuelle Lerner. Entwickelt Formerkennung und Zuordnungsfähigkeiten."
+                ]
+            }
+        };
+
+        // French SEO Presets - 33 apps x 5 options x 3 fields = 495 pieces of content
+        const seoPresetsFR = {
+            // ===== MATHS APPS =====
+            'addition': {
+                altText: [
+                    "Fiches d'exercices d'addition gratuites avec images pour maternelle et CP",
+                    "Exercices de calcul addition avec dessins pour apprendre à compter",
+                    "Fiches maths addition à imprimer pour Grande Section et école primaire",
+                    "Additions avec images d'animaux pour enfants de maternelle gratuit",
+                    "Exercices d'addition illustrés pour CP CE1 à télécharger"
+                ],
+                title: [
+                    "Fiche Addition - Compter les images",
+                    "Exercices Maths Addition CP",
+                    "Addition Maternelle Grande Section",
+                    "Calcul Addition à imprimer",
+                    "Additions pour enfants gratuit"
+                ],
+                description: [
+                    "Apprenez l'addition avec ces fiches d'exercices gratuites pour maternelle et CP. Images colorées pour faciliter le comptage et le calcul.",
+                    "Exercices d'addition avec dessins pour enfants. Parfait pour apprendre à calculer en Grande Section et CP.",
+                    "Fiches de maths addition à imprimer gratuitement. Idéal pour l'école primaire et le soutien scolaire à la maison.",
+                    "Additions illustrées pour les enfants de maternelle. Avec corrigés pour une correction facile.",
+                    "Apprendre à additionner avec ces exercices visuels. Parfait pour la numération en CP et CE1."
+                ]
+            },
+            'subtraction': {
+                altText: [
+                    "Fiches d'exercices de soustraction gratuites avec images pour maternelle et CP",
+                    "Exercices de calcul soustraction avec dessins pour apprendre à compter",
+                    "Fiches maths soustraction à imprimer pour Grande Section et école primaire",
+                    "Soustractions avec images pour enfants de maternelle gratuit",
+                    "Exercices de soustraction illustrés pour CP CE1 à télécharger"
+                ],
+                title: [
+                    "Fiche Soustraction - Compter les images",
+                    "Exercices Maths Soustraction CP",
+                    "Soustraction Maternelle Grande Section",
+                    "Calcul Soustraction à imprimer",
+                    "Soustractions pour enfants gratuit"
+                ],
+                description: [
+                    "Apprenez la soustraction avec ces fiches d'exercices gratuites pour maternelle et CP. Images colorées pour faciliter le calcul.",
+                    "Exercices de soustraction avec dessins pour enfants. Parfait pour apprendre à soustraire en Grande Section et CP.",
+                    "Fiches de maths soustraction à imprimer gratuitement. Idéal pour l'école primaire et le soutien scolaire.",
+                    "Soustractions illustrées pour les enfants de maternelle. Avec corrigés pour une correction facile.",
+                    "Apprendre à soustraire avec ces exercices visuels. Parfait pour la numération en CP et CE1."
+                ]
+            },
+            'math-worksheet': {
+                altText: [
+                    "Fiches d'exercices de maths variés gratuits pour maternelle et école primaire",
+                    "Exercices de calcul mixtes avec additions et soustractions pour CP",
+                    "Fiches mathématiques à imprimer avec différents types d'exercices",
+                    "Exercices maths maternelle avec chiffres et comptage à imprimer",
+                    "Fiches de numération et calcul pour Grande Section et CP gratuit"
+                ],
+                title: [
+                    "Fiche Maths Exercices Variés",
+                    "Exercices Calcul Mixtes CP",
+                    "Mathématiques Maternelle à imprimer",
+                    "Fiche Numération gratuit",
+                    "Exercices Maths École Primaire"
+                ],
+                description: [
+                    "Fiches de maths variées pour maternelle et école primaire. Addition, soustraction et reconnaissance des nombres.",
+                    "Exercices de calcul mixtes pour CP et CE1. Parfait pour la pratique quotidienne des mathématiques.",
+                    "Fiches mathématiques gratuites à imprimer pour les enfants. Avec différents types d'exercices.",
+                    "Apprendre les maths avec ces fiches visuelles. Idéal pour l'école ou à la maison.",
+                    "Exercices de numération pour maternelle et école primaire. Avec corrigés pour un apprentissage efficace."
+                ]
+            },
+            'pattern-worksheet': {
+                altText: [
+                    "Fiches d'exercices suites logiques gratuites pour maternelle et Grande Section",
+                    "Exercices reconnaissance de motifs avec images colorées pour enfants",
+                    "Fiches logique continuer la suite pour CP et école primaire",
+                    "Suites logiques maternelle avec dessins à compléter gratuit",
+                    "Exercices algorithmes et motifs pour développer le raisonnement"
+                ],
+                title: [
+                    "Fiche Suites Logiques Maternelle",
+                    "Exercices Motifs et Algorithmes",
+                    "Continuer la Suite CP",
+                    "Logique Reconnaissance Motifs",
+                    "Algorithmes pour Enfants gratuit"
+                ],
+                description: [
+                    "Reconnaître et continuer les suites logiques avec ces fiches gratuites. Parfait pour le raisonnement en maternelle.",
+                    "Exercices de motifs qui développent la logique chez les enfants. Images colorées pour un apprentissage ludique.",
+                    "Fiches gratuites pour compléter des suites logiques en maternelle et CP. Avec séquences visuelles.",
+                    "Exercices d'algorithmes pour maternelle et école primaire. Idéal pour développer le raisonnement logique.",
+                    "Développer la logique avec ces exercices de suites. Parfait pour les mathématiques en Grande Section."
+                ]
+            },
+            'math-puzzle': {
+                altText: [
+                    "Jeux de maths et énigmes gratuits pour enfants avec images",
+                    "Casse-tête mathématiques pour maternelle et école primaire à imprimer",
+                    "Énigmes de calcul pour CP CE1 avec dessins amusants",
+                    "Puzzles maths pour apprendre en s'amusant gratuit",
+                    "Jeux logiques mathématiques pour enfants à télécharger"
+                ],
+                title: [
+                    "Énigme Maths pour Enfants",
+                    "Casse-tête Calcul à imprimer",
+                    "Puzzle Mathématiques CP",
+                    "Jeu de Maths Maternelle",
+                    "Énigmes Maths gratuit"
+                ],
+                description: [
+                    "Énigmes mathématiques amusantes pour les enfants. Combine calcul et raisonnement logique.",
+                    "Casse-têtes de maths pour apprendre en s'amusant. Parfait pour les enfants de CP et CE1.",
+                    "Puzzles mathématiques gratuits à imprimer. Développe la logique et les compétences en calcul.",
+                    "Jeux de maths avec images pour les enfants de maternelle. Solutions cachées à découvrir.",
+                    "Apprendre les maths en s'amusant avec ces énigmes. Idéal pour les petits matheux."
+                ]
+            },
+            'code-addition': {
+                altText: [
+                    "Fiches code secret addition gratuites pour enfants école primaire",
+                    "Exercices calcul avec message codé pour CP CE1 à imprimer",
+                    "Addition avec code à déchiffrer pour apprendre en s'amusant",
+                    "Fiches maths code secret maternelle et Grande Section gratuit",
+                    "Message caché addition exercices pour enfants à télécharger"
+                ],
+                title: [
+                    "Code Secret Addition CP",
+                    "Message Codé Maths",
+                    "Addition Déchiffrer le Code",
+                    "Code Secret Calcul Enfants",
+                    "Additions Code à imprimer"
+                ],
+                description: [
+                    "Résous les additions et déchiffre le code secret sur cette fiche de maths amusante. Parfait pour CP et CE1.",
+                    "Exercices d'addition avec message codé pour les enfants. Apprendre les maths en s'amusant.",
+                    "Fiches maths gratuites avec code secret à imprimer. L'addition devient une aventure passionnante.",
+                    "Déchiffrer le message caché en calculant. Parfait pour motiver les enfants en mathématiques.",
+                    "Exercices de code addition motivants pour l'école. Avec clé de décodage pour la correction."
+                ]
+            },
+            'chart-count': {
+                altText: [
+                    "Fiches graphiques et comptage gratuites pour maternelle et Grande Section",
+                    "Exercices diagrammes à compléter pour enfants école primaire",
+                    "Tableaux à remplir avec comptage d'images pour CP à imprimer",
+                    "Graphiques pictogrammes maternelle pour apprendre à compter gratuit",
+                    "Fiches données et tableaux pour enfants à télécharger"
+                ],
+                title: [
+                    "Graphique Comptage Maternelle",
+                    "Diagramme à Compléter CP",
+                    "Tableau Comptage Enfants",
+                    "Pictogrammes Maths à imprimer",
+                    "Graphiques Données gratuit"
+                ],
+                description: [
+                    "Compter et créer des graphiques avec ces fiches gratuites. Parfait pour les premiers concepts de données en maternelle.",
+                    "Exercices de diagrammes pour apprendre à organiser les données. Idéal pour l'école primaire.",
+                    "Fiches gratuites de pictogrammes à imprimer pour maternelle et CP. Apprendre à collecter des données.",
+                    "Exercices de tableaux et comptage pour développer les compétences mathématiques des enfants.",
+                    "Comprendre les graphiques avec ces exercices visuels. Introduction aux statistiques pour enfants."
+                ]
+            },
+            'more-less': {
+                altText: [
+                    "Fiches comparer plus ou moins gratuites pour maternelle et Grande Section",
+                    "Exercices plus grand plus petit avec images pour enfants",
+                    "Comparaison de quantités à imprimer pour CP école primaire",
+                    "Plus ou moins exercices maternelle avec dessins gratuit",
+                    "Fiches comparer les nombres pour enfants à télécharger"
+                ],
+                title: [
+                    "Plus ou Moins Maternelle",
+                    "Comparer Plus Grand Plus Petit",
+                    "Comparaison Quantités CP",
+                    "Plus Moins Égal à imprimer",
+                    "Comparer Nombres Enfants"
+                ],
+                description: [
+                    "Comparer les quantités avec ces fiches gratuites pour maternelle et CP. Comprendre plus, moins et égal.",
+                    "Exercices de comparaison pour apprendre plus grand et plus petit en comptant les images.",
+                    "Fiches gratuites de comparaison de nombres pour les enfants. Quelle quantité est plus grande?",
+                    "Exercices de comparaison de quantités pour développer le sens des nombres chez les enfants.",
+                    "Plus, moins ou égal avec ces exercices visuels. Parfait pour les mathématiques en maternelle."
+                ]
+            },
+            'find-and-count': {
+                altText: [
+                    "Fiches cherche et compte gratuites pour maternelle et Grande Section",
+                    "Exercices trouver et compter les images pour enfants école primaire",
+                    "Jeu de comptage chercher les objets à imprimer pour CP",
+                    "Cherche et compte maternelle avec dessins thématiques gratuit",
+                    "Fiches observation et comptage pour enfants à télécharger"
+                ],
+                title: [
+                    "Cherche et Compte Maternelle",
+                    "Trouver et Compter CP",
+                    "Jeu Comptage Observation",
+                    "Chercher les Images à imprimer",
+                    "Compter les Objets gratuit"
+                ],
+                description: [
+                    "Chercher et compter avec ces fiches pour maternelle. Les enfants trouvent les images thématiques et les comptent.",
+                    "Exercices d'observation et de comptage pour développer les compétences numériques des enfants.",
+                    "Fiches gratuites cherche et compte à imprimer. Parfait pour la numération en maternelle.",
+                    "Jeux de comptage amusants qui rendent l'exercice des nombres ludique. Idéal pour l'école ou à la maison.",
+                    "Pratiquer le comptage avec ces images de recherche visuelles. Les enfants trouvent et notent les totaux."
+                ]
+            },
+            'big-small': {
+                altText: [
+                    "Fiches grand et petit gratuites pour maternelle et Grande Section",
+                    "Exercices comparer les tailles avec images pour enfants",
+                    "Plus grand plus petit à imprimer pour maternelle école primaire",
+                    "Trier par taille exercices maternelle avec dessins gratuit",
+                    "Fiches comparaison grandeurs pour enfants à télécharger"
+                ],
+                title: [
+                    "Grand et Petit Maternelle",
+                    "Comparer les Tailles CP",
+                    "Plus Grand Plus Petit Trier",
+                    "Tailles à Trier à imprimer",
+                    "Grandeurs Comparaison gratuit"
+                ],
+                description: [
+                    "Comparer les tailles avec ces fiches grand-petit pour maternelle. Parfait pour la perception visuelle.",
+                    "Exercices de comparaison de tailles pour aider les enfants à comprendre grand et petit par le tri d'images.",
+                    "Fiches gratuites de tri par taille pour maternelle. Reconnaître et comparer les grandeurs.",
+                    "Exercices de comparaison grand-petit avec des exemples visuels clairs. Développe le raisonnement spatial.",
+                    "Trier par taille avec ces fiches pour les mathématiques en maternelle. Idéal pour les activités d'éveil."
+                ]
+            },
+
+            // ===== LANGAGE APPS =====
+            'wordsearch': {
+                altText: [
+                    "Mots mêlés gratuits pour enfants avec vocabulaire thématique CP CE1",
+                    "Grille de mots cachés à imprimer pour école primaire",
+                    "Mots croisés cachés pour apprendre le vocabulaire en s'amusant",
+                    "Fiches mots mêlés maternelle Grande Section avec dessins gratuit",
+                    "Chercher les mots exercices français pour enfants à télécharger"
+                ],
+                title: [
+                    "Mots Mêlés Enfants",
+                    "Mots Cachés à imprimer",
+                    "Grille Mots Mêlés CP",
+                    "Chercher les Mots gratuit",
+                    "Mots Mêlés Vocabulaire"
+                ],
+                description: [
+                    "Enrichir le vocabulaire avec ces mots mêlés amusants. Les enfants trouvent les mots cachés et pratiquent l'orthographe.",
+                    "Grilles de mots mêlés avec vocabulaire thématique pour l'école primaire. Parfait pour l'apprentissage du français.",
+                    "Mots cachés gratuits à imprimer pour l'école ou la maison. Développe la concentration et l'orthographe.",
+                    "Fiches de mots mêlés pour l'apprentissage du vocabulaire et de l'orthographe. Avec liste de mots et solution.",
+                    "Jeux de recherche de mots qui rendent l'apprentissage du vocabulaire amusant. Parfait pour les centres de lecture."
+                ]
+            },
+            'word-scramble': {
+                altText: [
+                    "Fiches lettres mélangées gratuites pour orthographe école primaire",
+                    "Exercices remettre les lettres en ordre avec images pour enfants",
+                    "Anagrammes pour enfants à imprimer CP CE1 avec dessins",
+                    "Lettres mélangées français exercices pour apprendre l'orthographe",
+                    "Fiches reconstituer les mots pour enfants à télécharger gratuit"
+                ],
+                title: [
+                    "Lettres Mélangées Orthographe",
+                    "Remettre les Lettres en Ordre",
+                    "Anagrammes pour Enfants CP",
+                    "Mots à Reconstituer",
+                    "Lettres Mélangées à imprimer"
+                ],
+                description: [
+                    "Pratiquer l'orthographe en remettant les lettres mélangées en ordre. Les indices images aident à résoudre.",
+                    "Exercices d'anagrammes pour développer l'orthographe et le vocabulaire. Parfait pour les centres de lecture.",
+                    "Fiches gratuites de lettres mélangées avec vocabulaire thématique à imprimer. Reconstituer les mots.",
+                    "Exercices de remise en ordre des lettres pour apprendre l'orthographe. Développe la conscience phonologique.",
+                    "Anagrammes avec indices visuels pour les exercices de français en primaire. Idéal pour le soutien scolaire."
+                ]
+            },
+            'word-guess': {
+                altText: [
+                    "Fiches deviner le mot gratuites avec indices images pour enfants",
+                    "Exercices vocabulaire avec dessins pour apprendre les mots CP",
+                    "Deviner le mot à partir des images à imprimer pour école primaire",
+                    "Jeu de vocabulaire avec indices visuels pour enfants gratuit",
+                    "Fiches reconnaissance mots avec images pour maternelle Grande Section"
+                ],
+                title: [
+                    "Deviner le Mot Enfants",
+                    "Vocabulaire avec Images CP",
+                    "Mot à Trouver à imprimer",
+                    "Jeu de Mots Indices",
+                    "Vocabulaire Visuel gratuit"
+                ],
+                description: [
+                    "Développer le vocabulaire avec ces fiches deviner le mot. Les enfants utilisent les indices images pour reconnaître et écrire.",
+                    "Exercices de vocabulaire avec images pour établir des connexions visuelles. Parfait pour les lecteurs débutants.",
+                    "Fiches gratuites deviner le mot avec indices images. Idéal pour le vocabulaire et l'orthographe.",
+                    "Exercices de français avec connexions image-mot. Développe le vocabulaire et l'orthographe.",
+                    "Jeu de devinettes de mots amusant qui renforce l'orthographe et le vocabulaire. Avec images thématiques comme indices."
+                ]
+            },
+            'crossword': {
+                altText: [
+                    "Mots croisés avec images gratuits pour enfants école primaire",
+                    "Mots croisés visuels pour enfants avec dessins au lieu de définitions",
+                    "Mots croisés maternelle avec indices images à imprimer",
+                    "Grille mots croisés thématiques pour CP CE1 avec images",
+                    "Mots croisés à imprimer pour vocabulaire et orthographe gratuit"
+                ],
+                title: [
+                    "Mots Croisés Images Enfants",
+                    "Mots Croisés Visuels CP",
+                    "Mots Croisés Maternelle",
+                    "Mots Croisés avec Dessins",
+                    "Mots Croisés Vocabulaire gratuit"
+                ],
+                description: [
+                    "Résoudre ces mots croisés avec images pour le vocabulaire et l'orthographe. Les dessins aident à trouver les mots.",
+                    "Mots croisés visuels parfaits pour les jeunes apprenants. Les images remplacent les définitions traditionnelles.",
+                    "Mots croisés gratuits avec images thématiques à imprimer. Développe le vocabulaire et la logique.",
+                    "Grille de mots croisés avec dessins pour l'école primaire. Idéal pour les centres de lecture.",
+                    "Mots croisés pour enfants avec indices visuels. Parfait pour l'apprentissage du français en CP CE1."
+                ]
+            },
+            'cryptogram': {
+                altText: [
+                    "Fiches code secret lettres gratuites pour enfants école primaire",
+                    "Exercices déchiffrer le message avec code alphabétique pour CP",
+                    "Cryptogramme pour enfants avec alphabet codé à imprimer",
+                    "Message secret à décoder exercices français pour enfants gratuit",
+                    "Fiches code alphabet pour raisonnement logique à télécharger"
+                ],
+                title: [
+                    "Code Secret Lettres Enfants",
+                    "Déchiffrer le Message CP",
+                    "Cryptogramme à imprimer",
+                    "Message Codé Alphabet",
+                    "Code Secret gratuit"
+                ],
+                description: [
+                    "Déchiffrer le code dans ce cryptogramme. Les enfants décodent les lettres pour trouver les mots cachés.",
+                    "Exercices de code secret pour développer la logique et la reconnaissance des lettres chez les enfants.",
+                    "Fiches gratuites de décodage à imprimer. Parfait pour l'apprentissage du français.",
+                    "Exercices de français avec codes alphabétiques. Combine résolution de problèmes et vocabulaire.",
+                    "Cryptogramme amusant pour les enfants de primaire. Développe la logique et la conscience orthographique."
+                ]
+            },
+            'alphabet-train': {
+                altText: [
+                    "Fiches train alphabet gratuites pour maternelle apprendre les lettres",
+                    "Train ABC pour apprendre l'ordre alphabétique Grande Section",
+                    "Alphabet avec wagons colorés à imprimer pour enfants",
+                    "Fiches maternelle train des lettres pour apprendre l'alphabet gratuit",
+                    "Train alphabet à imprimer pour apprendre les lettres à télécharger"
+                ],
+                title: [
+                    "Train Alphabet Maternelle",
+                    "Train ABC Apprendre Lettres",
+                    "Ordre Alphabétique Train",
+                    "Train des Lettres Enfants",
+                    "Alphabet Train à imprimer"
+                ],
+                description: [
+                    "Apprendre l'ordre alphabétique avec ce train coloré. Parfait pour la maternelle et la Grande Section.",
+                    "Train ABC pour aider les enfants à pratiquer l'ordre des lettres dans un format amusant et engageant.",
+                    "Train alphabet gratuit à imprimer pour les lecteurs débutants. Les enfants placent les lettres de A à Z.",
+                    "Apprendre les lettres avec ce train thématique. Idéal pour les centres de lecture en maternelle.",
+                    "Fiche train alphabet amusante qui enseigne l'ordre des lettres. Parfait pour la Grande Section et le CP."
+                ]
+            },
+            'prepositions': {
+                altText: [
+                    "Fiches prépositions gratuites avec images pour enfants école primaire",
+                    "Exercices de position sur sous devant derrière pour maternelle",
+                    "Prépositions de lieu avec dessins pour apprendre le français CP",
+                    "Où est-il exercices avec exemples visuels pour enfants gratuit",
+                    "Fiches vocabulaire spatial pour enfants maternelle à télécharger"
+                ],
+                title: [
+                    "Prépositions de Lieu Enfants",
+                    "Position Sur Sous Devant",
+                    "Prépositions à imprimer CP",
+                    "Vocabulaire Spatial Maternelle",
+                    "Où est-il Exercices gratuit"
+                ],
+                description: [
+                    "Apprendre les prépositions avec cette fiche visuelle. Sur, sous, devant, derrière expliqués clairement pour les enfants.",
+                    "Exercices de prépositions de lieu pour enseigner le vocabulaire spatial à travers des exemples en images.",
+                    "Fiches gratuites de prépositions à imprimer pour le français en primaire. Les scènes visuelles montrent les significations.",
+                    "Exercices de grammaire pour les prépositions de lieu. Les enfants reconnaissent où les objets sont placés.",
+                    "Fiches engageantes de prépositions avec images pour les relations spatiales. Idéal pour l'apprentissage du français."
+                ]
+            },
+            'writing': {
+                altText: [
+                    "Fiches écriture gratuites avec lettres en pointillés pour maternelle",
+                    "Exercices graphisme tracer les lettres pour apprendre à écrire",
+                    "Écriture cursive à imprimer pour Grande Section et CP",
+                    "Fiches maternelle formes des lettres avec tracés à suivre gratuit",
+                    "Apprendre à écrire fiches avec alphabet en pointillés à télécharger"
+                ],
+                title: [
+                    "Écriture Tracer Lettres",
+                    "Graphisme Maternelle à imprimer",
+                    "Écriture Cursive CP",
+                    "Apprendre à Écrire Lettres",
+                    "Graphisme Débutants gratuit"
+                ],
+                description: [
+                    "Développer les compétences d'écriture avec cette fiche de traçage. Avec guides en pointillés pour les bonnes formes de lettres.",
+                    "Exercices de traçage de lettres pour aider les enfants de maternelle à pratiquer la technique d'écriture correcte.",
+                    "Fiches gratuites de graphisme avec guides de lignes à imprimer. Parfait pour le développement de la motricité fine.",
+                    "Apprendre à écrire avec cette fiche de formes de lettres. Avec traçage et zones de pratique libre.",
+                    "Fiche d'écriture pour maternelle et CP. Développe l'écriture manuscrite et la motricité fine."
+                ]
+            },
+
+            // ===== ARTS APPS =====
+            'coloring': {
+                altText: [
+                    "Coloriage gratuit à imprimer avec illustrations détaillées pour enfants",
+                    "Dessin à colorier thématique pour maternelle et école primaire",
+                    "Coloriage enfants avec dessins au trait pour créativité",
+                    "Coloriages à imprimer pour développer la motricité fine gratuit",
+                    "Dessins à colorier thématiques pour l'école ou la maison"
+                ],
+                title: [
+                    "Coloriage à imprimer Enfants",
+                    "Dessin à Colorier gratuit",
+                    "Coloriage Thématique Maternelle",
+                    "Coloriage Créatif à imprimer",
+                    "Coloriages Télécharger gratuit"
+                ],
+                description: [
+                    "Exprimer la créativité avec ce coloriage détaillé. Parfait pour la motricité fine et l'expression artistique.",
+                    "Coloriage imprimable avec dessins engageants pour les enfants d'école primaire. Idéal pour un moment calme.",
+                    "Coloriage gratuit avec illustration thématique. Développe la coordination œil-main et la reconnaissance des couleurs.",
+                    "Joli coloriage pour l'école ou la maison. Offre une activité créative apaisante pour les enfants.",
+                    "Coloriages pour jeunes artistes à imprimer. Idéal pour les centres d'arts plastiques et les activités d'intérieur."
+                ]
+            },
+            'draw-and-color': {
+                altText: [
+                    "Fiches dessiner et colorier gratuites pour enfants créatifs",
+                    "Apprendre à dessiner avec zone de coloriage pour jeunes artistes",
+                    "Dessiner et colorier avec modèle à suivre à imprimer",
+                    "Fiche dessin créatif avec guide et coloriage pour enfants gratuit",
+                    "Dessiner et colorier pour activités artistiques école primaire"
+                ],
+                title: [
+                    "Dessiner et Colorier Enfants",
+                    "Apprendre à Dessiner à imprimer",
+                    "Dessin et Coloriage Créatif",
+                    "Fiche Arts Plastiques Enfants",
+                    "Dessiner Colorier gratuit"
+                ],
+                description: [
+                    "Développer les compétences artistiques avec cette fiche dessiner et colorier. Les enfants créent et colorient leurs propres images.",
+                    "Fiche d'apprentissage du dessin qui guide les enfants à créer une œuvre d'art puis à colorier leur chef-d'œuvre.",
+                    "Fiches gratuites dessiner et colorier pour expression créative à imprimer. Parfait pour les cours d'arts plastiques.",
+                    "Fiche artistique qui engage les jeunes artistes avec dessin et coloriage combinés. Développe la motricité fine.",
+                    "Fiche amusante dessiner et colorier qui encourage l'expression artistique. Idéal pour les activités en école primaire."
+                ]
+            },
+
+            // ===== MOTRICITÉ FINE APP =====
+            'drawing-lines': {
+                altText: [
+                    "Fiches graphisme gratuites pour maternelle entraînement motricité fine",
+                    "Exercices tracer les lignes pour apprendre à tenir le crayon",
+                    "Graphisme préparatoire à l'écriture avec motifs de lignes pour enfants",
+                    "Fiches motricité fine traçage pour maternelle débutants gratuit",
+                    "Exercices graphisme lignes pour préparation écriture à télécharger"
+                ],
+                title: [
+                    "Graphisme Maternelle Lignes",
+                    "Tracer les Lignes à imprimer",
+                    "Préparation Écriture Exercices",
+                    "Motricité Fine Graphisme",
+                    "Traçage Lignes pour Enfants"
+                ],
+                description: [
+                    "Développer la motricité fine avec cette fiche de graphisme. Différents motifs pour pratiquer la tenue du crayon.",
+                    "Exercices de pré-écriture pour aider les enfants à tracer des lignes droites et courbes avec précision.",
+                    "Fiches gratuites de graphisme pour maternelle à imprimer. Développe la préparation à l'écriture.",
+                    "Pratiquer la tenue du crayon avec cette fiche de lignes. Avec zigzags, vagues et lignes droites.",
+                    "Construire les bases de la motricité fine avec ces exercices de traçage. Parfait pour la préparation à l'écriture."
+                ]
+            },
+
+            // ===== JEUX APPS =====
+            'bingo': {
+                altText: [
+                    "Cartes de bingo images gratuites à imprimer pour jeux en classe",
+                    "Bingo visuel avec images thématiques pour enfants à imprimer",
+                    "Cartes de bingo pour activités de groupe école primaire",
+                    "Jeu bingo éducatif avec images colorées pour enfants gratuit",
+                    "Cartes bingo thématiques pour fêtes et activités scolaires"
+                ],
+                title: [
+                    "Bingo Images à imprimer",
+                    "Cartes Bingo Enfants",
+                    "Bingo Visuel Classe",
+                    "Jeu Bingo Éducatif",
+                    "Bingo Thématique gratuit"
+                ],
+                description: [
+                    "Jouer au bingo avec ces cartes images imprimables. Parfait pour les jeux en classe, les fêtes et les activités d'apprentissage.",
+                    "Jeu de bingo visuel avec images thématiques pour un jeu de groupe engageant. Avec plusieurs cartes uniques.",
+                    "Cartes de bingo gratuites à imprimer pour des jeux éducatifs. Idéal pour la révision de vocabulaire et l'amusement en classe.",
+                    "Jeu bingo éducatif avec cartes images pour les enfants. Parfait pour les centres d'apprentissage et les récompenses.",
+                    "Cartes de bingo thématiques amusantes avec images colorées. Idéal pour les jeux en classe et les activités de groupe."
+                ]
+            },
+            'treasure-hunt': {
+                altText: [
+                    "Fiches chasse au trésor gratuites avec indices images pour enfants",
+                    "Jeu de piste avec indices visuels à imprimer pour école primaire",
+                    "Chasse au trésor thématique avec énigmes images pour enfants",
+                    "Fiche chasse au trésor pour jeux en classe pour enfants gratuit",
+                    "Chasse au trésor avec indices images pour petits explorateurs"
+                ],
+                title: [
+                    "Chasse au Trésor à imprimer",
+                    "Jeu de Piste Enfants",
+                    "Chasse au Trésor Images",
+                    "Aventure Chercher Trouver",
+                    "Chasse au Trésor Indices gratuit"
+                ],
+                description: [
+                    "Partir à l'aventure avec cette fiche chasse au trésor. Suivre les indices images pour trouver le trésor caché.",
+                    "Jeu de piste qui engage les enfants avec des énigmes visuelles. Parfait pour jouer à l'intérieur ou à l'extérieur.",
+                    "Fiche chasse au trésor gratuite à imprimer pour l'école ou la maison. Avec indices images thématiques.",
+                    "Engager les jeunes explorateurs avec cette chasse au trésor aventure. Développe la résolution de problèmes et l'observation.",
+                    "Chasse au trésor amusante avec indices visuels. Idéal pour les fêtes, les jeux en classe et les activités d'apprentissage."
+                ]
+            },
+
+            // ===== LOGIQUE APPS =====
+            'sudoku': {
+                altText: [
+                    "Sudoku images gratuit pour enfants avec dessins colorés",
+                    "Sudoku facile pour débutants avec images au lieu de chiffres",
+                    "Sudoku visuel pour école primaire avec images thématiques",
+                    "Sudoku pour enfants avec symboles images pour logique",
+                    "Fiches sudoku images pour développer le raisonnement à télécharger"
+                ],
+                title: [
+                    "Sudoku Images Enfants",
+                    "Sudoku Facile Débutants",
+                    "Sudoku Visuel à imprimer",
+                    "Sudoku Logique Enfants",
+                    "Sudoku Images gratuit"
+                ],
+                description: [
+                    "Développer la logique avec ce sudoku images. Utilise des dessins au lieu de chiffres pour les jeunes joueurs de puzzles.",
+                    "Sudoku pour enfants qui introduit les puzzles logiques avec des images colorées. Parfait pour les débutants.",
+                    "Sudoku visuel gratuit à imprimer pour les élèves de primaire. Développe le raisonnement par des puzzles basés sur des images.",
+                    "Stimuler les jeunes esprits avec ce sudoku images. Super introduction à la logique et à la résolution de problèmes.",
+                    "Sudoku facile avec images thématiques. Développe la pensée critique tout en s'amusant."
+                ]
+            },
+            'odd-one-out': {
+                altText: [
+                    "Fiches trouver l'intrus gratuites pour développer le raisonnement logique",
+                    "Exercices quel est l'intrus pour discrimination visuelle enfants",
+                    "Trouver l'intrus puzzles pour exercices de logique école primaire",
+                    "Quel est le différent fiches pour raisonnement logique enfants gratuit",
+                    "Fiches trouver l'intrus pour catégorisation et raisonnement à télécharger"
+                ],
+                title: [
+                    "Trouver l'Intrus Enfants",
+                    "Quel Est l'Intrus Exercice",
+                    "Chercher le Différent Puzzle",
+                    "Intrus à Trouver Logique",
+                    "Raisonnement Logique à imprimer"
+                ],
+                description: [
+                    "Développer la pensée critique avec cette fiche trouver l'intrus. Les enfants identifient quelle image n'appartient pas au groupe.",
+                    "Exercices de discrimination pour développer les compétences de raisonnement. Parfait pour les exercices de logique en primaire.",
+                    "Fiche gratuite trouver l'intrus à imprimer. Idéal pour développer les compétences de catégorisation.",
+                    "Stimuler les enfants avec ce puzzle trouver l'intrus. Développe l'observation et le raisonnement logique.",
+                    "Fiche amusante quel est le différent pour la pensée critique. Idéal pour le développement précoce du raisonnement."
+                ]
+            },
+            'picture-path': {
+                altText: [
+                    "Fiches chemin images labyrinthe gratuites pour raisonnement visuel",
+                    "Exercices suivre le chemin avec images thématiques pour jeunes apprenants",
+                    "Puzzle chemin images pour développer le raisonnement séquentiel enfants",
+                    "Fiches labyrinthe visuel suivre les séquences images pour primaire",
+                    "Exercices chemin images pour logique gratuit à télécharger"
+                ],
+                title: [
+                    "Chemin Images Labyrinthe",
+                    "Suivre le Chemin Exercices",
+                    "Puzzle Chemin Séquence",
+                    "Labyrinthe Visuel Enfants",
+                    "Chemin Images gratuit"
+                ],
+                description: [
+                    "Naviguer dans ce labyrinthe chemin images. Les enfants suivent les séquences visuelles pour atteindre l'objectif.",
+                    "Exercices de chemin qui développent le raisonnement séquentiel par navigation basée sur les images. Parfait pour la logique.",
+                    "Puzzle chemin images gratuit à imprimer pour les jeunes apprenants. Développe le raisonnement visuel et le sens de l'orientation.",
+                    "Stimuler les enfants avec cette fiche suivre le chemin. Idéal pour développer les compétences de raisonnement logique.",
+                    "Fiche amusante chemin images pour discrimination visuelle et séquences. Idéal pour les compétences logiques précoces."
+                ]
+            },
+            'pattern-train': {
+                altText: [
+                    "Fiches train des suites gratuites pour pratiquer la reconnaissance des motifs",
+                    "Exercices suites wagons de train pour logique en maternelle",
+                    "Fiches train suites visuelles avec séquences d'images répétitives",
+                    "Compléter la suite train pour raisonnement mathématique précoce",
+                    "Fiches suites train pour apprendre les séquences gratuit à télécharger"
+                ],
+                title: [
+                    "Train des Suites Maternelle",
+                    "Suites Wagons Train CP",
+                    "Compléter la Suite Train",
+                    "Train des Suites Enfants",
+                    "Suites Train Logique gratuit"
+                ],
+                description: [
+                    "Pratiquer la reconnaissance des suites avec cette fiche train thématique. Les enfants complètent les séquences répétitives sur les wagons.",
+                    "Fiche train des suites qui enseigne les séquences par des motifs visuels de wagons. Parfait pour les maths en maternelle.",
+                    "Fiche gratuite suites train à imprimer pour les lecteurs débutants. Développe la logique et la reconnaissance des motifs.",
+                    "Stimuler les enfants avec cette fiche compléter la suite train. Développe les compétences de raisonnement mathématique fondamentales.",
+                    "Fiche amusante train thématique pour pratiquer les séquences. Idéal pour les fondamentaux mathématiques précoces."
+                ]
+            },
+            'grid-match': {
+                altText: [
+                    "Fiches puzzle association grille gratuites pour raisonnement visuel",
+                    "Exercices paires grille avec images pour mémoire et logique",
+                    "Puzzle association grille pour compétences cognitives école primaire",
+                    "Fiches jeu association grille visuelle pour reconnaissance des motifs",
+                    "Exercices paires grille pour raisonnement spatial gratuit à télécharger"
+                ],
+                title: [
+                    "Puzzle Association Grille",
+                    "Paires Grille Mémoire",
+                    "Association Images Grille",
+                    "Puzzle Grille Visuel",
+                    "Association Grille gratuit"
+                ],
+                description: [
+                    "Développer le raisonnement visuel avec cette fiche association grille. Les enfants trouvent et connectent les paires d'images correspondantes.",
+                    "Exercices d'association grille pour développer les compétences cognitives par la reconnaissance des motifs. Parfait pour la mémoire et la logique.",
+                    "Puzzle association grille gratuit à imprimer pour les élèves de primaire. Améliore la discrimination visuelle et le raisonnement.",
+                    "Stimuler les enfants avec cette fiche association images grille. Idéal pour développer la conscience spatiale.",
+                    "Fiche amusante association grille pour les apprenants visuels. Développe la reconnaissance des motifs et les compétences d'association."
+                ]
+            },
+            'matching': {
+                altText: [
+                    "Fiches d'association gratuites avec paires d'images pour enfants",
+                    "Exercices relier les images pour discrimination visuelle",
+                    "Association images pour mémoire et raisonnement école primaire",
+                    "Fiches connecter les paires avec images thématiques pour apprendre",
+                    "Exercices jeu d'association pour compétences cognitives gratuit"
+                ],
+                title: [
+                    "Fiches Association Enfants",
+                    "Relier les Images Exercices",
+                    "Connecter les Paires à imprimer",
+                    "Association Images Mémoire",
+                    "Association Visuelle gratuit"
+                ],
+                description: [
+                    "Pratiquer les compétences d'association avec cette fiche paires d'images. Les enfants tracent des lignes entre les images correspondantes.",
+                    "Exercices d'association pour développer la discrimination visuelle et la mémoire. Parfait pour le développement cognitif précoce.",
+                    "Fiche gratuite connecter les paires à imprimer pour les enfants. Développe les compétences de reconnaissance et de connexion.",
+                    "Stimuler les enfants avec cette fiche association images. Idéal pour les centres d'apprentissage et la pratique autonome.",
+                    "Fiche amusante paires d'association pour les apprenants visuels. Développe les compétences cognitives par la reconnaissance des paires."
+                ]
+            },
+            'missing-pieces': {
+                altText: [
+                    "Fiches puzzle pièces manquantes gratuites pour raisonnement visuel",
+                    "Exercices compléter l'image avec pièces de puzzle manquantes pour enfants",
+                    "Trouver la pièce manquante pour pensée critique",
+                    "Fiches puzzle visuel avec sections manquantes pour raisonnement",
+                    "Exercices pièces manquantes pour conscience spatiale gratuit"
+                ],
+                title: [
+                    "Puzzle Pièces Manquantes",
+                    "Compléter l'Image Exercices",
+                    "Trouver la Pièce Manquante",
+                    "Pièces Manquantes Logique",
+                    "Puzzle Visuel gratuit"
+                ],
+                description: [
+                    "Développer le raisonnement visuel avec ce puzzle pièces manquantes. Les enfants identifient quelle pièce complète chaque image.",
+                    "Exercice compléter l'image qui développe la pensée critique par la résolution de puzzles visuels. Parfait pour la logique.",
+                    "Fiche gratuite trouver la pièce manquante à imprimer. Améliore la conscience spatiale et la discrimination visuelle.",
+                    "Stimuler les enfants avec ce puzzle pièces manquantes. Idéal pour le développement cognitif et le raisonnement.",
+                    "Fiche amusante puzzle visuel pour pratiquer la résolution de problèmes. Les enfants associent les pièces pour compléter les images."
+                ]
+            },
+            'picture-sort': {
+                altText: [
+                    "Fiches trier les images gratuites pour pratiquer la catégorisation",
+                    "Exercices trier et classer avec images thématiques pour enfants",
+                    "Trier les images visuellement pour pensée critique école primaire",
+                    "Fiches catégoriser les images pour développer le raisonnement logique",
+                    "Exercices tri pour pratiquer la classification gratuit à télécharger"
+                ],
+                title: [
+                    "Trier les Images Enfants",
+                    "Trier et Classer Exercices",
+                    "Catégoriser les Images à imprimer",
+                    "Fiches de Tri Logique",
+                    "Tri Visuel gratuit"
+                ],
+                description: [
+                    "Pratiquer la catégorisation avec cette fiche trier les images. Les enfants groupent les images par caractéristiques communes.",
+                    "Exercices de tri pour développer le raisonnement logique par la catégorisation visuelle. Parfait pour la pensée critique.",
+                    "Fiche gratuite tri à imprimer pour les enfants. Développe les compétences de classification par le tri des images.",
+                    "Stimuler les enfants avec cette fiche trier les images. Idéal pour développer la catégorisation et les compétences de raisonnement.",
+                    "Fiche amusante tri visuel pour la logique en école primaire. Les enfants identifient les catégories et trient les images en conséquence."
+                ]
+            },
+
+            // ===== VISUELS APPS =====
+            'find-objects': {
+                altText: [
+                    "Fiches objets cachés gratuites pour pratiquer la recherche visuelle",
+                    "Exercices trouver les images cachées pour attention et concentration",
+                    "Cherche et trouve image scène thématique pour enfants à imprimer",
+                    "Fiches jeu de recherche visuelle avec images cachées à observer",
+                    "Exercices puzzle trouver les objets pour perception visuelle gratuit"
+                ],
+                title: [
+                    "Objets Cachés Enfants",
+                    "Trouver les Images Cachées",
+                    "Cherche et Trouve à imprimer",
+                    "Jeu de Recherche Visuelle",
+                    "Trouver les Objets gratuit"
+                ],
+                description: [
+                    "Chercher les objets cachés dans cette scène détaillée. Développe la recherche visuelle et l'attention.",
+                    "Fiche cherche et trouve qui met les enfants au défi de trouver les images cachées. Parfait pour la pratique de la concentration.",
+                    "Puzzle objets cachés gratuit à imprimer pour les enfants. Développe la perception visuelle et l'attention.",
+                    "Stimuler les enfants avec cette fiche trouver les images. Idéal pour développer l'attention aux détails.",
+                    "Jeu de recherche visuelle amusant avec objets cachés thématiques. Parfait pour le moment calme et la concentration."
+                ]
+            },
+            'shadow-match': {
+                altText: [
+                    "Fiches association ombres gratuites pour discrimination visuelle",
+                    "Exercices trouver l'ombre pour reconnaissance des formes enfants",
+                    "Puzzle association ombres pour perception visuelle école primaire",
+                    "Fiches associer image et ombre pour développement cognitif",
+                    "Exercices jeu association ombres pour raisonnement visuel gratuit"
+                ],
+                title: [
+                    "Association Ombres Enfants",
+                    "Trouver l'Ombre Exercices",
+                    "Puzzle Association Ombres",
+                    "Jeu Silhouettes Association",
+                    "Ombres à Associer gratuit"
+                ],
+                description: [
+                    "Développer la discrimination visuelle avec cette fiche association ombres. Les enfants connectent les images à leurs silhouettes.",
+                    "Exercice trouver l'ombre qui développe la reconnaissance des formes et la perception visuelle. Parfait pour l'apprentissage précoce.",
+                    "Puzzle association ombres gratuit à imprimer pour les enfants. Améliore le raisonnement visuel par l'association des silhouettes.",
+                    "Stimuler les enfants avec cette fiche image et ombre. Idéal pour le développement cognitif et l'observation.",
+                    "Jeu amusant association ombres pour les apprenants visuels. Développe la reconnaissance des formes et les compétences d'association."
+                ]
+            }
+        };
+
+        // Populate SEO dropdowns when modal opens for an app
+        function populateSeoDropdowns(appId) {
+            // Select language-specific presets or fall back to English
+            let presets;
+            if (currentLocale === 'de' && seoPresetsDE[appId]) {
+                presets = seoPresetsDE[appId];
+            } else if (currentLocale === 'fr' && seoPresetsFR[appId]) {
+                presets = seoPresetsFR[appId];
+            } else {
+                presets = seoPresets[appId];
+            }
+
+            // Alt Text dropdown
+            const altSelect = document.getElementById('seo-alt-select');
+            let altPlaceholder = '-- Select pre-written alt text --';
+            if (currentLocale === 'de') altPlaceholder = '-- Vorgefertigten Alt-Text auswählen --';
+            if (currentLocale === 'fr') altPlaceholder = '-- Sélectionner un texte alt prédéfini --';
+            altSelect.innerHTML = `<option value="">${altPlaceholder}</option>`;
+
+            // Title dropdown
+            const titleSelect = document.getElementById('seo-title-select');
+            let titlePlaceholder = '-- Select pre-written title --';
+            if (currentLocale === 'de') titlePlaceholder = '-- Vorgefertigten Titel auswählen --';
+            if (currentLocale === 'fr') titlePlaceholder = '-- Sélectionner un titre prédéfini --';
+            titleSelect.innerHTML = `<option value="">${titlePlaceholder}</option>`;
+
+            // Description dropdown
+            const descSelect = document.getElementById('seo-desc-select');
+            let descPlaceholder = '-- Select pre-written description --';
+            if (currentLocale === 'de') descPlaceholder = '-- Vorgefertigte Beschreibung auswählen --';
+            if (currentLocale === 'fr') descPlaceholder = '-- Sélectionner une description prédéfinie --';
+            descSelect.innerHTML = `<option value="">${descPlaceholder}</option>`;
+
+            if (!presets) {
+                let noPresetsText = '-- No presets for this app --';
+                if (currentLocale === 'de') noPresetsText = '-- Keine Vorlagen für diese App --';
+                if (currentLocale === 'fr') noPresetsText = '-- Pas de modèles pour cette app --';
+                altSelect.innerHTML = `<option value="">${noPresetsText}</option>`;
+                titleSelect.innerHTML = `<option value="">${noPresetsText}</option>`;
+                descSelect.innerHTML = `<option value="">${noPresetsText}</option>`;
+                return;
+            }
+
+            // Populate alt text options
+            presets.altText.forEach((text, i) => {
+                const opt = document.createElement('option');
+                opt.value = text;
+                opt.textContent = `${i+1}. ${text.length > 60 ? text.substring(0, 57) + '...' : text}`;
+                opt.title = text;
+                altSelect.appendChild(opt);
+            });
+
+            // Populate title options
+            presets.title.forEach((text, i) => {
+                const opt = document.createElement('option');
+                opt.value = text;
+                opt.textContent = `${i+1}. ${text}`;
+                titleSelect.appendChild(opt);
+            });
+
+            // Populate description options
+            presets.description.forEach((text, i) => {
+                const opt = document.createElement('option');
+                opt.value = text;
+                opt.textContent = `${i+1}. ${text.length > 70 ? text.substring(0, 67) + '...' : text}`;
+                opt.title = text;
+                descSelect.appendChild(opt);
+            });
+        }
+
+        // Apply selected SEO option to the corresponding field
+        function applySeoSelection(fieldType) {
+            const selectId = `seo-${fieldType === 'alt' ? 'alt' : fieldType === 'title' ? 'title' : 'desc'}-select`;
+            const inputId = fieldType === 'alt' ? 'seo-alt-text' : fieldType === 'title' ? 'seo-title' : 'seo-description';
+
+            const select = document.getElementById(selectId);
+            const input = document.getElementById(inputId);
+
+            if (select.value) {
+                input.value = select.value;
+                // Visual feedback
+                input.style.backgroundColor = '#d4edda';
+                setTimeout(() => { input.style.backgroundColor = ''; }, 500);
+                // Update character count
+                updateCharCount(fieldType);
+                // Reset dropdown
+                select.selectedIndex = 0;
+            }
+        }
+
+        // Update character count display
+        function updateCharCount(fieldType) {
+            const inputId = fieldType === 'alt' ? 'seo-alt-text' : fieldType === 'title' ? 'seo-title' : 'seo-description';
+            const countId = `${fieldType === 'alt' ? 'alt' : fieldType === 'title' ? 'title' : 'desc'}-char-count`;
+            const maxChars = fieldType === 'alt' ? 125 : fieldType === 'title' ? 60 : 200;
+
+            const input = document.getElementById(inputId);
+            const countEl = document.getElementById(countId);
+
+            const len = input.value.length;
+            countEl.textContent = `${len}/${maxChars} chars`;
+            countEl.style.color = len > maxChars ? '#dc3545' : '#6c757d';
+        }
 
         // State
         let currentLocale = 'en';
@@ -1375,6 +3876,9 @@
             // Set subject
             document.getElementById('seo-subject').value = appToSubject[app.appId] || 'General';
 
+            // Populate SEO quick-select dropdowns
+            populateSeoDropdowns(app.appId);
+
             // Load existing SEO metadata
             const seoKey = `${app.appId}:${currentLocale}:${sample.filename}`;
             const existingSeo = seoMetadata[seoKey];
@@ -1389,6 +3893,11 @@
                 document.getElementById('seo-grade').value = '';
                 document.getElementById('seo-description').value = '';
             }
+
+            // Update character counts
+            updateCharCount('alt');
+            updateCharCount('title');
+            updateCharCount('desc');
 
             // Show current files status
             const fileListHtml = `

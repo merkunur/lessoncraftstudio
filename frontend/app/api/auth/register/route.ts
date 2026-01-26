@@ -2,6 +2,9 @@ import { NextRequest, NextResponse } from 'next/server';
 import bcrypt from 'bcryptjs';
 import { prisma } from '@/lib/prisma';
 import { z } from 'zod';
+import { queueEmail } from '@/lib/email/queue';
+import { VerificationEmail } from '@/lib/email/templates';
+import { render } from '@react-email/render';
 
 export const dynamic = 'force-dynamic';
 
@@ -53,15 +56,36 @@ export async function POST(request: NextRequest) {
       }
     });
     
-    // TODO: Send verification email
-    // await sendVerificationEmail(user.email, verificationToken, validatedData.locale);
-    
-    // For development, auto-verify
-    if (process.env.NODE_ENV === 'development') {
-      await prisma.user.update({
-        where: { id: user.id },
-        data: { emailVerified: true, verificationToken: null }
-      });
+    // Send verification email
+    const appUrl = process.env.NEXT_PUBLIC_APP_URL || 'https://www.lessoncraftstudio.com';
+    const verificationUrl = `${appUrl}/verify-email?token=${verificationToken}`;
+
+    try {
+      const emailHtml = await render(
+        VerificationEmail({
+          firstName: validatedData.firstName,
+          verificationUrl,
+          language: validatedData.locale,
+        })
+      );
+
+      await queueEmail({
+        to: user.email,
+        subject: validatedData.locale === 'de' ? 'Bestätigen Sie Ihre E-Mail-Adresse' :
+                 validatedData.locale === 'fr' ? 'Vérifiez votre adresse email' :
+                 validatedData.locale === 'es' ? 'Verifica tu dirección de correo' :
+                 'Verify your email address',
+        html: emailHtml,
+        metadata: {
+          type: 'verification',
+          userId: user.id,
+        },
+      }, { priority: 'high' });
+
+      console.log(`[Register] Verification email queued for ${user.email}`);
+    } catch (emailError) {
+      console.error('[Register] Failed to queue verification email:', emailError);
+      // Don't fail registration if email fails - user can request resend
     }
     
     return NextResponse.json({

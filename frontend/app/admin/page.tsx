@@ -64,77 +64,73 @@ export default function AdminDashboard() {
 
   const fetchDashboardData = async () => {
     try {
-      // In a real app, these would be actual API calls
-      // For now, using mock data
+      const response = await fetch('/api/admin/dashboard/stats');
+
+      if (!response.ok) {
+        throw new Error('Failed to fetch dashboard data');
+      }
+
+      const data = await response.json();
+
       setStats({
         users: {
-          total: 1234,
-          new: 45,
-          active: 892,
-          growth: 12.5,
+          total: data.stats.users.total,
+          new: data.stats.users.new,
+          active: data.stats.users.active,
+          growth: data.stats.users.growth,
         },
         revenue: {
-          mrr: 12345,
-          arr: 148140,
-          today: 567,
-          growth: 8.3,
+          mrr: data.stats.revenue.mrr,
+          arr: data.stats.revenue.arr,
+          today: data.stats.revenue.today,
+          growth: data.stats.revenue.growth,
         },
         subscriptions: {
-          active: 234,
-          trial: 45,
-          cancelled: 12,
-          growth: 15.2,
+          active: data.stats.subscriptions.active,
+          trial: 0, // No trials offered
+          cancelled: data.stats.subscriptions.canceled,
+          growth: data.stats.subscriptions.growth,
         },
         usage: {
-          worksheets: 5678,
-          downloads: 3456,
-          generators: 23,
-          growth: 23.7,
+          worksheets: data.stats.usage.worksheets,
+          downloads: data.stats.usage.downloads,
+          generators: data.stats.usage.generators,
+          growth: data.stats.usage.growth,
         },
       });
 
-      setRecentActivity([
+      // Map activity data from API
+      setRecentActivity(data.recentActivity.length > 0 ? data.recentActivity : [
         {
-          id: 1,
-          type: 'subscription',
-          message: 'John Doe upgraded to Full Access',
-          time: '2 minutes ago',
-          icon: 'upgrade',
-        },
-        {
-          id: 2,
-          type: 'user',
-          message: 'Sarah Smith signed up',
-          time: '15 minutes ago',
-          icon: 'new_user',
-        },
-        {
-          id: 3,
-          type: 'payment',
-          message: 'Payment received from Mike Johnson',
-          time: '1 hour ago',
-          icon: 'payment',
-        },
-        {
-          id: 4,
-          type: 'usage',
-          message: '100 worksheets generated today',
-          time: '2 hours ago',
+          id: 'no-activity',
+          type: 'info',
+          message: 'No recent activity to display',
+          time: 'Just now',
           icon: 'milestone',
         },
       ]);
 
-      setTopUsers([
-        { id: 1, name: 'Alice Brown', email: 'alice@example.com', worksheets: 234, plan: 'Full' },
-        { id: 2, name: 'Bob Wilson', email: 'bob@example.com', worksheets: 189, plan: 'Core' },
-        { id: 3, name: 'Carol Davis', email: 'carol@example.com', worksheets: 156, plan: 'Full' },
-        { id: 4, name: 'David Lee', email: 'david@example.com', worksheets: 134, plan: 'Core' },
-        { id: 5, name: 'Emma White', email: 'emma@example.com', worksheets: 98, plan: 'Free' },
-      ]);
+      // Map top users data from API
+      setTopUsers(data.topUsers.length > 0 ? data.topUsers.map((user: any) => ({
+        id: user.id,
+        name: user.name,
+        email: user.email,
+        worksheets: user.activity || 0,
+        plan: user.plan,
+      })) : []);
 
       setLoading(false);
     } catch (error) {
       console.error('Failed to fetch dashboard data:', error);
+      // Set empty/default data on error
+      setStats({
+        users: { total: 0, new: 0, active: 0, growth: 0 },
+        revenue: { mrr: 0, arr: 0, today: 0, growth: 0 },
+        subscriptions: { active: 0, trial: 0, cancelled: 0, growth: 0 },
+        usage: { worksheets: 0, downloads: 0, generators: 33, growth: 0 },
+      });
+      setRecentActivity([]);
+      setTopUsers([]);
       setLoading(false);
     }
   };

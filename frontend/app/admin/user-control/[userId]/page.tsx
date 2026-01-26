@@ -12,7 +12,6 @@ import {
   Calendar,
   Shield,
   CreditCard,
-  Activity,
   Monitor,
   TrendingUp,
   Ban,
@@ -20,19 +19,18 @@ import {
   RefreshCw,
   ExternalLink,
   DollarSign,
-  Clock,
-  MapPin,
   AlertCircle,
   CheckCircle,
-  XCircle,
-  MessageSquare,
-  Send,
   Trash2,
+  Edit3,
+  Save,
+  X,
+  KeyRound,
 } from 'lucide-react';
 import Link from 'next/link';
 import { toast } from 'react-hot-toast';
 
-type Tab = 'overview' | 'payments' | 'activity' | 'sessions' | 'support';
+type Tab = 'overview' | 'payments';
 
 interface UserProfile {
   user: any;
@@ -53,9 +51,15 @@ export default function UserDetailPage() {
   const [activeTab, setActiveTab] = useState<Tab>('overview');
   const [profile, setProfile] = useState<UserProfile | null>(null);
   const [loading, setLoading] = useState(true);
-  const [selectedTicket, setSelectedTicket] = useState<string | null>(null);
-  const [ticketResponse, setTicketResponse] = useState('');
-  const [ticketStatus, setTicketStatus] = useState('');
+  const [isEditing, setIsEditing] = useState(false);
+  const [editForm, setEditForm] = useState({
+    firstName: '',
+    lastName: '',
+    email: '',
+    subscriptionTier: 'free' as 'free' | 'core' | 'full',
+  });
+  const [deleteConfirm, setDeleteConfirm] = useState(false);
+  const [confirmInput, setConfirmInput] = useState('');
 
   useEffect(() => {
     if (userId) {
@@ -166,31 +170,121 @@ export default function UserDetailPage() {
     }
   };
 
-  const handleDeleteTicket = async (ticketId: string, ticketSubject: string) => {
-    if (!confirm(`Are you sure you want to delete the ticket "${ticketSubject}"? This action cannot be undone.`)) {
-      return;
-    }
-
+  const handleDeleteUser = async () => {
     try {
-      const response = await fetch(`/api/admin/support-tickets/${ticketId}`, {
+      const token = localStorage.getItem('accessToken');
+      const response = await fetch(`/api/admin/users/${userId}`, {
         method: 'DELETE',
         headers: {
           'Content-Type': 'application/json',
-          'Authorization': `Bearer ${localStorage.getItem('accessToken')}`,
+          ...(token ? { 'Authorization': `Bearer ${token}` } : {}),
         },
       });
 
       const data = await response.json();
 
       if (response.ok) {
-        toast.success(data.message || 'Ticket deleted successfully');
-        fetchUserProfile();
+        toast.success(data.message || 'User deleted successfully');
+        router.push('/admin/user-control');
       } else {
-        toast.error(data.error || 'Failed to delete ticket');
+        toast.error(data.error || 'Failed to delete user');
       }
     } catch (error) {
-      console.error('Delete ticket error:', error);
-      toast.error('Failed to delete ticket');
+      console.error('Delete user error:', error);
+      toast.error('Failed to delete user');
+    }
+  };
+
+  const handleSendVerificationEmail = async () => {
+    try {
+      const token = localStorage.getItem('accessToken');
+      const response = await fetch(`/api/auth/verify-email?userId=${userId}&resend=true`, {
+        headers: token ? { 'Authorization': `Bearer ${token}` } : {},
+      });
+
+      const data = await response.json();
+
+      if (response.ok) {
+        toast.success('Verification email sent');
+      } else {
+        toast.error(data.error || 'Failed to send verification email');
+      }
+    } catch (error) {
+      console.error('Verification email error:', error);
+      toast.error('Failed to send verification email');
+    }
+  };
+
+  const handleSendPasswordReset = async () => {
+    try {
+      const token = localStorage.getItem('accessToken');
+      const response = await fetch(`/api/admin/users/${userId}/reset-password`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          ...(token ? { 'Authorization': `Bearer ${token}` } : {}),
+        },
+      });
+
+      const data = await response.json();
+
+      if (response.ok) {
+        toast.success('Password reset email sent');
+      } else {
+        toast.error(data.error || 'Failed to send password reset email');
+      }
+    } catch (error) {
+      console.error('Password reset error:', error);
+      toast.error('Failed to send password reset email');
+    }
+  };
+
+  const handleStartEdit = () => {
+    if (profile) {
+      setEditForm({
+        firstName: profile.user.firstName || '',
+        lastName: profile.user.lastName || '',
+        email: profile.user.email || '',
+        subscriptionTier: profile.user.subscriptionTier || 'free',
+      });
+      setIsEditing(true);
+    }
+  };
+
+  const handleCancelEdit = () => {
+    setIsEditing(false);
+    setEditForm({
+      firstName: '',
+      lastName: '',
+      email: '',
+      subscriptionTier: 'free',
+    });
+  };
+
+  const handleSaveEdit = async () => {
+    try {
+      const token = localStorage.getItem('accessToken');
+      const response = await fetch(`/api/admin/users/${userId}`, {
+        method: 'PATCH',
+        headers: {
+          'Content-Type': 'application/json',
+          ...(token ? { 'Authorization': `Bearer ${token}` } : {}),
+        },
+        body: JSON.stringify(editForm),
+      });
+
+      const data = await response.json();
+
+      if (response.ok) {
+        toast.success('User updated successfully');
+        setIsEditing(false);
+        fetchUserProfile();
+      } else {
+        toast.error(data.error || 'Failed to update user');
+      }
+    } catch (error) {
+      console.error('Update user error:', error);
+      toast.error('Failed to update user');
     }
   };
 
@@ -257,7 +351,7 @@ export default function UserDetailPage() {
     );
   }
 
-  const { user, subscription, subscriptionMetrics, payments, activityLogs, sessions, supportTickets, usageStats } = profile;
+  const { user, subscription, subscriptionMetrics, payments, usageStats } = profile;
 
   return (
     <AdminLayout>
@@ -429,9 +523,6 @@ export default function UserDetailPage() {
               {[
                 { id: 'overview', label: 'Overview', icon: Shield },
                 { id: 'payments', label: 'Payments', icon: CreditCard },
-                { id: 'activity', label: 'Activity', icon: Activity },
-                { id: 'sessions', label: 'Sessions', icon: Monitor },
-                { id: 'support', label: 'Support', icon: MessageSquare },
               ].map((tab) => (
                 <button
                   key={tab.id}
@@ -453,44 +544,140 @@ export default function UserDetailPage() {
             {/* Overview Tab */}
             {activeTab === 'overview' && (
               <div className="space-y-6">
+                {/* Email Actions */}
+                <div className="bg-gray-50 rounded-lg p-4">
+                  <h3 className="text-sm font-medium text-gray-900 mb-3">Email Actions</h3>
+                  <div className="flex flex-wrap gap-3">
+                    {!user.emailVerified && (
+                      <button
+                        onClick={handleSendVerificationEmail}
+                        className="inline-flex items-center px-4 py-2 border border-gray-300 rounded-md shadow-sm text-sm font-medium text-gray-700 bg-white hover:bg-gray-50"
+                      >
+                        <Mail className="h-4 w-4 mr-2" />
+                        Send Verification Email
+                      </button>
+                    )}
+                    <button
+                      onClick={handleSendPasswordReset}
+                      className="inline-flex items-center px-4 py-2 border border-gray-300 rounded-md shadow-sm text-sm font-medium text-gray-700 bg-white hover:bg-gray-50"
+                    >
+                      <KeyRound className="h-4 w-4 mr-2" />
+                      Send Password Reset
+                    </button>
+                  </div>
+                </div>
+
                 <div>
-                  <h3 className="text-lg font-medium text-gray-900 mb-4">Account Information</h3>
-                  <dl className="grid grid-cols-1 gap-x-4 gap-y-6 sm:grid-cols-2">
-                    <div>
-                      <dt className="text-sm font-medium text-gray-500">User ID</dt>
-                      <dd className="mt-1 text-sm text-gray-900 font-mono">{user.id}</dd>
-                    </div>
-                    <div>
-                      <dt className="text-sm font-medium text-gray-500">Email Verified</dt>
-                      <dd className="mt-1 text-sm text-gray-900">
-                        {user.emailVerified ? 'Yes' : 'No'}
-                      </dd>
-                    </div>
-                    <div>
-                      <dt className="text-sm font-medium text-gray-500">Joined Date</dt>
-                      <dd className="mt-1 text-sm text-gray-900">{formatDate(user.createdAt)}</dd>
-                    </div>
-                    <div>
-                      <dt className="text-sm font-medium text-gray-500">Last Updated</dt>
-                      <dd className="mt-1 text-sm text-gray-900">{formatDate(user.updatedAt)}</dd>
-                    </div>
-                    {user.stripeCustomerId && (
-                      <div>
-                        <dt className="text-sm font-medium text-gray-500">Stripe Customer</dt>
-                        <dd className="mt-1">
-                          <a
-                            href={`https://dashboard.stripe.com/customers/${user.stripeCustomerId}`}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="text-sm text-blue-600 hover:text-blue-500 inline-flex items-center"
-                          >
-                            {user.stripeCustomerId}
-                            <ExternalLink className="h-3 w-3 ml-1" />
-                          </a>
-                        </dd>
+                  <div className="flex items-center justify-between mb-4">
+                    <h3 className="text-lg font-medium text-gray-900">Account Information</h3>
+                    {!isEditing ? (
+                      <button
+                        onClick={handleStartEdit}
+                        className="inline-flex items-center px-3 py-1.5 border border-gray-300 rounded-md text-sm font-medium text-gray-700 bg-white hover:bg-gray-50"
+                      >
+                        <Edit3 className="h-4 w-4 mr-1" />
+                        Edit
+                      </button>
+                    ) : (
+                      <div className="flex gap-2">
+                        <button
+                          onClick={handleSaveEdit}
+                          className="inline-flex items-center px-3 py-1.5 border border-transparent rounded-md text-sm font-medium text-white bg-blue-600 hover:bg-blue-700"
+                        >
+                          <Save className="h-4 w-4 mr-1" />
+                          Save
+                        </button>
+                        <button
+                          onClick={handleCancelEdit}
+                          className="inline-flex items-center px-3 py-1.5 border border-gray-300 rounded-md text-sm font-medium text-gray-700 bg-white hover:bg-gray-50"
+                        >
+                          <X className="h-4 w-4 mr-1" />
+                          Cancel
+                        </button>
                       </div>
                     )}
-                  </dl>
+                  </div>
+
+                  {isEditing ? (
+                    <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+                      <div>
+                        <label className="block text-sm font-medium text-gray-700 mb-1">First Name</label>
+                        <input
+                          type="text"
+                          value={editForm.firstName}
+                          onChange={(e) => setEditForm({ ...editForm, firstName: e.target.value })}
+                          className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                        />
+                      </div>
+                      <div>
+                        <label className="block text-sm font-medium text-gray-700 mb-1">Last Name</label>
+                        <input
+                          type="text"
+                          value={editForm.lastName}
+                          onChange={(e) => setEditForm({ ...editForm, lastName: e.target.value })}
+                          className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                        />
+                      </div>
+                      <div>
+                        <label className="block text-sm font-medium text-gray-700 mb-1">Email</label>
+                        <input
+                          type="email"
+                          value={editForm.email}
+                          onChange={(e) => setEditForm({ ...editForm, email: e.target.value })}
+                          className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                        />
+                      </div>
+                      <div>
+                        <label className="block text-sm font-medium text-gray-700 mb-1">Subscription Tier</label>
+                        <select
+                          value={editForm.subscriptionTier}
+                          onChange={(e) => setEditForm({ ...editForm, subscriptionTier: e.target.value as 'free' | 'core' | 'full' })}
+                          className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                        >
+                          <option value="free">Free</option>
+                          <option value="core">Core</option>
+                          <option value="full">Full</option>
+                        </select>
+                      </div>
+                    </div>
+                  ) : (
+                    <dl className="grid grid-cols-1 gap-x-4 gap-y-6 sm:grid-cols-2">
+                      <div>
+                        <dt className="text-sm font-medium text-gray-500">User ID</dt>
+                        <dd className="mt-1 text-sm text-gray-900 font-mono">{user.id}</dd>
+                      </div>
+                      <div>
+                        <dt className="text-sm font-medium text-gray-500">Email Verified</dt>
+                        <dd className="mt-1 text-sm text-gray-900">
+                          {user.emailVerified ? 'Yes' : 'No'}
+                        </dd>
+                      </div>
+                      <div>
+                        <dt className="text-sm font-medium text-gray-500">Joined Date</dt>
+                        <dd className="mt-1 text-sm text-gray-900">{formatDate(user.createdAt)}</dd>
+                      </div>
+                      <div>
+                        <dt className="text-sm font-medium text-gray-500">Last Updated</dt>
+                        <dd className="mt-1 text-sm text-gray-900">{formatDate(user.updatedAt)}</dd>
+                      </div>
+                      {user.stripeCustomerId && (
+                        <div>
+                          <dt className="text-sm font-medium text-gray-500">Stripe Customer</dt>
+                          <dd className="mt-1">
+                            <a
+                              href={`https://dashboard.stripe.com/customers/${user.stripeCustomerId}`}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="text-sm text-blue-600 hover:text-blue-500 inline-flex items-center"
+                            >
+                              {user.stripeCustomerId}
+                              <ExternalLink className="h-3 w-3 ml-1" />
+                            </a>
+                          </dd>
+                        </div>
+                      )}
+                    </dl>
+                  )}
                 </div>
 
                 {subscription && (
@@ -632,263 +819,87 @@ export default function UserDetailPage() {
               </div>
             )}
 
-            {/* Activity Tab */}
-            {activeTab === 'activity' && (
-              <div>
-                <h3 className="text-lg font-medium text-gray-900 mb-4">Activity Log</h3>
-                {activityLogs.length === 0 ? (
-                  <p className="text-gray-500 text-center py-8">No activity found</p>
-                ) : (
-                  <div className="space-y-4">
-                    {activityLogs.map((log) => (
-                      <div key={log.id} className="border-l-4 border-blue-500 pl-4 py-2">
-                        <div className="flex items-start justify-between">
-                          <div>
-                            <p className="text-sm font-medium text-gray-900">{log.action}</p>
-                            <p className="text-sm text-gray-500 mt-1">{log.details}</p>
-                          </div>
-                          <span className="text-xs text-gray-400">{formatDate(log.createdAt)}</span>
-                        </div>
-                      </div>
-                    ))}
-                  </div>
-                )}
-              </div>
-            )}
-
-            {/* Sessions Tab */}
-            {activeTab === 'sessions' && (
-              <div>
-                <h3 className="text-lg font-medium text-gray-900 mb-4">Active Sessions</h3>
-                {sessions.length === 0 ? (
-                  <p className="text-gray-500 text-center py-8">No active sessions</p>
-                ) : (
-                  <div className="space-y-4">
-                    {sessions.map((session) => (
-                      <div key={session.id} className="border border-gray-200 rounded-lg p-4">
-                        <div className="flex items-start justify-between">
-                          <div className="flex items-start">
-                            <Monitor className="h-5 w-5 text-gray-400 mr-3 mt-0.5" />
-                            <div>
-                              <p className="text-sm font-medium text-gray-900">
-                                {session.deviceName || 'Unknown Device'}
-                              </p>
-                              {session.city && session.country && (
-                                <p className="text-sm text-gray-500 flex items-center mt-1">
-                                  <MapPin className="h-3 w-3 mr-1" />
-                                  {session.city}, {session.country}
-                                </p>
-                              )}
-                              <p className="text-xs text-gray-400 flex items-center mt-1">
-                                <Clock className="h-3 w-3 mr-1" />
-                                Last active: {formatDate(session.lastActivityAt)}
-                              </p>
-                            </div>
-                          </div>
-                          <span className={`px-2 py-1 text-xs font-semibold rounded-full ${
-                            session.deviceType === 'mobile' ? 'bg-blue-100 text-blue-800' :
-                            session.deviceType === 'tablet' ? 'bg-purple-100 text-purple-800' :
-                            'bg-gray-100 text-gray-800'
-                          }`}>
-                            {session.deviceType || 'desktop'}
-                          </span>
-                        </div>
-                      </div>
-                    ))}
-                  </div>
-                )}
-              </div>
-            )}
-
-            {/* Support Tab */}
-            {activeTab === 'support' && (
-              <div>
-                <div className="flex items-center justify-between mb-4">
-                  <h3 className="text-lg font-medium text-gray-900">Support Tickets</h3>
-                  <div className="flex items-center space-x-2">
-                    <span className="text-sm text-gray-500">
-                      {supportTickets.length} total tickets
-                    </span>
-                  </div>
-                </div>
-
-                {supportTickets.length === 0 ? (
-                  <p className="text-gray-500 text-center py-8">No support tickets</p>
-                ) : (
-                  <div className="space-y-4">
-                    {supportTickets.map((ticket) => (
-                      <div
-                        key={ticket.id}
-                        className="border border-gray-200 rounded-lg p-4 hover:bg-gray-50 transition-colors"
-                      >
-                        <div className="flex items-start justify-between mb-3">
-                          <div className="flex-1">
-                            <div className="flex items-center space-x-2 mb-2">
-                              <h4 className="text-sm font-semibold text-gray-900">
-                                {ticket.subject}
-                              </h4>
-                              <span className={`px-2 py-1 text-xs font-semibold rounded-full ${
-                                ticket.status === 'open' ? 'bg-green-100 text-green-800' :
-                                ticket.status === 'in_progress' ? 'bg-blue-100 text-blue-800' :
-                                ticket.status === 'waiting' ? 'bg-yellow-100 text-yellow-800' :
-                                ticket.status === 'resolved' ? 'bg-gray-100 text-gray-800' :
-                                'bg-gray-100 text-gray-600'
-                              }`}>
-                                {ticket.status}
-                              </span>
-                              <span className={`px-2 py-1 text-xs font-semibold rounded-full ${
-                                ticket.priority === 'urgent' ? 'bg-red-100 text-red-800' :
-                                ticket.priority === 'high' ? 'bg-orange-100 text-orange-800' :
-                                ticket.priority === 'medium' ? 'bg-yellow-100 text-yellow-800' :
-                                'bg-gray-100 text-gray-800'
-                              }`}>
-                                {ticket.priority}
-                              </span>
-                              {ticket.category && (
-                                <span className="px-2 py-1 text-xs bg-purple-100 text-purple-800 rounded-full">
-                                  {ticket.category}
-                                </span>
-                              )}
-                            </div>
-                            <p className="text-sm text-gray-600 mb-2">{ticket.message}</p>
-                            <div className="flex items-center space-x-4 text-xs text-gray-500">
-                              <span className="flex items-center">
-                                <Calendar className="h-3 w-3 mr-1" />
-                                {formatDate(ticket.createdAt)}
-                              </span>
-                              {ticket.respondedAt && (
-                                <span className="flex items-center text-green-600">
-                                  <CheckCircle className="h-3 w-3 mr-1" />
-                                  Responded {formatDate(ticket.respondedAt)}
-                                </span>
-                              )}
-                            </div>
-                          </div>
-                        </div>
-
-                        {ticket.response && (
-                          <div className="mt-3 bg-blue-50 border-l-4 border-blue-500 p-3">
-                            <p className="text-sm font-medium text-blue-900 mb-1">Admin Response:</p>
-                            <p className="text-sm text-blue-800">{ticket.response}</p>
-                          </div>
-                        )}
-
-                        {selectedTicket === ticket.id ? (
-                          <div className="mt-4 space-y-3">
-                            <div>
-                              <label className="block text-sm font-medium text-gray-700 mb-1">
-                                Update Status
-                              </label>
-                              <select
-                                value={ticketStatus}
-                                onChange={(e) => setTicketStatus(e.target.value)}
-                                className="block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm"
-                              >
-                                <option value="">Select Status</option>
-                                <option value="open">Open</option>
-                                <option value="in_progress">In Progress</option>
-                                <option value="waiting">Waiting</option>
-                                <option value="resolved">Resolved</option>
-                                <option value="closed">Closed</option>
-                              </select>
-                            </div>
-                            <div>
-                              <label className="block text-sm font-medium text-gray-700 mb-1">
-                                Response
-                              </label>
-                              <textarea
-                                value={ticketResponse}
-                                onChange={(e) => setTicketResponse(e.target.value)}
-                                rows={4}
-                                placeholder="Type your response..."
-                                className="block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm"
-                              />
-                            </div>
-                            <div className="flex space-x-2">
-                              <button
-                                onClick={async () => {
-                                  try {
-                                    const response = await fetch(`/api/admin/support-tickets/${ticket.id}`, {
-                                      method: 'PATCH',
-                                      headers: {
-                                        'Content-Type': 'application/json',
-                                        'Authorization': `Bearer ${localStorage.getItem('accessToken')}`,
-                                      },
-                                      body: JSON.stringify({
-                                        status: ticketStatus || ticket.status,
-                                        response: ticketResponse || undefined,
-                                      }),
-                                    });
-
-                                    if (response.ok) {
-                                      toast.success('Ticket updated successfully');
-                                      setSelectedTicket(null);
-                                      setTicketResponse('');
-                                      setTicketStatus('');
-                                      fetchUserProfile();
-                                    } else {
-                                      const data = await response.json();
-                                      toast.error(data.error || 'Failed to update ticket');
-                                    }
-                                  } catch (error) {
-                                    console.error('Update ticket error:', error);
-                                    toast.error('Failed to update ticket');
-                                  }
-                                }}
-                                className="inline-flex items-center px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-blue-600 hover:bg-blue-700"
-                              >
-                                <Send className="h-4 w-4 mr-2" />
-                                Send Response
-                              </button>
-                              <button
-                                onClick={() => {
-                                  setSelectedTicket(null);
-                                  setTicketResponse('');
-                                  setTicketStatus('');
-                                }}
-                                className="inline-flex items-center px-4 py-2 border border-gray-300 rounded-md shadow-sm text-sm font-medium text-gray-700 bg-white hover:bg-gray-50"
-                              >
-                                Cancel
-                              </button>
-                              <button
-                                onClick={() => handleDeleteTicket(ticket.id, ticket.subject)}
-                                className="inline-flex items-center px-4 py-2 border border-red-300 rounded-md shadow-sm text-sm font-medium text-red-700 bg-white hover:bg-red-50"
-                              >
-                                <Trash2 className="h-4 w-4 mr-2" />
-                                Delete
-                              </button>
-                            </div>
-                          </div>
-                        ) : (
-                          <div className="mt-3 flex gap-2">
-                            <button
-                              onClick={() => {
-                                setSelectedTicket(ticket.id);
-                                setTicketResponse(ticket.response || '');
-                                setTicketStatus(ticket.status);
-                              }}
-                              className="inline-flex items-center px-3 py-1.5 border border-gray-300 rounded-md text-xs font-medium text-gray-700 bg-white hover:bg-gray-50"
-                            >
-                              <MessageSquare className="h-3 w-3 mr-1" />
-                              Respond to Ticket
-                            </button>
-                            <button
-                              onClick={() => handleDeleteTicket(ticket.id, ticket.subject)}
-                              className="inline-flex items-center px-3 py-1.5 border border-red-300 rounded-md text-xs font-medium text-red-700 bg-white hover:bg-red-50"
-                            >
-                              <Trash2 className="h-3 w-3 mr-1" />
-                              Delete
-                            </button>
-                          </div>
-                        )}
-                      </div>
-                    ))}
-                  </div>
-                )}
-              </div>
-            )}
           </div>
         </div>
+
+        {/* Danger Zone */}
+        <div className="mt-6 bg-white shadow rounded-lg border border-red-200">
+          <div className="p-6">
+            <h3 className="text-lg font-medium text-red-900 mb-4">Danger Zone</h3>
+            <div className="bg-red-50 border border-red-200 rounded-md p-4">
+              <div className="flex items-start justify-between">
+                <div>
+                  <h4 className="text-sm font-medium text-red-800">Delete this user account</h4>
+                  <p className="mt-1 text-sm text-red-700">
+                    Once you delete this user, there is no going back. This will permanently delete the account, all subscriptions, payment history, and associated data.
+                  </p>
+                </div>
+                <button
+                  onClick={() => setDeleteConfirm(true)}
+                  className="ml-4 inline-flex items-center px-4 py-2 border border-red-300 rounded-md shadow-sm text-sm font-medium text-red-700 bg-white hover:bg-red-50"
+                >
+                  <Trash2 className="h-4 w-4 mr-2" />
+                  Delete User
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Delete Confirmation Modal */}
+        {deleteConfirm && (
+          <div className="fixed inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full z-50 flex items-center justify-center">
+            <div className="relative bg-white rounded-lg shadow-xl max-w-md w-full mx-4 p-6">
+              <div className="flex items-center mb-4">
+                <div className="flex-shrink-0 w-12 h-12 rounded-full bg-red-100 flex items-center justify-center">
+                  <Trash2 className="h-6 w-6 text-red-600" />
+                </div>
+                <div className="ml-4">
+                  <h3 className="text-lg font-medium text-gray-900">Delete User</h3>
+                  <p className="text-sm text-gray-500">This action cannot be undone</p>
+                </div>
+              </div>
+
+              <div className="bg-red-50 border border-red-200 rounded-md p-4 mb-4">
+                <p className="text-sm text-red-800">
+                  <strong>Warning:</strong> This will permanently delete the user account for <strong>{user.email}</strong>, including all their data, subscriptions, and payment history.
+                </p>
+              </div>
+
+              <div className="mb-4">
+                <label className="block text-sm font-medium text-gray-700 mb-2">
+                  Type <span className="font-mono bg-gray-100 px-1 rounded">{user.email}</span> to confirm:
+                </label>
+                <input
+                  type="text"
+                  value={confirmInput}
+                  onChange={(e) => setConfirmInput(e.target.value)}
+                  placeholder="Enter user email"
+                  className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-red-500"
+                />
+              </div>
+
+              <div className="flex justify-end gap-3">
+                <button
+                  onClick={() => {
+                    setDeleteConfirm(false);
+                    setConfirmInput('');
+                  }}
+                  className="px-4 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-md hover:bg-gray-50"
+                >
+                  Cancel
+                </button>
+                <button
+                  onClick={handleDeleteUser}
+                  disabled={confirmInput !== user.email}
+                  className="px-4 py-2 text-sm font-medium text-white bg-red-600 rounded-md hover:bg-red-700 disabled:opacity-50 disabled:cursor-not-allowed"
+                >
+                  Delete User
+                </button>
+              </div>
+            </div>
+          </div>
+        )}
       </div>
     </AdminLayout>
   );

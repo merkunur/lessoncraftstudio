@@ -47,6 +47,18 @@ Ogni scheda gratuita si scarica in formato PDF o JPEG di alta qualità. Perfetto
       action: 'Crea e Scarica',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Guarda come funziona',
+        modalTitle: 'Panoramica delle funzioni',
+      },
+      appSpecific: {
+        videoId: 'P9q3ymjFnOQ',
+        buttonText: 'Funzioni Pregrafismo',
+        modalTitle: 'Tutorial Pregrafismo',
+      },
+    },
   },
 
   // Sample Gallery

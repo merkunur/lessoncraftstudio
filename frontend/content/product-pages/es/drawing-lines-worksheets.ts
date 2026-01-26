@@ -52,6 +52,18 @@ El generador incluye 8 plantillas diferentes con varios patrones de líneas y or
       action: 'Crear y Descargar',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Mira cómo funciona',
+        modalTitle: 'Vista rápida de funciones',
+      },
+      appSpecific: {
+        videoId: 'P9q3ymjFnOQ',
+        buttonText: 'Funciones Grafomotricidad',
+        modalTitle: 'Tutorial Grafomotricidad',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/drawing lines/

@@ -47,6 +47,18 @@ Le graphisme en maternelle pose les bases de l'écriture. Les enfants tracent de
       action: 'Créer & Télécharger',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Découvrir en vidéo',
+        modalTitle: 'Aperçu des fonctionnalités',
+      },
+      appSpecific: {
+        videoId: 'P9q3ymjFnOQ',
+        buttonText: 'Fonctions Graphisme',
+        modalTitle: 'Tutoriel Graphisme',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/french/drawing-lines/

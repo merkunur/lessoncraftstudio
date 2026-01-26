@@ -70,6 +70,18 @@ De fijne motoriek die nodig is voor schrijven ontwikkelt zich geleidelijk. Recht
       action: 'Maken & Downloaden',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Bekijk hoe het werkt',
+        modalTitle: 'Overzicht van functies',
+      },
+      appSpecific: {
+        videoId: 'P9q3ymjFnOQ',
+        buttonText: 'Lijnen Trekken Functies',
+        modalTitle: 'Lijnen Trekken Handleiding',
+      },
+    },
   },
 
   // Sample Gallery

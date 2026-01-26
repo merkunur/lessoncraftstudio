@@ -49,6 +49,18 @@ Peruspaketti sisältää kaupallisen print-on-demand -lisenssin. Myy tehtäviäs
       action: 'Luo & Lataa',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Katso miten se toimii',
+        modalTitle: 'Toimintojen yleiskatsaus',
+      },
+      appSpecific: {
+        videoId: 'P9q3ymjFnOQ',
+        buttonText: 'Viivojen Piirtäminen Toiminnot',
+        modalTitle: 'Viivojen Piirtäminen Opas',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/drawing lines/

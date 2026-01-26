@@ -49,6 +49,18 @@ Med Grundpaketet-prenumeration på 1 800 SEK per år får du tillgång till 10 p
       action: 'Skapa & Ladda Ner',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Se hur det fungerar',
+        modalTitle: 'Funktionsöversikt',
+      },
+      appSpecific: {
+        videoId: 'P9q3ymjFnOQ',
+        buttonText: 'Rita Linjer Funktioner',
+        modalTitle: 'Rita Linjer Guide',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/drawing lines/

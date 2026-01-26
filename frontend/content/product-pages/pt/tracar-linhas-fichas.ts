@@ -47,6 +47,18 @@ Cada atividade trabalha habilidades essenciais para a alfabetização. As crian�
       action: 'Crie e Baixe',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Veja como funciona',
+        modalTitle: 'Visão geral das funções',
+      },
+      appSpecific: {
+        videoId: 'P9q3ymjFnOQ',
+        buttonText: 'Funções Traçar Linhas',
+        modalTitle: 'Tutorial Traçar Linhas',
+      },
+    },
   },
 
   // Sample Gallery

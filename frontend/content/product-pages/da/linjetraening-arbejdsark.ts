@@ -47,6 +47,18 @@ Tegn linjer opgaver kombinerer finmotorik øvelser med sjove billeder børn elsk
       action: 'Nemt at bruge',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Se hvordan det virker',
+        modalTitle: 'Funktionsoversigt',
+      },
+      appSpecific: {
+        videoId: 'P9q3ymjFnOQ',
+        buttonText: 'Linjetræning Funktioner',
+        modalTitle: 'Linjetræning Vejledning',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/drawing lines/

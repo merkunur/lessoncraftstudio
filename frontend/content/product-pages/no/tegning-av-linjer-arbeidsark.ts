@@ -47,6 +47,18 @@ Arbeidsark for tegning av linjer støtter barnehagepedagoger og lærere i småsk
       action: 'Enkelt å bruke',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Se hvordan det fungerer',
+        modalTitle: 'Funksjonsoversikt',
+      },
+      appSpecific: {
+        videoId: 'P9q3ymjFnOQ',
+        buttonText: 'Tegning av Linjer Funksjoner',
+        modalTitle: 'Tegning av Linjer Veiledning',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/drawing lines/

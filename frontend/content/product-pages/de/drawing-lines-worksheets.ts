@@ -59,6 +59,18 @@ Der Generator umfasst 8 verschiedene Vorlagen mit verschiedenen Linienmustern un
       action: 'Erstellen & Herunterladen',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'So einfach geht\'s',
+        modalTitle: 'Funktionen im Überblick',
+      },
+      appSpecific: {
+        videoId: 'P9q3ymjFnOQ',
+        buttonText: 'Schwungübungen Funktionen',
+        modalTitle: 'Schwungübungen Anleitung',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/drawing lines/

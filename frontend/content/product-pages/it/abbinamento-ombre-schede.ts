@@ -47,6 +47,18 @@ Ogni scheda didattica è completamente personalizzabile. Scegli tra oltre 3000 i
       action: 'Crea e Scarica',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Guarda come funziona',
+        modalTitle: 'Panoramica delle funzioni',
+      },
+      appSpecific: {
+        videoId: 'TYvUXJeMI98',
+        buttonText: 'Funzioni Abbina le ombre',
+        modalTitle: 'Tutorial Abbina le ombre',
+      },
+    },
   },
 
   // Sample Gallery

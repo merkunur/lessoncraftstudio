@@ -51,6 +51,18 @@ Full Tillgång-prenumerationen inkluderar kommersiell licens för utskrift-på-b
       action: 'Skapa & Ladda Ner',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Se hur det fungerar',
+        modalTitle: 'Funktionsöversikt',
+      },
+      appSpecific: {
+        videoId: 'TYvUXJeMI98',
+        buttonText: 'Skuggmatchning Funktioner',
+        modalTitle: 'Skuggmatchning Guide',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/swedish/shadow-match/

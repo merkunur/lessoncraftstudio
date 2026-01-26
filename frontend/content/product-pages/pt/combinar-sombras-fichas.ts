@@ -51,6 +51,18 @@ Acesse uma biblioteca com mais de 3000 imagens organizadas por temas. Encontre a
       action: 'Criar e Baixar',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Veja como funciona',
+        modalTitle: 'Visão geral das funções',
+      },
+      appSpecific: {
+        videoId: 'TYvUXJeMI98',
+        buttonText: 'Funções Jogo das Sombras',
+        modalTitle: 'Tutorial Jogo das Sombras',
+      },
+    },
   },
 
   // Sample Gallery

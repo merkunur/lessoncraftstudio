@@ -51,6 +51,18 @@ Skygge-match opgaver understøtter finmotorik øvelser når børn tegner linjer 
       action: 'Nemt at bruge',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Se hvordan det virker',
+        modalTitle: 'Funktionsoversigt',
+      },
+      appSpecific: {
+        videoId: 'TYvUXJeMI98',
+        buttonText: 'Skyggeparring Funktioner',
+        modalTitle: 'Skyggeparring Vejledning',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/shadow match/

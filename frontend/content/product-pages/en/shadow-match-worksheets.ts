@@ -42,6 +42,18 @@ Full Access subscription costs $240 annually or $25 monthly. This includes all 3
       images: '3000+ Images',
       license: 'Commercial License',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'See How It Works',
+        modalTitle: 'Quick Feature Overview',
+      },
+      appSpecific: {
+        videoId: 'TYvUXJeMI98',
+        buttonText: 'Shadow Match Features',
+        modalTitle: 'Shadow Match Tutorial',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/shadow match/

@@ -47,6 +47,18 @@ Varjoyhdistelygeneraattorimme tarjoaa kaksi harjoitustyyppiä: perinteisen varjo
       action: 'Luo & Lataa',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Katso miten se toimii',
+        modalTitle: 'Toimintojen yleiskatsaus',
+      },
+      appSpecific: {
+        videoId: 'TYvUXJeMI98',
+        buttonText: 'Varjopari Toiminnot',
+        modalTitle: 'Varjopari Opas',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/shadow match/

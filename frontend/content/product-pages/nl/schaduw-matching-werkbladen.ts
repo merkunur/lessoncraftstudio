@@ -61,6 +61,18 @@ Schaduw matching werkbladen ondersteunen meerdere ontwikkelingsgebieden. Kindere
       action: 'Maken & Downloaden',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Bekijk hoe het werkt',
+        modalTitle: 'Overzicht van functies',
+      },
+      appSpecific: {
+        videoId: 'TYvUXJeMI98',
+        buttonText: 'Schaduw koppelen Functies',
+        modalTitle: 'Schaduw koppelen Handleiding',
+      },
+    },
   },
 
   // Sample Gallery

@@ -49,6 +49,18 @@ Cada ficha incluye cuatro imágenes organizadas en columnas de izquierda a derec
       action: 'Crear y Descargar',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Mira cómo funciona',
+        modalTitle: 'Vista rápida de funciones',
+      },
+      appSpecific: {
+        videoId: 'TYvUXJeMI98',
+        buttonText: 'Funciones Asociación de Sombras',
+        modalTitle: 'Tutorial Asociación de Sombras',
+      },
+    },
   },
 
   // Sample Gallery

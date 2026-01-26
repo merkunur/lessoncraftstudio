@@ -49,6 +49,18 @@ Hver skyggematching oppgave kommer med automatisk fasit. Barna øver visuell mat
       action: 'Enkelt å bruke',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Se hvordan det fungerer',
+        modalTitle: 'Funksjonsoversikt',
+      },
+      appSpecific: {
+        videoId: 'TYvUXJeMI98',
+        buttonText: 'Skyggematching Funksjoner',
+        modalTitle: 'Skyggematching Veiledning',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/shadow match/

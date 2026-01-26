@@ -49,6 +49,18 @@ Ces fiches maternelle travaillent les compétences essentielles du programme de 
       action: 'Créer & Télécharger',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Découvrir en vidéo',
+        modalTitle: 'Aperçu des fonctionnalités',
+      },
+      appSpecific: {
+        videoId: 'TYvUXJeMI98',
+        buttonText: 'Fonctions Ombres',
+        modalTitle: 'Tutoriel Ombres',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/french/shadow-match/

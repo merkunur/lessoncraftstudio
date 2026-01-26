@@ -47,6 +47,18 @@ O gerador de atividades para imprimir de encontrar objetos oferece dois modos de
       action: 'Crie e Baixe',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Veja como funciona',
+        modalTitle: 'Visão geral das funções',
+      },
+      appSpecific: {
+        videoId: '8Y3jrVr1Phs',
+        buttonText: 'Funções Encontrar Objetos',
+        modalTitle: 'Tutorial Encontrar Objetos',
+      },
+    },
   },
 
   // Sample Gallery

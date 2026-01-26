@@ -67,6 +67,18 @@ Deze werkbladen kleuters ondersteunen de ontwikkeling van visuele waarneming en 
       action: 'Maken & Downloaden',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Bekijk hoe het werkt',
+        modalTitle: 'Overzicht van functies',
+      },
+      appSpecific: {
+        videoId: '8Y3jrVr1Phs',
+        buttonText: 'Zoek de Voorwerpen Functies',
+        modalTitle: 'Zoek de Voorwerpen Handleiding',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/dutch/find-objects/

@@ -51,6 +51,18 @@ El generador funciona en 11 idiomas diferentes. Los nombres de las imágenes se 
       action: 'Crear y Descargar',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Mira cómo funciona',
+        modalTitle: 'Vista rápida de funciones',
+      },
+      appSpecific: {
+        videoId: '8Y3jrVr1Phs',
+        buttonText: 'Funciones Buscar Objetos',
+        modalTitle: 'Tutorial Buscar Objetos',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/find objects/

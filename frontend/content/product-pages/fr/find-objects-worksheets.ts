@@ -51,6 +51,18 @@ Les enseignants utilisent notre générateur pour développer les compétences d
       action: 'Créer & Télécharger',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Découvrir en vidéo',
+        modalTitle: 'Aperçu des fonctionnalités',
+      },
+      appSpecific: {
+        videoId: '8Y3jrVr1Phs',
+        buttonText: 'Fonctions Cherche les Objets',
+        modalTitle: 'Tutoriel Cherche les Objets',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/find objects/

@@ -49,6 +49,18 @@ Questo strumento è perfetto per insegnanti italiani. Genera scheda gratuita per
       action: 'Crea e Scarica',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Guarda come funziona',
+        modalTitle: 'Panoramica delle funzioni',
+      },
+      appSpecific: {
+        videoId: '8Y3jrVr1Phs',
+        buttonText: 'Funzioni Trova gli Oggetti',
+        modalTitle: 'Tutorial Trova gli Oggetti',
+      },
+    },
   },
 
   // Sample Gallery

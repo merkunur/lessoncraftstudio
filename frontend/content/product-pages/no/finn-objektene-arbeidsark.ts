@@ -47,6 +47,18 @@ Full Tilgang-abonnement inkluderer alle 33 oppgavegeneratorer på plattformen. L
       action: 'Enkelt å bruke',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Se hvordan det fungerer',
+        modalTitle: 'Funksjonsoversikt',
+      },
+      appSpecific: {
+        videoId: '8Y3jrVr1Phs',
+        buttonText: 'Finn Objektene Funksjoner',
+        modalTitle: 'Finn Objektene Veiledning',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/norwegian/find-objects/

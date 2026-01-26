@@ -49,6 +49,18 @@ Työkalumme sisältää yli 3000 lapsille sopivaa kuvaa 11 kielellä. Kuvien tie
       action: 'Luo & Lataa',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Katso miten se toimii',
+        modalTitle: 'Toimintojen yleiskatsaus',
+      },
+      appSpecific: {
+        videoId: '8Y3jrVr1Phs',
+        buttonText: 'Etsi Esineet Toiminnot',
+        modalTitle: 'Etsi Esineet Opas',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/find objects/

@@ -42,6 +42,18 @@ Teachers use our find objects generator to build visual perception skills in you
       images: '3000+ Images',
       license: 'Commercial License',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'See How It Works',
+        modalTitle: 'Quick Feature Overview',
+      },
+      appSpecific: {
+        videoId: '8Y3jrVr1Phs',
+        buttonText: 'Find Objects Features',
+        modalTitle: 'Find Objects Tutorial',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/find-objects/

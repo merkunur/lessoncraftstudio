@@ -59,6 +59,18 @@ Das Vollzugriff Abonnement enthält alle 33 Arbeitsblatt-Generatoren. Kombiniere
       action: 'Erstellen & Herunterladen',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'So einfach geht\'s',
+        modalTitle: 'Funktionen im Überblick',
+      },
+      appSpecific: {
+        videoId: '8Y3jrVr1Phs',
+        buttonText: 'Suchbilder Funktionen',
+        modalTitle: 'Suchbilder Anleitung',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/find objects/

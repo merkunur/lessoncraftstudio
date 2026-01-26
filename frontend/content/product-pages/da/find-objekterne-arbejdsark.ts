@@ -49,6 +49,18 @@ Fuld Adgang abonnementet koster 1.800 kr årligt eller 200 kr månedligt. Du få
       action: 'Nemt at bruge',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Se hvordan det virker',
+        modalTitle: 'Funktionsoversigt',
+      },
+      appSpecific: {
+        videoId: '8Y3jrVr1Phs',
+        buttonText: 'Find Objekterne Funktioner',
+        modalTitle: 'Find Objekterne Vejledning',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/danish/find-objects/

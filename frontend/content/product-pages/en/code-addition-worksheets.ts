@@ -46,6 +46,18 @@ The image addition generator creates worksheets with 3 to 10 problems per page. 
       images: '3000+ Images',
       license: 'Commercial License',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'See How It Works',
+        modalTitle: 'Quick Feature Overview',
+      },
+      appSpecific: {
+        videoId: 'vVd11Kjk9iA',
+        buttonText: 'Image Addition Features',
+        modalTitle: 'Image Addition Tutorial',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/code-addition/

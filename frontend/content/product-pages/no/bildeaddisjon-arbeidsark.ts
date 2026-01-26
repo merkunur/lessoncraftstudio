@@ -49,6 +49,18 @@ Full Tilgang-abonnementet koster $240 per år eller $25 per måned. Du får tilg
       action: 'Enkelt å bruke',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Se hvordan det fungerer',
+        modalTitle: 'Funksjonsoversikt',
+      },
+      appSpecific: {
+        videoId: 'vVd11Kjk9iA',
+        buttonText: 'Bildeaddisjon Funksjoner',
+        modalTitle: 'Bildeaddisjon Veiledning',
+      },
+    },
   },
 
   // Sample Gallery - Norwegian samples from samples/norwegian/code-addition/

@@ -62,6 +62,18 @@ Unsere Bildbibliothek umfasst über 3000 Bilder. Alle Bilder sind kindgerecht un
       action: 'Erstellen & Herunterladen',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'So einfach geht\'s',
+        modalTitle: 'Funktionen im Überblick',
+      },
+      appSpecific: {
+        videoId: 'vVd11Kjk9iA',
+        buttonText: 'Bilder-Addition Funktionen',
+        modalTitle: 'Bilder-Addition Anleitung',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/german/code-addition/

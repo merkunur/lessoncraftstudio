@@ -48,6 +48,18 @@ Os professores adoram essas atividades para imprimir porque engajam os aprendize
       action: 'Crie e Baixe',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Veja como funciona',
+        modalTitle: 'Visão geral das funções',
+      },
+      appSpecific: {
+        videoId: 'vVd11Kjk9iA',
+        buttonText: 'Funções Código de Imagens',
+        modalTitle: 'Tutorial Código de Imagens',
+      },
+    },
   },
 
   // Sample Gallery

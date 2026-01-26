@@ -49,6 +49,18 @@ Full Tillgång-prenumerationen kostar 2400 kr per år eller 250 kr per månad. D
       action: 'Skapa & Ladda Ner',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Se hur det fungerar',
+        modalTitle: 'Funktionsöversikt',
+      },
+      appSpecific: {
+        videoId: 'vVd11Kjk9iA',
+        buttonText: 'Kodaddition Funktioner',
+        modalTitle: 'Kodaddition Guide',
+      },
+    },
   },
 
   // Sample Gallery - Swedish file paths from samples/swedish/code-addition/

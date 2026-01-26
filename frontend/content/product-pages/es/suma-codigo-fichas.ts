@@ -49,6 +49,18 @@ El generador funciona en 11 idiomas con más de 3000 imágenes infantiles. Selec
       action: 'Crear y Descargar',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Mira cómo funciona',
+        modalTitle: 'Vista rápida de funciones',
+      },
+      appSpecific: {
+        videoId: 'vVd11Kjk9iA',
+        buttonText: 'Funciones Código de Imágenes',
+        modalTitle: 'Tutorial Código de Imágenes',
+      },
+    },
   },
 
   // Sample Gallery

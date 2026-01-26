@@ -49,6 +49,18 @@ Jokainen tehtävä on täysin muokattavissa luomisen jälkeen. Raahaa, kierrä, 
       action: 'Luo & Lataa',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Katso miten se toimii',
+        modalTitle: 'Toimintojen yleiskatsaus',
+      },
+      appSpecific: {
+        videoId: 'vVd11Kjk9iA',
+        buttonText: 'Kuvapohjainen Yhteenlasku Toiminnot',
+        modalTitle: 'Kuvapohjainen Yhteenlasku Opas',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/code addition/

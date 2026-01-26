@@ -61,6 +61,18 @@ Kinderen leren het beste door te doen. Onze gratis werkblad voor kinderen gebrui
       action: 'Maken & Downloaden',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Bekijk hoe het werkt',
+        modalTitle: 'Overzicht van functies',
+      },
+      appSpecific: {
+        videoId: 'vVd11Kjk9iA',
+        buttonText: 'Visuele Optelsommen Functies',
+        modalTitle: 'Visuele Optelsommen Handleiding',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/dutch/code-addition/

@@ -49,6 +49,18 @@ Fuld Adgang-abonnementet koster 1800 DKK om året eller 200 DKK om måneden. Dit
       action: 'Nemt at bruge',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Se hvordan det virker',
+        modalTitle: 'Funktionsoversigt',
+      },
+      appSpecific: {
+        videoId: 'vVd11Kjk9iA',
+        buttonText: 'Kode-Addition Funktioner',
+        modalTitle: 'Kode-Addition Vejledning',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/danish/code-addition/

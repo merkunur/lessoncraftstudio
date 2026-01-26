@@ -51,6 +51,18 @@ Notre générateur propose des fiches à imprimer gratuit adaptées à tous les 
       action: 'Créer & Télécharger',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Découvrir en vidéo',
+        modalTitle: 'Aperçu des fonctionnalités',
+      },
+      appSpecific: {
+        videoId: 'vVd11Kjk9iA',
+        buttonText: 'Fonctions Addition avec Images',
+        modalTitle: 'Tutoriel Addition avec Images',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/code addition/

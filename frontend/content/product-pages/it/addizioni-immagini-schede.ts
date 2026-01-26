@@ -51,6 +51,18 @@ Modifica tutto sulla scheda gratuita dopo la generazione. Sposta, ruota, ridimen
       action: 'Crea e Scarica',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Guarda come funziona',
+        modalTitle: 'Panoramica delle funzioni',
+      },
+      appSpecific: {
+        videoId: 'vVd11Kjk9iA',
+        buttonText: 'Funzioni Addizioni Immagini',
+        modalTitle: 'Tutorial Addizioni Immagini',
+      },
+    },
   },
 
   // Sample Gallery

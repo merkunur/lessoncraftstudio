@@ -63,6 +63,18 @@ Combineer patronen werkbladen met kleurplaten voor extra oefening. Maak gratis w
       action: 'Maken & Downloaden',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Bekijk hoe het werkt',
+        modalTitle: 'Overzicht van functies',
+      },
+      appSpecific: {
+        videoId: 'W94X5_RA3ug',
+        buttonText: 'Patroonwerkbladen Functies',
+        modalTitle: 'Patroonwerkbladen Handleiding',
+      },
+    },
   },
 
   // Sample Gallery

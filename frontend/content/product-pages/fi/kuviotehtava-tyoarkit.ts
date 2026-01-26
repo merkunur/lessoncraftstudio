@@ -51,6 +51,18 @@ Jokaisessa tehtävässä on selkeät esimerkit ja vastausavain. Voit mukauttaa v
       action: 'Luo & Lataa',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Katso miten se toimii',
+        modalTitle: 'Toimintojen yleiskatsaus',
+      },
+      appSpecific: {
+        videoId: 'W94X5_RA3ug',
+        buttonText: 'Kuviomonisteet Toiminnot',
+        modalTitle: 'Kuviomonisteet Opas',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/pattern worksheet/

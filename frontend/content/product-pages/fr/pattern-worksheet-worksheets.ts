@@ -49,6 +49,18 @@ Les fiches de séquences développent la reconnaissance de motifs dès la petite
       action: 'Créer & Télécharger',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Découvrir en vidéo',
+        modalTitle: 'Aperçu des fonctionnalités',
+      },
+      appSpecific: {
+        videoId: 'W94X5_RA3ug',
+        buttonText: 'Fonctions Fiches Séquences',
+        modalTitle: 'Tutoriel Fiches Séquences',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/french/pattern/

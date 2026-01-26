@@ -49,6 +49,18 @@ Børn kan øve sig med to forskellige opgavetyper. Første type er tom boks hvor
       action: 'Nemt at bruge',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Se hvordan det virker',
+        modalTitle: 'Funktionsoversigt',
+      },
+      appSpecific: {
+        videoId: 'W94X5_RA3ug',
+        buttonText: 'Mønsterark Funktioner',
+        modalTitle: 'Mønsterark Vejledning',
+      },
+    },
   },
 
   // Sample Gallery - Danish paths with keyword-rich alt text

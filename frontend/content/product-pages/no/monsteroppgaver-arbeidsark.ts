@@ -51,6 +51,18 @@ Full Tilgang-abonnementet inkluderer kommersiell lisens for salg på nettbutikke
       action: 'Enkelt å bruke',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Se hvordan det fungerer',
+        modalTitle: 'Funksjonsoversikt',
+      },
+      appSpecific: {
+        videoId: 'W94X5_RA3ug',
+        buttonText: 'Mønsteroppgaver Funksjoner',
+        modalTitle: 'Mønsteroppgaver Veiledning',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/pattern worksheet/

@@ -51,6 +51,18 @@ Vår generator erbjuder 9 olika mönstertyper från enkla AB-mönster till avanc
       action: 'Skapa & Ladda Ner',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Se hur det fungerar',
+        modalTitle: 'Funktionsöversikt',
+      },
+      appSpecific: {
+        videoId: 'W94X5_RA3ug',
+        buttonText: 'Mönsterövningar Funktioner',
+        modalTitle: 'Mönsterövningar Guide',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/pattern worksheet/

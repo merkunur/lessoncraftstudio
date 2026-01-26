@@ -47,6 +47,18 @@ Scarica schede gratuite di alta qualità in formato PDF o JPEG. Ogni foglio di l
       action: 'Crea e Scarica',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Guarda come funziona',
+        modalTitle: 'Panoramica delle funzioni',
+      },
+      appSpecific: {
+        videoId: 'W94X5_RA3ug',
+        buttonText: 'Funzioni Schede di sequenze',
+        modalTitle: 'Tutorial Schede di sequenze',
+      },
+    },
   },
 
   // Sample Gallery - Italian samples from /samples/italian/pattern/

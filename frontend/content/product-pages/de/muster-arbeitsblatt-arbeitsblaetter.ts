@@ -61,6 +61,18 @@ Mustererkennung ist eine Schlüsselkompetenz im frühen Mathematikunterricht. Ki
       action: 'Erstellen & Herunterladen',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'So einfach geht\'s',
+        modalTitle: 'Funktionen im Überblick',
+      },
+      appSpecific: {
+        videoId: 'W94X5_RA3ug',
+        buttonText: 'Muster-Arbeitsblatt Funktionen',
+        modalTitle: 'Muster-Arbeitsblatt Anleitung',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/german/pattern/

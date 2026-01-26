@@ -47,6 +47,18 @@ El reconocimiento de patrones desarrolla habilidades matemáticas esenciales. Es
       action: 'Crear y Descargar',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Mira cómo funciona',
+        modalTitle: 'Vista rápida de funciones',
+      },
+      appSpecific: {
+        videoId: 'W94X5_RA3ug',
+        buttonText: 'Funciones Fichas de Patrones',
+        modalTitle: 'Tutorial Fichas de Patrones',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/spanish/pattern/

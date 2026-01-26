@@ -58,6 +58,18 @@ O gerador inclui mais de 3000 imagens temáticas organizadas por categorias. Voc
       action: 'Crie e Baixe',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Veja como funciona',
+        modalTitle: 'Visão geral das funções',
+      },
+      appSpecific: {
+        videoId: 'W94X5_RA3ug',
+        buttonText: 'Funções Atividades de Padrões',
+        modalTitle: 'Tutorial Atividades de Padrões',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/portuguese/pattern/

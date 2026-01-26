@@ -58,7 +58,7 @@ export async function POST(request: NextRequest) {
     
     // Send verification email
     const appUrl = process.env.NEXT_PUBLIC_APP_URL || 'https://www.lessoncraftstudio.com';
-    const verificationUrl = `${appUrl}/verify-email?token=${verificationToken}`;
+    const verificationUrl = `${appUrl}/auth/verify-email?token=${verificationToken}`;
 
     try {
       const emailHtml = await render(

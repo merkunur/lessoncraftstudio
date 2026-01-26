@@ -50,6 +50,18 @@ Minus-stykker matematikopgaver er visuelle opgaver til print der bruger billeder
       action: 'Nemt at bruge',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Se hvordan det virker',
+        modalTitle: 'Funktionsoversigt',
+      },
+      appSpecific: {
+        videoId: 'til2mrWMUxk',
+        buttonText: 'Subtraktion Funktioner',
+        modalTitle: 'Subtraktion Vejledning',
+      },
+    },
   },
 
   // Sample Gallery

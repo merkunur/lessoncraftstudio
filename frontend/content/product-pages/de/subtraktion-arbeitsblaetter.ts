@@ -67,6 +67,18 @@ Der Generator unterstützt 11 Sprachen für die Benutzeroberfläche und Bildbesc
       action: 'Erstellen & Herunterladen',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'So einfach geht\'s',
+        modalTitle: 'Funktionen im Überblick',
+      },
+      appSpecific: {
+        videoId: 'til2mrWMUxk',
+        buttonText: 'Subtraktion Funktionen',
+        modalTitle: 'Subtraktion Anleitung',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/subtraction/

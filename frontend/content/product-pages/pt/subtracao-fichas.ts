@@ -49,6 +49,18 @@ Nosso gerador cria atividades de subtração usando imagens temáticas. As crian
       action: 'Crie e Baixe',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Veja como funciona',
+        modalTitle: 'Visão geral das funções',
+      },
+      appSpecific: {
+        videoId: 'til2mrWMUxk',
+        buttonText: 'Funções Subtração',
+        modalTitle: 'Tutorial Subtração',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/subtraction/

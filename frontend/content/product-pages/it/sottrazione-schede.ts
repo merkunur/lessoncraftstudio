@@ -49,6 +49,18 @@ Scegli tra quattro diverse modalità di esercizi di sottrazione per variare la p
       action: 'Crea e Scarica',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Guarda come funziona',
+        modalTitle: 'Panoramica delle funzioni',
+      },
+      appSpecific: {
+        videoId: 'til2mrWMUxk',
+        buttonText: 'Funzioni Sottrazione',
+        modalTitle: 'Tutorial Sottrazione',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/subtraction/

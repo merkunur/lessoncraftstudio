@@ -50,6 +50,18 @@ Les enseignants de maternelle et de CP utilisent ces fiches de soustraction pour
       action: 'Créer & Télécharger',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Découvrir en vidéo',
+        modalTitle: 'Aperçu des fonctionnalités',
+      },
+      appSpecific: {
+        videoId: 'til2mrWMUxk',
+        buttonText: 'Fonctions Soustraction',
+        modalTitle: 'Tutoriel Soustraction',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/french/subtraction/

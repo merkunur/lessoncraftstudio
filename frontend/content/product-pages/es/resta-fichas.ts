@@ -49,6 +49,18 @@ La plataforma incluye más de 3000 imágenes apropiadas para niños. Selecciona 
       action: 'Crear y Descargar',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Mira cómo funciona',
+        modalTitle: 'Vista rápida de funciones',
+      },
+      appSpecific: {
+        videoId: 'til2mrWMUxk',
+        buttonText: 'Funciones Resta',
+        modalTitle: 'Tutorial Resta',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/subtraction/

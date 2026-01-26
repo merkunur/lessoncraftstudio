@@ -49,6 +49,18 @@ Vähennyslasku on perustaidoksi alakoulun matematiikan opetuksessa. Esiopetukses
       action: 'Luo & Lataa',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Katso miten se toimii',
+        modalTitle: 'Toimintojen yleiskatsaus',
+      },
+      appSpecific: {
+        videoId: 'til2mrWMUxk',
+        buttonText: 'Vähennyslasku Toiminnot',
+        modalTitle: 'Vähennyslasku Opas',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/subtraction/

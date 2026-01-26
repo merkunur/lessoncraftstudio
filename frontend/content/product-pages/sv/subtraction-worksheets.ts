@@ -49,6 +49,18 @@ Exportera i 300 DPI professionell kvalitet. Perfekt för klassrumsbruk och förs
       action: 'Skapa & Ladda Ner',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Se hur det fungerar',
+        modalTitle: 'Funktionsöversikt',
+      },
+      appSpecific: {
+        videoId: 'til2mrWMUxk',
+        buttonText: 'Subtraktion Funktioner',
+        modalTitle: 'Subtraktion Guide',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/swedish/subtraction/

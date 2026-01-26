@@ -42,6 +42,18 @@ Adjust difficulty settings to create kindergarten worksheets for early learners 
       images: '3000+ Images',
       license: 'Commercial License',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'See How It Works',
+        modalTitle: 'Quick Feature Overview',
+      },
+      appSpecific: {
+        videoId: 'til2mrWMUxk',
+        buttonText: 'Subtraction Features',
+        modalTitle: 'Subtraction Tutorial',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/subtraction/

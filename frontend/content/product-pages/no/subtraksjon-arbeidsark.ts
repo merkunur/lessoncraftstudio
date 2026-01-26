@@ -53,6 +53,18 @@ Hvert arbeidsark kommer med automatisk generert fasit. Spar tid på retting. Ele
       action: 'Enkelt å bruke',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Se hvordan det fungerer',
+        modalTitle: 'Funksjonsoversikt',
+      },
+      appSpecific: {
+        videoId: 'til2mrWMUxk',
+        buttonText: 'Subtraksjon Funksjoner',
+        modalTitle: 'Subtraksjon Veiledning',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/subtraction/

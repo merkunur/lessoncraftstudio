@@ -65,6 +65,18 @@ De generator werkt in het Nederlands met volledige UI-ondersteuning. Alle labels
       action: 'Maken & Downloaden',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Bekijk hoe het werkt',
+        modalTitle: 'Overzicht van functies',
+      },
+      appSpecific: {
+        videoId: '9kzmlABtNVQ',
+        buttonText: 'Plaatjes Sorteren Functies',
+        modalTitle: 'Plaatjes Sorteren Handleiding',
+      },
+    },
   },
 
   // Sample Gallery

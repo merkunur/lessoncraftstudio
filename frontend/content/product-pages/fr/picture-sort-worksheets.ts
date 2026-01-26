@@ -51,6 +51,18 @@ Notre générateur s'adresse aux enseignants de maternelle GS, CP et CE1. Les fi
       action: 'Créer & Télécharger',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Découvrir en vidéo',
+        modalTitle: 'Aperçu des fonctionnalités',
+      },
+      appSpecific: {
+        videoId: '9kzmlABtNVQ',
+        buttonText: 'Fonctions Tri d\'Images',
+        modalTitle: 'Tutoriel Tri d\'Images',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/picture sort/

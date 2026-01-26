@@ -47,6 +47,18 @@ Bildesorteringsarbeidsark støtter barnehagepedagoger og lærere med arbeidsark 
       action: 'Enkelt å bruke',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Se hvordan det fungerer',
+        modalTitle: 'Funksjonsoversikt',
+      },
+      appSpecific: {
+        videoId: '9kzmlABtNVQ',
+        buttonText: 'Bildesortering Funksjoner',
+        modalTitle: 'Bildesortering Veiledning',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/picture sort/

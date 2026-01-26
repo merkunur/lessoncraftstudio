@@ -52,6 +52,18 @@ Använd sorteringsarbetsblad för förskoleklass material och lågstadiet. Kombi
       action: 'Skapa & Ladda Ner',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Se hur det fungerar',
+        modalTitle: 'Funktionsöversikt',
+      },
+      appSpecific: {
+        videoId: '9kzmlABtNVQ',
+        buttonText: 'Sortera bilder Funktioner',
+        modalTitle: 'Sortera bilder Guide',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/picture sort/

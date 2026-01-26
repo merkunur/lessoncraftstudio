@@ -51,6 +51,18 @@ Le attività di classificazione aiutano i bambini a identificare somiglianze e d
       action: 'Crea e Scarica',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Guarda come funziona',
+        modalTitle: 'Panoramica delle funzioni',
+      },
+      appSpecific: {
+        videoId: '9kzmlABtNVQ',
+        buttonText: 'Funzioni Ordinamento Immagini',
+        modalTitle: 'Tutorial Ordinamento Immagini',
+      },
+    },
   },
 
   // Sample Gallery

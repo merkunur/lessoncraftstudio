@@ -49,6 +49,18 @@ Professores de todo o Brasil confiam no LessonCraft Studio. Nossa plataforma ofe
       action: 'Crie e Baixe',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Veja como funciona',
+        modalTitle: 'Visão geral das funções',
+      },
+      appSpecific: {
+        videoId: '9kzmlABtNVQ',
+        buttonText: 'Funções Classificação de Imagens',
+        modalTitle: 'Tutorial Classificação de Imagens',
+      },
+    },
   },
 
   // Sample Gallery - Portuguese samples from samples/portuguese/picture-sort/

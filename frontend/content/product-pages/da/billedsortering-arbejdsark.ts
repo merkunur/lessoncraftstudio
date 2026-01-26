@@ -51,6 +51,18 @@ Fuld Adgang abonnement inkluderer ubegrænset adgang til alle 33 opgavegenerator
       action: 'Nemt at bruge',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Se hvordan det virker',
+        modalTitle: 'Funktionsoversigt',
+      },
+      appSpecific: {
+        videoId: '9kzmlABtNVQ',
+        buttonText: 'Billedsortering Funktioner',
+        modalTitle: 'Billedsortering Vejledning',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/danish/picture-sort/

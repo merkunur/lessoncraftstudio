@@ -63,6 +63,18 @@ Mit Ihrem Abonnement erhalten Sie Zugang zu über 3000 kindgerechten Bildern. Di
       action: 'Erstellen & Herunterladen',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'So einfach geht\'s',
+        modalTitle: 'Funktionen im Überblick',
+      },
+      appSpecific: {
+        videoId: '9kzmlABtNVQ',
+        buttonText: 'Bildsortierung Funktionen',
+        modalTitle: 'Bildsortierung Anleitung',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/picture sort/

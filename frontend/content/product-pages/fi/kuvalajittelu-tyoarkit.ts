@@ -49,6 +49,18 @@ Työkalumme tekee laadukkaiden esiopetus materiaali ilmainen -tehtävien luomise
       action: 'Luo & Lataa',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Katso miten se toimii',
+        modalTitle: 'Toimintojen yleiskatsaus',
+      },
+      appSpecific: {
+        videoId: '9kzmlABtNVQ',
+        buttonText: 'Kuvien Lajittelu Toiminnot',
+        modalTitle: 'Kuvien Lajittelu Opas',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/picture sort/

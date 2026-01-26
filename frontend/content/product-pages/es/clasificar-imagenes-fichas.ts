@@ -51,6 +51,18 @@ Tu suscripción Acceso Completo incluye licencia comercial completa. Vende tus f
       action: 'Crear y Descargar',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Mira cómo funciona',
+        modalTitle: 'Vista rápida de funciones',
+      },
+      appSpecific: {
+        videoId: '9kzmlABtNVQ',
+        buttonText: 'Funciones Clasificación de Imágenes',
+        modalTitle: 'Tutorial Clasificación de Imágenes',
+      },
+    },
   },
 
   // Sample Gallery

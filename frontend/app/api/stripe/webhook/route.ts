@@ -305,7 +305,7 @@ async function handleInvoicePaid(invoice: Stripe.Invoice) {
   const paymentData = {
     userId: user.id,
     stripePaymentIntentId: paymentId,
-    stripeInvoiceId: invoice.id,
+    stripeInvoiceId: invoice.id!,
     stripePaymentId: invoiceCharge || undefined, // Store charge ID separately if available
     amount: invoice.amount_paid / 100, // Convert from cents
     currency: invoice.currency,
@@ -392,7 +392,7 @@ async function handleInvoicePaymentFailed(invoice: Stripe.Invoice) {
   const paymentData = {
     userId: user.id,
     stripePaymentIntentId: paymentId,
-    stripeInvoiceId: invoice.id,
+    stripeInvoiceId: invoice.id!,
     stripePaymentId: invoiceCharge || undefined,
     amount: invoice.amount_due / 100,
     currency: invoice.currency,
@@ -420,7 +420,7 @@ async function handleInvoicePaymentFailed(invoice: Stripe.Invoice) {
   const existingFailure = await prisma.paymentFailure.findFirst({
     where: {
       userId: user.id,
-      stripeInvoiceId: invoice.id,
+      stripeInvoiceId: invoice.id!,
       status: { in: ['pending', 'retrying'] },
     },
     orderBy: { createdAt: 'desc' },
@@ -452,7 +452,7 @@ async function handleInvoicePaymentFailed(invoice: Stripe.Invoice) {
     await prisma.paymentFailure.create({
       data: {
         userId: user.id,
-        stripeInvoiceId: invoice.id,
+        stripeInvoiceId: invoice.id!,
         stripePaymentIntentId: invoicePaymentIntent ?? undefined,
         failureCode,
         failureMessage: failureReason,

@@ -63,6 +63,18 @@ Volledige Toegang abonnement kost €240 per jaar of €25 per maand. Onbeperkt 
       action: 'Maken & Downloaden',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Bekijk hoe het werkt',
+        modalTitle: 'Overzicht van functies',
+      },
+      appSpecific: {
+        videoId: 'b3WKDrzif-w',
+        buttonText: 'Kruiswoordpuzzel Functies',
+        modalTitle: 'Kruiswoordpuzzel Handleiding',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/dutch/crossword/

@@ -50,6 +50,18 @@ Full Tilgang inkluderer kommersielle rettigheter for print-on-demand. Selg dine 
       action: 'Enkelt å bruke',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Se hvordan det fungerer',
+        modalTitle: 'Funksjonsoversikt',
+      },
+      appSpecific: {
+        videoId: 'b3WKDrzif-w',
+        buttonText: 'Bildekryssord Funksjoner',
+        modalTitle: 'Bildekryssord Veiledning',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/crossword/

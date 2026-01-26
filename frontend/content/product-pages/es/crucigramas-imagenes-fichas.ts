@@ -49,6 +49,18 @@ Cada crucigrama incluye una hoja de respuestas con las soluciones. Perfecto para
       action: 'Crear y Descargar',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Mira cómo funciona',
+        modalTitle: 'Vista rápida de funciones',
+      },
+      appSpecific: {
+        videoId: 'b3WKDrzif-w',
+        buttonText: 'Funciones Crucigramas con Imágenes',
+        modalTitle: 'Tutorial Crucigramas con Imágenes',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/spanish/crossword/

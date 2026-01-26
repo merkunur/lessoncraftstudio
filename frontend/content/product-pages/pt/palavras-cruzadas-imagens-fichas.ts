@@ -49,6 +49,18 @@ Palavras cruzadas com imagens são perfeitas para crianças em fase de alfabetiz
       action: 'Crie e Baixe',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Veja como funciona',
+        modalTitle: 'Visão geral das funções',
+      },
+      appSpecific: {
+        videoId: 'b3WKDrzif-w',
+        buttonText: 'Funções Palavras Cruzadas',
+        modalTitle: 'Tutorial Palavras Cruzadas',
+      },
+    },
   },
 
   // Sample Gallery

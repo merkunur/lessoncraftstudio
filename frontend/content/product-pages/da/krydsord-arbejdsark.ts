@@ -47,6 +47,18 @@ Fuld Adgang-abonnement koster 240 USD om året eller 25 USD per måned. Du får 
       action: 'Nemt at bruge',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Se hvordan det virker',
+        modalTitle: 'Funktionsoversigt',
+      },
+      appSpecific: {
+        videoId: 'b3WKDrzif-w',
+        buttonText: 'Krydsord Funktioner',
+        modalTitle: 'Krydsord Vejledning',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/danish/crossword/

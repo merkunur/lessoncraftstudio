@@ -51,6 +51,18 @@ L'abbonamento Accesso Completo include licenza commerciale per la stampa su rich
       action: 'Crea e Scarica',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Guarda come funziona',
+        modalTitle: 'Panoramica delle funzioni',
+      },
+      appSpecific: {
+        videoId: 'b3WKDrzif-w',
+        buttonText: 'Funzioni Cruciverba',
+        modalTitle: 'Tutorial Cruciverba',
+      },
+    },
   },
 
   // Sample Gallery

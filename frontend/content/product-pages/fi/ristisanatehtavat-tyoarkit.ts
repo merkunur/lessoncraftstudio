@@ -51,6 +51,18 @@ Generaattori toimii täysin suomeksi. Kaikki kuvien nimet ja teemat näkyvät su
       action: 'Luo & Lataa',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Katso miten se toimii',
+        modalTitle: 'Toimintojen yleiskatsaus',
+      },
+      appSpecific: {
+        videoId: 'b3WKDrzif-w',
+        buttonText: 'Ristisanatehtävät Toiminnot',
+        modalTitle: 'Ristisanatehtävät Opas',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/crossword/

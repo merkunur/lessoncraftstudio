@@ -59,6 +59,18 @@ Bilderkreuzworträtsel machen das Lernen für Leseanfänger spannend. Schüler b
       action: 'Erstellen & Herunterladen',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'So einfach geht\'s',
+        modalTitle: 'Funktionen im Überblick',
+      },
+      appSpecific: {
+        videoId: 'b3WKDrzif-w',
+        buttonText: 'Bilderkreuzworträtsel Funktionen',
+        modalTitle: 'Bilderkreuzworträtsel Anleitung',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/crossword/

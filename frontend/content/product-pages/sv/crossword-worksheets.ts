@@ -49,6 +49,18 @@ Varje bildkorsord exporteras i professionell 300 DPI-kvalitet. Ladda ner som PDF
       action: 'Skapa & Ladda Ner',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Se hur det fungerar',
+        modalTitle: 'Funktionsöversikt',
+      },
+      appSpecific: {
+        videoId: 'b3WKDrzif-w',
+        buttonText: 'Bildkorsord Funktioner',
+        modalTitle: 'Bildkorsord Guide',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/crossword/

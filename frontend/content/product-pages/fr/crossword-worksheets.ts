@@ -52,6 +52,18 @@ Générez votre premier mot croisé en images en 3 clics. Choisissez un thème o
       action: 'Créer & Télécharger',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Découvrir en vidéo',
+        modalTitle: 'Aperçu des fonctionnalités',
+      },
+      appSpecific: {
+        videoId: 'b3WKDrzif-w',
+        buttonText: 'Fonctions Mots Croisés en Images',
+        modalTitle: 'Tutoriel Mots Croisés en Images',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/french/crossword/

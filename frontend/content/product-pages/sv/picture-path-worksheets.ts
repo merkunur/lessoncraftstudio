@@ -52,6 +52,18 @@ Bildlabyrint generatorn stöder svenska och tio andra språk. Bildnamn visas på
       action: 'Skapa & Ladda Ner',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Se hur det fungerar',
+        modalTitle: 'Funktionsöversikt',
+      },
+      appSpecific: {
+        videoId: 'Sl1o0uPBDCg',
+        buttonText: 'Bildväg Funktioner',
+        modalTitle: 'Bildväg Guide',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/swedish/picture-path/

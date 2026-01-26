@@ -49,6 +49,18 @@ Työkalumme tekee laadukkaiden tehtävien luomisesta nopeaa. Valitse teema tai y
       action: 'Luo & Lataa',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Katso miten se toimii',
+        modalTitle: 'Toimintojen yleiskatsaus',
+      },
+      appSpecific: {
+        videoId: 'Sl1o0uPBDCg',
+        buttonText: 'Kuvapolku Toiminnot',
+        modalTitle: 'Kuvapolku Opas',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/picture path/

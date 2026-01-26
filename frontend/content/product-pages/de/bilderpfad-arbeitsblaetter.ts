@@ -65,6 +65,18 @@ Das Vollzugriff Abonnement kostet 240 Euro pro Jahr oder 25 Euro monatlich. Es u
       action: 'Erstellen & Herunterladen',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'So einfach geht\'s',
+        modalTitle: 'Funktionen im Überblick',
+      },
+      appSpecific: {
+        videoId: 'Sl1o0uPBDCg',
+        buttonText: 'Bilderpfad Funktionen',
+        modalTitle: 'Bilderpfad Anleitung',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/picture path/

@@ -49,6 +49,18 @@ Perfekt for å lage finmotorikk øvelser, tall og telling aktiviteter og visuell
       action: 'Enkelt å bruke',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Se hvordan det fungerer',
+        modalTitle: 'Funksjonsoversikt',
+      },
+      appSpecific: {
+        videoId: 'Sl1o0uPBDCg',
+        buttonText: 'Bildesti Funksjoner',
+        modalTitle: 'Bildesti Veiledning',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/picture path/

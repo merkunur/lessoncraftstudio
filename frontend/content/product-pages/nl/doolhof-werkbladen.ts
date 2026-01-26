@@ -63,6 +63,18 @@ Download hoogwaardige PDF en JPEG bestanden binnen 3 minuten. Alle werkbladen ex
       action: 'Maken & Downloaden',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Bekijk hoe het werkt',
+        modalTitle: 'Overzicht van functies',
+      },
+      appSpecific: {
+        videoId: 'Sl1o0uPBDCg',
+        buttonText: 'Plaatjespad Functies',
+        modalTitle: 'Plaatjespad Handleiding',
+      },
+    },
   },
 
   // Sample Gallery

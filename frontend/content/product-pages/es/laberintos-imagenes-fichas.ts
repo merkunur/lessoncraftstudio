@@ -49,6 +49,18 @@ Los maestros crean fichas gratis con cualquier tema. Practica el reconocimiento 
       action: 'Crear y Descargar',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Mira cómo funciona',
+        modalTitle: 'Vista rápida de funciones',
+      },
+      appSpecific: {
+        videoId: 'Sl1o0uPBDCg',
+        buttonText: 'Funciones Laberintos de Imágenes',
+        modalTitle: 'Tutorial Laberintos de Imágenes',
+      },
+    },
   },
 
   // Sample Gallery

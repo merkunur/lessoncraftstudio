@@ -51,6 +51,18 @@ Hver billedsti downloades som professionel 300 DPI PDF. Ideel til print derhjemm
       action: 'Nemt at bruge',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Se hvordan det virker',
+        modalTitle: 'Funktionsoversigt',
+      },
+      appSpecific: {
+        videoId: 'Sl1o0uPBDCg',
+        buttonText: 'Billedsti Funktioner',
+        modalTitle: 'Billedsti Vejledning',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/picture path/

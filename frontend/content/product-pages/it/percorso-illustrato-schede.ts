@@ -49,6 +49,18 @@ Ogni modalità di gioco ti permette di creare schede didattiche completamente pe
       action: 'Crea e Scarica',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Guarda come funziona',
+        modalTitle: 'Panoramica delle funzioni',
+      },
+      appSpecific: {
+        videoId: 'Sl1o0uPBDCg',
+        buttonText: 'Funzioni Percorso illustrato',
+        modalTitle: 'Tutorial Percorso illustrato',
+      },
+    },
   },
 
   // Sample Gallery

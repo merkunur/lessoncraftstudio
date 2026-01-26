@@ -42,6 +42,18 @@ The picture path worksheet maker works perfectly for differentiated instruction 
       images: '3000+ Images',
       license: 'Commercial License',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'See How It Works',
+        modalTitle: 'Quick Feature Overview',
+      },
+      appSpecific: {
+        videoId: 'Sl1o0uPBDCg',
+        buttonText: 'Picture Path Features',
+        modalTitle: 'Picture Path Tutorial',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/picture-path/

@@ -49,6 +49,18 @@ Combine labirintos com aprendizado de letras e palavras. Crie atividades grátis
       action: 'Crie e Baixe',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Veja como funciona',
+        modalTitle: 'Visão geral das funções',
+      },
+      appSpecific: {
+        videoId: 'Sl1o0uPBDCg',
+        buttonText: 'Funções Caminho Ilustrado',
+        modalTitle: 'Tutorial Caminho Ilustrado',
+      },
+    },
   },
 
   // Sample Gallery

@@ -51,6 +51,18 @@ Les fiches maternelle créées développent plusieurs compétences. Le graphisme
       action: 'Créer & Télécharger',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Découvrir en vidéo',
+        modalTitle: 'Aperçu des fonctionnalités',
+      },
+      appSpecific: {
+        videoId: 'Sl1o0uPBDCg',
+        buttonText: 'Fonctions Parcours d\'Images',
+        modalTitle: 'Tutoriel Parcours d\'Images',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/french/picture-path/

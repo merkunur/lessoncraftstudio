@@ -59,6 +59,18 @@ Sie wählen Schwierigkeitsstufen von sehr leicht bis schwer. Der Generator passt
       action: 'Erstellen & Herunterladen',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'So einfach geht\'s',
+        modalTitle: 'Funktionen im Überblick',
+      },
+      appSpecific: {
+        videoId: '-JIawojGNr0',
+        buttonText: 'Mathe-Arbeitsblätter Funktionen',
+        modalTitle: 'Mathe-Arbeitsblätter Anleitung',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/math worksheet/

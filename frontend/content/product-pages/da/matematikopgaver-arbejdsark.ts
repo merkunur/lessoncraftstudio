@@ -47,6 +47,18 @@ Generer gratis skoleopgaver til print med temaer som børnene elsker. Over 3000 
       action: 'Nemt at bruge',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Se hvordan det virker',
+        modalTitle: 'Funktionsoversigt',
+      },
+      appSpecific: {
+        videoId: '-JIawojGNr0',
+        buttonText: 'Matematikark Funktioner',
+        modalTitle: 'Matematikark Vejledning',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/danish/math/

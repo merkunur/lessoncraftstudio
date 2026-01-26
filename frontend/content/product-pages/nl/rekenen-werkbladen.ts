@@ -59,6 +59,18 @@ Met deze tool maak je werkbladen groep 3 in enkele minuten. De generator onderst
       action: 'Maken & Downloaden',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Bekijk hoe het werkt',
+        modalTitle: 'Overzicht van functies',
+      },
+      appSpecific: {
+        videoId: '-JIawojGNr0',
+        buttonText: 'Rekenwerkbladen Functies',
+        modalTitle: 'Rekenwerkbladen Handleiding',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/dutch/math/

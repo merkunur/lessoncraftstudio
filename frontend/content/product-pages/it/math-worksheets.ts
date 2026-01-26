@@ -54,6 +54,18 @@ Perfetto per insegnanti della scuola dell'infanzia e della scuola primaria. Le s
       action: 'Crea e Scarica',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Guarda come funziona',
+        modalTitle: 'Panoramica delle funzioni',
+      },
+      appSpecific: {
+        videoId: '-JIawojGNr0',
+        buttonText: 'Funzioni Schede Matematica',
+        modalTitle: 'Tutorial Schede Matematica',
+      },
+    },
   },
 
   // Sample Gallery - Italian samples from /samples/italian/math/

@@ -61,6 +61,18 @@ Las fichas de matemáticas incluyen temas educativos adaptados a intereses infan
       action: 'Crear y Descargar',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Mira cómo funciona',
+        modalTitle: 'Vista rápida de funciones',
+      },
+      appSpecific: {
+        videoId: '-JIawojGNr0',
+        buttonText: 'Funciones Fichas Matemáticas',
+        modalTitle: 'Tutorial Fichas Matemáticas',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/math worksheet/

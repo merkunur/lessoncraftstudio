@@ -49,6 +49,18 @@ Luo tehtäviä joko pelkästään yhteenlaskusta tai yhteenlaskun ja vähennysla
       action: 'Luo & Lataa',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Katso miten se toimii',
+        modalTitle: 'Toimintojen yleiskatsaus',
+      },
+      appSpecific: {
+        videoId: '-JIawojGNr0',
+        buttonText: 'Matematiikkatehtävät Toiminnot',
+        modalTitle: 'Matematiikkatehtävät Opas',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/math worksheet/

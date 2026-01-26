@@ -47,6 +47,18 @@ Cada atividade de matemática que você cria é 100% editável. Arraste, redimen
       action: 'Crie e Baixe',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Veja como funciona',
+        modalTitle: 'Visão geral das funções',
+      },
+      appSpecific: {
+        videoId: '-JIawojGNr0',
+        buttonText: 'Funções Fichas Matemática',
+        modalTitle: 'Tutorial Fichas Matemática',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/portuguese/math/

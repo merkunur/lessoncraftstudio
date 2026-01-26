@@ -51,6 +51,18 @@ Ces fiches mathématiques fonctionnent idéalement pour les centres de numérati
       action: 'Créer & Télécharger',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Découvrir en vidéo',
+        modalTitle: 'Aperçu des fonctionnalités',
+      },
+      appSpecific: {
+        videoId: '-JIawojGNr0',
+        buttonText: 'Fonctions Fiches Maths',
+        modalTitle: 'Tutoriel Fiches Maths',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/math worksheet/

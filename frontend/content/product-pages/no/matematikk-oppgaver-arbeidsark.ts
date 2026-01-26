@@ -49,6 +49,18 @@ Hver matematikk oppgave bruker bilder fra vårt bibliotek på 3000+ barnevennlig
       action: 'Enkelt å bruke',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Se hvordan det fungerer',
+        modalTitle: 'Funksjonsoversikt',
+      },
+      appSpecific: {
+        videoId: '-JIawojGNr0',
+        buttonText: 'Matteark Funksjoner',
+        modalTitle: 'Matteark Veiledning',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/norwegian/math/

@@ -47,6 +47,13 @@ Generatorn stöder elev material för alla åldrar. Använd den för att skapa m
       action: 'Skapa & Ladda Ner',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Se hur det fungerar',
+        modalTitle: 'Funktionsöversikt',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/swedish/wordsearch/

@@ -41,6 +41,13 @@ This word search generator works in 11 languages. Select a theme like animals or
       images: '3000+ Images',
       license: 'Commercial License',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'See How It Works',
+        modalTitle: 'Quick Feature Overview',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/wordsearch/

@@ -47,6 +47,13 @@ Este generador funciona en 11 idiomas completos. Selecciona un tema como animale
       action: 'Crear y Descargar',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Mira cómo funciona',
+        modalTitle: 'Vista rápida de funciones',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/wordsearch/

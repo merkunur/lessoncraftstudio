@@ -47,6 +47,13 @@ Generer ubegrenset antall ordgåter uten kostnad per arbeidsark. Bruk for matema
       action: 'Enkelt å bruke',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Se hvordan det fungerer',
+        modalTitle: 'Funksjonsoversikt',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/norwegian/wordsearch/

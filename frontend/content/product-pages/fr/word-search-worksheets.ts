@@ -47,6 +47,13 @@ Ce générateur de mots mêlés fonctionne en 11 langues complètes. Français, 
       action: 'Créer & Télécharger',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Découvrir en vidéo',
+        modalTitle: 'Aperçu des fonctionnalités',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/wordsearch/

@@ -59,6 +59,13 @@ Traditionele werkbladen kosten veel tijd om te maken. Met deze tool bespaar je u
       action: 'Maken & Downloaden',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Bekijk hoe het werkt',
+        modalTitle: 'Overzicht van functies',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/dutch/wordsearch/

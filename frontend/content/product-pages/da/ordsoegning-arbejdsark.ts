@@ -47,6 +47,13 @@ Vores gratis ordsøgningsgenerator tilbyder over 3000 børnevenlige billeder til
       action: 'Nemt at bruge',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Se hvordan det virker',
+        modalTitle: 'Funktionsoversigt',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/wordsearch/

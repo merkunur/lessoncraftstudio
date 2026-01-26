@@ -53,6 +53,13 @@ Nosso gerador de atividades gratis cria imprimiveis gratis em segundos. Escolha 
       action: 'Crie e Baixe',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Veja como funciona',
+        modalTitle: 'Visão geral das funções',
+      },
+    },
   },
 
   // Sample Gallery - GATE 0: Portuguese paths with 4 items

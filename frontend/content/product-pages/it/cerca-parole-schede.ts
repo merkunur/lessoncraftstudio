@@ -47,6 +47,13 @@ Le schede didattiche scuola primaria create con il nostro generatore sono stampa
       action: 'Crea e Scarica',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Guarda come funziona',
+        modalTitle: 'Panoramica delle funzioni',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/italian/wordsearch/

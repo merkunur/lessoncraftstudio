@@ -37,12 +37,44 @@ export default function VideoLightbox({
   const [activated, setActivated] = useState(false);  // True only after user clicks play
   const [iframeLoaded, setIframeLoaded] = useState(false);
   const [thumbnailError, setThumbnailError] = useState(false);
+  const [isWarmingUp, setIsWarmingUp] = useState(false);
 
   const defaultContent = localeContent[locale] || localeContent.en;
   const content = {
     buttonText: buttonText || defaultContent.buttonText,
     modalTitle: modalTitle || defaultContent.modalTitle,
   };
+
+  // Warm up YouTube connections on hover (before user clicks)
+  // This establishes DNS/TCP/TLS connections so video starts faster when clicked
+  const warmUpYouTube = useCallback(() => {
+    if (isWarmingUp) return;
+    setIsWarmingUp(true);
+
+    // Dynamically inject preconnect hints for YouTube domains
+    const domains = [
+      'https://www.youtube-nocookie.com',
+      'https://www.google.com',
+      'https://i.ytimg.com',
+    ];
+
+    domains.forEach(href => {
+      if (!document.querySelector(`link[rel="preconnect"][href="${href}"]`)) {
+        const link = document.createElement('link');
+        link.rel = 'preconnect';
+        link.href = href;
+        document.head.appendChild(link);
+      }
+    });
+
+    // Prefetch YouTube iframe API script
+    if (!document.querySelector('link[rel="prefetch"][href*="youtube.com/iframe_api"]')) {
+      const prefetch = document.createElement('link');
+      prefetch.rel = 'prefetch';
+      prefetch.href = 'https://www.youtube.com/iframe_api';
+      document.head.appendChild(prefetch);
+    }
+  }, [isWarmingUp]);
 
   // Reset states when modal closes
   useEffect(() => {
@@ -86,6 +118,8 @@ export default function VideoLightbox({
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.55 }}
+        onMouseEnter={warmUpYouTube}
+        onFocus={warmUpYouTube}
         onClick={() => setIsOpen(true)}
         className="group relative inline-flex items-center gap-3 px-6 py-3 rounded-xl font-medium text-white/90 transition-all duration-300 hover:scale-[1.02] active:scale-[0.98]"
         style={{

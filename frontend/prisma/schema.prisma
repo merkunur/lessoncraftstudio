@@ -883,6 +883,11 @@ model SupportTicket {
   resolvedAt   DateTime? @map("resolved_at")
   satisfaction Int? // 1-5 rating
 
+  // Gmail integration
+  gmailMessageId String? @unique @map("gmail_message_id") // Link to Gmail message ID
+  gmailThreadId  String? @map("gmail_thread_id")          // Gmail thread ID for conversation tracking
+  source         String  @default("contact_form")          // "contact_form" | "gmail"
+
   createdAt DateTime @default(now()) @map("created_at")
   updatedAt DateTime @updatedAt @map("updated_at")
 
@@ -892,7 +897,24 @@ model SupportTicket {
   @@index([status])
   @@index([priority])
   @@index([createdAt])
+  @@index([source])
   @@map("support_tickets")
+}
+
+// Gmail OAuth Tokens for support email integration
+model GmailToken {
+  id           String   @id @default(cuid())
+  email        String   @unique                 // support@lessoncraftstudio.com
+  accessToken  String   @map("access_token") @db.Text
+  refreshToken String   @map("refresh_token") @db.Text
+  expiresAt    DateTime @map("expires_at")
+  lastSyncAt   DateTime? @map("last_sync_at")
+  importedCount Int     @default(0) @map("imported_count")
+
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  @@map("gmail_tokens")
 }
 
 model FeatureRequest {

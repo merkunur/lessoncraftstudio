@@ -47,6 +47,18 @@ Questo generatore di schede didattiche sudoku è perfetto per insegnanti della s
       action: 'Crea e Scarica',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Guarda come funziona',
+        modalTitle: 'Panoramica delle funzioni',
+      },
+      appSpecific: {
+        videoId: 'bqVioFbkYbA',
+        buttonText: 'Funzioni Sudoku',
+        modalTitle: 'Tutorial Sudoku',
+      },
+    },
   },
 
   // Sample Gallery

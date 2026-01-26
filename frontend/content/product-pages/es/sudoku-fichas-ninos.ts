@@ -47,6 +47,18 @@ Maestros de preescolar y primaria usan nuestras fichas de sudoku para desarrolla
       action: 'Crear y Descargar',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Mira cómo funciona',
+        modalTitle: 'Vista rápida de funciones',
+      },
+      appSpecific: {
+        videoId: 'bqVioFbkYbA',
+        buttonText: 'Funciones Sudoku',
+        modalTitle: 'Tutorial Sudoku',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/sudoku/

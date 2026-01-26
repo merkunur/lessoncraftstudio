@@ -59,6 +59,18 @@ Dieser Sudoku-Arbeitsblatt-Generator ist perfekt für Erzieher, Grundschullehrer
       action: 'Erstellen & Herunterladen',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'So einfach geht\'s',
+        modalTitle: 'Funktionen im Überblick',
+      },
+      appSpecific: {
+        videoId: 'bqVioFbkYbA',
+        buttonText: 'Sudoku Funktionen',
+        modalTitle: 'Sudoku Anleitung',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/sudoku/

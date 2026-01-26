@@ -47,6 +47,18 @@ O sudoku infantil usa grade 4x4 com imagens coloridas. Perfeito para atividades 
       action: 'Crie e Baixe',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Veja como funciona',
+        modalTitle: 'Visão geral das funções',
+      },
+      appSpecific: {
+        videoId: 'bqVioFbkYbA',
+        buttonText: 'Funções Sudoku',
+        modalTitle: 'Tutorial Sudoku',
+      },
+    },
   },
 
   // Sample Gallery - Portuguese sample paths

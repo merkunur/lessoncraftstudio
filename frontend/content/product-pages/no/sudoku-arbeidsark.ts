@@ -47,6 +47,18 @@ Velg mellom tre vanskelighetsgrader tilpasset ulike alderstrinn. Lett nivå har 
       action: 'Enkelt å bruke',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Se hvordan det fungerer',
+        modalTitle: 'Funksjonsoversikt',
+      },
+      appSpecific: {
+        videoId: 'bqVioFbkYbA',
+        buttonText: 'Sudoku Funksjoner',
+        modalTitle: 'Sudoku Veiledning',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/sudoku/

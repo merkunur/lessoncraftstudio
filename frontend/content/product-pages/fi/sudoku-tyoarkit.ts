@@ -51,6 +51,18 @@ Tulostettavat tehtävät lapsille ilmainen on tärkein hakusana suomalaisille op
       action: 'Luo & Lataa',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Katso miten se toimii',
+        modalTitle: 'Toimintojen yleiskatsaus',
+      },
+      appSpecific: {
+        videoId: 'bqVioFbkYbA',
+        buttonText: 'Sudoku Toiminnot',
+        modalTitle: 'Sudoku Opas',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/sudoku/

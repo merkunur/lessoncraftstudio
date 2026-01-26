@@ -46,6 +46,18 @@ This sudoku worksheet generator is perfect for kindergarten teachers, first grad
       images: '3000+ Images',
       license: 'Commercial License',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'See How It Works',
+        modalTitle: 'Quick Feature Overview',
+      },
+      appSpecific: {
+        videoId: 'bqVioFbkYbA',
+        buttonText: 'Sudoku Features',
+        modalTitle: 'Sudoku Tutorial',
+      },
+    },
   },
 
   // Sample Gallery - FIXED file paths (5 samples)

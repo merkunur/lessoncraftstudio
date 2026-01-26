@@ -47,6 +47,18 @@ Les puzzles sudoku complètent parfaitement les exercices maths traditionnels. L
       action: 'Créer & Télécharger',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Découvrir en vidéo',
+        modalTitle: 'Aperçu des fonctionnalités',
+      },
+      appSpecific: {
+        videoId: 'bqVioFbkYbA',
+        buttonText: 'Fonctions Sudoku',
+        modalTitle: 'Tutoriel Sudoku',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/french/sudoku/

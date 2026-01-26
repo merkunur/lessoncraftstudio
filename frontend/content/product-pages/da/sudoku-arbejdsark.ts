@@ -47,6 +47,18 @@ Vores generator laver 4x4 sudoku gratis arbejdsark med billeder. Børn skal fyld
       action: 'Nemt at bruge',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Se hvordan det virker',
+        modalTitle: 'Funktionsoversigt',
+      },
+      appSpecific: {
+        videoId: 'bqVioFbkYbA',
+        buttonText: 'Sudoku Funktioner',
+        modalTitle: 'Sudoku Vejledning',
+      },
+    },
   },
 
   // Sample Gallery

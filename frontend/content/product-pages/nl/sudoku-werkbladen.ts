@@ -59,6 +59,18 @@ Onze sudoku voor kinderen gebruikt afbeeldingen in plaats van cijfers. Een 4x4 r
       action: 'Maken & Downloaden',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Bekijk hoe het werkt',
+        modalTitle: 'Overzicht van functies',
+      },
+      appSpecific: {
+        videoId: 'bqVioFbkYbA',
+        buttonText: 'Sudoku Functies',
+        modalTitle: 'Sudoku Handleiding',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/dutch/sudoku/

@@ -63,6 +63,18 @@ De schrijfoefeningen generator bespaart leerkrachten uren voorbereidingstijd. Ma
       action: 'Maken & Downloaden',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Bekijk hoe het werkt',
+        modalTitle: 'Overzicht van functies',
+      },
+      appSpecific: {
+        videoId: '0b4WglqyXu0',
+        buttonText: 'Schrijven Functies',
+        modalTitle: 'Schrijven Handleiding',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/dutch/writing/

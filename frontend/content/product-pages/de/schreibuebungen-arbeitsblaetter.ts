@@ -61,6 +61,18 @@ Generieren Sie Schwungübungen für Buchstaben, Wörter, Namen oder eigene Texte
       action: 'Erstellen & Herunterladen',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'So einfach geht\'s',
+        modalTitle: 'Funktionen im Überblick',
+      },
+      appSpecific: {
+        videoId: '0b4WglqyXu0',
+        buttonText: 'Schreiben Funktionen',
+        modalTitle: 'Schreiben Anleitung',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/writing/

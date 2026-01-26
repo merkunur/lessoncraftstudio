@@ -49,6 +49,18 @@ Skrivearkene støtter flere skrivemoduser inkludert sporing, gradvis uttoning og
       action: 'Enkelt å bruke',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Se hvordan det fungerer',
+        modalTitle: 'Funksjonsoversikt',
+      },
+      appSpecific: {
+        videoId: '0b4WglqyXu0',
+        buttonText: 'Skriving Funksjoner',
+        modalTitle: 'Skriving Veiledning',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/writing/

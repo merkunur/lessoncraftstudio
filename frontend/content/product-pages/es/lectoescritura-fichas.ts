@@ -50,6 +50,18 @@ Las fichas preescolar que creas son totalmente personalizables. Agrega imágenes
       action: 'Crear y Descargar',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Mira cómo funciona',
+        modalTitle: 'Vista rápida de funciones',
+      },
+      appSpecific: {
+        videoId: '0b4WglqyXu0',
+        buttonText: 'Funciones Escritura',
+        modalTitle: 'Tutorial Escritura',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/writing/

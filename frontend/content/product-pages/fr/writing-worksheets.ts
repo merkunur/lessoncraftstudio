@@ -50,6 +50,18 @@ Générez des fiches d'écriture pour les lettres de l'alphabet, les mots ou le 
       action: 'Créer & Télécharger',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Découvrir en vidéo',
+        modalTitle: 'Aperçu des fonctionnalités',
+      },
+      appSpecific: {
+        videoId: '0b4WglqyXu0',
+        buttonText: 'Fonctions Écriture',
+        modalTitle: 'Tutoriel Écriture',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/french/writing/

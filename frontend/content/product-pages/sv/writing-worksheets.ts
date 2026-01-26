@@ -49,6 +49,18 @@ Full Tillgång-prenumeration inkluderar kommersiell licens. Sälj dina skrivarbe
       action: 'Skapa & Ladda Ner',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Se hur det fungerar',
+        modalTitle: 'Funktionsöversikt',
+      },
+      appSpecific: {
+        videoId: '0b4WglqyXu0',
+        buttonText: 'Skrivning Funktioner',
+        modalTitle: 'Skrivning Guide',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/swedish/writing/

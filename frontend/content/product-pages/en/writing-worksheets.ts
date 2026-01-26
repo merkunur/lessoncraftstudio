@@ -40,6 +40,18 @@ Generate tracing worksheets for letters, words, names, or custom text. Your Full
       images: '3000+ Images',
       license: 'Commercial License',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'See How It Works',
+        modalTitle: 'Quick Feature Overview',
+      },
+      appSpecific: {
+        videoId: '0b4WglqyXu0',
+        buttonText: 'Writing Features',
+        modalTitle: 'Writing Tutorial',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/writing/

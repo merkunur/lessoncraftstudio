@@ -49,6 +49,18 @@ Generaattori toimii 11 kielellä mukaan lukien suomi. Kaikki käyttöliittymän 
       action: 'Luo & Lataa',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Katso miten se toimii',
+        modalTitle: 'Toimintojen yleiskatsaus',
+      },
+      appSpecific: {
+        videoId: '0b4WglqyXu0',
+        buttonText: 'Kirjoitus Toiminnot',
+        modalTitle: 'Kirjoitus Opas',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/writing/

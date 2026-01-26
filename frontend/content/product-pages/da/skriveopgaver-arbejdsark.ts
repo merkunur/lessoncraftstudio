@@ -47,6 +47,18 @@ Skriveopgaver kombinerer finmotorik øvelser med bogstavlæring. Hvert arbejdsar
       action: 'Nemt at bruge',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Se hvordan det virker',
+        modalTitle: 'Funktionsoversigt',
+      },
+      appSpecific: {
+        videoId: '0b4WglqyXu0',
+        buttonText: 'Skrivning Funktioner',
+        modalTitle: 'Skrivning Vejledning',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/danish/writing/

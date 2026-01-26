@@ -47,6 +47,18 @@ Fuld Adgang abonnementet koster $240 om året eller $25 om måneden. Dit abonnem
       action: 'Nemt at bruge',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Se hvordan det virker',
+        modalTitle: 'Funktionsoversigt',
+      },
+      appSpecific: {
+        videoId: 'ifIXbViR5_o',
+        buttonText: 'Forholdsord Funktioner',
+        modalTitle: 'Forholdsord Vejledning',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/prepositions/

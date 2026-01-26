@@ -52,6 +52,18 @@ Generaattori sisältää yli 3000 lapsille sopivaa kuvaa. Kaikki kuvat on järje
       action: 'Luo & Lataa',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Katso miten se toimii',
+        modalTitle: 'Toimintojen yleiskatsaus',
+      },
+      appSpecific: {
+        videoId: 'ifIXbViR5_o',
+        buttonText: 'Prepositiot Toiminnot',
+        modalTitle: 'Prepositiot Opas',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/prepositions/

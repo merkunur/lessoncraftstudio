@@ -42,6 +42,18 @@ Perfect for kindergarten teachers and first grade educators who need quality pre
       images: '3000+ Images',
       license: 'Commercial License',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'See How It Works',
+        modalTitle: 'Quick Feature Overview',
+      },
+      appSpecific: {
+        videoId: 'ifIXbViR5_o',
+        buttonText: 'Prepositions Features',
+        modalTitle: 'Prepositions Tutorial',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/prepositions/

@@ -55,6 +55,18 @@ Tu suscripcion incluye acceso a mas de 3000 imagenes infantiles organizadas por 
       action: 'Crear y Descargar',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Mira cómo funciona',
+        modalTitle: 'Vista rápida de funciones',
+      },
+      appSpecific: {
+        videoId: 'ifIXbViR5_o',
+        buttonText: 'Funciones Preposiciones',
+        modalTitle: 'Tutorial Preposiciones',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/spanish/prepositions/

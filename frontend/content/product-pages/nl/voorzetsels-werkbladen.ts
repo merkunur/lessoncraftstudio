@@ -61,6 +61,18 @@ Perfect voor leerkrachten van kleuters en groep 3 die snel kwalitatieve gratis w
       action: 'Maken & Downloaden',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Bekijk hoe het werkt',
+        modalTitle: 'Overzicht van functies',
+      },
+      appSpecific: {
+        videoId: 'ifIXbViR5_o',
+        buttonText: 'Voorzetsels Functies',
+        modalTitle: 'Voorzetsels Handleiding',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/dutch/prepositions/

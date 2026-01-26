@@ -49,6 +49,18 @@ Crianças na educação infantil aprendem melhor com recursos visuais. Nossas at
       action: 'Crie e Baixe',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Veja como funciona',
+        modalTitle: 'Visão geral das funções',
+      },
+      appSpecific: {
+        videoId: 'ifIXbViR5_o',
+        buttonText: 'Funções Preposições',
+        modalTitle: 'Tutorial Preposições',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/prepositions/

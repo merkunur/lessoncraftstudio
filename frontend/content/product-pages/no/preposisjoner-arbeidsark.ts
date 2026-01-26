@@ -51,6 +51,18 @@ Med Full Tilgang får du tilgang til alle 33 arbeidsarkgeneratorer. Lag preposis
       action: 'Enkelt å bruke',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Se hvordan det fungerer',
+        modalTitle: 'Funksjonsoversikt',
+      },
+      appSpecific: {
+        videoId: 'ifIXbViR5_o',
+        buttonText: 'Preposisjoner Funksjoner',
+        modalTitle: 'Preposisjoner Veiledning',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/prepositions/

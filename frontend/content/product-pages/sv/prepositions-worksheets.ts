@@ -52,6 +52,18 @@ Kombinera prepositionsträning med målarbilder barn gillar. Lägg till egna bil
       action: 'Skapa & Ladda Ner',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Se hur det fungerar',
+        modalTitle: 'Funktionsöversikt',
+      },
+      appSpecific: {
+        videoId: 'ifIXbViR5_o',
+        buttonText: 'Prepositioner Funktioner',
+        modalTitle: 'Prepositioner Guide',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/swedish/prepositions/

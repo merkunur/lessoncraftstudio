@@ -49,6 +49,18 @@ Il generatore funziona in 11 lingue diverse. Le preposizioni vengono tradotte au
       action: 'Crea e Scarica',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Guarda come funziona',
+        modalTitle: 'Panoramica delle funzioni',
+      },
+      appSpecific: {
+        videoId: 'ifIXbViR5_o',
+        buttonText: 'Funzioni Preposizioni',
+        modalTitle: 'Tutorial Preposizioni',
+      },
+    },
   },
 
   // Sample Gallery

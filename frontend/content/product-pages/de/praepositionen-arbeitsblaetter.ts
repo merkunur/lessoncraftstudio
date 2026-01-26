@@ -63,6 +63,18 @@ Perfekt für Erzieher in der Vorschule und Lehrkräfte in der Grundschule, die s
       action: 'Erstellen & Herunterladen',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'So einfach geht\'s',
+        modalTitle: 'Funktionen im Überblick',
+      },
+      appSpecific: {
+        videoId: 'ifIXbViR5_o',
+        buttonText: 'Präpositionen Funktionen',
+        modalTitle: 'Präpositionen Anleitung',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/prepositions/

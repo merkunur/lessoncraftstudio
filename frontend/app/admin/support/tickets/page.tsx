@@ -336,6 +336,9 @@ export default function SupportTicketsPage() {
               <p className="mt-1 text-sm text-gray-500">
                 View and manage all support tickets from contact form
               </p>
+              <p className="mt-2 text-xs text-amber-600 bg-amber-50 px-3 py-1.5 rounded-md inline-block">
+                Note: This shows tickets submitted via the website. Direct emails to support@lessoncraftstudio.com should be checked in your email inbox.
+              </p>
             </div>
             <button
               onClick={fetchTickets}

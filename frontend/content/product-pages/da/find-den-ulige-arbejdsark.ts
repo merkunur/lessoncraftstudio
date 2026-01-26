@@ -51,6 +51,18 @@ Vores generator understøtter 11 sprog og indeholder over 3000 børnevenlige bil
       action: 'Nemt at bruge',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Se hvordan det virker',
+        modalTitle: 'Funktionsoversigt',
+      },
+      appSpecific: {
+        videoId: '0R6WFUfY7Mk',
+        buttonText: 'Hvad passer ikke ind Funktioner',
+        modalTitle: 'Hvad passer ikke ind Vejledning',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/danish/odd-one-out/

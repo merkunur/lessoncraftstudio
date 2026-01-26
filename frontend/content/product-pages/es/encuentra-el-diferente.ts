@@ -53,6 +53,18 @@ Las fichas para imprimir se exportan en formato PDF y JPEG a 300 DPI. Perfectas 
       action: 'Crear y Descargar',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Mira cómo funciona',
+        modalTitle: 'Vista rápida de funciones',
+      },
+      appSpecific: {
+        videoId: '0R6WFUfY7Mk',
+        buttonText: 'Funciones Encuentra el Diferente',
+        modalTitle: 'Tutorial Encuentra el Diferente',
+      },
+    },
   },
 
   // Sample Gallery

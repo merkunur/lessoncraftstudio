@@ -49,6 +49,18 @@ Vår generator tilbyr to vanskelighetsgrader for tilpasset læring. Identisk mod
       action: 'Enkelt å bruke',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Se hvordan det fungerer',
+        modalTitle: 'Funksjonsoversikt',
+      },
+      appSpecific: {
+        videoId: '0R6WFUfY7Mk',
+        buttonText: 'Finn den Ulike Funksjoner',
+        modalTitle: 'Finn den Ulike Veiledning',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/odd one out/

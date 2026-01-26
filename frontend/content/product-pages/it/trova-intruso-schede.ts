@@ -51,6 +51,18 @@ L'editor completo ti permette di personalizzare ogni elemento sulla pagina. Aggi
       action: 'Crea e Scarica',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Guarda come funziona',
+        modalTitle: 'Panoramica delle funzioni',
+      },
+      appSpecific: {
+        videoId: '0R6WFUfY7Mk',
+        buttonText: 'Funzioni Trova l\'intruso',
+        modalTitle: 'Tutorial Trova l\'intruso',
+      },
+    },
   },
 
   // Sample Gallery

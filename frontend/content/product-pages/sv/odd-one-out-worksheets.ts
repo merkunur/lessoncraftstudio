@@ -49,6 +49,18 @@ Full Tillgång-prenumerationen inkluderar alla 33 verktyg för arbetsblad gratis
       action: 'Skapa & Ladda Ner',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Se hur det fungerar',
+        modalTitle: 'Funktionsöversikt',
+      },
+      appSpecific: {
+        videoId: '0R6WFUfY7Mk',
+        buttonText: 'Vilket hör inte hemma Funktioner',
+        modalTitle: 'Vilket hör inte hemma Guide',
+      },
+    },
   },
 
   // Sample Gallery - Swedish samples from /samples/swedish/odd-one-out/

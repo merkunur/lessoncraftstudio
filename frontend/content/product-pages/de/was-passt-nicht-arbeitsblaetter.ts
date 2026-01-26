@@ -63,6 +63,18 @@ Die umfangreiche Bildbibliothek enthält über 3000 kindgerechte Bilder. Alle Bi
       action: 'Erstellen & Herunterladen',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'So einfach geht\'s',
+        modalTitle: 'Funktionen im Überblick',
+      },
+      appSpecific: {
+        videoId: '0R6WFUfY7Mk',
+        buttonText: 'Was passt nicht Funktionen',
+        modalTitle: 'Was passt nicht Anleitung',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/odd one out/

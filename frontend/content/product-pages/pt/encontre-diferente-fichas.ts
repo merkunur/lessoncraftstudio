@@ -49,6 +49,18 @@ O gerador oferece dois modos de exercícios pensados para diferentes níveis de 
       action: 'Crie e Baixe',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Veja como funciona',
+        modalTitle: 'Visão geral das funções',
+      },
+      appSpecific: {
+        videoId: '0R6WFUfY7Mk',
+        buttonText: 'Funções Qual é o Diferente',
+        modalTitle: 'Tutorial Qual é o Diferente',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/portuguese/odd-one-out/

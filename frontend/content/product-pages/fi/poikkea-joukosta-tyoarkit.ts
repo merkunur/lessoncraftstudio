@@ -47,6 +47,18 @@ Täysi Käyttöoikeus -tilaus maksaa 240 dollaria vuodessa tai 25 dollaria kuuka
       action: 'Luo & Lataa',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Katso miten se toimii',
+        modalTitle: 'Toimintojen yleiskatsaus',
+      },
+      appSpecific: {
+        videoId: '0R6WFUfY7Mk',
+        buttonText: 'Mikä ei kuulu joukkoon Toiminnot',
+        modalTitle: 'Mikä ei kuulu joukkoon Opas',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/odd one out/

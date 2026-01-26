@@ -30,6 +30,18 @@ The odd one out generator creates worksheets for any subject or theme. Choose fr
       images: '3000+ Images',
       license: 'Commercial License',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'See How It Works',
+        modalTitle: 'Quick Feature Overview',
+      },
+      appSpecific: {
+        videoId: '0R6WFUfY7Mk',
+        buttonText: 'Odd One Out Features',
+        modalTitle: 'Odd One Out Tutorial',
+      },
+    },
   },
 
   // SEO Metadata

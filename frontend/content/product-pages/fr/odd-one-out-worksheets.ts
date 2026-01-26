@@ -51,6 +51,18 @@ Créez des fiches personnalisées avec plus de 3000 images thématiques. Choisis
       action: 'Créer & Télécharger',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Découvrir en vidéo',
+        modalTitle: 'Aperçu des fonctionnalités',
+      },
+      appSpecific: {
+        videoId: '0R6WFUfY7Mk',
+        buttonText: 'Fonctions L\'Intrus',
+        modalTitle: 'Tutoriel L\'Intrus',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/french/odd-one-out/

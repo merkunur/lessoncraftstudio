@@ -59,6 +59,18 @@ Onze generator biedt twee verschillende modiussen voor gevarieerde oefeningen. D
       action: 'Maken & Downloaden',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Bekijk hoe het werkt',
+        modalTitle: 'Overzicht van functies',
+      },
+      appSpecific: {
+        videoId: '0R6WFUfY7Mk',
+        buttonText: 'Welke hoort er niet bij Functies',
+        modalTitle: 'Welke hoort er niet bij Handleiding',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/dutch/odd-one-out/

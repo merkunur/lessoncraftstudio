@@ -57,6 +57,15 @@ interface SignupData {
 
 const AuthContext = createContext<AuthContextType | undefined>(undefined);
 
+// Helper to get current locale from URL path
+function getCurrentLocale(): string {
+  if (typeof window === 'undefined') return 'en';
+  const pathParts = window.location.pathname.split('/');
+  const locales = ['en', 'de', 'fr', 'es', 'it', 'pt', 'nl', 'pl', 'sv', 'da', 'fi'];
+  const pathLocale = pathParts[1];
+  return locales.includes(pathLocale) ? pathLocale : 'en';
+}
+
 // Retry configuration for network resilience
 const RETRY_CONFIG = {
   maxRetries: 3,
@@ -254,11 +263,12 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
         localStorage.setItem('user', JSON.stringify(userWithSubscription));
         toast.success('Welcome back!');
 
-        // Redirect based on user role
+        // Redirect based on user role (preserving locale)
+        const locale = getCurrentLocale();
         if (data.user.isAdmin) {
-          router.push('/admin');
+          router.push(`/${locale}/admin`);
         } else {
-          router.push('/dashboard');
+          router.push(`/${locale}/dashboard`);
         }
       } else if (response.status === 409) {
         // Device conflict - user is signed in on another device
@@ -295,11 +305,12 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
             localStorage.setItem('user', JSON.stringify(userWithSubscription));
             toast.success('Welcome back!');
 
-            // Redirect based on user role
+            // Redirect based on user role (preserving locale)
+            const locale = getCurrentLocale();
             if (forceData.user.isAdmin) {
-              router.push('/admin');
+              router.push(`/${locale}/admin`);
             } else {
-              router.push('/dashboard');
+              router.push(`/${locale}/dashboard`);
             }
           } else {
             throw new Error(forceData.error || 'Force sign-in failed');
@@ -361,8 +372,8 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
       localStorage.setItem('user', JSON.stringify(userWithSubscription));
       toast.success('Account created successfully! Please check your email to verify your account.');
 
-      // Redirect to dashboard
-      router.push('/dashboard');
+      // Redirect to dashboard (preserving locale)
+      router.push(`/${getCurrentLocale()}/dashboard`);
     } catch (err) {
       const message = err instanceof Error ? err.message : 'Signup failed';
       setError(message);
@@ -537,7 +548,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
       }
 
       toast.success('Password reset successfully. Please login with your new password.');
-      router.push('/auth/signin');
+      router.push(`/${getCurrentLocale()}/auth/signin`);
     } catch (err) {
       const message = err instanceof Error ? err.message : 'Password reset failed';
       setError(message);
@@ -581,7 +592,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
       setUser(userWithSubscription);
       localStorage.setItem('user', JSON.stringify(userWithSubscription));
       toast.success('Email verified successfully! Welcome to LessonCraftStudio.');
-      router.push('/dashboard');
+      router.push(`/${getCurrentLocale()}/dashboard`);
     } catch (err) {
       const message = err instanceof Error ? err.message : 'Email verification failed';
       setError(message);

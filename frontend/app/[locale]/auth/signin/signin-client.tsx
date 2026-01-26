@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { useRouter, useSearchParams } from 'next/navigation';
+import { useRouter, useSearchParams, useParams } from 'next/navigation';
 import Link from 'next/link';
 import { useTranslations } from 'next-intl';
 import { toast } from 'react-hot-toast';
@@ -57,6 +57,8 @@ export default function SignInClient() {
 
   const router = useRouter();
   const searchParams = useSearchParams();
+  const params = useParams();
+  const locale = (params.locale as string) || 'en';
   const plan = searchParams.get('plan'); // Get plan from URL parameter (core or full)
   const billing = searchParams.get('billing'); // Get billing interval from URL parameter (monthly or yearly)
   const redirect = searchParams.get('redirect'); // Get redirect URL from parameter
@@ -171,8 +173,8 @@ export default function SignInClient() {
         console.log('No plan parameter detected (plan =', plan, '), redirecting to', redirect || 'dashboard');
       }
 
-      // Redirect to specified URL or default to dashboard
-      router.push(redirect || '/en/dashboard');
+      // Redirect to specified URL or default to dashboard (using current locale)
+      router.push(redirect || `/${locale}/dashboard`);
     } catch (err: any) {
       setError(err.message || 'An error occurred during sign in');
       setIsLoading(false);
@@ -268,8 +270,8 @@ export default function SignInClient() {
         console.log('[Force Signin] No plan parameter detected (plan =', plan, '), redirecting to', redirect || 'dashboard');
       }
 
-      // Redirect to specified URL or default to dashboard
-      router.push(redirect || '/en/dashboard');
+      // Redirect to specified URL or default to dashboard (using current locale)
+      router.push(redirect || `/${locale}/dashboard`);
     } catch (err: any) {
       setError(err.message || 'An error occurred during force sign in');
       setShowConflictModal(false);

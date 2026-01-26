@@ -50,6 +50,18 @@ Notre générateur propose deux types de vocabulaire de directions adaptés à l
       action: 'Créer & Télécharger',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Découvrir en vidéo',
+        modalTitle: 'Aperçu des fonctionnalités',
+      },
+      appSpecific: {
+        videoId: 'flHiBXsYLLA',
+        buttonText: 'Fonctions Chasse au trésor',
+        modalTitle: 'Tutoriel Chasse au trésor',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/french/treasure-hunt/

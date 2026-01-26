@@ -47,6 +47,18 @@ Vår skattjakt generator erbjuder över 3000 barnvänliga bilder organiserade ef
       action: 'Skapa & Ladda Ner',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Se hur det fungerar',
+        modalTitle: 'Funktionsöversikt',
+      },
+      appSpecific: {
+        videoId: 'flHiBXsYLLA',
+        buttonText: 'Skattjakt Funktioner',
+        modalTitle: 'Skattjakt Guide',
+      },
+    },
   },
 
   // Sample Gallery - Swedish file paths from samples/swedish/treasure-hunt/

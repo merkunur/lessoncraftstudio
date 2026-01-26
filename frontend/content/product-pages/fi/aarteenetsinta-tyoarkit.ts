@@ -49,6 +49,18 @@ Tulostettavat tehtävät lapsille ilmainen suunnittelija tekee aarteenetsintä-t
       action: 'Luo & Lataa',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Katso miten se toimii',
+        modalTitle: 'Toimintojen yleiskatsaus',
+      },
+      appSpecific: {
+        videoId: 'flHiBXsYLLA',
+        buttonText: 'Aarteenetsintä Toiminnot',
+        modalTitle: 'Aarteenetsintä Opas',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/treasure hunt/

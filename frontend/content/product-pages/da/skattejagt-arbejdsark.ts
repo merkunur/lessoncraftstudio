@@ -53,6 +53,18 @@ Retningsopgaver understøtter 11 sprog inklusiv dansk. Billednavne vises på dan
       action: 'Nemt at bruge',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Se hvordan det virker',
+        modalTitle: 'Funktionsoversigt',
+      },
+      appSpecific: {
+        videoId: 'flHiBXsYLLA',
+        buttonText: 'Skattejagt Funktioner',
+        modalTitle: 'Skattejagt Vejledning',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/danish/treasure-hunt/

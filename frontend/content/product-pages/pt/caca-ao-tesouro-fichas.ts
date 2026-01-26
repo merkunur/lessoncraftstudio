@@ -47,6 +47,18 @@ Esta ferramenta cria fichas que ensinam conceitos importantes. Alunos praticam s
       action: 'Crie e Baixe',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Veja como funciona',
+        modalTitle: 'Visão geral das funções',
+      },
+      appSpecific: {
+        videoId: 'flHiBXsYLLA',
+        buttonText: 'Funções Caça ao tesouro',
+        modalTitle: 'Tutorial Caça ao tesouro',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/treasure hunt/

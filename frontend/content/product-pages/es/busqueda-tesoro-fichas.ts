@@ -49,6 +49,18 @@ Cada ficha incluye seis pasos de direcciones y una cuadrícula visual con imáge
       action: 'Crear y Descargar',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Mira cómo funciona',
+        modalTitle: 'Vista rápida de funciones',
+      },
+      appSpecific: {
+        videoId: 'flHiBXsYLLA',
+        buttonText: 'Funciones Búsqueda del tesoro',
+        modalTitle: 'Tutorial Búsqueda del tesoro',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/treasure hunt/

@@ -49,6 +49,18 @@ Full Tilgang-abonnement koster kr 1 800 per år eller kr 190 per måned. Inklude
       action: 'Enkelt å bruke',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Se hvordan det fungerer',
+        modalTitle: 'Funksjonsoversikt',
+      },
+      appSpecific: {
+        videoId: 'flHiBXsYLLA',
+        buttonText: 'Skattejakt Funksjoner',
+        modalTitle: 'Skattejakt Veiledning',
+      },
+    },
   },
 
   // Sample Gallery

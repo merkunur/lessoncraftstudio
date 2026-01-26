@@ -61,6 +61,18 @@ Dieser Schatzsuche Generator erstellt bei jedem Klick einzigartige Arbeitsblätt
       action: 'Erstellen & Herunterladen',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'So einfach geht\'s',
+        modalTitle: 'Funktionen im Überblick',
+      },
+      appSpecific: {
+        videoId: 'flHiBXsYLLA',
+        buttonText: 'Schatzsuche Funktionen',
+        modalTitle: 'Schatzsuche Anleitung',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/treasure hunt/

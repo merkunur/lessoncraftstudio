@@ -49,6 +49,18 @@ Perfetto per insegnanti di scuola dell'infanzia che necessitano di attività di 
       action: 'Crea e Scarica',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Guarda come funziona',
+        modalTitle: 'Panoramica delle funzioni',
+      },
+      appSpecific: {
+        videoId: 'flHiBXsYLLA',
+        buttonText: 'Funzioni Caccia al tesoro',
+        modalTitle: 'Tutorial Caccia al tesoro',
+      },
+    },
   },
 
   // Sample Gallery

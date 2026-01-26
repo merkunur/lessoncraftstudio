@@ -61,6 +61,18 @@ Je Volledige Toegang abonnement geeft toegang tot onbeperkte werkbladen maken. D
       action: 'Maken & Downloaden',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Bekijk hoe het werkt',
+        modalTitle: 'Overzicht van functies',
+      },
+      appSpecific: {
+        videoId: 'flHiBXsYLLA',
+        buttonText: 'Schattenjacht Functies',
+        modalTitle: 'Schattenjacht Handleiding',
+      },
+    },
   },
 
   // Sample Gallery

@@ -47,6 +47,18 @@ Il pregrafismo è fondamentale nello sviluppo delle competenze di scrittura. I n
       action: 'Crea e Scarica',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Guarda come funziona',
+        modalTitle: 'Panoramica delle funzioni',
+      },
+      appSpecific: {
+        videoId: 'ZdpCr2txHcc',
+        buttonText: 'Funzioni Disegni da Colorare',
+        modalTitle: 'Tutorial Disegni da Colorare',
+      },
+    },
   },
 
   // Sample Gallery

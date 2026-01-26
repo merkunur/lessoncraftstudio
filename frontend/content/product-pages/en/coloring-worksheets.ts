@@ -40,6 +40,18 @@ Every element on your coloring page is fully editable. Drag images anywhere on t
       images: '3000+ Images',
       license: 'Commercial License',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'See How It Works',
+        modalTitle: 'Quick Feature Overview',
+      },
+      appSpecific: {
+        videoId: 'ZdpCr2txHcc',
+        buttonText: 'Coloring Pages Features',
+        modalTitle: 'Coloring Pages Tutorial',
+      },
+    },
   },
 
   // Sample Gallery - SEO-OPTIMIZED alt texts with keywords

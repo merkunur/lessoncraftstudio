@@ -47,6 +47,18 @@ Nossa biblioteca oferece mais de 3000 imagens infantis. Escolha temas como anima
       action: 'Crie e Baixe',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Veja como funciona',
+        modalTitle: 'Visão geral das funções',
+      },
+      appSpecific: {
+        videoId: 'ZdpCr2txHcc',
+        buttonText: 'Funções Desenhos para Colorir',
+        modalTitle: 'Tutorial Desenhos para Colorir',
+      },
+    },
   },
 
   // Sample Gallery - Portuguese coloring samples

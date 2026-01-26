@@ -49,6 +49,18 @@ Jokainen värityskuva vie sekunteja luoda. Ei suunnittelutaitoja tarvita. Ei mon
       action: 'Luo & Lataa',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Katso miten se toimii',
+        modalTitle: 'Toimintojen yleiskatsaus',
+      },
+      appSpecific: {
+        videoId: 'ZdpCr2txHcc',
+        buttonText: 'Värityskuvat Toiminnot',
+        modalTitle: 'Värityskuvat Opas',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/coloring/

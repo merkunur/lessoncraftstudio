@@ -47,6 +47,18 @@ Grunnpakke-abonnement inkluderer 10 populære arbeidsarkverktøy for bare $144 p
       action: 'Enkelt å bruke',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Se hvordan det fungerer',
+        modalTitle: 'Funksjonsoversikt',
+      },
+      appSpecific: {
+        videoId: 'ZdpCr2txHcc',
+        buttonText: 'Fargeleggingsbilder Funksjoner',
+        modalTitle: 'Fargeleggingsbilder Veiledning',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/norwegian/coloring/

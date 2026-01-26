@@ -49,6 +49,18 @@ Core Bundle inkluderer adgang til 10 populære opgave-generatorer for kun 144 kr
       action: 'Nemt at bruge',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Se hvordan det virker',
+        modalTitle: 'Funktionsoversigt',
+      },
+      appSpecific: {
+        videoId: 'ZdpCr2txHcc',
+        buttonText: 'Farvelægning Funktioner',
+        modalTitle: 'Farvelægning Vejledning',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/danish/coloring/

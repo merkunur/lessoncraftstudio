@@ -47,6 +47,18 @@ Las páginas de colorear que creas son completamente editables. Cambia tamaños,
       action: 'Crear y Descargar',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Mira cómo funciona',
+        modalTitle: 'Vista rápida de funciones',
+      },
+      appSpecific: {
+        videoId: 'ZdpCr2txHcc',
+        buttonText: 'Funciones Dibujos para Colorear',
+        modalTitle: 'Tutorial Dibujos para Colorear',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/spanish/coloring/

@@ -47,6 +47,18 @@ Le créateur de coloriage fonctionne en 11 langues. Parfait pour les classes bil
       action: 'Créer & Télécharger',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Découvrir en vidéo',
+        modalTitle: 'Aperçu des fonctionnalités',
+      },
+      appSpecific: {
+        videoId: 'ZdpCr2txHcc',
+        buttonText: 'Fonctions Coloriage',
+        modalTitle: 'Tutoriel Coloriage',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/coloring/

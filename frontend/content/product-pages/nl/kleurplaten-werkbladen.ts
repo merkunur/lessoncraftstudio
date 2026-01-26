@@ -59,6 +59,18 @@ Kleurplaten zijn essentieel voor de ontwikkeling van jonge kinderen. Ze stimuler
       action: 'Maken & Downloaden',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Bekijk hoe het werkt',
+        modalTitle: 'Overzicht van functies',
+      },
+      appSpecific: {
+        videoId: 'ZdpCr2txHcc',
+        buttonText: 'Kleurplaten Functies',
+        modalTitle: 'Kleurplaten Handleiding',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/dutch/coloring/

@@ -61,6 +61,18 @@ Exportiere fertige Malvorlagen als hochauflösende PDF oder JPEG Dateien. Profes
       action: 'Erstellen & Herunterladen',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'So einfach geht\'s',
+        modalTitle: 'Funktionen im Überblick',
+      },
+      appSpecific: {
+        videoId: 'ZdpCr2txHcc',
+        buttonText: 'Malvorlagen Funktionen',
+        modalTitle: 'Malvorlagen Anleitung',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/coloring/

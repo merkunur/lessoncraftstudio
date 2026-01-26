@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import Link from 'next/link';
 import Image from 'next/image';
+import VideoLightbox from '../homepage/VideoLightbox';
 
 interface HeroSectionProps {
   locale: string;
@@ -26,6 +27,18 @@ interface HeroSectionProps {
     time: string;
     action: string;
     quality: string;
+  };
+  videos?: {
+    commonFeatures?: {
+      videoId: string;
+      buttonText: string;
+      modalTitle: string;
+    };
+    appSpecific?: {
+      videoId: string;
+      buttonText: string;
+      modalTitle: string;
+    };
   };
 }
 
@@ -122,6 +135,7 @@ export default function HeroSection({
   readMoreLabel = 'Read more',
   showLessLabel = 'Show less',
   floatingStats = defaultFloatingStats,
+  videos,
 }: HeroSectionProps) {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
 
@@ -332,6 +346,33 @@ export default function HeroSection({
                 </span>
               </button>
             </motion.div>
+
+            {/* Video Demo Buttons */}
+            {videos && (
+              <motion.div
+                className="flex flex-wrap gap-3 mb-8"
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.55 }}
+              >
+                {videos.commonFeatures && (
+                  <VideoLightbox
+                    locale={locale}
+                    videoId={videos.commonFeatures.videoId}
+                    buttonText={videos.commonFeatures.buttonText}
+                    modalTitle={videos.commonFeatures.modalTitle}
+                  />
+                )}
+                {videos.appSpecific && (
+                  <VideoLightbox
+                    locale={locale}
+                    videoId={videos.appSpecific.videoId}
+                    buttonText={videos.appSpecific.buttonText}
+                    modalTitle={videos.appSpecific.modalTitle}
+                  />
+                )}
+              </motion.div>
+            )}
 
             {/* Trust badges */}
             <motion.div

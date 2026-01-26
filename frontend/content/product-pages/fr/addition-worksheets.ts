@@ -47,6 +47,18 @@ Les fiches maternelle deviennent des outils pédagogiques attrayants avec notre 
       action: 'Créer & Télécharger',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Découvrir en vidéo',
+        modalTitle: 'Aperçu des fonctionnalités',
+      },
+      appSpecific: {
+        videoId: '6O5aCzHkh8M',
+        buttonText: 'Fonctions Addition',
+        modalTitle: 'Tutoriel Addition',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/french/addition/

@@ -59,6 +59,18 @@ Rekenen met plaatjes maakt abstract tellen concreet. Kinderen zien drie appels p
       action: 'Maken & Downloaden',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Bekijk hoe het werkt',
+        modalTitle: 'Overzicht van functies',
+      },
+      appSpecific: {
+        videoId: '6O5aCzHkh8M',
+        buttonText: 'Optellen Functies',
+        modalTitle: 'Optellen Tutorial',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/dutch/addition/

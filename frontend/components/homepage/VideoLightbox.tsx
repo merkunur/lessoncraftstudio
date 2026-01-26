@@ -5,6 +5,9 @@ import { motion, AnimatePresence } from 'framer-motion';
 
 interface VideoLightboxProps {
   locale: string;
+  videoId?: string;           // Default: 'Df9fknBBRFA' (common features)
+  buttonText?: string;        // Override default locale-based text
+  modalTitle?: string;        // Override default locale-based title
 }
 
 // Localized content - natural, not translated
@@ -22,11 +25,20 @@ const localeContent: Record<string, { buttonText: string; modalTitle: string }> 
   fi: { buttonText: 'Katso miten se toimii', modalTitle: 'Toimintojen yleiskatsaus' },
 };
 
-const YOUTUBE_VIDEO_ID = 'Df9fknBBRFA';
+const DEFAULT_VIDEO_ID = 'Df9fknBBRFA';
 
-export default function VideoLightbox({ locale }: VideoLightboxProps) {
+export default function VideoLightbox({
+  locale,
+  videoId = DEFAULT_VIDEO_ID,
+  buttonText,
+  modalTitle,
+}: VideoLightboxProps) {
   const [isOpen, setIsOpen] = useState(false);
-  const content = localeContent[locale] || localeContent.en;
+  const defaultContent = localeContent[locale] || localeContent.en;
+  const content = {
+    buttonText: buttonText || defaultContent.buttonText,
+    modalTitle: modalTitle || defaultContent.modalTitle,
+  };
 
   // Handle escape key to close modal
   const handleKeyDown = useCallback((e: KeyboardEvent) => {
@@ -217,7 +229,7 @@ export default function VideoLightbox({ locale }: VideoLightboxProps) {
                 <div className="relative w-full" style={{ paddingBottom: '56.25%' }}>
                   <iframe
                     className="absolute inset-0 w-full h-full"
-                    src={`https://www.youtube-nocookie.com/embed/${YOUTUBE_VIDEO_ID}?autoplay=1&rel=0&modestbranding=1`}
+                    src={`https://www.youtube-nocookie.com/embed/${videoId}?autoplay=1&rel=0&modestbranding=1`}
                     title={content.modalTitle}
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen

@@ -49,6 +49,18 @@ Kuva-kuva -tila näyttää yhteenlaskut pelkillä kuvilla. Kuva-numero -tila yhd
       action: 'Luo & Lataa',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Katso miten se toimii',
+        modalTitle: 'Toimintojen yleiskatsaus',
+      },
+      appSpecific: {
+        videoId: '6O5aCzHkh8M',
+        buttonText: 'Yhteenlasku-toiminnot',
+        modalTitle: 'Yhteenlasku-opas',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/addition/

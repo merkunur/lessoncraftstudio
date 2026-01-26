@@ -156,6 +156,18 @@ export interface ProductPageContent {
       action: string;
       quality: string;
     };
+    videos?: {
+      commonFeatures?: {
+        videoId: string;
+        buttonText: string;
+        modalTitle: string;
+      };
+      appSpecific?: {
+        videoId: string;
+        buttonText: string;
+        modalTitle: string;
+      };
+    };
   };
 
   // Sample Gallery
@@ -318,6 +330,7 @@ export default function ProductPageClient({
         readMoreLabel={content.hero.readMoreLabel}
         showLessLabel={content.hero.showLessLabel}
         floatingStats={content.hero.floatingStats}
+        videos={content.hero.videos}
       />
 
       {/* Part 2: Sample Gallery */}

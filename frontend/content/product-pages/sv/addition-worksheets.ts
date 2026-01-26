@@ -49,6 +49,18 @@ Verktyget fungerar för alla lärarnivåer. Ingen designerfarenhet behövs. Väl
       action: 'Skapa & Ladda Ner',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Se hur det fungerar',
+        modalTitle: 'Funktionsöversikt',
+      },
+      appSpecific: {
+        videoId: '6O5aCzHkh8M',
+        buttonText: 'Addition-funktioner',
+        modalTitle: 'Addition-handledning',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/addition/

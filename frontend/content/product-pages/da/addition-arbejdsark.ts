@@ -47,6 +47,18 @@ Hver matematikopgave kan tilpasses efter elevernes niveau og læringsbehov. Væl
       action: 'Nemt at bruge',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Se hvordan det virker',
+        modalTitle: 'Funktionsoversigt',
+      },
+      appSpecific: {
+        videoId: '6O5aCzHkh8M',
+        buttonText: 'Addition-funktioner',
+        modalTitle: 'Addition-vejledning',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/danish/addition/

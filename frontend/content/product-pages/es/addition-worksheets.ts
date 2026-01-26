@@ -47,6 +47,18 @@ El generador crea fichas para imprimir completamente personalizables en segundos
       action: 'Crear y Descargar',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Mira cómo funciona',
+        modalTitle: 'Vista rápida de funciones',
+      },
+      appSpecific: {
+        videoId: '6O5aCzHkh8M',
+        buttonText: 'Funciones de Suma',
+        modalTitle: 'Tutorial de Suma',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/addition/

@@ -47,6 +47,18 @@ O sistema funciona com mais de 3000 imagens infantis organizadas por temas. Anim
       action: 'Crie e Baixe',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Veja como funciona',
+        modalTitle: 'Visão geral das funções',
+      },
+      appSpecific: {
+        videoId: '6O5aCzHkh8M',
+        buttonText: 'Funções de Adição',
+        modalTitle: 'Tutorial de Adição',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/addition/

@@ -42,6 +42,18 @@ These printable addition worksheets work perfectly for math centers, homework pa
       images: '3000+ Images',
       license: 'Commercial License',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'See How It Works',
+        modalTitle: 'Quick Feature Overview',
+      },
+      appSpecific: {
+        videoId: '6O5aCzHkh8M',
+        buttonText: 'Addition Features',
+        modalTitle: 'Addition Tutorial',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/addition/

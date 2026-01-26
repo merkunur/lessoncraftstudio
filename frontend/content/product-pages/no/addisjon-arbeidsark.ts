@@ -47,6 +47,18 @@ Perfekt for lærere i barneskolen som trenger matematikk oppgaver til daglig bru
       action: 'Enkelt å bruke',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Se hvordan det fungerer',
+        modalTitle: 'Funksjonsoversikt',
+      },
+      appSpecific: {
+        videoId: '6O5aCzHkh8M',
+        buttonText: 'Addisjon-funksjoner',
+        modalTitle: 'Addisjon-veiledning',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/addition/

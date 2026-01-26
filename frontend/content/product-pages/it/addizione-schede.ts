@@ -47,6 +47,18 @@ Ogni scheda didattica si scarica in formato PDF o JPEG di alta qualità. Perfett
       action: 'Crea e Scarica',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Guarda come funziona',
+        modalTitle: 'Panoramica delle funzioni',
+      },
+      appSpecific: {
+        videoId: '6O5aCzHkh8M',
+        buttonText: 'Funzioni Addizione',
+        modalTitle: 'Tutorial Addizione',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/italian/addition/

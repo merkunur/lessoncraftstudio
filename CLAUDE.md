@@ -100,17 +100,23 @@ git add samples/  # BLOCKED by pre-commit hook
 ### Server File Structure
 ```
 /var/www/lcs-media/                    (ISOLATED from code - bulletproof)
-├── samples/                           (sample images)
+├── samples/                           (sample images - 46 MB)
 │   ├── english/                       (11 language folders)
 │   ├── german/
 │   ├── french/
 │   ├── ... (8 more languages)
 │   └── finnish/
+├── image-library/                     (source PNG images - 2.6 GB)
+│   ├── animals/                       (104 theme folders)
+│   ├── food/
+│   ├── vehicles/
+│   └── ... (101 more themes)
 ├── scripts/                           (backup/health scripts)
 │   ├── pre-deploy-backup.sh
 │   ├── scheduled-backup.sh
 │   ├── health-check.sh
-│   └── emergency-restore.sh
+│   ├── emergency-restore.sh
+│   └── protect-image-library.sh
 └── backups/                           (backup archives)
     ├── pre-deploy/
     ├── hourly/
@@ -121,6 +127,7 @@ git add samples/  # BLOCKED by pre-commit hook
 /opt/lessoncraftstudio/                (CODE ONLY - git repo)
 ├── frontend/
 ├── deploy.sh                          (CANNOT touch /var/www/lcs-media/)
+├── image library -> /var/www/lcs-media/image-library  (SYMLINK)
 └── ...
 ```
 
@@ -140,6 +147,88 @@ location /samples/ {
 3. NEVER move sample images to a different location
 4. NEVER run `git add samples/` or `git add .` in project root
 5. NEVER commit sample files to git (16GB would crash repository)
+
+---
+
+## IMAGE LIBRARY PROTECTION - ABSOLUTE RULES
+
+**Source PNG images (2.6GB) are stored in ISOLATED STORAGE at `/var/www/lcs-media/image-library/`**
+
+A symlink at `/opt/lessoncraftstudio/image library` points to the isolated storage, so import scripts still work.
+
+### 7-Layer Protection (Same as Samples)
+
+| Layer | Protection | How It Works |
+|-------|------------|--------------|
+| 1 | **Physical Isolation** | Images in `/var/www/lcs-media/image-library/` - separate from code |
+| 2 | **Symlink Bridge** | `/opt/lessoncraftstudio/image library` → isolated storage |
+| 3 | **Dedicated User** | `lcs-media` user owns files - deploy runs as different user |
+| 4 | **Immutable Flags** | `chattr +i` on files - even root can't delete without unlock |
+| 5 | **Deploy Guards** | deploy.sh aborts if count drops below 3000 |
+| 6 | **Git Isolation** | `image library/` is in `.gitignore` |
+| 7 | **CLAUDE.md Rules** | Explicit NEVER commands below |
+
+### NEVER DO LIST - IMAGE LIBRARY
+
+**Claude must NEVER run these commands:**
+
+```bash
+# NEVER DELETE
+rm -rf /var/www/lcs-media/image-library
+rm -rf "/opt/lessoncraftstudio/image library"
+rm -rf /var/www/lcs-media/image-library/*
+
+# NEVER REMOVE IMMUTABLE FLAGS
+chattr -i /var/www/lcs-media/image-library/*
+chattr -R -i /var/www/lcs-media/image-library
+
+# NEVER BULK DELETE
+find /var/www/lcs-media/image-library -delete
+find "/opt/lessoncraftstudio/image library" -delete
+
+# NEVER MOVE
+mv /var/www/lcs-media/image-library /some/other/path
+
+# NEVER TRUNCATE DATABASE WITHOUT EXPLICIT REQUEST
+DELETE FROM image_library_items;
+TRUNCATE image_library_items;
+```
+
+### Safe Operations
+
+These operations ARE safe:
+```bash
+# READ operations - safe
+ls /var/www/lcs-media/image-library/
+find /var/www/lcs-media/image-library -name "*.png" | wc -l
+lsattr /var/www/lcs-media/image-library/animals/*.png
+
+# COPY operations - safe (copies, doesn't move)
+cp /var/www/lcs-media/image-library/animals/cat.png /tmp/
+
+# VERIFY operations - safe
+/opt/lessoncraftstudio/server-scripts/protect-image-library.sh
+```
+
+### Verification Commands
+
+```bash
+# Check file count (should be 3000+)
+"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "find /var/www/lcs-media/image-library -type f -name '*.png' | wc -l"
+
+# Check symlink
+"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "ls -la '/opt/lessoncraftstudio/image library'"
+
+# Check immutable flags
+"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "lsattr /var/www/lcs-media/image-library/animals/*.png 2>/dev/null | head -3"
+```
+
+### Initial Setup (One-Time)
+
+If migrating image library to isolated storage for the first time:
+```bash
+"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "bash /opt/lessoncraftstudio/server-scripts/protect-image-library.sh"
+```
 
 ---
 
@@ -215,6 +304,7 @@ curl -I "https://www.lessoncraftstudio.com/samples/english/addition/sample-1.jpe
 - **User**: root
 - **Code Path**: /opt/lessoncraftstudio
 - **Samples Path**: /var/www/lcs-media/samples (ISOLATED)
+- **Image Library Path**: /var/www/lcs-media/image-library (ISOLATED)
 
 ## Critical Rules
 - **ALWAYS** include `-hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU` in plink/pscp commands
@@ -222,7 +312,10 @@ curl -I "https://www.lessoncraftstudio.com/samples/english/addition/sample-1.jpe
 - **ALWAYS** use REFERENCE folders for worksheet generators and translations
 - **NEVER** store sample images directly in `frontend/public/` (gets wiped on build)
 - **NEVER** delete or modify `/var/www/lcs-media/samples/`
-- **NEVER** run `git add .` in project root (could include samples)
+- **NEVER** delete or modify `/var/www/lcs-media/image-library/`
+- **NEVER** run `rm -rf` on any image or sample directories
+- **NEVER** run `chattr -i` on protected files without explicit user request
+- **NEVER** run `git add .` in project root (could include samples/images)
 
 ## Reference Folders (Source of Truth)
 - `REFERENCE APPS/` - 33 worksheet generator HTML files

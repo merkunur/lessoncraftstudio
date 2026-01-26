@@ -38,6 +38,29 @@ echo "✅ Samples are protected in isolated storage"
 echo ""
 
 # ============================================
+# IMAGE LIBRARY PROTECTION - ISOLATED STORAGE
+# ============================================
+# Source PNG images are stored in /var/www/lcs-media/image-library/
+# This is COMPLETELY ISOLATED from the code repository
+echo "🔒 Image library protection check..."
+IMAGE_LIB_COUNT=$(find /var/www/lcs-media/image-library -type f -name "*.png" 2>/dev/null | wc -l)
+if [ "$IMAGE_LIB_COUNT" -lt 3000 ]; then
+    echo ""
+    echo "⛔ CRITICAL: Image library protection check FAILED!"
+    echo "   Expected: 3000+ PNG files"
+    echo "   Found: $IMAGE_LIB_COUNT files"
+    echo ""
+    echo "   The source image library may be missing or corrupted."
+    echo "   Check: /var/www/lcs-media/image-library/"
+    echo "   Or run: /opt/lessoncraftstudio/server-scripts/protect-image-library.sh"
+    echo ""
+    exit 1
+fi
+echo "   Found $IMAGE_LIB_COUNT PNG files in isolated storage"
+echo "✅ Image library protected"
+echo ""
+
+# ============================================
 # DATABASE PROTECTION - PRE-DEPLOYMENT BACKUP
 # ============================================
 echo "🗄️  Checking database and creating backup..."
@@ -118,6 +141,23 @@ else
     echo "✅ Samples verified in isolated storage"
 fi
 
+# ============================================
+# IMAGE LIBRARY VERIFICATION (ISOLATED STORAGE)
+# ============================================
+echo ""
+echo "🔒 Verifying image library in isolated storage..."
+POST_IMAGE_LIB_COUNT=$(find /var/www/lcs-media/image-library -type f -name "*.png" 2>/dev/null | wc -l)
+echo "   Found $POST_IMAGE_LIB_COUNT PNG files"
+
+if [ "$POST_IMAGE_LIB_COUNT" -lt "$IMAGE_LIB_COUNT" ]; then
+    echo ""
+    echo "⚠️  WARNING: Image library count dropped from $IMAGE_LIB_COUNT to $POST_IMAGE_LIB_COUNT"
+    echo "    This should NOT happen - image library is in isolated storage!"
+    echo "    Investigate immediately."
+else
+    echo "✅ Image library verified in isolated storage"
+fi
+
 # Quick HTTP test for sample accessibility (via nginx)
 echo ""
 echo "🌐 Testing sample HTTP access via nginx..."
@@ -157,6 +197,7 @@ echo ""
 echo "✅ Deployment complete!"
 echo ""
 echo "🌐 Website should now be accessible with all CSS/JavaScript working!"
-echo "📸 Sample images: $POST_SAMPLE_COUNT JPEG + $POST_WEBP_COUNT WebP files (isolated in /var/www/lcs-media/)"
+echo "📸 Sample images: $POST_SAMPLE_COUNT JPEG + $POST_WEBP_COUNT WebP files (isolated)"
+echo "🖼️  Image library: $POST_IMAGE_LIB_COUNT PNG files (isolated)"
 echo "🗄️  Database: $POST_DB_PRODUCT_SAMPLES product samples, $POST_DB_SAMPLE_WORKSHEETS sample worksheets"
 echo ""

@@ -49,6 +49,18 @@ Generaattori luo kaksi vierekkäistä ruudukkoa: viheruudukko paljastaa osan kuv
       action: 'Luo & Lataa',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Katso miten se toimii',
+        modalTitle: 'Toimintojen yleiskatsaus',
+      },
+      appSpecific: {
+        videoId: '1uZubAOGIkM',
+        buttonText: 'Ruudukkopiirustus Toiminnot',
+        modalTitle: 'Ruudukkopiirustus Opas',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/draw and color/

@@ -49,6 +49,18 @@ Rutenetttegning arbeidsark forbereder barn for koordinatsystemer i matematikk. P
       action: 'Enkelt å bruke',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Se hvordan det fungerer',
+        modalTitle: 'Funksjonsoversikt',
+      },
+      appSpecific: {
+        videoId: '1uZubAOGIkM',
+        buttonText: 'Rutenetttegning Funksjoner',
+        modalTitle: 'Rutenetttegning Veiledning',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/norwegian/draw-and-color/

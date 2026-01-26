@@ -51,6 +51,18 @@ Chaque fiche se télécharge sous forme de fichier PDF professionnel 300 DPI. Im
       action: 'Créer & Télécharger',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Découvrir en vidéo',
+        modalTitle: 'Aperçu des fonctionnalités',
+      },
+      appSpecific: {
+        videoId: '1uZubAOGIkM',
+        buttonText: 'Fonctions Coloriage sur Quadrillage',
+        modalTitle: 'Tutoriel Coloriage sur Quadrillage',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/draw and color/

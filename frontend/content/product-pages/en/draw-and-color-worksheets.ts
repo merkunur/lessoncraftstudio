@@ -44,6 +44,18 @@ Every worksheet downloads as a professional 300 DPI PDF file. Print at home on s
       images: '3000+ Images',
       license: 'Commercial License',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'See How It Works',
+        modalTitle: 'Quick Feature Overview',
+      },
+      appSpecific: {
+        videoId: '1uZubAOGIkM',
+        buttonText: 'Draw and Color Features',
+        modalTitle: 'Draw and Color Tutorial',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/draw-and-color/

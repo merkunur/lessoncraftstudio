@@ -59,6 +59,18 @@ Unser Generator bietet über 3000 kindgerechte Bilder. Sie wählen ein Thema ode
       action: 'Erstellen & Herunterladen',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'So einfach geht\'s',
+        modalTitle: 'Funktionen im Überblick',
+      },
+      appSpecific: {
+        videoId: '1uZubAOGIkM',
+        buttonText: 'Rasterzeichnen Funktionen',
+        modalTitle: 'Rasterzeichnen Anleitung',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/draw and color/

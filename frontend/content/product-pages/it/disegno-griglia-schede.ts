@@ -47,6 +47,18 @@ Perfetto per insegnanti della scuola dell'infanzia che hanno bisogno di material
       action: 'Crea e Scarica',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Guarda come funziona',
+        modalTitle: 'Panoramica delle funzioni',
+      },
+      appSpecific: {
+        videoId: '1uZubAOGIkM',
+        buttonText: 'Funzioni Disegni con Griglia',
+        modalTitle: 'Tutorial Disegni con Griglia',
+      },
+    },
   },
 
   // Sample Gallery

@@ -49,6 +49,18 @@ As atividades de desenho em grade combinam arte com matemática básica. Enquant
       action: 'Crie e Baixe',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Veja como funciona',
+        modalTitle: 'Visão geral das funções',
+      },
+      appSpecific: {
+        videoId: '1uZubAOGIkM',
+        buttonText: 'Funções Desenho em Grade',
+        modalTitle: 'Tutorial Desenho em Grade',
+      },
+    },
   },
 
   // Sample Gallery

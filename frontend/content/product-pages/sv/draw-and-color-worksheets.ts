@@ -49,6 +49,18 @@ Full Tillgång-prenumerationen kostar 240 dollar per år. Du får tillgång till
       action: 'Skapa & Ladda Ner',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Se hur det fungerar',
+        modalTitle: 'Funktionsöversikt',
+      },
+      appSpecific: {
+        videoId: '1uZubAOGIkM',
+        buttonText: 'Rutnätsritning Funktioner',
+        modalTitle: 'Rutnätsritning Guide',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/swedish/draw-and-color/

@@ -49,6 +49,18 @@ Generer tilpassede tegne-opgaver på få sekunder. Justér gitterstørrelse fra 
       action: 'Nemt at bruge',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Se hvordan det virker',
+        modalTitle: 'Funktionsoversigt',
+      },
+      appSpecific: {
+        videoId: '1uZubAOGIkM',
+        buttonText: 'Tegn og Farvelæg Funktioner',
+        modalTitle: 'Tegn og Farvelæg Vejledning',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/danish/draw-and-color/

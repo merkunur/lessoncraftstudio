@@ -60,6 +60,18 @@ Rastertekenen is een van de beste activiteiten voor jonge kinderen. Het combinee
       action: 'Maken & Downloaden',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Bekijk hoe het werkt',
+        modalTitle: 'Overzicht van functies',
+      },
+      appSpecific: {
+        videoId: '1uZubAOGIkM',
+        buttonText: 'Rastertekenen Functies',
+        modalTitle: 'Rastertekenen Handleiding',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/draw and color/

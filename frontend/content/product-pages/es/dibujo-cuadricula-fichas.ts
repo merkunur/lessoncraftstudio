@@ -47,6 +47,18 @@ Este generador funciona perfectamente para fichas de matemáticas y ejercicios d
       action: 'Crear y Descargar',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Mira cómo funciona',
+        modalTitle: 'Vista rápida de funciones',
+      },
+      appSpecific: {
+        videoId: '1uZubAOGIkM',
+        buttonText: 'Funciones Dibujo en Cuadrícula',
+        modalTitle: 'Tutorial Dibujo en Cuadrícula',
+      },
+    },
   },
 
   // Sample Gallery

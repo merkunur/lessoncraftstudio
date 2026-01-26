@@ -47,6 +47,18 @@ Nossa ferramenta gera grades de 5x5 até 10x10 com imagens variadas. Selecione d
       action: 'Crie e Baixe',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Veja como funciona',
+        modalTitle: 'Visão geral das funções',
+      },
+      appSpecific: {
+        videoId: '0cOPi7eajLs',
+        buttonText: 'Funções Encontre e Conte',
+        modalTitle: 'Tutorial Encontre e Conte',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/portuguese/find-and-count/

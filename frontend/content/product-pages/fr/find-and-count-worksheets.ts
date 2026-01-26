@@ -50,6 +50,18 @@ Combinez le cherche et compte avec des activités de graphisme maternelle. Nos f
       action: 'Créer & Télécharger',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Découvrir en vidéo',
+        modalTitle: 'Aperçu des fonctionnalités',
+      },
+      appSpecific: {
+        videoId: '0cOPi7eajLs',
+        buttonText: 'Fonctions Cherche et Compte',
+        modalTitle: 'Tutoriel Cherche et Compte',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/find and count/

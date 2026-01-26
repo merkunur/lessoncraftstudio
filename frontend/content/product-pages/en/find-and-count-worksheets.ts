@@ -46,6 +46,18 @@ Our math worksheets help young students master early counting skills through vis
       images: '3000+ Images',
       license: 'Commercial License',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'See How It Works',
+        modalTitle: 'Quick Feature Overview',
+      },
+      appSpecific: {
+        videoId: '0cOPi7eajLs',
+        buttonText: 'Find and Count Features',
+        modalTitle: 'Find and Count Tutorial',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/find-and-count/

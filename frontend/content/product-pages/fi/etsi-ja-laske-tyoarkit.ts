@@ -49,6 +49,18 @@ Jokainen tehtävä latautuu 300 DPI -laadulla. Täydellinen tulostamiseen ja myy
       action: 'Luo & Lataa',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Katso miten se toimii',
+        modalTitle: 'Toimintojen yleiskatsaus',
+      },
+      appSpecific: {
+        videoId: '0cOPi7eajLs',
+        buttonText: 'Etsi ja Laske Toiminnot',
+        modalTitle: 'Etsi ja Laske Opas',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/find and count/

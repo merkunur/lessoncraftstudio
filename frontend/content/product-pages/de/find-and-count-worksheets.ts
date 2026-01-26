@@ -61,6 +61,18 @@ Die Arbeitsblätter unterstützen verschiedene pädagogische Ziele. Fördern Sie
       action: 'Erstellen & Herunterladen',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'So einfach geht\'s',
+        modalTitle: 'Funktionen im Überblick',
+      },
+      appSpecific: {
+        videoId: '0cOPi7eajLs',
+        buttonText: 'Zählübungen Funktionen',
+        modalTitle: 'Zählübungen Anleitung',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/find and count/

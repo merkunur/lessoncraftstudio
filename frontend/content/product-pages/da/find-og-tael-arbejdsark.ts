@@ -49,6 +49,18 @@ Opret gratis skoleopgaver til print med dit abonnement. Ingen ekstra omkostninge
       action: 'Nemt at bruge',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Se hvordan det virker',
+        modalTitle: 'Funktionsoversigt',
+      },
+      appSpecific: {
+        videoId: '0cOPi7eajLs',
+        buttonText: 'Find og Tæl Funktioner',
+        modalTitle: 'Find og Tæl Vejledning',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/danish/find-and-count/

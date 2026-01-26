@@ -47,6 +47,18 @@ Il nostro generatore crea schede con griglie personalizzabili da 5x5 a 10x10 cel
       action: 'Crea e Scarica',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Guarda come funziona',
+        modalTitle: 'Panoramica delle funzioni',
+      },
+      appSpecific: {
+        videoId: '0cOPi7eajLs',
+        buttonText: 'Funzioni Trova e Conta',
+        modalTitle: 'Tutorial Trova e Conta',
+      },
+    },
   },
 
   // Sample Gallery

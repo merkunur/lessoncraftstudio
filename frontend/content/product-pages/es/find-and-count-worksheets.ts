@@ -49,6 +49,18 @@ El generador produce fichas para imprimir con calidad profesional de 300 DPI ide
       action: 'Crear y Descargar',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Mira cómo funciona',
+        modalTitle: 'Vista rápida de funciones',
+      },
+      appSpecific: {
+        videoId: '0cOPi7eajLs',
+        buttonText: 'Funciones Veo Veo',
+        modalTitle: 'Tutorial Veo Veo',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/spanish/find-and-count/

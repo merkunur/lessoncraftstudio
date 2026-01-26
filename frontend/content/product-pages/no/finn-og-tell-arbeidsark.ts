@@ -47,6 +47,18 @@ Grunnpakke-abonnement inkluderer 10 populære arbeidsarkverktøy for bare kr 1 0
       action: 'Enkelt å bruke',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Se hvordan det fungerer',
+        modalTitle: 'Funksjonsoversikt',
+      },
+      appSpecific: {
+        videoId: '0cOPi7eajLs',
+        buttonText: 'Finn og Tell Funksjoner',
+        modalTitle: 'Finn og Tell Veiledning',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/find and count/

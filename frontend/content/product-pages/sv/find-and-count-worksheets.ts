@@ -49,6 +49,18 @@ Grundpaketsprenumerationen kostar 144 dollar per år eller 15 dollar per månad.
       action: 'Skapa & Ladda Ner',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Se hur det fungerar',
+        modalTitle: 'Funktionsöversikt',
+      },
+      appSpecific: {
+        videoId: '0cOPi7eajLs',
+        buttonText: 'Hitta och Räkna Funktioner',
+        modalTitle: 'Hitta och Räkna Guide',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/find and count/

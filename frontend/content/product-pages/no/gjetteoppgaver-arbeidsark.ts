@@ -49,6 +49,18 @@ Verktøyet støtter 11 språk inkludert norsk. Bruk bildebiblioteket vårt med o
       action: 'Enkelt å bruke',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Se hvordan det fungerer',
+        modalTitle: 'Funksjonsoversikt',
+      },
+      appSpecific: {
+        videoId: 'DSwX_p4dRNM',
+        buttonText: 'Gjett ordet Funksjoner',
+        modalTitle: 'Gjett ordet Veiledning',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/word guess/

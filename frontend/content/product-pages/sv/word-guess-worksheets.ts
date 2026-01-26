@@ -47,6 +47,18 @@ Varje arbetsblad innehåller 1-10 gåtor per sida. Välj mellan fyra svårighets
       action: 'Skapa & Ladda Ner',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Se hur det fungerar',
+        modalTitle: 'Funktionsöversikt',
+      },
+      appSpecific: {
+        videoId: 'DSwX_p4dRNM',
+        buttonText: 'Gissa ordet Funktioner',
+        modalTitle: 'Gissa ordet Guide',
+      },
+    },
   },
 
   // Sample Gallery - Swedish localized samples from /samples/swedish/word-guess/

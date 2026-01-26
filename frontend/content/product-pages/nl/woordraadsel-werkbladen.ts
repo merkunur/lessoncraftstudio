@@ -63,6 +63,18 @@ Maak 1 tot 10 woordraadsels per werkblad. Elk raadsel schaalt automatisch voor p
       action: 'Maken & Downloaden',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Bekijk hoe het werkt',
+        modalTitle: 'Overzicht van functies',
+      },
+      appSpecific: {
+        videoId: 'DSwX_p4dRNM',
+        buttonText: 'Woord raden Functies',
+        modalTitle: 'Woord raden Handleiding',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/word guess/

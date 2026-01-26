@@ -52,6 +52,18 @@ Votre abonnement Accès Complet inclut une licence commerciale pour vendre vos f
       action: 'Créer & Télécharger',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Découvrir en vidéo',
+        modalTitle: 'Aperçu des fonctionnalités',
+      },
+      appSpecific: {
+        videoId: 'DSwX_p4dRNM',
+        buttonText: 'Fonctions Deviner le mot',
+        modalTitle: 'Tutoriel Deviner le mot',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/word guess/

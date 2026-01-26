@@ -44,6 +44,18 @@ Generate 1-10 puzzles per page with automatic layout optimization. Add name and 
       images: '3000+ Images',
       license: 'Commercial License',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'See How It Works',
+        modalTitle: 'Quick Feature Overview',
+      },
+      appSpecific: {
+        videoId: 'DSwX_p4dRNM',
+        buttonText: 'Word Guess Features',
+        modalTitle: 'Word Guess Tutorial',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/word-guess/

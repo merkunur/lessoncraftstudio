@@ -47,6 +47,18 @@ Generatoren fungerer på 11 sprog inklusiv dansk, engelsk, tysk og fransk. Tilpa
       action: 'Nemt at bruge',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Se hvordan det virker',
+        modalTitle: 'Funktionsoversigt',
+      },
+      appSpecific: {
+        videoId: 'DSwX_p4dRNM',
+        buttonText: 'Gæt ordet Funktioner',
+        modalTitle: 'Gæt ordet Vejledning',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/danish/word-guess/

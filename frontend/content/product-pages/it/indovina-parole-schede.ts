@@ -49,6 +49,18 @@ Personalizza completamente ogni elemento sulla tua scheda didattica. Aggiungi sf
       action: 'Crea e Scarica',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Guarda come funziona',
+        modalTitle: 'Panoramica delle funzioni',
+      },
+      appSpecific: {
+        videoId: 'DSwX_p4dRNM',
+        buttonText: 'Funzioni Indovina la parola',
+        modalTitle: 'Tutorial Indovina la parola',
+      },
+    },
   },
 
   // Sample Gallery

@@ -49,6 +49,18 @@ Este gerador cria atividades para imprimir que combinam reconhecimento de imagen
       action: 'Crie e Baixe',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Veja como funciona',
+        modalTitle: 'Visão geral das funções',
+      },
+      appSpecific: {
+        videoId: 'DSwX_p4dRNM',
+        buttonText: 'Funções Adivinhe a palavra',
+        modalTitle: 'Tutorial Adivinhe a palavra',
+      },
+    },
   },
 
   // Sample Gallery - Portuguese samples

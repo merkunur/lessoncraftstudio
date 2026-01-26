@@ -49,6 +49,18 @@ Tu suscripcion Acceso Completo incluye licencia comercial completa. Puedes vende
       action: 'Crear y Descargar',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Mira cómo funciona',
+        modalTitle: 'Vista rápida de funciones',
+      },
+      appSpecific: {
+        videoId: 'DSwX_p4dRNM',
+        buttonText: 'Funciones Adivina la palabra',
+        modalTitle: 'Tutorial Adivina la palabra',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/word guess/

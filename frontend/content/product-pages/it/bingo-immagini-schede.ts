@@ -40,6 +40,18 @@ Genera da 1 a 10 carte bingo in pochi minuti. Scegli griglie da 3x3 a 5x5. Perso
       images: '3000+ Immagini',
       license: 'Licenza Commerciale',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Guarda come funziona',
+        modalTitle: 'Panoramica delle funzioni',
+      },
+      appSpecific: {
+        videoId: 'd6AOiDXoK1c',
+        buttonText: 'Funzioni Bingo Immagini',
+        modalTitle: 'Tutorial Bingo Immagini',
+      },
+    },
     readMoreLabel: 'Leggi di più',
     showLessLabel: 'Mostra meno',
     floatingStats: {

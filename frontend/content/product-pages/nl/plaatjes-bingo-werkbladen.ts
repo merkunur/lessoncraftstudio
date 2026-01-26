@@ -54,6 +54,18 @@ Met je abonnement maak je zoveel bingokaarten als je nodig hebt. Geen extra kost
       images: '3000+ Afbeeldingen',
       license: 'Commerciële Licentie',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Bekijk hoe het werkt',
+        modalTitle: 'Overzicht van functies',
+      },
+      appSpecific: {
+        videoId: 'd6AOiDXoK1c',
+        buttonText: 'Plaatjes Bingo Functies',
+        modalTitle: 'Plaatjes Bingo Handleiding',
+      },
+    },
     readMoreLabel: 'Lees meer',
     showLessLabel: 'Minder tonen',
     floatingStats: {

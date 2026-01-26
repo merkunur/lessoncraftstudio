@@ -42,6 +42,18 @@ Peruspaketti-tilaus maksaa 144 dollaria vuodessa tai 15 dollaria kuukaudessa. Ti
       images: '3000+ Kuvaa',
       license: 'Kaupallinen Lisenssi',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Katso miten se toimii',
+        modalTitle: 'Toimintojen yleiskatsaus',
+      },
+      appSpecific: {
+        videoId: 'd6AOiDXoK1c',
+        buttonText: 'Kuva-Bingo Toiminnot',
+        modalTitle: 'Kuva-Bingo Opas',
+      },
+    },
     readMoreLabel: 'Lue lisää',
     showLessLabel: 'Näytä vähemmän',
     floatingStats: {

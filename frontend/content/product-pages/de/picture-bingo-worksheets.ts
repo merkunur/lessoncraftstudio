@@ -52,6 +52,18 @@ Unser Bilder-Bingo-Generator erstellt zwei druckbare Arbeitsblätter bei jeder G
       images: '3000+ Bilder',
       license: 'Kommerzielle Lizenz',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'So einfach geht\'s',
+        modalTitle: 'Funktionen im Überblick',
+      },
+      appSpecific: {
+        videoId: 'd6AOiDXoK1c',
+        buttonText: 'Bilder-Bingo Funktionen',
+        modalTitle: 'Bilder-Bingo Anleitung',
+      },
+    },
     readMoreLabel: 'Mehr lesen',
     showLessLabel: 'Weniger anzeigen',
     floatingStats: {

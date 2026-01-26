@@ -40,6 +40,18 @@ Använd bildlotto generator för förskoleklass material, lågstadiet aktivitete
       images: '3000+ Bilder',
       license: 'Kommersiell Licens',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Se hur det fungerar',
+        modalTitle: 'Funktionsöversikt',
+      },
+      appSpecific: {
+        videoId: 'd6AOiDXoK1c',
+        buttonText: 'Bildlotto Funktioner',
+        modalTitle: 'Bildlotto Guide',
+      },
+    },
     readMoreLabel: 'Läs mer',
     showLessLabel: 'Visa mindre',
     floatingStats: {

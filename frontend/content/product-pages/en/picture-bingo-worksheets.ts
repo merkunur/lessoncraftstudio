@@ -46,6 +46,18 @@ Our picture bingo generator creates two free printable worksheets with every gen
       images: '3000+ Images',
       license: 'Commercial License',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'See How It Works',
+        modalTitle: 'Quick Feature Overview',
+      },
+      appSpecific: {
+        videoId: 'd6AOiDXoK1c',
+        buttonText: 'Picture Bingo Features',
+        modalTitle: 'Picture Bingo Tutorial',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/bingo/

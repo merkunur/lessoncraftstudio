@@ -40,6 +40,18 @@ Bingo gratis arbejdsark styrker mange vigtige færdigheder hos børn. Billedgenk
       images: '3000+ Billeder',
       license: 'Kommerciel Licens',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Se hvordan det virker',
+        modalTitle: 'Funktionsoversigt',
+      },
+      appSpecific: {
+        videoId: 'd6AOiDXoK1c',
+        buttonText: 'Billedbingo Funktioner',
+        modalTitle: 'Billedbingo Vejledning',
+      },
+    },
     readMoreLabel: 'Læs mere',
     showLessLabel: 'Vis mindre',
     floatingStats: {

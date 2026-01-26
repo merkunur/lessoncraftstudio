@@ -40,6 +40,18 @@ Vår generator gjør det enkelt. Velg størrelse på rutenettet fra 3x3 til 5x5.
       images: '3000+ Bilder',
       license: 'Kommersiell Lisens',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Se hvordan det fungerer',
+        modalTitle: 'Funksjonsoversikt',
+      },
+      appSpecific: {
+        videoId: 'd6AOiDXoK1c',
+        buttonText: 'Bildebingo Funksjoner',
+        modalTitle: 'Bildebingo Veiledning',
+      },
+    },
     readMoreLabel: 'Les mer',
     showLessLabel: 'Vis mindre',
     floatingStats: {

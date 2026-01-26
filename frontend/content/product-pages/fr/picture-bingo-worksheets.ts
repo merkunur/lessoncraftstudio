@@ -40,6 +40,18 @@ Notre générateur de bingo illustré crée deux fiches à imprimer à chaque g�
       images: '3000+ Images',
       license: 'Licence Commerciale',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Découvrir en vidéo',
+        modalTitle: 'Aperçu des fonctionnalités',
+      },
+      appSpecific: {
+        videoId: 'd6AOiDXoK1c',
+        buttonText: 'Fonctions Bingo Images',
+        modalTitle: 'Tutoriel Bingo Images',
+      },
+    },
     readMoreLabel: 'Lire la suite',
     showLessLabel: 'Voir moins',
     floatingStats: {

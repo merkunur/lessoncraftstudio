@@ -40,6 +40,18 @@ Tu suscripción Paquete Esencial cuesta $144 al año o $15 al mes. Incluye 10 ge
       images: '3000+ Imágenes',
       license: 'Licencia Comercial',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Mira cómo funciona',
+        modalTitle: 'Vista rápida de funciones',
+      },
+      appSpecific: {
+        videoId: 'd6AOiDXoK1c',
+        buttonText: 'Funciones Bingo Imágenes',
+        modalTitle: 'Tutorial Bingo Imágenes',
+      },
+    },
     readMoreLabel: 'Leer más',
     showLessLabel: 'Ver menos',
     floatingStats: {

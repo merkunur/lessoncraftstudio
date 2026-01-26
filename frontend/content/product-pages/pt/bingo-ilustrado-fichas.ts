@@ -42,6 +42,18 @@ O bingo educativo serve múltiplos propósitos pedagógicos. Use-o para reforça
       images: '3000+ Imagens',
       license: 'Licença Comercial',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Veja como funciona',
+        modalTitle: 'Visão geral das funções',
+      },
+      appSpecific: {
+        videoId: 'd6AOiDXoK1c',
+        buttonText: 'Funções Bingo Ilustrado',
+        modalTitle: 'Tutorial Bingo Ilustrado',
+      },
+    },
     readMoreLabel: 'Leia mais',
     showLessLabel: 'Mostrar menos',
     floatingStats: {

@@ -1,6 +1,6 @@
 'use client';
 
-import React, { createContext, useContext, useState, useEffect, useCallback } from 'react';
+import React, { createContext, useContext, useState, useEffect, useCallback, useRef } from 'react';
 import { useRouter } from 'next/navigation';
 import { toast } from 'react-hot-toast';
 
@@ -57,36 +57,35 @@ interface SignupData {
 
 const AuthContext = createContext<AuthContextType | undefined>(undefined);
 
-// Helper function to generate device ID (same as content-manager-v2.html)
+// Retry configuration for network resilience
+const RETRY_CONFIG = {
+  maxRetries: 3,
+  baseDelay: 1000, // 1 second
+};
+
+// Helper function to generate stable device ID
+// Uses localStorage-first approach with random UUID instead of fingerprinting
+// This prevents false "different device" conflicts from browser/display changes
 function getDeviceId(): string {
-  // Check if we already have a device ID stored
-  let deviceId = localStorage.getItem('deviceId');
+  const STORAGE_KEY = 'lcs_device_id_v2';
 
-  if (!deviceId) {
-    // Generate a unique device ID based on browser characteristics
-    const canvas = document.createElement('canvas');
-    const gl = canvas.getContext('webgl') || canvas.getContext('experimental-webgl') as WebGLRenderingContext | null;
-    const debugInfo = gl ? gl.getExtension('WEBGL_debug_renderer_info') : null;
-    const renderer = debugInfo ? gl!.getParameter((debugInfo as any).UNMASKED_RENDERER_WEBGL) : '';
+  // Priority 1: Use stored ID (stable across browser updates, display changes, etc.)
+  let deviceId = localStorage.getItem(STORAGE_KEY);
+  if (deviceId) return deviceId;
 
-    const fingerprint = [
-      navigator.userAgent,
-      navigator.language,
-      screen.width + 'x' + screen.height,
-      screen.colorDepth,
-      new Date().getTimezoneOffset(),
-      renderer,
-      (navigator as any).hardwareConcurrency || '',
-      (navigator as any).deviceMemory || ''
-    ].join('|');
-
-    // Create hash of fingerprint
-    deviceId = 'device_' + btoa(fingerprint).replace(/[^a-zA-Z0-9]/g, '').substring(0, 32);
-
-    // Store for future use
-    localStorage.setItem('deviceId', deviceId);
+  // Priority 2: Migrate from old key if exists (backward compatibility)
+  const oldDeviceId = localStorage.getItem('deviceId');
+  if (oldDeviceId) {
+    localStorage.setItem(STORAGE_KEY, oldDeviceId);
+    return oldDeviceId;
   }
 
+  // Priority 3: Generate random UUID (not fingerprint-based - much more stable)
+  deviceId = typeof crypto !== 'undefined' && crypto.randomUUID
+    ? `device_${crypto.randomUUID().replace(/-/g, '').substring(0, 24)}`
+    : `device_${Date.now().toString(36)}_${Math.random().toString(36).substring(2, 10)}`;
+
+  localStorage.setItem(STORAGE_KEY, deviceId);
   return deviceId;
 }
 
@@ -98,6 +97,9 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
 
   // Store tokens in memory for security
   const [accessToken, setAccessToken] = useState<string | null>(null);
+
+  // Lock to prevent concurrent refresh attempts (race condition prevention)
+  const refreshLockRef = useRef<Promise<void> | null>(null);
 
   // Helper function to make authenticated requests
   const authenticatedFetch = useCallback(async (
@@ -123,72 +125,98 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     checkAuth();
   }, []);
 
-  // Check authentication status
+  // Check authentication status with retry logic for network resilience
   const checkAuth = useCallback(async () => {
-    try {
-      setLoading(true);
+    const storedToken = localStorage.getItem('accessToken');
+    if (!storedToken) {
+      setLoading(false);
+      return;
+    }
 
-      // Try to get user from stored token
-      const storedToken = localStorage.getItem('accessToken');
-      if (!storedToken) {
+    setAccessToken(storedToken);
+    setLoading(true);
+
+    // Load cached user immediately (provides instant UI feedback)
+    const storedUser = localStorage.getItem('user');
+    let cachedUser: User | null = null;
+    if (storedUser) {
+      try {
+        cachedUser = JSON.parse(storedUser);
+        console.log('[AuthContext] checkAuth - loaded cached user:', cachedUser?.email);
+        setUser(cachedUser);
+      } catch (e) {
+        console.error('Failed to parse stored user:', e);
+      }
+    }
+
+    // Verify with API - with retry on network/server errors
+    for (let attempt = 0; attempt < RETRY_CONFIG.maxRetries; attempt++) {
+      try {
+        const response = await fetch('/api/auth/me', {
+          headers: {
+            'Authorization': `Bearer ${storedToken}`,
+          },
+        });
+
+        if (response.ok) {
+          const data = await response.json();
+          const updatedUser = {
+            ...data.user,
+            subscription: data.subscription
+          };
+          setUser(updatedUser);
+          localStorage.setItem('user', JSON.stringify(updatedUser));
+          setLoading(false);
+          return;
+        } else if (response.status === 401) {
+          // Token expired, try to refresh
+          try {
+            await refreshToken();
+            setLoading(false);
+            return;
+          } catch (refreshErr) {
+            // Refresh failed - clear tokens and logout
+            console.error('Token refresh failed:', refreshErr);
+            localStorage.removeItem('accessToken');
+            localStorage.removeItem('refreshToken');
+            localStorage.removeItem('user');
+            setAccessToken(null);
+            setUser(null);
+            setLoading(false);
+            return;
+          }
+        } else if (response.status >= 500) {
+          // Server error - retry with backoff
+          console.warn(`[AuthContext] Server error (${response.status}), attempt ${attempt + 1}/${RETRY_CONFIG.maxRetries}`);
+          if (attempt < RETRY_CONFIG.maxRetries - 1) {
+            await new Promise(r => setTimeout(r, RETRY_CONFIG.baseDelay * (attempt + 1)));
+            continue;
+          }
+          // All retries failed - keep cached user, don't force logout
+          console.error('[AuthContext] All server retries failed, using cached data');
+          setLoading(false);
+          return;
+        } else {
+          // 4xx error (except 401) - likely invalid session, but keep cached user for now
+          console.warn(`[AuthContext] Client error (${response.status}), keeping cached user`);
+          setLoading(false);
+          return;
+        }
+      } catch (networkError) {
+        // Network error - retry with backoff
+        console.warn(`[AuthContext] Network error, attempt ${attempt + 1}/${RETRY_CONFIG.maxRetries}:`, networkError);
+        if (attempt < RETRY_CONFIG.maxRetries - 1) {
+          await new Promise(r => setTimeout(r, RETRY_CONFIG.baseDelay * (attempt + 1)));
+          continue;
+        }
+        // All retries failed - keep cached user instead of forcing logout
+        console.error('[AuthContext] All network retries failed, using cached data');
         setLoading(false);
         return;
       }
-
-      setAccessToken(storedToken);
-
-      // Load user from localStorage to display immediately
-      // But keep loading=true until API verification completes to ensure fresh tier data
-      const storedUser = localStorage.getItem('user');
-      console.log('[AuthContext] checkAuth - stored user:', storedUser ? 'exists' : 'null');
-      if (storedUser) {
-        try {
-          const parsedUser = JSON.parse(storedUser);
-          console.log('[AuthContext] Setting user from localStorage:', {
-            email: parsedUser.email,
-            tier: parsedUser.subscriptionTier
-          });
-          setUser(parsedUser);
-          // Don't set loading=false here - wait for API verification
-          // This prevents showing access denied due to stale subscription tier
-        } catch (e) {
-          console.error('Failed to parse stored user:', e);
-        }
-      }
-
-      // Then verify with API in background and update if needed
-      const response = await fetch('/api/auth/me', {
-        headers: {
-          'Authorization': `Bearer ${storedToken}`,
-        },
-      });
-
-      if (response.ok) {
-        const data = await response.json();
-        // Merge subscription into user object
-        const updatedUser = {
-          ...data.user,
-          subscription: data.subscription
-        };
-        setUser(updatedUser);
-        // Update localStorage with fresh data
-        localStorage.setItem('user', JSON.stringify(updatedUser));
-      } else if (response.status === 401) {
-        // Token expired, try to refresh
-        await refreshToken();
-      } else {
-        // Clear invalid token
-        localStorage.removeItem('accessToken');
-        localStorage.removeItem('refreshToken');
-        localStorage.removeItem('user');
-        setAccessToken(null);
-        setUser(null);
-      }
-    } catch (err) {
-      console.error('Auth check error:', err);
-    } finally {
-      setLoading(false);
     }
+
+    setLoading(false);
   }, []);
 
   // Login function with device fingerprinting and conflict handling
@@ -370,49 +398,66 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     }
   };
 
-  // Refresh token function
-  const refreshToken = async () => {
-    try {
-      const storedRefreshToken = localStorage.getItem('refreshToken');
-      if (!storedRefreshToken) {
-        throw new Error('No refresh token available');
-      }
+  // Actual refresh implementation (private)
+  const performRefresh = async (): Promise<void> => {
+    const storedRefreshToken = localStorage.getItem('refreshToken');
+    if (!storedRefreshToken) {
+      throw new Error('No refresh token available');
+    }
 
-      const response = await fetch('/api/auth/refresh', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ refreshToken: storedRefreshToken }),
+    const response = await fetch('/api/auth/refresh', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ refreshToken: storedRefreshToken }),
+    });
+
+    const data = await response.json();
+
+    if (!response.ok) {
+      throw new Error(data.error || 'Token refresh failed');
+    }
+
+    setAccessToken(data.accessToken);
+    localStorage.setItem('accessToken', data.accessToken);
+
+    if (data.refreshToken) {
+      localStorage.setItem('refreshToken', data.refreshToken);
+    }
+
+    // Merge subscription into user object
+    const userWithSubscription = {
+      ...data.user,
+      subscription: data.subscription
+    };
+    setUser(userWithSubscription);
+    localStorage.setItem('user', JSON.stringify(userWithSubscription));
+  };
+
+  // Refresh token function with lock to prevent concurrent refreshes (race condition prevention)
+  const refreshToken = async () => {
+    // If already refreshing, wait for that to complete instead of starting a new refresh
+    if (refreshLockRef.current) {
+      console.log('[AuthContext] Refresh already in progress, waiting...');
+      return refreshLockRef.current;
+    }
+
+    // Start the refresh and store the promise
+    refreshLockRef.current = performRefresh()
+      .catch((err) => {
+        // Clear tokens on refresh failure
+        setUser(null);
+        setAccessToken(null);
+        localStorage.removeItem('accessToken');
+        localStorage.removeItem('refreshToken');
+        localStorage.removeItem('user');
+        throw err;
+      })
+      .finally(() => {
+        // Release the lock
+        refreshLockRef.current = null;
       });
 
-      const data = await response.json();
-
-      if (!response.ok) {
-        throw new Error(data.error || 'Token refresh failed');
-      }
-
-      setAccessToken(data.accessToken);
-      localStorage.setItem('accessToken', data.accessToken);
-
-      if (data.refreshToken) {
-        localStorage.setItem('refreshToken', data.refreshToken);
-      }
-
-      // Merge subscription into user object
-      const userWithSubscription = {
-        ...data.user,
-        subscription: data.subscription
-      };
-      setUser(userWithSubscription);
-      localStorage.setItem('user', JSON.stringify(userWithSubscription));
-    } catch (err) {
-      // Clear tokens on refresh failure
-      setUser(null);
-      setAccessToken(null);
-      localStorage.removeItem('accessToken');
-      localStorage.removeItem('refreshToken');
-      localStorage.removeItem('user');
-      throw err;
-    }
+    return refreshLockRef.current;
   };
 
   // Update profile function
@@ -578,17 +623,66 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     }
   };
 
-  // Set up token refresh interval
+  // Set up token refresh interval (daily instead of 6 days for better reliability)
   useEffect(() => {
     if (!accessToken) return;
 
-    // Refresh token every 6 days (before 7-day expiry)
+    // Refresh token daily (more frequent than before to prevent expiry issues)
     const interval = setInterval(() => {
       refreshToken().catch(console.error);
-    }, 6 * 24 * 60 * 60 * 1000);
+    }, 24 * 60 * 60 * 1000); // 1 day
 
     return () => clearInterval(interval);
   }, [accessToken]);
+
+  // Helper to check token expiry and refresh if needed
+  const checkTokenAndRefresh = useCallback(async () => {
+    const storedToken = localStorage.getItem('accessToken');
+    if (!storedToken) return;
+
+    try {
+      // Decode JWT to check expiry (without verification - just for timing)
+      const parts = storedToken.split('.');
+      if (parts.length !== 3) return;
+
+      const payload = JSON.parse(atob(parts[1]));
+      const expiresAt = payload.exp * 1000; // Convert to milliseconds
+      const fiveMinutes = 5 * 60 * 1000;
+
+      // Refresh if token expires within 5 minutes
+      if (Date.now() > expiresAt - fiveMinutes) {
+        console.log('[AuthContext] Token expiring soon, refreshing...');
+        await refreshToken();
+      }
+    } catch (err) {
+      console.error('[AuthContext] Token check failed:', err);
+    }
+  }, []);
+
+  // Refresh token when app regains focus (user returns to tab/window)
+  useEffect(() => {
+    if (!accessToken) return;
+
+    const handleVisibilityChange = () => {
+      if (document.visibilityState === 'visible') {
+        console.log('[AuthContext] Tab became visible, checking token...');
+        checkTokenAndRefresh();
+      }
+    };
+
+    const handleFocus = () => {
+      console.log('[AuthContext] Window focused, checking token...');
+      checkTokenAndRefresh();
+    };
+
+    document.addEventListener('visibilitychange', handleVisibilityChange);
+    window.addEventListener('focus', handleFocus);
+
+    return () => {
+      document.removeEventListener('visibilitychange', handleVisibilityChange);
+      window.removeEventListener('focus', handleFocus);
+    };
+  }, [accessToken, checkTokenAndRefresh]);
 
   const isAuthenticated = !!user && !loading;
 

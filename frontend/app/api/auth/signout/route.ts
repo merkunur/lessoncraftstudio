@@ -45,22 +45,31 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    // For single-device policy: Delete ALL sessions for this user
-    // This ensures clean slate and prevents zombie sessions
+    // Delete only the current session (by token) - not ALL sessions
+    // This allows users to stay signed in on other devices
     const deletedSessions = await prisma.session.deleteMany({
       where: {
         userId: userId,
+        token: token,  // Only this session
       }
     });
 
-    console.log(`Signout: Deleted ${deletedSessions.count} session(s) for user ${userId}`);
+    // Clean up expired sessions (housekeeping)
+    const cleanedSessions = await prisma.session.deleteMany({
+      where: {
+        userId: userId,
+        expiresAt: { lt: new Date() },
+      }
+    });
+
+    console.log(`Signout: Deleted current session + ${cleanedSessions.count} expired session(s) for user ${userId}`);
 
     // Log the signout
     await prisma.activityLog.create({
       data: {
         userId: userId,
         action: 'logout',
-        details: `User signed out (deleted ${deletedSessions.count} sessions)`,
+        details: `User signed out from current device`,
         ipAddress: request.headers.get('x-forwarded-for') || request.headers.get('x-real-ip'),
         userAgent: request.headers.get('user-agent'),
       }
@@ -70,7 +79,6 @@ export async function POST(request: NextRequest) {
     const response = NextResponse.json({
       success: true,
       message: 'Signed out successfully',
-      sessionsDeleted: deletedSessions.count,
     });
 
     response.cookies.delete('refreshToken');

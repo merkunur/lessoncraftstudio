@@ -44,6 +44,27 @@ export async function GET(request: NextRequest) {
       );
     }
 
+    // Sliding session expiry: Update activity and extend session on active use
+    const now = new Date();
+    const oneHourAgo = new Date(now.getTime() - 60 * 60 * 1000);
+
+    // Only update if last activity was more than 1 hour ago (reduces DB writes)
+    if (session.lastActivityAt < oneHourAgo) {
+      const oneDayFromNow = new Date(now.getTime() + 24 * 60 * 60 * 1000);
+      const shouldExtend = session.expiresAt < oneDayFromNow;
+
+      await prisma.session.update({
+        where: { id: session.id },
+        data: {
+          lastActivityAt: now,
+          // Extend expiry by 7 days if it's expiring within 24 hours
+          ...(shouldExtend && {
+            expiresAt: new Date(now.getTime() + 7 * 24 * 60 * 60 * 1000)
+          }),
+        }
+      });
+    }
+
     // Get user with subscription and usage stats
     const user = await prisma.user.findUnique({
       where: { id: payload.userId },

@@ -21,6 +21,7 @@ const signupSchema = z.object({
   plan: z.enum(['free', 'core', 'full']).optional().default('free'),
   newsletter: z.boolean().optional().default(true),
   language: z.string().optional().default('en'),
+  deviceId: z.string().optional(), // Device ID for session tracking
 });
 
 export async function POST(request: NextRequest) {
@@ -39,7 +40,7 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    const { email, password, firstName, lastName, plan, newsletter, language } = validationResult.data;
+    const { email, password, firstName, lastName, plan, newsletter, language, deviceId } = validationResult.data;
 
     // Check if user already exists
     const existingUser = await prisma.user.findUnique({
@@ -111,7 +112,7 @@ export async function POST(request: NextRequest) {
     // Generate tokens
     const { accessToken, refreshToken } = generateTokens(user);
 
-    // Create session
+    // Create session with deviceId for proper tracking
     await prisma.session.create({
       data: {
         userId: user.id,
@@ -120,6 +121,7 @@ export async function POST(request: NextRequest) {
         expiresAt: new Date(Date.now() + 7 * 24 * 60 * 60 * 1000),
         ipAddress: request.headers.get('x-forwarded-for') || request.headers.get('x-real-ip'),
         userAgent: request.headers.get('user-agent'),
+        deviceId: deviceId || null, // Include device ID for session tracking
       }
     });
 

@@ -69,12 +69,13 @@ export async function POST(request: NextRequest) {
     // Generate new tokens
     const { accessToken, refreshToken: newRefreshToken } = generateTokens(user);
 
-    // Update session with new tokens
+    // Update session with new tokens and activity timestamp
     await prisma.session.update({
       where: { id: session.id },
       data: {
         token: accessToken,
         refreshToken: newRefreshToken,
+        lastActivityAt: new Date(), // Track activity for sliding expiry
         expiresAt: new Date(Date.now() + 7 * 24 * 60 * 60 * 1000),
       }
     });

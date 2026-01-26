@@ -54,6 +54,18 @@ Il nostro generatore di schede gratuite offre personalizzazione completa per ogn
       action: 'Crea e Scarica',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Guarda come funziona',
+        modalTitle: 'Panoramica delle funzioni',
+      },
+      appSpecific: {
+        videoId: 'RGtED1Bnut8',
+        buttonText: 'Funzioni Griglia Abbinamento',
+        modalTitle: 'Tutorial Griglia Abbinamento',
+      },
+    },
   },
 
   // Sample Gallery

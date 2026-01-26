@@ -50,6 +50,18 @@ Los estudiantes combinan piezas mezcladas para completar imágenes. Cada ficha i
       action: 'Crear y Descargar',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Mira cómo funciona',
+        modalTitle: 'Vista rápida de funciones',
+      },
+      appSpecific: {
+        videoId: 'RGtED1Bnut8',
+        buttonText: 'Funciones Rompecabezas de Cuadrícula',
+        modalTitle: 'Tutorial Rompecabezas de Cuadrícula',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/grid match/

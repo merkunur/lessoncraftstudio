@@ -47,6 +47,18 @@ Full Tilgang-abonnement gir deg tilgang til alle 33 arbeidsarkgeneratorer inklud
       action: 'Enkelt å bruke',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Se hvordan det fungerer',
+        modalTitle: 'Funksjonsoversikt',
+      },
+      appSpecific: {
+        videoId: 'RGtED1Bnut8',
+        buttonText: 'Rutenetttilpasning Funksjoner',
+        modalTitle: 'Rutenetttilpasning Veiledning',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/grid match/

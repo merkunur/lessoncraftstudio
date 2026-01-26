@@ -49,6 +49,18 @@ Rutnätsmatching-arbetsblad fungerar utmärkt som finmotorik övningar för för
       action: 'Skapa & Ladda Ner',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Se hur det fungerar',
+        modalTitle: 'Funktionsöversikt',
+      },
+      appSpecific: {
+        videoId: 'RGtED1Bnut8',
+        buttonText: 'Rutnäts Match Funktioner',
+        modalTitle: 'Rutnäts Match Guide',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/swedish/grid-match/

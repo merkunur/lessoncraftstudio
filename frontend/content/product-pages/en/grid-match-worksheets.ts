@@ -40,6 +40,18 @@ Teachers love grid match worksheets because they combine fun with learning. Crea
       images: '3000+ Images',
       license: 'Commercial License',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'See How It Works',
+        modalTitle: 'Quick Feature Overview',
+      },
+      appSpecific: {
+        videoId: 'RGtED1Bnut8',
+        buttonText: 'Grid Match Features',
+        modalTitle: 'Grid Match Tutorial',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/grid-match/

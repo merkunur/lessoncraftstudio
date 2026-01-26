@@ -59,6 +59,18 @@ Das Vollzugriff Abonnement enthält alle 33 Arbeitsblatt-Generatoren. Kombiniere
       action: 'Erstellen & Herunterladen',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'So einfach geht\'s',
+        modalTitle: 'Funktionen im Überblick',
+      },
+      appSpecific: {
+        videoId: 'RGtED1Bnut8',
+        buttonText: 'Raster-Puzzle Funktionen',
+        modalTitle: 'Raster-Puzzle Anleitung',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/grid match/

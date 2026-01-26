@@ -49,6 +49,18 @@ Ruudukko Sovitus jakaa kuvan ruudukkoon ja poistaa joitain soluja. Lapset tunnis
       action: 'Luo & Lataa',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Katso miten se toimii',
+        modalTitle: 'Toimintojen yleiskatsaus',
+      },
+      appSpecific: {
+        videoId: 'RGtED1Bnut8',
+        buttonText: 'Ruudukko Sovitus Toiminnot',
+        modalTitle: 'Ruudukko Sovitus Opas',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/grid match/

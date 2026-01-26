@@ -49,6 +49,18 @@ Med Fuld Adgang kan du lave malebog aktiviteter kombineret med puslespil. Genera
       action: 'Nemt at bruge',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Se hvordan det virker',
+        modalTitle: 'Funktionsoversigt',
+      },
+      appSpecific: {
+        videoId: 'RGtED1Bnut8',
+        buttonText: 'Raster-Puslespil Funktioner',
+        modalTitle: 'Raster-Puslespil Vejledning',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/danish/grid-match/

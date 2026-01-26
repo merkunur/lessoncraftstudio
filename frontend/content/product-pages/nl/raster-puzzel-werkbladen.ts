@@ -59,6 +59,18 @@ De grid match generator maakt werkbladen kleuters en werkbladen groep 3 met aanp
       action: 'Maken & Downloaden',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Bekijk hoe het werkt',
+        modalTitle: 'Overzicht van functies',
+      },
+      appSpecific: {
+        videoId: 'RGtED1Bnut8',
+        buttonText: 'Grid Match Functies',
+        modalTitle: 'Grid Match Handleiding',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/grid match/

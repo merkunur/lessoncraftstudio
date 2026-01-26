@@ -47,6 +47,18 @@ O Grid Match transforma qualquer imagem em um desafio pedagógico envolvente. Um
       action: 'Crie e Baixe',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Veja como funciona',
+        modalTitle: 'Visão geral das funções',
+      },
+      appSpecific: {
+        videoId: 'RGtED1Bnut8',
+        buttonText: 'Funções Quebra-Cabeça Grid',
+        modalTitle: 'Tutorial Quebra-Cabeça Grid',
+      },
+    },
   },
 
   // Sample Gallery

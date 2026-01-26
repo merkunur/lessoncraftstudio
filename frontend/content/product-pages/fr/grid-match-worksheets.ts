@@ -49,6 +49,18 @@ Les enseignants adorent les fiches puzzle grille car elles combinent plaisir et 
       action: 'Créer & Télécharger',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Découvrir en vidéo',
+        modalTitle: 'Aperçu des fonctionnalités',
+      },
+      appSpecific: {
+        videoId: 'RGtED1Bnut8',
+        buttonText: 'Fonctions Puzzle Grille',
+        modalTitle: 'Tutoriel Puzzle Grille',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/grid match/

@@ -34,6 +34,7 @@ export default function VideoLightbox({
   modalTitle,
 }: VideoLightboxProps) {
   const [isOpen, setIsOpen] = useState(false);
+  const [activated, setActivated] = useState(false);  // True only after user clicks play
   const [iframeLoaded, setIframeLoaded] = useState(false);
   const [thumbnailError, setThumbnailError] = useState(false);
 
@@ -43,9 +44,10 @@ export default function VideoLightbox({
     modalTitle: modalTitle || defaultContent.modalTitle,
   };
 
-  // Reset iframe loaded state when modal closes
+  // Reset states when modal closes
   useEffect(() => {
     if (!isOpen) {
+      setActivated(false);
       setIframeLoaded(false);
     }
   }, [isOpen]);
@@ -240,75 +242,56 @@ export default function VideoLightbox({
                   </button>
                 </div>
 
-                {/* Video container - 16:9 aspect ratio with facade pattern */}
+                {/* Video container - 16:9 aspect ratio */}
                 <div className="relative w-full" style={{ paddingBottom: '56.25%' }}>
-                  {/* Thumbnail facade - shows immediately while iframe loads */}
-                  {!iframeLoaded && (
-                    <div className="absolute inset-0 bg-black">
-                      {/* YouTube thumbnail image */}
+                  {activated ? (
+                    <>
+                      {/* Loading state while iframe loads */}
+                      {!iframeLoaded && (
+                        <div className="absolute inset-0 bg-black flex items-center justify-center">
+                          <motion.div
+                            className="w-16 h-16 rounded-full border-4 border-white/20"
+                            style={{ borderTopColor: '#06b6d4', borderRightColor: '#8b5cf6' }}
+                            animate={{ rotate: 360 }}
+                            transition={{ duration: 1, repeat: Infinity, ease: 'linear' }}
+                          />
+                        </div>
+                      )}
+                      {/* YouTube iframe - only exists after user clicks play */}
+                      <iframe
+                        className={`absolute inset-0 w-full h-full transition-opacity duration-300 ${
+                          iframeLoaded ? 'opacity-100' : 'opacity-0'
+                        }`}
+                        src={`https://www.youtube-nocookie.com/embed/${videoId}?autoplay=1&rel=0&modestbranding=1`}
+                        title={content.modalTitle}
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen
+                        onLoad={() => setIframeLoaded(true)}
+                      />
+                    </>
+                  ) : (
+                    /* Thumbnail with play button - NO iframe loaded yet */
+                    <button
+                      onClick={() => setActivated(true)}
+                      className="absolute inset-0 w-full h-full group cursor-pointer"
+                      aria-label="Play video"
+                    >
                       <img
                         src={thumbnailUrl}
                         alt={content.modalTitle}
                         className="absolute inset-0 w-full h-full object-cover"
                         onError={() => setThumbnailError(true)}
                       />
-
-                      {/* Loading overlay with spinner */}
-                      <div className="absolute inset-0 flex flex-col items-center justify-center bg-black/40">
-                        {/* Spinning loader */}
-                        <div className="relative">
-                          <motion.div
-                            className="w-16 h-16 rounded-full border-4 border-white/20"
-                            style={{
-                              borderTopColor: '#06b6d4',
-                              borderRightColor: '#8b5cf6',
-                            }}
-                            animate={{ rotate: 360 }}
-                            transition={{
-                              duration: 1,
-                              repeat: Infinity,
-                              ease: 'linear',
-                            }}
-                          />
-                          {/* Play icon in center */}
-                          <div className="absolute inset-0 flex items-center justify-center">
-                            <svg
-                              className="w-6 h-6 text-white/80 ml-1"
-                              fill="currentColor"
-                              viewBox="0 0 24 24"
-                            >
-                              <path d="M8 5v14l11-7z" />
-                            </svg>
-                          </div>
+                      {/* Large play button overlay */}
+                      <div className="absolute inset-0 flex items-center justify-center bg-black/30 group-hover:bg-black/40 transition-colors">
+                        <div className="w-20 h-20 rounded-full bg-gradient-to-r from-cyan-500 to-purple-500 flex items-center justify-center shadow-2xl group-hover:scale-110 transition-transform">
+                          <svg className="w-8 h-8 text-white ml-1" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M8 5v14l11-7z" />
+                          </svg>
                         </div>
-
-                        {/* Loading text */}
-                        <motion.p
-                          className="mt-4 text-white/70 text-sm font-medium"
-                          animate={{ opacity: [0.5, 1, 0.5] }}
-                          transition={{
-                            duration: 1.5,
-                            repeat: Infinity,
-                            ease: 'easeInOut',
-                          }}
-                        >
-                          Loading video...
-                        </motion.p>
                       </div>
-                    </div>
+                    </button>
                   )}
-
-                  {/* YouTube iframe - loads in background, shown when ready */}
-                  <iframe
-                    className={`absolute inset-0 w-full h-full transition-opacity duration-300 ${
-                      iframeLoaded ? 'opacity-100' : 'opacity-0'
-                    }`}
-                    src={`https://www.youtube-nocookie.com/embed/${videoId}?autoplay=1&rel=0&modestbranding=1`}
-                    title={content.modalTitle}
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
-                    onLoad={() => setIframeLoaded(true)}
-                  />
                 </div>
               </div>
             </motion.div>

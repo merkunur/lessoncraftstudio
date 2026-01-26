@@ -42,6 +42,18 @@ Med over 3000 barnvenlige billeder kan du nemt lave tematiske arbejdsark. Kombin
       images: '3000+ Billeder',
       license: 'Kommerciel Licens',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Se hvordan det virker',
+        modalTitle: 'Funktionsoversigt',
+      },
+      appSpecific: {
+        videoId: 'S2s2U6Nb7FI',
+        buttonText: 'Stor-Lille Funktioner',
+        modalTitle: 'Stor-Lille Vejledning',
+      },
+    },
     readMoreLabel: 'Læs mere',
     showLessLabel: 'Vis mindre',
     floatingStats: {

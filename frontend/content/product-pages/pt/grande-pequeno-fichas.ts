@@ -42,6 +42,18 @@ Crianças da pré-escola e do 1º ano aprendem conceitos de grande e pequeno nat
       images: '3000+ Imagens',
       license: 'Licença Comercial',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Veja como funciona',
+        modalTitle: 'Visão geral das funções',
+      },
+      appSpecific: {
+        videoId: 'S2s2U6Nb7FI',
+        buttonText: 'Funções Grande-Pequeno',
+        modalTitle: 'Tutorial Grande-Pequeno',
+      },
+    },
     readMoreLabel: 'Leia mais',
     showLessLabel: 'Mostrar menos',
     floatingStats: {

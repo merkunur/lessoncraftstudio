@@ -40,6 +40,18 @@ The Big and Small worksheet maker offers five different question types. Students
       images: '3000+ Images',
       license: 'Commercial License',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'See How It Works',
+        modalTitle: 'Quick Feature Overview',
+      },
+      appSpecific: {
+        videoId: 'S2s2U6Nb7FI',
+        buttonText: 'Big and Small Features',
+        modalTitle: 'Big and Small Tutorial',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/big-small/

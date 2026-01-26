@@ -42,6 +42,18 @@ Ogni scheda didattica si scarica in formato PDF o JPEG di alta qualità professi
       images: '3000+ Immagini',
       license: 'Licenza Commerciale',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Guarda come funziona',
+        modalTitle: 'Panoramica delle funzioni',
+      },
+      appSpecific: {
+        videoId: 'S2s2U6Nb7FI',
+        buttonText: 'Funzioni Grande-Piccolo',
+        modalTitle: 'Tutorial Grande-Piccolo',
+      },
+    },
     readMoreLabel: 'Leggi di più',
     showLessLabel: 'Mostra meno',
     floatingStats: {

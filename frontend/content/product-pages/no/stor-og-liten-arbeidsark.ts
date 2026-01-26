@@ -42,6 +42,18 @@ Vår generator lager arbeidsark der barn ringer inn den største gjenstanden. El
       images: '3000+ Bilder',
       license: 'Kommersiell Lisens',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Se hvordan det fungerer',
+        modalTitle: 'Funksjonsoversikt',
+      },
+      appSpecific: {
+        videoId: 'S2s2U6Nb7FI',
+        buttonText: 'Stor-Liten Funksjoner',
+        modalTitle: 'Stor-Liten Veiledning',
+      },
+    },
     readMoreLabel: 'Les mer',
     showLessLabel: 'Vis mindre',
     floatingStats: {

@@ -40,6 +40,18 @@ Jokainen tehtävä sopii esiopetukseen ja matematiikan alkuopetukseen alakouluss
       images: '3000+ Kuvaa',
       license: 'Kaupallinen Lisenssi',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Katso miten se toimii',
+        modalTitle: 'Toimintojen yleiskatsaus',
+      },
+      appSpecific: {
+        videoId: 'S2s2U6Nb7FI',
+        buttonText: 'Iso-Pieni Toiminnot',
+        modalTitle: 'Iso-Pieni Opas',
+      },
+    },
     readMoreLabel: 'Lue lisää',
     showLessLabel: 'Näytä vähemmän',
     floatingStats: {

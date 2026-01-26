@@ -42,6 +42,18 @@ Les fiches de comparaison de tailles conviennent parfaitement aux classes de mat
       images: '3000+ Images',
       license: 'Licence Commerciale',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Découvrir en vidéo',
+        modalTitle: 'Aperçu des fonctionnalités',
+      },
+      appSpecific: {
+        videoId: 'S2s2U6Nb7FI',
+        buttonText: 'Fonctions Grand-Petit',
+        modalTitle: 'Tutoriel Grand-Petit',
+      },
+    },
     readMoreLabel: 'Lire la suite',
     showLessLabel: 'Voir moins',
     floatingStats: {

@@ -52,6 +52,18 @@ Das Lehren von Größenkonzepten war noch nie einfacher mit unseren anpassbaren 
       images: '3000+ Bilder',
       license: 'Kommerzielle Lizenz',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'So einfach geht\'s',
+        modalTitle: 'Funktionen im Überblick',
+      },
+      appSpecific: {
+        videoId: 'S2s2U6Nb7FI',
+        buttonText: 'Groß-Klein Funktionen',
+        modalTitle: 'Groß-Klein Anleitung',
+      },
+    },
     readMoreLabel: 'Mehr lesen',
     showLessLabel: 'Weniger anzeigen',
     floatingStats: {

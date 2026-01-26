@@ -42,6 +42,18 @@ Förskoleklass material fokuserar på grundläggande storleksbegrepp. Elever i �
       images: '3000+ Bilder',
       license: 'Kommersiell Licens',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Se hur det fungerar',
+        modalTitle: 'Funktionsöversikt',
+      },
+      appSpecific: {
+        videoId: 'S2s2U6Nb7FI',
+        buttonText: 'Stort-Litet Funktioner',
+        modalTitle: 'Stort-Litet Guide',
+      },
+    },
     readMoreLabel: 'Läs mer',
     showLessLabel: 'Visa mindre',
     floatingStats: {

@@ -52,6 +52,18 @@ De Groot en Klein werkbladen helpen bij de ontwikkeling van fijne motoriek. Kind
       images: '3000+ Afbeeldingen',
       license: 'Commerciële Licentie',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Bekijk hoe het werkt',
+        modalTitle: 'Overzicht van functies',
+      },
+      appSpecific: {
+        videoId: 'S2s2U6Nb7FI',
+        buttonText: 'Groot-Klein Functies',
+        modalTitle: 'Groot-Klein Handleiding',
+      },
+    },
     readMoreLabel: 'Lees meer',
     showLessLabel: 'Minder tonen',
     floatingStats: {

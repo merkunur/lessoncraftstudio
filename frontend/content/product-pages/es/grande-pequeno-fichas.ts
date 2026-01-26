@@ -44,6 +44,18 @@ El generador crea de 1 a 10 ejercicios por hoja. Usa imágenes idénticas en dif
       images: '3000+ Imágenes',
       license: 'Licencia Comercial',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Mira cómo funciona',
+        modalTitle: 'Vista rápida de funciones',
+      },
+      appSpecific: {
+        videoId: 'S2s2U6Nb7FI',
+        buttonText: 'Funciones Grande-Pequeño',
+        modalTitle: 'Tutorial Grande-Pequeño',
+      },
+    },
     readMoreLabel: 'Leer más',
     showLessLabel: 'Ver menos',
     floatingStats: {

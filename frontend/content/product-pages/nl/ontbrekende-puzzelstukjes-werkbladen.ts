@@ -59,6 +59,18 @@ Onze werkbladen groep 3 generator maakt het gemakkelijk om gedifferentieerde puz
       action: 'Maken & Downloaden',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Bekijk hoe het werkt',
+        modalTitle: 'Overzicht van functies',
+      },
+      appSpecific: {
+        videoId: 'gb-xE_Ay4fc',
+        buttonText: 'Ontbrekende Stukjes Functies',
+        modalTitle: 'Ontbrekende Stukjes Handleiding',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/missing pieces/

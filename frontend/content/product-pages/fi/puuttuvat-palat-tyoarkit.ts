@@ -49,6 +49,18 @@ Täysi Käyttöoikeus -tilauksesi antaa rajattoman tehtävien luonnin ilman teht
       action: 'Luo & Lataa',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Katso miten se toimii',
+        modalTitle: 'Toimintojen yleiskatsaus',
+      },
+      appSpecific: {
+        videoId: 'gb-xE_Ay4fc',
+        buttonText: 'Puuttuvat Palat Toiminnot',
+        modalTitle: 'Puuttuvat Palat Opas',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/missing pieces/

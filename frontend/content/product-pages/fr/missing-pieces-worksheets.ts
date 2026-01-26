@@ -56,6 +56,18 @@ Téléchargez vos fiches en format JPEG ou PDF. L'option niveau de gris permet d
       action: 'Créer & Télécharger',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Découvrir en vidéo',
+        modalTitle: 'Aperçu des fonctionnalités',
+      },
+      appSpecific: {
+        videoId: 'gb-xE_Ay4fc',
+        buttonText: 'Fonctions Pièces Manquantes',
+        modalTitle: 'Tutoriel Pièces Manquantes',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/missing pieces/

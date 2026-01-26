@@ -49,6 +49,18 @@ Puslespillene støtter bokstaver lære skrive aktiviteter ved å bruke bokstavbi
       action: 'Enkelt å bruke',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Se hvordan det fungerer',
+        modalTitle: 'Funksjonsoversikt',
+      },
+      appSpecific: {
+        videoId: 'gb-xE_Ay4fc',
+        buttonText: 'Manglende Brikker Funksjoner',
+        modalTitle: 'Manglende Brikker Veiledning',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/missing pieces/

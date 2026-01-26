@@ -46,6 +46,18 @@ Generate worksheets in 11 languages including English, Spanish, French, and Germ
       images: '3000+ Images',
       license: 'Commercial License',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'See How It Works',
+        modalTitle: 'Quick Feature Overview',
+      },
+      appSpecific: {
+        videoId: 'gb-xE_Ay4fc',
+        buttonText: 'Missing Pieces Features',
+        modalTitle: 'Missing Pieces Tutorial',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/missing pieces/

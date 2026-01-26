@@ -49,6 +49,18 @@ Perfecto para maestros de preescolar, educadores de educación infantil y padres
       action: 'Crear y Descargar',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Mira cómo funciona',
+        modalTitle: 'Vista rápida de funciones',
+      },
+      appSpecific: {
+        videoId: 'gb-xE_Ay4fc',
+        buttonText: 'Funciones Piezas Faltantes',
+        modalTitle: 'Tutorial Piezas Faltantes',
+      },
+    },
   },
 
   // Sample Gallery

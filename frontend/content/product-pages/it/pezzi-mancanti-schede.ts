@@ -51,6 +51,18 @@ L'abbonamento Accesso Completo include licenza commerciale per la vendita di sta
       action: 'Crea e Scarica',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Guarda come funziona',
+        modalTitle: 'Panoramica delle funzioni',
+      },
+      appSpecific: {
+        videoId: 'gb-xE_Ay4fc',
+        buttonText: 'Funzioni Pezzi Mancanti',
+        modalTitle: 'Tutorial Pezzi Mancanti',
+      },
+    },
   },
 
   // Sample Gallery

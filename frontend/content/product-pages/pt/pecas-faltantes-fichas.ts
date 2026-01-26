@@ -49,6 +49,18 @@ O gerador inclui uma biblioteca com mais de 3000 imagens temáticas. Crie ativid
       action: 'Criar e Baixar',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Veja como funciona',
+        modalTitle: 'Visão geral das funções',
+      },
+      appSpecific: {
+        videoId: 'gb-xE_Ay4fc',
+        buttonText: 'Funções Peças em Falta',
+        modalTitle: 'Tutorial Peças em Falta',
+      },
+    },
   },
 
   // Sample Gallery

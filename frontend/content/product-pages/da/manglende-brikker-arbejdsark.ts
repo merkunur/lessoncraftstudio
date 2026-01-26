@@ -49,6 +49,18 @@ Fuld Adgang abonnementet inkluderer kommerciel licens til at sælge dine opgaver
       action: 'Nemt at bruge',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Se hvordan det virker',
+        modalTitle: 'Funktionsoversigt',
+      },
+      appSpecific: {
+        videoId: 'gb-xE_Ay4fc',
+        buttonText: 'Manglende Brikker Funktioner',
+        modalTitle: 'Manglende Brikker Vejledning',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/danish/missing-pieces/

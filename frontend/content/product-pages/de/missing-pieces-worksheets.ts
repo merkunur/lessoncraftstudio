@@ -61,6 +61,18 @@ Ideal für Erzieherinnen in der Vorschule, Grundschullehrkräfte und Eltern im H
       action: 'Erstellen & Herunterladen',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'So einfach geht\'s',
+        modalTitle: 'Funktionen im Überblick',
+      },
+      appSpecific: {
+        videoId: 'gb-xE_Ay4fc',
+        buttonText: 'Fehlende Teile Funktionen',
+        modalTitle: 'Fehlende Teile Anleitung',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/german/missing-pieces/

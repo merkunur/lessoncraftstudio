@@ -57,6 +57,18 @@ Telgrafieken zijn perfecte rekenen werkbladen voor werkbladen groep 3 en werkbla
       action: 'Maken & Downloaden',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Bekijk hoe het werkt',
+        modalTitle: 'Overzicht van functies',
+      },
+      appSpecific: {
+        videoId: 'CDgIihDQX6U',
+        buttonText: 'Telgrafieken Functies',
+        modalTitle: 'Telgrafieken Handleiding',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/dutch/chart-count/

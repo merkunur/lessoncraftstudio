@@ -49,6 +49,18 @@ Los maestros de preescolar usan estas fichas para imprimir para enseñar clasifi
       action: 'Crear y Descargar',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Mira cómo funciona',
+        modalTitle: 'Vista rápida de funciones',
+      },
+      appSpecific: {
+        videoId: 'CDgIihDQX6U',
+        buttonText: 'Funciones Gráficos de Conteo',
+        modalTitle: 'Tutorial Gráficos de Conteo',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/chart count/

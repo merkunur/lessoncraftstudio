@@ -51,6 +51,18 @@ Cette méthode d'apprentissage par la visualisation aide les enfants à comprend
       action: 'Créer & Télécharger',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Découvrir en vidéo',
+        modalTitle: 'Aperçu des fonctionnalités',
+      },
+      appSpecific: {
+        videoId: 'CDgIihDQX6U',
+        buttonText: 'Fonctions Graphique en Images',
+        modalTitle: 'Tutoriel Graphique en Images',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/chart count/

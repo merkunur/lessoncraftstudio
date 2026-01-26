@@ -53,6 +53,18 @@ L'abbonamento Accesso Completo include la licenza commerciale per la stampa su r
       action: 'Crea e Scarica',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Guarda come funziona',
+        modalTitle: 'Panoramica delle funzioni',
+      },
+      appSpecific: {
+        videoId: 'CDgIihDQX6U',
+        buttonText: 'Funzioni Grafici Immagini',
+        modalTitle: 'Tutorial Grafici Immagini',
+      },
+    },
   },
 
   // Sample Gallery

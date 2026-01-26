@@ -59,6 +59,18 @@ Unser Bilddiagramm Arbeitsblätter Generator erstellt zweiteilige Arbeitsblätte
       action: 'Erstellen & Herunterladen',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'So einfach geht\'s',
+        modalTitle: 'Funktionen im Überblick',
+      },
+      appSpecific: {
+        videoId: 'CDgIihDQX6U',
+        buttonText: 'Bilddiagramm Funktionen',
+        modalTitle: 'Bilddiagramm Anleitung',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/chart count/

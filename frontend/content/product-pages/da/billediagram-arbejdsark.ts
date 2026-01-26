@@ -47,6 +47,18 @@ Fuld Adgang-abonnementet inkluderer alle 33 opgavegeneratorer til 1.700 kr. om Ã
       action: 'Nemt at bruge',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Se hvordan det virker',
+        modalTitle: 'Funktionsoversigt',
+      },
+      appSpecific: {
+        videoId: 'CDgIihDQX6U',
+        buttonText: 'Billediagram Funktioner',
+        modalTitle: 'Billediagram Vejledning',
+      },
+    },
   },
 
   // Sample Gallery - Danish paths with keyword-rich alt text

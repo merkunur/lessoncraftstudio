@@ -47,6 +47,18 @@ Tulostettavat tehtävät lapsille sisältävät kaksi osaa. Ensimmäinen osa nä
       action: 'Luo & Lataa',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Katso miten se toimii',
+        modalTitle: 'Toimintojen yleiskatsaus',
+      },
+      appSpecific: {
+        videoId: 'CDgIihDQX6U',
+        buttonText: 'Kuvakaavio Toiminnot',
+        modalTitle: 'Kuvakaavio Opas',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/chart count/

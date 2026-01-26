@@ -49,6 +49,18 @@ Verktøyet passer perfekt til barnehage og 1.-3. trinn. Elevene øver både tell
       action: 'Enkelt å bruke',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Se hvordan det fungerer',
+        modalTitle: 'Funksjonsoversikt',
+      },
+      appSpecific: {
+        videoId: 'CDgIihDQX6U',
+        buttonText: 'Bildediagram Funksjoner',
+        modalTitle: 'Bildediagram Veiledning',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/norwegian/chart-count/

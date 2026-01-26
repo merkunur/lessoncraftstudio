@@ -42,6 +42,18 @@ Every picture graph worksheet downloads as a professional 300 DPI file in PDF or
       images: '3000+ Images',
       license: 'Commercial License',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'See How It Works',
+        modalTitle: 'Quick Feature Overview',
+      },
+      appSpecific: {
+        videoId: 'CDgIihDQX6U',
+        buttonText: 'Picture Graph Features',
+        modalTitle: 'Picture Graph Tutorial',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/chart count/

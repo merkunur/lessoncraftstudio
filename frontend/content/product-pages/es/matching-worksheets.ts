@@ -56,6 +56,18 @@ El generador incluye soporte para 11 idiomas. Perfecto para clases bilingües de
       action: 'Crear y Descargar',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Mira cómo funciona',
+        modalTitle: 'Vista rápida de funciones',
+      },
+      appSpecific: {
+        videoId: 'y3ghkjt_67s',
+        buttonText: 'Funciones Relacionar',
+        modalTitle: 'Tutorial Relacionar',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/matching/

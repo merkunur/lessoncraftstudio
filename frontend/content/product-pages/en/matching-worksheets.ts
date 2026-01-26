@@ -42,6 +42,18 @@ Your Core Bundle subscription includes complete access to all visual materials. 
       images: '3000+ Images',
       license: 'Commercial License',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'See How It Works',
+        modalTitle: 'Quick Feature Overview',
+      },
+      appSpecific: {
+        videoId: 'y3ghkjt_67s',
+        buttonText: 'MatchUp Maker Features',
+        modalTitle: 'MatchUp Maker Tutorial',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/matching/

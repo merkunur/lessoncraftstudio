@@ -49,6 +49,18 @@ Peruspaketti-tilaus sisältää kaupallisen lisenssin. Voit myydä luomiasi teht
       action: 'Luo & Lataa',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Katso miten se toimii',
+        modalTitle: 'Toimintojen yleiskatsaus',
+      },
+      appSpecific: {
+        videoId: 'y3ghkjt_67s',
+        buttonText: 'Yhdistä Parit Toiminnot',
+        modalTitle: 'Yhdistä Parit Opas',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/matching/

@@ -61,6 +61,18 @@ Ontwerp werkbladen groep 3 die perfect aansluiten bij jouw lesmateriaal. Kies ui
       action: 'Maken & Downloaden',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Bekijk hoe het werkt',
+        modalTitle: 'Overzicht van functies',
+      },
+      appSpecific: {
+        videoId: 'y3ghkjt_67s',
+        buttonText: 'Verbindings Generator Functies',
+        modalTitle: 'Verbindings Generator Handleiding',
+      },
+    },
   },
 
   // Sample Gallery

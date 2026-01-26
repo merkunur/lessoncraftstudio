@@ -47,6 +47,18 @@ Le schede didattiche di abbinamenti sono uno strumento essenziale per l'insegnam
       action: 'Crea e Scarica',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Guarda come funziona',
+        modalTitle: 'Panoramica delle funzioni',
+      },
+      appSpecific: {
+        videoId: 'y3ghkjt_67s',
+        buttonText: 'Funzioni Abbinamenti',
+        modalTitle: 'Tutorial Abbinamenti',
+      },
+    },
   },
 
   // Sample Gallery

@@ -49,6 +49,18 @@ Udvid dine opgaver med farvelægning og skriv bogstaver aktiviteter. Kombiner ma
       action: 'Nemt at bruge',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Se hvordan det virker',
+        modalTitle: 'Funktionsoversigt',
+      },
+      appSpecific: {
+        videoId: 'y3ghkjt_67s',
+        buttonText: 'Matchingsopgaver Funktioner',
+        modalTitle: 'Matchingsopgaver Vejledning',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/danish/matching/

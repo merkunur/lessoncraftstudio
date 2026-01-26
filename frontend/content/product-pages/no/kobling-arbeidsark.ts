@@ -49,6 +49,18 @@ Kjernepakke-abonnentet inkluderer 10 populære oppgavegeneratorer. Du får tilga
       action: 'Enkelt å bruke',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Se hvordan det fungerer',
+        modalTitle: 'Funksjonsoversikt',
+      },
+      appSpecific: {
+        videoId: 'y3ghkjt_67s',
+        buttonText: 'Matchingsoppgaver Funksjoner',
+        modalTitle: 'Matchingsoppgaver Veiledning',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/matching/

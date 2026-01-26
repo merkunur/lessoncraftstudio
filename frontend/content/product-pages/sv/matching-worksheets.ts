@@ -49,6 +49,18 @@ Varje arbetsblad gratis mall inkluderar fullt redigerbar canvas. Dra, rotera, sk
       action: 'Skapa & Ladda Ner',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Se hur det fungerar',
+        modalTitle: 'Funktionsöversikt',
+      },
+      appSpecific: {
+        videoId: 'y3ghkjt_67s',
+        buttonText: 'Matchning Funktioner',
+        modalTitle: 'Matchning Guide',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/swedish/matching/

@@ -47,6 +47,18 @@ MatchUp Maker offre une création de contenu flexible pour toutes les matières.
       action: 'Créer & Télécharger',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Découvrir en vidéo',
+        modalTitle: 'Aperçu des fonctionnalités',
+      },
+      appSpecific: {
+        videoId: 'y3ghkjt_67s',
+        buttonText: 'Fonctions MatchUp Maker',
+        modalTitle: 'Tutoriel MatchUp Maker',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/matching/

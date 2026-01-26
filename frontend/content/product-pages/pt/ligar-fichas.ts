@@ -47,6 +47,18 @@ Desenvolva materiais didáticos que associam imagens a letras iniciais. Ideal pa
       action: 'Crie e Baixe',
       quality: '300 DPI',
     },
+    videos: {
+      commonFeatures: {
+        videoId: 'Df9fknBBRFA',
+        buttonText: 'Veja como funciona',
+        modalTitle: 'Visão geral das funções',
+      },
+      appSpecific: {
+        videoId: 'y3ghkjt_67s',
+        buttonText: 'Funções Ligar',
+        modalTitle: 'Tutorial Ligar',
+      },
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/portuguese/matching/

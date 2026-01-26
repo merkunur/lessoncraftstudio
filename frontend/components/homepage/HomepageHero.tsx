@@ -4,6 +4,7 @@ import { useState, useEffect, useRef } from 'react';
 import { motion, useScroll, useTransform, useSpring } from 'framer-motion';
 import Link from 'next/link';
 import Image from 'next/image';
+import VideoLightbox from './VideoLightbox';
 
 interface HomepageHeroProps {
   locale: string;
@@ -578,6 +579,11 @@ export default function HomepageHero({ locale }: HomepageHeroProps) {
                   </svg>
                 </Link>
               </motion.div>
+
+              {/* Video Demo Button */}
+              <div className="flex justify-center lg:justify-start mb-6">
+                <VideoLightbox locale={locale} />
+              </div>
 
               {/* Trust badges */}
               <motion.div

@@ -5,7 +5,6 @@ import { STRIPE_WEBHOOK_EVENTS } from '@/lib/stripe-config';
 import { prisma } from '@/lib/prisma';
 import Stripe from 'stripe';
 import {
-  sendSubscriptionUpgradeEmail,
   sendPaymentReceiptEmail,
   sendPaymentFailedEmail,
   sendPaymentReminderEmail,
@@ -702,20 +701,6 @@ async function updateUserSubscription(userId: string, subscription: Stripe.Subsc
       },
     });
     console.log(`✅ Subscription record upserted in database with ID: ${subscriptionRecord.id}`);
-
-    // Send upgrade confirmation email if this is an upgrade
-    if (isUpgrade && currentUser && status === 'active') {
-      console.log(`📧 Sending upgrade confirmation email: ${oldTier} → ${tier}`);
-      sendSubscriptionUpgradeEmail({
-        email: currentUser.email,
-        firstName: currentUser.firstName || '',
-        language: currentUser.language || 'en',
-        oldPlan: oldTier,
-        newPlan: tier,
-      }).catch(error => {
-        console.error('❌ Failed to send upgrade confirmation email:', error);
-      });
-    }
   } catch (error) {
     console.error('❌ Error updating database:', error);
     throw error;

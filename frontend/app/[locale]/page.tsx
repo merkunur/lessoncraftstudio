@@ -52,7 +52,9 @@ async function getHomepageSamplesData(locale: string): Promise<HomepageSamplesDa
         const appData = app as { hasThumbnail?: boolean; hasPreviewWebp?: boolean };
         if (appData.hasThumbnail && appData.hasPreviewWebp) {
           // Homepage thumbnails use hyphenated appId in filename
-          result.dynamicImages[appId] = `/samples/${langData.language}/homepage/${appId}-thumbnail_preview.webp`;
+          // Use _thumb.webp (~12KB) instead of _preview.webp (~35KB) to reduce bandwidth
+          // This prevents video buffering when gallery images compete with YouTube stream
+          result.dynamicImages[appId] = `/samples/${langData.language}/homepage/${appId}-thumbnail_thumb.webp`;
         }
       });
 

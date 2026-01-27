@@ -59,6 +59,26 @@ export async function POST(request: NextRequest) {
       );
     }
 
+    // Check if user signed up with OAuth (no password)
+    if (user.oauthProvider && !user.passwordHash) {
+      const providerName = user.oauthProvider.charAt(0).toUpperCase() + user.oauthProvider.slice(1);
+      return NextResponse.json(
+        {
+          error: `This account uses ${providerName} sign-in. Please use the "${providerName}" button to sign in.`,
+          oauthProvider: user.oauthProvider
+        },
+        { status: 400 }
+      );
+    }
+
+    // Check if user has a password (shouldn't happen, but safety check)
+    if (!user.passwordHash) {
+      return NextResponse.json(
+        { error: 'Invalid email or password' },
+        { status: 401 }
+      );
+    }
+
     // Verify password
     const isValidPassword = await bcrypt.compare(password, user.passwordHash);
 

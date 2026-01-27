@@ -17,12 +17,16 @@ datasource db {
 model User {
   id                String    @id @default(cuid())
   email             String    @unique
-  passwordHash      String    @map("password_hash")
+  passwordHash      String?   @map("password_hash")  // Optional for OAuth users
   firstName         String?   @map("first_name")
   lastName          String?   @map("last_name")
   emailVerified     Boolean   @default(false) @map("email_verified")
   emailVerifiedAt   DateTime? @map("email_verified_at")
   verificationToken String?   @unique @map("verification_token")
+
+  // OAuth provider info
+  oauthProvider     String?   @map("oauth_provider")     // "google", "github", null for email/password
+  oauthProviderId   String?   @map("oauth_provider_id")  // Provider's user ID
 
   // Subscription info
   subscriptionTier   String  @default("free") @map("subscription_tier") // "free", "core", "full"
@@ -68,6 +72,7 @@ model User {
   @@index([email])
   @@index([stripeCustomerId])
   @@index([subscriptionTier])
+  @@index([oauthProvider, oauthProviderId])
   @@map("users")
 }
 

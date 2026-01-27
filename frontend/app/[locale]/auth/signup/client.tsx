@@ -1,9 +1,19 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useRouter, useSearchParams, useParams } from 'next/navigation';
 import Link from 'next/link';
 import { useTranslations } from 'next-intl';
+
+// OAuth error messages mapping
+const OAUTH_ERRORS: Record<string, string> = {
+  oauth_denied: 'Google sign-up was cancelled',
+  no_code: 'Failed to receive authorization code from Google',
+  no_email: 'Could not retrieve email from Google account',
+  different_provider: 'This email is already registered with a different sign-in method',
+  account_suspended: 'This account has been suspended',
+  oauth_callback_failed: 'Failed to complete Google sign-up. Please try again.',
+};
 
 function SignUpPageContent() {
   const [formData, setFormData] = useState({
@@ -21,7 +31,19 @@ function SignUpPageContent() {
   const locale = params.locale as string || 'en';
   const searchParams = useSearchParams();
   const plan = searchParams.get('plan'); // Get plan from URL parameter
+  const oauthError = searchParams.get('error'); // OAuth error from callback
   const t = useTranslations('auth.signUp');
+
+  // Handle OAuth errors from URL params
+  useEffect(() => {
+    if (oauthError && OAUTH_ERRORS[oauthError]) {
+      setError(OAUTH_ERRORS[oauthError]);
+      // Clean up error from URL
+      const url = new URL(window.location.href);
+      url.searchParams.delete('error');
+      window.history.replaceState({}, '', url.toString());
+    }
+  }, [oauthError]);
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const { name, value, type, checked } = e.target;
@@ -281,6 +303,14 @@ function SignUpPageContent() {
             <div className="mt-6">
               <button
                 type="button"
+                onClick={() => {
+                  // Build Google OAuth URL with current params
+                  const params = new URLSearchParams();
+                  params.set('mode', 'signup');
+                  params.set('locale', locale);
+                  if (plan) params.set('plan', plan);
+                  window.location.href = `/api/auth/google?${params.toString()}`;
+                }}
                 className="w-full inline-flex justify-center py-2 px-4 border border-gray-300 rounded-md shadow-sm bg-white text-sm font-medium text-gray-500 hover:bg-gray-50"
               >
                 <svg className="w-5 h-5" viewBox="0 0 24 24">

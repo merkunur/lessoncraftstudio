@@ -29,11 +29,12 @@ const localeToLanguage: Record<string, string> = {
 interface HomepageSamplesData {
   dynamicImages: Record<string, string>;
   seoData: Record<string, { altText?: string; title?: string }>;
+  heroImages: { portrait: string; landscape: string };
 }
 
 // Server-side function to fetch homepage dynamic images
 async function getHomepageSamplesData(locale: string): Promise<HomepageSamplesData> {
-  const result: HomepageSamplesData = { dynamicImages: {}, seoData: {} };
+  const result: HomepageSamplesData = { dynamicImages: {}, seoData: {}, heroImages: { portrait: '', landscape: '' } };
 
   try {
     // Use internal API call on server - absolute URL required for server-side fetch
@@ -58,6 +59,16 @@ async function getHomepageSamplesData(locale: string): Promise<HomepageSamplesDa
       // Extract SEO data if available
       if (langData.seo) {
         result.seoData = langData.seo;
+      }
+
+      // Extract hero image URLs (baked into ISR HTML for immediate display)
+      if (langData.hero) {
+        if (langData.hero.hasPortraitPreview) {
+          result.heroImages.portrait = `/samples/${langData.language}/homepage/hero-portrait_preview.webp`;
+        }
+        if (langData.hero.hasLandscapePreview) {
+          result.heroImages.landscape = `/samples/${langData.language}/homepage/hero-landscape_preview.webp`;
+        }
       }
     }
   } catch (error) {
@@ -185,7 +196,7 @@ export default async function HomePage({ params }: { params: { locale: string } 
   const schemas = generateHomepageSchemas(locale);
 
   // Fetch dynamic homepage images server-side (baked into ISR HTML)
-  const { dynamicImages, seoData } = await getHomepageSamplesData(locale);
+  const { dynamicImages, seoData, heroImages } = await getHomepageSamplesData(locale);
 
   return (
     <>
@@ -199,7 +210,7 @@ export default async function HomePage({ params }: { params: { locale: string } 
       ))}
 
       {/* Hero Section - Dark dramatic design */}
-      <HomepageHero locale={locale} />
+      <HomepageHero locale={locale} heroImages={heroImages} />
 
       {/* Free Sample Downloads - Dark background continues */}
       <SampleGallery locale={locale} dynamicImages={dynamicImages} seoData={seoData} />

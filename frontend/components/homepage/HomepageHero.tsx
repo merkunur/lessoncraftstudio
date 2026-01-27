@@ -8,6 +8,7 @@ import VideoLightbox from './VideoLightbox';
 
 interface HomepageHeroProps {
   locale: string;
+  heroImages?: { portrait: string; landscape: string };
 }
 
 // Localization content - native language versions
@@ -181,37 +182,7 @@ const localeContent: Record<string, {
   },
 };
 
-// Locale to language folder mapping for dynamic hero images
-const localeToLanguage: Record<string, string> = {
-  en: 'english',
-  de: 'german',
-  fr: 'french',
-  es: 'spanish',
-  it: 'italian',
-  pt: 'portuguese',
-  nl: 'dutch',
-  da: 'danish',
-  sv: 'swedish',
-  no: 'norwegian',
-  fi: 'finnish',
-};
-
-// Fallback hero images - empty by default, content manager uploads provide images
-const fallbackHeroImages: Record<string, { portrait: string; landscape: string }> = {
-  en: { portrait: '', landscape: '' },
-  de: { portrait: '', landscape: '' },
-  fr: { portrait: '', landscape: '' },
-  es: { portrait: '', landscape: '' },
-  it: { portrait: '', landscape: '' },
-  pt: { portrait: '', landscape: '' },
-  nl: { portrait: '', landscape: '' },
-  sv: { portrait: '', landscape: '' },
-  da: { portrait: '', landscape: '' },
-  no: { portrait: '', landscape: '' },
-  fi: { portrait: '', landscape: '' },
-};
-
-export default function HomepageHero({ locale }: HomepageHeroProps) {
+export default function HomepageHero({ locale, heroImages }: HomepageHeroProps) {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
   const [isHovered, setIsHovered] = useState<'left' | 'right' | null>(null);
   const containerRef = useRef<HTMLDivElement>(null);
@@ -219,37 +190,9 @@ export default function HomepageHero({ locale }: HomepageHeroProps) {
   // Get content for current locale, fallback to English
   const content = localeContent[locale] || localeContent.en;
 
-  // Get dynamic hero image paths
-  const language = localeToLanguage[locale] || 'english';
-  const fallbackImages = fallbackHeroImages[locale] || fallbackHeroImages.en;
-
-  // Initialize with fallback images, then update from API
-  const [heroImageSources, setHeroImageSources] = useState<{ portrait: string; landscape: string }>({
-    portrait: fallbackImages.portrait,
-    landscape: fallbackImages.landscape
-  });
-
-  // Fetch hero image status from server-side API (reliable, no client-side caching issues)
-  // Using explicit async function to prevent tree-shaking
-  // Added cache-busting timestamp to ensure fresh data after uploads
-  useEffect(() => {
-    const fetchHeroImages = async () => {
-      try {
-        const response = await fetch(`/api/homepage/hero-images?locale=${locale}&t=${Date.now()}`);
-        const data = await response.json();
-        if (data.portraitUrl || data.landscapeUrl) {
-          setHeroImageSources({
-            portrait: data.portraitUrl || '',
-            landscape: data.landscapeUrl || '',
-          });
-        }
-      } catch (error) {
-        // On error, keep current state
-        console.debug('[HomepageHero] Hero images fetch failed:', error);
-      }
-    };
-    fetchHeroImages();
-  }, [locale]);
+  // Use server-provided hero images (baked into ISR HTML for immediate display)
+  // Falls back to empty strings if prop not provided
+  const heroImageSources = heroImages || { portrait: '', landscape: '' };
 
   const { scrollY } = useScroll();
   const y1 = useTransform(scrollY, [0, 500], [0, 150]);

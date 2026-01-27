@@ -185,6 +185,7 @@ const localeContent: Record<string, {
 export default function HomepageHero({ locale, heroImages }: HomepageHeroProps) {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
   const [isHovered, setIsHovered] = useState<'left' | 'right' | null>(null);
+  const [isVideoPlaying, setIsVideoPlaying] = useState(false);
   const containerRef = useRef<HTMLDivElement>(null);
 
   // Get content for current locale, fallback to English
@@ -309,7 +310,7 @@ export default function HomepageHero({ locale, heroImages }: HomepageHeroProps) 
 
       {/* Animated mesh gradient orbs */}
       <div className="absolute inset-0 overflow-hidden">
-        {/* Primary cyan orb */}
+        {/* Primary cyan orb - pauses when video is playing to reduce CPU */}
         <motion.div
           className="absolute w-[900px] h-[900px] rounded-full"
           style={{
@@ -319,13 +320,13 @@ export default function HomepageHero({ locale, heroImages }: HomepageHeroProps) 
             x: springX,
             y: springY,
           }}
-          animate={{
+          animate={isVideoPlaying ? {} : {
             scale: [1, 1.1, 1],
           }}
           transition={{ duration: 12, repeat: Infinity, ease: "easeInOut" }}
         />
 
-        {/* Secondary purple orb */}
+        {/* Secondary purple orb - pauses when video is playing to reduce CPU */}
         <motion.div
           className="absolute w-[700px] h-[700px] rounded-full"
           style={{
@@ -333,7 +334,7 @@ export default function HomepageHero({ locale, heroImages }: HomepageHeroProps) 
             bottom: '-10%',
             left: '-10%',
           }}
-          animate={{
+          animate={isVideoPlaying ? {} : {
             scale: [1, 1.15, 1],
             x: [0, 30, 0],
             y: [0, -20, 0],
@@ -341,7 +342,7 @@ export default function HomepageHero({ locale, heroImages }: HomepageHeroProps) 
           transition={{ duration: 15, repeat: Infinity, ease: "easeInOut" }}
         />
 
-        {/* Accent pink orb */}
+        {/* Accent pink orb - pauses when video is playing to reduce CPU */}
         <motion.div
           className="absolute w-[500px] h-[500px] rounded-full"
           style={{
@@ -349,7 +350,7 @@ export default function HomepageHero({ locale, heroImages }: HomepageHeroProps) 
             top: '40%',
             left: '30%',
           }}
-          animate={{
+          animate={isVideoPlaying ? {} : {
             scale: [1, 1.2, 1],
             opacity: [0.5, 0.8, 0.5],
           }}
@@ -526,7 +527,7 @@ export default function HomepageHero({ locale, heroImages }: HomepageHeroProps) 
 
               {/* Video Demo Button */}
               <div className="flex justify-center lg:justify-start mb-6">
-                <VideoLightbox locale={locale} />
+                <VideoLightbox locale={locale} onOpenChange={setIsVideoPlaying} />
               </div>
 
               {/* Trust badges */}
@@ -606,6 +607,7 @@ export default function HomepageHero({ locale, heroImages }: HomepageHeroProps) 
                         src={previewWorksheets[0].src}
                         alt={previewWorksheets[0].alt}
                         fill
+                        priority
                         unoptimized
                         className="object-cover"
                         sizes="280px"
@@ -664,6 +666,7 @@ export default function HomepageHero({ locale, heroImages }: HomepageHeroProps) 
                         src={previewWorksheets[1].src}
                         alt={previewWorksheets[1].alt}
                         fill
+                        priority
                         unoptimized
                         className="object-cover"
                         sizes="300px"

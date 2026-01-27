@@ -8,6 +8,7 @@ interface VideoLightboxProps {
   videoId?: string;           // Default: 'Df9fknBBRFA' (common features)
   buttonText?: string;        // Override default locale-based text
   modalTitle?: string;        // Override default locale-based title
+  onOpenChange?: (isOpen: boolean) => void;  // Callback when modal opens/closes
 }
 
 // Localized content - natural, not translated
@@ -32,6 +33,7 @@ export default function VideoLightbox({
   videoId = DEFAULT_VIDEO_ID,
   buttonText,
   modalTitle,
+  onOpenChange,
 }: VideoLightboxProps) {
   const [isOpen, setIsOpen] = useState(false);
   const [activated, setActivated] = useState(false);  // True only after user clicks play
@@ -76,13 +78,15 @@ export default function VideoLightbox({
     }
   }, [isWarmingUp]);
 
-  // Reset states when modal closes
+  // Reset states when modal closes and notify parent
   useEffect(() => {
     if (!isOpen) {
       setActivated(false);
       setIframeLoaded(false);
     }
-  }, [isOpen]);
+    // Notify parent of open state change (for pausing animations, etc.)
+    onOpenChange?.(isOpen);
+  }, [isOpen, onOpenChange]);
 
   // Handle escape key to close modal
   const handleKeyDown = useCallback((e: KeyboardEvent) => {

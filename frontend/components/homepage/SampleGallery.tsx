@@ -1501,6 +1501,7 @@ export default function SampleGallery({ locale, dynamicImages = {}, seoData = {}
                     alt={seoData[getAppSlug(sample.productPageSlug)]?.altText || getSampleName(sample)}
                     title={seoData[getAppSlug(sample.productPageSlug)]?.title || undefined}
                     fill
+                    loading="lazy"
                     className="object-cover transition-transform duration-500 group-hover:scale-105"
                     sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 20vw"
                     unoptimized={getSampleImage(sample).startsWith('/samples/')}

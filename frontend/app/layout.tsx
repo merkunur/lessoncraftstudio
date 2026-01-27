@@ -82,8 +82,10 @@ export default function RootLayout({
         <link rel="dns-prefetch" href="https://www.lessoncraftstudio.com" />
         {/* YouTube preconnects for faster video loading */}
         <link rel="preconnect" href="https://www.youtube-nocookie.com" />
+        <link rel="preconnect" href="https://www.google.com" />
         <link rel="preconnect" href="https://i.ytimg.com" crossOrigin="anonymous" />
         <link rel="dns-prefetch" href="https://www.youtube-nocookie.com" />
+        <link rel="dns-prefetch" href="https://www.google.com" />
         <link rel="dns-prefetch" href="https://i.ytimg.com" />
         <link rel="preload" as="image" href="/opengraph-image.png" />
         {/* RSS feed for blog discovery */}

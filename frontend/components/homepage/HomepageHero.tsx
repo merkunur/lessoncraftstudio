@@ -606,6 +606,7 @@ export default function HomepageHero({ locale, heroImages }: HomepageHeroProps) 
                         src={previewWorksheets[0].src}
                         alt={previewWorksheets[0].alt}
                         fill
+                        unoptimized
                         className="object-cover"
                         sizes="280px"
                       />
@@ -663,6 +664,7 @@ export default function HomepageHero({ locale, heroImages }: HomepageHeroProps) 
                         src={previewWorksheets[1].src}
                         alt={previewWorksheets[1].alt}
                         fill
+                        unoptimized
                         className="object-cover"
                         sizes="300px"
                       />

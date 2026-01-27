@@ -73,6 +73,12 @@ interface UploadResult {
     preview?: string;
     pdf?: string;
   };
+  sizes?: {
+    original?: number;
+    thumb?: number;
+    preview?: number;
+    pdf?: number;
+  };
   error?: string;
 }
 

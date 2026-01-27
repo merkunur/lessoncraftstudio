@@ -231,10 +231,11 @@ export default function HomepageHero({ locale }: HomepageHeroProps) {
 
   // Fetch hero image status from server-side API (reliable, no client-side caching issues)
   // Using explicit async function to prevent tree-shaking
+  // Added cache-busting timestamp to ensure fresh data after uploads
   useEffect(() => {
     const fetchHeroImages = async () => {
       try {
-        const response = await fetch(`/api/homepage/hero-images?locale=${locale}`);
+        const response = await fetch(`/api/homepage/hero-images?locale=${locale}&t=${Date.now()}`);
         const data = await response.json();
         if (data.portraitUrl || data.landscapeUrl) {
           setHeroImageSources({

@@ -39,7 +39,7 @@ async function getHomepageSamplesData(locale: string): Promise<HomepageSamplesDa
     // Use internal API call on server - absolute URL required for server-side fetch
     const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.lessoncraftstudio.com';
     const response = await fetch(`${baseUrl}/api/homepage-samples/list`, {
-      next: { revalidate: 3600 } // Match page revalidate (1 hour)
+      next: { revalidate: 300 } // Match page revalidate (5 minutes)
     });
     const data = await response.json();
 
@@ -127,8 +127,8 @@ const homepageMetadata: Record<string, { title: string; description: string; key
   }
 };
 
-// Enable ISR - revalidate every hour
-export const revalidate = 3600;
+// Enable ISR - revalidate every 5 minutes (reduced from 1 hour for faster content updates)
+export const revalidate = 300;
 
 export async function generateMetadata({ params }: { params: { locale: string } }): Promise<Metadata> {
   const locale = params.locale || 'en';

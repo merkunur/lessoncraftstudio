@@ -1334,6 +1334,18 @@
                     }
                 }
 
+                // Trigger ISR revalidation to clear cached homepage
+                try {
+                    await fetch('/api/homepage/revalidate', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({ locale: currentLocale })
+                    });
+                    showToast('Homepage cache cleared - changes will be visible shortly', 'success');
+                } catch (revalError) {
+                    console.warn('Could not revalidate cache:', revalError);
+                }
+
                 // Refresh data and close modal
                 await refreshData();
                 closeModal();
@@ -1497,6 +1509,19 @@
 
                 if (result.success) {
                     showToast(`Hero ${orientation} image uploaded with WebP variants generated!`, 'success');
+
+                    // Trigger ISR revalidation to clear cached homepage
+                    try {
+                        await fetch('/api/homepage/revalidate', {
+                            method: 'POST',
+                            headers: { 'Content-Type': 'application/json' },
+                            body: JSON.stringify({ locale: currentLocale })
+                        });
+                        showToast('Homepage cache cleared - hero images will be visible shortly', 'success');
+                    } catch (revalError) {
+                        console.warn('Could not revalidate cache:', revalError);
+                    }
+
                     await refreshData();
                 } else {
                     showToast(`Upload failed: ${result.error}`, 'error');

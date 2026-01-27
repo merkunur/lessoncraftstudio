@@ -161,6 +161,21 @@ async function processImageUpload(
     setImmutable(previewPath);
     console.log(`[HOMEPAGE-SAMPLES] Generated preview: ${previewPath}`);
 
+    // Verify files were created successfully
+    const [origStats, thumbStats, previewStats] = await Promise.all([
+      fs.stat(originalPath).catch(() => null),
+      fs.stat(thumbPath).catch(() => null),
+      fs.stat(previewPath).catch(() => null),
+    ]);
+
+    if (!previewStats || previewStats.size === 0) {
+      console.error('[HOMEPAGE-SAMPLES] WebP preview generation failed or empty:', previewPath);
+      return {
+        success: false,
+        error: 'WebP preview generation failed - file is empty or missing. Please try again.',
+      };
+    }
+
     return {
       success: true,
       message: 'Image uploaded and WebP variants generated successfully',
@@ -168,6 +183,11 @@ async function processImageUpload(
         original: `/samples/${language}/homepage/${appId}-thumbnail.jpeg`,
         thumb: `/samples/${language}/homepage/${appId}-thumbnail_thumb.webp`,
         preview: `/samples/${language}/homepage/${appId}-thumbnail_preview.webp`
+      },
+      sizes: {
+        original: origStats?.size || 0,
+        thumb: thumbStats?.size || 0,
+        preview: previewStats?.size || 0,
       }
     };
   } catch (error) {
@@ -292,6 +312,21 @@ async function processHeroImageUpload(
     setImmutable(previewPath);
     console.log(`[HOMEPAGE-SAMPLES] Generated hero preview: ${previewPath}`);
 
+    // Verify files were created successfully
+    const [origStats, thumbStats, previewStats] = await Promise.all([
+      fs.stat(originalPath).catch(() => null),
+      fs.stat(thumbPath).catch(() => null),
+      fs.stat(previewPath).catch(() => null),
+    ]);
+
+    if (!previewStats || previewStats.size === 0) {
+      console.error('[HOMEPAGE-SAMPLES] Hero WebP preview generation failed or empty:', previewPath);
+      return {
+        success: false,
+        error: 'Hero WebP preview generation failed - file is empty or missing. Please try again.',
+      };
+    }
+
     return {
       success: true,
       message: `Hero ${orientation} image uploaded and WebP variants generated successfully`,
@@ -299,6 +334,11 @@ async function processHeroImageUpload(
         original: `/samples/${language}/homepage/hero-${orientation}.jpeg`,
         thumb: `/samples/${language}/homepage/hero-${orientation}_thumb.webp`,
         preview: `/samples/${language}/homepage/hero-${orientation}_preview.webp`
+      },
+      sizes: {
+        original: origStats?.size || 0,
+        thumb: thumbStats?.size || 0,
+        preview: previewStats?.size || 0,
       }
     };
   } catch (error) {

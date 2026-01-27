@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { prisma } from '@/lib/prisma';
-import { requireAdmin } from '@/lib/auth';
+import { requireAdmin, requireAuth } from '@/lib/auth';
 
 export async function GET(request: NextRequest) {
   try {
@@ -112,6 +112,71 @@ export async function GET(request: NextRequest) {
 
     return NextResponse.json(
       { error: 'Failed to fetch support tickets' },
+      { status: 500 }
+    );
+  }
+}
+
+// POST - Create new support ticket (authenticated users)
+export async function POST(request: NextRequest) {
+  try {
+    // Verify user is authenticated
+    const user = await requireAuth(request);
+
+    // Parse request body
+    const body = await request.json();
+    const { subject, message, category, priority, email, name } = body;
+
+    // Validate required fields
+    if (!subject || subject.length < 5) {
+      return NextResponse.json(
+        { error: 'Subject must be at least 5 characters' },
+        { status: 400 }
+      );
+    }
+
+    if (!message || message.length < 20) {
+      return NextResponse.json(
+        { error: 'Message must be at least 20 characters' },
+        { status: 400 }
+      );
+    }
+
+    // Create support ticket
+    const ticket = await prisma.supportTicket.create({
+      data: {
+        userId: user.id,
+        email: email || user.email,
+        name: name || `${user.firstName || ''} ${user.lastName || ''}`.trim() || user.email,
+        subject,
+        message,
+        category: category || 'other',
+        priority: priority || 'medium',
+        status: 'open',
+      },
+    });
+
+    return NextResponse.json({
+      success: true,
+      ticket: {
+        id: ticket.id,
+        subject: ticket.subject,
+        status: ticket.status,
+        createdAt: ticket.createdAt,
+      },
+    });
+  } catch (error) {
+    console.error('Create support ticket error:', error);
+
+    if (error instanceof Error && error.message === 'Unauthorized') {
+      return NextResponse.json(
+        { error: 'Please sign in to submit a support ticket' },
+        { status: 401 }
+      );
+    }
+
+    return NextResponse.json(
+      { error: 'Failed to create support ticket' },
       { status: 500 }
     );
   }

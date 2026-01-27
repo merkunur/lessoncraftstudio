@@ -1126,7 +1126,21 @@
     "errorSignIn": "Please sign in to submit a support ticket",
     "successSubmit": "Support ticket submitted successfully!",
     "errorSubmit": "Failed to submit ticket",
-    "errorSubmitRetry": "Failed to submit support ticket. Please try again."
+    "errorSubmitRetry": "Failed to submit support ticket. Please try again.",
+    "loadError": "Failed to load tickets",
+    "deleteConfirm": "Are you sure you want to delete this ticket? This action cannot be undone.",
+    "deleteSuccess": "Ticket deleted successfully",
+    "deleteError": "Failed to delete ticket",
+    "successMessage": "Support ticket submitted successfully!",
+    "errorMessage": "Something went wrong. Please sign in to continue.",
+    "adminResponse": "Support Response",
+    "noResponseYet": "Awaiting response from our support team",
+    "created": "Created",
+    "responseTime": "Quick Response",
+    "responseTimeInfo": "We typically respond within 24 hours for standard issues.",
+    "helpTitle": "Track Your Ticket",
+    "helpDescription": "You'll receive email updates and can check progress in your dashboard.",
+    "emailLabel": "Email:"
   },
   "footer": {
     "companyName": "LessonCraftStudio",

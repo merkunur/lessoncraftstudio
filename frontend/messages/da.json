@@ -243,7 +243,11 @@
       "email": "E-mailadresse",
       "password": "Adgangskode",
       "confirmPassword": "Bekræft adgangskode",
-      "terms": "Jeg accepterer servicebetingelserne og privatlivspolitikken",
+      "terms": "Jeg accepterer",
+      "termsLink": "betingelserne",
+      "and": "og",
+      "privacyLink": "privatlivspolitikken",
+      "termsEnd": "",
       "submit": "Opret konto",
       "hasAccount": "Har du allerede en konto?",
       "signIn": "Log ind"

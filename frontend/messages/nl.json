@@ -256,7 +256,11 @@
       "email": "E-mailadres",
       "password": "Wachtwoord",
       "confirmPassword": "Bevestig wachtwoord",
-      "terms": "Ik ga akkoord met de servicevoorwaarden en het privacybeleid",
+      "terms": "Ik ga akkoord met de",
+      "termsLink": "algemene voorwaarden",
+      "and": "en het",
+      "privacyLink": "privacybeleid",
+      "termsEnd": "",
       "submit": "Account aanmaken",
       "hasAccount": "Heb je al een account?",
       "signIn": "Inloggen"

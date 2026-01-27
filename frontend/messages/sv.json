@@ -243,7 +243,11 @@
       "email": "E-postadress",
       "password": "Lösenord",
       "confirmPassword": "Bekräfta lösenord",
-      "terms": "Jag godkänner användarvillkoren och sekretesspolicyn",
+      "terms": "Jag godkänner",
+      "termsLink": "användarvillkoren",
+      "and": "och",
+      "privacyLink": "integritetspolicyn",
+      "termsEnd": "",
       "submit": "Skapa konto",
       "hasAccount": "Har du redan ett konto?",
       "signIn": "Logga in"

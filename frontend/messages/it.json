@@ -256,7 +256,11 @@
       "email": "Email",
       "password": "Password",
       "confirmPassword": "Conferma password",
-      "terms": "Accetto i termini di servizio e l'informativa sulla privacy",
+      "terms": "Accetto i",
+      "termsLink": "termini di servizio",
+      "and": "e la",
+      "privacyLink": "privacy policy",
+      "termsEnd": "",
       "submit": "Crea account",
       "hasAccount": "Hai già un account?",
       "signIn": "Accedi"

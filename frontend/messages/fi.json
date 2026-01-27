@@ -243,7 +243,11 @@
       "email": "Sähköpostiosoite",
       "password": "Salasana",
       "confirmPassword": "Vahvista salasana",
-      "terms": "Hyväksyn käyttöehdot ja tietosuojakäytännön",
+      "terms": "Hyväksyn",
+      "termsLink": "käyttöehdot",
+      "and": "ja",
+      "privacyLink": "tietosuojakäytännön",
+      "termsEnd": "",
       "submit": "Luo tili",
       "hasAccount": "Onko sinulla jo tili?",
       "signIn": "Kirjaudu sisään"

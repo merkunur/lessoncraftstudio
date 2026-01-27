@@ -256,7 +256,11 @@
       "email": "Adresse e-mail",
       "password": "Mot de passe",
       "confirmPassword": "Confirmer le mot de passe",
-      "terms": "J'accepte les conditions d'utilisation et la politique de confidentialité",
+      "terms": "J'accepte les",
+      "termsLink": "conditions d'utilisation",
+      "and": "et la",
+      "privacyLink": "politique de confidentialité",
+      "termsEnd": "",
       "submit": "Créer un compte",
       "hasAccount": "Déjà un compte?",
       "signIn": "Se connecter"

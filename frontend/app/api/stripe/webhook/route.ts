@@ -8,7 +8,8 @@ import {
   sendPaymentReceiptEmail,
   sendPaymentFailedEmail,
   sendPaymentReminderEmail,
-  sendServiceSuspendedEmail
+  sendServiceSuspendedEmail,
+  sendSubscriptionUpgradeEmail
 } from '@/lib/email';
 
 export const dynamic = 'force-dynamic';
@@ -345,28 +346,44 @@ async function handleInvoicePaid(invoice: Stripe.Invoice) {
   });
 
   // Send payment receipt email
-  const subscription = await prisma.subscription.findUnique({
+  // Note: There's a race condition where invoice.paid can arrive before subscription is created
+  // We retry a few times with a short delay to handle this
+  let subscription = await prisma.subscription.findUnique({
     where: { userId: user.id },
   });
 
-  if (subscription) {
-    console.log(`📧 Sending payment receipt email to ${user.email}`);
-    sendPaymentReceiptEmail({
-      email: user.email,
-      firstName: user.firstName || '',
-      invoiceNumber: invoice.number || invoice.id || `INV-${Date.now()}`,
-      amount: invoice.amount_paid / 100,
-      currency: invoice.currency,
-      date: new Date().toLocaleDateString(),
-      plan: subscription.planName,
-      billingPeriod: subscription.billingInterval || 'monthly',
-      paymentMethod: 'Card',
-      invoiceUrl: invoice.hosted_invoice_url || undefined,
-      language: user.language || 'en',
-    }).catch(error => {
-      console.error('❌ Failed to send payment receipt email:', error);
-    });
+  // Retry up to 3 times with 500ms delay if subscription not found (race condition with checkout.session.completed)
+  if (!subscription) {
+    console.log(`⏳ Subscription not found for user ${user.id}, retrying...`);
+    for (let i = 0; i < 3; i++) {
+      await new Promise(resolve => setTimeout(resolve, 500));
+      subscription = await prisma.subscription.findUnique({
+        where: { userId: user.id },
+      });
+      if (subscription) {
+        console.log(`✅ Subscription found on retry ${i + 1}`);
+        break;
+      }
+    }
   }
+
+  // Send email even if subscription not found - use fallback values
+  console.log(`📧 Sending payment receipt email to ${user.email}`);
+  sendPaymentReceiptEmail({
+    email: user.email,
+    firstName: user.firstName || '',
+    invoiceNumber: invoice.number || invoice.id || `INV-${Date.now()}`,
+    amount: invoice.amount_paid / 100,
+    currency: invoice.currency,
+    date: new Date().toLocaleDateString(),
+    plan: subscription?.planName || 'Subscription',
+    billingPeriod: subscription?.billingInterval || 'monthly',
+    paymentMethod: 'Card',
+    invoiceUrl: invoice.hosted_invoice_url || undefined,
+    language: user.language || 'en',
+  }).catch(error => {
+    console.error('❌ Failed to send payment receipt email:', error);
+  });
 }
 
 // Handle failed invoice payment with enhanced dunning logic
@@ -701,6 +718,22 @@ async function updateUserSubscription(userId: string, subscription: Stripe.Subsc
       },
     });
     console.log(`✅ Subscription record upserted in database with ID: ${subscriptionRecord.id}`);
+
+    // Send subscription upgrade confirmation email for new subscriptions or upgrades
+    if (isUpgrade && currentUser) {
+      console.log(`📧 Sending subscription upgrade email to ${currentUser.email}`);
+      const dashboardUrl = `${process.env.NEXT_PUBLIC_APP_URL}/dashboard`;
+
+      sendSubscriptionUpgradeEmail({
+        email: currentUser.email,
+        firstName: currentUser.firstName || '',
+        language: currentUser.language || 'en',
+        oldPlan: oldTier === 'free' ? 'Free' : oldTier === 'core' ? 'Core' : 'Full',
+        newPlan: tier === 'core' ? 'Core' : 'Full',
+      }).catch(error => {
+        console.error('❌ Failed to send subscription upgrade email:', error);
+      });
+    }
   } catch (error) {
     console.error('❌ Error updating database:', error);
     throw error;

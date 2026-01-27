@@ -232,6 +232,105 @@ If migrating image library to isolated storage for the first time:
 
 ---
 
+## STRIPE PROTECTION - ABSOLUTE RULES
+
+**Stripe is in LIVE MODE - real money is involved!**
+
+### Current Working Configuration
+
+| Protection | Location |
+|------------|----------|
+| **Immutable Backup** | `/opt/lessoncraftstudio/stripe-backup/stripe-config.backup` (chattr +i) |
+| **PM2 Ecosystem** | `/opt/lessoncraftstudio/frontend/ecosystem.config.js` |
+| **Database Triggers** | Prevent TRUNCATE on users/subscriptions tables |
+
+### Multi-Layer Protection System
+
+| Layer | Protection | How It Works |
+|-------|------------|--------------|
+| 1 | **Immutable Backup** | `stripe-config.backup` with chattr +i flag |
+| 2 | **PM2 Ecosystem Config** | Stripe vars loaded separately from .env files |
+| 3 | **Database Triggers** | Prevent TRUNCATE on users and subscriptions tables |
+| 4 | **Audit Triggers** | Log all stripe_customer_id changes |
+| 5 | **CLAUDE.md Rules** | Explicit NEVER commands below |
+
+### NEVER DO LIST - STRIPE
+
+**Claude must NEVER run these commands without EXPLICIT user request:**
+
+```bash
+# NEVER modify Stripe environment variables
+sed -i '.*STRIPE.*' /opt/lessoncraftstudio/frontend/.env*
+echo "STRIPE_" >> .env*
+
+# NEVER delete ecosystem config
+rm /opt/lessoncraftstudio/frontend/ecosystem.config.js
+
+# NEVER unlock immutable backup
+chattr -i /opt/lessoncraftstudio/stripe-backup/stripe-config.backup
+```
+
+```sql
+-- NEVER clear customer data in bulk
+UPDATE users SET stripe_customer_id = NULL;
+DELETE FROM users WHERE stripe_customer_id IS NOT NULL;
+TRUNCATE users;
+
+-- NEVER delete subscriptions in bulk
+DELETE FROM subscriptions;
+TRUNCATE subscriptions;
+
+-- NEVER clear payment history
+DELETE FROM payments;
+TRUNCATE payments;
+```
+
+### Safe Operations
+
+These operations ARE safe:
+```bash
+# READ Stripe config - safe
+cat /opt/lessoncraftstudio/stripe-backup/stripe-config.backup
+cat /opt/lessoncraftstudio/frontend/ecosystem.config.js
+
+# Query subscription data - safe
+SELECT * FROM subscriptions WHERE user_id = 'specific-user-id';
+SELECT * FROM payments WHERE user_id = 'specific-user-id';
+
+# Create checkout sessions - safe (handled by API)
+# Process webhook events - safe (handled by API)
+# Query subscription status - safe (handled by API)
+```
+
+### Recovery Procedure
+
+If Stripe breaks, restore from immutable backup:
+```bash
+# View correct values (backup is read-only while immutable)
+"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "cat /opt/lessoncraftstudio/stripe-backup/stripe-config.backup"
+
+# To restore (requires explicit user permission):
+# 1. Unlock: chattr -i /opt/lessoncraftstudio/stripe-backup/stripe-config.backup
+# 2. Copy values to .env.production
+# 3. Re-lock: chattr +i /opt/lessoncraftstudio/stripe-backup/stripe-config.backup
+# 4. Restart PM2: pm2 restart ecosystem.config.js
+```
+
+### Verification Commands
+
+```bash
+# Check backup exists and is immutable
+"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "lsattr /opt/lessoncraftstudio/stripe-backup/stripe-config.backup"
+
+# Check ecosystem config exists
+"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "ls -la /opt/lessoncraftstudio/frontend/ecosystem.config.js"
+
+# Check database triggers exist
+"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "PGPASSWORD='LcS2025SecureDBPass' psql -U lcs_user -d lessoncraftstudio_prod -c \"SELECT tgname FROM pg_trigger WHERE tgname LIKE '%stripe%' OR tgname LIKE '%truncate%';\""
+```
+
+---
+
 ## BACKUP PROCEDURES
 
 ### Automated Backups (Cron)
@@ -316,6 +415,9 @@ curl -I "https://www.lessoncraftstudio.com/samples/english/addition/sample-1.jpe
 - **NEVER** run `rm -rf` on any image or sample directories
 - **NEVER** run `chattr -i` on protected files without explicit user request
 - **NEVER** run `git add .` in project root (could include samples/images)
+- **NEVER** modify Stripe environment variables without explicit user request
+- **NEVER** run TRUNCATE or bulk DELETE on users or subscriptions tables
+- **NEVER** delete or modify `/opt/lessoncraftstudio/stripe-backup/`
 
 ## Reference Folders (Source of Truth)
 - `REFERENCE APPS/` - 33 worksheet generator HTML files

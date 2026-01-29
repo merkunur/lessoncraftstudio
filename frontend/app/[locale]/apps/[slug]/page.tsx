@@ -596,6 +596,11 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
         images: ogImages.map(img => img.url),
         site: '@LessonCraftStudio',
       },
+      // Pinterest Rich Pin meta tags
+      other: {
+        'pinterest:description': content.seo.description,
+        'pinterest:url': canonicalUrl,
+      },
     };
   }
 

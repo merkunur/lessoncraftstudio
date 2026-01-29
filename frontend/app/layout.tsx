@@ -4,6 +4,7 @@ import { cookies } from 'next/headers';
 import './globals.css';
 import { Providers } from './providers';
 import { SUPPORTED_LOCALES, DEFAULT_LOCALE, isValidLocale } from '@/config/locales';
+import { PinterestTag } from '@/components/tracking';
 
 const inter = Inter({
   subsets: ['latin'],
@@ -76,6 +77,9 @@ export default function RootLayout({
   return (
     <html lang={lang}>
       <head>
+        {/* Pinterest domain verification */}
+        <meta name="p:domain_verify" content="34709a2d6e6ac6f75758fd66a8c50cbf" />
+
         {/* Resource hints for improved performance */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
@@ -95,6 +99,8 @@ export default function RootLayout({
         <Providers>
           {children}
         </Providers>
+        {/* Pinterest conversion tracking */}
+        <PinterestTag />
       </body>
     </html>
   );

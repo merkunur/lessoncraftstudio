@@ -149,9 +149,19 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         return [];
       }
 
-      // SEO FIX: Blog posts are ORIGINAL content - no hreflang alternates
-      // Each of 1,232 blog posts is independent, not a translation of another language version
-      // This allows each post to build its own SEO authority and rank independently
+      // Generate hreflang alternates for blog posts
+      // Blog posts are translations (shared database record, same metadata)
+      // Proper hreflang ensures bidirectional linking as required by Google
+      const blogAlternates: Record<string, string> = {};
+      for (const lang of availableLocales) {
+        const langSlug = translations[lang]?.slug || post.slug;
+        const hreflangCode = getHreflangCode(lang);
+        blogAlternates[hreflangCode] = `${baseUrl}/${lang}/blog/${langSlug}`;
+      }
+      // Add x-default pointing to English version if available
+      if (translations['en']?.slug || post.slug) {
+        blogAlternates['x-default'] = `${baseUrl}/en/blog/${translations['en']?.slug || post.slug}`;
+      }
 
       return availableLocales.map((locale) => {
         // Use language-specific slug
@@ -162,7 +172,9 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
           lastModified: post.updatedAt,
           changeFrequency: 'weekly' as const,
           priority: calculateBlogPriority(post),
-          // NO alternates - each blog post is independent original content
+          alternates: {
+            languages: blogAlternates,
+          },
         };
       });
     });

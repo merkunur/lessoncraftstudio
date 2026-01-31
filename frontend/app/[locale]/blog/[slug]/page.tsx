@@ -2,7 +2,7 @@ import { notFound, redirect } from 'next/navigation';
 import Link from 'next/link';
 import { cache } from 'react';
 import { prisma } from '@/lib/prisma';
-import { generateBlogSchemas, ogLocaleMap } from '@/lib/schema-generator';
+import { generateBlogSchemas, ogLocaleMap, getHreflangCode } from '@/lib/schema-generator';
 import { analyzeContent, generateFAQSchema, generateHowToSchema } from '@/lib/content-analyzer';
 import Breadcrumb from '@/components/Breadcrumb';
 import { SUPPORTED_LOCALES } from '@/config/locales';
@@ -960,18 +960,32 @@ export async function generateMetadata({ params }: BlogPostPageProps) {
     const localeSlug = translation.slug || post.slug;
     const canonicalUrl = `${baseUrl}/${locale}/blog/${localeSlug}`;
 
-    // SEO FIX: Blog posts are ORIGINAL content in each language, NOT translations
-    // Removing hreflang alternates so Google indexes each of 1,232 posts independently
-    // Each post builds its own SEO authority instead of being treated as a translation
+    // Generate hreflang alternates for all available translations
+    // This ensures proper bidirectional linking as required by Google
+    // Blog posts ARE translations (shared database record, same metadata)
+    // Hreflang helps Google serve the right language version to each user
+    const languageAlternates: Record<string, string> = {};
+    for (const lang of SUPPORTED_LOCALES) {
+      const langTranslation = translations[lang];
+      // Only include languages that have actual translated content
+      if (langTranslation?.title && langTranslation?.content) {
+        const langSlug = langTranslation.slug || post.slug;
+        const hreflangCode = getHreflangCode(lang);
+        languageAlternates[hreflangCode] = `${baseUrl}/${lang}/blog/${langSlug}`;
+      }
+    }
+    // Add x-default pointing to English version
+    languageAlternates['x-default'] = `${baseUrl}/en/blog/${translations['en']?.slug || post.slug}`;
 
     return {
       title,
       description,
       keywords,
-      // AUTOMATED: Canonical URL (prevents duplicate content penalties)
-      // NO languages/hreflang - each blog post is independent original content
+      // AUTOMATED: Canonical URL and hreflang alternates
+      // Hreflang ensures bidirectional linking for proper multilingual SEO
       alternates: {
         canonical: canonicalUrl,
+        languages: languageAlternates,
       },
       // AUTOMATED: Open Graph tags (Facebook, LinkedIn, etc.)
       openGraph: {

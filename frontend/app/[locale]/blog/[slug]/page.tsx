@@ -64,7 +64,7 @@ function generateAltText(
 // Shared in-memory slug cache for fast lookups (maps any slug -> primary slug)
 let slugCache: Map<string, string> | null = null;
 let cacheTimestamp: number = 0;
-const SLUG_CACHE_TTL = 5 * 60 * 1000; // 5 minutes (reduced for faster updates)
+const SLUG_CACHE_TTL = 30 * 60 * 1000; // 30 minutes (aligned with ISR revalidation)
 
 /**
  * Build/refresh the slug cache
@@ -461,17 +461,18 @@ export default async function BlogPostPage({
   // AUTO-DETECT FAQ and HowTo patterns for rich snippets
   const contentAnalysis = analyzeContent(htmlContent, translation.title || '');
 
-  // Generate FAQ schema if Q&A patterns detected
+  // Generate FAQ schema if Q&A patterns detected (with locale for inLanguage)
   const faqSchema = contentAnalysis.hasFAQ
-    ? generateFAQSchema(contentAnalysis.faqItems)
+    ? generateFAQSchema(contentAnalysis.faqItems, locale)
     : null;
 
-  // Generate HowTo schema if step-by-step patterns detected
+  // Generate HowTo schema if step-by-step patterns detected (with locale for inLanguage)
   const howToSchema = contentAnalysis.hasHowTo && contentAnalysis.howToName
     ? generateHowToSchema(
         contentAnalysis.howToName,
         contentAnalysis.howToDescription || '',
-        contentAnalysis.howToSteps
+        contentAnalysis.howToSteps,
+        locale
       )
     : null;
 

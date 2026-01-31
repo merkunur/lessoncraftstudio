@@ -166,9 +166,18 @@ export function analyzeContent(htmlContent: string, pageTitle: string = ''): Con
 
 /**
  * Generate FAQPage schema markup
+ * @param faqItems - Array of FAQ items
+ * @param locale - Locale code for inLanguage property
  */
-export function generateFAQSchema(faqItems: FAQItem[]): object | null {
+export function generateFAQSchema(faqItems: FAQItem[], locale: string = 'en'): object | null {
   if (faqItems.length < 2) return null;
+
+  // Convert locale to proper hreflang format for regional variants
+  const hreflangMap: Record<string, string> = {
+    en: 'en', de: 'de', fr: 'fr', es: 'es-MX', pt: 'pt-BR',
+    it: 'it', nl: 'nl', sv: 'sv', da: 'da', no: 'no', fi: 'fi'
+  };
+  const inLanguage = hreflangMap[locale] || locale;
 
   return {
     "@context": "https://schema.org",
@@ -180,20 +189,34 @@ export function generateFAQSchema(faqItems: FAQItem[]): object | null {
         "@type": "Answer",
         "text": item.answer
       }
-    }))
+    })),
+    "inLanguage": inLanguage
   };
 }
 
 /**
  * Generate HowTo schema markup
+ * @param name - Name of the how-to guide
+ * @param description - Description of the how-to
+ * @param steps - Array of how-to steps
+ * @param locale - Locale code for inLanguage property
+ * @param totalTime - Optional ISO 8601 duration string
  */
 export function generateHowToSchema(
   name: string,
   description: string,
   steps: HowToStep[],
+  locale: string = 'en',
   totalTime?: string
 ): object | null {
   if (steps.length < 3) return null;
+
+  // Convert locale to proper hreflang format for regional variants
+  const hreflangMap: Record<string, string> = {
+    en: 'en', de: 'de', fr: 'fr', es: 'es-MX', pt: 'pt-BR',
+    it: 'it', nl: 'nl', sv: 'sv', da: 'da', no: 'no', fi: 'fi'
+  };
+  const inLanguage = hreflangMap[locale] || locale;
 
   const schema: any = {
     "@context": "https://schema.org",
@@ -205,7 +228,8 @@ export function generateHowToSchema(
       "name": step.name,
       "text": step.text,
       "position": step.position
-    }))
+    })),
+    "inLanguage": inLanguage
   };
 
   if (totalTime) {

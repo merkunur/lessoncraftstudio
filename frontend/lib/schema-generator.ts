@@ -32,6 +32,35 @@ interface BlogPostData {
 export function generateBlogSchemas(post: BlogPostData, locale: string, baseUrl: string = getBaseUrl()) {
   const schemas: any[] = [];
 
+  // Localized breadcrumb labels for blog schema
+  const blogHomeLabel: Record<string, string> = {
+    en: "Home",
+    de: "Startseite",
+    fr: "Accueil",
+    es: "Inicio",
+    pt: "Início",
+    it: "Home",
+    nl: "Home",
+    sv: "Hem",
+    da: "Hjem",
+    no: "Hjem",
+    fi: "Etusivu"
+  };
+
+  const blogLabel: Record<string, string> = {
+    en: "Blog",
+    de: "Blog",
+    fr: "Blog",
+    es: "Blog",
+    pt: "Blog",
+    it: "Blog",
+    nl: "Blog",
+    sv: "Blogg",
+    da: "Blog",
+    no: "Blogg",
+    fi: "Blogi"
+  };
+
   const postUrl = `${baseUrl}/${locale}/blog/${post.slug}`;
   const title = post.metaTitle || post.title;
   const description = post.metaDescription || post.excerpt || '';
@@ -61,7 +90,7 @@ export function generateBlogSchemas(post: BlogPostData, locale: string, baseUrl:
         "@type": "ImageObject",
         "url": `${baseUrl}/logo-lcs.png`,
         "width": 600,
-        "height": 60
+        "height": 600
       }
     },
     "datePublished": post.createdAt.toISOString(),
@@ -70,9 +99,11 @@ export function generateBlogSchemas(post: BlogPostData, locale: string, baseUrl:
       "@type": "WebPage",
       "@id": postUrl
     },
-    "keywords": post.focusKeyword || post.keywords?.join(', ') || '',
+    ...(post.focusKeyword || post.keywords?.length ? {
+      "keywords": post.focusKeyword || post.keywords?.join(', ')
+    } : {}),
     "articleSection": post.category || 'Education',
-    "inLanguage": locale,
+    "inLanguage": getHreflangCode(locale),
     "about": {
       "@type": "Thing",
       "name": post.category || 'Educational Resources'
@@ -81,7 +112,7 @@ export function generateBlogSchemas(post: BlogPostData, locale: string, baseUrl:
 
   schemas.push(articleSchema);
 
-  // 2. Breadcrumb Schema
+  // 2. Breadcrumb Schema (localized labels)
   const breadcrumbSchema = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -89,20 +120,20 @@ export function generateBlogSchemas(post: BlogPostData, locale: string, baseUrl:
       {
         "@type": "ListItem",
         "position": 1,
-        "name": "Home",
+        "name": blogHomeLabel[locale] || "Home",
         "item": `${baseUrl}/${locale}`
       },
       {
         "@type": "ListItem",
         "position": 2,
-        "name": "Blog",
+        "name": blogLabel[locale] || "Blog",
         "item": `${baseUrl}/${locale}/blog`
       },
       {
         "@type": "ListItem",
         "position": 3,
-        "name": post.title,
-        "item": postUrl
+        "name": post.title
+        // No "item" property for current page (Google spec)
       }
     ]
   };
@@ -119,7 +150,7 @@ export function generateBlogSchemas(post: BlogPostData, locale: string, baseUrl:
     "educationalUse": "assignment",
     "educationalLevel": "Elementary School",
     "learningResourceType": "Educational Article",
-    "inLanguage": locale,
+    "inLanguage": getHreflangCode(locale),
     "isAccessibleForFree": true,
     "provider": {
       "@type": "Organization",
@@ -136,13 +167,12 @@ export function generateBlogSchemas(post: BlogPostData, locale: string, baseUrl:
   schemas.push(educationalSchema);
 
   // 4. ImageObject Schema (if featured image exists)
+  // Note: Removed hardcoded width/height - let Google detect actual image size
   if (post.featuredImage) {
     const imageSchema = {
       "@context": "https://schema.org",
       "@type": "ImageObject",
       "url": image,
-      "width": 1200,
-      "height": 630,
       "caption": title,
       "description": description
     };
@@ -151,18 +181,31 @@ export function generateBlogSchemas(post: BlogPostData, locale: string, baseUrl:
   }
 
   // 5. Organization Schema (for E-A-T signals)
+  // Localized organization descriptions
+  const localizedOrgDescriptions: Record<string, string> = {
+    en: "Free printable educational worksheets for elementary school teachers and parents",
+    de: "Kostenlose druckbare Arbeitsblätter für Grundschullehrer und Eltern",
+    fr: "Fiches éducatives imprimables gratuites pour enseignants et parents",
+    es: "Fichas educativas imprimibles gratuitas para maestros y padres",
+    pt: "Planilhas educativas imprimíveis gratuitas para professores e pais",
+    it: "Schede didattiche stampabili gratuite per insegnanti e genitori",
+    nl: "Gratis afdrukbare educatieve werkbladen voor leerkrachten en ouders",
+    sv: "Gratis utskrivbara pedagogiska arbetsblad för lärare och föräldrar",
+    da: "Gratis printbare pædagogiske arbejdsark til lærere og forældre",
+    no: "Gratis utskrivbare pedagogiske arbeidsark for lærere og foreldre",
+    fi: "Ilmaiset tulostettavat opetustyöarkit opettajille ja vanhemmille"
+  };
+
   const organizationSchema = {
     "@context": "https://schema.org",
     "@type": "EducationalOrganization",
     "name": "LessonCraftStudio",
     "url": `${baseUrl}/${locale}`,
     "logo": `${baseUrl}/logo-lcs.png`,
-    "sameAs": [
-      // Add social media profiles here when available
-    ],
-    "description": "Free printable educational worksheets for elementary school teachers and parents",
+    // sameAs removed - empty array is invalid JSON-LD
+    "description": localizedOrgDescriptions[locale] || localizedOrgDescriptions.en,
     "areaServed": "Worldwide",
-    "availableLanguage": ["en", "de", "fr", "es", "pt", "it", "nl", "sv", "da", "no", "fi"]
+    "availableLanguage": ["English", "German", "French", "Spanish", "Portuguese", "Italian", "Dutch", "Swedish", "Danish", "Norwegian", "Finnish"]
   };
 
   schemas.push(organizationSchema);
@@ -185,7 +228,7 @@ export function generateFAQSchema(faqs: Array<{question: string; answer: string}
         "text": faq.answer
       }
     })),
-    "inLanguage": locale
+    "inLanguage": getHreflangCode(locale)
   };
 }
 
@@ -209,7 +252,7 @@ export function generateHowToSchema(
       "name": step.name,
       "text": step.text
     })),
-    "inLanguage": locale
+    "inLanguage": getHreflangCode(locale)
   };
 }
 
@@ -230,12 +273,12 @@ export function generateHomepageSchemas(locale: string, baseUrl: string = getBas
       "@type": "ImageObject",
       "url": `${baseUrl}/logo-lcs.png`,
       "width": 600,
-      "height": 60
+      "height": 600
     },
     "description": "Professional worksheet generators for teachers and educators. Create customized educational materials in seconds.",
     "areaServed": "Worldwide",
-    "availableLanguage": [...SUPPORTED_LOCALES],
-    "sameAs": []
+    "availableLanguage": ["English", "German", "French", "Spanish", "Portuguese", "Italian", "Dutch", "Swedish", "Danish", "Norwegian", "Finnish"]
+    // sameAs removed - empty array is invalid JSON-LD
   };
   schemas.push(organizationSchema);
 
@@ -246,7 +289,7 @@ export function generateHomepageSchemas(locale: string, baseUrl: string = getBas
     "name": "LessonCraftStudio",
     "url": baseUrl,
     "description": "Free worksheet generators for teachers and parents",
-    "inLanguage": locale,
+    "inLanguage": getHreflangCode(locale),
     "potentialAction": {
       "@type": "SearchAction",
       "target": {
@@ -325,7 +368,7 @@ export function generateAppsCollectionSchema(locale: string, baseUrl: string = g
     "description": localizedDescriptions[locale] || localizedDescriptions.en,
     "url": `${baseUrl}/${locale}/apps`,
     "numberOfItems": 33,
-    "inLanguage": locale,
+    "inLanguage": getHreflangCode(locale),
     "isPartOf": {
       "@type": "WebSite",
       "name": "LessonCraftStudio",
@@ -651,7 +694,7 @@ export function generateProductPageFAQSchema(
         "text": faq.answer
       }
     })),
-    "inLanguage": locale
+    "inLanguage": getHreflangCode(locale)
   };
 }
 
@@ -688,7 +731,7 @@ export function generateProductPageHowToSchema(
       "text": step.text,
       ...(step.image && { "image": step.image })
     })),
-    "inLanguage": locale
+    "inLanguage": getHreflangCode(locale)
   };
 }
 
@@ -808,7 +851,7 @@ export function generateImageGallerySchema(
     "name": galleryName,
     "url": pageUrl,
     "numberOfItems": images.length,
-    "inLanguage": locale,
+    "inLanguage": getHreflangCode(locale),
     "image": images.map(img => ({
       "@type": "ImageObject",
       "contentUrl": `${baseUrl}${img.src.replace(/ /g, '%20')}`,
@@ -988,7 +1031,7 @@ export function generateAppProductSchemas(
       "name": "LessonCraftStudio",
       "url": baseUrl
     },
-    "inLanguage": locale,
+    "inLanguage": getHreflangCode(locale),
     "isAccessibleForFree": appData.tier === 'free',
     "audience": {
       "@type": "EducationalAudience",
@@ -1038,7 +1081,7 @@ export function generateAppProductSchemas(
     "name": appData.name,
     "description": appData.description,
     "url": pageUrl,
-    "inLanguage": locale,
+    "inLanguage": getHreflangCode(locale),
     // E-A-T: Publication dates signal content freshness
     "datePublished": "2024-01-01", // Site launch date
     "dateModified": currentDate,   // Current date for freshness signal
@@ -1049,7 +1092,7 @@ export function generateAppProductSchemas(
       "url": baseUrl,
       "logo": {
         "@type": "ImageObject",
-        "url": `${baseUrl}/logo.png`
+        "url": `${baseUrl}/logo-lcs.png`
       }
     },
     "publisher": {
@@ -1058,7 +1101,7 @@ export function generateAppProductSchemas(
       "url": baseUrl,
       "logo": {
         "@type": "ImageObject",
-        "url": `${baseUrl}/logo.png`
+        "url": `${baseUrl}/logo-lcs.png`
       }
     },
     "isPartOf": {
@@ -1134,7 +1177,7 @@ export function generateCourseSchema(
       }
     },
     "educationalLevel": educationalLevel,
-    "inLanguage": locale,
+    "inLanguage": getHreflangCode(locale),
     "isAccessibleForFree": true,
     "courseMode": "online",
     "teaches": post.keywords?.join(', ') || post.category || 'Educational content',

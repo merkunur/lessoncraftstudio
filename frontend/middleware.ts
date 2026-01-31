@@ -68,7 +68,14 @@ const intlMiddleware = createMiddleware({
   defaultLocale,
 
   // Always use a locale prefix in the URL
-  localePrefix: 'always'
+  localePrefix: 'always',
+
+  // CRITICAL SEO FIX: Disable automatic HTTP Link header generation
+  // The default behavior generates hreflang with SAME slug for all languages,
+  // but blog posts have LOCALIZED slugs (e.g., /en/blog/math-tips vs /de/blog/mathe-tipps)
+  // We provide correct hreflang via generateMetadata() in page.tsx instead
+  // See: https://next-intl.dev/docs/routing/configuration#alternate-links
+  alternateLinks: false
 });
 
 // Helper function to continue with intl middleware and set locale cookie

@@ -115,30 +115,22 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     });
 
     /**
-     * Calculate dynamic priority for blog posts based on content quality signals
-     * - Featured posts: 0.7 (highest quality, editorially chosen)
-     * - Posts with PDFs: 0.6 (high value - downloadable content)
-     * - Recent posts (<30 days): 0.6 (fresh content)
-     * - Standard posts: 0.5 (default)
-     * - Old posts (>1 year): 0.4 (stale content)
+     * Blog posts are high-priority original content - minimum 0.9
+     * SEO FIX: Each of 1,232 blog posts is original content, not a translation
+     * Higher priority signals importance to Google
+     * - Featured posts: 1.0 (highest quality, editorially chosen)
+     * - Posts with PDFs: 0.95 (high value - downloadable content)
+     * - All other posts: 0.9 (minimum priority for original content)
      */
     function calculateBlogPriority(post: { featured?: boolean; _count?: { pdfs: number }; createdAt: Date }): number {
       // Featured posts get highest priority
-      if (post.featured) return 0.7;
+      if (post.featured) return 1.0;
 
       // Posts with downloadable PDFs are high value
-      if (post._count && post._count.pdfs > 0) return 0.6;
+      if (post._count && post._count.pdfs > 0) return 0.95;
 
-      const ageInDays = Math.floor((currentDate.getTime() - post.createdAt.getTime()) / (1000 * 60 * 60 * 24));
-
-      // Recent posts (less than 30 days) get higher priority
-      if (ageInDays < 30) return 0.6;
-
-      // Old posts (more than 365 days) get lower priority
-      if (ageInDays > 365) return 0.4;
-
-      // Standard posts
-      return 0.5;
+      // All blog posts are original content, minimum 0.9 priority
+      return 0.9;
     }
 
     // Generate sitemap entries for each blog post ONLY in locales with actual translations
@@ -157,20 +149,9 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         return [];
       }
 
-      // Build alternates map ONLY for locales with actual translations
-      // Uses regional hreflang codes (pt-BR, es-MX) for better SEO in target markets
-      const blogAlternates: Record<string, string> = {};
-      for (const lang of availableLocales) {
-        const langSlug = translations[lang]?.slug || post.slug;
-        // Use proper hreflang code (e.g., pt-BR, es-MX) as the key
-        const hreflangCode = getHreflangCode(lang);
-        blogAlternates[hreflangCode] = `${baseUrl}/${lang}/blog/${langSlug}`;
-      }
-
-      // Add x-default pointing to first available locale (usually English if present)
-      const defaultLocale = availableLocales.includes('en') ? 'en' : availableLocales[0];
-      const defaultHreflang = getHreflangCode(defaultLocale);
-      blogAlternates['x-default'] = blogAlternates[defaultHreflang];
+      // SEO FIX: Blog posts are ORIGINAL content - no hreflang alternates
+      // Each of 1,232 blog posts is independent, not a translation of another language version
+      // This allows each post to build its own SEO authority and rank independently
 
       return availableLocales.map((locale) => {
         // Use language-specific slug
@@ -180,10 +161,8 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
           url: `${baseUrl}/${locale}/blog/${localeSlug}`,
           lastModified: post.updatedAt,
           changeFrequency: 'weekly' as const,
-          priority: calculateBlogPriority(post), // Dynamic priority based on content quality
-          alternates: {
-            languages: blogAlternates,
-          },
+          priority: calculateBlogPriority(post),
+          // NO alternates - each blog post is independent original content
         };
       });
     });

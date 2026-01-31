@@ -2,7 +2,7 @@ import { notFound, redirect } from 'next/navigation';
 import Link from 'next/link';
 import { cache } from 'react';
 import { prisma } from '@/lib/prisma';
-import { generateBlogSchemas, getHreflangCode, ogLocaleMap } from '@/lib/schema-generator';
+import { generateBlogSchemas, ogLocaleMap } from '@/lib/schema-generator';
 import { analyzeContent, generateFAQSchema, generateHowToSchema } from '@/lib/content-analyzer';
 import Breadcrumb from '@/components/Breadcrumb';
 import { SUPPORTED_LOCALES } from '@/config/locales';
@@ -960,36 +960,18 @@ export async function generateMetadata({ params }: BlogPostPageProps) {
     const localeSlug = translation.slug || post.slug;
     const canonicalUrl = `${baseUrl}/${locale}/blog/${localeSlug}`;
 
-    // Build language alternates ONLY for locales with actual translations (Bug 1 fix)
-    // Uses proper hreflang codes (pt-BR, es-MX) for regional targeting (SEO fix)
-    const languageAlternates: { [key: string]: string } = {};
-    const locales = [...SUPPORTED_LOCALES];
-
-    for (const lang of locales) {
-      const langTranslation = translations[lang];
-      // ONLY include if translation has actual content (title AND content required)
-      if (langTranslation?.title && langTranslation?.content) {
-        const langSlug = langTranslation.slug || post.slug;
-        // Use proper hreflang code (e.g., pt-BR, es-MX) as the key
-        const hreflangCode = getHreflangCode(lang);
-        languageAlternates[hreflangCode] = `${baseUrl}/${lang}/blog/${langSlug}`;
-      }
-    }
-
-    // Add x-default pointing to English (or first available locale) (Bug 2 fix)
-    const defaultHreflang = languageAlternates['en'] ? 'en' : Object.keys(languageAlternates)[0];
-    if (defaultHreflang) {
-      languageAlternates['x-default'] = languageAlternates[defaultHreflang];
-    }
+    // SEO FIX: Blog posts are ORIGINAL content in each language, NOT translations
+    // Removing hreflang alternates so Google indexes each of 1,232 posts independently
+    // Each post builds its own SEO authority instead of being treated as a translation
 
     return {
       title,
       description,
       keywords,
       // AUTOMATED: Canonical URL (prevents duplicate content penalties)
+      // NO languages/hreflang - each blog post is independent original content
       alternates: {
         canonical: canonicalUrl,
-        languages: languageAlternates
       },
       // AUTOMATED: Open Graph tags (Facebook, LinkedIn, etc.)
       openGraph: {

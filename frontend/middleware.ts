@@ -83,6 +83,8 @@ function continueWithIntlMiddleware(
   // Set locale cookie for root layout to detect language for SEO (html lang attribute)
   if (response instanceof NextResponse) {
     response.headers.set('x-pathname', pathname);
+    // SEO: Content-Language header strengthens language signal for crawlers
+    response.headers.set('Content-Language', detectedLocale);
     response.cookies.set('NEXT_LOCALE', detectedLocale, {
       path: '/',
       sameSite: 'lax',

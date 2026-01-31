@@ -14,7 +14,7 @@ export const crosswordEnContent: ProductPageContent = {
   // SEO metadata for proper title, description, and keywords
   seo: {
     slug: 'crossword-worksheets',
-    appId: 'image-crossword',
+    appId: 'crossword',
     title: 'Crossword Worksheets for Kids Free Printable | Puzzle Generator',
     description: 'Create crossword puzzles and vocabulary worksheets for kindergarten with our free worksheet generator. Download spelling worksheets PDF in 3 minutes. Try now!',
     keywords: 'crossword worksheets, crossword for kids, crossword puzzles, vocabulary worksheets, spelling worksheets, word puzzle worksheets, crossword for kindergarten, free printable worksheets, free worksheet for kids, picture crossword',

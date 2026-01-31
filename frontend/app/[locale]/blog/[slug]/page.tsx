@@ -443,7 +443,7 @@ export default async function BlogPostPage({
 
   // Generate SEO Schema Markup (AUTOMATED)
   const schemas = generateBlogSchemas({
-    slug: post.slug,
+    slug: localeSlug,
     title: translation.title || '',
     metaTitle: translation.metaTitle,
     metaDescription: translation.metaDescription,

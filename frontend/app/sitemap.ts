@@ -137,11 +137,11 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     blogRoutes = blogPosts.flatMap((post) => {
       const translations = post.translations as any;
 
-      // Only include locales that have actual translation content (title AND slug must exist)
+      // Only include locales that have actual translation content (title required, slug has fallback)
       const availableLocales = locales.filter((locale) => {
         const translation = translations[locale];
-        // Require at least title and slug for a valid translation
-        return translation?.title && translation?.slug;
+        // Require title for valid translation; slug can fallback to primary slug (line 168)
+        return translation?.title && (translation?.slug || post.slug);
       });
 
       // If no translations exist, skip this post entirely

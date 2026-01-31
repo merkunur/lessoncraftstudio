@@ -4,7 +4,7 @@ import { cookies } from 'next/headers';
 import './globals.css';
 import { Providers } from './providers';
 import { SUPPORTED_LOCALES, DEFAULT_LOCALE, isValidLocale } from '@/config/locales';
-import { PinterestTag, GoogleAdsTag } from '@/components/tracking';
+import { PinterestTag } from '@/components/tracking';
 
 const inter = Inter({
   subsets: ['latin'],
@@ -101,7 +101,6 @@ export default function RootLayout({
         </Providers>
         {/* Conversion tracking */}
         <PinterestTag />
-        <GoogleAdsTag />
       </body>
     </html>
   );

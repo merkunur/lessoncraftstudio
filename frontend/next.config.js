@@ -1,5 +1,5 @@
 const createNextIntlPlugin = require('next-intl/plugin');
-const { generateProductPageRedirects } = require('./config/redirects.js');
+const { generateProductPageRedirects, generateLegacyAppIdRedirects } = require('./config/redirects.js');
 
 const withNextIntl = createNextIntlPlugin('./i18n/request.ts');
 
@@ -76,14 +76,22 @@ const nextConfig = {
   // DYNAMIC REDIRECTS: Product page redirects are now generated dynamically
   // from the product-page-slugs configuration instead of being hardcoded.
   // This reduces maintenance burden and ensures consistency.
+  //
+  // LEGACY REDIRECTS (SEO Recovery - Jan 2026):
+  // Redirects from legacy appId URLs (e.g., /en/apps/image-addition) to
+  // SEO-optimized slugs (e.g., /en/apps/addition-worksheets) to recover
+  // from impressions drop caused by noindex signals on legacy URLs.
   async redirects() {
     // Generate product page redirects dynamically
     const productRedirects = generateProductPageRedirects();
+    // Generate legacy appId redirects for SEO recovery
+    const legacyRedirects = generateLegacyAppIdRedirects();
 
     return [
       // Include all dynamically generated product page redirects
       ...productRedirects,
-
+      // Include legacy appId -> SEO slug redirects (SEO recovery)
+      ...legacyRedirects,
     ];
   },
 };

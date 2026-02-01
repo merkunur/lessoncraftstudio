@@ -4,7 +4,7 @@ import { ProductPageContent } from '@/components/product-page/ProductPageClient'
  * Word Search Worksheets - German Content
  *
  * File: frontend/content/product-pages/de/word-search-worksheets.ts
- * URL: /de/apps/suchsel-arbeitsblaetter (German SEO-optimized slug)
+ * URL: /de/apps/wortsuche-arbeitsblaetter (German SEO-optimized slug - matches sitemap)
  *
  * FULL SEO content from: INDIVIDUAL APP PAGES/German/wordsearch.md
  * DO NOT SHORTEN - Every paragraph is SEO-optimized
@@ -25,12 +25,12 @@ import { ProductPageContent } from '@/components/product-page/ProductPageClient'
 export const wordSearchDeContent: ProductPageContent = {
   // SEO Metadata - German language-specific
   seo: {
-    slug: 'suchsel-arbeitsblaetter',
+    slug: 'wortsuche-arbeitsblaetter',
     appId: 'wordsearch',
-    title: 'Suchsel Generator | Kostenlose Arbeitsblätter Grundschule erstellen',
-    description: 'Erstellen Sie kostenlose Suchsel-Arbeitsblätter für die Grundschule in 3 Minuten. Perfekt zum Buchstaben lernen. PDF-Download sofort. 11 Sprachen verfügbar.',
-    keywords: 'suchsel generator, arbeitsblätter grundschule, kostenlose arbeitsblätter, mathe arbeitsblätter, vorschule arbeitsblätter, buchstaben lernen, deutsch arbeitsblätter, einmaleins, schwungübungen, ausmalbilder',
-    canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/suchsel-arbeitsblaetter',
+    title: 'Wortsuche Generator | Kostenlose Arbeitsblätter Grundschule erstellen',
+    description: 'Erstellen Sie kostenlose Wortsuche-Arbeitsblätter für die Grundschule in 3 Minuten. Perfekt zum Buchstaben lernen. PDF-Download sofort. 11 Sprachen verfügbar.',
+    keywords: 'wortsuche generator, suchsel generator, arbeitsblätter grundschule, kostenlose arbeitsblätter, mathe arbeitsblätter, vorschule arbeitsblätter, buchstaben lernen, deutsch arbeitsblätter, einmaleins, schwungübungen, ausmalbilder',
+    canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/wortsuche-arbeitsblaetter',
       },
 
   // Hero Section - FULL text from wordsearch.md paragraphs 1-4

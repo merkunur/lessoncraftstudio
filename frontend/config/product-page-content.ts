@@ -576,9 +576,10 @@ export const contentRegistry: ContentRegistry = {
     'writing-worksheets': writingSvContent,
   },
   de: {
-    // German Word Search - uses German SEO slug
+    // German Word Search - uses German SEO slug (matches sitemap)
+    'wortsuche-arbeitsblaetter': wordSearchDeContent,
+    // Also keep old slugs for backwards compatibility
     'suchsel-arbeitsblaetter': wordSearchDeContent,
-    // Also keep old slug for backwards compatibility during transition
     'word-search-worksheets': wordSearchDeContent,
     // German Addition - uses German SEO slug
     'addition-arbeitsblaetter': additionDeContent,

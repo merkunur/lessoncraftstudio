@@ -1,4 +1,4 @@
-import { notFound, redirect } from 'next/navigation';
+import { notFound, permanentRedirect } from 'next/navigation';
 import Link from 'next/link';
 import { cache } from 'react';
 import { prisma } from '@/lib/prisma';
@@ -392,7 +392,7 @@ export default async function BlogPostPage({
 
     if (correctLocale && correctLocale !== locale) {
       // Slug belongs to a different language - redirect with 301
-      redirect(`/${correctLocale}/blog/${slug}`);
+      permanentRedirect(`/${correctLocale}/blog/${slug}`);
     }
 
     // Slug doesn't exist anywhere - show 404
@@ -415,11 +415,11 @@ export default async function BlogPostPage({
     const correctLocale = await findSlugLanguage(slug);
     if (correctLocale && correctLocale !== locale) {
       // Cross-locale access: redirect to correct locale with this slug
-      redirect(`/${correctLocale}/blog/${slug}`);
+      permanentRedirect(`/${correctLocale}/blog/${slug}`);
     }
     // Slug doesn't match locale but isn't found in other locales either
     // This could be an old slug - redirect to the correct slug for this locale
-    redirect(`/${locale}/blog/${localeSlug}`);
+    permanentRedirect(`/${locale}/blog/${localeSlug}`);
   }
 
   let htmlContent = translation.content || '';

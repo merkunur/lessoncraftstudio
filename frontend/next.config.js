@@ -1,5 +1,6 @@
 const createNextIntlPlugin = require('next-intl/plugin');
 const { generateProductPageRedirects, generateLegacyAppIdRedirects } = require('./config/redirects.js');
+const { generateBlogRedirects } = require('./config/blog-redirects.js');
 
 const withNextIntl = createNextIntlPlugin('./i18n/request.ts');
 
@@ -81,17 +82,25 @@ const nextConfig = {
   // Redirects from legacy appId URLs (e.g., /en/apps/image-addition) to
   // SEO-optimized slugs (e.g., /en/apps/addition-worksheets) to recover
   // from impressions drop caused by noindex signals on legacy URLs.
+  //
+  // BLOG REDIRECTS (SEO Recovery - Feb 2026):
+  // Redirects from old blog slugs (based on HTML filenames) to new SEO slugs
+  // (longer, more descriptive). This prevents 404 errors for Google-indexed URLs.
   async redirects() {
     // Generate product page redirects dynamically
     const productRedirects = generateProductPageRedirects();
     // Generate legacy appId redirects for SEO recovery
     const legacyRedirects = generateLegacyAppIdRedirects();
+    // Generate blog redirects from old slugs to new SEO slugs
+    const blogRedirects = generateBlogRedirects();
 
     return [
       // Include all dynamically generated product page redirects
       ...productRedirects,
       // Include legacy appId -> SEO slug redirects (SEO recovery)
       ...legacyRedirects,
+      // Include blog slug redirects (old -> new SEO slugs)
+      ...blogRedirects,
     ];
   },
 };

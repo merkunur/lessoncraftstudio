@@ -3,7 +3,7 @@
  *
  * Auto-generated mapping of old blog slugs to new SEO slugs.
  * Generated from: scripts/audit-blog-legacy-slugs.js
- * Generated: 2026-02-02T15:35:42.367Z
+ * Generated: 2026-02-02T15:37:09.467Z
  *
  * Includes both:
  * - HTML filename slugs (from original HTML blog files)

@@ -3,7 +3,7 @@
  *
  * Auto-generated mapping of old blog slugs to new SEO slugs.
  * Generated from: scripts/audit-blog-legacy-slugs.js
- * Generated: 2026-02-02T15:35:42.370Z
+ * Generated: 2026-02-02T15:37:09.469Z
  *
  * Total redirects: 1898
  */
@@ -9501,4 +9501,17 @@ const legacyBlogSlugs = [
   }
 ];
 
-module.exports = { legacyBlogSlugs };
+/**
+ * Generate Next.js redirect config entries for legacy blog slugs.
+ * Used by next.config.js to create static redirects.
+ * Note: Middleware also handles these dynamically for faster lookups.
+ */
+function generateBlogRedirects() {
+  return legacyBlogSlugs.map(({ oldSlug, newSlug, locale }) => ({
+    source: `/${locale}/blog/${oldSlug}`,
+    destination: `/${locale}/blog/${newSlug}`,
+    permanent: true,
+  }));
+}
+
+module.exports = { legacyBlogSlugs, generateBlogRedirects };

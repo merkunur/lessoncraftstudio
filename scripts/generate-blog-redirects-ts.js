@@ -62,7 +62,7 @@ export function generateLegacyBlogRedirects(): Redirect[] {
 }
 `;
 
-// Also generate JS version for CommonJS imports (used by middleware)
+// Also generate JS version for CommonJS imports (used by middleware and next.config.js)
 const jsContent = `/**
  * Blog Legacy Slug Redirects (Generated)
  *
@@ -75,7 +75,20 @@ const jsContent = `/**
 
 const legacyBlogSlugs = ${JSON.stringify(data, null, 2)};
 
-module.exports = { legacyBlogSlugs };
+/**
+ * Generate Next.js redirect config entries for legacy blog slugs.
+ * Used by next.config.js to create static redirects.
+ * Note: Middleware also handles these dynamically for faster lookups.
+ */
+function generateBlogRedirects() {
+  return legacyBlogSlugs.map(({ oldSlug, newSlug, locale }) => ({
+    source: \`/\${locale}/blog/\${oldSlug}\`,
+    destination: \`/\${locale}/blog/\${newSlug}\`,
+    permanent: true,
+  }));
+}
+
+module.exports = { legacyBlogSlugs, generateBlogRedirects };
 `;
 
 fs.writeFileSync(outputPath, tsContent);

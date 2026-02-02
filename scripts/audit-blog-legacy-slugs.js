@@ -89,12 +89,14 @@ function getMarkdownFilesFromFolder(folderPath) {
 /**
  * Extract URL slug and title from markdown file
  * Format: **URL Slug**: /blog/commercial-license-selling-worksheets-tpt-etsy
+ *    or: **URL Slug**: /es/blog/fichas-visuales-aprendizaje-autismo-tea
  * Returns: { slug: "commercial-license...", title: "..." }
  */
 function extractMetaFromMarkdown(filePath) {
   try {
     const content = fs.readFileSync(filePath, 'utf8');
-    const slugMatch = content.match(/\*\*URL Slug\*\*:\s*\/blog\/([^\s\n]+)/);
+    // Match URLs with optional locale prefix: /blog/slug OR /es/blog/slug
+    const slugMatch = content.match(/\*\*URL Slug\*\*:\s*(?:\/[a-z]{2})?\/blog\/([^\s\n]+)/);
     const titleMatch = content.match(/^#\s+(.+)$/m);
     return {
       slug: slugMatch ? slugMatch[1].trim() : null,
@@ -337,6 +339,27 @@ async function main() {
           confidence: score,
           fileTitle: file.title,
         });
+
+        // ALSO add intermediate slug (HTML slug without -final-optimized suffix)
+        // Google may have indexed URLs at this intermediate state
+        const intermediateSlug = htmlSlug
+          .replace(/-final-optimized$/, '')
+          .replace(/-optimized$/, '')
+          .replace(/-final$/, '');
+
+        // Only add if intermediate differs from both HTML and markdown slugs
+        if (intermediateSlug !== htmlSlug &&
+            intermediateSlug !== dbSlug &&
+            intermediateSlug !== file.urlSlug) {
+          redirectMappings.push({
+            oldSlug: intermediateSlug,
+            newSlug: dbSlug,
+            locale: locale,
+            source: 'intermediate',
+            confidence: score,
+            fileTitle: file.title,
+          });
+        }
       }
     }
   }

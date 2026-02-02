@@ -156,6 +156,30 @@ export default function middleware(request: NextRequest) {
       const newUrl = new URL(`/${oldSlugInfo.nativeLocale}/blog/${oldSlugInfo.newSlug}`, request.url);
       return NextResponse.redirect(newUrl, { status: 301 });
     }
+
+    // Check 3: Fuzzy match - try stripping common suffixes for edge cases
+    // Google may have indexed URLs with intermediate suffixes we didn't capture
+    if (!nativeLocale && !oldSlugInfo) {
+      const strippedSlug = slug
+        .replace(/-final-optimized$/, '')
+        .replace(/-optimized$/, '')
+        .replace(/-final$/, '');
+
+      if (strippedSlug !== slug) {
+        // Try looking up the stripped version as an old slug
+        const strippedInfo = oldSlugMap.get(strippedSlug);
+        if (strippedInfo) {
+          const newUrl = new URL(`/${strippedInfo.nativeLocale}/blog/${strippedInfo.newSlug}`, request.url);
+          return NextResponse.redirect(newUrl, { status: 301 });
+        }
+        // Also check if stripped version is a current slug under wrong locale
+        const strippedNativeLocale = slugToLocaleMap.get(strippedSlug);
+        if (strippedNativeLocale && strippedNativeLocale !== locale) {
+          const newUrl = new URL(`/${strippedNativeLocale}/blog/${strippedSlug}`, request.url);
+          return NextResponse.redirect(newUrl, { status: 301 });
+        }
+      }
+    }
   }
 
   // Handle root URL (/) - redirect to English with 301 for SEO

@@ -2,8 +2,12 @@
  * Blog Legacy Slug Audit Script
  *
  * This script extracts old->new slug mappings by comparing:
- * 1. HTML filenames in BLOG BUILDING/[LANG] BLOGPOSTS/ folders (old slugs)
+ * 1. URL slugs from markdown files' **URL Slug** field (old slugs)
  * 2. Database slugs in blog_posts.translations[locale].slug (new slugs)
+ *
+ * FIXED: Now matches posts by TITLE SIMILARITY instead of file index position.
+ * The old approach assumed file 016-xxx.html corresponded to database post #16,
+ * but database ordering by createdAt doesn't match file numbering.
  *
  * Output: JSON mapping of { oldSlug, newSlug, locale } for all changed slugs
  *
@@ -83,54 +87,122 @@ function getMarkdownFilesFromFolder(folderPath) {
 }
 
 /**
- * Extract URL slug from markdown file's **URL Slug** field
+ * Extract URL slug and title from markdown file
  * Format: **URL Slug**: /blog/commercial-license-selling-worksheets-tpt-etsy
- * Returns: commercial-license-selling-worksheets-tpt-etsy
+ * Returns: { slug: "commercial-license...", title: "..." }
  */
-function extractSlugFromMarkdown(filePath) {
+function extractMetaFromMarkdown(filePath) {
   try {
     const content = fs.readFileSync(filePath, 'utf8');
-    const match = content.match(/\*\*URL Slug\*\*:\s*\/blog\/([^\s\n]+)/);
-    return match ? match[1].trim() : null;
+    const slugMatch = content.match(/\*\*URL Slug\*\*:\s*\/blog\/([^\s\n]+)/);
+    const titleMatch = content.match(/^#\s+(.+)$/m);
+    return {
+      slug: slugMatch ? slugMatch[1].trim() : null,
+      title: titleMatch ? titleMatch[1].trim() : null,
+    };
   } catch (error) {
-    return null;
+    return { slug: null, title: null };
   }
 }
 
 /**
- * Build index number to markdown URL slug mapping from Markdown files
+ * Normalize a string for comparison
  */
-function buildMarkdownSlugIndex(blogBuildingPath, locale) {
+function normalizeForComparison(str) {
+  if (!str) return '';
+  return str
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, ' ')
+    .trim();
+}
+
+/**
+ * Calculate Jaccard similarity between two strings
+ */
+function jaccardSimilarity(str1, str2) {
+  const s1 = new Set(normalizeForComparison(str1).split(' ').filter(w => w.length > 2));
+  const s2 = new Set(normalizeForComparison(str2).split(' ').filter(w => w.length > 2));
+
+  if (s1.size === 0 || s2.size === 0) return 0;
+
+  const intersection = new Set([...s1].filter(x => s2.has(x)));
+  const union = new Set([...s1, ...s2]);
+
+  return intersection.size / union.size;
+}
+
+/**
+ * Find the best matching database post for a given file
+ * Uses title similarity matching
+ */
+function findBestMatchingPost(fileTitle, fileSlug, posts, locale) {
+  let bestMatch = null;
+  let bestScore = 0;
+
+  for (const post of posts) {
+    const translation = post.translations?.[locale];
+    if (!translation) continue;
+
+    const dbTitle = translation.title || '';
+    const dbSlug = translation.slug || '';
+
+    // Calculate similarity scores
+    const titleScore = jaccardSimilarity(fileTitle, dbTitle);
+    const slugScore = jaccardSimilarity(fileSlug, dbSlug);
+
+    // Combined score (weighted towards title)
+    const score = titleScore * 0.7 + slugScore * 0.3;
+
+    // Exact slug match is always best
+    if (dbSlug === fileSlug) {
+      return { post, score: 1.0 };
+    }
+
+    if (score > bestScore) {
+      bestScore = score;
+      bestMatch = post;
+    }
+  }
+
+  return { post: bestMatch, score: bestScore };
+}
+
+/**
+ * Build file metadata index from Markdown files
+ */
+function buildFileMetadataIndex(blogBuildingPath, locale) {
   const folderName = LOCALE_FOLDER_MAP[locale];
   const folderPath = path.join(blogBuildingPath, folderName);
   const files = getMarkdownFilesFromFolder(folderPath);
 
-  const index = {};
+  const fileData = [];
   for (const file of files) {
-    // Extract index number from filename (e.g., "058" from "058-commercial-license.md")
     const match = file.match(/^(\d{2,3})-/);
     if (match) {
-      const num = parseInt(match[1], 10);
-      const slug = extractSlugFromMarkdown(path.join(folderPath, file));
-      if (slug) {
-        index[num] = slug;
+      const meta = extractMetaFromMarkdown(path.join(folderPath, file));
+      if (meta.slug || meta.title) {
+        fileData.push({
+          fileIndex: parseInt(match[1], 10),
+          filename: file,
+          urlSlug: meta.slug,
+          title: meta.title,
+        });
       }
     }
   }
-  return index;
+  return fileData;
 }
 
 /**
- * Build index number to filename slug mapping from HTML files
+ * Build HTML filename index
  */
-function buildFileSlugIndex(blogBuildingPath, locale) {
+function buildHtmlSlugIndex(blogBuildingPath, locale) {
   const folderName = LOCALE_FOLDER_MAP[locale];
   const folderPath = path.join(blogBuildingPath, folderName);
   const files = getHtmlFilesFromFolder(folderPath);
 
   const index = {};
   for (const file of files) {
-    // Extract index number from filename (e.g., "007" from "007-wortsuche.html")
     const match = file.match(/^(\d{2,3})-/);
     if (match) {
       const num = parseInt(match[1], 10);
@@ -141,7 +213,8 @@ function buildFileSlugIndex(blogBuildingPath, locale) {
 }
 
 async function main() {
-  console.log('Starting blog legacy slug audit...\n');
+  console.log('Starting blog legacy slug audit (FIXED VERSION)...\n');
+  console.log('This version uses TITLE MATCHING instead of index position.\n');
 
   // Determine blog building path
   const possiblePaths = [
@@ -165,23 +238,8 @@ async function main() {
 
   console.log(`Using blog building path: ${blogBuildingPath}\n`);
 
-  // Build file slug index for each locale (from HTML filenames)
-  const fileSlugsByLocale = {};
-  for (const locale of LOCALES) {
-    fileSlugsByLocale[locale] = buildFileSlugIndex(blogBuildingPath, locale);
-    console.log(`Found ${Object.keys(fileSlugsByLocale[locale]).length} HTML files for ${locale}`);
-  }
-
-  // Build markdown slug index for each locale (from **URL Slug** field in .md files)
-  console.log('\nBuilding markdown URL slug index...');
-  const markdownSlugsByLocale = {};
-  for (const locale of LOCALES) {
-    markdownSlugsByLocale[locale] = buildMarkdownSlugIndex(blogBuildingPath, locale);
-    console.log(`Found ${Object.keys(markdownSlugsByLocale[locale]).length} markdown URL slugs for ${locale}`);
-  }
-
   // Fetch all published blog posts from database
-  console.log('\nFetching blog posts from database...');
+  console.log('Fetching blog posts from database...');
   const posts = await prisma.blogPost.findMany({
     where: { status: 'published' },
     select: {
@@ -189,75 +247,107 @@ async function main() {
       slug: true,
       translations: true,
     },
-    orderBy: { createdAt: 'asc' },
   });
 
   console.log(`Found ${posts.length} published blog posts\n`);
 
-  // Compare and find mismatches
+  // Build file metadata index for each locale (from Markdown files)
+  console.log('Building file metadata index from markdown files...');
+  const fileMetaByLocale = {};
+  for (const locale of LOCALES) {
+    fileMetaByLocale[locale] = buildFileMetadataIndex(blogBuildingPath, locale);
+    console.log(`Found ${fileMetaByLocale[locale].length} markdown files for ${locale}`);
+  }
+
+  // Build HTML slug index for each locale
+  console.log('\nBuilding HTML filename slug index...');
+  const htmlSlugsByLocale = {};
+  for (const locale of LOCALES) {
+    htmlSlugsByLocale[locale] = buildHtmlSlugIndex(blogBuildingPath, locale);
+    console.log(`Found ${Object.keys(htmlSlugsByLocale[locale]).length} HTML files for ${locale}`);
+  }
+
+  // Compare and find mismatches using title-based matching
   const redirectMappings = [];
   const stats = {
     total: 0,
     matches: 0,
     mismatches: 0,
-    missing: 0,
-    markdownMismatches: 0,
+    noMatch: 0,
+    lowConfidence: 0,
   };
 
-  for (let i = 0; i < posts.length; i++) {
-    const post = posts[i];
-    const postIndex = i + 1; // 1-indexed to match filename prefixes
-    const translations = post.translations || {};
+  console.log('\nMatching files to database posts by title similarity...\n');
 
-    for (const locale of LOCALES) {
-      const translation = translations[locale];
-      if (!translation || !translation.slug) continue;
+  for (const locale of LOCALES) {
+    const fileMeta = fileMetaByLocale[locale];
+    const htmlSlugs = htmlSlugsByLocale[locale];
 
+    for (const file of fileMeta) {
       stats.total++;
-      const dbSlug = translation.slug;
-      const fileSlug = fileSlugsByLocale[locale][postIndex];
-      const markdownSlug = markdownSlugsByLocale[locale][postIndex];
 
-      if (!fileSlug && !markdownSlug) {
-        stats.missing++;
+      // Find the best matching database post
+      const { post: matchedPost, score } = findBestMatchingPost(
+        file.title,
+        file.urlSlug,
+        posts,
+        locale
+      );
+
+      if (!matchedPost) {
+        stats.noMatch++;
         continue;
       }
 
-      // Check HTML filename slug
-      if (fileSlug && fileSlug !== dbSlug) {
+      if (score < 0.3) {
+        stats.lowConfidence++;
+        console.warn(`Low confidence match (${(score * 100).toFixed(1)}%) for "${file.title}"`);
+        continue;
+      }
+
+      const dbSlug = matchedPost.translations?.[locale]?.slug;
+      if (!dbSlug) {
+        stats.noMatch++;
+        continue;
+      }
+
+      // Check if markdown URL slug differs from DB slug
+      if (file.urlSlug && file.urlSlug !== dbSlug) {
         stats.mismatches++;
         redirectMappings.push({
-          oldSlug: fileSlug,
+          oldSlug: file.urlSlug,
           newSlug: dbSlug,
           locale: locale,
-          postIndex: postIndex,
-          source: 'html',
+          source: 'markdown',
+          confidence: score,
+          fileTitle: file.title,
         });
-      } else if (fileSlug && fileSlug === dbSlug) {
+      } else if (file.urlSlug && file.urlSlug === dbSlug) {
         stats.matches++;
       }
 
-      // Check markdown URL slug (if different from both DB slug and file slug)
-      if (markdownSlug && markdownSlug !== dbSlug && markdownSlug !== fileSlug) {
-        stats.markdownMismatches++;
+      // Check if HTML filename slug also differs (and is different from markdown slug)
+      const htmlSlug = htmlSlugs[file.fileIndex];
+      if (htmlSlug && htmlSlug !== dbSlug && htmlSlug !== file.urlSlug) {
         redirectMappings.push({
-          oldSlug: markdownSlug,
+          oldSlug: htmlSlug,
           newSlug: dbSlug,
           locale: locale,
-          postIndex: postIndex,
-          source: 'markdown',
+          source: 'html',
+          confidence: score,
+          fileTitle: file.title,
         });
       }
     }
   }
 
   // Output results
-  console.log('=== AUDIT RESULTS ===\n');
-  console.log(`Total translations checked: ${stats.total}`);
+  console.log('\n=== AUDIT RESULTS (FIXED VERSION) ===\n');
+  console.log(`Total files checked: ${stats.total}`);
   console.log(`Exact matches (no redirect needed): ${stats.matches}`);
-  console.log(`HTML filename mismatches (redirect needed): ${stats.mismatches}`);
-  console.log(`Markdown URL slug mismatches (additional redirects): ${stats.markdownMismatches}`);
-  console.log(`Missing file slugs: ${stats.missing}`);
+  console.log(`Mismatches (redirect needed): ${stats.mismatches}`);
+  console.log(`No database match found: ${stats.noMatch}`);
+  console.log(`Low confidence matches skipped: ${stats.lowConfidence}`);
   console.log(`Total redirects: ${redirectMappings.length}`);
   console.log();
 
@@ -273,12 +363,15 @@ async function main() {
 
     for (const locale of LOCALES) {
       if (!byLocale[locale] || byLocale[locale].length === 0) continue;
-      const htmlCount = byLocale[locale].filter(m => m.source === 'html').length;
       const mdCount = byLocale[locale].filter(m => m.source === 'markdown').length;
-      console.log(`\n--- ${locale.toUpperCase()} (${byLocale[locale].length} redirects: ${htmlCount} HTML, ${mdCount} markdown) ---`);
+      const htmlCount = byLocale[locale].filter(m => m.source === 'html').length;
+      console.log(`\n--- ${locale.toUpperCase()} (${byLocale[locale].length} redirects: ${mdCount} markdown, ${htmlCount} HTML) ---`);
+
+      // Show samples with confidence scores
       for (const m of byLocale[locale].slice(0, 5)) {
         console.log(`  [${m.source}] ${m.oldSlug}`);
         console.log(`  -> ${m.newSlug}`);
+        console.log(`  (${(m.confidence * 100).toFixed(0)}% confidence: "${m.fileTitle?.substring(0, 50)}...")`);
         console.log();
       }
       if (byLocale[locale].length > 5) {
@@ -286,31 +379,39 @@ async function main() {
       }
     }
 
+    // Deduplicate: remove entries where oldSlug === newSlug
+    const filteredMappings = redirectMappings.filter(m => m.oldSlug !== m.newSlug);
+
     // Output JSON for use in redirect configuration
     const outputPath = path.join(__dirname, 'blog-legacy-slugs.json');
-    fs.writeFileSync(outputPath, JSON.stringify(redirectMappings, null, 2));
+    fs.writeFileSync(outputPath, JSON.stringify(filteredMappings, null, 2));
     console.log(`\nFull mapping saved to: ${outputPath}`);
 
-    // Also output TypeScript format for easy copy-paste
-    const tsOutputPath = path.join(__dirname, 'blog-legacy-slugs.ts');
-    const tsContent = `// Auto-generated blog legacy slug mappings
-// Generated: ${new Date().toISOString()}
-// Total redirects: ${redirectMappings.length}
+    // Output simplified version for blog-redirects.js
+    const simplifiedMappings = filteredMappings.map(m => ({
+      oldSlug: m.oldSlug,
+      newSlug: m.newSlug,
+      locale: m.locale,
+    }));
 
-export interface BlogLegacySlug {
-  oldSlug: string;
-  newSlug: string;
-  locale: string;
-}
+    const tsOutputPath = path.join(__dirname, 'blog-legacy-slugs-simplified.json');
+    fs.writeFileSync(tsOutputPath, JSON.stringify(simplifiedMappings, null, 2));
+    console.log(`Simplified format saved to: ${tsOutputPath}`);
 
-export const legacyBlogSlugs: BlogLegacySlug[] = ${JSON.stringify(redirectMappings.map(m => ({
-  oldSlug: m.oldSlug,
-  newSlug: m.newSlug,
-  locale: m.locale,
-})), null, 2)};
-`;
-    fs.writeFileSync(tsOutputPath, tsContent);
-    console.log(`TypeScript format saved to: ${tsOutputPath}`);
+    // Verify the crossword post is now mapped correctly
+    console.log('\n=== VERIFICATION: Crossword Post Mapping ===');
+    const crosswordMapping = filteredMappings.find(m =>
+      m.oldSlug?.includes('crossword') || m.newSlug?.includes('crossword')
+    );
+    if (crosswordMapping) {
+      console.log(`Found crossword mapping:`);
+      console.log(`  Old: ${crosswordMapping.oldSlug}`);
+      console.log(`  New: ${crosswordMapping.newSlug}`);
+      console.log(`  Confidence: ${(crosswordMapping.confidence * 100).toFixed(0)}%`);
+    } else {
+      console.log('No crossword mapping found (may already match)');
+    }
+
   } else {
     console.log('No redirects needed - all slugs match!');
   }

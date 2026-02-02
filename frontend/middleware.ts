@@ -8,10 +8,21 @@ import { SUPPORTED_LOCALES, isValidLocale } from '@/config/locales';
 // This replaces 12,298 static redirects with a single in-memory lookup
 import { crossLocaleSlugs } from './config/blog-cross-locale-redirects';
 
+// Import legacy blog slugs for old slug → new slug redirects
+// This handles 12,310 additional redirects (1,231 old slugs × 10 wrong locales)
+const { legacyBlogSlugs } = require('./config/blog-redirects');
+
 // Build slug → nativeLocale map at startup for O(1) lookups
 const slugToLocaleMap = new Map<string, string>();
 for (const { slug, nativeLocale } of crossLocaleSlugs) {
   slugToLocaleMap.set(slug, nativeLocale);
+}
+
+// Build oldSlug → { nativeLocale, newSlug } map for legacy redirects
+// This enables redirecting old slugs under ANY locale to the correct locale + new slug
+const oldSlugMap = new Map<string, { nativeLocale: string; newSlug: string }>();
+for (const { oldSlug, newSlug, locale } of legacyBlogSlugs as Array<{ oldSlug: string; newSlug: string; locale: string }>) {
+  oldSlugMap.set(oldSlug, { nativeLocale: locale, newSlug });
 }
 
 /**
@@ -130,11 +141,19 @@ export default function middleware(request: NextRequest) {
   const blogMatch = pathname.match(/^\/([a-z]{2})\/blog\/(.+)$/);
   if (blogMatch) {
     const [, locale, slug] = blogMatch;
-    const nativeLocale = slugToLocaleMap.get(slug);
 
-    // If slug belongs to a different locale, redirect to the correct one
+    // Check 1: Is this a CURRENT slug under wrong locale?
+    const nativeLocale = slugToLocaleMap.get(slug);
     if (nativeLocale && nativeLocale !== locale) {
       const newUrl = new URL(`/${nativeLocale}/blog/${slug}`, request.url);
+      return NextResponse.redirect(newUrl, { status: 301 });
+    }
+
+    // Check 2: Is this an OLD slug? Redirect to correct locale + NEW slug
+    // This handles old slugs accessed under ANY locale (including wrong ones)
+    const oldSlugInfo = oldSlugMap.get(slug);
+    if (oldSlugInfo) {
+      const newUrl = new URL(`/${oldSlugInfo.nativeLocale}/blog/${oldSlugInfo.newSlug}`, request.url);
       return NextResponse.redirect(newUrl, { status: 301 });
     }
   }

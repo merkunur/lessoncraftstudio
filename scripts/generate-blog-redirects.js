@@ -1,5 +1,5 @@
 /**
- * Generate blog-redirects.js from audit JSON output
+ * Generate blog-redirects.ts from audit JSON output
  *
  * Usage: node scripts/generate-blog-redirects.js
  */
@@ -51,14 +51,26 @@ const content = `/**
  * Total redirects: ${slugs.length}
  */
 
-const legacyBlogSlugs = ${JSON.stringify(slugs, null, 2)};
+interface Redirect {
+  source: string;
+  destination: string;
+  permanent: boolean;
+}
+
+export interface BlogLegacySlug {
+  oldSlug: string;
+  newSlug: string;
+  locale: string;
+}
+
+export const legacyBlogSlugs: BlogLegacySlug[] = ${JSON.stringify(slugs, null, 2)};
 
 /**
  * Generate redirect entries for legacy blog slugs.
  * Returns array of { source, destination, permanent } for each legacy slug.
  */
-function generateLegacyBlogRedirects() {
-  const redirects = [];
+export function generateLegacyBlogRedirects(): Redirect[] {
+  const redirects: Redirect[] = [];
 
   for (const { oldSlug, newSlug, locale } of legacyBlogSlugs) {
     // Add redirect for each locale's old slug to its new slug
@@ -75,10 +87,11 @@ function generateLegacyBlogRedirects() {
 /**
  * Main export function for use in next.config.js
  */
-function generateBlogRedirects() {
+export function generateBlogRedirects(): Redirect[] {
   return generateLegacyBlogRedirects();
 }
 
+// CommonJS export for next.config.js compatibility
 module.exports = {
   legacyBlogSlugs,
   generateLegacyBlogRedirects,
@@ -88,8 +101,8 @@ module.exports = {
 
 // Find output path
 const possibleOutputPaths = [
-  path.join(__dirname, '..', 'frontend', 'config', 'blog-redirects.js'),
-  '/opt/lessoncraftstudio/frontend/config/blog-redirects.js',
+  path.join(__dirname, '..', 'frontend', 'config', 'blog-redirects.ts'),
+  '/opt/lessoncraftstudio/frontend/config/blog-redirects.ts',
 ];
 
 let outputPath = null;

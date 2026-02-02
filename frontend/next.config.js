@@ -91,7 +91,9 @@ const nextConfig = {
     const productRedirects = generateProductPageRedirects();
     // Generate legacy appId redirects for SEO recovery
     const legacyRedirects = generateLegacyAppIdRedirects();
-    // Generate blog redirects from old slugs to new SEO slugs
+    // Generate blog redirects:
+    // 1. Legacy: old slugs -> new SEO slugs (same locale)
+    // 2. Cross-locale: wrong locale -> correct locale (same slug)
     const blogRedirects = generateBlogRedirects();
 
     return [
@@ -99,7 +101,7 @@ const nextConfig = {
       ...productRedirects,
       // Include legacy appId -> SEO slug redirects (SEO recovery)
       ...legacyRedirects,
-      // Include blog slug redirects (old -> new SEO slugs)
+      // Include blog redirects (legacy + cross-locale)
       ...blogRedirects,
     ];
   },

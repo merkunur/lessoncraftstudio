@@ -6165,7 +6165,13 @@ const legacyBlogSlugs = [
   }
 ];
 
-function generateBlogRedirects() {
+// Import cross-locale redirects (slugs accessed under wrong locale)
+const { crossLocaleSlugs, generateCrossLocaleRedirects } = require('./blog-cross-locale-redirects');
+
+/**
+ * Generate legacy blog redirects (old slug -> new slug, same locale)
+ */
+function generateLegacyBlogRedirects() {
   return legacyBlogSlugs.map(({ oldSlug, newSlug, locale }) => ({
     source: `/${locale}/blog/${oldSlug}`,
     destination: `/${locale}/blog/${newSlug}`,
@@ -6173,7 +6179,22 @@ function generateBlogRedirects() {
   }));
 }
 
+/**
+ * Generate all blog redirects:
+ * 1. Legacy redirects: old slug -> new slug (same locale)
+ * 2. Cross-locale redirects: wrong locale -> correct locale (same slug)
+ */
+function generateBlogRedirects() {
+  const legacyRedirects = generateLegacyBlogRedirects();
+  const crossLocaleRedirects = generateCrossLocaleRedirects();
+
+  return [...legacyRedirects, ...crossLocaleRedirects];
+}
+
 module.exports = {
   legacyBlogSlugs,
+  crossLocaleSlugs,
+  generateLegacyBlogRedirects,
+  generateCrossLocaleRedirects,
   generateBlogRedirects,
 };

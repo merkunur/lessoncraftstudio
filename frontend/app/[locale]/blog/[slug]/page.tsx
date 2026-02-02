@@ -405,13 +405,21 @@ export default async function BlogPostPage({
   const translations = post.translations as any;
   const translation = translations[locale] || translations['en'] || {};
 
-  // SEO FIX: Return 404 if accessed via wrong slug for this locale
-  // CRITICAL: Do NOT redirect here - redirect chains cause Google to see conflicting canonicals
-  // ("Duplicate, Google chose different canonical" errors)
-  // The correct URL should be accessed directly via sitemap/hreflang links
+  // SEO FIX: Redirect if slug doesn't match expected slug for this locale
+  // This handles two cases:
+  // 1. Cross-locale: Swedish slug under /fi/blog/ -> redirect to /sv/blog/
+  // 2. Old slug -> redirect to new slug (handled by static redirects, but fallback here)
   const localeSlug = translation.slug || post.slug;
   if (slug !== localeSlug) {
-    notFound();
+    // Check if this slug belongs to a different locale
+    const correctLocale = await findSlugLanguage(slug);
+    if (correctLocale && correctLocale !== locale) {
+      // Cross-locale access: redirect to correct locale with this slug
+      redirect(`/${correctLocale}/blog/${slug}`);
+    }
+    // Slug doesn't match locale but isn't found in other locales either
+    // This could be an old slug - redirect to the correct slug for this locale
+    redirect(`/${locale}/blog/${localeSlug}`);
   }
 
   let htmlContent = translation.content || '';

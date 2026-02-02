@@ -3,13 +3,14 @@
  *
  * Auto-generated mapping of old blog slugs to new SEO slugs.
  * Generated from: scripts/audit-blog-legacy-slugs.js
- * Generated: 2026-02-02T03:47:44.886Z
+ * Generated: 2026-02-02T15:35:42.367Z
  *
  * Includes both:
  * - HTML filename slugs (from original HTML blog files)
  * - Markdown URL slugs (from **URL Slug** fields in .md files)
+ * - Intermediate slugs (HTML slugs without -final-optimized suffix)
  *
- * Total redirects: 1779
+ * Total redirects: 1898
  */
 
 interface Redirect {
@@ -1546,6 +1547,11 @@ export const legacyBlogSlugs: BlogLegacySlug[] = [
     "locale": "de"
   },
   {
+    "oldSlug": "lernstationen-stationenlernen-selbststaendiges-arbeiten-organisation",
+    "newSlug": "lernstationen-stationenlernen-effizientes-management-selbststaendiger-arbeitsphasen",
+    "locale": "de"
+  },
+  {
     "oldSlug": "lernstationen-stationenlernen-selbststaendiges-arbeiten",
     "newSlug": "lernstationen-stationenlernen-effizientes-management-selbststaendiger-arbeitsphasen",
     "locale": "de"
@@ -1557,6 +1563,11 @@ export const legacyBlogSlugs: BlogLegacySlug[] = [
   },
   {
     "oldSlug": "rueckwaertsplanung-final-optimized",
+    "newSlug": "rueckwaertsplanung-lehrplangestaltung-unterricht-vom-lernziel-her-denken",
+    "locale": "de"
+  },
+  {
+    "oldSlug": "rueckwaertsplanung",
     "newSlug": "rueckwaertsplanung-lehrplangestaltung-unterricht-vom-lernziel-her-denken",
     "locale": "de"
   },
@@ -1671,6 +1682,11 @@ export const legacyBlogSlugs: BlogLegacySlug[] = [
     "locale": "de"
   },
   {
+    "oldSlug": "faechuebergreifender-unterricht",
+    "newSlug": "faecheruebergreifender-unterricht-wie-sie-verschiedene-faecher-sinnvoll-miteinander-verbinden",
+    "locale": "de"
+  },
+  {
     "oldSlug": "binnendifferenzierung-heterogene-lerngruppen-grundschule",
     "newSlug": "binnendifferenzierung-meistern-heterogene-lerngruppen-in-der-grundschule-gezielt-foerdern",
     "locale": "de"
@@ -1691,7 +1707,17 @@ export const legacyBlogSlugs: BlogLegacySlug[] = [
     "locale": "de"
   },
   {
+    "oldSlug": "digitale-integration-klassenzimmer-arbeitsblatter",
+    "newSlug": "digitale-werkzeuge-im-klassenzimmer-nahtlose-integration-von-technologie-und-ausdruckbaren-arbeitsblaettern",
+    "locale": "de"
+  },
+  {
     "oldSlug": "daz-daf-visuelle-arbeitsblatt-strategien-final-optimized",
+    "newSlug": "dazdaf-lernende-visuelle-arbeitsblatt-strategien-fuer-den-spracherwerb",
+    "locale": "de"
+  },
+  {
+    "oldSlug": "daz-daf-visuelle-arbeitsblatt-strategien",
     "newSlug": "dazdaf-lernende-visuelle-arbeitsblatt-strategien-fuer-den-spracherwerb",
     "locale": "de"
   },
@@ -1702,6 +1728,11 @@ export const legacyBlogSlugs: BlogLegacySlug[] = [
   },
   {
     "oldSlug": "selbststaendiges-arbeiten-zeitmanagement-final-optimized",
+    "newSlug": "selbststaendiges-arbeiten-eigenverantwortliches-lernen-mit-arbeitsblaettern-foerdern",
+    "locale": "de"
+  },
+  {
+    "oldSlug": "selbststaendiges-arbeiten-zeitmanagement",
     "newSlug": "selbststaendiges-arbeiten-eigenverantwortliches-lernen-mit-arbeitsblaettern-foerdern",
     "locale": "de"
   },
@@ -1786,6 +1817,11 @@ export const legacyBlogSlugs: BlogLegacySlug[] = [
     "locale": "de"
   },
   {
+    "oldSlug": "erfolgsgeschichten-lehrerberichte-praxiserfahrungen",
+    "newSlug": "erfolgsgeschichten-aus-der-praxis-lehrkraefte-berichten-ueber-ihre-erfahrungen-mit-arbeitsblatt-generatoren",
+    "locale": "de"
+  },
+  {
     "oldSlug": "bildungstechnologie-zukunft-digitale-transformation-unterricht",
     "newSlug": "bildungstechnologie-2025-2030-die-digitale-transformation-des-unterrichts",
     "locale": "de"
@@ -1851,6 +1887,11 @@ export const legacyBlogSlugs: BlogLegacySlug[] = [
     "locale": "fr"
   },
   {
+    "oldSlug": "generateur-mots-meles-90-secondes",
+    "newSlug": "generateur-de-mots-meles-creez-des-grilles-avec-corriges-en-90-secondes",
+    "locale": "fr"
+  },
+  {
     "oldSlug": "fiches-pedagogiques-illustrees-retention-recherche-double-codage",
     "newSlug": "pourquoi-les-fiches-pedagogiques-illustrees-multiplient-la-retention-par-23",
     "locale": "fr"
@@ -1867,6 +1908,11 @@ export const legacyBlogSlugs: BlogLegacySlug[] = [
   },
   {
     "oldSlug": "dessin-quadrillage-detection-intelligente-leonard-de-vinci-final-optimized",
+    "newSlug": "dessin-sur-quadrillage-avec-detection-intelligente-la-technique-de-leonard-de-vinci-pour-les-enfants",
+    "locale": "fr"
+  },
+  {
+    "oldSlug": "dessin-quadrillage-detection-intelligente-leonard-de-vinci",
     "newSlug": "dessin-sur-quadrillage-avec-detection-intelligente-la-technique-de-leonard-de-vinci-pour-les-enfants",
     "locale": "fr"
   },
@@ -1896,7 +1942,17 @@ export const legacyBlogSlugs: BlogLegacySlug[] = [
     "locale": "fr"
   },
   {
+    "oldSlug": "additions-codees-cryptographie-engagement-mathematiques",
+    "newSlug": "additions-codees-quand-la-cryptographie-booste-lengagement-en-mathematiques-de-40",
+    "locale": "fr"
+  },
+  {
     "oldSlug": "train-motifs-apprentissage-multisensoriel-final-optimized",
+    "newSlug": "train-des-motifs-avec-decoupage-collage-lapprentissage-multisensoriel-pour-la-reconnaissance-de-sequences",
+    "locale": "fr"
+  },
+  {
+    "oldSlug": "train-motifs-apprentissage-multisensoriel",
     "newSlug": "train-des-motifs-avec-decoupage-collage-lapprentissage-multisensoriel-pour-la-reconnaissance-de-sequences",
     "locale": "fr"
   },
@@ -1907,6 +1963,11 @@ export const legacyBlogSlugs: BlogLegacySlug[] = [
   },
   {
     "oldSlug": "mots-melanges-algorithme-indices-fractionnaires-final-optimized",
+    "newSlug": "generateur-de-mots-melanges-lalgorithme-dindices-fractionnaires-qui-adapte-la-difficulte-a-la-longueur-des-mots",
+    "locale": "fr"
+  },
+  {
+    "oldSlug": "mots-melanges-algorithme-indices-fractionnaires",
     "newSlug": "generateur-de-mots-melanges-lalgorithme-dindices-fractionnaires-qui-adapte-la-difficulte-a-la-longueur-des-mots",
     "locale": "fr"
   },
@@ -1922,6 +1983,11 @@ export const legacyBlogSlugs: BlogLegacySlug[] = [
   },
   {
     "oldSlug": "mots-meles-neurosciences-apprentissage-orthographe-final-optimized",
+    "newSlug": "comment-le-rearrangement-de-lettres-accelere-lapprentissage-de-lorthographe-de-32",
+    "locale": "fr"
+  },
+  {
+    "oldSlug": "mots-meles-neurosciences-apprentissage-orthographe",
     "newSlug": "comment-le-rearrangement-de-lettres-accelere-lapprentissage-de-lorthographe-de-32",
     "locale": "fr"
   },
@@ -1976,6 +2042,11 @@ export const legacyBlogSlugs: BlogLegacySlug[] = [
     "locale": "fr"
   },
   {
+    "oldSlug": "activites-discrimination-visuelle",
+    "newSlug": "activites-de-discrimination-visuelle-les-cinq-competences-fondamentales-de-frostig-et-horne",
+    "locale": "fr"
+  },
+  {
     "oldSlug": "developpement-motricite-fine-graphisme-prepositionnel",
     "newSlug": "developpement-de-la-motricite-fine-en-maternelle-les-6-gestes-graphiques-fondamentaux-de-benbow",
     "locale": "fr"
@@ -1987,6 +2058,11 @@ export const legacyBlogSlugs: BlogLegacySlug[] = [
   },
   {
     "oldSlug": "theorie-apprentissage-orthographique-reconnaissance-automatique-mots-ehri-final-optimized",
+    "newSlug": "comment-les-jeux-de-mots-developpent-la-reconnaissance-automatique",
+    "locale": "fr"
+  },
+  {
+    "oldSlug": "theorie-apprentissage-orthographique-reconnaissance-automatique-mots-ehri",
     "newSlug": "comment-les-jeux-de-mots-developpent-la-reconnaissance-automatique",
     "locale": "fr"
   },
@@ -2026,6 +2102,11 @@ export const legacyBlogSlugs: BlogLegacySlug[] = [
     "locale": "fr"
   },
   {
+    "oldSlug": "validation-unicite-solution-puzzles-mathematiques",
+    "newSlug": "validation-dunicite-de-solution-lalgorithme-qui-elimine-la-frustration-dans-les-puzzles-mathematiques",
+    "locale": "fr"
+  },
+  {
     "oldSlug": "algorithme-detection-variance-pieces-puzzle-significatives",
     "newSlug": "algorithme-de-detection-de-variance-comment-eviter-les-pieces-de-puzzle-vides",
     "locale": "fr"
@@ -2051,7 +2132,17 @@ export const legacyBlogSlugs: BlogLegacySlug[] = [
     "locale": "fr"
   },
   {
+    "oldSlug": "algorithme-fisher-yates-anagrammes-sans-biais",
+    "newSlug": "lalgorithme-de-fisher-yates-la-science-des-anagrammes-parfaitement-aleatoires",
+    "locale": "fr"
+  },
+  {
     "oldSlug": "top-10-generateurs-fiches-maternelle-final-optimized",
+    "newSlug": "les-10-meilleurs-generateurs-de-fiches-pour-la-maternelle-3-5-ans",
+    "locale": "fr"
+  },
+  {
+    "oldSlug": "top-10-generateurs-fiches-maternelle",
     "newSlug": "les-10-meilleurs-generateurs-de-fiches-pour-la-maternelle-3-5-ans",
     "locale": "fr"
   },
@@ -2066,7 +2157,17 @@ export const legacyBlogSlugs: BlogLegacySlug[] = [
     "locale": "fr"
   },
   {
+    "oldSlug": "activites-motricite-fine-maternelle",
+    "newSlug": "activites-de-motricite-fine-pour-la-maternelle-graphisme-decoupage-et-exercices-preparatoires-a-lecriture",
+    "locale": "fr"
+  },
+  {
     "oldSlug": "top-10-generateurs-fiches-grande-section-5-6-ans-final-optimized",
+    "newSlug": "top-10-generateurs-de-fiches-pour-la-grande-section-de-maternelle-5-6-ans",
+    "locale": "fr"
+  },
+  {
+    "oldSlug": "top-10-generateurs-fiches-grande-section-5-6-ans",
     "newSlug": "top-10-generateurs-de-fiches-pour-la-grande-section-de-maternelle-5-6-ans",
     "locale": "fr"
   },
@@ -2077,6 +2178,11 @@ export const legacyBlogSlugs: BlogLegacySlug[] = [
   },
   {
     "oldSlug": "mathematiques-grande-section-fondamentaux-final-optimized",
+    "newSlug": "mathematiques-en-grande-section-addition-soustraction-motifs-et-sudoku",
+    "locale": "fr"
+  },
+  {
+    "oldSlug": "mathematiques-grande-section-fondamentaux",
     "newSlug": "mathematiques-en-grande-section-addition-soustraction-motifs-et-sudoku",
     "locale": "fr"
   },
@@ -2106,12 +2212,22 @@ export const legacyBlogSlugs: BlogLegacySlug[] = [
     "locale": "fr"
   },
   {
+    "oldSlug": "meilleurs-generateurs-fiches-ce1",
+    "newSlug": "les-10-meilleurs-generateurs-de-fiches-pour-le-ce1-7-8-ans",
+    "locale": "fr"
+  },
+  {
     "oldSlug": "pensee-critique-ce1-mots-croises-cryptogrammes",
     "newSlug": "pensee-critique-au-ce1-mots-croises-cryptogrammes-puzzles-logiques",
     "locale": "fr"
   },
   {
     "oldSlug": "pensee-critique-ce1-puzzles-logique-final-optimized",
+    "newSlug": "pensee-critique-au-ce1-mots-croises-cryptogrammes-puzzles-logiques",
+    "locale": "fr"
+  },
+  {
+    "oldSlug": "pensee-critique-ce1-puzzles-logique",
     "newSlug": "pensee-critique-au-ce1-mots-croises-cryptogrammes-puzzles-logiques",
     "locale": "fr"
   },
@@ -2127,6 +2243,11 @@ export const legacyBlogSlugs: BlogLegacySlug[] = [
   },
   {
     "oldSlug": "mathematiques-avancees-ce2-algebre-symbolique-final-optimized",
+    "newSlug": "mathematiques-avancees-ce2-algebre-symbolique-enigmes-mathematiques-et-additions-codees",
+    "locale": "fr"
+  },
+  {
+    "oldSlug": "mathematiques-avancees-ce2-algebre-symbolique",
     "newSlug": "mathematiques-avancees-ce2-algebre-symbolique-enigmes-mathematiques-et-additions-codees",
     "locale": "fr"
   },
@@ -2151,6 +2272,11 @@ export const legacyBlogSlugs: BlogLegacySlug[] = [
     "locale": "fr"
   },
   {
+    "oldSlug": "defis-elementaire-superieur",
+    "newSlug": "defis-pour-cm1-cm2-dessin-sur-quadrillage-suites-complexes-et-logique-avancee",
+    "locale": "fr"
+  },
+  {
     "oldSlug": "generateurs-fiches-illustrees-debutants-langues-11-langues",
     "newSlug": "7-generateurs-de-fiches-illustrees-pour-debutants-en-langues-support-de-11-langues",
     "locale": "fr"
@@ -2166,12 +2292,22 @@ export const legacyBlogSlugs: BlogLegacySlug[] = [
     "locale": "fr"
   },
   {
+    "oldSlug": "outils-apprentissage-visuel-education-specialisee",
+    "newSlug": "8-outils-dapprentissage-visuel-pour-leducation-specialisee-ulis-segpa-ime",
+    "locale": "fr"
+  },
+  {
     "oldSlug": "activites-pedagogiques-tdah-charge-cognitive-reduite",
     "newSlug": "activites-pedagogiques-pour-eleves-tdah-9-generateurs-qui-reduisent-la-charge-cognitive",
     "locale": "fr"
   },
   {
     "oldSlug": "activites-pedagogiques-tdah-charge-cognitive-final-optimized",
+    "newSlug": "activites-pedagogiques-pour-eleves-tdah-9-generateurs-qui-reduisent-la-charge-cognitive",
+    "locale": "fr"
+  },
+  {
+    "oldSlug": "activites-pedagogiques-tdah-charge-cognitive",
     "newSlug": "activites-pedagogiques-pour-eleves-tdah-9-generateurs-qui-reduisent-la-charge-cognitive",
     "locale": "fr"
   },
@@ -2186,12 +2322,27 @@ export const legacyBlogSlugs: BlogLegacySlug[] = [
     "locale": "fr"
   },
   {
+    "oldSlug": "strategies-fiches-dyslexie-soutien-phonologique",
+    "newSlug": "fiches-pedagogiques-adaptees-a-la-dyslexie-7-generateurs-avec-soutien-phonologique",
+    "locale": "fr"
+  },
+  {
     "oldSlug": "reduction-anxiete-mathematique-fiches-exercices-final-optimized",
     "newSlug": "anxiete-mathematique-6-generateurs-de-fiches-pour-reduire-le-stress-en-maths",
     "locale": "fr"
   },
   {
+    "oldSlug": "reduction-anxiete-mathematique-fiches-exercices",
+    "newSlug": "anxiete-mathematique-6-generateurs-de-fiches-pour-reduire-le-stress-en-maths",
+    "locale": "fr"
+  },
+  {
     "oldSlug": "eleves-haut-potentiel-outils-enrichissement-final-optimized",
+    "newSlug": "eleves-a-haut-potentiel-8-outils-denrichissement-pour-eviter-lennui",
+    "locale": "fr"
+  },
+  {
+    "oldSlug": "eleves-haut-potentiel-outils-enrichissement",
     "newSlug": "eleves-a-haut-potentiel-8-outils-denrichissement-pour-eviter-lennui",
     "locale": "fr"
   },
@@ -2226,6 +2377,11 @@ export const legacyBlogSlugs: BlogLegacySlug[] = [
     "locale": "fr"
   },
   {
+    "oldSlug": "developpement-competences-visuo-spatiales-fiches",
+    "newSlug": "developpement-des-competences-visuo-spatiales-7-generateurs-de-fiches-pour-la-reussite-en-stim",
+    "locale": "fr"
+  },
+  {
     "oldSlug": "generateurs-fiches-ief-instruction-famille",
     "newSlug": "generateurs-de-fiches-pour-lief-soutien-complet-au-programme-familial",
     "locale": "fr"
@@ -2247,6 +2403,11 @@ export const legacyBlogSlugs: BlogLegacySlug[] = [
   },
   {
     "oldSlug": "vocabulaire-scientifique-integration-transversale-final-optimized",
+    "newSlug": "vocabulaire-scientifique-8-generateurs-pour-lapprentissage-transversal",
+    "locale": "fr"
+  },
+  {
+    "oldSlug": "vocabulaire-scientifique-integration-transversale",
     "newSlug": "vocabulaire-scientifique-8-generateurs-pour-lapprentissage-transversal",
     "locale": "fr"
   },
@@ -2281,6 +2442,11 @@ export const legacyBlogSlugs: BlogLegacySlug[] = [
     "locale": "fr"
   },
   {
+    "oldSlug": "gestion-classe-fiches-transitions-comportement",
+    "newSlug": "gestion-de-classe-utiliser-les-fiches-pedagogiques-pour-les-transitions-les-eleves-rapides-et-le-soutien-comportemental",
+    "locale": "fr"
+  },
+  {
     "oldSlug": "organisation-enseignant-preparation-lots",
     "newSlug": "organisation-enseignant-preparez-un-mois-de-fiches-en-4-heures",
     "locale": "fr"
@@ -2292,6 +2458,11 @@ export const legacyBlogSlugs: BlogLegacySlug[] = [
   },
   {
     "oldSlug": "strategies-distribution-fiches-imprimees-numeriques-final-optimized",
+    "newSlug": "fiches-imprimees-ou-numeriques-quelle-strategie-de-distribution-choisir",
+    "locale": "fr"
+  },
+  {
+    "oldSlug": "strategies-distribution-fiches-imprimees-numeriques",
     "newSlug": "fiches-imprimees-ou-numeriques-quelle-strategie-de-distribution-choisir",
     "locale": "fr"
   },
@@ -2316,6 +2487,11 @@ export const legacyBlogSlugs: BlogLegacySlug[] = [
     "locale": "fr"
   },
   {
+    "oldSlug": "comprehension-lecture-enrichissement-vocabulaire",
+    "newSlug": "comprehension-de-lecture-et-enrichissement-du-vocabulaire-6-strategies-avec-fiches-pedagogiques",
+    "locale": "fr"
+  },
+  {
     "oldSlug": "evaluation-formative-suivi-progression",
     "newSlug": "evaluation-formative-suivi-de-la-progression-exploiter-les-fiches-pedagogiques-pour-un-enseignement-adaptatif",
     "locale": "fr"
@@ -2331,12 +2507,22 @@ export const legacyBlogSlugs: BlogLegacySlug[] = [
     "locale": "fr"
   },
   {
+    "oldSlug": "implication-parentale-partenariat-ecole-famille",
+    "newSlug": "implication-parentale-et-partenariat-ecole-famille-fiches-pedagogiques-qui-renforcent-la-coeducation",
+    "locale": "fr"
+  },
+  {
     "oldSlug": "activites-maternelle-petite-enfance-fiches-adaptees-developpement",
     "newSlug": "activites-maternelle-petite-enfance-fiches-pedagogiques-adaptees-au-developpement",
     "locale": "fr"
   },
   {
     "oldSlug": "activites-petite-enfance-maternelle-adaptees-developpement-final-optimized",
+    "newSlug": "activites-maternelle-petite-enfance-fiches-pedagogiques-adaptees-au-developpement",
+    "locale": "fr"
+  },
+  {
+    "oldSlug": "activites-petite-enfance-maternelle-adaptees-developpement",
     "newSlug": "activites-maternelle-petite-enfance-fiches-pedagogiques-adaptees-au-developpement",
     "locale": "fr"
   },
@@ -2351,7 +2537,17 @@ export const legacyBlogSlugs: BlogLegacySlug[] = [
     "locale": "fr"
   },
   {
+    "oldSlug": "cm1-cm2-defis-eleves-avances",
+    "newSlug": "cm1-cm2-stimuler-les-eleves-avances-avec-des-fiches-dexercices-complexes",
+    "locale": "fr"
+  },
+  {
     "oldSlug": "preparation-examens-evaluation-standardisee-final-optimized",
+    "newSlug": "preparation-aux-examens-et-evaluations-standardisees-strategies-de-revision-sans-stress",
+    "locale": "fr"
+  },
+  {
+    "oldSlug": "preparation-examens-evaluation-standardisee",
     "newSlug": "preparation-aux-examens-et-evaluations-standardisees-strategies-de-revision-sans-stress",
     "locale": "fr"
   },
@@ -2376,12 +2572,22 @@ export const legacyBlogSlugs: BlogLegacySlug[] = [
     "locale": "fr"
   },
   {
+    "oldSlug": "analyse-donnees-decisions-pedagogiques",
+    "newSlug": "exploiter-les-resultats-des-fiches-prendre-des-decisions-pedagogiques-fondees-sur-les-donnees",
+    "locale": "fr"
+  },
+  {
     "oldSlug": "developpement-mentalite-croissance-perseverance-scolaire",
     "newSlug": "developper-la-mentalite-de-croissance-cultiver-la-perseverance-par-les-defis-progressifs",
     "locale": "fr"
   },
   {
     "oldSlug": "developpement-mentalite-croissance-perseverance-final-optimized",
+    "newSlug": "developper-la-mentalite-de-croissance-cultiver-la-perseverance-par-les-defis-progressifs",
+    "locale": "fr"
+  },
+  {
+    "oldSlug": "developpement-mentalite-croissance-perseverance",
     "newSlug": "developper-la-mentalite-de-croissance-cultiver-la-perseverance-par-les-defis-progressifs",
     "locale": "fr"
   },
@@ -2401,12 +2607,22 @@ export const legacyBlogSlugs: BlogLegacySlug[] = [
     "locale": "fr"
   },
   {
+    "oldSlug": "integration-stem-steam-fiches-ingenierie-art-projets-pratiques",
+    "newSlug": "integration-stemsteam-relier-les-fiches-pedagogiques-aux-projets-dingenierie-et-dart",
+    "locale": "fr"
+  },
+  {
     "oldSlug": "enseignement-hybride-integration-technologique-fiches-numeriques-papier",
     "newSlug": "enseignement-hybride-et-integration-technologique-combiner-fiches-pedagogiques-numeriques-et-papier",
     "locale": "fr"
   },
   {
     "oldSlug": "enseignement-hybride-integration-technologique-final-optimized",
+    "newSlug": "enseignement-hybride-et-integration-technologique-combiner-fiches-pedagogiques-numeriques-et-papier",
+    "locale": "fr"
+  },
+  {
+    "oldSlug": "enseignement-hybride-integration-technologique",
     "newSlug": "enseignement-hybride-et-integration-technologique-combiner-fiches-pedagogiques-numeriques-et-papier",
     "locale": "fr"
   },
@@ -2436,12 +2652,22 @@ export const legacyBlogSlugs: BlogLegacySlug[] = [
     "locale": "fr"
   },
   {
+    "oldSlug": "plans-urgence-enseignant-remplacant",
+    "newSlug": "enseignant-remplacant-plans-durgence-fiches-dexercices-pretes-a-lemploi",
+    "locale": "fr"
+  },
+  {
     "oldSlug": "celebrations-classe-systemes-motivation-recompenses-reussite",
     "newSlug": "celebrations-en-classe-et-systemes-de-motivation-valoriser-les-progres-avec-des-fiches-pedagogiques",
     "locale": "fr"
   },
   {
     "oldSlug": "celebrations-classe-systemes-motivation-final-optimized",
+    "newSlug": "celebrations-en-classe-et-systemes-de-motivation-valoriser-les-progres-avec-des-fiches-pedagogiques",
+    "locale": "fr"
+  },
+  {
+    "oldSlug": "celebrations-classe-systemes-motivation",
     "newSlug": "celebrations-en-classe-et-systemes-de-motivation-valoriser-les-progres-avec-des-fiches-pedagogiques",
     "locale": "fr"
   },
@@ -2471,6 +2697,11 @@ export const legacyBlogSlugs: BlogLegacySlug[] = [
     "locale": "fr"
   },
   {
+    "oldSlug": "premiere-semaine-rentree-routines-attentes",
+    "newSlug": "la-premiere-semaine-de-classe-instaurer-les-routines-et-poser-les-bases-avec-des-fiches-pedagogiques",
+    "locale": "fr"
+  },
+  {
     "oldSlug": "pedagogie-transversale-integration-matieres-strategies",
     "newSlug": "pedagogie-transversale-integrer-plusieurs-disciplines-avec-des-fiches-pedagogiques",
     "locale": "fr"
@@ -2481,7 +2712,17 @@ export const legacyBlogSlugs: BlogLegacySlug[] = [
     "locale": "fr"
   },
   {
+    "oldSlug": "pedagogie-transversale-integration-matieres",
+    "newSlug": "pedagogie-transversale-integrer-plusieurs-disciplines-avec-des-fiches-pedagogiques",
+    "locale": "fr"
+  },
+  {
     "oldSlug": "differenciation-avancee-classe-multi-niveaux-final-optimized",
+    "newSlug": "differenciation-pedagogique-avancee-gerer-une-classe-multi-niveaux-avec-des-fiches-dexercices",
+    "locale": "fr"
+  },
+  {
+    "oldSlug": "differenciation-avancee-classe-multi-niveaux",
     "newSlug": "differenciation-pedagogique-avancee-gerer-une-classe-multi-niveaux-avec-des-fiches-dexercices",
     "locale": "fr"
   },
@@ -2492,6 +2733,11 @@ export const legacyBlogSlugs: BlogLegacySlug[] = [
   },
   {
     "oldSlug": "intervention-pedagogique-rti-final-optimized",
+    "newSlug": "intervention-pedagogique-ciblee-le-modele-rti-pour-un-soutien-personnalise",
+    "locale": "fr"
+  },
+  {
+    "oldSlug": "intervention-pedagogique-rti",
     "newSlug": "intervention-pedagogique-ciblee-le-modele-rti-pour-un-soutien-personnalise",
     "locale": "fr"
   },
@@ -2511,6 +2757,11 @@ export const legacyBlogSlugs: BlogLegacySlug[] = [
     "locale": "fr"
   },
   {
+    "oldSlug": "outils-technologiques-classe-integration-numerique-hybride",
+    "newSlug": "outils-technologiques-pour-la-classe-integration-numerique-transparente-avec-les-fiches-imprimables",
+    "locale": "fr"
+  },
+  {
     "oldSlug": "fle-strategies-fiches-visuelles-acquisition-francais-langue-etrangere",
     "newSlug": "fle-fiches-pedagogiques-visuelles-pour-lapprentissage-du-francais",
     "locale": "fr"
@@ -2522,6 +2773,11 @@ export const legacyBlogSlugs: BlogLegacySlug[] = [
   },
   {
     "oldSlug": "travail-autonome-gestion-temps-apprentissage-independant-final-optimized",
+    "newSlug": "developper-lautonomie-des-eleves-enseigner-le-travail-independant-avec-des-fiches-pedagogiques",
+    "locale": "fr"
+  },
+  {
+    "oldSlug": "travail-autonome-gestion-temps-apprentissage-independant",
     "newSlug": "developper-lautonomie-des-eleves-enseigner-le-travail-independant-avec-des-fiches-pedagogiques",
     "locale": "fr"
   },
@@ -2541,7 +2797,17 @@ export const legacyBlogSlugs: BlogLegacySlug[] = [
     "locale": "fr"
   },
   {
+    "oldSlug": "devoirs-travail-classe-approche-equilibree",
+    "newSlug": "devoirs-a-la-maison-vs-travail-en-classe-trouver-lequilibre-avec-les-fiches-pratiques",
+    "locale": "fr"
+  },
+  {
     "oldSlug": "feter-100-jours-ecole-activites-fiches-final-optimized",
+    "newSlug": "feter-les-100-jours-decole-activites-mathematiques-fiches-pedagogiques-thematiques",
+    "locale": "fr"
+  },
+  {
+    "oldSlug": "feter-100-jours-ecole-activites-fiches",
     "newSlug": "feter-les-100-jours-decole-activites-mathematiques-fiches-pedagogiques-thematiques",
     "locale": "fr"
   },
@@ -2557,6 +2823,11 @@ export const legacyBlogSlugs: BlogLegacySlug[] = [
   },
   {
     "oldSlug": "transitions-procedures-fluidite-classe-final-optimized",
+    "newSlug": "transitions-et-procedures-en-classe-maintenir-la-fluidite-avec-des-routines-basees-sur-des-fiches",
+    "locale": "fr"
+  },
+  {
+    "oldSlug": "transitions-procedures-fluidite-classe",
     "newSlug": "transitions-et-procedures-en-classe-maintenir-la-fluidite-avec-des-routines-basees-sur-des-fiches",
     "locale": "fr"
   },
@@ -2596,12 +2867,27 @@ export const legacyBlogSlugs: BlogLegacySlug[] = [
     "locale": "fr"
   },
   {
+    "oldSlug": "activites-saisonnieres-engagement-toute-annee",
+    "newSlug": "activites-saisonnieres-maintenir-lengagement-toute-lannee-avec-des-fiches-thematiques",
+    "locale": "fr"
+  },
+  {
     "oldSlug": "optimiser-temps-apprentissage-strategies-efficacite-final-optimized",
     "newSlug": "optimiser-le-temps-dapprentissage-strategies-defficacite-pedagogique",
     "locale": "fr"
   },
   {
+    "oldSlug": "optimiser-temps-apprentissage-strategies-efficacite",
+    "newSlug": "optimiser-le-temps-dapprentissage-strategies-defficacite-pedagogique",
+    "locale": "fr"
+  },
+  {
     "oldSlug": "guide-complet-maitriser-generateurs-fiches-pedagogiques-final-optimized",
+    "newSlug": "guide-complet-maitriser-les-generateurs-de-fiches-pedagogiques-de-a-a-z",
+    "locale": "fr"
+  },
+  {
+    "oldSlug": "guide-complet-maitriser-generateurs-fiches-pedagogiques",
     "newSlug": "guide-complet-maitriser-les-generateurs-de-fiches-pedagogiques-de-a-a-z",
     "locale": "fr"
   },
@@ -2617,6 +2903,11 @@ export const legacyBlogSlugs: BlogLegacySlug[] = [
   },
   {
     "oldSlug": "temoignages-enseignants-reussite-final-optimized",
+    "newSlug": "temoignages-denseignants-comment-les-generateurs-de-fiches-ont-transforme-leur-quotidien",
+    "locale": "fr"
+  },
+  {
+    "oldSlug": "temoignages-enseignants-reussite",
     "newSlug": "temoignages-denseignants-comment-les-generateurs-de-fiches-ont-transforme-leur-quotidien",
     "locale": "fr"
   },
@@ -3036,6 +3327,11 @@ export const legacyBlogSlugs: BlogLegacySlug[] = [
     "locale": "es"
   },
   {
+    "oldSlug": "fichas-visuales-aprendizaje-autismo-tea",
+    "newSlug": "aprendizaje-visual-para-ninos-con-autismo-8-generadores-de-fichas-predecibles",
+    "locale": "es"
+  },
+  {
     "oldSlug": "fichas-visuales-aprendizaje-autismo-tea-final-optimized",
     "newSlug": "aprendizaje-visual-para-ninos-con-autismo-8-generadores-de-fichas-predecibles",
     "locale": "es"
@@ -3061,7 +3357,17 @@ export const legacyBlogSlugs: BlogLegacySlug[] = [
     "locale": "es"
   },
   {
+    "oldSlug": "licencia-comercial-vender-fichas-educativas-tpt-etsy",
+    "newSlug": "licencia-comercial-vender-fichas-educativas-en-plataformas-como-tpt-y-etsy",
+    "locale": "es"
+  },
+  {
     "oldSlug": "licencia-comercial-vender-fichas-educativas-final-optimized",
+    "newSlug": "licencia-comercial-vender-fichas-educativas-en-plataformas-como-tpt-y-etsy",
+    "locale": "es"
+  },
+  {
+    "oldSlug": "licencia-comercial-vender-fichas-educativas",
     "newSlug": "licencia-comercial-vender-fichas-educativas-en-plataformas-como-tpt-y-etsy",
     "locale": "es"
   },
@@ -3091,6 +3397,11 @@ export const legacyBlogSlugs: BlogLegacySlug[] = [
     "locale": "es"
   },
   {
+    "oldSlug": "evaluacion-seguimiento-progreso-datos",
+    "newSlug": "evaluacion-y-seguimiento-del-progreso-fichas-educativas-como-herramienta-de-recopilacion-de-datos",
+    "locale": "es"
+  },
+  {
     "oldSlug": "vuelta-al-cole-planificacion-fichas-estacionales-todo-el-ano",
     "newSlug": "vuelta-al-cole-y-planificacion-de-fichas-estacionales-estrategia-de-contenido-para-todo-el-ano-escolar",
     "locale": "es"
@@ -3101,12 +3412,22 @@ export const legacyBlogSlugs: BlogLegacySlug[] = [
     "locale": "es"
   },
   {
+    "oldSlug": "vuelta-al-cole-planificacion-fichas-estacionales",
+    "newSlug": "vuelta-al-cole-y-planificacion-de-fichas-estacionales-estrategia-de-contenido-para-todo-el-ano-escolar",
+    "locale": "es"
+  },
+  {
     "oldSlug": "gestion-aula-fichas-transiciones-comportamiento-apoyo",
     "newSlug": "gestion-del-aula-como-usar-fichas-educativas-para-transiciones-ninos-que-terminan-primero-y-apoyo-conductual",
     "locale": "es"
   },
   {
     "oldSlug": "gestion-aula-fichas-transiciones-comportamiento-final-optimized",
+    "newSlug": "gestion-del-aula-como-usar-fichas-educativas-para-transiciones-ninos-que-terminan-primero-y-apoyo-conductual",
+    "locale": "es"
+  },
+  {
+    "oldSlug": "gestion-aula-fichas-transiciones-comportamiento",
     "newSlug": "gestion-del-aula-como-usar-fichas-educativas-para-transiciones-ninos-que-terminan-primero-y-apoyo-conductual",
     "locale": "es"
   },
@@ -3141,12 +3462,22 @@ export const legacyBlogSlugs: BlogLegacySlug[] = [
     "locale": "es"
   },
   {
+    "oldSlug": "aprendizaje-verano-prevenir-retroceso-academico",
+    "newSlug": "aprendizaje-en-verano-prevenir-el-retroceso-academico-con-cuadernillos-de-repaso",
+    "locale": "es"
+  },
+  {
     "oldSlug": "comprension-lectora-desarrollo-vocabulario-estrategias-fichas",
     "newSlug": "comprension-lectora-y-desarrollo-del-vocabulario-6-estrategias-con-fichas-de-trabajo",
     "locale": "es"
   },
   {
     "oldSlug": "comprension-lectora-desarrollo-vocabulario-final-optimized",
+    "newSlug": "comprension-lectora-y-desarrollo-del-vocabulario-6-estrategias-con-fichas-de-trabajo",
+    "locale": "es"
+  },
+  {
+    "oldSlug": "comprension-lectora-desarrollo-vocabulario",
     "newSlug": "comprension-lectora-y-desarrollo-del-vocabulario-6-estrategias-con-fichas-de-trabajo",
     "locale": "es"
   },
@@ -3171,12 +3502,22 @@ export const legacyBlogSlugs: BlogLegacySlug[] = [
     "locale": "es"
   },
   {
+    "oldSlug": "participacion-familiar-conexion-hogar-escuela",
+    "newSlug": "participacion-familiar-y-conexion-hogar-escuela-fichas-que-construyen-alianzas-educativas",
+    "locale": "es"
+  },
+  {
     "oldSlug": "educacion-infantil-preescolar-kinder-fichas-apropiadas-desarrollo",
     "newSlug": "educacion-infantil-preescolar-kinder-actividades-y-fichas-apropiadas-para-el-desarrollo",
     "locale": "es"
   },
   {
     "oldSlug": "educacion-infantil-preescolar-kinder-actividades-final-optimized",
+    "newSlug": "educacion-infantil-preescolar-kinder-actividades-y-fichas-apropiadas-para-el-desarrollo",
+    "locale": "es"
+  },
+  {
+    "oldSlug": "educacion-infantil-preescolar-kinder-actividades",
     "newSlug": "educacion-infantil-preescolar-kinder-actividades-y-fichas-apropiadas-para-el-desarrollo",
     "locale": "es"
   },
@@ -3246,6 +3587,11 @@ export const legacyBlogSlugs: BlogLegacySlug[] = [
     "locale": "es"
   },
   {
+    "oldSlug": "establecimiento-metas-automonitoreo-estudiantes",
+    "newSlug": "establecimiento-de-metas-y-automonitoreo-como-desarrollar-la-autonomia-del-estudiante",
+    "locale": "es"
+  },
+  {
     "oldSlug": "integracion-stem-steam-fichas-proyectos-practicos",
     "newSlug": "integracion-stemsteam-fichas-de-trabajo-que-conectan-la-teoria-con-proyectos-practicos",
     "locale": "es"
@@ -3261,8 +3607,18 @@ export const legacyBlogSlugs: BlogLegacySlug[] = [
     "locale": "es"
   },
   {
+    "oldSlug": "aprendizaje-hibrido-integracion-tecnologica-fichas",
+    "newSlug": "aprendizaje-hibrido-e-integracion-tecnologica-como-combinar-fichas-digitales-e-impresas-en-el-aula",
+    "locale": "es"
+  },
+  {
     "oldSlug": "aprendizaje-socioemocional-integracion-educacion-emocional-fichas-academicas",
     "newSlug": "aprendizaje-socioemocional-integracion-de-la-educacion-emocional-con-fichas-academicas",
+    "locale": "es"
+  },
+  {
+    "oldSlug": "tutoria-entre-pares-aprendizaje-colaborativo-aula",
+    "newSlug": "tutoria-entre-pares-cuando-ensenar-es-la-mejor-forma-de-aprender",
     "locale": "es"
   },
   {
@@ -3296,6 +3652,11 @@ export const legacyBlogSlugs: BlogLegacySlug[] = [
     "locale": "es"
   },
   {
+    "oldSlug": "celebraciones-aula-sistemas-motivacion",
+    "newSlug": "celebraciones-en-el-aula-y-sistemas-de-motivacion-reconocer-el-progreso-con-fichas-de-trabajo",
+    "locale": "es"
+  },
+  {
     "oldSlug": "recursos-aula-presupuesto-reducido-ahorro-profesores",
     "newSlug": "recursos-educativos-con-presupuesto-reducido-como-maximizar-el-aprendizaje-sin-arruinarse",
     "locale": "es"
@@ -3311,12 +3672,22 @@ export const legacyBlogSlugs: BlogLegacySlug[] = [
     "locale": "es"
   },
   {
+    "oldSlug": "cierre-anual-reflexion-celebracion-crecimiento",
+    "newSlug": "cierre-del-ano-escolar-con-sentido-reflexion-y-celebracion-del-crecimiento-academico",
+    "locale": "es"
+  },
+  {
     "oldSlug": "primera-semana-clases-rutinas-expectativas-aula",
     "newSlug": "primera-semana-de-clases-como-establecer-rutinas-y-expectativas-con-fichas-de-trabajo",
     "locale": "es"
   },
   {
     "oldSlug": "primera-semana-clases-rutinas-expectativas-final-optimized",
+    "newSlug": "primera-semana-de-clases-como-establecer-rutinas-y-expectativas-con-fichas-de-trabajo",
+    "locale": "es"
+  },
+  {
+    "oldSlug": "primera-semana-clases-rutinas-expectativas",
     "newSlug": "primera-semana-de-clases-como-establecer-rutinas-y-expectativas-con-fichas-de-trabajo",
     "locale": "es"
   },
@@ -3341,12 +3712,22 @@ export const legacyBlogSlugs: BlogLegacySlug[] = [
     "locale": "es"
   },
   {
+    "oldSlug": "diferenciacion-avanzada-aulas-multinivel",
+    "newSlug": "diferenciacion-avanzada-gestion-de-aulas-multinivel-con-fichas-de-trabajo",
+    "locale": "es"
+  },
+  {
     "oldSlug": "estrategias-intervencion-sistema-respuesta-educativa-fichas",
     "newSlug": "estrategias-de-intervencion-y-sistema-de-respuesta-a-la-intervencion-sri-fichas-para-apoyo-dirigido",
     "locale": "es"
   },
   {
     "oldSlug": "estrategias-intervencion-sistema-respuesta-educativa-final-optimized",
+    "newSlug": "estrategias-de-intervencion-y-sistema-de-respuesta-a-la-intervencion-sri-fichas-para-apoyo-dirigido",
+    "locale": "es"
+  },
+  {
+    "oldSlug": "estrategias-intervencion-sistema-respuesta-educativa",
     "newSlug": "estrategias-de-intervencion-y-sistema-de-respuesta-a-la-intervencion-sri-fichas-para-apoyo-dirigido",
     "locale": "es"
   },
@@ -3387,6 +3768,11 @@ export const legacyBlogSlugs: BlogLegacySlug[] = [
   },
   {
     "oldSlug": "salud-mental-apoyo-socioemocional-aula-final-optimized",
+    "newSlug": "salud-mental-y-apoyo-socioemocional-fichas-para-el-bienestar-integral-del-alumnado",
+    "locale": "es"
+  },
+  {
+    "oldSlug": "salud-mental-apoyo-socioemocional-aula",
     "newSlug": "salud-mental-y-apoyo-socioemocional-fichas-para-el-bienestar-integral-del-alumnado",
     "locale": "es"
   },
@@ -3432,6 +3818,11 @@ export const legacyBlogSlugs: BlogLegacySlug[] = [
   },
   {
     "oldSlug": "pensamiento-critico-resolucion-problemas-final-optimized",
+    "newSlug": "pensamiento-critico-y-resolucion-de-problemas-desarrollando-habilidades-cognitivas-superiores",
+    "locale": "es"
+  },
+  {
+    "oldSlug": "pensamiento-critico-resolucion-problemas",
     "newSlug": "pensamiento-critico-y-resolucion-de-problemas-desarrollando-habilidades-cognitivas-superiores",
     "locale": "es"
   },
@@ -3671,12 +4062,22 @@ export const legacyBlogSlugs: BlogLegacySlug[] = [
     "locale": "pt"
   },
   {
+    "oldSlug": "teoria-aprendizagem-ortografica-automaticidade-leitura",
+    "newSlug": "teoria-da-aprendizagem-ortografica-como-jogos-de-palavras-desenvolvem-leitura-automatica",
+    "locale": "pt"
+  },
+  {
     "oldSlug": "teoria-carga-cognitiva-design-atividades-educativas-sudoku",
     "newSlug": "teoria-da-carga-cognitiva-no-design-de-atividades",
     "locale": "pt"
   },
   {
     "oldSlug": "teoria-carga-cognitiva-design-atividades-educativas-final-optimized",
+    "newSlug": "teoria-da-carga-cognitiva-no-design-de-atividades",
+    "locale": "pt"
+  },
+  {
+    "oldSlug": "teoria-carga-cognitiva-design-atividades-educativas",
     "newSlug": "teoria-da-carga-cognitiva-no-design-de-atividades",
     "locale": "pt"
   },
@@ -4411,6 +4812,11 @@ export const legacyBlogSlugs: BlogLegacySlug[] = [
     "locale": "it"
   },
   {
+    "oldSlug": "addizione-cifrata",
+    "newSlug": "addizione-cifrata-quando-la-matematica-diventa-un-gioco-di-decodifica",
+    "locale": "it"
+  },
+  {
     "oldSlug": "trenino-sequenze-taglia-incolla-apprendimento-multisensoriale",
     "newSlug": "trenino-delle-sequenze-apprendimento-multisensoriale-per-il-riconoscimento-di-pattern",
     "locale": "it"
@@ -4456,6 +4862,11 @@ export const legacyBlogSlugs: BlogLegacySlug[] = [
     "locale": "it"
   },
   {
+    "oldSlug": "teoria-doppia-codifica-pratica-didattica",
+    "newSlug": "teoria-della-doppia-codifica-nella-pratica-didattica-come-immagini-e-testo-migliorano-la-memorizzazione-del-230",
+    "locale": "it"
+  },
+  {
     "oldSlug": "zona-sviluppo-prossimale-scaffolding-schede-didattiche",
     "newSlug": "zona-di-sviluppo-prossimale-come-graduare-la-difficolta-delle-schede-didattiche",
     "locale": "it"
@@ -4497,6 +4908,11 @@ export const legacyBlogSlugs: BlogLegacySlug[] = [
   },
   {
     "oldSlug": "teoria-apprendimento-ortografico-automatismo-lettura-final-optimized",
+    "newSlug": "teoria-dellapprendimento-ortografico-come-i-giochi-di-parole-sviluppano-lautomatismo-nella-lettura",
+    "locale": "it"
+  },
+  {
+    "oldSlug": "teoria-apprendimento-ortografico-automatismo-lettura",
     "newSlug": "teoria-dellapprendimento-ortografico-come-i-giochi-di-parole-sviluppano-lautomatismo-nella-lettura",
     "locale": "it"
   },
@@ -4586,6 +5002,11 @@ export const legacyBlogSlugs: BlogLegacySlug[] = [
     "locale": "it"
   },
   {
+    "oldSlug": "grafomotricita-attivita-prescolare",
+    "newSlug": "grafomotricita-e-motricita-fine-nella-scuola-dellinfanzia-pregrafismo-ritaglio-e-colorazione",
+    "locale": "it"
+  },
+  {
     "oldSlug": "migliori-10-generatori-schede-didattiche-scuola-infanzia-5-6-anni",
     "newSlug": "i-migliori-10-generatori-di-schede-didattiche-per-lultimo-anno-della-scuola-dellinfanzia-5-6-anni",
     "locale": "it"
@@ -4602,6 +5023,11 @@ export const legacyBlogSlugs: BlogLegacySlug[] = [
   },
   {
     "oldSlug": "fondamenti-matematica-scuola-infanzia-final-optimized",
+    "newSlug": "fondamenti-di-matematica-per-la-scuola-dellinfanzia-addizione-sottrazione-sequenze-e-sudoku",
+    "locale": "it"
+  },
+  {
+    "oldSlug": "fondamenti-matematica-scuola-infanzia",
     "newSlug": "fondamenti-di-matematica-per-la-scuola-dellinfanzia-addizione-sottrazione-sequenze-e-sudoku",
     "locale": "it"
   },
@@ -4626,12 +5052,22 @@ export const legacyBlogSlugs: BlogLegacySlug[] = [
     "locale": "it"
   },
   {
+    "oldSlug": "strumenti-alfabetizzazione-prima-elementare",
+    "newSlug": "strumenti-per-lalfabetizzazione-in-prima-elementare-cruciverba-cerca-parole-e-scrittura",
+    "locale": "it"
+  },
+  {
     "oldSlug": "migliori-generatori-schede-didattiche-seconda-elementare-7-8-anni",
     "newSlug": "i-10-migliori-generatori-di-schede-didattiche-per-la-seconda-elementare-7-8-anni",
     "locale": "it"
   },
   {
     "oldSlug": "migliori-10-generatori-schede-didattiche-seconda-elementare-final-optimized",
+    "newSlug": "i-10-migliori-generatori-di-schede-didattiche-per-la-seconda-elementare-7-8-anni",
+    "locale": "it"
+  },
+  {
+    "oldSlug": "migliori-10-generatori-schede-didattiche-seconda-elementare",
     "newSlug": "i-10-migliori-generatori-di-schede-didattiche-per-la-seconda-elementare-7-8-anni",
     "locale": "it"
   },
@@ -4656,12 +5092,22 @@ export const legacyBlogSlugs: BlogLegacySlug[] = [
     "locale": "it"
   },
   {
+    "oldSlug": "migliori-10-generatori-schede-didattiche-terza-elementare",
+    "newSlug": "i-migliori-10-generatori-di-schede-didattiche-per-la-terza-elementare-8-9-anni",
+    "locale": "it"
+  },
+  {
     "oldSlug": "matematica-avanzata-terza-elementare-algebra-simbolica-enigmi",
     "newSlug": "matematica-avanzata-per-la-terza-elementare-algebra-simbolica-enigmi-matematici-e-addizioni-cifrate",
     "locale": "it"
   },
   {
     "oldSlug": "matematica-avanzata-terza-elementare-algebra-simbolica-final-optimized",
+    "newSlug": "matematica-avanzata-per-la-terza-elementare-algebra-simbolica-enigmi-matematici-e-addizioni-cifrate",
+    "locale": "it"
+  },
+  {
+    "oldSlug": "matematica-avanzata-terza-elementare-algebra-simbolica",
     "newSlug": "matematica-avanzata-per-la-terza-elementare-algebra-simbolica-enigmi-matematici-e-addizioni-cifrate",
     "locale": "it"
   },
@@ -4676,12 +5122,22 @@ export const legacyBlogSlugs: BlogLegacySlug[] = [
     "locale": "it"
   },
   {
+    "oldSlug": "migliori-10-generatori-schede-didattiche-quarta-quinta-elementare",
+    "newSlug": "i-migliori-10-generatori-di-schede-didattiche-per-la-quarta-e-quinta-elementare-9-11-anni",
+    "locale": "it"
+  },
+  {
     "oldSlug": "attivita-stimolanti-scuola-primaria-quarta-quinta-elementare",
     "newSlug": "attivita-stimolanti-per-la-scuola-primaria-disegno-su-griglia-sequenze-complesse-e-logica-avanzata",
     "locale": "it"
   },
   {
     "oldSlug": "attivita-stimolanti-scuola-primaria-quarta-quinta-final-optimized",
+    "newSlug": "attivita-stimolanti-per-la-scuola-primaria-disegno-su-griglia-sequenze-complesse-e-logica-avanzata",
+    "locale": "it"
+  },
+  {
+    "oldSlug": "attivita-stimolanti-scuola-primaria-quarta-quinta",
     "newSlug": "attivita-stimolanti-per-la-scuola-primaria-disegno-su-griglia-sequenze-complesse-e-logica-avanzata",
     "locale": "it"
   },
@@ -4721,12 +5177,22 @@ export const legacyBlogSlugs: BlogLegacySlug[] = [
     "locale": "it"
   },
   {
+    "oldSlug": "attivita-schede-didattiche-adhd",
+    "newSlug": "schede-didattiche-per-bambini-con-adhd-9-strumenti-che-riducono-il-carico-cognitivo",
+    "locale": "it"
+  },
+  {
     "oldSlug": "obiettivi-terapia-occupazionale-schede-motricita-fine",
     "newSlug": "obiettivi-di-terapia-occupazionale-8-generatori-di-schede-per-la-motricita-fine",
     "locale": "it"
   },
   {
     "oldSlug": "obiettivi-terapia-occupazionale-motricita-fine-final-optimized",
+    "newSlug": "obiettivi-di-terapia-occupazionale-8-generatori-di-schede-per-la-motricita-fine",
+    "locale": "it"
+  },
+  {
+    "oldSlug": "obiettivi-terapia-occupazionale-motricita-fine",
     "newSlug": "obiettivi-di-terapia-occupazionale-8-generatori-di-schede-per-la-motricita-fine",
     "locale": "it"
   },
@@ -4761,12 +5227,22 @@ export const legacyBlogSlugs: BlogLegacySlug[] = [
     "locale": "it"
   },
   {
+    "oldSlug": "studenti-plusdotati-attivita-sfida",
+    "newSlug": "studenti-plusdotati-8-generatori-di-attivita-sfida",
+    "locale": "it"
+  },
+  {
     "oldSlug": "schede-didattiche-memoria-lavoro-supporto-visivo-dsa-bes",
     "newSlug": "memoria-di-lavoro-7-schede-didattiche-con-supporto-visivo-per-dsa-e-bes",
     "locale": "it"
   },
   {
     "oldSlug": "schede-didattiche-memoria-lavoro-supporto-visivo-final-optimized",
+    "newSlug": "memoria-di-lavoro-7-schede-didattiche-con-supporto-visivo-per-dsa-e-bes",
+    "locale": "it"
+  },
+  {
+    "oldSlug": "schede-didattiche-memoria-lavoro-supporto-visivo",
     "newSlug": "memoria-di-lavoro-7-schede-didattiche-con-supporto-visivo-per-dsa-e-bes",
     "locale": "it"
   },
@@ -4796,6 +5272,11 @@ export const legacyBlogSlugs: BlogLegacySlug[] = [
     "locale": "it"
   },
   {
+    "oldSlug": "licenza-commerciale-vendere-schede-didattiche",
+    "newSlug": "licenza-commerciale-vendere-schede-didattiche-online-e-creare-reddito-passivo",
+    "locale": "it"
+  },
+  {
     "oldSlug": "licenza-commerciale-vendere-schede-didattiche-final-optimized",
     "newSlug": "licenza-commerciale-vendere-schede-didattiche-online-e-creare-reddito-passivo",
     "locale": "it"
@@ -4817,6 +5298,11 @@ export const legacyBlogSlugs: BlogLegacySlug[] = [
   },
   {
     "oldSlug": "valutazione-monitoraggio-progressi-schede-didattiche-final-optimized",
+    "newSlug": "valutazione-e-monitoraggio-dei-progressi-come-usare-le-schede-didattiche-per-la-raccolta-dati",
+    "locale": "it"
+  },
+  {
+    "oldSlug": "valutazione-monitoraggio-progressi-schede-didattiche",
     "newSlug": "valutazione-e-monitoraggio-dei-progressi-come-usare-le-schede-didattiche-per-la-raccolta-dati",
     "locale": "it"
   },
@@ -4882,6 +5368,11 @@ export const legacyBlogSlugs: BlogLegacySlug[] = [
   },
   {
     "oldSlug": "coinvolgimento-genitori-collaborazione-scuola-famiglia-final-optimized",
+    "newSlug": "coinvolgimento-genitori-strategie-per-una-collaborazione-scuola-famiglia-efficace",
+    "locale": "it"
+  },
+  {
+    "oldSlug": "coinvolgimento-genitori-collaborazione-scuola-famiglia",
     "newSlug": "coinvolgimento-genitori-strategie-per-una-collaborazione-scuola-famiglia-efficace",
     "locale": "it"
   },
@@ -4976,6 +5467,11 @@ export const legacyBlogSlugs: BlogLegacySlug[] = [
     "locale": "it"
   },
   {
+    "oldSlug": "scrittura-interdisciplinare",
+    "newSlug": "la-scrittura-come-strumento-trasversale-integrare-la-pratica-della-scrittura-in-tutte-le-materie-scolastiche",
+    "locale": "it"
+  },
+  {
     "oldSlug": "obiettivi-apprendimento-automonitoraggio-studenti-autonomi",
     "newSlug": "definizione-di-obiettivi-e-automonitoraggio-formare-studenti-autonomi-nellapprendimento",
     "locale": "it"
@@ -4986,12 +5482,22 @@ export const legacyBlogSlugs: BlogLegacySlug[] = [
     "locale": "it"
   },
   {
+    "oldSlug": "definizione-obiettivi-studenti-automonitoraggio-autonomia",
+    "newSlug": "definizione-di-obiettivi-e-automonitoraggio-formare-studenti-autonomi-nellapprendimento",
+    "locale": "it"
+  },
+  {
     "oldSlug": "integrazione-stem-steam-attivita-pratiche-scuola-primaria",
     "newSlug": "integrazione-stemsteam-collegare-le-schede-didattiche-alle-attivita-pratiche-di-ingegneria-e-arte",
     "locale": "it"
   },
   {
     "oldSlug": "integrazione-stem-steam-attivita-pratiche-progettazione-final-optimized",
+    "newSlug": "integrazione-stemsteam-collegare-le-schede-didattiche-alle-attivita-pratiche-di-ingegneria-e-arte",
+    "locale": "it"
+  },
+  {
+    "oldSlug": "integrazione-stem-steam-attivita-pratiche-progettazione",
     "newSlug": "integrazione-stemsteam-collegare-le-schede-didattiche-alle-attivita-pratiche-di-ingegneria-e-arte",
     "locale": "it"
   },
@@ -5011,6 +5517,11 @@ export const legacyBlogSlugs: BlogLegacySlug[] = [
     "locale": "it"
   },
   {
+    "oldSlug": "apprendimento-socio-emotivo-integrazione-schede-didattiche",
+    "newSlug": "apprendimento-socio-emotivo-integrare-le-competenze-emotive-con-le-schede-didattiche",
+    "locale": "it"
+  },
+  {
     "oldSlug": "tutoraggio-tra-pari-insegnamento-reciproco-schede-didattiche",
     "newSlug": "tutoraggio-tra-pari-e-insegnamento-reciproco-schede-didattiche-per-lapprendimento-collaborativo",
     "locale": "it"
@@ -5022,6 +5533,11 @@ export const legacyBlogSlugs: BlogLegacySlug[] = [
   },
   {
     "oldSlug": "formazione-professionale-docenti-sviluppo-competenze-final-optimized",
+    "newSlug": "formazione-professionale-docenti-strumenti-didattici-per-laggiornamento-continuo",
+    "locale": "it"
+  },
+  {
+    "oldSlug": "formazione-professionale-docenti-sviluppo-competenze",
     "newSlug": "formazione-professionale-docenti-strumenti-didattici-per-laggiornamento-continuo",
     "locale": "it"
   },
@@ -5046,6 +5562,11 @@ export const legacyBlogSlugs: BlogLegacySlug[] = [
     "locale": "it"
   },
   {
+    "oldSlug": "risorse-didattiche-economiche-budget-limitato",
+    "newSlug": "risorse-didattiche-economiche-massimizzare-lapprendimento-con-budget-limitato",
+    "locale": "it"
+  },
+  {
     "oldSlug": "revisione-fine-anno-riflessione-crescita-studenti",
     "newSlug": "revisione-di-fine-anno-scolastico-attivita-di-riflessione-per-celebrare-la-crescita-degli-studenti",
     "locale": "it"
@@ -5056,12 +5577,22 @@ export const legacyBlogSlugs: BlogLegacySlug[] = [
     "locale": "it"
   },
   {
+    "oldSlug": "revisione-fine-anno-riflessione-crescita",
+    "newSlug": "revisione-di-fine-anno-scolastico-attivita-di-riflessione-per-celebrare-la-crescita-degli-studenti",
+    "locale": "it"
+  },
+  {
     "oldSlug": "prima-settimana-scuola-routine-aspettative-accoglienza",
     "newSlug": "la-prima-settimana-di-scuola-costruire-routine-e-aspettative-con-schede-didattiche-efficaci",
     "locale": "it"
   },
   {
     "oldSlug": "prima-settimana-scuola-routine-aspettative-final-optimized",
+    "newSlug": "la-prima-settimana-di-scuola-costruire-routine-e-aspettative-con-schede-didattiche-efficaci",
+    "locale": "it"
+  },
+  {
+    "oldSlug": "prima-settimana-scuola-routine-aspettative",
     "newSlug": "la-prima-settimana-di-scuola-costruire-routine-e-aspettative-con-schede-didattiche-efficaci",
     "locale": "it"
   },
@@ -5091,6 +5622,11 @@ export const legacyBlogSlugs: BlogLegacySlug[] = [
     "locale": "it"
   },
   {
+    "oldSlug": "interventi-didattici-personalizzati-monitoraggio-progressi",
+    "newSlug": "interventi-didattici-personalizzati-e-monitoraggio-dei-progressi-schede-didattiche-per-il-sostegno-mirato",
+    "locale": "it"
+  },
+  {
     "oldSlug": "valutazione-alternativa-oltre-test-tradizionali",
     "newSlug": "valutazione-alternativa-superare-i-test-tradizionali-con-metodi-autentici",
     "locale": "it"
@@ -5111,6 +5647,11 @@ export const legacyBlogSlugs: BlogLegacySlug[] = [
     "locale": "it"
   },
   {
+    "oldSlug": "lavoro-autonomo-strategie-autoregolazione-apprendimento",
+    "newSlug": "lavoro-autonomo-in-classe-strategie-per-sviluppare-lautoregolazione-negli-studenti",
+    "locale": "it"
+  },
+  {
     "oldSlug": "lavoro-autonomo-strategie-autoregolazione-apprendimento-final-optimized",
     "newSlug": "lavoro-autonomo-in-classe-strategie-per-sviluppare-lautoregolazione-negli-studenti",
     "locale": "it"
@@ -5127,6 +5668,11 @@ export const legacyBlogSlugs: BlogLegacySlug[] = [
   },
   {
     "oldSlug": "compiti-casa-lavoro-classe-equilibrio-final",
+    "newSlug": "compiti-a-casa-e-lavoro-in-classe-come-trovare-il-giusto-equilibrio",
+    "locale": "it"
+  },
+  {
+    "oldSlug": "compiti-casa-lavoro-classe-equilibrio",
     "newSlug": "compiti-a-casa-e-lavoro-in-classe-come-trovare-il-giusto-equilibrio",
     "locale": "it"
   },
@@ -5161,6 +5707,11 @@ export const legacyBlogSlugs: BlogLegacySlug[] = [
     "locale": "it"
   },
   {
+    "oldSlug": "gestione-transizioni-classe-procedure-routine-didattiche",
+    "newSlug": "gestione-delle-transizioni-in-classe-procedure-e-routine-per-eliminare-i-tempi-morti",
+    "locale": "it"
+  },
+  {
     "oldSlug": "integrazione-arte-musica-schede-didattiche-creative",
     "newSlug": "arte-e-musica-nella-didattica-schede-creative-per-lespressione-artistica",
     "locale": "it"
@@ -5191,6 +5742,11 @@ export const legacyBlogSlugs: BlogLegacySlug[] = [
     "locale": "it"
   },
   {
+    "oldSlug": "attivita-stagionali-coinvolgimento-tutto-anno",
+    "newSlug": "attivita-stagionali-per-la-scuola-mantenere-alto-il-coinvolgimento-con-schede-didattiche-a-tema",
+    "locale": "it"
+  },
+  {
     "oldSlug": "ottimizzare-tempo-didattico-strategie-efficienza-classe",
     "newSlug": "ottimizzare-il-tempo-didattico-strategie-di-efficienza-con-le-schede-operative",
     "locale": "it"
@@ -5201,12 +5757,22 @@ export const legacyBlogSlugs: BlogLegacySlug[] = [
     "locale": "it"
   },
   {
+    "oldSlug": "ottimizzare-tempo-didattico-strategie-efficienza",
+    "newSlug": "ottimizzare-il-tempo-didattico-strategie-di-efficienza-con-le-schede-operative",
+    "locale": "it"
+  },
+  {
     "oldSlug": "guida-completa-generatori-schede-didattiche-tutorial",
     "newSlug": "guida-completa-ai-generatori-di-schede-didattiche-dalla-configurazione-alla-stampa",
     "locale": "it"
   },
   {
     "oldSlug": "guida-completa-generatori-schede-didattiche-final-optimized",
+    "newSlug": "guida-completa-ai-generatori-di-schede-didattiche-dalla-configurazione-alla-stampa",
+    "locale": "it"
+  },
+  {
+    "oldSlug": "guida-completa-generatori-schede-didattiche",
     "newSlug": "guida-completa-ai-generatori-di-schede-didattiche-dalla-configurazione-alla-stampa",
     "locale": "it"
   },
@@ -5227,6 +5793,11 @@ export const legacyBlogSlugs: BlogLegacySlug[] = [
   },
   {
     "oldSlug": "storie-di-successo-testimonianze-insegnanti-final-optimized",
+    "newSlug": "storie-di-successo-insegnanti-raccontano-come-i-generatori-di-schede-hanno-trasformato-le-loro-classi",
+    "locale": "it"
+  },
+  {
+    "oldSlug": "storie-di-successo-testimonianze-insegnanti",
     "newSlug": "storie-di-successo-insegnanti-raccontano-come-i-generatori-di-schede-hanno-trasformato-le-loro-classi",
     "locale": "it"
   },
@@ -5321,8 +5892,18 @@ export const legacyBlogSlugs: BlogLegacySlug[] = [
     "locale": "nl"
   },
   {
+    "oldSlug": "werkbladen-met-afbeeldingen-onderzoek-geheugen-dubbele-codering",
+    "newSlug": "waarom-werkbladen-met-afbeeldingen-zorgen-voor-23-beter-geheugen",
+    "locale": "nl"
+  },
+  {
     "oldSlug": "werkbladen-met-afbeeldingen-onderzoek-geheugen",
     "newSlug": "waarom-werkbladen-met-afbeeldingen-zorgen-voor-23-beter-geheugen",
+    "locale": "nl"
+  },
+  {
+    "oldSlug": "visueel-cryptogram-letter-plaatje-codering-groep-1-4-geletterdheid",
+    "newSlug": "visueel-cryptogram-generator-lettercode-met-plaatjes-voor-groep-1-4",
     "locale": "nl"
   },
   {
@@ -5698,6 +6279,11 @@ export const legacyBlogSlugs: BlogLegacySlug[] = [
   {
     "oldSlug": "natuuronderwijs-woordenschat-vakintegratie-werkbladen",
     "newSlug": "woordenschat-natuuronderwijs-8-werkblad-generatoren-voor-vakintegratie",
+    "locale": "nl"
+  },
+  {
+    "oldSlug": "maatschappijleer-woordenschat-geschiedenis-aardrijkskunde",
+    "newSlug": "maatschappijleer-woordenschat-7-generatoren-voor-geschiedenis-aardrijkskunde",
     "locale": "nl"
   },
   {
@@ -6113,6 +6699,11 @@ export const legacyBlogSlugs: BlogLegacySlug[] = [
   {
     "oldSlug": "succesverhalen-leraren-werkbladen-ervaringen",
     "newSlug": "succesverhalen-leraren-delen-hun-ervaringen-met-werkbladgeneratoren",
+    "locale": "nl"
+  },
+  {
+    "oldSlug": "toekomst-onderwijs-technologie-trends-werkbladen",
+    "newSlug": "de-toekomst-van-onderwijs-technologietrends-de-rol-van-werkbladgeneratoren",
     "locale": "nl"
   },
   {
@@ -7268,6 +7859,11 @@ export const legacyBlogSlugs: BlogLegacySlug[] = [
   {
     "oldSlug": "visuelt-rumlig-udvikling-stem-faerdigheder",
     "newSlug": "visuelt-rumlig-udvikling-7-opgaveark-til-stem-faerdigheder",
+    "locale": "da"
+  },
+  {
+    "oldSlug": "foraeldre-hjemmeundervisning-arbejdsark-generatorer-laeseplaner",
+    "newSlug": "arbejdsark-generatorer-til-hjemmeundervisning-komplet-stoette-til-din-laeseplan",
     "locale": "da"
   },
   {
@@ -8923,34 +9519,14 @@ export const legacyBlogSlugs: BlogLegacySlug[] = [
 ];
 
 /**
- * Generate redirect entries for legacy blog slugs.
- * Returns array of { source, destination, permanent } for each legacy slug.
+ * Generate Next.js redirect config entries for legacy blog slugs.
+ * This is no longer used - middleware handles redirects dynamically.
+ * Kept for reference/documentation.
  */
 export function generateLegacyBlogRedirects(): Redirect[] {
-  const redirects: Redirect[] = [];
-
-  for (const { oldSlug, newSlug, locale } of legacyBlogSlugs) {
-    // Add redirect for each locale's old slug to its new slug
-    redirects.push({
-      source: `/${locale}/blog/${oldSlug}`,
-      destination: `/${locale}/blog/${newSlug}`,
-      permanent: true,
-    });
-  }
-
-  return redirects;
+  return legacyBlogSlugs.map(({ oldSlug, newSlug, locale }) => ({
+    source: `/${locale}/blog/${oldSlug}`,
+    destination: `/${locale}/blog/${newSlug}`,
+    permanent: true,
+  }));
 }
-
-/**
- * Main export function for use in next.config.js
- */
-export function generateBlogRedirects(): Redirect[] {
-  return generateLegacyBlogRedirects();
-}
-
-// CommonJS export for next.config.js compatibility
-module.exports = {
-  legacyBlogSlugs,
-  generateLegacyBlogRedirects,
-  generateBlogRedirects,
-};

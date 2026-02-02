@@ -1,14 +1,4 @@
-/**
- * Blog Legacy Slug Redirects (Generated)
- *
- * Auto-generated mapping of old blog slugs to new SEO slugs.
- * Generated from: scripts/audit-blog-legacy-slugs.js
- * Generated: 2026-02-02T15:35:42.370Z
- *
- * Total redirects: 1898
- */
-
-const legacyBlogSlugs = [
+[
   {
     "oldSlug": "33-editable-worksheet-generators-elementary-teachers",
     "newSlug": "33-editable-worksheet-generators-every-elementary-teacher-needs",
@@ -9499,6 +9489,4 @@ const legacyBlogSlugs = [
     "newSlug": "kattava-vuosisuunnitelma-opettajalle-lukuvuoden-tehtaevaemonisteiden-hallinta",
     "locale": "fi"
   }
-];
-
-module.exports = { legacyBlogSlugs };
+]

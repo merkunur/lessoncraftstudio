@@ -6165,8 +6165,8 @@ const legacyBlogSlugs = [
   }
 ];
 
-// Import cross-locale redirects (slugs accessed under wrong locale)
-const { crossLocaleSlugs, generateCrossLocaleRedirects } = require('./blog-cross-locale-redirects');
+// Note: Cross-locale redirects (wrong locale -> correct locale) are now handled
+// in middleware.ts for better scalability (12,298 redirects → 1 middleware check).
 
 /**
  * Generate legacy blog redirects (old slug -> new slug, same locale)
@@ -6180,21 +6180,15 @@ function generateLegacyBlogRedirects() {
 }
 
 /**
- * Generate all blog redirects:
- * 1. Legacy redirects: old slug -> new slug (same locale)
- * 2. Cross-locale redirects: wrong locale -> correct locale (same slug)
+ * Generate all blog redirects (legacy old slug -> new slug only).
+ * Cross-locale redirects are now handled in middleware.ts for better scalability.
  */
 function generateBlogRedirects() {
-  const legacyRedirects = generateLegacyBlogRedirects();
-  const crossLocaleRedirects = generateCrossLocaleRedirects();
-
-  return [...legacyRedirects, ...crossLocaleRedirects];
+  return generateLegacyBlogRedirects();
 }
 
 module.exports = {
   legacyBlogSlugs,
-  crossLocaleSlugs,
   generateLegacyBlogRedirects,
-  generateCrossLocaleRedirects,
   generateBlogRedirects,
 };

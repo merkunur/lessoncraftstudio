@@ -4,6 +4,16 @@ import { NextResponse } from 'next/server';
 import type { NextRequest } from 'next/server';
 import { SUPPORTED_LOCALES, isValidLocale } from '@/config/locales';
 
+// Import cross-locale slug data for middleware-based redirects
+// This replaces 12,298 static redirects with a single in-memory lookup
+import { crossLocaleSlugs } from './config/blog-cross-locale-redirects';
+
+// Build slug → nativeLocale map at startup for O(1) lookups
+const slugToLocaleMap = new Map<string, string>();
+for (const { slug, nativeLocale } of crossLocaleSlugs) {
+  slugToLocaleMap.set(slug, nativeLocale);
+}
+
 /**
  * Parse Accept-Language header to detect user's preferred language
  * Returns the first supported language or null if none match
@@ -114,9 +124,20 @@ export default function middleware(request: NextRequest) {
   const urlLocale = pathSegments[0];
   const detectedLocale = isValidLocale(urlLocale) ? urlLocale : 'en';
 
-  // Note: Blog redirect for wrong language prefixes is handled at page level
-  // The hreflang tags in sitemap and pages tell Google which version to serve
-  // Page-level redirect handles any remaining edge cases
+  // Handle blog cross-locale redirects (slug accessed under wrong language)
+  // This replaces 12,298 static redirects with a single middleware check
+  // Returns 301 permanent redirect for SEO (same as static redirects)
+  const blogMatch = pathname.match(/^\/([a-z]{2})\/blog\/(.+)$/);
+  if (blogMatch) {
+    const [, locale, slug] = blogMatch;
+    const nativeLocale = slugToLocaleMap.get(slug);
+
+    // If slug belongs to a different locale, redirect to the correct one
+    if (nativeLocale && nativeLocale !== locale) {
+      const newUrl = new URL(`/${nativeLocale}/blog/${slug}`, request.url);
+      return NextResponse.redirect(newUrl, { status: 301 });
+    }
+  }
 
   // Handle root URL (/) - redirect to English with 301 for SEO
   // CRITICAL SEO FIX: Always redirect to /en (not Accept-Language based)

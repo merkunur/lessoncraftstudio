@@ -66,6 +66,61 @@ function getHtmlFilesFromFolder(folderPath) {
 }
 
 /**
+ * Get all Markdown filenames from a blog folder
+ */
+function getMarkdownFilesFromFolder(folderPath) {
+  try {
+    if (!fs.existsSync(folderPath)) {
+      console.warn(`Folder not found: ${folderPath}`);
+      return [];
+    }
+    const files = fs.readdirSync(folderPath);
+    return files.filter(f => f.endsWith('.md') && /^\d{2,3}-/.test(f));
+  } catch (error) {
+    console.error(`Error reading folder ${folderPath}:`, error.message);
+    return [];
+  }
+}
+
+/**
+ * Extract URL slug from markdown file's **URL Slug** field
+ * Format: **URL Slug**: /blog/commercial-license-selling-worksheets-tpt-etsy
+ * Returns: commercial-license-selling-worksheets-tpt-etsy
+ */
+function extractSlugFromMarkdown(filePath) {
+  try {
+    const content = fs.readFileSync(filePath, 'utf8');
+    const match = content.match(/\*\*URL Slug\*\*:\s*\/blog\/([^\s\n]+)/);
+    return match ? match[1].trim() : null;
+  } catch (error) {
+    return null;
+  }
+}
+
+/**
+ * Build index number to markdown URL slug mapping from Markdown files
+ */
+function buildMarkdownSlugIndex(blogBuildingPath, locale) {
+  const folderName = LOCALE_FOLDER_MAP[locale];
+  const folderPath = path.join(blogBuildingPath, folderName);
+  const files = getMarkdownFilesFromFolder(folderPath);
+
+  const index = {};
+  for (const file of files) {
+    // Extract index number from filename (e.g., "058" from "058-commercial-license.md")
+    const match = file.match(/^(\d{2,3})-/);
+    if (match) {
+      const num = parseInt(match[1], 10);
+      const slug = extractSlugFromMarkdown(path.join(folderPath, file));
+      if (slug) {
+        index[num] = slug;
+      }
+    }
+  }
+  return index;
+}
+
+/**
  * Build index number to filename slug mapping from HTML files
  */
 function buildFileSlugIndex(blogBuildingPath, locale) {
@@ -110,11 +165,19 @@ async function main() {
 
   console.log(`Using blog building path: ${blogBuildingPath}\n`);
 
-  // Build file slug index for each locale
+  // Build file slug index for each locale (from HTML filenames)
   const fileSlugsByLocale = {};
   for (const locale of LOCALES) {
     fileSlugsByLocale[locale] = buildFileSlugIndex(blogBuildingPath, locale);
     console.log(`Found ${Object.keys(fileSlugsByLocale[locale]).length} HTML files for ${locale}`);
+  }
+
+  // Build markdown slug index for each locale (from **URL Slug** field in .md files)
+  console.log('\nBuilding markdown URL slug index...');
+  const markdownSlugsByLocale = {};
+  for (const locale of LOCALES) {
+    markdownSlugsByLocale[locale] = buildMarkdownSlugIndex(blogBuildingPath, locale);
+    console.log(`Found ${Object.keys(markdownSlugsByLocale[locale]).length} markdown URL slugs for ${locale}`);
   }
 
   // Fetch all published blog posts from database
@@ -138,6 +201,7 @@ async function main() {
     matches: 0,
     mismatches: 0,
     missing: 0,
+    markdownMismatches: 0,
   };
 
   for (let i = 0; i < posts.length; i++) {
@@ -152,21 +216,36 @@ async function main() {
       stats.total++;
       const dbSlug = translation.slug;
       const fileSlug = fileSlugsByLocale[locale][postIndex];
+      const markdownSlug = markdownSlugsByLocale[locale][postIndex];
 
-      if (!fileSlug) {
+      if (!fileSlug && !markdownSlug) {
         stats.missing++;
         continue;
       }
 
-      if (fileSlug === dbSlug) {
-        stats.matches++;
-      } else {
+      // Check HTML filename slug
+      if (fileSlug && fileSlug !== dbSlug) {
         stats.mismatches++;
         redirectMappings.push({
           oldSlug: fileSlug,
           newSlug: dbSlug,
           locale: locale,
           postIndex: postIndex,
+          source: 'html',
+        });
+      } else if (fileSlug && fileSlug === dbSlug) {
+        stats.matches++;
+      }
+
+      // Check markdown URL slug (if different from both DB slug and file slug)
+      if (markdownSlug && markdownSlug !== dbSlug && markdownSlug !== fileSlug) {
+        stats.markdownMismatches++;
+        redirectMappings.push({
+          oldSlug: markdownSlug,
+          newSlug: dbSlug,
+          locale: locale,
+          postIndex: postIndex,
+          source: 'markdown',
         });
       }
     }
@@ -176,8 +255,10 @@ async function main() {
   console.log('=== AUDIT RESULTS ===\n');
   console.log(`Total translations checked: ${stats.total}`);
   console.log(`Exact matches (no redirect needed): ${stats.matches}`);
-  console.log(`Mismatches (redirect needed): ${stats.mismatches}`);
+  console.log(`HTML filename mismatches (redirect needed): ${stats.mismatches}`);
+  console.log(`Markdown URL slug mismatches (additional redirects): ${stats.markdownMismatches}`);
   console.log(`Missing file slugs: ${stats.missing}`);
+  console.log(`Total redirects: ${redirectMappings.length}`);
   console.log();
 
   if (redirectMappings.length > 0) {
@@ -192,9 +273,11 @@ async function main() {
 
     for (const locale of LOCALES) {
       if (!byLocale[locale] || byLocale[locale].length === 0) continue;
-      console.log(`\n--- ${locale.toUpperCase()} (${byLocale[locale].length} redirects) ---`);
+      const htmlCount = byLocale[locale].filter(m => m.source === 'html').length;
+      const mdCount = byLocale[locale].filter(m => m.source === 'markdown').length;
+      console.log(`\n--- ${locale.toUpperCase()} (${byLocale[locale].length} redirects: ${htmlCount} HTML, ${mdCount} markdown) ---`);
       for (const m of byLocale[locale].slice(0, 5)) {
-        console.log(`  ${m.oldSlug}`);
+        console.log(`  [${m.source}] ${m.oldSlug}`);
         console.log(`  -> ${m.newSlug}`);
         console.log();
       }

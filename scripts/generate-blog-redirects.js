@@ -1,5 +1,9 @@
 /**
- * Generate blog-redirects.ts from audit JSON output
+ * Generate blog-redirects.ts and blog-redirects.js from audit JSON output
+ *
+ * We generate BOTH files because:
+ * - .ts: Used by middleware.ts (Next.js compiles TypeScript at runtime)
+ * - .js: Used by next.config.js (Node.js cannot require TypeScript directly)
  *
  * Usage: node scripts/generate-blog-redirects.js
  */
@@ -99,26 +103,82 @@ module.exports = {
 };
 `;
 
-// Find output path
-const possibleOutputPaths = [
-  path.join(__dirname, '..', 'frontend', 'config', 'blog-redirects.ts'),
-  '/opt/lessoncraftstudio/frontend/config/blog-redirects.ts',
+// JavaScript version (no TypeScript syntax)
+const jsContent = `/**
+ * Blog Legacy Slug Redirects (Generated)
+ *
+ * Auto-generated mapping of old blog slugs to new SEO slugs.
+ * Generated from: scripts/audit-blog-legacy-slugs.js
+ * Generated: ${new Date().toISOString()}
+ *
+ * NOTE: This is the JavaScript version for next.config.js (Node.js cannot require .ts)
+ * The TypeScript version (blog-redirects.ts) is used by middleware.ts
+ *
+ * Total redirects: ${slugs.length}
+ */
+
+const legacyBlogSlugs = ${JSON.stringify(slugs, null, 2)};
+
+/**
+ * Generate redirect entries for legacy blog slugs.
+ * Returns array of { source, destination, permanent } for each legacy slug.
+ */
+function generateLegacyBlogRedirects() {
+  const redirects = [];
+
+  for (const { oldSlug, newSlug, locale } of legacyBlogSlugs) {
+    // Add redirect for each locale's old slug to its new slug
+    redirects.push({
+      source: \`/\${locale}/blog/\${oldSlug}\`,
+      destination: \`/\${locale}/blog/\${newSlug}\`,
+      permanent: true,
+    });
+  }
+
+  return redirects;
+}
+
+/**
+ * Main export function for use in next.config.js
+ */
+function generateBlogRedirects() {
+  return generateLegacyBlogRedirects();
+}
+
+module.exports = {
+  legacyBlogSlugs,
+  generateLegacyBlogRedirects,
+  generateBlogRedirects,
+};
+`;
+
+// Find config directory
+const possibleDirs = [
+  path.join(__dirname, '..', 'frontend', 'config'),
+  '/opt/lessoncraftstudio/frontend/config',
 ];
 
-let outputPath = null;
-for (const p of possibleOutputPaths) {
-  const dir = path.dirname(p);
-  if (fs.existsSync(dir)) {
-    outputPath = p;
+let configDir = null;
+for (const d of possibleDirs) {
+  if (fs.existsSync(d)) {
+    configDir = d;
     break;
   }
 }
 
-if (!outputPath) {
+if (!configDir) {
   console.error('Could not find frontend/config directory');
   process.exit(1);
 }
 
-fs.writeFileSync(outputPath, content);
-console.log(`Generated ${outputPath}`);
+// Write both files
+const tsPath = path.join(configDir, 'blog-redirects.ts');
+const jsPath = path.join(configDir, 'blog-redirects.js');
+
+fs.writeFileSync(tsPath, content);
+console.log(`Generated ${tsPath}`);
+
+fs.writeFileSync(jsPath, jsContent);
+console.log(`Generated ${jsPath}`);
+
 console.log(`Total redirects: ${slugs.length}`);

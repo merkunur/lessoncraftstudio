@@ -1,6 +1,6 @@
 const createNextIntlPlugin = require('next-intl/plugin');
 const { generateProductPageRedirects, generateLegacyAppIdRedirects } = require('./config/redirects.js');
-const { generateBlogRedirects } = require('./config/blog-redirects.ts');
+const { generateBlogRedirects } = require('./config/blog-redirects.js');
 
 const withNextIntl = createNextIntlPlugin('./i18n/request.ts');
 

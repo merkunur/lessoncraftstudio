@@ -7,6 +7,7 @@
 
 import { ProductPageContent } from '@/components/product-page/ProductPageClient';
 import { getHreflangCode } from '@/lib/schema-generator';
+import { SUPPORTED_LOCALES } from '@/config/locales';
 
 // English content imports
 import wordSearchEnContent from '@/content/product-pages/en/word-search-worksheets';
@@ -1812,9 +1813,28 @@ export function getAllStaticParams(): { locale: string; slug: string }[] {
 }
 
 /**
+ * Get content by appId for a specific locale
+ * Searches through all slugs in the locale's registry
+ */
+export function getContentByAppId(locale: string, appId: string): ProductPageContent | undefined {
+  const localeContent = contentRegistry[locale];
+  if (!localeContent) return undefined;
+
+  for (const content of Object.values(localeContent)) {
+    if (content.seo?.appId === appId) {
+      return content;
+    }
+  }
+  return undefined;
+}
+
+/**
  * Get alternate URLs for hreflang tags
  * Returns all available language versions of the same app
  * Uses regional hreflang codes (pt-BR, es-MX) for better SEO in target markets
+ *
+ * SEO FIX: Iterate through SUPPORTED_LOCALES to ensure all locales are checked
+ * This guarantees complete hreflang coverage for international SEO
  */
 export function getAlternateLanguageUrls(
   appId: string,
@@ -1822,15 +1842,12 @@ export function getAlternateLanguageUrls(
 ): Record<string, string> {
   const alternates: Record<string, string> = {};
 
-  for (const [locale, slugs] of Object.entries(contentRegistry)) {
-    for (const [slug, content] of Object.entries(slugs)) {
-      // Check if this content matches the appId
-      if (content.seo?.appId === appId) {
-        // Use proper hreflang code (e.g., pt-BR, es-MX) as the key
-        const hreflangCode = getHreflangCode(locale);
-        alternates[hreflangCode] = `${baseUrl}/${locale}/apps/${content.seo.slug}`;
-        break; // Only one URL per locale
-      }
+  // Iterate through all supported locales to ensure complete coverage
+  for (const locale of SUPPORTED_LOCALES) {
+    const content = getContentByAppId(locale, appId);
+    if (content?.seo?.slug) {
+      const hreflangCode = getHreflangCode(locale);
+      alternates[hreflangCode] = `${baseUrl}/${locale}/apps/${content.seo.slug}`;
     }
   }
 

@@ -62,6 +62,9 @@ export function generateBlogSchemas(post: BlogPostData, locale: string, baseUrl:
   };
 
   const postUrl = `${baseUrl}/${locale}/blog/${post.slug}`;
+  // SEO FIX: Use full post.title for headline (not truncated metaTitle)
+  // Google recommends headline matches actual article title for rich snippets
+  const headline = post.title;
   const title = post.metaTitle || post.title;
   const description = post.metaDescription || post.excerpt || '';
   const image = post.featuredImage ? `${baseUrl}${post.featuredImage}` : `${baseUrl}/default-blog-image.svg`;
@@ -70,7 +73,7 @@ export function generateBlogSchemas(post: BlogPostData, locale: string, baseUrl:
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
-    "headline": title,
+    "headline": headline,
     "description": description,
     "image": image,
     "author": {

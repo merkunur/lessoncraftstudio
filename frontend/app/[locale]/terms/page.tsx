@@ -17,15 +17,18 @@ export async function generateMetadata({ params }: { params: { locale: string } 
   }
   hreflangAlternates['x-default'] = `${baseUrl}/en/terms`;
 
+  // SEO: Add brand name to title for better SERP recognition
+  const pageTitle = `${t('title')} | LessonCraftStudio`;
+
   return {
-    title: t('title'),
+    title: pageTitle,
     description: t('acceptance.content'),
     alternates: {
       canonical: `${baseUrl}/${locale}/terms`,
       languages: hreflangAlternates
     },
     openGraph: {
-      title: t('title'),
+      title: pageTitle,
       description: t('acceptance.content'),
       type: 'website',
       url: `${baseUrl}/${locale}/terms`,

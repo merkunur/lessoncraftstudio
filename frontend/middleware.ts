@@ -294,15 +294,19 @@ export default function middleware(request: NextRequest) {
   }
 
   // Skip middleware for admin and other app routes (but NOT dashboard - it needs i18n)
+  // SEO FIX: Add X-Robots-Tag: noindex for sensitive routes to prevent indexing
   if (pathname.startsWith('/admin') ||
       pathname.startsWith('/settings') ||
       pathname.startsWith('/notifications') ||
       pathname.startsWith('/collaboration') ||
       pathname.startsWith('/testing') ||
       pathname.startsWith('/search')) {
-    return NextResponse.next({
+    const response = NextResponse.next({
       request: { headers: requestHeaders }
     });
+    // SEO: Prevent indexing of admin/internal pages
+    response.headers.set('X-Robots-Tag', 'noindex, nofollow');
+    return response;
   }
 
   // Handle static pages with language persistence

@@ -1,7 +1,17 @@
 import { Suspense } from 'react';
+import { Metadata } from 'next';
 import VerifyEmailPageContent from '@/app/auth/verify-email/client';
 
 export const dynamic = 'force-dynamic';
+
+// SEO: Auth pages should not be indexed
+export const metadata: Metadata = {
+  title: 'Verify Email | LessonCraftStudio',
+  robots: {
+    index: false,
+    follow: false,
+  },
+};
 
 export default function VerifyEmailPage() {
   return (

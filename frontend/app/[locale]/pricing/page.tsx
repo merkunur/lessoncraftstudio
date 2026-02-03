@@ -5,6 +5,7 @@ import FAQAccordion from '@/components/FAQAccordion';
 import PricingCards from '@/components/PricingCards';
 import { getHreflangCode, ogLocaleMap } from '@/lib/schema-generator';
 import { SUPPORTED_LOCALES } from '@/config/locales';
+import { PricingPageTracker } from '@/components/tracking';
 
 interface PricingPageProps {
   params: {
@@ -26,15 +27,18 @@ export async function generateMetadata({ params }: { params: { locale: string } 
   }
   hreflangAlternates['x-default'] = `${baseUrl}/en/pricing`;
 
+  // SEO FIX: Include brand name in title for better recognition and CTR
+  const pageTitle = `${t('heroTitle')} | LessonCraftStudio`;
+
   return {
-    title: t('heroTitle'),
+    title: pageTitle,
     description: t('heroSubtitle'),
     alternates: {
       canonical: `${baseUrl}/${locale}/pricing`,
       languages: hreflangAlternates
     },
     openGraph: {
-      title: t('heroTitle'),
+      title: pageTitle,
       description: t('heroSubtitle'),
       type: 'website',
       url: `${baseUrl}/${locale}/pricing`,
@@ -204,6 +208,9 @@ export default async function PricingPage({ params: { locale } }: PricingPagePro
 
   return (
     <div className="min-h-screen bg-gray-50">
+      {/* Pinterest conversion tracking for pricing page views */}
+      <PricingPageTracker />
+
       {/* Hero Section */}
       <section className="bg-gradient-to-b from-primary-50 to-white py-16">
         <div className="container mx-auto px-4">

@@ -984,11 +984,13 @@ export async function generateMetadata({ params }: BlogPostPageProps) {
     // This ensures proper bidirectional linking as required by Google
     // Blog posts ARE translations (shared database record, same metadata)
     // Hreflang helps Google serve the right language version to each user
+    // SEO FIX: Include language versions that have at least a slug OR title
+    // This ensures bidirectional linking is complete (Google requires all languages to link to each other)
     const languageAlternates: Record<string, string> = {};
     for (const lang of SUPPORTED_LOCALES) {
       const langTranslation = translations[lang];
-      // Only include languages that have actual translated content
-      if (langTranslation?.title && langTranslation?.content) {
+      // Include languages that have a slug, title, or content - any indicates translation exists
+      if (langTranslation?.slug || langTranslation?.title || langTranslation?.content) {
         const langSlug = langTranslation.slug || post.slug;
         const hreflangCode = getHreflangCode(lang);
         languageAlternates[hreflangCode] = `${baseUrl}/${lang}/blog/${langSlug}`;

@@ -758,7 +758,8 @@ export interface SampleImageData {
 export function generateImageObjectSchema(
   image: SampleImageData,
   pageUrl: string,
-  baseUrl: string = getBaseUrl()
+  baseUrl: string = getBaseUrl(),
+  locale: string = 'en'
 ) {
   // Encode URL properly for spaces
   const encodedSrc = image.src.replace(/ /g, '%20');
@@ -793,8 +794,9 @@ export function generateImageObjectSchema(
     "height": image.height || 3508,
     "encodingFormat": image.src.endsWith('.webp') ? 'image/webp' : 'image/jpeg',
     ...(encodedThumb && { "thumbnailUrl": `${baseUrl}${encodedThumb}` }),
-    "license": `${baseUrl}/terms`,
-    "acquireLicensePage": `${baseUrl}/pricing`,
+    // SEO FIX: Use locale-prefixed URLs to avoid redirects in schema
+    "license": `${baseUrl}/${locale}/terms`,
+    "acquireLicensePage": `${baseUrl}/${locale}/pricing`,
     "creditText": "LessonCraftStudio",
     "copyrightNotice": "© 2024-2026 LessonCraftStudio",
     "creator": {
@@ -871,7 +873,8 @@ export function generateImageGallerySchema(
       "educationalUse": ["assignment", "homework", "practice"],
       "isAccessibleForFree": true
     },
-    "license": `${baseUrl}/terms`,
+    // SEO FIX: Use locale-prefixed URL to avoid redirects
+    "license": `${baseUrl}/${locale}/terms`,
     "isAccessibleForFree": true
   };
 }
@@ -949,7 +952,7 @@ export function generateAllProductPageSchemas(
   // 4. ImageObject schemas for all sample images
   if (sampleImages && sampleImages.length > 0) {
     for (const image of sampleImages) {
-      schemas.push(generateImageObjectSchema(image, pageUrl, baseUrl));
+      schemas.push(generateImageObjectSchema(image, pageUrl, baseUrl, locale));
     }
   }
 
@@ -1044,6 +1047,7 @@ export function generateAppProductSchemas(
   schemas.push(softwareAppSchema);
 
   // 2. BreadcrumbList Schema (for navigation context)
+  // SEO FIX: Per Google spec, the last breadcrumb item should NOT have "item" property
   const breadcrumbSchema = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -1063,8 +1067,8 @@ export function generateAppProductSchemas(
       {
         "@type": "ListItem",
         "position": 3,
-        "name": appData.name,
-        "item": pageUrl
+        "name": appData.name
+        // No "item" property for current page (Google spec)
       }
     ]
   };

@@ -1,7 +1,17 @@
 import { Suspense } from 'react';
+import { Metadata } from 'next';
 import SignInClient from './signin-client';
 
 export const dynamic = 'force-dynamic';
+
+// SEO: Auth pages should not be indexed - they serve no SEO purpose
+export const metadata: Metadata = {
+  title: 'Sign In | LessonCraftStudio',
+  robots: {
+    index: false,
+    follow: false,
+  },
+};
 
 export default function SignInPage() {
   return (

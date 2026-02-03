@@ -24,7 +24,7 @@ export const revalidate = 1800;
  * - 0.3: Legal pages (terms, privacy)
  */
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const baseUrl = process.env.NEXT_PUBLIC_APP_URL || 'https://www.lessoncraftstudio.com';
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.lessoncraftstudio.com';
 
   // Supported locales (from centralized config)
   const locales = [...SUPPORTED_LOCALES];

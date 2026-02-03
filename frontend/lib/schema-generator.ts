@@ -10,7 +10,7 @@ import { SUPPORTED_LOCALES } from '@/config/locales';
  * Get the base URL from environment variable or use production default
  */
 function getBaseUrl(): string {
-  return process.env.NEXT_PUBLIC_APP_URL || 'https://www.lessoncraftstudio.com';
+  return process.env.NEXT_PUBLIC_SITE_URL || 'https://www.lessoncraftstudio.com';
 }
 
 interface BlogPostData {

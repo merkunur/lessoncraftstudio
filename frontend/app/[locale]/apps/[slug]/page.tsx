@@ -532,7 +532,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const content = getContentBySlug(params.locale, params.slug);
   if (content?.seo) {
     const alternateUrls = getAlternateLanguageUrls(content.seo.appId || params.slug);
-    const canonicalUrl = content.seo.canonicalUrl || `https://www.lessoncraftstudio.com/${params.locale}/apps/${params.slug}`;
+    const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.lessoncraftstudio.com';
+    const canonicalUrl = content.seo.canonicalUrl || `${baseUrl}/${params.locale}/apps/${params.slug}`;
 
     // Get og:image - prefer seo.images array, fall back to hero preview image or first sample
     const languageFolder = localeToLanguageFolder[params.locale] || 'english';
@@ -625,6 +626,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   // SEO FIX: Fallback URLs (legacy app IDs) should NOT be indexed
   // Only content registry pages (with proper SEO metadata) should be indexed
   // This prevents duplicate canonical issues
+  const fallbackBaseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.lessoncraftstudio.com';
   return {
     title: `${appData.name || appData.appId} - LessonCraftStudio`,
     description: appData.description || `Create professional ${appData.name || appData.appId} worksheets for your educational materials`,
@@ -634,7 +636,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       follow: true,
     },
     alternates: {
-      canonical: `https://www.lessoncraftstudio.com/${params.locale}/apps/${params.slug}`,
+      canonical: `${fallbackBaseUrl}/${params.locale}/apps/${params.slug}`,
     },
   };
 }

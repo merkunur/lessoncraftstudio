@@ -12,6 +12,10 @@ import { crossLocaleSlugs } from './config/blog-cross-locale-redirects';
 // This handles 12,310 additional redirects (1,231 old slugs × 10 wrong locales)
 const { legacyBlogSlugs } = require('./config/blog-redirects');
 
+// Import product page slugs for legacy appId → localized slug redirects
+// This fixes 404 errors for URLs like /de/apps/image-addition → /de/apps/addition-arbeitsblaetter
+import { productPageSlugs } from './config/product-page-slugs';
+
 // Build slug → nativeLocale map at startup for O(1) lookups
 const slugToLocaleMap = new Map<string, string>();
 for (const { slug, nativeLocale } of crossLocaleSlugs) {
@@ -23,6 +27,20 @@ for (const { slug, nativeLocale } of crossLocaleSlugs) {
 const oldSlugMap = new Map<string, { nativeLocale: string; newSlug: string }>();
 for (const { oldSlug, newSlug, locale } of legacyBlogSlugs as Array<{ oldSlug: string; newSlug: string; locale: string }>) {
   oldSlugMap.set(oldSlug, { nativeLocale: locale, newSlug });
+}
+
+// Build legacy appId → localized slugs map for product page redirects
+// This redirects /de/apps/image-addition → /de/apps/addition-arbeitsblaetter (818 pages fix)
+// Map structure: appId → { locale → localizedSlug }
+const legacyAppIdToLocalizedSlugs = new Map<string, Record<string, string>>();
+for (const app of productPageSlugs) {
+  const localeToSlug: Record<string, string> = {};
+  for (const [locale, slug] of Object.entries(app.slugs)) {
+    if (slug) {
+      localeToSlug[locale] = slug;
+    }
+  }
+  legacyAppIdToLocalizedSlugs.set(app.appId, localeToSlug);
 }
 
 /**
@@ -126,6 +144,15 @@ function continueWithIntlMiddleware(
 export default function middleware(request: NextRequest) {
   const pathname = request.nextUrl.pathname;
 
+  // SEO FIX: Redirect non-www to www for canonical consistency
+  // This prevents "Google chose different canonical" errors from www vs non-www
+  const hostname = request.nextUrl.hostname;
+  if (hostname === 'lessoncraftstudio.com') {
+    const url = request.nextUrl.clone();
+    url.hostname = 'www.lessoncraftstudio.com';
+    return NextResponse.redirect(url, 301);
+  }
+
   // Set pathname header for root layout to detect locale for SEO (html lang attribute)
   const requestHeaders = new Headers(request.headers);
   requestHeaders.set('x-pathname', pathname);
@@ -178,6 +205,26 @@ export default function middleware(request: NextRequest) {
           const newUrl = new URL(`/${strippedNativeLocale}/blog/${strippedSlug}`, request.url);
           return NextResponse.redirect(newUrl, { status: 301 });
         }
+      }
+    }
+  }
+
+  // SEO FIX: Handle legacy appId redirects for product pages
+  // This fixes 404 errors for URLs like /de/apps/image-addition → /de/apps/addition-arbeitsblaetter
+  // Returns 301 permanent redirect to pass link equity and fix indexing
+  const appsMatch = pathname.match(/^\/([a-z]{2})\/apps\/([a-z0-9-]+)$/);
+  if (appsMatch) {
+    const [, locale, slug] = appsMatch;
+
+    // Check if this slug is a legacy appId that should redirect to a localized slug
+    const localizedSlugs = legacyAppIdToLocalizedSlugs.get(slug);
+    if (localizedSlugs) {
+      // Get the proper localized slug for this locale (or fallback to English)
+      const targetSlug = localizedSlugs[locale] || localizedSlugs['en'];
+      // Only redirect if the target slug is different from current slug
+      if (targetSlug && targetSlug !== slug) {
+        const newUrl = new URL(`/${locale}/apps/${targetSlug}`, request.url);
+        return NextResponse.redirect(newUrl, { status: 301 });
       }
     }
   }

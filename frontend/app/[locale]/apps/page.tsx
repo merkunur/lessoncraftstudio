@@ -1,10 +1,12 @@
 import { Metadata } from 'next';
+import Link from 'next/link';
 import { Button } from '@/components/ui/Button';
 import { getTranslations } from 'next-intl/server';
 import AppCard from '@/components/apps/AppCard';
 import { generateAppsCollectionSchema, generateAppsItemListSchema, getHreflangCode, ogLocaleMap } from '@/lib/schema-generator';
 import { productPageSlugs } from '@/config/product-page-slugs';
 import { SUPPORTED_LOCALES } from '@/config/locales';
+import { getRecentBlogPosts } from '@/lib/blog-data';
 
 // Localized SEO metadata for all 11 languages
 // Keywords focus on PLATFORM-LEVEL terms to avoid cannibalization with individual product pages
@@ -729,6 +731,9 @@ export default async function AppsPage({ params: { locale } }: PageProps) {
     console.error(`Failed to load translations for locale: ${locale}`);
   }
 
+  // Fetch recent blog posts for internal linking
+  const recentBlogPosts = await getRecentBlogPosts(locale, 3);
+
   // Generate JSON-LD schema for SEO
   const collectionSchema = generateAppsCollectionSchema(locale);
 
@@ -1000,6 +1005,61 @@ export default async function AppsPage({ params: { locale } }: PageProps) {
           </div>
         </div>
       </section>
+
+      {/* Teaching Tips from Blog - SEO Internal Linking */}
+      {recentBlogPosts.length > 0 && (
+        <section className="py-12 bg-white">
+          <div className="container mx-auto px-4">
+            <h2 className="text-2xl font-bold text-center mb-8 text-gray-900">
+              {locale === 'de' ? 'Tipps und Ressourcen für Lehrer' :
+               locale === 'fr' ? 'Conseils et ressources pédagogiques' :
+               locale === 'es' ? 'Consejos y recursos para maestros' :
+               locale === 'it' ? 'Consigli e risorse per insegnanti' :
+               locale === 'pt' ? 'Dicas e recursos para professores' :
+               locale === 'nl' ? 'Tips en hulpmiddelen voor leraren' :
+               locale === 'sv' ? 'Tips och resurser för lärare' :
+               locale === 'da' ? 'Tips og ressourcer til lærere' :
+               locale === 'no' ? 'Tips og ressurser for lærere' :
+               locale === 'fi' ? 'Vinkkejä ja resursseja opettajille' :
+               'Teaching Tips & Resources'}
+            </h2>
+            <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
+              {recentBlogPosts.map((post) => (
+                <Link
+                  key={post.slug}
+                  href={`/${locale}/blog/${post.slug}`}
+                  className="bg-gray-50 rounded-lg p-6 hover:shadow-md transition-shadow"
+                >
+                  <span className="text-xs text-blue-600 uppercase tracking-wide font-medium">
+                    {post.category}
+                  </span>
+                  <h3 className="font-semibold mt-2 mb-2 text-gray-900 line-clamp-2">{post.title}</h3>
+                  <p className="text-sm text-gray-600 line-clamp-2">{post.excerpt}</p>
+                </Link>
+              ))}
+            </div>
+            <div className="text-center mt-8">
+              <Link
+                href={`/${locale}/blog`}
+                className="text-blue-600 hover:underline font-medium inline-flex items-center gap-1"
+              >
+                {locale === 'de' ? 'Alle Artikel anzeigen' :
+                 locale === 'fr' ? 'Voir tous les articles' :
+                 locale === 'es' ? 'Ver todos los artículos' :
+                 locale === 'it' ? 'Vedi tutti gli articoli' :
+                 locale === 'pt' ? 'Ver todos os artigos' :
+                 locale === 'nl' ? 'Bekijk alle artikelen' :
+                 locale === 'sv' ? 'Visa alla artiklar' :
+                 locale === 'da' ? 'Se alle artikler' :
+                 locale === 'no' ? 'Se alle artikler' :
+                 locale === 'fi' ? 'Näytä kaikki artikkelit' :
+                 'View All Articles'}
+                <span aria-hidden="true">→</span>
+              </Link>
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* CTA Section */}
       <section className="py-16 bg-gradient-to-r from-blue-600 to-purple-600 text-white">

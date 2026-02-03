@@ -78,10 +78,10 @@ export default function RelatedProducts({
   keywords = [],
   limit = 4
 }: RelatedProductsProps) {
-  // Extract keywords from content if not provided
+  // Extract keywords from content if not provided (pass locale for multilingual support)
   const extractedKeywords = keywords.length > 0
     ? keywords
-    : extractKeywordsFromContent(htmlContent);
+    : extractKeywordsFromContent(htmlContent, locale);
 
   // Get related products based on keywords and category
   const products = getRelatedProducts(

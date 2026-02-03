@@ -6,6 +6,8 @@ import { prisma } from '@/lib/prisma';
 import Breadcrumb from '@/components/Breadcrumb';
 import { getHreflangCode, ogLocaleMap } from '@/lib/schema-generator';
 import { SUPPORTED_LOCALES } from '@/config/locales';
+import RelatedProducts from '@/components/blog/RelatedProducts';
+import type { SupportedLocale } from '@/config/product-page-slugs';
 
 // Enable ISR - revalidate every 30 minutes
 export const revalidate = 1800;
@@ -412,6 +414,18 @@ export default async function CategoryPage({ params, searchParams }: CategoryPag
               >
                 View all articles
               </Link>
+            </div>
+          )}
+
+          {/* Related Products Section - SEO Internal Linking */}
+          {posts.length > 0 && (
+            <div className="mt-12">
+              <RelatedProducts
+                locale={locale as SupportedLocale}
+                category={category}
+                keywords={[]}
+                limit={4}
+              />
             </div>
           )}
 

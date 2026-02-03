@@ -1,10 +1,13 @@
 import { getTranslations } from 'next-intl/server';
 import type { Metadata } from 'next';
+import Link from 'next/link';
 import BlogPageClient from './BlogPageClient';
 import { getBlogPostsForLocale, getBlogCategoriesForLocale } from '@/lib/blog-data';
 import Breadcrumb from '@/components/Breadcrumb';
 import { getHreflangCode, ogLocaleMap } from '@/lib/schema-generator';
 import { SUPPORTED_LOCALES } from '@/config/locales';
+import { getRelatedProductsByCategory } from '@/lib/internal-linking';
+import type { SupportedLocale } from '@/config/product-page-slugs';
 
 // Enable ISR - revalidate every 30 minutes (reduced from 1 hour for faster updates)
 export const revalidate = 1800;
@@ -219,6 +222,9 @@ export default async function BlogPage({ params, searchParams }: BlogPageProps) 
 
   const blogMeta = localeMeta[params.locale as keyof typeof localeMeta] || localeMeta.en;
 
+  // Fetch featured products for the product showcase section (SEO internal linking)
+  const featuredProducts = getRelatedProductsByCategory('teaching-resources', params.locale as SupportedLocale, 4);
+
   const collectionSchema = {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
@@ -261,6 +267,72 @@ export default async function BlogPage({ params, searchParams }: BlogPageProps) 
         initialPage={currentPage}
         totalPages={totalPages}
       />
+
+      {/* Product Showcase Section - SEO Internal Linking */}
+      {featuredProducts.length > 0 && (
+        <section className="py-12 bg-gray-100">
+          <div className="container mx-auto px-4">
+            <h2 className="text-2xl font-bold text-center mb-4 text-gray-900">
+              {params.locale === 'de' ? 'Erstelle deine eigenen Arbeitsblätter' :
+               params.locale === 'fr' ? 'Créez vos propres fiches' :
+               params.locale === 'es' ? 'Crea tus propias fichas' :
+               params.locale === 'it' ? 'Crea le tue schede' :
+               params.locale === 'pt' ? 'Crie suas próprias fichas' :
+               params.locale === 'nl' ? 'Maak je eigen werkbladen' :
+               params.locale === 'sv' ? 'Skapa dina egna arbetsblad' :
+               params.locale === 'da' ? 'Lav dine egne arbejdsark' :
+               params.locale === 'no' ? 'Lag dine egne arbeidsark' :
+               params.locale === 'fi' ? 'Luo omat työarkkisi' :
+               'Create Your Own Worksheets'}
+            </h2>
+            <p className="text-center text-gray-600 mb-8 max-w-2xl mx-auto">
+              {params.locale === 'de' ? 'Nutze unsere kostenlosen Arbeitsblatt-Generatoren um individuelle Lernmaterialien zu erstellen.' :
+               params.locale === 'fr' ? 'Utilisez nos générateurs de fiches gratuits pour créer des matériaux pédagogiques personnalisés.' :
+               params.locale === 'es' ? 'Usa nuestros generadores de fichas gratuitos para crear materiales educativos personalizados.' :
+               params.locale === 'it' ? 'Usa i nostri generatori di schede gratuiti per creare materiali didattici personalizzati.' :
+               params.locale === 'pt' ? 'Use nossos geradores de fichas gratuitos para criar materiais educacionais personalizados.' :
+               params.locale === 'nl' ? 'Gebruik onze gratis werkbladgeneratoren om persoonlijke leermaterialen te maken.' :
+               params.locale === 'sv' ? 'Använd våra gratis arbetsbladsgeneratorer för att skapa personliga läromedel.' :
+               params.locale === 'da' ? 'Brug vores gratis arbejdsarkgeneratorer til at oprette personlige lærematerialer.' :
+               params.locale === 'no' ? 'Bruk våre gratis arbeidsarkgeneratorer for å lage personlige læremateriell.' :
+               params.locale === 'fi' ? 'Käytä ilmaisia työarkkigeneraattoreitamme henkilökohtaisten oppimateriaalien luomiseen.' :
+               'Use our free worksheet generators to create custom educational materials.'}
+            </p>
+            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-5xl mx-auto">
+              {featuredProducts.map((product) => (
+                <Link
+                  key={product.appId}
+                  href={product.url}
+                  className="bg-white rounded-lg p-6 text-center hover:shadow-lg transition-shadow"
+                >
+                  <span className="text-4xl block mb-4">{product.icon}</span>
+                  <h3 className="font-semibold text-gray-900 mb-2">{product.name}</h3>
+                  <p className="text-sm text-gray-600 line-clamp-2">{product.description}</p>
+                </Link>
+              ))}
+            </div>
+            <div className="text-center mt-8">
+              <Link
+                href={`/${params.locale}/apps`}
+                className="inline-flex items-center gap-2 px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-medium"
+              >
+                {params.locale === 'de' ? 'Alle 33 Generatoren anzeigen' :
+                 params.locale === 'fr' ? 'Voir les 33 générateurs' :
+                 params.locale === 'es' ? 'Ver los 33 generadores' :
+                 params.locale === 'it' ? 'Vedi tutti i 33 generatori' :
+                 params.locale === 'pt' ? 'Ver todos os 33 geradores' :
+                 params.locale === 'nl' ? 'Bekijk alle 33 generatoren' :
+                 params.locale === 'sv' ? 'Visa alla 33 generatorer' :
+                 params.locale === 'da' ? 'Se alle 33 generatorer' :
+                 params.locale === 'no' ? 'Se alle 33 generatorer' :
+                 params.locale === 'fi' ? 'Näytä kaikki 33 generaattoria' :
+                 'Browse All 33 Generators'}
+                <span aria-hidden="true">→</span>
+              </Link>
+            </div>
+          </div>
+        </section>
+      )}
     </>
   );
 }

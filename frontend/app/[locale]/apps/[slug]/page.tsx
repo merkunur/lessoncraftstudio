@@ -3668,133 +3668,53 @@ export default async function AppPage({ params: { locale, slug } }: PageProps) {
   }
 
   // Legacy fallback for content not yet in the registry
-  // TODO: Remove these once all content files have SEO sections
-  if (slug === 'addition-worksheets' && locale === 'en') {
-    return <ProductPageClient locale={locale} content={additionEnContent} slug={slug} />;
-  }
+  // Uses lookup table with RelatedBlogPosts for SEO internal linking
+  const legacyEnglishContent: Record<string, { content: any; appId: string }> = {
+    'addition-worksheets': { content: additionEnContent, appId: 'image-addition' },
+    'alphabet-train-worksheets': { content: alphabetTrainEnContent, appId: 'alphabet-train' },
+    'coloring-worksheets': { content: coloringEnContent, appId: 'coloring' },
+    'math-worksheets': { content: mathWorksheetsEnContent, appId: 'math-worksheet' },
+    'word-scramble-worksheets': { content: wordScrambleEnContent, appId: 'word-scramble' },
+    'find-and-count-worksheets': { content: findAndCountEnContent, appId: 'find-and-count' },
+    'matching-worksheets': { content: matchingEnContent, appId: 'matching-app' },
+    'drawing-lines-worksheets': { content: drawingLinesEnContent, appId: 'drawing-lines' },
+    'picture-bingo-worksheets': { content: pictureBingoEnContent, appId: 'picture-bingo' },
+    'sudoku-worksheets': { content: sudokuEnContent, appId: 'sudoku' },
+    'big-small-worksheets': { content: bigSmallEnContent, appId: 'big-small-app' },
+    'chart-count-worksheets': { content: chartCountEnContent, appId: 'chart-count-color' },
+    'code-addition-worksheets': { content: codeAdditionEnContent, appId: 'code-addition' },
+    'draw-and-color-worksheets': { content: drawAndColorEnContent, appId: 'draw-and-color' },
+    'find-objects-worksheets': { content: findObjectsEnContent, appId: 'find-objects' },
+    'grid-match-worksheets': { content: gridMatchEnContent, appId: 'grid-match' },
+    'crossword-worksheets': { content: crosswordEnContent, appId: 'image-crossword' },
+    'cryptogram-worksheets': { content: cryptogramEnContent, appId: 'image-cryptogram' },
+    'math-puzzle-worksheets': { content: mathPuzzleEnContent, appId: 'math-puzzle' },
+    'missing-pieces-worksheets': { content: missingPiecesEnContent, appId: 'missing-pieces' },
+    'more-less-worksheets': { content: moreLessEnContent, appId: 'more-less' },
+    'odd-one-out-worksheets': { content: oddOneOutEnContent, appId: 'odd-one-out' },
+    'pattern-train-worksheets': { content: patternTrainEnContent, appId: 'pattern-train' },
+    'pattern-worksheets': { content: patternWorksheetsEnContent, appId: 'pattern-worksheet' },
+    'picture-path-worksheets': { content: picturePathEnContent, appId: 'picture-path' },
+    'picture-sort-worksheets': { content: pictureSortEnContent, appId: 'picture-sort' },
+    'prepositions-worksheets': { content: prepositionsEnContent, appId: 'prepositions' },
+    'shadow-match-worksheets': { content: shadowMatchEnContent, appId: 'shadow-match' },
+    'subtraction-worksheets': { content: subtractionEnContent, appId: 'subtraction' },
+    'treasure-hunt-worksheets': { content: treasureHuntEnContent, appId: 'treasure-hunt' },
+    'word-guess-worksheets': { content: wordGuessEnContent, appId: 'word-guess' },
+    'writing-worksheets': { content: writingEnContent, appId: 'writing-app' },
+  };
 
-  if (slug === 'alphabet-train-worksheets' && locale === 'en') {
-    return <ProductPageClient locale={locale} content={alphabetTrainEnContent} slug={slug} />;
-  }
-
-  if (slug === 'coloring-worksheets' && locale === 'en') {
-    return <ProductPageClient locale={locale} content={coloringEnContent} slug={slug} />;
-  }
-
-  if (slug === 'math-worksheets' && locale === 'en') {
-    return <ProductPageClient locale={locale} content={mathWorksheetsEnContent} slug={slug} />;
-  }
-
-  if (slug === 'word-scramble-worksheets' && locale === 'en') {
-    return <ProductPageClient locale={locale} content={wordScrambleEnContent} slug={slug} />;
-  }
-
-  if (slug === 'find-and-count-worksheets' && locale === 'en') {
-    return <ProductPageClient locale={locale} content={findAndCountEnContent} slug={slug} />;
-  }
-
-  if (slug === 'matching-worksheets' && locale === 'en') {
-    return <ProductPageClient locale={locale} content={matchingEnContent} slug={slug} />;
-  }
-
-  if (slug === 'drawing-lines-worksheets' && locale === 'en') {
-    return <ProductPageClient locale={locale} content={drawingLinesEnContent} slug={slug} />;
-  }
-
-  if (slug === 'picture-bingo-worksheets' && locale === 'en') {
-    return <ProductPageClient locale={locale} content={pictureBingoEnContent} slug={slug} />;
-  }
-
-  if (slug === 'sudoku-worksheets' && locale === 'en') {
-    return <ProductPageClient locale={locale} content={sudokuEnContent} slug={slug} />;
-  }
-
-  if (slug === 'big-small-worksheets' && locale === 'en') {
-    return <ProductPageClient locale={locale} content={bigSmallEnContent} slug={slug} />;
-  }
-
-  if (slug === 'chart-count-worksheets' && locale === 'en') {
-    return <ProductPageClient locale={locale} content={chartCountEnContent} slug={slug} />;
-  }
-
-  if (slug === 'code-addition-worksheets' && locale === 'en') {
-    return <ProductPageClient locale={locale} content={codeAdditionEnContent} slug={slug} />;
-  }
-
-  if (slug === 'draw-and-color-worksheets' && locale === 'en') {
-    return <ProductPageClient locale={locale} content={drawAndColorEnContent} slug={slug} />;
-  }
-
-  if (slug === 'find-objects-worksheets' && locale === 'en') {
-    return <ProductPageClient locale={locale} content={findObjectsEnContent} slug={slug} />;
-  }
-
-  if (slug === 'grid-match-worksheets' && locale === 'en') {
-    return <ProductPageClient locale={locale} content={gridMatchEnContent} slug={slug} />;
-  }
-
-  if (slug === 'crossword-worksheets' && locale === 'en') {
-    return <ProductPageClient locale={locale} content={crosswordEnContent} slug={slug} />;
-  }
-
-  if (slug === 'cryptogram-worksheets' && locale === 'en') {
-    return <ProductPageClient locale={locale} content={cryptogramEnContent} slug={slug} />;
-  }
-
-  if (slug === 'math-puzzle-worksheets' && locale === 'en') {
-    return <ProductPageClient locale={locale} content={mathPuzzleEnContent} slug={slug} />;
-  }
-
-  if (slug === 'missing-pieces-worksheets' && locale === 'en') {
-    return <ProductPageClient locale={locale} content={missingPiecesEnContent} slug={slug} />;
-  }
-
-  if (slug === 'more-less-worksheets' && locale === 'en') {
-    return <ProductPageClient locale={locale} content={moreLessEnContent} slug={slug} />;
-  }
-
-  if (slug === 'odd-one-out-worksheets' && locale === 'en') {
-    return <ProductPageClient locale={locale} content={oddOneOutEnContent} slug={slug} />;
-  }
-
-  if (slug === 'pattern-train-worksheets' && locale === 'en') {
-    return <ProductPageClient locale={locale} content={patternTrainEnContent} slug={slug} />;
-  }
-
-  if (slug === 'pattern-worksheets' && locale === 'en') {
-    return <ProductPageClient locale={locale} content={patternWorksheetsEnContent} slug={slug} />;
-  }
-
-  if (slug === 'picture-path-worksheets' && locale === 'en') {
-    return <ProductPageClient locale={locale} content={picturePathEnContent} slug={slug} />;
-  }
-
-  if (slug === 'picture-sort-worksheets' && locale === 'en') {
-    return <ProductPageClient locale={locale} content={pictureSortEnContent} slug={slug} />;
-  }
-
-  if (slug === 'prepositions-worksheets' && locale === 'en') {
-    return <ProductPageClient locale={locale} content={prepositionsEnContent} slug={slug} />;
-  }
-
-  if (slug === 'shadow-match-worksheets' && locale === 'en') {
-    return <ProductPageClient locale={locale} content={shadowMatchEnContent} slug={slug} />;
-  }
-
-  if (slug === 'subtraction-worksheets' && locale === 'en') {
-    return <ProductPageClient locale={locale} content={subtractionEnContent} slug={slug} />;
-  }
-
-  if (slug === 'treasure-hunt-worksheets' && locale === 'en') {
-    return <ProductPageClient locale={locale} content={treasureHuntEnContent} slug={slug} />;
-  }
-
-  if (slug === 'word-guess-worksheets' && locale === 'en') {
-    return <ProductPageClient locale={locale} content={wordGuessEnContent} slug={slug} />;
-  }
-
-  if (slug === 'writing-worksheets' && locale === 'en') {
-    return <ProductPageClient locale={locale} content={writingEnContent} slug={slug} />;
+  // Handle legacy English fallbacks with RelatedBlogPosts for SEO
+  if (locale === 'en' && legacyEnglishContent[slug]) {
+    const { content: legacyContent, appId } = legacyEnglishContent[slug];
+    const appKeywords = getKeywordsForApp(appId);
+    const relatedBlogPosts = await getRelatedBlogPostsForProduct(appKeywords, locale, 3);
+    return (
+      <>
+        <ProductPageClient locale={locale} content={legacyContent} slug={slug} />
+        <RelatedBlogPosts locale={locale as SupportedLocale} posts={relatedBlogPosts} />
+      </>
+    );
   }
 
   // Fetch app data from Strapi

@@ -69,6 +69,245 @@ const KEYWORD_PRODUCT_MAP: Record<string, string[]> = {
 };
 
 /**
+ * Multilingual keyword mappings - maps localized terms to the same app IDs
+ * These enable non-English blog posts to match with relevant products
+ */
+const KEYWORD_TRANSLATIONS: Record<string, Record<string, string[]>> = {
+  // German
+  de: {
+    'addition': ['image-addition', 'code-addition', 'math-worksheet'],
+    'subtraktion': ['subtraction', 'math-worksheet'],
+    'mathematik': ['math-worksheet', 'math-puzzle', 'image-addition', 'subtraction', 'code-addition'],
+    'rechnen': ['math-worksheet', 'image-addition', 'subtraction'],
+    'zählen': ['find-and-count', 'chart-count-color', 'more-less'],
+    'zahlen': ['math-worksheet', 'sudoku', 'more-less', 'find-and-count'],
+    'wortschatz': ['word-search', 'word-scramble', 'word-guess', 'image-crossword'],
+    'wörter': ['word-search', 'word-scramble', 'word-guess'],
+    'alphabet': ['alphabet-train', 'writing-app'],
+    'buchstaben': ['alphabet-train', 'writing-app'],
+    'schreiben': ['writing-app', 'story-dice'],
+    'muster': ['pattern-worksheet', 'pattern-train'],
+    'logik': ['sudoku', 'odd-one-out', 'pattern-worksheet', 'image-cryptogram'],
+    'ausmalen': ['coloring', 'draw-and-color'],
+    'malen': ['coloring', 'draw-and-color', 'drawing-lines'],
+    'zeichnen': ['coloring', 'draw-and-color', 'drawing-lines'],
+    'rätsel': ['word-search', 'word-scramble', 'sudoku', 'math-puzzle', 'image-cryptogram'],
+    'puzzle': ['word-search', 'word-scramble', 'sudoku', 'math-puzzle', 'image-cryptogram'],
+    'bingo': ['picture-bingo'],
+    'spiel': ['picture-bingo', 'treasure-hunt', 'story-dice'],
+    'labyrinth': ['picture-path'],
+    'vorschule': ['alphabet-train', 'coloring', 'drawing-lines', 'big-small-app', 'matching-app'],
+    'kindergarten': ['alphabet-train', 'coloring', 'find-and-count', 'matching-app', 'pattern-worksheet'],
+  },
+  // French
+  fr: {
+    'addition': ['image-addition', 'code-addition', 'math-worksheet'],
+    'soustraction': ['subtraction', 'math-worksheet'],
+    'mathématiques': ['math-worksheet', 'math-puzzle', 'image-addition', 'subtraction', 'code-addition'],
+    'maths': ['math-worksheet', 'math-puzzle', 'image-addition'],
+    'compter': ['find-and-count', 'chart-count-color', 'more-less'],
+    'nombres': ['math-worksheet', 'sudoku', 'more-less', 'find-and-count'],
+    'vocabulaire': ['word-search', 'word-scramble', 'word-guess', 'image-crossword'],
+    'mots': ['word-search', 'word-scramble', 'word-guess'],
+    'alphabet': ['alphabet-train', 'writing-app'],
+    'lettres': ['alphabet-train', 'writing-app'],
+    'écriture': ['writing-app', 'story-dice'],
+    'motif': ['pattern-worksheet', 'pattern-train'],
+    'logique': ['sudoku', 'odd-one-out', 'pattern-worksheet', 'image-cryptogram'],
+    'coloriage': ['coloring', 'draw-and-color'],
+    'dessin': ['coloring', 'draw-and-color', 'drawing-lines'],
+    'puzzle': ['word-search', 'word-scramble', 'sudoku', 'math-puzzle', 'image-cryptogram'],
+    'bingo': ['picture-bingo'],
+    'jeu': ['picture-bingo', 'treasure-hunt', 'story-dice'],
+    'labyrinthe': ['picture-path'],
+    'maternelle': ['alphabet-train', 'coloring', 'drawing-lines', 'big-small-app', 'matching-app'],
+  },
+  // Spanish
+  es: {
+    'suma': ['image-addition', 'code-addition', 'math-worksheet'],
+    'adición': ['image-addition', 'code-addition', 'math-worksheet'],
+    'resta': ['subtraction', 'math-worksheet'],
+    'matemáticas': ['math-worksheet', 'math-puzzle', 'image-addition', 'subtraction', 'code-addition'],
+    'contar': ['find-and-count', 'chart-count-color', 'more-less'],
+    'números': ['math-worksheet', 'sudoku', 'more-less', 'find-and-count'],
+    'vocabulario': ['word-search', 'word-scramble', 'word-guess', 'image-crossword'],
+    'palabras': ['word-search', 'word-scramble', 'word-guess'],
+    'alfabeto': ['alphabet-train', 'writing-app'],
+    'letras': ['alphabet-train', 'writing-app'],
+    'escritura': ['writing-app', 'story-dice'],
+    'patrón': ['pattern-worksheet', 'pattern-train'],
+    'lógica': ['sudoku', 'odd-one-out', 'pattern-worksheet', 'image-cryptogram'],
+    'colorear': ['coloring', 'draw-and-color'],
+    'dibujo': ['coloring', 'draw-and-color', 'drawing-lines'],
+    'rompecabezas': ['word-search', 'word-scramble', 'sudoku', 'math-puzzle', 'image-cryptogram'],
+    'bingo': ['picture-bingo'],
+    'juego': ['picture-bingo', 'treasure-hunt', 'story-dice'],
+    'laberinto': ['picture-path'],
+    'preescolar': ['alphabet-train', 'coloring', 'drawing-lines', 'big-small-app', 'matching-app'],
+  },
+  // Portuguese
+  pt: {
+    'adição': ['image-addition', 'code-addition', 'math-worksheet'],
+    'soma': ['image-addition', 'code-addition', 'math-worksheet'],
+    'subtração': ['subtraction', 'math-worksheet'],
+    'matemática': ['math-worksheet', 'math-puzzle', 'image-addition', 'subtraction', 'code-addition'],
+    'contar': ['find-and-count', 'chart-count-color', 'more-less'],
+    'números': ['math-worksheet', 'sudoku', 'more-less', 'find-and-count'],
+    'vocabulário': ['word-search', 'word-scramble', 'word-guess', 'image-crossword'],
+    'palavras': ['word-search', 'word-scramble', 'word-guess'],
+    'alfabeto': ['alphabet-train', 'writing-app'],
+    'letras': ['alphabet-train', 'writing-app'],
+    'escrita': ['writing-app', 'story-dice'],
+    'padrão': ['pattern-worksheet', 'pattern-train'],
+    'lógica': ['sudoku', 'odd-one-out', 'pattern-worksheet', 'image-cryptogram'],
+    'colorir': ['coloring', 'draw-and-color'],
+    'desenho': ['coloring', 'draw-and-color', 'drawing-lines'],
+    'quebra-cabeça': ['word-search', 'word-scramble', 'sudoku', 'math-puzzle', 'image-cryptogram'],
+    'bingo': ['picture-bingo'],
+    'jogo': ['picture-bingo', 'treasure-hunt', 'story-dice'],
+    'labirinto': ['picture-path'],
+    'pré-escolar': ['alphabet-train', 'coloring', 'drawing-lines', 'big-small-app', 'matching-app'],
+  },
+  // Italian
+  it: {
+    'addizione': ['image-addition', 'code-addition', 'math-worksheet'],
+    'sottrazione': ['subtraction', 'math-worksheet'],
+    'matematica': ['math-worksheet', 'math-puzzle', 'image-addition', 'subtraction', 'code-addition'],
+    'contare': ['find-and-count', 'chart-count-color', 'more-less'],
+    'numeri': ['math-worksheet', 'sudoku', 'more-less', 'find-and-count'],
+    'vocabolario': ['word-search', 'word-scramble', 'word-guess', 'image-crossword'],
+    'parole': ['word-search', 'word-scramble', 'word-guess'],
+    'alfabeto': ['alphabet-train', 'writing-app'],
+    'lettere': ['alphabet-train', 'writing-app'],
+    'scrittura': ['writing-app', 'story-dice'],
+    'schema': ['pattern-worksheet', 'pattern-train'],
+    'logica': ['sudoku', 'odd-one-out', 'pattern-worksheet', 'image-cryptogram'],
+    'colorare': ['coloring', 'draw-and-color'],
+    'disegno': ['coloring', 'draw-and-color', 'drawing-lines'],
+    'puzzle': ['word-search', 'word-scramble', 'sudoku', 'math-puzzle', 'image-cryptogram'],
+    'bingo': ['picture-bingo'],
+    'gioco': ['picture-bingo', 'treasure-hunt', 'story-dice'],
+    'labirinto': ['picture-path'],
+    'prescolare': ['alphabet-train', 'coloring', 'drawing-lines', 'big-small-app', 'matching-app'],
+  },
+  // Dutch
+  nl: {
+    'optellen': ['image-addition', 'code-addition', 'math-worksheet'],
+    'aftrekken': ['subtraction', 'math-worksheet'],
+    'wiskunde': ['math-worksheet', 'math-puzzle', 'image-addition', 'subtraction', 'code-addition'],
+    'rekenen': ['math-worksheet', 'image-addition', 'subtraction'],
+    'tellen': ['find-and-count', 'chart-count-color', 'more-less'],
+    'getallen': ['math-worksheet', 'sudoku', 'more-less', 'find-and-count'],
+    'woordenschat': ['word-search', 'word-scramble', 'word-guess', 'image-crossword'],
+    'woorden': ['word-search', 'word-scramble', 'word-guess'],
+    'alfabet': ['alphabet-train', 'writing-app'],
+    'letters': ['alphabet-train', 'writing-app'],
+    'schrijven': ['writing-app', 'story-dice'],
+    'patroon': ['pattern-worksheet', 'pattern-train'],
+    'logica': ['sudoku', 'odd-one-out', 'pattern-worksheet', 'image-cryptogram'],
+    'kleuren': ['coloring', 'draw-and-color'],
+    'tekenen': ['coloring', 'draw-and-color', 'drawing-lines'],
+    'puzzel': ['word-search', 'word-scramble', 'sudoku', 'math-puzzle', 'image-cryptogram'],
+    'bingo': ['picture-bingo'],
+    'spel': ['picture-bingo', 'treasure-hunt', 'story-dice'],
+    'doolhof': ['picture-path'],
+    'kleuterschool': ['alphabet-train', 'coloring', 'drawing-lines', 'big-small-app', 'matching-app'],
+  },
+  // Swedish
+  sv: {
+    'addition': ['image-addition', 'code-addition', 'math-worksheet'],
+    'subtraktion': ['subtraction', 'math-worksheet'],
+    'matematik': ['math-worksheet', 'math-puzzle', 'image-addition', 'subtraction', 'code-addition'],
+    'räkna': ['math-worksheet', 'image-addition', 'subtraction'],
+    'räkning': ['find-and-count', 'chart-count-color', 'more-less'],
+    'tal': ['math-worksheet', 'sudoku', 'more-less', 'find-and-count'],
+    'ordförråd': ['word-search', 'word-scramble', 'word-guess', 'image-crossword'],
+    'ord': ['word-search', 'word-scramble', 'word-guess'],
+    'alfabet': ['alphabet-train', 'writing-app'],
+    'bokstäver': ['alphabet-train', 'writing-app'],
+    'skrivning': ['writing-app', 'story-dice'],
+    'mönster': ['pattern-worksheet', 'pattern-train'],
+    'logik': ['sudoku', 'odd-one-out', 'pattern-worksheet', 'image-cryptogram'],
+    'färgläggning': ['coloring', 'draw-and-color'],
+    'rita': ['coloring', 'draw-and-color', 'drawing-lines'],
+    'pussel': ['word-search', 'word-scramble', 'sudoku', 'math-puzzle', 'image-cryptogram'],
+    'bingo': ['picture-bingo'],
+    'spel': ['picture-bingo', 'treasure-hunt', 'story-dice'],
+    'labyrint': ['picture-path'],
+    'förskola': ['alphabet-train', 'coloring', 'drawing-lines', 'big-small-app', 'matching-app'],
+  },
+  // Danish
+  da: {
+    'addition': ['image-addition', 'code-addition', 'math-worksheet'],
+    'subtraktion': ['subtraction', 'math-worksheet'],
+    'matematik': ['math-worksheet', 'math-puzzle', 'image-addition', 'subtraction', 'code-addition'],
+    'regne': ['math-worksheet', 'image-addition', 'subtraction'],
+    'tælle': ['find-and-count', 'chart-count-color', 'more-less'],
+    'tal': ['math-worksheet', 'sudoku', 'more-less', 'find-and-count'],
+    'ordforråd': ['word-search', 'word-scramble', 'word-guess', 'image-crossword'],
+    'ord': ['word-search', 'word-scramble', 'word-guess'],
+    'alfabet': ['alphabet-train', 'writing-app'],
+    'bogstaver': ['alphabet-train', 'writing-app'],
+    'skrivning': ['writing-app', 'story-dice'],
+    'mønster': ['pattern-worksheet', 'pattern-train'],
+    'logik': ['sudoku', 'odd-one-out', 'pattern-worksheet', 'image-cryptogram'],
+    'farvelægning': ['coloring', 'draw-and-color'],
+    'tegne': ['coloring', 'draw-and-color', 'drawing-lines'],
+    'puslespil': ['word-search', 'word-scramble', 'sudoku', 'math-puzzle', 'image-cryptogram'],
+    'bingo': ['picture-bingo'],
+    'spil': ['picture-bingo', 'treasure-hunt', 'story-dice'],
+    'labyrint': ['picture-path'],
+    'børnehave': ['alphabet-train', 'coloring', 'drawing-lines', 'big-small-app', 'matching-app'],
+  },
+  // Norwegian
+  no: {
+    'addisjon': ['image-addition', 'code-addition', 'math-worksheet'],
+    'subtraksjon': ['subtraction', 'math-worksheet'],
+    'matematikk': ['math-worksheet', 'math-puzzle', 'image-addition', 'subtraction', 'code-addition'],
+    'regne': ['math-worksheet', 'image-addition', 'subtraction'],
+    'telle': ['find-and-count', 'chart-count-color', 'more-less'],
+    'tall': ['math-worksheet', 'sudoku', 'more-less', 'find-and-count'],
+    'ordforråd': ['word-search', 'word-scramble', 'word-guess', 'image-crossword'],
+    'ord': ['word-search', 'word-scramble', 'word-guess'],
+    'alfabet': ['alphabet-train', 'writing-app'],
+    'bokstaver': ['alphabet-train', 'writing-app'],
+    'skriving': ['writing-app', 'story-dice'],
+    'mønster': ['pattern-worksheet', 'pattern-train'],
+    'logikk': ['sudoku', 'odd-one-out', 'pattern-worksheet', 'image-cryptogram'],
+    'fargelegging': ['coloring', 'draw-and-color'],
+    'tegne': ['coloring', 'draw-and-color', 'drawing-lines'],
+    'puslespill': ['word-search', 'word-scramble', 'sudoku', 'math-puzzle', 'image-cryptogram'],
+    'bingo': ['picture-bingo'],
+    'spill': ['picture-bingo', 'treasure-hunt', 'story-dice'],
+    'labyrint': ['picture-path'],
+    'barnehage': ['alphabet-train', 'coloring', 'drawing-lines', 'big-small-app', 'matching-app'],
+  },
+  // Finnish
+  fi: {
+    'yhteenlasku': ['image-addition', 'code-addition', 'math-worksheet'],
+    'vähennyslasku': ['subtraction', 'math-worksheet'],
+    'matematiikka': ['math-worksheet', 'math-puzzle', 'image-addition', 'subtraction', 'code-addition'],
+    'laskea': ['math-worksheet', 'image-addition', 'subtraction'],
+    'laskeminen': ['find-and-count', 'chart-count-color', 'more-less'],
+    'numerot': ['math-worksheet', 'sudoku', 'more-less', 'find-and-count'],
+    'sanasto': ['word-search', 'word-scramble', 'word-guess', 'image-crossword'],
+    'sanat': ['word-search', 'word-scramble', 'word-guess'],
+    'aakkoset': ['alphabet-train', 'writing-app'],
+    'kirjaimet': ['alphabet-train', 'writing-app'],
+    'kirjoitus': ['writing-app', 'story-dice'],
+    'kuvio': ['pattern-worksheet', 'pattern-train'],
+    'logiikka': ['sudoku', 'odd-one-out', 'pattern-worksheet', 'image-cryptogram'],
+    'värittäminen': ['coloring', 'draw-and-color'],
+    'piirtäminen': ['coloring', 'draw-and-color', 'drawing-lines'],
+    'palapeli': ['word-search', 'word-scramble', 'sudoku', 'math-puzzle', 'image-cryptogram'],
+    'bingo': ['picture-bingo'],
+    'peli': ['picture-bingo', 'treasure-hunt', 'story-dice'],
+    'labyrintti': ['picture-path'],
+    'esikoulu': ['alphabet-train', 'coloring', 'drawing-lines', 'big-small-app', 'matching-app'],
+  },
+};
+
+/**
  * Category to app mapping
  * Aligns with blog post categories and app categories
  */
@@ -124,20 +363,39 @@ export function getRelatedProductsByKeywords(
   for (const keyword of keywords) {
     const normalizedKeyword = keyword.toLowerCase().trim();
 
-    // Direct keyword match
-    const matchedAppIds = KEYWORD_PRODUCT_MAP[normalizedKeyword] || [];
+    // Direct keyword match from English map
+    let matchedAppIds = KEYWORD_PRODUCT_MAP[normalizedKeyword] || [];
+
+    // If not found in English map and locale is not English, check localized keywords
+    if (matchedAppIds.length === 0 && locale !== 'en' && KEYWORD_TRANSLATIONS[locale]) {
+      matchedAppIds = KEYWORD_TRANSLATIONS[locale][normalizedKeyword] || [];
+    }
+
     for (const appId of matchedAppIds) {
       if (!excludeAppIds.includes(appId)) {
         appScores.set(appId, (appScores.get(appId) || 0) + 2);
       }
     }
 
-    // Partial keyword match (for compound keywords)
+    // Partial keyword match (for compound keywords) - English
     for (const [mapKeyword, appIds] of Object.entries(KEYWORD_PRODUCT_MAP)) {
       if (mapKeyword.includes(normalizedKeyword) || normalizedKeyword.includes(mapKeyword)) {
         for (const appId of appIds) {
           if (!excludeAppIds.includes(appId)) {
             appScores.set(appId, (appScores.get(appId) || 0) + 1);
+          }
+        }
+      }
+    }
+
+    // Partial keyword match for localized keywords
+    if (locale !== 'en' && KEYWORD_TRANSLATIONS[locale]) {
+      for (const [mapKeyword, appIds] of Object.entries(KEYWORD_TRANSLATIONS[locale])) {
+        if (mapKeyword.includes(normalizedKeyword) || normalizedKeyword.includes(mapKeyword)) {
+          for (const appId of appIds) {
+            if (!excludeAppIds.includes(appId)) {
+              appScores.set(appId, (appScores.get(appId) || 0) + 1);
+            }
           }
         }
       }
@@ -282,22 +540,34 @@ export function appIdToProduct(appId: string, locale: SupportedLocale): RelatedP
 /**
  * Extract keywords from HTML content for matching
  * Simple extraction - looks for common educational terms
+ * Supports multilingual keyword extraction when locale is provided
  *
  * @param htmlContent - HTML content to extract keywords from
+ * @param locale - Target locale for language-specific keywords (default: 'en')
  * @returns Array of matched keywords
  */
-export function extractKeywordsFromContent(htmlContent: string): string[] {
+export function extractKeywordsFromContent(htmlContent: string, locale: string = 'en'): string[] {
   // Strip HTML tags
   const textContent = htmlContent.replace(/<[^>]*>/g, ' ').toLowerCase();
 
   const foundKeywords: string[] = [];
 
-  // Check for each keyword in our map
+  // Check for each English keyword in our map (always checked)
   for (const keyword of Object.keys(KEYWORD_PRODUCT_MAP)) {
     // Use word boundary matching for better accuracy
     const regex = new RegExp(`\\b${keyword.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`, 'i');
     if (regex.test(textContent)) {
       foundKeywords.push(keyword);
+    }
+  }
+
+  // Check locale-specific keywords if not English
+  if (locale !== 'en' && KEYWORD_TRANSLATIONS[locale]) {
+    for (const keyword of Object.keys(KEYWORD_TRANSLATIONS[locale])) {
+      const regex = new RegExp(`\\b${keyword.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`, 'i');
+      if (regex.test(textContent)) {
+        foundKeywords.push(keyword);
+      }
     }
   }
 

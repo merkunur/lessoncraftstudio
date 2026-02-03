@@ -156,3 +156,110 @@ export function getBlogCategoriesForLocale(locale: string): BlogCategory[] {
     label: cat.translations[locale as keyof typeof cat.translations] || cat.translations.en
   }));
 }
+
+/**
+ * Blog post summary for product page linking
+ */
+export interface BlogPostSummary {
+  slug: string;
+  title: string;
+  excerpt: string;
+  featuredImage: string | null;
+  category: string;
+}
+
+/**
+ * Fetch related blog posts for a product page (server-side)
+ * Matches blog posts by keywords that are relevant to the app
+ *
+ * @param appKeywords - Keywords associated with the app/product
+ * @param locale - Target locale
+ * @param limit - Maximum number of posts to return (default: 3)
+ * @returns Array of blog post summaries
+ */
+export async function getRelatedBlogPostsForProduct(
+  appKeywords: string[],
+  locale: string,
+  limit: number = 3
+): Promise<BlogPostSummary[]> {
+  try {
+    // If no keywords provided, return empty
+    if (!appKeywords || appKeywords.length === 0) {
+      return [];
+    }
+
+    // Fetch published blog posts that have any of the app keywords
+    const dbPosts = await prisma.blogPost.findMany({
+      where: {
+        status: 'published',
+        keywords: { hasSome: appKeywords }
+      },
+      orderBy: { createdAt: 'desc' },
+      take: limit * 2 // Fetch extra to account for filtering
+    });
+
+    const posts: BlogPostSummary[] = dbPosts
+      .filter(post => {
+        const translations = post.translations as any;
+        const translation = translations[locale];
+        // Only include posts with translations for this locale
+        return translation && translation.title && translation.content;
+      })
+      .slice(0, limit)
+      .map(post => {
+        const translations = post.translations as any;
+        const translation = translations[locale];
+        const categoryData = DEFAULT_CATEGORIES.find(c => c.id === post.category);
+        const categoryLabel = categoryData
+          ? categoryData.translations[locale as keyof typeof categoryData.translations] || categoryData.translations.en
+          : post.category || 'Teaching Resources';
+
+        return {
+          slug: translation.slug || post.slug,
+          title: translation.title || post.slug,
+          excerpt: translation.excerpt || '',
+          featuredImage: translation.featuredImage || post.featuredImage,
+          category: categoryLabel
+        };
+      });
+
+    // If not enough posts from keyword match, get recent posts as fallback
+    if (posts.length < limit) {
+      const existingSlugs = posts.map(p => p.slug);
+      const fallbackPosts = await prisma.blogPost.findMany({
+        where: {
+          status: 'published',
+          slug: { notIn: existingSlugs.length > 0 ? existingSlugs : ['_none_'] }
+        },
+        orderBy: { createdAt: 'desc' },
+        take: limit - posts.length
+      });
+
+      for (const post of fallbackPosts) {
+        const translations = post.translations as any;
+        const translation = translations[locale];
+        if (translation && translation.title && translation.content) {
+          const categoryData = DEFAULT_CATEGORIES.find(c => c.id === post.category);
+          const categoryLabel = categoryData
+            ? categoryData.translations[locale as keyof typeof categoryData.translations] || categoryData.translations.en
+            : post.category || 'Teaching Resources';
+
+          posts.push({
+            slug: translation.slug || post.slug,
+            title: translation.title || post.slug,
+            excerpt: translation.excerpt || '',
+            featuredImage: translation.featuredImage || post.featuredImage,
+            category: categoryLabel
+          });
+        }
+
+        if (posts.length >= limit) break;
+      }
+    }
+
+    return posts;
+  } catch (error) {
+    console.error(`Error fetching related blog posts for product:`, error);
+    return [];
+  }
+}

@@ -6,6 +6,8 @@ import { generateBlogSchemas, ogLocaleMap, getHreflangCode } from '@/lib/schema-
 import { analyzeContent, generateFAQSchema, generateHowToSchema } from '@/lib/content-analyzer';
 import Breadcrumb from '@/components/Breadcrumb';
 import { SUPPORTED_LOCALES } from '@/config/locales';
+import RelatedProducts from '@/components/blog/RelatedProducts';
+import type { SupportedLocale } from '@/config/product-page-slugs';
 
 // Enable ISR - revalidate every 30 minutes (reduced from 1 hour for faster updates)
 export const revalidate = 1800;
@@ -816,6 +818,15 @@ export default async function BlogPostPage({
           margin: 0,
           padding: 0
         }}
+      />
+
+      {/* Related Worksheet Generators - SEO internal linking */}
+      <RelatedProducts
+        locale={locale as SupportedLocale}
+        category={post.category}
+        htmlContent={htmlContent}
+        keywords={post.keywords || []}
+        limit={4}
       />
 
       {/* Related Blog Posts - Before footer */}

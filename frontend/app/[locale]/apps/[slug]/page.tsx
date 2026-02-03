@@ -2,9 +2,13 @@ import { Metadata } from 'next';
 import AutoLaunchApp from './AutoLaunchApp';
 import { notFound, redirect } from 'next/navigation';
 import ProductPageClient from '@/components/product-page/ProductPageClient';
+import RelatedBlogPosts from '@/components/product-page/RelatedBlogPosts';
 import { getContentBySlug, getAllStaticParams, getAlternateLanguageUrls } from '@/config/product-page-content';
 import { generateAppProductSchemas, generateAllProductPageSchemas, AppProductData, ogLocaleMap, localeToLanguageFolder } from '@/lib/schema-generator';
 import { getSampleSeoMetadataMap, SampleSeoMetadata } from '@/lib/sample-seo';
+import { getRelatedBlogPostsForProduct } from '@/lib/blog-data';
+import { getKeywordsForApp } from '@/lib/internal-linking';
+import type { SupportedLocale } from '@/config/product-page-slugs';
 import * as fs from 'fs/promises';
 import * as path from 'path';
 import additionEnContent from '@/content/product-pages/en/addition-worksheets';
@@ -3650,10 +3654,15 @@ export default async function AppPage({ params: { locale, slug } }: PageProps) {
     // This ensures schemas are generated even when content.samples.items is empty (most content files)
     const discoveredSamples = await discoverSamplesFromFilesystem(appId, locale);
 
+    // Fetch related blog posts for internal linking (SEO improvement)
+    const appKeywords = getKeywordsForApp(appId);
+    const relatedBlogPosts = await getRelatedBlogPostsForProduct(appKeywords, locale, 3);
+
     return (
       <>
         <SchemaScripts appData={schemaAppData} locale={locale} slug={slug} content={content} sampleSeoMap={sampleSeoMap} discoveredSamples={discoveredSamples} />
         <ProductPageClient locale={locale} content={content} slug={slug} />
+        <RelatedBlogPosts locale={locale as SupportedLocale} posts={relatedBlogPosts} />
       </>
     );
   }

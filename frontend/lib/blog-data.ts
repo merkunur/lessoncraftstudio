@@ -169,6 +169,56 @@ export interface BlogPostSummary {
 }
 
 /**
+ * Fetch recent blog posts for a locale (server-side)
+ * Used as fallback when no keyword matches are found
+ *
+ * @param locale - Target locale
+ * @param limit - Maximum number of posts to return (default: 3)
+ * @returns Array of blog post summaries
+ */
+export async function getRecentBlogPosts(
+  locale: string,
+  limit: number = 3
+): Promise<BlogPostSummary[]> {
+  try {
+    const dbPosts = await prisma.blogPost.findMany({
+      where: { status: 'published' },
+      orderBy: { createdAt: 'desc' },
+      take: limit * 2 // Fetch extra to account for filtering
+    });
+
+    const posts: BlogPostSummary[] = dbPosts
+      .filter(post => {
+        const translations = post.translations as any;
+        const translation = translations[locale];
+        return translation && translation.title && translation.content;
+      })
+      .slice(0, limit)
+      .map(post => {
+        const translations = post.translations as any;
+        const translation = translations[locale];
+        const categoryData = DEFAULT_CATEGORIES.find(c => c.id === post.category);
+        const categoryLabel = categoryData
+          ? categoryData.translations[locale as keyof typeof categoryData.translations] || categoryData.translations.en
+          : post.category || 'Teaching Resources';
+
+        return {
+          slug: translation.slug || post.slug,
+          title: translation.title || post.slug,
+          excerpt: translation.excerpt || '',
+          featuredImage: translation.featuredImage || post.featuredImage,
+          category: categoryLabel
+        };
+      });
+
+    return posts;
+  } catch (error) {
+    console.error(`Error fetching recent blog posts for locale ${locale}:`, error);
+    return [];
+  }
+}
+
+/**
  * Fetch related blog posts for a product page (server-side)
  * Matches blog posts by keywords that are relevant to the app
  *
@@ -183,9 +233,9 @@ export async function getRelatedBlogPostsForProduct(
   limit: number = 3
 ): Promise<BlogPostSummary[]> {
   try {
-    // If no keywords provided, return empty
+    // If no keywords provided, return recent posts as fallback
     if (!appKeywords || appKeywords.length === 0) {
-      return [];
+      return getRecentBlogPosts(locale, limit);
     }
 
     // Fetch published blog posts that have any of the app keywords

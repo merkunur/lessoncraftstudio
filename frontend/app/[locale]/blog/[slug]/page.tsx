@@ -7,6 +7,13 @@ import { analyzeContent, generateFAQSchema, generateHowToSchema } from '@/lib/co
 import Breadcrumb from '@/components/Breadcrumb';
 import { SUPPORTED_LOCALES } from '@/config/locales';
 import RelatedProducts from '@/components/blog/RelatedProducts';
+import BlogSampleBanner from '@/components/blog/BlogSampleBanner';
+import BlogSampleGallery from '@/components/blog/BlogSampleGallery';
+import { discoverSamplesFromFilesystem, normalizeAppIdForSamples } from '@/lib/sample-utils';
+import {
+  getRelatedProducts,
+  extractKeywordsFromContent,
+} from '@/lib/internal-linking';
 import type { SupportedLocale } from '@/config/product-page-slugs';
 
 // Enable ISR - revalidate every 30 minutes (reduced from 1 hour for faster updates)
@@ -451,6 +458,47 @@ export default async function BlogPostPage({
     bodyContent = bodyContent.replace(headerContent, '');
   }
 
+  // Discover worksheet samples for blog post
+  const extractedKeywords = (post.keywords || []).length > 0
+    ? post.keywords!
+    : extractKeywordsFromContent(htmlContent, locale);
+
+  const matchedProducts = getRelatedProducts(extractedKeywords, post.category, locale as SupportedLocale, 6);
+
+  const blogSamples: Array<{
+    worksheetSrc: string;
+    thumbSrc: string;
+    productUrl: string;
+    productName: string;
+    appId: string;
+  }> = [];
+
+  for (const product of matchedProducts) {
+    if (blogSamples.length >= 3) break;
+    const normalizedId = normalizeAppIdForSamples(product.appId);
+    const discovered = await discoverSamplesFromFilesystem(normalizedId, locale);
+    if (discovered.length > 0) {
+      // Deterministic sample selection based on blog slug + appId
+      let hash = 0;
+      const key = localeSlug + product.appId;
+      for (let i = 0; i < key.length; i++) {
+        hash = ((hash << 5) - hash + key.charCodeAt(i)) | 0;
+      }
+      const idx = Math.abs(hash) % discovered.length;
+      const sample = discovered[idx];
+      const thumbSrc = sample.worksheetSrc.replace(/\.(jpeg|jpg)$/i, '_thumb.webp');
+      blogSamples.push({
+        worksheetSrc: sample.worksheetSrc,
+        thumbSrc,
+        productUrl: product.url,
+        productName: product.name,
+        appId: product.appId,
+      });
+    }
+  }
+
+  const hasBlogSamples = blogSamples.length > 0;
+
   // Generate SEO Schema Markup (AUTOMATED)
   const schemas = generateBlogSchemas({
     slug: localeSlug,
@@ -564,6 +612,11 @@ export default async function BlogPostPage({
           { label: translation.title || slug }
         ]}
       />
+
+      {/* Worksheet Sample Banner - shows when matching product samples exist */}
+      {hasBlogSamples && (
+        <BlogSampleBanner locale={locale} appsUrl={`/${locale}/apps`} />
+      )}
 
       <div dangerouslySetInnerHTML={{ __html: styles }} />
 
@@ -819,6 +872,17 @@ export default async function BlogPostPage({
           padding: 0
         }}
       />
+
+      {/* Worksheet Sample Gallery - shows 3 relevant sample images */}
+      {hasBlogSamples && (
+        <BlogSampleGallery
+          locale={locale}
+          samples={blogSamples}
+          blogSlug={localeSlug}
+          focusKeyword={translation.focusKeyword}
+          category={post.category}
+        />
+      )}
 
       {/* Related Worksheet Generators - SEO internal linking */}
       <RelatedProducts

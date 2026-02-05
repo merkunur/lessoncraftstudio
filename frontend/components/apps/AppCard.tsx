@@ -607,20 +607,6 @@ export default function AppCard({ app, locale, appName, categoryName }: AppCardP
     return 'Popular';
   };
 
-  const getUpgradeLabel = () => {
-    if (locale === 'de') return 'Upgrade';
-    if (locale === 'fr') return 'Premium';
-    if (locale === 'es') return 'Premium';
-    if (locale === 'it') return 'Premium';
-    if (locale === 'pt') return 'Premium';
-    if (locale === 'nl') return 'Upgrade';
-    if (locale === 'sv') return 'Uppgradera';
-    if (locale === 'da') return 'Opgrader';
-    if (locale === 'no') return 'Oppgrader';
-    if (locale === 'fi') return 'Päivitä';
-    return 'Upgrade';
-  };
-
   // "Learn More" button translations - natural phrasing for each language
   const getLearnMoreLabel = () => {
     if (locale === 'de') return 'Mehr erfahren';
@@ -656,17 +642,11 @@ export default function AppCard({ app, locale, appName, categoryName }: AppCardP
   return (
     <div
       onClick={handleClick}
-      className={`relative p-6 rounded-lg border-2 ${tierColors[app.tier]} hover:shadow-lg transition-all duration-200 cursor-pointer h-full ${!hasAccess && !loading ? 'opacity-75' : ''}`}
+      className={`relative p-6 rounded-lg border-2 ${tierColors[app.tier]} hover:shadow-lg transition-all duration-200 cursor-pointer h-full`}
     >
       {app.popular && (
         <div className="absolute -top-2 -right-2 bg-orange-500 text-white text-xs px-2 py-1 rounded-full">
           {getPopularLabel()}
-        </div>
-      )}
-
-      {!hasAccess && !loading && (
-        <div className="absolute -top-2 -left-2 bg-gray-700 text-white text-xs px-2 py-1 rounded-full flex items-center gap-1">
-          🔒 {getUpgradeLabel()}
         </div>
       )}
 

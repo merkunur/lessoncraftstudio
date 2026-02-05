@@ -98,6 +98,13 @@ const KEYWORD_TRANSLATIONS: Record<string, Record<string, string[]>> = {
     'labyrinth': ['picture-path'],
     'vorschule': ['alphabet-train', 'coloring', 'drawing-lines', 'big-small-app', 'matching-app'],
     'kindergarten': ['alphabet-train', 'coloring', 'find-and-count', 'matching-app', 'pattern-worksheet'],
+    'versteckte objekte': ['find-objects'],
+    'visuelle wahrnehmung': ['shadow-match', 'find-objects', 'odd-one-out', 'missing-pieces'],
+    'kritisches denken': ['sudoku', 'odd-one-out', 'pattern-worksheet', 'math-puzzle'],
+    'feinmotorik': ['drawing-lines', 'coloring', 'draw-and-color'],
+    'handschrift': ['writing-app', 'drawing-lines'],
+    'kleinkind': ['coloring', 'big-small-app', 'matching-app'],
+    'kreuzwortr\u00e4tsel': ['image-crossword'],
   },
   // French
   fr: {
@@ -121,6 +128,12 @@ const KEYWORD_TRANSLATIONS: Record<string, Record<string, string[]>> = {
     'jeu': ['picture-bingo', 'treasure-hunt', 'story-dice'],
     'labyrinthe': ['picture-path'],
     'maternelle': ['alphabet-train', 'coloring', 'drawing-lines', 'big-small-app', 'matching-app'],
+    'objets cach\u00e9s': ['find-objects'],
+    'perception visuelle': ['shadow-match', 'find-objects', 'odd-one-out', 'missing-pieces'],
+    'pens\u00e9e critique': ['sudoku', 'odd-one-out', 'pattern-worksheet', 'math-puzzle'],
+    'motricit\u00e9 fine': ['drawing-lines', 'coloring', 'draw-and-color'],
+    'mots crois\u00e9s': ['image-crossword'],
+    'tout-petit': ['coloring', 'big-small-app', 'matching-app'],
   },
   // Spanish
   es: {
@@ -144,6 +157,12 @@ const KEYWORD_TRANSLATIONS: Record<string, Record<string, string[]>> = {
     'juego': ['picture-bingo', 'treasure-hunt', 'story-dice'],
     'laberinto': ['picture-path'],
     'preescolar': ['alphabet-train', 'coloring', 'drawing-lines', 'big-small-app', 'matching-app'],
+    'objetos ocultos': ['find-objects'],
+    'percepci\u00f3n visual': ['shadow-match', 'find-objects', 'odd-one-out', 'missing-pieces'],
+    'pensamiento cr\u00edtico': ['sudoku', 'odd-one-out', 'pattern-worksheet', 'math-puzzle'],
+    'motricidad fina': ['drawing-lines', 'coloring', 'draw-and-color'],
+    'crucigrama': ['image-crossword'],
+    'beb\u00e9': ['coloring', 'big-small-app', 'matching-app'],
   },
   // Portuguese
   pt: {
@@ -167,6 +186,13 @@ const KEYWORD_TRANSLATIONS: Record<string, Record<string, string[]>> = {
     'jogo': ['picture-bingo', 'treasure-hunt', 'story-dice'],
     'labirinto': ['picture-path'],
     'pré-escolar': ['alphabet-train', 'coloring', 'drawing-lines', 'big-small-app', 'matching-app'],
+    'objetos escondidos': ['find-objects'],
+    'percep\u00e7\u00e3o visual': ['shadow-match', 'find-objects', 'odd-one-out', 'missing-pieces'],
+    'pensamento cr\u00edtico': ['sudoku', 'odd-one-out', 'pattern-worksheet', 'math-puzzle'],
+    'motricidade fina': ['drawing-lines', 'coloring', 'draw-and-color'],
+    'caligrafia': ['writing-app', 'drawing-lines'],
+    'palavras cruzadas': ['image-crossword'],
+    'crian\u00e7a pequena': ['coloring', 'big-small-app', 'matching-app'],
   },
   // Italian
   it: {
@@ -189,6 +215,13 @@ const KEYWORD_TRANSLATIONS: Record<string, Record<string, string[]>> = {
     'gioco': ['picture-bingo', 'treasure-hunt', 'story-dice'],
     'labirinto': ['picture-path'],
     'prescolare': ['alphabet-train', 'coloring', 'drawing-lines', 'big-small-app', 'matching-app'],
+    'oggetti nascosti': ['find-objects'],
+    'percezione visiva': ['shadow-match', 'find-objects', 'odd-one-out', 'missing-pieces'],
+    'pensiero critico': ['sudoku', 'odd-one-out', 'pattern-worksheet', 'math-puzzle'],
+    'motricit\u00e0 fine': ['drawing-lines', 'coloring', 'draw-and-color'],
+    'calligrafia': ['writing-app', 'drawing-lines'],
+    'cruciverba': ['image-crossword'],
+    'bambino piccolo': ['coloring', 'big-small-app', 'matching-app'],
   },
   // Dutch
   nl: {
@@ -212,6 +245,13 @@ const KEYWORD_TRANSLATIONS: Record<string, Record<string, string[]>> = {
     'spel': ['picture-bingo', 'treasure-hunt', 'story-dice'],
     'doolhof': ['picture-path'],
     'kleuterschool': ['alphabet-train', 'coloring', 'drawing-lines', 'big-small-app', 'matching-app'],
+    'verborgen voorwerpen': ['find-objects'],
+    'visuele waarneming': ['shadow-match', 'find-objects', 'odd-one-out', 'missing-pieces'],
+    'kritisch denken': ['sudoku', 'odd-one-out', 'pattern-worksheet', 'math-puzzle'],
+    'fijne motoriek': ['drawing-lines', 'coloring', 'draw-and-color'],
+    'handschrift': ['writing-app', 'drawing-lines'],
+    'kruiswoordpuzzel': ['image-crossword'],
+    'peuter': ['coloring', 'big-small-app', 'matching-app'],
   },
   // Swedish
   sv: {
@@ -235,6 +275,13 @@ const KEYWORD_TRANSLATIONS: Record<string, Record<string, string[]>> = {
     'spel': ['picture-bingo', 'treasure-hunt', 'story-dice'],
     'labyrint': ['picture-path'],
     'förskola': ['alphabet-train', 'coloring', 'drawing-lines', 'big-small-app', 'matching-app'],
+    'g\u00f6mda f\u00f6rem\u00e5l': ['find-objects'],
+    'visuell perception': ['shadow-match', 'find-objects', 'odd-one-out', 'missing-pieces'],
+    'kritiskt t\u00e4nkande': ['sudoku', 'odd-one-out', 'pattern-worksheet', 'math-puzzle'],
+    'finmotorik': ['drawing-lines', 'coloring', 'draw-and-color'],
+    'handstil': ['writing-app', 'drawing-lines'],
+    'korsord': ['image-crossword'],
+    'sm\u00e5barn': ['coloring', 'big-small-app', 'matching-app'],
   },
   // Danish
   da: {
@@ -257,7 +304,14 @@ const KEYWORD_TRANSLATIONS: Record<string, Record<string, string[]>> = {
     'bingo': ['picture-bingo'],
     'spil': ['picture-bingo', 'treasure-hunt', 'story-dice'],
     'labyrint': ['picture-path'],
-    'børnehave': ['alphabet-train', 'coloring', 'drawing-lines', 'big-small-app', 'matching-app'],
+    'b\u00f8rnehave': ['alphabet-train', 'coloring', 'drawing-lines', 'big-small-app', 'matching-app'],
+    'gemte genstande': ['find-objects'],
+    'visuel perception': ['shadow-match', 'find-objects', 'odd-one-out', 'missing-pieces'],
+    'kritisk t\u00e6nkning': ['sudoku', 'odd-one-out', 'pattern-worksheet', 'math-puzzle'],
+    'finmotorik': ['drawing-lines', 'coloring', 'draw-and-color'],
+    'h\u00e5ndskrift': ['writing-app', 'drawing-lines'],
+    'krydsordsopgave': ['image-crossword'],
+    'sm\u00e5b\u00f8rn': ['coloring', 'big-small-app', 'matching-app'],
   },
   // Norwegian
   no: {
@@ -281,6 +335,13 @@ const KEYWORD_TRANSLATIONS: Record<string, Record<string, string[]>> = {
     'spill': ['picture-bingo', 'treasure-hunt', 'story-dice'],
     'labyrint': ['picture-path'],
     'barnehage': ['alphabet-train', 'coloring', 'drawing-lines', 'big-small-app', 'matching-app'],
+    'gjemte gjenstander': ['find-objects'],
+    'visuell persepsjon': ['shadow-match', 'find-objects', 'odd-one-out', 'missing-pieces'],
+    'kritisk tenkning': ['sudoku', 'odd-one-out', 'pattern-worksheet', 'math-puzzle'],
+    'finmotorikk': ['drawing-lines', 'coloring', 'draw-and-color'],
+    'h\u00e5ndskrift': ['writing-app', 'drawing-lines'],
+    'kryssord': ['image-crossword'],
+    'sm\u00e5barn': ['coloring', 'big-small-app', 'matching-app'],
   },
   // Finnish
   fi: {
@@ -304,6 +365,13 @@ const KEYWORD_TRANSLATIONS: Record<string, Record<string, string[]>> = {
     'peli': ['picture-bingo', 'treasure-hunt', 'story-dice'],
     'labyrintti': ['picture-path'],
     'esikoulu': ['alphabet-train', 'coloring', 'drawing-lines', 'big-small-app', 'matching-app'],
+    'piilotetut esineet': ['find-objects'],
+    'visuaalinen havainto': ['shadow-match', 'find-objects', 'odd-one-out', 'missing-pieces'],
+    'kriittinen ajattelu': ['sudoku', 'odd-one-out', 'pattern-worksheet', 'math-puzzle'],
+    'hienomotoriikka': ['drawing-lines', 'coloring', 'draw-and-color'],
+    'k\u00e4siala': ['writing-app', 'drawing-lines'],
+    'ristikko': ['image-crossword'],
+    'taapero': ['coloring', 'big-small-app', 'matching-app'],
   },
 };
 
@@ -935,8 +1003,9 @@ export function extractKeywordsFromContent(htmlContent: string, locale: string =
 
   // Check for each English keyword in our map (always checked)
   for (const keyword of Object.keys(KEYWORD_PRODUCT_MAP)) {
-    // Use word boundary matching for better accuracy
-    const regex = new RegExp(`\\b${keyword.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`, 'i');
+    // Use Unicode-safe word boundaries (\\b breaks on accented characters like \u00e4, \u00f6, \u00fc, \u00e9)
+    const escaped = keyword.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    const regex = new RegExp(`(?:^|[\\s,;.!?()\\[\\]])${escaped}(?=[\\s,;.!?()\\[\\]]|$)`, 'i');
     if (regex.test(textContent)) {
       foundKeywords.push(keyword);
     }
@@ -945,7 +1014,8 @@ export function extractKeywordsFromContent(htmlContent: string, locale: string =
   // Check locale-specific keywords if not English
   if (locale !== 'en' && KEYWORD_TRANSLATIONS[locale]) {
     for (const keyword of Object.keys(KEYWORD_TRANSLATIONS[locale])) {
-      const regex = new RegExp(`\\b${keyword.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`, 'i');
+      const escaped = keyword.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+      const regex = new RegExp(`(?:^|[\\s,;.!?()\\[\\]])${escaped}(?=[\\s,;.!?()\\[\\]]|$)`, 'i');
       if (regex.test(textContent)) {
         foundKeywords.push(keyword);
       }

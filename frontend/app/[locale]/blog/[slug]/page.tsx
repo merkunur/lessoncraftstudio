@@ -516,6 +516,20 @@ export default async function BlogPostPage({
     updatedAt: post.updatedAt
   }, locale);
 
+  // SEO FIX: Expand BlogPosting image field to include gallery samples
+  // This cross-references the BlogPosting schema with the standalone ImageObject schemas
+  if (hasBlogSamples && schemas.length > 0) {
+    const blogPostingSchema = schemas.find((s: any) => s['@type'] === 'BlogPosting');
+    if (blogPostingSchema) {
+      const baseUrl = 'https://www.lessoncraftstudio.com';
+      const existingImage = blogPostingSchema.image;
+      const sampleImageUrls = blogSamples.map(s => `${baseUrl}${s.worksheetSrc}`);
+      blogPostingSchema.image = existingImage
+        ? [existingImage, ...sampleImageUrls]
+        : sampleImageUrls;
+    }
+  }
+
   // AUTO-DETECT FAQ and HowTo patterns for rich snippets
   const contentAnalysis = analyzeContent(htmlContent, translation.title || '');
 

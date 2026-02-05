@@ -80,8 +80,45 @@ const TRY_WORKSHEET_LABELS: Record<string, string> = {
   fi: 'Luo omasi',
 };
 
-function generateAltText(appName: string): string {
-  return `${appName} \u2014 free printable worksheet sample | LessonCraftStudio`;
+const ALT_TEXT_TEMPLATES: Record<string, string> = {
+  en: '{appName} \u2014 free printable worksheet sample | LessonCraftStudio',
+  de: '{appName} \u2014 kostenloses druckbares Arbeitsblatt | LessonCraftStudio',
+  fr: '{appName} \u2014 fiche imprimable gratuite | LessonCraftStudio',
+  es: '{appName} \u2014 ficha imprimible gratuita | LessonCraftStudio',
+  pt: '{appName} \u2014 ficha imprim\u00edvel gratuita | LessonCraftStudio',
+  it: '{appName} \u2014 scheda stampabile gratuita | LessonCraftStudio',
+  nl: '{appName} \u2014 gratis afdrukbaar werkblad | LessonCraftStudio',
+  sv: '{appName} \u2014 gratis utskrivbart arbetsblad | LessonCraftStudio',
+  da: '{appName} \u2014 gratis udskrivbart arbejdsark | LessonCraftStudio',
+  no: '{appName} \u2014 gratis utskrivbart arbeidsark | LessonCraftStudio',
+  fi: '{appName} \u2014 ilmainen tulostettava teht\u00e4v\u00e4 | LessonCraftStudio',
+};
+
+const SCHEMA_DESCRIPTION: Record<string, { withKeyword: string; withoutKeyword: string }> = {
+  en: { withKeyword: '{keyword} - {appName} worksheet sample', withoutKeyword: '{appName} - free printable worksheet sample' },
+  de: { withKeyword: '{keyword} - {appName} Arbeitsblatt-Beispiel', withoutKeyword: '{appName} - kostenloses druckbares Arbeitsblatt' },
+  fr: { withKeyword: '{keyword} - {appName} exemple de fiche', withoutKeyword: '{appName} - fiche imprimable gratuite' },
+  es: { withKeyword: '{keyword} - {appName} ejemplo de ficha', withoutKeyword: '{appName} - ficha imprimible gratuita' },
+  pt: { withKeyword: '{keyword} - {appName} exemplo de ficha', withoutKeyword: '{appName} - ficha imprim\u00edvel gratuita' },
+  it: { withKeyword: '{keyword} - {appName} esempio di scheda', withoutKeyword: '{appName} - scheda stampabile gratuita' },
+  nl: { withKeyword: '{keyword} - {appName} werkblad-voorbeeld', withoutKeyword: '{appName} - gratis afdrukbaar werkblad' },
+  sv: { withKeyword: '{keyword} - {appName} arbetsbladsexempel', withoutKeyword: '{appName} - gratis utskrivbart arbetsblad' },
+  da: { withKeyword: '{keyword} - {appName} arbejdsark-eksempel', withoutKeyword: '{appName} - gratis udskrivbart arbejdsark' },
+  no: { withKeyword: '{keyword} - {appName} arbeidsark-eksempel', withoutKeyword: '{appName} - gratis utskrivbart arbeidsark' },
+  fi: { withKeyword: '{keyword} - {appName} teht\u00e4v\u00e4esimerkki', withoutKeyword: '{appName} - ilmainen tulostettava teht\u00e4v\u00e4' },
+};
+
+function generateAltText(appName: string, locale: string): string {
+  const template = ALT_TEXT_TEMPLATES[locale] || ALT_TEXT_TEMPLATES.en;
+  return template.replace('{appName}', appName);
+}
+
+function generateSchemaDescription(appName: string, locale: string, focusKeyword?: string): string {
+  const templates = SCHEMA_DESCRIPTION[locale] || SCHEMA_DESCRIPTION.en;
+  if (focusKeyword) {
+    return templates.withKeyword.replace('{keyword}', focusKeyword).replace('{appName}', appName);
+  }
+  return templates.withoutKeyword.replace('{appName}', appName);
 }
 
 export default function BlogSampleGallery({
@@ -107,15 +144,15 @@ export default function BlogSampleGallery({
         const schema = {
           '@context': 'https://schema.org',
           '@type': 'ImageObject',
+          '@id': `${baseUrl}${sample.worksheetSrc}#imageobject`,
           name: `${sample.productName} - ${sampleLabel} ${index + 1}`,
           contentUrl: `${baseUrl}${sample.worksheetSrc}`,
           thumbnailUrl: `${baseUrl}${sample.thumbSrc}`,
-          description: focusKeyword
-            ? `${focusKeyword} - ${sample.productName} worksheet sample`
-            : `${sample.productName} - free printable worksheet sample`,
+          description: generateSchemaDescription(sample.productName, locale, focusKeyword),
           width: 400,
           height: 566,
           encodingFormat: 'image/jpeg',
+          inLanguage: locale,
           creator: {
             '@type': 'Organization',
             name: 'LessonCraftStudio',
@@ -185,6 +222,7 @@ export default function BlogSampleGallery({
             >
               <Link
                 href={sample.productUrl}
+                title={sample.productName}
                 style={{ display: 'block', textDecoration: 'none', color: 'inherit' }}
               >
                 <div style={{
@@ -194,7 +232,7 @@ export default function BlogSampleGallery({
                 }}>
                   <img
                     src={sample.thumbSrc}
-                    alt={generateAltText(sample.productName)}
+                    alt={generateAltText(sample.productName, locale)}
                     width={400}
                     height={566}
                     loading="lazy"

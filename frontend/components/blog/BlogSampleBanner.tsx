@@ -1,6 +1,5 @@
 'use client';
 
-import { motion } from 'framer-motion';
 import Link from 'next/link';
 
 interface BlogSampleBannerProps {
@@ -99,14 +98,13 @@ export default function BlogSampleBanner({ locale, appsUrl }: BlogSampleBannerPr
   };
 
   return (
-    <motion.div
-      initial={{ opacity: 0, y: 20 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
+    <section
+      aria-label={content.badge}
       style={{
         maxWidth: '1200px',
         margin: '24px auto 0',
         padding: '0 24px',
+        animation: 'blogBannerFadeIn 0.6s ease-out both',
       }}
     >
       <div
@@ -171,6 +169,10 @@ export default function BlogSampleBanner({ locale, appsUrl }: BlogSampleBannerPr
 
         {/* Keyframe animation styles */}
         <style dangerouslySetInnerHTML={{ __html: `
+          @keyframes blogBannerFadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+          }
           @keyframes blogBannerOrb1 {
             0%, 100% { transform: scale(1); }
             50% { transform: scale(1.1); }
@@ -335,6 +337,6 @@ export default function BlogSampleBanner({ locale, appsUrl }: BlogSampleBannerPr
           </svg>
         </div>
       </div>
-    </motion.div>
+    </section>
   );
 }

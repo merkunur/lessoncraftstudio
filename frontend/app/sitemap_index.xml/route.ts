@@ -6,7 +6,7 @@
 export const revalidate = 3600; // Revalidate every hour
 
 export async function GET() {
-  const baseUrl = process.env.NEXT_PUBLIC_APP_URL || 'https://www.lessoncraftstudio.com';
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.lessoncraftstudio.com';
   const lastMod = new Date().toISOString();
 
   const xml = `<?xml version="1.0" encoding="UTF-8"?>

@@ -36,7 +36,7 @@ const localeToLanguage: Record<string, string> = {
 };
 
 export async function GET() {
-  const baseUrl = process.env.NEXT_PUBLIC_APP_URL || 'https://www.lessoncraftstudio.com';
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.lessoncraftstudio.com';
 
   // Get posts from the last 7 days
   const sevenDaysAgo = new Date();

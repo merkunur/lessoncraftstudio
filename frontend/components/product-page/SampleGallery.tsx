@@ -144,10 +144,18 @@ function generateDefaultAltText(appId: string, locale: string, index: number): s
   return `Free printable ${appName.toLowerCase()} worksheet ${sampleNumber} - ${languageName} educational activity for elementary students`;
 }
 
+// Server-discovered sample from filesystem (passed from server component)
+interface ServerSample {
+  filename: string;
+  worksheetSrc: string;
+  answerKeySrc?: string;
+}
+
 interface SampleGalleryProps {
   locale: string;
   samples?: Sample[];  // Optional for backward compatibility
   appId?: string;      // For dynamic mode - loads samples from server
+  serverSamples?: ServerSample[];  // Server-side discovered samples for SSR
   sectionTitle?: string;
   sectionDescription?: string;
   downloadLabel?: string;
@@ -267,10 +275,23 @@ function convertDynamicSamples(
   });
 }
 
+/**
+ * Convert server-discovered samples to Sample[] format for initial SSR render
+ */
+function convertServerSamples(serverSamples: ServerSample[], locale: string, appId?: string): Sample[] {
+  return serverSamples.map((s, index) => ({
+    id: `ssr-sample-${index + 1}`,
+    worksheetSrc: s.worksheetSrc,
+    answerKeySrc: s.answerKeySrc || s.worksheetSrc,
+    altText: generateDefaultAltText(appId || '', locale, index),
+  }));
+}
+
 export default function SampleGallery({
   locale,
   samples: propSamples,
   appId,
+  serverSamples,
   sectionTitle = defaultLabels.sectionTitle,
   sectionDescription = defaultLabels.sectionDescription,
   downloadLabel = defaultLabels.downloadLabel,
@@ -283,6 +304,11 @@ export default function SampleGallery({
   downloadingLabel = defaultLabels.downloadingLabel,
   ofLabel = defaultLabels.ofLabel,
 }: SampleGalleryProps) {
+  // Convert server-discovered samples for SSR initial render
+  const initialSamples = serverSamples && serverSamples.length > 0
+    ? convertServerSamples(serverSamples, locale, appId)
+    : [];
+
   const [currentIndex, setCurrentIndex] = useState(0);
   const [showAnswerKey, setShowAnswerKey] = useState(false);
   const [lightboxOpen, setLightboxOpen] = useState(false);
@@ -291,7 +317,7 @@ export default function SampleGallery({
   const [downloadingId, setDownloadingId] = useState<string | null>(null);
   const [failedThumbs, setFailedThumbs] = useState<Set<string>>(new Set());
   const [failedPreviews, setFailedPreviews] = useState<Set<string>>(new Set());
-  const [dynamicSamples, setDynamicSamples] = useState<Sample[]>([]);
+  const [dynamicSamples, setDynamicSamples] = useState<Sample[]>(initialSamples);
   const [dynamicLoading, setDynamicLoading] = useState(!!appId);
   const thumbnailContainerRef = useRef<HTMLDivElement>(null);
   const [canScrollLeft, setCanScrollLeft] = useState(false);
@@ -470,8 +496,8 @@ export default function SampleGallery({
     }),
   };
 
-  // Skeleton loading state
-  if (appId && dynamicLoading) {
+  // Skeleton loading state - only show when no SSR samples available AND still loading
+  if (appId && dynamicLoading && dynamicSamples.length === 0) {
     return (
       <section id="samples-gallery" className="py-24 relative overflow-hidden" style={{ background: 'linear-gradient(180deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%)' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
@@ -831,6 +857,28 @@ export default function SampleGallery({
           </motion.div>
         </motion.div>
       </div>
+
+      {/* Noscript fallback: plain <img> tags for search engine crawlers without JS */}
+      <noscript>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-8">
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
+            {samples.map((sample, index) => (
+              <figure key={`noscript-${index}`} className="m-0">
+                <img
+                  src={sample.worksheetSrc}
+                  alt={sample.altText}
+                  title={sample.imageTitle || sample.altText}
+                  width={2480}
+                  height={3508}
+                  loading={index < 4 ? 'eager' : 'lazy'}
+                  style={{ width: '100%', height: 'auto' }}
+                />
+                <figcaption className="sr-only">{sample.altText}</figcaption>
+              </figure>
+            ))}
+          </div>
+        </div>
+      </noscript>
 
       {/* Lightbox Modal */}
       <AnimatePresence>

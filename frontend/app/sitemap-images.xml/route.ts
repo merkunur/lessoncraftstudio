@@ -281,7 +281,7 @@ function escapeXml(str: string): string {
 }
 
 export async function GET() {
-  const baseUrl = process.env.NEXT_PUBLIC_APP_URL || 'https://www.lessoncraftstudio.com';
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.lessoncraftstudio.com';
 
   // Fetch SEO metadata from database (including updatedAt for lastmod)
   const seoMetaMap = new Map<string, SampleSeoMeta>();
@@ -312,9 +312,6 @@ export async function GET() {
     console.warn('[IMAGE-SITEMAP] Could not fetch SEO metadata from database, using defaults');
   }
 
-  // License URL for all images
-  const licenseUrl = `${baseUrl}/terms`;
-
   let urls = '';
 
   // Process all apps and locales
@@ -337,6 +334,12 @@ export async function GET() {
       const samples = await scanAppDirectory(language, folderName);
 
       if (samples.length > 0) {
+        // Locale-specific license URL
+        const licenseUrl = `${baseUrl}/${locale}/terms`;
+
+        // Track max updatedAt across all samples for this page's <lastmod>
+        let maxUpdatedAt: Date | null = null;
+
         // Generate image entries from discovered files
         const imageXml = samples
           .map((sample, index) => {
@@ -349,6 +352,11 @@ export async function GET() {
               // Try to get SEO metadata from database first
               const seoKey = `${app.appId}:${locale}:${sample.filename}`;
               const seoMeta = seoMetaMap.get(seoKey);
+
+              // Track max updatedAt for lastmod
+              if (seoMeta?.updatedAt && (!maxUpdatedAt || seoMeta.updatedAt > maxUpdatedAt)) {
+                maxUpdatedAt = seoMeta.updatedAt;
+              }
 
               // Use database metadata if available, otherwise generate defaults
               const wsTitle = seoMeta?.title || generateDefaultTitle(app.appId, locale, index);
@@ -371,6 +379,11 @@ export async function GET() {
               const akSeoKey = `${app.appId}:${locale}:${akFilename}`;
               const akSeoMeta = seoMetaMap.get(akSeoKey);
 
+              // Track max updatedAt for lastmod
+              if (akSeoMeta?.updatedAt && (!maxUpdatedAt || akSeoMeta.updatedAt > maxUpdatedAt)) {
+                maxUpdatedAt = akSeoMeta.updatedAt;
+              }
+
               const appName = appIdToDisplayName[app.appId] || app.appId.replace(/-/g, ' ');
               const akTitle = akSeoMeta?.title
                 ? `${akSeoMeta.title} - Answer Key`
@@ -392,7 +405,10 @@ export async function GET() {
           .join('\n');
 
         if (imageXml) {
-          urls += `  <url>\n    <loc>${escapeXml(pageUrl)}</loc>\n${imageXml}\n  </url>\n`;
+          const lastmodXml = maxUpdatedAt
+            ? `\n    <lastmod>${(maxUpdatedAt as Date).toISOString().split('T')[0]}</lastmod>`
+            : '';
+          urls += `  <url>\n    <loc>${escapeXml(pageUrl)}</loc>${lastmodXml}\n${imageXml}\n  </url>\n`;
         }
       }
     }

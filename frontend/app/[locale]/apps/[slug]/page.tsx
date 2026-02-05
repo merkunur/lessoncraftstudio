@@ -497,8 +497,8 @@ function SchemaScripts({
     };
   });
 
-  // Gallery name for ImageGallery schema
-  const galleryName = content?.samples?.sectionTitle;
+  // Gallery name for ImageGallery schema - fallback ensures schema is always generated
+  const galleryName = content?.samples?.sectionTitle || `${appData.name} Worksheet Samples`;
 
   // Generate all schemas using the comprehensive function
   const schemas = generateAllProductPageSchemas(
@@ -535,30 +535,42 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.lessoncraftstudio.com';
     const canonicalUrl = content.seo.canonicalUrl || `${baseUrl}/${params.locale}/apps/${params.slug}`;
 
-    // Get og:image - prefer seo.images array, fall back to hero preview image or first sample
-    const languageFolder = localeToLanguageFolder[params.locale] || 'english';
-    const fallbackOgImage = content.hero?.previewImageSrc
-      ? `https://www.lessoncraftstudio.com${content.hero.previewImageSrc.replace(/ /g, '%20')}`
-      : content.samples?.items?.[0]?.worksheetSrc
-        ? `https://www.lessoncraftstudio.com${content.samples.items[0].worksheetSrc.replace(/ /g, '%20')}`
-        : `https://www.lessoncraftstudio.com/opengraph-image.png`;
+    // Discover samples from filesystem for og:image (most content files have items: [])
+    const metaAppId = content.seo.appId || params.slug.replace(/-worksheets$/, '');
+    const metaDiscoveredSamples = await discoverSamplesFromFilesystem(metaAppId, params.locale);
 
-    // Derive og:image from actual sample items (always correct filenames)
-    // Falls back to seo.images dimensions if available
+    // Get og:image - priority: discovered samples > content items > hero preview > generic fallback
     const seoTitle = content.seo.title;
-    const ogImages = content.samples?.items?.length
-      ? content.samples.items.slice(0, 3).map((item: any, index: number) => ({
-          url: `https://www.lessoncraftstudio.com${item.worksheetSrc.replace(/ /g, '%20')}`,
-          width: content.seo?.images?.[index]?.width || 2480,
-          height: content.seo?.images?.[index]?.height || 3508,
-          alt: item.imageTitle || item.altText || content.hero?.title || seoTitle,
-        }))
-      : [{
-          url: fallbackOgImage,
-          width: 2480,
-          height: 3508,
-          alt: content.hero?.title || seoTitle,
-        }];
+    let ogImages: Array<{ url: string; width: number; height: number; alt: string }>;
+
+    if (metaDiscoveredSamples.length > 0) {
+      // Use discovered filesystem samples (covers most product pages)
+      ogImages = metaDiscoveredSamples.slice(0, 3).map((sample, index) => ({
+        url: `https://www.lessoncraftstudio.com${sample.worksheetSrc.replace(/ /g, '%20')}`,
+        width: content.seo?.images?.[index]?.width || 2480,
+        height: content.seo?.images?.[index]?.height || 3508,
+        alt: content.hero?.title || seoTitle,
+      }));
+    } else if (content.samples?.items?.length) {
+      // Fallback to content file items
+      ogImages = content.samples.items.slice(0, 3).map((item: any, index: number) => ({
+        url: `https://www.lessoncraftstudio.com${item.worksheetSrc.replace(/ /g, '%20')}`,
+        width: content.seo?.images?.[index]?.width || 2480,
+        height: content.seo?.images?.[index]?.height || 3508,
+        alt: item.imageTitle || item.altText || content.hero?.title || seoTitle,
+      }));
+    } else {
+      // Final fallback: hero preview or generic
+      const fallbackOgImage = content.hero?.previewImageSrc
+        ? `https://www.lessoncraftstudio.com${content.hero.previewImageSrc.replace(/ /g, '%20')}`
+        : `https://www.lessoncraftstudio.com/opengraph-image.png`;
+      ogImages = [{
+        url: fallbackOgImage,
+        width: 2480,
+        height: 3508,
+        alt: content.hero?.title || seoTitle,
+      }];
+    }
 
     // Get og:locale
     const ogLocale = ogLocaleMap[params.locale] || 'en_US';
@@ -3663,7 +3675,7 @@ export default async function AppPage({ params: { locale, slug } }: PageProps) {
     return (
       <>
         <SchemaScripts appData={schemaAppData} locale={locale} slug={slug} content={content} sampleSeoMap={sampleSeoMap} discoveredSamples={discoveredSamples} />
-        <ProductPageClient locale={locale} content={content} slug={slug} />
+        <ProductPageClient locale={locale} content={content} slug={slug} discoveredSamples={discoveredSamples} />
         <RelatedBlogPosts locale={locale as SupportedLocale} posts={relatedBlogPosts} />
       </>
     );
@@ -3709,11 +3721,12 @@ export default async function AppPage({ params: { locale, slug } }: PageProps) {
   // Handle legacy English fallbacks with RelatedBlogPosts for SEO
   if (locale === 'en' && legacyEnglishContent[slug]) {
     const { content: legacyContent, appId } = legacyEnglishContent[slug];
+    const legacyDiscoveredSamples = await discoverSamplesFromFilesystem(appId, locale);
     const appKeywords = getKeywordsForApp(appId);
     const relatedBlogPosts = await getRelatedBlogPostsForProduct(appKeywords, locale, 3);
     return (
       <>
-        <ProductPageClient locale={locale} content={legacyContent} slug={slug} />
+        <ProductPageClient locale={locale} content={legacyContent} slug={slug} discoveredSamples={legacyDiscoveredSamples} />
         <RelatedBlogPosts locale={locale as SupportedLocale} posts={relatedBlogPosts} />
       </>
     );

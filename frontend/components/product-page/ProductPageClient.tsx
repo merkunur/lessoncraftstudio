@@ -293,16 +293,25 @@ export interface ProductPageContent {
   };
 }
 
+// Discovered sample from server-side filesystem scan (for SSR)
+interface DiscoveredSample {
+  filename: string;
+  worksheetSrc: string;
+  answerKeySrc?: string;
+}
+
 interface ProductPageClientProps {
   locale: string;
   content: ProductPageContent;
   slug?: string;  // URL slug for deriving appId when content.seo.appId is not available
+  discoveredSamples?: DiscoveredSample[];  // Server-discovered samples for SSR
 }
 
 export default function ProductPageClient({
   locale,
   content,
   slug,
+  discoveredSamples,
 }: ProductPageClientProps) {
   // Derive appId: prefer content.seo.appId, fall back to slug mapping
   const appId = content.seo?.appId || (slug ? slugToAppId[slug] : undefined);
@@ -335,7 +344,7 @@ export default function ProductPageClient({
 
       {/* Part 2: Sample Gallery */}
       {/* Dynamic mode: use appId if available, falls back to static samples */}
-      {(appId || content.samples.items.length > 0) && (
+      {(appId || content.samples.items.length > 0 || (discoveredSamples && discoveredSamples.length > 0)) && (
         <SampleGallery
           locale={locale}
           appId={appId}  // Enables dynamic loading from content manager
@@ -351,6 +360,7 @@ export default function ProductPageClient({
           downloadingLabel={content.samples.downloadingLabel}
           ofLabel={content.samples.ofLabel}
           samples={content.samples.items}  // Fallback to static samples if no dynamic ones
+          serverSamples={discoveredSamples}  // SSR samples for initial HTML render
         />
       )}
 

@@ -7,6 +7,7 @@
  */
 
 import Link from 'next/link';
+import { getHreflangCode } from '@/lib/schema-generator';
 
 interface BlogSampleItem {
   worksheetSrc: string;
@@ -81,17 +82,17 @@ const TRY_WORKSHEET_LABELS: Record<string, string> = {
 };
 
 const ALT_TEXT_TEMPLATES: Record<string, string> = {
-  en: '{appName} \u2014 free printable worksheet sample | LessonCraftStudio',
-  de: '{appName} \u2014 kostenloses druckbares Arbeitsblatt | LessonCraftStudio',
-  fr: '{appName} \u2014 fiche imprimable gratuite | LessonCraftStudio',
-  es: '{appName} \u2014 ficha imprimible gratuita | LessonCraftStudio',
-  pt: '{appName} \u2014 ficha imprim\u00edvel gratuita | LessonCraftStudio',
-  it: '{appName} \u2014 scheda stampabile gratuita | LessonCraftStudio',
-  nl: '{appName} \u2014 gratis afdrukbaar werkblad | LessonCraftStudio',
-  sv: '{appName} \u2014 gratis utskrivbart arbetsblad | LessonCraftStudio',
-  da: '{appName} \u2014 gratis udskrivbart arbejdsark | LessonCraftStudio',
-  no: '{appName} \u2014 gratis utskrivbart arbeidsark | LessonCraftStudio',
-  fi: '{appName} \u2014 ilmainen tulostettava teht\u00e4v\u00e4 | LessonCraftStudio',
+  en: '{appName} \u2014 free printable worksheet sample',
+  de: '{appName} \u2014 kostenloses druckbares Arbeitsblatt',
+  fr: '{appName} \u2014 fiche imprimable gratuite',
+  es: '{appName} \u2014 ficha imprimible gratuita',
+  pt: '{appName} \u2014 ficha imprim\u00edvel gratuita',
+  it: '{appName} \u2014 scheda stampabile gratuita',
+  nl: '{appName} \u2014 gratis afdrukbaar werkblad',
+  sv: '{appName} \u2014 gratis utskrivbart arbetsblad',
+  da: '{appName} \u2014 gratis udskrivbart arbejdsark',
+  no: '{appName} \u2014 gratis utskrivbart arbeidsark',
+  fi: '{appName} \u2014 ilmainen tulostettava teht\u00e4v\u00e4',
 };
 
 const SCHEMA_DESCRIPTION: Record<string, { withKeyword: string; withoutKeyword: string }> = {
@@ -146,13 +147,26 @@ export default function BlogSampleGallery({
           '@type': 'ImageObject',
           '@id': `${baseUrl}${sample.worksheetSrc}#imageobject`,
           name: `${sample.productName} - ${sampleLabel} ${index + 1}`,
+          caption: `${sampleLabel} - ${sample.productName}`,
           contentUrl: `${baseUrl}${sample.worksheetSrc}`,
           thumbnailUrl: `${baseUrl}${sample.thumbSrc}`,
           description: generateSchemaDescription(sample.productName, locale, focusKeyword),
-          width: 400,
-          height: 566,
+          width: 2480,
+          height: 3508,
           encodingFormat: 'image/jpeg',
-          inLanguage: locale,
+          thumbnail: {
+            '@type': 'ImageObject',
+            contentUrl: `${baseUrl}${sample.thumbSrc}`,
+            encodingFormat: 'image/webp',
+            width: 400,
+            height: 566,
+          },
+          inLanguage: getHreflangCode(locale),
+          representativeOfPage: false,
+          isPartOf: {
+            '@type': 'BlogPosting',
+            '@id': `${baseUrl}/${locale}/blog/${blogSlug}#article`,
+          },
           creator: {
             '@type': 'Organization',
             name: 'LessonCraftStudio',

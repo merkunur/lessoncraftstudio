@@ -2,7 +2,7 @@ import { notFound, permanentRedirect } from 'next/navigation';
 import Link from 'next/link';
 import { cache } from 'react';
 import { prisma } from '@/lib/prisma';
-import { generateBlogSchemas, ogLocaleMap, getHreflangCode } from '@/lib/schema-generator';
+import { generateBlogSchemas, ogLocaleMap, getHreflangCode, generateImageGallerySchema } from '@/lib/schema-generator';
 import { analyzeContent, generateFAQSchema, generateHowToSchema } from '@/lib/content-analyzer';
 import Breadcrumb from '@/components/Breadcrumb';
 import { SUPPORTED_LOCALES } from '@/config/locales';
@@ -516,18 +516,48 @@ export default async function BlogPostPage({
     updatedAt: post.updatedAt
   }, locale);
 
-  // SEO FIX: Expand BlogPosting image field to include gallery samples
+  // SEO FIX: Expand BlogPosting image field to include gallery samples as @id references
   // This cross-references the BlogPosting schema with the standalone ImageObject schemas
   if (hasBlogSamples && schemas.length > 0) {
     const blogPostingSchema = schemas.find((s: any) => s['@type'] === 'BlogPosting');
     if (blogPostingSchema) {
       const baseUrl = 'https://www.lessoncraftstudio.com';
       const existingImage = blogPostingSchema.image;
-      const sampleImageUrls = blogSamples.map(s => `${baseUrl}${s.worksheetSrc}`);
+      const sampleImageRefs = blogSamples.map(s => ({
+        '@id': `${baseUrl}${s.worksheetSrc}#imageobject`
+      }));
       blogPostingSchema.image = existingImage
-        ? [existingImage, ...sampleImageUrls]
-        : sampleImageUrls;
+        ? [existingImage, ...sampleImageRefs]
+        : sampleImageRefs;
     }
+  }
+
+  // SEO: Add ImageGallery schema wrapping the sample images
+  if (hasBlogSamples) {
+    const baseUrl = 'https://www.lessoncraftstudio.com';
+    const sectionTitles: Record<string, string> = {
+      en: 'Worksheet Samples', de: 'Arbeitsblatt-Beispiele', fr: 'Exemples de fiches',
+      es: 'Ejemplos de fichas', pt: 'Exemplos de fichas', it: 'Esempi di schede',
+      nl: 'Werkblad-voorbeelden', sv: 'Arbetsbladsexempel', da: 'Arbejdsark-eksempler',
+      no: 'Arbeidsark-eksempler', fi: 'Teht\u00e4v\u00e4esimerkit',
+    };
+    const galleryImages = blogSamples.map(s => ({
+      src: s.worksheetSrc,
+      name: s.productName,
+      description: s.productName,
+      caption: s.productName,
+      width: 2480,
+      height: 3508,
+      thumbnailSrc: s.thumbSrc,
+    }));
+    const gallerySchema = generateImageGallerySchema(
+      galleryImages,
+      sectionTitles[locale] || sectionTitles.en,
+      `${baseUrl}/${locale}/blog/${localeSlug}`,
+      locale,
+      baseUrl
+    );
+    schemas.push(gallerySchema);
   }
 
   // AUTO-DETECT FAQ and HowTo patterns for rich snippets

@@ -73,6 +73,7 @@ export function generateBlogSchemas(post: BlogPostData, locale: string, baseUrl:
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
+    "@id": `${postUrl}#article`,
     "headline": headline,
     "description": description,
     "image": image,

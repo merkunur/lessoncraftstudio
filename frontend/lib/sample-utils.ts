@@ -60,6 +60,7 @@ export const appIdToSamplesFolder: Record<string, string> = {
   'treasure-hunt': 'treasure hunt',
   'word-guess': 'word guess',
   'writing': 'writing',
+  'story-dice': 'story dice',
 };
 
 // Normalize internal-linking appIds to sample folder appIds

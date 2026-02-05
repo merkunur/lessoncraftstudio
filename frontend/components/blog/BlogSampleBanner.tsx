@@ -90,7 +90,8 @@ const BANNER_CONTENT: Record<string, { badge: string; headline: string; subtitle
 export default function BlogSampleBanner({ locale, appsUrl }: BlogSampleBannerProps) {
   const content = BANNER_CONTENT[locale] || BANNER_CONTENT.en;
 
-  const handleScrollToGallery = () => {
+  const handleSmoothScroll = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    e.preventDefault();
     const el = document.getElementById('blog-sample-gallery');
     if (el) {
       el.scrollIntoView({ behavior: 'smooth', block: 'start' });
@@ -170,8 +171,8 @@ export default function BlogSampleBanner({ locale, appsUrl }: BlogSampleBannerPr
         {/* Keyframe animation styles */}
         <style dangerouslySetInnerHTML={{ __html: `
           @keyframes blogBannerFadeIn {
-            from { opacity: 0; transform: translateY(20px); }
-            to { opacity: 1; transform: translateY(0); }
+            from { transform: translateY(12px); }
+            to { transform: translateY(0); }
           }
           @keyframes blogBannerOrb1 {
             0%, 100% { transform: scale(1); }
@@ -242,8 +243,9 @@ export default function BlogSampleBanner({ locale, appsUrl }: BlogSampleBannerPr
 
           {/* Buttons */}
           <div className="blog-banner-buttons" style={{ display: 'flex', gap: '12px', flexWrap: 'wrap' }}>
-            <button
-              onClick={handleScrollToGallery}
+            <a
+              href="#blog-sample-gallery"
+              onClick={handleSmoothScroll}
               style={{
                 display: 'inline-flex',
                 alignItems: 'center',
@@ -256,6 +258,7 @@ export default function BlogSampleBanner({ locale, appsUrl }: BlogSampleBannerPr
                 fontSize: '15px',
                 fontWeight: 600,
                 cursor: 'pointer',
+                textDecoration: 'none',
                 boxShadow: '0 4px 20px rgba(139,92,246,0.3)',
                 transition: 'transform 0.2s ease, box-shadow 0.2s ease',
               }}
@@ -270,7 +273,7 @@ export default function BlogSampleBanner({ locale, appsUrl }: BlogSampleBannerPr
             >
               {content.viewSamplesBtn}
               <span aria-hidden="true" style={{ fontSize: '14px' }}>&#8595;</span>
-            </button>
+            </a>
 
             <Link
               href={appsUrl}

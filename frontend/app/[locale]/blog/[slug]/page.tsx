@@ -10,10 +10,7 @@ import RelatedProducts from '@/components/blog/RelatedProducts';
 import BlogSampleBanner from '@/components/blog/BlogSampleBanner';
 import BlogSampleGallery from '@/components/blog/BlogSampleGallery';
 import { discoverSamplesFromFilesystem, normalizeAppIdForSamples } from '@/lib/sample-utils';
-import {
-  getRelatedProducts,
-  extractKeywordsFromContent,
-} from '@/lib/internal-linking';
+import { getBlogSampleApps } from '@/lib/blog-topic-clusters';
 import type { SupportedLocale } from '@/config/product-page-slugs';
 
 // Enable ISR - revalidate every 30 minutes (reduced from 1 hour for faster updates)
@@ -458,12 +455,16 @@ export default async function BlogPostPage({
     bodyContent = bodyContent.replace(headerContent, '');
   }
 
-  // Discover worksheet samples for blog post
-  const extractedKeywords = (post.keywords || []).length > 0
-    ? post.keywords!
-    : extractKeywordsFromContent(htmlContent, locale);
-
-  const matchedProducts = getRelatedProducts(extractedKeywords, post.category, locale as SupportedLocale, 6);
+  // Discover worksheet samples for blog post using topic cluster matching
+  // Uses English title for matching (most reliable signal), then discovers samples per locale
+  const enTitle = (translations['en']?.title as string) || translation.title || '';
+  const sampleApps = getBlogSampleApps(
+    enTitle,
+    post.slug,
+    translation.focusKeyword,
+    locale as SupportedLocale,
+    3
+  );
 
   const blogSamples: Array<{
     worksheetSrc: string;
@@ -473,14 +474,13 @@ export default async function BlogPostPage({
     appId: string;
   }> = [];
 
-  for (const product of matchedProducts) {
-    if (blogSamples.length >= 3) break;
-    const normalizedId = normalizeAppIdForSamples(product.appId);
+  for (const app of sampleApps) {
+    const normalizedId = normalizeAppIdForSamples(app.appId);
     const discovered = await discoverSamplesFromFilesystem(normalizedId, locale);
     if (discovered.length > 0) {
       // Deterministic sample selection based on blog slug + appId
       let hash = 0;
-      const key = localeSlug + product.appId;
+      const key = localeSlug + app.appId;
       for (let i = 0; i < key.length; i++) {
         hash = ((hash << 5) - hash + key.charCodeAt(i)) | 0;
       }
@@ -490,9 +490,9 @@ export default async function BlogPostPage({
       blogSamples.push({
         worksheetSrc: sample.worksheetSrc,
         thumbSrc,
-        productUrl: product.url,
-        productName: product.name,
-        appId: product.appId,
+        productUrl: app.productUrl,
+        productName: app.productName,
+        appId: app.appId,
       });
     }
   }

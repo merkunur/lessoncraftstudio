@@ -12,7 +12,7 @@ export function Providers({ children }: { children: React.ReactNode }) {
   return (
     <AuthProvider>
       <DeviceFingerprintProvider>
-        <Toaster position="top-right" />
+        <Toaster position="top-right" containerStyle={{ position: 'fixed', zIndex: 9999 }} />
         {children}
       </DeviceFingerprintProvider>
     </AuthProvider>

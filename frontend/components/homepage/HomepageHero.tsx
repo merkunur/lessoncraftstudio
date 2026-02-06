@@ -43,41 +43,41 @@ const localeContent: Record<string, {
   de: {
     badge: '33 professionelle Arbeitsblatt-Generatoren',
     titleLine1: 'Erstellen Sie ',
-    titleHighlight: 'wunderschöne',
+    titleHighlight: 'wundersch\u00f6ne',
     titleLine2: 'Unterrichtsmaterialien',
-    subtitle: 'Professionelle Arbeitsblatt-Generatoren, denen Lehrkräfte weltweit vertrauen. Erstellen, anpassen und herunterladen – in wenigen Minuten.',
+    subtitle: 'Professionelle Arbeitsblatt-Generatoren, denen Lehrkr\u00e4fte weltweit vertrauen. Erstellen, anpassen und herunterladen \u2013 in wenigen Minuten.',
     ctaPrimary: 'Gratis-Beispiele entdecken',
     ctaSecondary: 'Alle Generatoren entdecken',
     trustLanguages: '11 Sprachen',
     trustImages: '3000+ Bilder',
     trustLicense: 'Kommerzielle Nutzung',
-    answerKey: 'Lösungsschlüssel',
+    answerKey: 'L\u00f6sungsschl\u00fcssel',
     previewTitles: ['Addition', 'Wortsuche'],
   },
   fr: {
-    badge: '33 générateurs de fiches pédagogiques',
-    titleLine1: 'Créez des supports ',
-    titleHighlight: 'pédagogiques',
+    badge: '33 g\u00e9n\u00e9rateurs de fiches p\u00e9dagogiques',
+    titleLine1: 'Cr\u00e9ez des supports ',
+    titleHighlight: 'p\u00e9dagogiques',
     titleLine2: 'exceptionnels',
-    subtitle: 'Des outils professionnels plébiscités par les enseignants du monde entier. Concevez, personnalisez et téléchargez vos fiches en quelques minutes.',
-    ctaPrimary: 'Découvrir les exemples gratuits',
-    ctaSecondary: 'Explorer tous les générateurs',
+    subtitle: 'Des outils professionnels pl\u00e9biscit\u00e9s par les enseignants du monde entier. Concevez, personnalisez et t\u00e9l\u00e9chargez vos fiches en quelques minutes.',
+    ctaPrimary: 'D\u00e9couvrir les exemples gratuits',
+    ctaSecondary: 'Explorer tous les g\u00e9n\u00e9rateurs',
     trustLanguages: '11 langues',
     trustImages: '3000+ images',
     trustLicense: 'Usage commercial inclus',
-    answerKey: 'Corrigé inclus',
-    previewTitles: ['Addition', 'Mots mêlés'],
+    answerKey: 'Corrig\u00e9 inclus',
+    previewTitles: ['Addition', 'Mots m\u00eal\u00e9s'],
   },
   es: {
     badge: '33 generadores de fichas educativas',
     titleLine1: 'Crea materiales ',
     titleHighlight: 'educativos',
-    titleLine2: 'increíbles',
-    subtitle: 'Herramientas profesionales que usan maestros en todo el mundo. Diseña, personaliza y descarga tus fichas en minutos.',
+    titleLine2: 'incre\u00edbles',
+    subtitle: 'Herramientas profesionales que usan maestros en todo el mundo. Dise\u00f1a, personaliza y descarga tus fichas en minutos.',
     ctaPrimary: 'Ver ejemplos gratis',
     ctaSecondary: 'Explorar todos los generadores',
     trustLanguages: '11 idiomas',
-    trustImages: '3000+ imágenes',
+    trustImages: '3000+ im\u00e1genes',
     trustLicense: 'Uso comercial incluido',
     answerKey: 'Con respuestas',
     previewTitles: ['Sumas', 'Sopa de letras'],
@@ -100,15 +100,15 @@ const localeContent: Record<string, {
     badge: '33 geradores de atividades profissionais',
     titleLine1: 'Crie materiais ',
     titleHighlight: 'educativos',
-    titleLine2: 'incríveis',
+    titleLine2: 'incr\u00edveis',
     subtitle: 'Ferramentas profissionais usadas por professores no mundo todo. Crie, personalize e baixe suas atividades em poucos minutos.',
-    ctaPrimary: 'Ver exemplos grátis',
+    ctaPrimary: 'Ver exemplos gr\u00e1tis',
     ctaSecondary: 'Explorar todos os geradores',
     trustLanguages: '11 idiomas',
     trustImages: 'Mais de 3000 imagens',
-    trustLicense: 'Licença comercial inclusa',
+    trustLicense: 'Licen\u00e7a comercial inclusa',
     answerKey: 'Gabarito incluso',
-    previewTitles: ['Adição', 'Caça-palavras'],
+    previewTitles: ['Adi\u00e7\u00e3o', 'Ca\u00e7a-palavras'],
   },
   nl: {
     badge: '33 professionele werkbladgeneratoren',
@@ -120,7 +120,7 @@ const localeContent: Record<string, {
     ctaSecondary: 'Ontdek alle generatoren',
     trustLanguages: '11 talen',
     trustImages: '3000+ afbeeldingen',
-    trustLicense: 'Commerciële licentie',
+    trustLicense: 'Commerci\u00eble licentie',
     answerKey: 'Antwoordblad',
     previewTitles: ['Optellen', 'Woordzoeker'],
   },
@@ -129,7 +129,7 @@ const localeContent: Record<string, {
     titleLine1: 'Skab ',
     titleHighlight: 'flotte',
     titleLine2: 'undervisningsmaterialer',
-    subtitle: 'Professionelle opgavegeneratorer, som lærere verden over stoler på. Opret, tilpas og download på få minutter.',
+    subtitle: 'Professionelle opgavegeneratorer, som l\u00e6rere verden over stoler p\u00e5. Opret, tilpas og download p\u00e5 f\u00e5 minutter.',
     ctaPrimary: 'Se gratis eksempler',
     ctaSecondary: 'Udforsk alle generatorer',
     trustLanguages: '11 sprog',
@@ -139,46 +139,46 @@ const localeContent: Record<string, {
     previewTitles: ['Addition', 'Find ord'],
   },
   sv: {
-    badge: '33 professionella övningsbladsgeneratorer',
+    badge: '33 professionella \u00f6vningsbladsgeneratorer',
     titleLine1: 'Skapa ',
     titleHighlight: 'professionella',
-    titleLine2: 'övningsblad',
-    subtitle: 'Övningsbladsgeneratorer som lärare världen över litar på. Skapa, anpassa och ladda ner på några minuter.',
+    titleLine2: '\u00f6vningsblad',
+    subtitle: '\u00d6vningsbladsgeneratorer som l\u00e4rare v\u00e4rlden \u00f6ver litar p\u00e5. Skapa, anpassa och ladda ner p\u00e5 n\u00e5gra minuter.',
     ctaPrimary: 'Se gratis exempel',
     ctaSecondary: 'Utforska alla generatorer',
-    trustLanguages: '11 språk',
-    trustImages: 'Över 3000 bilder',
+    trustLanguages: '11 spr\u00e5k',
+    trustImages: '\u00d6ver 3000 bilder',
     trustLicense: 'Kommersiell licens',
     answerKey: 'Facit',
-    previewTitles: ['Addition', 'Ordsök'],
+    previewTitles: ['Addition', 'Ords\u00f6k'],
   },
   no: {
     badge: '33 profesjonelle oppgavegeneratorer',
     titleLine1: 'Lag ',
     titleHighlight: 'profesjonelle',
     titleLine2: 'oppgaveark',
-    subtitle: 'Oppgavegeneratorer som lærere over hele verden stoler på. Lag, tilpass og last ned på få minutter.',
+    subtitle: 'Oppgavegeneratorer som l\u00e6rere over hele verden stoler p\u00e5. Lag, tilpass og last ned p\u00e5 f\u00e5 minutter.',
     ctaPrimary: 'Se gratis eksempler',
     ctaSecondary: 'Utforsk alle generatorer',
-    trustLanguages: '11 språk',
+    trustLanguages: '11 spr\u00e5k',
     trustImages: 'Over 3000 bilder',
     trustLicense: 'Kommersiell lisens',
     answerKey: 'Fasit',
     previewTitles: ['Addisjon', 'Finn ord'],
   },
   fi: {
-    badge: '33 ammattimaista tehtävägeneraattoria',
+    badge: '33 ammattimaista teht\u00e4v\u00e4generaattoria',
     titleLine1: 'Luo ',
     titleHighlight: 'upeita',
     titleLine2: 'oppimateriaaleja',
-    subtitle: 'Ammattimaisia tehtävägeneraattoreita, joihin opettajat ympäri maailmaa luottavat. Luo, muokkaa ja lataa muutamassa minuutissa.',
+    subtitle: 'Ammattimaisia teht\u00e4v\u00e4generaattoreita, joihin opettajat ymp\u00e4ri maailmaa luottavat. Luo, muokkaa ja lataa muutamassa minuutissa.',
     ctaPrimary: 'Katso ilmaiset esimerkit',
     ctaSecondary: 'Tutustu kaikkiin generaattoreihin',
-    trustLanguages: '11 kieltä',
+    trustLanguages: '11 kielt\u00e4',
     trustImages: 'Yli 3000 kuvaa',
     trustLicense: 'Kaupallinen lisenssi',
     answerKey: 'Vastaukset',
-    previewTitles: ['Yhteenlasku', 'Sananetsintä'],
+    previewTitles: ['Yhteenlasku', 'Sananetsint\u00e4'],
   },
 };
 
@@ -197,7 +197,6 @@ export default function HomepageHero({ locale, heroImages }: HomepageHeroProps) 
 
   const { scrollY } = useScroll();
   const y1 = useTransform(scrollY, [0, 500], [0, 150]);
-  const y2 = useTransform(scrollY, [0, 500], [0, -100]);
   const opacity = useTransform(scrollY, [0, 400], [1, 0]);
 
   const springConfig = { stiffness: 100, damping: 30 };
@@ -209,6 +208,8 @@ export default function HomepageHero({ locale, heroImages }: HomepageHeroProps) 
   const invertedSpringY = useTransform(springY, v => v * -0.5);
 
   useEffect(() => {
+    // Skip on touch devices \u2014 mousemove is irrelevant and wastes CPU
+    if (typeof window !== 'undefined' && window.matchMedia('(hover: none)').matches) return;
     const handleMouseMove = (e: MouseEvent) => {
       if (containerRef.current) {
         const rect = containerRef.current.getBoundingClientRect();
@@ -238,25 +239,25 @@ export default function HomepageHero({ locale, heroImages }: HomepageHeroProps) 
         fr: 'Exemple de fiche d\'addition',
         es: 'Ejemplo de ficha de sumas',
         it: 'Esempio di scheda di addizioni',
-        pt: 'Exemplo de atividade de adição',
+        pt: 'Exemplo de atividade de adi\u00e7\u00e3o',
         nl: 'Voorbeeld optelwerkblad',
-        da: 'Eksempel på additionsopgave',
-        sv: 'Exempel på additionsövningsblad',
-        no: 'Eksempel på addisjonsoppgave',
-        fi: 'Esimerkki yhteenlaskutehtävästä',
+        da: 'Eksempel p\u00e5 additionsopgave',
+        sv: 'Exempel p\u00e5 additions\u00f6vningsblad',
+        no: 'Eksempel p\u00e5 addisjonsoppgave',
+        fi: 'Esimerkki yhteenlaskuteht\u00e4v\u00e4st\u00e4',
       },
       wordsearch: {
         en: 'Word Search Worksheet Sample',
         de: 'Wortsuche-Arbeitsblatt Beispiel',
-        fr: 'Exemple de mots mêlés',
+        fr: 'Exemple de mots m\u00eal\u00e9s',
         es: 'Ejemplo de sopa de letras',
         it: 'Esempio di cerca parole',
-        pt: 'Exemplo de caça-palavras',
+        pt: 'Exemplo de ca\u00e7a-palavras',
         nl: 'Voorbeeld woordzoeker',
-        da: 'Eksempel på find ord-opgave',
-        sv: 'Exempel på ordsöksövningsblad',
-        no: 'Eksempel på finn ord-oppgave',
-        fi: 'Esimerkki sananetsintätehtävästä',
+        da: 'Eksempel p\u00e5 find ord-opgave',
+        sv: 'Exempel p\u00e5 ords\u00f6ks\u00f6vningsblad',
+        no: 'Eksempel p\u00e5 finn ord-oppgave',
+        fi: 'Esimerkki sananetsint\u00e4teht\u00e4v\u00e4st\u00e4',
       },
     };
     return altTexts[type][locale as keyof typeof altTexts.addition] || altTexts[type].en;
@@ -308,59 +309,42 @@ export default function HomepageHero({ locale, heroImages }: HomepageHeroProps) 
         }}
       />
 
-      {/* Animated mesh gradient orbs */}
+      {/* Animated mesh gradient orbs \u2014 CSS animations, paused via class when video plays */}
       <div className="absolute inset-0 overflow-hidden">
-        {/* Primary cyan orb - pauses when video is playing to reduce CPU */}
-        <motion.div
-          className="absolute w-[900px] h-[900px] rounded-full"
+        {/* Primary cyan orb */}
+        <div
+          className={`absolute w-[900px] h-[900px] rounded-full ${isVideoPlaying ? '' : 'hero-orb-pulse'}`}
           style={{
             background: 'radial-gradient(circle, rgba(6,182,212,0.15) 0%, rgba(6,182,212,0.05) 40%, transparent 70%)',
             top: '-20%',
             right: '-15%',
-            x: springX,
-            y: springY,
           }}
-          animate={isVideoPlaying ? {} : {
-            scale: [1, 1.1, 1],
-          }}
-          transition={{ duration: 12, repeat: Infinity, ease: "easeInOut" }}
         />
 
-        {/* Secondary purple orb - pauses when video is playing to reduce CPU */}
-        <motion.div
-          className="absolute w-[700px] h-[700px] rounded-full"
+        {/* Secondary purple orb */}
+        <div
+          className={`absolute w-[700px] h-[700px] rounded-full ${isVideoPlaying ? '' : 'hero-orb-drift'}`}
           style={{
             background: 'radial-gradient(circle, rgba(168,85,247,0.12) 0%, rgba(168,85,247,0.04) 40%, transparent 70%)',
             bottom: '-10%',
             left: '-10%',
           }}
-          animate={isVideoPlaying ? {} : {
-            scale: [1, 1.15, 1],
-            x: [0, 30, 0],
-            y: [0, -20, 0],
-          }}
-          transition={{ duration: 15, repeat: Infinity, ease: "easeInOut" }}
         />
 
-        {/* Accent pink orb - pauses when video is playing to reduce CPU */}
-        <motion.div
-          className="absolute w-[500px] h-[500px] rounded-full"
+        {/* Accent pink orb */}
+        <div
+          className={`absolute w-[500px] h-[500px] rounded-full ${isVideoPlaying ? '' : 'hero-orb-fade'}`}
           style={{
             background: 'radial-gradient(circle, rgba(236,72,153,0.08) 0%, transparent 60%)',
             top: '40%',
             left: '30%',
           }}
-          animate={isVideoPlaying ? {} : {
-            scale: [1, 1.2, 1],
-            opacity: [0.5, 0.8, 0.5],
-          }}
-          transition={{ duration: 10, repeat: Infinity, ease: "easeInOut" }}
         />
       </div>
 
-      {/* Floating geometric shapes */}
+      {/* Floating geometric shapes \u2014 hidden on mobile to reduce paint cost */}
       <motion.div
-        className="absolute inset-0 pointer-events-none"
+        className="absolute inset-0 pointer-events-none hidden md:block"
         style={{ y: y1 }}
       >
         {/* Floating diamond */}
@@ -430,39 +414,26 @@ export default function HomepageHero({ locale, heroImages }: HomepageHeroProps) 
       >
         <div className="max-w-7xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
-            {/* Left column - Text content */}
-            <motion.div
-              initial={{ opacity: 0, x: -30 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.8, ease: [0.25, 0.1, 0.25, 1] }}
-              className="text-center lg:text-left"
-            >
+            {/* Left column - Text content \u2014 CSS animations instead of Framer Motion */}
+            <div className="text-center lg:text-left hero-fade-in-left">
               {/* Badge */}
-              <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.2 }}
-                className="inline-flex items-center gap-2 px-4 py-2 rounded-full mb-6"
+              <div
+                className="inline-flex items-center gap-2 px-4 py-2 rounded-full mb-6 hero-fade-in hero-stagger-1"
                 style={{
                   background: 'linear-gradient(135deg, rgba(6,182,212,0.15) 0%, rgba(168,85,247,0.15) 100%)',
                   border: '1px solid rgba(6,182,212,0.2)',
                 }}
               >
-                <motion.span
-                  className="w-2 h-2 rounded-full bg-cyan-400"
-                  animate={{ scale: [1, 1.2, 1], opacity: [1, 0.7, 1] }}
-                  transition={{ duration: 2, repeat: Infinity }}
+                <span
+                  className="w-2 h-2 rounded-full bg-cyan-400 animate-pulse"
                 />
                 <span className="text-sm font-medium text-cyan-300">
                   {content.badge}
                 </span>
-              </motion.div>
+              </div>
 
-              {/* Title */}
-              <motion.h1
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.3, duration: 0.8 }}
+              {/* Title \u2014 NO animation, must be visible instantly (LCP element) */}
+              <h1
                 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-black leading-[1.1] tracking-tight mb-6 break-words hyphens-auto"
                 style={{ fontFamily: 'var(--font-space-grotesk), system-ui, sans-serif' }}
                 lang={locale}
@@ -478,25 +449,15 @@ export default function HomepageHero({ locale, heroImages }: HomepageHeroProps) 
                 </span>
                 <br />
                 <span className="text-white">{content.titleLine2}</span>
-              </motion.h1>
+              </h1>
 
               {/* Subtitle */}
-              <motion.p
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.4 }}
-                className="text-lg sm:text-xl text-white/60 mb-8 max-w-xl mx-auto lg:mx-0 leading-relaxed"
-              >
+              <p className="text-lg sm:text-xl text-white/60 mb-8 max-w-xl mx-auto lg:mx-0 leading-relaxed hero-fade-in hero-stagger-2">
                 {content.subtitle}
-              </motion.p>
+              </p>
 
               {/* CTAs */}
-              <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.5 }}
-                className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-10"
-              >
+              <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-10 hero-fade-in hero-stagger-3">
                 <button
                   onClick={scrollToSamples}
                   className="group relative px-8 py-4 rounded-xl font-semibold text-white overflow-hidden transition-all duration-300 hover:scale-[1.02] active:scale-[0.98]"
@@ -523,7 +484,7 @@ export default function HomepageHero({ locale, heroImages }: HomepageHeroProps) 
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                   </svg>
                 </Link>
-              </motion.div>
+              </div>
 
               {/* Video Demo Button */}
               <div className="flex justify-center lg:justify-start mb-6">
@@ -531,16 +492,11 @@ export default function HomepageHero({ locale, heroImages }: HomepageHeroProps) 
               </div>
 
               {/* Trust badges */}
-              <motion.div
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                transition={{ delay: 0.7 }}
-                className="flex flex-wrap gap-6 justify-center lg:justify-start"
-              >
+              <div className="flex flex-wrap gap-6 justify-center lg:justify-start hero-fade-in hero-stagger-4">
                 {[
-                  { icon: '🌍', label: content.trustLanguages },
-                  { icon: '🎨', label: content.trustImages },
-                  { icon: '💼', label: content.trustLicense },
+                  { icon: '\ud83c\udf0d', label: content.trustLanguages },
+                  { icon: '\ud83c\udfa8', label: content.trustImages },
+                  { icon: '\ud83d\udcbc', label: content.trustLicense },
                 ].map((badge, index) => (
                   <div
                     key={index}
@@ -550,8 +506,8 @@ export default function HomepageHero({ locale, heroImages }: HomepageHeroProps) 
                     <span>{badge.label}</span>
                   </div>
                 ))}
-              </motion.div>
-            </motion.div>
+              </div>
+            </div>
 
             {/* Right column - Preview cards (only shown when hero images are uploaded) */}
             {hasHeroImages && previewWorksheets.length > 0 && (

@@ -5,66 +5,16 @@ import { useTranslations } from 'next-intl';
 import { Button } from '@/components/ui/Button';
 import { usePathname } from 'next/navigation';
 import { LanguageSelector } from '@/components/LanguageSelector';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import { useAuth } from '@/contexts/auth-context';
 import { Menu, X } from 'lucide-react';
-
-interface NavigationContent {
-  logo?: {
-    text?: string;
-    image?: string;
-  };
-  menuItems?: Record<string, Record<string, string>>;
-  buttons?: Record<string, Record<string, string>>;
-}
 
 export function Navigation() {
   const t = useTranslations('navigation');
   const pathname = usePathname();
   const locale = pathname.split('/')[1] || 'en';
   const { user } = useAuth();
-  const [navContent, setNavContent] = useState<NavigationContent>({});
-  const [customLogo, setCustomLogo] = useState<string | null>(null);
-  const [isLoading, setIsLoading] = useState(true);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-
-  useEffect(() => {
-    // Fetch navigation content and current logo from API
-    fetchNavigationContent();
-    fetchCurrentLogo();
-  }, [locale]);
-
-  const fetchCurrentLogo = async () => {
-    try {
-      const response = await fetch('/api/admin/branding/current-logo');
-      if (response.ok) {
-        const data = await response.json();
-        setCustomLogo(data.logoUrl);
-      }
-    } catch (error) {
-      console.error('Failed to fetch current logo:', error);
-    }
-  };
-
-  const fetchNavigationContent = async () => {
-    try {
-      const response = await fetch(`/api/homepage/content?locale=${locale}`);
-      if (response.ok) {
-        const data = await response.json();
-        if (data.content?.navigation) {
-          setNavContent(data.content.navigation);
-        }
-      }
-    } catch (error) {
-      console.error('Failed to fetch navigation content:', error);
-    } finally {
-      setIsLoading(false);
-    }
-  };
-
-  // Use uploaded logo first, then custom content logo, then default
-  const logoImage = customLogo || navContent?.logo?.image || '/logo-lcs.png';
-  const logoText = navContent?.logo?.text || 'LessonCraftStudio';
 
   return (
     <nav className="bg-white border-b border-gray-200">
@@ -75,15 +25,11 @@ export function Navigation() {
             {/* Display LCS logo - size reduced by 20% */}
             <div className="flex items-center justify-center h-[67px] md:h-[151px] w-auto max-w-[108px] md:max-w-[242px]">
               <img
-                src={logoImage}
-                alt={logoText}
+                src="/logo-lcs.png"
+                alt="LessonCraftStudio"
+                loading="eager"
                 className="max-h-[67px] md:max-h-[151px] max-w-[108px] md:max-w-[242px] w-auto h-auto object-contain relative -z-10"
-                onError={(e) => {
-                  const target = e.target as HTMLImageElement;
-                  target.style.display = 'none';
-                  const fallback = target.nextElementSibling as HTMLElement;
-                  if (fallback) fallback.style.display = 'flex';
-                }}
+                style={{ aspectRatio: '108 / 67' }}
               />
             </div>
 
@@ -111,16 +57,16 @@ export function Navigation() {
           {/* Desktop Navigation */}
           <div className="hidden lg:flex items-center space-x-8">
             <Link href={`/${locale}/apps`} className="text-gray-600 hover:text-primary transition-colors">
-              {navContent?.menuItems?.apps?.[locale] || t('apps')}
+              {t('apps')}
             </Link>
             <Link href={`/${locale}/pricing`} className="text-gray-600 hover:text-primary transition-colors">
-              {navContent?.menuItems?.pricing?.[locale] || t('pricing')}
+              {t('pricing')}
             </Link>
             <Link href={`/${locale}/blog`} className="text-gray-600 hover:text-primary transition-colors">
-              {navContent?.menuItems?.blog?.[locale] || t('blog')}
+              {t('blog')}
             </Link>
             <Link href={`/${locale}/dashboard`} className="text-gray-600 hover:text-primary transition-colors font-medium">
-              {navContent?.menuItems?.dashboard?.[locale] || t('dashboard')}
+              {t('dashboard')}
             </Link>
           </div>
 
@@ -139,10 +85,10 @@ export function Navigation() {
             ) : (
               <>
                 <Button variant="ghost" size="sm" href={`/${locale}/auth/signin`}>
-                  {navContent?.buttons?.signIn?.[locale] || t('signIn')}
+                  {t('signIn')}
                 </Button>
                 <Button variant="primary" size="sm" href={`/${locale}/auth/signup`}>
-                  {navContent?.buttons?.startFree?.[locale] || t('startFree')}
+                  {t('startFree')}
                 </Button>
               </>
             )}
@@ -169,28 +115,28 @@ export function Navigation() {
               className="block py-2 text-gray-600 hover:text-primary transition-colors"
               onClick={() => setMobileMenuOpen(false)}
             >
-              {navContent?.menuItems?.apps?.[locale] || t('apps')}
+              {t('apps')}
             </Link>
             <Link
               href={`/${locale}/pricing`}
               className="block py-2 text-gray-600 hover:text-primary transition-colors"
               onClick={() => setMobileMenuOpen(false)}
             >
-              {navContent?.menuItems?.pricing?.[locale] || t('pricing')}
+              {t('pricing')}
             </Link>
             <Link
               href={`/${locale}/blog`}
               className="block py-2 text-gray-600 hover:text-primary transition-colors"
               onClick={() => setMobileMenuOpen(false)}
             >
-              {navContent?.menuItems?.blog?.[locale] || t('blog')}
+              {t('blog')}
             </Link>
             <Link
               href={`/${locale}/dashboard`}
               className="block py-2 text-gray-600 hover:text-primary transition-colors font-medium"
               onClick={() => setMobileMenuOpen(false)}
             >
-              {navContent?.menuItems?.dashboard?.[locale] || t('dashboard')}
+              {t('dashboard')}
             </Link>
 
             {/* Mobile Actions */}
@@ -221,7 +167,7 @@ export function Navigation() {
                     href={`/${locale}/auth/signin`}
                     className="w-full"
                   >
-                    {navContent?.buttons?.signIn?.[locale] || t('signIn')}
+                    {t('signIn')}
                   </Button>
                   <Button
                     variant="primary"
@@ -229,7 +175,7 @@ export function Navigation() {
                     href={`/${locale}/auth/signup`}
                     className="w-full"
                   >
-                    {navContent?.buttons?.startFree?.[locale] || t('startFree')}
+                    {t('startFree')}
                   </Button>
                 </div>
               )}

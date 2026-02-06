@@ -255,6 +255,7 @@ export default function BlogSampleGallery({
                       display: 'block',
                       width: '100%',
                       height: 'auto',
+                      aspectRatio: '400 / 566',
                       objectFit: 'cover',
                     }}
                   />

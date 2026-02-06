@@ -43,6 +43,23 @@ for (const app of productPageSlugs) {
   legacyAppIdToLocalizedSlugs.set(app.appId, localeToSlug);
 }
 
+// Build English slug → app slugs map for English-to-localized redirects
+// This redirects /de/apps/addition-worksheets → /de/apps/addition-arbeitsblaetter
+// Replaces ~330 static redirects from generateProductPageRedirects() in next.config.js
+const englishSlugToAppSlugs = new Map<string, Record<string, string>>();
+for (const app of productPageSlugs) {
+  const enSlug = app.slugs.en;
+  if (enSlug) {
+    const localeToSlug: Record<string, string> = {};
+    for (const [locale, slug] of Object.entries(app.slugs)) {
+      if (slug) {
+        localeToSlug[locale] = slug;
+      }
+    }
+    englishSlugToAppSlugs.set(enSlug, localeToSlug);
+  }
+}
+
 /**
  * Parse Accept-Language header to detect user's preferred language
  * Returns the first supported language or null if none match
@@ -225,6 +242,19 @@ export default function middleware(request: NextRequest) {
       if (targetSlug && targetSlug !== slug) {
         const newUrl = new URL(`/${locale}/apps/${targetSlug}`, request.url);
         return NextResponse.redirect(newUrl, { status: 301 });
+      }
+    }
+
+    // Check if this is an English slug accessed under a non-English locale
+    // e.g., /de/apps/addition-worksheets → /de/apps/addition-arbeitsblaetter
+    if (locale !== 'en') {
+      const appSlugs = englishSlugToAppSlugs.get(slug);
+      if (appSlugs) {
+        const localizedSlug = appSlugs[locale];
+        if (localizedSlug && localizedSlug !== slug) {
+          const newUrl = new URL(`/${locale}/apps/${localizedSlug}`, request.url);
+          return NextResponse.redirect(newUrl, { status: 301 });
+        }
       }
     }
   }

@@ -1,6 +1,4 @@
 const createNextIntlPlugin = require('next-intl/plugin');
-const { generateProductPageRedirects, generateLegacyAppIdRedirects } = require('./config/redirects.js');
-const { generateBlogRedirects } = require('./config/blog-redirects.js');
 
 const withNextIntl = createNextIntlPlugin('./i18n/request.ts');
 
@@ -67,43 +65,14 @@ const nextConfig = {
     ];
   },
 
-  // Redirects handled by next-intl middleware for intelligent locale detection
-  // The middleware detects user's preferred language from:
-  // 1. Browser Accept-Language header
-  // 2. preferredLanguage cookie
-  // 3. Falls back to default locale (en)
-  // Note: /blog redirects are handled ONLY in middleware.ts for proper language detection
-  //
-  // DYNAMIC REDIRECTS: Product page redirects are now generated dynamically
-  // from the product-page-slugs configuration instead of being hardcoded.
-  // This reduces maintenance burden and ensures consistency.
-  //
-  // LEGACY REDIRECTS (SEO Recovery - Jan 2026):
-  // Redirects from legacy appId URLs (e.g., /en/apps/image-addition) to
-  // SEO-optimized slugs (e.g., /en/apps/addition-worksheets) to recover
-  // from impressions drop caused by noindex signals on legacy URLs.
-  //
-  // BLOG REDIRECTS (SEO Recovery - Feb 2026):
-  // Redirects from old blog slugs (based on HTML filenames) to new SEO slugs
-  // (longer, more descriptive). This prevents 404 errors for Google-indexed URLs.
+  // ALL redirects are now handled in middleware.ts for O(1) Map lookups:
+  // - Blog cross-locale redirects (slug accessed under wrong language)
+  // - Legacy blog slug redirects (old slug → new slug)
+  // - Legacy appId redirects (e.g., /de/apps/image-addition → /de/apps/addition-arbeitsblaetter)
+  // - English slug → localized slug redirects (e.g., /de/apps/addition-worksheets → /de/apps/addition-arbeitsblaetter)
+  // This eliminates ~2,600 redirect patterns that were evaluated O(n) per request.
   async redirects() {
-    // Generate product page redirects dynamically
-    const productRedirects = generateProductPageRedirects();
-    // Generate legacy appId redirects for SEO recovery
-    const legacyRedirects = generateLegacyAppIdRedirects();
-    // Generate blog redirects:
-    // 1. Legacy: old slugs -> new SEO slugs (same locale)
-    // 2. Cross-locale: wrong locale -> correct locale (same slug)
-    const blogRedirects = generateBlogRedirects();
-
-    return [
-      // Include all dynamically generated product page redirects
-      ...productRedirects,
-      // Include legacy appId -> SEO slug redirects (SEO recovery)
-      ...legacyRedirects,
-      // Include blog redirects (legacy + cross-locale)
-      ...blogRedirects,
-    ];
+    return [];
   },
 };
 

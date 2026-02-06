@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import { generateHomepageSchemas, getHreflangCode, ogLocaleMap } from '@/lib/schema-generator';
 import { SUPPORTED_LOCALES } from '@/config/locales';
+import { getHomepageSamplesData } from '@/lib/homepage-samples-data';
 import {
   HomepageHero,
   SampleGallery,
@@ -10,77 +11,6 @@ import {
   HomepageBlogPosts,
   HomepageCTA,
 } from '@/components/homepage';
-
-// Locale to language folder mapping (same as in SampleGallery)
-const localeToLanguage: Record<string, string> = {
-  en: 'english',
-  de: 'german',
-  fr: 'french',
-  es: 'spanish',
-  it: 'italian',
-  pt: 'portuguese',
-  nl: 'dutch',
-  da: 'danish',
-  sv: 'swedish',
-  no: 'norwegian',
-  fi: 'finnish',
-};
-
-// Types for homepage samples data
-interface HomepageSamplesData {
-  dynamicImages: Record<string, string>;
-  seoData: Record<string, { altText?: string; title?: string }>;
-  heroImages: { portrait: string; landscape: string };
-}
-
-// Server-side function to fetch homepage dynamic images
-async function getHomepageSamplesData(locale: string): Promise<HomepageSamplesData> {
-  const result: HomepageSamplesData = { dynamicImages: {}, seoData: {}, heroImages: { portrait: '', landscape: '' } };
-
-  try {
-    // Use internal API call on server - absolute URL required for server-side fetch
-    const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.lessoncraftstudio.com';
-    const response = await fetch(`${baseUrl}/api/homepage-samples/list`, {
-      next: { revalidate: 300 } // Match page revalidate (5 minutes)
-    });
-    const data = await response.json();
-
-    if (data.success && data.matrix[locale]) {
-      const langData = data.matrix[locale];
-
-      // Build map of appId -> thumbnail URL
-      Object.entries(langData.apps).forEach(([appId, app]: [string, unknown]) => {
-        const appData = app as { hasThumbnail?: boolean; hasPreviewWebp?: boolean };
-        if (appData.hasThumbnail && appData.hasPreviewWebp) {
-          // Homepage thumbnails use hyphenated appId in filename
-          // Use _thumb.webp (~12KB) instead of _preview.webp (~35KB) to reduce bandwidth
-          // This prevents video buffering when gallery images compete with YouTube stream
-          result.dynamicImages[appId] = `/samples/${langData.language}/homepage/${appId}-thumbnail_thumb.webp`;
-        }
-      });
-
-      // Extract SEO data if available
-      if (langData.seo) {
-        result.seoData = langData.seo;
-      }
-
-      // Extract hero image URLs (baked into ISR HTML for immediate display)
-      if (langData.hero) {
-        if (langData.hero.hasPortraitPreview) {
-          result.heroImages.portrait = `/samples/${langData.language}/homepage/hero-portrait_preview.webp`;
-        }
-        if (langData.hero.hasLandscapePreview) {
-          result.heroImages.landscape = `/samples/${langData.language}/homepage/hero-landscape_preview.webp`;
-        }
-      }
-    }
-  } catch (error) {
-    // Silent fallback to hardcoded images - no console spam in production
-    console.error('Failed to fetch homepage samples:', error);
-  }
-
-  return result;
-}
 
 // Localized SEO metadata with researched keywords for all 11 languages
 const homepageMetadata: Record<string, { title: string; description: string; keywords: string }> = {

@@ -4,7 +4,6 @@ import fs from 'fs/promises';
 import path from 'path';
 
 export const revalidate = 1800; // 30 minutes ISR
-export const dynamic = 'force-dynamic';
 
 // Base path for samples (filesystem scanning)
 // Production uses isolated /var/www/lcs-media/samples - COMPLETELY SEPARATE from code repository

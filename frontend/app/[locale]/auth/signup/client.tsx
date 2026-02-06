@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react';
 import { useRouter, useSearchParams, useParams } from 'next/navigation';
 import Link from 'next/link';
 import { useTranslations } from 'next-intl';
+import { pinterestEvents } from '@/components/tracking';
 
 // OAuth error messages mapping
 const OAUTH_ERRORS: Record<string, string> = {
@@ -114,6 +115,9 @@ function SignUpPageContent() {
       if (!response.ok) {
         throw new Error(data.error || 'Failed to create account');
       }
+
+      // Track successful signup for Pinterest ads conversion
+      pinterestEvents.signup(formData.email);
 
       // Redirect to sign in with plan parameter if provided
       const signInUrl = plan

@@ -3,6 +3,13 @@ import { prisma } from '@/lib/prisma';
 import { productPageSlugs, getAlternateUrls } from '@/config/product-page-slugs';
 import { getHreflangCode } from '@/lib/schema-generator';
 import { SUPPORTED_LOCALES } from '@/config/locales';
+import { crossLocaleSlugs } from '@/config/blog-cross-locale-redirects';
+
+// Build slug → nativeLocale map to exclude sitemap entries that would 301 redirect
+const slugToNativeLocale = new Map<string, string>();
+for (const { slug, nativeLocale } of crossLocaleSlugs) {
+  slugToNativeLocale.set(slug, nativeLocale);
+}
 
 // Enable ISR for sitemap - revalidate every 30 minutes (reduced for faster updates)
 export const revalidate = 1800;
@@ -138,10 +145,17 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       const translations = post.translations as any;
 
       // Only include locales that have actual translation content (title required, slug has fallback)
+      // Also exclude entries where the resolved slug would trigger a cross-locale redirect
       const availableLocales = locales.filter((locale) => {
         const translation = translations[locale];
-        // Require title for valid translation; slug can fallback to primary slug (line 168)
-        return translation?.title && (translation?.slug || post.slug);
+        // Require title for valid translation; slug can fallback to primary slug
+        if (!translation?.title) return false;
+        const resolvedSlug = translation?.slug || post.slug;
+        if (!resolvedSlug) return false;
+        // Skip if this slug's native locale differs — middleware would 301 redirect
+        const nativeLocale = slugToNativeLocale.get(resolvedSlug);
+        if (nativeLocale && nativeLocale !== locale) return false;
+        return true;
       });
 
       // If no translations exist, skip this post entirely

@@ -325,7 +325,7 @@ export default function ProductPageClient({
   return (
     <main className="min-h-screen bg-white">
       {/* Breadcrumb Navigation */}
-      <Breadcrumb items={breadcrumbItems} locale={locale} />
+      <Breadcrumb items={breadcrumbItems} locale={locale} suppressSchema />
 
       {/* Part 1: Hero Section */}
       <HeroSection

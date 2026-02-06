@@ -774,6 +774,7 @@ export default async function BlogPostPage({
       {/* Breadcrumb Navigation (4-level: Home > Blog > Category > Post) */}
       <Breadcrumb
         locale={locale}
+        suppressSchema
         items={[
           { label: breadcrumbLabels[locale] || 'Blog', href: `/${locale}/blog` },
           { label: CATEGORY_DISPLAY_NAMES[locale]?.[post.category] || post.category, href: `/${locale}/blog/category/${post.category}` },
@@ -1197,10 +1198,13 @@ export async function generateMetadata({ params }: BlogPostPageProps) {
     const translations = post.translations as any;
     const translation = translations[locale] || translations['en'] || {};
     const title = translation.metaTitle || translation.title || slug.replace(/-/g, ' ');
-    // SEO FIX: Truncate description to max 160 chars for optimal SERP display
+    // OG title can be longer (~95 chars) so use full post title for social sharing
+    const ogTitle = translation.title || title;
+    // Truncate description at word boundary (160 chars max) — no "..." suffix
+    // Google/Facebook handle their own truncation display
     const rawDescription = translation.metaDescription || translation.excerpt || '';
     const description = rawDescription.length > 160
-      ? rawDescription.substring(0, 157).replace(/\s+\S*$/, '') + '...'
+      ? rawDescription.substring(0, 160).replace(/\s+\S*$/, '')
       : rawDescription;
     // Use language-specific focusKeyword first, then fall back to general keywords
     const focusKeyword = translation.focusKeyword || '';
@@ -1243,7 +1247,7 @@ export async function generateMetadata({ params }: BlogPostPageProps) {
       },
       // AUTOMATED: Open Graph tags (Facebook, LinkedIn, etc.)
       openGraph: {
-        title,
+        title: ogTitle,
         description,
         type: 'article',
         url: canonicalUrl,
@@ -1255,8 +1259,6 @@ export async function generateMetadata({ params }: BlogPostPageProps) {
         authors: [translation.author || 'LessonCraftStudio'],
         section: post.category || 'Education',
         tags: post.keywords || [],
-        // SEO FIX: Remove hardcoded dimensions (let browser/crawler determine actual size)
-        // SEO FIX: Use keyword-rich alt text for better image search visibility
         images: post.featuredImage ? [{
           url: `${baseUrl}${post.featuredImage}`,
           alt: translation.featuredImageAlt || generateAltText(title, focusKeyword, post.category, 'featured')
@@ -1265,7 +1267,7 @@ export async function generateMetadata({ params }: BlogPostPageProps) {
       // AUTOMATED: Twitter Card tags
       twitter: {
         card: 'summary_large_image',
-        title,
+        title: ogTitle,
         description,
         images: post.featuredImage ? [`${baseUrl}${post.featuredImage}`] : [],
         creator: '@LessonCraftStudio', // TODO: Replace with actual Twitter handle

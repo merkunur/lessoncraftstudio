@@ -13,6 +13,8 @@ interface BreadcrumbProps {
   locale: string;
   homeLabel?: string;
   baseUrl?: string;
+  /** Set to true when a page already has its own BreadcrumbList JSON-LD (e.g. from schema-generator) */
+  suppressSchema?: boolean;
 }
 
 // Localized home labels
@@ -30,7 +32,7 @@ const HOME_LABELS: Record<string, string> = {
   fi: 'Etusivu'
 };
 
-export default function Breadcrumb({ items, locale, homeLabel, baseUrl }: BreadcrumbProps) {
+export default function Breadcrumb({ items, locale, homeLabel, baseUrl, suppressSchema }: BreadcrumbProps) {
   const home = homeLabel || HOME_LABELS[locale] || 'Home';
   const siteUrl = baseUrl || process.env.NEXT_PUBLIC_APP_URL || 'https://www.lessoncraftstudio.com';
 
@@ -56,11 +58,13 @@ export default function Breadcrumb({ items, locale, homeLabel, baseUrl }: Breadc
 
   return (
     <>
-      {/* Schema markup */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
-      />
+      {/* Schema markup — suppressed when page already has BreadcrumbList from schema-generator */}
+      {!suppressSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+        />
+      )}
 
       {/* Visible breadcrumb navigation */}
       <nav aria-label="Breadcrumb" className="bg-gray-50 border-b border-gray-200">

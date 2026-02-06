@@ -267,6 +267,63 @@ export function generateHowToSchema(
 export function generateHomepageSchemas(locale: string, baseUrl: string = getBaseUrl()) {
   const schemas: any[] = [];
 
+  // Localized homepage descriptions
+  const homepageOrgDescriptions: Record<string, string> = {
+    en: "Professional worksheet generators for teachers and educators. Create customized educational materials in seconds.",
+    de: "Professionelle Arbeitsblatt-Generatoren f\u00fcr Lehrer und P\u00e4dagogen. Erstellen Sie individuelle Unterrichtsmaterialien in Sekunden.",
+    fr: "G\u00e9n\u00e9rateurs de fiches professionnels pour enseignants et \u00e9ducateurs. Cr\u00e9ez des mat\u00e9riaux p\u00e9dagogiques personnalis\u00e9s en quelques secondes.",
+    es: "Generadores de fichas profesionales para maestros y educadores. Cree materiales educativos personalizados en segundos.",
+    pt: "Geradores de planilhas profissionais para professores e educadores. Crie materiais educativos personalizados em segundos.",
+    it: "Generatori di schede professionali per insegnanti ed educatori. Crea materiali didattici personalizzati in pochi secondi.",
+    nl: "Professionele werkblad-generatoren voor leraren en docenten. Maak op maat gemaakte lesmateriaal in seconden.",
+    sv: "Professionella arbetsblads-generatorer f\u00f6r l\u00e4rare och pedagoger. Skapa anpassade utbildningsmaterial p\u00e5 n\u00e5gra sekunder.",
+    da: "Professionelle arbejdsark-generatorer til l\u00e6rere og p\u00e6dagoger. Opret tilpassede undervisningsmaterialer p\u00e5 f\u00e5 sekunder.",
+    no: "Profesjonelle arbeidsark-generatorer for l\u00e6rere og pedagoger. Lag tilpassede undervisningsmateriell p\u00e5 sekunder.",
+    fi: "Ammattimaiset ty\u00f6arkki-generaattorit opettajille ja kasvattajille. Luo mukautettuja opetusmateriaaleja sekunneissa."
+  };
+
+  const homepageWebsiteDescriptions: Record<string, string> = {
+    en: "Free worksheet generators for teachers and parents",
+    de: "Kostenlose Arbeitsblatt-Generatoren f\u00fcr Lehrer und Eltern",
+    fr: "G\u00e9n\u00e9rateurs de fiches gratuits pour enseignants et parents",
+    es: "Generadores de fichas gratuitos para maestros y padres",
+    pt: "Geradores de planilhas gratuitos para professores e pais",
+    it: "Generatori di schede gratuiti per insegnanti e genitori",
+    nl: "Gratis werkblad-generatoren voor leraren en ouders",
+    sv: "Gratis arbetsblads-generatorer f\u00f6r l\u00e4rare och f\u00f6r\u00e4ldrar",
+    da: "Gratis arbejdsark-generatorer til l\u00e6rere og for\u00e6ldre",
+    no: "Gratis arbeidsark-generatorer for l\u00e6rere og foreldre",
+    fi: "Ilmaiset ty\u00f6arkki-generaattorit opettajille ja vanhemmille"
+  };
+
+  const homepageSoftwareDescriptions: Record<string, string> = {
+    en: "33 professional worksheet generators with 100+ themed images for creating educational materials",
+    de: "33 professionelle Arbeitsblatt-Generatoren mit 100+ thematischen Bildern zur Erstellung von Unterrichtsmaterialien",
+    fr: "33 g\u00e9n\u00e9rateurs de fiches professionnels avec plus de 100 images th\u00e9matiques pour cr\u00e9er des mat\u00e9riaux p\u00e9dagogiques",
+    es: "33 generadores de fichas profesionales con m\u00e1s de 100 im\u00e1genes tem\u00e1ticas para crear materiales educativos",
+    pt: "33 geradores de planilhas profissionais com mais de 100 imagens tem\u00e1ticas para criar materiais educativos",
+    it: "33 generatori di schede professionali con oltre 100 immagini tematiche per creare materiali didattici",
+    nl: "33 professionele werkblad-generatoren met 100+ thematische afbeeldingen voor het maken van lesmateriaal",
+    sv: "33 professionella arbetsblads-generatorer med 100+ tematiska bilder f\u00f6r att skapa utbildningsmaterial",
+    da: "33 professionelle arbejdsark-generatorer med 100+ tematiske billeder til at oprette undervisningsmaterialer",
+    no: "33 profesjonelle arbeidsark-generatorer med 100+ tematiske bilder for \u00e5 lage undervisningsmateriell",
+    fi: "33 ammattimaista ty\u00f6arkki-generaattoria yli 100 temaattisella kuvalla opetusmateriaalien luomiseen"
+  };
+
+  const homepageFeatureLists: Record<string, string[]> = {
+    en: ["Word Search Generator", "Crossword Puzzle Generator", "Math Worksheet Generator", "Pattern Recognition Activities", "Matching Games", "And 28 more generators"],
+    de: ["Wortsuchr\u00e4tsel-Generator", "Kreuzwortr\u00e4tsel-Generator", "Mathe-Arbeitsblatt-Generator", "Mustererkennungs-Aktivit\u00e4ten", "Zuordnungsspiele", "Und 28 weitere Generatoren"],
+    fr: ["G\u00e9n\u00e9rateur de mots cach\u00e9s", "G\u00e9n\u00e9rateur de mots crois\u00e9s", "G\u00e9n\u00e9rateur de fiches maths", "Activit\u00e9s de reconnaissance de motifs", "Jeux d'association", "Et 28 autres g\u00e9n\u00e9rateurs"],
+    es: ["Generador de sopa de letras", "Generador de crucigramas", "Generador de fichas de matem\u00e1ticas", "Actividades de reconocimiento de patrones", "Juegos de emparejar", "Y 28 generadores m\u00e1s"],
+    pt: ["Gerador de ca\u00e7a-palavras", "Gerador de palavras cruzadas", "Gerador de fichas de matem\u00e1tica", "Atividades de reconhecimento de padr\u00f5es", "Jogos de combinar", "E mais 28 geradores"],
+    it: ["Generatore di ricerca parole", "Generatore di cruciverba", "Generatore di schede matematica", "Attivit\u00e0 di riconoscimento pattern", "Giochi di abbinamento", "E altri 28 generatori"],
+    nl: ["Woordzoeker-generator", "Kruiswoordpuzzel-generator", "Reken-werkblad-generator", "Patroonherkenning-activiteiten", "Memory-spellen", "En 28 meer generatoren"],
+    sv: ["Ordjakts-generator", "Korsords-generator", "Matte-arbetsblads-generator", "M\u00f6nsterig\u00e4nk\u00e4nning", "Matchningsspel", "Och 28 fler generatorer"],
+    da: ["Ordjakts-generator", "Krydsords-generator", "Matematik-arbejdsark-generator", "M\u00f8nstergenkendelses-aktiviteter", "Matchningsspil", "Og 28 flere generatorer"],
+    no: ["Ordjakts-generator", "Kryssords-generator", "Matte-arbeidsark-generator", "M\u00f8nstergjenkjennings-aktiviteter", "Koblingsspill", "Og 28 flere generatorer"],
+    fi: ["Sanaristikko-generaattori", "Ristisanateht\u00e4v\u00e4-generaattori", "Matematiikka-ty\u00f6arkki-generaattori", "Hahmontunnistus-aktiviteetit", "Yhdist\u00e4mispelit", "Ja 28 lis\u00e4\u00e4 generaattoria"]
+  };
+
   // 1. Organization Schema (E-A-T signals)
   const organizationSchema = {
     "@context": "https://schema.org",
@@ -279,10 +336,9 @@ export function generateHomepageSchemas(locale: string, baseUrl: string = getBas
       "width": 600,
       "height": 600
     },
-    "description": "Professional worksheet generators for teachers and educators. Create customized educational materials in seconds.",
+    "description": homepageOrgDescriptions[locale] || homepageOrgDescriptions.en,
     "areaServed": "Worldwide",
     "availableLanguage": ["English", "German", "French", "Spanish", "Portuguese", "Italian", "Dutch", "Swedish", "Danish", "Norwegian", "Finnish"]
-    // sameAs removed - empty array is invalid JSON-LD
   };
   schemas.push(organizationSchema);
 
@@ -292,7 +348,7 @@ export function generateHomepageSchemas(locale: string, baseUrl: string = getBas
     "@type": "WebSite",
     "name": "LessonCraftStudio",
     "url": baseUrl,
-    "description": "Free worksheet generators for teachers and parents",
+    "description": homepageWebsiteDescriptions[locale] || homepageWebsiteDescriptions.en,
     "inLanguage": getHreflangCode(locale),
     "potentialAction": {
       "@type": "SearchAction",
@@ -317,15 +373,8 @@ export function generateHomepageSchemas(locale: string, baseUrl: string = getBas
       "price": "0",
       "priceCurrency": "USD"
     },
-    "description": "33 professional worksheet generators with 100+ themed images for creating educational materials",
-    "featureList": [
-      "Word Search Generator",
-      "Crossword Puzzle Generator",
-      "Math Worksheet Generator",
-      "Pattern Recognition Activities",
-      "Matching Games",
-      "And 28 more generators"
-    ],
+    "description": homepageSoftwareDescriptions[locale] || homepageSoftwareDescriptions.en,
+    "featureList": homepageFeatureLists[locale] || homepageFeatureLists.en,
     "screenshot": `${baseUrl}/opengraph-image.png`
   };
   schemas.push(softwareSchema);

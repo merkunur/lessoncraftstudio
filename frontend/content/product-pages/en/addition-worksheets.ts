@@ -412,7 +412,7 @@ These printable addition worksheets work perfectly for math centers, homework pa
       },
       {
         id: '2',
-        slug: 'coloring',
+        slug: 'coloring-worksheets',
         name: 'Coloring Worksheets',
         category: 'Art & Creativity',
         icon: '🎨',
@@ -420,7 +420,7 @@ These printable addition worksheets work perfectly for math centers, homework pa
       },
       {
         id: '3',
-        slug: 'wordsearch',
+        slug: 'word-search-worksheets',
         name: 'Sight Words Worksheets Alternative',
         category: 'Language Arts',
         icon: '🔍',
@@ -428,7 +428,7 @@ These printable addition worksheets work perfectly for math centers, homework pa
       },
       {
         id: '4',
-        slug: 'alphabet-train',
+        slug: 'alphabet-train-worksheets',
         name: 'Alphabet Worksheets',
         category: 'Early Learning',
         icon: '🚂',
@@ -436,7 +436,7 @@ These printable addition worksheets work perfectly for math centers, homework pa
       },
       {
         id: '5',
-        slug: 'math-puzzle',
+        slug: 'math-puzzle-worksheets',
         name: 'Math Worksheets: Puzzles',
         category: 'Logic',
         icon: '🧩',
@@ -444,7 +444,7 @@ These printable addition worksheets work perfectly for math centers, homework pa
       },
       {
         id: '6',
-        slug: 'drawing-lines',
+        slug: 'drawing-lines-worksheets',
         name: 'Tracing Worksheets',
         category: 'Fine Motor',
         icon: '✏️',

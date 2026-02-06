@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import Link from 'next/link';
+import { getAppConfigBySlug, getSlugForLocale, type SupportedLocale } from '@/config/product-page-slugs';
 
 interface App {
   nameEn: string;
@@ -321,6 +322,14 @@ export default function AppCategories({ locale }: AppCategoriesProps) {
     return app.descriptionEn;
   };
 
+  const getLocalizedSlug = (englishSlug: string): string => {
+    const config = getAppConfigBySlug(englishSlug);
+    if (config) {
+      return getSlugForLocale(config.appId, locale as SupportedLocale) || englishSlug;
+    }
+    return englishSlug;
+  };
+
   const activeData = categories.find(c => c.id === activeCategory);
 
   return (
@@ -443,7 +452,7 @@ export default function AppCategories({ locale }: AppCategoriesProps) {
                   transition={{ delay: index * 0.05 }}
                 >
                   <Link
-                    href={`/${locale}/apps/${app.slug}`}
+                    href={`/${locale}/apps/${getLocalizedSlug(app.slug)}`}
                     className="block group"
                     onMouseEnter={() => setHoveredApp(app.slug)}
                     onMouseLeave={() => setHoveredApp(null)}

@@ -11,6 +11,7 @@ import BlogSampleBanner from '@/components/blog/BlogSampleBanner';
 import BlogSampleGallery from '@/components/blog/BlogSampleGallery';
 import { discoverSamplesFromFilesystem, normalizeAppIdForSamples } from '@/lib/sample-utils';
 import { getBlogSampleApps } from '@/lib/blog-topic-clusters';
+import { transformBlogLinks } from '@/lib/blog-link-transformer';
 import type { SupportedLocale } from '@/config/product-page-slugs';
 
 // Enable ISR - revalidate every 30 minutes (reduced from 1 hour for faster updates)
@@ -467,6 +468,9 @@ export default async function BlogPostPage({
   if (headerContent) {
     bodyContent = bodyContent.replace(headerContent, '');
   }
+
+  // Transform internal links to include locale prefix and strip duplicate footer
+  bodyContent = transformBlogLinks(bodyContent, locale);
 
   // Discover worksheet samples for blog post using topic cluster matching
   // Uses English title for matching (most reliable signal), then discovers samples per locale

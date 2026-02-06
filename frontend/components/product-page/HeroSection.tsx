@@ -439,7 +439,7 @@ export default function HeroSection({
                         animate={{ rotate: [0, 10, -10, 0] }}
                         transition={{ duration: 2, repeat: Infinity }}
                       >
-                        \u26a1
+                        {'\u26a1'}
                       </motion.span>
                     </div>
                     <div>

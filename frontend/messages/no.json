@@ -250,7 +250,18 @@
       "termsEnd": "",
       "submit": "Opprett konto",
       "hasAccount": "Har du allerede en konto?",
-      "signIn": "Logg inn"
+      "signIn": "Logg inn",
+      "passwordHint": "Minst 8 tegn",
+      "orSignUpWith": "Eller registrer deg med",
+      "freeAccountInfo": "Din gratis konto inkluderer 10 nedlastinger per måned",
+      "upgradeAnytime": "Oppgrader til premium når som helst",
+      "errors": {
+        "allFieldsRequired": "Alle felt må fylles ut",
+        "passwordLength": "Passordet må inneholde minst 8 tegn",
+        "passwordsDoNotMatch": "Passordene stemmer ikke overens",
+        "agreeToTerms": "Du må godta vilkårene for å fortsette",
+        "invalidEmail": "E-postadressen er ugyldig"
+      }
     },
     "deviceConflict": {
       "title": "Allerede innlogget",

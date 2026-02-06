@@ -250,7 +250,18 @@
       "termsEnd": "",
       "submit": "Luo tili",
       "hasAccount": "Onko sinulla jo tili?",
-      "signIn": "Kirjaudu sisään"
+      "signIn": "Kirjaudu sisään",
+      "passwordHint": "Vähintään 8 merkkiä",
+      "orSignUpWith": "Tai rekisteröidy",
+      "freeAccountInfo": "Ilmainen tilisi sisältää 10 latausta kuukaudessa",
+      "upgradeAnytime": "Päivitä premium-tiliin milloin tahansa",
+      "errors": {
+        "allFieldsRequired": "Kaikki kentät ovat pakollisia",
+        "passwordLength": "Salasanan tulee olla vähintään 8 merkkiä",
+        "passwordsDoNotMatch": "Salasanat eivät täsmää",
+        "agreeToTerms": "Sinun tulee hyväksyä ehdot jatkaaksesi",
+        "invalidEmail": "Sähköpostiosoite on virheellinen"
+      }
     },
     "deviceConflict": {
       "title": "Olet jo kirjautunut",

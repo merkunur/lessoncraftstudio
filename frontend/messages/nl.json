@@ -263,7 +263,18 @@
       "termsEnd": "",
       "submit": "Account aanmaken",
       "hasAccount": "Heb je al een account?",
-      "signIn": "Inloggen"
+      "signIn": "Inloggen",
+      "passwordHint": "Minimaal 8 tekens",
+      "orSignUpWith": "Of registreer met",
+      "freeAccountInfo": "Je gratis account bevat 10 downloads per maand",
+      "upgradeAnytime": "Upgrade naar premium wanneer je wilt",
+      "errors": {
+        "allFieldsRequired": "Alle velden zijn verplicht",
+        "passwordLength": "Het wachtwoord moet minimaal 8 tekens bevatten",
+        "passwordsDoNotMatch": "De wachtwoorden komen niet overeen",
+        "agreeToTerms": "Je moet de voorwaarden accepteren om door te gaan",
+        "invalidEmail": "Het e-mailadres is ongeldig"
+      }
     },
     "deviceConflict": {
       "title": "Al ingelogd",

@@ -250,7 +250,18 @@
       "termsEnd": "",
       "submit": "Opret konto",
       "hasAccount": "Har du allerede en konto?",
-      "signIn": "Log ind"
+      "signIn": "Log ind",
+      "passwordHint": "Mindst 8 tegn",
+      "orSignUpWith": "Eller tilmeld med",
+      "freeAccountInfo": "Din gratis konto inkluderer 10 downloads om måneden",
+      "upgradeAnytime": "Opgrader til premium når som helst",
+      "errors": {
+        "allFieldsRequired": "Alle felter skal udfyldes",
+        "passwordLength": "Adgangskoden skal være mindst 8 tegn",
+        "passwordsDoNotMatch": "Adgangskoderne matcher ikke",
+        "agreeToTerms": "Du skal acceptere betingelserne for at fortsætte",
+        "invalidEmail": "E-mailadressen er ugyldig"
+      }
     },
     "deviceConflict": {
       "title": "Allerede logget ind",

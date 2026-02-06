@@ -263,7 +263,18 @@
       "termsEnd": "",
       "submit": "Créer un compte",
       "hasAccount": "Déjà un compte?",
-      "signIn": "Se connecter"
+      "signIn": "Se connecter",
+      "passwordHint": "Au moins 8 caractères",
+      "orSignUpWith": "Ou s'inscrire avec",
+      "freeAccountInfo": "Votre compte gratuit inclut 10 téléchargements mensuels",
+      "upgradeAnytime": "Passez à un compte premium quand vous voulez",
+      "errors": {
+        "allFieldsRequired": "Tous les champs sont obligatoires",
+        "passwordLength": "Le mot de passe doit contenir au moins 8 caractères",
+        "passwordsDoNotMatch": "Les mots de passe ne correspondent pas",
+        "agreeToTerms": "Vous devez accepter les conditions pour continuer",
+        "invalidEmail": "L'adresse email n'est pas valide"
+      }
     },
     "deviceConflict": {
       "title": "Déjà connecté",

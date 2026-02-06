@@ -256,6 +256,7 @@
       "email": "Correo electrónico",
       "password": "Contraseña",
       "confirmPassword": "Confirmar contraseña",
+      "passwordHint": "Mínimo 8 caracteres",
       "terms": "Acepto los",
       "termsLink": "términos y condiciones",
       "and": "y la",
@@ -263,7 +264,17 @@
       "termsEnd": "",
       "submit": "Crear cuenta",
       "hasAccount": "¿Ya tienes una cuenta?",
-      "signIn": "Inicia sesión"
+      "signIn": "Inicia sesión",
+      "orSignUpWith": "O regístrate con",
+      "freeAccountInfo": "Tu cuenta gratuita incluye 10 descargas mensuales",
+      "upgradeAnytime": "Actualízate a premium cuando quieras",
+      "errors": {
+        "allFieldsRequired": "Todos los campos son obligatorios",
+        "passwordLength": "La contraseña debe tener al menos 8 caracteres",
+        "passwordsDoNotMatch": "Las contraseñas no coinciden",
+        "agreeToTerms": "Debes aceptar los términos para continuar",
+        "invalidEmail": "El correo electrónico no es válido"
+      }
     },
     "deviceConflict": {
       "title": "Ya has iniciado sesión",

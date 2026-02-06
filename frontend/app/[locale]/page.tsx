@@ -7,6 +7,7 @@ import {
   AppCategories,
   HomepageFeatures,
   HowItWorks,
+  HomepageBlogPosts,
   HomepageCTA,
 } from '@/components/homepage';
 
@@ -225,6 +226,9 @@ export default async function HomePage({ params }: { params: { locale: string } 
 
       {/* How It Works - Timeline */}
       <HowItWorks locale={locale} />
+
+      {/* Blog Posts - Bridge equity from homepage to blog content */}
+      <HomepageBlogPosts locale={locale} />
 
       {/* Final CTA - Dark gradient */}
       <HomepageCTA locale={locale} />

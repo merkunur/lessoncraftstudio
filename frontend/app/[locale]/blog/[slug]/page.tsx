@@ -11,7 +11,7 @@ import BlogSampleBanner from '@/components/blog/BlogSampleBanner';
 import BlogSampleGallery from '@/components/blog/BlogSampleGallery';
 import { discoverSamplesFromFilesystem, normalizeAppIdForSamples } from '@/lib/sample-utils';
 import { getBlogSampleApps } from '@/lib/blog-topic-clusters';
-import { transformBlogLinks } from '@/lib/blog-link-transformer';
+import { transformBlogLinks, injectInternalLinks } from '@/lib/blog-link-transformer';
 import type { SupportedLocale } from '@/config/product-page-slugs';
 
 // Enable ISR - revalidate every 30 minutes (reduced from 1 hour for faster updates)
@@ -472,6 +472,9 @@ export default async function BlogPostPage({
   // Transform internal links to include locale prefix and strip duplicate footer
   bodyContent = transformBlogLinks(bodyContent, locale);
 
+  // Inject contextual internal links (product page links within body text)
+  bodyContent = injectInternalLinks(bodyContent, locale);
+
   // Discover worksheet samples for blog post using topic cluster matching
   // Uses English title for matching (most reliable signal), then discovers samples per locale
   const enTitle = (translations['en']?.title as string) || translation.title || '';
@@ -610,6 +613,109 @@ export default async function BlogPostPage({
     fi: 'Blogi'
   };
 
+  // Localized category display names for breadcrumb (hub-and-spoke SEO)
+  const CATEGORY_DISPLAY_NAMES: Record<string, Record<string, string>> = {
+    en: {
+      'teaching-resources': 'Teaching Resources',
+      'worksheet-tips': 'Worksheet Tips',
+      'educational-activities': 'Educational Activities',
+      'learning-strategies': 'Learning Strategies',
+      'curriculum-guides': 'Curriculum Guides',
+      'parent-resources': 'Parent Resources',
+      'seasonal-content': 'Seasonal Content',
+    },
+    de: {
+      'teaching-resources': 'Unterrichtsmaterialien',
+      'worksheet-tips': 'Arbeitsblatt-Tipps',
+      'educational-activities': 'Lernaktivit\u00e4ten',
+      'learning-strategies': 'Lernstrategien',
+      'curriculum-guides': 'Lehrplanf\u00fchrer',
+      'parent-resources': 'Elternressourcen',
+      'seasonal-content': 'Saisonale Inhalte',
+    },
+    fr: {
+      'teaching-resources': 'Ressources P\u00e9dagogiques',
+      'worksheet-tips': 'Conseils Fiches',
+      'educational-activities': 'Activit\u00e9s \u00c9ducatives',
+      'learning-strategies': 'Strat\u00e9gies d\'Apprentissage',
+      'curriculum-guides': 'Guides de Programme',
+      'parent-resources': 'Ressources Parents',
+      'seasonal-content': 'Contenu Saisonnier',
+    },
+    es: {
+      'teaching-resources': 'Recursos Did\u00e1cticos',
+      'worksheet-tips': 'Consejos de Fichas',
+      'educational-activities': 'Actividades Educativas',
+      'learning-strategies': 'Estrategias de Aprendizaje',
+      'curriculum-guides': 'Gu\u00edas Curriculares',
+      'parent-resources': 'Recursos para Padres',
+      'seasonal-content': 'Contenido Estacional',
+    },
+    pt: {
+      'teaching-resources': 'Recursos Did\u00e1ticos',
+      'worksheet-tips': 'Dicas de Fichas',
+      'educational-activities': 'Atividades Educativas',
+      'learning-strategies': 'Estrat\u00e9gias de Aprendizagem',
+      'curriculum-guides': 'Guias Curriculares',
+      'parent-resources': 'Recursos para Pais',
+      'seasonal-content': 'Conte\u00fado Sazonal',
+    },
+    it: {
+      'teaching-resources': 'Risorse Didattiche',
+      'worksheet-tips': 'Consigli Schede',
+      'educational-activities': 'Attivit\u00e0 Educative',
+      'learning-strategies': 'Strategie di Apprendimento',
+      'curriculum-guides': 'Guide al Programma',
+      'parent-resources': 'Risorse per Genitori',
+      'seasonal-content': 'Contenuti Stagionali',
+    },
+    nl: {
+      'teaching-resources': 'Leermiddelen',
+      'worksheet-tips': 'Werkblad Tips',
+      'educational-activities': 'Educatieve Activiteiten',
+      'learning-strategies': 'Leerstrategieën',
+      'curriculum-guides': 'Leerplangidsen',
+      'parent-resources': 'Hulpbronnen voor Ouders',
+      'seasonal-content': 'Seizoensinhoud',
+    },
+    sv: {
+      'teaching-resources': 'Undervisningsresurser',
+      'worksheet-tips': 'Arbetsbladstips',
+      'educational-activities': 'Pedagogiska Aktiviteter',
+      'learning-strategies': 'L\u00e4rstrategier',
+      'curriculum-guides': 'L\u00e4roplansuider',
+      'parent-resources': 'F\u00f6r\u00e4ldraresurser',
+      'seasonal-content': 'S\u00e4songsinneh\u00e5ll',
+    },
+    da: {
+      'teaching-resources': 'Undervisningsressourcer',
+      'worksheet-tips': 'Arbejdsarktips',
+      'educational-activities': 'P\u00e6dagogiske Aktiviteter',
+      'learning-strategies': 'L\u00e6ringsstrategier',
+      'curriculum-guides': 'L\u00e6seplansvejledninger',
+      'parent-resources': 'For\u00e6ldreressourcer',
+      'seasonal-content': 'S\u00e6sonindhold',
+    },
+    no: {
+      'teaching-resources': 'Undervisningsressurser',
+      'worksheet-tips': 'Arbeidsarktips',
+      'educational-activities': 'Pedagogiske Aktiviteter',
+      'learning-strategies': 'L\u00e6ringsstrategier',
+      'curriculum-guides': 'L\u00e6replanveiledninger',
+      'parent-resources': 'Foreldreressurser',
+      'seasonal-content': 'Sesonginnhold',
+    },
+    fi: {
+      'teaching-resources': 'Opetusresurssit',
+      'worksheet-tips': 'Ty\u00f6arkkivinkit',
+      'educational-activities': 'Opetusaktiviteetit',
+      'learning-strategies': 'Oppimisstrategiat',
+      'curriculum-guides': 'Opetussuunnitelmaoppaat',
+      'parent-resources': 'Vanhempien Resurssit',
+      'seasonal-content': 'Kausiluontoinen Sis\u00e4lt\u00f6',
+    },
+  };
+
   // Localized "Related Articles" labels
   const relatedArticlesLabels: Record<string, string> = {
     en: 'Related Articles',
@@ -665,11 +771,12 @@ export default async function BlogPostPage({
         />
       )}
 
-      {/* Breadcrumb Navigation */}
+      {/* Breadcrumb Navigation (4-level: Home > Blog > Category > Post) */}
       <Breadcrumb
         locale={locale}
         items={[
           { label: breadcrumbLabels[locale] || 'Blog', href: `/${locale}/blog` },
+          { label: CATEGORY_DISPLAY_NAMES[locale]?.[post.category] || post.category, href: `/${locale}/blog/category/${post.category}` },
           { label: translation.title || slug }
         ]}
       />

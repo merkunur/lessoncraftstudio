@@ -778,6 +778,81 @@ const CATEGORY_APP_MAP: Record<string, string[]> = {
   'Games': ['picture-bingo', 'treasure-hunt'],
 };
 
+/**
+ * Represents a keyword that should be auto-linked to a product page in blog body text.
+ */
+export interface KeywordLinkTarget {
+  keyword: string;     // The keyword to match (locale-specific)
+  appId: string;       // Product app ID
+  url: string;         // Resolved URL: /{locale}/apps/{slug}
+  productName: string; // Localized name for accessibility
+}
+
+// Module-level cache for keyword link targets (static data, safe to cache indefinitely)
+const keywordLinkTargetsCache = new Map<string, KeywordLinkTarget[]>();
+
+/**
+ * Get keyword-to-product-URL mapping for auto-linking in blog body text.
+ *
+ * Algorithm:
+ * 1. Iterate locale keyword map (English fallback for 'en')
+ * 2. Resolve first appId to URL via appIdToProduct()
+ * 3. Filter: keyword length >= 5 characters
+ * 4. Deduplicate by appId: keep longest keyword per product
+ * 5. Sort by keyword length descending (prevents partial matches)
+ * 6. Return at most maxLinks targets
+ */
+export function getKeywordLinkTargets(
+  locale: SupportedLocale,
+  maxLinks: number = 4
+): KeywordLinkTarget[] {
+  const cacheKey = `${locale}:${maxLinks}`;
+  const cached = keywordLinkTargetsCache.get(cacheKey);
+  if (cached) return cached;
+
+  // Choose keyword source based on locale
+  const keywordMap: Record<string, string[]> =
+    locale === 'en' ? KEYWORD_PRODUCT_MAP : (KEYWORD_TRANSLATIONS[locale] || KEYWORD_PRODUCT_MAP);
+
+  // Build candidates: one entry per keyword, resolving the first appId
+  const candidates: KeywordLinkTarget[] = [];
+  for (const [keyword, appIds] of Object.entries(keywordMap)) {
+    // Filter: minimum 5 characters to avoid false matches on short words
+    if (keyword.length < 5) continue;
+
+    // Resolve first available appId to a product URL
+    for (const appId of appIds) {
+      const product = appIdToProduct(appId, locale);
+      if (product) {
+        candidates.push({
+          keyword,
+          appId: product.appId,
+          url: product.url,
+          productName: product.name,
+        });
+        break; // Only use first matching appId per keyword
+      }
+    }
+  }
+
+  // Deduplicate by appId: keep the longest keyword for each product
+  const bestPerApp = new Map<string, KeywordLinkTarget>();
+  for (const candidate of candidates) {
+    const existing = bestPerApp.get(candidate.appId);
+    if (!existing || candidate.keyword.length > existing.keyword.length) {
+      bestPerApp.set(candidate.appId, candidate);
+    }
+  }
+
+  // Sort by keyword length descending (longest first prevents partial matches)
+  const result = Array.from(bestPerApp.values())
+    .sort((a, b) => b.keyword.length - a.keyword.length)
+    .slice(0, maxLinks);
+
+  keywordLinkTargetsCache.set(cacheKey, result);
+  return result;
+}
+
 export interface RelatedProduct {
   appId: string;
   name: string;

@@ -1,7 +1,7 @@
 'use client';
 
-import { motion } from 'framer-motion';
 import Link from 'next/link';
+import { useReveal } from '@/hooks/use-reveal';
 
 interface HomepageCTAProps {
   locale: string;
@@ -143,6 +143,7 @@ const localeContent: Record<string, {
 };
 
 export default function HomepageCTA({ locale }: HomepageCTAProps) {
+  const sectionRef = useReveal();
   // Get content for current locale, fallback to English
   const content = localeContent[locale] || localeContent.en;
   return (
@@ -162,44 +163,29 @@ export default function HomepageCTA({ locale }: HomepageCTAProps) {
 
       {/* Animated gradient orbs */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        <motion.div
-          className="absolute w-[600px] h-[600px] rounded-full opacity-20"
+        <div
+          className="absolute w-[600px] h-[600px] rounded-full opacity-20 orb-scale-1"
           style={{
             background: 'radial-gradient(circle, rgba(6,182,212,0.4) 0%, transparent 70%)',
             top: '-20%',
             right: '-10%',
           }}
-          animate={{
-            scale: [1, 1.2, 1],
-            x: [0, 30, 0],
-          }}
-          transition={{ duration: 10, repeat: Infinity, ease: "easeInOut" }}
         />
-        <motion.div
-          className="absolute w-[500px] h-[500px] rounded-full opacity-15"
+        <div
+          className="absolute w-[500px] h-[500px] rounded-full opacity-15 orb-scale-2"
           style={{
             background: 'radial-gradient(circle, rgba(168,85,247,0.4) 0%, transparent 70%)',
             bottom: '-15%',
             left: '-5%',
           }}
-          animate={{
-            scale: [1, 1.3, 1],
-            y: [0, -20, 0],
-          }}
-          transition={{ duration: 12, repeat: Infinity, ease: "easeInOut" }}
         />
-        <motion.div
-          className="absolute w-[400px] h-[400px] rounded-full opacity-10"
+        <div
+          className="absolute w-[400px] h-[400px] rounded-full opacity-10 orb-scale-3"
           style={{
             background: 'radial-gradient(circle, rgba(236,72,153,0.3) 0%, transparent 70%)',
             top: '30%',
             left: '40%',
           }}
-          animate={{
-            scale: [1, 1.1, 1],
-            opacity: [0.1, 0.2, 0.1],
-          }}
-          transition={{ duration: 8, repeat: Infinity, ease: "easeInOut" }}
         />
       </div>
 
@@ -216,41 +202,26 @@ export default function HomepageCTA({ locale }: HomepageCTAProps) {
       />
 
       <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8">
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: "-100px" }}
-          transition={{ duration: 0.6 }}
-          className="max-w-4xl mx-auto text-center"
+        <div
+          ref={sectionRef}
+          className="max-w-4xl mx-auto text-center reveal"
         >
           {/* Badge */}
-          <motion.div
-            initial={{ opacity: 0, scale: 0.9 }}
-            whileInView={{ opacity: 1, scale: 1 }}
-            viewport={{ once: true }}
-            transition={{ delay: 0.2 }}
+          <div
             className="inline-flex items-center gap-2 px-4 py-2 rounded-full mb-8"
             style={{
               background: 'linear-gradient(135deg, rgba(6,182,212,0.15) 0%, rgba(168,85,247,0.15) 100%)',
               border: '1px solid rgba(6,182,212,0.2)',
             }}
           >
-            <motion.span
-              className="w-2 h-2 rounded-full bg-cyan-400"
-              animate={{ scale: [1, 1.3, 1], opacity: [1, 0.5, 1] }}
-              transition={{ duration: 2, repeat: Infinity }}
-            />
+            <span className="w-2 h-2 rounded-full bg-cyan-400 dot-pulse" />
             <span className="text-sm font-medium text-cyan-300">
               {content.badge}
             </span>
-          </motion.div>
+          </div>
 
           {/* Title */}
-          <motion.h2
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ delay: 0.3 }}
+          <h2
             className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold text-white mb-6 leading-tight"
             style={{ fontFamily: 'var(--font-cormorant), Georgia, serif' }}
           >
@@ -264,27 +235,15 @@ export default function HomepageCTA({ locale }: HomepageCTAProps) {
               {content.titleHighlight}
             </span>
             {locale === 'de' ? ' zu erstellen?' : locale === 'es' || locale === 'it' || locale === 'pt' || locale === 'da' || locale === 'sv' || locale === 'no' || locale === 'fi' ? '?' : ' ?'}
-          </motion.h2>
+          </h2>
 
           {/* Subtitle */}
-          <motion.p
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ delay: 0.4 }}
-            className="text-lg sm:text-xl text-white/60 mb-10 max-w-2xl mx-auto"
-          >
+          <p className="text-lg sm:text-xl text-white/60 mb-10 max-w-2xl mx-auto">
             {content.subtitle}
-          </motion.p>
+          </p>
 
           {/* CTAs */}
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ delay: 0.5 }}
-            className="flex flex-col sm:flex-row gap-4 justify-center"
-          >
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               href={`/${locale}/auth/signup`}
               className="group relative px-8 py-4 rounded-xl font-semibold text-white overflow-hidden transition-all duration-300 hover:scale-[1.02] active:scale-[0.98]"
@@ -311,16 +270,10 @@ export default function HomepageCTA({ locale }: HomepageCTAProps) {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 10h16M4 14h16M4 18h16" />
               </svg>
             </Link>
-          </motion.div>
+          </div>
 
           {/* Trust elements */}
-          <motion.div
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            viewport={{ once: true }}
-            transition={{ delay: 0.7 }}
-            className="mt-12 flex flex-wrap justify-center gap-8 text-sm text-white/40"
-          >
+          <div className="mt-12 flex flex-wrap justify-center gap-8 text-sm text-white/40">
             <div className="flex items-center gap-2">
               <svg className="w-4 h-4 text-green-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
@@ -339,8 +292,8 @@ export default function HomepageCTA({ locale }: HomepageCTAProps) {
               </svg>
               <span>{content.trustCancelAnytime}</span>
             </div>
-          </motion.div>
-        </motion.div>
+          </div>
+        </div>
       </div>
     </section>
   );

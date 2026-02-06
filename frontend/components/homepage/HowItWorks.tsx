@@ -1,8 +1,8 @@
 'use client';
 
-import { useRef } from 'react';
-import { motion, useScroll, useTransform } from 'framer-motion';
+import { useRef, useState, useEffect } from 'react';
 import Link from 'next/link';
+import { useReveal } from '@/hooks/use-reveal';
 
 interface Step {
   number: number;
@@ -219,12 +219,25 @@ const steps: Step[] = [
 
 export default function HowItWorks({ locale }: HowItWorksProps) {
   const containerRef = useRef<HTMLDivElement>(null);
-  const { scrollYProgress } = useScroll({
-    target: containerRef,
-    offset: ["start end", "end start"],
-  });
+  const headerRef = useReveal();
+  const [lineProgress, setLineProgress] = useState(0);
 
-  const lineHeight = useTransform(scrollYProgress, [0.1, 0.9], ["0%", "100%"]);
+  useEffect(() => {
+    const el = containerRef.current;
+    if (!el) return;
+    const handleScroll = () => {
+      const rect = el.getBoundingClientRect();
+      const viewH = window.innerHeight;
+      const start = viewH; // element top hits bottom of viewport
+      const end = -rect.height; // element bottom passes top of viewport
+      const current = rect.top;
+      const progress = Math.max(0, Math.min(1, (start - current) / (start - end)));
+      setLineProgress(progress);
+    };
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    handleScroll();
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
 
   // Get content for current locale, fallback to English
   const content = localeContent[locale] || localeContent.en;
@@ -277,23 +290,11 @@ export default function HowItWorks({ locale }: HowItWorksProps) {
 
       <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section header */}
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: "-100px" }}
-          transition={{ duration: 0.6 }}
-          className="text-center mb-16"
-        >
-          <motion.div
-            initial={{ opacity: 0, scale: 0.9 }}
-            whileInView={{ opacity: 1, scale: 1 }}
-            viewport={{ once: true }}
-            transition={{ delay: 0.2 }}
-            className="inline-flex items-center gap-2 px-4 py-2 rounded-full mb-6 bg-stone-100 border border-stone-200"
-          >
-            <span className="text-stone-600">🚀</span>
+        <div ref={headerRef} className="text-center mb-16 reveal">
+          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full mb-6 bg-stone-100 border border-stone-200">
+            <span className="text-stone-600">{'\ud83d\ude80'}</span>
             <span className="text-sm font-medium text-stone-700">{content.badge}</span>
-          </motion.div>
+          </div>
 
           <h2
             className="text-3xl sm:text-4xl lg:text-5xl font-bold text-stone-800 mb-4"
@@ -304,7 +305,7 @@ export default function HowItWorks({ locale }: HowItWorksProps) {
           <p className="text-lg text-stone-600 max-w-2xl mx-auto">
             {content.subtitle}
           </p>
-        </motion.div>
+        </div>
 
         {/* Timeline */}
         <div className="relative max-w-4xl mx-auto">
@@ -312,20 +313,16 @@ export default function HowItWorks({ locale }: HowItWorksProps) {
           <div className="absolute left-4 md:left-1/2 md:-translate-x-1/2 top-0 bottom-0 w-0.5 bg-stone-200" />
 
           {/* Animated progress line */}
-          <motion.div
-            className="absolute left-4 md:left-1/2 md:-translate-x-1/2 top-0 w-0.5 bg-gradient-to-b from-amber-400 via-orange-400 to-rose-400"
-            style={{ height: lineHeight }}
+          <div
+            className="absolute left-4 md:left-1/2 md:-translate-x-1/2 top-0 w-0.5 bg-gradient-to-b from-amber-400 via-orange-400 to-rose-400 transition-[height] duration-100"
+            style={{ height: `${lineProgress * 100}%` }}
           />
 
           {/* Steps */}
           <div className="space-y-12 md:space-y-0">
             {steps.map((step, index) => (
-              <motion.div
+              <div
                 key={step.number}
-                initial={{ opacity: 0, y: 30 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true, margin: "-100px" }}
-                transition={{ duration: 0.5, delay: index * 0.15 }}
                 className={`
                   relative flex items-start gap-6 md:gap-12
                   ${index % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'}
@@ -334,26 +331,19 @@ export default function HowItWorks({ locale }: HowItWorksProps) {
               >
                 {/* Step number circle - mobile */}
                 <div className="relative z-10 flex-shrink-0 md:hidden">
-                  <motion.div
-                    className="w-8 h-8 rounded-full bg-gradient-to-br from-amber-400 to-orange-500 flex items-center justify-center text-white font-bold text-sm shadow-lg"
-                    whileInView={{ scale: [0.8, 1.1, 1] }}
-                    viewport={{ once: true }}
-                    transition={{ delay: index * 0.15 + 0.2 }}
-                  >
+                  <div className="w-8 h-8 rounded-full bg-gradient-to-br from-amber-400 to-orange-500 flex items-center justify-center text-white font-bold text-sm shadow-lg">
                     {step.number}
-                  </motion.div>
+                  </div>
                 </div>
 
                 {/* Content card */}
-                <motion.div
+                <div
                   className={`
                     flex-1 md:w-5/12
                     ${index % 2 === 0 ? 'md:text-right md:pr-12' : 'md:text-left md:pl-12'}
                   `}
-                  whileHover={{ scale: 1.02 }}
-                  transition={{ type: "spring", stiffness: 400, damping: 25 }}
                 >
-                  <div className="bg-white rounded-2xl p-6 shadow-lg border border-stone-100 hover:shadow-xl transition-shadow duration-300">
+                  <div className="bg-white rounded-2xl p-6 shadow-lg border border-stone-100 hover:shadow-xl transition-all duration-300 hover:scale-[1.02]">
                     <div className={`flex items-start gap-4 ${index % 2 === 0 ? 'md:flex-row-reverse' : ''}`}>
                       <div className="text-3xl flex-shrink-0">{step.icon}</div>
                       <div className="flex-1">
@@ -366,35 +356,24 @@ export default function HowItWorks({ locale }: HowItWorksProps) {
                       </div>
                     </div>
                   </div>
-                </motion.div>
+                </div>
 
                 {/* Center number - desktop */}
                 <div className="hidden md:flex absolute left-1/2 -translate-x-1/2 z-10">
-                  <motion.div
-                    className="w-12 h-12 rounded-full bg-gradient-to-br from-amber-400 to-orange-500 flex items-center justify-center text-white font-bold text-lg shadow-xl border-4 border-white"
-                    whileInView={{ scale: [0.8, 1.1, 1] }}
-                    viewport={{ once: true }}
-                    transition={{ delay: index * 0.15 + 0.2 }}
-                  >
+                  <div className="w-12 h-12 rounded-full bg-gradient-to-br from-amber-400 to-orange-500 flex items-center justify-center text-white font-bold text-lg shadow-xl border-4 border-white">
                     {step.number}
-                  </motion.div>
+                  </div>
                 </div>
 
                 {/* Empty space for alignment - desktop */}
                 <div className="hidden md:block md:w-5/12" />
-              </motion.div>
+              </div>
             ))}
           </div>
         </div>
 
         {/* CTA */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ delay: 0.5 }}
-          className="text-center mt-16"
-        >
+        <div className="text-center mt-16">
           <Link
             href={`/${locale}/auth/signup`}
             className="inline-flex items-center gap-2 px-8 py-4 rounded-xl font-semibold text-white bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-600 hover:to-orange-600 shadow-lg shadow-amber-500/25 transition-all duration-300 hover:shadow-xl hover:shadow-amber-500/30"
@@ -404,7 +383,7 @@ export default function HowItWorks({ locale }: HowItWorksProps) {
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
             </svg>
           </Link>
-        </motion.div>
+        </div>
       </div>
     </section>
   );

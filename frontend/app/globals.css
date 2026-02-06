@@ -143,9 +143,190 @@
   .hero-orb-drift { animation: heroOrbDrift 15s ease-in-out infinite; }
   .hero-orb-fade { animation: heroOrbFade 10s ease-in-out infinite; }
 
+  /* Hero right-column entrance — CSS replacement for Framer Motion initial={{ opacity: 0, x: 50 }} */
+  @keyframes heroFadeInRight {
+    from { opacity: 0; transform: translateX(50px); }
+    to { opacity: 1; transform: translateX(0); }
+  }
+  .hero-fade-in-right {
+    animation: heroFadeInRight 1.2s cubic-bezier(0.22, 1, 0.36, 1) 0.4s forwards;
+    opacity: 0;
+  }
+
+  /* Floating stats/badge entrance — CSS replacement for Framer Motion delayed scale-in */
+  @keyframes heroPopIn {
+    from { opacity: 0; transform: scale(0.8) translateY(20px); }
+    to { opacity: 1; transform: scale(1) translateY(0); }
+  }
+  .hero-pop-in-1 {
+    animation: heroPopIn 0.6s ease-out 1.2s forwards;
+    opacity: 0;
+  }
+  .hero-pop-in-2 {
+    animation: heroPopIn 0.5s ease-out 1.4s forwards;
+    opacity: 0;
+  }
+
+  /* Floating geometric shapes — CSS replacement for Framer Motion looping rotations */
+  @keyframes geoRotate {
+    0%, 100% { transform: rotate(0deg) scale(1); }
+    50% { transform: rotate(90deg) scale(1.1); }
+  }
+  @keyframes geoFloat {
+    0%, 100% { transform: translateY(0) scale(1); }
+    50% { transform: translateY(-30px) scale(1.2); }
+  }
+  @keyframes geoSpin {
+    0%, 100% { transform: rotate(45deg) scale(1); }
+    50% { transform: rotate(135deg) scale(1.15); }
+  }
+  .geo-rotate { animation: geoRotate 20s ease-in-out infinite; }
+  .geo-float { animation: geoFloat 8s ease-in-out infinite; }
+  .geo-spin { animation: geoSpin 15s ease-in-out infinite; }
+
+  /* Scroll indicator — CSS replacement for Framer Motion */
+  @keyframes scrollFadeIn {
+    from { opacity: 0; transform: translateX(-50%) translateY(20px); }
+    to { opacity: 1; transform: translateX(-50%) translateY(0); }
+  }
+  @keyframes scrollPulse {
+    0%, 100% { opacity: 0.5; }
+    50% { opacity: 1; }
+  }
+  @keyframes scrollDot {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(12px); }
+  }
+  .scroll-indicator {
+    animation: scrollFadeIn 0.5s ease-out 1.5s forwards;
+    opacity: 0;
+  }
+  .scroll-indicator-ring {
+    animation: scrollPulse 2s ease-in-out infinite;
+  }
+  .scroll-indicator-dot {
+    animation: scrollDot 1.5s ease-in-out infinite;
+  }
+
+  /* Arrow bounce — CSS replacement for Framer Motion animate={{ x: [0, 4, 0] }} */
+  @keyframes arrowBounce {
+    0%, 100% { transform: translateX(0); }
+    50% { transform: translateX(4px); }
+  }
+  .arrow-bounce { animation: arrowBounce 1.5s ease-in-out infinite; }
+
+  /* Emoji wiggle — CSS replacement for Framer Motion animate={{ rotate: [0, 10, -10, 0] }} */
+  @keyframes emojiWiggle {
+    0%, 100% { transform: rotate(0deg); }
+    25% { transform: rotate(10deg); }
+    75% { transform: rotate(-10deg); }
+  }
+  .emoji-wiggle { animation: emojiWiggle 2s ease-in-out infinite; }
+
+  /* Badge float — CSS replacement for Framer Motion animate={{ y: [0, -5, 0] }} */
+  @keyframes badgeFloat {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-5px); }
+  }
+  @keyframes badgeFloatDown {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(5px); }
+  }
+  .badge-float { animation: badgeFloat 3s ease-in-out infinite; }
+  .badge-float-down { animation: badgeFloatDown 4s ease-in-out infinite; }
+
+  /* Reveal animation for scroll-triggered sections */
+  @keyframes revealUp {
+    from { opacity: 0; transform: translateY(30px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  @keyframes revealScale {
+    from { opacity: 0; transform: scale(0.9); }
+    to { opacity: 1; transform: scale(1); }
+  }
+  .reveal {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  }
+  .reveal.revealed {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  .reveal-scale {
+    opacity: 0;
+    transform: scale(0.9);
+    transition: opacity 0.4s ease-out, transform 0.4s ease-out;
+  }
+  .reveal-scale.revealed {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  /* Floating diamond/shapes for HomepageHero */
+  @keyframes floatDiamond {
+    0%, 100% { transform: rotate(45deg) translateY(0); opacity: 0.3; }
+    50% { transform: rotate(90deg) translateY(-20px); opacity: 0.6; }
+  }
+  @keyframes floatCircle {
+    0%, 100% { transform: translateY(0) scale(1); }
+    50% { transform: translateY(15px) scale(1.2); }
+  }
+  @keyframes floatPlus {
+    0%, 100% { transform: rotate(0deg); opacity: 0.2; }
+    50% { transform: rotate(180deg); opacity: 0.4; }
+  }
+  @keyframes floatBar {
+    0%, 100% { transform: scaleY(1); opacity: 0.3; }
+    50% { transform: scaleY(1.5); opacity: 0.5; }
+  }
+  .float-diamond { animation: floatDiamond 8s ease-in-out infinite; }
+  .float-circle { animation: floatCircle 6s ease-in-out infinite; }
+  .float-plus { animation: floatPlus 12s ease-in-out infinite; }
+  .float-bar { animation: floatBar 5s ease-in-out infinite; }
+
+  /* Decorative orb animations for CTA section */
+  @keyframes orbScale1 {
+    0%, 100% { transform: scale(1) translateX(0); }
+    50% { transform: scale(1.2) translateX(30px); }
+  }
+  @keyframes orbScale2 {
+    0%, 100% { transform: scale(1) translateY(0); }
+    50% { transform: scale(1.3) translateY(-20px); }
+  }
+  @keyframes orbScale3 {
+    0%, 100% { transform: scale(1); opacity: 0.1; }
+    50% { transform: scale(1.1); opacity: 0.2; }
+  }
+  .orb-scale-1 { animation: orbScale1 10s ease-in-out infinite; }
+  .orb-scale-2 { animation: orbScale2 12s ease-in-out infinite; }
+  .orb-scale-3 { animation: orbScale3 8s ease-in-out infinite; }
+
+  /* Pulsing dot for CTA badge */
+  @keyframes dotPulse {
+    0%, 100% { transform: scale(1); opacity: 1; }
+    50% { transform: scale(1.3); opacity: 0.5; }
+  }
+  .dot-pulse { animation: dotPulse 2s ease-in-out infinite; }
+
+  /* Center decorative element pulse */
+  @keyframes centerPulse {
+    0%, 100% { transform: translate(-50%, -50%) scale(1); opacity: 0.3; }
+    50% { transform: translate(-50%, -50%) scale(1.3); opacity: 0.6; }
+  }
+  .center-pulse { animation: centerPulse 5s ease-in-out infinite; }
+
+  /* Glow background pulse */
+  @keyframes glowPulse {
+    0%, 100% { transform: scale(1); opacity: 0.3; }
+    50% { transform: scale(1.1); opacity: 0.5; }
+  }
+  .glow-pulse { animation: glowPulse 5s ease-in-out infinite; }
+
   @media (prefers-reduced-motion: reduce) {
     .hero-fade-in,
-    .hero-fade-in-left { animation: none; opacity: 1; }
+    .hero-fade-in-left,
+    .hero-fade-in-right { animation: none; opacity: 1; }
     .hero-stagger-1,
     .hero-stagger-2,
     .hero-stagger-3,
@@ -153,5 +334,29 @@
     .hero-orb-pulse,
     .hero-orb-drift,
     .hero-orb-fade { animation: none; }
+    .hero-pop-in-1,
+    .hero-pop-in-2 { animation: none; opacity: 1; }
+    .geo-rotate,
+    .geo-float,
+    .geo-spin { animation: none; }
+    .scroll-indicator { animation: none; opacity: 1; }
+    .scroll-indicator-ring { animation: none; opacity: 0.7; }
+    .scroll-indicator-dot { animation: none; }
+    .arrow-bounce,
+    .emoji-wiggle { animation: none; }
+    .badge-float,
+    .badge-float-down { animation: none; }
+    .reveal { opacity: 1; transform: none; }
+    .reveal-scale { opacity: 1; transform: none; }
+    .float-diamond,
+    .float-circle,
+    .float-plus,
+    .float-bar { animation: none; opacity: 0.3; }
+    .orb-scale-1,
+    .orb-scale-2,
+    .orb-scale-3 { animation: none; }
+    .dot-pulse { animation: none; }
+    .center-pulse { animation: none; }
+    .glow-pulse { animation: none; }
   }
 }

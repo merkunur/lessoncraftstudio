@@ -28,8 +28,9 @@ export function Navigation() {
                 src="/logo-lcs.png"
                 alt="LessonCraftStudio"
                 loading="eager"
+                width={242}
+                height={151}
                 className="max-h-[67px] md:max-h-[151px] max-w-[108px] md:max-w-[242px] w-auto h-auto object-contain relative -z-10"
-                style={{ aspectRatio: '108 / 67' }}
               />
             </div>
 

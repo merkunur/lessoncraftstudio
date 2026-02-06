@@ -196,23 +196,17 @@ export default function HeroSection({
 
       {/* Floating geometric shapes \u2014 hidden on mobile */}
       <div className="absolute inset-0 pointer-events-none overflow-hidden hidden md:block">
-        <motion.div
-          className="absolute w-32 h-32 border border-cyan-500/20 rounded-2xl"
+        <div
+          className="absolute w-32 h-32 border border-cyan-500/20 rounded-2xl geo-rotate"
           style={{ top: '15%', right: '15%' }}
-          animate={{ rotate: [0, 90, 0], scale: [1, 1.1, 1] }}
-          transition={{ duration: 20, repeat: Infinity }}
         />
-        <motion.div
-          className="absolute w-20 h-20 border border-purple-500/20 rounded-full"
+        <div
+          className="absolute w-20 h-20 border border-purple-500/20 rounded-full geo-float"
           style={{ top: '60%', right: '25%' }}
-          animate={{ y: [0, -30, 0], scale: [1, 1.2, 1] }}
-          transition={{ duration: 8, repeat: Infinity }}
         />
-        <motion.div
-          className="absolute w-16 h-16 bg-gradient-to-br from-cyan-500/10 to-purple-500/10 rounded-xl"
+        <div
+          className="absolute w-16 h-16 bg-gradient-to-br from-cyan-500/10 to-purple-500/10 rounded-xl geo-spin"
           style={{ bottom: '20%', left: '10%' }}
-          animate={{ rotate: [45, 135, 45], scale: [1, 1.15, 1] }}
-          transition={{ duration: 15, repeat: Infinity }}
         />
       </div>
 
@@ -270,16 +264,14 @@ export default function HeroSection({
                 <span className="absolute inset-[2px] bg-[#0a0a0a] rounded-[10px] group-hover:bg-transparent transition-all duration-300" />
                 <span className="relative flex items-center gap-2 text-white group-hover:text-white">
                   {ctaLabels.tryFree}
-                  <motion.svg
-                    className="w-5 h-5"
+                  <svg
+                    className="w-5 h-5 arrow-bounce"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
-                    animate={{ x: [0, 4, 0] }}
-                    transition={{ duration: 1.5, repeat: Infinity }}
                   >
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
-                  </motion.svg>
+                  </svg>
                 </span>
               </Link>
 
@@ -336,24 +328,14 @@ export default function HeroSection({
             </div>
           </div>
 
-          {/* Right column - Preview (keep Framer Motion for desktop interactions) */}
-          <motion.div
-            className="lg:col-span-5 relative"
-            initial={{ opacity: 0, x: 50, rotateY: -15 }}
-            animate={{ opacity: 1, x: 0, rotateY: 0 }}
-            transition={{ duration: 1.2, delay: 0.4, ease: [0.22, 1, 0.36, 1] }}
-          >
+          {/* Right column - Preview (CSS entrance, Framer Motion for mouse tracking) */}
+          <div className="lg:col-span-5 relative hero-fade-in-right">
             {/* Glowing background effect */}
-            <motion.div
-              className="absolute inset-0 blur-3xl opacity-50"
+            <div
+              className="absolute inset-0 blur-3xl opacity-50 glow-pulse"
               style={{
                 background: 'radial-gradient(circle, rgba(6,182,212,0.3) 0%, rgba(168,85,247,0.2) 50%, transparent 70%)',
               }}
-              animate={{
-                scale: [1, 1.1, 1],
-                opacity: [0.3, 0.5, 0.3],
-              }}
-              transition={{ duration: 5, repeat: Infinity }}
             />
 
             {/* Preview card with 3D effect */}
@@ -425,22 +407,11 @@ export default function HeroSection({
               </div>
 
               {/* Floating stats card */}
-              <motion.div
-                className="absolute -bottom-6 -right-6 lg:-bottom-8 lg:-right-8"
-                initial={{ opacity: 0, scale: 0.8, y: 20 }}
-                animate={{ opacity: 1, scale: 1, y: 0 }}
-                transition={{ delay: 1.2, duration: 0.6 }}
-              >
+              <div className="absolute -bottom-6 -right-6 lg:-bottom-8 lg:-right-8 hero-pop-in-1">
                 <div className="bg-gradient-to-r from-[#1a1a2e] to-[#16213e] rounded-xl p-5 shadow-2xl shadow-purple-500/20 border border-white/10 backdrop-blur-sm">
                   <div className="flex items-center gap-4">
                     <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-cyan-500 to-purple-500 flex items-center justify-center">
-                      <motion.span
-                        className="text-2xl"
-                        animate={{ rotate: [0, 10, -10, 0] }}
-                        transition={{ duration: 2, repeat: Infinity }}
-                      >
-                        {'\u26a1'}
-                      </motion.span>
+                      <span className="text-2xl emoji-wiggle">{'\u26a1'}</span>
                     </div>
                     <div>
                       <p className="text-2xl font-black text-white">{floatingStats.time}</p>
@@ -448,46 +419,28 @@ export default function HeroSection({
                     </div>
                   </div>
                 </div>
-              </motion.div>
+              </div>
 
               {/* Floating badge - top left */}
-              <motion.div
-                className="absolute -top-4 -left-4"
-                initial={{ opacity: 0, scale: 0.8 }}
-                animate={{ opacity: 1, scale: 1 }}
-                transition={{ delay: 1.4, duration: 0.5 }}
-              >
+              <div className="absolute -top-4 -left-4 hero-pop-in-2">
                 <div className="bg-gradient-to-r from-emerald-500 to-teal-500 rounded-full px-4 py-2 shadow-lg shadow-emerald-500/30 flex items-center gap-2">
                   <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                   </svg>
                   <span className="text-sm font-bold text-white">{floatingStats.quality}</span>
                 </div>
-              </motion.div>
+              </div>
             </motion.div>
-          </motion.div>
+          </div>
         </div>
       </div>
 
       {/* Scroll indicator */}
-      <motion.div
-        className="absolute bottom-8 left-1/2 -translate-x-1/2"
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ delay: 1.5 }}
-      >
-        <motion.div
-          className="w-6 h-10 rounded-full border-2 border-white/30 flex justify-center pt-2"
-          animate={{ opacity: [0.5, 1, 0.5] }}
-          transition={{ duration: 2, repeat: Infinity }}
-        >
-          <motion.div
-            className="w-1.5 h-3 bg-white/60 rounded-full"
-            animate={{ y: [0, 12, 0] }}
-            transition={{ duration: 1.5, repeat: Infinity }}
-          />
-        </motion.div>
-      </motion.div>
+      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 scroll-indicator">
+        <div className="w-6 h-10 rounded-full border-2 border-white/30 flex justify-center pt-2 scroll-indicator-ring">
+          <div className="w-1.5 h-3 bg-white/60 rounded-full scroll-indicator-dot" />
+        </div>
+      </div>
     </section>
   );
 }

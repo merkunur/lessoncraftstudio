@@ -196,7 +196,6 @@ export default function HomepageHero({ locale, heroImages }: HomepageHeroProps) 
   const heroImageSources = heroImages || { portrait: '', landscape: '' };
 
   const { scrollY } = useScroll();
-  const y1 = useTransform(scrollY, [0, 500], [0, 150]);
   const opacity = useTransform(scrollY, [0, 400], [1, 0]);
 
   const springConfig = { stiffness: 100, damping: 30 };
@@ -343,57 +342,33 @@ export default function HomepageHero({ locale, heroImages }: HomepageHeroProps) 
       </div>
 
       {/* Floating geometric shapes \u2014 hidden on mobile to reduce paint cost */}
-      <motion.div
-        className="absolute inset-0 pointer-events-none hidden md:block"
-        style={{ y: y1 }}
-      >
+      <div className="absolute inset-0 pointer-events-none hidden md:block">
         {/* Floating diamond */}
-        <motion.div
-          className="absolute w-4 h-4 border border-cyan-500/20 rotate-45"
+        <div
+          className="absolute w-4 h-4 border border-cyan-500/20 float-diamond"
           style={{ top: '15%', left: '10%' }}
-          animate={{
-            y: [0, -20, 0],
-            rotate: [45, 90, 45],
-            opacity: [0.3, 0.6, 0.3]
-          }}
-          transition={{ duration: 8, repeat: Infinity }}
         />
 
         {/* Floating circle */}
-        <motion.div
-          className="absolute w-3 h-3 rounded-full border border-purple-500/30"
+        <div
+          className="absolute w-3 h-3 rounded-full border border-purple-500/30 float-circle"
           style={{ top: '25%', right: '15%' }}
-          animate={{
-            y: [0, 15, 0],
-            scale: [1, 1.2, 1],
-          }}
-          transition={{ duration: 6, repeat: Infinity }}
         />
 
         {/* Floating plus */}
-        <motion.div
-          className="absolute text-pink-500/20 text-2xl font-light"
+        <div
+          className="absolute text-pink-500/20 text-2xl font-light float-plus"
           style={{ bottom: '30%', left: '8%' }}
-          animate={{
-            rotate: [0, 180, 360],
-            opacity: [0.2, 0.4, 0.2]
-          }}
-          transition={{ duration: 12, repeat: Infinity }}
         >
           +
-        </motion.div>
+        </div>
 
         {/* More floating elements */}
-        <motion.div
-          className="absolute w-2 h-8 bg-gradient-to-b from-cyan-500/10 to-transparent rounded-full"
+        <div
+          className="absolute w-2 h-8 bg-gradient-to-b from-cyan-500/10 to-transparent rounded-full float-bar"
           style={{ top: '40%', right: '8%' }}
-          animate={{
-            scaleY: [1, 1.5, 1],
-            opacity: [0.3, 0.5, 0.3]
-          }}
-          transition={{ duration: 5, repeat: Infinity }}
         />
-      </motion.div>
+      </div>
 
       {/* Grid pattern overlay */}
       <div
@@ -511,12 +486,7 @@ export default function HomepageHero({ locale, heroImages }: HomepageHeroProps) 
 
             {/* Right column - Preview cards (only shown when hero images are uploaded) */}
             {hasHeroImages && previewWorksheets.length > 0 && (
-            <motion.div
-              initial={{ opacity: 0, x: 30 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.8, delay: 0.3 }}
-              className="relative hidden lg:block"
-            >
+            <div className="relative hidden lg:block hero-fade-in-right">
               <div className="relative w-full aspect-square max-w-lg mx-auto">
                 {/* Glow effect behind cards */}
                 <div
@@ -564,24 +534,21 @@ export default function HomepageHero({ locale, heroImages }: HomepageHeroProps) 
                         alt={previewWorksheets[0].alt}
                         fill
                         priority
-                        unoptimized
                         className="object-cover"
                         sizes="280px"
                       />
                     </div>
 
                     {/* Floating badge */}
-                    <motion.div
-                      className="absolute -bottom-3 -right-3 px-3 py-1.5 rounded-full text-xs font-semibold text-white"
+                    <div
+                      className="absolute -bottom-3 -right-3 px-3 py-1.5 rounded-full text-xs font-semibold text-white badge-float"
                       style={{
                         background: 'linear-gradient(135deg, #06b6d4 0%, #8b5cf6 100%)',
                         boxShadow: '0 4px 20px rgba(6,182,212,0.4)',
                       }}
-                      animate={{ y: [0, -5, 0] }}
-                      transition={{ duration: 3, repeat: Infinity }}
                     >
                       300 DPI
-                    </motion.div>
+                    </div>
                   </div>
                 </motion.div>
 
@@ -623,68 +590,47 @@ export default function HomepageHero({ locale, heroImages }: HomepageHeroProps) 
                         alt={previewWorksheets[1].alt}
                         fill
                         priority
-                        unoptimized
                         className="object-cover"
                         sizes="300px"
                       />
                     </div>
 
                     {/* Floating badge */}
-                    <motion.div
-                      className="absolute -top-3 -left-3 px-3 py-1.5 rounded-full text-xs font-semibold text-white flex items-center gap-1.5"
+                    <div
+                      className="absolute -top-3 -left-3 px-3 py-1.5 rounded-full text-xs font-semibold text-white flex items-center gap-1.5 badge-float-down"
                       style={{
                         background: 'linear-gradient(135deg, #ec4899 0%, #8b5cf6 100%)',
                         boxShadow: '0 4px 20px rgba(236,72,153,0.4)',
                       }}
-                      animate={{ y: [0, 5, 0] }}
-                      transition={{ duration: 4, repeat: Infinity }}
                     >
                       <svg className="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
                         <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                       </svg>
                       {content.answerKey}
-                    </motion.div>
+                    </div>
                   </div>
                 </motion.div>
 
                 {/* Center decorative element */}
-                <motion.div
-                  className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-32 h-32 rounded-full"
+                <div
+                  className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-32 h-32 rounded-full center-pulse"
                   style={{
                     background: 'radial-gradient(circle, rgba(168,85,247,0.2) 0%, transparent 70%)',
                   }}
-                  animate={{
-                    scale: [1, 1.3, 1],
-                    opacity: [0.3, 0.6, 0.3],
-                  }}
-                  transition={{ duration: 5, repeat: Infinity }}
                 />
               </div>
-            </motion.div>
+            </div>
             )}
           </div>
         </div>
       </motion.div>
 
       {/* Scroll indicator */}
-      <motion.div
-        className="absolute bottom-8 left-1/2 -translate-x-1/2"
-        initial={{ opacity: 0, y: -10 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ delay: 1 }}
-      >
-        <motion.div
-          className="w-6 h-10 rounded-full border-2 border-white/20 flex justify-center pt-2"
-          animate={{ opacity: [0.5, 1, 0.5] }}
-          transition={{ duration: 2, repeat: Infinity }}
-        >
-          <motion.div
-            className="w-1.5 h-1.5 rounded-full bg-white/60"
-            animate={{ y: [0, 12, 0] }}
-            transition={{ duration: 1.5, repeat: Infinity }}
-          />
-        </motion.div>
-      </motion.div>
+      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 scroll-indicator">
+        <div className="w-6 h-10 rounded-full border-2 border-white/20 flex justify-center pt-2 scroll-indicator-ring">
+          <div className="w-1.5 h-1.5 rounded-full bg-white/60 scroll-indicator-dot" />
+        </div>
+      </div>
     </section>
   );
 }

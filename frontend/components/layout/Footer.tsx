@@ -2,75 +2,19 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { useState, useEffect } from 'react';
 import { useTranslations } from 'next-intl';
 import { getSlugForLocale, type SupportedLocale } from '@/config/product-page-slugs';
-
-interface FooterContent {
-  companyName?: string;
-  companyTagline?: string;
-  sections?: {
-    product?: {
-      title?: string;
-      links?: {
-        apps?: string;
-        pricing?: string;
-        blog?: string;
-      };
-    };
-    support?: {
-      title?: string;
-      links?: {
-        helpCenter?: string;
-        contact?: string;
-        faq?: string;
-      };
-    };
-    legal?: {
-      title?: string;
-      links?: {
-        terms?: string;
-        privacy?: string;
-        license?: string;
-      };
-    };
-  };
-  copyright?: string;
-}
 
 export function Footer() {
   const pathname = usePathname();
   const locale = pathname.split('/')[1] || 'en';
-  const [footerContent, setFooterContent] = useState<FooterContent>({});
-  const [isLoading, setIsLoading] = useState(false);
   const t = useTranslations('footer');
 
-  useEffect(() => {
-    fetchFooterContent();
-  }, [locale]);
+  const companyName = 'LessonCraftStudio';
+  const tagline = 'Professional worksheet generators for educational publishers.';
+  const copyright = '\u00a9 2024 LessonCraftStudio. All rights reserved.';
 
-  const fetchFooterContent = async () => {
-    try {
-      const response = await fetch(`/api/homepage/content?locale=${locale}`);
-      if (response.ok) {
-        const data = await response.json();
-        if (data.content?.footer) {
-          setFooterContent(data.content.footer);
-        }
-      }
-    } catch (error) {
-      console.error('Failed to fetch footer content:', error);
-    } finally {
-      setIsLoading(false);
-    }
-  };
-
-  // Default fallback content
-  const companyName = footerContent?.companyName || 'LessonCraftStudio';
-  const tagline = footerContent?.companyTagline || 'Professional worksheet generators for educational publishers.';
-  const copyright = footerContent?.copyright || '© 2024 LessonCraftStudio. All rights reserved.';
-
-  const sections = footerContent?.sections || {
+  const sections = {
     product: {
       title: t('product.title'),
       links: {

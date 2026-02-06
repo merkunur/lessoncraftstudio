@@ -1,6 +1,6 @@
 'use client';
 
-import { motion } from 'framer-motion';
+import { useReveal } from '@/hooks/use-reveal';
 
 interface Feature {
   icon: string;
@@ -305,6 +305,7 @@ const features: Feature[] = [
 ];
 
 export default function HomepageFeatures({ locale }: HomepageFeaturesProps) {
+  const headerRef = useReveal();
   // Get content for current locale, fallback to English
   const content = localeContent[locale] || localeContent.en;
 
@@ -382,23 +383,11 @@ export default function HomepageFeatures({ locale }: HomepageFeaturesProps) {
 
       <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section header */}
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: "-100px" }}
-          transition={{ duration: 0.6 }}
-          className="text-center mb-16"
-        >
-          <motion.div
-            initial={{ opacity: 0, scale: 0.9 }}
-            whileInView={{ opacity: 1, scale: 1 }}
-            viewport={{ once: true }}
-            transition={{ delay: 0.2 }}
-            className="inline-flex items-center gap-2 px-4 py-2 rounded-full mb-6 bg-amber-200/50 border border-amber-300"
-          >
-            <span className="text-amber-700">🌟</span>
+        <div ref={headerRef} className="text-center mb-16 reveal">
+          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full mb-6 bg-amber-200/50 border border-amber-300">
+            <span className="text-amber-700">{'\ud83c\udf1f'}</span>
             <span className="text-sm font-medium text-amber-800">{content.badge}</span>
-          </motion.div>
+          </div>
 
           <h2
             className="text-3xl sm:text-4xl lg:text-5xl font-bold text-stone-800 mb-4"
@@ -409,34 +398,23 @@ export default function HomepageFeatures({ locale }: HomepageFeaturesProps) {
           <p className="text-lg text-stone-600 max-w-2xl mx-auto">
             {content.subtitle}
           </p>
-        </motion.div>
+        </div>
 
         {/* Features grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {features.map((feature, index) => (
-            <motion.div
+            <div
               key={index}
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: "-50px" }}
-              transition={{ duration: 0.5, delay: index * 0.1 }}
               className="group relative"
             >
-              <motion.div
+              <div
                 className={`
-                  relative p-6 rounded-2xl h-full transition-all duration-300
+                  relative p-6 rounded-2xl h-full transition-all duration-300 hover:-translate-y-1
                   ${feature.highlighted
-                    ? 'bg-gradient-to-br from-amber-100 via-white to-orange-50 border-2 border-amber-300 shadow-xl'
-                    : 'bg-white/80 backdrop-blur-sm border border-amber-200/50 shadow-lg'
+                    ? 'bg-gradient-to-br from-amber-100 via-white to-orange-50 border-2 border-amber-300 shadow-xl hover:shadow-[0_25px_50px_-12px_rgba(245,158,11,0.25)]'
+                    : 'bg-white/80 backdrop-blur-sm border border-amber-200/50 shadow-lg hover:shadow-[0_20px_40px_-10px_rgba(0,0,0,0.1)]'
                   }
                 `}
-                whileHover={{
-                  y: -5,
-                  boxShadow: feature.highlighted
-                    ? '0 25px 50px -12px rgba(245,158,11,0.25)'
-                    : '0 20px 40px -10px rgba(0,0,0,0.1)',
-                }}
-                transition={{ type: "spring", stiffness: 300, damping: 25 }}
               >
                 {/* Highlighted badge */}
                 {feature.highlighted && (
@@ -475,19 +453,13 @@ export default function HomepageFeatures({ locale }: HomepageFeaturesProps) {
                 <p className={`text-sm leading-relaxed ${feature.highlighted ? 'text-stone-700' : 'text-stone-600'}`}>
                   {getFeatureDescription(feature)}
                 </p>
-              </motion.div>
-            </motion.div>
+              </div>
+            </div>
           ))}
         </div>
 
         {/* Trust indicators */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ delay: 0.5 }}
-          className="mt-16"
-        >
+        <div className="mt-16">
           <div className="bg-white/60 backdrop-blur-sm rounded-2xl border border-amber-200/50 p-6">
             <div className="flex flex-wrap justify-center gap-8 text-sm text-stone-600">
               <div className="flex items-center gap-2">
@@ -512,7 +484,7 @@ export default function HomepageFeatures({ locale }: HomepageFeaturesProps) {
               </div>
             </div>
           </div>
-        </motion.div>
+        </div>
       </div>
     </section>
   );

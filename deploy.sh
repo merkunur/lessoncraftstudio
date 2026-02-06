@@ -95,28 +95,64 @@ cd frontend
 # 3. Build the application
 # NOTE: Samples are in /var/www/lcs-media/samples/ - completely isolated
 # No symlinks needed - nginx serves samples directly
+# IMPORTANT: Build writes to .next/ but the running server reads from
+# .next/standalone/ (from the PREVIOUS build), so this is safe.
 echo ""
 echo "🔨 Building Next.js application..."
 npm run build
 
-# 4. CRITICAL: Copy static files to standalone directory
+# 4. CRITICAL: Stage new release in separate directory (zero-downtime)
+# The running server continues serving from .next/standalone/ while we prepare
 echo ""
-echo "📂 Copying static files to standalone directory..."
-echo "   → Copying .next/static to .next/standalone/.next/static"
-cp -r .next/static .next/standalone/.next/static
-
-echo "   → Copying public to .next/standalone/public"
-cp -r public .next/standalone/public
+echo "📂 Staging new release..."
+RELEASE_DIR=".next-release-$(date +%s)"
+cp -a .next/standalone "$RELEASE_DIR"
+echo "   → Copying .next/static to staged release"
+cp -r .next/static "$RELEASE_DIR/.next/static"
+echo "   → Copying public to staged release"
+cp -r public "$RELEASE_DIR/public"
+echo "   → Copying .env.production to staged release"
+cp .env.production "$RELEASE_DIR/.env.production"
 
 # NOTE: No symlinks needed! Samples are served directly by nginx from
 # /var/www/lcs-media/samples/ - this deployment CANNOT affect them
 
-# 5. Restart PM2 application
+# 5. Atomic swap: replace active standalone with new release
 echo ""
-echo "🔄 Restarting PM2 application..."
-pm2 restart lessoncraftstudio
+echo "🔄 Swapping to new release..."
+rm -rf .next-old
+mv .next/standalone .next-old 2>/dev/null || true
+mv "$RELEASE_DIR" .next/standalone
+echo "   ✅ Swap complete"
 
-# 6. Verify application is running
+# 6. Graceful restart (pm2 restart instead of delete+start to minimize downtime)
+echo ""
+echo "🔄 Restarting PM2 application (graceful)..."
+pm2 restart lessoncraftstudio --update-env --kill-timeout 3000
+pm2 save
+
+# 7. Health check with retry loop
+echo ""
+echo "⏳ Waiting for server to become ready..."
+SERVER_UP=false
+for i in $(seq 1 30); do
+    if curl -sf http://localhost:3000 > /dev/null 2>&1; then
+        echo "   ✅ Server up after ${i}s"
+        SERVER_UP=true
+        break
+    fi
+    sleep 1
+done
+
+if [ "$SERVER_UP" = false ]; then
+    echo "   ⚠️  Server did not respond within 30s - checking PM2 status..."
+    pm2 status lessoncraftstudio
+fi
+
+# 8. Cleanup old release
+rm -rf .next-old
+
+# 9. Verify application is running
 echo ""
 echo "📊 Application status:"
 pm2 status lessoncraftstudio
@@ -193,11 +229,29 @@ sleep 3  # Wait for PM2 to fully start
 SITEMAP_RESULT=$(curl -s -X POST http://localhost:3000/api/revalidate-sitemap 2>/dev/null || echo '{"status":"error"}')
 echo "   Sitemap revalidation: $SITEMAP_RESULT"
 
+# ============================================
+# POST-DEPLOYMENT SMOKE TESTS
+# ============================================
 echo ""
-echo "✅ Deployment complete!"
+echo "Running post-deployment smoke tests..."
+sleep 5  # Wait for PM2 to fully start
+
+if [ -f /opt/lessoncraftstudio/server-scripts/post-deploy-smoke.sh ]; then
+    bash /opt/lessoncraftstudio/server-scripts/post-deploy-smoke.sh
+    SMOKE_RESULT=$?
+    if [ $SMOKE_RESULT -ne 0 ]; then
+        echo ""
+        echo "Some smoke tests failed - check logs above"
+    fi
+else
+    echo "   Smoke test script not found (skipping)"
+fi
+
 echo ""
-echo "🌐 Website should now be accessible with all CSS/JavaScript working!"
-echo "📸 Sample images: $POST_SAMPLE_COUNT JPEG + $POST_WEBP_COUNT WebP files (isolated)"
-echo "🖼️  Image library: $POST_IMAGE_LIB_COUNT PNG files (isolated)"
-echo "🗄️  Database: $POST_DB_PRODUCT_SAMPLES product samples, $POST_DB_SAMPLE_WORKSHEETS sample worksheets"
+echo "Deployment complete!"
+echo ""
+echo "Website should now be accessible with all CSS/JavaScript working!"
+echo "Sample images: $POST_SAMPLE_COUNT JPEG + $POST_WEBP_COUNT WebP files (isolated)"
+echo "Image library: $POST_IMAGE_LIB_COUNT PNG files (isolated)"
+echo "Database: $POST_DB_PRODUCT_SAMPLES product samples, $POST_DB_SAMPLE_WORKSHEETS sample worksheets"
 echo ""

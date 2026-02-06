@@ -298,7 +298,13 @@ export default async function CategoryPage({ params, searchParams }: CategoryPag
   }
 
   // Fetch posts
-  const allPosts = await getCategoryPosts(category, locale);
+  let allPosts: Awaited<ReturnType<typeof getCategoryPosts>>;
+  try {
+    allPosts = await getCategoryPosts(category, locale);
+  } catch (err) {
+    console.error(`Category page error (category=${category}, locale=${locale}):`, err);
+    allPosts = [];
+  }
   const totalPages = Math.ceil(allPosts.length / POSTS_PER_PAGE);
 
   // Paginate

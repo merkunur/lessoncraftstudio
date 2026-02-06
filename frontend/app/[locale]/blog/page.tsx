@@ -139,10 +139,18 @@ export default async function BlogPage({ params, searchParams }: BlogPageProps) 
   const currentPage = parseInt(searchParams.page || '1', 10);
 
   // Fetch blog posts and categories server-side (cached via ISR)
-  const [initialPosts, initialCategories] = await Promise.all([
-    getBlogPostsForLocale(params.locale),
-    Promise.resolve(getBlogCategoriesForLocale(params.locale))
-  ]);
+  let initialPosts: Awaited<ReturnType<typeof getBlogPostsForLocale>>;
+  let initialCategories: ReturnType<typeof getBlogCategoriesForLocale>;
+  try {
+    [initialPosts, initialCategories] = await Promise.all([
+      getBlogPostsForLocale(params.locale),
+      Promise.resolve(getBlogCategoriesForLocale(params.locale))
+    ]);
+  } catch (err) {
+    console.error(`Blog index error (locale=${params.locale}):`, err);
+    initialPosts = [];
+    initialCategories = [];
+  }
 
   const totalPages = Math.ceil(initialPosts.length / POSTS_PER_PAGE);
 

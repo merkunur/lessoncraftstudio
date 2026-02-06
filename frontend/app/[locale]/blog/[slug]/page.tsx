@@ -390,7 +390,14 @@ export default async function BlogPostPage({
   params
 }: BlogPostPageProps) {
   const { locale, slug } = params;
-  const post = await getBlogPost(slug, locale);
+
+  let post: BlogPost | null;
+  try {
+    post = await getBlogPost(slug, locale);
+  } catch (err) {
+    console.error(`Blog post page error (slug=${slug}, locale=${locale}):`, err);
+    notFound();
+  }
 
   if (!post) {
     // Post not found for this locale - check if slug exists in another language
@@ -406,7 +413,13 @@ export default async function BlogPostPage({
   }
 
   // Get related posts (with cross-category keyword overlap)
-  const relatedPosts = await getRelatedPosts(post.slug, post.category, post.keywords || []);
+  let relatedPosts: any[];
+  try {
+    relatedPosts = await getRelatedPosts(post.slug, post.category, post.keywords || []);
+  } catch (err) {
+    console.error(`Related posts error (slug=${slug}):`, err);
+    relatedPosts = [];
+  }
 
   const translations = post.translations as any;
   const translation = translations[locale] || translations['en'] || {};

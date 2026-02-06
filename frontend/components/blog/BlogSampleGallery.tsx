@@ -7,7 +7,8 @@
  */
 
 import Link from 'next/link';
-import { getHreflangCode } from '@/lib/schema-generator';
+import { generateImageObjectSchema } from '@/lib/schema-generator';
+import { generateSchemaDescription } from '@/lib/blog-schema-utils';
 
 interface BlogSampleItem {
   worksheetSrc: string;
@@ -95,31 +96,9 @@ const ALT_TEXT_TEMPLATES: Record<string, string> = {
   fi: '{appName} \u2014 ilmainen tulostettava teht\u00e4v\u00e4',
 };
 
-const SCHEMA_DESCRIPTION: Record<string, { withKeyword: string; withoutKeyword: string }> = {
-  en: { withKeyword: '{keyword} - {appName} worksheet sample', withoutKeyword: '{appName} - free printable worksheet sample' },
-  de: { withKeyword: '{keyword} - {appName} Arbeitsblatt-Beispiel', withoutKeyword: '{appName} - kostenloses druckbares Arbeitsblatt' },
-  fr: { withKeyword: '{keyword} - {appName} exemple de fiche', withoutKeyword: '{appName} - fiche imprimable gratuite' },
-  es: { withKeyword: '{keyword} - {appName} ejemplo de ficha', withoutKeyword: '{appName} - ficha imprimible gratuita' },
-  pt: { withKeyword: '{keyword} - {appName} exemplo de ficha', withoutKeyword: '{appName} - ficha imprim\u00edvel gratuita' },
-  it: { withKeyword: '{keyword} - {appName} esempio di scheda', withoutKeyword: '{appName} - scheda stampabile gratuita' },
-  nl: { withKeyword: '{keyword} - {appName} werkblad-voorbeeld', withoutKeyword: '{appName} - gratis afdrukbaar werkblad' },
-  sv: { withKeyword: '{keyword} - {appName} arbetsbladsexempel', withoutKeyword: '{appName} - gratis utskrivbart arbetsblad' },
-  da: { withKeyword: '{keyword} - {appName} arbejdsark-eksempel', withoutKeyword: '{appName} - gratis udskrivbart arbejdsark' },
-  no: { withKeyword: '{keyword} - {appName} arbeidsark-eksempel', withoutKeyword: '{appName} - gratis utskrivbart arbeidsark' },
-  fi: { withKeyword: '{keyword} - {appName} teht\u00e4v\u00e4esimerkki', withoutKeyword: '{appName} - ilmainen tulostettava teht\u00e4v\u00e4' },
-};
-
 function generateAltText(appName: string, locale: string): string {
   const template = ALT_TEXT_TEMPLATES[locale] || ALT_TEXT_TEMPLATES.en;
   return template.replace('{appName}', appName);
-}
-
-function generateSchemaDescription(appName: string, locale: string, focusKeyword?: string): string {
-  const templates = SCHEMA_DESCRIPTION[locale] || SCHEMA_DESCRIPTION.en;
-  if (focusKeyword) {
-    return templates.withKeyword.replace('{keyword}', focusKeyword).replace('{appName}', appName);
-  }
-  return templates.withoutKeyword.replace('{appName}', appName);
 }
 
 export default function BlogSampleGallery({
@@ -140,36 +119,40 @@ export default function BlogSampleGallery({
 
   return (
     <>
-      {/* ImageObject JSON-LD schemas */}
+      {/* ImageObject JSON-LD schemas - enriched with 25+ properties via generateImageObjectSchema */}
       {samples.map((sample, index) => {
-        const schema = {
-          '@context': 'https://schema.org',
-          '@type': 'ImageObject',
-          '@id': `${baseUrl}${sample.worksheetSrc}#imageobject`,
+        const blogPageUrl = `${baseUrl}/${locale}/blog/${blogSlug}`;
+        const imageData = {
+          src: sample.worksheetSrc,
           name: `${sample.productName} - ${sampleLabel} ${index + 1}`,
-          caption: `${sampleLabel} - ${sample.productName}`,
-          contentUrl: `${baseUrl}${sample.worksheetSrc}`,
-          thumbnailUrl: `${baseUrl}${sample.thumbSrc}`,
           description: generateSchemaDescription(sample.productName, locale, focusKeyword),
+          caption: `${sampleLabel} - ${sample.productName}`,
           width: 2480,
           height: 3508,
-          encodingFormat: 'image/jpeg',
+          thumbnailSrc: sample.thumbSrc,
+        };
+        const baseSchema = generateImageObjectSchema(imageData, blogPageUrl, baseUrl, locale, index, false);
+        // Override @id to use consistent #imageobject pattern for blog posts
+        const schema = {
+          ...baseSchema,
+          '@id': `${baseUrl}${sample.worksheetSrc}#imageobject`,
+          representativeOfPage: false,
+          // Point to BlogPosting instead of WebPage
+          associatedArticle: {
+            '@type': 'BlogPosting',
+            '@id': `${blogPageUrl}#article`,
+          },
+          isPartOf: {
+            '@type': 'BlogPosting',
+            '@id': `${blogPageUrl}#article`,
+          },
+          // Add thumbnail object for richer data
           thumbnail: {
             '@type': 'ImageObject',
             contentUrl: `${baseUrl}${sample.thumbSrc}`,
             encodingFormat: 'image/webp',
             width: 400,
             height: 566,
-          },
-          inLanguage: getHreflangCode(locale),
-          representativeOfPage: false,
-          isPartOf: {
-            '@type': 'BlogPosting',
-            '@id': `${baseUrl}/${locale}/blog/${blogSlug}#article`,
-          },
-          creator: {
-            '@type': 'Organization',
-            name: 'LessonCraftStudio',
           },
         };
         return (

@@ -29,7 +29,7 @@ interface BlogPostData {
   updatedAt: Date;
 }
 
-export function generateBlogSchemas(post: BlogPostData, locale: string, baseUrl: string = getBaseUrl()) {
+export function generateBlogSchemas(post: BlogPostData, locale: string, baseUrl: string = getBaseUrl(), sampleImageUrls?: string[]) {
   const schemas: any[] = [];
 
   // Localized breadcrumb labels for blog schema
@@ -146,7 +146,7 @@ export function generateBlogSchemas(post: BlogPostData, locale: string, baseUrl:
 
   // 3. Educational Content Schema (LearningResource)
   // This is CRITICAL for educational websites
-  const educationalSchema = {
+  const educationalSchema: any = {
     "@context": "https://schema.org",
     "@type": "LearningResource",
     "name": title,
@@ -165,7 +165,10 @@ export function generateBlogSchemas(post: BlogPostData, locale: string, baseUrl:
     "typicalAgeRange": "6-12",
     "url": postUrl,
     "dateCreated": post.createdAt.toISOString(),
-    "dateModified": post.updatedAt.toISOString()
+    "dateModified": post.updatedAt.toISOString(),
+    ...(sampleImageUrls && sampleImageUrls.length > 0 && {
+      "image": sampleImageUrls.map(url => `${baseUrl}${url}`)
+    })
   };
 
   schemas.push(educationalSchema);
@@ -801,6 +804,7 @@ export interface SampleImageData {
   thumbnailSrc?: string;
   grade?: string;          // Grade level for educational alignment
   appType?: string;        // Type of worksheet app (math, language, etc.)
+  imageId?: string;        // Custom @id for cross-referencing (blog posts use #imageobject)
 }
 
 /**
@@ -914,7 +918,7 @@ export function generateImageGallerySchema(
     "inLanguage": getHreflangCode(locale),
     "image": images.map((img, i) => ({
       "@type": "ImageObject",
-      "@id": `${pageUrl}#image-${i}`,
+      "@id": img.imageId || `${pageUrl}#image-${i}`,
       "contentUrl": `${baseUrl}${img.src.replace(/ /g, '%20')}`,
       "name": img.name,
       "caption": img.caption,

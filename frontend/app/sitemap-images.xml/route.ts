@@ -1,6 +1,10 @@
 import { productPageSlugs } from '@/config/product-page-slugs';
+import type { SupportedLocale } from '@/config/product-page-slugs';
 import { prisma } from '@/lib/prisma';
 import { generateLocalizedTitle, generateLocalizedCaption, generateLocalizedAnswerKeyTitle, generateLocalizedAnswerKeyCaption } from '@/lib/localized-seo-templates';
+import { getBlogSampleApps } from '@/lib/blog-topic-clusters';
+import { discoverSamplesFromFilesystem, normalizeAppIdForSamples } from '@/lib/sample-utils';
+import { generateSchemaDescription } from '@/lib/blog-schema-utils';
 import fs from 'fs/promises';
 import path from 'path';
 
@@ -412,6 +416,82 @@ export async function GET() {
         }
       }
     }
+  }
+
+  // ── Blog post sample images ──
+  // Add sample images shown on blog posts to the image sitemap
+  try {
+    const blogPosts = await prisma.blogPost.findMany({
+      where: { status: 'published' },
+      select: {
+        slug: true,
+        translations: true,
+        keywords: true,
+        category: true,
+        updatedAt: true,
+      }
+    });
+
+    const supportedLocales = Object.keys(localeToFolder);
+
+    for (const post of blogPosts) {
+      const translations = post.translations as Record<string, any>;
+
+      for (const locale of supportedLocales) {
+        const translation = translations[locale];
+        if (!translation?.slug && !translation?.title) continue;
+
+        const localeSlug = translation.slug || post.slug;
+        const blogPageUrl = `${baseUrl}/${locale}/blog/${localeSlug}`;
+        const licenseUrl = `${baseUrl}/${locale}/terms`;
+
+        // Match blog post to sample apps (same logic as page.tsx)
+        const enTitle = (translations['en']?.title as string) || translation.title || '';
+        const sampleApps = getBlogSampleApps(
+          enTitle,
+          post.slug,
+          translation.focusKeyword,
+          locale as SupportedLocale,
+          3
+        );
+
+        const blogImageLines: string[] = [];
+
+        for (const app of sampleApps) {
+          const normalizedId = normalizeAppIdForSamples(app.appId);
+          const discovered = await discoverSamplesFromFilesystem(normalizedId, locale);
+          if (discovered.length === 0) continue;
+
+          // Deterministic sample selection (same hash as page.tsx)
+          let hash = 0;
+          const key = localeSlug + app.appId;
+          for (let i = 0; i < key.length; i++) {
+            hash = ((hash << 5) - hash + key.charCodeAt(i)) | 0;
+          }
+          const idx = Math.abs(hash) % discovered.length;
+          const sample = discovered[idx];
+          const sampleUrl = `${baseUrl}${sample.worksheetSrc.replace(/ /g, '%20')}`;
+          const imgTitle = generateSchemaDescription(app.productName, locale, translation.focusKeyword);
+          const imgCaption = `${app.productName} - worksheet sample`;
+
+          blogImageLines.push(`    <image:image>`);
+          blogImageLines.push(`      <image:loc>${escapeXml(sampleUrl)}</image:loc>`);
+          blogImageLines.push(`      <image:title>${escapeXml(imgTitle)}</image:title>`);
+          blogImageLines.push(`      <image:caption>${escapeXml(imgCaption)}</image:caption>`);
+          blogImageLines.push(`      <image:license>${escapeXml(licenseUrl)}</image:license>`);
+          blogImageLines.push(`    </image:image>`);
+        }
+
+        if (blogImageLines.length > 0) {
+          const lastmod = post.updatedAt
+            ? `\n    <lastmod>${post.updatedAt.toISOString().split('T')[0]}</lastmod>`
+            : '';
+          urls += `  <url>\n    <loc>${escapeXml(blogPageUrl)}</loc>${lastmod}\n${blogImageLines.join('\n')}\n  </url>\n`;
+        }
+      }
+    }
+  } catch (error) {
+    console.warn('[IMAGE-SITEMAP] Could not generate blog sample image entries:', error);
   }
 
   const xml = `<?xml version="1.0" encoding="UTF-8"?>

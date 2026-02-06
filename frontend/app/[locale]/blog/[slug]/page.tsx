@@ -13,6 +13,7 @@ import { discoverSamplesFromFilesystem, normalizeAppIdForSamples } from '@/lib/s
 import { getBlogSampleApps } from '@/lib/blog-topic-clusters';
 import { transformBlogLinks, injectInternalLinks } from '@/lib/blog-link-transformer';
 import { injectBlogLinks } from '@/lib/blog-internal-links';
+import { generateSchemaDescription } from '@/lib/blog-schema-utils';
 import type { SupportedLocale } from '@/config/product-page-slugs';
 
 // Enable ISR - revalidate every 30 minutes (reduced from 1 hour for faster updates)
@@ -543,6 +544,8 @@ export default async function BlogPostPage({
   const hasBlogSamples = blogSamples.length > 0;
 
   // Generate SEO Schema Markup (AUTOMATED)
+  // Pass sample image URLs to enrich LearningResource schema with image references
+  const sampleImageUrls = hasBlogSamples ? blogSamples.map(s => s.worksheetSrc) : undefined;
   const schemas = generateBlogSchemas({
     slug: localeSlug,
     title: translation.title || '',
@@ -557,7 +560,7 @@ export default async function BlogPostPage({
     author: translation.author,
     createdAt: post.createdAt,
     updatedAt: post.updatedAt
-  }, locale);
+  }, locale, undefined, sampleImageUrls);
 
   // SEO FIX: Expand BlogPosting image field to include gallery samples as @id references
   // This cross-references the BlogPosting schema with the standalone ImageObject schemas
@@ -587,11 +590,12 @@ export default async function BlogPostPage({
     const galleryImages = blogSamples.map(s => ({
       src: s.worksheetSrc,
       name: s.productName,
-      description: s.productName,
+      description: generateSchemaDescription(s.productName, locale, translation.focusKeyword),
       caption: s.productName,
       width: 2480,
       height: 3508,
       thumbnailSrc: s.thumbSrc,
+      imageId: `${baseUrl}${s.worksheetSrc}#imageobject`,
     }));
     const gallerySchema = generateImageGallerySchema(
       galleryImages,
@@ -1239,6 +1243,35 @@ export async function generateMetadata({ params }: BlogPostPageProps) {
     const localeSlug = translation.slug || post.slug;
     const canonicalUrl = `${baseUrl}/${locale}/blog/${localeSlug}`;
 
+    // Discover sample images for og:image enrichment
+    const enTitle = (translations['en']?.title as string) || translation.title || '';
+    const metaSampleApps = getBlogSampleApps(
+      enTitle,
+      post.slug,
+      translation.focusKeyword,
+      locale as SupportedLocale,
+      3
+    );
+    const sampleOgImages: Array<{ url: string; alt: string }> = [];
+    for (const app of metaSampleApps) {
+      const normalizedId = normalizeAppIdForSamples(app.appId);
+      const discovered = await discoverSamplesFromFilesystem(normalizedId, locale);
+      if (discovered.length > 0) {
+        let hash = 0;
+        const key = localeSlug + app.appId;
+        for (let i = 0; i < key.length; i++) {
+          hash = ((hash << 5) - hash + key.charCodeAt(i)) | 0;
+        }
+        const idx = Math.abs(hash) % discovered.length;
+        const sample = discovered[idx];
+        const thumbSrc = sample.worksheetSrc.replace(/\.(jpeg|jpg)$/i, '_thumb.webp');
+        sampleOgImages.push({
+          url: `${baseUrl}${thumbSrc}`,
+          alt: `${app.productName} - worksheet sample`,
+        });
+      }
+    }
+
     // Generate hreflang alternates for all available translations
     // This ensures proper bidirectional linking as required by Google
     // Blog posts ARE translations (shared database record, same metadata)
@@ -1257,6 +1290,21 @@ export async function generateMetadata({ params }: BlogPostPageProps) {
     }
     // Add x-default pointing to English version
     languageAlternates['x-default'] = `${baseUrl}/en/blog/${translations['en']?.slug || post.slug}`;
+
+    // Build og:image array: featured image first, then sample thumbnails
+    const ogImages = [
+      ...(post.featuredImage ? [{
+        url: `${baseUrl}${post.featuredImage}`,
+        alt: translation.featuredImageAlt || generateAltText(title, focusKeyword, post.category, 'featured')
+      }] : []),
+      ...sampleOgImages,
+    ];
+
+    // Build twitter:images array
+    const twitterImages = [
+      ...(post.featuredImage ? [`${baseUrl}${post.featuredImage}`] : []),
+      ...sampleOgImages.map(img => img.url),
+    ];
 
     return {
       title,
@@ -1282,17 +1330,14 @@ export async function generateMetadata({ params }: BlogPostPageProps) {
         authors: [translation.author || 'LessonCraftStudio'],
         section: post.category || 'Education',
         tags: post.keywords || [],
-        images: post.featuredImage ? [{
-          url: `${baseUrl}${post.featuredImage}`,
-          alt: translation.featuredImageAlt || generateAltText(title, focusKeyword, post.category, 'featured')
-        }] : [],
+        images: ogImages,
       },
       // AUTOMATED: Twitter Card tags
       twitter: {
         card: 'summary_large_image',
         title: ogTitle,
         description,
-        images: post.featuredImage ? [`${baseUrl}${post.featuredImage}`] : [],
+        images: twitterImages,
         creator: '@LessonCraftStudio', // TODO: Replace with actual Twitter handle
       },
       // AUTOMATED: Robots directives

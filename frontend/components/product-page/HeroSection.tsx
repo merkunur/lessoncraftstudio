@@ -87,10 +87,7 @@ function CollapsibleText({
 
   return (
     <div className="relative">
-      <div
-        className="overflow-hidden transition-[max-height] duration-300 ease-in-out"
-        style={{ maxHeight: isExpanded ? '1000px' : '6em' }}
-      >
+      <div>
         <p className="text-lg sm:text-xl leading-relaxed text-white/80">
           {isExpanded ? text : shortText + (shouldTruncate ? '...' : '')}
         </p>

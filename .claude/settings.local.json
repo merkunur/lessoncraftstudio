@@ -263,7 +263,21 @@
       "WebFetch(domain:developers.google.com)",
       "WebFetch(domain:github.com)",
       "WebFetch(domain:raw.githubusercontent.com)",
-      "WebFetch(domain:techolyze.com)"
+      "WebFetch(domain:techolyze.com)",
+      "WebFetch(domain:www.ryanmr.com)",
+      "WebFetch(domain:www.cyberciti.biz)",
+      "WebFetch(domain:www.gnu.org)",
+      "WebFetch(domain:www.man7.org)",
+      "WebFetch(domain:www.simplepinmedia.com)",
+      "WebFetch(domain:www.webfx.com)",
+      "WebFetch(domain:heatherfarris.com)",
+      "WebFetch(domain:adbacklog.com)",
+      "WebFetch(domain:fatstacksblog.com)",
+      "WebFetch(domain:business.pinterest.com)",
+      "WebFetch(domain:www.makeitbloom.com)",
+      "WebFetch(domain:search.google.com)",
+      "WebFetch(domain:www.googleapis.com)",
+      "WebFetch(domain:pagespeed.web.dev)"
     ],
     "deny": [],
     "ask": []

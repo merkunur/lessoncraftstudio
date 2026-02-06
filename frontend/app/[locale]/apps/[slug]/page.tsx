@@ -8,6 +8,7 @@ import { generateAppProductSchemas, generateAllProductPageSchemas, AppProductDat
 import { getSampleSeoMetadataMap, SampleSeoMetadata } from '@/lib/sample-seo';
 import { getRelatedBlogPostsForProduct } from '@/lib/blog-data';
 import { getKeywordsForApp } from '@/lib/internal-linking';
+import { generateLocalizedTitle, generateLocalizedCaption, generateLocalizedAltText, generateLocalizedAnswerKeyTitle, generateLocalizedAnswerKeyCaption } from '@/lib/localized-seo-templates';
 import type { SupportedLocale } from '@/config/product-page-slugs';
 import {
   type DiscoveredSample,
@@ -332,11 +333,12 @@ function SchemaScripts({
     const pathParts = sample.worksheetSrc?.split('/') || [];
     const filename = pathParts[pathParts.length - 1] || sample.filename;
     const dbMeta = sampleSeoMap?.get(filename);
+    const num = index + 1;
 
-    // Use database SEO values if available, fall back to static content or generate defaults
-    const name = dbMeta?.title || sample.imageTitle || sample.altText?.split(' - ')[0] || `${appData.name} Worksheet ${index + 1}`;
-    const description = dbMeta?.altText || sample.altText || `Sample worksheet for ${appData.name}`;
-    const caption = dbMeta?.description || `Free printable ${appData.name.toLowerCase()} for educational use`;
+    // Use database SEO values if available, fall back to localized defaults
+    const name = dbMeta?.title || sample.imageTitle || generateLocalizedTitle(appData.name, locale, num);
+    const description = dbMeta?.altText || sample.altText || generateLocalizedAltText(appData.name, locale, num);
+    const caption = dbMeta?.description || generateLocalizedCaption(appData.name, locale, num);
 
     return {
       src: sample.worksheetSrc,
@@ -350,6 +352,27 @@ function SchemaScripts({
     };
   });
 
+  // Build answer key images from samples that have answerKeySrc
+  const answerKeyImages = samplesSource
+    .map((sample: any, index: number) => {
+      const akSrc = sample.answerKeySrc || sample.answerKeyPath;
+      if (!akSrc) return null;
+      const num = index + 1;
+      return {
+        src: akSrc,
+        name: generateLocalizedAnswerKeyTitle(appData.name, locale, num),
+        description: generateLocalizedAnswerKeyCaption(appData.name, locale, num),
+        caption: generateLocalizedAnswerKeyCaption(appData.name, locale, num),
+        thumbnailSrc: akSrc.replace(/\.(jpeg|jpg|png)$/i, '_thumb.webp'),
+        width: 2480,
+        height: 3508,
+      };
+    })
+    .filter(Boolean);
+
+  // Combine worksheet images + answer key images for full schema coverage
+  const allSampleImages = [...sampleImages, ...answerKeyImages];
+
   // Gallery name for ImageGallery schema - fallback ensures schema is always generated
   const galleryName = content?.samples?.sectionTitle || `${appData.name} Worksheet Samples`;
 
@@ -360,7 +383,7 @@ function SchemaScripts({
     pageUrl,
     faqs,
     howTo,
-    sampleImages,
+    allSampleImages,
     baseUrl,
     galleryName
   );
@@ -397,21 +420,23 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     let ogImages: Array<{ url: string; width: number; height: number; alt: string }>;
 
     if (metaDiscoveredSamples.length > 0) {
-      // Use discovered filesystem samples (covers most product pages)
-      ogImages = metaDiscoveredSamples.slice(0, 3).map((sample, index) => ({
-        url: `https://www.lessoncraftstudio.com${sample.worksheetSrc.replace(/ /g, '%20')}`,
-        width: content.seo?.images?.[index]?.width || 2480,
-        height: content.seo?.images?.[index]?.height || 3508,
+      // Use first discovered sample's preview WebP for faster social scraper loading
+      const previewSrc = metaDiscoveredSamples[0].worksheetSrc.replace(/\.(jpeg|jpg|png)$/i, '_preview.webp');
+      ogImages = [{
+        url: `https://www.lessoncraftstudio.com${previewSrc.replace(/ /g, '%20')}`,
+        width: 800,
+        height: 1131,
         alt: content.hero?.title || seoTitle,
-      }));
+      }];
     } else if (content.samples?.items?.length) {
-      // Fallback to content file items
-      ogImages = content.samples.items.slice(0, 3).map((item: any, index: number) => ({
-        url: `https://www.lessoncraftstudio.com${item.worksheetSrc.replace(/ /g, '%20')}`,
-        width: content.seo?.images?.[index]?.width || 2480,
-        height: content.seo?.images?.[index]?.height || 3508,
-        alt: item.imageTitle || item.altText || content.hero?.title || seoTitle,
-      }));
+      // Fallback to first content file item's preview
+      const previewSrc = content.samples.items[0].worksheetSrc.replace(/\.(jpeg|jpg|png)$/i, '_preview.webp');
+      ogImages = [{
+        url: `https://www.lessoncraftstudio.com${previewSrc.replace(/ /g, '%20')}`,
+        width: 800,
+        height: 1131,
+        alt: content.samples.items[0].imageTitle || content.hero?.title || seoTitle,
+      }];
     } else {
       // Final fallback: hero preview or generic
       const fallbackOgImage = content.hero?.previewImageSrc
@@ -3571,14 +3596,25 @@ export default async function AppPage({ params: { locale, slug } }: PageProps) {
     'writing-worksheets': { content: writingEnContent, appId: 'writing-app' },
   };
 
-  // Handle legacy English fallbacks with RelatedBlogPosts for SEO
+  // Handle legacy English fallbacks with RelatedBlogPosts and SchemaScripts for SEO
   if (locale === 'en' && legacyEnglishContent[slug]) {
     const { content: legacyContent, appId } = legacyEnglishContent[slug];
     const legacyDiscoveredSamples = await discoverSamplesFromFilesystem(appId, locale);
+    const legacySeoMap = await getSampleSeoMetadataMap(appId, locale);
     const appKeywords = getKeywordsForApp(appId);
     const relatedBlogPosts = await getRelatedBlogPostsForProduct(appKeywords, locale, 3);
+
+    // Build schema app data from legacy content
+    const legacySchemaAppData: AppProductData = {
+      appId,
+      name: legacyContent.seo?.title || legacyContent.hero?.title || slug,
+      description: legacyContent.seo?.description || legacyContent.hero?.subtitle || '',
+      category: 'Worksheet Generator'
+    };
+
     return (
       <>
+        <SchemaScripts appData={legacySchemaAppData} locale={locale} slug={slug} content={legacyContent} sampleSeoMap={legacySeoMap} discoveredSamples={legacyDiscoveredSamples} />
         <ProductPageClient locale={locale} content={legacyContent} slug={slug} discoveredSamples={legacyDiscoveredSamples} />
         <RelatedBlogPosts locale={locale as SupportedLocale} posts={relatedBlogPosts} />
       </>

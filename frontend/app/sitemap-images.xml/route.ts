@@ -1,5 +1,6 @@
 import { productPageSlugs } from '@/config/product-page-slugs';
 import { prisma } from '@/lib/prisma';
+import { generateLocalizedTitle, generateLocalizedCaption, generateLocalizedAnswerKeyTitle, generateLocalizedAnswerKeyCaption } from '@/lib/localized-seo-templates';
 import fs from 'fs/promises';
 import path from 'path';
 
@@ -125,20 +126,20 @@ const localeToLanguageName: Record<string, string> = {
 
 /**
  * Generate SEO-friendly title when database/content title is not available
+ * Uses shared localized templates for proper per-locale titles
  */
 function generateDefaultTitle(appId: string, locale: string, index: number): string {
   const appName = appIdToDisplayName[appId] || appId.replace(/-/g, ' ');
-  const languageName = localeToLanguageName[locale] || 'English';
-  return `${appName} Worksheet ${index + 1} - ${languageName}`;
+  return generateLocalizedTitle(appName, locale, index + 1);
 }
 
 /**
  * Generate SEO-friendly caption when database/content caption is not available
+ * Uses shared localized templates for proper per-locale captions
  */
 function generateDefaultCaption(appId: string, locale: string, index: number): string {
   const appName = appIdToDisplayName[appId] || appId.replace(/-/g, ' ');
-  const languageName = localeToLanguageName[locale] || 'English';
-  return `Free printable ${appName.toLowerCase()} worksheet ${index + 1} for elementary students - ${languageName} educational resource`;
+  return generateLocalizedCaption(appName, locale, index + 1);
 }
 
 // Interface for discovered sample
@@ -386,9 +387,9 @@ export async function GET() {
               const appName = appIdToDisplayName[app.appId] || app.appId.replace(/-/g, ' ');
               const akTitle = akSeoMeta?.title
                 ? `${akSeoMeta.title} - Answer Key`
-                : `${appName} Worksheet ${index + 1} - Answer Key`;
+                : generateLocalizedAnswerKeyTitle(appName, locale, index + 1);
               const akCaption = akSeoMeta?.description || akSeoMeta?.altText
-                || `Answer key for ${appName.toLowerCase()} worksheet ${index + 1}`;
+                || generateLocalizedAnswerKeyCaption(appName, locale, index + 1);
 
               lines.push(`    <image:image>`);
               lines.push(`      <image:loc>${escapeXml(akUrl)}</image:loc>`);

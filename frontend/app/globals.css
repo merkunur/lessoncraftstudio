@@ -235,6 +235,35 @@
   .badge-float { animation: badgeFloat 3s ease-in-out infinite; }
   .badge-float-down { animation: badgeFloatDown 4s ease-in-out infinite; }
 
+  /* Sample gallery entrance animations — CSS-only replacements for Framer Motion initial={{ opacity: 0 }} */
+  @keyframes galleryFadeInUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  @keyframes galleryFadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  @keyframes galleryFadeInScale {
+    from { opacity: 0; transform: scale(0.9); }
+    to { opacity: 1; transform: scale(1); }
+  }
+  .gallery-fade-in-up {
+    animation: galleryFadeInUp 0.6s ease-out both;
+  }
+  .gallery-fade-in {
+    animation: galleryFadeIn 0.5s ease-out both;
+  }
+  .gallery-fade-in-scale {
+    animation: galleryFadeInScale 0.5s ease-out both;
+  }
+  .gallery-fade-in-up-delay {
+    animation: galleryFadeInUp 0.7s ease-out 0.2s both;
+  }
+  .gallery-fade-in-up-delay-2 {
+    animation: galleryFadeInUp 0.6s ease-out 0.35s both;
+  }
+
   /* Reveal animation for scroll-triggered sections */
   @keyframes revealUp {
     from { opacity: 0; transform: translateY(30px); }

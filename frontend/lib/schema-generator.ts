@@ -812,7 +812,9 @@ export function generateImageObjectSchema(
   image: SampleImageData,
   pageUrl: string,
   baseUrl: string = getBaseUrl(),
-  locale: string = 'en'
+  locale: string = 'en',
+  index: number = 0,
+  isRepresentative: boolean = false
 ) {
   // Encode URL properly for spaces
   const encodedSrc = image.src.replace(/ /g, '%20');
@@ -838,6 +840,9 @@ export function generateImageObjectSchema(
   return {
     "@context": "https://schema.org",
     "@type": "ImageObject",
+    "@id": `${pageUrl}#image-${index}`,
+    "inLanguage": getHreflangCode(locale),
+    ...(isRepresentative && { "representativeOfPage": true }),
     "contentUrl": `${baseUrl}${encodedSrc}`,
     "url": pageUrl,
     "name": image.name,
@@ -907,8 +912,9 @@ export function generateImageGallerySchema(
     "url": pageUrl,
     "numberOfItems": images.length,
     "inLanguage": getHreflangCode(locale),
-    "image": images.map(img => ({
+    "image": images.map((img, i) => ({
       "@type": "ImageObject",
+      "@id": `${pageUrl}#image-${i}`,
       "contentUrl": `${baseUrl}${img.src.replace(/ /g, '%20')}`,
       "name": img.name,
       "caption": img.caption,
@@ -1004,8 +1010,8 @@ export function generateAllProductPageSchemas(
 
   // 4. ImageObject schemas for all sample images
   if (sampleImages && sampleImages.length > 0) {
-    for (const image of sampleImages) {
-      schemas.push(generateImageObjectSchema(image, pageUrl, baseUrl, locale));
+    for (let i = 0; i < sampleImages.length; i++) {
+      schemas.push(generateImageObjectSchema(sampleImages[i], pageUrl, baseUrl, locale, i, i === 0));
     }
   }
 

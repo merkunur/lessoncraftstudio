@@ -120,7 +120,10 @@ const LINKABLE_PARENT_TAGS = new Set(['P', 'LI']);
  * - Case-insensitive, Unicode-safe word boundaries
  */
 export function injectInternalLinks(html: string, locale: string): string {
-  const targets = getKeywordLinkTargets(locale as SupportedLocale, 4);
+  // Fetch more candidates than we'll inject (max 4 links) so the matcher
+  // has diverse keywords to find. Dedup keeps 1 keyword per product,
+  // so 15 candidates gives ~15 different products to match against.
+  const targets = getKeywordLinkTargets(locale as SupportedLocale, 15);
   if (targets.length === 0) return html;
 
   const root = parse(html);

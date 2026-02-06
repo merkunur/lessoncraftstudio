@@ -409,8 +409,11 @@ export default function HomepageHero({ locale, heroImages }: HomepageHeroProps) 
 
               {/* Title \u2014 NO animation, must be visible instantly (LCP element) */}
               <h1
-                className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-black leading-[1.1] tracking-tight mb-6 break-words hyphens-auto"
-                style={{ fontFamily: 'var(--font-space-grotesk), system-ui, sans-serif' }}
+                className="text-[clamp(2.25rem,8vw,3rem)] lg:text-[clamp(2rem,3vw,2.5rem)] font-black leading-[1.1] tracking-tight mb-6"
+                style={{
+                  fontFamily: 'var(--font-space-grotesk), system-ui, sans-serif',
+                  hyphens: 'none',
+                }}
                 lang={locale}
               >
                 <span className="text-white">{content.titleLine1}</span>

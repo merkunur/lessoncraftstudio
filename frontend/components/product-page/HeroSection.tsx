@@ -59,12 +59,15 @@ const defaultFloatingStats = {
   quality: '300 DPI',
 };
 
-// Dynamic font sizing based on title length - prevents text cutoff on long titles
+// Dynamic font sizing based on longest word length - prevents mid-word breaking
 const getTitleFontSize = (title: string): string => {
-  const charCount = title.length;
-  if (charCount > 50) return 'clamp(1.75rem, 4vw + 0.5rem, 3.5rem)';
-  if (charCount > 35) return 'clamp(2rem, 4.5vw + 0.75rem, 4rem)';
-  return 'clamp(2.25rem, 5vw + 1rem, 4.5rem)';
+  const longestWordLength = Math.max(
+    ...title.split(/[\s\-\u2013\u2014]+/).map(word => word.length)
+  );
+  if (longestWordLength > 20) return 'clamp(1.75rem, 3.5vw + 0.25rem, 2.75rem)';
+  if (longestWordLength > 15) return 'clamp(2rem, 4vw + 0.5rem, 3.5rem)';
+  if (longestWordLength > 10) return 'clamp(2.25rem, 4.5vw + 0.75rem, 4rem)';
+  return 'clamp(2.5rem, 5vw + 1rem, 4.5rem)';
 };
 
 // Collapsible text component \u2014 CSS transition instead of AnimatePresence
@@ -227,11 +230,12 @@ export default function HeroSection({
 
             {/* Main title \u2014 NO animation, must be visible instantly (LCP element) */}
             <h1
-              className="font-black tracking-tight leading-[1.2] mb-8 break-words hyphens-auto"
+              className="font-black tracking-tight leading-[1.2] mb-8"
               style={{
                 fontSize: getTitleFontSize(title),
                 fontFamily: "'Space Grotesk', 'Inter', system-ui, sans-serif",
                 fontWeight: 900,
+                hyphens: 'none',
               }}
               lang={locale}
             >

@@ -4,6 +4,7 @@ import { prisma } from '@/lib/prisma';
 import { requireAdmin } from '@/lib/admin-auth';
 import { normalizeSlug } from '@/lib/slug-utils';
 import { SUPPORTED_LOCALES } from '@/config/locales';
+import { invalidateBlogListingCache } from '@/lib/blog-data';
 
 export const dynamic = 'force-dynamic';
 
@@ -135,6 +136,9 @@ export async function PUT(
       revalidatePath(`/${locale}/blog`);
     }
 
+    // Invalidate in-memory blog listing cache
+    invalidateBlogListingCache();
+
     return NextResponse.json({ post });
   } catch (error) {
     console.error('Failed to update post:', error);
@@ -179,6 +183,9 @@ export async function DELETE(
     await prisma.blogPost.delete({
       where: { slug: params.slug },
     });
+
+    // Invalidate in-memory blog listing cache
+    invalidateBlogListingCache();
 
     return NextResponse.json({ message: 'Post deleted successfully' });
   } catch (error) {

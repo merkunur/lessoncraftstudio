@@ -152,7 +152,12 @@ export default async function BlogPage({ params, searchParams }: BlogPageProps) 
     initialCategories = [];
   }
 
-  const totalPages = Math.ceil(initialPosts.length / POSTS_PER_PAGE);
+  const totalPosts = initialPosts.length;
+  const totalPages = Math.ceil(totalPosts / POSTS_PER_PAGE);
+
+  // Server-side pagination: only send current page's posts to client
+  const startIndex = (currentPage - 1) * POSTS_PER_PAGE;
+  const paginatedPosts = initialPosts.slice(startIndex, startIndex + POSTS_PER_PAGE);
 
   // Localized breadcrumb labels
   const breadcrumbLabels: Record<string, string> = {
@@ -270,10 +275,11 @@ export default async function BlogPage({ params, searchParams }: BlogPageProps) 
       <BlogPageClient
         locale={params.locale}
         translations={translations}
-        initialPosts={initialPosts}
+        initialPosts={paginatedPosts}
         initialCategories={initialCategories}
         initialPage={currentPage}
         totalPages={totalPages}
+        totalPosts={totalPosts}
       />
 
       {/* Server-rendered article index for SEO crawlability - ensures every blog post

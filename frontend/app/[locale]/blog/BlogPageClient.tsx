@@ -1,8 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
 import Link from 'next/link';
-import { useRouter, useSearchParams } from 'next/navigation';
 
 // Blog post metadata interface
 interface BlogPost {
@@ -63,12 +61,13 @@ interface BlogPageClientProps {
       noSpam: string;
     };
   };
-  // Server-provided initial data for instant loading
+  // Server-provided pre-paginated data
   initialPosts: BlogPost[];
   initialCategories: Array<{id: string; label: string}>;
-  // URL-based pagination
+  // Server-computed pagination
   initialPage: number;
   totalPages: number;
+  totalPosts: number;
 }
 
 const POSTS_PER_PAGE = 12;
@@ -79,95 +78,18 @@ export default function BlogPageClient({
   initialPosts,
   initialCategories,
   initialPage,
-  totalPages: serverTotalPages
+  totalPages,
+  totalPosts
 }: BlogPageClientProps) {
-  const router = useRouter();
-  const searchParams = useSearchParams();
+  const currentPage = initialPage;
 
-  // Build initial category structures from server-provided data
-  const buildCategoryStructures = (cats: Array<{id: string; label: string}>) => {
-    const allCategories = [{ id: 'all', label: t.categories.all }, ...cats];
-    const map: Record<string, string> = {};
-    const idToLabel: Record<string, string> = {};
-    allCategories.forEach(cat => {
-      map[cat.label] = cat.id;
-      idToLabel[cat.id] = cat.label;
-    });
-    return { allCategories, map, idToLabel };
-  };
+  // Build category id-to-label map
+  const categoryIdToLabel: Record<string, string> = {};
+  initialCategories.forEach(cat => {
+    categoryIdToLabel[cat.id] = cat.label;
+  });
 
-  const initialCategoryData = buildCategoryStructures(initialCategories);
-
-  // Initialize state with server-provided data (no loading state needed!)
-  const [blogPosts, setBlogPosts] = useState<BlogPost[]>(initialPosts);
-  const [filteredPosts, setFilteredPosts] = useState<BlogPost[]>(initialPosts);
-  const [selectedCategory, setSelectedCategory] = useState(t.categories.all);
-  const [currentPage, setCurrentPage] = useState(initialPage);
-  const [totalPages, setTotalPages] = useState(serverTotalPages);
-  const [loading, setLoading] = useState(false); // No loading - data is pre-fetched!
-  const [categories, setCategories] = useState<Array<{id: string; label: string}>>(initialCategoryData.allCategories);
-  const [categoryMap, setCategoryMap] = useState<Record<string, string>>(initialCategoryData.map);
-  const [categoryIdToLabel, setCategoryIdToLabel] = useState<Record<string, string>>(initialCategoryData.idToLabel);
-
-  // Sync page from URL on initial load and URL changes
-  useEffect(() => {
-    const pageParam = searchParams.get('page');
-    const page = pageParam ? parseInt(pageParam, 10) : 1;
-    if (page !== currentPage && page >= 1 && page <= totalPages) {
-      setCurrentPage(page);
-    }
-  }, [searchParams, totalPages]);
-
-  // Filter by category
-  useEffect(() => {
-    const categoryId = categoryMap[selectedCategory];
-
-    if (categoryId === 'all' || selectedCategory === t.categories.all) {
-      setFilteredPosts(blogPosts);
-    } else {
-      const filtered = blogPosts.filter(
-        post => post.category === categoryId
-      );
-      setFilteredPosts(filtered);
-    }
-    // Reset to page 1 when category changes and update URL
-    if (currentPage !== 1) {
-      router.push(`/${locale}/blog`, { scroll: false });
-    }
-  }, [selectedCategory, blogPosts, categoryMap, t.categories.all]);
-
-  // Calculate pagination when filtered posts change
-  useEffect(() => {
-    setTotalPages(Math.ceil(filteredPosts.length / POSTS_PER_PAGE));
-  }, [filteredPosts]);
-
-  // Get posts for current page
-  const getPaginatedPosts = () => {
-    const startIndex = (currentPage - 1) * POSTS_PER_PAGE;
-    const endIndex = startIndex + POSTS_PER_PAGE;
-    return filteredPosts.slice(startIndex, endIndex);
-  };
-
-  // Pagination handlers - URL-based for SEO
-  const goToPage = (page: number) => {
-    // Update URL with page parameter (page 1 has no param for cleaner URLs)
-    const url = page === 1 ? `/${locale}/blog` : `/${locale}/blog?page=${page}`;
-    router.push(url, { scroll: false });
-    setCurrentPage(page);
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  };
-
-  const goToPreviousPage = () => {
-    if (currentPage > 1) {
-      goToPage(currentPage - 1);
-    }
-  };
-
-  const goToNextPage = () => {
-    if (currentPage < totalPages) {
-      goToPage(currentPage + 1);
-    }
-  };
+  const allCategories = [{ id: 'all', label: t.categories.all }, ...initialCategories];
 
   // Generate page numbers for pagination
   const getPageNumbers = () => {
@@ -187,6 +109,10 @@ export default function BlogPageClient({
 
     return pages;
   };
+
+  // Calculate display range
+  const rangeStart = ((currentPage - 1) * POSTS_PER_PAGE) + 1;
+  const rangeEnd = Math.min(currentPage * POSTS_PER_PAGE, totalPosts);
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -208,12 +134,12 @@ export default function BlogPageClient({
       <section className="bg-white border-b border-gray-200 sticky top-0 z-10">
         <div className="container mx-auto px-4">
           <nav className="flex items-center gap-4 py-4 overflow-x-auto" aria-label="Blog categories">
-            {categories.map((category) => (
+            {allCategories.map((category) => (
               <Link
                 key={category.id}
                 href={category.id === 'all' ? `/${locale}/blog` : `/${locale}/blog/category/${category.id}`}
                 className={`px-4 py-2 rounded-full text-sm font-medium whitespace-nowrap transition-colors ${
-                  category.label === selectedCategory
+                  category.id === 'all'
                     ? 'bg-primary text-white'
                     : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
                 }`}
@@ -228,13 +154,7 @@ export default function BlogPageClient({
       {/* Blog Posts Grid */}
       <section className="py-12">
         <div className="container mx-auto px-4">
-          {loading ? (
-            // Loading state
-            <div className="text-center py-12">
-              <div className="inline-block animate-spin rounded-full h-12 w-12 border-b-2 border-primary"></div>
-              <p className="mt-4 text-gray-600">{t.loading.message}</p>
-            </div>
-          ) : filteredPosts.length === 0 ? (
+          {initialPosts.length === 0 ? (
             // Empty state
             <div className="text-center py-12">
               <svg
@@ -261,13 +181,12 @@ export default function BlogPageClient({
             <>
               {/* Posts count */}
               <div className="mb-6 text-sm text-gray-600">
-                {t.pagination.showing} {((currentPage - 1) * POSTS_PER_PAGE) + 1}-
-                {Math.min(currentPage * POSTS_PER_PAGE, filteredPosts.length)} {t.pagination.of} {filteredPosts.length} {t.pagination.posts}
+                {t.pagination.showing} {rangeStart}-{rangeEnd} {t.pagination.of} {totalPosts} {t.pagination.posts}
               </div>
 
               {/* Posts grid - matching homepage worksheet sample card styling */}
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
-                {getPaginatedPosts().map((post) => (
+                {initialPosts.map((post) => (
                   <article
                     key={post.slug}
                     className="bg-white rounded-lg shadow-lg overflow-hidden cursor-pointer transform transition-transform duration-300 hover:scale-105 hover:shadow-xl"
@@ -286,11 +205,11 @@ export default function BlogPageClient({
                           <div className="w-full h-full bg-gradient-to-br from-primary-100 to-primary-200 flex items-center justify-center" style={{ minHeight: '200px' }}>
                             {post.hasSampleWorksheets ? (
                               <div className="text-center">
-                                <span className="text-6xl opacity-50">📄</span>
+                                <span className="text-6xl opacity-50">{'\uD83D\uDCC4'}</span>
                                 <p className="text-xs text-primary-600 mt-2 font-medium">{t.postCard.pdfSamples}</p>
                               </div>
                             ) : (
-                              <span className="text-6xl opacity-50">📝</span>
+                              <span className="text-6xl opacity-50">{'\uD83D\uDCDD'}</span>
                             )}
                           </div>
                         )}

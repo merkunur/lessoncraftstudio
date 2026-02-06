@@ -1,19 +1,5 @@
+import { cache } from 'react';
 import { prisma } from './prisma';
-
-/**
- * Calculate reading time based on word count
- * Standard reading speed: 200 words per minute
- * @param htmlContent - HTML content of the blog post
- * @returns Reading time in minutes (minimum 1)
- */
-function calculateReadingTime(htmlContent: string): number {
-  // Strip HTML tags to get plain text
-  const textContent = htmlContent.replace(/<[^>]*>/g, '');
-  // Count words (split by whitespace, filter empty strings)
-  const wordCount = textContent.replace(/\s+/g, ' ').trim().split(' ').filter(word => word.length > 0).length;
-  // Standard reading speed is 200 WPM, minimum 1 minute
-  return Math.max(1, Math.ceil(wordCount / 200));
-}
 
 // Blog post metadata interface (matches BlogPageClient)
 export interface BlogPostMetadata {
@@ -39,8 +25,8 @@ const DEFAULT_CATEGORIES = [
   {
     id: 'teaching-resources',
     translations: {
-      en: 'Teaching Resources', de: 'Unterrichtsmaterialien', fr: 'Ressources pédagogiques',
-      es: 'Recursos didácticos', pt: 'Recursos de ensino', it: 'Risorse didattiche',
+      en: 'Teaching Resources', de: 'Unterrichtsmaterialien', fr: 'Ressources p\u00e9dagogiques',
+      es: 'Recursos did\u00e1cticos', pt: 'Recursos de ensino', it: 'Risorse didattiche',
       nl: 'Onderwijsmiddelen', sv: 'Undervisningsresurser', da: 'Undervisningsressourcer',
       no: 'Undervisningsressurser', fi: 'Opetusresurssit'
     }
@@ -51,14 +37,14 @@ const DEFAULT_CATEGORIES = [
       en: 'Worksheet Tips', de: 'Arbeitsblatt-Tipps', fr: 'Conseils sur les fiches',
       es: 'Consejos de hojas de trabajo', pt: 'Dicas de planilhas', it: 'Suggerimenti per fogli di lavoro',
       nl: 'Werkblad tips', sv: 'Arbetsbladstips', da: 'Arbejdsarkstips',
-      no: 'Arbeidsarktips', fi: 'Työarkkivinkkejä'
+      no: 'Arbeidsarktips', fi: 'Ty\u00f6arkkivinkkej\u00e4'
     }
   },
   {
     id: 'educational-activities',
     translations: {
-      en: 'Educational Activities', de: 'Bildungsaktivitäten', fr: 'Activités éducatives',
-      es: 'Actividades educativas', pt: 'Atividades educacionais', it: 'Attività educative',
+      en: 'Educational Activities', de: 'Bildungsaktivit\u00e4ten', fr: 'Activit\u00e9s \u00e9ducatives',
+      es: 'Actividades educativas', pt: 'Atividades educacionais', it: 'Attivit\u00e0 educative',
       nl: 'Educatieve activiteiten', sv: 'Utbildningsaktiviteter', da: 'Uddannelsesaktiviteter',
       no: 'Utdanningsaktiviteter', fi: 'Koulutustoimintaa'
     }
@@ -66,19 +52,19 @@ const DEFAULT_CATEGORIES = [
   {
     id: 'learning-strategies',
     translations: {
-      en: 'Learning Strategies', de: 'Lernstrategien', fr: "Stratégies d'apprentissage",
-      es: 'Estrategias de aprendizaje', pt: 'Estratégias de aprendizagem', it: 'Strategie di apprendimento',
-      nl: 'Leerstrategieën', sv: 'Inlärningsstrategier', da: 'Læringsstrategier',
-      no: 'Læringsstrategier', fi: 'Oppimisstrategiat'
+      en: 'Learning Strategies', de: 'Lernstrategien', fr: "Strat\u00e9gies d'apprentissage",
+      es: 'Estrategias de aprendizaje', pt: 'Estrat\u00e9gias de aprendizagem', it: 'Strategie di apprendimento',
+      nl: 'Leerstrategieën', sv: 'Inl\u00e4rningsstrategier', da: 'L\u00e6ringsstrategier',
+      no: 'L\u00e6ringsstrategier', fi: 'Oppimisstrategiat'
     }
   },
   {
     id: 'curriculum-guides',
     translations: {
-      en: 'Curriculum Guides', de: 'Lehrplan-Leitfäden', fr: 'Guides du programme',
-      es: 'Guías del currículo', pt: 'Guias de currículo', it: 'Guide del curriculum',
-      nl: 'Curriculumgidsen', sv: 'Läroplansguider', da: 'Læseplansguider',
-      no: 'Læreplansveiledninger', fi: 'Opetussuunnitelmaoppaat'
+      en: 'Curriculum Guides', de: 'Lehrplan-Leitf\u00e4den', fr: 'Guides du programme',
+      es: 'Gu\u00edas del curr\u00edculo', pt: 'Guias de curr\u00edculo', it: 'Guide del curriculum',
+      nl: 'Curriculumgidsen', sv: 'L\u00e4roplansguider', da: 'L\u00e6seplansguider',
+      no: 'L\u00e6replansveiledninger', fi: 'Opetussuunnitelmaoppaat'
     }
   },
   {
@@ -86,7 +72,7 @@ const DEFAULT_CATEGORIES = [
     translations: {
       en: 'Parent Resources', de: 'Elternressourcen', fr: 'Ressources pour les parents',
       es: 'Recursos para padres', pt: 'Recursos para pais', it: 'Risorse per i genitori',
-      nl: 'Ouderhulpmiddelen', sv: 'Föräldraresurser', da: 'Forældreressourcer',
+      nl: 'Ouderhulpmiddelen', sv: 'F\u00f6r\u00e4ldraresurser', da: 'For\u00e6ldreressourcer',
       no: 'Foreldreressurser', fi: 'Vanhempien resurssit'
     }
   },
@@ -94,51 +80,103 @@ const DEFAULT_CATEGORIES = [
     id: 'seasonal-content',
     translations: {
       en: 'Seasonal Content', de: 'Saisonale Inhalte', fr: 'Contenu saisonnier',
-      es: 'Contenido estacional', pt: 'Conteúdo sazonal', it: 'Contenuti stagionali',
-      nl: 'Seizoensgebonden inhoud', sv: 'Säsongsinnehåll', da: 'Sæsonindhold',
-      no: 'Sesonginnhold', fi: 'Kauden sisältö'
+      es: 'Contenido estacional', pt: 'Conte\u00fado sazonal', it: 'Contenuti stagionali',
+      nl: 'Seizoensgebonden inhoud', sv: 'S\u00e4songsinneh\u00e5ll', da: 'S\u00e6sonindhold',
+      no: 'Sesonginnhold', fi: 'Kauden sis\u00e4lt\u00f6'
     }
   }
 ];
 
+// ============================================================
+// In-memory cache for blog listing (persists across requests on VPS/PM2)
+// ============================================================
+const LISTING_CACHE_TTL = 30 * 60 * 1000; // 30 minutes
+const listingCache = new Map<string, { data: BlogPostMetadata[]; timestamp: number }>();
+
 /**
- * Fetch blog posts for a specific locale (server-side)
- * This is used by the blog listing page for ISR
+ * Invalidate the blog listing cache for all locales.
+ * Call this after creating/updating/deleting blog posts via the CMS.
  */
-export async function getBlogPostsForLocale(locale: string): Promise<BlogPostMetadata[]> {
+export function invalidateBlogListingCache() {
+  listingCache.clear();
+}
+
+/**
+ * Estimate reading time from excerpt length (avoids loading full HTML content).
+ * Blog posts in this CMS average 1000-2000 words = 5-10 min read.
+ * Excerpt length loosely correlates with post length.
+ */
+function estimateReadingTime(excerpt: string): number {
+  if (!excerpt || excerpt.length < 50) return 5;
+  if (excerpt.length < 150) return 5;
+  if (excerpt.length < 300) return 7;
+  return 8;
+}
+
+// Raw SQL result type
+interface RawBlogListingRow {
+  slug: string;
+  category: string | null;
+  featured_image: string | null;
+  created_at: Date;
+  pdf_count: number;
+  t_slug: string | null;
+  t_title: string | null;
+  t_excerpt: string | null;
+  t_author: string | null;
+  t_featured_image: string | null;
+}
+
+/**
+ * Fetch blog posts for a specific locale (server-side) - OPTIMIZED
+ *
+ * Optimizations over original:
+ * 1. Raw SQL extracts only 5 small text fields per locale (not entire translations blob)
+ * 2. In-memory cache with 30-min TTL (PM2 long-lived process)
+ * 3. React.cache() deduplicates within same server request
+ * 4. Estimated reading time (no HTML parsing)
+ */
+async function _getBlogPostsForLocale(locale: string): Promise<BlogPostMetadata[]> {
+  // Check in-memory cache first
+  const cached = listingCache.get(locale);
+  if (cached && Date.now() - cached.timestamp < LISTING_CACHE_TTL) {
+    return cached.data;
+  }
+
   try {
-    const dbPosts = await prisma.blogPost.findMany({
-      where: { status: 'published' },
-      include: {
-        _count: {
-          select: { pdfs: true }
-        }
-      },
-      orderBy: { createdAt: 'desc' }
-    });
+    const rows = await prisma.$queryRaw<RawBlogListingRow[]>`
+      SELECT
+        bp.slug,
+        bp.category,
+        bp.featured_image,
+        bp.created_at,
+        (SELECT COUNT(*)::int FROM blog_pdfs WHERE post_id = bp.id) as pdf_count,
+        jsonb_extract_path_text(bp.translations, ${locale}, 'slug') as t_slug,
+        jsonb_extract_path_text(bp.translations, ${locale}, 'title') as t_title,
+        jsonb_extract_path_text(bp.translations, ${locale}, 'excerpt') as t_excerpt,
+        jsonb_extract_path_text(bp.translations, ${locale}, 'author') as t_author,
+        jsonb_extract_path_text(bp.translations, ${locale}, 'featuredImage') as t_featured_image
+      FROM blog_posts bp
+      WHERE bp.status = 'published'
+        AND jsonb_extract_path_text(bp.translations, ${locale}, 'title') IS NOT NULL
+        AND jsonb_extract_path_text(bp.translations, ${locale}, 'content') IS NOT NULL
+      ORDER BY bp.created_at DESC
+    `;
 
-    const posts: BlogPostMetadata[] = dbPosts
-      .filter(post => {
-        const translations = post.translations as any;
-        const translation = translations[locale];
-        return translation && translation.title && translation.content;
-      })
-      .map(post => {
-        const translations = post.translations as any;
-        const translation = translations[locale];
+    const posts: BlogPostMetadata[] = rows.map(row => ({
+      slug: row.t_slug || row.slug,
+      title: row.t_title || row.slug,
+      excerpt: row.t_excerpt || '',
+      author: row.t_author || 'LessonCraftStudio Team',
+      date: new Date(row.created_at).toISOString().split('T')[0],
+      category: row.category || 'teaching-resources',
+      readTime: `${estimateReadingTime(row.t_excerpt || '')} min read`,
+      featuredImage: row.t_featured_image || row.featured_image,
+      hasSampleWorksheets: row.pdf_count > 0
+    }));
 
-        return {
-          slug: translation.slug || post.slug,
-          title: translation.title || post.slug,
-          excerpt: translation.excerpt || '',
-          author: translation.author || 'LessonCraftStudio Team',
-          date: post.createdAt.toISOString().split('T')[0],
-          category: post.category || 'teaching-resources',
-          readTime: `${calculateReadingTime(translation.content || '')} min read`,
-          featuredImage: translation.featuredImage || post.featuredImage,
-          hasSampleWorksheets: post._count.pdfs > 0
-        };
-      });
+    // Store in cache
+    listingCache.set(locale, { data: posts, timestamp: Date.now() });
 
     return posts;
   } catch (error) {
@@ -146,6 +184,10 @@ export async function getBlogPostsForLocale(locale: string): Promise<BlogPostMet
     return [];
   }
 }
+
+// React.cache() wrapper - deduplicates within same server render
+// (generateMetadata + page component share the same request)
+export const getBlogPostsForLocale = cache(_getBlogPostsForLocale);
 
 /**
  * Get blog categories for a specific locale (server-side)

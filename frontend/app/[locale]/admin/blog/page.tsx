@@ -53,12 +53,13 @@ const LANGUAGES = [
 ];
 
 const CATEGORIES = [
-  'worksheet-tips',
   'teaching-resources',
-  'classroom-activities',
-  'educational-games',
-  'math-resources',
-  'language-learning',
+  'worksheet-tips',
+  'educational-activities',
+  'learning-strategies',
+  'curriculum-guides',
+  'parent-resources',
+  'seasonal-content',
 ];
 
 export default function BlogManagerPage() {

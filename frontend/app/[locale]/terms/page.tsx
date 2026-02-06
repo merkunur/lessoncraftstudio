@@ -82,7 +82,7 @@ export default async function TermsPage({
   try {
     recentPosts = await getRecentBlogPosts(locale, 3);
   } catch (err) {
-    // Non-critical - page still renders without blog links
+    console.error(`Failed to fetch blog posts for ${locale} on terms page:`, err);
   }
 
   return (

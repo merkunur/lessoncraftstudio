@@ -77,8 +77,20 @@ async function getBlogLinkTargets(
     // Dutch
     'het', 'een', 'en', 'of', 'maar', 'met', 'van', 'voor', 'op',
     'hoe', 'wat', 'zijn', 'hun', 'uw',
-    // Nordic common
-    'och', 'eller', 'men', 'med', 'av', 'og', 'ja', 'tai',
+    // Swedish
+    'hur', 'kan', 'ska', 'har', 'var', 'att', 'den', 'det', 'som', 'inte',
+    'din', 'era', 'alla', 'denna', 'dessa', 'till', 'ett', 'om',
+    'och', 'eller', 'men', 'med', 'av',
+    // Danish
+    'hun', 'han', 'kan', 'har', 'var', 'det', 'den', 'som', 'ikke',
+    'din', 'alle', 'denne', 'disse', 'til', 'ved', 'fra',
+    // Norwegian
+    'og', 'hun', 'han', 'kan', 'har', 'var', 'det', 'den', 'som', 'ikke',
+    'din', 'alle', 'denne', 'disse', 'til', 'fra', 'ved',
+    // Finnish
+    'ja', 'tai', 'on', 'ei', 'se', 'kun', 'niin', 'ovat', 'oli', 'olla',
+    'kaikki', 'miten', 'miksi', 'miss\u00e4', 'joka', 'oma',
+    'voi', 'pit\u00e4\u00e4', 'sin\u00e4', 'min\u00e4', 'h\u00e4n', 'me', 'he', 'te',
   ]);
 
   for (const post of posts) {

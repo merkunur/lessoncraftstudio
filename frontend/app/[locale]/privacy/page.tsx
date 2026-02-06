@@ -82,7 +82,7 @@ export default async function PrivacyPage({
   try {
     recentPosts = await getRecentBlogPosts(locale, 3);
   } catch (err) {
-    // Non-critical - page still renders without blog links
+    console.error(`Failed to fetch blog posts for ${locale} on privacy page:`, err);
   }
 
   return (

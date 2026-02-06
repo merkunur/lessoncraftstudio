@@ -12,6 +12,7 @@ import BlogSampleGallery from '@/components/blog/BlogSampleGallery';
 import { discoverSamplesFromFilesystem, normalizeAppIdForSamples } from '@/lib/sample-utils';
 import { getBlogSampleApps } from '@/lib/blog-topic-clusters';
 import { transformBlogLinks, injectInternalLinks } from '@/lib/blog-link-transformer';
+import { injectBlogLinks } from '@/lib/blog-internal-links';
 import type { SupportedLocale } from '@/config/product-page-slugs';
 
 // Enable ISR - revalidate every 30 minutes (reduced from 1 hour for faster updates)
@@ -298,13 +299,26 @@ export async function generateStaticParams() {
  * 2. 1 post from different category with keyword overlap (discovery)
  * 3. Fallback to recent posts if needed
  */
+/**
+ * Simple hash function for deterministic rotation based on slug.
+ * Returns a positive integer derived from the input string.
+ */
+function slugHash(str: string): number {
+  let hash = 0;
+  for (let i = 0; i < str.length; i++) {
+    hash = ((hash << 5) - hash + str.charCodeAt(i)) | 0;
+  }
+  return Math.abs(hash);
+}
+
 async function getRelatedPosts(currentSlug: string, category: string, keywords: string[] = [], limit: number = 3) {
   try {
     const relatedPosts: any[] = [];
     const usedSlugs = new Set([currentSlug]);
 
-    // Step 1: Get 2 posts from same category
-    const sameCategoryPosts = await prisma.blogPost.findMany({
+    // Step 1: Get 2 posts from same category using deterministic rotation
+    // Fetch ALL same-category posts, then pick 2 based on slug hash offset
+    const allSameCategoryPosts = await prisma.blogPost.findMany({
       where: {
         status: 'published',
         slug: { not: currentSlug },
@@ -318,24 +332,25 @@ async function getRelatedPosts(currentSlug: string, category: string, keywords: 
         translations: true,
         createdAt: true
       },
-      take: 2,
       orderBy: { createdAt: 'desc' }
     });
 
-    for (const post of sameCategoryPosts) {
-      relatedPosts.push(post);
-      usedSlugs.add(post.slug);
+    if (allSameCategoryPosts.length > 0) {
+      const offset = slugHash(currentSlug) % allSameCategoryPosts.length;
+      for (let i = 0; i < Math.min(2, allSameCategoryPosts.length); i++) {
+        const idx = (offset + i) % allSameCategoryPosts.length;
+        relatedPosts.push(allSameCategoryPosts[idx]);
+        usedSlugs.add(allSameCategoryPosts[idx].slug);
+      }
     }
 
-    // Step 2: Get 1 post from different category with keyword overlap
+    // Step 2: Get 1 post from different category with keyword overlap (rotated)
     if (relatedPosts.length < limit && keywords.length > 0) {
-      // Find posts from other categories that share keywords
-      const crossCategoryPost = await prisma.blogPost.findFirst({
+      const crossCategoryPosts = await prisma.blogPost.findMany({
         where: {
           status: 'published',
           slug: { notIn: Array.from(usedSlugs) },
           category: { not: category },
-          // Match any of the current post's keywords
           keywords: { hasSome: keywords }
         },
         select: {
@@ -346,19 +361,21 @@ async function getRelatedPosts(currentSlug: string, category: string, keywords: 
           translations: true,
           createdAt: true
         },
+        take: 20,
         orderBy: { createdAt: 'desc' }
       });
 
-      if (crossCategoryPost) {
-        relatedPosts.push(crossCategoryPost);
-        usedSlugs.add(crossCategoryPost.slug);
+      if (crossCategoryPosts.length > 0) {
+        const idx = slugHash(currentSlug + 'cross') % crossCategoryPosts.length;
+        relatedPosts.push(crossCategoryPosts[idx]);
+        usedSlugs.add(crossCategoryPosts[idx].slug);
       }
     }
 
-    // Step 3: If still need more posts, get recent posts from any category
+    // Step 3: If still need more posts, get from any category (rotated)
     if (relatedPosts.length < limit) {
       const remainingNeeded = limit - relatedPosts.length;
-      const recentPosts = await prisma.blogPost.findMany({
+      const fallbackPosts = await prisma.blogPost.findMany({
         where: {
           status: 'published',
           slug: { notIn: Array.from(usedSlugs) }
@@ -371,12 +388,15 @@ async function getRelatedPosts(currentSlug: string, category: string, keywords: 
           translations: true,
           createdAt: true
         },
-        take: remainingNeeded,
         orderBy: { createdAt: 'desc' }
       });
 
-      for (const post of recentPosts) {
-        relatedPosts.push(post);
+      if (fallbackPosts.length > 0) {
+        const offset = slugHash(currentSlug + 'fallback') % fallbackPosts.length;
+        for (let i = 0; i < Math.min(remainingNeeded, fallbackPosts.length); i++) {
+          const idx = (offset + i) % fallbackPosts.length;
+          relatedPosts.push(fallbackPosts[idx]);
+        }
       }
     }
 
@@ -474,6 +494,9 @@ export default async function BlogPostPage({
 
   // Inject contextual internal links (product page links within body text)
   bodyContent = injectInternalLinks(bodyContent, locale);
+
+  // Inject blog-to-blog contextual links (up to 3 links to other blog posts)
+  bodyContent = await injectBlogLinks(bodyContent, locale, localeSlug);
 
   // Discover worksheet samples for blog post using topic cluster matching
   // Uses English title for matching (most reliable signal), then discovers samples per locale

@@ -276,6 +276,39 @@ export default async function BlogPage({ params, searchParams }: BlogPageProps) 
         totalPages={totalPages}
       />
 
+      {/* Server-rendered article index for SEO crawlability - ensures every blog post
+          has at least 1 inbound link visible in raw HTML (no JS required) */}
+      {initialPosts.length > 0 && (
+        <section className="py-8 bg-white border-t border-gray-200">
+          <div className="container mx-auto px-4">
+            <h2 className="text-xl font-bold text-gray-900 mb-4">
+              {params.locale === 'de' ? 'Alle Artikel' :
+               params.locale === 'fr' ? 'Tous les articles' :
+               params.locale === 'es' ? 'Todos los art\u00edculos' :
+               params.locale === 'it' ? 'Tutti gli articoli' :
+               params.locale === 'pt' ? 'Todos os artigos' :
+               params.locale === 'nl' ? 'Alle artikelen' :
+               params.locale === 'sv' ? 'Alla artiklar' :
+               params.locale === 'da' ? 'Alle artikler' :
+               params.locale === 'no' ? 'Alle artikler' :
+               params.locale === 'fi' ? 'Kaikki artikkelit' :
+               'All Articles'}
+            </h2>
+            <div className="columns-1 sm:columns-2 lg:columns-3 gap-x-6">
+              {initialPosts.map(post => (
+                <Link
+                  key={post.slug}
+                  href={`/${params.locale}/blog/${post.slug}`}
+                  className="block py-1.5 text-sm text-blue-700 hover:text-blue-900 hover:underline break-inside-avoid"
+                >
+                  {post.title}
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
       {/* Product Showcase Section - SEO Internal Linking */}
       {featuredProducts.length > 0 && (
         <section className="py-12 bg-gray-100">

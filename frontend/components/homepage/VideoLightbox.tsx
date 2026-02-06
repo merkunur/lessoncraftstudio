@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect, useCallback } from 'react';
+import { createPortal } from 'react-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 
 interface VideoLightboxProps {
@@ -40,12 +41,16 @@ export default function VideoLightbox({
   const [iframeLoaded, setIframeLoaded] = useState(false);
   const [thumbnailError, setThumbnailError] = useState(false);
   const [isWarmingUp, setIsWarmingUp] = useState(false);
+  const [mounted, setMounted] = useState(false);
 
   const defaultContent = localeContent[locale] || localeContent.en;
   const content = {
     buttonText: buttonText || defaultContent.buttonText,
     modalTitle: modalTitle || defaultContent.modalTitle,
   };
+
+  // Track client-side mount for portal rendering
+  useEffect(() => { setMounted(true); }, []);
 
   // Warm up YouTube connections on hover (before user clicks)
   // This establishes DNS/TCP/TLS connections so video starts faster when clicked
@@ -180,162 +185,165 @@ export default function VideoLightbox({
         />
       </motion.button>
 
-      {/* Modal */}
-      <AnimatePresence>
-        {isOpen && (
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            transition={{ duration: 0.3 }}
-            className="fixed inset-0 z-[100] flex items-center justify-center p-4 sm:p-6 md:p-8"
-            role="dialog"
-            aria-modal="true"
-            aria-labelledby="video-modal-title"
-          >
-            {/* Backdrop */}
+      {/* Modal - portaled to document.body to escape hero stacking contexts */}
+      {mounted && createPortal(
+        <AnimatePresence>
+          {isOpen && (
             <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
-              className="absolute inset-0"
-              style={{
-                backgroundColor: 'rgba(3,3,5,0.95)',
-                backdropFilter: 'blur(20px)',
-              }}
-              onClick={() => setIsOpen(false)}
-            />
-
-            {/* Modal content */}
-            <motion.div
-              initial={{ scale: 0.9, opacity: 0 }}
-              animate={{ scale: 1, opacity: 1 }}
-              exit={{ scale: 0.9, opacity: 0 }}
-              transition={{
-                type: 'spring',
-                stiffness: 300,
-                damping: 30,
-              }}
-              className="relative w-full max-w-4xl"
+              transition={{ duration: 0.3 }}
+              className="fixed inset-0 z-[100] flex items-center justify-center p-4 sm:p-6 md:p-8"
+              role="dialog"
+              aria-modal="true"
+              aria-labelledby="video-modal-title"
             >
-              {/* Glow effect */}
-              <div
-                className="absolute -inset-1 rounded-2xl opacity-50 blur-xl"
+              {/* Backdrop */}
+              <motion.div
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                exit={{ opacity: 0 }}
+                className="absolute inset-0"
                 style={{
-                  background: 'linear-gradient(135deg, rgba(6,182,212,0.4) 0%, rgba(168,85,247,0.3) 50%, rgba(236,72,153,0.2) 100%)',
+                  backgroundColor: 'rgba(3,3,5,0.95)',
+                  backdropFilter: 'blur(20px)',
                 }}
+                onClick={() => setIsOpen(false)}
               />
 
-              {/* Container */}
-              <div
-                className="relative rounded-2xl overflow-hidden"
-                style={{
-                  background: 'linear-gradient(135deg, rgba(15,15,25,0.95) 0%, rgba(10,10,20,0.98) 100%)',
-                  border: '1px solid rgba(255,255,255,0.1)',
-                  boxShadow: '0 25px 50px -12px rgba(0,0,0,0.5), 0 0 100px rgba(6,182,212,0.15), 0 0 100px rgba(168,85,247,0.1)',
+              {/* Modal content */}
+              <motion.div
+                initial={{ scale: 0.9, opacity: 0 }}
+                animate={{ scale: 1, opacity: 1 }}
+                exit={{ scale: 0.9, opacity: 0 }}
+                transition={{
+                  type: 'spring',
+                  stiffness: 300,
+                  damping: 30,
                 }}
+                className="relative w-full max-w-4xl"
               >
-                {/* Header */}
-                <div className="flex items-center justify-between px-5 py-4 border-b border-white/10">
-                  <div className="flex items-center gap-3">
-                    {/* Animated dot */}
-                    <motion.span
-                      className="w-2.5 h-2.5 rounded-full bg-cyan-400"
-                      animate={{
-                        scale: [1, 1.2, 1],
-                        opacity: [1, 0.7, 1],
-                      }}
-                      transition={{
-                        duration: 2,
-                        repeat: Infinity,
-                      }}
-                    />
-                    <h2
-                      id="video-modal-title"
-                      className="text-lg font-semibold text-white/90"
+                {/* Glow effect */}
+                <div
+                  className="absolute -inset-1 rounded-2xl opacity-50 blur-xl"
+                  style={{
+                    background: 'linear-gradient(135deg, rgba(6,182,212,0.4) 0%, rgba(168,85,247,0.3) 50%, rgba(236,72,153,0.2) 100%)',
+                  }}
+                />
+
+                {/* Container */}
+                <div
+                  className="relative rounded-2xl overflow-hidden"
+                  style={{
+                    background: 'linear-gradient(135deg, rgba(15,15,25,0.95) 0%, rgba(10,10,20,0.98) 100%)',
+                    border: '1px solid rgba(255,255,255,0.1)',
+                    boxShadow: '0 25px 50px -12px rgba(0,0,0,0.5), 0 0 100px rgba(6,182,212,0.15), 0 0 100px rgba(168,85,247,0.1)',
+                  }}
+                >
+                  {/* Header */}
+                  <div className="flex items-center justify-between px-5 py-4 border-b border-white/10">
+                    <div className="flex items-center gap-3">
+                      {/* Animated dot */}
+                      <motion.span
+                        className="w-2.5 h-2.5 rounded-full bg-cyan-400"
+                        animate={{
+                          scale: [1, 1.2, 1],
+                          opacity: [1, 0.7, 1],
+                        }}
+                        transition={{
+                          duration: 2,
+                          repeat: Infinity,
+                        }}
+                      />
+                      <h2
+                        id="video-modal-title"
+                        className="text-lg font-semibold text-white/90"
+                      >
+                        {content.modalTitle}
+                      </h2>
+                    </div>
+
+                    {/* Close button */}
+                    <button
+                      onClick={() => setIsOpen(false)}
+                      className="flex items-center justify-center w-9 h-9 rounded-lg bg-white/5 hover:bg-white/10 text-white/60 hover:text-white transition-all duration-200"
+                      aria-label="Close video"
                     >
-                      {content.modalTitle}
-                    </h2>
+                      <svg
+                        className="w-5 h-5"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth={2}
+                          d="M6 18L18 6M6 6l12 12"
+                        />
+                      </svg>
+                    </button>
                   </div>
 
-                  {/* Close button */}
-                  <button
-                    onClick={() => setIsOpen(false)}
-                    className="flex items-center justify-center w-9 h-9 rounded-lg bg-white/5 hover:bg-white/10 text-white/60 hover:text-white transition-all duration-200"
-                    aria-label="Close video"
-                  >
-                    <svg
-                      className="w-5 h-5"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        d="M6 18L18 6M6 6l12 12"
-                      />
-                    </svg>
-                  </button>
-                </div>
-
-                {/* Video container - 16:9 aspect ratio */}
-                <div className="relative w-full" style={{ paddingBottom: '56.25%' }}>
-                  {activated ? (
-                    <>
-                      {/* Loading state while iframe loads */}
-                      {!iframeLoaded && (
-                        <div className="absolute inset-0 bg-black flex items-center justify-center">
-                          <motion.div
-                            className="w-16 h-16 rounded-full border-4 border-white/20"
-                            style={{ borderTopColor: '#06b6d4', borderRightColor: '#8b5cf6' }}
-                            animate={{ rotate: 360 }}
-                            transition={{ duration: 1, repeat: Infinity, ease: 'linear' }}
-                          />
+                  {/* Video container - 16:9 aspect ratio */}
+                  <div className="relative w-full" style={{ paddingBottom: '56.25%' }}>
+                    {activated ? (
+                      <>
+                        {/* Loading state while iframe loads */}
+                        {!iframeLoaded && (
+                          <div className="absolute inset-0 bg-black flex items-center justify-center">
+                            <motion.div
+                              className="w-16 h-16 rounded-full border-4 border-white/20"
+                              style={{ borderTopColor: '#06b6d4', borderRightColor: '#8b5cf6' }}
+                              animate={{ rotate: 360 }}
+                              transition={{ duration: 1, repeat: Infinity, ease: 'linear' }}
+                            />
+                          </div>
+                        )}
+                        {/* YouTube iframe - only exists after user clicks play */}
+                        <iframe
+                          className={`absolute inset-0 w-full h-full transition-opacity duration-300 ${
+                            iframeLoaded ? 'opacity-100' : 'opacity-0'
+                          }`}
+                          src={`https://www.youtube-nocookie.com/embed/${videoId}?autoplay=1&rel=0&modestbranding=1`}
+                          title={content.modalTitle}
+                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowFullScreen
+                          onLoad={() => setIframeLoaded(true)}
+                        />
+                      </>
+                    ) : (
+                      /* Thumbnail with play button - NO iframe loaded yet */
+                      <button
+                        onClick={() => setActivated(true)}
+                        className="absolute inset-0 w-full h-full group cursor-pointer"
+                        aria-label="Play video"
+                      >
+                        <img
+                          src={thumbnailUrl}
+                          alt={content.modalTitle}
+                          className="absolute inset-0 w-full h-full object-cover"
+                          onError={() => setThumbnailError(true)}
+                        />
+                        {/* Large play button overlay */}
+                        <div className="absolute inset-0 flex items-center justify-center bg-black/30 group-hover:bg-black/40 transition-colors">
+                          <div className="w-20 h-20 rounded-full bg-gradient-to-r from-cyan-500 to-purple-500 flex items-center justify-center shadow-2xl group-hover:scale-110 transition-transform">
+                            <svg className="w-8 h-8 text-white ml-1" fill="currentColor" viewBox="0 0 24 24">
+                              <path d="M8 5v14l11-7z" />
+                            </svg>
+                          </div>
                         </div>
-                      )}
-                      {/* YouTube iframe - only exists after user clicks play */}
-                      <iframe
-                        className={`absolute inset-0 w-full h-full transition-opacity duration-300 ${
-                          iframeLoaded ? 'opacity-100' : 'opacity-0'
-                        }`}
-                        src={`https://www.youtube-nocookie.com/embed/${videoId}?autoplay=1&rel=0&modestbranding=1`}
-                        title={content.modalTitle}
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowFullScreen
-                        onLoad={() => setIframeLoaded(true)}
-                      />
-                    </>
-                  ) : (
-                    /* Thumbnail with play button - NO iframe loaded yet */
-                    <button
-                      onClick={() => setActivated(true)}
-                      className="absolute inset-0 w-full h-full group cursor-pointer"
-                      aria-label="Play video"
-                    >
-                      <img
-                        src={thumbnailUrl}
-                        alt={content.modalTitle}
-                        className="absolute inset-0 w-full h-full object-cover"
-                        onError={() => setThumbnailError(true)}
-                      />
-                      {/* Large play button overlay */}
-                      <div className="absolute inset-0 flex items-center justify-center bg-black/30 group-hover:bg-black/40 transition-colors">
-                        <div className="w-20 h-20 rounded-full bg-gradient-to-r from-cyan-500 to-purple-500 flex items-center justify-center shadow-2xl group-hover:scale-110 transition-transform">
-                          <svg className="w-8 h-8 text-white ml-1" fill="currentColor" viewBox="0 0 24 24">
-                            <path d="M8 5v14l11-7z" />
-                          </svg>
-                        </div>
-                      </div>
-                    </button>
-                  )}
+                      </button>
+                    )}
+                  </div>
                 </div>
-              </div>
+              </motion.div>
             </motion.div>
-          </motion.div>
-        )}
-      </AnimatePresence>
+          )}
+        </AnimatePresence>,
+        document.body
+      )}
     </>
   );
 }

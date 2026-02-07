@@ -314,28 +314,59 @@ function slugHash(str: string): number {
 
 async function getRelatedPosts(currentSlug: string, category: string, keywords: string[] = [], limit: number = 3) {
   try {
+    const selectFields = {
+      id: true,
+      slug: true,
+      featuredImage: true,
+      keywords: true,
+      translations: true,
+      createdAt: true
+    } as const;
+
+    // Run all 3 queries in parallel (add take:20 limits to queries 1 & 3)
+    const [allSameCategoryPosts, crossCategoryPosts, fallbackPosts] = await Promise.all([
+      // Query 1: Same category posts (limited to 20)
+      prisma.blogPost.findMany({
+        where: {
+          status: 'published',
+          slug: { not: currentSlug },
+          category: category
+        },
+        select: selectFields,
+        take: 20,
+        orderBy: { createdAt: 'desc' }
+      }),
+      // Query 2: Cross-category with keyword overlap (already limited to 20)
+      keywords.length > 0
+        ? prisma.blogPost.findMany({
+            where: {
+              status: 'published',
+              slug: { not: currentSlug },
+              category: { not: category },
+              keywords: { hasSome: keywords }
+            },
+            select: selectFields,
+            take: 20,
+            orderBy: { createdAt: 'desc' }
+          })
+        : Promise.resolve([]),
+      // Query 3: Fallback from any category (limited to 20)
+      prisma.blogPost.findMany({
+        where: {
+          status: 'published',
+          slug: { not: currentSlug }
+        },
+        select: selectFields,
+        take: 20,
+        orderBy: { createdAt: 'desc' }
+      }),
+    ]);
+
+    // Post-process: pick deterministically with deduplication
     const relatedPosts: any[] = [];
     const usedSlugs = new Set([currentSlug]);
 
-    // Step 1: Get 2 posts from same category using deterministic rotation
-    // Fetch ALL same-category posts, then pick 2 based on slug hash offset
-    const allSameCategoryPosts = await prisma.blogPost.findMany({
-      where: {
-        status: 'published',
-        slug: { not: currentSlug },
-        category: category
-      },
-      select: {
-        id: true,
-        slug: true,
-        featuredImage: true,
-        keywords: true,
-        translations: true,
-        createdAt: true
-      },
-      orderBy: { createdAt: 'desc' }
-    });
-
+    // Step 1: Pick 2 from same category
     if (allSameCategoryPosts.length > 0) {
       const offset = slugHash(currentSlug) % allSameCategoryPosts.length;
       for (let i = 0; i < Math.min(2, allSameCategoryPosts.length); i++) {
@@ -345,58 +376,25 @@ async function getRelatedPosts(currentSlug: string, category: string, keywords: 
       }
     }
 
-    // Step 2: Get 1 post from different category with keyword overlap (rotated)
-    if (relatedPosts.length < limit && keywords.length > 0) {
-      const crossCategoryPosts = await prisma.blogPost.findMany({
-        where: {
-          status: 'published',
-          slug: { notIn: Array.from(usedSlugs) },
-          category: { not: category },
-          keywords: { hasSome: keywords }
-        },
-        select: {
-          id: true,
-          slug: true,
-          featuredImage: true,
-          keywords: true,
-          translations: true,
-          createdAt: true
-        },
-        take: 20,
-        orderBy: { createdAt: 'desc' }
-      });
-
-      if (crossCategoryPosts.length > 0) {
-        const idx = slugHash(currentSlug + 'cross') % crossCategoryPosts.length;
-        relatedPosts.push(crossCategoryPosts[idx]);
-        usedSlugs.add(crossCategoryPosts[idx].slug);
+    // Step 2: Pick 1 from cross-category (filter out usedSlugs)
+    if (relatedPosts.length < limit && crossCategoryPosts.length > 0) {
+      const filtered = crossCategoryPosts.filter(p => !usedSlugs.has(p.slug));
+      if (filtered.length > 0) {
+        const idx = slugHash(currentSlug + 'cross') % filtered.length;
+        relatedPosts.push(filtered[idx]);
+        usedSlugs.add(filtered[idx].slug);
       }
     }
 
-    // Step 3: If still need more posts, get from any category (rotated)
+    // Step 3: Fill remaining from fallback (filter out usedSlugs)
     if (relatedPosts.length < limit) {
       const remainingNeeded = limit - relatedPosts.length;
-      const fallbackPosts = await prisma.blogPost.findMany({
-        where: {
-          status: 'published',
-          slug: { notIn: Array.from(usedSlugs) }
-        },
-        select: {
-          id: true,
-          slug: true,
-          featuredImage: true,
-          keywords: true,
-          translations: true,
-          createdAt: true
-        },
-        orderBy: { createdAt: 'desc' }
-      });
-
-      if (fallbackPosts.length > 0) {
-        const offset = slugHash(currentSlug + 'fallback') % fallbackPosts.length;
-        for (let i = 0; i < Math.min(remainingNeeded, fallbackPosts.length); i++) {
-          const idx = (offset + i) % fallbackPosts.length;
-          relatedPosts.push(fallbackPosts[idx]);
+      const filtered = fallbackPosts.filter(p => !usedSlugs.has(p.slug));
+      if (filtered.length > 0) {
+        const offset = slugHash(currentSlug + 'fallback') % filtered.length;
+        for (let i = 0; i < Math.min(remainingNeeded, filtered.length); i++) {
+          const idx = (offset + i) % filtered.length;
+          relatedPosts.push(filtered[idx]);
         }
       }
     }
@@ -432,15 +430,6 @@ export default async function BlogPostPage({
 
     // Slug doesn't exist anywhere - show 404
     notFound();
-  }
-
-  // Get related posts (with cross-category keyword overlap)
-  let relatedPosts: any[];
-  try {
-    relatedPosts = await getRelatedPosts(post.slug, post.category, post.keywords || []);
-  } catch (err) {
-    console.error(`Related posts error (slug=${slug}):`, err);
-    relatedPosts = [];
   }
 
   const translations = post.translations as any;
@@ -490,17 +479,13 @@ export default async function BlogPostPage({
     bodyContent = bodyContent.replace(headerContent, '');
   }
 
-  // Transform internal links to include locale prefix and strip duplicate footer
+  // Transform internal links to include locale prefix and strip duplicate footer (sync)
   bodyContent = transformBlogLinks(bodyContent, locale);
 
-  // Inject contextual internal links (product page links within body text)
+  // Inject contextual internal links - product page links within body text (sync)
   bodyContent = injectInternalLinks(bodyContent, locale);
 
-  // Inject blog-to-blog contextual links (up to 3 links to other blog posts)
-  bodyContent = await injectBlogLinks(bodyContent, locale, localeSlug);
-
-  // Discover worksheet samples for blog post using topic cluster matching
-  // Uses English title for matching (most reliable signal), then discovers samples per locale
+  // Prepare sample apps list (sync) for parallel sample discovery
   const enTitle = (translations['en']?.title as string) || translation.title || '';
   const sampleApps = getBlogSampleApps(
     enTitle,
@@ -510,6 +495,32 @@ export default async function BlogPostPage({
     3
   );
 
+  // Run 3 independent async operations in parallel:
+  // A) Related posts (DB queries)
+  // B) Blog-to-blog link injection (DB query + HTML processing)
+  // C) Sample discovery (filesystem reads)
+  const [relatedPosts, processedBodyContent, discoveredSamplesArr] = await Promise.all([
+    // A: Related posts
+    getRelatedPosts(post.slug, post.category, post.keywords || []).catch(err => {
+      console.error(`Related posts error (slug=${slug}):`, err);
+      return [] as any[];
+    }),
+    // B: Blog-to-blog contextual links (up to 3 links to other blog posts)
+    injectBlogLinks(bodyContent, locale, localeSlug),
+    // C: Sample discovery - run all app discoveries in parallel
+    Promise.all(
+      sampleApps.map(async (app) => {
+        const normalizedId = normalizeAppIdForSamples(app.appId);
+        const discovered = await discoverSamplesFromFilesystem(normalizedId, locale);
+        return { app, discovered };
+      })
+    ),
+  ]);
+
+  // Use processed body content from parallel operation B
+  bodyContent = processedBodyContent;
+
+  // Build blog samples from parallel operation C results
   const blogSamples: Array<{
     worksheetSrc: string;
     thumbSrc: string;
@@ -518,9 +529,7 @@ export default async function BlogPostPage({
     appId: string;
   }> = [];
 
-  for (const app of sampleApps) {
-    const normalizedId = normalizeAppIdForSamples(app.appId);
-    const discovered = await discoverSamplesFromFilesystem(normalizedId, locale);
+  for (const { app, discovered } of discoveredSamplesArr) {
     if (discovered.length > 0) {
       // Deterministic sample selection based on blog slug + appId
       let hash = 0;

@@ -82,6 +82,19 @@ export function normalizeAppIdForSamples(appId: string): string {
   return APP_ID_NORMALIZATION[appId] || appId;
 }
 
+// In-memory cache for discoverSamplesFromFilesystem results
+// Key: `${appId}:${locale}`, Value: { data, timestamp }
+const sampleDiscoveryCache = new Map<string, { data: DiscoveredSample[]; timestamp: number }>();
+const SAMPLE_CACHE_TTL = 30 * 60 * 1000; // 30 minutes
+
+/**
+ * Invalidate the sample discovery cache.
+ * Call this when samples are added/removed via CMS.
+ */
+export function invalidateSampleCache(): void {
+  sampleDiscoveryCache.clear();
+}
+
 // Discovered sample interface for SchemaScripts
 export interface DiscoveredSample {
   filename: string;
@@ -142,6 +155,13 @@ export async function discoverSamplesFromFilesystem(
   appId: string,
   locale: string
 ): Promise<DiscoveredSample[]> {
+  // Check in-memory cache first
+  const cacheKey = `${appId}:${locale}`;
+  const cached = sampleDiscoveryCache.get(cacheKey);
+  if (cached && Date.now() - cached.timestamp < SAMPLE_CACHE_TTL) {
+    return cached.data;
+  }
+
   const languageFolder = localeToLanguageFolder[locale] || 'english';
   const samplesFolder = appIdToSamplesFolder[appId];
 
@@ -169,7 +189,7 @@ export async function discoverSamplesFromFilesystem(
 
   const basePath = `/samples/${languageFolder}/${samplesFolder}`;
 
-  return worksheetFiles.map(wsFile => {
+  const result = worksheetFiles.map(wsFile => {
     const answerFile = findAnswerKeyForWorksheet(wsFile, answerKeyFiles);
     return {
       filename: wsFile,
@@ -177,4 +197,9 @@ export async function discoverSamplesFromFilesystem(
       answerKeySrc: answerFile ? `${basePath}/${answerFile}` : undefined,
     };
   });
+
+  // Store in cache
+  sampleDiscoveryCache.set(cacheKey, { data: result, timestamp: Date.now() });
+
+  return result;
 }

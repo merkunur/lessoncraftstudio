@@ -33,21 +33,41 @@ interface BlogLinkTarget {
   slug: string;
 }
 
+// In-memory cache for blog link targets per locale
+// Key: locale, Value: { targets (without currentSlug filtering), timestamp }
+const blogLinkTargetCache = new Map<string, { data: BlogLinkTarget[]; timestamp: number }>();
+const BLOG_LINK_CACHE_TTL = 30 * 60 * 1000; // 30 minutes
+
 /**
- * Build a list of keyword -> blog URL targets for a given locale.
+ * Invalidate the blog link target cache.
+ * Call this when blog posts are created/updated/deleted via CMS.
+ */
+export function invalidateBlogLinkCache(): void {
+  blogLinkTargetCache.clear();
+}
+
+/**
+ * Build (or retrieve from cache) a list of keyword -> blog URL targets for a given locale.
  * Sources keywords from each post's focusKeyword and significant title words.
- * Excludes the current post.
+ * The cache stores ALL targets for the locale; currentSlug filtering is done after retrieval.
  */
 async function getBlogLinkTargets(
   locale: string,
   currentSlug: string
 ): Promise<BlogLinkTarget[]> {
+  // Check cache first
+  const cached = blogLinkTargetCache.get(locale);
+  if (cached && Date.now() - cached.timestamp < BLOG_LINK_CACHE_TTL) {
+    // Filter out current post from cached results
+    return cached.data.filter(t => t.slug !== currentSlug);
+  }
+
   const posts = await prisma.blogPost.findMany({
     where: { status: 'published' },
     select: { slug: true, translations: true }
   });
 
-  const targets: BlogLinkTarget[] = [];
+  const allTargets: BlogLinkTarget[] = [];
   // Common stop words to exclude from title-derived keywords
   const stopWords = new Set([
     // English
@@ -99,14 +119,11 @@ async function getBlogLinkTargets(
     if (!translation || !translation.title) continue;
 
     const postSlug = translation.slug || post.slug;
-    // Never link to self
-    if (postSlug === currentSlug) continue;
-
     const url = `/${locale}/blog/${postSlug}`;
 
     // Priority 1: focusKeyword (most relevant, usually a multi-word phrase)
     if (translation.focusKeyword && translation.focusKeyword.length >= 4) {
-      targets.push({
+      allTargets.push({
         keyword: translation.focusKeyword,
         url,
         slug: postSlug,
@@ -124,7 +141,7 @@ async function getBlogLinkTargets(
     for (let i = 0; i < words.length - 1; i++) {
       const phrase = `${words[i]} ${words[i + 1]}`;
       if (phrase.length >= 6) {
-        targets.push({ keyword: phrase, url, slug: postSlug });
+        allTargets.push({ keyword: phrase, url, slug: postSlug });
       }
     }
 
@@ -132,15 +149,19 @@ async function getBlogLinkTargets(
     for (let i = 0; i < words.length - 2; i++) {
       const phrase = `${words[i]} ${words[i + 1]} ${words[i + 2]}`;
       if (phrase.length >= 10) {
-        targets.push({ keyword: phrase, url, slug: postSlug });
+        allTargets.push({ keyword: phrase, url, slug: postSlug });
       }
     }
   }
 
   // Sort by keyword length descending (longest match first)
-  targets.sort((a, b) => b.keyword.length - a.keyword.length);
+  allTargets.sort((a, b) => b.keyword.length - a.keyword.length);
 
-  return targets;
+  // Store ALL targets in cache (currentSlug filtering happens on retrieval)
+  blogLinkTargetCache.set(locale, { data: allTargets, timestamp: Date.now() });
+
+  // Return filtered results for this request
+  return allTargets.filter(t => t.slug !== currentSlug);
 }
 
 /**

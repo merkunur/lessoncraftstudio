@@ -5,6 +5,8 @@ import { requireAdmin } from '@/lib/admin-auth';
 import { normalizeSlug } from '@/lib/slug-utils';
 import { SUPPORTED_LOCALES } from '@/config/locales';
 import { invalidateBlogListingCache } from '@/lib/blog-data';
+import { invalidateSampleCache } from '@/lib/sample-utils';
+import { invalidateBlogLinkCache } from '@/lib/blog-internal-links';
 
 export const dynamic = 'force-dynamic';
 
@@ -136,8 +138,10 @@ export async function PUT(
       revalidatePath(`/${locale}/blog`);
     }
 
-    // Invalidate in-memory blog listing cache
+    // Invalidate in-memory caches
     invalidateBlogListingCache();
+    invalidateBlogLinkCache();
+    invalidateSampleCache();
 
     return NextResponse.json({ post });
   } catch (error) {
@@ -184,8 +188,10 @@ export async function DELETE(
       where: { slug: params.slug },
     });
 
-    // Invalidate in-memory blog listing cache
+    // Invalidate in-memory caches
     invalidateBlogListingCache();
+    invalidateBlogLinkCache();
+    invalidateSampleCache();
 
     return NextResponse.json({ message: 'Post deleted successfully' });
   } catch (error) {

@@ -1067,6 +1067,7 @@ export function generateAppProductSchemas(
   const softwareAppSchema = {
     "@context": "https://schema.org",
     "@type": "SoftwareApplication",
+    "@id": `${pageUrl}#software`,
     "name": appData.name,
     "description": appData.description,
     "url": pageUrl,
@@ -1200,8 +1201,7 @@ export function generateAppProductSchemas(
       "url": baseUrl
     },
     "about": {
-      "@type": "SoftwareApplication",
-      "name": appData.name
+      "@id": `${pageUrl}#software`
     },
     // E-A-T: Educational audience signals domain expertise
     "audience": {
@@ -1209,8 +1209,7 @@ export function generateAppProductSchemas(
       "educationalRole": ["teacher", "parent", "educator"]
     },
     "mainEntity": {
-      "@type": "SoftwareApplication",
-      "name": appData.name
+      "@id": `${pageUrl}#software`
     }
   };
 

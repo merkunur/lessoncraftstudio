@@ -925,6 +925,25 @@ export default async function BlogPostPage({
         />
       )}
 
+      {/* DigitalDocument schemas for downloadable PDFs */}
+      {post.pdfs && post.pdfs.length > 0 && post.pdfs.map((pdf) => (
+        <script
+          key={`pdf-schema-${pdf.id}`}
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "DigitalDocument",
+            "name": pdf.title,
+            "description": pdf.description,
+            "url": `https://www.lessoncraftstudio.com${pdf.filePath}`,
+            "encodingFormat": "application/pdf",
+            "inLanguage": getHreflangCode(locale),
+            "isAccessibleForFree": pdf.price === 'Free',
+            "associatedArticle": { "@id": `https://www.lessoncraftstudio.com/${locale}/blog/${slug}#article` }
+          }) }}
+        />
+      ))}
+
       {/* Breadcrumb Navigation (4-level: Home > Blog > Category > Post) */}
       <Breadcrumb
         locale={locale}
@@ -1427,11 +1446,6 @@ export async function generateMetadata({ params }: BlogPostPageProps) {
       ...sampleOgImages.map(img => img.url),
     ];
 
-    // Build og:locale:alternate for all other available languages
-    const ogLocaleAlternates = SUPPORTED_LOCALES
-      .filter(lang => lang !== locale && (translations[lang]?.slug || translations[lang]?.title))
-      .map(lang => ogLocaleMap[lang] || lang);
-
     return {
       title,
       description,
@@ -1455,7 +1469,10 @@ export async function generateMetadata({ params }: BlogPostPageProps) {
         modifiedTime: post.updatedAt.toISOString(),
         authors: [translation.author || 'LessonCraftStudio'],
         section: post.category || 'Education',
-        tags: translation.focusKeyword ? [translation.focusKeyword] : [],
+        tags: [
+          ...(translation.focusKeyword ? [translation.focusKeyword] : []),
+          ...(Array.isArray(post.keywords) ? post.keywords.slice(0, 5) : [])
+        ].filter((v, i, a) => a.indexOf(v) === i),
         images: ogImages,
       },
       // AUTOMATED: Twitter Card tags
@@ -1464,7 +1481,7 @@ export async function generateMetadata({ params }: BlogPostPageProps) {
         title: ogTitle,
         description,
         images: twitterImages,
-        creator: '@LessonCraftStudio', // TODO: Replace with actual Twitter handle
+        creator: '@LessonCraftStudio',
       },
       // AUTOMATED: Robots directives
       robots: {
@@ -1485,7 +1502,6 @@ export async function generateMetadata({ params }: BlogPostPageProps) {
         'author': 'LessonCraftStudio Team',
         'publisher': 'LessonCraftStudio',
         'copyright': `© ${new Date().getFullYear()} LessonCraftStudio`,
-        'og:locale:alternate': ogLocaleAlternates,
       },
       // AUTOMATED: Authors metadata (E-A-T signals)
       authors: [

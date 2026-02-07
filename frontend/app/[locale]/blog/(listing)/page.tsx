@@ -112,8 +112,6 @@ export async function generateMetadata({ params, searchParams }: BlogPageProps):
     const hreflangCode = getHreflangCode(lang);
     hreflangAlternates[hreflangCode] = `${baseUrl}/${lang}/blog${currentPage > 1 ? `?page=${currentPage}` : ''}`;
   }
-  hreflangAlternates['x-default'] = `${baseUrl}/en/blog${currentPage > 1 ? `?page=${currentPage}` : ''}`;
-
   return {
     title: pageTitle,
     description: localeMeta.description,
@@ -253,7 +251,7 @@ export default async function BlogPage({ params, searchParams }: BlogPageProps) 
       "@type": "Thing",
       "name": "Educational Resources"
     },
-    "inLanguage": params.locale,
+    "inLanguage": getHreflangCode(params.locale),
     "numberOfItems": initialPosts.length,
     "provider": {
       "@type": "EducationalOrganization",

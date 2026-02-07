@@ -261,8 +261,6 @@ export async function generateMetadata({ params, searchParams }: CategoryPagePro
     const hreflangCode = getHreflangCode(lang);
     hreflangAlternates[hreflangCode] = `${baseUrl}/${lang}/blog/category/${category}${currentPage > 1 ? `?page=${currentPage}` : ''}`;
   }
-  hreflangAlternates['x-default'] = `${baseUrl}/en/blog/category/${category}${currentPage > 1 ? `?page=${currentPage}` : ''}`;
-
   return {
     title: pageTitle,
     description: categoryMeta.description,
@@ -330,7 +328,7 @@ export default async function CategoryPage({ params, searchParams }: CategoryPag
       "@type": "Thing",
       "name": categoryMeta.name
     },
-    "inLanguage": locale,
+    "inLanguage": getHreflangCode(locale),
     "numberOfItems": allPosts.length,
     "provider": {
       "@type": "EducationalOrganization",

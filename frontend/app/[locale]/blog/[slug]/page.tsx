@@ -78,23 +78,24 @@ const SLUG_CACHE_TTL = 30 * 60 * 1000; // 30 minutes (aligned with ISR revalidat
 /**
  * Build/refresh the slug cache
  * Maps all language-specific slugs to their primary slug
+ * OPTIMIZED: Raw SQL extracts only slugs (~2KB) instead of full translations blob (~30MB)
  */
 async function buildSlugCache(): Promise<Map<string, string>> {
-  const posts = await prisma.blogPost.findMany({
-    where: { status: 'published' },
-    select: { slug: true, translations: true }
-  });
+  const rows = await prisma.$queryRaw<Array<{ primary_slug: string; locale_slug: string }>>`
+    SELECT
+      bp.slug as primary_slug,
+      value->>'slug' as locale_slug
+    FROM blog_posts bp, jsonb_each(bp.translations)
+    WHERE bp.status = 'published' AND value->>'slug' IS NOT NULL
+  `;
 
   const cache = new Map<string, string>();
-  for (const post of posts) {
-    // Primary slug maps to itself
-    cache.set(post.slug, post.slug);
-    // All translated slugs map to primary slug
-    const translations = post.translations as Record<string, { slug?: string }>;
-    for (const translation of Object.values(translations)) {
-      if (translation?.slug) {
-        cache.set(translation.slug, post.slug);
-      }
+  for (const row of rows) {
+    // Primary slug maps to itself (dedup via Map)
+    cache.set(row.primary_slug, row.primary_slug);
+    // Locale-specific slug maps to primary slug
+    if (row.locale_slug) {
+      cache.set(row.locale_slug, row.primary_slug);
     }
   }
   return cache;
@@ -143,58 +144,117 @@ interface BlogPost {
   pdfs: BlogPDF[];
 }
 
+// All 11 supported locale codes for raw SQL iteration
+const ALL_LOCALES = ['en', 'de', 'fr', 'es', 'it', 'pt', 'nl', 'sv', 'da', 'no', 'fi'] as const;
+
 /**
  * Fetch blog post from database - OPTIMIZED VERSION
  * Uses React cache() for request deduplication between generateMetadata() and page component
- * Uses direct indexed lookup instead of loading ALL posts (O(1) instead of O(n))
+ * OPTIMIZED: Raw SQL extracts only current locale + English (~50KB) instead of full blob (~300KB)
+ * Other locales get lightweight summaries (slug + title + content existence) for hreflang
  */
 const getBlogPost = cache(async (slug: string, locale: string): Promise<BlogPost | null> => {
   try {
-    // Step 1: Try direct primary slug lookup (indexed, fast - O(1))
-    let post = await prisma.blogPost.findFirst({
-      where: {
-        status: 'published',
-        slug: slug
-      },
-      include: {
-        pdfs: {
-          where: { language: locale },
-          orderBy: { sortOrder: 'asc' }
-        }
-      }
-    });
-
-    if (post) {
-      return post;
-    }
-
-    // Step 2: Use slug cache to find primary slug (for language-specific slugs)
+    // Step 1: Resolve slug to primary slug (for language-specific slugs)
+    let lookupSlug = slug;
     const slugCacheMap = await getSlugCache();
     const primarySlug = slugCacheMap.get(slug);
+    if (primarySlug) {
+      lookupSlug = primarySlug;
+    }
 
-    if (primarySlug && primarySlug !== slug) {
-      // Found mapping - fetch by primary slug (indexed, fast)
-      post = await prisma.blogPost.findFirst({
-        where: {
-          status: 'published',
-          slug: primarySlug
-        },
-        include: {
-          pdfs: {
-            where: { language: locale },
-            orderBy: { sortOrder: 'asc' }
-          }
-        }
-      });
+    // Step 2: Raw SQL - fetch scalar fields + targeted locale extractions
+    // Uses jsonb_extract_path() for parameterized locale keys (safe with Prisma $queryRaw)
+    const rows = await prisma.$queryRaw<Array<{
+      id: string;
+      slug: string;
+      category: string;
+      keywords: string[];
+      featured_image: string | null;
+      created_at: Date;
+      updated_at: Date;
+      locale_translation: any;
+      en_translation: any;
+      locale_summaries: any;
+    }>>`
+      SELECT
+        bp.id,
+        bp.slug,
+        bp.category,
+        bp.keywords,
+        bp.featured_image,
+        bp.created_at,
+        bp.updated_at,
+        jsonb_extract_path(bp.translations, ${locale}) as locale_translation,
+        jsonb_extract_path(bp.translations, 'en') as en_translation,
+        (SELECT jsonb_object_agg(
+          key,
+          jsonb_build_object(
+            'slug', value->>'slug',
+            'title', value->>'title',
+            'content', CASE WHEN value->>'content' IS NOT NULL THEN '1' ELSE NULL END
+          )
+        ) FROM jsonb_each(bp.translations)) as locale_summaries
+      FROM blog_posts bp
+      WHERE bp.status = 'published'
+        AND bp.slug = ${lookupSlug}
+      LIMIT 1
+    `;
 
-      if (post) {
-        return post;
+    if (rows.length === 0) {
+      console.log(`Blog post not found: slug="${slug}", locale="${locale}", lookupSlug="${lookupSlug}"`);
+      return null;
+    }
+
+    const row = rows[0];
+
+    // Step 3: Fetch PDFs for this locale (separate query - small result set)
+    const pdfs = await prisma.blogPDF.findMany({
+      where: { postId: row.id, language: locale },
+      orderBy: { sortOrder: 'asc' }
+    });
+
+    // Step 4: Reconstruct compatible translations object
+    // Full translation for current locale and English; lightweight summaries for others
+    const translations: Record<string, any> = {};
+
+    // Parse locale summaries (slug + title + content placeholder for all locales)
+    const summaries = row.locale_summaries || {};
+    for (const loc of ALL_LOCALES) {
+      if (summaries[loc]) {
+        translations[loc] = summaries[loc];
       }
     }
 
-    // Log for debugging when slug is not found
-    console.log(`Blog post not found: slug="${slug}", locale="${locale}", primarySlug="${primarySlug || 'none'}"`);
-    return null;
+    // Override with full translations for current locale and English
+    if (row.en_translation) {
+      translations['en'] = row.en_translation;
+    }
+    if (row.locale_translation) {
+      translations[locale] = row.locale_translation;
+    }
+
+    return {
+      id: row.id,
+      slug: row.slug,
+      translations,
+      category: row.category,
+      keywords: row.keywords || [],
+      featuredImage: row.featured_image,
+      createdAt: new Date(row.created_at),
+      updatedAt: new Date(row.updated_at),
+      pdfs: pdfs.map(p => ({
+        id: p.id,
+        title: p.title,
+        description: p.description,
+        filename: p.filename,
+        filePath: p.filePath,
+        fileSize: p.fileSize,
+        thumbnail: p.thumbnail,
+        price: p.price,
+        downloads: p.downloads,
+      })),
+    };
   } catch (error) {
     console.error(`Error fetching blog post ${slug}:`, error);
     return null;
@@ -205,7 +265,7 @@ const getBlogPost = cache(async (slug: string, locale: string): Promise<BlogPost
  * Search all blog posts to find which language a slug belongs to.
  * Used for redirecting when a slug is accessed with the wrong language prefix.
  * Returns the correct locale if found, null otherwise.
- * OPTIMIZED: Uses slug cache instead of loading all posts
+ * OPTIMIZED: Raw SQL extracts only slug fields per locale instead of full blob
  */
 async function findSlugLanguage(slug: string): Promise<string | null> {
   try {
@@ -222,22 +282,16 @@ async function findSlugLanguage(slug: string): Promise<string | null> {
       return 'en';
     }
 
-    // Otherwise, find which language this slug belongs to
-    // We need to fetch just this one post to check translations
-    const post = await prisma.blogPost.findFirst({
-      where: { status: 'published', slug: primarySlug },
-      select: { translations: true }
-    });
+    // Raw SQL: extract only slug per locale for this one post
+    const rows = await prisma.$queryRaw<Array<{ locale: string; locale_slug: string }>>`
+      SELECT key as locale, value->>'slug' as locale_slug
+      FROM blog_posts bp, jsonb_each(bp.translations)
+      WHERE bp.status = 'published' AND bp.slug = ${primarySlug} AND value->>'slug' = ${slug}
+      LIMIT 1
+    `;
 
-    if (!post) {
-      return null;
-    }
-
-    const translations = post.translations as Record<string, { slug?: string }>;
-    for (const [locale, translation] of Object.entries(translations)) {
-      if (translation?.slug === slug) {
-        return locale;
-      }
+    if (rows.length > 0) {
+      return rows[0].locale;
     }
 
     return 'en'; // Default to English if found in cache but not in translations
@@ -250,39 +304,44 @@ async function findSlugLanguage(slug: string): Promise<string | null> {
 // Generate static params for all existing blog posts
 // FIXED: Only generates routes for locales with actual translations to prevent 404 errors
 // (Google Search Console reported 131+ 404 errors from generated routes for non-existent translations)
+// OPTIMIZED: Raw SQL extracts only slug/title/content-existence per locale (~5KB) instead of full blob (~30MB)
 export async function generateStaticParams() {
   try {
-    const posts = await prisma.blogPost.findMany({
-      where: { status: 'published' },
-      select: { slug: true, translations: true }
-    });
+    const rows = await prisma.$queryRaw<Array<{
+      primary_slug: string;
+      locale: string;
+      locale_slug: string | null;
+      has_title: boolean;
+      has_content: boolean;
+    }>>`
+      SELECT
+        bp.slug as primary_slug,
+        key as locale,
+        value->>'slug' as locale_slug,
+        (value->>'title' IS NOT NULL) as has_title,
+        (value->>'content' IS NOT NULL) as has_content
+      FROM blog_posts bp, jsonb_each(bp.translations)
+      WHERE bp.status = 'published'
+    `;
 
-    // Generate params ONLY for locales that have actual translated content
-    const locales = [...SUPPORTED_LOCALES];
     const params = [];
+    const seenEnglish = new Set<string>();
 
-    for (const post of posts) {
-      const translations = post.translations as any;
-
-      for (const locale of locales) {
-        const translation = translations[locale];
-
-        // CRITICAL FIX: Only generate route if translation exists AND has content
-        // This prevents 404 pages from being generated for non-translated posts
-        if (translation && translation.title && translation.content) {
-          // Use language-specific slug if available, otherwise fallback to primary slug
-          const localeSlug = translation.slug || post.slug;
-          params.push({
-            locale,
-            slug: localeSlug
-          });
-        } else if (locale === 'en') {
-          // Always include English with primary slug (English is always available)
-          params.push({
-            locale: 'en',
-            slug: post.slug
-          });
+    for (const row of rows) {
+      if (row.has_title && row.has_content) {
+        const localeSlug = row.locale_slug || row.primary_slug;
+        params.push({ locale: row.locale, slug: localeSlug });
+        if (row.locale === 'en') {
+          seenEnglish.add(row.primary_slug);
         }
+      }
+    }
+
+    // Ensure English is always included for all posts
+    const allSlugs = new Set(rows.map(r => r.primary_slug));
+    for (const slug of allSlugs) {
+      if (!seenEnglish.has(slug)) {
+        params.push({ locale: 'en', slug });
       }
     }
 
@@ -409,11 +468,14 @@ async function getRelatedPosts(currentSlug: string, category: string, keywords: 
 export default async function BlogPostPage({
   params
 }: BlogPostPageProps) {
+  const pageStart = performance.now();
   const { locale, slug } = params;
 
   let post: BlogPost | null;
   try {
+    const t0 = performance.now();
     post = await getBlogPost(slug, locale);
+    console.log(`[blog-perf] getBlogPost(${slug}, ${locale}): ${(performance.now() - t0).toFixed(0)}ms`);
   } catch (err) {
     console.error(`Blog post page error (slug=${slug}, locale=${locale}):`, err);
     notFound();
@@ -499,23 +561,40 @@ export default async function BlogPostPage({
   // A) Related posts (DB queries)
   // B) Blog-to-blog link injection (DB query + HTML processing)
   // C) Sample discovery (filesystem reads)
+  const parallelStart = performance.now();
   const [relatedPosts, processedBodyContent, discoveredSamplesArr] = await Promise.all([
     // A: Related posts
-    getRelatedPosts(post.slug, post.category, post.keywords || []).catch(err => {
-      console.error(`Related posts error (slug=${slug}):`, err);
-      return [] as any[];
-    }),
+    (async () => {
+      const t = performance.now();
+      const result = await getRelatedPosts(post.slug, post.category, post.keywords || []).catch(err => {
+        console.error(`Related posts error (slug=${slug}):`, err);
+        return [] as any[];
+      });
+      console.log(`[blog-perf] getRelatedPosts: ${(performance.now() - t).toFixed(0)}ms`);
+      return result;
+    })(),
     // B: Blog-to-blog contextual links (up to 3 links to other blog posts)
-    injectBlogLinks(bodyContent, locale, localeSlug),
+    (async () => {
+      const t = performance.now();
+      const result = await injectBlogLinks(bodyContent, locale, localeSlug);
+      console.log(`[blog-perf] injectBlogLinks: ${(performance.now() - t).toFixed(0)}ms`);
+      return result;
+    })(),
     // C: Sample discovery - run all app discoveries in parallel
-    Promise.all(
-      sampleApps.map(async (app) => {
-        const normalizedId = normalizeAppIdForSamples(app.appId);
-        const discovered = await discoverSamplesFromFilesystem(normalizedId, locale);
-        return { app, discovered };
-      })
-    ),
+    (async () => {
+      const t = performance.now();
+      const result = await Promise.all(
+        sampleApps.map(async (app) => {
+          const normalizedId = normalizeAppIdForSamples(app.appId);
+          const discovered = await discoverSamplesFromFilesystem(normalizedId, locale);
+          return { app, discovered };
+        })
+      );
+      console.log(`[blog-perf] discoverSamples: ${(performance.now() - t).toFixed(0)}ms`);
+      return result;
+    })(),
   ]);
+  console.log(`[blog-perf] parallel total: ${(performance.now() - parallelStart).toFixed(0)}ms`);
 
   // Use processed body content from parallel operation B
   bodyContent = processedBodyContent;
@@ -781,6 +860,8 @@ export default async function BlogPostPage({
     no: 'Les Mer →',
     fi: 'Lue Lisää →'
   };
+
+  console.log(`[blog-perf] TOTAL page render (${locale}/${slug}): ${(performance.now() - pageStart).toFixed(0)}ms`);
 
   // Render the extracted content with inline styles, PDFs after header, and related posts before footer
   return (

@@ -62,10 +62,23 @@ async function getBlogLinkTargets(
     return cached.data.filter(t => t.slug !== currentSlug);
   }
 
-  const posts = await prisma.blogPost.findMany({
-    where: { status: 'published' },
-    select: { slug: true, translations: true }
-  });
+  // OPTIMIZED: Raw SQL extracts only slug, title, focusKeyword per locale (~5KB)
+  // instead of full translations blob for ALL posts (~30MB)
+  const rows = await prisma.$queryRaw<Array<{
+    slug: string;
+    locale_slug: string | null;
+    focus_keyword: string | null;
+    title: string | null;
+  }>>`
+    SELECT
+      bp.slug,
+      jsonb_extract_path_text(bp.translations, ${locale}, 'slug') as locale_slug,
+      jsonb_extract_path_text(bp.translations, ${locale}, 'focusKeyword') as focus_keyword,
+      jsonb_extract_path_text(bp.translations, ${locale}, 'title') as title
+    FROM blog_posts bp
+    WHERE bp.status = 'published'
+      AND jsonb_extract_path_text(bp.translations, ${locale}, 'title') IS NOT NULL
+  `;
 
   const allTargets: BlogLinkTarget[] = [];
   // Common stop words to exclude from title-derived keywords
@@ -113,25 +126,23 @@ async function getBlogLinkTargets(
     'voi', 'pit\u00e4\u00e4', 'sin\u00e4', 'min\u00e4', 'h\u00e4n', 'me', 'he', 'te',
   ]);
 
-  for (const post of posts) {
-    const translations = post.translations as Record<string, any>;
-    const translation = translations[locale];
-    if (!translation || !translation.title) continue;
+  for (const row of rows) {
+    if (!row.title) continue;
 
-    const postSlug = translation.slug || post.slug;
+    const postSlug = row.locale_slug || row.slug;
     const url = `/${locale}/blog/${postSlug}`;
 
     // Priority 1: focusKeyword (most relevant, usually a multi-word phrase)
-    if (translation.focusKeyword && translation.focusKeyword.length >= 4) {
+    if (row.focus_keyword && row.focus_keyword.length >= 4) {
       allTargets.push({
-        keyword: translation.focusKeyword,
+        keyword: row.focus_keyword,
         url,
         slug: postSlug,
       });
     }
 
     // Priority 2: Multi-word title phrases (2-3 word combinations from title)
-    const title = (translation.title as string) || '';
+    const title = row.title;
     const words = title
       .replace(/[^\p{L}\p{N}\s-]/gu, '') // Keep letters, numbers, spaces, hyphens
       .split(/\s+/)

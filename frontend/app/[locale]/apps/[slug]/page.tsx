@@ -3557,6 +3557,18 @@ export default async function AppPage({ params: { locale, slug } }: PageProps) {
     const appKeywords = getKeywordsForApp(appId);
     const relatedBlogPosts = await getRelatedBlogPostsForProduct(appKeywords, locale, 3);
 
+    // Inject fallback FAQ items when content has FAQ section but no items
+    // (most content files have faq.items: [] with "loaded dynamically" comment)
+    if (content.faq && (!content.faq.items || content.faq.items.length === 0)) {
+      const appName = content.hero?.title || slug;
+      const fallbackFaqs = getDefaultProductFAQs(appName, locale);
+      content.faq.items = fallbackFaqs.map((faq, i) => ({
+        id: `fallback-faq-${i}`,
+        question: faq.question,
+        answer: faq.answer,
+      }));
+    }
+
     return (
       <>
         <SchemaScripts appData={schemaAppData} locale={locale} slug={slug} content={content} sampleSeoMap={sampleSeoMap} discoveredSamples={discoveredSamples} />
@@ -3618,6 +3630,17 @@ export default async function AppPage({ params: { locale, slug } }: PageProps) {
       description: legacyContent.seo?.description || legacyContent.hero?.subtitle || '',
       category: 'Worksheet Generator'
     };
+
+    // Inject fallback FAQ items for legacy content (same logic as content registry path)
+    if (legacyContent.faq && (!legacyContent.faq.items || legacyContent.faq.items.length === 0)) {
+      const appName = legacyContent.hero?.title || slug;
+      const fallbackFaqs = getDefaultProductFAQs(appName, locale);
+      legacyContent.faq.items = fallbackFaqs.map((faq: { question: string; answer: string }, i: number) => ({
+        id: `fallback-faq-${i}`,
+        question: faq.question,
+        answer: faq.answer,
+      }));
+    }
 
     return (
       <>

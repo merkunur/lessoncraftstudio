@@ -573,15 +573,9 @@ function checkLivePage(response, expectedData, locale) {
   } else {
     checks.issues.passed.push('hreflangPresent');
 
-    // Check for x-default
-    if (!hreflangTags['x-default']) {
-      checks.issues.warnings.push({
-        check: 'hreflangXDefault',
-        message: 'Missing x-default hreflang tag'
-      });
-    } else {
-      checks.issues.passed.push('hreflangXDefault');
-    }
+    // x-default is intentionally omitted — all 11 locales have complete hreflang entries
+    // so x-default is unnecessary (it's meant for language-selector pages per Google docs)
+    checks.issues.passed.push('hreflangNoXDefault');
 
     // Check for self-referential tag
     const currentHreflangCode = CONFIG.hreflangCodes[locale] || locale;

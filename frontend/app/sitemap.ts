@@ -47,8 +47,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       const hreflangCode = getHreflangCode(lang);
       alternates[hreflangCode] = `${baseUrl}/${lang}${path}`;
     }
-    // Add x-default for unspecified regions
-    alternates['x-default'] = `${baseUrl}/en${path}`;
     return alternates;
   }
 
@@ -164,17 +162,13 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       }
 
       // Generate hreflang alternates for blog posts
-      // Blog posts are translations (shared database record, same metadata)
+      // Blog posts are original content per locale (unique slugs, titles, content, focusKeywords)
       // Proper hreflang ensures bidirectional linking as required by Google
       const blogAlternates: Record<string, string> = {};
       for (const lang of availableLocales) {
         const langSlug = translations[lang]?.slug || post.slug;
         const hreflangCode = getHreflangCode(lang);
         blogAlternates[hreflangCode] = `${baseUrl}/${lang}/blog/${langSlug}`;
-      }
-      // Add x-default pointing to English version if available
-      if (translations['en']?.slug || post.slug) {
-        blogAlternates['x-default'] = `${baseUrl}/en/blog/${translations['en']?.slug || post.slug}`;
       }
 
       return availableLocales.map((locale) => {
@@ -217,8 +211,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         const hreflangCode = getHreflangCode(lang);
         categoryAlternates[hreflangCode] = `${baseUrl}/${lang}/blog/category/${category}`;
       }
-      categoryAlternates['x-default'] = `${baseUrl}/en/blog/category/${category}`;
-
       categoryRoutes.push({
         url: `${baseUrl}/${locale}/blog/category/${category}`,
         lastModified: currentDate,

@@ -1359,12 +1359,9 @@ export async function generateMetadata({ params }: BlogPostPageProps) {
     const description = rawDescription.length > 160
       ? rawDescription.substring(0, 160).replace(/\s+\S*$/, '')
       : rawDescription;
-    // Use language-specific focusKeyword first, then fall back to general keywords
+    // Use only locale-specific focusKeyword (avoid mixing keywords from all languages)
     const focusKeyword = translation.focusKeyword || '';
-    const generalKeywords = post.keywords?.join(', ') || '';
-    const keywords = focusKeyword
-      ? (generalKeywords ? `${focusKeyword}, ${generalKeywords}` : focusKeyword)
-      : generalKeywords;
+    const keywords = focusKeyword;
     // Use translation slug for canonical URL (Bug 3 fix)
     const localeSlug = translation.slug || post.slug;
     const canonicalUrl = `${baseUrl}/${locale}/blog/${localeSlug}`;
@@ -1400,7 +1397,7 @@ export async function generateMetadata({ params }: BlogPostPageProps) {
 
     // Generate hreflang alternates for all available translations
     // This ensures proper bidirectional linking as required by Google
-    // Blog posts ARE translations (shared database record, same metadata)
+    // Blog posts are original content per locale (unique slugs, titles, content, focusKeywords)
     // Hreflang helps Google serve the right language version to each user
     // SEO FIX: Include language versions that have at least a slug OR title
     // This ensures bidirectional linking is complete (Google requires all languages to link to each other)
@@ -1414,9 +1411,6 @@ export async function generateMetadata({ params }: BlogPostPageProps) {
         languageAlternates[hreflangCode] = `${baseUrl}/${lang}/blog/${langSlug}`;
       }
     }
-    // Add x-default pointing to English version
-    languageAlternates['x-default'] = `${baseUrl}/en/blog/${translations['en']?.slug || post.slug}`;
-
     // Build og:image array: featured image first, then sample thumbnails
     const ogImages = [
       ...(post.featuredImage ? [{
@@ -1431,6 +1425,11 @@ export async function generateMetadata({ params }: BlogPostPageProps) {
       ...(post.featuredImage ? [`${baseUrl}${post.featuredImage}`] : []),
       ...sampleOgImages.map(img => img.url),
     ];
+
+    // Build og:locale:alternate for all other available languages
+    const ogLocaleAlternates = SUPPORTED_LOCALES
+      .filter(lang => lang !== locale && (translations[lang]?.slug || translations[lang]?.title))
+      .map(lang => ogLocaleMap[lang] || lang);
 
     return {
       title,
@@ -1455,7 +1454,7 @@ export async function generateMetadata({ params }: BlogPostPageProps) {
         modifiedTime: post.updatedAt.toISOString(),
         authors: [translation.author || 'LessonCraftStudio'],
         section: post.category || 'Education',
-        tags: post.keywords || [],
+        tags: translation.focusKeyword ? [translation.focusKeyword] : [],
         images: ogImages,
       },
       // AUTOMATED: Twitter Card tags
@@ -1484,11 +1483,13 @@ export async function generateMetadata({ params }: BlogPostPageProps) {
         'article:published_time': post.createdAt.toISOString(),
         'article:modified_time': post.updatedAt.toISOString(),
         'article:section': post.category || 'Education',
-        'article:tag': post.keywords?.join(',') || '',
+        'article:tag': translation.focusKeyword || '',
         // E-A-T: Author and publisher link hints for crawlers
         'author': 'LessonCraftStudio Team',
         'publisher': 'LessonCraftStudio',
         'copyright': `© ${new Date().getFullYear()} LessonCraftStudio`,
+        // og:locale:alternate for multilingual social sharing
+        'og:locale:alternate': ogLocaleAlternates,
       },
       // AUTOMATED: Authors metadata (E-A-T signals)
       authors: [

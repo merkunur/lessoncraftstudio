@@ -103,8 +103,15 @@ export function generateBlogSchemas(post: BlogPostData, locale: string, baseUrl:
       "@type": "WebPage",
       "@id": postUrl
     },
-    ...(post.focusKeyword || post.keywords?.length ? {
-      "keywords": post.focusKeyword || post.keywords?.join(', ')
+    "isPartOf": {
+      "@type": "Blog",
+      "@id": `${baseUrl}/${locale}/blog#blog`,
+      "name": `LessonCraftStudio ${blogLabel[locale] || 'Blog'}`,
+      "url": `${baseUrl}/${locale}/blog`,
+      "inLanguage": getHreflangCode(locale)
+    },
+    ...(post.focusKeyword ? {
+      "keywords": post.focusKeyword
     } : {}),
     "articleSection": post.category || 'Education',
     "inLanguage": getHreflangCode(locale),

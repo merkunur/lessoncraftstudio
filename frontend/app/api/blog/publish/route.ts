@@ -116,12 +116,7 @@ async function generateStaticHTML(data: any, locale: string, allLanguages: Recor
       return `  <link rel="alternate" hreflang="${lang}" href="https://lessoncraftstudio.com/${lang}/blog/${langSlug}" />`;
     }).join('\n');
 
-  // Add x-default pointing to English (or primary slug if no English)
-  const defaultSlug = allLanguages['en']?.slug || slug;
-  const xDefaultLink = allLanguages['en']?.title && allLanguages['en']?.content
-    ? `  <link rel="alternate" hreflang="x-default" href="https://lessoncraftstudio.com/en/blog/${defaultSlug}" />`
-    : `  <link rel="alternate" hreflang="x-default" href="https://lessoncraftstudio.com/en/blog/${slug}" />`;
-  const allHreflangLinks = hreflangLinks + (hreflangLinks ? '\n' : '') + xDefaultLink;
+  const allHreflangLinks = hreflangLinks;
 
   // Fetch PDFs for this language from database
   const post = await prisma.blogPost.findUnique({

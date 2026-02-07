@@ -1,6 +1,6 @@
 import type { Metadata, Viewport } from 'next';
 import { Inter, Poppins } from 'next/font/google';
-import { cookies } from 'next/headers';
+import { getLocale } from 'next-intl/server';
 import './globals.css';
 import { Providers } from './providers';
 import { SUPPORTED_LOCALES, DEFAULT_LOCALE, isValidLocale } from '@/config/locales';
@@ -64,15 +64,19 @@ export const viewport: Viewport = {
   maximumScale: 5,
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
-  // Get locale from cookie set by middleware for correct html lang attribute (SEO)
-  const cookieStore = cookies();
-  const localeCookie = cookieStore.get('NEXT_LOCALE')?.value;
-  const lang = localeCookie && isValidLocale(localeCookie) ? localeCookie : DEFAULT_LOCALE;
+  // Get locale from URL-based middleware context (works for Googlebot, no cookies needed)
+  let lang: string;
+  try {
+    lang = await getLocale();
+    if (!isValidLocale(lang)) lang = DEFAULT_LOCALE;
+  } catch {
+    lang = DEFAULT_LOCALE;
+  }
 
   return (
     <html lang={lang}>

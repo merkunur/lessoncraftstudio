@@ -426,7 +426,7 @@ function generatePreviewHTML(data: any): string {
   <footer>
     <div class="container">
       <p>&copy; ${new Date().getFullYear()} LessonCraftStudio. All rights reserved.</p>
-      <p><a href="https://lessoncraftstudio.com">Create Your Own Worksheets</a></p>
+      <p><a href="https://www.lessoncraftstudio.com">Create Your Own Worksheets</a></p>
     </div>
   </footer>
 </body>

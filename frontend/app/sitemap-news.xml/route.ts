@@ -54,7 +54,6 @@ export async function GET() {
         slug: true,
         translations: true,
         createdAt: true,
-        keywords: true,
       },
       orderBy: {
         createdAt: 'desc',
@@ -86,11 +85,6 @@ export async function GET() {
         const publicationDate = post.createdAt.toISOString();
         const title = translation.title;
 
-        // Keywords/tags for the article
-        const keywords = post.keywords && Array.isArray(post.keywords)
-          ? post.keywords.slice(0, 10).join(', ')
-          : '';
-
         urls += `  <url>
     <loc>${escapeXml(postUrl)}</loc>
     <news:news>
@@ -99,8 +93,7 @@ export async function GET() {
         <news:language>${language}</news:language>
       </news:publication>
       <news:publication_date>${publicationDate}</news:publication_date>
-      <news:title>${escapeXml(title)}</news:title>${keywords ? `
-      <news:keywords>${escapeXml(keywords)}</news:keywords>` : ''}
+      <news:title>${escapeXml(title)}</news:title>
     </news:news>
   </url>
 `;

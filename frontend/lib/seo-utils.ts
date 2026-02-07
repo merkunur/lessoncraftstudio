@@ -26,7 +26,7 @@ export const generateSchemaMarkup = (type: string, data: any): SchemaMarkup => {
       return {
         ...baseSchema,
         name: data.name || 'LessonCraftStudio',
-        url: data.url || 'https://lessoncraftstudio.com',
+        url: data.url || 'https://www.lessoncraftstudio.com',
         logo: data.logo,
         sameAs: data.socialProfiles || [],
         contactPoint: {
@@ -255,7 +255,7 @@ export const generateUTMUrl = (url: string, params: UTMParameters): string => {
 };
 
 // Generate canonical URL
-export const generateCanonicalUrl = (path: string, baseUrl: string = 'https://lessoncraftstudio.com'): string => {
+export const generateCanonicalUrl = (path: string, baseUrl: string = 'https://www.lessoncraftstudio.com'): string => {
   // Remove trailing slashes
   const cleanPath = path.replace(/\/+$/, '');
   const cleanBase = baseUrl.replace(/\/+$/, '');

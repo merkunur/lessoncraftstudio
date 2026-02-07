@@ -9,67 +9,67 @@ export async function POST(request: NextRequest) {
     // In production, fetch all public pages from database
     const pages = [
       {
-        loc: 'https://lessoncraftstudio.com/',
+        loc: 'https://www.lessoncraftstudio.com/',
         changefreq: 'daily',
         priority: 1.0,
         lastmod: new Date().toISOString().split('T')[0]
       },
       {
-        loc: 'https://lessoncraftstudio.com/worksheets',
+        loc: 'https://www.lessoncraftstudio.com/worksheets',
         changefreq: 'daily',
         priority: 0.9,
         lastmod: new Date().toISOString().split('T')[0]
       },
       {
-        loc: 'https://lessoncraftstudio.com/worksheets/word-search',
+        loc: 'https://www.lessoncraftstudio.com/worksheets/word-search',
         changefreq: 'weekly',
         priority: 0.8,
         lastmod: new Date(Date.now() - 2 * 24 * 60 * 60 * 1000).toISOString().split('T')[0]
       },
       {
-        loc: 'https://lessoncraftstudio.com/worksheets/math-puzzles',
+        loc: 'https://www.lessoncraftstudio.com/worksheets/math-puzzles',
         changefreq: 'weekly',
         priority: 0.8,
         lastmod: new Date(Date.now() - 5 * 24 * 60 * 60 * 1000).toISOString().split('T')[0]
       },
       {
-        loc: 'https://lessoncraftstudio.com/worksheets/coloring-pages',
+        loc: 'https://www.lessoncraftstudio.com/worksheets/coloring-pages',
         changefreq: 'weekly',
         priority: 0.8,
         lastmod: new Date(Date.now() - 7 * 24 * 60 * 60 * 1000).toISOString().split('T')[0]
       },
       {
-        loc: 'https://lessoncraftstudio.com/pricing',
+        loc: 'https://www.lessoncraftstudio.com/pricing',
         changefreq: 'monthly',
         priority: 0.7,
         lastmod: new Date(Date.now() - 10 * 24 * 60 * 60 * 1000).toISOString().split('T')[0]
       },
       {
-        loc: 'https://lessoncraftstudio.com/about',
+        loc: 'https://www.lessoncraftstudio.com/about',
         changefreq: 'monthly',
         priority: 0.6,
         lastmod: new Date(Date.now() - 30 * 24 * 60 * 60 * 1000).toISOString().split('T')[0]
       },
       {
-        loc: 'https://lessoncraftstudio.com/blog',
+        loc: 'https://www.lessoncraftstudio.com/blog',
         changefreq: 'weekly',
         priority: 0.7,
         lastmod: new Date(Date.now() - 3 * 24 * 60 * 60 * 1000).toISOString().split('T')[0]
       },
       {
-        loc: 'https://lessoncraftstudio.com/contact',
+        loc: 'https://www.lessoncraftstudio.com/contact',
         changefreq: 'yearly',
         priority: 0.5,
         lastmod: new Date(Date.now() - 60 * 24 * 60 * 60 * 1000).toISOString().split('T')[0]
       },
       {
-        loc: 'https://lessoncraftstudio.com/privacy',
+        loc: 'https://www.lessoncraftstudio.com/privacy',
         changefreq: 'yearly',
         priority: 0.3,
         lastmod: new Date(Date.now() - 90 * 24 * 60 * 60 * 1000).toISOString().split('T')[0]
       },
       {
-        loc: 'https://lessoncraftstudio.com/terms',
+        loc: 'https://www.lessoncraftstudio.com/terms',
         changefreq: 'yearly',
         priority: 0.3,
         lastmod: new Date(Date.now() - 90 * 24 * 60 * 60 * 1000).toISOString().split('T')[0]
@@ -101,7 +101,7 @@ export async function GET(request: NextRequest) {
       lastGenerated: new Date().toISOString(),
       pageCount: 11,
       status: 'active',
-      url: 'https://lessoncraftstudio.com/sitemap.xml'
+      url: 'https://www.lessoncraftstudio.com/sitemap.xml'
     });
   } catch (error) {
     console.error('Failed to get sitemap info:', error);

@@ -117,7 +117,7 @@ export default function NewBlogPost() {
       updateTranslation('slug', slug);
 
       // Auto-generate canonical URL
-      const baseUrl = 'https://lessoncraftstudio.com';
+      const baseUrl = 'https://www.lessoncraftstudio.com';
       updateTranslation('canonicalUrl', `${baseUrl}/${currentLang}/blog/${slug}`);
     }
 
@@ -237,7 +237,7 @@ export default function NewBlogPost() {
 
   <!-- Hreflang tags for all languages -->
   ${LANGUAGES.map(l =>
-    `<link rel="alternate" hreflang="${l.code}" href="https://lessoncraftstudio.com/${l.code}/blog/${content.slug}">`
+    `<link rel="alternate" hreflang="${l.code}" href="https://www.lessoncraftstudio.com/${l.code}/blog/${content.slug}">`
   ).join('\n  ')}
 
   <!-- Structured Data -->
@@ -258,7 +258,7 @@ export default function NewBlogPost() {
       "name": "LessonCraftStudio",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://lessoncraftstudio.com/logo.png"
+        "url": "https://www.lessoncraftstudio.com/logo.png"
       }
     },
     "mainEntityOfPage": {
@@ -273,8 +273,8 @@ export default function NewBlogPost() {
   </script>
 
   <!-- Preconnect to optimize loading -->
-  <link rel="preconnect" href="https://lessoncraftstudio.com">
-  <link rel="dns-prefetch" href="https://lessoncraftstudio.com">
+  <link rel="preconnect" href="https://www.lessoncraftstudio.com">
+  <link rel="dns-prefetch" href="https://www.lessoncraftstudio.com">
 </head>
 <body>
   <article data-language="${lang}" data-category="${content.category}">

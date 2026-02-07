@@ -4,6 +4,7 @@ import path from 'path';
 import { prisma } from '@/lib/prisma';
 import { SUPPORTED_LOCALES } from '@/config/locales';
 import { validateAllTranslations, type SEOValidationResult } from '@/lib/blog-seo-validator';
+import { getHreflangCode } from '@/lib/schema-generator';
 
 export const dynamic = 'force-dynamic';
 
@@ -113,7 +114,7 @@ async function generateStaticHTML(data: any, locale: string, allLanguages: Recor
     .filter(lang => allLanguages[lang]?.title && allLanguages[lang]?.content)
     .map(lang => {
       const langSlug = allLanguages[lang]?.slug || slug;
-      return `  <link rel="alternate" hreflang="${lang}" href="https://lessoncraftstudio.com/${lang}/blog/${langSlug}" />`;
+      return `  <link rel="alternate" hreflang="${getHreflangCode(lang)}" href="https://www.lessoncraftstudio.com/${lang}/blog/${langSlug}" />`;
     }).join('\n');
 
   const allHreflangLinks = hreflangLinks;
@@ -239,7 +240,7 @@ async function generateStaticHTML(data: any, locale: string, allLanguages: Recor
   <meta name="readTime" content="${readTime}">
 
   <!-- Canonical URL -->
-  <link rel="canonical" href="https://lessoncraftstudio.com/${locale}/blog/${data.slug || slug}" />
+  <link rel="canonical" href="https://www.lessoncraftstudio.com/${locale}/blog/${data.slug || slug}" />
 
   <!-- Hreflang tags for all languages -->
 ${allHreflangLinks}
@@ -248,7 +249,7 @@ ${allHreflangLinks}
   <meta property="og:title" content="${metaTitle || title}">
   <meta property="og:description" content="${metaDescription || title}">
   <meta property="og:type" content="article">
-  <meta property="og:url" content="https://lessoncraftstudio.com/${locale}/blog/${slug}">
+  <meta property="og:url" content="https://www.lessoncraftstudio.com/${locale}/blog/${slug}">
   <meta property="og:site_name" content="LessonCraftStudio">
   <meta property="og:locale" content="${locale}">
 
@@ -273,11 +274,11 @@ ${allHreflangLinks}
     "publisher": {
       "@type": "Organization",
       "name": "LessonCraftStudio",
-      "url": "https://lessoncraftstudio.com"
+      "url": "https://www.lessoncraftstudio.com"
     },
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://lessoncraftstudio.com/${locale}/blog/${slug}"
+      "@id": "https://www.lessoncraftstudio.com/${locale}/blog/${slug}"
     }
   }
   </script>
@@ -722,7 +723,7 @@ ${allHreflangLinks}
   <footer>
     <div class="container">
       <p>&copy; ${new Date().getFullYear()} LessonCraftStudio. All rights reserved.</p>
-      <p><a href="https://lessoncraftstudio.com">Create Your Own Worksheets</a></p>
+      <p><a href="https://www.lessoncraftstudio.com">Create Your Own Worksheets</a></p>
     </div>
   </footer>
 </body>

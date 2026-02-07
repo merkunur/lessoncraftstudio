@@ -24,6 +24,7 @@ interface BlogPostData {
   focusKeyword?: string;
   keywords?: string[];
   category?: string;
+  categoryDisplayName?: string;
   author?: string;
   createdAt: Date;
   updatedAt: Date;
@@ -76,7 +77,9 @@ export function generateBlogSchemas(post: BlogPostData, locale: string, baseUrl:
     "@id": `${postUrl}#article`,
     "headline": headline,
     "description": description,
-    "image": image,
+    "image": {
+      "@id": `${postUrl}#primaryimage`
+    },
     "author": {
       "@type": "Person",
       "name": post.author || "LessonCraftStudio Team",
@@ -123,30 +126,42 @@ export function generateBlogSchemas(post: BlogPostData, locale: string, baseUrl:
 
   schemas.push(articleSchema);
 
-  // 2. Breadcrumb Schema (localized labels)
+  // 2. Breadcrumb Schema (localized labels, 4-level matching visible breadcrumb)
+  const breadcrumbItems: any[] = [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": blogHomeLabel[locale] || "Home",
+      "item": `${baseUrl}/${locale}`
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": blogLabel[locale] || "Blog",
+      "item": `${baseUrl}/${locale}/blog`
+    }
+  ];
+
+  if (post.category) {
+    breadcrumbItems.push({
+      "@type": "ListItem",
+      "position": 3,
+      "name": post.categoryDisplayName || post.category,
+      "item": `${baseUrl}/${locale}/blog/category/${post.category}`
+    });
+  }
+
+  breadcrumbItems.push({
+    "@type": "ListItem",
+    "position": post.category ? 4 : 3,
+    "name": post.title
+    // No "item" property for current page (Google spec)
+  });
+
   const breadcrumbSchema = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
-    "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "name": blogHomeLabel[locale] || "Home",
-        "item": `${baseUrl}/${locale}`
-      },
-      {
-        "@type": "ListItem",
-        "position": 2,
-        "name": blogLabel[locale] || "Blog",
-        "item": `${baseUrl}/${locale}/blog`
-      },
-      {
-        "@type": "ListItem",
-        "position": 3,
-        "name": post.title
-        // No "item" property for current page (Google spec)
-      }
-    ]
+    "itemListElement": breadcrumbItems
   };
 
   schemas.push(breadcrumbSchema);
@@ -186,9 +201,12 @@ export function generateBlogSchemas(post: BlogPostData, locale: string, baseUrl:
     const imageSchema = {
       "@context": "https://schema.org",
       "@type": "ImageObject",
+      "@id": `${postUrl}#primaryimage`,
       "url": image,
+      "contentUrl": image,
       "caption": title,
-      "description": description
+      "description": description,
+      "inLanguage": getHreflangCode(locale)
     };
 
     schemas.push(imageSchema);

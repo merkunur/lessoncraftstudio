@@ -667,103 +667,6 @@ export default async function BlogPostPage({
 
   const hasBlogSamples = blogSamples.length > 0;
 
-  // Generate SEO Schema Markup (AUTOMATED)
-  // Pass sample image URLs to enrich LearningResource schema with image references
-  const sampleImageUrls = hasBlogSamples ? blogSamples.map(s => s.worksheetSrc) : undefined;
-  const schemas = generateBlogSchemas({
-    slug: localeSlug,
-    title: translation.title || '',
-    metaTitle: translation.metaTitle,
-    metaDescription: translation.metaDescription,
-    excerpt: translation.excerpt,
-    content: htmlContent,
-    featuredImage: post.featuredImage,
-    focusKeyword: translation.focusKeyword,
-    keywords: post.keywords,
-    category: post.category,
-    author: translation.author,
-    createdAt: post.createdAt,
-    updatedAt: post.updatedAt
-  }, locale, undefined, sampleImageUrls);
-
-  // SEO FIX: Expand BlogPosting image field to include gallery samples as @id references
-  // This cross-references the BlogPosting schema with the standalone ImageObject schemas
-  if (hasBlogSamples && schemas.length > 0) {
-    const blogPostingSchema = schemas.find((s: any) => s['@type'] === 'BlogPosting');
-    if (blogPostingSchema) {
-      const baseUrl = 'https://www.lessoncraftstudio.com';
-      const existingImage = blogPostingSchema.image;
-      const sampleImageRefs = blogSamples.map(s => ({
-        '@id': `${baseUrl}${s.worksheetSrc}#imageobject`
-      }));
-      blogPostingSchema.image = existingImage
-        ? [existingImage, ...sampleImageRefs]
-        : sampleImageRefs;
-    }
-  }
-
-  // SEO: Add ImageGallery schema wrapping the sample images
-  if (hasBlogSamples) {
-    const baseUrl = 'https://www.lessoncraftstudio.com';
-    const sectionTitles: Record<string, string> = {
-      en: 'Worksheet Samples', de: 'Arbeitsblatt-Beispiele', fr: 'Exemples de fiches',
-      es: 'Ejemplos de fichas', pt: 'Exemplos de fichas', it: 'Esempi di schede',
-      nl: 'Werkblad-voorbeelden', sv: 'Arbetsbladsexempel', da: 'Arbejdsark-eksempler',
-      no: 'Arbeidsark-eksempler', fi: 'Teht\u00e4v\u00e4esimerkit',
-    };
-    const galleryImages = blogSamples.map(s => ({
-      src: s.worksheetSrc,
-      name: s.productName,
-      description: generateSchemaDescription(s.productName, locale, translation.focusKeyword),
-      caption: s.productName,
-      width: 2480,
-      height: 3508,
-      thumbnailSrc: s.thumbSrc,
-      imageId: `${baseUrl}${s.worksheetSrc}#imageobject`,
-    }));
-    const gallerySchema = generateImageGallerySchema(
-      galleryImages,
-      sectionTitles[locale] || sectionTitles.en,
-      `${baseUrl}/${locale}/blog/${localeSlug}`,
-      locale,
-      baseUrl
-    );
-    schemas.push(gallerySchema);
-  }
-
-  // AUTO-DETECT FAQ and HowTo patterns for rich snippets
-  const contentAnalysis = analyzeContent(htmlContent, translation.title || '');
-
-  // Generate FAQ schema if Q&A patterns detected (with locale for inLanguage)
-  const faqSchema = contentAnalysis.hasFAQ
-    ? generateFAQSchema(contentAnalysis.faqItems, locale)
-    : null;
-
-  // Generate HowTo schema if step-by-step patterns detected (with locale for inLanguage)
-  const howToSchema = contentAnalysis.hasHowTo && contentAnalysis.howToName
-    ? generateHowToSchema(
-        contentAnalysis.howToName,
-        contentAnalysis.howToDescription || '',
-        contentAnalysis.howToSteps,
-        locale
-      )
-    : null;
-
-  // Localized breadcrumb labels
-  const breadcrumbLabels: Record<string, string> = {
-    en: 'Blog',
-    de: 'Blog',
-    fr: 'Blog',
-    es: 'Blog',
-    pt: 'Blog',
-    it: 'Blog',
-    nl: 'Blog',
-    sv: 'Blogg',
-    da: 'Blog',
-    no: 'Blogg',
-    fi: 'Blogi'
-  };
-
   // Localized category display names for breadcrumb (hub-and-spoke SEO)
   const CATEGORY_DISPLAY_NAMES: Record<string, Record<string, string>> = {
     en: {
@@ -865,6 +768,104 @@ export default async function BlogPostPage({
       'parent-resources': 'Vanhempien Resurssit',
       'seasonal-content': 'Kausiluontoinen Sis\u00e4lt\u00f6',
     },
+  };
+
+  // Generate SEO Schema Markup (AUTOMATED)
+  // Pass sample image URLs to enrich LearningResource schema with image references
+  const sampleImageUrls = hasBlogSamples ? blogSamples.map(s => s.worksheetSrc) : undefined;
+  const schemas = generateBlogSchemas({
+    slug: localeSlug,
+    title: translation.title || '',
+    metaTitle: translation.metaTitle,
+    metaDescription: translation.metaDescription,
+    excerpt: translation.excerpt,
+    content: htmlContent,
+    featuredImage: post.featuredImage,
+    focusKeyword: translation.focusKeyword,
+    keywords: post.keywords,
+    category: post.category,
+    categoryDisplayName: CATEGORY_DISPLAY_NAMES[locale]?.[post.category] || post.category,
+    author: translation.author,
+    createdAt: post.createdAt,
+    updatedAt: post.updatedAt
+  }, locale, undefined, sampleImageUrls);
+
+  // SEO FIX: Expand BlogPosting image field to include gallery samples as @id references
+  // This cross-references the BlogPosting schema with the standalone ImageObject schemas
+  if (hasBlogSamples && schemas.length > 0) {
+    const blogPostingSchema = schemas.find((s: any) => s['@type'] === 'BlogPosting');
+    if (blogPostingSchema) {
+      const baseUrl = 'https://www.lessoncraftstudio.com';
+      const existingImage = blogPostingSchema.image;
+      const sampleImageRefs = blogSamples.map(s => ({
+        '@id': `${baseUrl}${s.worksheetSrc}#imageobject`
+      }));
+      blogPostingSchema.image = existingImage
+        ? [existingImage, ...sampleImageRefs]
+        : sampleImageRefs;
+    }
+  }
+
+  // SEO: Add ImageGallery schema wrapping the sample images
+  if (hasBlogSamples) {
+    const baseUrl = 'https://www.lessoncraftstudio.com';
+    const sectionTitles: Record<string, string> = {
+      en: 'Worksheet Samples', de: 'Arbeitsblatt-Beispiele', fr: 'Exemples de fiches',
+      es: 'Ejemplos de fichas', pt: 'Exemplos de fichas', it: 'Esempi di schede',
+      nl: 'Werkblad-voorbeelden', sv: 'Arbetsbladsexempel', da: 'Arbejdsark-eksempler',
+      no: 'Arbeidsark-eksempler', fi: 'Teht\u00e4v\u00e4esimerkit',
+    };
+    const galleryImages = blogSamples.map(s => ({
+      src: s.worksheetSrc,
+      name: s.productName,
+      description: generateSchemaDescription(s.productName, locale, translation.focusKeyword),
+      caption: s.productName,
+      width: 2480,
+      height: 3508,
+      thumbnailSrc: s.thumbSrc,
+      imageId: `${baseUrl}${s.worksheetSrc}#imageobject`,
+    }));
+    const gallerySchema = generateImageGallerySchema(
+      galleryImages,
+      sectionTitles[locale] || sectionTitles.en,
+      `${baseUrl}/${locale}/blog/${localeSlug}`,
+      locale,
+      baseUrl
+    );
+    schemas.push(gallerySchema);
+  }
+
+  // AUTO-DETECT FAQ and HowTo patterns for rich snippets
+  const contentAnalysis = analyzeContent(htmlContent, translation.title || '');
+
+  // Generate FAQ schema if Q&A patterns detected (with locale for inLanguage)
+  const faqSchema = contentAnalysis.hasFAQ
+    ? generateFAQSchema(contentAnalysis.faqItems, locale)
+    : null;
+
+  // Generate HowTo schema if step-by-step patterns detected (with locale for inLanguage)
+  const howToSchema = contentAnalysis.hasHowTo && contentAnalysis.howToName
+    ? generateHowToSchema(
+        contentAnalysis.howToName,
+        contentAnalysis.howToDescription || '',
+        contentAnalysis.howToSteps,
+        locale
+      )
+    : null;
+
+  // Localized breadcrumb labels
+  const breadcrumbLabels: Record<string, string> = {
+    en: 'Blog',
+    de: 'Blog',
+    fr: 'Blog',
+    es: 'Blog',
+    pt: 'Blog',
+    it: 'Blog',
+    nl: 'Blog',
+    sv: 'Blogg',
+    da: 'Blog',
+    no: 'Blogg',
+    fi: 'Blogi'
   };
 
   // Localized "Related Articles" labels
@@ -1479,16 +1480,11 @@ export async function generateMetadata({ params }: BlogPostPageProps) {
       },
       // AUTOMATED: Additional meta tags (E-A-T signals)
       other: {
-        'article:author': translation.author || 'LessonCraftStudio',
-        'article:published_time': post.createdAt.toISOString(),
-        'article:modified_time': post.updatedAt.toISOString(),
-        'article:section': post.category || 'Education',
-        'article:tag': translation.focusKeyword || '',
-        // E-A-T: Author and publisher link hints for crawlers
+        // article:author, article:published_time, article:modified_time,
+        // article:section, article:tag are already generated by openGraph config above
         'author': 'LessonCraftStudio Team',
         'publisher': 'LessonCraftStudio',
         'copyright': `© ${new Date().getFullYear()} LessonCraftStudio`,
-        // og:locale:alternate for multilingual social sharing
         'og:locale:alternate': ogLocaleAlternates,
       },
       // AUTOMATED: Authors metadata (E-A-T signals)

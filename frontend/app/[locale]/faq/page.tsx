@@ -3,7 +3,7 @@ import { getTranslations } from 'next-intl/server';
 import FAQAccordion from '@/components/FAQAccordion';
 import { Button } from '@/components/ui/Button';
 import Link from 'next/link';
-import { getHreflangCode, ogLocaleMap } from '@/lib/schema-generator';
+import { getHreflangCode, ogLocaleMap, generateFAQSchema } from '@/lib/schema-generator';
 import { SUPPORTED_LOCALES } from '@/config/locales';
 
 export async function generateMetadata({ params }: { params: { locale: string } }): Promise<Metadata> {
@@ -82,8 +82,24 @@ export default async function FAQPage({ params: { locale } }: PageProps) {
     }
   ];
 
+  // Flatten all FAQ items for structured data
+  const allFaqItems = [
+    ...faqItems.general,
+    ...faqItems.apps,
+    ...faqItems.pricing,
+    ...faqItems.technical,
+    ...faqItems.commercial
+  ];
+  const faqSchema = generateFAQSchema(allFaqItems, locale);
+
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
+      {/* FAQPage Schema JSON-LD */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-blue-600 to-indigo-700 text-white py-20">
         <div className="container mx-auto px-4">

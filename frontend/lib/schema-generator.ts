@@ -75,6 +75,7 @@ export function generateBlogSchemas(post: BlogPostData, locale: string, baseUrl:
     "@context": "https://schema.org",
     "@type": "BlogPosting",
     "@id": `${postUrl}#article`,
+    "url": postUrl,
     "headline": headline,
     "description": description,
     "image": {
@@ -196,7 +197,6 @@ export function generateBlogSchemas(post: BlogPostData, locale: string, baseUrl:
   schemas.push(educationalSchema);
 
   // 4. ImageObject Schema (if featured image exists)
-  // Note: Removed hardcoded width/height - let Google detect actual image size
   if (post.featuredImage) {
     const imageSchema = {
       "@context": "https://schema.org",
@@ -204,9 +204,21 @@ export function generateBlogSchemas(post: BlogPostData, locale: string, baseUrl:
       "@id": `${postUrl}#primaryimage`,
       "url": image,
       "contentUrl": image,
+      "name": post.title,
       "caption": title,
       "description": description,
-      "inLanguage": getHreflangCode(locale)
+      "width": 1200,
+      "height": 630,
+      "encodingFormat": post.featuredImage.endsWith('.webp') ? 'image/webp' : post.featuredImage.endsWith('.svg') ? 'image/svg+xml' : 'image/png',
+      "inLanguage": getHreflangCode(locale),
+      "license": `${baseUrl}/${locale}/terms`,
+      "acquireLicensePage": `${baseUrl}/${locale}/pricing`,
+      "creditText": "LessonCraftStudio",
+      "copyrightNotice": "\u00a9 2024-2026 LessonCraftStudio",
+      "creator": {
+        "@type": "Organization",
+        "name": "LessonCraftStudio"
+      }
     };
 
     schemas.push(imageSchema);
@@ -231,13 +243,21 @@ export function generateBlogSchemas(post: BlogPostData, locale: string, baseUrl:
   const organizationSchema = {
     "@context": "https://schema.org",
     "@type": "EducationalOrganization",
+    "@id": `${baseUrl}/#organization`,
     "name": "LessonCraftStudio",
     "url": `${baseUrl}/${locale}`,
-    "logo": `${baseUrl}/logo-lcs.png`,
-    // sameAs removed - empty array is invalid JSON-LD
+    "logo": {
+      "@type": "ImageObject",
+      "url": `${baseUrl}/logo-lcs.png`,
+      "width": 600,
+      "height": 600
+    },
     "description": localizedOrgDescriptions[locale] || localizedOrgDescriptions.en,
     "areaServed": "Worldwide",
-    "availableLanguage": ["English", "German", "French", "Spanish", "Portuguese", "Italian", "Dutch", "Swedish", "Danish", "Norwegian", "Finnish"]
+    "availableLanguage": ["English", "German", "French", "Spanish", "Portuguese", "Italian", "Dutch", "Swedish", "Danish", "Norwegian", "Finnish"],
+    "sameAs": [
+      "https://www.pinterest.com/lessoncraftstudio"
+    ]
   };
 
   schemas.push(organizationSchema);
@@ -356,6 +376,7 @@ export function generateHomepageSchemas(locale: string, baseUrl: string = getBas
   const organizationSchema = {
     "@context": "https://schema.org",
     "@type": "EducationalOrganization",
+    "@id": `${baseUrl}/#organization`,
     "name": "LessonCraftStudio",
     "url": baseUrl,
     "logo": {
@@ -397,6 +418,7 @@ export function generateHomepageSchemas(locale: string, baseUrl: string = getBas
     "@context": "https://schema.org",
     "@type": "SoftwareApplication",
     "name": "LessonCraftStudio Worksheet Generators",
+    "url": `${baseUrl}/${locale}`,
     "applicationCategory": "EducationalApplication",
     "operatingSystem": "Web Browser",
     "offers": {
@@ -406,7 +428,11 @@ export function generateHomepageSchemas(locale: string, baseUrl: string = getBas
     },
     "description": homepageSoftwareDescriptions[locale] || homepageSoftwareDescriptions.en,
     "featureList": homepageFeatureLists[locale] || homepageFeatureLists.en,
-    "screenshot": `${baseUrl}/opengraph-image.png`
+    "screenshot": `${baseUrl}/opengraph-image.png`,
+    "provider": {
+      "@type": "Organization",
+      "name": "LessonCraftStudio"
+    }
   };
   schemas.push(softwareSchema);
 
@@ -953,7 +979,11 @@ export function generateImageGallerySchema(
       "width": img.width || 2480,
       "height": img.height || 3508,
       "learningResourceType": "Worksheet",
-      "isAccessibleForFree": true
+      "isAccessibleForFree": true,
+      "license": `${baseUrl}/${locale}/terms`,
+      "acquireLicensePage": `${baseUrl}/${locale}/pricing`,
+      "creditText": "LessonCraftStudio",
+      "copyrightNotice": "\u00a9 2024-2026 LessonCraftStudio"
     })),
     "creator": { "@type": "Organization", "name": "LessonCraftStudio" },
     // Educational properties for the gallery
@@ -967,42 +997,6 @@ export function generateImageGallerySchema(
     // SEO FIX: Use locale-prefixed URL to avoid redirects
     "license": `${baseUrl}/${locale}/terms`,
     "isAccessibleForFree": true
-  };
-}
-
-/**
- * Generate Product Schema for PDF downloads
- * Marks downloadable PDFs as products for rich results
- */
-export function generateProductSchema(
-  name: string,
-  description: string,
-  imageUrl: string,
-  pdfUrl: string,
-  category: string,
-  baseUrl: string = getBaseUrl()
-) {
-  const encodedImage = imageUrl.replace(/ /g, '%20');
-  const encodedPdf = pdfUrl.replace(/ /g, '%20');
-
-  return {
-    "@context": "https://schema.org",
-    "@type": "Product",
-    "name": name,
-    "description": description,
-    "image": `${baseUrl}${encodedImage}`,
-    "brand": {
-      "@type": "Brand",
-      "name": "LessonCraftStudio"
-    },
-    "offers": {
-      "@type": "Offer",
-      "price": "0",
-      "priceCurrency": "USD",
-      "availability": "https://schema.org/InStock",
-      "url": `${baseUrl}${encodedPdf}`
-    },
-    "category": category
   };
 }
 
@@ -1171,7 +1165,6 @@ export function generateAppProductSchemas(
   // 3. WebPage Schema (for page context) - ENHANCED WITH E-A-T SIGNALS
   // E-A-T (Expertise, Authoritativeness, Trustworthiness) signals are critical
   // for educational content ranking
-  const currentDate = new Date().toISOString().split('T')[0];
   const webPageSchema = {
     "@context": "https://schema.org",
     "@type": "WebPage",
@@ -1180,8 +1173,8 @@ export function generateAppProductSchemas(
     "url": pageUrl,
     "inLanguage": getHreflangCode(locale),
     // E-A-T: Publication dates signal content freshness
-    "datePublished": "2024-01-01", // Site launch date
-    "dateModified": currentDate,   // Current date for freshness signal
+    "datePublished": "2024-06-01",
+    "dateModified": "2025-06-01",
     // E-A-T: Author/publisher signals expertise and authority
     "author": {
       "@type": "Organization",
@@ -1224,71 +1217,6 @@ export function generateAppProductSchemas(
   schemas.push(webPageSchema);
 
   return schemas;
-}
-
-/**
- * Generate Course Schema for educational blog content
- * Use this for blog posts that teach specific educational concepts
- */
-export function generateCourseSchema(
-  post: {
-    title: string;
-    description: string;
-    slug: string;
-    category?: string;
-    keywords?: string[];
-    createdAt?: Date;
-    updatedAt?: Date;
-  },
-  locale: string,
-  baseUrl: string = getBaseUrl()
-) {
-  const courseUrl = `${baseUrl}/${locale}/blog/${post.slug}`;
-
-  // Map category to educational level
-  const educationalLevelMap: Record<string, string> = {
-    'math': 'Beginner',
-    'literacy': 'Beginner',
-    'preschool': 'Beginner',
-    'kindergarten': 'Beginner',
-    'elementary': 'Intermediate',
-    'worksheets': 'Beginner',
-    'activities': 'Beginner',
-  };
-
-  const educationalLevel = educationalLevelMap[post.category?.toLowerCase() || ''] || 'Beginner';
-
-  return {
-    "@context": "https://schema.org",
-    "@type": "Course",
-    "name": post.title,
-    "description": post.description,
-    "url": courseUrl,
-    "provider": {
-      "@type": "EducationalOrganization",
-      "name": "LessonCraftStudio",
-      "url": baseUrl,
-      "logo": {
-        "@type": "ImageObject",
-        "url": `${baseUrl}/logo-lcs.png`
-      }
-    },
-    "educationalLevel": educationalLevel,
-    "inLanguage": getHreflangCode(locale),
-    "isAccessibleForFree": true,
-    "courseMode": "online",
-    "teaches": post.keywords?.join(', ') || post.category || 'Educational content',
-    "dateCreated": post.createdAt?.toISOString() || new Date().toISOString(),
-    "dateModified": post.updatedAt?.toISOString() || new Date().toISOString(),
-    "audience": {
-      "@type": "EducationalAudience",
-      "educationalRole": ["teacher", "parent", "student"]
-    },
-    "about": {
-      "@type": "Thing",
-      "name": post.category || "Education"
-    }
-  };
 }
 
 /**

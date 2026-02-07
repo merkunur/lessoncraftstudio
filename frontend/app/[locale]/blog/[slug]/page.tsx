@@ -939,6 +939,10 @@ export default async function BlogPostPage({
             "encodingFormat": "application/pdf",
             "inLanguage": getHreflangCode(locale),
             "isAccessibleForFree": pdf.price === 'Free',
+            ...(pdf.fileSize && { "fileSize": `${Math.round(pdf.fileSize / 1024)}KB` }),
+            ...(pdf.thumbnail && { "thumbnail": `https://www.lessoncraftstudio.com${pdf.thumbnail}` }),
+            "creator": { "@type": "Organization", "name": "LessonCraftStudio" },
+            "license": `https://www.lessoncraftstudio.com/${locale}/terms`,
             "associatedArticle": { "@id": `https://www.lessoncraftstudio.com/${locale}/blog/${slug}#article` }
           }) }}
         />

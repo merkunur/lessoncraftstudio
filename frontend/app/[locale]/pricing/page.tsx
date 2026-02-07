@@ -256,6 +256,8 @@ export default async function PricingPage({ params: { locale } }: PricingPagePro
     "@type": "Product",
     "name": "LessonCraftStudio Worksheet Generators",
     "description": "Professional worksheet generators for teachers and educators",
+    "image": "https://www.lessoncraftstudio.com/opengraph-image.png",
+    "url": `https://www.lessoncraftstudio.com/${locale}/pricing`,
     "brand": { "@type": "Brand", "name": "LessonCraftStudio" },
     "offers": [
       {

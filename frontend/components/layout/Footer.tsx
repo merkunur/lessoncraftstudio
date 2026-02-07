@@ -12,7 +12,7 @@ export function Footer() {
 
   const companyName = 'LessonCraftStudio';
   const tagline = 'Professional worksheet generators for educational publishers.';
-  const copyright = '\u00a9 2024 LessonCraftStudio. All rights reserved.';
+  const copyright = `\u00a9 ${new Date().getFullYear()} LessonCraftStudio. All rights reserved.`;
 
   const sections = {
     product: {
@@ -41,35 +41,73 @@ export function Footer() {
     }
   };
 
-  // Popular generators configuration with locale-specific labels
+  // Popular generators - expanded from 6 to 10
   const popularGenerators = [
-    { appId: 'word-search', labels: { en: 'Word Search', de: 'Wortsuche', fr: 'Mots Cachés', es: 'Sopa de Letras', it: 'Cerca Parole', pt: 'Caça-Palavras', nl: 'Woordzoeker', sv: 'Ordjakt', da: 'Ordsøgning', no: 'Ordsøk', fi: 'Sananhaku' } },
-    { appId: 'image-addition', labels: { en: 'Addition', de: 'Addition', fr: 'Addition', es: 'Suma', it: 'Addizione', pt: 'Adição', nl: 'Optellen', sv: 'Addition', da: 'Addition', no: 'Addisjon', fi: 'Yhteenlasku' } },
-    { appId: 'coloring', labels: { en: 'Coloring', de: 'Malvorlagen', fr: 'Coloriage', es: 'Colorear', it: 'Colorare', pt: 'Colorir', nl: 'Kleurplaten', sv: 'Målarbilder', da: 'Malebog', no: 'Fargelegging', fi: 'Väritys' } },
-    { appId: 'math-worksheet', labels: { en: 'Math', de: 'Mathe', fr: 'Maths', es: 'Matemáticas', it: 'Matematica', pt: 'Matemática', nl: 'Rekenen', sv: 'Matte', da: 'Matematik', no: 'Matte', fi: 'Matematiikka' } },
-    { appId: 'matching-app', labels: { en: 'Matching', de: 'Zuordnung', fr: 'Association', es: 'Relacionar', it: 'Abbinamento', pt: 'Ligar', nl: 'Verbinden', sv: 'Matchning', da: 'Matchning', no: 'Kobling', fi: 'Yhdistä' } },
-    { appId: 'image-crossword', labels: { en: 'Crossword', de: 'Kreuzworträtsel', fr: 'Mots Croisés', es: 'Crucigrama', it: 'Cruciverba', pt: 'Palavras Cruzadas', nl: 'Kruiswoordpuzzel', sv: 'Korsord', da: 'Krydsord', no: 'Kryssord', fi: 'Ristikko' } },
+    { appId: 'word-search', labels: { en: 'Word Search', de: 'Wortsuche', fr: 'Mots Cach\u00e9s', es: 'Sopa de Letras', it: 'Cerca Parole', pt: 'Ca\u00e7a-Palavras', nl: 'Woordzoeker', sv: 'Ordjakt', da: 'Ords\u00f8gning', no: 'Ords\u00f8k', fi: 'Sananhaku' } },
+    { appId: 'image-addition', labels: { en: 'Addition', de: 'Addition', fr: 'Addition', es: 'Suma', it: 'Addizione', pt: 'Adi\u00e7\u00e3o', nl: 'Optellen', sv: 'Addition', da: 'Addition', no: 'Addisjon', fi: 'Yhteenlasku' } },
+    { appId: 'coloring', labels: { en: 'Coloring', de: 'Malvorlagen', fr: 'Coloriage', es: 'Colorear', it: 'Colorare', pt: 'Colorir', nl: 'Kleurplaten', sv: 'M\u00e5larbilder', da: 'Malebog', no: 'Fargelegging', fi: 'V\u00e4ritys' } },
+    { appId: 'math-worksheet', labels: { en: 'Math', de: 'Mathe', fr: 'Maths', es: 'Matem\u00e1ticas', it: 'Matematica', pt: 'Matem\u00e1tica', nl: 'Rekenen', sv: 'Matte', da: 'Matematik', no: 'Matte', fi: 'Matematiikka' } },
+    { appId: 'matching-app', labels: { en: 'Matching', de: 'Zuordnung', fr: 'Association', es: 'Relacionar', it: 'Abbinamento', pt: 'Ligar', nl: 'Verbinden', sv: 'Matchning', da: 'Matchning', no: 'Kobling', fi: 'Yhdist\u00e4' } },
+    { appId: 'image-crossword', labels: { en: 'Crossword', de: 'Kreuzwortr\u00e4tsel', fr: 'Mots Crois\u00e9s', es: 'Crucigrama', it: 'Cruciverba', pt: 'Palavras Cruzadas', nl: 'Kruiswoordpuzzel', sv: 'Korsord', da: 'Krydsord', no: 'Kryssord', fi: 'Ristikko' } },
+    { appId: 'sudoku', labels: { en: 'Sudoku', de: 'Sudoku', fr: 'Sudoku', es: 'Sudoku', it: 'Sudoku', pt: 'Sudoku', nl: 'Sudoku', sv: 'Sudoku', da: 'Sudoku', no: 'Sudoku', fi: 'Sudoku' } },
+    { appId: 'alphabet-train', labels: { en: 'Alphabet', de: 'Alphabet', fr: 'Alphabet', es: 'Abecedario', it: 'Alfabeto', pt: 'Alfabeto', nl: 'Alfabet', sv: 'Alfabet', da: 'Alfabet', no: 'Alfabet', fi: 'Aakkoset' } },
+    { appId: 'subtraction', labels: { en: 'Subtraction', de: 'Subtraktion', fr: 'Soustraction', es: 'Resta', it: 'Sottrazione', pt: 'Subtra\u00e7\u00e3o', nl: 'Aftrekken', sv: 'Subtraktion', da: 'Subtraktion', no: 'Subtraksjon', fi: 'V\u00e4hennyslasku' } },
+    { appId: 'drawing-lines', labels: { en: 'Tracing', de: 'Schwung\u00fcbungen', fr: 'Graphisme', es: 'Grafomotricidad', it: 'Pregrafismo', pt: 'Coordena\u00e7\u00e3o', nl: 'Schrijfmotoriek', sv: 'Finmotorik', da: 'Finmotorik', no: 'Finmotorikk', fi: 'Hienomotoriikka' } },
   ];
 
   // Get localized title for Popular Generators section
   const popularGeneratorsTitle: Record<string, string> = {
     en: 'Popular Generators',
     de: 'Beliebte Generatoren',
-    fr: 'Générateurs Populaires',
+    fr: 'G\u00e9n\u00e9rateurs Populaires',
     es: 'Generadores Populares',
     it: 'Generatori Popolari',
     pt: 'Geradores Populares',
     nl: 'Populaire Generatoren',
-    sv: 'Populära Generatorer',
-    da: 'Populære Generatorer',
-    no: 'Populære Generatorer',
+    sv: 'Popul\u00e4ra Generatorer',
+    da: 'Popul\u00e6re Generatorer',
+    no: 'Popul\u00e6re Generatorer',
     fi: 'Suositut Generaattorit'
   };
+
+  // By Subject - links to category hub pages
+  const bySubjectTitle: Record<string, string> = {
+    en: 'By Subject', de: 'Nach Fach', fr: 'Par Mati\u00e8re', es: 'Por Materia',
+    it: 'Per Materia', pt: 'Por Mat\u00e9ria', nl: 'Per Vak', sv: 'Per \u00c4mne',
+    da: 'Per Fag', no: 'Per Fag', fi: 'Aiheen Mukaan'
+  };
+
+  const subjectLinks = [
+    { slug: 'math', labels: { en: 'Math', de: 'Mathe', fr: 'Maths', es: 'Matem\u00e1ticas', it: 'Matematica', pt: 'Matem\u00e1tica', nl: 'Rekenen', sv: 'Matte', da: 'Matematik', no: 'Matte', fi: 'Matematiikka' } },
+    { slug: 'language-arts', labels: { en: 'Language Arts', de: 'Sprache', fr: 'Fran\u00e7ais', es: 'Lenguaje', it: 'Italiano', pt: 'Portugu\u00eas', nl: 'Taal', sv: 'Spr\u00e5k', da: 'Sprog', no: 'Spr\u00e5k', fi: 'Kieli' } },
+    { slug: 'word-games', labels: { en: 'Word Games', de: 'Wortspiele', fr: 'Jeux de Mots', es: 'Juegos de Palabras', it: 'Giochi di Parole', pt: 'Jogos de Palavras', nl: 'Woordspellen', sv: 'Ordspel', da: 'Ordspil', no: 'Ordspill', fi: 'Sanapelit' } },
+    { slug: 'art-creativity', labels: { en: 'Art & Creativity', de: 'Kunst & Kreativit\u00e4t', fr: 'Art & Cr\u00e9ativit\u00e9', es: 'Arte & Creatividad', it: 'Arte & Creativit\u00e0', pt: 'Arte & Criatividade', nl: 'Kunst & Creativiteit', sv: 'Konst & Kreativitet', da: 'Kunst & Kreativitet', no: 'Kunst & Kreativitet', fi: 'Taide & Luovuus' } },
+    { slug: 'logic-puzzles', labels: { en: 'Logic & Puzzles', de: 'Logik & R\u00e4tsel', fr: 'Logique & Puzzles', es: 'L\u00f3gica & Puzzles', it: 'Logica & Puzzle', pt: 'L\u00f3gica & Quebra-cabe\u00e7as', nl: 'Logica & Puzzels', sv: 'Logik & Pussel', da: 'Logik & Puslespil', no: 'Logikk & Puslespill', fi: 'Logiikka & Pulmat' } },
+    { slug: 'visual-perception', labels: { en: 'Visual Perception', de: 'Visuelle Wahrnehmung', fr: 'Perception visuelle', es: 'Percepci\u00f3n visual', it: 'Percezione visiva', pt: 'Percep\u00e7\u00e3o visual', nl: 'Visuele waarneming', sv: 'Visuell perception', da: 'Visuel perception', no: 'Visuell persepsjon', fi: 'Visuaalinen hahmottaminen' } },
+    { slug: 'matching-sorting', labels: { en: 'Matching & Sorting', de: 'Zuordnung & Sortierung', fr: 'Association & Tri', es: 'Emparejamiento y clasificaci\u00f3n', it: 'Abbinamento e classificazione', pt: 'Associa\u00e7\u00e3o e classifica\u00e7\u00e3o', nl: 'Koppelen & Sorteren', sv: 'Koppla & Sortera', da: 'Parring & Sortering', no: 'Kobling & Sortering', fi: 'Yhdist\u00e4minen ja lajittelu' } },
+    { slug: 'patterns-motor', labels: { en: 'Patterns & Motor Skills', de: 'Muster & Feinmotorik', fr: 'Motifs & Motricit\u00e9 fine', es: 'Patrones y motricidad fina', it: 'Sequenze e motricit\u00e0 fine', pt: 'Padr\u00f5es e coordena\u00e7\u00e3o motora', nl: 'Patronen & Fijne motoriek', sv: 'M\u00f6nster & Finmotorik', da: 'M\u00f8nstre & Finmotorik', no: 'M\u00f8nstre & Finmotorikk', fi: 'Kuviot ja hienomotoriikka' } },
+  ];
+
+  // By Grade - links to grade-level pages
+  const byGradeTitle: Record<string, string> = {
+    en: 'By Grade', de: 'Nach Klasse', fr: 'Par Niveau', es: 'Por Grado',
+    it: 'Per Classe', pt: 'Por S\u00e9rie', nl: 'Per Groep', sv: 'Per \u00c5rskurs',
+    da: 'Per Klasse', no: 'Per Klasse', fi: 'Luokittain'
+  };
+
+  const gradeLinks = [
+    { slug: 'preschool', labels: { en: 'Preschool', de: 'Vorschule', fr: 'Maternelle', es: 'Preescolar', it: 'Scuola dell\'Infanzia', pt: 'Pr\u00e9-escola', nl: 'Kleutergroep', sv: 'F\u00f6rskola', da: 'B\u00f8rnehave', no: 'Barnehage', fi: 'Esikoulu' } },
+    { slug: 'kindergarten', labels: { en: 'Kindergarten', de: 'Kindergarten', fr: 'Grande Section', es: 'Jard\u00edn de Infantes', it: 'Scuola Materna', pt: 'Jardim de Inf\u00e2ncia', nl: 'Groep 1-2', sv: 'F\u00f6rskoleklass', da: '0. Klasse', no: 'F\u00f8rskole', fi: 'Esikoulu' } },
+    { slug: 'first-grade', labels: { en: 'Grade 1', de: '1. Klasse', fr: 'CP', es: '1\u00b0 Grado', it: '1\u00aa Elementare', pt: '1\u00ba Ano', nl: 'Groep 3', sv: '\u00c5rskurs 1', da: '1. Klasse', no: '2. Klasse', fi: '1. Luokka' } },
+    { slug: 'second-grade', labels: { en: 'Grade 2', de: '2. Klasse', fr: 'CE1', es: '2\u00b0 Grado', it: '2\u00aa Elementare', pt: '2\u00ba Ano', nl: 'Groep 4', sv: '\u00c5rskurs 2', da: '2. Klasse', no: '3. Klasse', fi: '2. Luokka' } },
+    { slug: 'third-grade', labels: { en: 'Grade 3', de: '3. Klasse', fr: 'CE2', es: '3\u00b0 Grado', it: 'Terza elementare', pt: '3\u00ba Ano', nl: 'Groep 5', sv: '\u00c5rskurs 3', da: '3. klasse', no: '4. Klasse', fi: '3. luokka' } },
+  ];
 
   return (
     <footer className="bg-gray-900 text-gray-300 py-12 mt-20">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-5 gap-8">
+        {/* Main footer grid - 7 columns on desktop */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-7 gap-8">
           {/* Company Info */}
           <div>
             <h3 className="text-white font-semibold mb-4">{companyName}</h3>
@@ -94,6 +132,38 @@ export function Footer() {
                   </li>
                 );
               })}
+            </ul>
+          </div>
+
+          {/* By Subject - Category hub page links */}
+          <div>
+            <h4 className="text-white font-semibold mb-4">
+              {bySubjectTitle[locale] || 'By Subject'}
+            </h4>
+            <ul className="space-y-2 text-sm">
+              {subjectLinks.map(subject => (
+                <li key={subject.slug}>
+                  <Link href={`/${locale}/apps/category/${subject.slug}`} className="hover:text-white">
+                    {subject.labels[locale as keyof typeof subject.labels] || subject.labels.en}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* By Grade - Grade-level page links */}
+          <div>
+            <h4 className="text-white font-semibold mb-4">
+              {byGradeTitle[locale] || 'By Grade'}
+            </h4>
+            <ul className="space-y-2 text-sm">
+              {gradeLinks.map(grade => (
+                <li key={grade.slug}>
+                  <Link href={`/${locale}/apps/grades/${grade.slug}`} className="hover:text-white">
+                    {grade.labels[locale as keyof typeof grade.labels] || grade.labels.en}
+                  </Link>
+                </li>
+              ))}
             </ul>
           </div>
 

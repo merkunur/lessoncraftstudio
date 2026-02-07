@@ -6,3 +6,4 @@ export { default as HowItWorks } from './HowItWorks';
 export { default as HomepageCTA } from './HomepageCTA';
 export { default as HomepageBlogPosts } from './HomepageBlogPosts';
 export { default as VideoLightbox } from './VideoLightbox';
+export { default as HomepageFAQ } from './HomepageFAQ';

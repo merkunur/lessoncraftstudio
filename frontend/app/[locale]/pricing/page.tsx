@@ -13,10 +13,58 @@ interface PricingPageProps {
   };
 }
 
+// SEO-optimized pricing metadata with concrete pricing signals
+const pricingMetadata: Record<string, { title: string; description: string }> = {
+  en: {
+    title: 'Pricing: Free, $15/mo Core & $25/mo Full Access Plans | LessonCraftStudio',
+    description: 'Choose your plan: Free Word Search generator, $15/mo Core Bundle with 10 generators, or $25/mo Full Access to all 33 worksheet generators. Commercial license included. Cancel anytime.'
+  },
+  de: {
+    title: 'Preise: Kostenlos, 15$/Monat Basis & 25$/Monat Voller Zugang | LessonCraftStudio',
+    description: 'W\u00e4hlen Sie Ihren Plan: Kostenloser Wortsuchr\u00e4tsel-Generator, 15$/Monat Basis-Paket mit 10 Generatoren oder 25$/Monat Voller Zugang zu allen 33 Generatoren. Jederzeit k\u00fcndbar.'
+  },
+  fr: {
+    title: 'Tarifs : Gratuit, 15$/mois Essentiel & 25$/mois Acc\u00e8s Complet | LessonCraftStudio',
+    description: 'Choisissez votre plan : G\u00e9n\u00e9rateur de mots cach\u00e9s gratuit, 15$/mois Essentiel avec 10 g\u00e9n\u00e9rateurs ou 25$/mois Acc\u00e8s Complet aux 33 g\u00e9n\u00e9rateurs. Annulez \u00e0 tout moment.'
+  },
+  es: {
+    title: 'Precios: Gratis, $15/mes Esencial & $25/mes Acceso Completo | LessonCraftStudio',
+    description: 'Elija su plan: Generador de sopa de letras gratis, $15/mes Esencial con 10 generadores o $25/mes Acceso Completo a los 33 generadores. Cancele en cualquier momento.'
+  },
+  pt: {
+    title: 'Pre\u00e7os: Gr\u00e1tis, $15/m\u00eas Essencial & $25/m\u00eas Acesso Completo | LessonCraftStudio',
+    description: 'Escolha seu plano: Gerador de ca\u00e7a-palavras gr\u00e1tis, $15/m\u00eas Essencial com 10 geradores ou $25/m\u00eas Acesso Completo a todos os 33 geradores. Cancele a qualquer momento.'
+  },
+  it: {
+    title: 'Prezzi: Gratis, $15/mese Base & $25/mese Accesso Completo | LessonCraftStudio',
+    description: 'Scegli il tuo piano: Generatore cerca parole gratis, $15/mese Base con 10 generatori o $25/mese Accesso Completo a tutti i 33 generatori. Annulla in qualsiasi momento.'
+  },
+  nl: {
+    title: 'Prijzen: Gratis, $15/maand Basis & $25/maand Volledige Toegang | LessonCraftStudio',
+    description: 'Kies uw plan: Gratis woordzoeker generator, $15/maand Basispakket met 10 generatoren of $25/maand Volledige Toegang tot alle 33 generatoren. Op elk moment opzegbaar.'
+  },
+  sv: {
+    title: 'Priser: Gratis, $15/m\u00e5nad Grund & $25/m\u00e5nad Full \u00c5tkomst | LessonCraftStudio',
+    description: 'V\u00e4lj ditt abonnemang: Gratis ordjakts-generator, $15/m\u00e5nad Grundpaket med 10 generatorer eller $25/m\u00e5nad Full \u00c5tkomst till alla 33 generatorer. Avsluta n\u00e4r som helst.'
+  },
+  da: {
+    title: 'Priser: Gratis, $15/m\u00e5ned Grund & $25/m\u00e5ned Fuld Adgang | LessonCraftStudio',
+    description: 'V\u00e6lg dit abonnement: Gratis ords\u00f8gning-generator, $15/m\u00e5ned Grundpakke med 10 generatorer eller $25/m\u00e5ned Fuld Adgang til alle 33 generatorer. Opsig n\u00e5r som helst.'
+  },
+  no: {
+    title: 'Priser: Gratis, $15/m\u00e5ned Grunn & $25/m\u00e5ned Full Tilgang | LessonCraftStudio',
+    description: 'Velg ditt abonnement: Gratis ords\u00f8k-generator, $15/m\u00e5ned Grunnpakke med 10 generatorer eller $25/m\u00e5ned Full Tilgang til alle 33 generatorer. Avslutt n\u00e5r som helst.'
+  },
+  fi: {
+    title: 'Hinnat: Ilmainen, $15/kk Perus & $25/kk T\u00e4ysi K\u00e4ytt\u00f6oikeus | LessonCraftStudio',
+    description: 'Valitse suunnitelmasi: Ilmainen sanaristikko-generaattori, $15/kk Peruspaketti 10 generaattorilla tai $25/kk T\u00e4ysi K\u00e4ytt\u00f6oikeus kaikkiin 33 generaattoriin. Peru milloin tahansa.'
+  }
+};
+
 export async function generateMetadata({ params }: { params: { locale: string } }): Promise<Metadata> {
   const locale = params.locale || 'en';
   const baseUrl = 'https://www.lessoncraftstudio.com';
-  const t = await getTranslations({ locale, namespace: 'pricing' });
+  const meta = pricingMetadata[locale] || pricingMetadata.en;
 
   // Generate hreflang alternates with proper regional codes (pt-BR, es-MX)
   const locales = SUPPORTED_LOCALES;
@@ -25,21 +73,17 @@ export async function generateMetadata({ params }: { params: { locale: string } 
     const hreflangCode = getHreflangCode(lang);
     hreflangAlternates[hreflangCode] = `${baseUrl}/${lang}/pricing`;
   }
-  hreflangAlternates['x-default'] = `${baseUrl}/en/pricing`;
-
-  // SEO FIX: Include brand name in title for better recognition and CTR
-  const pageTitle = `${t('heroTitle')} | LessonCraftStudio`;
 
   return {
-    title: pageTitle,
-    description: t('heroSubtitle'),
+    title: meta.title,
+    description: meta.description,
     alternates: {
       canonical: `${baseUrl}/${locale}/pricing`,
       languages: hreflangAlternates
     },
     openGraph: {
-      title: pageTitle,
-      description: t('heroSubtitle'),
+      title: meta.title,
+      description: meta.description,
       type: 'website',
       url: `${baseUrl}/${locale}/pricing`,
       siteName: 'LessonCraftStudio',
@@ -206,8 +250,66 @@ export default async function PricingPage({ params: { locale } }: PricingPagePro
   const orYearly = t('labels.orYearly');
   const perYear = t('labels.perYear');
 
+  // Pricing schema for rich results
+  const pricingSchema = {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "LessonCraftStudio Worksheet Generators",
+    "description": "Professional worksheet generators for teachers and educators",
+    "brand": { "@type": "Brand", "name": "LessonCraftStudio" },
+    "offers": [
+      {
+        "@type": "Offer",
+        "name": "Free",
+        "price": "0",
+        "priceCurrency": "USD",
+        "description": "Access to Word Search generator",
+        "availability": "https://schema.org/InStock",
+        "url": `https://www.lessoncraftstudio.com/${locale}/auth/signup`
+      },
+      {
+        "@type": "Offer",
+        "name": "Core Bundle",
+        "price": "15",
+        "priceCurrency": "USD",
+        "description": "Access to 10 core worksheet generators with commercial license",
+        "availability": "https://schema.org/InStock",
+        "priceSpecification": {
+          "@type": "UnitPriceSpecification",
+          "price": "15",
+          "priceCurrency": "USD",
+          "unitCode": "MON",
+          "referenceQuantity": { "@type": "QuantitativeValue", "value": "1", "unitCode": "MON" }
+        },
+        "url": `https://www.lessoncraftstudio.com/${locale}/auth/signup?plan=core`
+      },
+      {
+        "@type": "Offer",
+        "name": "Full Access",
+        "price": "25",
+        "priceCurrency": "USD",
+        "description": "Access to all 33 worksheet generators with commercial license",
+        "availability": "https://schema.org/InStock",
+        "priceSpecification": {
+          "@type": "UnitPriceSpecification",
+          "price": "25",
+          "priceCurrency": "USD",
+          "unitCode": "MON",
+          "referenceQuantity": { "@type": "QuantitativeValue", "value": "1", "unitCode": "MON" }
+        },
+        "url": `https://www.lessoncraftstudio.com/${locale}/auth/signup?plan=full`
+      }
+    ]
+  };
+
   return (
     <div className="min-h-screen bg-gray-50">
+      {/* Pricing Schema JSON-LD */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(pricingSchema) }}
+      />
+
       {/* Pinterest conversion tracking for pricing page views */}
       <PricingPageTracker />
 

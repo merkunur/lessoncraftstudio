@@ -10,6 +10,7 @@ import { getRelatedBlogPostsForProduct } from '@/lib/blog-data';
 import { getKeywordsForApp } from '@/lib/internal-linking';
 import { generateLocalizedTitle, generateLocalizedCaption, generateLocalizedAltText, generateLocalizedAnswerKeyTitle, generateLocalizedAnswerKeyCaption } from '@/lib/localized-seo-templates';
 import type { SupportedLocale } from '@/config/product-page-slugs';
+import { getDefaultProductFAQs } from '@/lib/default-product-faqs';
 import {
   type DiscoveredSample,
   discoverSamplesFromFilesystem,
@@ -302,11 +303,11 @@ function SchemaScripts({
   const baseUrl = 'https://www.lessoncraftstudio.com';
   const pageUrl = `${baseUrl}/${locale}/apps/${slug}`;
 
-  // Prepare FAQ data for schema
-  const faqs = content?.faq?.items?.map((item: any) => ({
-    question: item.question,
-    answer: item.answer
-  }));
+  // Prepare FAQ data for schema — use content items if available, otherwise generic fallback
+  const contentFaqs = content?.faq?.items?.filter((item: any) => item.question && item.answer);
+  const faqs = contentFaqs && contentFaqs.length > 0
+    ? contentFaqs.map((item: any) => ({ question: item.question, answer: item.answer }))
+    : getDefaultProductFAQs(appData.name, locale);
 
   // Prepare HowTo data for schema
   const howTo = content?.howTo ? {
@@ -376,6 +377,11 @@ function SchemaScripts({
   // Gallery name for ImageGallery schema - fallback ensures schema is always generated
   const galleryName = content?.samples?.sectionTitle || `${appData.name} Worksheet Samples`;
 
+  // Use first sample's preview WebP as the product screenshot for schema
+  const firstSampleScreenshot = allSampleImages.length > 0
+    ? `${baseUrl}${allSampleImages[0].src?.replace(/\.(jpeg|jpg|png)$/i, '_preview.webp')}`
+    : undefined;
+
   // Generate all schemas using the comprehensive function
   const schemas = generateAllProductPageSchemas(
     appData,
@@ -385,7 +391,8 @@ function SchemaScripts({
     howTo,
     allSampleImages,
     baseUrl,
-    galleryName
+    galleryName,
+    firstSampleScreenshot
   );
 
   return (
@@ -480,7 +487,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
         description: content.seo.description,
         url: canonicalUrl,
         siteName: 'LessonCraftStudio',
-        type: 'article',
+        type: 'website',
         locale: ogLocale,
         images: ogImages,
       },

@@ -1397,20 +1397,12 @@ export default function SampleGallery({ locale, dynamicImages = {}, seoData = {}
 
       <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section header */}
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: "-100px" }}
-          transition={{ duration: 0.6 }}
-          className="text-center mb-16"
+        <div
+          className="text-center mb-16 animate-[fadeInUp_0.6s_ease-out_both]"
         >
           {/* Badge */}
-          <motion.div
-            initial={{ opacity: 0, scale: 0.9 }}
-            whileInView={{ opacity: 1, scale: 1 }}
-            viewport={{ once: true }}
-            transition={{ delay: 0.2 }}
-            className="inline-flex items-center gap-2 px-4 py-2 rounded-full mb-6"
+          <div
+            className="inline-flex items-center gap-2 px-4 py-2 rounded-full mb-6 animate-[fadeIn_0.6s_ease-out_0.2s_both]"
             style={{
               background: 'rgba(16,185,129,0.1)',
               border: '1px solid rgba(16,185,129,0.2)',
@@ -1420,7 +1412,7 @@ export default function SampleGallery({ locale, dynamicImages = {}, seoData = {}
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
             </svg>
             <span className="text-sm font-medium text-emerald-400">{content.badge}</span>
-          </motion.div>
+          </div>
 
           <h2
             className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4"
@@ -1433,12 +1425,8 @@ export default function SampleGallery({ locale, dynamicImages = {}, seoData = {}
           </p>
 
           {/* Stats */}
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ delay: 0.4 }}
-            className="flex justify-center gap-8 mt-8"
+          <div
+            className="flex justify-center gap-8 mt-8 animate-[fadeInUp_0.6s_ease-out_0.4s_both]"
           >
             <div className="text-center">
               <div className="text-2xl font-bold text-white">{content.statSamples}</div>
@@ -1454,8 +1442,8 @@ export default function SampleGallery({ locale, dynamicImages = {}, seoData = {}
               <div className="text-2xl font-bold text-white">{content.statFormat}</div>
               <div className="text-sm text-white/40">{content.statFormatLabel}</div>
             </div>
-          </motion.div>
-        </motion.div>
+          </div>
+        </div>
 
         {/* Samples grid - only show samples with uploaded homepage thumbnails */}
         {/* Filter to prevent 404 errors from non-existent fallback image paths */}
@@ -1463,27 +1451,19 @@ export default function SampleGallery({ locale, dynamicImages = {}, seoData = {}
           {samples
             .filter(sample => dynamicImages[getAppSlug(sample.productPageSlug)] !== undefined)
             .map((sample, index) => (
-            <motion.div
+            <div
               key={sample.id}
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: "-50px" }}
-              transition={{ duration: 0.5, delay: index * 0.02 }}
-              className="group relative"
+              className="group relative animate-[fadeInUp_0.5s_ease-out_both]"
+              style={{ animationDelay: `${index * 0.02}s` }}
               onMouseEnter={() => setHoveredId(sample.id)}
               onMouseLeave={() => setHoveredId(null)}
             >
-              <motion.div
-                className="relative rounded-xl overflow-hidden"
+              <div
+                className="relative rounded-xl overflow-hidden transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_20px_40px_-10px_rgba(0,0,0,0.5)]"
                 style={{
                   background: 'linear-gradient(135deg, rgba(255,255,255,0.05) 0%, rgba(255,255,255,0.02) 100%)',
                   border: '1px solid rgba(255,255,255,0.08)',
                 }}
-                whileHover={{
-                  y: -8,
-                  boxShadow: '0 20px 40px -10px rgba(0,0,0,0.5)',
-                }}
-                transition={{ type: "spring", stiffness: 300, damping: 25 }}
               >
                 {/* Category badge */}
                 <div className="absolute top-3 left-3 z-10">
@@ -1573,18 +1553,14 @@ export default function SampleGallery({ locale, dynamicImages = {}, seoData = {}
                     </svg>
                   </Link>
                 </div>
-              </motion.div>
-            </motion.div>
+              </div>
+            </div>
           ))}
         </div>
 
         {/* CTA */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ delay: 0.3 }}
-          className="text-center mt-12"
+        <div
+          className="text-center mt-12 animate-[fadeInUp_0.6s_ease-out_0.3s_both]"
         >
           <Link
             href={`/${locale}/apps`}
@@ -1595,8 +1571,20 @@ export default function SampleGallery({ locale, dynamicImages = {}, seoData = {}
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
             </svg>
           </Link>
-        </motion.div>
+        </div>
       </div>
+
+      {/* CSS Keyframes for SSR-visible animations */}
+      <style jsx>{`
+        @keyframes fadeIn {
+          from { opacity: 0; }
+          to { opacity: 1; }
+        }
+        @keyframes fadeInUp {
+          from { opacity: 0; transform: translateY(30px); }
+          to { opacity: 1; transform: translateY(0); }
+        }
+      `}</style>
     </section>
   );
 }

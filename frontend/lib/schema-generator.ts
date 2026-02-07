@@ -366,7 +366,10 @@ export function generateHomepageSchemas(locale: string, baseUrl: string = getBas
     },
     "description": homepageOrgDescriptions[locale] || homepageOrgDescriptions.en,
     "areaServed": "Worldwide",
-    "availableLanguage": ["English", "German", "French", "Spanish", "Portuguese", "Italian", "Dutch", "Swedish", "Danish", "Norwegian", "Finnish"]
+    "availableLanguage": ["English", "German", "French", "Spanish", "Portuguese", "Italian", "Dutch", "Swedish", "Danish", "Norwegian", "Finnish"],
+    "sameAs": [
+      "https://www.pinterest.com/lessoncraftstudio"
+    ]
   };
   schemas.push(organizationSchema);
 
@@ -517,7 +520,7 @@ export interface AppProductData {
 /**
  * Localized breadcrumb labels for "Apps" link
  */
-const localizedAppsLabel: Record<string, string> = {
+export const localizedAppsLabel: Record<string, string> = {
   en: "Apps",
   de: "Apps",
   fr: "Applications",
@@ -534,7 +537,7 @@ const localizedAppsLabel: Record<string, string> = {
 /**
  * Localized home labels
  */
-const localizedHomeLabel: Record<string, string> = {
+export const localizedHomeLabel: Record<string, string> = {
   en: "Home",
   de: "Startseite",
   fr: "Accueil",
@@ -1015,12 +1018,13 @@ export function generateAllProductPageSchemas(
   howTo?: { title: string; description: string; steps: HowToStepData[] },
   sampleImages?: SampleImageData[],
   baseUrl: string = getBaseUrl(),
-  galleryName?: string
+  galleryName?: string,
+  screenshotUrl?: string
 ): object[] {
   const schemas: object[] = [];
 
   // 1. Core schemas (SoftwareApplication, BreadcrumbList, WebPage)
-  schemas.push(...generateAppProductSchemas(appData, locale, pageUrl, baseUrl));
+  schemas.push(...generateAppProductSchemas(appData, locale, pageUrl, baseUrl, screenshotUrl));
 
   // 2. FAQPage schema (if FAQ content provided)
   if (faqs && faqs.length > 0) {
@@ -1060,7 +1064,8 @@ export function generateAppProductSchemas(
   appData: AppProductData,
   locale: string,
   pageUrl: string,
-  baseUrl: string = getBaseUrl()
+  baseUrl: string = getBaseUrl(),
+  screenshotUrl?: string
 ): object[] {
   const schemas: object[] = [];
 
@@ -1129,7 +1134,7 @@ export function generateAppProductSchemas(
       "educationalRole": "Teacher",
       "audienceType": "Educators"
     },
-    "screenshot": `${baseUrl}/opengraph-image.png`
+    "screenshot": screenshotUrl || `${baseUrl}/opengraph-image.png`
   };
 
   schemas.push(softwareAppSchema);

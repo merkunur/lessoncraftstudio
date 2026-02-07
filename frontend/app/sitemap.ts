@@ -223,7 +223,48 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     }
   }
 
-  // Combine all routes: static pages, product pages, category archives, then blog posts
+  // Product category hub pages (8 categories x 11 locales = 88 pages)
+  const productCategoryRoutes: MetadataRoute.Sitemap = [];
+  const productCategories = [
+    'math', 'language-arts', 'word-games', 'art-creativity',
+    'logic-puzzles', 'visual-perception', 'matching-sorting', 'patterns-motor'
+  ];
+  for (const locale of locales) {
+    for (const cat of productCategories) {
+      const catAlternates: Record<string, string> = {};
+      for (const lang of locales) {
+        catAlternates[getHreflangCode(lang)] = `${baseUrl}/${lang}/apps/category/${cat}`;
+      }
+      productCategoryRoutes.push({
+        url: `${baseUrl}/${locale}/apps/category/${cat}`,
+        lastModified: currentDate,
+        changeFrequency: 'weekly' as const,
+        priority: 0.7,
+        alternates: { languages: catAlternates },
+      });
+    }
+  }
+
+  // Grade-level landing pages (5 grades x 11 locales = 55 pages)
+  const gradeRoutes: MetadataRoute.Sitemap = [];
+  const grades = ['preschool', 'kindergarten', 'first-grade', 'second-grade', 'third-grade'];
+  for (const locale of locales) {
+    for (const grade of grades) {
+      const gradeAlternates: Record<string, string> = {};
+      for (const lang of locales) {
+        gradeAlternates[getHreflangCode(lang)] = `${baseUrl}/${lang}/apps/grades/${grade}`;
+      }
+      gradeRoutes.push({
+        url: `${baseUrl}/${locale}/apps/grades/${grade}`,
+        lastModified: currentDate,
+        changeFrequency: 'weekly' as const,
+        priority: 0.7,
+        alternates: { languages: gradeAlternates },
+      });
+    }
+  }
+
+  // Combine all routes: static, product, product categories, grades, blog categories, blog posts
   // Order matters for crawl priority
-  return [...staticRoutes, ...productRoutes, ...categoryRoutes, ...blogRoutes];
+  return [...staticRoutes, ...productRoutes, ...productCategoryRoutes, ...gradeRoutes, ...categoryRoutes, ...blogRoutes];
 }

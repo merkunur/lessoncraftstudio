@@ -473,6 +473,15 @@ export default function AppCategories({ locale }: AppCategoriesProps) {
           </div>
         )}
 
+        {/* Crawlable links for all apps - visible to search engines, hidden from visual users */}
+        <nav className="sr-only" aria-label="All worksheet generators">
+          {categories.map(cat => cat.apps.map(app => (
+            <Link key={app.slug} href={`/${locale}/apps/${getLocalizedSlug(app.slug)}`}>
+              {getAppName(app)}
+            </Link>
+          )))}
+        </nav>
+
         {/* View all link */}
         <div className="text-center mt-12">
           <Link

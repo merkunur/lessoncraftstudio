@@ -37,48 +37,48 @@ export async function generateMetadata({ params, searchParams }: BlogPageProps):
   // Localized titles and descriptions
   const metadata: Record<string, { title: string; description: string }> = {
     en: {
-      title: 'Educational Blog - Teaching Resources & Worksheet Tips | LessonCraftStudio',
-      description: 'Discover expert teaching strategies, worksheet design tips, and educational resources. Free guides for teachers, parents, and educators.'
+      title: 'Teaching Resources & Worksheet Tips Blog | 100+ Expert Articles | LessonCraftStudio',
+      description: 'Discover 100+ expert articles on teaching strategies, worksheet design tips, and free educational resources. Guides for teachers, parents, and homeschool educators.'
     },
     de: {
-      title: 'Bildungs-Blog - Unterrichtsmaterialien & Arbeitsblatt-Tipps | LessonCraftStudio',
-      description: 'Entdecken Sie Expertentipps für Unterricht, Arbeitsblattgestaltung und Bildungsressourcen. Kostenlose Anleitungen für Lehrer, Eltern und Pädagogen.'
+      title: 'Unterrichtsmaterialien & Arbeitsblatt-Tipps Blog | 100+ Fachartikel | LessonCraftStudio',
+      description: 'Entdecken Sie 100+ Fachartikel zu Unterrichtsstrategien, Arbeitsblattgestaltung und kostenlose Bildungsressourcen. Anleitungen f\u00fcr Lehrer, Eltern und P\u00e4dagogen.'
     },
     fr: {
-      title: 'Blog Éducatif - Ressources Pédagogiques & Conseils | LessonCraftStudio',
-      description: 'Découvrez des stratégies d\'enseignement expertes, des conseils de conception de feuilles de travail et des ressources éducatives. Guides gratuits pour enseignants et parents.'
+      title: 'Ressources P\u00e9dagogiques & Conseils Fiches Blog | 100+ Articles Experts | LessonCraftStudio',
+      description: 'D\u00e9couvrez 100+ articles experts sur les strat\u00e9gies d\'enseignement, la conception de fiches et les ressources \u00e9ducatives gratuites. Guides pour enseignants et parents.'
     },
     es: {
-      title: 'Blog Educativo - Recursos Didácticos & Consejos | LessonCraftStudio',
-      description: 'Descubre estrategias de enseñanza expertas, consejos para diseñar hojas de trabajo y recursos educativos. Guías gratuitas para maestros y padres.'
+      title: 'Recursos Did\u00e1cticos & Consejos Fichas Blog | 100+ Art\u00edculos Expertos | LessonCraftStudio',
+      description: 'Descubra 100+ art\u00edculos expertos sobre estrategias de ense\u00f1anza, dise\u00f1o de fichas y recursos educativos gratuitos. Gu\u00edas para maestros y padres.'
     },
     pt: {
-      title: 'Blog Educacional - Recursos Pedagógicos & Dicas | LessonCraftStudio',
-      description: 'Descubra estratégias de ensino especializadas, dicas de design de planilhas e recursos educacionais. Guias gratuitos para professores e pais.'
+      title: 'Recursos Pedag\u00f3gicos & Dicas de Atividades Blog | 100+ Artigos Especializados | LessonCraftStudio',
+      description: 'Descubra 100+ artigos especializados sobre estrat\u00e9gias de ensino, design de atividades e recursos educacionais gratuitos. Guias para professores e pais.'
     },
     it: {
-      title: 'Blog Educativo - Risorse Didattiche & Consigli | LessonCraftStudio',
-      description: 'Scopri strategie di insegnamento esperte, suggerimenti per la progettazione di schede e risorse educative. Guide gratuite per insegnanti e genitori.'
+      title: 'Risorse Didattiche & Consigli Schede Blog | 100+ Articoli Esperti | LessonCraftStudio',
+      description: 'Scopri 100+ articoli esperti su strategie di insegnamento, progettazione di schede e risorse educative gratuite. Guide per insegnanti e genitori.'
     },
     nl: {
-      title: 'Educatieve Blog - Lesmateriaal & Werkblad Tips | LessonCraftStudio',
-      description: 'Ontdek deskundige onderwijsstrategieën, werkbladontwerp tips en educatieve bronnen. Gratis gidsen voor leraren en ouders.'
+      title: 'Lesmateriaal & Werkblad Tips Blog | 100+ Deskundige Artikelen | LessonCraftStudio',
+      description: 'Ontdek 100+ deskundige artikelen over onderwijsstrategie\u00ebn, werkbladontwerp en gratis educatieve bronnen. Gidsen voor leraren en ouders.'
     },
     sv: {
-      title: 'Utbildningsblogg - Undervisningsmaterial & Arbetsbladstips | LessonCraftStudio',
-      description: 'Upptäck expertstrategier för undervisning, tips för arbetsbladdesign och utbildningsresurser. Gratis guider för lärare och föräldrar.'
+      title: 'Undervisningsmaterial & Arbetsbladstips Blogg | 100+ Expertartiklar | LessonCraftStudio',
+      description: 'Uppt\u00e4ck 100+ expertartiklar om undervisningsstrategier, arbetsbladdesign och gratis utbildningsresurser. Guider f\u00f6r l\u00e4rare och f\u00f6r\u00e4ldrar.'
     },
     da: {
-      title: 'Uddannelsesblog - Undervisningsmaterialer & Arbejdsark Tips | LessonCraftStudio',
-      description: 'Opdag ekspertstrategier for undervisning, tips til arbejdsarksdesign og uddannelsesressourcer. Gratis guider til lærere og forældre.'
+      title: 'Undervisningsmaterialer & Arbejdsark Tips Blog | 100+ Ekspertartikler | LessonCraftStudio',
+      description: 'Opdag 100+ ekspertartikler om undervisningsstrategier, arbejdsarkdesign og gratis uddannelsesressourcer. Guider til l\u00e6rere og for\u00e6ldre.'
     },
     no: {
-      title: 'Utdanningsblogg - Undervisningsressurser & Regneark Tips | LessonCraftStudio',
-      description: 'Oppdag ekspertstrategier for undervisning, tips for regnearkdesign og utdanningsressurser. Gratis guider for lærere og foreldre.'
+      title: 'Undervisningsressurser & Arbeidsark Tips Blogg | 100+ Ekspertartikler | LessonCraftStudio',
+      description: 'Oppdag 100+ ekspertartikler om undervisningsstrategier, arbeidsarkdesign og gratis utdanningsressurser. Guider for l\u00e6rere og foreldre.'
     },
     fi: {
-      title: 'Koulutusblogi - Opetusmateriaalit & Työarkkivinkit | LessonCraftStudio',
-      description: 'Löydä asiantuntijastrategioita opetukseen, työarkkien suunnitteluvinkkejä ja koulutusresursseja. Ilmaiset oppaat opettajille ja vanhemmille.'
+      title: 'Opetusmateriaalit & Ty\u00f6arkkivinkit Blogi | 100+ Asiantuntija-artikkelia | LessonCraftStudio',
+      description: 'L\u00f6yd\u00e4 100+ asiantuntija-artikkelia opetusstrategioista, ty\u00f6arkkien suunnittelusta ja ilmaisista koulutusresursseista. Oppaita opettajille ja vanhemmille.'
     }
   };
 

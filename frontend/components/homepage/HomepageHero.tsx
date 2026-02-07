@@ -436,8 +436,9 @@ export default function HomepageHero({ locale, heroImages }: HomepageHeroProps) 
 
               {/* CTAs */}
               <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-10 hero-fade-in hero-stagger-3">
-                <button
-                  onClick={scrollToSamples}
+                <a
+                  href="#samples-gallery"
+                  onClick={(e) => { e.preventDefault(); scrollToSamples(); }}
                   className="group relative px-8 py-4 rounded-xl font-semibold text-white overflow-hidden transition-all duration-300 hover:scale-[1.02] active:scale-[0.98]"
                   style={{
                     background: 'linear-gradient(135deg, #06b6d4 0%, #8b5cf6 50%, #ec4899 100%)',
@@ -451,7 +452,7 @@ export default function HomepageHero({ locale, heroImages }: HomepageHeroProps) 
                     </svg>
                   </span>
                   <div className="absolute inset-0 bg-white/20 translate-y-full group-hover:translate-y-0 transition-transform duration-300" />
-                </button>
+                </a>
 
                 <Link
                   href={`/${locale}/apps`}

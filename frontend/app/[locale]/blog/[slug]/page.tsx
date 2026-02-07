@@ -371,54 +371,90 @@ function slugHash(str: string): number {
   return Math.abs(hash);
 }
 
-async function getRelatedPosts(currentSlug: string, category: string, keywords: string[] = [], limit: number = 3) {
+async function getRelatedPosts(currentSlug: string, category: string, keywords: string[] = [], limit: number = 3, locale: string = 'en') {
   try {
-    const selectFields = {
-      id: true,
-      slug: true,
-      featuredImage: true,
-      keywords: true,
-      translations: true,
-      createdAt: true
-    } as const;
+    // Raw SQL: extract only the fields rendering needs (~500 bytes/row vs ~300KB/row with full translations)
+    type RelatedPostRow = {
+      id: string;
+      slug: string;
+      featured_image: string | null;
+      locale_slug: string | null;
+      locale_title: string | null;
+      locale_excerpt: string | null;
+      locale_focus_keyword: string | null;
+      en_slug: string | null;
+      en_title: string | null;
+      en_excerpt: string | null;
+      en_focus_keyword: string | null;
+    };
 
-    // Run all 3 queries in parallel (add take:20 limits to queries 1 & 3)
+    function mapRow(row: RelatedPostRow) {
+      return {
+        id: row.id,
+        slug: row.slug,
+        featuredImage: row.featured_image,
+        translations: {
+          [locale]: { slug: row.locale_slug, title: row.locale_title, excerpt: row.locale_excerpt, focusKeyword: row.locale_focus_keyword },
+          en: { slug: row.en_slug, title: row.en_title, excerpt: row.en_excerpt, focusKeyword: row.en_focus_keyword }
+        }
+      };
+    }
+
+    // Run all 3 queries in parallel (each limited to 20 rows)
     const [allSameCategoryPosts, crossCategoryPosts, fallbackPosts] = await Promise.all([
-      // Query 1: Same category posts (limited to 20)
-      prisma.blogPost.findMany({
-        where: {
-          status: 'published',
-          slug: { not: currentSlug },
-          category: category
-        },
-        select: selectFields,
-        take: 20,
-        orderBy: { createdAt: 'desc' }
-      }),
-      // Query 2: Cross-category with keyword overlap (already limited to 20)
+      // Query 1: Same category posts
+      prisma.$queryRaw<RelatedPostRow[]>`
+        SELECT bp.id, bp.slug, bp.featured_image,
+          jsonb_extract_path_text(bp.translations, ${locale}, 'slug') as locale_slug,
+          jsonb_extract_path_text(bp.translations, ${locale}, 'title') as locale_title,
+          jsonb_extract_path_text(bp.translations, ${locale}, 'excerpt') as locale_excerpt,
+          jsonb_extract_path_text(bp.translations, ${locale}, 'focusKeyword') as locale_focus_keyword,
+          jsonb_extract_path_text(bp.translations, 'en', 'slug') as en_slug,
+          jsonb_extract_path_text(bp.translations, 'en', 'title') as en_title,
+          jsonb_extract_path_text(bp.translations, 'en', 'excerpt') as en_excerpt,
+          jsonb_extract_path_text(bp.translations, 'en', 'focusKeyword') as en_focus_keyword
+        FROM blog_posts bp
+        WHERE bp.status = 'published' AND bp.slug != ${currentSlug}
+          AND bp.category = ${category}
+        ORDER BY bp.created_at DESC
+        LIMIT 20
+      `.then(rows => rows.map(mapRow)),
+      // Query 2: Cross-category with keyword overlap
       keywords.length > 0
-        ? prisma.blogPost.findMany({
-            where: {
-              status: 'published',
-              slug: { not: currentSlug },
-              category: { not: category },
-              keywords: { hasSome: keywords }
-            },
-            select: selectFields,
-            take: 20,
-            orderBy: { createdAt: 'desc' }
-          })
+        ? prisma.$queryRaw<RelatedPostRow[]>`
+            SELECT bp.id, bp.slug, bp.featured_image,
+              jsonb_extract_path_text(bp.translations, ${locale}, 'slug') as locale_slug,
+              jsonb_extract_path_text(bp.translations, ${locale}, 'title') as locale_title,
+              jsonb_extract_path_text(bp.translations, ${locale}, 'excerpt') as locale_excerpt,
+              jsonb_extract_path_text(bp.translations, ${locale}, 'focusKeyword') as locale_focus_keyword,
+              jsonb_extract_path_text(bp.translations, 'en', 'slug') as en_slug,
+              jsonb_extract_path_text(bp.translations, 'en', 'title') as en_title,
+              jsonb_extract_path_text(bp.translations, 'en', 'excerpt') as en_excerpt,
+              jsonb_extract_path_text(bp.translations, 'en', 'focusKeyword') as en_focus_keyword
+            FROM blog_posts bp
+            WHERE bp.status = 'published' AND bp.slug != ${currentSlug}
+              AND bp.category != ${category}
+              AND bp.keywords && ${keywords}::text[]
+            ORDER BY bp.created_at DESC
+            LIMIT 20
+          `.then(rows => rows.map(mapRow))
         : Promise.resolve([]),
-      // Query 3: Fallback from any category (limited to 20)
-      prisma.blogPost.findMany({
-        where: {
-          status: 'published',
-          slug: { not: currentSlug }
-        },
-        select: selectFields,
-        take: 20,
-        orderBy: { createdAt: 'desc' }
-      }),
+      // Query 3: Fallback from any category
+      prisma.$queryRaw<RelatedPostRow[]>`
+        SELECT bp.id, bp.slug, bp.featured_image,
+          jsonb_extract_path_text(bp.translations, ${locale}, 'slug') as locale_slug,
+          jsonb_extract_path_text(bp.translations, ${locale}, 'title') as locale_title,
+          jsonb_extract_path_text(bp.translations, ${locale}, 'excerpt') as locale_excerpt,
+          jsonb_extract_path_text(bp.translations, ${locale}, 'focusKeyword') as locale_focus_keyword,
+          jsonb_extract_path_text(bp.translations, 'en', 'slug') as en_slug,
+          jsonb_extract_path_text(bp.translations, 'en', 'title') as en_title,
+          jsonb_extract_path_text(bp.translations, 'en', 'excerpt') as en_excerpt,
+          jsonb_extract_path_text(bp.translations, 'en', 'focusKeyword') as en_focus_keyword
+        FROM blog_posts bp
+        WHERE bp.status = 'published' AND bp.slug != ${currentSlug}
+        ORDER BY bp.created_at DESC
+        LIMIT 20
+      `.then(rows => rows.map(mapRow)),
     ]);
 
     // Post-process: pick deterministically with deduplication
@@ -566,7 +602,7 @@ export default async function BlogPostPage({
     // A: Related posts
     (async () => {
       const t = performance.now();
-      const result = await getRelatedPosts(post.slug, post.category, post.keywords || []).catch(err => {
+      const result = await getRelatedPosts(post.slug, post.category, post.keywords || [], 3, locale).catch(err => {
         console.error(`Related posts error (slug=${slug}):`, err);
         return [] as any[];
       });

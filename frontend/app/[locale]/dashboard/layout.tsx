@@ -1,6 +1,9 @@
 import { Metadata } from 'next';
 import DashboardLayoutClient from './DashboardLayoutClient';
 
+// Dashboard pages require authentication - skip static generation at build time
+export const dynamic = 'force-dynamic';
+
 // SEO: Prevent dashboard pages from being indexed
 // Dashboard contains user-specific content that shouldn't be in search results
 export const metadata: Metadata = {

@@ -4,7 +4,7 @@ import Link from 'next/link';
 import BlogPageClient from './BlogPageClient';
 import { getBlogPostsForLocale, getBlogCategoriesForLocale } from '@/lib/blog-data';
 import Breadcrumb from '@/components/Breadcrumb';
-import { getHreflangCode, ogLocaleMap } from '@/lib/schema-generator';
+import { getHreflangCode, ogLocaleMap, hreflangMap } from '@/lib/schema-generator';
 import { SUPPORTED_LOCALES } from '@/config/locales';
 import { getRelatedProductsByCategory } from '@/lib/internal-linking';
 import type { SupportedLocale } from '@/config/product-page-slugs';
@@ -105,19 +105,25 @@ export async function generateMetadata({ params, searchParams }: BlogPageProps):
     otherLinks.next = `${baseUrl}/${locale}/blog?page=${currentPage + 1}`;
   }
 
-  // Generate hreflang alternates with proper regional codes (pt-BR, es-MX)
-  const locales = SUPPORTED_LOCALES;
-  const hreflangAlternates: Record<string, string> = {};
-  for (const lang of locales) {
-    const hreflangCode = getHreflangCode(lang);
-    hreflangAlternates[hreflangCode] = `${baseUrl}/${lang}/blog${currentPage > 1 ? `?page=${currentPage}` : ''}`;
-  }
+  // Build hreflang alternates — only on page 1 (paginated pages should not have hreflang)
+  const blogHreflangLanguages: Record<string, string> | undefined = currentPage === 1
+    ? (() => {
+        const langs: Record<string, string> = {};
+        for (const loc of SUPPORTED_LOCALES) {
+          const hreflangCode = hreflangMap[loc] || loc;
+          langs[hreflangCode] = `${baseUrl}/${loc}/blog`;
+        }
+        langs['x-default'] = `${baseUrl}/en/blog`;
+        return langs;
+      })()
+    : undefined;
+
   return {
     title: pageTitle,
     description: localeMeta.description,
     alternates: {
       canonical: canonicalUrl,
-      languages: hreflangAlternates
+      ...(blogHreflangLanguages && { languages: blogHreflangLanguages }),
     },
     openGraph: {
       title: pageTitle,
@@ -126,7 +132,7 @@ export async function generateMetadata({ params, searchParams }: BlogPageProps):
       url: canonicalUrl,
       siteName: 'LessonCraftStudio',
       locale: ogLocaleMap[locale] || locale,
-      alternateLocale: locales.filter(l => l !== locale).map(l => ogLocaleMap[l] || l)
+      alternateLocale: SUPPORTED_LOCALES.filter(l => l !== locale).map(l => ogLocaleMap[l] || l)
     },
     other: otherLinks
   };

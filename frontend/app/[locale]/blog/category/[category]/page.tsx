@@ -4,7 +4,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { prisma } from '@/lib/prisma';
 import Breadcrumb from '@/components/Breadcrumb';
-import { getHreflangCode, ogLocaleMap } from '@/lib/schema-generator';
+import { getHreflangCode, ogLocaleMap, hreflangMap } from '@/lib/schema-generator';
 import { SUPPORTED_LOCALES } from '@/config/locales';
 import RelatedProducts from '@/components/blog/RelatedProducts';
 import type { SupportedLocale } from '@/config/product-page-slugs';
@@ -357,19 +357,25 @@ export async function generateMetadata({ params, searchParams }: CategoryPagePro
     otherLinks.next = `${baseUrl}/${locale}/blog/category/${category}?page=${currentPage + 1}`;
   }
 
-  // Generate hreflang alternates
-  const locales = [...SUPPORTED_LOCALES];
-  const hreflangAlternates: Record<string, string> = {};
-  for (const lang of locales) {
-    const hreflangCode = getHreflangCode(lang);
-    hreflangAlternates[hreflangCode] = `${baseUrl}/${lang}/blog/category/${category}${currentPage > 1 ? `?page=${currentPage}` : ''}`;
-  }
+  // Build hreflang alternates — only on page 1 (paginated pages should not have hreflang)
+  const categoryHreflangLanguages: Record<string, string> | undefined = currentPage === 1
+    ? (() => {
+        const langs: Record<string, string> = {};
+        for (const loc of SUPPORTED_LOCALES) {
+          const hreflangCode = hreflangMap[loc] || loc;
+          langs[hreflangCode] = `${baseUrl}/${loc}/blog/category/${category}`;
+        }
+        langs['x-default'] = `${baseUrl}/en/blog/category/${category}`;
+        return langs;
+      })()
+    : undefined;
+
   return {
     title: pageTitle,
     description: categoryMeta.description,
     alternates: {
       canonical: canonicalUrl,
-      languages: hreflangAlternates
+      ...(categoryHreflangLanguages && { languages: categoryHreflangLanguages }),
     },
     openGraph: {
       title: pageTitle,

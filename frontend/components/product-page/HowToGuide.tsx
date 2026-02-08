@@ -134,13 +134,11 @@ export default function HowToGuide({
         {/* Section header */}
         <motion.div
           className="text-center mb-20"
-          initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
           <motion.div
-            initial={{ opacity: 0, scale: 0.9 }}
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
             className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-emerald-50 border border-emerald-100 text-sm font-medium text-emerald-700 mb-6"
@@ -280,7 +278,6 @@ export default function HowToGuide({
             {/* End marker */}
             <motion.div
               className="relative flex items-center justify-center"
-              initial={{ opacity: 0, scale: 0.8 }}
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
               transition={{ delay: 0.5 }}
@@ -318,7 +315,6 @@ export default function HowToGuide({
         {/* CTA Section */}
         <motion.div
           className="mt-20 text-center"
-          initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ delay: 0.3 }}

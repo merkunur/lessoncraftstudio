@@ -725,33 +725,33 @@ const localizedWorksheetGenerator: Record<string, string> = {
 
 /**
  * og:locale mapping for OpenGraph tags
- * Note: es targets Mexico (es_MX) for Latin America market
+ * Note: es uses es_ES (standard Spanish) to serve all Spanish-speaking markets
  */
 export const ogLocaleMap: Record<string, string> = {
   en: 'en_US',
   de: 'de_DE',
   fr: 'fr_FR',
-  es: 'es_MX',  // Changed from es_ES - targeting Mexico/Latin America
+  es: 'es_ES',  // Standard Spanish — serves Spain, Mexico, Latin America, all markets
   pt: 'pt_BR',
   it: 'it_IT',
   nl: 'nl_NL',
   sv: 'sv_SE',
   da: 'da_DK',
-  no: 'nb_NO',
+  no: 'no_NO',  // Standardized from nb_NO to match hreflang code
   fi: 'fi_FI'
 };
 
 /**
  * Hreflang mapping for language alternates
- * Uses regional codes for Portuguese (Brazil) and Spanish (Mexico/Latin America)
- * This is critical for SEO in target markets
+ * Uses regional code for Portuguese (Brazil) only
+ * Spanish uses plain 'es' to serve ALL Spanish-speaking markets (not just Mexico)
  */
 export const hreflangMap: Record<string, string> = {
   en: 'en',
   de: 'de',
   fr: 'fr',
-  es: 'es-MX',    // Mexican Spanish for Latin America market
-  pt: 'pt-BR',    // Brazilian Portuguese
+  es: 'es',       // All Spanish-speaking markets (Spain, Mexico, Latin America)
+  pt: 'pt-BR',    // Brazilian Portuguese (97% of Portuguese speakers)
   it: 'it',
   nl: 'nl',
   sv: 'sv',
@@ -1123,7 +1123,7 @@ export function generateAppProductSchemas(
       "url": baseUrl
     },
     "inLanguage": getHreflangCode(locale),
-    "isAccessibleForFree": appData.tier === 'free',
+    "isAccessibleForFree": true,
     "audience": {
       "@type": "EducationalAudience",
       "educationalRole": "Teacher",

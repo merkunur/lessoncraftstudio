@@ -106,13 +106,11 @@ export default function RelatedApps({
           {/* Section header */}
           <motion.div
             className="text-center mb-12"
-            initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
             <motion.div
-              initial={{ opacity: 0, scale: 0.9 }}
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
               className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-amber-50 border border-amber-100 text-sm font-medium text-amber-700 mb-6"
@@ -216,7 +214,6 @@ export default function RelatedApps({
                 return (
                   <motion.div
                     key={app.id}
-                    initial={{ opacity: 0, x: 20 }}
                     whileInView={{ opacity: 1, x: 0 }}
                     viewport={{ once: true }}
                     transition={{ delay: index * 0.1 }}
@@ -303,7 +300,6 @@ export default function RelatedApps({
         <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           {/* Main CTA content */}
           <motion.div
-            initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.7, delay: 0.2 }}
@@ -355,7 +351,6 @@ export default function RelatedApps({
             {/* Trust badges */}
             <motion.div
               className="mt-10 flex flex-wrap items-center justify-center gap-6 text-sm text-indigo-200"
-              initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
               transition={{ delay: 0.5 }}

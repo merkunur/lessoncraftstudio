@@ -2,10 +2,9 @@ import { notFound, permanentRedirect } from 'next/navigation';
 import Link from 'next/link';
 import { cache } from 'react';
 import { prisma } from '@/lib/prisma';
-import { generateBlogSchemas, ogLocaleMap, getHreflangCode, generateImageGallerySchema } from '@/lib/schema-generator';
+import { generateBlogSchemas, ogLocaleMap, hreflangMap, getHreflangCode, generateImageGallerySchema } from '@/lib/schema-generator';
 import { analyzeContent, generateFAQSchema, generateHowToSchema } from '@/lib/content-analyzer';
 import Breadcrumb from '@/components/Breadcrumb';
-import { SUPPORTED_LOCALES } from '@/config/locales';
 import RelatedProducts from '@/components/blog/RelatedProducts';
 import BlogSampleBanner from '@/components/blog/BlogSampleBanner';
 import BlogSampleGallery from '@/components/blog/BlogSampleGallery';
@@ -1419,22 +1418,6 @@ export async function generateMetadata({ params }: BlogPostPageProps) {
       }
     }
 
-    // Generate hreflang alternates for all available translations
-    // This ensures proper bidirectional linking as required by Google
-    // Blog posts are original content per locale (unique slugs, titles, content, focusKeywords)
-    // Hreflang helps Google serve the right language version to each user
-    // SEO FIX: Include language versions that have at least a slug OR title
-    // This ensures bidirectional linking is complete (Google requires all languages to link to each other)
-    const languageAlternates: Record<string, string> = {};
-    for (const lang of SUPPORTED_LOCALES) {
-      const langTranslation = translations[lang];
-      // Include languages that have a slug, title, or content - any indicates translation exists
-      if (langTranslation?.slug || langTranslation?.title || langTranslation?.content) {
-        const langSlug = langTranslation.slug || post.slug;
-        const hreflangCode = getHreflangCode(lang);
-        languageAlternates[hreflangCode] = `${baseUrl}/${lang}/blog/${langSlug}`;
-      }
-    }
     // Build og:image array: featured image first, then sample thumbnails
     const ogImages = [
       ...(post.featuredImage ? [{
@@ -1450,15 +1433,40 @@ export async function generateMetadata({ params }: BlogPostPageProps) {
       ...sampleOgImages.map(img => img.url),
     ];
 
+    // Build hreflang alternates from available translations
+    const hreflangLanguages: Record<string, string> = {};
+    for (const loc of ALL_LOCALES) {
+      const trans = translations[loc];
+      if (trans && trans.title && trans.content) {
+        const locSlug = trans.slug || post.slug;
+        const hreflangCode = hreflangMap[loc] || loc;
+        hreflangLanguages[hreflangCode] = `${baseUrl}/${loc}/blog/${locSlug}`;
+      }
+    }
+    // x-default → English version if available, else first available locale
+    const enTrans = translations['en'];
+    if (enTrans && enTrans.title && enTrans.content) {
+      const enSlug = enTrans.slug || post.slug;
+      hreflangLanguages['x-default'] = `${baseUrl}/en/blog/${enSlug}`;
+    } else {
+      // Find first available locale that's in hreflangLanguages
+      const firstAvailable = ALL_LOCALES.find(loc => {
+        const t = translations[loc];
+        return t && t.title && t.content;
+      });
+      if (firstAvailable) {
+        const fallbackSlug = translations[firstAvailable]?.slug || post.slug;
+        hreflangLanguages['x-default'] = `${baseUrl}/${firstAvailable}/blog/${fallbackSlug}`;
+      }
+    }
+
     return {
       title,
       description,
       keywords,
-      // AUTOMATED: Canonical URL and hreflang alternates
-      // Hreflang ensures bidirectional linking for proper multilingual SEO
       alternates: {
         canonical: canonicalUrl,
-        languages: languageAlternates,
+        languages: hreflangLanguages,
       },
       // AUTOMATED: Open Graph tags (Facebook, LinkedIn, etc.)
       openGraph: {

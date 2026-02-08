@@ -118,12 +118,12 @@
     to { opacity: 1; transform: translateX(0); }
   }
 
-  .hero-fade-in { animation: heroFadeIn 0.6s ease-out forwards; }
-  .hero-fade-in-left { animation: heroFadeInLeft 0.8s ease-out forwards; }
-  .hero-stagger-1 { animation-delay: 0.1s; opacity: 0; animation-fill-mode: forwards; }
-  .hero-stagger-2 { animation-delay: 0.2s; opacity: 0; animation-fill-mode: forwards; }
-  .hero-stagger-3 { animation-delay: 0.3s; opacity: 0; animation-fill-mode: forwards; }
-  .hero-stagger-4 { animation-delay: 0.4s; opacity: 0; animation-fill-mode: forwards; }
+  .hero-fade-in { animation: heroFadeIn 0.6s ease-out both; }
+  .hero-fade-in-left { animation: heroFadeInLeft 0.8s ease-out both; }
+  .hero-stagger-1 { animation-delay: 0.1s; animation-fill-mode: both; }
+  .hero-stagger-2 { animation-delay: 0.2s; animation-fill-mode: both; }
+  .hero-stagger-3 { animation-delay: 0.3s; animation-fill-mode: both; }
+  .hero-stagger-4 { animation-delay: 0.4s; animation-fill-mode: both; }
 
   /* Gradient orb pulse — CSS replacement for Framer Motion animate={{ scale: [1, 1.1, 1] }} */
   @keyframes heroOrbPulse {
@@ -149,8 +149,7 @@
     to { opacity: 1; transform: translateX(0); }
   }
   .hero-fade-in-right {
-    animation: heroFadeInRight 1.2s cubic-bezier(0.22, 1, 0.36, 1) 0.4s forwards;
-    opacity: 0;
+    animation: heroFadeInRight 1.2s cubic-bezier(0.22, 1, 0.36, 1) 0.4s both;
   }
 
   /* Floating stats/badge entrance — CSS replacement for Framer Motion delayed scale-in */
@@ -159,12 +158,10 @@
     to { opacity: 1; transform: scale(1) translateY(0); }
   }
   .hero-pop-in-1 {
-    animation: heroPopIn 0.6s ease-out 1.2s forwards;
-    opacity: 0;
+    animation: heroPopIn 0.6s ease-out 1.2s both;
   }
   .hero-pop-in-2 {
-    animation: heroPopIn 0.5s ease-out 1.4s forwards;
-    opacity: 0;
+    animation: heroPopIn 0.5s ease-out 1.4s both;
   }
 
   /* Floating geometric shapes — CSS replacement for Framer Motion looping rotations */
@@ -198,8 +195,7 @@
     50% { transform: translateY(12px); }
   }
   .scroll-indicator {
-    animation: scrollFadeIn 0.5s ease-out 1.5s forwards;
-    opacity: 0;
+    animation: scrollFadeIn 0.5s ease-out 1.5s both;
   }
   .scroll-indicator-ring {
     animation: scrollPulse 2s ease-in-out infinite;
@@ -274,22 +270,16 @@
     to { opacity: 1; transform: scale(1); }
   }
   .reveal {
-    opacity: 0;
-    transform: translateY(30px);
-    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+    /* No initial opacity: 0 — crawler-safe */
   }
   .reveal.revealed {
-    opacity: 1;
-    transform: translateY(0);
+    animation: revealUp 0.6s ease-out both;
   }
   .reveal-scale {
-    opacity: 0;
-    transform: scale(0.9);
-    transition: opacity 0.4s ease-out, transform 0.4s ease-out;
+    /* No initial opacity: 0 — crawler-safe */
   }
   .reveal-scale.revealed {
-    opacity: 1;
-    transform: scale(1);
+    animation: revealScale 0.4s ease-out both;
   }
 
   /* Floating diamond/shapes for HomepageHero */
@@ -375,8 +365,10 @@
     .emoji-wiggle { animation: none; }
     .badge-float,
     .badge-float-down { animation: none; }
-    .reveal { opacity: 1; transform: none; }
-    .reveal-scale { opacity: 1; transform: none; }
+    .reveal,
+    .reveal.revealed { animation: none; opacity: 1; transform: none; }
+    .reveal-scale,
+    .reveal-scale.revealed { animation: none; opacity: 1; transform: none; }
     .float-diamond,
     .float-circle,
     .float-plus,

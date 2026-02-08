@@ -21,14 +21,13 @@ export const revalidate = 1800;
  * Includes all public pages, blog posts, product pages, and multilingual routes
  * Each entry includes alternates to all language versions for better SEO
  *
- * Priority structure (optimized for product pages):
- * - 1.0: Individual app product pages (363 pages) - HIGHEST, conversion targets
- * - 0.8: Homepages (11 pages)
- * - 0.6: Pricing pages (11 pages)
- * - 0.5: Apps collection pages (11 pages) - navigation hub only
- * - 0.5: Blog index (11 pages)
- * - 0.5: Blog posts (1000+ pages)
- * - 0.3: Legal pages (terms, privacy)
+ * Priority structure:
+ * - 1.0: Homepage, product pages (highest priority)
+ * - 0.7: Category/grade hubs, featured blog posts
+ * - 0.6: Pricing, blog categories, blog posts with PDFs
+ * - 0.5: Apps collection, blog index, regular blog posts
+ * - 0.4: FAQ
+ * - 0.3: Legal pages (terms, privacy, contact, license)
  */
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.lessoncraftstudio.com';
@@ -43,10 +42,10 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   function generateStaticAlternates(path: string): Record<string, string> {
     const alternates: Record<string, string> = {};
     for (const lang of locales) {
-      // Use proper hreflang code (e.g., pt-BR, es-MX) as the key
       const hreflangCode = getHreflangCode(lang);
       alternates[hreflangCode] = `${baseUrl}/${lang}${path}`;
     }
+    alternates['x-default'] = `${baseUrl}/en${path}`;
     return alternates;
   }
 
@@ -54,12 +53,15 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const staticRoutes: MetadataRoute.Sitemap = [];
   // Optimized priority values - product pages are highest priority
   const staticPages = [
-    { path: '', priority: 0.8, changeFreq: 'daily' as const }, // Homepage
+    { path: '', priority: 1.0, changeFreq: 'daily' as const }, // Homepage
     { path: '/apps', priority: 0.5, changeFreq: 'weekly' as const }, // Apps collection - navigation hub only
     { path: '/pricing', priority: 0.6, changeFreq: 'weekly' as const }, // Pricing
     { path: '/blog', priority: 0.5, changeFreq: 'daily' as const }, // Blog index
     { path: '/terms', priority: 0.3, changeFreq: 'monthly' as const }, // Legal
     { path: '/privacy', priority: 0.3, changeFreq: 'monthly' as const }, // Legal
+    { path: '/faq', priority: 0.4, changeFreq: 'monthly' as const },
+    { path: '/contact', priority: 0.3, changeFreq: 'monthly' as const },
+    { path: '/license', priority: 0.3, changeFreq: 'monthly' as const },
   ];
 
   // Add static pages for all locales with alternates
@@ -119,26 +121,14 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       },
     });
 
-    /**
-     * Blog posts are high-priority original content - minimum 0.9
-     * SEO FIX: Each of 1,232 blog posts is original content, not a translation
-     * Higher priority signals importance to Google
-     * - Featured posts: 1.0 (highest quality, editorially chosen)
-     * - Posts with PDFs: 0.95 (high value - downloadable content)
-     * - All other posts: 0.9 (minimum priority for original content)
-     */
     function calculateBlogPriority(post: { featured?: boolean; _count?: { pdfs: number }; createdAt: Date }): number {
-      // Featured posts get highest priority
-      if (post.featured) return 1.0;
-
-      // Posts with downloadable PDFs are high value
-      if (post._count && post._count.pdfs > 0) return 0.95;
-
-      // All blog posts are original content, minimum 0.9 priority
-      return 0.9;
+      if (post.featured) return 0.7;
+      if (post._count && post._count.pdfs > 0) return 0.6;
+      return 0.5;
     }
 
     // Generate sitemap entries for each blog post ONLY in locales with actual translations
+    // Now includes hreflang alternates for cross-language signal consolidation
     blogRoutes = blogPosts.flatMap((post) => {
       const translations = post.translations as any;
 
@@ -146,8 +136,8 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       // Also exclude entries where the resolved slug would trigger a cross-locale redirect
       const availableLocales = locales.filter((locale) => {
         const translation = translations[locale];
-        // Require title for valid translation; slug can fallback to primary slug
-        if (!translation?.title) return false;
+        // Require title AND content for valid translation (must match page metadata validation)
+        if (!translation?.title || !translation?.content) return false;
         const resolvedSlug = translation?.slug || post.slug;
         if (!resolvedSlug) return false;
         // Skip if this slug's native locale differs — middleware would 301 redirect
@@ -161,18 +151,24 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         return [];
       }
 
-      // Generate hreflang alternates for blog posts
-      // Blog posts are original content per locale (unique slugs, titles, content, focusKeywords)
-      // Proper hreflang ensures bidirectional linking as required by Google
+      // Build hreflang alternates for this blog post across all available locales
       const blogAlternates: Record<string, string> = {};
-      for (const lang of availableLocales) {
-        const langSlug = translations[lang]?.slug || post.slug;
-        const hreflangCode = getHreflangCode(lang);
-        blogAlternates[hreflangCode] = `${baseUrl}/${lang}/blog/${langSlug}`;
+      for (const loc of availableLocales) {
+        const locSlug = translations[loc]?.slug || post.slug;
+        const hreflangCode = getHreflangCode(loc);
+        blogAlternates[hreflangCode] = `${baseUrl}/${loc}/blog/${locSlug}`;
+      }
+      // x-default → English version if available, else first available locale
+      if (availableLocales.includes('en')) {
+        const enSlug = translations['en']?.slug || post.slug;
+        blogAlternates['x-default'] = `${baseUrl}/en/blog/${enSlug}`;
+      } else {
+        const fallbackLocale = availableLocales[0];
+        const fallbackSlug = translations[fallbackLocale]?.slug || post.slug;
+        blogAlternates['x-default'] = `${baseUrl}/${fallbackLocale}/blog/${fallbackSlug}`;
       }
 
       return availableLocales.map((locale) => {
-        // Use language-specific slug
         const localeSlug = translations[locale]?.slug || post.slug;
 
         return {
@@ -205,19 +201,20 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
   for (const locale of locales) {
     for (const category of categories) {
-      // Generate alternates for this category
-      const categoryAlternates: Record<string, string> = {};
+      // Build hreflang alternates — blog categories exist in all locales
+      const blogCatAlternates: Record<string, string> = {};
       for (const lang of locales) {
-        const hreflangCode = getHreflangCode(lang);
-        categoryAlternates[hreflangCode] = `${baseUrl}/${lang}/blog/category/${category}`;
+        blogCatAlternates[getHreflangCode(lang)] = `${baseUrl}/${lang}/blog/category/${category}`;
       }
+      blogCatAlternates['x-default'] = `${baseUrl}/en/blog/category/${category}`;
+
       categoryRoutes.push({
         url: `${baseUrl}/${locale}/blog/category/${category}`,
         lastModified: currentDate,
         changeFrequency: 'weekly' as const,
-        priority: 0.6, // Category archives - good for discovery
+        priority: 0.6,
         alternates: {
-          languages: categoryAlternates,
+          languages: blogCatAlternates,
         },
       });
     }
@@ -235,6 +232,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       for (const lang of locales) {
         catAlternates[getHreflangCode(lang)] = `${baseUrl}/${lang}/apps/category/${cat}`;
       }
+      catAlternates['x-default'] = `${baseUrl}/en/apps/category/${cat}`;
       productCategoryRoutes.push({
         url: `${baseUrl}/${locale}/apps/category/${cat}`,
         lastModified: currentDate,
@@ -254,6 +252,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       for (const lang of locales) {
         gradeAlternates[getHreflangCode(lang)] = `${baseUrl}/${lang}/apps/grades/${grade}`;
       }
+      gradeAlternates['x-default'] = `${baseUrl}/en/apps/grades/${grade}`;
       gradeRoutes.push({
         url: `${baseUrl}/${locale}/apps/grades/${grade}`,
         lastModified: currentDate,

@@ -78,7 +78,6 @@ function FeatureCard({
       className={`group relative ${
         feature.highlighted ? 'md:col-span-2 lg:col-span-1' : ''
       }`}
-      initial={{ opacity: 0, y: 30 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       transition={{ duration: 0.5, delay: index * 0.1 }}
@@ -203,13 +202,11 @@ export default function FeaturesGrid({
         {/* Section header */}
         <motion.div
           className="text-center mb-16"
-          initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
           <motion.div
-            initial={{ opacity: 0, scale: 0.9 }}
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
             transition={{ delay: 0.1 }}
@@ -255,7 +252,6 @@ export default function FeaturesGrid({
         {/* Bottom trust element */}
         <motion.div
           className="flex justify-center mt-16"
-          initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ delay: 0.5 }}

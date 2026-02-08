@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion } from 'framer-motion';
 import Link from 'next/link';
 
 interface FAQItem {
@@ -136,7 +136,6 @@ export default function FAQSection({
   const [openId, setOpenId] = useState<string | null>(null);
   const [showAll, setShowAll] = useState(false);
 
-  const visibleFaqs = showAll ? faqs : faqs.slice(0, initialVisibleCount);
   const hasMore = faqs.length > initialVisibleCount;
 
   const toggleFAQ = (id: string) => {
@@ -155,13 +154,11 @@ export default function FAQSection({
         {/* Section header */}
         <motion.div
           className="text-center mb-16"
-          initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
           <motion.div
-            initial={{ opacity: 0, scale: 0.9 }}
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
             className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-amber-100/60 border border-amber-200/60 text-sm font-medium text-amber-800 mb-6"
@@ -191,21 +188,15 @@ export default function FAQSection({
           {/* FAQ Column */}
           <motion.div
             className="lg:col-span-3"
-            initial={{ opacity: 0, x: -20 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
             <div className="space-y-4">
-              <AnimatePresence mode="popLayout">
-                {visibleFaqs.map((faq, index) => (
-                  <motion.div
+                {faqs.map((faq, index) => (
+                  <div
                     key={faq.id}
-                    initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    exit={{ opacity: 0, y: -20 }}
-                    transition={{ delay: index * 0.05 }}
-                    className="group"
+                    className={`group ${!showAll && index >= initialVisibleCount ? 'overflow-hidden max-h-0' : ''}`}
                   >
                     <div
                       className={`bg-white rounded-xl border transition-all duration-300 ${
@@ -241,40 +232,29 @@ export default function FAQSection({
                         </motion.div>
                       </button>
 
-                      <AnimatePresence>
-                        {openId === faq.id && (
-                          <motion.div
-                            initial={{ height: 0, opacity: 0 }}
-                            animate={{ height: 'auto', opacity: 1 }}
-                            exit={{ height: 0, opacity: 0 }}
-                            transition={{ duration: 0.3, ease: [0.22, 1, 0.36, 1] }}
-                            className="overflow-hidden"
-                          >
-                            <div className="px-6 pb-5 pt-0">
-                              <div className="h-px bg-stone-100 mb-4" />
-                              {/* Answer - Collapsible to 3 sentences by default */}
-                              <CollapsibleAnswer
-                                text={faq.answer}
-                                readMoreLabel={readMoreLabel}
-                                showLessLabel={showLessLabel}
-                              />
-                            </div>
-                          </motion.div>
-                        )}
-                      </AnimatePresence>
+                      <div
+                        className={`overflow-hidden transition-all duration-300 ease-[cubic-bezier(0.22,1,0.36,1)] ${
+                          openId === faq.id ? 'max-h-[2000px] opacity-100' : 'max-h-0 opacity-0'
+                        }`}
+                      >
+                        <div className="px-6 pb-5 pt-0">
+                          <div className="h-px bg-stone-100 mb-4" />
+                          <CollapsibleAnswer
+                            text={faq.answer}
+                            readMoreLabel={readMoreLabel}
+                            showLessLabel={showLessLabel}
+                          />
+                        </div>
+                      </div>
                     </div>
-                  </motion.div>
+                  </div>
                 ))}
-              </AnimatePresence>
             </div>
 
             {/* Show more/less button */}
             {hasMore && (
-              <motion.div
+              <div
                 className="mt-6 text-center"
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                transition={{ delay: 0.3 }}
               >
                 <button
                   onClick={() => setShowAll(!showAll)}
@@ -291,14 +271,13 @@ export default function FAQSection({
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                   </motion.svg>
                 </button>
-              </motion.div>
+              </div>
             )}
           </motion.div>
 
           {/* Pricing CTA Column */}
           <motion.div
             className="lg:col-span-2"
-            initial={{ opacity: 0, x: 20 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.2 }}
@@ -328,7 +307,6 @@ export default function FAQSection({
                     {benefits.map((benefit, index) => (
                       <motion.li
                         key={index}
-                        initial={{ opacity: 0, x: -10 }}
                         whileInView={{ opacity: 1, x: 0 }}
                         viewport={{ once: true }}
                         transition={{ delay: 0.3 + index * 0.05 }}

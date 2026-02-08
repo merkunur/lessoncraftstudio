@@ -33,6 +33,7 @@ export async function generateMetadata({ params }: { params: { locale: string; g
   for (const lang of SUPPORTED_LOCALES) {
     hreflangAlternates[getHreflangCode(lang)] = `${baseUrl}/${lang}/apps/grades/${grade}`;
   }
+  hreflangAlternates['x-default'] = `${baseUrl}/en/apps/grades/${grade}`;
 
   return {
     title: content.title,

@@ -826,21 +826,28 @@ export default function SampleGallery({
         </div>
       </div>
 
-      {/* Noscript fallback: plain <img> tags for search engine crawlers without JS */}
+      {/* Noscript fallback: crawlable <a>+<img> tags for search engine crawlers without JS */}
       <noscript>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-8">
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
             {samples.map((sample, index) => (
               <figure key={`noscript-${index}`} className="m-0">
-                <img
-                  src={sample.worksheetSrc}
-                  alt={sample.altText}
-                  title={sample.imageTitle || sample.altText}
-                  width={2480}
-                  height={3508}
-                  loading={index < 4 ? 'eager' : 'lazy'}
-                  style={{ width: '100%', height: 'auto' }}
-                />
+                <a href={sample.worksheetSrc} target="_blank" rel="noopener">
+                  <img
+                    src={sample.worksheetSrc}
+                    alt={sample.altText}
+                    title={sample.imageTitle || sample.altText}
+                    width={2480}
+                    height={3508}
+                    loading={index < 4 ? 'eager' : 'lazy'}
+                    style={{ width: '100%', height: 'auto' }}
+                  />
+                </a>
+                {sample.pdfDownloadUrl && (
+                  <a href={sample.pdfDownloadUrl} download className="text-sm text-blue-600 underline">
+                    {downloadLabel}
+                  </a>
+                )}
                 <figcaption className="sr-only">{sample.altText}</figcaption>
               </figure>
             ))}

@@ -543,6 +543,8 @@ export interface AppProductData {
   description: string;
   category?: string;
   tier?: 'free' | 'core' | 'full';
+  dateModified?: string;
+  datePublished?: string;
 }
 
 /**
@@ -865,7 +867,48 @@ export interface SampleImageData {
   grade?: string;          // Grade level for educational alignment
   appType?: string;        // Type of worksheet app (math, language, etc.)
   imageId?: string;        // Custom @id for cross-referencing (blog posts use #imageobject)
+  keywords?: string[];     // Keywords from database for search relevance
 }
+
+/**
+ * Default grade-level mappings per app type
+ * Used when individual sample images lack a database grade value
+ */
+const appIdToDefaultGrade: Record<string, string> = {
+  'addition': '1st Grade',
+  'subtraction': '1st Grade',
+  'code-addition': '2nd Grade',
+  'math-worksheet': '1st Grade',
+  'math-puzzle': '2nd Grade',
+  'more-less': 'Kindergarten',
+  'big-small': 'Pre-K',
+  'pattern-worksheet': 'Kindergarten',
+  'pattern-train': 'Kindergarten',
+  'alphabet-train': 'Kindergarten',
+  'word-scramble': '2nd Grade',
+  'word-guess': '2nd Grade',
+  'wordsearch': '2nd Grade',
+  'crossword': '3rd Grade',
+  'cryptogram': '3rd Grade',
+  'writing': 'Kindergarten',
+  'prepositions': '1st Grade',
+  'coloring': 'Pre-K',
+  'draw-and-color': 'Pre-K',
+  'drawing-lines': 'Pre-K',
+  'find-and-count': 'Kindergarten',
+  'find-objects': 'Kindergarten',
+  'bingo': 'Kindergarten',
+  'picture-path': 'Kindergarten',
+  'picture-sort': 'Kindergarten',
+  'odd-one-out': 'Kindergarten',
+  'missing-pieces': '1st Grade',
+  'shadow-match': 'Pre-K',
+  'grid-match': '1st Grade',
+  'matching': 'Kindergarten',
+  'chart-count': '1st Grade',
+  'sudoku': '2nd Grade',
+  'treasure-hunt': '1st Grade',
+};
 
 /**
  * Generate ImageObject Schema for sample images
@@ -878,7 +921,8 @@ export function generateImageObjectSchema(
   baseUrl: string = getBaseUrl(),
   locale: string = 'en',
   index: number = 0,
-  isRepresentative: boolean = false
+  isRepresentative: boolean = false,
+  defaultGrade?: string
 ) {
   // Encode URL properly for spaces
   const encodedSrc = image.src.replace(/ /g, '%20');
@@ -899,7 +943,8 @@ export function generateImageObjectSchema(
     'All Ages': 'Elementary School',
   };
 
-  const educationalLevel = image.grade ? gradeToEducationalLevel[image.grade] || 'Elementary School' : 'Elementary School';
+  const gradeSource = image.grade || defaultGrade;
+  const educationalLevel = gradeSource ? gradeToEducationalLevel[gradeSource] || 'Elementary School' : 'Elementary School';
 
   return {
     "@context": "https://schema.org",
@@ -915,14 +960,15 @@ export function generateImageObjectSchema(
     "width": image.width || 2480,
     "height": image.height || 3508,
     "encodingFormat": image.src.endsWith('.webp') ? 'image/webp' : 'image/jpeg',
-    ...(encodedThumb && { "thumbnailUrl": `${baseUrl}${encodedThumb}` }),
+    "thumbnailUrl": `${baseUrl}${encodedThumb || encodedSrc.replace(/\.(jpeg|jpg|png)$/i, '_thumb.webp')}`,
     // SEO FIX: Use locale-prefixed URLs to avoid redirects in schema
     "license": `${baseUrl}/${locale}/terms`,
     "acquireLicensePage": `${baseUrl}/${locale}/pricing`,
     "creditText": "LessonCraftStudio",
     "copyrightNotice": "© 2024-2026 LessonCraftStudio",
-    "creator": { "@id": `${baseUrl}#organization` },
+    "creator": { "@id": `${baseUrl}/#organization` },
     "associatedArticle": { "@type": "WebPage", "url": pageUrl },
+    ...(image.keywords && image.keywords.length > 0 && { "keywords": image.keywords.join(', ') }),
     // Educational schema.org properties for better search visibility
     "educationalUse": ["assignment", "homework", "practice", "classwork"],
     "learningResourceType": "Worksheet",
@@ -940,9 +986,13 @@ export function generateImageObjectSchema(
       "printPageNumbers"
     ],
     "accessMode": ["textual", "visual"],
-    "accessModeSufficient": [
-      { "@type": "ItemList", "itemListElement": ["textual", "visual"] }
-    ],
+    "accessModeSufficient": {
+      "@type": "ItemList",
+      "itemListElement": [
+        { "@type": "ListItem", "name": "textual" },
+        { "@type": "ListItem", "name": "visual" }
+      ]
+    },
     "typicalAgeRange": "5-12",
     "audience": {
       "@type": "EducationalAudience",
@@ -972,22 +1022,9 @@ export function generateImageGallerySchema(
     "numberOfItems": images.length,
     "inLanguage": getHreflangCode(locale),
     "image": images.map((img, i) => ({
-      "@type": "ImageObject",
-      "@id": img.imageId || `${pageUrl}#image-${i}`,
-      "contentUrl": `${baseUrl}${img.src.replace(/ /g, '%20')}`,
-      "name": img.name,
-      "description": img.description,
-      "caption": img.caption,
-      "width": img.width || 2480,
-      "height": img.height || 3508,
-      "learningResourceType": "Worksheet",
-      "isAccessibleForFree": true,
-      "license": `${baseUrl}/${locale}/terms`,
-      "acquireLicensePage": `${baseUrl}/${locale}/pricing`,
-      "creditText": "LessonCraftStudio",
-      "copyrightNotice": "\u00a9 2024-2026 LessonCraftStudio"
+      "@id": img.imageId || `${pageUrl}#image-${i}`
     })),
-    "creator": { "@id": `${baseUrl}#organization` },
+    "creator": { "@id": `${baseUrl}/#organization` },
     // Educational properties for the gallery
     "about": {
       "@type": "LearningResource",
@@ -1019,8 +1056,13 @@ export function generateAllProductPageSchemas(
 ): object[] {
   const schemas: object[] = [];
 
+  // Build sample image @id references for SoftwareApplication.image
+  const sampleImageIds = sampleImages && sampleImages.length > 0
+    ? sampleImages.map((_, i) => `${pageUrl}#image-${i}`)
+    : undefined;
+
   // 1. Core schemas (SoftwareApplication, BreadcrumbList, WebPage)
-  schemas.push(...generateAppProductSchemas(appData, locale, pageUrl, baseUrl, screenshotUrl));
+  schemas.push(...generateAppProductSchemas(appData, locale, pageUrl, baseUrl, screenshotUrl, sampleImageIds));
 
   // 2. FAQPage schema (if FAQ content provided)
   if (faqs && faqs.length > 0) {
@@ -1040,9 +1082,10 @@ export function generateAllProductPageSchemas(
   }
 
   // 4. ImageObject schemas for all sample images
+  const defaultGrade = appIdToDefaultGrade[appData.appId];
   if (sampleImages && sampleImages.length > 0) {
     for (let i = 0; i < sampleImages.length; i++) {
-      schemas.push(generateImageObjectSchema(sampleImages[i], pageUrl, baseUrl, locale, i, i === 0));
+      schemas.push(generateImageObjectSchema(sampleImages[i], pageUrl, baseUrl, locale, i, i === 0, defaultGrade));
     }
   }
 
@@ -1063,7 +1106,8 @@ export function generateAppProductSchemas(
   locale: string,
   pageUrl: string,
   baseUrl: string = getBaseUrl(),
-  screenshotUrl?: string
+  screenshotUrl?: string,
+  sampleImageIds?: string[]
 ): object[] {
   const schemas: object[] = [];
 
@@ -1128,19 +1172,21 @@ export function generateAppProductSchemas(
       ]
     },
     "provider": {
-      "@type": "Organization",
-      "@id": `${baseUrl}#organization`,
+      "@type": "EducationalOrganization",
+      "@id": `${baseUrl}/#organization`,
       "name": "LessonCraftStudio",
       "url": baseUrl
     },
     "inLanguage": getHreflangCode(locale),
-    "isAccessibleForFree": true,
     "audience": {
       "@type": "EducationalAudience",
       "educationalRole": "Teacher",
       "audienceType": "Educators"
     },
-    "screenshot": screenshotUrl || `${baseUrl}/opengraph-image.png`
+    "screenshot": screenshotUrl || `${baseUrl}/opengraph-image.png`,
+    ...(sampleImageIds && sampleImageIds.length > 0 && {
+      "image": sampleImageIds.map(id => ({ "@id": id }))
+    })
   };
 
   schemas.push(softwareAppSchema);
@@ -1186,13 +1232,13 @@ export function generateAppProductSchemas(
     "url": pageUrl,
     "inLanguage": getHreflangCode(locale),
     // E-A-T: Publication dates signal content freshness
-    "datePublished": "2024-06-01",
-    "dateModified": new Date().toISOString().split('T')[0],
+    "datePublished": appData.datePublished || "2024-06-01",
+    "dateModified": appData.dateModified || "2025-02-08",
     // E-A-T: Author/publisher signals expertise and authority (use @id to avoid duplication)
-    "author": { "@id": `${baseUrl}#organization` },
+    "author": { "@id": `${baseUrl}/#organization` },
     "publisher": {
-      "@type": "Organization",
-      "@id": `${baseUrl}#organization`,
+      "@type": "EducationalOrganization",
+      "@id": `${baseUrl}/#organization`,
       "name": "LessonCraftStudio",
       "url": baseUrl,
       "logo": {

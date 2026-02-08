@@ -350,6 +350,7 @@ function SchemaScripts({
       width: 2480,
       height: 3508,
       grade: dbMeta?.grade || undefined,
+      keywords: dbMeta?.keywords || undefined,
     };
   });
 
@@ -3539,7 +3540,7 @@ export default async function AppPage({ params: { locale, slug } }: PageProps) {
     // Build app data for schema markup
     const schemaAppData: AppProductData = {
       appId: content.seo?.appId || slug,
-      name: content.seo?.title || content.hero?.title || slug,
+      name: content.hero?.title || content.seo?.title || slug,
       description: content.seo?.description || content.hero?.subtitle || '',
       category: 'Worksheet Generator'
     };
@@ -3626,7 +3627,7 @@ export default async function AppPage({ params: { locale, slug } }: PageProps) {
     // Build schema app data from legacy content
     const legacySchemaAppData: AppProductData = {
       appId,
-      name: legacyContent.seo?.title || legacyContent.hero?.title || slug,
+      name: legacyContent.hero?.title || legacyContent.seo?.title || slug,
       description: legacyContent.seo?.description || legacyContent.hero?.subtitle || '',
       category: 'Worksheet Generator'
     };

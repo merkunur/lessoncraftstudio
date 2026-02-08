@@ -207,8 +207,44 @@ Generieren Sie die Lösungsanzeige separat. Kinder kontrollieren ihre Ergebnisse
     showLessLabel: 'Weniger anzeigen',
     secureCheckout: 'Sichere Zahlung',
     cancelAnytime: 'Jederzeit kündbar',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: 'faq-1',
+        question: 'Welche Spielmodi bietet der Bilderpfad Labyrinth Generator?',
+        answer: 'Der Generator bietet drei verschiedene Spielmodi: den klassischen Bilderpfad, bei dem Kinder von Start zu Ziel einer Bilderabfolge folgen, den Klassischen Labyrinth-Modus mit Sammelbildern im Irrgarten, und den Modus "W\u00e4hle den richtigen Weg", der zwischen mehreren Pfaden den einzig korrekten finden l\u00e4sst. Jeder Modus eignet sich f\u00fcr unterschiedliche Lernsituationen.',
+      },
+      {
+        id: 'faq-2',
+        question: 'F\u00fcr welche Altersgruppen eignen sich die Labyrinth-Arbeitsbl\u00e4tter?',
+        answer: 'Die Bilderpfad Arbeitsbl\u00e4tter eignen sich f\u00fcr Kinder von der Vorschule bis zur dritten Klasse. F\u00fcr j\u00fcngere Kinder w\u00e4hlen Sie den klassischen Bilderpfad mit kleinerem Raster (12x12). \u00c4ltere Grundsch\u00fcler nutzen den Labyrinth-Modus mit gr\u00f6\u00dferem Raster bis 15x15 f\u00fcr mehr Herausforderung.',
+      },
+      {
+        id: 'faq-3',
+        question: 'Wie kann ich die Schwierigkeit der Labyrinth-\u00dcbungen anpassen?',
+        answer: 'Die Rastergr\u00f6\u00dfe bestimmt die Komplexit\u00e4t \u2014 ein 12x12 Raster eignet sich f\u00fcr Einsteiger, gr\u00f6\u00dfere Raster bis 15x15 fordern fortgeschrittene Sch\u00fcler. Im Klassischen Labyrinth-Modus stellen Sie zus\u00e4tzlich die Anzahl der Sammelbilder und deren Kopien ein. Die Wandst\u00e4rke und -farbe lassen sich ebenfalls individuell anpassen.',
+      },
+      {
+        id: 'faq-4',
+        question: 'Wird eine L\u00f6sungsanzeige f\u00fcr die Labyrinthe erstellt?',
+        answer: 'Ja, der Generator erstellt automatisch eine L\u00f6sungsanzeige, die den korrekten Pfad deutlich markiert. Im Klassischen Labyrinth-Modus werden auch alle Sammelbilder angezeigt. Kinder k\u00f6nnen ihre Ergebnisse selbstst\u00e4ndig kontrollieren, und Lehrkr\u00e4fte nutzen die L\u00f6sung f\u00fcr schnelle Korrektur.',
+      },
+      {
+        id: 'faq-5',
+        question: 'Welche F\u00e4higkeiten f\u00f6rdern Bilderpfad-Arbeitsbl\u00e4tter bei Kindern?',
+        answer: 'Labyrinth-\u00dcbungen f\u00f6rdern Konzentration, logisches Denken und Feinmotorik. Die visuelle Pfadverfolgung unterst\u00fctzt die Auge-Hand-Koordination und bereitet Kinder auf Schwung\u00fcbungen vor. Gleichzeitig macht das L\u00f6sen von Labyrinthen Kindern Spa\u00df und motiviert zum selbstst\u00e4ndigen Arbeiten.',
+      },
+      {
+        id: 'faq-6',
+        question: 'Kann ich eigene Bilder f\u00fcr die Bilderpfad-Labyrinthe verwenden?',
+        answer: '\u00dcber 3000 kindgerechte Bilder stehen in der Bibliothek bereit, sortiert nach Themen wie Tiere, Fahrzeuge und Lebensmittel. Zus\u00e4tzlich k\u00f6nnen Sie eigene Bilder hochladen. Jedem Bild weisen Sie eine Rolle zu: Startbild, Zielbild, Pfadbilder, Ablenkungsbilder oder Dekorationen.',
+      },
+      {
+        id: 'faq-7',
+        question: 'In welcher Qualit\u00e4t werden die Arbeitsbl\u00e4tter exportiert?',
+        answer: 'Alle Arbeitsbl\u00e4tter erscheinen in professioneller 300 DPI Qualit\u00e4t mit gestochen scharfen Linien und klaren Bildern. Der Export erfolgt als JPEG oder PDF. Eine Graustufen-Option spart Druckertinte. Das Vollzugriff Abonnement enth\u00e4lt eine kommerzielle Lizenz f\u00fcr den Verkauf auf Teachers Pay Teachers oder Etsy.',
+      },
+    ],
+
   },
 
   // Related Apps Section - FULL text from bilderpfad.md

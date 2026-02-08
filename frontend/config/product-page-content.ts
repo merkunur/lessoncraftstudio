@@ -577,139 +577,39 @@ export const contentRegistry: ContentRegistry = {
     'writing-worksheets': writingSvContent,
   },
   de: {
-    // German Word Search - uses German SEO slug (matches sitemap)
     'wortsuche-arbeitsblaetter': wordSearchDeContent,
-    // Also keep old slugs for backwards compatibility
-    'suchsel-arbeitsblaetter': wordSearchDeContent,
-    'word-search-worksheets': wordSearchDeContent,
-    // German Addition - uses German SEO slug
     'addition-arbeitsblaetter': additionDeContent,
-    // Also keep old slug for backwards compatibility during transition
-    'addition-worksheets': additionDeContent,
-    // German Alphabet Train - uses German SEO slug
     'alphabet-zug-arbeitsblaetter': alphabetTrainDeContent,
-    // Also keep old slug for backwards compatibility during transition
-    'alphabet-train-worksheets': alphabetTrainDeContent,
-    // German Coloring - uses German SEO slug
     'malvorlagen-arbeitsblaetter': coloringDeContent,
-    // Also keep old slug for backwards compatibility during transition
-    'coloring-worksheets': coloringDeContent,
-    // German Math Worksheets - uses German SEO slug
     'mathe-arbeitsblaetter': mathWorksheetsDeContent,
-    // Also keep old slug for backwards compatibility during transition
-    'math-worksheets': mathWorksheetsDeContent,
-    // German Word Scramble - uses German SEO slug
     'buchstabensalat-arbeitsblaetter': wordScrambleDeContent,
-    // Also keep old slug for backwards compatibility during transition
-    'word-scramble-worksheets': wordScrambleDeContent,
-    // German Find and Count - uses German SEO slug
     'suchen-und-zaehlen-arbeitsblaetter': findAndCountDeContent,
-    // Also keep old slug for backwards compatibility during transition
-    'find-and-count-worksheets': findAndCountDeContent,
-    // German Matching - uses German SEO slug
     'zuordnungs-arbeitsblaetter': matchingDeContent,
-    // Also keep old slug for backwards compatibility during transition
-    'matching-worksheets': matchingDeContent,
-    // German Drawing Lines - uses German SEO slug
     'linien-ziehen-arbeitsblaetter': drawingLinesDeContent,
-    // Also keep old slug for backwards compatibility during transition
-    'drawing-lines-worksheets': drawingLinesDeContent,
-    // German Picture Bingo - uses German SEO slug
     'bilder-bingo-arbeitsblaetter': pictureBingoDeContent,
-    // Also keep old slug for backwards compatibility during transition
-    'picture-bingo-worksheets': pictureBingoDeContent,
-    // German Sudoku - uses German SEO slug
     'kinder-sudoku-arbeitsblaetter': sudokuDeContent,
-    // Also keep old slug for backwards compatibility during transition
-    'sudoku-worksheets': sudokuDeContent,
-    // German Big Small - uses German SEO slug
     'gross-klein-arbeitsblaetter': bigSmallDeContent,
-    // Also keep old slug for backwards compatibility during transition
-    'big-small-worksheets': bigSmallDeContent,
-    // German Chart Count - uses German SEO slug
     'bilddiagramm-arbeitsblaetter': chartCountDeContent,
-    // Also keep old slug for backwards compatibility during transition
-    'chart-count-worksheets': chartCountDeContent,
-    // German Code Addition - uses German SEO slug
     'bilder-additions-arbeitsblaetter': codeAdditionDeContent,
-    // Also keep old slug for backwards compatibility during transition
-    'code-addition-worksheets': codeAdditionDeContent,
-    // German Draw and Color - uses German SEO slug
     'rasterzeichnen-arbeitsblaetter': drawAndColorDeContent,
-    // Also keep old slug for backwards compatibility during transition
-    'draw-and-color-worksheets': drawAndColorDeContent,
-    // German Find Objects - uses German SEO slug
     'suchbilder-arbeitsblaetter': findObjectsDeContent,
-    // Also keep old slug for backwards compatibility during transition
-    'find-objects-worksheets': findObjectsDeContent,
-    // German Grid Match - uses German SEO slug
     'raster-puzzle-arbeitsblaetter': gridMatchDeContent,
-    // Also keep old slug for backwards compatibility during transition
-    'grid-match-worksheets': gridMatchDeContent,
-    // German Crossword - uses German SEO slug
     'bilderkreuzwortraetsel-arbeitsblaetter': crosswordDeContent,
-    // Also keep old slug for backwards compatibility during transition
-    'crossword-worksheets': crosswordDeContent,
-    // German Cryptogram - uses German SEO slug
     'bildkryptogramm-arbeitsblaetter': cryptogramDeContent,
-    // Also keep old slug for backwards compatibility during transition
-    'cryptogram-worksheets': cryptogramDeContent,
-    // German Math Puzzle - uses German SEO slug
     'mathe-raetsel-arbeitsblaetter': mathPuzzleDeContent,
-    // Also keep old slug for backwards compatibility during transition
-    'math-puzzle-worksheets': mathPuzzleDeContent,
-    // German Missing Pieces - uses German SEO slug
     'fehlende-puzzleteile-arbeitsblaetter': missingPiecesDeContent,
-    // Also keep old slug for backwards compatibility during transition
-    'missing-pieces-worksheets': missingPiecesDeContent,
-    // German More-Less - uses German SEO slug
     'mehr-weniger-arbeitsblaetter': moreLessDeContent,
-    // Also keep old slug for backwards compatibility during transition
-    'more-less-worksheets': moreLessDeContent,
-    // German Odd One Out - uses German SEO slug
     'was-passt-nicht-arbeitsblaetter': oddOneOutDeContent,
-    // Also keep old slug for backwards compatibility during transition
-    'odd-one-out-worksheets': oddOneOutDeContent,
-    // German Pattern Train - uses German SEO slug
     'muster-zug-arbeitsblaetter': patternTrainDeContent,
-    // Also keep old slug for backwards compatibility during transition
-    'pattern-train-worksheets': patternTrainDeContent,
-    // German Pattern Worksheet - uses German SEO slug
     'muster-arbeitsblatt-arbeitsblaetter': patternWorksheetDeContent,
-    // Also keep old slug for backwards compatibility during transition
-    'pattern-worksheets': patternWorksheetDeContent,
-    // German Picture Path - uses German SEO slug
     'bilderpfad-arbeitsblaetter': picturePathDeContent,
-    // Also keep old slug for backwards compatibility during transition
-    'picture-path-worksheets': picturePathDeContent,
-    // German Picture Sort - uses German SEO slug
     'bilder-sortieren-arbeitsblaetter': pictureSortDeContent,
-    // Also keep old slug for backwards compatibility during transition
-    'picture-sort-worksheets': pictureSortDeContent,
-    // German Prepositions - uses German SEO slug
     'praepositionen-arbeitsblaetter': prepositionsDeContent,
-    // Also keep old slug for backwards compatibility during transition
-    'prepositions-worksheets': prepositionsDeContent,
-    // German Shadow Match - uses German SEO slug
     'schattenbilder-zuordnen-arbeitsblaetter': shadowMatchDeContent,
-    // Also keep old slug for backwards compatibility during transition
-    'shadow-match-worksheets': shadowMatchDeContent,
-    // German Subtraction - uses German SEO slug
     'subtraktion-arbeitsblaetter': subtractionDeContent,
-    // Also keep old slug for backwards compatibility during transition
-    'subtraction-worksheets': subtractionDeContent,
-    // German Treasure Hunt - uses German SEO slug
     'schatzsuche-arbeitsblaetter': treasureHuntDeContent,
-    // Also keep old slug for backwards compatibility during transition
-    'treasure-hunt-worksheets': treasureHuntDeContent,
-    // German Word Guess - uses German SEO slug
     'woerter-raten-arbeitsblaetter': wordGuessDeContent,
-    // Also keep old slug for backwards compatibility during transition
-    'word-guess-worksheets': wordGuessDeContent,
-    // German Writing - uses German SEO slug
     'schreibuebungen-arbeitsblaetter': writingDeContent,
-    // Also keep old slug for backwards compatibility during transition
-    'writing-worksheets': writingDeContent,
   },
   fr: {
     // French Word Search - uses French SEO slug

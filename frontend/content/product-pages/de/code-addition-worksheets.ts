@@ -204,8 +204,44 @@ Aktivieren Sie die Graustufenoption für tintensparsames Drucken. Mit dem Vollzu
     showLessLabel: 'Weniger anzeigen',
     secureCheckout: 'Sichere Bezahlung',
     cancelAnytime: 'Jederzeit kündbar',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: 'faq-1',
+        question: 'Was unterscheidet Bilder-Addition von normalen Additionsaufgaben?',
+        answer: 'Bei der Bilder-Addition z\u00e4hlen Kinder bunte Bilder wie \u00c4pfel, Autos oder Tiere und schreiben dann die passende Additionsaufgabe. Eine Legende ordnet jedem Bild eine Zufallszahl zu. So verbindet der Generator visuelles Lernen mit mathematischem Denken und macht Rechnen lernen zum spannenden Abenteuer.',
+      },
+      {
+        id: 'faq-2',
+        question: 'Welchen Zahlenbereich kann ich f\u00fcr die Bilder-Additions-Aufgaben einstellen?',
+        answer: 'Sie stellen Minimum- und Maximum-Werte f\u00fcr den Zahlenbereich ein. F\u00fcr Vorschul-Arbeitsbl\u00e4tter empfehlen wir Zahlen von 1 bis 5. F\u00fcr Rechnen 1. Klasse eignen sich Zahlen bis 10. Die 2. Klasse rechnet sicher mit Zahlen bis 20. Jedes Bild erh\u00e4lt eine Zufallszahl aus dem gew\u00e4hlten Bereich.',
+      },
+      {
+        id: 'faq-3',
+        question: 'Wie viele Aufgaben kann ich pro Arbeitsblatt erstellen?',
+        answer: 'Sie w\u00e4hlen zwischen 3 und 10 Aufgaben pro Arbeitsblatt. F\u00fcr kurze \u00dcbungen reichen 5 Aufgaben, f\u00fcr ausf\u00fchrliche \u00dcbungsphasen eignen sich 8 oder 10 Aufgaben. Jede Aufgabe zeigt zwei Bilder und ein leeres Feld f\u00fcr die Antwort. Jeder Klick auf Erstellen erzeugt neue Aufgabenkombinationen.',
+      },
+      {
+        id: 'faq-4',
+        question: 'Kann ich die Bilder f\u00fcr die Additions-Aufgaben selbst ausw\u00e4hlen?',
+        answer: 'Ja, Sie w\u00e4hlen 5 Bilder entweder per Themenauswahl wie Tiere oder Fahrzeuge oder manuell aus der Bibliothek mit \u00fcber 3000 Bildern. So verbinden Sie Rechnen lernen mit Sachunterricht \u2014 zum Beispiel mit Obst-Bildern passend zur Ern\u00e4hrungseinheit.',
+      },
+      {
+        id: 'faq-5',
+        question: 'Wird automatisch ein L\u00f6sungsschl\u00fcssel f\u00fcr die Bilder-Addition erstellt?',
+        answer: 'Ja, der Generator erstellt mit einem Klick einen L\u00f6sungsschl\u00fcssel, der dieselben Aufgaben mit den korrekten Antworten zeigt. Sie wechseln zwischen Arbeitsblatt und L\u00f6sungsschl\u00fcssel zur \u00dcberpr\u00fcfung und laden beide Versionen separat als PDF oder JPEG herunter.',
+      },
+      {
+        id: 'faq-6',
+        question: 'F\u00fcr welche Altersstufen eignen sich die Bilder-Additions-Arbeitsbl\u00e4tter?',
+        answer: 'Die Arbeitsbl\u00e4tter eignen sich f\u00fcr Kinder von der Vorschule bis zur 3. Klasse Grundschule. Die Bilddarstellung macht die Aufgaben besonders f\u00fcr Anf\u00e4nger zug\u00e4nglich. Durch die einstellbare Schwierigkeit passen Sie die Mathe-Arbeitsbl\u00e4tter an jede Lerngruppe an.',
+      },
+      {
+        id: 'faq-7',
+        question: 'Kann ich die Bilder-Additions-Arbeitsbl\u00e4tter kommerziell verkaufen?',
+        answer: 'Ja, das Vollzugriff Abonnement f\u00fcr 240\u20ac j\u00e4hrlich enth\u00e4lt eine kommerzielle Lizenz. Sie d\u00fcrfen Ihre erstellten Arbeitsbl\u00e4tter auf Teachers Pay Teachers, Etsy oder Amazon KDP verkaufen. Alle Downloads sind wasserzeichenfrei in professioneller 300 DPI Qualit\u00e4t.',
+      },
+    ],
+
   },
 
   // Pricing - Code Addition is FULL ACCESS

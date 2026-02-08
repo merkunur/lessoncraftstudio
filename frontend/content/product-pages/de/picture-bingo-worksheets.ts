@@ -181,14 +181,50 @@ Unser Bilder-Bingo-Generator erstellt zwei druckbare Arbeitsblätter bei jeder G
     showLessLabel: 'Weniger anzeigen',
     secureCheckout: 'Sichere Bezahlung',
     cancelAnytime: 'Jederzeit kündbar',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: 'faq-1',
+        question: 'Welche Rastergr\u00f6\u00dfen stehen f\u00fcr Bilder-Bingo-Karten zur Verf\u00fcgung?',
+        answer: 'Der Bilder-Bingo-Generator bietet Rastergr\u00f6\u00dfen von 3x3 bis 5x5 Zellen. Kleinere 3x3 Raster eignen sich perfekt f\u00fcr Vorschul-Arbeitsbl\u00e4tter und junge Kinder. Standard 4x4 Raster passen f\u00fcr die meisten Arbeitsbl\u00e4tter Grundschule, w\u00e4hrend gr\u00f6\u00dfere 5x5 Raster \u00e4ltere Grundsch\u00fcler herausfordern.',
+      },
+      {
+        id: 'faq-2',
+        question: 'Kann ich mehrere einzigartige Bingo-Karten gleichzeitig erstellen?',
+        answer: 'Ja, Sie k\u00f6nnen bis zu 10 einzigartige Bingo-Karten auf einmal generieren. Jede Karte zeigt eine andere Bildanordnung, sodass keine doppelten Karten entstehen. Das ist ideal f\u00fcr Bingo-Spiele mit der ganzen Klasse.',
+      },
+      {
+        id: 'faq-3',
+        question: 'Welche F\u00fclloptionen gibt es f\u00fcr Bingo-Karten und Ziehchips?',
+        answer: 'Sie k\u00f6nnen zwischen Bild- und Wortf\u00fcllung f\u00fcr Karten und Chips unabh\u00e4ngig w\u00e4hlen. Bildf\u00fcllung zeigt Bilder in den Zellen f\u00fcr visuelle Bingo-Arbeitsbl\u00e4tter. Wortf\u00fcllung zeigt Bildnamen als Text f\u00fcr lesefokussierte \u00dcbungen. Sie k\u00f6nnen beide Optionen mischen, z.B. bildbasierte Karten mit wortbasierten Chips f\u00fcr multimodales Lernen.',
+      },
+      {
+        id: 'faq-4',
+        question: 'F\u00fcr welche Altersgruppe sind Bilder-Bingo-Arbeitsbl\u00e4tter geeignet?',
+        answer: 'Bilder-Bingo-Arbeitsbl\u00e4tter eignen sich f\u00fcr Kinder von der Vorschule bis zur 3. Klasse Grundschule. Durch die einstellbare Rastergr\u00f6\u00dfe k\u00f6nnen Sie den Schwierigkeitsgrad anpassen. Vorsch\u00fclern empfehlen wir 3x3 Raster, w\u00e4hrend Erstklassler mit 4x4 und \u00e4ltere Sch\u00fcler mit 5x5 arbeiten k\u00f6nnen.',
+      },
+      {
+        id: 'faq-5',
+        question: 'Enth\u00e4lt jedes Bingo-Arbeitsblatt auch ein Vorleseblatt f\u00fcr die Lehrkraft?',
+        answer: 'Ja, bei jeder Generierung erstellt der Generator automatisch zwei Arbeitsbl\u00e4tter. Das Haupt-Bingo-Kartenarbeitsblatt mit Raster und Ziehchips sowie ein separates Vorleseblatt mit allen Elementen f\u00fcr die Lehrkraft. Beide Arbeitsbl\u00e4tter sind nach der Generierung vollst\u00e4ndig bearbeitbar.',
+      },
+      {
+        id: 'faq-6',
+        question: 'Kann ich eigene Bilder f\u00fcr die Bingo-Karten hochladen?',
+        answer: 'Ja, Sie k\u00f6nnen eigene Bilder \u00fcber den Datei-Upload-Button hochladen. JPEG, PNG und GIF Formate werden akzeptiert. Hochgeladene Bilder lassen sich mit Bibliotheksbildern kombinieren f\u00fcr personalisierte Vorschul-Arbeitsbl\u00e4tter und Arbeitsbl\u00e4tter Grundschule.',
+      },
+      {
+        id: 'faq-7',
+        question: 'In welchen Formaten kann ich Bilder-Bingo-Arbeitsbl\u00e4tter herunterladen?',
+        answer: 'Sie k\u00f6nnen Ihre Bingo-Karten als JPEG oder PDF herunterladen, jeweils f\u00fcr Arbeitsblatt und Vorleseblatt separat. Alle Downloads werden in professioneller 300 DPI Aufl\u00f6sung exportiert. Bei mehreren Karten erhalten Sie eine ZIP-Datei oder ein mehrseitiges PDF. Graustufen-Modus ist ebenfalls verf\u00fcgbar um Druckkosten zu sparen.',
+      },
+    ],
+
   },
 
   // Pricing - Basis-Paket pricing
   pricing: {
     title: 'Basis-Paket',
-    price: '144€',
+    price: '144\u20ac',
     priceInterval: '/Jahr',
     priceSuffix: 'Jährliche Abrechnung',
     benefits: [

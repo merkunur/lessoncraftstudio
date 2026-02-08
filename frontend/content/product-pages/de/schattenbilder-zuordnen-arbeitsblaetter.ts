@@ -195,8 +195,39 @@ Die Vorschule Arbeitsblätter sind sofort druckbereit. Auch Arbeitsblätter Grun
     showLessLabel: 'Weniger anzeigen',
     secureCheckout: 'Sichere Zahlung',
     cancelAnytime: 'Jederzeit kündbar',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: 'faq-1',
+        question: 'Welche \u00dcbungsmodi bietet der Schattenbilder Zuordnen Generator?',
+        answer: 'Der Generator bietet zwei einzigartige \u00dcbungsmodi. Im Schattenmodus ordnen Kinder farbige Bilder ihren schwarzen Silhouetten zu, was die visuelle Wahrnehmung trainiert. Im Zusammenf\u00fcgen-Modus f\u00fcgen sie geteilte Bildh\u00e4lften wieder zusammen, was r\u00e4umliches Vorstellungsverm\u00f6gen f\u00f6rdert.',
+      },
+      {
+        id: 'faq-2',
+        question: 'Wie viele Bilder kann ich pro Arbeitsblatt verwenden?',
+        answer: 'Pro Schattenbilder-Arbeitsblatt k\u00f6nnen Sie maximal vier Bilder verwenden. Die Bilder werden aus der Bibliothek mit \u00fcber 3000 Motiven ausgew\u00e4hlt oder Sie laden eigene Bilder hoch. Der Generator wandelt jedes Bild automatisch in eine Silhouette um.',
+      },
+      {
+        id: 'faq-3',
+        question: 'F\u00fcr welche Altersgruppe sind Schattenbilder-Arbeitsbl\u00e4tter geeignet?',
+        answer: 'Schattenbilder-Arbeitsbl\u00e4tter sind ideal f\u00fcr Vorschule und Grundschule. Die visuelle Diskriminierung ist eine wichtige Vorl\u00e4uferfertigkeit f\u00fcr das sp\u00e4tere Lesen. Die \u00dcbungen eignen sich besonders f\u00fcr den F\u00f6rderunterricht und zur Vorbereitung auf schulische Anforderungen.',
+      },
+      {
+        id: 'faq-4',
+        question: 'Kann ich im Zusammenf\u00fcgen-Modus die Schnittrichtung w\u00e4hlen?',
+        answer: 'Ja, im Zusammenf\u00fcgen-Modus k\u00f6nnen Sie die Schnittrichtung festlegen. Horizontal teilt die Bilder in oben und unten, vertikal teilt sie in links und rechts. Die Positionen der Bildh\u00e4lften werden zuf\u00e4llig angeordnet, damit jedes Arbeitsblatt eine echte \u00dcbung darstellt.',
+      },
+      {
+        id: 'faq-5',
+        question: 'Gibt es A-B-C-Beschriftungen zur Zuordnung?',
+        answer: 'Ja, Sie k\u00f6nnen optional A-B-C und 1-2-3 Beschriftungen aktivieren. Diese helfen besonders j\u00fcngeren Kindern bei der Zuordnung von Bildern und Silhouetten. Zus\u00e4tzlich k\u00f6nnen Sie ein Name-Datum-Feld f\u00fcr Klassenarbeiten aktivieren.',
+      },
+      {
+        id: 'faq-6',
+        question: 'Welche F\u00e4higkeiten f\u00f6rdern Schattenbilder-Arbeitsbl\u00e4tter?',
+        answer: 'Schattenbilder-Arbeitsbl\u00e4tter f\u00f6rdern visuelle Wahrnehmung, r\u00e4umliches Denken und Formenerkennung. Im Schattenmodus trainieren Kinder das Erkennen von Umrissen und Konturen. Im Zusammenf\u00fcgen-Modus entwickeln sie r\u00e4umliches Vorstellungsverm\u00f6gen. Beide Modi sind wertvolle Erg\u00e4nzungen zu Mathe-Arbeitsbl\u00e4ttern und Deutsch-Arbeitsbl\u00e4ttern.',
+      },
+    ],
+
   },
 
   // Related Apps Section - FULL text from schattenbilder-zuordnen.md

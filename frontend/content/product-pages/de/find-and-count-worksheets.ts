@@ -203,8 +203,44 @@ Laden Sie Arbeitsblatt und Antwortschlüssel getrennt herunter. Jedes als separa
     showLessLabel: 'Weniger anzeigen',
     secureCheckout: 'Sichere Bezahlung',
     cancelAnytime: 'Jederzeit kündbar',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: 'faq-1',
+        question: 'Welche Aufgabentypen bietet der Suchen-und-Z\u00e4hlen-Generator?',
+        answer: 'Der Generator bietet vier verschiedene Aufgabentypen: Einkreisen, mit einem Quadrat umrahmen, Durchstreichen und Z\u00e4hlen. Diese Aufgaben f\u00f6rdern unterschiedliche F\u00e4higkeiten wie Feinmotorik, visuelle Wahrnehmung und grundlegende Z\u00e4hlf\u00e4higkeiten. Sie k\u00f6nnen f\u00fcr jedes versteckte Objekt einen eigenen Aufgabentyp w\u00e4hlen.',
+      },
+      {
+        id: 'faq-2',
+        question: 'Wie passe ich die Schwierigkeit der Z\u00e4hl\u00fcbungen an?',
+        answer: 'Die Schwierigkeit l\u00e4sst sich \u00fcber die Rastergr\u00f6\u00dfe steuern. Kleinere Raster (5\u00d75, 6\u00d76) sind ideal f\u00fcr Vorschulkinder, w\u00e4hrend gr\u00f6\u00dfere Raster (8\u00d78, 10\u00d710) \u00e4ltere Grundsch\u00fcler herausfordern. Zus\u00e4tzlich k\u00f6nnen Sie 1 bis 4 versteckte Objekte w\u00e4hlen, um den Schwierigkeitsgrad weiter anzupassen.',
+      },
+      {
+        id: 'faq-3',
+        question: 'Wird ein L\u00f6sungsblatt automatisch erstellt?',
+        answer: 'Ja, der Generator erstellt automatisch einen L\u00f6sungsschl\u00fcssel mit visuellen Markierungen, der zeigt, wo sich die versteckten Objekte befinden. Arbeitsblatt und L\u00f6sungsblatt k\u00f6nnen separat als PDF oder JPEG heruntergeladen werden. Das spart Ihnen wertvolle Vorbereitungszeit.',
+      },
+      {
+        id: 'faq-4',
+        question: 'F\u00fcr welches Alter eignen sich die Suchen-und-Z\u00e4hlen-Arbeitsbl\u00e4tter?',
+        answer: 'Die Arbeitsbl\u00e4tter sind f\u00fcr Kinder in der Vorschule und Grundschule konzipiert, typischerweise im Alter von 4 bis 8 Jahren. Durch die anpassbare Rastergr\u00f6\u00dfe und Aufgabenanzahl k\u00f6nnen Sie das Material an jede Altersgruppe und jedes F\u00e4higkeitsniveau anpassen.',
+      },
+      {
+        id: 'faq-5',
+        question: 'Kann ich eigene Bilder f\u00fcr die Z\u00e4hl\u00fcbungen verwenden?',
+        answer: 'Ja, Sie k\u00f6nnen aus \u00fcber 3000 thematisch organisierten Bildern w\u00e4hlen oder eigene Bilder hochladen. Die Bibliothek umfasst Themen wie Tiere, Essen, Fahrzeuge und Natur. Die Suchfunktion hilft Ihnen, schnell bestimmte Bilder zu finden.',
+      },
+      {
+        id: 'faq-6',
+        question: 'Welche p\u00e4dagogischen Ziele f\u00f6rdern Suchen-und-Z\u00e4hlen-Arbeitsbl\u00e4tter?',
+        answer: 'Die Arbeitsbl\u00e4tter f\u00f6rdern visuelle Wahrnehmung, Aufmerksamkeit f\u00fcr Details, Zahlenerkennung und grundlegende Z\u00e4hlf\u00e4higkeiten. Durch Zeichenaufgaben wie Einkreisen und Quadrate werden zus\u00e4tzlich Feinmotorik und Schwung\u00fcbungen trainiert. Das Format l\u00e4sst sich auch mit thematischem Lernen in allen Schulf\u00e4chern kombinieren.',
+      },
+      {
+        id: 'faq-7',
+        question: 'Welche Seitenformate stehen f\u00fcr den Druck zur Verf\u00fcgung?',
+        answer: 'Sie k\u00f6nnen zwischen Letter und A4 in Hoch- oder Querformat w\u00e4hlen. Querformat bietet mehr Platz f\u00fcr gr\u00f6\u00dfere Raster. Alle Arbeitsbl\u00e4tter werden in professioneller 300 DPI Qualit\u00e4t exportiert. Die Graustufen-Option spart Druckertinte bei farbigen Bildern.',
+      },
+    ],
+
   },
 
   // Pricing - Find and Count is CORE BUNDLE (German: Basis-Paket)

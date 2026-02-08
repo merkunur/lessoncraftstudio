@@ -207,8 +207,44 @@ Die Graustufen-Option spart Druckertinte. Aktivieren Sie diese vor dem Download.
     showLessLabel: 'Weniger anzeigen',
     secureCheckout: 'Sichere Zahlung',
     cancelAnytime: 'Jederzeit kündbar',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: 'faq-1',
+        question: 'Wie funktioniert das W\u00f6rter-Raten-Arbeitsblatt?',
+        answer: 'Ein Bild zeigt einen Gegenstand und daneben stehen leere K\u00e4stchen f\u00fcr jeden Buchstaben. Die Kinder erraten das Wort anhand des Bildhinweises und schreiben die Buchstaben in die K\u00e4stchen. Der Generator extrahiert die W\u00f6rter automatisch aus den Bilddateinamen oder Sie geben eigene W\u00f6rter ein.',
+      },
+      {
+        id: 'faq-2',
+        question: 'Welche Schwierigkeitsstufen gibt es f\u00fcr die Wortr\u00e4tsel?',
+        answer: 'Es gibt vier Stufen: "Keine Hinweise" zeigt nur leere K\u00e4stchen f\u00fcr fortgeschrittene Sch\u00fcler. "Leicht" zeigt die H\u00e4lfte aller Buchstaben vorab. "Normal" zeigt ein Viertel der Buchstaben. "Schwer" zeigt nur jeden sechsten Buchstaben. So k\u00f6nnen Sie die Arbeitsbl\u00e4tter an jede Klassenstufe anpassen.',
+      },
+      {
+        id: 'faq-3',
+        question: 'Wie viele R\u00e4tsel passen auf ein Arbeitsblatt?',
+        answer: 'Sie k\u00f6nnen zwischen 1 und 10 R\u00e4tsel pro Seite w\u00e4hlen. F\u00fcr Arbeitsbl\u00e4tter Grundschule empfehlen wir 6 bis 8 R\u00e4tsel. Weniger R\u00e4tsel bedeuten gr\u00f6\u00dfere Bilder und K\u00e4stchen, was f\u00fcr j\u00fcngere Kinder besser geeignet ist.',
+      },
+      {
+        id: 'faq-4',
+        question: 'Kann ich Gro\u00df- oder Kleinbuchstaben w\u00e4hlen?',
+        answer: 'Ja, Sie k\u00f6nnen zwischen Gro\u00df- und Kleinbuchstaben w\u00e4hlen. F\u00fcr Anf\u00e4nger in der Vorschule sind Gro\u00dfbuchstaben empfohlen. Fortgeschrittene Sch\u00fcler \u00fcben mit Kleinbuchstaben. Sie k\u00f6nnen auch bestimmte Buchstaben von den Hinweisen ausschlie\u00dfen.',
+      },
+      {
+        id: 'faq-5',
+        question: 'F\u00fcr welche F\u00e4cher eignen sich W\u00f6rter-Raten-Arbeitsbl\u00e4tter?',
+        answer: 'Die Wortr\u00e4tsel eignen sich besonders f\u00fcr Deutsch-Arbeitsbl\u00e4tter und Buchstaben lernen. Sie f\u00f6rdern Rechtschreibung, Wortschatzerweiterung und visuelle Worterkennung. Durch die thematische Bildauswahl k\u00f6nnen Sie die R\u00e4tsel auch f\u00fcr den Sachunterricht oder den DaZ-Unterricht nutzen.',
+      },
+      {
+        id: 'faq-6',
+        question: 'Gibt es einen automatischen L\u00f6sungsschl\u00fcssel?',
+        answer: 'Ja, der Generator erstellt automatisch einen L\u00f6sungsschl\u00fcssel mit allen vollst\u00e4ndig ausgef\u00fcllten W\u00f6rtern. Sie k\u00f6nnen zwischen Arbeitsblatt und L\u00f6sungsschl\u00fcssel wechseln und beide separat als PDF oder JPEG herunterladen. Das spart wertvolle Korrekturzeit.',
+      },
+      {
+        id: 'faq-7',
+        question: 'Kann ich eigene W\u00f6rter statt der automatischen verwenden?',
+        answer: 'Ja, Sie k\u00f6nnen die automatisch generierten W\u00f6rter manuell \u00e4ndern. Das ist ideal f\u00fcr w\u00f6chentliche Rechtschreibw\u00f6rter oder spezifisches Vokabular. Alternativ w\u00e4hlen Sie Bilder aus \u00fcber 3.000 Motiven, wobei das System die passenden deutschen W\u00f6rter automatisch extrahiert.',
+      },
+    ],
+
   },
 
   // Related Apps Section - FULL text from woerter-raten.md

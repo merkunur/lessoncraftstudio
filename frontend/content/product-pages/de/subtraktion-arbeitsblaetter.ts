@@ -209,8 +209,44 @@ Laden Sie Arbeitsblatt und Lösungsschlüssel separat herunter. Beide Dateien si
     showLessLabel: 'Weniger anzeigen',
     secureCheckout: 'Sichere Zahlung',
     cancelAnytime: 'Jederzeit kündbar',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: 'faq-1',
+        question: 'Welche \u00dcbungsmodi bietet der Subtraktion-Generator?',
+        answer: 'Der Generator bietet vier verschiedene \u00dcbungsmodi f\u00fcr Minusrechnen. Im Durchstreich-Modus streichen Kinder Bilder durch und z\u00e4hlen den Rest. Der Bild-Zahl-Modus kombiniert visuelle und numerische Elemente. Der Subtrahend-finden-Modus fordert logisches Denken. Der gemischte Modus kombiniert verschiedene Aufgabentypen zuf\u00e4llig.',
+      },
+      {
+        id: 'faq-2',
+        question: 'F\u00fcr welche Klassenstufen sind die Subtraktion-Arbeitsbl\u00e4tter geeignet?',
+        answer: 'Die Subtraktion-Arbeitsbl\u00e4tter eignen sich f\u00fcr Vorschule bis zur 2. Klasse Grundschule. F\u00fcr Vorsch\u00fcler empfehlen wir den Zahlenbereich 2 bis 5 im Durchstreich-Modus. Erstklassler arbeiten gut mit 5 bis 10. Zweitklassler bew\u00e4ltigen den vollen Bereich bis 20.',
+      },
+      {
+        id: 'faq-3',
+        question: 'Wie kann ich den Schwierigkeitsgrad der Mathe-Arbeitsbl\u00e4tter anpassen?',
+        answer: 'Sie k\u00f6nnen den Zahlenbereich von 2 bis 20 einstellen und die Anzahl der Aufgaben festlegen. Bis zu 10 Aufgaben passen auf ein Arbeitsblatt. Zus\u00e4tzlich w\u00e4hlen Sie den \u00dcbungsmodus: Durchstreichen f\u00fcr Anf\u00e4nger, Bild-Zahl f\u00fcr Fortgeschrittene, Subtrahend-finden f\u00fcr leistungsstarke Sch\u00fcler.',
+      },
+      {
+        id: 'faq-4',
+        question: 'Warum verwendet der Generator Bilder statt abstrakter Zahlen?',
+        answer: 'Der Subtraktion-Generator nutzt Bilder, damit Kinder das Minusrechnen durch visuelles Abz\u00e4hlen verstehen. Kinder streichen Bilder durch und z\u00e4hlen den Rest. Diese handlungsorientierte Methode macht Rechnen lernen greifbar und verst\u00e4ndlich, besonders f\u00fcr Vorschulkinder und Erstklassler.',
+      },
+      {
+        id: 'faq-5',
+        question: 'Wird ein L\u00f6sungsschl\u00fcssel automatisch erstellt?',
+        answer: 'Ja, der L\u00f6sungsschl\u00fcssel wird auf Knopfdruck erstellt. Er zeigt alle Antworten farblich hervorgehoben mit gr\u00fcnen Markierungen. Der L\u00f6sungsschl\u00fcssel nutzt dasselbe Design wie das Arbeitsblatt. Lehrkr\u00e4fte sparen so wertvolle Korrekturzeit.',
+      },
+      {
+        id: 'faq-6',
+        question: 'Kann ich thematische Bilder f\u00fcr die Subtraktion-Arbeitsbl\u00e4tter w\u00e4hlen?',
+        answer: 'Ja, die Bildbibliothek bietet \u00fcber 3000 Motive in Kategorien wie Tiere, Fahrzeuge und Lebensmittel. Sie k\u00f6nnen auch eigene Bilder hochladen. Klassenfotos oder saisonale Motive personalisieren die Mathe-Arbeitsbl\u00e4tter. So bleibt jedes Minusrechnen-Arbeitsblatt abwechslungsreich.',
+      },
+      {
+        id: 'faq-7',
+        question: 'Wie drucke ich die Subtraktion-Arbeitsbl\u00e4tter am besten aus?',
+        answer: 'Laden Sie die Arbeitsbl\u00e4tter als PDF f\u00fcr beste Druckqualit\u00e4t herunter. Die Graustufen-Option spart teure Farbpatronen und die Bildqualit\u00e4t bleibt ausgezeichnet. Alle Downloads haben professionelle 300 DPI Aufl\u00f6sung. Sie k\u00f6nnen beliebig viele Kopien f\u00fcr Ihre Klasse drucken.',
+      },
+    ],
+
   },
 
   // Related Apps Section - FULL text from subtraktion.md Section 7

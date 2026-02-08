@@ -1,8 +1,7 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence, useInView } from 'framer-motion';
-import { useRef } from 'react';
 
 interface Feature {
   id: string;
@@ -55,6 +54,8 @@ function FeatureCard({
   showLessLabel: string;
 }) {
   const [isExpanded, setIsExpanded] = useState(false);
+  const [hasMounted, setHasMounted] = useState(false);
+  useEffect(() => { setHasMounted(true); }, []);
 
   // Split description into sentences - show only 3 sentences by default (collapsed)
   const sentences = feature.description.split(/(?<=[.!?])\s+/);
@@ -78,6 +79,7 @@ function FeatureCard({
       className={`group relative ${
         feature.highlighted ? 'md:col-span-2 lg:col-span-1' : ''
       }`}
+      initial={hasMounted ? { opacity: 0, y: 20 } : false}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       transition={{ duration: 0.5, delay: index * 0.1 }}
@@ -182,6 +184,8 @@ export default function FeaturesGrid({
 }: FeaturesGridProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const isInView = useInView(containerRef, { once: true, margin: '-100px' });
+  const [hasMounted, setHasMounted] = useState(false);
+  useEffect(() => { setHasMounted(true); }, []);
 
   return (
     <section className="py-24 bg-gradient-to-b from-white via-stone-50/30 to-white relative overflow-hidden">
@@ -202,11 +206,13 @@ export default function FeaturesGrid({
         {/* Section header */}
         <motion.div
           className="text-center mb-16"
+          initial={hasMounted ? { opacity: 0, y: 20 } : false}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
           <motion.div
+            initial={hasMounted ? { opacity: 0, scale: 0.95 } : false}
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
             transition={{ delay: 0.1 }}
@@ -252,6 +258,7 @@ export default function FeaturesGrid({
         {/* Bottom trust element */}
         <motion.div
           className="flex justify-center mt-16"
+          initial={hasMounted ? { opacity: 0, y: 20 } : false}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ delay: 0.5 }}

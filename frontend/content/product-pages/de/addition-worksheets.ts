@@ -201,8 +201,44 @@ Mit dem Basis-Paket für 144 € jährlich erhalten Sie wasserzeichenfreie Downl
     showLessLabel: 'Weniger anzeigen',
     secureCheckout: 'Sichere Bezahlung',
     cancelAnytime: 'Jederzeit kündbar',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: 'faq-1',
+        question: 'Welche \u00dcbungsmodi bietet der Additions-Generator f\u00fcr Mathe-Arbeitsbl\u00e4tter?',
+        answer: 'Der Generator bietet f\u00fcnf verschiedene \u00dcbungsmodi: Bild-plus-Bild, Bild-plus-Zahl, Zahl-plus-Bild, Addend-Finden und einen gemischten Modus. Jeder Modus unterst\u00fctzt eine andere Lernphase beim Rechnen lernen. Beginnen Sie mit konkreten Bild-plus-Bild-Aufgaben f\u00fcr Vorsch\u00fclkinder und steigern Sie progressiv zu abstrakteren Modi f\u00fcr die 1. Klasse.',
+      },
+      {
+        id: 'faq-2',
+        question: 'F\u00fcr welche Altersgruppe eignen sich die Additions-Arbeitsbl\u00e4tter?',
+        answer: 'Die Additions-Arbeitsbl\u00e4tter eignen sich f\u00fcr Kinder von der Vorschule bis zur Grundschule. F\u00fcr Vorsch\u00fclkinder empfehlen wir kleine Zahlen von 1 bis 3. F\u00fcr die 1. Klasse sind Zahlen bis 10 ideal, und f\u00fcr fortgeschrittene Sch\u00fcler k\u00f6nnen Sie den Bereich bis 20 erweitern.',
+      },
+      {
+        id: 'faq-3',
+        question: 'Kann ich die Schwierigkeit der Additionsaufgaben individuell einstellen?',
+        answer: 'Ja, Sie haben volle Kontrolle \u00fcber die Schwierigkeit Ihrer Arbeitsbl\u00e4tter Grundschule. Stellen Sie Minimum- und Maximum-Werte f\u00fcr Operanden ein und begrenzen Sie die maximale Summe. Zus\u00e4tzlich w\u00e4hlen Sie die Anzahl der Aufgaben pro Arbeitsblatt \u2014 weniger f\u00fcr kurze \u00dcbungen, mehr f\u00fcr Hausaufgaben oder Tests.',
+      },
+      {
+        id: 'faq-4',
+        question: 'Werden L\u00f6sungsbl\u00e4tter automatisch erstellt?',
+        answer: 'Ja, jedes Additions-Arbeitsblatt enth\u00e4lt automatisch ein L\u00f6sungsblatt f\u00fcr schnelle Korrektur. Sie k\u00f6nnen zwischen Arbeitsblatt und L\u00f6sungsblatt mit einem Klick wechseln. Beide Dateien lassen sich separat als PDF oder JPEG in 300 DPI herunterladen.',
+      },
+      {
+        id: 'faq-5',
+        question: 'Welche Bilder stehen f\u00fcr die Additions-Arbeitsbl\u00e4tter zur Verf\u00fcgung?',
+        answer: 'Sie haben Zugang zu \u00fcber 3000 kindgerechten Bildern in mehr als 50 thematischen Kategorien wie Tiere, Fahrzeuge, Essen und Natur. Sie k\u00f6nnen ein Thema w\u00e4hlen, einzelne Bilder manuell ausw\u00e4hlen oder eigene Bilder hochladen f\u00fcr personalisierte Mathe-Arbeitsbl\u00e4tter.',
+      },
+      {
+        id: 'faq-6',
+        question: 'In welchen Formaten kann ich die Arbeitsbl\u00e4tter herunterladen?',
+        answer: 'Sie k\u00f6nnen Ihre Additions-Arbeitsbl\u00e4tter als PDF oder JPEG in professioneller 300 DPI Aufl\u00f6sung herunterladen. Die Graustufen-Option spart Druckertinte bei farbigen Bildern. Mit dem Basis-Paket f\u00fcr 144 \u20ac j\u00e4hrlich erhalten Sie wasserzeichenfreie Downloads mit kommerzieller Lizenz.',
+      },
+      {
+        id: 'faq-7',
+        question: 'Unterst\u00fctzt der Generator mehrere Sprachen f\u00fcr den Mathematikunterricht?',
+        answer: 'Ja, der Additions-Generator funktioniert in 11 Sprachen und ist ideal f\u00fcr mehrsprachigen Mathematikunterricht. Die Bildnamen und Arbeitsblatt-Beschriftungen passen sich automatisch an die gew\u00e4hlte Sprache an. Das macht ihn perfekt f\u00fcr DaZ-Unterricht und bilinguale Klassen.',
+      },
+    ],
+
   },
 
   // Pricing - Addition is FREE but needs subscription for no-watermark/commercial

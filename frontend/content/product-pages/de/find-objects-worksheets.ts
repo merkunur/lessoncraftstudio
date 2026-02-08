@@ -191,8 +191,44 @@ Laden Sie Arbeitsblatt und Lösungsschlüssel separat für organisierte Dateiver
     showLessLabel: 'Weniger anzeigen',
     secureCheckout: 'Sichere Bezahlung',
     cancelAnytime: 'Jederzeit kündbar',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: 'faq-1',
+        question: 'Welche Aktivit\u00e4tsmodi bietet der Suchbilder-Generator?',
+        answer: 'Der Generator bietet zwei bew\u00e4hrte Formate: Den Ich-Sehe-Was-Modus, bei dem Kinder versteckte Objekte unter Ablenkungsbildern finden, und den Welches-Passt-Nicht-Modus, bei dem Sch\u00fcler ungepaarte Bilder identifizieren m\u00fcssen. Beide Modi unterst\u00fctzen anpassbare Schwierigkeitsstufen f\u00fcr Vorschule und Grundschule.',
+      },
+      {
+        id: 'faq-2',
+        question: 'Wie f\u00f6rdern Suchbilder-Arbeitsbl\u00e4tter die visuelle Wahrnehmung?',
+        answer: 'Suchbilder trainieren die visuelle Diskriminierung, Aufmerksamkeit und Beobachtungsgabe. Kinder m\u00fcssen Details genau betrachten, um versteckte oder unpassende Objekte zu erkennen. Diese F\u00e4higkeiten sind grundlegend f\u00fcr das sp\u00e4tere Lesen und Rechnen lernen.',
+      },
+      {
+        id: 'faq-3',
+        question: 'F\u00fcr welche Altersgruppe sind Suchbilder-Arbeitsbl\u00e4tter geeignet?',
+        answer: 'Die Arbeitsbl\u00e4tter eignen sich f\u00fcr Kinder ab 3 Jahren bis zur 3. Klasse. Beginnen Sie mit 1-2 versteckten Objekten f\u00fcr Vorschulkinder und steigern Sie auf 3-5 Objekte f\u00fcr fortgeschrittene Erstkl\u00e4ssler. Die anpassbare Schwierigkeit macht den Generator vielseitig einsetzbar.',
+      },
+      {
+        id: 'faq-4',
+        question: 'Wird automatisch ein L\u00f6sungsschl\u00fcssel erstellt?',
+        answer: 'Ja, der Generator erstellt gleichzeitig einen L\u00f6sungsschl\u00fcssel. Im Ich-Sehe-Was-Modus werden versteckte Objekte umkreist, im Welches-Passt-Nicht-Modus werden ungepaarte Bilder markiert. Arbeitsblatt und L\u00f6sung k\u00f6nnen separat als PDF oder JPEG heruntergeladen werden.',
+      },
+      {
+        id: 'faq-5',
+        question: 'Kann ich thematische Hintergr\u00fcnde f\u00fcr meine Suchbilder w\u00e4hlen?',
+        answer: 'Ja, die Plattform bietet eine thematische Hintergrundbibliothek mit saisonalen und dekorativen Designs. W\u00e4hlen Sie Rahmenthemen f\u00fcr professionelle Umrandungen und f\u00fcgen Sie Namens- und Datumsfelder hinzu. Diese Gestaltungsoptionen machen Ihre Arbeitsbl\u00e4tter visuell ansprechend.',
+      },
+      {
+        id: 'faq-6',
+        question: 'Wie viele Bilder kann ich f\u00fcr ein Suchbild-Arbeitsblatt ausw\u00e4hlen?',
+        answer: 'Im Ich-Sehe-Was-Modus w\u00e4hlen Sie 8-12 Ablenkungsbilder und 1-5 versteckte Objekte aus der Bibliothek mit \u00fcber 3000 Bildern. Durchsuchen Sie Themen wie Tiere, Fahrzeuge oder Lebensmittel. Sie k\u00f6nnen auch eigene Bilder hochladen f\u00fcr personalisierte Arbeitsbl\u00e4tter.',
+      },
+      {
+        id: 'faq-7',
+        question: 'Darf ich die Arbeitsbl\u00e4tter kommerziell verkaufen?',
+        answer: 'Ja, das Vollzugriff Abonnement beinhaltet eine kommerzielle Lizenz f\u00fcr den Verkauf auf Plattformen wie Teachers Pay Teachers und Etsy. Alle 33 Arbeitsblatt-Generatoren sind im Abo f\u00fcr 240\u20ac pro Jahr enthalten. Die professionelle 300 DPI Qualit\u00e4t eignet sich perfekt f\u00fcr den kommerziellen Einsatz.',
+      },
+    ],
+
   },
 
   // Pricing - Vollzugriff pricing (240€/year)

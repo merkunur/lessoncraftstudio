@@ -203,8 +203,44 @@ Aktivieren Sie die Graustufen-Option, wenn Sie auf einem Schwarz-Weiß-Drucker d
     showLessLabel: 'Weniger anzeigen',
     secureCheckout: 'Sichere Zahlung',
     cancelAnytime: 'Jederzeit kündbar',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: 'faq-1',
+        question: 'Wie funktioniert das Schatzsuche-Arbeitsblatt?',
+        answer: 'Die Sch\u00fcler lesen geschriebene Richtungshinweise und navigieren durch ein 5\u00d75 Bilderraster, um den versteckten Schatz zu finden. Der Generator erstellt sechs zuf\u00e4llige Richtungsbewegungen vom Startbild zum Schatzort. Jedes Arbeitsblatt ist einzigartig, da die Bewegungen bei jeder Generierung neu erstellt werden.',
+      },
+      {
+        id: 'faq-2',
+        question: 'Welche Richtungstypen kann ich w\u00e4hlen?',
+        answer: 'Sie k\u00f6nnen zwischen einfachen Richtungen (Oben/Unten/Links/Rechts) und Himmelsrichtungen (Nord/S\u00fcd/Ost/West) w\u00e4hlen. Einfache Richtungen eignen sich f\u00fcr Vorschule bis 1. Klasse. Himmelsrichtungen sind f\u00fcr die 2. Klasse und h\u00f6her geeignet, wenn Sch\u00fcler Kartenfertigkeiten lernen.',
+      },
+      {
+        id: 'faq-3',
+        question: 'Wie viele Bilder ben\u00f6tige ich f\u00fcr ein Schatzsuche-Arbeitsblatt?',
+        answer: 'Sie ben\u00f6tigen sechs Bilder f\u00fcr das 5\u00d75 Raster. W\u00e4hlen Sie entweder ein Thema f\u00fcr automatische Auswahl oder suchen Sie manuell aus \u00fcber 3.000 Bildern. Sie k\u00f6nnen auch eigene Bilder hochladen und mit Bibliotheksbildern kombinieren.',
+      },
+      {
+        id: 'faq-4',
+        question: 'F\u00fcr welche Klassenstufen eignen sich Schatzsuche-Arbeitsbl\u00e4tter?',
+        answer: 'Schatzsuche-Arbeitsbl\u00e4tter eignen sich f\u00fcr Vorschule bis zur 3. Klasse Grundschule. Sie f\u00f6rdern Leseverst\u00e4ndnis, r\u00e4umliches Vorstellungsverm\u00f6gen und kritisches Denken. Durch die Wahl des Richtungsvokabular-Typs k\u00f6nnen Sie den Schwierigkeitsgrad an die Klassenstufe anpassen.',
+      },
+      {
+        id: 'faq-5',
+        question: 'Wird ein L\u00f6sungsbogen automatisch erstellt?',
+        answer: 'Ja, Sie k\u00f6nnen einen L\u00f6sungsbogen vor dem Download generieren. Er zeigt das identische Arbeitsblatt mit einem roten Kreis, der die Schatzposition markiert. L\u00f6sungsbogen und Arbeitsblatt k\u00f6nnen separat als PDF oder JPEG heruntergeladen werden.',
+      },
+      {
+        id: 'faq-6',
+        question: 'Kann ich das Layout des Schatzsuche-Arbeitsblatts bearbeiten?',
+        answer: 'Ja, nach der Generierung k\u00f6nnen Sie jedes Element auf der Leinwand individuell bearbeiten. Verschieben Sie das Raster, \u00e4ndern Sie die Gr\u00f6\u00dfe mit Eckgriffen, f\u00fcgen Sie Text hinzu und passen Sie Hintergr\u00fcnde an. Sie k\u00f6nnen auch Ihren Namen, Klassennummer oder Sch\u00fclernamenfelder erg\u00e4nzen.',
+      },
+      {
+        id: 'faq-7',
+        question: 'Welche F\u00e4higkeiten f\u00f6rdert das Schatzsuche-Arbeitsblatt?',
+        answer: 'Schatzsuche-Arbeitsbl\u00e4tter f\u00f6rdern das Befolgen mehrstufiger Anweisungen, Richtungsvokabular, Leseverst\u00e4ndnis und r\u00e4umliches Vorstellungsverm\u00f6gen. Die Kombination aus Lesen und visuellem Navigieren macht sie zu einer vielseitigen \u00dcbung f\u00fcr verschiedene Lernbereiche.',
+      },
+    ],
+
   },
 
   // Related Apps Section - FULL text from schatzsuche.md

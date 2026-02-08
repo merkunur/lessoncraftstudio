@@ -215,8 +215,44 @@ Speichern Sie die Datei auf Ihrem Computer. Drucken Sie direkt aus dem Browser. 
     showLessLabel: 'Weniger anzeigen',
     secureCheckout: 'Sichere Zahlung',
     cancelAnytime: 'Jederzeit kündbar',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: 'faq-1',
+        question: 'Was ist der Unterschied zwischen dem Identisch-Modus und dem \u00c4hnlich-Modus?',
+        answer: 'Im Identisch-Modus sehen Kinder drei identische Bilder plus ein abweichendes \u2014 dieser Modus ist einfacher f\u00fcr j\u00fcngere Kinder. Im \u00c4hnlich-Modus stammen drei Bilder aus einer Kategorie und das vierte aus einer anderen. Dieser Modus f\u00f6rdert Kategorisierung und ist anspruchsvoller.',
+      },
+      {
+        id: 'faq-2',
+        question: 'Wie viele \u00dcbungen passen auf ein "Was passt nicht"-Arbeitsblatt?',
+        answer: 'Sie k\u00f6nnen zwischen 5 und 10 \u00dcbungen pro Arbeitsblatt w\u00e4hlen. Weniger \u00dcbungen bedeuten gr\u00f6\u00dfere Bilder, was f\u00fcr Vorschulkinder ideal ist. Mehr \u00dcbungen bieten intensivere Logik-\u00dcbung f\u00fcr Grundsch\u00fcler. Jede \u00dcbung zeigt vier Bilder in einer Reihe.',
+      },
+      {
+        id: 'faq-3',
+        question: 'Kann ich beide Modi auf einem Arbeitsblatt mischen?',
+        answer: 'Ja, Sie k\u00f6nnen den Modus pro \u00dcbung individuell anpassen. Beginnen Sie mit leichteren Identisch-\u00dcbungen und steigern Sie den Schwierigkeitsgrad mit dem \u00c4hnlich-Modus. So entsteht eine progressive Schwierigkeitssteigerung auf einem Arbeitsblatt.',
+      },
+      {
+        id: 'faq-4',
+        question: 'Werden Bilder auf dem Arbeitsblatt wiederholt?',
+        answer: 'Nein, der Generator verhindert Bildwiederholungen automatisch. Kein Bild erscheint zweimal auf dem Arbeitsblatt. Au\u00dferdem werden die Positionen zuf\u00e4llig gemischt, sodass das abweichende Bild nicht immer an derselben Stelle steht. So k\u00f6nnen Sch\u00fcler nicht nach Position raten.',
+      },
+      {
+        id: 'faq-5',
+        question: 'F\u00fcr welche Altersgruppe sind "Was passt nicht"-Arbeitsbl\u00e4tter geeignet?',
+        answer: 'Die Arbeitsbl\u00e4tter eignen sich f\u00fcr Vorschule bis zur 3. Klasse Grundschule. Der Identisch-Modus ist ab 4 Jahren geeignet. Der \u00c4hnlich-Modus fordert \u00e4ltere Kinder heraus. Die \u00dcbungen f\u00f6rdern kritisches Denken, visuelle Wahrnehmung und die F\u00e4higkeit zur Kategorisierung.',
+      },
+      {
+        id: 'faq-6',
+        question: 'Kann ich eigene Bilder f\u00fcr die Logik-\u00dcbungen verwenden?',
+        answer: 'Ja, Sie k\u00f6nnen eigene Bilder hochladen und mit der Bibliothek kombinieren. \u00dcber 3000 kindgerechte Bilder stehen in mehr als 50 Kategorien zur Verf\u00fcgung. Alle Bilder sind speziell f\u00fcr den Bildungsbereich erstellt. Eigene Uploads machen jedes Arbeitsblatt einzigartig und passend zu Ihrem Unterrichtsthema.',
+      },
+      {
+        id: 'faq-7',
+        question: 'Gibt es einen L\u00f6sungsschl\u00fcssel f\u00fcr die Lehrkraft?',
+        answer: 'Ja, nach dem Erstellen des Arbeitsblatts k\u00f6nnen Sie einen L\u00f6sungsschl\u00fcssel generieren. Rote Kreise markieren die richtigen Antworten \u2014 also das Bild, das nicht dazu passt. Der L\u00f6sungsschl\u00fcssel kann separat heruntergeladen und gedruckt oder am Whiteboard gezeigt werden.',
+      },
+    ],
+
   },
 
   // Related Apps Section - FULL text from was-passt-nicht.md

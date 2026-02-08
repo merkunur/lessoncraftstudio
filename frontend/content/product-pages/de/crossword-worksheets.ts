@@ -201,8 +201,44 @@ Laden Sie den Lösungsschlüssel separat für Lehrerreferenz herunter. Der Lösu
     showLessLabel: 'Weniger anzeigen',
     secureCheckout: 'Sichere Bezahlung',
     cancelAnytime: 'Jederzeit kündbar',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: 'faq-1',
+        question: 'Wie funktioniert der Bilderkreuzwortr\u00e4tsel Generator f\u00fcr Deutsch Arbeitsbl\u00e4tter?',
+        answer: 'Sch\u00fcler betrachten nummerierte Bilder und schreiben die passenden W\u00f6rter ins R\u00e4tselgitter. Der Generator baut automatisch ein 15x15 Gitter und platziert alle W\u00f6rter mit maximalen \u00dcberschneidungen. So verbinden Kinder Bilder mit Rechtschreibung \u2014 perfekt f\u00fcr Buchstaben lernen und Deutsch Arbeitsbl\u00e4tter.',
+      },
+      {
+        id: 'faq-2',
+        question: 'F\u00fcr welche Altersstufen eignen sich die Bilderkreuzwortr\u00e4tsel?',
+        answer: 'Die Bilderkreuzwortr\u00e4tsel eignen sich f\u00fcr Kinder in der Vorschule und Grundschule, die bereits mit Buchstaben vertraut sind. F\u00fcr Leseanf\u00e4nger sind die Bildhinweise besonders hilfreich. Die R\u00e4tsel k\u00f6nnen thematisch angepasst werden, von einfachem Vokabular bis zu fortgeschrittenen W\u00f6rtern.',
+      },
+      {
+        id: 'faq-3',
+        question: 'Wie viele W\u00f6rter enth\u00e4lt ein Bilderkreuzwortr\u00e4tsel?',
+        answer: 'Jedes Kreuzwortr\u00e4tsel verwendet 8 Bilder, die als Hinweise dienen. Der Algorithmus platziert l\u00e4ngere W\u00f6rter zuerst und maximiert \u00dcberschneidungen f\u00fcr p\u00e4dagogischen Wert. Die intelligente Platzierung erstellt ansprechende Arbeitsbl\u00e4tter Grundschule, die Sch\u00fcler angemessen fordern.',
+      },
+      {
+        id: 'faq-4',
+        question: 'Wird ein L\u00f6sungsschl\u00fcssel f\u00fcr das Kreuzwortr\u00e4tsel automatisch erstellt?',
+        answer: 'Ja, sowohl R\u00e4tsel als auch L\u00f6sungsschl\u00fcssel werden gleichzeitig generiert. Der L\u00f6sungsschl\u00fcssel zeigt alle W\u00f6rter im Gitter ausgef\u00fcllt. Laden Sie beide Versionen separat als PDF oder JPEG herunter \u2014 das spart Stunden verglichen mit manueller L\u00f6sungserstellung.',
+      },
+      {
+        id: 'faq-5',
+        question: 'Kann ich Bilder aus verschiedenen Themen f\u00fcr das Kreuzwortr\u00e4tsel kombinieren?',
+        answer: 'Ja, Sie w\u00e4hlen entweder ein Thema wie Tiere, Essen oder Fahrzeuge f\u00fcr schnelle Erstellung, oder Sie w\u00e4hlen 8 Bilder individuell aus \u00fcber 3000 Motiven. Die manuelle Auswahl erm\u00f6glicht themen\u00fcbergreifende Kombinationen passend zu Ihrer Unterrichtseinheit.',
+      },
+      {
+        id: 'faq-6',
+        question: 'In welchen Sprachen funktionieren die Bilderkreuzwortr\u00e4tsel?',
+        answer: 'Der Generator unterst\u00fctzt 11 Sprachen. Die Bildnamen werden automatisch \u00fcbersetzt, sodass das Kreuzwortr\u00e4tsel die W\u00f6rter der gew\u00e4hlten Sprache verwendet. Das macht den Generator ideal f\u00fcr DaF-Unterricht, mehrsprachige Klassen und internationale Schulen.',
+      },
+      {
+        id: 'faq-7',
+        question: 'Kann ich das Layout des Kreuzwortr\u00e4tsels nach der Erstellung anpassen?',
+        answer: 'Ja, Sie k\u00f6nnen das gesamte Gitter und einzelne Bildhinweise verschieben, den Titel bearbeiten und eigene Textelemente wie Name- und Datumsfelder hinzuf\u00fcgen. Dekorative Hintergr\u00fcnde und Rahmen machen die Vorschule Arbeitsbl\u00e4tter noch ansprechender f\u00fcr junge Lerner.',
+      },
+    ],
+
   },
 
   // Pricing - Vollzugriff pricing (240€/year)

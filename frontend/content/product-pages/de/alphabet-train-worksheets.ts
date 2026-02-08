@@ -203,8 +203,39 @@ Laden Sie beide Dateien herunter. Wählen Sie zwischen JPEG und PDF Format. Beid
     showLessLabel: 'Weniger anzeigen',
     secureCheckout: 'Sichere Bezahlung',
     cancelAnytime: 'Jederzeit kündbar',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: 'faq-1',
+        question: 'Wie funktioniert der Alphabet-Zug beim Buchstaben lernen?',
+        answer: 'Der Alphabet-Zug zeigt elf bunte Waggons, wobei jeder Waggon einen Buchstaben und ein passendes Bild enth\u00e4lt. Kinder verbinden so Buchstaben mit visuellen Darstellungen, was den Lernprozess nachhaltig unterst\u00fctzt. Die Hinweis-Anzahl l\u00e4sst sich anpassen \u2014 von 3 Hinweisen f\u00fcr Fortgeschrittene bis 11 f\u00fcr Anf\u00e4nger.',
+      },
+      {
+        id: 'faq-2',
+        question: 'Kann ich Umlaute wie \u00c4, \u00d6 und \u00dc im Alphabet-Zug verwenden?',
+        answer: 'Ja, das deutsche Alphabet im Generator enth\u00e4lt alle Buchstaben inklusive der Umlaute \u00c4, \u00d6 und \u00dc. Sie w\u00e4hlen 11 Buchstaben aus dem vollst\u00e4ndigen deutschen Alphabet aus und erstellen so perfekte Deutsch-Arbeitsbl\u00e4tter f\u00fcr die Vorschule und Grundschule.',
+      },
+      {
+        id: 'faq-3',
+        question: 'F\u00fcr welche Klassenstufen eignet sich der Alphabet-Zug Generator?',
+        answer: 'Der Alphabet-Zug eignet sich f\u00fcr Kinder in der Vorschule und der 1. bis 3. Klasse Grundschule. F\u00fcr Vorsch\u00fclkinder stellen Sie mehr Hinweise ein, w\u00e4hrend \u00e4ltere Sch\u00fcler mit weniger Hinweisen arbeiten. Der Generator passt sich so an jede Lernphase beim Buchstaben lernen an.',
+      },
+      {
+        id: 'faq-4',
+        question: 'Wie werden die Bilder den Buchstaben zugeordnet?',
+        answer: 'Sie w\u00e4hlen ein Thema aus \u00fcber 50 Kategorien wie Tiere, Fahrzeuge oder Essen. Das System ordnet Bilder automatisch dem passenden Buchstaben zu \u2014 ein Apfel wird dem Buchstaben A zugeordnet. Alternativ weisen Sie Bilder manuell zu f\u00fcr maximale Kontrolle \u00fcber Ihre Vorschul-Arbeitsbl\u00e4tter.',
+      },
+      {
+        id: 'faq-5',
+        question: 'Enth\u00e4lt jedes Alphabet-Zug Arbeitsblatt einen L\u00f6sungsschl\u00fcssel?',
+        answer: 'Ja, der Generator erstellt automatisch einen L\u00f6sungsschl\u00fcssel mit demselben Design wie das Arbeitsblatt. Alle versteckten Buchstaben sind im L\u00f6sungsschl\u00fcssel sichtbar. Beide Dateien k\u00f6nnen separat als PDF oder JPEG in 300 DPI heruntergeladen werden.',
+      },
+      {
+        id: 'faq-6',
+        question: 'Kann ich das Alphabet-Zug Arbeitsblatt nach der Erstellung noch bearbeiten?',
+        answer: 'Ja, nach der Generierung k\u00f6nnen Sie das Arbeitsblatt vollst\u00e4ndig bearbeiten. Verschieben Sie Waggons per Drag-and-Drop, f\u00fcgen Sie Textanweisungen hinzu und \u00e4ndern Sie Hintergrundfarben. Die R\u00fcckg\u00e4ngig-Funktion erlaubt sorgenfreies Experimentieren mit Ihren Arbeitsbl\u00e4ttern Grundschule.',
+      },
+    ],
+
   },
 
   // Pricing - Alphabet Train is Basis-Paket ($144/year or $15/month)

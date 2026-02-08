@@ -211,8 +211,44 @@ PDF-Downloads bewahren perfekte Formatierung auf allen Geräten und Druckern. Te
     showLessLabel: 'Weniger anzeigen',
     secureCheckout: 'Sichere Bezahlung',
     cancelAnytime: 'Jederzeit kündbar',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: 'faq-1',
+        question: 'Was ist ein Bilder-Kryptogramm und wie funktioniert es?',
+        answer: 'Ein Bilder-Kryptogramm verwendet Bilder anstelle von Buchstaben als geheime Codes. Sch\u00fcler ordnen Bilder den Buchstaben zu und entschl\u00fcsseln so versteckte Botschaften. Die Bildlegende zeigt alle Bild-Buchstaben-Zuordnungen. Das kombiniert Buchstaben lernen mit kritischem Denken auf spielerische Weise.',
+      },
+      {
+        id: 'faq-2',
+        question: 'Wie kann ich die Schwierigkeit des Kryptogramms anpassen?',
+        answer: 'Sie passen die Anzahl der enth\u00fcllten Buchstaben an den Schwierigkeitsgrad an. W\u00e4hlen Sie 3 bis 5 enth\u00fcllte Buchstaben f\u00fcr Vorschul-Arbeitsbl\u00e4tter. Reduzieren Sie auf 1 bis 2 f\u00fcr fortgeschrittene Grundsch\u00fcler. Die maximale Zeilenanzahl steuert zus\u00e4tzlich die R\u00e4tselgr\u00f6\u00dfe von 2 bis 4 Zeilen.',
+      },
+      {
+        id: 'faq-3',
+        question: 'Welche Botschaften kann ich f\u00fcr das Kryptogramm eingeben?',
+        answer: 'Sie geben beliebige Botschaften als R\u00e4tseltext ein. F\u00fcr Buchstaben lernen eignen sich S\u00e4tze wie "DAS ABC IST TOLL". F\u00fcr Deutsch Arbeitsbl\u00e4tter verwenden Sie thematische S\u00e4tze passend zur Unterrichtseinheit. F\u00fcr Mathe Arbeitsbl\u00e4tter nutzen Sie Zahlenw\u00f6rter wie "ZWEI PLUS DREI".',
+      },
+      {
+        id: 'faq-4',
+        question: 'F\u00fcr welche Altersgruppen eignen sich Bilder-Kryptogramme?',
+        answer: 'Kryptogramme eignen sich f\u00fcr Kinder von der Vorschule bis zur Grundschule. F\u00fcr j\u00fcngere Kinder w\u00e4hlen Sie kurze Botschaften mit vielen Hinweisbuchstaben. \u00c4ltere Sch\u00fcler l\u00f6sen l\u00e4ngere Texte mit weniger Hinweisen. Die visuelle Verbindung von Bildern und Buchstaben unterst\u00fctzt jede Lernphase.',
+      },
+      {
+        id: 'faq-5',
+        question: 'Wie weise ich Bilder den Buchstaben im Kryptogramm zu?',
+        answer: 'Sie k\u00f6nnen ein Thema w\u00e4hlen f\u00fcr automatische Zuordnung oder Bilder manuell den Buchstaben A bis Z zuweisen. Klicken Sie die Buchstaben-Buttons und w\u00e4hlen Sie passende Bilder aus \u00fcber 3000 Motiven. Die Auto-Zuweisungsfunktion beschleunigt den Prozess erheblich.',
+      },
+      {
+        id: 'faq-6',
+        question: 'Wird ein L\u00f6sungsschl\u00fcssel f\u00fcr das Kryptogramm erstellt?',
+        answer: 'Ja, der Generator erstellt automatisch einen L\u00f6sungsschl\u00fcssel mit der vollst\u00e4ndigen Botschaft und allen Buchstaben. Laden Sie R\u00e4tsel und L\u00f6sung separat als PDF oder JPEG in 300 DPI herunter. Der Lösungsschl\u00fcssel spart Lehrkr\u00e4ften Stunden bei der Korrektur.',
+      },
+      {
+        id: 'faq-7',
+        question: 'In welchen Sprachen kann ich Kryptogramme erstellen?',
+        answer: 'Der Generator erstellt Kryptogramme in 11 Sprachen. Die Bildnamen passen sich automatisch an die gew\u00e4hlte Sprache an. Das macht den Generator ideal f\u00fcr DaF-Unterricht und mehrsprachige Klassen. Erstellen Sie Deutsch Arbeitsbl\u00e4tter, englische Vokabel\u00fcbungen oder mehrsprachige R\u00e4tsel.',
+      },
+    ],
+
   },
 
   // Pricing - Vollzugriff pricing (240€/year)

@@ -203,8 +203,44 @@ Mit dem Basis-Paket für 144 € jährlich erhalten Sie wasserzeichenfreie Downl
     showLessLabel: 'Weniger anzeigen',
     secureCheckout: 'Sichere Bezahlung',
     cancelAnytime: 'Jederzeit kündbar',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: 'faq-1',
+        question: 'Was macht den Malvorlagen-Generator besonders f\u00fcr Arbeitsbl\u00e4tter Grundschule?',
+        answer: 'Der Generator konvertiert automatisch \u00fcber 3000 kindgerechte Bilder in druckbare Malvorlagen-Qualit\u00e4t. Sie k\u00f6nnen mehrere Bilder auf einem Arbeitsblatt kombinieren, dekorative Rahmen hinzuf\u00fcgen und Ausmalbilder mit Schwung\u00fcbungen oder Buchstaben lernen Elementen verbinden. So entstehen vielseitige Arbeitsbl\u00e4tter f\u00fcr den Unterricht.',
+      },
+      {
+        id: 'faq-2',
+        question: 'Kann ich Malvorlagen mit Lerninhalten wie Buchstaben oder Zahlen kombinieren?',
+        answer: 'Ja, Sie k\u00f6nnen Texte, Buchstaben und Vokabellabels direkt auf den Ausmalbildern platzieren. F\u00fcgen Sie Handschrift-\u00dcbungslinien f\u00fcr Schwung\u00fcbungen hinzu oder schreiben Sie Buchstaben als Wegweiser. So integrieren Sie Buchstaben lernen und Deutsch-Arbeitsbl\u00e4tter in kreative Malaktivit\u00e4ten.',
+      },
+      {
+        id: 'faq-3',
+        question: 'F\u00fcr welche Altersgruppen eignen sich die Ausmalbilder?',
+        answer: 'Die Malvorlagen eignen sich f\u00fcr Kinder von der Vorschule bis zur Grundschule. F\u00fcr j\u00fcngere Kinder w\u00e4hlen Sie einzelne gro\u00dfe Bilder im Hochformat. F\u00fcr \u00e4ltere Sch\u00fcler erstellen Sie komplexere Arbeitsbl\u00e4tter mit mehreren Bildern und zus\u00e4tzlichen Lernelementen.',
+      },
+      {
+        id: 'faq-4',
+        question: 'Kann ich eigene Bilder als Malvorlagen verwenden?',
+        answer: 'Ja, Sie laden eigene Bilder \u00fcber die Multi-Upload-Funktion hoch und kombinieren sie mit Bibliotheksbildern. Klassenfotos, Projektbilder oder thematische Grafiken werden automatisch in Malvorlagen-Qualit\u00e4t konvertiert. So entstehen personalisierte Vorschul-Arbeitsbl\u00e4tter f\u00fcr jeden Anlass.',
+      },
+      {
+        id: 'faq-5',
+        question: 'Wie spare ich Druckertinte bei den Ausmalbildern?',
+        answer: 'Aktivieren Sie den Schwarz-Wei\u00df-Modus vor dem Download, um Druckertinte zu sparen. Diese Option ist besonders praktisch f\u00fcr gro\u00dfe Klassens\u00e4tze. Die Malvorlagen werden in professioneller 300 DPI Qualit\u00e4t exportiert und bleiben auch in Graustufen perfekt klar und druckbereit.',
+      },
+      {
+        id: 'faq-6',
+        question: 'Welche Bearbeitungsm\u00f6glichkeiten habe ich nach der Erstellung?',
+        answer: 'Die vollst\u00e4ndige Arbeitsfl\u00e4chen-Bearbeitung erlaubt Drag-and-Drop-Positionierung, Gr\u00f6\u00dfen\u00e4nderung, Drehung und Ebenensteuerung. Sie f\u00fcgen dekorative Rahmen, Texte in sechs Schriftarten und Hintergr\u00fcnde hinzu. Die R\u00fcckg\u00e4ngig-Funktion erm\u00f6glicht sorgenfreies Experimentieren mit Ihren Malvorlagen.',
+      },
+      {
+        id: 'faq-7',
+        question: 'Darf ich die erstellten Malvorlagen kommerziell verkaufen?',
+        answer: 'Ja, das Basis-Paket f\u00fcr 144\u20ac j\u00e4hrlich enth\u00e4lt eine kommerzielle Lizenz f\u00fcr den Verkauf auf Teachers Pay Teachers, Etsy und anderen Plattformen. Sie erhalten unbegrenzte wasserzeichenfreie Downloads ohne zus\u00e4tzliche Geb\u00fchren pro Arbeitsblatt.',
+      },
+    ],
+
   },
 
   // Pricing - Coloring is CORE BUNDLE (German: Basis-Paket)

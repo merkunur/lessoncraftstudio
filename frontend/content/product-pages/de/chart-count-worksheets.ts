@@ -205,8 +205,39 @@ Aktivieren Sie das Graustufen-Kontrollkästchen vor dem Download um alle Farben 
     showLessLabel: 'Weniger anzeigen',
     secureCheckout: 'Sichere Bezahlung',
     cancelAnytime: 'Jederzeit kündbar',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: 'faq-1',
+        question: 'Wie funktionieren die Bilddiagramm Arbeitsbl\u00e4tter f\u00fcr die Grundschule?',
+        answer: 'Jedes Arbeitsblatt besteht aus zwei Teilen: einem Bildergitter mit 20 zuf\u00e4lligen Bildern aus 6 Kategorien und einem leeren Diagramm. Sch\u00fcler z\u00e4hlen, wie oft jedes Bild vorkommt, und malen dann die entsprechende Anzahl von K\u00e4stchen im Diagramm aus. Das verbindet Rechnen lernen mit kreativen Ausmalbilder-Aktivit\u00e4ten.',
+      },
+      {
+        id: 'faq-2',
+        question: 'F\u00fcr welche Klassenstufe eignen sich die Bilddiagramm-\u00dcbungen?',
+        answer: 'Die Bilddiagramm Arbeitsbl\u00e4tter sind ideal f\u00fcr die Vorschule und 1. Klasse. Kinder \u00fcben das Z\u00e4hlen bis 5 und lernen grundlegende Datenvisualisierung. Die einfache Struktur mit maximal 5 Z\u00e4hlfeldern pro Kategorie ist altersgerecht und motivierend f\u00fcr fr\u00fche Lerner.',
+      },
+      {
+        id: 'faq-3',
+        question: 'Wie w\u00e4hle ich die Bilder f\u00fcr mein Bilddiagramm aus?',
+        answer: 'Sie w\u00e4hlen genau 6 Bilder aus \u00fcber 3000 kindgerechten Motiven. Nutzen Sie die themenbasierte Auswahl f\u00fcr schnelle Ergebnisse oder w\u00e4hlen Sie Bilder manuell aus. Sie k\u00f6nnen auch eigene Fotos hochladen und mit Bibliotheksbildern kombinieren f\u00fcr personalisierte Mathe-Arbeitsbl\u00e4tter.',
+      },
+      {
+        id: 'faq-4',
+        question: 'Enth\u00e4lt der Generator einen automatischen L\u00f6sungsschl\u00fcssel?',
+        answer: 'Ja, der L\u00f6sungsschl\u00fcssel zeigt das exakt gleiche Arbeitsblatt mit gelb vorausgef\u00fcllten Diagrammk\u00e4stchen. Lehrkr\u00e4fte nutzen ihn f\u00fcr schnelle Korrektur oder zeigen ihn auf der Dokumentenkamera zur Klassenbesprechung. Sch\u00fcler k\u00f6nnen ihre Z\u00e4hlgenauigkeit selbst \u00fcberpr\u00fcfen.',
+      },
+      {
+        id: 'faq-5',
+        question: 'In welchen Sprachen kann ich Bilddiagramm Arbeitsbl\u00e4tter erstellen?',
+        answer: 'Der Generator unterst\u00fctzt 11 Sprachen einschlie\u00dflich Deutsch, Englisch, Franz\u00f6sisch und Spanisch. Die Spracheinstellung \u00e4ndert die Arbeitsblatt-\u00dcberschrift und Anweisungen automatisch. Die \u00fcber 3000 Bilder enthalten \u00fcbersetzte Namen in jeder Sprache \u2014 ideal f\u00fcr Deutsch-Arbeitsbl\u00e4tter im Sprachunterricht.',
+      },
+      {
+        id: 'faq-6',
+        question: 'Kann ich das Aussehen der Bilddiagramm-Arbeitsbl\u00e4tter anpassen?',
+        answer: 'Ja, Sie k\u00f6nnen Hintergrundthemen, dekorative Rahmen und Name/Datum-Felder hinzuf\u00fcgen. Auf der Leinwand verschieben Sie Elemente per Drag-and-Drop, f\u00fcgen eigene Textanweisungen hinzu und w\u00e4hlen aus kinderfreundlichen Schriftarten. Die Graustufen-Option spart Druckertinte.',
+      },
+    ],
+
   },
 
   // Pricing - Vollzugriff pricing (chart-count-color is a Vollzugriff app)

@@ -201,8 +201,44 @@ Mit dem Basis-Paket für 144 € jährlich erhalten Sie wasserzeichenfreie Downl
     showLessLabel: 'Weniger anzeigen',
     secureCheckout: 'Sichere Bezahlung',
     cancelAnytime: 'Jederzeit kündbar',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: 'faq-1',
+        question: 'Wie funktionieren die Mathe-R\u00e4tsel mit Bildsymbolen?',
+        answer: 'Der Generator erstellt R\u00e4tsel, bei denen Symbole wie Tiere oder Gegenst\u00e4nde f\u00fcr Zahlen stehen. Kinder l\u00f6sen die Gleichungen und finden den Wert jedes Symbols. Das f\u00f6rdert logisches Denken und Probleml\u00f6sungskompetenz und macht Rechnen lernen spielerisch.',
+      },
+      {
+        id: 'faq-2',
+        question: 'Welche Schwierigkeitsstufen bieten die Mathe-Arbeitsbl\u00e4tter?',
+        answer: 'Es gibt vier Schwierigkeitsstufen: Sehr leicht und Leicht mit 2 Symbolen, Mittel mit 3 Symbolen und Schwer mit 4 verschiedenen Symbolen. Die Anzahl der Aufgaben pro Seite (1-6) ist ebenfalls einstellbar. So passen Sie die Arbeitsbl\u00e4tter perfekt an jede Klassenstufe an.',
+      },
+      {
+        id: 'faq-3',
+        question: 'F\u00fcr welche Klassenstufen eignen sich die Mathe-Arbeitsbl\u00e4tter?',
+        answer: 'Die Arbeitsbl\u00e4tter eignen sich f\u00fcr Vorschule bis zur 2. Klasse. Vorsch\u00fcler beginnen mit sehr leichten R\u00e4tseln und reiner Addition. Erste Klasse verwendet die mittlere Schwierigkeit. Die schwere Stufe mit Addition und Subtraktion fordert ge\u00fcbte Grundsch\u00fcler.',
+      },
+      {
+        id: 'faq-4',
+        question: 'Kann ich den Zahlenraum f\u00fcr Rechnen 1. Klasse selbst bestimmen?',
+        answer: 'Ja, Sie definieren den Zahlenraum mit Minimum- und Maximum-Werten. F\u00fcr Vorschule Arbeitsbl\u00e4tter begrenzen Sie auf Zahlen bis 10. F\u00fcr Rechnen 1. Klasse erweitern Sie den Bereich nach Bedarf. Der Generator erstellt automatisch altersgerechte Aufgaben.',
+      },
+      {
+        id: 'faq-5',
+        question: 'Wie kann ich die Bilder f\u00fcr die Mathe-R\u00e4tsel ausw\u00e4hlen?',
+        answer: 'Sie haben zwei Methoden: Komplettes Thema verwenden l\u00e4dt automatisch alle Bilder eines Themas wie Bauernhof, Tiere oder Fahrzeuge. Bilder individuell ausw\u00e4hlen gibt Ihnen volle Kontrolle aus der Bibliothek mit \u00fcber 3000 Bildern. Eigene Bilder k\u00f6nnen ebenfalls hochgeladen werden.',
+      },
+      {
+        id: 'faq-6',
+        question: 'Wird ein L\u00f6sungsblatt f\u00fcr die Mathe-R\u00e4tsel mitgeliefert?',
+        answer: 'Ja, das L\u00f6sungsblatt wird automatisch erstellt und zeigt alle richtigen Symbolwerte und L\u00f6sungen. Arbeitsblatt und L\u00f6sungsblatt werden separat als PDF oder JPEG in 300 DPI Qualit\u00e4t heruntergeladen. Das spart Lehrkr\u00e4ften wertvolle Korrekturzeit.',
+      },
+      {
+        id: 'faq-7',
+        question: 'Was kostet das Basis-Paket f\u00fcr den Mathe-R\u00e4tsel Generator?',
+        answer: 'Das Basis-Paket kostet 144\u20ac pro Jahr und beinhaltet unbegrenzte Arbeitsblatterstellung mit allen Schwierigkeitsstufen und Rechenarten. Zus\u00e4tzlich erhalten Sie 10 Arbeitsblatt-Generatoren, \u00fcber 3000 Bilder, 11 Sprachen und eine kommerzielle Lizenz f\u00fcr den Verkauf auf Teachers Pay Teachers.',
+      },
+    ],
+
   },
 
   // Pricing - Math Worksheets is Basis-Paket ($144/year)

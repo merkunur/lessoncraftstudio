@@ -207,8 +207,44 @@ Beide Dateien verwenden klare Benennung für einfache Organisation. Ihr Vollzugr
     showLessLabel: 'Weniger anzeigen',
     secureCheckout: 'Sichere Zahlung',
     cancelAnytime: 'Jederzeit kündbar',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: 'faq-1',
+        question: 'Welche Vergleichsmodi bietet der Generator f\u00fcr Mathe Arbeitsbl\u00e4tter?',
+        answer: 'Der Generator bietet zwei Vergleichsmodi: Bild-zu-Bild-Vergleiche, bei denen Kinder Mengen z\u00e4hlen und vergleichen, und Bild-zu-Zahl-Vergleiche f\u00fcr das Erkennen von Ziffern. Sch\u00fcler w\u00e4hlen das richtige Gr\u00f6\u00dfer-als, Kleiner-als oder Gleich-Symbol. Beide Modi f\u00f6rdern fr\u00fche Mathe-Kompetenzen.',
+      },
+      {
+        id: 'faq-2',
+        question: 'Wie passe ich die Schwierigkeit der Vergleichs-Arbeitsbl\u00e4tter an?',
+        answer: 'Stellen Sie die Anzahl der Vergleichs\u00fcbungen von 1 bis 8 Aufgaben pro Blatt ein. W\u00e4hlen Sie welche Symbole (Gr\u00f6\u00dfer-als, Kleiner-als, Gleich) enthalten sein sollen. F\u00fcr Vorschulkinder fokussieren Sie auf einen Symboltyp, f\u00fcr fortgeschrittene Sch\u00fcler schlie\u00dfen Sie alle drei ein.',
+      },
+      {
+        id: 'faq-3',
+        question: 'F\u00fcr welche Altersgruppe eignen sich die Gr\u00f6\u00dfer-Kleiner-Gleich-\u00dcbungen?',
+        answer: 'Die Arbeitsbl\u00e4tter sind f\u00fcr Kinder in der Vorschule und Grundschule konzipiert, typischerweise von 4 bis 8 Jahren. Bild-zu-Bild-Vergleiche eignen sich f\u00fcr j\u00fcngere Kinder, w\u00e4hrend Bild-zu-Zahl-Vergleiche Ziffernerkennung f\u00fcr die 1. Klasse trainieren.',
+      },
+      {
+        id: 'faq-4',
+        question: 'Gibt es illustrierte oder mathematische Vergleichssymbole?',
+        answer: 'Ja, Sie k\u00f6nnen zwischen illustrierten Symbolen mit lustigen Grafiken und mathematischen Standardsymbolen w\u00e4hlen. Illustrierte Symbole machen die Arbeitsbl\u00e4tter ansprechender f\u00fcr j\u00fcngere Kinder. Standardsymbole bereiten Sch\u00fcler auf die traditionelle mathematische Notation vor.',
+      },
+      {
+        id: 'faq-5',
+        question: 'Kann ich thematische Bilder f\u00fcr die Vergleichs\u00fcbungen verwenden?',
+        answer: 'Ja, w\u00e4hlen Sie aus \u00fcber 3000 kindgerechten Bildern in Kategorien wie Tiere, Essen, Spielzeug und Jahreszeiten. Themenmodus w\u00e4hlt automatisch passende Bilder f\u00fcr schnelle Erstellung. Sie k\u00f6nnen auch eigene Bilder hochladen f\u00fcr personalisierte Arbeitsbl\u00e4tter.',
+      },
+      {
+        id: 'faq-6',
+        question: 'Wie lade ich die fertigen Vergleichs-Arbeitsbl\u00e4tter herunter?',
+        answer: 'W\u00e4hlen Sie PDF f\u00fcr den Druck oder JPEG f\u00fcr digitale Verteilung. Beide Formate exportieren in 300 DPI Qualit\u00e4t. Die Graustufen-Option spart Druckertinte. Arbeitsblatt und Antwortschl\u00fcssel werden als separate Dateien heruntergeladen.',
+      },
+      {
+        id: 'faq-7',
+        question: 'Was kostet das Vollzugriff Abo f\u00fcr den Vergleichs-Generator?',
+        answer: 'Das Vollzugriff Abo kostet 240\u20ac pro Jahr und beinhaltet alle 33 Arbeitsblatt-Generatoren inklusive Vergleichs-Arbeitsbl\u00e4tter. Sie erstellen unbegrenzt Arbeitsbl\u00e4tter ohne Zusatzkosten. Die kommerzielle Lizenz f\u00fcr den Verkauf ist inklusive. Jederzeit k\u00fcndbar.',
+      },
+    ],
+
   },
 
   // Related Apps Section - FULL text from mehr-weniger.md

@@ -1,8 +1,7 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { useRef } from 'react';
 
 interface UseCase {
   id: string;
@@ -49,6 +48,8 @@ function UseCaseCard({
   showLessLabel: string;
 }) {
   const [isExpanded, setIsExpanded] = useState(false);
+  const [hasMounted, setHasMounted] = useState(false);
+  useEffect(() => { setHasMounted(true); }, []);
 
   // Split description into sentences - show only 3 sentences by default (collapsed)
   const sentences = useCase.description.split(/(?<=[.!?])\s+/);
@@ -58,6 +59,7 @@ function UseCaseCard({
 
   return (
     <motion.div
+      initial={hasMounted ? { opacity: 0, y: 20, scale: 0.95 } : false}
       whileInView={{ opacity: 1, y: 0, scale: 1 }}
       viewport={{ once: true }}
       transition={{ duration: 0.5, delay: index * 0.1 }}
@@ -161,6 +163,8 @@ export default function UseCases({
   showLessLabel = 'Show less',
 }: UseCasesProps) {
   const containerRef = useRef<HTMLDivElement>(null);
+  const [hasMounted, setHasMounted] = useState(false);
+  useEffect(() => { setHasMounted(true); }, []);
 
   return (
     <section className="py-24 bg-white relative overflow-hidden">
@@ -182,11 +186,13 @@ export default function UseCases({
         {/* Section header */}
         <motion.div
           className="text-center mb-16"
+          initial={hasMounted ? { opacity: 0, y: 20 } : false}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
           <motion.div
+            initial={hasMounted ? { opacity: 0, scale: 0.95 } : false}
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
             className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-rose-50 border border-rose-100 text-sm font-medium text-rose-700 mb-6"

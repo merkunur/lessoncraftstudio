@@ -213,8 +213,44 @@ Drucken Sie die Arbeitsblätter auf normalem Kopierpapier. Die 300 DPI Qualität
     showLessLabel: 'Weniger anzeigen',
     secureCheckout: 'Sichere Zahlung',
     cancelAnytime: 'Jederzeit kündbar',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: 'faq-1',
+        question: 'Welche Mustertypen bietet der Generator f\u00fcr Arbeitsbl\u00e4tter Grundschule?',
+        answer: 'Der Generator bietet neun verschiedene Mustertypen: vom einfachen AB-Muster bis zum komplexen ABCD-Muster. Dazwischen liegen AAB, ABB, ABC, AABB und weitere Variationen. Jeder Mustertyp bietet eine andere Schwierigkeitsstufe f\u00fcr differenzierten Unterricht.',
+      },
+      {
+        id: 'faq-2',
+        question: 'F\u00fcr welche Altersgruppe eignen sich die Muster-Arbeitsbl\u00e4tter?',
+        answer: 'Die Arbeitsbl\u00e4tter eignen sich f\u00fcr Kinder von der Vorschule bis zur 3. Klasse. Vorschulkinder beginnen mit einfachen AB-Mustern mit 2 Elementen. Grundsch\u00fcler arbeiten mit komplexeren ABCD-Mustern mit 4 verschiedenen Elementen. Die Schwierigkeit passt sich dem Alter an.',
+      },
+      {
+        id: 'faq-3',
+        question: 'Welche Fragetypen gibt es f\u00fcr die Muster\u00fcbungen?',
+        answer: 'Zwei Fragetypen stehen zur Verf\u00fcgung: L\u00fcckenfelder, bei denen Kinder die fehlende Stelle ausf\u00fcllen, und Multiple-Choice, bei dem sie aus Antwortoptionen w\u00e4hlen. Optional erscheint die L\u00fccke an zuf\u00e4lligen Positionen, sodass Kinder das Muster wirklich verstehen m\u00fcssen.',
+      },
+      {
+        id: 'faq-4',
+        question: 'Warum ist Mustererkennung wichtig f\u00fcr das Rechnen lernen?',
+        answer: 'Mustererkennung ist eine Schl\u00fcsselkompetenz im fr\u00fchen Mathematikunterricht. Der Zusammenhang zwischen visuellen Mustern und Zahlenreihen ist wissenschaftlich belegt. Kinder, die Muster verstehen, lernen das Rechnen und sp\u00e4ter das Einmaleins nachweislich leichter.',
+      },
+      {
+        id: 'faq-5',
+        question: 'Wie w\u00e4hle ich Bilder f\u00fcr die Muster-Arbeitsbl\u00e4tter aus?',
+        answer: 'Zwei Methoden stehen bereit: Die automatische Themenwahl w\u00e4hlt Bilder aus Kategorien wie Tiere, Fahrzeuge oder Obst. Die manuelle Auswahl gibt Ihnen volle Kontrolle aus der Bibliothek mit \u00fcber 3000 Bildern. Sie k\u00f6nnen auch eigene Bilder hochladen.',
+      },
+      {
+        id: 'faq-6',
+        question: 'Wie viele \u00dcbungen kann ich pro Arbeitsblatt erstellen?',
+        answer: 'Sie k\u00f6nnen zwischen 1 und 8 \u00dcbungen pro Arbeitsblatt einstellen. Mehr \u00dcbungen bedeuten mehr Wiederholung und Festigung des Musters. Weniger \u00dcbungen lassen Raum f\u00fcr zus\u00e4tzliche Aktivit\u00e4ten auf dem Blatt.',
+      },
+      {
+        id: 'faq-7',
+        question: 'Was kostet das Vollzugriff Abo f\u00fcr den Muster-Arbeitsblatt Generator?',
+        answer: 'Das Vollzugriff Abo kostet 240\u20ac pro Jahr und beinhaltet alle 33 Arbeitsblatt-Generatoren. Sie erstellen unbegrenzt Muster-Arbeitsbl\u00e4tter mit allen 9 Mustertypen. Die kommerzielle Lizenz, 11 Sprachen und \u00fcber 3000 Bilder sind inklusive.',
+      },
+    ],
+
   },
 
   // Related Apps Section - FULL text from muster-arbeitsblatt.md

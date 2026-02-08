@@ -191,8 +191,44 @@ Vorschul-Arbeitsblätter behalten Bildqualität ob einmal gedruckt oder für gan
     showLessLabel: 'Weniger anzeigen',
     secureCheckout: 'Sichere Bezahlung',
     cancelAnytime: 'Jederzeit kündbar',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: 'faq-1',
+        question: 'Welche \u00dcbungstypen bietet der Gro\u00df-Klein-Generator f\u00fcr Vorschul-Arbeitsbl\u00e4tter?',
+        answer: 'Der Generator bietet f\u00fcnf verschiedene Aufgabentypen: Kreise das gro\u00dfe Objekt ein, kreise das kleine Objekt ein, nummeriere von klein nach gro\u00df, sowie Varianten mit 2 oder 3 Bildern. Jeder Typ zielt auf unterschiedliche Lernziele bei der Gr\u00f6\u00dfenwahrnehmung ab.',
+      },
+      {
+        id: 'faq-2',
+        question: 'Kann ich identische oder verschiedene Objekte f\u00fcr den Gr\u00f6\u00dfenvergleich verwenden?',
+        answer: 'Ja, Sie k\u00f6nnen zwischen zwei Modi w\u00e4hlen. Der identische Bildmodus zeigt dasselbe Objekt in verschiedenen Gr\u00f6\u00dfen und isoliert so die Gr\u00f6\u00dfe als einzige Variable. Der unterschiedliche Bildmodus pr\u00e4sentiert verschiedene Objekte, was komplexere visuelle Diskriminierung erfordert.',
+      },
+      {
+        id: 'faq-3',
+        question: 'F\u00fcr welches Alter sind die Gro\u00df-Klein Arbeitsbl\u00e4tter geeignet?',
+        answer: 'Die Gro\u00df-Klein Arbeitsbl\u00e4tter eignen sich f\u00fcr Kinder im Kindergarten, in der Vorschule und in der 1. Klasse Grundschule. F\u00fcr j\u00fcngere Kinder w\u00e4hlen Sie 2-Bild-\u00dcbungen mit wenigen Aufgaben pro Seite. F\u00fcr \u00e4ltere Sch\u00fcler nutzen Sie 3-Bild-\u00dcbungen mit Sortieraufgaben.',
+      },
+      {
+        id: 'faq-4',
+        question: 'Wie viele \u00dcbungen kann ich pro Arbeitsblatt erstellen?',
+        answer: 'Sie k\u00f6nnen zwischen 1 und 10 \u00dcbungen pro Arbeitsblatt w\u00e4hlen. F\u00fcr j\u00fcngere Vorsch\u00fclkinder empfehlen wir 4 bis 6 \u00dcbungen, um die Aufmerksamkeitsspanne zu ber\u00fccksichtigen. \u00c4ltere Sch\u00fcler k\u00f6nnen bis zu 10 \u00dcbungen f\u00fcr erweiterte Mathe-Arbeitsbl\u00e4tter bearbeiten.',
+      },
+      {
+        id: 'faq-5',
+        question: 'Gibt es einen L\u00f6sungsschl\u00fcssel f\u00fcr die Gr\u00f6\u00dfenvergleich-Arbeitsbl\u00e4tter?',
+        answer: 'Ja, der Generator erstellt automatisch einen L\u00f6sungsschl\u00fcssel, der die korrekten Antworten markiert zeigt. Lehrkr\u00e4fte sparen so Benotungszeit bei \u00dcbungsaktivit\u00e4ten. Beide Versionen lassen sich als PDF oder JPEG in 300 DPI Qualit\u00e4t herunterladen.',
+      },
+      {
+        id: 'faq-6',
+        question: 'Kann ich eigene Bilder f\u00fcr die Gr\u00f6\u00dfenvergleich-\u00dcbungen hochladen?',
+        answer: 'Ja, neben den \u00fcber 3000 Bildern aus der Bibliothek k\u00f6nnen Sie eigene Bilder hochladen. Die Multi-File-Upload-Funktion erm\u00f6glicht das schnelle Hinzuf\u00fcgen von Klassenfotos oder thematischen Grafiken. Kombinieren Sie hochgeladene Bilder mit Bibliotheksbildern f\u00fcr einzigartige kostenlose Arbeitsbl\u00e4tter.',
+      },
+      {
+        id: 'faq-7',
+        question: 'Welche Seitenformate stehen f\u00fcr den Druck zur Verf\u00fcgung?',
+        answer: 'Der Generator unterst\u00fctzt Letter und A4 in Hoch- und Querformat sowie quadratische und benutzerdefinierte Abmessungen. Die Graustufen-Option spart Druckertinte bei farbigen Arbeitsbl\u00e4ttern Grundschule. Alle Downloads erscheinen in professioneller 300 DPI Qualit\u00e4t.',
+      },
+    ],
+
   },
 
   // Pricing - Vollzugriff pricing (240€/year)

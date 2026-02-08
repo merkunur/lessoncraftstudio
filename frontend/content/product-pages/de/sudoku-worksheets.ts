@@ -201,14 +201,50 @@ Vor dem Herunterladen aktivieren Sie die Graustufen-Checkbox wenn Sie Tinte spar
     showLessLabel: 'Weniger anzeigen',
     secureCheckout: 'Sichere Bezahlung',
     cancelAnytime: 'Jederzeit kündbar',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: 'faq-1',
+        question: 'Was unterscheidet dieses Kinder-Sudoku von herk\u00f6mmlichen Sudoku-R\u00e4tseln?',
+        answer: 'Unser Kinder-Sudoku verwendet ein vereinfachtes 4x4 Gitter mit bunten Bildern statt Zahlen. Das macht Logikr\u00e4tsel f\u00fcr Kinder im Alter von 4 bis 8 Jahren zug\u00e4nglich. Das Ausschneiden-und-Einkleben-Format verwandelt die Logik\u00fcbung in eine praktische Aktivit\u00e4t, die auch Feinmotorik aufbaut.',
+      },
+      {
+        id: 'faq-2',
+        question: 'Welche Schwierigkeitsstufen gibt es beim Kinder-Sudoku?',
+        answer: 'Es gibt drei Schwierigkeitsstufen: Einfach mit 4 leeren Zellen f\u00fcr Alter 4-5, Mittel mit 6 leeren Zellen f\u00fcr Vorschulkinder 5-6, und Schwer mit 8 leeren Zellen f\u00fcr Grundsch\u00fcler 6-8. Sie k\u00f6nnen differenzierte Arbeitsblatt-Sets mit demselben Thema bei verschiedenen Schwierigkeiten erstellen.',
+      },
+      {
+        id: 'faq-3',
+        question: 'Wie funktioniert die Bildauswahl f\u00fcr Sudoku-R\u00e4tsel?',
+        answer: 'Sie haben drei M\u00f6glichkeiten: themenbasierte automatische Auswahl, manuelle Einzelbildauswahl aus \u00fcber 3000 Bildern, oder das Hochladen eigener Bilder. Bei themenbasierter Auswahl w\u00e4hlt der Generator automatisch vier passende Bilder. Sie ben\u00f6tigen genau vier Bilder f\u00fcr ein R\u00e4tsel.',
+      },
+      {
+        id: 'faq-4',
+        question: 'Wird ein L\u00f6sungsschl\u00fcssel automatisch erstellt?',
+        answer: 'Ja, jedes kostenlose Arbeitsblatt enth\u00e4lt einen automatisch generierten L\u00f6sungsschl\u00fcssel, der die vollst\u00e4ndige L\u00f6sung zeigt. Lehrkr\u00e4fte k\u00f6nnen Sch\u00fclerarbeit in Sekunden \u00fcberpr\u00fcfen, ohne das R\u00e4tsel selbst zu l\u00f6sen. Der L\u00f6sungsschl\u00fcssel verwendet dieselben Hintergr\u00fcnde und Rahmen wie das Arbeitsblatt.',
+      },
+      {
+        id: 'faq-5',
+        question: 'Sind alle generierten Sudoku-R\u00e4tsel eindeutig l\u00f6sbar?',
+        answer: 'Ja, der Algorithmus erstellt zuerst eine g\u00fcltige L\u00f6sung und entfernt dann Zellen. Er verifiziert, dass genau eine L\u00f6sung existiert, bevor das Arbeitsblatt angezeigt wird. Sie bekommen nie unl\u00f6sbare oder mehrdeutige R\u00e4tsel. Sch\u00fcler k\u00f6nnen die korrekte Antwort immer nur mit Logik finden.',
+      },
+      {
+        id: 'faq-6',
+        question: 'Kann ich das Sudoku-Arbeitsblatt mit Hintergr\u00fcnden und Rahmen dekorieren?',
+        answer: 'Ja, Sie k\u00f6nnen aus dutzenden thematischen Hintergr\u00fcnden und dekorativen Rahmen w\u00e4hlen. Passen Sie die Deckkraft mit Schiebereglern an. F\u00fcgen Sie eigene Texte hinzu f\u00fcr Titel, Anweisungen oder Sch\u00fclernamen. Alle Elemente auf der Leinwand sind frei verschiebbar und skalierbar.',
+      },
+      {
+        id: 'faq-7',
+        question: 'Darf ich die erstellten Sudoku-Arbeitsbl\u00e4tter auf Eduki oder Etsy verkaufen?',
+        answer: 'Ja, Ihr Basis-Paket Abonnement enth\u00e4lt eine kommerzielle Lizenz f\u00fcr Print-on-Demand Nutzung. Sie d\u00fcrfen Ihre individuellen Sudoku-Arbeitsbl\u00e4tter auf Eduki, Etsy oder Amazon KDP verkaufen, ohne zus\u00e4tzliche Lizenzgeb\u00fchren zahlen zu m\u00fcssen.',
+      },
+    ],
+
   },
 
   // Pricing - Basis-Paket pricing
   pricing: {
     title: 'Basis-Paket',
-    price: '144€',
+    price: '144\u20ac',
     priceInterval: '/Jahr',
     priceSuffix: 'Jährliche Abrechnung',
     benefits: [

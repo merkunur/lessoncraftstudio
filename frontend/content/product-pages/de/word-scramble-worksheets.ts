@@ -237,14 +237,50 @@ Speichern Sie Downloads in organisierten Ordnern auf Computer. Benennen Sie nach
     showLessLabel: 'Weniger anzeigen',
     secureCheckout: 'Sichere Bezahlung',
     cancelAnytime: 'Jederzeit kündbar',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: 'faq-1',
+        question: 'Was ist ein Buchstabensalat-Arbeitsblatt und wie funktioniert es?',
+        answer: 'Bei einem Buchstabensalat-Arbeitsblatt sehen Kinder ein Bild und daneben die durcheinandergew\u00fcrfelten Buchstaben des passenden Wortes. Sie m\u00fcssen die Buchstaben in die richtige Reihenfolge bringen. Die visuelle Unterst\u00fctzung durch das Bild macht das Buchstaben lernen einfacher und motivierender.',
+      },
+      {
+        id: 'faq-2',
+        question: 'Welche Schwierigkeitsstufen gibt es beim Buchstabensalat?',
+        answer: 'Es gibt vier Stufen: "Keine Hinweise" zeigt alle Buchstaben durcheinander f\u00fcr Fortgeschrittene. "Leicht" zeigt die H\u00e4lfte der Buchstaben an richtiger Position. "Normal" enth\u00fcllt ein Viertel. "Schwer" zeigt nur ein Sechstel. So k\u00f6nnen Sie von Vorschul-Arbeitsbl\u00e4ttern bis zur 3. Klasse differenzieren.',
+      },
+      {
+        id: 'faq-3',
+        question: 'Kann ich eigene W\u00f6rter statt der Bildw\u00f6rter verwenden?',
+        answer: 'Ja, die benutzerdefinierte Wortliste erm\u00f6glicht die direkte Eingabe eigener W\u00f6rter, z.B. w\u00f6chentliche Rechtschreibw\u00f6rter. Bis zu 8 W\u00f6rter pro Arbeitsblatt sind m\u00f6glich. Diese Option erstellt textbasierte Buchstabensalat-R\u00e4tsel ohne Bildhinweise und eignet sich ideal f\u00fcr \u00e4ltere Sch\u00fcler.',
+      },
+      {
+        id: 'faq-4',
+        question: 'Gibt es eine Farbcodierung f\u00fcr Vokale und Konsonanten?',
+        answer: 'Ja, die Option "Farbcodiert" zeigt Vokale und Konsonanten in verschiedenen Farben. Das unterst\u00fctzt das Phonetikverst\u00e4ndnis in Deutsch-Arbeitsbl\u00e4ttern. F\u00fcr traditionelle Arbeitsbl\u00e4tter ohne Farbhilfe w\u00e4hlen Sie "Alles Schwarz". Die Farbcodierung ist besonders hilfreich f\u00fcr Buchstaben lernen in der Vorschule.',
+      },
+      {
+        id: 'faq-5',
+        question: 'In welchen Sprachen funktioniert der Buchstabensalat-Generator?',
+        answer: 'Der Generator funktioniert in 11 Sprachen. Die Bilddateinamen passen sich automatisch Ihrer gew\u00e4hlten Sprache an. Wenn Sie Deutsch w\u00e4hlen, verwendet die App deutsche W\u00f6rter f\u00fcr die R\u00e4tsel. Das macht den Generator ideal f\u00fcr Deutschunterricht, Sprachf\u00f6rderung und DaZ-Unterricht.',
+      },
+      {
+        id: 'faq-6',
+        question: 'Wie viele R\u00e4tsel passen auf ein Buchstabensalat-Arbeitsblatt?',
+        answer: 'Sie k\u00f6nnen 1 bis 10 Buchstabensalat-\u00dcbungen pro Seite erstellen. Mehr R\u00e4tsel ergeben kompakte Arbeitsbl\u00e4tter Grundschule, weniger R\u00e4tsel bieten gr\u00f6\u00dfere Bilder und Buchstaben. Bei Querformat werden automatisch zwei Spalten verwendet f\u00fcr optimale Platznutzung.',
+      },
+      {
+        id: 'faq-7',
+        question: 'Wird ein L\u00f6sungsblatt automatisch erstellt?',
+        answer: 'Ja, der Antwortschl\u00fcssel wird automatisch mitvorbereitet und zeigt alle W\u00f6rter in korrekter Reihenfolge. Er hat ein identisches Layout wie das Arbeitsblatt und ist separat als PDF oder JPEG herunterladbar. Das spart Zeit bei der Korrektur von Vorschul-Arbeitsbl\u00e4ttern und Deutsch-Arbeitsbl\u00e4ttern.',
+      },
+    ],
+
   },
 
   // Pricing - German format
   pricing: {
     title: 'Basis-Paket',
-    price: '144€',
+    price: '144\u20ac',
     priceInterval: '/Jahr',
     priceSuffix: 'Jährliche Abrechnung',
     benefits: [

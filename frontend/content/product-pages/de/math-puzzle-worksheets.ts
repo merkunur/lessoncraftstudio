@@ -201,8 +201,44 @@ Laden Sie Arbeitsblatt und Lösungsblatt separat herunter für Ihre Unterlagen. 
     showLessLabel: 'Weniger anzeigen',
     secureCheckout: 'Sichere Bezahlung',
     cancelAnytime: 'Jederzeit kündbar',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: 'faq-1',
+        question: 'Wie funktionieren die Mathe-R\u00e4tsel-Arbeitsbl\u00e4tter?',
+        answer: 'Kinder l\u00f6sen Additions- und Subtraktionsaufgaben, um ein Bilderr\u00e4tsel zu vervollst\u00e4ndigen. Jedes Arbeitsblatt enth\u00e4lt ein Raster mit Rechenaufgaben. Die richtigen L\u00f6sungen ergeben ein verstecktes Bild. Das motiviert Kinder zum Weiterrechnen und macht Rechnen lernen zum Abenteuer.',
+      },
+      {
+        id: 'faq-2',
+        question: 'Welche Rastergr\u00f6\u00dfen stehen f\u00fcr Mathe-R\u00e4tsel zur Verf\u00fcgung?',
+        answer: 'Die Rastergr\u00f6\u00dfen reichen von 2\u00d72 bis 4\u00d74 Feldern. Ein 2\u00d72 Raster enth\u00e4lt 4 Rechenaufgaben f\u00fcr die Vorschule. Ein 4\u00d74 Raster enth\u00e4lt 16 Aufgaben f\u00fcr fortgeschrittene Sch\u00fcler. So passen Sie den Schwierigkeitsgrad an die Klassenstufe an.',
+      },
+      {
+        id: 'faq-3',
+        question: 'Welche Rechenarten kann ich f\u00fcr die Mathe Arbeitsbl\u00e4tter w\u00e4hlen?',
+        answer: 'Sie k\u00f6nnen zwischen Addition, Subtraktion oder einer Mischung aus beiden Rechenarten w\u00e4hlen. F\u00fcr Vorschule Arbeitsbl\u00e4tter empfehlen wir reine Addition mit kleinem Raster. Die gemischte Option eignet sich besonders f\u00fcr Rechnen 1. Klasse und h\u00f6here Klassenstufen.',
+      },
+      {
+        id: 'faq-4',
+        question: 'F\u00fcr welche Altersgruppe eignen sich Mathe-R\u00e4tsel?',
+        answer: 'Die Mathe-R\u00e4tsel eignen sich f\u00fcr Kinder von der 1. Klasse bis zur 3. Klasse. Kleinere Raster mit einfacher Addition funktionieren bereits f\u00fcr Vorsch\u00fcler. Der Generator passt die Zahlen automatisch an den gew\u00e4hlten Schwierigkeitsgrad an, ohne negative Ergebnisse bei der Subtraktion.',
+      },
+      {
+        id: 'faq-5',
+        question: 'Kann ich eigene Bilder f\u00fcr die Mathe-R\u00e4tsel verwenden?',
+        answer: 'Ja, Sie k\u00f6nnen eigene Bilder hochladen oder aus \u00fcber 3000 kindgerechten Bildern w\u00e4hlen. Tierbilder, Fahrzeuge, Nahrungsmittel und vieles mehr stehen in der thematisch organisierten Bibliothek bereit. Klassenfotos oder Schullogos machen Ihre Mathe Arbeitsbl\u00e4tter einzigartig.',
+      },
+      {
+        id: 'faq-6',
+        question: 'Wird ein L\u00f6sungsblatt f\u00fcr die Mathe-R\u00e4tsel erstellt?',
+        answer: 'Ja, das L\u00f6sungsblatt wird mit einem zus\u00e4tzlichen Klick generiert und zeigt alle richtigen Antworten. Arbeitsblatt und L\u00f6sungsblatt k\u00f6nnen separat als PDF oder JPEG in 300 DPI Qualit\u00e4t heruntergeladen werden. Perfekt f\u00fcr die schnelle Korrektur im Klassenzimmer.',
+      },
+      {
+        id: 'faq-7',
+        question: 'Kann ich mit jedem Klick ein neues Mathe-R\u00e4tsel erzeugen?',
+        answer: 'Ja, bei jedem Klick auf Erstellen generiert der Generator ein komplett neues R\u00e4tsel mit zuf\u00e4lligen Zahlenwerten. So erstellen Sie schnell viele verschiedene Variationen f\u00fcr differenzierten Unterricht. Ihr Vollzugriff Abonnement beinhaltet unbegrenzte Generierungsversuche.',
+      },
+    ],
+
   },
 
   // Pricing - Vollzugriff pricing (240€/year)

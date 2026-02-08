@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
 
@@ -135,6 +135,8 @@ export default function FAQSection({
 }: FAQSectionProps) {
   const [openId, setOpenId] = useState<string | null>(null);
   const [showAll, setShowAll] = useState(false);
+  const [hasMounted, setHasMounted] = useState(false);
+  useEffect(() => { setHasMounted(true); }, []);
 
   const hasMore = faqs.length > initialVisibleCount;
 
@@ -154,11 +156,13 @@ export default function FAQSection({
         {/* Section header */}
         <motion.div
           className="text-center mb-16"
+          initial={hasMounted ? { opacity: 0, y: 20 } : false}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
           <motion.div
+            initial={hasMounted ? { opacity: 0, scale: 0.95 } : false}
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
             className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-amber-100/60 border border-amber-200/60 text-sm font-medium text-amber-800 mb-6"
@@ -188,6 +192,7 @@ export default function FAQSection({
           {/* FAQ Column */}
           <motion.div
             className="lg:col-span-3"
+            initial={hasMounted ? { opacity: 0, x: -20 } : false}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
@@ -278,6 +283,7 @@ export default function FAQSection({
           {/* Pricing CTA Column */}
           <motion.div
             className="lg:col-span-2"
+            initial={hasMounted ? { opacity: 0, x: 20 } : false}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.2 }}
@@ -307,6 +313,7 @@ export default function FAQSection({
                     {benefits.map((benefit, index) => (
                       <motion.li
                         key={index}
+                        initial={hasMounted ? { opacity: 0, x: -10 } : false}
                         whileInView={{ opacity: 1, x: 0 }}
                         viewport={{ once: true }}
                         transition={{ delay: 0.3 + index * 0.05 }}

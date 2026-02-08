@@ -195,8 +195,39 @@ Generieren Sie den Lösungsschlüssel separat. Die Lösung zeigt alle Bilder kor
     showLessLabel: 'Weniger anzeigen',
     secureCheckout: 'Sichere Zahlung',
     cancelAnytime: 'Jederzeit kündbar',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: 'faq-1',
+        question: 'Wie funktionieren die Sortier\u00fcbungen auf den Arbeitsbl\u00e4ttern?',
+        answer: 'Kinder ordnen Bilder in zwei Kategorien ein, zum Beispiel Obst und Gem\u00fcse oder Haustiere und Wildtiere. Die Bilder werden gemischt angezeigt, und die Kinder m\u00fcssen sie den richtigen Kategorie-Boxen zuordnen. Das f\u00f6rdert logisches Denken und visuelle Wahrnehmung.',
+      },
+      {
+        id: 'faq-2',
+        question: 'F\u00fcr welche Altersgruppe sind die Sortierarbeitsbl\u00e4tter geeignet?',
+        answer: 'Die Sortier\u00fcbungen eignen sich f\u00fcr Kinder in der Vorschule und Grundschule. F\u00fcr j\u00fcngere Kinder w\u00e4hlen Sie weniger Bilder (6 insgesamt) mit deutlich unterscheidbaren Kategorien. F\u00fcr Fortgeschrittene nutzen Sie bis zu 12 Bilder mit anspruchsvolleren Sortierkriterien.',
+      },
+      {
+        id: 'faq-3',
+        question: 'Welche Kategorien kann ich f\u00fcr die Sortier\u00fcbungen w\u00e4hlen?',
+        answer: 'Sie w\u00e4hlen zwei beliebige Themen aus der Bibliothek als Sortierkategorien. Beispiele sind Tiere und Pflanzen, Obst und Gem\u00fcse oder Fahrzeuge und Geb\u00e4ude. Jedes Thema bietet dutzende kindgerechte Bilder. So erstellen Sie Arbeitsbl\u00e4tter passend zu jeder Unterrichtseinheit.',
+      },
+      {
+        id: 'faq-4',
+        question: 'Wie viele Bilder pro Arbeitsblatt sind m\u00f6glich?',
+        answer: 'Sie k\u00f6nnen zwischen 6 und 12 Bilder pro Sortierarbeitsblatt verwenden, mit mindestens 3 und maximal 6 Bildern pro Kategorie. Weniger Bilder eignen sich f\u00fcr Anf\u00e4nger in der Vorschule, mehr Bilder fordern \u00e4ltere Sch\u00fcler in der Grundschule heraus.',
+      },
+      {
+        id: 'faq-5',
+        question: 'Gibt es einen L\u00f6sungsschl\u00fcssel f\u00fcr die Sortierarbeitsbl\u00e4tter?',
+        answer: 'Ja, der Generator erstellt automatisch einen L\u00f6sungsschl\u00fcssel, der alle Bilder korrekt sortiert in den jeweiligen Kategorien zeigt. Sie k\u00f6nnen zwischen Arbeitsblatt und L\u00f6sung \u00fcber die Tabs wechseln und beide Versionen separat herunterladen.',
+      },
+      {
+        id: 'faq-6',
+        question: 'In welchen F\u00e4chern lassen sich Sortier\u00fcbungen einsetzen?',
+        answer: 'Sortierarbeitsbl\u00e4tter verbinden verschiedene Lernbereiche miteinander. Als Mathe Arbeitsbl\u00e4tter trainieren Kinder das Z\u00e4hlen und Gruppieren. Als Deutsch Arbeitsbl\u00e4tter \u00fcben sie Wortschatz und Kategorisierung. Im Sachunterricht lernen sie Ordnungsprinzipien kennen.',
+      },
+    ],
+
   },
 
   // Related Apps Section - FULL text from bilder-sortieren.md

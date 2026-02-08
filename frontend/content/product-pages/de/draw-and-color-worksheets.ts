@@ -199,8 +199,44 @@ Speichern Sie das Arbeitsblatt auf Ihrem Computer. Drucken Sie es für Ihre Klas
     showLessLabel: 'Weniger anzeigen',
     secureCheckout: 'Sichere Bezahlung',
     cancelAnytime: 'Jederzeit kündbar',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: 'faq-1',
+        question: 'Was ist Rasterzeichnen und welche F\u00e4higkeiten f\u00f6rdert es?',
+        answer: 'Beim Rasterzeichnen kopieren Kinder ein Bild Zelle f\u00fcr Zelle in ein leeres Raster. Diese \u00dcbung trainiert r\u00e4umliches Denken, visuelle Wahrnehmung und Feinmotorik. Die Methode schult Konzentration und Geduld und bereitet Kinder optimal auf Schwung\u00fcbungen und Schreibaktivit\u00e4ten vor.',
+      },
+      {
+        id: 'faq-2',
+        question: 'Wie kann ich die Schwierigkeit der Rasterzeichnen-Aufgaben anpassen?',
+        answer: 'Der Schwierigkeitsgrad wird \u00fcber die Rastergr\u00f6\u00dfe und die Anzahl der Hinweiszellen gesteuert. Ein 4x4 Raster mit vielen Hinweisen eignet sich f\u00fcr Anf\u00e4nger. Gr\u00f6\u00dfere Raster bis 10x10 mit weniger Hinweisen fordern fortgeschrittene Kinder. Die Spiegelungsoption erstellt zus\u00e4tzlich symmetrische Muster.',
+      },
+      {
+        id: 'faq-3',
+        question: 'F\u00fcr welche Altersgruppen eignen sich die Rasterzeichnen-Arbeitsbl\u00e4tter?',
+        answer: 'Die Arbeitsbl\u00e4tter eignen sich f\u00fcr Kinder von der Vorschule bis zur Grundschule. F\u00fcr Vorsch\u00fclkinder empfehlen wir kleine Raster (3x3 oder 4x4) mit vielen Hinweiszellen. Grundsch\u00fcler arbeiten mit gr\u00f6\u00dferen Rastern und weniger Hinweisen f\u00fcr eine gr\u00f6\u00dfere Herausforderung.',
+      },
+      {
+        id: 'faq-4',
+        question: 'Kann ich eigene Bilder f\u00fcr das Rasterzeichnen verwenden?',
+        answer: 'Ja, neben den \u00fcber 3000 Bildern aus der Bibliothek k\u00f6nnen Sie eigene Fotos hochladen. Der Generator akzeptiert JPEG, PNG und GIF Formate. Eigene Klassenfotos oder thematische Grafiken werden automatisch in Rastermuster umgewandelt f\u00fcr personalisierte Arbeitsbl\u00e4tter.',
+      },
+      {
+        id: 'faq-5',
+        question: 'K\u00f6nnen die fertigen Arbeitsbl\u00e4tter auch als Ausmalbilder verwendet werden?',
+        answer: 'Ja, die fertigen Rasterzeichnungen eignen sich hervorragend als Ausmalbilder nach dem Zeichnen. Kinder \u00fcbertragen zuerst das Muster in ihr leeres Raster und kolorieren es anschlie\u00dfend. So verbindet das Arbeitsblatt Zeichnen, Feinmotorik und kreative Malvorlagen in einer Aktivit\u00e4t.',
+      },
+      {
+        id: 'faq-6',
+        question: 'Welche Seitenformate und Exportoptionen sind verf\u00fcgbar?',
+        answer: 'Der Generator unterst\u00fctzt A4 und Letter in Hoch- und Querformat sowie quadratische und benutzerdefinierte Gr\u00f6\u00dfen. Export erfolgt als PDF oder JPEG in 300 DPI Qualit\u00e4t. Die Graustufen-Option spart Druckertinte. Die kommerzielle Lizenz im Vollzugriff Abonnement erlaubt den Verkauf auf Lehrerplattformen.',
+      },
+      {
+        id: 'faq-7',
+        question: 'Wie funktioniert die Spiegelungsoption beim Rasterzeichnen?',
+        answer: 'Die Spiegelungsoption erstellt symmetrische Muster, bei denen Kinder die fehlende H\u00e4lfte erg\u00e4nzen. W\u00e4hlen Sie horizontal oder vertikal als Spiegelachse. Diese Funktion f\u00f6rdert das r\u00e4umliche Vorstellungsverm\u00f6gen und die Symmetrie-Wahrnehmung besonders effektiv.',
+      },
+    ],
+
   },
 
   // Pricing - Vollzugriff pricing (240€/year)

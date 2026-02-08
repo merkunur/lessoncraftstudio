@@ -211,8 +211,44 @@ Drucken Sie die Arbeitsblätter auf normalem Papier. Dickeres Papier eignet sich
     showLessLabel: 'Weniger anzeigen',
     secureCheckout: 'Sichere Zahlung',
     cancelAnytime: 'Jederzeit kündbar',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: 'faq-1',
+        question: 'Was ist das Besondere am Muster-Zug Generator?',
+        answer: 'Der Muster-Zug Generator verbindet Mustererkennung mit einem beliebten Zug-Design. Kinder ordnen Bilder nach Mustern in die Waggons ein und schneiden Bilder aus, um sie aufzukleben. Das kombiniert kognitives Lernen mit praktischem Basteln und trainiert gleichzeitig die Feinmotorik.',
+      },
+      {
+        id: 'faq-2',
+        question: 'Welche Mustertypen bietet der Muster-Zug f\u00fcr Vorschule Arbeitsbl\u00e4tter?',
+        answer: 'F\u00fcnf verschiedene Mustertypen stehen zur Verf\u00fcgung: AB, AAB, ABB, AABB und ABC. Das AB-Muster ist ideal f\u00fcr den Einstieg, bei dem sich zwei Elemente abwechseln. F\u00fcr fortgeschrittene Sch\u00fcler bieten AABB und ABC mehr Herausforderung und Konzentration.',
+      },
+      {
+        id: 'faq-3',
+        question: 'F\u00fcr welche Altersgruppe eignet sich der Muster-Zug?',
+        answer: 'Der Muster-Zug eignet sich f\u00fcr Kinder von der Vorschule bis zur 3. Klasse. J\u00fcngere Kinder beginnen mit einfachen AB-Mustern und mehr Hinweisen. \u00c4ltere Sch\u00fcler arbeiten mit komplexeren Mustern und weniger Hilfestellungen. Das Ausschneiden und Aufkleben ist f\u00fcr alle Altersgruppen beliebt.',
+      },
+      {
+        id: 'faq-4',
+        question: 'Was bedeuten die Hinweise auf dem Muster-Zug Arbeitsblatt?',
+        answer: 'Hinweise sind bereits ausgef\u00fcllte Waggons, die den Kindern zeigen, welches Muster fortgesetzt werden soll. Der Standardwert ist vier Hinweise. F\u00fcr j\u00fcngere Kinder erh\u00f6hen Sie auf sechs bis acht Hinweise. Weniger Hinweise bedeuten mehr L\u00fccken zum Ausf\u00fcllen.',
+      },
+      {
+        id: 'faq-5',
+        question: 'Brauche ich besonderes Material zum Drucken der Muster-Zug Arbeitsbl\u00e4tter?',
+        answer: 'Die Arbeitsbl\u00e4tter drucken Sie auf normalem Kopierpapier in 300 DPI Qualit\u00e4t. F\u00fcr das Ausschneiden empfiehlt sich etwas dickeres Papier. Stellen Sie Scheren und Klebestifte bereit. Die Graustufen-Option spart Druckertinte bei gro\u00dfen Klassens\u00e4tzen.',
+      },
+      {
+        id: 'faq-6',
+        question: 'Wie w\u00e4hle ich Bilder f\u00fcr den Muster-Zug aus?',
+        answer: 'Zwei Methoden stehen bereit: Die automatische Themenwahl w\u00e4hlt Bilder aus Kategorien wie Tiere, Fahrzeuge oder Obst. Die manuelle Auswahl gibt volle Kontrolle aus der Bibliothek mit \u00fcber 3000 Bildern. Eigene Bilder k\u00f6nnen ebenfalls hochgeladen werden.',
+      },
+      {
+        id: 'faq-7',
+        question: 'Was kostet das Vollzugriff Abo f\u00fcr den Muster-Zug Generator?',
+        answer: 'Das Vollzugriff Abo kostet 240\u20ac pro Jahr und beinhaltet alle 33 Arbeitsblatt-Generatoren inklusive Muster-Zug. Sie erstellen unbegrenzt Arbeitsbl\u00e4tter mit allen 5 Mustertypen. Die kommerzielle Lizenz, 11 Sprachen und \u00fcber 3000 Bilder sind inklusive.',
+      },
+    ],
+
   },
 
   // Related Apps Section - FULL text from muster-zug.md

@@ -191,8 +191,44 @@ Alle Arbeitsblätter werden in professioneller 300 DPI Auflösung für gestochen
     showLessLabel: 'Weniger anzeigen',
     secureCheckout: 'Sichere Bezahlung',
     cancelAnytime: 'Jederzeit kündbar',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: 'faq-1',
+        question: 'Welche Schwung\u00fcbungen-Vorlagen bietet der Generator f\u00fcr Vorschul-Arbeitsbl\u00e4tter?',
+        answer: 'Der Generator enth\u00e4lt 8 verschiedene Vorlagen mit unterschiedlichen Linienmustern: Kurven, Diagonalen, horizontale und vertikale Verbindungen. Jede Vorlage bietet ein einzigartiges Muster f\u00fcr Zuordnungs\u00fcbungen. W\u00e4hlen Sie einfachere horizontale Muster f\u00fcr Vorschulkinder oder anspruchsvolle diagonale Muster f\u00fcr die Grundschule.',
+      },
+      {
+        id: 'faq-2',
+        question: 'F\u00fcr welche Altersgruppe sind die Schwung\u00fcbungen geeignet?',
+        answer: 'Die Schwung\u00fcbungen eignen sich f\u00fcr Kinder von der Vorschule bis zur 3. Klasse. Vorschulkinder beginnen mit einfachen horizontalen Linien\u00fcbungen, w\u00e4hrend Grundsch\u00fcler mit Kurven- und Diagonalmustern gefordert werden. Die verschiedenen Schwierigkeitsstufen erm\u00f6glichen differenzierten Unterricht.',
+      },
+      {
+        id: 'faq-3',
+        question: 'Wie f\u00f6rdern Schwung\u00fcbungen die Feinmotorik meiner Sch\u00fcler?',
+        answer: 'Kinder ziehen Linien, um passende Bilder in zwei Spalten zu verbinden. Diese Aktivit\u00e4t st\u00e4rkt die Stifthaltung, Hand-Augen-Koordination und visuelle Unterscheidung. Das Zuordnungsformat macht das \u00dcben spielerisch und h\u00e4lt junge Sch\u00fcler bei der Sache.',
+      },
+      {
+        id: 'faq-4',
+        question: 'Kann ich eigene Bilder f\u00fcr die Zuordnungspaare hochladen?',
+        answer: 'Ja, Sie k\u00f6nnen eigene Bilder im Bereich Eigene Bilder hochladen verwenden oder aus \u00fcber 3000 kindgerechten Bildern in der Bibliothek w\u00e4hlen. Die Bibliothek ist thematisch organisiert nach Kategorien wie Tiere, Essen und Fahrzeuge. Die Auto-Ausf\u00fcllen-Funktion weist automatisch zuf\u00e4llige Bilder aus dem gew\u00e4hlten Thema zu.',
+      },
+      {
+        id: 'faq-5',
+        question: 'In welchen Formaten kann ich die Arbeitsbl\u00e4tter Grundschule herunterladen?',
+        answer: 'Sie k\u00f6nnen Ihre Schwung\u00fcbungen als PDF oder JPEG in professioneller 300 DPI Qualit\u00e4t herunterladen. PDF eignet sich perfekt zum Drucken, JPEG f\u00fcr digitale Verteilung. Die Graustufen-Option spart Druckertinte. Unterst\u00fctzte Seitengr\u00f6\u00dfen sind Letter und A4 im Hoch- oder Querformat.',
+      },
+      {
+        id: 'faq-6',
+        question: 'Werden die Arbeitsbl\u00e4tter auch in anderen Sprachen unterst\u00fctzt?',
+        answer: 'Ja, der Generator unterst\u00fctzt 11 Sprachen f\u00fcr mehrsprachige Klassenzimmer. Titel und Anweisungen werden automatisch in der gew\u00e4hlten Sprache generiert. Das ist ideal f\u00fcr DaZ-Lehrkr\u00e4fte und internationale Schulen.',
+      },
+      {
+        id: 'faq-7',
+        question: 'Wie viel kostet das Basis-Paket und was ist enthalten?',
+        answer: 'Das Basis-Paket kostet 144\u20ac pro Jahr und beinhaltet unbegrenzte Arbeitsblatterstellung mit allen 8 Schwung\u00fcbungen-Vorlagen. Zus\u00e4tzlich erhalten Sie Zugriff auf 10 Arbeitsblatt-Generatoren, \u00fcber 3000 Bilder, 11 Sprachen und eine kommerzielle Lizenz. Es gibt keine Zusatzkosten pro Arbeitsblatt.',
+      },
+    ],
+
   },
 
   // Pricing - Basis-Paket pricing

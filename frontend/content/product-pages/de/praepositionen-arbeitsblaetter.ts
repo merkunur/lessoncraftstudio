@@ -195,8 +195,44 @@ Bearbeiten Sie jedes Element nach der Generierung. Klicken Sie auf Bilder, um si
     showLessLabel: 'Weniger anzeigen',
     secureCheckout: 'Sichere Zahlung',
     cancelAnytime: 'Jederzeit kündbar',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: 'faq-1',
+        question: 'Welche Pr\u00e4positionen k\u00f6nnen mit dem Generator ge\u00fcbt werden?',
+        answer: 'Der Pr\u00e4positionen-Generator bietet acht grundlegende r\u00e4umliche Begriffe: in, auf, unter, neben, hinter, zwischen, \u00fcber und vor. Sie k\u00f6nnen einzelne Pr\u00e4positionen f\u00fcr gezieltes \u00dcben aktivieren oder alle zusammen f\u00fcr umfassende Wiederholung w\u00e4hlen.',
+      },
+      {
+        id: 'faq-2',
+        question: 'Welche \u00dcbungsformate sind verf\u00fcgbar?',
+        answer: 'Es stehen zwei \u00dcbungsformate zur Verf\u00fcgung: L\u00fcckentext und Multiple-Choice. Im L\u00fcckentext-Modus schreiben Sch\u00fcler die richtige Pr\u00e4position in eine L\u00fccke. Im Multiple-Choice-Modus w\u00e4hlen sie aus mehreren Antwortoptionen. W\u00e4hlen Sie das Format passend zum Alter und K\u00f6nnen Ihrer Sch\u00fcler.',
+      },
+      {
+        id: 'faq-3',
+        question: 'F\u00fcr welches Alter eignen sich die Pr\u00e4positionen-Arbeitsbl\u00e4tter?',
+        answer: 'Die Pr\u00e4positionen-Arbeitsbl\u00e4tter eignen sich f\u00fcr Vorschulkinder und Grundsch\u00fcler. In der Vorschule lernen Kinder r\u00e4umliche Begriffe durch klare Bild-Text-Kombinationen kennen. In der Grundschule festigen sie ihr Wissen \u00fcber Pr\u00e4positionen im Deutschunterricht.',
+      },
+      {
+        id: 'faq-4',
+        question: 'Kann ich Referenzobjekte f\u00fcr die Pr\u00e4positionen anpassen?',
+        answer: 'Ja, Sie k\u00f6nnen die Referenzobjekte individuell anpassen. Standardm\u00e4\u00dfig verwendet der Generator geometrische Grundformen wie Kreis, Quadrat und Dreieck. Sie k\u00f6nnen jedoch eigene Bilder hochladen und als Referenzobjekte verwenden, um die Arbeitsbl\u00e4tter an Ihren Unterricht anzupassen.',
+      },
+      {
+        id: 'faq-5',
+        question: 'Werden L\u00f6sungsbl\u00e4tter automatisch erstellt?',
+        answer: 'Ja, der Generator erstellt auf Knopfdruck ein passendes L\u00f6sungsblatt. Es zeigt alle korrekten Pr\u00e4positionen \u00fcbersichtlich an. Das L\u00f6sungsblatt nutzt dasselbe Design wie das Arbeitsblatt und kann separat als PDF oder JPEG heruntergeladen werden.',
+      },
+      {
+        id: 'faq-6',
+        question: 'Was kostet das Vollzugriff-Abonnement f\u00fcr den Pr\u00e4positionen-Generator?',
+        answer: 'Der Pr\u00e4positionen-Generator ist im Vollzugriff-Abonnement f\u00fcr 240 Euro j\u00e4hrlich oder 25 Euro monatlich enthalten. Das Abonnement umfasst alle 33 Arbeitsblatt-Generatoren, unbegrenzte Downloads, eine kommerzielle Lizenz und Zugang zu \u00fcber 3000 Bildern.',
+      },
+      {
+        id: 'faq-7',
+        question: 'Eignen sich die Pr\u00e4positionen-Arbeitsbl\u00e4tter f\u00fcr DaZ-Unterricht?',
+        answer: 'Ja, die Pr\u00e4positionen-Arbeitsbl\u00e4tter sind ideal f\u00fcr den DaZ-Unterricht. Die visuelle Darstellung r\u00e4umlicher Begriffe unterst\u00fctzt das Sprachverst\u00e4ndnis. Der Generator bietet 11 Sprachen und erm\u00f6glicht es, kulturell angemessene Bilder in der entsprechenden Sprache zu laden.',
+      },
+    ],
+
   },
 
   // Related Apps Section - FULL text from praepositionen.md

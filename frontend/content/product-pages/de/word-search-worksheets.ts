@@ -196,8 +196,44 @@ Laden Sie das Arbeitsblatt herunter. Laden Sie auch das Lösungsblatt herunter. 
     showLessLabel: 'Weniger anzeigen',
     secureCheckout: 'Sichere Bezahlung',
     cancelAnytime: 'Jederzeit kündbar',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: 'faq-1',
+        question: 'Welche Rastergr\u00f6\u00dfen bietet der Suchsel-Generator?',
+        answer: 'Der Generator bietet Rastergr\u00f6\u00dfen von 5x5 bis 20x20. Ein 5x5 Raster eignet sich f\u00fcr Vorschul-Arbeitsbl\u00e4tter und Anf\u00e4nger beim Buchstaben lernen. 12x12 ist ideal f\u00fcr die 1. Klasse. Gr\u00f6\u00dfere Raster bis 20x20 fordern fortgeschrittene Sch\u00fcler mit mehr W\u00f6rtern und komplexeren Suchmustern heraus.',
+      },
+      {
+        id: 'faq-2',
+        question: 'Kann ich die Schwierigkeit des Suchsels anpassen?',
+        answer: 'Ja, neben der Rastergr\u00f6\u00dfe k\u00f6nnen Sie diagonale und r\u00fcckw\u00e4rts geschriebene W\u00f6rter aktivieren oder deaktivieren. Ohne Diagonalen und R\u00fcckw\u00e4rtsw\u00f6rter sind die Suchsel einfacher \u2014 ideal f\u00fcr Vorschul-Arbeitsbl\u00e4tter. Mit diesen Optionen steigt die Herausforderung f\u00fcr \u00e4ltere Grundsch\u00fcler.',
+      },
+      {
+        id: 'faq-3',
+        question: 'Wie werden die W\u00f6rter f\u00fcr das Suchsel ausgew\u00e4hlt?',
+        answer: 'W\u00e4hlen Sie ein Thema aus \u00fcber 50 Kategorien und der Generator w\u00e4hlt automatisch 8 passende Bilder mit deutschen W\u00f6rtern. Alternativ k\u00f6nnen Sie einzelne Bilder manuell aus der Bibliothek ausw\u00e4hlen oder die Suchfunktion f\u00fcr spezifische W\u00f6rter nutzen.',
+      },
+      {
+        id: 'faq-4',
+        question: 'Zeigt das Suchsel-Arbeitsblatt Bilder oder nur eine Wortliste?',
+        answer: 'Die Wortliste kann mit Bildern oder als reine Textliste dargestellt werden. Bilder neben dem Raster helfen j\u00fcngeren Kindern beim Erkennen der gesuchten W\u00f6rter. Das kombiniert spielerisch Buchstaben lernen mit Wortschatz\u00fcbungen f\u00fcr Deutsch-Arbeitsbl\u00e4tter.',
+      },
+      {
+        id: 'faq-5',
+        question: 'Wird ein L\u00f6sungsblatt automatisch erstellt?',
+        answer: 'Ja, ein L\u00f6sungsblatt wird bei jeder Generierung automatisch erstellt. Die W\u00f6rter sind farblich markiert f\u00fcr schnelle Korrektur. Sie k\u00f6nnen mit einem Klick zwischen Arbeitsblatt und L\u00f6sungsblatt wechseln und beide separat als PDF oder JPEG herunterladen.',
+      },
+      {
+        id: 'faq-6',
+        question: 'F\u00fcr welche F\u00e4cher eignen sich Suchsel-Arbeitsbl\u00e4tter?',
+        answer: 'Suchsel eignen sich hervorragend f\u00fcr Deutsch-Arbeitsbl\u00e4tter und Buchstaben lernen. Durch thematische Bildauswahl k\u00f6nnen Sie sie auch f\u00fcr Sachunterricht, Fremdsprachen oder Vokabeltraining einsetzen. Der Generator funktioniert in 11 Sprachen, ideal f\u00fcr mehrsprachigen Unterricht.',
+      },
+      {
+        id: 'faq-7',
+        question: 'Kann ich eigene Bilder f\u00fcr die Wortsuche hochladen?',
+        answer: 'Ja, Sie k\u00f6nnen eigene Bilder hochladen und mit der Bibliothek mit \u00fcber 3000 Motiven kombinieren. Laden Sie Klassenfotos, Sch\u00fclerzeichnungen oder fachspezifische Grafiken hoch. Jedes Element auf der Arbeitsfl\u00e4che ist individuell verschiebbar und skalierbar.',
+      },
+    ],
+
   },
 
   // Pricing - Word Search is FREE but needs subscription for no-watermark/commercial

@@ -201,8 +201,44 @@ Aktivieren Sie die Graustufenoption vor dem Herunterladen, um Druckertinte zu sp
     showLessLabel: 'Weniger anzeigen',
     secureCheckout: 'Sichere Bezahlung',
     cancelAnytime: 'Jederzeit kündbar',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: 'faq-1',
+        question: 'Welche Zuordnungsmodi bietet der Generator f\u00fcr Arbeitsbl\u00e4tter Grundschule?',
+        answer: 'Der Generator bietet vier verschiedene Zuordnungsmodi: Bild-zu-Anfangsbuchstabe f\u00fcr Buchstaben lernen, Bild-plus-Wort zu Bild-plus-Wort f\u00fcr Deutsch-Arbeitsbl\u00e4tter, Bild-zu-benutzerdefiniertem-Wort f\u00fcr Vokabel\u00fcbungen und Bild-zu-Bild f\u00fcr visuelle Zuordnung. Jeder Modus dient unterschiedlichen Lernzielen.',
+      },
+      {
+        id: 'faq-2',
+        question: 'Wie viele Zuordnungspaare kann ich pro Arbeitsblatt erstellen?',
+        answer: 'Sie k\u00f6nnen zwischen 4, 5 oder 6 Zuordnungspaaren pro Arbeitsblatt w\u00e4hlen. Vier Paare eignen sich gut f\u00fcr Vorschul-Arbeitsbl\u00e4tter und Anf\u00e4nger. Sechs Paare fordern fortgeschrittene Sch\u00fcler in der Grundschule heraus. Die Anzahl l\u00e4sst sich im Dropdown-Men\u00fc einfach einstellen.',
+      },
+      {
+        id: 'faq-3',
+        question: 'Kann ich die Bilder automatisch ausw\u00e4hlen lassen?',
+        answer: 'Ja, Sie haben drei Bildauswahlmethoden: Zuf\u00e4lliges Thema und Bilder f\u00fcr vollautomatische Generierung, Zuf\u00e4llig aus gew\u00e4hltem Thema f\u00fcr thematische Arbeitsbl\u00e4tter, oder Spezifische Bilder ausw\u00e4hlen f\u00fcr volle Kontrolle. Die automatische Option spart besonders viel Zeit.',
+      },
+      {
+        id: 'faq-4',
+        question: 'Eignen sich die Zuordnungs\u00fcbungen f\u00fcr das Buchstaben lernen?',
+        answer: 'Ja, der Bild-zu-Anfangsbuchstabe-Modus ist speziell f\u00fcr das Buchstaben lernen und Buchstabenerkennungspraxis entwickelt. Kinder verbinden Bilder mit dem passenden Anfangsbuchstaben. Perfekt f\u00fcr ABC-Arbeitsbl\u00e4tter, die Buchstablaute lehren.',
+      },
+      {
+        id: 'faq-5',
+        question: 'Werden L\u00f6sungsbl\u00e4tter f\u00fcr die Zuordnungs\u00fcbungen erstellt?',
+        answer: 'Ja, klicken Sie auf Generieren und w\u00e4hlen Sie L\u00f6sungsblatt generieren. Das System erstellt ein passendes L\u00f6sungsblatt mit Verbindungslinien zwischen den korrekten Paaren. Beide Dateien k\u00f6nnen separat als PDF oder JPEG in 300 DPI heruntergeladen werden.',
+      },
+      {
+        id: 'faq-6',
+        question: 'Kann ich Zuordnungsarbeitsbl\u00e4tter f\u00fcr Mathe-Unterricht verwenden?',
+        answer: 'Ja, mit dem Bild-zu-benutzerdefiniertem-Wort-Modus erstellen Sie Mathe-Arbeitsbl\u00e4tter, bei denen Sch\u00fcler Aufgaben den L\u00f6sungen zuordnen. Kombinieren Sie visuelle Zuordnung mit Zahlenerkennung und Rechnen lernen. Ideal f\u00fcr Einmaleins und Rechnen 1. Klasse.',
+      },
+      {
+        id: 'faq-7',
+        question: 'Was kostet das Basis-Paket f\u00fcr den Zuordnungs-Generator?',
+        answer: 'Das Basis-Paket kostet 144\u20ac pro Jahr und beinhaltet unbegrenzte Arbeitsblatterstellung mit allen Zuordnungsmodi. Zus\u00e4tzlich erhalten Sie Zugriff auf 10 Arbeitsblatt-Generatoren, \u00fcber 3000 Bilder, 11 Sprachen und eine kommerzielle Lizenz. Keine Zusatzkosten pro Arbeitsblatt.',
+      },
+    ],
+
   },
 
   // Pricing - Basis-Paket pricing

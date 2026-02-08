@@ -191,8 +191,44 @@ Rechnen lernen Materialien drucken Sie so kostengünstig. Malvorlagen sehen auch
     showLessLabel: 'Weniger anzeigen',
     secureCheckout: 'Sichere Bezahlung',
     cancelAnytime: 'Jederzeit kündbar',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: 'faq-1',
+        question: 'Wie funktioniert das Raster-Puzzle-Arbeitsblatt f\u00fcr Kinder?',
+        answer: 'Kinder ordnen nummerierte Puzzleteile dem richtigen Rasterfeld zu. Das Bild wird in ein Raster aufgeteilt, wobei einige Felder mit Fragezeichen markiert sind. Die Sch\u00fcler m\u00fcssen herausfinden, welches Teil an welche Stelle geh\u00f6rt. Das trainiert spielerisch r\u00e4umliches Denken und Probleml\u00f6sungsf\u00e4higkeiten.',
+      },
+      {
+        id: 'faq-2',
+        question: 'Welche Rastergr\u00f6\u00dfen stehen f\u00fcr Puzzle-Arbeitsbl\u00e4tter zur Verf\u00fcgung?',
+        answer: 'Sie k\u00f6nnen zwischen 2\u00d72, 3\u00d73 und 4\u00d74 Rastern w\u00e4hlen. F\u00fcr Vorschulkinder empfehlen wir 2\u00d72 Raster zum Einstieg. Arbeitsbl\u00e4tter Grundschule nutzen am besten 3\u00d73 Raster. \u00c4ltere Sch\u00fcler meistern auch das anspruchsvolle 4\u00d74 Format.',
+      },
+      {
+        id: 'faq-3',
+        question: 'Kann ich die Schwierigkeit der Raster-Puzzle anpassen?',
+        answer: 'Ja, die Schwierigkeit l\u00e4sst sich \u00fcber Rastergr\u00f6\u00dfe und Hinweisfelder steuern. Hinweisfelder zeigen bereits platzierte Teile als Hilfestellung. Mehr Hinweise machen das Puzzle einfacher, weniger Hinweise erh\u00f6hen die Herausforderung. So passen Sie die Arbeitsbl\u00e4tter an jedes Niveau an.',
+      },
+      {
+        id: 'faq-4',
+        question: 'Welche F\u00e4higkeiten f\u00f6rdert das Raster-Puzzle bei Kindern?',
+        answer: 'Raster-Puzzle f\u00f6rdern r\u00e4umliches Denken, visuelle Wahrnehmung und logische Probleml\u00f6sung. Kinder lernen, Teile im Kontext zu analysieren und richtig zuzuordnen. Diese F\u00e4higkeiten bereiten auf Mathe-Arbeitsbl\u00e4tter und das Einmaleins vor.',
+      },
+      {
+        id: 'faq-5',
+        question: 'Wird ein L\u00f6sungsblatt f\u00fcr das Raster-Puzzle mitgeliefert?',
+        answer: 'Ja, der Generator erstellt automatisch ein L\u00f6sungsblatt mit dem vollst\u00e4ndigen Bild. Arbeitsblatt und L\u00f6sung k\u00f6nnen separat als PDF oder JPEG heruntergeladen werden. Die professionelle 300 DPI Qualit\u00e4t garantiert scharfe Ausdrucke auf jedem Drucker.',
+      },
+      {
+        id: 'faq-6',
+        question: 'Kann ich eigene Bilder f\u00fcr das Raster-Puzzle verwenden?',
+        answer: 'Ja, Sie k\u00f6nnen eigene Bilder hochladen oder aus \u00fcber 3000 kindgerechten Bildern in der Bibliothek w\u00e4hlen. Die Bibliothek bietet Themen wie Tiere, Fahrzeuge und Lebensmittel. Jedes Bild wird automatisch in Puzzleteile zerlegt.',
+      },
+      {
+        id: 'faq-7',
+        question: 'Was kostet das Vollzugriff Abonnement f\u00fcr den Raster-Puzzle Generator?',
+        answer: 'Das Vollzugriff Abonnement kostet 240\u20ac pro Jahr und beinhaltet alle 33 Arbeitsblatt-Generatoren. Sie erstellen unbegrenzt Raster-Puzzle und alle anderen Arbeitsblatttypen ohne Zusatzkosten. Die kommerzielle Lizenz f\u00fcr den Verkauf auf Teachers Pay Teachers und Etsy ist inklusive.',
+      },
+    ],
+
   },
 
   // Pricing - Vollzugriff pricing (240€/year)

@@ -227,8 +227,44 @@ Drucken Sie Ihre heruntergeladenen Arbeitsblätter auf Standarddruckerpapier ode
     showLessLabel: 'Weniger anzeigen',
     secureCheckout: 'Sichere Zahlung',
     cancelAnytime: 'Jederzeit kündbar',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: 'faq-1',
+        question: 'Welche Schriftarten stehen f\u00fcr Schwung\u00fcbungen und Buchstaben lernen zur Verf\u00fcgung?',
+        answer: 'Der Generator bietet Druckschrift und Schreibschrift. Bei Druckschrift k\u00f6nnen Sie zwischen Normal, Normal mit Pfeil (Strichfolge), Nachspuren (gepunktete Umrisse) und Nachspuren mit Pfeil w\u00e4hlen. Die Schriftwahl beeinflusst das Lernerlebnis ma\u00dfgeblich \u2014 passen Sie sie an Ihre Unterrichtsziele an.',
+      },
+      {
+        id: 'faq-2',
+        question: 'Welche Nachspurmodi gibt es f\u00fcr verschiedene Lernstufen?',
+        answer: 'Es gibt drei Zeilentypen: Nachspuren zeigt vollst\u00e4ndige F\u00fchrungsbuchstaben f\u00fcr Anf\u00e4nger. Verblassen zeigt halbtransparente Buchstaben f\u00fcr \u00dcbergangs\u00fcbungen. Vorlage kopieren zeigt den ersten Buchstaben vollst\u00e4ndig mit verblassten Folgebuchstaben. Sie k\u00f6nnen verschiedene Modi auf einem Arbeitsblatt mischen.',
+      },
+      {
+        id: 'faq-3',
+        question: 'Kann ich eigene Texte zum Nachspuren eingeben?',
+        answer: 'Ja, im Modus "Eigener Text" k\u00f6nnen Sie beliebige Texte eingeben \u2014 Sch\u00fclernamen, Lernw\u00f6rter, S\u00e4tze oder andere Inhalte. Alternativ extrahiert der Generator automatisch Buchstaben oder W\u00f6rter aus den Dateinamen ausgew\u00e4hlter Bilder. Das erleichtert die Erstellung thematischer Schreib\u00fcbungen erheblich.',
+      },
+      {
+        id: 'faq-4',
+        question: 'Wie viele Schreibzeilen passen auf ein Arbeitsblatt?',
+        answer: 'Die Anzahl h\u00e4ngt vom gew\u00e4hlten Seitenformat und der Zeilenh\u00f6he ab. Im Hochformat passen typischerweise 5 bis 8 Schreibzeilen, im Querformat 6 bis 10. Jede Zeile kann unabh\u00e4ngig konfiguriert werden mit unterschiedlichen Schriftstilen und Inhalten.',
+      },
+      {
+        id: 'faq-5',
+        question: 'Gibt es auch Schwung\u00fcbungen f\u00fcr die Feinmotorik-Entwicklung?',
+        answer: 'Ja, der Generator bietet spezielle Schwung\u00fcbungen mit vier Stricharten: senkrechte Linie, waagerechte Linie, Kreis und Zickzack-Linie. Diese grundlegenden Striche bereiten Vorschulkinder optimal auf die Buchstabenbildung vor und entwickeln die Feinmotorik.',
+      },
+      {
+        id: 'faq-6',
+        question: 'Kann ich Gro\u00df- und Kleinbuchstaben separat \u00fcben lassen?',
+        answer: 'Ja, Sie k\u00f6nnen f\u00fcr jede Zeile die Gro\u00df-/Kleinschreibung individuell einstellen. Gro\u00dfbuchstaben eignen sich f\u00fcr Schreibanf\u00e4nger. Kleinbuchstaben f\u00fcr fortgeschrittene Sch\u00fcler. "Satzanfang" gro\u00dfschreibt automatisch den ersten Buchstaben jedes Wortes.',
+      },
+      {
+        id: 'faq-7',
+        question: 'Kann ich Bilder neben den Schreibzeilen platzieren?',
+        answer: 'Ja, Sie k\u00f6nnen Bilder aus der Bibliothek mit \u00fcber 3000 Motiven oder eigene hochgeladene Bilder auf der Arbeitsfl\u00e4che platzieren. Positionieren Sie Bilder neben der zugeh\u00f6rigen Schreib\u00fcbung als Bildaufforderung. Das erm\u00f6glicht thematische Arbeitsbl\u00e4tter, die Bilder und Text kreativ kombinieren.',
+      },
+    ],
+
   },
 
   // Pricing Section - FULL ACCESS pricing

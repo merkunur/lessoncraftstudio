@@ -203,8 +203,44 @@ Aktivieren Sie den Graustufen-Modus vor dem Download, wenn gewünscht. Diese Opt
     showLessLabel: 'Weniger anzeigen',
     secureCheckout: 'Sichere Bezahlung',
     cancelAnytime: 'Jederzeit kündbar',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: 'faq-1',
+        question: 'Wie funktionieren die Puzzle-Arbeitsbl\u00e4tter mit fehlenden Teilen?',
+        answer: 'Ein Bild wird als Puzzle dargestellt, wobei 1 bis 5 Teile fehlen. Kinder w\u00e4hlen aus mehreren Antwortoptionen das richtige Teil, das das Bild vervollst\u00e4ndigt. Diese Aktivit\u00e4t st\u00e4rkt r\u00e4umliches Denken, visuelle Wahrnehmung und Probleml\u00f6sungsf\u00e4higkeiten.',
+      },
+      {
+        id: 'faq-2',
+        question: 'Wie passe ich die Schwierigkeit der Puzzle-Arbeitsbl\u00e4tter an?',
+        answer: 'Die Schwierigkeit steuern Sie \u00fcber zwei Einstellungen: Die Anzahl fehlender Teile (1-5) und die Anzahl der Antwortoptionen (2-6). Beginnen Sie mit 1 fehlenden Teil und 2 Optionen f\u00fcr Vorschulkinder. Erh\u00f6hen Sie auf 5 Teile und 6 Optionen f\u00fcr fortgeschrittene Grundsch\u00fcler.',
+      },
+      {
+        id: 'faq-3',
+        question: 'Welche Teilformen sind f\u00fcr die Puzzle-Arbeitsbl\u00e4tter verf\u00fcgbar?',
+        answer: 'Der Generator bietet sechs verschiedene Teilformen. Quadratische Formen eignen sich f\u00fcr geometrische Mathe Arbeitsbl\u00e4tter. Kreise passen zu Buchstaben lernen und Buchstabenerkennung. Die Formwahl beeinflusst sowohl das Aussehen als auch die Schwierigkeit des Puzzles.',
+      },
+      {
+        id: 'faq-4',
+        question: 'F\u00fcr welches Alter sind Fehlende-Puzzleteile-Arbeitsbl\u00e4tter geeignet?',
+        answer: 'Die Arbeitsbl\u00e4tter eignen sich f\u00fcr Kinder ab 3 Jahren bis zur 3. Klasse. Mit nur 1 fehlendem Teil und wenigen Optionen sind sie perfekt f\u00fcr die Vorschule. H\u00f6here Schwierigkeitsstufen mit mehreren fehlenden Teilen fordern \u00e4ltere Grundsch\u00fcler.',
+      },
+      {
+        id: 'faq-5',
+        question: 'Wird ein L\u00f6sungsschl\u00fcssel automatisch erstellt?',
+        answer: 'Ja, Arbeitsblatt und L\u00f6sungsschl\u00fcssel werden gleichzeitig generiert. Der L\u00f6sungsschl\u00fcssel zeigt das vollst\u00e4ndige Bild mit eingekreisten und nummerierten korrekten Antworten. Beide k\u00f6nnen separat als PDF oder JPEG in 300 DPI heruntergeladen werden.',
+      },
+      {
+        id: 'faq-6',
+        question: 'Kann ich eigene Bilder f\u00fcr die Puzzles verwenden?',
+        answer: 'Ja, Sie k\u00f6nnen eigene Bilder hochladen oder aus \u00fcber 3000 kindgerechten Motiven in der Bibliothek w\u00e4hlen. Die Bibliothek ist thematisch organisiert nach Tieren, Fahrzeugen, Formen und Buchstaben. Die Suchfunktion findet schnell bestimmte Bilder.',
+      },
+      {
+        id: 'faq-7',
+        question: 'Was kostet das Vollzugriff Abonnement f\u00fcr den Puzzle-Generator?',
+        answer: 'Das Vollzugriff Abonnement kostet 240\u20ac pro Jahr und umfasst alle 33 Arbeitsblatt-Generatoren. Sie erstellen unbegrenzt Puzzle-Arbeitsbl\u00e4tter und alle anderen Arbeitsblatttypen. Die kommerzielle Lizenz f\u00fcr den Verkauf ist inklusive. Jederzeit k\u00fcndbar.',
+      },
+    ],
+
   },
 
   // Pricing - Vollzugriff pricing (240€/year)

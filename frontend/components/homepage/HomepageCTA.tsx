@@ -234,7 +234,7 @@ export default function HomepageCTA({ locale }: HomepageCTAProps) {
             >
               {content.titleHighlight}
             </span>
-            {locale === 'de' ? ' zu erstellen?' : locale === 'es' || locale === 'it' || locale === 'pt' || locale === 'da' || locale === 'sv' || locale === 'no' || locale === 'fi' ? '?' : ' ?'}
+            {locale === 'de' ? ' zu erstellen?' : locale === 'fr' ? '\u00a0?' : '?'}
           </h2>
 
           {/* Subtitle */}

@@ -211,18 +211,19 @@ export function generateBlogSchemas(post: BlogPostData, locale: string, baseUrl:
 
   // 5. Organization Schema (for E-A-T signals)
   // Localized organization descriptions
+  // Use the same descriptions as the homepage Organization for consistent @id
   const localizedOrgDescriptions: Record<string, string> = {
-    en: "Free printable educational worksheets for elementary school teachers and parents",
-    de: "Kostenlose druckbare Arbeitsblätter für Grundschullehrer und Eltern",
-    fr: "Fiches éducatives imprimables gratuites pour enseignants et parents",
-    es: "Fichas educativas imprimibles gratuitas para maestros y padres",
-    pt: "Planilhas educativas imprimíveis gratuitas para professores e pais",
-    it: "Schede didattiche stampabili gratuite per insegnanti e genitori",
-    nl: "Gratis afdrukbare educatieve werkbladen voor leerkrachten en ouders",
-    sv: "Gratis utskrivbara pedagogiska arbetsblad för lärare och föräldrar",
-    da: "Gratis printbare pædagogiske arbejdsark til lærere og forældre",
-    no: "Gratis utskrivbare pedagogiske arbeidsark for lærere og foreldre",
-    fi: "Ilmaiset tulostettavat opetustyöarkit opettajille ja vanhemmille"
+    en: "Professional worksheet generators for teachers and educators. Create customized educational materials in seconds.",
+    de: "Professionelle Arbeitsblatt-Generatoren f\u00fcr Lehrer und P\u00e4dagogen. Erstellen Sie individuelle Unterrichtsmaterialien in Sekunden.",
+    fr: "G\u00e9n\u00e9rateurs de fiches professionnels pour enseignants et \u00e9ducateurs. Cr\u00e9ez des mat\u00e9riaux p\u00e9dagogiques personnalis\u00e9s en quelques secondes.",
+    es: "Generadores de fichas profesionales para maestros y educadores. Cree materiales educativos personalizados en segundos.",
+    pt: "Geradores de planilhas profissionais para professores e educadores. Crie materiais educativos personalizados em segundos.",
+    it: "Generatori di schede professionali per insegnanti ed educatori. Crea materiali didattici personalizzati in pochi secondi.",
+    nl: "Professionele werkblad-generatoren voor leraren en docenten. Maak op maat gemaakte lesmateriaal in seconden.",
+    sv: "Professionella arbetsblads-generatorer f\u00f6r l\u00e4rare och pedagoger. Skapa anpassade utbildningsmaterial p\u00e5 n\u00e5gra sekunder.",
+    da: "Professionelle arbejdsark-generatorer til l\u00e6rere og p\u00e6dagoger. Opret tilpassede undervisningsmaterialer p\u00e5 f\u00e5 sekunder.",
+    no: "Profesjonelle arbeidsark-generatorer for l\u00e6rere og pedagoger. Lag tilpassede undervisningsmateriell p\u00e5 sekunder.",
+    fi: "Ammattimaiset ty\u00f6arkki-generaattorit opettajille ja kasvattajille. Luo mukautettuja opetusmateriaaleja sekunneissa."
   };
 
   const organizationSchema = {
@@ -230,7 +231,7 @@ export function generateBlogSchemas(post: BlogPostData, locale: string, baseUrl:
     "@type": "EducationalOrganization",
     "@id": `${baseUrl}/#organization`,
     "name": "LessonCraftStudio",
-    "url": `${baseUrl}/${locale}`,
+    "url": baseUrl,
     "logo": {
       "@type": "ImageObject",
       "url": `${baseUrl}/logo-lcs.png`,
@@ -297,7 +298,7 @@ export function generateHowToSchema(
  * Generate Homepage Schemas
  * Includes: Organization, WebSite, and SoftwareApplication schemas
  */
-export function generateHomepageSchemas(locale: string, baseUrl: string = getBaseUrl()) {
+export function generateHomepageSchemas(locale: string, baseUrl: string = getBaseUrl(), pageMeta?: { name: string; description: string }) {
   const schemas: any[] = [];
 
   // Localized homepage descriptions
@@ -383,9 +384,11 @@ export function generateHomepageSchemas(locale: string, baseUrl: string = getBas
   const webSiteSchema = {
     "@context": "https://schema.org",
     "@type": "WebSite",
+    "@id": `${baseUrl}/#website`,
     "name": "LessonCraftStudio",
     "url": baseUrl,
     "description": homepageWebsiteDescriptions[locale] || homepageWebsiteDescriptions.en,
+    "publisher": { "@id": `${baseUrl}/#organization` },
     "inLanguage": getHreflangCode(locale),
     "potentialAction": {
       "@type": "SearchAction",
@@ -414,12 +417,26 @@ export function generateHomepageSchemas(locale: string, baseUrl: string = getBas
     "description": homepageSoftwareDescriptions[locale] || homepageSoftwareDescriptions.en,
     "featureList": homepageFeatureLists[locale] || homepageFeatureLists.en,
     "screenshot": `${baseUrl}/opengraph-image.png`,
-    "provider": {
-      "@type": "Organization",
-      "name": "LessonCraftStudio"
-    }
+    "provider": { "@id": `${baseUrl}/#organization` }
   };
   schemas.push(softwareSchema);
+
+  // 4. WebPage Schema (for the homepage itself)
+  if (pageMeta) {
+    const webPageSchema = {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "@id": `${baseUrl}/${locale}/#webpage`,
+      "url": `${baseUrl}/${locale}`,
+      "name": pageMeta.name,
+      "description": pageMeta.description,
+      "isPartOf": { "@id": `${baseUrl}/#website` },
+      "about": { "@id": `${baseUrl}/#organization` },
+      "publisher": { "@id": `${baseUrl}/#organization` },
+      "inLanguage": getHreflangCode(locale)
+    };
+    schemas.push(webPageSchema);
+  }
 
   return schemas;
 }

@@ -72,6 +72,14 @@ export const homepageFaqData: Record<string, FAQLocaleData> = {
       {
         question: "Brauche ich Designkenntnisse, um Arbeitsbl\u00e4tter zu erstellen?",
         answer: "\u00dcberhaupt nicht! Jeder Generator verwendet eine einfache Point-and-Click-Oberfl\u00e4che. W\u00e4hlen Sie ein Thema, passen Sie die Einstellungen an und laden Sie in unter 3 Minuten ein sch\u00f6n formatiertes PDF herunter. Keine Grafikdesign-Erfahrung, spezielle Software oder technisches Wissen erforderlich."
+      },
+      {
+        question: "Kann ich die Arbeitsbl\u00e4tter zu Hause ausdrucken?",
+        answer: "Auf jeden Fall. Jedes Arbeitsblatt wird als hochaufl\u00f6sendes 300-DPI-PDF heruntergeladen, das auf jedem Standard-Heim- oder B\u00fcrodrucker perfekt gedruckt wird. Die Dateien sind sowohl f\u00fcr US Letter als auch f\u00fcr A4-Papierformate optimiert."
+      },
+      {
+        question: "Ist eine Bildbibliothek enthalten?",
+        answer: "Ja! Abonnenten des Full-Plans erhalten Zugang zu unserer kuratierten Bibliothek mit \u00fcber 3.000 handverlesenen Clipart-Bildern in \u00fcber 100 Themen, darunter Tiere, Essen, Fahrzeuge, Natur, Sport und vieles mehr. Diese Bilder sind professionell ausgew\u00e4hlt, altersgerecht und visuell ansprechend f\u00fcr junge Lernende."
       }
     ]
   },
@@ -101,6 +109,14 @@ export const homepageFaqData: Record<string, FAQLocaleData> = {
       {
         question: "Ai-je besoin de comp\u00e9tences en design pour cr\u00e9er des fiches\u00a0?",
         answer: "Pas du tout\u00a0! Chaque g\u00e9n\u00e9rateur utilise une interface simple pointer-cliquer. Choisissez un th\u00e8me, s\u00e9lectionnez vos param\u00e8tres et t\u00e9l\u00e9chargez un PDF parfaitement mis en page en moins de 3 minutes. Aucune exp\u00e9rience en design graphique, logiciel sp\u00e9cial ou connaissance technique n\u00e9cessaire."
+      },
+      {
+        question: "Puis-je imprimer les fiches \u00e0 la maison\u00a0?",
+        answer: "Absolument. Chaque fiche se t\u00e9l\u00e9charge en PDF haute r\u00e9solution 300 DPI qui s\u2019imprime parfaitement sur n\u2019importe quelle imprimante domestique ou de bureau standard. Les fichiers sont optimis\u00e9s pour les formats papier US Letter et A4."
+      },
+      {
+        question: "Y a-t-il une biblioth\u00e8que d\u2019images incluse\u00a0?",
+        answer: "Oui\u00a0! Les abonn\u00e9s au plan Full ont acc\u00e8s \u00e0 notre biblioth\u00e8que de plus de 3\u00a0000 images clipart soigneusement s\u00e9lectionn\u00e9es dans plus de 100 th\u00e8mes, dont les animaux, la nourriture, les v\u00e9hicules, la nature, le sport et bien d\u2019autres. Ces images sont professionnellement choisies pour \u00eatre adapt\u00e9es \u00e0 l\u2019\u00e2ge et visuellement attrayantes pour les jeunes apprenants."
       }
     ]
   },
@@ -130,6 +146,14 @@ export const homepageFaqData: Record<string, FAQLocaleData> = {
       {
         question: "\u00bfNecesito habilidades de dise\u00f1o para crear fichas?",
         answer: "\u00a1Para nada! Cada generador utiliza una interfaz sencilla de apuntar y hacer clic. Elige un tema, selecciona tus ajustes y descarga un PDF perfectamente formateado en menos de 3 minutos. No se requiere experiencia en dise\u00f1o gr\u00e1fico, software especial ni conocimientos t\u00e9cnicos."
+      },
+      {
+        question: "\u00bfPuedo imprimir las fichas en casa?",
+        answer: "Por supuesto. Cada ficha se descarga como un PDF de alta resoluci\u00f3n a 300 DPI que se imprime perfectamente en cualquier impresora dom\u00e9stica o de oficina est\u00e1ndar. Los archivos est\u00e1n optimizados para tama\u00f1os de papel US Letter y A4."
+      },
+      {
+        question: "\u00bfHay una biblioteca de im\u00e1genes incluida?",
+        answer: "\u00a1S\u00ed! Los suscriptores del plan Full tienen acceso a nuestra biblioteca curada de m\u00e1s de 3.000 im\u00e1genes clipart seleccionadas a mano en m\u00e1s de 100 temas, incluyendo animales, comida, veh\u00edculos, naturaleza, deportes y muchos m\u00e1s. Estas im\u00e1genes est\u00e1n profesionalmente seleccionadas para ser apropiadas para la edad y visualmente atractivas para los j\u00f3venes estudiantes."
       }
     ]
   },
@@ -159,6 +183,14 @@ export const homepageFaqData: Record<string, FAQLocaleData> = {
       {
         question: "Preciso de compet\u00eancias de design para criar fichas?",
         answer: "De modo algum! Cada gerador utiliza uma interface simples de apontar e clicar. Escolha um tema, selecione as suas defini\u00e7\u00f5es e descarregue um PDF perfeitamente formatado em menos de 3 minutos. N\u00e3o \u00e9 necess\u00e1ria experi\u00eancia em design gr\u00e1fico, software especial ou conhecimentos t\u00e9cnicos."
+      },
+      {
+        question: "Posso imprimir as fichas em casa?",
+        answer: "Com certeza. Cada ficha \u00e9 descarregada como um PDF de alta resolu\u00e7\u00e3o a 300 DPI que imprime perfeitamente em qualquer impressora dom\u00e9stica ou de escrit\u00f3rio padr\u00e3o. Os ficheiros est\u00e3o otimizados para os formatos de papel US Letter e A4."
+      },
+      {
+        question: "Existe uma biblioteca de imagens inclu\u00edda?",
+        answer: "Sim! Os assinantes do plano Full t\u00eam acesso \u00e0 nossa biblioteca curada de mais de 3.000 imagens clipart selecionadas \u00e0 m\u00e3o em mais de 100 temas, incluindo animais, comida, ve\u00edculos, natureza, desporto e muitos mais. Estas imagens s\u00e3o profissionalmente selecionadas para serem adequadas \u00e0 idade e visualmente atrativas para jovens aprendizes."
       }
     ]
   },
@@ -188,6 +220,14 @@ export const homepageFaqData: Record<string, FAQLocaleData> = {
       {
         question: "Servono competenze di design per creare le schede?",
         answer: "Assolutamente no! Ogni generatore utilizza un\u2019interfaccia semplice punta e clicca. Scegli un tema, seleziona le impostazioni e scarica un PDF perfettamente formattato in meno di 3 minuti. Non servono esperienza in grafica, software speciali o conoscenze tecniche."
+      },
+      {
+        question: "Posso stampare le schede a casa?",
+        answer: "Certamente. Ogni scheda viene scaricata come PDF ad alta risoluzione a 300 DPI che si stampa perfettamente su qualsiasi stampante domestica o da ufficio standard. I file sono ottimizzati per i formati carta US Letter e A4."
+      },
+      {
+        question: "\u00c8 inclusa una libreria di immagini?",
+        answer: "S\u00ec! Gli abbonati al piano Full hanno accesso alla nostra libreria curata di oltre 3.000 immagini clipart selezionate a mano in pi\u00f9 di 100 temi, tra cui animali, cibo, veicoli, natura, sport e molti altri. Queste immagini sono professionalmente selezionate per essere adatte all\u2019et\u00e0 e visivamente coinvolgenti per i giovani studenti."
       }
     ]
   },
@@ -217,6 +257,14 @@ export const homepageFaqData: Record<string, FAQLocaleData> = {
       {
         question: "Heb ik designvaardigheden nodig om werkbladen te maken?",
         answer: "Helemaal niet! Elke generator gebruikt een eenvoudige point-and-click-interface. Kies een thema, selecteer je instellingen en download een prachtig opgemaakt PDF in minder dan 3 minuten. Geen grafische ontwerpervaring, speciale software of technische kennis vereist."
+      },
+      {
+        question: "Kan ik de werkbladen thuis afdrukken?",
+        answer: "Absoluut. Elk werkblad wordt gedownload als een hoge-resolutie 300 DPI PDF die perfect afdrukt op elke standaard thuis- of kantoorprinter. De bestanden zijn geoptimaliseerd voor zowel US Letter als A4-papierformaten."
+      },
+      {
+        question: "Is er een afbeeldingenbibliotheek inbegrepen?",
+        answer: "Ja! Abonnees van het Full-plan krijgen toegang tot onze samengestelde bibliotheek van meer dan 3.000 handgekozen clipart-afbeeldingen in meer dan 100 thema's, waaronder dieren, eten, voertuigen, natuur, sport en nog veel meer. Deze afbeeldingen zijn professioneel geselecteerd om leeftijdsgeschikt en visueel aantrekkelijk te zijn voor jonge leerlingen."
       }
     ]
   },
@@ -246,6 +294,14 @@ export const homepageFaqData: Record<string, FAQLocaleData> = {
       {
         question: "Beh\u00f6ver jag designkunskaper f\u00f6r att skapa arbetsblad?",
         answer: "Inte alls! Varje generator anv\u00e4nder ett enkelt peka-och-klicka-gr\u00e4nssnitt. V\u00e4lj ett tema, v\u00e4lj dina inst\u00e4llningar och ladda ner en snyggt formaterad PDF p\u00e5 under 3 minuter. Ingen grafisk designerfarenhet, specialprogramvara eller teknisk kunskap kr\u00e4vs."
+      },
+      {
+        question: "Kan jag skriva ut arbetsbladen hemma?",
+        answer: "Absolut. Varje arbetsblad laddas ner som en h\u00f6guppl\u00f6st 300 DPI PDF som skrivs ut perfekt p\u00e5 alla vanliga hem- eller kontorsskrivare. Filerna \u00e4r optimerade f\u00f6r b\u00e5de US Letter och A4-pappersformat."
+      },
+      {
+        question: "Ing\u00e5r ett bildbibliotek?",
+        answer: "Ja! Full-prenumeranter f\u00e5r tillg\u00e5ng till v\u00e5rt kurerade bibliotek med \u00f6ver 3\u00a0000 handplockade clipart-bilder i \u00f6ver 100 teman, inklusive djur, mat, fordon, natur, sport och m\u00e5nga fler. Dessa bilder \u00e4r professionellt utvalda f\u00f6r att vara \u00e5ldersanpassade och visuellt engagerande f\u00f6r unga elever."
       }
     ]
   },
@@ -275,6 +331,14 @@ export const homepageFaqData: Record<string, FAQLocaleData> = {
       {
         question: "Skal jeg have designf\u00e6rdigheder for at oprette arbejdsark?",
         answer: "Slet ikke! Hver generator bruger en enkel peg-og-klik-gr\u00e6nseflade. V\u00e6lg et tema, v\u00e6lg dine indstillinger og download en smukt formateret PDF p\u00e5 under 3 minutter. Ingen grafisk designerfaring, speciel software eller teknisk viden p\u00e5kr\u00e6vet."
+      },
+      {
+        question: "Kan jeg printe arbejdsarkene derhjemme?",
+        answer: "Absolut. Hvert arbejdsark downloades som en h\u00f8joppl\u00f8snings 300 DPI PDF, der printer perfekt p\u00e5 enhver standard hjemme- eller kontorprinter. Filerne er optimeret til b\u00e5de US Letter og A4-papirformater."
+      },
+      {
+        question: "Er der et billedbibliotek inkluderet?",
+        answer: "Ja! Full-abonnenter f\u00e5r adgang til vores kuraterede bibliotek med over 3.000 h\u00e5ndplukkede clipart-billeder i over 100 temaer, herunder dyr, mad, k\u00f8ret\u00f8jer, natur, sport og mange flere. Disse billeder er professionelt udvalgt til at v\u00e6re alderspassende og visuelt engagerende for unge elever."
       }
     ]
   },
@@ -304,6 +368,14 @@ export const homepageFaqData: Record<string, FAQLocaleData> = {
       {
         question: "Trenger jeg designferdigheter for \u00e5 lage arbeidsark?",
         answer: "Absolutt ikke! Hver generator bruker et enkelt pek-og-klikk-grensesnitt. Velg et tema, velg innstillingene dine og last ned en pent formatert PDF p\u00e5 under 3 minutter. Ingen grafisk designerfaring, spesialprogramvare eller teknisk kunnskap n\u00f8dvendig."
+      },
+      {
+        question: "Kan jeg skrive ut arbeidsarkene hjemme?",
+        answer: "Absolutt. Hvert arbeidsark lastes ned som en h\u00f8yoppl\u00f8selig 300 DPI PDF som skrives ut perfekt p\u00e5 enhver standard hjemme- eller kontorskriver. Filene er optimalisert for b\u00e5de US Letter og A4-papirformater."
+      },
+      {
+        question: "Er det et bildbibliotek inkludert?",
+        answer: "Ja! Full-abonnenter f\u00e5r tilgang til v\u00e5rt kuraterte bibliotek med over 3\u00a0000 h\u00e5ndplukkede clipart-bilder i over 100 temaer, inkludert dyr, mat, kj\u00f8ret\u00f8y, natur, sport og mange flere. Disse bildene er profesjonelt utvalgt for \u00e5 v\u00e6re alderstilpassede og visuelt engasjerende for unge elever."
       }
     ]
   },
@@ -333,6 +405,14 @@ export const homepageFaqData: Record<string, FAQLocaleData> = {
       {
         question: "Tarvitsenko suunnittelutaitoja ty\u00f6lehtien luomiseen?",
         answer: "Ei lainkaan! Jokainen generaattori k\u00e4ytt\u00e4\u00e4 yksinkertaista osoita ja napsauta -k\u00e4ytt\u00f6liittym\u00e4\u00e4. Valitse teema, valitse asetuksesi ja lataa kauniisti muotoiltu PDF alle 3 minuutissa. Graafisen suunnittelun kokemusta, erikoisohjelmistoja tai teknist\u00e4 osaamista ei tarvita."
+      },
+      {
+        question: "Voinko tulostaa ty\u00f6lehdet kotona?",
+        answer: "Ehdottomasti. Jokainen ty\u00f6lehti ladataan korkearesoluutioisena 300 DPI PDF-tiedostona, joka tulostuu t\u00e4ydellisesti mill\u00e4 tahansa tavallisella koti- tai toimistotulostimella. Tiedostot on optimoitu sek\u00e4 US Letter- ett\u00e4 A4-paperikoille."
+      },
+      {
+        question: "Sis\u00e4ltyyk\u00f6 kuvakirjasto?",
+        answer: "Kyll\u00e4! Full-tilaajat saavat p\u00e4\u00e4syn kuratoituun kirjastoomme, jossa on yli 3\u00a0000 k\u00e4sin valittua clipart-kuvaa yli 100 teemassa, mukaan lukien el\u00e4imet, ruoka, ajoneuvot, luonto, urheilu ja paljon muuta. N\u00e4m\u00e4 kuvat on ammattimaisesti valittu ik\u00e4sopiviksi ja visuaalisesti kiinnostaviksi nuorille oppijoille."
       }
     ]
   }

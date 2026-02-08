@@ -1,6 +1,7 @@
 import fs from 'fs/promises';
 import path from 'path';
 import { prisma } from '@/lib/prisma';
+import { generateLocalizedAltText, generateLocalizedTitle, generateLocalizedCaption } from '@/lib/localized-seo-templates';
 
 // Base path for samples (filesystem scanning)
 // Production uses isolated /var/www/lcs-media/samples - COMPLETELY SEPARATE from code repository
@@ -23,6 +24,43 @@ const localeToFolder: Record<string, string> = {
   fi: 'finnish',
 };
 
+// App ID to display name mapping for localized SEO fallbacks
+const appIdToDisplayName: Record<string, string> = {
+  'addition': 'Addition',
+  'alphabet-train': 'Alphabet Train',
+  'big-small': 'Big and Small',
+  'bingo': 'Bingo',
+  'chart-count': 'Chart Count',
+  'code-addition': 'Code Addition',
+  'coloring': 'Coloring',
+  'crossword': 'Crossword',
+  'cryptogram': 'Cryptogram',
+  'draw-and-color': 'Draw and Color',
+  'drawing-lines': 'Drawing Lines',
+  'find-and-count': 'Find and Count',
+  'find-objects': 'Find Objects',
+  'grid-match': 'Grid Match',
+  'matching': 'Matching',
+  'math-puzzle': 'Math Puzzle',
+  'math-worksheet': 'Math',
+  'missing-pieces': 'Missing Pieces',
+  'more-less': 'More or Less',
+  'odd-one-out': 'Odd One Out',
+  'pattern-train': 'Pattern Train',
+  'pattern-worksheet': 'Pattern Recognition',
+  'picture-path': 'Picture Path',
+  'picture-sort': 'Picture Sort',
+  'prepositions': 'Prepositions',
+  'shadow-match': 'Shadow Match',
+  'subtraction': 'Subtraction',
+  'sudoku': 'Sudoku',
+  'treasure-hunt': 'Treasure Hunt',
+  'word-guess': 'Word Guess',
+  'word-scramble': 'Word Scramble',
+  'wordsearch': 'Word Search',
+  'writing': 'Writing',
+};
+
 // Valid app IDs (33 apps) - same as in the API route
 const validAppIds = [
   'addition', 'alphabet-train', 'big-small', 'bingo', 'chart-count', 'code-addition',
@@ -36,7 +74,7 @@ const validAppIds = [
 
 export interface HomepageSamplesData {
   dynamicImages: Record<string, string>;
-  seoData: Record<string, { altText?: string; title?: string }>;
+  seoData: Record<string, { altText: string; title: string; description: string; caption: string }>;
   heroImages: { portrait: string; landscape: string };
 }
 
@@ -112,16 +150,33 @@ export async function getHomepageSamplesData(locale: string): Promise<HomepageSa
           appId: true,
           altText: true,
           title: true,
+          description: true,
         }
       });
       for (const s of seoRecords) {
+        const displayName = appIdToDisplayName[s.appId] || s.appId.replace(/-/g, ' ');
         result.seoData[s.appId] = {
-          altText: s.altText ?? undefined,
-          title: s.title ?? undefined,
+          altText: s.altText || generateLocalizedAltText(displayName, locale, 1),
+          title: s.title || generateLocalizedTitle(displayName, locale, 1),
+          description: (s.description as string) || generateLocalizedAltText(displayName, locale, 1),
+          caption: generateLocalizedCaption(displayName, locale, 1),
         };
       }
     } catch {
       // SEO data is optional - continue without it
+    }
+
+    // Ensure every app with a thumbnail has rich localized SEO metadata (even without DB records)
+    for (const appId of Object.keys(result.dynamicImages)) {
+      if (!result.seoData[appId]) {
+        const displayName = appIdToDisplayName[appId] || appId.replace(/-/g, ' ');
+        result.seoData[appId] = {
+          altText: generateLocalizedAltText(displayName, locale, 1),
+          title: generateLocalizedTitle(displayName, locale, 1),
+          description: generateLocalizedAltText(displayName, locale, 1),
+          caption: generateLocalizedCaption(displayName, locale, 1),
+        };
+      }
     }
   } catch {
     // Silent fallback to empty data - same behavior as the HTTP fetch version

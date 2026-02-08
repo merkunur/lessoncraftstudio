@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
-import { generateHomepageSchemas, getHreflangCode, ogLocaleMap } from '@/lib/schema-generator';
+import { generateHomepageSchemas, getHreflangCode, ogLocaleMap, generateImageGallerySchema } from '@/lib/schema-generator';
+import type { SampleImageData } from '@/lib/schema-generator';
 import { SUPPORTED_LOCALES } from '@/config/locales';
 import { getHomepageSamplesData } from '@/lib/homepage-samples-data';
 import {
@@ -85,6 +86,21 @@ const homepageMetadata: Record<string, { title: string; description: string; key
   }
 };
 
+// Localized gallery names for ImageGallery JSON-LD
+const galleryNames: Record<string, string> = {
+  en: 'Free Worksheet Samples',
+  de: 'Kostenlose Arbeitsblatt-Beispiele',
+  fr: '\u00c9chantillons de fiches gratuits',
+  es: 'Muestras de fichas gratuitas',
+  pt: 'Amostras de atividades gratuitas',
+  it: 'Esempi di schede didattiche gratuite',
+  nl: 'Gratis werkblad voorbeelden',
+  sv: 'Gratis arbetsblad exempel',
+  da: 'Gratis arbejdsark eksempler',
+  no: 'Gratis arbeidsark eksempler',
+  fi: 'Ilmaiset ty\u00f6arkkin\u00e4ytteet',
+};
+
 // Enable ISR - revalidate every 5 minutes (reduced from 1 hour for faster content updates)
 export const revalidate = 300;
 
@@ -152,6 +168,29 @@ export default async function HomePage({ params }: { params: { locale: string } 
 
   // Fetch dynamic homepage images server-side (baked into ISR HTML)
   const { dynamicImages, seoData, heroImages } = await getHomepageSamplesData(locale);
+
+  // Generate ImageGallery JSON-LD from homepage sample thumbnails
+  const baseUrl = 'https://www.lessoncraftstudio.com';
+  const sampleImages: SampleImageData[] = Object.entries(dynamicImages).map(([appId, thumbUrl]) => ({
+    src: thumbUrl,
+    name: seoData[appId]?.title || appId,
+    description: seoData[appId]?.description || seoData[appId]?.altText || appId,
+    caption: seoData[appId]?.caption || seoData[appId]?.altText || appId,
+    width: 400,
+    height: 533,
+    thumbnailSrc: thumbUrl,
+  }));
+
+  if (sampleImages.length > 0) {
+    const gallerySchema = generateImageGallerySchema(
+      sampleImages,
+      galleryNames[locale] || galleryNames.en,
+      `${baseUrl}/${locale}`,
+      locale,
+      baseUrl
+    );
+    schemas.push(gallerySchema);
+  }
 
   return (
     <>

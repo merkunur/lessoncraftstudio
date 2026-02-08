@@ -418,6 +418,61 @@ export async function GET() {
     }
   }
 
+  // ── Homepage sample thumbnails ──
+  // Homepage displays 33 worksheet thumbnails per locale from /samples/{language}/homepage/
+  const homepageAppIdToDisplayName: Record<string, string> = {
+    'addition': 'Addition', 'alphabet-train': 'Alphabet Train', 'big-small': 'Big and Small',
+    'bingo': 'Bingo', 'chart-count': 'Chart Count', 'code-addition': 'Code Addition',
+    'coloring': 'Coloring', 'crossword': 'Crossword', 'cryptogram': 'Cryptogram',
+    'draw-and-color': 'Draw and Color', 'drawing-lines': 'Drawing Lines',
+    'find-and-count': 'Find and Count', 'find-objects': 'Find Objects', 'grid-match': 'Grid Match',
+    'matching': 'Matching', 'math-puzzle': 'Math Puzzle', 'math-worksheet': 'Math',
+    'missing-pieces': 'Missing Pieces', 'more-less': 'More or Less', 'odd-one-out': 'Odd One Out',
+    'pattern-train': 'Pattern Train', 'pattern-worksheet': 'Pattern Recognition',
+    'picture-path': 'Picture Path', 'picture-sort': 'Picture Sort', 'prepositions': 'Prepositions',
+    'shadow-match': 'Shadow Match', 'subtraction': 'Subtraction', 'sudoku': 'Sudoku',
+    'treasure-hunt': 'Treasure Hunt', 'word-guess': 'Word Guess', 'word-scramble': 'Word Scramble',
+    'wordsearch': 'Word Search', 'writing': 'Writing',
+  };
+
+  for (const [locale, language] of Object.entries(localeToFolder)) {
+    const homepageDir = path.join(SAMPLES_BASE, language, 'homepage');
+    let homepageFiles: string[];
+    try {
+      homepageFiles = await fs.readdir(homepageDir);
+    } catch { continue; }
+
+    const thumbFiles = homepageFiles.filter(f => f.endsWith('_thumb.webp'));
+    if (thumbFiles.length === 0) continue;
+
+    const pageUrl = `${baseUrl}/${locale}`;
+    const licenseUrl = `${baseUrl}/${locale}/terms`;
+    const imageLines: string[] = [];
+
+    for (const thumbFile of thumbFiles) {
+      const appId = thumbFile.replace('-thumbnail_thumb.webp', '');
+      const displayName = homepageAppIdToDisplayName[appId] || appId.replace(/-/g, ' ');
+      const imgUrl = `${baseUrl}/samples/${language}/homepage/${thumbFile.replace(/ /g, '%20')}`;
+
+      // Try DB metadata first, then localized template fallback
+      const seoKey = `${appId}:${locale}:${appId}-thumbnail.jpeg`;
+      const seoMeta = seoMetaMap.get(seoKey);
+      const title = seoMeta?.title || generateLocalizedTitle(displayName, locale, 1);
+      const caption = seoMeta?.description || seoMeta?.altText || generateLocalizedCaption(displayName, locale, 1);
+
+      imageLines.push(`    <image:image>`);
+      imageLines.push(`      <image:loc>${escapeXml(imgUrl)}</image:loc>`);
+      imageLines.push(`      <image:title>${escapeXml(title)}</image:title>`);
+      imageLines.push(`      <image:caption>${escapeXml(caption)}</image:caption>`);
+      imageLines.push(`      <image:license>${escapeXml(licenseUrl)}</image:license>`);
+      imageLines.push(`    </image:image>`);
+    }
+
+    if (imageLines.length > 0) {
+      urls += `  <url>\n    <loc>${escapeXml(pageUrl)}</loc>\n${imageLines.join('\n')}\n  </url>\n`;
+    }
+  }
+
   // ── Blog post sample images ──
   // Add sample images shown on blog posts to the image sitemap
   try {

@@ -777,7 +777,7 @@ const localePdfs: Record<string, Record<string, string>> = {
 interface SampleGalleryProps {
   locale: string;
   dynamicImages?: Record<string, string>;  // Server-side fetched homepage thumbnails
-  seoData?: Record<string, { altText?: string; title?: string }>;  // Server-side fetched SEO metadata
+  seoData?: Record<string, { altText: string; title: string; description: string; caption: string }>;  // Server-side fetched SEO metadata
 }
 
 // Localization content
@@ -1543,15 +1543,28 @@ export default function SampleGallery({ locale, dynamicImages = {}, seoData = {}
                   <h3 className="text-sm font-semibold text-white truncate mb-2">
                     {getSampleName(sample)}
                   </h3>
-                  <Link
-                    href={`/${locale}/apps/${sample.productPageSlug}`}
-                    className="inline-flex items-center gap-1 text-xs text-cyan-400 hover:text-cyan-300 transition-colors"
-                  >
-                    {content.viewDetails}
-                    <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                    </svg>
-                  </Link>
+                  <div className="flex items-center justify-between">
+                    <Link
+                      href={`/${locale}/apps/${sample.productPageSlug}`}
+                      className="inline-flex items-center gap-1 text-xs text-cyan-400 hover:text-cyan-300 transition-colors"
+                    >
+                      {content.viewDetails}
+                      <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                      </svg>
+                    </Link>
+                    <a
+                      href={getSamplePdf(sample)}
+                      download
+                      className="inline-flex items-center gap-1 text-xs text-emerald-400/70 hover:text-emerald-300 transition-colors"
+                      aria-label={`Download ${getSampleName(sample)} PDF`}
+                    >
+                      <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+                      </svg>
+                      PDF
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>

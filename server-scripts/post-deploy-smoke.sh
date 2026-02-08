@@ -96,12 +96,12 @@ echo ""
 
 # Test 8: Sample product page loads
 echo "Testing sample product pages..."
-PRODUCT_STATUS=$(curl -s -o /dev/null -w "%{http_code}" "$BASE_URL/en/addition" 2>/dev/null)
+PRODUCT_STATUS=$(curl -s -o /dev/null -w "%{http_code}" "$BASE_URL/en/apps/addition-worksheets" 2>/dev/null)
 if [ "$PRODUCT_STATUS" != "200" ]; then
-    echo "  FAIL: /en/addition product page returned $PRODUCT_STATUS"
+    echo "  FAIL: /en/apps/addition-worksheets returned $PRODUCT_STATUS"
     FAILURES=$((FAILURES + 1))
 else
-    echo "  PASS: Product page /en/addition"
+    echo "  PASS: Product page /en/apps/addition-worksheets"
 fi
 
 echo ""
@@ -143,13 +143,13 @@ else
     echo "  PASS: Pricing page"
 fi
 
-# Test 12: Check support page loads
-SUPPORT_PAGE=$(curl -s -o /dev/null -w "%{http_code}" "$BASE_URL/en/support" 2>/dev/null)
+# Test 12: Check FAQ page loads
+SUPPORT_PAGE=$(curl -s -o /dev/null -w "%{http_code}" "$BASE_URL/en/faq" 2>/dev/null)
 if [ "$SUPPORT_PAGE" != "200" ]; then
-    echo "  FAIL: /en/support returned $SUPPORT_PAGE"
+    echo "  FAIL: /en/faq returned $SUPPORT_PAGE"
     FAILURES=$((FAILURES + 1))
 else
-    echo "  PASS: Support page"
+    echo "  PASS: FAQ page"
 fi
 
 echo ""

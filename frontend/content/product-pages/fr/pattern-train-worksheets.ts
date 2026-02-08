@@ -15,7 +15,7 @@ export const patternTrainFrContent: ProductPageContent = {
   seo: {
     slug: 'train-suites-logiques-fiches',
     appId: 'pattern-train',
-    title: 'Fiches à Imprimer Gratuit | Générateur de Suites Logiques Train pour',
+    title: 'Train Suites Logiques Fiches Gratuites | Maternelle CP',
     description: 'Créez des fiches maternelle professionnelles de reconnaissance de suites logiques avec notre générateur de train à motifs. Générez des exercices CP.',
     keywords: 'fiches maternelle, suites logiques, fiches à imprimer gratuit, exercices CP, train à motifs, reconnaissance de motifs, maternelle, CP, générateur fiches, suites AB ABC',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fr/apps/train-suites-logiques-fiches',
@@ -201,8 +201,34 @@ Cochez "Grayscale" avant de télécharger pour économiser l'encre couleur. La f
     showLessLabel: 'Voir moins',
     secureCheckout: 'Paiement sécurisé',
     cancelAnytime: 'Résiliez à tout moment',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: 'faq-1',
+        question: 'Comment fonctionne le g\u00e9n\u00e9rateur de suites logiques train ?',
+        answer: 'Le g\u00e9n\u00e9rateur cr\u00e9e des s\u00e9quences d\u2019images plac\u00e9es dans des wagons de train que les enfants doivent compl\u00e9ter. Les premiers wagons montrent le motif avec des indices, et les \u00e9l\u00e8ves d\u00e9coupent et collent les images manquantes. Cette activit\u00e9 ludique combine reconnaissance de motifs et motricit\u00e9 fine.',
+      },
+      {
+        id: 'faq-2',
+        question: 'Quels types de suites logiques sont disponibles ?',
+        answer: 'Cinq types de motifs sont propos\u00e9s : AB, AAB, ABB, ABC et AABB. Le motif AB est id\u00e9al pour les d\u00e9butants de maternelle avec une simple alternance de deux \u00e9l\u00e9ments. Les motifs AABB et ABC conviennent aux \u00e9l\u00e8ves plus avanc\u00e9s qui ma\u00eetrisent d\u00e9j\u00e0 les suites simples.',
+      },
+      {
+        id: 'faq-3',
+        question: '\u00c0 quel groupe d\u2019\u00e2ge s\u2019adressent les fiches train suites logiques ?',
+        answer: 'Les fiches sont con\u00e7ues pour les enfants de 3 \u00e0 6 ans et enseignent la reconnaissance de motifs et la pens\u00e9e logique. Les petits de maternelle commencent par des suites AB avec beaucoup d\u2019indices. Les grands de maternelle et les \u00e9l\u00e8ves de CP travaillent sur des suites plus complexes.',
+      },
+      {
+        id: 'faq-4',
+        question: 'Peut-on choisir les images pour les wagons du train ?',
+        answer: 'Oui, vous pouvez assigner automatiquement les images par th\u00e8me ou s\u00e9lectionner manuellement chaque \u00e9l\u00e9ment parmi plus de 3000 illustrations. La s\u00e9lection automatique cr\u00e9e des ensembles coh\u00e9rents par th\u00e8me. La s\u00e9lection manuelle offre un contr\u00f4le total sur chaque image.',
+      },
+      {
+        id: 'faq-5',
+        question: 'Combien de wagons peut-on mettre par train ?',
+        answer: 'La longueur du train est personnalisable avec un nombre d\u2019indices r\u00e9glable de 4 \u00e0 10. Plus d\u2019indices rendent la fiche maternelle plus facile pour les jeunes enfants. Moins d\u2019indices augmentent la difficult\u00e9 en laissant plus de wagons vides \u00e0 compl\u00e9ter.',
+      },
+    ],
+
   },
 
   // Pricing

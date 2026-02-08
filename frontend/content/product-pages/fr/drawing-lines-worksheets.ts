@@ -187,10 +187,36 @@ Le fichier se télécharge sur votre ordinateur. Imprimez directement sur votre 
     badgeText: 'FAQ',
     readMoreLabel: 'Lire la suite',
     showLessLabel: 'Voir moins',
-    secureCheckout: 'Paiement sécurisé',
-    cancelAnytime: 'Résiliez à tout moment',
-    items: [], // Samples loaded dynamically from content manager
-    
+    secureCheckout: 'Paiement s\u00e9curis\u00e9',
+    cancelAnytime: 'R\u00e9siliez \u00e0 tout moment',
+    items: [
+      {
+        id: 'faq-1',
+        question: 'Comment fonctionne le g\u00e9n\u00e9rateur de fiches de graphisme ?',
+        answer: 'Le g\u00e9n\u00e9rateur cr\u00e9e des fiches o\u00f9 les \u00e9l\u00e8ves relient des images identiques en tra\u00e7ant des lignes. Huit mod\u00e8les de trac\u00e9 sont disponibles : courbes, diagonales, lignes horizontales et verticales. Les images sont plac\u00e9es de chaque c\u00f4t\u00e9 de la fiche et les enfants s\'exercent au contr\u00f4le du crayon en suivant le parcours.',
+      },
+      {
+        id: 'faq-2',
+        question: 'Quels types d\'exercices de trac\u00e9 sont propos\u00e9s ?',
+        answer: 'Les fiches proposent des lignes droites horizontales et verticales, des lignes courbes, des parcours en zigzag et des diagonales entre les images. Chaque mod\u00e8le d\u00e9veloppe un aspect diff\u00e9rent de la motricit\u00e9 fine. Les mod\u00e8les courbes pr\u00e9parent \u00e0 l\'\u00e9criture cursive, tandis que les diagonales travaillent l\'inclinaison du geste.',
+      },
+      {
+        id: 'faq-3',
+        question: '\u00c0 quel \u00e2ge sont destin\u00e9es les fiches de graphisme ?',
+        answer: 'Les fiches de graphisme sont con\u00e7ues pour les enfants de 3 \u00e0 6 ans, de la petite section \u00e0 la grande section de maternelle. Elles d\u00e9veloppent la motricit\u00e9 fine, la coordination \u0153il-main et les comp\u00e9tences de pr\u00e9-\u00e9criture indispensables avant l\'apprentissage de l\'\u00e9criture cursive au CP.',
+      },
+      {
+        id: 'faq-4',
+        question: 'Peut-on personnaliser le nombre de lignes par fiche ?',
+        answer: 'Oui, selon le mod\u00e8le choisi, les fiches contiennent de 3 \u00e0 10 paires d\'images \u00e0 relier. Les mod\u00e8les portrait offrent g\u00e9n\u00e9ralement 4 \u00e0 5 paires, tandis que les mod\u00e8les paysage proposent 4 paires avec plus d\'espace horizontal. Vous pouvez \u00e9galement d\u00e9placer les \u00e9l\u00e9ments sur le canevas pour ajuster la mise en page.',
+      },
+      {
+        id: 'faq-5',
+        question: 'Quels th\u00e8mes d\'images sont disponibles ?',
+        answer: 'Notre biblioth\u00e8que contient plus de 3000 images r\u00e9parties dans plus de 50 cat\u00e9gories : animaux, fruits, v\u00e9hicules, formes g\u00e9om\u00e9triques, lettres de l\'alphabet et bien d\'autres. Vous pouvez aussi t\u00e9l\u00e9verser vos propres images pour cr\u00e9er des fiches de graphisme personnalis\u00e9es en lien avec votre programme.',
+      },
+    ],
+
   },
 
   // Pricing

@@ -201,13 +201,39 @@ Générez également le corrigé en un seul clic depuis le menu. La fiche répon
     badgeText: 'FAQ',
     readMoreLabel: 'Lire la suite',
     showLessLabel: 'Voir moins',
-    secureCheckout: 'Paiement sécurisé',
-    cancelAnytime: 'Résiliez à tout moment',
-    items: [], // Samples loaded dynamically from content manager
-    
+    secureCheckout: 'Paiement s\u00e9curis\u00e9',
+    cancelAnytime: 'R\u00e9siliez \u00e0 tout moment',
+    items: [
+      {
+        id: 'faq-1',
+        question: 'Comment fonctionne le g\u00e9n\u00e9rateur de graphiques en images ?',
+        answer: 'Le g\u00e9n\u00e9rateur cr\u00e9e des fiches avec une grille de 20 images r\u00e9parties en 6 cat\u00e9gories et un tableau de comptage vide. Les \u00e9l\u00e8ves comptent combien de fois chaque image appara\u00eet dans la grille, puis colorient le nombre de cases correspondant dans le tableau. Cette m\u00e9thode visuelle enseigne la repr\u00e9sentation des donn\u00e9es de mani\u00e8re ludique.',
+      },
+      {
+        id: 'faq-2',
+        question: 'Quels types d\'exercices de comptage sont disponibles ?',
+        answer: 'Les fiches proposent trois types d\'activit\u00e9s principales : compter les objets dans la grille d\'images, remplir un tableau en coloriant les cases correspondantes, et comparer les quantit\u00e9s entre diff\u00e9rentes cat\u00e9gories. Chaque activit\u00e9 d\u00e9veloppe les comp\u00e9tences en num\u00e9ration et en lecture de diagrammes.',
+      },
+      {
+        id: 'faq-3',
+        question: '\u00c0 quel niveau scolaire sont destin\u00e9es ces fiches ?',
+        answer: 'Les graphiques en images conviennent aux \u00e9l\u00e8ves de maternelle grande section et de CP, travaillant g\u00e9n\u00e9ralement avec les nombres de 1 \u00e0 20. La grille contient 20 images r\u00e9parties en 6 cat\u00e9gories, chaque cat\u00e9gorie apparaissant entre 1 et 5 fois. Cette plage est id\u00e9ale pour l\'apprentissage du comptage et de la repr\u00e9sentation graphique.',
+      },
+      {
+        id: 'faq-4',
+        question: 'Puis-je personnaliser le contenu des graphiques ?',
+        answer: 'Oui, vous pouvez s\u00e9lectionner un th\u00e8me complet pour un remplissage automatique, choisir 6 images individuellement dans la biblioth\u00e8que de 3000 illustrations, ou t\u00e9l\u00e9verser vos propres images. Le format de page, la couleur de fond et les bordures d\u00e9coratives sont \u00e9galement personnalisables.',
+      },
+      {
+        id: 'faq-5',
+        question: 'Les fiches sont-elles disponibles en couleur et en noir et blanc ?',
+        answer: 'Oui, l\'option niveaux de gris permet de convertir les fiches en noir et blanc avant le t\u00e9l\u00e9chargement. Cette fonctionnalit\u00e9 est id\u00e9ale pour \u00e9conomiser l\'encre couleur lors de l\'impression en grande quantit\u00e9. Les images restent parfaitement reconnaissables et les cases du tableau se colorient facilement en noir et blanc.',
+      },
+    ],
+
   },
 
-  // Pricing - Accès Complet tier for Chart Count
+  // Pricing - Acc\u00e8s Complet tier for Chart Count
   pricing: {
     title: 'Accès Complet',
     price: '240€',

@@ -18,8 +18,8 @@ export const cryptogramFrContent: ProductPageContent = {
   seo: {
     slug: 'cryptogramme-images-fiches',
     appId: 'cryptogram',
-    title: 'Cryptogramme en Images | Fiches Maternelle et Exercices CP pour',
-    description: 'Créez des cryptogrammes en images professionnels avec notre générateur de fiches à imprimer gratuit. Votre abonnement Accès Complet à 240 € par an vous permet.',
+    title: 'Cryptogramme en Images Fiches Gratuites | Maternelle CP',
+    description: 'Cr\u00e9ez des cryptogrammes en images avec 3 000+ images. G\u00e9n\u00e9rateur gratuit pour maternelle et CP. T\u00e9l\u00e9chargez des fiches \u00e0 imprimer en PDF haute qualit\u00e9.',
     keywords: 'cryptogramme en images, fiches maternelle, exercices CP, fiches à imprimer gratuit, apprendre à lire, fiches alphabet, graphisme maternelle, exercices maths, apprendre les lettres, coloriage à imprimer, écriture cursive, tables de multiplication, exercices CE1',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fr/apps/cryptogramme-images-fiches',
       },
@@ -194,13 +194,39 @@ Cochez la case Niveaux de Gris avant de télécharger pour économiser l'encre d
     badgeText: 'FAQ',
     readMoreLabel: 'Lire la suite',
     showLessLabel: 'Voir moins',
-    secureCheckout: 'Paiement sécurisé',
-    cancelAnytime: 'Résiliez à tout moment',
-    items: [], // Samples loaded dynamically from content manager
-    
+    secureCheckout: 'Paiement s\u00e9curis\u00e9',
+    cancelAnytime: 'R\u00e9siliez \u00e0 tout moment',
+    items: [
+      {
+        id: 'faq-1',
+        question: 'Comment fonctionne le g\u00e9n\u00e9rateur de cryptogrammes en images ?',
+        answer: 'Vous tapez une ou plusieurs phrases, puis assignez une image \u00e0 chaque lettre utilis\u00e9e. Le g\u00e9n\u00e9rateur cr\u00e9e un puzzle de d\u00e9codage o\u00f9 les \u00e9l\u00e8ves doivent retrouver les lettres cach\u00e9es derri\u00e8re les images. Une l\u00e9gende affiche toutes les correspondances image-lettre pour guider le d\u00e9chiffrage.',
+      },
+      {
+        id: 'faq-2',
+        question: 'Quelles tranches d\'\u00e2ge b\u00e9n\u00e9ficient des cryptogrammes ?',
+        answer: 'Les cryptogrammes en images conviennent aux enfants de la maternelle grande section au CE1, soit environ de 5 \u00e0 8 ans. Pour les plus jeunes, utilisez des phrases courtes avec des mots simples. Pour les \u00e9l\u00e8ves plus avanc\u00e9s, augmentez la longueur des phrases et r\u00e9duisez le nombre d\'indices.',
+      },
+      {
+        id: 'faq-3',
+        question: 'Peut-on choisir quelles lettres sont r\u00e9v\u00e9l\u00e9es comme indices ?',
+        answer: 'Oui, le param\u00e8tre R\u00e8gles du Puzzle permet de d\u00e9finir le nombre de lettres d\u00e9j\u00e0 r\u00e9v\u00e9l\u00e9es dans le cryptogramme. Par d\u00e9faut, trois lettres sont montr\u00e9es pour aider les enfants \u00e0 d\u00e9marrer. Vous pouvez augmenter ce nombre pour faciliter l\'exercice ou le r\u00e9duire pour un d\u00e9fi plus important.',
+      },
+      {
+        id: 'faq-4',
+        question: 'Combien de phrases peut-on mettre par fiche ?',
+        answer: 'Vous pouvez taper jusqu\'\u00e0 8 lignes de phrases par fiche de cryptogramme. Le g\u00e9n\u00e9rateur enveloppe automatiquement le texte \u00e0 15 caract\u00e8res par ligne pour une mise en page optimale. Pour les fiches maternelle, pr\u00e9f\u00e9rez des phrases courtes de 3 \u00e0 8 mots pour une difficult\u00e9 adapt\u00e9e.',
+      },
+      {
+        id: 'faq-5',
+        question: 'Peut-on utiliser des images personnalis\u00e9es dans les cryptogrammes ?',
+        answer: 'Oui, vous pouvez t\u00e9l\u00e9verser vos propres images et les assigner aux lettres de votre choix. Il est aussi possible de combiner des images personnalis\u00e9es avec celles de notre biblioth\u00e8que de plus de 3000 illustrations. Les images personnalis\u00e9es rendent les cryptogrammes plus pertinents pour votre classe.',
+      },
+    ],
+
   },
 
-  // Pricing - FULL ACCESS (€240/an)
+  // Pricing - FULL ACCESS (\u20ac240/an)
   pricing: {
     title: 'Accès Complet',
     price: '240€',

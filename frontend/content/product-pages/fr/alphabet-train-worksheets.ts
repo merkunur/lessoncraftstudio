@@ -16,7 +16,7 @@ export const alphabetTrainFrContent: ProductPageContent = {
     slug: 'train-alphabet-fiches',
     appId: 'alphabet-train',
     title: 'Fiches Alphabet à Imprimer Gratuit | Générateur Train Alphabet',
-    description: 'Créez des fiches alphabet professionnelles avec notre générateur de train alphabet. Téléchargez vos fiches maternelle en PDF haute qualité en moins de 3.',
+    description: 'Cr\u00e9ez des fiches alphabet professionnelles avec notre g\u00e9n\u00e9rateur de train alphabet. T\u00e9l\u00e9chargez vos fiches maternelle en PDF haute qualit\u00e9 en moins de 3 minutes.',
     keywords: 'fiches alphabet, fiches maternelle, apprendre les lettres, fiches à imprimer gratuit, exercices CP, exercices CE1, train alphabet, générateur fiches, graphisme maternelle, coloriage à imprimer',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fr/apps/train-alphabet-fiches',
       },
@@ -189,10 +189,36 @@ Imprimez votre fiche alphabet immédiatement ou sauvegardez-la pour une utilisat
     badgeText: 'FAQ',
     readMoreLabel: 'Lire la suite',
     showLessLabel: 'Voir moins',
-    secureCheckout: 'Paiement sécurisé',
-    cancelAnytime: 'Résiliez à tout moment',
-    items: [], // Samples loaded dynamically from content manager
-    
+    secureCheckout: 'Paiement s\u00e9curis\u00e9',
+    cancelAnytime: 'R\u00e9siliez \u00e0 tout moment',
+    items: [
+      {
+        id: 'faq-1',
+        question: 'Comment fonctionne le g\u00e9n\u00e9rateur de fiches train alphabet ?',
+        answer: 'Le g\u00e9n\u00e9rateur cr\u00e9e des trains color\u00e9s avec onze wagons, chacun contenant une lettre de l\'alphabet en majuscule ou minuscule. Les \u00e9l\u00e8ves associent des images aux lettres correspondantes, d\u00e9coupent et collent les \u00e9tiquettes, ou compl\u00e8tent les lettres manquantes. L\'outil prend en charge onze langues avec les caract\u00e8res sp\u00e9ciaux adapt\u00e9s \u00e0 chaque alphabet.',
+      },
+      {
+        id: 'faq-2',
+        question: 'Quelles activit\u00e9s sur les lettres sont disponibles ?',
+        answer: 'Plusieurs types d\'exercices sont propos\u00e9s : compl\u00e9ter les lettres manquantes dans l\'ordre alphab\u00e9tique, remettre les lettres dans le bon ordre, et faire correspondre les majuscules aux minuscules. Vous pouvez \u00e9galement ajuster le nombre d\'indices pour moduler la difficult\u00e9 de chaque fiche alphabet.',
+      },
+      {
+        id: 'faq-3',
+        question: 'Puis-je choisir des lettres sp\u00e9cifiques pour la fiche ?',
+        answer: 'Oui, vous s\u00e9lectionnez exactement onze lettres parmi l\'alphabet affich\u00e9. Choisissez des lettres cons\u00e9cutives comme A \u00e0 K pour un apprentissage s\u00e9quentiel, ou des lettres al\u00e9atoires pour des fiches de r\u00e9vision. L\'option de cr\u00e9ation automatique permet aussi de g\u00e9n\u00e9rer des fiches rapidement avec une s\u00e9lection al\u00e9atoire.',
+      },
+      {
+        id: 'faq-4',
+        question: 'Le train alphabet est-il adapt\u00e9 aux enfants de maternelle ?',
+        answer: 'Absolument, le train alphabet a \u00e9t\u00e9 sp\u00e9cialement con\u00e7u pour les enfants de 3 \u00e0 6 ans. Le design ludique du train rend l\'apprentissage de l\'alphabet amusant et engageant. La difficult\u00e9 progressive permet d\'adapter les fiches de la petite section \u00e0 la grande section de maternelle.',
+      },
+      {
+        id: 'faq-5',
+        question: 'Peut-on ajouter des images dans les wagons du train ?',
+        answer: 'Oui, chaque lettre peut \u00eatre associ\u00e9e \u00e0 une image de notre biblioth\u00e8que de plus de 3000 illustrations class\u00e9es par th\u00e8me. Le syst\u00e8me associe automatiquement les images aux lettres selon la premi\u00e8re lettre du nom de l\'image. Vous pouvez aussi t\u00e9l\u00e9verser vos propres images pour des connexions th\u00e9matiques personnalis\u00e9es.',
+      },
+    ],
+
   },
 
   // Pricing

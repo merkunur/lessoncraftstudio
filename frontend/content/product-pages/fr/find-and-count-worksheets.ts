@@ -192,8 +192,34 @@ Téléchargez fiche et corrigé en un seul clic. La qualité 300 DPI garantit de
     showLessLabel: 'Voir moins',
     secureCheckout: 'Paiement sécurisé',
     cancelAnytime: 'Résiliez à tout moment',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: 'faq-1',
+        question: 'Comment fonctionne le g\u00e9n\u00e9rateur de fiches cherche et compte ?',
+        answer: 'Le g\u00e9n\u00e9rateur cr\u00e9e des grilles remplies d\u2019images th\u00e9matiques dans lesquelles les \u00e9l\u00e8ves doivent trouver et compter des objets sp\u00e9cifiques. Vous s\u00e9lectionnez les images \u00e0 chercher, le g\u00e9n\u00e9rateur les place al\u00e9atoirement parmi d\u2019autres illustrations, et des questions de d\u00e9nombrement sont ajout\u00e9es automatiquement sous la grille.',
+      },
+      {
+        id: 'faq-2',
+        question: 'Quelles plages de comptage sont disponibles pour les fiches cherche et compte ?',
+        answer: 'Les plages de comptage sont personnalisables de 1 \u00e0 20, ce qui convient parfaitement aux \u00e9l\u00e8ves de maternelle et de CP. Vous pouvez ajuster la taille de la grille pour contr\u00f4ler la quantit\u00e9 d\u2019objets \u00e0 trouver. Les grilles plus petites facilitent le d\u00e9nombrement pour les d\u00e9butants.',
+      },
+      {
+        id: 'faq-3',
+        question: 'Puis-je choisir quelles images les \u00e9l\u00e8ves doivent chercher ?',
+        answer: 'Oui, vous s\u00e9lectionnez pr\u00e9cis\u00e9ment les images \u00e0 chercher parmi notre biblioth\u00e8que de plus de 3000 illustrations th\u00e9matiques. Vous pouvez \u00e9galement t\u00e9l\u00e9verser vos propres images personnalis\u00e9es pour cr\u00e9er des fiches maternelle adapt\u00e9es \u00e0 votre programme.',
+      },
+      {
+        id: 'faq-4',
+        question: 'Combien d\u2019images diff\u00e9rentes peut-on chercher par fiche ?',
+        answer: 'Vous pouvez d\u00e9finir de 1 \u00e0 4 images diff\u00e9rentes \u00e0 chercher et compter par page. Chaque image g\u00e9n\u00e8re automatiquement une question de d\u00e9nombrement avec son illustration correspondante. Moins d\u2019images conviennent aux d\u00e9butants, plus d\u2019images augmentent la difficult\u00e9.',
+      },
+      {
+        id: 'faq-5',
+        question: 'Les corrig\u00e9s sont-ils inclus avec les fiches cherche et compte ?',
+        answer: 'Oui, chaque fiche g\u00e9n\u00e8re automatiquement un corrig\u00e9 avec le nombre exact de chaque type d\u2019image pr\u00e9sent dans la grille. Les enseignants peuvent corriger rapidement les fiches \u00e0 imprimer gratuit et les parents v\u00e9rifient facilement le travail \u00e0 la maison.',
+      },
+    ],
+
   },
 
   // Pricing - Pack Essentiel for Find and Count

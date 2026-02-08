@@ -17,7 +17,7 @@ export const pictureSortFrContent: ProductPageContent = {
   seo: {
     slug: 'tri-images-fiches',
     appId: 'picture-sort',
-    title: 'Fiches de Tri d\'Images - Générateur de Fiches Maternelle pour',
+    title: 'Tri d\u2019Images Fiches Gratuites | G\u00e9n\u00e9rateur Maternelle CP',
     description: 'Créez des fiches de tri d\'images gratuites pour maternelle et CP. Générateur professionnel avec corrigés inclus. Téléchargez en PDF haute qualité en 3 min.',
     keywords: 'fiches à imprimer gratuit, fiches maternelle, exercices CP, tri images, graphisme maternelle, exercices maths, coloriage à imprimer, apprendre à lire, alphabet, écriture cursive, tables de multiplication, fiche gratuite pour enfants, imprimables gratuits, fiche pour enfants',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fr/apps/tri-images-fiches',
@@ -34,7 +34,7 @@ Les activités de tri d'images développent la pensée logique chez les jeunes e
 L'interface intuitive permet de créer des fiches à imprimer gratuit adaptées à vos besoins pédagogiques. Sélectionnez des thèmes automatiquement ou choisissez manuellement jusqu'à 12 images. Ajustez la mise en page selon le format Letter ou A4. Personnalisez chaque élément sur le canevas avec une édition complète.
 
 Notre générateur s'adresse aux enseignants de maternelle GS, CP et CE1. Les fiches de tri conviennent parfaitement aux activités de graphisme maternelle et de reconnaissance visuelle. Utilisez-les pour enseigner les catégories, les comparaisons et la classification logique. Chaque fiche téléchargeable inclut des instructions claires et un corrigé détaillé.`,
-    previewImageSrc: '/samples/french/picture sort/sample-1.jpeg',
+    previewImageSrc: '/samples/french/picture-sort/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Essayer Gratuitement',
       viewSamples: 'Voir les Exemples',
@@ -203,8 +203,34 @@ Ouvrez le fichier PDF téléchargé et imprimez selon vos besoins. Imprimez un e
     showLessLabel: 'Voir moins',
     secureCheckout: 'Paiement sécurisé',
     cancelAnytime: 'Résiliez à tout moment',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: 'faq-1',
+        question: 'Comment fonctionne le g\u00e9n\u00e9rateur de tri d\'images ?',
+        answer: 'Le g\u00e9n\u00e9rateur cr\u00e9e des exercices de classement o\u00f9 les \u00e9l\u00e8ves trient des images en deux cat\u00e9gories distinctes. Les enfants d\u00e9coupent les images et les placent dans la bonne cat\u00e9gorie, d\u00e9veloppant ainsi la pens\u00e9e logique et les comp\u00e9tences de classification.',
+      },
+      {
+        id: 'faq-2',
+        question: 'Combien d\'images peut-on utiliser par fiche de tri ?',
+        answer: 'Vous pouvez utiliser jusqu\'\u00e0 12 images \u00e0 trier en 2 cat\u00e9gories sur chaque fiche. Le g\u00e9n\u00e9rateur \u00e9quilibre automatiquement la r\u00e9partition des images entre les deux cat\u00e9gories pour cr\u00e9er un exercice bien structur\u00e9.',
+      },
+      {
+        id: 'faq-3',
+        question: 'Quels crit\u00e8res de tri peut-on utiliser ?',
+        answer: 'Les crit\u00e8res de tri sont enti\u00e8rement personnalisables : cat\u00e9gorie (animaux de la ferme vs animaux marins), couleur, taille, fonction, habitat et bien d\'autres. Vous choisissez les deux th\u00e8mes de classement qui correspondent \u00e0 vos objectifs p\u00e9dagogiques.',
+      },
+      {
+        id: 'faq-4',
+        question: 'Pour quelle tranche d\'\u00e2ge ces fiches sont-elles adapt\u00e9es ?',
+        answer: 'Les fiches de tri d\'images conviennent aux enfants de 3 \u00e0 7 ans, de la petite section de maternelle au CP. Elles d\u00e9veloppent la classification, la pens\u00e9e logique et la reconnaissance visuelle de mani\u00e8re progressive.',
+      },
+      {
+        id: 'faq-5',
+        question: 'Les corrig\u00e9s sont-ils inclus avec les fiches de tri ?',
+        answer: 'Oui, chaque fiche de tri g\u00e9n\u00e8re automatiquement un corrig\u00e9 montrant les images correctement class\u00e9es dans leurs cat\u00e9gories respectives. Ce corrig\u00e9 permet l\'auto-correction par les \u00e9l\u00e8ves ou une v\u00e9rification rapide par l\'enseignant.',
+      },
+    ],
+
   },
 
   // Pricing - Accès Complet Bundle for Picture Sort

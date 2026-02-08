@@ -173,8 +173,34 @@ L'abonnement Accès Complet coûte 240 € par an ou 25 € par mois. Vous accé
     showLessLabel: 'Voir moins',
     secureCheckout: 'Paiement sécurisé',
     cancelAnytime: 'Résiliez à tout moment',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: 'faq-1',
+        question: 'Comment fonctionne le g\u00e9n\u00e9rateur de fiches sur les pr\u00e9positions ?',
+        answer: 'Le g\u00e9n\u00e9rateur cr\u00e9e des exercices sur les relations spatiales en utilisant des images color\u00e9es. Les \u00e9l\u00e8ves identifient la position des objets et compl\u00e8tent la pr\u00e9position correcte, soit en texte \u00e0 trou, soit en choix multiples.',
+      },
+      {
+        id: 'faq-2',
+        question: 'Quelles pr\u00e9positions sont couvertes par le g\u00e9n\u00e9rateur ?',
+        answer: 'Le g\u00e9n\u00e9rateur couvre les pr\u00e9positions spatiales essentielles du fran\u00e7ais : sur, sous, dans, devant, derri\u00e8re, \u00e0 c\u00f4t\u00e9 de, entre, au-dessus et en dessous. Vous cochez les pr\u00e9positions que vous souhaitez travailler avec vos \u00e9l\u00e8ves pour chaque fiche.',
+      },
+      {
+        id: 'faq-3',
+        question: 'Pour quelle tranche d\'\u00e2ge ces fiches sont-elles con\u00e7ues ?',
+        answer: 'Les fiches sur les pr\u00e9positions sont con\u00e7ues pour les enfants de 4 \u00e0 7 ans, de la moyenne section de maternelle au CP. Elles d\u00e9veloppent simultan\u00e9ment les comp\u00e9tences linguistiques et la conscience spatiale de mani\u00e8re ludique.',
+      },
+      {
+        id: 'faq-4',
+        question: 'Puis-je choisir les images utilis\u00e9es dans les exercices ?',
+        answer: 'Oui, vous pouvez s\u00e9lectionner des images parmi plus de 3 000 illustrations organis\u00e9es par th\u00e8mes comme les animaux, les jouets ou les objets scolaires. Vous pouvez \u00e9galement t\u00e9l\u00e9verser vos propres photos pour des exercices personnalis\u00e9s.',
+      },
+      {
+        id: 'faq-5',
+        question: 'Les fiches sont-elles disponibles en plusieurs langues ?',
+        answer: 'Oui, le g\u00e9n\u00e9rateur de pr\u00e9positions est disponible en 11 langues, chacune enti\u00e8rement localis\u00e9e avec les pr\u00e9positions sp\u00e9cifiques \u00e0 la langue. C\'est id\u00e9al pour les classes bilingues ou l\'enseignement du fran\u00e7ais langue \u00e9trang\u00e8re.',
+      },
+    ],
+
   },
 
   // Related Apps Section

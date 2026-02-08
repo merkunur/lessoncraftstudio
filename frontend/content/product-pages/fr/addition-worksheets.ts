@@ -187,10 +187,36 @@ Activez le mode niveaux de gris avant de télécharger pour économiser l'encre.
     badgeText: 'FAQ',
     readMoreLabel: 'Lire la suite',
     showLessLabel: 'Voir moins',
-    secureCheckout: 'Paiement sécurisé',
-    cancelAnytime: 'Résiliez à tout moment',
-    items: [], // Samples loaded dynamically from content manager
-    
+    secureCheckout: 'Paiement s\u00e9curis\u00e9',
+    cancelAnytime: 'R\u00e9siliez \u00e0 tout moment',
+    items: [
+      {
+        id: 'faq-1',
+        question: 'Comment fonctionne le g\u00e9n\u00e9rateur de fiches d\'addition avec images ?',
+        answer: 'Notre g\u00e9n\u00e9rateur propose cinq modes d\'exercices diff\u00e9rents : image + image, image + nombre, nombre + image, trouver l\'addend manquant et mode mixte. Chaque mode utilise des images color\u00e9es pour illustrer les op\u00e9rations d\'addition, ce qui rend l\'apprentissage visuel et concret. Les \u00e9l\u00e8ves comptent les objets repr\u00e9sent\u00e9s puis \u00e9crivent le r\u00e9sultat de l\'addition.',
+      },
+      {
+        id: 'faq-2',
+        question: '\u00c0 quel \u00e2ge et quel niveau scolaire sont destin\u00e9es les fiches d\'addition ?',
+        answer: 'Les fiches d\'addition sont con\u00e7ues pour les enfants de la maternelle au CE1, soit environ de 4 \u00e0 8 ans. Vous pouvez ajuster les plages de nombres pour adapter la difficult\u00e9 : des nombres de 1 \u00e0 5 pour la maternelle, de 1 \u00e0 10 pour le CP, et jusqu\'\u00e0 20 pour le CE1. Cette flexibilit\u00e9 permet de suivre la progression de chaque \u00e9l\u00e8ve.',
+      },
+      {
+        id: 'faq-3',
+        question: 'Puis-je personnaliser la difficult\u00e9 des exercices d\'addition ?',
+        answer: 'Oui, vous avez un contr\u00f4le total sur la difficult\u00e9. D\u00e9finissez les valeurs minimales et maximales des op\u00e9randes, choisissez le nombre d\'exercices par fiche (de 1 \u00e0 10), et s\u00e9lectionnez le mode d\'exercice souhait\u00e9. Ces param\u00e8tres permettent de cr\u00e9er des fiches parfaitement adapt\u00e9es au niveau de vos \u00e9l\u00e8ves.',
+      },
+      {
+        id: 'faq-4',
+        question: 'Les fiches d\'addition incluent-elles un corrig\u00e9 ?',
+        answer: 'Oui, chaque fiche d\'addition g\u00e9n\u00e8re automatiquement un corrig\u00e9 correspondant. Le corrig\u00e9 reprend la m\u00eame mise en page que la fiche \u00e9l\u00e8ve avec toutes les r\u00e9ponses compl\u00e9t\u00e9es. Vous pouvez t\u00e9l\u00e9charger la fiche et le corrig\u00e9 s\u00e9par\u00e9ment en format PDF ou JPEG.',
+      },
+      {
+        id: 'faq-5',
+        question: 'Quels th\u00e8mes d\'images sont disponibles pour les fiches d\'addition ?',
+        answer: 'Notre biblioth\u00e8que contient plus de 3000 images r\u00e9parties dans plus de 50 cat\u00e9gories th\u00e9matiques : animaux, v\u00e9hicules, fruits, saisons, f\u00eates et bien d\'autres. Vous pouvez \u00e9galement t\u00e9l\u00e9verser vos propres images personnalis\u00e9es pour cr\u00e9er des fiches d\'addition uniques, parfaitement adapt\u00e9es \u00e0 votre programme scolaire.',
+      },
+    ],
+
   },
 
   // Pricing

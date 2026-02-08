@@ -190,8 +190,34 @@ Activez le mode niveaux de gris avant de télécharger pour économiser l'encre 
     showLessLabel: 'Voir moins',
     secureCheckout: 'Paiement sécurisé',
     cancelAnytime: 'Résiliez à tout moment',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: 'faq-1',
+        question: 'Comment fonctionne le g\u00e9n\u00e9rateur de puzzles maths ?',
+        answer: 'Le g\u00e9n\u00e9rateur cr\u00e9e des \u00e9quations visuelles o\u00f9 chaque image repr\u00e9sente un nombre secret. Les \u00e9l\u00e8ves analysent les \u00e9quations pour d\u00e9couvrir la valeur cach\u00e9e de chaque symbole. Cette approche de d\u00e9codage transforme les exercices maths en \u00e9nigmes passionnantes.',
+      },
+      {
+        id: 'faq-2',
+        question: 'Quelles op\u00e9rations math\u00e9matiques sont support\u00e9es ?',
+        answer: 'Le g\u00e9n\u00e9rateur propose l\u2019addition seule ou l\u2019addition et la soustraction combin\u00e9es. Vous pouvez configurer les plages de nombres et activer les r\u00e9sultats n\u00e9gatifs pour les \u00e9l\u00e8ves avanc\u00e9s. Les op\u00e9rations s\u2019adaptent aux programmes de maternelle, CP et CE1.',
+      },
+      {
+        id: 'faq-3',
+        question: 'Peut-on ajuster la difficult\u00e9 des puzzles maths ?',
+        answer: 'Oui, quatre niveaux de difficult\u00e9 sont disponibles. Le mode tr\u00e8s facile utilise deux symboles pour les d\u00e9butants de maternelle. Le mode difficile pr\u00e9sente quatre symboles et des op\u00e9rations mixtes pour les exercices CE1 avanc\u00e9s.',
+      },
+      {
+        id: 'faq-4',
+        question: 'Comment fonctionne le syst\u00e8me de d\u00e9codage par symboles ?',
+        answer: 'Chaque image de la fiche repr\u00e9sente un nombre que l\u2019\u00e9l\u00e8ve doit d\u00e9couvrir en r\u00e9solvant les \u00e9quations. Les enfants utilisent la logique et le calcul pour d\u00e9terminer la valeur de chaque symbole. Les r\u00e9ponses correctes r\u00e9v\u00e8lent le code secret du puzzle.',
+      },
+      {
+        id: 'faq-5',
+        question: 'Pour quels niveaux scolaires les puzzles maths sont-ils adapt\u00e9s ?',
+        answer: 'Les puzzles maths conviennent de la maternelle au CE1 avec une complexit\u00e9 progressive. Les fiches maternelle utilisent des nombres simples et peu de symboles. Les exercices CP et CE1 int\u00e8grent des op\u00e9rations plus complexes avec des plages de nombres \u00e9largies.',
+      },
+    ],
+
   },
 
   // Pricing

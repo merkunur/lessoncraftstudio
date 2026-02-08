@@ -184,8 +184,34 @@ Activez le mode niveaux de gris avant de télécharger pour économiser l'encre.
     showLessLabel: 'Voir moins',
     secureCheckout: 'Paiement sécurisé',
     cancelAnytime: 'Résiliez à tout moment',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: 'faq-1',
+        question: 'Comment fonctionne le g\u00e9n\u00e9rateur de mots m\u00eal\u00e9s ?',
+        answer: 'Le g\u00e9n\u00e9rateur cr\u00e9e des grilles de mots m\u00eal\u00e9s o\u00f9 les \u00e9l\u00e8ves cherchent des mots de vocabulaire cach\u00e9s parmi des lettres al\u00e9atoires. Chaque mot peut \u00eatre accompagn\u00e9 d\'une image pour faciliter l\'identification.',
+      },
+      {
+        id: 'faq-2',
+        question: 'Quelles tailles de grille peut-on cr\u00e9er ?',
+        answer: 'Les grilles sont enti\u00e8rement personnalisables de 5\u00d75 \u00e0 30\u00d730 cases, avec des directions configurables : horizontale, verticale, diagonale et invers\u00e9e. D\u00e9sactivez la diagonale et l\'inversion pour les lecteurs d\u00e9butants.',
+      },
+      {
+        id: 'faq-3',
+        question: 'Peut-on saisir ses propres listes de mots ?',
+        answer: 'Oui, vous pouvez taper des mots personnalis\u00e9s ou s\u00e9lectionner parmi des listes th\u00e9matiques pr\u00e9d\u00e9finies avec images. Vous pouvez \u00e9galement t\u00e9l\u00e9verser vos propres images dont les noms de fichier deviennent les mots \u00e0 chercher.',
+      },
+      {
+        id: 'faq-4',
+        question: 'Pour quels niveaux scolaires ces fiches conviennent-elles ?',
+        answer: 'Les mots m\u00eal\u00e9s conviennent du CP au CE2, parfaits pour la reconnaissance du vocabulaire et l\'orthographe. Ajustez la taille de la grille et les directions des mots pour adapter la difficult\u00e9 \u00e0 chaque niveau.',
+      },
+      {
+        id: 'faq-5',
+        question: 'Les grilles de solution sont-elles incluses ?',
+        answer: 'Oui, chaque grille de mots m\u00eal\u00e9s g\u00e9n\u00e8re automatiquement une fiche de correction avec les mots cach\u00e9s surlign\u00e9s en couleurs diff\u00e9rentes. T\u00e9l\u00e9chargez la solution en PDF ou JPEG pour une correction rapide.',
+      },
+    ],
+
   },
 
   // Pricing

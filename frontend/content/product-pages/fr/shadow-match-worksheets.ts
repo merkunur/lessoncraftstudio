@@ -205,8 +205,34 @@ Cochez "Niveaux de gris" avant de télécharger pour économiser l'encre d'impri
     showLessLabel: 'Voir moins',
     secureCheckout: 'Paiement sécurisé',
     cancelAnytime: 'Résiliez à tout moment',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: 'faq-1',
+        question: 'Comment fonctionne le g\u00e9n\u00e9rateur d\'association d\'ombres ?',
+        answer: 'Le g\u00e9n\u00e9rateur cr\u00e9e des exercices o\u00f9 les enfants associent des images en couleur \u00e0 leurs silhouettes noires correspondantes. Les images color\u00e9es s\'affichent d\'un c\u00f4t\u00e9 et les ombres de l\'autre, les \u00e9l\u00e8ves tracent des lignes pour relier chaque paire.',
+      },
+      {
+        id: 'faq-2',
+        question: 'Combien de paires d\'ombres peut-on mettre par fiche ?',
+        answer: 'Vous pouvez cr\u00e9er des fiches avec 3 \u00e0 8 paires d\'images et leurs ombres correspondantes. Le nombre de paires est personnalisable pour adapter la difficult\u00e9 au niveau de vos \u00e9l\u00e8ves de maternelle.',
+      },
+      {
+        id: 'faq-3',
+        question: 'Quelles comp\u00e9tences ces fiches d\u00e9veloppent-elles ?',
+        answer: 'Les fiches d\'association d\'ombres d\u00e9veloppent la discrimination visuelle, la reconnaissance des formes et l\'observation attentive. Ces comp\u00e9tences sont essentielles pour pr\u00e9parer les enfants \u00e0 la lecture et \u00e0 l\'\u00e9criture en maternelle.',
+      },
+      {
+        id: 'faq-4',
+        question: 'Pour quelle tranche d\'\u00e2ge ces fiches sont-elles adapt\u00e9es ?',
+        answer: 'Les fiches d\'ombres sont con\u00e7ues pour les enfants de 3 \u00e0 6 ans, de la petite section \u00e0 la grande section de maternelle. Elles constituent un excellent entra\u00eenement \u00e0 la perception visuelle et au raisonnement spatial.',
+      },
+      {
+        id: 'faq-5',
+        question: 'Puis-je choisir quelles images utiliser dans les exercices ?',
+        answer: 'Oui, vous s\u00e9lectionnez les images par th\u00e8me ou individuellement parmi plus de 3 000 illustrations de notre biblioth\u00e8que. Vous pouvez aussi t\u00e9l\u00e9verser vos propres images pour cr\u00e9er des fiches d\'ombres personnalis\u00e9es.',
+      },
+    ],
+
   },
 
   // Pricing - Accès Complet ($240/year)

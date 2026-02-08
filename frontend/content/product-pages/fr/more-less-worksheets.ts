@@ -174,8 +174,34 @@ Les enseignants choisissent l'abonnement Accès Complet pour trois raisons essen
     showLessLabel: 'Voir moins',
     secureCheckout: 'Paiement sécurisé',
     cancelAnytime: 'Résiliez à tout moment',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: 'faq-1',
+        question: 'Comment fonctionne le g\u00e9n\u00e9rateur d\u2019exercices de comparaison plus/moins ?',
+        answer: 'Le g\u00e9n\u00e9rateur cr\u00e9e des exercices o\u00f9 les \u00e9l\u00e8ves comparent des quantit\u00e9s d\u2019images et choisissent le bon symbole math\u00e9matique. Les enfants d\u00e9terminent si un groupe contient plus, moins ou autant d\u2019objets que l\u2019autre. Deux modes sont disponibles : image contre image et image contre nombre.',
+      },
+      {
+        id: 'faq-2',
+        question: 'Quels types de comparaison sont disponibles ?',
+        answer: 'Les exercices couvrent les concepts de plus que, moins que et \u00e9gal \u00e0. Vous pouvez utiliser des symboles illustr\u00e9s color\u00e9s ou les symboles math\u00e9matiques traditionnels. Les enseignants choisissent quels symboles inclure selon la progression p\u00e9dagogique de leurs \u00e9l\u00e8ves.',
+      },
+      {
+        id: 'faq-3',
+        question: 'Quelles plages de nombres sont propos\u00e9es pour les exercices de comparaison ?',
+        answer: 'Les plages sont personnalisables de 1 \u00e0 20, parfaitement adapt\u00e9es aux \u00e9l\u00e8ves de maternelle et de CP. Les petits nombres conviennent aux d\u00e9butants qui apprennent \u00e0 compter. Les plages plus larges proposent un d\u00e9fi progressif pour les exercices maths avanc\u00e9s.',
+      },
+      {
+        id: 'faq-4',
+        question: 'Peut-on choisir les th\u00e8mes visuels des exercices ?',
+        answer: 'Oui, vous s\u00e9lectionnez les images par cat\u00e9gorie parmi plus de 3000 illustrations th\u00e9matiques. Vous pouvez \u00e9galement m\u00e9langer les th\u00e8mes pour cr\u00e9er des fiches maternelle vari\u00e9es et engageantes. Le t\u00e9l\u00e9versement d\u2019images personnalis\u00e9es est aussi disponible.',
+      },
+      {
+        id: 'faq-5',
+        question: 'Les corrig\u00e9s sont-ils fournis avec les fiches de comparaison ?',
+        answer: 'Oui, chaque fiche g\u00e9n\u00e8re automatiquement un corrig\u00e9 avec les comparaisons correctes clairement marqu\u00e9es. Le corrig\u00e9 affiche les symboles de comparaison corrects entre chaque paire de quantit\u00e9s. Les enseignants t\u00e9l\u00e9chargent la fiche et le corrig\u00e9 s\u00e9par\u00e9ment.',
+      },
+    ],
+
   },
 
   // Pricing - French translations with Accès Complet

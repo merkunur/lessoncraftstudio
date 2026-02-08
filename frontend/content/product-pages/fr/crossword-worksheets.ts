@@ -192,13 +192,39 @@ Cochez la case Niveaux de Gris avant de télécharger pour économiser l'encre. 
     badgeText: 'FAQ',
     readMoreLabel: 'Lire la suite',
     showLessLabel: 'Voir moins',
-    secureCheckout: 'Paiement sécurisé',
-    cancelAnytime: 'Résiliez à tout moment',
-    items: [], // Samples loaded dynamically from content manager
-    
+    secureCheckout: 'Paiement s\u00e9curis\u00e9',
+    cancelAnytime: 'R\u00e9siliez \u00e0 tout moment',
+    items: [
+      {
+        id: 'faq-1',
+        question: 'Comment fonctionne le g\u00e9n\u00e9rateur de mots crois\u00e9s en images ?',
+        answer: 'Le g\u00e9n\u00e9rateur cr\u00e9e des mots crois\u00e9s o\u00f9 les images remplacent les d\u00e9finitions traditionnelles. Les \u00e9l\u00e8ves regardent les images num\u00e9rot\u00e9es et \u00e9crivent les mots correspondants dans la grille 15x15. Les mots se croisent automatiquement en partageant des lettres communes, ce qui renforce l\'apprentissage du vocabulaire et de l\'orthographe.',
+      },
+      {
+        id: 'faq-2',
+        question: 'Combien de mots peut contenir chaque mot crois\u00e9 ?',
+        answer: 'Chaque mot crois\u00e9 en images contient exactement 8 mots qui s\'entrecroisent dans la grille. Le g\u00e9n\u00e9rateur organise automatiquement les mots pour maximiser les croisements. Les images de rep\u00e8re avec leurs num\u00e9ros se placent autour de la grille pour guider les \u00e9l\u00e8ves.',
+      },
+      {
+        id: 'faq-3',
+        question: 'Quels th\u00e8mes de vocabulaire sont disponibles ?',
+        answer: 'Plus de 50 cat\u00e9gories th\u00e9matiques sont propos\u00e9es : animaux, nourriture, v\u00e9hicules, parties du corps, fournitures scolaires, v\u00eatements et bien d\'autres. Chaque th\u00e8me s\'adapte automatiquement \u00e0 la langue s\u00e9lectionn\u00e9e parmi les 11 langues disponibles. Vous pouvez aussi t\u00e9l\u00e9verser vos propres images.',
+      },
+      {
+        id: 'faq-4',
+        question: 'Les enfants qui ne savent pas encore lire peuvent-ils utiliser ces fiches ?',
+        answer: 'Oui, c\'est justement l\'avantage des mots crois\u00e9s en images. Les images servent d\'indices visuels \u00e0 la place des d\u00e9finitions \u00e9crites, ce qui les rend parfaits pour les pr\u00e9-lecteurs de maternelle. Les enfants identifient l\'objet repr\u00e9sent\u00e9 et \u00e9crivent les lettres du mot, renfor\u00e7ant ainsi la correspondance entre l\'oral et l\'\u00e9crit.',
+      },
+      {
+        id: 'faq-5',
+        question: 'La grille de solution est-elle incluse ?',
+        answer: 'Oui, un corrig\u00e9 automatique est g\u00e9n\u00e9r\u00e9 avec tous les mots remplis dans la grille. Il suffit de cliquer sur l\'onglet Corrig\u00e9 apr\u00e8s la g\u00e9n\u00e9ration pour le visualiser. Vous pouvez t\u00e9l\u00e9charger la fiche \u00e9l\u00e8ve et le corrig\u00e9 s\u00e9par\u00e9ment en format PDF ou JPEG.',
+      },
+    ],
+
   },
 
-  // Pricing - FULL ACCESS (€240/an)
+  // Pricing - FULL ACCESS (\u20ac240/an)
   pricing: {
     title: 'Accès Complet',
     price: '240€',

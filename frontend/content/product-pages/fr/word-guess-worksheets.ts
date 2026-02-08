@@ -206,8 +206,34 @@ Téléchargez également le corrigé automatiquement généré. Cliquez sur l'on
     showLessLabel: 'Voir moins',
     secureCheckout: 'Paiement sécurisé',
     cancelAnytime: 'Résiliez à tout moment',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: 'faq-1',
+        question: 'Comment fonctionne le g\u00e9n\u00e9rateur de devinettes de mots ?',
+        answer: 'Le g\u00e9n\u00e9rateur cr\u00e9e des exercices de type pendu o\u00f9 les enfants voient une image et doivent deviner le mot en compl\u00e9tant les lettres manquantes. Chaque devinette inclut un indice visuel clair qui aide les jeunes apprenants \u00e0 identifier le mot.',
+      },
+      {
+        id: 'faq-2',
+        question: 'Quels th\u00e8mes de vocabulaire sont disponibles ?',
+        answer: 'Plus de 50 cat\u00e9gories th\u00e9matiques sont disponibles : animaux, nourriture, \u00e9cole, nature, v\u00e9hicules, et bien d\'autres. Chaque th\u00e8me contient des dizaines d\'images avec les mots correspondants parfaitement adapt\u00e9s aux enfants.',
+      },
+      {
+        id: 'faq-3',
+        question: 'Peut-on r\u00e9gler la difficult\u00e9 des mots ?',
+        answer: 'Oui, vous pouvez choisir la longueur des mots et le nombre de lettres r\u00e9v\u00e9l\u00e9es comme indices. Quatre niveaux de difficult\u00e9 sont disponibles, de \u00ab sans indices \u00bb pour les avanc\u00e9s \u00e0 \u00ab facile \u00bb qui r\u00e9v\u00e8le la moiti\u00e9 des lettres.',
+      },
+      {
+        id: 'faq-4',
+        question: 'Pour quels niveaux scolaires ces fiches conviennent-elles ?',
+        answer: 'Les fiches de devinettes conviennent du CP au CE2, pour la pratique de la lecture et de l\'orthographe. Les niveaux de difficult\u00e9 r\u00e9glables permettent d\'adapter les exercices \u00e0 chaque \u00e9l\u00e8ve individuellement.',
+      },
+      {
+        id: 'faq-5',
+        question: 'Les corrig\u00e9s sont-ils fournis avec les fiches ?',
+        answer: 'Oui, chaque fiche g\u00e9n\u00e8re automatiquement un corrig\u00e9 avec tous les mots correctement compl\u00e9t\u00e9s. Vous pouvez t\u00e9l\u00e9charger la fiche \u00e9l\u00e8ve et le corrig\u00e9 s\u00e9par\u00e9ment en PDF ou JPEG.',
+      },
+    ],
+
   },
 
   // Pricing - FULL ACCESS (€240/an)

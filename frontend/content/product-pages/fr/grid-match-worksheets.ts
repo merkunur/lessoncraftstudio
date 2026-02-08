@@ -213,8 +213,34 @@ Les multiples options de téléchargement soutiennent différents besoins de cla
     showLessLabel: 'Voir moins',
     secureCheckout: 'Paiement sécurisé',
     cancelAnytime: 'Résiliez à tout moment',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: 'faq-1',
+        question: 'Comment fonctionne le g\u00e9n\u00e9rateur de puzzle grille ?',
+        answer: 'Le g\u00e9n\u00e9rateur divise une image en pi\u00e8ces num\u00e9rot\u00e9es que les \u00e9l\u00e8ves doivent replacer dans une grille de r\u00e9f\u00e9rence. Les enfants associent chaque pi\u00e8ce \u00e0 sa position correcte en utilisant les indices visuels et la num\u00e9rotation. Cette activit\u00e9 d\u00e9veloppe le raisonnement spatial et la discrimination visuelle.',
+      },
+      {
+        id: 'faq-2',
+        question: 'Quelles tailles de grille sont disponibles pour les puzzles ?',
+        answer: 'Les grilles vont de 2x2 \u00e0 4x4 cellules pour une difficult\u00e9 progressive. Les grilles 2x2 conviennent parfaitement aux fiches maternelle pour les d\u00e9butants. Les grilles 4x4 repr\u00e9sentent un d\u00e9fi adapt\u00e9 aux exercices CP et CE1.',
+      },
+      {
+        id: 'faq-3',
+        question: 'Quelles comp\u00e9tences cognitives le puzzle grille d\u00e9veloppe-t-il ?',
+        answer: 'Le puzzle grille renforce le raisonnement spatial, la m\u00e9moire visuelle et la reconnaissance de motifs. Les \u00e9l\u00e8ves apprennent \u00e0 analyser une image fragment\u00e9e et \u00e0 reconstruire mentalement l\u2019ensemble. Ces comp\u00e9tences sont fondamentales pour les exercices maths et l\u2019apprentissage de la lecture.',
+      },
+      {
+        id: 'faq-4',
+        question: 'Peut-on personnaliser les images utilis\u00e9es dans les puzzles ?',
+        answer: 'Oui, vous acc\u00e9dez \u00e0 une biblioth\u00e8que de plus de 3000 images organis\u00e9es par th\u00e8me. Vous pouvez \u00e9galement t\u00e9l\u00e9verser vos propres photos ou illustrations pour cr\u00e9er des fiches \u00e0 imprimer gratuit adapt\u00e9es \u00e0 votre programme scolaire.',
+      },
+      {
+        id: 'faq-5',
+        question: 'Un corrig\u00e9 est-il inclus avec chaque puzzle grille ?',
+        answer: 'Oui, un corrig\u00e9 est g\u00e9n\u00e9r\u00e9 automatiquement montrant la grille compl\u00e8te avec toutes les pi\u00e8ces correctement plac\u00e9es. Les \u00e9l\u00e8ves peuvent v\u00e9rifier leur travail de mani\u00e8re autonome et les enseignants corrigent rapidement.',
+      },
+    ],
+
   },
 
   // Pricing - Accès Complet Bundle for Grid Match

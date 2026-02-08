@@ -173,8 +173,34 @@ Ces fiches mathématiques fonctionnent idéalement pour les centres de numérati
     showLessLabel: 'Voir moins',
     secureCheckout: 'Paiement sécurisé',
     cancelAnytime: 'Résiliez à tout moment',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: 'faq-1',
+        question: 'Comment fonctionne le g\u00e9n\u00e9rateur de fiches de maths ?',
+        answer: 'Le g\u00e9n\u00e9rateur cr\u00e9e des fiches de pratique math\u00e9matique personnalisables avec des exercices adapt\u00e9s au niveau de vos \u00e9l\u00e8ves. Vous d\u00e9finissez les param\u00e8tres de calcul, s\u00e9lectionnez les images et le g\u00e9n\u00e9rateur produit des fiches \u00e0 imprimer gratuit en quelques secondes.',
+      },
+      {
+        id: 'faq-2',
+        question: 'Quelles op\u00e9rations sont disponibles dans le g\u00e9n\u00e9rateur de fiches maths ?',
+        answer: 'Le g\u00e9n\u00e9rateur propose l\u2019addition, la soustraction et les op\u00e9rations mixtes avec support visuel par images. Chaque exercice utilise des illustrations color\u00e9es pour rendre le calcul concret et engageant. Les images aident les jeunes \u00e9l\u00e8ves \u00e0 visualiser les op\u00e9rations math\u00e9matiques.',
+      },
+      {
+        id: 'faq-3',
+        question: 'Peut-on d\u00e9finir les plages de nombres pour les exercices maths ?',
+        answer: 'Oui, vous configurez les valeurs minimum et maximum pour chaque op\u00e9rande ainsi que la limite du r\u00e9sultat. Les petits nombres conviennent aux \u00e9l\u00e8ves de maternelle qui d\u00e9couvrent le calcul. Les plages \u00e9largies conviennent aux exercices CP et CE1 plus avanc\u00e9s.',
+      },
+      {
+        id: 'faq-4',
+        question: 'Combien d\u2019exercices peut-on mettre par fiche de maths ?',
+        answer: 'La mise en page est enti\u00e8rement personnalisable avec 4 \u00e0 20 exercices par fiche. Moins d\u2019exercices avec des images plus grandes conviennent aux fiches maternelle. Plus d\u2019exercices en format compact conviennent aux \u00e9l\u00e8ves de CP et CE1 qui pratiquent le calcul intensif.',
+      },
+      {
+        id: 'faq-5',
+        question: 'Les corrig\u00e9s sont-ils g\u00e9n\u00e9r\u00e9s automatiquement ?',
+        answer: 'Oui, chaque fiche de maths g\u00e9n\u00e8re automatiquement un corrig\u00e9 complet avec toutes les r\u00e9ponses. Les enseignants t\u00e9l\u00e9chargent la fiche \u00e9l\u00e8ve et le corrig\u00e9 s\u00e9par\u00e9ment en PDF ou JPEG. Cela fait gagner un temps consid\u00e9rable lors de la correction.',
+      },
+    ],
+
   },
 
   // Pricing

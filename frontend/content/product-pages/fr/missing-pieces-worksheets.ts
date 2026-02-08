@@ -18,7 +18,7 @@ export const missingPiecesFrContent: ProductPageContent = {
   seo: {
     slug: 'pieces-manquantes-fiches',
     appId: 'missing-pieces',
-    title: 'Fiches à Imprimer Gratuit - Fiches Maternelle - Générateur',
+    title: 'Pi\u00e8ces Manquantes Fiches Gratuites | G\u00e9n\u00e9rateur Maternelle CP',
     description: 'Cr\u00e9ez des fiches d\'observation pi\u00e8ces manquantes en 3 minutes. 3 000+ images pour maternelle et CP. T\u00e9l\u00e9chargez le PDF gratuit instantan\u00e9ment.',
     keywords: 'fiches à imprimer gratuit, fiches maternelle, exercices CP, pièces manquantes, puzzles éducatifs, discrimination visuelle, exercices CE1, observation visuelle, graphisme maternelle, exercices maths, apprendre à lire, tables de multiplication, écriture cursive, alphabet, coloriage',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fr/apps/pieces-manquantes-fiches',
@@ -178,8 +178,34 @@ Téléchargez vos fiches en format JPEG ou PDF. L'option niveau de gris permet d
     showLessLabel: 'Voir moins',
     secureCheckout: 'Paiement sécurisé',
     cancelAnytime: 'Résiliez à tout moment',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: 'faq-1',
+        question: 'Comment fonctionne le g\u00e9n\u00e9rateur de pi\u00e8ces manquantes ?',
+        answer: 'Le g\u00e9n\u00e9rateur d\u00e9coupe automatiquement des sections d\u2019une image et propose plusieurs options de r\u00e9ponse. Les enfants observent l\u2019image incompl\u00e8te et identifient la bonne pi\u00e8ce parmi les choix propos\u00e9s. Cette activit\u00e9 d\u00e9veloppe la discrimination visuelle et l\u2019attention aux d\u00e9tails.',
+      },
+      {
+        id: 'faq-2',
+        question: 'Combien de pi\u00e8ces manquantes peut-on configurer par puzzle ?',
+        answer: 'Vous pouvez d\u00e9finir de 1 \u00e0 4 pi\u00e8ces manquantes par image selon le niveau de vos \u00e9l\u00e8ves. Un seul morceau manquant convient aux d\u00e9butants de maternelle. Trois \u00e0 quatre pi\u00e8ces manquantes cr\u00e9ent des exercices CP plus stimulants et complexes.',
+      },
+      {
+        id: 'faq-3',
+        question: 'Quelles comp\u00e9tences les exercices de pi\u00e8ces manquantes d\u00e9veloppent-ils ?',
+        answer: 'Ces puzzles renforcent la discrimination visuelle, le raisonnement spatial et l\u2019attention aux d\u00e9tails. Les enfants apprennent \u00e0 analyser une image de mani\u00e8re syst\u00e9matique pour rep\u00e9rer les diff\u00e9rences. Ces comp\u00e9tences sont essentielles pour la lecture et les exercices maths.',
+      },
+      {
+        id: 'faq-4',
+        question: '\u00c0 quel groupe d\u2019\u00e2ge s\u2019adressent les fiches pi\u00e8ces manquantes ?',
+        answer: 'Les fiches conviennent aux enfants de 3 \u00e0 7 ans et constituent un excellent entra\u00eenement de perception visuelle. Les fiches maternelle utilisent des formes simples et peu d\u2019options de r\u00e9ponse. Les exercices CP et CE1 proposent plus de pi\u00e8ces manquantes avec davantage de distracteurs.',
+      },
+      {
+        id: 'faq-5',
+        question: 'Peut-on choisir les images utilis\u00e9es dans les puzzles ?',
+        answer: 'Oui, vous s\u00e9lectionnez parmi plus de 3000 images th\u00e9matiques organis\u00e9es par cat\u00e9gorie. Vous pouvez \u00e9galement t\u00e9l\u00e9verser vos propres photos ou illustrations personnalis\u00e9es. Les images claires et color\u00e9es fonctionnent le mieux pour les activit\u00e9s de pi\u00e8ces manquantes.',
+      },
+    ],
+
   },
 
   // Pricing - French translations with Accès Complet

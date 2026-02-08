@@ -19,7 +19,7 @@ export const treasureHuntFrContent: ProductPageContent = {
     slug: 'chasse-au-tresor-fiches',
     appId: 'treasure-hunt',
     title: 'Fiches Chasse au Trésor Gratuites - Générateur Maternelle CP',
-    description: 'Créez des fiches chasse au trésor en 3 minutes. Abonnement 240€/an, création illimitée. Directions spatiales pour maternelle et CP. Parfait pour enseignants et.',
+    description: 'Cr\u00e9ez des fiches chasse au tr\u00e9sor en 3 minutes. Directions spatiales pour maternelle et CP. T\u00e9l\u00e9chargez des PDF haute qualit\u00e9. Parfait pour enseignants et parents.',
     keywords: 'fiches chasse au trésor, fiches à imprimer gratuit, fiches maternelle, exercices CP, directions spatiales, exercices CE1, graphisme maternelle, coloriage à imprimer, apprendre à lire, alphabet, écriture cursive, tables de multiplication',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fr/apps/chasse-au-tresor-fiches',
       },
@@ -210,8 +210,34 @@ Téléchargez toujours les deux versions : la fiche élève et la fiche corrigé
     showLessLabel: 'Voir moins',
     secureCheckout: 'Paiement sécurisé',
     cancelAnytime: 'Annulez à tout moment',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: 'faq-1',
+        question: 'Comment fonctionne le g\u00e9n\u00e9rateur de chasse au tr\u00e9sor ?',
+        answer: 'Le g\u00e9n\u00e9rateur cr\u00e9e des exercices de navigation directionnelle sur une grille 3\u00d73. Les \u00e9l\u00e8ves suivent des indices \u00e9crits indiquant les d\u00e9placements \u00e0 effectuer pour trouver le tr\u00e9sor cach\u00e9 sur la grille.',
+      },
+      {
+        id: 'faq-2',
+        question: 'Quelles directions spatiales sont pratiqu\u00e9es ?',
+        answer: 'Deux types de vocabulaire sont disponibles : les directions de base (haut, bas, gauche, droite) pour la maternelle et le CP, et les directions cardinales (nord, sud, est, ouest) pour le CE1 et le CE2. Chaque mode utilise un vocabulaire adapt\u00e9 \u00e0 l\'\u00e2ge.',
+      },
+      {
+        id: 'faq-3',
+        question: 'Pour quelle tranche d\'\u00e2ge ces fiches sont-elles con\u00e7ues ?',
+        answer: 'Les fiches de chasse au tr\u00e9sor conviennent aux enfants de 4 \u00e0 7 ans, de la moyenne section au CE1. Elles d\u00e9veloppent les comp\u00e9tences d\'orientation spatiale et la compr\u00e9hension des consignes de direction.',
+      },
+      {
+        id: 'faq-4',
+        question: 'Peut-on personnaliser la grille de chasse au tr\u00e9sor ?',
+        answer: 'Oui, vous choisissez les 6 images plac\u00e9es sur la grille parmi plus de 3 000 illustrations th\u00e9matiques ou vos propres images. Le g\u00e9n\u00e9rateur distribue automatiquement les images et cr\u00e9e les indices de direction correspondants.',
+      },
+      {
+        id: 'faq-5',
+        question: 'Les corrig\u00e9s sont-ils inclus avec chaque fiche ?',
+        answer: 'Oui, chaque fiche de chasse au tr\u00e9sor g\u00e9n\u00e8re automatiquement un corrig\u00e9 montrant le chemin correct vers le tr\u00e9sor. Des fl\u00e8ches indiquent clairement chaque d\u00e9placement sur la grille solution.',
+      },
+    ],
+
   },
 
   // Pricing section - Accès Complet required

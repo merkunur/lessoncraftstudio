@@ -15,7 +15,7 @@ export const drawAndColorFrContent: ProductPageContent = {
   seo: {
     slug: 'dessin-quadrillage-fiches',
     appId: 'draw-and-color',
-    title: 'Coloriage à Imprimer sur Quadrillage | Fiches Maternelle et Exercices',
+    title: 'Dessin sur Quadrillage Fiches Gratuites | Maternelle CP',
     description: 'Créez des fiches de dessin sur quadrillage professionnelles pour maternelle et CP. Téléchargez des fiches à imprimer gratuit en PDF 300 DPI en 3 minutes.',
     keywords: 'coloriage à imprimer, dessin quadrillage, fiches maternelle, exercices CP, graphisme maternelle, fiches à imprimer gratuit, exercices CE1, apprendre à lire, écriture cursive, tables de multiplication',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fr/apps/dessin-quadrillage-fiches',
@@ -181,10 +181,36 @@ Activez l'option niveaux de gris avant le téléchargement pour économiser les 
     badgeText: 'FAQ',
     readMoreLabel: 'Lire la suite',
     showLessLabel: 'Voir moins',
-    secureCheckout: 'Paiement sécurisé',
-    cancelAnytime: 'Résiliez à tout moment',
-    items: [], // Samples loaded dynamically from content manager
-    
+    secureCheckout: 'Paiement s\u00e9curis\u00e9',
+    cancelAnytime: 'R\u00e9siliez \u00e0 tout moment',
+    items: [
+      {
+        id: 'faq-1',
+        question: 'Comment fonctionne le dessin sur quadrillage ?',
+        answer: 'Les \u00e9l\u00e8ves re\u00e7oivent deux grilles c\u00f4te \u00e0 c\u00f4te : une grille d\'indices qui r\u00e9v\u00e8le des portions d\'image dans certaines cellules, et une grille vierge o\u00f9 ils reproduisent le motif cellule par cellule. Cette m\u00e9thode enseigne le rep\u00e9rage spatial et les coordonn\u00e9es de mani\u00e8re ludique et concr\u00e8te.',
+      },
+      {
+        id: 'faq-2',
+        question: 'Quelles tailles de grille sont disponibles ?',
+        answer: 'Les grilles vont de 3x3 \u00e0 10x10 cellules pour s\'adapter \u00e0 diff\u00e9rents niveaux de difficult\u00e9. Les grilles 3x3 et 4x4 conviennent aux \u00e9l\u00e8ves de maternelle, tandis que les grilles 8x8 et 10x10 repr\u00e9sentent un v\u00e9ritable d\u00e9fi pour les \u00e9l\u00e8ves de CP et CE1. Le pourcentage d\'indices se r\u00e8gle aussi de 10 \u00e0 90 %.',
+      },
+      {
+        id: 'faq-3',
+        question: 'Quelles comp\u00e9tences le dessin sur quadrillage d\u00e9veloppe-t-il ?',
+        answer: 'Le dessin sur quadrillage d\u00e9veloppe le raisonnement visuospatial, la motricit\u00e9 fine, la concentration et la coordination \u0153il-main. Les \u00e9l\u00e8ves apprennent \u00e0 analyser des motifs, \u00e0 compter les cellules et \u00e0 reproduire avec pr\u00e9cision. Ces comp\u00e9tences sont fondamentales pour les math\u00e9matiques et l\'\u00e9criture.',
+      },
+      {
+        id: 'faq-4',
+        question: 'Peut-on utiliser ses propres images pour les fiches ?',
+        answer: 'Oui, vous pouvez t\u00e9l\u00e9verser vos propres photos ou illustrations en plus de choisir parmi notre biblioth\u00e8que de plus de 3000 images. Les images personnalis\u00e9es permettent de cr\u00e9er des fiches en lien direct avec les th\u00e8mes \u00e9tudi\u00e9s en classe ou les centres d\'int\u00e9r\u00eat des \u00e9l\u00e8ves.',
+      },
+      {
+        id: 'faq-5',
+        question: 'Ces fiches conviennent-elles \u00e0 diff\u00e9rentes tranches d\'\u00e2ge ?',
+        answer: 'Oui, la difficult\u00e9 s\'ajuste enti\u00e8rement. Pour la maternelle, utilisez de petites grilles avec beaucoup d\'indices. Pour le CP et le CE1, augmentez la taille de la grille et r\u00e9duisez les indices. Les options de sym\u00e9trie ajoutent une dimension suppl\u00e9mentaire pour les \u00e9l\u00e8ves plus avanc\u00e9s.',
+      },
+    ],
+
   },
 
   // Pricing

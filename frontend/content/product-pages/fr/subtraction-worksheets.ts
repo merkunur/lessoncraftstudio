@@ -183,8 +183,34 @@ Les enseignants de maternelle et de CP utilisent ces fiches de soustraction pour
     showLessLabel: 'Voir moins',
     secureCheckout: 'Paiement sécurisé',
     cancelAnytime: 'Annulez à tout moment',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: 'faq-1',
+        question: 'Comment fonctionne le g\u00e9n\u00e9rateur de fiches de soustraction ?',
+        answer: 'Le g\u00e9n\u00e9rateur cr\u00e9e des exercices de soustraction visuels en utilisant des images que les enfants peuvent compter et barrer. Cette approche concr\u00e8te rend le concept de \u00ab retirer \u00bb tangible et compr\u00e9hensible pour les jeunes \u00e9l\u00e8ves.',
+      },
+      {
+        id: 'faq-2',
+        question: 'Quels modes d\'exercices sont disponibles ?',
+        answer: 'Quatre modes sont disponibles : barrer des images (traditionnel), image moins chiffre, trouver le nombre soustrait, et mode mixte qui combine plusieurs types. Chaque mode offre une approche p\u00e9dagogique diff\u00e9rente pour enseigner la soustraction.',
+      },
+      {
+        id: 'faq-3',
+        question: 'Peut-on ajuster la plage de nombres des exercices ?',
+        answer: 'Oui, vous pouvez d\u00e9finir les valeurs minimales et maximales ainsi que la diff\u00e9rence maximale pour chaque fiche. R\u00e9glez de 2 \u00e0 20 pour adapter la difficult\u00e9 au niveau exact de vos \u00e9l\u00e8ves de maternelle ou de CP.',
+      },
+      {
+        id: 'faq-4',
+        question: 'Pour quels niveaux scolaires ces fiches conviennent-elles ?',
+        answer: 'Les fiches de soustraction conviennent de la grande section de maternelle au CE1, avec une difficult\u00e9 progressive. Les d\u00e9butants commencent avec des soustractions jusqu\'\u00e0 10 avec images, tandis que les \u00e9l\u00e8ves avanc\u00e9s travaillent jusqu\'\u00e0 20.',
+      },
+      {
+        id: 'faq-5',
+        question: 'Les corrig\u00e9s sont-ils g\u00e9n\u00e9r\u00e9s automatiquement ?',
+        answer: 'Oui, chaque fiche de soustraction g\u00e9n\u00e8re automatiquement un corrig\u00e9 complet. Vous pouvez basculer entre la fiche d\'\u00e9l\u00e8ve et le corrig\u00e9 en un clic, puis t\u00e9l\u00e9charger les deux en PDF ou JPEG.',
+      },
+    ],
+
   },
 
   // Pricing section - Accès Complet required

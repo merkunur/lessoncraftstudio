@@ -193,8 +193,34 @@ Imprimez les fiches téléchargées immédiatement ou enregistrez-les pour une u
     showLessLabel: 'Voir moins',
     secureCheckout: 'Paiement sécurisé',
     cancelAnytime: 'Résiliez à tout moment',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: 'faq-1',
+        question: 'Comment fonctionne le g\u00e9n\u00e9rateur de fiches cherche les objets ?',
+        answer: 'Le g\u00e9n\u00e9rateur cr\u00e9e des sc\u00e8nes visuelles dans lesquelles des images sont cach\u00e9es parmi des distracteurs. Les \u00e9l\u00e8ves doivent identifier et trouver les objets cibles dissimul\u00e9s dans la composition. Deux modes sont disponibles : le mode Je Vois pour les objets cach\u00e9s et le mode Intrus pour les images non appari\u00e9es.',
+      },
+      {
+        id: 'faq-2',
+        question: 'Quels niveaux de difficult\u00e9 sont propos\u00e9s pour les exercices de discrimination visuelle ?',
+        answer: 'Vous pouvez ajuster le nombre d\u2019objets cach\u00e9s, la complexit\u00e9 de la sc\u00e8ne et la quantit\u00e9 de distracteurs visuels. Commencez avec 1 \u00e0 2 objets cach\u00e9s pour les d\u00e9butants de maternelle et augmentez progressivement jusqu\u2019\u00e0 5 objets pour les \u00e9l\u00e8ves de CP.',
+      },
+      {
+        id: 'faq-3',
+        question: '\u00c0 quel groupe d\u2019\u00e2ge s\u2019adressent les fiches cherche les objets ?',
+        answer: 'Ces fiches conviennent aux enfants de 3 \u00e0 7 ans et d\u00e9veloppent l\u2019attention visuelle ainsi que la concentration. Les fiches maternelle utilisent des sc\u00e8nes simples avec peu de distracteurs, tandis que les exercices CP proposent des compositions plus complexes.',
+      },
+      {
+        id: 'faq-4',
+        question: 'Peut-on cr\u00e9er des sc\u00e8nes th\u00e9matiques personnalis\u00e9es ?',
+        answer: 'Oui, vous choisissez les arri\u00e8re-plans et les images par th\u00e8me parmi plus de 3000 illustrations. Combinez des images d\u2019animaux, de nourriture ou de v\u00e9hicules pour cr\u00e9er des sc\u00e8nes captivantes. Vous pouvez \u00e9galement t\u00e9l\u00e9verser vos propres images.',
+      },
+      {
+        id: 'faq-5',
+        question: 'Les solutions sont-elles fournies avec chaque fiche ?',
+        answer: 'Oui, un corrig\u00e9 est g\u00e9n\u00e9r\u00e9 automatiquement avec chaque fiche. Le corrig\u00e9 met en \u00e9vidence l\u2019emplacement de tous les objets cach\u00e9s ou entoure les images intrus. Les enseignants et parents peuvent ainsi v\u00e9rifier le travail rapidement.',
+      },
+    ],
+
   },
 
   // Pricing - Accès Complet Bundle for Find Objects

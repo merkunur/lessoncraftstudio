@@ -53,7 +53,7 @@ export const appIdToSamplesFolder: Record<string, string> = {
   'pattern-train': 'pattern train',
   'pattern': 'pattern worksheet',
   'picture-path': 'picture path',
-  'picture-sort': 'picture sort',
+  'picture-sort': 'picture-sort',
   'prepositions': 'prepositions',
   'shadow-match': 'shadow match',
   'subtraction': 'subtraction',

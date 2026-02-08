@@ -17,8 +17,8 @@ export const oddOneOutFrContent: ProductPageContent = {
   seo: {
     slug: 'intrus-fiches',
     appId: 'odd-one-out',
-    title: 'Fiches à Imprimer Gratuit Intrus - Fiches Maternelle Exercices CP -',
-    description: 'Créez des fiches à imprimer gratuit pour trouver l\'intrus en quelques clics. Votre abonnement Accès Complet à 240€/an vous donne accès illimité à ce.',
+    title: 'Fiches Intrus Gratuites | Exercices Maternelle CP',
+    description: 'Cr\u00e9ez des fiches intrus gratuites avec notre g\u00e9n\u00e9rateur. 3 000+ images pour maternelle et CP. T\u00e9l\u00e9chargez des exercices \u00e0 imprimer en PDF haute qualit\u00e9.',
     keywords: 'fiches à imprimer gratuit, fiches maternelle, exercices CP, intrus, graphisme maternelle, exercices maths, coloriage à imprimer, apprendre à lire, alphabet, écriture cursive, tables de multiplication',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fr/apps/intrus-fiches',
       },
@@ -207,8 +207,34 @@ Imprimez immédiatement ou sauvegardez pour utilisation future. Créez des banqu
     showLessLabel: 'Voir moins',
     secureCheckout: 'Paiement sécurisé',
     cancelAnytime: 'Résiliez à tout moment',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: 'faq-1',
+        question: 'Comment fonctionne le g\u00e9n\u00e9rateur de fiches intrus ?',
+        answer: 'Le g\u00e9n\u00e9rateur cr\u00e9e des groupes d\u2019images o\u00f9 un \u00e9l\u00e9ment ne correspond pas aux autres. Les \u00e9l\u00e8ves observent chaque ensemble et identifient l\u2019intrus qui ne partage pas la m\u00eame caract\u00e9ristique. Deux modes sont disponibles : le mode Identique et le mode Similaire pour varier la difficult\u00e9.',
+      },
+      {
+        id: 'faq-2',
+        question: 'Combien d\u2019images peut-on mettre par groupe d\u2019exercice ?',
+        answer: 'Chaque ensemble contient de 3 \u00e0 6 images avec un intrus \u00e0 identifier. Vous configurez de 5 \u00e0 10 ensembles par fiche maternelle selon le niveau de difficult\u00e9 souhait\u00e9. Moins d\u2019images par groupe simplifient l\u2019exercice pour les d\u00e9butants.',
+      },
+      {
+        id: 'faq-3',
+        question: 'Quelles cat\u00e9gories de diff\u00e9rences peut-on utiliser ?',
+        answer: 'Les diff\u00e9rences portent sur la couleur, la forme, la cat\u00e9gorie, la taille ou la fonction des objets. Le mode Identique propose trois images semblables et une diff\u00e9rente. Le mode Similaire compare des images de deux th\u00e8mes distincts pour un d\u00e9fi de cat\u00e9gorisation.',
+      },
+      {
+        id: 'faq-4',
+        question: '\u00c0 quel groupe d\u2019\u00e2ge s\u2019adressent les exercices de l\u2019intrus ?',
+        answer: 'Les fiches conviennent aux enfants de 3 \u00e0 7 ans et d\u00e9veloppent le raisonnement logique ainsi que la classification. Les fiches maternelle utilisent des diff\u00e9rences visuelles \u00e9videntes pour les plus jeunes. Les exercices CP et CE1 proposent des distinctions plus subtiles et complexes.',
+      },
+      {
+        id: 'faq-5',
+        question: 'Peut-on cr\u00e9er des exercices intrus th\u00e9matiques ?',
+        answer: 'Oui, plus de 3000 images sont organis\u00e9es par cat\u00e9gories th\u00e9matiques comme les animaux, la nourriture et les v\u00e9hicules. Combinez deux th\u00e8mes pour le mode Similaire afin de cr\u00e9er des exercices de cat\u00e9gorisation. Vous pouvez aussi t\u00e9l\u00e9verser vos propres images personnalis\u00e9es.',
+      },
+    ],
+
   },
 
   // Pricing - Accès Complet Bundle for Odd One Out

@@ -207,8 +207,34 @@ Activez l'option niveaux de gris avant de télécharger pour économiser l'encre
     showLessLabel: 'Voir moins',
     secureCheckout: 'Paiement sécurisé',
     cancelAnytime: 'Résiliez à tout moment',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: 'faq-1',
+        question: 'Comment fonctionne le g\u00e9n\u00e9rateur de fiches d\u2019association ?',
+        answer: 'Le g\u00e9n\u00e9rateur cr\u00e9e des exercices o\u00f9 les \u00e9l\u00e8ves tracent des lignes pour relier des paires correspondantes. Les images sont plac\u00e9es en deux colonnes dans un ordre m\u00e9lang\u00e9. Quatre modes d\u2019association sont disponibles : image-lettre, image-mot, image ou mot, et vocabulaire personnalis\u00e9.',
+      },
+      {
+        id: 'faq-2',
+        question: 'Quels types d\u2019exercices d\u2019association peut-on cr\u00e9er ?',
+        answer: 'Vous pouvez cr\u00e9er des associations image-image identiques, image-ombre, image-cat\u00e9gorie et image-mot. Le mode image-premi\u00e8re lettre est parfait pour apprendre l\u2019alphabet. Le mode vocabulaire personnalis\u00e9 permet d\u2019associer images et d\u00e9finitions ou traductions.',
+      },
+      {
+        id: 'faq-3',
+        question: 'Combien de paires peut-on mettre par fiche d\u2019association ?',
+        answer: 'Vous pouvez configurer de 3 \u00e0 10 paires par page selon le niveau de vos \u00e9l\u00e8ves. Quatre paires conviennent aux fiches maternelle pour les d\u00e9butants. Six \u00e0 dix paires offrent un d\u00e9fi adapt\u00e9 aux exercices CP et CE1.',
+      },
+      {
+        id: 'faq-4',
+        question: '\u00c0 quel groupe d\u2019\u00e2ge s\u2019adressent les fiches d\u2019association ?',
+        answer: 'Les fiches d\u2019association sont con\u00e7ues pour les enfants de maternelle et de CP, d\u00e9veloppant les comp\u00e9tences de discrimination visuelle. Les exercices renforcent la reconnaissance des lettres, le vocabulaire et la coordination \u0153il-main. La difficult\u00e9 s\u2019adapte facilement \u00e0 chaque niveau.',
+      },
+      {
+        id: 'faq-5',
+        question: 'Peut-on choisir des paires d\u2019images sp\u00e9cifiques ?',
+        answer: 'Oui, vous pouvez s\u00e9lectionner manuellement chaque image parmi plus de 3000 illustrations th\u00e9matiques. Le g\u00e9n\u00e9rateur peut aussi cr\u00e9er automatiquement des paires \u00e0 partir d\u2019un th\u00e8me choisi. Vous avez \u00e9galement la possibilit\u00e9 de t\u00e9l\u00e9verser vos propres images.',
+      },
+    ],
+
   },
 
   // Pricing

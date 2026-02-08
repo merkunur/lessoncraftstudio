@@ -177,10 +177,36 @@ Lorsque vous avez généré plusieurs cartes, le téléchargement crée un fichi
     badgeText: 'FAQ',
     readMoreLabel: 'Lire la suite',
     showLessLabel: 'Voir moins',
-    secureCheckout: 'Paiement sécurisé',
-    cancelAnytime: 'Résiliez à tout moment',
-    items: [], // Samples loaded dynamically from content manager
-    
+    secureCheckout: 'Paiement s\u00e9curis\u00e9',
+    cancelAnytime: 'R\u00e9siliez \u00e0 tout moment',
+    items: [
+      {
+        id: 'faq-1',
+        question: 'Comment fonctionne le g\u00e9n\u00e9rateur de cartes bingo illustr\u00e9es ?',
+        answer: 'Le g\u00e9n\u00e9rateur cr\u00e9e des cartes bingo avec des images s\u00e9lectionn\u00e9es parmi notre biblioth\u00e8que de plus de 3000 illustrations. Chaque g\u00e9n\u00e9ration produit une fiche de carte bingo avec des jetons d\'appel d\u00e9coupables, ainsi qu\'une feuille d\'appel s\u00e9par\u00e9e pour l\'enseignant. Les images sont dispos\u00e9es al\u00e9atoirement pour garantir des cartes uniques.',
+      },
+      {
+        id: 'faq-2',
+        question: 'Combien de cartes bingo puis-je g\u00e9n\u00e9rer par partie ?',
+        answer: 'Vous pouvez g\u00e9n\u00e9rer de 1 \u00e0 10 cartes bingo uniques en un seul clic. Chaque carte pr\u00e9sente un arrangement d\'images diff\u00e9rent pour \u00e9viter les doublons pendant le jeu. La taille de la grille est personnalisable selon vos besoins p\u00e9dagogiques.',
+      },
+      {
+        id: 'faq-3',
+        question: 'Le bingo convient-il aux activit\u00e9s de classe enti\u00e8re ?',
+        answer: 'Oui, le g\u00e9n\u00e9rateur est id\u00e9al pour les activit\u00e9s en classe enti\u00e8re. G\u00e9n\u00e9rez un jeu complet avec plusieurs cartes uniques et la feuille d\'appel pour l\'enseignant. Les jetons d\'appel d\u00e9coupables sont inclus sur chaque fiche, ce qui permet de jouer imm\u00e9diatement apr\u00e8s l\'impression.',
+      },
+      {
+        id: 'faq-4',
+        question: 'Quelles tailles de grille sont disponibles ?',
+        answer: 'Trois tailles de grille sont propos\u00e9es : 3x3 pour les tout-petits de petite et moyenne section, 4x4 pour les \u00e9l\u00e8ves de grande section et CP, et 5x5 pour les \u00e9l\u00e8ves de CE1 et CE2. Les grilles plus petites facilitent l\'apprentissage pour les d\u00e9butants, tandis que les plus grandes offrent un d\u00e9fi suppl\u00e9mentaire.',
+      },
+      {
+        id: 'faq-5',
+        question: 'Peut-on cr\u00e9er des jeux de bingo th\u00e9matiques ?',
+        answer: 'Oui, vous pouvez cr\u00e9er des bingos th\u00e9matiques en s\u00e9lectionnant une cat\u00e9gorie sp\u00e9cifique comme les animaux, la nourriture, les v\u00e9hicules ou les saisons. Il est aussi possible de m\u00e9langer des images de diff\u00e9rents th\u00e8mes ou de t\u00e9l\u00e9verser vos propres images pour des bingos enti\u00e8rement personnalis\u00e9s.',
+      },
+    ],
+
   },
 
   // Pricing

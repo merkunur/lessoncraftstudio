@@ -199,10 +199,36 @@ Imprimez sur votre imprimante personnelle ou professionnelle. Le format PDF s'ad
     badgeText: 'FAQ',
     readMoreLabel: 'Lire la suite',
     showLessLabel: 'Voir moins',
-    secureCheckout: 'Paiement sécurisé',
-    cancelAnytime: 'Résiliez à tout moment',
-    items: [], // Samples loaded dynamically from content manager
-    
+    secureCheckout: 'Paiement s\u00e9curis\u00e9',
+    cancelAnytime: 'R\u00e9siliez \u00e0 tout moment',
+    items: [
+      {
+        id: 'faq-1',
+        question: 'Comment fonctionne le g\u00e9n\u00e9rateur de pages de coloriage ?',
+        answer: 'S\u00e9lectionnez une ou plusieurs images parmi notre biblioth\u00e8que de plus de 3000 illustrations class\u00e9es par th\u00e8me. Les images s\'affichent sur le canevas en version contour pr\u00eate \u00e0 colorier. Vous pouvez repositionner, redimensionner et faire pivoter chaque image pour cr\u00e9er la composition id\u00e9ale.',
+      },
+      {
+        id: 'faq-2',
+        question: 'Quelles cat\u00e9gories d\'images sont disponibles pour les coloriages ?',
+        answer: 'Plus de 50 cat\u00e9gories th\u00e9matiques sont disponibles : animaux, v\u00e9hicules, nature, saisons, f\u00eates, nourriture, formes g\u00e9om\u00e9triques et bien d\'autres. Chaque th\u00e8me contient des dizaines d\'illustrations adapt\u00e9es aux enfants. Vous pouvez aussi combiner des images de diff\u00e9rents th\u00e8mes sur une m\u00eame page.',
+      },
+      {
+        id: 'faq-3',
+        question: 'Peut-on ajuster l\'\u00e9paisseur des contours ?',
+        answer: 'Oui, vous pouvez personnaliser l\'apparence des contours pour les adapter \u00e0 diff\u00e9rents groupes d\'\u00e2ge. Des contours plus \u00e9pais facilitent le coloriage pour les tout-petits de maternelle, tandis que des contours plus fins conviennent aux \u00e9l\u00e8ves de CP et CE1 avec une meilleure motricit\u00e9 fine.',
+      },
+      {
+        id: 'faq-4',
+        question: 'Les coloriages sont-ils adapt\u00e9s aux enfants de maternelle ?',
+        answer: 'Oui, les pages de coloriage sont sp\u00e9cialement con\u00e7ues pour les enfants de 3 \u00e0 7 ans. Les illustrations sont claires et simples avec des zones de coloriage g\u00e9n\u00e9reuses. Le coloriage d\u00e9veloppe la motricit\u00e9 fine, la coordination \u0153il-main et la reconnaissance des formes, des comp\u00e9tences essentielles en maternelle.',
+      },
+      {
+        id: 'faq-5',
+        question: 'Quels formats de fichier sont disponibles pour le t\u00e9l\u00e9chargement ?',
+        answer: 'Les coloriages se t\u00e9l\u00e9chargent en format PDF pour une impression nette ou en JPEG pour un partage num\u00e9rique facile. Les deux formats offrent une r\u00e9solution professionnelle de 300 DPI. L\'option niveaux de gris permet d\'\u00e9conomiser l\'encre en convertissant les fiches en noir et blanc.',
+      },
+    ],
+
   },
 
   // Pricing

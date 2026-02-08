@@ -199,13 +199,39 @@ Générez également le corrigé en un clic. La fiche réponse montre les soluti
     badgeText: 'FAQ',
     readMoreLabel: 'Lire la suite',
     showLessLabel: 'Voir moins',
-    secureCheckout: 'Paiement sécurisé',
-    cancelAnytime: 'Résiliez à tout moment',
-    items: [], // Samples loaded dynamically from content manager
-    
+    secureCheckout: 'Paiement s\u00e9curis\u00e9',
+    cancelAnytime: 'R\u00e9siliez \u00e0 tout moment',
+    items: [
+      {
+        id: 'faq-1',
+        question: 'Comment fonctionne le g\u00e9n\u00e9rateur de fiches grand et petit ?',
+        answer: 'Le g\u00e9n\u00e9rateur cr\u00e9e des exercices o\u00f9 les \u00e9l\u00e8ves comparent les tailles d\'images. Les images identiques sont affich\u00e9es en diff\u00e9rentes tailles et les enfants doivent identifier la plus grande ou la plus petite. L\'\u00e9cart de taille est toujours clairement visible pour faciliter la discrimination visuelle.',
+      },
+      {
+        id: 'faq-2',
+        question: 'Quels types d\'exercices de comparaison sont propos\u00e9s ?',
+        answer: 'Cinq types d\'exercices sont disponibles : entourer le plus grand, entourer le plus petit, identifier le plus grand parmi trois images, identifier le plus petit parmi trois images, et classer du plus petit au plus grand. Vous pouvez choisir entre des exercices avec 2 ou 3 images par question pour varier la difficult\u00e9.',
+      },
+      {
+        id: 'faq-3',
+        question: '\u00c0 quelle tranche d\'\u00e2ge s\'adressent ces fiches ?',
+        answer: 'Les fiches grand et petit sont con\u00e7ues pour les enfants de maternelle et de d\u00e9but de CP, soit de 3 \u00e0 6 ans environ. Elles d\u00e9veloppent la discrimination visuelle et le sens de l\'observation, des comp\u00e9tences fondamentales pour les math\u00e9matiques. Le nombre d\'exercices par fiche s\'adapte de 1 \u00e0 10 selon le niveau.',
+      },
+      {
+        id: 'faq-4',
+        question: 'Puis-je personnaliser les images utilis\u00e9es dans les exercices ?',
+        answer: 'Oui, trois options s\'offrent \u00e0 vous : s\u00e9lectionner un th\u00e8me complet dans le menu d\u00e9roulant, choisir des images individuelles dans la biblioth\u00e8que de 3000 illustrations, ou t\u00e9l\u00e9verser vos propres images. Vous pouvez aussi combiner ces m\u00e9thodes pour cr\u00e9er des exercices adapt\u00e9s \u00e0 votre programme.',
+      },
+      {
+        id: 'faq-5',
+        question: 'Les fiches incluent-elles un corrig\u00e9 ?',
+        answer: 'Oui, un corrig\u00e9 automatique est g\u00e9n\u00e9r\u00e9 pour chaque fiche. La fiche r\u00e9ponse montre les solutions avec des coches vertes pour les exercices d\'identification et des num\u00e9ros pour les exercices de classement. Vous pouvez t\u00e9l\u00e9charger le corrig\u00e9 s\u00e9par\u00e9ment pour la correction ou l\'auto-\u00e9valuation des \u00e9l\u00e8ves.',
+      },
+    ],
+
   },
 
-  // Pricing - Accès Complet tier for Big Small
+  // Pricing - Acc\u00e8s Complet tier for Big Small
   pricing: {
     title: 'Accès Complet',
     price: '240€',

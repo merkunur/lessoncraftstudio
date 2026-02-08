@@ -207,8 +207,34 @@ Activez l'option "Niveaux de gris" pour économiser l'encre. La fiche se convert
     showLessLabel: 'Voir moins',
     secureCheckout: 'Paiement sécurisé',
     cancelAnytime: 'Résiliez à tout moment',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: 'faq-1',
+        question: 'Comment fonctionne le g\u00e9n\u00e9rateur de mots m\u00e9lang\u00e9s ?',
+        answer: 'Le g\u00e9n\u00e9rateur m\u00e9lange les lettres d\'un mot et les enfants doivent les remettre dans le bon ordre. Chaque exercice inclut une image comme indice visuel pour aider les \u00e9l\u00e8ves \u00e0 identifier le mot \u00e0 reconstituer.',
+      },
+      {
+        id: 'faq-2',
+        question: 'Quel vocabulaire est disponible pour les exercices ?',
+        answer: 'Plus de 50 cat\u00e9gories th\u00e9matiques proposent des listes de mots avec des images associ\u00e9es : animaux, fruits, v\u00e9hicules, objets du quotidien et bien d\'autres. Vous pouvez aussi t\u00e9l\u00e9verser vos propres images avec un nom de fichier personnalis\u00e9.',
+      },
+      {
+        id: 'faq-3',
+        question: 'Peut-on ajuster la difficult\u00e9 des exercices ?',
+        answer: 'Oui, vous pouvez r\u00e9gler la longueur des mots, le nombre d\'exercices par page et le nombre de lettres r\u00e9v\u00e9l\u00e9es comme indices. Le code couleur voyelles/consonnes peut \u00e9galement \u00eatre activ\u00e9 pour les d\u00e9butants.',
+      },
+      {
+        id: 'faq-4',
+        question: 'Pour quelle tranche d\'\u00e2ge ces fiches sont-elles con\u00e7ues ?',
+        answer: 'Les mots m\u00e9lang\u00e9s sont con\u00e7us pour les \u00e9l\u00e8ves du CP au CE2, parfaits pour d\u00e9velopper l\'orthographe et le vocabulaire. La difficult\u00e9 r\u00e9glable permet d\'adapter les exercices du d\u00e9butant au niveau avanc\u00e9.',
+      },
+      {
+        id: 'faq-5',
+        question: 'Les corrig\u00e9s sont-ils inclus avec les fiches ?',
+        answer: 'Oui, chaque fiche de mots m\u00e9lang\u00e9s g\u00e9n\u00e8re automatiquement un corrig\u00e9 montrant les mots correctement orthographi\u00e9s. T\u00e9l\u00e9chargez le corrig\u00e9 en PDF ou JPEG pour la correction en classe.',
+      },
+    ],
+
   },
 
   // Pricing

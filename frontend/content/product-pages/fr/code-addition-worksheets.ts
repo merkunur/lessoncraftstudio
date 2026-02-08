@@ -201,13 +201,39 @@ Générez ensuite le corrigé automatique. Le corrigé reprend exactement la mê
     badgeText: 'FAQ',
     readMoreLabel: 'Lire la suite',
     showLessLabel: 'Voir moins',
-    secureCheckout: 'Paiement sécurisé',
-    cancelAnytime: 'Résiliez à tout moment',
-    items: [], // Samples loaded dynamically from content manager
-    
+    secureCheckout: 'Paiement s\u00e9curis\u00e9',
+    cancelAnytime: 'R\u00e9siliez \u00e0 tout moment',
+    items: [
+      {
+        id: 'faq-1',
+        question: 'Comment fonctionne l\'addition cod\u00e9e avec images ?',
+        answer: 'Chaque fiche comprend une l\u00e9gende en haut qui associe 5 images \u00e0 des nombres pr\u00e9cis. Les exercices pr\u00e9sentent ensuite des op\u00e9rations d\'addition avec des images \u00e0 la place des chiffres. L\'\u00e9l\u00e8ve doit d\'abord d\u00e9coder la valeur de chaque image dans la l\u00e9gende, puis calculer le r\u00e9sultat de l\'addition.',
+      },
+      {
+        id: 'faq-2',
+        question: 'Quels niveaux de difficult\u00e9 sont disponibles ?',
+        answer: 'La difficult\u00e9 s\'ajuste en modifiant la plage de nombres associ\u00e9s aux images. Pour la maternelle grande section, utilisez des nombres de 1 \u00e0 5. Pour le CP, \u00e9largissez de 1 \u00e0 10. Pour le CE1, les nombres peuvent aller jusqu\'\u00e0 20. Le nombre d\'exercices par fiche varie \u00e9galement de 3 \u00e0 10.',
+      },
+      {
+        id: 'faq-3',
+        question: 'En quoi l\'addition cod\u00e9e diff\u00e8re-t-elle de l\'addition classique ?',
+        answer: 'L\'addition cod\u00e9e ajoute une \u00e9tape de d\u00e9codage avant le calcul, ce qui stimule la m\u00e9moire de travail et la reconnaissance visuelle. Les \u00e9l\u00e8ves d\u00e9veloppent simultan\u00e9ment le d\u00e9codage de symboles, le calcul mental et la compr\u00e9hension des correspondances. Cette approche ludique transforme les exercices de math\u00e9matiques en jeu de r\u00e9flexion motivant.',
+      },
+      {
+        id: 'faq-4',
+        question: 'Peut-on configurer les sommes cibles des op\u00e9rations ?',
+        answer: 'Oui, vous contr\u00f4lez enti\u00e8rement les plages d\'op\u00e9randes en d\u00e9finissant les valeurs minimales et maximales. Le g\u00e9n\u00e9rateur cr\u00e9e ensuite des probl\u00e8mes al\u00e9atoires dans ces limites. Vous pouvez r\u00e9g\u00e9n\u00e9rer autant de fois que n\u00e9cessaire pour obtenir la combinaison souhait\u00e9e.',
+      },
+      {
+        id: 'faq-5',
+        question: 'Un corrig\u00e9 est-il fourni avec les fiches ?',
+        answer: 'Oui, chaque fiche d\'addition cod\u00e9e g\u00e9n\u00e8re automatiquement un corrig\u00e9 qui montre le message ou l\'image d\u00e9cod\u00e9 ainsi que toutes les r\u00e9ponses. Le corrig\u00e9 se t\u00e9l\u00e9charge s\u00e9par\u00e9ment en format PDF ou JPEG, ce qui facilite la correction rapide ou l\'auto-\u00e9valuation par les \u00e9l\u00e8ves.',
+      },
+    ],
+
   },
 
-  // Pricing - Accès Complet tier for Code Addition
+  // Pricing - Acc\u00e8s Complet tier for Code Addition
   pricing: {
     title: 'Accès Complet',
     price: '240€',

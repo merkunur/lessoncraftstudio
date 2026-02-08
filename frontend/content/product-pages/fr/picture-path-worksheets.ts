@@ -203,8 +203,34 @@ Activez l'option Niveau de Gris avant le téléchargement pour économiser l'enc
     showLessLabel: 'Voir moins',
     secureCheckout: 'Paiement sécurisé',
     cancelAnytime: 'Résiliez à tout moment',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: 'faq-1',
+        question: 'Comment fonctionne le g\u00e9n\u00e9rateur de parcours d\'images ?',
+        answer: 'Le g\u00e9n\u00e9rateur cr\u00e9e des exercices de suivi de chemin o\u00f9 les images servent de points de rep\u00e8re. Les enfants suivent le parcours d\'une image \u00e0 l\'autre en tra\u00e7ant le chemin correct entre les points de d\u00e9part et d\'arriv\u00e9e. Chaque fiche est g\u00e9n\u00e9r\u00e9e automatiquement avec un corrig\u00e9 inclus.',
+      },
+      {
+        id: 'faq-2',
+        question: 'Quels types de parcours peut-on cr\u00e9er ?',
+        answer: 'Vous pouvez cr\u00e9er trois types de parcours diff\u00e9rents : des chemins droits entre images, des labyrinthes classiques avec des murs, et des exercices \u00ab choisir le bon chemin \u00bb avec plusieurs itin\u00e9raires possibles. Chaque mode s\'adapte au niveau de difficult\u00e9 souhait\u00e9 pour vos \u00e9l\u00e8ves.',
+      },
+      {
+        id: 'faq-3',
+        question: 'Pour quelle tranche d\'\u00e2ge ces fiches sont-elles con\u00e7ues ?',
+        answer: 'Les fiches de parcours d\'images sont con\u00e7ues pour les enfants de 3 \u00e0 6 ans, de la petite section \u00e0 la grande section de maternelle. Elles d\u00e9veloppent la motricit\u00e9 fine, le suivi visuel et la coordination \u0153il-main de mani\u00e8re ludique.',
+      },
+      {
+        id: 'faq-4',
+        question: 'Puis-je personnaliser les images utilis\u00e9es dans les parcours ?',
+        answer: 'Oui, vous pouvez choisir parmi plus de 3 000 images organis\u00e9es par th\u00e8mes ou t\u00e9l\u00e9verser vos propres illustrations. S\u00e9lectionnez des images de d\u00e9part, d\'arriv\u00e9e, de parcours et des distracteurs pour cr\u00e9er des fiches parfaitement adapt\u00e9es \u00e0 vos le\u00e7ons.',
+      },
+      {
+        id: 'faq-5',
+        question: 'Les corrig\u00e9s sont-ils fournis avec chaque fiche ?',
+        answer: 'Oui, chaque fiche de parcours d\'images g\u00e9n\u00e8re automatiquement un corrig\u00e9 avec le chemin correct clairement mis en \u00e9vidence. Une ligne color\u00e9e indique le parcours exact du d\u00e9part \u00e0 l\'arriv\u00e9e, facilitant la correction rapide par l\'enseignant.',
+      },
+    ],
+
   },
 
   // Pricing - Accès Complet Bundle for Picture Path

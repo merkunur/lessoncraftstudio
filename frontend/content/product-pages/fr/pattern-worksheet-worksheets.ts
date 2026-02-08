@@ -191,8 +191,34 @@ Téléchargez séparément la fiche d'exercice et le corrigé. Imprimez la fiche
     showLessLabel: 'Voir moins',
     secureCheckout: 'Paiement sécurisé',
     cancelAnytime: 'Résiliez à tout moment',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: 'faq-1',
+        question: 'Comment fonctionne le g\u00e9n\u00e9rateur de fiches de s\u00e9quences ?',
+        answer: 'Le g\u00e9n\u00e9rateur cr\u00e9e des exercices de compl\u00e9tion de motifs dans un format de grille structur\u00e9. Les \u00e9l\u00e8ves observent la s\u00e9quence d\u2019images et identifient l\u2019\u00e9l\u00e9ment qui compl\u00e8te le motif. Neuf types de motifs diff\u00e9rents sont disponibles, du simple AB au complexe ABCD.',
+      },
+      {
+        id: 'faq-2',
+        question: 'Quels types de s\u00e9quences peut-on cr\u00e9er ?',
+        answer: 'Le g\u00e9n\u00e9rateur propose des motifs r\u00e9p\u00e9titifs comme AB et ABC, des motifs croissants et des s\u00e9quences de couleurs. Chaque exercice peut utiliser des bo\u00eetes vides ou des choix multiples comme type de question. Les motifs peuvent \u00eatre configur\u00e9s individuellement par exercice pour une diff\u00e9renciation p\u00e9dagogique.',
+      },
+      {
+        id: 'faq-3',
+        question: 'Peut-on ajuster la taille de la grille des exercices ?',
+        answer: 'Oui, vous configurez de 1 \u00e0 8 exercices par fiche pour adapter la difficult\u00e9. Les fiches maternelle avec moins d\u2019exercices laissent plus d\u2019espace pour chaque motif. Les exercices CP et CE1 peuvent contenir davantage de s\u00e9quences pour une pratique intensive.',
+      },
+      {
+        id: 'faq-4',
+        question: 'Quelles comp\u00e9tences les fiches de s\u00e9quences d\u00e9veloppent-elles ?',
+        answer: 'Les exercices renforcent la reconnaissance de motifs, le raisonnement logique et la pr\u00e9paration aux math\u00e9matiques. Les enfants qui ma\u00eetrisent les s\u00e9quences visuelles r\u00e9ussissent mieux en calcul et en exercices maths. Ces comp\u00e9tences fondamentales pr\u00e9parent aux tables de multiplication et \u00e0 la num\u00e9ration.',
+      },
+      {
+        id: 'faq-5',
+        question: 'Les corrig\u00e9s sont-ils inclus avec les fiches de s\u00e9quences ?',
+        answer: 'Oui, un corrig\u00e9 complet est g\u00e9n\u00e9r\u00e9 automatiquement montrant toutes les s\u00e9quences compl\u00e9t\u00e9es. Basculez entre l\u2019onglet fiche d\u2019exercice et l\u2019onglet corrig\u00e9 en un clic. Les deux se t\u00e9l\u00e9chargent s\u00e9par\u00e9ment en PDF ou JPEG haute qualit\u00e9.',
+      },
+    ],
+
   },
 
   // Pricing

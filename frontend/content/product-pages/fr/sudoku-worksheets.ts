@@ -197,8 +197,34 @@ Téléchargez vos créations dans le format souhaité. Le PDF convient à l'impr
     showLessLabel: 'Voir moins',
     secureCheckout: 'Paiement sécurisé',
     cancelAnytime: 'Résiliez à tout moment',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: 'faq-1',
+        question: 'Comment fonctionne le g\u00e9n\u00e9rateur de sudoku en images ?',
+        answer: 'Le g\u00e9n\u00e9rateur cr\u00e9e des puzzles sudoku adapt\u00e9s aux enfants en rempla\u00e7ant les chiffres traditionnels par des images color\u00e9es. Les \u00e9l\u00e8ves compl\u00e8tent la grille en pla\u00e7ant les images manquantes selon les r\u00e8gles du sudoku.',
+      },
+      {
+        id: 'faq-2',
+        question: 'Quelles tailles de grille sont disponibles ?',
+        answer: 'Le g\u00e9n\u00e9rateur propose des grilles 4\u00d74 et 6\u00d76 avec des images au lieu de chiffres. La grille 4\u00d74 utilise 4 images diff\u00e9rentes et convient aux d\u00e9butants, tandis que la grille 6\u00d76 offre un d\u00e9fi suppl\u00e9mentaire.',
+      },
+      {
+        id: 'faq-3',
+        question: 'Pour quelle tranche d\'\u00e2ge le sudoku en images est-il con\u00e7u ?',
+        answer: 'Le sudoku en images est con\u00e7u pour les enfants de 4 \u00e0 8 ans, de la moyenne section au CE1. Il d\u00e9veloppe le raisonnement logique et la d\u00e9duction sans n\u00e9cessiter de comp\u00e9tences en calcul.',
+      },
+      {
+        id: 'faq-4',
+        question: 'Puis-je choisir les images utilis\u00e9es dans les sudokus ?',
+        answer: 'Oui, vous s\u00e9lectionnez les images par th\u00e8me ou individuellement dans notre biblioth\u00e8que de plus de 3 000 illustrations. Cr\u00e9ez des sudokus th\u00e9matiques sur les animaux, les fruits ou tout autre sujet de votre choix.',
+      },
+      {
+        id: 'faq-5',
+        question: 'Les solutions sont-elles fournies avec chaque puzzle ?',
+        answer: 'Oui, chaque puzzle sudoku g\u00e9n\u00e8re automatiquement une cl\u00e9 de correction montrant la grille compl\u00e8tement remplie. Cette solution facilite la correction rapide et permet aux \u00e9l\u00e8ves de v\u00e9rifier leur travail en autonomie.',
+      },
+    ],
+
   },
 
   // Pricing

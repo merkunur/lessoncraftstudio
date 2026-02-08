@@ -216,8 +216,34 @@ Imprimez vos fiches téléchargées sur du papier standard pour imprimante ou du
     showLessLabel: 'Voir moins',
     secureCheckout: 'Paiement sécurisé',
     cancelAnytime: 'Annulez à tout moment',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: 'faq-1',
+        question: 'Comment fonctionne le g\u00e9n\u00e9rateur de fiches d\'\u00e9criture ?',
+        answer: 'Le g\u00e9n\u00e9rateur cr\u00e9e des feuilles de pratique d\'\u00e9criture avec des lignes guid\u00e9es pour le tra\u00e7age de lettres et de mots. Vous ajoutez plusieurs lignes d\'\u00e9criture avec des param\u00e8tres ind\u00e9pendants pour cr\u00e9er des fiches de graphisme personnalis\u00e9es.',
+      },
+      {
+        id: 'faq-2',
+        question: 'Quels types d\'exercices d\'\u00e9criture peut-on cr\u00e9er ?',
+        answer: 'Vous pouvez cr\u00e9er des exercices de tra\u00e7age de lettres, de copie de mots, d\'\u00e9criture de phrases et de pratique de la cursive. Quatre modes de tra\u00e7age sont disponibles : tra\u00e7age complet, estompage progressif, copie guid\u00e9e et lignes vides.',
+      },
+      {
+        id: 'faq-3',
+        question: 'Peut-on personnaliser le texte \u00e0 \u00e9crire ?',
+        answer: 'Oui, vous pouvez taper n\'importe quelles lettres, mots ou phrases \u00e0 pratiquer. L\'option texte personnalis\u00e9 vous permet de cr\u00e9er des fiches avec les pr\u00e9noms des \u00e9l\u00e8ves, les mots fr\u00e9quents ou le vocabulaire sp\u00e9cifique \u00e0 votre le\u00e7on.',
+      },
+      {
+        id: 'faq-4',
+        question: 'Quels styles de lignes sont disponibles ?',
+        answer: 'Plusieurs styles de lignes sont propos\u00e9s : lignes standard, guides pointill\u00e9s, lignes d\'\u00e9criture cursive avec interligne et lignes de pr\u00e9-\u00e9criture (verticales, horizontales, cercles, zigzag). Chaque style s\'adapte aux diff\u00e9rents niveaux d\'apprentissage.',
+      },
+      {
+        id: 'faq-5',
+        question: 'Pour quelle tranche d\'\u00e2ge ces fiches sont-elles adapt\u00e9es ?',
+        answer: 'Les fiches d\'\u00e9criture conviennent aux enfants de 4 \u00e0 8 ans, de la moyenne section de maternelle au CE1. Elles accompagnent la progression du graphisme pr\u00e9paratoire jusqu\'\u00e0 l\'\u00e9criture cursive fluide.',
+      },
+    ],
+
   },
 
   // Pricing section - Accès Complet required

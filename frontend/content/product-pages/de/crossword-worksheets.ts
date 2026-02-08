@@ -28,7 +28,7 @@ export const crosswordDeContent: ProductPageContent = {
     slug: 'bilderkreuzwortraetsel-arbeitsblaetter',
     appId: 'crossword',
     title: 'Bilderkreuzworträtsel Generator - Kostenlose Arbeitsblätter',
-    description: 'Bilderkreuzworträtsel Generator für Arbeitsblätter Grundschule. Kostenlose Vorschule Arbeitsblätter mit Lösungsblatt. PDF in unter 3 Minuten! Perfekt für Lehrer und Eltern.',
+    description: 'Bilderkreuzworträtsel Generator für Arbeitsblätter Grundschule. Kostenlose Vorschule Arbeitsblätter mit Lösungsblatt. PDF in 3 Minuten.',
     keywords: 'bilderkreuzworträtsel, kreuzworträtsel generator, arbeitsblätter grundschule, kostenlose arbeitsblätter, vorschule arbeitsblätter, deutsch arbeitsblätter, buchstaben lernen, mathe arbeitsblätter, schwungübungen, ausmalbilder',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/bilderkreuzwortraetsel-arbeitsblaetter',
       },

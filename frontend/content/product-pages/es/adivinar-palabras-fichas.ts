@@ -15,8 +15,8 @@ export const wordGuessEsContent: ProductPageContent = {
   seo: {
     slug: 'adivinar-palabras-fichas',
     appId: 'word-guess',
-    title: 'Fichas Gratis de Adivina la Palabra | Ficha para Ninos y Preescolar',
-    description: 'Crea fichas gratis de adivina la palabra para ninos. Genera imprimibles gratis de lectoescritura para preescolar. Descarga ficha para ninos PDF en 3 minutos.',
+    title: 'Fichas Gratis de Adivina la Palabra | Ficha para Ni\u00f1os y Preescolar',
+    description: 'Crea fichas gratis de adivina la palabra para ni\u00f1os. Genera imprimibles gratis de lectoescritura para preescolar. Descarga ficha para ni\u00f1os PDF en 3 minutos.',
     keywords: 'fichas para imprimir, adivina la palabra, fichas gratis, lectoescritura, abecedario, fichas infantil, fichas preescolar, material educativo gratis, grafomotricidad, ejercicios matematicas',
     canonicalUrl: 'https://www.lessoncraftstudio.com/es/apps/adivinar-palabras-fichas',
       },

@@ -32,7 +32,7 @@ Our matching worksheet generator helps teachers create educational worksheets wh
 MatchUp Maker offers flexible content creation for every subject area. Create math worksheets with visual matching for number recognition and counting practice. Generate addition worksheets where students match problems to answers. Build alphabet worksheets for letter recognition in preschool and kindergarten. Design tracing worksheets combined with matching activities for fine motor skills development. All content uses our 3000+ child-friendly image library.
 
 Your Core Bundle subscription includes complete access to all visual materials. No per-image fees unlike competitors. No template charges like other platforms. Create unlimited free printable worksheets with one simple subscription. Commercial print-on-demand license included at no extra cost. Sell your matching worksheets on Teachers Pay Teachers, Etsy, or Amazon KDP. Generate worksheets for your online store or membership site. All worksheets download at 300 DPI professional quality.`,
-    previewImageSrc: '/samples/english/matching/matching portrait.jpeg',
+    previewImageSrc: '/samples/english/matching/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Try Free',
       viewSamples: 'View Samples',

@@ -91,16 +91,7 @@ export function generateBlogSchemas(post: BlogPostData, locale: string, baseUrl:
         "name": "LessonCraftStudio"
       }
     },
-    "publisher": {
-      "@type": "Organization",
-      "name": "LessonCraftStudio",
-      "logo": {
-        "@type": "ImageObject",
-        "url": `${baseUrl}/logo-lcs.png`,
-        "width": 600,
-        "height": 600
-      }
-    },
+    "publisher": { "@id": `${baseUrl}/#organization` },
     "datePublished": post.createdAt.toISOString(),
     "dateModified": post.updatedAt.toISOString(),
     "mainEntityOfPage": {
@@ -162,6 +153,7 @@ export function generateBlogSchemas(post: BlogPostData, locale: string, baseUrl:
   const breadcrumbSchema = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
+    "@id": `${postUrl}#breadcrumb`,
     "itemListElement": breadcrumbItems
   };
 
@@ -179,11 +171,7 @@ export function generateBlogSchemas(post: BlogPostData, locale: string, baseUrl:
     "learningResourceType": "Educational Article",
     "inLanguage": getHreflangCode(locale),
     "isAccessibleForFree": true,
-    "provider": {
-      "@type": "Organization",
-      "name": "LessonCraftStudio",
-      "url": `${baseUrl}/${locale}`
-    },
+    "provider": { "@id": `${baseUrl}/#organization` },
     "teaches": post.focusKeyword || post.category || 'Educational content',
     "typicalAgeRange": "6-12",
     "url": postUrl,
@@ -215,10 +203,7 @@ export function generateBlogSchemas(post: BlogPostData, locale: string, baseUrl:
       "acquireLicensePage": `${baseUrl}/${locale}/pricing`,
       "creditText": "LessonCraftStudio",
       "copyrightNotice": "\u00a9 2024-2026 LessonCraftStudio",
-      "creator": {
-        "@type": "Organization",
-        "name": "LessonCraftStudio"
-      }
+      "creator": { "@id": `${baseUrl}/#organization` }
     };
 
     schemas.push(imageSchema);
@@ -791,11 +776,13 @@ export const localeToLanguageFolder: Record<string, string> = {
  */
 export function generateProductPageFAQSchema(
   faqs: Array<{ question: string; answer: string }>,
-  locale: string
+  locale: string,
+  pageUrl?: string
 ) {
   return {
     "@context": "https://schema.org",
     "@type": "FAQPage",
+    ...(pageUrl && { "@id": `${pageUrl}#faq` }),
     "mainEntity": faqs.map(faq => ({
       "@type": "Question",
       "name": faq.question,
@@ -826,11 +813,13 @@ export function generateProductPageHowToSchema(
   description: string,
   steps: HowToStepData[],
   locale: string,
-  totalTime: string = 'PT3M'
+  totalTime: string = 'PT3M',
+  pageUrl?: string
 ) {
   return {
     "@context": "https://schema.org",
     "@type": "HowTo",
+    ...(pageUrl && { "@id": `${pageUrl}#howto` }),
     "name": title,
     "description": description,
     "totalTime": totalTime,
@@ -915,14 +904,8 @@ export function generateImageObjectSchema(
     "acquireLicensePage": `${baseUrl}/${locale}/pricing`,
     "creditText": "LessonCraftStudio",
     "copyrightNotice": "© 2024-2026 LessonCraftStudio",
-    "creator": {
-      "@type": "Organization",
-      "name": "LessonCraftStudio"
-    },
-    "associatedArticle": {
-      "@type": "WebPage",
-      "url": pageUrl
-    },
+    "creator": { "@id": `${baseUrl}#organization` },
+    "associatedArticle": { "@type": "WebPage", "url": pageUrl },
     // Educational schema.org properties for better search visibility
     "educationalUse": ["assignment", "homework", "practice", "classwork"],
     "learningResourceType": "Worksheet",
@@ -966,6 +949,7 @@ export function generateImageGallerySchema(
   return {
     "@context": "https://schema.org",
     "@type": "ImageGallery",
+    "@id": `${pageUrl}#gallery`,
     "name": galleryName,
     "url": pageUrl,
     "numberOfItems": images.length,
@@ -975,6 +959,7 @@ export function generateImageGallerySchema(
       "@id": img.imageId || `${pageUrl}#image-${i}`,
       "contentUrl": `${baseUrl}${img.src.replace(/ /g, '%20')}`,
       "name": img.name,
+      "description": img.description,
       "caption": img.caption,
       "width": img.width || 2480,
       "height": img.height || 3508,
@@ -985,7 +970,7 @@ export function generateImageGallerySchema(
       "creditText": "LessonCraftStudio",
       "copyrightNotice": "\u00a9 2024-2026 LessonCraftStudio"
     })),
-    "creator": { "@type": "Organization", "name": "LessonCraftStudio" },
+    "creator": { "@id": `${baseUrl}#organization` },
     // Educational properties for the gallery
     "about": {
       "@type": "LearningResource",
@@ -1022,7 +1007,7 @@ export function generateAllProductPageSchemas(
 
   // 2. FAQPage schema (if FAQ content provided)
   if (faqs && faqs.length > 0) {
-    schemas.push(generateProductPageFAQSchema(faqs, locale));
+    schemas.push(generateProductPageFAQSchema(faqs, locale, pageUrl));
   }
 
   // 3. HowTo schema (if how-to steps provided)
@@ -1031,7 +1016,9 @@ export function generateAllProductPageSchemas(
       howTo.title,
       howTo.description,
       howTo.steps,
-      locale
+      locale,
+      'PT3M',
+      pageUrl
     ));
   }
 
@@ -1087,6 +1074,8 @@ export function generateAppProductSchemas(
           "name": localizedFreeTier[locale] || localizedFreeTier.en,
           "price": "0",
           "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock",
+          "url": `${baseUrl}/${locale}/pricing`,
           "description": localizedSchemaFreeDesc[locale] || localizedSchemaFreeDesc.en
         },
         {
@@ -1100,7 +1089,9 @@ export function generateAppProductSchemas(
             "priceCurrency": "USD",
             "billingDuration": "P1M"
           },
-          "description": localizedSchemaCoreDesc[locale] || localizedSchemaCoreDesc.en
+          "description": localizedSchemaCoreDesc[locale] || localizedSchemaCoreDesc.en,
+          "availability": "https://schema.org/InStock",
+          "url": `${baseUrl}/${locale}/pricing`
         },
         {
           "@type": "Offer",
@@ -1113,12 +1104,15 @@ export function generateAppProductSchemas(
             "priceCurrency": "USD",
             "billingDuration": "P1M"
           },
-          "description": localizedSchemaFullDesc[locale] || localizedSchemaFullDesc.en
+          "description": localizedSchemaFullDesc[locale] || localizedSchemaFullDesc.en,
+          "availability": "https://schema.org/InStock",
+          "url": `${baseUrl}/${locale}/pricing`
         }
       ]
     },
     "provider": {
       "@type": "Organization",
+      "@id": `${baseUrl}#organization`,
       "name": "LessonCraftStudio",
       "url": baseUrl
     },
@@ -1139,6 +1133,7 @@ export function generateAppProductSchemas(
   const breadcrumbSchema = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
+    "@id": `${pageUrl}#breadcrumb`,
     "itemListElement": [
       {
         "@type": "ListItem",
@@ -1175,19 +1170,12 @@ export function generateAppProductSchemas(
     "inLanguage": getHreflangCode(locale),
     // E-A-T: Publication dates signal content freshness
     "datePublished": "2024-06-01",
-    "dateModified": "2025-06-01",
-    // E-A-T: Author/publisher signals expertise and authority
-    "author": {
-      "@type": "Organization",
-      "name": "LessonCraftStudio",
-      "url": baseUrl,
-      "logo": {
-        "@type": "ImageObject",
-        "url": `${baseUrl}/logo-lcs.png`
-      }
-    },
+    "dateModified": new Date().toISOString().split('T')[0],
+    // E-A-T: Author/publisher signals expertise and authority (use @id to avoid duplication)
+    "author": { "@id": `${baseUrl}#organization` },
     "publisher": {
       "@type": "Organization",
+      "@id": `${baseUrl}#organization`,
       "name": "LessonCraftStudio",
       "url": baseUrl,
       "logo": {
@@ -1195,6 +1183,7 @@ export function generateAppProductSchemas(
         "url": `${baseUrl}/logo-lcs.png`
       }
     },
+    "breadcrumb": { "@id": `${pageUrl}#breadcrumb` },
     "isPartOf": {
       "@type": "WebSite",
       "name": "LessonCraftStudio",

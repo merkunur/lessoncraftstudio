@@ -42,7 +42,7 @@ export const mathPuzzleDeContent: ProductPageContent = {
 Mathe-Rätsel verbinden spielerisches Lernen mit mathematischen Grundlagen. Kinder lösen Additions- und Subtraktionsaufgaben, um ein Bilderrätsel zu vervollständigen. Jedes Arbeitsblatt enthält ein Raster mit Rechenaufgaben. Die richtigen Lösungen ergeben ein verstecktes Bild. Das motiviert Kinder zum Weiterrechnen und macht Rechnen lernen zum Abenteuer.
 
 Unser Mathe-Rätsel Generator erstellt individuelle Arbeitsblätter für die 1. Klasse bis zur 3. Klasse. Wählen Sie zwischen Addition, Subtraktion oder einer Mischung aus beiden. Die Rastergrößen reichen von 2×2 bis 4×4 Feldern. Mit Ihrem Abonnement erhalten Sie Zugang zu über 3000 kinderfreundlichen Bildern. Tierbilder, Fahrzeuge, Nahrungsmittel und vieles mehr für Ihre Mathe Arbeitsblätter.`,
-    previewImageSrc: '/samples/english/math puzzle/worksheet.jpeg',
+    previewImageSrc: '/samples/german/math puzzle/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Kostenlos Testen',
       viewSamples: 'Beispiele Ansehen',

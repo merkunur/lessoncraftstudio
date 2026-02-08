@@ -16,7 +16,7 @@ export const chartCountNoContent: ProductPageContent = {
     slug: 'bildediagram-arbeidsark',
     appId: 'chart-count',
     title: 'Bildediagram Arbeidsark - Gratis Arbeidsark for Barn | Matematikk',
-    description: 'Lag gratis arbeidsark for bildediagram og telling. Ubegrenset tilgang til matematikk oppgaver for barnehage og 1. trinn. Last ned PDF på 3 minutter. Perfekt for lærere og foreldre.',
+    description: 'Lag gratis arbeidsark for bildediagram og telling. Ubegrenset tilgang til matematikk oppgaver for barnehage og 1. trinn. Last ned PDF på 3 minutter.',
     keywords: 'bildediagram arbeidsark, tall og telling, matematikk oppgaver, arbeidsark gratis, oppgavehefter barn, finmotorikk øvelser, barnehage, småskoletrinnet, fargeleggingsbilder barn, gangetabellen',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/bildediagram-arbeidsark',
       },

@@ -22,7 +22,7 @@ export const cryptogramItContent: ProductPageContent = {
     slug: 'crittogramma-schede',
     appId: 'cryptogram',
     title: 'Crittogramma Immagini - Schede Gratuite | Generatore Schede',
-    description: 'Schede gratuite crittogramma per bambini. Stampabili gratuiti per scuola infanzia e primaria. Generatore schede didattiche con 3000+ immagini. Perfetto per insegnanti e genitori.',
+    description: 'Schede gratuite crittogramma per bambini. Stampabili gratuiti per scuola infanzia e primaria. Generatore schede didattiche con 3000+ immagini.',
     keywords: 'crittogramma con immagini, schede gratuite, scheda gratuita per bambini, stampabili gratuiti, scheda per scuola dell\'infanzia, schede didattiche scuola primaria, pregrafismo, lettere dell\'alfabeto, schede italiano classe prima, generatore crittogramma, schede didattiche scuola infanzia, schede stampabili, crittogramma bambini, attività didattiche',
     canonicalUrl: 'https://www.lessoncraftstudio.com/it/apps/crittogramma-schede',
       },

@@ -17,7 +17,7 @@ export const drawAndColorPtContent: ProductPageContent = {
   seo: {
     slug: 'desenho-grade-fichas',
     appId: 'draw-and-color',
-    title: 'Desenho em Grade - Atividade Gratis para Educacao Infantil e Criancas',
+    title: 'Desenho em Grade - Atividade Gr\u00e1tis para Educa\u00e7\u00e3o Infantil e Crian\u00e7as',
     description: 'Crie atividades de desenho em grade com nosso gerador profissional. Sua assinatura Acesso Completo oferece criação ilimitada de fichas sem taxas por atividade.',
     keywords: 'atividades para imprimir, desenhos para colorir, educação infantil, coordenação motora, atividades de matemática, 1º ano, 2º ano, pontilhado, tabuada, atividades de alfabetização, atividades vogais, letra cursiva',
     canonicalUrl: 'https://www.lessoncraftstudio.com/pt/apps/desenho-grade-fichas',

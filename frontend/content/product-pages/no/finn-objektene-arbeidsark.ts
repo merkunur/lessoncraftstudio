@@ -16,7 +16,7 @@ export const findObjectsNoContent: ProductPageContent = {
     slug: 'finn-objektene-arbeidsark',
     appId: 'find-objects',
     title: 'Finn Objektene Arbeidsark Gratis - Visuell Diskriminering Generator',
-    description: 'Lag gratis arbeidsark for barn med finn objektene aktiviteter. Gratis utskrifter med I Spy og Odd One Out. Last ned arbeidsark for 1. trinn på 3 min. Perfekt for lærere og foreldre.',
+    description: 'Lag gratis arbeidsark for barn med finn objektene aktiviteter. Gratis utskrifter med I Spy og Odd One Out. Last ned arbeidsark for 1. trinn på 3 min.',
     keywords: 'finn objektene arbeidsark, arbeidsark gratis, matematikk oppgaver, finmotorikk øvelser, oppgavehefter barn, tall og telling, småskoletrinnet, i spy aktiviteter, visuell diskriminering, fargeleggingsbilder barn',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/finn-objektene-arbeidsark',
       },

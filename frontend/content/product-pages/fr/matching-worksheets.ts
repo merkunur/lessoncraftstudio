@@ -15,8 +15,8 @@ export const matchingFrContent: ProductPageContent = {
   seo: {
     slug: 'association-fiches',
     appId: 'matching',
-    title: 'Fiches d\'Association | Fiches Maternelle et Exercices CP pour',
-    description: 'Créez des fiches d\'association professionnelles avec notre générateur MatchUp Maker. Votre abonnement Pack Essentiel vous donne un accès illimité à la création.',
+    title: 'Fiches d\'Association Gratuites | G\u00e9n\u00e9rateur Maternelle CP',
+    description: 'Cr\u00e9ez des fiches d\'association gratuites pour maternelle et CP. G\u00e9n\u00e9rateur avec 3 000+ images. T\u00e9l\u00e9chargez PDF haute qualit\u00e9 en 3 minutes.',
     keywords: 'fiches association, fiches maternelle, exercices CP, fiches à imprimer gratuit, apprendre à lire, fiches alphabet, graphisme maternelle, exercices maths, apprendre les lettres, coloriage à imprimer, écriture cursive, tables de multiplication',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fr/apps/association-fiches',
       },
@@ -30,7 +30,7 @@ export const matchingFrContent: ProductPageContent = {
 Notre générateur de fiches d'association aide les enseignants à créer des exercices éducatifs où les élèves tracent des lignes pour relier des paires correspondantes. Choisissez parmi quatre modes d'association incluant l'association image-lettre pour apprendre les lettres de l'alphabet. Essayez l'association image-mot pour les exercices CP de lecture. Utilisez l'association vocabulaire personnalisé pour les fiches de phonologie et la compréhension en lecture. Parfait pour le développement des compétences en lecture dans les classes de maternelle et d'école élémentaire.
 
 MatchUp Maker offre une création de contenu flexible pour toutes les matières. Créez des exercices maths avec association visuelle pour la reconnaissance des nombres et la pratique du calcul. Générez des fiches d'addition où les élèves associent problèmes et réponses. Construisez des fiches alphabet pour la reconnaissance des lettres en maternelle. Concevez des activités de graphisme maternelle combinées avec des exercices d'association pour le développement de la motricité fine. Tout le contenu utilise notre bibliothèque de plus de 3000 images adaptées aux enfants.`,
-    previewImageSrc: '/samples/english/matching/matching portrait.jpeg',
+    previewImageSrc: '/samples/french/matching/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Essayer Gratuitement',
       viewSamples: 'Voir les Exemples',

@@ -17,7 +17,7 @@ export const wordGuessFiContent: ProductPageContent = {
   seo: {
     slug: 'kuva-arvaus-tyoarkit',
     appId: 'word-guess',
-    title: 'Tulostettavat Tehtävät Lapsille Ilmainen | Ilmaiset Tehtävät',
+    title: 'Kuva-arvaus Tehtävät Lapsille | Tulostettavat Työarkit',
     description: 'Luo ammattimaisia kuva-arvaustehtäviä kuvan vihjeillä muutamassa minuutissa. Täysi Käyttöoikeus -tilauksesi antaa sinulle rajattoman kuva-arvaustehtävien.',
     keywords: 'kuva-arvaustehtävät, tulostettavat tehtävät lapsille ilmainen, esiopetus materiaali ilmainen, kirjaimet harjoittelu esikoulu, lukemaan oppiminen tehtävät, matematiikka tehtävät alakoulu',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/kuva-arvaus-tyoarkit',

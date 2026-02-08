@@ -18,9 +18,8 @@ export const mathWorksheetsEnContent: ProductPageContent = {
     title: 'Free Math Worksheets for Kindergarten | Math Puzzle Generator',
     description: 'Create picture-based math puzzles with our math worksheet generator. Free printable worksheets for kindergarten and first grade. Download PDF in 3 minutes.',
     keywords: 'math worksheets, free printable worksheets, kindergarten worksheets, first grade worksheets, printable math worksheets, worksheet for kids, free worksheet, free worksheets, free printables, math puzzle worksheets',
-
-    // Google Image Thumbnails - Required for search result images
-      },
+    canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/math-worksheets',
+  },
 
   // Hero Section - FULL text from math-worksheet.md paragraphs 1-6
   hero: {

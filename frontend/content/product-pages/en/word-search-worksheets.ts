@@ -31,7 +31,7 @@ export const wordSearchEnContent: ProductPageContent = {
 Our word search maker helps you create engaging learning activities for young students. Choose from over 3000 child-friendly images organized by theme. Each word search worksheet downloads as a high-quality PDF or JPEG. Your students will love searching for hidden words based on colorful pictures. Core Bundle subscription removes watermark and includes commercial licensing.
 
 This word search generator works in 11 languages. Select a theme like animals or transportation. The app creates a complete word search puzzle with answer key. Edit everything on the canvas before downloading. Add custom text, change colors, or upload your own images. Generate unlimited printable worksheets for classroom or homeschool use.`,
-    previewImageSrc: '/samples/english/wordsearch/wordsearch portrait.jpeg',
+    previewImageSrc: '/samples/english/wordsearch/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Try Free',
       viewSamples: 'View Samples',

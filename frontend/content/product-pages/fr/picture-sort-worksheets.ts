@@ -34,7 +34,7 @@ Les activités de tri d'images développent la pensée logique chez les jeunes e
 L'interface intuitive permet de créer des fiches à imprimer gratuit adaptées à vos besoins pédagogiques. Sélectionnez des thèmes automatiquement ou choisissez manuellement jusqu'à 12 images. Ajustez la mise en page selon le format Letter ou A4. Personnalisez chaque élément sur le canevas avec une édition complète.
 
 Notre générateur s'adresse aux enseignants de maternelle GS, CP et CE1. Les fiches de tri conviennent parfaitement aux activités de graphisme maternelle et de reconnaissance visuelle. Utilisez-les pour enseigner les catégories, les comparaisons et la classification logique. Chaque fiche téléchargeable inclut des instructions claires et un corrigé détaillé.`,
-    previewImageSrc: '/samples/english/picture sort/picture sort portrait.jpeg',
+    previewImageSrc: '/samples/french/picture sort/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Essayer Gratuitement',
       viewSamples: 'Voir les Exemples',

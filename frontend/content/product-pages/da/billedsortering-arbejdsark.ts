@@ -18,7 +18,7 @@ export const billedsorteringDaContent: ProductPageContent = {
     slug: 'billedsortering-arbejdsark',
     appId: 'picture-sort',
     title: 'Billedsortering Gratis Arbejdsark - Generator til Børnehaveklasse',
-    description: 'Lav billedsortering gratis arbejdsark med vores generator. Download gratis printables som PDF. Arbejdsark til børn for børnehaveklasse på 3 minutter! Perfekt til lærere og forældre.',
+    description: 'Lav billedsortering gratis arbejdsark med vores generator. Download gratis printables som PDF. Arbejdsark til børn for børnehaveklasse på 3 minutter!.',
     keywords: 'billedsortering, gratis arbejdsark, gratis arbejdsark til børn, gratis printables, arbejdsark til børn, arbejdsark til børnehaveklasse, 0. klasse opgaver, 1. klasse, kopiark, kategorisering, sorteringsaktiviteter',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/billedsortering-arbejdsark',
       },

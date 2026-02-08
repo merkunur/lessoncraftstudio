@@ -34,7 +34,7 @@ Picture crossword puzzles make learning fun for early readers. Students look at 
 Create differentiated free printable worksheets for every student level. Your subscription includes access to 3000+ themed images across animals, food, transportation, and classroom objects. Combine our crossword maker with other worksheet generators to build complete learning packets mixing phonics worksheets, math worksheets, and alphabet worksheets practice.
 
 Generate crossword puzzles in 11 languages including English, Spanish, French, German, Italian, Portuguese, Dutch, Danish, Swedish, Norwegian, and Finnish. This makes our generator perfect for ESL teachers creating sight words worksheets and vocabulary practice. Each crossword downloads as a professional 300 DPI PDF ready for classroom use or commercial selling on Teachers Pay Teachers.`,
-    previewImageSrc: '/samples/english/crossword/crossword_worksheet.jpeg',
+    previewImageSrc: '/samples/english/crossword/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Try Free',
       viewSamples: 'View Samples',

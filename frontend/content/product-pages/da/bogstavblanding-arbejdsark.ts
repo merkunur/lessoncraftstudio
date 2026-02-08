@@ -16,7 +16,7 @@ export const wordScrambleDaContent: ProductPageContent = {
     slug: 'bogstavblanding-arbejdsark',
     appId: 'word-scramble',
     title: 'Gratis Arbejdsark Bogstavblanding | Generator til Børnehaveklasse',
-    description: 'Lav gratis arbejdsark med bogstavblanding-generatoren. Professionelle ordøvelser til børnehaveklasse og 1. klasse. Download PDF på under 3 minutter. Perfekt til lærere og forældre.',
+    description: 'Lav gratis arbejdsark med bogstavblanding-generatoren. Professionelle ordøvelser til børnehaveklasse og 1. klasse. Download PDF på under 3 minutter.',
     keywords: 'bogstavblanding, gratis arbejdsark, gratis arbejdsark til børn, gratis printables, arbejdsark til børn, arbejdsark til børnehaveklasse, lære bogstaver, læse og skrive, stavning',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/bogstavblanding-arbejdsark',
       },

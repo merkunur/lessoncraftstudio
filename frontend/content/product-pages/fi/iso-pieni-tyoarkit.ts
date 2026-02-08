@@ -15,7 +15,7 @@ export const bigSmallFiContent: ProductPageContent = {
   seo: {
     slug: 'iso-pieni-tyoarkit',
     appId: 'big-small',
-    title: 'Tulostettavat Tehtävät Lapsille Ilmainen | Ilmaiset Tehtävät',
+    title: 'Iso ja Pieni Tehtävät Lapsille | Tulostettavat Työarkit',
     description: 'Luo ammattimaisia kokovertailutehtäviä Iso ja Pieni -työkalulla. Täysi Käyttöoikeus -tilaus antaa rajattoman pääsyn kaikkiin 33 tehtävämonisteen.',
     keywords: 'tulostettavat tehtävät lapsille ilmainen, iso ja pieni tehtävät, esiopetus materiaali ilmainen, matematiikka tehtävät alakoulu, kokovertailu tehtävät, hienomotoriikka harjoitukset',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/iso-pieni-tyoarkit',

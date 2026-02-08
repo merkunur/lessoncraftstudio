@@ -19,7 +19,7 @@ export const writingFrContent: ProductPageContent = {
     slug: 'ecriture-fiches',
     appId: 'writing',
     title: 'Fiches Écriture Gratuites Maternelle CP | Générateur Graphisme',
-    description: 'Créez des fiches écriture gratuites pour maternelle et CP. Graphisme, lettres alphabet, mots fréquents. Téléchargez PDF 300 DPI en 3 minutes. Parfait pour enseignants et parents.',
+    description: 'Créez des fiches écriture gratuites pour maternelle et CP. Graphisme, lettres alphabet, mots fréquents. Téléchargez PDF 300 DPI en 3 minutes.',
     keywords: 'fiches écriture, fiches gratuites, graphisme maternelle, exercices CP, apprendre à écrire, lettres alphabet, écriture cursive, fiches maternelle, mots fréquents, fiches phonétique, coloriage à imprimer, exercices maths, fiches addition, fiches alphabet',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fr/apps/ecriture-fiches',
       },

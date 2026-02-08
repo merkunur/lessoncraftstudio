@@ -19,7 +19,7 @@ export const moreLessFrContent: ProductPageContent = {
     slug: 'comparaison-quantites-fiches',
     appId: 'more-less',
     title: 'Fiches Comparaison Plus Moins Égal | Exercices Maths Gratuits',
-    description: 'Créez des fiches de comparaison plus/moins/égal professionnelles. Exercices maths maternelle et CP. PDF haute qualité en 3 minutes. Essai gratuit ! Parfait pour enseignants et parents.',
+    description: 'Créez des fiches de comparaison plus/moins/égal professionnelles. Exercices maths maternelle et CP. PDF haute qualité en 3 minutes.',
     keywords: 'fiches à imprimer gratuit, fiches maternelle, exercices maths, exercices CP, plus moins égal, comparaison, graphisme maternelle, coloriage à imprimer, apprendre à lire, alphabet, écriture cursive, tables de multiplication, exercices CE1',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fr/apps/comparaison-quantites-fiches',
       },

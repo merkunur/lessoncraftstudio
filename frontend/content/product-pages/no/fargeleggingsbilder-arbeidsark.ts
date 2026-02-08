@@ -16,7 +16,7 @@ export const coloringNoContent: ProductPageContent = {
     slug: 'fargeleggingsbilder-arbeidsark',
     appId: 'coloring',
     title: 'Fargeleggingsbilder Barn - Gratis Arbeidsark for Barn | Generator',
-    description: 'Lag gratis arbeidsark for barn med fargeleggingsbilder. Perfekt for småskoletrinnet og 1. trinn. Last ned PDF på 3 min. 3000+ bilder tilgjengelig. Perfekt for lærere og foreldre.',
+    description: 'Lag gratis arbeidsark for barn med fargeleggingsbilder. Perfekt for småskoletrinnet og 1. trinn. Last ned PDF på 3 min. 3000+ bilder tilgjengelig.',
     keywords: 'fargeleggingsbilder barn, arbeidsark gratis, finmotorikk øvelser, småskoletrinnet, fargelegging, barneskole, oppgavehefter barn, bokstaver lære skrive, tall og telling, matematikk oppgaver',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/fargeleggingsbilder-arbeidsark',
       },

@@ -174,7 +174,7 @@ export function generateFAQSchema(faqItems: FAQItem[], locale: string = 'en'): o
 
   // Convert locale to proper hreflang format for regional variants
   const hreflangMap: Record<string, string> = {
-    en: 'en', de: 'de', fr: 'fr', es: 'es-MX', pt: 'pt-BR',
+    en: 'en', de: 'de', fr: 'fr', es: 'es', pt: 'pt-BR',
     it: 'it', nl: 'nl', sv: 'sv', da: 'da', no: 'no', fi: 'fi'
   };
   const inLanguage = hreflangMap[locale] || locale;
@@ -213,7 +213,7 @@ export function generateHowToSchema(
 
   // Convert locale to proper hreflang format for regional variants
   const hreflangMap: Record<string, string> = {
-    en: 'en', de: 'de', fr: 'fr', es: 'es-MX', pt: 'pt-BR',
+    en: 'en', de: 'de', fr: 'fr', es: 'es', pt: 'pt-BR',
     it: 'it', nl: 'nl', sv: 'sv', da: 'da', no: 'no', fi: 'fi'
   };
   const inLanguage = hreflangMap[locale] || locale;

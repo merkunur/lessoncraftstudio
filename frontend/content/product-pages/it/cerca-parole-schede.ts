@@ -16,7 +16,7 @@ export const wordSearchItContent: ProductPageContent = {
     slug: 'cerca-parole-schede',
     appId: 'wordsearch',
     title: 'Crucipuzzle Scheda Gratuita per Bambini - Stampabili Gratuiti di',
-    description: 'Crea crucipuzzle professionali con il nostro generatore di schede didattiche. Genera schede didattiche scuola primaria illimitate per la scuola dell\'infanzia e.',
+    description: 'Crea crucipuzzle professionali con il nostro generatore di schede didattiche. Genera schede didattiche scuola primaria illimitate per la scuola.',
     keywords: 'crucipuzzle, schede didattiche, scuola primaria, schede stampabili, generatore crucipuzzle, schede didattiche scuola primaria, schede italiano classe prima, pregrafismo, alfabeto, schede matematica',
     canonicalUrl: 'https://www.lessoncraftstudio.com/it/apps/cerca-parole-schede',
       },

@@ -15,7 +15,7 @@ export const writingPtContent: ProductPageContent = {
   seo: {
     slug: 'caligrafia-fichas',
     appId: 'writing',
-    title: 'Atividades de Caligrafia Gratis para Criancas | Planilhas Grátis',
+    title: 'Atividades de Caligrafia Gr\u00e1tis para Crian\u00e7as | Planilhas Gr\u00e1tis',
     description: 'Crie atividades de caligrafia profissionais com nosso gerador de fichas de escrita. Sua assinatura Acesso Completo oferece criação ilimitada de atividades para.',
     keywords: 'atividades de caligrafia, atividades para imprimir, letra cursiva, pontilhado, alfabetização, educação infantil, 1º ano, 2º ano, coordenação motora, atividades vogais, atividades alfabeto',
     canonicalUrl: 'https://www.lessoncraftstudio.com/pt/apps/caligrafia-fichas',

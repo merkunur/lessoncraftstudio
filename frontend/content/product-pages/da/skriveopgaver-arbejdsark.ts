@@ -16,7 +16,7 @@ export const writingDaContent: ProductPageContent = {
     slug: 'skriveopgaver-arbejdsark',
     appId: 'writing',
     title: 'Skriveopgaver Gratis Arbejdsark til Børn - Børnehaveklasse',
-    description: 'Lav gratis arbejdsark til børn med skriveopgaver og skrifttræning. Arbejdsark til børnehaveklasse. Download som PDF. 3 gratis eksempler. Perfekt til lærere og forældre.',
+    description: 'Lav gratis arbejdsark til børn med skriveopgaver og skrifttræning. Arbejdsark til børnehaveklasse. Download som PDF. 3 gratis eksempler.',
     keywords: 'gratis arbejdsark, arbejdsark til børn, arbejdsark til børnehaveklasse, skriveopgaver, skrifttræning, gratis printables, 0. klasse, 1. klasse, finmotorik øvelser, lære bogstaver',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/skriveopgaver-arbejdsark',
       },

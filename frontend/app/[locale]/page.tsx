@@ -18,58 +18,58 @@ import { generateFAQSchema } from '@/lib/schema-generator';
 // Localized SEO metadata with researched keywords for all 11 languages
 const homepageMetadata: Record<string, { title: string; description: string; keywords: string }> = {
   en: {
-    title: 'Free Worksheet Generators for Teachers | Math, Coloring & More | LessonCraftStudio',
-    description: '33 free printable worksheet generators with 3,000+ themed images. Create math worksheets, coloring pages, word searches & puzzles in minutes. Download PDF instantly. Commercial license included.',
+    title: 'Free Worksheet Generators for Teachers | LessonCraftStudio',
+    description: 'Create free printable worksheets with 33 generators and 3,000+ images. Math, coloring, word searches & puzzles. Download PDF instantly.',
     keywords: 'kindergarten worksheets, math worksheets, free printable worksheets, worksheet generator, alphabet worksheets, first grade worksheets, addition worksheets, coloring worksheets, phonics worksheets, tracing worksheets'
   },
   de: {
-    title: 'Kostenlose Arbeitsblatt-Generatoren f\u00fcr Lehrer | Mathe, Ausmalbilder & Mehr | LessonCraftStudio',
-    description: '33 kostenlose Arbeitsblatt-Generatoren mit 3.000+ Bildern. Mathe-Arbeitsbl\u00e4tter, Ausmalbilder, Wortsuche & R\u00e4tsel in Minuten erstellen. PDF sofort herunterladen. Kommerzielle Lizenz inklusive.',
+    title: 'Kostenlose Arbeitsblatt-Generatoren | LessonCraftStudio',
+    description: 'Erstellen Sie Arbeitsblätter mit 33 Generatoren und 3.000+ Bildern. Mathe, Ausmalbilder, Wortsuche & Rätsel. PDF sofort herunterladen.',
     keywords: 'Arbeitsblätter Grundschule, Mathe Arbeitsblätter, kostenlose Arbeitsblätter, Vorschule Arbeitsblätter, Ausmalbilder, Buchstaben lernen, Schwungübungen, Einmaleins, Rechnen 1. Klasse, Arbeitsblatt Generator'
   },
   fr: {
-    title: 'G\u00e9n\u00e9rateurs de Fiches Gratuits pour Enseignants | Maths, Coloriage & Plus | LessonCraftStudio',
-    description: '33 g\u00e9n\u00e9rateurs de fiches gratuits avec 3 000+ images. Cr\u00e9ez fiches maths, coloriages, mots cach\u00e9s & puzzles en minutes. T\u00e9l\u00e9chargez le PDF instantan\u00e9ment. Licence commerciale incluse.',
+    title: 'Générateurs de Fiches Gratuits | LessonCraftStudio',
+    description: 'Créez des fiches avec 33 générateurs et 3 000+ images. Maths, coloriages, mots cachés & puzzles. Téléchargez le PDF instantanément.',
     keywords: 'fiches maternelle, exercices CP CE1, coloriage à imprimer, fiches à imprimer gratuit, graphisme maternelle, apprendre à lire, exercices maths, alphabet, tables de multiplication, générateur de fiches'
   },
   es: {
-    title: 'Generadores de Fichas Gratis para Maestros | Matem\u00e1ticas, Colorear & M\u00e1s | LessonCraftStudio',
-    description: '33 generadores de fichas gratis con 3.000+ im\u00e1genes. Cree fichas de matem\u00e1ticas, colorear, sopa de letras y puzzles en minutos. Descargue PDF al instante. Licencia comercial incluida.',
+    title: 'Generadores de Fichas Gratis para Maestros | LessonCraftStudio',
+    description: 'Cree fichas con 33 generadores y 3.000+ imágenes. Matemáticas, colorear, sopa de letras y puzzles. Descargue PDF al instante.',
     keywords: 'fichas para imprimir, fichas infantil, fichas preescolar, grafomotricidad, ejercicios matemáticas, dibujos para colorear, abecedario, fichas gratis, lectoescritura, tablas de multiplicar'
   },
   pt: {
-    title: 'Geradores de Atividades Gr\u00e1tis para Professores | Matem\u00e1tica, Colorir & Mais | LessonCraftStudio',
-    description: '33 geradores de atividades gr\u00e1tis com 3.000+ imagens. Crie atividades de matem\u00e1tica, colorir, ca\u00e7a-palavras e quebra-cabe\u00e7as em minutos. Baixe PDF na hora. Licen\u00e7a comercial inclu\u00edda.',
+    title: 'Geradores de Atividades Grátis | LessonCraftStudio',
+    description: 'Crie atividades com 33 geradores e 3.000+ imagens. Matemática, colorir, caça-palavras e quebra-cabeças. Baixe PDF na hora.',
     keywords: 'atividades para imprimir, atividades educação infantil, atividades de alfabetização, atividades de matemática, desenhos para colorir, coordenação motora, atividades 1º ano, tabuada, letra cursiva, atividades grátis'
   },
   it: {
-    title: 'Generatori di Schede Didattiche Gratis per Insegnanti | Matematica, Colorare & Altro | LessonCraftStudio',
-    description: '33 generatori di schede gratis con 3.000+ immagini. Crea schede di matematica, disegni da colorare, cerca parole e puzzle in pochi minuti. Scarica PDF subito. Licenza commerciale inclusa.',
-    keywords: 'schede didattiche, schede didattiche scuola primaria, pregrafismo, schede matematica, disegni da colorare, tabelline, alfabeto, scuola dell\'infanzia, numeri da stampare, generatori di schede'
+    title: 'Generatori di Schede Didattiche Gratis | LessonCraftStudio',
+    description: 'Crea schede didattiche con 33 generatori e 3.000+ immagini. Matematica, colorare, cerca parole e puzzle. Scarica PDF subito. Gratis.',
+    keywords: "schede didattiche, schede didattiche scuola primaria, pregrafismo, schede matematica, disegni da colorare, tabelline, alfabeto, scuola dell'infanzia, numeri da stampare, generatori di schede"
   },
   nl: {
-    title: 'Gratis Werkblad Generatoren voor Leerkrachten | Rekenen, Kleurplaten & Meer | LessonCraftStudio',
-    description: '33 gratis werkblad generatoren met 3.000+ afbeeldingen. Maak rekenwerkbladen, kleurplaten, woordzoekers & puzzels in minuten. Download PDF direct. Commerci\u00eble licentie inbegrepen.',
+    title: 'Gratis Werkblad Generatoren voor Onderwijs | LessonCraftStudio',
+    description: 'Maak werkbladen met 33 generatoren en 3.000+ afbeeldingen. Rekenen, kleurplaten, woordzoekers & puzzels. Download PDF direct.',
     keywords: 'werkbladen groep 3, werkbladen kleuters, rekenen werkbladen, kleurplaten, oefenbladen gratis, letters leren, tafels oefenen, fijne motoriek, sommen tot 20, werkblad generatoren'
   },
   sv: {
-    title: 'Gratis Arbetsblad Generatorer f\u00f6r L\u00e4rare | Matte, M\u00e5larbilder & Mer | LessonCraftStudio',
-    description: '33 gratis arbetsblad generatorer med 3 000+ bilder. Skapa mattearbetsblad, m\u00e5larbilder, ordjaktar & pussel p\u00e5 minuter. Ladda ner PDF direkt. Kommersiell licens ing\u00e5r.',
+    title: 'Gratis Arbetsblad Generatorer för Lärare | LessonCraftStudio',
+    description: 'Skapa arbetsblad med 33 generatorer och 3 000+ bilder. Matte, målarbilder, ordjaktar & pussel. Ladda ner PDF direkt. Gratis.',
     keywords: 'arbetsblad gratis, matematik arbetsblad, målarbilder barn, förskoleklass material, bokstäver lära sig, multiplikationstabellen, finmotorik övningar, addition subtraktion, siffror tal, arbetsblad generatorer'
   },
   da: {
-    title: 'Gratis Arbejdsark Generatorer for L\u00e6rere | Matematik, Malebog & Mere | LessonCraftStudio',
-    description: '33 gratis arbejdsark generatorer med 3.000+ billeder. Lav matematikopgaver, malebog, ords\u00f8gning & puslespil p\u00e5 minutter. Download PDF med det samme. Kommerciel licens inkluderet.',
+    title: 'Gratis Arbejdsark Generatorer til Lærere | LessonCraftStudio',
+    description: 'Lav arbejdsark med 33 generatorer og 3.000+ billeder. Matematik, malebog, ordsøgning & puslespil. Download PDF med det samme.',
     keywords: 'opgaver til print, matematikopgaver, gratis skoleopgaver, arbejdsark, 0. klasse opgaver, 1. klasse, malebog, gangetabeller, finmotorik øvelser, lære bogstaver'
   },
   no: {
-    title: 'Gratis Arbeidsark Generatorer for L\u00e6rere | Matte, Fargelegging & Mer | LessonCraftStudio',
-    description: '33 gratis arbeidsark generatorer med 3 000+ bilder. Lag matteoppgaver, fargeleggingsbilder, ords\u00f8k & puslespill p\u00e5 minutter. Last ned PDF direkte. Kommersiell lisens inkludert.',
+    title: 'Gratis Arbeidsark Generatorer for Lærere | LessonCraftStudio',
+    description: 'Lag arbeidsark med 33 generatorer og 3 000+ bilder. Matte, fargelegging, ordsøk & puslespill. Last ned PDF direkte. Gratis.',
     keywords: 'arbeidsark gratis, matteoppgaver, fargeleggingsbilder barn, oppgavehefter barn, gangetabellen, addisjon subtraksjon, finmotorikk øvelser, bokstaver lære skrive, lesetrening, arbeidsark generatorer'
   },
   fi: {
-    title: 'Ilmaiset Ty\u00f6arkki Generaattorit Opettajille | Matematiikka, V\u00e4ritys & Lis\u00e4\u00e4 | LessonCraftStudio',
-    description: '33 ilmaista ty\u00f6arkki-generaattoria 3 000+ kuvalla. Luo matematiikkateht\u00e4vi\u00e4, v\u00e4rityskuvia, sanaristikkoja & pulmia minuuteissa. Lataa PDF heti. Kaupallinen lisenssi sis\u00e4ltyy.',
+    title: 'Ilmaiset Työarkki-Generaattorit | LessonCraftStudio',
+    description: 'Luo työarkkeja 33 generaattorilla ja 3 000+ kuvalla. Matematiikka, väritys, sanaristikot & pulmat. Lataa PDF heti. Ilmainen.',
     keywords: 'tulostettavat tehtävät lapsille ilmainen, esiopetus materiaali, matematiikka tehtävät alakoulu, värityskuvia lapsille, kertotaulut, hienomotoriikka harjoitukset, kirjaimet harjoittelu, yhteenlasku vähennyslasku, lukemaan oppiminen, työarkki generaattorit'
   }
 };

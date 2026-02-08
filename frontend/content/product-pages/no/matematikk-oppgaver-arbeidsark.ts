@@ -16,7 +16,7 @@ export const mathWorksheetsNoContent: ProductPageContent = {
     slug: 'matematikk-oppgaver-arbeidsark',
     appId: 'math-worksheet',
     title: 'Matematikk Oppgaver - Arbeidsark Gratis for Barn | Generator PDF',
-    description: 'Lag gratis matematikk oppgaver for barn. Bildebaserte matteoppgaver for småskoletrinnet. Last ned PDF arbeidsark på 3 min. 3000+ bilder tilgjengelig. Perfekt for lærere og foreldre.',
+    description: 'Lag gratis matematikk oppgaver for barn. Bildebaserte matteoppgaver for småskoletrinnet. Last ned PDF arbeidsark på 3 min. 3000+ bilder tilgjengelig.',
     keywords: 'matematikk oppgaver, arbeidsark gratis, matteoppgaver, oppgavehefter barn, addisjon og subtraksjon, tall og telling, småskoletrinnet, barneskolen, gangetabellen, fargeleggingsbilder barn',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/matematikk-oppgaver-arbeidsark',
       },

@@ -1,7 +1,7 @@
 'use client';
 
 import { motion, useScroll, useTransform } from 'framer-motion';
-import { useRef, useState } from 'react';
+import { useRef, useState, useEffect } from 'react';
 import Link from 'next/link';
 
 // Collapsible text component for step descriptions
@@ -109,6 +109,11 @@ export default function HowToGuide({
 
   const lineHeight = useTransform(scrollYProgress, [0, 0.8], ['0%', '100%']);
 
+  const [hasMounted, setHasMounted] = useState(false);
+  // Only apply hidden initial state after client hydration to keep SSR HTML visible for SEO
+  // This prevents opacity:0 from appearing in server-rendered HTML which crawlers see
+  useEffect(() => { setHasMounted(true); }, []);
+
   const stepVariants = {
     hidden: { opacity: 0, y: 40 },
     visible: (i: number) => ({
@@ -134,11 +139,13 @@ export default function HowToGuide({
         {/* Section header */}
         <motion.div
           className="text-center mb-20"
+          initial={hasMounted ? { opacity: 0, y: 20 } : false}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
           <motion.div
+            initial={hasMounted ? { opacity: 0, scale: 0.9 } : false}
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
             className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-emerald-50 border border-emerald-100 text-sm font-medium text-emerald-700 mb-6"
@@ -194,7 +201,7 @@ export default function HowToGuide({
                   key={step.id}
                   custom={index}
                   variants={stepVariants}
-                  initial="hidden"
+                  initial={hasMounted ? "hidden" : false}
                   whileInView="visible"
                   viewport={{ once: true, margin: '-50px' }}
                   className={`relative flex items-center gap-6 lg:gap-0 ${

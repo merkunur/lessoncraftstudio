@@ -1,6 +1,6 @@
 'use client';
 
-import { useRef } from 'react';
+import { useRef, useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
 
@@ -73,6 +73,9 @@ export default function RelatedApps({
   trustBadges = defaultProps.trustBadges,
 }: RelatedAppsProps) {
   const scrollContainerRef = useRef<HTMLDivElement>(null);
+  // Only apply hidden initial state after client hydration to keep SSR HTML visible for SEO
+  const [hasMounted, setHasMounted] = useState(false);
+  useEffect(() => { setHasMounted(true); }, []);
 
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -106,11 +109,13 @@ export default function RelatedApps({
           {/* Section header */}
           <motion.div
             className="text-center mb-12"
+            initial={hasMounted ? { opacity: 0, y: 20 } : false}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
             <motion.div
+              initial={hasMounted ? { opacity: 0, scale: 0.9 } : false}
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
               className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-amber-50 border border-amber-100 text-sm font-medium text-amber-700 mb-6"
@@ -139,7 +144,7 @@ export default function RelatedApps({
           <motion.div
             className="hidden md:grid md:grid-cols-2 lg:grid-cols-3 gap-6"
             variants={containerVariants}
-            initial="hidden"
+            initial={hasMounted ? "hidden" : false}
             whileInView="visible"
             viewport={{ once: true, margin: '-50px' }}
           >
@@ -300,6 +305,7 @@ export default function RelatedApps({
         <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           {/* Main CTA content */}
           <motion.div
+            initial={hasMounted ? { opacity: 0, y: 20 } : false}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.7, delay: 0.2 }}

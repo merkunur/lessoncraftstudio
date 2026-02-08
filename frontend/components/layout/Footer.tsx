@@ -208,7 +208,7 @@ export function Footer() {
               <ul className="space-y-2 text-sm">
                 {sections.support.links?.helpCenter && (
                   <li>
-                    <Link href={`/${locale}/help`} className="hover:text-white">
+                    <Link href={`/${locale}/faq`} className="hover:text-white">
                       {sections.support.links.helpCenter}
                     </Link>
                   </li>

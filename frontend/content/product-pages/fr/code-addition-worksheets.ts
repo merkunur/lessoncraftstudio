@@ -229,6 +229,81 @@ Générez ensuite le corrigé automatique. Le corrigé reprend exactement la mê
         question: 'Un corrig\u00e9 est-il fourni avec les fiches ?',
         answer: 'Oui, chaque fiche d\'addition cod\u00e9e g\u00e9n\u00e8re automatiquement un corrig\u00e9 qui montre le message ou l\'image d\u00e9cod\u00e9 ainsi que toutes les r\u00e9ponses. Le corrig\u00e9 se t\u00e9l\u00e9charge s\u00e9par\u00e9ment en format PDF ou JPEG, ce qui facilite la correction rapide ou l\'auto-\u00e9valuation par les \u00e9l\u00e8ves.',
       },
+      {
+        id: 'faq-6',
+        question: 'Quels formats de fichier sont disponibles pour les fiches d\'addition cod\u00e9e ?',
+        answer: 'Les fiches se t\u00e9l\u00e9chargent en PDF pour une impression professionnelle ou en JPEG pour le partage num\u00e9rique. La r\u00e9solution 300 DPI assure que la l\u00e9gende, les images et les espaces de r\u00e9ponse restent parfaitement nets et lisibles.',
+      },
+      {
+        id: 'faq-7',
+        question: 'L\'addition cod\u00e9e est-elle disponible en plusieurs langues ?',
+        answer: 'Oui, le g\u00e9n\u00e9rateur prend en charge onze langues. Les noms d\'images dans la biblioth\u00e8que s\'adaptent automatiquement \u00e0 la langue choisie. Les consignes de la fiche apparaissent \u00e9galement dans la langue s\u00e9lectionn\u00e9e.',
+      },
+      {
+        id: 'faq-8',
+        question: 'Comment personnaliser la l\u00e9gende de d\u00e9codage ?',
+        answer: 'La l\u00e9gende associe automatiquement 5 images \u00e0 des nombres de votre plage d\u00e9finie. Vous pouvez r\u00e9g\u00e9n\u00e9rer pour obtenir des associations diff\u00e9rentes. Les images de la l\u00e9gende proviennent de votre s\u00e9lection th\u00e9matique ou de vos images personnalis\u00e9es.',
+      },
+      {
+        id: 'faq-9',
+        question: 'Comment optimiser l\'impression des fiches d\'addition cod\u00e9e ?',
+        answer: 'Imprimez le PDF en qualit\u00e9 maximale pour que les images de la l\u00e9gende restent clairement identifiables. Utilisez du papier blanc A4 standard. V\u00e9rifiez que la l\u00e9gende en haut de la fiche est bien visible car les \u00e9l\u00e8ves s\'y r\u00e9f\u00e8rent constamment.',
+      },
+      {
+        id: 'faq-10',
+        question: 'La licence commerciale couvre-t-elle les fiches d\'addition cod\u00e9e ?',
+        answer: 'Oui, votre abonnement Acc\u00e8s Complet inclut une licence commerciale pour toutes les fiches cr\u00e9\u00e9es. Vendez des packs d\'addition cod\u00e9e th\u00e9matiques sur Teachers Pay Teachers ou d\'autres plateformes sans restriction de volume.',
+      },
+      {
+        id: 'faq-11',
+        question: 'Quel abonnement donne acc\u00e8s au g\u00e9n\u00e9rateur d\'addition cod\u00e9e ?',
+        answer: 'L\'abonnement Acc\u00e8s Complet \u00e0 240 \u20ac par an inclut les 33 g\u00e9n\u00e9rateurs, dont l\'addition cod\u00e9e. Cr\u00e9ation illimit\u00e9e de fiches avec corrig\u00e9s automatiques. Paiement s\u00e9curis\u00e9 et r\u00e9siliation flexible \u00e0 tout moment.',
+      },
+      {
+        id: 'faq-12',
+        question: 'Peut-on utiliser des images personnalis\u00e9es dans la l\u00e9gende ?',
+        answer: 'Oui, t\u00e9l\u00e9versez vos propres images pour remplacer celles de la biblioth\u00e8que. Les photos de classe, les mascottes d\'\u00e9cole ou les objets du quotidien rendent les exercices plus concrets et motivants pour les \u00e9l\u00e8ves.',
+      },
+      {
+        id: 'faq-13',
+        question: 'L\'addition cod\u00e9e est-elle conforme au programme scolaire ?',
+        answer: 'L\'addition cod\u00e9e combine d\u00e9codage et calcul, deux comp\u00e9tences cl\u00e9s des cycles 1 et 2. Le d\u00e9codage pr\u00e9pare \u00e0 la lecture, tandis que l\'addition renforce la num\u00e9ration. Les plages de nombres correspondent aux attendus de maternelle, CP et CE1.',
+      },
+      {
+        id: 'faq-14',
+        question: 'Comment adapter l\'addition cod\u00e9e pour les \u00e9l\u00e8ves en difficult\u00e9 ?',
+        answer: 'R\u00e9duisez le nombre de probl\u00e8mes \u00e0 3 et limitez les nombres \u00e0 1-3. Choisissez des images tr\u00e8s distinctes dans la l\u00e9gende pour faciliter le d\u00e9codage. Vous pouvez aussi agrandir la l\u00e9gende sur le canevas pour am\u00e9liorer la lisibilit\u00e9.',
+      },
+      {
+        id: 'faq-15',
+        question: 'Quels formats de page sont propos\u00e9s ?',
+        answer: 'Les formats Letter et A4 sont disponibles en portrait ou paysage. Le portrait A4 convient le mieux car la l\u00e9gende en haut et les exercices en dessous s\'organisent naturellement en vertical. Le paysage offre plus d\'espace pour les grandes l\u00e9gendes.',
+      },
+      {
+        id: 'faq-16',
+        question: 'L\'option niveaux de gris fonctionne-t-elle avec les images de la l\u00e9gende ?',
+        answer: 'Oui, les images de la l\u00e9gende restent reconnaissables en noir et blanc. Les contours et formes distinctives de chaque image assurent le d\u00e9codage. Cependant, les versions couleur sont recommand\u00e9es pour les plus jeunes enfants.',
+      },
+      {
+        id: 'faq-17',
+        question: 'Comment \u00e9diter la fiche d\'addition cod\u00e9e sur le canevas ?',
+        answer: 'Cliquez sur la l\u00e9gende ou les exercices pour les d\u00e9placer et les redimensionner. Ajoutez des consignes personnalis\u00e9es ou le nom de l\'\u00e9l\u00e8ve. Modifiez l\'arri\u00e8re-plan et les bordures pour cr\u00e9er des fiches th\u00e9matiques attrayantes.',
+      },
+      {
+        id: 'faq-18',
+        question: 'Peut-on combiner l\'addition cod\u00e9e avec d\'autres g\u00e9n\u00e9rateurs ?',
+        answer: 'Oui, combinez avec l\'addition classique pour varier les approches ou avec les cryptogrammes pour renforcer le d\u00e9codage. Les coloriages th\u00e9matiques assortis cr\u00e9ent des pauses cr\u00e9atives entre les exercices de calcul.',
+      },
+      {
+        id: 'faq-19',
+        question: 'Quels sont les avantages cognitifs de l\'addition cod\u00e9e ?',
+        answer: 'L\'addition cod\u00e9e sollicite la m\u00e9moire de travail en obligeant l\'\u00e9l\u00e8ve \u00e0 retenir les associations image-nombre. Le va-et-vient entre la l\u00e9gende et les exercices d\u00e9veloppe la flexibilit\u00e9 cognitive. Cette double t\u00e2che pr\u00e9pare aux raisonnements plus complexes du cycle 2.',
+      },
+      {
+        id: 'faq-20',
+        question: 'Combien de temps faut-il pour cr\u00e9er une fiche d\'addition cod\u00e9e ?',
+        answer: 'La cr\u00e9ation ne prend que trois minutes. S\u00e9lectionnez 5 images, d\u00e9finissez la plage de nombres et le nombre de probl\u00e8mes, puis cliquez sur Cr\u00e9er. La fiche avec sa l\u00e9gende et son corrig\u00e9 sont g\u00e9n\u00e9r\u00e9s instantan\u00e9ment.',
+      },
     ],
 
   },

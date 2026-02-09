@@ -227,6 +227,81 @@ Générez également le corrigé en un clic. La fiche réponse montre les soluti
         question: 'Les fiches incluent-elles un corrig\u00e9 ?',
         answer: 'Oui, un corrig\u00e9 automatique est g\u00e9n\u00e9r\u00e9 pour chaque fiche. La fiche r\u00e9ponse montre les solutions avec des coches vertes pour les exercices d\'identification et des num\u00e9ros pour les exercices de classement. Vous pouvez t\u00e9l\u00e9charger le corrig\u00e9 s\u00e9par\u00e9ment pour la correction ou l\'auto-\u00e9valuation des \u00e9l\u00e8ves.',
       },
+      {
+        id: 'faq-6',
+        question: 'Quels formats de fichier sont disponibles pour les fiches grand et petit ?',
+        answer: 'Les fiches se t\u00e9l\u00e9chargent en PDF pour l\'impression ou en JPEG pour le partage num\u00e9rique. La r\u00e9solution de 300 DPI assure des images claires o\u00f9 l\'\u00e9cart de taille entre les objets reste bien visible. Le corrig\u00e9 se t\u00e9l\u00e9charge s\u00e9par\u00e9ment dans les m\u00eames formats.',
+      },
+      {
+        id: 'faq-7',
+        question: 'Les fiches grand et petit fonctionnent-elles en plusieurs langues ?',
+        answer: 'Oui, le g\u00e9n\u00e9rateur prend en charge onze langues pour les noms d\'images et les consignes. Les \u00e9tiquettes s\'adaptent automatiquement \u00e0 la langue s\u00e9lectionn\u00e9e. Parfait pour les classes bilingues ou l\'enseignement du fran\u00e7ais langue \u00e9trang\u00e8re.',
+      },
+      {
+        id: 'faq-8',
+        question: 'Quelle est la diff\u00e9rence entre les exercices avec 2 et 3 images ?',
+        answer: 'Les exercices \u00e0 2 images proposent une comparaison directe entre grand et petit, id\u00e9ale pour les d\u00e9butants. Les exercices \u00e0 3 images introduisent la notion de taille moyenne et permettent des classements, ce qui d\u00e9veloppe davantage le raisonnement logique.',
+      },
+      {
+        id: 'faq-9',
+        question: 'Comment optimiser l\'impression des fiches de comparaison de tailles ?',
+        answer: 'Imprimez en format PDF sur papier A4 blanc pour un contraste optimal. Les diff\u00e9rences de taille doivent rester clairement visibles apr\u00e8s impression. L\'option niveaux de gris fonctionne bien car la distinction repose sur la taille, pas sur les couleurs.',
+      },
+      {
+        id: 'faq-10',
+        question: 'Puis-je vendre les fiches grand et petit cr\u00e9\u00e9es ?',
+        answer: 'Oui, la licence commerciale de l\'abonnement Acc\u00e8s Complet autorise la vente sur toutes les plateformes \u00e9ducatives. Cr\u00e9ez des cahiers th\u00e9matiques de comparaison de tailles avec diff\u00e9rents th\u00e8mes pour diversifier votre offre commerciale.',
+      },
+      {
+        id: 'faq-11',
+        question: 'Comment fonctionne l\'abonnement Acc\u00e8s Complet ?',
+        answer: 'L\'abonnement Acc\u00e8s Complet \u00e0 240 \u20ac par an donne acc\u00e8s aux 33 g\u00e9n\u00e9rateurs de la plateforme, dont les fiches grand et petit. Cr\u00e9ation illimit\u00e9e, licence commerciale et support inclus. R\u00e9siliation possible \u00e0 tout moment.',
+      },
+      {
+        id: 'faq-12',
+        question: 'Comment t\u00e9l\u00e9verser mes propres images pour les exercices ?',
+        answer: 'Cliquez sur le bouton d\'import et s\u00e9lectionnez vos fichiers JPEG, PNG ou GIF. Vos images s\'ajoutent \u00e0 la s\u00e9lection disponible. Le g\u00e9n\u00e9rateur cr\u00e9e automatiquement les diff\u00e9rentes tailles \u00e0 partir de votre image originale.',
+      },
+      {
+        id: 'faq-13',
+        question: 'Les exercices de comparaison correspondent-ils au programme scolaire ?',
+        answer: 'Oui, la comparaison de tailles fait partie des comp\u00e9tences fondamentales en maternelle. Les programmes du cycle 1 incluent le tri, le classement et la comparaison d\'objets selon diff\u00e9rents crit\u00e8res. Ces fiches r\u00e9pondent directement aux attendus de fin de grande section.',
+      },
+      {
+        id: 'faq-14',
+        question: 'Comment adapter les fiches pour les \u00e9l\u00e8ves ayant des besoins sp\u00e9cifiques ?',
+        answer: 'Limitez le nombre d\'exercices \u00e0 2 ou 3 par fiche et choisissez les exercices avec 2 images seulement. Utilisez des images tr\u00e8s contrast\u00e9es en taille pour faciliter la discrimination. Le mode entourer le plus grand est le plus accessible pour d\u00e9buter.',
+      },
+      {
+        id: 'faq-15',
+        question: 'Quels formats de page sont disponibles pour les fiches ?',
+        answer: 'Les formats Letter et A4 sont propos\u00e9s en portrait et paysage. Le format portrait A4 est le standard pour les fiches scolaires en France. Le nombre d\'exercices s\'adapte automatiquement \u00e0 la taille de page choisie pour un espacement optimal.',
+      },
+      {
+        id: 'faq-16',
+        question: 'L\'impression en noir et blanc est-elle possible ?',
+        answer: 'Oui, l\'option niveaux de gris convertit les fiches en noir et blanc. Les diff\u00e9rences de taille restent parfaitement visibles puisque le crit\u00e8re de comparaison est la dimension, pas la couleur. Id\u00e9al pour les impressions en s\u00e9rie.',
+      },
+      {
+        id: 'faq-17',
+        question: 'Comment personnaliser les fiches sur le canevas d\'\u00e9dition ?',
+        answer: 'Le canevas permet de d\u00e9placer et redimensionner chaque image. Ajoutez des consignes personnalis\u00e9es, le nom de l\'\u00e9l\u00e8ve ou des instructions sp\u00e9cifiques. Choisissez un arri\u00e8re-plan th\u00e9matique et des bordures d\u00e9coratives pour des fiches attrayantes.',
+      },
+      {
+        id: 'faq-18',
+        question: 'Puis-je combiner les fiches grand et petit avec d\'autres activit\u00e9s ?',
+        answer: 'Oui, associez les fiches de comparaison avec les exercices d\'addition pour renforcer les concepts de quantit\u00e9. Combinez avec les coloriages pour la motricit\u00e9 fine ou le tri d\'images pour approfondir les comp\u00e9tences de classement.',
+      },
+      {
+        id: 'faq-19',
+        question: 'Comment \u00e9valuer la progression en discrimination visuelle ?',
+        answer: 'Commencez avec des exercices \u00e0 2 images et des \u00e9carts de taille importants. Passez progressivement \u00e0 3 images avec des diff\u00e9rences plus subtiles. Les exercices de classement du plus petit au plus grand constituent l\'\u00e9tape la plus avanc\u00e9e pour \u00e9valuer la ma\u00eetrise.',
+      },
+      {
+        id: 'faq-20',
+        question: 'Combien de temps faut-il pour cr\u00e9er une fiche grand et petit ?',
+        answer: 'La cr\u00e9ation prend moins de trois minutes. Choisissez un th\u00e8me d\'images, d\u00e9finissez le type et le nombre d\'exercices, puis cliquez sur Cr\u00e9er. La fiche avec son corrig\u00e9 est g\u00e9n\u00e9r\u00e9e instantan\u00e9ment et pr\u00eate au t\u00e9l\u00e9chargement.',
+      },
     ],
 
   },

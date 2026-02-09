@@ -229,6 +229,81 @@ Générez également le corrigé en un seul clic depuis le menu. La fiche répon
         question: 'Les fiches sont-elles disponibles en couleur et en noir et blanc ?',
         answer: 'Oui, l\'option niveaux de gris permet de convertir les fiches en noir et blanc avant le t\u00e9l\u00e9chargement. Cette fonctionnalit\u00e9 est id\u00e9ale pour \u00e9conomiser l\'encre couleur lors de l\'impression en grande quantit\u00e9. Les images restent parfaitement reconnaissables et les cases du tableau se colorient facilement en noir et blanc.',
       },
+      {
+        id: 'faq-6',
+        question: 'Quels formats de fichier sont propos\u00e9s pour les fiches graphique en images ?',
+        answer: 'Les fiches se t\u00e9l\u00e9chargent en PDF pour l\'impression professionnelle ou en JPEG pour l\'int\u00e9gration num\u00e9rique. La r\u00e9solution de 300 DPI garantit que les images de la grille et les cases du tableau restent nettes et pr\u00e9cises \u00e0 l\'impression.',
+      },
+      {
+        id: 'faq-7',
+        question: 'Les fiches graphique en images sont-elles disponibles en plusieurs langues ?',
+        answer: 'Oui, le g\u00e9n\u00e9rateur fonctionne en onze langues. Les noms d\'images et les instructions s\'adaptent automatiquement \u00e0 la langue s\u00e9lectionn\u00e9e. Les fiches bilingues sont particuli\u00e8rement utiles pour les classes d\'immersion linguistique.',
+      },
+      {
+        id: 'faq-8',
+        question: 'Comment fonctionne la grille de 6 cat\u00e9gories ?',
+        answer: 'La grille contient 20 images r\u00e9parties al\u00e9atoirement parmi 6 cat\u00e9gories diff\u00e9rentes. Chaque cat\u00e9gorie appara\u00eet entre 1 et 5 fois. Les \u00e9l\u00e8ves comptent les occurrences de chaque image puis reportent les r\u00e9sultats dans le tableau en coloriant les cases correspondantes.',
+      },
+      {
+        id: 'faq-9',
+        question: 'Comment obtenir la meilleure qualit\u00e9 d\'impression pour les graphiques ?',
+        answer: 'Imprimez le PDF en qualit\u00e9 maximale pour que les images de la grille restent clairement identifiables. Utilisez du papier blanc A4 standard. V\u00e9rifiez l\'aper\u00e7u avant impression pour confirmer que toutes les images sont bien distinctes.',
+      },
+      {
+        id: 'faq-10',
+        question: 'La licence commerciale est-elle incluse pour les graphiques en images ?',
+        answer: 'Oui, votre abonnement Acc\u00e8s Complet inclut la licence commerciale. Vendez vos fiches de graphiques en images sur toutes les plateformes \u00e9ducatives. Cr\u00e9ez des cahiers de comptage th\u00e9matiques pour diversifier votre offre p\u00e9dagogique.',
+      },
+      {
+        id: 'faq-11',
+        question: 'Comment fonctionne l\'abonnement pour ce g\u00e9n\u00e9rateur ?',
+        answer: 'L\'abonnement Acc\u00e8s Complet \u00e0 240 \u20ac par an donne acc\u00e8s aux 33 g\u00e9n\u00e9rateurs, dont les graphiques en images. Cr\u00e9ation illimit\u00e9e de fiches avec licence commerciale incluse. Le paiement est s\u00e9curis\u00e9 et la r\u00e9siliation possible \u00e0 tout moment.',
+      },
+      {
+        id: 'faq-12',
+        question: 'Peut-on t\u00e9l\u00e9verser ses propres images pour les graphiques ?',
+        answer: 'Oui, importez vos photos ou illustrations personnalis\u00e9es en JPEG, PNG ou GIF. Combinez-les avec les images de la biblioth\u00e8que pour cr\u00e9er des graphiques adapt\u00e9s \u00e0 votre programme. Six images sont n\u00e9cessaires pour compl\u00e9ter un graphique.',
+      },
+      {
+        id: 'faq-13',
+        question: 'Les graphiques en images correspondent-ils au programme de math\u00e9matiques ?',
+        answer: 'Oui, la repr\u00e9sentation de donn\u00e9es et la lecture de tableaux font partie des comp\u00e9tences attendues en maternelle grande section et CP. Les graphiques en images pr\u00e9parent les \u00e9l\u00e8ves aux diagrammes en barres et aux histogrammes abord\u00e9s en CE1 et CE2.',
+      },
+      {
+        id: 'faq-14',
+        question: 'Comment adapter les graphiques pour les \u00e9l\u00e8ves en difficult\u00e9 ?',
+        answer: 'Utilisez des images tr\u00e8s diff\u00e9rentes les unes des autres pour faciliter le comptage. Commencez avec des quantit\u00e9s faibles o\u00f9 chaque cat\u00e9gorie appara\u00eet peu de fois. Le coloriage des cases du tableau constitue \u00e9galement un exercice de motricit\u00e9 fine accessible.',
+      },
+      {
+        id: 'faq-15',
+        question: 'Quels formats de page sont propos\u00e9s pour les graphiques ?',
+        answer: 'Les formats Letter et A4 en portrait ou paysage sont disponibles. Le format portrait A4 est le plus utilis\u00e9 pour les fiches scolaires fran\u00e7aises. Le format paysage offre plus d\'espace horizontal pour le tableau de comptage.',
+      },
+      {
+        id: 'faq-16',
+        question: 'Comment personnaliser les fiches sur le canevas d\'\u00e9dition ?',
+        answer: 'D\u00e9placez et redimensionnez la grille d\'images et le tableau de comptage librement. Ajoutez un titre personnalis\u00e9, des consignes sp\u00e9cifiques ou le nom de l\'\u00e9l\u00e8ve. Les arri\u00e8re-plans th\u00e9matiques et bordures d\u00e9coratives compl\u00e8tent la personnalisation.',
+      },
+      {
+        id: 'faq-17',
+        question: 'Puis-je combiner les graphiques avec d\'autres g\u00e9n\u00e9rateurs ?',
+        answer: 'Oui, associez les graphiques en images avec les exercices d\'addition pour renforcer la num\u00e9ration. Combinez avec les fiches de tri d\'images pour approfondir la cat\u00e9gorisation. Les coloriages th\u00e9matiques assortis compl\u00e8tent les packs p\u00e9dagogiques.',
+      },
+      {
+        id: 'faq-18',
+        question: 'L\'aspect coloriage des graphiques est-il p\u00e9dagogique ?',
+        answer: 'Oui, le coloriage des cases du tableau d\u00e9veloppe la motricit\u00e9 fine tout en concr\u00e9tisant les quantit\u00e9s compt\u00e9es. Les enfants \u00e9tablissent un lien visuel direct entre le nombre d\'objets compt\u00e9s et la hauteur des colonnes color\u00e9es dans le graphique.',
+      },
+      {
+        id: 'faq-19',
+        question: 'Comment organiser une progression p\u00e9dagogique avec les graphiques ?',
+        answer: 'D\u00e9butez avec des th\u00e8mes familiers et peu de cat\u00e9gories. Augmentez progressivement la complexit\u00e9 en variant les images et les quantit\u00e9s. Les \u00e9l\u00e8ves passent ensuite \u00e0 la comparaison entre cat\u00e9gories pour d\u00e9velopper l\'analyse de donn\u00e9es.',
+      },
+      {
+        id: 'faq-20',
+        question: 'Combien de temps faut-il pour cr\u00e9er une fiche graphique en images ?',
+        answer: 'La cr\u00e9ation prend moins de trois minutes. S\u00e9lectionnez 6 images par th\u00e8me ou individuellement, configurez le format de page, puis cliquez sur Cr\u00e9er. Le graphique complet avec son corrig\u00e9 est g\u00e9n\u00e9r\u00e9 instantan\u00e9ment.',
+      },
     ],
 
   },

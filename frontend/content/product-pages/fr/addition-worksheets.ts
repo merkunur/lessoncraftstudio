@@ -215,6 +215,81 @@ Activez le mode niveaux de gris avant de télécharger pour économiser l'encre.
         question: 'Quels th\u00e8mes d\'images sont disponibles pour les fiches d\'addition ?',
         answer: 'Notre biblioth\u00e8que contient plus de 3000 images r\u00e9parties dans plus de 50 cat\u00e9gories th\u00e9matiques : animaux, v\u00e9hicules, fruits, saisons, f\u00eates et bien d\'autres. Vous pouvez \u00e9galement t\u00e9l\u00e9verser vos propres images personnalis\u00e9es pour cr\u00e9er des fiches d\'addition uniques, parfaitement adapt\u00e9es \u00e0 votre programme scolaire.',
       },
+      {
+        id: 'faq-6',
+        question: 'Quels formats de fichier sont disponibles pour le t\u00e9l\u00e9chargement ?',
+        answer: 'Les fiches d\'addition se t\u00e9l\u00e9chargent en format PDF pour une impression nette ou en JPEG pour un partage num\u00e9rique facile. Les deux formats offrent une r\u00e9solution professionnelle de 300 DPI, garantissant des images claires et des lignes pr\u00e9cises sur papier.',
+      },
+      {
+        id: 'faq-7',
+        question: 'Combien de langues sont disponibles pour les fiches d\'addition ?',
+        answer: 'Le g\u00e9n\u00e9rateur prend en charge onze langues : fran\u00e7ais, anglais, allemand, espagnol, portugais, italien, n\u00e9erlandais, su\u00e9dois, danois, norv\u00e9gien et finnois. Les noms des images s\'adaptent automatiquement \u00e0 la langue choisie dans la biblioth\u00e8que.',
+      },
+      {
+        id: 'faq-8',
+        question: 'Quels modes d\'exercices propose le g\u00e9n\u00e9rateur d\'addition ?',
+        answer: 'Cinq modes sont disponibles : image plus image, image plus nombre, nombre plus image, trouver l\'addend manquant et mode mixte. Le mode image plus image convient aux d\u00e9butants de maternelle, tandis que le mode mixte offre une vari\u00e9t\u00e9 d\'exercices sur une m\u00eame fiche pour les \u00e9l\u00e8ves de CP.',
+      },
+      {
+        id: 'faq-9',
+        question: 'Comment optimiser l\'impression des fiches d\'addition ?',
+        answer: 'Pour une impression optimale, t\u00e9l\u00e9chargez le format PDF et imprimez en qualit\u00e9 maximale sur du papier standard A4 ou Letter. Activez l\'option niveaux de gris pour \u00e9conomiser l\'encre couleur. Le format 300 DPI garantit des r\u00e9sultats nets m\u00eame avec les images color\u00e9es.',
+      },
+      {
+        id: 'faq-10',
+        question: 'Puis-je vendre les fiches d\'addition cr\u00e9\u00e9es ?',
+        answer: 'Oui, votre abonnement inclut une licence commerciale compl\u00e8te. Vous pouvez vendre les fiches d\'addition sur des plateformes comme Teachers Pay Teachers ou Etsy. Aucune restriction sur le nombre de fiches vendues ni sur les revenus g\u00e9n\u00e9r\u00e9s.',
+      },
+      {
+        id: 'faq-11',
+        question: 'Comment fonctionne l\'abonnement pour le g\u00e9n\u00e9rateur d\'addition ?',
+        answer: 'L\'abonnement Pack Essentiel \u00e0 144 \u20ac par an donne acc\u00e8s illimit\u00e9 \u00e0 10 g\u00e9n\u00e9rateurs de fiches, dont l\'addition. Aucun frais suppl\u00e9mentaire par fiche cr\u00e9\u00e9e. Vous pouvez r\u00e9silier \u00e0 tout moment depuis votre espace client.',
+      },
+      {
+        id: 'faq-12',
+        question: 'Comment utiliser mes propres images pour les fiches d\'addition ?',
+        answer: 'Cliquez sur le bouton de t\u00e9l\u00e9versement et s\u00e9lectionnez vos fichiers images au format JPEG, PNG ou GIF. Vos images apparaissent dans la biblioth\u00e8que personnelle et peuvent \u00eatre utilis\u00e9es seules ou combin\u00e9es avec les 3000 images de la biblioth\u00e8que.',
+      },
+      {
+        id: 'faq-13',
+        question: 'Les fiches d\'addition respectent-elles le programme scolaire fran\u00e7ais ?',
+        answer: 'Les fiches s\'adaptent parfaitement aux programmes de maternelle, CP et CE1. Les plages de nombres de 1 \u00e0 5 correspondent aux attendus de grande section, de 1 \u00e0 10 au CP, et jusqu\'\u00e0 20 au CE1. Chaque fiche renforce les comp\u00e9tences de calcul et de num\u00e9ration du cycle 1 et 2.',
+      },
+      {
+        id: 'faq-14',
+        question: 'Comment adapter les fiches d\'addition pour les \u00e9l\u00e8ves en difficult\u00e9 ?',
+        answer: 'R\u00e9duisez le nombre de probl\u00e8mes par fiche \u00e0 1 ou 2 et limitez la plage de nombres \u00e0 1-3. Le mode image plus image est le plus accessible pour les d\u00e9butants. Vous pouvez aussi agrandir les images et espacer les exercices pour une meilleure lisibilit\u00e9.',
+      },
+      {
+        id: 'faq-15',
+        question: 'Quels formats de page sont propos\u00e9s pour les fiches d\'addition ?',
+        answer: 'Quatre formats sont disponibles : Letter Portrait, Letter Paysage, A4 Portrait et A4 Paysage. Le format A4 Portrait est le plus utilis\u00e9 en France pour les fiches scolaires. Le format carr\u00e9 convient aux publications num\u00e9riques et r\u00e9seaux sociaux.',
+      },
+      {
+        id: 'faq-16',
+        question: 'L\'option noir et blanc est-elle disponible pour les fiches d\'addition ?',
+        answer: 'Oui, la case niveaux de gris convertit toutes les couleurs en noir et blanc avant le t\u00e9l\u00e9chargement. Les images restent claires et reconnaissables. Cette option est id\u00e9ale pour les \u00e9coles qui souhaitent r\u00e9duire les co\u00fbts d\'impression couleur.',
+      },
+      {
+        id: 'faq-17',
+        question: 'Comment personnaliser la fiche d\'addition sur le canevas ?',
+        answer: 'Cliquez sur n\'importe quel \u00e9l\u00e9ment pour le s\u00e9lectionner, puis d\u00e9placez-le, redimensionnez-le ou faites-le pivoter. Ajoutez du texte personnalis\u00e9 avec sept polices professionnelles. Les boutons Annuler et R\u00e9tablir permettent de corriger toute modification instantan\u00e9ment.',
+      },
+      {
+        id: 'faq-18',
+        question: 'Puis-je combiner les fiches d\'addition avec d\'autres g\u00e9n\u00e9rateurs ?',
+        answer: 'Oui, votre abonnement donne acc\u00e8s \u00e0 tous les g\u00e9n\u00e9rateurs de la plateforme. Cr\u00e9ez des packs p\u00e9dagogiques en combinant addition avec soustraction, coloriages ou mots crois\u00e9s. Les \u00e9l\u00e8ves b\u00e9n\u00e9ficient ainsi d\'un apprentissage vari\u00e9 et engageant.',
+      },
+      {
+        id: 'faq-19',
+        question: 'Comment suivre la progression des \u00e9l\u00e8ves avec les fiches d\'addition ?',
+        answer: 'Cr\u00e9ez des fiches de difficult\u00e9 croissante en augmentant progressivement les plages de nombres et le nombre de probl\u00e8mes. Le corrig\u00e9 automatique facilite la correction rapide. Vous pouvez g\u00e9n\u00e9rer des fiches sp\u00e9cifiques pour \u00e9valuer les comp\u00e9tences individuelles.',
+      },
+      {
+        id: 'faq-20',
+        question: 'Combien de temps faut-il pour cr\u00e9er une fiche d\'addition ?',
+        answer: 'Moins de trois minutes du d\u00e9but au t\u00e9l\u00e9chargement. S\u00e9lectionnez un th\u00e8me d\'images, configurez les param\u00e8tres de difficult\u00e9 et cliquez sur G\u00e9n\u00e9rer. La fiche et son corrig\u00e9 sont pr\u00eats imm\u00e9diatement. Aucune comp\u00e9tence en design n\'est requise.',
+      },
     ],
 
   },

@@ -222,6 +222,81 @@ Cochez la case Niveaux de Gris avant de télécharger pour économiser l'encre d
         question: 'Peut-on utiliser des images personnalis\u00e9es dans les cryptogrammes ?',
         answer: 'Oui, vous pouvez t\u00e9l\u00e9verser vos propres images et les assigner aux lettres de votre choix. Il est aussi possible de combiner des images personnalis\u00e9es avec celles de notre biblioth\u00e8que de plus de 3000 illustrations. Les images personnalis\u00e9es rendent les cryptogrammes plus pertinents pour votre classe.',
       },
+      {
+        id: 'faq-6',
+        question: 'Quels formats de fichier sont disponibles pour les cryptogrammes ?',
+        answer: 'Les fiches se t\u00e9l\u00e9chargent en PDF pour une impression nette ou en JPEG pour le partage num\u00e9rique. Le format 300 DPI assure que les images de la l\u00e9gende et les cases du puzzle restent parfaitement lisibles sur papier.',
+      },
+      {
+        id: 'faq-7',
+        question: 'Les cryptogrammes fonctionnent-ils en plusieurs langues ?',
+        answer: 'Oui, le g\u00e9n\u00e9rateur prend en charge onze langues. Les phrases saisies doivent correspondre \u00e0 la langue de votre choix. La biblioth\u00e8que d\'images s\'adapte automatiquement pour les noms affich\u00e9s dans la langue s\u00e9lectionn\u00e9e.',
+      },
+      {
+        id: 'faq-8',
+        question: 'Comment choisir le niveau de difficult\u00e9 des phrases ?',
+        answer: 'La difficult\u00e9 d\u00e9pend de la longueur des phrases et du nombre de lettres r\u00e9v\u00e9l\u00e9es. Pour les d\u00e9butants, tapez des phrases de 3 mots et r\u00e9v\u00e9lez 5 lettres. Pour les avanc\u00e9s, utilisez des phrases de 8 mots avec seulement 1 ou 2 indices.',
+      },
+      {
+        id: 'faq-9',
+        question: 'Comment optimiser l\'impression des cryptogrammes ?',
+        answer: 'Imprimez en format PDF sur papier A4 blanc. V\u00e9rifiez que la l\u00e9gende des correspondances image-lettre est bien visible et que les cases de r\u00e9ponse sont assez larges pour l\'\u00e9criture des enfants. L\'impression en qualit\u00e9 maximale assure la nettet\u00e9 des petites images.',
+      },
+      {
+        id: 'faq-10',
+        question: 'La licence commerciale couvre-t-elle les cryptogrammes ?',
+        answer: 'Oui, l\'abonnement Acc\u00e8s Complet inclut une licence commerciale pour toutes les cr\u00e9ations. Les cahiers de cryptogrammes th\u00e9matiques se vendent bien sur les plateformes \u00e9ducatives. Cr\u00e9ez des s\u00e9ries progressives pour un contenu attractif.',
+      },
+      {
+        id: 'faq-11',
+        question: 'Quel abonnement donne acc\u00e8s aux cryptogrammes ?',
+        answer: 'L\'abonnement Acc\u00e8s Complet \u00e0 240 \u20ac par an inclut les 33 g\u00e9n\u00e9rateurs, dont les cryptogrammes. Cr\u00e9ation illimit\u00e9e de puzzles avec corrig\u00e9s automatiques. Paiement s\u00e9curis\u00e9 et r\u00e9siliation disponible \u00e0 tout moment.',
+      },
+      {
+        id: 'faq-12',
+        question: 'Comment fonctionne l\'assignation automatique des images aux lettres ?',
+        answer: 'Cochez la case Auto-Assigner et s\u00e9lectionnez un th\u00e8me. Le g\u00e9n\u00e9rateur attribue automatiquement une image \u00e0 chaque lettre utilis\u00e9e dans vos phrases. Cette m\u00e9thode est la plus rapide pour cr\u00e9er des cryptogrammes en quelques secondes.',
+      },
+      {
+        id: 'faq-13',
+        question: 'Les cryptogrammes d\u00e9veloppent-ils des comp\u00e9tences scolaires ?',
+        answer: 'Oui, le d\u00e9codage de symboles en lettres pr\u00e9pare directement \u00e0 la lecture. La logique d\u00e9ductive, la reconnaissance de motifs et la pers\u00e9v\u00e9rance sont des comp\u00e9tences cl\u00e9s du cycle 2. Les cryptogrammes transforment l\'apprentissage des lettres en d\u00e9fi motivant.',
+      },
+      {
+        id: 'faq-14',
+        question: 'Comment adapter les cryptogrammes pour les \u00e9l\u00e8ves en difficult\u00e9 ?',
+        answer: 'Utilisez des phrases tr\u00e8s courtes de 2 \u00e0 3 mots et augmentez le nombre de lettres r\u00e9v\u00e9l\u00e9es. Choisissez des images tr\u00e8s distinctes pour faciliter la m\u00e9morisation des correspondances. Les phrases avec des mots familiers r\u00e9duisent la charge cognitive.',
+      },
+      {
+        id: 'faq-15',
+        question: 'Quels formats de page conviennent aux cryptogrammes ?',
+        answer: 'Le format A4 portrait convient pour les phrases courtes avec la l\u00e9gende en haut. Le format paysage offre plus d\'espace horizontal pour les phrases longues. Les formats Letter sont \u00e9galement disponibles pour les imprimantes am\u00e9ricaines.',
+      },
+      {
+        id: 'faq-16',
+        question: 'Les cryptogrammes restent-ils lisibles en noir et blanc ?',
+        answer: 'Oui, l\'option niveaux de gris conserve les contours des images qui restent reconnaissables. Les cases de r\u00e9ponse et la l\u00e9gende restent parfaitement claires. Cette option \u00e9conomise l\'encre pour les impressions en classe.',
+      },
+      {
+        id: 'faq-17',
+        question: 'Comment personnaliser le cryptogramme sur le canevas ?',
+        answer: 'D\u00e9placez la l\u00e9gende, les cellules et le titre librement sur la page. Ajoutez des consignes personnalis\u00e9es ou le nom de l\'\u00e9l\u00e8ve. Les arri\u00e8re-plans th\u00e9matiques et bordures d\u00e9coratives transforment le cryptogramme en fiche attrayante.',
+      },
+      {
+        id: 'faq-18',
+        question: 'Peut-on combiner les cryptogrammes avec d\'autres activit\u00e9s ?',
+        answer: 'Oui, associez les cryptogrammes avec les mots crois\u00e9s pour le vocabulaire ou l\'addition cod\u00e9e pour le calcul. Les coloriages offrent des pauses cr\u00e9atives. Ces combinaisons cr\u00e9ent des cahiers d\'activit\u00e9s de d\u00e9codage complets.',
+      },
+      {
+        id: 'faq-19',
+        question: 'Comment les cryptogrammes d\u00e9veloppent-ils la pens\u00e9e critique ?',
+        answer: 'Les \u00e9l\u00e8ves utilisent la d\u00e9duction en partant des lettres r\u00e9v\u00e9l\u00e9es pour d\u00e9chiffrer les autres. Ils formulent des hypoth\u00e8ses sur les mots possibles et les v\u00e9rifient. Ce processus d\'enqu\u00eate d\u00e9veloppe le raisonnement logique et l\'autonomie intellectuelle.',
+      },
+      {
+        id: 'faq-20',
+        question: 'Combien de temps faut-il pour cr\u00e9er un cryptogramme ?',
+        answer: 'Moins de trois minutes avec l\'assignation automatique des images. Tapez vos phrases, s\u00e9lectionnez un th\u00e8me et cliquez sur Auto-Assigner puis Cr\u00e9er. L\'assignation manuelle prend quelques minutes de plus mais offre un contr\u00f4le total.',
+      },
     ],
 
   },

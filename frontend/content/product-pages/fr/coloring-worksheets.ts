@@ -227,6 +227,81 @@ Imprimez sur votre imprimante personnelle ou professionnelle. Le format PDF s'ad
         question: 'Quels formats de fichier sont disponibles pour le t\u00e9l\u00e9chargement ?',
         answer: 'Les coloriages se t\u00e9l\u00e9chargent en format PDF pour une impression nette ou en JPEG pour un partage num\u00e9rique facile. Les deux formats offrent une r\u00e9solution professionnelle de 300 DPI. L\'option niveaux de gris permet d\'\u00e9conomiser l\'encre en convertissant les fiches en noir et blanc.',
       },
+      {
+        id: 'faq-6',
+        question: 'Le g\u00e9n\u00e9rateur de coloriage fonctionne-t-il en plusieurs langues ?',
+        answer: 'Oui, onze langues sont disponibles pour les noms d\'images dans la biblioth\u00e8que. Bien que les coloriages soient principalement visuels, la fonction de recherche et les \u00e9tiquettes s\'adaptent \u00e0 la langue s\u00e9lectionn\u00e9e pour faciliter la navigation.',
+      },
+      {
+        id: 'faq-7',
+        question: 'Peut-on placer plusieurs images sur une m\u00eame page de coloriage ?',
+        answer: 'Oui, ajoutez autant d\'images que souhait\u00e9 sur une m\u00eame page. Chaque image se positionne ind\u00e9pendamment sur le canevas. Cr\u00e9ez des sc\u00e8nes compl\u00e8tes en combinant animaux, d\u00e9cors et objets pour des coloriages riches et engageants.',
+      },
+      {
+        id: 'faq-8',
+        question: 'Comment optimiser l\'impression des pages de coloriage ?',
+        answer: 'Imprimez en format PDF pour la meilleure qualit\u00e9 de contours. Utilisez du papier l\u00e9g\u00e8rement plus \u00e9pais pour \u00e9viter que les feutres ne traversent. V\u00e9rifiez que les zones de coloriage sont assez grandes pour les capacit\u00e9s motrices des enfants.',
+      },
+      {
+        id: 'faq-9',
+        question: 'Puis-je vendre les coloriages cr\u00e9\u00e9s avec le g\u00e9n\u00e9rateur ?',
+        answer: 'Oui, votre abonnement inclut une licence commerciale compl\u00e8te. Vendez vos coloriages sur Teachers Pay Teachers, Etsy ou votre propre site web. Les coloriages th\u00e9matiques saisonniers sont particuli\u00e8rement populaires aupr\u00e8s des acheteurs.',
+      },
+      {
+        id: 'faq-10',
+        question: 'Comment fonctionne l\'abonnement pour le g\u00e9n\u00e9rateur de coloriages ?',
+        answer: 'Le Pack Essentiel \u00e0 144 \u20ac par an donne acc\u00e8s illimit\u00e9 au g\u00e9n\u00e9rateur de coloriages et 9 autres outils. Aucun frais suppl\u00e9mentaire par coloriage cr\u00e9\u00e9. Le paiement est s\u00e9curis\u00e9 et vous pouvez r\u00e9silier \u00e0 tout moment.',
+      },
+      {
+        id: 'faq-11',
+        question: 'Comment t\u00e9l\u00e9verser mes propres images pour les coloriages ?',
+        answer: 'Cliquez sur le bouton de t\u00e9l\u00e9versement et s\u00e9lectionnez vos fichiers. Le g\u00e9n\u00e9rateur convertit automatiquement les images en contours pr\u00eats \u00e0 colorier. Les photos, dessins et illustrations sont tous pris en charge aux formats JPEG, PNG et GIF.',
+      },
+      {
+        id: 'faq-12',
+        question: 'Les coloriages d\u00e9veloppent-ils des comp\u00e9tences du programme scolaire ?',
+        answer: 'Oui, le coloriage d\u00e9veloppe la motricit\u00e9 fine, la coordination \u0153il-main et la reconnaissance des formes, toutes des comp\u00e9tences cl\u00e9s du programme de maternelle. Le graphisme maternelle inclut explicitement les activit\u00e9s de coloriage dans les attendus du cycle 1.',
+      },
+      {
+        id: 'faq-13',
+        question: 'Comment adapter les coloriages pour les \u00e9l\u00e8ves en difficult\u00e9 ?',
+        answer: 'Utilisez des contours plus \u00e9pais et des zones de coloriage plus grandes pour les enfants ayant des difficult\u00e9s motrices. Placez une seule grande image par page. Les illustrations simples avec peu de d\u00e9tails sont plus accessibles pour les tout-petits de petite section.',
+      },
+      {
+        id: 'faq-14',
+        question: 'Quels formats de page sont propos\u00e9s pour les coloriages ?',
+        answer: 'Les formats Letter et A4 en portrait ou paysage sont disponibles, ainsi que le format carr\u00e9 id\u00e9al pour les r\u00e9seaux sociaux. Vous pouvez \u00e9galement d\u00e9finir des dimensions personnalis\u00e9es en pixels pour des usages sp\u00e9cifiques.',
+      },
+      {
+        id: 'faq-15',
+        question: 'L\'option niveaux de gris est-elle utile pour les coloriages ?',
+        answer: 'L\'option niveaux de gris est activ\u00e9e par d\u00e9faut pour les coloriages puisque les contours sont d\u00e9j\u00e0 en noir et blanc. Elle est surtout utile si vous avez ajout\u00e9 des \u00e9l\u00e9ments color\u00e9s comme des bordures ou des arri\u00e8re-plans et souhaitez tout convertir.',
+      },
+      {
+        id: 'faq-16',
+        question: 'Comment personnaliser les coloriages sur le canevas ?',
+        answer: 'Cliquez sur chaque image pour la d\u00e9placer, la redimensionner ou la faire pivoter. Ajoutez un titre, des consignes ou le nom de l\'\u00e9l\u00e8ve avec l\'outil texte. Les bordures d\u00e9coratives et les arri\u00e8re-plans th\u00e9matiques enrichissent l\'aspect visuel.',
+      },
+      {
+        id: 'faq-17',
+        question: 'Puis-je combiner les coloriages avec d\'autres g\u00e9n\u00e9rateurs ?',
+        answer: 'Oui, les coloriages se marient parfaitement avec les fiches d\'addition, les trains alphabet ou les mots crois\u00e9s. Cr\u00e9ez des cahiers d\'activit\u00e9s vari\u00e9s o\u00f9 les coloriages offrent des pauses cr\u00e9atives entre les exercices de calcul ou de lecture.',
+      },
+      {
+        id: 'faq-18',
+        question: 'Comment le coloriage d\u00e9veloppe-t-il la motricit\u00e9 fine ?',
+        answer: 'Le coloriage entra\u00eene la pr\u00e9hension du crayon, la pression du poignet et le contr\u00f4le des mouvements dans un espace d\u00e9limit\u00e9. Ces comp\u00e9tences sont directement transf\u00e9rables \u00e0 l\'\u00e9criture cursive et au graphisme. R\u00e9duire progressivement la taille des zones renforce la pr\u00e9cision.',
+      },
+      {
+        id: 'faq-19',
+        question: 'Combien de temps faut-il pour cr\u00e9er un coloriage ?',
+        answer: 'Une page de coloriage se cr\u00e9e en moins de deux minutes. S\u00e9lectionnez une ou plusieurs images, positionnez-les sur le canevas et t\u00e9l\u00e9chargez. L\'affichage en temps r\u00e9el permet de voir le r\u00e9sultat sans \u00e9tape de g\u00e9n\u00e9ration.',
+      },
+      {
+        id: 'faq-20',
+        question: 'Peut-on ajouter des bordures et arri\u00e8re-plans aux coloriages ?',
+        answer: 'Oui, des centaines de bordures d\u00e9coratives et d\'arri\u00e8re-plans th\u00e9matiques sont disponibles. Les bordures saisonni\u00e8res encadrent joliment les coloriages. Ajustez l\'opacit\u00e9 de l\'arri\u00e8re-plan pour qu\'il ne g\u00eane pas le coloriage des images principales.',
+      },
     ],
 
   },

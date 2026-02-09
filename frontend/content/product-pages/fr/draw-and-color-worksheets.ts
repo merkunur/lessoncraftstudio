@@ -209,6 +209,81 @@ Activez l'option niveaux de gris avant le téléchargement pour économiser les 
         question: 'Ces fiches conviennent-elles \u00e0 diff\u00e9rentes tranches d\'\u00e2ge ?',
         answer: 'Oui, la difficult\u00e9 s\'ajuste enti\u00e8rement. Pour la maternelle, utilisez de petites grilles avec beaucoup d\'indices. Pour le CP et le CE1, augmentez la taille de la grille et r\u00e9duisez les indices. Les options de sym\u00e9trie ajoutent une dimension suppl\u00e9mentaire pour les \u00e9l\u00e8ves plus avanc\u00e9s.',
       },
+      {
+        id: 'faq-6',
+        question: 'Quels formats de fichier sont propos\u00e9s pour les fiches de dessin sur quadrillage ?',
+        answer: 'Les fiches se t\u00e9l\u00e9chargent en PDF pour l\'impression professionnelle ou en JPEG pour le partage num\u00e9rique. La r\u00e9solution de 300 DPI assure des lignes de grille nettes et des limites de cellules pr\u00e9cises sur tous les types de papier.',
+      },
+      {
+        id: 'faq-7',
+        question: 'Les fiches de dessin sur quadrillage sont-elles disponibles en plusieurs langues ?',
+        answer: 'Oui, la biblioth\u00e8que d\'images prend en charge onze langues pour les noms et la recherche. Les instructions du g\u00e9n\u00e9rateur s\'adaptent \u00e0 la langue s\u00e9lectionn\u00e9e. Parfait pour les classes multilingues ou l\'enseignement du fran\u00e7ais langue \u00e9trang\u00e8re.',
+      },
+      {
+        id: 'faq-8',
+        question: 'Quelles tailles de grille sont les plus adapt\u00e9es \u00e0 chaque \u00e2ge ?',
+        answer: 'Les grilles 3x3 et 4x4 conviennent \u00e0 la petite et moyenne section de maternelle. Les grilles 5x5 et 6x6 correspondent \u00e0 la grande section et au CP. Les grilles 8x8 et 10x10 constituent un d\u00e9fi pour les \u00e9l\u00e8ves de CE1 et au-del\u00e0.',
+      },
+      {
+        id: 'faq-9',
+        question: 'Comment obtenir la meilleure qualit\u00e9 d\'impression pour les grilles ?',
+        answer: 'Imprimez en format PDF sur papier blanc A4 en qualit\u00e9 maximale. Les lignes de la grille doivent \u00eatre bien nettes pour que les enfants identifient clairement chaque cellule. V\u00e9rifiez l\'aper\u00e7u pour confirmer que les indices color\u00e9s sont suffisamment visibles.',
+      },
+      {
+        id: 'faq-10',
+        question: 'La licence commerciale couvre-t-elle les fiches de dessin sur quadrillage ?',
+        answer: 'Oui, votre abonnement Acc\u00e8s Complet inclut la licence commerciale pour toutes les fiches. Les cahiers de dessin sur quadrillage th\u00e9matiques sont populaires sur Teachers Pay Teachers et Etsy. Cr\u00e9ez des s\u00e9ries de difficult\u00e9 croissante.',
+      },
+      {
+        id: 'faq-11',
+        question: 'Comment fonctionne l\'abonnement pour ce g\u00e9n\u00e9rateur ?',
+        answer: 'L\'abonnement Acc\u00e8s Complet \u00e0 240 \u20ac par an donne acc\u00e8s aux 33 g\u00e9n\u00e9rateurs de la plateforme, dont le dessin sur quadrillage. Cr\u00e9ation illimit\u00e9e de fiches avec toutes les options. R\u00e9siliation possible \u00e0 tout moment.',
+      },
+      {
+        id: 'faq-12',
+        question: 'Comment utiliser mes propres images pour les grilles ?',
+        answer: 'Cliquez sur le bouton de t\u00e9l\u00e9versement et importez vos photos ou illustrations. Le g\u00e9n\u00e9rateur d\u00e9coupe automatiquement l\'image en cellules pour cr\u00e9er la grille d\'indices. Les portraits de classe ou les dessins d\'\u00e9l\u00e8ves fonctionnent tr\u00e8s bien.',
+      },
+      {
+        id: 'faq-13',
+        question: 'Le dessin sur quadrillage est-il conforme au programme scolaire ?',
+        answer: 'Oui, le rep\u00e9rage dans l\'espace et les coordonn\u00e9es font partie des comp\u00e9tences g\u00e9om\u00e9triques du cycle 1 et 2. La reproduction de motifs d\u00e9veloppe l\'observation et la pr\u00e9cision, des comp\u00e9tences transversales valoris\u00e9es dans les programmes officiels.',
+      },
+      {
+        id: 'faq-14',
+        question: 'Comment adapter les fiches pour les \u00e9l\u00e8ves ayant des besoins sp\u00e9cifiques ?',
+        answer: 'Utilisez de petites grilles 3x3 avec un pourcentage d\'indices \u00e9lev\u00e9 de 70 \u00e0 90 %. Les images simples avec des couleurs contrast\u00e9es facilitent l\'identification des cellules. L\'option miroir peut simplifier la t\u00e2che en r\u00e9duisant la partie \u00e0 reproduire.',
+      },
+      {
+        id: 'faq-15',
+        question: 'Quels formats de page sont disponibles pour les grilles ?',
+        answer: 'Les formats Letter et A4 en portrait ou paysage sont propos\u00e9s. Le format portrait A4 place les deux grilles c\u00f4te \u00e0 c\u00f4te confortablement. Le format paysage offre encore plus d\'espace horizontal pour les grilles larges.',
+      },
+      {
+        id: 'faq-16',
+        question: 'L\'option niveaux de gris est-elle compatible avec les grilles ?',
+        answer: 'Oui, mais les versions couleur sont g\u00e9n\u00e9ralement pr\u00e9f\u00e9r\u00e9es car les indices color\u00e9s sont plus faciles \u00e0 reproduire. Le mode niveaux de gris fonctionne bien pour les images avec des contrastes forts. Il \u00e9conomise l\'encre pour les impressions en s\u00e9rie.',
+      },
+      {
+        id: 'faq-17',
+        question: 'Comment personnaliser la fiche sur le canevas d\'\u00e9dition ?',
+        answer: 'D\u00e9placez et redimensionnez les deux grilles librement sur la page. Ajoutez un titre, des consignes sp\u00e9cifiques ou le nom de l\'\u00e9l\u00e8ve. Les arri\u00e8re-plans th\u00e9matiques et bordures d\u00e9coratives ajoutent une touche professionnelle.',
+      },
+      {
+        id: 'faq-18',
+        question: 'Peut-on combiner le dessin sur quadrillage avec d\'autres g\u00e9n\u00e9rateurs ?',
+        answer: 'Oui, associez les grilles de dessin avec les coloriages pour la motricit\u00e9 fine ou les exercices d\'addition pour les math\u00e9matiques. Les fiches de s\u00e9quences compl\u00e8tent l\'apprentissage du raisonnement spatial. Cr\u00e9ez des cahiers vari\u00e9s.',
+      },
+      {
+        id: 'faq-19',
+        question: 'Comment le dessin sur quadrillage d\u00e9veloppe-t-il le raisonnement spatial ?',
+        answer: 'Les \u00e9l\u00e8ves analysent la position de chaque cellule color\u00e9e par rapport \u00e0 la grille compl\u00e8te. Ils doivent transf\u00e9rer cette information vers la grille vierge en identifiant les coordonn\u00e9es correspondantes. Ce processus renforce la repr\u00e9sentation mentale de l\'espace.',
+      },
+      {
+        id: 'faq-20',
+        question: 'Combien de temps faut-il pour cr\u00e9er une fiche de dessin sur quadrillage ?',
+        answer: 'La cr\u00e9ation prend moins de trois minutes. Choisissez une image, d\u00e9finissez la taille de la grille et le pourcentage d\'indices, puis cliquez sur Cr\u00e9er. Les deux grilles et le corrig\u00e9 sont g\u00e9n\u00e9r\u00e9s instantan\u00e9ment.',
+      },
     ],
 
   },

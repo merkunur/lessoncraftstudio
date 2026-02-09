@@ -15,6 +15,8 @@ interface BreadcrumbProps {
   baseUrl?: string;
   /** Set to true when a page already has its own BreadcrumbList JSON-LD (e.g. from schema-generator) */
   suppressSchema?: boolean;
+  /** Visual variant: 'blog' renders transparent with white text for dark gradient backgrounds */
+  variant?: 'default' | 'blog';
 }
 
 // Localized home labels
@@ -32,7 +34,7 @@ const HOME_LABELS: Record<string, string> = {
   fi: 'Etusivu'
 };
 
-export default function Breadcrumb({ items, locale, homeLabel, baseUrl, suppressSchema }: BreadcrumbProps) {
+export default function Breadcrumb({ items, locale, homeLabel, baseUrl, suppressSchema, variant = 'default' }: BreadcrumbProps) {
   const home = homeLabel || HOME_LABELS[locale] || 'Home';
   const siteUrl = baseUrl || process.env.NEXT_PUBLIC_APP_URL || 'https://www.lessoncraftstudio.com';
 
@@ -56,9 +58,11 @@ export default function Breadcrumb({ items, locale, homeLabel, baseUrl, suppress
     ]
   };
 
+  const isBlog = variant === 'blog';
+
   return (
     <>
-      {/* Schema markup — suppressed when page already has BreadcrumbList from schema-generator */}
+      {/* Schema markup \u2014 suppressed when page already has BreadcrumbList from schema-generator */}
       {!suppressSchema && (
         <script
           type="application/ld+json"
@@ -67,33 +71,54 @@ export default function Breadcrumb({ items, locale, homeLabel, baseUrl, suppress
       )}
 
       {/* Visible breadcrumb navigation */}
-      <nav aria-label="Breadcrumb" className="bg-gray-50 border-b border-gray-200">
+      <nav
+        aria-label="Breadcrumb"
+        className={isBlog ? '' : 'bg-gray-50 border-b border-gray-200'}
+        style={isBlog ? { paddingTop: '16px', paddingBottom: '8px' } : undefined}
+      >
         <div className="container mx-auto px-4">
           <ol className="flex items-center py-3 text-sm overflow-x-auto">
             {/* Home link */}
             <li className="flex items-center">
               <Link
                 href={`/${locale}`}
-                className="text-gray-500 hover:text-primary transition-colors flex items-center"
+                className={isBlog
+                  ? 'transition-colors flex items-center'
+                  : 'text-gray-500 hover:text-primary transition-colors flex items-center'
+                }
+                style={isBlog ? { color: 'rgba(255,255,255,0.7)' } : undefined}
               >
-                <Home className="h-4 w-4" />
-                <span className="ml-1 hidden sm:inline">{home}</span>
+                <Home className="h-4 w-4" style={isBlog ? { color: 'rgba(255,255,255,0.9)' } : undefined} />
+                <span className={isBlog ? 'ml-1 hidden sm:inline' : 'ml-1 hidden sm:inline'}>{home}</span>
               </Link>
             </li>
 
             {/* Breadcrumb items */}
             {items.map((item, index) => (
               <li key={index} className="flex items-center">
-                <ChevronRight className="h-4 w-4 mx-2 text-gray-400 flex-shrink-0" />
+                <ChevronRight
+                  className={isBlog ? 'h-4 w-4 mx-2 flex-shrink-0' : 'h-4 w-4 mx-2 text-gray-400 flex-shrink-0'}
+                  style={isBlog ? { color: 'rgba(255,255,255,0.4)' } : undefined}
+                />
                 {item.href ? (
                   <Link
                     href={item.href}
-                    className="text-gray-500 hover:text-primary transition-colors whitespace-nowrap"
+                    className={isBlog
+                      ? 'transition-colors whitespace-nowrap'
+                      : 'text-gray-500 hover:text-primary transition-colors whitespace-nowrap'
+                    }
+                    style={isBlog ? { color: 'rgba(255,255,255,0.7)' } : undefined}
                   >
                     {item.label}
                   </Link>
                 ) : (
-                  <span className="text-gray-900 font-medium whitespace-nowrap truncate max-w-[200px] sm:max-w-none">
+                  <span
+                    className={isBlog
+                      ? 'font-medium whitespace-nowrap truncate max-w-[200px] sm:max-w-none'
+                      : 'text-gray-900 font-medium whitespace-nowrap truncate max-w-[200px] sm:max-w-none'
+                    }
+                    style={isBlog ? { color: '#ffffff' } : undefined}
+                  >
                     {item.label}
                   </span>
                 )}

@@ -177,7 +177,7 @@ export default function BlogSampleGallery({
         aria-label={sectionTitle}
         style={{
           maxWidth: '1200px',
-          margin: '48px auto',
+          margin: '32px auto 0',
           padding: '40px 24px',
           backgroundColor: '#f8f9fa',
           borderRadius: '16px',

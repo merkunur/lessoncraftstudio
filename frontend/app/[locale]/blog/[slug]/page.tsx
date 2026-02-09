@@ -568,13 +568,18 @@ export default async function BlogPostPage({
     bodyContent = h1Tag + bodyContent;
   }
 
-  // Extract header (navigation) from body content
-  const headerMatch = bodyContent.match(/(<nav[^>]*>[\s\S]*?<\/nav>)/i);
-  const headerContent = headerMatch ? headerMatch[1] : '';
+  // Extract navigation from body content
+  const navMatch = bodyContent.match(/(<nav[^>]*>[\s\S]*?<\/nav>)/i);
+  const navContent = navMatch ? navMatch[1] : '';
+  if (navContent) {
+    bodyContent = bodyContent.replace(navContent, '');
+  }
 
-  // Remove header from body content to insert PDFs after it
-  if (headerContent) {
-    bodyContent = bodyContent.replace(headerContent, '');
+  // Extract hero <header> from body content to render inside unified gradient wrapper
+  const heroHeaderMatch = bodyContent.match(/(<header[^>]*>[\s\S]*?<\/header>)/i);
+  const heroHtml = heroHeaderMatch ? heroHeaderMatch[1] : '';
+  if (heroHeaderMatch) {
+    bodyContent = bodyContent.replace(heroHeaderMatch[0], '');
   }
 
   // Transform internal links to include locale prefix and strip duplicate footer (sync)
@@ -984,23 +989,88 @@ export default async function BlogPostPage({
         />
       ))}
 
-      {/* Breadcrumb Navigation (4-level: Home > Blog > Category > Post) */}
-      <Breadcrumb
-        locale={locale}
-        suppressSchema
-        items={[
-          { label: breadcrumbLabels[locale] || 'Blog', href: `/${locale}/blog` },
-          { label: CATEGORY_DISPLAY_NAMES[locale]?.[post.category] || post.category, href: `/${locale}/blog/category/${post.category}` },
-          { label: translation.title || slug }
-        ]}
-      />
-
-      {/* Worksheet Sample Banner - shows when matching product samples exist */}
-      {hasBlogSamples && (
-        <BlogSampleBanner locale={locale} appsUrl={`/${locale}/apps`} />
-      )}
-
+      {/* Blog's own <style> tags injected first */}
       <div dangerouslySetInnerHTML={{ __html: styles }} />
+
+      {/* CSS overrides that come AFTER blog styles to neutralize leaks */}
+      <style dangerouslySetInnerHTML={{ __html: `
+        /* Neutralize body background leak from blog templates */
+        body {
+          background: #ffffff !important;
+          background-image: none !important;
+        }
+        /* Make blog <header> transparent since our wrapper provides the gradient */
+        .blog-hero-content header {
+          background: transparent !important;
+          background-image: none !important;
+          margin-bottom: 0 !important;
+        }
+        /* Scope blog article container to work within our wrapper */
+        .blog-article-wrapper .container {
+          max-width: 100% !important;
+          padding: 0 20px !important;
+        }
+        /* Blog hero entrance animation */
+        @keyframes blogHeroSlideIn {
+          from { opacity: 0; transform: translateY(-6px); }
+          to { opacity: 1; transform: translateY(0); }
+        }
+        .blog-hero-section {
+          animation: blogHeroSlideIn 0.5s ease-out;
+        }
+        @media (prefers-reduced-motion: reduce) {
+          .blog-hero-section { animation: none; }
+        }
+      ` }} />
+
+      {/* === UNIFIED BLOG HERO SECTION === */}
+      <div className="blog-hero-section" style={{
+        background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+        position: 'relative',
+        overflow: 'hidden',
+      }}>
+        {/* Subtle radial light overlay for depth */}
+        <div style={{
+          position: 'absolute',
+          inset: 0,
+          backgroundImage: 'radial-gradient(ellipse at 30% 20%, rgba(255,255,255,0.08) 0%, transparent 60%)',
+          pointerEvents: 'none',
+        }} />
+
+        {/* Breadcrumb Navigation (4-level: Home > Blog > Category > Post) */}
+        <Breadcrumb
+          locale={locale}
+          suppressSchema
+          variant="blog"
+          items={[
+            { label: breadcrumbLabels[locale] || 'Blog', href: `/${locale}/blog` },
+            { label: CATEGORY_DISPLAY_NAMES[locale]?.[post.category] || post.category, href: `/${locale}/blog/category/${post.category}` },
+            { label: translation.title || slug }
+          ]}
+        />
+
+        {/* Worksheet Sample Banner - glassmorphism bar on gradient */}
+        {hasBlogSamples && (
+          <BlogSampleBanner locale={locale} appsUrl={`/${locale}/apps`} />
+        )}
+
+        {/* Blog hero header content from DB */}
+        {heroHtml && (
+          <div
+            className="blog-hero-content"
+            dangerouslySetInnerHTML={{ __html: heroHtml }}
+            style={{ position: 'relative' }}
+          />
+        )}
+      </div>
+
+      {/* Gradient to white transition */}
+      <div style={{ marginTop: '-1px', lineHeight: 0, background: 'linear-gradient(180deg, #764ba2 0%, #8b6ab5 100%)' }}>
+        <svg viewBox="0 0 1440 56" preserveAspectRatio="none" aria-hidden="true"
+             style={{ width: '100%', height: '56px', display: 'block' }}>
+          <path d="M0,0 C480,56 960,56 1440,0 L1440,56 L0,56 Z" fill="#ffffff" />
+        </svg>
+      </div>
 
       {/* PDF Section Styling - Uses ID selector for maximum specificity to override blog CSS */}
       <style dangerouslySetInnerHTML={{ __html: `
@@ -1075,8 +1145,8 @@ export default async function BlogPostPage({
       ` }} />
 
       {/* Header/Navigation */}
-      {headerContent && (
-        <div dangerouslySetInnerHTML={{ __html: headerContent }} />
+      {navContent && (
+        <div dangerouslySetInnerHTML={{ __html: navContent }} />
       )}
 
       {/* Sample Worksheets - Right after header */}
@@ -1245,35 +1315,48 @@ export default async function BlogPostPage({
         </div>
       )}
 
-      {/* Main body content */}
-      <div
-        dangerouslySetInnerHTML={{ __html: bodyContent }}
-        style={{
-          width: '100%',
-          margin: 0,
-          padding: 0
-        }}
-      />
-
-      {/* Worksheet Sample Gallery - shows 3 relevant sample images */}
-      {hasBlogSamples && (
-        <BlogSampleGallery
-          locale={locale}
-          samples={blogSamples}
-          blogSlug={localeSlug}
-          focusKeyword={translation.focusKeyword}
-          category={post.category}
+      {/* Main body content - white article wrapper */}
+      <div className="blog-article-wrapper" style={{
+        maxWidth: '900px',
+        margin: '0 auto',
+        padding: '0 24px',
+        backgroundColor: '#ffffff',
+        position: 'relative',
+      }}>
+        <div
+          dangerouslySetInnerHTML={{ __html: bodyContent }}
+          style={{ width: '100%' }}
         />
-      )}
+      </div>
 
-      {/* Related Worksheet Generators - SEO internal linking */}
-      <RelatedProducts
-        locale={locale as SupportedLocale}
-        category={post.category}
-        htmlContent={htmlContent}
-        keywords={post.keywords || []}
-        limit={4}
-      />
+      {/* Unified post-content sections zone */}
+      <div style={{ backgroundColor: '#f8f9fa', paddingTop: '16px', paddingBottom: '16px' }}>
+        {/* Worksheet Sample Gallery - shows 3 relevant sample images */}
+        {hasBlogSamples && (
+          <BlogSampleGallery
+            locale={locale}
+            samples={blogSamples}
+            blogSlug={localeSlug}
+            focusKeyword={translation.focusKeyword}
+            category={post.category}
+          />
+        )}
+
+        {/* Related Worksheet Generators - SEO internal linking */}
+        <RelatedProducts
+          locale={locale as SupportedLocale}
+          category={post.category}
+          htmlContent={htmlContent}
+          keywords={post.keywords || []}
+          limit={4}
+        />
+      </div>
+
+      {/* Gray zone to related posts transition */}
+      <div style={{
+        background: 'linear-gradient(180deg, #f8f9fa 0%, #ffffff 100%)',
+        height: '48px',
+      }} />
 
       {/* Related Blog Posts - Before footer */}
       {relatedPosts.length > 0 && (

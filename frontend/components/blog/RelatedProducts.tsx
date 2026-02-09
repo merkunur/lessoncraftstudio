@@ -105,7 +105,7 @@ export default function RelatedProducts({
       aria-label={sectionTitle}
       style={{
         maxWidth: '1200px',
-        margin: '48px auto',
+        margin: '16px auto 0',
         padding: '32px 24px',
         backgroundColor: '#f8f9fa',
         borderRadius: '16px'

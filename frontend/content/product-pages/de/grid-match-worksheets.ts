@@ -227,6 +227,71 @@ Rechnen lernen Materialien drucken Sie so kostengünstig. Malvorlagen sehen auch
         question: 'Was kostet das Vollzugriff Abonnement f\u00fcr den Raster-Puzzle Generator?',
         answer: 'Das Vollzugriff Abonnement kostet 240\u20ac pro Jahr und beinhaltet alle 33 Arbeitsblatt-Generatoren. Sie erstellen unbegrenzt Raster-Puzzle und alle anderen Arbeitsblatttypen ohne Zusatzkosten. Die kommerzielle Lizenz f\u00fcr den Verkauf auf Teachers Pay Teachers und Etsy ist inklusive.',
       },
+      {
+        id: 'faq-8',
+        question: 'Kann ich den Raster-Puzzle Generator kostenlos testen?',
+        answer: 'Ja, Sie k\u00f6nnen ohne Registrierung sofort Raster-Puzzles erstellen. Die Vorschau zeigt Ihr fertiges Arbeitsblatt mit Wasserzeichen. Mit dem Vollzugriff laden Sie unbegrenzt ohne Wasserzeichen herunter. So testen Sie alle Rastergr\u00f6\u00dfen und Schwierigkeitsstufen risikofrei.',
+      },
+      {
+        id: 'faq-9',
+        question: 'Welche Seitenformate stehen f\u00fcr den Druck zur Verf\u00fcgung?',
+        answer: 'Sie w\u00e4hlen zwischen Letter und A4 in Hoch- oder Querformat. Alle Arbeitsbl\u00e4tter werden in professioneller 300 DPI Qualit\u00e4t als PDF oder JPEG exportiert. Die Graustufen-Option spart Druckertinte bei farbigen Bildern.',
+      },
+      {
+        id: 'faq-10',
+        question: 'F\u00fcr welche Altersgruppen eignen sich Raster-Puzzles?',
+        answer: 'Einfache 2\u00d72 Raster eignen sich ab 4 Jahren f\u00fcr Vorschulkinder. 3\u00d73 Raster sind ideal f\u00fcr Klasse 1-2. Gr\u00f6\u00dfere Raster mit mehr Puzzleteilen fordern Kinder in Klasse 3-4 heraus. Die Bildunterst\u00fctzung macht alle Schwierigkeitsstufen zug\u00e4nglich.',
+      },
+      {
+        id: 'faq-11',
+        question: 'Wie steuere ich den Schwierigkeitsgrad der Raster-Puzzles?',
+        answer: 'Die Schwierigkeit wird \u00fcber die Rastergr\u00f6\u00dfe gesteuert: wenige gro\u00dfe Teile sind einfach, viele kleine Teile sind schwieriger. Zus\u00e4tzlich k\u00f6nnen Sie die Puzzleteile drehen lassen, was die r\u00e4umliche Herausforderung deutlich erh\u00f6ht.',
+      },
+      {
+        id: 'faq-12',
+        question: 'Welche Sprachen unterst\u00fctzt der Raster-Puzzle Generator?',
+        answer: 'Der Generator unterst\u00fctzt 11 Sprachen: Deutsch, Englisch, Franz\u00f6sisch, Spanisch, Portugiesisch, Italienisch, Niederl\u00e4ndisch, Schwedisch, D\u00e4nisch, Norwegisch und Finnisch. Titel und Anweisungen werden automatisch in der gew\u00e4hlten Sprache generiert.',
+      },
+      {
+        id: 'faq-13',
+        question: 'Kann ich Raster-Puzzles mit anderen Generatoren kombinieren?',
+        answer: 'Ja, erstellen Sie thematische Wahrnehmungs-Pakete indem Sie Raster-Puzzles mit Schattenbildern, Zuordnungs\u00fcbungen oder Rasterzeichnen kombinieren. Alle Generatoren nutzen dieselbe Bildbibliothek. So trainieren Kinder r\u00e4umliches Denken in verschiedenen Aufgabenformaten.',
+      },
+      {
+        id: 'faq-14',
+        question: 'Darf ich Raster-Puzzle Arbeitsbl\u00e4tter kommerziell verkaufen?',
+        answer: 'Ja, der Vollzugriff enth\u00e4lt eine kommerzielle Lizenz. Sie d\u00fcrfen erstellte Arbeitsbl\u00e4tter auf Plattformen wie Teachers Pay Teachers oder Lehrermarktplatz verkaufen. Auch der Einsatz in Nachhilfe-Instituten und Ergotherapie-Praxen ist erlaubt.',
+      },
+      {
+        id: 'faq-15',
+        question: 'Eignen sich Raster-Puzzles f\u00fcr DaF/DaZ-Kinder?',
+        answer: 'Ja, Raster-Puzzles sind sprachunabh\u00e4ngig verst\u00e4ndlich. Kinder ordnen Bildteile dem Raster zu ohne Lesekompetenz. Das visuelle Puzzleformat ist intuitiv und macht Spa\u00df unabh\u00e4ngig vom Sprachniveau. Die Bilder erweitern gleichzeitig den Wortschatz.',
+      },
+      {
+        id: 'faq-16',
+        question: 'Wie setze ich Raster-Puzzles zur Differenzierung ein?',
+        answer: 'Verwenden Sie wenige gro\u00dfe Puzzleteile f\u00fcr Anf\u00e4nger und viele kleine Teile mit Drehung f\u00fcr Fortgeschrittene. Einfache Bilder mit klaren Formen senken die Schwierigkeit, detailreiche Bilder erh\u00f6hen sie. So arbeiten alle Kinder am selben Thema auf ihrem Niveau.',
+      },
+      {
+        id: 'faq-17',
+        question: 'Welche kognitiven F\u00e4higkeiten f\u00f6rdern Raster-Puzzles?',
+        answer: 'Raster-Puzzles trainieren r\u00e4umliches Denken, visuelle Analyse, Teil-Ganzes-Beziehungen und Konzentration. Das Zuordnen von Bildteilen st\u00e4rkt die visuelle Wahrnehmung und Probleml\u00f6sekompetenz. Diese F\u00e4higkeiten sind Grundlagen f\u00fcr Geometrie und naturwissenschaftliches Denken.',
+      },
+      {
+        id: 'faq-18',
+        question: 'Sind die Raster-Puzzle \u00dcbungen an den Bildungsplan angepasst?',
+        answer: 'Raster-Puzzles unterst\u00fctzen die Lernziele f\u00fcr Kita und Vorschule: visuelle Wahrnehmung, r\u00e4umliche Orientierung und Probleml\u00f6sung. In der Grundschule f\u00f6rdern sie geometrisches Verst\u00e4ndnis und logisches Denken gem\u00e4\u00df Mathematik-Lehrplan.',
+      },
+      {
+        id: 'faq-19',
+        question: 'Eignen sich Raster-Puzzles f\u00fcr Kinder mit F\u00f6rderbedarf?',
+        answer: 'Ja, einfache Puzzles mit wenigen gro\u00dfen Teilen bieten einen niedrigschwelligen Einstieg. Die klare Rasterstruktur gibt Orientierung. Das Erfolgserlebnis beim richtigen Zusammensetzen motiviert und st\u00e4rkt das Selbstvertrauen, auch bei Kindern mit Lernschwierigkeiten.',
+      },
+      {
+        id: 'faq-20',
+        question: 'Kann ich Raster-Puzzle Arbeitsbl\u00e4tter zu einem Heft zusammenstellen?',
+        answer: 'Ja, erstellen Sie verschiedene Puzzles von einfach bis komplex und laden Sie alle als PDF herunter. Ordnen Sie die Bl\u00e4tter progressiv: erst wenige gro\u00dfe Teile, dann mehr Teile, dann mit Drehung. Mit einem PDF-Programm f\u00fcgen Sie Arbeitsbl\u00e4tter und L\u00f6sungen zusammen.',
+      },
     ],
 
   },

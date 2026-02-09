@@ -243,6 +243,71 @@ Generieren Sie die Lösungsanzeige separat. Kinder kontrollieren ihre Ergebnisse
         question: 'In welcher Qualit\u00e4t werden die Arbeitsbl\u00e4tter exportiert?',
         answer: 'Alle Arbeitsbl\u00e4tter erscheinen in professioneller 300 DPI Qualit\u00e4t mit gestochen scharfen Linien und klaren Bildern. Der Export erfolgt als JPEG oder PDF. Eine Graustufen-Option spart Druckertinte. Das Vollzugriff Abonnement enth\u00e4lt eine kommerzielle Lizenz f\u00fcr den Verkauf auf Teachers Pay Teachers oder Etsy.',
       },
+      {
+        id: 'faq-8',
+        question: 'Kann ich den Bilderpfad Generator kostenlos testen?',
+        answer: 'Ja, Sie k\u00f6nnen ohne Registrierung sofort Bilderpfad-Labyrinthe erstellen. Die Vorschau zeigt Ihr fertiges Arbeitsblatt mit Wasserzeichen. Mit dem Vollzugriff laden Sie unbegrenzt ohne Wasserzeichen herunter. So testen Sie alle Schwierigkeitsstufen und Bildoptionen risikofrei.',
+      },
+      {
+        id: 'faq-9',
+        question: 'Welche Seitenformate stehen f\u00fcr den Druck zur Verf\u00fcgung?',
+        answer: 'Sie w\u00e4hlen zwischen Letter und A4 in Hoch- oder Querformat. Querformat bietet breitere Labyrinthe mit l\u00e4ngeren Wegen. Alle Arbeitsbl\u00e4tter werden in professioneller 300 DPI Qualit\u00e4t als PDF oder JPEG exportiert.',
+      },
+      {
+        id: 'faq-10',
+        question: 'F\u00fcr welche Altersgruppen eignet sich der Bilderpfad?',
+        answer: 'Einfache Labyrinthe mit wenigen Abzweigungen eignen sich ab 4 Jahren f\u00fcr Vorschulkinder. Mittlere Schwierigkeit mit Ablenkungsbildern ist ideal f\u00fcr Klasse 1-2. Komplexe Labyrinthe mit vielen Verzweigungen fordern Kinder in Klasse 3-4 heraus.',
+      },
+      {
+        id: 'faq-11',
+        question: 'Wie steuere ich den Schwierigkeitsgrad der Labyrinthe?',
+        answer: 'Die Schwierigkeit wird \u00fcber die Rastergr\u00f6\u00dfe, Anzahl der Abzweigungen und Ablenkungsbilder gesteuert. Gr\u00f6\u00dfere Raster erzeugen l\u00e4ngere Wege. Mehr Ablenkungsbilder erh\u00f6hen die Konzentrations-Anforderung. Start- und Zielbilder geben bei jeder Schwierigkeit klare Orientierung.',
+      },
+      {
+        id: 'faq-12',
+        question: 'Welche Sprachen unterst\u00fctzt der Bilderpfad Generator?',
+        answer: 'Der Generator unterst\u00fctzt 11 Sprachen: Deutsch, Englisch, Franz\u00f6sisch, Spanisch, Portugiesisch, Italienisch, Niederl\u00e4ndisch, Schwedisch, D\u00e4nisch, Norwegisch und Finnisch. Alle Titel und Anweisungen werden automatisch in der gew\u00e4hlten Sprache generiert.',
+      },
+      {
+        id: 'faq-13',
+        question: 'Kann ich Bilderpfade mit anderen Generatoren kombinieren?',
+        answer: 'Ja, erstellen Sie thematische Lernpakete indem Sie Bilderpfade mit Schwung\u00fcbungen, Ausmalbildern oder Suchen-und-Z\u00e4hlen kombinieren. Alle Generatoren nutzen dieselbe Bildbibliothek. So entsteht ein vielseitiges Konzentrations-Training mit vertrauten Bildern.',
+      },
+      {
+        id: 'faq-14',
+        question: 'Darf ich Bilderpfad-Arbeitsbl\u00e4tter kommerziell verkaufen?',
+        answer: 'Ja, der Vollzugriff enth\u00e4lt eine kommerzielle Lizenz. Sie d\u00fcrfen erstellte Arbeitsbl\u00e4tter auf Plattformen wie Teachers Pay Teachers oder Lehrermarktplatz verkaufen. Labyrinth-R\u00e4tsel sind besonders beliebte Verkaufsartikel f\u00fcr Vorschul- und Grundschulmaterial.',
+      },
+      {
+        id: 'faq-15',
+        question: 'Eignet sich der Bilderpfad f\u00fcr DaF/DaZ-Kinder?',
+        answer: 'Ja, Labyrinthe sind sprachunabh\u00e4ngig verst\u00e4ndlich. Kinder folgen dem Weg von Bild zu Bild ohne Lesekompetenz. Gleichzeitig lernen sie Richtungsbegriffe wie links, rechts, oben, unten. Die Bilder auf dem Pfad erweitern den Wortschatz auf spielerische Weise.',
+      },
+      {
+        id: 'faq-16',
+        question: 'Wie setze ich Bilderpfade zur Differenzierung ein?',
+        answer: 'Verwenden Sie kurze Pfade mit wenigen Abzweigungen f\u00fcr Anf\u00e4nger und komplexe Labyrinthe mit vielen Ablenkungsbildern f\u00fcr Fortgeschrittene. Die Rastergr\u00f6\u00dfe und Bildanzahl steuern den Schwierigkeitsgrad. So arbeiten alle Kinder am selben Thema auf ihrem Niveau.',
+      },
+      {
+        id: 'faq-17',
+        question: 'Sind Bilderpfad-\u00dcbungen an den Lehrplan angepasst?',
+        answer: 'Bilderpfade unterst\u00fctzen die Lernziele f\u00fcr Vorschule und Klasse 1: Konzentration, visuelle Wahrnehmung und Feinmotorik beim Nachfahren des Weges. Die r\u00e4umliche Orientierung im Raster bereitet auf geometrisches Denken und Kartenlesen vor.',
+      },
+      {
+        id: 'faq-18',
+        question: 'Eignet sich der Bilderpfad f\u00fcr Kinder mit F\u00f6rderbedarf?',
+        answer: 'Ja, einfache Labyrinthe mit klaren Start- und Zielbildern bieten einen niedrigschwelligen Einstieg. Die visuelle Struktur gibt Orientierung und Sicherheit. Kinder mit Konzentrationsschwierigkeiten profitieren vom fokussierten Schritt-f\u00fcr-Schritt-L\u00f6sen.',
+      },
+      {
+        id: 'faq-19',
+        question: 'Gibt es einen Graustufen-Modus um Druckkosten zu sparen?',
+        answer: 'Ja, der Graustufen-Modus wandelt alle Farben in Schwarz-Wei\u00df-T\u00f6ne um. Das spart teure Farbpatronen beim Ausdrucken ganzer Klassensets. Die Bilder und Pfade bleiben durch klare Konturen gut erkennbar bei voller 300 DPI Qualit\u00e4t.',
+      },
+      {
+        id: 'faq-20',
+        question: 'Kann ich Bilderpfad-Arbeitsbl\u00e4tter zu einem Heft zusammenstellen?',
+        answer: 'Ja, erstellen Sie verschiedene Labyrinthe von einfach bis komplex und laden Sie alle als PDF herunter. Ordnen Sie die Bl\u00e4tter nach Schwierigkeit f\u00fcr ein progressives R\u00e4tselheft. Mit einem PDF-Programm f\u00fcgen Sie Arbeitsbl\u00e4tter und L\u00f6sungsschl\u00fcssel zusammen.',
+      },
     ],
 
   },

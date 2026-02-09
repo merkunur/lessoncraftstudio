@@ -247,6 +247,71 @@ Drucken Sie die Arbeitsblätter auf normalem Papier. Dickeres Papier eignet sich
         question: 'Was kostet das Vollzugriff Abo f\u00fcr den Muster-Zug Generator?',
         answer: 'Das Vollzugriff Abo kostet 240\u20ac pro Jahr und beinhaltet alle 33 Arbeitsblatt-Generatoren inklusive Muster-Zug. Sie erstellen unbegrenzt Arbeitsbl\u00e4tter mit allen 5 Mustertypen. Die kommerzielle Lizenz, 11 Sprachen und \u00fcber 3000 Bilder sind inklusive.',
       },
+      {
+        id: 'faq-8',
+        question: 'Kann ich den Muster-Zug Generator kostenlos testen?',
+        answer: 'Ja, Sie k\u00f6nnen ohne Registrierung sofort Muster-Zug Arbeitsbl\u00e4tter erstellen. Die Vorschau zeigt Ihr fertiges Arbeitsblatt mit Wasserzeichen. Mit dem Vollzugriff laden Sie unbegrenzt ohne Wasserzeichen herunter. So testen Sie alle 5 Mustertypen und die Ausschneidefunktion risikofrei.',
+      },
+      {
+        id: 'faq-9',
+        question: 'Welche Seitenformate stehen f\u00fcr den Druck zur Verf\u00fcgung?',
+        answer: 'Sie w\u00e4hlen zwischen Letter und A4 in Hoch- oder Querformat. Querformat bietet l\u00e4ngere Z\u00fcge mit mehr Waggons. Alle Arbeitsbl\u00e4tter werden in professioneller 300 DPI Qualit\u00e4t als PDF oder JPEG exportiert.',
+      },
+      {
+        id: 'faq-10',
+        question: 'F\u00fcr welche Altersgruppen eignet sich der Muster-Zug?',
+        answer: 'AB-Muster mit gro\u00dfen Bildern eignen sich ab 4 Jahren. ABC-Muster sind ideal f\u00fcr Vorschulkinder und Erstkl\u00e4ssler. Komplexe ABCD- und AABB-Muster fordern Kinder in Klasse 2-3 heraus. Das Ausschneiden und Aufkleben trainiert gleichzeitig die Feinmotorik.',
+      },
+      {
+        id: 'faq-11',
+        question: 'Wie funktioniert das Ausschneiden und Aufkleben?',
+        answer: 'Der Generator erstellt Arbeitsbl\u00e4tter mit einem Zug, bei dem Waggons fehlen, und einem separaten Ausschneidebereich mit den fehlenden Waggonbildern. Kinder schneiden die Bilder aus, erkennen das Muster und kleben die richtigen Bilder in die L\u00fccken.',
+      },
+      {
+        id: 'faq-12',
+        question: 'Welche Sprachen unterst\u00fctzt der Muster-Zug Generator?',
+        answer: 'Der Generator unterst\u00fctzt 11 Sprachen: Deutsch, Englisch, Franz\u00f6sisch, Spanisch, Portugiesisch, Italienisch, Niederl\u00e4ndisch, Schwedisch, D\u00e4nisch, Norwegisch und Finnisch. Titel und Anweisungen werden automatisch in der gew\u00e4hlten Sprache generiert.',
+      },
+      {
+        id: 'faq-13',
+        question: 'Kann ich Muster-Z\u00fcge mit anderen Generatoren kombinieren?',
+        answer: 'Ja, erstellen Sie thematische Mathe-Pakete indem Sie Muster-Z\u00fcge mit Muster-Arbeitsbl\u00e4ttern, Z\u00e4hl\u00fcbungen oder Additions-Aufgaben kombinieren. Alle Generatoren nutzen dieselbe Bildbibliothek. So \u00fcben Kinder Mustererkennung in verschiedenen Formaten.',
+      },
+      {
+        id: 'faq-14',
+        question: 'Darf ich Muster-Zug Arbeitsbl\u00e4tter kommerziell verkaufen?',
+        answer: 'Ja, der Vollzugriff enth\u00e4lt eine kommerzielle Lizenz. Sie d\u00fcrfen erstellte Arbeitsbl\u00e4tter auf Plattformen wie Teachers Pay Teachers oder Lehrermarktplatz verkaufen. Die Ausschneide-Arbeitsbl\u00e4tter sind besonders beliebte Verkaufsartikel f\u00fcr Vorschulmaterial.',
+      },
+      {
+        id: 'faq-15',
+        question: 'Wie setze ich Muster-Z\u00fcge zur Differenzierung ein?',
+        answer: 'Verwenden Sie kurze AB-Z\u00fcge mit wenigen fehlenden Waggons f\u00fcr Anf\u00e4nger und lange ABCD-Z\u00fcge f\u00fcr Fortgeschrittene. Die Musterkomplexit\u00e4t und die Anzahl der L\u00fccken steuern den Schwierigkeitsgrad. So arbeiten alle Kinder am Thema Muster auf ihrem Niveau.',
+      },
+      {
+        id: 'faq-16',
+        question: 'Sind Muster-Zug \u00dcbungen an den Lehrplan angepasst?',
+        answer: 'Die \u00dcbungen unterst\u00fctzen die Lernziele des Mathematik-Lehrplans f\u00fcr Vorschule und Klasse 1: Muster erkennen, fortsetzen und beschreiben. Das Ausschneiden und Aufkleben entspricht den Anforderungen an handlungsorientiertes Lernen und Feinmotorik-F\u00f6rderung.',
+      },
+      {
+        id: 'faq-17',
+        question: 'Eignet sich der Muster-Zug f\u00fcr Kinder mit F\u00f6rderbedarf?',
+        answer: 'Ja, die klare Zug-Struktur gibt visuelle Orientierung und das haptische Ausschneiden und Kleben unterst\u00fctzt kinesthetische Lerner. Einfache AB-Muster mit gro\u00dfen Bildern bieten einen niedrigschwelligen Einstieg. Die Kombination aus Denken und Handeln f\u00f6rdert ganzheitliches Lernen.',
+      },
+      {
+        id: 'faq-18',
+        question: 'Gibt es einen Graustufen-Modus um Druckkosten zu sparen?',
+        answer: 'Ja, der Graustufen-Modus wandelt alle Farben in Schwarz-Wei\u00df-T\u00f6ne um. Das spart Farbpatronen beim Drucken ganzer Klassensets. Die Bilder auf den Waggons bleiben durch klare Konturen gut erkennbar. Dickeres Papier empfiehlt sich weiterhin f\u00fcr das Ausschneiden.',
+      },
+      {
+        id: 'faq-19',
+        question: 'Was unterscheidet den Muster-Zug vom Muster-Arbeitsblatt?',
+        answer: 'Der Muster-Zug ist eine haptische Variante der Muster-\u00dcbung: Kinder schneiden Bilder aus und kleben sie auf den Zug. Das Muster-Arbeitsblatt verwendet L\u00fcckenfelder oder Multiple-Choice zum Ankreuzen. Beide trainieren Mustererkennung, aber der Zug f\u00f6rdert zus\u00e4tzlich Feinmotorik.',
+      },
+      {
+        id: 'faq-20',
+        question: 'Kann ich Muster-Zug Arbeitsbl\u00e4tter zu einem Heft zusammenstellen?',
+        answer: 'Ja, erstellen Sie verschiedene Mustertypen von einfach (AB) bis komplex (ABCD) und laden Sie alle als PDF herunter. Ordnen Sie die Z\u00fcge nach Schwierigkeit f\u00fcr ein progressives \u00dcbungsheft. Mit einem PDF-Programm f\u00fcgen Sie Arbeitsbl\u00e4tter und L\u00f6sungsschl\u00fcssel zusammen.',
+      },
     ],
 
   },

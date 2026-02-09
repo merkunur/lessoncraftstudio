@@ -226,6 +226,76 @@ Die Vorschule Arbeitsblätter sind sofort druckbereit. Auch Arbeitsblätter Grun
         question: 'Welche F\u00e4higkeiten f\u00f6rdern Schattenbilder-Arbeitsbl\u00e4tter?',
         answer: 'Schattenbilder-Arbeitsbl\u00e4tter f\u00f6rdern visuelle Wahrnehmung, r\u00e4umliches Denken und Formenerkennung. Im Schattenmodus trainieren Kinder das Erkennen von Umrissen und Konturen. Im Zusammenf\u00fcgen-Modus entwickeln sie r\u00e4umliches Vorstellungsverm\u00f6gen. Beide Modi sind wertvolle Erg\u00e4nzungen zu Mathe-Arbeitsbl\u00e4ttern und Deutsch-Arbeitsbl\u00e4ttern.',
       },
+      {
+        id: 'faq-7',
+        question: 'Kann ich den Schattenbilder Generator kostenlos testen?',
+        answer: 'Ja, Sie k\u00f6nnen ohne Registrierung sofort Schattenbilder-Arbeitsbl\u00e4tter erstellen. Die Vorschau zeigt Ihr fertiges Arbeitsblatt mit Wasserzeichen. Mit dem Vollzugriff laden Sie unbegrenzt ohne Wasserzeichen herunter. So testen Sie Schatten- und Zusammenf\u00fcgen-Modus risikofrei.',
+      },
+      {
+        id: 'faq-8',
+        question: 'Welche Seitenformate stehen f\u00fcr den Druck zur Verf\u00fcgung?',
+        answer: 'Sie w\u00e4hlen zwischen Letter und A4 in Hoch- oder Querformat. Alle Arbeitsbl\u00e4tter werden in professioneller 300 DPI Qualit\u00e4t als PDF oder JPEG exportiert. Die Graustufen-Option spart Druckertinte bei farbigen Bildern.',
+      },
+      {
+        id: 'faq-9',
+        question: 'F\u00fcr welche Altersgruppen eignen sich Schattenbilder-\u00dcbungen?',
+        answer: 'Einfache Schattenzuordnungen mit wenigen Bildern eignen sich ab 3 Jahren f\u00fcr Kita-Kinder. Mittlere Schwierigkeit mit \u00e4hnlichen Formen ist ideal f\u00fcr Vorschulkinder. Zusammenf\u00fcgen-\u00dcbungen mit feinen Schnittlinien fordern Kinder in Klasse 1-2 heraus.',
+      },
+      {
+        id: 'faq-10',
+        question: 'Kann ich eigene Bilder f\u00fcr Schattenbilder hochladen?',
+        answer: 'Ja, \u00fcber den Datei-Upload-Button laden Sie eigene Bilder in JPEG, PNG oder GIF hoch. Das System erstellt automatisch die passende Silhouette. Alternativ w\u00e4hlen Sie aus \u00fcber 3000 Bibliotheksbildern mit sofort verf\u00fcgbaren Schattenversionen.',
+      },
+      {
+        id: 'faq-11',
+        question: 'Welche Sprachen unterst\u00fctzt der Schattenbilder Generator?',
+        answer: 'Der Generator unterst\u00fctzt 11 Sprachen: Deutsch, Englisch, Franz\u00f6sisch, Spanisch, Portugiesisch, Italienisch, Niederl\u00e4ndisch, Schwedisch, D\u00e4nisch, Norwegisch und Finnisch. Titel und Anweisungen werden automatisch in der gew\u00e4hlten Sprache generiert.',
+      },
+      {
+        id: 'faq-12',
+        question: 'Gibt es einen Graustufen-Modus um Druckkosten zu sparen?',
+        answer: 'Ja, der Graustufen-Modus wandelt alle Farben in Schwarz-Wei\u00df-T\u00f6ne um. Die Silhouetten sind bereits schwarz, sodass Graustufen besonders gut f\u00fcr Schattenbilder geeignet ist. Das spart teure Farbpatronen beim Drucken ganzer Klassensets.',
+      },
+      {
+        id: 'faq-13',
+        question: 'Kann ich Schattenbilder mit anderen Generatoren kombinieren?',
+        answer: 'Ja, erstellen Sie thematische Wahrnehmungs-Pakete indem Sie Schattenbilder mit Zuordnungs\u00fcbungen, Suchen-und-Z\u00e4hlen oder Raster-Puzzles kombinieren. Alle Generatoren nutzen dieselbe Bildbibliothek. So trainieren Kinder verschiedene Wahrnehmungsaspekte mit vertrauten Bildern.',
+      },
+      {
+        id: 'faq-14',
+        question: 'Darf ich Schattenbilder-Arbeitsbl\u00e4tter kommerziell verkaufen?',
+        answer: 'Ja, der Vollzugriff enth\u00e4lt eine kommerzielle Lizenz. Sie d\u00fcrfen erstellte Arbeitsbl\u00e4tter auf Plattformen wie Teachers Pay Teachers oder Lehrermarktplatz verkaufen. Auch der Einsatz in Ergotherapie-Praxen und Nachhilfe-Instituten ist erlaubt.',
+      },
+      {
+        id: 'faq-15',
+        question: 'Eignen sich Schattenbilder f\u00fcr DaF/DaZ-Kinder?',
+        answer: 'Ja, Schattenzuordnung ist sprachunabh\u00e4ngig verst\u00e4ndlich. Kinder ordnen Bilder ihren Silhouetten zu ohne Lesekompetenz. Die A-B-C-Beschriftungen helfen bei der Kommunikation \u00fcber L\u00f6sungen. Gleichzeitig erweitern die Bildmotive den Wortschatz.',
+      },
+      {
+        id: 'faq-16',
+        question: 'Wie setze ich Schattenbilder zur Differenzierung ein?',
+        answer: 'Verwenden Sie deutlich unterschiedliche Formen f\u00fcr Anf\u00e4nger und \u00e4hnliche Formen f\u00fcr Fortgeschrittene. Im Schattenmodus sind einfache Zuordnungen m\u00f6glich, der Zusammenf\u00fcgen-Modus erh\u00f6ht die Schwierigkeit. Variieren Sie auch die Bildanzahl pro Arbeitsblatt.',
+      },
+      {
+        id: 'faq-17',
+        question: 'Welche Wahrnehmungsf\u00e4higkeiten werden \u00fcber Formenerkennung hinaus gef\u00f6rdert?',
+        answer: 'Neben Formenerkennung trainieren Schattenbilder Figur-Grund-Wahrnehmung, Konturenerkennung und visuelles Ged\u00e4chtnis. Der Zusammenf\u00fcgen-Modus f\u00f6rdert zus\u00e4tzlich r\u00e4umliche Rotation und mentale Spiegelung. Diese F\u00e4higkeiten sind Grundlagen f\u00fcr Lesen und Schreiben.',
+      },
+      {
+        id: 'faq-18',
+        question: 'Sind die Schattenbilder-\u00dcbungen an den Bildungsplan angepasst?',
+        answer: 'Schattenbilder unterst\u00fctzen die Lernziele f\u00fcr Kita und Vorschule: visuelle Wahrnehmung, Formerkennung und r\u00e4umliches Denken. Diese Basis-Kompetenzen sind Voraussetzung f\u00fcr Buchstabenerkennung und geometrisches Verst\u00e4ndnis.',
+      },
+      {
+        id: 'faq-19',
+        question: 'Eignen sich Schattenbilder f\u00fcr Kinder mit F\u00f6rderbedarf?',
+        answer: 'Ja, Schattenbilder-Zuordnung ist besonders geeignet f\u00fcr inklusive Settings. Der rein visuelle Charakter erfordert keine sprachlichen oder mathematischen Vorkenntnisse. Deutlich unterschiedliche Formen bieten einen niedrigschwelligen Einstieg. Die \u00dcbungen st\u00e4rken die visuelle Wahrnehmung spielerisch.',
+      },
+      {
+        id: 'faq-20',
+        question: 'Kann ich Schattenbilder-Arbeitsbl\u00e4tter zu einem Heft zusammenstellen?',
+        answer: 'Ja, erstellen Sie verschiedene Zuordnungs- und Zusammenf\u00fcge-\u00dcbungen und laden Sie alle als PDF herunter. Ordnen Sie die Bl\u00e4tter progressiv: erst einfache Schattenzuordnung, dann \u00e4hnliche Formen, dann Zusammenf\u00fcgen. Mit einem PDF-Programm erstellen Sie ein druckfertiges Wahrnehmungsheft.',
+      },
     ],
 
   },

@@ -240,6 +240,71 @@ Aktivieren Sie die Graustufenoption für tintensparsames Drucken. Mit dem Vollzu
         question: 'Kann ich die Bilder-Additions-Arbeitsbl\u00e4tter kommerziell verkaufen?',
         answer: 'Ja, das Vollzugriff Abonnement f\u00fcr 240\u20ac j\u00e4hrlich enth\u00e4lt eine kommerzielle Lizenz. Sie d\u00fcrfen Ihre erstellten Arbeitsbl\u00e4tter auf Teachers Pay Teachers, Etsy oder Amazon KDP verkaufen. Alle Downloads sind wasserzeichenfrei in professioneller 300 DPI Qualit\u00e4t.',
       },
+      {
+        id: 'faq-8',
+        question: 'Kann ich den Bilder-Addition Generator kostenlos testen?',
+        answer: 'Ja, Sie k\u00f6nnen ohne Registrierung sofort Bilder-Additions-Arbeitsbl\u00e4tter erstellen. Die Vorschau zeigt Ihr fertiges Arbeitsblatt mit Wasserzeichen. Mit dem Vollzugriff laden Sie unbegrenzt ohne Wasserzeichen herunter. So testen Sie alle 4 Aufgabenmodi risikofrei.',
+      },
+      {
+        id: 'faq-9',
+        question: 'Welche Seitenformate stehen f\u00fcr den Druck zur Verf\u00fcgung?',
+        answer: 'Sie w\u00e4hlen zwischen Letter und A4 in Hoch- oder Querformat. Im Querformat passen mehr Aufgaben nebeneinander. Alle Arbeitsbl\u00e4tter werden in professioneller 300 DPI Qualit\u00e4t als PDF oder JPEG exportiert. Die Graustufen-Option spart Druckertinte.',
+      },
+      {
+        id: 'faq-10',
+        question: 'Wie viele Additions-Aufgaben passen auf eine Seite?',
+        answer: 'Die Anzahl h\u00e4ngt vom Seitenformat und der gew\u00e4hlten Bildgr\u00f6\u00dfe ab. Im Hochformat passen typischerweise 4-8 Aufgaben, im Querformat bis zu 10. Weniger Aufgaben mit gr\u00f6\u00dferen Bildern sind ideal f\u00fcr Vorschulkinder, mehr Aufgaben f\u00fcr ge\u00fcbte Rechner.',
+      },
+      {
+        id: 'faq-11',
+        question: 'Welche Zahlenr\u00e4ume deckt die Bilder-Addition ab?',
+        answer: 'Die Aufgaben arbeiten im Zahlenraum bis 20 mit visueller Bildunterst\u00fctzung. Einfache Aufgaben beginnen bei 1+1 mit wenigen Bildern. Durch die Bilddarstellung verstehen Kinder das Addieren als Zusammenf\u00fcgen von Mengen intuitiv.',
+      },
+      {
+        id: 'faq-12',
+        question: 'Kann ich eigene Bilder f\u00fcr die Additions-Aufgaben hochladen?',
+        answer: 'Ja, \u00fcber den Datei-Upload-Button laden Sie eigene Bilder in JPEG, PNG oder GIF hoch. Kombinieren Sie hochgeladene Bilder mit Motiven aus der Bibliothek mit \u00fcber 3000 Bildern. So erstellen Sie personalisierte Mathe-Arbeitsbl\u00e4tter mit Klassenfotos oder Sachunterrichtsthemen.',
+      },
+      {
+        id: 'faq-13',
+        question: 'Kann ich Bilder-Addition mit anderen Generatoren kombinieren?',
+        answer: 'Ja, erstellen Sie umfassende Mathe-Pakete indem Sie Bilder-Addition mit Subtraktions-, Z\u00e4hl- oder Muster-Arbeitsbl\u00e4ttern kombinieren. Alle Generatoren nutzen dieselbe Bildbibliothek. So \u00fcben Kinder verschiedene Rechenoperationen mit denselben vertrauten Bildern.',
+      },
+      {
+        id: 'faq-14',
+        question: 'Welche Sprachen unterst\u00fctzt der Bilder-Addition Generator?',
+        answer: 'Der Generator unterst\u00fctzt 11 Sprachen: Deutsch, Englisch, Franz\u00f6sisch, Spanisch, Portugiesisch, Italienisch, Niederl\u00e4ndisch, Schwedisch, D\u00e4nisch, Norwegisch und Finnisch. Titel und Anweisungen werden automatisch in der gew\u00e4hlten Sprache generiert.',
+      },
+      {
+        id: 'faq-15',
+        question: 'Eignet sich Bilder-Addition f\u00fcr DaF/DaZ-Kinder?',
+        answer: 'Ja, die visuelle Bilddarstellung macht Additions-Aufgaben sprachunabh\u00e4ngig verst\u00e4ndlich. Kinder z\u00e4hlen Bilder und schreiben die Zahl \u2014 daf\u00fcr brauchen sie keine Deutschkenntnisse. Gleichzeitig erweitern die Bildmotive den Wortschatz auf nat\u00fcrliche Weise.',
+      },
+      {
+        id: 'faq-16',
+        question: 'Wie setze ich Bilder-Addition zur Differenzierung ein?',
+        answer: 'Verwenden Sie einfache Aufgaben mit wenigen gro\u00dfen Bildern f\u00fcr Anf\u00e4nger und komplexere Aufgaben mit mehr Bildern f\u00fcr Fortgeschrittene. Die 4 Aufgabenmodi bieten unterschiedliche Schwierigkeitsgrade. So arbeiten alle Kinder am Thema Addition auf ihrem individuellen Niveau.',
+      },
+      {
+        id: 'faq-17',
+        question: 'Sind die Bilder-Additions-\u00dcbungen an den Lehrplan angepasst?',
+        answer: 'Die \u00dcbungen unterst\u00fctzen die Lernziele des Mathematik-Lehrplans f\u00fcr Vorschule und Klasse 1-2: Addition im Zahlenraum bis 20, Mengenverst\u00e4ndnis und visuelles Rechnen. Die bildgest\u00fctzte Darstellung entspricht dem handlungsorientierten Mathematikunterricht.',
+      },
+      {
+        id: 'faq-18',
+        question: 'Eignet sich Bilder-Addition f\u00fcr Kinder mit F\u00f6rderbedarf?',
+        answer: 'Ja, die visuelle Bilddarstellung macht Addition besonders zug\u00e4nglich f\u00fcr Kinder mit Rechenschw\u00e4che oder Dyskalkulie. Bilder z\u00e4hlen ist konkreter als abstraktes Rechnen mit Zahlen. Wenige gro\u00dfe Aufgaben pro Seite vermeiden Reiz\u00fcberflutung.',
+      },
+      {
+        id: 'faq-19',
+        question: 'Worin unterscheidet sich Bilder-Addition von normaler Addition?',
+        answer: 'Bei der Bilder-Addition werden Mengen als Bilder dargestellt statt als abstrakte Zahlen. Kinder z\u00e4hlen z.B. 3 \u00c4pfel plus 2 \u00c4pfel und schreiben das Ergebnis. Diese visuelle Darstellung hilft beim \u00dcbergang vom konkreten zum abstrakten Rechnen und st\u00e4rkt das Mengenverst\u00e4ndnis.',
+      },
+      {
+        id: 'faq-20',
+        question: 'Kann ich Bilder-Additions-Arbeitsbl\u00e4tter zu einem Heft zusammenstellen?',
+        answer: 'Ja, erstellen Sie verschiedene Aufgabentypen von einfach bis komplex und laden Sie alle als PDF herunter. Ordnen Sie die Bl\u00e4tter nach Schwierigkeit f\u00fcr ein progressives Mathe-\u00dcbungsheft. Mit einem PDF-Programm f\u00fcgen Sie Arbeitsbl\u00e4tter und L\u00f6sungsschl\u00fcssel zusammen.',
+      },
     ],
 
   },

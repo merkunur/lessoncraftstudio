@@ -227,6 +227,71 @@ Vorschul-Arbeitsblätter behalten Bildqualität ob einmal gedruckt oder für gan
         question: 'Welche Seitenformate stehen f\u00fcr den Druck zur Verf\u00fcgung?',
         answer: 'Der Generator unterst\u00fctzt Letter und A4 in Hoch- und Querformat sowie quadratische und benutzerdefinierte Abmessungen. Die Graustufen-Option spart Druckertinte bei farbigen Arbeitsbl\u00e4ttern Grundschule. Alle Downloads erscheinen in professioneller 300 DPI Qualit\u00e4t.',
       },
+      {
+        id: 'faq-8',
+        question: 'Kann ich den Gro\u00df-und-Klein Generator kostenlos testen?',
+        answer: 'Ja, Sie k\u00f6nnen ohne Registrierung sofort Gr\u00f6\u00dfenvergleich-Arbeitsbl\u00e4tter erstellen. Die Vorschau zeigt Ihr fertiges Arbeitsblatt mit Wasserzeichen. Mit dem Vollzugriff laden Sie unbegrenzt ohne Wasserzeichen herunter. So testen Sie alle Vergleichsoptionen risikofrei.',
+      },
+      {
+        id: 'faq-9',
+        question: 'F\u00fcr welche Altersgruppen eignen sich Gr\u00f6\u00dfenvergleich-\u00dcbungen?',
+        answer: 'Einfache Vergleiche mit zwei deutlich unterschiedlichen Gr\u00f6\u00dfen eignen sich ab 3 Jahren f\u00fcr Kita-Kinder. Mittlere Schwierigkeit mit mehreren Gr\u00f6\u00dfen ist ideal f\u00fcr Vorschulkinder. Sortier\u00fcbungen mit feinen Gr\u00f6\u00dfenunterschieden fordern Kinder in Klasse 1-2 heraus.',
+      },
+      {
+        id: 'faq-10',
+        question: 'Welche Aufgabentypen bietet der Gr\u00f6\u00dfenvergleich Generator?',
+        answer: 'Kinder identifizieren das gr\u00f6\u00dfte oder kleinste Bild in einer Reihe, sortieren Bilder nach Gr\u00f6\u00dfe oder kreisen das passende Bild ein. Die verschiedenen Aufgabenformate trainieren Gr\u00f6\u00dfenwahrnehmung, visuelles Vergleichen und ordinales Denken.',
+      },
+      {
+        id: 'faq-11',
+        question: 'Welche Sprachen unterst\u00fctzt der Gro\u00df-und-Klein Generator?',
+        answer: 'Der Generator unterst\u00fctzt 11 Sprachen: Deutsch, Englisch, Franz\u00f6sisch, Spanisch, Portugiesisch, Italienisch, Niederl\u00e4ndisch, Schwedisch, D\u00e4nisch, Norwegisch und Finnisch. Alle Anweisungen und Beschriftungen werden automatisch in der gew\u00e4hlten Sprache generiert.',
+      },
+      {
+        id: 'faq-12',
+        question: 'Kann ich Gr\u00f6\u00dfenvergleich mit anderen Generatoren kombinieren?',
+        answer: 'Ja, erstellen Sie umfassende Mathe-Pakete indem Sie Gr\u00f6\u00dfenvergleich mit Mehr-oder-Weniger, Sortier\u00fcbungen oder Muster-Arbeitsbl\u00e4ttern kombinieren. Alle Generatoren nutzen dieselbe Bildbibliothek. So \u00fcben Kinder verschiedene Vergleichskonzepte thematisch einheitlich.',
+      },
+      {
+        id: 'faq-13',
+        question: 'Darf ich Gr\u00f6\u00dfenvergleich-Arbeitsbl\u00e4tter kommerziell verkaufen?',
+        answer: 'Ja, der Vollzugriff enth\u00e4lt eine kommerzielle Lizenz. Sie d\u00fcrfen erstellte Arbeitsbl\u00e4tter auf Plattformen wie Teachers Pay Teachers oder Lehrermarktplatz verkaufen. Auch der Einsatz in Kita-Gruppen und Nachhilfe-Instituten ist erlaubt.',
+      },
+      {
+        id: 'faq-14',
+        question: 'Eignet sich Gro\u00df-und-Klein f\u00fcr DaF/DaZ-Kinder?',
+        answer: 'Ja, die visuellen Gr\u00f6\u00dfenvergleiche sind sprachunabh\u00e4ngig verst\u00e4ndlich. Kinder vergleichen Bilder ohne Lesekompetenz. Gleichzeitig lernen sie Begriffe wie gro\u00df, klein, gr\u00f6\u00dfter, kleinster auf nat\u00fcrliche Weise im Kontext der \u00dcbung.',
+      },
+      {
+        id: 'faq-15',
+        question: 'Wie setze ich Gr\u00f6\u00dfenvergleich zur Differenzierung ein?',
+        answer: 'Verwenden Sie deutliche Gr\u00f6\u00dfenunterschiede mit nur zwei Bildern f\u00fcr Anf\u00e4nger und feine Gr\u00f6\u00dfenabstufungen mit mehreren Bildern f\u00fcr Fortgeschrittene. Weniger Aufgaben pro Seite senken die Anforderung. So arbeiten alle Kinder am Thema Gr\u00f6\u00dfe auf ihrem Niveau.',
+      },
+      {
+        id: 'faq-16',
+        question: 'Welche mathematischen Grundkompetenzen f\u00f6rdert Gr\u00f6\u00dfenvergleich?',
+        answer: 'Gr\u00f6\u00dfenvergleich trainiert visuelles Vergleichen, Seriation (Reihenfolge nach Gr\u00f6\u00dfe), ordinales Denken und Messbegriffe. Diese Kompetenzen bilden die Grundlage f\u00fcr sp\u00e4tere Ma\u00dfeinheiten, Zahlenreihen und proportionales Denken im Mathematikunterricht.',
+      },
+      {
+        id: 'faq-17',
+        question: 'Sind die Gr\u00f6\u00dfenvergleich-\u00dcbungen an den Lehrplan angepasst?',
+        answer: 'Die \u00dcbungen unterst\u00fctzen die Lernziele des Mathematik-Lehrplans f\u00fcr Kita und Vorschule: Gr\u00f6\u00dfenvergleich, Ordnen nach Gr\u00f6\u00dfe und erste Messerfahrungen. Die visuellen Aufgaben entsprechen dem handlungsorientierten Ansatz der fr\u00fchkindlichen Bildung.',
+      },
+      {
+        id: 'faq-18',
+        question: 'Eignet sich Gr\u00f6\u00dfenvergleich f\u00fcr Kinder mit F\u00f6rderbedarf?',
+        answer: 'Ja, die klaren visuellen Vergleiche mit konkreten Bildern sind besonders zug\u00e4nglich f\u00fcr inklusive Settings. Deutliche Gr\u00f6\u00dfenunterschiede und wenige Aufgaben pro Seite vermeiden Reiz\u00fcberflutung. Gro\u00df und Klein erkennen ist eine grundlegende Kompetenz, die spielerisch ge\u00fcbt wird.',
+      },
+      {
+        id: 'faq-19',
+        question: 'Gibt es einen Graustufen-Modus um Druckkosten zu sparen?',
+        answer: 'Ja, der Graustufen-Modus wandelt alle Farben in Schwarz-Wei\u00df-T\u00f6ne um. Die Gr\u00f6\u00dfenunterschiede bleiben durch klare Konturen erkennbar. Das spart teure Farbpatronen beim Ausdrucken ganzer Klassensets bei voller 300 DPI Qualit\u00e4t.',
+      },
+      {
+        id: 'faq-20',
+        question: 'Kann ich Gr\u00f6\u00dfenvergleich-Arbeitsbl\u00e4tter zu einem Heft zusammenstellen?',
+        answer: 'Ja, erstellen Sie verschiedene Vergleichs\u00fcbungen von einfach bis komplex und laden Sie alle als PDF herunter. Ordnen Sie die Bl\u00e4tter progressiv: erst deutliche Unterschiede, dann feinere Abstufungen, dann Reihenfolge-Aufgaben. So entsteht ein vollst\u00e4ndiges Mathe-\u00dcbungsheft.',
+      },
     ],
 
   },

@@ -226,6 +226,76 @@ Generieren Sie den Lösungsschlüssel separat. Die Lösung zeigt alle Bilder kor
         question: 'In welchen F\u00e4chern lassen sich Sortier\u00fcbungen einsetzen?',
         answer: 'Sortierarbeitsbl\u00e4tter verbinden verschiedene Lernbereiche miteinander. Als Mathe Arbeitsbl\u00e4tter trainieren Kinder das Z\u00e4hlen und Gruppieren. Als Deutsch Arbeitsbl\u00e4tter \u00fcben sie Wortschatz und Kategorisierung. Im Sachunterricht lernen sie Ordnungsprinzipien kennen.',
       },
+      {
+        id: 'faq-7',
+        question: 'Kann ich den Sortier\u00fcbungen Generator kostenlos testen?',
+        answer: 'Ja, Sie k\u00f6nnen ohne Registrierung sofort Sortierarbeitsbl\u00e4tter erstellen. Die Vorschau zeigt Ihr fertiges Arbeitsblatt mit Wasserzeichen. Mit dem Vollzugriff laden Sie unbegrenzt ohne Wasserzeichen herunter. So testen Sie alle Sortieroptionen und Kategorie-Einstellungen risikofrei.',
+      },
+      {
+        id: 'faq-8',
+        question: 'Welche Seitenformate stehen f\u00fcr den Druck zur Verf\u00fcgung?',
+        answer: 'Sie w\u00e4hlen zwischen Letter und A4 in Hoch- oder Querformat. Alle Arbeitsbl\u00e4tter werden in professioneller 300 DPI Qualit\u00e4t als PDF oder JPEG exportiert. Die Graustufen-Option spart Druckertinte bei farbigen Bildern.',
+      },
+      {
+        id: 'faq-9',
+        question: 'F\u00fcr welche Altersgruppen eignen sich Sortier\u00fcbungen?',
+        answer: 'Einfache Sortierung mit 2 Kategorien und wenigen Bildern eignet sich ab 4 Jahren f\u00fcr Vorschulkinder. Mehr Bilder und feinere Kategorien sind ideal f\u00fcr Klasse 1-2. Abstrakte Sortierkriterien fordern Kinder in Klasse 3-4 heraus.',
+      },
+      {
+        id: 'faq-10',
+        question: 'Kann ich eigene Bilder f\u00fcr die Sortier\u00fcbungen hochladen?',
+        answer: 'Ja, \u00fcber den Datei-Upload-Button laden Sie eigene Bilder in JPEG, PNG oder GIF hoch. Kombinieren Sie hochgeladene Bilder mit Motiven aus der Bibliothek mit \u00fcber 3000 Bildern. So erstellen Sie personalisierte Sortier\u00fcbungen zu jedem Unterrichtsthema.',
+      },
+      {
+        id: 'faq-11',
+        question: 'Welche Sprachen unterst\u00fctzt der Sortier\u00fcbungen Generator?',
+        answer: 'Der Generator unterst\u00fctzt 11 Sprachen: Deutsch, Englisch, Franz\u00f6sisch, Spanisch, Portugiesisch, Italienisch, Niederl\u00e4ndisch, Schwedisch, D\u00e4nisch, Norwegisch und Finnisch. Kategorie-\u00dcberschriften und Anweisungen werden automatisch in der gew\u00e4hlten Sprache generiert.',
+      },
+      {
+        id: 'faq-12',
+        question: 'Gibt es einen Graustufen-Modus um Druckkosten zu sparen?',
+        answer: 'Ja, der Graustufen-Modus wandelt alle Farben in Schwarz-Wei\u00df-T\u00f6ne um. Das spart teure Farbpatronen beim Ausdrucken ganzer Klassensets. Die Bilder bleiben durch klare Konturen gut unterscheidbar und die Sortieraufgaben funktionieren uneingeschr\u00e4nkt.',
+      },
+      {
+        id: 'faq-13',
+        question: 'Kann ich Sortier\u00fcbungen mit anderen Generatoren kombinieren?',
+        answer: 'Ja, erstellen Sie thematische Lernpakete indem Sie Sortier\u00fcbungen mit Zuordnungs-, Z\u00e4hl- oder Vergleichs-Arbeitsbl\u00e4ttern kombinieren. Alle Generatoren nutzen dieselbe Bildbibliothek. So \u00fcben Kinder Kategorisierung in verschiedenen Aufgabenformaten.',
+      },
+      {
+        id: 'faq-14',
+        question: 'Darf ich Sortierarbeitsbl\u00e4tter kommerziell verkaufen?',
+        answer: 'Ja, der Vollzugriff enth\u00e4lt eine kommerzielle Lizenz. Sie d\u00fcrfen erstellte Arbeitsbl\u00e4tter auf Plattformen wie Teachers Pay Teachers oder Lehrermarktplatz verkaufen. Auch der Einsatz in Nachhilfe-Instituten und Kita-Gruppen ist erlaubt.',
+      },
+      {
+        id: 'faq-15',
+        question: 'Eignen sich Sortier\u00fcbungen f\u00fcr DaF/DaZ-Unterricht?',
+        answer: 'Ja, die visuellen Sortieraufgaben sind ideal f\u00fcr Deutsch als Fremd- und Zweitsprache. Kinder sortieren Bilder nach Kategorien wie Tiere, Essen oder Fahrzeuge und lernen so Wortfelder und Oberbegriffe. Die Bildunterst\u00fctzung erm\u00f6glicht Mitmachen ohne Lesekompetenz.',
+      },
+      {
+        id: 'faq-16',
+        question: 'Wie setze ich Sortier\u00fcbungen zur Differenzierung ein?',
+        answer: 'Verwenden Sie 2 Kategorien mit wenigen eindeutigen Bildern f\u00fcr Anf\u00e4nger und mehr Kategorien mit feinen Unterscheidungen f\u00fcr Fortgeschrittene. Weniger Bilder senken die Schwierigkeit, mehr Bilder erh\u00f6hen die Konzentrations-Anforderung.',
+      },
+      {
+        id: 'faq-17',
+        question: 'Welche kognitiven F\u00e4higkeiten f\u00f6rdern Sortier\u00fcbungen?',
+        answer: 'Sortieren trainiert Kategorisierung, logisches Denken, Begriffsbildung und visuelles Diskriminieren. Kinder lernen Oberbegriffe zu bilden, Gemeinsamkeiten zu erkennen und Unterschiede zu benennen. Diese F\u00e4higkeiten sind Grundlagen f\u00fcr wissenschaftliches Denken.',
+      },
+      {
+        id: 'faq-18',
+        question: 'Sind Sortier\u00fcbungen an den Lehrplan angepasst?',
+        answer: 'Die \u00dcbungen unterst\u00fctzen die Lernziele des Sachunterricht-Lehrplans f\u00fcr Vorschule und Grundschule: Ordnen, Klassifizieren und Kategorisieren. Im Mathematikunterricht f\u00f6rdern sie Mengenbildung und Gruppierung gem\u00e4\u00df Bildungsplan.',
+      },
+      {
+        id: 'faq-19',
+        question: 'Eignen sich Sortier\u00fcbungen f\u00fcr Kinder mit F\u00f6rderbedarf?',
+        answer: 'Ja, das klare Sortierformat mit visuellen Kategorien ist besonders geeignet f\u00fcr inklusive Settings. Wenige Bilder mit deutlichen Unterschieden bieten einen niedrigschwelligen Einstieg. Die haptische Variante mit Ausschneiden und Aufkleben unterst\u00fctzt kinesthetische Lerner.',
+      },
+      {
+        id: 'faq-20',
+        question: 'Kann ich Sortier-Arbeitsbl\u00e4tter zu einem Heft zusammenstellen?',
+        answer: 'Ja, erstellen Sie verschiedene Sortier\u00fcbungen zu unterschiedlichen Themen und laden Sie alle als PDF herunter. Ordnen Sie die Bl\u00e4tter nach Schwierigkeit: erst 2 Kategorien, dann 3, dann mit feineren Unterscheidungen. Mit einem PDF-Programm erstellen Sie ein druckfertiges \u00dcbungsheft.',
+      },
     ],
 
   },

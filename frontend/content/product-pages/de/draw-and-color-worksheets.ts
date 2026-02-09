@@ -235,6 +235,71 @@ Speichern Sie das Arbeitsblatt auf Ihrem Computer. Drucken Sie es für Ihre Klas
         question: 'Wie funktioniert die Spiegelungsoption beim Rasterzeichnen?',
         answer: 'Die Spiegelungsoption erstellt symmetrische Muster, bei denen Kinder die fehlende H\u00e4lfte erg\u00e4nzen. W\u00e4hlen Sie horizontal oder vertikal als Spiegelachse. Diese Funktion f\u00f6rdert das r\u00e4umliche Vorstellungsverm\u00f6gen und die Symmetrie-Wahrnehmung besonders effektiv.',
       },
+      {
+        id: 'faq-8',
+        question: 'Kann ich den Rasterzeichnen Generator kostenlos testen?',
+        answer: 'Ja, Sie k\u00f6nnen ohne Registrierung sofort Rasterzeichnen-Arbeitsbl\u00e4tter erstellen. Die Vorschau zeigt Ihr fertiges Arbeitsblatt mit Wasserzeichen. Mit dem Vollzugriff laden Sie unbegrenzt ohne Wasserzeichen herunter. So testen Sie alle Funktionen inklusive Spiegelung risikofrei.',
+      },
+      {
+        id: 'faq-9',
+        question: 'F\u00fcr welche Altersgruppen eignet sich Rasterzeichnen?',
+        answer: 'Einfache Muster mit gro\u00dfen Rastern eignen sich ab 4 Jahren f\u00fcr Vorschulkinder. Mittlere Schwierigkeit mit Spiegelung ist ideal f\u00fcr Klasse 1-2. Komplexe Muster mit feinen Rastern fordern Kinder in Klasse 3-4 heraus. Die Bildunterst\u00fctzung macht alle Stufen zug\u00e4nglich.',
+      },
+      {
+        id: 'faq-10',
+        question: 'Welche Rastergr\u00f6\u00dfen stehen zur Verf\u00fcgung?',
+        answer: 'Sie k\u00f6nnen die Rastergr\u00f6\u00dfe flexibel einstellen. Gr\u00f6\u00dfere Rasterfelder mit wenigen Zellen sind ideal f\u00fcr j\u00fcngere Kinder. Feinere Raster mit vielen Zellen erm\u00f6glichen detailliertere Zeichnungen f\u00fcr \u00e4ltere Sch\u00fcler. Das leere Zielraster hat immer dieselbe Gr\u00f6\u00dfe wie das Vorlagenmuster.',
+      },
+      {
+        id: 'faq-11',
+        question: 'Kann ich eigene Bilder als Rastervorlagen verwenden?',
+        answer: 'Ja, \u00fcber den Datei-Upload-Button laden Sie eigene Bilder hoch. Das System wandelt sie automatisch in ein Rastermuster um. Alternativ w\u00e4hlen Sie aus \u00fcber 3000 Bibliotheksbildern. So erstellen Sie personalisierte Rasterzeichen-\u00dcbungen mit beliebigen Motiven.',
+      },
+      {
+        id: 'faq-12',
+        question: 'Welche Sprachen unterst\u00fctzt der Rasterzeichnen Generator?',
+        answer: 'Der Generator unterst\u00fctzt 11 Sprachen: Deutsch, Englisch, Franz\u00f6sisch, Spanisch, Portugiesisch, Italienisch, Niederl\u00e4ndisch, Schwedisch, D\u00e4nisch, Norwegisch und Finnisch. Titel und Anweisungen werden automatisch in der gew\u00e4hlten Sprache generiert.',
+      },
+      {
+        id: 'faq-13',
+        question: 'Kann ich Rasterzeichnen mit anderen Generatoren kombinieren?',
+        answer: 'Ja, erstellen Sie umfassende Kunst-Pakete indem Sie Rasterzeichnen mit Ausmalbildern, Schwung\u00fcbungen oder Muster-Arbeitsbl\u00e4ttern kombinieren. Alle Generatoren nutzen dieselbe Bildbibliothek. So entsteht ein thematisch einheitliches Kreativ-Paket.',
+      },
+      {
+        id: 'faq-14',
+        question: 'Wie setze ich Rasterzeichnen zur Differenzierung ein?',
+        answer: 'Verwenden Sie gro\u00dfe Raster mit einfachen Mustern f\u00fcr Anf\u00e4nger und feine Raster mit Spiegelung f\u00fcr Fortgeschrittene. Die Ausmalfunktion nach dem Zeichnen bietet eine zus\u00e4tzliche Aufgabenstufe. So arbeiten alle Kinder am selben Thema auf ihrem Niveau.',
+      },
+      {
+        id: 'faq-15',
+        question: 'Eignet sich Rasterzeichnen f\u00fcr DaF/DaZ-Kinder?',
+        answer: 'Ja, Rasterzeichnen ist sprachunabh\u00e4ngig verst\u00e4ndlich. Kinder \u00fcbertragen visuelle Muster ohne Lesekompetenz. Gleichzeitig lernen sie geometrische Begriffe wie oben, unten, links, rechts. Das macht Rasterzeichnen ideal f\u00fcr mehrsprachige Lerngruppen.',
+      },
+      {
+        id: 'faq-16',
+        question: 'Welche kognitiven F\u00e4higkeiten f\u00f6rdert Rasterzeichnen?',
+        answer: 'Rasterzeichnen trainiert r\u00e4umliche Orientierung, visuelle Wahrnehmung, Feinmotorik und Konzentration. Die Spiegelungsoption f\u00f6rdert zus\u00e4tzlich Symmetrieverst\u00e4ndnis. Das \u00dcbertragen von Mustern st\u00e4rkt die Auge-Hand-Koordination und bereitet auf geometrisches Zeichnen vor.',
+      },
+      {
+        id: 'faq-17',
+        question: 'Ist Rasterzeichnen an den Kunst- oder Mathematik-Lehrplan angepasst?',
+        answer: 'Rasterzeichnen verbindet Kunst und Mathematik. Es unterst\u00fctzt Lernziele in Geometrie (Symmetrie, r\u00e4umliche Orientierung) und Kunst (Feinmotorik, Muster erkennen). Die Spiegelungsoption entspricht direkt den Symmetrie-Anforderungen des Mathematik-Lehrplans f\u00fcr Klasse 1-3.',
+      },
+      {
+        id: 'faq-18',
+        question: 'Eignet sich Rasterzeichnen f\u00fcr Kinder mit F\u00f6rderbedarf?',
+        answer: 'Ja, gro\u00dfe Rasterfelder mit einfachen Mustern bieten einen niedrigschwelligen Einstieg. Die klare Struktur gibt Orientierung und Sicherheit. Kinder mit Konzentrationsschwierigkeiten profitieren vom fokussierten, schrittweisen Arbeiten Zelle f\u00fcr Zelle.',
+      },
+      {
+        id: 'faq-19',
+        question: 'Gibt es einen Graustufen-Modus um Druckkosten zu sparen?',
+        answer: 'Ja, der Graustufen-Modus wandelt alle Farben in Schwarz-Wei\u00df-T\u00f6ne um. Das spart teure Farbpatronen beim Ausdrucken ganzer Klassensets. Die Rasterlinien und Muster bleiben klar erkennbar bei voller 300 DPI Qualit\u00e4t.',
+      },
+      {
+        id: 'faq-20',
+        question: 'Kann ich Rasterzeichen-Arbeitsbl\u00e4tter zu einem Heft zusammenstellen?',
+        answer: 'Ja, erstellen Sie verschiedene Muster von einfach bis komplex und laden Sie alle als PDF herunter. Ordnen Sie die Bl\u00e4tter progressiv: erst gro\u00dfe Raster, dann feinere Raster, dann Spiegelungs\u00fcbungen. Mit einem PDF-Programm erstellen Sie ein druckfertiges \u00dcbungsheft.',
+      },
     ],
 
   },

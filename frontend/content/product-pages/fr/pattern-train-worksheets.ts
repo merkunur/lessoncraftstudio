@@ -227,6 +227,81 @@ Cochez "Grayscale" avant de télécharger pour économiser l'encre couleur. La f
         question: 'Combien de wagons peut-on mettre par train ?',
         answer: 'La longueur du train est personnalisable avec un nombre d\u2019indices r\u00e9glable de 4 \u00e0 10. Plus d\u2019indices rendent la fiche maternelle plus facile pour les jeunes enfants. Moins d\u2019indices augmentent la difficult\u00e9 en laissant plus de wagons vides \u00e0 compl\u00e9ter.',
       },
+      {
+        id: 'faq-6',
+        question: 'Quels formats de fichier sont disponibles pour les fiches train suites logiques ?',
+        answer: 'Les fiches se t\u00e9l\u00e9chargent en PDF pour l\u2019impression professionnelle ou en JPEG pour le partage num\u00e9rique. La r\u00e9solution de 300 DPI garantit que les images dans les wagons et les \u00e9l\u00e9ments \u00e0 d\u00e9couper restent parfaitement nets.',
+      },
+      {
+        id: 'faq-7',
+        question: 'Le g\u00e9n\u00e9rateur de train suites logiques fonctionne-t-il en plusieurs langues ?',
+        answer: 'Oui, onze langues sont support\u00e9es pour les noms d\u2019images et les consignes de la fiche. La biblioth\u00e8que de 3000 images s\u2019adapte automatiquement \u00e0 la langue s\u00e9lectionn\u00e9e. Les exercices de suites logiques visuelles fonctionnent dans toutes les langues.',
+      },
+      {
+        id: 'faq-8',
+        question: 'Quelles sont les diff\u00e9rences entre les cinq types de suites ?',
+        answer: 'Le motif AB alterne deux \u00e9l\u00e9ments et convient aux d\u00e9butants. Le motif AAB r\u00e9p\u00e8te un \u00e9l\u00e9ment avant d\u2019alterner, et ABB fait l\u2019inverse. Le motif ABC utilise trois \u00e9l\u00e9ments diff\u00e9rents. Le motif AABB alterne des paires identiques pour le niveau le plus avanc\u00e9.',
+      },
+      {
+        id: 'faq-9',
+        question: 'Comment optimiser l\u2019impression des fiches train suites logiques ?',
+        answer: 'Imprimez le PDF en qualit\u00e9 maximale sur papier A4 blanc. Les images dans les wagons et les \u00e9l\u00e9ments \u00e0 d\u00e9couper doivent \u00eatre clairement visibles. Un papier l\u00e9g\u00e8rement plus \u00e9pais facilite le d\u00e9coupage et le collage par les jeunes enfants.',
+      },
+      {
+        id: 'faq-10',
+        question: 'Puis-je vendre les fiches train suites logiques cr\u00e9\u00e9es ?',
+        answer: 'Oui, votre abonnement Acc\u00e8s Complet inclut une licence commerciale pour toutes les cr\u00e9ations. Les cahiers de suites logiques th\u00e9matiques avec trains sont tr\u00e8s appr\u00e9ci\u00e9s sur les plateformes \u00e9ducatives. Cr\u00e9ez des s\u00e9ries progressives pour un contenu attractif.',
+      },
+      {
+        id: 'faq-11',
+        question: 'Comment fonctionne l\u2019abonnement pour le g\u00e9n\u00e9rateur de trains ?',
+        answer: 'L\u2019abonnement Acc\u00e8s Complet \u00e0 240 \u20ac par an donne acc\u00e8s aux 33 g\u00e9n\u00e9rateurs, dont le train suites logiques. Cr\u00e9ation illimit\u00e9e de fiches avec corrig\u00e9s automatiques. Paiement s\u00e9curis\u00e9 et r\u00e9siliation possible \u00e0 tout moment.',
+      },
+      {
+        id: 'faq-12',
+        question: 'Comment utiliser mes propres images dans les wagons du train ?',
+        answer: 'Cliquez sur le bouton de t\u00e9l\u00e9versement et importez vos fichiers JPEG, PNG ou GIF. Vos images remplissent les wagons du train comme celles de la biblioth\u00e8que. Les mascottes de classe ou les objets familiers rendent les suites plus significatives pour les enfants.',
+      },
+      {
+        id: 'faq-13',
+        question: 'Les fiches train suites logiques correspondent-elles au programme scolaire ?',
+        answer: 'Oui, la reconnaissance de motifs et les suites logiques sont des comp\u00e9tences fondamentales du cycle 1. Les programmes de maternelle incluent les algorithmes simples et la r\u00e9p\u00e9tition de motifs. Ces exercices pr\u00e9parent aux notions de r\u00e9gularit\u00e9 math\u00e9matique abord\u00e9es en CP.',
+      },
+      {
+        id: 'faq-14',
+        question: 'Comment adapter les fiches pour les \u00e9l\u00e8ves en difficult\u00e9 ?',
+        answer: 'Commencez par le motif AB avec 8 \u00e0 10 indices pour laisser peu de wagons vides. Les images tr\u00e8s diff\u00e9rentes visuellement facilitent l\u2019identification du motif. R\u00e9duisez progressivement le nombre d\u2019indices lorsque l\u2019\u00e9l\u00e8ve ma\u00eetrise la suite simple.',
+      },
+      {
+        id: 'faq-15',
+        question: 'Quels formats de page sont propos\u00e9s pour les fiches train ?',
+        answer: 'Les formats Letter et A4 sont disponibles en portrait ou paysage. Le format paysage est particuli\u00e8rement adapt\u00e9 aux trains longs qui s\u2019\u00e9tendent horizontalement. Le format portrait convient aux fiches avec plusieurs trains courts empil\u00e9s.',
+      },
+      {
+        id: 'faq-16',
+        question: 'L\u2019option niveaux de gris est-elle disponible pour les fiches train ?',
+        answer: 'Oui, la case niveaux de gris convertit toutes les images en noir et blanc. Les contours des wagons et des images restent clairement d\u00e9finis. Les enfants peuvent m\u00eame colorier les images apr\u00e8s avoir compl\u00e9t\u00e9 la suite, transformant l\u2019exercice en activit\u00e9 double.',
+      },
+      {
+        id: 'faq-17',
+        question: 'Comment personnaliser la fiche train sur le canevas d\u2019\u00e9dition ?',
+        answer: 'D\u00e9placez et redimensionnez le train et les \u00e9l\u00e9ments \u00e0 d\u00e9couper librement sur la page. Ajoutez un titre personnalis\u00e9, le nom de l\u2019\u00e9l\u00e8ve ou des consignes sp\u00e9cifiques. Les bordures d\u00e9coratives et les arri\u00e8re-plans th\u00e9matiques compl\u00e8tent la mise en page.',
+      },
+      {
+        id: 'faq-18',
+        question: 'Peut-on combiner le train suites logiques avec d\u2019autres g\u00e9n\u00e9rateurs ?',
+        answer: 'Oui, associez les suites logiques train avec les fiches de s\u00e9quences pour varier les formats de reconnaissance de motifs. Combinez avec les coloriages pour la motricit\u00e9 fine ou les fiches d\u2019association pour le vocabulaire. Ces combinaisons cr\u00e9ent des cahiers \u00e9quilibr\u00e9s.',
+      },
+      {
+        id: 'faq-19',
+        question: 'Comment organiser une progression p\u00e9dagogique avec les suites logiques ?',
+        answer: 'Commencez par le motif AB avec beaucoup d\u2019indices pour les d\u00e9butants. Passez ensuite aux motifs AAB et ABB, puis au motif ABC. Le motif AABB repr\u00e9sente le niveau le plus avanc\u00e9. R\u00e9duisez progressivement le nombre d\u2019indices pour augmenter le d\u00e9fi cognitif.',
+      },
+      {
+        id: 'faq-20',
+        question: 'Combien de temps faut-il pour cr\u00e9er une fiche train suites logiques ?',
+        answer: 'La cr\u00e9ation prend moins de trois minutes. S\u00e9lectionnez les images, choisissez le type de motif et le nombre d\u2019indices, puis cliquez sur Cr\u00e9er. Le train avec ses wagons, les \u00e9l\u00e9ments \u00e0 d\u00e9couper et le corrig\u00e9 sont g\u00e9n\u00e9r\u00e9s instantan\u00e9ment.',
+      },
     ],
 
   },

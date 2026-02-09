@@ -205,6 +205,81 @@ Lorsque vous avez généré plusieurs cartes, le téléchargement crée un fichi
         question: 'Peut-on cr\u00e9er des jeux de bingo th\u00e9matiques ?',
         answer: 'Oui, vous pouvez cr\u00e9er des bingos th\u00e9matiques en s\u00e9lectionnant une cat\u00e9gorie sp\u00e9cifique comme les animaux, la nourriture, les v\u00e9hicules ou les saisons. Il est aussi possible de m\u00e9langer des images de diff\u00e9rents th\u00e8mes ou de t\u00e9l\u00e9verser vos propres images pour des bingos enti\u00e8rement personnalis\u00e9s.',
       },
+      {
+        id: 'faq-6',
+        question: 'Quels formats de fichier sont disponibles pour les cartes bingo ?',
+        answer: 'Les cartes bingo se t\u00e9l\u00e9chargent en PDF pour l\u2019impression professionnelle ou en JPEG pour le partage num\u00e9rique. La r\u00e9solution de 300 DPI garantit que les images des grilles et les jetons d\u2019appel restent parfaitement nets apr\u00e8s impression.',
+      },
+      {
+        id: 'faq-7',
+        question: 'Le g\u00e9n\u00e9rateur de bingo fonctionne-t-il en plusieurs langues ?',
+        answer: 'Oui, onze langues sont support\u00e9es pour les noms d\u2019images et les consignes. La feuille d\u2019appel et les \u00e9tiquettes s\u2019adaptent automatiquement \u00e0 la langue choisie. Id\u00e9al pour les cours de fran\u00e7ais langue \u00e9trang\u00e8re o\u00f9 le bingo renforce le vocabulaire.',
+      },
+      {
+        id: 'faq-8',
+        question: 'Comment fonctionnent les diff\u00e9rentes tailles de grille bingo ?',
+        answer: 'La grille 3x3 avec 9 cases convient aux tout-petits de petite et moyenne section. La grille 4x4 avec 16 cases offre un d\u00e9fi interm\u00e9diaire pour la grande section et le CP. La grille 5x5 avec 25 cases repr\u00e9sente le niveau le plus avanc\u00e9 pour les CE1 et CE2.',
+      },
+      {
+        id: 'faq-9',
+        question: 'Comment optimiser l\u2019impression des cartes bingo ?',
+        answer: 'Imprimez le PDF sur papier cartonn\u00e9 pour des cartes plus durables que les \u00e9l\u00e8ves manipulent pendant le jeu. Les jetons d\u2019appel se d\u00e9coupent plus facilement sur papier \u00e9pais. Plastifiez les cartes pour les r\u00e9utiliser avec des feutres effa\u00e7ables ou des jetons physiques.',
+      },
+      {
+        id: 'faq-10',
+        question: 'Puis-je vendre les jeux de bingo cr\u00e9\u00e9s ?',
+        answer: 'Oui, votre abonnement Pack Essentiel inclut une licence commerciale pour toutes les cr\u00e9ations. Les jeux de bingo th\u00e9matiques sont tr\u00e8s recherch\u00e9s par les enseignants sur Teachers Pay Teachers et Etsy. Cr\u00e9ez des sets complets par th\u00e8me pour augmenter vos ventes.',
+      },
+      {
+        id: 'faq-11',
+        question: 'Comment fonctionne l\u2019abonnement pour le g\u00e9n\u00e9rateur de bingo ?',
+        answer: 'Le Pack Essentiel \u00e0 144 \u20ac par an donne acc\u00e8s \u00e0 10 g\u00e9n\u00e9rateurs, dont le bingo images. Cr\u00e9ation illimit\u00e9e de cartes uniques avec feuilles d\u2019appel automatiques. Paiement s\u00e9curis\u00e9 et r\u00e9siliation possible \u00e0 tout moment.',
+      },
+      {
+        id: 'faq-12',
+        question: 'Comment utiliser mes propres images pour les cartes bingo ?',
+        answer: 'Cliquez sur le bouton de t\u00e9l\u00e9versement et importez vos fichiers JPEG, PNG ou GIF. Vos images s\u2019int\u00e8grent dans les grilles bingo et les jetons d\u2019appel. Les photos de classe ou les images sp\u00e9cifiques \u00e0 un th\u00e8me \u00e9tudi\u00e9 cr\u00e9ent des bingos sur mesure.',
+      },
+      {
+        id: 'faq-13',
+        question: 'Le bingo images correspond-il au programme scolaire ?',
+        answer: 'Oui, le bingo d\u00e9veloppe la discrimination visuelle, l\u2019attention et le vocabulaire th\u00e9matique. En maternelle, il renforce la reconnaissance d\u2019images et l\u2019\u00e9coute des consignes. Au CP et CE1, il consolide le vocabulaire et les comp\u00e9tences d\u2019association.',
+      },
+      {
+        id: 'faq-14',
+        question: 'Comment adapter le bingo pour les \u00e9l\u00e8ves en difficult\u00e9 ?',
+        answer: 'Choisissez une grille 3x3 avec des images tr\u00e8s distinctes les unes des autres. Les images familières et concr\u00e8tes facilitent la reconnaissance rapide. Jouez d\u2019abord avec les cartes visibles devant chaque \u00e9l\u00e8ve avant de passer au format classique avec \u00e9coute seule.',
+      },
+      {
+        id: 'faq-15',
+        question: 'Quels formats de page sont propos\u00e9s pour les cartes bingo ?',
+        answer: 'Les formats Letter et A4 sont disponibles en portrait ou paysage. Chaque carte bingo occupe une page enti\u00e8re pour une manipulation facile par les jeunes enfants. Les jetons d\u2019appel et la feuille d\u2019appel se t\u00e9l\u00e9chargent sur des pages s\u00e9par\u00e9es.',
+      },
+      {
+        id: 'faq-16',
+        question: 'L\u2019option niveaux de gris est-elle disponible pour les cartes bingo ?',
+        answer: 'Oui, le mode niveaux de gris convertit toutes les images en noir et blanc. Les enfants peuvent colorier les images au fur et \u00e0 mesure qu\u2019elles sont appel\u00e9es, ajoutant une dimension cr\u00e9ative au jeu. Cette option r\u00e9duit les co\u00fbts d\u2019impression pour les grandes classes.',
+      },
+      {
+        id: 'faq-17',
+        question: 'Comment personnaliser les cartes bingo sur le canevas ?',
+        answer: 'D\u00e9placez et redimensionnez la grille bingo et les jetons d\u2019appel librement sur la page. Ajoutez un titre th\u00e9matique, le nom du jeu ou des r\u00e8gles sp\u00e9cifiques. Les bordures d\u00e9coratives et arri\u00e8re-plans th\u00e9matiques rendent chaque jeu visuellement attractif.',
+      },
+      {
+        id: 'faq-18',
+        question: 'Peut-on combiner le bingo avec d\u2019autres g\u00e9n\u00e9rateurs ?',
+        answer: 'Oui, associez le bingo images avec les fiches d\u2019association pour renforcer le vocabulaire. Combinez avec les coloriages pour des activit\u00e9s calmes apr\u00e8s le jeu ou les fiches de maths pour varier les approches. Ces combinaisons cr\u00e9ent des journ\u00e9es d\u2019activit\u00e9s compl\u00e8tes.',
+      },
+      {
+        id: 'faq-19',
+        question: 'Comment le bingo d\u00e9veloppe-t-il l\u2019\u00e9coute et l\u2019attention ?',
+        answer: 'Les \u00e9l\u00e8ves doivent \u00e9couter attentivement chaque image appel\u00e9e et la rep\u00e9rer sur leur grille. Ce processus entra\u00eene l\u2019attention auditive, la m\u00e9moire de travail et la coordination entre \u00e9coute et action visuelle. Le format comp\u00e9titif maintient la motivation et la concentration.',
+      },
+      {
+        id: 'faq-20',
+        question: 'Combien de temps faut-il pour cr\u00e9er un jeu de bingo complet ?',
+        answer: 'La cr\u00e9ation prend moins de trois minutes. Choisissez les images par th\u00e8me, s\u00e9lectionnez la taille de grille et le nombre de cartes uniques, puis cliquez sur Cr\u00e9er. Les cartes, les jetons d\u2019appel et la feuille d\u2019appel sont g\u00e9n\u00e9r\u00e9s instantan\u00e9ment.',
+      },
     ],
 
   },

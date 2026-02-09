@@ -199,6 +199,81 @@ L'abonnement Accès Complet coûte 240 € par an ou 25 € par mois. Vous accé
         question: 'Les fiches sont-elles disponibles en plusieurs langues ?',
         answer: 'Oui, le g\u00e9n\u00e9rateur de pr\u00e9positions est disponible en 11 langues, chacune enti\u00e8rement localis\u00e9e avec les pr\u00e9positions sp\u00e9cifiques \u00e0 la langue. C\'est id\u00e9al pour les classes bilingues ou l\'enseignement du fran\u00e7ais langue \u00e9trang\u00e8re.',
       },
+      {
+        id: 'faq-6',
+        question: 'Quels formats de fichier sont disponibles pour les fiches de pr\u00e9positions ?',
+        answer: 'Les fiches se t\u00e9l\u00e9chargent en PDF pour l\u2019impression professionnelle ou en JPEG pour le partage num\u00e9rique. La r\u00e9solution de 300 DPI garantit que les images montrant les positions spatiales restent parfaitement claires et lisibles.',
+      },
+      {
+        id: 'faq-7',
+        question: 'Le g\u00e9n\u00e9rateur de pr\u00e9positions est-il utile pour le FLE ?',
+        answer: 'Oui, les pr\u00e9positions spatiales sont parmi les premiers mots enseign\u00e9s en fran\u00e7ais langue \u00e9trang\u00e8re. Le g\u00e9n\u00e9rateur supporte onze langues et les images illustrent clairement chaque relation spatiale. Les exercices visuels facilitent l\u2019apprentissage sans d\u00e9pendre du vocabulaire \u00e9crit.',
+      },
+      {
+        id: 'faq-8',
+        question: 'Comment fonctionnent les deux modes d\u2019exercices ?',
+        answer: 'Le mode texte \u00e0 trou pr\u00e9sente une image avec un espace vide o\u00f9 l\u2019\u00e9l\u00e8ve \u00e9crit la pr\u00e9position correcte. Le mode choix multiples propose plusieurs pr\u00e9positions parmi lesquelles l\u2019\u00e9l\u00e8ve coche la bonne r\u00e9ponse. Le premier mode d\u00e9veloppe l\u2019\u00e9criture tandis que le second facilite la compr\u00e9hension.',
+      },
+      {
+        id: 'faq-9',
+        question: 'Comment optimiser l\u2019impression des fiches de pr\u00e9positions ?',
+        answer: 'Imprimez le PDF en qualit\u00e9 maximale sur papier A4 blanc. Les images montrant les positions spatiales doivent \u00eatre clairement d\u00e9taill\u00e9es pour que les \u00e9l\u00e8ves identifient bien les relations. V\u00e9rifiez que le texte des pr\u00e9positions est lisible dans l\u2019aper\u00e7u.',
+      },
+      {
+        id: 'faq-10',
+        question: 'Puis-je vendre les fiches de pr\u00e9positions cr\u00e9\u00e9es ?',
+        answer: 'Oui, votre abonnement Acc\u00e8s Complet inclut une licence commerciale pour toutes les cr\u00e9ations. Les cahiers d\u2019exercices sur les pr\u00e9positions sont recherch\u00e9s par les enseignants de FLE et de maternelle. Cr\u00e9ez des packs progressifs pour un contenu attractif.',
+      },
+      {
+        id: 'faq-11',
+        question: 'Comment fonctionne l\u2019abonnement pour le g\u00e9n\u00e9rateur de pr\u00e9positions ?',
+        answer: 'L\u2019abonnement Acc\u00e8s Complet \u00e0 240 \u20ac par an donne acc\u00e8s aux 33 g\u00e9n\u00e9rateurs, dont les pr\u00e9positions. Cr\u00e9ation illimit\u00e9e de fiches avec corrig\u00e9s automatiques. Paiement s\u00e9curis\u00e9 et r\u00e9siliation disponible \u00e0 tout moment.',
+      },
+      {
+        id: 'faq-12',
+        question: 'Comment utiliser mes propres images pour les exercices de pr\u00e9positions ?',
+        answer: 'Cliquez sur le bouton de t\u00e9l\u00e9versement et importez vos fichiers JPEG, PNG ou GIF. Vos images illustrent les relations spatiales dans les exercices. Les photos d\u2019objets de la classe rendent les pr\u00e9positions plus concr\u00e8tes et significatives pour les enfants.',
+      },
+      {
+        id: 'faq-13',
+        question: 'Les fiches de pr\u00e9positions correspondent-elles au programme scolaire ?',
+        answer: 'Oui, les pr\u00e9positions spatiales font partie des comp\u00e9tences langagi\u00e8res et math\u00e9matiques fondamentales du cycle 1. Le rep\u00e9rage dans l\u2019espace est un domaine cl\u00e9 du programme de maternelle. Ces exercices d\u00e9veloppent simultan\u00e9ment le vocabulaire spatial et la conscience de l\u2019espace.',
+      },
+      {
+        id: 'faq-14',
+        question: 'Comment adapter les fiches pour les \u00e9l\u00e8ves en difficult\u00e9 ?',
+        answer: 'Commencez par deux pr\u00e9positions oppos\u00e9es comme sur et sous avec le mode choix multiples. Les images simples avec des relations spatiales \u00e9videntes facilitent la compr\u00e9hension. Ajoutez progressivement d\u2019autres pr\u00e9positions lorsque les premi\u00e8res sont ma\u00eetris\u00e9es.',
+      },
+      {
+        id: 'faq-15',
+        question: 'Quels formats de page sont propos\u00e9s pour les fiches de pr\u00e9positions ?',
+        answer: 'Les formats Letter et A4 sont disponibles en portrait ou paysage. Le portrait A4 est le format standard pour les fiches scolaires. Les images illustrant les positions spatiales sont suffisamment grandes pour que les relations soient clairement identifiables.',
+      },
+      {
+        id: 'faq-16',
+        question: 'L\u2019option niveaux de gris est-elle disponible pour les fiches de pr\u00e9positions ?',
+        answer: 'Oui, le mode niveaux de gris convertit les images en noir et blanc. Les positions spatiales restent clairement identifiables gr\u00e2ce aux contours des objets. Cette option \u00e9conomise l\u2019encre pour les impressions en grande quantit\u00e9 tout en gardant les exercices exploitables.',
+      },
+      {
+        id: 'faq-17',
+        question: 'Comment personnaliser les fiches sur le canevas d\u2019\u00e9dition ?',
+        answer: 'D\u00e9placez les images et les zones de r\u00e9ponse librement sur la page. Redimensionnez les \u00e9l\u00e9ments pour adapter l\u2019exercice au niveau de vos \u00e9l\u00e8ves. Ajoutez un titre personnalis\u00e9, des consignes sp\u00e9cifiques ou le nom de l\u2019\u00e9l\u00e8ve avec les polices disponibles.',
+      },
+      {
+        id: 'faq-18',
+        question: 'Peut-on combiner les pr\u00e9positions avec d\u2019autres g\u00e9n\u00e9rateurs ?',
+        answer: 'Oui, associez les exercices de pr\u00e9positions avec les parcours d\u2019images pour le rep\u00e9rage spatial. Combinez avec les fiches d\u2019association pour le vocabulaire ou les coloriages pour la motricit\u00e9 fine. Ces combinaisons cr\u00e9ent des cahiers de langage et d\u2019espace complets.',
+      },
+      {
+        id: 'faq-19',
+        question: 'Comment les pr\u00e9positions d\u00e9veloppent-elles la conscience spatiale ?',
+        answer: 'Les \u00e9l\u00e8ves observent les images et verbalisent les relations de position entre les objets. Ce processus connecte le vocabulaire spatial \u00e0 la perception visuelle. Ma\u00eetriser les neuf pr\u00e9positions enseign\u00e9es pr\u00e9pare aux apprentissages de g\u00e9om\u00e9trie et d\u2019orientation du CP.',
+      },
+      {
+        id: 'faq-20',
+        question: 'Combien de temps faut-il pour cr\u00e9er une fiche de pr\u00e9positions ?',
+        answer: 'La cr\u00e9ation prend moins de trois minutes. Cochez les pr\u00e9positions \u00e0 travailler, choisissez le mode d\u2019exercice et les images, puis cliquez sur Cr\u00e9er. La fiche avec ses images spatiales, les zones de r\u00e9ponse et le corrig\u00e9 sont g\u00e9n\u00e9r\u00e9s instantan\u00e9ment.',
+      },
     ],
 
   },

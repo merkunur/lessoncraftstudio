@@ -229,6 +229,81 @@ Ouvrez le fichier PDF téléchargé et imprimez selon vos besoins. Imprimez un e
         question: 'Les corrig\u00e9s sont-ils inclus avec les fiches de tri ?',
         answer: 'Oui, chaque fiche de tri g\u00e9n\u00e8re automatiquement un corrig\u00e9 montrant les images correctement class\u00e9es dans leurs cat\u00e9gories respectives. Ce corrig\u00e9 permet l\'auto-correction par les \u00e9l\u00e8ves ou une v\u00e9rification rapide par l\'enseignant.',
       },
+      {
+        id: 'faq-6',
+        question: 'Quels formats de fichier sont disponibles pour les fiches de tri d\u2019images ?',
+        answer: 'Les fiches de tri se t\u00e9l\u00e9chargent en PDF pour l\u2019impression professionnelle ou en JPEG pour le partage num\u00e9rique. La r\u00e9solution de 300 DPI garantit que les images \u00e0 d\u00e9couper et les cat\u00e9gories restent parfaitement nettes sur papier.',
+      },
+      {
+        id: 'faq-7',
+        question: 'Le g\u00e9n\u00e9rateur de tri d\u2019images fonctionne-t-il en plusieurs langues ?',
+        answer: 'Oui, onze langues sont support\u00e9es pour les noms d\u2019images, les \u00e9tiquettes de cat\u00e9gories et les consignes. La biblioth\u00e8que s\u2019adapte automatiquement \u00e0 la langue s\u00e9lectionn\u00e9e. Les exercices de classification visuelle fonctionnent universellement.',
+      },
+      {
+        id: 'faq-8',
+        question: 'Comment fonctionne le tri en deux cat\u00e9gories ?',
+        answer: 'Les \u00e9l\u00e8ves re\u00e7oivent des images \u00e0 d\u00e9couper et deux cadres de cat\u00e9gories \u00e9tiquet\u00e9s. Ils d\u00e9coupent chaque image et la collent dans la bonne cat\u00e9gorie. Vous choisissez les deux th\u00e8mes de classement et le nombre d\u2019images \u00e0 trier, jusqu\u2019\u00e0 12 par fiche.',
+      },
+      {
+        id: 'faq-9',
+        question: 'Comment optimiser l\u2019impression des fiches de tri ?',
+        answer: 'Imprimez le PDF en qualit\u00e9 maximale sur papier A4 blanc. Les images \u00e0 d\u00e9couper doivent \u00eatre suffisamment grandes pour les petites mains des enfants. Un papier l\u00e9g\u00e8rement plus \u00e9pais facilite le d\u00e9coupage et le collage propre.',
+      },
+      {
+        id: 'faq-10',
+        question: 'Puis-je vendre les fiches de tri cr\u00e9\u00e9es ?',
+        answer: 'Oui, votre abonnement Acc\u00e8s Complet inclut une licence commerciale compl\u00e8te. Les cahiers de classification th\u00e9matiques sont tr\u00e8s populaires sur les plateformes \u00e9ducatives. Cr\u00e9ez des s\u00e9ries par th\u00e8me comme animaux de la ferme contre animaux marins.',
+      },
+      {
+        id: 'faq-11',
+        question: 'Comment fonctionne l\u2019abonnement pour le g\u00e9n\u00e9rateur de tri ?',
+        answer: 'L\u2019abonnement Acc\u00e8s Complet \u00e0 240 \u20ac par an donne acc\u00e8s aux 33 g\u00e9n\u00e9rateurs, dont le tri d\u2019images. Cr\u00e9ation illimit\u00e9e de fiches avec corrig\u00e9s automatiques. Paiement s\u00e9curis\u00e9 et r\u00e9siliation possible \u00e0 tout moment.',
+      },
+      {
+        id: 'faq-12',
+        question: 'Comment utiliser mes propres images pour les exercices de tri ?',
+        answer: 'Cliquez sur le bouton de t\u00e9l\u00e9versement et importez vos fichiers JPEG, PNG ou GIF. Vos images s\u2019ajoutent aux \u00e9l\u00e9ments \u00e0 trier dans les cat\u00e9gories. Les photos d\u2019objets de la classe cr\u00e9ent des exercices de classification concrets et motivants.',
+      },
+      {
+        id: 'faq-13',
+        question: 'Les fiches de tri correspondent-elles au programme scolaire ?',
+        answer: 'Oui, la classification et le tri d\u2019objets sont des comp\u00e9tences fondamentales du cycle 1. Les programmes de maternelle incluent le classement selon des crit\u00e8res pr\u00e9cis. Ces exercices d\u00e9veloppent la pens\u00e9e logique et la cat\u00e9gorisation n\u00e9cessaires aux apprentissages de CP.',
+      },
+      {
+        id: 'faq-14',
+        question: 'Comment adapter les fiches de tri pour les \u00e9l\u00e8ves en difficult\u00e9 ?',
+        answer: 'R\u00e9duisez le nombre d\u2019images \u00e0 4 ou 6 et choisissez des cat\u00e9gories tr\u00e8s distinctes visuellement. Les animaux contre les v\u00e9hicules par exemple sont faciles \u00e0 discriminer. Augmentez la taille des images et des cadres de cat\u00e9gories pour faciliter le d\u00e9coupage et le collage.',
+      },
+      {
+        id: 'faq-15',
+        question: 'Quels formats de page sont propos\u00e9s pour les fiches de tri ?',
+        answer: 'Les formats Letter et A4 sont disponibles en portrait ou paysage. Le portrait A4 place les cat\u00e9gories en haut et les images \u00e0 d\u00e9couper en bas. Le format paysage dispose les deux cat\u00e9gories c\u00f4te \u00e0 c\u00f4te pour un parcours visuel naturel.',
+      },
+      {
+        id: 'faq-16',
+        question: 'L\u2019option niveaux de gris est-elle disponible pour les fiches de tri ?',
+        answer: 'Oui, le mode niveaux de gris convertit toutes les images en noir et blanc. Les formes et contours restent reconnaissables pour le classement. Les enfants peuvent colorier les images apr\u00e8s les avoir tri\u00e9es, combinant classification et motricit\u00e9 fine.',
+      },
+      {
+        id: 'faq-17',
+        question: 'Comment personnaliser les fiches sur le canevas d\u2019\u00e9dition ?',
+        answer: 'D\u00e9placez les cadres de cat\u00e9gories et les images \u00e0 d\u00e9couper librement. Redimensionnez les \u00e9l\u00e9ments pour adapter l\u2019exercice au niveau de vos \u00e9l\u00e8ves. Ajoutez un titre personnalis\u00e9, des consignes ou le nom de l\u2019\u00e9l\u00e8ve avec les polices disponibles.',
+      },
+      {
+        id: 'faq-18',
+        question: 'Peut-on combiner le tri d\u2019images avec d\u2019autres g\u00e9n\u00e9rateurs ?',
+        answer: 'Oui, associez le tri avec les fiches intrus pour la discrimination visuelle. Combinez avec les fiches d\u2019association pour le vocabulaire ou les coloriages pour la motricit\u00e9 fine. Ces combinaisons cr\u00e9ent des cahiers de logique et classification complets.',
+      },
+      {
+        id: 'faq-19',
+        question: 'Comment le tri d\u2019images d\u00e9veloppe-t-il la pens\u00e9e logique ?',
+        answer: 'Les \u00e9l\u00e8ves analysent chaque image et d\u00e9terminent \u00e0 quelle cat\u00e9gorie elle appartient selon des crit\u00e8res pr\u00e9cis. Ce processus d\u00e9ductive renforce la capacit\u00e9 \u00e0 identifier des caract\u00e9ristiques communes et \u00e0 organiser l\u2019information. Ces comp\u00e9tences sont transf\u00e9rables aux sciences et \u00e0 la lecture.',
+      },
+      {
+        id: 'faq-20',
+        question: 'Combien de temps faut-il pour cr\u00e9er une fiche de tri d\u2019images ?',
+        answer: 'La cr\u00e9ation prend moins de trois minutes. S\u00e9lectionnez les deux th\u00e8mes de cat\u00e9gories, choisissez le nombre d\u2019images et cliquez sur Cr\u00e9er. La fiche avec ses cadres de cat\u00e9gories, les images \u00e0 d\u00e9couper et le corrig\u00e9 sont g\u00e9n\u00e9r\u00e9s instantan\u00e9ment.',
+      },
     ],
 
   },

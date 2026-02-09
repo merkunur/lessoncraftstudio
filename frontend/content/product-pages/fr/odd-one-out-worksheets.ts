@@ -233,6 +233,81 @@ Imprimez immédiatement ou sauvegardez pour utilisation future. Créez des banqu
         question: 'Peut-on cr\u00e9er des exercices intrus th\u00e9matiques ?',
         answer: 'Oui, plus de 3000 images sont organis\u00e9es par cat\u00e9gories th\u00e9matiques comme les animaux, la nourriture et les v\u00e9hicules. Combinez deux th\u00e8mes pour le mode Similaire afin de cr\u00e9er des exercices de cat\u00e9gorisation. Vous pouvez aussi t\u00e9l\u00e9verser vos propres images personnalis\u00e9es.',
       },
+      {
+        id: 'faq-6',
+        question: 'Quels formats de fichier sont disponibles pour les fiches intrus ?',
+        answer: 'Les fiches intrus se t\u00e9l\u00e9chargent en PDF pour l\u2019impression professionnelle ou en JPEG pour le partage num\u00e9rique. La r\u00e9solution de 300 DPI garantit que les d\u00e9tails des images restent parfaitement nets pour la discrimination visuelle.',
+      },
+      {
+        id: 'faq-7',
+        question: 'Le g\u00e9n\u00e9rateur de fiches intrus fonctionne-t-il en plusieurs langues ?',
+        answer: 'Oui, onze langues sont support\u00e9es pour les noms d\u2019images et les consignes de la fiche. La recherche dans la biblioth\u00e8que s\u2019adapte automatiquement \u00e0 la langue s\u00e9lectionn\u00e9e. Parfait pour les classes bilingues ou l\u2019enseignement du fran\u00e7ais langue \u00e9trang\u00e8re.',
+      },
+      {
+        id: 'faq-8',
+        question: 'Quelle est la diff\u00e9rence entre le mode Identique et le mode Similaire ?',
+        answer: 'Le mode Identique pr\u00e9sente trois images identiques et une image compl\u00e8tement diff\u00e9rente, id\u00e9al pour les d\u00e9butants. Le mode Similaire utilise des images de deux th\u00e8mes proches, exigeant une cat\u00e9gorisation plus fine. Les deux modes d\u00e9veloppent la discrimination visuelle \u00e0 diff\u00e9rents niveaux de complexit\u00e9.',
+      },
+      {
+        id: 'faq-9',
+        question: 'Comment optimiser l\u2019impression des fiches intrus ?',
+        answer: 'Imprimez le PDF en qualit\u00e9 maximale sur papier A4 blanc pour que les d\u00e9tails des images soient clairement visibles. Les diff\u00e9rences subtiles doivent \u00eatre rep\u00e9rables sur papier. V\u00e9rifiez l\u2019aper\u00e7u avant impression, surtout pour le mode Similaire o\u00f9 les distinctions sont fines.',
+      },
+      {
+        id: 'faq-10',
+        question: 'Puis-je vendre les fiches intrus cr\u00e9\u00e9es ?',
+        answer: 'Oui, votre abonnement Acc\u00e8s Complet inclut une licence commerciale compl\u00e8te. Les cahiers d\u2019observation et de logique th\u00e9matiques sont tr\u00e8s populaires sur les plateformes \u00e9ducatives. Cr\u00e9ez des s\u00e9ries par th\u00e8me et par niveau pour diversifier votre offre.',
+      },
+      {
+        id: 'faq-11',
+        question: 'Comment fonctionne l\u2019abonnement pour le g\u00e9n\u00e9rateur de fiches intrus ?',
+        answer: 'L\u2019abonnement Acc\u00e8s Complet \u00e0 240 \u20ac par an donne acc\u00e8s aux 33 g\u00e9n\u00e9rateurs, dont les fiches intrus. Cr\u00e9ation illimit\u00e9e de fiches avec corrig\u00e9s automatiques. Paiement s\u00e9curis\u00e9 et r\u00e9siliation flexible \u00e0 tout moment.',
+      },
+      {
+        id: 'faq-12',
+        question: 'Comment utiliser mes propres images pour les exercices intrus ?',
+        answer: 'Cliquez sur le bouton de t\u00e9l\u00e9versement et importez vos fichiers JPEG, PNG ou GIF. Vos images peuvent servir d\u2019\u00e9l\u00e9ments communs ou d\u2019intrus dans les groupes. Les photos de la classe ou les mascottes d\u2019\u00e9cole rendent les exercices plus engageants pour les enfants.',
+      },
+      {
+        id: 'faq-13',
+        question: 'Les fiches intrus sont-elles conformes au programme scolaire ?',
+        answer: 'Oui, la discrimination visuelle, l\u2019observation fine et la classification sont des comp\u00e9tences fondamentales du cycle 1. Les programmes de maternelle incluent l\u2019identification de caract\u00e9ristiques communes et la cat\u00e9gorisation. Ces fiches pr\u00e9parent \u00e9galement au raisonnement logique attendu en CP.',
+      },
+      {
+        id: 'faq-14',
+        question: 'Comment adapter les fiches intrus pour les \u00e9l\u00e8ves en difficult\u00e9 ?',
+        answer: 'Commencez par le mode Identique avec 3 images par groupe et des diff\u00e9rences tr\u00e8s \u00e9videntes. Choisissez des images de cat\u00e9gories tr\u00e8s distinctes pour l\u2019intrus. R\u00e9duisez le nombre d\u2019exercices par fiche pour \u00e9viter la surcharge cognitive et permettre un travail soign\u00e9.',
+      },
+      {
+        id: 'faq-15',
+        question: 'Quels formats de page sont propos\u00e9s pour les fiches intrus ?',
+        answer: 'Les formats Letter et A4 sont disponibles en portrait ou paysage. Le portrait A4 est le format standard pour les fiches scolaires. Le nombre d\u2019exercices s\u2019adapte automatiquement au format choisi pour un espacement confortable entre les groupes d\u2019images.',
+      },
+      {
+        id: 'faq-16',
+        question: 'L\u2019option niveaux de gris est-elle disponible pour les fiches intrus ?',
+        answer: 'Oui, le mode niveaux de gris convertit toutes les images en noir et blanc. Toutefois, les versions couleur sont recommand\u00e9es car les diff\u00e9rences de couleur aident \u00e0 identifier l\u2019intrus. R\u00e9servez le noir et blanc pour les exercices o\u00f9 les diff\u00e9rences portent sur la forme.',
+      },
+      {
+        id: 'faq-17',
+        question: 'Comment personnaliser les fiches sur le canevas d\u2019\u00e9dition ?',
+        answer: 'D\u00e9placez et redimensionnez les groupes d\u2019images librement sur la page. Ajoutez un titre personnalis\u00e9, le nom de l\u2019\u00e9l\u00e8ve ou des consignes sp\u00e9cifiques. Les bordures d\u00e9coratives et les arri\u00e8re-plans th\u00e9matiques enrichissent la pr\u00e9sentation visuelle.',
+      },
+      {
+        id: 'faq-18',
+        question: 'Peut-on combiner les fiches intrus avec d\u2019autres g\u00e9n\u00e9rateurs ?',
+        answer: 'Oui, associez les fiches intrus avec les exercices de tri d\u2019images pour la classification. Combinez avec les coloriages pour la motricit\u00e9 fine ou les fiches d\u2019association pour le vocabulaire. Ces combinaisons cr\u00e9ent des cahiers d\u2019observation et de logique complets.',
+      },
+      {
+        id: 'faq-19',
+        question: 'Comment les fiches intrus d\u00e9veloppent-elles le raisonnement logique ?',
+        answer: 'Les \u00e9l\u00e8ves analysent chaque image du groupe et identifient les caract\u00e9ristiques communes. Le processus d\u2019\u00e9limination renforce la pens\u00e9e d\u00e9ductive et la capacit\u00e9 de classification. Progresser du mode Identique au mode Similaire d\u00e9veloppe l\u2019abstraction et la cat\u00e9gorisation fine.',
+      },
+      {
+        id: 'faq-20',
+        question: 'Combien de temps faut-il pour cr\u00e9er une fiche intrus ?',
+        answer: 'La cr\u00e9ation prend moins de trois minutes. S\u00e9lectionnez les th\u00e8mes, choisissez le mode Identique ou Similaire et le nombre de groupes, puis cliquez sur Cr\u00e9er. La fiche avec ses images, son intrus et le corrig\u00e9 sont g\u00e9n\u00e9r\u00e9s instantan\u00e9ment.',
+      },
     ],
 
   },

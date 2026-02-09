@@ -229,6 +229,81 @@ Activez l'option Niveau de Gris avant le téléchargement pour économiser l'enc
         question: 'Les corrig\u00e9s sont-ils fournis avec chaque fiche ?',
         answer: 'Oui, chaque fiche de parcours d\'images g\u00e9n\u00e8re automatiquement un corrig\u00e9 avec le chemin correct clairement mis en \u00e9vidence. Une ligne color\u00e9e indique le parcours exact du d\u00e9part \u00e0 l\'arriv\u00e9e, facilitant la correction rapide par l\'enseignant.',
       },
+      {
+        id: 'faq-6',
+        question: 'Quels formats de fichier sont disponibles pour les fiches parcours d\u2019images ?',
+        answer: 'Les fiches se t\u00e9l\u00e9chargent en PDF pour l\u2019impression professionnelle ou en JPEG pour le partage num\u00e9rique. La r\u00e9solution de 300 DPI assure que les images du parcours et les chemins restent parfaitement nets et pr\u00e9cis sur papier.',
+      },
+      {
+        id: 'faq-7',
+        question: 'Le g\u00e9n\u00e9rateur de parcours d\u2019images fonctionne-t-il en plusieurs langues ?',
+        answer: 'Oui, onze langues sont support\u00e9es pour les noms d\u2019images et les consignes de la fiche. La recherche dans la biblioth\u00e8que s\u2019adapte automatiquement \u00e0 la langue s\u00e9lectionn\u00e9e. Les parcours visuels fonctionnent universellement quelle que soit la langue d\u2019enseignement.',
+      },
+      {
+        id: 'faq-8',
+        question: 'Quelles sont les diff\u00e9rences entre les trois modes de parcours ?',
+        answer: 'Le mode chemin d\u2019images trace un itin\u00e9raire entre des images s\u00e9lectionn\u00e9es dans une grille. Le mode labyrinthe classique cr\u00e9e un parcours avec des murs et des impasses. Le mode choisir le chemin propose plusieurs itin\u00e9raires dont un seul est correct. Chaque mode d\u00e9veloppe des comp\u00e9tences diff\u00e9rentes.',
+      },
+      {
+        id: 'faq-9',
+        question: 'Comment optimiser l\u2019impression des fiches parcours ?',
+        answer: 'Imprimez le PDF en qualit\u00e9 maximale sur papier A4 blanc pour que les chemins et les images soient clairement distincts. Les lignes de trac\u00e9 doivent \u00eatre fines et pr\u00e9cises. V\u00e9rifiez dans l\u2019aper\u00e7u que les murs du labyrinthe sont bien visibles.',
+      },
+      {
+        id: 'faq-10',
+        question: 'Puis-je vendre les fiches parcours d\u2019images cr\u00e9\u00e9es ?',
+        answer: 'Oui, votre abonnement Acc\u00e8s Complet inclut une licence commerciale pour toutes les cr\u00e9ations. Les cahiers de labyrinthes et de parcours th\u00e9matiques sont tr\u00e8s populaires sur les plateformes \u00e9ducatives. Cr\u00e9ez des s\u00e9ries par niveau de difficult\u00e9 pour un contenu vari\u00e9.',
+      },
+      {
+        id: 'faq-11',
+        question: 'Comment fonctionne l\u2019abonnement pour le g\u00e9n\u00e9rateur de parcours ?',
+        answer: 'L\u2019abonnement Acc\u00e8s Complet \u00e0 240 \u20ac par an donne acc\u00e8s aux 33 g\u00e9n\u00e9rateurs, dont les parcours d\u2019images. Cr\u00e9ation illimit\u00e9e de fiches avec corrig\u00e9s automatiques. Paiement s\u00e9curis\u00e9 et r\u00e9siliation flexible \u00e0 tout moment.',
+      },
+      {
+        id: 'faq-12',
+        question: 'Comment utiliser mes propres images pour les parcours ?',
+        answer: 'Cliquez sur le bouton de t\u00e9l\u00e9versement et importez vos fichiers JPEG, PNG ou GIF. Vos images servent de points de rep\u00e8re le long du parcours, de d\u00e9part et d\u2019arriv\u00e9e. Les photos de la classe ou les images sp\u00e9cifiques \u00e0 un th\u00e8me \u00e9tudi\u00e9 cr\u00e9ent des parcours sur mesure.',
+      },
+      {
+        id: 'faq-13',
+        question: 'Les fiches parcours correspondent-elles au programme scolaire ?',
+        answer: 'Oui, le rep\u00e9rage spatial, le suivi de chemin et la coordination \u0153il-main sont des comp\u00e9tences fondamentales du cycle 1. Les programmes de maternelle incluent le rep\u00e9rage dans l\u2019espace et le graphisme pr\u00e9paratoire. Ces exercices d\u00e9veloppent \u00e9galement la motricit\u00e9 fine n\u00e9cessaire \u00e0 l\u2019\u00e9criture.',
+      },
+      {
+        id: 'faq-14',
+        question: 'Comment adapter les parcours pour les \u00e9l\u00e8ves en difficult\u00e9 ?',
+        answer: 'Commencez par le mode chemin d\u2019images avec des parcours courts et directs. Choisissez des images tr\u00e8s distinctes pour faciliter le rep\u00e9rage. Les grilles plus petites et les chemins plus larges simplifient le trac\u00e9 pour les enfants ayant des difficult\u00e9s motrices.',
+      },
+      {
+        id: 'faq-15',
+        question: 'Quels formats de page sont propos\u00e9s pour les fiches parcours ?',
+        answer: 'Les formats Letter et A4 sont disponibles en portrait ou paysage. Le format portrait convient aux parcours verticaux tandis que le paysage offre plus d\u2019espace pour les labyrinthes \u00e9tendus. La taille de la grille s\u2019adapte automatiquement au format choisi.',
+      },
+      {
+        id: 'faq-16',
+        question: 'L\u2019option niveaux de gris est-elle disponible pour les parcours ?',
+        answer: 'Oui, le mode niveaux de gris convertit toutes les images en noir et blanc. Les chemins et les murs du labyrinthe restent parfaitement visibles. Cette option \u00e9conomise l\u2019encre pour les impressions en s\u00e9rie tout en gardant les parcours clairement lisibles.',
+      },
+      {
+        id: 'faq-17',
+        question: 'Comment personnaliser les fiches sur le canevas d\u2019\u00e9dition ?',
+        answer: 'D\u00e9placez et redimensionnez la grille de parcours et les images librement sur la page. Ajoutez un titre personnalis\u00e9, des consignes ou le nom de l\u2019\u00e9l\u00e8ve. Les bordures d\u00e9coratives et arri\u00e8re-plans th\u00e9matiques enrichissent la pr\u00e9sentation visuelle.',
+      },
+      {
+        id: 'faq-18',
+        question: 'Peut-on combiner les parcours avec d\u2019autres g\u00e9n\u00e9rateurs ?',
+        answer: 'Oui, associez les parcours d\u2019images avec les fiches de graphisme pour la motricit\u00e9 fine. Combinez avec les fiches d\u2019association pour le vocabulaire ou les exercices de maths pour varier les activit\u00e9s. Ces combinaisons cr\u00e9ent des cahiers d\u2019activit\u00e9s diversifi\u00e9s.',
+      },
+      {
+        id: 'faq-19',
+        question: 'Comment les parcours d\u00e9veloppent-ils la motricit\u00e9 fine ?',
+        answer: 'Les enfants tracent le chemin entre les images en contr\u00f4lant leur geste graphique. Le mode labyrinthe exige pr\u00e9cision et anticipation pour \u00e9viter les impasses. Ces exercices renforcent la coordination \u0153il-main et pr\u00e9parent directement au geste d\u2019\u00e9criture cursive.',
+      },
+      {
+        id: 'faq-20',
+        question: 'Combien de temps faut-il pour cr\u00e9er une fiche parcours d\u2019images ?',
+        answer: 'La cr\u00e9ation prend moins de trois minutes. Choisissez le mode de parcours, s\u00e9lectionnez les images et la taille de grille, puis cliquez sur Cr\u00e9er. Le parcours avec ses images, ses chemins et le corrig\u00e9 sont g\u00e9n\u00e9r\u00e9s instantan\u00e9ment.',
+      },
     ],
 
   },

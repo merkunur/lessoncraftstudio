@@ -217,6 +217,81 @@ Téléchargez séparément la fiche d'exercice et le corrigé. Imprimez la fiche
         question: 'Les corrig\u00e9s sont-ils inclus avec les fiches de s\u00e9quences ?',
         answer: 'Oui, un corrig\u00e9 complet est g\u00e9n\u00e9r\u00e9 automatiquement montrant toutes les s\u00e9quences compl\u00e9t\u00e9es. Basculez entre l\u2019onglet fiche d\u2019exercice et l\u2019onglet corrig\u00e9 en un clic. Les deux se t\u00e9l\u00e9chargent s\u00e9par\u00e9ment en PDF ou JPEG haute qualit\u00e9.',
       },
+      {
+        id: 'faq-6',
+        question: 'Quels formats de fichier sont disponibles pour les fiches de s\u00e9quences ?',
+        answer: 'Les fiches se t\u00e9l\u00e9chargent en PDF pour l\u2019impression professionnelle ou en JPEG pour le partage num\u00e9rique. La r\u00e9solution de 300 DPI garantit que les images des s\u00e9quences et les options de r\u00e9ponse restent parfaitement nettes et lisibles.',
+      },
+      {
+        id: 'faq-7',
+        question: 'Le g\u00e9n\u00e9rateur de s\u00e9quences fonctionne-t-il en plusieurs langues ?',
+        answer: 'Oui, onze langues sont support\u00e9es pour les noms d\u2019images et les consignes. La biblioth\u00e8que de 3000 images s\u2019adapte automatiquement \u00e0 la langue s\u00e9lectionn\u00e9e. Les exercices de motifs visuels fonctionnent universellement quelle que soit la langue d\u2019enseignement.',
+      },
+      {
+        id: 'faq-8',
+        question: 'Comment fonctionnent les neuf types de motifs disponibles ?',
+        answer: 'Les motifs vont du simple AB au complexe ABCD en passant par AAB, ABB, ABC, AABB et d\u2019autres variantes. Les motifs simples conviennent aux d\u00e9butants de maternelle tandis que les motifs complexes d\u00e9fient les \u00e9l\u00e8ves de CP et CE1. Chaque exercice peut utiliser un type de motif diff\u00e9rent.',
+      },
+      {
+        id: 'faq-9',
+        question: 'Comment optimiser l\u2019impression des fiches de s\u00e9quences ?',
+        answer: 'Imprimez le PDF en qualit\u00e9 maximale sur papier A4 blanc pour que les s\u00e9quences d\u2019images soient clairement distinctes. V\u00e9rifiez que les options de choix multiples ou les bo\u00eetes vides sont bien visibles. L\u2019aper\u00e7u avant impression confirme la nettet\u00e9 de chaque motif.',
+      },
+      {
+        id: 'faq-10',
+        question: 'Puis-je vendre les fiches de s\u00e9quences cr\u00e9\u00e9es ?',
+        answer: 'Oui, votre abonnement Acc\u00e8s Complet inclut une licence commerciale compl\u00e8te. Les cahiers de suites logiques et de reconnaissance de motifs sont tr\u00e8s demand\u00e9s sur les plateformes \u00e9ducatives. Cr\u00e9ez des s\u00e9ries progressives pour un catalogue attractif.',
+      },
+      {
+        id: 'faq-11',
+        question: 'Comment fonctionne l\u2019abonnement pour le g\u00e9n\u00e9rateur de s\u00e9quences ?',
+        answer: 'L\u2019abonnement Acc\u00e8s Complet \u00e0 240 \u20ac par an donne acc\u00e8s aux 33 g\u00e9n\u00e9rateurs, dont les s\u00e9quences logiques. Cr\u00e9ation illimit\u00e9e de fiches avec corrig\u00e9s automatiques. Paiement s\u00e9curis\u00e9 et r\u00e9siliation disponible \u00e0 tout moment.',
+      },
+      {
+        id: 'faq-12',
+        question: 'Comment utiliser mes propres images pour les s\u00e9quences ?',
+        answer: 'Cliquez sur le bouton de t\u00e9l\u00e9versement et importez vos fichiers JPEG, PNG ou GIF. Vos images s\u2019int\u00e8grent dans les motifs de s\u00e9quences comme les images de la biblioth\u00e8que. Les photos d\u2019objets du quotidien rendent les exercices plus concrets et personnalis\u00e9s.',
+      },
+      {
+        id: 'faq-13',
+        question: 'Les fiches de s\u00e9quences correspondent-elles au programme scolaire ?',
+        answer: 'Oui, la reconnaissance de motifs et la compl\u00e9tion de s\u00e9quences sont des comp\u00e9tences fondamentales du cycle 1. Ces exercices pr\u00e9parent aux r\u00e9gularit\u00e9s math\u00e9matiques, aux algorithmes et au raisonnement d\u00e9ductif attendus dans les programmes de maternelle et CP.',
+      },
+      {
+        id: 'faq-14',
+        question: 'Comment adapter les fiches pour les \u00e9l\u00e8ves ayant des besoins sp\u00e9cifiques ?',
+        answer: 'R\u00e9duisez le nombre d\u2019exercices \u00e0 1 ou 2 par fiche et choisissez le motif AB le plus simple. Le mode bo\u00eete vide est plus accessible que le choix multiples pour les d\u00e9butants. Augmentez la taille des images sur le canevas pour faciliter l\u2019observation des d\u00e9tails.',
+      },
+      {
+        id: 'faq-15',
+        question: 'Quels formats de page sont propos\u00e9s pour les fiches de s\u00e9quences ?',
+        answer: 'Les formats Letter et A4 sont disponibles en portrait ou paysage. Le portrait A4 est le standard pour les fiches scolaires fran\u00e7aises. Le nombre d\u2019exercices s\u2019adapte automatiquement au format choisi, de 1 \u00e0 8 exercices par page.',
+      },
+      {
+        id: 'faq-16',
+        question: 'L\u2019option niveaux de gris est-elle disponible pour les s\u00e9quences ?',
+        answer: 'Oui, le mode niveaux de gris convertit toutes les images en noir et blanc. Les formes des images restent reconnaissables pour identifier le motif. Cette option r\u00e9duit les co\u00fbts d\u2019impression pour les classes qui produisent beaucoup de fiches.',
+      },
+      {
+        id: 'faq-17',
+        question: 'Comment personnaliser les fiches sur le canevas d\u2019\u00e9dition ?',
+        answer: 'D\u00e9placez et redimensionnez les s\u00e9quences d\u2019images et les zones de r\u00e9ponse librement. Ajoutez un titre personnalis\u00e9, des consignes ou le nom de l\u2019\u00e9l\u00e8ve. Les arri\u00e8re-plans th\u00e9matiques et les bordures d\u00e9coratives compl\u00e8tent la pr\u00e9sentation visuelle.',
+      },
+      {
+        id: 'faq-18',
+        question: 'Peut-on combiner les s\u00e9quences avec d\u2019autres g\u00e9n\u00e9rateurs ?',
+        answer: 'Oui, associez les fiches de s\u00e9quences avec le train suites logiques pour varier les pr\u00e9sentations de motifs. Combinez avec les exercices de maths pour la num\u00e9ration ou les coloriages pour des pauses cr\u00e9atives. Ces associations cr\u00e9ent des cahiers p\u00e9dagogiques \u00e9quilibr\u00e9s.',
+      },
+      {
+        id: 'faq-19',
+        question: 'Comment \u00e9valuer la progression en reconnaissance de motifs ?',
+        answer: 'Cr\u00e9ez des fiches de difficult\u00e9 croissante en passant des motifs AB aux motifs ABCD. Augmentez le nombre d\u2019exercices par fiche et passez du mode bo\u00eete vide au choix multiples. Le corrig\u00e9 automatique facilite l\u2019\u00e9valuation des comp\u00e9tences de raisonnement logique.',
+      },
+      {
+        id: 'faq-20',
+        question: 'Combien de temps faut-il pour cr\u00e9er une fiche de s\u00e9quences ?',
+        answer: 'La cr\u00e9ation prend moins de trois minutes. S\u00e9lectionnez les images, d\u00e9finissez les types de motifs et le nombre d\u2019exercices, puis cliquez sur G\u00e9n\u00e9rer. La fiche avec ses s\u00e9quences, les zones de r\u00e9ponse et le corrig\u00e9 sont pr\u00eats instantan\u00e9ment.',
+      },
     ],
 
   },

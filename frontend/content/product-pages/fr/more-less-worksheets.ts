@@ -200,6 +200,81 @@ Les enseignants choisissent l'abonnement Accès Complet pour trois raisons essen
         question: 'Les corrig\u00e9s sont-ils fournis avec les fiches de comparaison ?',
         answer: 'Oui, chaque fiche g\u00e9n\u00e8re automatiquement un corrig\u00e9 avec les comparaisons correctes clairement marqu\u00e9es. Le corrig\u00e9 affiche les symboles de comparaison corrects entre chaque paire de quantit\u00e9s. Les enseignants t\u00e9l\u00e9chargent la fiche et le corrig\u00e9 s\u00e9par\u00e9ment.',
       },
+      {
+        id: 'faq-6',
+        question: 'Quels formats de fichier sont disponibles pour les fiches de comparaison ?',
+        answer: 'Les fiches de comparaison se t\u00e9l\u00e9chargent en PDF pour une impression nette ou en JPEG pour le partage num\u00e9rique. La r\u00e9solution de 300 DPI garantit que les images et les symboles math\u00e9matiques restent parfaitement clairs sur papier.',
+      },
+      {
+        id: 'faq-7',
+        question: 'Le g\u00e9n\u00e9rateur de comparaison fonctionne-t-il en plusieurs langues ?',
+        answer: 'Oui, onze langues sont support\u00e9es pour les noms d\u2019images et les consignes de la fiche. Les symboles math\u00e9matiques plus, moins et \u00e9gal \u00e9tant universels, les exercices sont utilisables dans tous les pays francophones. Id\u00e9al pour les classes bilingues.',
+      },
+      {
+        id: 'faq-8',
+        question: 'Quelle est la diff\u00e9rence entre les deux modes de comparaison ?',
+        answer: 'Le mode image contre image compare deux groupes d\u2019objets visuels que l\u2019\u00e9l\u00e8ve doit compter et comparer. Le mode image contre nombre compare un groupe d\u2019images \u00e0 un chiffre \u00e9crit. Le premier mode renforce le d\u00e9nombrement tandis que le second introduit la repr\u00e9sentation num\u00e9rique.',
+      },
+      {
+        id: 'faq-9',
+        question: 'Comment optimiser l\u2019impression des fiches de comparaison ?',
+        answer: 'Imprimez le PDF en qualit\u00e9 maximale sur papier A4 blanc pour que les images et symboles restent clairement lisibles. V\u00e9rifiez que les groupes d\u2019objets sont bien distincts dans l\u2019aper\u00e7u. L\u2019option niveaux de gris \u00e9conomise l\u2019encre tout en gardant les exercices exploitables.',
+      },
+      {
+        id: 'faq-10',
+        question: 'Puis-je vendre les fiches de comparaison cr\u00e9\u00e9es ?',
+        answer: 'Oui, votre abonnement Acc\u00e8s Complet inclut une licence commerciale pour toutes les cr\u00e9ations. Les cahiers d\u2019exercices plus/moins th\u00e9matiques sont tr\u00e8s recherch\u00e9s sur Teachers Pay Teachers et Etsy. Aucune restriction sur le volume de ventes ni sur les revenus.',
+      },
+      {
+        id: 'faq-11',
+        question: 'Comment fonctionne l\u2019abonnement pour le g\u00e9n\u00e9rateur de comparaison ?',
+        answer: 'L\u2019abonnement Acc\u00e8s Complet \u00e0 240 \u20ac par an donne acc\u00e8s aux 33 g\u00e9n\u00e9rateurs, dont la comparaison plus/moins. Cr\u00e9ation illimit\u00e9e de fiches avec corrig\u00e9s automatiques. Paiement s\u00e9curis\u00e9 et r\u00e9siliation possible \u00e0 tout moment.',
+      },
+      {
+        id: 'faq-12',
+        question: 'Comment utiliser mes propres images pour les exercices de comparaison ?',
+        answer: 'Cliquez sur le bouton de t\u00e9l\u00e9versement et importez vos fichiers JPEG, PNG ou GIF. Vos images personnalis\u00e9es remplacent celles de la biblioth\u00e8que dans les groupes de comparaison. Les objets familiers de la classe rendent le comptage plus concret et motivant.',
+      },
+      {
+        id: 'faq-13',
+        question: 'Les fiches de comparaison correspondent-elles au programme scolaire ?',
+        answer: 'Oui, la comparaison de quantit\u00e9s avec les symboles plus, moins et \u00e9gal fait partie des comp\u00e9tences fondamentales du cycle 1 et 2. Les plages de 1 \u00e0 5 correspondent \u00e0 la grande section, de 1 \u00e0 10 au CP. Ces exercices pr\u00e9parent aux in\u00e9galit\u00e9s math\u00e9matiques du CE1.',
+      },
+      {
+        id: 'faq-14',
+        question: 'Comment adapter les fiches pour les \u00e9l\u00e8ves en difficult\u00e9 ?',
+        answer: 'R\u00e9duisez le nombre d\u2019exercices \u00e0 2 ou 3 par fiche et limitez la plage de nombres \u00e0 1-3. Le mode image contre image est le plus accessible car il s\u2019appuie uniquement sur le comptage visuel. Les symboles illustr\u00e9s color\u00e9s sont plus intuitifs que les symboles math\u00e9matiques traditionnels.',
+      },
+      {
+        id: 'faq-15',
+        question: 'Quels formats de page sont propos\u00e9s pour les fiches de comparaison ?',
+        answer: 'Les formats Letter et A4 sont disponibles en portrait ou paysage. Le portrait A4 est le format standard des fiches scolaires fran\u00e7aises. Le format paysage offre plus d\u2019espace horizontal entre les deux groupes d\u2019images \u00e0 comparer.',
+      },
+      {
+        id: 'faq-16',
+        question: 'L\u2019option niveaux de gris est-elle disponible pour les fiches de comparaison ?',
+        answer: 'Oui, la case niveaux de gris convertit toutes les images en noir et blanc. Les groupes d\u2019objets restent clairement identifiables gr\u00e2ce \u00e0 leurs contours distincts. Cette option r\u00e9duit consid\u00e9rablement les co\u00fbts d\u2019impression pour les classes nombreuses.',
+      },
+      {
+        id: 'faq-17',
+        question: 'Comment personnaliser les fiches sur le canevas d\u2019\u00e9dition ?',
+        answer: 'D\u00e9placez et redimensionnez les groupes d\u2019images et les symboles de comparaison librement. Ajoutez un titre personnalis\u00e9, le nom de l\u2019\u00e9l\u00e8ve ou des consignes sp\u00e9cifiques. Les sept polices professionnelles et les bordures d\u00e9coratives enrichissent la pr\u00e9sentation.',
+      },
+      {
+        id: 'faq-18',
+        question: 'Peut-on combiner les exercices de comparaison avec d\u2019autres g\u00e9n\u00e9rateurs ?',
+        answer: 'Oui, associez les fiches plus/moins avec l\u2019addition pour renforcer la num\u00e9ration. Combinez avec les fiches de tri d\u2019images pour le classement ou les coloriages pour la motricit\u00e9 fine. Ces combinaisons cr\u00e9ent des cahiers de math\u00e9matiques complets.',
+      },
+      {
+        id: 'faq-19',
+        question: 'Comment suivre la progression des \u00e9l\u00e8ves avec ces exercices ?',
+        answer: 'Cr\u00e9ez des fiches de difficult\u00e9 croissante en augmentant progressivement la plage de nombres et le nombre d\u2019exercices. Passez du mode image contre image au mode image contre nombre pour approfondir la num\u00e9ration. Le corrig\u00e9 automatique facilite la correction et le suivi individuel.',
+      },
+      {
+        id: 'faq-20',
+        question: 'Combien de temps faut-il pour cr\u00e9er une fiche de comparaison ?',
+        answer: 'Moins de trois minutes suffisent. Choisissez un th\u00e8me d\u2019images, configurez le mode de comparaison et la plage de nombres, puis cliquez sur G\u00e9n\u00e9rer. La fiche avec ses groupes d\u2019objets, ses symboles et son corrig\u00e9 est pr\u00eate instantan\u00e9ment.',
+      },
     ],
 
   },

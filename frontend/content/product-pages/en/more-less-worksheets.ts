@@ -131,7 +131,108 @@ The worksheet maker offers flexible comparison modes including image-to-image co
     sectionDescription: 'Teachers and parents commonly ask questions about creating comparison worksheets before subscribing. These answers address pricing, classroom use, customization options, and technical requirements. Understanding subscription benefits helps educators decide if the worksheet maker meets their teaching needs.',
     showMoreText: 'Show more questions',
     showLessText: 'Show less',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        question: 'What Comparison Types Does the Generator Offer?',
+        answer: 'Two comparison types address different developmental stages. Image-to-image mode shows two groups of pictures that students count and compare. Image-to-number mode displays a picture group alongside a written numeral for comparison. Image-to-image suits concrete learners who need visual counting. Image-to-number bridges the gap toward abstract number comparison skills.',
+      },
+      {
+        id: '2',
+        question: 'What Comparison Symbols Are Available?',
+        answer: 'Three symbol options cover different instructional approaches. Standard mathematical symbols use greater than, less than, and equal signs. Illustrated versions display kid-friendly visual representations of these concepts. Teachers can focus on individual symbols for targeted practice or use comprehensive mode covering all three symbols on one worksheet. This flexibility supports various math curriculum approaches.',
+      },
+      {
+        id: '3',
+        question: 'How Many Comparison Exercises Fit on One Worksheet?',
+        answer: 'Customize from 1 to 8 comparison exercises per worksheet. One to two exercises provide large image groups with ample space for kindergarteners learning the concept. Four to five exercises suit standard kindergarten through first grade practice. Six to eight exercises create comprehensive review worksheets for students practicing comparison fluency. The generator adjusts layout automatically.',
+      },
+      {
+        id: '4',
+        question: 'Do Comparison Worksheets Include Answer Keys?',
+        answer: 'Every comparison worksheet generates a complete answer key showing the correct symbol for each exercise. Answer keys display the counts for both groups and the appropriate greater than, less than, or equal to symbol. Teachers use answer keys for efficient grading. Students self-check at independent practice stations using separately printed answer pages.',
+      },
+      {
+        id: '5',
+        question: 'Can I Focus on One Comparison Symbol at a Time?',
+        answer: 'Yes, select individual symbol focus to create worksheets practicing only greater than, only less than, or only equal to comparisons. This targeted approach lets teachers introduce each concept separately before combining all three symbols. After students master individual symbols, switch to comprehensive mode where all three appear on the same worksheet for mixed practice.',
+      },
+      {
+        id: '6',
+        question: 'What Age Groups Benefit from Comparison Worksheets?',
+        answer: 'Comparison worksheets serve ages 4 through 8 across preschool through second grade. Preschoolers ages 4 to 5 compare two small image groups visually with teacher guidance. Kindergarteners ages 5 to 6 use image-to-image mode with standard symbols independently. First graders transition to image-to-number comparisons. Second graders practice all comparison types for fluency and standardized test preparation.',
+      },
+      {
+        id: '7',
+        question: 'Are Comparison Worksheets Appropriate for Kindergarten?',
+        answer: 'Comparison worksheets are core kindergarten math activities. Use image-to-image mode with 3 to 4 exercises per page for age-appropriate difficulty. Start with individual symbol focus to introduce greater than and less than concepts separately. Illustrated symbol versions help kindergarteners understand the directional meaning of comparison symbols. These worksheets directly support kindergarten math standards for comparing quantities.',
+      },
+      {
+        id: '8',
+        question: 'How Do Illustrated Symbols Help Young Learners?',
+        answer: 'Illustrated comparison symbols use visual representations that convey meaning beyond abstract mathematical notation. Kid-friendly illustrations show the concept of bigger, smaller, or same size in ways young learners intuitively understand. Students connect the visual meaning to the mathematical symbol, building conceptual understanding before memorizing abstract notation. This scaffolded approach produces stronger long-term symbol comprehension.',
+      },
+      {
+        id: '9',
+        question: 'Can I Create Themed Comparison Worksheets?',
+        answer: 'Yes, select themed images for engaging comparison activities. Generate animal-themed comparisons during science units. Create food group comparisons for nutrition lessons. Build seasonal worksheets for holiday activities. The 3000+ image library provides diverse counting objects. Upload your own images for personalized comparison problems connecting to current classroom themes.',
+      },
+      {
+        id: '10',
+        question: 'How Long Does It Take to Create a Comparison Worksheet?',
+        answer: 'Creating one comparison worksheet takes under 2 minutes. Select your theme, comparison type, and symbol options. Choose exercise count and configure focus settings. The generator builds all comparison exercises with correct answers instantly. Download and print immediately. Create a full week of progressive comparison practice in under 10 minutes.',
+      },
+      {
+        id: '11',
+        question: 'Can I Sell Comparison Worksheets I Create?',
+        answer: 'Your Full Access subscription includes commercial licensing for selling comparison worksheets on Teachers Pay Teachers, Etsy, Amazon KDP, or your own website. Greater than less than worksheets are consistently sought by kindergarten and first grade teachers. Create progressive difficulty bundles or themed comparison packs. No attribution or extra licensing fees required.',
+      },
+      {
+        id: '12',
+        question: 'How Do I Print Comparison Worksheets?',
+        answer: 'Download comparison worksheets as PDF files at 300 DPI professional print quality. Images print clear and countable for accurate comparison activities. Select Letter or A4 page size. Enable grayscale mode for ink-saving prints where image groups remain distinct and countable. Both inkjet and laser printers produce clean results suitable for classroom math instruction.',
+      },
+      {
+        id: '13',
+        question: 'Can Comparison Worksheets Help English Language Learners?',
+        answer: 'Comparison worksheets with image-to-image mode are excellent for English language learners because counting and comparing picture groups requires no English reading. Students use mathematical reasoning and visual counting skills independent of language proficiency. Illustrated symbols convey meaning visually. The generator supports 11 languages for optional instruction text.',
+      },
+      {
+        id: '14',
+        question: 'How Do Comparison Worksheets Support Differentiated Instruction?',
+        answer: 'Differentiate by adjusting comparison type, symbol focus, and exercise count. Provide image-to-image with illustrated symbols and individual focus for developing learners. Use image-to-image with standard symbols and comprehensive mode for on-level practice. Challenge advanced students with image-to-number mode and larger number ranges. Create multiple difficulty levels from the same theme quickly.',
+      },
+      {
+        id: '15',
+        question: 'What Curriculum Standards Do Comparison Worksheets Address?',
+        answer: 'Comparison worksheets directly address Common Core Math standard K.CC.6 for comparing two groups of objects using greater than, less than, and equal to. They support K.CC.7 for comparing two numbers between 1 and 10. First grade standard 1.NBT.3 for comparing two-digit numbers is addressed through extended number ranges. These worksheets provide targeted practice for specific math benchmarks.',
+      },
+      {
+        id: '16',
+        question: 'Can I Upload Custom Images for Comparison Activities?',
+        answer: 'Yes, upload unlimited custom images as counting objects in comparison exercises. Use classroom photos, curriculum illustrations, or student artwork. The generator creates comparison problems with your uploaded images as the objects students count and compare. Personalized images increase engagement and connect mathematical comparison practice to current classroom learning contexts.',
+      },
+      {
+        id: '17',
+        question: 'How Does Image-to-Number Mode Bridge to Abstract Math?',
+        answer: 'Image-to-number mode presents a picture group alongside a written numeral for comparison. Students count the images, then compare their count to the displayed number. This format bridges concrete counting and abstract number comparison by requiring students to translate between representations. Mastering this transition prepares students for fully abstract number comparison without visual supports.',
+      },
+      {
+        id: '18',
+        question: 'How Do Comparison Worksheets Build Number Sense?',
+        answer: 'Comparison worksheets develop number sense by requiring students to evaluate quantity relationships. Students practice judging whether groups are larger, smaller, or equal, building magnitude awareness. Repeated comparison practice develops intuitive understanding of number relationships that supports mental math estimation and reasonableness checking in later mathematical problem-solving.',
+      },
+      {
+        id: '19',
+        question: 'How Do Comparison Worksheets Pair with Other Activities?',
+        answer: 'Comparison worksheets pair naturally with addition and subtraction worksheets for comprehensive math instruction, big and small worksheets for size comparison connections, and pattern worksheets for mathematical reasoning development. Use the same themed images across generators for cohesive math packets covering counting, comparing, and computing in unified instructional sequences.',
+      },
+      {
+        id: '20',
+        question: 'Can Comparison Worksheets Be Used for Assessment?',
+        answer: 'Comparison worksheets serve as effective informal math assessments. Administer worksheets with all three comparison symbols to evaluate student mastery of greater than, less than, and equal to concepts. Track which symbol types students find most challenging. Use image-to-image for concrete assessment and image-to-number for abstract comparison assessment. Score efficiently using the provided answer keys.',
+      },
+    ]
     
   },
 

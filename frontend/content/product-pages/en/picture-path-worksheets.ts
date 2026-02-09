@@ -133,7 +133,108 @@ The picture path worksheet maker works perfectly for differentiated instruction 
     sectionDescription: 'Teachers ask common questions about creating picture path maze worksheets for kindergarten through first grade. Questions cover subscription requirements, printing capabilities, customization options, and commercial licensing. Answers help kindergarten teachers, first grade teachers, homeschool parents, and ESL instructors understand full platform capabilities.',
     showMoreText: 'Show more questions',
     showLessText: 'Show less',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        question: 'What Game Modes Does the Maze Generator Offer?',
+        answer: 'Three distinct game modes create varied maze experiences. Picture Pathway mode provides a start-to-finish navigation challenge through the maze. Classic Maze mode adds collectible counting elements along the path for math integration. Choose the Right Path mode presents multiple possible routes where only one leads to the correct destination. Each mode develops different cognitive skills while maintaining engaging maze gameplay.',
+      },
+      {
+        id: '2',
+        question: 'What Grid Sizes Are Available for Maze Worksheets?',
+        answer: 'Maze grid sizes range from 12x12 to 15x15 cells. Smaller 12x12 grids create simpler mazes with fewer decision points for younger students. Larger 15x15 grids produce more complex mazes with additional paths and dead ends. Grid size directly affects difficulty since larger grids require longer path tracking and more strategic navigation decisions from students.',
+      },
+      {
+        id: '3',
+        question: 'How Does Classic Maze Mode Integrate Counting?',
+        answer: 'Classic Maze mode places collectible image elements along the maze path. Students navigate from start to finish while counting how many collectible items they pass. This combines spatial navigation with one-to-one counting practice. Students write the total count at the end of the maze. The dual-task format develops both motor planning and mathematical thinking simultaneously.',
+      },
+      {
+        id: '4',
+        question: 'How Does Choose the Right Path Mode Work?',
+        answer: 'Choose the Right Path mode presents multiple possible routes from the starting point. Only one path leads to the correct destination while others reach dead ends or wrong endpoints. Students must plan ahead and evaluate paths before committing. This mode develops strategic thinking, prediction skills, and the ability to consider multiple possibilities before making decisions.',
+      },
+      {
+        id: '5',
+        question: 'Do Maze Worksheets Include Answer Keys?',
+        answer: 'Every maze worksheet generates a complete answer key showing the correct path highlighted through the maze. Classic Maze answer keys include the correct collectible count. Choose the Right Path answer keys identify which route reaches the correct destination. Teachers use answer keys for quick verification. Students self-check by comparing their traced path to the solution.',
+      },
+      {
+        id: '6',
+        question: 'What Age Groups Benefit from Maze Worksheets?',
+        answer: 'Maze worksheets serve ages 4 through 9 across preschool through third grade. Preschoolers ages 4 to 5 navigate simple 12x12 Picture Pathway mazes with wider corridors. Kindergarteners ages 5 to 6 complete standard mazes and begin Classic Maze counting activities. First and second graders tackle Choose the Right Path challenges. Third graders master complex 15x15 mazes with multiple game modes.',
+      },
+      {
+        id: '7',
+        question: 'Are Maze Worksheets Appropriate for Kindergarten?',
+        answer: 'Maze worksheets are excellent kindergarten activities for developing visual tracking, fine motor control, and spatial reasoning. Picture Pathway mode with 12x12 grids provides age-appropriate navigation challenges. Students trace paths with pencils, developing the controlled hand movements needed for handwriting. Kindergarten teachers value mazes as engaging activities that build multiple readiness skills simultaneously.',
+      },
+      {
+        id: '8',
+        question: 'How Do Mazes Develop Fine Motor Skills?',
+        answer: 'Maze navigation requires sustained pencil control as students trace paths through narrow corridors without crossing walls. This develops the hand stability, pressure control, and directional accuracy needed for handwriting. Students practice starting, stopping, and changing direction smoothly. Regular maze practice builds the motor endurance needed for extended writing tasks in later grades.',
+      },
+      {
+        id: '9',
+        question: 'Can I Customize Maze Wall Appearance?',
+        answer: 'Yes, customize wall color, thickness, and opacity for your maze design. Dark thick walls create clearly defined paths for young students. Thinner walls increase difficulty by reducing visual contrast between paths and walls. Adjust opacity for subtle wall effects. These visual customization options let you match maze worksheets to your classroom aesthetic preferences or student visual needs.',
+      },
+      {
+        id: '10',
+        question: 'How Long Does It Take to Create a Maze Worksheet?',
+        answer: 'Creating one maze worksheet takes under 2 minutes. Select game mode, grid size, and wall appearance settings. Choose themed images for start, end, and collectible elements. The generator builds a valid solvable maze with answer key instantly. Download and print immediately. Create a full week of varied maze activities across all three game modes in under 10 minutes.',
+      },
+      {
+        id: '11',
+        question: 'Can I Sell Maze Worksheets I Create?',
+        answer: 'Your Full Access subscription includes commercial licensing for selling maze worksheets on Teachers Pay Teachers, Etsy, Amazon KDP, or your own website. Maze activity packets are popular educational products appealing to teachers and parents seeking engaging fine motor and cognitive activities. Create themed maze bundles or progressive difficulty sets. No attribution or extra licensing fees required.',
+      },
+      {
+        id: '12',
+        question: 'How Do I Print Maze Worksheets?',
+        answer: 'Download maze worksheets as PDF files at 300 DPI professional print quality. Maze walls print crisp and clear for accurate path tracing. Select Letter or A4 page size. Enable grayscale mode for ink-saving prints that maintain clear wall definition. Both inkjet and laser printers produce clean maze structures. Print on standard paper for daily practice or laminate for reusable dry-erase activities.',
+      },
+      {
+        id: '13',
+        question: 'Can Mazes Help English Language Learners?',
+        answer: 'Maze worksheets are fully accessible for English language learners because navigation is a visual-spatial skill requiring no text reading. Students trace paths using motor skills and spatial reasoning independent of language proficiency. Classic Maze counting requires only number knowledge. The generator supports 11 languages for optional labels. Mazes provide equitable activities for all students regardless of English ability.',
+      },
+      {
+        id: '14',
+        question: 'How Do Mazes Support Differentiated Instruction?',
+        answer: 'Differentiate by adjusting grid size, game mode, and wall settings. Provide 12x12 Picture Pathway mazes for students developing spatial navigation. Use Classic Maze with counting for on-level kindergarten math integration. Challenge advanced students with 15x15 Choose the Right Path mazes requiring strategic planning. Each mode addresses different cognitive skills at adjustable difficulty levels.',
+      },
+      {
+        id: '15',
+        question: 'What Curriculum Standards Do Maze Worksheets Address?',
+        answer: 'Maze worksheets address spatial reasoning and geometry readiness standards. Fine motor path tracing supports handwriting development standards. Classic Maze counting aligns with math standards for cardinality and counting objects. Strategic planning in Choose the Right Path mode develops problem-solving and critical thinking standards. The multi-standard coverage makes mazes valuable cross-curricular activities.',
+      },
+      {
+        id: '16',
+        question: 'Can I Upload Custom Images for Maze Themes?',
+        answer: 'Yes, upload custom images for maze start points, end destinations, and Classic Maze collectible elements. Use classroom-specific pictures to theme mazes around current instructional units. The generator incorporates uploaded images into the maze layout automatically. Combine uploaded and library images for varied maze experiences connected to student interests and classroom learning goals.',
+      },
+      {
+        id: '17',
+        question: 'How Do Mazes Develop Strategic Thinking?',
+        answer: 'Maze navigation develops strategic thinking as students plan ahead, evaluate path options, and recover from dead ends. Choose the Right Path mode specifically requires comparing multiple routes and predicting outcomes before committing to a path. Students learn to backtrack and try alternatives when initial choices lead nowhere. These planning and evaluation skills transfer to academic problem-solving across all subject areas.',
+      },
+      {
+        id: '18',
+        question: 'Can Maze Worksheets Be Laminated for Reuse?',
+        answer: 'Yes, print maze worksheets on cardstock and laminate for durable reusable activities. Students use dry-erase markers to trace paths, then wipe clean for the next attempt or another student. Laminated mazes save paper and printing costs over time. Create a permanent classroom set of mazes at various difficulty levels for an ongoing fine motor and problem-solving center activity.',
+      },
+      {
+        id: '19',
+        question: 'How Do Maze Worksheets Pair with Other Activities?',
+        answer: 'Maze worksheets pair well with drawing lines activities for fine motor development, treasure hunt worksheets for directional skills, and find and count activities for visual scanning practice. Use the same themed images across generators for cohesive learning packets. Students navigate a maze, then follow directions on a treasure hunt, building spatial reasoning across complementary activity formats.',
+      },
+      {
+        id: '20',
+        question: 'Can Mazes Develop Visual Tracking Skills?',
+        answer: 'Maze worksheets systematically develop visual tracking as students follow paths with their eyes and pencils simultaneously. This coordinated visual-motor tracking strengthens the same skills needed for reading fluency where eyes must track across lines of text smoothly. Regular maze practice improves the sustained visual attention and left-to-right tracking patterns essential for successful reading development.',
+      },
+    ]
     
   },
 

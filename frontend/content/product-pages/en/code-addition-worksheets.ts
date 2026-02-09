@@ -137,7 +137,108 @@ The image addition generator creates worksheets with 3 to 10 problems per page. 
     sectionDescription: 'Teachers and parents have common questions about our image addition worksheet generator. These answers address the most frequent inquiries about creating math worksheets, printing options, and subscription features. Find detailed information about customization, languages, and commercial use below. Your Full Access subscription provides comprehensive access to all features described in these answers.',
     showMoreText: 'Show more questions',
     showLessText: 'Show less',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        question: 'How Does the Code Addition Generator Differ from Regular Addition Worksheets?',
+        answer: 'Code addition worksheets use pictures as counting objects rather than abstract numbers. Students count images in two groups and add the totals together. For example, three apples plus two apples equals five apples. This image-based approach builds concrete understanding of addition before children transition to number-only equations. Regular addition worksheets skip this visual step and present numbers directly.',
+      },
+      {
+        id: '2',
+        question: 'How Many Problems Can I Put on One Code Addition Worksheet?',
+        answer: 'Customize from 3 to 10 addition problems per worksheet. Three problems per page provide large images with ample writing space for kindergarteners developing number formation. Five to six problems suit standard first grade practice. Eight to ten problems challenge students building addition fact fluency. The generator adjusts image sizes and spacing automatically based on your problem count selection.',
+      },
+      {
+        id: '3',
+        question: 'What Number Range Can I Set for Code Addition Problems?',
+        answer: 'Adjust minimum and maximum numbers from 1 to 20 for each image group. Start with groups of 1 to 3 for kindergarteners learning basic counting and combining. Increase to groups of 1 to 5 for standard kindergarten addition practice. Extend to groups up to 10 or 20 for first graders developing addition fluency. The generator ensures all problems stay within your specified range.',
+      },
+      {
+        id: '4',
+        question: 'Do Code Addition Worksheets Include Answer Keys?',
+        answer: 'Every code addition worksheet generates a complete answer key showing the correct sum for each problem. Answer keys display both the image groups and their numeric solution for easy reference. Teachers use answer keys for quick grading during math centers. Students self-check at independent stations. Print answer keys on separate pages for flexible classroom distribution.',
+      },
+      {
+        id: '5',
+        question: 'Why Is Visual Addition Better for Young Learners?',
+        answer: 'Visual addition with picture counting builds concrete number sense before abstract symbols. Students physically count objects, developing one-to-one correspondence and cardinality understanding. Research shows children who master concrete representations transition more successfully to abstract math. Code addition worksheets provide this critical concrete-to-representational bridge that number-only worksheets skip entirely.',
+      },
+      {
+        id: '6',
+        question: 'What Age Groups Benefit from Code Addition Worksheets?',
+        answer: 'Code addition worksheets serve ages 4 through 8 across preschool through second grade. Preschoolers ages 4 to 5 count small groups of 1 to 3 images with teacher support. Kindergarteners ages 5 to 6 independently combine groups up to 5 or 10. First graders practice addition facts to 20 with larger image groups. Second graders use image-based problems for fact fluency review or remediation.',
+      },
+      {
+        id: '7',
+        question: 'Are Code Addition Worksheets Appropriate for Kindergarten?',
+        answer: 'Code addition worksheets are ideal for kindergarten math instruction. The picture counting format matches kindergarteners’ developmental need for concrete visual representations. Set groups to 1 through 5 images for age-appropriate difficulty. Use 3 to 4 problems per page for large, clear images. Kindergarten teachers report that image-based addition worksheets produce stronger number sense than abstract number problems alone.',
+      },
+      {
+        id: '8',
+        question: 'Can I Create Themed Code Addition Worksheets?',
+        answer: 'Yes, select images from any theme for engaging addition practice. Generate animal-themed problems during science units. Create food-themed addition for nutrition connections. Build seasonal worksheets for holiday activities. The 3000+ image library provides diverse theme options. Upload your own classroom images for personalized addition problems that connect to current instructional units.',
+      },
+      {
+        id: '9',
+        question: 'How Long Does It Take to Create a Code Addition Worksheet?',
+        answer: 'Creating one code addition worksheet takes under 3 minutes. Select theme images and configure the number range and problem count. The generator builds all problems with correct image groups and answers instantly. Review the layout and download. Create a full week of differentiated addition practice in approximately 15 minutes with multiple difficulty levels.',
+      },
+      {
+        id: '10',
+        question: 'Can I Sell Code Addition Worksheets I Create?',
+        answer: 'Your Full Access subscription includes commercial licensing for selling code addition worksheets on Teachers Pay Teachers, Etsy, Amazon KDP, or your own website. Image-based math worksheets fill a niche market seeking visual alternatives to standard computation pages. Create themed bundles or progressive difficulty packs. No attribution or extra licensing fees required.',
+      },
+      {
+        id: '11',
+        question: 'How Do I Print Code Addition Worksheets?',
+        answer: 'Download code addition worksheets as PDF files at 300 DPI professional print quality. Images print colorful and identifiable for accurate counting. Select Letter or A4 page size. Enable grayscale mode to save ink while keeping images distinct enough for counting activities. Both inkjet and laser printers produce clear results where students can count individual picture objects reliably.',
+      },
+      {
+        id: '12',
+        question: 'Can Code Addition Worksheets Help English Language Learners?',
+        answer: 'Code addition worksheets are excellent for English language learners because image counting requires no English reading. Students count pictures and write numeric answers using math skills independent of language proficiency. The visual format creates equitable math practice where all students participate fully. The generator supports 11 languages for optional instruction text and number words.',
+      },
+      {
+        id: '13',
+        question: 'How Do Code Addition Worksheets Support Differentiated Instruction?',
+        answer: 'Differentiate by adjusting number ranges and problem count. Provide groups of 1 to 3 with 3 problems for students developing counting skills. Use groups of 1 to 5 with 5 problems for on-level kindergarten practice. Challenge advanced students with groups up to 10 and 8 problems per page. Create three difficulty levels from the same theme in minutes for flexible math grouping.',
+      },
+      {
+        id: '14',
+        question: 'What Curriculum Standards Do Code Addition Worksheets Address?',
+        answer: 'Code addition worksheets directly address Common Core Math standards K.OA.1 through K.OA.5 for kindergarten addition using objects and drawings. The image counting approach supports K.CC standards for counting and cardinality. Visual representations align with mathematical practice standards for modeling with mathematics and reasoning quantitatively. First grade standards 1.OA are addressed through extended number ranges.',
+      },
+      {
+        id: '15',
+        question: 'Can I Add Name and Date Fields?',
+        answer: 'Yes, enable name and date fields to add student identification lines at the top of each worksheet. Name fields help organize completed work for portfolio assessment and grading. Date fields track when activities were completed for progress monitoring. These optional fields keep worksheets organized throughout the school year without cluttering the math problem space.',
+      },
+      {
+        id: '16',
+        question: 'Can I Upload My Own Images for Code Addition Problems?',
+        answer: 'Yes, upload unlimited custom images as counting objects in code addition problems. Use classroom photos, curriculum illustrations, or student artwork as the items students count and add. The generator arranges uploaded images into properly formatted addition problems with correct spacing. Combine uploaded images with the 3000+ built-in library for varied math practice.',
+      },
+      {
+        id: '17',
+        question: 'How Do Code Addition Worksheets Connect to Subtraction Practice?',
+        answer: 'Code addition and subtraction worksheets form a natural fact family pair. Students who master counting-based addition transfer those skills directly to visual subtraction with cross-out activities. Using the same themed images across both generators reinforces the inverse relationship between operations. Create combined packets for comprehensive early math instruction covering both operations.',
+      },
+      {
+        id: '18',
+        question: 'How Do Code Addition Worksheets Build Number Sense?',
+        answer: 'Code addition worksheets develop number sense through concrete counting experiences. Students count each image group, developing one-to-one correspondence. Combining groups builds understanding of part-whole relationships. Comparing group sizes develops magnitude awareness. These foundational number sense skills transfer to mental math strategies and estimation abilities that support all future mathematics learning.',
+      },
+      {
+        id: '19',
+        question: 'How Do Code Addition Worksheets Pair with Other Activities?',
+        answer: 'Code addition worksheets pair effectively with subtraction worksheets for fact family practice, pattern worksheets for mathematical reasoning, and math puzzle worksheets for applied problem-solving. Use the same themed images across generators for cohesive math packets. Students practice counting-based addition, then encounter those same quantities in pattern sequences and logic puzzles.',
+      },
+      {
+        id: '20',
+        question: 'Can Code Addition Worksheets Be Used for Math Centers?',
+        answer: 'Code addition worksheets are ideal math center activities. Print differentiated sets at easy, medium, and hard number ranges. Students self-select difficulty or follow teacher-assigned groupings. The included answer keys enable self-checking without teacher assistance. Rotate image themes weekly to maintain engagement. The visual counting format supports independent work since students can verify their own addition by recounting.',
+      },
+    ]
     
   },
 

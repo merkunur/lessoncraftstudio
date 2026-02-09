@@ -131,7 +131,108 @@ The Big and Small worksheet maker offers five different question types. Students
     sectionDescription: 'Teachers and parents have common questions about our worksheet generators. This FAQ section answers the most frequent inquiries we receive. Find answers about pricing, features, printing, and classroom use below. Each answer provides practical information to help you get started quickly.',
     showMoreText: 'Show more questions',
     showLessText: 'Show less',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        question: 'What Question Types Does the Big and Small Generator Offer?',
+        answer: 'Five question types address different size discrimination skills. Circle the Big asks students to identify the largest image. Circle the Small identifies the smallest. Find the Medium requires identifying the middle-sized object among three. Ordering tasks have students arrange images from biggest to smallest or smallest to biggest. Each type develops progressively more nuanced size comparison abilities.',
+      },
+      {
+        id: '2',
+        question: 'How Many Images Appear in Each Size Comparison Exercise?',
+        answer: 'Each exercise displays 2 to 3 images of the same object at different sizes. Two-image exercises present simple big versus small comparisons for the youngest learners. Three-image exercises add a medium-sized option for more nuanced discrimination. The generator creates clear size differences that are developmentally appropriate for the target age group while challenging students to observe carefully.',
+      },
+      {
+        id: '3',
+        question: 'How Many Exercises Fit on One Worksheet?',
+        answer: 'Customize from 1 to 10 exercises per worksheet. One to two exercises provide large images with ample decision-making space for preschoolers. Four to five exercises suit standard kindergarten practice. Eight to ten exercises create comprehensive review worksheets for students developing size comparison fluency. The generator adjusts image sizes and layout automatically based on your exercise count.',
+      },
+      {
+        id: '4',
+        question: 'Do Big and Small Worksheets Include Answer Keys?',
+        answer: 'Every big and small worksheet generates a complete answer key showing the correct response for each exercise. Circle tasks highlight which image should be circled. Ordering tasks show the correct size sequence. Teachers use answer keys for quick grading. Students self-check at independent stations. The visual answer format makes verification instant without reading text.',
+      },
+      {
+        id: '5',
+        question: 'How Do Ordering Activities Work?',
+        answer: 'Ordering activities present 2 to 3 images at different sizes and ask students to number them from biggest to smallest or smallest to biggest. Students compare all images simultaneously and assign sequence numbers indicating relative size. This requires more sophisticated reasoning than simply identifying the biggest or smallest, as students must evaluate the complete size relationship among all presented items.',
+      },
+      {
+        id: '6',
+        question: 'What Age Groups Benefit from Big and Small Worksheets?',
+        answer: 'Big and small worksheets serve ages 2 through 7 across toddler programs through first grade. Toddlers ages 2 to 3 practice two-image big versus small with parent guidance. Preschoolers ages 3 to 4 identify big and small independently. Kindergarteners ages 5 to 6 find medium objects and begin ordering activities. First graders master three-image ordering and connect size comparison to measurement concepts.',
+      },
+      {
+        id: '7',
+        question: 'Are Big and Small Worksheets Appropriate for Kindergarten?',
+        answer: 'Big and small worksheets are valuable kindergarten math activities developing measurement readiness and comparative thinking. Use three-image exercises with all question types for comprehensive size discrimination practice. The Find the Medium type is particularly appropriate for kindergarteners who can identify extremes but need practice with middle values. These worksheets build foundations for formal measurement instruction in later grades.',
+      },
+      {
+        id: '8',
+        question: 'How Do Size Comparison Worksheets Build Math Foundations?',
+        answer: 'Size comparison develops foundational measurement concepts including relative magnitude, ordering, and comparative vocabulary. Students learn that size is relative, not absolute, as the same image can be big compared to one item and small compared to another. This comparative thinking transfers directly to number comparison, measurement units, and data analysis skills in later mathematics instruction.',
+      },
+      {
+        id: '9',
+        question: 'Can I Create Themed Size Comparison Worksheets?',
+        answer: 'Yes, select images from any theme for engaging size comparison activities. Generate animal-themed worksheets where students compare big and small animals. Create vehicle-themed activities with cars, trucks, and buses at different sizes. Build seasonal worksheets for holiday connections. The 3000+ image library provides diverse options. Upload your own images for fully customized comparison activities.',
+      },
+      {
+        id: '10',
+        question: 'How Long Does It Take to Create a Big and Small Worksheet?',
+        answer: 'Creating one big and small worksheet takes under 2 minutes. Select your theme, question type, and exercise count. Choose 2 or 3 images per exercise. The generator creates appropriately sized image variants instantly. Download and print immediately. Create a comprehensive size comparison packet covering all five question types in under 10 minutes.',
+      },
+      {
+        id: '11',
+        question: 'Can I Sell Big and Small Worksheets I Create?',
+        answer: 'Your Full Access subscription includes commercial licensing for selling big and small worksheets on Teachers Pay Teachers, Etsy, Amazon KDP, or your own website. Size comparison worksheets have strong demand in preschool and kindergarten markets. Create themed bundles or progressive difficulty packs. No attribution or extra licensing fees required beyond your subscription.',
+      },
+      {
+        id: '12',
+        question: 'How Do I Print Size Comparison Worksheets?',
+        answer: 'Download big and small worksheets as PDF files at 300 DPI professional print quality. Size differences between images print clearly for accurate discrimination. Select Letter or A4 page size. Enable grayscale mode for ink-saving prints where size distinctions remain clearly visible. Both inkjet and laser printers produce clean results where relative sizes are easy for students to evaluate.',
+      },
+      {
+        id: '13',
+        question: 'Can Big and Small Worksheets Help English Language Learners?',
+        answer: 'Big and small worksheets are excellent for English language learners because size comparison is a visual skill requiring no text reading. Students identify relative sizes using visual perception independent of language proficiency. The generator supports 11 languages for optional vocabulary labels. Teachers use size worksheets to teach comparative vocabulary like bigger, smaller, and biggest in context.',
+      },
+      {
+        id: '14',
+        question: 'How Do Big and Small Worksheets Support Differentiated Instruction?',
+        answer: 'Differentiate by adjusting question type, image count, and exercise count. Provide two-image Circle the Big activities for developing learners. Use three-image exercises with Find the Medium for on-level kindergarten practice. Challenge advanced students with three-image ordering tasks requiring sequential size ranking. All levels use the same engaging themed images for seamless classroom grouping.',
+      },
+      {
+        id: '15',
+        question: 'What Curriculum Standards Do Big and Small Worksheets Address?',
+        answer: 'Big and small worksheets address early childhood measurement standards for comparing objects by size and ordering objects from smallest to largest. They support math standards for measurable attributes and comparison. The comparative vocabulary component addresses language development standards. Many state preschool frameworks include size comparison as a foundational cognitive skill for mathematical readiness.',
+      },
+      {
+        id: '16',
+        question: 'Can I Upload Custom Images for Size Activities?',
+        answer: 'Yes, upload custom images for personalized size comparison worksheets. The generator creates differently sized versions of your uploaded images for comparison exercises. Use classroom photos, curriculum illustrations, or familiar objects. Students compare sizes of images that connect to their daily experiences and current classroom learning for increased engagement and relevance.',
+      },
+      {
+        id: '17',
+        question: 'How Does Find the Medium Task Develop Reasoning?',
+        answer: 'Find the Medium requires students to evaluate three images simultaneously and identify the one that is neither biggest nor smallest. This middle-value identification develops more sophisticated comparative reasoning than binary big or small judgments. Students must understand that size is a spectrum and apply three-way comparison logic. This prepares students for median concepts and data ordering in later math.',
+      },
+      {
+        id: '18',
+        question: 'How Do Big and Small Worksheets Connect to Measurement?',
+        answer: 'Size comparison is the conceptual foundation for formal measurement instruction. Students who master relative size judgment develop the comparative thinking needed for using rulers, scales, and measuring cups. Understanding that objects can be ordered by size prepares students for number line concepts and measurement unit comparisons. Big and small worksheets build the intuitive understanding that formal measurement quantifies.',
+      },
+      {
+        id: '19',
+        question: 'How Do Big and Small Worksheets Pair with Other Activities?',
+        answer: 'Big and small worksheets pair naturally with more or less worksheets for comprehensive comparison skill development, pattern worksheets for ordering and sequencing connections, and coloring activities for engaging activity packets. Use the same themed images to create cohesive math packets covering size comparison, quantity comparison, and sequencing in unified instructional sequences.',
+      },
+      {
+        id: '20',
+        question: 'Can Big and Small Worksheets Be Used for Assessment?',
+        answer: 'Big and small worksheets serve as effective informal assessments for size discrimination readiness. Administer worksheets with all five question types to evaluate comprehensive size comparison skills. Track whether students can identify big, small, and medium accurately. Assess ordering ability separately from identification. Score efficiently using provided answer keys to document measurement readiness development.',
+      },
+    ]
     
   },
 

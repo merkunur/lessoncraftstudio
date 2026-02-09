@@ -133,7 +133,108 @@ Full Access subscription costs $240 annually or $25 monthly. This includes all 3
     sectionDescription: 'Teachers frequently ask about subscription requirements, classroom usage, customization options, and commercial licensing for shadow matching worksheets. Full Access subscription provides unlimited creation of coloring worksheets, tracing worksheets, sight words worksheets, phonics worksheets, alphabet worksheets, addition worksheets, and all 33 worksheet types. The professional quality and flexible features support diverse educational needs from kindergarten through elementary school. These answers address common questions helping teachers decide if Full Access subscription meets their classroom requirements.',
     showMoreText: 'Show more questions',
     showLessText: 'Show less',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        question: 'What Activity Modes Does the Shadow Match Generator Offer?',
+        answer: 'Two distinct activity modes develop different visual perception skills. Shadow Match mode presents colored images alongside black silhouettes for students to match. Make It Whole mode splits images into pieces that students mentally or physically reassemble. Both modes develop visual discrimination, figure-ground perception, and spatial reasoning through engaging puzzle-format activities.',
+      },
+      {
+        id: '2',
+        question: 'How Does Shadow Match Mode Work?',
+        answer: 'In Shadow Match mode, colored object images appear on one side of the worksheet with their black silhouettes on the other side in randomized order. Students draw lines connecting each colored image to its matching shadow. This requires analyzing object outlines, ignoring internal details, and recognizing shapes from their silhouette profiles. The activity builds figure-ground perception essential for reading readiness.',
+      },
+      {
+        id: '3',
+        question: 'How Does Make It Whole Mode Work?',
+        answer: 'Make It Whole mode splits images into two pieces along a horizontal or vertical cut line. Students examine the separate halves and determine how they fit together to form complete pictures. This develops part-to-whole reasoning, spatial manipulation, and visual closure skills. Students can draw lines connecting matching halves or physically arrange printed pieces to complete each image.',
+      },
+      {
+        id: '4',
+        question: 'Can I Choose the Cut Direction for Make It Whole?',
+        answer: 'Yes, select horizontal or vertical cut direction for Make It Whole exercises. Horizontal cuts split images into top and bottom halves. Vertical cuts create left and right halves. Each direction challenges different spatial reasoning skills. Vertical cuts are typically easier for young students since left-right matching is more intuitive. Horizontal cuts require more spatial manipulation for reassembly.',
+      },
+      {
+        id: '5',
+        question: 'Do Shadow Match Worksheets Include Answer Keys?',
+        answer: 'Every shadow match worksheet generates a complete answer key showing correct pairings. Shadow Match answer keys draw connection lines between images and their matching silhouettes. Make It Whole answer keys show correctly assembled complete images. Teachers use answer keys for quick grading. Students self-check at independent stations using separately printed answer pages.',
+      },
+      {
+        id: '6',
+        question: 'What Age Groups Benefit from Shadow Match Worksheets?',
+        answer: 'Shadow match worksheets serve ages 3 through 8 across preschool through second grade. Preschoolers ages 3 to 4 match simple silhouettes with distinctive shapes. Kindergarteners ages 5 to 6 tackle more similar silhouettes requiring careful outline analysis. First graders complete both Shadow Match and Make It Whole activities. Second graders master complex silhouettes and challenging split-image puzzles.',
+      },
+      {
+        id: '7',
+        question: 'Are Shadow Match Worksheets Appropriate for Kindergarten?',
+        answer: 'Shadow match worksheets are excellent kindergarten activities for developing visual perception skills critical for reading readiness. Matching images to silhouettes trains the figure-ground discrimination needed for distinguishing letter shapes. Make It Whole develops visual closure, the ability to recognize complete forms from partial information. Both skills directly support kindergarten literacy development.',
+      },
+      {
+        id: '8',
+        question: 'How Do Shadow Match Activities Build Reading Readiness?',
+        answer: 'Shadow matching develops the same visual discrimination skills used in letter and word recognition. Students learn to identify shapes by their outlines, distinguish similar forms, and process visual information analytically. These perceptual skills transfer directly to recognizing letter shapes, distinguishing between similar letters like b and d, and identifying words by their visual profiles during reading.',
+      },
+      {
+        id: '9',
+        question: 'Can I Create Themed Shadow Match Worksheets?',
+        answer: 'Yes, select images from any theme for engaging shadow matching activities. Generate animal silhouette matching during science units. Create vehicle shadows for transportation topics. Build holiday-themed shadow activities for seasonal celebrations. The 3000+ image library provides diverse silhouette options. Upload your own images for custom shadow match worksheets connected to any classroom topic.',
+      },
+      {
+        id: '10',
+        question: 'How Long Does It Take to Create a Shadow Match Worksheet?',
+        answer: 'Creating one shadow match worksheet takes under 2 minutes. Select your mode, theme, and image count. The generator creates colored images, silhouettes, or split pieces with randomized arrangements instantly. Answer keys generate simultaneously. Download and print immediately. Create a week of varied visual perception activities covering both modes in under 10 minutes.',
+      },
+      {
+        id: '11',
+        question: 'Can I Sell Shadow Match Worksheets I Create?',
+        answer: 'Your Full Access subscription includes commercial licensing for selling shadow match worksheets on Teachers Pay Teachers, Etsy, Amazon KDP, or your own website. Visual perception worksheets have strong demand in preschool and kindergarten markets. Create themed shadow matching bundles or dual-mode activity packs. No attribution or extra licensing fees required beyond your subscription.',
+      },
+      {
+        id: '12',
+        question: 'How Do I Print Shadow Match Worksheets?',
+        answer: 'Download shadow match worksheets as PDF files at 300 DPI professional print quality. Colored images print vibrant while silhouettes appear as solid black shapes with clear outlines. Select Letter or A4 page size. Grayscale mode is not recommended for Shadow Match since color contrast between images and silhouettes aids the matching process. Both printers produce clean, visually distinct results.',
+      },
+      {
+        id: '13',
+        question: 'Can Shadow Match Help English Language Learners?',
+        answer: 'Shadow match worksheets are ideal for English language learners because both modes are entirely visual activities requiring no text reading. Students match shapes and reassemble images using visual perception skills independent of language proficiency. The generator supports 11 languages for optional labels. Shadow matching creates equitable activities where all students participate successfully regardless of English ability.',
+      },
+      {
+        id: '14',
+        question: 'How Do Shadow Match Worksheets Support Differentiated Instruction?',
+        answer: 'Differentiate by selecting activity mode and image complexity. Provide Shadow Match with distinctively shaped images for developing visual learners. Use Shadow Match with similarly shaped images for on-level challenge. Assign Make It Whole with vertical cuts for moderate spatial reasoning practice. Challenge advanced students with Make It Whole using horizontal cuts and complex images requiring careful part-to-whole analysis.',
+      },
+      {
+        id: '15',
+        question: 'What Curriculum Standards Do Shadow Match Worksheets Address?',
+        answer: 'Shadow match worksheets address visual perception and cognitive development standards in early childhood frameworks. Figure-ground discrimination supports reading readiness standards. Spatial reasoning components align with geometry standards for analyzing shapes and spatial relationships. Fine motor line-drawing addresses physical development standards. These worksheets naturally address multiple developmental domains simultaneously.',
+      },
+      {
+        id: '16',
+        question: 'Can I Upload Custom Images for Shadow Match Activities?',
+        answer: 'Yes, upload unlimited custom images for personalized shadow matching worksheets. The generator automatically creates silhouette versions of uploaded images for Shadow Match mode and split halves for Make It Whole mode. Use classroom photos or curriculum illustrations for themed activities. Custom images let you create shadow matching activities connected to any instructional topic.',
+      },
+      {
+        id: '17',
+        question: 'What Is Figure-Ground Perception and Why Does It Matter?',
+        answer: 'Figure-ground perception is the ability to distinguish a specific shape or object from its surrounding visual environment. Shadow matching develops this skill by requiring students to recognize object forms from outline silhouettes alone. Strong figure-ground perception is essential for reading, where readers must distinguish letter shapes from the background and from each other on crowded pages of text.',
+      },
+      {
+        id: '18',
+        question: 'How Does Make It Whole Develop Visual Closure Skills?',
+        answer: 'Visual closure is the ability to recognize complete forms when only partial information is visible. Make It Whole develops this skill by presenting split image halves that students must mentally combine to identify the complete picture. Strong visual closure supports reading fluency where readers recognize whole words from partial visual cues rather than decoding every letter individually.',
+      },
+      {
+        id: '19',
+        question: 'How Do Shadow Match Worksheets Pair with Other Activities?',
+        answer: 'Shadow match worksheets pair naturally with matching worksheets for visual discrimination practice, find objects activities for analytical observation skills, and coloring pages for engaging activity packets. Use the same themed images across generators. Students match shadows, then find those same objects hidden in search activities, building comprehensive visual perception through varied formats.',
+      },
+      {
+        id: '20',
+        question: 'Can Shadow Match Worksheets Assess Visual Perception Skills?',
+        answer: 'Shadow match worksheets serve as effective informal assessments for visual perception development. Administer Shadow Match to evaluate figure-ground discrimination and Make It Whole to assess visual closure and spatial reasoning. Track which students struggle with similar silhouettes versus distinct ones. Document progress over time to inform targeted visual perception intervention and reading readiness support.',
+      },
+    ]
     
   },
 

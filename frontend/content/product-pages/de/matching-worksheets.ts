@@ -27,8 +27,8 @@ export const matchingDeContent: ProductPageContent = {
   seo: {
     slug: 'zuordnungs-arbeitsblaetter',
     appId: 'matching',
-    title: 'Zuordnungs-Arbeitsblätter | Kostenlose Arbeitsblätter Grundschule',
-    description: 'Erstellen Sie Zuordnungs-Arbeitsblätter in 3 Minuten. Kostenlose Arbeitsblätter Grundschule, Vorschule und Buchstaben lernen. 3000+ Bilder, 11 Sprachen.',
+    title: 'Zuordnungs-Arbeitsblätter | Generator Grundschule',
+    description: 'Zuordnungs-Arbeitsblätter zum Verbinden und Zuordnen erstellen. Generator mit 3000+ Bildern und 11 Sprachen für Grundschule und Vorschule. PDF in 3 Minuten.',
     keywords: 'zuordnungs arbeitsblätter, arbeitsblätter grundschule, kostenlose arbeitsblätter, mathe arbeitsblätter, vorschule arbeitsblätter, buchstaben lernen, deutsch arbeitsblätter, einmaleins, schwungübungen, ausmalbilder',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/zuordnungs-arbeitsblaetter',
       },

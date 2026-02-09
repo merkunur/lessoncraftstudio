@@ -29,8 +29,8 @@ export const shadowMatchDeContent: ProductPageContent = {
   seo: {
     slug: 'schattenbilder-zuordnen-arbeitsblaetter',
     appId: 'shadow-match',
-    title: 'Schattenbilder Arbeitsblätter Kostenlos | Generator für Grundschule',
-    description: 'Erstellen Sie Schattenbilder-Arbeitsblätter in 3 Minuten. Generator für Vorschule & Grundschule. Visuelle Wahrnehmung üben - kostenlos testen! Perfekt für.',
+    title: 'Schattenbilder Arbeitsblätter | Generator Grundschule',
+    description: 'Schattenbilder zuordnen und Bildhälften zusammenfügen. 2 Übungsmodi für visuelle Wahrnehmung. Generator für Grundschule und Vorschule. PDF in 3 Minuten.',
     keywords: 'schattenbilder arbeitsblätter, visuelle wahrnehmung übungen, arbeitsblätter grundschule, kostenlose arbeitsblätter, vorschule arbeitsblätter, räumliches denken, wahrnehmungsübungen, silhouetten zuordnen, mathe arbeitsblätter, deutsch arbeitsblätter',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/schattenbilder-zuordnen-arbeitsblaetter',
       },

@@ -27,8 +27,8 @@ export const chartCountDeContent: ProductPageContent = {
   seo: {
     slug: 'bilddiagramm-arbeitsblaetter',
     appId: 'chart-count',
-    title: 'Bilddiagramm Arbeitsblätter Kostenlos | Mathe Grundschule Generator',
-    description: 'Erstellen Sie Bilddiagramm Arbeitsblätter für Grundschule und Vorschule. Kostenlose Druckvorlagen zum Ausdrucken. PDF-Download in 3 Minuten - jetzt starten!',
+    title: 'Bilddiagramm Arbeitsblätter | Mathe-Generator Grundschule',
+    description: 'Bilddiagramm-Arbeitsblätter zum Daten lesen und interpretieren erstellen. Kostenloser Mathe-Generator für Grundschule und Vorschule. PDF in 3 Minuten.',
     keywords: 'bilddiagramm arbeitsblätter, arbeitsblätter grundschule, kostenlose arbeitsblätter, mathe arbeitsblätter, vorschule arbeitsblätter, rechnen lernen, deutsch arbeitsblätter, einmaleins, schwungübungen, ausmalbilder',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/bilddiagramm-arbeitsblaetter',
       },

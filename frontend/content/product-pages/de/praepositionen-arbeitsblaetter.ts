@@ -29,8 +29,8 @@ export const prepositionsDeContent: ProductPageContent = {
   seo: {
     slug: 'praepositionen-arbeitsblaetter',
     appId: 'prepositions',
-    title: 'Präpositionen Arbeitsblätter Kostenlos | Generator für Grundschule',
-    description: 'Erstellen Sie Präpositionen-Arbeitsblätter in 3 Minuten. Generator für Vorschule & Grundschule. Räumliche Begriffe üben - kostenlos testen! Perfekt für.',
+    title: 'Präpositionen Arbeitsblätter | Generator Grundschule',
+    description: 'Präpositionen wie auf, unter, neben mit Bildern üben. Kostenloser Arbeitsblätter-Generator für Grundschule und Vorschule. 3000+ Bilder, PDF in 3 Minuten.',
     keywords: 'präpositionen arbeitsblätter, räumliche begriffe arbeitsblätter, arbeitsblätter grundschule, kostenlose arbeitsblätter, mathe arbeitsblätter, vorschule arbeitsblätter, deutsch arbeitsblätter, schwungübungen, buchstaben lernen, rechnen lernen',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/praepositionen-arbeitsblaetter',
       },

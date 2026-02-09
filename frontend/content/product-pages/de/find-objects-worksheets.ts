@@ -27,8 +27,8 @@ export const findObjectsDeContent: ProductPageContent = {
   seo: {
     slug: 'suchbilder-arbeitsblaetter',
     appId: 'find-objects',
-    title: 'Suchbilder Arbeitsblätter | Kostenlose Vorschul-Arbeitsblätter',
-    description: 'Erstellen Sie professionelle Suchbilder-Arbeitsblätter für Grundschule und Vorschule. Ich-Sehe-Was Generator. PDF Download in unter 3 Minuten.',
+    title: 'Suchbilder Arbeitsblätter | Generator Grundschule',
+    description: 'Suchbilder und Ich-Sehe-Was Arbeitsblätter für visuelle Wahrnehmung erstellen. Generator mit 3000+ Bildern für Grundschule und Vorschule. PDF in 3 Minuten.',
     keywords: 'suchbilder arbeitsblätter, arbeitsblätter grundschule, kostenlose arbeitsblätter, vorschule arbeitsblätter, mathe arbeitsblätter, ich sehe was, welches passt nicht, visuelle wahrnehmung, schwungübungen, ausmalbilder',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/suchbilder-arbeitsblaetter',
       },

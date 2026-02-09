@@ -27,8 +27,8 @@ export const additionDeContent: ProductPageContent = {
   seo: {
     slug: 'addition-arbeitsblaetter',
     appId: 'addition',
-    title: 'Additions-Arbeitsblätter Generator - Kostenlose Mathe-Arbeitsblätter',
-    description: 'Erstellen Sie Additions-Arbeitsblätter für Grundschule und Vorschule. Kostenlose Mathe-Arbeitsblätter mit Lösungsblatt. PDF in 3 Minuten herunterladen.',
+    title: 'Additions-Arbeitsblätter | Mathe-Generator Grundschule',
+    description: 'Additions-Arbeitsblätter mit 4 Übungsmodi und Lösungsblatt erstellen. Kostenloser Mathe-Generator für Grundschule und Vorschule. PDF-Download in 3 Minuten.',
     keywords: 'additions generator, mathe arbeitsblätter, arbeitsblätter grundschule, kostenlose arbeitsblätter, vorschule arbeitsblätter, rechnen lernen, rechnen 1 klasse, einmaleins, schwungübungen, ausmalbilder',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/addition-arbeitsblaetter',
       },

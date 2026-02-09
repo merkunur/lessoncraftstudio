@@ -29,8 +29,8 @@ export const writingDeContent: ProductPageContent = {
   seo: {
     slug: 'schreibuebungen-arbeitsblaetter',
     appId: 'writing',
-    title: 'Schreibübungen Arbeitsblätter Kostenlos | Generator für Grundschule',
-    description: 'Schreibübungen Arbeitsblätter in 3 Minuten erstellen. Schwungübungen & Buchstaben lernen für Vorschule & Grundschule. 3000+ Bilder, 300 DPI. Jetzt testen!',
+    title: 'Schreibübungen Arbeitsblätter | Generator Grundschule',
+    description: 'Schreibübungen mit Schwunglinien und Buchstaben nachspuren. Generator mit 3000+ Bildern für Vorschule und Grundschule. PDF-Download in unter 3 Minuten.',
     keywords: 'schreibübungen arbeitsblätter, schwungübungen, buchstaben lernen, arbeitsblätter grundschule, kostenlose arbeitsblätter, vorschule arbeitsblätter, mathe arbeitsblätter, einmaleins, deutsch arbeitsblätter, rechnen lernen, ausmalbilder, malvorlagen',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/schreibuebungen-arbeitsblaetter',
       },

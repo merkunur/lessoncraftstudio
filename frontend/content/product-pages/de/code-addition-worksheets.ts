@@ -30,8 +30,8 @@ export const codeAdditionDeContent: ProductPageContent = {
   seo: {
     slug: 'bilder-additions-arbeitsblaetter',
     appId: 'code-addition',
-    title: 'Bilder-Additions-Arbeitsblätter | Kostenlose Mathe-Arbeitsblätter',
-    description: 'Erstellen Sie kostenlose Bilder-Additions-Arbeitsblätter für Grundschule und Vorschule. Mathe-Arbeitsblätter mit 3000+ Bildern in unter 3 Minuten erstellen.',
+    title: 'Bilder-Addition Arbeitsblätter | Visuelles Rechnen lernen',
+    description: 'Bilder-Addition: Visuelles Rechnen lernen mit Bildern statt Zahlen. Kostenloser Generator für Grundschule und Vorschule. 3000+ Bilder, PDF in 3 Minuten.',
     keywords: 'bilder addition generator, mathe arbeitsblätter, arbeitsblätter grundschule, kostenlose arbeitsblätter, vorschule arbeitsblätter, rechnen lernen, rechnen 1 klasse, einmaleins, schwungübungen, ausmalbilder',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/bilder-additions-arbeitsblaetter',
       },

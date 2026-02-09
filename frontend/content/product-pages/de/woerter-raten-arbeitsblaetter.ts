@@ -29,8 +29,8 @@ export const wordGuessDeContent: ProductPageContent = {
   seo: {
     slug: 'woerter-raten-arbeitsblaetter',
     appId: 'word-guess',
-    title: 'Wörter Raten Arbeitsblätter Kostenlos | Generator für Grundschule',
-    description: 'Wörter Raten Arbeitsblätter in 3 Minuten erstellen. Worträtsel mit Bildhinweisen für Vorschule & Grundschule. 3000+ Bilder, 300 DPI. Jetzt kostenlos testen!',
+    title: 'Wörter Raten Arbeitsblätter | Worträtsel Generator',
+    description: 'Wörter-Raten-Arbeitsblätter mit Bildhinweisen für Wortschatz und Rechtschreibung. Generator mit 3000+ Bildern für Grundschule und Vorschule. PDF in 3 Minuten.',
     keywords: 'wörter raten arbeitsblätter, worträtsel arbeitsblätter, arbeitsblätter grundschule, kostenlose arbeitsblätter, mathe arbeitsblätter, vorschule arbeitsblätter, einmaleins, schwungübungen, buchstaben lernen, rechnen lernen, deutsch arbeitsblätter',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/woerter-raten-arbeitsblaetter',
       },

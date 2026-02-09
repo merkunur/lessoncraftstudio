@@ -27,8 +27,8 @@ export const drawAndColorDeContent: ProductPageContent = {
   seo: {
     slug: 'rasterzeichnen-arbeitsblaetter',
     appId: 'draw-and-color',
-    title: 'Rasterzeichnen Arbeitsblätter | Kostenlose Grundschule Malvorlagen',
-    description: 'Erstellen Sie kostenlose Rasterzeichnen-Arbeitsblätter für Grundschule und Vorschule. 3000+ Bilder, 300 DPI Qualität. PDF-Download in unter 3 Minuten.',
+    title: 'Rasterzeichnen Arbeitsblätter | Generator Grundschule',
+    description: 'Rasterzeichnen-Arbeitsblätter für Feinmotorik und Konzentration erstellen. 3000+ Vorlagen im Raster nachzeichnen. Generator für Grundschule und Vorschule.',
     keywords: 'rasterzeichnen arbeitsblätter, arbeitsblätter grundschule, kostenlose arbeitsblätter, vorschule arbeitsblätter, malvorlagen, ausmalbilder, schwungübungen, buchstaben lernen, mathe arbeitsblätter, feinmotorik',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/rasterzeichnen-arbeitsblaetter',
       },

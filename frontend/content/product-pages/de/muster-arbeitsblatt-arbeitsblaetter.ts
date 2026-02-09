@@ -29,8 +29,8 @@ export const patternWorksheetDeContent: ProductPageContent = {
   seo: {
     slug: 'muster-arbeitsblatt-arbeitsblaetter',
     appId: 'pattern-worksheet',
-    title: 'Muster-Arbeitsblätter Kostenlos | Generator Grundschule Vorschule',
-    description: 'Muster-Arbeitsblätter in 3 Minuten erstellen. 9 Mustertypen, 3000+ Bilder, 300 DPI. Perfekt für Vorschule und Grundschule. PDF sofort drucken.',
+    title: 'Muster-Arbeitsblätter | Mustererkennung Generator',
+    description: 'Muster-Arbeitsblätter mit 9 Mustertypen erstellen. Mustererkennung-Generator mit 3000+ Bildern für Vorschule und Grundschule. PDF-Download in 3 Minuten.',
     keywords: 'muster arbeitsblatt generator, arbeitsblätter grundschule, kostenlose arbeitsblätter, mathe arbeitsblätter, vorschule arbeitsblätter, einmaleins, schwungübungen, buchstaben lernen, rechnen lernen, ausmalbilder',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/muster-arbeitsblatt-arbeitsblaetter',
       },

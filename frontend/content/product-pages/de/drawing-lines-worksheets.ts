@@ -27,8 +27,8 @@ export const drawingLinesDeContent: ProductPageContent = {
   seo: {
     slug: 'linien-ziehen-arbeitsblaetter',
     appId: 'drawing-lines',
-    title: 'Schwungübungen Arbeitsblätter Kostenlos | Generator für Grundschule',
-    description: 'Erstellen Sie Schwungübungen Arbeitsblätter in 3 Minuten. Kostenlose Arbeitsblätter für Grundschule und Vorschule. 3000+ Bilder, 11 Sprachen. Jetzt testen!',
+    title: 'Schwungübungen Arbeitsblätter | Generator Grundschule',
+    description: 'Schwungübungen mit 10 Linientypen für Feinmotorik erstellen. Generator mit 3000+ Bildern für Grundschule und Vorschule. PDF-Download in unter 3 Minuten.',
     keywords: 'schwungübungen, arbeitsblätter grundschule, kostenlose arbeitsblätter, mathe arbeitsblätter, vorschule arbeitsblätter, buchstaben lernen, deutsch arbeitsblätter, einmaleins, ausmalbilder, rechnen lernen',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/linien-ziehen-arbeitsblaetter',
       },

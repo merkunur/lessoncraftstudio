@@ -27,8 +27,8 @@ export const findAndCountDeContent: ProductPageContent = {
   seo: {
     slug: 'suchen-und-zaehlen-arbeitsblaetter',
     appId: 'find-and-count',
-    title: 'Suchen und Zählen Arbeitsblätter - Kostenlose Mathe-Arbeitsblätter',
-    description: 'Erstellen Sie Suchen-und-Zählen-Arbeitsblätter für Grundschule und Vorschule. Kostenlose Mathe-Arbeitsblätter mit Lösungsblatt. PDF in 3 Minuten.',
+    title: 'Suchen und Zählen Arbeitsblätter | Mathe-Generator',
+    description: 'Suchen-und-Zählen-Arbeitsblätter mit 3000+ Bildern erstellen. Spielerisch zählen lernen in Grundschule und Vorschule. Kostenloser PDF-Download in 3 Minuten.',
     keywords: 'suchen und zählen generator, arbeitsblätter grundschule, kostenlose arbeitsblätter, mathe arbeitsblätter, vorschule arbeitsblätter, rechnen lernen, ich sehe was was du nicht siehst, zählen lernen, visuelle wahrnehmung, einmaleins',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/suchen-und-zaehlen-arbeitsblaetter',
       },

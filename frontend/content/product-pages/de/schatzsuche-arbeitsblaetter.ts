@@ -29,8 +29,8 @@ export const treasureHuntDeContent: ProductPageContent = {
   seo: {
     slug: 'schatzsuche-arbeitsblaetter',
     appId: 'treasure-hunt',
-    title: 'Schatzsuche Arbeitsblätter Kostenlos | Generator für Grundschule',
-    description: 'Schatzsuche Arbeitsblätter in 3 Minuten erstellen. Richtungsübungen für Vorschule & Grundschule. 3000+ Bilder, 300 DPI Qualität. Jetzt kostenlos testen!',
+    title: 'Schatzsuche Arbeitsblätter | Generator Grundschule',
+    description: 'Schatzsuche-Arbeitsblätter mit Richtungsübungen und Leseverständnis erstellen. Generator mit 3000+ Bildern für Grundschule und Vorschule. PDF in 3 Minuten.',
     keywords: 'schatzsuche arbeitsblätter, richtungsanweisungen arbeitsblätter, arbeitsblätter grundschule, kostenlose arbeitsblätter, mathe arbeitsblätter, vorschule arbeitsblätter, einmaleins, schwungübungen, buchstaben lernen, rechnen lernen, deutsch arbeitsblätter',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/schatzsuche-arbeitsblaetter',
       },

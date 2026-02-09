@@ -29,8 +29,8 @@ export const subtractionDeContent: ProductPageContent = {
   seo: {
     slug: 'subtraktion-arbeitsblaetter',
     appId: 'subtraction',
-    title: 'Subtraktion Arbeitsblätter Kostenlos | Generator für Grundschule',
-    description: 'Erstellen Sie Subtraktion-Arbeitsblätter in 3 Minuten. Generator für Vorschule & Grundschule. Minusrechnen spielerisch lernen - kostenlos testen! Perfekt.',
+    title: 'Subtraktion Arbeitsblätter | Mathe-Generator Grundschule',
+    description: 'Subtraktion-Arbeitsblätter mit Durchstreich-Modus für greifbares Minusrechnen. Generator mit 3000+ Bildern für Grundschule und Vorschule. PDF in 3 Minuten.',
     keywords: 'subtraktion arbeitsblätter, mathe arbeitsblätter, arbeitsblätter grundschule, kostenlose arbeitsblätter, vorschule arbeitsblätter, rechnen lernen, minusrechnen, einmaleins, schwungübungen, buchstaben lernen',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/subtraktion-arbeitsblaetter',
       },

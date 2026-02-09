@@ -27,8 +27,8 @@ export const sudokuDeContent: ProductPageContent = {
   seo: {
     slug: 'kinder-sudoku-arbeitsblaetter',
     appId: 'sudoku',
-    title: 'Kinder-Sudoku Generator - Kostenloses Arbeitsblatt Grundschule',
-    description: 'Erstellen Sie 4x4 Kinder-Sudoku Arbeitsblätter Grundschule und Vorschule. Kostenlose Druckvorlagen mit Lösungsschlüssel. PDF-Download in unter 3 Minuten.',
+    title: 'Kinder-Sudoku Generator | Arbeitsblätter Grundschule',
+    description: '4x4 Kinder-Sudoku mit Bildern statt Zahlen erstellen. Generator mit Lösungsschlüssel und 3 Schwierigkeitsstufen für Grundschule und Vorschule. PDF-Download.',
     keywords: 'kinder sudoku arbeitsblätter, arbeitsblätter grundschule, kostenlose arbeitsblätter, mathe arbeitsblätter, vorschule arbeitsblätter, rechnen lernen, deutsch arbeitsblätter, einmaleins, schwungübungen, ausmalbilder',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/kinder-sudoku-arbeitsblaetter',
       },

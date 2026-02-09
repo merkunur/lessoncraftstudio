@@ -30,7 +30,7 @@ export const oddOneOutDeContent: ProductPageContent = {
     slug: 'was-passt-nicht-arbeitsblaetter',
     appId: 'odd-one-out',
     title: 'Was passt nicht Arbeitsblätter | Kostenloser Generator',
-    description: 'Erstellen Sie Was passt nicht Arbeitsblätter in unter 3 Minuten. Kostenlose Logik-Übungen mit 3000+ Bildern für Grundschule und Vorschule.',
+    description: 'Was-passt-nicht Arbeitsblätter für logisches Denken und Ausschluss-Übungen. Generator mit 3000+ Bildern für Grundschule und Vorschule. PDF in unter 3 Minuten.',
     keywords: 'was passt nicht arbeitsblätter, arbeitsblätter grundschule, kostenlose arbeitsblätter, mathe arbeitsblätter, vorschule arbeitsblätter, einmaleins, schwungübungen, buchstaben lernen, rechnen lernen, ausmalbilder',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/was-passt-nicht-arbeitsblaetter',
       },

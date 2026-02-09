@@ -27,8 +27,8 @@ export const gridMatchDeContent: ProductPageContent = {
   seo: {
     slug: 'raster-puzzle-arbeitsblaetter',
     appId: 'grid-match',
-    title: 'Raster-Puzzle Arbeitsblätter | Kostenlose Vorschul-Arbeitsblätter',
-    description: 'Erstellen Sie professionelle Raster-Puzzle-Arbeitsblätter für Grundschule und Vorschule. Räumliches Denken Generator. PDF Download in unter 3 Minuten.',
+    title: 'Raster-Puzzle Arbeitsblätter | Generator Grundschule',
+    description: 'Raster-Puzzle-Arbeitsblätter für räumliches Denken und Mustererkennung. Generator mit 3000+ Bildern für Grundschule und Vorschule. PDF in unter 3 Minuten.',
     keywords: 'raster-puzzle arbeitsblätter, arbeitsblätter grundschule, kostenlose arbeitsblätter, vorschule arbeitsblätter, mathe arbeitsblätter, räumliches denken, puzzle arbeitsblätter, schwungübungen, ausmalbilder, einmaleins',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/raster-puzzle-arbeitsblaetter',
       },

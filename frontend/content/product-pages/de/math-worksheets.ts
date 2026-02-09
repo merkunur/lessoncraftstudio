@@ -27,15 +27,15 @@ export const mathWorksheetsDeContent: ProductPageContent = {
   seo: {
     slug: 'mathe-arbeitsblaetter',
     appId: 'math-worksheet',
-    title: 'Kostenlose Mathe-Arbeitsblätter Grundschule | Mathe-Rätsel Generator',
-    description: 'Erstellen Sie kostenlose Mathe-Arbeitsblätter für Grundschule und Vorschule. Mathe-Rätsel Generator mit Bildersymbolen. PDF-Download in unter 3 Minuten.',
+    title: 'Mathe-Arbeitsblätter | Rechenaufgaben Generator Grundschule',
+    description: 'Mathe-Arbeitsblätter mit Bildersymbol-Gleichungen erstellen. Rechenaufgaben-Generator mit 3000+ Bildern für Grundschule und Vorschule. PDF in 3 Minuten.',
     keywords: 'mathe arbeitsblätter, arbeitsblätter grundschule, kostenlose arbeitsblätter, vorschule arbeitsblätter, rechnen lernen, rechnen 1 klasse, einmaleins, schwungübungen, ausmalbilder, deutsch arbeitsblätter',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/mathe-arbeitsblaetter',
       },
 
   // Hero Section - FULL text from mathe-arbeitsblätter.md paragraphs 1-4
   hero: {
-    title: 'Mathe-Rätsel Generator',
+    title: 'Mathe-Arbeitsblätter Generator',
     subtitle: 'Kostenlose Mathe-Arbeitsblätter Grundschule - Rechnen lernen Vorschule',
     description: `Erstellen Sie professionelle Mathe-Arbeitsblätter mit visuellen Rechenrätseln. Unser Generator macht Rechnen lernen zum spannenden Abenteuer für Kinder. Mit Ihrem Basis-Paket Abo erstellen Sie unbegrenzt viele kostenlose Arbeitsblätter ohne Zusatzkosten. Perfekt für Vorschul-Arbeitsblätter und Arbeitsblätter Grundschule bis zur 2. Klasse.
 

@@ -29,8 +29,8 @@ export const alphabetTrainDeContent: ProductPageContent = {
   seo: {
     slug: 'alphabet-zug-arbeitsblaetter',
     appId: 'alphabet-train',
-    title: 'Alphabet-Zug Generator | Kostenlose Arbeitsblätter Grundschule',
-    description: 'Erstellen Sie kostenlose Alphabet-Zug Arbeitsblätter in 3 Minuten. Perfekt für Buchstaben lernen in Vorschule und Grundschule. PDF-Download sofort verfügbar.',
+    title: 'Alphabet-Zug Generator | Arbeitsblätter Grundschule',
+    description: 'Alphabet-Zug Arbeitsblätter mit Buchstaben in Zugwaggons erstellen. 3000+ Bilder, 11 Sprachen. Perfekt zum Buchstaben lernen in Vorschule und Grundschule.',
     keywords: 'alphabet zug, buchstaben lernen, arbeitsblätter grundschule, vorschule arbeitsblätter, kostenlose arbeitsblätter, deutsch arbeitsblätter, schwungübungen, ausmalbilder, abc lernen, alphabet arbeitsblätter',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/alphabet-zug-arbeitsblaetter',
       },

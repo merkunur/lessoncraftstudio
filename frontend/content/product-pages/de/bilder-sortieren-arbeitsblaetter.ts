@@ -29,8 +29,8 @@ export const pictureSortDeContent: ProductPageContent = {
   seo: {
     slug: 'bilder-sortieren-arbeitsblaetter',
     appId: 'picture-sort',
-    title: 'Bilder Sortieren Arbeitsblätter Kostenlos | Sortierübungen Generator',
-    description: 'Sortierarbeitsblätter in 3 Minuten erstellen. 3000+ Bilder, 300 DPI Qualität. Perfekt für Arbeitsblätter Grundschule und Vorschule. Jetzt kostenlos testen!',
+    title: 'Bilder Sortieren Arbeitsblätter | Generator Grundschule',
+    description: 'Bilder sortieren und kategorisieren lernen mit 3000+ Bildern. Kostenloser Generator für logisches Denken in Grundschule und Vorschule. PDF in 3 Minuten.',
     keywords: 'bilder sortieren arbeitsblätter, sortierarbeitsblätter, arbeitsblätter grundschule, kostenlose arbeitsblätter, mathe arbeitsblätter, vorschule arbeitsblätter, einmaleins, schwungübungen, buchstaben lernen, rechnen lernen, ausmalbilder',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/bilder-sortieren-arbeitsblaetter',
       },

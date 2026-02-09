@@ -27,8 +27,8 @@ export const bigSmallDeContent: ProductPageContent = {
   seo: {
     slug: 'gross-klein-arbeitsblaetter',
     appId: 'big-small',
-    title: 'Groß Klein Arbeitsblätter | Kostenlose Vorschul-Arbeitsblätter',
-    description: 'Kostenlose Groß-Klein Arbeitsblätter für Grundschule & Vorschule erstellen. Größenvergleich Generator mit 3000+ Bildern. PDF sofort herunterladen.',
+    title: 'Groß-Klein Arbeitsblätter | Größenvergleich Generator',
+    description: 'Groß-Klein Arbeitsblätter für Grundschule und Vorschule erstellen. Größenvergleich-Generator mit 3000+ Bildern und Lösungsblatt. PDF-Download in 3 Minuten.',
     keywords: 'groß klein arbeitsblätter, arbeitsblätter grundschule, kostenlose arbeitsblätter, mathe arbeitsblätter, vorschule arbeitsblätter, größenvergleich, einmaleins, schwungübungen, buchstaben lernen, ausmalbilder',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/gross-klein-arbeitsblaetter',
       },

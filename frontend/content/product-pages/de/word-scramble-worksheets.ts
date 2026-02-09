@@ -27,8 +27,8 @@ export const wordScrambleDeContent: ProductPageContent = {
   seo: {
     slug: 'buchstabensalat-arbeitsblaetter',
     appId: 'word-scramble',
-    title: 'Buchstabensalat Generator | Kostenlose Arbeitsblätter Grundschule',
-    description: 'Erstellen Sie Buchstabensalat-Arbeitsblätter in 3 Minuten. Kostenlose Druckvorlagen für Grundschule und Vorschule. 3000+ Bilder, 11 Sprachen. Jetzt testen!',
+    title: 'Buchstabensalat Generator | Arbeitsblätter Grundschule',
+    description: 'Buchstabensalat-Arbeitsblätter: Buchstaben entwirren mit Bildhinweisen. Generator mit 3000+ Bildern für Grundschule und Vorschule. PDF in unter 3 Minuten.',
     keywords: 'buchstabensalat generator, arbeitsblätter grundschule, kostenlose arbeitsblätter, mathe arbeitsblätter, vorschule arbeitsblätter, buchstaben lernen, deutsch arbeitsblätter, einmaleins, schwungübungen, ausmalbilder',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/buchstabensalat-arbeitsblaetter',
       },

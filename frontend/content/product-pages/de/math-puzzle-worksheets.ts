@@ -27,8 +27,8 @@ export const mathPuzzleDeContent: ProductPageContent = {
   seo: {
     slug: 'mathe-raetsel-arbeitsblaetter',
     appId: 'math-puzzle',
-    title: 'Mathe-Rätsel Arbeitsblätter | Kostenloser Generator - LessonCraft',
-    description: 'Erstellen Sie Mathe-Rätsel Arbeitsblätter in 3 Minuten. Perfekt für Grundschule und Vorschule. 3000+ Bilder, Lösungsblätter inklusive. Jetzt kostenlos testen!',
+    title: 'Mathe-Rätsel Arbeitsblätter | Knobelaufgaben Generator',
+    description: 'Mathe-Rätsel mit Symbolen statt Zahlen lösen. Knobelaufgaben-Generator mit 3000+ Bildern und Lösungsblatt für Grundschule und Vorschule. PDF in 3 Minuten.',
     keywords: 'mathe-rätsel, mathe arbeitsblätter, arbeitsblätter grundschule, kostenlose arbeitsblätter, vorschule arbeitsblätter, rechnen lernen, rechnen 1. klasse, einmaleins, addition subtraktion, ausdrucken',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/mathe-raetsel-arbeitsblaetter',
       },

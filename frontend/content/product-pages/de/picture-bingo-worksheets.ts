@@ -27,8 +27,8 @@ export const pictureBingoDeContent: ProductPageContent = {
   seo: {
     slug: 'bilder-bingo-arbeitsblaetter',
     appId: 'bingo',
-    title: 'Bilder-Bingo Arbeitsblätter | Kostenloser Generator für Grundschule',
-    description: 'Erstellen Sie professionelle Bilder-Bingo-Karten mit unserem Generator. Kostenlose Arbeitsblätter für Vorschule und Grundschule. PDF in 3 Minuten.',
+    title: 'Bilder-Bingo Arbeitsblätter | Generator Grundschule',
+    description: 'Bilder-Bingo-Karten mit individuellen Rastern und 3000+ Bildern erstellen. Generator für Vorschule und Grundschule. Jede Karte einzigartig. PDF in 3 Minuten.',
     keywords: 'bilder bingo arbeitsblätter, arbeitsblätter grundschule, kostenlose arbeitsblätter, mathe arbeitsblätter, vorschule arbeitsblätter, buchstaben lernen, deutsch arbeitsblätter, einmaleins, schwungübungen, ausmalbilder',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/bilder-bingo-arbeitsblaetter',
       },

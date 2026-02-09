@@ -27,15 +27,15 @@ export const wordSearchDeContent: ProductPageContent = {
   seo: {
     slug: 'wortsuche-arbeitsblaetter',
     appId: 'wordsearch',
-    title: 'Wortsuche Generator | Kostenlose Arbeitsblätter Grundschule erstellen',
-    description: 'Erstellen Sie kostenlose Wortsuche-Arbeitsblätter für die Grundschule in 3 Minuten. Perfekt zum Buchstaben lernen. PDF-Download sofort. 11 Sprachen verfügbar.',
+    title: 'Wortsuche Arbeitsblätter | Suchsel Generator Grundschule',
+    description: 'Wortsuche und Suchsel-Arbeitsblätter mit 5x5 bis 20x20 Rastern erstellen. Generator mit 3000+ Bildern für Grundschule und Vorschule. PDF in 3 Minuten.',
     keywords: 'wortsuche generator, suchsel generator, arbeitsblätter grundschule, kostenlose arbeitsblätter, mathe arbeitsblätter, vorschule arbeitsblätter, buchstaben lernen, deutsch arbeitsblätter, einmaleins, schwungübungen, ausmalbilder',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/wortsuche-arbeitsblaetter',
       },
 
   // Hero Section - FULL text from wordsearch.md paragraphs 1-4
   hero: {
-    title: 'Suchsel Generator',
+    title: 'Wortsuche & Suchsel Generator',
     subtitle: 'Kostenlose Arbeitsblätter Grundschule - Buchstaben lernen und Deutsch-Arbeitsblätter',
     description: `Erstellen Sie professionelle Suchsel-Arbeitsblätter für die Grundschule mit unserem kostenlosen Generator. Perfekt für Buchstaben lernen, Deutsch-Arbeitsblätter und Vorschul-Arbeitsblätter. Der Suchsel Generator eignet sich ideal für kostenlose Arbeitsblätter in der 1. Klasse bis 3. Klasse.
 

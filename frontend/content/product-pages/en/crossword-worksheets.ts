@@ -135,7 +135,108 @@ Generate crossword puzzles in 11 languages including English, Spanish, French, G
     sectionDescription: 'Teachers ask common questions about using our crossword generator for creating kindergarten worksheets and first grade worksheets. This section answers 24 frequently asked questions covering worksheet creation, customization, commercial licensing, and technical requirements. Understanding these details helps you maximize your Full Access subscription when generating phonics worksheets, sight words worksheets, and alphabet worksheets for classroom use.',
     showMoreText: 'Show more questions',
     showLessText: 'Show less',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        question: 'How Does the Picture Crossword Generator Work?',
+        answer: 'The crossword generator creates picture-based crossword puzzles where numbered images serve as clues instead of written definitions. Students look at each picture, identify the word it represents, and fill in the crossword grid. The generator automatically places words in an interlocking grid pattern, maximizing letter intersections. This visual approach lets pre-readers and early readers participate in crossword activities without needing to read text-based clues.',
+      },
+      {
+        id: '2',
+        question: 'What Grid Size Do Crossword Worksheets Use?',
+        answer: 'The crossword generator creates puzzles on a 15x15 grid optimized for kindergarten and first grade word lengths. The algorithm places words to maximize intersections where letters cross, providing helpful hints for students solving the puzzle. Grid cells are sized large enough for young students to write letters clearly. The professional grid layout prints crisp and readable at 300 DPI resolution.',
+      },
+      {
+        id: '3',
+        question: 'How Many Words Can Fit in One Crossword Puzzle?',
+        answer: 'Each crossword puzzle typically includes 6 to 8 picture clues with their corresponding words interlocked in the grid. The generator selects words that share common letters for maximum crossing points. Fewer words with more intersections create better puzzles than many words with no connections. The algorithm balances word count with puzzle quality automatically.',
+      },
+      {
+        id: '4',
+        question: 'Do Crossword Worksheets Include Answer Keys?',
+        answer: 'Yes, every crossword worksheet generates a complete answer key showing all words filled into the grid. The answer key displays each word in its correct position with corresponding picture clue numbers. Teachers use answer keys for quick grading and student self-checking. Print the answer key separately or display it after students complete the puzzle for whole-class review.',
+      },
+      {
+        id: '5',
+        question: 'What Age Groups Benefit from Picture Crossword Worksheets?',
+        answer: 'Picture crossword worksheets serve ages 4 through 10 across kindergarten through fourth grade. Kindergarteners ages 5 to 6 solve simple puzzles with three to four letter words using picture clues. First graders practice sight words and vocabulary in standard crossword format. Second through fourth graders tackle larger puzzles with longer words and more complex intersections.',
+      },
+      {
+        id: '6',
+        question: 'Are Crossword Worksheets Suitable for Kindergarten?',
+        answer: 'Picture crossword worksheets are excellent for kindergarten because image clues eliminate the need to read written definitions. Students identify familiar objects in pictures and spell the words in the grid. Letter intersections provide built-in hints helping students figure out unfamiliar words. Start with puzzles featuring three to four letter words from kindergarten sight word lists for age-appropriate difficulty.',
+      },
+      {
+        id: '7',
+        question: 'How Do Crossword Worksheets Build Vocabulary and Spelling?',
+        answer: 'Crossword worksheets require students to spell words correctly letter by letter in grid squares. The interlocking format means one incorrect letter affects crossing words, providing immediate self-checking feedback. Students encounter vocabulary in a puzzle context that makes spelling practice engaging rather than repetitive. Research shows puzzle-based vocabulary instruction improves retention compared to traditional word list memorization.',
+      },
+      {
+        id: '8',
+        question: 'Can I Create Themed Crossword Puzzles?',
+        answer: 'Yes, select images from specific themes to create topical crossword puzzles. Generate ocean-themed crosswords during marine biology units. Create farm animal puzzles for agricultural topics. Build holiday crosswords for seasonal activities. The 3000+ image library covers dozens of themes, and you can upload your own images for completely customized puzzle content matching any curriculum unit.',
+      },
+      {
+        id: '9',
+        question: 'How Long Does It Take to Create a Crossword Worksheet?',
+        answer: 'Creating one complete crossword worksheet takes approximately 2 to 3 minutes. Select your theme images in 30 seconds. The generator builds the interlocking grid automatically in seconds. Review the puzzle layout, make any canvas edits, and download the finished worksheet. Most teachers create an entire week of crossword activities in under 15 minutes.',
+      },
+      {
+        id: '10',
+        question: 'Can I Sell Crossword Worksheets I Create?',
+        answer: 'Your Full Access subscription includes commercial licensing for selling crossword worksheets on Teachers Pay Teachers, Etsy, Amazon KDP, or your own website. Create themed crossword bundles and sell them as digital downloads without attribution or extra fees. Vocabulary-building crossword packets are consistently popular sellers in educational marketplaces.',
+      },
+      {
+        id: '11',
+        question: 'Do I Need Any Special Skills to Create Crossword Puzzles?',
+        answer: 'No skills required. Traditional crossword creation demands careful word placement and grid design expertise. Our generator handles all grid layout, word interlocking, and formatting automatically. Select images, click generate, and download a professional crossword puzzle. The algorithm ensures valid word crossings and optimal grid utilization without any manual puzzle construction.',
+      },
+      {
+        id: '12',
+        question: 'How Do I Print Crossword Worksheets?',
+        answer: 'Download crossword worksheets as PDF files optimized for home and classroom printers. Choose Letter or A4 page size. All puzzles export at 300 DPI resolution with clear grid lines and numbered picture clues. Enable grayscale mode to save colored ink while maintaining puzzle readability. Both inkjet and laser printers produce crisp, professional results.',
+      },
+      {
+        id: '13',
+        question: 'Can Crossword Worksheets Support English Language Learners?',
+        answer: 'Picture crossword worksheets are particularly valuable for English language learners because image clues bypass reading comprehension barriers. Students identify familiar objects visually and practice spelling English vocabulary words. The generator supports 11 languages, letting teachers create crosswords in students’ home languages first before transitioning to English-only puzzles. This scaffolded approach builds vocabulary confidence.',
+      },
+      {
+        id: '14',
+        question: 'How Do Crossword Worksheets Support Differentiated Instruction?',
+        answer: 'Differentiate crossword difficulty by selecting shorter or longer vocabulary words, adjusting word count, and choosing simpler or more complex image themes. Create easy puzzles with three-letter CVC words for struggling readers. Generate challenging puzzles with multisyllabic vocabulary for advanced students. Teachers produce three difficulty levels from the same theme in minutes.',
+      },
+      {
+        id: '15',
+        question: 'What Curriculum Standards Do Crossword Worksheets Address?',
+        answer: 'Crossword worksheets address Common Core ELA standards for vocabulary acquisition, spelling conventions, and word analysis. The letter-by-letter spelling requirement supports phonics and encoding standards. Picture clue identification develops vocabulary and word-meaning connections. Teachers align crossword vocabulary to specific grade-level word lists and content area terminology for targeted standards coverage.',
+      },
+      {
+        id: '16',
+        question: 'Can I Upload Custom Images for Crossword Clues?',
+        answer: 'Yes, upload your own images to create crossword puzzles with custom vocabulary. Use photos of classroom objects, science specimens, or curriculum-specific illustrations as picture clues. Assign custom word labels to uploaded images. Combine uploaded images with the 3000+ built-in library pictures on the same crossword for maximum flexibility.',
+      },
+      {
+        id: '17',
+        question: 'How Do Crossword Worksheets Compare to Word Search Worksheets?',
+        answer: 'Crossword worksheets require active spelling and word construction while word searches require visual scanning and word recognition. Crosswords build encoding skills as students write letters in sequence. Word searches build decoding skills as students identify letter patterns. Using both types together creates comprehensive vocabulary instruction covering both reading and spelling domains.',
+      },
+      {
+        id: '18',
+        question: 'Can Students Self-Check Their Crossword Answers?',
+        answer: 'The interlocking grid format provides built-in self-checking. When crossing words share the same letter in an intersection square, students verify their answers match. If a crossing letter conflicts, students know to recheck their spelling. This immediate feedback mechanism makes crosswords effective independent practice activities without constant teacher supervision.',
+      },
+      {
+        id: '19',
+        question: 'How Do Crossword Worksheets Pair with Other Activities?',
+        answer: 'Crossword worksheets pair naturally with word search puzzles and word scramble activities for comprehensive vocabulary packets. Use identical theme images across all three generators for reinforced learning. Students encounter the same vocabulary in crossword, word search, and scramble formats. This multi-modal repetition strengthens word retention and spelling accuracy significantly.',
+      },
+      {
+        id: '20',
+        question: 'Can I Create Crossword Worksheets in Different Languages?',
+        answer: 'Yes, generate crossword worksheets in 11 languages including English, Spanish, French, German, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian, and Finnish. The generator uses language-appropriate vocabulary for each selected language. Create bilingual crosswords for dual-language classrooms or foreign language instruction. Picture clues remain universal across all language versions.',
+      },
+    ]
     
   },
 

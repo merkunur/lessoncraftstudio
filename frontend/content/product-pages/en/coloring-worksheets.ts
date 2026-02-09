@@ -168,7 +168,108 @@ Downloaded coloring worksheets save to your computer's Downloads folder automati
     sectionDescription: 'Teachers and parents ask common questions about our free worksheet generator before subscribing to Core Bundle. This FAQ section answers the most frequent questions about creating free printables and worksheet for kindergarten coloring activities.',
     showMoreText: 'Show more questions',
     showLessText: 'Show less',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        question: 'What Makes This Coloring Worksheet Generator Different from Free Coloring Pages Online?',
+        answer: 'Unlike generic coloring pages found online, this generator creates fully customizable worksheets with 3000+ themed images, decorative borders, text labels, name fields, and handwriting lines. You control every element on the canvas including image placement, size, rotation, and layering. Add instructional text, combine multiple images on one page, and export at professional 300 DPI quality. Free coloring pages offer zero customization and often have low print resolution.',
+      },
+      {
+        id: '2',
+        question: 'Can I Add Text and Name Fields to Coloring Worksheets?',
+        answer: 'Yes, add custom text anywhere on your coloring worksheet. Include titles, instructions, vocabulary words, or sentence prompts above or below images. Add dedicated name fields so students write their names on every worksheet. Include date fields for portfolio organization. Insert handwriting practice lines to combine coloring with writing skills development. All text elements are fully movable and resizable on the canvas.',
+      },
+      {
+        id: '3',
+        question: 'What Decorative Borders Are Available for Coloring Pages?',
+        answer: 'The border library includes dozens of decorative frames perfect for professional-looking coloring worksheets. Choose from themed borders matching seasons, holidays, or classroom topics. Simple line borders work well for everyday worksheets. Ornate decorative borders create special occasion coloring pages. Each border frames your coloring images beautifully while maintaining clean print quality at 300 DPI resolution.',
+      },
+      {
+        id: '4',
+        question: 'How Do I Arrange Multiple Images on One Coloring Worksheet?',
+        answer: 'Drag images anywhere on the canvas using your mouse. Resize objects by pulling corner handles. Rotate images to any angle. Layer objects by bringing items forward or sending them backward. Align images to canvas edges or center them for professional layouts. Create coloring pages with one large image or arrange four to six smaller images in a grid layout. Every element snaps to alignment guides for clean positioning.',
+      },
+      {
+        id: '5',
+        question: 'Can I Upload My Own Images for Custom Coloring Pages?',
+        answer: 'Yes, upload unlimited custom images from your computer to create truly personalized coloring worksheets. Use classroom photos, student artwork, curriculum-specific illustrations, or downloaded clip art. Combine uploaded images with the 3000+ built-in themed images on the same worksheet. Uploaded images work with all canvas editing tools including resize, rotate, flip, and opacity adjustment.',
+      },
+      {
+        id: '6',
+        question: 'What Age Groups Are Coloring Worksheets Best For?',
+        answer: 'Coloring worksheets serve ages 2 through 8 across preschool through second grade. Toddlers and preschoolers ages 2 to 4 develop grip strength and color recognition with large, simple images. Kindergarteners ages 5 to 6 practice staying within lines and learning color names. First and second graders ages 6 to 8 enjoy detailed coloring pages combined with writing activities and vocabulary labels.',
+      },
+      {
+        id: '7',
+        question: 'Are Coloring Worksheets Appropriate for Kindergarten Classrooms?',
+        answer: 'Coloring worksheets are staple activities in kindergarten classrooms for developing fine motor control, color recognition, and creative expression. Select large, simple images with clear outlines for kindergarten students. Add letter or word labels below images to integrate literacy practice. Use themed coloring pages to supplement science and social studies units. Kindergarten teachers report coloring activities improve pencil grip and hand-eye coordination.',
+      },
+      {
+        id: '8',
+        question: 'How Do I Print Coloring Worksheets to Save Ink?',
+        answer: 'Enable grayscale mode before downloading to convert colorful images to black and white outlines perfect for coloring. This saves significant money on colored ink cartridges throughout the school year. Download as PDF for standard printing or JPEG for digital display. All worksheets export at 300 DPI resolution ensuring crisp outlines even in grayscale mode. Both Letter and A4 page sizes are supported.',
+      },
+      {
+        id: '9',
+        question: 'Can I Create Themed Coloring Worksheets for Holidays?',
+        answer: 'Yes, browse the 3000+ image library by themes including Christmas, Halloween, Easter, Thanksgiving, Valentine’s Day, and more seasonal topics. Combine holiday images with matching decorative borders for festive coloring pages. Create entire holiday coloring packets in minutes. Teachers prepare seasonal coloring worksheets weeks in advance and have ready-to-print activities for every holiday celebration throughout the school year.',
+      },
+      {
+        id: '10',
+        question: 'How Long Does It Take to Create One Coloring Worksheet?',
+        answer: 'Creating one customized coloring worksheet takes 2 to 5 minutes depending on complexity. Simple single-image coloring pages take under 2 minutes. Multi-image worksheets with text labels, borders, and name fields take 3 to 5 minutes. Batch creation is efficient since you can duplicate layouts and swap images quickly. Most teachers prepare a full week of coloring activities in 15 to 20 minutes.',
+      },
+      {
+        id: '11',
+        question: 'Can I Sell Coloring Pages I Create with This Generator?',
+        answer: 'Your subscription includes commercial licensing for selling coloring worksheets on Teachers Pay Teachers, Etsy, Amazon KDP, or your own website. Create themed coloring page bundles and sell them as digital downloads. No attribution or additional licensing fees required. Many sellers earn supplemental income with seasonal coloring packets, alphabet coloring books, and themed activity bundles created with the generator.',
+      },
+      {
+        id: '12',
+        question: 'Do I Need Art Skills to Create Professional Coloring Pages?',
+        answer: 'No art or design skills are needed. The generator provides 3000+ professionally illustrated images ready to use. Simply select images, arrange them on the canvas, add optional text and borders, then download. The automatic layout tools handle alignment and spacing. Teachers with no art background consistently create coloring worksheets that look as professional as commercially published coloring books.',
+      },
+      {
+        id: '13',
+        question: 'What Image Themes Are Available for Coloring Worksheets?',
+        answer: 'The library includes 3000+ images across dozens of themes: animals, vehicles, food, nature, ocean life, farm, space, dinosaurs, holidays, seasons, sports, musical instruments, household objects, and many more. Each theme contains numerous high-quality illustrations optimized for coloring activities. Browse themes visually or search by keyword to find exactly the images you need for your current lesson plans.',
+      },
+      {
+        id: '14',
+        question: 'Can Coloring Worksheets Support Fine Motor Development Goals?',
+        answer: 'Coloring worksheets directly support fine motor development by requiring controlled hand movements within defined boundaries. Occupational therapists recommend coloring activities for strengthening hand muscles, improving pencil grip, and developing bilateral coordination. Progressively smaller image details challenge students to refine their motor control over time. IEP goals for fine motor development are easily addressed through regular coloring worksheet practice.',
+      },
+      {
+        id: '15',
+        question: 'How Do Coloring Worksheets Align with Educational Standards?',
+        answer: 'Coloring worksheets support early childhood standards for fine motor development, visual-spatial awareness, and creative expression. When combined with text labels, they address ELA standards for print concepts and vocabulary development. Themed coloring pages connecting to science or social studies units support content area standards. The cross-curricular flexibility makes coloring worksheets a valuable tool for meeting multiple learning objectives simultaneously.',
+      },
+      {
+        id: '16',
+        question: 'Can I Use Coloring Worksheets for Differentiated Instruction?',
+        answer: 'Coloring worksheets support differentiation through image complexity and added activities. Provide simple, large-outline images for students developing motor control. Use detailed, multi-element images for advanced students. Add vocabulary labeling tasks for literacy integration. Include counting or pattern instructions for math connections. Teachers easily create three difficulty levels from the same theme in under 10 minutes.',
+      },
+      {
+        id: '17',
+        question: 'How Does the Opacity Feature Work for Coloring Worksheets?',
+        answer: 'The opacity slider adjusts image transparency from fully visible to nearly invisible. Set low opacity to create light traceable outlines for students who struggle with freehand coloring. Use medium opacity for watermark-style background images. Layer a translucent image behind a more visible foreground image for creative depth effects. This feature adds versatility beyond standard coloring page creation.',
+      },
+      {
+        id: '18',
+        question: 'Can I Create Coloring Worksheets in Different Languages?',
+        answer: 'Yes, the generator supports 11 languages for text labels, instructions, and interface elements. Create coloring worksheets with vocabulary words in Spanish, French, German, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian, or Finnish alongside English. Bilingual coloring pages help ESL students connect images to vocabulary in their home language while learning English terms.',
+      },
+      {
+        id: '19',
+        question: 'How Do Coloring Worksheets Pair with Other Worksheet Types?',
+        answer: 'Coloring worksheets combine naturally with writing worksheets for handwriting practice, matching worksheets for vocabulary reinforcement, and alphabet train activities for letter learning. Use the same themed images across multiple generators for cohesive learning packets. Students color an animal page, then match animal names, then trace animal vocabulary words across a unified activity set.',
+      },
+      {
+        id: '20',
+        question: 'Can Coloring Worksheets Be Used as Reward Activities?',
+        answer: 'Coloring worksheets are excellent reward activities that maintain educational value. Students who complete math or reading assignments earn themed coloring time. Create special coloring pages featuring popular themes like unicorns, dinosaurs, or superheroes as motivation. Unlike screen-based rewards, coloring worksheets develop fine motor skills and creativity. Teachers report higher task completion rates when coloring activities serve as earned incentives.',
+      },
+    ]
     
   },
 

@@ -149,7 +149,108 @@ Enable the grayscale checkbox before downloading to save ink. This converts all 
     sectionDescription: 'Teachers and parents have questions before trying new educational tools. We answer the most common questions about our Alphabet Train worksheet generator below.',
     showMoreText: 'Show more questions',
     showLessText: 'Show less',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        question: 'How Do Alphabet Train Worksheets Teach Letter Recognition?',
+        answer: 'Alphabet train worksheets present letters on individual train wagons alongside corresponding images. Each wagon displays a letter paired with a picture whose name starts with that letter, such as A with an apple or B with a butterfly. Students cut out letter blocks and paste them onto the correct train car, physically connecting letters to their sounds through hands-on manipulation. This multi-sensory approach strengthens letter-sound correspondence.',
+      },
+      {
+        id: '2',
+        question: 'What Is the Cut-and-Paste Format on Alphabet Train Worksheets?',
+        answer: 'Each alphabet train worksheet includes a train with image-labeled wagons and separate letter cutout blocks at the bottom of the page. Students cut out individual letter squares, identify which letter matches each wagon’s picture, and glue the letter onto the correct car. This hands-on activity develops fine motor skills through cutting and pasting while reinforcing letter identification and beginning sound awareness.',
+      },
+      {
+        id: '3',
+        question: 'How Many Letter Clues Can I Include Per Worksheet?',
+        answer: 'Adjust the difficulty by selecting 3 to 11 letter clues per alphabet train worksheet. Three clues work well for introducing the activity format to preschoolers. Five to six clues suit standard kindergarten practice. Eight to eleven clues challenge students ready for extended letter recognition activities. The generator automatically spaces train wagons based on your clue count for optimal page layout.',
+      },
+      {
+        id: '4',
+        question: 'Does the Alphabet Train Generator Include Answer Keys?',
+        answer: 'Yes, every alphabet train worksheet generates a complete answer key showing the correct letter matched to each wagon image. Teachers use answer keys for quick verification of student work. Print answer keys on separate pages for self-checking stations. The answer key format clearly displays which letter belongs with which picture clue for unambiguous grading.',
+      },
+      {
+        id: '5',
+        question: 'What Images Pair with Each Letter of the Alphabet?',
+        answer: 'The generator automatically pairs each letter with an image whose name starts with that letter from your selected theme. Choosing an animals theme might pair A with alligator, B with bear, and C with cat. Switching to a food theme pairs A with apple, B with banana, and C with cake. The 3000+ image library ensures appropriate letter-image pairings across all 11 supported languages.',
+      },
+      {
+        id: '6',
+        question: 'What Age Groups Benefit from Alphabet Train Worksheets?',
+        answer: 'Alphabet train worksheets serve ages 3 through 7 across preschool through first grade. Preschoolers ages 3 to 4 work with 3 to 4 letters using guided teacher support. Kindergarteners ages 5 to 6 independently complete worksheets with 5 to 8 letters. First graders ages 6 to 7 practice full alphabet sequences with 10 to 11 clues. The cut-and-paste format engages all age groups through tactile learning.',
+      },
+      {
+        id: '7',
+        question: 'Are Alphabet Train Worksheets Good for Kindergarten?',
+        answer: 'Alphabet train worksheets are excellent kindergarten activities addressing letter recognition, letter-sound correspondence, fine motor development, and following directions. The train theme appeals to kindergarten students who enjoy vehicles and transportation topics. Cut-and-paste activities are developmentally appropriate for five and six year olds building hand strength and coordination. Teachers frequently use alphabet trains during literacy centers and small group instruction.',
+      },
+      {
+        id: '8',
+        question: 'How Do Alphabet Train Activities Support Phonics?',
+        answer: 'Alphabet train worksheets directly teach initial sound identification, a core phonics skill. Students analyze each wagon image, determine its beginning sound, and match the correct letter. This process reinforces the alphabetic principle that letters represent sounds. Regular practice with alphabet trains builds automatic letter-sound associations that support decoding and early reading development.',
+      },
+      {
+        id: '9',
+        question: 'Can I Create Themed Alphabet Train Worksheets?',
+        answer: 'Yes, select from dozens of image themes for engaging alphabet train activities. Create animal alphabet trains for science connections. Build food-themed trains for nutrition units. Generate vehicle-themed worksheets for transportation topics. Each theme provides letter-appropriate image pairings. The auto-create mode instantly generates a random alphabet train from your selected theme with one click.',
+      },
+      {
+        id: '10',
+        question: 'How Long Does It Take to Create an Alphabet Train Worksheet?',
+        answer: 'Creating one alphabet train worksheet takes under 2 minutes. Select your theme and clue count. Use auto-create for instant random generation, or manually select specific letter-image pairings. The generator builds the train layout with cutout pieces automatically. Review and download in seconds. Create a full week of alphabet practice activities in under 10 minutes.',
+      },
+      {
+        id: '11',
+        question: 'Can I Sell Alphabet Train Worksheets I Create?',
+        answer: 'Your subscription includes commercial licensing for selling alphabet train worksheets on Teachers Pay Teachers, Etsy, Amazon KDP, or your own website. Themed alphabet train bundles are popular sellers for preschool and kindergarten markets. Create seasonal sets, animal alphabet collections, or progressive difficulty packs. No attribution or extra licensing fees required beyond your subscription.',
+      },
+      {
+        id: '12',
+        question: 'How Do I Print Alphabet Train Worksheets?',
+        answer: 'Download alphabet train worksheets as PDF files at 300 DPI professional print quality. Cutout pieces print with clear cutting guides for easy student use. Select Letter or A4 page size. Enable grayscale mode for ink-saving worksheets that maintain clear images. Print on standard copy paper for cutting activities, or use cardstock for sturdier letter pieces that students can manipulate before gluing.',
+      },
+      {
+        id: '13',
+        question: 'Can Alphabet Trains Help English Language Learners?',
+        answer: 'Alphabet train worksheets are valuable for English language learners building letter knowledge in English. Picture clues provide visual context for letter-sound associations without requiring English reading ability. The generator supports 11 languages, allowing teachers to create alphabet trains in students’ home language first before transitioning to English. Visual matching of images to letters is universally accessible.',
+      },
+      {
+        id: '14',
+        question: 'How Do Alphabet Trains Support Differentiated Instruction?',
+        answer: 'Differentiate alphabet train worksheets by adjusting clue count and letter selection. Provide 3-letter worksheets focusing on letters the student is currently learning. Create 6-letter worksheets for on-level kindergarten practice. Challenge advanced students with 11-letter worksheets covering more of the alphabet. Select specific letters matching individual student goals or small group instruction targets.',
+      },
+      {
+        id: '15',
+        question: 'What Curriculum Standards Do Alphabet Trains Address?',
+        answer: 'Alphabet train worksheets address Common Core ELA standards RF.K.1d for letter recognition and RF.K.3a for letter-sound correspondence. The cut-and-paste format supports fine motor development standards in early childhood frameworks. Initial sound identification aligns with phonological awareness standards. Following multi-step directions for cutting and pasting addresses listening comprehension standards.',
+      },
+      {
+        id: '16',
+        question: 'What Is the Auto-Create Mode?',
+        answer: 'Auto-create mode generates a complete alphabet train worksheet instantly with one click. The generator randomly selects letter-image pairings from your chosen theme and builds the entire train layout automatically. Use auto-create for quick worksheet generation when you need activities fast. Switch to manual mode when you want to select specific letters or particular images for targeted instruction.',
+      },
+      {
+        id: '17',
+        question: 'Can I Upload My Own Images for Alphabet Trains?',
+        answer: 'Yes, upload custom images and assign them to specific letters for personalized alphabet train worksheets. Use classroom photos starting with target letters. Upload curriculum-specific illustrations for themed alphabet activities. Combine uploaded images with the 3000+ built-in library for maximum variety. Custom images make alphabet practice personally meaningful and increase student engagement.',
+      },
+      {
+        id: '18',
+        question: 'How Do Cutting Activities Develop Fine Motor Skills?',
+        answer: 'Cutting out letter blocks requires bilateral coordination as students hold paper with one hand and manipulate scissors with the other. This activity strengthens hand muscles, improves grip control, and develops hand-eye coordination. Pasting letters into correct positions requires precise placement and spatial awareness. Occupational therapists frequently recommend cut-and-paste activities for fine motor development in early childhood.',
+      },
+      {
+        id: '19',
+        question: 'How Do Alphabet Trains Pair with Other Activities?',
+        answer: 'Alphabet train worksheets pair naturally with matching worksheets for letter-image association practice, writing worksheets for letter formation, and coloring pages for engaging activity packets. Use the same themed images across generators for cohesive literacy learning. Students match letters on the train, then trace letter formations, then color images starting with target letters.',
+      },
+      {
+        id: '20',
+        question: 'Can Alphabet Train Worksheets Assess Letter Knowledge?',
+        answer: 'Alphabet train worksheets serve as effective informal assessments for letter recognition and beginning sound awareness. Students who correctly match all letters demonstrate solid phonics foundations. Track which specific letters students struggle with to inform targeted instruction. Administer alphabet train assessments at the beginning and end of units to measure letter knowledge growth over time.',
+      },
+    ]
     
   },
 

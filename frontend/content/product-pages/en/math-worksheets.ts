@@ -137,7 +137,108 @@ Each math worksheet includes a matching answer key. Perfect for classroom use or
     sectionDescription: 'Teachers and parents ask common questions about our math worksheet generator and printable worksheets creation process. These answers explain subscription requirements, printing capabilities, design skills needed, classroom usage rights, language options, commercial licensing, customization features, appropriate age ranges, image upload process, creation time, answer keys, and subject-specific printable worksheets. Understanding these details helps you decide if our kindergarten worksheets generator fits your needs. Most teachers start creating professional addition worksheets within minutes of subscribing. The learning curve is minimal for generating first grade worksheets and other printable math worksheets.',
     showMoreText: 'Show more questions',
     showLessText: 'Show less',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        question: 'How Do Picture Math Puzzles Work?',
+        answer: 'Picture math puzzles replace numbers with images in equations. Each picture represents a hidden number that students must figure out. For example, if a cat picture plus a dog picture equals 7, and two cat pictures equal 4, students deduce that each cat equals 2 and each dog equals 3. This visual logic approach develops algebraic thinking foundations well before students encounter formal algebra.',
+      },
+      {
+        id: '2',
+        question: 'What Difficulty Levels Are Available for Math Puzzles?',
+        answer: 'The math worksheet generator offers four difficulty levels. Very Easy puzzles use two symbols with small numbers up to 10. Easy puzzles introduce three symbols with sums to 15. Medium difficulty adds subtraction operations alongside addition. Hard puzzles use four symbols with mixed operations and larger number ranges. Teachers select the level matching their students’ current mathematical reasoning ability.',
+      },
+      {
+        id: '3',
+        question: 'What Math Operations Do These Worksheets Cover?',
+        answer: 'Math puzzle worksheets support multiple operation modes. Addition-only mode suits kindergarten and early first grade students. Addition and subtraction mode challenges first and second graders with inverse operations. Mixed mode combines operations within single puzzles for advanced problem-solving practice. Each mode generates equations where picture symbols replace numbers, requiring logical deduction to solve.',
+      },
+      {
+        id: '4',
+        question: 'Do Math Puzzle Worksheets Include Answer Keys?',
+        answer: 'Yes, every math puzzle worksheet generates a complete answer key showing the numeric value each picture represents. The answer key displays the original equations with pictures replaced by their correct numbers. Teachers use answer keys for quick grading and student self-checking. Print answer keys on separate pages for efficient classroom management during math centers.',
+      },
+      {
+        id: '5',
+        question: 'What Number Range Can I Set for Math Puzzles?',
+        answer: 'Customize the number range from 0 to 20 for standard kindergarten and first grade instruction. Expand ranges up to 50 or 100 for advanced students. Smaller ranges like 0 to 5 work well for introducing the puzzle format to younger learners. The generator ensures all equations produce valid solutions within your specified range, maintaining age-appropriate difficulty throughout the worksheet.',
+      },
+      {
+        id: '6',
+        question: 'What Age Groups Benefit from Picture Math Worksheets?',
+        answer: 'Picture math worksheets serve ages 5 through 10 across kindergarten through fourth grade. Kindergarteners ages 5 to 6 solve two-symbol puzzles with sums to 10. First graders tackle three-symbol puzzles with addition and subtraction. Second and third graders work with four symbols and mixed operations. The visual puzzle format engages students who find traditional number worksheets repetitive.',
+      },
+      {
+        id: '7',
+        question: 'Are Picture Math Puzzles Appropriate for Kindergarten?',
+        answer: 'Yes, picture math puzzles at the Very Easy level work well for kindergarten students. Two-symbol puzzles with small numbers let kindergarteners practice logical thinking through familiar images. The colorful picture format appeals to young learners more than abstract number equations. Start with guided whole-class solving before assigning independent puzzle practice.',
+      },
+      {
+        id: '8',
+        question: 'How Do Math Puzzles Develop Algebraic Thinking?',
+        answer: 'Math puzzles introduce algebraic thinking by using pictures as variables. Students learn that a symbol can represent an unknown value they need to find. They practice substitution when checking if their answer works in all equations. They develop logical reasoning by using known values to find unknowns. These are the same cognitive processes used in formal algebra, built on a visual foundation accessible to young learners.',
+      },
+      {
+        id: '9',
+        question: 'Can I Create Themed Math Puzzle Worksheets?',
+        answer: 'Yes, select specific themed images for your math puzzles. Use animal pictures for science-connected math practice. Choose food images for nutrition unit integration. Select holiday themes for seasonal activities. The 3000+ image library provides diverse themes. Upload your own classroom-specific images for fully personalized math puzzles that connect to your current instructional units.',
+      },
+      {
+        id: '10',
+        question: 'How Long Does It Take to Create a Math Worksheet?',
+        answer: 'Creating one complete math puzzle worksheet takes under 3 minutes. Select your theme images in 30 seconds. Configure difficulty level and number range in 20 seconds. The generator produces the puzzle with valid solutions instantly. Review and download in under a minute. Create a full week of differentiated math puzzles in approximately 15 minutes.',
+      },
+      {
+        id: '11',
+        question: 'Can I Sell Math Worksheets on Teachers Pay Teachers?',
+        answer: 'Your subscription includes commercial licensing for selling math worksheets on Teachers Pay Teachers, Etsy, Amazon KDP, or your own website. No attribution or extra licensing fees required. Picture math puzzle worksheets are popular sellers because they offer a unique format not easily replicated by standard worksheet generators. Create themed bundles for maximum sales potential.',
+      },
+      {
+        id: '12',
+        question: 'How Do I Print Math Puzzle Worksheets?',
+        answer: 'Download math puzzle worksheets as PDF files at 300 DPI professional print quality. Select Letter or A4 page size before downloading. Enable grayscale mode to save colored ink while maintaining clear puzzle readability. Both inkjet and laser printers produce excellent results. Print worksheets and answer keys on separate pages for easy classroom distribution.',
+      },
+      {
+        id: '13',
+        question: 'Can Math Puzzles Support English Language Learners?',
+        answer: 'Picture math puzzles are ideal for English language learners because the visual format requires no English reading comprehension. Students solve puzzles using logical reasoning and number knowledge regardless of language proficiency. The generator supports 11 languages for interface and instructions. Math vocabulary develops naturally as students discuss puzzle strategies in the classroom.',
+      },
+      {
+        id: '14',
+        question: 'How Do Math Puzzles Support Differentiated Instruction?',
+        answer: 'Differentiate math puzzles by adjusting difficulty level, number range, operation type, and symbol count. Provide Very Easy two-symbol puzzles for students needing additional support. Challenge advanced students with Hard four-symbol mixed-operation puzzles. Create three versions of the same themed puzzle at different difficulty levels for flexible grouping during math centers.',
+      },
+      {
+        id: '15',
+        question: 'What Curriculum Standards Do Math Puzzles Address?',
+        answer: 'Math puzzle worksheets address Common Core standards for operations and algebraic thinking, including understanding addition and subtraction as inverse operations, solving for unknown quantities, and representing problems with symbols. The logical deduction process supports mathematical practices for reasoning abstractly and making sense of problems. These puzzles naturally align with standards emphasizing mathematical problem-solving strategies.',
+      },
+      {
+        id: '16',
+        question: 'Can Students Work on Math Puzzles Independently?',
+        answer: 'Yes, picture math puzzles work well as independent practice once students understand the format. Introduce the puzzle type through guided whole-class instruction first. Model the deduction process with two or three examples. Students then apply the strategy independently during math centers or seatwork. The built-in answer keys enable self-checking without teacher intervention.',
+      },
+      {
+        id: '17',
+        question: 'How Are Math Puzzles Different from Addition Worksheets?',
+        answer: 'Traditional addition worksheets present straightforward computation problems. Math puzzles require students to figure out what each picture represents before they can solve equations. This adds a layer of logical reasoning beyond simple calculation. Students develop problem-solving strategies and algebraic thinking rather than just practicing number facts. Both worksheet types complement each other in comprehensive math instruction.',
+      },
+      {
+        id: '18',
+        question: 'Can I Upload My Own Images for Math Puzzles?',
+        answer: 'Yes, upload unlimited custom images as puzzle symbols. Use classroom photos, curriculum-specific pictures, or student artwork as the picture variables in math equations. Combine uploaded images with the 3000+ built-in library for varied puzzle experiences. Personalized images increase student engagement and make math puzzles feel relevant to current classroom activities.',
+      },
+      {
+        id: '19',
+        question: 'How Do Math Puzzles Pair with Other Worksheet Types?',
+        answer: 'Math puzzles pair effectively with addition and subtraction worksheets for comprehensive math practice. Students first practice basic facts with computation worksheets, then apply those skills to solve picture puzzles requiring logical deduction. Combine math puzzles with pattern worksheets for visual reasoning packets. Use the same themed images across worksheet types for cohesive learning experiences.',
+      },
+      {
+        id: '20',
+        question: 'Do Math Puzzles Help Students Who Struggle with Traditional Math?',
+        answer: 'Picture math puzzles often engage students who resist traditional computation worksheets. The puzzle format transforms math practice into a mystery-solving activity. Visual learners benefit from seeing images instead of abstract numbers. The deductive reasoning approach provides an alternative entry point to mathematical thinking. Many teachers report previously reluctant math students becoming enthusiastic puzzle solvers.',
+      },
+    ]
     
   },
 

@@ -133,7 +133,108 @@ Adjust difficulty settings to create kindergarten worksheets for early learners 
     sectionDescription: 'Teachers and parents frequently ask about creating subtraction worksheets alongside other free printable worksheets including alphabet worksheets, phonics worksheets, sight words worksheets, addition worksheets, tracing worksheets, and coloring worksheets. This section answers common questions about combining different worksheet types, customization options, subscription benefits, and commercial usage. Understanding how to maximize your Full Access subscription helps create comprehensive learning materials across all subject areas. Whether you teach kindergarten or first grade, homeschool multiple children, or sell products online, these answers clarify how our platform serves your specific needs for math worksheets and literacy materials.',
     showMoreText: 'Show more questions',
     showLessText: 'Show less',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        question: 'What Exercise Modes Does the Subtraction Generator Offer?',
+        answer: 'The subtraction worksheet generator provides four exercise modes for varied practice. Cross-out mode shows image groups where students mark X on items being subtracted. Image-number format displays pictures alongside numeric equations. Find-the-missing-number mode presents equations with a blank for students to solve. Mixed mode combines all formats on one worksheet for comprehensive subtraction practice.',
+      },
+      {
+        id: '2',
+        question: 'How Does the Cross-Out Subtraction Method Work?',
+        answer: 'In cross-out mode, students see a group of images and mark X symbols on the number being subtracted. For example, 5 apples minus 2 shows five apple pictures, and students cross out two apples, then count the remaining three. This concrete visual approach helps young learners understand subtraction as “taking away” before transitioning to abstract number equations.',
+      },
+      {
+        id: '3',
+        question: 'What Number Ranges Can I Set for Subtraction Problems?',
+        answer: 'Customize the maximum number from 2 to 20 for subtraction problems. Start with a maximum of 5 for kindergarten students learning basic subtraction facts. Increase to 10 for standard first grade practice. Extend to 20 for advanced first graders and second graders mastering subtraction fluency. The generator ensures all problems produce non-negative answers within your specified range.',
+      },
+      {
+        id: '4',
+        question: 'How Many Problems Fit on One Subtraction Worksheet?',
+        answer: 'Customize the problem count from 1 to 10 exercises per worksheet. One to three problems per page work best for kindergarten students who need large images and ample writing space. Five to six problems suit standard first grade worksheets. Eight to ten problems challenge students practicing fact fluency. The generator adjusts layout and spacing automatically based on your problem count.',
+      },
+      {
+        id: '5',
+        question: 'Do Subtraction Worksheets Include Answer Keys?',
+        answer: 'Yes, every subtraction worksheet generates a complete answer key showing correct solutions for all problems. Cross-out mode answer keys show which items are marked and the remaining count. Numeric mode answer keys display completed equations. Teachers use answer keys for efficient grading. Students self-check during independent practice using separately printed answer pages.',
+      },
+      {
+        id: '6',
+        question: 'What Age Groups Benefit from Subtraction Worksheets?',
+        answer: 'Subtraction worksheets serve ages 5 through 8 across kindergarten through second grade. Kindergarteners ages 5 to 6 use cross-out mode with small numbers to 5. First graders ages 6 to 7 practice all modes with numbers to 10 or 15. Second graders ages 7 to 8 master fact fluency with numbers to 20 using mixed mode. The visual format supports concrete learners at every level.',
+      },
+      {
+        id: '7',
+        question: 'Are Subtraction Worksheets Appropriate for Kindergarten?',
+        answer: 'Subtraction worksheets are excellent for kindergarten when configured appropriately. Use cross-out mode with a maximum number of 5 and 2 to 3 problems per page. Large colorful images make subtraction concrete and engaging for five and six year olds. Kindergarten students understand taking away when they can physically see and cross out images. This builds the conceptual foundation for abstract subtraction later.',
+      },
+      {
+        id: '8',
+        question: 'How Do Visual Subtraction Worksheets Build Number Sense?',
+        answer: 'Visual subtraction worksheets develop number sense by connecting abstract operations to concrete image representations. Students count starting quantities, remove specified amounts, and count remaining items. This process builds understanding of part-whole relationships, number magnitude, and the inverse relationship between addition and subtraction. Visual learners particularly benefit from seeing subtraction as physical removal rather than symbolic manipulation.',
+      },
+      {
+        id: '9',
+        question: 'Can I Create Themed Subtraction Worksheets?',
+        answer: 'Yes, select themed images for engaging subtraction practice. Generate animal-themed worksheets during science units. Create food-themed problems for nutrition connections. Build seasonal worksheets for holiday activities. The 3000+ image library provides diverse theme options. Students engage more enthusiastically with subtraction when problems feature their favorite themes like dinosaurs, vehicles, or ocean animals.',
+      },
+      {
+        id: '10',
+        question: 'How Long Does It Take to Create a Subtraction Worksheet?',
+        answer: 'Creating one complete subtraction worksheet takes under 3 minutes. Select your theme images and exercise mode in 30 seconds. Configure number range and problem count in 20 seconds. The generator produces the complete worksheet with answer key instantly. Review and download in under a minute. Create differentiated subtraction packets for an entire week in 15 minutes.',
+      },
+      {
+        id: '11',
+        question: 'Can I Sell Subtraction Worksheets I Create?',
+        answer: 'Your subscription includes commercial licensing for selling subtraction worksheets on Teachers Pay Teachers, Etsy, Amazon KDP, or your own website. No attribution or extra licensing fees required. Create themed subtraction bundles or comprehensive math packets combining subtraction with addition worksheets. Differentiated difficulty levels increase the appeal and value of your worksheet products.',
+      },
+      {
+        id: '12',
+        question: 'How Do I Save Ink When Printing Subtraction Worksheets?',
+        answer: 'Enable grayscale mode before downloading to convert colorful images to clear black-and-white outlines. Grayscale subtraction worksheets maintain full readability while saving significant colored ink costs throughout the school year. Students can still identify and count all images clearly. The grayscale option converts colorful pictures to distinct line drawings that print crisply on any printer.',
+      },
+      {
+        id: '13',
+        question: 'Can Subtraction Worksheets Support English Language Learners?',
+        answer: 'Visual subtraction worksheets are highly effective for English language learners because image-based counting requires no English reading. Students count pictures and solve problems using mathematical reasoning regardless of language proficiency. The generator supports 11 languages for instructions and labels. Cross-out mode is particularly accessible since students interact with images rather than text.',
+      },
+      {
+        id: '14',
+        question: 'How Do Subtraction Worksheets Support Differentiated Instruction?',
+        answer: 'Differentiate subtraction worksheets by adjusting exercise mode, number range, and problem count. Provide cross-out mode with numbers to 5 for students developing conceptual understanding. Assign image-number format with numbers to 10 for on-level practice. Challenge advanced students with find-the-missing-number mode using numbers to 20. Create three difficulty versions from the same theme in minutes.',
+      },
+      {
+        id: '15',
+        question: 'What Curriculum Standards Do Subtraction Worksheets Address?',
+        answer: 'Subtraction worksheets directly address Common Core Math standards K.OA.1 through K.OA.5 for kindergarten operations and algebraic thinking, and 1.OA standards for first grade addition and subtraction. Cross-out mode supports representing subtraction with objects. Find-the-missing-number mode addresses determining unknown numbers in equations. Visual representations align with mathematical practice standards for modeling with mathematics.',
+      },
+      {
+        id: '16',
+        question: 'Can I Upload My Own Images for Subtraction Problems?',
+        answer: 'Yes, upload unlimited custom images to create personalized subtraction worksheets. Use classroom photos, curriculum illustrations, or student artwork as the counting objects in subtraction problems. The generator arranges uploaded images into properly formatted exercises with correct spacing and layout. Combine uploaded images with the 3000+ built-in library for varied practice experiences.',
+      },
+      {
+        id: '17',
+        question: 'How Does Find-the-Missing-Number Mode Challenge Students?',
+        answer: 'Find-the-missing-number mode presents subtraction equations with one blank value students must determine. Problems appear as formats like 8 minus blank equals 3, or blank minus 4 equals 2. This mode develops algebraic thinking as students work backward from known values to find unknowns. It represents a significant cognitive step beyond simple take-away subtraction and prepares students for equation solving.',
+      },
+      {
+        id: '18',
+        question: 'How Do Subtraction Worksheets Connect to Addition Practice?',
+        answer: 'Subtraction worksheets naturally complement addition worksheets by teaching inverse operations. Students learn that 5 minus 3 equals 2 relates directly to 2 plus 3 equals 5. Using the same themed images across both addition and subtraction generators reinforces this connection. Create fact family packets featuring related addition and subtraction problems for comprehensive operational fluency development.',
+      },
+      {
+        id: '19',
+        question: 'How Do Subtraction Worksheets Pair with Other Activities?',
+        answer: 'Subtraction worksheets pair effectively with addition worksheets for fact family practice, math puzzles for applied problem-solving, and pattern worksheets for mathematical reasoning development. Use the same themed images across generators for cohesive math packets. Students practice subtraction facts, then apply them in puzzle formats, then identify subtraction patterns in sequences.',
+      },
+      {
+        id: '20',
+        question: 'Can Subtraction Worksheets Be Used for Math Centers?',
+        answer: 'Subtraction worksheets are ideal math center activities. Print multiple copies of differentiated worksheets at easy, medium, and hard levels. Students self-select their challenge level or follow teacher-assigned groupings. The included answer keys enable self-checking at the center without teacher assistance. Rotate subtraction themes weekly to maintain student interest and engagement throughout the year.',
+      },
+    ]
     
   },
 

@@ -133,7 +133,108 @@ Your Core Bundle subscription includes complete access to all visual materials. 
     sectionDescription: 'Teachers ask common questions about creating matching worksheets with MatchUp Maker. Questions cover subscription requirements, printing capabilities, customization options, and commercial licensing. Answers help kindergarten teachers, first grade teachers, homeschool parents, and ESL instructors understand full platform capabilities. Learn about alphabet worksheets creation, phonics worksheets customization, math worksheets generation, and sight words worksheets downloading.',
     showMoreText: 'Show more questions',
     showLessText: 'Show less',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        question: 'What Matching Modes Does the MatchUp Maker Offer?',
+        answer: 'MatchUp Maker provides four distinct matching modes for different learning objectives. Image-to-letter mode connects pictures to their starting letter for alphabet practice. Image-to-word mode pairs pictures with vocabulary words for reading development. Image-to-image mode matches identical or related pictures for visual discrimination. Image-to-custom-word mode lets you type any word label for each image, enabling fully customized vocabulary matching activities.',
+      },
+      {
+        id: '2',
+        question: 'How Many Pairs Can I Include on a Matching Worksheet?',
+        answer: 'Matching worksheets support 4, 5, or 6 pairs per page. Four-pair worksheets work best for preschool and early kindergarten with large images and simple matching. Five-pair worksheets suit standard kindergarten instruction. Six-pair worksheets challenge first and second graders with more items to match. The generator automatically adjusts spacing and image sizes based on your pair count selection.',
+      },
+      {
+        id: '3',
+        question: 'How Does Image-to-Letter Matching Work?',
+        answer: 'In image-to-letter mode, each picture appears in the left column and its starting letter appears in the right column in randomized order. Students draw lines connecting each image to the correct initial letter. For example, a picture of a cat connects to the letter C. This mode develops letter-sound correspondence, a fundamental phonics skill for kindergarten literacy instruction.',
+      },
+      {
+        id: '4',
+        question: 'Do Matching Worksheets Include Answer Keys?',
+        answer: 'Yes, every matching worksheet generates a complete answer key showing correct pairings with connecting lines drawn between matched items. Teachers use answer keys for quick grading and students use them for self-checking during independent practice. Print answer keys on separate pages for classroom distribution or display on document cameras for whole-class review.',
+      },
+      {
+        id: '5',
+        question: 'Can I Type Custom Word Labels for Matching Activities?',
+        answer: 'Yes, image-to-custom-word mode lets you type any word for each image. Create matching worksheets using vocabulary from your current reading unit, science topic, or foreign language lesson. Match pictures to Spanish vocabulary words, content-area terminology, or student-specific sight words. This flexibility makes matching worksheets adaptable to any subject area or instructional goal.',
+      },
+      {
+        id: '6',
+        question: 'What Age Groups Benefit from Matching Worksheets?',
+        answer: 'Matching worksheets serve ages 3 through 8 across preschool through second grade. Preschoolers ages 3 to 4 match identical pictures for visual discrimination practice. Kindergarteners ages 5 to 6 use image-to-letter mode for phonics development. First graders match images to vocabulary words for reading practice. Second graders tackle custom-word matching with content-area vocabulary and longer words.',
+      },
+      {
+        id: '7',
+        question: 'Are Matching Worksheets Good for Kindergarten?',
+        answer: 'Matching worksheets are essential kindergarten activities for developing visual discrimination, letter recognition, and vocabulary skills. The image-to-letter mode directly supports kindergarten phonics standards. Four-pair worksheets with large images match kindergarten fine motor capabilities. Teachers use matching worksheets for literacy centers, morning work, and assessment of letter-sound knowledge.',
+      },
+      {
+        id: '8',
+        question: 'How Do Matching Worksheets Support Phonics Instruction?',
+        answer: 'Image-to-letter matching directly teaches initial sound identification. Students analyze each picture, determine the beginning sound, and connect it to the correct letter. This process reinforces phonemic awareness and letter-sound correspondence simultaneously. Create matching worksheets targeting specific letters your class is studying for focused phonics practice aligned with your instructional sequence.',
+      },
+      {
+        id: '9',
+        question: 'Can I Create Themed Matching Worksheets?',
+        answer: 'Yes, select images from specific themes to create topical matching activities. Generate ocean-themed matching worksheets during marine biology units. Create food-themed activities for nutrition lessons. Build holiday matching worksheets for seasonal celebrations. The 3000+ image library covers dozens of themes, and uploaded images expand customization further.',
+      },
+      {
+        id: '10',
+        question: 'How Long Does It Take to Create a Matching Worksheet?',
+        answer: 'Creating one matching worksheet takes under 2 minutes. Select your matching mode and pair count. Choose themed images or upload your own. The generator arranges items automatically with randomized right-column ordering. Review the layout, edit on the canvas if desired, and download. Prepare a full week of matching activities in under 10 minutes.',
+      },
+      {
+        id: '11',
+        question: 'Can I Sell Matching Worksheets I Create?',
+        answer: 'Your subscription includes commercial licensing for selling matching worksheets on Teachers Pay Teachers, Etsy, Amazon KDP, or your own website. Create themed matching bundles for popular topics. No attribution or extra licensing fees required. Matching worksheets sell well as part of comprehensive literacy or vocabulary activity packets.',
+      },
+      {
+        id: '12',
+        question: 'How Do I Print Matching Worksheets?',
+        answer: 'Download matching worksheets as PDF files at 300 DPI professional print quality. Select Letter or A4 page size. Enable grayscale mode to print clear black-and-white worksheets that save colored ink. Matching lines remain bold and easy for students to draw. Both inkjet and laser printers produce clean results suitable for classroom distribution.',
+      },
+      {
+        id: '13',
+        question: 'Can Matching Worksheets Help English Language Learners?',
+        answer: 'Matching worksheets are highly effective for English language learners. Image-to-word mode builds English vocabulary through visual associations. Create bilingual matching activities using custom-word mode with words in students’ home language and English. The generator supports 11 languages for interface elements. Visual matching requires minimal English reading, making these worksheets accessible for all proficiency levels.',
+      },
+      {
+        id: '14',
+        question: 'How Do Matching Worksheets Support Differentiated Instruction?',
+        answer: 'Differentiate matching worksheets by adjusting pair count, matching mode, and vocabulary complexity. Provide four-pair image-to-image worksheets for students needing visual discrimination practice. Create six-pair image-to-word worksheets with challenging vocabulary for advanced readers. Use custom-word mode to personalize vocabulary for individual student goals or IEP targets.',
+      },
+      {
+        id: '15',
+        question: 'What Curriculum Standards Do Matching Worksheets Address?',
+        answer: 'Matching worksheets address Common Core ELA standards for letter recognition, letter-sound relationships, vocabulary acquisition, and print concepts. Image-to-letter mode directly supports RF.K.3 for letter-sound correspondence. Image-to-word mode supports vocabulary development standards. The visual discrimination component addresses early childhood readiness standards for cognitive development.',
+      },
+      {
+        id: '16',
+        question: 'Can I Upload Custom Images for Matching Activities?',
+        answer: 'Yes, upload unlimited custom images for personalized matching worksheets. Use classroom photos, curriculum illustrations, or student artwork. Assign custom word labels to uploaded images using the custom-word matching mode. Combine uploaded images with the 3000+ built-in library on the same worksheet. Personalized matching activities increase student engagement significantly.',
+      },
+      {
+        id: '17',
+        question: 'How Are Name and Date Fields Used on Matching Worksheets?',
+        answer: 'Enable name and date fields to add student identification lines at the top of each matching worksheet. Name fields help organize completed work for portfolio assessment. Date fields track when activities were completed for progress monitoring. Item numbering can also be enabled for easier verbal instruction and grading reference during classroom use.',
+      },
+      {
+        id: '18',
+        question: 'Can Matching Worksheets Be Used for Assessment?',
+        answer: 'Matching worksheets serve as effective informal assessments for letter recognition, vocabulary knowledge, and visual discrimination skills. Administer identical matching worksheets at the beginning and end of instructional units to measure growth. Image-to-letter matching directly assesses phonics knowledge. Custom-word matching tests vocabulary retention. Collect and score worksheets quickly using the provided answer keys.',
+      },
+      {
+        id: '19',
+        question: 'How Do Matching Worksheets Pair with Other Activities?',
+        answer: 'Matching worksheets pair naturally with alphabet train activities for letter learning, word search puzzles for vocabulary reinforcement, and coloring pages for engaging activity packets. Use the same themed images across generators for cohesive learning. Students match animal pictures to words, then find those words in a word search, creating multi-modal vocabulary practice.',
+      },
+      {
+        id: '20',
+        question: 'Can Matching Worksheets Support Special Education Goals?',
+        answer: 'Matching worksheets support various special education goals including visual discrimination, letter identification, vocabulary development, and fine motor skills. The line-drawing activity develops hand control. Adjustable pair counts accommodate different attention spans. Image-based matching is accessible for students with reading difficulties. IEP teams frequently include matching activities in goal-aligned instructional plans.',
+      },
+    ]
     
   },
 

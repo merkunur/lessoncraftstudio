@@ -137,7 +137,108 @@ This sudoku worksheet generator is perfect for kindergarten teachers, first grad
     sectionDescription: 'Teachers and parents ask common questions about visual sudoku puzzles before trying the generator. These answers provide clear, honest information about subscription requirements, printing options, difficulty levels, and customization capabilities. Understanding these details helps you decide if this sudoku generator meets your classroom or homeschool needs. All answers based on actual app features, not marketing promises.',
     showMoreText: 'Show more questions',
     showLessText: 'Show less',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        question: 'How Do Picture Sudoku Puzzles Work for Kids?',
+        answer: 'Picture sudoku replaces numbers with colorful images in a simplified 4x4 grid. Each row and column must contain all four different pictures exactly once. Students analyze which images are missing from each row and column, then place the correct picture in empty cells. This visual format makes logic puzzle concepts accessible to children who have not yet learned number sudoku.',
+      },
+      {
+        id: '2',
+        question: 'What Grid Size Do Kids Sudoku Worksheets Use?',
+        answer: 'Kids sudoku worksheets use a 4x4 grid with four unique images, much simpler than the standard 9x9 number sudoku. The smaller grid is perfectly sized for kindergarten and first grade cognitive development. Students manage just four different symbols across four rows and four columns, keeping the logical challenge age-appropriate while still developing reasoning skills.',
+      },
+      {
+        id: '3',
+        question: 'What Difficulty Levels Are Available?',
+        answer: 'Three difficulty levels control how many cells start empty. Easy puzzles have 4 blank cells, providing many clue images to work from. Medium puzzles have 6 blank cells for moderate challenge. Hard puzzles have 8 blank cells out of 16 total, requiring more advanced deductive reasoning. All puzzles are verified to have exactly one unique solution regardless of difficulty level.',
+      },
+      {
+        id: '4',
+        question: 'How Does the Cut-and-Paste Format Work?',
+        answer: 'Each sudoku worksheet includes cutout image pieces at the bottom of the page. Students cut out the picture squares and glue them into the correct empty cells on the grid. This hands-on format develops fine motor skills alongside logical thinking. The tactile manipulation of pieces engages kinesthetic learners who benefit from physical interaction with puzzle materials.',
+      },
+      {
+        id: '5',
+        question: 'Do Sudoku Worksheets Include Answer Keys?',
+        answer: 'Yes, every sudoku worksheet generates a complete answer key showing all four images in their correct grid positions. Teachers use answer keys for quick verification of student solutions. Print answer keys on separate pages or display them on a document camera for self-checking. The algorithm guarantees each puzzle has exactly one valid solution matching the provided answer key.',
+      },
+      {
+        id: '6',
+        question: 'What Age Groups Benefit from Picture Sudoku?',
+        answer: 'Picture sudoku worksheets serve ages 4 through 8 across preschool through second grade. Preschoolers ages 4 to 5 solve easy puzzles with guided instruction. Kindergarteners ages 5 to 6 work independently on easy and medium puzzles. First graders tackle medium and hard puzzles confidently. Second graders master hard puzzles and begin transitioning to 6x6 or number-based sudoku formats.',
+      },
+      {
+        id: '7',
+        question: 'Are Picture Sudoku Puzzles Appropriate for Kindergarten?',
+        answer: 'Picture sudoku is an excellent kindergarten activity that develops logical reasoning, visual discrimination, and spatial awareness. The 4x4 grid with familiar images is cognitively appropriate for five and six year olds. Start with easy puzzles containing only 4 blank cells. The cut-and-paste format adds fine motor practice that kindergarten teachers value. Most kindergarteners can solve easy puzzles independently after two or three guided examples.',
+      },
+      {
+        id: '8',
+        question: 'How Do Sudoku Puzzles Develop Critical Thinking?',
+        answer: 'Sudoku puzzles require deductive reasoning: students eliminate impossible options and identify the only valid placement for each image. This logical elimination process develops executive function skills including working memory, cognitive flexibility, and inhibitory control. Students practice systematic problem-solving strategies transferable to math, science, and everyday decision-making.',
+      },
+      {
+        id: '9',
+        question: 'Can I Create Themed Sudoku Puzzles?',
+        answer: 'Yes, select four images from any theme to create topical sudoku puzzles. Generate animal sudoku for science units. Create food-themed puzzles for nutrition lessons. Build holiday sudoku for seasonal activities. The 3000+ image library provides diverse theme options. Upload your own images for fully customized puzzles matching any classroom topic or student interest.',
+      },
+      {
+        id: '10',
+        question: 'How Long Does It Take to Create a Sudoku Worksheet?',
+        answer: 'Creating one sudoku worksheet takes under 2 minutes. Select four themed images and choose your difficulty level. The generator builds a valid puzzle with a verified unique solution instantly. Review the layout and download. Create a full week of progressively harder sudoku puzzles in under 10 minutes.',
+      },
+      {
+        id: '11',
+        question: 'Can I Sell Sudoku Worksheets I Create?',
+        answer: 'Your Full Access subscription includes commercial licensing for selling sudoku worksheets on Teachers Pay Teachers, Etsy, Amazon KDP, or your own website. Picture sudoku puzzles for young children fill a niche market with high demand and limited competition. Create themed puzzle packs and difficulty-leveled bundles for maximum sales appeal.',
+      },
+      {
+        id: '12',
+        question: 'How Do I Print Sudoku Worksheets?',
+        answer: 'Download sudoku worksheets as PDF files at 300 DPI professional print quality. The cut-and-paste format prints with clear cutting guides around image pieces. Select Letter or A4 page size. Enable grayscale mode for ink-saving black-and-white puzzles. Students can still identify images clearly in grayscale. Both inkjet and laser printers produce clean grid lines and recognizable images.',
+      },
+      {
+        id: '13',
+        question: 'Can Picture Sudoku Help English Language Learners?',
+        answer: 'Picture sudoku is ideal for English language learners because the puzzle requires zero language skills. Students solve puzzles using pure visual logic without reading any text. The image-based format creates an equitable activity where all students participate regardless of English proficiency. Teachers use sudoku as accessible warm-up activities while ELL students build English vocabulary through other activities.',
+      },
+      {
+        id: '14',
+        question: 'How Do Sudoku Worksheets Support Differentiated Instruction?',
+        answer: 'Differentiate sudoku by adjusting difficulty levels. Provide easy puzzles with 4 blanks for students developing logical reasoning. Assign medium puzzles with 6 blanks for on-level students. Challenge advanced students with hard puzzles containing 8 blanks. All three levels use the same images, allowing grouping without visible ability labeling. Students progress through levels at their own pace.',
+      },
+      {
+        id: '15',
+        question: 'What Educational Standards Do Sudoku Puzzles Support?',
+        answer: 'Sudoku puzzles support mathematical practice standards for reasoning abstractly, constructing viable arguments, and making sense of problems. The logical elimination process addresses critical thinking standards across curricula. Spatial reasoning and pattern recognition align with geometry readiness standards. The cut-and-paste format supports fine motor development standards in early childhood education frameworks.',
+      },
+      {
+        id: '16',
+        question: 'Can Students Solve Sudoku Puzzles Independently?',
+        answer: 'Yes, after guided introduction with two or three examples, most kindergarten and first grade students solve easy sudoku puzzles independently. Model the elimination strategy explicitly: check what images are already in each row and column, find the missing one. Students internalize this systematic approach quickly. Independent sudoku solving is an excellent math center activity requiring minimal teacher supervision.',
+      },
+      {
+        id: '17',
+        question: 'How Are Picture Sudoku Puzzles Verified for Solvability?',
+        answer: 'Every generated sudoku puzzle passes through a verification algorithm confirming exactly one unique solution exists. The generator never produces unsolvable or multi-solution puzzles. This mathematical guarantee means students who follow correct logic will always arrive at the single correct answer. Teachers can trust that any difficulty a student encounters reflects reasoning challenges, not puzzle defects.',
+      },
+      {
+        id: '18',
+        question: 'Can I Upload My Own Images for Sudoku Puzzles?',
+        answer: 'Yes, upload four custom images to create personalized sudoku puzzles. Use classroom photos, student drawings, or curriculum-specific pictures. The generator arranges your uploaded images into valid 4x4 puzzles with verified unique solutions. Combine uploaded images with library images for varied puzzle experiences throughout the week.',
+      },
+      {
+        id: '19',
+        question: 'How Do Sudoku Worksheets Pair with Other Activities?',
+        answer: 'Sudoku worksheets pair well with pattern worksheets for visual reasoning practice and math puzzles for logical thinking development. Use the same themed images across sudoku, matching, and coloring generators for cohesive activity packets. Students solve a sudoku puzzle, then match the same images to vocabulary words, creating cross-curricular connections between logic and literacy.',
+      },
+      {
+        id: '20',
+        question: 'Do Sudoku Puzzles Benefit Students with Different Learning Styles?',
+        answer: 'Picture sudoku engages multiple learning styles simultaneously. Visual learners analyze image patterns in the grid. Kinesthetic learners cut and paste pieces physically. Logical learners apply deductive elimination strategies. The combination of hands-on manipulation and visual reasoning makes sudoku accessible and engaging across diverse learning preferences in inclusive classrooms.',
+      },
+    ]
     
   },
 

@@ -147,7 +147,108 @@ Enable grayscale mode before downloading to save printer ink. The checkbox conve
     sectionDescription: 'Everything you need to know about our word search generator for free worksheet creation and vocabulary worksheets.',
     showMoreText: 'Show more questions',
     showLessText: 'Show less',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        question: 'How Does the Word Search Generator Create Puzzles from Pictures?',
+        answer: 'The word search generator converts picture clues into hidden word puzzles automatically. Select a theme like animals or food, and the app identifies each image, places the matching word into the grid, and scrambles surrounding letters. Students look at picture clues beside the grid and search for the corresponding words. This picture-based approach helps pre-readers and ESL students participate in word search activities without needing to read a word list first.',
+      },
+      {
+        id: '2',
+        question: 'What Grid Sizes Are Available for Word Search Worksheets?',
+        answer: 'Word search worksheets support grid sizes from 5x5 up to 30x30 squares. Smaller grids like 5x5 or 8x8 work best for kindergarten students learning their first sight words. Medium grids of 10x10 to 15x15 suit first and second grade vocabulary practice. Larger grids up to 30x30 challenge older students with extensive word lists. Choose the grid size that matches your students’ reading level and attention span.',
+      },
+      {
+        id: '3',
+        question: 'Can Word Search Puzzles Include Diagonal and Reverse Words?',
+        answer: 'Yes, you control word direction settings for every word search puzzle. Enable horizontal, vertical, diagonal, and reverse word placement independently. Kindergarten worksheets typically use only horizontal and vertical words for simplicity. First grade worksheets add diagonal placement for increased difficulty. Advanced puzzles enable reverse words where students search backwards, building stronger visual scanning skills.',
+      },
+      {
+        id: '4',
+        question: 'How Many Words Fit in One Word Search Worksheet?',
+        answer: 'The number of words depends on your grid size and word length. A 10x10 grid comfortably holds 8 to 12 words. A 15x15 grid fits 12 to 20 words. Larger grids accommodate even more vocabulary terms. The generator optimizes word placement automatically to avoid overlaps while maximizing the number of intersections between words, creating a professional-quality puzzle every time.',
+      },
+      {
+        id: '5',
+        question: 'Does the Word Search Generator Include Answer Keys?',
+        answer: 'Every word search worksheet generates a complete answer key automatically. The answer key highlights all hidden words with color-coded outlines showing exact positions and directions. Teachers use answer keys for quick grading during literacy centers. Print the answer key separately or display it on a document camera for whole-class review after independent work time.',
+      },
+      {
+        id: '6',
+        question: 'What Age Groups Benefit Most from Word Search Worksheets?',
+        answer: 'Word search worksheets serve ages 4 through 12 across multiple skill levels. Preschool and kindergarten students ages 4 to 6 use small grids with simple three-letter words and picture clues. First and second graders ages 6 to 8 practice sight words and vocabulary in medium grids. Third through fifth graders ages 8 to 12 tackle challenging puzzles with academic vocabulary and diagonal word placement.',
+      },
+      {
+        id: '7',
+        question: 'Are Word Search Worksheets Appropriate for Kindergarten Students?',
+        answer: 'Word search worksheets are excellent for kindergarten when configured with appropriate settings. Use 5x5 or 8x8 grids with horizontal-only word placement. Select three to five letter words matching kindergarten sight word lists. The picture clue format lets kindergarteners identify words without reading the word list independently. Teachers report that picture-based word searches are among the most engaging literacy center activities for kindergarten classrooms.',
+      },
+      {
+        id: '8',
+        question: 'Can Word Search Worksheets Teach Vocabulary in Multiple Languages?',
+        answer: 'The word search generator creates puzzles in 11 languages including English, Spanish, French, German, and seven more. Switch languages to generate word search worksheets using vocabulary from any supported language. The picture clues remain universal while the hidden words change to match the selected language. ESL teachers use multilingual word searches to build vocabulary bridges between students’ home languages and English.',
+      },
+      {
+        id: '9',
+        question: 'How Do I Print Word Search Worksheets at Home?',
+        answer: 'Download your word search worksheet as a high-quality PDF file optimized for standard home and classroom printers. Select Letter or A4 page size before downloading. All worksheets export at 300 DPI resolution ensuring crisp, readable text and clear grid lines. Enable grayscale mode before downloading to save colored ink while maintaining puzzle quality. Both inkjet and laser printers produce excellent results.',
+      },
+      {
+        id: '10',
+        question: 'Can I Upload My Own Images for Custom Word Search Puzzles?',
+        answer: 'Yes, upload unlimited custom images to create personalized word search puzzles. Use classroom photos, curriculum-specific pictures, or student artwork as puzzle clues. The generator creates hidden words based on labels you assign to uploaded images. Combine uploaded images with the built-in library of 3000+ themed pictures on the same worksheet for maximum customization.',
+      },
+      {
+        id: '11',
+        question: 'How Long Does It Take to Create a Word Search Worksheet?',
+        answer: 'Creating one complete word search worksheet takes approximately 2 to 3 minutes. Select your theme and images in 30 seconds. Configure grid size and word directions in 20 seconds. The generator builds the complete puzzle instantly. Review, edit if desired, and download in under a minute. Most teachers create a full week of word search activities in 15 to 20 minutes.',
+      },
+      {
+        id: '12',
+        question: 'Can I Sell Word Search Worksheets on Teachers Pay Teachers?',
+        answer: 'Yes, your subscription includes commercial licensing for selling word search worksheets on Teachers Pay Teachers, Etsy, Amazon KDP, or your own website. No attribution required and no extra licensing fees. Create classroom-quality word searches and sell them as digital downloads. Many teachers earn supplemental income selling themed word search packets for holidays, seasons, and curriculum units.',
+      },
+      {
+        id: '13',
+        question: 'Do I Need Design Skills to Make Word Search Puzzles?',
+        answer: 'No design skills are required. The generator handles all grid layout, word placement, letter scrambling, and formatting automatically. Select images, choose settings, and click generate. Your professional word search worksheet appears ready to download and print. The canvas editor lets you adjust text, borders, and layout if desired, but the default output works perfectly without any editing.',
+      },
+      {
+        id: '14',
+        question: 'Is the Word Search Generator Really Free?',
+        answer: 'The Word Search generator is available with the free tier and includes a watermark on downloads. To remove the watermark and access all features, a Core Bundle subscription costs $15 per month or $144 per year. Your subscription covers unlimited word search creation with no per-worksheet fees. Compare this to platforms charging $2 to $5 per individual worksheet download.',
+      },
+      {
+        id: '15',
+        question: 'How Do Word Search Worksheets Support Curriculum Standards?',
+        answer: 'Word search worksheets align with Common Core ELA standards for vocabulary acquisition, spelling patterns, and word recognition. Teachers target specific vocabulary from reading units, science topics, or social studies themes. The picture clue format supports visual learners and English language learners meeting language development standards. Customizable word lists let teachers match puzzles precisely to grade-level curriculum requirements.',
+      },
+      {
+        id: '16',
+        question: 'Can I Use Word Search Worksheets for Differentiated Instruction?',
+        answer: 'Word search worksheets support differentiation through adjustable grid sizes, word count, direction complexity, and vocabulary difficulty. Create easier puzzles with 5x5 grids and horizontal-only words for struggling readers. Generate challenging puzzles with 20x20 grids, diagonal placement, and advanced vocabulary for gifted students. Teachers create three difficulty levels from the same theme in under 10 minutes.',
+      },
+      {
+        id: '17',
+        question: 'What Themes Are Available for Word Search Worksheets?',
+        answer: 'The image library includes 3000+ pictures organized into dozens of themes including animals, vehicles, food, nature, seasons, holidays, sports, ocean life, farm animals, space, dinosaurs, and many more. Each theme contains numerous images suitable for word search creation. Browse themes visually or search by keyword to find the perfect images for your current teaching unit.',
+      },
+      {
+        id: '18',
+        question: 'Can I Assess Student Progress with Word Search Worksheets?',
+        answer: 'Word search worksheets serve as informal vocabulary assessments when students circle found words and match them to picture clues. Track which words students find quickly versus those requiring more search time. Use timed word searches to measure sight word automaticity. Compare beginning-of-year and end-of-year performance on identical word search formats to document vocabulary growth.',
+      },
+      {
+        id: '19',
+        question: 'How Do Word Search Worksheets Pair with Other Worksheet Types?',
+        answer: 'Word search worksheets combine naturally with crossword puzzles and word scramble activities for comprehensive vocabulary packets. Use the same theme images across all three generators for reinforced learning. Students encounter vocabulary words in different formats, strengthening retention. Create weekly literacy packets featuring a word search, crossword, and word scramble all using the same vocabulary set.',
+      },
+      {
+        id: '20',
+        question: 'Can I Create Word Search Worksheets for Spelling Practice?',
+        answer: 'Word search worksheets are excellent spelling practice tools because students must recognize exact letter sequences to find hidden words. The visual scanning required reinforces correct spelling patterns and letter order. Create weekly spelling word searches matching your class spelling list by uploading images for each vocabulary word. Students who find words in puzzles demonstrate stronger spelling retention on subsequent assessments.',
+      },
+    ]
     
   },
 

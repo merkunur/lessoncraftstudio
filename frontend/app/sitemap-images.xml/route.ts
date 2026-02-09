@@ -6,8 +6,15 @@ import { getLocalizedDisplayName } from '@/lib/homepage-samples-data';
 import { getBlogSampleApps } from '@/lib/blog-topic-clusters';
 import { discoverSamplesFromFilesystem, normalizeAppIdForSamples } from '@/lib/sample-utils';
 import { generateSchemaDescription } from '@/lib/blog-schema-utils';
+import { crossLocaleSlugs } from '@/config/blog-cross-locale-redirects';
 import fs from 'fs/promises';
 import path from 'path';
+
+// Build slug → nativeLocale map to exclude entries that would 301 redirect
+const slugToNativeLocale = new Map<string, string>();
+for (const { slug, nativeLocale } of crossLocaleSlugs) {
+  slugToNativeLocale.set(slug, nativeLocale);
+}
 
 export const revalidate = 1800; // 30 minutes ISR
 
@@ -482,9 +489,13 @@ export async function GET() {
 
       for (const locale of supportedLocales) {
         const translation = translations[locale];
-        if (!translation?.slug && !translation?.title) continue;
+        if (!translation?.title || !translation?.content) continue;
 
         const localeSlug = translation.slug || post.slug;
+
+        // Skip if this slug's native locale differs — middleware would 301 redirect
+        const nativeLocale = slugToNativeLocale.get(localeSlug);
+        if (nativeLocale && nativeLocale !== locale) continue;
         const blogPageUrl = `${baseUrl}/${locale}/blog/${localeSlug}`;
         const licenseUrl = `${baseUrl}/${locale}/terms`;
 

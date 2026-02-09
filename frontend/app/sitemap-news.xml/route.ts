@@ -8,6 +8,13 @@
 
 import { prisma } from '@/lib/prisma';
 import { SUPPORTED_LOCALES } from '@/config/locales';
+import { crossLocaleSlugs } from '@/config/blog-cross-locale-redirects';
+
+// Build slug → nativeLocale map to exclude entries that would 301 redirect
+const slugToNativeLocale = new Map<string, string>();
+for (const { slug, nativeLocale } of crossLocaleSlugs) {
+  slugToNativeLocale.set(slug, nativeLocale);
+}
 
 export const revalidate = 3600; // Revalidate every hour
 
@@ -80,6 +87,10 @@ export async function GET() {
         if (!translation?.title || !translation?.content) continue;
 
         const localeSlug = translation.slug || post.slug;
+
+        // Skip if this slug's native locale differs — middleware would 301 redirect
+        const nativeLocale = slugToNativeLocale.get(localeSlug);
+        if (nativeLocale && nativeLocale !== locale) continue;
         const postUrl = `${baseUrl}/${locale}/blog/${localeSlug}`;
         const language = localeToLanguage[locale] || 'en';
         const publicationDate = post.createdAt.toISOString();

@@ -73,6 +73,7 @@ export async function generateMetadata({ params }: { params: { locale: string } 
     const hreflangCode = getHreflangCode(lang);
     hreflangAlternates[hreflangCode] = `${baseUrl}/${lang}/pricing`;
   }
+  hreflangAlternates['x-default'] = `${baseUrl}/en/pricing`;
 
   return {
     title: meta.title,

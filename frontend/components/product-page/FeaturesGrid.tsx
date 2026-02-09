@@ -133,9 +133,9 @@ function FeatureCard({
           <AnimatePresence mode="wait">
             <motion.p
               key={isExpanded ? 'expanded' : 'collapsed'}
-              initial={{ opacity: 0 }}
+              initial={hasMounted ? { opacity: 0 } : false}
               animate={{ opacity: 1 }}
-              exit={{ opacity: 0 }}
+              exit={hasMounted ? { opacity: 0 } : undefined}
               transition={{ duration: 0.15 }}
               className="text-stone-600 leading-relaxed"
             >

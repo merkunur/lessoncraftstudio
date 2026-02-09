@@ -3,6 +3,7 @@
 
 User-agent: *
 Allow: /
+Allow: /samples/
 Disallow: /admin/
 Disallow: /dashboard/
 Disallow: /api/
@@ -10,6 +11,13 @@ Disallow: /auth/
 Disallow: /_next/
 Disallow: /testing/
 Disallow: /uploads/
+
+# Allow image crawlers explicit access to worksheet samples
+User-agent: Googlebot-Image
+Allow: /samples/
+Allow: /opengraph-image.png
+Disallow: /api/
+Disallow: /_next/
 
 # Block AI training crawlers
 User-agent: GPTBot

@@ -383,7 +383,13 @@ export async function generateMetadata({ params, searchParams }: CategoryPagePro
       type: 'website',
       url: canonicalUrl,
       siteName: 'LessonCraftStudio',
-      locale: ogLocaleMap[locale] || locale
+      locale: ogLocaleMap[locale] || locale,
+      alternateLocale: SUPPORTED_LOCALES.filter(l => l !== locale).map(l => ogLocaleMap[l] || l),
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: pageTitle,
+      description: categoryMeta.description,
     },
     other: otherLinks
   };

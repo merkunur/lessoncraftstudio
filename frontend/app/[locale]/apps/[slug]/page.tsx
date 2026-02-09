@@ -5,6 +5,7 @@ import ProductPageClient from '@/components/product-page/ProductPageClient';
 import RelatedBlogPosts from '@/components/product-page/RelatedBlogPosts';
 import { getContentBySlug, getAllStaticParams, getAlternateLanguageUrls } from '@/config/product-page-content';
 import { generateAppProductSchemas, generateAllProductPageSchemas, AppProductData, ogLocaleMap, localeToLanguageFolder } from '@/lib/schema-generator';
+import { SUPPORTED_LOCALES } from '@/config/locales';
 import { getSampleSeoMetadataMap, SampleSeoMetadata } from '@/lib/sample-seo';
 import { getRelatedBlogPostsForProduct } from '@/lib/blog-data';
 import { getKeywordsForApp } from '@/lib/internal-linking';
@@ -327,6 +328,8 @@ function SchemaScripts({
       height: 3508,
       grade: dbMeta?.grade || undefined,
       keywords: dbMeta?.keywords || undefined,
+      uploadDate: dbMeta?.createdAt ? dbMeta.createdAt.toISOString().split('T')[0] : undefined,
+      dateModified: dbMeta?.updatedAt ? dbMeta.updatedAt.toISOString().split('T')[0] : undefined,
     };
   });
 
@@ -466,6 +469,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
         siteName: 'LessonCraftStudio',
         type: 'website',
         locale: ogLocale,
+        alternateLocale: SUPPORTED_LOCALES.filter(l => l !== params.locale).map(l => ogLocaleMap[l] || l),
         images: ogImages,
       },
       twitter: {

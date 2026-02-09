@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { cache } from 'react';
 import { prisma } from '@/lib/prisma';
 import { generateBlogSchemas, ogLocaleMap, hreflangMap, getHreflangCode, generateImageGallerySchema } from '@/lib/schema-generator';
+import { SUPPORTED_LOCALES } from '@/config/locales';
 import { analyzeContent, generateFAQSchema, generateHowToSchema } from '@/lib/content-analyzer';
 import Breadcrumb from '@/components/Breadcrumb';
 import RelatedProducts from '@/components/blog/RelatedProducts';
@@ -1512,6 +1513,7 @@ export async function generateMetadata({ params }: BlogPostPageProps) {
         url: canonicalUrl,
         siteName: 'LessonCraftStudio',
         locale: ogLocaleMap[locale] || locale,
+        alternateLocale: SUPPORTED_LOCALES.filter(l => l !== locale).map(l => ogLocaleMap[l] || l),
         // AUTOMATED: Article dates (content freshness signal)
         publishedTime: post.createdAt.toISOString(),
         modifiedTime: post.updatedAt.toISOString(),

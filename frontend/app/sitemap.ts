@@ -35,7 +35,10 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   // Supported locales (from centralized config)
   const locales = [...SUPPORTED_LOCALES];
 
-  const currentDate = new Date();
+  // Fixed date for static/product pages — only update when content actually changes
+  // Using new Date() caused Google to re-crawl every 30 minutes (ISR revalidation interval)
+  const STATIC_CONTENT_DATE = new Date('2026-02-09');
+  const currentDate = STATIC_CONTENT_DATE;
 
   // Helper to generate language alternates for static pages
   // Uses regional hreflang codes (pt-BR, es-MX) for better SEO in target markets

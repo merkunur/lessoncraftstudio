@@ -448,7 +448,7 @@ export function generateHomepageSchemas(locale: string, baseUrl: string = getBas
       "publisher": { "@id": `${baseUrl}/#organization` },
       "inLanguage": getHreflangCode(locale),
       "datePublished": "2024-06-01",
-      "dateModified": "2025-02-08",
+      "dateModified": "2026-02-09",
       "mainEntity": { "@id": `${baseUrl}/${locale}/#software` },
       "primaryImageOfPage": { "@id": `${baseUrl}/#logo` }
     };
@@ -888,6 +888,8 @@ export interface SampleImageData {
   appType?: string;        // Type of worksheet app (math, language, etc.)
   imageId?: string;        // Custom @id for cross-referencing (blog posts use #imageobject)
   keywords?: string[];     // Keywords from database for search relevance
+  uploadDate?: string;     // ISO date string for schema.org uploadDate
+  dateModified?: string;   // ISO date string for schema.org dateModified
 }
 
 /**
@@ -942,7 +944,9 @@ export function generateImageObjectSchema(
   locale: string = 'en',
   index: number = 0,
   isRepresentative: boolean = false,
-  defaultGrade?: string
+  defaultGrade?: string,
+  uploadDate?: string,
+  dateModified?: string
 ) {
   // Encode URL properly for spaces
   const encodedSrc = image.src.replace(/ /g, '%20');
@@ -988,6 +992,8 @@ export function generateImageObjectSchema(
     "copyrightNotice": "© 2024-2026 LessonCraftStudio",
     "creator": { "@id": `${baseUrl}/#organization` },
     "associatedArticle": { "@type": "WebPage", "url": pageUrl },
+    ...(uploadDate && { "uploadDate": uploadDate }),
+    ...(dateModified && { "dateModified": dateModified }),
     ...(image.keywords && image.keywords.length > 0 && { "keywords": image.keywords.join(', ') }),
     // Educational schema.org properties for better search visibility
     "educationalUse": ["assignment", "homework", "practice", "classwork"],
@@ -1105,7 +1111,7 @@ export function generateAllProductPageSchemas(
   const defaultGrade = appIdToDefaultGrade[appData.appId];
   if (sampleImages && sampleImages.length > 0) {
     for (let i = 0; i < sampleImages.length; i++) {
-      schemas.push(generateImageObjectSchema(sampleImages[i], pageUrl, baseUrl, locale, i, i === 0, defaultGrade));
+      schemas.push(generateImageObjectSchema(sampleImages[i], pageUrl, baseUrl, locale, i, i === 0, defaultGrade, sampleImages[i].uploadDate, sampleImages[i].dateModified));
     }
   }
 
@@ -1255,7 +1261,7 @@ export function generateAppProductSchemas(
     "inLanguage": getHreflangCode(locale),
     // E-A-T: Publication dates signal content freshness
     "datePublished": appData.datePublished || "2024-06-01",
-    "dateModified": appData.dateModified || "2025-02-08",
+    "dateModified": appData.dateModified || "2026-02-09",
     // E-A-T: Author/publisher signals expertise and authority (use @id to avoid duplication)
     "author": { "@id": `${baseUrl}/#organization` },
     "publisher": {

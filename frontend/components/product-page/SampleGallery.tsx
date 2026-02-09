@@ -319,6 +319,7 @@ export default function SampleGallery({
   const thumbnailContainerRef = useRef<HTMLDivElement>(null);
   const [canScrollLeft, setCanScrollLeft] = useState(false);
   const [canScrollRight, setCanScrollRight] = useState(false);
+  const [hasMounted, setHasMounted] = useState(false);
   const touchStartX = useRef(0);
   const touchEndX = useRef(0);
 
@@ -348,6 +349,8 @@ export default function SampleGallery({
 
     fetchDynamicSamples();
   }, [appId, locale, propSamples]);
+
+  useEffect(() => { setHasMounted(true); }, []);
 
   // Use dynamic samples if appId is provided and samples exist, otherwise fall back to prop samples
   const samples = (appId && dynamicSamples.length > 0) ? dynamicSamples : (propSamples || []);
@@ -706,7 +709,7 @@ export default function SampleGallery({
           {currentSample?.pdfDownloadUrl && (
             <motion.div
               className="mt-6 text-center"
-              initial={{ opacity: 0, y: 10 }}
+              initial={hasMounted ? { opacity: 0, y: 10 } : false}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.2 }}
             >

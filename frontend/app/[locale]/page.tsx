@@ -177,8 +177,9 @@ export default async function HomePage({ params }: { params: { locale: string } 
     description: seoData[appId]?.description || seoData[appId]?.altText || appId,
     caption: seoData[appId]?.caption || seoData[appId]?.altText || appId,
     width: 400,
-    height: 533,
+    height: 566,
     thumbnailSrc: thumbUrl,
+    dateModified: seoData[appId]?.updatedAt,
   }));
 
   if (sampleImages.length > 0) {

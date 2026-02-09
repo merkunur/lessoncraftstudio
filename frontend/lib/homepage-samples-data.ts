@@ -80,7 +80,7 @@ const validAppIds = [
 
 export interface HomepageSamplesData {
   dynamicImages: Record<string, string>;
-  seoData: Record<string, { altText: string; title: string; description: string; caption: string }>;
+  seoData: Record<string, { altText: string; title: string; description: string; caption: string; updatedAt?: string }>;
   heroImages: { portrait: string; landscape: string };
 }
 
@@ -157,6 +157,7 @@ export async function getHomepageSamplesData(locale: string): Promise<HomepageSa
           altText: true,
           title: true,
           description: true,
+          updatedAt: true,
         }
       });
       for (const s of seoRecords) {
@@ -166,6 +167,7 @@ export async function getHomepageSamplesData(locale: string): Promise<HomepageSa
           title: s.title || generateLocalizedTitle(displayName, locale, 1),
           description: (s.description as string) || generateLocalizedAltText(displayName, locale, 1),
           caption: generateLocalizedCaption(displayName, locale, 1),
+          updatedAt: s.updatedAt ? s.updatedAt.toISOString().split('T')[0] : undefined,
         };
       }
     } catch {

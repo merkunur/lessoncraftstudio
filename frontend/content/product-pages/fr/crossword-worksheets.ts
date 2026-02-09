@@ -18,8 +18,8 @@ export const crosswordFrContent: ProductPageContent = {
   seo: {
     slug: 'mots-croises-images-fiches',
     appId: 'crossword',
-    title: 'Mots Croisés en Images | Fiches Gratuites Maternelle CP - Créateur',
-    description: 'Créez des mots croisés en images professionnels. Fiches gratuites maternelle et CP à imprimer. 3000+ images, 11 langues, licence commerciale. PDF en 3 minutes.',
+    title: 'Mots Croisés en Images | Fiches Maternelle CP',
+    description: 'Créez des mots croisés en images pour enrichir le vocabulaire. Fiches maternelle et CP à imprimer. 3 000+ images, 11 langues. PDF en 3 minutes.',
     keywords: 'mots croisés en images, fiches maternelle, exercices CP, fiches à imprimer gratuit, apprendre à lire, fiches alphabet, graphisme maternelle, exercices maths, apprendre les lettres, coloriage à imprimer, écriture cursive, tables de multiplication, exercices CE1',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fr/apps/mots-croises-images-fiches',
       },

@@ -15,8 +15,8 @@ export const sudokuFrContent: ProductPageContent = {
   seo: {
     slug: 'sudoku-enfants-fiches',
     appId: 'sudoku',
-    title: 'Sudoku pour Enfants | Fiches Gratuites Maternelle CP - LessonCraft',
-    description: 'Créez des puzzles sudoku visuels avec notre générateur de fiches gratuites. Abonnement illimité, PDF 300 DPI avec clés de correction.',
+    title: 'Sudoku pour Enfants | Fiches Maternelle CP',
+    description: 'Créez des sudoku visuels 4x4 avec images colorées et corrigés automatiques. Générateur pour maternelle et CP. 3 000+ images, PDF 300 DPI en 3 minutes.',
     keywords: 'sudoku enfants, fiches maternelle, fiches à imprimer gratuit, exercices CP, exercices CE1, exercices maths, graphisme maternelle, coloriage à imprimer, apprendre à lire, tables de multiplication',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fr/apps/sudoku-enfants-fiches',
       },

@@ -16,8 +16,8 @@ export const mathPuzzleFrContent: ProductPageContent = {
   seo: {
     slug: 'puzzle-maths-fiches',
     appId: 'math-puzzle',
-    title: 'Puzzle Maths à Imprimer | Exercices Décodage Maternelle CP',
-    description: 'Créez des puzzles maths de décodage par symboles avec notre générateur. Parfait pour maternelle, CP et CE1. Fiches à imprimer gratuit PDF.',
+    title: 'Puzzle Maths à Imprimer | Décodage Maternelle CP',
+    description: 'Créez des puzzles maths avec décodage par symboles visuels et 3 000+ images. Générateur pour maternelle, CP et CE1. Fiches à imprimer en PDF haute qualité.',
     keywords: 'puzzle maths, exercices maths, décodage symboles, fiches maternelle, fiches à imprimer gratuit, exercices CP, exercices CE1, énigmes mathématiques, générateur fiches, calcul visuel',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fr/apps/puzzle-maths-fiches',
       },

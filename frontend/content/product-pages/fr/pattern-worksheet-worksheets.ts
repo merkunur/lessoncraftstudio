@@ -15,7 +15,7 @@ export const patternWorksheetFrContent: ProductPageContent = {
   seo: {
     slug: 'sequences-logiques-fiches',
     appId: 'pattern-worksheet',
-    title: 'Fiches de Séquences Logiques Gratuites | Générateur Fiches Maternelle',
+    title: 'Séquences Logiques Fiches | Générateur Maternelle',
     description: 'Créez des fiches de séquences logiques professionnelles en 3 minutes. Exercices maths et CP gratuits à imprimer. Téléchargez PDF haute qualité maintenant.',
     keywords: 'fiches maternelle, exercices maths, fiches à imprimer gratuit, exercices CP, exercices CE1, séquences logiques, graphisme maternelle, tables de multiplication, apprendre à lire, coloriage à imprimer',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fr/apps/sequences-logiques-fiches',

@@ -19,7 +19,7 @@ export const wordGuessFrContent: ProductPageContent = {
     slug: 'deviner-mots-fiches',
     appId: 'word-guess',
     title: 'Deviner les Mots | Fiches Gratuites Maternelle CP CE1',
-    description: 'Créez des fiches deviner les mots en 3 minutes. Abonnement 240€/an, création illimitée. Vocabulaire et orthographe pour maternelle et CP.',
+    description: 'Créez des fiches deviner les mots pour vocabulaire et orthographe. 3 000+ images pour maternelle et CP. Corrigés inclus, PDF 300 DPI en 3 minutes.',
     keywords: 'deviner les mots, fiches maternelle, exercices CP, fiches à imprimer gratuit, apprendre à lire, fiches alphabet, graphisme maternelle, exercices maths, apprendre les lettres, coloriage à imprimer, écriture cursive, tables de multiplication, exercices CE1',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fr/apps/deviner-mots-fiches',
       },

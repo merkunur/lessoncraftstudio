@@ -17,7 +17,7 @@ export const chartCountFrContent: ProductPageContent = {
   seo: {
     slug: 'graphique-images-fiches',
     appId: 'chart-count',
-    title: 'Graphique en Images Fiches Gratuites | Générateur Maternelle CP',
+    title: 'Graphique en Images | Fiches Maternelle CP',
     description: 'Créez des fiches de graphique en images pour maternelle et CP. Générateur gratuit avec corrigé automatique. Téléchargez des PDF en moins de 3 minutes.',
     keywords: 'graphique en images, fiches maternelle, exercices CP, fiches à imprimer gratuit, exercices maths, comptage maternelle, diagramme pictogramme, apprendre à compter, coloriage à imprimer, graphisme maternelle',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fr/apps/graphique-images-fiches',

@@ -18,8 +18,8 @@ export const missingPiecesFrContent: ProductPageContent = {
   seo: {
     slug: 'pieces-manquantes-fiches',
     appId: 'missing-pieces',
-    title: 'Pi\u00e8ces Manquantes Fiches Gratuites | G\u00e9n\u00e9rateur Maternelle CP',
-    description: 'Cr\u00e9ez des fiches d\'observation pi\u00e8ces manquantes en 3 minutes. 3 000+ images pour maternelle et CP. T\u00e9l\u00e9chargez le PDF gratuit instantan\u00e9ment.',
+    title: 'Pi\u00e8ces Manquantes Fiches | G\u00e9n\u00e9rateur Maternelle CP',
+    description: 'Cr\u00e9ez des fiches pi\u00e8ces manquantes avec observation et logique visuelle. 3 000+ images pour maternelle et CP. T\u00e9l\u00e9chargez le PDF instantan\u00e9ment.',
     keywords: 'fiches à imprimer gratuit, fiches maternelle, exercices CP, pièces manquantes, puzzles éducatifs, discrimination visuelle, exercices CE1, observation visuelle, graphisme maternelle, exercices maths, apprendre à lire, tables de multiplication, écriture cursive, alphabet, coloriage',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fr/apps/pieces-manquantes-fiches',
       },

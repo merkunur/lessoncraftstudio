@@ -17,7 +17,7 @@ export const findObjectsFrContent: ProductPageContent = {
   seo: {
     slug: 'cherche-objets-fiches',
     appId: 'find-objects',
-    title: 'Fiches Cherche Objets Gratuites | Générateur Maternelle CP',
+    title: 'Cherche les Objets Fiches | Générateur Maternelle CP',
     description: 'Créez des fiches cherche les objets gratuites avec notre générateur. PDF haute qualité en 3 minutes. Parfait pour maternelle et CP. Essayez maintenant !',
     keywords: 'fiches à imprimer gratuit, fiches maternelle, exercices CP, discrimination visuelle, je vois, intrus, graphisme maternelle, coloriage à imprimer, apprendre à lire, alphabet',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fr/apps/cherche-objets-fiches',

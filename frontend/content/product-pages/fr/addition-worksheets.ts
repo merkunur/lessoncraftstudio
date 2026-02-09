@@ -15,8 +15,8 @@ export const additionFrContent: ProductPageContent = {
   seo: {
     slug: 'addition-fiches',
     appId: 'addition',
-    title: 'Fiches d\'Addition Gratuites à Imprimer | Générateur Maternelle CP',
-    description: 'Créez des fiches d\'addition gratuites avec notre générateur. Parfait pour maternelle, CP et CE1. Téléchargez en PDF haute qualité en moins de 3 minutes.',
+    title: 'Fiches d\'Addition à Imprimer | Générateur Maternelle CP',
+    description: 'Créez des fiches d\'addition personnalisées avec 4 modes d\'exercices et corrigés automatiques. Parfait pour maternelle et CP. PDF haute qualité en 3 minutes.',
     keywords: 'fiches addition, exercices maths, fiches maternelle, fiches à imprimer gratuit, exercices CP, exercices CE1, addition avec images, générateur fiches, mathématiques maternelle, calcul visuel',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fr/apps/addition-fiches',
       },

@@ -17,8 +17,8 @@ export const codeAdditionFrContent: ProductPageContent = {
   seo: {
     slug: 'addition-codee-fiches',
     appId: 'code-addition',
-    title: 'Fiches Addition Codée Gratuites | Générateur Exercices Maths',
-    description: 'Cr\u00e9ez des fiches d\'addition cod\u00e9e avec 3 000+ images. G\u00e9n\u00e9rateur gratuit pour maternelle et CP. T\u00e9l\u00e9chargez le PDF instantan\u00e9ment.',
+    title: 'Addition Codée Fiches | Générateur Maternelle CP',
+    description: 'Cr\u00e9ez des fiches d\'addition cod\u00e9e avec d\u00e9codage visuel et 3 000+ images th\u00e9matiques. G\u00e9n\u00e9rateur pour maternelle et CP. Corrig\u00e9s inclus, PDF instantan\u00e9ment.',
     keywords: 'fiches maternelle, exercices maths, exercices CP, fiches à imprimer gratuit, graphisme maternelle, coloriage à imprimer, apprendre à lire, alphabet, tables de multiplication, écriture cursive, calcul',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fr/apps/addition-codee-fiches',
       },

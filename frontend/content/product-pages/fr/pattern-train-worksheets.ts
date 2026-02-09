@@ -15,7 +15,7 @@ export const patternTrainFrContent: ProductPageContent = {
   seo: {
     slug: 'train-suites-logiques-fiches',
     appId: 'pattern-train',
-    title: 'Train Suites Logiques Fiches Gratuites | Maternelle CP',
+    title: 'Suites Logiques Train | Fiches Maternelle CP',
     description: 'Créez des fiches maternelle professionnelles de reconnaissance de suites logiques avec notre générateur de train à motifs. Générez des exercices CP.',
     keywords: 'fiches maternelle, suites logiques, fiches à imprimer gratuit, exercices CP, train à motifs, reconnaissance de motifs, maternelle, CP, générateur fiches, suites AB ABC',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fr/apps/train-suites-logiques-fiches',

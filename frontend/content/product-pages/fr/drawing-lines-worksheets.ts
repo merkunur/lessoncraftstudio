@@ -15,8 +15,8 @@ export const drawingLinesFrContent: ProductPageContent = {
   seo: {
     slug: 'graphisme-fiches',
     appId: 'drawing-lines',
-    title: 'Fiches de Graphisme Maternelle | Fiches Gratuites à Imprimer',
-    description: 'Créez des fiches gratuites de graphisme maternelle avec notre générateur. Téléchargez des exercices CP de tracé en PDF haute résolution en moins de 3 minutes.',
+    title: 'Graphisme Maternelle | Fiches Gratuites à Imprimer',
+    description: 'Créez des fiches de graphisme maternelle avec tracé de lignes et motricité fine. Exercices CP en PDF haute résolution en moins de 3 minutes.',
     keywords: 'fiches maternelle, graphisme maternelle, fiches à imprimer gratuit, écriture cursive, exercices CP, motricité fine, coloriage à imprimer, exercices maths, apprendre les lettres, tables de multiplication, exercices CE1, alphabet, fiche gratuite, fiches gratuites, fiche pour enfants, fiche pour maternelle, imprimables gratuits',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fr/apps/graphisme-fiches',
       },

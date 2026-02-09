@@ -17,7 +17,7 @@ export const mathWorksheetsFrContent: ProductPageContent = {
   seo: {
     slug: 'exercices-maths-fiches',
     appId: 'math-worksheet',
-    title: 'Exercices Maths à Imprimer - Générateur Fiches Maternelle CP CE1',
+    title: 'Exercices Maths à Imprimer | Fiches Maternelle CP',
     description: 'Créez des exercices maths avec notre générateur de fiches maternelle. Fiches à imprimer gratuit pour CP et CE1. Puzzles de décodage visuels. PDF 300 DPI.',
     keywords: 'exercices maths, fiches maternelle, fiches à imprimer gratuit, exercices CP, exercices CE1, générateur fiches maths, puzzles mathématiques, calcul maternelle, graphisme maternelle, tables de multiplication, coloriage à imprimer, écriture cursive, apprendre à lire, alphabet maternelle',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fr/apps/exercices-maths-fiches',
@@ -25,7 +25,7 @@ export const mathWorksheetsFrContent: ProductPageContent = {
 
   // Hero Section - FULL text from math-worksheet.md paragraphs 1-6
   hero: {
-    title: 'Exercices Maths à Imprimer - Générateur de Fiches Maternelle',
+    title: 'Exercices Maths à Imprimer | Générateur Fiches Maternelle',
     subtitle: 'Créateur de Fiches à Imprimer Gratuit pour CP et CE1',
     description: `Créez des exercices maths professionnels avec notre générateur de fiches mathématiques. Votre abonnement Pack Essentiel à 144€ par an vous donne un accès illimité sans frais supplémentaires par fiche. Générez des fiches à imprimer gratuit parfaitement adaptées aux élèves de maternelle, CP et CE1. Téléchargez des PDF haute qualité en moins de trois minutes.
 

@@ -18,8 +18,8 @@ export const treasureHuntFrContent: ProductPageContent = {
   seo: {
     slug: 'chasse-au-tresor-fiches',
     appId: 'treasure-hunt',
-    title: 'Fiches Chasse au Trésor Gratuites - Générateur Maternelle CP',
-    description: 'Cr\u00e9ez des fiches chasse au tr\u00e9sor en 3 minutes. Directions spatiales pour maternelle et CP. T\u00e9l\u00e9chargez des PDF haute qualit\u00e9. Parfait pour enseignants et parents.',
+    title: 'Chasse au Trésor Fiches | Générateur Maternelle CP',
+    description: 'Cr\u00e9ez des fiches chasse au tr\u00e9sor avec directions spatiales pour maternelle et CP. PDF haute qualit\u00e9 en 3 minutes. Parfait pour enseignants.',
     keywords: 'fiches chasse au trésor, fiches à imprimer gratuit, fiches maternelle, exercices CP, directions spatiales, exercices CE1, graphisme maternelle, coloriage à imprimer, apprendre à lire, alphabet, écriture cursive, tables de multiplication',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fr/apps/chasse-au-tresor-fiches',
       },

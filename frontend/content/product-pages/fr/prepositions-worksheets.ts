@@ -17,8 +17,8 @@ export const prepositionsFrContent: ProductPageContent = {
   seo: {
     slug: 'prepositions-exercices-fiches',
     appId: 'prepositions',
-    title: 'Fiches à Imprimer Gratuit | Générateur d\'Exercices de Prépositions',
-    description: 'Cr\u00e9ez des fiches d\'exercices pr\u00e9positions pour maternelle et CP. 3 000+ images. G\u00e9n\u00e9rateur gratuit, t\u00e9l\u00e9chargez le PDF instantan\u00e9ment.',
+    title: 'Exercices Prépositions | Générateur Maternelle CP',
+    description: 'Cr\u00e9ez des fiches pr\u00e9positions : devant, derri\u00e8re, sur, sous avec 3 000+ images th\u00e9matiques. G\u00e9n\u00e9rateur maternelle et CP. Corrig\u00e9s inclus, PDF en 3 minutes.',
     keywords: 'fiches à imprimer gratuit, fiches maternelle, exercices CP, prépositions spatiales, graphisme maternelle, coloriage à imprimer, apprendre à lire, alphabet, écriture cursive, exercices maths',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fr/apps/prepositions-exercices-fiches',
       },

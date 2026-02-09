@@ -17,8 +17,8 @@ export const bigSmallFrContent: ProductPageContent = {
   seo: {
     slug: 'grand-petit-fiches',
     appId: 'big-small',
-    title: 'Fiches Grand Petit Gratuit | Exercices CP Maternelle - LessonCraft',
-    description: 'Créez des fiches grand petit gratuites en 3 minutes. Exercices de comparaison de tailles pour maternelle et CP. 3000+ images, corrigé automatique, PDF 300 DPI.',
+    title: 'Fiches Grand Petit | Exercices Maternelle CP',
+    description: 'Créez des fiches grand petit avec comparaison de tailles pour maternelle et CP. 3 000+ images, corrigé automatique. PDF 300 DPI en 3 minutes.',
     keywords: 'fiches grand et petit, fiches maternelle, fiches à imprimer gratuit, exercices CP, exercices CE1, exercices maths, graphisme maternelle, coloriage à imprimer, apprendre à lire, comparaison de tailles',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fr/apps/grand-petit-fiches',
       },

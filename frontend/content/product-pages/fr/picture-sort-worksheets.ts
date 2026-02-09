@@ -17,7 +17,7 @@ export const pictureSortFrContent: ProductPageContent = {
   seo: {
     slug: 'tri-images-fiches',
     appId: 'picture-sort',
-    title: 'Tri d\u2019Images Fiches Gratuites | G\u00e9n\u00e9rateur Maternelle CP',
+    title: 'Tri d\u2019Images Fiches | G\u00e9n\u00e9rateur Maternelle CP',
     description: 'Créez des fiches de tri d\'images gratuites pour maternelle et CP. Générateur professionnel avec corrigés inclus. Téléchargez en PDF haute qualité en 3 min.',
     keywords: 'fiches à imprimer gratuit, fiches maternelle, exercices CP, tri images, graphisme maternelle, exercices maths, coloriage à imprimer, apprendre à lire, alphabet, écriture cursive, tables de multiplication, fiche gratuite pour enfants, imprimables gratuits, fiche pour enfants',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fr/apps/tri-images-fiches',

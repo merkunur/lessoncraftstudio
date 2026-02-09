@@ -15,7 +15,7 @@ export const wordScrambleFrContent: ProductPageContent = {
   seo: {
     slug: 'mots-melanges-fiches',
     appId: 'word-scramble',
-    title: 'Mots Mélangés Fiches Gratuites | Générateur Maternelle CP - LCS',
+    title: 'Mots Mélangés Fiches | Générateur Maternelle CP',
     description: 'Créez des mots mélangés en 3 clics. Fiches gratuites pour maternelle et CP. Téléchargez PDF 300 DPI. Licence commerciale incluse. Essai gratuit disponible.',
     keywords: 'mots mélangés, générateur mots mélangés, fiches maternelle, fiches à imprimer gratuit, exercices CP, exercices CE1, apprendre à lire, alphabet, apprendre les lettres, graphisme maternelle, écriture cursive, coloriage à imprimer, exercices maths, tables de multiplication',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fr/apps/mots-melanges-fiches',

@@ -15,8 +15,8 @@ export const matchingFrContent: ProductPageContent = {
   seo: {
     slug: 'association-fiches',
     appId: 'matching',
-    title: 'Fiches d\'Association Gratuites | G\u00e9n\u00e9rateur Maternelle CP',
-    description: 'Cr\u00e9ez des fiches d\'association gratuites pour maternelle et CP. G\u00e9n\u00e9rateur avec 3 000+ images. T\u00e9l\u00e9chargez PDF haute qualit\u00e9 en 3 minutes.',
+    title: 'Fiches d\'Association | G\u00e9n\u00e9rateur Maternelle CP',
+    description: 'Cr\u00e9ez des fiches d\'association pour maternelle et CP. 3 000+ images th\u00e9matiques, corrig\u00e9s automatiques. T\u00e9l\u00e9chargez PDF haute qualit\u00e9 en 3 minutes.',
     keywords: 'fiches association, fiches maternelle, exercices CP, fiches à imprimer gratuit, apprendre à lire, fiches alphabet, graphisme maternelle, exercices maths, apprendre les lettres, coloriage à imprimer, écriture cursive, tables de multiplication',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fr/apps/association-fiches',
       },

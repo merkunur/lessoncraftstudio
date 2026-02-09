@@ -15,8 +15,8 @@ export const alphabetTrainFrContent: ProductPageContent = {
   seo: {
     slug: 'train-alphabet-fiches',
     appId: 'alphabet-train',
-    title: 'Fiches Alphabet à Imprimer Gratuit | Générateur Train Alphabet',
-    description: 'Cr\u00e9ez des fiches alphabet professionnelles avec notre g\u00e9n\u00e9rateur de train alphabet. T\u00e9l\u00e9chargez vos fiches maternelle en PDF haute qualit\u00e9 en moins de 3 minutes.',
+    title: 'Train Alphabet Fiches à Imprimer | Maternelle CP',
+    description: 'Cr\u00e9ez des fiches alphabet avec reconnaissance des lettres en 11 langues. G\u00e9n\u00e9rateur train alphabet pour maternelle et CP. PDF haute qualit\u00e9 en 3 minutes.',
     keywords: 'fiches alphabet, fiches maternelle, apprendre les lettres, fiches à imprimer gratuit, exercices CP, exercices CE1, train alphabet, générateur fiches, graphisme maternelle, coloriage à imprimer',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fr/apps/train-alphabet-fiches',
       },

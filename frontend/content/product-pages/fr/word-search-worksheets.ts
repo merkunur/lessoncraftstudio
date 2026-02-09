@@ -15,8 +15,8 @@ export const wordSearchFrContent: ProductPageContent = {
   seo: {
     slug: 'mots-caches-fiches',
     appId: 'wordsearch',
-    title: 'Mots Mêlés Fiches Gratuites | Générateur Maternelle CP - LessonCraft',
-    description: 'Créez des mots mêlés professionnels en 3 clics. Fiches gratuites maternelle et CP à imprimer. 3000+ images, 11 langues. Téléchargez en PDF 300 DPI maintenant.',
+    title: 'Mots Mêlés | Générateur Fiches Maternelle CP',
+    description: 'Créez des mots mêlés personnalisés avec 3 000+ images et 11 langues. Fiches maternelle et CP à imprimer. Corrigés inclus, PDF 300 DPI en 3 minutes.',
     keywords: 'mots mêlés, générateur mots cachés, fiches maternelle, fiches à imprimer gratuit, exercices CP, apprendre à lire, alphabet, graphisme maternelle, tables de multiplication, coloriage à imprimer',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fr/apps/mots-caches-fiches',
       },

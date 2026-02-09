@@ -167,7 +167,108 @@ All downloads export at professional 300 DPI resolution. This high quality ensur
     sectionDescription: 'Everything you need to know about our picture graph worksheet generator.',
     showMoreText: 'Show more questions',
     showLessText: 'Show less',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+        {
+          id: '1',
+          question: 'What is a chart count (picture graph) worksheet?',
+          answer: 'A chart count worksheet has two sections. The top displays a grid of 20 random images from 6 categories. The bottom shows an empty bar graph with 6 columns. Students count how many times each image appears, then color the corresponding number of boxes in the graph.',
+        },
+        {
+          id: '2',
+          question: 'How does the 20-image counting grid work?',
+          answer: 'The generator selects 6 different images and distributes them randomly across a 20-cell grid. Each image appears between 1 and 5 times. Students scan the grid, tally each image type, and record their counts on the bar graph below.',
+        },
+        {
+          id: '3',
+          question: 'What does the bar graph section look like?',
+          answer: 'The bar graph has 6 columns, one for each image category. Each column has 5 rows numbered 1 through 5. Students color in boxes from the bottom up to match the count they found in the image grid above.',
+        },
+        {
+          id: '4',
+          question: 'What math skills do chart count worksheets develop?',
+          answer: 'These worksheets develop counting, one-to-one correspondence, data collection, data representation, comparison, and graphing skills. Students practice the complete data cycle: gathering information, organizing it, and displaying it visually.',
+        },
+        {
+          id: '5',
+          question: 'Can I choose which images appear in the counting grid?',
+          answer: 'Yes. You select 6 images from the library of over 3000 pictures. The generator randomly distributes them across the 20-cell grid, with each image appearing 1 to 5 times to create varied counting challenges.',
+        },
+        {
+          id: '6',
+          question: 'What age group are chart count worksheets designed for?',
+          answer: 'Chart count worksheets are designed for children ages 4 to 7, covering preschool through first grade. The counting range of 1 to 5 matches early math curricula, and the coloring format keeps the activity engaging for young learners.',
+        },
+        {
+          id: '7',
+          question: 'How do students complete the bar graph?',
+          answer: 'After counting each image type in the grid, students find the matching column in the bar graph and color in boxes from the bottom up. If they counted 3 cats, they color the bottom 3 boxes in the cat column.',
+        },
+        {
+          id: '8',
+          question: 'Do chart count worksheets include answer keys?',
+          answer: 'Yes. The answer key shows the bar graph with correct boxes pre-colored. Teachers can quickly compare student work to the key and identify counting or graphing errors.',
+        },
+        {
+          id: '9',
+          question: 'Can I print chart count worksheets at home?',
+          answer: 'Yes. Worksheets export as high-resolution 300 DPI PDFs that print clearly on any printer. Color printing is recommended so students can clearly distinguish the different images in the counting grid.',
+        },
+        {
+          id: '10',
+          question: 'How do chart count worksheets align with math standards?',
+          answer: 'They directly support Common Core standards K.MD.B.3 (classify and count objects) and K.CC.B.5 (count to answer how many). The graphing component introduces 1.MD.C.4 (organize and represent data) in an age-appropriate format.',
+        },
+        {
+          id: '11',
+          question: 'Can I adjust the difficulty of chart count worksheets?',
+          answer: 'Difficulty varies naturally through the random image distribution. Some worksheets will have evenly distributed counts while others will have images appearing 1 or 5 times. You can also increase challenge by using visually similar images that require careful discrimination.',
+        },
+        {
+          id: '12',
+          question: 'How long does a chart count worksheet take to complete?',
+          answer: 'Most students complete a chart count worksheet in 10 to 15 minutes. Counting takes about 5 minutes, and coloring the bar graph takes another 5 to 10 minutes depending on how carefully students color.',
+        },
+        {
+          id: '13',
+          question: 'Are chart count worksheets available in multiple languages?',
+          answer: 'Yes. Instructions and labels are available in 11 languages including English, German, French, Spanish, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian, and Finnish.',
+        },
+        {
+          id: '14',
+          question: 'Can I sell chart count worksheets commercially?',
+          answer: 'Yes. The commercial license allows you to sell printed worksheets on Teachers Pay Teachers, include them in math activity packs, or use them in paid tutoring sessions.',
+        },
+        {
+          id: '15',
+          question: 'What is the educational value of picture graphs over number charts?',
+          answer: 'Picture graphs use concrete visual representations that young children understand intuitively. Unlike abstract number charts, picture graphs show data as colored blocks that children can physically see and compare, making data concepts accessible before formal number sense develops.',
+        },
+        {
+          id: '16',
+          question: 'Can I use chart count worksheets for comparison questions?',
+          answer: 'Yes. After completing the graph, ask students comparison questions: Which image appeared most often? Which appeared least? How many more cats than dogs? These extension questions deepen mathematical reasoning beyond simple counting.',
+        },
+        {
+          id: '17',
+          question: 'Can chart count worksheets be used in math centers?',
+          answer: 'Yes. They work perfectly as a math center activity because students can work independently, the task is self-contained on one page, and the answer key allows self-checking. Laminate the counting grid for reuse with dry-erase markers.',
+        },
+        {
+          id: '18',
+          question: 'How do chart count worksheets prepare children for standardized tests?',
+          answer: 'Many early childhood assessments include data and graphing sections. Regular practice with picture graphs builds familiarity with the format and develops the counting accuracy and data representation skills tested in these assessments.',
+        },
+        {
+          id: '19',
+          question: 'Can I combine chart count with other worksheet types?',
+          answer: 'Yes. Chart count pairs naturally with picture sort worksheets for a data and classification unit, or with find-and-count worksheets for counting practice across different formats. Use the same theme images for cohesive math packets.',
+        },
+        {
+          id: '20',
+          question: 'What themes work best for chart count worksheets?',
+          answer: 'Themes with visually distinct images work best because students need to quickly identify and tally each type. Animals, vehicles, fruits, and shapes are excellent choices. Avoid themes where images look too similar, as this slows counting and increases errors.',
+        },
+      ]
     
   },
 

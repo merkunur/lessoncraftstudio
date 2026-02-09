@@ -131,7 +131,108 @@ This treasure hunt generator creates unique worksheets every time you click gene
     sectionDescription: 'Teachers commonly ask eighteen questions about creating treasure hunt worksheets and using the generator effectively. These answers address pricing, usage rights, customization options, and technical details. Understanding these fundamentals helps you maximize your Full Access subscription value and create better educational materials for your students.',
     showMoreText: 'Show more questions',
     showLessText: 'Show less',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+        {
+          id: '1',
+          question: 'What is a treasure hunt worksheet?',
+          answer: 'A treasure hunt worksheet features a 5x5 grid filled with images. Students read multi-step directional clues to navigate through the grid, moving from a starting position step by step until they reach the treasure. It combines reading comprehension with spatial navigation.',
+        },
+        {
+          id: '2',
+          question: 'How does the 5x5 grid work?',
+          answer: 'The grid contains 25 cells populated with 6 randomly selected images from your chosen themes. Each image appears multiple times across the grid. Students start at a designated cell and follow directional clues to move through the grid to find the final destination.',
+        },
+        {
+          id: '3',
+          question: 'What direction modes are available?',
+          answer: 'Two direction modes are available: basic directions (up, down, left, right) and cardinal directions (north, south, east, west). Basic mode suits younger learners, while cardinal mode introduces geographic vocabulary for more advanced students.',
+        },
+        {
+          id: '4',
+          question: 'How many directional steps does each hunt include?',
+          answer: 'Each treasure hunt includes 6 random movement steps. Students must read each clue carefully, identify the direction, count the correct number of spaces, and track their position on the grid to reach the final destination.',
+        },
+        {
+          id: '5',
+          question: 'Can I choose which images appear in the grid?',
+          answer: 'Yes. You select image themes and the generator randomly distributes 6 different images across the 25 grid cells. The variety of images creates landmarks that help students verify they are on the correct path.',
+        },
+        {
+          id: '6',
+          question: 'What age group are treasure hunt worksheets designed for?',
+          answer: 'Treasure hunt worksheets suit children ages 5 to 8, from kindergarten through second grade. Basic direction mode works for kindergarteners, while cardinal direction mode challenges first and second graders learning compass vocabulary.',
+        },
+        {
+          id: '7',
+          question: 'What skills do treasure hunt worksheets develop?',
+          answer: 'These worksheets develop reading comprehension, following multi-step directions, spatial awareness, grid navigation, and sequential thinking. Students must hold information in working memory while physically tracking their position on the grid.',
+        },
+        {
+          id: '8',
+          question: 'How do treasure hunts improve reading comprehension?',
+          answer: 'Students must carefully read each directional clue, extract the direction and distance, and translate text into physical movement on the grid. This active reading requires comprehension for a concrete purpose rather than passive text consumption.',
+        },
+        {
+          id: '9',
+          question: 'Do treasure hunt worksheets include answer keys?',
+          answer: 'Yes. Every worksheet generates an answer key showing the complete path from start to finish, including each intermediate position. Teachers can verify student paths and identify exactly where errors occurred.',
+        },
+        {
+          id: '10',
+          question: 'Can I print treasure hunt worksheets at home?',
+          answer: 'Yes. Worksheets export as high-resolution 300 DPI PDFs. Color printing is recommended so students can clearly see the grid images and use them as landmarks while navigating their path.',
+        },
+        {
+          id: '11',
+          question: 'How do I adjust difficulty for different students?',
+          answer: 'Use basic directions (up/down/left/right) for younger students and cardinal directions (north/south/east/west) for advanced learners. You can also vary the images: highly distinct images make tracking easier, while similar-looking images increase the challenge.',
+        },
+        {
+          id: '12',
+          question: 'Can students use their finger to trace the path?',
+          answer: 'Yes. Many teachers encourage students to place their finger on the starting cell and physically move it as they read each clue. This kinesthetic approach helps younger children track their position without losing their place in the grid.',
+        },
+        {
+          id: '13',
+          question: 'Are treasure hunt worksheets available in multiple languages?',
+          answer: 'Yes. Directional clues and instructions are available in 11 languages including English, German, French, Spanish, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian, and Finnish.',
+        },
+        {
+          id: '14',
+          question: 'Can I sell treasure hunt worksheets commercially?',
+          answer: 'Yes. The commercial license allows you to sell printed worksheets on Teachers Pay Teachers, include them in activity packets, or use them in paid tutoring programs and educational camps.',
+        },
+        {
+          id: '15',
+          question: 'How long does a treasure hunt worksheet take to complete?',
+          answer: 'Most students complete a treasure hunt in 5 to 10 minutes. Younger students using basic directions finish faster, while students using cardinal directions may take longer as they translate compass vocabulary into grid movements.',
+        },
+        {
+          id: '16',
+          question: 'Do treasure hunts align with educational standards?',
+          answer: 'Yes. They support Common Core standards for following multi-step directions (SL.1.2, SL.2.2) and connect to social studies standards for cardinal directions and map skills. The reading component supports informational text comprehension.',
+        },
+        {
+          id: '17',
+          question: 'Can treasure hunts be used as a group activity?',
+          answer: 'Yes. Project the worksheet on a screen and have students take turns reading clues and directing the class through the grid. This builds collaborative problem-solving and gives students practice with directional vocabulary in a social context.',
+        },
+        {
+          id: '18',
+          question: 'What makes treasure hunts different from mazes?',
+          answer: 'Mazes have visible paths with walls. Treasure hunts use an open grid where movement is guided entirely by reading text clues. Students must comprehend language rather than visually trace a path, making it a literacy activity rather than purely visual.',
+        },
+        {
+          id: '19',
+          question: 'Can I combine treasure hunts with other worksheet types?',
+          answer: 'Yes. Treasure hunts pair well with preposition worksheets for a spatial language day, or with grid-match worksheets for grid navigation practice. Create adventure-themed packets combining treasure hunts with word search and cryptogram puzzles.',
+        },
+        {
+          id: '20',
+          question: 'What is the best way to introduce treasure hunt worksheets?',
+          answer: 'Start with a physical classroom treasure hunt using real directions. Then transition to the paper grid version using basic directions. Once students are comfortable with grid navigation, introduce cardinal directions for an added vocabulary challenge.',
+        },
+      ]
     
   },
 

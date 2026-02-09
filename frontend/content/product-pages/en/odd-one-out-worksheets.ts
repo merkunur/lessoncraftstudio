@@ -159,7 +159,108 @@ The odd one out generator creates worksheets for any subject or theme. Choose fr
     sectionDescription: 'Teachers and parents commonly ask questions about creating odd one out worksheets before subscribing. These answers address pricing, classroom use, customization options, and technical requirements. Understanding subscription benefits helps educators decide if the worksheet maker meets their teaching needs.',
     showMoreText: 'Show more questions',
     showLessText: 'Show less',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+        {
+          id: '1',
+          question: 'What is an odd one out worksheet?',
+          answer: 'An odd one out worksheet presents groups of items where students must identify which item does not belong. Each exercise shows several similar pictures with one different item, developing critical thinking and categorization skills.',
+        },
+        {
+          id: '2',
+          question: 'What is the difference between Identical and Similar modes?',
+          answer: 'In Identical mode, all matching items are exactly the same image, making the odd one obvious. In Similar mode, matching items look alike but are different images from the same category, requiring finer visual discrimination to spot the outlier.',
+        },
+        {
+          id: '3',
+          question: 'How many exercises can I put on one worksheet?',
+          answer: 'You can include between 5 and 10 exercises per worksheet. Fewer exercises leave more space for each group, which is better for younger children. More exercises fit a full practice session on a single page.',
+        },
+        {
+          id: '4',
+          question: 'What cognitive skills do odd one out worksheets develop?',
+          answer: 'These worksheets develop visual discrimination, categorization, logical reasoning, and critical thinking. Students must compare attributes, identify patterns, and apply exclusion logic to find the item that breaks the pattern.',
+        },
+        {
+          id: '5',
+          question: 'Can I choose which images appear in the exercises?',
+          answer: 'Yes. You select theme categories and the generator creates groups from those images. You can also manually choose specific images for precise control over which items appear together and which is the odd one.',
+        },
+        {
+          id: '6',
+          question: 'What age group are odd one out worksheets designed for?',
+          answer: 'Odd one out worksheets suit children ages 3 to 7, from preschool through first grade. Use Identical mode with 5 exercises for younger learners and Similar mode with 10 exercises for more advanced students.',
+        },
+        {
+          id: '7',
+          question: 'How does Similar mode make the worksheets harder?',
+          answer: 'Similar mode uses different images from the same category for the matching items. For example, three different dog images with one cat. Students cannot simply match identical pictures but must recognize categorical relationships and subtle differences.',
+        },
+        {
+          id: '8',
+          question: 'Can I add a name and date field to the worksheet?',
+          answer: 'Yes. The generator includes optional name and date fields at the top of the worksheet. This helps teachers organize completed work and track student progress over time.',
+        },
+        {
+          id: '9',
+          question: 'Do odd one out worksheets include answer keys?',
+          answer: 'Yes. Every worksheet generates an automatic answer key that circles or highlights the odd item in each exercise. Teachers can print it separately for efficient grading.',
+        },
+        {
+          id: '10',
+          question: 'Can I use these worksheets for standardized test preparation?',
+          answer: 'Yes. Many standardized assessments for young children include visual discrimination sections similar to odd one out exercises. Regular practice with these worksheets builds the pattern recognition skills tested in cognitive ability assessments.',
+        },
+        {
+          id: '11',
+          question: 'Are odd one out worksheets available in multiple languages?',
+          answer: 'Yes. The generator supports 11 languages including English, German, French, Spanish, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian, and Finnish. All labels and instructions translate automatically.',
+        },
+        {
+          id: '12',
+          question: 'How do I print odd one out worksheets?',
+          answer: 'Export as a high-resolution 300 DPI PDF or JPEG and print on any standard printer. Color printing is recommended so students can use visual details like color differences to identify the odd item.',
+        },
+        {
+          id: '13',
+          question: 'Can I sell odd one out worksheets commercially?',
+          answer: 'Yes. The commercial license allows you to sell printed worksheets on Teachers Pay Teachers, include them in educational activity books, or distribute them in paid tutoring programs.',
+        },
+        {
+          id: '14',
+          question: 'How do I differentiate odd one out worksheets for mixed abilities?',
+          answer: 'Use Identical mode with 5 exercises and large images for struggling learners. Use Similar mode with 8 to 10 exercises for on-level students. For gifted learners, combine Similar mode with thematically close categories that require careful observation.',
+        },
+        {
+          id: '15',
+          question: 'Can odd one out worksheets be used without reading skills?',
+          answer: 'Yes. The entirely visual format requires no reading or writing. Students simply look at picture groups and circle or mark the different item. This makes them accessible to pre-readers, ESL students, and children with language delays.',
+        },
+        {
+          id: '16',
+          question: 'What makes a good odd one out exercise?',
+          answer: 'The best exercises use items from the same broad category with one item from a clearly different category. For example, three fruits and one vehicle. This teaches categorical thinking rather than just visual matching.',
+        },
+        {
+          id: '17',
+          question: 'How long does it take students to complete one worksheet?',
+          answer: 'A 5-exercise worksheet typically takes 3 to 5 minutes. A 10-exercise worksheet takes 8 to 12 minutes. Similar mode takes longer because students need to compare more carefully. They work well as warm-ups or transition activities.',
+        },
+        {
+          id: '18',
+          question: 'Can I number the exercises on the worksheet?',
+          answer: 'Yes. The generator includes an option to add exercise numbers. Numbered exercises help teachers reference specific items during group discussion and make it easier for students to identify where they need help.',
+        },
+        {
+          id: '19',
+          question: 'Can I combine odd one out with other worksheet types?',
+          answer: 'Yes. Odd one out pairs naturally with picture sort worksheets for a classification skills day, or with find-objects worksheets for visual discrimination practice. Use matching themes across generators for cohesive packets.',
+        },
+        {
+          id: '20',
+          question: 'How do odd one out worksheets support early math skills?',
+          answer: 'Categorization and classification are foundational math skills. Identifying attributes, sorting by properties, and recognizing what does not belong directly supports Common Core math standards for kindergarten, including K.MD.B.3 on classifying objects.',
+        },
+      ]
     
   },
 

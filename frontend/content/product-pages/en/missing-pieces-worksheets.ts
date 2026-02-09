@@ -137,7 +137,108 @@ Generate worksheets in 11 languages including English, Spanish, French, and Germ
     sectionDescription: 'Teachers and parents ask common questions about creating effective educational materials. Understanding worksheet capabilities helps educators make informed decisions. These detailed answers address the most frequent concerns about missing pieces puzzle generation. Learn how the platform supports specific teaching objectives across subjects and grade levels.',
     showMoreText: 'Show more questions',
     showLessText: 'Show less',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+        {
+          id: '1',
+          question: 'What is a missing pieces worksheet?',
+          answer: 'A missing pieces worksheet shows an image with one or more sections removed. Below the image, students see multiple options and must identify which piece correctly fills each gap. It develops visual discrimination and spatial reasoning skills.',
+        },
+        {
+          id: '2',
+          question: 'How many pieces can be removed from an image?',
+          answer: 'You can remove between 1 and 5 pieces from each image. Removing just 1 piece is easiest for young learners, while removing 5 pieces creates a challenging puzzle that requires careful observation of multiple areas simultaneously.',
+        },
+        {
+          id: '3',
+          question: 'How many answer options appear below each puzzle?',
+          answer: 'You can set between 2 and 6 solution options. Fewer options make the puzzle easier, while more options increase difficulty by requiring finer visual discrimination between similar-looking pieces.',
+        },
+        {
+          id: '4',
+          question: 'What shapes can the missing pieces be?',
+          answer: 'Six piece shapes are available: square, circle, rectangle, ellipse, and more. Different shapes change the visual challenge because circular pieces remove directional cues that square pieces preserve.',
+        },
+        {
+          id: '5',
+          question: 'How do missing pieces worksheets develop cognitive skills?',
+          answer: 'These worksheets build visual discrimination, spatial reasoning, attention to detail, and problem-solving. Students must mentally rotate and compare pieces, strengthening the same visual processing skills used in reading and math.',
+        },
+        {
+          id: '6',
+          question: 'What age group benefits most from missing pieces activities?',
+          answer: 'Missing pieces worksheets are ideal for children ages 3 to 7, spanning preschool through first grade. Younger children work with 1 piece and 2 options, while older students tackle 5 missing pieces with 6 options.',
+        },
+        {
+          id: '7',
+          question: 'Are missing pieces worksheets suitable for children with learning differences?',
+          answer: 'Yes. The visual, non-text format works well for students with reading difficulties, ESL learners, and children with language delays. Difficulty can be precisely adjusted through piece count and option count to match individual ability levels.',
+        },
+        {
+          id: '8',
+          question: 'Can I use any image for missing pieces puzzles?',
+          answer: 'Yes. Choose from over 3000 images across themes like animals, vehicles, food, and nature. Images with distinct colors and patterns in different areas create the most effective puzzles because the pieces are easier to distinguish.',
+        },
+        {
+          id: '9',
+          question: 'Do missing pieces worksheets come with answer keys?',
+          answer: 'Yes. Every worksheet generates an automatic answer key that shows which option fits each missing section. Teachers can use it for quick grading or provide it to students for self-checking.',
+        },
+        {
+          id: '10',
+          question: 'Can I print missing pieces worksheets on a regular printer?',
+          answer: 'Yes. Worksheets export as high-resolution 300 DPI files that print clearly on any home or school printer. Color printing is recommended to preserve the visual details that students need to match pieces accurately.',
+        },
+        {
+          id: '11',
+          question: 'How do I adjust difficulty for different skill levels?',
+          answer: 'Start with 1 missing piece and 2 options for beginners. Increase to 3 pieces with 4 options for intermediate learners. Use 5 pieces with 6 options and smaller piece shapes for advanced students who need a challenge.',
+        },
+        {
+          id: '12',
+          question: 'Can missing pieces worksheets be used for assessment?',
+          answer: 'Yes. They effectively assess visual perception, spatial reasoning, and attention to detail without requiring reading or writing. This makes them useful for evaluating cognitive skills in pre-readers and English language learners.',
+        },
+        {
+          id: '13',
+          question: 'Are missing pieces worksheets available in multiple languages?',
+          answer: 'Yes. Instructions and labels are available in 11 languages including English, German, French, Spanish, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian, and Finnish.',
+        },
+        {
+          id: '14',
+          question: 'Can I sell missing pieces worksheets I create?',
+          answer: 'Yes. The commercial license allows you to sell printed worksheets on platforms like Teachers Pay Teachers, include them in activity books, or use them in paid tutoring sessions.',
+        },
+        {
+          id: '15',
+          question: 'How long does it take to create a missing pieces worksheet?',
+          answer: 'About 2 to 3 minutes. Select an image, choose piece count and shape, set the number of options, and generate. The system automatically removes pieces and creates distractor options.',
+        },
+        {
+          id: '16',
+          question: 'What skills do missing pieces worksheets prepare children for?',
+          answer: 'These puzzles prepare children for jigsaw puzzles, reading (letter discrimination), math (shape recognition), and standardized test sections that use visual reasoning questions. The observation skills transfer broadly across subjects.',
+        },
+        {
+          id: '17',
+          question: 'Can I use missing pieces worksheets in therapy settings?',
+          answer: 'Yes. Occupational therapists and special educators use these worksheets for visual perception training, figure-ground discrimination, and spatial awareness development. The adjustable difficulty supports individualized therapy goals.',
+        },
+        {
+          id: '18',
+          question: 'How are distractor options generated?',
+          answer: 'The system automatically creates incorrect options by taking pieces from other parts of the same image or applying slight modifications. This ensures distractors look plausible but are detectably different from the correct piece.',
+        },
+        {
+          id: '19',
+          question: 'Can I combine missing pieces with other worksheet types?',
+          answer: 'Yes. Missing pieces pair well with find-objects worksheets for a visual skills day, or with pattern worksheets for spatial reasoning practice. Use the same theme images across generators for cohesive activity packets.',
+        },
+        {
+          id: '20',
+          question: 'What is the educational theory behind missing pieces puzzles?',
+          answer: 'Missing pieces activities are grounded in Gestalt psychology and visual closure theory. The brain naturally tries to complete incomplete images, and practicing this skill strengthens neural pathways used in reading, writing, and mathematical reasoning.',
+        },
+      ]
     
   },
 

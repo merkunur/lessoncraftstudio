@@ -133,7 +133,108 @@ Full Access subscription costs $240 annually or $25 monthly. This includes all 3
     sectionDescription: 'Teachers ask common questions about creating picture sorting worksheets for kindergarten through first grade. Questions cover subscription requirements, printing capabilities, customization options, and commercial licensing. Answers help kindergarten teachers, first grade teachers, homeschool parents, and ESL instructors understand full platform capabilities.',
     showMoreText: 'Show more questions',
     showLessText: 'Show less',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+        {
+          id: '1',
+          question: 'What is a picture sort worksheet?',
+          answer: 'A picture sort worksheet has two sections. The top shows labeled category containers, and the bottom displays a grid of mixed pictures. Students cut out the pictures and paste them into the correct category, building classification and fine motor skills.',
+        },
+        {
+          id: '2',
+          question: 'How does the cut-and-paste format work?',
+          answer: 'Students cut individual pictures from the grid at the bottom of the worksheet. They then sort each picture into one of the category containers at the top based on shared attributes like color, size, shape, or function. Glue sticks complete the activity.',
+        },
+        {
+          id: '3',
+          question: 'What attributes can students sort by?',
+          answer: 'Pictures can be sorted by color, size, shape, function, category, or theme. For example, sorting animals versus vehicles, big versus small items, or red versus blue objects. The sorting criteria depend on the images and categories you choose.',
+        },
+        {
+          id: '4',
+          question: 'Can I choose the sorting categories myself?',
+          answer: 'Yes. You can select theme-based categories from the image library or manually choose specific images for each category. This gives you full control over what students sort and which classification skills they practice.',
+        },
+        {
+          id: '5',
+          question: 'How many categories can I include on one worksheet?',
+          answer: 'Worksheets typically include 2 to 4 sorting categories. Two categories create a simpler binary sort for younger learners, while 3 to 4 categories challenge students to make finer distinctions between groups.',
+        },
+        {
+          id: '6',
+          question: 'What age group are picture sort worksheets designed for?',
+          answer: 'Picture sort worksheets are ideal for children ages 3 to 7, from preschool through first grade. The cut-and-paste format is especially engaging for kinesthetic learners who benefit from hands-on activities.',
+        },
+        {
+          id: '7',
+          question: 'Do picture sort worksheets develop fine motor skills?',
+          answer: 'Yes. Cutting, sorting, and pasting require precise hand movements that strengthen fine motor control. These same skills support handwriting development, making picture sorts a dual-purpose activity for early childhood classrooms.',
+        },
+        {
+          id: '8',
+          question: 'Can I use picture sorts without cutting and pasting?',
+          answer: 'Yes. Students can draw lines from pictures to categories, write the category number next to each picture, or color-code items instead of cutting. This adapts the activity for settings where scissors are not available.',
+        },
+        {
+          id: '9',
+          question: 'Do picture sort worksheets include answer keys?',
+          answer: 'Yes. Every worksheet generates an automatic answer key showing which pictures belong in each category. Teachers can use it for quick checking or display it for students to self-correct their work.',
+        },
+        {
+          id: '10',
+          question: 'Can I print picture sort worksheets at home?',
+          answer: 'Yes. Worksheets export as high-resolution 300 DPI PDFs that print clearly on any printer. Use heavier paper or cardstock for the cut-and-paste version so pieces are easier for small hands to manipulate.',
+        },
+        {
+          id: '11',
+          question: 'How do picture sorts align with educational standards?',
+          answer: 'Picture sorting directly supports Common Core math standard K.MD.B.3 (classify objects into given categories and count the number in each category) and science standards requiring observation and classification skills.',
+        },
+        {
+          id: '12',
+          question: 'Can I differentiate picture sorts for different ability levels?',
+          answer: 'Yes. Use 2 obviously different categories with large images for beginners. For intermediate students, use 3 categories with related themes. For advanced learners, use 4 categories with subtle distinctions between groups.',
+        },
+        {
+          id: '13',
+          question: 'How long does a picture sort activity take?',
+          answer: 'A simple 2-category sort takes about 10 minutes including cutting and pasting. A 4-category sort with many pictures can take 15 to 20 minutes. Without cutting, the activity takes about half that time.',
+        },
+        {
+          id: '14',
+          question: 'Are picture sort worksheets available in multiple languages?',
+          answer: 'Yes. Category labels and instructions are available in 11 languages including English, German, French, Spanish, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian, and Finnish.',
+        },
+        {
+          id: '15',
+          question: 'Can I sell picture sort worksheets commercially?',
+          answer: 'Yes. The commercial license allows you to sell printed worksheets on Teachers Pay Teachers, include them in educational bundles, or use them in paid tutoring and therapy sessions.',
+        },
+        {
+          id: '16',
+          question: 'What makes picture sorting important for early learning?',
+          answer: 'Sorting and classifying are foundational cognitive skills. Children who practice categorization develop stronger vocabulary, better reading comprehension, and improved mathematical thinking because these skills require identifying attributes and relationships.',
+        },
+        {
+          id: '17',
+          question: 'Can I use picture sorts in occupational therapy?',
+          answer: 'Yes. Occupational therapists use picture sorts to work on visual discrimination, categorization, fine motor skills (cutting and pasting), and executive function (planning and organizing). The adjustable difficulty supports individualized therapy goals.',
+        },
+        {
+          id: '18',
+          question: 'How many pictures should I include for sorting?',
+          answer: 'Include 6 to 12 pictures for younger children and up to 16 for older students. Each category should have roughly equal numbers of items so students cannot guess categories by counting remaining pieces.',
+        },
+        {
+          id: '19',
+          question: 'Can I combine picture sorts with other worksheet types?',
+          answer: 'Yes. Picture sorts pair naturally with odd one out worksheets for classification practice, or with chart count worksheets for data collection activities. Use the same theme images for cohesive learning packets.',
+        },
+        {
+          id: '20',
+          question: 'What themes work best for picture sort worksheets?',
+          answer: 'Themes with clear categorical distinctions work best: animals versus vehicles, fruits versus vegetables, land versus water animals, or seasonal items. Avoid themes where items could logically fit multiple categories unless ambiguity is the learning goal.',
+        },
+      ]
     
   },
 

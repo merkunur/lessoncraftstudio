@@ -133,7 +133,108 @@ Perfect for kindergarten teachers and first grade educators who need quality pre
     sectionDescription: 'Teachers ask common questions about creating prepositions worksheets for kindergarten through first grade. Questions cover subscription requirements, printing capabilities, customization options, and commercial licensing. Answers help kindergarten teachers, first grade teachers, homeschool parents, and ESL instructors understand full platform capabilities.',
     showMoreText: 'Show more questions',
     showLessText: 'Show less',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+        {
+          id: '1',
+          question: 'What prepositions do these worksheets teach?',
+          answer: 'The worksheets teach 8 spatial prepositions: in, on top of, under, next to, behind, between, above, and in front of. Each exercise shows an image arrangement that visually demonstrates one of these spatial relationships.',
+        },
+        {
+          id: '2',
+          question: 'What exercise formats are available?',
+          answer: 'Two formats are available: fill-in-the-blank and multiple choice. Fill-in-the-blank has students write the correct preposition after viewing the image. Multiple choice offers several preposition options to select from, making it more accessible for emerging writers.',
+        },
+        {
+          id: '3',
+          question: 'How many exercises can I put on one worksheet?',
+          answer: 'You can include 1 to 8 exercises per worksheet. Each exercise focuses on one preposition with its own image arrangement. Fewer exercises leave more space for writing and are better for younger learners.',
+        },
+        {
+          id: '4',
+          question: 'How do the images demonstrate prepositions visually?',
+          answer: 'Each exercise arranges two images to show a spatial relationship. For example, a cat ON TOP OF a table, a ball UNDER a chair, or a bird BETWEEN two trees. The visual arrangement makes the abstract concept of each preposition concrete and observable.',
+        },
+        {
+          id: '5',
+          question: 'Can I choose which prepositions to practice?',
+          answer: 'Yes. You can select specific prepositions from the list of 8 options or let the generator randomly assign them. This allows you to focus on prepositions students find challenging or create a comprehensive review of all 8.',
+        },
+        {
+          id: '6',
+          question: 'What age group are preposition worksheets designed for?',
+          answer: 'Preposition worksheets are designed for children ages 4 to 7, covering kindergarten through first grade. Fill-in-the-blank suits students who can write, while multiple choice works for younger children or those still developing writing skills.',
+        },
+        {
+          id: '7',
+          question: 'Why is learning prepositions important for young children?',
+          answer: 'Prepositions are essential for following directions, understanding stories, and describing the physical world. Children who master spatial language perform better in reading comprehension, math (geometry), and daily communication with teachers and peers.',
+        },
+        {
+          id: '8',
+          question: 'Can ESL students benefit from preposition worksheets?',
+          answer: 'Yes. Spatial prepositions are challenging for English language learners because they vary significantly across languages. The visual format provides concrete context that helps ESL students connect English prepositions to spatial concepts they already understand.',
+        },
+        {
+          id: '9',
+          question: 'Do preposition worksheets include answer keys?',
+          answer: 'Yes. Every worksheet generates an automatic answer key showing the correct preposition for each exercise. Teachers can use it for grading or provide it to students for self-checking and immediate feedback.',
+        },
+        {
+          id: '10',
+          question: 'Can I print preposition worksheets at home?',
+          answer: 'Yes. Export as a high-resolution 300 DPI PDF or JPEG and print on any standard printer. Color printing helps because the image arrangements are clearer with full-color pictures.',
+        },
+        {
+          id: '11',
+          question: 'How do I differentiate preposition worksheets?',
+          answer: 'For beginners, use multiple choice format with 2 to 3 exercises focusing on concrete prepositions like in and on. For advanced learners, use fill-in-the-blank with 8 exercises covering all prepositions including behind, between, and above.',
+        },
+        {
+          id: '12',
+          question: 'Are preposition worksheets available in other languages?',
+          answer: 'Yes. The generator supports 11 languages. Prepositions are translated into each language so students can learn spatial vocabulary in German, French, Spanish, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian, or Finnish.',
+        },
+        {
+          id: '13',
+          question: 'Can I sell preposition worksheets commercially?',
+          answer: 'Yes. The commercial license allows you to sell printed worksheets on Teachers Pay Teachers, include them in grammar or vocabulary bundles, or use them in paid language tutoring sessions.',
+        },
+        {
+          id: '14',
+          question: 'How do preposition worksheets support reading readiness?',
+          answer: 'Understanding spatial language is a reading readiness skill. Children who know prepositions better comprehend directional instructions in texts, follow multi-step directions, and understand spatial descriptions in stories.',
+        },
+        {
+          id: '15',
+          question: 'Can I use the same images across multiple preposition exercises?',
+          answer: 'Yes. Using familiar images across exercises lets students focus on the preposition rather than processing new vocabulary. A cat that appears in, on, under, and next to a box teaches all four prepositions with consistent visual context.',
+        },
+        {
+          id: '16',
+          question: 'How long does a preposition worksheet take to complete?',
+          answer: 'A 4-exercise multiple choice worksheet takes about 5 minutes. An 8-exercise fill-in-the-blank worksheet takes 10 to 15 minutes. These work well as focused mini-lessons or as part of a larger literacy center rotation.',
+        },
+        {
+          id: '17',
+          question: 'Do preposition worksheets align with educational standards?',
+          answer: 'Yes. They support Common Core Language standards L.K.1.E (prepositions) and Speaking and Listening standards for understanding spatial vocabulary. They also connect to math geometry standards involving positional words.',
+        },
+        {
+          id: '18',
+          question: 'Can preposition worksheets be used in speech therapy?',
+          answer: 'Yes. Speech-language pathologists use these worksheets to teach spatial language concepts. The visual format provides structured practice with clear image cues, and difficulty adjusts through format choice and preposition selection.',
+        },
+        {
+          id: '19',
+          question: 'Can I combine prepositions with other worksheet types?',
+          answer: 'Yes. Preposition worksheets pair well with treasure hunt worksheets for directional language practice, or with drawing worksheets where students draw objects in specific spatial positions. Both reinforce spatial vocabulary in different ways.',
+        },
+        {
+          id: '20',
+          question: 'What is the best way to introduce prepositions in the classroom?',
+          answer: 'Start with physical demonstrations (placing objects in, on, and under furniture), then transition to the worksheets. Begin with multiple choice format and 3 concrete prepositions. Add fill-in-the-blank and abstract prepositions like between and behind as students gain confidence.',
+        },
+      ]
     
   },
 

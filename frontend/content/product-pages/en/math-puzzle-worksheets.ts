@@ -133,7 +133,108 @@ The puzzles use familiar images children love. Select from our 3000+ image libra
     sectionDescription: 'Teachers ask common questions about math puzzle worksheets and related materials. These answers address pricing, compatibility with other worksheets, and practical classroom use. Learn how math puzzles integrate with alphabet worksheets, phonics materials, tracing activities, and coloring pages. Understand subscription benefits for creating comprehensive kindergarten and first grade worksheet collections.',
     showMoreText: 'Show more questions',
     showLessText: 'Show less',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+        {
+          id: '1',
+          question: 'What is a math puzzle worksheet?',
+          answer: 'A math puzzle worksheet displays a single image divided into a grid (2x2, 3x3, or 4x4). Each grid cell contains a math problem that students must solve. Correct answers reveal the complete picture, combining arithmetic practice with visual puzzle solving.',
+        },
+        {
+          id: '2',
+          question: 'What grid sizes are available for math puzzles?',
+          answer: 'Three grid sizes are available: 2x2 (4 problems per puzzle), 3x3 (9 problems), and 4x4 (16 problems). Smaller grids suit younger learners while larger grids provide more challenging practice for advanced students.',
+        },
+        {
+          id: '3',
+          question: 'Which math operations can I include in the puzzles?',
+          answer: 'You can choose addition, subtraction, or mixed operations. Mixed mode randomly alternates between addition and subtraction problems within the same puzzle, giving students practice with both skills simultaneously.',
+        },
+        {
+          id: '4',
+          question: 'How does the puzzle image work with the math problems?',
+          answer: 'The same image repeats across every cell in the grid, but each cell has a different math problem. When students solve all problems correctly, they can see the full picture. This visual reward motivates children to complete every problem.',
+        },
+        {
+          id: '5',
+          question: 'Can I choose which images appear in the math puzzles?',
+          answer: 'Yes. You can select any image from the library of over 3000 pictures organized by theme. The chosen image is automatically divided into grid sections, with each section paired with a unique math problem.',
+        },
+        {
+          id: '6',
+          question: 'What age group are math puzzle worksheets designed for?',
+          answer: 'Math puzzle worksheets are designed for kindergarten through first grade, typically ages 4 to 7. The 2x2 grid with simple addition is ideal for beginners, while the 4x4 grid with mixed operations challenges more advanced students.',
+        },
+        {
+          id: '7',
+          question: 'Are math puzzles appropriate for students who struggle with traditional worksheets?',
+          answer: 'Yes. The puzzle format engages students who find traditional drill worksheets boring. The visual reward of revealing a picture motivates reluctant learners and makes math practice feel like a game rather than a chore.',
+        },
+        {
+          id: '8',
+          question: 'Can I adjust the difficulty of the math problems?',
+          answer: 'Difficulty is controlled through grid size and operation type. Start with 2x2 addition-only puzzles for beginners. Progress to 3x3 mixed operations for intermediate learners, and 4x4 mixed for advanced practice.',
+        },
+        {
+          id: '9',
+          question: 'Do math puzzle worksheets include answer keys?',
+          answer: 'Yes. Every math puzzle worksheet generates an automatic answer key showing the correct solution for each grid cell. Teachers can print the answer key separately for quick grading or self-checking.',
+        },
+        {
+          id: '10',
+          question: 'Can I print math puzzle worksheets at home?',
+          answer: 'Yes. Worksheets export as high-resolution 300 DPI PDF or JPEG files that print clearly on any home printer. Standard letter-size paper works perfectly for all grid sizes.',
+        },
+        {
+          id: '11',
+          question: 'How do math puzzles differ from regular math worksheets?',
+          answer: 'Regular math worksheets list problems in rows. Math puzzles arrange problems in a visual grid over an image, turning arithmetic into a puzzle-solving activity. This dual engagement improves both math fluency and visual-spatial skills.',
+        },
+        {
+          id: '12',
+          question: 'Can I use math puzzle worksheets for timed practice?',
+          answer: 'Yes. The grid format works well for timed challenges. A 2x2 puzzle makes a quick 2-minute warm-up, while a 4x4 puzzle can serve as a 10-minute focused practice session. The visual completion provides a clear finish point.',
+        },
+        {
+          id: '13',
+          question: 'Are math puzzle worksheets available in languages other than English?',
+          answer: 'Yes. The generator supports 11 languages including English, German, French, Spanish, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian, and Finnish. Instructions and labels adapt to each language automatically.',
+        },
+        {
+          id: '14',
+          question: 'Can I use these worksheets commercially or sell them?',
+          answer: 'Yes. The commercial license lets you sell printed worksheets on platforms like Teachers Pay Teachers. You can include them in worksheet bundles, classroom packets, or activity books for resale.',
+        },
+        {
+          id: '15',
+          question: 'How many math puzzle worksheets can I create?',
+          answer: 'There is no limit. Free users can create unlimited worksheets. Premium subscribers get additional features like removing watermarks and accessing the full image library.',
+        },
+        {
+          id: '16',
+          question: 'Do math puzzles align with Common Core standards?',
+          answer: 'Yes. Math puzzle worksheets support Common Core standards K.OA.A.1 through 1.OA.C.6, covering addition and subtraction within 20. The visual format also supports the mathematical practice of making sense of problems.',
+        },
+        {
+          id: '17',
+          question: 'Can I differentiate math puzzles for mixed-ability classrooms?',
+          answer: 'Yes. Create 2x2 addition puzzles for struggling students, 3x3 mixed puzzles for on-level learners, and 4x4 subtraction puzzles for advanced students. All can use the same theme image for visual consistency across groups.',
+        },
+        {
+          id: '18',
+          question: 'How do math puzzles support visual learners?',
+          answer: 'The image-based format gives visual learners a concrete connection between abstract math problems and a recognizable picture. Seeing the image come together as they solve problems reinforces the satisfaction of correct answers.',
+        },
+        {
+          id: '19',
+          question: 'Can I combine math puzzles with other worksheet types?',
+          answer: 'Yes. Math puzzles pair well with coloring worksheets for a visual math day, or with addition and subtraction drill sheets for varied practice. Create themed packets using the same images across different generators.',
+        },
+        {
+          id: '20',
+          question: 'What is the best way to use math puzzles in a classroom?',
+          answer: 'Use 2x2 puzzles as warm-up activities, 3x3 puzzles for independent practice, and 4x4 puzzles for challenge stations. They also work well as early-finisher activities, math center rotations, or homework assignments that feel engaging.',
+        },
+      ]
     
   },
 

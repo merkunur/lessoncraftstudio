@@ -131,7 +131,108 @@ Our cryptogram worksheet generator creates custom puzzles in 11 languages. Uploa
     sectionDescription: 'Teachers ask common questions about using our picture cryptogram generator for creating kindergarten worksheets and first grade worksheets. This section answers frequently asked questions covering worksheet creation, customization, commercial licensing, and technical requirements.',
     showMoreText: 'Show more questions',
     showLessText: 'Show less',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+        {
+          id: '1',
+          question: 'What is a picture cryptogram worksheet?',
+          answer: 'A picture cryptogram replaces letters in a secret message with pictures. Each picture represents a specific letter. Students match pictures to letters using a decoder key to reveal a hidden word or phrase, combining code-breaking with alphabet practice.',
+        },
+        {
+          id: '2',
+          question: 'How does the picture-to-letter code work?',
+          answer: 'Each letter in the alphabet is assigned a unique picture. The secret message displays pictures in place of letters. Students look up each picture in the decoder key to find its corresponding letter, then write the letter below to spell out the message.',
+        },
+        {
+          id: '3',
+          question: 'Can I adjust the difficulty of cryptogram puzzles?',
+          answer: 'Yes. You can reveal 3 to 5 letters as starter clues. More revealed letters make the puzzle easier for beginners. Fewer revealed letters challenge advanced students to decode more of the message independently using context and letter patterns.',
+        },
+        {
+          id: '4',
+          question: 'What types of messages can I encode?',
+          answer: 'You can encode alphabet practice words, sight words, phonics patterns, math vocabulary, or custom phrases. The generator offers themed word lists or lets you type any message that uses the available alphabet characters.',
+        },
+        {
+          id: '5',
+          question: 'Can I choose which pictures represent the letters?',
+          answer: 'Yes. You can select images from the library of over 3000 pictures organized by theme. Each image is assigned to one letter, creating a unique visual code. Themed codes (all animals, all food) add an extra layer of engagement.',
+        },
+        {
+          id: '6',
+          question: 'What age group are cryptogram worksheets designed for?',
+          answer: 'Cryptogram worksheets are designed for children ages 5 to 8, from kindergarten through second grade. They are most effective for students who know their letters and are ready to practice letter recognition in a playful context.',
+        },
+        {
+          id: '7',
+          question: 'How do cryptograms help with alphabet learning?',
+          answer: 'Decoding each picture forces students to write the corresponding letter, reinforcing letter formation and recognition. Processing the entire message builds fluency with the alphabet sequence and strengthens the connection between visual symbols and letter names.',
+        },
+        {
+          id: '8',
+          question: 'Can cryptograms be used for sight word practice?',
+          answer: 'Yes. Encode common sight words as the secret message. Students decode each word letter by letter, which reinforces spelling and letter sequence. This approach makes sight word drill feel like a puzzle rather than rote memorization.',
+        },
+        {
+          id: '9',
+          question: 'Do cryptogram worksheets include answer keys?',
+          answer: 'Yes. Every worksheet generates an automatic answer key showing the decoded message with all letters revealed. Teachers can use it for quick grading or provide it to students for self-checking after they attempt the puzzle.',
+        },
+        {
+          id: '10',
+          question: 'Can I print cryptogram worksheets at home?',
+          answer: 'Yes. Worksheets export as high-resolution 300 DPI PDFs that print clearly on any printer. Color printing is recommended so students can clearly see the picture codes and match them to the decoder key.',
+        },
+        {
+          id: '11',
+          question: 'How do cryptograms support phonics instruction?',
+          answer: 'Encode words that follow specific phonics patterns (CVC words, blends, digraphs). As students decode letter by letter, they naturally sound out the word, reinforcing phonemic awareness and letter-sound correspondence in a motivating puzzle format.',
+        },
+        {
+          id: '12',
+          question: 'Are cryptogram worksheets available in multiple languages?',
+          answer: 'Yes. The generator supports 11 languages including English, German, French, Spanish, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian, and Finnish. Special characters and accented letters for each language are handled automatically.',
+        },
+        {
+          id: '13',
+          question: 'Can I sell cryptogram worksheets commercially?',
+          answer: 'Yes. The commercial license allows you to sell printed worksheets on Teachers Pay Teachers, include them in literacy activity packs, or use them in paid tutoring and enrichment programs.',
+        },
+        {
+          id: '14',
+          question: 'How long does a cryptogram worksheet take to complete?',
+          answer: 'A short word takes 3 to 5 minutes. A full phrase with 15 to 20 letters takes 10 to 15 minutes. Students who are still learning the alphabet will take longer as they search the decoder key for each picture.',
+        },
+        {
+          id: '15',
+          question: 'Can I differentiate cryptograms for mixed-ability classrooms?',
+          answer: 'Yes. Give struggling students short words with 5 revealed letters. Provide on-level students with phrases and 3 revealed letters. Challenge advanced students with longer messages, fewer clues, and themed vocabulary like science or geography terms.',
+        },
+        {
+          id: '16',
+          question: 'What is the educational value of code-breaking activities?',
+          answer: 'Code-breaking develops logical reasoning, pattern recognition, persistence, and sequential thinking. Students must systematically apply rules (picture equals letter) to transform information, which is the same cognitive process used in reading and mathematics.',
+        },
+        {
+          id: '17',
+          question: 'Can cryptograms be used for ESL vocabulary building?',
+          answer: 'Yes. Encode vocabulary words from current lessons. As ESL students decode each word, they practice letter recognition in English while reinforcing new vocabulary. The visual picture codes provide additional context clues for meaning.',
+        },
+        {
+          id: '18',
+          question: 'How do I create themed cryptogram activities?',
+          answer: 'Choose pictures from a single theme (all animals, all food) for the decoder key, then encode a related message. For example, use animal pictures to decode the message "VISIT THE ZOO." The theme connection adds coherence and engagement.',
+        },
+        {
+          id: '19',
+          question: 'Can I combine cryptograms with other worksheet types?',
+          answer: 'Yes. Cryptograms pair well with word search puzzles for a code-breaking and word-finding day, or with crossword worksheets for vocabulary building. Create spy-themed or detective-themed packets combining multiple puzzle types.',
+        },
+        {
+          id: '20',
+          question: 'What makes picture cryptograms different from traditional cryptograms?',
+          answer: 'Traditional cryptograms replace letters with other letters or numbers. Picture cryptograms use images instead, making them accessible to young children who may not yet know all their letters. The visual format is more engaging and less intimidating than symbol-based codes.',
+        },
+      ]
     
   },
 

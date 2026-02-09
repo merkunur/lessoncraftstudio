@@ -239,6 +239,71 @@ Aktivieren Sie den Graustufen-Modus vor dem Download, wenn gewünscht. Diese Opt
         question: 'Was kostet das Vollzugriff Abonnement f\u00fcr den Puzzle-Generator?',
         answer: 'Das Vollzugriff Abonnement kostet 240\u20ac pro Jahr und umfasst alle 33 Arbeitsblatt-Generatoren. Sie erstellen unbegrenzt Puzzle-Arbeitsbl\u00e4tter und alle anderen Arbeitsblatttypen. Die kommerzielle Lizenz f\u00fcr den Verkauf ist inklusive. Jederzeit k\u00fcndbar.',
       },
+      {
+        id: 'faq-8',
+        question: 'Kann ich den Fehlende-Teile Generator kostenlos testen?',
+        answer: 'Ja, Sie k\u00f6nnen ohne Registrierung sofort Puzzle-Arbeitsbl\u00e4tter erstellen. Die Vorschau zeigt Ihr fertiges Arbeitsblatt mit Wasserzeichen. Mit dem Vollzugriff laden Sie unbegrenzt ohne Wasserzeichen herunter. So testen Sie alle Schwierigkeitsstufen risikofrei.',
+      },
+      {
+        id: 'faq-9',
+        question: 'Welche Seitenformate stehen f\u00fcr den Druck zur Verf\u00fcgung?',
+        answer: 'Sie w\u00e4hlen zwischen Letter und A4 in Hoch- oder Querformat. Alle Arbeitsbl\u00e4tter werden in professioneller 300 DPI Qualit\u00e4t als PDF oder JPEG exportiert. Die Graustufen-Option spart Druckertinte bei farbigen Bildern.',
+      },
+      {
+        id: 'faq-10',
+        question: 'F\u00fcr welche Altersgruppen eignen sich Fehlende-Teile-Puzzles?',
+        answer: 'Einfache Puzzles mit wenigen gro\u00dfen Teilen eignen sich ab 3 Jahren f\u00fcr Kita-Kinder. Mittlere Schwierigkeit mit \u00e4hnlichen Formen ist ideal f\u00fcr Vorschulkinder. Komplexe Puzzles mit feinen Details fordern Kinder in Klasse 1-2 heraus.',
+      },
+      {
+        id: 'faq-11',
+        question: 'Wie steuere ich den Schwierigkeitsgrad der Puzzles?',
+        answer: 'Die Schwierigkeit wird \u00fcber die Anzahl der Auswahlm\u00f6glichkeiten und die \u00c4hnlichkeit der Teile gesteuert. Wenige deutlich verschiedene Teile sind einfach, viele \u00e4hnliche Teile mit feinen Unterschieden sind schwieriger. Die Position des fehlenden Teils beeinflusst ebenfalls den Schwierigkeitsgrad.',
+      },
+      {
+        id: 'faq-12',
+        question: 'Welche Sprachen unterst\u00fctzt der Fehlende-Teile Generator?',
+        answer: 'Der Generator unterst\u00fctzt 11 Sprachen: Deutsch, Englisch, Franz\u00f6sisch, Spanisch, Portugiesisch, Italienisch, Niederl\u00e4ndisch, Schwedisch, D\u00e4nisch, Norwegisch und Finnisch. Titel und Anweisungen werden automatisch in der gew\u00e4hlten Sprache generiert.',
+      },
+      {
+        id: 'faq-13',
+        question: 'Kann ich Fehlende-Teile-Puzzles mit anderen Generatoren kombinieren?',
+        answer: 'Ja, erstellen Sie thematische Wahrnehmungs-Pakete indem Sie Puzzles mit Schattenbildern, Raster-Puzzles oder Suchen-und-Z\u00e4hlen kombinieren. Alle Generatoren nutzen dieselbe Bildbibliothek. So trainieren Kinder visuelle Wahrnehmung in verschiedenen Aufgabenformaten.',
+      },
+      {
+        id: 'faq-14',
+        question: 'Darf ich Puzzle-Arbeitsbl\u00e4tter kommerziell verkaufen?',
+        answer: 'Ja, der Vollzugriff enth\u00e4lt eine kommerzielle Lizenz. Sie d\u00fcrfen erstellte Arbeitsbl\u00e4tter auf Plattformen wie Teachers Pay Teachers oder Lehrermarktplatz verkaufen. Auch der Einsatz in Ergotherapie-Praxen und Nachhilfe-Instituten ist erlaubt.',
+      },
+      {
+        id: 'faq-15',
+        question: 'Eignen sich Fehlende-Teile-Puzzles f\u00fcr DaF/DaZ-Kinder?',
+        answer: 'Ja, die rein visuellen Puzzles sind sprachunabh\u00e4ngig verst\u00e4ndlich. Kinder finden das passende Teil ohne Lesekompetenz. Das Aufgabenformat ist intuitiv und universell. Gleichzeitig erweitern die Bildmotive den Wortschatz auf spielerische Weise.',
+      },
+      {
+        id: 'faq-16',
+        question: 'Wie setze ich Fehlende-Teile-Puzzles zur Differenzierung ein?',
+        answer: 'Verwenden Sie wenige deutlich verschiedene Auswahlteile f\u00fcr Anf\u00e4nger und viele \u00e4hnliche Teile mit feinen Unterschieden f\u00fcr Fortgeschrittene. Die Bildkomplexit\u00e4t und Teilegr\u00f6\u00dfe steuern den Schwierigkeitsgrad. So arbeiten alle Kinder am selben Thema auf ihrem Niveau.',
+      },
+      {
+        id: 'faq-17',
+        question: 'Welche kognitiven F\u00e4higkeiten f\u00f6rdern Fehlende-Teile-Puzzles?',
+        answer: 'Die Puzzles trainieren visuelle Analyse, Teil-Ganzes-Beziehungen, r\u00e4umliches Denken und Konzentration. Kinder lernen Details zu erkennen, Formen zu vergleichen und logisch auszuschlie\u00dfen. Diese F\u00e4higkeiten sind Grundlagen f\u00fcr Lesen, Mathematik und Naturwissenschaften.',
+      },
+      {
+        id: 'faq-18',
+        question: 'Sind Fehlende-Teile-Puzzles an den Bildungsplan angepasst?',
+        answer: 'Die \u00dcbungen unterst\u00fctzen die Lernziele f\u00fcr Kita und Vorschule: visuelle Wahrnehmung, Formenerkennung und Probleml\u00f6sung. In der Grundschule f\u00f6rdern sie Konzentration und logisches Denken gem\u00e4\u00df den \u00fcbergreifenden Kompetenzzielen.',
+      },
+      {
+        id: 'faq-19',
+        question: 'Eignen sich Fehlende-Teile-Puzzles f\u00fcr Kinder mit F\u00f6rderbedarf?',
+        answer: 'Ja, einfache Puzzles mit wenigen deutlich verschiedenen Teilen bieten einen niedrigschwelligen Einstieg. Das visuelle Format erfordert keine sprachlichen oder mathematischen Vorkenntnisse. Das Erfolgserlebnis beim richtigen Zuordnen st\u00e4rkt das Selbstvertrauen.',
+      },
+      {
+        id: 'faq-20',
+        question: 'Kann ich Puzzle-Arbeitsbl\u00e4tter zu einem Heft zusammenstellen?',
+        answer: 'Ja, erstellen Sie verschiedene Puzzles von einfach bis komplex und laden Sie alle als PDF herunter. Ordnen Sie die Bl\u00e4tter progressiv nach Schwierigkeit. Mit einem PDF-Programm f\u00fcgen Sie Arbeitsbl\u00e4tter und L\u00f6sungsschl\u00fcssel zu einem druckfertigen Wahrnehmungsheft zusammen.',
+      },
     ],
 
   },

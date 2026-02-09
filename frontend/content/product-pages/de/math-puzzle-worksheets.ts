@@ -237,6 +237,71 @@ Laden Sie Arbeitsblatt und Lösungsblatt separat herunter für Ihre Unterlagen. 
         question: 'Kann ich mit jedem Klick ein neues Mathe-R\u00e4tsel erzeugen?',
         answer: 'Ja, bei jedem Klick auf Erstellen generiert der Generator ein komplett neues R\u00e4tsel mit zuf\u00e4lligen Zahlenwerten. So erstellen Sie schnell viele verschiedene Variationen f\u00fcr differenzierten Unterricht. Ihr Vollzugriff Abonnement beinhaltet unbegrenzte Generierungsversuche.',
       },
+      {
+        id: 'faq-8',
+        question: 'Kann ich den Mathe-R\u00e4tsel Generator kostenlos testen?',
+        answer: 'Ja, Sie k\u00f6nnen ohne Registrierung sofort Mathe-R\u00e4tsel erstellen. Die Vorschau zeigt Ihr fertiges Arbeitsblatt mit Wasserzeichen. Mit dem Vollzugriff laden Sie unbegrenzt ohne Wasserzeichen herunter. So testen Sie alle Rechenoperationen und R\u00e4tselformate risikofrei.',
+      },
+      {
+        id: 'faq-9',
+        question: 'Welche Seitenformate stehen f\u00fcr den Druck zur Verf\u00fcgung?',
+        answer: 'Sie w\u00e4hlen zwischen Letter und A4 in Hoch- oder Querformat. Alle Arbeitsbl\u00e4tter werden in professioneller 300 DPI Qualit\u00e4t als PDF oder JPEG exportiert. Die Graustufen-Option spart Druckertinte bei farbigen Bildern.',
+      },
+      {
+        id: 'faq-10',
+        question: 'F\u00fcr welche Altersgruppen eignen sich die Mathe-R\u00e4tsel?',
+        answer: 'Einfache Additions-R\u00e4tsel im Zahlenraum bis 10 eignen sich f\u00fcr Vorschulkinder ab 5 Jahren. Gemischte Operationen im Zahlenraum bis 20 sind ideal f\u00fcr Klasse 1-2. Anspruchsvolle R\u00e4tsel mit Multiplikation fordern Kinder in Klasse 3-4 heraus.',
+      },
+      {
+        id: 'faq-11',
+        question: 'Welche Rechenoperationen unterst\u00fctzt der Mathe-R\u00e4tsel Generator?',
+        answer: 'Der Generator erstellt R\u00e4tsel mit Addition, Subtraktion und gemischten Operationen. Die Zahlenwerte werden bei jedem Klick zuf\u00e4llig generiert. So entstehen unendlich viele Variationen f\u00fcr abwechslungsreiches \u00dcben aller Grundrechenarten.',
+      },
+      {
+        id: 'faq-12',
+        question: 'Welche Sprachen unterst\u00fctzt der Mathe-R\u00e4tsel Generator?',
+        answer: 'Der Generator unterst\u00fctzt 11 Sprachen: Deutsch, Englisch, Franz\u00f6sisch, Spanisch, Portugiesisch, Italienisch, Niederl\u00e4ndisch, Schwedisch, D\u00e4nisch, Norwegisch und Finnisch. Titel und Anweisungen werden automatisch in der gew\u00e4hlten Sprache generiert.',
+      },
+      {
+        id: 'faq-13',
+        question: 'Kann ich Mathe-R\u00e4tsel mit anderen Generatoren kombinieren?',
+        answer: 'Ja, erstellen Sie umfassende Mathe-Pakete indem Sie Mathe-R\u00e4tsel mit Additions-, Subtraktions- oder Muster-Arbeitsbl\u00e4ttern kombinieren. Alle Generatoren nutzen dieselbe Bildbibliothek. So \u00fcben Kinder Rechenoperationen in verschiedenen motivierenden R\u00e4tselformaten.',
+      },
+      {
+        id: 'faq-14',
+        question: 'Darf ich Mathe-R\u00e4tsel Arbeitsbl\u00e4tter kommerziell verkaufen?',
+        answer: 'Ja, der Vollzugriff enth\u00e4lt eine kommerzielle Lizenz. Sie d\u00fcrfen erstellte Arbeitsbl\u00e4tter auf Plattformen wie Teachers Pay Teachers oder Lehrermarktplatz verkaufen. Mathe-R\u00e4tsel sind besonders beliebte Verkaufsartikel f\u00fcr Grundschulmaterial.',
+      },
+      {
+        id: 'faq-15',
+        question: 'Eignen sich Mathe-R\u00e4tsel f\u00fcr DaF/DaZ-Kinder?',
+        answer: 'Ja, die visuellen R\u00e4tsel mit Bildern und Zahlen sind sprachunabh\u00e4ngig verst\u00e4ndlich. Kinder rechnen mit Bildern als Hinweisen ohne Lesekompetenz. Gleichzeitig lernen sie Zahlw\u00f6rter und mathematische Begriffe in der gew\u00e4hlten Sprache.',
+      },
+      {
+        id: 'faq-16',
+        question: 'Wie setze ich Mathe-R\u00e4tsel zur Differenzierung ein?',
+        answer: 'Generieren Sie einfache R\u00e4tsel im kleinen Zahlenraum f\u00fcr Anf\u00e4nger und anspruchsvolle R\u00e4tsel mit gr\u00f6\u00dferen Zahlen f\u00fcr Fortgeschrittene. Da jeder Klick neue Zufallszahlen erzeugt, erstellen Sie schnell verschiedene Schwierigkeitsstufen zum selben Thema.',
+      },
+      {
+        id: 'faq-17',
+        question: 'Sind die Mathe-R\u00e4tsel an den Mathematik-Lehrplan angepasst?',
+        answer: 'Die R\u00e4tsel unterst\u00fctzen die Lernziele des Mathematik-Lehrplans f\u00fcr Klasse 1-4: Kopfrechnen, Grundrechenarten und mathematisches Probleml\u00f6sen. Das R\u00e4tselformat motiviert Kinder mehr als klassische Rechenaufgaben und f\u00f6rdert logisches Denken.',
+      },
+      {
+        id: 'faq-18',
+        question: 'Eignen sich Mathe-R\u00e4tsel f\u00fcr Kinder mit F\u00f6rderbedarf?',
+        answer: 'Ja, einfache R\u00e4tsel im kleinen Zahlenraum mit Bildunterst\u00fctzung bieten einen motivierenden Zugang zur Mathematik. Das spielerische R\u00e4tselformat reduziert Mathematik-Angst. Wenige Aufgaben pro Seite vermeiden \u00dcberforderung bei Kindern mit Rechenschw\u00e4che.',
+      },
+      {
+        id: 'faq-19',
+        question: 'Gibt es einen Graustufen-Modus um Druckkosten zu sparen?',
+        answer: 'Ja, der Graustufen-Modus wandelt alle Farben in Schwarz-Wei\u00df-T\u00f6ne um. Das spart teure Farbpatronen beim Ausdrucken ganzer Klassensets. Die Zahlen und Bilder bleiben klar erkennbar bei voller 300 DPI Qualit\u00e4t.',
+      },
+      {
+        id: 'faq-20',
+        question: 'Kann ich Mathe-R\u00e4tsel Arbeitsbl\u00e4tter zu einem Heft zusammenstellen?',
+        answer: 'Ja, generieren Sie verschiedene R\u00e4tsel von einfach bis komplex und laden Sie alle als PDF herunter. Ordnen Sie die Bl\u00e4tter nach Schwierigkeit f\u00fcr ein progressives R\u00e4tselheft. Mit einem PDF-Programm f\u00fcgen Sie Arbeitsbl\u00e4tter und L\u00f6sungsschl\u00fcssel zusammen.',
+      },
     ],
 
   },

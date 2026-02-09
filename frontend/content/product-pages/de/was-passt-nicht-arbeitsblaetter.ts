@@ -251,6 +251,71 @@ Speichern Sie die Datei auf Ihrem Computer. Drucken Sie direkt aus dem Browser. 
         question: 'Gibt es einen L\u00f6sungsschl\u00fcssel f\u00fcr die Lehrkraft?',
         answer: 'Ja, nach dem Erstellen des Arbeitsblatts k\u00f6nnen Sie einen L\u00f6sungsschl\u00fcssel generieren. Rote Kreise markieren die richtigen Antworten \u2014 also das Bild, das nicht dazu passt. Der L\u00f6sungsschl\u00fcssel kann separat heruntergeladen und gedruckt oder am Whiteboard gezeigt werden.',
       },
+      {
+        id: 'faq-8',
+        question: 'Kann ich den Was-passt-nicht Generator kostenlos testen?',
+        answer: 'Ja, Sie k\u00f6nnen ohne Registrierung sofort Was-passt-nicht-Arbeitsbl\u00e4tter erstellen. Die Vorschau zeigt Ihr fertiges Arbeitsblatt mit Wasserzeichen. Mit dem Vollzugriff laden Sie unbegrenzt ohne Wasserzeichen herunter. So testen Sie Identisch- und \u00c4hnlich-Modus risikofrei.',
+      },
+      {
+        id: 'faq-9',
+        question: 'Welche Seitenformate stehen f\u00fcr den Druck zur Verf\u00fcgung?',
+        answer: 'Sie w\u00e4hlen zwischen Letter und A4 in Hoch- oder Querformat. Alle Arbeitsbl\u00e4tter werden in professioneller 300 DPI Qualit\u00e4t als PDF oder JPEG exportiert. Die Graustufen-Option spart Druckertinte bei farbigen Bildern.',
+      },
+      {
+        id: 'faq-10',
+        question: 'Welche Sprachen unterst\u00fctzt der Was-passt-nicht Generator?',
+        answer: 'Der Generator unterst\u00fctzt 11 Sprachen: Deutsch, Englisch, Franz\u00f6sisch, Spanisch, Portugiesisch, Italienisch, Niederl\u00e4ndisch, Schwedisch, D\u00e4nisch, Norwegisch und Finnisch. Titel und Anweisungen werden automatisch in der gew\u00e4hlten Sprache generiert.',
+      },
+      {
+        id: 'faq-11',
+        question: 'Wie viele Aufgaben passen auf ein Was-passt-nicht-Arbeitsblatt?',
+        answer: 'Die Anzahl h\u00e4ngt vom Seitenformat und der Bildgr\u00f6\u00dfe ab. Im Hochformat passen typischerweise 3-6 Aufgabenreihen. Weniger Aufgaben mit gr\u00f6\u00dferen Bildern eignen sich f\u00fcr j\u00fcngere Kinder, mehr Aufgaben f\u00fcr \u00e4ltere Sch\u00fcler.',
+      },
+      {
+        id: 'faq-12',
+        question: 'Gibt es einen Graustufen-Modus um Druckkosten zu sparen?',
+        answer: 'Ja, der Graustufen-Modus wandelt alle Farben in Schwarz-Wei\u00df-T\u00f6ne um. Das spart teure Farbpatronen beim Ausdrucken ganzer Klassensets. Die Bilder bleiben durch klare Konturen gut unterscheidbar und die Logik\u00fcbungen funktionieren uneingeschr\u00e4nkt.',
+      },
+      {
+        id: 'faq-13',
+        question: 'Kann ich Was-passt-nicht mit anderen Generatoren kombinieren?',
+        answer: 'Ja, erstellen Sie thematische Logik-Pakete indem Sie Was-passt-nicht mit Sortier\u00fcbungen, Schattenbildern oder Muster-Arbeitsbl\u00e4ttern kombinieren. Alle Generatoren nutzen dieselbe Bildbibliothek. So trainieren Kinder verschiedene Denkf\u00e4higkeiten mit vertrauten Bildern.',
+      },
+      {
+        id: 'faq-14',
+        question: 'Darf ich Was-passt-nicht-Arbeitsbl\u00e4tter kommerziell verkaufen?',
+        answer: 'Ja, der Vollzugriff enth\u00e4lt eine kommerzielle Lizenz. Sie d\u00fcrfen erstellte Arbeitsbl\u00e4tter auf Plattformen wie Teachers Pay Teachers oder Lehrermarktplatz verkaufen. Logik-\u00dcbungen sind besonders beliebte Verkaufsartikel f\u00fcr Vorschulmaterial.',
+      },
+      {
+        id: 'faq-15',
+        question: 'Eignet sich Was-passt-nicht f\u00fcr DaF/DaZ-Kinder?',
+        answer: 'Ja, die visuellen Logik\u00fcbungen sind sprachunabh\u00e4ngig verst\u00e4ndlich. Kinder erkennen das nicht passende Bild ohne Lesekompetenz. Das Format f\u00f6rdert gleichzeitig Kategorisierung und Wortschatz \u2014 Kinder lernen, warum Bilder zusammengeh\u00f6ren.',
+      },
+      {
+        id: 'faq-16',
+        question: 'Wie setze ich Was-passt-nicht zur Differenzierung ein?',
+        answer: 'Verwenden Sie den Identisch-Modus mit deutlichen Unterschieden f\u00fcr Anf\u00e4nger und den \u00c4hnlich-Modus mit feinen Unterschieden f\u00fcr Fortgeschrittene. Die Kategorie-Komplexit\u00e4t und Bildanzahl pro Reihe steuern den Schwierigkeitsgrad zus\u00e4tzlich.',
+      },
+      {
+        id: 'faq-17',
+        question: 'Welche Denkf\u00e4higkeiten f\u00f6rdert Was-passt-nicht?',
+        answer: 'Was-passt-nicht trainiert kritisches Denken, Kategorisierung, visuelles Vergleichen und Ausschlusslogik. Kinder lernen Gemeinsamkeiten zu erkennen und Abweichungen zu identifizieren. Diese F\u00e4higkeiten sind Grundlagen f\u00fcr wissenschaftliches Denken und Probleml\u00f6sung.',
+      },
+      {
+        id: 'faq-18',
+        question: 'Sind Was-passt-nicht-\u00dcbungen an den Bildungsplan angepasst?',
+        answer: 'Die \u00dcbungen unterst\u00fctzen die Lernziele f\u00fcr Vorschule und Grundschule: logisches Denken, Kategorisierung und visuelle Wahrnehmung. Im Sachunterricht f\u00f6rdern sie Klassifizierung und Ordnungsprinzipien gem\u00e4\u00df den \u00fcbergreifenden Kompetenzzielen.',
+      },
+      {
+        id: 'faq-19',
+        question: 'Eignet sich Was-passt-nicht f\u00fcr Kinder mit F\u00f6rderbedarf?',
+        answer: 'Ja, der Identisch-Modus mit deutlichen Unterschieden bietet einen niedrigschwelligen Einstieg. Das rein visuelle Format erfordert keine sprachlichen Vorkenntnisse. Wenige Aufgaben pro Seite vermeiden Reiz\u00fcberflutung und geben jedem Kind gen\u00fcgend Zeit zum Nachdenken.',
+      },
+      {
+        id: 'faq-20',
+        question: 'Kann ich Was-passt-nicht-Arbeitsbl\u00e4tter zu einem Heft zusammenstellen?',
+        answer: 'Ja, erstellen Sie verschiedene \u00dcbungen vom Identisch-Modus bis zum \u00c4hnlich-Modus und laden Sie alle als PDF herunter. Ordnen Sie die Bl\u00e4tter nach Schwierigkeit f\u00fcr ein progressives Logik-Heft. Mit einem PDF-Programm f\u00fcgen Sie Arbeitsbl\u00e4tter und L\u00f6sungsschl\u00fcssel zusammen.',
+      },
     ],
 
   },

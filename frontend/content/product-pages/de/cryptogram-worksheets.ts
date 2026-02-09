@@ -247,6 +247,71 @@ PDF-Downloads bewahren perfekte Formatierung auf allen Geräten und Druckern. Te
         question: 'In welchen Sprachen kann ich Kryptogramme erstellen?',
         answer: 'Der Generator erstellt Kryptogramme in 11 Sprachen. Die Bildnamen passen sich automatisch an die gew\u00e4hlte Sprache an. Das macht den Generator ideal f\u00fcr DaF-Unterricht und mehrsprachige Klassen. Erstellen Sie Deutsch Arbeitsbl\u00e4tter, englische Vokabel\u00fcbungen oder mehrsprachige R\u00e4tsel.',
       },
+      {
+        id: 'faq-8',
+        question: 'Kann ich den Kryptogramm Generator kostenlos testen?',
+        answer: 'Ja, Sie k\u00f6nnen ohne Registrierung sofort Kryptogramme erstellen. Die Vorschau zeigt Ihr fertiges R\u00e4tsel mit Wasserzeichen. Mit dem Vollzugriff laden Sie unbegrenzt ohne Wasserzeichen herunter. So testen Sie alle Verschl\u00fcsselungsoptionen risikofrei.',
+      },
+      {
+        id: 'faq-9',
+        question: 'Welche Seitenformate stehen f\u00fcr den Druck zur Verf\u00fcgung?',
+        answer: 'Sie w\u00e4hlen zwischen Letter und A4 in Hoch- oder Querformat. Querformat bietet mehr Platz f\u00fcr l\u00e4ngere Geheimbotschaften. Alle Arbeitsbl\u00e4tter werden in professioneller 300 DPI Qualit\u00e4t als PDF oder JPEG exportiert.',
+      },
+      {
+        id: 'faq-10',
+        question: 'F\u00fcr welche Altersgruppen eignen sich Kryptogramme?',
+        answer: 'Einfache Kryptogramme mit kurzen W\u00f6rtern und der Bildlegende auf dem Blatt eignen sich ab 5 Jahren. Mittlere Schwierigkeit mit l\u00e4ngeren S\u00e4tzen ist ideal f\u00fcr Klasse 1-2. Komplexe Botschaften ohne Bildlegende fordern Kinder in Klasse 3-4 heraus.',
+      },
+      {
+        id: 'faq-11',
+        question: 'Kann ich eigene Bilder f\u00fcr den Geheimcode verwenden?',
+        answer: 'Ja, \u00fcber den Datei-Upload-Button laden Sie eigene Bilder hoch und weisen sie Buchstaben zu. Alternativ w\u00e4hlen Sie Bilder aus \u00fcber 3000 Bibliotheksmotiven. Die Auto-Zuweisungsfunktion ordnet Bilder automatisch nach Anfangsbuchstaben zu.',
+      },
+      {
+        id: 'faq-12',
+        question: 'Gibt es einen Graustufen-Modus um Druckkosten zu sparen?',
+        answer: 'Ja, der Graustufen-Modus wandelt alle Farben in Schwarz-Wei\u00df-T\u00f6ne um. Das spart teure Farbpatronen beim Ausdrucken ganzer Klassensets. Die Bilder im Code bleiben durch klare Konturen gut erkennbar bei voller 300 DPI Qualit\u00e4t.',
+      },
+      {
+        id: 'faq-13',
+        question: 'Kann ich Kryptogramme mit anderen Generatoren kombinieren?',
+        answer: 'Ja, erstellen Sie thematische R\u00e4tsel-Pakete indem Sie Kryptogramme mit Wortsuche, Kreuzwortr\u00e4tsel oder Buchstabensalat kombinieren. Alle Generatoren nutzen dieselbe Bildbibliothek. So \u00fcben Kinder Buchstaben und W\u00f6rter in verschiedenen motivierenden R\u00e4tselformaten.',
+      },
+      {
+        id: 'faq-14',
+        question: 'Darf ich Kryptogramm-Arbeitsbl\u00e4tter kommerziell verkaufen?',
+        answer: 'Ja, der Vollzugriff enth\u00e4lt eine kommerzielle Lizenz. Sie d\u00fcrfen erstellte Arbeitsbl\u00e4tter auf Plattformen wie Teachers Pay Teachers oder Lehrermarktplatz verkaufen. Kryptogramme sind besonders beliebte Verkaufsartikel f\u00fcr R\u00e4tsel- und Aktivit\u00e4tshefte.',
+      },
+      {
+        id: 'faq-15',
+        question: 'Eignen sich Kryptogramme f\u00fcr DaF/DaZ-Unterricht?',
+        answer: 'Ja, Kryptogramme trainieren Buchstabenerkennung und Wortbildung spielerisch. Die Bild-Buchstaben-Zuordnung unterst\u00fctzt den Schriftspracherwerb visuell. Die Geheimbotschaft motiviert zum Entschl\u00fcsseln \u2014 Kinder \u00fcben Lesen, ohne es als Aufgabe zu empfinden.',
+      },
+      {
+        id: 'faq-16',
+        question: 'Wie setze ich Kryptogramme zur Differenzierung ein?',
+        answer: 'Verwenden Sie kurze W\u00f6rter mit Bildlegende auf dem Blatt f\u00fcr Anf\u00e4nger und l\u00e4ngere S\u00e4tze ohne Legende f\u00fcr Fortgeschrittene. Die Komplexit\u00e4t der Botschaft und die Verf\u00fcgbarkeit der Bildlegende steuern den Schwierigkeitsgrad.',
+      },
+      {
+        id: 'faq-17',
+        question: 'Welche Lernziele f\u00f6rdern Kryptogramme?',
+        answer: 'Kryptogramme trainieren Buchstabenerkennung, Laut-Buchstaben-Zuordnung, Lesefl\u00fcssigkeit und logisches Denken. Das Entschl\u00fcsseln erfordert systematisches Vorgehen und Konzentration. Das spielerische R\u00e4tselformat erh\u00f6ht die Lesemotivation besonders bei leseschwachen Kindern.',
+      },
+      {
+        id: 'faq-18',
+        question: 'Sind Kryptogramme an den Deutsch-Lehrplan angepasst?',
+        answer: 'Die \u00dcbungen unterst\u00fctzen die Lernziele des Deutsch-Lehrplans f\u00fcr Klasse 1-3: Buchstabenerkennung, Lesef\u00e4higkeit und Textverst\u00e4ndnis. Das R\u00e4tselformat motiviert zum Lesen und f\u00f6rdert gleichzeitig systematisches Arbeiten gem\u00e4\u00df \u00fcbergreifender Kompetenziele.',
+      },
+      {
+        id: 'faq-19',
+        question: 'Eignen sich Kryptogramme f\u00fcr Kinder mit F\u00f6rderbedarf?',
+        answer: 'Ja, einfache Kryptogramme mit kurzen W\u00f6rtern und Bildlegende bieten einen motivierenden Zugang zum Lesen. Das Entschl\u00fcsseln-Spielformat reduziert Leseangst. Die Bild-Buchstaben-Zuordnung unterst\u00fctzt visuelle Lerner und Kinder mit Lese-Rechtschreib-Schw\u00e4che.',
+      },
+      {
+        id: 'faq-20',
+        question: 'Kann ich Kryptogramm-Arbeitsbl\u00e4tter zu einem Heft zusammenstellen?',
+        answer: 'Ja, erstellen Sie verschiedene Geheimbotschaften von einfach bis komplex und laden Sie alle als PDF herunter. Ordnen Sie die R\u00e4tsel nach Schwierigkeit f\u00fcr ein progressives R\u00e4tselheft. Mit einem PDF-Programm f\u00fcgen Sie Arbeitsbl\u00e4tter und L\u00f6sungsschl\u00fcssel zusammen.',
+      },
     ],
 
   },

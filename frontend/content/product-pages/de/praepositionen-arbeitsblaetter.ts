@@ -231,6 +231,71 @@ Bearbeiten Sie jedes Element nach der Generierung. Klicken Sie auf Bilder, um si
         question: 'Eignen sich die Pr\u00e4positionen-Arbeitsbl\u00e4tter f\u00fcr DaZ-Unterricht?',
         answer: 'Ja, die Pr\u00e4positionen-Arbeitsbl\u00e4tter sind ideal f\u00fcr den DaZ-Unterricht. Die visuelle Darstellung r\u00e4umlicher Begriffe unterst\u00fctzt das Sprachverst\u00e4ndnis. Der Generator bietet 11 Sprachen und erm\u00f6glicht es, kulturell angemessene Bilder in der entsprechenden Sprache zu laden.',
       },
+      {
+        id: 'faq-8',
+        question: 'Kann ich den Pr\u00e4positionen Generator kostenlos testen?',
+        answer: 'Ja, Sie k\u00f6nnen ohne Registrierung sofort Pr\u00e4positionen-Arbeitsbl\u00e4tter erstellen. Die Vorschau zeigt Ihr fertiges Arbeitsblatt mit Wasserzeichen. Mit dem Vollzugriff laden Sie unbegrenzt ohne Wasserzeichen herunter. So testen Sie alle Pr\u00e4positionen und Bildoptionen risikofrei.',
+      },
+      {
+        id: 'faq-9',
+        question: 'Welche Seitenformate stehen f\u00fcr den Druck zur Verf\u00fcgung?',
+        answer: 'Sie w\u00e4hlen zwischen Letter und A4 in Hoch- oder Querformat. Alle Arbeitsbl\u00e4tter werden in professioneller 300 DPI Qualit\u00e4t als PDF oder JPEG exportiert. Die Graustufen-Option spart Druckertinte bei farbigen Bildern.',
+      },
+      {
+        id: 'faq-10',
+        question: 'F\u00fcr welche Altersgruppen eignen sich Pr\u00e4positionen-\u00dcbungen?',
+        answer: 'Einfache Lagebeziehungen wie auf, unter, neben eignen sich ab 4 Jahren f\u00fcr Vorschulkinder. Komplexere Pr\u00e4positionen wie zwischen, hinter, vor sind ideal f\u00fcr Klasse 1-2. Das visuelle Format macht r\u00e4umliche Konzepte f\u00fcr alle Altersstufen greifbar.',
+      },
+      {
+        id: 'faq-11',
+        question: 'Welche Pr\u00e4positionen deckt der Generator ab?',
+        answer: 'Der Generator unterst\u00fctzt alle wichtigen Ortsp\u00e4positionen: auf, unter, neben, zwischen, hinter, vor, in, \u00fcber. Jede Pr\u00e4position wird durch ein klares Bild mit zwei Objekten dargestellt. Die visuelle Szene zeigt die r\u00e4umliche Beziehung eindeutig und kindgerecht.',
+      },
+      {
+        id: 'faq-12',
+        question: 'Kann ich eigene Bilder f\u00fcr die Pr\u00e4positionen-\u00dcbungen verwenden?',
+        answer: 'Ja, \u00fcber den Datei-Upload-Button laden Sie eigene Bilder hoch. Alternativ w\u00e4hlen Sie aus \u00fcber 3000 Bibliotheksbildern in Kategorien wie Tiere, Fahrzeuge und Gegenst\u00e4nde. So erstellen Sie Pr\u00e4positionen-\u00dcbungen mit themenspezifischen Bildern.',
+      },
+      {
+        id: 'faq-13',
+        question: 'Kann ich Pr\u00e4positionen mit anderen Generatoren kombinieren?',
+        answer: 'Ja, erstellen Sie umfassende Sprachpakete indem Sie Pr\u00e4positionen mit Schreib\u00fcbungen, Wortsuche oder W\u00f6rter-Raten kombinieren. Alle Generatoren nutzen dieselbe Bildbibliothek. So \u00fcben Kinder r\u00e4umliche Sprache in verschiedenen Aufgabenformaten.',
+      },
+      {
+        id: 'faq-14',
+        question: 'Darf ich Pr\u00e4positionen-Arbeitsbl\u00e4tter kommerziell verkaufen?',
+        answer: 'Ja, der Vollzugriff enth\u00e4lt eine kommerzielle Lizenz. Sie d\u00fcrfen erstellte Arbeitsbl\u00e4tter auf Plattformen wie Teachers Pay Teachers oder Lehrermarktplatz verkaufen. Pr\u00e4positionen-Material ist besonders gefragt im DaF/DaZ-Bereich.',
+      },
+      {
+        id: 'faq-15',
+        question: 'Gibt es einen Graustufen-Modus um Druckkosten zu sparen?',
+        answer: 'Ja, der Graustufen-Modus wandelt alle Farben in Schwarz-Wei\u00df-T\u00f6ne um. Das spart teure Farbpatronen beim Ausdrucken ganzer Klassensets. Die Bilder und r\u00e4umlichen Beziehungen bleiben klar erkennbar bei voller 300 DPI Qualit\u00e4t.',
+      },
+      {
+        id: 'faq-16',
+        question: 'Wie setze ich Pr\u00e4positionen-\u00dcbungen zur Differenzierung ein?',
+        answer: 'Verwenden Sie einfache Pr\u00e4positionen (auf, unter) mit gro\u00dfen Bildern f\u00fcr Anf\u00e4nger und komplexere Pr\u00e4positionen (zwischen, hinter) f\u00fcr Fortgeschrittene. Variieren Sie die Aufgabenanzahl pro Seite und die Bildkomplexit\u00e4t f\u00fcr unterschiedliche Niveaus.',
+      },
+      {
+        id: 'faq-17',
+        question: 'Welche sprachlichen Kompetenzen f\u00f6rdern Pr\u00e4positionen-\u00dcbungen?',
+        answer: 'Pr\u00e4positionen-\u00dcbungen trainieren r\u00e4umliches Vokabular, Satzbildung mit Ortsbeschreibungen und Leseverst\u00e4ndnis. Kinder lernen pr\u00e4zise r\u00e4umliche Beziehungen zu beschreiben. Das ist grundlegend f\u00fcr Wegbeschreibungen, Textverst\u00e4ndnis und mathematische Lagebeziehungen.',
+      },
+      {
+        id: 'faq-18',
+        question: 'Sind Pr\u00e4positionen-\u00dcbungen an den Deutsch-Lehrplan angepasst?',
+        answer: 'Die \u00dcbungen unterst\u00fctzen die Lernziele des Deutsch-Lehrplans f\u00fcr Klasse 1-2: Wortschatzerweiterung, Satzbildung und r\u00e4umliche Begriffe. Im Sachunterricht f\u00f6rdern sie Orientierung und Lagebeschreibungen gem\u00e4\u00df Bildungsplan.',
+      },
+      {
+        id: 'faq-19',
+        question: 'Eignen sich Pr\u00e4positionen-\u00dcbungen f\u00fcr Kinder mit F\u00f6rderbedarf?',
+        answer: 'Ja, die visuelle Darstellung r\u00e4umlicher Beziehungen macht abstrakte Sprachkonzepte konkret greifbar. Klare Bilder mit eindeutigen Positionen bieten einen niedrigschwelligen Zugang. Wenige Aufgaben pro Seite vermeiden \u00dcberforderung bei Kindern mit Sprachentwicklungsverz\u00f6gerung.',
+      },
+      {
+        id: 'faq-20',
+        question: 'Kann ich Pr\u00e4positionen-Arbeitsbl\u00e4tter zu einem Heft zusammenstellen?',
+        answer: 'Ja, erstellen Sie \u00dcbungen zu verschiedenen Pr\u00e4positionen und laden Sie alle als PDF herunter. Ordnen Sie die Bl\u00e4tter von einfachen zu komplexen Ortsbeschreibungen. Mit einem PDF-Programm f\u00fcgen Sie Arbeitsbl\u00e4tter und L\u00f6sungsschl\u00fcssel zu einem druckfertigen Sprachheft zusammen.',
+      },
     ],
 
   },

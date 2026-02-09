@@ -227,6 +227,71 @@ Laden Sie Arbeitsblatt und Lösungsschlüssel separat für organisierte Dateiver
         question: 'Darf ich die Arbeitsbl\u00e4tter kommerziell verkaufen?',
         answer: 'Ja, das Vollzugriff Abonnement beinhaltet eine kommerzielle Lizenz f\u00fcr den Verkauf auf Plattformen wie Teachers Pay Teachers und Etsy. Alle 33 Arbeitsblatt-Generatoren sind im Abo f\u00fcr 240\u20ac pro Jahr enthalten. Die professionelle 300 DPI Qualit\u00e4t eignet sich perfekt f\u00fcr den kommerziellen Einsatz.',
       },
+      {
+        id: 'faq-8',
+        question: 'Kann ich den Suchbild Generator kostenlos testen?',
+        answer: 'Ja, Sie k\u00f6nnen ohne Registrierung sofort Suchbild-Arbeitsbl\u00e4tter erstellen. Die Vorschau zeigt Ihr fertiges Arbeitsblatt mit Wasserzeichen. Mit dem Vollzugriff laden Sie unbegrenzt ohne Wasserzeichen herunter. So testen Sie alle Suchmodi risikofrei.',
+      },
+      {
+        id: 'faq-9',
+        question: 'Welche Seitenformate stehen f\u00fcr den Druck zur Verf\u00fcgung?',
+        answer: 'Sie w\u00e4hlen zwischen Letter und A4 in Hoch- oder Querformat. Alle Arbeitsbl\u00e4tter werden in professioneller 300 DPI Qualit\u00e4t als PDF oder JPEG exportiert. Die Graustufen-Option spart Druckertinte bei farbigen Suchbildern.',
+      },
+      {
+        id: 'faq-10',
+        question: 'F\u00fcr welche Altersgruppen eignen sich Suchbild-\u00dcbungen?',
+        answer: 'Einfache Suchbilder mit wenigen gro\u00dfen versteckten Objekten eignen sich ab 4 Jahren f\u00fcr Vorschulkinder. Mittlere Schwierigkeit mit mehr Objekten ist ideal f\u00fcr Klasse 1-2. Komplexe Szenen mit kleinen versteckten Details fordern Kinder in Klasse 3-4 heraus.',
+      },
+      {
+        id: 'faq-11',
+        question: 'Wird ein L\u00f6sungsschl\u00fcssel f\u00fcr die Suchbilder erstellt?',
+        answer: 'Ja, der Generator erstellt automatisch einen L\u00f6sungsschl\u00fcssel, der die Position aller versteckten Objekte markiert. Laden Sie Arbeitsblatt und L\u00f6sung separat als PDF oder JPEG herunter. Der L\u00f6sungsschl\u00fcssel spart Lehrkr\u00e4ften Zeit bei der Korrektur.',
+      },
+      {
+        id: 'faq-12',
+        question: 'Welche Sprachen unterst\u00fctzt der Suchbild Generator?',
+        answer: 'Der Generator unterst\u00fctzt 11 Sprachen: Deutsch, Englisch, Franz\u00f6sisch, Spanisch, Portugiesisch, Italienisch, Niederl\u00e4ndisch, Schwedisch, D\u00e4nisch, Norwegisch und Finnisch. Titel und Suchanweisungen werden automatisch in der gew\u00e4hlten Sprache generiert.',
+      },
+      {
+        id: 'faq-13',
+        question: 'Kann ich Suchbilder mit anderen Generatoren kombinieren?',
+        answer: 'Ja, erstellen Sie thematische Wahrnehmungs-Pakete indem Sie Suchbilder mit Suchen-und-Z\u00e4hlen, Schattenbildern oder Zuordnungs\u00fcbungen kombinieren. Alle Generatoren nutzen dieselbe Bildbibliothek. So trainieren Kinder verschiedene Wahrnehmungsaspekte mit vertrauten Bildern.',
+      },
+      {
+        id: 'faq-14',
+        question: 'Gibt es einen Graustufen-Modus um Druckkosten zu sparen?',
+        answer: 'Ja, der Graustufen-Modus wandelt alle Farben in Schwarz-Wei\u00df-T\u00f6ne um. Das spart teure Farbpatronen beim Ausdrucken ganzer Klassensets. Die versteckten Objekte bleiben durch klare Konturen erkennbar bei voller 300 DPI Qualit\u00e4t.',
+      },
+      {
+        id: 'faq-15',
+        question: 'Eignen sich Suchbilder f\u00fcr DaF/DaZ-Kinder?',
+        answer: 'Ja, das Suchen und Finden von Objekten ist sprachunabh\u00e4ngig verst\u00e4ndlich. Die Bilder in der Suchleiste zeigen was gefunden werden soll \u2014 ohne Lesekompetenz. Gleichzeitig erweitern die Objektnamen den Wortschatz auf spielerische Weise.',
+      },
+      {
+        id: 'faq-16',
+        question: 'Wie setze ich Suchbilder zur Differenzierung ein?',
+        answer: 'Verwenden Sie wenige gro\u00dfe versteckte Objekte f\u00fcr Anf\u00e4nger und viele kleine Objekte in komplexen Szenen f\u00fcr Fortgeschrittene. Die Anzahl der Ablenkungsbilder und die \u00c4hnlichkeit der Objekte steuern den Schwierigkeitsgrad.',
+      },
+      {
+        id: 'faq-17',
+        question: 'Welche F\u00e4higkeiten f\u00f6rdern Suchbild-\u00dcbungen?',
+        answer: 'Suchbilder trainieren visuelle Wahrnehmung, Aufmerksamkeit f\u00fcr Details, Konzentration und Figur-Grund-Unterscheidung. Das systematische Absuchen der Szene f\u00f6rdert Geduld und strategisches Vorgehen. Diese F\u00e4higkeiten sind Grundlagen f\u00fcr Lesen und naturwissenschaftliches Beobachten.',
+      },
+      {
+        id: 'faq-18',
+        question: 'Sind Suchbild-\u00dcbungen an den Bildungsplan angepasst?',
+        answer: 'Die \u00dcbungen unterst\u00fctzen die Lernziele f\u00fcr Kita und Vorschule: visuelle Wahrnehmung, Konzentration und Aufmerksamkeitssteuerung. In der Grundschule f\u00f6rdern sie systematisches Beobachten und detailgenaues Arbeiten gem\u00e4\u00df \u00fcbergreifender Kompetenziele.',
+      },
+      {
+        id: 'faq-19',
+        question: 'Eignen sich Suchbilder f\u00fcr Kinder mit F\u00f6rderbedarf?',
+        answer: 'Ja, einfache Suchbilder mit wenigen gro\u00dfen Objekten bieten einen niedrigschwelligen Einstieg. Das spielerische Format motiviert besonders bei Konzentrationsschwierigkeiten. Das Erfolgserlebnis beim Finden jedes Objekts st\u00e4rkt das Selbstvertrauen und die Ausdauer.',
+      },
+      {
+        id: 'faq-20',
+        question: 'Kann ich Suchbild-Arbeitsbl\u00e4tter zu einem Heft zusammenstellen?',
+        answer: 'Ja, erstellen Sie verschiedene Suchbilder zu unterschiedlichen Themen und laden Sie alle als PDF herunter. Ordnen Sie die Bl\u00e4tter nach Schwierigkeit f\u00fcr ein progressives R\u00e4tselheft. Mit einem PDF-Programm f\u00fcgen Sie Arbeitsbl\u00e4tter und L\u00f6sungsschl\u00fcssel zusammen.',
+      },
     ],
 
   },

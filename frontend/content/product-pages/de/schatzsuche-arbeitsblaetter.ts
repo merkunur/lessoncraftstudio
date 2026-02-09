@@ -239,6 +239,71 @@ Aktivieren Sie die Graustufen-Option, wenn Sie auf einem Schwarz-Weiß-Drucker d
         question: 'Welche F\u00e4higkeiten f\u00f6rdert das Schatzsuche-Arbeitsblatt?',
         answer: 'Schatzsuche-Arbeitsbl\u00e4tter f\u00f6rdern das Befolgen mehrstufiger Anweisungen, Richtungsvokabular, Leseverst\u00e4ndnis und r\u00e4umliches Vorstellungsverm\u00f6gen. Die Kombination aus Lesen und visuellem Navigieren macht sie zu einer vielseitigen \u00dcbung f\u00fcr verschiedene Lernbereiche.',
       },
+      {
+        id: 'faq-8',
+        question: 'Kann ich den Schatzsuche Generator kostenlos testen?',
+        answer: 'Ja, Sie k\u00f6nnen ohne Registrierung sofort Schatzsuche-Arbeitsbl\u00e4tter erstellen. Die Vorschau zeigt Ihr fertiges Arbeitsblatt mit Wasserzeichen. Mit dem Vollzugriff laden Sie unbegrenzt ohne Wasserzeichen herunter. So testen Sie alle Rastergrö\u00dfen und Wegoptionen risikofrei.',
+      },
+      {
+        id: 'faq-9',
+        question: 'Welche Seitenformate stehen f\u00fcr den Druck zur Verf\u00fcgung?',
+        answer: 'Sie w\u00e4hlen zwischen Letter und A4 in Hoch- oder Querformat. Querformat bietet breitere Raster f\u00fcr l\u00e4ngere Schatzsuche-Wege. Alle Arbeitsbl\u00e4tter werden in professioneller 300 DPI Qualit\u00e4t als PDF oder JPEG exportiert.',
+      },
+      {
+        id: 'faq-10',
+        question: 'F\u00fcr welche Altersgruppen eignen sich Schatzsuche-Arbeitsbl\u00e4tter?',
+        answer: 'Einfache Schatzsuchen mit kurzen Anweisungen eignen sich f\u00fcr Vorschulkinder ab 5 Jahren. Mittlere Schwierigkeit mit mehrstufigen Wegbeschreibungen ist ideal f\u00fcr Klasse 1-2. Komplexe Navigationen mit Richtungswechseln fordern Kinder in Klasse 3-4 heraus.',
+      },
+      {
+        id: 'faq-11',
+        question: 'Kann ich eigene Bilder f\u00fcr die Schatzsuche verwenden?',
+        answer: 'Ja, \u00fcber den Datei-Upload-Button laden Sie eigene Bilder hoch. Alternativ w\u00e4hlen Sie aus \u00fcber 3000 Bibliotheksbildern f\u00fcr Landmarken, Start- und Zielpunkte. So erstellen Sie personalisierte Schatzsuchen mit themenspezifischen Bildern.',
+      },
+      {
+        id: 'faq-12',
+        question: 'Welche Sprachen unterst\u00fctzt der Schatzsuche Generator?',
+        answer: 'Der Generator unterst\u00fctzt 11 Sprachen: Deutsch, Englisch, Franz\u00f6sisch, Spanisch, Portugiesisch, Italienisch, Niederl\u00e4ndisch, Schwedisch, D\u00e4nisch, Norwegisch und Finnisch. Anweisungen und Richtungsbegriffe werden automatisch in der gew\u00e4hlten Sprache generiert.',
+      },
+      {
+        id: 'faq-13',
+        question: 'Kann ich Schatzsuchen mit anderen Generatoren kombinieren?',
+        answer: 'Ja, erstellen Sie thematische Abenteuer-Pakete indem Sie Schatzsuchen mit Bilderpfad-Labyrinthen, Pr\u00e4positionen-\u00dcbungen oder Kreuzwortr\u00e4tseln kombinieren. Alle Generatoren nutzen dieselbe Bildbibliothek. So entsteht ein vielseitiges Orientierungs-Training.',
+      },
+      {
+        id: 'faq-14',
+        question: 'Darf ich Schatzsuche-Arbeitsbl\u00e4tter kommerziell verkaufen?',
+        answer: 'Ja, der Vollzugriff enth\u00e4lt eine kommerzielle Lizenz. Sie d\u00fcrfen erstellte Arbeitsbl\u00e4tter auf Plattformen wie Teachers Pay Teachers oder Lehrermarktplatz verkaufen. Schatzsuche-Material ist besonders beliebt f\u00fcr Vertretungsstunden und Thementage.',
+      },
+      {
+        id: 'faq-15',
+        question: 'Eignen sich Schatzsuchen f\u00fcr DaF/DaZ-Kinder?',
+        answer: 'Ja, Schatzsuchen trainieren gezielt Richtungsvokabular und Pr\u00e4positionen. Die visuelle Rasterdarstellung unterst\u00fctzt das Sprachverst\u00e4ndnis. Kinder lernen links, rechts, oben, unten im spielerischen Kontext. Die Bildlandmarken geben zus\u00e4tzliche Orientierung.',
+      },
+      {
+        id: 'faq-16',
+        question: 'Wie setze ich Schatzsuchen zur Differenzierung ein?',
+        answer: 'Verwenden Sie kleine Raster mit kurzen Wegen f\u00fcr Anf\u00e4nger und gro\u00dfe Raster mit vielen Richtungswechseln f\u00fcr Fortgeschrittene. Die Komplexit\u00e4t der Anweisungen und die Anzahl der Schritte steuern den Schwierigkeitsgrad. So arbeiten alle Kinder am selben Thema.',
+      },
+      {
+        id: 'faq-17',
+        question: 'Sind Schatzsuche-\u00dcbungen an den Lehrplan angepasst?',
+        answer: 'Die \u00dcbungen unterst\u00fctzen die Lernziele des Deutsch- und Sachunterrichts: Leseverst\u00e4ndnis, Richtungsvokabular, r\u00e4umliche Orientierung und Befolgen von Anweisungen. Im Mathematikunterricht f\u00f6rdern sie Rasterkoordinaten und systematisches Vorgehen.',
+      },
+      {
+        id: 'faq-18',
+        question: 'Eignen sich Schatzsuchen f\u00fcr Kinder mit F\u00f6rderbedarf?',
+        answer: 'Ja, einfache Schatzsuchen mit kurzen Wegen und klaren Bildern bieten einen motivierenden Einstieg. Das spielerische Format mit Schatzsuche-Thema erh\u00f6ht die Motivation. Visuelle Landmarken auf dem Raster geben zus\u00e4tzliche Orientierung bei Orientierungsschwierigkeiten.',
+      },
+      {
+        id: 'faq-19',
+        question: 'Gibt es einen Graustufen-Modus um Druckkosten zu sparen?',
+        answer: 'Ja, der Graustufen-Modus wandelt alle Farben in Schwarz-Wei\u00df-T\u00f6ne um. Das spart teure Farbpatronen beim Ausdrucken ganzer Klassensets. Das Raster und die Bilder bleiben klar erkennbar bei voller 300 DPI Qualit\u00e4t.',
+      },
+      {
+        id: 'faq-20',
+        question: 'Kann ich Schatzsuche-Arbeitsbl\u00e4tter zu einem Heft zusammenstellen?',
+        answer: 'Ja, erstellen Sie verschiedene Schatzsuchen von einfach bis komplex und laden Sie alle als PDF herunter. Ordnen Sie die Bl\u00e4tter nach Schwierigkeit f\u00fcr ein progressives Abenteuer-Heft. Mit einem PDF-Programm f\u00fcgen Sie Arbeitsbl\u00e4tter und L\u00f6sungsb\u00f6gen zusammen.',
+      },
     ],
 
   },

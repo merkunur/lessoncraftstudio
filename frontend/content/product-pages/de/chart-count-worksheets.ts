@@ -236,6 +236,76 @@ Aktivieren Sie das Graustufen-Kontrollkästchen vor dem Download um alle Farben 
         question: 'Kann ich das Aussehen der Bilddiagramm-Arbeitsbl\u00e4tter anpassen?',
         answer: 'Ja, Sie k\u00f6nnen Hintergrundthemen, dekorative Rahmen und Name/Datum-Felder hinzuf\u00fcgen. Auf der Leinwand verschieben Sie Elemente per Drag-and-Drop, f\u00fcgen eigene Textanweisungen hinzu und w\u00e4hlen aus kinderfreundlichen Schriftarten. Die Graustufen-Option spart Druckertinte.',
       },
+      {
+        id: 'faq-7',
+        question: 'Kann ich den Bilddiagramm Generator kostenlos testen?',
+        answer: 'Ja, Sie k\u00f6nnen ohne Registrierung sofort Bilddiagramm-Arbeitsbl\u00e4tter erstellen. Die Vorschau zeigt Ihr fertiges Arbeitsblatt mit Wasserzeichen. Mit dem Vollzugriff laden Sie unbegrenzt ohne Wasserzeichen herunter. So testen Sie alle Diagrammtypen risikofrei.',
+      },
+      {
+        id: 'faq-8',
+        question: 'Welche Seitenformate stehen f\u00fcr den Druck zur Verf\u00fcgung?',
+        answer: 'Sie w\u00e4hlen zwischen Letter und A4 in Hoch- oder Querformat. Querformat bietet mehr Platz f\u00fcr breitere Diagramme mit vielen Kategorien. Alle Arbeitsbl\u00e4tter werden in professioneller 300 DPI Qualit\u00e4t als PDF oder JPEG exportiert.',
+      },
+      {
+        id: 'faq-9',
+        question: 'F\u00fcr welche Altersgruppen eignen sich Bilddiagramm-Arbeitsbl\u00e4tter?',
+        answer: 'Einfache Bilddiagramme mit 2-3 Kategorien eignen sich ab 5 Jahren f\u00fcr Vorschulkinder. Mittlere Komplexit\u00e4t mit mehr Kategorien ist ideal f\u00fcr Klasse 1-2. Diagramme mit Vergleichsfragen fordern Kinder in Klasse 3-4 heraus. Die Bildunterst\u00fctzung macht Daten greifbar.',
+      },
+      {
+        id: 'faq-10',
+        question: 'Kann ich eigene Bilder f\u00fcr die Diagramme verwenden?',
+        answer: 'Ja, \u00fcber den Datei-Upload-Button laden Sie eigene Bilder hoch. Alternativ w\u00e4hlen Sie aus \u00fcber 3000 Bibliotheksbildern in thematischen Kategorien. So erstellen Sie personalisierte Bilddiagramme zu Klassenumfragen, Sachunterrichtsthemen oder Projektarbeiten.',
+      },
+      {
+        id: 'faq-11',
+        question: 'Gibt es einen Graustufen-Modus um Druckkosten zu sparen?',
+        answer: 'Ja, der Graustufen-Modus wandelt alle Farben in Schwarz-Wei\u00df-T\u00f6ne um. Das spart teure Farbpatronen beim Ausdrucken ganzer Klassensets. Die Diagrammstrukturen und Bilder bleiben klar erkennbar bei voller 300 DPI Qualit\u00e4t.',
+      },
+      {
+        id: 'faq-12',
+        question: 'Kann ich Bilddiagramme mit anderen Generatoren kombinieren?',
+        answer: 'Ja, erstellen Sie umfassende Mathe-Pakete indem Sie Bilddiagramme mit Z\u00e4hl\u00fcbungen, Additions-Aufgaben oder Sortier\u00fcbungen kombinieren. Alle Generatoren nutzen dieselbe Bildbibliothek. So \u00fcben Kinder Datenerfassung und Rechenoperationen thematisch einheitlich.',
+      },
+      {
+        id: 'faq-13',
+        question: 'Darf ich Bilddiagramm-Arbeitsbl\u00e4tter kommerziell verkaufen?',
+        answer: 'Ja, der Vollzugriff enth\u00e4lt eine kommerzielle Lizenz. Sie d\u00fcrfen erstellte Arbeitsbl\u00e4tter auf Plattformen wie Teachers Pay Teachers oder Lehrermarktplatz verkaufen. Auch der Einsatz in Nachhilfe-Instituten und Lerntherapie-Praxen ist erlaubt.',
+      },
+      {
+        id: 'faq-14',
+        question: 'Eignen sich Bilddiagramme f\u00fcr DaF/DaZ-Kinder?',
+        answer: 'Ja, Bilddiagramme sind visuell und intuitiv verst\u00e4ndlich. Kinder z\u00e4hlen Bilder und f\u00e4rben K\u00e4stchen ohne Lesekompetenz. Das Format vermittelt gleichzeitig Zahlbegriffe und Kategorie-Wortschatz. Die Bildunterst\u00fctzung macht Datenarbeit f\u00fcr alle Sprachniveaus zug\u00e4nglich.',
+      },
+      {
+        id: 'faq-15',
+        question: 'Wie setze ich Bilddiagramme zur Differenzierung ein?',
+        answer: 'Verwenden Sie wenige Kategorien mit kleinen Zahlen f\u00fcr Anf\u00e4nger und mehr Kategorien mit gr\u00f6\u00dferen Mengen f\u00fcr Fortgeschrittene. Erg\u00e4nzen Sie Vergleichsfragen f\u00fcr leistungsstarke Sch\u00fcler. So arbeiten alle Kinder am Thema Daten auf ihrem Niveau.',
+      },
+      {
+        id: 'faq-16',
+        question: 'Welche mathematischen Kompetenzen f\u00f6rdern Bilddiagramme?',
+        answer: 'Bilddiagramme trainieren Z\u00e4hlen, Datenerfassung, Mengenvergleich, Eins-zu-eins-Zuordnung und erstes Verst\u00e4ndnis von Statistik. Kinder lernen Informationen visuell darzustellen und aus Diagrammen abzulesen. Das sind Grundlagen f\u00fcr sp\u00e4tere Datenanalyse.',
+      },
+      {
+        id: 'faq-17',
+        question: 'Sind Bilddiagramm-\u00dcbungen an den Mathematik-Lehrplan angepasst?',
+        answer: 'Die \u00dcbungen unterst\u00fctzen die Lernziele des Mathematik-Lehrplans f\u00fcr Klasse 1-3: Daten erfassen und darstellen, Bilddiagramme lesen und interpretieren, Mengen vergleichen. Das Format entspricht den Anforderungen an handlungsorientierte Datenarbeit.',
+      },
+      {
+        id: 'faq-18',
+        question: 'Eignen sich Bilddiagramme f\u00fcr Kinder mit F\u00f6rderbedarf?',
+        answer: 'Ja, das visuelle Format mit konkreten Bildern macht Datenarbeit besonders zug\u00e4nglich. Wenige Kategorien und kleine Zahlen bieten einen niedrigschwelligen Einstieg. Das K\u00e4stchen-Ausf\u00e4rben ist motorisch einfach und gibt sofortiges visuelles Feedback.',
+      },
+      {
+        id: 'faq-19',
+        question: 'Kann ich saisonale Bilddiagramm-Arbeitsbl\u00e4tter erstellen?',
+        answer: 'Ja, w\u00e4hlen Sie thematische Bilder aus der Bibliothek passend zur Jahreszeit: Blumen z\u00e4hlen im Fr\u00fchling, Eiscremesor ten im Sommer, Bl\u00e4tter im Herbst oder Wintersportarten. So verbinden Sie Datenarbeit mit aktuellen Sachunterrichtsthemen.',
+      },
+      {
+        id: 'faq-20',
+        question: 'Kann ich Bilddiagramm-Arbeitsbl\u00e4tter zu einem Heft zusammenstellen?',
+        answer: 'Ja, erstellen Sie verschiedene Diagramm-\u00dcbungen von einfach bis komplex und laden Sie alle als PDF herunter. Ordnen Sie die Bl\u00e4tter progressiv: erst Z\u00e4hlen und F\u00e4rben, dann Vergleichen, dann eigene Diagramme erstellen. So entsteht ein vollst\u00e4ndiges Statistik-Heft.',
+      },
     ],
 
   },

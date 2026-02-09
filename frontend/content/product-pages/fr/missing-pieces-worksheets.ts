@@ -204,6 +204,81 @@ Téléchargez vos fiches en format JPEG ou PDF. L'option niveau de gris permet d
         question: 'Peut-on choisir les images utilis\u00e9es dans les puzzles ?',
         answer: 'Oui, vous s\u00e9lectionnez parmi plus de 3000 images th\u00e9matiques organis\u00e9es par cat\u00e9gorie. Vous pouvez \u00e9galement t\u00e9l\u00e9verser vos propres photos ou illustrations personnalis\u00e9es. Les images claires et color\u00e9es fonctionnent le mieux pour les activit\u00e9s de pi\u00e8ces manquantes.',
       },
+      {
+        id: 'faq-6',
+        question: 'Quels formats de fichier sont disponibles pour les fiches pi\u00e8ces manquantes ?',
+        answer: 'Les fiches se t\u00e9l\u00e9chargent en PDF pour l\u2019impression professionnelle ou en JPEG pour le partage num\u00e9rique. La r\u00e9solution de 300 DPI assure que les d\u00e9tails de l\u2019image et les options de r\u00e9ponse restent parfaitement nets sur papier.',
+      },
+      {
+        id: 'faq-7',
+        question: 'Le g\u00e9n\u00e9rateur de pi\u00e8ces manquantes fonctionne-t-il en plusieurs langues ?',
+        answer: 'Oui, onze langues sont support\u00e9es pour les noms d\u2019images et les consignes. La biblioth\u00e8que de 3000 images s\u2019adapte automatiquement \u00e0 la langue choisie. Les exercices de discrimination visuelle \u00e9tant universels, les fiches conviennent \u00e0 toutes les langues.',
+      },
+      {
+        id: 'faq-8',
+        question: 'Comment fonctionne le syst\u00e8me de pi\u00e8ces manquantes ?',
+        answer: 'Le g\u00e9n\u00e9rateur d\u00e9coupe automatiquement de 1 \u00e0 4 sections d\u2019une image et cr\u00e9e des options de r\u00e9ponse. Parmi les options, une seule correspond parfaitement \u00e0 la pi\u00e8ce manquante. Les distracteurs sont visuellement similaires pour stimuler l\u2019observation attentive.',
+      },
+      {
+        id: 'faq-9',
+        question: 'Comment optimiser l\u2019impression des fiches pi\u00e8ces manquantes ?',
+        answer: 'Imprimez le PDF en qualit\u00e9 maximale sur papier A4 blanc. Les d\u00e9tails de l\u2019image doivent \u00eatre clairement visibles pour distinguer la bonne pi\u00e8ce des distracteurs. V\u00e9rifiez l\u2019aper\u00e7u avant impression pour confirmer la nettet\u00e9 des petits \u00e9l\u00e9ments.',
+      },
+      {
+        id: 'faq-10',
+        question: 'Puis-je vendre les fiches pi\u00e8ces manquantes cr\u00e9\u00e9es ?',
+        answer: 'Oui, votre abonnement Acc\u00e8s Complet inclut une licence commerciale pour toutes les cr\u00e9ations. Les cahiers de puzzles visuels th\u00e9matiques sont populaires sur les plateformes \u00e9ducatives. Cr\u00e9ez des s\u00e9ries de difficult\u00e9 progressive pour un contenu vari\u00e9.',
+      },
+      {
+        id: 'faq-11',
+        question: 'Comment fonctionne l\u2019abonnement pour le g\u00e9n\u00e9rateur de pi\u00e8ces manquantes ?',
+        answer: 'L\u2019abonnement Acc\u00e8s Complet \u00e0 240 \u20ac par an donne acc\u00e8s aux 33 g\u00e9n\u00e9rateurs, dont les pi\u00e8ces manquantes. Cr\u00e9ation illimit\u00e9e de puzzles avec corrig\u00e9s automatiques. Paiement s\u00e9curis\u00e9 et r\u00e9siliation flexible \u00e0 tout moment.',
+      },
+      {
+        id: 'faq-12',
+        question: 'Comment utiliser mes propres images pour les puzzles ?',
+        answer: 'Cliquez sur le bouton de t\u00e9l\u00e9versement et importez vos photos ou illustrations. Le g\u00e9n\u00e9rateur d\u00e9coupe automatiquement les pi\u00e8ces et cr\u00e9e les distracteurs. Les images avec des d\u00e9tails vari\u00e9s et des couleurs contrast\u00e9es fonctionnent le mieux.',
+      },
+      {
+        id: 'faq-13',
+        question: 'Les fiches pi\u00e8ces manquantes sont-elles conformes au programme scolaire ?',
+        answer: 'Oui, la discrimination visuelle et l\u2019attention aux d\u00e9tails sont des comp\u00e9tences fondamentales du cycle 1. L\u2019analyse d\u2019images et la comparaison visuelle pr\u00e9parent aux activit\u00e9s de lecture et d\u2019observation scientifique attendues en maternelle et au CP.',
+      },
+      {
+        id: 'faq-14',
+        question: 'Comment adapter les puzzles pour les \u00e9l\u00e8ves en difficult\u00e9 ?',
+        answer: 'Commencez avec une seule pi\u00e8ce manquante et peu d\u2019options de r\u00e9ponse. Choisissez des images simples avec des zones de couleur bien d\u00e9finies. Les distracteurs tr\u00e8s diff\u00e9rents de la bonne r\u00e9ponse facilitent la discrimination pour les d\u00e9butants.',
+      },
+      {
+        id: 'faq-15',
+        question: 'Quels formats de page sont propos\u00e9s pour les fiches pi\u00e8ces manquantes ?',
+        answer: 'Les formats Letter et A4 en portrait ou paysage sont disponibles. Le portrait A4 est le format standard pour les fiches scolaires. Le nombre de puzzles par page s\u2019adapte automatiquement au format choisi pour un espacement confortable.',
+      },
+      {
+        id: 'faq-16',
+        question: 'L\u2019option niveaux de gris fonctionne-t-elle avec les puzzles visuels ?',
+        answer: 'Les versions couleur sont fortement recommand\u00e9es car les indices de couleur sont essentiels pour distinguer les pi\u00e8ces. Le mode niveaux de gris reste utilisable si les images pr\u00e9sentent des contrastes suffisants. Testez l\u2019aper\u00e7u avant d\u2019imprimer en noir et blanc.',
+      },
+      {
+        id: 'faq-17',
+        question: 'Comment personnaliser les fiches sur le canevas d\u2019\u00e9dition ?',
+        answer: 'D\u00e9placez l\u2019image principale et les options de r\u00e9ponse librement. Redimensionnez les \u00e9l\u00e9ments pour optimiser la lisibilit\u00e9. Ajoutez un titre personnalis\u00e9, des consignes ou le nom de l\u2019\u00e9l\u00e8ve avec les sept polices professionnelles disponibles.',
+      },
+      {
+        id: 'faq-18',
+        question: 'Peut-on combiner les pi\u00e8ces manquantes avec d\u2019autres g\u00e9n\u00e9rateurs ?',
+        answer: 'Oui, associez les puzzles visuels avec le puzzle grille pour le raisonnement spatial. Combinez avec les coloriages pour la motricit\u00e9 fine ou les fiches d\u2019association pour le vocabulaire. Ces combinaisons cr\u00e9ent des cahiers d\u2019activit\u00e9s vari\u00e9s et \u00e9quilibr\u00e9s.',
+      },
+      {
+        id: 'faq-19',
+        question: 'Comment les pi\u00e8ces manquantes d\u00e9veloppent-elles l\u2019observation ?',
+        answer: 'Les \u00e9l\u00e8ves analysent syst\u00e9matiquement chaque option de r\u00e9ponse en comparant les d\u00e9tails avec l\u2019image incompl\u00e8te. Ce processus entra\u00eene la perception des diff\u00e9rences subtiles et renforce la m\u00e9moire visuelle. Ces comp\u00e9tences sont transf\u00e9rables \u00e0 la lecture et aux sciences.',
+      },
+      {
+        id: 'faq-20',
+        question: 'Combien de temps faut-il pour cr\u00e9er une fiche pi\u00e8ces manquantes ?',
+        answer: 'La cr\u00e9ation prend moins de trois minutes. S\u00e9lectionnez une image, d\u00e9finissez le nombre de pi\u00e8ces manquantes et cliquez sur Cr\u00e9er. Le puzzle avec ses options de r\u00e9ponse et son corrig\u00e9 sont g\u00e9n\u00e9r\u00e9s instantan\u00e9ment.',
+      },
     ],
 
   },

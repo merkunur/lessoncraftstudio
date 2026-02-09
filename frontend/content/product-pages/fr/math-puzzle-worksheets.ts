@@ -216,6 +216,81 @@ Activez le mode niveaux de gris avant de télécharger pour économiser l'encre 
         question: 'Pour quels niveaux scolaires les puzzles maths sont-ils adapt\u00e9s ?',
         answer: 'Les puzzles maths conviennent de la maternelle au CE1 avec une complexit\u00e9 progressive. Les fiches maternelle utilisent des nombres simples et peu de symboles. Les exercices CP et CE1 int\u00e8grent des op\u00e9rations plus complexes avec des plages de nombres \u00e9largies.',
       },
+      {
+        id: 'faq-6',
+        question: 'Quels formats de fichier sont disponibles pour les fiches puzzle maths ?',
+        answer: 'Les fiches se t\u00e9l\u00e9chargent en PDF pour l\u2019impression professionnelle ou en JPEG pour le partage num\u00e9rique. La r\u00e9solution 300 DPI assure que les symboles, la l\u00e9gende de d\u00e9codage et les \u00e9quations restent parfaitement nets et lisibles.',
+      },
+      {
+        id: 'faq-7',
+        question: 'Le g\u00e9n\u00e9rateur de puzzle maths fonctionne-t-il en plusieurs langues ?',
+        answer: 'Oui, onze langues sont support\u00e9es pour les noms d\u2019images dans la biblioth\u00e8que. La recherche et les \u00e9tiquettes s\u2019adaptent \u00e0 la langue s\u00e9lectionn\u00e9e. Les \u00e9quations math\u00e9matiques \u00e9tant universelles, les fiches fonctionnent dans toutes les langues.',
+      },
+      {
+        id: 'faq-8',
+        question: 'Comment fonctionnent les quatre niveaux de difficult\u00e9 ?',
+        answer: 'Le niveau tr\u00e8s facile utilise 2 symboles avec addition seule pour les d\u00e9butants. Le niveau facile propose 3 symboles. Le niveau moyen ajoute la soustraction aux op\u00e9rations. Le niveau difficile combine 4 symboles avec addition et soustraction pour un d\u00e9fi cognitif complet.',
+      },
+      {
+        id: 'faq-9',
+        question: 'Comment optimiser l\u2019impression des fiches puzzle maths ?',
+        answer: 'Imprimez le PDF en qualit\u00e9 maximale sur papier A4 blanc. La l\u00e9gende de d\u00e9codage en haut doit \u00eatre clairement visible car les \u00e9l\u00e8ves s\u2019y r\u00e9f\u00e8rent constamment. V\u00e9rifiez que les symboles images sont bien identifiables dans les \u00e9quations.',
+      },
+      {
+        id: 'faq-10',
+        question: 'Puis-je vendre les fiches puzzle maths cr\u00e9\u00e9es ?',
+        answer: 'Oui, votre abonnement Acc\u00e8s Complet inclut une licence commerciale pour toutes les cr\u00e9ations. Les cahiers de puzzles math\u00e9matiques th\u00e9matiques sont tr\u00e8s recherch\u00e9s sur les plateformes \u00e9ducatives. Cr\u00e9ez des s\u00e9ries progressives pour un contenu attractif.',
+      },
+      {
+        id: 'faq-11',
+        question: 'Comment fonctionne l\u2019abonnement pour le g\u00e9n\u00e9rateur de puzzle maths ?',
+        answer: 'L\u2019abonnement Acc\u00e8s Complet \u00e0 240 \u20ac par an donne acc\u00e8s aux 33 g\u00e9n\u00e9rateurs, dont le puzzle maths. Cr\u00e9ation illimit\u00e9e de fiches avec corrig\u00e9s automatiques. Paiement s\u00e9curis\u00e9 et r\u00e9siliation disponible \u00e0 tout moment.',
+      },
+      {
+        id: 'faq-12',
+        question: 'Peut-on utiliser des images personnalis\u00e9es comme symboles ?',
+        answer: 'Oui, t\u00e9l\u00e9versez vos propres images pour remplacer celles de la biblioth\u00e8que. Les mascottes d\u2019\u00e9cole, les photos d\u2019objets ou les dessins d\u2019\u00e9l\u00e8ves deviennent des symboles math\u00e9matiques personnalis\u00e9s. Cela rend les puzzles plus motivants et concrets.',
+      },
+      {
+        id: 'faq-13',
+        question: 'Les puzzles maths sont-ils conformes au programme scolaire ?',
+        answer: 'Oui, le d\u00e9codage de symboles et le calcul mental sont des comp\u00e9tences cl\u00e9s des cycles 1 et 2. Les puzzles combinent logique d\u00e9ductive et calcul, pr\u00e9parant aux probl\u00e8mes math\u00e9matiques plus complexes. Les plages de nombres correspondent aux attendus de chaque niveau.',
+      },
+      {
+        id: 'faq-14',
+        question: 'Comment adapter les puzzles maths pour les \u00e9l\u00e8ves en difficult\u00e9 ?',
+        answer: 'Choisissez le niveau tr\u00e8s facile avec 2 symboles et des nombres de 1 \u00e0 5. L\u2019addition seule simplifie le raisonnement. Agrandissez la l\u00e9gende sur le canevas pour am\u00e9liorer la lisibilit\u00e9 et r\u00e9duisez le nombre d\u2019\u00e9quations par fiche.',
+      },
+      {
+        id: 'faq-15',
+        question: 'Quels formats de page sont propos\u00e9s pour les puzzles maths ?',
+        answer: 'Les formats Letter et A4 sont disponibles en portrait ou paysage. Le portrait A4 convient parfaitement avec la l\u00e9gende en haut et les \u00e9quations en dessous. Le format paysage offre plus d\u2019espace horizontal pour les \u00e9quations longues.',
+      },
+      {
+        id: 'faq-16',
+        question: 'L\u2019option niveaux de gris fonctionne-t-elle avec les symboles images ?',
+        answer: 'Oui, les images symboles restent reconnaissables en noir et blanc gr\u00e2ce \u00e0 leurs contours distinctifs. Toutefois, les versions couleur sont recommand\u00e9es pour les plus jeunes car les couleurs facilitent l\u2019identification rapide des symboles dans les \u00e9quations.',
+      },
+      {
+        id: 'faq-17',
+        question: 'Comment personnaliser le puzzle maths sur le canevas ?',
+        answer: 'D\u00e9placez la l\u00e9gende et les \u00e9quations librement sur la page. Redimensionnez les symboles pour les adapter aux besoins des \u00e9l\u00e8ves. Ajoutez un titre personnalis\u00e9, des consignes sp\u00e9cifiques ou le nom de l\u2019\u00e9l\u00e8ve avec les polices disponibles.',
+      },
+      {
+        id: 'faq-18',
+        question: 'Peut-on combiner le puzzle maths avec d\u2019autres g\u00e9n\u00e9rateurs ?',
+        answer: 'Oui, associez les puzzles maths avec l\u2019addition classique pour varier les approches de calcul. Combinez avec l\u2019addition cod\u00e9e pour renforcer le d\u00e9codage ou avec les coloriages pour des pauses cr\u00e9atives. Ces associations cr\u00e9ent des cahiers \u00e9quilibr\u00e9s.',
+      },
+      {
+        id: 'faq-19',
+        question: 'Quels avantages cognitifs offrent les puzzles maths ?',
+        answer: 'Les puzzles sollicitent la m\u00e9moire de travail en obligeant l\u2019\u00e9l\u00e8ve \u00e0 retenir les valeurs des symboles. La logique d\u00e9ductive s\u2019exerce par \u00e9limination progressive. Le va-et-vient entre la l\u00e9gende et les \u00e9quations d\u00e9veloppe la flexibilit\u00e9 cognitive et l\u2019autonomie.',
+      },
+      {
+        id: 'faq-20',
+        question: 'Combien de temps faut-il pour cr\u00e9er un puzzle maths ?',
+        answer: 'La cr\u00e9ation prend moins de trois minutes. S\u00e9lectionnez les images symboles, d\u00e9finissez le niveau de difficult\u00e9 et les plages de nombres, puis cliquez sur Cr\u00e9er. Le puzzle avec sa l\u00e9gende et son corrig\u00e9 sont g\u00e9n\u00e9r\u00e9s instantan\u00e9ment.',
+      },
     ],
 
   },

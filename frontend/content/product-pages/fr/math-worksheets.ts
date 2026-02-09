@@ -199,6 +199,81 @@ Ces fiches mathématiques fonctionnent idéalement pour les centres de numérati
         question: 'Les corrig\u00e9s sont-ils g\u00e9n\u00e9r\u00e9s automatiquement ?',
         answer: 'Oui, chaque fiche de maths g\u00e9n\u00e8re automatiquement un corrig\u00e9 complet avec toutes les r\u00e9ponses. Les enseignants t\u00e9l\u00e9chargent la fiche \u00e9l\u00e8ve et le corrig\u00e9 s\u00e9par\u00e9ment en PDF ou JPEG. Cela fait gagner un temps consid\u00e9rable lors de la correction.',
       },
+      {
+        id: 'faq-6',
+        question: 'Quels formats de fichier sont disponibles pour les fiches de maths ?',
+        answer: 'Les fiches d\u2019exercices maths se t\u00e9l\u00e9chargent en PDF pour l\u2019impression ou en JPEG pour le partage num\u00e9rique. La r\u00e9solution de 300 DPI garantit des images nettes et des chiffres parfaitement lisibles. Le corrig\u00e9 se t\u00e9l\u00e9charge s\u00e9par\u00e9ment.',
+      },
+      {
+        id: 'faq-7',
+        question: 'Le g\u00e9n\u00e9rateur de fiches maths fonctionne-t-il en plusieurs langues ?',
+        answer: 'Oui, onze langues sont support\u00e9es pour les noms d\u2019images et les consignes. Les \u00e9tiquettes et la recherche dans la biblioth\u00e8que s\u2019adaptent automatiquement. Les op\u00e9rations math\u00e9matiques \u00e9tant universelles, les fiches conviennent \u00e0 tous les pays francophones.',
+      },
+      {
+        id: 'faq-8',
+        question: 'Quelles op\u00e9rations et modes d\u2019exercices sont propos\u00e9s ?',
+        answer: 'Le g\u00e9n\u00e9rateur propose l\u2019addition, la soustraction et les op\u00e9rations mixtes. Chaque exercice utilise des images color\u00e9es comme support visuel. Le nombre d\u2019exercices par fiche varie de 4 \u00e0 20 selon le niveau et l\u2019\u00e2ge des \u00e9l\u00e8ves.',
+      },
+      {
+        id: 'faq-9',
+        question: 'Comment optimiser l\u2019impression des fiches de maths ?',
+        answer: 'Imprimez le PDF en qualit\u00e9 maximale sur papier A4 blanc. V\u00e9rifiez que les images et les chiffres sont bien lisibles dans l\u2019aper\u00e7u. L\u2019option niveaux de gris \u00e9conomise l\u2019encre couleur tout en gardant les exercices clairs et les images reconnaissables.',
+      },
+      {
+        id: 'faq-10',
+        question: 'Puis-je vendre les fiches de maths cr\u00e9\u00e9es ?',
+        answer: 'Oui, la licence commerciale incluse dans votre abonnement autorise la vente sur toutes les plateformes \u00e9ducatives. Les cahiers d\u2019exercices maths th\u00e9matiques sont tr\u00e8s demand\u00e9s. Cr\u00e9ez des s\u00e9ries par op\u00e9ration et par niveau pour diversifier votre offre.',
+      },
+      {
+        id: 'faq-11',
+        question: 'Comment fonctionne l\u2019abonnement pour le g\u00e9n\u00e9rateur de maths ?',
+        answer: 'Le Pack Essentiel \u00e0 144 \u20ac par an inclut le g\u00e9n\u00e9rateur de maths et 9 autres outils. Cr\u00e9ation illimit\u00e9e de fiches avec corrig\u00e9s automatiques. Le paiement est s\u00e9curis\u00e9 et la r\u00e9siliation possible \u00e0 tout moment.',
+      },
+      {
+        id: 'faq-12',
+        question: 'Comment utiliser mes propres images pour les fiches de maths ?',
+        answer: 'Cliquez sur le bouton de t\u00e9l\u00e9versement et importez vos fichiers JPEG, PNG ou GIF. Vos images remplacent celles de la biblioth\u00e8que dans les exercices. Les objets du quotidien ou les mascottes d\u2019\u00e9cole rendent le calcul plus concret et motivant.',
+      },
+      {
+        id: 'faq-13',
+        question: 'Les fiches de maths correspondent-elles au programme scolaire fran\u00e7ais ?',
+        answer: 'Oui, l\u2019addition et la soustraction avec support visuel correspondent aux attendus du cycle 1 et 2. Les plages de 1 \u00e0 5 conviennent \u00e0 la grande section, de 1 \u00e0 10 au CP et jusqu\u2019\u00e0 20 au CE1. Chaque fiche renforce la num\u00e9ration et le calcul.',
+      },
+      {
+        id: 'faq-14',
+        question: 'Comment adapter les fiches maths pour les \u00e9l\u00e8ves en difficult\u00e9 ?',
+        answer: 'R\u00e9duisez le nombre d\u2019exercices \u00e0 4 par fiche et limitez les plages de nombres \u00e0 1-3. L\u2019addition seule avec support visuel par images est le mode le plus accessible. Les images aident les \u00e9l\u00e8ves \u00e0 concr\u00e9tiser les quantit\u00e9s et \u00e0 v\u00e9rifier leurs r\u00e9sultats.',
+      },
+      {
+        id: 'faq-15',
+        question: 'Quels formats de page sont propos\u00e9s pour les fiches de maths ?',
+        answer: 'Les formats Letter et A4 sont disponibles en portrait ou paysage. Le portrait A4 est le standard pour les fiches scolaires fran\u00e7aises. Le nombre d\u2019exercices s\u2019adapte automatiquement au format choisi pour un espacement confortable.',
+      },
+      {
+        id: 'faq-16',
+        question: 'L\u2019option noir et blanc est-elle disponible pour les fiches maths ?',
+        answer: 'Oui, la case niveaux de gris convertit les images en noir et blanc. Les contours restent nets et les chiffres parfaitement lisibles. Cette option r\u00e9duit consid\u00e9rablement les co\u00fbts d\u2019impression pour les classes qui utilisent beaucoup de fiches.',
+      },
+      {
+        id: 'faq-17',
+        question: 'Comment personnaliser les fiches maths sur le canevas ?',
+        answer: 'Cliquez sur les exercices pour les d\u00e9placer et les redimensionner. Ajoutez un titre personnalis\u00e9, le nom de l\u2019\u00e9l\u00e8ve ou des consignes sp\u00e9cifiques. Les sept polices professionnelles et les bordures d\u00e9coratives enrichissent la pr\u00e9sentation.',
+      },
+      {
+        id: 'faq-18',
+        question: 'Peut-on combiner les fiches maths avec d\u2019autres g\u00e9n\u00e9rateurs ?',
+        answer: 'Oui, associez les exercices de maths avec les puzzles maths pour le d\u00e9codage ou l\u2019addition cod\u00e9e pour varier les approches. Les coloriages offrent des pauses cr\u00e9atives entre les exercices de calcul. Ces combinaisons cr\u00e9ent des cahiers \u00e9quilibr\u00e9s.',
+      },
+      {
+        id: 'faq-19',
+        question: 'Comment suivre la progression en calcul avec les fiches maths ?',
+        answer: 'Cr\u00e9ez des fiches de difficult\u00e9 croissante en augmentant les plages de nombres et le nombre d\u2019exercices. Passez de l\u2019addition \u00e0 la soustraction puis aux op\u00e9rations mixtes. Le corrig\u00e9 automatique facilite la correction rapide et le suivi individuel.',
+      },
+      {
+        id: 'faq-20',
+        question: 'Combien de temps faut-il pour cr\u00e9er une fiche de maths ?',
+        answer: 'Moins de trois minutes du d\u00e9but au t\u00e9l\u00e9chargement. D\u00e9finissez l\u2019op\u00e9ration, les plages de nombres et le nombre d\u2019exercices, puis cliquez sur G\u00e9n\u00e9rer. La fiche avec ses images et son corrig\u00e9 sont pr\u00eats instantan\u00e9ment.',
+      },
     ],
 
   },

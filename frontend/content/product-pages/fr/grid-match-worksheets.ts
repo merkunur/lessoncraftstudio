@@ -239,6 +239,81 @@ Les multiples options de téléchargement soutiennent différents besoins de cla
         question: 'Un corrig\u00e9 est-il inclus avec chaque puzzle grille ?',
         answer: 'Oui, un corrig\u00e9 est g\u00e9n\u00e9r\u00e9 automatiquement montrant la grille compl\u00e8te avec toutes les pi\u00e8ces correctement plac\u00e9es. Les \u00e9l\u00e8ves peuvent v\u00e9rifier leur travail de mani\u00e8re autonome et les enseignants corrigent rapidement.',
       },
+      {
+        id: 'faq-6',
+        question: 'Quels formats de fichier sont disponibles pour les fiches puzzle grille ?',
+        answer: 'Les fiches se t\u00e9l\u00e9chargent en PDF pour l\u2019impression professionnelle ou en JPEG pour le partage num\u00e9rique. La r\u00e9solution 300 DPI garantit que les pi\u00e8ces num\u00e9rot\u00e9es et la grille de r\u00e9f\u00e9rence restent parfaitement nettes et lisibles.',
+      },
+      {
+        id: 'faq-7',
+        question: 'Le g\u00e9n\u00e9rateur de puzzle grille fonctionne-t-il en plusieurs langues ?',
+        answer: 'Oui, onze langues sont support\u00e9es pour les noms d\u2019images et les consignes de la fiche. La biblioth\u00e8que de 3000 images s\u2019adapte automatiquement \u00e0 la langue s\u00e9lectionn\u00e9e. Les fiches multilingues conviennent aux \u00e9coles internationales.',
+      },
+      {
+        id: 'faq-8',
+        question: 'Comment fonctionnent les diff\u00e9rentes tailles de grille ?',
+        answer: 'Les grilles 2x2 contiennent 4 pi\u00e8ces num\u00e9rot\u00e9es, id\u00e9ales pour les d\u00e9butants de maternelle. Les grilles 3x3 offrent 9 pi\u00e8ces pour un d\u00e9fi interm\u00e9diaire. Les grilles 4x4 avec 16 pi\u00e8ces repr\u00e9sentent le niveau le plus avanc\u00e9, adapt\u00e9 aux exercices CP et CE1.',
+      },
+      {
+        id: 'faq-9',
+        question: 'Comment optimiser l\u2019impression des fiches puzzle grille ?',
+        answer: 'Imprimez le PDF sur papier A4 blanc en qualit\u00e9 maximale. Les num\u00e9ros des pi\u00e8ces et les d\u00e9tails de l\u2019image doivent \u00eatre clairement visibles. V\u00e9rifiez que la grille de r\u00e9f\u00e9rence et les pi\u00e8ces d\u00e9coup\u00e9es sont bien distinctes avant d\u2019imprimer en quantit\u00e9.',
+      },
+      {
+        id: 'faq-10',
+        question: 'Puis-je vendre les fiches puzzle grille cr\u00e9\u00e9es ?',
+        answer: 'Oui, votre abonnement Acc\u00e8s Complet inclut la licence commerciale pour toutes les cr\u00e9ations. Les cahiers de puzzles spatiaux th\u00e9matiques sont populaires sur les plateformes \u00e9ducatives. Cr\u00e9ez des s\u00e9ries de difficult\u00e9 progressive pour un contenu attractif.',
+      },
+      {
+        id: 'faq-11',
+        question: 'Comment fonctionne l\u2019abonnement pour le g\u00e9n\u00e9rateur de puzzle grille ?',
+        answer: 'L\u2019abonnement Acc\u00e8s Complet \u00e0 240 \u20ac par an donne acc\u00e8s aux 33 g\u00e9n\u00e9rateurs, dont le puzzle grille. Cr\u00e9ation illimit\u00e9e de fiches avec corrig\u00e9s automatiques. Le paiement est s\u00e9curis\u00e9 et la r\u00e9siliation possible \u00e0 tout moment.',
+      },
+      {
+        id: 'faq-12',
+        question: 'Comment utiliser mes propres images pour les puzzles grille ?',
+        answer: 'Cliquez sur le bouton de t\u00e9l\u00e9versement et importez vos photos ou illustrations. Le g\u00e9n\u00e9rateur d\u00e9coupe automatiquement l\u2019image en pi\u00e8ces num\u00e9rot\u00e9es selon la taille de grille choisie. Les photos de classe ou les dessins d\u2019\u00e9l\u00e8ves fonctionnent tr\u00e8s bien.',
+      },
+      {
+        id: 'faq-13',
+        question: 'Le puzzle grille correspond-il au programme scolaire fran\u00e7ais ?',
+        answer: 'Oui, le rep\u00e9rage dans l\u2019espace et la reconstruction d\u2019images sont des comp\u00e9tences g\u00e9om\u00e9triques cl\u00e9s du cycle 1 et 2. L\u2019analyse de motifs et la correspondance spatiale pr\u00e9parent aux exercices de g\u00e9om\u00e9trie plus complexes abord\u00e9s en CE1.',
+      },
+      {
+        id: 'faq-14',
+        question: 'Comment adapter les puzzles grille pour les \u00e9l\u00e8ves en difficult\u00e9 ?',
+        answer: 'Commencez par des grilles 2x2 avec des images \u00e0 fort contraste de couleurs. Les images simples avec peu de d\u00e9tails facilitent l\u2019identification des pi\u00e8ces. Augmentez progressivement la taille de la grille lorsque l\u2019\u00e9l\u00e8ve ma\u00eetrise le niveau pr\u00e9c\u00e9dent.',
+      },
+      {
+        id: 'faq-15',
+        question: 'Quels formats de page sont propos\u00e9s pour les puzzles grille ?',
+        answer: 'Les formats Letter et A4 sont disponibles en portrait ou paysage. Le format portrait place la grille de r\u00e9f\u00e9rence en haut et les pi\u00e8ces en dessous. Le format paysage dispose la r\u00e9f\u00e9rence \u00e0 gauche et les pi\u00e8ces \u00e0 droite pour un parcours visuel naturel.',
+      },
+      {
+        id: 'faq-16',
+        question: 'L\u2019option niveaux de gris fonctionne-t-elle avec les puzzles grille ?',
+        answer: 'Oui, mais les versions couleur sont recommand\u00e9es car les indices de couleur aident les \u00e9l\u00e8ves \u00e0 associer les pi\u00e8ces. Le mode niveaux de gris fonctionne bien pour les images avec des contrastes forts. Il \u00e9conomise l\u2019encre pour les impressions en s\u00e9rie.',
+      },
+      {
+        id: 'faq-17',
+        question: 'Comment personnaliser le puzzle grille sur le canevas d\u2019\u00e9dition ?',
+        answer: 'D\u00e9placez la grille de r\u00e9f\u00e9rence et les pi\u00e8ces librement sur la page. Redimensionnez les \u00e9l\u00e9ments pour optimiser l\u2019espace. Ajoutez un titre personnalis\u00e9, des consignes ou le nom de l\u2019\u00e9l\u00e8ve avec les sept polices disponibles.',
+      },
+      {
+        id: 'faq-18',
+        question: 'Peut-on combiner le puzzle grille avec d\u2019autres g\u00e9n\u00e9rateurs ?',
+        answer: 'Oui, associez les puzzles grille avec le dessin sur quadrillage pour le raisonnement spatial. Combinez avec les fiches de pi\u00e8ces manquantes pour la discrimination visuelle ou les coloriages pour la motricit\u00e9 fine. Ces associations cr\u00e9ent des cahiers \u00e9quilibr\u00e9s.',
+      },
+      {
+        id: 'faq-19',
+        question: 'Comment le puzzle grille d\u00e9veloppe-t-il le raisonnement spatial ?',
+        answer: 'Les \u00e9l\u00e8ves analysent chaque pi\u00e8ce num\u00e9rot\u00e9e et la positionnent mentalement dans la grille de r\u00e9f\u00e9rence. Ce processus d\u00e9veloppe la rotation mentale, la correspondance visuelle et la m\u00e9moire spatiale. Ces comp\u00e9tences sont fondamentales pour la g\u00e9om\u00e9trie et les sciences.',
+      },
+      {
+        id: 'faq-20',
+        question: 'Combien de temps faut-il pour cr\u00e9er un puzzle grille ?',
+        answer: 'La cr\u00e9ation prend moins de trois minutes. S\u00e9lectionnez une image, choisissez la taille de grille et cliquez sur Cr\u00e9er. Les pi\u00e8ces num\u00e9rot\u00e9es et la grille de r\u00e9f\u00e9rence avec le corrig\u00e9 sont g\u00e9n\u00e9r\u00e9s instantan\u00e9ment.',
+      },
     ],
 
   },

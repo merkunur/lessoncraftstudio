@@ -233,6 +233,81 @@ Activez l'option niveaux de gris avant de télécharger pour économiser l'encre
         question: 'Peut-on choisir des paires d\u2019images sp\u00e9cifiques ?',
         answer: 'Oui, vous pouvez s\u00e9lectionner manuellement chaque image parmi plus de 3000 illustrations th\u00e9matiques. Le g\u00e9n\u00e9rateur peut aussi cr\u00e9er automatiquement des paires \u00e0 partir d\u2019un th\u00e8me choisi. Vous avez \u00e9galement la possibilit\u00e9 de t\u00e9l\u00e9verser vos propres images.',
       },
+      {
+        id: 'faq-6',
+        question: 'Quels formats de fichier sont disponibles pour les fiches d\u2019association ?',
+        answer: 'Les fiches d\u2019association se t\u00e9l\u00e9chargent en PDF pour l\u2019impression ou en JPEG pour le partage num\u00e9rique. La r\u00e9solution 300 DPI garantit des images nettes et des lignes de connexion pr\u00e9cises. Le corrig\u00e9 se t\u00e9l\u00e9charge s\u00e9par\u00e9ment dans les m\u00eames formats.',
+      },
+      {
+        id: 'faq-7',
+        question: 'Les fiches d\u2019association fonctionnent-elles en plusieurs langues ?',
+        answer: 'Oui, le g\u00e9n\u00e9rateur prend en charge onze langues. Les noms d\u2019images et les mots associ\u00e9s s\u2019adaptent automatiquement \u00e0 la langue s\u00e9lectionn\u00e9e. Le mode image-mot est particuli\u00e8rement utile pour l\u2019apprentissage du vocabulaire en langue \u00e9trang\u00e8re.',
+      },
+      {
+        id: 'faq-8',
+        question: 'Quels sont les quatre modes d\u2019exercices d\u2019association ?',
+        answer: 'Les quatre modes sont : image vers premi\u00e8re lettre pour la phon\u00e9tique, image vers mot complet pour le vocabulaire, image ou mot personnalis\u00e9 pour les d\u00e9finitions, et association d\u2019images identiques pour la discrimination visuelle. Chaque mode cible des comp\u00e9tences diff\u00e9rentes.',
+      },
+      {
+        id: 'faq-9',
+        question: 'Comment optimiser l\u2019impression des fiches d\u2019association ?',
+        answer: 'Imprimez en format PDF sur papier A4 blanc en qualit\u00e9 maximale. Les lignes de connexion doivent \u00eatre bien visibles entre les colonnes. V\u00e9rifiez que les images et les mots ou lettres sont suffisamment grands pour les capacit\u00e9s motrices des enfants.',
+      },
+      {
+        id: 'faq-10',
+        question: 'La licence commerciale couvre-t-elle les fiches d\u2019association ?',
+        answer: 'Oui, votre abonnement Pack Essentiel inclut une licence commerciale pour toutes les fiches cr\u00e9\u00e9es. Les cahiers d\u2019association th\u00e9matiques se vendent bien sur Teachers Pay Teachers et Etsy. Cr\u00e9ez des packs par th\u00e8me et par niveau pour augmenter vos ventes.',
+      },
+      {
+        id: 'faq-11',
+        question: 'Comment fonctionne l\u2019abonnement pour le g\u00e9n\u00e9rateur d\u2019association ?',
+        answer: 'Le Pack Essentiel \u00e0 144 \u20ac par an donne acc\u00e8s illimit\u00e9 \u00e0 10 g\u00e9n\u00e9rateurs, dont l\u2019association. Cr\u00e9ation illimit\u00e9e de fiches avec corrig\u00e9s automatiques. Paiement s\u00e9curis\u00e9 et r\u00e9siliation possible \u00e0 tout moment.',
+      },
+      {
+        id: 'faq-12',
+        question: 'Comment utiliser mes propres images pour les fiches d\u2019association ?',
+        answer: 'Cliquez sur le bouton de t\u00e9l\u00e9versement et importez vos fichiers JPEG, PNG ou GIF. Associez chaque image \u00e0 un mot ou une lettre personnalis\u00e9e. Les photos de la classe ou les objets du quotidien rendent les exercices plus concrets et motivants.',
+      },
+      {
+        id: 'faq-13',
+        question: 'Les fiches d\u2019association correspondent-elles aux programmes scolaires ?',
+        answer: 'Oui, la reconnaissance des lettres et l\u2019association phon\u00e8me-graph\u00e8me sont des comp\u00e9tences cl\u00e9s du cycle 1. Le mode image-mot renforce le vocabulaire attendu en CP et CE1. La coordination \u0153il-main d\u00e9velopp\u00e9e par le trac\u00e9 des lignes pr\u00e9pare \u00e0 l\u2019\u00e9criture.',
+      },
+      {
+        id: 'faq-14',
+        question: 'Comment adapter les fiches d\u2019association pour les \u00e9l\u00e8ves en difficult\u00e9 ?',
+        answer: 'R\u00e9duisez le nombre de paires \u00e0 3 pour limiter les distracteurs. Le mode image identique est le plus accessible pour d\u00e9buter. Augmentez la taille des images et l\u2019espacement entre les paires pour faciliter le trac\u00e9 des lignes de connexion.',
+      },
+      {
+        id: 'faq-15',
+        question: 'Quels formats de page conviennent aux fiches d\u2019association ?',
+        answer: 'Les formats Letter et A4 en portrait ou paysage sont disponibles. Le portrait est id\u00e9al pour les fiches avec deux colonnes verticales. Le format paysage offre plus d\u2019espace horizontal entre les \u00e9l\u00e9ments \u00e0 relier.',
+      },
+      {
+        id: 'faq-16',
+        question: 'L\u2019option niveaux de gris est-elle disponible pour les fiches d\u2019association ?',
+        answer: 'Oui, le mode niveaux de gris convertit les images en noir et blanc tout en gardant les contours nets. Les images restent reconnaissables et les lettres ou mots parfaitement lisibles. Id\u00e9al pour les impressions \u00e9conomiques en grande quantit\u00e9.',
+      },
+      {
+        id: 'faq-17',
+        question: 'Comment personnaliser les fiches sur le canevas d\u2019\u00e9dition ?',
+        answer: 'D\u00e9placez les colonnes d\u2019images et de mots librement. Ajoutez un titre, des consignes personnalis\u00e9es ou le nom de l\u2019\u00e9l\u00e8ve. Choisissez parmi sept polices professionnelles pour les mots et lettres. Les arri\u00e8re-plans th\u00e9matiques compl\u00e8tent la mise en page.',
+      },
+      {
+        id: 'faq-18',
+        question: 'Peut-on combiner l\u2019association avec d\u2019autres g\u00e9n\u00e9rateurs ?',
+        answer: 'Oui, associez les fiches d\u2019association avec les trains alphabet pour la reconnaissance des lettres. Combinez avec les coloriages pour la motricit\u00e9 fine ou les mots crois\u00e9s pour l\u2019orthographe. Ces combinaisons cr\u00e9ent des cahiers d\u2019activit\u00e9s complets.',
+      },
+      {
+        id: 'faq-19',
+        question: 'Comment suivre la progression des \u00e9l\u00e8ves avec les fiches d\u2019association ?',
+        answer: 'Commencez par le mode image identique avec 3 paires et progressez vers l\u2019association image-lettre. Passez ensuite \u00e0 l\u2019image-mot avec des mots simples puis complexes. Le corrig\u00e9 automatique facilite la correction et l\u2019\u00e9valuation des acquis individuels.',
+      },
+      {
+        id: 'faq-20',
+        question: 'Combien de temps faut-il pour cr\u00e9er une fiche d\u2019association ?',
+        answer: 'La cr\u00e9ation prend moins de trois minutes. S\u00e9lectionnez le mode d\u2019exercice, choisissez les images et le nombre de paires, puis cliquez sur G\u00e9n\u00e9rer. La fiche avec ses lignes de connexion et le corrig\u00e9 sont pr\u00eats instantan\u00e9ment.',
+      },
     ],
 
   },

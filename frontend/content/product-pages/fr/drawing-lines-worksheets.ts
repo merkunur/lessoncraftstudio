@@ -215,6 +215,81 @@ Le fichier se télécharge sur votre ordinateur. Imprimez directement sur votre 
         question: 'Quels th\u00e8mes d\'images sont disponibles ?',
         answer: 'Notre biblioth\u00e8que contient plus de 3000 images r\u00e9parties dans plus de 50 cat\u00e9gories : animaux, fruits, v\u00e9hicules, formes g\u00e9om\u00e9triques, lettres de l\'alphabet et bien d\'autres. Vous pouvez aussi t\u00e9l\u00e9verser vos propres images pour cr\u00e9er des fiches de graphisme personnalis\u00e9es en lien avec votre programme.',
       },
+      {
+        id: 'faq-6',
+        question: 'Quels formats de fichier sont disponibles pour les fiches de graphisme ?',
+        answer: 'Les fiches de graphisme se t\u00e9l\u00e9chargent en format PDF pour une impression nette ou en JPEG pour un partage num\u00e9rique facile. La r\u00e9solution de 300 DPI garantit des lignes de trac\u00e9 pr\u00e9cises et des images claires sur tous les types de papier.',
+      },
+      {
+        id: 'faq-7',
+        question: 'Le g\u00e9n\u00e9rateur de graphisme fonctionne-t-il en plusieurs langues ?',
+        answer: 'Oui, onze langues sont support\u00e9es pour les noms d\'images dans la biblioth\u00e8que. La recherche et les \u00e9tiquettes s\'adaptent automatiquement \u00e0 la langue choisie. Parfait pour les classes bilingues ou l\'enseignement du fran\u00e7ais langue \u00e9trang\u00e8re.',
+      },
+      {
+        id: 'faq-8',
+        question: 'Quels sont les huit mod\u00e8les de trac\u00e9 disponibles ?',
+        answer: 'Les huit mod\u00e8les incluent des lignes droites horizontales, verticales, diagonales, des courbes simples, des zigzags et des parcours mixtes. Les lignes courbes pr\u00e9parent \u00e0 l\'\u00e9criture cursive tandis que les diagonales d\u00e9veloppent le contr\u00f4le directionnel du geste graphique.',
+      },
+      {
+        id: 'faq-9',
+        question: 'Comment optimiser l\'impression des fiches de graphisme ?',
+        answer: 'Imprimez en format PDF sur papier A4 blanc en qualit\u00e9 maximale pour des lignes de trac\u00e9 bien nettes. L\'option niveaux de gris \u00e9conomise l\'encre couleur tout en gardant les images reconnaissables. Un papier l\u00e9g\u00e8rement plus \u00e9pais \u00e9vite que le crayon ne transperce.',
+      },
+      {
+        id: 'faq-10',
+        question: 'Puis-je vendre les fiches de graphisme cr\u00e9\u00e9es ?',
+        answer: 'Oui, votre abonnement inclut une licence commerciale compl\u00e8te. Vous pouvez vendre vos fiches de trac\u00e9 et de graphisme sur Teachers Pay Teachers, Etsy ou votre propre site. Aucune restriction sur le nombre de fiches vendues ni sur les revenus g\u00e9n\u00e9r\u00e9s.',
+      },
+      {
+        id: 'faq-11',
+        question: 'Comment fonctionne l\'abonnement pour le g\u00e9n\u00e9rateur de graphisme ?',
+        answer: 'Le Pack Essentiel \u00e0 144 \u20ac par an donne acc\u00e8s illimit\u00e9 \u00e0 10 g\u00e9n\u00e9rateurs de fiches, dont le graphisme. Cr\u00e9ez autant de fiches que souhait\u00e9 sans frais suppl\u00e9mentaire. La r\u00e9siliation est possible \u00e0 tout moment depuis votre espace client.',
+      },
+      {
+        id: 'faq-12',
+        question: 'Comment utiliser mes propres images pour les fiches de trac\u00e9 ?',
+        answer: 'Cliquez sur le bouton de t\u00e9l\u00e9versement et importez vos fichiers JPEG, PNG ou GIF. Vos images apparaissent dans la biblioth\u00e8que personnelle et peuvent \u00eatre utilis\u00e9es seules ou combin\u00e9es avec les 3000 images disponibles. Les photos de classe fonctionnent tr\u00e8s bien.',
+      },
+      {
+        id: 'faq-13',
+        question: 'Les fiches de graphisme correspondent-elles au programme de maternelle ?',
+        answer: 'Oui, le trac\u00e9 de lignes et la pr\u00e9-\u00e9criture font partie des attendus fondamentaux du cycle 1. Les fiches couvrent la progression de la petite \u00e0 la grande section : d\u00e9couverte du geste graphique, contr\u00f4le du trac\u00e9 et pr\u00e9paration \u00e0 l\'\u00e9criture cursive.',
+      },
+      {
+        id: 'faq-14',
+        question: 'Comment adapter les fiches de graphisme pour les \u00e9l\u00e8ves en difficult\u00e9 ?',
+        answer: 'R\u00e9duisez le nombre de paires \u00e0 3 et choisissez des mod\u00e8les de lignes droites horizontales pour commencer. Les images plus grandes et les espaces plus larges facilitent le trac\u00e9. Progressez ensuite vers les courbes et diagonales lorsque le geste est mieux contr\u00f4l\u00e9.',
+      },
+      {
+        id: 'faq-15',
+        question: 'Quels formats de page sont propos\u00e9s pour les fiches de graphisme ?',
+        answer: 'Les formats Letter et A4 sont disponibles en portrait ou paysage. Le format paysage est particuli\u00e8rement adapt\u00e9 aux trac\u00e9s horizontaux avec plus d\'espace entre les images. Le format portrait convient aux fiches avec plusieurs paires de haut en bas.',
+      },
+      {
+        id: 'faq-16',
+        question: 'L\'option niveaux de gris est-elle disponible pour le graphisme ?',
+        answer: 'Oui, la case niveaux de gris convertit toutes les images en noir et blanc. Les lignes de trac\u00e9 restent parfaitement visibles et les contours des images clairement d\u00e9finis. Cette option r\u00e9duit les co\u00fbts d\'impression pour les classes nombreuses.',
+      },
+      {
+        id: 'faq-17',
+        question: 'Comment personnaliser la fiche de graphisme sur le canevas ?',
+        answer: 'Cliquez sur n\'importe quel \u00e9l\u00e9ment pour le s\u00e9lectionner, puis d\u00e9placez-le ou redimensionnez-le. Ajoutez un titre personnalis\u00e9, le nom de l\'\u00e9l\u00e8ve ou des consignes sp\u00e9cifiques. Les sept polices professionnelles et les bordures d\u00e9coratives enrichissent la pr\u00e9sentation.',
+      },
+      {
+        id: 'faq-18',
+        question: 'Puis-je combiner les fiches de graphisme avec d\'autres g\u00e9n\u00e9rateurs ?',
+        answer: 'Oui, votre abonnement donne acc\u00e8s \u00e0 tous les g\u00e9n\u00e9rateurs du Pack Essentiel. Associez le graphisme avec les coloriages pour la motricit\u00e9 fine ou les fiches d\'association pour le vocabulaire. Ces combinaisons cr\u00e9ent des cahiers d\'activit\u00e9s complets.',
+      },
+      {
+        id: 'faq-19',
+        question: 'Comment organiser une progression p\u00e9dagogique avec les fiches de graphisme ?',
+        answer: 'Commencez par les lignes droites horizontales avec 3 paires pour les d\u00e9butants. Passez ensuite aux lignes verticales, puis aux diagonales et aux courbes. Augmentez progressivement le nombre de paires et la complexit\u00e9 des trac\u00e9s pour d\u00e9velopper la pr\u00e9cision du geste.',
+      },
+      {
+        id: 'faq-20',
+        question: 'Combien de temps faut-il pour cr\u00e9er une fiche de graphisme ?',
+        answer: 'Moins de trois minutes suffisent. S\u00e9lectionnez un mod\u00e8le de trac\u00e9, choisissez un th\u00e8me d\'images dans la biblioth\u00e8que et cliquez sur G\u00e9n\u00e9rer. La fiche avec ses lignes et images est pr\u00eate instantan\u00e9ment. Aucune comp\u00e9tence en design n\'est n\u00e9cessaire.',
+      },
     ],
 
   },

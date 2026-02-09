@@ -219,6 +219,81 @@ Imprimez les fiches téléchargées immédiatement ou enregistrez-les pour une u
         question: 'Les solutions sont-elles fournies avec chaque fiche ?',
         answer: 'Oui, un corrig\u00e9 est g\u00e9n\u00e9r\u00e9 automatiquement avec chaque fiche. Le corrig\u00e9 met en \u00e9vidence l\u2019emplacement de tous les objets cach\u00e9s ou entoure les images intrus. Les enseignants et parents peuvent ainsi v\u00e9rifier le travail rapidement.',
       },
+      {
+        id: 'faq-6',
+        question: 'Quels formats de fichier sont disponibles pour les fiches cherche les objets ?',
+        answer: 'Les fiches se t\u00e9l\u00e9chargent en PDF pour l\u2019impression professionnelle ou en JPEG pour le partage num\u00e9rique. La r\u00e9solution de 300 DPI assure que les objets cach\u00e9s et les distracteurs restent clairement distincts sur papier.',
+      },
+      {
+        id: 'faq-7',
+        question: 'Le g\u00e9n\u00e9rateur cherche les objets fonctionne-t-il en plusieurs langues ?',
+        answer: 'Oui, onze langues sont support\u00e9es pour les noms d\u2019images et les consignes de la fiche. La biblioth\u00e8que d\u2019images s\u2019adapte automatiquement \u00e0 la langue s\u00e9lectionn\u00e9e. Les fiches bilingues conviennent aux classes d\u2019immersion linguistique.',
+      },
+      {
+        id: 'faq-8',
+        question: 'Quelle est la diff\u00e9rence entre le mode Je Vois et le mode Intrus ?',
+        answer: 'Le mode Je Vois demande aux \u00e9l\u00e8ves de trouver des objets cach\u00e9s parmi les distracteurs visuels. Le mode Intrus inverse l\u2019exercice : les enfants identifient l\u2019image qui n\u2019appartient pas au groupe. Les deux modes d\u00e9veloppent la discrimination visuelle selon des approches compl\u00e9mentaires.',
+      },
+      {
+        id: 'faq-9',
+        question: 'Comment optimiser l\u2019impression des fiches cherche les objets ?',
+        answer: 'Imprimez le PDF en qualit\u00e9 maximale sur papier A4 blanc. Les images doivent \u00eatre suffisamment grandes pour que les enfants les distinguent des distracteurs. V\u00e9rifiez l\u2019aper\u00e7u avant impression pour confirmer que les d\u00e9tails visuels sont nets.',
+      },
+      {
+        id: 'faq-10',
+        question: 'Puis-je vendre les fiches cherche les objets cr\u00e9\u00e9es ?',
+        answer: 'Oui, votre abonnement Acc\u00e8s Complet inclut une licence commerciale compl\u00e8te. Les cahiers d\u2019objets cach\u00e9s et de discrimination visuelle sont populaires sur les plateformes \u00e9ducatives. Cr\u00e9ez des s\u00e9ries th\u00e9matiques pour diversifier votre offre.',
+      },
+      {
+        id: 'faq-11',
+        question: 'Comment fonctionne l\u2019abonnement Acc\u00e8s Complet pour ce g\u00e9n\u00e9rateur ?',
+        answer: 'L\u2019abonnement Acc\u00e8s Complet \u00e0 240 \u20ac par an donne acc\u00e8s aux 33 g\u00e9n\u00e9rateurs, dont cherche les objets. Cr\u00e9ation illimit\u00e9e de fiches avec corrig\u00e9s automatiques. Paiement s\u00e9curis\u00e9 et r\u00e9siliation flexible \u00e0 tout moment.',
+      },
+      {
+        id: 'faq-12',
+        question: 'Comment utiliser mes propres images dans les sc\u00e8nes ?',
+        answer: 'Cliquez sur le bouton de t\u00e9l\u00e9versement et importez vos fichiers JPEG, PNG ou GIF. Vos images servent d\u2019objets cach\u00e9s ou de distracteurs. Les photos de la classe ou les mascottes d\u2019\u00e9cole rendent les exercices plus motivants pour les enfants.',
+      },
+      {
+        id: 'faq-13',
+        question: 'Les fiches cherche les objets sont-elles conformes au programme scolaire ?',
+        answer: 'Oui, la discrimination visuelle et l\u2019attention s\u00e9lective sont des comp\u00e9tences fondamentales du cycle 1. Les programmes de maternelle incluent l\u2019observation fine et le rep\u00e9rage dans l\u2019espace visuel. Ces fiches pr\u00e9parent \u00e9galement aux activit\u00e9s de lecture en CP.',
+      },
+      {
+        id: 'faq-14',
+        question: 'Comment adapter les fiches pour les \u00e9l\u00e8ves en difficult\u00e9 ?',
+        answer: 'Commencez avec 1 objet \u00e0 trouver et peu de distracteurs pour les d\u00e9butants. Choisissez des images tr\u00e8s diff\u00e9rentes visuellement des distracteurs. Le mode Intrus avec des diff\u00e9rences \u00e9videntes est souvent plus accessible pour les plus jeunes.',
+      },
+      {
+        id: 'faq-15',
+        question: 'Quels formats de page sont propos\u00e9s pour les fiches cherche les objets ?',
+        answer: 'Les formats Letter et A4 en portrait ou paysage sont disponibles. Le portrait A4 est le plus utilis\u00e9 pour les fiches scolaires. La taille de la sc\u00e8ne s\u2019adapte automatiquement au format choisi pour un espacement optimal des images.',
+      },
+      {
+        id: 'faq-16',
+        question: 'L\u2019option niveaux de gris est-elle disponible pour les fiches d\u2019objets cach\u00e9s ?',
+        answer: 'Oui, le mode niveaux de gris convertit toutes les images en noir et blanc. Les formes et contours restent reconnaissables. Toutefois, les versions couleur sont recommand\u00e9es car la discrimination visuelle est facilit\u00e9e par les diff\u00e9rences de couleur.',
+      },
+      {
+        id: 'faq-17',
+        question: 'Comment personnaliser les fiches sur le canevas d\u2019\u00e9dition ?',
+        answer: 'D\u00e9placez et redimensionnez la sc\u00e8ne et les \u00e9l\u00e9ments librement sur la page. Ajoutez un titre, des consignes personnalis\u00e9es ou le nom de l\u2019\u00e9l\u00e8ve. Les bordures d\u00e9coratives et arri\u00e8re-plans th\u00e9matiques enrichissent la pr\u00e9sentation.',
+      },
+      {
+        id: 'faq-18',
+        question: 'Peut-on combiner les fiches cherche les objets avec d\u2019autres activit\u00e9s ?',
+        answer: 'Oui, associez les fiches d\u2019objets cach\u00e9s avec les exercices de comptage pour le d\u00e9nombrement. Combinez avec les coloriages pour la motricit\u00e9 fine ou les fiches d\u2019association pour le vocabulaire. Ces combinaisons cr\u00e9ent des cahiers d\u2019activit\u00e9s vari\u00e9s.',
+      },
+      {
+        id: 'faq-19',
+        question: 'Comment le cherche les objets d\u00e9veloppe-t-il l\u2019attention visuelle ?',
+        answer: 'Les \u00e9l\u00e8ves entra\u00eenent leur capacit\u00e9 \u00e0 filtrer les distracteurs et \u00e0 se concentrer sur les d\u00e9tails pertinents. Chaque exercice renforce la m\u00e9moire de travail visuelle et la balayage syst\u00e9matique du regard. Ces comp\u00e9tences sont transf\u00e9rables \u00e0 la lecture et aux exercices maths.',
+      },
+      {
+        id: 'faq-20',
+        question: 'Combien de temps faut-il pour cr\u00e9er une fiche cherche les objets ?',
+        answer: 'La cr\u00e9ation prend moins de trois minutes. S\u00e9lectionnez le mode Je Vois ou Intrus, choisissez les images et le nombre d\u2019objets, puis cliquez sur Cr\u00e9er. La fiche avec son corrig\u00e9 est g\u00e9n\u00e9r\u00e9e instantan\u00e9ment.',
+      },
     ],
 
   },

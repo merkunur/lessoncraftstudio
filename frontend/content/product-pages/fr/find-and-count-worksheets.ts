@@ -218,6 +218,81 @@ Téléchargez fiche et corrigé en un seul clic. La qualité 300 DPI garantit de
         question: 'Les corrig\u00e9s sont-ils inclus avec les fiches cherche et compte ?',
         answer: 'Oui, chaque fiche g\u00e9n\u00e8re automatiquement un corrig\u00e9 avec le nombre exact de chaque type d\u2019image pr\u00e9sent dans la grille. Les enseignants peuvent corriger rapidement les fiches \u00e0 imprimer gratuit et les parents v\u00e9rifient facilement le travail \u00e0 la maison.',
       },
+      {
+        id: 'faq-6',
+        question: 'Quels formats de fichier sont disponibles pour les fiches cherche et compte ?',
+        answer: 'Les fiches se t\u00e9l\u00e9chargent en PDF pour une impression nette ou en JPEG pour le partage num\u00e9rique. La r\u00e9solution de 300 DPI garantit que les images de la grille restent clairement identifiables. Le corrig\u00e9 se t\u00e9l\u00e9charge s\u00e9par\u00e9ment dans les m\u00eames formats.',
+      },
+      {
+        id: 'faq-7',
+        question: 'Le g\u00e9n\u00e9rateur cherche et compte fonctionne-t-il en plusieurs langues ?',
+        answer: 'Oui, onze langues sont disponibles pour les noms d\u2019images et la recherche dans la biblioth\u00e8que. Les consignes de la fiche s\u2019adaptent automatiquement \u00e0 la langue s\u00e9lectionn\u00e9e. Id\u00e9al pour les classes bilingues ou l\u2019enseignement en immersion.',
+      },
+      {
+        id: 'faq-8',
+        question: 'Comment fonctionne la grille d\u2019images du cherche et compte ?',
+        answer: 'La grille contient des images r\u00e9parties al\u00e9atoirement que les \u00e9l\u00e8ves doivent identifier et compter. Vous choisissez de 1 \u00e0 4 types d\u2019images diff\u00e9rentes \u00e0 chercher par fiche. La taille de la grille d\u00e9termine le nombre total d\u2019images et la difficult\u00e9 de l\u2019exercice.',
+      },
+      {
+        id: 'faq-9',
+        question: 'Comment optimiser l\u2019impression des fiches cherche et compte ?',
+        answer: 'Imprimez le PDF en qualit\u00e9 maximale sur papier A4 blanc pour que les images de la grille restent clairement distinctes. V\u00e9rifiez l\u2019aper\u00e7u avant impression pour confirmer que les petites images sont bien reconnaissables. L\u2019option niveaux de gris fonctionne bien si les formes sont suffisamment diff\u00e9rentes.',
+      },
+      {
+        id: 'faq-10',
+        question: 'Puis-je vendre les fiches cherche et compte cr\u00e9\u00e9es ?',
+        answer: 'Oui, la licence commerciale incluse dans votre abonnement autorise la vente sur toutes les plateformes \u00e9ducatives. Les cahiers de d\u00e9nombrement th\u00e9matiques sont tr\u00e8s recherch\u00e9s sur Teachers Pay Teachers et Etsy. Aucune restriction sur le volume de ventes.',
+      },
+      {
+        id: 'faq-11',
+        question: 'Comment fonctionne l\u2019abonnement pour le g\u00e9n\u00e9rateur cherche et compte ?',
+        answer: 'Le Pack Essentiel \u00e0 144 \u20ac par an inclut le cherche et compte et 9 autres g\u00e9n\u00e9rateurs. Cr\u00e9ation illimit\u00e9e de fiches avec corrig\u00e9s automatiques. Paiement s\u00e9curis\u00e9 et r\u00e9siliation possible \u00e0 tout moment depuis votre espace personnel.',
+      },
+      {
+        id: 'faq-12',
+        question: 'Comment utiliser mes propres images dans les grilles de comptage ?',
+        answer: 'Cliquez sur le bouton de t\u00e9l\u00e9versement et importez vos fichiers JPEG, PNG ou GIF. Vos images personnalis\u00e9es s\u2019int\u00e8grent directement dans la grille avec les images de la biblioth\u00e8que. Les photos d\u2019objets du quotidien rendent les exercices plus concrets.',
+      },
+      {
+        id: 'faq-13',
+        question: 'Les fiches cherche et compte correspondent-elles au programme scolaire ?',
+        answer: 'Oui, le d\u00e9nombrement et la comparaison de quantit\u00e9s font partie des comp\u00e9tences fondamentales du cycle 1. Les plages de comptage de 1 \u00e0 10 correspondent aux attendus de grande section, de 1 \u00e0 20 au CP. La discrimination visuelle est \u00e9galement un objectif cl\u00e9 de maternelle.',
+      },
+      {
+        id: 'faq-14',
+        question: 'Comment adapter les fiches pour les \u00e9l\u00e8ves ayant des besoins sp\u00e9cifiques ?',
+        answer: 'R\u00e9duisez la taille de la grille et limitez \u00e0 un seul type d\u2019image \u00e0 chercher. Choisissez des images tr\u00e8s distinctes des autres \u00e9l\u00e9ments de la grille. Les plages de comptage de 1 \u00e0 5 sont les plus accessibles pour les d\u00e9butants et les \u00e9l\u00e8ves en difficult\u00e9.',
+      },
+      {
+        id: 'faq-15',
+        question: 'Quels formats de page sont propos\u00e9s pour les fiches cherche et compte ?',
+        answer: 'Les formats Letter et A4 sont disponibles en portrait ou paysage. Le portrait A4 est le format standard pour les fiches scolaires fran\u00e7aises. Le format paysage offre plus d\u2019espace horizontal pour les grilles larges et les questions de comptage.',
+      },
+      {
+        id: 'faq-16',
+        question: 'L\u2019option noir et blanc est-elle disponible pour le cherche et compte ?',
+        answer: 'Oui, la case niveaux de gris convertit toutes les images en noir et blanc. Les formes restent reconnaissables gr\u00e2ce \u00e0 leurs contours distinctifs. Cette option r\u00e9duit les co\u00fbts d\u2019impression pour les classes qui impriment en grande quantit\u00e9.',
+      },
+      {
+        id: 'faq-17',
+        question: 'Comment personnaliser la fiche sur le canevas d\u2019\u00e9dition ?',
+        answer: 'D\u00e9placez et redimensionnez la grille d\u2019images et les questions de comptage librement. Ajoutez un titre personnalis\u00e9, le nom de l\u2019\u00e9l\u00e8ve ou des consignes sp\u00e9cifiques. Les arri\u00e8re-plans th\u00e9matiques et bordures d\u00e9coratives compl\u00e8tent la mise en page.',
+      },
+      {
+        id: 'faq-18',
+        question: 'Peut-on combiner le cherche et compte avec d\u2019autres g\u00e9n\u00e9rateurs ?',
+        answer: 'Oui, associez les fiches de d\u00e9nombrement avec les exercices d\u2019addition pour renforcer la num\u00e9ration. Combinez avec les coloriages pour la motricit\u00e9 fine ou les fiches d\u2019association pour le vocabulaire. Ces combinaisons cr\u00e9ent des packs p\u00e9dagogiques complets.',
+      },
+      {
+        id: 'faq-19',
+        question: 'Comment \u00e9valuer la progression des \u00e9l\u00e8ves avec les fiches cherche et compte ?',
+        answer: 'Cr\u00e9ez des fiches de difficult\u00e9 croissante en augmentant le nombre d\u2019images \u00e0 chercher et la taille de la grille. Passez de 1 \u00e0 4 types d\u2019images et de plages 1-5 \u00e0 1-20. Le corrig\u00e9 automatique facilite la correction et le suivi des progr\u00e8s individuels.',
+      },
+      {
+        id: 'faq-20',
+        question: 'Combien de temps faut-il pour cr\u00e9er une fiche cherche et compte ?',
+        answer: 'La cr\u00e9ation prend moins de trois minutes. Choisissez les images \u00e0 chercher, configurez la taille de la grille et la plage de comptage, puis cliquez sur G\u00e9n\u00e9rer. La fiche avec ses questions et son corrig\u00e9 est pr\u00eate instantan\u00e9ment.',
+      },
     ],
 
   },

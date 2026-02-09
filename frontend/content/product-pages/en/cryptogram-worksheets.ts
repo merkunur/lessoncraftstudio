@@ -48,8 +48,8 @@ Our cryptogram worksheet generator creates custom puzzles in 11 languages. Uploa
   seo: {
     slug: 'cryptogram-worksheets',
     appId: 'cryptogram',
-    title: 'Free Cryptogram Worksheets for Kids | Picture Puzzle Generator',
-    description: 'Create free printable cryptogram worksheets for kids. Perfect worksheet for kindergarten with picture puzzles. Download your free worksheet as PDF in 3 minutes.',
+    title: 'Cryptogram Worksheets | Free Picture Puzzle Generator',
+    description: 'Create picture cryptogram worksheets where kids decode secret messages using images. Free printable code puzzles for kindergarten. Download PDF instantly.',
     keywords: 'cryptogram worksheets, free worksheet for kids, picture cryptogram, worksheet for kindergarten, free printables, kindergarten worksheets, first grade worksheets, phonics worksheets, alphabet worksheets, puzzle worksheets',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/cryptogram-worksheets',
       },

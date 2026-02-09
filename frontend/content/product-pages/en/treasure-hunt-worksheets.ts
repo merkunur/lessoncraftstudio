@@ -15,8 +15,8 @@ export const treasureHuntEnContent: ProductPageContent = {
   seo: {
     slug: 'treasure-hunt-worksheets',
     appId: 'treasure-hunt',
-    title: 'Free Treasure Hunt Worksheets | Following Directions Worksheet',
-    description: 'Create professional treasure hunt worksheets for kindergarten. Free printable following directions worksheets with answer keys. Download PDF in 3 minutes.',
+    title: 'Treasure Hunt Worksheets | Free Directions PDF',
+    description: 'Create treasure hunt worksheets with step-by-step directional clues and maps. Free printable following directions for kindergarten. Download PDF instantly.',
     keywords: 'treasure hunt worksheets, following directions worksheets, kindergarten worksheets, free printable worksheets, directional vocabulary worksheets, first grade worksheets, free worksheets, worksheet for kids, spatial awareness, navigation worksheets',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/treasure-hunt-worksheets',
       },

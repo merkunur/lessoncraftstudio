@@ -15,8 +15,8 @@ export const additionEnContent: ProductPageContent = {
   seo: {
     slug: 'addition-worksheets',
     appId: 'addition',
-    title: 'Addition Worksheets Free Printable | Kindergarten Math Generator',
-    description: 'Create professional addition worksheets for kindergarten and first grade. Free printable math worksheets with answer keys. Download PDF in 3 minutes.',
+    title: 'Addition Worksheets | Free Printable Math Generator',
+    description: 'Create addition worksheets with 4 exercise modes and answer keys. Free printable math for kindergarten and first grade. Download PDF in 3 minutes.',
     keywords: 'addition worksheets, math worksheets, kindergarten worksheets, free printable worksheets, first grade worksheets, addition practice, worksheet for kids, free worksheet, coloring worksheets, tracing worksheets',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/addition-worksheets',
       },

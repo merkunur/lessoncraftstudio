@@ -15,8 +15,8 @@ export const crosswordEnContent: ProductPageContent = {
   seo: {
     slug: 'crossword-worksheets',
     appId: 'crossword',
-    title: 'Crossword Worksheets for Kids Free Printable | Puzzle Generator',
-    description: 'Create crossword puzzles and vocabulary worksheets for kindergarten with our free worksheet generator. Download spelling worksheets PDF in 3 minutes. Try now!',
+    title: 'Crossword Worksheets | Free Puzzle Generator for Kids',
+    description: 'Create picture crossword puzzles that build vocabulary and spelling skills. Free printable worksheets for kindergarten and first grade. Download PDF now.',
     keywords: 'crossword worksheets, crossword for kids, crossword puzzles, vocabulary worksheets, spelling worksheets, word puzzle worksheets, crossword for kindergarten, free printable worksheets, free worksheet for kids, picture crossword',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/crossword-worksheets',
       },

@@ -15,15 +15,15 @@ export const findObjectsEnContent: ProductPageContent = {
   seo: {
     slug: 'find-objects-worksheets',
     appId: 'find-objects',
-    title: 'Find Objects Worksheets Free Printable | I Spy Visual Discrimination',
-    description: 'Create I Spy and Odd One Out worksheets with our visual discrimination worksheet generator. Free printable hidden objects worksheets for kindergarten. Try free!',
+    title: 'Find Objects Worksheets | Free I Spy Hidden Pictures',
+    description: 'Create hidden objects worksheets with I Spy and visual discrimination challenges. Free printable activities for kindergarten. Download PDF in 3 minutes.',
     keywords: 'find objects worksheets, visual discrimination worksheets, I Spy worksheets, kindergarten worksheets, free printable worksheets, first grade worksheets, hidden objects worksheets, worksheet for kids, free worksheet, odd one out worksheets',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/find-objects-worksheets',
       },
 
   // Hero Section - FULL text from find-objects.md paragraphs 1-4
   hero: {
-    title: 'Free Printable Kindergarten Worksheets',
+    title: 'Free Printable Find Objects Worksheets',
     subtitle: 'Find Objects Worksheet Generator for First Grade',
     description: `Create professional find objects worksheets with our visual discrimination worksheet generator. Your Full Access subscription gives you unlimited worksheet creation with no per-worksheet fees. Generate custom printable find objects worksheets perfect for kindergarten and first grade students. Download high-quality PDF worksheets in under 3 minutes.
 

@@ -15,8 +15,8 @@ export const subtractionEnContent: ProductPageContent = {
   seo: {
     slug: 'subtraction-worksheets',
     appId: 'subtraction',
-    title: 'Free Subtraction Worksheets | Kindergarten Math Worksheet Maker',
-    description: 'Create professional subtraction worksheets for kindergarten and first grade. Free printable math worksheets with answer keys. Download PDF in 3 minutes.',
+    title: 'Subtraction Worksheets | Free Printable Math PDF',
+    description: 'Create subtraction worksheets with visual counting and answer keys. Free printable math for kindergarten and first grade. Download PDF in 3 minutes.',
     keywords: 'subtraction worksheets, math worksheets, kindergarten worksheets, free printable worksheets, first grade worksheets, free worksheets, worksheet for kids, math worksheet generator, free printables, worksheet for kindergarten',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/subtraction-worksheets',
       },

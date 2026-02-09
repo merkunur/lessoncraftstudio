@@ -15,8 +15,8 @@ export const picturePathEnContent: ProductPageContent = {
   seo: {
     slug: 'picture-path-worksheets',
     appId: 'picture-path',
-    title: 'Free Maze Worksheets Printable | Picture Path Generator for Kids',
-    description: 'Create professional maze worksheets for kindergarten and first grade. Free printable picture path activities with answer keys. Download PDF in 3 minutes.',
+    title: 'Maze Worksheets | Free Printable Picture Path PDF',
+    description: 'Create maze worksheets with picture path puzzles and answer keys. Free printable fine motor activities for kindergarten and first grade. Download PDF now.',
     keywords: 'maze worksheets, free worksheet, free worksheets, free printables, worksheet for kids, worksheet for kindergarten, picture path, kindergarten worksheets, first grade worksheets, free printable worksheets',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/picture-path-worksheets',
       },

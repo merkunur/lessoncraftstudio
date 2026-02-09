@@ -15,8 +15,8 @@ export const alphabetTrainEnContent: ProductPageContent = {
   seo: {
     slug: 'alphabet-train-worksheets',
     appId: 'alphabet-train',
-    title: 'Free Alphabet Train Worksheets for Kindergarten | ABC Generator',
-    description: 'Create free printable alphabet worksheets for kids. Professional ABC worksheet generator for kindergarten. Download letter recognition worksheets in 3 minutes.',
+    title: 'Alphabet Worksheets | Free ABC Train for Kindergarten',
+    description: 'Create alphabet train worksheets with drag-and-drop letter ordering. Free ABC printables for kindergarten letter recognition. Download PDF instantly.',
     keywords: 'free worksheet, free worksheets, free printables, worksheet for kids, worksheet for kindergarten, ABC worksheets, alphabet worksheets, kindergarten worksheets, phonics worksheets, tracing worksheets, coloring worksheets, first grade worksheets',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/alphabet-train-worksheets',
       },

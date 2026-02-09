@@ -15,8 +15,8 @@ export const wordScrambleEnContent: ProductPageContent = {
   seo: {
     slug: 'word-scramble-worksheets',
     appId: 'word-scramble',
-    title: 'Free Word Scramble Worksheets | Printable Vocabulary Puzzle Maker',
-    description: 'Create free word scramble worksheets for kindergarten and first grade. Generate printable vocabulary puzzles with answer keys. Download PDF worksheets.',
+    title: 'Word Scramble Worksheets | Free Vocabulary Puzzles',
+    description: 'Create word scramble worksheets with picture clues and jumbled letters. Free printable vocabulary puzzles for kindergarten. Download PDF in 3 minutes.',
     keywords: 'word scramble worksheets, free printable worksheets, kindergarten worksheets, vocabulary worksheets, word scramble generator, spelling worksheets, first grade worksheets, sight words worksheets, phonics worksheets, ABC worksheets',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/word-scramble-worksheets',
       },

@@ -15,8 +15,8 @@ export const findAndCountEnContent: ProductPageContent = {
   seo: {
     slug: 'find-and-count-worksheets',
     appId: 'find-and-count',
-    title: 'Free Printable Find and Count Worksheets | I Spy Counting for Kids',
-    description: 'Create free printable find and count worksheets for kindergarten and first grade. Generate I Spy counting worksheets for kids with answer keys. Try free now!',
+    title: 'Find and Count Worksheets | Free I Spy for Kids',
+    description: 'Create find and count worksheets with I Spy counting scenes and answer keys. Free printable math activities for kindergarten. Download PDF instantly.',
     keywords: 'find and count worksheets, I Spy worksheets, kindergarten worksheets, counting worksheets, visual discrimination worksheets, hidden object worksheets, math worksheets, first grade worksheets, free printable worksheets, counting practice, free worksheets for kids, worksheet for kindergarten',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/find-and-count-worksheets',
       },

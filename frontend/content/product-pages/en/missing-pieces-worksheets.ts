@@ -15,8 +15,8 @@ export const missingPiecesEnContent: ProductPageContent = {
   seo: {
     slug: 'missing-pieces-worksheets',
     appId: 'missing-pieces',
-    title: 'Free Missing Pieces Worksheets | Visual Puzzle Generator for Kids',
-    description: 'Create free printable missing pieces worksheets with our visual puzzle generator. Kindergarten visual discrimination activities. Download PDF in 3 minutes.',
+    title: 'Missing Pieces Worksheets | Free Visual Puzzles',
+    description: 'Create missing pieces worksheets with visual puzzles that develop spatial reasoning. Free printable activities for kindergarten. Download PDF instantly.',
     keywords: 'missing pieces worksheets, visual discrimination worksheets, puzzle worksheets, kindergarten worksheets, free printable worksheets, visual puzzles, spatial reasoning, first grade worksheets, free worksheets for kids, printable puzzle activities',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/missing-pieces-worksheets',
       },

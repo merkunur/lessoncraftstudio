@@ -3518,7 +3518,8 @@ export default async function AppPage({ params: { locale, slug } }: PageProps) {
       appId: content.seo?.appId || slug,
       name: content.hero?.title || content.seo?.title || slug,
       description: content.seo?.description || content.hero?.subtitle || '',
-      category: 'Worksheet Generator'
+      category: 'Worksheet Generator',
+      dateModified: new Date().toISOString().split('T')[0]
     };
 
     // Fetch database SEO metadata for enhanced ImageObject schemas
@@ -3605,7 +3606,8 @@ export default async function AppPage({ params: { locale, slug } }: PageProps) {
       appId,
       name: legacyContent.hero?.title || legacyContent.seo?.title || slug,
       description: legacyContent.seo?.description || legacyContent.hero?.subtitle || '',
-      category: 'Worksheet Generator'
+      category: 'Worksheet Generator',
+      dateModified: new Date().toISOString().split('T')[0]
     };
 
     // Inject fallback FAQ items for legacy content (same logic as content registry path)
@@ -3742,7 +3744,8 @@ export default async function AppPage({ params: { locale, slug } }: PageProps) {
     name: appName,
     description: appDescription,
     category: category,
-    tier: appTier as 'free' | 'core' | 'full'
+    tier: appTier as 'free' | 'core' | 'full',
+    dateModified: new Date().toISOString().split('T')[0]
   };
 
   return (

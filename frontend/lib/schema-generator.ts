@@ -859,6 +859,9 @@ export function generateProductPageHowToSchema(
     "name": title,
     "description": description,
     "totalTime": totalTime,
+    "tool": [{ "@type": "HowToTool", "name": "Web Browser" }],
+    "supply": [{ "@type": "HowToSupply", "name": "Printer (optional)" }],
+    "estimatedCost": { "@type": "MonetaryAmount", "currency": "USD", "value": "0" },
     "step": steps.map((step, index) => ({
       "@type": "HowToStep",
       "position": index + 1,
@@ -1140,6 +1143,8 @@ export function generateAppProductSchemas(
     "applicationSubCategory": appData.category || "Worksheet Generator",
     "operatingSystem": "Web Browser",
     "browserRequirements": "Requires JavaScript",
+    "softwareVersion": "2.0",
+    "featureList": ["Answer Key Generation", "11 Languages", "3000+ Images", "PDF Export", "Commercial License"],
     "offers": {
       "@type": "AggregateOffer",
       "priceCurrency": "USD",

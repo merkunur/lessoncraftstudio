@@ -15,15 +15,15 @@ export const patternWorksheetsEnContent: ProductPageContent = {
   seo: {
     slug: 'pattern-worksheets',
     appId: 'pattern-worksheet',
-    title: 'Free Pattern Worksheets | Printable Pattern Recognition for Kids',
-    description: 'Create free pattern worksheets for kids with our pattern recognition generator. Free printables with AB, ABC, ABCD patterns. Download printable PDF pattern worksheets in 3 clicks.',
+    title: 'Pattern Worksheets | Free Recognition for Kids',
+    description: 'Create pattern worksheets with AB, ABC, and ABCD sequences plus answer keys. Free printable recognition activities for kindergarten. Download PDF now.',
     keywords: 'pattern worksheets, pattern recognition worksheets, free worksheets, free printables, worksheet for kids, worksheet for kindergarten, free worksheet for kids, math worksheets, kindergarten worksheets, first grade worksheets',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/pattern-worksheets',
       },
 
   // Hero Section - FULL text from pattern-worksheet.md paragraphs 1-4
   hero: {
-    title: 'Free Printable Math Worksheets for Kindergarten and First Grade',
+    title: 'Free Printable Pattern Worksheets for Kids',
     subtitle: 'Pattern Recognition Worksheet Generator',
     description: `Create professional pattern recognition worksheets with our pattern worksheet generator. Your Full Access subscription gives you unlimited pattern worksheet creation with no per-worksheet fees. Generate custom printable math worksheets perfect for kindergarten and first grade students. Download high-quality PDF worksheets in under 3 minutes.
 

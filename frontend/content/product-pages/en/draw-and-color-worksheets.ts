@@ -15,15 +15,15 @@ export const drawAndColorEnContent: ProductPageContent = {
   seo: {
     appId: 'draw-and-color',
     slug: 'draw-and-color-worksheets',
-    title: 'Free Coloring Worksheets | Grid Drawing Worksheet Generator for Kids',
-    description: 'Create professional grid drawing coloring worksheets for kindergarten and first grade. Free printable worksheets with 3000+ images. Download PDF in 3 minutes.',
+    title: 'Draw and Color Worksheets | Grid Drawing Generator',
+    description: 'Create grid drawing worksheets where kids copy pictures square by square. Free printable draw and color activities for kindergarten. Download PDF now.',
     keywords: 'coloring worksheets, grid drawing worksheets, free printable worksheets, kindergarten worksheets, first grade worksheets, free worksheets for kids, worksheet generator, printable coloring pages, visual-spatial worksheets, fine motor skills worksheets',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/draw-and-color-worksheets',
       },
 
   // Hero Section - FULL text from draw-and-color.md paragraphs 1-5
   hero: {
-    title: 'Free Printable Coloring Worksheets',
+    title: 'Free Printable Draw and Color Worksheets',
     subtitle: 'Grid Drawing Worksheets for Kindergarten and First Grade',
     description: `Create professional grid drawing coloring worksheets with our specialized worksheet generator. Your Full Access subscription gives you unlimited worksheet creation with no per-worksheet fees. Generate custom printable coloring worksheets perfect for kindergarten and first grade students. Download high-quality PDF coloring worksheets in under 3 minutes.
 

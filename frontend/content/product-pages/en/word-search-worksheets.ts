@@ -15,8 +15,8 @@ export const wordSearchEnContent: ProductPageContent = {
   seo: {
     slug: 'word-search-worksheets',
     appId: 'wordsearch',
-    title: 'Free Word Search Worksheets | Word Search Puzzles Generator for Kids',
-    description: 'Create free word search worksheets for kids with our word search generator. Free printables for kindergarten and first grade. Download PDF in 3 clicks.',
+    title: 'Word Search Worksheets | Free Printable for Kids',
+    description: 'Create word search worksheets with 3000+ themed picture clues in 11 languages. Free printable puzzles for kindergarten and first grade. Download PDF now.',
     keywords: 'word search worksheets, word search generator, kindergarten worksheets, printable worksheets, word search puzzles, free worksheets, first grade worksheets, vocabulary worksheets, sight words worksheets, phonics worksheets, free worksheet for kids, free printables, worksheet for kindergarten, word puzzles',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/word-search-worksheets',
     // Images for Google Image Thumbnails in search results

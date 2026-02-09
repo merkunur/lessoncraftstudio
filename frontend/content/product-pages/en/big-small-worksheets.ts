@@ -15,8 +15,8 @@ export const bigSmallEnContent: ProductPageContent = {
   seo: {
     slug: 'big-small-worksheets',
     appId: 'big-small',
-    title: 'Big and Small Worksheets - Free Printable Size Comparison Generator',
-    description: 'Create free big and small worksheets for kindergarten. Size comparison generator with visual discrimination activities. Download PDF worksheets in 3 minutes.',
+    title: 'Big and Small Worksheets | Free Size Comparison PDF',
+    description: 'Create big and small worksheets with visual size comparison activities. Free printable for kindergarten spatial awareness. Download PDF in 3 minutes.',
     keywords: 'free worksheet, free worksheets, free printables, worksheet for kids, worksheet for kindergarten, big and small worksheets, size comparison worksheets, kindergarten worksheets, math worksheets, preschool worksheets, first grade worksheets, visual discrimination worksheets, size sorting worksheets, big or small worksheets, free printable worksheets',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/big-small-worksheets',
       },

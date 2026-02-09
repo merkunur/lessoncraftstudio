@@ -13,7 +13,7 @@ import { ProductPageContent } from '@/components/product-page/ProductPageClient'
 export const oddOneOutEnContent: ProductPageContent = {
   // Hero Section - FULL text from odd-one-out.md paragraphs 1-4
   hero: {
-    title: 'Free Printable Kindergarten Worksheets for Critical Thinking',
+    title: 'Free Printable Odd One Out Worksheets',
     subtitle: 'Odd One Out Worksheet Maker for Visual Discrimination',
     description: `Create professional odd one out worksheets with our worksheet generator. Your Full Access subscription gives you unlimited worksheet creation with no per-worksheet fees. Generate custom printable odd one out worksheets perfect for kindergarten and first grade students. Download high-quality PDF worksheets in under 3 minutes.
 
@@ -48,8 +48,8 @@ The odd one out generator creates worksheets for any subject or theme. Choose fr
   seo: {
     slug: 'odd-one-out-worksheets',
     appId: 'odd-one-out',
-    title: 'Free Odd One Out Worksheets | Critical Thinking Printables for Kids',
-    description: 'Create free odd one out worksheets for kindergarten visual discrimination. Generate printable critical thinking worksheets for kids. Download PDF in 3 minutes.',
+    title: 'Odd One Out Worksheets | Free Critical Thinking PDF',
+    description: 'Create odd one out worksheets that build critical thinking and classification skills. Free printable activities for kindergarten. Download PDF instantly.',
     keywords: 'odd one out worksheets, visual discrimination worksheets, critical thinking worksheets, categorization worksheets, logic worksheets, kindergarten worksheets, first grade worksheets, free printable worksheets, worksheet generator, printable worksheets',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/odd-one-out-worksheets',
       },

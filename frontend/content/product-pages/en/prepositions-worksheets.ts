@@ -15,8 +15,8 @@ export const prepositionsEnContent: ProductPageContent = {
   seo: {
     slug: 'prepositions-worksheets',
     appId: 'prepositions',
-    title: 'Free Prepositions Worksheets for Kindergarten | PDF Generator for Kids',
-    description: 'Create prepositions worksheets for kindergarten and first grade. Free printable spatial concepts activities with answer keys. Download PDF in 3 minutes.',
+    title: 'Prepositions Worksheets | Free Printable for Kids',
+    description: 'Create prepositions worksheets teaching spatial concepts like in, on, and under. Free printable language arts for kindergarten. Download PDF in 3 minutes.',
     keywords: 'prepositions worksheets, free worksheets, kindergarten worksheets, spatial concepts, free printable worksheets, first grade worksheets, worksheet for kids, position words, in on under worksheets, free printables',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/prepositions-worksheets',
       },

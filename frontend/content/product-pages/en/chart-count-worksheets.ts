@@ -15,8 +15,8 @@ export const chartCountEnContent: ProductPageContent = {
   seo: {
     slug: 'chart-count-worksheets',
     appId: 'chart-count',
-    title: 'Picture Graph Worksheets Free Printable | Kindergarten Math Generator',
-    description: 'Create picture graph worksheets with our math worksheet generator. Free printable counting and graphing worksheets for kindergarten. Download PDF in 3 minutes.',
+    title: 'Picture Graph Worksheets | Free Counting for Kids',
+    description: 'Create picture graph worksheets with bar charts and tally marks. Free printable counting activities for kindergarten math. Download PDF in 3 minutes.',
     keywords: 'picture graph worksheets, graphing worksheets, counting worksheets, math worksheets, kindergarten worksheets, free printable worksheets, data worksheets, bar graph worksheets, worksheet for kids, first grade worksheets',
         canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/chart-count-worksheets',
   },

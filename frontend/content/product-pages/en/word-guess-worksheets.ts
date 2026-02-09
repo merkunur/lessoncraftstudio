@@ -15,15 +15,15 @@ export const wordGuessEnContent: ProductPageContent = {
   seo: {
     slug: 'word-guess-worksheets',
     appId: 'word-guess',
-    title: 'Free Worksheet for Kids - Word Guess Free Worksheets for Kindergarten',
-    description: 'Create word guess worksheets for kindergarten. Generate spelling puzzles with picture clues. Download free printable PDF worksheets in 3 minutes.',
+    title: 'Word Guess Worksheets | Free Spelling Puzzles',
+    description: 'Create word guess worksheets with picture clues and letter blanks for spelling practice. Free printable vocabulary puzzles for kindergarten. Download PDF now.',
     keywords: 'word guess worksheets, spelling worksheets, vocabulary worksheets, kindergarten worksheets, first grade worksheets, free printable worksheets, phonics worksheets, sight words worksheets, alphabet worksheets, worksheet for kids',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/word-guess-worksheets',
       },
 
   // Hero Section - FULL text from word-guess.md paragraphs 1-5
   hero: {
-    title: 'Free Worksheet - Word Guess Worksheets for Kids',
+    title: 'Free Printable Word Guess Worksheets',
     subtitle: 'Free Worksheets for Kindergarten - Worksheet Generator for Kids',
     description: `Create professional word guess puzzles with our worksheet generator. Your Full Access subscription gives you unlimited worksheet creation with no per-worksheet fees. Generate custom printable worksheets perfect for kindergarten and first grade students. Download high-quality PDF worksheets in under 3 minutes.
 

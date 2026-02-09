@@ -15,8 +15,8 @@ export const matchingEnContent: ProductPageContent = {
   seo: {
     slug: 'matching-worksheets',
     appId: 'matching',
-    title: 'Free Matching Worksheets | Matching Worksheet Generator for Kids',
-    description: 'Create free matching worksheets for kids with our matching generator. Free printables for kindergarten and first grade. Download PDF worksheet in 3 clicks.',
+    title: 'Matching Worksheets | Free Printable for Kindergarten',
+    description: 'Create matching worksheets with picture pairs and visual association games. Free printable activities for kindergarten and first grade. Download PDF now.',
     keywords: 'matching worksheets, matching worksheet generator, kindergarten worksheets, first grade worksheets, free printable worksheets, alphabet worksheets, sight words worksheets, phonics worksheets, math worksheets, free worksheet for kids, free printables, worksheet for kindergarten, tracing worksheets, addition worksheets',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/matching-worksheets',
       },

@@ -15,15 +15,15 @@ export const gridMatchEnContent: ProductPageContent = {
   seo: {
     slug: 'grid-match-worksheets',
     appId: 'grid-match',
-    title: 'Free Grid Match Worksheets | Printable Puzzle Generator for Kids',
-    description: 'Create free grid match worksheets with our puzzle generator. Free printables for kindergarten and first grade. Download PDF worksheets in 3 clicks.',
+    title: 'Grid Match Worksheets | Free Puzzle Printables',
+    description: 'Create grid match puzzles where kids complete visual patterns in grids. Free printable logic worksheets for kindergarten and first grade. Download PDF now.',
     keywords: 'grid match worksheets, puzzle worksheets, kindergarten worksheets, free printable worksheets, visual discrimination worksheets, first grade worksheets, math worksheets, spatial reasoning worksheets, worksheet for kids, free worksheets, worksheet for kindergarten, free printables',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/grid-match-worksheets',
       },
 
   // Hero Section - FULL text from grid-match.md paragraphs 1-3
   hero: {
-    title: 'Free Printable Kindergarten Worksheets',
+    title: 'Free Printable Grid Match Worksheets',
     subtitle: 'Grid Match Puzzle Worksheet Generator for First Grade',
     description: `Create professional grid match puzzle worksheets with our advanced worksheet generator. Your Full Access subscription gives you unlimited worksheet creation with no per-worksheet fees. Generate custom printable matching worksheets perfect for kindergarten and first grade students. Download high-quality PDF worksheets in under 3 minutes.
 

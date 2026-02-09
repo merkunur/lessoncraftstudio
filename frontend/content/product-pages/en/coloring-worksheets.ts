@@ -16,8 +16,8 @@ export const coloringEnContent: ProductPageContent = {
   seo: {
     slug: 'coloring-worksheets',
     appId: 'coloring',
-    title: 'Free Printable Coloring Worksheets for Kids | Coloring Pages Generator',
-    description: 'Create free printable coloring worksheets for kindergarten and first grade. Generate coloring pages for kids with 3000+ images. Download PDF worksheets in 3 clicks.',
+    title: 'Coloring Worksheets | Free Printable Pages for Kids',
+    description: 'Create coloring worksheets with 3000+ themed images and custom borders. Free printable coloring pages for kindergarten and first grade. Download now.',
     keywords: 'coloring worksheets, free printable coloring pages, coloring pages for kids, kindergarten coloring worksheets, free worksheets, coloring activities, first grade worksheets, printable worksheets, free printables, worksheet for kids',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/coloring-worksheets',
   },

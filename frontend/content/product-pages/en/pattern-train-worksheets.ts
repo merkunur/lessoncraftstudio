@@ -15,8 +15,8 @@ export const patternTrainEnContent: ProductPageContent = {
   seo: {
     slug: 'pattern-train-worksheets',
     appId: 'pattern-train',
-    title: 'Free Pattern Train Worksheets | Kindergarten Pattern Recognition',
-    description: 'Create free pattern train worksheets for kindergarten with our pattern recognition generator. Free printables with cut and paste activities. Download PDF.',
+    title: 'Pattern Train Worksheets | Free Cut and Paste PDF',
+    description: 'Create pattern train worksheets with cut and paste sequencing activities. Free printable pattern recognition for kindergarten. Download PDF instantly.',
     keywords: 'pattern train worksheets, pattern recognition worksheets, kindergarten worksheets, free printable worksheets, first grade worksheets, math worksheets, pattern worksheets, cut and paste worksheets, free worksheets, worksheet for kids',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/pattern-train-worksheets',
       },

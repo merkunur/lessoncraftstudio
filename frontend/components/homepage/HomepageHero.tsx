@@ -438,7 +438,7 @@ export default function HomepageHero({ locale, heroImages }: HomepageHeroProps) 
               <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-10 hero-fade-in hero-stagger-3">
                 <a
                   href="#samples-gallery"
-                  onClick={(e) => { e.preventDefault(); scrollToSamples(); }}
+                  onClick={() => { scrollToSamples(); }}
                   className="group relative px-8 py-4 rounded-xl font-semibold text-white overflow-hidden transition-all duration-300 hover:scale-[1.02] active:scale-[0.98]"
                   style={{
                     background: 'linear-gradient(135deg, #06b6d4 0%, #8b5cf6 50%, #ec4899 100%)',

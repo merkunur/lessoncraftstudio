@@ -28,6 +28,7 @@ export function Navigation() {
                 src="/logo-lcs.png"
                 alt="LessonCraftStudio"
                 loading="eager"
+                fetchPriority="high"
                 width={242}
                 height={151}
                 className="max-h-[67px] md:max-h-[151px] max-w-[108px] md:max-w-[242px] w-auto h-auto object-contain relative -z-10"
@@ -143,7 +144,7 @@ export function Navigation() {
             {/* Mobile Actions */}
             <div className="pt-4 border-t border-gray-200 space-y-3">
               <div className="flex items-center justify-between">
-                <span className="text-sm text-gray-600">Language:</span>
+                <span className="text-sm text-gray-600">{{ en:'Language:', de:'Sprache:', fr:'Langue:', es:'Idioma:', pt:'Idioma:', it:'Lingua:', nl:'Taal:', sv:'Spr\u00e5k:', da:'Sprog:', no:'Spr\u00e5k:', fi:'Kieli:' }[locale] || 'Language:'}</span>
                 <LanguageSelector />
               </div>
 

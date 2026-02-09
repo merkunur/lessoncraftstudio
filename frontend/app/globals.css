@@ -124,6 +124,14 @@
   .hero-stagger-2 { animation-delay: 0.2s; animation-fill-mode: both; }
   .hero-stagger-3 { animation-delay: 0.3s; animation-fill-mode: both; }
   .hero-stagger-4 { animation-delay: 0.4s; animation-fill-mode: both; }
+  .hero-stagger-5 { animation-delay: 0.55s; animation-fill-mode: both; }
+
+  /* Video demo button pulsing ring — CSS replacement for Framer Motion animate */
+  @keyframes videoPulseRing {
+    0%, 100% { transform: scale(1); opacity: 0.6; }
+    50% { transform: scale(1.4); opacity: 0; }
+  }
+  .video-pulse-ring { animation: videoPulseRing 2s ease-in-out infinite; }
 
   /* Gradient orb pulse — CSS replacement for Framer Motion animate={{ scale: [1, 1.1, 1] }} */
   @keyframes heroOrbPulse {
@@ -349,7 +357,9 @@
     .hero-stagger-1,
     .hero-stagger-2,
     .hero-stagger-3,
-    .hero-stagger-4 { animation: none; opacity: 1; }
+    .hero-stagger-4,
+    .hero-stagger-5 { animation: none; opacity: 1; }
+    .video-pulse-ring { animation: none; }
     .hero-orb-pulse,
     .hero-orb-drift,
     .hero-orb-fade { animation: none; }

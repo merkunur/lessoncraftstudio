@@ -4,6 +4,7 @@ import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import Image from 'next/image';
 import Link from 'next/link';
+import { getAppConfigBySlug, getSlugForLocale, type SupportedLocale } from '@/config/product-page-slugs';
 
 interface Sample {
   id: string;
@@ -283,7 +284,7 @@ const localeImages: Record<string, Record<string, string>> = {
     '3': '/samples/swedish/big small/2 identiska bilder.jpeg',
     '4': '/samples/swedish/bingo/bildbingo 1 callout.jpeg',
     '5': '/samples/swedish/chart count/bilddiagram 1.jpeg',
-    '6': '/samples/german/code addition/Code-Knacker Addition 1.jpeg',
+    '6': '/samples/english/code addition/code addition landscape.jpeg',
     '7': '/samples/english/coloring/coloring portrait 1.png',
     '8': '/samples/swedish/crossword/Bildkorsord 1.jpeg',
     '9': '/samples/swedish/cryptogram/Bildkryptogram 1.jpeg',
@@ -638,7 +639,7 @@ const localePdfs: Record<string, Record<string, string>> = {
     '3': '/samples/swedish/big small/2 identiska bilder.pdf',
     '4': '/samples/swedish/bingo/bildbingo 1 callout.pdf',
     '5': '/samples/swedish/chart count/bilddiagram 1.pdf',
-    '6': '/samples/german/code addition/Code-Knacker Addition 1.pdf',
+    '6': '/samples/english/code addition/code addition landscape.pdf',
     '7': '/samples/english/coloring/coloring portrait 1.pdf',
     '8': '/samples/swedish/crossword/Bildkorsord 1.pdf',
     '9': '/samples/swedish/cryptogram/Bildkryptogram 1.pdf',
@@ -1161,7 +1162,7 @@ const samples: Sample[] = [
     id: '33',
     nameEn: 'Writing Practice', nameDe: 'Schreibübungen', nameFr: 'Écriture', nameEs: 'Escritura', nameIt: 'Scrittura', namePt: 'Escrita', nameNl: 'Schrijfoefeningen', nameDa: 'Skriveøvelser', nameSv: 'Skrivövningar', nameNo: 'Skriveøvelser', nameFi: 'Kirjoitusharjoitukset',
     categoryEn: 'Language', categoryDe: 'Sprache', categoryFr: 'Langue', categoryEs: 'Lenguaje', categoryIt: 'Linguaggio', categoryPt: 'Linguagem', categoryNl: 'Taal', categoryDa: 'Sprog', categorySv: 'Språk', categoryNo: 'Språk', categoryFi: 'Kieli',
-    imageSrc: '/samples/english/matching/matching portrait.jpeg', pdfUrl: '/samples/english/matching/matching portrait.pdf', productPageSlug: 'writing-worksheets',
+    imageSrc: '/samples/english/writing/writing portrait.jpeg', pdfUrl: '/samples/english/writing/writing portrait.pdf', productPageSlug: 'writing-worksheets',
   },
 ];
 
@@ -1302,6 +1303,15 @@ export default function SampleGallery({ locale, dynamicImages = {}, seoData = {}
     if (locale === 'fr') return sample.categoryFr;
     if (locale === 'de') return sample.categoryDe;
     return sample.categoryEn;
+  };
+
+  // Get localized product page slug (C1: eliminates 330 unnecessary 301 redirects)
+  const getLocalizedProductSlug = (englishSlug: string): string => {
+    const config = getAppConfigBySlug(englishSlug);
+    if (config) {
+      return getSlugForLocale(config.appId, locale as SupportedLocale) || englishSlug;
+    }
+    return englishSlug;
   };
 
   // Get image for the sample - prioritize dynamic homepage thumbnails from content manager
@@ -1481,7 +1491,8 @@ export default function SampleGallery({ locale, dynamicImages = {}, seoData = {}
                     alt={seoData[getAppSlug(sample.productPageSlug)]?.altText || getSampleName(sample)}
                     title={seoData[getAppSlug(sample.productPageSlug)]?.title || undefined}
                     fill
-                    loading="lazy"
+                    loading={index < 5 ? 'eager' : 'lazy'}
+                    {...(index < 5 ? { fetchPriority: 'high' as const } : {})}
                     className="object-cover transition-transform duration-500 group-hover:scale-105"
                     sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 20vw"
                     unoptimized={getSampleImage(sample).startsWith('/samples/')}
@@ -1545,7 +1556,7 @@ export default function SampleGallery({ locale, dynamicImages = {}, seoData = {}
                   </h3>
                   <div className="flex items-center justify-between">
                     <Link
-                      href={`/${locale}/apps/${sample.productPageSlug}`}
+                      href={`/${locale}/apps/${getLocalizedProductSlug(sample.productPageSlug)}`}
                       className="inline-flex items-center gap-1 text-xs text-cyan-400 hover:text-cyan-300 transition-colors"
                     >
                       {content.viewDetails}
@@ -1555,9 +1566,8 @@ export default function SampleGallery({ locale, dynamicImages = {}, seoData = {}
                     </Link>
                     <a
                       href={getSamplePdf(sample)}
-                      download
                       className="inline-flex items-center gap-1 text-xs text-emerald-400/70 hover:text-emerald-300 transition-colors"
-                      aria-label={`Download ${getSampleName(sample)} PDF`}
+                      aria-label={`${content.downloadPdf} - ${getSampleName(sample)}`}
                     >
                       <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />

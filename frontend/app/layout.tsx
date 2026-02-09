@@ -4,6 +4,7 @@ import { getLocale } from 'next-intl/server';
 import './globals.css';
 import { Providers } from './providers';
 import { SUPPORTED_LOCALES, DEFAULT_LOCALE, isValidLocale } from '@/config/locales';
+import { getHreflangCode } from '@/lib/schema-generator';
 import { PinterestTag } from '@/components/tracking';
 
 const inter = Inter({
@@ -79,16 +80,13 @@ export default async function RootLayout({
   }
 
   return (
-    <html lang={lang}>
+    <html lang={getHreflangCode(lang)}>
       <head>
         {/* Pinterest domain verification */}
         <meta name="p:domain_verify" content="34709a2d6e6ac6f75758fd66a8c50cbf" />
 
-        {/* Resource hints for improved performance */}
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link rel="dns-prefetch" href="https://www.lessoncraftstudio.com" />
         {/* YouTube preconnects moved to VideoLightbox component — only needed when video is present */}
+        {/* M5: Removed vestigial Google Fonts preconnects (next/font self-hosts) and self dns-prefetch */}
         {/* RSS feed for blog discovery */}
         <link rel="alternate" type="application/rss+xml" title="LessonCraftStudio Blog RSS" href="/feed.xml" />
       </head>

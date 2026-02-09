@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import type { Metadata } from 'next';
+import { headers } from 'next/headers';
 
 export const metadata: Metadata = {
   title: '404 - Page Not Found | LessonCraftStudio',
@@ -121,10 +122,19 @@ const notFoundMessages: Record<string, {
 };
 
 export default function LocaleNotFound() {
-  // This is a Server Component, so we need to handle locale detection differently
-  // For now, we'll use English as the default since we can't access params directly in not-found
-  const messages = notFoundMessages.en;
-  const locale = 'en';
+  // M10 fix: Detect locale from URL path for proper localized 404 pages
+  let locale = 'en';
+  try {
+    const headersList = headers();
+    const pathname = headersList.get('x-next-url') || headersList.get('x-invoke-path') || '';
+    const match = pathname.match(/^\/([a-z]{2})\//);
+    if (match && match[1] in notFoundMessages) {
+      locale = match[1];
+    }
+  } catch {
+    // Fallback to English
+  }
+  const messages = notFoundMessages[locale] || notFoundMessages.en;
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-50">

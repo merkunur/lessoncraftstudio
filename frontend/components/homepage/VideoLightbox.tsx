@@ -122,15 +122,12 @@ export default function VideoLightbox({
 
   return (
     <>
-      {/* Watch Demo Button */}
-      <motion.button
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ delay: 0.55 }}
+      {/* Watch Demo Button - C5 fix: CSS animation instead of motion.button for SSR visibility */}
+      <button
         onMouseEnter={warmUpYouTube}
         onFocus={warmUpYouTube}
         onClick={() => setIsOpen(true)}
-        className="group relative inline-flex items-center gap-3 px-6 py-3 rounded-xl font-medium text-white/90 transition-all duration-300 hover:scale-[1.02] active:scale-[0.98]"
+        className="group relative inline-flex items-center gap-3 px-6 py-3 rounded-xl font-medium text-white/90 transition-all duration-300 hover:scale-[1.02] active:scale-[0.98] hero-fade-in hero-stagger-5"
         style={{
           background: 'linear-gradient(135deg, rgba(6,182,212,0.15), rgba(168,85,247,0.15))',
           border: '1px solid rgba(255,255,255,0.2)',
@@ -148,19 +145,10 @@ export default function VideoLightbox({
             }}
           />
           {/* Pulsing ring animation */}
-          <motion.span
-            className="absolute inset-0 rounded-full"
+          <span
+            className="absolute inset-0 rounded-full video-pulse-ring"
             style={{
               background: 'linear-gradient(135deg, #06b6d4 0%, #8b5cf6 100%)',
-            }}
-            animate={{
-              scale: [1, 1.4, 1],
-              opacity: [0.6, 0, 0.6],
-            }}
-            transition={{
-              duration: 2,
-              repeat: Infinity,
-              ease: 'easeInOut',
             }}
           />
           {/* Play triangle */}
@@ -183,7 +171,7 @@ export default function VideoLightbox({
             boxShadow: '0 0 30px rgba(6,182,212,0.3), 0 0 60px rgba(168,85,247,0.2)',
           }}
         />
-      </motion.button>
+      </button>
 
       {/* Modal - portaled to document.body to escape hero stacking contexts */}
       {mounted && createPortal(

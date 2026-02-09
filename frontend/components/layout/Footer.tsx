@@ -11,8 +11,34 @@ export function Footer() {
   const t = useTranslations('footer');
 
   const companyName = 'LessonCraftStudio';
-  const tagline = 'Professional worksheet generators for educational publishers.';
-  const copyright = `\u00a9 ${new Date().getFullYear()} LessonCraftStudio. All rights reserved.`;
+  const localizedTaglines: Record<string, string> = {
+    en: 'Professional worksheet generators for educational publishers.',
+    de: 'Professionelle Arbeitsblatt-Generatoren f\u00fcr Bildungsverlage.',
+    fr: 'G\u00e9n\u00e9rateurs de fiches professionnels pour l\u2019\u00e9ducation.',
+    es: 'Generadores de fichas profesionales para educadores.',
+    pt: 'Geradores de atividades profissionais para educadores.',
+    it: 'Generatori di schede professionali per editori educativi.',
+    nl: 'Professionele werkblad-generatoren voor het onderwijs.',
+    sv: 'Professionella arbetsblads-generatorer f\u00f6r utbildning.',
+    da: 'Professionelle arbejdsark-generatorer til uddannelse.',
+    no: 'Profesjonelle arbeidsark-generatorer for utdanning.',
+    fi: 'Ammattimaiset ty\u00f6arkki-generaattorit opetusk\u00e4ytt\u00f6\u00f6n.',
+  };
+  const localizedRights: Record<string, string> = {
+    en: 'All rights reserved.',
+    de: 'Alle Rechte vorbehalten.',
+    fr: 'Tous droits r\u00e9serv\u00e9s.',
+    es: 'Todos los derechos reservados.',
+    pt: 'Todos os direitos reservados.',
+    it: 'Tutti i diritti riservati.',
+    nl: 'Alle rechten voorbehouden.',
+    sv: 'Alla r\u00e4ttigheter f\u00f6rbeh\u00e5llna.',
+    da: 'Alle rettigheder forbeholdes.',
+    no: 'Alle rettigheter forbeholdt.',
+    fi: 'Kaikki oikeudet pid\u00e4tet\u00e4\u00e4n.',
+  };
+  const tagline = localizedTaglines[locale] || localizedTaglines.en;
+  const copyright = `\u00a9 ${new Date().getFullYear()} LessonCraftStudio. ${localizedRights[locale] || localizedRights.en}`;
 
   const sections = {
     product: {

@@ -2,6 +2,7 @@ import { productPageSlugs } from '@/config/product-page-slugs';
 import type { SupportedLocale } from '@/config/product-page-slugs';
 import { prisma } from '@/lib/prisma';
 import { generateLocalizedTitle, generateLocalizedCaption, generateLocalizedAnswerKeyTitle, generateLocalizedAnswerKeyCaption } from '@/lib/localized-seo-templates';
+import { getLocalizedDisplayName } from '@/lib/homepage-samples-data';
 import { getBlogSampleApps } from '@/lib/blog-topic-clusters';
 import { discoverSamplesFromFilesystem, normalizeAppIdForSamples } from '@/lib/sample-utils';
 import { generateSchemaDescription } from '@/lib/blog-schema-utils';
@@ -420,20 +421,7 @@ export async function GET() {
 
   // ── Homepage sample thumbnails ──
   // Homepage displays 33 worksheet thumbnails per locale from /samples/{language}/homepage/
-  const homepageAppIdToDisplayName: Record<string, string> = {
-    'addition': 'Addition', 'alphabet-train': 'Alphabet Train', 'big-small': 'Big and Small',
-    'bingo': 'Bingo', 'chart-count': 'Chart Count', 'code-addition': 'Code Addition',
-    'coloring': 'Coloring', 'crossword': 'Crossword', 'cryptogram': 'Cryptogram',
-    'draw-and-color': 'Draw and Color', 'drawing-lines': 'Drawing Lines',
-    'find-and-count': 'Find and Count', 'find-objects': 'Find Objects', 'grid-match': 'Grid Match',
-    'matching': 'Matching', 'math-puzzle': 'Math Puzzle', 'math-worksheet': 'Math',
-    'missing-pieces': 'Missing Pieces', 'more-less': 'More or Less', 'odd-one-out': 'Odd One Out',
-    'pattern-train': 'Pattern Train', 'pattern-worksheet': 'Pattern Recognition',
-    'picture-path': 'Picture Path', 'picture-sort': 'Picture Sort', 'prepositions': 'Prepositions',
-    'shadow-match': 'Shadow Match', 'subtraction': 'Subtraction', 'sudoku': 'Sudoku',
-    'treasure-hunt': 'Treasure Hunt', 'word-guess': 'Word Guess', 'word-scramble': 'Word Scramble',
-    'wordsearch': 'Word Search', 'writing': 'Writing',
-  };
+  // C4 fix: Uses locale-aware display names instead of English-only
 
   for (const [locale, language] of Object.entries(localeToFolder)) {
     const homepageDir = path.join(SAMPLES_BASE, language, 'homepage');
@@ -451,7 +439,7 @@ export async function GET() {
 
     for (const thumbFile of thumbFiles) {
       const appId = thumbFile.replace('-thumbnail_thumb.webp', '');
-      const displayName = homepageAppIdToDisplayName[appId] || appId.replace(/-/g, ' ');
+      const displayName = getLocalizedDisplayName(appId, locale);
       const imgUrl = `${baseUrl}/samples/${language}/homepage/${thumbFile.replace(/ /g, '%20')}`;
 
       // Try DB metadata first, then localized template fallback

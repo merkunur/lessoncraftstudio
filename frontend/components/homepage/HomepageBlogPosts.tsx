@@ -216,6 +216,8 @@ export default async function HomepageBlogPosts({ locale }: HomepageBlogPostsPro
                       <img
                         src={post.featuredImage}
                         alt={title}
+                        width={600}
+                        height={400}
                         style={{
                           maxWidth: '100%',
                           maxHeight: '100%',

@@ -254,10 +254,12 @@ export function generateBlogSchemas(post: BlogPostData, locale: string, baseUrl:
 /**
  * Generate FAQ Schema if the post contains FAQ content
  */
-export function generateFAQSchema(faqs: Array<{question: string; answer: string}>, locale: string) {
+export function generateFAQSchema(faqs: Array<{question: string; answer: string}>, locale: string, pageUrl?: string) {
+  const baseUrl = getBaseUrl();
   return {
     "@context": "https://schema.org",
     "@type": "FAQPage",
+    ...(pageUrl ? { "@id": `${pageUrl}#faq`, "url": pageUrl } : { "@id": `${baseUrl}/${locale}/#faq`, "url": `${baseUrl}/${locale}` }),
     "mainEntity": faqs.map(faq => ({
       "@type": "Question",
       "name": faq.question,
@@ -367,11 +369,14 @@ export function generateHomepageSchemas(locale: string, baseUrl: string = getBas
     "url": baseUrl,
     "logo": {
       "@type": "ImageObject",
+      "@id": `${baseUrl}/#logo`,
       "url": `${baseUrl}/logo-lcs.png`,
+      "contentUrl": `${baseUrl}/logo-lcs.png`,
       "width": 600,
       "height": 600
     },
     "description": homepageOrgDescriptions[locale] || homepageOrgDescriptions.en,
+    "foundingDate": "2024",
     "areaServed": "Worldwide",
     "availableLanguage": ["English", "German", "French", "Spanish", "Portuguese", "Italian", "Dutch", "Swedish", "Danish", "Norwegian", "Finnish"],
     "sameAs": [
@@ -389,7 +394,6 @@ export function generateHomepageSchemas(locale: string, baseUrl: string = getBas
     "url": baseUrl,
     "description": homepageWebsiteDescriptions[locale] || homepageWebsiteDescriptions.en,
     "publisher": { "@id": `${baseUrl}/#organization` },
-    "inLanguage": getHreflangCode(locale),
     "potentialAction": {
       "@type": "SearchAction",
       "target": {
@@ -405,14 +409,23 @@ export function generateHomepageSchemas(locale: string, baseUrl: string = getBas
   const softwareSchema = {
     "@context": "https://schema.org",
     "@type": "SoftwareApplication",
+    "@id": `${baseUrl}/${locale}/#software`,
     "name": "LessonCraftStudio Worksheet Generators",
     "url": `${baseUrl}/${locale}`,
     "applicationCategory": "EducationalApplication",
     "operatingSystem": "Web Browser",
+    "inLanguage": getHreflangCode(locale),
     "offers": {
-      "@type": "Offer",
-      "price": "0",
-      "priceCurrency": "USD"
+      "@type": "AggregateOffer",
+      "lowPrice": "0",
+      "highPrice": "25",
+      "priceCurrency": "USD",
+      "offerCount": 3,
+      "offers": [
+        { "@type": "Offer", "name": "Free", "price": "0", "priceCurrency": "USD" },
+        { "@type": "Offer", "name": "Core", "price": "15", "priceCurrency": "USD" },
+        { "@type": "Offer", "name": "Full Access", "price": "25", "priceCurrency": "USD" }
+      ]
     },
     "description": homepageSoftwareDescriptions[locale] || homepageSoftwareDescriptions.en,
     "featureList": homepageFeatureLists[locale] || homepageFeatureLists.en,
@@ -433,7 +446,11 @@ export function generateHomepageSchemas(locale: string, baseUrl: string = getBas
       "isPartOf": { "@id": `${baseUrl}/#website` },
       "about": { "@id": `${baseUrl}/#organization` },
       "publisher": { "@id": `${baseUrl}/#organization` },
-      "inLanguage": getHreflangCode(locale)
+      "inLanguage": getHreflangCode(locale),
+      "datePublished": "2024-06-01",
+      "dateModified": "2025-02-08",
+      "mainEntity": { "@id": `${baseUrl}/${locale}/#software` },
+      "primaryImageOfPage": { "@id": `${baseUrl}/#logo` }
     };
     schemas.push(webPageSchema);
   }
@@ -741,7 +758,7 @@ export const ogLocaleMap: Record<string, string> = {
   nl: 'nl_NL',
   sv: 'sv_SE',
   da: 'da_DK',
-  no: 'no_NO',  // Standardized from nb_NO to match hreflang code
+  no: 'nb_NO',  // Norwegian Bokm\u00e5l per Facebook's supported locale list
   fi: 'fi_FI'
 };
 

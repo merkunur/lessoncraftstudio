@@ -232,6 +232,71 @@ Laden Sie das Arbeitsblatt herunter. Laden Sie auch das Lösungsblatt herunter. 
         question: 'Kann ich eigene Bilder f\u00fcr die Wortsuche hochladen?',
         answer: 'Ja, Sie k\u00f6nnen eigene Bilder hochladen und mit der Bibliothek mit \u00fcber 3000 Motiven kombinieren. Laden Sie Klassenfotos, Sch\u00fclerzeichnungen oder fachspezifische Grafiken hoch. Jedes Element auf der Arbeitsfl\u00e4che ist individuell verschiebbar und skalierbar.',
       },
+      {
+        id: 'faq-8',
+        question: 'Was ist der Unterschied zwischen Suchsel und Wortsuche?',
+        answer: 'Suchsel und Wortsuche bezeichnen dasselbe R\u00e4tselformat. In einem Buchstabenraster sind W\u00f6rter versteckt, die horizontal, vertikal oder diagonal verlaufen k\u00f6nnen. Der Begriff Suchsel ist im deutschsprachigen Raum verbreiteter, w\u00e4hrend Wortsuche die w\u00f6rtliche \u00dcbersetzung von Word Search ist.',
+      },
+      {
+        id: 'faq-9',
+        question: 'K\u00f6nnen diagonale und r\u00fcckw\u00e4rts versteckte W\u00f6rter deaktiviert werden?',
+        answer: 'Ja, Sie k\u00f6nnen diagonale und r\u00fcckw\u00e4rts geschriebene W\u00f6rter separat ein- oder ausschalten. F\u00fcr Anf\u00e4nger empfehlen wir nur horizontale und vertikale W\u00f6rter. Mit zunehmender \u00dcbung aktivieren Sie Diagonalen und R\u00fcckw\u00e4rtsrichtungen f\u00fcr mehr Herausforderung.',
+      },
+      {
+        id: 'faq-10',
+        question: 'Wie viele W\u00f6rter werden in einem Suchsel versteckt?',
+        answer: 'Der Generator verwendet standardm\u00e4\u00dfig 8 W\u00f6rter pro Suchsel, basierend auf den ausgew\u00e4hlten Bildern. Die W\u00f6rter werden automatisch aus den Bildnamen in der gew\u00e4hlten Sprache generiert. Bei kleineren Rastern werden k\u00fcrzere W\u00f6rter bevorzugt.',
+      },
+      {
+        id: 'faq-11',
+        question: 'F\u00f6rdern Suchsel das Buchstaben lernen bei Erstlesern?',
+        answer: 'Ja, Suchsel sind hervorragend f\u00fcr das Buchstaben lernen geeignet. Kinder m\u00fcssen Buchstaben erkennen, Buchstabenfolgen identifizieren und W\u00f6rter als Einheit wahrnehmen. Diese visuelle Worterkennungs\u00fcbung st\u00e4rkt die Lesekompetenz und das orthografische Bewusstsein.',
+      },
+      {
+        id: 'faq-12',
+        question: 'Kann ich den Generator f\u00fcr den Fremdsprachenunterricht nutzen?',
+        answer: 'Ja, der Generator unterst\u00fctzt 11 Sprachen. W\u00e4hlen Sie eine Sprache und alle Bildnamen werden automatisch \u00fcbersetzt. So erstellen Sie Suchsel f\u00fcr Englisch, Franz\u00f6sisch, Spanisch oder andere Sprachen. Ideal f\u00fcr Vokabeltraining und den bilingualen Unterricht.',
+      },
+      {
+        id: 'faq-13',
+        question: 'Welche Seitenformate stehen f\u00fcr den Druck zur Verf\u00fcgung?',
+        answer: 'Sie k\u00f6nnen zwischen A4 Hochformat, A4 Querformat, Letter Hochformat, Letter Querformat und einem quadratischen Format w\u00e4hlen. A4 Hochformat ist Standard f\u00fcr deutsche Schulen. Das Querformat bietet mehr Platz f\u00fcr die Bilderliste neben dem Raster.',
+      },
+      {
+        id: 'faq-14',
+        question: 'Wie nutze ich Suchsel f\u00fcr Vertretungsstunden oder als F\u00fclleraufgabe?',
+        answer: 'Suchsel eignen sich perfekt f\u00fcr Vertretungsstunden, da sie keinen thematischen Vorlauf brauchen. W\u00e4hlen Sie ein beliebiges Thema und erstellen Sie in unter 3 Minuten ein druckfertiges Arbeitsblatt. Sch\u00fcler arbeiten selbstst\u00e4ndig und das L\u00f6sungsblatt erm\u00f6glicht schnelle Kontrolle.',
+      },
+      {
+        id: 'faq-15',
+        question: 'Was kostet das Basis-Paket f\u00fcr den Suchsel-Generator?',
+        answer: 'Das Basis-Paket kostet 144\u20ac pro Jahr oder 15\u20ac pro Monat und umfasst 10 verschiedene Arbeitsblatt-Generatoren. Sie erhalten unbegrenzte Downloads ohne Wasserzeichen, \u00fcber 3000 Bilder, 11 Sprachen und eine kommerzielle Lizenz f\u00fcr den Verkauf.',
+      },
+      {
+        id: 'faq-16',
+        question: 'Kann ich das Suchsel-Design mit Rahmen und Hintergr\u00fcnden gestalten?',
+        answer: 'Ja, auf der Arbeitsfl\u00e4che f\u00fcgen Sie dekorative Rahmen, thematische Hintergr\u00fcnde und eigene Textelemente hinzu. Alle Elemente sind per Drag-and-Drop verschiebbar und skalierbar. So erstellen Sie professionell gestaltete Suchsel passend zum Unterrichtsthema.',
+      },
+      {
+        id: 'faq-17',
+        question: 'Eignen sich Suchsel f\u00fcr Sachunterricht-Themen?',
+        answer: 'Ja, durch die thematische Bildauswahl aus \u00fcber 50 Kategorien erstellen Sie fach\u00fcbergreifende Suchsel. W\u00e4hlen Sie Tiere f\u00fcr Biologie, Fahrzeuge f\u00fcr Verkehrserziehung oder Lebensmittel f\u00fcr Ern\u00e4hrungslehre. Die Bilder neben dem Raster unterst\u00fctzen das Vokabellernen im Fachkontext.',
+      },
+      {
+        id: 'faq-18',
+        question: 'Wie drucke ich Suchsel am besten f\u00fcr eine ganze Klasse?',
+        answer: 'Laden Sie das Arbeitsblatt als PDF in 300 DPI herunter und drucken Sie es in Schwarz-Wei\u00df, um Tinte zu sparen. Die Graustufen-Option garantiert scharfe Buchstaben auf jedem Drucker. F\u00fcr Klassens\u00e4tze empfehlen wir einseitigen Druck.',
+      },
+      {
+        id: 'faq-19',
+        question: 'Darf ich erstellte Suchsel auf Eduki oder Teachers Pay Teachers verkaufen?',
+        answer: 'Ja, das Basis-Paket enth\u00e4lt eine kommerzielle Lizenz. Sie d\u00fcrfen Ihre Suchsel auf Eduki, Teachers Pay Teachers, Etsy und anderen Plattformen verkaufen. Jedes Suchsel ist einzigartig, da die W\u00f6rter zuf\u00e4llig im Raster platziert werden.',
+      },
+      {
+        id: 'faq-20',
+        question: 'Kann ich mehrere Suchsel zu einem Arbeitsheft zusammenstellen?',
+        answer: 'Ja, erstellen Sie mehrere Suchsel mit verschiedenen Themen und laden Sie alle als PDF herunter. Diese k\u00f6nnen Sie zu thematischen Arbeitsheften zusammenstellen. Kombinieren Sie Suchsel mit anderen Generatoren wie Kreuzwortr\u00e4tsel oder Zuordnungs\u00fcbungen f\u00fcr vielseitige Arbeitsmappen.',
+      },
     ],
 
   },

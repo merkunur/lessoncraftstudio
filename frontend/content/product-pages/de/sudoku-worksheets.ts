@@ -237,6 +237,71 @@ Vor dem Herunterladen aktivieren Sie die Graustufen-Checkbox wenn Sie Tinte spar
         question: 'Darf ich die erstellten Sudoku-Arbeitsbl\u00e4tter auf Eduki oder Etsy verkaufen?',
         answer: 'Ja, Ihr Basis-Paket Abonnement enth\u00e4lt eine kommerzielle Lizenz f\u00fcr Print-on-Demand Nutzung. Sie d\u00fcrfen Ihre individuellen Sudoku-Arbeitsbl\u00e4tter auf Eduki, Etsy oder Amazon KDP verkaufen, ohne zus\u00e4tzliche Lizenzgeb\u00fchren zahlen zu m\u00fcssen.',
       },
+      {
+        id: 'faq-8',
+        question: 'Kann ich den Kinder-Sudoku Generator kostenlos testen?',
+        answer: 'Ja, Sie k\u00f6nnen den Generator kostenlos und ohne Anmeldung ausprobieren. Erstellen Sie Ihr erstes Sudoku-R\u00e4tsel und sehen Sie das Ergebnis auf dem Bildschirm. Kostenlose Downloads enthalten ein Wasserzeichen. Das Basis-Paket schaltet wasserzeichenfreie Downloads in voller Qualit\u00e4t frei.',
+      },
+      {
+        id: 'faq-9',
+        question: 'Wie funktioniert das Ausschneiden-und-Einkleben-Format beim Kinder-Sudoku?',
+        answer: 'Am Rand des Arbeitsblatts befinden sich ausschneidbare Bildst\u00fccke. Kinder schneiden die Bilder aus und kleben sie in die richtigen leeren Zellen des Sudoku-Gitters. Diese praktische Aktivit\u00e4t baut Feinmotorik auf und macht das logische Denken zu einem handlungsorientierten Erlebnis.',
+      },
+      {
+        id: 'faq-10',
+        question: 'Ab welchem Alter k\u00f6nnen Kinder Bilder-Sudoku l\u00f6sen?',
+        answer: 'Das vereinfachte 4x4 Gitter mit Bildern ist f\u00fcr Kinder ab 4 Jahren geeignet. Die einfache Stufe mit nur 4 leeren Zellen erm\u00f6glicht einen sanften Einstieg. \u00c4ltere Kinder bis 8 Jahre profitieren von der schweren Stufe mit 8 leeren Zellen f\u00fcr mehr Herausforderung.',
+      },
+      {
+        id: 'faq-11',
+        question: 'Welche Seitenformate werden f\u00fcr Sudoku-Arbeitsbl\u00e4tter unterst\u00fctzt?',
+        answer: 'Der Generator bietet A4 und Letter in Hoch- und Querformat. Im Hochformat erscheint das Gitter oben mit Ausschneide-Bildern darunter. Im Querformat steht das Gitter links mit Bildern rechts. W\u00e4hlen Sie das Format passend zu Ihrem Druckbedarf.',
+      },
+      {
+        id: 'faq-12',
+        question: 'Wie erstelle ich differenzierte Sudoku-Arbeitsbl\u00e4tter f\u00fcr verschiedene Niveaus?',
+        answer: 'Erstellen Sie dasselbe Thema in allen drei Schwierigkeitsstufen: Einfach mit 4 leeren Zellen, Mittel mit 6 und Schwer mit 8 leeren Zellen. Alle drei Arbeitsbl\u00e4tter verwenden dieselben vier Bilder. So kann jedes Kind auf seinem Niveau arbeiten, ohne sich ausgegrenzt zu f\u00fchlen.',
+      },
+      {
+        id: 'faq-13',
+        question: 'Wie kann ich Sudoku-R\u00e4tsel mit anderen Generatoren kombinieren?',
+        answer: 'Ihr Basis-Paket enth\u00e4lt 10 Generatoren. Erstellen Sie thematische Lernpakete mit Sudoku f\u00fcr Logiktraining, Mathe-R\u00e4tsel f\u00fcr Rechen\u00fcbungen und Malvorlagen f\u00fcr kreative Pausen. Verwenden Sie dasselbe Bildthema \u00fcber alle Generatoren f\u00fcr ein einheitliches Paket.',
+      },
+      {
+        id: 'faq-14',
+        question: 'Kann ich eigene Fotos als Sudoku-Bilder verwenden?',
+        answer: 'Ja, laden Sie eigene Bilder \u00fcber die Upload-Funktion hoch. Klassenfotos, Sch\u00fclerkunstwerke oder thematische Grafiken machen die R\u00e4tsel pers\u00f6nlicher. Sie ben\u00f6tigen genau vier Bilder pro Sudoku. Mischen Sie eigene Bilder mit Bibliotheksbildern f\u00fcr einzigartige Arbeitsbl\u00e4tter.',
+      },
+      {
+        id: 'faq-15',
+        question: 'In welchen Sprachen funktioniert der Sudoku-Generator?',
+        answer: 'Die Benutzeroberfl\u00e4che und Anweisungen auf dem Arbeitsblatt sind in 11 Sprachen verf\u00fcgbar. Da Bilder-Sudoku keine Texterkennung erfordert, sind die R\u00e4tsel selbst sprachunabh\u00e4ngig und universell einsetzbar f\u00fcr alle Kinder, unabh\u00e4ngig von der Muttersprache.',
+      },
+      {
+        id: 'faq-16',
+        question: 'Was ist der Unterschied zwischen Basis-Paket und Vollzugriff?',
+        answer: 'Das Basis-Paket f\u00fcr 144\u20ac pro Jahr enth\u00e4lt den Sudoku-Generator und 9 weitere Generatoren. Der Vollzugriff f\u00fcr 240\u20ac pro Jahr enth\u00e4lt alle 33 Generatoren. Beide Pakete bieten unbegrenzte Arbeitsblatterstellung, kommerzielle Lizenz und \u00fcber 3000 Bilder.',
+      },
+      {
+        id: 'faq-17',
+        question: 'Wie spare ich Druckkosten bei den Sudoku-Arbeitsbl\u00e4ttern?',
+        answer: 'Aktivieren Sie die Graustufen-Option vor dem Download. Die Bilder bleiben auch in Schwarz-Wei\u00df klar unterscheidbar. F\u00fcr das Ausschneiden-Format empfehlen wir st\u00e4rkeres Papier. Das PDF-Format bietet die beste Druckqualit\u00e4t f\u00fcr Klassens\u00e4tze.',
+      },
+      {
+        id: 'faq-18',
+        question: 'Welche kognitiven F\u00e4higkeiten werden durch Bilder-Sudoku gef\u00f6rdert?',
+        answer: 'Kinder-Sudoku f\u00f6rdert logisches Denken, Mustererkennung, r\u00e4umliches Vorstellungsverm\u00f6gen und Konzentration. Das Eliminierungsverfahren schult systematisches Probleml\u00f6sen. Diese F\u00e4higkeiten sind grundlegend f\u00fcr den sp\u00e4teren Mathematik-Unterricht und allt\u00e4gliche Denkprozesse.',
+      },
+      {
+        id: 'faq-19',
+        question: 'Eignet sich Bilder-Sudoku f\u00fcr Kinder mit besonderem F\u00f6rderbedarf?',
+        answer: 'Ja, das visuelle 4x4 Format ist besonders zug\u00e4nglich f\u00fcr Kinder mit Lern- oder Konzentrationsschwierigkeiten. Die einfache Stufe mit nur 4 leeren Zellen erm\u00f6glicht Erfolgserlebnisse. Das handlungsorientierte Ausschneiden-und-Einkleben-Format unterst\u00fctzt kin\u00e4sthetische Lerntypen.',
+      },
+      {
+        id: 'faq-20',
+        question: 'Kann ich Sudoku-R\u00e4tsel zu einem Arbeitsheft zusammenstellen?',
+        answer: 'Ja, erstellen Sie R\u00e4tsel mit verschiedenen Themen und Schwierigkeitsstufen f\u00fcr ein abwechslungsreiches \u00dcbungsheft. F\u00fcgen Sie L\u00f6sungsschl\u00fcssel am Ende hinzu. Mit der kommerziellen Lizenz d\u00fcrfen Sie die Hefte auf Eduki, Etsy oder Teachers Pay Teachers verkaufen.',
+      },
     ],
 
   },

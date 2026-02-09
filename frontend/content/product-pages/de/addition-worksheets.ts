@@ -237,6 +237,71 @@ Mit dem Basis-Paket für 144 € jährlich erhalten Sie wasserzeichenfreie Downl
         question: 'Unterst\u00fctzt der Generator mehrere Sprachen f\u00fcr den Mathematikunterricht?',
         answer: 'Ja, der Additions-Generator funktioniert in 11 Sprachen und ist ideal f\u00fcr mehrsprachigen Mathematikunterricht. Die Bildnamen und Arbeitsblatt-Beschriftungen passen sich automatisch an die gew\u00e4hlte Sprache an. Das macht ihn perfekt f\u00fcr DaZ-Unterricht und bilinguale Klassen.',
       },
+      {
+        id: 'faq-8',
+        question: 'Wie unterscheidet sich der Bild-plus-Bild-Modus vom Bild-plus-Zahl-Modus?',
+        answer: 'Im Bild-plus-Bild-Modus sehen Kinder zwei Bildergruppen und z\u00e4hlen beide ab, um die Summe zu finden. Im Bild-plus-Zahl-Modus wird ein Operand als Zahl dargestellt. Der erste Modus ist konkreter und ideal f\u00fcr Vorsch\u00fclkinder. Der zweite Modus bereitet auf abstraktes Rechnen in der 1. Klasse vor.',
+      },
+      {
+        id: 'faq-9',
+        question: 'Kann ich den Additions-Generator kostenlos testen?',
+        answer: 'Ja, Sie k\u00f6nnen den Generator kostenlos testen und Arbeitsbl\u00e4tter mit Wasserzeichen erstellen. Um wasserzeichenfreie Downloads in voller 300 DPI Qualit\u00e4t zu erhalten, ben\u00f6tigen Sie das Basis-Paket f\u00fcr 144\u20ac pro Jahr oder 15\u20ac pro Monat.',
+      },
+      {
+        id: 'faq-10',
+        question: 'Wie viele Aufgaben passen auf ein Additions-Arbeitsblatt?',
+        answer: 'Sie k\u00f6nnen zwischen 1 und 10 Aufgaben pro Arbeitsblatt w\u00e4hlen. Weniger Aufgaben bedeuten gr\u00f6\u00dfere Bilder und mehr Platz zum Schreiben. F\u00fcr Vorschulkinder empfehlen wir 4 bis 6 Aufgaben, f\u00fcr Grundsch\u00fcler 8 bis 10 Aufgaben pro Seite.',
+      },
+      {
+        id: 'faq-11',
+        question: 'Eignen sich die Arbeitsbl\u00e4tter f\u00fcr Kinder mit F\u00f6rderbedarf?',
+        answer: 'Ja, durch die flexible Einstellung von Zahlenraum, \u00dcbungsmodus und Aufgabenanzahl lassen sich die Arbeitsbl\u00e4tter perfekt differenzieren. Der Bild-plus-Bild-Modus mit kleinen Zahlen und wenigen Aufgaben ist besonders geeignet f\u00fcr Kinder mit F\u00f6rderbedarf im Bereich Mathematik.',
+      },
+      {
+        id: 'faq-12',
+        question: 'Kann ich eigene Bilder f\u00fcr die Additionsaufgaben hochladen?',
+        answer: 'Ja, \u00fcber die Multi-Upload-Funktion laden Sie eigene Bilder hoch und kombinieren sie mit den \u00fcber 3000 Bibliotheksbildern. Klassenfotos, Projektbilder oder saisonale Motive personalisieren Ihre Mathe-Arbeitsbl\u00e4tter und erh\u00f6hen die Motivation der Sch\u00fcler.',
+      },
+      {
+        id: 'faq-13',
+        question: 'Welche Seitenformate unterst\u00fctzt der Additions-Generator?',
+        answer: 'Der Generator unterst\u00fctzt Letter Hochformat, Letter Querformat, A4 Hochformat, A4 Querformat und ein quadratisches Format. A4 Hochformat ist der Standard f\u00fcr deutsche Schulen. Das Querformat eignet sich gut f\u00fcr Aufgaben mit besonders vielen Bildern.',
+      },
+      {
+        id: 'faq-14',
+        question: 'Wie f\u00f6rdert visuelles Rechnen das mathematische Verst\u00e4ndnis?',
+        answer: 'Bilder machen abstrakte Zahlenkonzepte greifbar. Kinder z\u00e4hlen konkrete Gegenst\u00e4nde und entwickeln so ein tiefes Zahlenverst\u00e4ndnis. Studien zeigen, dass visuelles Rechnen besonders im Vorschulalter die mathematische Grundkompetenz nachhaltig st\u00e4rkt.',
+      },
+      {
+        id: 'faq-15',
+        question: 'Kann ich Additions-Arbeitsbl\u00e4tter mit anderen Generatoren kombinieren?',
+        answer: 'Ja, Ihr Abonnement umfasst Zugriff auf 10 verschiedene Generatoren. Sie k\u00f6nnen Additions-Arbeitsbl\u00e4tter mit Subtraktions\u00fcbungen, Zuordnungsaufgaben oder Suchseln zu thematischen Arbeitsheften kombinieren. So erstellen Sie abwechslungsreiche Mathe-Pakete f\u00fcr Ihre Klasse.',
+      },
+      {
+        id: 'faq-16',
+        question: 'Was ist der Addend-finden-Modus und f\u00fcr wen eignet er sich?',
+        answer: 'Im Addend-finden-Modus sehen Kinder eine Additionsaufgabe mit einer L\u00fccke und m\u00fcssen den fehlenden Summanden herausfinden. Dieser Modus f\u00f6rdert algebraisches Vordenken und eignet sich f\u00fcr Sch\u00fcler der 1. und 2. Klasse, die bereits sicher im Zahlenraum bis 10 addieren k\u00f6nnen.',
+      },
+      {
+        id: 'faq-17',
+        question: 'Wie nutze ich den gemischten Modus f\u00fcr differenzierten Unterricht?',
+        answer: 'Der gemischte Modus kombiniert verschiedene Aufgabentypen zuf\u00e4llig auf einem Arbeitsblatt. So \u00fcben Kinder flexibles Denken und werden nicht durch repetitive Aufgabenformate gelangweilt. Ideal f\u00fcr Vertretungsstunden oder als Diagnose-Arbeitsblatt zur Lernstandserhebung.',
+      },
+      {
+        id: 'faq-18',
+        question: 'Darf ich die Additions-Arbeitsbl\u00e4tter auf Teachers Pay Teachers verkaufen?',
+        answer: 'Ja, das Basis-Paket enth\u00e4lt eine kommerzielle Lizenz f\u00fcr den Verkauf auf Teachers Pay Teachers, Eduki, Etsy und anderen Plattformen. Sie erhalten wasserzeichenfreie Downloads und d\u00fcrfen unbegrenzt viele einzigartige Arbeitsbl\u00e4tter erstellen und verkaufen.',
+      },
+      {
+        id: 'faq-19',
+        question: 'Wie passe ich das Design meiner Additions-Arbeitsbl\u00e4tter an?',
+        answer: 'Auf der Arbeitsfl\u00e4che k\u00f6nnen Sie alle Elemente per Drag-and-Drop verschieben, skalieren und drehen. F\u00fcgen Sie dekorative Rahmen, thematische Hintergr\u00fcnde und eigene Texte hinzu. So erstellen Sie professionell gestaltete Arbeitsbl\u00e4tter, die zu Ihrem Unterrichtsthema passen.',
+      },
+      {
+        id: 'faq-20',
+        question: 'Welche Lehrplanziele decken die Additions-Arbeitsbl\u00e4tter ab?',
+        answer: 'Die Arbeitsbl\u00e4tter unterst\u00fctzen zentrale Lehrplanziele im Bereich Arithmetik: Zahlenverst\u00e4ndnis, Addieren im Zahlenraum bis 20, Beziehung zwischen Zahl und Menge sowie Rechenstrategien. Durch verschiedene \u00dcbungsmodi werden sowohl handlungsorientiertes als auch abstraktes Rechnen gef\u00f6rdert.',
+      },
     ],
 
   },

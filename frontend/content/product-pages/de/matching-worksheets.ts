@@ -237,6 +237,71 @@ Aktivieren Sie die Graustufenoption vor dem Herunterladen, um Druckertinte zu sp
         question: 'Was kostet das Basis-Paket f\u00fcr den Zuordnungs-Generator?',
         answer: 'Das Basis-Paket kostet 144\u20ac pro Jahr und beinhaltet unbegrenzte Arbeitsblatterstellung mit allen Zuordnungsmodi. Zus\u00e4tzlich erhalten Sie Zugriff auf 10 Arbeitsblatt-Generatoren, \u00fcber 3000 Bilder, 11 Sprachen und eine kommerzielle Lizenz. Keine Zusatzkosten pro Arbeitsblatt.',
       },
+      {
+        id: 'faq-8',
+        question: 'Kann ich den Zuordnungs-Generator kostenlos testen?',
+        answer: 'Ja, der Generator l\u00e4sst sich kostenlos und ohne Anmeldung testen. Erstellen Sie erste Zuordnungs\u00fcbungen und sehen Sie das Ergebnis direkt auf dem Bildschirm. Kostenlose Downloads enthalten ein Wasserzeichen. Das Basis-Paket schaltet wasserzeichenfreie Profi-Downloads frei.',
+      },
+      {
+        id: 'faq-9',
+        question: 'Kann ich eigene W\u00f6rter und Vokabeln f\u00fcr die Zuordnung verwenden?',
+        answer: 'Ja, im Bild-zu-benutzerdefiniertem-Wort-Modus geben Sie Ihre eigenen Vokabeln ein. So erstellen Sie ma\u00dfgeschneiderte Deutsch-Arbeitsbl\u00e4tter, Sachunterricht-\u00dcbungen oder Fremdsprachen-Vokabeltraining. Die W\u00f6rter werden automatisch neben den passenden Bildern platziert.',
+      },
+      {
+        id: 'faq-10',
+        question: 'Welche Seitenformate unterst\u00fctzt der Generator?',
+        answer: 'Der Generator bietet A4 Hochformat, A4 Querformat und Letter Hochformat als Seitenformate. W\u00e4hlen Sie das passende Format f\u00fcr Ihre Bed\u00fcrfnisse. Namens- und Datumsfelder k\u00f6nnen optional hinzugef\u00fcgt werden. Alle Formate exportieren in professioneller 300 DPI Qualit\u00e4t.',
+      },
+      {
+        id: 'faq-11',
+        question: 'Wie f\u00f6rdern Zuordnungs\u00fcbungen die Feinmotorik?',
+        answer: 'Beim Ziehen von Linien zwischen zusammengeh\u00f6renden Paaren trainieren Kinder ihre Hand-Auge-Koordination und Stiftkontrolle. Die \u00dcbung verbindet kognitive Zuordnung mit motorischer Ausf\u00fchrung. Das ist besonders wertvoll f\u00fcr Vorschulkinder in der Schreibvorbereitung.',
+      },
+      {
+        id: 'faq-12',
+        question: 'Eignen sich die Zuordnungs\u00fcbungen f\u00fcr DaF- und DaZ-Unterricht?',
+        answer: 'Ja, der Bild-zu-Wort-Modus und der Bild-zu-benutzerdefiniertem-Wort-Modus sind ideal f\u00fcr den Sprachunterricht. Die 11-Sprachen-Unterst\u00fctzung erm\u00f6glicht Vokabeltraining in der Zielsprache. Bildbasierte Zuordnung hilft Sprachanf\u00e4ngern beim Wortschatzerwerb.',
+      },
+      {
+        id: 'faq-13',
+        question: 'Wie kann ich Zuordnungs\u00fcbungen mit anderen Generatoren kombinieren?',
+        answer: 'Ihr Basis-Paket enth\u00e4lt 10 Generatoren, die perfekt zusammenarbeiten. Erstellen Sie thematische Lernpakete mit Zuordnungs\u00fcbungen, Wortsuche, Malvorlagen und Mathe-Arbeitsbl\u00e4ttern im selben Thema. Diese Kombination bietet vielseitige \u00dcbungsm\u00f6glichkeiten f\u00fcr verschiedene Lernstile.',
+      },
+      {
+        id: 'faq-14',
+        question: 'Kann ich eigene Bilder f\u00fcr die Zuordnungs\u00fcbungen verwenden?',
+        answer: 'Sie haben Zugriff auf \u00fcber 3000 Bilder in der Bibliothek. Nutzen Sie die Themenfilter oder die Suchfunktion, um passende Motive zu finden. Bei der spezifischen Bildauswahl k\u00f6nnen Sie einzelne Bilder gezielt f\u00fcr Ihre Unterrichtsthemen zusammenstellen.',
+      },
+      {
+        id: 'faq-15',
+        question: 'In welchen Sprachen funktioniert der Zuordnungs-Generator?',
+        answer: 'Der Generator unterst\u00fctzt 11 Sprachen. Die Bildnamen und Anfangsbuchstaben werden automatisch in der gew\u00e4hlten Sprache angezeigt. Im Bild-zu-Anfangsbuchstabe-Modus passt sich die Buchstabenzuordnung an das jeweilige Sprachsystem an.',
+      },
+      {
+        id: 'faq-16',
+        question: 'Darf ich die Zuordnungs\u00fcbungen kommerziell verkaufen?',
+        answer: 'Ja, das Basis-Paket enth\u00e4lt eine kommerzielle Lizenz f\u00fcr den Verkauf auf Eduki, Teachers Pay Teachers und anderen Plattformen. Erstellen Sie professionelle Arbeitsblatt-Pakete und verkaufen Sie sie ohne zus\u00e4tzliche Lizenzgeb\u00fchren. Unbegrenzte Downloads inklusive.',
+      },
+      {
+        id: 'faq-17',
+        question: 'Wie spare ich Druckkosten bei den Zuordnungs\u00fcbungen?',
+        answer: 'Aktivieren Sie die Graustufen-Option vor dem Download, um Farbdruckkosten zu reduzieren. Die Bilder bleiben auch in Schwarz-Wei\u00df klar erkennbar. Das PDF-Format bietet die beste Druckqualit\u00e4t f\u00fcr gro\u00dfe Klassens\u00e4tze auf Heim- oder Schuldruckern.',
+      },
+      {
+        id: 'faq-18',
+        question: 'Wie setze ich Zuordnungs\u00fcbungen zur Differenzierung im Unterricht ein?',
+        answer: 'Verwenden Sie 4 Paare mit dem Bild-zu-Anfangsbuchstabe-Modus f\u00fcr Anf\u00e4nger. Erstellen Sie 6 Paare mit benutzerdefinierten W\u00f6rtern f\u00fcr fortgeschrittene Sch\u00fcler. Verschiedene Modi erlauben unterschiedliche Schwierigkeitsgrade im selben ansprechenden Format f\u00fcr jedes Leistungsniveau.',
+      },
+      {
+        id: 'faq-19',
+        question: 'Eignen sich die Zuordnungs\u00fcbungen f\u00fcr Kinder mit F\u00f6rderbedarf?',
+        answer: 'Ja, die klare visuelle Struktur mit zwei Spalten und eindeutigen Bildern ist besonders zug\u00e4nglich. Beginnen Sie mit 4 Paaren im Bild-zu-Bild-Modus f\u00fcr das einfachste Niveau. Die Bildhinweise unterst\u00fctzen Kinder, die noch nicht lesen k\u00f6nnen, beim erfolgreichen L\u00f6sen der Aufgaben.',
+      },
+      {
+        id: 'faq-20',
+        question: 'Kann ich mit Zuordnungs\u00fcbungen ein Arbeitsheft zusammenstellen?',
+        answer: 'Ja, erstellen Sie verschiedene Zuordnungs\u00fcbungen mit unterschiedlichen Modi und Themen f\u00fcr ein vielseitiges Arbeitsheft. F\u00fcgen Sie L\u00f6sungsbl\u00e4tter f\u00fcr die Selbstkontrolle hinzu. Mit der kommerziellen Lizenz k\u00f6nnen Sie die Arbeitshefte auf Verkaufsplattformen anbieten.',
+      },
     ],
 
   },

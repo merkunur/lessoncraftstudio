@@ -245,6 +245,71 @@ Laden Sie Arbeitsblatt und Lösungsschlüssel separat herunter. Beide Dateien si
         question: 'Wie drucke ich die Subtraktion-Arbeitsbl\u00e4tter am besten aus?',
         answer: 'Laden Sie die Arbeitsbl\u00e4tter als PDF f\u00fcr beste Druckqualit\u00e4t herunter. Die Graustufen-Option spart teure Farbpatronen und die Bildqualit\u00e4t bleibt ausgezeichnet. Alle Downloads haben professionelle 300 DPI Aufl\u00f6sung. Sie k\u00f6nnen beliebig viele Kopien f\u00fcr Ihre Klasse drucken.',
       },
+      {
+        id: 'faq-8',
+        question: 'Kann ich den Subtraktion-Generator kostenlos testen?',
+        answer: 'Ja, Sie k\u00f6nnen den Generator kostenlos und ohne Anmeldung testen. Erstellen Sie Ihre ersten Subtraktion-Arbeitsbl\u00e4tter und sehen Sie das Ergebnis auf dem Bildschirm. Kostenlose Downloads enthalten ein Wasserzeichen. Das Vollzugriff-Abonnement schaltet wasserzeichenfreie Downloads frei.',
+      },
+      {
+        id: 'faq-9',
+        question: 'Wie viele Aufgaben passen auf ein Subtraktion-Arbeitsblatt?',
+        answer: 'Bis zu 10 Subtraktionsaufgaben passen auf ein Arbeitsblatt. Weniger Aufgaben bedeuten gr\u00f6\u00dfere Bilder und mehr Platz zum Arbeiten. F\u00fcr Vorschulkinder empfehlen sich 3-4 Aufgaben. F\u00fcr ge\u00fcbte Grundsch\u00fcler bieten 8-10 Aufgaben pro Seite intensive \u00dcbung.',
+      },
+      {
+        id: 'faq-10',
+        question: 'Welche Seitenformate werden unterst\u00fctzt?',
+        answer: 'Der Generator unterst\u00fctzt A4 und Letter in Hoch- und Querformat. Die Aufgaben passen sich automatisch an das gew\u00e4hlte Seitenformat an. Optionale Namens- und Datumsfelder sowie Aufgabennummern k\u00f6nnen hinzugef\u00fcgt werden. Alle Formate exportieren in 300 DPI Qualit\u00e4t.',
+      },
+      {
+        id: 'faq-11',
+        question: 'Wie funktioniert der Subtrahend-finden-Modus genau?',
+        answer: 'Im Subtrahend-finden-Modus sehen Kinder eine Bildergruppe und das Ergebnis, m\u00fcssen aber die abzuziehende Zahl selbst herausfinden. Das fordert umgekehrtes Denken und ein tieferes Verst\u00e4ndnis der Subtraktion. Ideal f\u00fcr leistungsstarke Sch\u00fcler, die \u00fcber das einfache Abz\u00e4hlen hinausgehen.',
+      },
+      {
+        id: 'faq-12',
+        question: 'Wie nutze ich den gemischten Modus zur Differenzierung?',
+        answer: 'Der gemischte Modus kombiniert zuf\u00e4llig verschiedene Aufgabentypen auf einem Arbeitsblatt. So m\u00fcssen Kinder flexibel zwischen Durchstreichen, Bild-Zahl-Aufgaben und Subtrahend-Finden wechseln. Das f\u00f6rdert Anpassungsf\u00e4higkeit und verhindert mechanisches L\u00f6sen. Perfekt f\u00fcr leistungsheterogene Klassen.',
+      },
+      {
+        id: 'faq-13',
+        question: 'Kann ich eigene Bilder f\u00fcr die Subtraktionsaufgaben verwenden?',
+        answer: 'Ja, laden Sie eigene Bilder \u00fcber die Upload-Funktion hoch. Der Generator akzeptiert JPEG, PNG und GIF. Klassenfotos oder saisonale Motive personalisieren die Arbeitsbl\u00e4tter. Kombinieren Sie eigene Bilder mit Motiven aus der Bibliothek f\u00fcr abwechslungsreiche Subtraktions\u00fcbungen.',
+      },
+      {
+        id: 'faq-14',
+        question: 'Wie kann ich Subtraktions\u00fcbungen mit anderen Generatoren kombinieren?',
+        answer: 'Ihr Vollzugriff-Abonnement enth\u00e4lt 33 Generatoren. Kombinieren Sie Subtraktion mit Additions-Arbeitsbl\u00e4ttern f\u00fcr umfassendes Rechentraining. Erg\u00e4nzen Sie mit Mathe-R\u00e4tseln f\u00fcr visuelles Probleml\u00f6sen oder Malvorlagen als Belohnung nach dem Rechnen.',
+      },
+      {
+        id: 'faq-15',
+        question: 'In welchen Sprachen funktioniert der Subtraktion-Generator?',
+        answer: 'Die Benutzeroberfl\u00e4che und Bildnamen sind in 11 Sprachen verf\u00fcgbar. Die Subtraktionsaufgaben selbst arbeiten mit Bildern und Zahlen, sind also sprachunabh\u00e4ngig. Das macht den Generator universell einsetzbar f\u00fcr mehrsprachige Klassen und internationale Schulen.',
+      },
+      {
+        id: 'faq-16',
+        question: 'Was kostet das Vollzugriff-Abonnement?',
+        answer: 'Das Vollzugriff-Abonnement kostet 240\u20ac pro Jahr oder 25\u20ac pro Monat und enth\u00e4lt alle 33 Generatoren. Dazu geh\u00f6ren kommerzielle Lizenz f\u00fcr den Verkauf auf Teachers Pay Teachers und Eduki, \u00fcber 3000 Bilder, 11 Sprachen und automatische L\u00f6sungsbl\u00e4tter.',
+      },
+      {
+        id: 'faq-17',
+        question: 'Welchen Zahlenbereich kann ich f\u00fcr die Subtraktionsaufgaben einstellen?',
+        answer: 'Der Zahlenbereich l\u00e4sst sich von 2 bis 20 frei einstellen. Definieren Sie Minimum und Maximum passend zur Klassenstufe. F\u00fcr Vorsch\u00fcler empfehlen wir 2-5, f\u00fcr Erstkl\u00e4ssler 5-10 und f\u00fcr Zweitkl\u00e4ssler den vollen Bereich bis 20. Der Generator erzeugt automatisch passende Aufgaben.',
+      },
+      {
+        id: 'faq-18',
+        question: 'Eignen sich die Subtraktions\u00fcbungen f\u00fcr Kinder mit F\u00f6rderbedarf?',
+        answer: 'Ja, der bildbasierte Durchstreich-Modus ist besonders zug\u00e4nglich f\u00fcr Kinder mit F\u00f6rderbedarf. Das visuelle Abz\u00e4hlen macht Subtraktion greifbar. Gro\u00dfe Bilder und klare Strukturen erleichtern das Verst\u00e4ndnis. Die einstellbare Schwierigkeit erm\u00f6glicht individuelle Anpassung an jedes Kind.',
+      },
+      {
+        id: 'faq-19',
+        question: 'Wie passen die Subtraktions\u00fcbungen zum deutschen Lehrplan?',
+        answer: 'Der einstellbare Zahlenraum und die verschiedenen \u00dcbungsmodi decken die Lehrplanvorgaben f\u00fcr Vorschule bis 2. Klasse ab. Durchstreichen entspricht dem handlungsorientierten Mathematikunterricht der Rahmenl\u00e4hrpl\u00e4ne. Die Progression von einfach bis schwer unterst\u00fctzt systematischen Kompetenzaufbau.',
+      },
+      {
+        id: 'faq-20',
+        question: 'Kann ich Subtraktion-Arbeitsbl\u00e4tter zu einem \u00dcbungsheft zusammenstellen?',
+        answer: 'Ja, erstellen Sie Arbeitsbl\u00e4tter mit verschiedenen \u00dcbungsmodi und Schwierigkeitsstufen f\u00fcr ein vielseitiges \u00dcbungsheft. F\u00fcgen Sie L\u00f6sungsbl\u00e4tter zur Selbstkontrolle hinzu. Mit der kommerziellen Lizenz d\u00fcrfen Sie die Hefte auf Teachers Pay Teachers, Eduki oder Etsy verkaufen.',
+      },
     ],
 
   },

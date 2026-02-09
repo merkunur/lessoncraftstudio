@@ -237,6 +237,71 @@ Laden Sie den Lösungsschlüssel separat für Lehrerreferenz herunter. Der Lösu
         question: 'Kann ich das Layout des Kreuzwortr\u00e4tsels nach der Erstellung anpassen?',
         answer: 'Ja, Sie k\u00f6nnen das gesamte Gitter und einzelne Bildhinweise verschieben, den Titel bearbeiten und eigene Textelemente wie Name- und Datumsfelder hinzuf\u00fcgen. Dekorative Hintergr\u00fcnde und Rahmen machen die Vorschule Arbeitsbl\u00e4tter noch ansprechender f\u00fcr junge Lerner.',
       },
+      {
+        id: 'faq-8',
+        question: 'Kann ich den Bilderkreuzwortr\u00e4tsel-Generator kostenlos testen?',
+        answer: 'Ja, Sie k\u00f6nnen den Generator kostenlos und ohne Anmeldung ausprobieren. Erstellen Sie Ihr erstes Bilderkreuzwortr\u00e4tsel und sehen Sie das Ergebnis auf dem Bildschirm. Kostenlose Downloads enthalten ein Wasserzeichen. Das Vollzugriff-Abonnement schaltet wasserzeichenfreie PDF-Downloads frei.',
+      },
+      {
+        id: 'faq-9',
+        question: 'Wie gro\u00df ist das Kreuzwortr\u00e4tsel-Gitter?',
+        answer: 'Der Generator erstellt automatisch ein 15x15 Gitter, in dem die 8 ausgew\u00e4hlten W\u00f6rter mit maximalen \u00dcberschneidungen platziert werden. Das Gitter wird nach der Generierung auf der Arbeitsfl\u00e4che angezeigt und kann in Gr\u00f6\u00dfe und Position frei angepasst werden.',
+      },
+      {
+        id: 'faq-10',
+        question: 'Wie f\u00f6rdern Bilderkreuzwortr\u00e4tsel das Vokabellernen?',
+        answer: 'Kinder verbinden Bilder mit der korrekten Schreibweise des Wortes. Dieser multimodale Ansatz \u2014 sehen, erkennen, schreiben \u2014 verankert Vokabeln besser als reines Auswendiglernen. Die Kreuzwort-\u00dcberschneidungen geben zus\u00e4tzliche Buchstabenhinweise und unterst\u00fctzen die Rechtschreibung.',
+      },
+      {
+        id: 'faq-11',
+        question: 'Eignen sich die Kreuzwortr\u00e4tsel f\u00fcr den DaF- und DaZ-Unterricht?',
+        answer: 'Ja, die 11-Sprachen-Unterst\u00fctzung macht den Generator ideal f\u00fcr DaF- und DaZ-Unterricht. Erstellen Sie Kreuzwortr\u00e4tsel mit deutschen Bildnamen f\u00fcr Vokabel\u00fcbungen. Die visuelle Verbindung zwischen Bild und Wort hilft Sprachanf\u00e4ngern beim Wortschatzerwerb.',
+      },
+      {
+        id: 'faq-12',
+        question: 'Welche Seitenformate werden unterst\u00fctzt?',
+        answer: 'Der Generator bietet A4 Hochformat und Letter Hochformat als Seitenformate. W\u00e4hlen Sie das passende Format vor der Generierung. Dekorative Hintergr\u00fcnde und Rahmen passen sich automatisch an das gew\u00e4hlte Format an. Export erfolgt in professioneller 300 DPI Qualit\u00e4t.',
+      },
+      {
+        id: 'faq-13',
+        question: 'Wie spare ich Druckkosten bei den Kreuzwortr\u00e4tseln?',
+        answer: 'Aktivieren Sie die Graustufen-Option vor dem Download, um Farbdruckkosten zu reduzieren. Die Bilderhinweise bleiben auch in Schwarz-Wei\u00df klar erkennbar. F\u00fcr gro\u00dfe Klassens\u00e4tze empfehlen wir das PDF-Format f\u00fcr optimale Druckqualit\u00e4t.',
+      },
+      {
+        id: 'faq-14',
+        question: 'Was kostet das Vollzugriff-Abonnement?',
+        answer: 'Das Vollzugriff-Abonnement kostet 240\u20ac pro Jahr und beinhaltet unbegrenzte Arbeitsblatterstellung mit allen 33 Generatoren. Dazu geh\u00f6ren kommerzielle Lizenz, \u00fcber 3000 Bilder, 11 Sprachen und automatische L\u00f6sungsbl\u00e4tter. Keine zus\u00e4tzlichen Kosten pro Arbeitsblatt.',
+      },
+      {
+        id: 'faq-15',
+        question: 'Kann ich eigene Bilder f\u00fcr die Kreuzwortr\u00e4tsel verwenden?',
+        answer: 'Sie w\u00e4hlen aus \u00fcber 3000 vorhandenen Bildern in der Bibliothek. Die individuelle Bildauswahl erm\u00f6glicht die Erstellung themen\u00fcbergreifender Kreuzwortr\u00e4tsel. Durchsuchen Sie Kategorien wie Tiere, Essen, Fahrzeuge und mehr f\u00fcr Ihr Arbeitsblatt.',
+      },
+      {
+        id: 'faq-16',
+        question: 'Kann ich die Schwierigkeit der Kreuzwortr\u00e4tsel anpassen?',
+        answer: 'Die Schwierigkeit ergibt sich aus der Wortl\u00e4nge und den gew\u00e4hlten Themen. Einfache W\u00f6rter aus dem Tier-Thema eignen sich f\u00fcr Leseanf\u00e4nger. Komplexere W\u00f6rter aus mehreren Kategorien fordern \u00e4ltere Sch\u00fcler. Der Algorithmus maximiert \u00dcberschneidungen f\u00fcr zus\u00e4tzliche Hilfestellung.',
+      },
+      {
+        id: 'faq-17',
+        question: 'Wie kann ich Bilderkreuzwortr\u00e4tsel mit anderen Generatoren kombinieren?',
+        answer: 'Ihr Vollzugriff-Abonnement enth\u00e4lt 33 Generatoren. Erstellen Sie thematische Lernpakete mit Kreuzwortr\u00e4tsel, Wortsuche, Zuordnungs\u00fcbungen und Malvorlagen im selben Thema. Diese Kombination deckt verschiedene Lernstile ab und bietet vielseitige \u00dcbungen.',
+      },
+      {
+        id: 'faq-18',
+        question: 'Darf ich die Kreuzwortr\u00e4tsel kommerziell verkaufen?',
+        answer: 'Ja, Ihr Vollzugriff-Abonnement enth\u00e4lt eine kommerzielle Lizenz f\u00fcr den Verkauf auf Teachers Pay Teachers, Eduki, Etsy und Amazon KDP. Erstellen Sie professionelle Arbeitsblatt-Pakete und verkaufen Sie sie ohne zus\u00e4tzliche Lizenzgeb\u00fchren.',
+      },
+      {
+        id: 'faq-19',
+        question: 'Wie kann ich Kreuzwortr\u00e4tsel f\u00fcr verschiedene Leistungsniveaus differenzieren?',
+        answer: 'Erstellen Sie einfache R\u00e4tsel mit kurzen, bekannten W\u00f6rtern f\u00fcr schw\u00e4chere Sch\u00fcler. Verwenden Sie l\u00e4ngere W\u00f6rter und gemischte Themen f\u00fcr leistungsstarke Kinder. Beide Varianten nutzen dasselbe ansprechende Format und k\u00f6nnen als Differenzierungsmaterial nebeneinander eingesetzt werden.',
+      },
+      {
+        id: 'faq-20',
+        question: 'Kann ich mehrere Kreuzwortr\u00e4tsel zu einem Arbeitsheft zusammenstellen?',
+        answer: 'Ja, erstellen Sie beliebig viele thematische Bilderkreuzwortr\u00e4tsel und stellen Sie diese zu einem Arbeitsheft zusammen. Variieren Sie die Themen und f\u00fcgen Sie L\u00f6sungsbl\u00e4tter hinzu. Mit der kommerziellen Lizenz d\u00fcrfen Sie die Hefte auch auf Verkaufsplattformen anbieten.',
+      },
     ],
 
   },

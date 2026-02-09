@@ -237,6 +237,71 @@ Mit dem Basis-Paket für 144 € jährlich erhalten Sie wasserzeichenfreie Downl
         question: 'Was kostet das Basis-Paket f\u00fcr den Mathe-R\u00e4tsel Generator?',
         answer: 'Das Basis-Paket kostet 144\u20ac pro Jahr und beinhaltet unbegrenzte Arbeitsblatterstellung mit allen Schwierigkeitsstufen und Rechenarten. Zus\u00e4tzlich erhalten Sie 10 Arbeitsblatt-Generatoren, \u00fcber 3000 Bilder, 11 Sprachen und eine kommerzielle Lizenz f\u00fcr den Verkauf auf Teachers Pay Teachers.',
       },
+      {
+        id: 'faq-8',
+        question: 'Kann ich den Mathe-R\u00e4tsel Generator kostenlos testen?',
+        answer: 'Ja, Sie k\u00f6nnen den Generator kostenlos und ohne Anmeldung ausprobieren. Erstellen Sie Ihre ersten Mathe-R\u00e4tsel und sehen Sie das Ergebnis auf dem Bildschirm. Kostenlose Downloads enthalten ein Wasserzeichen. Das Basis-Paket schaltet wasserzeichenfreie Downloads frei.',
+      },
+      {
+        id: 'faq-9',
+        question: 'Welche Rechenarten sind bei den Mathe-R\u00e4tseln verf\u00fcgbar?',
+        answer: 'Sie k\u00f6nnen zwischen reiner Addition, reiner Subtraktion oder einer Kombination aus Addition und Subtraktion w\u00e4hlen. F\u00fcr Vorschulkinder empfehlen wir reine Addition. Fortgeschrittene Grundsch\u00fcler profitieren von gemischten Rechenarten f\u00fcr mehr Herausforderung.',
+      },
+      {
+        id: 'faq-10',
+        question: 'Wie viele Aufgaben passen auf ein Arbeitsblatt?',
+        answer: 'Sie k\u00f6nnen zwischen 1 und 6 Mathe-R\u00e4tsel pro Arbeitsblatt w\u00e4hlen. F\u00fcr Vorschulkinder empfehlen sich 1-2 Aufgaben f\u00fcr konzentriertes Arbeiten. F\u00fcr ge\u00fcbte Grundsch\u00fcler bieten 4-6 R\u00e4tsel pro Seite intensive \u00dcbungsm\u00f6glichkeiten.',
+      },
+      {
+        id: 'faq-11',
+        question: 'Welche Seitenformate werden unterst\u00fctzt?',
+        answer: 'Der Generator unterst\u00fctzt A4 Hochformat und Querformat sowie Letter-Format. W\u00e4hlen Sie das passende Format vor der Generierung. Alle Formate exportieren in professioneller 300 DPI Druckqualit\u00e4t. Die Aufgaben passen sich automatisch an das gew\u00e4hlte Seitenformat an.',
+      },
+      {
+        id: 'faq-12',
+        question: 'Warum sind visuelle Mathe-R\u00e4tsel besser als reine Zahlenaufgaben?',
+        answer: 'Visuelle Mathe-R\u00e4tsel mit Bildsymbolen sprechen mehrere Sinne an und machen abstraktes Rechnen greifbar. Kinder m\u00fcssen logisch denken und Muster erkennen, statt nur auswendig zu rechnen. Bildgest\u00fctztes Lernen erh\u00f6ht die mathematische Verst\u00e4ndnistiefe deutlich.',
+      },
+      {
+        id: 'faq-13',
+        question: 'Kann ich eigene Bilder als Symbole f\u00fcr die R\u00e4tsel verwenden?',
+        answer: 'Ja, laden Sie eigene Bilder \u00fcber die Upload-Funktion hoch. Klassenfotos, Maskottchen oder thematische Grafiken machen die Mathe-R\u00e4tsel pers\u00f6nlicher. Kombinieren Sie hochgeladene Bilder mit Motiven aus der Bibliothek f\u00fcr einzigartige Arbeitsbl\u00e4tter.',
+      },
+      {
+        id: 'faq-14',
+        question: 'Wie kann ich Mathe-R\u00e4tsel mit anderen Generatoren kombinieren?',
+        answer: 'Ihr Basis-Paket enth\u00e4lt 10 Generatoren, die zusammenarbeiten. Erg\u00e4nzen Sie Mathe-R\u00e4tsel mit Additions-Arbeitsbl\u00e4ttern f\u00fcr verschiedene \u00dcbungsformate. Kombinieren Sie mit Sudoku f\u00fcr Logik-Training oder Malvorlagen f\u00fcr kreative Pausen zwischen den Rechenaufgaben.',
+      },
+      {
+        id: 'faq-15',
+        question: 'Unterst\u00fctzt der Generator verschiedene Sprachen?',
+        answer: 'Ja, die Benutzeroberfl\u00e4che und Bildnamen sind in 11 Sprachen verf\u00fcgbar. Die Mathe-R\u00e4tsel selbst sind sprachunabh\u00e4ngig, da sie mit Bildsymbolen und Zahlen arbeiten. Das macht sie universell einsetzbar f\u00fcr mehrsprachige Klassen und internationale Schulen.',
+      },
+      {
+        id: 'faq-16',
+        question: 'Darf ich die Mathe-R\u00e4tsel kommerziell verkaufen?',
+        answer: 'Ja, das Basis-Paket enth\u00e4lt eine kommerzielle Lizenz f\u00fcr den Verkauf auf Teachers Pay Teachers, Eduki und anderen Plattformen. Erstellen Sie professionelle Mathe-Arbeitsblatt-Pakete und verkaufen Sie sie ohne zus\u00e4tzliche Lizenzgeb\u00fchren. Unbegrenzte Downloads inklusive.',
+      },
+      {
+        id: 'faq-17',
+        question: 'Wie setze ich Mathe-R\u00e4tsel zur Differenzierung im Unterricht ein?',
+        answer: 'Erstellen Sie R\u00e4tsel mit unterschiedlichen Schwierigkeitsgraden f\u00fcr verschiedene Leistungsniveaus. Nutzen Sie 2 Symbole und kleine Zahlenbereiche f\u00fcr schw\u00e4chere Sch\u00fcler. Verwenden Sie 4 Symbole mit gemischten Rechenarten f\u00fcr leistungsstarke Kinder. So kann jedes Kind auf seinem Niveau arbeiten.',
+      },
+      {
+        id: 'faq-18',
+        question: 'Wie spare ich Druckkosten bei den Mathe-Arbeitsbl\u00e4ttern?',
+        answer: 'Aktivieren Sie die Graustufen-Option vor dem Download, um Farbdruckkosten zu reduzieren. Die Bildsymbole bleiben auch in Schwarz-Wei\u00df klar erkennbar. Das PDF-Format bietet die beste Druckqualit\u00e4t. Drucken Sie beliebig viele Kopien f\u00fcr Ihre Klasse.',
+      },
+      {
+        id: 'faq-19',
+        question: 'Sind die Mathe-R\u00e4tsel an den deutschen Lehrplan angepasst?',
+        answer: 'Die R\u00e4tsel lassen sich an jeden Lehrplan anpassen. Der einstellbare Zahlenraum entspricht den Lehrplanvorgaben f\u00fcr Vorschule und Grundschule. Die Schwierigkeitsstufen decken den Bereich von einfacher Addition bis zu komplexen Aufgaben mit Addition und Subtraktion ab.',
+      },
+      {
+        id: 'faq-20',
+        question: 'Eignen sich die Mathe-R\u00e4tsel f\u00fcr Kinder mit F\u00f6rderbedarf?',
+        answer: 'Ja, der visuelle Ansatz mit Bildsymbolen ist besonders hilfreich f\u00fcr Kinder mit F\u00f6rderbedarf. Die einstellbare Schwierigkeit erm\u00f6glicht individuelle Anpassung. Gro\u00dfe Bilder und klare Strukturen erleichtern das Verst\u00e4ndnis. Die R\u00e4tsel f\u00f6rdern logisches Denken auf spielerische Weise.',
+      },
     ],
 
   },

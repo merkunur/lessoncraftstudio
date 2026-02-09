@@ -239,6 +239,71 @@ Mit dem Basis-Paket für 144 € jährlich erhalten Sie wasserzeichenfreie Downl
         question: 'Darf ich die erstellten Malvorlagen kommerziell verkaufen?',
         answer: 'Ja, das Basis-Paket f\u00fcr 144\u20ac j\u00e4hrlich enth\u00e4lt eine kommerzielle Lizenz f\u00fcr den Verkauf auf Teachers Pay Teachers, Etsy und anderen Plattformen. Sie erhalten unbegrenzte wasserzeichenfreie Downloads ohne zus\u00e4tzliche Geb\u00fchren pro Arbeitsblatt.',
       },
+      {
+        id: 'faq-8',
+        question: 'Kann ich den Malvorlagen-Generator kostenlos testen?',
+        answer: 'Ja, Sie k\u00f6nnen den Generator kostenlos und ohne Anmeldung ausprobieren. Erstellen Sie Ihre ersten Malvorlagen und sehen Sie das Ergebnis direkt auf dem Bildschirm. Kostenlose Downloads enthalten ein Wasserzeichen. Mit dem Basis-Paket erhalten Sie wasserzeichenfreie Ausmalbilder in voller Qualit\u00e4t.',
+      },
+      {
+        id: 'faq-9',
+        question: 'Wie viele Bilder kann ich auf einem Arbeitsblatt platzieren?',
+        answer: 'Es gibt keine feste Begrenzung \u2014 Sie k\u00f6nnen ein einzelnes gro\u00dfes Bild f\u00fcr einfache Ausmalbilder oder mehrere kleinere Bilder f\u00fcr komplexere Arbeitsbl\u00e4tter verwenden. Die Drag-and-Drop-Arbeitsfl\u00e4che erm\u00f6glicht freie Positionierung und Gr\u00f6\u00dfenanpassung aller Elemente auf der Seite.',
+      },
+      {
+        id: 'faq-10',
+        question: 'Welche Seitenformate stehen f\u00fcr die Malvorlagen zur Verf\u00fcgung?',
+        answer: 'Der Generator unterst\u00fctzt A4 Hochformat und Querformat sowie Letter-Format f\u00fcr US-Schulen. W\u00e4hlen Sie das passende Format vor der Erstellung. Alle Formate exportieren in professioneller 300 DPI Druckqualit\u00e4t als PDF oder JPEG Datei.',
+      },
+      {
+        id: 'faq-11',
+        question: 'Eignen sich die Malvorlagen f\u00fcr therapeutische Zwecke?',
+        answer: 'Ja, Ergotherapeuten und Logop\u00e4den nutzen die Ausmalbilder f\u00fcr Feinmotorik-Training und sprachtherapeutische \u00dcbungen. Die Kombination aus Ausmalen und optionalen Schreibelementen f\u00f6rdert die Hand-Auge-Koordination. Bilder lassen sich thematisch an die Therapieziele anpassen.',
+      },
+      {
+        id: 'faq-12',
+        question: 'Kann ich Malvorlagen f\u00fcr saisonale Themen und Feiertage erstellen?',
+        answer: 'Ja, die Bildbibliothek enth\u00e4lt saisonale Kategorien wie Ostern, Weihnachten, Halloween und Jahreszeiten. W\u00e4hlen Sie passende Bilder und kombinieren Sie sie mit thematischen Rahmen. So entstehen aktuelle Ausmalbilder f\u00fcr jeden Anlass im Schuljahr.',
+      },
+      {
+        id: 'faq-13',
+        question: 'Unterst\u00fctzt der Generator verschiedene Sprachen f\u00fcr die Beschriftungen?',
+        answer: 'Ja, der Malvorlagen-Generator unterst\u00fctzt 11 Sprachen, darunter Deutsch, Englisch, Franz\u00f6sisch, Spanisch und weitere. Die Bildnamen und Vokabellabels werden automatisch in der gew\u00e4hlten Sprache angezeigt. Ideal f\u00fcr mehrsprachige Klassen und DaF-Unterricht.',
+      },
+      {
+        id: 'faq-14',
+        question: 'Wie kann ich Malvorlagen mit anderen Generatoren kombinieren?',
+        answer: 'Ihr Basis-Paket Abonnement enth\u00e4lt 10 Generatoren, die perfekt zusammenarbeiten. Kombinieren Sie Ausmalbilder mit Schwung\u00fcbungen f\u00fcr Feinmotorik-Training. Erstellen Sie Wortsuche-R\u00e4tsel oder Zuordnungs\u00fcbungen im selben Thema f\u00fcr abwechslungsreiche Lernpakete.',
+      },
+      {
+        id: 'faq-15',
+        question: 'Welche Schriftarten sind f\u00fcr Text auf den Malvorlagen verf\u00fcgbar?',
+        answer: 'Der Generator bietet sechs kindgerechte Schriftarten f\u00fcr \u00dcberschriften, Anweisungen und Vokabellabels. Passen Sie Schriftgr\u00f6\u00dfe, Farbe und Position frei an. Texte lassen sich auch auf Malvorlagen platzieren, um Buchstaben lernen mit Ausmalaktivit\u00e4ten zu verbinden.',
+      },
+      {
+        id: 'faq-16',
+        question: 'Kann ich die Bilder in der Bibliothek nach Kategorien durchsuchen?',
+        answer: 'Ja, die \u00fcber 3000 Bilder sind in thematische Kategorien wie Tiere, Fahrzeuge, Natur, Essen und Berufe organisiert. Nutzen Sie zus\u00e4tzlich die Suchfunktion f\u00fcr spezifische Motive. Multi-Upload erm\u00f6glicht das gleichzeitige Hochladen mehrerer eigener Bilder.',
+      },
+      {
+        id: 'faq-17',
+        question: 'Wie ist die Druckqualit\u00e4t der erstellten Malvorlagen?',
+        answer: 'Alle Malvorlagen werden in professioneller 300 DPI Aufl\u00f6sung exportiert. Das garantiert scharfe Linien und klare Konturen auf jedem Drucker. Die Qualit\u00e4t entspricht professionellen Verlagsstandards und ist perfekt f\u00fcr den Klasseneinsatz.',
+      },
+      {
+        id: 'faq-18',
+        question: 'Kann ich mit den Malvorlagen ein Arbeitsheft zusammenstellen?',
+        answer: 'Ja, erstellen Sie beliebig viele thematische Malvorlagen und stellen Sie diese zu einem Arbeitsheft zusammen. Mit der kommerziellen Lizenz d\u00fcrfen Sie die Hefte auch auf Teachers Pay Teachers oder Eduki verkaufen. Jede Seite l\u00e4sst sich individuell gestalten.',
+      },
+      {
+        id: 'faq-19',
+        question: 'Wie unterscheiden sich die Malvorlagen von normalen Ausmalbildern aus dem Internet?',
+        answer: 'Unsere Malvorlagen sind speziell f\u00fcr den Bildungseinsatz konzipiert. Sie k\u00f6nnen Lernelemente wie Buchstaben, W\u00f6rter und Handschrift-\u00dcbungslinien integrieren. Die professionelle Druckqualit\u00e4t und flexible Gestaltung \u00fcbertreffen kostenlose Internet-Vorlagen deutlich.',
+      },
+      {
+        id: 'faq-20',
+        question: 'Sind die erstellten Malvorlagen lehrplankonform?',
+        answer: 'Die Malvorlagen lassen sich an jeden Lehrplan anpassen. W\u00e4hlen Sie Bilder passend zu Ihren Unterrichtsthemen und f\u00fcgen Sie lehrplanbezogene Texte hinzu. Die Kombination aus visuellen Elementen und optionalen Schreib\u00fcbungen unterst\u00fctzt die Bildungsstandards f\u00fcr Vorschule und Grundschule.',
+      },
     ],
 
   },

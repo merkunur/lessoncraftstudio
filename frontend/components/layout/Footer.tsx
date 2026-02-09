@@ -246,13 +246,6 @@ export function Footer() {
                     </Link>
                   </li>
                 )}
-                {sections.support.links?.faq && (
-                  <li>
-                    <Link href={`/${locale}/faq`} className="hover:text-white">
-                      {sections.support.links.faq}
-                    </Link>
-                  </li>
-                )}
               </ul>
             </div>
           )}

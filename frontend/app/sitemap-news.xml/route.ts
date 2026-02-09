@@ -3,7 +3,7 @@
  * @see https://developers.google.com/search/docs/crawling-indexing/sitemaps/news-sitemap
  *
  * Note: Posts must be published within the last 2 days for Google News,
- * but we include posts from the last 7 days for general freshness signals.
+ * but we include posts from the last 30 days for general freshness signals.
  */
 
 import { prisma } from '@/lib/prisma';
@@ -45,16 +45,16 @@ const localeToLanguage: Record<string, string> = {
 export async function GET() {
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.lessoncraftstudio.com';
 
-  // Get posts from the last 7 days
-  const sevenDaysAgo = new Date();
-  sevenDaysAgo.setDate(sevenDaysAgo.getDate() - 7);
+  // Get posts from the last 30 days to avoid empty sitemaps during quiet periods
+  const thirtyDaysAgo = new Date();
+  thirtyDaysAgo.setDate(thirtyDaysAgo.getDate() - 30);
 
   try {
     const recentPosts = await prisma.blogPost.findMany({
       where: {
         status: 'published',
         createdAt: {
-          gte: sevenDaysAgo,
+          gte: thirtyDaysAgo,
         },
       },
       select: {

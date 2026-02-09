@@ -211,6 +211,7 @@ function BlogPostCard({
     >
       <Link
         href={`/${locale}/blog/${post.slug}`}
+        aria-label={`${readArticleLabel} – ${post.title}`}
         style={{
           textDecoration: 'none',
           display: 'flex',

@@ -226,6 +226,7 @@ export default function AppCard({ app, locale, appName, categoryName }: AppCardP
       <Link
         href={`/${locale}/apps/${getProductSlug(app.id, locale)}`}
         onClick={(e) => e.stopPropagation()}
+        aria-label={`${getLearnMoreLabel()} – ${appName}`}
         className="inline-flex items-center justify-center w-full px-4 py-2 text-sm font-medium text-blue-600 bg-white border border-blue-200 rounded-lg hover:bg-blue-50 hover:border-blue-300 transition-all duration-200 group"
       >
         {getLearnMoreLabel()}

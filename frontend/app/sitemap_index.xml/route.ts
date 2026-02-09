@@ -7,7 +7,8 @@ export const revalidate = 3600; // Revalidate every hour
 
 export async function GET() {
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.lessoncraftstudio.com';
-  const lastMod = new Date().toISOString();
+  // Fixed date to avoid signaling false changes on every request (wastes crawl budget)
+  const lastMod = '2026-02-09T00:00:00.000Z';
 
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">

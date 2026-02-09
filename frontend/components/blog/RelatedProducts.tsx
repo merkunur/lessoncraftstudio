@@ -256,6 +256,7 @@ function ProductCard({
       }}>
         <Link
           href={product.url}
+          aria-label={`${tryFreeLabel} – ${product.name}`}
           style={{
             display: 'inline-flex',
             alignItems: 'center',

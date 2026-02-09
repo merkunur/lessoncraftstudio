@@ -251,8 +251,9 @@ async function scanAppDirectory(language: string, folderName: string): Promise<D
   let files: string[];
   try {
     files = await fs.readdir(dir);
-  } catch {
-    // Directory doesn't exist
+  } catch (err) {
+    // Log missing directories so silent failures become visible in server logs
+    console.error(`[sitemap-images] Cannot read directory ${dir}:`, err);
     return [];
   }
 

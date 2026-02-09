@@ -47,6 +47,13 @@ const defaultProps = {
   },
 };
 
+// Localized "Explore" verb for card hover text
+const EXPLORE_LABELS: Record<string, string> = {
+  en: 'Explore', de: 'Entdecke', fr: 'D\u00e9couvrir', es: 'Explorar',
+  it: 'Esplora', pt: 'Explorar', nl: 'Ontdek', sv: 'Utforska',
+  da: 'Udforsk', no: 'Utforsk', fi: 'Tutustu'
+};
+
 // Category colors for variety
 const categoryColors: Record<string, { bg: string; text: string }> = {
   'Math': { bg: 'bg-blue-100', text: 'text-blue-700' },
@@ -155,6 +162,7 @@ export default function RelatedApps({
                 <motion.div key={app.id} variants={cardVariants}>
                   <Link
                     href={`/${locale}/apps/${app.slug}`}
+                    aria-label={`${EXPLORE_LABELS[locale] || 'Explore'} ${app.name}`}
                     className="group block h-full"
                   >
                     <div className="relative h-full bg-white rounded-2xl p-6 border border-slate-200 shadow-sm hover:shadow-xl hover:shadow-slate-200/60 hover:border-indigo-200 transition-all duration-300 hover:-translate-y-1">
@@ -186,7 +194,7 @@ export default function RelatedApps({
 
                       {/* Arrow indicator */}
                       <div className="mt-4 flex items-center text-sm font-medium text-amber-700 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                        <span>Explore {app.name}</span>
+                        <span>{EXPLORE_LABELS[locale] || 'Explore'} {app.name}</span>
                         <svg
                           className="w-4 h-4 ml-1 transform group-hover:translate-x-1 transition-transform"
                           fill="none"
@@ -226,6 +234,7 @@ export default function RelatedApps({
                   >
                     <Link
                       href={`/${locale}/apps/${app.slug}`}
+                      aria-label={`${EXPLORE_LABELS[locale] || 'Explore'} ${app.name}`}
                       className="group block h-full"
                     >
                       <div className="h-full bg-white rounded-2xl p-5 border border-slate-200 shadow-sm">

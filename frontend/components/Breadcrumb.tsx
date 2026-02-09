@@ -23,7 +23,7 @@ const HOME_LABELS: Record<string, string> = {
   de: 'Startseite',
   fr: 'Accueil',
   es: 'Inicio',
-  pt: 'Inicio',
+  pt: 'In\u00edcio',
   it: 'Home',
   nl: 'Home',
   sv: 'Hem',

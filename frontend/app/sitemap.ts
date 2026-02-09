@@ -187,7 +187,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     // Continue without blog posts if database is unavailable
   }
 
-  // Generate blog category archive pages
+  // Generate blog category archive pages — only for locale+category combos with posts
   const categoryRoutes: MetadataRoute.Sitemap = [];
   const categories = [
     'teaching-resources',
@@ -199,15 +199,44 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     'seasonal-content'
   ];
 
-  for (const locale of locales) {
-    for (const category of categories) {
-      // Build hreflang alternates — blog categories exist in all locales
-      const blogCatAlternates: Record<string, string> = {};
-      for (const lang of locales) {
-        blogCatAlternates[getHreflangCode(lang)] = `${baseUrl}/${lang}/blog/category/${category}`;
-      }
-      blogCatAlternates['x-default'] = `${baseUrl}/en/blog/category/${category}`;
+  // Query which categories have published posts, and check translations per locale
+  // to avoid including empty category pages in the sitemap
+  let categoryPostCounts: { category: string; translations: any }[] = [];
+  try {
+    categoryPostCounts = await prisma.blogPost.findMany({
+      where: { status: 'published', category: { in: categories } },
+      select: { category: true, translations: true },
+    });
+  } catch (error) {
+    console.error('Error fetching blog category data for sitemap:', error);
+  }
 
+  // Build a set of "category:locale" pairs that have at least 1 post with a translation
+  const categoryLocaleSet = new Set<string>();
+  for (const post of categoryPostCounts) {
+    const translations = post.translations as any;
+    for (const locale of locales) {
+      if (translations?.[locale]?.title && translations?.[locale]?.content) {
+        categoryLocaleSet.add(`${post.category}:${locale}`);
+      }
+    }
+  }
+
+  for (const category of categories) {
+    // Determine which locales have posts for this category
+    const availableLocales = locales.filter(locale => categoryLocaleSet.has(`${category}:${locale}`));
+    if (availableLocales.length === 0) continue;
+
+    // Build hreflang alternates only for locales that have posts
+    const blogCatAlternates: Record<string, string> = {};
+    for (const lang of availableLocales) {
+      blogCatAlternates[getHreflangCode(lang)] = `${baseUrl}/${lang}/blog/category/${category}`;
+    }
+    blogCatAlternates['x-default'] = availableLocales.includes('en')
+      ? `${baseUrl}/en/blog/category/${category}`
+      : `${baseUrl}/${availableLocales[0]}/blog/category/${category}`;
+
+    for (const locale of availableLocales) {
       categoryRoutes.push({
         url: `${baseUrl}/${locale}/blog/category/${category}`,
         lastModified: currentDate,

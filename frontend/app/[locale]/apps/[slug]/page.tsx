@@ -3770,57 +3770,7 @@ export async function generateStaticParams() {
   // Get all valid locale/slug combinations from the central config
   // This ensures each slug is only generated for its correct locale
   // e.g., 'relacionar-fichas' only for 'es', 'matchnings-arbetsblad' only for 'sv'
-  const validParams = getAllProductPageSlugs();
-
-  // Also add legacy app IDs (without -worksheets suffix) for English only
-  // These are for backwards compatibility with old internal links
-  const { SUPPORTED_LOCALES } = await import('@/config/locales');
-  const locales = [...SUPPORTED_LOCALES];
-  const legacyAppIds = [
-    'word-search',
-    'image-addition',
-    'alphabet-train',
-    'coloring',
-    'math-worksheet',
-    'word-scramble',
-    'find-and-count',
-    'matching-app',
-    'drawing-lines',
-    'picture-bingo',
-    'sudoku',
-    'big-small-app',
-    'chart-count-color',
-    'code-addition',
-    'draw-and-color',
-    'find-objects',
-    'grid-match',
-    'image-crossword',
-    'image-cryptogram',
-    'math-puzzle',
-    'missing-pieces',
-    'more-less',
-    'odd-one-out',
-    'pattern-train',
-    'pattern-worksheet',
-    'picture-path',
-    'picture-sort',
-    'prepositions',
-    'shadow-match',
-    'story-dice',
-    'subtraction',
-    'treasure-hunt',
-    'word-guess',
-    'writing-app'
-  ];
-
-  // Add legacy app IDs for all locales (they load the app generator directly)
-  const legacyParams = [];
-  for (const locale of locales) {
-    for (const appId of legacyAppIds) {
-      legacyParams.push({ locale, slug: appId });
-    }
-  }
-
-  // Combine: valid SEO product pages + legacy app IDs
-  return [...validParams, ...legacyParams];
+  // Legacy appIds (e.g., 'image-addition') are NOT included here — they are
+  // handled at runtime by middleware 301 redirects to localized slugs.
+  return getAllProductPageSlugs();
 }

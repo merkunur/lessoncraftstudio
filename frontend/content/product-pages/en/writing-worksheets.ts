@@ -175,7 +175,108 @@ Print your downloaded worksheets on standard printer paper or cardstock. Regular
     sectionDescription: 'Everything you need to know about our writing worksheet generator.',
     showMoreText: 'Show more questions',
     showLessText: 'Show less',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        question: 'What Tracing Modes Does the Writing Worksheet Generator Offer?',
+        answer: 'Four tracing modes provide progressive difficulty for handwriting practice. Trace mode shows fully visible guide letters for students to trace over. Fading Trace mode displays semi-transparent letters that gradually disappear. Guided Copy mode shows the first letter fully and remaining letters faded for partial support. Empty mode provides only writing lines with no letter guides for independent practice.',
+      },
+      {
+        id: '2',
+        question: 'What Font Styles Are Available for Letter Tracing?',
+        answer: 'Five font styles cover different handwriting instruction needs. Print Regular provides standard block letters. Print Regular Arrow adds directional stroke arrows showing letter formation sequence. Print Tracing creates dotted outline letters specifically designed for tracing. Print Tracing Arrow combines dotted outlines with formation arrows. Cursive font supports cursive handwriting instruction for second and third grade students.',
+      },
+      {
+        id: '3',
+        question: 'Can I Choose What Content Students Trace?',
+        answer: 'Four content options control what appears on writing lines. Empty Rows provide blank guided lines for free writing or teacher-directed copy work. Beginning Letter mode auto-extracts the first letter of each selected image for alphabet practice. Whole File Name mode displays complete words for vocabulary tracing. Custom Text mode lets you type any letters, words, or sentences for students to trace.',
+      },
+      {
+        id: '4',
+        question: 'Does the Writing Generator Support Both Upper and Lowercase Letters?',
+        answer: 'Yes, choose between uppercase, lowercase, or title case for all tracing content. Uppercase mode suits early letter introduction when kindergarteners learn capital letters first. Lowercase mode supports the transition to standard writing conventions. Title case capitalizes the first letter for word tracing practice. Switch case settings independently for each row on multi-row worksheets.',
+      },
+      {
+        id: '5',
+        question: 'Can I Include Stroke Practice Patterns for Pre-Writing?',
+        answer: 'Yes, stroke practice patterns help preschoolers develop the motor movements needed for letter writing. Available patterns include vertical lines, horizontal lines, circles, and zig-zag strokes. These pre-writing exercises build the hand control foundations that young children need before attempting letter formation. Include stroke practice rows alongside letter tracing rows on the same worksheet.',
+      },
+      {
+        id: '6',
+        question: 'What Age Groups Benefit from Writing Worksheets?',
+        answer: 'Writing worksheets serve ages 3 through 9 across preschool through third grade. Preschoolers ages 3 to 4 practice stroke patterns and begin letter tracing. Kindergarteners ages 5 to 6 trace uppercase and lowercase letters with guided support. First graders practice word writing with fading guides. Second and third graders develop cursive handwriting using cursive font tracing worksheets.',
+      },
+      {
+        id: '7',
+        question: 'Are Writing Worksheets Appropriate for Kindergarten?',
+        answer: 'Writing worksheets are essential kindergarten tools for developing handwriting skills. Use Trace mode with Print Tracing Arrow font for kindergarten letter introduction. The directional arrows show proper letter formation sequence. Start with uppercase letters, then transition to lowercase as students develop control. Multiple rows per worksheet let kindergarteners practice each letter several times for motor memory development.',
+      },
+      {
+        id: '8',
+        question: 'How Do Arrow Fonts Help Students Learn Letter Formation?',
+        answer: 'Arrow fonts display numbered directional strokes showing exactly how to form each letter. Students follow the numbered arrows in sequence, learning correct stroke order from the start. Proper formation prevents bad habits that become difficult to correct later. The arrows show starting points, stroke directions, and lifting points for each letter, providing explicit instruction without requiring teacher demonstration for every student.',
+      },
+      {
+        id: '9',
+        question: 'Can I Create Multiple Rows with Different Settings?',
+        answer: 'Yes, each worksheet supports multiple independent rows with different settings per row. Create a worksheet where row one shows full tracing guides, row two shows fading guides, and row three provides empty lines. This progressive difficulty within a single worksheet scaffolds students from supported practice to independent writing. Customize content, font, case, and tracing mode separately for each row.',
+      },
+      {
+        id: '10',
+        question: 'How Long Does It Take to Create a Writing Worksheet?',
+        answer: 'Creating one writing worksheet takes 2 to 4 minutes depending on row count and customization. Select font style and tracing mode in seconds. Choose content type and configure case settings. Add additional rows with different settings for progressive practice. The generator builds the complete worksheet with properly spaced writing lines instantly. Download and print immediately.',
+      },
+      {
+        id: '11',
+        question: 'Can I Sell Writing Worksheets I Create?',
+        answer: 'Your Full Access subscription includes commercial licensing for selling writing worksheets on Teachers Pay Teachers, Etsy, Amazon KDP, or your own website. Handwriting practice worksheets are among the highest-demand products on educational marketplaces. Create alphabet tracing bundles, cursive practice packets, or themed writing sets. No attribution or extra licensing fees required.',
+      },
+      {
+        id: '12',
+        question: 'How Do I Print Writing Worksheets with Clear Guide Lines?',
+        answer: 'Download writing worksheets as PDF files at 300 DPI resolution ensuring crisp, visible writing guide lines. The midline, baseline, and descender lines print clearly on both inkjet and laser printers. Select Letter or A4 page size. Tracing letters appear at appropriate transparency levels for each mode. Students can easily see and follow tracing guides while maintaining clear writing line visibility.',
+      },
+      {
+        id: '13',
+        question: 'Can Writing Worksheets Help English Language Learners?',
+        answer: 'Writing worksheets are valuable for English language learners practicing English letter formation. Many ELL students learn letter shapes different from their home language script. Trace mode with arrow fonts provides explicit formation instruction without verbal explanation. The generator supports 11 languages, enabling writing practice in multiple scripts. Custom Text mode lets teachers enter vocabulary from current ESL curriculum units.',
+      },
+      {
+        id: '14',
+        question: 'How Do Writing Worksheets Support Differentiated Instruction?',
+        answer: 'Differentiate writing worksheets using progressive tracing modes. Provide full Trace mode for students developing basic letter formation. Use Fading Trace for students ready to reduce visual support. Assign Guided Copy for students transitioning to independent writing. Challenge advanced students with Empty mode for fully independent practice. Create all four levels for the same content in minutes.',
+      },
+      {
+        id: '15',
+        question: 'What Curriculum Standards Do Writing Worksheets Address?',
+        answer: 'Writing worksheets directly address Common Core ELA standards L.K.1a for printing upper and lowercase letters and W.1-3 standards for handwriting development. Stroke practice patterns support fine motor development standards in early childhood frameworks. Cursive font worksheets address state-specific cursive handwriting requirements. The progressive difficulty model supports scaffolded instruction best practices.',
+      },
+      {
+        id: '16',
+        question: 'Can I Create Cursive Handwriting Worksheets?',
+        answer: 'Yes, select the Cursive font to generate cursive handwriting practice worksheets. Cursive tracing guides show proper letter connections and stroke flow. Use Trace mode for introduction and Fading Trace for gradual release of support. Create worksheets for individual cursive letters, connected words, or full sentences. Cursive worksheets support second and third grade handwriting curriculum requirements.',
+      },
+      {
+        id: '17',
+        question: 'How Do Writing Worksheets Develop Fine Motor Skills?',
+        answer: 'Writing worksheets systematically build fine motor control through progressive tracing activities. Stroke patterns develop basic hand movements. Letter tracing refines pencil control within defined paths. Word writing requires sustained motor coordination across multiple letters. The guided-to-independent progression strengthens hand muscles and builds motor memory for fluent, automatic handwriting production.',
+      },
+      {
+        id: '18',
+        question: 'Can I Upload Custom Images for Writing Worksheets?',
+        answer: 'Yes, upload images alongside writing rows for illustrated handwriting practice. Students see a picture and trace the corresponding word below it. This visual-motor connection reinforces vocabulary while developing handwriting skills. Combine uploaded images with the 3000+ built-in library for varied practice themes that connect writing instruction to current classroom content and student interests.',
+      },
+      {
+        id: '19',
+        question: 'How Do Writing Worksheets Pair with Other Activities?',
+        answer: 'Writing worksheets pair naturally with alphabet train activities for letter learning reinforcement, coloring worksheets for fine motor development, and matching worksheets for letter recognition practice. Students trace letters on writing worksheets, then identify those letters on alphabet trains, creating comprehensive literacy practice that develops both formation and recognition skills simultaneously.',
+      },
+      {
+        id: '20',
+        question: 'Can Writing Worksheets Assess Handwriting Progress?',
+        answer: 'Writing worksheets serve as effective handwriting progress monitoring tools. Administer identical worksheets at regular intervals using Empty mode to assess independent letter formation. Compare letter consistency, sizing, baseline alignment, and spacing over time. Fading Trace mode reveals how much support students still need. Collect dated writing samples to document handwriting development for parent conferences and IEP progress reports.',
+      },
+    ]
     
   },
 

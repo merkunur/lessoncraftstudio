@@ -175,7 +175,108 @@ Save completed worksheets to your device for repeated use. Print unlimited copie
     sectionDescription: 'Everything you need to know about our word guess worksheet generator.',
     showMoreText: 'Show more questions',
     showLessText: 'Show less',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        question: 'How Does the Word Guess Generator Create Spelling Puzzles?',
+        answer: 'The word guess generator shows a picture clue alongside empty letter boxes representing each letter of the word. Students study the image, determine the word it represents, and fill in letter boxes to spell the answer. Depending on difficulty level, some letter boxes contain hints showing certain letters already filled in. This format combines vocabulary identification with spelling production practice.',
+      },
+      {
+        id: '2',
+        question: 'What Difficulty Levels Are Available for Word Guess Worksheets?',
+        answer: 'Four difficulty levels control letter hint quantity. No Clues mode shows all empty boxes for maximum spelling challenge. Easy mode reveals most letters, leaving only one or two blanks. Normal mode shows about half the letters as hints. Tough mode provides just one or two letter hints in an otherwise empty word. Select the difficulty matching your students’ spelling confidence and vocabulary knowledge.',
+      },
+      {
+        id: '3',
+        question: 'Can I Exclude Specific Letters from Appearing as Clues?',
+        answer: 'Yes, the custom letter exclusion field lets you specify which letters should never appear as filled-in hints. Exclude vowels to focus practice on vowel identification. Exclude common letters to emphasize less familiar ones. This advanced feature lets teachers target specific phonics patterns and letter knowledge gaps for each student or instructional group.',
+      },
+      {
+        id: '4',
+        question: 'How Many Puzzles Fit on One Word Guess Worksheet?',
+        answer: 'Customize from 1 to 10 puzzles per worksheet. One to three large puzzles work well for kindergarten with oversized letter boxes and prominent picture clues. Five to six puzzles suit standard first grade practice. Eight to ten puzzles provide extended vocabulary review for older students. The generator automatically uses two-column layout when puzzle count warrants it for efficient page use.',
+      },
+      {
+        id: '5',
+        question: 'Do Word Guess Worksheets Include Answer Keys?',
+        answer: 'Every word guess worksheet generates a complete answer key showing the correctly spelled word for each picture clue. All letter boxes display the full answer for quick grading reference. Teachers use answer keys for efficient assessment. Students self-check at independent practice stations. Print answer keys on separate pages for flexible classroom distribution.',
+      },
+      {
+        id: '6',
+        question: 'What Age Groups Benefit from Word Guess Worksheets?',
+        answer: 'Word guess worksheets serve ages 5 through 10 across kindergarten through fourth grade. Kindergarteners ages 5 to 6 spell three-letter words with Easy difficulty and picture clues. First graders tackle four to five letter words at Normal difficulty. Second through fourth graders challenge themselves with longer words at Tough difficulty. The picture clue format engages visual learners across all age groups.',
+      },
+      {
+        id: '7',
+        question: 'Are Word Guess Worksheets Appropriate for Kindergarten?',
+        answer: 'Word guess worksheets are excellent kindergarten spelling activities when configured with Easy difficulty and short three to four letter words. Kindergarteners identify the picture, determine the word, and fill in one or two missing letters with most already provided as hints. This scaffolded approach builds spelling confidence and letter-sound awareness appropriate for five and six year olds developing early literacy skills.',
+      },
+      {
+        id: '8',
+        question: 'How Do Word Guess Worksheets Build Spelling Skills?',
+        answer: 'Word guess worksheets develop spelling through active letter production rather than passive recognition. Students must recall correct letters and write them in proper sequence to complete each word. The picture clue activates vocabulary knowledge while letter hints provide scaffolding. Progressively reducing hints across difficulty levels builds independent spelling ability through gradual release of support.',
+      },
+      {
+        id: '9',
+        question: 'Can I Create Custom Word List Puzzles Without Images?',
+        answer: 'Yes, Custom Word List mode lets you type any vocabulary words for text-only word guess puzzles without picture clues. Use this mode for spelling tests, content-area vocabulary review, or sight word practice where images are unnecessary. Students rely entirely on context or prior knowledge to determine and spell each word. This mode works well for older students and formal spelling assessment.',
+      },
+      {
+        id: '10',
+        question: 'How Long Does It Take to Create a Word Guess Worksheet?',
+        answer: 'Creating one word guess worksheet takes under 3 minutes. Select theme images or type custom words. Choose difficulty level and configure optional settings. The generator builds all puzzles with appropriately placed letter hints instantly. Review the layout and download. Create a full week of differentiated spelling practice in approximately 15 minutes.',
+      },
+      {
+        id: '11',
+        question: 'Can I Sell Word Guess Worksheets I Create?',
+        answer: 'Your Full Access subscription includes commercial licensing for selling word guess worksheets on Teachers Pay Teachers, Etsy, Amazon KDP, or your own website. Spelling puzzle worksheets appeal to teachers seeking engaging alternatives to traditional spelling practice. Create themed vocabulary bundles or progressive difficulty packs. No attribution or extra licensing fees required.',
+      },
+      {
+        id: '12',
+        question: 'How Do I Print Word Guess Worksheets?',
+        answer: 'Download word guess worksheets as PDF files at 300 DPI professional print quality. Letter boxes print with crisp borders for easy student writing. Select Letter or A4 page size. Enable grayscale mode to save ink while keeping picture clues and letter boxes clearly visible. Both inkjet and laser printers produce clean results with readable letter hint text.',
+      },
+      {
+        id: '13',
+        question: 'Can Word Guess Worksheets Support English Language Learners?',
+        answer: 'Word guess worksheets with picture clues are excellent vocabulary builders for English language learners. Images provide visual context for word identification while letter boxes guide correct English spelling. Easy difficulty with generous letter hints scaffolds the spelling challenge. The generator supports 11 languages for creating word guess activities in students’ home language as a bridge to English spelling practice.',
+      },
+      {
+        id: '14',
+        question: 'How Do Word Guess Worksheets Support Differentiated Instruction?',
+        answer: 'Differentiate word guess worksheets by adjusting difficulty level, word length, and letter exclusions. Provide Easy difficulty with short words for students developing spelling foundations. Use Normal difficulty with grade-level vocabulary for on-level practice. Challenge advanced students with Tough difficulty and longer words. Custom letter exclusions let you target specific phonics patterns for individual student needs.',
+      },
+      {
+        id: '15',
+        question: 'What Curriculum Standards Do Word Guess Worksheets Address?',
+        answer: 'Word guess worksheets address Common Core ELA standards for spelling, phonics, and vocabulary. The letter completion activity supports encoding standards where students spell words using learned patterns. Picture clue identification addresses vocabulary acquisition standards. The progressive difficulty model aligns with scaffolded instruction best practices recommended by literacy research for spelling development.',
+      },
+      {
+        id: '16',
+        question: 'Can I Choose Uppercase or Lowercase for Letter Boxes?',
+        answer: 'Yes, select uppercase or lowercase display for all letter boxes and hints. Uppercase mode suits early kindergarten when students are learning capital letters. Lowercase mode matches standard reading and writing conventions for first grade and beyond. The case setting applies to both hint letters and the boxes where students write their answers for consistent formatting throughout the worksheet.',
+      },
+      {
+        id: '17',
+        question: 'How Do Word Guess Worksheets Compare to Word Scramble Activities?',
+        answer: 'Word guess worksheets present empty boxes with optional letter hints while word scramble worksheets present all letters in jumbled order. Word guess requires spelling recall since not all letters are provided. Word scramble requires letter reordering from a complete set. Word guess focuses on spelling production while word scramble emphasizes letter pattern recognition. Both formats complement each other in comprehensive spelling instruction.',
+      },
+      {
+        id: '18',
+        question: 'Can I Upload Custom Images for Word Guess Puzzles?',
+        answer: 'Yes, upload unlimited custom images as picture clues for word guess puzzles. Assign vocabulary labels to uploaded images for the generator to create letter box puzzles. Use classroom photos, curriculum-specific illustrations, or content-area images. Combine uploaded and library images on the same worksheet for varied vocabulary practice connected to current classroom learning.',
+      },
+      {
+        id: '19',
+        question: 'How Do Word Guess Worksheets Pair with Other Activities?',
+        answer: 'Word guess worksheets pair naturally with word scramble and word search activities for multi-format vocabulary practice. Students guess and spell words on word guess worksheets, find the same words hidden in word searches, then unscramble the same vocabulary in scramble puzzles. This triple-exposure approach strengthens spelling and vocabulary retention through varied practice formats.',
+      },
+      {
+        id: '20',
+        question: 'Can Word Guess Worksheets Be Used for Spelling Tests?',
+        answer: 'Yes, word guess worksheets at No Clues difficulty serve as effective picture-based spelling tests. Students identify images and spell complete words without any letter hints. Custom Word List mode creates text-only spelling tests without pictures for traditional assessment. The answer key provides a reliable grading guide. Create weekly spelling tests in under 2 minutes using your class vocabulary list.',
+      },
+    ]
     
   },
 

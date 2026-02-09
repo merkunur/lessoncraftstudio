@@ -133,7 +133,108 @@ Teachers use our find objects generator to build visual perception skills in you
     sectionDescription: 'Teachers frequently ask similar questions about the find objects generator before subscribing. These answers address pricing, features, technical requirements, and commercial licensing. Understanding how the platform works helps teachers make informed subscription decisions. Full Access subscription costs $240 annually or $25 monthly. The generator creates unlimited kindergarten worksheets and first grade worksheets without per-download fees.',
     showMoreText: 'Show more questions',
     showLessText: 'Show less',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        question: 'What Activity Modes Does the Find Objects Generator Offer?',
+        answer: 'The find objects generator creates two types of visual discrimination activities. I Spy mode challenges students to find specific hidden objects among distractor images. Odd One Out mode requires students to identify unpaired images among sets of matched pairs. Both modes develop visual perception, attention to detail, and analytical thinking through engaging search-and-find gameplay.',
+      },
+      {
+        id: '2',
+        question: 'How Does I Spy Mode Work?',
+        answer: 'In I Spy mode, 1 to 5 target objects hide among 8 to 12 distractor images on the worksheet. Students search the arrangement to locate each target object. Start with 1 to 2 hidden objects for young kindergarteners and increase to 4 to 5 for advanced first graders. The difficulty scales naturally with more hidden objects and more complex distractor arrangements. Each worksheet includes clear target images at the top for reference.',
+      },
+      {
+        id: '3',
+        question: 'How Does Odd One Out Mode Work?',
+        answer: 'In Odd One Out mode, the worksheet displays 8 to 12 images where most appear in identical pairs. One to three images are unpaired, and students must identify which images have no match. This mode tests visual matching precision and attention to subtle differences. Students compare images systematically, developing analytical skills as they determine which pictures stand alone without a partner.',
+      },
+      {
+        id: '4',
+        question: 'How Many Hidden Objects Can I Include?',
+        answer: 'I Spy mode supports 1 to 5 hidden objects per worksheet. One object creates simple search activities for preschoolers. Two to three objects suit standard kindergarten practice. Four to five objects challenge first graders with multiple simultaneous search targets. Odd One Out mode supports 1 to 3 unpaired images among paired sets. Adjust the count to match your students’ visual discrimination development level.',
+      },
+      {
+        id: '5',
+        question: 'Do Find Objects Worksheets Include Answer Keys?',
+        answer: 'Every find objects worksheet generates a complete answer key. I Spy answer keys circle or highlight hidden object locations for quick teacher verification. Odd One Out answer keys mark unpaired images clearly. Teachers use answer keys for efficient grading. Students self-check their work at independent stations. The visual answer format makes verification instant without reading any text.',
+      },
+      {
+        id: '6',
+        question: 'What Age Groups Benefit from Find Objects Worksheets?',
+        answer: 'Find objects worksheets serve ages 4 through 8 across preschool through second grade. Preschoolers ages 4 to 5 find one hidden object in simple I Spy layouts. Kindergarteners ages 5 to 6 complete both I Spy and Odd One Out activities with moderate complexity. First graders tackle challenging searches with multiple targets and complex distractor arrangements. Second graders use advanced Odd One Out for critical thinking practice.',
+      },
+      {
+        id: '7',
+        question: 'Are Find Objects Worksheets Appropriate for Kindergarten?',
+        answer: 'Find objects worksheets are excellent kindergarten activities for developing visual perception, attention, and analytical thinking. I Spy mode with 2 hidden objects provides engaging search practice. Odd One Out mode with 1 unpaired image introduces logical comparison skills. Both modes require careful observation without reading, making them accessible for all kindergarteners regardless of literacy level.',
+      },
+      {
+        id: '8',
+        question: 'How Do Find Objects Worksheets Develop Visual Discrimination?',
+        answer: 'Find objects worksheets train students to notice visual details, compare similar images, and identify specific features that distinguish one image from another. I Spy mode develops search efficiency and target recognition. Odd One Out mode builds comparison and matching precision. These visual discrimination skills transfer directly to letter recognition, reading, and mathematical symbol identification in academic contexts.',
+      },
+      {
+        id: '9',
+        question: 'Can I Create Themed Find Objects Worksheets?',
+        answer: 'Yes, select images from any theme to create topical search activities. Generate animal-themed I Spy worksheets for science connections. Create holiday Odd One Out games for seasonal celebrations. Build food-themed search activities for nutrition units. The 3000+ image library provides diverse themed options. Upload your own images for fully customized visual discrimination activities matching any classroom topic.',
+      },
+      {
+        id: '10',
+        question: 'How Long Does It Take to Create a Find Objects Worksheet?',
+        answer: 'Creating one find objects worksheet takes under 2 minutes. Select your mode, theme, and difficulty settings. The generator arranges images with hidden targets and distractors automatically. An answer key generates simultaneously. Review and download in seconds. Create differentiated visual discrimination activities for an entire week in under 15 minutes.',
+      },
+      {
+        id: '11',
+        question: 'Can I Sell Find Objects Worksheets I Create?',
+        answer: 'Your Full Access subscription includes commercial licensing for selling find objects worksheets on Teachers Pay Teachers, Etsy, Amazon KDP, or your own website. Visual discrimination worksheets are popular in preschool and kindergarten markets. Create themed search bundles or progressive difficulty packs. No attribution or extra licensing fees required beyond your subscription.',
+      },
+      {
+        id: '12',
+        question: 'How Do I Print Find Objects Worksheets?',
+        answer: 'Download find objects worksheets as PDF files at 300 DPI professional print quality. Images print crisp and identifiable for accurate visual searching. Select Letter or A4 page size. Enable grayscale mode for ink-saving prints where image shapes remain distinct enough for search activities. Both inkjet and laser printers produce clear results suitable for classroom distribution.',
+      },
+      {
+        id: '13',
+        question: 'Can Find Objects Worksheets Help English Language Learners?',
+        answer: 'Find objects worksheets are ideal for English language learners because both I Spy and Odd One Out modes are entirely visual activities requiring no English reading. Students search for images and compare visual details using perception skills independent of language proficiency. The generator supports 11 languages for optional instruction text. Visual search activities create equitable participation for all students.',
+      },
+      {
+        id: '14',
+        question: 'How Do Find Objects Worksheets Support Differentiated Instruction?',
+        answer: 'Differentiate by adjusting mode, hidden object count, and image complexity. Provide simple I Spy with 1 target for students developing visual scanning. Use I Spy with 3 targets for on-level kindergarten practice. Challenge advanced students with Odd One Out featuring 3 unpaired images requiring precise visual comparison. Both modes use the same themed images for flexible grouping without visible difficulty labeling.',
+      },
+      {
+        id: '15',
+        question: 'What Curriculum Standards Do Find Objects Worksheets Address?',
+        answer: 'Find objects worksheets address visual discrimination standards in early childhood frameworks essential for reading readiness. The analytical comparison process supports critical thinking standards across curricula. Attention and focus requirements align with executive function development goals. The self-directed search activity supports independence and self-regulation standards in preschool and kindergarten frameworks.',
+      },
+      {
+        id: '16',
+        question: 'Can I Upload Custom Images for Find Objects Activities?',
+        answer: 'Yes, upload unlimited custom images for personalized visual discrimination worksheets. Use classroom photos as hidden objects or pair elements. Upload curriculum-specific illustrations for themed search activities. The generator incorporates uploaded images into I Spy and Odd One Out layouts automatically. Create find objects activities connected to any instructional theme or student interest.',
+      },
+      {
+        id: '17',
+        question: 'What Is the Difference Between I Spy and Odd One Out Modes?',
+        answer: 'I Spy mode asks students to find specific target objects shown in a reference area. Odd One Out mode asks students to identify images that lack a matching pair. I Spy develops directed visual search skills. Odd One Out develops comparison and analytical reasoning. I Spy is typically easier for younger students while Odd One Out requires more sophisticated visual processing and logical thinking.',
+      },
+      {
+        id: '18',
+        question: 'Can Students Work on Find Objects Worksheets Independently?',
+        answer: 'Yes, both modes support independent work after brief introduction. I Spy worksheets show target images clearly at the top for student reference. Odd One Out worksheets have self-evident instructions once students understand the concept. Answer keys enable self-checking without teacher assistance. These worksheets make excellent independent practice activities for learning centers and early finisher assignments.',
+      },
+      {
+        id: '19',
+        question: 'How Do Find Objects Worksheets Pair with Other Activities?',
+        answer: 'Find objects worksheets pair well with find and count activities for visual scanning practice, matching worksheets for image recognition, and coloring pages for engaging activity packets. Use the same themed images across generators for cohesive learning. Students search for hidden animals in I Spy, then match those animals on a matching worksheet, building recognition through varied visual discrimination activities.',
+      },
+      {
+        id: '20',
+        question: 'Do Find Objects Worksheets Develop Critical Thinking Skills?',
+        answer: 'Both I Spy and Odd One Out modes develop critical thinking through visual analysis. I Spy requires systematic search strategies rather than random scanning. Odd One Out demands precise comparison and logical elimination to identify unpaired images. Students develop hypothesis testing as they consider which image might be odd, then verify by checking for matches. These thinking processes transfer to academic problem-solving across all subject areas.',
+      },
+    ]
     
   },
 

@@ -173,7 +173,108 @@ Create unlimited variations for differentiated instruction. Generate multiple ve
     sectionDescription: 'Teachers ask important questions before creating word scramble worksheets for kindergarten and first grade. These answers address common concerns about free worksheet creation, pricing, customization options, and educational uses.',
     showMoreText: 'Show more questions',
     showLessText: 'Show less',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        question: 'How Does the Word Scramble Generator Create Puzzles?',
+        answer: 'The word scramble generator takes vocabulary words and randomly rearranges the letters into jumbled sequences. Each scrambled word appears alongside a picture clue showing the correct answer. Students unscramble the letters and write the correct spelling in provided boxes. The generator handles all letter randomization automatically while ensuring every scramble has a valid, unambiguous solution.',
+      },
+      {
+        id: '2',
+        question: 'What Difficulty Levels Are Available for Word Scramble Worksheets?',
+        answer: 'Four difficulty levels control how many letter hints students receive. No Clues mode scrambles all letters without hints for maximum challenge. Easy mode reveals several letters in their correct positions. Normal mode shows fewer hints for moderate difficulty. Tough mode provides minimal clues, requiring strong spelling knowledge. Choose the level matching your students’ current vocabulary and decoding abilities.',
+      },
+      {
+        id: '3',
+        question: 'Can Word Scramble Worksheets Color-Code Vowels and Consonants?',
+        answer: 'Yes, enable letter color coding to display vowels in one color and consonants in another. This visual distinction helps students identify letter types while unscrambling words. Color-coded scrambles support phonics instruction by highlighting vowel placement patterns. Switch to all-black mode for standard worksheets where color coding is not needed or when printing in grayscale.',
+      },
+      {
+        id: '4',
+        question: 'Do Word Scramble Worksheets Include Answer Keys?',
+        answer: 'Every word scramble worksheet generates a complete answer key showing correctly spelled words alongside their scrambled versions. Teachers use answer keys for efficient grading. Students self-check their work at independent practice stations. Print answer keys on separate pages for classroom distribution or display them after students complete the activity for whole-class review.',
+      },
+      {
+        id: '5',
+        question: 'Can I Create Text-Only Word Scrambles Without Images?',
+        answer: 'Yes, text-only mode creates word scramble puzzles using custom word lists without picture clues. Type any vocabulary words you want students to unscramble. This mode works perfectly for spelling tests, vocabulary review, and content-area terminology practice. Students rely solely on their word knowledge to unscramble letters without visual hints from images.',
+      },
+      {
+        id: '6',
+        question: 'What Age Groups Benefit from Word Scramble Worksheets?',
+        answer: 'Word scramble worksheets serve ages 5 through 12 across kindergarten through fifth grade. Kindergarteners ages 5 to 6 unscramble three-letter CVC words with Easy difficulty and picture clues. First and second graders tackle four to six letter words at Normal difficulty. Third through fifth graders challenge themselves with longer vocabulary words at Tough difficulty without picture hints.',
+      },
+      {
+        id: '7',
+        question: 'Are Word Scramble Worksheets Appropriate for Kindergarten?',
+        answer: 'Word scramble worksheets work well for kindergarten when configured with Easy difficulty, short three to four letter words, and picture clues enabled. Kindergarteners use picture clues to identify the target word, then match scrambled letters to the correct spelling. This process reinforces letter recognition, phonemic awareness, and beginning spelling skills appropriate for five and six year olds.',
+      },
+      {
+        id: '8',
+        question: 'How Do Word Scrambles Build Spelling Skills?',
+        answer: 'Word scramble activities require students to analyze letter combinations and reconstruct correct spellings from jumbled sequences. This active manipulation of letters strengthens orthographic awareness and spelling memory more effectively than passive copying exercises. Students develop strategies for identifying common letter patterns, word families, and phonetic structures while solving scrambles.',
+      },
+      {
+        id: '9',
+        question: 'Can I Create Themed Word Scramble Worksheets?',
+        answer: 'Yes, select images from specific themes to create topical word scramble puzzles. Generate animal-themed scrambles during science units. Create food vocabulary scrambles for nutrition lessons. Build holiday word scrambles for seasonal activities. The 3000+ image library covers dozens of themes. Upload your own images for custom vocabulary scrambles matching any curriculum unit.',
+      },
+      {
+        id: '10',
+        question: 'How Long Does It Take to Create a Word Scramble Worksheet?',
+        answer: 'Creating one word scramble worksheet takes under 3 minutes. Select your theme images or type custom words. Choose difficulty level and optional settings like color coding. The generator scrambles letters and builds the complete worksheet instantly. Review the layout and download. Create a full week of spelling practice activities in approximately 15 minutes.',
+      },
+      {
+        id: '11',
+        question: 'Can I Sell Word Scramble Worksheets I Create?',
+        answer: 'Your subscription includes commercial licensing for selling word scramble worksheets on Teachers Pay Teachers, Etsy, Amazon KDP, or your own website. Create themed vocabulary bundles, seasonal spelling packs, or graded difficulty sets. No attribution or extra licensing fees required. Word scramble worksheets are consistently popular educational products on teacher marketplaces.',
+      },
+      {
+        id: '12',
+        question: 'How Do I Print Word Scramble Worksheets?',
+        answer: 'Download word scramble worksheets as PDF files at 300 DPI professional print quality. Select Letter or A4 page size. Enable grayscale mode for ink-saving black-and-white worksheets. Letter boxes and scrambled text remain clear and readable in both color and grayscale formats. Both inkjet and laser printers produce crisp results suitable for classroom distribution.',
+      },
+      {
+        id: '13',
+        question: 'Can Word Scrambles Support English Language Learners?',
+        answer: 'Word scramble worksheets with picture clues are effective vocabulary builders for English language learners. The image shows the target word while scrambled letters provide spelling practice. The generator supports 11 languages, enabling scrambles in students’ home language for building transfer skills. Easy difficulty with generous letter hints scaffolds the activity for developing English proficiency levels.',
+      },
+      {
+        id: '14',
+        question: 'How Do Word Scrambles Support Differentiated Instruction?',
+        answer: 'Differentiate word scramble worksheets by adjusting difficulty level, word length, and clue type. Provide Easy scrambles with picture clues for students needing spelling support. Create Normal difficulty with longer words for on-level practice. Challenge advanced students with Tough difficulty, no picture clues, and multisyllabic vocabulary. Teachers produce three differentiated versions from the same theme in minutes.',
+      },
+      {
+        id: '15',
+        question: 'What Curriculum Standards Do Word Scramble Worksheets Address?',
+        answer: 'Word scramble worksheets address Common Core ELA standards for spelling conventions, phonics, and vocabulary acquisition. The letter manipulation process supports encoding standards requiring students to spell words correctly. Picture clue identification addresses vocabulary development standards. The activity aligns with language standards for demonstrating command of English spelling patterns and conventions.',
+      },
+      {
+        id: '16',
+        question: 'Can I Add Name and Date Fields to Word Scramble Worksheets?',
+        answer: 'Yes, enable name and date fields to add student identification lines at the top of each worksheet. Name fields help organize completed work for portfolio assessment and grading. Date fields track activity completion for progress monitoring. Exercise numbering can also be enabled for easier verbal reference during instruction and efficient grading.',
+      },
+      {
+        id: '17',
+        question: 'How Do Word Scrambles Compare to Word Search Worksheets?',
+        answer: 'Word scramble worksheets require active spelling reconstruction while word searches require visual letter scanning. Scrambles build encoding skills as students reconstruct correct letter sequences. Word searches build decoding skills as students recognize letter patterns in a grid. Using both types together creates comprehensive vocabulary instruction covering spelling production and word recognition domains.',
+      },
+      {
+        id: '18',
+        question: 'Can I Upload Custom Images for Word Scrambles?',
+        answer: 'Yes, upload unlimited custom images for personalized word scramble worksheets. Use classroom photos, curriculum illustrations, or student artwork as puzzle clues. Assign vocabulary labels to uploaded images for the scramble generator to use. Combine uploaded images with the 3000+ built-in library for varied practice. Personalized scrambles increase engagement and connect to current classroom learning.',
+      },
+      {
+        id: '19',
+        question: 'How Do Word Scrambles Pair with Other Worksheet Types?',
+        answer: 'Word scramble worksheets pair naturally with word search puzzles and crossword activities for comprehensive vocabulary packets. Use identical theme images across all three generators so students encounter vocabulary in scrambled, hidden, and crossword formats. This multi-format repetition strengthens spelling retention and word recognition significantly across different activity contexts.',
+      },
+      {
+        id: '20',
+        question: 'Can Word Scramble Worksheets Be Used for Assessment?',
+        answer: 'Word scramble worksheets serve as effective informal spelling assessments. Students who correctly unscramble words demonstrate knowledge of letter patterns and word structures. Use Tough difficulty without picture clues for genuine spelling assessment. Compare student performance across difficulty levels to measure spelling growth. Collect and score worksheets efficiently using the provided answer keys.',
+      },
+    ]
     
   },
 

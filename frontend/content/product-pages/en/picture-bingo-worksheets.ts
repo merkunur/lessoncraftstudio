@@ -137,7 +137,108 @@ Our picture bingo generator creates two free printable worksheets with every gen
     sectionDescription: 'Teachers ask common questions about creating picture bingo worksheets with our generator. These answers help kindergarten teachers, first grade teachers, homeschool parents, and ESL educators understand how to create printable bingo cards for their classrooms. Learn about subscription requirements, printing capabilities, customization options, language support, and commercial licensing for selling bingo worksheets on Teachers Pay Teachers.',
     showMoreText: 'Show more questions',
     showLessText: 'Show less',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        question: 'How Does the Picture Bingo Generator Work?',
+        answer: 'The picture bingo generator creates customized bingo cards with images or words in grid cells plus a separate sheet of circular calling chips. Select a theme and grid size, and the generator arranges images randomly on each card. Each generated card has a unique image arrangement so multiple students can play simultaneously with different cards. The calling chips match the card images for the teacher to use during gameplay.',
+      },
+      {
+        id: '2',
+        question: 'What Grid Sizes Are Available for Bingo Cards?',
+        answer: 'Bingo cards support grid sizes from 3x3 to 5x5. A 3x3 grid with 9 cells works best for preschool and early kindergarten with fewer images to track. A 4x4 grid suits standard kindergarten gameplay. A 5x5 grid provides the traditional bingo experience for first and second graders. Larger grids create longer, more challenging games requiring sustained attention and faster image recognition.',
+      },
+      {
+        id: '3',
+        question: 'Can I Generate Multiple Unique Bingo Cards at Once?',
+        answer: 'Yes, generate 1 to 10 unique bingo cards in a single creation session. Each card arranges the same theme images in a different random order, ensuring every student has a distinct card during classroom bingo games. This eliminates the problem of multiple students getting bingo simultaneously. Print all cards and one set of calling chips for a complete ready-to-play classroom bingo kit.',
+      },
+      {
+        id: '4',
+        question: 'What Goes on Bingo Cards – Images or Words?',
+        answer: 'Choose between images or words for bingo card cells. Image mode fills cells with themed pictures for pre-readers and kindergarteners. Word mode displays vocabulary terms for reading practice. You can also set calling chips independently: image chips with word cards create a word-recognition game, while word chips with image cards create a vocabulary matching challenge. Mix formats for versatile learning activities.',
+      },
+      {
+        id: '5',
+        question: 'How Do the Calling Chips Work?',
+        answer: 'Circular calling chips print on the same page or a separate sheet. Cut out individual chips for the teacher or caller to draw during the game. Each chip shows either an image or word matching the bingo card content. The teacher draws a chip, announces or shows it, and students search their cards for the matching cell. Chips can display images while cards show words or vice versa for added learning challenge.',
+      },
+      {
+        id: '6',
+        question: 'What Age Groups Benefit from Picture Bingo?',
+        answer: 'Picture bingo worksheets serve ages 3 through 10 across preschool through fourth grade. Preschoolers ages 3 to 4 play simple 3x3 image bingo for visual matching. Kindergarteners ages 5 to 6 play 4x4 games combining images and words. First and second graders use 5x5 grids with word-based cards for vocabulary practice. Older students play content-area bingo for science or social studies review.',
+      },
+      {
+        id: '7',
+        question: 'Are Picture Bingo Worksheets Good for Kindergarten?',
+        answer: 'Picture bingo is one of the most engaging kindergarten activities for vocabulary, visual discrimination, and listening skills. Use 3x3 or 4x4 grids with image-based cards for kindergarten. Students listen for called images and mark matching cells on their cards. The game format motivates participation from even reluctant learners. Kindergarten teachers report bingo is consistently among students’ favorite classroom activities.',
+      },
+      {
+        id: '8',
+        question: 'Can Picture Bingo Teach Sight Words?',
+        answer: 'Yes, use word-mode cards with image-mode calling chips for effective sight word instruction. The teacher shows a picture chip and students find the matching word on their bingo card. This forces students to read and recognize sight words quickly during gameplay. The competitive bingo format motivates rapid word recognition practice. Create bingo sets targeting your specific sight word curriculum list.',
+      },
+      {
+        id: '9',
+        question: 'Can I Create Themed Bingo Games?',
+        answer: 'Yes, select from dozens of image themes to create topical bingo games. Generate animal bingo for science connections. Create food bingo for nutrition units. Build holiday bingo for seasonal celebrations. The 3000+ image library provides rich theme options. Upload your own images for custom bingo games matching any curriculum unit, classroom event, or student interest.',
+      },
+      {
+        id: '10',
+        question: 'How Long Does It Take to Create Bingo Cards?',
+        answer: 'Creating a complete set of bingo cards takes under 3 minutes. Select your theme, grid size, and card/chip format. Choose how many unique cards to generate. The generator creates all cards with unique arrangements plus matching calling chips instantly. Download, print, and cut out chips for a ready-to-play classroom bingo kit. Prepare bingo games for 30 students in under 5 minutes.',
+      },
+      {
+        id: '11',
+        question: 'Can I Sell Bingo Worksheets I Create?',
+        answer: 'Your subscription includes commercial licensing for selling bingo worksheets on Teachers Pay Teachers, Etsy, Amazon KDP, or your own website. Themed bingo card sets are popular sellers in educational marketplaces. Create seasonal bingo bundles, sight word bingo collections, or curriculum-aligned bingo kits. No attribution or extra licensing fees required beyond your subscription.',
+      },
+      {
+        id: '12',
+        question: 'How Do I Print and Prepare Bingo Cards?',
+        answer: 'Download bingo cards as PDF files at 300 DPI print quality. Print cards on standard paper or cardstock for durability. Cut out circular calling chips along printed guides. For reusable cards, laminate printed sheets and use dry-erase markers or small tokens as space markers. Enable grayscale mode for ink-saving prints. Both inkjet and laser printers produce clear, game-ready results.',
+      },
+      {
+        id: '13',
+        question: 'Can Picture Bingo Help English Language Learners?',
+        answer: 'Picture bingo is highly effective for English language learners. Image-based cards require no reading for basic gameplay. Using word chips with image cards introduces English vocabulary in a low-pressure game context. The generator supports 11 languages for creating bilingual bingo games. ELL students practice English vocabulary recognition while enjoying the social, competitive bingo format with classmates.',
+      },
+      {
+        id: '14',
+        question: 'How Does Picture Bingo Support Differentiated Instruction?',
+        answer: 'Differentiate bingo by adjusting grid size and card/chip format combinations. Provide 3x3 image-only cards for students developing visual matching. Use 4x4 cards with mixed image/word formats for on-level vocabulary practice. Challenge advanced students with 5x5 word-only cards requiring reading fluency. All students play the same game simultaneously while engaging at their individual skill level.',
+      },
+      {
+        id: '15',
+        question: 'What Curriculum Standards Does Picture Bingo Address?',
+        answer: 'Picture bingo addresses ELA standards for vocabulary acquisition, word recognition, and listening comprehension. Word-based cards support reading fluency standards. Image matching develops visual discrimination. The listening component during calling addresses speaking and listening standards. Bingo’s versatile format lets teachers target specific vocabulary from any content area for standards-aligned review.',
+      },
+      {
+        id: '16',
+        question: 'Can I Upload Custom Images for Bingo Cards?',
+        answer: 'Yes, upload unlimited custom images for personalized bingo games. Use classroom photos, vocabulary illustrations, or content-area images. The generator arranges uploaded images randomly on each unique bingo card. Combine uploaded images with the 3000+ built-in library for diverse game content. Create bingo games connected to any instructional theme or classroom event.',
+      },
+      {
+        id: '17',
+        question: 'How Many Students Can Play with One Bingo Set?',
+        answer: 'Generate up to 10 unique cards per creation session. For larger classes, create multiple sets of 10 cards to cover 20 or 30 students. Each card has a unique image arrangement so no two students share identical cards. One set of calling chips works for any number of players since all cards draw from the same image pool. Print additional card sets in minutes.',
+      },
+      {
+        id: '18',
+        question: 'Can Picture Bingo Be Used for Math Practice?',
+        answer: 'Yes, create math bingo by uploading images showing numbers, equations, or geometric shapes. Use number images on cards with spoken number calling for number recognition practice. Display simple addition problems on chips and answers on cards for fact practice. The flexible image and word format supports creative math bingo variations across counting, operations, and geometry topics.',
+      },
+      {
+        id: '19',
+        question: 'How Does Picture Bingo Pair with Other Activities?',
+        answer: 'Picture bingo pairs well with matching worksheets for vocabulary reinforcement, word search puzzles for word recognition practice, and coloring pages for theme-connected activity packets. Use identical themed images across generators. Students play animal bingo as a group activity, then complete individual animal matching worksheets and animal word searches for independent practice with the same vocabulary set.',
+      },
+      {
+        id: '20',
+        question: 'Can Picture Bingo Develop Social Skills?',
+        answer: 'Bingo naturally develops social skills including turn-taking, following rules, handling winning and losing gracefully, and listening to peer and teacher instructions. The group gameplay format encourages positive social interaction in a structured activity. Students practice patience waiting for their images to be called. Teachers use bingo as a classroom community-building activity that combines academic content with social-emotional learning.',
+      },
+    ]
     
   },
 

@@ -133,7 +133,108 @@ The generator includes 8 different templates with various line patterns and orie
     sectionDescription: 'Teachers frequently ask questions about creating drawing lines worksheets and other free printable kindergarten worksheets using our generator. This section answers the most common questions about subscription requirements, printing capabilities, customization options, and commercial licensing. Understanding these details helps educators make informed decisions about Core Bundle subscription. The answers clarify how to maximize the platform\'s value for creating first grade worksheets, alphabet worksheets, math worksheets, and other printable worksheets for classroom use.',
     showMoreText: 'Show more questions',
     showLessText: 'Show less',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        question: 'How Do Drawing Lines Worksheets Develop Fine Motor Skills?',
+        answer: 'Drawing lines worksheets require students to trace or draw lines connecting related images across the page. This controlled line-drawing activity develops pencil control, hand-eye coordination, and the smooth motor movements needed for handwriting. Students practice maintaining consistent pressure and direction while following curved, diagonal, horizontal, or vertical paths between matching images.',
+      },
+      {
+        id: '2',
+        question: 'What Line Templates Are Available?',
+        answer: 'Eight different line templates provide varied fine motor challenges. Curve templates present flowing paths in landscape orientation. Diagonal templates use slanted connections in portrait format. Horizontal templates run left to right across the page. Vertical templates connect top to bottom. Each template orientation challenges different hand movements, building comprehensive motor control across multiple directional patterns.',
+      },
+      {
+        id: '3',
+        question: 'How Many Matching Pairs Appear on Each Worksheet?',
+        answer: 'Each drawing lines worksheet includes 4 to 5 matching pairs depending on the selected template. Four-pair worksheets provide larger images with more space between connection points. Five-pair worksheets offer additional matching practice. The generator sizes images and spaces pairs optimally for the selected template type, ensuring adequate room for students to draw clear connecting lines.',
+      },
+      {
+        id: '4',
+        question: 'Does the Drawing Lines Generator Have an Auto-Fill Feature?',
+        answer: 'Yes, auto-fill instantly assigns random themed images to all matching positions with one click. Select a theme like animals or food and auto-fill populates the worksheet automatically. This makes worksheet creation extremely fast for teachers who need activities quickly. Switch to manual mode when you want to select specific image pairs for targeted vocabulary or curriculum connections.',
+      },
+      {
+        id: '5',
+        question: 'Do Drawing Lines Worksheets Include Answer Keys?',
+        answer: 'Yes, every drawing lines worksheet generates an answer key showing correct connections between matched pairs. Lines are drawn clearly between corresponding images for quick teacher verification. Print answer keys separately for grading reference or display them for student self-checking. The answer key confirms correct pairings when multiple connection paths might seem plausible to young students.',
+      },
+      {
+        id: '6',
+        question: 'What Age Groups Benefit from Drawing Lines Worksheets?',
+        answer: 'Drawing lines worksheets serve ages 3 through 7 across preschool through first grade. Preschoolers ages 3 to 4 practice basic line control connecting large images on horizontal templates. Kindergarteners ages 5 to 6 draw curved and diagonal connections developing more refined motor control. First graders master complex line paths while simultaneously building vocabulary through image matching activities.',
+      },
+      {
+        id: '7',
+        question: 'Are Drawing Lines Worksheets Appropriate for Kindergarten?',
+        answer: 'Drawing lines worksheets are essential kindergarten activities bridging the gap between basic tracing and complex handwriting. The line-drawing task develops the smooth, controlled hand movements kindergarteners need for letter formation. Curved templates build the motor patterns used in letters like c, o, and s. Diagonal templates develop strokes used in letters like k, v, and w. Teachers use these worksheets as handwriting readiness preparation.',
+      },
+      {
+        id: '8',
+        question: 'How Do Different Template Orientations Challenge Students?',
+        answer: 'Each template orientation requires different motor movements. Horizontal connections practice left-to-right hand motion matching reading direction. Vertical connections build top-to-bottom control used in letter downstrokes. Diagonal templates develop angled movements for letters like x and z. Curved templates build flowing motions for rounded letters. Rotating through templates provides comprehensive motor development.',
+      },
+      {
+        id: '9',
+        question: 'Can I Create Themed Drawing Lines Worksheets?',
+        answer: 'Yes, select images from any theme to create topical matching activities. Generate animal-themed connection worksheets during science units. Create food-themed activities for nutrition lessons. Build seasonal worksheets for holiday celebrations. The 3000+ image library provides diverse options. Auto-fill randomly assigns themed images for instant worksheet creation or manually select specific pairs.',
+      },
+      {
+        id: '10',
+        question: 'How Long Does It Take to Create a Drawing Lines Worksheet?',
+        answer: 'Creating one drawing lines worksheet takes under 1 minute with auto-fill. Select a template type and theme, click auto-fill, and the worksheet is ready to download. Manual image selection takes 2 to 3 minutes for specific pair choices. The fastest worksheet generator in the entire platform, drawing lines worksheets are perfect for last-minute activity needs or spontaneous fine motor practice.',
+      },
+      {
+        id: '11',
+        question: 'Can I Sell Drawing Lines Worksheets I Create?',
+        answer: 'Your subscription includes commercial licensing for selling drawing lines worksheets on Teachers Pay Teachers, Etsy, Amazon KDP, or your own website. Fine motor skill worksheets have strong demand in preschool and kindergarten markets. Create themed bundles with varied template types. No attribution or extra licensing fees required beyond your subscription.',
+      },
+      {
+        id: '12',
+        question: 'How Do I Print Drawing Lines Worksheets?',
+        answer: 'Download drawing lines worksheets as PDF files at 300 DPI professional print quality. Connection paths and images print crisp and clear. Select Letter or A4 page size. Enable grayscale mode for ink-saving prints that maintain clear images and visible connection paths. Both inkjet and laser printers produce clean results. Print on standard paper for daily practice or cardstock for laminated reusable activities.',
+      },
+      {
+        id: '13',
+        question: 'Can Drawing Lines Worksheets Help English Language Learners?',
+        answer: 'Drawing lines worksheets are fully accessible for English language learners because the matching activity is entirely visual with no text reading required. Students connect identical or related images using motor skills independent of language proficiency. The generator supports 11 languages for optional text labels. Teachers use drawing lines as equitable activities where all students participate successfully regardless of English ability.',
+      },
+      {
+        id: '14',
+        question: 'How Do Drawing Lines Support Differentiated Instruction?',
+        answer: 'Differentiate by selecting template types that match student motor development levels. Provide straight horizontal templates for students developing basic line control. Use diagonal templates for students ready for angled motor challenges. Assign curved templates for advanced fine motor practice. All templates use the same images, allowing flexible grouping without visible ability differences between worksheet versions.',
+      },
+      {
+        id: '15',
+        question: 'What Curriculum Standards Do Drawing Lines Worksheets Address?',
+        answer: 'Drawing lines worksheets address fine motor development standards in early childhood education frameworks. The controlled line-drawing activity supports handwriting readiness standards prerequisite to letter formation instruction. Visual matching components address cognitive development standards for visual discrimination. The following-directions aspect of the activity supports listening and comprehension standards applicable across curricula.',
+      },
+      {
+        id: '16',
+        question: 'Can I Upload Custom Images for Drawing Lines Activities?',
+        answer: 'Yes, upload unlimited custom images for personalized drawing lines worksheets. Use classroom photos as matching pairs for connection activities. Upload curriculum-specific illustrations for themed matching. The generator places uploaded images at template connection points automatically. Combine uploaded images with the 3000+ built-in library for varied practice connected to current classroom themes.',
+      },
+      {
+        id: '17',
+        question: 'How Do Drawing Lines Worksheets Prepare Students for Handwriting?',
+        answer: 'Drawing lines worksheets develop the three motor foundations needed for handwriting: pencil pressure control, directional movement accuracy, and smooth stroke execution. Students who practice varied line templates build the specific motor patterns used in letter formation. Occupational therapists frequently recommend line-drawing activities as handwriting preparation for students showing fine motor development delays.',
+      },
+      {
+        id: '18',
+        question: 'Can Drawing Lines Worksheets Be Laminated for Reuse?',
+        answer: 'Yes, print drawing lines worksheets on cardstock and laminate for durable reusable activities. Students use dry-erase markers to draw connections, then wipe clean for the next use. Laminated worksheets save paper and printing costs over time. The 300 DPI print quality ensures images remain clear through lamination. Create a classroom set of laminated templates in different styles for a permanent fine motor center.',
+      },
+      {
+        id: '19',
+        question: 'How Do Drawing Lines Worksheets Pair with Other Activities?',
+        answer: 'Drawing lines worksheets pair naturally with writing worksheets for handwriting development, coloring pages for fine motor practice, and matching worksheets for visual discrimination reinforcement. Use drawing lines as a warm-up activity before handwriting practice. Students draw connecting lines to develop motor control, then apply those skills to letter tracing on writing worksheets.',
+      },
+      {
+        id: '20',
+        question: 'Can Occupational Therapists Use Drawing Lines Worksheets?',
+        answer: 'Drawing lines worksheets are valuable occupational therapy tools for fine motor intervention. The varied template types target specific motor patterns therapists assess and develop. Difficulty progresses from straight horizontal lines to complex curved paths. Therapists customize worksheets for individual student goals by selecting specific templates matching therapeutic objectives. The quick generation time supports session-by-session activity customization.',
+      },
+    ]
     
   },
 

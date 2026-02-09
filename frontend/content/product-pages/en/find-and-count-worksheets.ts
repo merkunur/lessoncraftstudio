@@ -177,7 +177,108 @@ Print multiple copies for your entire class. The 300 DPI quality handles repeate
     sectionDescription: 'Everything you need to know about our find and count worksheet generator.',
     showMoreText: 'Show more questions',
     showLessText: 'Show less',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        question: 'How Do Find and Count Worksheets Work?',
+        answer: 'Find and count worksheets present a grid filled with themed images where specific target objects are hidden among distractors. Students search the grid to locate each target image, then perform an action like circling, crossing out, or counting how many they find. Each target object appears a set number of times in the grid, creating an engaging I Spy-style counting activity that combines visual discrimination with math skills.',
+      },
+      {
+        id: '2',
+        question: 'What Task Types Are Available for Hidden Objects?',
+        answer: 'Four task types provide varied responses for each hidden object. Circle tasks have students draw circles around found items. Square tasks have students draw boxes around items. Cross Out tasks mark items with an X. Count tasks require students to write the total number found. You can assign different task types to different target objects on the same worksheet for varied practice within a single activity.',
+      },
+      {
+        id: '3',
+        question: 'What Grid Sizes Are Available?',
+        answer: 'Grid sizes range from 5x5 to 10x10 cells. Smaller 5x5 grids work best for preschool and early kindergarten with fewer images to scan. Standard 7x7 or 8x8 grids suit kindergarten through first grade. Larger 10x10 grids challenge older students with more items to search through. Grid size directly affects difficulty since larger grids contain more distractor images making target objects harder to find.',
+      },
+      {
+        id: '4',
+        question: 'How Many Hidden Objects Can I Include Per Worksheet?',
+        answer: 'Select 1 to 4 hidden objects per worksheet. One hidden object works well for introducing the activity to young learners. Two objects suit standard kindergarten practice. Three to four objects challenge first graders with multiple simultaneous search targets. Each hidden object appears exactly twice in the grid by default, and surrounding cells are filled with other themed images as distractors.',
+      },
+      {
+        id: '5',
+        question: 'Do Find and Count Worksheets Include Answer Keys?',
+        answer: 'Every find and count worksheet generates a complete answer key with visual indicators showing exactly where each target object appears in the grid. Circle tasks show circled items, cross-out tasks show X marks, and count tasks display correct totals. Teachers use answer keys for quick verification. Students self-check their work at independent stations using separately printed answer pages.',
+      },
+      {
+        id: '6',
+        question: 'What Age Groups Benefit from Find and Count Worksheets?',
+        answer: 'Find and count worksheets serve ages 3 through 8 across preschool through second grade. Preschoolers ages 3 to 4 find one object in a small 5x5 grid. Kindergarteners ages 5 to 6 search for two objects in 7x7 grids with multiple task types. First graders tackle three to four objects in larger grids. Second graders use counting tasks with higher quantities for math practice integration.',
+      },
+      {
+        id: '7',
+        question: 'Are Find and Count Worksheets Appropriate for Kindergarten?',
+        answer: 'Find and count worksheets are excellent kindergarten activities developing visual discrimination, counting skills, and fine motor control. Use 6x6 or 7x7 grids with two hidden objects for age-appropriate difficulty. Circle and cross-out tasks build pencil control. Count tasks reinforce number writing and one-to-one correspondence. Kindergarten teachers report these I Spy activities are among students’ most requested worksheet types.',
+      },
+      {
+        id: '8',
+        question: 'How Do Find and Count Worksheets Build Math Skills?',
+        answer: 'Find and count worksheets integrate counting practice with visual discrimination. Count tasks require students to tally found objects and write numeric totals, reinforcing one-to-one correspondence and number writing. Comparing counts across different target objects introduces comparison concepts. The grid format familiarizes students with organized arrays. These worksheets connect math skills to engaging search activities that motivate practice.',
+      },
+      {
+        id: '9',
+        question: 'Can I Create Themed Find and Count Worksheets?',
+        answer: 'Yes, select images from specific themes to create topical I Spy activities. Generate ocean-themed grids during marine biology units. Create farm animal searches for agricultural topics. Build holiday grids for seasonal activities. The 3000+ image library fills grids with diverse themed distractors while your selected target objects hide among them. Upload custom images for fully personalized search activities.',
+      },
+      {
+        id: '10',
+        question: 'How Long Does It Take to Create a Find and Count Worksheet?',
+        answer: 'Creating one find and count worksheet takes under 2 minutes. Select your theme and target objects. Choose grid size and task types. The generator builds the complete grid with randomly placed targets and distractors instantly. An answer key generates simultaneously. Review and download in seconds. Create a full week of I Spy activities in under 10 minutes.',
+      },
+      {
+        id: '11',
+        question: 'Can I Sell Find and Count Worksheets I Create?',
+        answer: 'Your subscription includes commercial licensing for selling find and count worksheets on Teachers Pay Teachers, Etsy, Amazon KDP, or your own website. I Spy-style worksheets are popular educational products appealing to teachers and parents alike. Create themed search bundles for holidays, seasons, or curriculum units. No attribution or extra licensing fees required.',
+      },
+      {
+        id: '12',
+        question: 'How Do I Print Find and Count Worksheets?',
+        answer: 'Download find and count worksheets as PDF files at 300 DPI professional print quality. Grid images print crisp and identifiable for accurate visual searching. Select Letter or A4 page size. Enable grayscale mode for ink-saving prints where image silhouettes remain distinct enough for the search activity. Both inkjet and laser printers produce clear grids suitable for classroom use.',
+      },
+      {
+        id: '13',
+        question: 'Can Find and Count Worksheets Help English Language Learners?',
+        answer: 'Find and count worksheets are ideal for English language learners because the visual search activity requires no English reading. Students identify images and complete tasks using visual scanning and counting skills regardless of language proficiency. The generator supports 11 languages for header text and instructions. Teachers use I Spy activities as equitable warm-ups where all students participate successfully.',
+      },
+      {
+        id: '14',
+        question: 'How Do Find and Count Worksheets Support Differentiated Instruction?',
+        answer: 'Differentiate by adjusting grid size, object count, and task types. Provide small grids with one target object for students developing visual scanning skills. Use standard grids with two objects and circle tasks for on-level practice. Challenge advanced students with large grids, four target objects, and count tasks requiring written totals. Create three difficulty levels from the same theme in minutes.',
+      },
+      {
+        id: '15',
+        question: 'What Curriculum Standards Do Find and Count Worksheets Address?',
+        answer: 'Find and count worksheets address math standards for counting, cardinality, and number operations. Count tasks align with K.CC standards for counting objects and writing numerals. Visual discrimination supports cognitive development standards in early childhood frameworks. The circling and crossing-out actions develop fine motor standards. These cross-domain worksheets naturally address multiple standard areas simultaneously.',
+      },
+      {
+        id: '16',
+        question: 'Can I Upload Custom Images for Find and Count Activities?',
+        answer: 'Yes, upload custom images as target objects or grid fillers for personalized I Spy worksheets. Use classroom-specific pictures as hidden objects students search for. The generator incorporates uploaded images into the random grid layout alongside themed library images. Create find and count activities connected to current science, social studies, or reading themes for integrated learning.',
+      },
+      {
+        id: '17',
+        question: 'How Does the I Spy Header Work?',
+        answer: 'The generator automatically creates a professional header section showing each target object with its assigned task. Students reference the header to know which objects to find and what action to perform for each. The header includes clear icons indicating circle, square, cross-out, or count tasks. This built-in instruction section lets students work independently without additional verbal directions from the teacher.',
+      },
+      {
+        id: '18',
+        question: 'Can Students Work on Find and Count Worksheets Independently?',
+        answer: 'Yes, after a brief introduction, most kindergarten and first grade students complete find and count worksheets independently. The visual header clearly shows target objects and required tasks. Students scan the grid systematically and mark or count found items. The self-contained format requires no teacher interaction during the activity, making these worksheets ideal for math centers and independent work time.',
+      },
+      {
+        id: '19',
+        question: 'How Do Find and Count Worksheets Pair with Other Activities?',
+        answer: 'Find and count worksheets pair well with coloring activities for visual engagement, matching worksheets for image recognition practice, and math worksheets for counting skill development. Use identical themed images across generators for cohesive learning packets. Students find and count animals in an I Spy grid, then match those animals on a matching worksheet for reinforced vocabulary learning.',
+      },
+      {
+        id: '20',
+        question: 'Can Find and Count Worksheets Develop Attention Skills?',
+        answer: 'Find and count worksheets systematically develop sustained attention and visual scanning strategies. Students must focus on the entire grid while searching for specific target images among many distractors. This controlled visual attention task builds concentration skills transferable to reading, test-taking, and classroom listening. Regular I Spy practice improves students’ ability to locate relevant information in visually complex environments.',
+      },
+    ]
     
   },
 

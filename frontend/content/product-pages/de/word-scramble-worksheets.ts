@@ -273,6 +273,71 @@ Speichern Sie Downloads in organisierten Ordnern auf Computer. Benennen Sie nach
         question: 'Wird ein L\u00f6sungsblatt automatisch erstellt?',
         answer: 'Ja, der Antwortschl\u00fcssel wird automatisch mitvorbereitet und zeigt alle W\u00f6rter in korrekter Reihenfolge. Er hat ein identisches Layout wie das Arbeitsblatt und ist separat als PDF oder JPEG herunterladbar. Das spart Zeit bei der Korrektur von Vorschul-Arbeitsbl\u00e4ttern und Deutsch-Arbeitsbl\u00e4ttern.',
       },
+      {
+        id: 'faq-8',
+        question: 'Kann ich den Buchstabensalat Generator kostenlos testen?',
+        answer: 'Ja, Sie k\u00f6nnen ohne Registrierung sofort Buchstabensalat-Arbeitsbl\u00e4tter erstellen. Die Vorschau zeigt Ihr fertiges R\u00e4tsel mit Wasserzeichen. Mit dem Basis-Paket laden Sie unbegrenzt ohne Wasserzeichen herunter. So testen Sie alle Funktionen risikofrei.',
+      },
+      {
+        id: 'faq-9',
+        question: 'Welche Seitenformate stehen f\u00fcr den Druck zur Verf\u00fcgung?',
+        answer: 'Sie w\u00e4hlen zwischen Letter und A4 in Hoch- oder Querformat. Bei Querformat werden automatisch zwei Spalten f\u00fcr die R\u00e4tsel verwendet. Alle Arbeitsbl\u00e4tter werden in professioneller 300 DPI Qualit\u00e4t als PDF oder JPEG exportiert.',
+      },
+      {
+        id: 'faq-10',
+        question: 'F\u00fcr welche Altersgruppen eignet sich der Buchstabensalat?',
+        answer: 'Durch die vier Schwierigkeitsstufen eignet sich der Generator f\u00fcr Kinder von 5 bis 10 Jahren. Vorschulkinder \u00fcben mit 3-4 Buchstaben, Erstkl\u00e4ssler mit 5-6 Buchstaben, \u00e4ltere Sch\u00fcler mit l\u00e4ngeren W\u00f6rtern. Die Bildunterst\u00fctzung hilft auch Leseanf\u00e4ngern.',
+      },
+      {
+        id: 'faq-11',
+        question: 'Kann ich eigene Bilder f\u00fcr Buchstabensalat-R\u00e4tsel hochladen?',
+        answer: 'Ja, \u00fcber den Datei-Upload-Button laden Sie eigene Bilder in JPEG, PNG oder GIF hoch. Das zugeh\u00f6rige Wort geben Sie manuell ein. So erstellen Sie personalisierte R\u00e4tsel mit Klassenfotos, Haustieren oder themenspezifischen Motiven.',
+      },
+      {
+        id: 'faq-12',
+        question: 'Gibt es einen Graustufen-Modus um Druckkosten zu sparen?',
+        answer: 'Ja, der Graustufen-Modus wandelt alle Farben in Schwarz-Wei\u00df-T\u00f6ne um. Das spart teure Farbpatronen beim Ausdrucken ganzer Klassensets. Die Vokalhervorhebung bleibt auch in Graustufen durch unterschiedliche Graut\u00f6ne erkennbar.',
+      },
+      {
+        id: 'faq-13',
+        question: 'Kann ich Buchstabensalat mit anderen Generatoren kombinieren?',
+        answer: 'Ja, erstellen Sie thematische Lernpakete indem Sie Buchstabensalat mit Wortsuche, Kreuzwortr\u00e4tsel oder W\u00f6rter-Raten kombinieren. Alle Generatoren nutzen dieselbe Bildbibliothek. So entsteht ein einheitliches Themenpaket f\u00fcr den Deutsch- oder Sachunterricht.',
+      },
+      {
+        id: 'faq-14',
+        question: 'Darf ich Buchstabensalat-Arbeitsbl\u00e4tter kommerziell verkaufen?',
+        answer: 'Ja, das Basis-Paket enth\u00e4lt eine kommerzielle Lizenz. Sie d\u00fcrfen erstellte Arbeitsbl\u00e4tter auf Plattformen wie Teachers Pay Teachers oder Lehrermarktplatz verkaufen. Auch der Einsatz in Nachhilfe-Instituten und Lerntherapie-Praxen ist erlaubt.',
+      },
+      {
+        id: 'faq-15',
+        question: 'Eignet sich der Buchstabensalat f\u00fcr DaF/DaZ-Unterricht?',
+        answer: 'Ja, der Generator ist ideal f\u00fcr Deutsch als Fremd- und Zweitsprache. Die Bildunterst\u00fctzung hilft beim Wortschatzerwerb, die Farbcodierung zeigt Vokale und Konsonanten. W\u00e4hlen Sie gezielt Alltagsvokabular oder thematische Wortfelder f\u00fcr Ihren DaZ-Kurs.',
+      },
+      {
+        id: 'faq-16',
+        question: 'Wie setze ich Buchstabensalat zur Differenzierung ein?',
+        answer: 'Erstellen Sie verschiedene Versionen desselben Themas: kurze W\u00f6rter mit Vokalhervorhebung f\u00fcr Anf\u00e4nger, l\u00e4ngere W\u00f6rter ohne Hilfen f\u00fcr Fortgeschrittene. Die vier Schwierigkeitsstufen und die Anzahl der R\u00e4tsel pro Seite erm\u00f6glichen flexible Differenzierung.',
+      },
+      {
+        id: 'faq-17',
+        question: 'Welche Rechtschreibkompetenzen f\u00f6rdert der Buchstabensalat?',
+        answer: 'Buchstabensalat trainiert das Erkennen von Buchstabenmustern, die korrekte Buchstabenreihenfolge und das visuelle Wortbild. Kinder verinnerlichen Wortstrukturen durch das aktive Umordnen der Buchstaben. Das unterst\u00fctzt den Schriftspracherwerb und die Rechtschreibsicherheit.',
+      },
+      {
+        id: 'faq-18',
+        question: 'Eignet sich der Buchstabensalat f\u00fcr Kinder mit F\u00f6rderbedarf?',
+        answer: 'Ja, durch die einstellbare Schwierigkeit und die visuelle Bildunterst\u00fctzung ist der Generator f\u00fcr inklusive Settings geeignet. Die Farbcodierung von Vokalen und Konsonanten gibt zus\u00e4tzliche Orientierung. Wenige R\u00e4tsel pro Seite vermeiden Reiz\u00fcberflutung.',
+      },
+      {
+        id: 'faq-19',
+        question: 'Sind die Buchstabensalat-\u00dcbungen an den Lehrplan angepasst?',
+        answer: 'Die \u00dcbungen unterst\u00fctzen Lernziele des Deutsch-Lehrplans f\u00fcr Klasse 1-3: Buchstabenerkennung, Wortaufbau und Rechtschreibmuster. Durch die freie Wortwahl passen Sie die R\u00e4tsel an jedes Lehrplanthema an, vom Sachunterricht bis zum Fremdsprachenlernen.',
+      },
+      {
+        id: 'faq-20',
+        question: 'Kann ich Buchstabensalat-Arbeitsbl\u00e4tter zu einem \u00dcbungsheft zusammenstellen?',
+        answer: 'Ja, erstellen Sie verschiedene thematische R\u00e4tsel und laden Sie alle als PDF herunter. Ordnen Sie die Bl\u00e4tter nach Schwierigkeit f\u00fcr ein progressives \u00dcbungsheft. Mit einem PDF-Programm f\u00fcgen Sie Einzelseiten und L\u00f6sungsbl\u00e4tter zu einem druckfertigen Arbeitsheft zusammen.',
+      },
     ],
 
   },

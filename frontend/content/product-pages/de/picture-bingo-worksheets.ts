@@ -217,6 +217,71 @@ Unser Bilder-Bingo-Generator erstellt zwei druckbare Arbeitsblätter bei jeder G
         question: 'In welchen Formaten kann ich Bilder-Bingo-Arbeitsbl\u00e4tter herunterladen?',
         answer: 'Sie k\u00f6nnen Ihre Bingo-Karten als JPEG oder PDF herunterladen, jeweils f\u00fcr Arbeitsblatt und Vorleseblatt separat. Alle Downloads werden in professioneller 300 DPI Aufl\u00f6sung exportiert. Bei mehreren Karten erhalten Sie eine ZIP-Datei oder ein mehrseitiges PDF. Graustufen-Modus ist ebenfalls verf\u00fcgbar um Druckkosten zu sparen.',
       },
+      {
+        id: 'faq-8',
+        question: 'Kann ich den Bilder-Bingo Generator kostenlos testen?',
+        answer: 'Ja, Sie k\u00f6nnen ohne Registrierung sofort Bingo-Karten erstellen. Die Vorschau zeigt Ihre fertigen Karten mit Wasserzeichen. Mit dem Basis-Paket laden Sie unbegrenzt ohne Wasserzeichen herunter. So testen Sie alle Rastergr\u00f6\u00dfen und F\u00fclloptionen risikofrei.',
+      },
+      {
+        id: 'faq-9',
+        question: 'Wie funktioniert das Vorleseblatt f\u00fcr die Lehrkraft?',
+        answer: 'Das Vorleseblatt zeigt alle verwendeten Bilder mit den zugeh\u00f6rigen W\u00f6rtern in zuf\u00e4lliger Reihenfolge. Die Lehrkraft liest die W\u00f6rter vor, die Kinder suchen das passende Bild auf ihrer Karte. Das Vorleseblatt wird automatisch generiert und ist separat als PDF oder JPEG herunterladbar.',
+      },
+      {
+        id: 'faq-10',
+        question: 'F\u00fcr welche Altersgruppen eignet sich Bilder-Bingo?',
+        answer: '3\u00d73 Raster eignen sich ab 3 Jahren f\u00fcr Kita-Kinder. 4\u00d74 Raster sind ideal f\u00fcr Vorschulkinder und Erstklasser. 5\u00d75 Raster fordern Kinder in Klasse 2-4 heraus. Die Bildunterst\u00fctzung macht Bingo auch ohne Lesekompetenz spielbar.',
+      },
+      {
+        id: 'faq-11',
+        question: 'Welche Sprachen unterst\u00fctzt der Bilder-Bingo Generator?',
+        answer: 'Der Generator unterst\u00fctzt 11 Sprachen: Deutsch, Englisch, Franz\u00f6sisch, Spanisch, Portugiesisch, Italienisch, Niederl\u00e4ndisch, Schwedisch, D\u00e4nisch, Norwegisch und Finnisch. Titel, Anweisungen und Wortbeschriftungen werden automatisch in der gew\u00e4hlten Sprache generiert.',
+      },
+      {
+        id: 'faq-12',
+        question: 'Gibt es einen Graustufen-Modus um Druckkosten zu sparen?',
+        answer: 'Ja, der Graustufen-Modus wandelt alle Farben in Schwarz-Wei\u00df-T\u00f6ne um. Das spart teure Farbpatronen beim Drucken mehrerer Bingo-Karten f\u00fcr die ganze Klasse. Die Bilder bleiben durch klare Konturen gut erkennbar.',
+      },
+      {
+        id: 'faq-13',
+        question: 'Kann ich Bilder-Bingo mit anderen Generatoren kombinieren?',
+        answer: 'Ja, erstellen Sie thematische Spielepakete indem Sie Bilder-Bingo mit Zuordnungs\u00fcbungen, Suchen-und-Z\u00e4hlen oder Wortsuche kombinieren. Alle Generatoren nutzen dieselbe Bildbibliothek. So \u00fcben Kinder dasselbe Vokabular in verschiedenen Spielformaten.',
+      },
+      {
+        id: 'faq-14',
+        question: 'Darf ich Bingo-Karten kommerziell verkaufen?',
+        answer: 'Ja, das Basis-Paket enth\u00e4lt eine kommerzielle Lizenz. Sie d\u00fcrfen erstellte Bingo-Karten auf Plattformen wie Teachers Pay Teachers oder Lehrermarktplatz verkaufen. Auch der Einsatz bei Kindergeburtstagen, in Nachmittagsbetreuung und Kita-Gruppen ist erlaubt.',
+      },
+      {
+        id: 'faq-15',
+        question: 'Wie setze ich Bilder-Bingo zur Differenzierung ein?',
+        answer: 'Verwenden Sie 3\u00d73 Raster mit nur Bildern f\u00fcr Anf\u00e4nger und 5\u00d75 Raster mit Bild-Wort-Kombination f\u00fcr Fortgeschrittene. Der Wort-Modus ohne Bilder fordert Leser heraus. So spielen alle Kinder zusammen, aber auf unterschiedlichem Niveau.',
+      },
+      {
+        id: 'faq-16',
+        question: 'Eignet sich Bilder-Bingo f\u00fcr DaF/DaZ-Unterricht?',
+        answer: 'Ja, Bilder-Bingo ist ideal f\u00fcr Deutsch als Fremd- und Zweitsprache. Die Bildunterst\u00fctzung erm\u00f6glicht Mitspielen ohne Lesekompetenz. Die Lehrkraft liest W\u00f6rter vor, Kinder ordnen Bilder zu \u2014 so wird H\u00f6rverst\u00e4ndnis und Wortschatz gleichzeitig trainiert.',
+      },
+      {
+        id: 'faq-17',
+        question: 'Welche p\u00e4dagogischen Ziele f\u00f6rdert Bilder-Bingo?',
+        answer: 'Bilder-Bingo trainiert H\u00f6rverst\u00e4ndnis, visuelle Zuordnung, Wortschatzerweiterung und Konzentration. Das Spielformat motiviert Kinder intrinsisch und f\u00f6rdert soziale Kompetenzen im Gruppenspiel. Die Wort-Bild-Zuordnung st\u00e4rkt zus\u00e4tzlich die Lesekompetenz.',
+      },
+      {
+        id: 'faq-18',
+        question: 'Eignet sich Bilder-Bingo f\u00fcr Kinder mit F\u00f6rderbedarf?',
+        answer: 'Ja, das Spielformat ist niedrigschwellig und besonders geeignet f\u00fcr inklusive Settings. Kleine 3\u00d73 Raster mit gro\u00dfen Bildern vermeiden Reiz\u00fcberflutung. Das gemeinsame Spielerlebnis f\u00f6rdert soziale Teilhabe unabh\u00e4ngig vom Leistungsniveau.',
+      },
+      {
+        id: 'faq-19',
+        question: 'Kann ich saisonale Bingo-Karten erstellen?',
+        answer: 'Ja, w\u00e4hlen Sie thematische Bilder aus der Bibliothek: Osterbilder im Fr\u00fchling, Strandmotive im Sommer, Herbstfr\u00fcchte oder Weihnachtsmotive im Winter. So erstellen Sie Bingo-Spiele passend zu Jahreszeiten, Feiertagen und aktuellen Unterrichtsthemen.',
+      },
+      {
+        id: 'faq-20',
+        question: 'Kann ich Bingo-Karten zu einem Spielepaket zusammenstellen?',
+        answer: 'Ja, erstellen Sie verschiedene Themen-Bingos und laden Sie alle als PDF oder ZIP herunter. Kombinieren Sie Tier-Bingo, Essen-Bingo und Fahrzeug-Bingo zu einem vielseitigen Spielepaket. Die Vorlesebl\u00e4tter werden automatisch f\u00fcr jedes Thema miterstellt.',
+      },
     ],
 
   },

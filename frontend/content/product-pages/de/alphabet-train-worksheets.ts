@@ -234,6 +234,76 @@ Laden Sie beide Dateien herunter. Wählen Sie zwischen JPEG und PDF Format. Beid
         question: 'Kann ich das Alphabet-Zug Arbeitsblatt nach der Erstellung noch bearbeiten?',
         answer: 'Ja, nach der Generierung k\u00f6nnen Sie das Arbeitsblatt vollst\u00e4ndig bearbeiten. Verschieben Sie Waggons per Drag-and-Drop, f\u00fcgen Sie Textanweisungen hinzu und \u00e4ndern Sie Hintergrundfarben. Die R\u00fcckg\u00e4ngig-Funktion erlaubt sorgenfreies Experimentieren mit Ihren Arbeitsbl\u00e4ttern Grundschule.',
       },
+      {
+        id: 'faq-7',
+        question: 'Kann ich den Alphabet-Zug Generator kostenlos testen?',
+        answer: 'Ja, Sie k\u00f6nnen ohne Registrierung sofort Alphabet-Zug Arbeitsbl\u00e4tter erstellen. Die Vorschau zeigt Ihr fertiges Arbeitsblatt mit Wasserzeichen. Mit dem Basis-Paket laden Sie unbegrenzt ohne Wasserzeichen herunter. So testen Sie alle Funktionen risikofrei.',
+      },
+      {
+        id: 'faq-8',
+        question: 'Wie viele Buchstaben und Waggons passen auf ein Arbeitsblatt?',
+        answer: 'Der Alphabet-Zug zeigt standardm\u00e4\u00dfig alle 26 Buchstaben plus optionale Sonderzeichen wie \u00c4, \u00d6, \u00dc. Die Waggons werden automatisch auf die Seitenbreite verteilt. Bei Querformat passen mehr Waggons nebeneinander. Sie k\u00f6nnen einzelne Buchstaben ausblenden f\u00fcr k\u00fcrzere Z\u00fcge.',
+      },
+      {
+        id: 'faq-9',
+        question: 'Welche Seitenformate stehen f\u00fcr den Druck zur Verf\u00fcgung?',
+        answer: 'Sie w\u00e4hlen zwischen Letter und A4 in Hoch- oder Querformat. Querformat eignet sich besonders gut f\u00fcr lange Buchstabenreihen. Alle Arbeitsbl\u00e4tter werden in professioneller 300 DPI Qualit\u00e4t als PDF oder JPEG exportiert.',
+      },
+      {
+        id: 'faq-10',
+        question: 'Gibt es einen Graustufen-Modus um Druckkosten zu sparen?',
+        answer: 'Ja, der Graustufen-Modus wandelt alle Farben in Schwarz-Wei\u00df-T\u00f6ne um. So sparen Sie teure Farbpatronen beim Ausdrucken ganzer Klassensets. Die Bildqualit\u00e4t bleibt bei 300 DPI erhalten und Konturen sind klar erkennbar.',
+      },
+      {
+        id: 'faq-11',
+        question: 'Kann ich eigene Bilder f\u00fcr den Alphabet-Zug hochladen?',
+        answer: 'Ja, \u00fcber den Datei-Upload-Button laden Sie eigene Bilder in JPEG, PNG oder GIF hoch. Hochgeladene Bilder lassen sich mit den \u00fcber 3000 Bibliotheksbildern kombinieren. So erstellen Sie personalisierte Alphabet-Z\u00fcge mit Fotos aus dem Klassenzimmer oder Familienbildern.',
+      },
+      {
+        id: 'faq-12',
+        question: 'Welche Sprachen unterst\u00fctzt der Alphabet-Zug Generator?',
+        answer: 'Der Generator unterst\u00fctzt 11 Sprachen: Deutsch, Englisch, Franz\u00f6sisch, Spanisch, Portugiesisch, Italienisch, Niederl\u00e4ndisch, Schwedisch, D\u00e4nisch, Norwegisch und Finnisch. Titel und Anweisungen werden automatisch in der gew\u00e4hlten Sprache generiert.',
+      },
+      {
+        id: 'faq-13',
+        question: 'Kann ich Alphabet-Z\u00fcge mit anderen Generatoren kombinieren?',
+        answer: 'Ja, erstellen Sie thematische Lernpakete indem Sie den Alphabet-Zug mit Schreib\u00fcbungen, Wortsuche oder Zuordnungs-Arbeitsbl\u00e4ttern kombinieren. Alle Generatoren nutzen dieselbe Bildbibliothek, sodass ein einheitliches Tierthema durch alle \u00dcbungen f\u00fchrt.',
+      },
+      {
+        id: 'faq-14',
+        question: 'Darf ich Alphabet-Zug Arbeitsbl\u00e4tter kommerziell verkaufen?',
+        answer: 'Ja, das Basis-Paket enth\u00e4lt eine kommerzielle Lizenz. Sie d\u00fcrfen erstellte Arbeitsbl\u00e4tter auf Plattformen wie Teachers Pay Teachers oder Lehrermarktplatz verkaufen. Auch der Einsatz in Nachhilfe-Instituten und Privatschulen ist erlaubt.',
+      },
+      {
+        id: 'faq-15',
+        question: 'Wie setze ich Alphabet-Z\u00fcge zur Differenzierung im Unterricht ein?',
+        answer: 'Erstellen Sie einfache Z\u00fcge mit nur wenigen fehlenden Buchstaben f\u00fcr Anf\u00e4nger und vollst\u00e4ndig gemischte Z\u00fcge f\u00fcr Fortgeschrittene. Die Schwierigkeitsstufen lassen sich \u00fcber die Anzahl versteckter Buchstaben steuern. So arbeiten alle Kinder am selben Thema auf ihrem Niveau.',
+      },
+      {
+        id: 'faq-16',
+        question: 'Welche Lernziele f\u00f6rdert der Alphabet-Zug?',
+        answer: 'Alphabet-Zug Arbeitsbl\u00e4tter f\u00f6rdern Buchstabenerkennung, alphabetische Reihenfolge, Laut-Buchstaben-Zuordnung und phonologische Bewusstheit. Durch die Bilder auf den Waggons wird gleichzeitig der Wortschatz erweitert und visuelles Lernen unterst\u00fctzt.',
+      },
+      {
+        id: 'faq-17',
+        question: 'Ist der Alphabet-Zug Generator an den Lehrplan angepasst?',
+        answer: 'Die Arbeitsbl\u00e4tter unterst\u00fctzen die Lernziele des Deutsch-Lehrplans f\u00fcr Vorschule und Klasse 1-2: Buchstabenerkennung, Anfangslaute und alphabetische Ordnung. Durch flexible Einstellungen passen Sie die \u00dcbungen an jeden Lehrplan an.',
+      },
+      {
+        id: 'faq-18',
+        question: 'Eignet sich der Alphabet-Zug f\u00fcr Kinder mit F\u00f6rderbedarf?',
+        answer: 'Ja, die bildgest\u00fctzte Darstellung macht den Alphabet-Zug besonders geeignet f\u00fcr inklusive Settings. Visuelle Lerner profitieren von den Bildzuordnungen. Die Schwierigkeit l\u00e4sst sich individuell anpassen und gro\u00dfe Druckformate verbessern die Lesbarkeit bei Sehschw\u00e4chen.',
+      },
+      {
+        id: 'faq-19',
+        question: 'Kann ich mehrere Alphabet-Zug Arbeitsbl\u00e4tter zu einem Heft zusammenstellen?',
+        answer: 'Ja, erstellen Sie verschiedene Varianten und laden Sie alle als PDF herunter. Kombinieren Sie einfache und schwierige Z\u00fcge zu einem progressiven \u00dcbungsheft. Mit einem PDF-Programm f\u00fcgen Sie die Einzelseiten zu einem druckfertigen Arbeitsheft zusammen.',
+      },
+      {
+        id: 'faq-20',
+        question: 'Was ist im Basis-Paket f\u00fcr den Alphabet-Zug enthalten?',
+        answer: 'Das Basis-Paket kostet 144\u20ac pro Jahr oder 15\u20ac pro Monat und umfasst unbegrenzte Arbeitsblatterstellung mit allen Alphabet-Zug Funktionen. Zus\u00e4tzlich erhalten Sie Zugang zu 10 weiteren Generatoren, \u00fcber 3000 Bildern, 11 Sprachen und einer kommerziellen Lizenz.',
+      },
     ],
 
   },

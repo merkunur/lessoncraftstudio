@@ -243,6 +243,71 @@ Die Graustufen-Option spart Druckertinte. Aktivieren Sie diese vor dem Download.
         question: 'Kann ich eigene W\u00f6rter statt der automatischen verwenden?',
         answer: 'Ja, Sie k\u00f6nnen die automatisch generierten W\u00f6rter manuell \u00e4ndern. Das ist ideal f\u00fcr w\u00f6chentliche Rechtschreibw\u00f6rter oder spezifisches Vokabular. Alternativ w\u00e4hlen Sie Bilder aus \u00fcber 3.000 Motiven, wobei das System die passenden deutschen W\u00f6rter automatisch extrahiert.',
       },
+      {
+        id: 'faq-8',
+        question: 'Kann ich den W\u00f6rter-Raten Generator kostenlos testen?',
+        answer: 'Ja, Sie k\u00f6nnen ohne Registrierung sofort Wortr\u00e4tsel-Arbeitsbl\u00e4tter erstellen. Die Vorschau zeigt Ihr fertiges R\u00e4tsel mit Wasserzeichen. Mit dem Vollzugriff laden Sie unbegrenzt ohne Wasserzeichen herunter. So testen Sie alle Schwierigkeitsstufen risikofrei.',
+      },
+      {
+        id: 'faq-9',
+        question: 'Welche Seitenformate stehen f\u00fcr den Druck zur Verf\u00fcgung?',
+        answer: 'Sie w\u00e4hlen zwischen Letter und A4 in Hoch- oder Querformat. Im Querformat passen mehr R\u00e4tsel nebeneinander in zwei Spalten. Alle Arbeitsbl\u00e4tter werden in professioneller 300 DPI Qualit\u00e4t als PDF oder JPEG exportiert.',
+      },
+      {
+        id: 'faq-10',
+        question: 'F\u00fcr welche Altersgruppen eignet sich W\u00f6rter-Raten?',
+        answer: 'Durch die vier Schwierigkeitsstufen eignet sich der Generator f\u00fcr Kinder von 5 bis 10 Jahren. Vorschulkinder \u00fcben mit 3-4 Buchstaben und Bildunterst\u00fctzung, Grundsch\u00fcler mit l\u00e4ngeren W\u00f6rtern und weniger Buchstabenhilfen. Die Anpassbarkeit macht es f\u00fcr alle Niveaus geeignet.',
+      },
+      {
+        id: 'faq-11',
+        question: 'Kann ich eigene Bilder f\u00fcr Wortr\u00e4tsel hochladen?',
+        answer: 'Ja, \u00fcber den Datei-Upload-Button laden Sie eigene Bilder in JPEG, PNG oder GIF hoch. Geben Sie das zugeh\u00f6rige L\u00f6sungswort manuell ein. So erstellen Sie personalisierte R\u00e4tsel mit Klassenfotos, Sachunterricht-Bildern oder Projektthemen.',
+      },
+      {
+        id: 'faq-12',
+        question: 'Gibt es einen Graustufen-Modus um Druckkosten zu sparen?',
+        answer: 'Ja, der Graustufen-Modus wandelt alle Farben in Schwarz-Wei\u00df-T\u00f6ne um. Das spart teure Farbpatronen beim Ausdrucken ganzer Klassensets. Die Bilder und Buchstabenk\u00e4stchen bleiben bei 300 DPI klar erkennbar.',
+      },
+      {
+        id: 'faq-13',
+        question: 'Kann ich W\u00f6rter-Raten mit anderen Generatoren kombinieren?',
+        answer: 'Ja, erstellen Sie umfassende Wortschatz-Pakete indem Sie W\u00f6rter-Raten mit Wortsuche, Buchstabensalat oder Kreuzwortr\u00e4tsel kombinieren. Alle Generatoren nutzen dieselbe Bildbibliothek. So \u00fcben Kinder dasselbe Vokabular in verschiedenen Aufgabenformaten.',
+      },
+      {
+        id: 'faq-14',
+        question: 'Darf ich Wortr\u00e4tsel-Arbeitsbl\u00e4tter kommerziell verkaufen?',
+        answer: 'Ja, der Vollzugriff enth\u00e4lt eine kommerzielle Lizenz. Sie d\u00fcrfen erstellte Arbeitsbl\u00e4tter auf Plattformen wie Teachers Pay Teachers oder Lehrermarktplatz verkaufen. Auch der Einsatz in Nachhilfe-Instituten und Lerntherapie-Praxen ist erlaubt.',
+      },
+      {
+        id: 'faq-15',
+        question: 'Eignet sich W\u00f6rter-Raten f\u00fcr DaF/DaZ-Unterricht?',
+        answer: 'Ja, der Generator ist ideal f\u00fcr Deutsch als Fremd- und Zweitsprache. Die Bild-Wort-Zuordnung unterst\u00fctzt den Wortschatzerwerb visuell. W\u00e4hlen Sie Alltagsvokabular oder thematische Wortfelder. Die einstellbare Schwierigkeit erm\u00f6glicht Einsatz auf allen Sprachniveaus.',
+      },
+      {
+        id: 'faq-16',
+        question: 'Wie setze ich W\u00f6rter-Raten zur Differenzierung ein?',
+        answer: 'Erstellen Sie verschiedene Versionen: viele aufgedeckte Buchstaben f\u00fcr Anf\u00e4nger, wenige Buchstaben f\u00fcr Fortgeschrittene. Kurze W\u00f6rter senken die Schwierigkeit, l\u00e4ngere W\u00f6rter erh\u00f6hen sie. Variieren Sie auch die Anzahl der R\u00e4tsel pro Seite f\u00fcr unterschiedliche Arbeitstempos.',
+      },
+      {
+        id: 'faq-17',
+        question: 'Welche Lernziele f\u00f6rdert W\u00f6rter-Raten?',
+        answer: 'W\u00f6rter-Raten trainiert Buchstabenerkennung, Wortaufbau, Wortschatzerweiterung und Rechtschreibkompetenz. Durch das Erschlie\u00dfen fehlender Buchstaben \u00fcben Kinder logisches Denken und Mustererkennung. Die Bildunterst\u00fctzung f\u00f6rdert zus\u00e4tzlich die Bild-Wort-Zuordnung.',
+      },
+      {
+        id: 'faq-18',
+        question: 'Eignet sich W\u00f6rter-Raten f\u00fcr Kinder mit F\u00f6rderbedarf?',
+        answer: 'Ja, durch die einstellbare Schwierigkeit und die visuelle Bildunterst\u00fctzung ist der Generator f\u00fcr inklusive Settings geeignet. Viele aufgedeckte Buchstaben geben Erfolgserlebnisse. Gro\u00dfe Buchstabenk\u00e4stchen und klare Bilder verbessern die Zug\u00e4nglichkeit bei Sehschw\u00e4chen.',
+      },
+      {
+        id: 'faq-19',
+        question: 'Sind die Wortr\u00e4tsel an den Lehrplan angepasst?',
+        answer: 'Die \u00dcbungen unterst\u00fctzen die Lernziele des Deutsch-Lehrplans f\u00fcr Klasse 1-3: Wortschatzerweiterung, Buchstabenerkennung und Rechtschreibmuster. Durch die freie Wortwahl passen Sie die R\u00e4tsel an jedes Unterrichtsthema an.',
+      },
+      {
+        id: 'faq-20',
+        question: 'Kann ich Wortr\u00e4tsel-Arbeitsbl\u00e4tter zu einem \u00dcbungsheft zusammenstellen?',
+        answer: 'Ja, erstellen Sie verschiedene thematische R\u00e4tsel und laden Sie alle als PDF herunter. Ordnen Sie die Bl\u00e4tter nach Schwierigkeit: erst kurze W\u00f6rter mit vielen Hinweisen, dann l\u00e4ngere W\u00f6rter mit weniger Hilfen. Mit einem PDF-Programm erstellen Sie ein druckfertiges Arbeitsheft.',
+      },
     ],
 
   },

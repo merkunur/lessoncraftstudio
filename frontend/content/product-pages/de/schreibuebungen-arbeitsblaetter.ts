@@ -263,6 +263,71 @@ Drucken Sie Ihre heruntergeladenen Arbeitsblätter auf Standarddruckerpapier ode
         question: 'Kann ich Bilder neben den Schreibzeilen platzieren?',
         answer: 'Ja, Sie k\u00f6nnen Bilder aus der Bibliothek mit \u00fcber 3000 Motiven oder eigene hochgeladene Bilder auf der Arbeitsfl\u00e4che platzieren. Positionieren Sie Bilder neben der zugeh\u00f6rigen Schreib\u00fcbung als Bildaufforderung. Das erm\u00f6glicht thematische Arbeitsbl\u00e4tter, die Bilder und Text kreativ kombinieren.',
       },
+      {
+        id: 'faq-8',
+        question: 'Kann ich den Schreib\u00fcbungen Generator kostenlos testen?',
+        answer: 'Ja, Sie k\u00f6nnen ohne Registrierung sofort Schreib\u00fcbungen erstellen. Die Vorschau zeigt Ihr fertiges Arbeitsblatt mit Wasserzeichen. Mit dem Vollzugriff laden Sie unbegrenzt ohne Wasserzeichen herunter. So testen Sie alle Schriftarten und Nachspurmodi risikofrei.',
+      },
+      {
+        id: 'faq-9',
+        question: 'Welche Seitenformate stehen f\u00fcr den Druck zur Verf\u00fcgung?',
+        answer: 'Sie w\u00e4hlen zwischen Letter und A4 in Hoch- oder Querformat. Im Hochformat passen 5-8 Schreibzeilen, im Querformat 6-10 breitere Zeilen. Alle Arbeitsbl\u00e4tter werden in professioneller 300 DPI Qualit\u00e4t als PDF oder JPEG exportiert.',
+      },
+      {
+        id: 'faq-10',
+        question: 'F\u00fcr welche Altersgruppen eignen sich die Schreib\u00fcbungen?',
+        answer: 'Die Schreib\u00fcbungen eignen sich f\u00fcr Kinder von 4 bis 8 Jahren. Vorschulkinder beginnen mit dem Nachspuren in Druckschrift, Erstkl\u00e4ssler \u00fcben mit dem Verblassen-Modus und Zweitkl\u00e4ssler arbeiten mit der Vorlage-Methode. Schwung\u00fcbungen sind bereits ab 3 Jahren sinnvoll.',
+      },
+      {
+        id: 'faq-11',
+        question: 'Gibt es einen Graustufen-Modus um Druckkosten zu sparen?',
+        answer: 'Ja, der Graustufen-Modus wandelt alle Farben in Schwarz-Wei\u00df-T\u00f6ne um. Das spart teure Farbpatronen beim Ausdrucken ganzer Klassensets. Die Schreiblinien und Buchstabenvorlagen bleiben klar erkennbar bei voller 300 DPI Qualit\u00e4t.',
+      },
+      {
+        id: 'faq-12',
+        question: 'Kann ich Schreib\u00fcbungen mit anderen Generatoren kombinieren?',
+        answer: 'Ja, erstellen Sie umfassende Schreiblernpakete indem Sie Schreib\u00fcbungen mit Schwung\u00fcbungen, Alphabet-Zug oder Buchstabensalat kombinieren. Beginnen Sie mit Schwung\u00fcbungen als Auflockerung, dann Schreib\u00fcbungen f\u00fcr Buchstaben, und schlie\u00dflich Wort\u00fcbungen.',
+      },
+      {
+        id: 'faq-13',
+        question: 'Darf ich Schreib\u00fcbungen-Arbeitsbl\u00e4tter kommerziell verkaufen?',
+        answer: 'Ja, der Vollzugriff enth\u00e4lt eine kommerzielle Lizenz. Sie d\u00fcrfen erstellte Arbeitsbl\u00e4tter auf Plattformen wie Teachers Pay Teachers oder Lehrermarktplatz verkaufen. Auch der Einsatz in Nachhilfe-Instituten und Ergotherapie-Praxen ist erlaubt.',
+      },
+      {
+        id: 'faq-14',
+        question: 'Eignen sich die Schreib\u00fcbungen f\u00fcr DaF/DaZ-Lernende?',
+        answer: 'Ja, die Nachspur-Funktionen sind ideal f\u00fcr DaZ-Kinder, die das lateinische Alphabet neu lernen. W\u00e4hlen Sie gezielt Buchstaben, die Schwierigkeiten bereiten, und kombinieren Sie Schreib\u00fcbungen mit Bildaufforderungen f\u00fcr gleichzeitigen Wortschatzerwerb.',
+      },
+      {
+        id: 'faq-15',
+        question: 'Wie setze ich Schreib\u00fcbungen zur Differenzierung ein?',
+        answer: 'Nutzen Sie den Nachspuren-Modus f\u00fcr Anf\u00e4nger, den Verblassen-Modus f\u00fcr Fortgeschrittene und die Vorlage-Methode f\u00fcr sichere Schreiber. Variieren Sie zus\u00e4tzlich die Zeilenanzahl und Textl\u00e4nge. So arbeiten alle Kinder am selben Thema auf ihrem individuellen Niveau.',
+      },
+      {
+        id: 'faq-16',
+        question: 'Welche Buchstaben-Formationen lassen sich gezielt \u00fcben?',
+        answer: 'Sie geben beliebige Texte ein \u2014 einzelne Buchstaben, Silben, W\u00f6rter oder ganze S\u00e4tze. F\u00fcr gezielte \u00dcbungen gruppieren Sie \u00e4hnliche Buchstaben: Rundungen (a, c, d, o), Aufstriche (b, h, k, l) oder Sonderbuchstaben (\u00e4, \u00f6, \u00fc, \u00df). Druckschrift und Schreibschrift sind separat w\u00e4hlbar.',
+      },
+      {
+        id: 'faq-17',
+        question: 'Eignen sich die Schreib\u00fcbungen f\u00fcr Kinder mit F\u00f6rderbedarf?',
+        answer: 'Ja, der Nachspuren-Modus mit deutlichen Buchstabenvorlagen ist besonders geeignet f\u00fcr Kinder mit Feinmotorik-Schwierigkeiten. Gro\u00dfe Zeilenabst\u00e4nde und wenige Zeilen pro Seite vermeiden \u00dcberforderung. Die progressive Steigerung von Nachspuren \u00fcber Verblassen zur Vorlage erm\u00f6glicht individuelles Lerntempo.',
+      },
+      {
+        id: 'faq-18',
+        question: 'Sind die Schreib\u00fcbungen an den Lehrplan angepasst?',
+        answer: 'Die \u00dcbungen unterst\u00fctzen die Schreiblernziele des Deutsch-Lehrplans f\u00fcr Klasse 1-2: Druckschrift lernen, Schreibschrift einf\u00fchren und fl\u00fcssiges Schreiben \u00fcben. Die drei Nachspurmodi entsprechen der p\u00e4dagogischen Progression vom gef\u00fchrten zum freien Schreiben.',
+      },
+      {
+        id: 'faq-19',
+        question: 'Gibt es spezielle Einstellungen f\u00fcr Linksh\u00e4nder?',
+        answer: 'Die Arbeitsbl\u00e4tter sind f\u00fcr Links- und Rechtsh\u00e4nder gleicherma\u00dfen geeignet. Verwenden Sie den Querformat-Modus f\u00fcr eine nat\u00fcrlichere Schreibhaltung bei Linksh\u00e4ndern. Die Nachspurlinien haben keine vorgegebene Strichrichtung, sodass Kinder ihre bevorzugte Schreibbewegung nutzen k\u00f6nnen.',
+      },
+      {
+        id: 'faq-20',
+        question: 'Kann ich Schreib\u00fcbungen-Arbeitsbl\u00e4tter zu einem Heft zusammenstellen?',
+        answer: 'Ja, erstellen Sie verschiedene \u00dcbungsbl\u00e4tter von Buchstaben bis zu ganzen S\u00e4tzen und laden Sie alle als PDF herunter. Ordnen Sie die Bl\u00e4tter progressiv: erst Schwung\u00fcbungen, dann Einzelbuchstaben, Silben, W\u00f6rter und schlie\u00dflich S\u00e4tze. So entsteht ein vollst\u00e4ndiges Schreiblernheft.',
+      },
     ],
 
   },

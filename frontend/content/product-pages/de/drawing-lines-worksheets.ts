@@ -227,6 +227,71 @@ Alle Arbeitsblätter werden in professioneller 300 DPI Auflösung für gestochen
         question: 'Wie viel kostet das Basis-Paket und was ist enthalten?',
         answer: 'Das Basis-Paket kostet 144\u20ac pro Jahr und beinhaltet unbegrenzte Arbeitsblatterstellung mit allen 8 Schwung\u00fcbungen-Vorlagen. Zus\u00e4tzlich erhalten Sie Zugriff auf 10 Arbeitsblatt-Generatoren, \u00fcber 3000 Bilder, 11 Sprachen und eine kommerzielle Lizenz. Es gibt keine Zusatzkosten pro Arbeitsblatt.',
       },
+      {
+        id: 'faq-8',
+        question: 'Kann ich den Schwung\u00fcbungen Generator kostenlos testen?',
+        answer: 'Ja, Sie k\u00f6nnen ohne Registrierung sofort Schwung\u00fcbungen-Arbeitsbl\u00e4tter erstellen. Die Vorschau zeigt Ihr fertiges Arbeitsblatt mit Wasserzeichen. Mit dem Basis-Paket laden Sie unbegrenzt ohne Wasserzeichen herunter. So testen Sie alle 8 Vorlagentypen risikofrei.',
+      },
+      {
+        id: 'faq-9',
+        question: 'Welche Seitenformate stehen f\u00fcr den Druck zur Verf\u00fcgung?',
+        answer: 'Sie w\u00e4hlen zwischen Letter und A4 in Hoch- oder Querformat. Querformat bietet breitere Linien f\u00fcr ausladende Schwung\u00fcbungen. Alle Arbeitsbl\u00e4tter werden in professioneller 300 DPI Qualit\u00e4t als PDF oder JPEG exportiert.',
+      },
+      {
+        id: 'faq-10',
+        question: 'Wie viele Schwung\u00fcbungen passen auf eine Seite?',
+        answer: 'Die Anzahl h\u00e4ngt von der gew\u00e4hlten Vorlage und dem Seitenformat ab. Im Hochformat passen typischerweise 4-6 \u00dcbungszeilen, im Querformat 3-4 breitere Linien. Bilder werden automatisch zwischen den Linien platziert als visuelle Leitpunkte.',
+      },
+      {
+        id: 'faq-11',
+        question: 'Eignen sich Schwung\u00fcbungen f\u00fcr die Ergotherapie?',
+        answer: 'Ja, Ergotherapeuten nutzen Schwung\u00fcbungen gezielt zur F\u00f6rderung der Feinmotorik und Stifthaltung. Die 8 verschiedenen Vorlagen trainieren unterschiedliche Bewegungsmuster: Kurven f\u00f6rdern Handgelenkflexibilit\u00e4t, Diagonalen st\u00e4rken die Auge-Hand-Koordination. Die individuelle Anpassbarkeit erm\u00f6glicht therapeutisch abgestufte \u00dcbungen.',
+      },
+      {
+        id: 'faq-12',
+        question: 'Kann ich Schwung\u00fcbungen mit anderen Generatoren kombinieren?',
+        answer: 'Ja, erstellen Sie ganzheitliche Feinmotorik-Pakete indem Sie Schwung\u00fcbungen mit Schreib\u00fcbungen, Ausmalbildern oder Zuordnungs-Arbeitsbl\u00e4ttern kombinieren. Alle Generatoren nutzen dieselbe Bildbibliothek f\u00fcr ein einheitliches Thema durch alle \u00dcbungen.',
+      },
+      {
+        id: 'faq-13',
+        question: 'Darf ich Schwung\u00fcbungen-Arbeitsbl\u00e4tter kommerziell verkaufen?',
+        answer: 'Ja, das Basis-Paket enth\u00e4lt eine kommerzielle Lizenz. Sie d\u00fcrfen erstellte Arbeitsbl\u00e4tter auf Plattformen wie Teachers Pay Teachers oder Lehrermarktplatz verkaufen. Auch der Einsatz in Ergotherapie-Praxen und Nachhilfe-Instituten ist erlaubt.',
+      },
+      {
+        id: 'faq-14',
+        question: 'Gibt es einen Graustufen-Modus um Druckkosten zu sparen?',
+        answer: 'Ja, der Graustufen-Modus wandelt alle Farben in Schwarz-Wei\u00df-T\u00f6ne um. Das spart teure Farbpatronen beim Ausdrucken ganzer Klassensets. Die Linienf\u00fchrung bleibt klar erkennbar und die Bildqualit\u00e4t wird bei 300 DPI beibehalten.',
+      },
+      {
+        id: 'faq-15',
+        question: 'Eignen sich die Schwung\u00fcbungen f\u00fcr DaF/DaZ-Kinder?',
+        answer: 'Ja, Schwung\u00fcbungen sind sprachunabh\u00e4ngig und eignen sich perfekt f\u00fcr DaZ-Kinder. Die visuelle Linienf\u00fchrung erfordert keine Lesekompetenz. Gleichzeitig bereiten sie auf das Schreiben deutscher Buchstaben vor und trainieren die f\u00fcr Druckschrift und Schreibschrift n\u00f6tigen Bewegungsmuster.',
+      },
+      {
+        id: 'faq-16',
+        question: 'Wie setze ich Schwung\u00fcbungen zur Differenzierung ein?',
+        answer: 'Verwenden Sie einfache horizontale Linien f\u00fcr Anf\u00e4nger und komplexe Kurven-Kombinationen f\u00fcr Fortgeschrittene. Breitere Linien mit wenigen Wiederholungen senken die Schwierigkeit, d\u00fcnnere Linien mit vielen Richtungswechseln erh\u00f6hen sie. So arbeiten alle Kinder am selben Thema auf ihrem Niveau.',
+      },
+      {
+        id: 'faq-17',
+        question: 'Sind Schwung\u00fcbungen an den Lehrplan f\u00fcr die Vorschule angepasst?',
+        answer: 'Die \u00dcbungen unterst\u00fctzen die graphomotorischen Lernziele des Bildungsplans f\u00fcr Kindergarten und Vorschule: Stifthaltung, Linienverfolgung und Richtungswechsel. Die 8 Vorlagentypen decken alle grundlegenden Schwungformen ab, die f\u00fcr den sp\u00e4teren Schreiblernprozess ben\u00f6tigt werden.',
+      },
+      {
+        id: 'faq-18',
+        question: 'Eignen sich die Schwung\u00fcbungen f\u00fcr Kinder mit F\u00f6rderbedarf?',
+        answer: 'Ja, die klaren Linienvorgaben und visuellen Orientierungspunkte machen Schwung\u00fcbungen besonders geeignet f\u00fcr inklusive Settings. Gro\u00dfe Druckformate verbessern die Sichtbarkeit. Die progressive Schwierigkeit von einfachen Geraden bis zu komplexen Kurven erm\u00f6glicht individuelles Lerntempo.',
+      },
+      {
+        id: 'faq-19',
+        question: 'Kann ich saisonale Schwung\u00fcbungen-Arbeitsbl\u00e4tter erstellen?',
+        answer: 'Ja, w\u00e4hlen Sie thematische Bilder aus der Bibliothek: Osterhasen im Fr\u00fchling, Sonnenblumen im Sommer, Bl\u00e4tter im Herbst oder Schneeflocken im Winter. Die Bilder werden als visuelle Leitpunkte entlang der Schwunglinien platziert.',
+      },
+      {
+        id: 'faq-20',
+        question: 'Kann ich Schwung\u00fcbungen-Arbeitsbl\u00e4tter zu einem Heft zusammenstellen?',
+        answer: 'Ja, erstellen Sie verschiedene Vorlagentypen von einfach bis komplex und laden Sie alle als PDF herunter. Ordnen Sie die Bl\u00e4tter nach Schwierigkeitsgrad f\u00fcr ein progressives Feinmotorik-Trainingsheft. Mit einem PDF-Programm f\u00fcgen Sie Einzelseiten zu einem druckfertigen Arbeitsheft zusammen.',
+      },
     ],
 
   },

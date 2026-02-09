@@ -239,6 +239,71 @@ Laden Sie Arbeitsblatt und Antwortschlüssel getrennt herunter. Jedes als separa
         question: 'Welche Seitenformate stehen f\u00fcr den Druck zur Verf\u00fcgung?',
         answer: 'Sie k\u00f6nnen zwischen Letter und A4 in Hoch- oder Querformat w\u00e4hlen. Querformat bietet mehr Platz f\u00fcr gr\u00f6\u00dfere Raster. Alle Arbeitsbl\u00e4tter werden in professioneller 300 DPI Qualit\u00e4t exportiert. Die Graustufen-Option spart Druckertinte bei farbigen Bildern.',
       },
+      {
+        id: 'faq-8',
+        question: 'Kann ich den Suchen-und-Z\u00e4hlen Generator kostenlos testen?',
+        answer: 'Ja, Sie k\u00f6nnen ohne Registrierung sofort Suchen-und-Z\u00e4hlen-Arbeitsbl\u00e4tter erstellen. Die Vorschau zeigt Ihr fertiges Arbeitsblatt mit Wasserzeichen. Mit dem Basis-Paket laden Sie unbegrenzt ohne Wasserzeichen herunter. So testen Sie alle 4 Aufgabentypen risikofrei.',
+      },
+      {
+        id: 'faq-9',
+        question: 'Wie funktioniert die automatische Schwierigkeitsanpassung?',
+        answer: 'Die Schwierigkeit wird \u00fcber die Rastergr\u00f6\u00dfe gesteuert: 5\u00d75 ist einfach f\u00fcr Vorschulkinder, 7\u00d77 mittelschwer f\u00fcr Erstkl\u00e4ssler und 10\u00d710 anspruchsvoll f\u00fcr \u00e4ltere Sch\u00fcler. Gr\u00f6\u00dfere Raster bedeuten mehr Bilder und erfordern h\u00f6here Konzentration beim Suchen und Z\u00e4hlen.',
+      },
+      {
+        id: 'faq-10',
+        question: 'Welche Sprachen unterst\u00fctzt der Suchen-und-Z\u00e4hlen Generator?',
+        answer: 'Der Generator unterst\u00fctzt 11 Sprachen: Deutsch, Englisch, Franz\u00f6sisch, Spanisch, Portugiesisch, Italienisch, Niederl\u00e4ndisch, Schwedisch, D\u00e4nisch, Norwegisch und Finnisch. Alle Anweisungen und Beschriftungen werden automatisch in der gew\u00e4hlten Sprache generiert.',
+      },
+      {
+        id: 'faq-11',
+        question: 'Gibt es einen Graustufen-Modus um Druckkosten zu sparen?',
+        answer: 'Ja, der Graustufen-Modus wandelt alle Farben in Schwarz-Wei\u00df-T\u00f6ne um. Das spart teure Farbpatronen beim Ausdrucken ganzer Klassensets. Die Bilder bleiben durch klare Konturen gut unterscheidbar und die Z\u00e4hlaufgaben funktionieren uneingeschr\u00e4nkt.',
+      },
+      {
+        id: 'faq-12',
+        question: 'Kann ich Suchen-und-Z\u00e4hlen mit anderen Generatoren kombinieren?',
+        answer: 'Ja, erstellen Sie umfassende Mathe-Pakete indem Sie Suchen-und-Z\u00e4hlen mit Additions-, Subtraktions- oder Muster-Arbeitsbl\u00e4ttern kombinieren. Alle Generatoren nutzen dieselbe Bildbibliothek. So \u00fcben Kinder Z\u00e4hlen und Rechnen mit denselben vertrauten Bildern.',
+      },
+      {
+        id: 'faq-13',
+        question: 'Darf ich Suchen-und-Z\u00e4hlen-Arbeitsbl\u00e4tter kommerziell verkaufen?',
+        answer: 'Ja, das Basis-Paket enth\u00e4lt eine kommerzielle Lizenz. Sie d\u00fcrfen erstellte Arbeitsbl\u00e4tter auf Plattformen wie Teachers Pay Teachers oder Lehrermarktplatz verkaufen. Auch der Einsatz in Nachhilfe-Instituten und Kita-Gruppen ist erlaubt.',
+      },
+      {
+        id: 'faq-14',
+        question: 'Wie setze ich Suchen-und-Z\u00e4hlen zur Differenzierung ein?',
+        answer: 'Verwenden Sie kleine Raster mit Einkreisen-Aufgaben f\u00fcr Anf\u00e4nger und gro\u00dfe Raster mit Z\u00e4hl-Aufgaben f\u00fcr Fortgeschrittene. Die vier Aufgabentypen bieten unterschiedliche Schwierigkeitsgrade. So arbeiten alle Kinder am selben Thema auf ihrem individuellen Niveau.',
+      },
+      {
+        id: 'faq-15',
+        question: 'Eignet sich Suchen-und-Z\u00e4hlen f\u00fcr DaF/DaZ-Kinder?',
+        answer: 'Ja, die visuellen Aufgaben erfordern keine Lesekompetenz und sind sprachunabh\u00e4ngig verst\u00e4ndlich. Bilder z\u00e4hlen, einkreisen oder ankreuzen gelingt auch ohne Deutschkenntnisse. Gleichzeitig erweitern die Bildmotive den Wortschatz bei DaZ-Kindern auf spielerische Weise.',
+      },
+      {
+        id: 'faq-16',
+        question: 'Welche mathematischen Grundkompetenzen werden gef\u00f6rdert?',
+        answer: 'Suchen-und-Z\u00e4hlen f\u00f6rdert Mengenerfassung, Eins-zu-eins-Zuordnung, Zahlenerkennung und visuelles Diskriminieren. Das Einkreisen trainiert Feinmotorik, das Z\u00e4hlen st\u00e4rkt das Zahlverst\u00e4ndnis. Diese Kompetenzen bilden die Grundlage f\u00fcr sp\u00e4tere Rechenoperationen.',
+      },
+      {
+        id: 'faq-17',
+        question: 'Sind die \u00dcbungen an den Mathematik-Lehrplan angepasst?',
+        answer: 'Die Aufgaben unterst\u00fctzen die Lernziele des Mathematik-Lehrplans f\u00fcr Vorschule und Klasse 1: Z\u00e4hlen bis 20, Mengen vergleichen und visuelle Zuordnung. Die flexiblen Rastergr\u00f6\u00dfen und Aufgabentypen lassen sich an jeden Lehrplan anpassen.',
+      },
+      {
+        id: 'faq-18',
+        question: 'Eignet sich Suchen-und-Z\u00e4hlen f\u00fcr Kinder mit F\u00f6rderbedarf?',
+        answer: 'Ja, die klaren visuellen Aufgaben und die einstellbare Rastergr\u00f6\u00dfe machen den Generator besonders geeignet f\u00fcr inklusive Settings. Kleine Raster mit wenigen Bildern vermeiden Reiz\u00fcberflutung. Die Einkreis-Aufgabe ist der niedrigschwelligste Einstieg.',
+      },
+      {
+        id: 'faq-19',
+        question: 'Kann ich saisonale Suchen-und-Z\u00e4hlen-Arbeitsbl\u00e4tter erstellen?',
+        answer: 'Ja, w\u00e4hlen Sie thematische Bilder aus der Bibliothek: Fr\u00fchlingsblumen, Sommereis, Herbstbl\u00e4tter oder Winterschneeflocken. So erstellen Sie Arbeitsbl\u00e4tter passend zum Jahreskreis und aktuellen Sachunterrichtsthemen.',
+      },
+      {
+        id: 'faq-20',
+        question: 'Kann ich Suchen-und-Z\u00e4hlen-Arbeitsbl\u00e4tter zu einem Heft zusammenstellen?',
+        answer: 'Ja, erstellen Sie verschiedene Aufgabentypen und Rastergr\u00f6\u00dfen und laden Sie alle als PDF herunter. Ordnen Sie die Bl\u00e4tter von einfach nach schwierig f\u00fcr ein progressives \u00dcbungsheft. Mit einem PDF-Programm f\u00fcgen Sie Arbeitsbl\u00e4tter und L\u00f6sungsschl\u00fcssel zusammen.',
+      },
     ],
 
   },

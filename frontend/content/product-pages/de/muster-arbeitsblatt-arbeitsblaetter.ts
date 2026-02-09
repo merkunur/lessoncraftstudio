@@ -249,6 +249,71 @@ Drucken Sie die Arbeitsblätter auf normalem Kopierpapier. Die 300 DPI Qualität
         question: 'Was kostet das Vollzugriff Abo f\u00fcr den Muster-Arbeitsblatt Generator?',
         answer: 'Das Vollzugriff Abo kostet 240\u20ac pro Jahr und beinhaltet alle 33 Arbeitsblatt-Generatoren. Sie erstellen unbegrenzt Muster-Arbeitsbl\u00e4tter mit allen 9 Mustertypen. Die kommerzielle Lizenz, 11 Sprachen und \u00fcber 3000 Bilder sind inklusive.',
       },
+      {
+        id: 'faq-8',
+        question: 'Kann ich den Muster-Arbeitsblatt Generator kostenlos testen?',
+        answer: 'Ja, Sie k\u00f6nnen ohne Registrierung sofort Muster-Arbeitsbl\u00e4tter erstellen. Die Vorschau zeigt Ihr fertiges Arbeitsblatt mit Wasserzeichen. Mit dem Vollzugriff laden Sie unbegrenzt ohne Wasserzeichen herunter. So testen Sie alle 9 Mustertypen risikofrei.',
+      },
+      {
+        id: 'faq-9',
+        question: 'Welche Seitenformate stehen f\u00fcr den Druck zur Verf\u00fcgung?',
+        answer: 'Sie w\u00e4hlen zwischen Letter und A4 in Hoch- oder Querformat. Im Querformat passen breitere Musterreihen mit mehr Elementen. Alle Arbeitsbl\u00e4tter werden in professioneller 300 DPI Qualit\u00e4t als PDF oder JPEG exportiert.',
+      },
+      {
+        id: 'faq-10',
+        question: 'F\u00fcr welche Altersgruppen eignen sich Muster-Arbeitsbl\u00e4tter?',
+        answer: 'AB-Muster eignen sich ab 4 Jahren f\u00fcr Vorschulkinder. ABC- und ABB-Muster sind ideal f\u00fcr die erste Klasse. Komplexe ABCD- und AABB-Muster fordern Kinder in Klasse 2-3 heraus. Die Bildunterst\u00fctzung macht alle Schwierigkeitsstufen zug\u00e4nglich.',
+      },
+      {
+        id: 'faq-11',
+        question: 'Gibt es einen Graustufen-Modus um Druckkosten zu sparen?',
+        answer: 'Ja, der Graustufen-Modus wandelt alle Farben in Schwarz-Wei\u00df-T\u00f6ne um. Das spart teure Farbpatronen beim Ausdrucken ganzer Klassensets. Die Bilder bleiben durch klare Konturen gut erkennbar und die Muster sind eindeutig unterscheidbar.',
+      },
+      {
+        id: 'faq-12',
+        question: 'Kann ich eigene Bilder f\u00fcr Muster-Arbeitsbl\u00e4tter hochladen?',
+        answer: 'Ja, \u00fcber den Datei-Upload-Button laden Sie eigene Bilder in JPEG, PNG oder GIF hoch. Kombinieren Sie hochgeladene Bilder mit Motiven aus der Bibliothek. So erstellen Sie personalisierte Muster mit Klassenfotos oder Projektbildern.',
+      },
+      {
+        id: 'faq-13',
+        question: 'Kann ich Muster-Arbeitsbl\u00e4tter mit anderen Generatoren kombinieren?',
+        answer: 'Ja, erstellen Sie umfassende Mathe-Pakete indem Sie Muster-Arbeitsbl\u00e4tter mit Additions-, Subtraktions- oder Z\u00e4hl\u00fcbungen kombinieren. Alle Generatoren nutzen dieselbe Bildbibliothek. So entsteht ein thematisch einheitliches Lernpaket f\u00fcr den Mathematikunterricht.',
+      },
+      {
+        id: 'faq-14',
+        question: 'Darf ich Muster-Arbeitsbl\u00e4tter kommerziell verkaufen?',
+        answer: 'Ja, der Vollzugriff enth\u00e4lt eine kommerzielle Lizenz. Sie d\u00fcrfen erstellte Arbeitsbl\u00e4tter auf Plattformen wie Teachers Pay Teachers oder Lehrermarktplatz verkaufen. Auch der Einsatz in Nachhilfe-Instituten und F\u00f6rderschulen ist erlaubt.',
+      },
+      {
+        id: 'faq-15',
+        question: 'Wie setze ich Muster-\u00dcbungen zur Differenzierung ein?',
+        answer: 'Verwenden Sie einfache AB-Muster mit L\u00fcckenfeld f\u00fcr Anf\u00e4nger und komplexe ABCD-Muster mit Multiple-Choice f\u00fcr Fortgeschrittene. Variieren Sie zus\u00e4tzlich die Anzahl der \u00dcbungen pro Seite. So arbeiten alle Kinder am Thema Muster auf ihrem individuellen Niveau.',
+      },
+      {
+        id: 'faq-16',
+        question: 'Warum ist Mustererkennung f\u00fcr die Mathematik wichtig?',
+        answer: 'Mustererkennung ist eine Grundkompetenz f\u00fcr algebraisches Denken. Kinder lernen Regelm\u00e4\u00dfigkeiten zu erkennen, Vorhersagen zu treffen und logisch zu schlie\u00dfen. Diese F\u00e4higkeiten bilden die Basis f\u00fcr Zahlenfolgen, Multiplikation und sp\u00e4tere mathematische Konzepte.',
+      },
+      {
+        id: 'faq-17',
+        question: 'Sind die Muster-\u00dcbungen an den Mathematik-Lehrplan angepasst?',
+        answer: 'Die \u00dcbungen unterst\u00fctzen die Lernziele des Mathematik-Lehrplans f\u00fcr Vorschule und Klasse 1-2: Muster erkennen, fortsetzen und selbst erstellen. Einfache AB-Muster entsprechen den Anforderungen der Vorschule, komplexere Muster den Zielen der Grundschule.',
+      },
+      {
+        id: 'faq-18',
+        question: 'Eignen sich Muster-Arbeitsbl\u00e4tter f\u00fcr Kinder mit F\u00f6rderbedarf?',
+        answer: 'Ja, die bildgest\u00fctzte Darstellung macht Muster-\u00dcbungen besonders zug\u00e4nglich f\u00fcr inklusive Settings. Visuelle Lerner profitieren von den klaren Bildmustern. Einfache AB-Muster mit L\u00fcckenfeld bieten einen niedrigschwelligen Einstieg auch bei eingeschr\u00e4nkten kognitiven F\u00e4higkeiten.',
+      },
+      {
+        id: 'faq-19',
+        question: 'Werden die Arbeitsbl\u00e4tter auch in anderen Sprachen unterst\u00fctzt?',
+        answer: 'Ja, der Generator unterst\u00fctzt 11 Sprachen: Deutsch, Englisch, Franz\u00f6sisch, Spanisch, Portugiesisch, Italienisch, Niederl\u00e4ndisch, Schwedisch, D\u00e4nisch, Norwegisch und Finnisch. Titel und Anweisungen werden automatisch in der gew\u00e4hlten Sprache generiert.',
+      },
+      {
+        id: 'faq-20',
+        question: 'Kann ich Muster-Arbeitsbl\u00e4tter zu einem \u00dcbungsheft zusammenstellen?',
+        answer: 'Ja, erstellen Sie verschiedene Mustertypen von einfach (AB) bis komplex (ABCD) und laden Sie alle als PDF herunter. Ordnen Sie die Bl\u00e4tter nach Schwierigkeit f\u00fcr ein progressives Mathe-\u00dcbungsheft. Mit einem PDF-Programm f\u00fcgen Sie Einzelseiten und L\u00f6sungsbl\u00e4tter zusammen.',
+      },
     ],
 
   },

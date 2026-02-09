@@ -525,8 +525,13 @@ export async function GET() {
           const idx = Math.abs(hash) % discovered.length;
           const sample = discovered[idx];
           const sampleUrl = `${baseUrl}${sample.worksheetSrc.replace(/ /g, '%20')}`;
-          const imgTitle = generateSchemaDescription(app.productName, locale, translation.focusKeyword);
-          const imgCaption = `${app.productName} - worksheet sample`;
+
+          // Use DB metadata when available, fall back to template
+          const sampleFilename = sample.worksheetSrc.split('/').pop() || '';
+          const seoKey = `${app.appId}:${locale}:${sampleFilename}`;
+          const seoMeta = seoMetaMap.get(seoKey);
+          const imgTitle = seoMeta?.title || generateSchemaDescription(app.productName, locale, translation.focusKeyword);
+          const imgCaption = seoMeta?.description || seoMeta?.altText || generateSchemaDescription(app.productName, locale, translation.focusKeyword);
 
           blogImageLines.push(`    <image:image>`);
           blogImageLines.push(`      <image:loc>${escapeXml(sampleUrl)}</image:loc>`);

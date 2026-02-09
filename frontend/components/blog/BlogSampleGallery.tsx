@@ -16,6 +16,12 @@ interface BlogSampleItem {
   productUrl: string;
   productName: string;
   appId: string;
+  // DB metadata (when available from productSample table)
+  dbAltText?: string;
+  dbTitle?: string;
+  dbDescription?: string;
+  dbKeywords?: string[];
+  dbGrade?: string;
 }
 
 interface BlogSampleGalleryProps {
@@ -124,12 +130,14 @@ export default function BlogSampleGallery({
         const blogPageUrl = `${baseUrl}/${locale}/blog/${blogSlug}`;
         const imageData = {
           src: sample.worksheetSrc,
-          name: `${sample.productName} - ${sampleLabel} ${index + 1}`,
-          description: generateSchemaDescription(sample.productName, locale, focusKeyword),
-          caption: `${sampleLabel} - ${sample.productName}`,
+          name: sample.dbTitle || `${sample.productName} - ${sampleLabel} ${index + 1}`,
+          description: sample.dbDescription || generateSchemaDescription(sample.productName, locale, focusKeyword),
+          caption: sample.dbAltText || `${sampleLabel} - ${sample.productName}`,
           width: 2480,
           height: 3508,
           thumbnailSrc: sample.thumbSrc,
+          keywords: sample.dbKeywords,
+          grade: sample.dbGrade,
         };
         const baseSchema = generateImageObjectSchema(imageData, blogPageUrl, baseUrl, locale, index, false);
         // Override @id to use consistent #imageobject pattern for blog posts
@@ -229,7 +237,7 @@ export default function BlogSampleGallery({
                 }}>
                   <img
                     src={sample.thumbSrc}
-                    alt={generateAltText(sample.productName, locale)}
+                    alt={sample.dbAltText || generateAltText(sample.productName, locale)}
                     width={400}
                     height={566}
                     loading="lazy"

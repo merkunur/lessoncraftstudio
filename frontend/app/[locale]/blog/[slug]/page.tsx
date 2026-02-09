@@ -615,14 +615,40 @@ export default async function BlogPostPage({
       console.log(`[blog-perf] injectBlogLinks: ${(performance.now() - t).toFixed(0)}ms`);
       return result;
     })(),
-    // C: Sample discovery - run all app discoveries in parallel
+    // C: Sample discovery + DB metadata lookup - run all app discoveries in parallel
     (async () => {
       const t = performance.now();
       const result = await Promise.all(
         sampleApps.map(async (app) => {
           const normalizedId = normalizeAppIdForSamples(app.appId);
           const discovered = await discoverSamplesFromFilesystem(normalizedId, locale);
-          return { app, discovered };
+          // After discovery, deterministically select sample and look up DB metadata
+          let dbMeta: { altText?: string; title?: string; description?: string; keywords?: string[]; grade?: string } | null = null;
+          if (discovered.length > 0) {
+            let hash = 0;
+            const key = localeSlug + app.appId;
+            for (let i = 0; i < key.length; i++) {
+              hash = ((hash << 5) - hash + key.charCodeAt(i)) | 0;
+            }
+            const idx = Math.abs(hash) % discovered.length;
+            const selectedFilename = discovered[idx].worksheetSrc.split('/').pop() || '';
+            try {
+              const record = await prisma.productSample.findFirst({
+                where: { appId: app.appId, locale, filename: selectedFilename },
+                select: { altText: true, title: true, description: true, keywords: true, grade: true },
+              });
+              if (record) {
+                dbMeta = {
+                  altText: record.altText || undefined,
+                  title: record.title || undefined,
+                  description: record.description || undefined,
+                  keywords: record.keywords || undefined,
+                  grade: record.grade || undefined,
+                };
+              }
+            } catch { /* DB unavailable, use template fallbacks */ }
+          }
+          return { app, discovered, dbMeta };
         })
       );
       console.log(`[blog-perf] discoverSamples: ${(performance.now() - t).toFixed(0)}ms`);
@@ -634,16 +660,21 @@ export default async function BlogPostPage({
   // Use processed body content from parallel operation B
   bodyContent = processedBodyContent;
 
-  // Build blog samples from parallel operation C results
+  // Build blog samples from parallel operation C results (includes DB metadata)
   const blogSamples: Array<{
     worksheetSrc: string;
     thumbSrc: string;
     productUrl: string;
     productName: string;
     appId: string;
+    dbAltText?: string;
+    dbTitle?: string;
+    dbDescription?: string;
+    dbKeywords?: string[];
+    dbGrade?: string;
   }> = [];
 
-  for (const { app, discovered } of discoveredSamplesArr) {
+  for (const { app, discovered, dbMeta } of discoveredSamplesArr) {
     if (discovered.length > 0) {
       // Deterministic sample selection based on blog slug + appId
       let hash = 0;
@@ -660,6 +691,11 @@ export default async function BlogPostPage({
         productUrl: app.productUrl,
         productName: app.productName,
         appId: app.appId,
+        dbAltText: dbMeta?.altText,
+        dbTitle: dbMeta?.title,
+        dbDescription: dbMeta?.description,
+        dbKeywords: dbMeta?.keywords,
+        dbGrade: dbMeta?.grade,
       });
     }
   }

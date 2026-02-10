@@ -24,15 +24,18 @@ export function Navigation() {
           <Link href={`/${locale}`} className="flex items-center space-x-2 md:space-x-4 h-full relative z-10">
             {/* Display LCS logo - size reduced by 20% */}
             <div className="flex items-center justify-center h-[67px] md:h-[151px] w-auto max-w-[108px] md:max-w-[242px]">
-              <img
-                src="/logo-lcs.png"
-                alt="LessonCraftStudio"
-                loading="eager"
-                fetchPriority="high"
-                width={242}
-                height={151}
-                className="max-h-[67px] md:max-h-[151px] max-w-[108px] md:max-w-[242px] w-auto h-auto object-contain relative -z-10"
-              />
+              <picture>
+                <source srcSet="/logo-lcs.webp" type="image/webp" />
+                <img
+                  src="/logo-lcs-optimized.png"
+                  alt="LessonCraftStudio"
+                  loading="eager"
+                  fetchPriority="high"
+                  width={242}
+                  height={313}
+                  className="max-h-[67px] md:max-h-[151px] max-w-[108px] md:max-w-[242px] w-auto h-auto object-contain relative -z-10"
+                />
+              </picture>
             </div>
 
             {/* LessonCraftStudio text - responsive sizing */}

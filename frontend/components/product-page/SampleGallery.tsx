@@ -639,6 +639,7 @@ export default function SampleGallery({
                       onError={() => setFailedPreviews(prev => new Set(prev).add(`${currentSample?.id}-${showAnswerKey}`))}
                       priority={currentIndex === 0}
                       sizes="(max-width: 1024px) 100vw, 800px"
+                      unoptimized
                     />
                   )}
 
@@ -783,6 +784,7 @@ export default function SampleGallery({
                     sizes="130px"
                     onError={() => setFailedThumbs(prev => new Set(prev).add(sample.id))}
                     priority={index < 4}
+                    unoptimized
                   />
 
                   {/* Selected glow */}
@@ -937,6 +939,7 @@ export default function SampleGallery({
                       className="object-contain"
                       sizes="(max-width: 1280px) 100vw, 1280px"
                       priority
+                      unoptimized
                     />
                   )}
               </div>

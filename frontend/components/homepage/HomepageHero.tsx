@@ -541,6 +541,7 @@ export default function HomepageHero({ locale, heroImages }: HomepageHeroProps) 
                         priority
                         className="object-cover"
                         sizes="(max-width: 768px) 200px, 280px"
+                        unoptimized
                       />
                     </div>
 
@@ -598,6 +599,7 @@ export default function HomepageHero({ locale, heroImages }: HomepageHeroProps) 
                         priority
                         className="object-cover"
                         sizes="(max-width: 768px) 200px, 300px"
+                        unoptimized
                       />
                     </div>
 

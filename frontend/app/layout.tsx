@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from 'next';
 import { Inter, Poppins } from 'next/font/google';
+import { headers } from 'next/headers';
 import { getLocale } from 'next-intl/server';
 import './globals.css';
 import { Providers } from './providers';
@@ -71,11 +72,20 @@ export default async function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  // Get locale from URL-based middleware context (works for Googlebot, no cookies needed)
-  let lang: string;
+  // Get locale for <html lang> — critical for SEO (Googlebot uses this)
+  // Primary: parse locale from URL via x-pathname header set by middleware
+  // Fallback: next-intl getLocale() (may return 'en' for cookieless requests)
+  let lang: string = DEFAULT_LOCALE;
   try {
-    lang = await getLocale();
-    if (!isValidLocale(lang)) lang = DEFAULT_LOCALE;
+    const headersList = headers();
+    const pathname = headersList.get('x-pathname') || '';
+    const pathLocale = pathname.split('/').filter(Boolean)[0];
+    if (pathLocale && isValidLocale(pathLocale)) {
+      lang = pathLocale;
+    } else {
+      lang = await getLocale();
+      if (!isValidLocale(lang)) lang = DEFAULT_LOCALE;
+    }
   } catch {
     lang = DEFAULT_LOCALE;
   }

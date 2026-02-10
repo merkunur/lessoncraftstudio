@@ -6,6 +6,7 @@ import { Providers } from './providers';
 import { SUPPORTED_LOCALES, DEFAULT_LOCALE, isValidLocale } from '@/config/locales';
 import { getHreflangCode } from '@/lib/schema-generator';
 import { PinterestTag } from '@/components/tracking';
+import { NavigationProgress } from '@/components/NavigationProgress';
 
 const inter = Inter({
   subsets: ['latin'],
@@ -91,6 +92,7 @@ export default async function RootLayout({
         <link rel="alternate" type="application/rss+xml" title="LessonCraftStudio Blog RSS" href="/feed.xml" />
       </head>
       <body className={`${inter.variable} ${poppins.variable} min-h-screen bg-gray-50 font-sans`}>
+        <NavigationProgress />
         <Providers>
           {children}
         </Providers>

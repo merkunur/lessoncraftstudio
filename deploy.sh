@@ -263,20 +263,38 @@ for locale in en de fr es pt it nl sv da no fi; do
 done
 wait
 
-# Step 2: Get one real blog slug from the database
-BLOG_SLUG=$(PGPASSWORD=LcS2025SecureDBPass psql -U lcs_user -d lessoncraftstudio_prod -t -c \
-  "SELECT slug FROM blog_posts WHERE status = 'published' ORDER BY created_at DESC LIMIT 1;" 2>/dev/null | tr -d ' \n')
+# Step 2: Get ALL published blog slugs from the database
+BLOG_SLUGS=$(PGPASSWORD=LcS2025SecureDBPass psql -U lcs_user -d lessoncraftstudio_prod -t -c \
+  "SELECT slug FROM blog_posts WHERE status = 'published' ORDER BY created_at DESC;" 2>/dev/null | sed 's/^[[:space:]]*//;s/[[:space:]]*$//' | grep -v '^$')
 
-if [ -n "$BLOG_SLUG" ]; then
-  echo "  Warming blog post caches with slug: $BLOG_SLUG"
-  # Hit this post for all 11 locales in parallel.
-  # The first request builds slugCache + blogLinkTargetCache (global, shared across all posts).
-  # Each request also warms sampleDiscoveryCache, relatedPostsCache, sampleMetaCache for that locale.
-  for locale in en de fr es pt it nl sv da no fi; do
-    curl -sf "http://localhost:3000/${locale}/blog/${BLOG_SLUG}" > /dev/null 2>&1 &
+if [ -n "$BLOG_SLUGS" ]; then
+  SLUG_COUNT=$(echo "$BLOG_SLUGS" | wc -l | tr -d ' ')
+  FIRST_SLUG=$(echo "$BLOG_SLUGS" | head -1)
+
+  # Step 3: Warm ALL posts for English (primary locale), concurrency limit of 5.
+  # Each request populates slugCache (global), blogLinkTargetCache (en),
+  # relatedPostsCache, sampleDiscoveryCache, sampleMetaCache for that post.
+  echo "  Warming $SLUG_COUNT blog posts for English locale..."
+  BATCH=0
+  for slug in $BLOG_SLUGS; do
+    [ -z "$slug" ] && continue
+    curl -sf "http://localhost:3000/en/blog/${slug}" > /dev/null 2>&1 &
+    BATCH=$((BATCH + 1))
+    if [ $BATCH -ge 5 ]; then
+      wait
+      BATCH=0
+    fi
   done
   wait
-  echo "Blog caches warmed (listing + post for 11 locales)"
+  echo "  English blog caches warmed ($SLUG_COUNT posts)"
+
+  # Step 4: Warm first post for remaining 10 locales (populates locale-specific blogLinkTargetCache)
+  echo "  Warming locale caches with slug: $FIRST_SLUG"
+  for locale in de fr es pt it nl sv da no fi; do
+    curl -sf "http://localhost:3000/${locale}/blog/${FIRST_SLUG}" > /dev/null 2>&1 &
+  done
+  wait
+  echo "Blog caches warmed ($SLUG_COUNT English posts + 10 locale entries)"
 else
   echo "  No published blog posts found - skipping post cache warming"
 fi

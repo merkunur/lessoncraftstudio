@@ -247,6 +247,20 @@ else
     echo "   Smoke test script not found (skipping)"
 fi
 
+# ============================================
+# BLOG CACHE WARMING
+# ============================================
+# After deploy, in-memory caches (slugCache, blogLinkTargetCache,
+# sampleDiscoveryCache, relatedPostsCache, sampleMetaCache) are cold.
+# Hit one blog page per locale in parallel to warm the shared caches.
+echo ""
+echo "Warming blog caches (11 locales in parallel)..."
+for locale in en de fr es pt it nl sv da no fi; do
+  curl -sf "http://localhost:3000/${locale}/blog" > /dev/null 2>&1 &
+done
+wait
+echo "Blog caches warmed"
+
 echo ""
 echo "Deployment complete!"
 echo ""

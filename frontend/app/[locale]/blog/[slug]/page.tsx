@@ -371,7 +371,21 @@ function slugHash(str: string): number {
   return Math.abs(hash);
 }
 
+// In-memory cache for related posts (eliminates 3 DB queries per page after first visit)
+const relatedPostsCache = new Map<string, { data: any[]; timestamp: number }>();
+const RELATED_POSTS_CACHE_TTL = 30 * 60 * 1000; // 30 minutes (aligned with ISR revalidation)
+
+// In-memory cache for product sample metadata lookups (eliminates 3 findFirst queries per page)
+const sampleMetaCache = new Map<string, { data: any; timestamp: number }>();
+const SAMPLE_META_CACHE_TTL = 30 * 60 * 1000; // 30 minutes
+
 async function getRelatedPosts(currentSlug: string, category: string, keywords: string[] = [], limit: number = 3, locale: string = 'en') {
+  const rpCacheKey = `${currentSlug}:${locale}`;
+  const rpCached = relatedPostsCache.get(rpCacheKey);
+  if (rpCached && Date.now() - rpCached.timestamp < RELATED_POSTS_CACHE_TTL) {
+    return rpCached.data;
+  }
+
   try {
     // Raw SQL: extract only the fields rendering needs (~500 bytes/row vs ~300KB/row with full translations)
     type RelatedPostRow = {
@@ -494,7 +508,9 @@ async function getRelatedPosts(currentSlug: string, category: string, keywords: 
       }
     }
 
-    return relatedPosts.slice(0, limit);
+    const result = relatedPosts.slice(0, limit);
+    relatedPostsCache.set(rpCacheKey, { data: result, timestamp: Date.now() });
+    return result;
   } catch (error) {
     console.error('Error fetching related posts:', error);
     return [];
@@ -638,21 +654,28 @@ export default async function BlogPostPage({
             }
             const idx = Math.abs(hash) % discovered.length;
             const selectedFilename = discovered[idx].worksheetSrc.split('/').pop() || '';
-            try {
-              const record = await prisma.productSample.findFirst({
-                where: { appId: app.appId, locale, filename: selectedFilename },
-                select: { altText: true, title: true, description: true, keywords: true, grade: true },
-              });
-              if (record) {
-                dbMeta = {
-                  altText: record.altText || undefined,
-                  title: record.title || undefined,
-                  description: record.description || undefined,
-                  keywords: record.keywords || undefined,
-                  grade: record.grade || undefined,
-                };
-              }
-            } catch { /* DB unavailable, use template fallbacks */ }
+            const smCacheKey = `${app.appId}:${locale}:${selectedFilename}`;
+            const smCached = sampleMetaCache.get(smCacheKey);
+            if (smCached && Date.now() - smCached.timestamp < SAMPLE_META_CACHE_TTL) {
+              dbMeta = smCached.data;
+            } else {
+              try {
+                const record = await prisma.productSample.findFirst({
+                  where: { appId: app.appId, locale, filename: selectedFilename },
+                  select: { altText: true, title: true, description: true, keywords: true, grade: true },
+                });
+                if (record) {
+                  dbMeta = {
+                    altText: record.altText || undefined,
+                    title: record.title || undefined,
+                    description: record.description || undefined,
+                    keywords: record.keywords || undefined,
+                    grade: record.grade || undefined,
+                  };
+                }
+                sampleMetaCache.set(smCacheKey, { data: dbMeta, timestamp: Date.now() });
+              } catch { /* DB unavailable, use template fallbacks */ }
+            }
           }
           return { app, discovered, dbMeta };
         })

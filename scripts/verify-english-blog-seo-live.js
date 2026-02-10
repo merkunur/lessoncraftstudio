@@ -26,6 +26,20 @@ const { execSync } = require('child_process');
 const fs = require('fs');
 const path = require('path');
 
+// Resolve @prisma/client from frontend/node_modules (script runs from project root)
+const frontendDir = path.join(__dirname, '..', 'frontend');
+const PRISMA_CLIENT_PATH = path.join(frontendDir, 'node_modules', '@prisma', 'client');
+
+// Load DATABASE_URL from frontend/.env if not already set
+if (!process.env.DATABASE_URL) {
+  const envPath = path.join(frontendDir, '.env');
+  if (fs.existsSync(envPath)) {
+    const envContent = fs.readFileSync(envPath, 'utf8');
+    const match = envContent.match(/^DATABASE_URL=["']?(.+?)["']?\s*$/m);
+    if (match) process.env.DATABASE_URL = match[1];
+  }
+}
+
 const BASE_URL = 'https://www.lessoncraftstudio.com';
 const LOCAL_BASE = 'http://localhost:3000';
 const LOCALE = 'en';
@@ -193,7 +207,7 @@ async function loadSlugsFromDB() {
   }
 
   // Fallback: query database directly
-  const { PrismaClient } = require('@prisma/client');
+  const { PrismaClient } = require(PRISMA_CLIENT_PATH);
   const prisma = new PrismaClient();
   try {
     const posts = await prisma.blogPost.findMany({
@@ -219,7 +233,7 @@ async function loadSlugsFromDB() {
 
 // Load slugs + full DB data for cross-referencing
 async function loadPostsFromDB() {
-  const { PrismaClient } = require('@prisma/client');
+  const { PrismaClient } = require(PRISMA_CLIENT_PATH);
   const prisma = new PrismaClient();
   try {
     const posts = await prisma.blogPost.findMany({

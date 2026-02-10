@@ -345,9 +345,21 @@ export async function generateStaticParams() {
       }
     }
 
+    // Build-time logging: show total count and per-locale breakdown
+    const localeCounts: Record<string, number> = {};
+    for (const p of params) {
+      localeCounts[p.locale] = (localeCounts[p.locale] || 0) + 1;
+    }
+    const breakdown = Object.entries(localeCounts).map(([l, c]) => `${l}:${c}`).join(' ');
+    console.log(`[blog-static] generateStaticParams: ${params.length} total params (${breakdown})`);
+    if (params.length === 0) {
+      console.warn('[blog-static] WARNING: 0 params generated - no blog posts will be pre-rendered at build time!');
+    }
+
     return params;
   } catch (error) {
     console.error('Error generating static params for blog posts:', error);
+    console.warn('[blog-static] WARNING: generateStaticParams failed - returning empty array, no pages pre-rendered');
     return [];
   }
 }
@@ -1541,25 +1553,27 @@ export async function generateMetadata({ params }: BlogPostPageProps) {
       locale as SupportedLocale,
       3
     );
-    const sampleOgImages: Array<{ url: string; alt: string }> = [];
-    for (const app of metaSampleApps) {
-      const normalizedId = normalizeAppIdForSamples(app.appId);
-      const discovered = await discoverSamplesFromFilesystem(normalizedId, locale);
-      if (discovered.length > 0) {
-        let hash = 0;
-        const key = localeSlug + app.appId;
-        for (let i = 0; i < key.length; i++) {
-          hash = ((hash << 5) - hash + key.charCodeAt(i)) | 0;
+    const sampleOgImages: Array<{ url: string; alt: string }> = (await Promise.all(
+      metaSampleApps.map(async (app) => {
+        const normalizedId = normalizeAppIdForSamples(app.appId);
+        const discovered = await discoverSamplesFromFilesystem(normalizedId, locale);
+        if (discovered.length > 0) {
+          let hash = 0;
+          const key = localeSlug + app.appId;
+          for (let i = 0; i < key.length; i++) {
+            hash = ((hash << 5) - hash + key.charCodeAt(i)) | 0;
+          }
+          const idx = Math.abs(hash) % discovered.length;
+          const sample = discovered[idx];
+          const thumbSrc = sample.worksheetSrc.replace(/\.(jpeg|jpg)$/i, '_thumb.webp');
+          return {
+            url: `${baseUrl}${thumbSrc}`,
+            alt: `${app.productName} - worksheet sample`,
+          };
         }
-        const idx = Math.abs(hash) % discovered.length;
-        const sample = discovered[idx];
-        const thumbSrc = sample.worksheetSrc.replace(/\.(jpeg|jpg)$/i, '_thumb.webp');
-        sampleOgImages.push({
-          url: `${baseUrl}${thumbSrc}`,
-          alt: `${app.productName} - worksheet sample`,
-        });
-      }
-    }
+        return null;
+      })
+    )).filter((img): img is { url: string; alt: string } => img !== null);
 
     // Build og:image array: featured image first, then sample thumbnails
     const ogImages = [

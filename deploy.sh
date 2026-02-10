@@ -252,14 +252,34 @@ fi
 # ============================================
 # After deploy, in-memory caches (slugCache, blogLinkTargetCache,
 # sampleDiscoveryCache, relatedPostsCache, sampleMetaCache) are cold.
-# Hit one blog page per locale in parallel to warm the shared caches.
+# Warming the listing page does nothing - caches live in the [slug] page module.
+# We must hit an actual blog post to warm them.
 echo ""
-echo "Warming blog caches (11 locales in parallel)..."
+echo "Warming blog caches..."
+
+# Step 1: Warm listing pages (fast, warms category data)
 for locale in en de fr es pt it nl sv da no fi; do
   curl -sf "http://localhost:3000/${locale}/blog" > /dev/null 2>&1 &
 done
 wait
-echo "Blog caches warmed"
+
+# Step 2: Get one real blog slug from the database
+BLOG_SLUG=$(PGPASSWORD=LcS2025SecureDBPass psql -U lcs_user -d lessoncraftstudio_prod -t -c \
+  "SELECT slug FROM blog_posts WHERE status = 'published' ORDER BY created_at DESC LIMIT 1;" 2>/dev/null | tr -d ' \n')
+
+if [ -n "$BLOG_SLUG" ]; then
+  echo "  Warming blog post caches with slug: $BLOG_SLUG"
+  # Hit this post for all 11 locales in parallel.
+  # The first request builds slugCache + blogLinkTargetCache (global, shared across all posts).
+  # Each request also warms sampleDiscoveryCache, relatedPostsCache, sampleMetaCache for that locale.
+  for locale in en de fr es pt it nl sv da no fi; do
+    curl -sf "http://localhost:3000/${locale}/blog/${BLOG_SLUG}" > /dev/null 2>&1 &
+  done
+  wait
+  echo "Blog caches warmed (listing + post for 11 locales)"
+else
+  echo "  No published blog posts found - skipping post cache warming"
+fi
 
 echo ""
 echo "Deployment complete!"

@@ -390,7 +390,7 @@ export default function HomepageHero({ locale, heroImages }: HomepageHeroProps) 
         <div className="max-w-7xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
             {/* Left column - Text content \u2014 CSS animations instead of Framer Motion */}
-            <div className="text-center lg:text-left hero-fade-in-left">
+            <div className="text-center lg:text-left">
               {/* Badge */}
               <div
                 className="inline-flex items-center gap-2 px-4 py-2 rounded-full mb-6 hero-fade-in hero-stagger-1"

@@ -76,24 +76,26 @@ export function Navigation() {
           <div className="hidden md:flex items-center space-x-4">
             <LanguageSelector />
             <div className="h-6 w-px bg-gray-300" />
-            {user ? (
-              <Button variant="ghost" size="sm" onClick={() => {
-                localStorage.removeItem('accessToken');
-                localStorage.removeItem('refreshToken');
-                window.location.href = `/${locale}`;
-              }}>
-                {t('signOut')}
-              </Button>
-            ) : (
-              <>
-                <Button variant="ghost" size="sm" href={`/${locale}/auth/signin`}>
-                  {t('signIn')}
+            <div className="flex items-center space-x-2 min-w-[200px] justify-end">
+              {user ? (
+                <Button variant="ghost" size="sm" onClick={() => {
+                  localStorage.removeItem('accessToken');
+                  localStorage.removeItem('refreshToken');
+                  window.location.href = `/${locale}`;
+                }}>
+                  {t('signOut')}
                 </Button>
-                <Button variant="primary" size="sm" href={`/${locale}/auth/signup`}>
-                  {t('startFree')}
-                </Button>
-              </>
-            )}
+              ) : (
+                <>
+                  <Button variant="ghost" size="sm" href={`/${locale}/auth/signin`}>
+                    {t('signIn')}
+                  </Button>
+                  <Button variant="primary" size="sm" href={`/${locale}/auth/signup`}>
+                    {t('startFree')}
+                  </Button>
+                </>
+              )}
+            </div>
           </div>
 
           {/* Mobile Menu Button */}

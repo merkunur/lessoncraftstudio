@@ -102,7 +102,7 @@ const galleryNames: Record<string, string> = {
 };
 
 // Enable ISR - revalidate every 5 minutes (reduced from 1 hour for faster content updates)
-export const revalidate = 300;
+export const revalidate = 3600;
 
 export async function generateMetadata({ params }: { params: { locale: string } }): Promise<Metadata> {
   const locale = params.locale || 'en';

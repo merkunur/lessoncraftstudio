@@ -508,8 +508,9 @@ export default function HomepageHero({ locale, heroImages }: HomepageHeroProps) 
                     y: springY,
                     rotateY: isHovered === 'left' ? 5 : -5,
                     rotateX: isHovered === 'left' ? -5 : 5,
+                    scale: isHovered === 'left' ? 1.05 : 1,
+                    zIndex: isHovered === 'left' ? 20 : 1,
                   }}
-                  whileHover={{ scale: 1.05, zIndex: 20 }}
                   onHoverStart={() => setIsHovered('left')}
                   onHoverEnd={() => setIsHovered(null)}
                   transition={{ type: "spring", stiffness: 300, damping: 30 }}
@@ -538,9 +539,8 @@ export default function HomepageHero({ locale, heroImages }: HomepageHeroProps) 
                         alt={previewWorksheets[0].alt}
                         fill
                         priority
-                        unoptimized
                         className="object-cover"
-                        sizes="280px"
+                        sizes="(max-width: 768px) 200px, 280px"
                       />
                     </div>
 
@@ -565,8 +565,9 @@ export default function HomepageHero({ locale, heroImages }: HomepageHeroProps) 
                     y: invertedSpringY,
                     rotateY: isHovered === 'right' ? -5 : 5,
                     rotateX: isHovered === 'right' ? 5 : -5,
+                    scale: isHovered === 'right' ? 1.05 : 1,
+                    zIndex: isHovered === 'right' ? 20 : 1,
                   }}
-                  whileHover={{ scale: 1.05, zIndex: 20 }}
                   onHoverStart={() => setIsHovered('right')}
                   onHoverEnd={() => setIsHovered(null)}
                   transition={{ type: "spring", stiffness: 300, damping: 30 }}
@@ -595,9 +596,8 @@ export default function HomepageHero({ locale, heroImages }: HomepageHeroProps) 
                         alt={previewWorksheets[1].alt}
                         fill
                         priority
-                        unoptimized
                         className="object-cover"
-                        sizes="300px"
+                        sizes="(max-width: 768px) 200px, 300px"
                       />
                     </div>
 

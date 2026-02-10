@@ -107,10 +107,13 @@ export function Navigation() {
         </div>
       </div>
 
-      {/* Mobile Menu */}
-      {mobileMenuOpen && (
-        <div className="md:hidden border-t border-gray-200 bg-white">
-          <div className="container mx-auto px-4 py-4 space-y-4">
+      {/* Mobile Menu - CSS transition instead of conditional render to avoid CLS */}
+      <div
+        className={`md:hidden overflow-hidden transition-[max-height,border-color] duration-300 ease-in-out ${
+          mobileMenuOpen ? 'max-h-[500px] border-t border-gray-200' : 'max-h-0 border-t border-transparent'
+        } bg-white`}
+      >
+        <div className="container mx-auto px-4 py-4 space-y-4">
             {/* Mobile Navigation Links */}
             <Link
               href={`/${locale}/apps`}
@@ -183,8 +186,7 @@ export function Navigation() {
               )}
             </div>
           </div>
-        </div>
-      )}
+      </div>
     </nav>
   );
 }

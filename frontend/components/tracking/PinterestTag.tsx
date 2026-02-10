@@ -107,7 +107,7 @@ export function PinterestTag() {
       {/* Pinterest Base Tag */}
       <Script
         id="pinterest-base-tag"
-        strategy="afterInteractive"
+        strategy="lazyOnload"
         dangerouslySetInnerHTML={{
           __html: `
             !function(e){if(!window.pintrk){window.pintrk=function(){

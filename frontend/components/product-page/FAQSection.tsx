@@ -1,7 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
-import { motion } from 'framer-motion';
+import { useState } from 'react';
 import Link from 'next/link';
 
 interface FAQItem {
@@ -135,9 +134,6 @@ export default function FAQSection({
 }: FAQSectionProps) {
   const [openId, setOpenId] = useState<string | null>(null);
   const [showAll, setShowAll] = useState(false);
-  const [hasMounted, setHasMounted] = useState(false);
-  useEffect(() => { setHasMounted(true); }, []);
-
   const hasMore = faqs.length > initialVisibleCount;
 
   const toggleFAQ = (id: string) => {
@@ -154,24 +150,17 @@ export default function FAQSection({
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
         {/* Section header */}
-        <motion.div
+        <div
           className="text-center mb-16"
-          initial={hasMounted ? { opacity: 0, y: 20 } : false}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6 }}
         >
-          <motion.div
-            initial={hasMounted ? { opacity: 0, scale: 0.95 } : false}
-            whileInView={{ opacity: 1, scale: 1 }}
-            viewport={{ once: true }}
+          <div
             className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-amber-100/60 border border-amber-200/60 text-sm font-medium text-amber-800 mb-6"
           >
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
             </svg>
             {badgeText}
-          </motion.div>
+          </div>
 
           <h2
             className="text-3xl sm:text-4xl lg:text-5xl font-bold text-stone-800 mb-6"
@@ -185,17 +174,13 @@ export default function FAQSection({
               {sectionDescription}
             </p>
           )}
-        </motion.div>
+        </div>
 
         {/* Two column layout */}
         <div className="grid lg:grid-cols-5 gap-12 lg:gap-16">
           {/* FAQ Column */}
-          <motion.div
+          <div
             className="lg:col-span-3"
-            initial={hasMounted ? { opacity: 0, x: -20 } : false}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
           >
             <div className="space-y-4">
                 {faqs.map((faq, index) => (
@@ -222,19 +207,17 @@ export default function FAQSection({
                         >
                           {faq.question}
                         </span>
-                        <motion.div
-                          animate={{ rotate: openId === faq.id ? 180 : 0 }}
-                          transition={{ duration: 0.3 }}
-                          className={`flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center transition-colors ${
+                        <div
+                          className={`flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center transition-colors transition-transform duration-300 ${
                             openId === faq.id
-                              ? 'bg-amber-100 text-amber-700'
+                              ? 'bg-amber-100 text-amber-700 rotate-180'
                               : 'bg-stone-100 text-stone-500 group-hover:bg-stone-200'
                           }`}
                         >
                           <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                           </svg>
-                        </motion.div>
+                        </div>
                       </button>
 
                       <div
@@ -266,27 +249,22 @@ export default function FAQSection({
                   className="inline-flex items-center gap-2 px-5 py-2.5 text-sm font-medium text-amber-700 bg-amber-50 rounded-full hover:bg-amber-100 transition-colors"
                 >
                   {showAll ? showLessText : showMoreText}
-                  <motion.svg
-                    className="w-4 h-4"
-                    animate={{ rotate: showAll ? 180 : 0 }}
+                  <svg
+                    className={`w-4 h-4 transition-transform duration-200 ${showAll ? 'rotate-180' : ''}`}
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
                   >
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                  </motion.svg>
+                  </svg>
                 </button>
               </div>
             )}
-          </motion.div>
+          </div>
 
           {/* Pricing CTA Column */}
-          <motion.div
+          <div
             className="lg:col-span-2"
-            initial={hasMounted ? { opacity: 0, x: 20 } : false}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6, delay: 0.2 }}
           >
             <div className="sticky top-8">
               <div className="relative bg-white rounded-2xl shadow-xl shadow-stone-200/40 border border-stone-200/60 overflow-hidden">
@@ -311,12 +289,8 @@ export default function FAQSection({
                 <div className="px-6 py-6">
                   <ul className="space-y-3">
                     {benefits.map((benefit, index) => (
-                      <motion.li
+                      <li
                         key={index}
-                        initial={hasMounted ? { opacity: 0, x: -10 } : false}
-                        whileInView={{ opacity: 1, x: 0 }}
-                        viewport={{ once: true }}
-                        transition={{ delay: 0.3 + index * 0.05 }}
                         className="flex items-center gap-3"
                       >
                         <div className="flex-shrink-0 w-5 h-5 rounded-full bg-emerald-100 flex items-center justify-center">
@@ -325,7 +299,7 @@ export default function FAQSection({
                           </svg>
                         </div>
                         <span className="text-stone-700">{benefit}</span>
-                      </motion.li>
+                      </li>
                     ))}
                   </ul>
                 </div>
@@ -398,7 +372,7 @@ export default function FAQSection({
                 </span>
               </div>
             </div>
-          </motion.div>
+          </div>
         </div>
       </div>
     </section>

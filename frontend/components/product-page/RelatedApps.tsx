@@ -1,7 +1,6 @@
 'use client';
 
-import { useRef, useState, useEffect } from 'react';
-import { motion } from 'framer-motion';
+import { useRef } from 'react';
 import Link from 'next/link';
 
 interface RelatedApp {
@@ -80,33 +79,6 @@ export default function RelatedApps({
   trustBadges = defaultProps.trustBadges,
 }: RelatedAppsProps) {
   const scrollContainerRef = useRef<HTMLDivElement>(null);
-  // Only apply hidden initial state after client hydration to keep SSR HTML visible for SEO
-  const [hasMounted, setHasMounted] = useState(false);
-  useEffect(() => { setHasMounted(true); }, []);
-
-  const containerVariants = {
-    hidden: { opacity: 0 },
-    visible: {
-      opacity: 1,
-      transition: {
-        staggerChildren: 0.08,
-        delayChildren: 0.2,
-      },
-    },
-  };
-
-  const cardVariants = {
-    hidden: { opacity: 0, y: 20, scale: 0.95 },
-    visible: {
-      opacity: 1,
-      y: 0,
-      scale: 1,
-      transition: {
-        duration: 0.5,
-        ease: 'easeOut' as const,
-      },
-    },
-  };
 
   return (
     <section className="relative overflow-hidden">
@@ -114,24 +86,17 @@ export default function RelatedApps({
       <div className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Section header */}
-          <motion.div
+          <div
             className="text-center mb-12"
-            initial={hasMounted ? { opacity: 0, y: 20 } : false}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
           >
-            <motion.div
-              initial={hasMounted ? { opacity: 0, scale: 0.9 } : false}
-              whileInView={{ opacity: 1, scale: 1 }}
-              viewport={{ once: true }}
+            <div
               className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-amber-50 border border-amber-100 text-sm font-medium text-amber-700 mb-6"
             >
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
               </svg>
               {badgeText}
-            </motion.div>
+            </div>
 
             <h2
               className="text-3xl sm:text-4xl font-bold text-slate-900 mb-4"
@@ -145,21 +110,17 @@ export default function RelatedApps({
                 {sectionDescription}
               </p>
             )}
-          </motion.div>
+          </div>
 
           {/* Apps grid - Desktop */}
-          <motion.div
+          <div
             className="hidden md:grid md:grid-cols-2 lg:grid-cols-3 gap-6"
-            variants={containerVariants}
-            initial={hasMounted ? "hidden" : false}
-            whileInView="visible"
-            viewport={{ once: true, margin: '-50px' }}
           >
             {apps.map((app) => {
               const colors = categoryColors[app.category] || { bg: 'bg-slate-100', text: 'text-slate-700' };
 
               return (
-                <motion.div key={app.id} variants={cardVariants}>
+                <div key={app.id}>
                   <Link
                     href={`/${locale}/apps/${app.slug}`}
                     aria-label={`${EXPLORE_LABELS[locale] || 'Explore'} ${app.name}`}
@@ -167,12 +128,11 @@ export default function RelatedApps({
                   >
                     <div className="relative h-full bg-white rounded-2xl p-6 border border-slate-200 shadow-sm hover:shadow-xl hover:shadow-slate-200/60 hover:border-indigo-200 transition-all duration-300 hover:-translate-y-1">
                       {/* Icon */}
-                      <motion.div
-                        className="w-14 h-14 rounded-xl bg-gradient-to-br from-slate-100 to-slate-50 flex items-center justify-center text-3xl mb-4 group-hover:scale-110 transition-transform duration-300"
-                        whileHover={{ rotate: 5 }}
+                      <div
+                        className="w-14 h-14 rounded-xl bg-gradient-to-br from-slate-100 to-slate-50 flex items-center justify-center text-3xl mb-4 group-hover:scale-110 hover:rotate-[5deg] transition-transform duration-300"
                       >
                         {app.icon}
-                      </motion.div>
+                      </div>
 
                       {/* Category badge */}
                       <span className={`inline-block px-2.5 py-1 rounded-full text-xs font-medium ${colors.bg} ${colors.text} mb-3`}>
@@ -206,10 +166,10 @@ export default function RelatedApps({
                       </div>
                     </div>
                   </Link>
-                </motion.div>
+                </div>
               );
             })}
-          </motion.div>
+          </div>
 
           {/* Apps carousel - Mobile */}
           <div className="md:hidden relative">
@@ -221,15 +181,12 @@ export default function RelatedApps({
                 msOverflowStyle: 'none',
               }}
             >
-              {apps.map((app, index) => {
+              {apps.map((app) => {
                 const colors = categoryColors[app.category] || { bg: 'bg-slate-100', text: 'text-slate-700' };
 
                 return (
-                  <motion.div
+                  <div
                     key={app.id}
-                    whileInView={{ opacity: 1, x: 0 }}
-                    viewport={{ once: true }}
-                    transition={{ delay: index * 0.1 }}
                     className="flex-shrink-0 w-72 snap-center"
                   >
                     <Link
@@ -256,7 +213,7 @@ export default function RelatedApps({
                         </p>
                       </div>
                     </Link>
-                  </motion.div>
+                  </div>
                 );
               })}
             </div>
@@ -285,20 +242,17 @@ export default function RelatedApps({
           <div className="absolute bottom-0 right-1/4 w-80 h-80 bg-purple-400/20 rounded-full blur-3xl" />
 
           {/* Floating shapes */}
-          <motion.div
+          <div
             className="absolute top-20 left-10 w-20 h-20 border-2 border-white/20 rounded-2xl"
-            animate={{ rotate: [0, 10, 0], y: [0, -10, 0] }}
-            transition={{ duration: 8, repeat: Infinity, ease: 'easeInOut' }}
+            style={{ animation: 'relatedAppsFloat1 8s ease-in-out infinite' }}
           />
-          <motion.div
+          <div
             className="absolute bottom-20 right-20 w-16 h-16 bg-white/10 rounded-full"
-            animate={{ scale: [1, 1.2, 1], y: [0, 10, 0] }}
-            transition={{ duration: 6, repeat: Infinity, ease: 'easeInOut' }}
+            style={{ animation: 'relatedAppsFloat2 6s ease-in-out infinite' }}
           />
-          <motion.div
-            className="absolute top-1/2 right-10 w-12 h-12 border border-white/20 rounded-lg rotate-45"
-            animate={{ rotate: [45, 55, 45] }}
-            transition={{ duration: 10, repeat: Infinity, ease: 'easeInOut' }}
+          <div
+            className="absolute top-1/2 right-10 w-12 h-12 border border-white/20 rounded-lg"
+            style={{ animation: 'relatedAppsFloat3 10s ease-in-out infinite' }}
           />
         </div>
 
@@ -313,12 +267,7 @@ export default function RelatedApps({
 
         <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           {/* Main CTA content */}
-          <motion.div
-            initial={hasMounted ? { opacity: 0, y: 20 } : false}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.7, delay: 0.2 }}
-          >
+          <div>
             <h2
               className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-6"
               style={{ fontFamily: "'Plus Jakarta Sans', system-ui, sans-serif" }}
@@ -364,11 +313,8 @@ export default function RelatedApps({
             </div>
 
             {/* Trust badges */}
-            <motion.div
+            <div
               className="mt-10 flex flex-wrap items-center justify-center gap-6 text-sm text-indigo-200"
-              whileInView={{ opacity: 1 }}
-              viewport={{ once: true }}
-              transition={{ delay: 0.5 }}
             >
               {trustBadges.guarantee && (
                 <>
@@ -394,8 +340,8 @@ export default function RelatedApps({
                 </svg>
                 {trustBadges.cancelAnytime}
               </span>
-            </motion.div>
-          </motion.div>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -403,6 +349,18 @@ export default function RelatedApps({
       <style jsx global>{`
         .scrollbar-hide::-webkit-scrollbar {
           display: none;
+        }
+        @keyframes relatedAppsFloat1 {
+          0%, 100% { transform: rotate(0deg) translateY(0); }
+          50% { transform: rotate(10deg) translateY(-10px); }
+        }
+        @keyframes relatedAppsFloat2 {
+          0%, 100% { transform: scale(1) translateY(0); }
+          50% { transform: scale(1.2) translateY(10px); }
+        }
+        @keyframes relatedAppsFloat3 {
+          0%, 100% { transform: rotate(45deg); }
+          50% { transform: rotate(55deg); }
         }
       `}</style>
     </section>

@@ -1,7 +1,7 @@
 'use client';
 
 import { motion, useScroll, useTransform } from 'framer-motion';
-import { useRef, useState, useEffect } from 'react';
+import { useRef, useState } from 'react';
 import Link from 'next/link';
 
 // Collapsible text component for step descriptions
@@ -109,24 +109,6 @@ export default function HowToGuide({
 
   const lineHeight = useTransform(scrollYProgress, [0, 0.8], ['0%', '100%']);
 
-  const [hasMounted, setHasMounted] = useState(false);
-  // Only apply hidden initial state after client hydration to keep SSR HTML visible for SEO
-  // This prevents opacity:0 from appearing in server-rendered HTML which crawlers see
-  useEffect(() => { setHasMounted(true); }, []);
-
-  const stepVariants = {
-    hidden: { opacity: 0, y: 40 },
-    visible: (i: number) => ({
-      opacity: 1,
-      y: 0,
-      transition: {
-        delay: i * 0.15,
-        duration: 0.6,
-        ease: 'easeOut' as const,
-      },
-    }),
-  };
-
   return (
     <section className="py-24 bg-gradient-to-b from-stone-50 to-white relative overflow-hidden">
       {/* Background decorations */}
@@ -137,24 +119,17 @@ export default function HowToGuide({
 
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative" ref={containerRef}>
         {/* Section header */}
-        <motion.div
+        <div
           className="text-center mb-20"
-          initial={hasMounted ? { opacity: 0, y: 20 } : false}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6 }}
         >
-          <motion.div
-            initial={hasMounted ? { opacity: 0, scale: 0.9 } : false}
-            whileInView={{ opacity: 1, scale: 1 }}
-            viewport={{ once: true }}
+          <div
             className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-emerald-50 border border-emerald-100 text-sm font-medium text-emerald-700 mb-6"
           >
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" />
             </svg>
             {badgeText}
-          </motion.div>
+          </div>
 
           <h2
             className="text-3xl sm:text-4xl lg:text-5xl font-bold text-stone-800 mb-6"
@@ -168,7 +143,7 @@ export default function HowToGuide({
               {sectionDescription}
             </p>
           )}
-        </motion.div>
+        </div>
 
         {/* Timeline container */}
         <div className="relative">
@@ -197,41 +172,33 @@ export default function HowToGuide({
               const icon = step.icon || defaultIcons[index] || '📌';
 
               return (
-                <motion.div
+                <div
                   key={step.id}
-                  custom={index}
-                  variants={stepVariants}
-                  initial={hasMounted ? "hidden" : false}
-                  whileInView="visible"
-                  viewport={{ once: true, margin: '-50px' }}
                   className={`relative flex items-center gap-6 lg:gap-0 ${
                     isEven ? 'lg:flex-row' : 'lg:flex-row-reverse'
                   }`}
                 >
                   {/* Step number circle - Mobile */}
                   <div className="lg:hidden flex-shrink-0 relative z-10">
-                    <motion.div
-                      className="w-16 h-16 rounded-2xl bg-gradient-to-br from-amber-500 to-amber-600 flex items-center justify-center text-white font-bold text-xl shadow-lg shadow-amber-200/50"
-                      whileHover={{ scale: 1.1, rotate: 5 }}
+                    <div
+                      className="w-16 h-16 rounded-2xl bg-gradient-to-br from-amber-500 to-amber-600 flex items-center justify-center text-white font-bold text-xl shadow-lg shadow-amber-200/50 hover:scale-110 hover:rotate-[5deg] transition-transform duration-300"
                     >
                       {step.number}
-                    </motion.div>
+                    </div>
                   </div>
 
                   {/* Content card */}
                   <div className={`flex-1 lg:w-[calc(50%-60px)] ${isEven ? 'lg:pr-16' : 'lg:pl-16'}`}>
-                    <motion.div
-                      className="group relative bg-white rounded-2xl p-6 sm:p-8 shadow-lg shadow-stone-100/60 border border-stone-200/60 hover:shadow-xl hover:border-amber-200/60 transition-all duration-300"
-                      whileHover={{ y: -5 }}
+                    <div
+                      className="group relative bg-white rounded-2xl p-6 sm:p-8 shadow-lg shadow-stone-100/60 border border-stone-200/60 hover:shadow-xl hover:border-amber-200/60 hover:-translate-y-1 transition-all duration-300"
                     >
                       {/* Icon badge */}
                       <div className="absolute -top-4 right-6">
-                        <motion.div
-                          className="w-12 h-12 rounded-xl bg-gradient-to-br from-amber-400 to-amber-500 flex items-center justify-center text-2xl shadow-lg shadow-amber-200/50"
-                          whileHover={{ scale: 1.15, rotate: 10 }}
+                        <div
+                          className="w-12 h-12 rounded-xl bg-gradient-to-br from-amber-400 to-amber-500 flex items-center justify-center text-2xl shadow-lg shadow-amber-200/50 hover:scale-[1.15] hover:rotate-[10deg] transition-transform duration-300"
                         >
                           {icon}
-                        </motion.div>
+                        </div>
                       </div>
 
                       {/* Step label */}
@@ -262,32 +229,27 @@ export default function HowToGuide({
                             : 'left-0 -translate-x-1/2 -rotate-[135deg]'
                         }`}
                       />
-                    </motion.div>
+                    </div>
                   </div>
 
                   {/* Center step indicator - Desktop only */}
                   <div className="hidden lg:flex absolute left-1/2 -translate-x-1/2 z-10">
-                    <motion.div
-                      className="w-14 h-14 rounded-full bg-gradient-to-br from-amber-500 to-amber-600 flex items-center justify-center text-white font-bold text-lg shadow-xl shadow-amber-200/50 ring-4 ring-white"
-                      whileHover={{ scale: 1.2 }}
-                      transition={{ type: 'spring', stiffness: 400, damping: 17 }}
+                    <div
+                      className="w-14 h-14 rounded-full bg-gradient-to-br from-amber-500 to-amber-600 flex items-center justify-center text-white font-bold text-lg shadow-xl shadow-amber-200/50 ring-4 ring-white hover:scale-[1.2] transition-transform duration-300"
                     >
                       {step.number}
-                    </motion.div>
+                    </div>
                   </div>
 
                   {/* Empty space for alternating layout - Desktop only */}
                   <div className="hidden lg:block lg:w-[calc(50%-60px)]" />
-                </motion.div>
+                </div>
               );
             })}
 
             {/* End marker */}
-            <motion.div
+            <div
               className="relative flex items-center justify-center"
-              whileInView={{ opacity: 1, scale: 1 }}
-              viewport={{ once: true }}
-              transition={{ delay: 0.5 }}
             >
               {/* Mobile position */}
               <div className="lg:hidden absolute left-8 -translate-x-1/2 z-10">
@@ -300,14 +262,13 @@ export default function HowToGuide({
 
               {/* Desktop position */}
               <div className="hidden lg:flex absolute left-1/2 -translate-x-1/2 z-10">
-                <motion.div
-                  className="w-16 h-16 rounded-full bg-gradient-to-br from-emerald-500 to-emerald-600 flex items-center justify-center shadow-xl shadow-emerald-200/50 ring-4 ring-white"
-                  whileHover={{ scale: 1.1 }}
+                <div
+                  className="w-16 h-16 rounded-full bg-gradient-to-br from-emerald-500 to-emerald-600 flex items-center justify-center shadow-xl shadow-emerald-200/50 ring-4 ring-white hover:scale-110 transition-transform duration-300"
                 >
                   <svg className="w-8 h-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
                   </svg>
-                </motion.div>
+                </div>
               </div>
 
               {/* Completion message */}
@@ -315,16 +276,13 @@ export default function HowToGuide({
                 <p className="text-lg font-semibold text-emerald-600 mb-1">{completionTitle}</p>
                 <p className="text-sm text-stone-500">{completionSubtitle}</p>
               </div>
-            </motion.div>
+            </div>
           </div>
         </div>
 
         {/* CTA Section */}
-        <motion.div
+        <div
           className="mt-20 text-center"
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ delay: 0.3 }}
         >
           <div className="inline-flex flex-col sm:flex-row items-center gap-4 p-6 rounded-2xl bg-gradient-to-r from-amber-50 via-stone-50 to-amber-50 border border-amber-100/60">
             <div className="flex items-center gap-3">
@@ -361,7 +319,7 @@ export default function HowToGuide({
               </svg>
             </Link>
           </div>
-        </motion.div>
+        </div>
       </div>
     </section>
   );

@@ -627,27 +627,13 @@ export default function SampleGallery({
               className="relative aspect-[4/3] cursor-zoom-in"
               onClick={() => setLightboxOpen(true)}
             >
-              <AnimatePresence mode="wait" custom={direction}>
-                <motion.div
-                  key={`${currentIndex}-${showAnswerKey}`}
-                  custom={direction}
-                  variants={slideVariants}
-                  initial="enter"
-                  animate="center"
-                  exit="exit"
-                  transition={{
-                    x: { type: 'spring', stiffness: 300, damping: 30 },
-                    opacity: { duration: 0.3 },
-                  }}
-                  className="absolute inset-0"
-                >
+              <div className="absolute inset-0">
                   {currentPreviewSrc && (
                     <Image
                       src={failedPreviews.has(`${currentSample?.id}-${showAnswerKey}`) ? currentImageSrc : currentPreviewSrc}
                       alt={currentSample?.altText || 'Worksheet sample'}
                       title={currentSample?.imageTitle || currentSample?.altText || 'Worksheet sample'}
                       fill
-                      unoptimized
                       className={`object-contain p-6 transition-opacity duration-300 ${isLoading ? 'opacity-0' : 'opacity-100'}`}
                       onLoad={() => setIsLoading(false)}
                       onError={() => setFailedPreviews(prev => new Set(prev).add(`${currentSample?.id}-${showAnswerKey}`))}
@@ -660,8 +646,7 @@ export default function SampleGallery({
                   {isLoading && (
                     <div className="absolute inset-6 rounded-xl bg-white/10 animate-pulse" />
                   )}
-                </motion.div>
-              </AnimatePresence>
+              </div>
 
               {/* Zoom hint overlay */}
               <motion.div
@@ -794,7 +779,6 @@ export default function SampleGallery({
                     alt={sample.altText}
                     title={sample.imageTitle || sample.altText}
                     fill
-                    unoptimized
                     className="object-cover"
                     sizes="130px"
                     onError={() => setFailedThumbs(prev => new Set(prev).add(sample.id))}
@@ -943,34 +927,19 @@ export default function SampleGallery({
               transition={{ type: 'spring', stiffness: 300, damping: 30 }}
               onClick={(e) => e.stopPropagation()}
             >
-              <AnimatePresence mode="wait" custom={direction}>
-                <motion.div
-                  key={`lightbox-${currentIndex}-${showAnswerKey}`}
-                  custom={direction}
-                  variants={slideVariants}
-                  initial="enter"
-                  animate="center"
-                  exit="exit"
-                  transition={{
-                    x: { type: 'spring', stiffness: 300, damping: 30 },
-                    opacity: { duration: 0.2 },
-                  }}
-                  className="absolute inset-0"
-                >
+              <div className="absolute inset-0">
                   {currentImageSrc && (
                     <Image
                       src={currentImageSrc}
                       alt={currentSample?.altText || 'Worksheet sample'}
                       title={currentSample?.imageTitle || currentSample?.altText || 'Worksheet sample'}
                       fill
-                      unoptimized
                       className="object-contain"
                       sizes="(max-width: 1280px) 100vw, 1280px"
                       priority
                     />
                   )}
-                </motion.div>
-              </AnimatePresence>
+              </div>
             </motion.div>
 
             {/* Counter and download in lightbox */}

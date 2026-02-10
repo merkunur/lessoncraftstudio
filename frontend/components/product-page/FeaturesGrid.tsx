@@ -1,7 +1,6 @@
 'use client';
 
-import { useState, useEffect, useRef } from 'react';
-import { motion, AnimatePresence, useInView } from 'framer-motion';
+import { useState } from 'react';
 
 interface Feature {
   id: string;
@@ -54,8 +53,6 @@ function FeatureCard({
   showLessLabel: string;
 }) {
   const [isExpanded, setIsExpanded] = useState(false);
-  const [hasMounted, setHasMounted] = useState(false);
-  useEffect(() => { setHasMounted(true); }, []);
 
   // Split description into sentences - show only 3 sentences by default (collapsed)
   const sentences = feature.description.split(/(?<=[.!?])\s+/);
@@ -75,14 +72,10 @@ function FeatureCard({
   ];
 
   return (
-    <motion.div
+    <div
       className={`group relative ${
         feature.highlighted ? 'md:col-span-2 lg:col-span-1' : ''
       }`}
-      initial={hasMounted ? { opacity: 0, y: 20 } : false}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true }}
-      transition={{ duration: 0.5, delay: index * 0.1 }}
     >
       <div
         className={`relative h-full p-6 sm:p-8 rounded-2xl transition-all duration-300 ${
@@ -105,17 +98,15 @@ function FeatureCard({
 
         {/* Icon */}
         <div className="mb-5">
-          <motion.div
+          <div
             className={`inline-flex items-center justify-center w-14 h-14 rounded-xl bg-gradient-to-br ${
               accentColors[index % accentColors.length]
             } text-white text-2xl shadow-lg ${
               feature.highlighted ? 'shadow-amber-200/50' : 'shadow-stone-200/50'
-            }`}
-            whileHover={{ scale: 1.08, rotate: 3 }}
-            transition={{ type: 'spring', stiffness: 400, damping: 17 }}
+            } hover:scale-[1.08] hover:rotate-[3deg] transition-transform duration-300`}
           >
             {feature.icon}
-          </motion.div>
+          </div>
         </div>
 
         {/* Title */}
@@ -130,19 +121,10 @@ function FeatureCard({
 
         {/* Collapsible Description */}
         <div className="relative">
-          <AnimatePresence mode="wait">
-            <motion.p
-              key={isExpanded ? 'expanded' : 'collapsed'}
-              initial={hasMounted ? { opacity: 0 } : false}
-              animate={{ opacity: 1 }}
-              exit={hasMounted ? { opacity: 0 } : undefined}
-              transition={{ duration: 0.15 }}
-              className="text-stone-600 leading-relaxed"
-            >
+          <p className="text-stone-600 leading-relaxed">
               {displayText}
               {!isExpanded && shouldTruncate && '...'}
-            </motion.p>
-          </AnimatePresence>
+          </p>
 
           {shouldTruncate && (
             <button
@@ -150,16 +132,14 @@ function FeatureCard({
               className="mt-3 inline-flex items-center gap-1 text-amber-700 hover:text-amber-800 font-medium text-sm transition-colors"
             >
               {isExpanded ? showLessLabel : readMoreLabel}
-              <motion.svg
-                className="w-3.5 h-3.5"
+              <svg
+                className={`w-3.5 h-3.5 transition-transform duration-200 ${isExpanded ? 'rotate-180' : ''}`}
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
-                animate={{ rotate: isExpanded ? 180 : 0 }}
-                transition={{ duration: 0.2 }}
               >
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-              </motion.svg>
+              </svg>
             </button>
           )}
         </div>
@@ -167,7 +147,7 @@ function FeatureCard({
         {/* Subtle gradient overlay on hover */}
         <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-amber-500/0 to-stone-500/0 group-hover:from-amber-500/[0.02] group-hover:to-stone-500/[0.02] transition-all duration-300 pointer-events-none" />
       </div>
-    </motion.div>
+    </div>
   );
 }
 
@@ -182,10 +162,6 @@ export default function FeaturesGrid({
   badgeText = defaultProps.badgeText,
   trustBadges = defaultProps.trustBadges,
 }: FeaturesGridProps) {
-  const containerRef = useRef<HTMLDivElement>(null);
-  const isInView = useInView(containerRef, { once: true, margin: '-100px' });
-  const [hasMounted, setHasMounted] = useState(false);
-  useEffect(() => { setHasMounted(true); }, []);
 
   return (
     <section className="py-24 bg-gradient-to-b from-white via-stone-50/30 to-white relative overflow-hidden">
@@ -204,25 +180,13 @@ export default function FeaturesGrid({
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
         {/* Section header */}
-        <motion.div
-          className="text-center mb-16"
-          initial={hasMounted ? { opacity: 0, y: 20 } : false}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6 }}
-        >
-          <motion.div
-            initial={hasMounted ? { opacity: 0, scale: 0.95 } : false}
-            whileInView={{ opacity: 1, scale: 1 }}
-            viewport={{ once: true }}
-            transition={{ delay: 0.1 }}
-            className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-amber-100/60 border border-amber-200/60 text-sm font-medium text-amber-800 mb-6"
-          >
+        <div className="text-center mb-16">
+          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-amber-100/60 border border-amber-200/60 text-sm font-medium text-amber-800 mb-6">
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
             </svg>
             {badgeText}
-          </motion.div>
+          </div>
 
           <h2
             className="text-3xl sm:text-4xl lg:text-5xl font-bold text-stone-800 mb-6"
@@ -236,13 +200,10 @@ export default function FeaturesGrid({
               {sectionDescription}
             </p>
           )}
-        </motion.div>
+        </div>
 
         {/* Features grid */}
-        <div
-          ref={containerRef}
-          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8"
-        >
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
           {features.map((feature, index) => (
             <FeatureCard
               key={feature.id}
@@ -256,13 +217,7 @@ export default function FeaturesGrid({
         </div>
 
         {/* Bottom trust element */}
-        <motion.div
-          className="flex justify-center mt-16"
-          initial={hasMounted ? { opacity: 0, y: 20 } : false}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ delay: 0.5 }}
-        >
+        <div className="flex justify-center mt-16">
           <div className="flex items-center gap-4 px-6 py-3 rounded-full bg-white/80 border border-stone-200/60 shadow-sm">
             <span className="flex items-center gap-2 text-sm text-stone-600">
               <svg className="w-5 h-5 text-emerald-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -285,7 +240,7 @@ export default function FeaturesGrid({
               {trustBadges.cancelAnytime}
             </span>
           </div>
-        </motion.div>
+        </div>
       </div>
     </section>
   );

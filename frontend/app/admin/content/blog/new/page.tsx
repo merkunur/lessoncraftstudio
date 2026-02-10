@@ -916,7 +916,7 @@ export default function NewBlogPost() {
                         value={currentContent.ogImage}
                         onChange={(e) => updateTranslation('ogImage', e.target.value)}
                         className="mt-1 block w-full border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 px-3 py-2 border"
-                        placeholder="https://lessoncraftstudio.com/images/blog/..."
+                        placeholder="https://www.lessoncraftstudio.com/images/blog/..."
                       />
                     </div>
 

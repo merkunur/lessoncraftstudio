@@ -16,7 +16,7 @@ import { updateEmailLogStatus } from '@/lib/email-campaigns';
  *
  * Setup in Resend Dashboard:
  * https://resend.com/webhooks
- * Add webhook URL: https://lessoncraftstudio.com/api/webhooks/email
+ * Add webhook URL: https://www.lessoncraftstudio.com/api/webhooks/email
  */
 export async function POST(request: NextRequest) {
   try {
@@ -115,6 +115,6 @@ export async function POST(request: NextRequest) {
 export async function GET(request: NextRequest) {
   return NextResponse.json({
     message: 'Email webhook endpoint is active',
-    url: 'https://lessoncraftstudio.com/api/webhooks/email',
+    url: 'https://www.lessoncraftstudio.com/api/webhooks/email',
   });
 }

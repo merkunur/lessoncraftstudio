@@ -13,7 +13,7 @@ export async function GET(request: NextRequest) {
         platform: 'facebook',
         content: '🎒 Back to school season is here! Create engaging worksheets for your students with our easy-to-use generators. Try it free today! #Education #Teachers #BackToSchool',
         images: ['https://example.com/image1.jpg'],
-        link: 'https://lessoncraftstudio.com/worksheets',
+        link: 'https://www.lessoncraftstudio.com/en/apps',
         hashtags: ['#Education', '#Teachers', '#BackToSchool'],
         scheduledAt: new Date(Date.now() + 2 * 60 * 60 * 1000).toISOString(),
         status: 'scheduled'
@@ -22,7 +22,7 @@ export async function GET(request: NextRequest) {
         id: 'post_2',
         platform: 'twitter',
         content: 'New feature alert! 🚀 Create word search puzzles in 30+ languages. Perfect for language teachers worldwide! #EdTech #LanguageLearning',
-        link: 'https://lessoncraftstudio.com/worksheets/word-search',
+        link: 'https://www.lessoncraftstudio.com/en/apps/word-search',
         hashtags: ['#EdTech', '#LanguageLearning'],
         scheduledAt: new Date(Date.now() + 24 * 60 * 60 * 1000).toISOString(),
         status: 'scheduled'
@@ -50,7 +50,7 @@ export async function GET(request: NextRequest) {
         id: 'post_4',
         platform: 'linkedin',
         content: 'Empowering educators with innovative worksheet generation tools. Our platform helps teachers save time while creating engaging educational content. Learn how schools are transforming their teaching methods.',
-        link: 'https://lessoncraftstudio.com/case-studies',
+        link: 'https://www.lessoncraftstudio.com/en/about',
         scheduledAt: new Date(Date.now() + 3 * 24 * 60 * 60 * 1000).toISOString(),
         status: 'scheduled'
       },
@@ -59,7 +59,7 @@ export async function GET(request: NextRequest) {
         platform: 'pinterest',
         content: 'Free printable worksheets for preschool and kindergarten! Pin this collection for endless learning activities.',
         images: ['https://example.com/pinterest-collection.jpg'],
-        link: 'https://lessoncraftstudio.com/free-worksheets',
+        link: 'https://www.lessoncraftstudio.com/en/apps',
         hashtags: ['#PrintableWorksheets', '#PreschoolActivities', '#KindergartenLearning'],
         publishedAt: new Date(Date.now() - 48 * 60 * 60 * 1000).toISOString(),
         status: 'published',
@@ -75,7 +75,7 @@ export async function GET(request: NextRequest) {
         platform: 'facebook',
         content: 'Teacher tip of the week: Use our crossword generator to create vocabulary reviews tailored to your lesson plans! 📚',
         images: ['https://example.com/crossword-tip.jpg'],
-        link: 'https://lessoncraftstudio.com/worksheets/crossword',
+        link: 'https://www.lessoncraftstudio.com/en/apps/crossword',
         status: 'draft'
       }
     ];

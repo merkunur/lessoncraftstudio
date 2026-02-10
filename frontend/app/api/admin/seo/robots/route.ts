@@ -21,7 +21,7 @@ export async function POST(request: NextRequest) {
         '/images',
         '/worksheets'
       ],
-      sitemap: 'https://lessoncraftstudio.com/sitemap.xml',
+      sitemap: 'https://www.lessoncraftstudio.com/sitemap_index.xml',
       crawlDelay: 1
     };
 
@@ -51,7 +51,7 @@ export async function GET(request: NextRequest) {
       disallowed: ['/admin', '/api', '/private'],
       allowed: ['/api/public', '/images', '/worksheets'],
       crawlDelay: 1,
-      sitemap: 'https://lessoncraftstudio.com/sitemap.xml',
+      sitemap: 'https://www.lessoncraftstudio.com/sitemap_index.xml',
       lastUpdated: new Date().toISOString()
     });
   } catch (error) {

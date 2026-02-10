@@ -96,6 +96,21 @@ function fetchNoFollow(url) {
 }
 
 // ---------------------------------------------------------------------------
+// HTML Entity Decoding (for comparing HTML-encoded vs raw DB values)
+// ---------------------------------------------------------------------------
+function decodeHtmlEntities(str) {
+  if (!str) return str;
+  return str
+    .replace(/&#x27;/g, "'")
+    .replace(/&#x2F;/g, "/")
+    .replace(/&#39;/g, "'")
+    .replace(/&quot;/g, '"')
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
+    .replace(/&amp;/g, '&'); // Must be last
+}
+
+// ---------------------------------------------------------------------------
 // HTML Parsing Helpers (regex-based, no dependencies)
 // ---------------------------------------------------------------------------
 
@@ -386,10 +401,12 @@ async function loadPostsFromDB() {
       pageTitle ? `"${pageTitle.substring(0, 80)}"` : 'MISSING');
 
     // G4: <meta name="description"> exists, non-empty, <=160 chars
-    const metaDesc = extractMetaContent(html, 'description');
+    // Decode HTML entities for length check — Google sees decoded text, not raw HTML entities
+    const metaDescRaw = extractMetaContent(html, 'description');
+    const metaDesc = decodeHtmlEntities(metaDescRaw);
     const metaDescOk = metaDesc && metaDesc.length > 0 && metaDesc.length <= 160;
     check('G4', 'meta description exists (<=160 chars)', metaDescOk,
-      metaDesc ? `${metaDesc.length} chars: "${metaDesc.substring(0, 80)}..."` : 'MISSING');
+      metaDesc ? `${metaDesc.length} chars (decoded): "${metaDesc.substring(0, 80)}..."` : 'MISSING');
 
     // G5: <meta name="robots"> does NOT contain "noindex"
     const robotsMeta = extractMetaContent(html, 'robots');
@@ -400,7 +417,9 @@ async function loadPostsFromDB() {
       robotsMeta ? `robots="${robotsMeta}"` : 'No robots meta (defaults to index)');
 
     // G6: <meta name="keywords"> contains focusKeyword
-    const metaKeywords = extractMetaContent(html, 'keywords');
+    // Decode HTML entities for comparison — &#x27; vs ' etc.
+    const metaKeywordsRaw = extractMetaContent(html, 'keywords');
+    const metaKeywords = decodeHtmlEntities(metaKeywordsRaw);
     const focusKeyword = en.focusKeyword || '';
     const keywordsContainFocus = focusKeyword
       ? (metaKeywords && metaKeywords.toLowerCase().includes(focusKeyword.toLowerCase()))

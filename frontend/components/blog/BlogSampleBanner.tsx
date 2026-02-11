@@ -5,6 +5,7 @@ import Link from 'next/link';
 interface BlogSampleBannerProps {
   locale: string;
   appsUrl: string;
+  thumbnails?: string[];
 }
 
 const BANNER_CONTENT: Record<string, { badge: string; headline: string; viewSamplesBtn: string; browseAllBtn: string }> = {
@@ -76,7 +77,7 @@ const BANNER_CONTENT: Record<string, { badge: string; headline: string; viewSamp
   },
 };
 
-export default function BlogSampleBanner({ locale, appsUrl }: BlogSampleBannerProps) {
+export default function BlogSampleBanner({ locale, appsUrl, thumbnails }: BlogSampleBannerProps) {
   const content = BANNER_CONTENT[locale] || BANNER_CONTENT.en;
 
   const handleSmoothScroll = (e: React.MouseEvent<HTMLAnchorElement>) => {
@@ -98,16 +99,17 @@ export default function BlogSampleBanner({ locale, appsUrl }: BlogSampleBannerPr
     >
       <style dangerouslySetInnerHTML={{ __html: `
         .blog-banner-card {
-          background: rgba(255, 255, 255, 0.08);
+          background: rgba(255, 255, 255, 0.1);
           backdrop-filter: blur(16px) saturate(180%);
           -webkit-backdrop-filter: blur(16px) saturate(180%);
-          border: 1px solid rgba(255, 255, 255, 0.12);
+          border: 1px solid rgba(255, 255, 255, 0.15);
           border-radius: 12px;
           padding: 20px 28px;
           display: flex;
           align-items: center;
           justify-content: space-between;
           gap: 20px;
+          box-shadow: 0 0 30px rgba(6,182,212,0.08);
         }
         @supports not (backdrop-filter: blur(16px)) {
           .blog-banner-card { background: rgba(30, 25, 60, 0.8); }
@@ -202,6 +204,24 @@ export default function BlogSampleBanner({ locale, appsUrl }: BlogSampleBannerPr
           }}>
             {content.headline}
           </h2>
+
+          {/* Mini circular thumbnail previews */}
+          {thumbnails && thumbnails.length > 0 && (
+            <div style={{ display: 'flex', alignItems: 'center', marginTop: '10px' }}>
+              {thumbnails.slice(0, 3).map((src, i) => (
+                <div key={i} style={{
+                  width: '32px', height: '32px', borderRadius: '50%', overflow: 'hidden',
+                  border: '2px solid rgba(255,255,255,0.3)',
+                  marginLeft: i > 0 ? '-6px' : '0',
+                  position: 'relative', zIndex: 3 - i,
+                  flexShrink: 0,
+                }}>
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img src={src} alt="" loading="lazy" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                </div>
+              ))}
+            </div>
+          )}
         </div>
 
         {/* Buttons */}

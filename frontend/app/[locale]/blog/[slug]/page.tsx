@@ -70,6 +70,17 @@ function generateAltText(
   }
 }
 
+// Dynamic font sizing based on longest word length - prevents mid-word breaking on blog titles
+function getTitleFontSize(title: string): string {
+  const longestWordLength = Math.max(
+    ...title.split(/[\s\-\u2013\u2014]+/).map(word => word.length)
+  );
+  if (longestWordLength > 20) return 'clamp(1.75rem, 3.5vw + 0.25rem, 2.75rem)';
+  if (longestWordLength > 15) return 'clamp(2rem, 4vw + 0.5rem, 3.5rem)';
+  if (longestWordLength > 10) return 'clamp(2.25rem, 4.5vw + 0.75rem, 4rem)';
+  return 'clamp(2.5rem, 5vw + 1rem, 4.5rem)';
+}
+
 // Shared in-memory slug cache for fast lookups (maps any slug -> primary slug)
 let slugCache: Map<string, string> | null = null;
 let cacheTimestamp: number = 0;
@@ -597,13 +608,8 @@ export default async function BlogPostPage({
   const bodyMatch = htmlContent.match(/<body[^>]*>([\s\S]*?)<\/body>/i);
   let bodyContent = bodyMatch ? bodyMatch[1] : htmlContent;
 
-  // SEO FIX: Verify H1 tag exists - inject one if missing for proper SEO
-  const hasH1 = /<h1[^>]*>/i.test(bodyContent);
-  if (!hasH1 && translation.title) {
-    const h1Tag = `<h1 style="font-size: 2rem; font-weight: 700; margin-bottom: 1rem; color: #1a1a2e;">${translation.title}</h1>`;
-    // Insert H1 at the beginning of body content
-    bodyContent = h1Tag + bodyContent;
-  }
+  // Strip any H1 from body content to prevent duplicate H1 (the hero section renders the code-driven H1)
+  bodyContent = bodyContent.replace(/<h1[^>]*>[\s\S]*?<\/h1>/gi, '');
 
   // Extract navigation from body content
   const navMatch = bodyContent.match(/(<nav[^>]*>[\s\S]*?<\/nav>)/i);
@@ -983,6 +989,39 @@ export default async function BlogPostPage({
     fi: 'Lue Lisää →'
   };
 
+  // Read time labels (localized)
+  const READ_TIME_LABELS: Record<string, string> = {
+    en: '{n} min read', de: '{n} Min. Lesezeit', fr: '{n} min de lecture',
+    es: '{n} min de lectura', pt: '{n} min de leitura', it: '{n} min di lettura',
+    nl: '{n} min leestijd', sv: '{n} min l\u00e4sning', da: '{n} min l\u00e6sning',
+    no: '{n} min lesing', fi: '{n} min lukuaika',
+  };
+
+  // Free samples badge labels
+  const FREE_SAMPLES_BADGE: Record<string, string> = {
+    en: 'Free Samples', de: 'Gratis-Beispiele', fr: 'Exemples gratuits',
+    es: 'Ejemplos gratis', pt: 'Exemplos gr\u00e1tis', it: 'Esempi gratuiti',
+    nl: 'Gratis voorbeelden', sv: 'Gratis exempel', da: 'Gratis eksempler',
+    no: 'Gratis eksempler', fi: 'Ilmaiset esimerkit',
+  };
+
+  // Compute reading time from body content
+  const plainText = bodyContent.replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim();
+  const wordCount = plainText.split(/\s+/).filter((w: string) => w.length > 0).length;
+  const readTimeMinutes = Math.max(1, Math.ceil(wordCount / 200));
+  const readTimeLabel = (READ_TIME_LABELS[locale] || READ_TIME_LABELS.en).replace('{n}', String(readTimeMinutes));
+
+  // Format date using Intl.DateTimeFormat
+  const formattedDate = new Intl.DateTimeFormat(locale === 'no' ? 'nb' : locale, {
+    year: 'numeric', month: 'long', day: 'numeric',
+  }).format(post.createdAt);
+
+  // Split title for gradient styling (first half white, second half gradient)
+  const titleText = translation.title || slug.replace(/-/g, ' ');
+  const titleWords = titleText.split(' ');
+  const titleFirstPart = titleWords.slice(0, Math.ceil(titleWords.length / 2)).join(' ');
+  const titleSecondPart = titleWords.slice(Math.ceil(titleWords.length / 2)).join(' ');
+
   console.log(`[blog-perf] TOTAL page render (${locale}/${slug}): ${(performance.now() - pageStart).toFixed(0)}ms`);
 
   // Render the extracted content with inline styles, PDFs after header, and related posts before footer
@@ -1043,73 +1082,322 @@ export default async function BlogPostPage({
           background: #ffffff !important;
           background-image: none !important;
         }
-        /* Make blog <header> transparent since our wrapper provides the gradient */
-        .blog-hero-content header {
-          background: transparent !important;
-          background-image: none !important;
-          margin-bottom: 0 !important;
-        }
         /* Scope blog article container to work within our wrapper */
         .blog-article-wrapper .container {
           max-width: 100% !important;
           padding: 0 20px !important;
         }
-        /* Blog hero entrance animation */
-        @keyframes blogHeroSlideIn {
-          from { opacity: 0; transform: translateY(-6px); }
-          to { opacity: 1; transform: translateY(0); }
-        }
-        .blog-hero-section {
-          animation: blogHeroSlideIn 0.5s ease-out;
-        }
-        @media (prefers-reduced-motion: reduce) {
-          .blog-hero-section { animation: none; }
-        }
       ` }} />
 
-      {/* === UNIFIED BLOG HERO SECTION === */}
-      <div className="blog-hero-section" style={{
-        background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+      {/* === PREMIUM BLOG HERO SECTION === */}
+      <div style={{
         position: 'relative',
         overflow: 'hidden',
+        background: 'linear-gradient(135deg, #030305 0%, #0a0a1a 25%, #0f0f2a 50%, #0a1628 75%, #051020 100%)',
       }}>
-        {/* Subtle radial light overlay for depth */}
-        <div style={{
-          position: 'absolute',
-          inset: 0,
-          backgroundImage: 'radial-gradient(ellipse at 30% 20%, rgba(255,255,255,0.08) 0%, transparent 60%)',
-          pointerEvents: 'none',
-        }} />
-
-        {/* Breadcrumb Navigation (4-level: Home > Blog > Category > Post) */}
-        <Breadcrumb
-          locale={locale}
-          suppressSchema
-          variant="blog"
-          items={[
-            { label: breadcrumbLabels[locale] || 'Blog', href: `/${locale}/blog` },
-            { label: CATEGORY_DISPLAY_NAMES[locale]?.[post.category] || post.category, href: `/${locale}/blog/category/${post.category}` },
-            { label: translation.title || slug }
-          ]}
+        {/* Grain texture overlay */}
+        <div
+          style={{
+            position: 'absolute',
+            inset: 0,
+            opacity: 0.015,
+            pointerEvents: 'none',
+            backgroundImage: `url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E")`,
+          }}
         />
 
-        {/* Worksheet Sample Banner - glassmorphism bar on gradient */}
-        {hasBlogSamples && (
-          <BlogSampleBanner locale={locale} appsUrl={`/${locale}/apps`} />
-        )}
+        {/* Grid overlay */}
+        <div
+          style={{
+            position: 'absolute',
+            inset: 0,
+            opacity: 0.02,
+            backgroundImage: 'linear-gradient(rgba(255,255,255,0.1) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.1) 1px, transparent 1px)',
+            backgroundSize: '60px 60px',
+          }}
+        />
 
-        {/* Blog hero header content from DB */}
-        {heroHtml && (
+        {/* Animated gradient orbs */}
+        <div style={{ position: 'absolute', inset: 0, overflow: 'hidden' }}>
           <div
-            className="blog-hero-content"
-            dangerouslySetInnerHTML={{ __html: heroHtml }}
-            style={{ position: 'relative' }}
+            className="hero-orb-pulse"
+            style={{
+              position: 'absolute', width: '700px', height: '700px', borderRadius: '50%',
+              background: 'radial-gradient(circle, rgba(6,182,212,0.15) 0%, rgba(6,182,212,0.05) 40%, transparent 70%)',
+              top: '-15%', right: '-10%',
+            }}
           />
-        )}
+          <div
+            className="hero-orb-drift"
+            style={{
+              position: 'absolute', width: '500px', height: '500px', borderRadius: '50%',
+              background: 'radial-gradient(circle, rgba(168,85,247,0.12) 0%, rgba(168,85,247,0.04) 40%, transparent 70%)',
+              bottom: '-10%', left: '-5%',
+            }}
+          />
+          <div
+            className="hero-orb-fade"
+            style={{
+              position: 'absolute', width: '400px', height: '400px', borderRadius: '50%',
+              background: 'radial-gradient(circle, rgba(236,72,153,0.08) 0%, transparent 60%)',
+              top: '40%', left: '30%',
+            }}
+          />
+        </div>
+
+        {/* Floating geometric shapes - hidden on mobile */}
+        <div className="hidden lg:block" style={{ position: 'absolute', inset: 0, pointerEvents: 'none' }}>
+          <div className="float-diamond" style={{ position: 'absolute', width: '16px', height: '16px', border: '1px solid rgba(6,182,212,0.2)', top: '15%', left: '10%' }} />
+          <div className="float-circle" style={{ position: 'absolute', width: '12px', height: '12px', borderRadius: '50%', border: '1px solid rgba(168,85,247,0.3)', top: '25%', right: '15%' }} />
+          <div className="float-plus" style={{ position: 'absolute', color: 'rgba(236,72,153,0.2)', fontSize: '24px', fontWeight: 300, bottom: '30%', left: '8%' }}>+</div>
+          <div className="float-bar" style={{ position: 'absolute', width: '8px', height: '32px', background: 'linear-gradient(to bottom, rgba(6,182,212,0.1), transparent)', borderRadius: '9999px', top: '40%', right: '8%' }} />
+        </div>
+
+        {/* Hero content container */}
+        <div style={{ position: 'relative', zIndex: 10, maxWidth: '1280px', margin: '0 auto', padding: '48px 24px 64px' }}>
+          {/* Breadcrumb Navigation (4-level: Home > Blog > Category > Post) */}
+          <Breadcrumb
+            locale={locale}
+            suppressSchema
+            variant="blog"
+            items={[
+              { label: breadcrumbLabels[locale] || 'Blog', href: `/${locale}/blog` },
+              { label: CATEGORY_DISPLAY_NAMES[locale]?.[post.category] || post.category, href: `/${locale}/blog/category/${post.category}` },
+              { label: translation.title || slug }
+            ]}
+          />
+
+          {/* Two-column layout */}
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center" style={{ marginTop: '32px' }}>
+            {/* Left column - Text content */}
+            <div className="lg:col-span-7 text-center lg:text-left">
+              {/* Category badge */}
+              <div className="hero-fade-in hero-stagger-1" style={{ marginBottom: '20px' }}>
+                <span style={{
+                  display: 'inline-flex', alignItems: 'center', gap: '8px',
+                  padding: '6px 16px', borderRadius: '9999px',
+                  background: 'linear-gradient(135deg, rgba(6,182,212,0.15) 0%, rgba(168,85,247,0.15) 100%)',
+                  border: '1px solid rgba(6,182,212,0.2)',
+                }}>
+                  <span className="animate-pulse" style={{ width: '8px', height: '8px', borderRadius: '50%', backgroundColor: '#22d3ee', flexShrink: 0 }} />
+                  <span style={{ fontSize: '14px', fontWeight: 600, color: '#67e8f9', letterSpacing: '0.3px' }}>
+                    {CATEGORY_DISPLAY_NAMES[locale]?.[post.category] || post.category}
+                  </span>
+                </span>
+              </div>
+
+              {/* H1 Title - NO animation (LCP element, must render instantly) */}
+              <h1
+                lang={locale}
+                style={{
+                  fontSize: getTitleFontSize(titleText),
+                  fontWeight: 900,
+                  lineHeight: 1.15,
+                  letterSpacing: '-0.02em',
+                  marginBottom: '24px',
+                  fontFamily: "'Space Grotesk', 'Inter', system-ui, sans-serif",
+                  hyphens: 'none' as const,
+                }}
+              >
+                <span style={{ color: '#ffffff' }}>{titleFirstPart} </span>
+                <span style={{
+                  backgroundImage: 'linear-gradient(135deg, #06b6d4 0%, #a855f7 50%, #ec4899 100%)',
+                  WebkitBackgroundClip: 'text',
+                  WebkitTextFillColor: 'transparent',
+                  backgroundClip: 'text',
+                }}>
+                  {titleSecondPart}
+                </span>
+              </h1>
+
+              {/* Excerpt */}
+              {translation.excerpt && (
+                <p className="hero-fade-in hero-stagger-2 mx-auto lg:mx-0" style={{
+                  fontSize: '18px', lineHeight: 1.7,
+                  color: 'rgba(255,255,255,0.7)',
+                  maxWidth: '560px', marginBottom: '20px',
+                }}>
+                  {translation.excerpt}
+                </p>
+              )}
+
+              {/* Meta row: date + read time */}
+              <div className="hero-fade-in hero-stagger-3 flex items-center gap-4 flex-wrap justify-center lg:justify-start" style={{ marginBottom: '28px' }}>
+                <span style={{ display: 'flex', alignItems: 'center', gap: '6px', color: 'rgba(255,255,255,0.5)', fontSize: '14px' }}>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                    <rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
+                    <line x1="16" y1="2" x2="16" y2="6" />
+                    <line x1="8" y1="2" x2="8" y2="6" />
+                    <line x1="3" y1="10" x2="21" y2="10" />
+                  </svg>
+                  {formattedDate}
+                </span>
+                <span style={{ color: 'rgba(255,255,255,0.3)' }} aria-hidden="true">|</span>
+                <span style={{ display: 'flex', alignItems: 'center', gap: '6px', color: 'rgba(255,255,255,0.5)', fontSize: '14px' }}>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                    <circle cx="12" cy="12" r="10" />
+                    <polyline points="12 6 12 12 16 14" />
+                  </svg>
+                  {readTimeLabel}
+                </span>
+              </div>
+
+              {/* Worksheet Sample Banner */}
+              {hasBlogSamples && (
+                <div className="hero-fade-in hero-stagger-4">
+                  <BlogSampleBanner
+                    locale={locale}
+                    appsUrl={`/${locale}/apps`}
+                    thumbnails={blogSamples.slice(0, 3).map(s => s.thumbSrc)}
+                  />
+                </div>
+              )}
+            </div>
+
+            {/* Right column - Worksheet preview cards (desktop only) */}
+            <div className="hidden lg:block lg:col-span-5 hero-fade-in-right" style={{ position: 'relative' }}>
+              {/* Glow effect behind cards */}
+              <div style={{
+                position: 'absolute', inset: 0, borderRadius: '24px',
+                filter: 'blur(48px)', opacity: 0.3,
+                background: 'linear-gradient(135deg, rgba(6,182,212,0.4) 0%, rgba(168,85,247,0.3) 50%, rgba(236,72,153,0.2) 100%)',
+              }} />
+
+              <div style={{ position: 'relative', width: '100%', maxWidth: '420px', margin: '0 auto', aspectRatio: '1' }}>
+                {hasBlogSamples ? (
+                  <>
+                    {/* Card 1 - tilted left */}
+                    {blogSamples[0] && (
+                      <div className="blog-card-float" style={{
+                        '--card-rotate': '-6deg',
+                        position: 'absolute', top: '8%', left: '2%',
+                        width: '220px', zIndex: 2,
+                      } as React.CSSProperties}>
+                        <div style={{
+                          borderRadius: '16px', overflow: 'hidden',
+                          boxShadow: '0 25px 50px -12px rgba(0,0,0,0.5)',
+                          border: '1px solid rgba(255,255,255,0.1)',
+                          background: 'linear-gradient(135deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.05) 100%)',
+                        }}>
+                          {/* Browser chrome */}
+                          <div style={{ display: 'flex', alignItems: 'center', gap: '6px', padding: '10px 14px', background: 'rgba(0,0,0,0.2)' }}>
+                            <div style={{ width: '8px', height: '8px', borderRadius: '50%', backgroundColor: 'rgba(248,113,113,0.6)' }} />
+                            <div style={{ width: '8px', height: '8px', borderRadius: '50%', backgroundColor: 'rgba(250,204,21,0.6)' }} />
+                            <div style={{ width: '8px', height: '8px', borderRadius: '50%', backgroundColor: 'rgba(74,222,128,0.6)' }} />
+                            <span style={{ marginLeft: '8px', fontSize: '11px', color: 'rgba(255,255,255,0.4)', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
+                              {blogSamples[0].productName}
+                            </span>
+                          </div>
+                          <div style={{ aspectRatio: '3/4', background: '#ffffff' }}>
+                            {/* eslint-disable-next-line @next/next/no-img-element */}
+                            <img src={blogSamples[0].thumbSrc} alt="" loading="lazy" style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
+                          </div>
+                        </div>
+                      </div>
+                    )}
+
+                    {/* Card 2 - tilted right */}
+                    {blogSamples.length > 1 && (
+                      <div className="blog-card-float" style={{
+                        '--card-rotate': '4deg',
+                        position: 'absolute', bottom: '12%', right: '2%',
+                        width: '240px', zIndex: 3, animationDelay: '2s',
+                      } as React.CSSProperties}>
+                        <div style={{
+                          borderRadius: '16px', overflow: 'hidden',
+                          boxShadow: '0 25px 50px -12px rgba(0,0,0,0.5)',
+                          border: '1px solid rgba(255,255,255,0.1)',
+                          background: 'linear-gradient(135deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.05) 100%)',
+                        }}>
+                          {/* Browser chrome */}
+                          <div style={{ display: 'flex', alignItems: 'center', gap: '6px', padding: '10px 14px', background: 'rgba(0,0,0,0.2)' }}>
+                            <div style={{ width: '8px', height: '8px', borderRadius: '50%', backgroundColor: 'rgba(248,113,113,0.6)' }} />
+                            <div style={{ width: '8px', height: '8px', borderRadius: '50%', backgroundColor: 'rgba(250,204,21,0.6)' }} />
+                            <div style={{ width: '8px', height: '8px', borderRadius: '50%', backgroundColor: 'rgba(74,222,128,0.6)' }} />
+                            <span style={{ marginLeft: '8px', fontSize: '11px', color: 'rgba(255,255,255,0.4)', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
+                              {blogSamples[1].productName}
+                            </span>
+                          </div>
+                          <div style={{ aspectRatio: '3/4', background: '#ffffff' }}>
+                            {/* eslint-disable-next-line @next/next/no-img-element */}
+                            <img src={blogSamples[1].thumbSrc} alt="" loading="lazy" style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
+                          </div>
+                        </div>
+                      </div>
+                    )}
+
+                    {/* Card 3 - subtle background card */}
+                    {blogSamples.length > 2 && (
+                      <div className="blog-card-float" style={{
+                        '--card-rotate': '-2deg',
+                        position: 'absolute', top: '25%', right: '15%',
+                        width: '180px', zIndex: 1, animationDelay: '4s', opacity: 0.6,
+                      } as React.CSSProperties}>
+                        <div style={{
+                          borderRadius: '16px', overflow: 'hidden',
+                          boxShadow: '0 20px 40px -12px rgba(0,0,0,0.4)',
+                          border: '1px solid rgba(255,255,255,0.08)',
+                          background: 'linear-gradient(135deg, rgba(255,255,255,0.08) 0%, rgba(255,255,255,0.03) 100%)',
+                        }}>
+                          <div style={{ display: 'flex', alignItems: 'center', gap: '6px', padding: '8px 12px', background: 'rgba(0,0,0,0.2)' }}>
+                            <div style={{ width: '6px', height: '6px', borderRadius: '50%', backgroundColor: 'rgba(248,113,113,0.4)' }} />
+                            <div style={{ width: '6px', height: '6px', borderRadius: '50%', backgroundColor: 'rgba(250,204,21,0.4)' }} />
+                            <div style={{ width: '6px', height: '6px', borderRadius: '50%', backgroundColor: 'rgba(74,222,128,0.4)' }} />
+                          </div>
+                          <div style={{ aspectRatio: '3/4', background: '#ffffff' }}>
+                            {/* eslint-disable-next-line @next/next/no-img-element */}
+                            <img src={blogSamples[2].thumbSrc} alt="" loading="lazy" style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
+                          </div>
+                        </div>
+                      </div>
+                    )}
+
+                    {/* Floating "Free Samples" badge */}
+                    <div className="hero-pop-in-1" style={{
+                      position: 'absolute', bottom: '5%', left: '50%', transform: 'translateX(-50%)',
+                      zIndex: 10,
+                    }}>
+                      <div style={{
+                        padding: '8px 20px', borderRadius: '9999px', fontSize: '13px', fontWeight: 700,
+                        color: '#ffffff',
+                        background: 'linear-gradient(135deg, #06b6d4 0%, #8b5cf6 100%)',
+                        boxShadow: '0 4px 20px rgba(6,182,212,0.4)',
+                        whiteSpace: 'nowrap',
+                      }}>
+                        {FREE_SAMPLES_BADGE[locale] || 'Free Samples'}
+                      </div>
+                    </div>
+                  </>
+                ) : (
+                  /* No samples fallback - decorative gradient orb with icon */
+                  <div style={{
+                    position: 'absolute', top: '50%', left: '50%',
+                    transform: 'translate(-50%, -50%)',
+                    width: '200px', height: '200px',
+                    display: 'flex', alignItems: 'center', justifyContent: 'center',
+                  }}>
+                    <div style={{
+                      position: 'absolute', inset: 0, borderRadius: '50%',
+                      background: 'radial-gradient(circle, rgba(6,182,212,0.2) 0%, rgba(168,85,247,0.15) 50%, transparent 70%)',
+                      filter: 'blur(20px)',
+                    }} />
+                    <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.15)" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                      <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+                      <polyline points="14 2 14 8 20 8" />
+                      <line x1="16" y1="13" x2="8" y2="13" />
+                      <line x1="16" y1="17" x2="8" y2="17" />
+                      <polyline points="10 9 9 9 8 9" />
+                    </svg>
+                  </div>
+                )}
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
 
-      {/* Gradient to white transition */}
-      <div style={{ marginTop: '-1px', lineHeight: 0, background: 'linear-gradient(180deg, #764ba2 0%, #8b6ab5 100%)' }}>
+      {/* Wave transition: dark navy -> white */}
+      <div style={{ marginTop: '-1px', lineHeight: 0, background: '#0f0f2a' }}>
         <svg viewBox="0 0 1440 56" preserveAspectRatio="none" aria-hidden="true"
              style={{ width: '100%', height: '56px', display: 'block' }}>
           <path d="M0,0 C480,56 960,56 1440,0 L1440,56 L0,56 Z" fill="#ffffff" />

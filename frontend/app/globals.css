@@ -350,6 +350,13 @@
   }
   .glow-pulse { animation: glowPulse 5s ease-in-out infinite; }
 
+  /* Blog card float animation for hero worksheet previews */
+  @keyframes blogCardFloat {
+    0%, 100% { transform: rotate(var(--card-rotate)) translateY(0); }
+    50% { transform: rotate(var(--card-rotate)) translateY(-8px); }
+  }
+  .blog-card-float { animation: blogCardFloat 6s ease-in-out infinite; }
+
   @media (prefers-reduced-motion: reduce) {
     .hero-fade-in,
     .hero-fade-in-left,
@@ -389,5 +396,6 @@
     .dot-pulse { animation: none; }
     .center-pulse { animation: none; }
     .glow-pulse { animation: none; }
+    .blog-card-float { animation: none; }
   }
 }

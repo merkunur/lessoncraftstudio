@@ -7757,11 +7757,6 @@ export const legacyBlogSlugs: BlogLegacySlug[] = [
     "locale": "da"
   },
   {
-    "oldSlug": "top-10-opgavegeneratorer-3-klasse",
-    "newSlug": "de-10-bedste-opgavegeneratorer-til-1-klasse-6-7-aar",
-    "locale": "da"
-  },
-  {
     "oldSlug": "avanceret-matematik-tredje-klasse-symbolsk-algebra-puslespil",
     "newSlug": "avanceret-matematik-til-3-klasse-symbolsk-algebra-matematikpuslespil-og-kodematematik",
     "locale": "da"

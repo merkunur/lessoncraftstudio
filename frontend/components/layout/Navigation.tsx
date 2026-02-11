@@ -17,7 +17,7 @@ export function Navigation() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <nav className="bg-white border-b border-gray-200">
+    <nav className="bg-white border-b border-gray-200 relative z-50">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-[60px] md:h-[140px]">
           {/* Logo */}
@@ -114,7 +114,7 @@ export function Navigation() {
 
       {/* Mobile Menu - CSS transition instead of conditional render to avoid CLS */}
       <div
-        className={`md:hidden overflow-hidden transition-[max-height,border-color] duration-300 ease-in-out ${
+        className={`md:hidden ${mobileMenuOpen ? 'overflow-visible' : 'overflow-hidden'} transition-[max-height,border-color] duration-300 ease-in-out ${
           mobileMenuOpen ? 'max-h-[500px] border-t border-gray-200' : 'max-h-0 border-t border-transparent'
         } bg-white`}
       >

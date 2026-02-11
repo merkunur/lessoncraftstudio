@@ -4,6 +4,9 @@ import { productPageSlugs, getAlternateUrls } from '@/config/product-page-slugs'
 import { getHreflangCode } from '@/lib/schema-generator';
 import { SUPPORTED_LOCALES } from '@/config/locales';
 import { crossLocaleSlugs } from '@/config/blog-cross-locale-redirects';
+import { themeSlugMap, getThemeSlug } from '@/config/theme-slugs';
+import { themeContent } from '@/config/theme-page-content';
+import { gradeSlugMap, GRADE_IDS, getGradeSlug } from '@/config/grade-slugs';
 
 // Build slug → nativeLocale map to exclude sitemap entries that would 301 redirect
 const slugToNativeLocale = new Map<string, string>();
@@ -65,6 +68,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { path: '/faq', priority: 0.4, changeFreq: 'monthly' as const },
     { path: '/contact', priority: 0.3, changeFreq: 'monthly' as const },
     { path: '/license', priority: 0.3, changeFreq: 'monthly' as const },
+    { path: '/worksheets', priority: 0.7, changeFreq: 'weekly' as const },
   ];
 
   // Add static pages for all locales with alternates
@@ -295,7 +299,66 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     }
   }
 
-  // Combine all routes: static, product, product categories, grades, blog categories, blog posts
+  // Theme hub pages (50 themes x 11 locales = 550 pages)
+  const themeRoutes: MetadataRoute.Sitemap = [];
+  const themeIds = Object.keys(themeContent);
+  for (const locale of locales) {
+    for (const themeId of themeIds) {
+      const slug = getThemeSlug(themeId, locale);
+      if (!slug) continue;
+      const themeAlternates: Record<string, string> = {};
+      for (const lang of locales) {
+        const langSlug = getThemeSlug(themeId, lang);
+        if (langSlug) {
+          themeAlternates[getHreflangCode(lang)] = `${baseUrl}/${lang}/worksheets/${langSlug}`;
+        }
+      }
+      const enSlug = getThemeSlug(themeId, 'en');
+      if (enSlug) themeAlternates['x-default'] = `${baseUrl}/en/worksheets/${enSlug}`;
+      themeRoutes.push({
+        url: `${baseUrl}/${locale}/worksheets/${slug}`,
+        lastModified: currentDate,
+        changeFrequency: 'weekly' as const,
+        priority: 0.7,
+        alternates: { languages: themeAlternates },
+      });
+    }
+  }
+
+  // Theme + Grade pages (50 themes x 5 grades x 11 locales = 2,750 pages)
+  const themeGradeRoutes: MetadataRoute.Sitemap = [];
+  for (const locale of locales) {
+    for (const themeId of themeIds) {
+      const tSlug = getThemeSlug(themeId, locale);
+      if (!tSlug) continue;
+      for (const gradeId of GRADE_IDS) {
+        const gSlug = getGradeSlug(gradeId, locale);
+        if (!gSlug) continue;
+        const tgAlternates: Record<string, string> = {};
+        for (const lang of locales) {
+          const ltSlug = getThemeSlug(themeId, lang);
+          const lgSlug = getGradeSlug(gradeId, lang);
+          if (ltSlug && lgSlug) {
+            tgAlternates[getHreflangCode(lang)] = `${baseUrl}/${lang}/worksheets/${ltSlug}/${lgSlug}`;
+          }
+        }
+        const enTSlug = getThemeSlug(themeId, 'en');
+        const enGSlug = getGradeSlug(gradeId, 'en');
+        if (enTSlug && enGSlug) {
+          tgAlternates['x-default'] = `${baseUrl}/en/worksheets/${enTSlug}/${enGSlug}`;
+        }
+        themeGradeRoutes.push({
+          url: `${baseUrl}/${locale}/worksheets/${tSlug}/${gSlug}`,
+          lastModified: currentDate,
+          changeFrequency: 'weekly' as const,
+          priority: 0.6,
+          alternates: { languages: tgAlternates },
+        });
+      }
+    }
+  }
+
+  // Combine all routes: static, product, product categories, grades, themes, theme+grades, blog categories, blog posts
   // Order matters for crawl priority
-  return [...staticRoutes, ...productRoutes, ...productCategoryRoutes, ...gradeRoutes, ...categoryRoutes, ...blogRoutes];
+  return [...staticRoutes, ...productRoutes, ...productCategoryRoutes, ...gradeRoutes, ...themeRoutes, ...themeGradeRoutes, ...categoryRoutes, ...blogRoutes];
 }

@@ -296,6 +296,10 @@ export default async function ThemePage({
               {localizedHomeLabel[locale] || 'Home'}
             </Link>
             <span className="mx-2">/</span>
+            <Link href={`/${locale}/worksheets`} className="hover:text-white">
+              {worksheetsLabel[locale] || 'Worksheets'}
+            </Link>
+            <span className="mx-2">/</span>
             <span className="text-white">{content.name}</span>
           </nav>
           <div className={themeImages.length > 0 ? 'md:flex md:items-center md:gap-10' : ''}>

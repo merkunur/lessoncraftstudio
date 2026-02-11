@@ -257,6 +257,17 @@ export default async function ThemeGradePage({
     },
   };
 
+  if (apps.length > 0) {
+    collectionSchema.hasPart = apps.map((app, i) => ({
+      '@type': 'SoftwareApplication',
+      name: getLocalizedAppDisplayName(app.appId, locale),
+      url: `${baseUrl}/${locale}/apps/${app.slug}`,
+      position: i + 1,
+      applicationCategory: 'EducationalApplication',
+      offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
+    }));
+  }
+
   if (themeImageUrls.length > 0) {
     collectionSchema.image = themeImageUrls;
     collectionSchema.thumbnailUrl = themeImageUrls[0];
@@ -275,12 +286,18 @@ export default async function ThemeGradePage({
       {
         '@type': 'ListItem',
         position: 2,
+        name: worksheetsLabel[locale] || 'Worksheets',
+        item: `${baseUrl}/${locale}/worksheets`,
+      },
+      {
+        '@type': 'ListItem',
+        position: 3,
         name: themeName,
         item: `${baseUrl}/${locale}/worksheets/${currentThemeSlug}`,
       },
       {
         '@type': 'ListItem',
-        position: 3,
+        position: 4,
         name: gradeName,
       },
     ],
@@ -309,6 +326,10 @@ export default async function ThemeGradePage({
           <nav className="text-teal-200 text-sm mb-4" aria-label="Breadcrumb">
             <Link href={`/${locale}`} className="hover:text-white">
               {localizedHomeLabel[locale] || 'Home'}
+            </Link>
+            <span className="mx-2">/</span>
+            <Link href={`/${locale}/worksheets`} className="hover:text-white">
+              {worksheetsLabel[locale] || 'Worksheets'}
             </Link>
             <span className="mx-2">/</span>
             <Link

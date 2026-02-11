@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useTranslations } from 'next-intl';
 import { getSlugForLocale, type SupportedLocale } from '@/config/product-page-slugs';
+import { getThemeSlug } from '@/config/theme-slugs';
 
 export function Footer() {
   const pathname = usePathname();
@@ -129,11 +130,45 @@ export function Footer() {
     { slug: 'third-grade', labels: { en: 'Grade 3', de: '3. Klasse', fr: 'CE2', es: '3\u00b0 Grado', it: 'Terza elementare', pt: '3\u00ba Ano', nl: 'Groep 5', sv: '\u00c5rskurs 3', da: '3. klasse', no: '4. Klasse', fi: '3. luokka' } },
   ];
 
+  // By Theme - links to theme worksheets pages
+  const byThemeTitle: Record<string, string> = {
+    en: 'By Theme', de: 'Nach Thema', fr: 'Par Th\u00e8me', es: 'Por Tema',
+    it: 'Per Tema', pt: 'Por Tema', nl: 'Per Thema', sv: 'Per Tema',
+    da: 'Per Tema', no: 'Per Tema', fi: 'Teemoittain'
+  };
+
+  const viewAllThemesLabel: Record<string, string> = {
+    en: 'View All 50 Themes \u2192',
+    de: 'Alle 50 Themen ansehen \u2192',
+    fr: 'Voir les 50 th\u00e8mes \u2192',
+    es: 'Ver los 50 temas \u2192',
+    pt: 'Ver os 50 temas \u2192',
+    it: 'Vedi tutti i 50 temi \u2192',
+    nl: "Bekijk alle 50 thema's \u2192",
+    sv: 'Visa alla 50 teman \u2192',
+    da: 'Se alle 50 temaer \u2192',
+    no: 'Se alle 50 temaer \u2192',
+    fi: 'N\u00e4yt\u00e4 kaikki 50 teemaa \u2192',
+  };
+
+  const themeLinks = [
+    { id: 'animals', labels: { en: 'Animals', de: 'Tiere', fr: 'Animaux', es: 'Animales', pt: 'Animais', it: 'Animali', nl: 'Dieren', sv: 'Djur', da: 'Dyr', no: 'Dyr', fi: 'El\u00e4imet' } },
+    { id: 'dinosaurs', labels: { en: 'Dinosaurs', de: 'Dinosaurier', fr: 'Dinosaures', es: 'Dinosaurios', pt: 'Dinossauros', it: 'Dinosauri', nl: 'Dinosaurussen', sv: 'Dinosaurier', da: 'Dinosaurer', no: 'Dinosaurer', fi: 'Dinosaurukset' } },
+    { id: 'space', labels: { en: 'Space', de: 'Weltraum', fr: 'Espace', es: 'Espacio', pt: 'Espa\u00e7o', it: 'Spazio', nl: 'Ruimte', sv: 'Rymden', da: 'Rummet', no: 'Verdensrommet', fi: 'Avaruus' } },
+    { id: 'ocean', labels: { en: 'Ocean', de: 'Ozean', fr: 'Oc\u00e9an', es: 'Oc\u00e9ano', pt: 'Oceano', it: 'Oceano', nl: 'Oceaan', sv: 'Havet', da: 'Havet', no: 'Havet', fi: 'Meri' } },
+    { id: 'farm', labels: { en: 'Farm', de: 'Bauernhof', fr: 'Ferme', es: 'Granja', pt: 'Fazenda', it: 'Fattoria', nl: 'Boerderij', sv: 'Bondg\u00e5rd', da: 'Bondeg\u00e5rd', no: 'Bondeg\u00e5rd', fi: 'Maatila' } },
+    { id: 'nature', labels: { en: 'Nature', de: 'Natur', fr: 'Nature', es: 'Naturaleza', pt: 'Natureza', it: 'Natura', nl: 'Natuur', sv: 'Natur', da: 'Natur', no: 'Natur', fi: 'Luonto' } },
+    { id: 'sports', labels: { en: 'Sports', de: 'Sport', fr: 'Sports', es: 'Deportes', pt: 'Esportes', it: 'Sport', nl: 'Sport', sv: 'Sport', da: 'Sport', no: 'Sport', fi: 'Urheilu' } },
+    { id: 'food', labels: { en: 'Food', de: 'Essen', fr: 'Nourriture', es: 'Comida', pt: 'Comida', it: 'Cibo', nl: 'Eten', sv: 'Mat', da: 'Mad', no: 'Mat', fi: 'Ruoka' } },
+    { id: 'seasons', labels: { en: 'Seasons', de: 'Jahreszeiten', fr: 'Saisons', es: 'Estaciones', pt: 'Esta\u00e7\u00f5es', it: 'Stagioni', nl: 'Seizoenen', sv: 'S\u00e4songer', da: 'S\u00e6soner', no: 'Sesonger', fi: 'Vuodenajat' } },
+    { id: 'fairy-tales', labels: { en: 'Fairy Tales', de: 'M\u00e4rchen', fr: 'Contes', es: 'Cuentos', pt: 'Contos', it: 'Fiabe', nl: 'Sprookjes', sv: 'Sagor', da: 'Eventyr', no: 'Eventyr', fi: 'Sadut' } },
+  ];
+
   return (
     <footer className="bg-gray-900 text-gray-300 py-12 mt-20">
       <div className="container mx-auto px-4">
-        {/* Main footer grid - 7 columns on desktop */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-7 gap-8">
+        {/* Main footer grid - 8 columns on desktop */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-8">
           {/* Company Info */}
           <div>
             <h3 className="text-white font-semibold mb-4">{companyName}</h3>
@@ -190,6 +225,31 @@ export function Footer() {
                   </Link>
                 </li>
               ))}
+            </ul>
+          </div>
+
+          {/* By Theme - Theme worksheets page links */}
+          <div>
+            <h4 className="text-white font-semibold mb-4">
+              {byThemeTitle[locale] || 'By Theme'}
+            </h4>
+            <ul className="space-y-2 text-sm">
+              {themeLinks.map(theme => {
+                const slug = getThemeSlug(theme.id, locale);
+                if (!slug) return null;
+                return (
+                  <li key={theme.id}>
+                    <Link href={`/${locale}/worksheets/${slug}`} className="hover:text-white">
+                      {theme.labels[locale as keyof typeof theme.labels] || theme.labels.en}
+                    </Link>
+                  </li>
+                );
+              })}
+              <li className="mt-2">
+                <Link href={`/${locale}/worksheets`} className="text-purple-400 hover:text-white font-medium">
+                  {viewAllThemesLabel[locale] || viewAllThemesLabel.en}
+                </Link>
+              </li>
             </ul>
           </div>
 

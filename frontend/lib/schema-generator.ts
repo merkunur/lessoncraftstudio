@@ -203,7 +203,7 @@ export function generateBlogSchemas(post: BlogPostData, locale: string, baseUrl:
       "acquireLicensePage": `${baseUrl}/${locale}/pricing`,
       "creditText": "LessonCraftStudio",
       "copyrightNotice": "\u00a9 2024-2026 LessonCraftStudio",
-      "creator": { "@id": `${baseUrl}/#organization` }
+      "creator": { "@type": "Organization", "@id": `${baseUrl}/#organization` }
     };
 
     schemas.push(imageSchema);
@@ -990,7 +990,7 @@ export function generateImageObjectSchema(
     "acquireLicensePage": `${baseUrl}/${locale}/pricing`,
     "creditText": "LessonCraftStudio",
     "copyrightNotice": "© 2024-2026 LessonCraftStudio",
-    "creator": { "@id": `${baseUrl}/#organization` },
+    "creator": { "@type": "Organization", "@id": `${baseUrl}/#organization` },
     "associatedArticle": { "@type": "WebPage", "url": pageUrl },
     ...(uploadDate && { "uploadDate": uploadDate }),
     ...(dateModified && { "dateModified": dateModified }),
@@ -1050,7 +1050,7 @@ export function generateImageGallerySchema(
     "image": images.map((img, i) => ({
       "@id": img.imageId || `${pageUrl}#image-${i}`
     })),
-    "creator": { "@id": `${baseUrl}/#organization` },
+    "creator": { "@type": "Organization", "@id": `${baseUrl}/#organization` },
     // Educational properties for the gallery
     "about": {
       "@type": "LearningResource",

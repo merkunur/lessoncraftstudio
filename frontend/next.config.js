@@ -65,6 +65,15 @@ const nextConfig = {
     ];
   },
 
+  // SEO FIX: Rewrite /sitemap.xml to /sitemap_index.xml (defense in depth — nginx also handles this)
+  // After split-sitemap deployment, Next.js no longer auto-generates /sitemap.xml
+  // Google uses this well-known URL as primary discovery path
+  async rewrites() {
+    return [
+      { source: '/sitemap.xml', destination: '/sitemap_index.xml' },
+    ];
+  },
+
   // ALL redirects are now handled in middleware.ts for O(1) Map lookups:
   // - Blog cross-locale redirects (slug accessed under wrong language)
   // - Legacy blog slug redirects (old slug → new slug)

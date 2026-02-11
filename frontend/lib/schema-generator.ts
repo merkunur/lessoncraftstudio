@@ -7,6 +7,51 @@
 import { SUPPORTED_LOCALES } from '@/config/locales';
 
 /**
+ * Localized author schema fields for BlogPosting Person author
+ */
+const authorJobTitles: Record<string, string> = {
+  en: "Educational Content Team",
+  de: "Team f\u00fcr Bildungsinhalte",
+  fr: "\u00c9quipe de contenu p\u00e9dagogique",
+  es: "Equipo de contenido educativo",
+  pt: "Equipe de conte\u00fado educacional",
+  it: "Team di contenuti educativi",
+  nl: "Team voor educatieve inhoud",
+  sv: "Team f\u00f6r utbildningsinneh\u00e5ll",
+  da: "Team for undervisningsindhold",
+  no: "Team for undervisningsinnhold",
+  fi: "Opetussis\u00e4lt\u00f6tiimi"
+};
+
+const authorSchemaDescriptions: Record<string, string> = {
+  en: "Experienced educators and curriculum specialists creating research-backed, printable worksheet resources for pre-K through 3rd grade classrooms in 11 languages",
+  de: "Erfahrene Lehrkr\u00e4fte und Lehrplanspezialisten, die forschungsbasierte, druckbare Arbeitsblatt-Ressourcen f\u00fcr Vorschul- bis 3. Klasse in 11 Sprachen erstellen",
+  fr: "P\u00e9dagogues exp\u00e9riment\u00e9s et sp\u00e9cialistes des programmes cr\u00e9ant des ressources p\u00e9dagogiques imprimables fond\u00e9es sur la recherche, de la maternelle au CE2, en 11 langues",
+  es: "Educadores experimentados y especialistas en curr\u00edculo que crean recursos educativos imprimibles basados en investigaci\u00f3n para aulas de preescolar a 3er grado en 11 idiomas",
+  pt: "Educadores experientes e especialistas em curr\u00edculo criando recursos educacionais imprim\u00edveis baseados em pesquisa para salas de aula da pr\u00e9-escola ao 3\u00ba ano em 11 idiomas",
+  it: "Educatori esperti e specialisti di curriculum che creano risorse didattiche stampabili basate sulla ricerca per le classi dalla scuola materna alla terza elementare in 11 lingue",
+  nl: "Ervaren docenten en curriculumspecialisten die op onderzoek gebaseerde, afdrukbare werkbladen maken voor kleuterschool tot groep 5 in 11 talen",
+  sv: "Erfarna pedagoger och l\u00e4roplansspecialister som skapar forskningsbaserade, utskrivbara arbetsblad f\u00f6r f\u00f6rskola till \u00e5rskurs 3 p\u00e5 11 spr\u00e5k",
+  da: "Erfarne undervisere og l\u00e6replanspecialister der skaber forskningsbaserede, printbare arbejdsark til b\u00f8rnehave til 3. klasse p\u00e5 11 sprog",
+  no: "Erfarne pedagoger og l\u00e6replanseksperter som lager forskningsbaserte, utskrivbare arbeidsark for barnehage til 3. klasse p\u00e5 11 spr\u00e5k",
+  fi: "Kokeneet opettajat ja opetussuunnitelma-asiantuntijat luovat tutkimukseen perustuvia, tulostettavia teht\u00e4v\u00e4resursseja esikoulusta 3. luokkaan 11 kielell\u00e4"
+};
+
+const authorKnowsAbout: Record<string, string[]> = {
+  en: ["Education", "Worksheets", "Teaching Resources", "Early Childhood Education", "Elementary Education", "Curriculum Development"],
+  de: ["Bildung", "Arbeitsbl\u00e4tter", "Unterrichtsmaterialien", "Fr\u00fchkindliche Bildung", "Grundschulbildung", "Lehrplanentwicklung"],
+  fr: ["\u00c9ducation", "Fiches p\u00e9dagogiques", "Ressources p\u00e9dagogiques", "\u00c9ducation de la petite enfance", "Enseignement primaire", "D\u00e9veloppement de programmes"],
+  es: ["Educaci\u00f3n", "Fichas de trabajo", "Recursos educativos", "Educaci\u00f3n infantil", "Educaci\u00f3n primaria", "Desarrollo curricular"],
+  pt: ["Educa\u00e7\u00e3o", "Planilhas", "Recursos educacionais", "Educa\u00e7\u00e3o infantil", "Ensino fundamental", "Desenvolvimento curricular"],
+  it: ["Istruzione", "Schede didattiche", "Risorse didattiche", "Educazione della prima infanzia", "Istruzione elementare", "Sviluppo del curriculum"],
+  nl: ["Onderwijs", "Werkbladen", "Lesmateriaal", "Vroegschoolse educatie", "Basisonderwijs", "Curriculumontwikkeling"],
+  sv: ["Utbildning", "Arbetsblad", "Undervisningsresurser", "F\u00f6rskoleundervisning", "Grundskola", "L\u00e4roplansutveckling"],
+  da: ["Uddannelse", "Arbejdsark", "Undervisningsressourcer", "F\u00f8rskolep\u00e6dagogik", "Grundskole", "L\u00e6replansudvikling"],
+  no: ["Utdanning", "Arbeidsark", "Undervisningsressurser", "F\u00f8rskoleutdanning", "Grunnskole", "L\u00e6replansutvikling"],
+  fi: ["Koulutus", "Ty\u00f6arkit", "Opetusresurssit", "Varhaiskasvatuksen koulutus", "Peruskoulu", "Opetussuunnitelman kehitt\u00e4minen"]
+};
+
+/**
  * Get the base URL from environment variable or use production default
  */
 function getBaseUrl(): string {
@@ -87,14 +132,14 @@ export function generateBlogSchemas(post: BlogPostData, locale: string, baseUrl:
       "name": post.author || "LessonCraftStudio Team",
       "url": baseUrl,
       "image": `${baseUrl}/logo-lcs.png`,
-      "jobTitle": "Educational Content Team",
-      "description": "Experienced educators and curriculum specialists creating high-quality printable worksheet resources for K-3 classrooms",
+      "jobTitle": authorJobTitles[locale] || authorJobTitles.en,
+      "description": authorSchemaDescriptions[locale] || authorSchemaDescriptions.en,
       "worksFor": {
         "@type": "EducationalOrganization",
         "@id": `${baseUrl}/#organization`,
         "name": "LessonCraftStudio"
       },
-      "knowsAbout": ["Education", "Worksheets", "Teaching Resources", "Early Childhood Education", "Elementary Education", "Curriculum Development"],
+      "knowsAbout": authorKnowsAbout[locale] || authorKnowsAbout.en,
       "sameAs": ["https://www.pinterest.com/lessoncraftstudio"]
     },
     "publisher": { "@id": `${baseUrl}/#organization` },

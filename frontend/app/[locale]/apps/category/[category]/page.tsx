@@ -6,6 +6,7 @@ import { getHreflangCode, ogLocaleMap, generateFAQSchema, localizedHomeLabel, lo
 import { categoryContent, CATEGORY_SLUGS, type CategorySlug } from '@/config/category-content';
 import { productPageSlugs } from '@/config/product-page-slugs';
 import { getSlugForLocale, type SupportedLocale } from '@/config/product-page-slugs';
+import { getThemeSlug } from '@/config/theme-slugs';
 
 export const revalidate = 3600;
 
@@ -24,10 +25,11 @@ export async function generateMetadata({ params }: { params: { locale: string; c
   const category = params.category as CategorySlug;
   const baseUrl = 'https://www.lessoncraftstudio.com';
 
-  if (!CATEGORY_SLUGS.includes(category)) return {};
+  const notFoundMeta: Metadata = { title: 'Not Found', robots: { index: false, follow: false } };
+  if (!CATEGORY_SLUGS.includes(category)) return notFoundMeta;
 
   const content = categoryContent[category]?.[locale] || categoryContent[category]?.en;
-  if (!content) return {};
+  if (!content) return notFoundMeta;
 
   const hreflangAlternates: Record<string, string> = {};
   for (const lang of SUPPORTED_LOCALES) {
@@ -39,6 +41,16 @@ export async function generateMetadata({ params }: { params: { locale: string; c
     title: content.title,
     description: content.description,
     keywords: content.keywords,
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: {
+        index: true,
+        follow: true,
+        'max-image-preview': 'large' as const,
+        'max-snippet': -1,
+      },
+    },
     alternates: {
       canonical: `${baseUrl}/${locale}/apps/category/${category}`,
       languages: hreflangAlternates,
@@ -153,6 +165,24 @@ export default function CategoryPage({ params }: { params: { locale: string; cat
     'treasure-hunt': 'Treasure Hunt',
   };
 
+  const browseByThemeLabel: Record<string, string> = {
+    en: 'Browse by Theme', de: 'Nach Thema durchsuchen', fr: 'Parcourir par th\u00e8me',
+    es: 'Explorar por tema', pt: 'Explorar por tema', it: 'Sfoglia per tema',
+    nl: 'Bladeren op thema', sv: 'Bl\u00e4ddra efter tema', da: 'Gennemse efter tema',
+    no: 'Bla etter tema', fi: 'Selaa teemoittain',
+  };
+
+  const popularThemes: Array<{ id: string; labels: Record<string, string> }> = [
+    { id: 'animals', labels: { en: 'Animals', de: 'Tiere', fr: 'Animaux', es: 'Animales', pt: 'Animais', it: 'Animali', nl: 'Dieren', sv: 'Djur', da: 'Dyr', no: 'Dyr', fi: 'El\u00e4imet' } },
+    { id: 'dinosaurs', labels: { en: 'Dinosaurs', de: 'Dinosaurier', fr: 'Dinosaures', es: 'Dinosaurios', pt: 'Dinossauros', it: 'Dinosauri', nl: 'Dinosaurussen', sv: 'Dinosaurier', da: 'Dinosaurer', no: 'Dinosaurer', fi: 'Dinosaurukset' } },
+    { id: 'space', labels: { en: 'Space', de: 'Weltraum', fr: 'Espace', es: 'Espacio', pt: 'Espa\u00e7o', it: 'Spazio', nl: 'Ruimte', sv: 'Rymden', da: 'Rummet', no: 'Verdensrommet', fi: 'Avaruus' } },
+    { id: 'ocean', labels: { en: 'Ocean', de: 'Ozean', fr: 'Oc\u00e9an', es: 'Oc\u00e9ano', pt: 'Oceano', it: 'Oceano', nl: 'Oceaan', sv: 'Havet', da: 'Havet', no: 'Havet', fi: 'Meri' } },
+    { id: 'farm', labels: { en: 'Farm', de: 'Bauernhof', fr: 'Ferme', es: 'Granja', pt: 'Fazenda', it: 'Fattoria', nl: 'Boerderij', sv: 'Bondg\u00e5rd', da: 'Bondeg\u00e5rd', no: 'Bondeg\u00e5rd', fi: 'Maatila' } },
+    { id: 'nature', labels: { en: 'Nature', de: 'Natur', fr: 'Nature', es: 'Naturaleza', pt: 'Natureza', it: 'Natura', nl: 'Natuur', sv: 'Natur', da: 'Natur', no: 'Natur', fi: 'Luonto' } },
+    { id: 'sports', labels: { en: 'Sports', de: 'Sport', fr: 'Sports', es: 'Deportes', pt: 'Esportes', it: 'Sport', nl: 'Sport', sv: 'Sport', da: 'Sport', no: 'Sport', fi: 'Urheilu' } },
+    { id: 'food', labels: { en: 'Food', de: 'Essen', fr: 'Nourriture', es: 'Comida', pt: 'Comida', it: 'Cibo', nl: 'Eten', sv: 'Mat', da: 'Mad', no: 'Mat', fi: 'Ruoka' } },
+  ];
+
   return (
     <div className="min-h-screen bg-gray-50">
       {/* JSON-LD */}
@@ -258,6 +288,30 @@ export default function CategoryPage({ params }: { params: { locale: string; cat
           </div>
         </section>
       )}
+
+      {/* Browse by Theme */}
+      <section className="py-12">
+        <div className="container mx-auto px-4">
+          <h2 className="text-2xl font-bold text-gray-900 mb-6 text-center">
+            {browseByThemeLabel[locale] || browseByThemeLabel.en}
+          </h2>
+          <div className="flex flex-wrap justify-center gap-3">
+            {popularThemes.map(t => {
+              const slug = getThemeSlug(t.id, locale);
+              if (!slug) return null;
+              return (
+                <Link
+                  key={t.id}
+                  href={`/${locale}/worksheets/${slug}`}
+                  className="bg-white border border-gray-200 rounded-full px-5 py-2 text-sm font-medium text-gray-700 hover:bg-blue-50 hover:border-blue-300 hover:text-blue-700 transition-colors"
+                >
+                  {t.labels[locale] || t.labels.en}
+                </Link>
+              );
+            })}
+          </div>
+        </div>
+      </section>
     </div>
   );
 }

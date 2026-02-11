@@ -277,7 +277,13 @@
       "WebFetch(domain:www.makeitbloom.com)",
       "WebFetch(domain:search.google.com)",
       "WebFetch(domain:www.googleapis.com)",
-      "WebFetch(domain:pagespeed.web.dev)"
+      "WebFetch(domain:pagespeed.web.dev)",
+      "WebFetch(domain:sellerblog.teacherspayteachers.com)",
+      "WebFetch(domain:www.teacherspayteachers.com)",
+      "WebFetch(domain:creativecota.com)",
+      "WebFetch(domain:www.missbeccasclassroom.com)",
+      "WebFetch(domain:help.eduki.com)",
+      "WebFetch(domain:www.betterteachingresources.com)"
     ],
     "deny": [],
     "ask": []

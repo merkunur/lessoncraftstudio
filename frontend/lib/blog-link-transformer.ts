@@ -8,8 +8,8 @@ const LOCALES = ['en', 'de', 'fr', 'es', 'it', 'pt', 'nl', 'da', 'sv', 'no', 'fi
 // Pages that need locale prefix
 const STATIC_PAGES = [
   'pricing', 'blog', 'contact', 'privacy', 'terms',
-  'testimonials', 'generators', 'apps', 'support', 'research', 'tools',
-  'auth/signup', 'auth/signin', 'auth/forgot-password', 'signup',
+  'testimonials', 'apps', 'support', 'research', 'tools',
+  'auth/signup', 'auth/signin', 'auth/forgot-password',
 ];
 
 // Localized page names → canonical English path
@@ -28,6 +28,11 @@ const LOCALIZED_PATH_MAP: Record<string, string> = {
   'hinnoittelu': 'pricing',
   'rekenpuzzel': 'apps/math-puzzle-worksheets',
   'finn-objekter': 'apps/find-objects-worksheets',
+  'prising': 'pricing',
+  'word-scramble': 'apps/word-scramble-worksheets',
+  'find-objects': 'apps/find-objects-worksheets',
+  'generators': 'apps',
+  'signup': 'auth/signup',
 };
 
 export function transformBlogLinks(html: string, locale: string): string {
@@ -53,8 +58,25 @@ export function transformBlogLinks(html: string, locale: string): string {
     // Skip external links
     if (href.startsWith('http://') || href.startsWith('https://')) continue;
 
-    // Skip if already has a locale prefix
-    if (LOCALES.some(l => href === `/${l}` || href.startsWith(`/${l}/`))) continue;
+    // If link has locale prefix, check if path after locale needs rewriting
+    if (LOCALES.some(l => href === `/${l}` || href.startsWith(`/${l}/`))) {
+      const localeMatch = href.match(/^\/([a-z]{2})\/(.+)$/);
+      if (localeMatch) {
+        const [, linkLocale, rest] = localeMatch;
+        const hashIdx = rest.indexOf('#');
+        const queryIdx = rest.indexOf('?');
+        let splitAt = -1;
+        if (hashIdx >= 0 && queryIdx >= 0) splitAt = Math.min(hashIdx, queryIdx);
+        else if (hashIdx >= 0) splitAt = hashIdx;
+        else if (queryIdx >= 0) splitAt = queryIdx;
+        const cleanPath = splitAt >= 0 ? rest.slice(0, splitAt) : rest;
+        const restSuffix = splitAt >= 0 ? rest.slice(splitAt) : '';
+        if (LOCALIZED_PATH_MAP[cleanPath]) {
+          link.setAttribute('href', `/${linkLocale}/${LOCALIZED_PATH_MAP[cleanPath]}${restSuffix}`);
+        }
+      }
+      continue;
+    }
 
     // Must start with / to be an absolute internal path
     if (!href.startsWith('/')) continue;

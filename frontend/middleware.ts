@@ -290,6 +290,35 @@ export default function middleware(request: NextRequest) {
     return NextResponse.redirect(newUrl, { status: 301 });
   }
 
+  // Redirect bare app paths without locale or /apps/ prefix
+  // Fixes 404s from blog links like /word-scramble, /find-objects, /signup
+  const bareAppPaths: Record<string, string> = {
+    '/word-scramble': '/en/apps/word-scramble-worksheets',
+    '/find-objects': '/en/apps/find-objects-worksheets',
+    '/generators': '/en/apps',
+    '/signup': '/en/auth/signup',
+  };
+  if (bareAppPaths[pathname]) {
+    return NextResponse.redirect(new URL(bareAppPaths[pathname], request.url), 301);
+  }
+
+  // Redirect locale-prefixed localized page slugs to canonical English path names
+  // Fixes 404s from blog links like /no/prising, /fr/tarifs, /nl/prijzen
+  const localizedPageSlugs = new Map([
+    ['prising', 'pricing'], ['tarifs', 'pricing'], ['preise', 'pricing'],
+    ['precios', 'pricing'], ['prezzi', 'pricing'], ['precos', 'pricing'],
+    ['prijzen', 'pricing'], ['hinnoittelu', 'pricing'], ['priser', 'pricing'],
+  ]);
+  const localizedPageMatch = pathname.match(/^\/([a-z]{2})\/([a-z]+)$/);
+  if (localizedPageMatch) {
+    const canonical = localizedPageSlugs.get(localizedPageMatch[2]);
+    if (canonical) {
+      return NextResponse.redirect(
+        new URL(`/${localizedPageMatch[1]}/${canonical}`, request.url), 301
+      );
+    }
+  }
+
   // Protect content manager - require authentication
   if (pathname.includes('/worksheet-generators/content-manager') ||
       pathname.includes('/worksheet-generators/blog-content-manager')) {

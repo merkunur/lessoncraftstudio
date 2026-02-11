@@ -3,12 +3,25 @@
  * @see https://www.sitemaps.org/protocol.html#sitemapIndex
  */
 
+import { prisma } from '@/lib/prisma';
+
 export const revalidate = 3600; // Revalidate every hour
 
 export async function GET() {
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.lessoncraftstudio.com';
-  // Fixed date to avoid signaling false changes on every request (wastes crawl budget)
-  const lastMod = '2026-02-09T00:00:00.000Z';
+
+  // Query the most recent blog post update to use as lastmod
+  let lastMod: string;
+  try {
+    const latest = await prisma.blogPost.findFirst({
+      where: { status: 'published' },
+      orderBy: { updatedAt: 'desc' },
+      select: { updatedAt: true },
+    });
+    lastMod = latest?.updatedAt?.toISOString() ?? new Date().toISOString();
+  } catch {
+    lastMod = new Date().toISOString();
+  }
 
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">

@@ -2,10 +2,9 @@
  * Sitemap Index - Consolidates all sitemaps for Google discovery
  * @see https://www.sitemaps.org/protocol.html#sitemapIndex
  *
- * References 9 sitemaps:
+ * References 8 sitemaps:
  * - /sitemap/0.xml through /sitemap/6.xml (split main sitemap, ~6,000+ URLs total)
  * - /sitemap-images.xml (product sample images)
- * - /sitemap-news.xml (recent blog posts for Google News)
  */
 
 import { prisma } from '@/lib/prisma';
@@ -63,10 +62,6 @@ export async function GET() {
   </sitemap>
   <sitemap>
     <loc>${baseUrl}/sitemap-images.xml</loc>
-    <lastmod>${blogLastMod}</lastmod>
-  </sitemap>
-  <sitemap>
-    <loc>${baseUrl}/sitemap-news.xml</loc>
     <lastmod>${blogLastMod}</lastmod>
   </sitemap>
 </sitemapindex>`;

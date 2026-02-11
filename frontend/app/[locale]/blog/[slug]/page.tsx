@@ -959,6 +959,35 @@ export default async function BlogPostPage({
     fi: 'Blogi'
   };
 
+  // Localized "About the Author" labels
+  const aboutAuthorLabels: Record<string, string> = {
+    en: 'About the Author',
+    de: 'Über den Autor',
+    fr: "À propos de l'auteur",
+    es: 'Sobre el autor',
+    pt: 'Sobre o autor',
+    it: "Sull'autore",
+    nl: 'Over de auteur',
+    sv: 'Om författaren',
+    da: 'Om forfatteren',
+    no: 'Om forfatteren',
+    fi: 'Tietoja kirjoittajasta'
+  };
+
+  const authorDescriptions: Record<string, string> = {
+    en: 'Our team of experienced educators and curriculum specialists creates research-backed, printable worksheet resources for pre-K through 3rd grade classrooms in 11 languages.',
+    de: 'Unser Team erfahrener Lehrkräfte und Lehrplanspezialisten erstellt forschungsbasierte, druckbare Arbeitsblatt-Ressourcen für Vorschul- bis 3. Klasse in 11 Sprachen.',
+    fr: 'Notre équipe de pédagogues expérimentés et de spécialistes des programmes crée des ressources pédagogiques imprimables fondées sur la recherche, de la maternelle au CE2, en 11 langues.',
+    es: 'Nuestro equipo de educadores experimentados y especialistas en currículo crea recursos educativos imprimibles basados en investigación para aulas de preescolar a 3er grado en 11 idiomas.',
+    pt: 'Nossa equipe de educadores experientes e especialistas em currículo cria recursos educacionais imprimíveis baseados em pesquisa para salas de aula da pré-escola ao 3º ano em 11 idiomas.',
+    it: 'Il nostro team di educatori esperti e specialisti di curriculum crea risorse didattiche stampabili basate sulla ricerca per le classi dalla scuola materna alla terza elementare in 11 lingue.',
+    nl: 'Ons team van ervaren docenten en curriculumspecialisten maakt op onderzoek gebaseerde, afdrukbare werkbladen voor kleuterschool tot groep 5 in 11 talen.',
+    sv: 'Vårt team av erfarna pedagoger och läroplansspecialister skapar forskningsbaserade, utskrivbara arbetsblad för förskola till årskurs 3 på 11 språk.',
+    da: 'Vores team af erfarne undervisere og læreplanspecialister skaber forskningsbaserede, printbare arbejdsark til børnehave til 3. klasse på 11 sprog.',
+    no: 'Vårt team av erfarne pedagoger og læreplanseksperter lager forskningsbaserte, utskrivbare arbeidsark for barnehage til 3. klasse på 11 språk.',
+    fi: 'Kokeneiden opettajien ja opetussuunnitelma-asiantuntijoiden tiimimme luo tutkimukseen perustuvia, tulostettavia tehtäväresursseja esikoulusta 3. luokkaan 11 kielellä.'
+  };
+
   // Localized "Related Articles" labels
   const relatedArticlesLabels: Record<string, string> = {
     en: 'Related Articles',
@@ -1659,6 +1688,69 @@ export default async function BlogPostPage({
           dangerouslySetInnerHTML={{ __html: bodyContent }}
           style={{ width: '100%' }}
         />
+      </div>
+
+      {/* About the Author - E-E-A-T signals for Google */}
+      <div style={{
+        maxWidth: '900px',
+        margin: '0 auto',
+        padding: '48px 24px 0',
+      }}>
+        <div style={{
+          display: 'flex',
+          gap: '20px',
+          alignItems: 'flex-start',
+          padding: '28px 32px',
+          borderRadius: '16px',
+          border: '1px solid #e5e7eb',
+          backgroundColor: '#fafafa',
+        }}>
+          {/* Author avatar */}
+          <div style={{
+            width: '64px',
+            height: '64px',
+            borderRadius: '50%',
+            background: 'linear-gradient(135deg, #06b6d4 0%, #a855f7 100%)',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            flexShrink: 0,
+            color: '#ffffff',
+            fontSize: '28px',
+            fontWeight: 700,
+            fontFamily: "'Space Grotesk', system-ui, sans-serif",
+          }}>
+            L
+          </div>
+          <div style={{ flex: 1, minWidth: 0 }}>
+            <p style={{
+              fontSize: '12px',
+              fontWeight: 600,
+              textTransform: 'uppercase' as const,
+              letterSpacing: '0.05em',
+              color: '#6b7280',
+              marginBottom: '4px',
+            }}>
+              {aboutAuthorLabels[locale] || 'About the Author'}
+            </p>
+            <p style={{
+              fontSize: '18px',
+              fontWeight: 700,
+              color: '#111827',
+              marginBottom: '8px',
+              fontFamily: "'Space Grotesk', system-ui, sans-serif",
+            }}>
+              {translation.author || 'LessonCraftStudio Team'}
+            </p>
+            <p style={{
+              fontSize: '15px',
+              lineHeight: 1.7,
+              color: '#4b5563',
+            }}>
+              {authorDescriptions[locale] || authorDescriptions.en}
+            </p>
+          </div>
+        </div>
       </div>
 
       {/* Unified post-content sections zone */}

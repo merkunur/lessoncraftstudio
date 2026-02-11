@@ -83,13 +83,19 @@ export function generateBlogSchemas(post: BlogPostData, locale: string, baseUrl:
     },
     "author": {
       "@type": "Person",
+      "@id": `${baseUrl}/#author`,
       "name": post.author || "LessonCraftStudio Team",
-      "url": `${baseUrl}/${locale}`,
-      "jobTitle": "Educational Content Creator",
+      "url": baseUrl,
+      "image": `${baseUrl}/logo-lcs.png`,
+      "jobTitle": "Educational Content Team",
+      "description": "Experienced educators and curriculum specialists creating high-quality printable worksheet resources for K-3 classrooms",
       "worksFor": {
         "@type": "EducationalOrganization",
+        "@id": `${baseUrl}/#organization`,
         "name": "LessonCraftStudio"
-      }
+      },
+      "knowsAbout": ["Education", "Worksheets", "Teaching Resources", "Early Childhood Education", "Elementary Education", "Curriculum Development"],
+      "sameAs": ["https://www.pinterest.com/lessoncraftstudio"]
     },
     "publisher": { "@id": `${baseUrl}/#organization` },
     "datePublished": post.createdAt.toISOString(),

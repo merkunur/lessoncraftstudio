@@ -25,10 +25,17 @@ export async function POST(request: NextRequest): Promise<NextResponse> {
       // Empty body is fine - will revalidate default paths
     }
 
-    // Default paths to revalidate
+    // Default paths to revalidate (all split sitemaps + images)
     const defaultPaths = [
       '/sitemap-images.xml',
       '/sitemap.xml',
+      '/sitemap/0.xml',
+      '/sitemap/1.xml',
+      '/sitemap/2.xml',
+      '/sitemap/3.xml',
+      '/sitemap/4.xml',
+      '/sitemap/5.xml',
+      '/sitemap/6.xml',
     ];
 
     // Combine with any custom paths
@@ -71,12 +78,16 @@ export async function GET(): Promise<NextResponse> {
   try {
     revalidatePath('/sitemap-images.xml');
     revalidatePath('/sitemap.xml');
+    // Revalidate all split sitemaps (0-6)
+    for (let i = 0; i <= 6; i++) {
+      revalidatePath(`/sitemap/${i}.xml`);
+    }
 
     return NextResponse.json({
       success: true,
       revalidated: true,
       timestamp: Date.now(),
-      message: 'Sitemap cache cleared via GET request.'
+      message: 'Sitemap cache cleared via GET request (all 7 split sitemaps + images).'
     });
   } catch (error) {
     return NextResponse.json(

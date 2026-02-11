@@ -404,6 +404,6 @@ export default function middleware(request: NextRequest) {
 export const config = {
   // Match all paths except api routes, _next, static files, worksheet resources, blog assets, image files, and app routes (dashboard is INCLUDED for i18n)
   matcher: [
-    '/((?!api|_next/static|_next/image|favicon.ico|manifest.json|robots.txt|sitemap.xml|sitemap-images.xml|sitemap-news.xml|sitemap_index.xml|feed.xml|.*\\.(?:png|jpg|jpeg|svg|ico|webp|gif|pdf)$|samples|worksheet-generators|worksheet-images|worksheet-samples|homepage-content-manager.*\\.html|images|test-.*\\.html|js|uploads|upload|static-page-manager\\.html|page-manager\\.html|easy-page-manager\\.html|simple-upload\\.html|simple-upload|admin|settings|notifications|collaboration|testing|search|blog/pdfs|blog/thumbnails|blog/images).*)',
+    '/((?!api|_next/static|_next/image|favicon.ico|manifest.json|robots.txt|sitemap.xml|sitemap/|sitemap-images.xml|sitemap-news.xml|sitemap_index.xml|feed.xml|.*\\.(?:png|jpg|jpeg|svg|ico|webp|gif|pdf)$|samples|worksheet-generators|worksheet-images|worksheet-samples|homepage-content-manager.*\\.html|images|test-.*\\.html|js|uploads|upload|static-page-manager\\.html|page-manager\\.html|easy-page-manager\\.html|simple-upload\\.html|simple-upload|admin|settings|notifications|collaboration|testing|search|blog/pdfs|blog/thumbnails|blog/images).*)',
   ]
 };

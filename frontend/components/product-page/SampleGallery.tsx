@@ -478,24 +478,6 @@ export default function SampleGallery({
     }
   };
 
-  const slideVariants = {
-    enter: (direction: number) => ({
-      x: direction > 0 ? 300 : -300,
-      opacity: 0,
-      scale: 0.95,
-    }),
-    center: {
-      x: 0,
-      opacity: 1,
-      scale: 1,
-    },
-    exit: (direction: number) => ({
-      x: direction < 0 ? 300 : -300,
-      opacity: 0,
-      scale: 0.95,
-    }),
-  };
-
   // Skeleton loading state - only show when no SSR samples available AND still loading
   if (appId && dynamicLoading && dynamicSamples.length === 0) {
     return (

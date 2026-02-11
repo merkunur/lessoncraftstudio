@@ -2,14 +2,11 @@
  * Blog Cross-Locale Slug Redirects (Generated)
  *
  * Auto-generated mapping of slugs to their native locale.
- * Used by middleware.ts to redirect slugs accessed under wrong locale.
- *
+ * When a slug is accessed under the wrong locale, redirect to the correct locale.
  * Generated from: scripts/audit-blog-cross-locale-slugs.js
- * Total slugs: 1232 (112 posts × 11 languages)
- * Generated: 2026-02-02T02:32:07.869Z
  *
- * NOTE: The generateCrossLocaleRedirects() function is kept for backwards
- * compatibility but is no longer used - middleware handles these redirects now.
+ * Total redirects: 12320
+ * Generated: 2026-02-11T14:35:02.426Z
  */
 
 const crossLocaleSlugs = [
@@ -12520,6 +12517,7 @@ const crossLocaleSlugs = [
       "it",
       "nl",
       "sv",
+      "da",
       "no",
       "fi"
     ]
@@ -12632,6 +12630,22 @@ const crossLocaleSlugs = [
       "it",
       "nl",
       "da",
+      "no",
+      "fi"
+    ]
+  },
+  {
+    "slug": "top-10-opgavegeneratorer-3-klasse",
+    "nativeLocale": "da",
+    "wrongLocales": [
+      "en",
+      "de",
+      "fr",
+      "es",
+      "pt",
+      "it",
+      "nl",
+      "sv",
       "no",
       "fi"
     ]
@@ -14434,6 +14448,7 @@ const crossLocaleSlugs = [
     "wrongLocales": [
       "de",
       "fr",
+      "es",
       "pt",
       "it",
       "nl",
@@ -14466,6 +14481,22 @@ const crossLocaleSlugs = [
       "en",
       "de",
       "es",
+      "pt",
+      "it",
+      "nl",
+      "sv",
+      "da",
+      "no",
+      "fi"
+    ]
+  },
+  {
+    "slug": "algoritmo-deteccion-varianza-piezas-puzzle-significativas",
+    "nativeLocale": "es",
+    "wrongLocales": [
+      "en",
+      "de",
+      "fr",
       "pt",
       "it",
       "nl",

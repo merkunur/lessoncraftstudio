@@ -277,9 +277,18 @@ async function findSlugLanguage(slug: string): Promise<string | null> {
       return null; // Slug doesn't exist anywhere
     }
 
-    // If slug is the primary slug, it's English
+    // If slug is the primary slug, it's usually English — but verify via DB
+    // (a non-English locale could have the same slug if its translation was never localized)
     if (slug === primarySlug) {
-      return 'en';
+      const rows = await prisma.$queryRaw<Array<{ locale: string }>>`
+        SELECT key as locale FROM blog_posts bp, jsonb_each(bp.translations)
+        WHERE bp.status = 'published' AND bp.slug = ${primarySlug}
+          AND value->>'slug' = ${slug} AND key != 'en'
+        LIMIT 1
+      `;
+      // If a non-English locale claims this exact slug, return that locale
+      // Otherwise it's English as expected
+      return rows.length > 0 ? rows[0].locale : 'en';
     }
 
     // Raw SQL: extract only slug per locale for this one post

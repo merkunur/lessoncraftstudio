@@ -12,7 +12,7 @@ import {
 import { productPageSlugs, getSlugForLocale, type SupportedLocale } from '@/config/product-page-slugs';
 import { themeSlugMap, getThemeIdFromSlug, getThemeSlug } from '@/config/theme-slugs';
 import { themeContent, getThemeContent } from '@/config/theme-page-content';
-import { getThemePreviewImages, getAppThumbnailMap } from '@/lib/theme-images';
+import { getThemePreviewImages, getAppThumbnailMap, getLocalizedAppDisplayName } from '@/lib/theme-images';
 
 export const revalidate = 3600;
 
@@ -170,42 +170,6 @@ const viewAllAppsLabel: Record<string, string> = {
   fi: 'N\u00e4yt\u00e4 kaikki 33 sovellusta',
 };
 
-const appDisplayNames: Record<string, string> = {
-  'image-addition': 'Image Addition',
-  'math-worksheet': 'Math Worksheets',
-  'chart-count-color': 'Chart Count & Color',
-  'code-addition': 'Code Addition',
-  'math-puzzle': 'Math Puzzle',
-  'more-less': 'More or Less',
-  'subtraction': 'Subtraction',
-  'alphabet-train': 'Alphabet Train',
-  'word-scramble': 'Word Scramble',
-  'prepositions': 'Prepositions',
-  'writing-app': 'Writing Practice',
-  'word-search': 'Word Search',
-  'image-crossword': 'Image Crossword',
-  'word-guess': 'Word Guess',
-  'coloring': 'Coloring Pages',
-  'draw-and-color': 'Draw and Color',
-  'sudoku': 'Sudoku for Kids',
-  'image-cryptogram': 'Image Cryptogram',
-  'odd-one-out': 'Odd One Out',
-  'picture-path': 'Picture Pathway',
-  'find-and-count': 'Find and Count',
-  'find-objects': 'Find Objects',
-  'missing-pieces': 'Missing Pieces',
-  'matching-app': 'MatchUp Maker',
-  'grid-match': 'Grid Match',
-  'shadow-match': 'Shadow Match',
-  'picture-sort': 'Picture Sort',
-  'drawing-lines': 'Drawing Lines',
-  'pattern-train': 'Pattern Train',
-  'pattern-worksheet': 'Pattern Worksheets',
-  'picture-bingo': 'Picture Bingo',
-  'big-small-app': 'Big or Small',
-  'treasure-hunt': 'Treasure Hunt',
-};
-
 // ── Page component ────────────────────────────────────────────────
 
 export default async function ThemePage({
@@ -270,7 +234,7 @@ export default async function ThemePage({
     },
     hasPart: apps.slice(0, 10).map((app, i) => ({
       '@type': 'SoftwareApplication',
-      name: appDisplayNames[app.appId] || app.appId,
+      name: getLocalizedAppDisplayName(app.appId, locale),
       url: `${baseUrl}/${locale}/apps/${app.slug}`,
       position: i + 1,
       applicationCategory: 'EducationalApplication',
@@ -375,7 +339,7 @@ export default async function ThemePage({
                   <div className="relative aspect-[3/4] bg-gray-50">
                     <Image
                       src={thumbnailMap[app.appId]}
-                      alt={appDisplayNames[app.appId] || app.appId}
+                      alt={getLocalizedAppDisplayName(app.appId, locale)}
                       fill
                       sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
                       className="object-cover"
@@ -385,13 +349,13 @@ export default async function ThemePage({
                 ) : (
                   <div className="aspect-[3/4] bg-gradient-to-br from-purple-500 to-purple-700 flex items-center justify-center p-4">
                     <span className="text-white text-center font-semibold text-lg">
-                      {appDisplayNames[app.appId] || app.appId}
+                      {getLocalizedAppDisplayName(app.appId, locale)}
                     </span>
                   </div>
                 )}
                 <div className="p-4 flex flex-col flex-1">
                   <h3 className="font-semibold text-gray-900 mb-2">
-                    {appDisplayNames[app.appId] || app.appId}
+                    {getLocalizedAppDisplayName(app.appId, locale)}
                   </h3>
                   <span className="mt-auto inline-flex items-center text-purple-600 text-sm font-medium">
                     {tryNowLabel[locale] || tryNowLabel.en}

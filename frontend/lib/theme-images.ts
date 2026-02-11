@@ -1,5 +1,6 @@
 import fs from 'fs/promises';
 import path from 'path';
+import { getLocalizedDisplayName } from '@/lib/homepage-samples-data';
 
 // ── Image library base path ──────────────────────────────────────
 // Production: isolated storage at /var/www/lcs-media/image-library/
@@ -108,4 +109,13 @@ export async function getAppThumbnailMap(
   }
 
   return result;
+}
+
+/**
+ * Get localized display name for a theme-page app ID.
+ * Maps theme-page IDs to sample IDs, then looks up the localized name.
+ */
+export function getLocalizedAppDisplayName(themeAppId: string, locale: string): string {
+  const sampleAppId = themeAppToSampleApp[themeAppId] || themeAppId;
+  return getLocalizedDisplayName(sampleAppId, locale);
 }

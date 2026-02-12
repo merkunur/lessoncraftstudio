@@ -62,7 +62,7 @@ export default async function AboutPage({ params: { locale } }: PageProps) {
       <section className="bg-gradient-to-r from-blue-600 to-indigo-700 text-white py-20">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">
+            <h1 className="speakable-headline text-4xl md:text-5xl font-bold mb-6">
               {t('hero.title')}
             </h1>
             <p className="text-xl md:text-2xl text-blue-100">
@@ -101,7 +101,7 @@ export default async function AboutPage({ params: { locale } }: PageProps) {
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">{t('mission.title')}</h2>
-            <p className="text-lg text-gray-700 mb-4 leading-relaxed">{t('mission.description')}</p>
+            <p className="speakable-summary text-lg text-gray-700 mb-4 leading-relaxed">{t('mission.description')}</p>
             <p className="text-lg text-gray-700 leading-relaxed">{t('mission.description2')}</p>
           </div>
         </div>

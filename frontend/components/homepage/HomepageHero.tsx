@@ -409,7 +409,7 @@ export default function HomepageHero({ locale, heroImages }: HomepageHeroProps) 
 
               {/* Title \u2014 NO animation, must be visible instantly (LCP element) */}
               <h1
-                className="text-[clamp(2.25rem,8vw,3rem)] lg:text-[clamp(2rem,3vw,2.5rem)] font-black leading-[1.1] tracking-tight mb-6 break-words"
+                className="speakable-headline text-[clamp(2.25rem,8vw,3rem)] lg:text-[clamp(2rem,3vw,2.5rem)] font-black leading-[1.1] tracking-tight mb-6 break-words"
                 style={{
                   fontFamily: 'var(--font-space-grotesk), system-ui, sans-serif',
                   hyphens: 'none',
@@ -430,7 +430,7 @@ export default function HomepageHero({ locale, heroImages }: HomepageHeroProps) 
               </h1>
 
               {/* Subtitle */}
-              <p className="text-lg sm:text-xl text-white/60 mb-8 max-w-xl mx-auto lg:mx-0 leading-relaxed hero-fade-in hero-stagger-2">
+              <p className="speakable-summary text-lg sm:text-xl text-white/60 mb-8 max-w-xl mx-auto lg:mx-0 leading-relaxed hero-fade-in hero-stagger-2">
                 {content.subtitle}
               </p>
 

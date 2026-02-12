@@ -58,6 +58,13 @@ function getBaseUrl(): string {
   return process.env.NEXT_PUBLIC_SITE_URL || 'https://www.lessoncraftstudio.com';
 }
 
+function getSpeakableSpecification(): object {
+  return {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [".speakable-headline", ".speakable-summary"]
+  };
+}
+
 interface BlogPostData {
   slug: string;
   title: string;
@@ -164,7 +171,8 @@ export function generateBlogSchemas(post: BlogPostData, locale: string, baseUrl:
     "about": {
       "@type": "Thing",
       "name": post.category || 'Educational Resources'
-    }
+    },
+    "speakable": getSpeakableSpecification()
   };
 
   schemas.push(articleSchema);
@@ -501,7 +509,8 @@ export function generateHomepageSchemas(locale: string, baseUrl: string = getBas
       "datePublished": "2024-06-01",
       "dateModified": "2026-02-09",
       "mainEntity": { "@id": `${baseUrl}/${locale}/#software` },
-      "primaryImageOfPage": { "@id": `${baseUrl}/#logo` }
+      "primaryImageOfPage": { "@id": `${baseUrl}/#logo` },
+      "speakable": getSpeakableSpecification()
     };
     schemas.push(webPageSchema);
   }
@@ -1341,7 +1350,8 @@ export function generateAppProductSchemas(
     },
     "mainEntity": {
       "@id": `${pageUrl}#software`
-    }
+    },
+    "speakable": getSpeakableSpecification()
   };
 
   schemas.push(webPageSchema);
@@ -1411,7 +1421,8 @@ export function generateAboutPageSchemas(locale: string, baseUrl: string = getBa
           "name": aboutLabel[locale] || "About Us"
         }
       ]
-    }
+    },
+    "speakable": getSpeakableSpecification()
   };
   schemas.push(profilePageSchema);
 

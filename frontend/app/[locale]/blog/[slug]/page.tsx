@@ -1217,6 +1217,7 @@ export default async function BlogPostPage({
 
               {/* H1 Title - NO animation (LCP element, must render instantly) */}
               <h1
+                className="speakable-headline"
                 lang={locale}
                 style={{
                   fontSize: getTitleFontSize(titleText),
@@ -1241,7 +1242,7 @@ export default async function BlogPostPage({
 
               {/* Excerpt */}
               {translation.excerpt && (
-                <p className="hero-fade-in hero-stagger-2 mx-auto lg:mx-0" style={{
+                <p className="speakable-summary hero-fade-in hero-stagger-2 mx-auto lg:mx-0" style={{
                   fontSize: '18px', lineHeight: 1.7,
                   color: 'rgba(255,255,255,0.7)',
                   maxWidth: '560px', marginBottom: '20px',

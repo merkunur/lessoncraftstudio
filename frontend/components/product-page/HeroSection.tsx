@@ -91,7 +91,7 @@ function CollapsibleText({
   return (
     <div className="relative">
       <div>
-        <p className="text-lg sm:text-xl leading-relaxed text-white/80">
+        <p className="speakable-summary text-lg sm:text-xl leading-relaxed text-white/80">
           {isExpanded ? text : shortText + (shouldTruncate ? '...' : '')}
         </p>
       </div>
@@ -230,7 +230,7 @@ export default function HeroSection({
 
             {/* Main title \u2014 NO animation, must be visible instantly (LCP element) */}
             <h1
-              className="font-black tracking-tight leading-[1.2] mb-8"
+              className="speakable-headline font-black tracking-tight leading-[1.2] mb-8"
               style={{
                 fontSize: getTitleFontSize(title),
                 fontFamily: "'Space Grotesk', 'Inter', system-ui, sans-serif",

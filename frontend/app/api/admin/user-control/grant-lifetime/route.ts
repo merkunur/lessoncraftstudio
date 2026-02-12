@@ -57,6 +57,7 @@ export const POST = withAdmin(async (request: NextRequest, user) => {
         status: 'active',
         billingInterval: null,
         cancelAtPeriodEnd: false,
+        currentPeriodStart: new Date(),
         // Set far future date for lifetime access (100 years from now)
         currentPeriodEnd: new Date(Date.now() + 100 * 365 * 24 * 60 * 60 * 1000),
       },

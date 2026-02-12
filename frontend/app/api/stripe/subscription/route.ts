@@ -11,6 +11,14 @@ import {
 import { SUBSCRIPTION_TIERS } from '@/lib/stripe-config';
 import { prisma } from '@/lib/prisma';
 
+// Extract tier from planName: 'lifetime_full' -> 'FULL', 'core_monthly' -> 'CORE'
+function getTierFromPlanName(planName: string): string {
+  if (planName.startsWith('lifetime_')) {
+    return planName.replace('lifetime_', '').toUpperCase();
+  }
+  return planName.split('_')[0].toUpperCase();
+}
+
 // GET /api/stripe/subscription - Get current subscription status
 export async function GET(request: NextRequest) {
   try {
@@ -62,8 +70,7 @@ export async function GET(request: NextRequest) {
           });
         }
 
-        // Convert planName to tier format (free/core_monthly/full_yearly -> FREE/CORE/FULL)
-        const tierFromPlan = subscription.planName.split('_')[0].toUpperCase();
+        const tierFromPlan = getTierFromPlanName(subscription.planName);
 
         return NextResponse.json({
           id: subscription.id,
@@ -80,8 +87,7 @@ export async function GET(request: NextRequest) {
     }
 
     // Return database data if Stripe call fails
-    // Convert planName to tier format (free/core_monthly/full_yearly -> FREE/CORE/FULL)
-    const tierFromPlan = subscription.planName.split('_')[0].toUpperCase();
+    const tierFromPlan = getTierFromPlanName(subscription.planName);
 
     return NextResponse.json({
       id: subscription.id,

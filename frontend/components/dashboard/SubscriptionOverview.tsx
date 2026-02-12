@@ -68,7 +68,7 @@ export default function SubscriptionOverview() {
   }
 
   const tier = subscription?.tier || 'FREE';
-  const tierInfo = SUBSCRIPTION_TIERS[tier as keyof typeof SUBSCRIPTION_TIERS];
+  const tierInfo = SUBSCRIPTION_TIERS[tier as keyof typeof SUBSCRIPTION_TIERS] || SUBSCRIPTION_TIERS.FULL;
 
   // Determine if user can upgrade (FREE or CORE can upgrade to higher tiers)
   const canUpgrade = tier === 'FREE' || tier === 'CORE';

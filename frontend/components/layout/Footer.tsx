@@ -55,7 +55,8 @@ export function Footer() {
       links: {
         helpCenter: t('support.helpCenter'),
         contact: t('support.contact'),
-        faq: t('support.faq')
+        faq: t('support.faq'),
+        about: t('support.about')
       }
     },
     legal: {
@@ -303,6 +304,13 @@ export function Footer() {
                   <li>
                     <Link href={`/${locale}/contact`} className="hover:text-white">
                       {sections.support.links.contact}
+                    </Link>
+                  </li>
+                )}
+                {sections.support.links?.about && (
+                  <li>
+                    <Link href={`/${locale}/about`} className="hover:text-white">
+                      {sections.support.links.about}
                     </Link>
                   </li>
                 )}

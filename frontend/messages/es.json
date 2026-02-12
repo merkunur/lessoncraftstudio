@@ -310,7 +310,8 @@
       "title": "Soporte",
       "helpCenter": "Centro de ayuda",
       "contact": "Contacto",
-      "faq": "Preguntas frecuentes"
+      "faq": "Preguntas frecuentes",
+      "about": "Sobre nosotros"
     },
     "legal": {
       "title": "Legal",
@@ -1265,5 +1266,63 @@
     "deleteSuccess": "La solicitud se eliminó correctamente.",
     "deleteError": "Ocurrió un error al eliminar la solicitud.",
     "loadError": "No se pudieron cargar tus solicitudes. Por favor, actualiza la página."
+  },
+  "about": {
+    "metaTitle": "Sobre LessonCraftStudio | Generadores de Fichas Educativas",
+    "metaDescription": "Conozca LessonCraftStudio — 33 generadores de fichas profesionales en 11 idiomas con más de 3.000 imágenes temáticas para maestros, padres y terapeutas.",
+    "hero": {
+      "title": "Sobre LessonCraftStudio",
+      "subtitle": "Apoyando a educadores en todo el mundo con generadores de fichas profesionales"
+    },
+    "stats": {
+      "generators": "33",
+      "generatorsLabel": "Generadores de fichas",
+      "languages": "11",
+      "languagesLabel": "Idiomas",
+      "images": "3.000+",
+      "imagesLabel": "Imágenes temáticas",
+      "themes": "100+",
+      "themesLabel": "Temas"
+    },
+    "mission": {
+      "title": "Nuestra misión",
+      "description": "Creemos que cada niño merece acceso a materiales educativos de alta calidad. LessonCraftStudio fue creado para ayudar a maestros, padres y terapeutas a generar fichas profesionales al instante — sin habilidades de diseño, software costoso ni horas de preparación.",
+      "description2": "Nuestros generadores combinan pedagogía basada en investigación con un diseño atractivo, facilitando la creación de materiales listos para imprimir que motivan a los pequeños estudiantes desde preescolar hasta tercer grado."
+    },
+    "methodology": {
+      "title": "Nuestro enfoque",
+      "instant": {
+        "title": "Generación instantánea",
+        "description": "Seleccione un tema, personalice los ajustes y genere una ficha lista para imprimir en segundos. No se requieren habilidades de diseño."
+      },
+      "research": {
+        "title": "Basado en investigación",
+        "description": "Cada generador se basa en métodos educativos comprobados para el desarrollo infantil temprano — matemáticas, lectura, motricidad y desarrollo cognitivo."
+      },
+      "inclusive": {
+        "title": "Multilingüe e inclusivo",
+        "description": "Los 33 generadores funcionan perfectamente en 11 idiomas, con contenido culturalmente apropiado y una biblioteca de más de 3.000 imágenes seleccionadas."
+      }
+    },
+    "audience": {
+      "title": "¿A quién servimos?",
+      "teachers": {
+        "title": "Maestros",
+        "description": "Cree fichas diferenciadas para su aula en segundos. Apoye a estudiantes diversos con materiales en su idioma materno."
+      },
+      "parents": {
+        "title": "Padres",
+        "description": "Ofrezca a su hijo prácticas atractivas en casa con fichas de calidad profesional adaptadas a sus intereses y nivel."
+      },
+      "therapists": {
+        "title": "Terapeutas y educadores especiales",
+        "description": "Genere materiales dirigidos para terapia del habla, terapia ocupacional y educación especial — personalizados para cada estudiante."
+      }
+    },
+    "cta": {
+      "title": "¿Listo para crear?",
+      "subtitle": "Comience a crear fichas profesionales en segundos — prueba gratuita.",
+      "button": "Explorar generadores"
+    }
   }
 }

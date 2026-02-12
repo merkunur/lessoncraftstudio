@@ -465,7 +465,8 @@
       "title": "Support",
       "helpCenter": "Hjälpcenter",
       "contact": "Kontakt",
-      "faq": "Vanliga frågor"
+      "faq": "Vanliga frågor",
+      "about": "Om oss"
     },
     "legal": {
       "title": "Juridiskt",
@@ -882,8 +883,8 @@
       "manageBilling": "Hantera betalningar",
       "loading": "Laddar...",
       "cancelWarning": "⚠️ Din prenumeration upphör den {date}",
-      "lifetimeAccess": "Livstids fullst\u00e4ndig \u00e5tkomst",
-      "lifetimeNoBilling": "Livstids\u00e5tkomst — ingen fakturering",
+      "lifetimeAccess": "Livstids fullständig åtkomst",
+      "lifetimeNoBilling": "Livstidsåtkomst — ingen fakturering",
       "lifetime": "Livstid"
     },
     "activity": {
@@ -1241,6 +1242,64 @@
       "billing": "Fakturering & Betalning",
       "technical": "Teknisk fråga",
       "other": "Övrigt"
+    }
+  },
+  "about": {
+    "metaTitle": "Om LessonCraftStudio | Pedagogiska Arbetsblads-Generatorer",
+    "metaDescription": "Lär dig mer om LessonCraftStudio — 33 professionella arbetsblads-generatorer på 11 språk med över 3 000 tematiska bilder för lärare, föräldrar och terapeuter.",
+    "hero": {
+      "title": "Om LessonCraftStudio",
+      "subtitle": "Stödjer pedagoger världen över med professionella arbetsblads-generatorer"
+    },
+    "stats": {
+      "generators": "33",
+      "generatorsLabel": "Arbetsblads-generatorer",
+      "languages": "11",
+      "languagesLabel": "Språk",
+      "images": "3 000+",
+      "imagesLabel": "Tematiska bilder",
+      "themes": "100+",
+      "themesLabel": "Teman"
+    },
+    "mission": {
+      "title": "Vårt uppdrag",
+      "description": "Vi tror att varje barn förtjänar tillgång till högkvalitativt utbildningsmaterial. LessonCraftStudio skapades för att hjälpa lärare, föräldrar och terapeuter att skapa professionella arbetsblad direkt — utan designkunskaper, dyr programvara eller timmar av förberedelse.",
+      "description2": "Våra generatorer kombinerar forskningsbaserad pedagogik med vacker design, vilket gör det enkelt att producera utskriftsfärdigt material som engagerar unga elever från förskola till årskurs 3."
+    },
+    "methodology": {
+      "title": "Vår metod",
+      "instant": {
+        "title": "Omedelbar generering",
+        "description": "Välj ett tema, anpassa inställningarna och generera ett utskriftsfärdigt arbetsblad på sekunder. Inga designkunskaper krävs."
+      },
+      "research": {
+        "title": "Forskningsbaserat",
+        "description": "Varje generator bygger på beprövade pedagogiska metoder för tidig barndomsutveckling — matematik, läsning, motorik och kognitiv utveckling."
+      },
+      "inclusive": {
+        "title": "Flerspråkigt & inkluderande",
+        "description": "Alla 33 generatorer fungerar sömlöst på 11 språk, med kulturellt anpassat innehåll och ett bibliotek med över 3 000 handplockade bilder."
+      }
+    },
+    "audience": {
+      "title": "Vilka vi tjänar",
+      "teachers": {
+        "title": "Lärare",
+        "description": "Skapa differentierade arbetsblad för ditt klassrum på sekunder. Stöd olika elever med material på deras modersmål."
+      },
+      "parents": {
+        "title": "Föräldrar",
+        "description": "Ge ditt barn engagerande övningar hemma med professionella arbetsblad anpassade efter intressen och nivå."
+      },
+      "therapists": {
+        "title": "Terapeuter & specialpedagoger",
+        "description": "Generera riktat material för logopedi, arbetsterapi och specialundervisning — anpassat för varje elev."
+      }
+    },
+    "cta": {
+      "title": "Redo att börja?",
+      "subtitle": "Börja skapa professionella arbetsblad på sekunder — gratis att prova.",
+      "button": "Utforska generatorer"
     }
   }
 }

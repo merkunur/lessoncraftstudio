@@ -478,7 +478,8 @@
       "title": "Ondersteuning",
       "helpCenter": "Helpcentrum",
       "contact": "Contact",
-      "faq": "Veelgestelde vragen"
+      "faq": "Veelgestelde vragen",
+      "about": "Over ons"
     },
     "legal": {
       "title": "Juridisch",
@@ -1251,6 +1252,64 @@
       "billing": "Facturering & Betaling",
       "technical": "Technische vraag",
       "other": "Iets anders"
+    }
+  },
+  "about": {
+    "metaTitle": "Over LessonCraftStudio | Educatieve Werkblad-Generatoren",
+    "metaDescription": "Leer meer over LessonCraftStudio — 33 professionele werkblad-generatoren in 11 talen met meer dan 3.000 thematische afbeeldingen voor leraren, ouders en therapeuten.",
+    "hero": {
+      "title": "Over LessonCraftStudio",
+      "subtitle": "Wereldwijd docenten ondersteunen met professionele werkblad-generatoren"
+    },
+    "stats": {
+      "generators": "33",
+      "generatorsLabel": "Werkblad-generatoren",
+      "languages": "11",
+      "languagesLabel": "Talen",
+      "images": "3.000+",
+      "imagesLabel": "Thematische afbeeldingen",
+      "themes": "100+",
+      "themesLabel": "Thema’s"
+    },
+    "mission": {
+      "title": "Onze missie",
+      "description": "Wij geloven dat elk kind toegang verdient tot hoogwaardig lesmateriaal. LessonCraftStudio is gebouwd om leraren, ouders en therapeuten te helpen direct professionele werkbladen te maken — zonder designvaardigheden, dure software of uren voorbereiding.",
+      "description2": "Onze generatoren combineren op onderzoek gebaseerde pedagogiek met mooi design, waardoor het eenvoudig is drukklare materialen te maken die jonge leerlingen van kleuterschool tot groep 5 aanspreken."
+    },
+    "methodology": {
+      "title": "Onze aanpak",
+      "instant": {
+        "title": "Direct genereren",
+        "description": "Kies een thema, pas de instellingen aan en genereer in enkele seconden een drukklaar werkblad. Geen designvaardigheden nodig."
+      },
+      "research": {
+        "title": "Op onderzoek gebaseerd",
+        "description": "Elke generator is gebaseerd op bewezen educatieve methoden voor de vroege ontwikkeling — rekenen, lezen, motoriek en cognitieve ontwikkeling."
+      },
+      "inclusive": {
+        "title": "Meertalig & inclusief",
+        "description": "Alle 33 generatoren werken naadloos in 11 talen, met cultureel passende inhoud en een bibliotheek van meer dan 3.000 handgeselecteerde afbeeldingen."
+      }
+    },
+    "audience": {
+      "title": "Voor wie",
+      "teachers": {
+        "title": "Leraren",
+        "description": "Maak in seconden gedifferentieerde werkbladen voor uw klas. Ondersteun diverse leerlingen met materiaal in hun moedertaal."
+      },
+      "parents": {
+        "title": "Ouders",
+        "description": "Geef uw kind boeiende oefeningen thuis met professionele werkbladen afgestemd op zijn interesses en niveau."
+      },
+      "therapists": {
+        "title": "Therapeuten & speciale educatie",
+        "description": "Genereer gericht materiaal voor logopedie, ergotherapie en speciaal onderwijs — aangepast aan elke leerling."
+      }
+    },
+    "cta": {
+      "title": "Klaar om te beginnen?",
+      "subtitle": "Begin direct met het maken van professionele werkbladen — gratis uitproberen.",
+      "button": "Generatoren bekijken"
     }
   }
 }

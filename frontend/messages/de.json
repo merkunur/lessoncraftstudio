@@ -283,7 +283,8 @@
       "title": "Unterstützung",
       "helpCenter": "Hilfe-Center",
       "contact": "Kontakt",
-      "faq": "Häufige Fragen"
+      "faq": "Häufige Fragen",
+      "about": "Über uns"
     },
     "legal": {
       "title": "Rechtliches",
@@ -1309,5 +1310,63 @@
     "deleteSuccess": "Anfrage wurde erfolgreich gelöscht.",
     "deleteError": "Beim Löschen der Anfrage ist ein Fehler aufgetreten.",
     "loadError": "Beim Laden der Anfragen ist ein Fehler aufgetreten. Bitte laden Sie die Seite neu."
+  },
+  "about": {
+    "metaTitle": "Über LessonCraftStudio | Pädagogische Arbeitsblatt-Generatoren",
+    "metaDescription": "Erfahren Sie mehr über LessonCraftStudio — 33 professionelle Arbeitsblatt-Generatoren in 11 Sprachen mit über 3.000 thematischen Bildern für Lehrer, Eltern und Therapeuten.",
+    "hero": {
+      "title": "Über LessonCraftStudio",
+      "subtitle": "Wir unterstützen Pädagogen weltweit mit professionellen Arbeitsblatt-Generatoren"
+    },
+    "stats": {
+      "generators": "33",
+      "generatorsLabel": "Arbeitsblatt-Generatoren",
+      "languages": "11",
+      "languagesLabel": "Sprachen",
+      "images": "3.000+",
+      "imagesLabel": "Thematische Bilder",
+      "themes": "100+",
+      "themesLabel": "Themen"
+    },
+    "mission": {
+      "title": "Unsere Mission",
+      "description": "Wir glauben, dass jedes Kind Zugang zu hochwertigen Lernmaterialien verdient. LessonCraftStudio wurde entwickelt, um Lehrern, Eltern und Therapeuten zu helfen, professionelle Arbeitsblätter sofort zu erstellen — ohne Designkenntnisse, teure Software oder stundenlange Vorbereitung.",
+      "description2": "Unsere Generatoren verbinden forschungsbasierte Pädagogik mit ansprechendem Design und machen es einfach, druckfertige Materialien zu erstellen, die junge Lernende von der Vorschule bis zur 3. Klasse begeistern."
+    },
+    "methodology": {
+      "title": "Unser Ansatz",
+      "instant": {
+        "title": "Sofortige Erstellung",
+        "description": "Wählen Sie ein Thema, passen Sie die Einstellungen an und erstellen Sie in Sekunden ein druckfertiges Arbeitsblatt. Keine Designkenntnisse erforderlich."
+      },
+      "research": {
+        "title": "Forschungsbasiert",
+        "description": "Jeder Generator basiert auf bewährten pädagogischen Methoden für die frühkindliche Entwicklung — Mathematik, Lesen, Motorik und kognitive Fähigkeiten."
+      },
+      "inclusive": {
+        "title": "Mehrsprachig & Inklusiv",
+        "description": "Alle 33 Generatoren funktionieren nahtlos in 11 Sprachen, mit kulturell angemessenen Inhalten und einer Bibliothek von über 3.000 handverlesenen Bildern."
+      }
+    },
+    "audience": {
+      "title": "Für wen wir da sind",
+      "teachers": {
+        "title": "Lehrkräfte",
+        "description": "Erstellen Sie in Sekunden differenzierte Arbeitsblätter für Ihren Unterricht. Unterstützen Sie vielfältige Lernende mit Materialien in ihrer Muttersprache."
+      },
+      "parents": {
+        "title": "Eltern",
+        "description": "Bieten Sie Ihrem Kind ansprechende Übungen zu Hause mit professionellen Arbeitsblättern, die auf seine Interessen und sein Niveau zugeschnitten sind."
+      },
+      "therapists": {
+        "title": "Therapeuten & Sonderpädagogen",
+        "description": "Erstellen Sie gezieltes Material für Sprachtherapie, Ergotherapie und Sonderpädagogik — individuell auf jeden Schüler abgestimmt."
+      }
+    },
+    "cta": {
+      "title": "Bereit loszulegen?",
+      "subtitle": "Erstellen Sie in Sekunden professionelle Arbeitsblätter — kostenlos testen.",
+      "button": "Generatoren entdecken"
+    }
   }
 }

@@ -310,7 +310,8 @@
       "title": "Assistance",
       "helpCenter": "Centre d'aide",
       "contact": "Contact",
-      "faq": "Questions fréquentes"
+      "faq": "Questions fréquentes",
+      "about": "À propos"
     },
     "legal": {
       "title": "Mentions légales",
@@ -895,9 +896,9 @@
       "manageBilling": "Gérer mes paiements",
       "loading": "Chargement en cours...",
       "cancelWarning": "⚠️ Votre abonnement prendra fin le {date}",
-      "lifetimeAccess": "Acc\u00e8s complet \u00e0 vie",
-      "lifetimeNoBilling": "Acc\u00e8s \u00e0 vie — aucune facturation requise",
-      "lifetime": "\u00c0 vie"
+      "lifetimeAccess": "Accès complet à vie",
+      "lifetimeNoBilling": "Accès à vie — aucune facturation requise",
+      "lifetime": "À vie"
     },
     "activity": {
       "title": "Mon activité",
@@ -1275,5 +1276,63 @@
     "deleteSuccess": "La demande a été supprimée avec succès.",
     "deleteError": "Une erreur s'est produite lors de la suppression de la demande.",
     "loadError": "Impossible de charger vos demandes. Veuillez actualiser la page."
+  },
+  "about": {
+    "metaTitle": "À propos de LessonCraftStudio | Générateurs de Fiches Pédagogiques",
+    "metaDescription": "Découvrez LessonCraftStudio — 33 générateurs de fiches professionnels en 11 langues avec plus de 3 000 images thématiques pour enseignants, parents et thérapeutes.",
+    "hero": {
+      "title": "À propos de LessonCraftStudio",
+      "subtitle": "Accompagner les éducateurs du monde entier avec des générateurs de fiches professionnels"
+    },
+    "stats": {
+      "generators": "33",
+      "generatorsLabel": "Générateurs de fiches",
+      "languages": "11",
+      "languagesLabel": "Langues",
+      "images": "3 000+",
+      "imagesLabel": "Images thématiques",
+      "themes": "100+",
+      "themesLabel": "Thèmes"
+    },
+    "mission": {
+      "title": "Notre mission",
+      "description": "Nous croyons que chaque enfant mérite d’accéder à des supports pédagogiques de qualité. LessonCraftStudio a été créé pour aider les enseignants, les parents et les thérapeutes à produire des fiches professionnelles en un instant — sans compétences en design, logiciel coûteux ni heures de préparation.",
+      "description2": "Nos générateurs allient pédagogie fondée sur la recherche et design soigné, facilitant la création de supports prêts à imprimer qui captent l’attention des jeunes apprenants, de la maternelle au CE2."
+    },
+    "methodology": {
+      "title": "Notre approche",
+      "instant": {
+        "title": "Génération instantanée",
+        "description": "Choisissez un thème, personnalisez les paramètres et générez une fiche prête à imprimer en quelques secondes. Aucune compétence en design requise."
+      },
+      "research": {
+        "title": "Fondé sur la recherche",
+        "description": "Chaque générateur repose sur des méthodes pédagogiques éprouvées pour le développement de la petite enfance — mathématiques, lecture, motricité et développement cognitif."
+      },
+      "inclusive": {
+        "title": "Multilingue & Inclusif",
+        "description": "Les 33 générateurs fonctionnent parfaitement en 11 langues, avec un contenu culturellement adapté et une bibliothèque de plus de 3 000 images sélectionnées."
+      }
+    },
+    "audience": {
+      "title": "Pour qui ?",
+      "teachers": {
+        "title": "Enseignants",
+        "description": "Créez des fiches différenciées pour votre classe en quelques secondes. Accompagnez chaque élève avec des supports dans sa langue maternelle."
+      },
+      "parents": {
+        "title": "Parents",
+        "description": "Offrez à votre enfant des exercices attrayants à la maison avec des fiches de qualité professionnelle adaptées à ses intérêts et son niveau."
+      },
+      "therapists": {
+        "title": "Thérapeutes & Éducateurs spécialisés",
+        "description": "Générez des supports ciblés pour l’orthophonie, l’ergothérapie et l’éducation spécialisée — personnalisés pour chaque élève."
+      }
+    },
+    "cta": {
+      "title": "Prêt à créer ?",
+      "subtitle": "Commencez à créer des fiches professionnelles en quelques secondes — essai gratuit.",
+      "button": "Découvrir les générateurs"
+    }
   }
 }

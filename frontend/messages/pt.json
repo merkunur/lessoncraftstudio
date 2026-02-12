@@ -478,7 +478,8 @@
       "title": "Suporte",
       "helpCenter": "Central de ajuda",
       "contact": "Contato",
-      "faq": "Perguntas frequentes"
+      "faq": "Perguntas frequentes",
+      "about": "Sobre nós"
     },
     "legal": {
       "title": "Legal",
@@ -895,9 +896,9 @@
       "manageBilling": "Gerenciar pagamentos",
       "loading": "Carregando...",
       "cancelWarning": "⚠️ Sua assinatura expira em {date}",
-      "lifetimeAccess": "Acesso completo vital\u00edcio",
-      "lifetimeNoBilling": "Acesso vital\u00edcio — sem cobran\u00e7as",
-      "lifetime": "Vital\u00edcio"
+      "lifetimeAccess": "Acesso completo vitalício",
+      "lifetimeNoBilling": "Acesso vitalício — sem cobranças",
+      "lifetime": "Vitalício"
     },
     "activity": {
       "title": "Sua atividade",
@@ -1265,5 +1266,63 @@
     "deleteSuccess": "A solicitação foi excluída com sucesso.",
     "deleteError": "Ocorreu um erro ao excluir a solicitação.",
     "loadError": "Não foi possível carregar suas solicitações. Por favor, atualize a página."
+  },
+  "about": {
+    "metaTitle": "Sobre o LessonCraftStudio | Geradores de Atividades Educativas",
+    "metaDescription": "Conheça o LessonCraftStudio — 33 geradores de atividades profissionais em 11 idiomas com mais de 3.000 imagens temáticas para professores, pais e terapeutas.",
+    "hero": {
+      "title": "Sobre o LessonCraftStudio",
+      "subtitle": "Capacitando educadores em todo o mundo com geradores de atividades profissionais"
+    },
+    "stats": {
+      "generators": "33",
+      "generatorsLabel": "Geradores de atividades",
+      "languages": "11",
+      "languagesLabel": "Idiomas",
+      "images": "3.000+",
+      "imagesLabel": "Imagens temáticas",
+      "themes": "100+",
+      "themesLabel": "Temas"
+    },
+    "mission": {
+      "title": "Nossa missão",
+      "description": "Acreditamos que toda criança merece acesso a materiais educacionais de alta qualidade. O LessonCraftStudio foi criado para ajudar professores, pais e terapeutas a gerar atividades profissionais instantaneamente — sem habilidades de design, software caro ou horas de preparação.",
+      "description2": "Nossos geradores combinam pedagogia baseada em pesquisa com design atraente, facilitando a criação de materiais prontos para imprimir que engajam jovens aprendizes da pré-escola ao 3º ano."
+    },
+    "methodology": {
+      "title": "Nossa abordagem",
+      "instant": {
+        "title": "Geração instantânea",
+        "description": "Escolha um tema, personalize as configurações e gere uma atividade pronta para imprimir em segundos. Nenhuma habilidade de design necessária."
+      },
+      "research": {
+        "title": "Baseado em pesquisa",
+        "description": "Cada gerador é construído com métodos educacionais comprovados para o desenvolvimento infantil — matemática, leitura, habilidades motoras e desenvolvimento cognitivo."
+      },
+      "inclusive": {
+        "title": "Multilingual e inclusivo",
+        "description": "Todos os 33 geradores funcionam perfeitamente em 11 idiomas, com conteúdo culturalmente apropriado e uma biblioteca de mais de 3.000 imagens selecionadas."
+      }
+    },
+    "audience": {
+      "title": "Para quem servimos",
+      "teachers": {
+        "title": "Professores",
+        "description": "Crie atividades diferenciadas para sua sala de aula em segundos. Apoie alunos diversos com materiais em seu idioma nativo."
+      },
+      "parents": {
+        "title": "Pais",
+        "description": "Ofereça ao seu filho práticas envolventes em casa com atividades de qualidade profissional adaptadas aos seus interesses e nível."
+      },
+      "therapists": {
+        "title": "Terapeutas e educadores especiais",
+        "description": "Gere materiais direcionados para fonoaudiologia, terapia ocupacional e educação especial — personalizados para cada aluno."
+      }
+    },
+    "cta": {
+      "title": "Pronto para criar?",
+      "subtitle": "Comece a criar atividades profissionais em segundos — teste gratuito.",
+      "button": "Explorar geradores"
+    }
   }
 }

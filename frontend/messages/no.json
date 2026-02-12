@@ -297,7 +297,8 @@
       "title": "Støtte",
       "helpCenter": "Hjelpesenter",
       "contact": "Kontakt",
-      "faq": "Ofte stilte spørsmål"
+      "faq": "Ofte stilte spørsmål",
+      "about": "Om oss"
     },
     "legal": {
       "title": "Juridisk",
@@ -1245,6 +1246,64 @@
       "billing": "Fakturering & Betaling",
       "technical": "Teknisk spørsmål",
       "other": "Annet"
+    }
+  },
+  "about": {
+    "metaTitle": "Om LessonCraftStudio | Pedagogiske Arbeidsark-Generatorer",
+    "metaDescription": "Lær mer om LessonCraftStudio — 33 profesjonelle arbeidsark-generatorer på 11 språk med over 3 000 tematiske bilder for lærere, foreldre og terapeuter.",
+    "hero": {
+      "title": "Om LessonCraftStudio",
+      "subtitle": "Støtter pedagoger verden over med profesjonelle arbeidsark-generatorer"
+    },
+    "stats": {
+      "generators": "33",
+      "generatorsLabel": "Arbeidsark-generatorer",
+      "languages": "11",
+      "languagesLabel": "Språk",
+      "images": "3 000+",
+      "imagesLabel": "Tematiske bilder",
+      "themes": "100+",
+      "themesLabel": "Temaer"
+    },
+    "mission": {
+      "title": "Vårt oppdrag",
+      "description": "Vi tror at hvert barn fortjener tilgang til undervisningsmateriell av høy kvalitet. LessonCraftStudio ble skapt for å hjelpe lærere, foreldre og terapeuter med å lage profesjonelle arbeidsark umiddelbart — uten designferdigheter, dyr programvare eller timevis med forberedelse.",
+      "description2": "Våre generatorer kombinerer forskningsbasert pedagogikk med vakker design, og gjør det enkelt å lage utskriftsklare materialer som engasjerer unge elever fra barnehage til 3. klasse."
+    },
+    "methodology": {
+      "title": "Vår tilnærming",
+      "instant": {
+        "title": "Umiddelbar generering",
+        "description": "Velg et tema, tilpass innstillingene og generer et utskriftsklart arbeidsark på sekunder. Ingen designferdigheter nødvendig."
+      },
+      "research": {
+        "title": "Forskningsbasert",
+        "description": "Hver generator er bygget på dokumenterte pedagogiske metoder for tidlig barndomsutvikling — matematikk, lesing, motorikk og kognitiv utvikling."
+      },
+      "inclusive": {
+        "title": "Flerspråklig & inkluderende",
+        "description": "Alle 33 generatorer fungerer smidig på 11 språk, med kulturelt tilpasset innhold og et bibliotek med over 3 000 håndplukkede bilder."
+      }
+    },
+    "audience": {
+      "title": "Hvem vi tjener",
+      "teachers": {
+        "title": "Lærere",
+        "description": "Lag differensierte arbeidsark for klasserommet ditt på sekunder. Støtt ulike elever med materialer på deres morsmål."
+      },
+      "parents": {
+        "title": "Foreldre",
+        "description": "Gi barnet ditt engasjerende øvelser hjemme med profesjonelle arbeidsark tilpasset deres interesser og nivå."
+      },
+      "therapists": {
+        "title": "Terapeuter & spesialpedagoger",
+        "description": "Generer målrettet materiell for logopedi, ergoterapi og spesialundervisning — tilpasset hver enkelt elev."
+      }
+    },
+    "cta": {
+      "title": "Klar til å begynne?",
+      "subtitle": "Begynn å lage profesjonelle arbeidsark på sekunder — gratis å prøve.",
+      "button": "Utforsk generatorer"
     }
   }
 }

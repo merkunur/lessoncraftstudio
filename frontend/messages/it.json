@@ -478,7 +478,8 @@
       "title": "Supporto",
       "helpCenter": "Centro assistenza",
       "contact": "Contatti",
-      "faq": "Domande frequenti"
+      "faq": "Domande frequenti",
+      "about": "Chi siamo"
     },
     "legal": {
       "title": "Legale",
@@ -1265,5 +1266,63 @@
     "deleteSuccess": "La richiesta è stata eliminata con successo.",
     "deleteError": "Si è verificato un errore durante l'eliminazione della richiesta.",
     "loadError": "Impossibile caricare le tue richieste. Aggiorna la pagina."
+  },
+  "about": {
+    "metaTitle": "Chi siamo | LessonCraftStudio — Generatori di Schede Didattiche",
+    "metaDescription": "Scopri LessonCraftStudio — 33 generatori di schede professionali in 11 lingue con oltre 3.000 immagini tematiche per insegnanti, genitori e terapisti.",
+    "hero": {
+      "title": "Chi siamo",
+      "subtitle": "Supportiamo gli educatori di tutto il mondo con generatori di schede professionali"
+    },
+    "stats": {
+      "generators": "33",
+      "generatorsLabel": "Generatori di schede",
+      "languages": "11",
+      "languagesLabel": "Lingue",
+      "images": "3.000+",
+      "imagesLabel": "Immagini tematiche",
+      "themes": "100+",
+      "themesLabel": "Temi"
+    },
+    "mission": {
+      "title": "La nostra missione",
+      "description": "Crediamo che ogni bambino meriti l’accesso a materiali didattici di alta qualità. LessonCraftStudio è stato creato per aiutare insegnanti, genitori e terapisti a generare schede professionali in un istante — senza competenze di design, software costoso o ore di preparazione.",
+      "description2": "I nostri generatori combinano pedagogia basata sulla ricerca con un design accattivante, rendendo facile la creazione di materiali pronti da stampare che coinvolgono i giovani studenti dalla scuola materna alla terza elementare."
+    },
+    "methodology": {
+      "title": "Il nostro approccio",
+      "instant": {
+        "title": "Generazione istantanea",
+        "description": "Scegli un tema, personalizza le impostazioni e genera una scheda pronta da stampare in pochi secondi. Nessuna competenza di design richiesta."
+      },
+      "research": {
+        "title": "Basato sulla ricerca",
+        "description": "Ogni generatore si basa su metodi educativi comprovati per lo sviluppo della prima infanzia — matematica, lettura, abilità motorie e sviluppo cognitivo."
+      },
+      "inclusive": {
+        "title": "Multilingue e inclusivo",
+        "description": "Tutti i 33 generatori funzionano perfettamente in 11 lingue, con contenuti culturalmente appropriati e una libreria di oltre 3.000 immagini selezionate."
+      }
+    },
+    "audience": {
+      "title": "Chi serviamo",
+      "teachers": {
+        "title": "Insegnanti",
+        "description": "Crea schede differenziate per la tua classe in pochi secondi. Supporta studenti diversi con materiali nella loro lingua madre."
+      },
+      "parents": {
+        "title": "Genitori",
+        "description": "Offri al tuo bambino esercizi coinvolgenti a casa con schede di qualità professionale adattate ai suoi interessi e livello."
+      },
+      "therapists": {
+        "title": "Terapisti ed educatori speciali",
+        "description": "Genera materiali mirati per logopedia, terapia occupazionale ed educazione speciale — personalizzati per ogni studente."
+      }
+    },
+    "cta": {
+      "title": "Pronto a creare?",
+      "subtitle": "Inizia a creare schede professionali in pochi secondi — prova gratuita.",
+      "button": "Scopri i generatori"
+    }
   }
 }

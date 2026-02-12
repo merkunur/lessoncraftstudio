@@ -297,7 +297,8 @@
       "title": "Tuki",
       "helpCenter": "Ohjekeskus",
       "contact": "Yhteystiedot",
-      "faq": "Usein kysytyt kysymykset"
+      "faq": "Usein kysytyt kysymykset",
+      "about": "Tietoa meistä"
     },
     "legal": {
       "title": "Juridiset asiat",
@@ -882,9 +883,9 @@
       "manageBilling": "Hallinnoi maksuja",
       "loading": "Ladataan...",
       "cancelWarning": "⚠️ Tilauksesi päättyy {date}",
-      "lifetimeAccess": "Elinik\u00e4inen t\u00e4ysi k\u00e4ytt\u00f6oikeus",
-      "lifetimeNoBilling": "Elinik\u00e4inen k\u00e4ytt\u00f6oikeus — ei laskutusta",
-      "lifetime": "Elinik\u00e4inen"
+      "lifetimeAccess": "Elinikäinen täysi käyttöoikeus",
+      "lifetimeNoBilling": "Elinikäinen käyttöoikeus — ei laskutusta",
+      "lifetime": "Elinikäinen"
     },
     "activity": {
       "title": "Toimintasi",
@@ -1230,6 +1231,64 @@
       "billing": "Laskutus & Maksu",
       "technical": "Tekninen kysymys",
       "other": "Muu asia"
+    }
+  },
+  "about": {
+    "metaTitle": "Tietoa LessonCraftStudiosta | Opetukselliset Työarkki-Generaattorit",
+    "metaDescription": "Tutustu LessonCraftStudioon — 33 ammattimaista työarkki-generaattoria 11 kielellä yli 3 000 teemakuvalla opettajille, vanhemmille ja terapeuteille.",
+    "hero": {
+      "title": "Tietoa LessonCraftStudiosta",
+      "subtitle": "Tuemme opettajia ympäri maailmaa ammattimaisilla työarkki-generaattoreilla"
+    },
+    "stats": {
+      "generators": "33",
+      "generatorsLabel": "Työarkki-generaattoria",
+      "languages": "11",
+      "languagesLabel": "Kieltä",
+      "images": "3 000+",
+      "imagesLabel": "Teemakuvaa",
+      "themes": "100+",
+      "themesLabel": "Teemaa"
+    },
+    "mission": {
+      "title": "Tehtävämme",
+      "description": "Uskomme, että jokaisella lapsella on oikeus laadukkaaseen oppimateriaaliin. LessonCraftStudio luotiin auttamaan opettajia, vanhempia ja terapeutteja luomaan ammattimaisia työarkkeja välittömästi — ilman suunnittelutaitoja, kallista ohjelmistoa tai tuntien valmistelutyötä.",
+      "description2": "Generaattorimme yhdistävät tutkimukseen perustuvan pedagogiikan kauniiseen muotoiluun, mikä tekee tulostusvalmiiden materiaalien luomisesta helppoa esikoulusta 3. luokkaan."
+    },
+    "methodology": {
+      "title": "Lähestymistapamme",
+      "instant": {
+        "title": "Välitön luominen",
+        "description": "Valitse teema, muokkaa asetuksia ja luo tulostusvalmis työarkki sekunneissa. Suunnittelutaitoja ei tarvita."
+      },
+      "research": {
+        "title": "Tutkimukseen perustuva",
+        "description": "Jokainen generaattori perustuu hyväksi havaittuihin opetusmenetelmään varhaiskasvatuksessa — matematiikka, lukeminen, motoriikka ja kognitiivinen kehitys."
+      },
+      "inclusive": {
+        "title": "Monikielinen ja inklusiivinen",
+        "description": "Kaikki 33 generaattoria toimivat saumattomasti 11 kielellä, kulttuurisesti sopivalla sisällöllä ja yli 3 000 käsin valitun kuvan kirjastolla."
+      }
+    },
+    "audience": {
+      "title": "Kenelle palvelumme on",
+      "teachers": {
+        "title": "Opettajat",
+        "description": "Luo eriytettyjä työarkkeja luokallesi sekunneissa. Tue monenlaisia oppilaita materiaaleilla heidän äidinkielellään."
+      },
+      "parents": {
+        "title": "Vanhemmat",
+        "description": "Tarjoa lapsellesi innostavia harjoituksia kotona ammattimaisilla työarkkeilla, jotka on räätälöity heidän kiinnostuksiinsa ja tasoonsa."
+      },
+      "therapists": {
+        "title": "Terapeutit ja erityisopettajat",
+        "description": "Luo kohdennettuja materiaaleja puheterapiaan, toimintaterapiaan ja erityisopetukseen — räätälöitynä jokaiselle oppilaalle."
+      }
+    },
+    "cta": {
+      "title": "Valmis aloittamaan?",
+      "subtitle": "Aloita ammattimaisten työarkkien luominen sekunneissa — ilmainen kokeilu.",
+      "button": "Tutustu generaattoreihin"
     }
   }
 }

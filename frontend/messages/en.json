@@ -1055,13 +1055,7 @@
     "pageSubtitle": "View your support tickets or submit a new one",
     "myTickets": "My Tickets",
     "newTicket": "New Ticket",
-    "status": {
-      "open": "OPEN",
-      "in_progress": "IN PROGRESS",
-      "waiting": "WAITING",
-      "resolved": "RESOLVED",
-      "closed": "CLOSED"
-    },
+    "status": "Status",
     "priority": {
       "low": "LOW",
       "medium": "MEDIUM",
@@ -1094,7 +1088,6 @@
     "ticketSubmittedMessage": "Thank you for contacting us. Your support ticket has been received and our team will review it shortly.",
     "ticketId": "Ticket ID",
     "subject": "Subject",
-    "status": "Status",
     "submitted": "Submitted",
     "whatHappensNext": "What happens next?",
     "nextSteps": {
@@ -1158,7 +1151,8 @@
       "title": "Support",
       "helpCenter": "Help Center",
       "contact": "Contact",
-      "faq": "FAQ"
+      "faq": "FAQ",
+      "about": "About Us"
     },
     "legal": {
       "title": "Legal",
@@ -1167,5 +1161,63 @@
       "license": "License Terms"
     },
     "copyright": "© 2024 LessonCraftStudio. All rights reserved."
+  },
+  "about": {
+    "metaTitle": "About LessonCraftStudio | Educational Worksheet Generators",
+    "metaDescription": "Learn about LessonCraftStudio — 33 professional worksheet generators in 11 languages with 3,000+ themed images for teachers, parents, and therapists.",
+    "hero": {
+      "title": "About LessonCraftStudio",
+      "subtitle": "Empowering educators worldwide with professional worksheet generators"
+    },
+    "stats": {
+      "generators": "33",
+      "generatorsLabel": "Worksheet Generators",
+      "languages": "11",
+      "languagesLabel": "Languages",
+      "images": "3,000+",
+      "imagesLabel": "Themed Images",
+      "themes": "100+",
+      "themesLabel": "Themes"
+    },
+    "mission": {
+      "title": "Our Mission",
+      "description": "We believe every child deserves access to high-quality educational materials. LessonCraftStudio was built to help teachers, parents, and therapists create professional worksheets instantly — without design skills, expensive software, or hours of preparation.",
+      "description2": "Our generators combine research-backed pedagogy with beautiful design, making it easy to produce print-ready materials that engage young learners from preschool through 3rd grade."
+    },
+    "methodology": {
+      "title": "Our Approach",
+      "instant": {
+        "title": "Instant Generation",
+        "description": "Select a theme, customize settings, and generate a print-ready worksheet in seconds. No design skills required."
+      },
+      "research": {
+        "title": "Research-Backed",
+        "description": "Every generator is built on proven educational methods for early childhood development, covering math, literacy, motor skills, and cognitive development."
+      },
+      "inclusive": {
+        "title": "Multilingual & Inclusive",
+        "description": "All 33 generators work seamlessly in 11 languages, with culturally appropriate content and a library of 3,000+ hand-curated images."
+      }
+    },
+    "audience": {
+      "title": "Who We Serve",
+      "teachers": {
+        "title": "Teachers",
+        "description": "Create differentiated worksheets for your classroom in seconds. Support diverse learners with materials in their home language."
+      },
+      "parents": {
+        "title": "Parents",
+        "description": "Give your child engaging practice at home with professional-quality worksheets tailored to their interests and skill level."
+      },
+      "therapists": {
+        "title": "Therapists & Special Educators",
+        "description": "Generate targeted materials for speech therapy, occupational therapy, and special education — customized to each student’s needs."
+      }
+    },
+    "cta": {
+      "title": "Ready to Create?",
+      "subtitle": "Start creating professional worksheets in seconds — free to try.",
+      "button": "Explore Generators"
+    }
   }
 }

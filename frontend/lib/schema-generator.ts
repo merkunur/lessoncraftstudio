@@ -1359,3 +1359,93 @@ export function generateAuthorPublisherLinks(baseUrl: string = getBaseUrl()) {
     publisher: baseUrl
   };
 }
+
+/**
+ * Generate About Page Schemas
+ * ProfilePage + enhanced Organization with ContactPoint for E-E-A-T signals
+ */
+export function generateAboutPageSchemas(locale: string, baseUrl: string = getBaseUrl()) {
+  const schemas: any[] = [];
+  const pageUrl = `${baseUrl}/${locale}/about`;
+
+  // Localized "About" breadcrumb labels
+  const aboutLabel: Record<string, string> = {
+    en: "About Us", de: "Über uns", fr: "À propos", es: "Sobre nosotros",
+    pt: "Sobre nós", it: "Chi siamo", nl: "Over ons", sv: "Om oss",
+    da: "Om os", no: "Om oss", fi: "Tietoa meistä"
+  };
+
+  // 1. ProfilePage Schema (Google's recommended type for about pages)
+  const profilePageSchema = {
+    "@context": "https://schema.org",
+    "@type": "ProfilePage",
+    "@id": `${pageUrl}#profilepage`,
+    "url": pageUrl,
+    "name": aboutLabel[locale] || aboutLabel.en,
+    "description": authorSchemaDescriptions[locale] || authorSchemaDescriptions.en,
+    "inLanguage": getHreflangCode(locale),
+    "datePublished": "2024-06-01",
+    "dateModified": "2026-02-12",
+    "isPartOf": {
+      "@type": "WebSite",
+      "@id": `${baseUrl}/#website`,
+      "name": "LessonCraftStudio",
+      "url": baseUrl
+    },
+    "mainEntity": {
+      "@id": `${baseUrl}/#organization`
+    },
+    "breadcrumb": {
+      "@type": "BreadcrumbList",
+      "@id": `${pageUrl}#breadcrumb`,
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": localizedHomeLabel[locale] || "Home",
+          "item": `${baseUrl}/${locale}`
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": aboutLabel[locale] || "About Us"
+        }
+      ]
+    }
+  };
+  schemas.push(profilePageSchema);
+
+  // 2. Enhanced Organization Schema with ContactPoint
+  const orgSchema = {
+    "@context": "https://schema.org",
+    "@type": "EducationalOrganization",
+    "@id": `${baseUrl}/#organization`,
+    "name": "LessonCraftStudio",
+    "url": baseUrl,
+    "logo": {
+      "@type": "ImageObject",
+      "@id": `${baseUrl}/#logo`,
+      "url": `${baseUrl}/logo-lcs.png`,
+      "contentUrl": `${baseUrl}/logo-lcs.png`,
+      "width": 600,
+      "height": 600
+    },
+    "description": authorSchemaDescriptions[locale] || authorSchemaDescriptions.en,
+    "foundingDate": "2024",
+    "areaServed": "Worldwide",
+    "availableLanguage": ["English", "German", "French", "Spanish", "Portuguese", "Italian", "Dutch", "Swedish", "Danish", "Norwegian", "Finnish"],
+    "knowsAbout": authorKnowsAbout[locale] || authorKnowsAbout.en,
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "customer support",
+      "url": `${baseUrl}/${locale}/contact`,
+      "availableLanguage": ["English", "German", "French", "Spanish", "Portuguese", "Italian", "Dutch", "Swedish", "Danish", "Norwegian", "Finnish"]
+    },
+    "sameAs": [
+      "https://www.pinterest.com/lessoncraftstudio"
+    ]
+  };
+  schemas.push(orgSchema);
+
+  return schemas;
+}

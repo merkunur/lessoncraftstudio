@@ -756,7 +756,10 @@
       "upgradePlan": "Upgrade Plan",
       "manageBilling": "Manage Billing",
       "loading": "Loading...",
-      "cancelWarning": "⚠️ Your subscription will end on {date}"
+      "cancelWarning": "⚠️ Your subscription will end on {date}",
+      "lifetimeAccess": "Lifetime Full Access",
+      "lifetimeNoBilling": "Lifetime access — no billing required",
+      "lifetime": "Lifetime"
     },
     "activity": {
       "title": "Your Activity",

@@ -894,7 +894,10 @@
       "upgradePlan": "Changer de formule",
       "manageBilling": "Gérer mes paiements",
       "loading": "Chargement en cours...",
-      "cancelWarning": "⚠️ Votre abonnement prendra fin le {date}"
+      "cancelWarning": "⚠️ Votre abonnement prendra fin le {date}",
+      "lifetimeAccess": "Acc\u00e8s complet \u00e0 vie",
+      "lifetimeNoBilling": "Acc\u00e8s \u00e0 vie — aucune facturation requise",
+      "lifetime": "\u00c0 vie"
     },
     "activity": {
       "title": "Mon activité",

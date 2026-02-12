@@ -888,7 +888,10 @@
       "upgradePlan": "Bytt pakke",
       "manageBilling": "Administrer betalinger",
       "loading": "Laster...",
-      "cancelWarning": "⚠️ Abonnementet ditt utløper {date}"
+      "cancelWarning": "⚠️ Abonnementet ditt utløper {date}",
+      "lifetimeAccess": "Livstids full tilgang",
+      "lifetimeNoBilling": "Livstidstilgang — ingen fakturering",
+      "lifetime": "Livstid"
     },
     "activity": {
       "title": "Din aktivitet",

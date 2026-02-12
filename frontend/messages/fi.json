@@ -881,7 +881,10 @@
       "upgradePlan": "Vaihda pakettia",
       "manageBilling": "Hallinnoi maksuja",
       "loading": "Ladataan...",
-      "cancelWarning": "⚠️ Tilauksesi päättyy {date}"
+      "cancelWarning": "⚠️ Tilauksesi päättyy {date}",
+      "lifetimeAccess": "Elinik\u00e4inen t\u00e4ysi k\u00e4ytt\u00f6oikeus",
+      "lifetimeNoBilling": "Elinik\u00e4inen k\u00e4ytt\u00f6oikeus — ei laskutusta",
+      "lifetime": "Elinik\u00e4inen"
     },
     "activity": {
       "title": "Toimintasi",

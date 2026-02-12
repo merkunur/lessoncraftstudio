@@ -894,7 +894,10 @@
       "upgradePlan": "Cambiar de plan",
       "manageBilling": "Gestionar pagos",
       "loading": "Cargando...",
-      "cancelWarning": "⚠️ Tu suscripción finalizará el {date}"
+      "cancelWarning": "⚠️ Tu suscripción finalizará el {date}",
+      "lifetimeAccess": "Acceso completo de por vida",
+      "lifetimeNoBilling": "Acceso de por vida — sin cobros",
+      "lifetime": "De por vida"
     },
     "activity": {
       "title": "Tu actividad",

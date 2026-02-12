@@ -78,7 +78,7 @@ export async function GET(request: NextRequest) {
           status: stripeStatus.status,
           currentPeriodEnd: stripeStatus.currentPeriodEnd,
           cancelAtPeriodEnd: stripeStatus.cancelAtPeriodEnd,
-          // trialEnd removed - no trials offered
+          isLifetime: subscription.planName.startsWith('lifetime_'),
         });
       } catch (stripeError) {
         console.error('Error fetching from Stripe:', stripeError);
@@ -95,7 +95,7 @@ export async function GET(request: NextRequest) {
       status: subscription.status,
       currentPeriodEnd: subscription.currentPeriodEnd,
       cancelAtPeriodEnd: subscription.cancelAtPeriodEnd,
-      // trialEnd removed - no trials offered
+      isLifetime: subscription.planName.startsWith('lifetime_'),
     });
   } catch (error) {
     console.error('Get subscription error:', error);

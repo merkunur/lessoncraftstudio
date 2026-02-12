@@ -894,7 +894,10 @@
       "upgradePlan": "Cambia piano",
       "manageBilling": "Gestisci pagamenti",
       "loading": "Caricamento in corso...",
-      "cancelWarning": "⚠️ Il tuo abbonamento scadrà il {date}"
+      "cancelWarning": "⚠️ Il tuo abbonamento scadrà il {date}",
+      "lifetimeAccess": "Accesso completo a vita",
+      "lifetimeNoBilling": "Accesso a vita — nessun addebito",
+      "lifetime": "A vita"
     },
     "activity": {
       "title": "La tua attività",

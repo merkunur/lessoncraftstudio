@@ -881,7 +881,10 @@
       "upgradePlan": "Skift pakke",
       "manageBilling": "Administrer betalinger",
       "loading": "Indlæser...",
-      "cancelWarning": "⚠️ Dit abonnement udløber den {date}"
+      "cancelWarning": "⚠️ Dit abonnement udløber den {date}",
+      "lifetimeAccess": "Livstids fuld adgang",
+      "lifetimeNoBilling": "Livstidsadgang — ingen fakturering",
+      "lifetime": "Livstid"
     },
     "activity": {
       "title": "Din aktivitet",

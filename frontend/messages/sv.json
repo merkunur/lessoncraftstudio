@@ -881,7 +881,10 @@
       "upgradePlan": "Byt paket",
       "manageBilling": "Hantera betalningar",
       "loading": "Laddar...",
-      "cancelWarning": "⚠️ Din prenumeration upphör den {date}"
+      "cancelWarning": "⚠️ Din prenumeration upphör den {date}",
+      "lifetimeAccess": "Livstids fullst\u00e4ndig \u00e5tkomst",
+      "lifetimeNoBilling": "Livstids\u00e5tkomst — ingen fakturering",
+      "lifetime": "Livstid"
     },
     "activity": {
       "title": "Din aktivitet",

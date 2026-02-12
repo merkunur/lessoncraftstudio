@@ -894,7 +894,10 @@
       "upgradePlan": "Mudar de plano",
       "manageBilling": "Gerenciar pagamentos",
       "loading": "Carregando...",
-      "cancelWarning": "⚠️ Sua assinatura expira em {date}"
+      "cancelWarning": "⚠️ Sua assinatura expira em {date}",
+      "lifetimeAccess": "Acesso completo vital\u00edcio",
+      "lifetimeNoBilling": "Acesso vital\u00edcio — sem cobran\u00e7as",
+      "lifetime": "Vital\u00edcio"
     },
     "activity": {
       "title": "Sua atividade",

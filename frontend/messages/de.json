@@ -928,7 +928,10 @@
       "upgradePlan": "Paket erweitern",
       "manageBilling": "Rechnungen verwalten",
       "loading": "Wird geladen...",
-      "cancelWarning": "⚠️ Dein Abonnement endet am {date}"
+      "cancelWarning": "⚠️ Dein Abonnement endet am {date}",
+      "lifetimeAccess": "Lebenslanger Vollzugang",
+      "lifetimeNoBilling": "Lebenslanger Zugang — keine Abrechnung erforderlich",
+      "lifetime": "Lebenslang"
     },
     "activity": {
       "title": "Deine Aktivität",

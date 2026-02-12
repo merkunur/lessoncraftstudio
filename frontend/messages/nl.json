@@ -894,7 +894,10 @@
       "upgradePlan": "Pakket wijzigen",
       "manageBilling": "Betalingen beheren",
       "loading": "Bezig met laden...",
-      "cancelWarning": "⚠️ Je abonnement loopt af op {date}"
+      "cancelWarning": "⚠️ Je abonnement loopt af op {date}",
+      "lifetimeAccess": "Levenslange volledige toegang",
+      "lifetimeNoBilling": "Levenslange toegang — geen facturering",
+      "lifetime": "Levenslang"
     },
     "activity": {
       "title": "Jouw activiteit",

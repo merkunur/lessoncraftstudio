@@ -21,18 +21,54 @@ Disallow: /api/
 Allow: /_next/static/
 Disallow: /_next/
 
-# Block AI training crawlers
+# AI assistants — allow public pages, block private areas
 User-agent: GPTBot
-Disallow: /
+Allow: /
+Allow: /samples/
+Disallow: /admin/
+Disallow: /dashboard/
+Disallow: /api/
+Disallow: /auth/
+Allow: /_next/static/
+Disallow: /_next/
+Disallow: /testing/
+Disallow: /uploads/
 
 User-agent: ChatGPT-User
-Disallow: /
+Allow: /
+Allow: /samples/
+Disallow: /admin/
+Disallow: /dashboard/
+Disallow: /api/
+Disallow: /auth/
+Allow: /_next/static/
+Disallow: /_next/
+Disallow: /testing/
+Disallow: /uploads/
 
 User-agent: CCBot
-Disallow: /
+Allow: /
+Allow: /samples/
+Disallow: /admin/
+Disallow: /dashboard/
+Disallow: /api/
+Disallow: /auth/
+Allow: /_next/static/
+Disallow: /_next/
+Disallow: /testing/
+Disallow: /uploads/
 
 User-agent: Google-Extended
-Disallow: /
+Allow: /
+Allow: /samples/
+Disallow: /admin/
+Disallow: /dashboard/
+Disallow: /api/
+Disallow: /auth/
+Allow: /_next/static/
+Disallow: /_next/
+Disallow: /testing/
+Disallow: /uploads/
 
 # Bingbot rate limiting
 User-agent: Bingbot

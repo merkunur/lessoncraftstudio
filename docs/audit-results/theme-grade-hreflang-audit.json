@@ -1,0 +1,33 @@
+{
+  "timestamp": "2026-02-14T19:51:08.953Z",
+  "summary": {
+    "totalThemes": 50,
+    "totalGrades": 5,
+    "totalLocales": 11,
+    "totalCombos": 250,
+    "passingCombos": 250,
+    "failingCombos": 0,
+    "totalIssues": 0
+  },
+  "checks": {
+    "slugCompleteness": {
+      "issues": 0
+    },
+    "reverseLookup": {
+      "issues": 0
+    },
+    "gradeSlugCollisions": {
+      "issues": 0
+    },
+    "hreflangCompleteness": {
+      "issues": 0
+    },
+    "selfReferencing": {
+      "issues": 0
+    },
+    "reciprocal": {
+      "issues": 0
+    }
+  },
+  "issues": []
+}

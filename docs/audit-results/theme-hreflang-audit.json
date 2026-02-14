@@ -1,0 +1,34 @@
+{
+  "audit": "theme-hreflang",
+  "timestamp": "2026-02-14T19:47:42.053Z",
+  "totalPages": 550,
+  "passCount": 550,
+  "totalIssues": 0,
+  "checks": {
+    "slugCompleteness": {
+      "pass": true,
+      "gaps": 0
+    },
+    "reverseLookup": {
+      "pass": true,
+      "failures": 0
+    },
+    "collisions": {
+      "pass": true,
+      "count": 0
+    },
+    "hreflangConsistency": {
+      "pass": true,
+      "incomplete": 0
+    },
+    "selfReferencing": {
+      "pass": true,
+      "missing": 0
+    },
+    "reciprocal": {
+      "pass": true,
+      "asymmetric": 0
+    }
+  },
+  "issues": []
+}

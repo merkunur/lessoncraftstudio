@@ -1,0 +1,94 @@
+{
+  "generatedAt": "2026-02-14T17:51:58.913Z",
+  "summary": {
+    "totalPosts": 112,
+    "totalLocaleSlots": 1232,
+    "issues": {
+      "MISSING": 0,
+      "ENGLISH_FALLBACK": 0,
+      "WRONG_LANGUAGE": 0,
+      "DUPLICATE": 0
+    },
+    "totalIssues": 0,
+    "perLocale": {
+      "en": {
+        "ok": 112,
+        "MISSING": 0,
+        "ENGLISH_FALLBACK": 0,
+        "WRONG_LANGUAGE": 0,
+        "DUPLICATE": 0
+      },
+      "de": {
+        "ok": 112,
+        "MISSING": 0,
+        "ENGLISH_FALLBACK": 0,
+        "WRONG_LANGUAGE": 0,
+        "DUPLICATE": 0
+      },
+      "fr": {
+        "ok": 112,
+        "MISSING": 0,
+        "ENGLISH_FALLBACK": 0,
+        "WRONG_LANGUAGE": 0,
+        "DUPLICATE": 0
+      },
+      "es": {
+        "ok": 112,
+        "MISSING": 0,
+        "ENGLISH_FALLBACK": 0,
+        "WRONG_LANGUAGE": 0,
+        "DUPLICATE": 0
+      },
+      "pt": {
+        "ok": 112,
+        "MISSING": 0,
+        "ENGLISH_FALLBACK": 0,
+        "WRONG_LANGUAGE": 0,
+        "DUPLICATE": 0
+      },
+      "it": {
+        "ok": 112,
+        "MISSING": 0,
+        "ENGLISH_FALLBACK": 0,
+        "WRONG_LANGUAGE": 0,
+        "DUPLICATE": 0
+      },
+      "nl": {
+        "ok": 112,
+        "MISSING": 0,
+        "ENGLISH_FALLBACK": 0,
+        "WRONG_LANGUAGE": 0,
+        "DUPLICATE": 0
+      },
+      "da": {
+        "ok": 112,
+        "MISSING": 0,
+        "ENGLISH_FALLBACK": 0,
+        "WRONG_LANGUAGE": 0,
+        "DUPLICATE": 0
+      },
+      "sv": {
+        "ok": 112,
+        "MISSING": 0,
+        "ENGLISH_FALLBACK": 0,
+        "WRONG_LANGUAGE": 0,
+        "DUPLICATE": 0
+      },
+      "no": {
+        "ok": 112,
+        "MISSING": 0,
+        "ENGLISH_FALLBACK": 0,
+        "WRONG_LANGUAGE": 0,
+        "DUPLICATE": 0
+      },
+      "fi": {
+        "ok": 112,
+        "MISSING": 0,
+        "ENGLISH_FALLBACK": 0,
+        "WRONG_LANGUAGE": 0,
+        "DUPLICATE": 0
+      }
+    }
+  },
+  "issues": []
+}

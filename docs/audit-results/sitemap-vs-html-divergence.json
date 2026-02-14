@@ -1,0 +1,4650 @@
+{
+  "generatedAt": "2026-02-14T18:26:01.229Z",
+  "config": {
+    "totalSitemapUrls": 6820,
+    "sampledUrls": 98,
+    "sampleTargets": {
+      "blog": 40,
+      "product": 25,
+      "theme": 25,
+      "other": 10
+    }
+  },
+  "sitemapStats": {
+    "bySection": {
+      "0": 110,
+      "1": 363,
+      "2": 143,
+      "3": 550,
+      "4": 2750,
+      "5": 77,
+      "6": 1232,
+      "7": 1595
+    },
+    "byType": {
+      "static": 550,
+      "product": 363,
+      "category": 143,
+      "theme": 550,
+      "theme-grade": 2750,
+      "blog": 2464
+    },
+    "totalUrls": 6820,
+    "urlsWithHreflang": 5225
+  },
+  "summary": {
+    "totalCompared": 98,
+    "pagesWithDivergence": 46,
+    "divergencesByCheck": {
+      "COUNT_MISMATCH": 46,
+      "HTML_ONLY": 552
+    },
+    "divergencesByPageType": {
+      "blog": 44,
+      "static": 2
+    }
+  },
+  "divergences": [
+    {
+      "url": "https://www.lessoncraftstudio.com/en/blog/peer-tutoring-student-teaching-leveraging-worksheets-for-student-led-learning",
+      "type": "blog",
+      "sitemapId": 7,
+      "sitemapHreflangCount": 0,
+      "htmlHreflangCount": 12,
+      "issues": [
+        {
+          "check": "COUNT_MISMATCH",
+          "severity": "MEDIUM",
+          "sitemapCount": 0,
+          "htmlCount": 12,
+          "detail": "Sitemap has 0 hreflangs, HTML has 12"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "en",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/en/blog/peer-tutoring-student-teaching-leveraging-worksheets-for-student-led-learning"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "de",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/de/blog/schueler-helfen-schuelern-arbeitsblatt-basierte-lernpartnerschaften-in-der-grundschule"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "fr",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/fr/blog/tutorat-entre-pairs-exploiter-les-fiches-pedagogiques-pour-lapprentissage-collaboratif"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "es",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/es/blog/tutoria-entre-pares-cuando-ensenar-es-la-mejor-forma-de-aprender"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "it",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/it/blog/tutoraggio-tra-pari-e-insegnamento-reciproco-schede-didattiche-per-lapprendimento-collaborativo"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "pt-BR",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/pt/blog/tutoria-entre-alunos-e-aprendizagem-colaborativa-como-usar-fichas-de-trabalho-para-ensino-entre-pares"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "nl",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/nl/blog/maatjesleren-en-peer-tutoring-werkbladen-inzetten-voor-leerling-gestuurde-instructie"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "sv",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/sv/blog/kamrathandledning-i-klassrummet-saa-faar-du-elever-att-laera-genom-att-undervisa"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "da",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/da/blog/kammeratundervisning-og-elevvejledning-opgaveark-som-fundament-for-elevstyret-laering"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "no",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/no/blog/hverandrelaering-og-elevveiledning-bruk-arbeidsark-til-elevdrevet-laering"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "fi",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/fi/blog/vertaisopetus-ja-oppilaat-opettajina-tehtaevaepohjaiset-menetelmaet-oppilaslaehtoeiseen-oppimiseen"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "x-default",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/en/blog/peer-tutoring-student-teaching-leveraging-worksheets-for-student-led-learning"
+        }
+      ]
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/blog/33-editable-worksheet-generators-every-elementary-teacher-needs",
+      "type": "blog",
+      "sitemapId": 7,
+      "sitemapHreflangCount": 0,
+      "htmlHreflangCount": 12,
+      "issues": [
+        {
+          "check": "COUNT_MISMATCH",
+          "severity": "MEDIUM",
+          "sitemapCount": 0,
+          "htmlCount": 12,
+          "detail": "Sitemap has 0 hreflangs, HTML has 12"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "en",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/en/blog/33-editable-worksheet-generators-every-elementary-teacher-needs"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "de",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/de/blog/33-editierbare-arbeitsblatt-generatoren-fuer-die-grundschule"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "fr",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/fr/blog/33-generateurs-de-fiches-pedagogiques-modifiables-pour-enseignants"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "es",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/es/blog/33-generadores-de-fichas-educativas-editables-que-todo-maestro-de-primaria-necesita"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "it",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/it/blog/33-generatori-di-schede-didattiche-modificabili-per-la-scuola-primaria"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "pt-BR",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/pt/blog/33-geradores-de-atividades-editaveis-para-professores-do-ensino-fundamental"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "nl",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/nl/blog/33-bewerkbare-werkbladen-generatoren-voor-iedere-basisschoolleerkracht"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "sv",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/sv/blog/33-redigerbara-arbetsbladsgeneratorer-foer-laerare-i-grundskolan"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "da",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/da/blog/33-redigerbare-arbejdsark-generatorer-alle-laerere-boer-kende"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "no",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/no/blog/33-redigerbare-oppgavegeneratorer-alle-barneskolelaerere-trenger"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "fi",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/fi/blog/33-muokattavaa-tehtaevaekirjageneraattoria-alakoulun-opettajalle"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "x-default",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/en/blog/33-editable-worksheet-generators-every-elementary-teacher-needs"
+        }
+      ]
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/blog/substitute-teacher-emergency-plans-ready-made-worksheet-lesson-plans",
+      "type": "blog",
+      "sitemapId": 7,
+      "sitemapHreflangCount": 0,
+      "htmlHreflangCount": 12,
+      "issues": [
+        {
+          "check": "COUNT_MISMATCH",
+          "severity": "MEDIUM",
+          "sitemapCount": 0,
+          "htmlCount": 12,
+          "detail": "Sitemap has 0 hreflangs, HTML has 12"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "en",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/en/blog/substitute-teacher-emergency-plans-ready-made-worksheet-lesson-plans"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "de",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/de/blog/vertretungsunterricht-professionell-vorbereiten-fertige-arbeitsblatt-stundenentwuerfe-fuer-notfaelle"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "fr",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/fr/blog/enseignant-remplacant-plans-durgence-fiches-dexercices-pretes-a-lemploi"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "es",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/es/blog/planes-de-emergencia-para-profesores-fichas-de-trabajo-listas-para-el-sustituto"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "it",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/it/blog/supplenze-scolastiche-come-preparare-piani-di-emergenza-con-schede-didattiche-pronte"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "pt-BR",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/pt/blog/planos-de-emergencia-para-professor-substituto-fichas-prontas-para-qualquer-situacao"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "nl",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/nl/blog/invaller-noodplannen-werkbladen-en-lesmateriaal-altijd-klaar"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "sv",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/sv/blog/vikarieplaner-akutlektioner-faerdiga-arbetsblad-som-raeddar-dagen"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "da",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/da/blog/vikarlaerer-og-noedplaner-faerdige-arbejdsark-lektioner"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "no",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/no/blog/vikarlaerer-beredskap-ferdiglagde-oppgaveplaner-som-alltid-fungerer"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "fi",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/fi/blog/sijaisopettajan-haetaesuunnitelmat-valmiit-tehtaevaemonisteet-kouluun"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "x-default",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/en/blog/substitute-teacher-emergency-plans-ready-made-worksheet-lesson-plans"
+        }
+      ]
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/blog/visual-learning-tools-for-special-education-classrooms-8-research-backed-generators",
+      "type": "blog",
+      "sitemapId": 7,
+      "sitemapHreflangCount": 0,
+      "htmlHreflangCount": 12,
+      "issues": [
+        {
+          "check": "COUNT_MISMATCH",
+          "severity": "MEDIUM",
+          "sitemapCount": 0,
+          "htmlCount": 12,
+          "detail": "Sitemap has 0 hreflangs, HTML has 12"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "en",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/en/blog/visual-learning-tools-for-special-education-classrooms-8-research-backed-generators"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "de",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/de/blog/visuelle-lernwerkzeuge-fuer-foerderschule-und-sonderpaedagogik"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "fr",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/fr/blog/8-outils-dapprentissage-visuel-pour-leducation-specialisee-ulis-segpa-ime"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "es",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/es/blog/herramientas-de-aprendizaje-visual-para-educacion-especial-8-generadores-respaldados-por-investigacion"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "it",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/it/blog/strumenti-di-apprendimento-visivo-per-bes-e-sostegno-8-generatori-validati-dalla-ricerca"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "pt-BR",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/pt/blog/ferramentas-de-aprendizagem-visual-para-educacao-especial-8-geradores-validados-pela-investigacao"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "nl",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/nl/blog/visuele-leermiddelen-voor-het-speciaal-onderwijs"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "sv",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/sv/blog/visuella-laeromedel-foer-specialpedagogik-8-forskningsbaserade-generatorer"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "da",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/da/blog/visuelle-laeringsvaerktoejer-til-specialundervisningen"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "no",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/no/blog/visuelle-laeringsverktoey-for-spesialundervisning-8-forskningsbaserte-generatorer"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "fi",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/fi/blog/visuaaliset-oppimistyoekalut-erityisopetukseen-8-tutkimuspohjaista-generaattoria"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "x-default",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/en/blog/visual-learning-tools-for-special-education-classrooms-8-research-backed-generators"
+        }
+      ]
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/blog/rueckwaertsplanung-lehrplangestaltung-unterricht-vom-lernziel-her-denken",
+      "type": "blog",
+      "sitemapId": 7,
+      "sitemapHreflangCount": 0,
+      "htmlHreflangCount": 12,
+      "issues": [
+        {
+          "check": "COUNT_MISMATCH",
+          "severity": "MEDIUM",
+          "sitemapCount": 0,
+          "htmlCount": 12,
+          "detail": "Sitemap has 0 hreflangs, HTML has 12"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "en",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/en/blog/backward-design-curriculum-mapping-planning-with-end-goals-in-mind"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "de",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/de/blog/rueckwaertsplanung-lehrplangestaltung-unterricht-vom-lernziel-her-denken"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "fr",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/fr/blog/planification-a-rebours-concevoir-ses-sequences-en-partant-des-objectifs-finaux"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "es",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/es/blog/diseno-inverso-y-mapeo-curricular-planificar-desde-los-resultados-de-aprendizaje"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "it",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/it/blog/progettazione-a-ritroso-e-programmazione-didattica-pianificare-partendo-dai-risultati"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "pt-BR",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/pt/blog/planejamento-reverso-e-mapeamento-curricular-como-organizar-o-ensino-com-foco-nos-resultados"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "nl",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/nl/blog/achterwaartse-planning-curriculum-mapping-effectief-lesvoorbereiden-met-het-einddoel-voorop"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "sv",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/sv/blog/bakaatdesign-aarsplanering-planera-med-slutmaalen-i-fokus"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "da",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/da/blog/baglaens-design-og-pensum-planlaegning-planlaeg-med-slutmaalet-for-oeje"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "no",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/no/blog/baklengs-planlegging-i-skolen-start-med-sluttkompetansen"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "fi",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/fi/blog/tavoitelaehtoeinen-opetuksen-suunnittelu-kun-loppupaeaestae-aloitetaan"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "x-default",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/en/blog/backward-design-curriculum-mapping-planning-with-end-goals-in-mind"
+        }
+      ]
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/blog/arbeitsblatt-generatoren-beherrschen-die-vollstaendige-anleitung-von-der-einrichtung-bis-zum-druck",
+      "type": "blog",
+      "sitemapId": 7,
+      "sitemapHreflangCount": 0,
+      "htmlHreflangCount": 12,
+      "issues": [
+        {
+          "check": "COUNT_MISMATCH",
+          "severity": "MEDIUM",
+          "sitemapCount": 0,
+          "htmlCount": 12,
+          "detail": "Sitemap has 0 hreflangs, HTML has 12"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "en",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/en/blog/complete-how-to-guide-mastering-worksheet-generators-from-setup-to-print"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "de",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/de/blog/arbeitsblatt-generatoren-beherrschen-die-vollstaendige-anleitung-von-der-einrichtung-bis-zum-druck"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "fr",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/fr/blog/guide-complet-maitriser-les-generateurs-de-fiches-pedagogiques-de-a-a-z"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "es",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/es/blog/guia-completa-domina-los-generadores-de-fichas-desde-la-configuracion-hasta-la-impresion"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "it",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/it/blog/guida-completa-ai-generatori-di-schede-didattiche-dalla-configurazione-alla-stampa"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "pt-BR",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/pt/blog/guia-completo-como-dominar-os-geradores-de-fichas-do-inicio-a-impressao"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "nl",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/nl/blog/volledige-handleiding-werkblad-generators-beheersen-van-begin-tot-print"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "sv",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/sv/blog/komplett-handledning-bemaestra-arbetsbladsgeneratorer-fraan-uppsaettning-till-utskrift"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "da",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/da/blog/komplet-guide-til-opgavegeneratorer-fra-opsaetning-til-faerdigt-arbejdsark"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "no",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/no/blog/komplett-guide-til-oppgavegeneratorer-fra-oppsett-til-ferdig-utskrift"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "fi",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/fi/blog/tehtaevaegeneraattorit-haltuun-kattava-opas-aloituksesta-tulostukseen"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "x-default",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/en/blog/complete-how-to-guide-mastering-worksheet-generators-from-setup-to-print"
+        }
+      ]
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/blog/eindeutige-loesbarkeit-bei-mathe-raetseln-der-algorithmus-gegen-frustrierende-algebra-arbeitsblaetter",
+      "type": "blog",
+      "sitemapId": 7,
+      "sitemapHreflangCount": 0,
+      "htmlHreflangCount": 12,
+      "issues": [
+        {
+          "check": "COUNT_MISMATCH",
+          "severity": "MEDIUM",
+          "sitemapCount": 0,
+          "htmlCount": 12,
+          "detail": "Sitemap has 0 hreflangs, HTML has 12"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "en",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/en/blog/unique-solvability-validation-the-math-behind-frustration-free-algebra-worksheets"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "de",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/de/blog/eindeutige-loesbarkeit-bei-mathe-raetseln-der-algorithmus-gegen-frustrierende-algebra-arbeitsblaetter"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "fr",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/fr/blog/validation-dunicite-de-solution-lalgorithme-qui-elimine-la-frustration-dans-les-puzzles-mathematiques"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "es",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/es/blog/validacion-de-solucion-unica-la-matematica-detras-de-las-fichas-de-algebra-sin-frustraciones"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "it",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/it/blog/validazione-dellunivocita-della-soluzione-la-matematica-dietro-i-puzzle-algebrici-senza-frustrazioni"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "pt-BR",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/pt/blog/validacao-de-resolubilidade-a-matematica-por-tras-de-fichas-de-algebra-sem-frustracao"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "nl",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/nl/blog/hoe-onoplosbare-wiskundepuzzels-leerlingen-frustreren"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "sv",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/sv/blog/saa-skapar-du-matematikpussel-som-alltid-gaar-att-loesa"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "da",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/da/blog/garanteret-loesbare-matematikopgaver-algoritmen-der-eliminerer-frustration"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "no",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/no/blog/validering-av-unik-loesbarhet-matematikken-bak-frustrasjonsfrye-algebraoppgaver"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "fi",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/fi/blog/yksikaesitteinen-ratkeavuus-algoritmi-joka-estaeae-turhautumisen-symbolisessa-algebrassa"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "x-default",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/en/blog/unique-solvability-validation-the-math-behind-frustration-free-algebra-worksheets"
+        }
+      ]
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/blog/symbolische-algebra-fuer-grundschueler",
+      "type": "blog",
+      "sitemapId": 7,
+      "sitemapHreflangCount": 0,
+      "htmlHreflangCount": 12,
+      "issues": [
+        {
+          "check": "COUNT_MISMATCH",
+          "severity": "MEDIUM",
+          "sitemapCount": 0,
+          "htmlCount": 12,
+          "detail": "Sitemap has 0 hreflangs, HTML has 12"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "en",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/en/blog/symbolic-algebra-worksheets"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "de",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/de/blog/symbolische-algebra-fuer-grundschueler"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "fr",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/fr/blog/fiches-dalgebre-symbolique-puzzles-mathematiques-avec-garantie-de-solution-unique"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "es",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/es/blog/fichas-de-algebra-simbolica-ejercicios-garantizados-con-algoritmo-de-validacion-unica"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "it",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/it/blog/algebra-visiva-per-la-scuola-primaria-esercizi-sempre-risolvibili-con-validazione-automatica"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "pt-BR",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/pt/blog/fichas-de-algebra-visual-puzzles-com-solucao-unica-garantida-atraves-de-algoritmo-de-validacao"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "nl",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/nl/blog/rekenraadsels-met-symbolen-gegarandeerd-oplosbare-puzzels-voor-groep-3-tm-8"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "sv",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/sv/blog/matematikpussel-med-bilder"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "da",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/da/blog/symbolsk-algebra-til-boern-garanteret-loesbare-matematik-gaader-med-unik-validerings-algoritme"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "no",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/no/blog/mattegaater-med-symboler-garantert-loesbare-oppgaver-med-unik-valideringsalgoritme"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "fi",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/fi/blog/symbolinen-algebra-lapsille-matemaattiset-pulmat-taatulla-ratkeavuudella"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "x-default",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/en/blog/symbolic-algebra-worksheets"
+        }
+      ]
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/blog/formation-continue-des-enseignants-les-generateurs-de-fiches-comme-outil-de-developpement-professionnel",
+      "type": "blog",
+      "sitemapId": 7,
+      "sitemapHreflangCount": 0,
+      "htmlHreflangCount": 12,
+      "issues": [
+        {
+          "check": "COUNT_MISMATCH",
+          "severity": "MEDIUM",
+          "sitemapCount": 0,
+          "htmlCount": 12,
+          "detail": "Sitemap has 0 hreflangs, HTML has 12"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "en",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/en/blog/professional-development-teacher-training-using-worksheets-for-pd-practice"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "de",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/de/blog/lehrerfortbildung-neu-gedacht-arbeitsblaetter-als-werkzeug-fuer-professionelle-weiterentwicklung"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "fr",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/fr/blog/formation-continue-des-enseignants-les-generateurs-de-fiches-comme-outil-de-developpement-professionnel"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "es",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/es/blog/desarrollo-profesional-docente-estrategias-de-formacion-con-fichas-educativas"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "it",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/it/blog/formazione-professionale-docenti-strumenti-didattici-per-laggiornamento-continuo"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "pt-BR",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/pt/blog/formacao-continua-de-professores-estrategias-praticas-com-fichas-de-trabalho"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "nl",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/nl/blog/professionele-ontwikkeling-voor-leraren-nascholing-met-werkbladen-als-praktijkgereedschap"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "sv",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/sv/blog/kompetensutveckling-foer-laerare-praktisk-laerarfortbildning-med-digitala-verktyg"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "da",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/da/blog/efteruddannelse-kompetenceudvikling-for-laerere-praktisk-traening-med-opgaveark"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "no",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/no/blog/laererutvikling-og-pedagogisk-opplaering-bruk-arbeidsarkgeneratorer-i-profesjonell-utvikling"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "fi",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/fi/blog/opettajan-taeydennyskoulutus-kaeytaennoessae-tyoetaulukoiden-hyoedyntaeminen-ammatillisessa-kehittymisessae"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "x-default",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/en/blog/professional-development-teacher-training-using-worksheets-for-pd-practice"
+        }
+      ]
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/blog/planification-a-rebours-concevoir-ses-sequences-en-partant-des-objectifs-finaux",
+      "type": "blog",
+      "sitemapId": 7,
+      "sitemapHreflangCount": 0,
+      "htmlHreflangCount": 12,
+      "issues": [
+        {
+          "check": "COUNT_MISMATCH",
+          "severity": "MEDIUM",
+          "sitemapCount": 0,
+          "htmlCount": 12,
+          "detail": "Sitemap has 0 hreflangs, HTML has 12"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "en",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/en/blog/backward-design-curriculum-mapping-planning-with-end-goals-in-mind"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "de",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/de/blog/rueckwaertsplanung-lehrplangestaltung-unterricht-vom-lernziel-her-denken"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "fr",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/fr/blog/planification-a-rebours-concevoir-ses-sequences-en-partant-des-objectifs-finaux"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "es",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/es/blog/diseno-inverso-y-mapeo-curricular-planificar-desde-los-resultados-de-aprendizaje"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "it",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/it/blog/progettazione-a-ritroso-e-programmazione-didattica-pianificare-partendo-dai-risultati"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "pt-BR",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/pt/blog/planejamento-reverso-e-mapeamento-curricular-como-organizar-o-ensino-com-foco-nos-resultados"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "nl",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/nl/blog/achterwaartse-planning-curriculum-mapping-effectief-lesvoorbereiden-met-het-einddoel-voorop"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "sv",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/sv/blog/bakaatdesign-aarsplanering-planera-med-slutmaalen-i-fokus"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "da",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/da/blog/baglaens-design-og-pensum-planlaegning-planlaeg-med-slutmaalet-for-oeje"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "no",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/no/blog/baklengs-planlegging-i-skolen-start-med-sluttkompetansen"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "fi",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/fi/blog/tavoitelaehtoeinen-opetuksen-suunnittelu-kun-loppupaeaestae-aloitetaan"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "x-default",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/en/blog/backward-design-curriculum-mapping-planning-with-end-goals-in-mind"
+        }
+      ]
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/blog/fiches-pedagogiques-adaptees-a-la-dyslexie-7-generateurs-avec-soutien-phonologique",
+      "type": "blog",
+      "sitemapId": 7,
+      "sitemapHreflangCount": 0,
+      "htmlHreflangCount": 12,
+      "issues": [
+        {
+          "check": "COUNT_MISMATCH",
+          "severity": "MEDIUM",
+          "sitemapCount": 0,
+          "htmlCount": 12,
+          "detail": "Sitemap has 0 hreflangs, HTML has 12"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "en",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/en/blog/dyslexia-friendly-worksheet-strategies-7-generators-with-phonics-support"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "de",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/de/blog/arbeitsblaetter-fuer-legastheniker-7-generatoren-mit-phonologischer-foerderung"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "fr",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/fr/blog/fiches-pedagogiques-adaptees-a-la-dyslexie-7-generateurs-avec-soutien-phonologique"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "es",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/es/blog/fichas-para-dislexia-7-generadores-con-apoyo-fonico-y-visual"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "it",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/it/blog/schede-didattiche-per-dislessia-7-generatori-con-supporto-fonologico"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "pt-BR",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/pt/blog/estrategias-de-fichas-de-trabalho-para-dislexia-7-geradores-com-apoio-a-consciencia-fonologica"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "nl",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/nl/blog/dyslexie-vriendelijke-werkbladen-7-generators-met-fonologie-ondersteuning"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "sv",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/sv/blog/arbetsblad-foer-barn-med-dyslexi-7-verktyg-med-fonetiskt-stoed"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "da",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/da/blog/arbejdsark-til-ordblinde-elever-7-generatorer-med-fonetisk-stoette"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "no",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/no/blog/dysleksivennlige-oppgaver-7-verktoey-med-bildestoette-og-fonologisk-trening"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "fi",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/fi/blog/lukivaikeuden-tukeminen-7-kuvapohjaista-tehtaevaetyoekalua-fonologisen-tietoisuuden-kehittaemiseen"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "x-default",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/en/blog/dyslexia-friendly-worksheet-strategies-7-generators-with-phonics-support"
+        }
+      ]
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/blog/validation-dunicite-de-solution-lalgorithme-qui-elimine-la-frustration-dans-les-puzzles-mathematiques",
+      "type": "blog",
+      "sitemapId": 7,
+      "sitemapHreflangCount": 0,
+      "htmlHreflangCount": 12,
+      "issues": [
+        {
+          "check": "COUNT_MISMATCH",
+          "severity": "MEDIUM",
+          "sitemapCount": 0,
+          "htmlCount": 12,
+          "detail": "Sitemap has 0 hreflangs, HTML has 12"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "en",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/en/blog/unique-solvability-validation-the-math-behind-frustration-free-algebra-worksheets"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "de",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/de/blog/eindeutige-loesbarkeit-bei-mathe-raetseln-der-algorithmus-gegen-frustrierende-algebra-arbeitsblaetter"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "fr",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/fr/blog/validation-dunicite-de-solution-lalgorithme-qui-elimine-la-frustration-dans-les-puzzles-mathematiques"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "es",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/es/blog/validacion-de-solucion-unica-la-matematica-detras-de-las-fichas-de-algebra-sin-frustraciones"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "it",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/it/blog/validazione-dellunivocita-della-soluzione-la-matematica-dietro-i-puzzle-algebrici-senza-frustrazioni"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "pt-BR",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/pt/blog/validacao-de-resolubilidade-a-matematica-por-tras-de-fichas-de-algebra-sem-frustracao"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "nl",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/nl/blog/hoe-onoplosbare-wiskundepuzzels-leerlingen-frustreren"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "sv",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/sv/blog/saa-skapar-du-matematikpussel-som-alltid-gaar-att-loesa"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "da",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/da/blog/garanteret-loesbare-matematikopgaver-algoritmen-der-eliminerer-frustration"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "no",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/no/blog/validering-av-unik-loesbarhet-matematikken-bak-frustrasjonsfrye-algebraoppgaver"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "fi",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/fi/blog/yksikaesitteinen-ratkeavuus-algoritmi-joka-estaeae-turhautumisen-symbolisessa-algebrassa"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "x-default",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/en/blog/unique-solvability-validation-the-math-behind-frustration-free-algebra-worksheets"
+        }
+      ]
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/blog/primera-semana-de-clases-como-establecer-rutinas-y-expectativas-con-fichas-de-trabajo",
+      "type": "blog",
+      "sitemapId": 7,
+      "sitemapHreflangCount": 0,
+      "htmlHreflangCount": 12,
+      "issues": [
+        {
+          "check": "COUNT_MISMATCH",
+          "severity": "MEDIUM",
+          "sitemapCount": 0,
+          "htmlCount": 12,
+          "detail": "Sitemap has 0 hreflangs, HTML has 12"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "en",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/en/blog/first-week-of-school-getting-started-with-routines-expectations-using-worksheets"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "de",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/de/blog/die-erste-schulwoche-routinen-etablieren-und-erwartungen-klaeren-mit-arbeitsblaettern"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "fr",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/fr/blog/la-premiere-semaine-de-classe-instaurer-les-routines-et-poser-les-bases-avec-des-fiches-pedagogiques"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "es",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/es/blog/primera-semana-de-clases-como-establecer-rutinas-y-expectativas-con-fichas-de-trabajo"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "it",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/it/blog/la-prima-settimana-di-scuola-costruire-routine-e-aspettative-con-schede-didattiche-efficaci"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "pt-BR",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/pt/blog/primeira-semana-de-aulas-como-estabelecer-rotinas-e-expectativas-com-fichas-de-trabalho"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "nl",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/nl/blog/de-eerste-schoolweek-routines-opzetten-en-verwachtingen-scheppen-met-werkbladen"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "sv",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/sv/blog/foersta-veckan-i-skolan-komma-igaang-med-rutiner-och-foervaentningar-med-hjaelp-av-arbetsblad"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "da",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/da/blog/den-foerste-skoleuge-saadan-skaber-du-gode-rutiner-og-klare-forventninger-med-opgaveark"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "no",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/no/blog/foerste-skoleuke-etablere-rutiner-og-forventninger-med-strukturerte-arbeidsark"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "fi",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/fi/blog/koulun-ensimmaeinen-viikko-rutiinien-ja-odotusten-rakentaminen-tehtaevaemonisteiden-avulla"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "x-default",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/en/blog/first-week-of-school-getting-started-with-routines-expectations-using-worksheets"
+        }
+      ]
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/blog/derechos-de-autor-en-educacion-uso-legal-de-materiales-didacticos-para-docentes",
+      "type": "blog",
+      "sitemapId": 7,
+      "sitemapHreflangCount": 0,
+      "htmlHreflangCount": 12,
+      "issues": [
+        {
+          "check": "COUNT_MISMATCH",
+          "severity": "MEDIUM",
+          "sitemapCount": 0,
+          "htmlCount": 12,
+          "detail": "Sitemap has 0 hreflangs, HTML has 12"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "en",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/en/blog/copyright-compliance-legal-use-of-educational-materials-and-worksheets"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "de",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/de/blog/urheberrecht-im-unterricht-rechtssichere-nutzung-von-arbeitsblaettern-und-lehrmaterialien"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "fr",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/fr/blog/droit-dauteur-et-conformite-utilisation-legale-des-ressources-pedagogiques"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "es",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/es/blog/derechos-de-autor-en-educacion-uso-legal-de-materiales-didacticos-para-docentes"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "it",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/it/blog/diritto-dautore-e-materiali-didattici-guida-legale-per-insegnanti"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "pt-BR",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/pt/blog/direitos-autorais-e-conformidade-legal-uso-correto-de-materiais-educativos-e-fichas-de-trabalho"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "nl",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/nl/blog/auteursrecht-en-compliance-verantwoord-gebruik-van-onderwijsmateriaal-en-werkbladen"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "sv",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/sv/blog/upphovsraett-foer-laerare-juridisk-guide-foer-laglig-anvaendning-av-undervisningsmaterial"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "da",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/da/blog/ophavsret-i-undervisningen-lovlig-brug-af-arbejdsark-og-undervisningsmaterialer"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "no",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/no/blog/opphavsrett-og-undervisningsmateriell-lovlig-bruk-for-laerere"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "fi",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/fi/blog/tekijaenoikeudet-ja-opetusmateriaalit-opettajan-kaeytaennoen-opas"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "x-default",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/en/blog/copyright-compliance-legal-use-of-educational-materials-and-worksheets"
+        }
+      ]
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/blog/7-generadores-de-fichas-visuales-para-ensenar-ingles-a-principiantes-11-idiomas-de-interfaz",
+      "type": "blog",
+      "sitemapId": 7,
+      "sitemapHreflangCount": 0,
+      "htmlHreflangCount": 12,
+      "issues": [
+        {
+          "check": "COUNT_MISMATCH",
+          "severity": "MEDIUM",
+          "sitemapCount": 0,
+          "htmlCount": 12,
+          "detail": "Sitemap has 0 hreflangs, HTML has 12"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "en",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/en/blog/7-picture-based-worksheet-generators-for-esl-beginners-11-languages-supported"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "de",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/de/blog/7-bildbasierte-arbeitsblatt-generatoren-fuer-esl-anfaenger-11-sprachen"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "fr",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/fr/blog/7-generateurs-de-fiches-illustrees-pour-debutants-en-langues-support-de-11-langues"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "es",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/es/blog/7-generadores-de-fichas-visuales-para-ensenar-ingles-a-principiantes-11-idiomas-de-interfaz"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "it",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/it/blog/7-generatori-di-schede-didattiche-illustrate-per-insegnare-inglese-ai-principianti"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "pt-BR",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/pt/blog/7-geradores-de-fichas-com-imagens-para-ensino-de-linguas-suporte-em-11-idiomas"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "nl",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/nl/blog/7-visuele-werkblad-generatoren-voor-taallessen-aan-beginners-11-talen-ondersteund"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "sv",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/sv/blog/7-bildbaserade-arbetsbladsgeneratorer-foer-nyboerjare-i-engelska-11-spraak"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "da",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/da/blog/7-billedbaserede-opgavegeneratorer-til-begyndere-i-sprogtilegnelse-understoetter-11-sprog"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "no",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/no/blog/7-bildbaserte-oppgavegeneratorer-for-spraaklaering-paa-nybegynnernivaa-11-spraak"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "fi",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/fi/blog/7-kuvapohjaista-tehtaevaegeneraattoria-kieltenopetuksen-aloittelijoille-11-kieltae-tuettuna"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "x-default",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/en/blog/7-picture-based-worksheet-generators-for-esl-beginners-11-languages-supported"
+        }
+      ]
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/blog/como-la-deteccion-inteligente-de-celdas-evita-cuadriculas-vacias-en-fichas-de-dibujo",
+      "type": "blog",
+      "sitemapId": 7,
+      "sitemapHreflangCount": 0,
+      "htmlHreflangCount": 12,
+      "issues": [
+        {
+          "check": "COUNT_MISMATCH",
+          "severity": "MEDIUM",
+          "sitemapCount": 0,
+          "htmlCount": 12,
+          "detail": "Sitemap has 0 hreflangs, HTML has 12"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "en",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/en/blog/smart-cell-detection-in-grid-drawing-how-pixel-analysis-prevents-blank-clue-cells"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "de",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/de/blog/intelligente-zellenanalyse-beim-rasterzeichnen-wie-pixelvarianz-algorithmen-leere-rasterzellen-verhindern"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "fr",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/fr/blog/la-detection-intelligente-de-cellules-comment-lanalyse-de-pixels-elimine-les-cases-vides-dans-le-dessin-sur-grille"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "es",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/es/blog/como-la-deteccion-inteligente-de-celdas-evita-cuadriculas-vacias-en-fichas-de-dibujo"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "it",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/it/blog/rilevamento-intelligente-delle-celle-nel-disegno-su-griglia-come-lanalisi-dei-pixel-previene-le-celle-vuote"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "pt-BR",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/pt/blog/detecao-inteligente-de-celulas-no-desenho-em-grelha-como-a-analise-de-pixeis-previne-celulas-vazias"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "nl",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/nl/blog/slimme-celdetectie-bij-rastertekenen-hoe-pixelanalyse-lege-cellen-voorkomt"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "sv",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/sv/blog/smart-celldetektering-i-rutnaetsteckning-hur-pixelanalys-foerhindrar-tomma-ledtraadar"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "da",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/da/blog/intelligent-celledetektion-i-gittertegning-hvordan-pixelanalyse-forhindrer-tomme-celler"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "no",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/no/blog/intelligent-celledeteksjon-i-rutenett-tegning-slik-forebygger-pikselanalyse-tomme-ruteceller"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "fi",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/fi/blog/aelykaes-soluntunnistus-ruudukkopiirustuksessa-pikselianalyysi-estaeae-tyhjaet-vihjesolut"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "x-default",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/en/blog/smart-cell-detection-in-grid-drawing-how-pixel-analysis-prevents-blank-clue-cells"
+        }
+      ]
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/blog/zona-de-desenvolvimento-proximal-como-diferenciar-atividades-pela-dificuldade-certa",
+      "type": "blog",
+      "sitemapId": 7,
+      "sitemapHreflangCount": 0,
+      "htmlHreflangCount": 12,
+      "issues": [
+        {
+          "check": "COUNT_MISMATCH",
+          "severity": "MEDIUM",
+          "sitemapCount": 0,
+          "htmlCount": 12,
+          "detail": "Sitemap has 0 hreflangs, HTML has 12"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "en",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/en/blog/how-to-scaffold-worksheet-difficulty"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "de",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/de/blog/zone-der-proximalen-entwicklung-arbeitsblaetter-mit-optimalem-schwierigkeitsgrad-gestalten"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "fr",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/fr/blog/comment-adapter-le-niveau-de-difficulte-des-fiches-pedagogiques"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "es",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/es/blog/zona-de-desarrollo-proximo-como-ajustar-la-dificultad-de-las-fichas-segun-vygotsky"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "it",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/it/blog/zona-di-sviluppo-prossimale-come-graduare-la-difficolta-delle-schede-didattiche"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "pt-BR",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/pt/blog/zona-de-desenvolvimento-proximal-como-diferenciar-atividades-pela-dificuldade-certa"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "nl",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/nl/blog/zone-van-naaste-ontwikkeling-werkbladen-perfect-afstemmen-op-leerniveau"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "sv",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/sv/blog/saa-skapar-du-arbetsblad-med-raett-svaarighetsgrad"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "da",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/da/blog/naermeste-udviklingszone-i-praksis-saadan-tilpasser-du-arbejdsark-til-hver-elevs-niveau"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "no",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/no/blog/naermeste-utviklingssone-slik-tilpasser-du-vanskelighetsgrad-paa-arbeidsark"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "fi",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/fi/blog/laehikehityksen-vyoehyke-kuinka-eriyttaeae-tehtaevien-vaikeustaso"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "x-default",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/en/blog/how-to-scaffold-worksheet-difficulty"
+        }
+      ]
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/blog/preparacao-para-provas-estrategias-comprovadas-para-reduzir-ansiedade-escolar",
+      "type": "blog",
+      "sitemapId": 7,
+      "sitemapHreflangCount": 0,
+      "htmlHreflangCount": 12,
+      "issues": [
+        {
+          "check": "COUNT_MISMATCH",
+          "severity": "MEDIUM",
+          "sitemapCount": 0,
+          "htmlCount": 12,
+          "detail": "Sitemap has 0 hreflangs, HTML has 12"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "en",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/en/blog/test-preparation-standardized-assessment-low-stress-practice-strategies"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "de",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/de/blog/lernstandserhebungen-und-vergleichsarbeiten-stressfreie-uebungsstrategien-fuer-die-grundschule"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "fr",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/fr/blog/preparation-aux-examens-et-evaluations-standardisees-strategies-de-revision-sans-stress"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "es",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/es/blog/preparacion-de-examenes-sin-estres-estrategias-efectivas-para-evaluaciones-escolares"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "it",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/it/blog/preparazione-prove-invalsi-strategie-efficaci-per-ridurre-lansia-da-esame"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "pt-BR",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/pt/blog/preparacao-para-provas-estrategias-comprovadas-para-reduzir-ansiedade-escolar"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "nl",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/nl/blog/toetsvoorbereiding-zonder-stress-effectieve-strategieen-voor-de-cito-toets-en-eindtoets"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "sv",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/sv/blog/provfoerberedelse-nationella-prov-laagstress-strategier-foer-baettre-resultat"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "da",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/da/blog/nationale-proever-stressfri-forberedelsesmetoder-der-virker"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "no",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/no/blog/proeveforberedelse-uten-stress-praktiske-strategier-for-nasjonale-proever"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "fi",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/fi/blog/kokeisiin-valmistautuminen-ilman-stressiae-kaeytaennoen-strategioita-alakoululaisille"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "x-default",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/en/blog/test-preparation-standardized-assessment-low-stress-practice-strategies"
+        }
+      ]
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/blog/planificacao-anual-de-fichas-tematicas-estrategia-completa-para-conteudo-sazonal",
+      "type": "blog",
+      "sitemapId": 7,
+      "sitemapHreflangCount": 0,
+      "htmlHreflangCount": 12,
+      "issues": [
+        {
+          "check": "COUNT_MISMATCH",
+          "severity": "MEDIUM",
+          "sitemapCount": 0,
+          "htmlCount": 12,
+          "detail": "Sitemap has 0 hreflangs, HTML has 12"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "en",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/en/blog/back-to-school-seasonal-worksheet-planning-year-round-content-strategy"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "de",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/de/blog/saisonale-arbeitsblaetter-fuers-ganze-schuljahr-jahresplanung-fuer-die-grundschule"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "fr",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/fr/blog/fiches-pedagogiques-saisonnieres-strategie-annuelle-de-planification-pour-la-rentree"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "es",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/es/blog/vuelta-al-cole-y-planificacion-de-fichas-estacionales-estrategia-de-contenido-para-todo-el-ano-escolar"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "it",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/it/blog/programmazione-annuale-delle-schede-didattiche-stagionali-strategia-per-tutto-lanno-scolastico"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "pt-BR",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/pt/blog/planificacao-anual-de-fichas-tematicas-estrategia-completa-para-conteudo-sazonal"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "nl",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/nl/blog/seizoenswerkbladen-voor-het-hele-schooljaar-complete-planningsstrategie"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "sv",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/sv/blog/aarsplanering-foer-tematiska-arbetsblad-skolstart-till-sommarlov"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "da",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/da/blog/skolestart-og-saesonarbejdsark-aars-tema-planlaegning"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "no",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/no/blog/sesongbaserte-oppgaver-gjennom-skoleaaret-aarsplan-for-engasjerende-undervisning"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "fi",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/fi/blog/vuodenaikojen-tehtaevaesuunnittelu-koko-vuoden-kattava-materiaalistrategia"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "x-default",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/en/blog/back-to-school-seasonal-worksheet-planning-year-round-content-strategy"
+        }
+      ]
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/blog/integracao-das-artes-e-musica-fichas-criativas-para-expressao-artistica",
+      "type": "blog",
+      "sitemapId": 7,
+      "sitemapHreflangCount": 0,
+      "htmlHreflangCount": 12,
+      "issues": [
+        {
+          "check": "COUNT_MISMATCH",
+          "severity": "MEDIUM",
+          "sitemapCount": 0,
+          "htmlCount": 12,
+          "detail": "Sitemap has 0 hreflangs, HTML has 12"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "en",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/en/blog/music-arts-integration-creative-worksheets-for-artistic-expression"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "de",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/de/blog/musik-und-kunstintegration-kreative-arbeitsblaetter-fuer-kuenstlerischen-ausdruck"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "fr",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/fr/blog/integration-des-arts-et-de-la-musique-fiches-creatives-pour-lexpression-artistique"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "es",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/es/blog/integracion-de-musica-y-artes-plasticas-fichas-creativas-para-el-desarrollo-artistico"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "it",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/it/blog/arte-e-musica-nella-didattica-schede-creative-per-lespressione-artistica"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "pt-BR",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/pt/blog/integracao-das-artes-e-musica-fichas-criativas-para-expressao-artistica"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "nl",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/nl/blog/muziek-en-beeldende-kunst-integreren-creatieve-werkbladen-voor-artistieke-ontwikkeling"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "sv",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/sv/blog/konst-och-musik-i-undervisningen-kreativa-oevningar-foer-konstnaerligt-uttryck"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "da",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/da/blog/musik-og-kunst-i-undervisningen-kreative-opgaver-til-helhedslaering"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "no",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/no/blog/musikk-og-kunst-i-undervisningen-kreative-arbeidsark-for-kunstnerisk-utfoldelse"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "fi",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/fi/blog/musiikki-ja-taide-oppimisessa-luovat-tehtaevaet-taiteelliseen-ilmaisuun"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "x-default",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/en/blog/music-arts-integration-creative-worksheets-for-artistic-expression"
+        }
+      ]
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/blog/addizione-cifrata-quando-la-matematica-diventa-un-gioco-di-decodifica",
+      "type": "blog",
+      "sitemapId": 7,
+      "sitemapHreflangCount": 0,
+      "htmlHreflangCount": 12,
+      "issues": [
+        {
+          "check": "COUNT_MISMATCH",
+          "severity": "MEDIUM",
+          "sitemapCount": 0,
+          "htmlCount": 12,
+          "detail": "Sitemap has 0 hreflangs, HTML has 12"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "en",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/en/blog/cipher-based-addition-combining-cryptography-with-elementary-math"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "de",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/de/blog/geheimcode-addition-wenn-rechenaufgaben-zu-raetseln-werden"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "fr",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/fr/blog/additions-codees-quand-la-cryptographie-booste-lengagement-en-mathematiques-de-40"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "es",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/es/blog/sumas-con-codigo-secreto-matematicas-y-criptografia-para-ninos"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "it",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/it/blog/addizione-cifrata-quando-la-matematica-diventa-un-gioco-di-decodifica"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "pt-BR",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/pt/blog/adicao-com-codigo-secreto-como-a-criptografia-aumenta-o-interesse-em-matematica-em-40"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "nl",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/nl/blog/rekenen-met-geheimcodes-optelsommen-die-kinderen-echt-willen-maken"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "sv",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/sv/blog/kodbaserad-addition-naer-kryptering-moeter-grundskolematematik"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "da",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/da/blog/kode-addition-naar-kryptografi-moeder-matematik"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "no",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/no/blog/kodebasert-addisjon-naar-matematikk-blir-til-spioneroppdrag"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "fi",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/fi/blog/salaviesti-yhteenlasku-kun-matematiikka-muuttuu-jaennittaevaeksi-arvoitukseksi"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "x-default",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/en/blog/cipher-based-addition-combining-cryptography-with-elementary-math"
+        }
+      ]
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/blog/schede-didattiche-stampate-o-digitali-come-scegliere-il-formato-giusto-per-la-tua-classe",
+      "type": "blog",
+      "sitemapId": 7,
+      "sitemapHreflangCount": 0,
+      "htmlHreflangCount": 12,
+      "issues": [
+        {
+          "check": "COUNT_MISMATCH",
+          "severity": "MEDIUM",
+          "sitemapCount": 0,
+          "htmlCount": 12,
+          "detail": "Sitemap has 0 hreflangs, HTML has 12"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "en",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/en/blog/print-vs-digital-worksheet-delivery-choosing-the-right-format-for-your-classroom"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "de",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/de/blog/arbeitsblaetter-drucken-oder-digital-nutzen-die-richtige-strategie-fuer-ihren-unterricht"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "fr",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/fr/blog/fiches-imprimees-ou-numeriques-quelle-strategie-de-distribution-choisir"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "es",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/es/blog/fichas-impresas-vs-digitales-como-elegir-el-formato-adecuado-para-tu-aula"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "it",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/it/blog/schede-didattiche-stampate-o-digitali-come-scegliere-il-formato-giusto-per-la-tua-classe"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "pt-BR",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/pt/blog/fichas-impressas-vs-digitais-escolher-o-formato-certo-para-a-sua-sala-de-aula"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "nl",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/nl/blog/printen-of-digitaal-de-juiste-werkbladstrategie-voor-jouw-klas"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "sv",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/sv/blog/utskrift-eller-digitalt-raett-format-foer-arbetsblad-i-klassrummet"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "da",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/da/blog/print-eller-digital-opgaver-vaelg-den-rigtige-loesning-til-dit-klassevaerelse"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "no",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/no/blog/utskrift-eller-digitale-arbeidsark-hvordan-velge-riktig-format-for-klasserommet-ditt"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "fi",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/fi/blog/tulostettu-vai-digitaalinen-tehtaevaemoniste-oikean-muodon-valinta-opetuskaeyttoeoen"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "x-default",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/en/blog/print-vs-digital-worksheet-delivery-choosing-the-right-format-for-your-classroom"
+        }
+      ]
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/blog/programmazione-annuale-delle-schede-didattiche-stagionali-strategia-per-tutto-lanno-scolastico",
+      "type": "blog",
+      "sitemapId": 7,
+      "sitemapHreflangCount": 0,
+      "htmlHreflangCount": 12,
+      "issues": [
+        {
+          "check": "COUNT_MISMATCH",
+          "severity": "MEDIUM",
+          "sitemapCount": 0,
+          "htmlCount": 12,
+          "detail": "Sitemap has 0 hreflangs, HTML has 12"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "en",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/en/blog/back-to-school-seasonal-worksheet-planning-year-round-content-strategy"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "de",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/de/blog/saisonale-arbeitsblaetter-fuers-ganze-schuljahr-jahresplanung-fuer-die-grundschule"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "fr",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/fr/blog/fiches-pedagogiques-saisonnieres-strategie-annuelle-de-planification-pour-la-rentree"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "es",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/es/blog/vuelta-al-cole-y-planificacion-de-fichas-estacionales-estrategia-de-contenido-para-todo-el-ano-escolar"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "it",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/it/blog/programmazione-annuale-delle-schede-didattiche-stagionali-strategia-per-tutto-lanno-scolastico"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "pt-BR",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/pt/blog/planificacao-anual-de-fichas-tematicas-estrategia-completa-para-conteudo-sazonal"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "nl",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/nl/blog/seizoenswerkbladen-voor-het-hele-schooljaar-complete-planningsstrategie"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "sv",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/sv/blog/aarsplanering-foer-tematiska-arbetsblad-skolstart-till-sommarlov"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "da",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/da/blog/skolestart-og-saesonarbejdsark-aars-tema-planlaegning"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "no",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/no/blog/sesongbaserte-oppgaver-gjennom-skoleaaret-aarsplan-for-engasjerende-undervisning"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "fi",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/fi/blog/vuodenaikojen-tehtaevaesuunnittelu-koko-vuoden-kattava-materiaalistrategia"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "x-default",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/en/blog/back-to-school-seasonal-worksheet-planning-year-round-content-strategy"
+        }
+      ]
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/blog/apprendimento-socio-emotivo-integrare-le-competenze-emotive-con-le-schede-didattiche",
+      "type": "blog",
+      "sitemapId": 7,
+      "sitemapHreflangCount": 0,
+      "htmlHreflangCount": 12,
+      "issues": [
+        {
+          "check": "COUNT_MISMATCH",
+          "severity": "MEDIUM",
+          "sitemapCount": 0,
+          "htmlCount": 12,
+          "detail": "Sitemap has 0 hreflangs, HTML has 12"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "en",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/en/blog/social-emotional-learning-sel-integrating-sel-with-academic-worksheets"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "de",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/de/blog/sozial-emotionales-lernen-sel-integration-in-den-fachunterricht-mit-arbeitsblaettern"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "fr",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/fr/blog/competences-psychosociales-et-apprentissage-socio-emotionnel-integrer-le-developpement-personnel-aux-fiches-pedagogiques"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "es",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/es/blog/aprendizaje-socioemocional-integracion-de-la-educacion-emocional-con-fichas-academicas"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "it",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/it/blog/apprendimento-socio-emotivo-integrare-le-competenze-emotive-con-le-schede-didattiche"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "pt-BR",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/pt/blog/aprendizagem-socioemocional-como-integrar-competencias-emocionais-nas-fichas-educativas"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "nl",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/nl/blog/sociaal-emotionele-ontwikkeling-werkbladen-voor-sel-integratie-in-de-klas"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "sv",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/sv/blog/socio-emotionellt-laerande-sel-integrera-kaenslomaessig-utveckling-i-skolarbetet"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "da",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/da/blog/social-emotionel-laering-saadan-integrerer-du-elevtrivsel-i-faglige-arbejdsark"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "no",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/no/blog/sosial-og-emosjonell-laering-slik-integrerer-du-foelelsesregulering-med-faglige-arbeidsark"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "fi",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/fi/blog/sosiaaliset-ja-tunnetaidot-sel-oppimisen-integrointi-oppimateriaaleihin"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "x-default",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/en/blog/social-emotional-learning-sel-integrating-sel-with-academic-worksheets"
+        }
+      ]
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/blog/extra-ondersteuning-handelingsgericht-werken-werkbladen-voor-gerichte-begeleiding",
+      "type": "blog",
+      "sitemapId": 7,
+      "sitemapHreflangCount": 0,
+      "htmlHreflangCount": 12,
+      "issues": [
+        {
+          "check": "COUNT_MISMATCH",
+          "severity": "MEDIUM",
+          "sitemapCount": 0,
+          "htmlCount": 12,
+          "detail": "Sitemap has 0 hreflangs, HTML has 12"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "en",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/en/blog/intervention-strategies-response-to-intervention"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "de",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/de/blog/mehrstufiges-foerderkonzept-gezielte-foerdermassnahmen-arbeitsblaetter-fuer-systematische-lernunterstuetzung"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "fr",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/fr/blog/intervention-pedagogique-ciblee-le-modele-rti-pour-un-soutien-personnalise"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "es",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/es/blog/estrategias-de-intervencion-y-sistema-de-respuesta-a-la-intervencion-sri-fichas-para-apoyo-dirigido"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "it",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/it/blog/interventi-didattici-personalizzati-e-monitoraggio-dei-progressi-schede-didattiche-per-il-sostegno-mirato"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "pt-BR",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/pt/blog/estrategias-de-intervencao-pedagogica-apoio-direcionado-com-monitorizacao-de-progresso"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "nl",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/nl/blog/extra-ondersteuning-handelingsgericht-werken-werkbladen-voor-gerichte-begeleiding"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "sv",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/sv/blog/stoedinsatser-och-extra-anpassningar-anvaenda-arbetsblad-foer-maalriktad-undervisning"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "da",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/da/blog/tidlig-indsats-maalrettet-stoette-brug-arbejdsark-til-specialpaedagogisk-intervention"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "no",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/no/blog/tilpasset-opplaering-og-differensiering-bruk-arbeidsark-for-maalrettet-stoette"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "fi",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/fi/blog/kolmiportainen-tuki-ja-tukiopetus-kohdennettuja-tehtaevaemonistetukea-oppimisen-tukemiseen"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "x-default",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/en/blog/intervention-strategies-response-to-intervention"
+        }
+      ]
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/blog/kruiswoordpuzzel-generator-met-afbeeldingen-bewerken-na-generatie",
+      "type": "blog",
+      "sitemapId": 7,
+      "sitemapHreflangCount": 0,
+      "htmlHreflangCount": 12,
+      "issues": [
+        {
+          "check": "COUNT_MISMATCH",
+          "severity": "MEDIUM",
+          "sitemapCount": 0,
+          "htmlCount": 12,
+          "detail": "Sitemap has 0 hreflangs, HTML has 12"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "en",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/en/blog/image-crossword-generator-post-generation-editing-feature"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "de",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/de/blog/bilder-kreuzwortraetsel-mit-nachtraeglicher-bearbeitung-weltweit-einzigartige-funktion"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "fr",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/fr/blog/createur-de-mots-croises-en-images-ledition-post-generation"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "es",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/es/blog/generador-de-crucigramas-con-imagenes-funcion-de-edicion-posterior-a-la-generacion"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "it",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/it/blog/cruciverba-con-immagini-personalizzazione-completa-dopo-la-generazione"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "pt-BR",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/pt/blog/gerador-de-palavras-cruzadas-com-imagens-edicao-completa-apos-criacao"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "nl",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/nl/blog/kruiswoordpuzzel-generator-met-afbeeldingen-bewerken-na-generatie"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "sv",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/sv/blog/bildkryss-generator-redigerbart-efter-skapning"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "da",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/da/blog/billede-krydsord-generator-med-redigeringsfunktion"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "no",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/no/blog/bildebasert-kryssordgenerator-redigering-etter-generering"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "fi",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/fi/blog/muokattava-ristisanaruudukko-generaattori-ainutlaatuinen-tyoekalu-opettajille"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "x-default",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/en/blog/image-crossword-generator-post-generation-editing-feature"
+        }
+      ]
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/blog/formatieve-toetsing-voortgangsmonitoring-werkbladen-voor-data-gedreven-onderwijs",
+      "type": "blog",
+      "sitemapId": 7,
+      "sitemapHreflangCount": 0,
+      "htmlHreflangCount": 12,
+      "issues": [
+        {
+          "check": "COUNT_MISMATCH",
+          "severity": "MEDIUM",
+          "sitemapCount": 0,
+          "htmlCount": 12,
+          "detail": "Sitemap has 0 hreflangs, HTML has 12"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "en",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/en/blog/formative-assessment-progress-monitoring-using-worksheets-for-data-driven-instruction"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "de",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/de/blog/lernverlaufsdiagnostik-formative-beurteilung-datengestuetzte-unterrichtsplanung-mit-arbeitsblaettern"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "fr",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/fr/blog/evaluation-formative-suivi-de-la-progression-exploiter-les-fiches-pedagogiques-pour-un-enseignement-adaptatif"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "es",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/es/blog/evaluacion-formativa-y-seguimiento-del-progreso-instruccion-basada-en-datos-con-fichas-de-trabajo"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "it",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/it/blog/valutazione-formativa-e-monitoraggio-dei-progressi-le-schede-didattiche-per-una-didattica-basata-sui-dati"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "pt-BR",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/pt/blog/avaliacao-formativa-e-monitorizacao-continua-como-usar-fichas-para-um-ensino-orientado-por-dados"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "nl",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/nl/blog/formatieve-toetsing-voortgangsmonitoring-werkbladen-voor-data-gedreven-onderwijs"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "sv",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/sv/blog/formativ-bedoemning-och-progressuppfoeljning-anvaend-arbetsblad-foer-datadriven-undervisning"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "da",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/da/blog/formativ-evaluering-og-progressionsopfoelgning-arbejdsark-til-databaseret-undervisning"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "no",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/no/blog/formativ-vurdering-fremgangskartlegging-bruk-arbeidsark-til-databasert-undervisning"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "fi",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/fi/blog/formatiivinen-arviointi-ja-oppimisen-seuranta-tehtaevaemonisteet-tietopohjaisessa-opetuksessa"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "x-default",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/en/blog/formative-assessment-progress-monitoring-using-worksheets-for-data-driven-instruction"
+        }
+      ]
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/blog/kritisch-denken-probleemoplossend-vermogen-denkvaardigheden-ontwikkelen-met-werkbladen",
+      "type": "blog",
+      "sitemapId": 7,
+      "sitemapHreflangCount": 0,
+      "htmlHreflangCount": 12,
+      "issues": [
+        {
+          "check": "COUNT_MISMATCH",
+          "severity": "MEDIUM",
+          "sitemapCount": 0,
+          "htmlCount": 12,
+          "detail": "Sitemap has 0 hreflangs, HTML has 12"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "en",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/en/blog/critical-thinking-problem-solving-developing-higher-order-skills-with-worksheets"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "de",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/de/blog/kritisches-denken-und-problemloesung-hoehere-denkprozesse-mit-arbeitsblaettern-foerdern"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "fr",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/fr/blog/developper-lesprit-critique-et-la-resolution-de-problemes-fiches-pedagogiques-pour-competences-superieures"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "es",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/es/blog/pensamiento-critico-y-resolucion-de-problemas-desarrollando-habilidades-cognitivas-superiores"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "it",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/it/blog/pensiero-critico-e-problem-solving-sviluppare-competenze-cognitive-superiori-con-le-schede-didattiche"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "pt-BR",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/pt/blog/pensamento-critico-e-raciocinio-logico-desenvolvendo-competencias-avancadas-com-atividades-praticas"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "nl",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/nl/blog/kritisch-denken-probleemoplossend-vermogen-denkvaardigheden-ontwikkelen-met-werkbladen"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "sv",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/sv/blog/kritiskt-taenkande-problemloesning-utveckla-kognitiva-faerdigheter-med-arbetsblad"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "da",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/da/blog/kritisk-taenkning-og-problemloesning-udvikl-elevernes-taenkeevne-med-arbejdsark"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "no",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/no/blog/kritisk-tenkning-og-problemloesning-utvikle-kognitive-ferdigheter-med-arbeidsark"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "fi",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/fi/blog/kriittinen-ajattelu-ja-ongelmanratkaisu-laaja-alaisten-taitojen-kehittaeminen-tehtaevillae"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "x-default",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/en/blog/critical-thinking-problem-solving-developing-higher-order-skills-with-worksheets"
+        }
+      ]
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/da/blog/kreative-evalueringsmetoder-alternativer-til-traditionelle-proever-med-arbejdsark",
+      "type": "blog",
+      "sitemapId": 7,
+      "sitemapHreflangCount": 0,
+      "htmlHreflangCount": 12,
+      "issues": [
+        {
+          "check": "COUNT_MISMATCH",
+          "severity": "MEDIUM",
+          "sitemapCount": 0,
+          "htmlCount": 12,
+          "detail": "Sitemap has 0 hreflangs, HTML has 12"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "en",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/en/blog/creative-assessment-alternatives-beyond-traditional-tests"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "de",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/de/blog/alternative-leistungsbeurteilung-kreative-bewertungsmethoden-statt-klassischer-tests"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "fr",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/fr/blog/alternatives-creatives-a-levaluation-depasser-les-tests-traditionnels-avec-des-outils-concrets"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "es",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/es/blog/evaluacion-autentica-y-alternativa-metodos-creativos-mas-alla-de-los-examenes-tradicionales"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "it",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/it/blog/valutazione-alternativa-superare-i-test-tradizionali-con-metodi-autentici"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "pt-BR",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/pt/blog/avaliacao-alternativa-e-criativa-alem-das-provas-tradicionais"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "nl",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/nl/blog/alternatieve-toetsing-in-het-basisonderwijs-van-toets-naar-authentiek-leren"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "sv",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/sv/blog/kreativa-bedoemningsmetoder-alternativ-till-traditionella-prov-med-arbetsblad"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "da",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/da/blog/kreative-evalueringsmetoder-alternativer-til-traditionelle-proever-med-arbejdsark"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "no",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/no/blog/kreative-vurderingsformer-vurdering-uten-tradisjonelle-proever-med-arbeidsark"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "fi",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/fi/blog/vaihtoehtoiset-arviointimenetelmaet-toiminnallinen-arviointi-perinteisten-kokeiden-rinnalla"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "x-default",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/en/blog/creative-assessment-alternatives-beyond-traditional-tests"
+        }
+      ]
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/da/blog/matematiske-udfordringer-til-mellemtrinnet-gitter-tegning-komplekse-moenstre-og-logisk-taenkning",
+      "type": "blog",
+      "sitemapId": 7,
+      "sitemapHreflangCount": 0,
+      "htmlHreflangCount": 12,
+      "issues": [
+        {
+          "check": "COUNT_MISMATCH",
+          "severity": "MEDIUM",
+          "sitemapCount": 0,
+          "htmlCount": 12,
+          "detail": "Sitemap has 0 hreflangs, HTML has 12"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "en",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/en/blog/upper-elementary-challenges-grid-drawing-complex-patterns-multi-step-logic"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "de",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/de/blog/anspruchsvolle-aufgaben-fuer-die-obere-grundschule-rasterzeichnung-komplexe-muster-mehrstufige-logik"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "fr",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/fr/blog/defis-pour-cm1-cm2-dessin-sur-quadrillage-suites-complexes-et-logique-avancee"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "es",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/es/blog/actividades-desafiantes-para-primaria-superior-cuadricula-de-dibujo-patrones-complejos-y-logica-avanzada"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "it",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/it/blog/attivita-stimolanti-per-la-scuola-primaria-disegno-su-griglia-sequenze-complesse-e-logica-avanzata"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "pt-BR",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/pt/blog/desafios-para-anos-finais-do-fundamental-desenho-em-grade-padroes-complexos-e-logica-avancada"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "nl",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/nl/blog/bovenbouw-uitdagingen-raster-tekenen-complexe-patronen-en-meerstaps-logica"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "sv",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/sv/blog/utmaningar-foer-mellanstadiet-rutnaetsteckning-komplexa-moenster-och-flerstegslogik"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "da",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/da/blog/matematiske-udfordringer-til-mellemtrinnet-gitter-tegning-komplekse-moenstre-og-logisk-taenkning"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "no",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/no/blog/avanserte-utfordringer-for-4-og-5-klasse-rutenettstegning-komplekse-moenstre-og-flertrinnlogikk"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "fi",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/fi/blog/alakoulun-4-5-luokkien-haasteet-ruudukkopiirustus-sudoku-ja-logiikkapulmat"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "x-default",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/en/blog/upper-elementary-challenges-grid-drawing-complex-patterns-multi-step-logic"
+        }
+      ]
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/da/blog/samundervisning-ressourcerum-effektive-strategier-til-arbejdsarkplanlaegning",
+      "type": "blog",
+      "sitemapId": 7,
+      "sitemapHreflangCount": 0,
+      "htmlHreflangCount": 12,
+      "issues": [
+        {
+          "check": "COUNT_MISMATCH",
+          "severity": "MEDIUM",
+          "sitemapCount": 0,
+          "htmlCount": 12,
+          "detail": "Sitemap has 0 hreflangs, HTML has 12"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "en",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/en/blog/co-teaching-resource-room-collaborative-worksheet-planning-strategies"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "de",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/de/blog/teamteaching-inklusionsunterricht-effiziente-arbeitsblatt-planung-fuer-kooperativen-unterricht"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "fr",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/fr/blog/co-enseignement-rased-strategies-de-planification-collaborative-avec-les-generateurs-de-fiches"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "es",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/es/blog/codocencia-y-aula-de-recursos-estrategias-de-planificacion-colaborativa-con-fichas-educativas"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "it",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/it/blog/co-docenza-e-inclusione-strategie-per-creare-materiali-didattici-condivisi"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "pt-BR",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/pt/blog/co-docencia-e-sala-de-apoio-estrategias-de-planeamento-colaborativo-com-fichas"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "nl",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/nl/blog/duo-doceren-ondersteuning-gezamenlijke-werkblad-planning-strategieen"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "sv",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/sv/blog/samundervisning-och-resursskola-arbetsbladsplanering-foer-effektivt-laerarsamarbete"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "da",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/da/blog/samundervisning-ressourcerum-effektive-strategier-til-arbejdsarkplanlaegning"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "no",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/no/blog/samundervisning-ressursrom-effektive-strategier-for-arbeidsplanlegging"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "fi",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/fi/blog/hteisopetus-ja-tukiopetus-tehokas-tehtaevaesuunnittelu-kahdelle-opettajalle"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "x-default",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/en/blog/co-teaching-resource-room-collaborative-worksheet-planning-strategies"
+        }
+      ]
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/da/blog/symbolsk-algebra-til-boern-garanteret-loesbare-matematik-gaader-med-unik-validerings-algoritme",
+      "type": "blog",
+      "sitemapId": 7,
+      "sitemapHreflangCount": 0,
+      "htmlHreflangCount": 12,
+      "issues": [
+        {
+          "check": "COUNT_MISMATCH",
+          "severity": "MEDIUM",
+          "sitemapCount": 0,
+          "htmlCount": 12,
+          "detail": "Sitemap has 0 hreflangs, HTML has 12"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "en",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/en/blog/symbolic-algebra-worksheets"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "de",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/de/blog/symbolische-algebra-fuer-grundschueler"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "fr",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/fr/blog/fiches-dalgebre-symbolique-puzzles-mathematiques-avec-garantie-de-solution-unique"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "es",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/es/blog/fichas-de-algebra-simbolica-ejercicios-garantizados-con-algoritmo-de-validacion-unica"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "it",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/it/blog/algebra-visiva-per-la-scuola-primaria-esercizi-sempre-risolvibili-con-validazione-automatica"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "pt-BR",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/pt/blog/fichas-de-algebra-visual-puzzles-com-solucao-unica-garantida-atraves-de-algoritmo-de-validacao"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "nl",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/nl/blog/rekenraadsels-met-symbolen-gegarandeerd-oplosbare-puzzels-voor-groep-3-tm-8"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "sv",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/sv/blog/matematikpussel-med-bilder"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "da",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/da/blog/symbolsk-algebra-til-boern-garanteret-loesbare-matematik-gaader-med-unik-validerings-algoritme"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "no",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/no/blog/mattegaater-med-symboler-garantert-loesbare-oppgaver-med-unik-valideringsalgoritme"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "fi",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/fi/blog/symbolinen-algebra-lapsille-matemaattiset-pulmat-taatulla-ratkeavuudella"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "x-default",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/en/blog/symbolic-algebra-worksheets"
+        }
+      ]
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/blog/foerskola-och-foerskoleklass-utvecklingsanpassade-arbetsblad-och-aktiviteter",
+      "type": "blog",
+      "sitemapId": 7,
+      "sitemapHreflangCount": 0,
+      "htmlHreflangCount": 12,
+      "issues": [
+        {
+          "check": "COUNT_MISMATCH",
+          "severity": "MEDIUM",
+          "sitemapCount": 0,
+          "htmlCount": 12,
+          "detail": "Sitemap has 0 hreflangs, HTML has 12"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "en",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/en/blog/early-childhood-prek-k-developmentally-appropriate-worksheet-activities"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "de",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/de/blog/vorschule-und-kindergarten-entwicklungsgerechte-arbeitsblaetter-fuer-3-bis-6-jaehrige"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "fr",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/fr/blog/activites-maternelle-petite-enfance-fiches-pedagogiques-adaptees-au-developpement"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "es",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/es/blog/educacion-infantil-preescolar-kinder-actividades-y-fichas-apropiadas-para-el-desarrollo"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "it",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/it/blog/scuola-dellinfanzia-3-6-anni-attivita-didattiche-appropriate-allo-sviluppo"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "pt-BR",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/pt/blog/atividades-para-educacao-infantil-pre-escolar-e-jardim-de-infancia-praticas-pedagogicamente-adequadas"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "nl",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/nl/blog/kleuters-werkbladen-ontwikkelingsgerichte-activiteiten-voor-groep-1-2"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "sv",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/sv/blog/foerskola-och-foerskoleklass-utvecklingsanpassade-arbetsblad-och-aktiviteter"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "da",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/da/blog/alderspassende-opgaver-til-boernehaveklasse-og-forskole-udviklende-aktiviteter"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "no",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/no/blog/barnehage-og-foerstetrinn-utviklingsriktige-oppgaveark-for-3-6-aaringer"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "fi",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/fi/blog/varhaiskasvatus-ja-esiopetus-ikaetasoiset-tehtaevaet-3-6-vuotiaille"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "x-default",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/en/blog/early-childhood-prek-k-developmentally-appropriate-worksheet-activities"
+        }
+      ]
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/blog/hoegstadiets-utmaningar-saa-foerbereder-du-elever-i-aarskurs-5-foer-sjaelvstaendigt-laerande",
+      "type": "blog",
+      "sitemapId": 7,
+      "sitemapHreflangCount": 0,
+      "htmlHreflangCount": 12,
+      "issues": [
+        {
+          "check": "COUNT_MISMATCH",
+          "severity": "MEDIUM",
+          "sitemapCount": 0,
+          "htmlCount": 12,
+          "detail": "Sitemap has 0 hreflangs, HTML has 12"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "en",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/en/blog/middle-school-transition-preparing-5th-graders-for-independent-learning"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "de",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/de/blog/uebergang-zur-weiterfuehrenden-schule-so-bereiten-sie-fuenftklaessler-auf-selbstaendiges-lernen-vor"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "fr",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/fr/blog/transition-cm2-6eme-preparer-lautonomie-scolaire-au-college"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "es",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/es/blog/transicion-a-secundaria-preparar-a-los-alumnos-de-6-de-primaria-para-el-aprendizaje-autonomo"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "it",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/it/blog/il-passaggio-alla-scuola-media-come-preparare-gli-alunni-di-quinta-alla-gestione-autonoma-dello-studio"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "pt-BR",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/pt/blog/transicao-para-o-6-ano-preparando-alunos-do-5-ano-para-o-aprendizado-autonomo"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "nl",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/nl/blog/voorbereiding-middelbare-school-groep-8-leerlingen-klaarstomen-voor-zelfstandig-leren"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "sv",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/sv/blog/hoegstadiets-utmaningar-saa-foerbereder-du-elever-i-aarskurs-5-foer-sjaelvstaendigt-laerande"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "da",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/da/blog/selvstaendighed-i-skolen-forbered-dit-barn-til-overgangen-fra-6-til-7-klasse"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "no",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/no/blog/forbered-5-klasse-til-ungdomsskolen-slik-bygger-du-selvstendige-laeringsstrategier"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "fi",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/fi/blog/ylaekouluun-siirtyminen-kuinka-valmistaa-viidesluokkalainen-itsenaeiseen-oppimiseen"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "x-default",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/en/blog/middle-school-transition-preparing-5th-graders-for-independent-learning"
+        }
+      ]
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/blog/bakaatdesign-aarsplanering-planera-med-slutmaalen-i-fokus",
+      "type": "blog",
+      "sitemapId": 7,
+      "sitemapHreflangCount": 0,
+      "htmlHreflangCount": 12,
+      "issues": [
+        {
+          "check": "COUNT_MISMATCH",
+          "severity": "MEDIUM",
+          "sitemapCount": 0,
+          "htmlCount": 12,
+          "detail": "Sitemap has 0 hreflangs, HTML has 12"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "en",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/en/blog/backward-design-curriculum-mapping-planning-with-end-goals-in-mind"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "de",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/de/blog/rueckwaertsplanung-lehrplangestaltung-unterricht-vom-lernziel-her-denken"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "fr",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/fr/blog/planification-a-rebours-concevoir-ses-sequences-en-partant-des-objectifs-finaux"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "es",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/es/blog/diseno-inverso-y-mapeo-curricular-planificar-desde-los-resultados-de-aprendizaje"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "it",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/it/blog/progettazione-a-ritroso-e-programmazione-didattica-pianificare-partendo-dai-risultati"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "pt-BR",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/pt/blog/planejamento-reverso-e-mapeamento-curricular-como-organizar-o-ensino-com-foco-nos-resultados"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "nl",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/nl/blog/achterwaartse-planning-curriculum-mapping-effectief-lesvoorbereiden-met-het-einddoel-voorop"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "sv",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/sv/blog/bakaatdesign-aarsplanering-planera-med-slutmaalen-i-fokus"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "da",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/da/blog/baglaens-design-og-pensum-planlaegning-planlaeg-med-slutmaalet-for-oeje"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "no",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/no/blog/baklengs-planlegging-i-skolen-start-med-sluttkompetansen"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "fi",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/fi/blog/tavoitelaehtoeinen-opetuksen-suunnittelu-kun-loppupaeaestae-aloitetaan"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "x-default",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/en/blog/backward-design-curriculum-mapping-planning-with-end-goals-in-mind"
+        }
+      ]
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/blog/prepositionsoevningar-i-tvaa-laegen-fyll-i-text-flervalsoevningar-i-samma-verktyg",
+      "type": "blog",
+      "sitemapId": 7,
+      "sitemapHreflangCount": 0,
+      "htmlHreflangCount": 12,
+      "issues": [
+        {
+          "check": "COUNT_MISMATCH",
+          "severity": "MEDIUM",
+          "sitemapCount": 0,
+          "htmlCount": 12,
+          "detail": "Sitemap has 0 hreflangs, HTML has 12"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "en",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/en/blog/dual-mode-preposition-worksheets-fill-in-the-blank-multiple-choice-in-one-tool"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "de",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/de/blog/praepositionen-arbeitsblaetter-mit-zwei-modi"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "fr",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/fr/blog/fiches-de-prepositions-a-double-mode-exercices-a-trous-et-qcm-dans-un-seul-outil"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "es",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/es/blog/fichas-de-preposiciones-con-doble-modalidad-rellenar-huecos-opcion-multiple-en-una-sola-herramienta"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "it",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/it/blog/schede-didattiche-preposizioni-doppia-modalita-con-completamento-e-scelta-multipla"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "pt-BR",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/pt/blog/fichas-de-preposicoes-com-modo-duplo-preencher-lacunas-escolha-multipla-na-mesma-ferramenta"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "nl",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/nl/blog/voorzetsels-werkbladen-met-dubbele-modus-invuloefening-en-meerkeuze-in-een-tool"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "sv",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/sv/blog/prepositionsoevningar-i-tvaa-laegen-fyll-i-text-flervalsoevningar-i-samma-verktyg"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "da",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/da/blog/praepositioner-opgaver-med-billeder-udfyld-blank-multiple-choice-i-et-vaerktoej"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "no",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/no/blog/preposisjonsoppgaver-med-to-modi-fyll-ut-og-flervalg-i-samme-verktoey"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "fi",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/fi/blog/kaksi-harjoitusmuotoa-yhdessae-prepositiot-taeydennettaevinae-ja-monivalintana"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "x-default",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/en/blog/dual-mode-preposition-worksheets-fill-in-the-blank-multiple-choice-in-one-tool"
+        }
+      ]
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/blog/flerspraaklig-oppgavegenerering-digitale-verktoey-for-norske-og-nordiske-laerere",
+      "type": "blog",
+      "sitemapId": 7,
+      "sitemapHreflangCount": 0,
+      "htmlHreflangCount": 12,
+      "issues": [
+        {
+          "check": "COUNT_MISMATCH",
+          "severity": "MEDIUM",
+          "sitemapCount": 0,
+          "htmlCount": 12,
+          "detail": "Sitemap has 0 hreflangs, HTML has 12"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "en",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/en/blog/multi-language-worksheet-generation-serving-scandinavian-markets"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "de",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/de/blog/mehrsprachige-arbeitsblatt-generierung-fuer-deutsche-schulen-11-sprachen"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "fr",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/fr/blog/generateurs-de-fiches-pedagogiques-multilingues-enseigner-les-langues-avec-11-interfaces-linguistiques"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "es",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/es/blog/plataformas-educativas-multilinguees-herramientas-esenciales-para-profesores-de-espanol"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "it",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/it/blog/piattaforma-multilingue-con-11-lingue-insegnare-inglese-tedesco-francese-e-spagnolo-in-italia"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "pt-BR",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/pt/blog/plataforma-multilingue-para-ensino-de-linguas-interface-em-portugues-para-professores-lusofonos"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "nl",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/nl/blog/meertalige-werkbladen-maken-ondersteuning-voor-europese-onderwijsmarkten"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "sv",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/sv/blog/flerspraakiga-arbetsbladsgeneratorer-varfoer-svenska-laerare-behoever-verktyg-paa-svenska"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "da",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/da/blog/flersprogede-opgavegeneratorer-til-nordiske-laerere-dansk-svensk-norsk-og-finsk"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "no",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/no/blog/flerspraaklig-oppgavegenerering-digitale-verktoey-for-norske-og-nordiske-laerere"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "fi",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/fi/blog/monikieliset-tehtaevaepohjageneraattorit-suomenkielinen-kaeyttoeliittymae-opettajille"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "x-default",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/en/blog/multi-language-worksheet-generation-serving-scandinavian-markets"
+        }
+      ]
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/blog/profesjonelle-jeg-spionerer-arbeidsark-med-null-overlapp-algoritme",
+      "type": "blog",
+      "sitemapId": 7,
+      "sitemapHreflangCount": 0,
+      "htmlHreflangCount": 12,
+      "issues": [
+        {
+          "check": "COUNT_MISMATCH",
+          "severity": "MEDIUM",
+          "sitemapCount": 0,
+          "htmlCount": 12,
+          "detail": "Sitemap has 0 hreflangs, HTML has 12"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "en",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/en/blog/i-spy-worksheets-with-professional-layouts-in-3-minutes"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "de",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/de/blog/suchbilder-arbeitsblaetter-mit-kollisionsfreiem-algorithmus-professionelle-layouts-in-3-minuten"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "fr",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/fr/blog/fiches-cherche-et-trouve-avec-algorithme-anti-chevauchement"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "es",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/es/blog/fichas-veo-veo-con-algoritmo-sin-solapamiento-disenos-profesionales-en-3-minutos"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "it",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/it/blog/schede-didattiche-cerca-e-trova-con-algoritmo-zero-sovrapposizione"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "pt-BR",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/pt/blog/atividades-de-procurar-objetos-com-layout-profissional-em-3-minutos"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "nl",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/nl/blog/zoek-en-vind-werkbladen-met-zero-overlap-algoritme"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "sv",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/sv/blog/professionella-hitta-foeremaal-arbetsblad-med-noll-oeverlappningsalgoritm"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "da",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/da/blog/jeg-finder-opgaver-med-nul-overlap-algoritme-professionelle-layouts-paa-3-minutter"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "no",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/no/blog/profesjonelle-jeg-spionerer-arbeidsark-med-null-overlapp-algoritme"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "fi",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/fi/blog/etsi-ja-loeydae-tehtaevaet-ammattilaislaadulla-3-minuutissa-valmiiksi"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "x-default",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/en/blog/i-spy-worksheets-with-professional-layouts-in-3-minutes"
+        }
+      ]
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/blog/finmotoriske-aktiviteter-for-barnehage-tegne-streker-moenstervogn-og-saksoevelser",
+      "type": "blog",
+      "sitemapId": 7,
+      "sitemapHreflangCount": 0,
+      "htmlHreflangCount": 12,
+      "issues": [
+        {
+          "check": "COUNT_MISMATCH",
+          "severity": "MEDIUM",
+          "sitemapCount": 0,
+          "htmlCount": 12,
+          "detail": "Sitemap has 0 hreflangs, HTML has 12"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "en",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/en/blog/pre-k-fine-motor-activities-drawing-lines-pattern-train-cutting-practice"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "de",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/de/blog/feinmotorik-foerdern-im-kindergarten-linien-zeichnen-muster-ueben-schneiden-lernen"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "fr",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/fr/blog/activites-de-motricite-fine-pour-la-maternelle-graphisme-decoupage-et-exercices-preparatoires-a-lecriture"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "es",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/es/blog/actividades-de-motricidad-fina-para-preescolar-trazos-recortar-y-agarre-del-lapiz"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "it",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/it/blog/grafomotricita-e-motricita-fine-nella-scuola-dellinfanzia-pregrafismo-ritaglio-e-colorazione"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "pt-BR",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/pt/blog/atividades-de-coordenacao-motora-fina-para-educacao-infantil"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "nl",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/nl/blog/fijne-motoriek-kleuters-lijnen-trekken-patroontrein-en-knipoefeningen"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "sv",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/sv/blog/finmotoriska-oevningar-foer-foerskolan-linjegaaende-saxoevningar-och-penngrepp"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "da",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/da/blog/finmotorik-aktiviteter-til-foerskolen-tegning-af-linjer-moensterklippe-og-sakseklippe"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "no",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/no/blog/finmotoriske-aktiviteter-for-barnehage-tegne-streker-moenstervogn-og-saksoevelser"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "fi",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/fi/blog/esiopetuksen-hienomotoriset-harjoitukset-viivojen-piirtaeminen-kuviojuna-ja-leikkausharjoitukset"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "x-default",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/en/blog/pre-k-fine-motor-activities-drawing-lines-pattern-train-cutting-practice"
+        }
+      ]
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/blog/topp-10-oppgavegeneratorer-for-3-klasse-8-9-aar",
+      "type": "blog",
+      "sitemapId": 7,
+      "sitemapHreflangCount": 0,
+      "htmlHreflangCount": 12,
+      "issues": [
+        {
+          "check": "COUNT_MISMATCH",
+          "severity": "MEDIUM",
+          "sitemapCount": 0,
+          "htmlCount": 12,
+          "detail": "Sitemap has 0 hreflangs, HTML has 12"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "en",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/en/blog/top-10-worksheet-generators-for-3rd-grade-teachers-ages-8-9"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "de",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/de/blog/die-10-besten-arbeitsblatt-generatoren-fuer-die-3-klasse-8-9-jahre"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "fr",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/fr/blog/top-10-generateurs-de-fiches-pour-le-ce2-8-9-ans"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "es",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/es/blog/los-10-mejores-generadores-de-fichas-para-tercer-grado-8-9-anos"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "it",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/it/blog/i-migliori-10-generatori-di-schede-didattiche-per-la-terza-elementare-8-9-anni"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "pt-BR",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/pt/blog/os-10-melhores-geradores-de-atividades-para-o-3-ano-8-9-anos"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "nl",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/nl/blog/top-10-werkbladen-generatoren-voor-groep-5-leerkrachten-8-9-jaar"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "sv",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/sv/blog/topp-10-arbetsblad-generatorer-foer-laerare-i-aarskurs-3-8-9-aar"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "da",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/da/blog/top-10-opgavegeneratorer-3-klasse"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "no",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/no/blog/topp-10-oppgavegeneratorer-for-3-klasse-8-9-aar"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "fi",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/fi/blog/10-parasta-tehtaevaegeneraattoria-3-luokan-opettajille-8-9-vuotiaat"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "x-default",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/en/blog/top-10-worksheet-generators-for-3rd-grade-teachers-ages-8-9"
+        }
+      ]
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/blog/koulun-ensimmaeinen-viikko-rutiinien-ja-odotusten-rakentaminen-tehtaevaemonisteiden-avulla",
+      "type": "blog",
+      "sitemapId": 7,
+      "sitemapHreflangCount": 0,
+      "htmlHreflangCount": 12,
+      "issues": [
+        {
+          "check": "COUNT_MISMATCH",
+          "severity": "MEDIUM",
+          "sitemapCount": 0,
+          "htmlCount": 12,
+          "detail": "Sitemap has 0 hreflangs, HTML has 12"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "en",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/en/blog/first-week-of-school-getting-started-with-routines-expectations-using-worksheets"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "de",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/de/blog/die-erste-schulwoche-routinen-etablieren-und-erwartungen-klaeren-mit-arbeitsblaettern"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "fr",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/fr/blog/la-premiere-semaine-de-classe-instaurer-les-routines-et-poser-les-bases-avec-des-fiches-pedagogiques"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "es",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/es/blog/primera-semana-de-clases-como-establecer-rutinas-y-expectativas-con-fichas-de-trabajo"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "it",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/it/blog/la-prima-settimana-di-scuola-costruire-routine-e-aspettative-con-schede-didattiche-efficaci"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "pt-BR",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/pt/blog/primeira-semana-de-aulas-como-estabelecer-rotinas-e-expectativas-com-fichas-de-trabalho"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "nl",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/nl/blog/de-eerste-schoolweek-routines-opzetten-en-verwachtingen-scheppen-met-werkbladen"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "sv",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/sv/blog/foersta-veckan-i-skolan-komma-igaang-med-rutiner-och-foervaentningar-med-hjaelp-av-arbetsblad"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "da",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/da/blog/den-foerste-skoleuge-saadan-skaber-du-gode-rutiner-og-klare-forventninger-med-opgaveark"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "no",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/no/blog/foerste-skoleuke-etablere-rutiner-og-forventninger-med-strukturerte-arbeidsark"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "fi",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/fi/blog/koulun-ensimmaeinen-viikko-rutiinien-ja-odotusten-rakentaminen-tehtaevaemonisteiden-avulla"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "x-default",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/en/blog/first-week-of-school-getting-started-with-routines-expectations-using-worksheets"
+        }
+      ]
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/blog/kaksi-harjoitusmuotoa-yhdessae-prepositiot-taeydennettaevinae-ja-monivalintana",
+      "type": "blog",
+      "sitemapId": 7,
+      "sitemapHreflangCount": 0,
+      "htmlHreflangCount": 12,
+      "issues": [
+        {
+          "check": "COUNT_MISMATCH",
+          "severity": "MEDIUM",
+          "sitemapCount": 0,
+          "htmlCount": 12,
+          "detail": "Sitemap has 0 hreflangs, HTML has 12"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "en",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/en/blog/dual-mode-preposition-worksheets-fill-in-the-blank-multiple-choice-in-one-tool"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "de",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/de/blog/praepositionen-arbeitsblaetter-mit-zwei-modi"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "fr",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/fr/blog/fiches-de-prepositions-a-double-mode-exercices-a-trous-et-qcm-dans-un-seul-outil"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "es",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/es/blog/fichas-de-preposiciones-con-doble-modalidad-rellenar-huecos-opcion-multiple-en-una-sola-herramienta"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "it",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/it/blog/schede-didattiche-preposizioni-doppia-modalita-con-completamento-e-scelta-multipla"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "pt-BR",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/pt/blog/fichas-de-preposicoes-com-modo-duplo-preencher-lacunas-escolha-multipla-na-mesma-ferramenta"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "nl",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/nl/blog/voorzetsels-werkbladen-met-dubbele-modus-invuloefening-en-meerkeuze-in-een-tool"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "sv",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/sv/blog/prepositionsoevningar-i-tvaa-laegen-fyll-i-text-flervalsoevningar-i-samma-verktyg"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "da",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/da/blog/praepositioner-opgaver-med-billeder-udfyld-blank-multiple-choice-i-et-vaerktoej"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "no",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/no/blog/preposisjonsoppgaver-med-to-modi-fyll-ut-og-flervalg-i-samme-verktoey"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "fi",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/fi/blog/kaksi-harjoitusmuotoa-yhdessae-prepositiot-taeydennettaevinae-ja-monivalintana"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "x-default",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/en/blog/dual-mode-preposition-worksheets-fill-in-the-blank-multiple-choice-in-one-tool"
+        }
+      ]
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/blog/10-parasta-tehtaevaegeneraattoria-4-5-luokkalaisille-9-11-vuotiaille",
+      "type": "blog",
+      "sitemapId": 7,
+      "sitemapHreflangCount": 0,
+      "htmlHreflangCount": 12,
+      "issues": [
+        {
+          "check": "COUNT_MISMATCH",
+          "severity": "MEDIUM",
+          "sitemapCount": 0,
+          "htmlCount": 12,
+          "detail": "Sitemap has 0 hreflangs, HTML has 12"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "en",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/en/blog/top-10-worksheet-generators-for-4th-5th-grade-teachers-ages-9-11"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "de",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/de/blog/die-10-besten-arbeitsblatt-generatoren-fuer-die-4-und-5-klasse-9-11-jahre"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "fr",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/fr/blog/top-10-generateurs-de-fiches-pour-le-cm1-cm2-9-11-ans"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "es",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/es/blog/los-10-mejores-generadores-de-fichas-para-4-5-de-primaria-9-11-anos"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "it",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/it/blog/i-migliori-10-generatori-di-schede-didattiche-per-la-quarta-e-quinta-elementare-9-11-anni"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "pt-BR",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/pt/blog/os-10-melhores-geradores-de-fichas-para-o-4-5-ano-9-11-anos"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "nl",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/nl/blog/top-10-werkblad-generatoren-voor-groep-6-7-leerkrachten-9-11-jaar"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "sv",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/sv/blog/topp-10-arbetsbladsgeneratorer-foer-aarskurs-4-5-9-11-aar"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "da",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/da/blog/de-10-bedste-opgavegeneratorer-til-4-5-klasse-9-11-aar"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "no",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/no/blog/topp-10-oppgavegeneratorer-for-4-5-klasse-9-11-aar"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "fi",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/fi/blog/10-parasta-tehtaevaegeneraattoria-4-5-luokkalaisille-9-11-vuotiaille"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "x-default",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/en/blog/top-10-worksheet-generators-for-4th-5th-grade-teachers-ages-9-11"
+        }
+      ]
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/blog/kattava-vuosisuunnitelma-opettajalle-lukuvuoden-tehtaevaemonisteiden-hallinta",
+      "type": "blog",
+      "sitemapId": 7,
+      "sitemapHreflangCount": 0,
+      "htmlHreflangCount": 12,
+      "issues": [
+        {
+          "check": "COUNT_MISMATCH",
+          "severity": "MEDIUM",
+          "sitemapCount": 0,
+          "htmlCount": 12,
+          "detail": "Sitemap has 0 hreflangs, HTML has 12"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "en",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/en/blog/your-complete-yearly-planning-guide-12-month-worksheet-strategy"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "de",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/de/blog/der-komplette-jahresplanungsratgeber-12-monats-strategie-fuer-arbeitsblaetter"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "fr",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/fr/blog/guide-complet-de-planification-annuelle-strategie-sur-12-mois-pour-vos-fiches-pedagogiques"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "es",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/es/blog/guia-completa-de-planificacion-anual-estrategia-de-12-meses-para-docentes"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "it",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/it/blog/guida-completa-alla-programmazione-annuale-strategia-didattica-per-12-mesi"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "pt-BR",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/pt/blog/guia-completo-de-planejamento-anual-estrategia-para-os-12-meses-do-ano-letivo"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "nl",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/nl/blog/jouw-complete-jaarplanning-stressvrije-organisatie-van-het-hele-schooljaar"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "sv",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/sv/blog/komplett-aarsplanering-foer-laerare-12-maanaders-strategi-foer-framgaangsrikt-laesaar"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "da",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/da/blog/din-komplette-aarsplanlaegningsguide-12-maaneders-strategi-for-arbejdsark"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "no",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/no/blog/din-komplette-aarsplanleggingsguide-12-maaneders-strategi-for-skoleaaret"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "fi",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/fi/blog/kattava-vuosisuunnitelma-opettajalle-lukuvuoden-tehtaevaemonisteiden-hallinta"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "x-default",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/en/blog/your-complete-yearly-planning-guide-12-month-worksheet-strategy"
+        }
+      ]
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/apps/woordkruisel-werkbladen",
+      "type": "static",
+      "sitemapId": 7,
+      "sitemapHreflangCount": 0,
+      "htmlHreflangCount": 12,
+      "issues": [
+        {
+          "check": "COUNT_MISMATCH",
+          "severity": "MEDIUM",
+          "sitemapCount": 0,
+          "htmlCount": 12,
+          "detail": "Sitemap has 0 hreflangs, HTML has 12"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "en",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/en/apps/word-scramble-worksheets"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "de",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/de/apps/buchstabensalat-arbeitsblaetter"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "fr",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/fr/apps/mots-melanges-fiches"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "es",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/es/apps/letras-revueltas-fichas"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "it",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/it/apps/anagrammi-schede"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "pt-BR",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/pt/apps/palavras-embaralhadas-fichas"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "nl",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/nl/apps/woordkruisel-werkbladen"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "sv",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/sv/apps/ordpussel-arbetsblad"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "da",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/da/apps/bogstavblanding-arbejdsark"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "no",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/no/apps/bokstavoppgaver-arbeidsark"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "fi",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/fi/apps/sanansekoitus-tyoarkit"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "x-default",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/en/apps/word-scramble-worksheets"
+        }
+      ]
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/apps/bildesti-arbeidsark",
+      "type": "static",
+      "sitemapId": 7,
+      "sitemapHreflangCount": 0,
+      "htmlHreflangCount": 12,
+      "issues": [
+        {
+          "check": "COUNT_MISMATCH",
+          "severity": "MEDIUM",
+          "sitemapCount": 0,
+          "htmlCount": 12,
+          "detail": "Sitemap has 0 hreflangs, HTML has 12"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "en",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/en/apps/picture-path-worksheets"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "de",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/de/apps/bilderpfad-arbeitsblaetter"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "fr",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/fr/apps/parcours-images-fiches"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "es",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/es/apps/laberintos-imagenes-fichas"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "it",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/it/apps/percorso-illustrato-schede"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "pt-BR",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/pt/apps/labirinto-caminhos-fichas"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "nl",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/nl/apps/doolhof-werkbladen"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "sv",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/sv/apps/bildlabyrint-arbetsblad"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "da",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/da/apps/billedsti-arbejdsark"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "no",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/no/apps/bildesti-arbeidsark"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "fi",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/fi/apps/kuvapolku-tyoarkit"
+        },
+        {
+          "check": "HTML_ONLY",
+          "severity": "HIGH",
+          "hreflang": "x-default",
+          "sitemapHref": null,
+          "htmlHref": "https://www.lessoncraftstudio.com/en/apps/picture-path-worksheets"
+        }
+      ]
+    }
+  ],
+  "sitemapRedirects": []
+}

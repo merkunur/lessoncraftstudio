@@ -1,0 +1,406 @@
+{
+  "generatedAt": "2026-02-14T18:36:03.773Z",
+  "sources": {
+    "redirectMap": {
+      "entries": 1232,
+      "file": "frontend/config/blog-cross-locale-redirects.js",
+      "generated": "2026-02-11T14:35:02.426Z"
+    },
+    "dbDump": {
+      "posts": 112,
+      "localeSlugPairs": 1232,
+      "uniqueSlugs": 1230
+    }
+  },
+  "crossReference": {
+    "dbSlugsNotInMap": [],
+    "mapSlugsNotInDb": [
+      {
+        "slug": "top-10-opgavegeneratorer-3-klasse",
+        "mapNativeLocale": "da"
+      },
+      {
+        "slug": "algoritmo-deteccion-varianza-piezas-puzzle-significativas",
+        "mapNativeLocale": "es"
+      }
+    ],
+    "nativeLocaleMismatches": [],
+    "wrongLocalesIncomplete": [],
+    "sharedSlugs": [
+      {
+        "slug": "variance-detection-algorithm-ensuring-meaningful-puzzle-pieces",
+        "dbLocales": [
+          "en",
+          "es"
+        ],
+        "mapNativeLocale": "en",
+        "inMap": true
+      },
+      {
+        "slug": "top-10-worksheet-generators-for-3rd-grade-teachers-ages-8-9",
+        "dbLocales": [
+          "en",
+          "da"
+        ],
+        "mapNativeLocale": "en",
+        "inMap": true
+      }
+    ]
+  },
+  "liveRedirectTests": {
+    "tested": 43,
+    "passed": 43,
+    "failed": 0,
+    "results": [
+      {
+        "slug": "upper-elementary-challenges-grid-drawing-complex-patterns-multi-step-logic",
+        "testLocale": "pt",
+        "nativeLocale": "en",
+        "expectRedirect": true,
+        "status": "PASS",
+        "detail": "301 → /en/blog/upper-elementary-challenges-grid-drawing-complex-patterns-multi-step-logic"
+      },
+      {
+        "slug": "1st-grade-literacy-tools-word-search-alphabet-train-writing-practice",
+        "testLocale": "nl",
+        "nativeLocale": "en",
+        "expectRedirect": true,
+        "status": "PASS",
+        "detail": "301 → /en/blog/1st-grade-literacy-tools-word-search-alphabet-train-writing-practice"
+      },
+      {
+        "slug": "critical-thinking-problem-solving-developing-higher-order-skills-with-worksheets",
+        "testLocale": "it",
+        "nativeLocale": "en",
+        "expectRedirect": true,
+        "status": "PASS",
+        "detail": "301 → /en/blog/critical-thinking-problem-solving-developing-higher-order-skills-with-worksheets"
+      },
+      {
+        "slug": "wachstumsdenken-foerdern-mit-herausfordernden-arbeitsblaettern-zur-nachhaltigen-lernhaltung",
+        "testLocale": "fr",
+        "nativeLocale": "de",
+        "expectRedirect": true,
+        "status": "PASS",
+        "detail": "301 → /de/blog/wachstumsdenken-foerdern-mit-herausfordernden-arbeitsblaettern-zur-nachhaltigen-lernhaltung"
+      },
+      {
+        "slug": "arbeitsblatt-plattformen-im-kostenvergleich-welche-lohnt-sich-wirklich",
+        "testLocale": "es",
+        "nativeLocale": "de",
+        "expectRedirect": true,
+        "status": "PASS",
+        "detail": "301 → /de/blog/arbeitsblatt-plattformen-im-kostenvergleich-welche-lohnt-sich-wirklich"
+      },
+      {
+        "slug": "33-editierbare-arbeitsblatt-generatoren-fuer-die-grundschule",
+        "testLocale": "es",
+        "nativeLocale": "de",
+        "expectRedirect": true,
+        "status": "PASS",
+        "detail": "301 → /de/blog/33-editierbare-arbeitsblatt-generatoren-fuer-die-grundschule"
+      },
+      {
+        "slug": "comparatif-des-generateurs-de-fiches-pedagogiques-lessoncraftstudio-face-a-la-concurrence",
+        "testLocale": "fi",
+        "nativeLocale": "fr",
+        "expectRedirect": true,
+        "status": "PASS",
+        "detail": "301 → /fr/blog/comparatif-des-generateurs-de-fiches-pedagogiques-lessoncraftstudio-face-a-la-concurrence"
+      },
+      {
+        "slug": "fiches-dalgebre-symbolique-puzzles-mathematiques-avec-garantie-de-solution-unique",
+        "testLocale": "pt",
+        "nativeLocale": "fr",
+        "expectRedirect": true,
+        "status": "PASS",
+        "detail": "301 → /fr/blog/fiches-dalgebre-symbolique-puzzles-mathematiques-avec-garantie-de-solution-unique"
+      },
+      {
+        "slug": "lavenir-de-leducation-tendances-technologiques-et-evolution-des-outils-pedagogiques",
+        "testLocale": "fi",
+        "nativeLocale": "fr",
+        "expectRedirect": true,
+        "status": "PASS",
+        "detail": "301 → /fr/blog/lavenir-de-leducation-tendances-technologiques-et-evolution-des-outils-pedagogiques"
+      },
+      {
+        "slug": "dispersion-anti-agrupamiento-por-que-la-aleatoriedad-mejora-la-calidad-de-las-fichas-educativas",
+        "testLocale": "nl",
+        "nativeLocale": "es",
+        "expectRedirect": true,
+        "status": "PASS",
+        "detail": "301 → /es/blog/dispersion-anti-agrupamiento-por-que-la-aleatoriedad-mejora-la-calidad-de-las-fichas-educativas"
+      },
+      {
+        "slug": "cierre-del-ano-escolar-con-sentido-reflexion-y-celebracion-del-crecimiento-academico",
+        "testLocale": "sv",
+        "nativeLocale": "es",
+        "expectRedirect": true,
+        "status": "PASS",
+        "detail": "301 → /es/blog/cierre-del-ano-escolar-con-sentido-reflexion-y-celebracion-del-crecimiento-academico"
+      },
+      {
+        "slug": "fichas-educativas-para-ninos-con-tdah-9-generadores-que-reducen-la-carga-cognitiva",
+        "testLocale": "de",
+        "nativeLocale": "es",
+        "expectRedirect": true,
+        "status": "PASS",
+        "detail": "301 → /es/blog/fichas-educativas-para-ninos-con-tdah-9-generadores-que-reducen-la-carga-cognitiva"
+      },
+      {
+        "slug": "desenho-em-grelha-com-detecao-inteligente-a-tecnica-de-leonardo-da-vinci-para-criancas",
+        "testLocale": "en",
+        "nativeLocale": "pt",
+        "expectRedirect": true,
+        "status": "PASS",
+        "detail": "301 → /pt/blog/desenho-em-grelha-com-detecao-inteligente-a-tecnica-de-leonardo-da-vinci-para-criancas"
+      },
+      {
+        "slug": "vocabulario-de-ciencias-8-geradores-de-fichas-para-integracao-curricular",
+        "testLocale": "de",
+        "nativeLocale": "pt",
+        "expectRedirect": true,
+        "status": "PASS",
+        "detail": "301 → /pt/blog/vocabulario-de-ciencias-8-geradores-de-fichas-para-integracao-curricular"
+      },
+      {
+        "slug": "primeira-semana-de-aulas-como-estabelecer-rotinas-e-expectativas-com-fichas-de-trabalho",
+        "testLocale": "nl",
+        "nativeLocale": "pt",
+        "expectRedirect": true,
+        "status": "PASS",
+        "detail": "301 → /pt/blog/primeira-semana-de-aulas-como-estabelecer-rotinas-e-expectativas-com-fichas-de-trabalho"
+      },
+      {
+        "slug": "guida-completa-ai-generatori-di-schede-didattiche-dalla-configurazione-alla-stampa",
+        "testLocale": "de",
+        "nativeLocale": "it",
+        "expectRedirect": true,
+        "status": "PASS",
+        "detail": "301 → /it/blog/guida-completa-ai-generatori-di-schede-didattiche-dalla-configurazione-alla-stampa"
+      },
+      {
+        "slug": "centri-di-apprendimento-e-rotazione-a-postazioni-gestione-efficace-del-lavoro-autonomo-in-classe",
+        "testLocale": "en",
+        "nativeLocale": "it",
+        "expectRedirect": true,
+        "status": "PASS",
+        "detail": "301 → /it/blog/centri-di-apprendimento-e-rotazione-a-postazioni-gestione-efficace-del-lavoro-autonomo-in-classe"
+      },
+      {
+        "slug": "7-generatori-di-schede-didattiche-illustrate-per-insegnare-inglese-ai-principianti",
+        "testLocale": "fi",
+        "nativeLocale": "it",
+        "expectRedirect": true,
+        "status": "PASS",
+        "detail": "301 → /it/blog/7-generatori-di-schede-didattiche-illustrate-per-insegnare-inglese-ai-principianti"
+      },
+      {
+        "slug": "kinesthetisch-leren-6-werkbladgeneratoren-voor-bewegingsgerichte-leerlingen",
+        "testLocale": "fi",
+        "nativeLocale": "nl",
+        "expectRedirect": true,
+        "status": "PASS",
+        "detail": "301 → /nl/blog/kinesthetisch-leren-6-werkbladgeneratoren-voor-bewegingsgerichte-leerlingen"
+      },
+      {
+        "slug": "zelfstandig-werken-zo-leer-je-leerlingen-zelfsturend-werken-met-werkbladen",
+        "testLocale": "es",
+        "nativeLocale": "nl",
+        "expectRedirect": true,
+        "status": "PASS",
+        "detail": "301 → /nl/blog/zelfstandig-werken-zo-leer-je-leerlingen-zelfsturend-werken-met-werkbladen"
+      },
+      {
+        "slug": "top-10-werkblad-generatoren-voor-groep-2-leerkrachten-5-6-jaar",
+        "testLocale": "de",
+        "nativeLocale": "nl",
+        "expectRedirect": true,
+        "status": "PASS",
+        "detail": "301 → /nl/blog/top-10-werkblad-generatoren-voor-groep-2-leerkrachten-5-6-jaar"
+      },
+      {
+        "slug": "undervisningens-fremtid-teknologitrends-og-opgavearks-udvikling",
+        "testLocale": "no",
+        "nativeLocale": "da",
+        "expectRedirect": true,
+        "status": "PASS",
+        "detail": "301 → /da/blog/undervisningens-fremtid-teknologitrends-og-opgavearks-udvikling"
+      },
+      {
+        "slug": "tidsbesparende-arbejdsgang-batch-forberedelse-og-maanedlig-planlaegning-for-laerere",
+        "testLocale": "de",
+        "nativeLocale": "da",
+        "expectRedirect": true,
+        "status": "PASS",
+        "detail": "301 → /da/blog/tidsbesparende-arbejdsgang-batch-forberedelse-og-maanedlig-planlaegning-for-laerere"
+      },
+      {
+        "slug": "opgavegenerator-sammenligning-lessoncraftstudio-vs-konkurrenter",
+        "testLocale": "de",
+        "nativeLocale": "da",
+        "expectRedirect": true,
+        "status": "PASS",
+        "detail": "301 → /da/blog/opgavegenerator-sammenligning-lessoncraftstudio-vs-konkurrenter"
+      },
+      {
+        "slug": "flerspraakiga-arbetsbladsgeneratorer-varfoer-svenska-laerare-behoever-verktyg-paa-svenska",
+        "testLocale": "fi",
+        "nativeLocale": "sv",
+        "expectRedirect": true,
+        "status": "PASS",
+        "detail": "301 → /sv/blog/flerspraakiga-arbetsbladsgeneratorer-varfoer-svenska-laerare-behoever-verktyg-paa-svenska"
+      },
+      {
+        "slug": "kommersiell-licens-saelja-arbetsblad-paa-tpt-etsy-och-laerarmarknadsplatser",
+        "testLocale": "es",
+        "nativeLocale": "sv",
+        "expectRedirect": true,
+        "status": "PASS",
+        "detail": "301 → /sv/blog/kommersiell-licens-saelja-arbetsblad-paa-tpt-etsy-och-laerarmarknadsplatser"
+      },
+      {
+        "slug": "topp-10-arbetsbladsgeneratorer-foer-aarskurs-4-5-9-11-aar",
+        "testLocale": "nl",
+        "nativeLocale": "sv",
+        "expectRedirect": true,
+        "status": "PASS",
+        "detail": "301 → /sv/blog/topp-10-arbetsbladsgeneratorer-foer-aarskurs-4-5-9-11-aar"
+      },
+      {
+        "slug": "bildebasert-kryssordgenerator-redigering-etter-generering",
+        "testLocale": "fi",
+        "nativeLocale": "no",
+        "expectRedirect": true,
+        "status": "PASS",
+        "detail": "301 → /no/blog/bildebasert-kryssordgenerator-redigering-etter-generering"
+      },
+      {
+        "slug": "realfag-i-praksis-slik-kombinerer-du-oppgaveark-med-hands-on-aktiviteter",
+        "testLocale": "fr",
+        "nativeLocale": "no",
+        "expectRedirect": true,
+        "status": "PASS",
+        "detail": "301 → /no/blog/realfag-i-praksis-slik-kombinerer-du-oppgaveark-med-hands-on-aktiviteter"
+      },
+      {
+        "slug": "selvstendig-arbeidstid-utvikle-elevautonomi-med-arbeidsark",
+        "testLocale": "es",
+        "nativeLocale": "no",
+        "expectRedirect": true,
+        "status": "PASS",
+        "detail": "301 → /no/blog/selvstendig-arbeidstid-utvikle-elevautonomi-med-arbeidsark"
+      },
+      {
+        "slug": "esiopetuksen-hienomotoriset-harjoitukset-viivojen-piirtaeminen-kuviojuna-ja-leikkausharjoitukset",
+        "testLocale": "da",
+        "nativeLocale": "fi",
+        "expectRedirect": true,
+        "status": "PASS",
+        "detail": "301 → /fi/blog/esiopetuksen-hienomotoriset-harjoitukset-viivojen-piirtaeminen-kuviojuna-ja-leikkausharjoitukset"
+      },
+      {
+        "slug": "musiikki-ja-taide-oppimisessa-luovat-tehtaevaet-taiteelliseen-ilmaisuun",
+        "testLocale": "pt",
+        "nativeLocale": "fi",
+        "expectRedirect": true,
+        "status": "PASS",
+        "detail": "301 → /fi/blog/musiikki-ja-taide-oppimisessa-luovat-tehtaevaet-taiteelliseen-ilmaisuun"
+      },
+      {
+        "slug": "tulostettu-vai-digitaalinen-tehtaevaemoniste-oikean-muodon-valinta-opetuskaeyttoeoen",
+        "testLocale": "sv",
+        "nativeLocale": "fi",
+        "expectRedirect": true,
+        "status": "PASS",
+        "detail": "301 → /fi/blog/tulostettu-vai-digitaalinen-tehtaevaemoniste-oikean-muodon-valinta-opetuskaeyttoeoen"
+      },
+      {
+        "slug": "aemnesoevergripande-undervisning-saa-integrerar-du-flera-aemnen-med-arbetsblad",
+        "testLocale": "sv",
+        "nativeLocale": "sv",
+        "expectRedirect": false,
+        "status": "PASS",
+        "detail": "200 OK"
+      },
+      {
+        "slug": "creative-assessment-alternatives-beyond-traditional-tests",
+        "testLocale": "en",
+        "nativeLocale": "en",
+        "expectRedirect": false,
+        "status": "PASS",
+        "detail": "200 OK"
+      },
+      {
+        "slug": "proeveforberedelse-uten-stress-praktiske-strategier-for-nasjonale-proever",
+        "testLocale": "no",
+        "nativeLocale": "no",
+        "expectRedirect": false,
+        "status": "PASS",
+        "detail": "200 OK"
+      },
+      {
+        "slug": "geradores-de-fichas-para-ensino-domestico-apoio-completo-ao-curriculo-familiar",
+        "testLocale": "pt",
+        "nativeLocale": "pt",
+        "expectRedirect": false,
+        "status": "PASS",
+        "detail": "200 OK"
+      },
+      {
+        "slug": "teoria-dellapprendimento-ortografico-come-i-giochi-di-parole-sviluppano-lautomatismo-nella-lettura",
+        "testLocale": "it",
+        "nativeLocale": "it",
+        "expectRedirect": false,
+        "status": "PASS",
+        "detail": "200 OK"
+      },
+      {
+        "slug": "jeg-finder-opgaver-med-nul-overlap-algoritme-professionelle-layouts-paa-3-minutter",
+        "testLocale": "da",
+        "nativeLocale": "da",
+        "expectRedirect": false,
+        "status": "PASS",
+        "detail": "200 OK"
+      },
+      {
+        "slug": "superare-lansia-matematica-6-generatori-di-schede-a-bassa-pressione",
+        "testLocale": "it",
+        "nativeLocale": "it",
+        "expectRedirect": false,
+        "status": "PASS",
+        "detail": "200 OK"
+      },
+      {
+        "slug": "back-to-school-seasonal-worksheet-planning-year-round-content-strategy",
+        "testLocale": "en",
+        "nativeLocale": "en",
+        "expectRedirect": false,
+        "status": "PASS",
+        "detail": "200 OK"
+      },
+      {
+        "slug": "komma-igaang-guide-foer-nya-laerare-grundlaeggande-system-foer-arbetsblad-och-klassrumsledning",
+        "testLocale": "sv",
+        "nativeLocale": "sv",
+        "expectRedirect": false,
+        "status": "PASS",
+        "detail": "200 OK"
+      },
+      {
+        "slug": "topp-10-oppgavegeneratorer-for-foerstetrinn-6-aaringer",
+        "testLocale": "no",
+        "nativeLocale": "no",
+        "expectRedirect": false,
+        "status": "PASS",
+        "detail": "200 OK"
+      }
+    ]
+  },
+  "summary": {
+    "mapIsComplete": false,
+    "totalCrossRefIssues": 2,
+    "liveTestsPassed": true
+  }
+}

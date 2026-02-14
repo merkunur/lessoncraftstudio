@@ -1,0 +1,59 @@
+{
+  "generatedAt": "2026-02-14T20:36:57.052Z",
+  "config": {
+    "baseUrl": "https://www.lessoncraftstudio.com",
+    "sitemapOnly": false
+  },
+  "sitemapStats": {
+    "totalUrls": 6820,
+    "urlsWithHreflang": 5225,
+    "bySection": {
+      "0": 110,
+      "1": 363,
+      "2": 143,
+      "3": 550,
+      "4": 2750,
+      "5": 77,
+      "6": 1232,
+      "7": 1595
+    },
+    "byType": {
+      "static": 110,
+      "product": 363,
+      "category-grade": 143,
+      "theme": 550,
+      "theme-grade": 2750,
+      "blog-category": 77,
+      "blog": 1232,
+      "unknown": 1595
+    }
+  },
+  "summary": {
+    "totalIssues": 0,
+    "byCheck": {},
+    "byType": {},
+    "bySeverity": {},
+    "passed": true
+  },
+  "sitemapValidation": {
+    "symmetryPairsChecked": 57475,
+    "selfRefChecked": 5225,
+    "xDefaultChecked": 5225,
+    "issueCount": 0,
+    "issues": []
+  },
+  "htmlValidation": {
+    "sampleSize": 231,
+    "totalFetched": 231,
+    "fetchErrors": 0,
+    "parityIssueCount": 0,
+    "canonicalIssueCount": 0,
+    "parityIssues": [],
+    "canonicalIssues": []
+  },
+  "redirectValidation": {
+    "targetsChecked": 500,
+    "redirectIssueCount": 0,
+    "redirectIssues": []
+  }
+}

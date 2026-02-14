@@ -43,6 +43,24 @@ const themeAppToSampleApp: Record<string, string> = {
   'big-small-app': 'big-small',
 };
 
+// Theme ID → image library folder name mapping
+// Most themes use themeId directly as folder name; these 13 differ
+const themeToImageFolder: Record<string, string> = {
+  body: 'body parts',
+  xmas: 'christmas',
+  school: 'classroom',
+  farm: 'farm animals',
+  forest: 'forest creatures',
+  insects: 'insects and bugs',
+  jobs: 'occupations',
+  ocean: 'ocean life',
+  transportation: 'vehicles',
+  zoo: 'zoo animals',
+  household: 'around the house',
+  cooking: 'kitchen tools',
+  construction: 'tools',
+};
+
 async function fileExists(filePath: string): Promise<boolean> {
   try {
     await fs.access(filePath);
@@ -58,7 +76,8 @@ async function fileExists(filePath: string): Promise<boolean> {
  * Returns empty array if directory doesn't exist (dev fallback).
  */
 export async function getThemePreviewImages(themeId: string, count: number = 6): Promise<string[]> {
-  const dir = path.join(IMAGE_LIBRARY_BASE, themeId);
+  const folderName = themeToImageFolder[themeId] || themeId;
+  const dir = path.join(IMAGE_LIBRARY_BASE, folderName);
 
   try {
     const exists = await fileExists(dir);
@@ -70,7 +89,8 @@ export async function getThemePreviewImages(themeId: string, count: number = 6):
       .sort() // deterministic order
       .slice(0, count);
 
-    return pngs.map(f => `/image-library/${themeId}/${f}`);
+    const urlFolder = encodeURIComponent(folderName);
+    return pngs.map(f => `/image-library/${urlFolder}/${encodeURIComponent(f)}`);
   } catch {
     return [];
   }

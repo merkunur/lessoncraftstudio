@@ -130,4 +130,12 @@ tmpclaude-*-cwd
 bfg.jar
 backups/
 C:temp*
+C:Users*
 image library/
+
+# ============================================
+# ASSET DIRECTORIES (local only, not in git)
+# ============================================
+blog thumbnails/
+pinterest-pins/
+tpt-thumbnails/

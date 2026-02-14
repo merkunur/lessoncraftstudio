@@ -419,6 +419,36 @@ curl -I "https://www.lessoncraftstudio.com/samples/english/addition/sample-1.jpe
 - **NEVER** run TRUNCATE or bulk DELETE on users or subscriptions tables
 - **NEVER** delete or modify `/opt/lessoncraftstudio/stripe-backup/`
 
+## Enriched Content System (Landing Page SEO)
+
+550 content files provide theme-specific educational content for all 50 themes x 11 locales:
+
+| Component | Location |
+|-----------|----------|
+| Content files | `frontend/content/themes/[theme]/[locale].ts` |
+| Type definitions | `frontend/content/themes/types.ts` |
+| Content loader | `frontend/content/themes/index.ts` |
+| Registration | `frontend/content/themes/register-all.ts` |
+| Components | `frontend/components/theme-page/` (7 components) |
+| App mapping | `frontend/config/theme-app-mapping.ts` |
+| Theme categories | `frontend/config/theme-categories.ts` |
+| UI labels | `frontend/config/theme-page-labels.ts` |
+| Theme slugs | `frontend/config/theme-slugs.ts` |
+| Grade slugs | `frontend/config/grade-slugs.ts` |
+| Validation | `scripts/validate-theme-content.js` |
+| Live validation | `scripts/validate-live-pages.js` |
+
+### NEVER DO LIST - Enriched Content
+- **NEVER** bulk-delete `frontend/content/themes/` directory
+- **NEVER** remove `register-all.ts` imports without migrating content
+- **NEVER** remove type definitions from `types.ts` that content files depend on
+- **NEVER** change the self-registration pattern without updating all 550 files
+
+### Maintenance Guide
+See `docs/ENRICHED-CONTENT-GUIDE.md` for how to add themes, update content, and validate.
+
+---
+
 ## Reference Folders (Source of Truth)
 - `REFERENCE APPS/` - 33 worksheet generator HTML files
 - `REFERENCE TRANSLATIONS/` - Translation JS files

@@ -1,4 +1,4 @@
-import { registerThemeContent } from '../index';
+import { registerThemeContent } from '../registry';
 import type { EnrichedThemeContent } from '../types';
 
 const content: EnrichedThemeContent = {

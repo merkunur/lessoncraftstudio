@@ -5,27 +5,15 @@
 
 import type { EnrichedThemeContent, ThemeId, GradeId, GradeLearningContent } from './types';
 import { getThemeContent as getLegacyContent, type ThemePageContent } from '@/config/theme-page-content';
+import { enrichedRegistry, registerThemeContent } from './registry';
 
-// Re-export ThemePageContent type for pages that need it for type narrowing
+// Re-export for consumers
+export { registerThemeContent } from './registry';
 export type { ThemePageContent } from '@/config/theme-page-content';
 
 // Load all registered enriched content files
+// This must come AFTER the registry import so registerThemeContent is available
 import './register-all';
-
-// -- Registry ----------------------------------------------------------------
-
-/** Registry of enriched content, populated by per-theme locale files */
-const enrichedRegistry: Partial<Record<ThemeId, Partial<Record<string, EnrichedThemeContent>>>> = {};
-
-/** Called by each theme's locale file to self-register its content */
-export function registerThemeContent(
-  themeId: ThemeId,
-  locale: string,
-  content: EnrichedThemeContent,
-): void {
-  if (!enrichedRegistry[themeId]) enrichedRegistry[themeId] = {};
-  enrichedRegistry[themeId]![locale] = content;
-}
 
 // -- Loaders -----------------------------------------------------------------
 

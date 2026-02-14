@@ -1159,3 +1159,194 @@ export function getCategoryForApp(appId: string): string | null {
   const app = appsConfig.find(a => a.id === appId);
   return app?.category || null;
 }
+
+// ============================================================
+// Blog -> Theme cross-linking (zero DB queries, pure in-memory)
+// ============================================================
+
+/**
+ * Set of all 49 theme IDs for O(1) lookup
+ */
+const THEME_ID_SET = new Set([
+  'alphabet', 'animals', 'birds', 'birthday', 'body', 'camping', 'circus',
+  'clothing', 'colors', 'construction', 'cooking', 'dinosaurs', 'easter',
+  'emotions', 'fairy-tales', 'farm', 'flowers', 'food', 'forest', 'fruits',
+  'furniture', 'garden', 'halloween', 'holidays', 'household', 'insects',
+  'jobs', 'music', 'nature', 'numbers', 'ocean', 'pets', 'pirates',
+  'robots', 'school', 'seasons', 'shapes', 'space', 'sports', 'spring',
+  'summer', 'superheroes', 'toys', 'transportation', 'travel', 'vegetables',
+  'weather', 'winter', 'xmas', 'zoo',
+]);
+
+/**
+ * Maps non-obvious blog keywords to theme IDs.
+ * Only needed for indirect matches (direct matches where keyword === themeId are automatic).
+ */
+const KEYWORD_TO_THEME_MAP: Record<string, string[]> = {
+  // Math / Numbers
+  'addition': ['numbers', 'school'],
+  'subtraction': ['numbers', 'school'],
+  'math': ['numbers', 'school'],
+  'counting': ['numbers'],
+  'multiplication': ['numbers', 'school'],
+
+  // Language Arts
+  'vocabulary': ['alphabet', 'school'],
+  'words': ['alphabet'],
+  'letters': ['alphabet'],
+  'writing': ['alphabet', 'school'],
+  'handwriting': ['alphabet', 'school'],
+  'spelling': ['alphabet', 'school'],
+  'reading': ['alphabet', 'school'],
+
+  // Animals & Nature
+  'animal': ['animals', 'zoo', 'farm', 'pets'],
+  'cat': ['pets', 'animals'],
+  'dog': ['pets', 'animals'],
+  'fish': ['ocean', 'pets'],
+  'bird': ['birds', 'nature'],
+  'butterfly': ['insects', 'nature'],
+  'bee': ['insects', 'garden'],
+  'horse': ['farm', 'animals'],
+  'cow': ['farm', 'animals'],
+  'dinosaur': ['dinosaurs'],
+  'insect': ['insects', 'nature'],
+  'bug': ['insects', 'garden'],
+  'ocean': ['ocean'],
+  'sea': ['ocean', 'nature'],
+  'forest': ['forest', 'nature'],
+  'tree': ['forest', 'nature'],
+  'plant': ['garden', 'nature'],
+  'flower': ['flowers', 'garden'],
+
+  // Seasonal
+  'christmas': ['xmas', 'winter', 'holidays'],
+  'halloween': ['halloween'],
+  'easter': ['easter', 'spring'],
+  'valentine': ['holidays'],
+  'thanksgiving': ['holidays'],
+  'autumn': ['seasons'],
+  'fall': ['seasons'],
+  'winter': ['winter', 'seasons'],
+  'spring': ['spring', 'seasons'],
+  'summer': ['summer', 'seasons'],
+  'snow': ['winter', 'weather'],
+  'rain': ['weather', 'nature'],
+  'sun': ['summer', 'weather', 'space'],
+
+  // Daily life
+  'food': ['food', 'cooking', 'fruits', 'vegetables'],
+  'fruit': ['fruits', 'food'],
+  'vegetable': ['vegetables', 'food'],
+  'cooking': ['cooking', 'food'],
+  'clothes': ['clothing'],
+  'house': ['household', 'furniture'],
+  'home': ['household', 'furniture'],
+  'furniture': ['furniture', 'household'],
+  'garden': ['garden', 'flowers'],
+
+  // Adventure & Fantasy
+  'pirate': ['pirates'],
+  'robot': ['robots', 'space'],
+  'superhero': ['superheroes'],
+  'fairy': ['fairy-tales'],
+  'princess': ['fairy-tales'],
+  'dragon': ['fairy-tales', 'dinosaurs'],
+  'space': ['space'],
+  'planet': ['space'],
+  'rocket': ['space', 'transportation'],
+
+  // Skills & Activities
+  'coloring': ['animals', 'nature'],
+  'puzzle': ['numbers', 'alphabet'],
+  'game': ['toys', 'sports'],
+  'sport': ['sports'],
+  'music': ['music'],
+  'art': ['colors'],
+  'color': ['colors'],
+  'shape': ['shapes'],
+  'pattern': ['shapes', 'numbers'],
+
+  // Transport & Travel
+  'car': ['transportation', 'travel'],
+  'vehicle': ['transportation'],
+  'train': ['transportation', 'travel'],
+  'airplane': ['transportation', 'travel'],
+  'travel': ['travel', 'transportation'],
+
+  // People & Society
+  'job': ['jobs'],
+  'career': ['jobs'],
+  'profession': ['jobs'],
+  'emotion': ['emotions', 'body'],
+  'feeling': ['emotions'],
+  'body': ['body'],
+
+  // Places
+  'farm': ['farm', 'animals'],
+  'zoo': ['zoo', 'animals'],
+  'circus': ['circus'],
+  'school': ['school', 'alphabet', 'numbers'],
+  'camping': ['camping', 'nature', 'forest'],
+  'birthday': ['birthday', 'holidays'],
+  'construction': ['construction'],
+  'toy': ['toys'],
+
+  // Preschool & Kindergarten
+  'preschool': ['alphabet', 'numbers', 'colors', 'shapes', 'animals'],
+  'kindergarten': ['alphabet', 'numbers', 'colors', 'shapes'],
+  'toddler': ['colors', 'shapes', 'animals'],
+  'fine motor': ['alphabet', 'shapes'],
+};
+
+/**
+ * Find related theme IDs for a set of blog post keywords.
+ * Pure synchronous in-memory computation - zero DB queries.
+ *
+ * Scoring:
+ * - Direct match: keyword IS a theme ID -> +5 points
+ * - Indirect match: keyword in KEYWORD_TO_THEME_MAP -> +2 points per mapped theme
+ * - Partial match: keyword contains a theme ID or vice versa -> +1 point
+ *
+ * @param keywords - Blog post keywords array
+ * @param limit - Maximum themes to return (default: 3)
+ * @returns Array of theme IDs sorted by relevance score
+ */
+export function getRelatedThemesForKeywords(keywords: string[], limit: number = 3): string[] {
+  if (!keywords || keywords.length === 0) return [];
+
+  const themeScores = new Map<string, number>();
+
+  for (const keyword of keywords) {
+    const kw = keyword.toLowerCase().trim();
+    if (!kw) continue;
+
+    // Direct match: keyword IS a theme ID
+    if (THEME_ID_SET.has(kw)) {
+      themeScores.set(kw, (themeScores.get(kw) || 0) + 5);
+    }
+
+    // Indirect match via KEYWORD_TO_THEME_MAP
+    const mapped = KEYWORD_TO_THEME_MAP[kw];
+    if (mapped) {
+      for (const themeId of mapped) {
+        themeScores.set(themeId, (themeScores.get(themeId) || 0) + 2);
+      }
+    }
+
+    // Partial match: keyword contains a theme ID or vice versa
+    for (const themeId of THEME_ID_SET) {
+      if (themeId.length >= 4 && kw !== themeId) {
+        if (kw.includes(themeId) || themeId.includes(kw)) {
+          themeScores.set(themeId, (themeScores.get(themeId) || 0) + 1);
+        }
+      }
+    }
+  }
+
+  // Sort by score descending, return top N theme IDs
+  return Array.from(themeScores.entries())
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, limit)
+    .map(([themeId]) => themeId);
+}

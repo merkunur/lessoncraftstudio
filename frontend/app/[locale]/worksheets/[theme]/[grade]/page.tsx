@@ -8,9 +8,11 @@ import {
   ogLocaleMap,
   generateFAQSchema,
   localizedHomeLabel,
+  generateLearningResourceSchema,
+  generateEducationalAudienceSchema,
+  generateThemeWebPageSchema,
 } from '@/lib/schema-generator';
 import { getSlugForLocale, type SupportedLocale } from '@/config/product-page-slugs';
-import { themeContent, getThemeContent } from '@/config/theme-page-content';
 import { getThemeIdFromSlug, getThemeSlug } from '@/config/theme-slugs';
 import {
   GRADE_IDS,
@@ -21,22 +23,40 @@ import {
   gradeAgeRanges,
 } from '@/config/grade-slugs';
 import { getThemePreviewImages, getAppThumbnailMap, getLocalizedAppDisplayName } from '@/lib/theme-images';
-
+import { getRelatedBlogPostsForTheme } from '@/lib/blog-data';
+import RelatedBlogPosts from '@/components/product-page/RelatedBlogPosts';
+import {
+  worksheetsLabel,
+  tryNowLabel,
+  faqHeading,
+  otherGradesLabel,
+  otherThemesLabel,
+  readMoreLabel,
+  viewAllGradeAppsLabel,
+} from '@/config/theme-page-labels';
+import {
+  getThemeContentWithFallback,
+  getEnrichedGradeContent,
+  isEnrichedContent,
+  type ThemePageContent,
+} from '@/content/themes/index';
+import type { EnrichedThemeContent, GradeId } from '@/content/themes/types';
+import { ALL_THEME_IDS } from '@/content/themes/types';
+import { getThemeGradeCuratedApps } from '@/config/theme-app-mapping';
+import GradeEducationalContent from '@/components/theme-page/GradeEducationalContent';
+import ThemeLearningObjectives from '@/components/theme-page/ThemeLearningObjectives';
 export const revalidate = 3600;
 
 // ── Static params ─────────────────────────────────────────────────
 
 export function generateStaticParams() {
   const params: { locale: string; theme: string; grade: string }[] = [];
-  const themeIds = Object.keys(themeContent);
 
   for (const locale of SUPPORTED_LOCALES) {
-    for (const themeId of themeIds) {
+    for (const themeId of ALL_THEME_IDS) {
       const themeSlug = getThemeSlug(themeId, locale);
       if (!themeSlug) continue;
-      const hasContent = themeContent[themeId]?.[locale] || themeContent[themeId]?.en;
-      if (!hasContent) continue;
-
+      // Enriched content exists for all 50 themes x 11 locales
       for (const gradeId of GRADE_IDS) {
         const gradeSlug = getGradeSlug(gradeId, locale);
         if (gradeSlug) {
@@ -63,21 +83,33 @@ export async function generateMetadata({
   const notFoundMeta: Metadata = { title: 'Not Found', robots: { index: false, follow: false } };
   if (!themeId || !gradeId) return notFoundMeta;
 
-  const themeData = getThemeContent(themeId, locale);
-  if (!themeData) return notFoundMeta;
+  const content = getThemeContentWithFallback(themeId, locale);
+  if (!content) return notFoundMeta;
 
   const gradeName = getGradeDisplayName(gradeId, locale);
-  const themeName = themeData.name;
+  const themeName = content.name;
   const currentThemeSlug = getThemeSlug(themeId, locale) || params.theme;
   const currentGradeSlug = getGradeSlug(gradeId, locale) || params.grade;
+
+  // Check for enriched grade content for better meta description
+  const gradeContentMeta = getEnrichedGradeContent(themeId, gradeId, locale);
 
   // Localized title patterns
   const title = locale === 'en'
     ? `Free ${themeName} Worksheets for ${gradeName} | LessonCraftStudio`
     : `${themeName} ${worksheetsLabel[locale] || 'Worksheets'} ${gradeName} | LessonCraftStudio`;
-  const description = locale === 'en'
-    ? `Create free printable ${themeName.toLowerCase()}-themed worksheets for ${gradeName}. Age-appropriate math, reading, and puzzle activities. Download and print instantly.`
-    : `${themeName} ${worksheetsLabel[locale] || ''} ${gradeName}. ${themeData.description}`;
+
+  // Use grade-specific intro snippet if available
+  let description: string;
+  if (gradeContentMeta?.intro) {
+    const intro = gradeContentMeta.intro;
+    const periodIdx = intro.indexOf('.', 140);
+    description = periodIdx > 0 && periodIdx < 200 ? intro.slice(0, periodIdx + 1) : intro.slice(0, 160).trim() + '...';
+  } else {
+    description = locale === 'en'
+      ? `Create free printable ${themeName.toLowerCase()}-themed worksheets for ${gradeName}. Age-appropriate math, reading, and puzzle activities. Download and print instantly.`
+      : `${themeName} ${worksheetsLabel[locale] || ''} ${gradeName}. ${content.description}`;
+  }
 
   // Build hreflang alternates
   const hreflangAlternates: Record<string, string> = {};
@@ -97,7 +129,7 @@ export async function generateMetadata({
   return {
     title,
     description,
-    keywords: `${themeName.toLowerCase()} ${gradeName.toLowerCase()} worksheets, ${themeData.keywords}`,
+    keywords: `${themeName.toLowerCase()} ${gradeName.toLowerCase()} worksheets, ${content.keywords}`,
     robots: {
       index: true,
       follow: true,
@@ -124,47 +156,6 @@ export async function generateMetadata({
   };
 }
 
-// ── Localized UI labels ───────────────────────────────────────────
-
-const worksheetsLabel: Record<string, string> = {
-  en: 'Worksheets', de: 'Arbeitsbl\u00e4tter', fr: 'Fiches', es: 'Fichas',
-  pt: 'Atividades', it: 'Schede', nl: 'Werkbladen', sv: 'Arbetsblad',
-  da: 'Arbejdsark', no: 'Arbeidsark', fi: 'Ty\u00f6lehdet',
-};
-
-const tryNowLabel: Record<string, string> = {
-  en: 'Create Now', de: 'Jetzt erstellen', fr: 'Cr\u00e9er', es: 'Crear ahora',
-  pt: 'Criar agora', it: 'Crea ora', nl: 'Nu maken', sv: 'Skapa nu',
-  da: 'Opret nu', no: 'Lag n\u00e5', fi: 'Luo nyt',
-};
-
-const faqHeading: Record<string, string> = {
-  en: 'Frequently Asked Questions', de: 'H\u00e4ufig gestellte Fragen',
-  fr: 'Questions fr\u00e9quentes', es: 'Preguntas frecuentes',
-  pt: 'Perguntas frequentes', it: 'Domande frequenti',
-  nl: 'Veelgestelde vragen', sv: 'Vanliga fr\u00e5gor',
-  da: 'Ofte stillede sp\u00f8rgsm\u00e5l', no: 'Ofte stilte sp\u00f8rsm\u00e5l',
-  fi: 'Usein kysytyt kysymykset',
-};
-
-const otherGradesLabel: Record<string, string> = {
-  en: 'Other Grade Levels', de: 'Andere Klassenstufen',
-  fr: 'Autres niveaux', es: 'Otros grados',
-  pt: 'Outros n\u00edveis', it: 'Altri livelli',
-  nl: 'Andere niveaus', sv: 'Andra \u00e5rskurser',
-  da: 'Andre klassetrin', no: 'Andre klassetrinn',
-  fi: 'Muut luokka-asteet',
-};
-
-const otherThemesLabel: Record<string, string> = {
-  en: 'More Themes', de: 'Weitere Themen',
-  fr: 'Autres th\u00e8mes', es: 'M\u00e1s temas',
-  pt: 'Mais temas', it: 'Altri temi',
-  nl: 'Meer thema\u2019s', sv: 'Fler teman',
-  da: 'Flere temaer', no: 'Flere temaer',
-  fi: 'Lis\u00e4\u00e4 teemoja',
-};
-
 // ── Page component ────────────────────────────────────────────────
 
 export default async function ThemeGradePage({
@@ -178,10 +169,13 @@ export default async function ThemeGradePage({
 
   if (!themeId || !gradeId) notFound();
 
-  const themeData = getThemeContent(themeId, locale);
-  if (!themeData) notFound();
+  const content = getThemeContentWithFallback(themeId, locale);
+  if (!content) notFound();
 
-  const themeName = themeData.name;
+  const enriched = isEnrichedContent(content);
+  const enrichedContent = enriched ? (content as EnrichedThemeContent) : null;
+
+  const themeName = content.name;
   const gradeName = getGradeDisplayName(gradeId, locale);
   const ageRange = gradeAgeRanges[gradeId]?.[locale] ?? gradeAgeRanges[gradeId]?.en ?? '';
   const currentThemeSlug = getThemeSlug(themeId, locale) || params.theme;
@@ -189,13 +183,18 @@ export default async function ThemeGradePage({
   const baseUrl = 'https://www.lessoncraftstudio.com';
   const pageUrl = `${baseUrl}/${locale}/worksheets/${currentThemeSlug}/${currentGradeSlug}`;
 
-  // Filter apps: intersection of theme apps and grade-appropriate apps
-  const filteredAppIds = getGradeFilteredApps(gradeId, themeData.appIds);
+  const gradeContent = getEnrichedGradeContent(themeId, gradeId, locale);
 
-  // Fetch theme preview images and app thumbnails in parallel
-  const [themeImages, thumbnailMap] = await Promise.all([
+  // Filter apps: enriched themes use curated list, legacy use grade filter
+  const filteredAppIds = enriched
+    ? getThemeGradeCuratedApps(themeId, gradeId)
+    : getGradeFilteredApps(gradeId, (content as ThemePageContent).appIds);
+
+  // Fetch theme preview images, app thumbnails, and related blog posts in parallel
+  const [themeImages, thumbnailMap, relatedBlogPosts] = await Promise.all([
     getThemePreviewImages(themeId, 6),
     getAppThumbnailMap(filteredAppIds, locale),
+    getRelatedBlogPostsForTheme(themeId, filteredAppIds, locale, 3),
   ]);
 
   const apps = filteredAppIds.map(appId => {
@@ -214,10 +213,10 @@ export default async function ThemeGradePage({
     .filter(Boolean) as Array<{ id: string; slug: string; name: string }>;
 
   // Build links to related themes for this grade
-  const relatedThemeLinks = themeData.relatedThemes
+  const relatedThemeLinks = content.relatedThemes
     .slice(0, 5)
     .map(rtId => {
-      const rtContent = getThemeContent(rtId, locale);
+      const rtContent = getThemeContentWithFallback(rtId, locale);
       const rtSlug = getThemeSlug(rtId, locale);
       if (!rtContent || !rtSlug) return null;
       return { id: rtId, name: rtContent.name, slug: rtSlug };
@@ -229,27 +228,37 @@ export default async function ThemeGradePage({
     ? `Free ${themeName} Worksheets for ${gradeName}`
     : `${themeName} ${worksheetsLabel[locale] || 'Worksheets'} ${gradeName}`;
 
+  // FAQ items: grade-specific if enriched, otherwise parent theme slice
+  const faqItems = gradeContent?.faq ?? content.faq.slice(0, 3);
+
   // JSON-LD schemas
-  const faqSchema = generateFAQSchema(themeData.faq.slice(0, 3), locale, pageUrl);
+  const faqSchema = generateFAQSchema(faqItems, locale, pageUrl);
 
   const themeImageUrls = themeImages.map(img => `${baseUrl}${img}`);
 
   const collectionSchema: Record<string, unknown> = {
     '@context': 'https://schema.org',
     '@type': 'CollectionPage',
+    '@id': `${pageUrl}#collectionpage`,
     name: heading,
     description: `${themeName} worksheets for ${gradeName} (${ageRange})`,
     url: pageUrl,
     inLanguage: getHreflangCode(locale),
-    audience: {
-      '@type': 'EducationalAudience',
-      educationalRole: 'student',
-      suggestedAge: ageRange,
-    },
+    audience: gradeContent
+      ? generateEducationalAudienceSchema(gradeId, gradeName)
+      : {
+          '@type': 'EducationalAudience',
+          educationalRole: 'student',
+          suggestedAge: ageRange,
+        },
     isPartOf: {
       '@type': 'WebSite',
       name: 'LessonCraftStudio',
       url: baseUrl,
+    },
+    publisher: {
+      '@type': 'EducationalOrganization',
+      '@id': `${baseUrl}/#organization`,
     },
     about: {
       '@type': 'Thing',
@@ -271,6 +280,57 @@ export default async function ThemeGradePage({
   if (themeImageUrls.length > 0) {
     collectionSchema.image = themeImageUrls;
     collectionSchema.thumbnailUrl = themeImageUrls[0];
+  }
+
+  // Filter curriculum alignment to grade-relevant apps (overlap with filteredAppIds)
+  const gradeCurriculumAlignment = enrichedContent?.curriculumAlignment
+    ?.filter((ca) => ca.relatedAppIds.some((id) => filteredAppIds.includes(id)))
+    .map((ca) => ({ standard: ca.standard, framework: ca.framework, description: ca.description }));
+
+  // LearningResource schema (enriched only)
+  const learningResourceSchema = gradeContent
+    ? generateLearningResourceSchema({
+        name: heading,
+        description: gradeContent.intro.slice(0, 200),
+        url: pageUrl,
+        locale,
+        gradeId,
+        gradeName,
+        objectives: gradeContent.objectives,
+        appEntries: apps.map((app) => ({
+          name: getLocalizedAppDisplayName(app.appId, locale),
+          url: `${baseUrl}/${locale}/apps/${app.slug}`,
+        })),
+        imageUrls: themeImageUrls.length > 0 ? themeImageUrls : undefined,
+        curriculumAlignment: gradeCurriculumAlignment?.length ? gradeCurriculumAlignment : undefined,
+      })
+    : null;
+
+  // WebPage schema with E-A-T signals
+  const webPageSchema = generateThemeWebPageSchema({
+    pageName: heading,
+    pageDescription: `${themeName} worksheets for ${gradeName} (${ageRange})`,
+    pageUrl,
+    locale,
+    mainEntityId: learningResourceSchema ? `${pageUrl}#learningresource` : `${pageUrl}#collectionpage`,
+  });
+
+  // Hero intro: truncated for enriched, full for legacy
+  let heroIntro: string;
+  let heroHasReadMore = false;
+  if (gradeContent?.intro) {
+    // First ~2 sentences
+    const text = gradeContent.intro;
+    const secondPeriod = text.indexOf('.', text.indexOf('.') + 1);
+    if (secondPeriod > 0 && secondPeriod < 300) {
+      heroIntro = text.slice(0, secondPeriod + 1);
+    } else {
+      const firstPeriod = text.indexOf('.');
+      heroIntro = firstPeriod > 0 ? text.slice(0, firstPeriod + 1) : text.slice(0, 200) + '...';
+    }
+    heroHasReadMore = true;
+  } else {
+    heroIntro = content.intro;
   }
 
   const breadcrumbSchema = {
@@ -318,6 +378,16 @@ export default async function ThemeGradePage({
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
+      {learningResourceSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(learningResourceSchema) }}
+        />
+      )}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageSchema) }}
+      />
 
       {/* Hero Section */}
       <section className="bg-gradient-to-b from-teal-600 to-teal-700 text-white py-14">
@@ -346,7 +416,18 @@ export default async function ThemeGradePage({
               <h1 className="text-3xl md:text-4xl font-bold mb-2">{heading}</h1>
               <p className="text-sm text-teal-200 mb-4">{ageRange}</p>
               <p className="text-lg text-teal-100 max-w-3xl leading-relaxed">
-                {themeData.intro}
+                {heroIntro}
+                {heroHasReadMore && (
+                  <>
+                    {' '}
+                    <a
+                      href="#grade-educational-content"
+                      className="inline-flex items-center text-white underline underline-offset-2 hover:text-teal-200 font-medium"
+                    >
+                      {readMoreLabel[locale] || readMoreLabel.en} &darr;
+                    </a>
+                  </>
+                )}
               </p>
             </div>
             {themeImages.length > 0 && (
@@ -416,21 +497,46 @@ export default async function ThemeGradePage({
             <p className="text-center text-gray-500 py-8">
               {locale === 'en'
                 ? 'Explore our full collection of apps for this theme.'
-                : themeData.intro.slice(0, 100) + '...'}
+                : content.intro.slice(0, 100) + '...'}
             </p>
           )}
         </div>
       </section>
 
-      {/* FAQ Section (abbreviated) */}
-      {themeData.faq.length > 0 && (
-        <section className="py-12 bg-white">
+      {/* Grade Educational Content (enriched only) */}
+      {gradeContent && (
+        <div style={{ contentVisibility: 'auto', containIntrinsicSize: 'auto 500px' }}>
+          <GradeEducationalContent
+            gradeIntro={gradeContent.intro}
+            developmentalNotes={gradeContent.developmentalNotes}
+            teachingTips={gradeContent.teachingTips}
+            gradeName={gradeName}
+            themeName={themeName}
+            locale={locale}
+          />
+        </div>
+      )}
+
+      {/* Learning Objectives (enriched only, single-grade mode) */}
+      {gradeContent && enrichedContent && (
+        <div style={{ contentVisibility: 'auto', containIntrinsicSize: 'auto 500px' }}>
+          <ThemeLearningObjectives
+            gradeContent={enrichedContent.gradeContent}
+            locale={locale}
+            activeGrade={gradeId as GradeId}
+          />
+        </div>
+      )}
+
+      {/* FAQ Section */}
+      {faqItems.length > 0 && (
+        <section className="py-12 bg-white" style={{ contentVisibility: 'auto', containIntrinsicSize: 'auto 500px' }}>
           <div className="container mx-auto px-4 max-w-3xl">
             <h2 className="text-2xl font-bold text-gray-900 mb-8 text-center">
               {faqHeading[locale] || faqHeading.en}
             </h2>
             <div className="space-y-4">
-              {themeData.faq.slice(0, 3).map((item, i) => (
+              {faqItems.map((item, i) => (
                 <details key={i} className="group border border-gray-200 rounded-lg">
                   <summary className="flex items-center justify-between cursor-pointer p-5 font-medium text-gray-900">
                     {item.question}
@@ -446,9 +552,25 @@ export default async function ThemeGradePage({
         </section>
       )}
 
+      {/* Related Blog Posts */}
+      <div style={{ contentVisibility: 'auto', containIntrinsicSize: 'auto 500px' }}>
+        <RelatedBlogPosts locale={locale as SupportedLocale} posts={relatedBlogPosts} />
+      </div>
+
+      {/* Grade Hub Bridge Link */}
+      <div className="py-8 text-center" style={{ contentVisibility: 'auto', containIntrinsicSize: 'auto 100px' }}>
+        <Link
+          href={`/${locale}/apps/grades/${gradeId}`}
+          className="inline-flex items-center text-lg font-medium text-teal-600 hover:text-teal-800 hover:underline"
+        >
+          {(viewAllGradeAppsLabel[locale] || viewAllGradeAppsLabel.en).replace('{gradeName}', gradeName)}
+          <span className="ml-2" aria-hidden="true">&rarr;</span>
+        </Link>
+      </div>
+
       {/* Other Grade Levels */}
       {otherGrades.length > 0 && (
-        <section className="py-12">
+        <section className="py-12" style={{ contentVisibility: 'auto', containIntrinsicSize: 'auto 500px' }}>
           <div className="container mx-auto px-4">
             <h2 className="text-2xl font-bold text-gray-900 mb-6 text-center">
               {otherGradesLabel[locale] || otherGradesLabel.en}
@@ -470,7 +592,7 @@ export default async function ThemeGradePage({
 
       {/* Related Themes for this grade */}
       {relatedThemeLinks.length > 0 && (
-        <section className="py-12 bg-white">
+        <section className="py-12 bg-white" style={{ contentVisibility: 'auto', containIntrinsicSize: 'auto 300px' }}>
           <div className="container mx-auto px-4">
             <h2 className="text-2xl font-bold text-gray-900 mb-6 text-center">
               {otherThemesLabel[locale] || otherThemesLabel.en}

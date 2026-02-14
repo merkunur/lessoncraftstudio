@@ -8,11 +8,37 @@ import {
   ogLocaleMap,
   generateFAQSchema,
   localizedHomeLabel,
+  generateThemeLearningResourceSchema,
+  generateThemeWebPageSchema,
+  generateThemeImageGallerySchema,
 } from '@/lib/schema-generator';
-import { productPageSlugs, getSlugForLocale, type SupportedLocale } from '@/config/product-page-slugs';
-import { themeSlugMap, getThemeIdFromSlug, getThemeSlug } from '@/config/theme-slugs';
-import { themeContent, getThemeContent } from '@/config/theme-page-content';
+import { getSlugForLocale, type SupportedLocale } from '@/config/product-page-slugs';
+import { getThemeIdFromSlug, getThemeSlug } from '@/config/theme-slugs';
+import { GRADE_IDS, getGradeSlug, gradeDisplayNames, gradeAgeRanges } from '@/config/grade-slugs';
+import { getThemeContentWithFallback, isEnrichedContent } from '@/content/themes/index';
+import type { EnrichedThemeContent } from '@/content/themes/types';
+import { ALL_THEME_IDS } from '@/content/themes/types';
 import { getThemePreviewImages, getAppThumbnailMap, getLocalizedAppDisplayName } from '@/lib/theme-images';
+import { getRelatedBlogPostsForTheme } from '@/lib/blog-data';
+import RelatedBlogPosts from '@/components/product-page/RelatedBlogPosts';
+import {
+  worksheetsLabel,
+  tryNowLabel,
+  faqHeading,
+  relatedThemesLabel,
+  viewAllAppsLabel,
+  readMoreLabel,
+  sectionEducationalOverview,
+  sectionParentGuide,
+  exploreByGradeLabel,
+  gradeNavDescription,
+} from '@/config/theme-page-labels';
+import ThemeTeachingTips from '@/components/theme-page/ThemeTeachingTips';
+import ThemeLearningObjectives from '@/components/theme-page/ThemeLearningObjectives';
+import ThemeActivities from '@/components/theme-page/ThemeActivities';
+import ThemeSamplePreviews from '@/components/theme-page/ThemeSamplePreviews';
+import ThemeAppGrid from '@/components/theme-page/ThemeAppGrid';
+import ThemeCurriculumNotes from '@/components/theme-page/ThemeCurriculumNotes';
 
 export const revalidate = 3600;
 
@@ -20,15 +46,11 @@ export const revalidate = 3600;
 
 export function generateStaticParams() {
   const params: { locale: string; theme: string }[] = [];
-  const themeIds = Object.keys(themeContent);
 
   for (const locale of SUPPORTED_LOCALES) {
-    for (const themeId of themeIds) {
+    for (const themeId of ALL_THEME_IDS) {
       const slug = getThemeSlug(themeId, locale);
-      if (slug && themeContent[themeId]?.[locale]) {
-        params.push({ locale, theme: slug });
-      } else if (slug && themeContent[themeId]?.en) {
-        // Use English fallback content with localized slug
+      if (slug && getThemeContentWithFallback(themeId, locale)) {
         params.push({ locale, theme: slug });
       }
     }
@@ -50,7 +72,7 @@ export async function generateMetadata({
   const notFoundMeta: Metadata = { title: 'Not Found', robots: { index: false, follow: false } };
   if (!themeId) return notFoundMeta;
 
-  const content = getThemeContent(themeId, locale);
+  const content = getThemeContentWithFallback(themeId, locale);
   if (!content) return notFoundMeta;
 
   const currentSlug = getThemeSlug(themeId, locale) || params.theme;
@@ -98,78 +120,6 @@ export async function generateMetadata({
   };
 }
 
-// ── Localized UI labels ───────────────────────────────────────────
-
-const worksheetsLabel: Record<string, string> = {
-  en: 'Worksheets',
-  de: 'Arbeitsbl\u00e4tter',
-  fr: 'Fiches',
-  es: 'Fichas',
-  pt: 'Atividades',
-  it: 'Schede',
-  nl: 'Werkbladen',
-  sv: 'Arbetsblad',
-  da: 'Arbejdsark',
-  no: 'Arbeidsark',
-  fi: 'Ty\u00f6lehdet',
-};
-
-const tryNowLabel: Record<string, string> = {
-  en: 'Create Now',
-  de: 'Jetzt erstellen',
-  fr: 'Cr\u00e9er',
-  es: 'Crear ahora',
-  pt: 'Criar agora',
-  it: 'Crea ora',
-  nl: 'Nu maken',
-  sv: 'Skapa nu',
-  da: 'Opret nu',
-  no: 'Lag n\u00e5',
-  fi: 'Luo nyt',
-};
-
-const faqHeading: Record<string, string> = {
-  en: 'Frequently Asked Questions',
-  de: 'H\u00e4ufig gestellte Fragen',
-  fr: 'Questions fr\u00e9quentes',
-  es: 'Preguntas frecuentes',
-  pt: 'Perguntas frequentes',
-  it: 'Domande frequenti',
-  nl: 'Veelgestelde vragen',
-  sv: 'Vanliga fr\u00e5gor',
-  da: 'Ofte stillede sp\u00f8rgsm\u00e5l',
-  no: 'Ofte stilte sp\u00f8rsm\u00e5l',
-  fi: 'Usein kysytyt kysymykset',
-};
-
-const relatedThemesLabel: Record<string, string> = {
-  en: 'Related Themes',
-  de: 'Verwandte Themen',
-  fr: 'Th\u00e8mes associ\u00e9s',
-  es: 'Temas relacionados',
-  pt: 'Temas relacionados',
-  it: 'Temi correlati',
-  nl: 'Gerelateerde thema\u2019s',
-  sv: 'Relaterade teman',
-  da: 'Relaterede temaer',
-  no: 'Relaterte temaer',
-  fi: 'Aiheeseen liittyv\u00e4t teemat',
-};
-
-const viewAllAppsLabel: Record<string, string> = {
-  en: 'View All 33 Apps',
-  de: 'Alle 33 Apps ansehen',
-  fr: 'Voir les 33 applications',
-  es: 'Ver las 33 aplicaciones',
-  pt: 'Ver todos os 33 aplicativos',
-  it: 'Vedi tutte le 33 app',
-  nl: 'Bekijk alle 33 apps',
-  sv: 'Visa alla 33 appar',
-  da: 'Se alle 33 apps',
-  no: 'Se alle 33 apper',
-  fi: 'N\u00e4yt\u00e4 kaikki 33 sovellusta',
-};
-
 // ── Page component ────────────────────────────────────────────────
 
 export default async function ThemePage({
@@ -182,21 +132,25 @@ export default async function ThemePage({
 
   if (!themeId) notFound();
 
-  const content = getThemeContent(themeId, locale);
+  const content = getThemeContentWithFallback(themeId, locale);
   if (!content) notFound();
+
+  const enriched = isEnrichedContent(content);
+  const appIds = enriched ? (content as EnrichedThemeContent).curatedAppIds : content.appIds;
 
   const currentSlug = getThemeSlug(themeId, locale) || params.theme;
   const baseUrl = 'https://www.lessoncraftstudio.com';
   const pageUrl = `${baseUrl}/${locale}/worksheets/${currentSlug}`;
 
-  // Fetch theme preview images and app thumbnails in parallel
-  const [themeImages, thumbnailMap] = await Promise.all([
-    getThemePreviewImages(themeId, 6),
-    getAppThumbnailMap(content.appIds, locale),
+  // Fetch theme preview images, app thumbnails, and related blog posts in parallel
+  const [themeImages, thumbnailMap, relatedBlogPosts] = await Promise.all([
+    getThemePreviewImages(themeId, 8),
+    getAppThumbnailMap(appIds, locale),
+    getRelatedBlogPostsForTheme(themeId, appIds, locale, 3),
   ]);
 
   // Build app cards
-  const apps = content.appIds.map(appId => {
+  const apps = appIds.map(appId => {
     const slug = getSlugForLocale(appId, locale as SupportedLocale) || appId;
     return { appId, slug };
   });
@@ -204,7 +158,7 @@ export default async function ThemePage({
   // Build related theme links
   const relatedThemeLinks = content.relatedThemes
     .map(rtId => {
-      const rtContent = getThemeContent(rtId, locale);
+      const rtContent = getThemeContentWithFallback(rtId, locale);
       const rtSlug = getThemeSlug(rtId, locale);
       if (!rtContent || !rtSlug) return null;
       return { id: rtId, name: rtContent.name, slug: rtSlug };
@@ -219,6 +173,7 @@ export default async function ThemePage({
   const collectionSchema: Record<string, unknown> = {
     '@context': 'https://schema.org',
     '@type': 'CollectionPage',
+    '@id': `${pageUrl}#collectionpage`,
     name: content.heading,
     description: content.description,
     url: pageUrl,
@@ -228,11 +183,15 @@ export default async function ThemePage({
       name: 'LessonCraftStudio',
       url: baseUrl,
     },
+    publisher: {
+      '@type': 'EducationalOrganization',
+      '@id': `${baseUrl}/#organization`,
+    },
     about: {
       '@type': 'Thing',
       name: content.name,
     },
-    hasPart: apps.slice(0, 10).map((app, i) => ({
+    hasPart: apps.map((app, i) => ({
       '@type': 'SoftwareApplication',
       name: getLocalizedAppDisplayName(app.appId, locale),
       url: `${baseUrl}/${locale}/apps/${app.slug}`,
@@ -246,6 +205,46 @@ export default async function ThemePage({
     collectionSchema.image = themeImageUrls;
     collectionSchema.thumbnailUrl = themeImageUrls[0];
   }
+
+  // WebPage schema (always - provides E-A-T signals)
+  const webPageSchema = generateThemeWebPageSchema({
+    pageName: content.heading,
+    pageDescription: content.description,
+    pageUrl,
+    locale,
+    mainEntityId: `${pageUrl}#collectionpage`,
+  });
+
+  // LearningResource schema (enriched themes only - aggregates all grade data)
+  const learningResourceSchema = enriched
+    ? generateThemeLearningResourceSchema({
+        name: content.heading,
+        description: content.description,
+        url: pageUrl,
+        locale,
+        appEntries: apps.map((app) => ({
+          name: getLocalizedAppDisplayName(app.appId, locale),
+          url: `${baseUrl}/${locale}/apps/${app.slug}`,
+        })),
+        curriculumAlignment: (content as EnrichedThemeContent).curriculumAlignment.map((ca) => ({
+          standard: ca.standard,
+          framework: ca.framework,
+          description: ca.description,
+        })),
+        gradeContent: (content as EnrichedThemeContent).gradeContent,
+        imageUrls: themeImageUrls.length > 0 ? themeImageUrls : undefined,
+      })
+    : null;
+
+  // ImageGallery schema (if images exist)
+  const imageGallerySchema = themeImageUrls.length > 0
+    ? generateThemeImageGallerySchema({
+        imageUrls: themeImageUrls,
+        galleryName: `${content.name} Worksheet Images`,
+        pageUrl,
+        locale,
+      })
+    : null;
 
   const breadcrumbSchema = {
     '@context': 'https://schema.org',
@@ -286,6 +285,22 @@ export default async function ThemePage({
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageSchema) }}
+      />
+      {learningResourceSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(learningResourceSchema) }}
+        />
+      )}
+      {imageGallerySchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(imageGallerySchema) }}
+        />
+      )}
 
       {/* Hero Section */}
       <section className="bg-gradient-to-b from-purple-600 to-purple-700 text-white py-14">
@@ -305,7 +320,19 @@ export default async function ThemePage({
           <div className={themeImages.length > 0 ? 'md:flex md:items-center md:gap-10' : ''}>
             <div className={themeImages.length > 0 ? 'md:flex-1' : ''}>
               <h1 className="text-3xl md:text-4xl font-bold mb-4">{content.heading}</h1>
-              <p className="text-lg text-purple-100 max-w-3xl leading-relaxed">{content.intro}</p>
+              {enriched ? (
+                <>
+                  <p className="text-lg text-purple-100 max-w-3xl leading-relaxed">
+                    {content.intro.slice(0, (content.intro.indexOf('.', 150) + 1) || 200)}
+                  </p>
+                  <a href="#educational-overview" className="inline-flex items-center text-purple-200 hover:text-white text-sm mt-3 transition-colors">
+                    {readMoreLabel[locale] || readMoreLabel.en}
+                    <span className="ml-1">{'\u2193'}</span>
+                  </a>
+                </>
+              ) : (
+                <p className="text-lg text-purple-100 max-w-3xl leading-relaxed">{content.intro}</p>
+              )}
             </div>
             {themeImages.length > 0 && (
               <div className="mt-8 md:mt-0 md:flex-shrink-0">
@@ -329,60 +356,154 @@ export default async function ThemePage({
         </div>
       </section>
 
+      {/* Sample Previews (image library mosaic) */}
+      {themeImages.length > 0 && (
+        <ThemeSamplePreviews
+          images={themeImages}
+          themeName={content.name}
+          locale={locale}
+        />
+      )}
+
       {/* App Grid */}
-      <section className="py-12">
-        <div className="container mx-auto px-4">
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-            {apps.map(app => (
-              <Link
-                key={app.appId}
-                href={`/${locale}/apps/${app.slug}`}
-                className="bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow overflow-hidden flex flex-col"
-              >
-                {thumbnailMap[app.appId] ? (
-                  <div className="relative aspect-[3/4] bg-gray-50">
-                    <Image
-                      src={thumbnailMap[app.appId]}
-                      alt={getLocalizedAppDisplayName(app.appId, locale)}
-                      fill
-                      sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
-                      className="object-cover"
-                      unoptimized
-                    />
-                  </div>
-                ) : (
-                  <div className="aspect-[3/4] bg-gradient-to-br from-purple-500 to-purple-700 flex items-center justify-center p-4">
-                    <span className="text-white text-center font-semibold text-lg">
+      {enriched ? (
+        <ThemeAppGrid
+          appCategories={(content as EnrichedThemeContent).appCategories}
+          thumbnailMap={thumbnailMap}
+          locale={locale}
+        />
+      ) : (
+        <section className="py-12">
+          <div className="container mx-auto px-4">
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+              {apps.map(app => (
+                <Link
+                  key={app.appId}
+                  href={`/${locale}/apps/${app.slug}`}
+                  className="bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow overflow-hidden flex flex-col"
+                >
+                  {thumbnailMap[app.appId] ? (
+                    <div className="relative aspect-[3/4] bg-gray-50">
+                      <Image
+                        src={thumbnailMap[app.appId]}
+                        alt={getLocalizedAppDisplayName(app.appId, locale)}
+                        fill
+                        sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+                        className="object-cover"
+                        unoptimized
+                      />
+                    </div>
+                  ) : (
+                    <div className="aspect-[3/4] bg-gradient-to-br from-purple-500 to-purple-700 flex items-center justify-center p-4">
+                      <span className="text-white text-center font-semibold text-lg">
+                        {getLocalizedAppDisplayName(app.appId, locale)}
+                      </span>
+                    </div>
+                  )}
+                  <div className="p-4 flex flex-col flex-1">
+                    <h3 className="font-semibold text-gray-900 mb-2">
                       {getLocalizedAppDisplayName(app.appId, locale)}
+                    </h3>
+                    <span className="mt-auto inline-flex items-center text-purple-600 text-sm font-medium">
+                      {tryNowLabel[locale] || tryNowLabel.en}
+                      <span className="ml-1" aria-hidden="true">&rarr;</span>
                     </span>
                   </div>
-                )}
-                <div className="p-4 flex flex-col flex-1">
-                  <h3 className="font-semibold text-gray-900 mb-2">
-                    {getLocalizedAppDisplayName(app.appId, locale)}
-                  </h3>
-                  <span className="mt-auto inline-flex items-center text-purple-600 text-sm font-medium">
-                    {tryNowLabel[locale] || tryNowLabel.en}
-                    <span className="ml-1" aria-hidden="true">&rarr;</span>
-                  </span>
-                </div>
+                </Link>
+              ))}
+            </div>
+            <div className="text-center mt-10">
+              <Link
+                href={`/${locale}/apps`}
+                className="inline-block bg-purple-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-purple-700 transition-colors"
+              >
+                {viewAllAppsLabel[locale] || viewAllAppsLabel.en}
               </Link>
-            ))}
+            </div>
           </div>
-          <div className="text-center mt-10">
-            <Link
-              href={`/${locale}/apps`}
-              className="inline-block bg-purple-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-purple-700 transition-colors"
-            >
-              {viewAllAppsLabel[locale] || viewAllAppsLabel.en}
-            </Link>
+        </section>
+      )}
+
+      {/* Enriched: Educational Overview + Parent Guide */}
+      {enriched && (
+        <section id="educational-overview" className="py-12 bg-white" style={{ contentVisibility: 'auto', containIntrinsicSize: 'auto 500px' }}>
+          <div className="container mx-auto px-4 max-w-4xl">
+            <div className="prose prose-lg max-w-none">
+              <h2 className="text-2xl font-bold text-gray-900 mb-4">{(sectionEducationalOverview[locale] || sectionEducationalOverview.en).replace('{themeName}', content.name)}</h2>
+              <p className="text-gray-700 leading-relaxed mb-8">{(content as EnrichedThemeContent).educationalOverview}</p>
+              <h2 className="text-2xl font-bold text-gray-900 mb-4">{sectionParentGuide[locale] || sectionParentGuide.en}</h2>
+              <p className="text-gray-700 leading-relaxed">{(content as EnrichedThemeContent).parentGuide}</p>
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* Enriched: Teaching Tips */}
+      {enriched && (
+        <div style={{ contentVisibility: 'auto', containIntrinsicSize: 'auto 500px' }}>
+          <ThemeTeachingTips
+            tips={(content as EnrichedThemeContent).teachingTips}
+            locale={locale}
+          />
+        </div>
+      )}
+
+      {/* Enriched: Learning Objectives */}
+      {enriched && (
+        <ThemeLearningObjectives
+          gradeContent={(content as EnrichedThemeContent).gradeContent}
+          locale={locale}
+        />
+      )}
+
+      {/* Grade Navigation — links to all 5 grade-specific pages */}
+      <section className="py-12 bg-white">
+        <div className="container mx-auto px-4 max-w-5xl">
+          <h2 className="text-2xl font-bold text-gray-900 mb-2 text-center">
+            {exploreByGradeLabel[locale] || exploreByGradeLabel.en}
+          </h2>
+          <p className="text-gray-600 text-center mb-8">
+            {(gradeNavDescription[locale] || gradeNavDescription.en).replace('{themeName}', content.name)}
+          </p>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-4">
+            {GRADE_IDS.map(gradeId => {
+              const gradeSlug = getGradeSlug(gradeId, locale);
+              if (!gradeSlug) return null;
+              return (
+                <Link
+                  key={gradeId}
+                  href={`/${locale}/worksheets/${currentSlug}/${gradeSlug}`}
+                  className="bg-purple-50 border border-purple-100 rounded-xl p-5 hover:bg-purple-100 hover:border-purple-300 transition-colors group"
+                >
+                  <h3 className="font-semibold text-gray-900 group-hover:text-purple-700">
+                    {gradeDisplayNames[gradeId]?.[locale] || gradeDisplayNames[gradeId]?.en || gradeId}
+                  </h3>
+                  <p className="text-sm text-gray-500 mt-1">
+                    {gradeAgeRanges[gradeId]?.[locale] || gradeAgeRanges[gradeId]?.en}
+                  </p>
+                  <span className="inline-flex items-center text-purple-600 text-sm font-medium mt-3 group-hover:translate-x-1 transition-transform" aria-hidden="true">
+                    &rarr;
+                  </span>
+                </Link>
+              );
+            })}
           </div>
         </div>
       </section>
 
+      {/* Enriched: Activities */}
+      {enriched && (
+        <div style={{ contentVisibility: 'auto', containIntrinsicSize: 'auto 500px' }}>
+          <ThemeActivities
+            activities={(content as EnrichedThemeContent).activities}
+            locale={locale}
+          />
+        </div>
+      )}
+
       {/* FAQ Section */}
       {content.faq.length > 0 && (
-        <section className="py-12 bg-white">
+        <section className="py-12 bg-white" style={{ contentVisibility: 'auto', containIntrinsicSize: 'auto 500px' }}>
           <div className="container mx-auto px-4 max-w-3xl">
             <h2 className="text-2xl font-bold text-gray-900 mb-8 text-center">
               {faqHeading[locale] || faqHeading.en}
@@ -404,9 +525,24 @@ export default async function ThemePage({
         </section>
       )}
 
+      {/* Enriched: Curriculum Alignment */}
+      {enriched && (
+        <div style={{ contentVisibility: 'auto', containIntrinsicSize: 'auto 500px' }}>
+          <ThemeCurriculumNotes
+            alignments={(content as EnrichedThemeContent).curriculumAlignment}
+            locale={locale}
+          />
+        </div>
+      )}
+
+      {/* Related Blog Posts */}
+      <div style={{ contentVisibility: 'auto', containIntrinsicSize: 'auto 500px' }}>
+        <RelatedBlogPosts locale={locale as SupportedLocale} posts={relatedBlogPosts} />
+      </div>
+
       {/* Related Themes */}
       {relatedThemeLinks.length > 0 && (
-        <section className="py-12">
+        <section className="py-12" style={{ contentVisibility: 'auto', containIntrinsicSize: 'auto 300px' }}>
           <div className="container mx-auto px-4">
             <h2 className="text-2xl font-bold text-gray-900 mb-6 text-center">
               {relatedThemesLabel[locale] || relatedThemesLabel.en}

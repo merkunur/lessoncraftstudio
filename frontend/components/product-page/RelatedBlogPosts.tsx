@@ -234,6 +234,7 @@ function BlogPostCard({
             <img
               src={post.featuredImage}
               alt={post.title}
+              loading="lazy"
               style={{
                 maxWidth: '100%',
                 maxHeight: '100%',

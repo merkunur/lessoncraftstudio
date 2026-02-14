@@ -14,6 +14,8 @@ import { getBlogSampleApps } from '@/lib/blog-topic-clusters';
 import { transformBlogLinks, injectInternalLinks } from '@/lib/blog-link-transformer';
 import { injectBlogLinks } from '@/lib/blog-internal-links';
 import { generateSchemaDescription } from '@/lib/blog-schema-utils';
+import { getRelatedThemesForKeywords } from '@/lib/internal-linking';
+import RelatedThemes from '@/components/blog/RelatedThemes';
 import type { SupportedLocale } from '@/config/product-page-slugs';
 
 // Enable ISR - revalidate every 30 minutes (reduced from 1 hour for faster updates)
@@ -640,6 +642,9 @@ export default async function BlogPostPage({
     locale as SupportedLocale,
     3
   );
+
+  // Compute related theme IDs (sync, zero DB queries)
+  const relatedThemeIds = getRelatedThemesForKeywords(post.keywords || [], 3);
 
   // Run 3 independent async operations in parallel:
   // A) Related posts (DB queries)
@@ -1776,6 +1781,9 @@ export default async function BlogPostPage({
           limit={4}
         />
       </div>
+
+      {/* Related Worksheet Theme Pages */}
+      <RelatedThemes themeIds={relatedThemeIds} locale={locale} />
 
       {/* Gray zone to related posts transition */}
       <div style={{

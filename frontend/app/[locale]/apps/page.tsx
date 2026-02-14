@@ -6,6 +6,7 @@ import AppCard from '@/components/apps/AppCard';
 import { generateAppsCollectionSchema, generateAppsItemListSchema, getHreflangCode, ogLocaleMap } from '@/lib/schema-generator';
 import { productPageSlugs } from '@/config/product-page-slugs';
 import { SUPPORTED_LOCALES } from '@/config/locales';
+import { GRADE_IDS, gradeDisplayNames, gradeAgeRanges } from '@/config/grade-slugs';
 import { getRecentBlogPosts } from '@/lib/blog-data';
 
 // Localized SEO metadata for all 11 languages
@@ -1002,6 +1003,74 @@ export default async function AppsPage({ params: { locale } }: PageProps) {
                 />
               ))}
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Browse by Grade Level - Internal Linking to Grade Hub Pages */}
+      <section className="py-12 bg-white">
+        <div className="container mx-auto px-4">
+          <h2 className="text-2xl font-bold text-center mb-3 text-gray-900">
+            {locale === 'de' ? 'Nach Klassenstufe durchsuchen' :
+             locale === 'fr' ? 'Parcourir par niveau scolaire' :
+             locale === 'es' ? 'Explorar por nivel escolar' :
+             locale === 'it' ? 'Sfoglia per livello scolastico' :
+             locale === 'pt' ? 'Explorar por n\u00edvel escolar' :
+             locale === 'nl' ? 'Blader op schoolniveau' :
+             locale === 'sv' ? 'Bl\u00e4ddra efter \u00e5rskurs' :
+             locale === 'da' ? 'Gennemse efter klassetrin' :
+             locale === 'no' ? 'Bla etter klassetrinn' :
+             locale === 'fi' ? 'Selaa luokka-asteen mukaan' :
+             'Browse by Grade Level'}
+          </h2>
+          <p className="text-center text-gray-600 mb-8 max-w-2xl mx-auto">
+            {locale === 'de' ? 'Finden Sie altersgerechte Apps f\u00fcr jede Klassenstufe.' :
+             locale === 'fr' ? 'Trouvez des applications adapt\u00e9es \u00e0 chaque niveau scolaire.' :
+             locale === 'es' ? 'Encuentra aplicaciones apropiadas para cada nivel escolar.' :
+             locale === 'it' ? 'Trova app adatte a ogni livello scolastico.' :
+             locale === 'pt' ? 'Encontre aplicativos adequados para cada n\u00edvel escolar.' :
+             locale === 'nl' ? 'Vind leeftijdsgeschikte apps voor elk schoolniveau.' :
+             locale === 'sv' ? 'Hitta \u00e5ldersanpassade appar f\u00f6r varje \u00e5rskurs.' :
+             locale === 'da' ? 'Find alderspassende apps til hvert klassetrin.' :
+             locale === 'no' ? 'Finn alderstilpassede apper for hvert klassetrinn.' :
+             locale === 'fi' ? 'L\u00f6yd\u00e4 ik\u00e4\u00e4n sopivia sovelluksia jokaiselle luokka-asteelle.' :
+             'Find age-appropriate apps for each grade level.'}
+          </p>
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4 max-w-4xl mx-auto">
+            {GRADE_IDS.map((gradeId) => (
+              <Link
+                key={gradeId}
+                href={`/${locale}/apps/grades/${gradeId}`}
+                className="bg-gray-50 border border-gray-200 rounded-lg p-4 text-center hover:shadow-md hover:border-blue-300 transition-all group"
+              >
+                <h3 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors">
+                  {gradeDisplayNames[gradeId]?.[locale] || gradeDisplayNames[gradeId]?.en}
+                </h3>
+                <p className="text-sm text-gray-500 mt-1">
+                  {gradeAgeRanges[gradeId]?.[locale] || gradeAgeRanges[gradeId]?.en}
+                </p>
+                <span className="text-blue-500 text-sm mt-2 inline-block group-hover:translate-x-1 transition-transform" aria-hidden="true">&rarr;</span>
+              </Link>
+            ))}
+          </div>
+          <div className="text-center mt-8">
+            <Link
+              href={`/${locale}/worksheets`}
+              className="text-blue-600 hover:underline font-medium inline-flex items-center gap-1"
+            >
+              {locale === 'de' ? 'Entdecken Sie 50 thematische Arbeitsbl\u00e4tter' :
+               locale === 'fr' ? 'D\u00e9couvrez 50 fiches th\u00e9matiques' :
+               locale === 'es' ? 'Explora 50 fichas tem\u00e1ticas' :
+               locale === 'it' ? 'Esplora 50 schede tematiche' :
+               locale === 'pt' ? 'Explore 50 atividades tem\u00e1ticas' :
+               locale === 'nl' ? 'Ontdek 50 thematische werkbladen' :
+               locale === 'sv' ? 'Utforska 50 tematiska arbetsblad' :
+               locale === 'da' ? 'Udforsk 50 tematiske arbejdsark' :
+               locale === 'no' ? 'Utforsk 50 tematiske arbeidsark' :
+               locale === 'fi' ? 'Tutustu 50 teemapohjaiseen teht\u00e4v\u00e4\u00e4n' :
+               'Explore 50 Themed Worksheets'}
+              <span aria-hidden="true">&rarr;</span>
+            </Link>
           </div>
         </div>
       </section>

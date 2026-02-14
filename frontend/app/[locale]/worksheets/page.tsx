@@ -6,13 +6,17 @@ import {
   ogLocaleMap,
   localizedHomeLabel,
 } from '@/lib/schema-generator';
-import { getThemeContent, getThemeIds } from '@/config/theme-page-content';
+import { getThemeContentWithFallback } from '@/content/themes/index';
+import { ALL_THEME_IDS } from '@/content/themes/types';
 import { getThemeSlug } from '@/config/theme-slugs';
 import { getThemePreviewImages } from '@/lib/theme-images';
+import { THEME_CATEGORIES } from '@/config/theme-categories';
+import { GRADE_IDS, getGradeSlug, gradeDisplayNames, gradeAgeRanges } from '@/config/grade-slugs';
+import { viewAllGradeAppsLabel } from '@/config/theme-page-labels';
 
 export const revalidate = 3600;
 
-// ── Metadata ──────────────────────────────────────────────────────
+// \u2500\u2500 Metadata \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500
 
 const pageTitle: Record<string, string> = {
   en: 'Free Themed Worksheets for Kids | LessonCraftStudio',
@@ -89,7 +93,7 @@ export async function generateMetadata({
   };
 }
 
-// ── Localized UI labels ───────────────────────────────────────────
+// \u2500\u2500 Localized UI labels \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500
 
 const worksheetsLabel: Record<string, string> = {
   en: 'Worksheets',
@@ -161,7 +165,58 @@ const viewThemeLabel: Record<string, string> = {
   fi: 'N\u00e4yt\u00e4 ty\u00f6lehdet',
 };
 
-// ── Page component ────────────────────────────────────────────────
+const gradeNavHeading: Record<string, string> = {
+  en: 'Browse by Grade Level',
+  de: 'Nach Klassenstufe durchsuchen',
+  fr: 'Parcourir par niveau scolaire',
+  es: 'Explorar por nivel escolar',
+  pt: 'Explorar por n\u00edvel escolar',
+  it: 'Sfoglia per livello scolastico',
+  nl: 'Bekijk per leerjaar',
+  sv: 'Bl\u00e4ddra efter \u00e5rskurs',
+  da: 'Udforsk efter klassetrin',
+  no: 'Utforsk etter klassetrinn',
+  fi: 'Selaa luokka-asteen mukaan',
+};
+
+const gradeNavIntro: Record<string, string> = {
+  en: 'Find age-appropriate worksheets for every grade level, from preschool to third grade.',
+  de: 'Finden Sie altersgerechte Arbeitsbl\u00e4tter f\u00fcr jede Klassenstufe, von der Vorschule bis zur 3. Klasse.',
+  fr: "Trouvez des fiches adapt\u00e9es \u00e0 chaque niveau scolaire, de la maternelle au CE2.",
+  es: 'Encuentra fichas apropiadas para cada nivel escolar, desde preescolar hasta 3\u00b0 grado.',
+  pt: 'Encontre atividades adequadas para cada n\u00edvel escolar, da pr\u00e9-escola ao 3\u00ba ano.',
+  it: "Trova schede adatte a ogni livello scolastico, dalla prescuola alla terza elementare.",
+  nl: 'Vind werkbladen die passen bij elk leerjaar, van kleuterschool tot groep 5.',
+  sv: 'Hitta \u00e5ldersanpassade arbetsblad f\u00f6r varje \u00e5rskurs, fr\u00e5n f\u00f6rskola till \u00e5rskurs 3.',
+  da: 'Find alderspassende arbejdsark til hvert klassetrin, fra f\u00f8rskole til 3. klasse.',
+  no: 'Finn alderstilpassede arbeidsark for hvert klassetrinn, fra f\u00f8rskole til 3. klasse.',
+  fi: 'L\u00f6yd\u00e4 ik\u00e4\u00e4n sopivia ty\u00f6lehti\u00e4 jokaiselle luokka-asteelle esikoulusta 3. luokkaan.',
+};
+
+const popularLabel: Record<string, string> = {
+  en: 'Popular:',
+  de: 'Beliebt:',
+  fr: 'Populaire\u00a0:',
+  es: 'Popular:',
+  pt: 'Popular:',
+  it: 'Popolare:',
+  nl: 'Populair:',
+  sv: 'Popul\u00e4rt:',
+  da: 'Popul\u00e6rt:',
+  no: 'Popul\u00e6rt:',
+  fi: 'Suosittu:',
+};
+
+// Popular themes per grade for internal linking
+const gradePopularThemes: Record<string, string[]> = {
+  preschool: ['animals', 'colors', 'shapes'],
+  kindergarten: ['alphabet', 'dinosaurs', 'farm'],
+  'first-grade': ['ocean', 'food', 'sports'],
+  'second-grade': ['space', 'insects', 'holidays'],
+  'third-grade': ['robots', 'nature', 'construction'],
+};
+
+// \u2500\u2500 Page component \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500
 
 export default async function WorksheetsHubPage({
   params,
@@ -172,14 +227,13 @@ export default async function WorksheetsHubPage({
   const baseUrl = 'https://www.lessoncraftstudio.com';
   const pageUrl = `${baseUrl}/${locale}/worksheets`;
 
-  // Get all theme IDs and build theme data
-  const themeIds = getThemeIds();
+  // Get all theme IDs and build theme data using enriched content
   const themes = await Promise.all(
-    themeIds.map(async (themeId) => {
-      const content = getThemeContent(themeId, locale);
+    ALL_THEME_IDS.map(async (themeId) => {
+      const content = getThemeContentWithFallback(themeId, locale);
       const slug = getThemeSlug(themeId, locale);
       if (!content || !slug) return null;
-      const images = await getThemePreviewImages(themeId, 3);
+      const images = await getThemePreviewImages(themeId, 4);
       return { themeId, slug, name: content.name, description: content.description, images };
     })
   );
@@ -187,7 +241,18 @@ export default async function WorksheetsHubPage({
     themeId: string; slug: string; name: string; description: string; images: string[];
   }>;
 
-  // JSON-LD: CollectionPage
+  // Build lookup map for category resolution
+  const themeMap = new Map(validThemes.map(t => [t.themeId, t]));
+
+  // Resolve categories with their themes
+  const categoryData = THEME_CATEGORIES.map(cat => ({
+    ...cat,
+    resolvedThemes: cat.themes
+      .map(id => themeMap.get(id))
+      .filter(Boolean) as typeof validThemes,
+  }));
+
+  // JSON-LD: CollectionPage (enhanced with about)
   const collectionSchema = {
     '@context': 'https://schema.org',
     '@type': 'CollectionPage',
@@ -200,6 +265,11 @@ export default async function WorksheetsHubPage({
       name: 'LessonCraftStudio',
       url: baseUrl,
     },
+    about: [
+      { '@type': 'Thing', name: 'Educational Worksheets' },
+      { '@type': 'Thing', name: "Children's Learning Activities" },
+      { '@type': 'Thing', name: 'Printable Worksheets for Kids' },
+    ],
     hasPart: validThemes.slice(0, 50).map((theme, i) => ({
       '@type': 'CreativeWork',
       name: theme.name,
@@ -277,50 +347,145 @@ export default async function WorksheetsHubPage({
         </div>
       </section>
 
-      {/* Theme Grid */}
+      {/* Category Anchor Nav */}
+      <nav
+        className="sticky top-0 z-10 bg-white shadow-sm border-b border-gray-200"
+        aria-label="Theme categories"
+      >
+        <div className="container mx-auto px-4">
+          <div className="flex overflow-x-auto gap-1 py-3 -mx-4 px-4" style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}>
+            {categoryData.map(cat => (
+              <a
+                key={cat.id}
+                href={`#${cat.id}`}
+                className="flex-shrink-0 px-4 py-2 rounded-full text-sm font-medium text-gray-700 hover:bg-purple-50 hover:text-purple-700 transition-colors whitespace-nowrap"
+              >
+                {cat.label[locale] || cat.label.en}
+              </a>
+            ))}
+          </div>
+        </div>
+      </nav>
+
+      {/* Category Sections */}
       <section className="py-12">
         <div className="container mx-auto px-4">
-          <h2 className="text-2xl font-bold text-gray-900 mb-8 text-center">
+          <h2 className="text-2xl font-bold text-gray-900 mb-10 text-center">
             {browseThemesLabel[locale] || browseThemesLabel.en}
           </h2>
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-            {validThemes.map(theme => (
-              <Link
-                key={theme.themeId}
-                href={`/${locale}/worksheets/${theme.slug}`}
-                className="bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow overflow-hidden flex flex-col"
-              >
-                {theme.images.length > 0 ? (
-                  <div className="bg-gradient-to-br from-purple-50 to-purple-100 p-4">
-                    <div className="flex justify-center gap-2">
-                      {theme.images.slice(0, 3).map((src, i) => (
-                        <div key={i} className="w-16 h-16 md:w-20 md:h-20 rounded-lg overflow-hidden bg-white shadow-sm">
-                          <img
-                            src={src}
-                            alt={`${theme.name} clipart ${i + 1}`}
-                            width={80}
-                            height={80}
-                            loading="lazy"
-                            className="w-full h-full object-contain p-1"
-                          />
+
+          {categoryData.map(cat => (
+            <div key={cat.id} id={cat.id} className="mb-14 scroll-mt-20">
+              <h3 className="text-xl font-bold text-gray-900 mb-2">
+                {cat.label[locale] || cat.label.en}
+              </h3>
+              <p className="text-gray-600 mb-6 max-w-3xl">
+                {cat.description[locale] || cat.description.en}
+              </p>
+
+              <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+                {cat.resolvedThemes.map(theme => (
+                  <Link
+                    key={theme.themeId}
+                    href={`/${locale}/worksheets/${theme.slug}`}
+                    className="bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow overflow-hidden flex flex-col"
+                  >
+                    {theme.images.length > 0 ? (
+                      <div className="bg-gradient-to-br from-purple-50 to-purple-100 p-4">
+                        <div className="flex justify-center gap-2">
+                          {theme.images.slice(0, 4).map((src, i) => (
+                            <div key={i} className="w-20 h-20 md:w-24 md:h-24 rounded-lg overflow-hidden bg-white shadow-sm">
+                              <img
+                                src={src}
+                                alt={`${theme.name} ${i + 1}`}
+                                width={96}
+                                height={96}
+                                loading="lazy"
+                                className="w-full h-full object-contain p-1"
+                              />
+                            </div>
+                          ))}
                         </div>
-                      ))}
+                      </div>
+                    ) : (
+                      <div className="bg-gradient-to-br from-purple-500 to-purple-700 p-8 flex items-center justify-center">
+                        <span className="text-white text-xl font-bold">{theme.name}</span>
+                      </div>
+                    )}
+                    <div className="p-4 flex flex-col flex-1">
+                      <h4 className="font-semibold text-gray-900 mb-1">{theme.name}</h4>
+                      <p className="text-sm text-gray-500 line-clamp-2 mb-2">
+                        {theme.description.length > 120
+                          ? theme.description.slice(0, 120) + '\u2026'
+                          : theme.description}
+                      </p>
+                      <span className="mt-auto inline-flex items-center text-purple-600 text-sm font-medium pt-2">
+                        {viewThemeLabel[locale] || viewThemeLabel.en}
+                        <span className="ml-1" aria-hidden="true">&rarr;</span>
+                      </span>
                     </div>
-                  </div>
-                ) : (
-                  <div className="bg-gradient-to-br from-purple-500 to-purple-700 p-8 flex items-center justify-center">
-                    <span className="text-white text-xl font-bold">{theme.name}</span>
-                  </div>
-                )}
-                <div className="p-4 flex flex-col flex-1">
-                  <h3 className="font-semibold text-gray-900 mb-1">{theme.name}</h3>
-                  <span className="mt-auto inline-flex items-center text-purple-600 text-sm font-medium pt-2">
-                    {viewThemeLabel[locale] || viewThemeLabel.en}
+                  </Link>
+                ))}
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* Grade Level Navigation */}
+      <section className="py-12 bg-white border-t border-gray-200">
+        <div className="container mx-auto px-4">
+          <h2 className="text-2xl font-bold text-gray-900 mb-2 text-center">
+            {gradeNavHeading[locale] || gradeNavHeading.en}
+          </h2>
+          <p className="text-gray-600 text-center mb-8 max-w-2xl mx-auto">
+            {gradeNavIntro[locale] || gradeNavIntro.en}
+          </p>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-4">
+            {GRADE_IDS.map(gradeId => {
+              const name = gradeDisplayNames[gradeId]?.[locale] || gradeDisplayNames[gradeId]?.en || gradeId;
+              const ages = gradeAgeRanges[gradeId]?.[locale] || gradeAgeRanges[gradeId]?.en || '';
+              const popularThemes = gradePopularThemes[gradeId] || [];
+
+              return (
+                <div
+                  key={gradeId}
+                  className="bg-purple-50 rounded-xl p-5 text-center"
+                >
+                  <h3 className="font-bold text-gray-900 text-lg">{name}</h3>
+                  <p className="text-sm text-purple-600 mt-1 mb-3">{ages}</p>
+                  {popularThemes.length > 0 && (
+                    <div className="text-xs text-gray-500">
+                      <span className="font-medium">{popularLabel[locale] || popularLabel.en}</span>{' '}
+                      {popularThemes.map((tid, i) => {
+                        const t = themeMap.get(tid);
+                        const tSlug = getThemeSlug(tid, locale);
+                        const gSlug = getGradeSlug(gradeId, locale);
+                        if (!t || !tSlug || !gSlug) return null;
+                        return (
+                          <span key={tid}>
+                            {i > 0 && <span className="mx-1">&middot;</span>}
+                            <Link
+                              href={`/${locale}/worksheets/${tSlug}/${gSlug}`}
+                              className="text-purple-600 hover:text-purple-800 hover:underline"
+                            >
+                              {t.name}
+                            </Link>
+                          </span>
+                        );
+                      })}
+                    </div>
+                  )}
+                  <Link
+                    href={`/${locale}/apps/grades/${gradeId}`}
+                    className="inline-flex items-center text-sm font-medium text-purple-600 hover:text-purple-800 hover:underline mt-3"
+                  >
+                    {(viewAllGradeAppsLabel[locale] || viewAllGradeAppsLabel.en).replace('{gradeName}', name)}
                     <span className="ml-1" aria-hidden="true">&rarr;</span>
-                  </span>
+                  </Link>
                 </div>
-              </Link>
-            ))}
+              );
+            })}
           </div>
         </div>
       </section>

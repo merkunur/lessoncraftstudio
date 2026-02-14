@@ -1359,6 +1359,149 @@ export function generateAppProductSchemas(
   return schemas;
 }
 
+// ── Grade Page Schemas ─────────────────────────────────────────────
+
+/**
+ * Age ranges for each grade level (used in schema typicalAgeRange)
+ */
+const gradeAgeRangeMap: Record<string, string> = {
+  preschool: '3-4',
+  kindergarten: '5-6',
+  'first-grade': '6-7',
+  'second-grade': '7-8',
+  'third-grade': '8-9',
+};
+
+/**
+ * Educational level labels for schema.org
+ */
+const gradeEducationalLevel: Record<string, string> = {
+  preschool: 'Preschool',
+  kindergarten: 'Kindergarten',
+  'first-grade': 'Grade 1',
+  'second-grade': 'Grade 2',
+  'third-grade': 'Grade 3',
+};
+
+/**
+ * Generate an EducationalAudience schema object for a grade page
+ */
+export function generateEducationalAudienceSchema(
+  gradeId: string,
+  gradeName: string,
+) {
+  return {
+    '@type': 'EducationalAudience',
+    educationalRole: ['student', 'teacher', 'parent'],
+    suggestedAge: gradeAgeRangeMap[gradeId] || '3-9',
+    educationalLevel: gradeEducationalLevel[gradeId] || gradeName,
+  };
+}
+
+/**
+ * Input for the LearningResource schema generator
+ */
+export interface LearningResourceSchemaInput {
+  name: string;
+  description: string;
+  url: string;
+  locale: string;
+  gradeId: string;
+  gradeName: string;
+  objectives: Array<{ skill: string; area: string }>;
+  appEntries: Array<{ name: string; url: string }>;
+  imageUrls?: string[];
+  curriculumAlignment?: Array<{
+    standard: string;
+    framework: string;
+    description: string;
+  }>;
+}
+
+/**
+ * Generate a LearningResource JSON-LD schema for an enriched grade page
+ */
+export function generateLearningResourceSchema(
+  input: LearningResourceSchemaInput,
+  baseUrl: string = getBaseUrl(),
+) {
+  const {
+    name,
+    description,
+    url,
+    locale,
+    gradeId,
+    gradeName,
+    objectives,
+    appEntries,
+    imageUrls,
+  } = input;
+
+  const schema: Record<string, unknown> = {
+    '@context': 'https://schema.org',
+    '@type': 'LearningResource',
+    '@id': `${url}#learningresource`,
+    name,
+    description,
+    url,
+    inLanguage: getHreflangCode(locale),
+    learningResourceType: 'Worksheet Collection',
+    educationalUse: ['assignment', 'homework', 'practice', 'classwork'],
+    isAccessibleForFree: true,
+    typicalAgeRange: gradeAgeRangeMap[gradeId] || '3-9',
+    audience: generateEducationalAudienceSchema(gradeId, gradeName),
+    provider: {
+      '@type': 'EducationalOrganization',
+      '@id': `${baseUrl}/#organization`,
+    },
+  };
+
+  // teaches: array of skill strings
+  if (objectives.length > 0) {
+    schema.teaches = objectives.map((o) => o.skill);
+    schema.educationalAlignment = objectives.map((o) => ({
+      '@type': 'AlignmentObject',
+      alignmentType: 'teaches',
+      educationalFramework: 'US Grade Levels',
+      targetName: o.skill,
+      targetDescription: o.area,
+    }));
+  }
+
+  // Append curriculum alignment entries (e.g. Common Core standards)
+  if (input.curriculumAlignment?.length) {
+    const existing = Array.isArray(schema.educationalAlignment) ? schema.educationalAlignment as object[] : [];
+    schema.educationalAlignment = [
+      ...existing,
+      ...input.curriculumAlignment.map((ca) => ({
+        '@type': 'AlignmentObject',
+        alignmentType: 'teaches',
+        educationalFramework: ca.framework,
+        targetName: ca.standard,
+        targetDescription: ca.description,
+      })),
+    ];
+  }
+
+  // hasPart: SoftwareApplication entries
+  if (appEntries.length > 0) {
+    schema.hasPart = appEntries.map((app) => ({
+      '@type': 'SoftwareApplication',
+      name: app.name,
+      url: app.url,
+      applicationCategory: 'EducationalApplication',
+      offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
+    }));
+  }
+
+  // image URLs
+  if (imageUrls && imageUrls.length > 0) {
+    schema.image = imageUrls;
+  }
+
+  return schema;
+}
+
 /**
  * Generate author and publisher link tags for blog posts
  * Returns HTML link elements for rel="author" and rel="publisher"
@@ -1459,4 +1602,182 @@ export function generateAboutPageSchemas(locale: string, baseUrl: string = getBa
   schemas.push(orgSchema);
 
   return schemas;
+}
+
+// ── Theme Page Schema Generators ─────────────────────────────────
+
+/**
+ * Input for the theme-level LearningResource schema
+ */
+export interface ThemeLearningResourceInput {
+  name: string;
+  description: string;
+  url: string;
+  locale: string;
+  appEntries: Array<{ name: string; url: string }>;
+  curriculumAlignment?: Array<{
+    standard: string;
+    framework: string;
+    description: string;
+  }>;
+  /** Aggregated objectives across all grade levels */
+  gradeContent: Partial<Record<string, { objectives: Array<{ skill: string; area: string }> }>>;
+  imageUrls?: string[];
+}
+
+/**
+ * Generate a theme-level LearningResource schema spanning all 5 grades
+ */
+export function generateThemeLearningResourceSchema(
+  input: ThemeLearningResourceInput,
+  baseUrl: string = getBaseUrl(),
+) {
+  const { name, description, url, locale, appEntries, curriculumAlignment, gradeContent, imageUrls } = input;
+
+  // Deduplicate skills from all grades
+  const allSkills = new Set<string>();
+  const allAlignments: object[] = [];
+
+  for (const gradeData of Object.values(gradeContent)) {
+    if (!gradeData?.objectives) continue;
+    for (const obj of gradeData.objectives) {
+      if (!allSkills.has(obj.skill)) {
+        allSkills.add(obj.skill);
+        allAlignments.push({
+          '@type': 'AlignmentObject',
+          alignmentType: 'teaches',
+          educationalFramework: 'US Grade Levels',
+          targetName: obj.skill,
+          targetDescription: obj.area,
+        });
+      }
+    }
+  }
+
+  // Append curriculum alignment entries
+  if (curriculumAlignment?.length) {
+    for (const ca of curriculumAlignment) {
+      allAlignments.push({
+        '@type': 'AlignmentObject',
+        alignmentType: 'teaches',
+        educationalFramework: ca.framework,
+        targetName: ca.standard,
+        targetDescription: ca.description,
+      });
+    }
+  }
+
+  const schema: Record<string, unknown> = {
+    '@context': 'https://schema.org',
+    '@type': 'LearningResource',
+    '@id': `${url}#learningresource`,
+    name,
+    description,
+    url,
+    inLanguage: getHreflangCode(locale),
+    learningResourceType: 'Worksheet',
+    interactivityType: 'active',
+    educationalUse: ['assignment', 'homework', 'practice', 'classwork'],
+    isAccessibleForFree: true,
+    typicalAgeRange: '3-9',
+    educationalLevel: ['Preschool', 'Kindergarten', 'Grade 1', 'Grade 2', 'Grade 3'],
+    audience: {
+      '@type': 'EducationalAudience',
+      educationalRole: ['student', 'teacher', 'parent'],
+    },
+    provider: {
+      '@type': 'EducationalOrganization',
+      '@id': `${baseUrl}/#organization`,
+    },
+  };
+
+  if (allSkills.size > 0) {
+    schema.teaches = Array.from(allSkills);
+  }
+
+  if (allAlignments.length > 0) {
+    schema.educationalAlignment = allAlignments;
+  }
+
+  if (appEntries.length > 0) {
+    schema.hasPart = appEntries.map((app) => ({
+      '@type': 'SoftwareApplication',
+      name: app.name,
+      url: app.url,
+      applicationCategory: 'EducationalApplication',
+      offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
+    }));
+  }
+
+  if (imageUrls && imageUrls.length > 0) {
+    schema.image = imageUrls;
+  }
+
+  return schema;
+}
+
+/**
+ * Generate a WebPage schema with E-A-T signals for theme/grade pages
+ */
+export function generateThemeWebPageSchema(input: {
+  pageName: string;
+  pageDescription: string;
+  pageUrl: string;
+  locale: string;
+  mainEntityId: string;
+}, baseUrl: string = getBaseUrl()) {
+  const { pageName, pageDescription, pageUrl, locale, mainEntityId } = input;
+
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'WebPage',
+    '@id': `${pageUrl}#webpage`,
+    url: pageUrl,
+    name: pageName,
+    description: pageDescription,
+    inLanguage: getHreflangCode(locale),
+    datePublished: '2024-06-01',
+    dateModified: '2026-02-13',
+    author: { '@id': `${baseUrl}/#organization` },
+    publisher: {
+      '@type': 'EducationalOrganization',
+      '@id': `${baseUrl}/#organization`,
+      name: 'LessonCraftStudio',
+      logo: { '@type': 'ImageObject', url: `${baseUrl}/logo-lcs.png` },
+    },
+    isPartOf: { '@type': 'WebSite', '@id': `${baseUrl}/#website` },
+    mainEntity: { '@id': mainEntityId },
+    speakable: getSpeakableSpecification(),
+  };
+}
+
+/**
+ * Generate an ImageGallery schema for theme preview images (URL-based, lightweight)
+ */
+export function generateThemeImageGallerySchema(input: {
+  imageUrls: string[];
+  galleryName: string;
+  pageUrl: string;
+  locale: string;
+}, baseUrl: string = getBaseUrl()) {
+  const { imageUrls, galleryName, pageUrl, locale } = input;
+
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'ImageGallery',
+    '@id': `${pageUrl}#gallery`,
+    name: galleryName,
+    url: pageUrl,
+    numberOfItems: imageUrls.length,
+    inLanguage: getHreflangCode(locale),
+    image: imageUrls.map((url) => ({
+      '@type': 'ImageObject',
+      contentUrl: url,
+    })),
+    about: {
+      '@type': 'LearningResource',
+      learningResourceType: 'Worksheet',
+    },
+    isAccessibleForFree: true,
+  };
 }

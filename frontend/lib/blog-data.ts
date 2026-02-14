@@ -1,5 +1,6 @@
 import { cache } from 'react';
 import { prisma } from './prisma';
+import { getKeywordsForApp } from './internal-linking';
 
 // Blog post metadata interface (matches BlogPageClient)
 export interface BlogPostMetadata {
@@ -354,4 +355,43 @@ export async function getRelatedBlogPostsForProduct(
     console.error(`Error fetching related blog posts for product:`, error);
     return [];
   }
+}
+
+/**
+ * Fetch related blog posts for a theme page (server-side)
+ * Aggregates keywords from the theme's curated apps, then delegates
+ * to getRelatedBlogPostsForProduct() for the actual DB query.
+ *
+ * @param themeId - The theme identifier (e.g. 'animals', 'food')
+ * @param appIds - App IDs belonging to this theme (passed from caller to avoid circular deps)
+ * @param locale - Target locale
+ * @param limit - Maximum number of posts to return (default: 3)
+ * @returns Array of blog post summaries
+ */
+export async function getRelatedBlogPostsForTheme(
+  themeId: string,
+  appIds: string[],
+  locale: string,
+  limit: number = 3
+): Promise<BlogPostSummary[]> {
+  // Aggregate keywords from all apps, counting frequency
+  const keywordFreq = new Map<string, number>();
+
+  for (const appId of appIds) {
+    const appKeywords = getKeywordsForApp(appId);
+    for (const kw of appKeywords) {
+      keywordFreq.set(kw, (keywordFreq.get(kw) || 0) + 1);
+    }
+  }
+
+  // Add the themeId itself as a high-weight keyword
+  keywordFreq.set(themeId, (keywordFreq.get(themeId) || 0) + 5);
+
+  // Take top 15 keywords by frequency
+  const themeKeywords = Array.from(keywordFreq.entries())
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 15)
+    .map(([kw]) => kw);
+
+  return getRelatedBlogPostsForProduct(themeKeywords, locale, limit);
 }

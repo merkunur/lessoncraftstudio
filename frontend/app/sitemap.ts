@@ -4,7 +4,7 @@ import { productPageSlugs, getAlternateUrls } from '@/config/product-page-slugs'
 import { getHreflangCode } from '@/lib/schema-generator';
 import { SUPPORTED_LOCALES } from '@/config/locales';
 import { crossLocaleSlugs } from '@/config/blog-cross-locale-redirects';
-import { themeContent } from '@/config/theme-page-content';
+import { ALL_THEME_IDS } from '@/content/themes/types';
 import { getThemeSlug } from '@/config/theme-slugs';
 import { GRADE_IDS, getGradeSlug } from '@/config/grade-slugs';
 
@@ -18,7 +18,7 @@ for (const { slug, nativeLocale } of crossLocaleSlugs) {
 export const revalidate = 1800;
 
 // Fixed date for static/config-derived pages (only update when content actually changes)
-const STATIC_CONTENT_DATE = new Date('2026-02-09');
+const STATIC_CONTENT_DATE = new Date('2026-02-13');
 
 // NOTE: Sample images are handled by /sitemap-images.xml with proper Google Image Sitemap XML format
 
@@ -37,8 +37,9 @@ const STATIC_CONTENT_DATE = new Date('2026-02-09');
  *
  * Priority structure:
  * - 1.0: Homepage, product pages (highest priority)
- * - 0.7: Category/grade hubs, theme hubs, featured blog posts
- * - 0.6: Pricing, blog categories, theme+grade combos, blog posts with PDFs
+ * - 0.8: Theme hub pages
+ * - 0.7: Category/grade hubs, theme+grade combos, featured blog posts
+ * - 0.6: Pricing, blog categories, blog posts with PDFs
  * - 0.5: Apps collection, blog index, regular blog posts
  * - 0.4: FAQ
  * - 0.3: Legal pages (terms, privacy, contact, license)
@@ -170,9 +171,8 @@ export default async function sitemap({ id }: { id: number }): Promise<MetadataR
   // ── ID 3: Theme hub pages (~550 pages) ──────────────────────────────
   if (id === 3) {
     const routes: MetadataRoute.Sitemap = [];
-    const themeIds = Object.keys(themeContent);
     for (const locale of locales) {
-      for (const themeId of themeIds) {
+      for (const themeId of ALL_THEME_IDS) {
         const slug = getThemeSlug(themeId, locale);
         if (!slug) continue;
         const themeAlternates: Record<string, string> = {};
@@ -188,7 +188,7 @@ export default async function sitemap({ id }: { id: number }): Promise<MetadataR
           url: `${baseUrl}/${locale}/worksheets/${slug}`,
           lastModified: STATIC_CONTENT_DATE,
           changeFrequency: 'weekly',
-          priority: 0.7,
+          priority: 0.8,
           alternates: { languages: themeAlternates },
         });
       }
@@ -199,9 +199,8 @@ export default async function sitemap({ id }: { id: number }): Promise<MetadataR
   // ── ID 4: Theme + Grade combo pages (~2,750 pages) ──────────────────
   if (id === 4) {
     const routes: MetadataRoute.Sitemap = [];
-    const themeIds = Object.keys(themeContent);
     for (const locale of locales) {
-      for (const themeId of themeIds) {
+      for (const themeId of ALL_THEME_IDS) {
         const tSlug = getThemeSlug(themeId, locale);
         if (!tSlug) continue;
         for (const gradeId of GRADE_IDS) {
@@ -224,7 +223,7 @@ export default async function sitemap({ id }: { id: number }): Promise<MetadataR
             url: `${baseUrl}/${locale}/worksheets/${tSlug}/${gSlug}`,
             lastModified: STATIC_CONTENT_DATE,
             changeFrequency: 'weekly',
-            priority: 0.6,
+            priority: 0.7,
             alternates: { languages: tgAlternates },
           });
         }

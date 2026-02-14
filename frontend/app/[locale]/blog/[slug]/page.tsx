@@ -587,25 +587,28 @@ export default async function BlogPostPage({
   }
 
   const translations = post.translations as any;
-  const translation = translations[locale] || translations['en'] || {};
+  const localeTranslation = translations[locale];
 
-  // SEO FIX: Redirect if slug doesn't match expected slug for this locale
-  // This handles two cases:
-  // 1. Cross-locale: Swedish slug under /fi/blog/ -> redirect to /sv/blog/
-  // 2. Old slug -> redirect to new slug (handled by static redirects, but fallback here)
-  // Use URL slug as fallback when no locale-specific slug exists (page is already accessed at this URL)
-  const localeSlug = translation.slug || slug;
-  if (slug !== localeSlug) {
-    // Check if this slug belongs to a different locale
+  // SEO FIX: Redirect cross-locale slugs to the correct slug for the user's locale.
+  // Priority: keep the user in their locale, only redirect cross-locale if no translation exists.
+
+  // Case 1: Current locale has a translation with its own slug → redirect to it (keep user in their locale)
+  if (localeTranslation?.slug && slug !== localeTranslation.slug) {
+    permanentRedirect(`/${locale}/blog/${localeTranslation.slug}`);
+  }
+
+  // Case 2: Current locale has NO translation → redirect to slug's native locale
+  if (!localeTranslation?.slug) {
     const correctLocale = await findSlugLanguage(slug);
     if (correctLocale && correctLocale !== locale) {
-      // Cross-locale access: redirect to correct locale with this slug
       permanentRedirect(`/${correctLocale}/blog/${slug}`);
     }
-    // Slug doesn't match locale but isn't found in other locales either
-    // This could be an old slug - redirect to the correct slug for this locale
-    permanentRedirect(`/${locale}/blog/${localeSlug}`);
   }
+
+  // Use locale-specific translation (with English fallback for content rendering)
+  const translation = localeTranslation || translations['en'] || {};
+  // If we reach here, the slug is correct for this locale (redirects above handle mismatches)
+  const localeSlug = localeTranslation?.slug || slug;
 
   let htmlContent = translation.content || '';
 
@@ -1945,8 +1948,8 @@ export async function generateMetadata({ params }: BlogPostPageProps) {
     // Use only locale-specific focusKeyword (avoid mixing keywords from all languages)
     const focusKeyword = translation.focusKeyword || '';
     const keywords = focusKeyword;
-    // Use translation slug for canonical URL; fall back to URL slug when no locale-specific slug exists
-    const localeSlug = translation.slug || slug;
+    // Use locale-specific slug for canonical URL; fall back to URL slug (not English slug)
+    const localeSlug = translations[locale]?.slug || slug;
     const canonicalUrl = `${baseUrl}/${locale}/blog/${localeSlug}`;
 
     // Discover sample images for og:image enrichment

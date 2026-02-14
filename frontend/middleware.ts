@@ -63,6 +63,19 @@ for (const app of productPageSlugs) {
   }
 }
 
+// Build anySlug → locale-to-slug map for cross-locale redirects
+// e.g., /sv/apps/subtraktion-arbejdsark (Danish slug under Swedish) → /sv/apps/subtraktion-arbetsblad
+const anySlugToLocaleSlugs = new Map<string, Record<string, string>>();
+for (const app of productPageSlugs) {
+  const localeToSlug: Record<string, string> = {};
+  for (const [locale, slug] of Object.entries(app.slugs)) {
+    if (slug) localeToSlug[locale] = slug;
+  }
+  for (const slug of Object.values(app.slugs)) {
+    if (slug) anySlugToLocaleSlugs.set(slug, localeToSlug);
+  }
+}
+
 /**
  * Parse Accept-Language header to detect user's preferred language
  * Returns the first supported language or null if none match
@@ -195,14 +208,10 @@ export default function middleware(request: NextRequest) {
   if (blogMatch) {
     const [, locale, slug] = blogMatch;
 
-    // Check 1: Is this a CURRENT slug under wrong locale?
-    const nativeLocale = slugToLocaleMap.get(slug);
-    if (nativeLocale && nativeLocale !== locale) {
-      const newUrl = new URL(`/${nativeLocale}/blog/${slug}`, request.url);
-      return NextResponse.redirect(newUrl, { status: 301 });
-    }
+    // Cross-locale slug correction is handled by the page component (it has DB access
+    // to look up all locale slugs per post). Middleware only handles old/stale slugs.
 
-    // Check 2: Is this an OLD slug? Redirect to correct locale + NEW slug
+    // Check: Is this an OLD slug? Redirect to correct locale + NEW slug
     // This handles old slugs accessed under ANY locale (including wrong ones)
     const oldSlugInfo = oldSlugMap.get(slug);
     if (oldSlugInfo) {
@@ -210,9 +219,9 @@ export default function middleware(request: NextRequest) {
       return NextResponse.redirect(newUrl, { status: 301 });
     }
 
-    // Check 3: Fuzzy match - try stripping common suffixes for edge cases
+    // Fuzzy match - try stripping common suffixes for edge cases
     // Google may have indexed URLs with intermediate suffixes we didn't capture
-    if (!nativeLocale && !oldSlugInfo) {
+    if (!oldSlugInfo) {
       const strippedSlug = slug
         .replace(/-final-optimized$/, '')
         .replace(/-optimized$/, '')
@@ -309,6 +318,17 @@ export default function middleware(request: NextRequest) {
           const newUrl = new URL(`/${locale}/apps/${localizedSlug}`, request.url);
           return NextResponse.redirect(newUrl, { status: 301 });
         }
+      }
+    }
+
+    // Cross-locale slug redirect: slug from locale X accessed under locale Y
+    // e.g., /sv/apps/subtraktion-arbejdsark (Danish slug) → /sv/apps/subtraktion-arbetsblad (Swedish slug)
+    const appSlugsAll = anySlugToLocaleSlugs.get(slug);
+    if (appSlugsAll) {
+      const correctSlug = appSlugsAll[locale];
+      if (correctSlug && correctSlug !== slug) {
+        const newUrl = new URL(`/${locale}/apps/${correctSlug}`, request.url);
+        return NextResponse.redirect(newUrl, { status: 301 });
       }
     }
   }

@@ -9,7 +9,8 @@ The enriched content system replaces the legacy `theme-page-content.ts` monolith
 ```
 frontend/content/themes/
   types.ts                    # EnrichedThemeContent interface + all type definitions
-  index.ts                    # Content loader with registry + fallback to legacy
+  registry.ts                 # Registry map + registerThemeContent (no circular deps)
+  index.ts                    # Content loader with fallback to legacy (imports registry)
   register-all.ts             # Imports all 550 locale files (triggers self-registration)
   grades-types.ts             # Grade-specific type utilities
   [theme]/                    # 50 theme directories
@@ -58,14 +59,14 @@ frontend/content/themes/
    ```
 
 2. **Create 11 locale files** following the `EnrichedThemeContent` interface. Each file must:
-   - Import `registerThemeContent` from `../index`
+   - Import `registerThemeContent` from `../registry`
    - Import `EnrichedThemeContent` from `../types`
    - Export a `const content: EnrichedThemeContent` object
    - Call `registerThemeContent('[new-theme]', '[locale]', content)` at the bottom
 
    Example structure:
    ```typescript
-   import { registerThemeContent } from '../index';
+   import { registerThemeContent } from '../registry';
    import type { EnrichedThemeContent } from '../types';
 
    const content: EnrichedThemeContent = {
@@ -176,7 +177,7 @@ Content Files (550 .ts files)
 register-all.ts imports all files on app startup
     |
     v
-Each file calls registerThemeContent() -> populates enrichedRegistry map
+Each file calls registerThemeContent() from registry.ts -> populates enrichedRegistry map
     |
     v
 getThemeContentWithFallback(themeId, locale)

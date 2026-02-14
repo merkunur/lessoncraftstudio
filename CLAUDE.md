@@ -428,6 +428,7 @@ curl -I "https://www.lessoncraftstudio.com/samples/english/addition/sample-1.jpe
 | Content files | `frontend/content/themes/[theme]/[locale].ts` |
 | Type definitions | `frontend/content/themes/types.ts` |
 | Content loader | `frontend/content/themes/index.ts` |
+| Registry | `frontend/content/themes/registry.ts` (breaks circular deps) |
 | Registration | `frontend/content/themes/register-all.ts` |
 | Components | `frontend/components/theme-page/` (7 components) |
 | App mapping | `frontend/config/theme-app-mapping.ts` |

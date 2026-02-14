@@ -3,10 +3,10 @@
  *
  * Auto-generated mapping of slugs to their native locale.
  * When a slug is accessed under the wrong locale, redirect to the correct locale.
- * Generated from: scripts/audit-blog-cross-locale-slugs.js
+ * Generated from: scripts/regenerate-redirect-map.js
  *
  * Total redirects: 12320
- * Generated: 2026-02-11T14:35:02.426Z
+ * Generated: 2026-02-14T18:47:12.771Z
  */
 
 const crossLocaleSlugs = [

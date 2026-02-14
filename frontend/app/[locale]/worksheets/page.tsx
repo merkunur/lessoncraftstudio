@@ -477,7 +477,7 @@ export default async function WorksheetsHubPage({
                     </div>
                   )}
                   <Link
-                    href={`/${locale}/apps/grades/${gradeId}`}
+                    href={`/${locale}/apps/grades/${getGradeSlug(gradeId, locale) || gradeId}`}
                     className="inline-flex items-center text-sm font-medium text-purple-600 hover:text-purple-800 hover:underline mt-3"
                   >
                     {(viewAllGradeAppsLabel[locale] || viewAllGradeAppsLabel.en).replace('{gradeName}', name)}

@@ -1,9 +1,18 @@
 /**
- * Grade URL slug mappings for /[locale]/worksheets/[theme]/[grade]/ pages.
+ * Grade URL slug mappings for /[locale]/worksheets/[theme]/[grade]/ pages
+ * and /[locale]/apps/grades/[grade]/ grade hub pages.
  *
  * Each grade has a localized slug per locale for SEO-friendly URLs.
  * The grade IDs match those in grade-content.ts.
  */
+
+import { SUPPORTED_LOCALES } from '@/config/locales';
+
+/** Hreflang code mapping (inlined to avoid circular dep with schema-generator) */
+const hreflangCodes: Record<string, string> = {
+  en: 'en', de: 'de', fr: 'fr', es: 'es', pt: 'pt-BR',
+  it: 'it', nl: 'nl', sv: 'sv', da: 'da', no: 'no', fi: 'fi',
+};
 
 export const GRADE_IDS = [
   'preschool',
@@ -151,4 +160,21 @@ export function getGradeFilteredApps(gradeId: string, themeAppIds: string[]): st
   const gradeApps = gradeAppIds[gradeId];
   if (!gradeApps) return themeAppIds;
   return themeAppIds.filter(appId => gradeApps.includes(appId));
+}
+
+/** Generate hreflang alternate URLs for a grade hub page (all locales) */
+export function getGradeAlternateUrls(
+  gradeId: string,
+  baseUrl: string = 'https://www.lessoncraftstudio.com'
+): Record<string, string> {
+  const alternates: Record<string, string> = {};
+  for (const locale of SUPPORTED_LOCALES) {
+    const slug = getGradeSlug(gradeId, locale);
+    if (slug) {
+      alternates[hreflangCodes[locale] || locale] = `${baseUrl}/${locale}/apps/grades/${slug}`;
+    }
+  }
+  const enSlug = getGradeSlug(gradeId, 'en');
+  if (enSlug) alternates['x-default'] = `${baseUrl}/en/apps/grades/${enSlug}`;
+  return alternates;
 }

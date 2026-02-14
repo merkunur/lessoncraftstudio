@@ -5,6 +5,8 @@ import { usePathname } from 'next/navigation';
 import { useTranslations } from 'next-intl';
 import { getSlugForLocale, type SupportedLocale } from '@/config/product-page-slugs';
 import { getThemeSlug } from '@/config/theme-slugs';
+import { getProductCategorySlug } from '@/config/product-category-slugs';
+import { getGradeSlug } from '@/config/grade-slugs';
 
 export function Footer() {
   const pathname = usePathname();
@@ -205,7 +207,7 @@ export function Footer() {
             <ul className="space-y-2 text-sm">
               {subjectLinks.map(subject => (
                 <li key={subject.slug}>
-                  <Link href={`/${locale}/apps/category/${subject.slug}`} className="hover:text-white">
+                  <Link href={`/${locale}/apps/category/${getProductCategorySlug(subject.slug, locale)}`} className="hover:text-white">
                     {subject.labels[locale as keyof typeof subject.labels] || subject.labels.en}
                   </Link>
                 </li>
@@ -221,7 +223,7 @@ export function Footer() {
             <ul className="space-y-2 text-sm">
               {gradeLinks.map(grade => (
                 <li key={grade.slug}>
-                  <Link href={`/${locale}/apps/grades/${grade.slug}`} className="hover:text-white">
+                  <Link href={`/${locale}/apps/grades/${getGradeSlug(grade.slug, locale) || grade.slug}`} className="hover:text-white">
                     {grade.labels[locale as keyof typeof grade.labels] || grade.labels.en}
                   </Link>
                 </li>

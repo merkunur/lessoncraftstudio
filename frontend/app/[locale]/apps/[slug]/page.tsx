@@ -3,7 +3,7 @@ import AutoLaunchApp from './AutoLaunchApp';
 import { notFound, redirect } from 'next/navigation';
 import ProductPageClient from '@/components/product-page/ProductPageClient';
 import RelatedBlogPosts from '@/components/product-page/RelatedBlogPosts';
-import { getContentBySlug, getAllStaticParams, getAlternateLanguageUrls } from '@/config/product-page-content';
+import { getContentBySlug, getAllStaticParams } from '@/config/product-page-content';
 import { generateAppProductSchemas, generateAllProductPageSchemas, AppProductData, ogLocaleMap, localeToLanguageFolder } from '@/lib/schema-generator';
 import { SUPPORTED_LOCALES } from '@/config/locales';
 import { getSampleSeoMetadataMap, SampleSeoMetadata } from '@/lib/sample-seo';
@@ -11,6 +11,7 @@ import { getRelatedBlogPostsForProduct } from '@/lib/blog-data';
 import { getKeywordsForApp } from '@/lib/internal-linking';
 import { generateLocalizedTitle, generateLocalizedCaption, generateLocalizedAltText, generateLocalizedAnswerKeyTitle, generateLocalizedAnswerKeyCaption } from '@/lib/localized-seo-templates';
 import type { SupportedLocale } from '@/config/product-page-slugs';
+import { getAppConfigBySlug, getAlternateUrls } from '@/config/product-page-slugs';
 import { getDefaultProductFAQs } from '@/lib/default-product-faqs';
 import {
   type DiscoveredSample,
@@ -394,7 +395,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   // This handles all product pages with content files (including non-English pages)
   const content = getContentBySlug(params.locale, params.slug);
   if (content?.seo) {
-    const alternateUrls = getAlternateLanguageUrls(content.seo.appId || params.slug);
+    const appConfig = getAppConfigBySlug(params.slug);
+    const alternateUrls = appConfig ? getAlternateUrls(appConfig.appId) : {};
     const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.lessoncraftstudio.com';
     const canonicalUrl = content.seo.canonicalUrl || `${baseUrl}/${params.locale}/apps/${params.slug}`;
 

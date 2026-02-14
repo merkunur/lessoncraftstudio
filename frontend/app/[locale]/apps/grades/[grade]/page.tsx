@@ -7,6 +7,7 @@ import { gradeContent, GRADE_SLUGS, type GradeSlug } from '@/config/grade-conten
 import { productPageSlugs } from '@/config/product-page-slugs';
 import { getSlugForLocale, type SupportedLocale } from '@/config/product-page-slugs';
 import { getThemeSlug } from '@/config/theme-slugs';
+import { getGradeSlug, getGradeIdFromSlug, getGradeAlternateUrls } from '@/config/grade-slugs';
 
 export const revalidate = 3600;
 
@@ -14,7 +15,7 @@ export function generateStaticParams() {
   const params: { locale: string; grade: string }[] = [];
   for (const locale of SUPPORTED_LOCALES) {
     for (const grade of GRADE_SLUGS) {
-      params.push({ locale, grade });
+      params.push({ locale, grade: getGradeSlug(grade, locale) || grade });
     }
   }
   return params;
@@ -22,20 +23,19 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: { params: { locale: string; grade: string } }): Promise<Metadata> {
   const locale = params.locale || 'en';
-  const grade = params.grade as GradeSlug;
   const baseUrl = 'https://www.lessoncraftstudio.com';
 
   const notFoundMeta: Metadata = { title: 'Not Found', robots: { index: false, follow: false } };
-  if (!GRADE_SLUGS.includes(grade)) return notFoundMeta;
 
-  const content = gradeContent[grade]?.[locale] || gradeContent[grade]?.en;
+  // Resolve localized slug → grade ID
+  const gradeId = getGradeIdFromSlug(locale, params.grade) as GradeSlug | undefined;
+  if (!gradeId || !GRADE_SLUGS.includes(gradeId)) return notFoundMeta;
+
+  const content = gradeContent[gradeId]?.[locale] || gradeContent[gradeId]?.en;
   if (!content) return notFoundMeta;
 
-  const hreflangAlternates: Record<string, string> = {};
-  for (const lang of SUPPORTED_LOCALES) {
-    hreflangAlternates[getHreflangCode(lang)] = `${baseUrl}/${lang}/apps/grades/${grade}`;
-  }
-  hreflangAlternates['x-default'] = `${baseUrl}/en/apps/grades/${grade}`;
+  const locSlug = getGradeSlug(gradeId, locale) || gradeId;
+  const hreflangAlternates = getGradeAlternateUrls(gradeId, baseUrl);
 
   return {
     title: content.title,
@@ -52,14 +52,14 @@ export async function generateMetadata({ params }: { params: { locale: string; g
       },
     },
     alternates: {
-      canonical: `${baseUrl}/${locale}/apps/grades/${grade}`,
+      canonical: `${baseUrl}/${locale}/apps/grades/${locSlug}`,
       languages: hreflangAlternates,
     },
     openGraph: {
       title: content.title,
       description: content.description,
       type: 'website',
-      url: `${baseUrl}/${locale}/apps/grades/${grade}`,
+      url: `${baseUrl}/${locale}/apps/grades/${locSlug}`,
       siteName: 'LessonCraftStudio',
       locale: ogLocaleMap[locale] || locale,
       alternateLocale: SUPPORTED_LOCALES.filter(l => l !== locale).map(l => ogLocaleMap[l] || l),
@@ -69,12 +69,14 @@ export async function generateMetadata({ params }: { params: { locale: string; g
 
 export default function GradePage({ params }: { params: { locale: string; grade: string } }) {
   const locale = params.locale || 'en';
-  const grade = params.grade as GradeSlug;
 
-  if (!GRADE_SLUGS.includes(grade)) notFound();
+  // Resolve localized slug → grade ID
+  const gradeId = getGradeIdFromSlug(locale, params.grade) as GradeSlug | undefined;
+  if (!gradeId || !GRADE_SLUGS.includes(gradeId)) notFound();
 
-  const content = gradeContent[grade]?.[locale] || gradeContent[grade]?.en;
+  const content = gradeContent[gradeId]?.[locale] || gradeContent[gradeId]?.en;
   if (!content) notFound();
+  const locSlug = getGradeSlug(gradeId, locale) || gradeId;
 
   const faqSchema = generateFAQSchema(content.faq, locale);
 
@@ -189,7 +191,7 @@ export default function GradePage({ params }: { params: { locale: string; grade:
           '@type': 'CollectionPage',
           name: content.heading,
           description: content.description,
-          url: `https://www.lessoncraftstudio.com/${locale}/apps/grades/${grade}`,
+          url: `https://www.lessoncraftstudio.com/${locale}/apps/grades/${locSlug}`,
           inLanguage: getHreflangCode(locale),
           audience: {
             '@type': 'EducationalAudience',
@@ -304,7 +306,7 @@ export default function GradePage({ params }: { params: { locale: string; grade:
               return (
                 <Link
                   key={t.id}
-                  href={`/${locale}/worksheets/${themeSlug}/${grade}`}
+                  href={`/${locale}/worksheets/${themeSlug}/${locSlug}`}
                   className="bg-white border border-gray-200 rounded-full px-5 py-2 text-sm font-medium text-gray-700 hover:bg-green-50 hover:border-green-300 hover:text-green-700 transition-colors"
                 >
                   {t.labels[locale] || t.labels.en}

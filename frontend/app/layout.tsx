@@ -73,18 +73,25 @@ export default async function RootLayout({
   children: React.ReactNode;
 }) {
   // Get locale for <html lang> — critical for SEO (Googlebot uses this)
-  // Primary: parse locale from URL via x-pathname header set by middleware
-  // Fallback: next-intl getLocale() (may return 'en' for cookieless requests)
+  // Priority: x-locale header (pre-validated) > x-pathname parse > next-intl > default
   let lang: string = DEFAULT_LOCALE;
   try {
     const headersList = headers();
-    const pathname = headersList.get('x-pathname') || '';
-    const pathLocale = pathname.split('/').filter(Boolean)[0];
-    if (pathLocale && isValidLocale(pathLocale)) {
-      lang = pathLocale;
+    // 1. Direct locale header set by middleware (most reliable — no parsing needed)
+    const xLocale = headersList.get('x-locale');
+    if (xLocale && isValidLocale(xLocale)) {
+      lang = xLocale;
     } else {
-      lang = await getLocale();
-      if (!isValidLocale(lang)) lang = DEFAULT_LOCALE;
+      // 2. Parse from pathname header (fallback)
+      const pathname = headersList.get('x-pathname') || '';
+      const pathLocale = pathname.split('/').filter(Boolean)[0];
+      if (pathLocale && isValidLocale(pathLocale)) {
+        lang = pathLocale;
+      } else {
+        // 3. next-intl context (last resort before default)
+        lang = await getLocale();
+        if (!isValidLocale(lang)) lang = DEFAULT_LOCALE;
+      }
     }
   } catch {
     lang = DEFAULT_LOCALE;

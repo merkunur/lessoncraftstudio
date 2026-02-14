@@ -8,6 +8,7 @@ import { getHreflangCode, ogLocaleMap, hreflangMap } from '@/lib/schema-generato
 import { SUPPORTED_LOCALES } from '@/config/locales';
 import RelatedProducts from '@/components/blog/RelatedProducts';
 import type { SupportedLocale } from '@/config/product-page-slugs';
+import { getBlogCategorySlug, getBlogCategoryIdFromSlug, getBlogCategoryAlternateUrls } from '@/config/blog-category-slugs';
 
 // Enable ISR - revalidate every 30 minutes
 export const revalidate = 1800;
@@ -240,14 +241,14 @@ interface CategoryPageProps {
   };
 }
 
-// Generate static params for all category/locale combinations
+// Generate static params for all category/locale combinations (localized slugs)
 export async function generateStaticParams() {
   const locales = [...SUPPORTED_LOCALES];
   const params = [];
 
   for (const locale of locales) {
-    for (const category of VALID_CATEGORIES) {
-      params.push({ locale, category });
+    for (const categoryId of VALID_CATEGORIES) {
+      params.push({ locale, category: getBlogCategorySlug(categoryId, locale) });
     }
   }
 
@@ -304,19 +305,20 @@ async function getCategoryPosts(category: string, locale: string) {
 
 // Generate metadata for SEO
 export async function generateMetadata({ params, searchParams }: CategoryPageProps): Promise<Metadata> {
-  const { locale, category } = params;
+  const { locale, category: categorySlug } = params;
   const baseUrl = 'https://www.lessoncraftstudio.com';
   const currentPage = parseInt(searchParams.page || '1', 10);
 
-  // Validate category
-  if (!VALID_CATEGORIES.includes(category)) {
+  // Resolve localized slug to category ID
+  const categoryId = getBlogCategoryIdFromSlug(categorySlug, locale);
+  if (!categoryId || !VALID_CATEGORIES.includes(categoryId)) {
     return {
       title: 'Category Not Found',
       robots: { index: false, follow: false }
     };
   }
 
-  const categoryMeta = CATEGORY_TRANSLATIONS[category]?.[locale] || CATEGORY_TRANSLATIONS[category]?.['en'];
+  const categoryMeta = CATEGORY_TRANSLATIONS[categoryId]?.[locale] || CATEGORY_TRANSLATIONS[categoryId]?.['en'];
   if (!categoryMeta) {
     return {
       title: 'Category Not Found',
@@ -324,14 +326,17 @@ export async function generateMetadata({ params, searchParams }: CategoryPagePro
     };
   }
 
+  // Use the localized slug for this locale in all URLs
+  const locSlug = getBlogCategorySlug(categoryId, locale);
+
   // Fetch posts to calculate total pages
-  const posts = await getCategoryPosts(category, locale);
+  const posts = await getCategoryPosts(categoryId, locale);
   const totalPages = Math.ceil(posts.length / POSTS_PER_PAGE);
 
   // Build canonical URL
   const canonicalUrl = currentPage === 1
-    ? `${baseUrl}/${locale}/blog/category/${category}`
-    : `${baseUrl}/${locale}/blog/category/${category}?page=${currentPage}`;
+    ? `${baseUrl}/${locale}/blog/category/${locSlug}`
+    : `${baseUrl}/${locale}/blog/category/${locSlug}?page=${currentPage}`;
 
   // Build title with page number for pages > 1
   // SEO: Category-specific titles with action words for better query matching
@@ -350,24 +355,16 @@ export async function generateMetadata({ params, searchParams }: CategoryPagePro
   const otherLinks: Record<string, string> = {};
   if (currentPage > 1) {
     otherLinks.prev = currentPage === 2
-      ? `${baseUrl}/${locale}/blog/category/${category}`
-      : `${baseUrl}/${locale}/blog/category/${category}?page=${currentPage - 1}`;
+      ? `${baseUrl}/${locale}/blog/category/${locSlug}`
+      : `${baseUrl}/${locale}/blog/category/${locSlug}?page=${currentPage - 1}`;
   }
   if (currentPage < totalPages) {
-    otherLinks.next = `${baseUrl}/${locale}/blog/category/${category}?page=${currentPage + 1}`;
+    otherLinks.next = `${baseUrl}/${locale}/blog/category/${locSlug}?page=${currentPage + 1}`;
   }
 
   // Build hreflang alternates — only on page 1 (paginated pages should not have hreflang)
   const categoryHreflangLanguages: Record<string, string> | undefined = currentPage === 1
-    ? (() => {
-        const langs: Record<string, string> = {};
-        for (const loc of SUPPORTED_LOCALES) {
-          const hreflangCode = hreflangMap[loc] || loc;
-          langs[hreflangCode] = `${baseUrl}/${loc}/blog/category/${category}`;
-        }
-        langs['x-default'] = `${baseUrl}/en/blog/category/${category}`;
-        return langs;
-      })()
+    ? getBlogCategoryAlternateUrls(categoryId, baseUrl)
     : undefined;
 
   return {
@@ -396,26 +393,30 @@ export async function generateMetadata({ params, searchParams }: CategoryPagePro
 }
 
 export default async function CategoryPage({ params, searchParams }: CategoryPageProps) {
-  const { locale, category } = params;
+  const { locale, category: categorySlug } = params;
   const currentPage = parseInt(searchParams.page || '1', 10);
   const baseUrl = 'https://www.lessoncraftstudio.com';
 
-  // Validate category
-  if (!VALID_CATEGORIES.includes(category)) {
+  // Resolve localized slug to category ID
+  const categoryId = getBlogCategoryIdFromSlug(categorySlug, locale);
+  if (!categoryId || !VALID_CATEGORIES.includes(categoryId)) {
     notFound();
   }
 
-  const categoryMeta = CATEGORY_TRANSLATIONS[category]?.[locale] || CATEGORY_TRANSLATIONS[category]?.['en'];
+  const categoryMeta = CATEGORY_TRANSLATIONS[categoryId]?.[locale] || CATEGORY_TRANSLATIONS[categoryId]?.['en'];
   if (!categoryMeta) {
     notFound();
   }
 
+  // Use localized slug for this locale in all URLs
+  const locSlug = getBlogCategorySlug(categoryId, locale);
+
   // Fetch posts
   let allPosts: Awaited<ReturnType<typeof getCategoryPosts>>;
   try {
-    allPosts = await getCategoryPosts(category, locale);
+    allPosts = await getCategoryPosts(categoryId, locale);
   } catch (err) {
-    console.error(`Category page error (category=${category}, locale=${locale}):`, err);
+    console.error(`Category page error (category=${categoryId}, locale=${locale}):`, err);
     allPosts = [];
   }
   const totalPages = Math.ceil(allPosts.length / POSTS_PER_PAGE);
@@ -433,7 +434,7 @@ export default async function CategoryPage({ params, searchParams }: CategoryPag
     "@type": "CollectionPage",
     "name": categoryMeta.name,
     "description": categoryMeta.description,
-    "url": `${baseUrl}/${locale}/blog/category/${category}`,
+    "url": `${baseUrl}/${locale}/blog/category/${locSlug}`,
     "isPartOf": {
       "@type": "WebSite",
       "name": "LessonCraftStudio",
@@ -484,11 +485,11 @@ export default async function CategoryPage({ params, searchParams }: CategoryPag
         </div>
 
         {/* Category Introduction - SEO content depth */}
-        {CATEGORY_INTROS[category]?.[locale] && (
+        {CATEGORY_INTROS[categoryId]?.[locale] && (
           <div className="container mx-auto px-4 pt-10 pb-4">
             <div className="max-w-3xl mx-auto">
               <p className="text-gray-600 leading-relaxed text-lg">
-                {CATEGORY_INTROS[category][locale]}
+                {CATEGORY_INTROS[categoryId][locale]}
               </p>
             </div>
           </div>
@@ -552,7 +553,7 @@ export default async function CategoryPage({ params, searchParams }: CategoryPag
             <div className="mt-12">
               <RelatedProducts
                 locale={locale as SupportedLocale}
-                category={category}
+                category={categoryId}
                 keywords={[]}
                 limit={4}
               />
@@ -565,8 +566,8 @@ export default async function CategoryPage({ params, searchParams }: CategoryPag
               {currentPage > 1 && (
                 <Link
                   href={currentPage === 2
-                    ? `/${locale}/blog/category/${category}`
-                    : `/${locale}/blog/category/${category}?page=${currentPage - 1}`
+                    ? `/${locale}/blog/category/${locSlug}`
+                    : `/${locale}/blog/category/${locSlug}?page=${currentPage - 1}`
                   }
                   className="px-4 py-2 bg-primary text-white rounded hover:bg-primary-dark transition-colors"
                 >
@@ -580,7 +581,7 @@ export default async function CategoryPage({ params, searchParams }: CategoryPag
 
               {currentPage < totalPages && (
                 <Link
-                  href={`/${locale}/blog/category/${category}?page=${currentPage + 1}`}
+                  href={`/${locale}/blog/category/${locSlug}?page=${currentPage + 1}`}
                   className="px-4 py-2 bg-primary text-white rounded hover:bg-primary-dark transition-colors"
                 >
                   Next

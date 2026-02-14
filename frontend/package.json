@@ -14,7 +14,10 @@
     "test:smoke": "playwright test --grep @smoke",
     "validate:api": "node scripts/validate-api-routes.js",
     "validate:i18n": "node scripts/validate-i18n.js",
-    "validate:all": "npm run validate:api && npm run validate:i18n",
+    "validate:hreflang": "node ../scripts/validate-hreflang-symmetry.js",
+    "validate:redirects": "node ../scripts/audit-canonical-and-redirects.js",
+    "validate:sitemap": "node ../scripts/validate-sitemap-urls.js",
+    "validate:all": "npm run validate:api && npm run validate:i18n && npm run validate:hreflang && npm run validate:redirects && npm run validate:sitemap",
     "setup:dev-admin": "node scripts/create-dev-admin.js"
   },
   "dependencies": {

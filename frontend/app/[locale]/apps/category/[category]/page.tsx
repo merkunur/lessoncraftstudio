@@ -7,6 +7,7 @@ import { categoryContent, CATEGORY_SLUGS, type CategorySlug } from '@/config/cat
 import { productPageSlugs } from '@/config/product-page-slugs';
 import { getSlugForLocale, type SupportedLocale } from '@/config/product-page-slugs';
 import { getThemeSlug } from '@/config/theme-slugs';
+import { getProductCategorySlug, getProductCategoryIdFromSlug, getProductCategoryAlternateUrls } from '@/config/product-category-slugs';
 
 export const revalidate = 3600;
 
@@ -14,7 +15,7 @@ export function generateStaticParams() {
   const params: { locale: string; category: string }[] = [];
   for (const locale of SUPPORTED_LOCALES) {
     for (const category of CATEGORY_SLUGS) {
-      params.push({ locale, category });
+      params.push({ locale, category: getProductCategorySlug(category, locale) });
     }
   }
   return params;
@@ -22,20 +23,19 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: { params: { locale: string; category: string } }): Promise<Metadata> {
   const locale = params.locale || 'en';
-  const category = params.category as CategorySlug;
   const baseUrl = 'https://www.lessoncraftstudio.com';
 
   const notFoundMeta: Metadata = { title: 'Not Found', robots: { index: false, follow: false } };
-  if (!CATEGORY_SLUGS.includes(category)) return notFoundMeta;
 
-  const content = categoryContent[category]?.[locale] || categoryContent[category]?.en;
+  // Resolve localized slug → category ID
+  const categoryId = getProductCategoryIdFromSlug(params.category, locale) as CategorySlug | undefined;
+  if (!categoryId || !CATEGORY_SLUGS.includes(categoryId)) return notFoundMeta;
+
+  const content = categoryContent[categoryId]?.[locale] || categoryContent[categoryId]?.en;
   if (!content) return notFoundMeta;
 
-  const hreflangAlternates: Record<string, string> = {};
-  for (const lang of SUPPORTED_LOCALES) {
-    hreflangAlternates[getHreflangCode(lang)] = `${baseUrl}/${lang}/apps/category/${category}`;
-  }
-  hreflangAlternates['x-default'] = `${baseUrl}/en/apps/category/${category}`;
+  const locSlug = getProductCategorySlug(categoryId, locale);
+  const hreflangAlternates = getProductCategoryAlternateUrls(categoryId, baseUrl);
 
   return {
     title: content.title,
@@ -52,14 +52,14 @@ export async function generateMetadata({ params }: { params: { locale: string; c
       },
     },
     alternates: {
-      canonical: `${baseUrl}/${locale}/apps/category/${category}`,
+      canonical: `${baseUrl}/${locale}/apps/category/${locSlug}`,
       languages: hreflangAlternates,
     },
     openGraph: {
       title: content.title,
       description: content.description,
       type: 'website',
-      url: `${baseUrl}/${locale}/apps/category/${category}`,
+      url: `${baseUrl}/${locale}/apps/category/${locSlug}`,
       siteName: 'LessonCraftStudio',
       locale: ogLocaleMap[locale] || locale,
       alternateLocale: SUPPORTED_LOCALES.filter(l => l !== locale).map(l => ogLocaleMap[l] || l),
@@ -69,12 +69,14 @@ export async function generateMetadata({ params }: { params: { locale: string; c
 
 export default function CategoryPage({ params }: { params: { locale: string; category: string } }) {
   const locale = params.locale || 'en';
-  const category = params.category as CategorySlug;
 
-  if (!CATEGORY_SLUGS.includes(category)) notFound();
+  // Resolve localized slug → category ID
+  const categoryId = getProductCategoryIdFromSlug(params.category, locale) as CategorySlug | undefined;
+  if (!categoryId || !CATEGORY_SLUGS.includes(categoryId)) notFound();
 
-  const content = categoryContent[category]?.[locale] || categoryContent[category]?.en;
+  const content = categoryContent[categoryId]?.[locale] || categoryContent[categoryId]?.en;
   if (!content) notFound();
+  const locSlug = getProductCategorySlug(categoryId, locale);
 
   const faqSchema = generateFAQSchema(content.faq, locale);
 
@@ -193,7 +195,7 @@ export default function CategoryPage({ params }: { params: { locale: string; cat
           '@type': 'CollectionPage',
           name: content.heading,
           description: content.description,
-          url: `https://www.lessoncraftstudio.com/${locale}/apps/category/${category}`,
+          url: `https://www.lessoncraftstudio.com/${locale}/apps/category/${locSlug}`,
           inLanguage: getHreflangCode(locale),
           isPartOf: {
             '@type': 'WebSite',

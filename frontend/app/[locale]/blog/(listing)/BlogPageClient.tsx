@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import { getBlogCategorySlug } from '@/config/blog-category-slugs';
 
 // Blog post metadata interface
 interface BlogPost {
@@ -137,7 +138,7 @@ export default function BlogPageClient({
             {allCategories.map((category) => (
               <Link
                 key={category.id}
-                href={category.id === 'all' ? `/${locale}/blog` : `/${locale}/blog/category/${category.id}`}
+                href={category.id === 'all' ? `/${locale}/blog` : `/${locale}/blog/category/${getBlogCategorySlug(category.id, locale)}`}
                 className={`px-4 py-2 rounded-full text-sm font-medium whitespace-nowrap transition-colors ${
                   category.id === 'all'
                     ? 'bg-primary text-white'

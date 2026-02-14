@@ -560,7 +560,7 @@ export default async function ThemeGradePage({
       {/* Grade Hub Bridge Link */}
       <div className="py-8 text-center" style={{ contentVisibility: 'auto', containIntrinsicSize: 'auto 100px' }}>
         <Link
-          href={`/${locale}/apps/grades/${gradeId}`}
+          href={`/${locale}/apps/grades/${getGradeSlug(gradeId, locale) || gradeId}`}
           className="inline-flex items-center text-lg font-medium text-teal-600 hover:text-teal-800 hover:underline"
         >
           {(viewAllGradeAppsLabel[locale] || viewAllGradeAppsLabel.en).replace('{gradeName}', gradeName)}

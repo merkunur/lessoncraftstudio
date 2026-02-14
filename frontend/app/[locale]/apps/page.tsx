@@ -6,7 +6,7 @@ import AppCard from '@/components/apps/AppCard';
 import { generateAppsCollectionSchema, generateAppsItemListSchema, getHreflangCode, ogLocaleMap } from '@/lib/schema-generator';
 import { productPageSlugs } from '@/config/product-page-slugs';
 import { SUPPORTED_LOCALES } from '@/config/locales';
-import { GRADE_IDS, gradeDisplayNames, gradeAgeRanges } from '@/config/grade-slugs';
+import { GRADE_IDS, getGradeSlug, gradeDisplayNames, gradeAgeRanges } from '@/config/grade-slugs';
 import { getRecentBlogPosts } from '@/lib/blog-data';
 
 // Localized SEO metadata for all 11 languages
@@ -1040,7 +1040,7 @@ export default async function AppsPage({ params: { locale } }: PageProps) {
             {GRADE_IDS.map((gradeId) => (
               <Link
                 key={gradeId}
-                href={`/${locale}/apps/grades/${gradeId}`}
+                href={`/${locale}/apps/grades/${getGradeSlug(gradeId, locale) || gradeId}`}
                 className="bg-gray-50 border border-gray-200 rounded-lg p-4 text-center hover:shadow-md hover:border-blue-300 transition-all group"
               >
                 <h3 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors">

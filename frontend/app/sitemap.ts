@@ -6,7 +6,9 @@ import { SUPPORTED_LOCALES } from '@/config/locales';
 import { crossLocaleSlugs } from '@/config/blog-cross-locale-redirects';
 import { ALL_THEME_IDS } from '@/content/themes/types';
 import { getThemeSlug } from '@/config/theme-slugs';
-import { GRADE_IDS, getGradeSlug } from '@/config/grade-slugs';
+import { GRADE_IDS, getGradeSlug, getGradeAlternateUrls } from '@/config/grade-slugs';
+import { getBlogCategorySlug, getBlogCategoryAlternateUrls } from '@/config/blog-category-slugs';
+import { getProductCategorySlug, getProductCategoryAlternateUrls } from '@/config/product-category-slugs';
 
 // Build slug -> nativeLocale map to exclude sitemap entries that would 301 redirect
 const slugToNativeLocale = new Map<string, string>();
@@ -131,13 +133,9 @@ export default async function sitemap({ id }: { id: number }): Promise<MetadataR
     ];
     for (const locale of locales) {
       for (const cat of productCategories) {
-        const catAlternates: Record<string, string> = {};
-        for (const lang of locales) {
-          catAlternates[getHreflangCode(lang)] = `${baseUrl}/${lang}/apps/category/${cat}`;
-        }
-        catAlternates['x-default'] = `${baseUrl}/en/apps/category/${cat}`;
+        const catAlternates = getProductCategoryAlternateUrls(cat, baseUrl);
         routes.push({
-          url: `${baseUrl}/${locale}/apps/category/${cat}`,
+          url: `${baseUrl}/${locale}/apps/category/${getProductCategorySlug(cat, locale)}`,
           lastModified: STATIC_CONTENT_DATE,
           changeFrequency: 'weekly',
           priority: 0.7,
@@ -150,13 +148,9 @@ export default async function sitemap({ id }: { id: number }): Promise<MetadataR
     const grades = ['preschool', 'kindergarten', 'first-grade', 'second-grade', 'third-grade'];
     for (const locale of locales) {
       for (const grade of grades) {
-        const gradeAlternates: Record<string, string> = {};
-        for (const lang of locales) {
-          gradeAlternates[getHreflangCode(lang)] = `${baseUrl}/${lang}/apps/grades/${grade}`;
-        }
-        gradeAlternates['x-default'] = `${baseUrl}/en/apps/grades/${grade}`;
+        const gradeAlternates = getGradeAlternateUrls(grade, baseUrl);
         routes.push({
-          url: `${baseUrl}/${locale}/apps/grades/${grade}`,
+          url: `${baseUrl}/${locale}/apps/grades/${getGradeSlug(grade, locale) || grade}`,
           lastModified: STATIC_CONTENT_DATE,
           changeFrequency: 'weekly',
           priority: 0.7,
@@ -266,17 +260,19 @@ export default async function sitemap({ id }: { id: number }): Promise<MetadataR
       const availableLocales = locales.filter(locale => categoryLocaleSet.has(`${category}:${locale}`));
       if (availableLocales.length === 0) continue;
 
+      // Build hreflang alternates with localized slugs
       const blogCatAlternates: Record<string, string> = {};
       for (const lang of availableLocales) {
-        blogCatAlternates[getHreflangCode(lang)] = `${baseUrl}/${lang}/blog/category/${category}`;
+        const locSlug = getBlogCategorySlug(category, lang);
+        blogCatAlternates[getHreflangCode(lang)] = `${baseUrl}/${lang}/blog/category/${locSlug}`;
       }
-      blogCatAlternates['x-default'] = availableLocales.includes('en')
-        ? `${baseUrl}/en/blog/category/${category}`
-        : `${baseUrl}/${availableLocales[0]}/blog/category/${category}`;
+      const xDefaultLocale = availableLocales.includes('en') ? 'en' : availableLocales[0];
+      blogCatAlternates['x-default'] = `${baseUrl}/${xDefaultLocale}/blog/category/${getBlogCategorySlug(category, xDefaultLocale)}`;
 
       for (const locale of availableLocales) {
+        const locSlug = getBlogCategorySlug(category, locale);
         routes.push({
-          url: `${baseUrl}/${locale}/blog/category/${category}`,
+          url: `${baseUrl}/${locale}/blog/category/${locSlug}`,
           lastModified: STATIC_CONTENT_DATE,
           changeFrequency: 'weekly',
           priority: 0.6,
@@ -316,9 +312,9 @@ export default async function sitemap({ id }: { id: number }): Promise<MetadataR
         const availableLocales = locales.filter((locale) => {
           const translation = translations[locale];
           if (!translation?.title || !translation?.content) return false;
-          const resolvedSlug = translation?.slug || post.slug;
-          if (!resolvedSlug) return false;
-          const nativeLocale = slugToNativeLocale.get(resolvedSlug);
+          // Require locale's OWN slug — never fall back to post.slug (matches generateMetadata logic)
+          if (!translation?.slug) return false;
+          const nativeLocale = slugToNativeLocale.get(translation.slug);
           if (nativeLocale && nativeLocale !== locale) return false;
           return true;
         });
@@ -328,18 +324,18 @@ export default async function sitemap({ id }: { id: number }): Promise<MetadataR
         // Build hreflang alternates across all available locales
         const blogAlternates: Record<string, string> = {};
         for (const loc of availableLocales) {
-          const locSlug = translations[loc]?.slug || post.slug;
+          const locSlug = translations[loc]?.slug;
           blogAlternates[getHreflangCode(loc)] = `${baseUrl}/${loc}/blog/${locSlug}`;
         }
         if (availableLocales.includes('en')) {
-          blogAlternates['x-default'] = `${baseUrl}/en/blog/${translations['en']?.slug || post.slug}`;
+          blogAlternates['x-default'] = `${baseUrl}/en/blog/${translations['en']?.slug}`;
         } else {
           const fallbackLocale = availableLocales[0];
-          blogAlternates['x-default'] = `${baseUrl}/${fallbackLocale}/blog/${translations[fallbackLocale]?.slug || post.slug}`;
+          blogAlternates['x-default'] = `${baseUrl}/${fallbackLocale}/blog/${translations[fallbackLocale]?.slug}`;
         }
 
         return availableLocales.map((locale) => ({
-          url: `${baseUrl}/${locale}/blog/${translations[locale]?.slug || post.slug}`,
+          url: `${baseUrl}/${locale}/blog/${translations[locale]?.slug}`,
           lastModified: post.updatedAt,
           changeFrequency: 'weekly' as const,
           priority: calculateBlogPriority(post),

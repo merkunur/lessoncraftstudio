@@ -15,6 +15,9 @@ const { legacyBlogSlugs } = require('./config/blog-redirects');
 // Import product page slugs for legacy appId → localized slug redirects
 // This fixes 404 errors for URLs like /de/apps/image-addition → /de/apps/addition-arbeitsblaetter
 import { productPageSlugs } from './config/product-page-slugs';
+import { getBlogCategorySlug, getBlogCategoryIdFromSlug } from './config/blog-category-slugs';
+import { getProductCategorySlug, getProductCategoryIdFromSlug } from './config/product-category-slugs';
+import { getGradeSlug, getGradeIdFromSlug } from './config/grade-slugs';
 
 // Build slug → nativeLocale map at startup for O(1) lookups
 const slugToLocaleMap = new Map<string, string>();
@@ -146,6 +149,8 @@ function continueWithIntlMiddleware(
   // Set locale cookie for root layout to detect language for SEO (html lang attribute)
   if (response instanceof NextResponse) {
     response.headers.set('x-pathname', pathname);
+    // SEO: Direct locale header for layout.tsx (defense in depth)
+    response.headers.set('x-locale', detectedLocale);
     // SEO: Content-Language header strengthens language signal for crawlers
     response.headers.set('Content-Language', detectedLocale);
     response.cookies.set('NEXT_LOCALE', detectedLocale, {
@@ -178,6 +183,10 @@ export default function middleware(request: NextRequest) {
   const pathSegments = pathname.split('/').filter(Boolean);
   const urlLocale = pathSegments[0];
   const detectedLocale = isValidLocale(urlLocale) ? urlLocale : 'en';
+
+  // SEO: Set x-locale header so layout.tsx can read the validated locale directly
+  // This is more reliable than re-parsing the pathname in the layout
+  requestHeaders.set('x-locale', detectedLocale);
 
   // Handle blog cross-locale redirects (slug accessed under wrong language)
   // This replaces 12,298 static redirects with a single middleware check
@@ -222,6 +231,51 @@ export default function middleware(request: NextRequest) {
           const newUrl = new URL(`/${strippedNativeLocale}/blog/${strippedSlug}`, request.url);
           return NextResponse.redirect(newUrl, { status: 301 });
         }
+      }
+    }
+  }
+
+  // SEO FIX: Redirect English blog category slugs to localized slugs
+  // e.g. /de/blog/category/teaching-resources → /de/blog/category/unterrichtsmaterialien
+  const blogCatMatch = pathname.match(/^\/([a-z]{2})\/blog\/category\/([a-z0-9-]+)$/);
+  if (blogCatMatch) {
+    const [, catLocale, catSlug] = blogCatMatch;
+    const categoryId = getBlogCategoryIdFromSlug(catSlug);
+    if (categoryId) {
+      const localizedSlug = getBlogCategorySlug(categoryId, catLocale);
+      if (localizedSlug !== catSlug) {
+        const newUrl = new URL(`/${catLocale}/blog/category/${localizedSlug}`, request.url);
+        return NextResponse.redirect(newUrl, { status: 301 });
+      }
+    }
+  }
+
+  // SEO FIX: Redirect English product category slugs to localized slugs
+  // e.g. /de/apps/category/math → /de/apps/category/mathematik
+  const prodCatMatch = pathname.match(/^\/([a-z]{2})\/apps\/category\/([a-z0-9-]+)$/);
+  if (prodCatMatch) {
+    const [, pcLocale, pcSlug] = prodCatMatch;
+    const categoryId = getProductCategoryIdFromSlug(pcSlug);
+    if (categoryId) {
+      const localizedSlug = getProductCategorySlug(categoryId, pcLocale);
+      if (localizedSlug !== pcSlug) {
+        const newUrl = new URL(`/${pcLocale}/apps/category/${localizedSlug}`, request.url);
+        return NextResponse.redirect(newUrl, { status: 301 });
+      }
+    }
+  }
+
+  // SEO FIX: Redirect English grade slugs to localized slugs
+  // e.g. /fr/apps/grades/preschool → /fr/apps/grades/maternelle
+  const gradeMatch = pathname.match(/^\/([a-z]{2})\/apps\/grades\/([a-z0-9-]+)$/);
+  if (gradeMatch) {
+    const [, grLocale, grSlug] = gradeMatch;
+    const gradeId = getGradeIdFromSlug(grLocale, grSlug);
+    if (gradeId) {
+      const localizedSlug = getGradeSlug(gradeId, grLocale);
+      if (localizedSlug && localizedSlug !== grSlug) {
+        const newUrl = new URL(`/${grLocale}/apps/grades/${localizedSlug}`, request.url);
+        return NextResponse.redirect(newUrl, { status: 301 });
       }
     }
   }
@@ -328,9 +382,11 @@ export default function middleware(request: NextRequest) {
 
     // Allow dev bypass
     if (authHeader === 'Bearer dev-bypass' || process.env.NODE_ENV === 'development') {
-      return NextResponse.next({
+      const resp = NextResponse.next({
         request: { headers: requestHeaders }
       });
+      resp.headers.set('Content-Language', detectedLocale);
+      return resp;
     }
 
     // If no admin token, redirect to login
@@ -340,16 +396,20 @@ export default function middleware(request: NextRequest) {
       return NextResponse.redirect(loginUrl);
     }
 
-    return NextResponse.next({
+    const resp = NextResponse.next({
       request: { headers: requestHeaders }
     });
+    resp.headers.set('Content-Language', detectedLocale);
+    return resp;
   }
 
   // Skip middleware for other static HTML files and public assets
   if (pathname.endsWith('.html') || pathname.includes('/worksheet-generators/')) {
-    return NextResponse.next({
+    const resp = NextResponse.next({
       request: { headers: requestHeaders }
     });
+    resp.headers.set('Content-Language', detectedLocale);
+    return resp;
   }
 
   // Skip middleware for admin and other app routes (but NOT dashboard - it needs i18n)
@@ -365,6 +425,7 @@ export default function middleware(request: NextRequest) {
     });
     // SEO: Prevent indexing of admin/internal pages
     response.headers.set('X-Robots-Tag', 'noindex, nofollow');
+    response.headers.set('Content-Language', detectedLocale);
     return response;
   }
 
@@ -385,6 +446,7 @@ export default function middleware(request: NextRequest) {
         maxAge: 60 * 60 * 24 * 30, // 30 days
         path: '/'
       });
+      response.headers.set('Content-Language', locale);
       return response;
     } else {
       // Try to get preferred language from cookies or Accept-Language header

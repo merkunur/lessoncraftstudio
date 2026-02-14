@@ -13,6 +13,7 @@ import { discoverSamplesFromFilesystem, normalizeAppIdForSamples } from '@/lib/s
 import { getBlogSampleApps } from '@/lib/blog-topic-clusters';
 import { transformBlogLinks, injectInternalLinks } from '@/lib/blog-link-transformer';
 import { injectBlogLinks } from '@/lib/blog-internal-links';
+import { getBlogCategorySlug } from '@/config/blog-category-slugs';
 import { generateSchemaDescription } from '@/lib/blog-schema-utils';
 import { getRelatedThemesForKeywords } from '@/lib/internal-linking';
 import RelatedThemes from '@/components/blog/RelatedThemes';
@@ -349,10 +350,15 @@ export async function generateStaticParams() {
     const params = [];
     const seenEnglish = new Set<string>();
 
+    let skipped = 0;
     for (const row of rows) {
       if (row.has_title && row.has_content) {
-        const localeSlug = row.locale_slug || row.primary_slug;
-        params.push({ locale: row.locale, slug: localeSlug });
+        if (!row.locale_slug) {
+          // Skip locales without their own slug (matches hreflang logic from Parts 12-13)
+          skipped++;
+          continue;
+        }
+        params.push({ locale: row.locale, slug: row.locale_slug });
         if (row.locale === 'en') {
           seenEnglish.add(row.primary_slug);
         }
@@ -373,7 +379,7 @@ export async function generateStaticParams() {
       localeCounts[p.locale] = (localeCounts[p.locale] || 0) + 1;
     }
     const breakdown = Object.entries(localeCounts).map(([l, c]) => `${l}:${c}`).join(' ');
-    console.log(`[blog-static] generateStaticParams: ${params.length} total params (${breakdown})`);
+    console.log(`[blog-static] generateStaticParams: ${params.length} total params, ${skipped} skipped (no locale slug) (${breakdown})`);
     if (params.length === 0) {
       console.warn('[blog-static] WARNING: 0 params generated - no blog posts will be pre-rendered at build time!');
     }
@@ -1196,7 +1202,7 @@ export default async function BlogPostPage({
             variant="blog"
             items={[
               { label: breadcrumbLabels[locale] || 'Blog', href: `/${locale}/blog` },
-              { label: CATEGORY_DISPLAY_NAMES[locale]?.[post.category] || post.category, href: `/${locale}/blog/category/${post.category}` },
+              { label: CATEGORY_DISPLAY_NAMES[locale]?.[post.category] || post.category, href: `/${locale}/blog/category/${getBlogCategorySlug(post.category, locale)}` },
               { label: translation.title || slug }
             ]}
           />
@@ -1989,29 +1995,28 @@ export async function generateMetadata({ params }: BlogPostPageProps) {
     ];
 
     // Build hreflang alternates from available translations
+    // Only include locales that have their OWN slug — never fall back to post.slug
+    // (a fallback slug would create a redirect URL, causing Google language mismatches)
     const hreflangLanguages: Record<string, string> = {};
     for (const loc of ALL_LOCALES) {
       const trans = translations[loc];
-      if (trans && trans.title && trans.content) {
-        const locSlug = trans.slug || post.slug;
+      if (trans && trans.title && trans.content && trans.slug) {
         const hreflangCode = hreflangMap[loc] || loc;
-        hreflangLanguages[hreflangCode] = `${baseUrl}/${loc}/blog/${locSlug}`;
+        hreflangLanguages[hreflangCode] = `${baseUrl}/${loc}/blog/${trans.slug}`;
       }
     }
     // x-default → English version if available, else first available locale
     const enTrans = translations['en'];
-    if (enTrans && enTrans.title && enTrans.content) {
-      const enSlug = enTrans.slug || post.slug;
-      hreflangLanguages['x-default'] = `${baseUrl}/en/blog/${enSlug}`;
+    if (enTrans && enTrans.title && enTrans.content && enTrans.slug) {
+      hreflangLanguages['x-default'] = `${baseUrl}/en/blog/${enTrans.slug}`;
     } else {
-      // Find first available locale that's in hreflangLanguages
+      // Find first available locale that has its own slug
       const firstAvailable = ALL_LOCALES.find(loc => {
         const t = translations[loc];
-        return t && t.title && t.content;
+        return t && t.title && t.content && t.slug;
       });
       if (firstAvailable) {
-        const fallbackSlug = translations[firstAvailable]?.slug || post.slug;
-        hreflangLanguages['x-default'] = `${baseUrl}/${firstAvailable}/blog/${fallbackSlug}`;
+        hreflangLanguages['x-default'] = `${baseUrl}/${firstAvailable}/blog/${translations[firstAvailable]!.slug}`;
       }
     }
 

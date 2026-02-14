@@ -593,7 +593,8 @@ export default async function BlogPostPage({
   // This handles two cases:
   // 1. Cross-locale: Swedish slug under /fi/blog/ -> redirect to /sv/blog/
   // 2. Old slug -> redirect to new slug (handled by static redirects, but fallback here)
-  const localeSlug = translation.slug || post.slug;
+  // Use URL slug as fallback when no locale-specific slug exists (page is already accessed at this URL)
+  const localeSlug = translation.slug || slug;
   if (slug !== localeSlug) {
     // Check if this slug belongs to a different locale
     const correctLocale = await findSlugLanguage(slug);
@@ -1944,8 +1945,8 @@ export async function generateMetadata({ params }: BlogPostPageProps) {
     // Use only locale-specific focusKeyword (avoid mixing keywords from all languages)
     const focusKeyword = translation.focusKeyword || '';
     const keywords = focusKeyword;
-    // Use translation slug for canonical URL (Bug 3 fix)
-    const localeSlug = translation.slug || post.slug;
+    // Use translation slug for canonical URL; fall back to URL slug when no locale-specific slug exists
+    const localeSlug = translation.slug || slug;
     const canonicalUrl = `${baseUrl}/${locale}/blog/${localeSlug}`;
 
     // Discover sample images for og:image enrichment

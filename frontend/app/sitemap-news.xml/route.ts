@@ -83,10 +83,10 @@ export async function GET() {
       for (const locale of SUPPORTED_LOCALES) {
         const translation = translations[locale];
 
-        // Only include if translation has title and content
-        if (!translation?.title || !translation?.content) continue;
+        // Only include if translation has title, content, and locale-specific slug
+        if (!translation?.title || !translation?.content || !translation?.slug) continue;
 
-        const localeSlug = translation.slug || post.slug;
+        const localeSlug = translation.slug;
 
         // Skip if this slug's native locale differs — middleware would 301 redirect
         const nativeLocale = slugToNativeLocale.get(localeSlug);

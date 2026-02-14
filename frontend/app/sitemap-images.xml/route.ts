@@ -490,9 +490,9 @@ export async function GET() {
 
       for (const locale of supportedLocales) {
         const translation = translations[locale];
-        if (!translation?.title || !translation?.content) continue;
+        if (!translation?.title || !translation?.content || !translation?.slug) continue;
 
-        const localeSlug = translation.slug || post.slug;
+        const localeSlug = translation.slug;
 
         // Skip if this slug's native locale differs — middleware would 301 redirect
         const nativeLocale = slugToNativeLocale.get(localeSlug);

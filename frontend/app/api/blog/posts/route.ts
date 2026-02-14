@@ -52,16 +52,16 @@ async function getBlogPostsForLocale(locale: string): Promise<BlogMetadata[]> {
       .filter(post => {
         const translations = post.translations as any;
         const translation = translations[locale];
-        // Only include if translation exists with both title and content
-        return translation && translation.title && translation.content;
+        // Only include if translation exists with title, content, and locale-specific slug
+        return translation && translation.title && translation.content && translation.slug;
       })
       .map(post => {
         const translations = post.translations as any;
         const translation = translations[locale];
 
         return {
-          // Use language-specific slug if available, otherwise fall back to primary slug
-          slug: translation.slug || post.slug,
+          // Use language-specific slug (guaranteed non-null by filter above)
+          slug: translation.slug,
           title: translation.title || post.slug,
           excerpt: translation.excerpt || '',
           author: translation.author || 'LessonCraftStudio Team',

@@ -277,17 +277,17 @@ async function getCategoryPosts(category: string, locale: string) {
       orderBy: { createdAt: 'desc' }
     });
 
-    // Filter posts that have translations for this locale
+    // Filter posts that have translations AND locale-specific slug for this locale
     return posts.filter(post => {
       const translations = post.translations as any;
       const translation = translations[locale];
-      return translation && translation.title && translation.content;
+      return translation && translation.title && translation.content && translation.slug;
     }).map(post => {
       const translations = post.translations as any;
       const translation = translations[locale];
       return {
         id: post.id,
-        slug: translation.slug || post.slug,
+        slug: translation.slug,
         title: translation.title,
         excerpt: translation.excerpt || '',
         author: translation.author || 'LessonCraftStudio Team',

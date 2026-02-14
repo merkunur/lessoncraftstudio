@@ -161,11 +161,12 @@ async function _getBlogPostsForLocale(locale: string): Promise<BlogPostMetadata[
       WHERE bp.status = 'published'
         AND jsonb_extract_path_text(bp.translations, ${locale}, 'title') IS NOT NULL
         AND jsonb_extract_path_text(bp.translations, ${locale}, 'content') IS NOT NULL
+        AND jsonb_extract_path_text(bp.translations, ${locale}, 'slug') IS NOT NULL
       ORDER BY bp.created_at DESC
     `;
 
     const posts: BlogPostMetadata[] = rows.map(row => ({
-      slug: row.t_slug || row.slug,
+      slug: row.t_slug!,
       title: row.t_title || row.slug,
       excerpt: row.t_excerpt || '',
       author: row.t_author || 'LessonCraftStudio Team',
@@ -234,7 +235,7 @@ export async function getRecentBlogPosts(
       .filter(post => {
         const translations = post.translations as any;
         const translation = translations[locale];
-        return translation && translation.title && translation.content;
+        return translation && translation.title && translation.content && translation.slug;
       })
       .slice(0, limit)
       .map(post => {
@@ -246,7 +247,7 @@ export async function getRecentBlogPosts(
           : post.category || 'Teaching Resources';
 
         return {
-          slug: translation.slug || post.slug,
+          slug: translation.slug,
           title: translation.title || post.slug,
           excerpt: translation.excerpt || '',
           featuredImage: translation.featuredImage || post.featuredImage,
@@ -295,8 +296,8 @@ export async function getRelatedBlogPostsForProduct(
       .filter(post => {
         const translations = post.translations as any;
         const translation = translations[locale];
-        // Only include posts with translations for this locale
-        return translation && translation.title && translation.content;
+        // Only include posts with translations AND a locale-specific slug
+        return translation && translation.title && translation.content && translation.slug;
       })
       .slice(0, limit)
       .map(post => {
@@ -308,7 +309,7 @@ export async function getRelatedBlogPostsForProduct(
           : post.category || 'Teaching Resources';
 
         return {
-          slug: translation.slug || post.slug,
+          slug: translation.slug,
           title: translation.title || post.slug,
           excerpt: translation.excerpt || '',
           featuredImage: translation.featuredImage || post.featuredImage,
@@ -331,14 +332,14 @@ export async function getRelatedBlogPostsForProduct(
       for (const post of fallbackPosts) {
         const translations = post.translations as any;
         const translation = translations[locale];
-        if (translation && translation.title && translation.content) {
+        if (translation && translation.title && translation.content && translation.slug) {
           const categoryData = DEFAULT_CATEGORIES.find(c => c.id === post.category);
           const categoryLabel = categoryData
             ? categoryData.translations[locale as keyof typeof categoryData.translations] || categoryData.translations.en
             : post.category || 'Teaching Resources';
 
           posts.push({
-            slug: translation.slug || post.slug,
+            slug: translation.slug,
             title: translation.title || post.slug,
             excerpt: translation.excerpt || '',
             featuredImage: translation.featuredImage || post.featuredImage,

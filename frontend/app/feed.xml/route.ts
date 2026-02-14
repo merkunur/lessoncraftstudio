@@ -41,12 +41,13 @@ export async function GET(request: NextRequest) {
     const rssItems = posts
       .filter(post => {
         const translations = post.translations as any;
-        return translations?.[locale]?.title && (translations?.[locale]?.content || translations?.[locale]?.slug);
+        const t = translations?.[locale];
+        return t?.title && t?.content && t?.slug;
       })
       .map(post => {
         const translations = post.translations as any;
         const t = translations[locale];
-        const slug = t.slug || post.slug;
+        const slug = t.slug;
 
         const plainText = (t.excerpt || t.content || '')
           .replace(/<[^>]*>/g, '')

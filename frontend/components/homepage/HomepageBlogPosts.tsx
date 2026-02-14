@@ -172,10 +172,14 @@ export default async function HomepageBlogPosts({ locale }: HomepageBlogPostsPro
           gap: '32px',
           marginBottom: '40px',
         }}>
-          {posts.map((post) => {
+          {posts.filter((post) => {
             const translations = post.translations as any;
-            const translation = translations[locale] || translations['en'] || {};
-            const postSlug = translation.slug || post.slug;
+            const translation = translations[locale];
+            return translation && translation.slug && translation.title;
+          }).map((post) => {
+            const translations = post.translations as any;
+            const translation = translations[locale] || {};
+            const postSlug = translation.slug;
             const title = translation.title || post.slug.replace(/-/g, ' ');
             const excerpt = translation.excerpt || '';
             // Truncate excerpt to ~120 chars

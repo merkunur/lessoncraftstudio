@@ -20,7 +20,7 @@ for (const { slug, nativeLocale } of crossLocaleSlugs) {
 export const revalidate = 1800;
 
 // Fixed date for static/config-derived pages (only update when content actually changes)
-const STATIC_CONTENT_DATE = new Date('2026-02-13');
+const STATIC_CONTENT_DATE = new Date('2026-02-15');
 
 // NOTE: Sample images are handled by /sitemap-images.xml with proper Google Image Sitemap XML format
 

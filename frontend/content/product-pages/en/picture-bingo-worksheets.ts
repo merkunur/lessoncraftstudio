@@ -21,16 +21,16 @@ export const pictureBingoEnContent: ProductPageContent = {
   seo: {
     slug: 'picture-bingo-worksheets',
     appId: 'bingo',
-    title: 'Bingo Worksheets | Free Printable Cards for Kids',
-    description: 'Create picture bingo cards with custom themes and 3000+ images. Free printable bingo worksheets for kindergarten sight words and math. Download PDF now.',
-    keywords: 'bingo worksheets, printable bingo cards, kindergarten worksheets, free printable worksheets, picture bingo, first grade worksheets, sight words worksheets, phonics worksheets, alphabet worksheets, math worksheets, free worksheet, worksheet for kids, free printables',
+    title: 'Picture Bingo Card Generator for Kids | LessonCraftStudio',
+    description: 'Create picture bingo cards with 3000+ themed images and custom boards. Free printable bingo for K-2 classrooms. Great for math, sight words, and phonics games.',
+    keywords: 'printable bingo cards, custom bingo boards, themed bingo for kids, educational bingo games, sight word bingo, classroom bingo printable, picture bingo cards, bingo for kindergarten, math bingo printable, bingo card maker for teachers',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/picture-bingo-worksheets',
       },
 
   // Hero Section
   hero: {
-    title: 'Free Printable Bingo Cards for Kindergarten',
-    subtitle: 'Picture Bingo Worksheet Generator for First Grade',
+    title: 'Picture Bingo Cards and Game Worksheets',
+    subtitle: 'Custom Themed Bingo Maker With 3000+ Images',
     description: `Create professional picture bingo cards with our free worksheet generator. Your Core Bundle subscription gives you unlimited bingo worksheet creation with no per-worksheet fees. Generate custom printable bingo cards perfect for kindergarten worksheets and first grade worksheets. Download high-quality PDF and JPEG free printables in under 3 minutes.
 
 Picture bingo worksheets combine visual learning with interactive gameplay. Teachers use printable bingo cards to reinforce sight words worksheets, phonics worksheets, alphabet worksheets, and math worksheets concepts. Each free worksheet includes a customizable grid and matching calling chips on a single printable page. Generate 1 to 10 unique bingo cards at once for whole-class activities. Your students stay engaged while practicing essential kindergarten and first grade skills through hands-on bingo games.

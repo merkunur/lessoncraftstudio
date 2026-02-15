@@ -21,16 +21,16 @@ export const sudokuEnContent: ProductPageContent = {
   seo: {
     appId: 'sudoku',
     slug: 'sudoku-worksheets',
-    title: 'Sudoku Worksheets | Free 4x4 Puzzles for Kids',
-    description: 'Create 4x4 picture sudoku with image-based logic puzzles and answer keys. Free printable brain teasers for kindergarten. Download PDF in 3 minutes.',
-    keywords: 'sudoku worksheets, sudoku for kids, kindergarten worksheets, first grade worksheets, free printable worksheets, logic puzzles for kids, picture sudoku, 4x4 sudoku puzzles, math worksheets, free worksheets for kids, sudoku worksheet generator, printable sudoku puzzles, free worksheet, free worksheet for kids, puzzle worksheets',
+    title: 'Sudoku Puzzle Maker for Kids - Easy 4x4 | LessonCraftStudio',
+    description: 'Create 4x4 picture sudoku puzzles with image-based logic and answer keys. Free printable brain teasers for K-2. Build critical thinking with fun puzzle grids.',
+    keywords: '4x4 sudoku printable, picture sudoku for kids, logic puzzles for kids, easy sudoku printable, image-based sudoku, sudoku with pictures, beginner sudoku worksheets, kid-friendly sudoku, brain teaser puzzles, critical thinking sudoku',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/sudoku-worksheets',
       },
 
   // Hero Section - FULL text from sudoku.md paragraphs 1-3
   hero: {
-    title: 'Free Printable Sudoku for Kids',
-    subtitle: 'Sudoku Worksheets for Kindergarten and First Grade',
+    title: '4x4 Picture Sudoku Puzzles for Kids',
+    subtitle: 'Image-Based Logic Puzzle Generator With Answer Keys',
     description: `Create visual sudoku puzzles with our sudoku generator designed specifically for young children. Your Core Bundle subscription gives you unlimited sudoku worksheet creation with no per-worksheet fees. Generate custom 4x4 picture-based sudoku puzzles perfect for kindergarten and first grade students. Download professional-quality PDF worksheets with complete answer keys in under 3 minutes. This is not traditional 9x9 number sudoku. Our kindergarten worksheets use colorful images instead of numbers, making logic puzzles accessible for children ages 4-8.
 
 Our sudoku for kids uses a simplified 4x4 grid with four different images. Each puzzle features themed pictures from categories like animals, food, transportation, or classroom objects. Students solve the puzzle by filling in blank cells so every row, column, and 2x2 quadrant contains all four pictures exactly once. The cut-and-paste format turns logic practice into a hands-on activity. Children cut out the image pieces and glue them into the correct empty cells. This physical manipulation builds fine motor skills while teaching critical thinking and pattern recognition. First grade worksheets can use medium or hard difficulty with 6-8 blank cells. Kindergarten worksheets typically use easy difficulty with only 4 blank cells. The visual nature of these free printable worksheets makes them perfect for early learners who have not yet mastered number recognition.

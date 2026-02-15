@@ -11,7 +11,7 @@ import { getRelatedBlogPostsForProduct } from '@/lib/blog-data';
 import { getKeywordsForApp } from '@/lib/internal-linking';
 import { generateLocalizedTitle, generateLocalizedCaption, generateLocalizedAltText, generateLocalizedAnswerKeyTitle, generateLocalizedAnswerKeyCaption } from '@/lib/localized-seo-templates';
 import type { SupportedLocale } from '@/config/product-page-slugs';
-import { getAppConfigBySlug, getAlternateUrls } from '@/config/product-page-slugs';
+import { getAppConfigBySlug, getAlternateUrls, getSlugForLocale } from '@/config/product-page-slugs';
 import { getDefaultProductFAQs } from '@/lib/default-product-faqs';
 import {
   type DiscoveredSample,
@@ -3634,6 +3634,16 @@ export default async function AppPage({ params: { locale, slug } }: PageProps) {
         <RelatedBlogPosts locale={locale as SupportedLocale} posts={relatedBlogPosts} />
       </>
     );
+  }
+
+  // Safety net: redirect cross-locale slugs to correct product page
+  // e.g., /sv/apps/subtraktion-arbejdsark (Danish slug under Swedish) → /sv/apps/subtraktion-arbetsblad
+  const slugConfig = getAppConfigBySlug(slug);
+  if (slugConfig && slugConfig.locale !== locale) {
+    const correctSlug = getSlugForLocale(slugConfig.appId, locale as SupportedLocale);
+    if (correctSlug && correctSlug !== slug) {
+      redirect(`/${locale}/apps/${correctSlug}`);
+    }
   }
 
   // Fetch app data from Strapi

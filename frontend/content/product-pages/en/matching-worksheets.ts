@@ -15,16 +15,16 @@ export const matchingEnContent: ProductPageContent = {
   seo: {
     slug: 'matching-worksheets',
     appId: 'matching',
-    title: 'Matching Worksheets | Free Printable for Kindergarten',
-    description: 'Create matching worksheets with picture pairs and visual association games. Free printable activities for kindergarten and first grade. Download PDF now.',
-    keywords: 'matching worksheets, matching worksheet generator, kindergarten worksheets, first grade worksheets, free printable worksheets, alphabet worksheets, sight words worksheets, phonics worksheets, math worksheets, free worksheet for kids, free printables, worksheet for kindergarten, tracing worksheets, addition worksheets',
+    title: 'Matching Worksheet Generator for Kids | LessonCraftStudio',
+    description: 'Create matching worksheets with picture pairs and visual association activities. Free printable for K-2 classrooms. Build memory and visual connection skills.',
+    keywords: 'picture matching worksheets, match the pairs activities, visual association printable, memory matching worksheets, connect the pair games, picture pair worksheets, kindergarten matching activities, visual matching for kids, image pair activities, matching activities printable',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/matching-worksheets',
       },
 
   // Hero Section - FULL text from matching.md paragraphs 1-4
   hero: {
-    title: 'Free Printable Matching Worksheets',
-    subtitle: 'MatchUp Maker Generator for Kindergarten and First Grade',
+    title: 'Matching Worksheets With Picture Pairs',
+    subtitle: 'Visual Association Game Maker for K-2',
     description: `Create professional matching worksheets with our MatchUp Maker generator. Your Core Bundle subscription gives you unlimited worksheet creation with no per-worksheet fees. Generate custom printable matching worksheets perfect for kindergarten and first grade students. Download high-quality PDF worksheets in under 3 minutes. Save hours of preparation time every week.
 
 Our matching worksheet generator helps teachers create educational worksheets where students draw lines to connect matching pairs. Choose from four matching modes including image-to-letter matching for alphabet worksheets. Try image-to-word matching for sight words worksheets practice. Use custom vocabulary matching for phonics worksheets and reading comprehension. Perfect for literacy skills development in early elementary classrooms.

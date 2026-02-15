@@ -15,16 +15,16 @@ export const wordGuessEnContent: ProductPageContent = {
   seo: {
     slug: 'word-guess-worksheets',
     appId: 'word-guess',
-    title: 'Word Guess Worksheets | Free Spelling Puzzles',
-    description: 'Create word guess worksheets with picture clues and letter blanks for spelling practice. Free printable vocabulary puzzles for kindergarten. Download PDF now.',
-    keywords: 'word guess worksheets, spelling worksheets, vocabulary worksheets, kindergarten worksheets, first grade worksheets, free printable worksheets, phonics worksheets, sight words worksheets, alphabet worksheets, worksheet for kids',
+    title: 'Word Guess Puzzle Generator for Kids | LessonCraftStudio',
+    description: 'Create word guess puzzles with picture clues and letter blanks for spelling. Free printable vocabulary games for K-2. Generate unique themed puzzles instantly.',
+    keywords: 'spelling puzzle worksheets, fill in the blanks worksheets, letter blank games, picture clue spelling, vocabulary guessing game, missing letter worksheets, sight word puzzles, spelling practice games, K-2 word activities, hangman-style worksheets',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/word-guess-worksheets',
       },
 
   // Hero Section - FULL text from word-guess.md paragraphs 1-5
   hero: {
-    title: 'Free Printable Word Guess Worksheets',
-    subtitle: 'Free Worksheets for Kindergarten - Worksheet Generator for Kids',
+    title: 'Word Guess Worksheets With Picture Clues',
+    subtitle: 'Spelling and Vocabulary Practice Maker for K-2',
     description: `Create professional word guess puzzles with our worksheet generator. Your Full Access subscription gives you unlimited worksheet creation with no per-worksheet fees. Generate custom printable worksheets perfect for kindergarten and first grade students. Download high-quality PDF worksheets in under 3 minutes.
 
 Word guess worksheets combine visual learning with letter recognition practice. Each puzzle shows a picture clue alongside empty letter boxes. Students identify the word from the image. Then they fill in the missing letters to spell the word correctly. This engaging format builds vocabulary and spelling skills simultaneously.

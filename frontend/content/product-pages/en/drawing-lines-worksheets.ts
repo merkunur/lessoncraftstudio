@@ -15,16 +15,16 @@ export const drawingLinesEnContent: ProductPageContent = {
   seo: {
     slug: 'drawing-lines-worksheets',
     appId: 'drawing-lines',
-    title: 'Drawing Lines Worksheets | Free Fine Motor Skills PDF',
-    description: 'Create drawing lines worksheets with 8 tracing templates for fine motor skills. Free printable matching activities for kindergarten. Download PDF now.',
-    keywords: 'drawing lines worksheets, free drawing lines worksheets, fine motor skills worksheets, matching worksheets kindergarten, drawing lines for kids, kindergarten worksheets free printable, line drawing worksheets, pencil control worksheets, free worksheets for kids, first grade worksheets',
+    title: 'Line Tracing Worksheet Maker for Kids | LessonCraftStudio',
+    description: 'Create line tracing worksheets with guided templates for fine motor development. Free printable matching and tracing activities for K-1. Build pencil control.',
+    keywords: 'tracing lines worksheets, fine motor printable, pencil control activities, pre-writing worksheets, connecting dots worksheets, straight line tracing, curved line practice, handwriting readiness, motor skills worksheets, tracing templates for kids',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/drawing-lines-worksheets',
       },
 
   // Hero Section - FULL text from drawing-lines.md paragraphs 1-4
   hero: {
-    title: 'Free Printable Drawing Lines Worksheets',
-    subtitle: 'Kindergarten Fine Motor Skills Activities - Matching Worksheets Generator',
+    title: 'Drawing Lines and Tracing Worksheets',
+    subtitle: 'Fine Motor Skills Activities for Kindergarten',
     description: `Create professional drawing lines worksheets with our easy-to-use generator. Your Core Bundle subscription gives you unlimited worksheet creation with 8 different line-drawing templates. Generate free printable kindergarten worksheets perfect for fine motor skills development in seconds. Download high-quality matching worksheets as PDF or JPEG files. Every worksheet exports at 300 DPI for crisp, professional printing.
 
 Our drawing lines worksheet generator helps children develop essential fine motor skills through engaging matching activities. Children draw lines to connect matching pictures displayed in two columns on the page. This simple yet effective activity strengthens pencil control and hand-eye coordination skills. Teachers use these drawing lines worksheets for kindergarten and first grade students daily. The matching format makes learning fun and keeps young students engaged. Students practice visual discrimination while improving their line-drawing abilities. Each worksheet provides multiple matching pairs to complete. The variety of line patterns challenges students at different skill levels.

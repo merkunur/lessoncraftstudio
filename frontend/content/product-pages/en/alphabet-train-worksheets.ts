@@ -15,16 +15,16 @@ export const alphabetTrainEnContent: ProductPageContent = {
   seo: {
     slug: 'alphabet-train-worksheets',
     appId: 'alphabet-train',
-    title: 'Alphabet Worksheets | Free ABC Train for Kindergarten',
-    description: 'Create alphabet train worksheets with drag-and-drop letter ordering. Free ABC printables for kindergarten letter recognition. Download PDF instantly.',
-    keywords: 'free worksheet, free worksheets, free printables, worksheet for kids, worksheet for kindergarten, ABC worksheets, alphabet worksheets, kindergarten worksheets, phonics worksheets, tracing worksheets, coloring worksheets, first grade worksheets',
+    title: 'Alphabet Train Worksheet Generator | LessonCraftStudio',
+    description: 'Create alphabet train worksheets with drag-and-drop letter ordering activities. Free printable ABC practice for kindergarten. Build letter recognition skills.',
+    keywords: 'ABC letter ordering worksheets, letter sequence activities, alphabet activities for kids, letter recognition printable, kindergarten ABC practice, letter train activities, alphabet sequencing worksheets, preschool letter worksheets, ABC ordering games, alphabet for kindergarten',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/alphabet-train-worksheets',
       },
 
   // Hero Section - FULL text from alphabet-train.md paragraphs 1-3
   hero: {
-    title: 'Free Printable ABC Worksheets for Kindergarten',
-    subtitle: 'Alphabet Train Worksheets Generator',
+    title: 'Alphabet Train Letter Ordering Worksheets',
+    subtitle: 'Drag-and-Drop ABC Activities for Kindergarten',
     description: `Create custom alphabet train worksheets with our professional worksheet generator. Your Core Bundle subscription gives you unlimited alphabet worksheet creation with no per-worksheet fees. Generate printable ABC worksheets that help kids learn letter recognition through a fun train theme. Download high-quality PDF worksheets in under 3 minutes.
 
 The Alphabet Train worksheet maker transforms alphabet learning into an exciting activity. Children match letters to picture clues on colorful train wagons. Each wagon displays a letter and an image that starts with that letter. This visual connection strengthens letter-sound relationships. Kids cut out letter blocks and paste them onto the correct train cars.`,

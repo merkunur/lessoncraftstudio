@@ -15,16 +15,16 @@ export const patternWorksheetsEnContent: ProductPageContent = {
   seo: {
     slug: 'pattern-worksheets',
     appId: 'pattern-worksheet',
-    title: 'Pattern Worksheets | Free Recognition for Kids',
-    description: 'Create pattern worksheets with AB, ABC, and ABCD sequences plus answer keys. Free printable recognition activities for kindergarten. Download PDF now.',
-    keywords: 'pattern worksheets, pattern recognition worksheets, free worksheets, free printables, worksheet for kids, worksheet for kindergarten, free worksheet for kids, math worksheets, kindergarten worksheets, first grade worksheets',
+    title: 'Pattern Recognition Worksheet Maker | LessonCraftStudio',
+    description: 'Create pattern recognition worksheets with AB, ABC, and ABCD sequences. Free printable pattern activities for K-2. Build visual sequencing skills with answers.',
+    keywords: 'AB ABC ABCD patterns, pattern sequences printable, pattern activities for kids, repeating patterns worksheets, visual pattern recognition, extend the pattern worksheets, pattern completion worksheets, growing patterns for kids, math patterns printable, pattern skills worksheets',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/pattern-worksheets',
       },
 
   // Hero Section - FULL text from pattern-worksheet.md paragraphs 1-4
   hero: {
-    title: 'Free Printable Pattern Worksheets for Kids',
-    subtitle: 'Pattern Recognition Worksheet Generator',
+    title: 'Pattern Worksheets: AB, ABC and ABCD Sequences',
+    subtitle: 'Visual Pattern Recognition Generator for Kids',
     description: `Create professional pattern recognition worksheets with our pattern worksheet generator. Your Full Access subscription gives you unlimited pattern worksheet creation with no per-worksheet fees. Generate custom printable math worksheets perfect for kindergarten and first grade students. Download high-quality PDF worksheets in under 3 minutes.
 
 Pattern recognition is a foundational math skill for kindergarten and first grade learners. Our pattern worksheet generator creates nine different pattern types including AB patterns, ABC patterns, and ABCD patterns. Teachers create kindergarten worksheets with blank box questions or multiple choice options. Every pattern worksheet includes automatic answer key generation.

@@ -15,16 +15,16 @@ export const findAndCountEnContent: ProductPageContent = {
   seo: {
     slug: 'find-and-count-worksheets',
     appId: 'find-and-count',
-    title: 'Find and Count Worksheets | Free I Spy for Kids',
-    description: 'Create find and count worksheets with I Spy counting scenes and answer keys. Free printable math activities for kindergarten. Download PDF instantly.',
-    keywords: 'find and count worksheets, I Spy worksheets, kindergarten worksheets, counting worksheets, visual discrimination worksheets, hidden object worksheets, math worksheets, first grade worksheets, free printable worksheets, counting practice, free worksheets for kids, worksheet for kindergarten',
+    title: 'Find and Count Worksheet Generator | LessonCraftStudio',
+    description: 'Create find and count worksheets with I Spy scenes and answer keys. Free printable visual counting for K-2. Sharpen observation and number skills together.',
+    keywords: 'I Spy counting worksheets, visual counting activities, count the objects worksheets, search and count printable, observation math worksheets, how many worksheets, counting scenes for kids, visual math activities, I Spy for kindergarten, counting practice printable',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/find-and-count-worksheets',
       },
 
   // Hero Section - FULL text from find-and-count.md paragraphs 1-6
   hero: {
-    title: 'Free Printable Find and Count Worksheets for Kids',
-    subtitle: 'Free Worksheet Generator for Kindergarten I Spy Counting Practice',
+    title: 'Find and Count I Spy Worksheets',
+    subtitle: 'Visual Counting Activities With Answer Keys',
     description: `Create professional find and count worksheets with our I Spy worksheet generator. Your Core Bundle subscription gives you unlimited worksheet creation with no per-worksheet fees. Generate custom printable kindergarten worksheets perfect for visual discrimination and counting practice. Download high-quality PDF worksheets in under 3 minutes.
 
 Our find and count worksheet maker creates engaging I Spy activities for kindergarten and first grade students. Each worksheet features a grid of colorful images where students search for hidden objects. Young learners practice counting, visual scanning, and following directions. The generator produces free printable worksheets ready to download and use immediately.

@@ -15,16 +15,16 @@ export const bigSmallEnContent: ProductPageContent = {
   seo: {
     slug: 'big-small-worksheets',
     appId: 'big-small',
-    title: 'Big and Small Worksheets | Free Size Comparison PDF',
-    description: 'Create big and small worksheets with visual size comparison activities. Free printable for kindergarten spatial awareness. Download PDF in 3 minutes.',
-    keywords: 'free worksheet, free worksheets, free printables, worksheet for kids, worksheet for kindergarten, big and small worksheets, size comparison worksheets, kindergarten worksheets, math worksheets, preschool worksheets, first grade worksheets, visual discrimination worksheets, size sorting worksheets, big or small worksheets, free printable worksheets',
+    title: 'Big and Small Worksheet Maker for Kids | LessonCraftStudio',
+    description: 'Create big and small worksheets with visual size comparison activities. Free printable for pre-K and kindergarten. Build spatial awareness and sorting skills.',
+    keywords: 'size comparison activities, bigger and smaller worksheets, size sorting printable, spatial awareness for kids, large and small activities, size ordering worksheets, visual size sorting, preschool size concepts, compare sizes worksheets, measurement readiness worksheets',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/big-small-worksheets',
       },
 
   // Hero Section - FULL text from big-small.md introduction paragraphs
   hero: {
-    title: 'Free Printable Size Comparison Worksheets for Kindergarten',
-    subtitle: 'Big and Small Worksheet Generator for First Grade',
+    title: 'Big and Small Size Comparison Worksheets',
+    subtitle: 'Visual Size Sorting Activities for Pre-K and Kindergarten',
     description: `Create professional size comparison worksheets with our Big and Small worksheet generator. Your Full Access subscription gives you unlimited worksheet creation with no per-worksheet fees. These free printable worksheets teach children to identify big and small objects. Perfect for kindergarten classrooms, preschool centers, and homeschool families.
 
 Size discrimination is a foundational math skill for young learners. Children need to recognize differences in size before they can understand measurement concepts. Our worksheet generator creates engaging size comparison activities in under three minutes. Each worksheet presents clear visual choices that help students identify the biggest, smallest, or medium-sized object.

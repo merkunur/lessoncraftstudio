@@ -15,16 +15,16 @@ export const chartCountEnContent: ProductPageContent = {
   seo: {
     slug: 'chart-count-worksheets',
     appId: 'chart-count',
-    title: 'Picture Graph Worksheets | Free Counting for Kids',
-    description: 'Create picture graph worksheets with bar charts and tally marks. Free printable counting activities for kindergarten math. Download PDF in 3 minutes.',
-    keywords: 'picture graph worksheets, graphing worksheets, counting worksheets, math worksheets, kindergarten worksheets, free printable worksheets, data worksheets, bar graph worksheets, worksheet for kids, first grade worksheets',
+    title: 'Picture Graph Worksheet Maker for Kids | LessonCraftStudio',
+    description: 'Create picture graph worksheets with bar charts and tally marks. Free printable data and counting activities for K-2. Generate custom graphs and download now.',
+    keywords: 'graphing activities for kids, tally mark worksheets, bar graph for kindergarten, data worksheets for kids, counting chart activities, picture graph printables, number chart worksheets, graphing and counting for K-2, data handling worksheets, chart worksheets for first grade',
         canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/chart-count-worksheets',
   },
 
   // Hero Section - FULL text from chart-count.md opening paragraphs
   hero: {
-    title: 'Free Printable Picture Graph Worksheets',
-    subtitle: 'Math Worksheet Generator for Kindergarten and First Grade',
+    title: 'Picture Graph and Counting Worksheets',
+    subtitle: 'Create Bar Charts, Tally Marks, and Data Activities',
     description: `Create professional picture graph worksheets with our math worksheet generator. Your Full Access subscription gives you unlimited worksheet creation with no per-worksheet fees. Generate custom printable kindergarten worksheets and first grade worksheets perfect for teaching counting and graphing. Download high-quality PDF worksheets in under 3 minutes.
 
 Picture graph worksheets teach young students to count objects and visualize data by coloring boxes on a graph. Each worksheet includes an image grid showing 20 random pictures from 6 different categories. Students count how many times each picture appears. Then they color the corresponding number of boxes on the graph to create a visual representation of their counting results. This hands-on counting and coloring activity builds essential kindergarten math skills.

@@ -94,14 +94,18 @@ export async function generateMetadata({
   // Check for enriched grade content for better meta description
   const gradeContentMeta = getEnrichedGradeContent(themeId, gradeId, locale);
 
-  // Localized title patterns
-  const title = locale === 'en'
-    ? `Free ${themeName} Worksheets for ${gradeName} | LessonCraftStudio`
-    : `${themeName} ${worksheetsLabel[locale] || 'Worksheets'} ${gradeName} | LessonCraftStudio`;
+  // Use grade-level SEO title if available, otherwise auto-generate
+  const title = gradeContentMeta?.seoTitle
+    ? gradeContentMeta.seoTitle
+    : locale === 'en'
+      ? `Free ${themeName} Worksheets for ${gradeName} | LessonCraftStudio`
+      : `${themeName} ${worksheetsLabel[locale] || 'Worksheets'} ${gradeName} | LessonCraftStudio`;
 
-  // Use grade-specific intro snippet if available
+  // Use SEO description override, then grade intro snippet, then generic fallback
   let description: string;
-  if (gradeContentMeta?.intro) {
+  if (gradeContentMeta?.seoDescription) {
+    description = gradeContentMeta.seoDescription;
+  } else if (gradeContentMeta?.intro) {
     const intro = gradeContentMeta.intro;
     const periodIdx = intro.indexOf('.', 140);
     description = periodIdx > 0 && periodIdx < 200 ? intro.slice(0, periodIdx + 1) : intro.slice(0, 160).trim() + '...';
@@ -129,7 +133,9 @@ export async function generateMetadata({
   return {
     title,
     description,
-    keywords: `${themeName.toLowerCase()} ${gradeName.toLowerCase()} worksheets, ${content.keywords}`,
+    keywords: gradeContentMeta?.seoKeywords
+      ? gradeContentMeta.seoKeywords
+      : `${themeName.toLowerCase()} ${gradeName.toLowerCase()} worksheets, ${content.keywords}`,
     robots: {
       index: true,
       follow: true,

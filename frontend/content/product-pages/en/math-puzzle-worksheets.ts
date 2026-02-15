@@ -15,16 +15,16 @@ export const mathPuzzleEnContent: ProductPageContent = {
   seo: {
     slug: 'math-puzzle-worksheets',
     appId: 'math-puzzle',
-    title: 'Math Puzzle Worksheets | Free Printable Generator',
-    description: 'Create math puzzle worksheets with picture-based calculations and visual equations. Free printable math for kindergarten. Download PDF in 3 minutes.',
-    keywords: 'math puzzle worksheets, math worksheets, free printable worksheets, kindergarten worksheets, first grade worksheets, addition worksheets, free worksheet for kids, math puzzle generator, printable math activities, worksheet for kindergarten',
+    title: 'Math Puzzle Generator for Kids | LessonCraftStudio',
+    description: 'Create math puzzle worksheets with visual equations and picture-based calculations. Free printable for kindergarten math centers. Solve, color, and learn.',
+    keywords: 'visual math puzzles, picture equation worksheets, math brain teasers for kids, puzzle-based math, math challenge worksheets, kindergarten math puzzles, picture calculation worksheets, fun math problem solving, math games printable, visual equation worksheets',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/math-puzzle-worksheets',
       },
 
   // Hero Section - FULL text from math-puzzle.md
   hero: {
-    title: 'Free Printable Math Worksheets - Math Puzzle Generator',
-    subtitle: 'Visual Math Practice for Kindergarten and First Grade',
+    title: 'Math Puzzle Worksheets With Visual Equations',
+    subtitle: 'Picture-Based Math Challenges for Kindergarten and 1st Grade',
     description: `Create professional math puzzle worksheets with our math worksheet generator. Your Full Access subscription gives you unlimited worksheet creation with no per-worksheet fees. Generate custom printable math worksheets perfect for kindergarten and first grade students. Download high-quality PDF worksheets in under 3 minutes.
 
 Our math puzzle worksheet maker combines visual learning with math practice. Students solve addition worksheets and subtraction problems to complete picture puzzles. Each math worksheet features one engaging image repeated in a grid pattern. Children solve math problems to reveal the complete puzzle. Perfect for kindergarten worksheets and first grade worksheets that make math fun.

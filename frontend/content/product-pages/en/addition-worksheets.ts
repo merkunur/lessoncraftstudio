@@ -15,16 +15,16 @@ export const additionEnContent: ProductPageContent = {
   seo: {
     slug: 'addition-worksheets',
     appId: 'addition',
-    title: 'Addition Worksheets | Free Printable Math Generator',
-    description: 'Create addition worksheets with 4 exercise modes and answer keys. Free printable math for kindergarten and first grade. Download PDF in 3 minutes.',
-    keywords: 'addition worksheets, math worksheets, kindergarten worksheets, free printable worksheets, first grade worksheets, addition practice, worksheet for kids, free worksheet, coloring worksheets, tracing worksheets',
+    title: 'Free Addition Worksheet Generator | LessonCraftStudio',
+    description: 'Create custom addition worksheets with 4 exercise modes and answer keys. Free printable math for K-3. Choose difficulty levels and download PDF instantly.',
+    keywords: 'addition practice worksheets, addition with pictures, math facts worksheets, kindergarten addition, first grade addition worksheets, printable addition problems, single digit addition worksheets, addition with answer keys, free addition printables, addition for beginners',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/addition-worksheets',
       },
 
   // Hero Section - FULL text from addition.md paragraphs 1-4
   hero: {
-    title: 'Free Printable Addition Worksheets',
-    subtitle: 'Professional Math Worksheet Generator for Kindergarten',
+    title: 'Addition Worksheet Generator With Answer Keys',
+    subtitle: 'Create Custom Math Practice for Kindergarten to 3rd Grade',
     description: `Create professional addition worksheets with our math worksheet generator. Your Core Bundle subscription gives you unlimited worksheet creation with no per-worksheet fees. Generate custom printable addition worksheets perfect for kindergarten and first grade students. Download high-quality PDF worksheets in under 3 minutes.
 
 Our addition worksheet maker creates visual math worksheets for early learners. Choose from four exercise modes including image-based addition and number problems. Generate worksheets with 1 to 10 addition problems per page. Each worksheet includes an answer key for quick grading. Perfect for kindergarten worksheets and first grade math instruction.

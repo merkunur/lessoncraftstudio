@@ -15,16 +15,16 @@ export const pictureSortEnContent: ProductPageContent = {
   seo: {
     slug: 'picture-sort-worksheets',
     appId: 'picture-sort',
-    title: 'Sorting Worksheets | Free Printable for Kindergarten',
-    description: 'Create sorting worksheets with picture classification and categorization activities. Free printable for kindergarten critical thinking. Download PDF now.',
-    keywords: 'sorting worksheets, picture sort, classification worksheets, free worksheet, free worksheets, free printables, worksheet for kids, worksheet for kindergarten, kindergarten worksheets, first grade worksheets',
+    title: 'Picture Sorting Worksheet Maker | LessonCraftStudio',
+    description: 'Create picture sorting worksheets with categorization and grouping activities. Free printable critical thinking for K-1. Sort images by shape, color, or theme.',
+    keywords: 'sorting and classifying worksheets, categorize worksheets for kids, group by type activities, sorting by attributes, classification printable, sorting games for kids, category worksheets, group and sort activities, visual categorization worksheets, sort by color shape size',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/picture-sort-worksheets',
       },
 
   // Hero Section - FULL text from picture-sort.md paragraphs 1-4
   hero: {
-    title: 'Free Printable Kindergarten Worksheets for Sorting Activities',
-    subtitle: 'Picture Sort Generator for Classification Skills',
+    title: 'Picture Sorting and Classification Worksheets',
+    subtitle: 'Categorization Activities for Kindergarten',
     description: `Create professional picture sorting worksheets with our easy-to-use generator. Your Full Access subscription gives you unlimited worksheet creation with no per-worksheet fees. Generate custom printable sorting worksheets perfect for kindergarten and first grade students. Download high-quality PDF worksheets in under 3 minutes.
 
 Picture sorting activities help young learners develop critical thinking skills. Students learn to categorize objects by attributes like color, size, shape, or function. Our worksheet generator makes it simple to create engaging sorting exercises for your classroom.

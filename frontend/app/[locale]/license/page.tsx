@@ -17,16 +17,20 @@ export async function generateMetadata({ params }: { params: { locale: string } 
   }
   hreflangAlternates['x-default'] = `${baseUrl}/en/license`;
 
+  // SEO: Use dedicated meta keys when available, fallback to content strings for non-EN locales
+  const pageTitle = t.has('metaTitle') ? t('metaTitle') : t('title');
+  const pageDescription = t.has('metaDescription') ? t('metaDescription') : t('grantOfLicense.intro');
+
   return {
-    title: t('title'),
-    description: t('grantOfLicense.intro'),
+    title: pageTitle,
+    description: pageDescription,
     alternates: {
       canonical: `${baseUrl}/${locale}/license`,
       languages: hreflangAlternates
     },
     openGraph: {
-      title: t('title'),
-      description: t('grantOfLicense.intro'),
+      title: pageTitle,
+      description: pageDescription,
       type: 'website',
       url: `${baseUrl}/${locale}/license`,
       siteName: 'LessonCraftStudio',

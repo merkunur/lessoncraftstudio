@@ -73,6 +73,12 @@ export interface LearningObjective {
 export interface GradeLearningContent {
   /** 200+ word grade-specific intro paragraph */
   intro: string;
+  /** Optional SEO title override (50-60 chars) */
+  seoTitle?: string;
+  /** Optional SEO meta description override (150-160 chars) */
+  seoDescription?: string;
+  /** Optional SEO keywords override (comma-separated) */
+  seoKeywords?: string;
   /** Grade-specific learning objectives */
   objectives: LearningObjective[];
   /** Age-appropriate developmental context */

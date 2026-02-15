@@ -15,16 +15,16 @@ export const prepositionsEnContent: ProductPageContent = {
   seo: {
     slug: 'prepositions-worksheets',
     appId: 'prepositions',
-    title: 'Prepositions Worksheets | Free Printable for Kids',
-    description: 'Create prepositions worksheets teaching spatial concepts like in, on, and under. Free printable language arts for kindergarten. Download PDF in 3 minutes.',
-    keywords: 'prepositions worksheets, free worksheets, kindergarten worksheets, spatial concepts, free printable worksheets, first grade worksheets, worksheet for kids, position words, in on under worksheets, free printables',
+    title: 'Prepositions Worksheet Maker for Kids | LessonCraftStudio',
+    description: 'Create prepositions worksheets teaching in, on, under and spatial concepts. Free printable language arts for K-1. Build positional vocabulary with pictures.',
+    keywords: 'spatial words worksheets, in on under activities, position words for kids, spatial concepts printable, preposition practice for kindergarten, location words worksheets, positional language activities, where is it worksheets, spatial vocabulary worksheets, kindergarten prepositions',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/prepositions-worksheets',
       },
 
   // Hero Section - FULL text from prepositions.md paragraphs 1-4
   hero: {
-    title: 'Free Printable Prepositions Worksheets for Kindergarten',
-    subtitle: 'Worksheet Generator for Spatial Concepts and First Grade',
+    title: 'Prepositions Worksheets: In, On, Under and More',
+    subtitle: 'Spatial Concept Activities for Kindergarten',
     description: `Create professional prepositions worksheets with our worksheet generator. Your Full Access subscription gives you unlimited worksheet creation with no per-worksheet fees. Generate custom printable kindergarten worksheets perfect for teaching spatial concepts to young learners. Download high-quality PDF worksheets in under 3 minutes.
 
 Teaching prepositions to kindergarten and first grade students becomes simple with our prepositions worksheet generator. Our tool creates free printable worksheets that teach eight essential spatial concepts. Students learn in, on top of, under, next to, behind, between, above, and in front of through engaging visual exercises. Each worksheet combines colorful images with clear text to reinforce understanding.

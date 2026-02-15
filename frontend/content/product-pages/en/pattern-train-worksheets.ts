@@ -15,16 +15,16 @@ export const patternTrainEnContent: ProductPageContent = {
   seo: {
     slug: 'pattern-train-worksheets',
     appId: 'pattern-train',
-    title: 'Pattern Train Worksheets | Free Cut and Paste PDF',
-    description: 'Create pattern train worksheets with cut and paste sequencing activities. Free printable pattern recognition for kindergarten. Download PDF instantly.',
-    keywords: 'pattern train worksheets, pattern recognition worksheets, kindergarten worksheets, free printable worksheets, first grade worksheets, math worksheets, pattern worksheets, cut and paste worksheets, free worksheets, worksheet for kids',
+    title: 'Pattern Train Worksheet Generator | LessonCraftStudio',
+    description: 'Create pattern train worksheets with cut-and-paste sequencing. Free printable pattern activities for K-1. Develop visual sequencing and recognition skills.',
+    keywords: 'cut and paste patterns, pattern sequencing worksheets, visual pattern worksheets, train pattern activities, AB pattern worksheets, pattern recognition printable, cut and paste math, sequence completion worksheets, repeating patterns for kids, pattern cut and paste',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/pattern-train-worksheets',
       },
 
   // Hero Section - FULL text from pattern-train.md paragraphs 1-4
   hero: {
-    title: 'Free Printable Kindergarten Worksheets for Pattern Recognition',
-    subtitle: 'Pattern Train Worksheet Maker for Visual Learning',
+    title: 'Pattern Train Cut and Paste Worksheets',
+    subtitle: 'Sequencing and Pattern Recognition Maker for K-1',
     description: `Create professional pattern recognition worksheets with our pattern train worksheet generator. Your Full Access subscription gives you unlimited worksheet creation with no per-worksheet fees. Generate custom printable pattern worksheets perfect for kindergarten and first grade students learning pattern concepts. Download high-quality PDF worksheets in under 3 minutes.
 
 Pattern recognition is a fundamental math skill for kindergarten and first grade students. Pattern train worksheets teach children to identify and complete visual patterns using an engaging train template. Students practice recognizing AB patterns, AAB patterns, ABB patterns, ABC patterns, and AABB patterns through hands-on cut-and-paste activities. Your Full Access subscription includes this pattern worksheet maker plus all 33 worksheet generator apps.

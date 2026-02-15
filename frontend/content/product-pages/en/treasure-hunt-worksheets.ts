@@ -15,16 +15,16 @@ export const treasureHuntEnContent: ProductPageContent = {
   seo: {
     slug: 'treasure-hunt-worksheets',
     appId: 'treasure-hunt',
-    title: 'Treasure Hunt Worksheets | Free Directions PDF',
-    description: 'Create treasure hunt worksheets with step-by-step directional clues and maps. Free printable following directions for kindergarten. Download PDF instantly.',
-    keywords: 'treasure hunt worksheets, following directions worksheets, kindergarten worksheets, free printable worksheets, directional vocabulary worksheets, first grade worksheets, free worksheets, worksheet for kids, spatial awareness, navigation worksheets',
+    title: 'Treasure Hunt Worksheet Generator | LessonCraftStudio',
+    description: 'Create treasure hunt worksheets with directional clues and map activities. Free printable for K-1. Build spatial vocabulary and following directions skills.',
+    keywords: 'direction following worksheets, map reading for kids, spatial vocabulary activities, directional clues printable, navigation worksheets, left right up down worksheets, following instructions activities, map skills for kindergarten, direction words worksheets, spatial awareness activities',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/treasure-hunt-worksheets',
       },
 
   // Hero Section - FULL text from treasure-hunt.md paragraphs 1-4
   hero: {
-    title: 'Free Printable Following Directions Worksheets',
-    subtitle: 'Treasure Hunt Generator for Kindergarten and First Grade',
+    title: 'Treasure Hunt Direction Following Worksheets',
+    subtitle: 'Map and Directional Clue Activities for Kids',
     description: `Create professional treasure hunt worksheets with our following directions worksheet generator. Your Full Access subscription gives you unlimited worksheet creation with no per-worksheet fees. Generate custom printable treasure hunt worksheets perfect for kindergarten and first grade students learning directional vocabulary and reading comprehension. Download high-quality PDF worksheets in under 3 minutes.
 
 Treasure hunt worksheets help young learners practice following multi-step directions while building spatial awareness and directional vocabulary. Students read written instructions and navigate through a 5x5 grid of images to find the hidden treasure. Each worksheet combines reading comprehension practice with visual learning in an engaging puzzle format that keeps children motivated.

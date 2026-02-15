@@ -16,16 +16,16 @@ export const coloringEnContent: ProductPageContent = {
   seo: {
     slug: 'coloring-worksheets',
     appId: 'coloring',
-    title: 'Coloring Worksheets | Free Printable Pages for Kids',
-    description: 'Create coloring worksheets with 3000+ themed images and custom borders. Free printable coloring pages for kindergarten and first grade. Download now.',
-    keywords: 'coloring worksheets, free printable coloring pages, coloring pages for kids, kindergarten coloring worksheets, free worksheets, coloring activities, first grade worksheets, printable worksheets, free printables, worksheet for kids',
+    title: 'Coloring Page Generator for Kids | LessonCraftStudio',
+    description: 'Create coloring page worksheets with 3000+ themed images and custom borders. Free printable for preschool to 3rd grade. Pick a theme and print in seconds.',
+    keywords: 'themed coloring pages, custom coloring sheets, printable coloring activities, kindergarten coloring pages, animal coloring pages, color by theme worksheets, coloring printables for kids, creative coloring activities, free coloring page printables, preschool coloring pages',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/coloring-worksheets',
   },
 
   // Hero Section
   hero: {
-    title: 'Free Printable Coloring Worksheets for Kids',
-    subtitle: 'Free Worksheet Generator for Kindergarten Coloring Pages',
+    title: 'Coloring Page Worksheets With 3000+ Images',
+    subtitle: 'Create Custom Themed Coloring Pages Instantly',
     description: `Create professional coloring worksheets with our easy-to-use coloring page designer. Your Core Bundle subscription gives you unlimited coloring page creation with no per-worksheet fees. Generate custom printable coloring pages perfect for kindergarten and first grade students. Design beautiful coloring worksheets in under 3 minutes. Download high-quality PDF and JPEG files ready for printing at home or school.
 
 Our coloring worksheet maker helps teachers and parents create personalized coloring pages for children. Choose from over 3000 child-friendly images organized by themes like animals, food, transportation, and holidays. Upload your own images to build truly custom coloring worksheets that match your teaching needs. Select decorative borders from our border library to frame your coloring pages beautifully. Add text labels, instructions, or titles to any coloring worksheet. Include name fields so students can write their names on worksheets. Add handwriting practice lines to combine coloring with writing skills development.

@@ -15,16 +15,16 @@ export const drawAndColorEnContent: ProductPageContent = {
   seo: {
     appId: 'draw-and-color',
     slug: 'draw-and-color-worksheets',
-    title: 'Draw and Color Worksheets | Grid Drawing Generator',
-    description: 'Create grid drawing worksheets where kids copy pictures square by square. Free printable draw and color activities for kindergarten. Download PDF now.',
-    keywords: 'coloring worksheets, grid drawing worksheets, free printable worksheets, kindergarten worksheets, first grade worksheets, free worksheets for kids, worksheet generator, printable coloring pages, visual-spatial worksheets, fine motor skills worksheets',
+    title: 'Grid Drawing Worksheet Maker for Kids | LessonCraftStudio',
+    description: 'Create grid drawing worksheets where kids copy pictures square by square. Free printable art activities for K-2. Build spatial awareness and fine motor skills.',
+    keywords: 'grid copy worksheets, square-by-square drawing, visual spatial worksheets, art worksheets for kids, grid art activities, copy and color printable, drawing practice for kids, fine motor art worksheets, pixel drawing worksheets, spatial awareness drawing',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/draw-and-color-worksheets',
       },
 
   // Hero Section - FULL text from draw-and-color.md paragraphs 1-5
   hero: {
-    title: 'Free Printable Draw and Color Worksheets',
-    subtitle: 'Grid Drawing Worksheets for Kindergarten and First Grade',
+    title: 'Draw and Color Grid Worksheets',
+    subtitle: 'Copy Pictures Square by Square for K-2',
     description: `Create professional grid drawing coloring worksheets with our specialized worksheet generator. Your Full Access subscription gives you unlimited worksheet creation with no per-worksheet fees. Generate custom printable coloring worksheets perfect for kindergarten and first grade students. Download high-quality PDF coloring worksheets in under 3 minutes.
 
 Grid drawing coloring worksheets combine art and spatial reasoning. Students look at a clue grid showing parts of an image. They copy the pattern cell by cell into an empty grid. This creates engaging coloring worksheets that teach grid coordinates and visual-spatial skills. Perfect for kindergarten worksheets and first grade worksheets that develop both artistic and mathematical thinking.

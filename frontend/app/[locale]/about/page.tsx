@@ -19,6 +19,7 @@ export async function generateMetadata({ params }: { params: { locale: string } 
   return {
     title: t('metaTitle'),
     description: t('metaDescription'),
+    keywords: t('metaKeywords'),
     alternates: {
       canonical: `${baseUrl}/${locale}/about`,
       languages: hreflangAlternates

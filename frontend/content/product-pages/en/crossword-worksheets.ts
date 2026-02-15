@@ -15,16 +15,16 @@ export const crosswordEnContent: ProductPageContent = {
   seo: {
     slug: 'crossword-worksheets',
     appId: 'crossword',
-    title: 'Crossword Worksheets | Free Puzzle Generator for Kids',
-    description: 'Create picture crossword puzzles that build vocabulary and spelling skills. Free printable worksheets for kindergarten and first grade. Download PDF now.',
-    keywords: 'crossword worksheets, crossword for kids, crossword puzzles, vocabulary worksheets, spelling worksheets, word puzzle worksheets, crossword for kindergarten, free printable worksheets, free worksheet for kids, picture crossword',
+    title: 'Picture Crossword Maker for Kids | LessonCraftStudio',
+    description: 'Create picture crossword puzzles that build vocabulary and spelling with image clues. Free printable word games for K-2. Generate unique crossword puzzles fast.',
+    keywords: 'picture-based crossword, vocabulary crossword for kids, image clue crossword, spelling crossword printable, crossword for kindergarten, word building crossword, educational crossword puzzles, visual crossword worksheets, picture clue word games, kid-friendly crossword',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/crossword-worksheets',
       },
 
   // Hero Section - FULL text from crossword.md paragraphs 1-5
   hero: {
-    title: 'Free Printable Crossword Worksheets',
-    subtitle: 'Picture Crossword Generator for Kindergarten and First Grade',
+    title: 'Picture Crossword Puzzle Worksheets',
+    subtitle: 'Build Vocabulary With Image-Based Crosswords',
     description: `Create professional picture crossword worksheets with our crossword puzzle generator. Your Full Access subscription gives you unlimited crossword creation with no per-worksheet fees. Generate custom printable crossword worksheets perfect for kindergarten worksheets, first grade worksheets, and phonics worksheets practice. Download high-quality PDF crossword worksheets in under 3 minutes.
 
 Our crossword worksheet maker combines images with word puzzles to create engaging learning activities. Teachers use our generator to create alphabet worksheets, sight words worksheets, and math worksheets with visual clues. Each picture crossword helps students connect images to spelling while building vocabulary. The crossword format works perfectly for addition worksheets, tracing worksheets, and coloring worksheets integration.

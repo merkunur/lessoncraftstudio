@@ -13,9 +13,9 @@ import { getRecentBlogPosts } from '@/lib/blog-data';
 // Keywords focus on PLATFORM-LEVEL terms to avoid cannibalization with individual product pages
 const appsMetadata: Record<string, { title: string; description: string; keywords: string }> = {
   en: {
-    title: '33 Free Printable Worksheet Generators | Math, Language Arts, Puzzles | LessonCraftStudio',
-    description: 'Browse all 33 free worksheet generators. Create word searches, crosswords, math worksheets, coloring pages & more. Download printable PDFs instantly. No design skills needed.',
-    keywords: 'worksheet generator platform, educational app suite, teacher worksheet tools, classroom resource creator, all-in-one worksheet maker, 33 worksheet generators, printable activity creator, educational technology platform, teacher resource hub, worksheet creation software'
+    title: 'Browse 33 Free Worksheet Generators | LessonCraftStudio',
+    description: 'Browse all 33 free worksheet generators. Create word searches, crosswords, math worksheets, coloring pages and more. Download printable PDFs instantly.',
+    keywords: 'free worksheet generators, browse worksheet makers, all worksheet tools, educational app collection, printable PDF generators, teacher resource library, classroom activity creators, math and literacy generators, puzzle worksheet tools, 33 free generators, worksheet creation platform, online worksheet maker'
   },
   de: {
     title: '33 Kostenlose Arbeitsblatt-Generatoren | Mathe, Sprache, R\u00e4tsel | LessonCraftStudio',

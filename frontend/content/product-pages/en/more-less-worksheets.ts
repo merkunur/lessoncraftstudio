@@ -15,16 +15,16 @@ export const moreLessEnContent: ProductPageContent = {
   seo: {
     slug: 'more-less-worksheets',
     appId: 'more-less',
-    title: 'Greater Than Less Than Worksheets | Free Printable',
-    description: 'Create greater than less than worksheets with visual comparison activities. Free printable math worksheets for kindergarten. Download PDF in 3 minutes.',
-    keywords: 'comparison worksheets, greater than less than worksheets, math worksheets, kindergarten worksheets, first grade worksheets, number comparison, printable worksheets, worksheet generator, counting worksheets, more or less worksheets',
+    title: 'Greater Than Less Than Worksheet Maker | LessonCraftStudio',
+    description: 'Create greater than less than worksheets with visual number comparison activities. Free printable math for K-2. Practice comparison symbols with picture aids.',
+    keywords: 'number comparison worksheets, more or less activities, comparing numbers printable, greater less equal worksheets, math comparison for kindergarten, number ordering worksheets, visual comparison activities, bigger smaller worksheets, comparison symbols practice, size comparison math',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/more-less-worksheets',
       },
 
   // Hero Section - FULL text from more-less.md paragraphs 1-4
   hero: {
-    title: 'Free Printable Comparison Worksheets',
-    subtitle: 'Greater Than Less Than Worksheet Maker for Kindergarten',
+    title: 'Greater Than Less Than Worksheets',
+    subtitle: 'Visual Number Comparison Activities for Kids',
     description: `Create professional comparison worksheets with our greater than less than worksheet maker. Your Full Access subscription gives you unlimited worksheet creation with no per-worksheet fees. Generate custom printable math worksheets perfect for kindergarten and first grade students learning number comparison skills. Download high-quality PDF worksheets in under 3 minutes.
 
 Our comparison worksheet generator helps teachers create engaging math worksheets where students compare quantities and choose the correct symbol. Generate worksheets with greater than, less than, and equal to symbols using colorful images or traditional mathematical symbols. Perfect for kindergarten worksheets and first grade worksheets focused on early math skills.

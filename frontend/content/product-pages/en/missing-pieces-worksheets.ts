@@ -15,16 +15,16 @@ export const missingPiecesEnContent: ProductPageContent = {
   seo: {
     slug: 'missing-pieces-worksheets',
     appId: 'missing-pieces',
-    title: 'Missing Pieces Worksheets | Free Visual Puzzles',
-    description: 'Create missing pieces worksheets with visual puzzles that develop spatial reasoning. Free printable activities for kindergarten. Download PDF instantly.',
-    keywords: 'missing pieces worksheets, visual discrimination worksheets, puzzle worksheets, kindergarten worksheets, free printable worksheets, visual puzzles, spatial reasoning, first grade worksheets, free worksheets for kids, printable puzzle activities',
+    title: 'Missing Pieces Puzzle Generator | LessonCraftStudio',
+    description: 'Create missing pieces puzzle worksheets that develop spatial reasoning. Free printable visual activities for kindergarten. Choose themed images and print now.',
+    keywords: 'visual puzzle worksheets, spatial reasoning printable, complete the picture worksheets, jigsaw-style worksheets, which piece is missing, visual completion puzzles, kindergarten logic puzzles, picture completion activities, spatial awareness puzzles, what\'s missing worksheets',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/missing-pieces-worksheets',
       },
 
   // Hero Section - FULL text from missing-pieces.md paragraphs 1-4
   hero: {
-    title: 'Free Printable Missing Pieces Worksheets',
-    subtitle: 'Visual Puzzle Generator for Kindergarten Worksheets',
+    title: 'Missing Pieces Visual Puzzle Worksheets',
+    subtitle: 'Spatial Reasoning Activities for Kindergarten',
     description: `Create professional missing pieces puzzle worksheets with our visual puzzle generator. Your Full Access subscription gives you unlimited worksheet creation with no per-worksheet fees. Generate custom printable missing pieces worksheets perfect for kindergarten and first grade students. Download high-quality PDF worksheets in under 3 minutes.
 
 Missing pieces puzzles help children develop visual discrimination skills. Young learners identify which piece completes the picture. This activity builds spatial reasoning and problem-solving abilities. Teachers use missing pieces worksheets to strengthen observation skills in kindergarten classrooms.

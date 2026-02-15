@@ -14,10 +14,11 @@ interface PricingPageProps {
 }
 
 // SEO-optimized pricing metadata with concrete pricing signals
-const pricingMetadata: Record<string, { title: string; description: string }> = {
+const pricingMetadata: Record<string, { title: string; description: string; keywords?: string }> = {
   en: {
-    title: 'Pricing: Free, $15/mo Core & $25/mo Full Access Plans | LessonCraftStudio',
-    description: 'Choose your plan: Free Word Search generator, $15/mo Core Bundle with 10 generators, or $25/mo Full Access to all 33 worksheet generators. Commercial license included. Cancel anytime.'
+    title: 'Pricing Plans: Free, Core & Full Access | LessonCraftStudio',
+    description: 'Choose your plan: Free Word Search generator, $15/mo Core Bundle with 10 generators, or $25/mo Full Access to all 33 worksheet generators. Cancel anytime.',
+    keywords: 'worksheet generator pricing, free worksheet maker, teacher subscription plans, educational tool pricing, LessonCraftStudio plans, printable worksheet subscription'
   },
   de: {
     title: 'Preise: Kostenlos, 15$/Monat Basis & 25$/Monat Voller Zugang | LessonCraftStudio',
@@ -78,6 +79,7 @@ export async function generateMetadata({ params }: { params: { locale: string } 
   return {
     title: meta.title,
     description: meta.description,
+    ...(meta.keywords ? { keywords: meta.keywords } : {}),
     alternates: {
       canonical: `${baseUrl}/${locale}/pricing`,
       languages: hreflangAlternates

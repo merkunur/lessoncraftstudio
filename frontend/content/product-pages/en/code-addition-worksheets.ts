@@ -15,16 +15,16 @@ export const codeAdditionEnContent: ProductPageContent = {
   seo: {
     slug: 'code-addition-worksheets',
     appId: 'code-addition',
-    title: 'Code Addition Worksheets | Picture Math Generator',
-    description: 'Create visual code addition worksheets where kids decode images to solve math. Free printable picture math for kindergarten. Download PDF in 3 minutes.',
-    keywords: 'addition worksheets, math worksheets, kindergarten worksheets, first grade worksheets, free printable worksheets, image addition worksheets, picture counting worksheets, visual math worksheets, worksheet generator, counting worksheets',
+    title: 'Picture Addition Worksheet Maker | LessonCraftStudio',
+    description: 'Create picture addition worksheets where kids decode images to solve math. Free printable visual math for K-2. Build number sense with fun image-based puzzles.',
+    keywords: 'visual addition worksheets, image math problems, picture-based addition, decode and solve math, math with pictures for kids, code-breaking math worksheets, kindergarten picture math, first grade visual math, addition with image clues, fun addition activities',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/code-addition-worksheets',
       },
 
   // Hero Section - FULL text from code-addition.md paragraphs 1-4
   hero: {
-    title: 'Free Printable Code Addition Worksheets',
-    subtitle: 'Image Addition Worksheet Generator for Kindergarten and First Grade',
+    title: 'Code Addition Worksheets With Picture Math',
+    subtitle: 'Decode Images to Solve Addition Problems',
     description: `Create professional picture-based addition worksheets with our image addition worksheet generator. Your Full Access subscription gives you unlimited worksheet creation with no per-worksheet fees. Generate custom math worksheets perfect for kindergarten and first grade students learning to count and add. Download high-quality PDF worksheets in under 3 minutes.
 
 Our image addition maker creates visual counting worksheets where students add picture groups together. Children count colorful images like apples, animals, or toys to solve addition problems. This visual approach builds concrete understanding before moving to abstract numbers. Perfect for early math instruction in kindergarten classrooms and first grade math centers.

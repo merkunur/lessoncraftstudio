@@ -15,16 +15,16 @@ export const writingEnContent: ProductPageContent = {
   seo: {
     slug: 'writing-worksheets',
     appId: 'writing',
-    title: 'Letter Tracing Worksheets | Free Handwriting PDF',
-    description: 'Create letter tracing worksheets with guided handwriting lines and stroke practice. Free printable ABC worksheets for kindergarten. Download PDF instantly.',
-    keywords: 'tracing worksheets, letter tracing worksheets, handwriting worksheets, kindergarten worksheets, first grade worksheets, free printable worksheets, alphabet worksheets, abc worksheets, sight words worksheets, worksheet for kids',
+    title: 'Letter Tracing Worksheet Generator | LessonCraftStudio',
+    description: 'Create letter tracing worksheets with guided handwriting lines and stroke practice. Free printable ABC sheets for kindergarten. Build letter formation skills.',
+    keywords: 'handwriting practice worksheets, ABC tracing printable, letter formation activities, kindergarten handwriting, alphabet writing practice, stroke order worksheets, pencil control letters, printing practice sheets, uppercase lowercase tracing, preschool writing activities',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/writing-worksheets',
       },
 
   // Hero Section - FULL text from writing.md paragraphs 1-3
   hero: {
-    title: 'Free Printable Tracing Worksheets',
-    subtitle: 'Letter Tracing Worksheets Generator for Kindergarten and First Grade',
+    title: 'Letter Tracing and Handwriting Worksheets',
+    subtitle: 'Guided ABC Writing Practice for Kindergarten',
     description: `Create professional handwriting practice worksheets with our writing worksheet generator. Your Full Access subscription gives you unlimited worksheet creation with no per-worksheet fees. Generate custom printable tracing worksheets perfect for kindergarten and first grade students learning letter formation. Download high-quality PDF worksheets in under 3 minutes.
 
 Our letter tracing worksheets generator helps teachers create alphabet worksheets with guided writing lines. Choose from print or cursive fonts with multiple tracing modes. Each worksheet includes proper baseline guides for correct letter formation. Perfect for handwriting instruction across all grade levels.

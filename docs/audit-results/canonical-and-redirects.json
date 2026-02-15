@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-02-14T21:03:43.584Z",
+  "timestamp": "2026-02-14T21:36:24.774Z",
   "baseUrl": "https://www.lessoncraftstudio.com",
   "mode": "full",
   "phases": {
@@ -48285,13 +48285,13 @@
     "redirectHops": {
       "realMultiHop": 0,
       "barePathChains": 5,
-      "undeployedConfigs": 43,
+      "undeployedConfigs": 15,
       "issues": [
         {
           "check": "REDIRECT_MISSING",
           "severity": "INFO",
-          "source": "/it/blog/category/undervisningsressourcer",
-          "type": "blog-category",
+          "source": "/pt/blog/33-redigerbare-arbejdsark-generatorer-skolelærere",
+          "type": "blog-legacy",
           "hops": 0,
           "finalStatus": 404,
           "detail": "Redirect not active on production (HTTP 404) - config may not be deployed yet"
@@ -48299,250 +48299,7 @@
         {
           "check": "REDIRECT_MISSING",
           "severity": "INFO",
-          "source": "/es/blog/category/arbeidsark-tips",
-          "type": "blog-category",
-          "hops": 0,
-          "finalStatus": 404,
-          "detail": "Redirect not active on production (HTTP 404) - config may not be deployed yet"
-        },
-        {
-          "check": "REDIRECT_MISSING",
-          "severity": "INFO",
-          "source": "/fr/blog/category/educatieve-activiteiten",
-          "type": "blog-category",
-          "hops": 0,
-          "finalStatus": 404,
-          "detail": "Redirect not active on production (HTTP 404) - config may not be deployed yet"
-        },
-        {
-          "check": "REDIRECT_MISSING",
-          "severity": "INFO",
-          "source": "/fr/blog/category/foreldreressurser",
-          "type": "blog-category",
-          "hops": 0,
-          "finalStatus": 404,
-          "detail": "Redirect not active on production (HTTP 404) - config may not be deployed yet"
-        },
-        {
-          "check": "REDIRECT_MISSING",
-          "severity": "INFO",
-          "source": "/nl/blog/category/laeringsstrategier",
-          "type": "blog-category",
-          "hops": 0,
-          "finalStatus": 404,
-          "detail": "Redirect not active on production (HTTP 404) - config may not be deployed yet"
-        },
-        {
-          "check": "REDIRECT_MISSING",
-          "severity": "INFO",
-          "source": "/no/blog/category/werkblad-tips",
-          "type": "blog-category",
-          "hops": 0,
-          "finalStatus": 404,
-          "detail": "Redirect not active on production (HTTP 404) - config may not be deployed yet"
-        },
-        {
-          "check": "REDIRECT_MISSING",
-          "severity": "INFO",
-          "source": "/fi/blog/category/laereplansveiledninger",
-          "type": "blog-category",
-          "hops": 0,
-          "finalStatus": 404,
-          "detail": "Redirect not active on production (HTTP 404) - config may not be deployed yet"
-        },
-        {
-          "check": "REDIRECT_MISSING",
-          "severity": "INFO",
-          "source": "/es/blog/category/sesonginnhold",
-          "type": "blog-category",
-          "hops": 0,
-          "finalStatus": 404,
-          "detail": "Redirect not active on production (HTTP 404) - config may not be deployed yet"
-        },
-        {
-          "check": "REDIRECT_MISSING",
-          "severity": "INFO",
-          "source": "/sv/blog/category/lernstrategien",
-          "type": "blog-category",
-          "hops": 0,
-          "finalStatus": 404,
-          "detail": "Redirect not active on production (HTTP 404) - config may not be deployed yet"
-        },
-        {
-          "check": "REDIRECT_MISSING",
-          "severity": "INFO",
-          "source": "/es/blog/category/estrategias-aprendizagem",
-          "type": "blog-category",
-          "hops": 0,
-          "finalStatus": 404,
-          "detail": "Redirect not active on production (HTTP 404) - config may not be deployed yet"
-        },
-        {
-          "check": "REDIRECT_MISSING",
-          "severity": "INFO",
-          "source": "/de/blog/category/arbeidsark-tips",
-          "type": "blog-category",
-          "hops": 0,
-          "finalStatus": 404,
-          "detail": "Redirect not active on production (HTTP 404) - config may not be deployed yet"
-        },
-        {
-          "check": "REDIRECT_MISSING",
-          "severity": "INFO",
-          "source": "/pt/blog/category/lernstrategien",
-          "type": "blog-category",
-          "hops": 0,
-          "finalStatus": 404,
-          "detail": "Redirect not active on production (HTTP 404) - config may not be deployed yet"
-        },
-        {
-          "check": "REDIRECT_MISSING",
-          "severity": "INFO",
-          "source": "/da/blog/category/strategie-apprendimento",
-          "type": "blog-category",
-          "hops": 0,
-          "finalStatus": 404,
-          "detail": "Redirect not active on production (HTTP 404) - config may not be deployed yet"
-        },
-        {
-          "check": "REDIRECT_MISSING",
-          "severity": "INFO",
-          "source": "/es/apps/category/konst-kreativitet",
-          "type": "product-category",
-          "hops": 0,
-          "finalStatus": 404,
-          "detail": "Redirect not active on production (HTTP 404) - config may not be deployed yet"
-        },
-        {
-          "check": "REDIRECT_MISSING",
-          "severity": "INFO",
-          "source": "/fr/apps/category/puzles-de-logica",
-          "type": "product-category",
-          "hops": 0,
-          "finalStatus": 404,
-          "detail": "Redirect not active on production (HTTP 404) - config may not be deployed yet"
-        },
-        {
-          "check": "REDIRECT_MISSING",
-          "severity": "INFO",
-          "source": "/sv/apps/category/matematikk",
-          "type": "product-category",
-          "hops": 0,
-          "finalStatus": 404,
-          "detail": "Redirect not active on production (HTTP 404) - config may not be deployed yet"
-        },
-        {
-          "check": "REDIRECT_MISSING",
-          "severity": "INFO",
-          "source": "/da/apps/category/visuell-perception",
-          "type": "product-category",
-          "hops": 0,
-          "finalStatus": 404,
-          "detail": "Redirect not active on production (HTTP 404) - config may not be deployed yet"
-        },
-        {
-          "check": "REDIRECT_MISSING",
-          "severity": "INFO",
-          "source": "/de/apps/category/kunst-creativiteit",
-          "type": "product-category",
-          "hops": 0,
-          "finalStatus": 404,
-          "detail": "Redirect not active on production (HTTP 404) - config may not be deployed yet"
-        },
-        {
-          "check": "REDIRECT_MISSING",
-          "severity": "INFO",
-          "source": "/pt/apps/category/kunst-kreativitaet",
-          "type": "product-category",
-          "hops": 0,
-          "finalStatus": 404,
-          "detail": "Redirect not active on production (HTTP 404) - config may not be deployed yet"
-        },
-        {
-          "check": "REDIRECT_MISSING",
-          "severity": "INFO",
-          "source": "/pt/apps/category/perception-visuelle",
-          "type": "product-category",
-          "hops": 0,
-          "finalStatus": 404,
-          "detail": "Redirect not active on production (HTTP 404) - config may not be deployed yet"
-        },
-        {
-          "check": "REDIRECT_MISSING",
-          "severity": "INFO",
-          "source": "/en/apps/category/padroes-coordenacao-motora",
-          "type": "product-category",
-          "hops": 0,
-          "finalStatus": 404,
-          "detail": "Redirect not active on production (HTTP 404) - config may not be deployed yet"
-        },
-        {
-          "check": "REDIRECT_MISSING",
-          "severity": "INFO",
-          "source": "/nl/apps/category/logikraetsel",
-          "type": "product-category",
-          "hops": 0,
-          "finalStatus": 404,
-          "detail": "Redirect not active on production (HTTP 404) - config may not be deployed yet"
-        },
-        {
-          "check": "REDIRECT_MISSING",
-          "severity": "INFO",
-          "source": "/de/apps/category/arte-criatividade",
-          "type": "product-category",
-          "hops": 0,
-          "finalStatus": 404,
-          "detail": "Redirect not active on production (HTTP 404) - config may not be deployed yet"
-        },
-        {
-          "check": "REDIRECT_MISSING",
-          "severity": "INFO",
-          "source": "/sv/apps/category/logiikkapulmat",
-          "type": "product-category",
-          "hops": 0,
-          "finalStatus": 404,
-          "detail": "Redirect not active on production (HTTP 404) - config may not be deployed yet"
-        },
-        {
-          "check": "REDIRECT_MISSING",
-          "severity": "INFO",
-          "source": "/da/apps/category/visuell-persepsjon",
-          "type": "product-category",
-          "hops": 0,
-          "finalStatus": 404,
-          "detail": "Redirect not active on production (HTTP 404) - config may not be deployed yet"
-        },
-        {
-          "check": "REDIRECT_MISSING",
-          "severity": "INFO",
-          "source": "/it/apps/category/mathematik",
-          "type": "product-category",
-          "hops": 0,
-          "finalStatus": 404,
-          "detail": "Redirect not active on production (HTTP 404) - config may not be deployed yet"
-        },
-        {
-          "check": "REDIRECT_MISSING",
-          "severity": "INFO",
-          "source": "/da/apps/category/logikraetsel",
-          "type": "product-category",
-          "hops": 0,
-          "finalStatus": 404,
-          "detail": "Redirect not active on production (HTTP 404) - config may not be deployed yet"
-        },
-        {
-          "check": "REDIRECT_MISSING",
-          "severity": "INFO",
-          "source": "/fr/apps/category/monster-finmotorik",
-          "type": "product-category",
-          "hops": 0,
-          "finalStatus": 404,
-          "detail": "Redirect not active on production (HTTP 404) - config may not be deployed yet"
-        },
-        {
-          "check": "REDIRECT_MISSING",
-          "severity": "INFO",
-          "source": "/de/apps/grades/primer-grado",
+          "source": "/fr/apps/grades/segundo-grado",
           "type": "grade",
           "hops": 0,
           "finalStatus": 404,
@@ -48551,7 +48308,7 @@
         {
           "check": "REDIRECT_MISSING",
           "severity": "INFO",
-          "source": "/nl/apps/grades/kolmas-luokka",
+          "source": "/pt/apps/grades/ce1",
           "type": "grade",
           "hops": 0,
           "finalStatus": 404,
@@ -48560,7 +48317,7 @@
         {
           "check": "REDIRECT_MISSING",
           "severity": "INFO",
-          "source": "/no/apps/grades/groep-1-2",
+          "source": "/fi/apps/grades/maternelle",
           "type": "grade",
           "hops": 0,
           "finalStatus": 404,
@@ -48569,7 +48326,7 @@
         {
           "check": "REDIRECT_MISSING",
           "severity": "INFO",
-          "source": "/nl/apps/grades/grande-section",
+          "source": "/fr/apps/grades/esikoulu",
           "type": "grade",
           "hops": 0,
           "finalStatus": 404,
@@ -48578,7 +48335,7 @@
         {
           "check": "REDIRECT_MISSING",
           "severity": "INFO",
-          "source": "/en/apps/grades/arskurs-3",
+          "source": "/it/apps/grades/ce2",
           "type": "grade",
           "hops": 0,
           "finalStatus": 404,
@@ -48587,7 +48344,7 @@
         {
           "check": "REDIRECT_MISSING",
           "severity": "INFO",
-          "source": "/da/apps/grades/erste-klasse",
+          "source": "/de/apps/grades/preescolar",
           "type": "grade",
           "hops": 0,
           "finalStatus": 404,
@@ -48596,7 +48353,7 @@
         {
           "check": "REDIRECT_MISSING",
           "severity": "INFO",
-          "source": "/no/apps/grades/cp",
+          "source": "/fr/apps/grades/jardim-infancia",
           "type": "grade",
           "hops": 0,
           "finalStatus": 404,
@@ -48605,7 +48362,7 @@
         {
           "check": "REDIRECT_MISSING",
           "severity": "INFO",
-          "source": "/fr/apps/grades/toinen-luokka",
+          "source": "/sv/apps/grades/andre-klasse",
           "type": "grade",
           "hops": 0,
           "finalStatus": 404,
@@ -48614,7 +48371,7 @@
         {
           "check": "REDIRECT_MISSING",
           "severity": "INFO",
-          "source": "/nl/apps/grades/seconda-elementare",
+          "source": "/sv/apps/grades/kleuterschool",
           "type": "grade",
           "hops": 0,
           "finalStatus": 404,
@@ -48623,7 +48380,7 @@
         {
           "check": "REDIRECT_MISSING",
           "severity": "INFO",
-          "source": "/nl/apps/grades/andre-klasse",
+          "source": "/pt/apps/grades/vorschule",
           "type": "grade",
           "hops": 0,
           "finalStatus": 404,
@@ -48632,7 +48389,7 @@
         {
           "check": "REDIRECT_MISSING",
           "severity": "INFO",
-          "source": "/pt/apps/grades/toinen-luokka",
+          "source": "/pt/apps/grades/ensimmainen-luokka",
           "type": "grade",
           "hops": 0,
           "finalStatus": 404,
@@ -48641,7 +48398,7 @@
         {
           "check": "REDIRECT_MISSING",
           "severity": "INFO",
-          "source": "/nl/apps/grades/forste-klasse",
+          "source": "/no/apps/grades/prescuola",
           "type": "grade",
           "hops": 0,
           "finalStatus": 404,
@@ -48650,7 +48407,7 @@
         {
           "check": "REDIRECT_MISSING",
           "severity": "INFO",
-          "source": "/pt/apps/grades/forste-klasse",
+          "source": "/nl/apps/grades/anden-klasse",
           "type": "grade",
           "hops": 0,
           "finalStatus": 404,
@@ -48659,16 +48416,7 @@
         {
           "check": "REDIRECT_MISSING",
           "severity": "INFO",
-          "source": "/pt/apps/grades/segundo-grado",
-          "type": "grade",
-          "hops": 0,
-          "finalStatus": 404,
-          "detail": "Redirect not active on production (HTTP 404) - config may not be deployed yet"
-        },
-        {
-          "check": "REDIRECT_MISSING",
-          "severity": "INFO",
-          "source": "/en/apps/grades/primer-grado",
+          "source": "/sv/apps/grades/terceiro-ano",
           "type": "grade",
           "hops": 0,
           "finalStatus": 404,
@@ -48677,84 +48425,84 @@
         {
           "check": "REDIRECT_HOP",
           "severity": "LOW",
-          "source": "/blog/anti-angransande-spridning-slumpmassig-fordelning-arbetsblad",
-          "expectedTarget": "/en/blog/anti-angransande-spridning-slumpmassig-fordelning-arbetsblad",
+          "source": "/blog/dispersao-anti-adjacente-como-a-aleatoriedade-melhora-a-qualidade-das-fichas-educativas",
+          "expectedTarget": "/en/blog/dispersao-anti-adjacente-como-a-aleatoriedade-melhora-a-qualidade-das-fichas-educativas",
           "type": "bare-blog",
           "hops": 2,
           "chain": [
-            "https://www.lessoncraftstudio.com/blog/anti-angransande-spridning-slumpmassig-fordelning-arbetsblad",
-            "https://www.lessoncraftstudio.com/en/blog/anti-angransande-spridning-slumpmassig-fordelning-arbetsblad",
-            "https://www.lessoncraftstudio.com/sv/blog/varfoer-slumpmaessig-spridning-foerbaettrar-pedagogiska-arbetsblad"
+            "https://www.lessoncraftstudio.com/blog/dispersao-anti-adjacente-como-a-aleatoriedade-melhora-a-qualidade-das-fichas-educativas",
+            "https://www.lessoncraftstudio.com/en/blog/dispersao-anti-adjacente-como-a-aleatoriedade-melhora-a-qualidade-das-fichas-educativas",
+            "https://www.lessoncraftstudio.com/pt/blog/dispersao-anti-adjacente-como-a-aleatoriedade-melhora-a-qualidade-das-fichas-educativas"
           ],
           "finalStatus": 200,
-          "detail": "Bare-path 2-hop chain (expected): /blog/anti-angransande-spridning-slumpmassig-fordelning-arbetsblad -> /en/blog/anti-angransande-spridning-slumpmassig-fordelning-arbetsblad -> /sv/blog/varfoer-slumpmaessig-spridning-foerbaettrar-pedagogiska-arbetsblad"
+          "detail": "Bare-path 2-hop chain (expected): /blog/dispersao-anti-adjacente-como-a-aleatoriedade-melhora-a-qualidade-das-fichas-educativas -> /en/blog/dispersao-anti-adjacente-como-a-aleatoriedade-melhora-a-qualidade-das-fichas-educativas -> /pt/blog/dispersao-anti-adjacente-como-a-aleatoriedade-melhora-a-qualidade-das-fichas-educativas"
         },
         {
           "check": "REDIRECT_HOP",
           "severity": "LOW",
-          "source": "/blog/monsterboks-klipp-lim-multisensorisk-laering",
-          "expectedTarget": "/en/blog/monsterboks-klipp-lim-multisensorisk-laering",
+          "source": "/blog/scrittura-interdisciplinare-final-optimized",
+          "expectedTarget": "/en/blog/scrittura-interdisciplinare-final-optimized",
           "type": "bare-blog",
           "hops": 2,
           "chain": [
-            "https://www.lessoncraftstudio.com/blog/monsterboks-klipp-lim-multisensorisk-laering",
-            "https://www.lessoncraftstudio.com/en/blog/monsterboks-klipp-lim-multisensorisk-laering",
-            "https://www.lessoncraftstudio.com/no/blog/moensterboks-klipp-og-lim-aktiviteter-for-moenstergjenkjenning"
+            "https://www.lessoncraftstudio.com/blog/scrittura-interdisciplinare-final-optimized",
+            "https://www.lessoncraftstudio.com/en/blog/scrittura-interdisciplinare-final-optimized",
+            "https://www.lessoncraftstudio.com/it/blog/la-scrittura-come-strumento-trasversale-integrare-la-pratica-della-scrittura-in-tutte-le-materie-scolastiche"
           ],
           "finalStatus": 200,
-          "detail": "Bare-path 2-hop chain (expected): /blog/monsterboks-klipp-lim-multisensorisk-laering -> /en/blog/monsterboks-klipp-lim-multisensorisk-laering -> /no/blog/moensterboks-klipp-og-lim-aktiviteter-for-moenstergjenkjenning"
+          "detail": "Bare-path 2-hop chain (expected): /blog/scrittura-interdisciplinare-final-optimized -> /en/blog/scrittura-interdisciplinare-final-optimized -> /it/blog/la-scrittura-come-strumento-trasversale-integrare-la-pratica-della-scrittura-in-tutte-le-materie-scolastiche"
         },
         {
           "check": "REDIRECT_HOP",
           "severity": "LOW",
-          "source": "/blog/integration-vocabulaire-sciences-humaines-histoire-geographie",
-          "expectedTarget": "/en/blog/integration-vocabulaire-sciences-humaines-histoire-geographie",
+          "source": "/blog/geheimcode-optellen-motiverende-rekenlessen-basisschool",
+          "expectedTarget": "/en/blog/geheimcode-optellen-motiverende-rekenlessen-basisschool",
           "type": "bare-blog",
           "hops": 2,
           "chain": [
-            "https://www.lessoncraftstudio.com/blog/integration-vocabulaire-sciences-humaines-histoire-geographie",
-            "https://www.lessoncraftstudio.com/en/blog/integration-vocabulaire-sciences-humaines-histoire-geographie",
-            "https://www.lessoncraftstudio.com/fr/blog/integration-du-vocabulaire-en-sciences-humaines-7-generateurs-pour-lhistoire-et-la-geographie"
+            "https://www.lessoncraftstudio.com/blog/geheimcode-optellen-motiverende-rekenlessen-basisschool",
+            "https://www.lessoncraftstudio.com/en/blog/geheimcode-optellen-motiverende-rekenlessen-basisschool",
+            "https://www.lessoncraftstudio.com/nl/blog/rekenen-met-geheimcodes-optelsommen-die-kinderen-echt-willen-maken"
           ],
           "finalStatus": 200,
-          "detail": "Bare-path 2-hop chain (expected): /blog/integration-vocabulaire-sciences-humaines-histoire-geographie -> /en/blog/integration-vocabulaire-sciences-humaines-histoire-geographie -> /fr/blog/integration-du-vocabulaire-en-sciences-humaines-7-generateurs-pour-lhistoire-et-la-geographie"
+          "detail": "Bare-path 2-hop chain (expected): /blog/geheimcode-optellen-motiverende-rekenlessen-basisschool -> /en/blog/geheimcode-optellen-motiverende-rekenlessen-basisschool -> /nl/blog/rekenen-met-geheimcodes-optelsommen-die-kinderen-echt-willen-maken"
         },
         {
           "check": "REDIRECT_HOP",
           "severity": "LOW",
-          "source": "/blog/kleuters-werkbladen-groep-1-2-ontwikkelingsgericht",
-          "expectedTarget": "/en/blog/kleuters-werkbladen-groep-1-2-ontwikkelingsgericht",
+          "source": "/blog/desenho-grelha-detecao-inteligente-leonardo-da-vinci",
+          "expectedTarget": "/en/blog/desenho-grelha-detecao-inteligente-leonardo-da-vinci",
           "type": "bare-blog",
           "hops": 2,
           "chain": [
-            "https://www.lessoncraftstudio.com/blog/kleuters-werkbladen-groep-1-2-ontwikkelingsgericht",
-            "https://www.lessoncraftstudio.com/en/blog/kleuters-werkbladen-groep-1-2-ontwikkelingsgericht",
-            "https://www.lessoncraftstudio.com/nl/blog/kleuters-werkbladen-ontwikkelingsgerichte-activiteiten-voor-groep-1-2"
+            "https://www.lessoncraftstudio.com/blog/desenho-grelha-detecao-inteligente-leonardo-da-vinci",
+            "https://www.lessoncraftstudio.com/en/blog/desenho-grelha-detecao-inteligente-leonardo-da-vinci",
+            "https://www.lessoncraftstudio.com/pt/blog/desenho-em-grelha-com-detecao-inteligente-a-tecnica-de-leonardo-da-vinci-para-criancas"
           ],
           "finalStatus": 200,
-          "detail": "Bare-path 2-hop chain (expected): /blog/kleuters-werkbladen-groep-1-2-ontwikkelingsgericht -> /en/blog/kleuters-werkbladen-groep-1-2-ontwikkelingsgericht -> /nl/blog/kleuters-werkbladen-ontwikkelingsgerichte-activiteiten-voor-groep-1-2"
+          "detail": "Bare-path 2-hop chain (expected): /blog/desenho-grelha-detecao-inteligente-leonardo-da-vinci -> /en/blog/desenho-grelha-detecao-inteligente-leonardo-da-vinci -> /pt/blog/desenho-em-grelha-com-detecao-inteligente-a-tecnica-de-leonardo-da-vinci-para-criancas"
         },
         {
           "check": "REDIRECT_HOP",
           "severity": "LOW",
-          "source": "/blog/math-anxiety-reduction-worksheets",
-          "expectedTarget": "/en/blog/math-anxiety-reduction-worksheets",
+          "source": "/blog/escrita-interdisciplinar-integracao-curricular",
+          "expectedTarget": "/en/blog/escrita-interdisciplinar-integracao-curricular",
           "type": "bare-blog",
           "hops": 2,
           "chain": [
-            "https://www.lessoncraftstudio.com/blog/math-anxiety-reduction-worksheets",
-            "https://www.lessoncraftstudio.com/en/blog/math-anxiety-reduction-worksheets",
-            "https://www.lessoncraftstudio.com/en/blog/math-anxiety-reduction-6-low-stakes-worksheet-generators"
+            "https://www.lessoncraftstudio.com/blog/escrita-interdisciplinar-integracao-curricular",
+            "https://www.lessoncraftstudio.com/en/blog/escrita-interdisciplinar-integracao-curricular",
+            "https://www.lessoncraftstudio.com/pt/blog/escrita-interdisciplinar-como-integrar-a-producao-de-texto-em-todas-as-disciplinas"
           ],
           "finalStatus": 200,
-          "detail": "Bare-path 2-hop chain (expected): /blog/math-anxiety-reduction-worksheets -> /en/blog/math-anxiety-reduction-worksheets -> /en/blog/math-anxiety-reduction-6-low-stakes-worksheet-generators"
+          "detail": "Bare-path 2-hop chain (expected): /blog/escrita-interdisciplinar-integracao-curricular -> /en/blog/escrita-interdisciplinar-integracao-curricular -> /pt/blog/escrita-interdisciplinar-como-integrar-a-producao-de-texto-em-todas-as-disciplinas"
         }
       ]
     }
   },
   "summary": {
     "criticalHighIssues": 0,
-    "infoIssues": 3064,
+    "infoIssues": 3036,
     "status": "PASS"
   }
 }

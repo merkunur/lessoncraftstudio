@@ -15,16 +15,16 @@ export const picturePathEnContent: ProductPageContent = {
   seo: {
     slug: 'picture-path-worksheets',
     appId: 'picture-path',
-    title: 'Maze Worksheets | Free Printable Picture Path PDF',
-    description: 'Create maze worksheets with picture path puzzles and answer keys. Free printable fine motor activities for kindergarten and first grade. Download PDF now.',
-    keywords: 'maze worksheets, free worksheet, free worksheets, free printables, worksheet for kids, worksheet for kindergarten, picture path, kindergarten worksheets, first grade worksheets, free printable worksheets',
+    title: 'Picture Maze Worksheet Maker for Kids | LessonCraftStudio',
+    description: 'Create picture maze worksheets with path puzzles and answer keys. Free printable fine motor activities for K-2. Navigate themed mazes and build pencil control.',
+    keywords: 'maze puzzles for kids, path finding worksheets, fine motor maze activities, pencil control worksheets, navigating mazes printable, picture maze printable, maze with answer keys, visual tracking worksheets, motor skills maze, guided path worksheets',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/picture-path-worksheets',
       },
 
   // Hero Section - FULL text from picture-path.md paragraphs 1-4
   hero: {
-    title: 'Free Printable Maze Worksheets',
-    subtitle: 'Picture Path Generator for Kindergarten and First Grade',
+    title: 'Picture Path Maze Worksheets for Kids',
+    subtitle: 'Fine Motor and Navigation Puzzle Maker',
     description: `Create professional picture path maze worksheets with our maze generator. Your Full Access subscription gives you unlimited worksheet creation with three distinct game modes. Generate custom printable maze worksheets perfect for kindergarten worksheets and first grade worksheets. Download high-quality PDF maze activities in under 3 minutes.
 
 Picture Path transforms traditional maze worksheets into engaging visual learning activities. Students navigate from a start image to an end image through colorful pathways. The worksheet generator creates three different maze types in one tool. Picture Pathway mode offers classic pathfinding from start to finish. Classic Maze mode adds collectible images students count as they navigate. Choose the Right Path mode presents multiple paths where only one leads correctly from start to end.

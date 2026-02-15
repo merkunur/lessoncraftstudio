@@ -15,16 +15,16 @@ export const wordScrambleEnContent: ProductPageContent = {
   seo: {
     slug: 'word-scramble-worksheets',
     appId: 'word-scramble',
-    title: 'Word Scramble Worksheets | Free Vocabulary Puzzles',
-    description: 'Create word scramble worksheets with picture clues and jumbled letters. Free printable vocabulary puzzles for kindergarten. Download PDF in 3 minutes.',
-    keywords: 'word scramble worksheets, free printable worksheets, kindergarten worksheets, vocabulary worksheets, word scramble generator, spelling worksheets, first grade worksheets, sight words worksheets, phonics worksheets, ABC worksheets',
+    title: 'Word Scramble Generator for Kids | LessonCraftStudio',
+    description: 'Create word scramble worksheets with picture clues and jumbled letters. Free printable vocabulary puzzles for K-2. Boost spelling skills with themed word games.',
+    keywords: 'jumbled words for kids, vocabulary building worksheets, unscramble words printable, spelling practice worksheets, word puzzle activities, anagram worksheets for kids, word games printable, vocabulary puzzles, picture-based word scramble, K-2 spelling activities',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/word-scramble-worksheets',
       },
 
   // Hero Section - FULL text from word-scramble.md paragraphs 1-5
   hero: {
-    title: 'Free Printable Word Scramble Worksheets',
-    subtitle: 'Word Scramble Generator for Kindergarten and First Grade',
+    title: 'Word Scramble Worksheets With Picture Clues',
+    subtitle: 'Vocabulary and Spelling Puzzle Maker for K-2',
     description: `Create professional word scramble worksheets with our word scramble generator. Your Core Bundle subscription gives you unlimited worksheet creation with no per-worksheet fees. Generate custom printable word scramble worksheets perfect for kindergarten worksheets and first grade students. Download high-quality PDF worksheets in under 3 minutes.
 
 Word scramble worksheets help students practice phonics worksheets skills and sight words worksheets recognition. Each puzzle shows scrambled letters students must unscramble to form words. Your subscription includes access to over 3000 child-friendly images for creating alphabet worksheets and ABC worksheets with visual clues. Perfect for creating math worksheets vocabulary practice, addition worksheets word problems, and tracing worksheets letter recognition combined with word unscrambling activities.

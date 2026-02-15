@@ -15,17 +15,17 @@ export const wordSearchEnContent: ProductPageContent = {
   seo: {
     slug: 'word-search-worksheets',
     appId: 'wordsearch',
-    title: 'Word Search Worksheets | Free Printable for Kids',
-    description: 'Create word search worksheets with 3000+ themed picture clues in 11 languages. Free printable puzzles for kindergarten and first grade. Download PDF now.',
-    keywords: 'word search worksheets, word search generator, kindergarten worksheets, printable worksheets, word search puzzles, free worksheets, first grade worksheets, vocabulary worksheets, sight words worksheets, phonics worksheets, free worksheet for kids, free printables, worksheet for kindergarten, word puzzles',
+    title: 'Word Search Puzzle Generator for Kids | LessonCraftStudio',
+    description: 'Create word search puzzles with custom word lists and 3000+ themed images. Free printable in 11 languages for K-3. Generate unique puzzles every time.',
+    keywords: 'custom word search printable, word find puzzles, hidden words worksheet, vocabulary word search, themed word puzzles, word search for classroom, multilingual word search, word hunt activities, sight words word search, educational word games',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/word-search-worksheets',
     // Images for Google Image Thumbnails in search results
       },
 
   // Hero Section - FULL text from wordsearch.md paragraphs 1-3
   hero: {
-    title: 'Free Printable Word Search Worksheets',
-    subtitle: 'Word Search Generator for Kindergarten and First Grade',
+    title: 'Word Search Generator With Custom Word Lists',
+    subtitle: 'Create Themed Word Puzzles in 11 Languages',
     description: `Create professional word search worksheets in seconds with our word search generator. Perfect for kindergarten teachers, first grade educators, and homeschool parents. Generate custom word search puzzles using images or words in just three clicks. Free version includes watermark for personal use.
 
 Our word search maker helps you create engaging learning activities for young students. Choose from over 3000 child-friendly images organized by theme. Each word search worksheet downloads as a high-quality PDF or JPEG. Your students will love searching for hidden words based on colorful pictures. Core Bundle subscription removes watermark and includes commercial licensing.

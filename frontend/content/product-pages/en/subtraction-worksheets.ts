@@ -15,16 +15,16 @@ export const subtractionEnContent: ProductPageContent = {
   seo: {
     slug: 'subtraction-worksheets',
     appId: 'subtraction',
-    title: 'Subtraction Worksheets | Free Printable Math PDF',
-    description: 'Create subtraction worksheets with visual counting and answer keys. Free printable math for kindergarten and first grade. Download PDF in 3 minutes.',
-    keywords: 'subtraction worksheets, math worksheets, kindergarten worksheets, free printable worksheets, first grade worksheets, free worksheets, worksheet for kids, math worksheet generator, free printables, worksheet for kindergarten',
+    title: 'Subtraction Worksheet Generator | LessonCraftStudio',
+    description: 'Create subtraction worksheets with visual counting aids and printable answer keys. Free math practice for K-3. Customize difficulty and download PDF instantly.',
+    keywords: 'subtraction with pictures, subtraction practice for kids, kindergarten subtraction, first grade subtraction worksheets, take away worksheets, subtraction with answer keys, visual subtraction worksheets, math subtraction printable, subtraction facts practice, subtraction for beginners',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/subtraction-worksheets',
       },
 
   // Hero Section - FULL text from subtraction.md paragraphs 1-4
   hero: {
-    title: 'Free Printable Subtraction Worksheets',
-    subtitle: 'Professional Math Worksheet Generator for Kindergarten and First Grade',
+    title: 'Subtraction Worksheet Generator With Visual Aids',
+    subtitle: 'Create Picture-Based Subtraction Practice for K-3',
     description: `Create professional subtraction worksheets with our math worksheet generator. Your Full Access subscription gives you unlimited worksheet creation with no per-worksheet fees. Generate custom printable subtraction worksheets perfect for kindergarten and first grade students. Download high-quality PDF and JPEG math worksheets in under 3 minutes. Unlike competitors charging per worksheet or per download, create as many math worksheets as you need with one subscription.
 
 Our subtraction worksheet maker helps kindergarten teachers and first grade teachers create free printable worksheets in minutes instead of hours. Traditional worksheet creation takes 30-60 minutes per page. Our math worksheet generator reduces creation time to under 3 minutes. Choose from four different exercise modes to match your teaching approach. Traditional cross-out subtraction lets students mark images with X symbols. Image-number format combines pictures with numeric subtraction. Find-the-missing-number mode challenges students to identify the subtrahend. Mixed practice mode alternates between formats for comprehensive math worksheets that build multiple skills simultaneously.

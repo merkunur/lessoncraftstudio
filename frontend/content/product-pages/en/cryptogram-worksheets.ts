@@ -13,8 +13,8 @@ import { ProductPageContent } from '@/components/product-page/ProductPageClient'
 export const cryptogramEnContent: ProductPageContent = {
   // Hero Section - FULL text from cryptogram.md paragraphs 1-3
   hero: {
-    title: 'Free Printable Picture Cryptogram Worksheets',
-    subtitle: 'Picture Cryptogram Generator for Kindergarten and First Grade',
+    title: 'Picture Cryptogram Worksheets for Kids',
+    subtitle: 'Decode Secret Messages With Image Puzzles',
     description: `Create engaging picture cryptogram worksheets with our professional worksheet generator. Your Full Access subscription gives you unlimited cryptogram worksheet creation with no per-worksheet fees. Generate custom free printable worksheets perfect for kindergarten worksheets and first grade worksheets. Download professional 300 DPI cryptogram worksheets in under 3 minutes.
 
 Picture cryptogram worksheets turn code-breaking into a visual learning adventure. Each cryptogram uses pictures instead of letters to create secret codes. Students match images to letters and decode hidden phrases. This combines alphabet worksheets practice with critical thinking skills. Perfect for kindergarten through first grade classrooms.
@@ -48,9 +48,9 @@ Our cryptogram worksheet generator creates custom puzzles in 11 languages. Uploa
   seo: {
     slug: 'cryptogram-worksheets',
     appId: 'cryptogram',
-    title: 'Cryptogram Worksheets | Free Picture Puzzle Generator',
-    description: 'Create picture cryptogram worksheets where kids decode secret messages using images. Free printable code puzzles for kindergarten. Download PDF instantly.',
-    keywords: 'cryptogram worksheets, free worksheet for kids, picture cryptogram, worksheet for kindergarten, free printables, kindergarten worksheets, first grade worksheets, phonics worksheets, alphabet worksheets, puzzle worksheets',
+    title: 'Picture Cryptogram Worksheet Maker | LessonCraftStudio',
+    description: 'Create picture cryptogram worksheets where kids decode messages with images. Free printable code-breaking puzzles for K-2. Boost logic and literacy together.',
+    keywords: 'picture code worksheets, decode worksheets for kids, secret message activities, code-breaking worksheets, cipher puzzles for kids, image code puzzles, decode and spell worksheets, visual cipher games, literacy puzzle activities, code-cracking for kids',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/cryptogram-worksheets',
       },
 

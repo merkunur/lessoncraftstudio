@@ -1,0 +1,257 @@
+{
+  "timestamp": "2026-02-15T23:50:07.433Z",
+  "script": "validate-english-crosscheck.js",
+  "part": 99,
+  "phase": "6 - English Verification",
+  "checks": {
+    "A_keywordAlignment": {
+      "status": "PASS",
+      "totalProducts": 33,
+      "totalKeywords": 37,
+      "productsWithMapping": 33,
+      "productsWithoutMapping": [],
+      "ghostAppIds": [
+        "story-dice"
+      ],
+      "keywordsPerProduct": {
+        "word-search": [
+          "vocabulary",
+          "words",
+          "spelling",
+          "puzzle"
+        ],
+        "image-addition": [
+          "addition",
+          "math"
+        ],
+        "alphabet-train": [
+          "alphabet",
+          "letters",
+          "preschool",
+          "kindergarten"
+        ],
+        "coloring": [
+          "coloring",
+          "drawing",
+          "fine motor",
+          "preschool",
+          "kindergarten",
+          "toddler"
+        ],
+        "math-worksheet": [
+          "addition",
+          "subtraction",
+          "math",
+          "numbers"
+        ],
+        "word-scramble": [
+          "vocabulary",
+          "words",
+          "spelling",
+          "puzzle"
+        ],
+        "find-and-count": [
+          "counting",
+          "numbers",
+          "kindergarten"
+        ],
+        "matching-app": [
+          "matching",
+          "preschool",
+          "kindergarten",
+          "toddler",
+          "memory"
+        ],
+        "drawing-lines": [
+          "handwriting",
+          "drawing",
+          "tracing",
+          "fine motor",
+          "preschool"
+        ],
+        "picture-bingo": [
+          "bingo",
+          "game",
+          "memory"
+        ],
+        "sudoku": [
+          "numbers",
+          "puzzle",
+          "logic",
+          "critical thinking"
+        ],
+        "big-small-app": [
+          "sorting",
+          "preschool",
+          "toddler",
+          "comparison",
+          "size"
+        ],
+        "chart-count-color": [
+          "counting"
+        ],
+        "code-addition": [
+          "addition",
+          "math"
+        ],
+        "draw-and-color": [
+          "coloring",
+          "drawing",
+          "fine motor"
+        ],
+        "find-objects": [
+          "hidden objects",
+          "visual perception"
+        ],
+        "grid-match": [
+          "matching",
+          "memory"
+        ],
+        "image-crossword": [
+          "vocabulary",
+          "spelling",
+          "crossword"
+        ],
+        "image-cryptogram": [
+          "puzzle",
+          "logic",
+          "cryptogram"
+        ],
+        "math-puzzle": [
+          "math",
+          "puzzle",
+          "critical thinking"
+        ],
+        "missing-pieces": [
+          "visual perception"
+        ],
+        "more-less": [
+          "counting",
+          "numbers",
+          "comparison"
+        ],
+        "odd-one-out": [
+          "logic",
+          "visual perception",
+          "critical thinking"
+        ],
+        "pattern-train": [
+          "pattern",
+          "sequence"
+        ],
+        "pattern-worksheet": [
+          "pattern",
+          "sequence",
+          "logic",
+          "kindergarten",
+          "critical thinking"
+        ],
+        "picture-path": [
+          "maze"
+        ],
+        "picture-sort": [
+          "sorting"
+        ],
+        "prepositions": [
+          "prepositions"
+        ],
+        "shadow-match": [
+          "matching",
+          "visual perception"
+        ],
+        "subtraction": [
+          "subtraction",
+          "math"
+        ],
+        "treasure-hunt": [
+          "game"
+        ],
+        "word-guess": [
+          "vocabulary",
+          "words"
+        ],
+        "writing-app": [
+          "alphabet",
+          "letters",
+          "writing",
+          "handwriting",
+          "tracing"
+        ]
+      }
+    },
+    "B_sitemapCompleteness": {
+      "status": "PASS",
+      "productPages": {
+        "expected": 33,
+        "found": 33,
+        "missing": []
+      },
+      "themeHubs": {
+        "expected": 50,
+        "found": 50,
+        "missing": []
+      },
+      "themeGradeCombos": {
+        "expected": 250,
+        "found": 250,
+        "missing": []
+      },
+      "categoryHubs": {
+        "expected": 8,
+        "found": 8,
+        "missing": []
+      },
+      "gradeHubs": {
+        "expected": 5,
+        "found": 5,
+        "missing": []
+      },
+      "staticPages": {
+        "expected": 10,
+        "found": 10,
+        "missing": []
+      },
+      "blogCategories": {
+        "expected": 7,
+        "found": 7,
+        "missing": []
+      },
+      "productLocaleGaps": [],
+      "themeLocaleGaps": [],
+      "gradeLocaleGaps": []
+    },
+    "C_hreflangConsistency": {
+      "status": "PASS",
+      "productPages": {
+        "total": 33,
+        "complete": 33,
+        "incomplete": []
+      },
+      "themeHubs": {
+        "total": 50,
+        "complete": 50,
+        "incomplete": []
+      },
+      "gradeHubs": {
+        "total": 5,
+        "complete": 5,
+        "incomplete": []
+      },
+      "categoryHubs": {
+        "total": 8,
+        "complete": 8,
+        "incomplete": []
+      }
+    }
+  },
+  "issueCount": 0,
+  "issues": [],
+  "liveHreflangValidation": {
+    "source": "hreflang-symmetry.json",
+    "timestamp": "unknown",
+    "sitemapUrls": "N/A",
+    "symmetry": "N/A",
+    "selfReference": "N/A",
+    "xDefault": "N/A"
+  }
+}

@@ -434,6 +434,8 @@
     "followUs": "Follow Us"
   },
   "terms": {
+    "metaTitle": "Terms of Service \u2014 Usage Agreement | LessonCraftStudio",
+    "metaDescription": "Review LessonCraftStudio terms of service. Covers account requirements, subscription tiers, content licensing, and user responsibilities under Swedish law.",
     "title": "Terms of Service",
     "lastUpdated": "Last Updated",
     "effectiveDate": "January 2025",
@@ -508,6 +510,8 @@
     }
   },
   "license": {
+    "metaTitle": "License Terms \u2014 Content Usage Rights | LessonCraftStudio",
+    "metaDescription": "Understand LessonCraftStudio license terms. Free tier for personal use, Core for institutional use, Full Access for unrestricted commercial use including POD.",
     "title": "License Terms",
     "lastUpdated": "Last Updated",
     "effectiveDate": "January 2025",
@@ -562,6 +566,8 @@
     }
   },
   "privacy": {
+    "metaTitle": "Privacy Policy \u2014 Data Practices & GDPR | LessonCraftStudio",
+    "metaDescription": "Read our privacy policy. Learn how LessonCraftStudio handles your data under GDPR and Swedish law. We collect minimal data and never sell personal information.",
     "title": "Privacy Policy",
     "lastUpdated": "Last Updated",
     "effectiveDate": "January 2025",
@@ -653,9 +659,9 @@
     }
   },
   "faq": {
-    "metaTitle": "Frequently Asked Questions - LessonCraftStudio",
-    "metaDescription": "Get answers to common questions about our 33 worksheet generators, pricing plans, commercial licenses, and technical support",
-    "metaKeywords": "FAQ, worksheet generators help, pricing questions, commercial license, technical support",
+    "metaTitle": "FAQ: Worksheet Generator Help & Pricing | LessonCraftStudio",
+    "metaDescription": "Get answers to common questions about our 33 free worksheet generators, subscription pricing, commercial license terms, and technical support for teachers.",
+    "metaKeywords": "worksheet generator FAQ, pricing questions, commercial license help, teacher tool support, LessonCraftStudio help, free worksheet questions, subscription help",
     "hero": {
       "title": "Frequently Asked Questions",
       "subtitle": "Everything you need to know about LessonCraftStudio worksheet generators"
@@ -1164,7 +1170,8 @@
   },
   "about": {
     "metaTitle": "About LessonCraftStudio | Educational Worksheet Generators",
-    "metaDescription": "Learn about LessonCraftStudio — 33 professional worksheet generators in 11 languages with 3,000+ themed images for teachers, parents, and therapists.",
+    "metaDescription": "Learn about LessonCraftStudio — 33 free worksheet generators in 11 languages with 3,000+ themed images. Built for teachers, parents, and speech therapists.",
+    "metaKeywords": "about LessonCraftStudio, educational worksheet generators, teacher tools, worksheet maker platform, multilingual worksheets, themed educational images",
     "hero": {
       "title": "About LessonCraftStudio",
       "subtitle": "Empowering educators worldwide with professional worksheet generators"

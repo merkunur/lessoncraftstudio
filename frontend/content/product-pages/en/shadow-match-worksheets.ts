@@ -15,16 +15,16 @@ export const shadowMatchEnContent: ProductPageContent = {
   seo: {
     slug: 'shadow-match-worksheets',
     appId: 'shadow-match',
-    title: 'Shadow Match Worksheets | Free Visual Perception PDF',
-    description: 'Create shadow match worksheets with silhouette matching for visual perception. Free printable activities for kindergarten and preschool. Download PDF now.',
-    keywords: 'shadow match worksheets, free worksheets, kindergarten worksheets, visual perception, free printable worksheets, first grade worksheets, worksheet for kids, silhouette matching, shape recognition worksheets, free printables',
+    title: 'Shadow Match Worksheet Generator | LessonCraftStudio',
+    description: 'Create shadow match worksheets with silhouette and shape recognition games. Free printable visual perception activities for pre-K to 1st grade. Download now.',
+    keywords: 'silhouette matching worksheets, shape matching activities, shadow recognition printable, visual perception activities, outline matching worksheets, shape and shadow games, silhouette worksheets for kids, visual matching practice, shadow identification worksheets, perception worksheets for kindergarten',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/shadow-match-worksheets',
       },
 
   // Hero Section - FULL text from shadow-match.md paragraphs 1-4
   hero: {
-    title: 'Free Printable Shadow Match Worksheets',
-    subtitle: 'Free Worksheet for Kindergarten - Visual Perception Worksheet Generator',
+    title: 'Shadow Match Silhouette Worksheets',
+    subtitle: 'Visual Perception Matching Activities for Kids',
     description: `Create professional shadow match worksheets with our visual perception worksheet generator. Your Full Access subscription gives you unlimited worksheet creation with no per-worksheet fees. Generate custom printable shadow matching worksheets perfect for kindergarten and first grade students developing visual discrimination skills. Download high-quality PDF worksheets in under 3 minutes.
 
 Shadow match worksheets help young learners develop critical visual perception skills through engaging matching activities. Our generator creates two distinct exercise types in one powerful tool. Shadow Match mode presents colorful objects alongside their black silhouettes for classic matching practice. Make It Whole mode splits images into two pieces that students reassemble mentally. Both exercises build spatial reasoning and pattern recognition abilities essential for academic success.

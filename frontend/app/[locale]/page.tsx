@@ -21,7 +21,7 @@ const homepageMetadata: Record<string, { title: string; description: string; key
   en: {
     title: 'Free Worksheet Generators for Teachers | LessonCraftStudio',
     description: 'Create free printable worksheets with 33 generators and 3,000+ images. Math, coloring, word searches & puzzles. Download PDF instantly. No signup required.',
-    keywords: 'kindergarten worksheets, math worksheets, free printable worksheets, worksheet generator, alphabet worksheets, first grade worksheets, addition worksheets, coloring worksheets, phonics worksheets, tracing worksheets',
+    keywords: 'free worksheet generator, printable worksheets for kids, math worksheet maker, kindergarten worksheets, first grade worksheets, coloring page generator, word search creator, educational printables, teacher worksheet tools, PDF worksheet download, preschool activities, classroom worksheets',
     ogAlt: 'LessonCraftStudio - Professional Worksheet Generators'
   },
   de: {

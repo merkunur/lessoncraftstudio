@@ -15,16 +15,16 @@ export const mathWorksheetsEnContent: ProductPageContent = {
   seo: {
     slug: 'math-worksheets',
     appId: 'math-worksheet',
-    title: 'Math Worksheets | Free Printable for Kindergarten',
-    description: 'Create picture-based math worksheets with addition, subtraction, and counting puzzles. Free printable for kindergarten math centers. Download PDF now.',
-    keywords: 'math worksheets, free printable worksheets, kindergarten worksheets, first grade worksheets, printable math worksheets, worksheet for kids, free worksheet, free worksheets, free printables, math puzzle worksheets',
+    title: 'Math Worksheet Generator With Pictures | LessonCraftStudio',
+    description: 'Create math worksheets with picture-based addition and subtraction problems. Free printable for K-2 math centers. Generate custom problems and download PDF.',
+    keywords: 'custom math problems, picture math worksheets, visual math activities, math for kindergarten, math center activities, printable math practice, K-2 math worksheets, basic math problems, counting and operations worksheets, math with images for kids',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/math-worksheets',
   },
 
   // Hero Section - FULL text from math-worksheet.md paragraphs 1-6
   hero: {
-    title: 'Free Printable Math Worksheets for Kindergarten',
-    subtitle: 'Math Worksheet Generator with Picture-Based Puzzles',
+    title: 'Math Worksheet Generator With Picture Problems',
+    subtitle: 'Create Addition, Subtraction, and Counting Worksheets',
     description: `Create picture-based math puzzles with our math worksheet generator. Your Core Bundle subscription gives you unlimited worksheet creation with no per-worksheet fees. Generate custom printable math worksheets perfect for kindergarten and first grade students. Download high-quality PDF worksheets in under 3 minutes.
 
 Our math worksheet maker creates visual math logic puzzles where symbols represent numbers. Students solve puzzles by figuring out what number each picture represents. This engaging format makes math worksheets more interesting than traditional addition worksheets. Teachers love these printable math worksheets because they combine critical thinking with basic math practice. Perfect for students who need alternatives to standard math worksheets.

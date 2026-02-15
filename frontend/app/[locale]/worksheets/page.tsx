@@ -33,7 +33,7 @@ const pageTitle: Record<string, string> = {
 };
 
 const pageDescription: Record<string, string> = {
-  en: 'Browse 50 themed worksheet collections for kids. Animals, dinosaurs, space, ocean, and more. Free printable math, reading, coloring, and puzzle activities for preschool through 3rd grade.',
+  en: 'Browse 50 themed worksheet collections for kids. Animals, dinosaurs, space, ocean and more. Free printable activities for preschool to 3rd grade. PDF download.',
   de: 'Entdecken Sie 50 thematische Arbeitsblatt-Sammlungen f\u00fcr Kinder. Tiere, Dinosaurier, Weltraum, Ozean und mehr. Kostenlose Mathe-, Lese-, Mal- und R\u00e4tselaktivit\u00e4ten f\u00fcr Vorschule bis 3. Klasse.',
   fr: 'Parcourez 50 collections de fiches th\u00e9matiques pour enfants. Animaux, dinosaures, espace, oc\u00e9an et plus. Activit\u00e9s de maths, lecture, coloriage et puzzles gratuits de la maternelle au CE2.',
   es: 'Explore 50 colecciones de fichas tem\u00e1ticas para ni\u00f1os. Animales, dinosaurios, espacio, oc\u00e9ano y m\u00e1s. Actividades gratuitas de matem\u00e1ticas, lectura, colorear y rompecabezas para preescolar hasta 3\u00b0 grado.',
@@ -66,7 +66,7 @@ export async function generateMetadata({
   return {
     title,
     description,
-    keywords: 'themed worksheets, kids worksheets, printable worksheets, educational activities, preschool worksheets, kindergarten worksheets',
+    keywords: 'themed worksheets for kids, free printable worksheet collections, animal worksheets, dinosaur worksheets, space worksheets, preschool themed activities, kindergarten worksheet themes, educational printables by topic, seasonal worksheets, holiday worksheets for kids, themed PDF activities, classroom theme packs',
     robots: {
       index: true,
       follow: true,

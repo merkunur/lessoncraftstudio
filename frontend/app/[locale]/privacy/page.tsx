@@ -19,19 +19,20 @@ export async function generateMetadata({ params }: { params: { locale: string } 
   }
   hreflangAlternates['x-default'] = `${baseUrl}/en/privacy`;
 
-  // SEO: Add brand name to title for better SERP recognition
-  const pageTitle = `${t('title')} | LessonCraftStudio`;
+  // SEO: Use dedicated meta keys when available, fallback to content strings for non-EN locales
+  const pageTitle = t.has('metaTitle') ? t('metaTitle') : `${t('title')} | LessonCraftStudio`;
+  const pageDescription = t.has('metaDescription') ? t('metaDescription') : t('introduction.content');
 
   return {
     title: pageTitle,
-    description: t('introduction.content'),
+    description: pageDescription,
     alternates: {
       canonical: `${baseUrl}/${locale}/privacy`,
       languages: hreflangAlternates
     },
     openGraph: {
       title: pageTitle,
-      description: t('introduction.content'),
+      description: pageDescription,
       type: 'website',
       url: `${baseUrl}/${locale}/privacy`,
       siteName: 'LessonCraftStudio',

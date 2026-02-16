@@ -15,16 +15,16 @@ export const chartCountFiContent: ProductPageContent = {
   seo: {
     slug: 'kuvakaavio-tyoarkit',
     appId: 'chart-count',
-    title: 'Kuvakaavio Generaattori - Tulostettavat Tehtävät Lapsille Ilmainen -',
-    description: 'Luo ammattimaisia kuvakaaviotehtäviä laskemisen ja tietojen visualisoinnin harjoitteluun. Täysi Käyttöoikeus -tilaus antaa rajattoman pääsyn kaikkiin 33.',
-    keywords: 'kuvakaavio generaattori, tulostettavat tehtävät lapsille ilmainen, matematiikka tehtävät alakoulu, esiopetus materiaali ilmainen, pylväsdiagrammi tehtävät, laskeminen tehtävät',
+    title: 'Kuvakaavio Generaattori — Ilmainen | LessonCraftStudio',
+    description: 'Luo tulostettavia kuvakaavio-tehtäviä laskemisen ja tiedon visualisoinnin harjoitteluun. Laske ja väritä kuviot esikoulusta 3. luokalle. Ilmainen.',
+    keywords: 'kuvakaavio tehtävät, laske ja väritä, tiedon visualisointi lapsille, pylväskaavio esikoulu, kuvakaavio tulostettava, laskeminen ja väritys, tilastotehtävät lapsille, kaavio tulostettava, tilastot esikoulu, kuvakaavio harjoitus',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/kuvakaavio-tyoarkit',
   },
 
   // Hero Section - FULL text from Finnish chart-count.md
   hero: {
-    title: 'Kuvakaavio Tehtävät',
-    subtitle: 'Tulostettavat Tehtävät Lapsille Ilmainen Matematiikka Materiaali',
+    title: 'Kuvakaavio — Laske ja Väritä Generaattori',
+    subtitle: 'Tiedon Visualisointi ja Laskemisharjoituksia Lapsille',
     description: `Luo ammattimaisia kuvakaaviotehtäviä laskemisen ja tietojen visualisoinnin harjoitteluun. Täysi Käyttöoikeus -tilaus antaa rajattoman pääsyn kaikkiin 33 tehtävämonisteen luontityökaluun. Generoi tulostettavat matematiikan tehtävämonisteet, jotka sopivat täydellisesti esiopetukseen ja alakoulun ala-asteelle. Lataa korkealaatuiset PDF-tehtävät alle kolmessa minuutissa.
 
 Kuvakaaviot opettavat lapsille tärkeitä datataidonedustuksen periaatteita. Oppilaat laskevat kuvia ja värittävät ruutuja luodakseen pylväsdiagrammin. Tämä kehittää sekä laskutaitoja että graafisen esitystavan ymmärtämistä. Tehtävät ovat ihanteellisia esikoulusta kolmanteen luokkaan.

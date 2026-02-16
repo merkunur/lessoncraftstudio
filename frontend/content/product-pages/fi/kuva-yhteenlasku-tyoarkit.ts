@@ -15,16 +15,16 @@ export const codeAdditionFiContent: ProductPageContent = {
   seo: {
     slug: 'kuva-yhteenlasku-tyoarkit',
     appId: 'code-addition',
-    title: 'Kuvapohjainen Yhteenlasku Tehtävämoniste | Ilmaiset Tehtävät',
-    description: 'Luo visuaalisia yhteenlaskutehtäviä käyttäen kuvia yli 3000 kuvan kirjastosta. Kuvapohjainen yhteenlaskugeneraattori tekee matematiikan oppimisesta.',
-    keywords: 'kuvapohjainen yhteenlasku, yhteenlasku ja vähennyslasku tehtävät, matematiikka tehtävät alakoulu, esiopetus materiaali ilmainen, tulostettavat tehtävät lapsille ilmainen, hienomotoriikka harjoitukset',
+    title: 'Kuvakoodattu Yhteenlasku Generaattori | LessonCraftStudio',
+    description: 'Luo tulostettavia kuvakoodattuja yhteenlaskutehtäviä, joissa kuvat korvaavat numerot. Kehittää algebrallista ajattelua. Esikoulusta 3. luokalle. Ilmainen.',
+    keywords: 'kuvakoodattu yhteenlasku, symbolinen algebra lapsille, kuvapohjainen matematiikka, koodilaskut tulostettava, algebrallinen ajattelu esikoulu, kuva korvaa luvun, salaviesti yhteenlasku, kuvasymboli laskutehtävä, matemaattinen koodaus, visuaalinen algebra',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/kuva-yhteenlasku-tyoarkit',
   },
 
   // Hero Section - FULL text from Finnish code-addition.md
   hero: {
-    title: 'Kuvapohjainen Yhteenlasku Tehtävämoniste',
-    subtitle: 'Tulostettavat Tehtävät Lapsille Ilmainen Matematiikka Alakoulu',
+    title: 'Kuvakoodattu Yhteenlasku Generaattori',
+    subtitle: 'Algebrallinen Ajattelu Kuvallisten Laskutehtävien Kautta',
     description: `Luo visuaalisia yhteenlaskutehtäviä käyttäen kuvia yli 3000 kuvan kirjastosta. Kuvapohjainen yhteenlaskugeneraattori tekee matematiikan oppimisesta konkreettista esiopetukseen ja alakouluun. Täysi Pääsy -tilauksesi antaa sinulle rajattoman pääsyn luoda tulostettavat tehtävät lapsille ilmainen matematiikan harjoitteluun.
 
 Yhteenlasku ja vähennyslasku tehtävät tulevat eläviksi kuvilla. Lapset näkevät kolme omenaa plus kaksi omenaa on viisi omenaa. Visuaalinen oppiminen toimii erityisen hyvin esiopetus materiaali ilmainen kehityksessä. Matematiikka tehtävät alakoulu -tasolla muuttuvat hauskemmiksi kun käytät todellisia kuvia numeroiden sijaan.

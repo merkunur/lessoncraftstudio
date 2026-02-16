@@ -15,16 +15,16 @@ export const bigSmallFiContent: ProductPageContent = {
   seo: {
     slug: 'iso-pieni-tyoarkit',
     appId: 'big-small',
-    title: 'Iso ja Pieni Tehtävät Lapsille | Tulostettavat Työarkit',
-    description: 'Luo ammattimaisia kokovertailutehtäviä Iso ja Pieni -työkalulla. Täysi Käyttöoikeus -tilaus antaa rajattoman pääsyn kaikkiin 33 tehtävämonisteen.',
-    keywords: 'tulostettavat tehtävät lapsille ilmainen, iso ja pieni tehtävät, esiopetus materiaali ilmainen, matematiikka tehtävät alakoulu, kokovertailu tehtävät, hienomotoriikka harjoitukset',
+    title: 'Kokovertailu Generaattori — Ilmainen | LessonCraftStudio',
+    description: 'Luo tulostettavia iso ja pieni -vertailutehtäviä kuvilla. Kehitä kokojen vertailutaitoja esikoulusta 1. luokalle. Muokattavat asetukset. Lataa PDF.',
+    keywords: 'iso ja pieni tehtävät, kokovertailu esikoulu, kokojen tunnistaminen, suurempi ja pienempi, kokojen vertailu lapsille, iso pieni tulostettava, kokoerot tehtävät, kokoharjoitukset esikoulu, vertailutaidot harjoitus, kokojen lajittelu',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/iso-pieni-tyoarkit',
   },
 
   // Hero Section - FULL text from Finnish big-small.md
   hero: {
-    title: 'Iso ja Pieni Tehtävät',
-    subtitle: 'Tulostettavat Tehtävät Lapsille Ilmainen Esiopetus Materiaali',
+    title: 'Iso ja Pieni Tehtävien Generaattori',
+    subtitle: 'Kokovertailuharjoituksia Kuvilla Esikoulusta 1. Luokalle',
     description: `Iso ja pieni -tehtävämonisteiden luominen on helppoa tälle kokovertailutyökalulle. Luo ammattimaisia tehtäviä, joissa lapset oppivat erottamaan koot toisistaan. Täysi Käyttöoikeus -tilaus antaa rajattoman pääsyn kaikkiin 33 tehtävämonisteen luontityökaluun. Lataa tulostettavat tehtävät PDF- tai JPEG-muodossa alle 3 minuutissa.
 
 Kokovertailutehtävät ovat tärkeitä esiopetuksen ja alakoulun matematiikassa. Lapset oppivat ymmärtämään käsitteet iso, pieni ja keskikokoinen. Tämä työkalu luo automaattisesti tehtäviä, joissa on 2-3 kuvaa eri kokoina. Valitse viidestä eri tehtävätyypistä. Ympyröi pienin, ympyröi suurin tai järjestä kuvat kokonsa mukaan.

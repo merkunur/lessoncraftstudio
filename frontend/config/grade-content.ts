@@ -253,8 +253,8 @@ export const gradeContent: Record<GradeSlug, Record<string, GradeContent>> = {
       ],
     },
     fi: {
-      title: 'Esikoulun ty\u00f6sivut 3\u20134-vuotiaille \u2014 Ilmaiset',
-      description: 'Ilmaiset tulostettavat esikoulun ty\u00f6sivut 3\u20134-vuotiaille. V\u00e4ritys, j\u00e4ljent\u00e4minen, yhdist\u00e4minen, kuviot ja kokovertailu varhaisoppimiseen.',
+      title: 'Ilmaiset Esikouluteht\u00e4v\u00e4t 3\u20134-Vuotiaille \u2014 Tulosta PDF',
+      description: 'Ilmaiset tulostettavat esikouluteht\u00e4v\u00e4t 3\u20134-vuotiaille. V\u00e4rityst\u00e4, j\u00e4ljent\u00e4mist\u00e4, yhdist\u00e4mist\u00e4 ja kuvioita. Kuusi generaattoria, 50 teemaa. Lataa PDF heti.',
       keywords: 'esikoulun ty\u00f6sivut, ilmaiset teht\u00e4v\u00e4t 3-4 vuotta, v\u00e4rityskuvat esikoulu, j\u00e4ljent\u00e4misharjoitukset, yhdist\u00e4mispelit taaperot, kuvionhahmotus esikoulu, kokovertailu, varhainen oppiminen, hienomotoriikka esikoulu, esikouluteht\u00e4v\u00e4t ilmaiseksi',
       heading: 'Esikoulun ty\u00f6sivut 3\u20134-vuotiaille',
       name: 'Esikoulu',
@@ -442,8 +442,8 @@ export const gradeContent: Record<GradeSlug, Record<string, GradeContent>> = {
       ],
     },
     fi: {
-      title: 'Esikoulun ty\u00f6sivut 5\u20136-vuotiaille \u2014 Ilmaiset',
-      description: 'Ilmaiset tulostettavat esikoulun ty\u00f6sivut 5\u20136-vuotiaille. Yhteenlasku, aakkoset, sanahaku, v\u00e4ritys, laskeminen, kuviot.',
+      title: 'Ilmaiset Esiopetuksen Teht\u00e4v\u00e4t 5\u20136-Vuotiaille \u2014 Tulosta PDF',
+      description: 'Ilmaiset tulostettavat esiopetuksen teht\u00e4v\u00e4t 5\u20136-vuotiaille. Yhteenlasku, aakkoset, sanahaku, v\u00e4ritys ja kuviot. Kahdeksan generaattoria, 50 teemaa. Lataa PDF.',
       keywords: 'esikoulun ty\u00f6sivut, ilmaiset teht\u00e4v\u00e4t 5-6 vuotta, matematiikka esikoulu, aakkosty\u00f6sivut, sanahaku lapsille, laskuharjoitukset, kuvioteht\u00e4v\u00e4t esikoulu, lajitteluteht\u00e4v\u00e4t, varjoparit, kouluvalmius ilmaiseksi',
       heading: 'Esikoulun ty\u00f6sivut 5\u20136-vuotiaille',
       name: 'Esikoulu 5\u20136',
@@ -631,7 +631,7 @@ export const gradeContent: Record<GradeSlug, Record<string, GradeContent>> = {
       ],
     },
     fi: {
-      title: '1. luokan ty\u00f6sivut 6\u20137-vuotiaille \u2014 Ilmaiset',
+      title: 'Ilmaiset 1. Luokan Teht\u00e4v\u00e4t 6\u20137-Vuotiaille \u2014 Tulosta PDF',
       description: 'Ilmaiset tulostettavat 1. luokan ty\u00f6sivut 6\u20137-vuotiaille. Peruslaskutoimitukset, v\u00e4hennyslasku, kirjainsekoitukset, ristikot, sudoku, piilotetut esineet.',
       keywords: '1. luokan ty\u00f6sivut, ilmaiset teht\u00e4v\u00e4t 6-7 vuotta, matematiikka 1. luokka, v\u00e4hennyslaskuteht\u00e4v\u00e4t, kirjainsekoitukset lapset, ristikot koulu, sudoku lapsille, piilotetut esineet, ruudukkoyhdist\u00e4minen, kirjoitusharjoitukset 1. luokka',
       heading: '1. luokan ty\u00f6sivut 6\u20137-vuotiaille',
@@ -820,7 +820,7 @@ export const gradeContent: Record<GradeSlug, Record<string, GradeContent>> = {
       ],
     },
     fi: {
-      title: '2. luokan ty\u00f6sivut 7\u20138-vuotiaille \u2014 Ilmaiset',
+      title: 'Ilmaiset 2. Luokan Teht\u00e4v\u00e4t 7\u20138-Vuotiaille \u2014 Tulosta PDF',
       description: 'Ilmaiset tulostettavat 2. luokan ty\u00f6sivut 7\u20138-vuotiaille. Matemaattiset palapelit, koodilaskut, sana-arvailu, kryptogrammit, kumma joukossa, kuvapolut.',
       keywords: '2. luokan ty\u00f6sivut, ilmaiset teht\u00e4v\u00e4t 7-8 vuotta, matemaattiset palapelit, koodilaskut, sana-arvailu lapsille, kryptogrammi, kumma joukossa, kuvapolku, prepositiot harjoitukset, enemm\u00e4n vai v\u00e4hemm\u00e4n',
       heading: '2. luokan ty\u00f6sivut 7\u20138-vuotiaille',
@@ -1009,8 +1009,8 @@ export const gradeContent: Record<GradeSlug, Record<string, GradeContent>> = {
       ],
     },
     fi: {
-      title: '3. luokan teht\u00e4v\u00e4t \u2014 Matematiikka, Pulmat & Ajattelu',
-      description: 'Ilmaiset 3. luokan teht\u00e4v\u00e4t: matematiikka, sudoku, loogisia pulmia ja kriittist\u00e4 ajattelua. Lataa PDF heti koululle tai kotiin.',
+      title: 'Ilmaiset 3. Luokan Teht\u00e4v\u00e4t 8\u20139-Vuotiaille \u2014 Tulosta PDF',
+      description: 'Ilmaiset tulostettavat 3. luokan teht\u00e4v\u00e4t 8\u20139-vuotiaille: matematiikka, sudoku, loogisia pulmia ja kriittist\u00e4 ajattelua. Kahdeksan generaattoria. Lataa PDF.',
       keywords: 'teht\u00e4v\u00e4t 3 luokka, matematiikka kolmas luokka, loogiset pulmat lapsille, sudoku koulu, kriittinen ajattelu, ilmaiset teht\u00e4v\u00e4t, harjoitukset 3 luokka, ajattelupelit, aktiviteetit 3 luokka, opetusaineisto',
       heading: 'Teht\u00e4v\u00e4t 3. luokalle \u2014 Matematiikka, Pulmat & Kriittinen Ajattelu',
       name: '3. luokka',

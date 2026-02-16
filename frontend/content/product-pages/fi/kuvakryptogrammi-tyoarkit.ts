@@ -19,16 +19,16 @@ export const cryptogramFiContent: ProductPageContent = {
   seo: {
     slug: 'kuvakryptogrammi-tyoarkit',
     appId: 'cryptogram',
-    title: 'Kuvakryptogrammi Generaattori - Tulostettavat Tehtävät Lapsille',
-    description: 'Luo ammattimaisia kuvakryptogrammi-tehtäviä, joissa kirjaimet korvataan kuvilla. Täysi Käyttöoikeus -tilauksesi antaa rajattoman kryptogrammi-tehtävien luonnin.',
-    keywords: 'kuvakryptogrammi, tulostettavat tehtävät lapsille ilmainen, kirjaimet harjoittelu esikoulu, esiopetus materiaali ilmainen, lukemaan oppiminen tehtävät, matematiikka tehtävät alakoulu',
+    title: 'Kuvakryptogrammi Generaattori | LessonCraftStudio',
+    description: 'Luo tulostettavia kuvakryptogrammi-tehtäviä, joissa kirjaimet korvataan kuvilla. Kehittää dekoodaustaitoja ja lukemisvalmiutta. Esikoulusta 3. luokalle.',
+    keywords: 'kuvakryptogrammi tehtävät, salakirjoitus lapsille, dekoodaus tehtävä, salakielen purkaminen, kuvakoodaus harjoitus, salasana tehtävä, kryptogrammi tulostettava, symbolien dekoodaus, salaviesti harjoitus, lukemisvalmiuden harjoittelu',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/kuvakryptogrammi-tyoarkit',
   },
 
   // Hero Section - FULL text from Finnish cryptogram.md
   hero: {
-    title: 'Kuvakryptogrammi',
-    subtitle: 'Tulostettavat Tehtävät Lapsille Ilmainen - Kirjaimet Harjoittelu Esikoulu',
+    title: 'Kuvakryptogrammi Generaattori',
+    subtitle: 'Salakirjoitustehtäviä Kuvilla — Dekoodaa ja Opi Lukemaan',
     description: `Luo ammattimaisia kuvakryptogrammi-tehtäviä, joissa kirjaimet korvataan kuvilla. Täysi Käyttöoikeus -tilauksesi antaa rajattoman kryptogrammi-tehtävien luonnin ilman ylimääräisiä maksuja. Generoi mukautettavia tulostettavia tehtäviä lapsille, jotka ovat täydellisiä esiopetukseen ja alakouluun. Lataa laadukkaat PDF-tehtävät alle 3 minuutissa.
 
 Kuvakryptogrammit yhdistävät kirjainten harjoittelun ja ongelmanratkaisun. Oppilaat purkavat salatun viestin tunnistamalla, mikä kuva edustaa mitäkin kirjainta. Täydellinen lukemaan oppimisen tehtäville ja kirjainten tunnistuksen harjoittelulle.

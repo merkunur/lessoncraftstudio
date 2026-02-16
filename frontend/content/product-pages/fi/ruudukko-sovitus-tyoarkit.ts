@@ -17,16 +17,16 @@ export const gridMatchFiContent: ProductPageContent = {
   seo: {
     slug: 'ruudukko-sovitus-tyoarkit',
     appId: 'grid-match',
-    title: 'Ruudukkosovitus Tehtävät | Tulostettavat Työarkit',
-    description: 'Luo ammattimaisia ruudukon sovitustehtäviä visuaalisen havainnon ja ongelmanratkaisun kehittämiseen. Ruudukko Sovitus -työkalu tuottaa tehtäviä, joissa lapset.',
-    keywords: 'tulostettavat tehtävät lapsille ilmainen, ruudukkotehtävät, esiopetus materiaali, visuaalinen havainnointi, avaruudellinen päättely, matematiikka tehtävät alakoulu, hienomotoriikka harjoitukset',
+    title: 'Ilmainen Ruudukkosovitus Generaattori | LessonCraftStudio',
+    description: 'Luo tulostettavia ruudukkosovitustehtäviä visuaalisen hahmotuksen ja avaruudellisen päättelyn kehittämiseen. 50 teemaa esikoulusta 3. luokalle. Ilmainen PDF.',
+    keywords: 'ruudukkosovitus tehtävät, visuaalinen palapeli lapsille, avaruudellinen päättely, kuvioiden sovitus, ruudukkotehtävät tulostettava, hahmottaminen harjoitus, visuaalinen logiikka lapsille, sovitusharjoitukset esikoulu, ruudukko palapeli, avaruudellinen hahmottaminen',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/ruudukko-sovitus-tyoarkit',
   },
 
   // Hero Section - FULL text from Finnish grid-match.md
   hero: {
-    title: 'Ruudukko Sovitus -tehtävät',
-    subtitle: 'Tulostettavat Tehtävät Lapsille Ilmainen - Visuaalinen Palapelityökalu Esiopetus Materiaali',
+    title: 'Ruudukkosovitus Tehtävien Generaattori',
+    subtitle: 'Visuaalisen Hahmotuksen ja Avaruudellisen Päättelyn Harjoituksia',
     description: `Luo ammattimaisia ruudukon sovitustehtäviä visuaalisen havainnon ja ongelmanratkaisun kehittämiseen. Ruudukko Sovitus -työkalu tuottaa tehtäviä, joissa lapset sovittavat puuttuvia kuvapaloja ruudukkoon. Täydellinen esiopetuksen ja alakoulun oppilaille. Täysi Käyttöoikeus -tilaus antaa rajattoman tehtävien luonnin ilman maksua per tehtävä.
 
 Lataa valmiit tehtävät PDF- tai JPEG-muodossa alle 3 minuutissa. Ruudukko Sovitus kehittää visuaalista havainnointikykyä, avaruudellista päättelyä ja keskittymiskykyä lapsilla. Tilaus sisältää kaikki 33 työkalutyyppiä, kaupallisen lisenssin ja 11 kielen tuen. Säästä tunteja aikaa joka viikko luomalla mukautettuja tehtäviä nopeasti.

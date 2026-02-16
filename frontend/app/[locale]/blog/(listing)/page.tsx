@@ -77,7 +77,7 @@ export async function generateMetadata({ params, searchParams }: BlogPageProps):
       description: 'Oppdag 100+ ekspertartikler om undervisningsstrategier, arbeidsarkdesign og gratis utdanningsressurser. Guider for l\u00e6rere og foreldre.'
     },
     fi: {
-      title: 'Opetusmateriaalit & Ty\u00f6arkkivinkit Blogi | 100+ Asiantuntija-artikkelia | LessonCraftStudio',
+      title: 'Opetusmateriaalit ja Ty\u00f6arkkivinkit | LessonCraftStudio',
       description: 'L\u00f6yd\u00e4 100+ asiantuntija-artikkelia opetusstrategioista, ty\u00f6arkkien suunnittelusta ja ilmaisista koulutusresursseista. Oppaita opettajille ja vanhemmille.'
     }
   };

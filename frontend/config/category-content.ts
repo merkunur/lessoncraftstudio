@@ -396,7 +396,7 @@ export const categoryContent: Record<CategorySlug, Record<string, CategoryConten
       ],
     },
     fi: {
-      title: 'Ilmaiset matikkateht\u00e4v\u00e4t \u2014 luo ja tulosta',
+      title: 'Ilmaiset Matikkateht\u00e4v\u00e4t Lapsille \u2014 Luo ja Tulosta PDF',
       description: 'Luo tulostettavia matikkateht\u00e4vi\u00e4 esikoulusta kolmannelle luokalle. Yhteenlasku, v\u00e4hennyslasku, lukupulmat ja laskuharjoitukset \u2014 valmiina sekunneissa.',
       keywords: 'matikkateht\u00e4v\u00e4t, laskuteht\u00e4v\u00e4t tulostettavat, yhteenlaskuharjoitukset, v\u00e4hennyslaskuharjoitukset, matikkapulmat lapsille, laskuharjoitukset, p\u00e4\u00e4laskenta, matikka-generaattori ilmainen, matematiikka alkuopetus, lukuk\u00e4sitteen kehitt\u00e4minen',
       heading: 'Matikkateht\u00e4v\u00e4generaattorit',
@@ -739,8 +739,8 @@ export const categoryContent: Record<CategorySlug, Record<string, CategoryConten
       ],
     },
     fi: {
-      title: 'Kieliteht\u00e4v\u00e4t lapsille \u2014 ilmaiset ty\u00f6sivut',
-      description: 'Luo tulostettavia kieliteht\u00e4vi\u00e4: aakkoset, sanapulmat, prepositiot ja kirjoitusharjoitukset. Esikoulusta kolmannelle luokalle \u2014 valmiina sekunneissa.',
+      title: 'Ilmaiset Kieliteht\u00e4v\u00e4t Lapsille \u2014 Luo ja Tulosta PDF',
+      description: 'Luo tulostettavia kieliteht\u00e4vi\u00e4 lapsille: aakkoset, sanapulmat, prepositiot ja kirjoitusharjoitukset. Esikoulusta kolmannelle luokalle \u2014 valmiina sekunneissa.',
       keywords: 'kieliteht\u00e4v\u00e4t, aakkoset harjoitukset, kirjoitusharjoitukset lapsille, sanapulma tulostettava, prepositiot harjoittelu, kirjainten tunnistaminen, sanavaraston kartuttaminen, k\u00e4sialaharjoitukset ilmainen, suomi alkuopetus, lukemaan ja kirjoittamaan oppiminen',
       heading: 'Kieliteht\u00e4v\u00e4generaattorit',
       name: 'Kieli & Kirjoitus',
@@ -1082,8 +1082,8 @@ export const categoryContent: Record<CategorySlug, Record<string, CategoryConten
       ],
     },
     fi: {
-      title: 'Sanapelit lapsille \u2014 tulostettavat pulmat',
-      description: 'Luo tulostettavia sanapelit\u00e4: sanahaku, kuvaristikot, sana-arvaukset ja kuvakryptogrammit. Ilmaisia ja valmiina sekunneissa.',
+      title: 'Tulostettavat Sanapelit ja Sanapulmat Lapsille \u2014 PDF',
+      description: 'Luo tulostettavia sanapelej\u00e4 lapsille: sanahaku, kuvaristikot, sana-arvaukset ja kuvakryptogrammit. Esikoulusta 3. luokalle \u2014 ilmaisia ja valmiina sekunneissa.',
       keywords: 'sanapelit lapsille, sanahaku generaattori, ristikko lapsille tulostaa, sana-arvaus, kryptogrammi lapsille, sanavarastopelit tulostettavat, sanapulmat, oikeinkirjoituspelit ilmainen, sanahaku luoja, opettavaiset sanapelit',
       heading: 'Sanapeli- ja pulmageneraattorit',
       name: 'Sanapelit',
@@ -1425,7 +1425,7 @@ export const categoryContent: Record<CategorySlug, Record<string, CategoryConten
       ],
     },
     fi: {
-      title: 'V\u00e4rityssivut & piirustusteht\u00e4v\u00e4t lapsille',
+      title: 'V\u00e4rityssivut ja Piirustusteht\u00e4v\u00e4t Lapsille \u2014 Ilmaiseksi',
       description: 'Luo tulostettavia v\u00e4rityssivuja ja ohjattuja piirustusteht\u00e4vi\u00e4 lapsille. Teemakuvituksia ja luovia aktiviteetteja \u2014 ilmaiseksi ja sekunneissa valmiina.',
       keywords: 'v\u00e4rityssivut lapsille, v\u00e4rituskuva tulostaa, piirustusteht\u00e4v\u00e4t lapsille, luovat aktiviteetit esikoulu, v\u00e4rityssivugeneraattori, piirr\u00e4 ja v\u00e4rit\u00e4 ty\u00f6sivut, taideteht\u00e4v\u00e4t ilmainen, v\u00e4ritettav\u00e4 tulostettava, ohjattu piirtaminen lapsille, hienomotoriikka taide',
       heading: 'Luovat generaattorit',
@@ -1768,7 +1768,7 @@ export const categoryContent: Record<CategorySlug, Record<string, CategoryConten
       ],
     },
     fi: {
-      title: 'Logiikkapulmat & aivop\u00e4hkin\u00e4t lapsille',
+      title: 'Logiikkapulmat ja Aivop\u00e4hkin\u00e4t Lapsille \u2014 Ilmaiset PDF',
       description: 'Luo tulostettavia logiikkapulmia: sudoku, mik\u00e4 ei kuulu joukkoon, kuvapolut ja aarteenetsinn\u00e4t. Kehit\u00e4 kriittist\u00e4 ajattelua \u2014 ilmaiseksi ja sekunneissa.',
       keywords: 'logiikkapulmat lapsille, aivop\u00e4hkin\u00e4t tulostettavat, sudoku lapsille, mik\u00e4 ei kuulu joukkoon teht\u00e4v\u00e4t, kriittinen ajattelu aktiviteetit, ongelmanratkaisu teht\u00e4v\u00e4t, kuvapolku pulma, aarteenetsint\u00e4 tulostettava, looginen p\u00e4\u00e4ttely lapset, ajattelutaidot teht\u00e4v\u00e4t',
       heading: 'Logiikkapulma- ja aivop\u00e4hkin\u00e4generaattorit',
@@ -2111,7 +2111,7 @@ export const categoryContent: Record<CategorySlug, Record<string, CategoryConten
       ],
     },
     fi: {
-      title: 'Visuaalinen hahmottaminen \u2014 teht\u00e4v\u00e4t lapsille',
+      title: 'Visuaalisen Hahmottamisen Teht\u00e4v\u00e4t Lapsille \u2014 Ilmainen PDF',
       description: 'Luo tulostettavia visuaalisen hahmottamisen teht\u00e4vi\u00e4: etsi ja laske, piilotetut esineet ja puuttuvat palaset. Ter\u00e4v\u00f6it\u00e4 havainnointikyky\u00e4 \u2014 ilmaiseksi.',
       keywords: 'visuaalinen hahmottaminen teht\u00e4v\u00e4t, etsi ja laske, piilotetut esineet tulostettavat, puuttuvat palat pulma lapsille, havainnointikyky harjoitukset, visuaalinen erottelu, etsi erot tulostettava, laskeminen kuvilla, visuaalinen tarkkaavaisuus, havaintotaidot lapset',
       heading: 'Visuaalisen hahmottamisen generaattorit',
@@ -2304,8 +2304,8 @@ export const categoryContent: Record<CategorySlug, Record<string, CategoryConten
       ],
     },
     fi: {
-      title: 'Yhdist\u00e4mis- ja lajitteluteht\u00e4v\u00e4t \u2014 Ilmaiset',
-      description: 'Ilmaisia yhdist\u00e4mis- ja lajitteluteht\u00e4vi\u00e4 lapsille. Luokittelu, vertailu ja visuaalinen erottelu esikoulusta kolmanteen luokkaan.',
+      title: 'Yhdist\u00e4mis- ja Lajitteluteht\u00e4v\u00e4t Lapsille \u2014 Ilmaiset PDF',
+      description: 'Ilmaisia tulostettavia yhdist\u00e4mis- ja lajitteluteht\u00e4vi\u00e4 lapsille. Luokittelu, vertailu ja visuaalinen erottelu esikoulusta kolmanteen luokkaan. Lataa PDF heti.',
       keywords: 'yhdist\u00e4misteht\u00e4v\u00e4t, lajitteluteht\u00e4v\u00e4t, luokittelu ty\u00f6sivut, vertailu ja j\u00e4rjest\u00e4minen, visuaalinen erottelu, yhdist\u00e4mispelit lapsille, lajitteluharjoitukset, esikoulu yhdist\u00e4minen, kuvien lajittelu, kokovertailu',
       heading: 'Yhdist\u00e4mis- ja lajitteluty\u00f6sivujen generaattorit',
       name: 'Yhdist\u00e4minen ja lajittelu',
@@ -2482,8 +2482,8 @@ export const categoryContent: Record<CategorySlug, Record<string, CategoryConten
       ],
     },
     fi: {
-      title: 'Kuvio- ja hienomotoriikkateht\u00e4v\u00e4t \u2014 Ilmaiset',
-      description: 'Luo ilmaisia kuvionhahmotus- ja hienomotoriikkaty\u00f6sivuja lapsille. J\u00e4ljent\u00e4minen, sarjat ja silm\u00e4-k\u00e4si-koordinaatio esikoulusta kolmannelle luokalle.',
+      title: 'Kuvio- ja Hienomotoriikkateht\u00e4v\u00e4t Lapsille \u2014 Ilmaiset PDF',
+      description: 'Luo tulostettavia kuvionhahmotus- ja hienomotoriikkaty\u00f6sivuja lapsille. J\u00e4ljent\u00e4minen, sarjat ja silm\u00e4-k\u00e4si-koordinaatio esikoulusta kolmannelle luokalle.',
       keywords: 'kuvioteht\u00e4v\u00e4t, hienomotoriikka harjoitukset, j\u00e4ljent\u00e4misharjoitukset, silm\u00e4-k\u00e4si-koordinaatio, kuvionhahmotus, sarjat harjoittelu lapset, esikoulu j\u00e4ljent\u00e4minen, viivojen piirt\u00e4minen ty\u00f6sivu, kuvioiden t\u00e4ydent\u00e4minen, kuvabingo lapsille',
       heading: 'Kuvio- ja hienomotoriikkaty\u00f6sivujen generaattorit',
       name: 'Kuviot ja hienomotoriikka',

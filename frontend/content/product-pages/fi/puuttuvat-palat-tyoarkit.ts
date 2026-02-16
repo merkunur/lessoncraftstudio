@@ -17,16 +17,16 @@ export const missingPiecesFiContent: ProductPageContent = {
   seo: {
     slug: 'puuttuvat-palat-tyoarkit',
     appId: 'missing-pieces',
-    title: 'Puuttuvan Palan Tehtävät - Tulostettavat Tehtävät Lapsille Ilmainen -',
-    description: 'Luo ammattimaisia puuttuvan palan tehtäviä ilmaisella generoinnilla Täysi Käyttöoikeus -tilauksellasi. Puuttuvan palan tehtävät kehittävät visuaalista.',
-    keywords: 'puuttuvan palan tehtävät, tulostettavat tehtävät lapsille ilmainen, esiopetus materiaali ilmainen, visuaalinen hahmottaminen, ongelmanratkaisu, hienomotoriikka harjoitukset',
+    title: 'Puuttuvat Palat Generaattori — Ilmainen | LessonCraftStudio',
+    description: 'Luo tulostettavia puuttuvat palat -tehtäviä visuaalisen hahmotuksen harjoitteluun. Etsi puuttuva kuva kuviosta. Esikoulusta 2. luokalle. Ilmainen PDF.',
+    keywords: 'puuttuvat palat tehtävät, palapeli tehtävä lapsille, puuttuva osa harjoitus, visuaalinen päättely, kuvapalapeli tulostettava, hahmontunnistus harjoitus, puuttuva kuva tehtävä, visuaalinen looginen ajattelu, palapeliharjoitukset esikoulu, hahmotustaidot lapsille',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/puuttuvat-palat-tyoarkit',
   },
 
   // Hero Section - FULL text from Finnish missing-pieces.md
   hero: {
-    title: 'Puuttuvat Palat',
-    subtitle: 'Tulostettavat Tehtävät Lapsille Ilmainen - Esiopetus Materiaali Ilmainen',
+    title: 'Puuttuvat Palat Tehtävien Generaattori',
+    subtitle: 'Visuaalisen Hahmotuksen Harjoituksia Kuvapalapeleillä',
     description: `Luo ammattimaisia puuttuvan palan tehtäviä ilmaisella generoinnilla Täysi Käyttöoikeus -tilauksellasi. Puuttuvan palan tehtävät kehittävät visuaalista hahmottamista ja ongelmanratkaisua. Lapset tunnistavat puuttuvan palan kuvasta ja valitsevat oikean vaihtoehdon. Lataa tulostettavat tehtävät lapsille PDF- tai JPEG-muodossa alle kolmessa minuutissa.
 
 Puuttuvan palan tehtävät sopivat esiopetukseen ja alakoulun ala-asteelle. Voit luoda tehtäviä millä tahansa aiheella. Valitse kuva yli 3000 kuvasta tai lataa omat kuvasi. Säädä vaikeustasoa 1-5 puuttuvalla palalla ja 2-6 vastausvaihtoehdolla. Jokainen tehtävä sisältää vastausavaimen.

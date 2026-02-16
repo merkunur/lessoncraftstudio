@@ -22,16 +22,16 @@ export const mathPuzzleFiContent: ProductPageContent = {
   seo: {
     slug: 'matematiikkapulmat-tyoarkit',
     appId: 'math-puzzle',
-    title: 'Matematiikkapulmat Lapsille - Tulostettavat Tehtävät Ilmainen',
-    description: 'Luo ammattimaisia matematiikkapulmia yhteenlaskun ja vähennyslaskun harjoitteluun. Täysi Käyttöoikeus -tilauksesi antaa rajattoman tehtävien luomisen.',
-    keywords: 'matematiikkapulmat, tulostettavat tehtävät lapsille ilmainen, matematiikka tehtävät alakoulu, yhteenlasku ja vähennyslasku tehtävät, esiopetus materiaali ilmainen',
+    title: 'Matematiikkapulma Generaattori | LessonCraftStudio',
+    description: 'Luo tulostettavia matematiikkapulmia yhteenlaskun ja vähennyslaskun harjoitteluun. Ongelmanratkaisutaitoja kehittävät pulmat esikoulusta 3. luokalle.',
+    keywords: 'matematiikkapulmat lapsille, matemaattiset ongelmanratkaisut, matikkapulma tulostettava, laskupulmat esikoulu, matemaattinen ajattelu, logiikkapulmat matematiikka, matematiikka pulmatehtävät, laskupulma vastausavain, ongelmanratkaisu matematiikka, matikkapulmat alakoulu',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/matematiikkapulmat-tyoarkit',
   },
 
   // Hero Section - FULL text from Finnish math-puzzle.md
   hero: {
-    title: 'Matematiikkapulmat Lapsille',
-    subtitle: 'Tulostettavat Tehtävät Lapsille Ilmainen - Yhteenlasku ja Vähennyslasku Tehtävät',
+    title: 'Matematiikkapulma Generaattori',
+    subtitle: 'Kehitä Ongelmanratkaisutaitoja Matemaattisilla Pulmilla',
     description: `Luo ammattimaisia matemaattisia pulmatehtäviä yhteenlaskun ja vähennyslaskun harjoitteluun. Täysi Käyttöoikeus -tilauksesi (240 € vuodessa tai 25 € kuukaudessa) antaa rajattoman määrän tehtävien luomista ilman tehtäväkohtaisia maksuja. Generoi mukautettavia tulostettavia matematiikka tehtäviä alakoululaisille. Lataa korkealaatuiset PDF-tiedostot alle 3 minuutissa.
 
 Matematiikkapulmat yhdistävät laskutehtävät visuaaliseen oppimiseen. Oppilaasi ratkaisevat yhteenlasku- ja vähennyslaskutehtäviä etsimällä oikeita lukuarvoja kuville. Jokaisessa pulmassa on 2×2 - 4×4 ruudukko. Kukin ruutu sisältää kuvan ja matemaattisen yhtälön. Oppilaat laskevat vastauksen ja yhdistävät sen oikeaan kuvaan.

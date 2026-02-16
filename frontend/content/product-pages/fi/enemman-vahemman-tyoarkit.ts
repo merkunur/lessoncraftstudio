@@ -15,16 +15,16 @@ export const moreLessFiContent: ProductPageContent = {
   seo: {
     slug: 'enemman-vahemman-tyoarkit',
     appId: 'more-less',
-    title: 'Matematiikka Tehtävät Alakoulu - Tulostettavat Tehtävät Lapsille',
-    description: 'Luo ammattimaisia vertailutehtäviä lukujen ja määrien vertailuun. Täysi Käyttöoikeus -tilauksella saat rajattomasti tehtäviä ilman yksittäisiä maksuja per.',
-    keywords: 'matematiikka tehtävät alakoulu, tulostettavat tehtävät lapsille ilmainen, esiopetus materiaali ilmainen, vertailutehtävät, enemmän vähemmän, suurempi pienempi, lukujen vertailu',
+    title: 'Enemmän–Vähemmän Generaattori | LessonCraftStudio',
+    description: 'Luo tulostettavia enemmän ja vähemmän -vertailutehtäviä kuvilla. Kehittää lukumäärien vertailua ja matemaattista ajattelua. Esikoulusta 2. luokalle.',
+    keywords: 'enemmän vähemmän tehtävät, lukumäärien vertailu, suurempi pienempi harjoitus, vertailutehtävät esikoulu, määrien vertailu kuvilla, lukujen vertailu lapsille, enemmän vai vähemmän, matemaattinen vertailu, lukumäärän arviointi, vertailutaidot esikoulu',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/enemman-vahemman-tyoarkit',
   },
 
   // Hero Section - FULL text from Finnish more-less.md
   hero: {
-    title: 'Enemmän vai Vähemmän Tehtävät',
-    subtitle: 'Matematiikka Tehtävät Alakoulu - Tulostettavat Tehtävät Lapsille Ilmainen',
+    title: 'Enemmän vai Vähemmän Generaattori',
+    subtitle: 'Lukumäärien Vertailua Kuvilla Esikoulusta 2. Luokalle',
     description: `Luo ammattimaisia vertailutehtäviä lukujen ja määrien vertailuun. Täysi Käyttöoikeus -tilauksella saat rajattomasti tehtäviä ilman yksittäisiä maksuja per tehtävä. Generoi tulostettavia matematiikkatehtäviä, jotka sopivat täydellisesti esiopetukseen ja alakoulun ensimmäisille luokille. Lataa laadukkaat PDF-tehtävät alle 3 minuutissa.
 
 Lukujen vertailu on perustavanlaatuinen matemaattinen taito. Lapset oppivat ymmärtämään suurempi, pienempi ja yhtä suuri -käsitteet. Tehtävägeneraattorimme tekee vertailutehtävien luomisesta helppoa. Valitse kuvat tai teemat, aseta asetukset, ja tehtävä on valmis. Jokainen tehtävä sisältää visuaalisia elementtejä, jotka auttavat lapsia hahmottamaan määriä.

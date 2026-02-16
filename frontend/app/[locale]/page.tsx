@@ -79,8 +79,8 @@ const homepageMetadata: Record<string, { title: string; description: string; key
     ogAlt: 'LessonCraftStudio - Profesjonelle arbeidsark-generatorer'
   },
   fi: {
-    title: 'Ilmaiset Työarkki-Generaattorit | LessonCraftStudio',
-    description: 'Luo työarkkeja 33 generaattorilla ja 3 000+ kuvalla. Matematiikka, väritys, sanaristikot & pulmat. Lataa PDF heti. Ilmainen, ei rekisteröintiä.',
+    title: 'Ilmaiset Työarkki-Generaattorit Lapsille | LessonCraftStudio',
+    description: 'Luo työarkkeja lapsille 33 generaattorilla ja 3 000+ kuvalla. Matematiikka, väritys, sanaristikot ja pulmat. Lataa PDF heti — ilmainen, ei rekisteröintiä.',
     keywords: 'tulostettavat tehtävät lapsille ilmainen, esiopetus materiaali, matematiikka tehtävät alakoulu, värityskuvia lapsille, kertotaulut, hienomotoriikka harjoitukset, kirjaimet harjoittelu, yhteenlasku vähennyslasku, lukemaan oppiminen, työarkki generaattorit',
     ogAlt: 'LessonCraftStudio - Ammattimaiset ty\u00f6arkki-generaattorit'
   }

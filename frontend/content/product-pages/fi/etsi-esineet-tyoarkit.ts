@@ -17,16 +17,16 @@ export const findObjectsFiContent: ProductPageContent = {
   seo: {
     slug: 'etsi-esineet-tyoarkit',
     appId: 'find-objects',
-    title: 'Etsi Esineet Tehtävät Lapsille | Tulostettavat Työarkit',
-    description: 'Luo ammattimaisia etsintätehtäviä Find Objects -työkalumallamme. Täysi Pääsy -tilauksesi antaa sinulle rajoittamattoman tehtävien luomisen ilman maksua.',
-    keywords: 'tulostettavat tehtävät lapsille ilmainen, etsi kätketyt esineet, esiopetus materiaali ilmainen, hienomotoriikka harjoitukset, visuaalinen havainnointi, matematiikka tehtävät alakoulu',
+    title: 'Etsi Esineet Generaattori — Ilmainen | LessonCraftStudio',
+    description: 'Luo tulostettavia etsintätehtäviä lapsille. Etsi piilotetut esineet kuvista ja kehitä visuaalista havainnointia. 50 teemaa esikoulusta 3. luokalle.',
+    keywords: 'etsi esineet tehtävät, piilokuva tulostettava, visuaalinen etsintä lapsille, etsi piilotetut esineet, tarkkaavaisuus harjoitus, visuaalinen havainnointi esikoulu, etsi ja löydä tehtävä, piilokuvaharjoitukset, etsintäpeli tulostettava, visuaalinen tarkkaavaisuus',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/etsi-esineet-tyoarkit',
   },
 
   // Hero Section - FULL text from Finnish find-objects.md
   hero: {
-    title: 'Etsi Esineet -tehtävät',
-    subtitle: 'Tulostettavat Tehtävät Lapsille Ilmainen - Etsi Kätketyt Esineet Esiopetus Materiaali Ilmainen',
+    title: 'Etsi Esineet Tehtävien Generaattori',
+    subtitle: 'Visuaalisen Havainnoinnin Harjoituksia 50 Teemalla',
     description: `Luo ammattimaisia etsintätehtäviä Find Objects -työkalumallamme. Täysi Pääsy -tilauksesi antaa sinulle rajoittamattoman tehtävien luomisen ilman maksua tehtävää kohden. Generoi mukautettuja tulostettavia tehtäviä lapsille, jotka sopivat täydellisesti esiopetukseen ja alakoulun oppilaille. Lataa korkealaatuiset PDF-tehtävät alle 3 minuutissa.
 
 Find Objects -generaattorimme luo kaksi erityyppistä visuaalista havainnointi tehtävää. I Spy -tilassa lapset etsivät 1-5 kätkettyä esinettä 8-12 häiritsevan kuvan joukosta. Odd One Out -tilassa lapset löytävät parittomat kuvat 8-12 kuvaparrin joukosta. Molemmat toiminnot kehittävät visuaalista havainnointia ja tarkkaavaisuustaitoja.

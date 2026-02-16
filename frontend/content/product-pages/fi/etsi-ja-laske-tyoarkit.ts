@@ -15,16 +15,16 @@ export const findAndCountFiContent: ProductPageContent = {
   seo: {
     slug: 'etsi-ja-laske-tyoarkit',
     appId: 'find-and-count',
-    title: 'Etsi ja Laske -tehtävät Generaattori | Tulostettavat Tehtävät',
-    description: 'Luo ammattimaisia etsi ja laske -tehtäviä muutamassa minuutissa. Peruspaketti-tilauksesi antaa rajattoman tehtävien luomisen ilman tehtäväkohtaisia maksuja.',
-    keywords: 'etsi ja laske tehtävät, tulostettavat tehtävät lapsille ilmainen, matematiikka tehtävät alakoulu, esiopetus materiaali ilmainen, hienomotoriikka harjoitukset, visuaalinen havainnointi',
+    title: 'Etsi ja Laske Generaattori — Ilmainen | LessonCraftStudio',
+    description: 'Luo tulostettavia etsi ja laske -tehtäviä lapsille. Kehitä laskemistaitoja ja visuaalista havainnointia kuvilla. Esikoulusta 3. luokalle. Ilmainen PDF.',
+    keywords: 'etsi ja laske generaattori, etsi ja laske tehtävät, laskemisharjoitukset esikoulu, visuaalinen laskeminen, lukumäärän tunnistus, etsi ja laske tulostettava, laskemistaidot lapsille, laskemisharjoitus kuvilla, lukuharjoitukset esikoulu, matikka etsintätehtävä',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/etsi-ja-laske-tyoarkit',
   },
 
   // Hero Section - FULL text from Finnish find-and-count.md
   hero: {
-    title: 'Etsi ja Laske -tehtävät',
-    subtitle: 'Tulostettavat Tehtävät Lapsille Ilmainen - Matematiikka Tehtävät Alakoulu',
+    title: 'Etsi ja Laske Tehtävien Generaattori',
+    subtitle: 'Kehitä Laskemistaitoja Hauskalla Etsintätehtävällä',
     description: `Luo ammattimaisia etsi ja laske -tehtäviä muutamassa minuutissa. Peruspaketti-tilauksesi antaa rajattoman tehtävien luomisen ilman tehtäväkohtaisia maksuja. Generoi tulostettavia etsi ja laske -tehtäviä täydellisiä esiopetukseen ja alakouluun. Lataa laadukkaat PDF-tehtävät alle kolmessa minuutissa.
 
 Etsi ja laske -tehtävät kehittävät laskutaitoja ja visuaalista havainnointia. Lapset etsivät ja laskevat tiettyjä kuvia ruudukosta. Tehtävät sopivat esiopetukseen ja alakoulun alimpiin luokkiin. Voit muokata jokaista elementtiä tehtävässä.

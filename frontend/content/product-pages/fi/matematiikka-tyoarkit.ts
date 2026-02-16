@@ -15,16 +15,16 @@ export const mathWorksheetsFiContent: ProductPageContent = {
   seo: {
     slug: 'matematiikka-tyoarkit',
     appId: 'math-worksheet',
-    title: 'Matematiikka Tehtävät Alakoulu Generaattori | Ilmaiset Tehtävät',
-    description: 'Luo ammattimaisia visuaalisia matematiikkatehtäviä minuuteissa. Peruspaketti-tilauksesi antaa sinulle rajattoman matematiikkatehtävien luonnin ilman maksuja.',
-    keywords: 'matematiikka tehtävät alakoulu, tulostettavat tehtävät lapsille ilmainen, esiopetus materiaali ilmainen, yhteenlasku ja vähennyslasku tehtävät, hienomotoriikka harjoitukset',
+    title: 'Matematiikkatehtävä Generaattori | LessonCraftStudio',
+    description: 'Luo visuaalisia matematiikkatehtäviä kuvilla. Yhteenlasku, vähennyslasku, vertailu ja lukujonot esikoulusta 3. luokalle. Vastausavaimet mukana. Ilmainen PDF.',
+    keywords: 'matematiikkatehtävä generaattori, matematiikka tehtävät alakoulu, matikka tehtävät tulostettava, matematiikka monisteet, matikkaharjoitukset esikoulu, visuaaliset matematiikkatehtävät, laskutehtävät lapsille, matematiikka vastausavain, matikka tulostettava ilmainen, matematiikka harjoitustehtävät',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/matematiikka-tyoarkit',
   },
 
   // Hero Section - FULL text from Finnish math-worksheet.md
   hero: {
-    title: 'Matematiikka Tehtävät Alakoulu',
-    subtitle: 'Tulostettavat Tehtävät Lapsille Ilmainen Yhteenlasku ja Vähennyslasku',
+    title: 'Matematiikkatehtävien Generaattori',
+    subtitle: 'Visuaalisia Matematiikkaharjoituksia Esikoulusta 3. Luokalle',
     description: `Luo ammattimaisia visuaalisia matematiikkatehtäviä minuuteissa. Peruspaketti-tilauksesi antaa sinulle rajattoman matematiikkatehtävien luonnin ilman maksuja per tehtävä. Generoi tulostettavia matematiikkatehtäviä jotka sopivat täydellisesti esiopetuksen ja alakoulun oppilaille. Lataa korkealaatuiset PDF-tehtävät alle kolmessa minuutissa.
 
 Visuaaliset matematiikkatehtävät auttavat lapsia oppimaan yhteenlaskua ja vähennyslaskua kuvien avulla. Jokainen tehtävä käyttää kuvia numeroiden esittämiseen. Lapset laskevat kuvia ja ratkaisevat matemaattisia ongelmia. Tämä visualisoinnin menetelmä tekee abstraktista matematiikasta konkreettista ja ymmärrettävää.

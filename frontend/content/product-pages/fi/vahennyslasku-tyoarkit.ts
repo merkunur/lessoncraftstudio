@@ -17,16 +17,16 @@ export const subtractionFiContent: ProductPageContent = {
   seo: {
     slug: 'vahennyslasku-tyoarkit',
     appId: 'subtraction',
-    title: 'Vähennyslasku Tehtävät Alakoulu | Tulostettavat Tehtävät Lapsille',
-    description: 'Luo ammattitason vähennyslasku tehtäviä kuva-aineiston avulla. Täysi Käyttöoikeus -tilauksesi mahdollistaa rajattoman tehtävien luomisen ilman yksittäisiä.',
-    keywords: 'vähennyslasku tehtävät, matematiikka tehtävät alakoulu, esiopetus materiaali ilmainen, tulostettavat tehtävät lapsille ilmainen, yhteenlasku ja vähennyslasku tehtävät, hienomotoriikka harjoitukset',
+    title: 'Ilmainen Vähennyslasku Generaattori | LessonCraftStudio',
+    description: 'Luo tulostettavia vähennyslaskutehtäviä kuvilla esikoulusta 3. luokalle. Muokattavat lukualueet, vastausavaimet ja visuaaliset apuvälineet. Ilmainen PDF.',
+    keywords: 'vähennyslasku tehtävät, vähennyslaskuharjoitukset, miinuslasku tulostettava, vähennyslasku kuvilla, matematiikka vähennyslasku, vähennyslasku 1. luokka, vähennyslaskut esikoulu, miinuslasku harjoitus, vähennyslasku vastausavain, perusvähennyslasku',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/vahennyslasku-tyoarkit',
   },
 
   // Hero Section - FULL text from Finnish subtraction.md
   hero: {
-    title: 'Vähennyslasku Tehtävät',
-    subtitle: 'Tulostettavat Matematiikka Tehtävät Alakoulu ja Esiopetus',
+    title: 'Vähennyslaskutehtävien Generaattori',
+    subtitle: 'Visuaalisia Vähennyslaskuharjoituksia Kuvilla',
     description: `Luo ammattitason vähennyslasku tehtäviä kuva-aineiston avulla. Täysi Käyttöoikeus -tilauksesi mahdollistaa rajattoman tehtävien luomisen ilman yksittäisiä maksuja per tehtävä. Generoi tulostettavia vähennyslasku tehtäviä jotka sopivat täydellisesti alakoulun ja esiopetuksen oppilaille. Lataa laadukkaat PDF-tehtävät alle kolmessa minuutissa.
 
 Vähennyslasku generaattorimme käyttää kuvapohjaista lähestymistapaa joka tekee matemaattisista käsitteistä konkreettisia lapsille. Oppilaiden on helpompi ymmärtää vähennyslaskun käsite kun he näkevät kuvia esineitä. Generaattori luo automaattisesti vastausavaimet jotka säästävät opettajien aikaa. Täysi Käyttöoikeus -tilaus sisältää kaupallisen lisenssin ja pääsyn kaikkiin 33 tehtävägeneraattoriin.

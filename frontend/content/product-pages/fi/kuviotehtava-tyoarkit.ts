@@ -17,16 +17,16 @@ export const patternWorksheetFiContent: ProductPageContent = {
   seo: {
     slug: 'kuviotehtava-tyoarkit',
     appId: 'pattern-worksheet',
-    title: 'Kuviotehtävä - Tulostettavat Tehtävät Lapsille Ilmainen -',
-    description: 'Luo ammattimaisia kuviotehtävämonisteet kuviontunnistusjärjestelmällämme. Täysi Pääsy -tilauksesi antaa sinulle rajattoman tehtävien luomisen ilman.',
-    keywords: 'kuviotehtävä, tulostettavat tehtävät lapsille ilmainen, matematiikka tehtävät alakoulu, esiopetus materiaali ilmainen, kuviontunnistus, kuvioharjoitukset lapsille',
+    title: 'Kuviotehtävä Generaattori — Ilmainen | LessonCraftStudio',
+    description: 'Luo tulostettavia kuviotehtäviä kuvioiden tunnistamiseen ja jatkamiseen. Monipuoliset sarjat esikoulusta 3. luokalle. 50 teemaa. Lataa ilmainen PDF.',
+    keywords: 'kuviotehtävät tulostettava, kuvionsarjat lapsille, kuvioiden jatkaminen, kuviotunnistus harjoitus, matemaattiset kuviot, kuviosarjatehtävät, kuviomoniste, hahmottamistaidot esikoulu, kuvionhahmotus 1. luokka, kuviot ja sarjat',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/kuviotehtava-tyoarkit',
   },
 
   // Hero Section - FULL text from Finnish kuviotehtava.md
   hero: {
-    title: 'Kuviotehtävä',
-    subtitle: 'Tulostettavat Tehtävät Lapsille Ilmainen - Matematiikka Tehtävät Alakoulu ja Esiopetus Materiaali',
+    title: 'Kuviotehtävien Generaattori',
+    subtitle: 'Kuvioiden Tunnistaminen ja Jatkaminen 50 Teemalla',
     description: `Luo ammattimaisia kuviotehtävämonisteet kuviontunnistusjärjestelmällämme. Täysi Pääsy -tilauksesi antaa sinulle rajattoman tehtävien luomisen ilman tehtäväkohtaisia maksuja. Luo tulostettavia tehtäviä lapsille ilmainen, jotka sopivat täydellisesti esikoululaisille ja alakouluikäisille. Lataa korkealaatuisia PDF-tehtävämonisteitä alle kolmessa minuutissa.
 
 Kuviotehtävä on visuaalinen matematiikan työkalu, joka opettaa kuviontunnistusta yhdeksällä eri kuviotyypillä. Lapset harjoittelevat AB-, AAB-, ABB-, ABC-, AABB-, ABBC-, AABC-, ABCC- ja ABCD-kuvioita ammattimaisen tehtävämonisteen avulla. Tämä menetelmä yhdistää matematiikan oppimisen visuaaliseen ajatteluun ja loogiseen päättelyyn.

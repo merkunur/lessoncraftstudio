@@ -15,16 +15,16 @@ export const drawAndColorFiContent: ProductPageContent = {
   seo: {
     slug: 'ruudukkopiirustus-tyoarkit',
     appId: 'draw-and-color',
-    title: 'Ruudukkopiirustus Tehtävät | Värityskuvia Lapsille Tulostettava',
-    description: 'Luo ammattimaisia ruudukkopiirustustehtäviä värityskuvia lapsille tulostettava -generaattorillamme. Täysi Käyttöoikeus -tilauksesi antaa rajattoman tehtävien.',
-    keywords: 'ruudukkopiirustus tehtävät, värityskuvia lapsille tulostettava, tulostettavat tehtävät lapsille ilmainen, esiopetus materiaali ilmainen, hienomotoriikka harjoitukset, matematiikka tehtävät alakoulu',
+    title: 'Ruudukkopiirustus Generaattori — Ilmainen | LessonCraftStudio',
+    description: 'Luo tulostettavia ruudukkopiirustustehtäviä. Piirrä kuvioita ruutuihin mallin mukaan ja väritä. Kehittää visuaalista hahmotusta. Esikoulusta 3. luokalle.',
+    keywords: 'ruudukkopiirustus tehtävät, pikselipiirustus lapsille, ruudukopiirtäminen, ruutuvihko piirtäminen, visuaalinen hahmotus harjoitus, ruutupiirustus tulostettava, mallin kopiointi ruudukkoon, piirustus ruutuihin, koodattu piirtäminen, ruudukkotehtävät lapsille',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/ruudukkopiirustus-tyoarkit',
   },
 
   // Hero Section - FULL text from Finnish draw-and-color.md
   hero: {
-    title: 'Ruudukkopiirustus Tehtävät',
-    subtitle: 'Värityskuvia Lapsille Tulostettava - Esiopetus Materiaali Ilmainen',
+    title: 'Ruudukkopiirustus Generaattori',
+    subtitle: 'Piirrä ja Väritä Kuvioita Ruudukkoon Mallin Mukaan',
     description: `Luo ammattimaisia ruudukkopiirustustehtäviä värityskuvia lapsille tulostettava -generaattorillamme. Täysi Käyttöoikeus -tilauksesi antaa rajattoman tehtävien luomisen ilman per-tehtävä -maksuja. Generoi mukautettuja tulostettavat tehtävät lapsille ilmainen, jotka sopivat täydellisesti esiopetukseen ja alakouluun. Lataa korkealaatuisia PDF-tehtäviä alle 3 minuutissa.
 
 Ruudukkopiirustustehtävät yhdistävät taiteen, matematiikan ja hienomotoriikan kehittämisen yhdessä sitouttavassa aktiviteetissa. Oppilaat tarkastelevat vihjepikseleitä ja luovat piirustuksen uudelleen värittämällä vastaavat ruudut tyhjään ruudukkoon. Tämä opettaa ruudukkokoordinaatteja, hahmontunnistusta ja tarkkuutta.

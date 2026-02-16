@@ -19,16 +19,16 @@ export const sudokuFiContent: ProductPageContent = {
   seo: {
     slug: 'sudoku-tyoarkit',
     appId: 'sudoku',
-    title: 'Lasten Sudoku - Tulostettavat Tehtävät Lapsille Ilmainen',
-    description: 'Luo värikkäitä kuvasudokuja lapsille ammattimaisella tehtävägeneraattorillamme. Peruspaketti-tilauksesi antaa rajattoman mahdollisuuden luoda tulostettavia.',
-    keywords: 'lasten sudoku, tulostettavat tehtävät lapsille ilmainen, esiopetus materiaali ilmainen, kuvasudoku, sudoku lapsille, logiikkatehtävät lapsille',
+    title: 'Lasten Sudoku Generaattori — Ilmainen | LessonCraftStudio',
+    description: 'Luo tulostettavia kuvasudokuja lapsille. Helpot ja keskitason logiikkapelat esikoulusta 3. luokalle. Kuvat 3 000+ kirjastosta. Ilmainen PDF-lataus.',
+    keywords: 'kuvasudoku lapsille, sudoku tulostettava, lasten logiikkapelit, helppo sudoku lapsille, kuvasudoku tulostettava, sudoku esikoulu, logiikkaharjoitukset lapsille, sudoku ruudukko lapsille, ajattelutaitojen harjoittelu, sudoku alakoulu',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/sudoku-tyoarkit',
   },
 
   // Hero Section - FULL text from Finnish sudoku.md
   hero: {
-    title: 'Lasten Sudoku',
-    subtitle: 'Tulostettavat Tehtävät Lapsille Ilmainen - Esiopetus Materiaali',
+    title: 'Lasten Sudoku Generaattori',
+    subtitle: 'Tulostettavat Kuvasudokut Esikoulusta 3. Luokalle',
     description: `Luo värikkäitä kuvasudokuja lapsille ammattimaisella tehtävägeneraattorillamme. Peruspaketti-tilauksesi antaa rajattoman mahdollisuuden luoda tulostettavia tehtäviä lapsille. Ei tehtäväkohtaisia maksuja. Ei piilokuluja lainkaan. Sudoku-tehtävät sopivat täydellisesti esiopetukseen ja alakoulun 1-3 luokille. Lataa korkealaatuiset PDF-tehtävät alle kolmessa minuutissa. Jokainen tehtäväsivu sisältää automaattisesti luodun vastaussivun opettajalle.
 
 Lasten sudoku on hauska tapa opettaa loogista ajattelua. Generaattorimme luo 4×4-ruudukoita värikkäillä kuvilla numeroiden sijaan. Tämä tekee sudokuista houkuttelevia ja sopivia 5-9-vuotiaille lapsille. Valitse kolmesta vaikeustasosta oppilaidesi taitojen mukaan. Helppo taso sopii esiopetukseen neljällä tyhjällä ruudulla. Keskitaso sopii ensimmäiselle luokalle kuudella tyhjällä ruudulla. Vaikea taso haastaa toisen ja kolmannen luokan oppilaat kahdeksalla tyhjällä ruudulla. Jokainen vaikeustaso kehittää hahmottamista ja keskittymiskykyä. Peruspaketti-tilauksesi sisältää kaupallisen lisenssin.

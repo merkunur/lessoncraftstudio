@@ -17,16 +17,16 @@ export const pictureSortFiContent: ProductPageContent = {
   seo: {
     slug: 'kuvalajittelu-tyoarkit',
     appId: 'picture-sort',
-    title: 'Kuvalajittelu Tehtävät Lapsille | Tulostettavat Työarkit',
-    description: 'Luo ammattimaisia kuvalajittelutehtäviä helposti. Täysi Käyttöoikeus -tilaus antaa rajattoman tehtävien luonnin ilman tehtäväkohtaisia maksuja.',
-    keywords: 'tulostettavat tehtävät lapsille ilmainen, kuvalajittelu tehtävät, esiopetus materiaali ilmainen, hienomotoriikka harjoitukset, lajittelutehtävät, kategorisointi tehtävät',
+    title: 'Kuvalajittelu Generaattori — Ilmainen | LessonCraftStudio',
+    description: 'Luo tulostettavia kuvalajittelutehtäviä, joissa lapsi luokittelee kuvat kategorioihin. Kehittää luokittelutaitoja. Esikoulusta 2. luokalle. Ilmainen PDF.',
+    keywords: 'kuvalajittelu tehtävät, lajitteluharjoitukset lapsille, kategorisointi tehtävä, kuvien luokittelu, lajittelu esikoulu, ryhmittely harjoitus, kuvien kategorisointi, luokittelu tulostettava, lajittelutaidot lapsille, ryhmittely kuvilla',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/kuvalajittelu-tyoarkit',
   },
 
   // Hero Section - FULL text from Finnish picture-sort.md
   hero: {
-    title: 'Kuvalajittelu Tehtävät',
-    subtitle: 'Tulostettavat Tehtävät Lapsille Ilmainen Esiopetus Materiaali',
+    title: 'Kuvalajittelu Generaattori',
+    subtitle: 'Luokittelu- ja Lajitteluharjoituksia Kuvilla',
     description: `Luo ammattimaisia kuvalajittelutehtäviä helposti. Täysi Käyttöoikeus -tilauksesi antaa rajattoman tehtävien luonnin ilman tehtäväkohtaisia maksuja. Generoi mukautettavia tulostettavia tehtäviä lapsille ilmainen, jotka sopivat täydellisesti esiopetukseen ja alakouluun. Lataa korkealaatuisia PDF-tehtäviä alle 3 minuutissa.
 
 Kuvalajittelugeneraattori auttaa lapsia oppimaan luokittelua ja kategorisointia. Lapset lajittelevat kuvia kahteen ryhmään. Vasen ja oikea kategoria. Jokainen tehtävä harjoittaa kriittistä ajattelua ja visuaalista erottelukykyä.

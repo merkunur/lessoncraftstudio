@@ -15,16 +15,16 @@ export const matchingFiContent: ProductPageContent = {
   seo: {
     slug: 'yhdista-parit-tyoarkit',
     appId: 'matching',
-    title: 'Yhdistä Parit Tehtävät Generaattori | Tulostettavat Tehtävät Lapsille',
-    description: 'Luo ammattitasoisia yhdistä parit -tehtävämonisteet MatchUp Maker -työkalulla. Peruspaketti-tilauksellasi saat rajattoman määrän tehtävämonisteiden luomista.',
-    keywords: 'yhdistä parit tehtävät, tulostettavat tehtävät lapsille ilmainen, esiopetus materiaali ilmainen, kirjaimet harjoittelu esikoulu, lukemaan oppiminen tehtävät, hienomotoriikka harjoitukset',
+    title: 'Yhdistä Parit Generaattori — Ilmainen | LessonCraftStudio',
+    description: 'Luo tulostettavia yhdistä parit -tehtäviä kuvilla. Kehitä muistia ja hahmontunnistusta esikoulusta 3. luokalle. 50 teemaa. Lataa PDF ilmaiseksi.',
+    keywords: 'yhdistä parit generaattori, yhdistä parit tehtävät, yhdistämistehtävät lapsille, muistipeli tulostettava, parien yhdistäminen esikoulu, hahmontunnistus harjoitus, visuaalinen yhdistäminen, kuvien yhdistäminen tehtävä, pariharjoitus tulostettava, yhdistämistehtävät esikoulu',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/yhdista-parit-tyoarkit',
   },
 
   // Hero Section - FULL text from Finnish matching.md
   hero: {
-    title: 'Yhdistä Parit Tehtävät',
-    subtitle: 'Tulostettavat Tehtävät Lapsille Ilmainen Esiopetus Materiaali',
+    title: 'Yhdistä Parit Tehtävien Generaattori',
+    subtitle: 'Tulostettavat Yhdistämistehtävät 50 Teemalla',
     description: `Luo ammattitasoisia yhdistä parit -tehtävämonisteet MatchUp Maker -työkalulla. Peruspaketti-tilauksellasi saat rajattoman määrän tehtävämonisteiden luomista ilman lisämaksuja per tehtävä. Tämä on täydellinen työkalu esiopetuksen ja alakoulun opettajille. Lataa laadukkaita PDF-tehtäviä alle kolmessa minuutissa.
 
 MatchUp Maker on helppokäyttöinen generaattori yhdistä parit -tehtäville. Valitse neljästä eri yhdistämistilasta. Voit yhdistää kuvia ja kirjaimia. Voit yhdistää kuvia ja sanoja. Voit yhdistää kuvia ja omia sanojasi. Työkalu sopii erinomaisesti kirjainten harjoitteluun esiopetuksessa.

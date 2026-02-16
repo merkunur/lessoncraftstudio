@@ -63,8 +63,8 @@ const appsMetadata: Record<string, { title: string; description: string; keyword
     keywords: 'arbeidsark generator plattform, pedagogisk programvare, lærerverktøy, 33 generatorer, undervisningsressurser skaper, utdanningsteknologi, lærerplattform, digitale læringsmaterialer, pedagogisk applikasjon, klasseromverktøy'
   },
   fi: {
-    title: '33 Ilmaista Ty\u00f6arkki Generaattoria | Matematiikka, Kieli, Pulmat | LessonCraftStudio',
-    description: 'Tutustu 33 ilmaiseen ty\u00f6arkki generaattoriin. Luo sanaristikkoja, ristisanateht\u00e4vi\u00e4, matematiikkateht\u00e4vi\u00e4, v\u00e4rityskuvia & lis\u00e4\u00e4. Lataa tulostettavat PDFt heti.',
+    title: '33 Ilmaista Teht\u00e4v\u00e4generaattoria | LessonCraftStudio',
+    description: 'Tutustu 33 ilmaiseen teht\u00e4v\u00e4generaattoriin. Luo sanaristikkoja, ristisanateht\u00e4vi\u00e4, matematiikkateht\u00e4vi\u00e4, v\u00e4rityskuvia ja lis\u00e4\u00e4. Lataa tulostettavat PDFt heti.',
     keywords: 'tehtäväarkki generaattori alusta, opetusohjelma suite, opettajan työkalut, 33 generaattoria, opetusresurssien luoja, opetusteknologia, opettajien alusta, digitaaliset oppimateriaalit, pedagoginen sovellus, luokkahuonetyökalut'
   }
 };

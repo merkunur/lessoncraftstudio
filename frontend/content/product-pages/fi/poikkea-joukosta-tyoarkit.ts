@@ -15,16 +15,16 @@ export const oddOneOutFiContent: ProductPageContent = {
   seo: {
     slug: 'poikkea-joukosta-tyoarkit',
     appId: 'odd-one-out',
-    title: 'Poikkea Joukosta Tehtävät | Tulostettavat Työarkit',
-    description: 'Luo ammattimaisia poikkea joukosta -tehtäviä visuaalisen hahmottamisen harjoitteluun. Täysi Käyttöoikeus -tilaus antaa rajattoman tehtävien luonnin ilman.',
-    keywords: 'tulostettavat tehtävät lapsille ilmainen, esiopetus materiaali ilmainen, hienomotoriikka harjoitukset, poikkea joukosta, visuaalinen hahmottaminen, matematiikka tehtävät alakoulu, lukemaan oppiminen tehtävät, kirjaimet harjoittelu esikoulu',
+    title: 'Poikkea Joukosta Generaattori — Ilmainen | LessonCraftStudio',
+    description: 'Luo tulostettavia poikkea joukosta -tehtäviä visuaalisen hahmotuksen ja luokittelun harjoitteluun. 50 teemaa ja muokattavat asetukset. Ilmainen PDF.',
+    keywords: 'poikkea joukosta tehtävät, mikä ei kuulu joukkoon, luokittelu harjoitus, visuaalinen erottelu, poikkeava kuva tehtävä, luokitteluharjoitukset lapsille, erilainen joukossa, hahmontunnistus ja luokittelu, lajittelu ja erottelu, poikkea joukosta tulostettava',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/poikkea-joukosta-tyoarkit',
   },
 
   // Hero Section - FULL text from Finnish odd-one-out.md
   hero: {
-    title: 'Poikkea Joukosta Tehtävät',
-    subtitle: 'Tulostettavat Tehtävät Lapsille Ilmainen - Esiopetus Materiaali Ilmainen',
+    title: 'Poikkea Joukosta Generaattori',
+    subtitle: 'Luokittelu- ja Hahmottamisharjoituksia Kuvilla',
     description: `Luo ammattimaisia "poikkea joukosta" -tehtäviä visuaalisen hahmottamisen harjoitteluun. Täysi Käyttöoikeus -tilaus antaa rajattoman tehtävien luonnin ilman tehtäväkohtaisia maksuja. Jokainen tulostettava tehtävä lapsille on valmis alle kolmessa minuutissa. Täydellinen esiopetukseen ja alakoulun 1-3 luokille.
 
 Visuaalisen hahmottamisen tehtävät kehittävät lasten tarkkaavaisuutta ja loogista ajattelua. Oppilas etsii neljästä kuvasta sen, joka ei kuulu joukkoon. Voit luoda 5-10 harjoitusta yhdelle tehtävämonistelle. Kaksi vaikeustasoa: identtinen-tila (hankalampi) ja samankaltainen-tila (helpompi). Soveltuu erinomaisesti esiopetuksen materiaaliin ja alakoulun matematiikan, lukemisen ja hienomotoriikan harjoituksiin.

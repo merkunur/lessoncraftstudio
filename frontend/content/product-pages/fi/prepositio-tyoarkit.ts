@@ -20,16 +20,16 @@ export const prepositionsFiContent: ProductPageContent = {
   seo: {
     slug: 'prepositio-tyoarkit',
     appId: 'prepositions',
-    title: 'Prepositioharjoitukset - Tulostettavat Tehtävät Lapsille Ilmainen',
-    description: 'Luo ammattimaisia prepositioharjoituksia alakoululaisille ja esikoululaisille. Täysi Käyttöoikeus -tilauksesi antaa rajattoman mahdollisuuden luoda.',
-    keywords: 'prepositioharjoitukset, tulostettavat tehtävät lapsille ilmainen, esiopetus materiaali ilmainen, sijaintisanat, prepositiot lapsille, kielioppi tehtävät',
+    title: 'Prepositioharjoitus Generaattori | LessonCraftStudio',
+    description: 'Luo tulostettavia prepositioharjoituksia sijaintisanojen oppimiseen kuvilla. Edessä, takana, alla, päällä — visuaalinen kielenoppiminen. Ilmainen PDF.',
+    keywords: 'prepositioharjoitukset, sijaintisanat lapsille, prepositiot esikoulu, paikkasanat harjoitus, edessä takana tehtävät, sijaintikäsitteet lapsille, prepositiot tulostettava, kielioppi harjoitukset esikoulu, visuaalinen kielenoppiminen, sijainnin kuvaaminen',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/prepositio-tyoarkit',
   },
 
   // Hero Section - FULL text from Finnish prepositions.md
   hero: {
-    title: 'Prepositioharjoitukset',
-    subtitle: 'Tulostettavat Tehtävät Lapsille Ilmainen - Esiopetus Materiaali',
+    title: 'Prepositioharjoitusten Generaattori',
+    subtitle: 'Sijaintisanojen Oppimista Kuvilla',
     description: `Luo ammattimaisia prepositioiden harjoittelutehtäviä alakoululaisille ja esikoululaisille. Täysi Käyttöoikeus -tilaus antaa sinulle rajoittamattoman mahdollisuuden luoda tehtäviä ilman maksuja yksittäisistä tehtävistä. Generoi tulostettavia prepositioharjoituksia, jotka opettavat sijaintisuhteita hauska tavalla. Lataa korkealaatuiset PDF-tehtävät alle kolmessa minuutissa.
 
 Prepositioiden tehtävägeneraattori tukee kahta harjoitustyyppiä. Valitse täydennysharjoitukset tai monivalintatehtävät. Molemmat muodot auttavat lapsia oppimaan sijaintisanat konkreettisten esimerkkien avulla. Tehtävät sopivat 1. luokasta 3. luokkaan sekä esiopetukseen.

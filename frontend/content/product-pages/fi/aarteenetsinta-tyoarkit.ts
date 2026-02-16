@@ -17,16 +17,16 @@ export const treasureHuntFiContent: ProductPageContent = {
   seo: {
     slug: 'aarteenetsinta-tyoarkit',
     appId: 'treasure-hunt',
-    title: 'Aarteenetsintä-tehtävät Lapsille - Tulostettavat Tehtävät Lapsille',
-    description: 'Luo ammattimaisia aarteenetsintä-tehtäviä tulostettavat tehtävät lapsille ilmainen suunnittelijalla. Full Access -tilauksesi antaa rajattoman tehtävien.',
-    keywords: 'aarteenetsintä tehtävät, tulostettavat tehtävät lapsille ilmainen, esiopetus materiaali ilmainen, suuntasanasto, hienomotoriikka harjoitukset, lukemaan oppiminen tehtävät',
+    title: 'Aarteenetsintä Generaattori — Ilmainen | LessonCraftStudio',
+    description: 'Luo tulostettavia aarteenetsintä-tehtäviä suuntasanaston ja ohjeiden ymmärtämisen harjoitteluun. Hauska seikkailutehtävä esikoulusta 2. luokalle. Ilmainen.',
+    keywords: 'aarteenetsintä tehtävät, suuntasanasto harjoitus, ohjeiden seuraaminen, aarteen etsintä tulostettava, suuntakäsitteet lapsille, seikkailutehtävät esikoulu, aarteenetsintä luokkahuone, suunnat ja sijainti, seikkailupeli tulostettava, ohjeiden ymmärtäminen',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/aarteenetsinta-tyoarkit',
   },
 
   // Hero Section - FULL text from Finnish treasure-hunt.md
   hero: {
-    title: 'Aarteenetsintä Tehtävät',
-    subtitle: 'Tulostettavat Tehtävät Lapsille Ilmainen Esiopetus Materiaali',
+    title: 'Aarteenetsintä Generaattori',
+    subtitle: 'Suuntasanaston ja Ohjeiden Ymmärtämisen Seikkailuharjoituksia',
     description: `Luo ammattimaisia aarteenetsintä-tehtäviä tulostettavat tehtävät lapsille ilmainen suunnittelijalla. Täysi Käyttöoikeus -tilauksesi antaa rajattoman tehtävien luomisen ilman per-tehtävä maksuja. Luo räätälöityjä tulostettavia aarteenetsintä-tehtäviä täydellisiä esiopetukseen ja alakoulun oppilaille. Lataa korkealaatuiset PDF-tehtävät alle kolmessa minuutissa.
 
 Aarteenetsintä-tehtävät opettavat suuntasanastoa ja visuaalista tunnistamista. Lapset tunnistavat kuvia ruudukossa ja kuvaavat niiden sijainteja käyttäen suuntakieltä. Valitse kuusi kuvaa teemoista tai lataa omia kuvia. Sovellus luo ruudukon jossa oppilaat harjoittelevat "ylös", "alas", "vasen", "oikea" tai "pohjoinen", "etelä", "itä", "länsi" -sanastoa. Täydellinen esikoululaisille, ensimmäisen luokan ja toisen luokan oppilaille.

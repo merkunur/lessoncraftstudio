@@ -15,16 +15,16 @@ export const pictureBingoFiContent: ProductPageContent = {
   seo: {
     slug: 'kuva-bingo-tyoarkit',
     appId: 'bingo',
-    title: 'Tulostettavat Bingo-Tehtävät | Esiopetus Materiaali Ilmainen',
-    description: 'Luo ammattimaisia bingo-pelejä lasten kuva-bingogeneraattorilla. Peruspaketti-tilauksesi antaa rajattoman bingo-pelien luomisen ilman ylimääräisiä maksuja per.',
-    keywords: 'tulostettavat tehtävät lapsille ilmainen, esiopetus materiaali ilmainen, hienomotoriikka harjoitukset, kuva-bingo, bingo-kortit, bingo-peli lapsille',
+    title: 'Ilmainen Kuva-Bingo Generaattori | LessonCraftStudio',
+    description: 'Luo tulostettavia kuva-bingopelejä lapsille. 50 teemaa, muokattavat ruudukot ja kuvat 3 000+ kirjastosta. Täydellinen luokkahuoneeseen. Lataa ilmaiseksi.',
+    keywords: 'bingo tulostettava lapsille, kuva-bingo peli, tulostettava bingopeli, bingo esikoulu, luokan bingopeli, kuva-bingo ruudukko, kuvabingo tulostettava, ryhmäpeli tulostettava, bingo tehtävä lapsille, bingopeli luokkahuone',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/kuva-bingo-tyoarkit',
   },
 
   // Hero Section - FULL text from Finnish bingo.md
   hero: {
-    title: 'Kuva-Bingo Tehtävät',
-    subtitle: 'Tulostettavat Bingo-Kortit Esiopetukseen ja Alakouluun',
+    title: 'Kuva-Bingo Generaattori',
+    subtitle: 'Luo Tulostettavia Bingopelejä 50 Teemalla',
     description: `Luo ammattimaisia bingo-pelejä lasten kuva-bingogeneraattorilla. Peruspaketti-tilauksesi antaa rajattoman bingo-pelien luomisen ilman ylimääräisiä maksuja per peli. Tulosta tulostettavat tehtävät lapsille ilmainen-tyylisiä bingo-kortteja esiopetukseen ja alakouluun. Lataa korkealaatuisia PDF-tiedostoja alle 3 minuutissa.
 
 Kuva-bingogeneraattori on suunniteltu suomalaisille esiopettajille ja opettajille. Luo bingo-kortteja jotka tukevat lukemaan oppiminen tehtävät ja sanaston laajentamista. Jokainen bingo-peli sisältää 1–10 erilaista pelikorttia. Kaikki kortit ovat ainutlaatuisia ja täydellisiä luokkahuonekäyttöön.

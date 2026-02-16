@@ -19,16 +19,16 @@ export const crosswordFiContent: ProductPageContent = {
   seo: {
     slug: 'ristisanatehtavat-tyoarkit',
     appId: 'crossword',
-    title: 'Ristisanatehtävien Generaattori - Tulostettavat Tehtävät Lapsille',
-    description: 'Luo ammattimaisia ristisanatehtäviä kuvilla muutamassa minuutissa. Tulostettavat tehtävät lapsille ilmainen luominen Täysi Käyttöoikeus -tilauksella.',
-    keywords: 'ristisanatehtävät, tulostettavat tehtävät lapsille ilmainen, esiopetus materiaali ilmainen, ristisanatehtävien generaattori, ristikoita lapsille, kuvallinen ristisanatehtävä',
+    title: 'Kuvaristisana Generaattori — Ilmainen | LessonCraftStudio',
+    description: 'Luo tulostettavia kuvaristisanatehtäviä, joissa kuvat toimivat vihjehinä. Kehittää sanavarastoa ja oikeinkirjoitusta. Esikoulusta 3. luokalle. Ilmainen.',
+    keywords: 'kuvaristisana tehtävät, ristisana lapsille tulostettava, kuvalliset ristisanat, sanaristikko lapsille, ristisana esikoulu, sanasto ristisana, kuva-ristisana tulostettava, oikeinkirjoitus ristisana, ristisanatehtävä kuvilla, lasten sanaristikko',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/ristisanatehtavat-tyoarkit',
   },
 
   // Hero Section - FULL text from Finnish crossword.md
   hero: {
-    title: 'Ristisanatehtävät',
-    subtitle: 'Tulostettavat Tehtävät Lapsille Ilmainen - Esiopetus Materiaali',
+    title: 'Kuvaristisana Generaattori',
+    subtitle: 'Sanavaraston ja Oikeinkirjoituksen Harjoittelua Kuvilla',
     description: `Luo ammattimaisia ristisanatehtäviä kuvilla muutamassa minuutissa. Tulostettavat tehtävät lapsille ilmainen luominen Täysi Käyttöoikeus -tilauksella ilman maksua per tehtävä. Ristisanatehtävien generaattori on täydellinen työkalu esiopetuksen ja alakoulun opettajille. Luo räätälöityjä tehtäviä, jotka sopivat täydellisesti oppilaiden taitotasolle.
 
 Ristisanatehtävät ovat loistava tapa opettaa sanastoa ja kirjainten tunnistusta. Generaattorimme luo automaattisesti ristikon valitsemistasi kuvista. Jokainen kuva muuttuu sanaksi ristikossa. Voit valita teemoja tai yksittäisiä kuvia yli 3000 kuvan kirjastosta. Esiopetus materiaali ilmainen luominen tilauksella tarkoittaa rajattomia tehtäviä ilman lisäkustannuksia.

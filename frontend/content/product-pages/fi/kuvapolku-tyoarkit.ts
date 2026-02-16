@@ -17,16 +17,16 @@ export const picturePathFiContent: ProductPageContent = {
   seo: {
     slug: 'kuvapolku-tyoarkit',
     appId: 'picture-path',
-    title: 'Kuvapolku Tehtävät Lapsille | Tulostettavat Työarkit',
-    description: 'Luo ammattimaisia kuvapolkutehtäviä helposti. Täysi Käyttöoikeus -tilaus antaa rajattoman tehtävien luonnin ilman tehtäväkohtaisia maksuja.',
-    keywords: 'tulostettavat tehtävät lapsille ilmainen, kuvapolku tehtävät, esiopetus materiaali ilmainen, hienomotoriikka harjoitukset, sokkelotehtävät, labyrinttitehtävät',
+    title: 'Ilmainen Kuvapolku Generaattori | LessonCraftStudio',
+    description: 'Luo tulostettavia kuvapolkutehtäviä, joissa lapsi seuraa kuvareittejä. Kehittää loogista ajattelua ja hienomotoriikkaa. Esikoulusta 2. luokalle. Ilmainen.',
+    keywords: 'kuvapolku tehtävät, sokkelotehtävät lapsille, labyrintti tulostettava, reitin seuraaminen, kuvasokkelo harjoitus, polkutehtävät esikoulu, labyrinttitehtävät lapsille, sokkelo tulostettava, reittiharjoitukset, visuaalinen reitin seuranta',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/kuvapolku-tyoarkit',
   },
 
   // Hero Section - FULL text from Finnish picture-path.md
   hero: {
-    title: 'Kuvapolku Tehtävät',
-    subtitle: 'Tulostettavat Tehtävät Lapsille Ilmainen Esiopetus Materiaali',
+    title: 'Kuvapolku Generaattori',
+    subtitle: 'Loogisen Ajattelun Harjoituksia Kuvareiteillä',
     description: `Luo ammattimaisia kuvapolkutehtäviä helposti. Täysi Käyttöoikeus -tilaus antaa rajattoman tehtävien luonnin ilman tehtäväkohtaisia maksuja. Generoi mukautettuja tulostettavia tehtäviä lapsille, jotka sopivat täydellisesti esiopetukseen ja alakouluun. Lataa korkealaatuisia PDF-tehtäviä alle 3 minuutissa.
 
 Kuvapolkugeneraattori tarjoaa kolme erilaista pelitilaa. Luo klassisia sokkeloita, kuvapolkuja tai valitse oikea polku -tehtäviä. Jokainen tehtävä yhdistää hienomotoriikan harjoituksia visuaaliseen oppimiseen. Lapset seuraavat polkua alusta loppuun keräten kuvia matkan varrelta.

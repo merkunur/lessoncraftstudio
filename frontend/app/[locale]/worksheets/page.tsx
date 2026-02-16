@@ -29,7 +29,7 @@ const pageTitle: Record<string, string> = {
   sv: 'Gratis Temaarbetsblad f\u00f6r Barn | LessonCraftStudio',
   da: 'Gratis Temaarbejdsark til B\u00f8rn | LessonCraftStudio',
   no: 'Gratis Temaarbeidsark for Barn | LessonCraftStudio',
-  fi: 'Ilmaiset Teematy\u00f6lehdet Lapsille | LessonCraftStudio',
+  fi: 'Tulostettavat Teht\u00e4v\u00e4t \u2014 50 Teemaa | LessonCraftStudio',
 };
 
 const pageDescription: Record<string, string> = {
@@ -43,7 +43,12 @@ const pageDescription: Record<string, string> = {
   sv: 'Bl\u00e4ddra bland 50 tematiska arbetsbladssamlingar f\u00f6r barn. Djur, dinosaurier, rymden, havet och mer. Gratis matte-, l\u00e4s-, m\u00e5lar- och pusselaktiviteter f\u00f6r f\u00f6rskola till \u00e5rskurs 3.',
   da: 'Udforsk 50 tematiske arbejdsarkssamlinger til b\u00f8rn. Dyr, dinosaurer, rummet, havet og mere. Gratis matematik-, l\u00e6se-, male- og puslespilsaktiviteter fra b\u00f8rnehave til 3. klasse.',
   no: 'Utforsk 50 tematiske arbeidsarksamlinger for barn. Dyr, dinosaurer, verdensrommet, havet og mer. Gratis matte-, lese-, fargeleggings- og puslespillaktiviteter fra barnehage til 4. klasse.',
-  fi: 'Selaa 50 teemallista ty\u00f6lehtikokoelmaa lapsille. El\u00e4imet, dinosaurukset, avaruus, meri ja paljon muuta. Ilmaisia matematiikka-, luku-, v\u00e4ritys- ja pulmateht\u00e4vi\u00e4 esikoulusta 3. luokkaan.',
+  fi: 'Selaa 50 teeman tulostettavia teht\u00e4vi\u00e4 lapsille. Matematiikka, kieli, v\u00e4ritys ja pulmat esikoulusta 3. luokkaan. Yli 250 ilmaista teht\u00e4v\u00e4kokoelmaa PDF-muodossa.',
+};
+
+const pageKeywords: Record<string, string> = {
+  en: 'themed worksheets for kids, free printable worksheet collections, animal worksheets, dinosaur worksheets, space worksheets, preschool themed activities, kindergarten worksheet themes, educational printables by topic, seasonal worksheets, holiday worksheets for kids, themed PDF activities, classroom theme packs',
+  fi: 'tulostettavat teht\u00e4v\u00e4t lapsille, ilmaiset teht\u00e4v\u00e4kokoelmat, el\u00e4inteht\u00e4v\u00e4t, dinosaurusteht\u00e4v\u00e4t, avaruusteht\u00e4v\u00e4t, esikoulun teht\u00e4v\u00e4t, p\u00e4iv\u00e4kodin teht\u00e4v\u00e4t, opetusmateriaalit aiheittain, kausiteht\u00e4v\u00e4t, juhlapy\u00e4h\u00e4teht\u00e4v\u00e4t lapsille, PDF-teht\u00e4v\u00e4t, luokan teht\u00e4v\u00e4paketit',
 };
 
 export async function generateMetadata({
@@ -56,6 +61,7 @@ export async function generateMetadata({
 
   const title = pageTitle[locale] || pageTitle.en;
   const description = pageDescription[locale] || pageDescription.en;
+  const keywords = pageKeywords[locale] || pageKeywords.en;
 
   const hreflangAlternates: Record<string, string> = {};
   for (const lang of SUPPORTED_LOCALES) {
@@ -66,7 +72,7 @@ export async function generateMetadata({
   return {
     title,
     description,
-    keywords: 'themed worksheets for kids, free printable worksheet collections, animal worksheets, dinosaur worksheets, space worksheets, preschool themed activities, kindergarten worksheet themes, educational printables by topic, seasonal worksheets, holiday worksheets for kids, themed PDF activities, classroom theme packs',
+    keywords,
     robots: {
       index: true,
       follow: true,

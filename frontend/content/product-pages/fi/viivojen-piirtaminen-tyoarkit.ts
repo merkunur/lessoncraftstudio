@@ -15,16 +15,16 @@ export const drawingLinesFiContent: ProductPageContent = {
   seo: {
     slug: 'viivojen-piirtaminen-tyoarkit',
     appId: 'drawing-lines',
-    title: 'Viivojen Piirtäminen Tehtävät | Tulostettavat Tehtävät Lapsille',
-    description: 'Luo ammattitasoisia viivojen piirtäminen tehtäviä. Tulostettavat tehtävät lapsille ilmainen tyyli kehittää hienomotorisia taitoja. Esiopetus materiaali.',
-    keywords: 'viivojen piirtäminen tehtävät, tulostettavat tehtävät lapsille ilmainen, hienomotoriikka harjoitukset, esiopetus materiaali ilmainen, kirjaimet harjoittelu esikoulu, lukemaan oppiminen tehtävät',
+    title: 'Viivanpiirto Generaattori — Ilmainen | LessonCraftStudio',
+    description: 'Luo tulostettavia viivanpiirtotehtäviä hienomotoriikan kehittämiseen. Suorat, kaaret ja aaltoviivat esikoulusta 1. luokalle. Lataa ilmainen PDF.',
+    keywords: 'viivanpiirto generaattori, viivanpiirto tehtävät, hienomotoriikka harjoitukset, viivan seuranta tehtävä, kynätaitoharjoitukset, piirtämisen harjoittelu esikoulu, hienomotoriikka esikoulu, kirjoitusvalmiudet harjoitus, kynäote harjoittelu, piirtämistaidot lapsille',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/viivojen-piirtaminen-tyoarkit',
   },
 
   // Hero Section - FULL text from Finnish drawing-lines.md
   hero: {
-    title: 'Viivojen Piirtäminen Tehtävät',
-    subtitle: 'Tulostettavat Tehtävät Lapsille Ilmainen - Hienomotoriikka Harjoitukset Esikoulu',
+    title: 'Viivanpiirtotehtävien Generaattori',
+    subtitle: 'Hienomotoriikan Harjoituksia Esikoulusta 1. Luokalle',
     description: `Viivojen piirtäminen tehtävät kehittävät lasten hienomotorisia taitoja. Nämä tulostettavat tehtävät lapsille ilmainen tyyli tarjoavat esiopetus materiaali ilmainen vaihtoehtoja. Lapset harjoittelevat viivan vetämistä kuvien välille. Tämä parantaa kynänotetta ja käden hallintaa.
 
 Peruspaketti-tilaus (144€ vuodessa tai 15€ kuukaudessa) antaa sinulle rajattoman viivojen piirtämisen tehtävien luomisen. Ei sivukohtaisia maksuja. Luo niin monta tehtävää kuin tarvitset. Lataa korkealaatuiset PDF-tiedostot alle 3 minuutissa.

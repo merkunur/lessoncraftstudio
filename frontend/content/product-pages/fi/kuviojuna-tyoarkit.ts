@@ -17,16 +17,16 @@ export const patternTrainFiContent: ProductPageContent = {
   seo: {
     slug: 'kuviojuna-tyoarkit',
     appId: 'pattern-train',
-    title: 'Kuviojuna Tehtävät - Tulostettavat Tehtävät Lapsille Ilmainen -',
-    description: 'Luo ammattimaisia kuviojuna tehtävämonisteet kuviontunnistusjärjestelmällämme. Täysi Pääsy -tilauksesi antaa sinulle rajattoman tehtävien luomisen ilman.',
-    keywords: 'kuviojuna tehtävät, tulostettavat tehtävät lapsille ilmainen, matematiikka tehtävät alakoulu, esiopetus materiaali ilmainen, kuviontunnistus, kuvioharjoitukset lapsille',
+    title: 'Ilmainen Kuviojuna Generaattori | LessonCraftStudio',
+    description: 'Luo tulostettavia kuviojunatehtäviä kuvionhahmotuksen harjoitteluun. Junamuotoiset tehtävät 3 000+ kuvalla. Esikoulusta 2. luokalle. Ilmainen PDF-lataus.',
+    keywords: 'kuviojuna tehtävät, kuvioiden jatkaminen, hahmontunnistus juna, kuvionhahmotus esikoulu, kuviojatko harjoitus, kuviojuna tulostettava, kuviosarjat lapsille, kuvioiden tunnistaminen, matemaattinen hahmotus, kuviojono harjoitus',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/kuviojuna-tyoarkit',
   },
 
   // Hero Section - FULL text from Finnish kuviojuna.md
   hero: {
-    title: 'Kuviojuna',
-    subtitle: 'Tulostettavat Tehtävät Lapsille Ilmainen - Matematiikka Tehtävät Alakoulu ja Esiopetus Materiaali',
+    title: 'Kuviojuna Generaattori',
+    subtitle: 'Kuvionhahmotuksen Harjoituksia Junamuodossa',
     description: `Luo ammattimaisia kuviojuna tehtävämonisteet kuviontunnistusjärjestelmällämme. Täysi Pääsy -tilauksesi antaa sinulle rajattoman tehtävien luomisen ilman tehtäväkohtaisia maksuja. Luo tulostettavia kuviojuna tehtäviä lapsille, jotka sopivat täydellisesti esikoululaisille ja alakouluikäisille. Lataa korkealaatuisia PDF-tehtävämonisteitä alle kolmessa minuutissa.
 
 Kuviojuna on visuaalinen matematiikan työkalu, joka opettaa kuviontunnistusta junan teemalla. Lapset harjoittelevat AB-, AAB-, ABB-, ABC- ja AABB-kuvioita hauskan junamallin avulla. Tämä menetelmä yhdistää matematiikan oppimisen visuaaliseen ajatteluun.

@@ -15,16 +15,16 @@ export const writingFiContent: ProductPageContent = {
   seo: {
     slug: 'kasinkirjoitus-tyoarkit',
     appId: 'writing',
-    title: 'Kirjaimet Harjoittelu Esikoulu | Tulostettavat Tehtävät Lapsille',
-    description: 'Luo ammattitasoisia käsinkirjoituksen harjoittelutehtäviä kirjainten harjoitteluun esiopetuksessa. Täysi Pääsy -tilaus antaa sinulle rajattoman määrän.',
-    keywords: 'kirjaimet harjoittelu esikoulu, tulostettavat tehtävät lapsille ilmainen, hienomotoriikka harjoitukset, esiopetus materiaali ilmainen, lukemaan oppiminen tehtävät, käsinkirjoitus tehtävät',
+    title: 'Käsinkirjoitus Generaattori — Ilmainen | LessonCraftStudio',
+    description: 'Luo tulostettavia käsinkirjoituksen harjoittelutehtäviä. Kirjainten muodostus, sanan kirjoittaminen ja kynäote esikoulusta 2. luokalle. Ilmainen PDF.',
+    keywords: 'käsinkirjoitus harjoittelu, kirjaimet harjoittelu esikoulu, kirjainten muodostus, kynäote harjoittelu, kirjoittamisen harjoittelu, kirjainharjoitukset tulostettava, hienomotoriikka kirjoittaminen, aakkosten kirjoittaminen, käsinkirjoitus tulostettava, kirjoitusvalmiudet esikoulu',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/kasinkirjoitus-tyoarkit',
   },
 
   // Hero Section - FULL text from Finnish writing.md
   hero: {
-    title: 'Kirjaimet Harjoittelu Esikoulu',
-    subtitle: 'Tulostettavat Tehtävät Lapsille Ilmainen - Hienomotoriikka Harjoitukset',
+    title: 'Käsinkirjoituksen Generaattori',
+    subtitle: 'Kirjainten ja Sanojen Kirjoitusharjoituksia Esikoulusta 2. Luokalle',
     description: `Luo ammattitasoisia käsinkirjoituksen harjoittelutehtäviä kirjainten harjoitteluun esiopetuksessa. Täysi Pääsy -tilaus antaa sinulle rajattoman määrän käsinkirjoitustehtävien luomista ilman tehtäväkohtaisia maksuja. Generoi tulostettavia tehtäviä lapsille alakouluun ja esiopetukseen. Lataa korkealaatuisia PDF-tehtäviä alle kolmessa minuutissa.
 
 Käsinkirjoituksen generaattori auttaa opettajia luomaan personoituja hienomotoriikka harjoituksia. Valitse viidestä kirjasintyylistä mukaan lukien kursiivi. Luo jäljennöstehtäviä kirjainten oppimiseen. Jokainen tehtävä ladataan tulostettavana PDF- tai JPEG-tiedostona.

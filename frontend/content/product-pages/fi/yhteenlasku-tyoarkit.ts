@@ -15,16 +15,16 @@ export const additionFiContent: ProductPageContent = {
   seo: {
     slug: 'yhteenlasku-tyoarkit',
     appId: 'addition',
-    title: 'Yhteenlaskun Tehtävät Generaattori | Tulostettavat Matematiikka',
-    description: 'Luo ammattimaisia yhteenlaskun tehtäviä kuvilla yhteenlaskugeneraattorillamme. Peruspaketti-tilauksesi antaa sinulle rajattoman tehtävien luonnin ilman maksuja.',
-    keywords: 'yhteenlasku tehtävät, matematiikka tehtävät alakoulu, esiopetus materiaali ilmainen, tulostettavat tehtävät lapsille ilmainen, yhteenlasku ja vähennyslasku tehtävät, hienomotoriikka harjoitukset',
+    title: 'Ilmainen Yhteenlasku Generaattori | LessonCraftStudio',
+    description: 'Luo tulostettavia yhteenlaskutehtäviä kuvilla esikoulusta 3. luokalle. 3 000+ kuvan kirjasto, muokattavat asetukset ja vastausavaimet. Lataa PDF heti.',
+    keywords: 'yhteenlasku generaattori, yhteenlasku tehtävät tulostettava, yhteenlaskuharjoitukset esikoulu, kuvalliset yhteenlaskut, matematiikka monisteet ilmainen, kuvapohjainen yhteenlasku, tulostettavat laskutehtävät, yhteenlasku vastausavain, laskemisen harjoittelu, yhteenlasku kuvilla',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/yhteenlasku-tyoarkit',
   },
 
   // Hero Section - FULL text from Finnish addition.md
   hero: {
-    title: 'Yhteenlaskun Tehtävät',
-    subtitle: 'Tulostettavat Matematiikka Tehtävät Alakoulu ja Esiopetus',
+    title: 'Yhteenlaskutehtävien Generaattori',
+    subtitle: 'Luo Kuvapohjaisia Yhteenlaskuharjoituksia Esikoulusta 3. Luokalle',
     description: `Luo ammattimaisia yhteenlaskun tehtäviä kuvilla yhteenlaskugeneraattorillamme. Peruspaketti-tilauksesi antaa sinulle rajattoman tehtävien luonnin ilman maksuja per tehtävä. Generoi tulostettavia matematiikka tehtävät alakoulu ja esiopetus materiaali ilmainen -oppilaille. Lataa korkealaatuisia PDF-tehtäviä alle 3 minuutissa.
 
 Yhteenlaskun tehtävätyökalu tekee matematiikan oppimisesta visuaalista ja hauskaa. Luo yhteenlaskutehtäviä käyttäen yli 3000 lapsystävällistä kuvaa. Valitse eläinten, ruoan, lelujen tai kouluvälineiden kuvista. Jokainen yhteenlaskun tehtävä on täysin mukautettavissa. Muokkaa kaikkea pohjasta, reunoista ja tekstiin.

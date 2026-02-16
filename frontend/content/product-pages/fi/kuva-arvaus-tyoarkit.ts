@@ -17,16 +17,16 @@ export const wordGuessFiContent: ProductPageContent = {
   seo: {
     slug: 'kuva-arvaus-tyoarkit',
     appId: 'word-guess',
-    title: 'Kuva-arvaus Tehtävät Lapsille | Tulostettavat Työarkit',
-    description: 'Luo ammattimaisia kuva-arvaustehtäviä kuvan vihjeillä muutamassa minuutissa. Täysi Käyttöoikeus -tilauksesi antaa sinulle rajattoman kuva-arvaustehtävien.',
-    keywords: 'kuva-arvaustehtävät, tulostettavat tehtävät lapsille ilmainen, esiopetus materiaali ilmainen, kirjaimet harjoittelu esikoulu, lukemaan oppiminen tehtävät, matematiikka tehtävät alakoulu',
+    title: 'Ilmainen Kuva-Arvaus Generaattori | LessonCraftStudio',
+    description: 'Luo tulostettavia kuva-arvaustehtäviä, joissa lapsi päättelee sanan kuvavihjeiden avulla. Kehittää sanavarastoa ja päättelytaitoja. Ilmainen PDF.',
+    keywords: 'kuva-arvaus tehtävät, sana-arvoitus kuvilla, sanasto harjoitus, kuvallinen sanatehtävä, arvaustehtävä lapsille, kuvavihjetehtävä, sanojen päättely, sana-arvoitus tulostettava, sanavaraston laajentaminen, kuvavihje sanatehtävä',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/kuva-arvaus-tyoarkit',
   },
 
   // Hero Section - FULL text from Finnish word-guess.md
   hero: {
-    title: 'Kuva-Arvaustehtävät',
-    subtitle: 'Tulostettavat Tehtävät Lapsille Ilmainen Esiopetus Materiaali',
+    title: 'Kuva-Arvaus Generaattori',
+    subtitle: 'Sanavaraston ja Päättelytaitojen Harjoituksia Kuvavihjein',
     description: `Luo ammattimaisia kuva-arvaustehtäviä kuvan vihjeillä muutamassa minuutissa. Täysi Käyttöoikeus -tilauksesi antaa sinulle rajattoman kuva-arvaustehtävien luomisen ilman sivukohtaisia maksuja. Luo tulostettavia tehtäviä lapsille, jotka sopivat täydellisesti esiopetukseen ja alakoululaisille. Lataa laadukkaat PDF-tehtävät alle kolmessa minuutissa.
 
 Kuva-arvaustyökalu auttaa lapsia kehittämään kirjaimien tunnistustaitoja, kielellisiä taitoja ja loogista päättelyä. Jokainen tehtävä sisältää kuvia, joista osa kirjaimista on piilotettu vihjeiksi. Lapset täyttävät puuttuvat kirjaimet ja kirjoittavat koko sanan. Tämä yhdistää kirjainten harjoittelun esikoulussa visuaaliseen oppimiseen luonnollisella tavalla.

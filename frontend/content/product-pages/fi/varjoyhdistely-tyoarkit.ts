@@ -15,16 +15,16 @@ export const shadowMatchFiContent: ProductPageContent = {
   seo: {
     slug: 'varjoyhdistely-tyoarkit',
     appId: 'shadow-match',
-    title: 'Varjoyhdistely Tehtävät Generaattori | Tulostettavat Tehtävät',
-    description: 'Luo ammattitasoisia varjoyhdistelyn tehtäviä varjoyhdistelygeneraattorillamme. Täysi Pääsy -tilauksesi antaa sinulle rajattoman tehtävien luomisen ilman.',
-    keywords: 'varjoyhdistely tehtävät, tulostettavat tehtävät lapsille ilmainen, esiopetus materiaali ilmainen, visuaalinen hahmotus, hienomotoriikka harjoitukset, varjokuva yhdistäminen',
+    title: 'Varjoyhdistely Generaattori — Ilmainen | LessonCraftStudio',
+    description: 'Luo tulostettavia varjoyhdistelytehtäviä, joissa lapsi yhdistää kuvan oikeaan varjoon. Kehittää visuaalista hahmotusta. 50 teemaa. Ilmainen.',
+    keywords: 'varjoyhdistely tehtävät, varjokuva yhdistäminen, varjotehtävät lapsille, siluettitehtävät tulostettava, varjokuvan tunnistus, visuaalinen yhdistäminen varjo, varjoharjoitukset esikoulu, siluetti harjoitus, kuvan ja varjon yhdistäminen, varjokuvatehtävät',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/varjoyhdistely-tyoarkit',
   },
 
   // Hero Section - FULL text from Finnish varjoyhdistely.md
   hero: {
-    title: 'Varjoyhdistely Tehtävät',
-    subtitle: 'Tulostettavat Tehtävät Lapsille Ilmainen Esiopetus Materiaali',
+    title: 'Varjoyhdistely Generaattori',
+    subtitle: 'Visuaalisen Hahmotuksen Harjoituksia Varjokuvilla',
     description: `Luo ammattitasoisia varjoyhdistelyn tehtäviä varjoyhdistelygeneraattorillamme. Täysi Pääsy -tilauksesi antaa sinulle rajattoman tehtävien luomisen ilman tehtäväkohtaisia maksuja. Luo mukautettuja tulostettavia tehtäviä täydellisiä esiopetukseen, alakouluun ja hienomotoriikka harjoituksiin. Lataa korkealaatuisia PDF-tehtäviä alle kolmessa minuutissa.
 
 Varjoyhdistely on visuaalinen hahmotusharjoitus, joka kehittää lasten näköhavaintoa, avaruudellista hahmotuskykyä ja ongelmanratkaisutaitoja. Esiopetus materiaali ilmainen ja matematiikka tehtävät alakoulu yhdistyvät täydellisesti värityskuvia lapsille tulostettava ja hienomotoriikka harjoitukset -teemoihin. Täysi Pääsy -tilaus sisältää kaikki 33 tehtävägeneraattoria, kaupallisen lisenssin ja 11 kielen tuen.

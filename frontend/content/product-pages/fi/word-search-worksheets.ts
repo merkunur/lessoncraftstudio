@@ -15,16 +15,16 @@ export const wordSearchFiContent: ProductPageContent = {
   seo: {
     slug: 'sananhaku-tyoarkit',
     appId: 'wordsearch',
-    title: 'Ilmainen Sanapeli Generaattori | Tulostettavat Tehtävät Lapsille',
-    description: 'Luo ammattimaisia sanapelitehtäviä ilmaiseksi verkossa. Sanapeli generaattori on täydellinen esiopetuksen ja alakoulun opettajille. Tulostettavat tehtävät.',
-    keywords: 'sanapeli generaattori, tulostettavat tehtävät lapsille ilmainen, esiopetus materiaali ilmainen, matematiikka tehtävät alakoulu, kirjaimet harjoittelu esikoulu, kertotaulut tulostettava, värityskuvia lapsille tulostettava',
+    title: 'Ilmainen Sanahaku Generaattori | LessonCraftStudio',
+    description: 'Luo tulostettavia sanahakutehtäviä 11 kielellä. Muokattavat sanat, koot ja vaikeustasot. Sanavaraston ja oikeinkirjoituksen harjoittelua. Ilmainen PDF.',
+    keywords: 'sanahaku tulostettava, sanahaku lapsille, sanapeli generaattori, sanahaku tehtävä, sananhaku tulostettava, sanaristikko lapsille, sanasto sanahaku, oikeinkirjoitus sanahaku, sanahaku alakoulu, sanahaku esikoulu',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/sananhaku-tyoarkit',
   },
 
   // Hero Section - FULL text from Finnish wordsearch.md paragraphs 1-4
   hero: {
-    title: 'Ilmainen Sanapeli Generaattori',
-    subtitle: 'Tulostettavat Tehtävät Esiopetus ja Alakoulu',
+    title: 'Sanahaku Generaattori',
+    subtitle: 'Tulostettavat Sanahakutehtävät Sanavaraston Harjoitteluun',
     description: `Luo ammattimaisia sanapelitehtäviä ilmaiseksi verkossa. Sanapeli generaattori on täydellinen esiopetuksen ja alakoulun opettajille. Tulostettavat tehtävät lapsille ilmainen versio sisältää vesileiman. Generoi mukautettuja sanapelitehtäviä alle 3 minuutissa.
 
 Valitse teema tai yksittäiset kuvat yli 3000 kuvan kirjastosta. Sanapeli generaattori luo automaattisesti sanastoristikon. Lataa tulostettavat tehtävät PDF- tai JPEG-muodossa. Täydellinen esiopetus materiaali ilmainen työväline opettajille.

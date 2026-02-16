@@ -15,16 +15,16 @@ export const coloringFiContent: ProductPageContent = {
   seo: {
     slug: 'varityskuvat-tyoarkit',
     appId: 'coloring',
-    title: 'Värityskuvia Lapsille Tulostettava | Tulostettavat Tehtävät Lapsille',
-    description: 'Luo ammattimaisia värityskuvia värityskuvasuunnittelullamme. Peruspaketti-tilauksesi antaa sinulle rajattoman värityskuvien luomisen ilman per-sivu maksuja.',
-    keywords: 'värityskuvia lapsille tulostettava, tulostettavat tehtävät lapsille ilmainen, esiopetus materiaali ilmainen, hienomotoriikka harjoitukset, kirjaimet harjoittelu esikoulu, värityskuvat lapsille',
+    title: 'Ilmainen Värityskuva Generaattori | LessonCraftStudio',
+    description: 'Luo tulostettavia värityskuvia lapsille 3 000+ kuvan kirjastosta. 50 teemaa ja 5 ikätasoa esikoulusta 3. luokalle. Lataa ilmaiset PDF-värityssivut.',
+    keywords: 'värityskuva generaattori, värityskuvia lapsille tulostettava, ilmaiset värityssivut, värityskirja tulostettava, eläinten värityskuvat, tulostettavat värityskirjat, väritys esikoulu, väritysharjoitukset, väritystehtävät lapsille, lasten värityssivut',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/varityskuvat-tyoarkit',
   },
 
   // Hero Section - FULL text from Finnish coloring.md
   hero: {
-    title: 'Värityskuvia Lapsille Tulostettava',
-    subtitle: 'Tulostettavat Tehtävät Lapsille Ilmainen - Esiopetus Materiaali',
+    title: 'Värityskuvien Generaattori Lapsille',
+    subtitle: 'Luo Tulostettavia Värityskuvia 50 Teemalla ja 3 000+ Kuvalla',
     description: `Luo ammattimaisia värityskuvia värityskuvasuunnittelullamme. Peruspaketti-tilauksesi antaa sinulle rajattoman värityskuvien luomisen ilman per-sivu maksuja. Luo mukautettuja tulostettavia värityskuvia täydellisiä esikoululle ja alakoululle. Lataa korkealaatuisia PDF-värityskuvia alle 3 minuutissa.
 
 Peruspaketti-tilaus sisältää 10 suosittua tehtävägeneraattoria. Luo värityskuvia lapsille tulostettava, hienomotoriikka harjoitukset ja matematiikka tehtävät alakoulu samalla tilauksella. Suunnittelutyökalu tukee 11 kieltä ja sisältää kaupallisen lisenssin. Täydellinen esiopetukselle ja alakoulun opettajille.

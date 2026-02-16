@@ -15,16 +15,16 @@ export const wordScrambleFiContent: ProductPageContent = {
   seo: {
     slug: 'sanansekoitus-tyoarkit',
     appId: 'word-scramble',
-    title: 'Sanansekoitus-tehtävät Generaattori | Tulostettavat Tehtävät Lapsille',
-    description: 'Luo ammattimaisia sanansekoitustehtäviä helposti verkossa. Peruspaketti-tilauksesi antaa rajattoman tehtävien luomisen ilman per-tehtävä maksuja.',
-    keywords: 'sanansekoitus tehtävät, tulostettavat tehtävät lapsille ilmainen, esiopetus materiaali ilmainen, kirjaimet harjoittelu esikoulu, lukemaan oppiminen tehtävät, hienomotoriikka harjoitukset',
+    title: 'Ilmainen Sanansekoitus Generaattori | LessonCraftStudio',
+    description: 'Luo tulostettavia sanansekoitustehtäviä oikeinkirjoituksen harjoitteluun. Muokattava vaikeustaso esikoulusta 3. luokalle. Kuvallinen ja ilmainen.',
+    keywords: 'sanansekoitus generaattori, sanansekoitus tehtävät, kirjoitusharjoitukset lapsille, oikeinkirjoitus harjoittelu, sana-arvoitus tulostettava, sanapelit lapsille tulostettava, sananmuodostus tehtävät, lukemaan oppiminen tehtävät, kirjoittamisen harjoittelu, sanasto harjoitukset',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/sanansekoitus-tyoarkit',
   },
 
   // Hero Section - FULL text from Finnish word-scramble.md
   hero: {
-    title: 'Sanansekoitus-tehtävät',
-    subtitle: 'Tulostettavat Tehtävät Lapsille Ilmainen ja Esiopetus Materiaali',
+    title: 'Sanansekoitus Generaattori',
+    subtitle: 'Tulostettavat Oikeinkirjoitusharjoitukset Kuvilla',
     description: `Luo ammattimaisia sanansekoitustehtäviä helposti verkossa. Peruspaketti-tilauksesi antaa rajattoman tehtävien luomisen ilman per-tehtävä maksuja. Generoi mukautettuja tulostettavia sanansekoitustehtäviä täydellisiksi esiopetukseen ja alakouluun. Lataa korkealaatuisia PDF-tehtäviä alle kolmessa minuutissa.
 
 Sanansekoitus-generaattorimme sopii täydellisesti opettajille jotka tarvitsevat tulostettavat tehtävät lapsille ilmainen -formaatissa. Jokainen tehtävä sisältää kuvavihjeitä jotka helpottavat oppimista. Mukautettava vaikeus tekee tehtävistä sopivia kaikille ikätasoille. Lapsesi oppivat kirjaimia ja sanoja hauskalla tavalla.

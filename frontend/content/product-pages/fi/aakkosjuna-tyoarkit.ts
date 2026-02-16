@@ -15,16 +15,16 @@ export const alphabetTrainFiContent: ProductPageContent = {
   seo: {
     slug: 'aakkosjuna-tyoarkit',
     appId: 'alphabet-train',
-    title: 'Aakkosjuna Tehtävät Generaattori | Tulostettavat Kirjaimet',
-    description: 'Luo ammattitasoisia aakkosjuna-tehtäviä esiopetukseen ja alakouluun. Peruspaketti-tilauksellasi saat luoda rajattomasti kirjainten harjoittelutehtäviä ilman.',
-    keywords: 'aakkosjuna tehtävät, kirjaimet harjoittelu esikoulu, esiopetus materiaali ilmainen, tulostettavat tehtävät lapsille ilmainen, kirjainten tunnistus, aakkosharjoittelu',
+    title: 'Ilmainen Aakkosjuna Generaattori | LessonCraftStudio',
+    description: 'Luo tulostettavia aakkosjuna-tehtäviä kirjainten oppimiseen esikoulusta 1. luokalle. Hauska tapa oppia aakkosia kuvilla. Lataa PDF heti ilmaiseksi.',
+    keywords: 'aakkosjuna generaattori, aakkosjuna tehtävät, kirjaimet harjoittelu esikoulu, aakkoset tulostettava, aakkosjuna työarkki, kirjainten tunnistus, aakkosjärjestys harjoitus, kirjainharjoitukset lapsille, lukemaan oppiminen, alkukirjaimet tehtävä',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/aakkosjuna-tyoarkit',
   },
 
   // Hero Section - FULL text from Finnish alphabet-train.md
   hero: {
-    title: 'Aakkosjuna Tehtävät',
-    subtitle: 'Tulostettavat Kirjaimet Harjoittelu Esikoulu ja Esiopetus Materiaali',
+    title: 'Aakkosjuna Tehtävien Generaattori',
+    subtitle: 'Tulostettavat Kirjainharjoitukset Esikoulusta 1. Luokalle',
     description: `Luo ammattitasoisia aakkosjuna-tehtäviä esiopetukseen ja alakouluun. Peruspaketti-tilauksellasi ($15/kuukausi) saat luoda rajattomasti kirjainten harjoittelutehtäviä ilman lisämaksuja per tehtävä. Tulostettavat tehtävät lapsille soveltuvat täydellisesti esikouluikäisille ja 1. luokan oppilaille. Lataa korkealaatuiset PDF-tehtävät alle 3 minuutissa.
 
 Aakkosjuna-sovelluksemme yhdistää kirjaimet harjoittelun hauskaan junateemaan. Jokainen tehtävä sisältää täsmälleen 11 kirjainta juna-aiheisessa asettelussa. Valitse joko satunnaiset kirjaimet tai tietyt kirjaimet, jotka haluat harjoitella. Liitä kullekin kirjaimelle kuva yli 3000 lapsille sopivan kuvan kirjastosta. Esiopetus materiaali on täysin muokattavissa ja sisältää vastausavaimen opettajille.

@@ -57,8 +57,8 @@ const pricingMetadata: Record<string, { title: string; description: string; keyw
     description: 'Velg ditt abonnement: Gratis ords\u00f8k-generator, $15/m\u00e5ned Grunnpakke med 10 generatorer eller $25/m\u00e5ned Full Tilgang til alle 33 generatorer. Avslutt n\u00e5r som helst.'
   },
   fi: {
-    title: 'Hinnat: Ilmainen, $15/kk Perus & $25/kk T\u00e4ysi K\u00e4ytt\u00f6oikeus | LessonCraftStudio',
-    description: 'Valitse suunnitelmasi: Ilmainen sanaristikko-generaattori, $15/kk Peruspaketti 10 generaattorilla tai $25/kk T\u00e4ysi K\u00e4ytt\u00f6oikeus kaikkiin 33 generaattoriin. Peru milloin tahansa.'
+    title: 'Hinnat \u2014 Ilmainen, Perus ja T\u00e4ysi P\u00e4\u00e4sy | LessonCraftStudio',
+    description: 'Valitse suunnitelmasi: Ilmainen sanahakugeneraattori, Peruspaketti 10 generaattorilla tai T\u00e4ysi P\u00e4\u00e4sy kaikkiin 33 generaattoriin. Peru milloin tahansa.'
   }
 };
 

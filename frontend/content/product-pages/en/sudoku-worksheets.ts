@@ -463,7 +463,7 @@ This sudoku worksheet generator is perfect for kindergarten teachers, first grad
     },
     {
       quote: 'I use three difficulty levels of the same themed sudoku for differentiation. My struggling learners get 4 blanks, on-level gets 6, and advanced students tackle 8. Same activity, zero ability labeling.',
-      name: 'David Okonkwo',
+      name: 'Nathan Okafor',
       role: '1st Grade Teacher',
       school: 'Summit Ridge Academy',
     },

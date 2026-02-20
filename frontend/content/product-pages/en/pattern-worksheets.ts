@@ -478,7 +478,7 @@ Full Access subscription includes commercial licensing for Teachers Pay Teachers
       quote: 'Pattern worksheets are the backbone of my kindergarten math curriculum. The progression from AB to ABC to ABCD maps perfectly to how my students develop mathematical thinking throughout the year.',
       name: 'Lisa Chen',
       role: 'Kindergarten Math Lead',
-      school: 'Sunnyvale Elementary',
+      school: 'Fairview Elementary',
     },
     {
       quote: 'The random blank position feature transformed my assessment strategy. I can instantly see which students truly understand the pattern rule versus those just memorizing the end position.',

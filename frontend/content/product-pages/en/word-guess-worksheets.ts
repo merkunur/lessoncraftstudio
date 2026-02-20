@@ -508,7 +508,7 @@ Save completed worksheets to your device for repeated use. Print unlimited copie
       quote: 'The letter exclusion feature is brilliant for my phonics groups. I exclude all vowels so students must recall exactly which vowels go where. My students\' spelling accuracy on weekly tests improved dramatically after using these puzzles daily.',
       name: 'Amanda Foster',
       role: 'K-2 Reading Specialist',
-      school: 'Brookside Elementary',
+      school: 'Creekside Elementary',
     },
     {
       quote: 'Word guess worksheets are the perfect warm-up activity. My first graders complete three puzzles while I take attendance, and the progressive difficulty means I can challenge every reader at their level with the same themed set.',

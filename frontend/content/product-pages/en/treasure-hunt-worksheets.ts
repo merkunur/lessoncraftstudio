@@ -332,7 +332,7 @@ This treasure hunt generator creates unique worksheets every time you click gene
       quote: 'My kindergarteners love the basic direction mode \u2014 they put their finger on the start image and physically trace each step as I read the clues aloud. The 6-step sequence is perfect for building following-directions stamina. The auto-traced answer key with the red circle makes checking work instant.',
       name: 'Patricia Duval',
       role: 'Kindergarten Teacher',
-      school: 'Cedarwood Elementary',
+      school: 'Aspenridge Elementary',
     },
     {
       quote: 'I switched to cardinal direction mode for my second graders and it transformed our social studies unit on map skills. Students practice north, south, east, and west on every worksheet while developing reading comprehension. I generate a new treasure hunt daily \u2014 each one is unique so they never get stale.',

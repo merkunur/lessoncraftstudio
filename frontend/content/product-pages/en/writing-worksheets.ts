@@ -520,7 +520,7 @@ Print your downloaded worksheets on standard printer paper or cardstock. Regular
   teacherTestimonials: [
     {
       quote: 'The four tracing modes let me create a single worksheet where struggling writers get full trace support while advanced students practice with fading guides. True differentiation on one page saved me from making three separate worksheets every day.',
-      name: 'Maria Gonzalez',
+      name: 'Laura Petersen',
       role: 'Kindergarten Teacher',
       school: 'Westfield Primary Academy',
     },

@@ -461,7 +461,7 @@ Enable grayscale mode before downloading to save printer ink. The checkbox conve
     },
     {
       quote: 'I sell themed word search bundles on TPT and this generator cut my production time from two hours to fifteen minutes per pack. The answer keys alone save me so much formatting work.',
-      name: 'David Kowalski',
+      name: 'Thomas Brennan',
       role: 'Teacher-Author',
       school: 'TeachWithDavid on TPT',
     },

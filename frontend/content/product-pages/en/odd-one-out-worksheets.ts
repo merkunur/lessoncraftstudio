@@ -358,7 +358,7 @@ The odd one out generator creates worksheets for any subject or theme. Choose fr
       quote: 'The two difficulty modes are perfect for my mixed-ability kindergarten class. My emerging learners use Identical mode to build confidence, while my advanced students tackle Similar mode and really have to think about why one image does not belong.',
       name: 'Christine Lawson',
       role: 'Kindergarten Teacher',
-      school: 'Willowbrook Elementary',
+      school: 'Silverleaf Elementary',
     },
     {
       quote: 'I use odd one out worksheets as warm-ups every Monday morning. My first graders love debating which item is the odd one, and the exercises naturally lead into our classification and sorting math lessons.',

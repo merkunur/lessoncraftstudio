@@ -483,7 +483,7 @@ The image addition generator creates worksheets with 3 to 10 problems per page. 
       quote: 'My kindergarteners are obsessed with cracking the picture codes. They beg for more worksheets, which is something I never thought I would say about math practice.',
       name: 'Laura Chen',
       role: 'Kindergarten Teacher',
-      school: 'Sunnyvale Elementary',
+      school: 'Ridgeview Elementary',
     },
     {
       quote: 'The decode format is perfect for my gifted pullout groups. It adds a layer of logical thinking on top of basic addition that keeps advanced first graders challenged.',

@@ -359,7 +359,7 @@ Print multiple copies for your entire class. The 300 DPI quality handles repeate
       quote: 'I use 8x8 grids with 3 targets for my first graders and the counting task gets them writing numbers every time. What I love most is the regenerate button -- I click once and get a completely different arrangement with the same settings. I make five unique worksheets for the week in about three minutes.',
       name: 'Greg Thornton',
       role: '1st Grade Teacher',
-      school: 'Pinecrest Academy',
+      school: 'Meadowbrook Academy',
     },
   ],
 

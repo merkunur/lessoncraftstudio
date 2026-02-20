@@ -476,13 +476,13 @@ Teachers love grid match worksheets because they combine fun with learning. Crea
   teacherTestimonials: [
     {
       quote: 'Grid match puzzles are the most requested activity in my classroom. Students develop real spatial reasoning skills while thinking they are just solving fun puzzles. The adjustable difficulty means every student succeeds at their level.',
-      name: 'Rachel Kim',
+      name: 'Jennifer Nakamura',
       role: 'Kindergarten Teacher',
       school: 'Westbrook Elementary',
     },
     {
       quote: 'I use grid match as my primary visual reasoning assessment tool. The progression from 2x2 to 4x4 grids gives me clear data on each student spatial analysis development throughout the year.',
-      name: 'Marcus Johnson',
+      name: 'Brandon Williams',
       role: '1st Grade Math Specialist',
       school: 'Heritage Park Academy',
     },

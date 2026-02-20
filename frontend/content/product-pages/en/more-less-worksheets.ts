@@ -477,7 +477,7 @@ The worksheet maker offers flexible comparison modes including image-to-image co
       quote: 'The illustrated comparison symbols made a huge difference for my kindergarteners. They finally understood that the open mouth eats the bigger number, and now they transfer that to standard notation.',
       name: 'Amanda Richards',
       role: 'Kindergarten Teacher',
-      school: 'Brookside Elementary',
+      school: 'Lakewood Elementary',
     },
     {
       quote: 'I love the image-to-number mode for my first graders. It bridges the gap between counting objects and comparing abstract numbers, which is exactly the transition they need to make.',

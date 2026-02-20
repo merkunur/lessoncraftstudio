@@ -444,7 +444,7 @@ The generator includes 8 different templates with various line patterns and orie
       quote: 'Drawing lines worksheets are the single most effective handwriting warm-up I have found in 15 years of teaching kindergarten. My students pencil control improves noticeably within the first two weeks of daily practice.',
       name: 'Patricia Hernandez',
       role: 'Kindergarten Teacher',
-      school: 'Sunnyvale Elementary',
+      school: 'Elmwood Elementary',
     },
     {
       quote: 'I use these worksheets with every child on my OT caseload. The eight template types let me target exactly the motor patterns each student needs to develop, and the auto-fill feature means I spend my time on therapy, not prep.',

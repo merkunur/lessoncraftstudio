@@ -600,3 +600,34 @@ export const labelLearnMore: LocaleLabels = {
   no: 'Les mer nedenfor',
   fi: 'Lue lis\u00e4\u00e4 alta',
 };
+
+// ── Cross-theme grade linking labels (Part 11) ─────────────────────────────
+// moreGradeWorksheetsLabel uses {gradeName} placeholder
+
+export const moreGradeWorksheetsLabel: LocaleLabels = {
+  en: 'More {gradeName} Worksheets',
+  de: 'Mehr {gradeName}-Arbeitsbl\u00e4tter',
+  fr: 'Plus de fiches {gradeName}',
+  es: 'M\u00e1s fichas de {gradeName}',
+  pt: 'Mais atividades de {gradeName}',
+  it: 'Altre schede {gradeName}',
+  nl: 'Meer {gradeName}-werkbladen',
+  sv: 'Fler {gradeName}-arbetsblad',
+  da: 'Flere {gradeName}-arbejdsark',
+  no: 'Flere {gradeName}-arbeidsark',
+  fi: 'Lis\u00e4\u00e4 {gradeName}-ty\u00f6lehti\u00e4',
+};
+
+export const exploreOtherCategoriesLabel: LocaleLabels = {
+  en: 'Explore Other Categories',
+  de: 'Andere Kategorien entdecken',
+  fr: 'Explorer d\u2019autres cat\u00e9gories',
+  es: 'Explorar otras categor\u00edas',
+  pt: 'Explorar outras categorias',
+  it: 'Esplora altre categorie',
+  nl: 'Andere categorie\u00ebn verkennen',
+  sv: 'Utforska andra kategorier',
+  da: 'Udforsk andre kategorier',
+  no: 'Utforsk andre kategorier',
+  fi: 'Tutustu muihin kategorioihin',
+};

@@ -33,7 +33,12 @@ import {
   otherThemesLabel,
   readMoreLabel,
   viewAllGradeAppsLabel,
+  moreGradeWorksheetsLabel,
+  exploreOtherCategoriesLabel,
 } from '@/config/theme-page-labels';
+import { getCrossThemeGradeLinks } from '@/lib/cross-theme-links';
+import RelatedResources from '@/components/shared/RelatedResources';
+import type { RelatedResource } from '@/components/shared/RelatedResources';
 import {
   getThemeContentWithFallback,
   getEnrichedGradeContent,
@@ -228,6 +233,48 @@ export default async function ThemeGradePage({
       return { id: rtId, name: rtContent.name, slug: rtSlug };
     })
     .filter(Boolean) as Array<{ id: string; name: string; slug: string }>;
+
+  // Cross-theme grade links (same grade, different themes)
+  const crossThemeLinks = getCrossThemeGradeLinks(themeId, gradeId, locale);
+
+  // Build mixed RelatedResource list for the unified section
+  const relatedResources: RelatedResource[] = [];
+
+  // Parent theme hub
+  relatedResources.push({
+    href: `/${locale}/worksheets/${currentThemeSlug}`,
+    title: `${themeName} ${worksheetsLabel[locale] || 'Worksheets'}`,
+    description: content.description,
+    pageType: 'theme-hub',
+  });
+
+  // 1-2 cross-theme grade pages
+  for (const link of crossThemeLinks.sameCategory.slice(0, 1)) {
+    relatedResources.push({
+      href: link.href,
+      title: `${link.themeName} ${worksheetsLabel[locale] || 'Worksheets'} ${gradeName}`,
+      description: link.categoryLabel,
+      pageType: 'grade-page',
+    });
+  }
+  for (const link of crossThemeLinks.otherCategories.slice(0, 1)) {
+    relatedResources.push({
+      href: link.href,
+      title: `${link.themeName} ${worksheetsLabel[locale] || 'Worksheets'} ${gradeName}`,
+      description: link.categoryLabel,
+      pageType: 'grade-page',
+    });
+  }
+
+  // 1-2 product page links from the app grid
+  for (const app of apps.slice(0, 2)) {
+    relatedResources.push({
+      href: `/${locale}/apps/${app.slug}`,
+      title: getLocalizedAppDisplayName(app.appId, locale),
+      description: `${themeName} ${worksheetsLabel[locale] || 'Worksheets'}`,
+      pageType: 'product-page',
+    });
+  }
 
   // Heading
   const heading = locale === 'en'
@@ -622,6 +669,54 @@ export default async function ThemeGradePage({
           </div>
         </section>
       )}
+
+      {/* Cross-Theme Grade Links (same grade, different themes) */}
+      {(crossThemeLinks.sameCategory.length > 0 || crossThemeLinks.otherCategories.length > 0) && (
+        <section className="py-12" style={{ contentVisibility: 'auto', containIntrinsicSize: 'auto 300px' }}>
+          <div className="container mx-auto px-4">
+            {crossThemeLinks.sameCategory.length > 0 && (
+              <div className="mb-8">
+                <h2 className="text-2xl font-bold text-gray-900 mb-4 text-center">
+                  {(moreGradeWorksheetsLabel[locale] || moreGradeWorksheetsLabel.en).replace('{gradeName}', gradeName)}
+                </h2>
+                <div className="flex flex-wrap justify-center gap-3">
+                  {crossThemeLinks.sameCategory.map(link => (
+                    <Link
+                      key={link.themeId}
+                      href={link.href}
+                      className="bg-white border border-gray-200 rounded-full px-5 py-2 text-sm font-medium text-gray-700 hover:bg-blue-50 hover:border-blue-300 hover:text-blue-700 transition-colors"
+                    >
+                      {link.themeName}
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            )}
+            {crossThemeLinks.otherCategories.length > 0 && (
+              <div>
+                <h3 className="text-lg font-semibold text-gray-800 mb-3 text-center">
+                  {exploreOtherCategoriesLabel[locale] || exploreOtherCategoriesLabel.en}
+                </h3>
+                <div className="flex flex-wrap justify-center gap-3">
+                  {crossThemeLinks.otherCategories.map(link => (
+                    <Link
+                      key={link.themeId}
+                      href={link.href}
+                      className="bg-white border border-gray-200 rounded-lg px-4 py-2 text-sm font-medium text-gray-700 hover:bg-teal-50 hover:border-teal-300 hover:text-teal-700 transition-colors"
+                    >
+                      <span className="block text-xs text-gray-400">{link.categoryLabel}</span>
+                      {link.themeName}
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            )}
+          </div>
+        </section>
+      )}
+
+      {/* Unified Related Resources */}
+      <RelatedResources locale={locale} resources={relatedResources} />
     </div>
   );
 }

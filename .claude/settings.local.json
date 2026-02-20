@@ -283,7 +283,12 @@
       "WebFetch(domain:creativecota.com)",
       "WebFetch(domain:www.missbeccasclassroom.com)",
       "WebFetch(domain:help.eduki.com)",
-      "WebFetch(domain:www.betterteachingresources.com)"
+      "WebFetch(domain:www.betterteachingresources.com)",
+      "WebFetch(domain:schema.org)",
+      "WebFetch(domain:seotuners.com)",
+      "WebFetch(domain:relixir.ai)",
+      "WebFetch(domain:geneo.app)",
+      "WebFetch(domain:www.stackmatix.com)"
     ],
     "deny": [],
     "ask": []

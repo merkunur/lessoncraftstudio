@@ -116,6 +116,27 @@ export interface RelatedApp {
   description: string;
 }
 
+/** A feature comparison row for "us vs alternatives" tables */
+export interface ComparisonRow {
+  feature: string;
+  ourApp: string;
+  typical: string;
+}
+
+/** An attributed teacher/educator testimonial */
+export interface TeacherTestimonial {
+  quote: string;
+  name: string;
+  role: string;
+  school: string;
+}
+
+/** A research-backed claim with citation source (E-E-A-T) */
+export interface ResearchBacking {
+  claim: string;
+  source: string;
+}
+
 export interface ProductPageContent {
   // SEO Metadata - used for routing and hreflang
   // Optional for backwards compatibility during migration to language-specific slugs
@@ -291,6 +312,17 @@ export interface ProductPageContent {
       cancelAnytime: string;
     };
   };
+
+  // -- SEO & Content Enrichment (Part 9) ------------------------------------
+
+  /** 2-3 sentence direct answer optimized for AI Overview / featured snippets */
+  aiOverviewSnippet?: string;
+  /** Feature comparison table: our app vs typical alternatives */
+  comparisonTable?: ComparisonRow[];
+  /** Attributed teacher/educator testimonials for social proof */
+  teacherTestimonials?: TeacherTestimonial[];
+  /** Research-backed claims with sources for E-E-A-T credibility */
+  researchBacking?: ResearchBacking[];
 }
 
 // Discovered sample from server-side filesystem scan (for SSR)

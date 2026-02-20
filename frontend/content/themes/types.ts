@@ -100,6 +100,21 @@ export interface GradeLearningContent {
   worksheetSuggestions?: WorksheetSuggestion[];
   /** Research-backed developmental milestone for this age+theme */
   developmentalMilestone?: string;
+
+  // -- Grade-Level Differentiation (Part 8) ------------------------------------
+
+  /** Why THIS grade level is uniquely suited for this theme */
+  uniqueGradeAngle?: string;
+  /** Structured developmental milestones with activity connections */
+  developmentalMilestones?: DevelopmentalMilestone[];
+  /** How to adapt for advanced/struggling learners at this grade */
+  differentiationNotes?: string;
+  /** Key takeaway for parents about this grade level */
+  parentTakeaway?: string;
+  /** How to integrate theme activities into existing curriculum */
+  classroomIntegration?: string;
+  /** Structured assessment criteria with proficiency levels */
+  assessmentRubric?: AssessmentRubric[];
 }
 
 /** A hands-on activity suggestion for the theme */
@@ -156,6 +171,60 @@ export interface WorksheetSuggestion {
   description: string;
   /** The worksheet app to use */
   appId: AppId;
+}
+
+/** A real classroom scenario showing theme application */
+export interface ClassroomScenario {
+  situation: string;
+  solution: string;
+  outcome: string;
+}
+
+/** An expert-sourced teaching tip with attribution */
+export interface ExpertTip {
+  tip: string;
+  source: string;
+  gradeRange: string;
+}
+
+/** A cross-curricular connection for deeper learning */
+export interface CrossCurricularLink {
+  subject: string;
+  connection: string;
+  activity: string;
+}
+
+/** An adaptation strategy for diverse learners */
+export interface DifferentiationStrategy {
+  learnerType: string;
+  adaptation: string;
+}
+
+/** An assessment approach for measuring learning */
+export interface AssessmentIdea {
+  method: string;
+  criteria: string;
+  gradeLevel: string;
+}
+
+/** A quick stat for tables and featured snippets */
+export interface QuickStat {
+  label: string;
+  value: string;
+}
+
+/** A structured assessment rubric for measuring grade-level proficiency */
+export interface AssessmentRubric {
+  skill: string;
+  emerging: string;
+  proficient: string;
+  advanced: string;
+}
+
+/** A developmental milestone with connection to worksheet activities */
+export interface DevelopmentalMilestone {
+  milestone: string;
+  howWeAddress: string;
 }
 
 // -- Main Interface ---------------------------------------------------------
@@ -241,6 +310,21 @@ export interface EnrichedThemeContent {
   themeComparisons?: ThemeComparison[];
   /** Honest limitations — when NOT to use this theme */
   limitations?: string;
+
+  // -- Expert Content & Differentiation (Part 7) -----------------------------
+
+  /** Real classroom scenarios demonstrating theme application */
+  classroomScenarios?: ClassroomScenario[];
+  /** Expert-sourced tips with attribution and grade targeting */
+  expertTips?: ExpertTip[];
+  /** Cross-curricular connections to other subject areas */
+  crossCurricularLinks?: CrossCurricularLink[];
+  /** Adaptation strategies for diverse learners */
+  differentiationStrategies?: DifferentiationStrategy[];
+  /** Assessment approaches for measuring learning outcomes */
+  assessmentIdeas?: AssessmentIdea[];
+  /** Key statistics for tables and featured snippet targeting */
+  quickStats?: QuickStat[];
 }
 
 // -- Utility Types ----------------------------------------------------------

@@ -1,8 +1,10 @@
 # English Theme+Grade Pages — Keyword Map (Themes 1-50)
 
-> Parts 6-10 of the ONE CLICK A DAY SEO plan.
-> This document maps unique primary keywords, optimized titles, descriptions, and secondary keywords
-> for 250 theme+grade pages (themes 1-50 x 5 grades). Complete — all 50 themes mapped.
+> Parts 6-10 of the ONE CLICK A DAY SEO plan (primary keywords, secondary keywords, titles, descriptions).
+> Part 6 of the LANDING PAGE SEO PERFECTION plan (LSI keywords, question keywords, SERP analysis).
+>
+> This document maps unique primary keywords, optimized titles, descriptions, secondary keywords,
+> LSI keywords, question keywords, and SERP analysis for all 250 English theme+grade pages.
 
 ---
 
@@ -334,6 +336,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. animal tracing worksheets pre-K
 5. preschool counting with animal pictures
 
+**LSI Keywords (5):**
+1. fine motor tracing
+2. animal habitats
+3. sensory exploration
+4. one-to-one counting
+5. visual discrimination
+
+**Question Keywords (2):**
+1. What are the best animal worksheets for preschool-aged children?
+2. How do animal-themed activities help preschoolers learn to count?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 2. Animals — Kindergarten (`animals/kindergarten`)
@@ -353,6 +372,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 3. animal pattern worksheets kindergarten
 4. animal vocabulary activities kindergarten
 5. kindergarten animal letter recognition
+
+**LSI Keywords (5):**
+1. phonemic awareness
+2. animal classification
+3. beginning reading
+4. letter sounds
+5. emergent literacy
+
+**Question Keywords (2):**
+1. What animal worksheets are best for kindergarten students?
+2. How do animal reading activities support literacy in kindergarten?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
 
 ---
 
@@ -374,6 +410,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. animal math facts worksheets ages 6-7
 5. first grade animal science worksheets
 
+**LSI Keywords (5):**
+1. reading fluency
+2. animal adaptations
+3. word problems
+4. comprehension strategies
+5. informational text
+
+**Question Keywords (2):**
+1. What animal math worksheets are best for first grade students?
+2. How do animal-themed word problems build math skills in first grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 4. Animals — Second Grade (`animals/second-grade`)
@@ -394,6 +447,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. animal data and graphing second grade
 5. second grade animal life cycle worksheets
 
+**LSI Keywords (5):**
+1. animal classification
+2. research skills
+3. nonfiction writing
+4. data collection
+5. compare and contrast
+
+**Question Keywords (2):**
+1. What animal science worksheets are best for second grade students?
+2. How do animal-themed research activities build writing skills in second grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 5. Animals — Third Grade (`animals/third-grade`)
@@ -413,6 +483,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 3. animal report worksheets ages 8-9
 4. animal multiplication worksheets third grade
 5. third grade animal writing worksheets
+
+**LSI Keywords (5):**
+1. research report
+2. text evidence
+3. multi-paragraph writing
+4. scientific classification
+5. critical analysis
+
+**Question Keywords (2):**
+1. What animal research worksheets are best for third grade students?
+2. How do animal-themed projects develop research skills in third grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
 
 ---
 
@@ -438,6 +525,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. food counting worksheets pre-K
 5. preschool healthy food worksheets
 
+**LSI Keywords (5):**
+1. nutrition basics
+2. food groups
+3. sensory play
+4. classification skills
+5. healthy eating habits
+
+**Question Keywords (2):**
+1. What food worksheets work best for preschool learners?
+2. How can food sorting activities build early math skills in preschool?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 7. Food — Kindergarten (`food/kindergarten`)
@@ -457,6 +561,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 3. food word worksheets kindergarten
 4. healthy eating worksheets kindergarten
 5. kindergarten food math activities
+
+**LSI Keywords (5):**
+1. number sense
+2. food vocabulary
+3. counting practice
+4. healthy choices
+5. nutritional literacy
+
+**Question Keywords (2):**
+1. What food counting worksheets are best for kindergarten learners?
+2. How do food-themed math activities build number sense in kindergarten?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
 
 ---
 
@@ -478,6 +599,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. food math worksheets first grade
 5. first grade food science worksheets
 
+**LSI Keywords (5):**
+1. nutrition science
+2. reading comprehension
+3. measurement introduction
+4. food pyramid
+5. informational reading
+
+**Question Keywords (2):**
+1. What food nutrition worksheets are appropriate for first graders?
+2. How do food-themed reading activities support comprehension in first grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 9. Food — Second Grade (`food/second-grade`)
@@ -498,6 +636,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. food measurement worksheets grade 2
 5. second grade food reading comprehension
 
+**LSI Keywords (5):**
+1. bar graphs
+2. data representation
+3. survey skills
+4. tally charts
+5. pictograph reading
+
+**Question Keywords (2):**
+1. What food graphing worksheets are appropriate for second graders?
+2. How do food-themed data activities build graphing skills in second grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 10. Food — Third Grade (`food/third-grade`)
@@ -517,6 +672,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 3. food health research worksheets grade 3
 4. food multiplication worksheets third grade
 5. third grade nutrition reading worksheets
+
+**LSI Keywords (5):**
+1. fraction concepts
+2. part and whole
+3. equivalent fractions
+4. fraction comparison
+5. real-world fractions
+
+**Question Keywords (2):**
+1. What food fractions worksheets are appropriate for third graders?
+2. How do food-themed activities make fractions concrete in third grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
 
 ---
 
@@ -542,6 +714,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. vehicle counting activities pre-K
 5. preschool truck and car worksheets
 
+**LSI Keywords (5):**
+1. vehicle recognition
+2. spatial awareness
+3. hand-eye coordination
+4. categorization skills
+5. safety concepts
+
+**Question Keywords (2):**
+1. What vehicle worksheets are appropriate for preschool children?
+2. How do transportation activities develop spatial awareness in preschoolers?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 12. Transportation — Kindergarten (`transportation/kindergarten`)
@@ -561,6 +750,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 3. vehicle word worksheets kindergarten
 4. car and truck math worksheets kindergarten
 5. kindergarten transport sorting activities
+
+**LSI Keywords (5):**
+1. sight words
+2. vehicle categories
+3. counting to twenty
+4. positional words
+5. comparative language
+
+**Question Keywords (2):**
+1. What vehicle worksheets are appropriate for kindergarten students?
+2. How do transportation counting activities strengthen math skills in kindergarten?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
 
 ---
 
@@ -582,6 +788,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. vehicle math story problems first grade
 5. first grade car and train worksheets
 
+**LSI Keywords (5):**
+1. addition strategies
+2. subtraction facts
+3. word problem solving
+4. transportation modes
+5. mathematical reasoning
+
+**Question Keywords (2):**
+1. What vehicle word problem worksheets are best for first grade learners?
+2. How do transportation math activities build problem-solving in first grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 14. Transportation — Second Grade (`transportation/second-grade`)
@@ -602,6 +825,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. vehicle reading comprehension second grade
 5. second grade car math puzzles
 
+**LSI Keywords (5):**
+1. multi-digit addition
+2. word problems
+3. measurement skills
+4. elapsed time
+5. mathematical reasoning
+
+**Question Keywords (2):**
+1. What vehicle math worksheets are best for second grade students?
+2. How do transportation-themed problems develop multi-step thinking in second grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 15. Transportation — Third Grade (`transportation/third-grade`)
@@ -621,6 +861,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 3. transportation multiplication worksheets grade 3
 4. vehicle reading and writing third grade
 5. third grade transport problem solving
+
+**LSI Keywords (5):**
+1. logical reasoning
+2. deductive thinking
+3. multi-step problems
+4. strategy games
+5. analytical skills
+
+**Question Keywords (2):**
+1. What vehicle logic worksheets are best for third grade students?
+2. How do transportation-themed puzzles develop logical thinking in third grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
 
 ---
 
@@ -646,6 +903,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. nature matching worksheets pre-K
 5. preschool nature tracing activities
 
+**LSI Keywords (5):**
+1. outdoor exploration
+2. seasonal changes
+3. plant growth
+4. observation skills
+5. sensory learning
+
+**Question Keywords (2):**
+1. What nature worksheets are best for preschool-aged learners?
+2. How do nature observation activities support preschool development?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 17. Nature — Kindergarten (`nature/kindergarten`)
@@ -665,6 +939,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 3. nature pattern activities ages 5-6
 4. nature counting worksheets kindergarten
 5. kindergarten outdoor learning worksheets
+
+**LSI Keywords (5):**
+1. scientific inquiry
+2. living things
+3. seasonal observation
+4. nature vocabulary
+5. beginning science
+
+**Question Keywords (2):**
+1. What nature science worksheets work best for kindergarten learners?
+2. How do nature activities introduce scientific thinking in kindergarten?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
 
 ---
 
@@ -686,6 +977,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. nature word problems grade 1
 5. first grade plant and animal worksheets
 
+**LSI Keywords (5):**
+1. reading fluency
+2. nonfiction text
+3. close reading
+4. natural habitats
+5. text features
+
+**Question Keywords (2):**
+1. What nature reading worksheets work best for first grade students?
+2. How do nature-themed texts improve reading fluency in first grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 19. Nature — Second Grade (`nature/second-grade`)
@@ -706,6 +1014,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. ecosystem worksheets second grade
 5. second grade nature graphing activities
 
+**LSI Keywords (5):**
+1. habitat research
+2. ecosystem concepts
+3. science writing
+4. observation journals
+5. field study skills
+
+**Question Keywords (2):**
+1. What nature habitat worksheets work best for second graders?
+2. How do nature research activities develop scientific writing in second grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 20. Nature — Third Grade (`nature/third-grade`)
@@ -725,6 +1050,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 3. ecosystem worksheets grade 3
 4. nature writing worksheets third grade
 5. third grade nature multiplication puzzles
+
+**LSI Keywords (5):**
+1. ecosystem analysis
+2. food chains
+3. environmental science
+4. research writing
+5. evidence-based conclusions
+
+**Question Keywords (2):**
+1. What nature ecology worksheets work best for third graders?
+2. How do nature research activities develop scientific thinking in third grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
 
 ---
 
@@ -750,6 +1092,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. school supplies matching worksheets pre-K
 5. preschool classroom routine worksheets
 
+**LSI Keywords (5):**
+1. classroom routines
+2. social readiness
+3. self-help skills
+4. following directions
+5. cooperative play
+
+**Question Keywords (2):**
+1. What school readiness worksheets prepare preschoolers for kindergarten?
+2. How can school-themed activities build social skills in preschool?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 22. School — Kindergarten (`school/kindergarten`)
@@ -769,6 +1128,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 3. classroom rules worksheets kindergarten
 4. school word worksheets kindergarten
 5. kindergarten back to school activities
+
+**LSI Keywords (5):**
+1. sight word recognition
+2. classroom vocabulary
+3. cooperative learning
+4. school routines
+5. academic readiness
+
+**Question Keywords (2):**
+1. What school vocabulary worksheets help kindergarteners build word knowledge?
+2. How do school-themed activities develop reading readiness in kindergarten?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
 
 ---
 
@@ -790,6 +1166,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. school word problems first grade
 5. first grade classroom worksheets
 
+**LSI Keywords (5):**
+1. sight word fluency
+2. reading passages
+3. text comprehension
+4. story elements
+5. sentence structure
+
+**Question Keywords (2):**
+1. What school reading worksheets are best for first grade learners?
+2. How do school-themed passages develop comprehension in first grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 24. School — Second Grade (`school/second-grade`)
@@ -810,6 +1203,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. school data worksheets grade 2
 5. second grade classroom reading worksheets
 
+**LSI Keywords (5):**
+1. paragraph writing
+2. opinion writing
+3. text organization
+4. revision skills
+5. writing conventions
+
+**Question Keywords (2):**
+1. What school writing worksheets are appropriate for second grade students?
+2. How do school-themed writing activities build paragraph skills in second grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 25. School — Third Grade (`school/third-grade`)
@@ -829,6 +1239,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 3. school organization worksheets grade 3
 4. school reading analysis third grade
 5. third grade school project worksheets
+
+**LSI Keywords (5):**
+1. study strategies
+2. note-taking skills
+3. test preparation
+4. organizational skills
+5. independent learning
+
+**Question Keywords (2):**
+1. What school study skills worksheets are appropriate for third grade students?
+2. How do study skill activities prepare third graders for academic success?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
 
 ---
 
@@ -854,6 +1281,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. sports sorting worksheets pre-K
 5. preschool sports tracing activities
 
+**LSI Keywords (5):**
+1. gross motor skills
+2. physical coordination
+3. team concepts
+4. movement patterns
+5. body awareness
+
+**Question Keywords (2):**
+1. What sports worksheets are appropriate for preschool children?
+2. How do sports-themed activities develop coordination in preschoolers?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 27. Sports — Kindergarten (`sports/kindergarten`)
@@ -873,6 +1317,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 3. sports word worksheets kindergarten
 4. sports sorting worksheets kindergarten
 5. kindergarten sports counting activities
+
+**LSI Keywords (5):**
+1. pattern recognition
+2. sequential thinking
+3. repeating patterns
+4. physical education
+5. movement vocabulary
+
+**Question Keywords (2):**
+1. What sports pattern worksheets are best for kindergarten students?
+2. How do sports-themed activities teach pattern recognition in kindergarten?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
 
 ---
 
@@ -894,6 +1355,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. sports reading worksheets grade 1
 5. first grade sports word problems
 
+**LSI Keywords (5):**
+1. addition facts
+2. subtraction practice
+3. fact families
+4. number sentences
+5. mental math
+
+**Question Keywords (2):**
+1. What sports math worksheets are appropriate for first grade students?
+2. How do sports-themed activities reinforce addition facts in first grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 29. Sports — Second Grade (`sports/second-grade`)
@@ -914,6 +1392,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. sports reading comprehension second grade
 5. second grade sports math puzzles
 
+**LSI Keywords (5):**
+1. data analysis
+2. measurement units
+3. bar graph creation
+4. statistical thinking
+5. numerical comparison
+
+**Question Keywords (2):**
+1. What sports data worksheets are best for second grade learners?
+2. How do sports-themed activities develop data analysis skills in second grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 30. Sports — Third Grade (`sports/third-grade`)
@@ -933,6 +1428,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 3. sports statistics worksheets grade 3
 4. sports reading analysis third grade
 5. third grade sports logic worksheets
+
+**LSI Keywords (5):**
+1. multiplication facts
+2. array models
+3. equal groups
+4. fact fluency
+5. multiplicative thinking
+
+**Question Keywords (2):**
+1. What sports multiplication worksheets are best for third grade learners?
+2. How do sports-themed activities build multiplication fluency in third grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
 
 ---
 
@@ -958,6 +1470,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. facial expressions worksheets preschool
 5. preschool emotion identification activities
 
+**LSI Keywords (5):**
+1. social-emotional learning
+2. feeling identification
+3. self-regulation
+4. empathy building
+5. facial expressions
+
+**Question Keywords (2):**
+1. What feelings worksheets help preschoolers identify emotions?
+2. How can emotion-themed activities build empathy in preschool children?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 32. Emotions — Kindergarten (`emotions/kindergarten`)
@@ -977,6 +1506,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 3. emotion words activities ages 5-6
 4. feelings word worksheets kindergarten
 5. kindergarten social emotional worksheets
+
+**LSI Keywords (5):**
+1. feeling words
+2. social awareness
+3. emotional vocabulary
+4. self-expression
+5. conflict resolution
+
+**Question Keywords (2):**
+1. What emotions vocabulary worksheets are best for kindergarten students?
+2. How do feelings activities build social awareness in kindergarten children?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
 
 ---
 
@@ -998,6 +1544,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. emotion reading passages first grade
 5. first grade social skills worksheets
 
+**LSI Keywords (5):**
+1. reading response
+2. character feelings
+3. story comprehension
+4. inference skills
+5. text connections
+
+**Question Keywords (2):**
+1. What feelings reading worksheets are best for first graders?
+2. How do emotion-themed texts teach inference skills in first grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 34. Emotions — Second Grade (`emotions/second-grade`)
@@ -1018,6 +1581,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. social emotional worksheets second grade
 5. second grade empathy reading activities
 
+**LSI Keywords (5):**
+1. reading comprehension
+2. character motivation
+3. text analysis
+4. inferential thinking
+5. perspective taking
+
+**Question Keywords (2):**
+1. What emotions comprehension worksheets are appropriate for second graders?
+2. How do emotion-themed texts build inferential thinking in second grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 35. Emotions — Third Grade (`emotions/third-grade`)
@@ -1037,6 +1617,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 3. feelings writing worksheets grade 3
 4. social emotional activities third grade
 5. third grade feelings reading analysis
+
+**LSI Keywords (5):**
+1. social-emotional curriculum
+2. perspective analysis
+3. empathy development
+4. conflict resolution writing
+5. character education
+
+**Question Keywords (2):**
+1. What social emotional learning worksheets are best for third graders?
+2. How do SEL activities develop perspective-taking in third grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
 
 ---
 
@@ -1062,6 +1659,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. body matching worksheets pre-K
 5. preschool body parts identification
 
+**LSI Keywords (5):**
+1. body awareness
+2. hygiene habits
+3. sensory input
+4. physical development
+5. self-care skills
+
+**Question Keywords (2):**
+1. What body parts worksheets are best for preschool-aged children?
+2. How do body-themed activities teach self-care skills to preschoolers?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 37. Body — Kindergarten (`body/kindergarten`)
@@ -1081,6 +1695,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 3. senses science worksheets kindergarten
 4. body parts word worksheets kindergarten
 5. kindergarten my body activities
+
+**LSI Keywords (5):**
+1. five senses exploration
+2. body systems basics
+3. health awareness
+4. sensory vocabulary
+5. body functions
+
+**Question Keywords (2):**
+1. What five senses worksheets work best for kindergarten learners?
+2. How do body-themed activities introduce health concepts in kindergarten?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
 
 ---
 
@@ -1102,6 +1733,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. body parts math worksheets first grade
 5. first grade anatomy reading passages
 
+**LSI Keywords (5):**
+1. health education
+2. body functions
+3. science reading
+4. diagram labels
+5. nonfiction comprehension
+
+**Question Keywords (2):**
+1. What body health worksheets are appropriate for first grade students?
+2. How do body-themed activities integrate science and reading in first grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 39. Body — Second Grade (`body/second-grade`)
@@ -1122,6 +1770,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. organ systems worksheets second grade
 5. second grade body reading comprehension
 
+**LSI Keywords (5):**
+1. organ systems
+2. science diagrams
+3. labeled drawings
+4. body functions
+5. health science literacy
+
+**Question Keywords (2):**
+1. What body anatomy worksheets are best for second grade students?
+2. How do body-themed activities develop science diagram skills in second grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 40. Body — Third Grade (`body/third-grade`)
@@ -1141,6 +1806,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 3. organ systems worksheets grade 3
 4. body science writing third grade
 5. third grade human body project worksheets
+
+**LSI Keywords (5):**
+1. body systems
+2. organ functions
+3. scientific diagrams
+4. research projects
+5. health science writing
+
+**Question Keywords (2):**
+1. What body systems worksheets are appropriate for third grade students?
+2. How do body-themed research projects build science skills in third grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
 
 ---
 
@@ -1166,6 +1848,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. seasonal clothing worksheets pre-K
 5. preschool clothing matching activities
 
+**LSI Keywords (5):**
+1. dressing skills
+2. seasonal clothing
+3. fabric textures
+4. self-help routines
+5. attribute sorting
+
+**Question Keywords (2):**
+1. What clothing worksheets help preschoolers learn sorting skills?
+2. How can clothing-themed activities teach preschoolers about seasons?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 42. Clothing — Kindergarten (`clothing/kindergarten`)
@@ -1185,6 +1884,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 3. clothing word worksheets kindergarten
 4. seasonal clothing worksheets kindergarten
 5. kindergarten outfit sorting activities
+
+**LSI Keywords (5):**
+1. pattern sequences
+2. weather-appropriate dress
+3. attribute words
+4. seasonal vocabulary
+5. sorting criteria
+
+**Question Keywords (2):**
+1. What clothing pattern worksheets are appropriate for kindergarten students?
+2. How do clothing-themed activities teach pattern skills in kindergarten?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
 
 ---
 
@@ -1206,6 +1922,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. clothing math worksheets grade 1
 5. first grade seasonal clothing worksheets
 
+**LSI Keywords (5):**
+1. vocabulary development
+2. word meaning
+3. context clues
+4. adjective practice
+5. descriptive writing
+
+**Question Keywords (2):**
+1. What clothing vocabulary worksheets are best for first grade learners?
+2. How do clothing-themed activities build descriptive language in first grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 44. Clothing — Second Grade (`clothing/second-grade`)
@@ -1226,6 +1959,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. clothing reading comprehension grade 2
 5. second grade clothing sorting worksheets
 
+**LSI Keywords (5):**
+1. money concepts
+2. price comparison
+3. addition with regrouping
+4. consumer math
+5. decimal introduction
+
+**Question Keywords (2):**
+1. What clothing math worksheets work best for second graders?
+2. How do clothing-themed activities teach money concepts in second grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 45. Clothing — Third Grade (`clothing/third-grade`)
@@ -1245,6 +1995,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 3. clothing math worksheets grade 3
 4. clothing writing worksheets third grade
 5. third grade fashion and design activities
+
+**LSI Keywords (5):**
+1. design thinking
+2. creative writing
+3. persuasive text
+4. descriptive paragraphs
+5. artistic expression
+
+**Question Keywords (2):**
+1. What clothing design worksheets are best for third grade learners?
+2. How do clothing-themed activities develop creative writing in third grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
 
 ---
 
@@ -1270,6 +2037,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. home objects worksheets pre-K
 5. preschool household coloring activities
 
+**LSI Keywords (5):**
+1. room identification
+2. object names
+3. daily routines
+4. safety awareness
+5. functional vocabulary
+
+**Question Keywords (2):**
+1. What household worksheets are suitable for preschool children?
+2. How do household matching activities develop vocabulary in preschoolers?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 47. Household — Kindergarten (`household/kindergarten`)
@@ -1289,6 +2073,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 3. household vocabulary kindergarten
 4. home counting activities kindergarten
 5. kindergarten household matching activities
+
+**LSI Keywords (5):**
+1. counting objects
+2. room vocabulary
+3. ordinal numbers
+4. positional language
+5. categorizing skills
+
+**Question Keywords (2):**
+1. What household counting worksheets are best for kindergarten learners?
+2. How do household activities develop counting skills in kindergarten?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
 
 ---
 
@@ -1310,6 +2111,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. household math worksheets grade 1
 5. first grade home vocabulary worksheets
 
+**LSI Keywords (5):**
+1. reading passages
+2. functional text
+3. word meaning
+4. sequence events
+5. informational literacy
+
+**Question Keywords (2):**
+1. What household reading worksheets work best for first graders?
+2. How do household-themed texts develop functional literacy in first grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 49. Household — Second Grade (`household/second-grade`)
@@ -1330,6 +2148,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. household reading comprehension second grade
 5. second grade home math worksheets
 
+**LSI Keywords (5):**
+1. measurement tools
+2. standard units
+3. length and width
+4. capacity concepts
+5. estimation skills
+
+**Question Keywords (2):**
+1. What household measurement worksheets are appropriate for second grade students?
+2. How do household-themed activities develop measurement skills in second grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 50. Household — Third Grade (`household/third-grade`)
@@ -1349,6 +2184,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 3. household multiplication worksheets grade 3
 4. household writing worksheets third grade
 5. third grade home economics worksheets
+
+**LSI Keywords (5):**
+1. budgeting basics
+2. money management
+3. addition and subtraction
+4. real-world math
+5. financial literacy
+
+**Question Keywords (2):**
+1. What household budgeting worksheets work best for third graders?
+2. How do household-themed activities introduce financial literacy in third grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
 
 ---
 
@@ -1374,6 +2226,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. toy counting activities pre-K
 5. preschool toy color worksheets
 
+**LSI Keywords (5):**
+1. imaginative play
+2. sharing skills
+3. object sorting
+4. size comparison
+5. play-based learning
+
+**Question Keywords (2):**
+1. What toy-themed worksheets engage preschool-aged learners?
+2. How do toy counting activities build number sense in preschoolers?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 52. Toys — Kindergarten (`toys/kindergarten`)
@@ -1393,6 +2262,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 3. toy name learning worksheets kindergarten
 4. toy size sorting activities kindergarten
 5. kindergarten toy counting and words
+
+**LSI Keywords (5):**
+1. descriptive words
+2. toy classification
+3. beginning writing
+4. noun vocabulary
+5. word building
+
+**Question Keywords (2):**
+1. What toy vocabulary worksheets engage kindergarten students?
+2. How do toy-themed activities build descriptive language in kindergarten?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
 
 ---
 
@@ -1414,6 +2300,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. toy addition activities grade 1
 5. first grade toy literacy worksheets
 
+**LSI Keywords (5):**
+1. addition practice
+2. number sentences
+3. counting on strategy
+4. sum and difference
+5. computational fluency
+
+**Question Keywords (2):**
+1. What toy addition worksheets are appropriate for first grade students?
+2. How do toy-themed math activities build addition fluency in first grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 54. Toys — Second Grade (`toys/second-grade`)
@@ -1434,6 +2337,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. toy reading comprehension grade 2
 5. second grade toy math puzzles
 
+**LSI Keywords (5):**
+1. data collection
+2. survey design
+3. tally marks
+4. pictograph creation
+5. statistical questions
+
+**Question Keywords (2):**
+1. What toy data worksheets are best for second grade learners?
+2. How do toy-themed surveys teach data collection in second grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 55. Toys — Third Grade (`toys/third-grade`)
@@ -1453,6 +2373,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 3. toy multiplication worksheets grade 3
 4. toy writing worksheets third grade
 5. third grade toy project activities
+
+**LSI Keywords (5):**
+1. design process
+2. persuasive writing
+3. descriptive text
+4. creative problem-solving
+5. invention skills
+
+**Question Keywords (2):**
+1. What toy design worksheets are appropriate for third grade students?
+2. How do toy-themed activities develop creative problem-solving in third grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
 
 ---
 
@@ -1479,6 +2416,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. instrument tracing worksheets pre-K
 5. preschool music listening activities
 
+**LSI Keywords (5):**
+1. rhythm awareness
+2. sound discrimination
+3. auditory skills
+4. tempo concepts
+5. instrument names
+
+**Question Keywords (2):**
+1. What music worksheets are appropriate for preschool children?
+2. How do music matching activities develop listening skills in preschoolers?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 57. Music — Kindergarten (`music/kindergarten`)
@@ -1498,6 +2452,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 3. music vocabulary worksheets kindergarten
 4. instrument sorting worksheets kindergarten
 5. kindergarten music counting activities
+
+**LSI Keywords (5):**
+1. sound patterns
+2. instrument families
+3. auditory discrimination
+4. rhythm patterns
+5. listening skills
+
+**Question Keywords (2):**
+1. What instrument vocabulary worksheets are best for kindergarten students?
+2. How do music activities develop auditory skills in kindergarten learners?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
 
 ---
 
@@ -1519,6 +2490,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. music literacy activities grade 1
 5. first grade song and rhythm worksheets
 
+**LSI Keywords (5):**
+1. reading comprehension
+2. text details
+3. key ideas
+4. informational passages
+5. subject vocabulary
+
+**Question Keywords (2):**
+1. What music reading worksheets are best for first grade learners?
+2. How do music-themed passages develop informational reading in first grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 59. Music — Second Grade (`music/second-grade`)
@@ -1539,6 +2527,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. music comprehension worksheets grade 2
 5. second grade instrument data worksheets
 
+**LSI Keywords (5):**
+1. pattern extension
+2. rhythmic patterns
+3. repeating sequences
+4. growing patterns
+5. rule identification
+
+**Question Keywords (2):**
+1. What music pattern worksheets are appropriate for second graders?
+2. How do music-themed activities develop pattern recognition in second grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 60. Music — Third Grade (`music/third-grade`)
@@ -1558,6 +2563,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 3. music multiplication worksheets grade 3
 4. music writing worksheets third grade
 5. third grade music analysis activities
+
+**LSI Keywords (5):**
+1. composition elements
+2. creative expression
+3. pattern analysis
+4. fraction connections
+5. rhythmic notation
+
+**Question Keywords (2):**
+1. What music composition worksheets are best for third grade learners?
+2. How do music-themed activities connect fractions and rhythm in third grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
 
 ---
 
@@ -1584,6 +2606,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. career tracing worksheets pre-K
 5. preschool helper sorting activities
 
+**LSI Keywords (5):**
+1. role play
+2. community awareness
+3. helper roles
+4. dramatic play
+5. social understanding
+
+**Question Keywords (2):**
+1. What community helper worksheets are best for preschool-aged children?
+2. How do job-themed activities teach preschoolers about their community?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 62. Jobs — Kindergarten (`jobs/kindergarten`)
@@ -1603,6 +2642,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 3. jobs word worksheets kindergarten
 4. helper uniform matching kindergarten
 5. kindergarten jobs counting activities
+
+**LSI Keywords (5):**
+1. community roles
+2. career vocabulary
+3. workplace tools
+4. helper identification
+5. social studies basics
+
+**Question Keywords (2):**
+1. What career vocabulary worksheets work best for kindergarten learners?
+2. How do community helper activities introduce social studies in kindergarten?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
 
 ---
 
@@ -1624,6 +2680,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. career math worksheets first grade
 5. first grade helper writing worksheets
 
+**LSI Keywords (5):**
+1. career awareness
+2. reading passages
+3. nonfiction text
+4. main idea
+5. supporting details
+
+**Question Keywords (2):**
+1. What career reading worksheets are appropriate for first graders?
+2. How do job-themed texts teach main idea skills in first grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 64. Jobs — Second Grade (`jobs/second-grade`)
@@ -1644,6 +2717,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. community helper writing grade 2
 5. second grade jobs math worksheets
 
+**LSI Keywords (5):**
+1. reading comprehension
+2. text features
+3. main idea and details
+4. informational writing
+5. research basics
+
+**Question Keywords (2):**
+1. What career comprehension worksheets are best for second grade students?
+2. How do job-themed texts develop comprehension strategies in second grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 65. Jobs — Third Grade (`jobs/third-grade`)
@@ -1663,6 +2753,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 3. career multiplication worksheets grade 3
 4. community helper analysis third grade
 5. third grade career project worksheets
+
+**LSI Keywords (5):**
+1. career research
+2. informational writing
+3. interview skills
+4. note-taking
+5. presentation preparation
+
+**Question Keywords (2):**
+1. What career research worksheets are best for third graders?
+2. How do job-themed research projects build writing skills in third grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
 
 ---
 
@@ -1689,6 +2796,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. planet matching worksheets pre-K
 5. preschool space sorting activities
 
+**LSI Keywords (5):**
+1. star shapes
+2. night sky
+3. planet names
+4. celestial objects
+5. visual wonder
+
+**Question Keywords (2):**
+1. What space worksheets are appropriate for preschool learners?
+2. How do space-themed counting activities engage preschool children?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 67. Space — Kindergarten (`space/kindergarten`)
@@ -1708,6 +2832,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 3. planet counting worksheets kindergarten
 4. space pattern activities kindergarten
 5. kindergarten solar system worksheets
+
+**LSI Keywords (5):**
+1. planet names
+2. solar system basics
+3. space vocabulary
+4. star patterns
+5. astronomical terms
+
+**Question Keywords (2):**
+1. What planet vocabulary worksheets are appropriate for kindergarten students?
+2. How do space-themed activities expand vocabulary in kindergarten?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
 
 ---
 
@@ -1729,6 +2870,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. space math worksheets first grade
 5. first grade astronaut writing worksheets
 
+**LSI Keywords (5):**
+1. planet facts
+2. nonfiction reading
+3. text evidence
+4. science vocabulary
+5. informational comprehension
+
+**Question Keywords (2):**
+1. What planet reading worksheets are best for first grade students?
+2. How do space-themed activities build science literacy in first grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 69. Space — Second Grade (`space/second-grade`)
@@ -1749,6 +2907,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. space reading comprehension second grade
 5. second grade space math worksheets
 
+**LSI Keywords (5):**
+1. data graphing
+2. measurement comparison
+3. scale concepts
+4. distance estimation
+5. numerical ordering
+
+**Question Keywords (2):**
+1. What space graphing worksheets work best for second graders?
+2. How do space-themed data activities build graphing skills in second grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 70. Space — Third Grade (`space/third-grade`)
@@ -1768,6 +2943,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 3. space multiplication worksheets grade 3
 4. space writing worksheets third grade
 5. third grade solar system projects
+
+**LSI Keywords (5):**
+1. space research
+2. solar system facts
+3. scientific inquiry
+4. multi-source research
+5. evidence-based writing
+
+**Question Keywords (2):**
+1. What space research worksheets are appropriate for third grade students?
+2. How do space-themed projects develop research skills in third grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
 
 ---
 
@@ -1794,6 +2986,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. weather sorting worksheets pre-K
 5. preschool four seasons activities
 
+**LSI Keywords (5):**
+1. calendar concepts
+2. weather changes
+3. seasonal clothing
+4. nature cycles
+5. temporal awareness
+
+**Question Keywords (2):**
+1. What seasonal worksheets help preschoolers learn about the year?
+2. How do seasonal sorting activities build classification skills in preschool?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 72. Seasons — Kindergarten (`seasons/kindergarten`)
@@ -1813,6 +3022,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 3. four seasons vocabulary kindergarten
 4. season counting worksheets kindergarten
 5. kindergarten weather and seasons pages
+
+**LSI Keywords (5):**
+1. seasonal vocabulary
+2. calendar skills
+3. weather words
+4. cyclical patterns
+5. time concepts
+
+**Question Keywords (2):**
+1. What seasons vocabulary worksheets are best for kindergarten learners?
+2. How do seasonal activities teach cyclical patterns in kindergarten?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
 
 ---
 
@@ -1834,6 +3060,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. seasons math worksheets first grade
 5. first grade seasonal change worksheets
 
+**LSI Keywords (5):**
+1. seasonal reading
+2. compare and contrast
+3. text features
+4. science connections
+5. descriptive language
+
+**Question Keywords (2):**
+1. What seasons reading worksheets work best for first grade learners?
+2. How do seasonal texts develop compare-and-contrast skills in first grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 74. Seasons — Second Grade (`seasons/second-grade`)
@@ -1854,6 +3097,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. seasons comprehension worksheets grade 2
 5. second grade seasonal comparison pages
 
+**LSI Keywords (5):**
+1. graphing data
+2. temperature comparison
+3. seasonal data sets
+4. chart reading
+5. trend analysis
+
+**Question Keywords (2):**
+1. What seasons graphing worksheets are appropriate for second grade students?
+2. How do seasonal data activities develop chart-reading skills in second grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 75. Seasons — Third Grade (`seasons/third-grade`)
@@ -1873,6 +3133,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 3. seasons multiplication worksheets grade 3
 4. four seasons analysis third grade
 5. third grade seasonal science projects
+
+**LSI Keywords (5):**
+1. research projects
+2. compare-contrast writing
+3. data analysis
+4. scientific reasoning
+5. multi-paragraph text
+
+**Question Keywords (2):**
+1. What seasons research worksheets are best for third grade learners?
+2. How do seasonal research projects develop analytical writing in third grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
 
 ---
 
@@ -1899,6 +3176,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. holiday tracing worksheets pre-K
 5. preschool party themed activities
 
+**LSI Keywords (5):**
+1. cultural traditions
+2. festive crafts
+3. celebration themes
+4. seasonal events
+5. family customs
+
+**Question Keywords (2):**
+1. What holiday worksheets are best for preschool-aged children?
+2. How can holiday coloring activities develop fine motor skills in preschool?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 77. Holidays — Kindergarten (`holidays/kindergarten`)
@@ -1918,6 +3212,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 3. celebration word worksheets kindergarten
 4. holiday pattern worksheets kindergarten
 5. kindergarten party counting activities
+
+**LSI Keywords (5):**
+1. counting practice
+2. holiday vocabulary
+3. cultural awareness
+4. celebration words
+5. seasonal traditions
+
+**Question Keywords (2):**
+1. What holiday counting worksheets engage kindergarten students?
+2. How do holiday-themed activities reinforce counting in kindergarten?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
 
 ---
 
@@ -1939,6 +3250,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. holiday word problems grade 1
 5. first grade celebration writing pages
 
+**LSI Keywords (5):**
+1. reading passages
+2. cultural literacy
+3. comprehension questions
+4. story retelling
+5. text connections
+
+**Question Keywords (2):**
+1. What holiday reading worksheets are appropriate for first grade students?
+2. How do holiday-themed passages build reading comprehension in first grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 79. Holidays — Second Grade (`holidays/second-grade`)
@@ -1959,6 +3287,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. holiday writing worksheets grade 2
 5. second grade cultural holiday reading
 
+**LSI Keywords (5):**
+1. reading comprehension
+2. text connections
+3. author purpose
+4. cultural analysis
+5. compare and contrast
+
+**Question Keywords (2):**
+1. What holiday comprehension worksheets are best for second grade learners?
+2. How do holiday-themed texts develop critical reading in second grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 80. Holidays — Third Grade (`holidays/third-grade`)
@@ -1978,6 +3323,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 3. holiday multiplication worksheets grade 3
 4. holiday writing worksheets third grade
 5. third grade celebration project pages
+
+**LSI Keywords (5):**
+1. cultural research
+2. informational writing
+3. multi-source reading
+4. text synthesis
+5. presentation skills
+
+**Question Keywords (2):**
+1. What holiday research worksheets work best for third graders?
+2. How do holiday-themed projects build research and writing in third grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
 
 ---
 
@@ -2004,6 +3366,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. rain and sun sorting worksheets pre-K
 5. preschool weather observation pages
 
+**LSI Keywords (5):**
+1. temperature concepts
+2. cloud types
+3. precipitation
+4. sunny and rainy
+5. weather vocabulary
+
+**Question Keywords (2):**
+1. What weather worksheets are appropriate for preschool learners?
+2. How do weather tracing activities build pre-writing skills in preschoolers?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 82. Weather — Kindergarten (`weather/kindergarten`)
@@ -2023,6 +3402,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 3. cloud vocabulary worksheets kindergarten
 4. weather counting worksheets kindergarten
 5. kindergarten weather chart activities
+
+**LSI Keywords (5):**
+1. weather words
+2. observation skills
+3. descriptive language
+4. forecast vocabulary
+5. data recording
+
+**Question Keywords (2):**
+1. What weather vocabulary worksheets are best for kindergarten students?
+2. How do weather observation activities build science skills in kindergarten?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
 
 ---
 
@@ -2044,6 +3440,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. cloud and rain science worksheets grade 1
 5. first grade weather observation pages
 
+**LSI Keywords (5):**
+1. science observation
+2. data collection
+3. weather instruments
+4. measurement basics
+5. recording data
+
+**Question Keywords (2):**
+1. What weather science worksheets are best for first graders?
+2. How do weather observation activities develop science skills in first grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 84. Weather — Second Grade (`weather/second-grade`)
@@ -2064,6 +3477,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. weather comprehension worksheets grade 2
 5. second grade temperature graphing pages
 
+**LSI Keywords (5):**
+1. weather data
+2. chart creation
+3. temperature reading
+4. measurement recording
+5. graphing practice
+
+**Question Keywords (2):**
+1. What weather data worksheets are appropriate for second graders?
+2. How do weather recording activities develop data skills in second grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 85. Weather — Third Grade (`weather/third-grade`)
@@ -2083,6 +3513,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 3. weather multiplication worksheets grade 3
 4. weather writing worksheets third grade
 5. third grade climate research activities
+
+**LSI Keywords (5):**
+1. weather analysis
+2. data interpretation
+3. scientific conclusions
+4. forecast reasoning
+5. evidence-based predictions
+
+**Question Keywords (2):**
+1. What weather analysis worksheets are appropriate for third grade students?
+2. How do weather-themed activities develop analytical thinking in third grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
 
 ---
 
@@ -2109,6 +3556,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. color tracing worksheets pre-K
 5. preschool rainbow sorting activities
 
+**LSI Keywords (5):**
+1. primary colors
+2. color mixing
+3. hue recognition
+4. crayon skills
+5. visual sorting
+
+**Question Keywords (2):**
+1. What color worksheets are best for preschool-aged learners?
+2. How do color sorting activities teach classification to preschoolers?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 87. Colors — Kindergarten (`colors/kindergarten`)
@@ -2128,6 +3592,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 3. rainbow pattern worksheets kindergarten
 4. color word worksheets kindergarten
 5. kindergarten color science activities
+
+**LSI Keywords (5):**
+1. color words
+2. mixing experiments
+3. spectrum vocabulary
+4. secondary colors
+5. artistic expression
+
+**Question Keywords (2):**
+1. What color mixing worksheets are appropriate for kindergarten learners?
+2. How do color activities teach scientific observation in kindergarten?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
 
 ---
 
@@ -2149,6 +3630,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. color math worksheets grade 1
 5. first grade color art and science
 
+**LSI Keywords (5):**
+1. color spectrum
+2. scientific observation
+3. light concepts
+4. experiment recording
+5. inquiry skills
+
+**Question Keywords (2):**
+1. What color science worksheets are appropriate for first grade students?
+2. How do color activities introduce scientific inquiry in first grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 89. Colors — Second Grade (`colors/second-grade`)
@@ -2169,6 +3667,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. color comprehension worksheets grade 2
 5. second grade color chart activities
 
+**LSI Keywords (5):**
+1. categorization skills
+2. attribute sorting
+3. Venn diagrams
+4. classification criteria
+5. logical grouping
+
+**Question Keywords (2):**
+1. What color categorization worksheets are best for second grade students?
+2. How do color sorting activities develop classification skills in second grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 90. Colors — Third Grade (`colors/third-grade`)
@@ -2188,6 +3703,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 3. color multiplication worksheets grade 3
 4. color writing worksheets third grade
 5. third grade color wheel activities
+
+**LSI Keywords (5):**
+1. color theory concepts
+2. scientific investigation
+3. experimental design
+4. observation recording
+5. analytical thinking
+
+**Question Keywords (2):**
+1. What color theory worksheets are best for third grade learners?
+2. How do color science activities develop experimental thinking in third grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
 
 ---
 
@@ -2214,6 +3746,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. circle and square worksheets pre-K
 5. preschool shape sorting activities
 
+**LSI Keywords (5):**
+1. basic geometry
+2. shape names
+3. spatial reasoning
+4. pattern blocks
+5. shape recognition
+
+**Question Keywords (2):**
+1. What shape tracing worksheets are best for preschool children?
+2. How do shape activities build spatial reasoning in preschoolers?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 92. Shapes — Kindergarten (`shapes/kindergarten`)
@@ -2233,6 +3782,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 3. shape sorting worksheets kindergarten
 4. shape vocabulary worksheets kindergarten
 5. kindergarten 2D shape activities
+
+**LSI Keywords (5):**
+1. geometric vocabulary
+2. two-dimensional shapes
+3. shape attributes
+4. spatial language
+5. shape composition
+
+**Question Keywords (2):**
+1. What shape pattern worksheets are best for kindergarten students?
+2. How do shape activities develop geometric thinking in kindergarten?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
 
 ---
 
@@ -2254,6 +3820,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. shape addition activities grade 1
 5. first grade 2D and 3D shape pages
 
+**LSI Keywords (5):**
+1. geometric shapes
+2. shape attributes
+3. spatial reasoning
+4. composing shapes
+5. measurement concepts
+
+**Question Keywords (2):**
+1. What shape geometry worksheets are best for first grade learners?
+2. How do shape activities develop spatial reasoning in first grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 94. Shapes — Second Grade (`shapes/second-grade`)
@@ -2274,6 +3857,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. perimeter activities second grade
 5. second grade geometry worksheets
 
+**LSI Keywords (5):**
+1. perimeter introduction
+2. area concepts
+3. shape partitioning
+4. fraction foundations
+5. geometric measurement
+
+**Question Keywords (2):**
+1. What shape measurement worksheets work best for second graders?
+2. How do shape activities introduce perimeter and area in second grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 95. Shapes — Third Grade (`shapes/third-grade`)
@@ -2293,6 +3893,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 3. geometry writing worksheets grade 3
 4. shape multiplication activities third grade
 5. third grade 3D shape project pages
+
+**LSI Keywords (5):**
+1. geometric analysis
+2. area and perimeter
+3. shape classification
+4. spatial visualization
+5. mathematical reasoning
+
+**Question Keywords (2):**
+1. What shape analysis worksheets work best for third graders?
+2. How do geometry activities develop mathematical reasoning in third grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
 
 ---
 
@@ -2319,6 +3936,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. number matching worksheets pre-K
 5. preschool number recognition activities
 
+**LSI Keywords (5):**
+1. rote counting
+2. number names
+3. quantity matching
+4. numeral formation
+5. subitizing
+
+**Question Keywords (2):**
+1. What number tracing worksheets are best for preschool learners?
+2. How do number activities build early math foundations in preschool?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 97. Numbers — Kindergarten (`numbers/kindergarten`)
@@ -2338,6 +3972,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 3. counting to 20 worksheets kindergarten
 4. number line worksheets kindergarten
 5. kindergarten number sense activities
+
+**LSI Keywords (5):**
+1. number bonds
+2. teen numbers
+3. counting strategies
+4. number writing
+5. quantity comparison
+
+**Question Keywords (2):**
+1. What number bonds worksheets are best for kindergarten learners?
+2. How do number activities strengthen counting fluency in kindergarten?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
 
 ---
 
@@ -2359,6 +4010,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. number line activities grade 1
 5. first grade number sense worksheets
 
+**LSI Keywords (5):**
+1. place value introduction
+2. addition strategies
+3. subtraction methods
+4. number relationships
+5. operational fluency
+
+**Question Keywords (2):**
+1. What number operations worksheets work best for first grade students?
+2. How do number activities build operational fluency in first grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 99. Numbers — Second Grade (`numbers/second-grade`)
@@ -2379,6 +4047,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. number data worksheets grade 2
 5. second grade expanded form worksheets
 
+**LSI Keywords (5):**
+1. place value concepts
+2. hundreds chart
+3. skip counting
+4. expanded form
+5. number comparison
+
+**Question Keywords (2):**
+1. What place value worksheets are appropriate for second grade students?
+2. How do place value activities build number understanding in second grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 100. Numbers — Third Grade (`numbers/third-grade`)
@@ -2398,6 +4083,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 3. multiplication facts worksheets grade 3
 4. number writing worksheets third grade
 5. third grade number pattern projects
+
+**LSI Keywords (5):**
+1. multiplication mastery
+2. division introduction
+3. fact families
+4. multi-digit computation
+5. problem-solving strategies
+
+**Question Keywords (2):**
+1. What number multiplication worksheets are appropriate for third grade students?
+2. How do multiplication activities build computational fluency in third grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
 
 ---
 
@@ -2424,6 +4126,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. letter recognition worksheets pre-K
 5. preschool ABC tracing activities
 
+**LSI Keywords (5):**
+1. letter names
+2. uppercase letters
+3. phonological awareness
+4. alphabet songs
+5. letter shapes
+
+**Question Keywords (2):**
+1. What letter tracing worksheets are best for preschool-aged children?
+2. How do alphabet activities prepare preschoolers for reading readiness?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 102. Alphabet — Kindergarten (`alphabet/kindergarten`)
@@ -2443,6 +4162,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 3. alphabet word worksheets kindergarten
 4. phonics matching worksheets kindergarten
 5. kindergarten letter sound activities
+
+**LSI Keywords (5):**
+1. letter-sound correspondence
+2. phonics instruction
+3. CVC words
+4. letter formation
+5. decoding skills
+
+**Question Keywords (2):**
+1. What alphabet phonics worksheets are best for kindergarten students?
+2. How do phonics activities build reading foundations in kindergarten?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
 
 ---
 
@@ -2464,6 +4200,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. letter spelling worksheets grade 1
 5. first grade word building activities
 
+**LSI Keywords (5):**
+1. spelling patterns
+2. word families
+3. phonics rules
+4. encoding skills
+5. word building
+
+**Question Keywords (2):**
+1. What alphabet spelling worksheets are appropriate for first graders?
+2. How do spelling activities reinforce phonics patterns in first grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 104. Alphabet — Second Grade (`alphabet/second-grade`)
@@ -2484,6 +4237,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. alphabet writing worksheets grade 2
 5. second grade cursive letter worksheets
 
+**LSI Keywords (5):**
+1. cursive introduction
+2. letter formation
+3. penmanship practice
+4. writing fluency
+5. handwriting legibility
+
+**Question Keywords (2):**
+1. What alphabet handwriting worksheets are best for second grade learners?
+2. How do handwriting activities improve writing fluency in second grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 105. Alphabet — Third Grade (`alphabet/third-grade`)
@@ -2503,6 +4273,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 3. alphabet vocabulary worksheets grade 3
 4. word analysis worksheets third grade
 5. third grade prefix and suffix worksheets
+
+**LSI Keywords (5):**
+1. word study patterns
+2. morphology basics
+3. prefix and suffix
+4. vocabulary building
+5. etymology introduction
+
+**Question Keywords (2):**
+1. What alphabet word study worksheets are best for third grade learners?
+2. How do word study activities expand vocabulary in third grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
 
 ---
 
@@ -2529,6 +4316,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. home furniture worksheets pre-K
 5. preschool room and furniture activities
 
+**LSI Keywords (5):**
+1. room objects
+2. spatial vocabulary
+3. size concepts
+4. functional items
+5. home environment
+
+**Question Keywords (2):**
+1. What furniture worksheets help preschoolers learn room vocabulary?
+2. How do furniture matching activities build spatial awareness in preschool?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 107. Furniture — Kindergarten (`furniture/kindergarten`)
@@ -2548,6 +4352,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 3. room name worksheets kindergarten
 4. furniture counting worksheets kindergarten
 5. kindergarten home vocabulary activities
+
+**LSI Keywords (5):**
+1. room labels
+2. preposition words
+3. household vocabulary
+4. spatial directions
+5. object functions
+
+**Question Keywords (2):**
+1. What room vocabulary worksheets are appropriate for kindergarten learners?
+2. How do furniture activities teach preposition words in kindergarten?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
 
 ---
 
@@ -2569,6 +4390,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. furniture math worksheets grade 1
 5. first grade home reading worksheets
 
+**LSI Keywords (5):**
+1. reading comprehension
+2. functional vocabulary
+3. informational text
+4. detail identification
+5. topic sentences
+
+**Question Keywords (2):**
+1. What furniture reading worksheets are best for first grade students?
+2. How do furniture-themed texts develop informational reading in first grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 109. Furniture — Second Grade (`furniture/second-grade`)
@@ -2589,6 +4427,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. furniture data worksheets grade 2
 5. second grade home measurement activities
 
+**LSI Keywords (5):**
+1. measurement practice
+2. ruler skills
+3. length estimation
+4. standard units
+5. comparison strategies
+
+**Question Keywords (2):**
+1. What furniture measurement worksheets are appropriate for second graders?
+2. How do furniture-themed activities teach ruler skills in second grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 110. Furniture — Third Grade (`furniture/third-grade`)
@@ -2608,6 +4463,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 3. furniture multiplication worksheets grade 3
 4. furniture writing worksheets third grade
 5. third grade room design project pages
+
+**LSI Keywords (5):**
+1. design thinking
+2. persuasive writing
+3. measurement application
+4. creative projects
+5. real-world math
+
+**Question Keywords (2):**
+1. What furniture design worksheets are best for third graders?
+2. How do furniture-themed projects integrate math and design in third grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
 
 ---
 
@@ -2634,6 +4506,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. spring sorting worksheets pre-K
 5. preschool Easter bunny tracing pages
 
+**LSI Keywords (5):**
+1. spring season
+2. egg hunt
+3. pastel colors
+4. bunny theme
+5. seasonal crafts
+
+**Question Keywords (2):**
+1. What Easter worksheets are appropriate for preschool-aged children?
+2. How do Easter egg sorting activities build counting skills in preschool?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA, Seasonal |
+
 ---
 
 ### 112. Easter — Kindergarten (`easter/kindergarten`)
@@ -2653,6 +4542,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 3. Easter counting worksheets kindergarten
 4. Easter pattern worksheets kindergarten
 5. kindergarten spring and Easter activities
+
+**LSI Keywords (5):**
+1. spring vocabulary
+2. counting eggs
+3. color patterns
+4. holiday traditions
+5. seasonal words
+
+**Question Keywords (2):**
+1. What Easter vocabulary worksheets are best for kindergarten students?
+2. How do Easter spring activities reinforce seasonal learning in kindergarten?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA, Seasonal |
 
 ---
 
@@ -2674,6 +4580,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. Easter literacy worksheets grade 1
 5. first grade spring story worksheets
 
+**LSI Keywords (5):**
+1. reading fluency
+2. spring science
+3. seasonal passages
+4. comprehension skills
+5. retelling strategies
+
+**Question Keywords (2):**
+1. What Easter reading worksheets are appropriate for first grade learners?
+2. How do Easter-themed passages build reading fluency in first grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA, Seasonal |
+
 ---
 
 ### 114. Easter — Second Grade (`easter/second-grade`)
@@ -2694,6 +4617,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. Easter comprehension worksheets grade 2
 5. second grade spring math worksheets
 
+**LSI Keywords (5):**
+1. multi-step problems
+2. addition and subtraction
+3. word problem strategies
+4. spring math
+5. mathematical reasoning
+
+**Question Keywords (2):**
+1. What Easter math worksheets are best for second grade students?
+2. How do Easter-themed problems develop multi-step thinking in second grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA, Seasonal |
+
 ---
 
 ### 115. Easter — Third Grade (`easter/third-grade`)
@@ -2713,6 +4653,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 3. Easter multiplication worksheets grade 3
 4. Easter analysis worksheets third grade
 5. third grade spring tradition projects
+
+**LSI Keywords (5):**
+1. creative writing
+2. narrative composition
+3. descriptive language
+4. seasonal writing prompts
+5. revision skills
+
+**Question Keywords (2):**
+1. What Easter writing worksheets are appropriate for third grade students?
+2. How do Easter-themed prompts develop narrative writing in third grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA, Seasonal |
 
 ---
 
@@ -2739,6 +4696,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. costume sorting worksheets pre-K
 5. preschool spooky tracing activities
 
+**LSI Keywords (5):**
+1. costume dress-up
+2. pumpkin shapes
+3. fall season
+4. spooky fun
+5. trick or treat
+
+**Question Keywords (2):**
+1. What Halloween worksheets are safe and fun for preschool children?
+2. How do Halloween tracing activities develop fine motor skills in preschool?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA, Seasonal |
+
 ---
 
 ### 117. Halloween — Kindergarten (`halloween/kindergarten`)
@@ -2758,6 +4732,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 3. Halloween word worksheets kindergarten
 4. Halloween counting worksheets kindergarten
 5. kindergarten costume and pattern activities
+
+**LSI Keywords (5):**
+1. costume vocabulary
+2. spooky words
+3. autumn season
+4. descriptive adjectives
+5. holiday safety
+
+**Question Keywords (2):**
+1. What Halloween vocabulary worksheets engage kindergarten learners?
+2. How do Halloween activities build descriptive vocabulary in kindergarten?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA, Seasonal |
 
 ---
 
@@ -2779,6 +4770,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. Halloween literacy worksheets grade 1
 5. first grade spooky story worksheets
 
+**LSI Keywords (5):**
+1. reading passages
+2. story elements
+3. descriptive writing
+4. seasonal vocabulary
+5. creative response
+
+**Question Keywords (2):**
+1. What Halloween reading worksheets are best for first grade students?
+2. How do Halloween-themed texts develop story comprehension in first grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA, Seasonal |
+
 ---
 
 ### 119. Halloween — Second Grade (`halloween/second-grade`)
@@ -2799,6 +4807,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. Halloween comprehension worksheets grade 2
 5. second grade pumpkin data worksheets
 
+**LSI Keywords (5):**
+1. graphing practice
+2. data interpretation
+3. survey activities
+4. chart creation
+5. statistical literacy
+
+**Question Keywords (2):**
+1. What Halloween graphing worksheets work best for second graders?
+2. How do Halloween-themed surveys teach data skills in second grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA, Seasonal |
+
 ---
 
 ### 120. Halloween — Third Grade (`halloween/third-grade`)
@@ -2818,6 +4843,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 3. Halloween multiplication worksheets grade 3
 4. Halloween research worksheets third grade
 5. third grade spooky narrative projects
+
+**LSI Keywords (5):**
+1. creative writing
+2. narrative structure
+3. descriptive vocabulary
+4. story development
+5. editing skills
+
+**Question Keywords (2):**
+1. What Halloween creative writing worksheets are best for third graders?
+2. How do Halloween-themed prompts develop narrative skills in third grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA, Seasonal |
 
 ---
 
@@ -2844,6 +4886,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. holiday tracing worksheets pre-K
 5. preschool festive sorting activities
 
+**LSI Keywords (5):**
+1. holiday traditions
+2. gift giving
+3. winter season
+4. festive decorations
+5. holiday songs
+
+**Question Keywords (2):**
+1. What Christmas worksheets are best for preschool-aged learners?
+2. How do Christmas tracing activities prepare preschoolers for writing?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA, Seasonal |
+
 ---
 
 ### 122. Christmas — Kindergarten (`xmas/kindergarten`)
@@ -2863,6 +4922,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 3. Christmas vocabulary worksheets kindergarten
 4. Christmas pattern worksheets kindergarten
 5. kindergarten festive counting activities
+
+**LSI Keywords (5):**
+1. holiday counting
+2. winter vocabulary
+3. gift words
+4. festive traditions
+5. December activities
+
+**Question Keywords (2):**
+1. What Christmas counting worksheets are best for kindergarten students?
+2. How do Christmas activities reinforce math skills in kindergarten?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA, Seasonal |
 
 ---
 
@@ -2884,6 +4960,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. Christmas literacy worksheets grade 1
 5. first grade festive reading worksheets
 
+**LSI Keywords (5):**
+1. reading comprehension
+2. holiday passages
+3. sequence events
+4. text details
+5. seasonal literacy
+
+**Question Keywords (2):**
+1. What Christmas reading worksheets work best for first graders?
+2. How do Christmas-themed passages strengthen reading skills in first grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA, Seasonal |
+
 ---
 
 ### 124. Christmas — Second Grade (`xmas/second-grade`)
@@ -2904,6 +4997,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. Christmas comprehension worksheets grade 2
 5. second grade festive math worksheets
 
+**LSI Keywords (5):**
+1. math word problems
+2. money skills
+3. addition regrouping
+4. subtraction borrowing
+5. computation practice
+
+**Question Keywords (2):**
+1. What Christmas math worksheets are appropriate for second grade students?
+2. How do Christmas-themed problems reinforce computation in second grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA, Seasonal |
+
 ---
 
 ### 125. Christmas — Third Grade (`xmas/third-grade`)
@@ -2923,6 +5033,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 3. Christmas multiplication worksheets grade 3
 4. Christmas writing worksheets third grade
 5. third grade festive culture projects
+
+**LSI Keywords (5):**
+1. research projects
+2. informational writing
+3. cultural comparison
+4. multi-source synthesis
+5. presentation skills
+
+**Question Keywords (2):**
+1. What Christmas research worksheets work best for third grade students?
+2. How do Christmas-themed projects build research skills in third grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA, Seasonal |
 
 ---
 
@@ -2949,6 +5076,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. bird tracing worksheets pre-K
 5. preschool bird coloring activities
 
+**LSI Keywords (5):**
+1. feather textures
+2. bird songs
+3. nesting habits
+4. bird colors
+5. flight concepts
+
+**Question Keywords (2):**
+1. What bird worksheets are appropriate for preschool children?
+2. How do bird sorting activities teach classification to preschoolers?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 127. Birds — Kindergarten (`birds/kindergarten`)
@@ -2968,6 +5112,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 3. bird vocabulary worksheets kindergarten
 4. bird counting worksheets kindergarten
 5. kindergarten bird name activities
+
+**LSI Keywords (5):**
+1. bird vocabulary
+2. species identification
+3. feather patterns
+4. habitat words
+5. observation recording
+
+**Question Keywords (2):**
+1. What bird identification worksheets are appropriate for kindergarten learners?
+2. How do bird activities develop observation skills in kindergarten?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
 
 ---
 
@@ -2989,6 +5150,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. bird literacy worksheets grade 1
 5. first grade bird science worksheets
 
+**LSI Keywords (5):**
+1. nonfiction reading
+2. animal facts
+3. text evidence
+4. science integration
+5. observation skills
+
+**Question Keywords (2):**
+1. What bird reading worksheets are appropriate for first grade students?
+2. How do bird-themed texts develop nonfiction reading skills in first grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 129. Birds — Second Grade (`birds/second-grade`)
@@ -3009,6 +5187,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. bird comprehension worksheets grade 2
 5. second grade bird chart activities
 
+**LSI Keywords (5):**
+1. data recording
+2. observation logs
+3. tally charts
+4. bird counts
+5. scientific data collection
+
+**Question Keywords (2):**
+1. What bird data worksheets are best for second grade learners?
+2. How do bird observation activities develop data skills in second grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 130. Birds — Third Grade (`birds/third-grade`)
@@ -3028,6 +5223,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 3. bird multiplication worksheets grade 3
 4. bird writing worksheets third grade
 5. third grade bird science projects
+
+**LSI Keywords (5):**
+1. research report
+2. scientific observation
+3. data analysis
+4. informational writing
+5. field study skills
+
+**Question Keywords (2):**
+1. What bird research worksheets are appropriate for third grade learners?
+2. How do bird-themed projects develop scientific writing in third grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
 
 ---
 
@@ -3054,6 +5266,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. candle counting worksheets pre-K
 5. preschool birthday party activities
 
+**LSI Keywords (5):**
+1. party planning
+2. age concepts
+3. celebration themes
+4. candle counting
+5. special occasions
+
+**Question Keywords (2):**
+1. What birthday worksheets engage preschool-aged children?
+2. How do birthday counting activities build number sense in preschool?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 132. Birthday — Kindergarten (`birthday/kindergarten`)
@@ -3073,6 +5302,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 3. birthday counting worksheets kindergarten
 4. celebration worksheets kindergarten
 5. kindergarten birthday word activities
+
+**LSI Keywords (5):**
+1. party vocabulary
+2. counting candles
+3. ordinal concepts
+4. celebration words
+5. age vocabulary
+
+**Question Keywords (2):**
+1. What birthday vocabulary worksheets engage kindergarten students?
+2. How do birthday-themed activities teach ordinal numbers in kindergarten?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
 
 ---
 
@@ -3094,6 +5340,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. birthday literacy worksheets grade 1
 5. first grade celebration reading pages
 
+**LSI Keywords (5):**
+1. reading passages
+2. story sequence
+3. personal narrative
+4. comprehension practice
+5. text connections
+
+**Question Keywords (2):**
+1. What birthday reading worksheets are best for first grade learners?
+2. How do birthday-themed stories build sequencing skills in first grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 134. Birthday — Second Grade (`birthday/second-grade`)
@@ -3114,6 +5377,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. birthday comprehension worksheets grade 2
 5. second grade celebration data pages
 
+**LSI Keywords (5):**
+1. data collection
+2. birthday graphs
+3. survey design
+4. data interpretation
+5. chart reading
+
+**Question Keywords (2):**
+1. What birthday data worksheets are appropriate for second graders?
+2. How do birthday survey activities teach graphing in second grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 135. Birthday — Third Grade (`birthday/third-grade`)
@@ -3133,6 +5413,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 3. birthday multiplication worksheets grade 3
 4. birthday project worksheets third grade
 5. third grade celebration writing pages
+
+**LSI Keywords (5):**
+1. narrative writing
+2. personal essay
+3. descriptive paragraphs
+4. writing conventions
+5. revision strategies
+
+**Question Keywords (2):**
+1. What birthday writing worksheets are best for third grade students?
+2. How do birthday-themed prompts develop personal narrative in third grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
 
 ---
 
@@ -3159,6 +5456,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. outdoor gear matching worksheets pre-K
 5. preschool nature camping activities
 
+**LSI Keywords (5):**
+1. outdoor adventure
+2. tent shapes
+3. campfire safety
+4. nature sounds
+5. exploration play
+
+**Question Keywords (2):**
+1. What camping worksheets are appropriate for preschool learners?
+2. How do camping matching activities build cognitive skills in preschool?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 137. Camping — Kindergarten (`camping/kindergarten`)
@@ -3178,6 +5492,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 3. camping word worksheets kindergarten
 4. camping counting worksheets kindergarten
 5. kindergarten outdoor vocabulary activities
+
+**LSI Keywords (5):**
+1. nature vocabulary
+2. outdoor words
+3. camping equipment
+4. adventure language
+5. wilderness terms
+
+**Question Keywords (2):**
+1. What camping vocabulary worksheets are best for kindergarten learners?
+2. How do camping activities build nature vocabulary in kindergarten?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
 
 ---
 
@@ -3199,6 +5530,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. camping literacy worksheets grade 1
 5. first grade outdoor reading worksheets
 
+**LSI Keywords (5):**
+1. reading comprehension
+2. adventure stories
+3. nature vocabulary
+4. story predictions
+5. text evidence
+
+**Question Keywords (2):**
+1. What camping reading worksheets are appropriate for first graders?
+2. How do camping-themed stories develop prediction skills in first grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 139. Camping — Second Grade (`camping/second-grade`)
@@ -3219,6 +5567,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. camping comprehension worksheets grade 2
 5. second grade trail data worksheets
 
+**LSI Keywords (5):**
+1. data recording
+2. nature observations
+3. tally and graph
+4. measurement outdoors
+5. science data
+
+**Question Keywords (2):**
+1. What camping data worksheets are best for second grade students?
+2. How do camping-themed activities develop data recording in second grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 140. Camping — Third Grade (`camping/third-grade`)
@@ -3238,6 +5603,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 3. camping multiplication worksheets grade 3
 4. camping writing worksheets third grade
 5. third grade outdoor science projects
+
+**LSI Keywords (5):**
+1. scientific investigation
+2. nature research
+3. observation journals
+4. evidence-based writing
+5. field study
+
+**Question Keywords (2):**
+1. What camping science worksheets work best for third graders?
+2. How do camping-themed research activities build inquiry skills in third grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
 
 ---
 
@@ -3264,6 +5646,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. clown tracing worksheets pre-K
 5. preschool circus sorting activities
 
+**LSI Keywords (5):**
+1. circus performers
+2. bright colors
+3. acrobatic shapes
+4. clown faces
+5. circus animals
+
+**Question Keywords (2):**
+1. What circus worksheets are best for preschool-aged children?
+2. How do circus coloring activities develop fine motor skills in preschool?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 142. Circus — Kindergarten (`circus/kindergarten`)
@@ -3283,6 +5682,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 3. circus word worksheets kindergarten
 4. circus counting worksheets kindergarten
 5. kindergarten circus performer activities
+
+**LSI Keywords (5):**
+1. performer vocabulary
+2. action words
+3. circus equipment
+4. entertainment terms
+5. descriptive phrases
+
+**Question Keywords (2):**
+1. What circus vocabulary worksheets are appropriate for kindergarten students?
+2. How do circus activities develop action word knowledge in kindergarten?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
 
 ---
 
@@ -3304,6 +5720,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. circus literacy worksheets grade 1
 5. first grade big top reading worksheets
 
+**LSI Keywords (5):**
+1. reading passages
+2. descriptive text
+3. story elements
+4. vocabulary in context
+5. comprehension response
+
+**Question Keywords (2):**
+1. What circus reading worksheets are best for first grade students?
+2. How do circus-themed passages develop vocabulary in first grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 144. Circus — Second Grade (`circus/second-grade`)
@@ -3324,6 +5757,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. circus comprehension worksheets grade 2
 5. second grade circus math worksheets
 
+**LSI Keywords (5):**
+1. data collection
+2. pictograph creation
+3. survey results
+4. chart interpretation
+5. numerical patterns
+
+**Question Keywords (2):**
+1. What circus data worksheets work best for second graders?
+2. How do circus-themed surveys build graphing skills in second grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 145. Circus — Third Grade (`circus/third-grade`)
@@ -3343,6 +5793,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 3. circus multiplication worksheets grade 3
 4. circus analysis worksheets third grade
 5. third grade circus history projects
+
+**LSI Keywords (5):**
+1. research projects
+2. informational writing
+3. topic exploration
+4. text organization
+5. presentation skills
+
+**Question Keywords (2):**
+1. What circus research worksheets are appropriate for third grade students?
+2. How do circus-themed projects develop research writing in third grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
 
 ---
 
@@ -3369,6 +5836,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. machine sorting worksheets pre-K
 5. preschool building site activities
 
+**LSI Keywords (5):**
+1. building blocks
+2. tool names
+3. hard hat safety
+4. construction vehicles
+5. stacking skills
+
+**Question Keywords (2):**
+1. What construction worksheets are suitable for preschool children?
+2. How do construction sorting activities develop problem-solving in preschool?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 147. Construction — Kindergarten (`construction/kindergarten`)
@@ -3388,6 +5872,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 3. construction word worksheets kindergarten
 4. building counting worksheets kindergarten
 5. kindergarten construction site activities
+
+**LSI Keywords (5):**
+1. tool vocabulary
+2. building materials
+3. construction verbs
+4. measurement words
+5. safety language
+
+**Question Keywords (2):**
+1. What construction vocabulary worksheets are best for kindergarten learners?
+2. How do construction activities teach tool names to kindergarten students?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
 
 ---
 
@@ -3409,6 +5910,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. construction literacy worksheets grade 1
 5. first grade building reading worksheets
 
+**LSI Keywords (5):**
+1. informational reading
+2. how-things-work
+3. procedural text
+4. sequence steps
+5. technical vocabulary
+
+**Question Keywords (2):**
+1. What construction reading worksheets are appropriate for first grade learners?
+2. How do construction-themed texts teach procedural reading in first grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 149. Construction — Second Grade (`construction/second-grade`)
@@ -3429,6 +5947,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. construction data worksheets grade 2
 5. second grade building math worksheets
 
+**LSI Keywords (5):**
+1. measurement units
+2. ruler reading
+3. length estimation
+4. building dimensions
+5. measurement comparison
+
+**Question Keywords (2):**
+1. What construction measurement worksheets are appropriate for second grade students?
+2. How do construction-themed activities teach measurement in second grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 150. Construction — Third Grade (`construction/third-grade`)
@@ -3448,6 +5983,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 3. construction multiplication worksheets grade 3
 4. construction writing worksheets third grade
 5. third grade STEM building projects
+
+**LSI Keywords (5):**
+1. research writing
+2. informational text
+3. engineering concepts
+4. technical vocabulary
+5. evidence-based conclusions
+
+**Question Keywords (2):**
+1. What construction research worksheets are best for third grade learners?
+2. How do construction-themed projects develop technical writing in third grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
 
 ---
 
@@ -3474,6 +6026,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. food sorting worksheets pre-K
 5. preschool kitchen themed activities
 
+**LSI Keywords (5):**
+1. kitchen safety
+2. ingredient names
+3. measuring tools
+4. recipe steps
+5. taste exploration
+
+**Question Keywords (2):**
+1. What cooking worksheets are appropriate for preschool-aged learners?
+2. How do cooking sorting activities teach sequencing to preschoolers?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 152. Cooking — Kindergarten (`cooking/kindergarten`)
@@ -3493,6 +6062,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 3. cooking word worksheets kindergarten
 4. kitchen counting worksheets kindergarten
 5. kindergarten cooking vocabulary activities
+
+**LSI Keywords (5):**
+1. kitchen vocabulary
+2. recipe words
+3. ingredient names
+4. measurement concepts
+5. sequence language
+
+**Question Keywords (2):**
+1. What kitchen vocabulary worksheets engage kindergarten students?
+2. How do cooking activities build sequencing skills in kindergarten?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
 
 ---
 
@@ -3514,6 +6100,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. kitchen literacy worksheets grade 1
 5. first grade recipe reading activities
 
+**LSI Keywords (5):**
+1. recipe reading
+2. procedural text
+3. sequence steps
+4. measurement words
+5. following directions
+
+**Question Keywords (2):**
+1. What cooking reading worksheets are best for first grade students?
+2. How do recipe-themed activities develop procedural reading in first grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 154. Cooking — Second Grade (`cooking/second-grade`)
@@ -3534,6 +6137,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. kitchen data worksheets grade 2
 5. second grade recipe math worksheets
 
+**LSI Keywords (5):**
+1. measurement skills
+2. capacity units
+3. fractions introduction
+4. recipe math
+5. proportional thinking
+
+**Question Keywords (2):**
+1. What cooking measurement worksheets are best for second grade learners?
+2. How do recipe-themed activities introduce fractions in second grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 155. Cooking — Third Grade (`cooking/third-grade`)
@@ -3553,6 +6173,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 3. cooking multiplication worksheets grade 3
 4. cooking research worksheets third grade
 5. third grade recipe writing projects
+
+**LSI Keywords (5):**
+1. procedural writing
+2. instructional text
+3. fraction application
+4. sequence organization
+5. technical vocabulary
+
+**Question Keywords (2):**
+1. What cooking writing worksheets work best for third graders?
+2. How do cooking-themed activities develop procedural writing in third grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
 
 ---
 
@@ -3579,6 +6216,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. dinosaur sorting worksheets pre-K
 5. preschool dino tracing activities
 
+**LSI Keywords (5):**
+1. dinosaur names
+2. fossil shapes
+3. prehistoric creatures
+4. size comparison
+5. extinction concepts
+
+**Question Keywords (2):**
+1. What dinosaur worksheets are best for preschool children?
+2. How do dinosaur tracing activities develop pencil control in preschoolers?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 157. Dinosaurs — Kindergarten (`dinosaurs/kindergarten`)
@@ -3598,6 +6252,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 3. dinosaur word worksheets kindergarten
 4. dinosaur counting worksheets kindergarten
 5. kindergarten dino species activities
+
+**LSI Keywords (5):**
+1. dinosaur vocabulary
+2. prehistoric words
+3. size adjectives
+4. species names
+5. extinction concepts
+
+**Question Keywords (2):**
+1. What dinosaur vocabulary worksheets are best for kindergarten learners?
+2. How do dinosaur activities build scientific vocabulary in kindergarten?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
 
 ---
 
@@ -3619,6 +6290,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. dinosaur literacy worksheets grade 1
 5. first grade fossil science worksheets
 
+**LSI Keywords (5):**
+1. nonfiction reading
+2. fossil facts
+3. science vocabulary
+4. text features
+5. informational comprehension
+
+**Question Keywords (2):**
+1. What dinosaur reading worksheets work best for first graders?
+2. How do dinosaur-themed texts build nonfiction comprehension in first grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 159. Dinosaurs — Second Grade (`dinosaurs/second-grade`)
@@ -3639,6 +6327,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. dinosaur comprehension worksheets grade 2
 5. second grade dino data chart worksheets
 
+**LSI Keywords (5):**
+1. data recording
+2. size comparison
+3. timeline concepts
+4. research writing
+5. informational text
+
+**Question Keywords (2):**
+1. What dinosaur data worksheets are appropriate for second graders?
+2. How do dinosaur-themed research activities build writing skills in second grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 160. Dinosaurs — Third Grade (`dinosaurs/third-grade`)
@@ -3658,6 +6363,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 3. dinosaur multiplication worksheets grade 3
 4. dinosaur writing worksheets third grade
 5. third grade fossil research projects
+
+**LSI Keywords (5):**
+1. research report
+2. scientific inquiry
+3. evidence evaluation
+4. informational writing
+5. source analysis
+
+**Question Keywords (2):**
+1. What dinosaur research worksheets are appropriate for third grade students?
+2. How do dinosaur-themed projects develop evidence-based writing in third grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
 
 ---
 
@@ -3684,6 +6406,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. fairy tale sorting worksheets pre-K
 5. preschool storybook matching activities
 
+**LSI Keywords (5):**
+1. story characters
+2. narrative sequence
+3. magical elements
+4. picture books
+5. storytelling skills
+
+**Question Keywords (2):**
+1. What fairy tale worksheets are appropriate for preschool-aged children?
+2. How do fairy tale matching activities build literacy skills in preschool?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 162. Fairy Tales — Kindergarten (`fairy-tales/kindergarten`)
@@ -3703,6 +6442,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 3. fairy tale word worksheets kindergarten
 4. fairy tale counting worksheets kindergarten
 5. kindergarten storybook vocabulary activities
+
+**LSI Keywords (5):**
+1. story vocabulary
+2. character words
+3. narrative sequence
+4. fiction elements
+5. retelling skills
+
+**Question Keywords (2):**
+1. What fairy tale vocabulary worksheets are appropriate for kindergarten students?
+2. How do fairy tale activities develop storytelling skills in kindergarten?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
 
 ---
 
@@ -3724,6 +6480,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. fairy tale literacy worksheets grade 1
 5. first grade storybook reading worksheets
 
+**LSI Keywords (5):**
+1. story elements
+2. character traits
+3. plot sequence
+4. fiction comprehension
+5. retelling skills
+
+**Question Keywords (2):**
+1. What fairy tale reading worksheets are appropriate for first grade students?
+2. How do fairy tale activities develop story element knowledge in first grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 164. Fairy Tales — Second Grade (`fairy-tales/second-grade`)
@@ -3744,6 +6517,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. fairy tale data worksheets grade 2
 5. second grade storybook comprehension pages
 
+**LSI Keywords (5):**
+1. reading comprehension
+2. story comparison
+3. character analysis
+4. text evidence
+5. narrative writing
+
+**Question Keywords (2):**
+1. What fairy tale comprehension worksheets are best for second grade students?
+2. How do fairy tale activities develop analytical reading in second grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 165. Fairy Tales — Third Grade (`fairy-tales/third-grade`)
@@ -3763,6 +6553,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 3. fairy tale multiplication worksheets grade 3
 4. fairy tale retelling worksheets third grade
 5. third grade creative story writing pages
+
+**LSI Keywords (5):**
+1. narrative writing
+2. story structure
+3. character development
+4. creative composition
+5. revision process
+
+**Question Keywords (2):**
+1. What fairy tale writing worksheets are best for third grade learners?
+2. How do fairy tale activities develop narrative composition in third grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
 
 ---
 
@@ -3789,6 +6596,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. farm animal tracing worksheets pre-K
 5. preschool barnyard sorting activities
 
+**LSI Keywords (5):**
+1. farm animals
+2. barn structures
+3. crop names
+4. farmer roles
+5. tractor shapes
+
+**Question Keywords (2):**
+1. What farm worksheets are best for preschool learners?
+2. How do farm animal sorting activities develop classification skills in preschool?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 167. Farm — Kindergarten (`farm/kindergarten`)
@@ -3808,6 +6632,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 3. farm word worksheets kindergarten
 4. farm counting worksheets kindergarten
 5. kindergarten barnyard vocabulary activities
+
+**LSI Keywords (5):**
+1. farm vocabulary
+2. animal babies
+3. crop words
+4. rural language
+5. produce names
+
+**Question Keywords (2):**
+1. What farm vocabulary worksheets are best for kindergarten learners?
+2. How do farm activities teach animal vocabulary in kindergarten?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
 
 ---
 
@@ -3829,6 +6670,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. farm literacy worksheets grade 1
 5. first grade harvest reading worksheets
 
+**LSI Keywords (5):**
+1. nonfiction reading
+2. agricultural vocabulary
+3. text evidence
+4. informational passages
+5. science connections
+
+**Question Keywords (2):**
+1. What farm reading worksheets are best for first grade learners?
+2. How do farm-themed texts develop informational literacy in first grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 169. Farm — Second Grade (`farm/second-grade`)
@@ -3849,6 +6707,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. farm comprehension worksheets grade 2
 5. second grade crop data chart worksheets
 
+**LSI Keywords (5):**
+1. data collection
+2. crop data
+3. graphing practice
+4. survey skills
+5. agricultural math
+
+**Question Keywords (2):**
+1. What farm data worksheets work best for second graders?
+2. How do farm-themed surveys develop graphing skills in second grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 170. Farm — Third Grade (`farm/third-grade`)
@@ -3868,6 +6743,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 3. farm multiplication worksheets grade 3
 4. farm writing worksheets third grade
 5. third grade agriculture science projects
+
+**LSI Keywords (5):**
+1. research projects
+2. agricultural science
+3. informational writing
+4. data interpretation
+5. evidence-based conclusions
+
+**Question Keywords (2):**
+1. What farm research worksheets work best for third graders?
+2. How do farm-themed research activities build scientific writing in third grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
 
 ---
 
@@ -3894,6 +6786,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. flower sorting worksheets pre-K
 5. preschool petal tracing activities
 
+**LSI Keywords (5):**
+1. petal counting
+2. flower colors
+3. plant parts
+4. garden care
+5. bloom stages
+
+**Question Keywords (2):**
+1. What flower worksheets are appropriate for preschool children?
+2. How do flower tracing activities build fine motor skills in preschoolers?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 172. Flowers — Kindergarten (`flowers/kindergarten`)
@@ -3913,6 +6822,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 3. flower word worksheets kindergarten
 4. flower counting worksheets kindergarten
 5. kindergarten flower name activities
+
+**LSI Keywords (5):**
+1. plant vocabulary
+2. growth stages
+3. flower names
+4. garden words
+5. botanical terms
+
+**Question Keywords (2):**
+1. What flower vocabulary worksheets engage kindergarten students?
+2. How do flower activities teach plant life cycles in kindergarten?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
 
 ---
 
@@ -3934,6 +6860,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. flower literacy worksheets grade 1
 5. first grade plant science worksheets
 
+**LSI Keywords (5):**
+1. plant science reading
+2. life cycle text
+3. nonfiction features
+4. science vocabulary
+5. observation recording
+
+**Question Keywords (2):**
+1. What flower reading worksheets are appropriate for first graders?
+2. How do flower-themed texts teach plant science in first grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 174. Flowers — Second Grade (`flowers/second-grade`)
@@ -3954,6 +6897,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. flower comprehension worksheets grade 2
 5. second grade plant data chart worksheets
 
+**LSI Keywords (5):**
+1. data recording
+2. growth measurement
+3. observation journals
+4. chart creation
+5. science data skills
+
+**Question Keywords (2):**
+1. What flower data worksheets are appropriate for second grade students?
+2. How do flower growth activities develop measurement in second grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 175. Flowers — Third Grade (`flowers/third-grade`)
@@ -3973,6 +6933,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 3. flower multiplication worksheets grade 3
 4. flower writing worksheets third grade
 5. third grade botany research projects
+
+**LSI Keywords (5):**
+1. scientific research
+2. plant biology
+3. observation journals
+4. informational writing
+5. experimental design
+
+**Question Keywords (2):**
+1. What flower research worksheets are appropriate for third grade students?
+2. How do flower-themed experiments develop scientific inquiry in third grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
 
 ---
 
@@ -3999,6 +6976,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. tree sorting worksheets pre-K
 5. preschool woodland matching activities
 
+**LSI Keywords (5):**
+1. woodland animals
+2. tree types
+3. forest sounds
+4. leaf shapes
+5. nature walks
+
+**Question Keywords (2):**
+1. What forest worksheets are best for preschool-aged learners?
+2. How do forest matching activities teach observation skills to preschoolers?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 177. Forest — Kindergarten (`forest/kindergarten`)
@@ -4018,6 +7012,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 3. forest word worksheets kindergarten
 4. forest counting worksheets kindergarten
 5. kindergarten tree name activities
+
+**LSI Keywords (5):**
+1. woodland vocabulary
+2. tree identification
+3. forest ecosystem
+4. habitat words
+5. nature language
+
+**Question Keywords (2):**
+1. What forest vocabulary worksheets are appropriate for kindergarten learners?
+2. How do forest activities develop nature awareness in kindergarten?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
 
 ---
 
@@ -4039,6 +7050,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. forest literacy worksheets grade 1
 5. first grade woodland reading worksheets
 
+**LSI Keywords (5):**
+1. ecosystem reading
+2. nonfiction text
+3. habitat vocabulary
+4. text connections
+5. nature science
+
+**Question Keywords (2):**
+1. What forest reading worksheets are best for first grade students?
+2. How do forest-themed passages develop science reading in first grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 179. Forest — Second Grade (`forest/second-grade`)
@@ -4059,6 +7087,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. forest comprehension worksheets grade 2
 5. second grade habitat data chart worksheets
 
+**LSI Keywords (5):**
+1. data collection
+2. ecosystem data
+3. tally recording
+4. habitat research
+5. science graphing
+
+**Question Keywords (2):**
+1. What forest data worksheets are best for second grade learners?
+2. How do forest-themed activities build scientific data skills in second grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 180. Forest — Third Grade (`forest/third-grade`)
@@ -4078,6 +7123,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 3. forest multiplication worksheets grade 3
 4. forest writing worksheets third grade
 5. third grade woodland research projects
+
+**LSI Keywords (5):**
+1. ecosystem research
+2. food web analysis
+3. environmental writing
+4. scientific reasoning
+5. multi-source synthesis
+
+**Question Keywords (2):**
+1. What forest ecosystem worksheets are best for third grade learners?
+2. How do forest research projects develop environmental literacy in third grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
 
 ---
 
@@ -4104,6 +7166,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. fruit tracing worksheets pre-K
 5. preschool fruit color matching activities
 
+**LSI Keywords (5):**
+1. fruit names
+2. taste exploration
+3. healthy snacks
+4. seed counting
+5. fruit colors
+
+**Question Keywords (2):**
+1. What fruit worksheets are suitable for preschool children?
+2. How do fruit matching activities build vocabulary in preschoolers?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 182. Fruits — Kindergarten (`fruits/kindergarten`)
@@ -4123,6 +7202,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 3. fruit word worksheets kindergarten
 4. fruit counting worksheets kindergarten
 5. kindergarten nutrition vocabulary activities
+
+**LSI Keywords (5):**
+1. fruit vocabulary
+2. taste words
+3. nutrition language
+4. sorting criteria
+5. descriptive adjectives
+
+**Question Keywords (2):**
+1. What fruit vocabulary worksheets are best for kindergarten students?
+2. How do fruit activities build healthy eating vocabulary in kindergarten?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
 
 ---
 
@@ -4144,6 +7240,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. fruit literacy worksheets grade 1
 5. first grade nutrition reading worksheets
 
+**LSI Keywords (5):**
+1. nutrition reading
+2. informational text
+3. text details
+4. science vocabulary
+5. healthy eating literacy
+
+**Question Keywords (2):**
+1. What fruit reading worksheets work best for first grade learners?
+2. How do fruit-themed texts integrate science and reading in first grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 184. Fruits — Second Grade (`fruits/second-grade`)
@@ -4164,6 +7277,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. fruit comprehension worksheets grade 2
 5. second grade nutrition chart worksheets
 
+**LSI Keywords (5):**
+1. data graphing
+2. survey design
+3. pictograph skills
+4. favorite fruit charts
+5. data interpretation
+
+**Question Keywords (2):**
+1. What fruit data worksheets work best for second graders?
+2. How do fruit survey activities develop graphing skills in second grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 185. Fruits — Third Grade (`fruits/third-grade`)
@@ -4183,6 +7313,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 3. fruit multiplication worksheets grade 3
 4. fruit writing worksheets third grade
 5. third grade nutrition science projects
+
+**LSI Keywords (5):**
+1. scientific investigation
+2. nutrition research
+3. informational writing
+4. data presentation
+5. health literacy
+
+**Question Keywords (2):**
+1. What fruit science worksheets work best for third graders?
+2. How do fruit-themed research activities build health literacy in third grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
 
 ---
 
@@ -4209,6 +7356,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. garden tool matching worksheets pre-K
 5. preschool planting and sorting activities
 
+**LSI Keywords (5):**
+1. planting seeds
+2. watering routine
+3. soil textures
+4. garden tools
+5. growing plants
+
+**Question Keywords (2):**
+1. What garden worksheets are appropriate for preschool learners?
+2. How do garden sorting activities teach sequencing to preschool children?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 187. Garden — Kindergarten (`garden/kindergarten`)
@@ -4228,6 +7392,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 3. garden word worksheets kindergarten
 4. garden counting worksheets kindergarten
 5. kindergarten seed vocabulary activities
+
+**LSI Keywords (5):**
+1. gardening vocabulary
+2. planting sequence
+3. tool words
+4. growth stages
+5. season connections
+
+**Question Keywords (2):**
+1. What garden vocabulary worksheets engage kindergarten learners?
+2. How do garden activities teach sequential thinking in kindergarten?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
 
 ---
 
@@ -4249,6 +7430,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. garden literacy worksheets grade 1
 5. first grade planting reading worksheets
 
+**LSI Keywords (5):**
+1. plant growth reading
+2. procedural text
+3. science journal
+4. observation skills
+5. sequencing events
+
+**Question Keywords (2):**
+1. What garden reading worksheets are appropriate for first grade students?
+2. How do garden-themed texts teach observation skills in first grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 189. Garden — Second Grade (`garden/second-grade`)
@@ -4269,6 +7467,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. garden data worksheets grade 2
 5. second grade plant growth chart worksheets
 
+**LSI Keywords (5):**
+1. measurement skills
+2. growth recording
+3. ruler practice
+4. estimation skills
+5. science measurement
+
+**Question Keywords (2):**
+1. What garden measurement worksheets are appropriate for second grade students?
+2. How do garden-themed activities teach measurement recording in second grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 190. Garden — Third Grade (`garden/third-grade`)
@@ -4288,6 +7503,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 3. garden multiplication worksheets grade 3
 4. garden research worksheets third grade
 5. third grade plant research writing pages
+
+**LSI Keywords (5):**
+1. persuasive writing
+2. opinion paragraphs
+3. evidence support
+4. environmental awareness
+5. argumentative skills
+
+**Question Keywords (2):**
+1. What garden writing worksheets are appropriate for third grade students?
+2. How do garden-themed prompts develop persuasive writing in third grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
 
 ---
 
@@ -4314,6 +7546,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. bug matching worksheets pre-K
 5. preschool insect sorting activities
 
+**LSI Keywords (5):**
+1. bug identification
+2. insect legs
+3. butterfly wings
+4. crawling movement
+5. insect habitats
+
+**Question Keywords (2):**
+1. What insect worksheets are best for preschool-aged children?
+2. How do insect matching activities develop observation skills in preschool?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 192. Insects — Kindergarten (`insects/kindergarten`)
@@ -4333,6 +7582,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 3. insect word worksheets kindergarten
 4. insect counting worksheets kindergarten
 5. kindergarten bug vocabulary activities
+
+**LSI Keywords (5):**
+1. insect vocabulary
+2. body parts
+3. life cycle stages
+4. habitat words
+5. metamorphosis basics
+
+**Question Keywords (2):**
+1. What insect vocabulary worksheets are appropriate for kindergarten students?
+2. How do insect activities introduce life cycles in kindergarten?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
 
 ---
 
@@ -4354,6 +7620,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. insect literacy worksheets grade 1
 5. first grade bug science worksheets
 
+**LSI Keywords (5):**
+1. insect science reading
+2. life cycle text
+3. nonfiction features
+4. classification vocabulary
+5. inquiry skills
+
+**Question Keywords (2):**
+1. What insect reading worksheets are best for first graders?
+2. How do insect-themed texts develop science inquiry in first grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 194. Insects — Second Grade (`insects/second-grade`)
@@ -4374,6 +7657,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. insect comprehension worksheets grade 2
 5. second grade bug data chart worksheets
 
+**LSI Keywords (5):**
+1. data collection
+2. observation logs
+3. insect surveys
+4. classification data
+5. science recording
+
+**Question Keywords (2):**
+1. What insect data worksheets are best for second grade learners?
+2. How do insect observation activities develop science skills in second grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 195. Insects — Third Grade (`insects/third-grade`)
@@ -4393,6 +7693,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 3. insect multiplication worksheets grade 3
 4. insect writing worksheets third grade
 5. third grade bug science research projects
+
+**LSI Keywords (5):**
+1. research report
+2. life cycle analysis
+3. scientific observation
+4. informational writing
+5. classification research
+
+**Question Keywords (2):**
+1. What insect research worksheets are best for third grade learners?
+2. How do insect-themed projects develop classification skills in third grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
 
 ---
 
@@ -4419,6 +7736,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. ocean sorting worksheets pre-K
 5. preschool sea life matching activities
 
+**LSI Keywords (5):**
+1. sea creatures
+2. ocean waves
+3. beach exploration
+4. shell shapes
+5. underwater world
+
+**Question Keywords (2):**
+1. What ocean worksheets are appropriate for preschool children?
+2. How do ocean matching activities build sorting skills in preschoolers?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 197. Ocean — Kindergarten (`ocean/kindergarten`)
@@ -4438,6 +7772,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 3. ocean word worksheets kindergarten
 4. ocean counting worksheets kindergarten
 5. kindergarten sea life vocabulary activities
+
+**LSI Keywords (5):**
+1. ocean vocabulary
+2. marine creatures
+3. habitat words
+4. underwater language
+5. wave terminology
+
+**Question Keywords (2):**
+1. What ocean vocabulary worksheets are best for kindergarten learners?
+2. How do ocean activities develop marine science vocabulary in kindergarten?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
 
 ---
 
@@ -4459,6 +7810,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. ocean literacy worksheets grade 1
 5. first grade sea life reading worksheets
 
+**LSI Keywords (5):**
+1. marine science reading
+2. nonfiction text
+3. ocean vocabulary
+4. text evidence
+5. habitat comprehension
+
+**Question Keywords (2):**
+1. What ocean reading worksheets are appropriate for first grade students?
+2. How do ocean-themed passages build nonfiction skills in first grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 199. Ocean — Second Grade (`ocean/second-grade`)
@@ -4479,6 +7847,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. ocean comprehension worksheets grade 2
 5. second grade marine data chart worksheets
 
+**LSI Keywords (5):**
+1. data graphing
+2. marine surveys
+3. chart reading
+4. measurement skills
+5. ocean data analysis
+
+**Question Keywords (2):**
+1. What ocean data worksheets are appropriate for second graders?
+2. How do ocean-themed data activities build analytical skills in second grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 200. Ocean — Third Grade (`ocean/third-grade`)
@@ -4498,6 +7883,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 3. ocean multiplication worksheets grade 3
 4. ocean writing worksheets third grade
 5. third grade marine research projects
+
+**LSI Keywords (5):**
+1. marine research
+2. ecosystem analysis
+3. scientific writing
+4. data interpretation
+5. conservation awareness
+
+**Question Keywords (2):**
+1. What ocean research worksheets work best for third graders?
+2. How do ocean-themed projects develop research skills in third grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
 
 ---
 
@@ -4524,6 +7926,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. animal matching worksheets pre-K
 5. preschool pet care sorting activities
 
+**LSI Keywords (5):**
+1. pet care routines
+2. animal feeding
+3. gentle handling
+4. pet names
+5. responsibility skills
+
+**Question Keywords (2):**
+1. What pet worksheets are best for preschool-aged learners?
+2. How do pet matching activities teach responsibility to preschool children?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 202. Pets — Kindergarten (`pets/kindergarten`)
@@ -4543,6 +7962,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 3. pet word worksheets kindergarten
 4. pet counting worksheets kindergarten
 5. kindergarten animal care vocabulary activities
+
+**LSI Keywords (5):**
+1. pet vocabulary
+2. care responsibilities
+3. animal needs
+4. descriptive words
+5. companion animals
+
+**Question Keywords (2):**
+1. What pet vocabulary worksheets engage kindergarten students?
+2. How do pet-themed activities build responsibility concepts in kindergarten?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
 
 ---
 
@@ -4564,6 +8000,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. pet literacy worksheets grade 1
 5. first grade animal care reading worksheets
 
+**LSI Keywords (5):**
+1. reading comprehension
+2. personal narrative
+3. informational text
+4. pet care vocabulary
+5. text connections
+
+**Question Keywords (2):**
+1. What pet reading worksheets are best for first grade learners?
+2. How do pet-themed texts develop narrative comprehension in first grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 204. Pets — Second Grade (`pets/second-grade`)
@@ -4584,6 +8037,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. pet comprehension worksheets grade 2
 5. second grade animal data chart worksheets
 
+**LSI Keywords (5):**
+1. survey design
+2. data collection
+3. pet preference graphs
+4. chart interpretation
+5. statistical thinking
+
+**Question Keywords (2):**
+1. What pet data worksheets are best for second grade students?
+2. How do pet survey activities develop statistical thinking in second grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 205. Pets — Third Grade (`pets/third-grade`)
@@ -4603,6 +8073,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 3. pet multiplication worksheets grade 3
 4. pet research worksheets third grade
 5. third grade animal care writing projects
+
+**LSI Keywords (5):**
+1. persuasive writing
+2. opinion essays
+3. research skills
+4. evidence support
+5. responsible ownership
+
+**Question Keywords (2):**
+1. What pet care writing worksheets are appropriate for third grade students?
+2. How do pet-themed activities develop persuasive writing in third grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
 
 ---
 
@@ -4629,6 +8116,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. treasure sorting worksheets pre-K
 5. preschool pirate tracing activities
 
+**LSI Keywords (5):**
+1. treasure maps
+2. pirate ships
+3. gold coins
+4. adventure play
+5. compass directions
+
+**Question Keywords (2):**
+1. What pirate worksheets are appropriate for preschool children?
+2. How do pirate tracing activities develop pre-writing skills in preschoolers?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 207. Pirates — Kindergarten (`pirates/kindergarten`)
@@ -4648,6 +8152,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 3. pirate word worksheets kindergarten
 4. pirate counting worksheets kindergarten
 5. kindergarten treasure vocabulary activities
+
+**LSI Keywords (5):**
+1. treasure vocabulary
+2. adventure words
+3. nautical language
+4. directional terms
+5. map concepts
+
+**Question Keywords (2):**
+1. What treasure vocabulary worksheets are appropriate for kindergarten learners?
+2. How do pirate activities teach directional language in kindergarten?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
 
 ---
 
@@ -4669,6 +8190,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. pirate literacy worksheets grade 1
 5. first grade treasure reading worksheets
 
+**LSI Keywords (5):**
+1. adventure reading
+2. story comprehension
+3. fiction elements
+4. vocabulary in context
+5. prediction strategies
+
+**Question Keywords (2):**
+1. What pirate reading worksheets work best for first graders?
+2. How do pirate-themed stories develop prediction skills in first grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 209. Pirates — Second Grade (`pirates/second-grade`)
@@ -4689,6 +8227,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. pirate comprehension worksheets grade 2
 5. second grade treasure data chart worksheets
 
+**LSI Keywords (5):**
+1. map coordinates
+2. measurement skills
+3. directional vocabulary
+4. grid reading
+5. distance concepts
+
+**Question Keywords (2):**
+1. What pirate map worksheets work best for second graders?
+2. How do pirate-themed activities teach coordinate skills in second grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 210. Pirates — Third Grade (`pirates/third-grade`)
@@ -4708,6 +8263,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 3. pirate multiplication worksheets grade 3
 4. pirate research worksheets third grade
 5. third grade treasure adventure writing pages
+
+**LSI Keywords (5):**
+1. narrative writing
+2. adventure composition
+3. descriptive language
+4. story planning
+5. creative expression
+
+**Question Keywords (2):**
+1. What pirate writing worksheets are best for third grade learners?
+2. How do pirate-themed prompts develop creative writing in third grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
 
 ---
 
@@ -4734,6 +8306,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. machine sorting worksheets pre-K
 5. preschool robot themed sorting activities
 
+**LSI Keywords (5):**
+1. robot shapes
+2. button concepts
+3. mechanical parts
+4. building skills
+5. geometric forms
+
+**Question Keywords (2):**
+1. What robot worksheets are suitable for preschool-aged children?
+2. How do robot sorting activities develop shape recognition in preschool?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 212. Robots — Kindergarten (`robots/kindergarten`)
@@ -4753,6 +8342,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 3. robot word worksheets kindergarten
 4. robot counting worksheets kindergarten
 5. kindergarten robot themed vocabulary activities
+
+**LSI Keywords (5):**
+1. technology vocabulary
+2. shape words
+3. action commands
+4. building terms
+5. mechanical language
+
+**Question Keywords (2):**
+1. What robot vocabulary worksheets are best for kindergarten students?
+2. How do robot activities develop technology vocabulary in kindergarten?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
 
 ---
 
@@ -4774,6 +8380,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. robot literacy worksheets grade 1
 5. first grade machine reading worksheets
 
+**LSI Keywords (5):**
+1. informational reading
+2. technology vocabulary
+3. nonfiction text
+4. text features
+5. science literacy
+
+**Question Keywords (2):**
+1. What robot reading worksheets are appropriate for first grade students?
+2. How do robot-themed texts build technology literacy in first grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 214. Robots — Second Grade (`robots/second-grade`)
@@ -4794,6 +8417,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. robot comprehension worksheets grade 2
 5. second grade machine data chart worksheets
 
+**LSI Keywords (5):**
+1. data recording
+2. survey design
+3. chart creation
+4. pattern data
+5. technology statistics
+
+**Question Keywords (2):**
+1. What robot data worksheets are appropriate for second grade students?
+2. How do robot-themed surveys develop data skills in second grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 215. Robots — Third Grade (`robots/third-grade`)
@@ -4813,6 +8453,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 3. robot multiplication worksheets grade 3
 4. robot research worksheets third grade
 5. third grade technology design projects
+
+**LSI Keywords (5):**
+1. design thinking
+2. technical writing
+3. problem-solving skills
+4. engineering concepts
+5. innovation vocabulary
+
+**Question Keywords (2):**
+1. What robot design worksheets work best for third graders?
+2. How do robot-themed activities develop design thinking in third grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
 
 ---
 
@@ -4839,6 +8496,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. spring sorting worksheets pre-K
 5. preschool spring themed tracing activities
 
+**LSI Keywords (5):**
+1. new growth
+2. baby animals
+3. rain showers
+4. flower blooming
+5. warm weather
+
+**Question Keywords (2):**
+1. What spring worksheets are best for preschool learners?
+2. How do spring tracing activities support fine motor development in preschool?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA, Seasonal |
+
 ---
 
 ### 217. Spring — Kindergarten (`spring/kindergarten`)
@@ -4858,6 +8532,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 3. spring word worksheets kindergarten
 4. spring counting worksheets kindergarten
 5. kindergarten spring vocabulary activities
+
+**LSI Keywords (5):**
+1. spring vocabulary
+2. new growth words
+3. weather changes
+4. seasonal language
+5. renewal concepts
+
+**Question Keywords (2):**
+1. What spring vocabulary worksheets engage kindergarten learners?
+2. How do spring activities teach seasonal change vocabulary in kindergarten?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA, Seasonal |
 
 ---
 
@@ -4879,6 +8570,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. spring literacy worksheets grade 1
 5. first grade spring reading activities
 
+**LSI Keywords (5):**
+1. seasonal reading
+2. nonfiction text
+3. nature observations
+4. descriptive language
+5. science connections
+
+**Question Keywords (2):**
+1. What spring reading worksheets are best for first grade learners?
+2. How do spring-themed passages integrate science and reading in first grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA, Seasonal |
+
 ---
 
 ### 219. Spring — Second Grade (`spring/second-grade`)
@@ -4899,6 +8607,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. spring comprehension worksheets grade 2
 5. second grade spring growth chart worksheets
 
+**LSI Keywords (5):**
+1. science observation
+2. seasonal data
+3. growth measurement
+4. nature recording
+5. weather data
+
+**Question Keywords (2):**
+1. What spring science worksheets are best for second grade learners?
+2. How do spring observation activities develop data skills in second grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA, Seasonal |
+
 ---
 
 ### 220. Spring — Third Grade (`spring/third-grade`)
@@ -4918,6 +8643,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 3. spring multiplication worksheets grade 3
 4. spring research worksheets third grade
 5. third grade nature writing projects
+
+**LSI Keywords (5):**
+1. descriptive writing
+2. nature journals
+3. seasonal observation
+4. creative composition
+5. sensory language
+
+**Question Keywords (2):**
+1. What spring writing worksheets are appropriate for third grade students?
+2. How do spring-themed prompts develop descriptive writing in third grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA, Seasonal |
 
 ---
 
@@ -4944,6 +8686,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. summer sorting worksheets pre-K
 5. preschool beach themed matching activities
 
+**LSI Keywords (5):**
+1. sunny days
+2. beach activities
+3. ice cream themes
+4. water play
+5. outdoor fun
+
+**Question Keywords (2):**
+1. What summer worksheets keep preschoolers learning during break?
+2. How do summer matching activities prevent learning loss in preschool children?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA, Seasonal |
+
 ---
 
 ### 222. Summer — Kindergarten (`summer/kindergarten`)
@@ -4963,6 +8722,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 3. summer word worksheets kindergarten
 4. summer counting worksheets kindergarten
 5. kindergarten summer vocabulary activities
+
+**LSI Keywords (5):**
+1. summer vocabulary
+2. outdoor words
+3. beach language
+4. warm weather terms
+5. vacation concepts
+
+**Question Keywords (2):**
+1. What summer vocabulary worksheets are best for kindergarten students?
+2. How do summer activities prevent vocabulary loss over kindergarten break?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA, Seasonal |
 
 ---
 
@@ -4984,6 +8760,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. summer literacy worksheets grade 1
 5. first grade summer reading activities
 
+**LSI Keywords (5):**
+1. reading practice
+2. comprehension maintenance
+3. narrative text
+4. story response
+5. fluency building
+
+**Question Keywords (2):**
+1. What summer reading worksheets prevent learning loss in first grade?
+2. How do summer-themed activities maintain reading skills for first graders?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA, Seasonal |
+
 ---
 
 ### 224. Summer — Second Grade (`summer/second-grade`)
@@ -5004,6 +8797,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. summer comprehension worksheets grade 2
 5. second grade summer weather chart worksheets
 
+**LSI Keywords (5):**
+1. data practice
+2. survey activities
+3. graphing review
+4. measurement skills
+5. math maintenance
+
+**Question Keywords (2):**
+1. What summer data worksheets prevent learning loss in second grade?
+2. How do summer-themed activities maintain math skills for second graders?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA, Seasonal |
+
 ---
 
 ### 225. Summer — Third Grade (`summer/third-grade`)
@@ -5023,6 +8833,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 3. summer multiplication worksheets grade 3
 4. summer research worksheets third grade
 5. third grade summer journal writing projects
+
+**LSI Keywords (5):**
+1. creative writing
+2. narrative composition
+3. journal prompts
+4. independent practice
+5. writing fluency
+
+**Question Keywords (2):**
+1. What summer writing worksheets prevent learning loss in third grade?
+2. How do summer-themed prompts maintain writing skills for third graders?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA, Seasonal |
 
 ---
 
@@ -5049,6 +8876,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. cape sorting worksheets pre-K
 5. preschool superhero sorting activities
 
+**LSI Keywords (5):**
+1. hero capes
+2. super powers
+3. bravery concepts
+4. helping others
+5. mask crafts
+
+**Question Keywords (2):**
+1. What superhero worksheets are appropriate for preschool-aged children?
+2. How do superhero matching activities build social skills in preschool?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 227. Superheroes — Kindergarten (`superheroes/kindergarten`)
@@ -5068,6 +8912,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 3. superhero word worksheets kindergarten
 4. superhero counting worksheets kindergarten
 5. kindergarten hero vocabulary activities
+
+**LSI Keywords (5):**
+1. hero vocabulary
+2. character traits
+3. action verbs
+4. strength adjectives
+5. rescue language
+
+**Question Keywords (2):**
+1. What hero vocabulary worksheets are appropriate for kindergarten learners?
+2. How do superhero activities build character trait vocabulary in kindergarten?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
 
 ---
 
@@ -5089,6 +8950,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. superhero literacy worksheets grade 1
 5. first grade hero reading worksheets
 
+**LSI Keywords (5):**
+1. fiction reading
+2. character analysis
+3. story comprehension
+4. action vocabulary
+5. narrative response
+
+**Question Keywords (2):**
+1. What superhero reading worksheets are appropriate for first grade students?
+2. How do superhero-themed stories develop character analysis in first grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 229. Superheroes — Second Grade (`superheroes/second-grade`)
@@ -5109,6 +8987,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. superhero comprehension worksheets grade 2
 5. second grade hero data chart worksheets
 
+**LSI Keywords (5):**
+1. data collection
+2. survey design
+3. bar graph creation
+4. chart interpretation
+5. comparative data
+
+**Question Keywords (2):**
+1. What superhero data worksheets are appropriate for second grade students?
+2. How do superhero-themed surveys develop graphing skills in second grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 230. Superheroes — Third Grade (`superheroes/third-grade`)
@@ -5128,6 +9023,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 3. superhero multiplication worksheets grade 3
 4. superhero research worksheets third grade
 5. third grade hero story writing projects
+
+**LSI Keywords (5):**
+1. narrative writing
+2. character creation
+3. story arc
+4. descriptive paragraphs
+5. creative composition
+
+**Question Keywords (2):**
+1. What superhero writing worksheets are best for third grade learners?
+2. How do superhero-themed prompts develop character writing in third grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
 
 ---
 
@@ -5154,6 +9066,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. travel sorting worksheets pre-K
 5. preschool travel themed matching activities
 
+**LSI Keywords (5):**
+1. suitcase packing
+2. map concepts
+3. destination names
+4. passport play
+5. journey vocabulary
+
+**Question Keywords (2):**
+1. What travel worksheets are best for preschool children?
+2. How do travel matching activities develop vocabulary in preschoolers?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 232. Travel — Kindergarten (`travel/kindergarten`)
@@ -5173,6 +9102,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 3. travel word worksheets kindergarten
 4. travel counting worksheets kindergarten
 5. kindergarten travel vocabulary activities
+
+**LSI Keywords (5):**
+1. travel vocabulary
+2. geography words
+3. destination language
+4. transport types
+5. cultural terms
+
+**Question Keywords (2):**
+1. What travel vocabulary worksheets are best for kindergarten students?
+2. How do travel activities introduce geography concepts in kindergarten?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
 
 ---
 
@@ -5194,6 +9140,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. travel literacy worksheets grade 1
 5. first grade map reading worksheets
 
+**LSI Keywords (5):**
+1. geography reading
+2. nonfiction text
+3. cultural vocabulary
+4. informational passages
+5. map reading basics
+
+**Question Keywords (2):**
+1. What travel reading worksheets are best for first graders?
+2. How do travel-themed texts introduce geography concepts in first grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 234. Travel — Second Grade (`travel/second-grade`)
@@ -5214,6 +9177,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. travel comprehension worksheets grade 2
 5. second grade geography data chart worksheets
 
+**LSI Keywords (5):**
+1. data graphing
+2. distance concepts
+3. map measurement
+4. survey skills
+5. geographic data
+
+**Question Keywords (2):**
+1. What travel data worksheets are best for second graders?
+2. How do travel-themed activities teach distance concepts in second grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 235. Travel — Third Grade (`travel/third-grade`)
@@ -5233,6 +9213,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 3. travel multiplication worksheets grade 3
 4. travel research worksheets third grade
 5. third grade geography writing projects
+
+**LSI Keywords (5):**
+1. informational writing
+2. research projects
+3. geography vocabulary
+4. cultural analysis
+5. multi-source reading
+
+**Question Keywords (2):**
+1. What travel writing worksheets work best for third graders?
+2. How do travel-themed research projects build geographic literacy in third grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
 
 ---
 
@@ -5259,6 +9256,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. veggie matching worksheets pre-K
 5. preschool vegetable sorting activities
 
+**LSI Keywords (5):**
+1. veggie names
+2. healthy eating
+3. garden harvest
+4. green foods
+5. nutrition awareness
+
+**Question Keywords (2):**
+1. What vegetable worksheets are appropriate for preschool learners?
+2. How do vegetable sorting activities teach healthy habits to preschoolers?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 237. Vegetables — Kindergarten (`vegetables/kindergarten`)
@@ -5278,6 +9292,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 3. vegetable word worksheets kindergarten
 4. vegetable counting worksheets kindergarten
 5. kindergarten garden vocabulary activities
+
+**LSI Keywords (5):**
+1. vegetable vocabulary
+2. nutrition words
+3. garden language
+4. food categories
+5. healthy eating terms
+
+**Question Keywords (2):**
+1. What vegetable vocabulary worksheets engage kindergarten learners?
+2. How do vegetable activities build nutrition vocabulary in kindergarten?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
 
 ---
 
@@ -5299,6 +9330,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. vegetable literacy worksheets grade 1
 5. first grade nutrition reading worksheets
 
+**LSI Keywords (5):**
+1. nutrition reading
+2. informational text
+3. science vocabulary
+4. text evidence
+5. health literacy
+
+**Question Keywords (2):**
+1. What vegetable reading worksheets are appropriate for first grade students?
+2. How do vegetable-themed texts develop health literacy in first grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 239. Vegetables — Second Grade (`vegetables/second-grade`)
@@ -5319,6 +9367,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. vegetable comprehension worksheets grade 2
 5. second grade nutrition data chart worksheets
 
+**LSI Keywords (5):**
+1. data collection
+2. survey graphing
+3. nutrition data
+4. chart reading
+5. health statistics
+
+**Question Keywords (2):**
+1. What vegetable data worksheets work best for second grade students?
+2. How do vegetable survey activities develop graphing in second grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 240. Vegetables — Third Grade (`vegetables/third-grade`)
@@ -5338,6 +9403,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 3. vegetable multiplication worksheets grade 3
 4. vegetable writing worksheets third grade
 5. third grade nutrition science projects
+
+**LSI Keywords (5):**
+1. scientific writing
+2. nutrition research
+3. informational text
+4. evidence-based conclusions
+5. health education
+
+**Question Keywords (2):**
+1. What vegetable science worksheets are appropriate for third grade students?
+2. How do vegetable-themed research activities build science writing in third grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
 
 ---
 
@@ -5364,6 +9446,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. winter sorting worksheets pre-K
 5. preschool snow themed matching activities
 
+**LSI Keywords (5):**
+1. snowflake shapes
+2. cold weather
+3. warm clothing
+4. ice exploration
+5. hibernation concepts
+
+**Question Keywords (2):**
+1. What winter worksheets are best for preschool-aged children?
+2. How do winter matching activities develop cognitive skills in preschool?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA, Seasonal |
+
 ---
 
 ### 242. Winter — Kindergarten (`winter/kindergarten`)
@@ -5383,6 +9482,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 3. winter word worksheets kindergarten
 4. winter counting worksheets kindergarten
 5. kindergarten winter vocabulary activities
+
+**LSI Keywords (5):**
+1. winter vocabulary
+2. cold weather words
+3. snow language
+4. seasonal clothing terms
+5. hibernation concepts
+
+**Question Keywords (2):**
+1. What winter vocabulary worksheets are appropriate for kindergarten students?
+2. How do winter activities develop seasonal vocabulary in kindergarten?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA, Seasonal |
 
 ---
 
@@ -5404,6 +9520,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. winter literacy worksheets grade 1
 5. first grade winter season reading worksheets
 
+**LSI Keywords (5):**
+1. seasonal reading
+2. nonfiction passages
+3. cold weather science
+4. descriptive writing
+5. text details
+
+**Question Keywords (2):**
+1. What winter reading worksheets are best for first grade learners?
+2. How do winter-themed passages build descriptive reading in first grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA, Seasonal |
+
 ---
 
 ### 244. Winter — Second Grade (`winter/second-grade`)
@@ -5424,6 +9557,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. winter comprehension worksheets grade 2
 5. second grade winter weather chart worksheets
 
+**LSI Keywords (5):**
+1. weather data
+2. temperature graphing
+3. seasonal measurement
+4. chart analysis
+5. data comparison
+
+**Question Keywords (2):**
+1. What winter data worksheets are appropriate for second grade learners?
+2. How do winter-themed data activities build analytical skills in second grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA, Seasonal |
+
 ---
 
 ### 245. Winter — Third Grade (`winter/third-grade`)
@@ -5443,6 +9593,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 3. winter multiplication worksheets grade 3
 4. winter research worksheets third grade
 5. third grade winter creative writing projects
+
+**LSI Keywords (5):**
+1. creative writing
+2. descriptive language
+3. narrative structure
+4. sensory details
+5. seasonal composition
+
+**Question Keywords (2):**
+1. What winter creative writing worksheets are best for third grade learners?
+2. How do winter-themed prompts develop descriptive writing in third grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA, Seasonal |
 
 ---
 
@@ -5469,6 +9636,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. zoo matching worksheets pre-K
 5. preschool zoo themed sorting activities
 
+**LSI Keywords (5):**
+1. zoo animals
+2. animal enclosures
+3. zookeeper roles
+4. animal sounds
+5. wild habitats
+
+**Question Keywords (2):**
+1. What zoo worksheets are appropriate for preschool children?
+2. How do zoo animal sorting activities build counting skills in preschoolers?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 247. Zoo — Kindergarten (`zoo/kindergarten`)
@@ -5488,6 +9672,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 3. zoo word worksheets kindergarten
 4. zoo counting worksheets kindergarten
 5. kindergarten zoo vocabulary activities
+
+**LSI Keywords (5):**
+1. zoo vocabulary
+2. animal groups
+3. habitat words
+4. classification language
+5. wildlife terms
+
+**Question Keywords (2):**
+1. What zoo vocabulary worksheets are best for kindergarten learners?
+2. How do zoo activities develop animal classification skills in kindergarten?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
 
 ---
 
@@ -5509,6 +9710,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. zoo literacy worksheets grade 1
 5. first grade zoo animal reading worksheets
 
+**LSI Keywords (5):**
+1. nonfiction reading
+2. animal facts
+3. informational text
+4. text features
+5. science integration
+
+**Question Keywords (2):**
+1. What zoo reading worksheets work best for first grade students?
+2. How do zoo-themed texts develop nonfiction comprehension in first grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 249. Zoo — Second Grade (`zoo/second-grade`)
@@ -5529,6 +9747,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 4. zoo comprehension worksheets grade 2
 5. second grade zoo data chart worksheets
 
+**LSI Keywords (5):**
+1. data recording
+2. animal surveys
+3. graphing practice
+4. observation data
+5. classification charts
+
+**Question Keywords (2):**
+1. What zoo data worksheets are best for second grade students?
+2. How do zoo-themed survey activities develop data skills in second grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
+
 ---
 
 ### 250. Zoo — Third Grade (`zoo/third-grade`)
@@ -5548,6 +9783,23 @@ Within each theme, the 5 grade pages target different developmental skills:
 3. zoo multiplication worksheets grade 3
 4. zoo writing worksheets third grade
 5. third grade zoo animal research projects
+
+**LSI Keywords (5):**
+1. research projects
+2. animal reports
+3. informational writing
+4. evidence evaluation
+5. multi-source synthesis
+
+**Question Keywords (2):**
+1. What zoo research worksheets work best for third graders?
+2. How do zoo-themed research projects develop writing skills in third grade?
+
+| Metric | Value |
+|--------|-------|
+| **Search Volume** | Low (<100) |
+| **Competition** | Low |
+| **SERP Features** | Images, PAA |
 
 ---
 
@@ -6194,5 +10446,6 @@ Each theme's 5 grade pages target distinct focus skills to avoid internal cannib
 ---
 
 *Document created: Parts 6-10 of ONE CLICK A DAY SEO*
+*Part 6 of LANDING PAGE SEO PERFECTION: LSI keywords, question keywords, and SERP analysis added for all 250 entries.*
 *Themes 1-50 mapped with 250 unique primary keywords across 5 grades each.*
 *Theme+grade keyword mapping complete.*

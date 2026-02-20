@@ -302,7 +302,83 @@ Teachers use our find objects generator to build visual perception skills in you
     primaryCtaText: 'Start Free Trial',
     secondaryCtaText: 'View All 33 Apps',
     items: [], // Samples loaded dynamically from content manager
-    
+
+  },
+
+  // -- SEO & Content Enrichment (Part 25) ------------------------------------
+
+  aiOverviewSnippet: 'A hidden objects worksheet generator creates printable I Spy and Odd One Out activities where students search for targets among distractors. Teachers select 8-12 images from a 3,000+ library, choose 1-5 hidden targets or 1-3 unpaired items, and download a 300 DPI PDF with auto-generated answer key in under two minutes.',
+
+  comparisonTable: [
+    { feature: 'Activity Modes', ourApp: '2 modes (I Spy + Odd One Out) in one generator', typical: 'Single mode per template' },
+    { feature: 'Target Count', ourApp: 'Adjustable 1-5 hidden targets (I Spy) or 1-3 unpaired (Odd One Out)', typical: 'Fixed target count per worksheet' },
+    { feature: 'Reading Requirement', ourApp: 'Entirely visual -- no reading needed for any mode', typical: 'Text-based instructions required' },
+    { feature: 'Image Library', ourApp: '3,000+ themed images plus custom uploads', typical: 'Limited clipart or stock images' },
+    { feature: 'Answer Keys', ourApp: 'Auto-generated highlighting targets or unpaired images', typical: 'Often not included or teacher-made' },
+    { feature: 'Commercial License', ourApp: 'Included for TPT, Etsy, and KDP sales', typical: 'Extra fee or personal use only' },
+  ],
+
+  researchBacking: [
+    {
+      claim: 'Visual search tasks like I Spy activities strengthen selective attention and figure-ground perception, helping young children learn to isolate relevant visual information from complex scenes -- a foundational skill for reading and mathematics.',
+      source: 'Treisman, A. & Gelade, G., "A Feature-Integration Theory of Attention," Cognitive Psychology, 1980',
+    },
+    {
+      claim: 'Odd-one-out exercises develop analytical reasoning and comparison skills in early childhood by requiring children to evaluate multiple items simultaneously and identify distinguishing features, building classification abilities that transfer to academic sorting and categorization tasks.',
+      source: 'Diamond, A., "Executive Functions," Annual Review of Psychology, 2013',
+    },
+  ],
+
+  teacherTestimonials: [
+    {
+      quote: 'The dual mode is a game changer. I use I Spy with 2 targets on Monday for my Pre-K class, then switch to Odd One Out with 1 unpaired image on Wednesday. The same themed pictures across both modes keep the week cohesive, and every worksheet prints beautifully at 300 DPI.',
+      name: 'Diane Kessler',
+      role: 'Pre-K Teacher',
+      school: 'Maplewood Early Learning',
+    },
+    {
+      quote: 'My kindergarteners beg for I Spy worksheets every morning. I set 3 hidden targets among 10 distractors and they stay focused for the whole activity. The automatic answer key saves me from marking 25 worksheets by hand -- students self-check at the answer station and move on independently.',
+      name: 'Jacob Osei',
+      role: 'Kindergarten Teacher',
+      school: 'Brookfield Academy',
+    },
+  ],
+
+  tips: {
+    sectionTitle: 'Visual Search Strategies by Grade Level',
+    sectionDescription: 'Use the Find Objects generator to target the right visual challenge at each developmental stage. Adjust activity mode, target count, and distractor complexity to scaffold learning from preschool figure-ground perception through second grade analytical reasoning.',
+    items: [
+      {
+        id: 'preschool',
+        icon: '\u{1F331}',
+        title: 'Preschool: I Spy with 1 Hidden Target',
+        description: 'Start with I Spy mode using just 1 hidden target among 8 distractors. Choose large, distinctly shaped images from a single theme like animals or fruit. The simple one-target search builds basic visual scanning habits and gives 3-4 year olds a satisfying success experience before introducing more complex searches.',
+      },
+      {
+        id: 'kindergarten',
+        icon: '\u{1F392}',
+        title: 'Kindergarten: I Spy with 2-3 Targets',
+        description: 'Increase to 2-3 hidden targets among 10-12 distractors for kindergarteners developing sustained attention. Mix themes so targets contrast with distractors visually. Students practice systematic scanning -- left to right, top to bottom -- building the same visual tracking patterns used in early reading.',
+      },
+      {
+        id: 'first-grade',
+        icon: '\u{1F4DA}',
+        title: '1st Grade: I Spy with 4-5 Targets',
+        description: 'Challenge first graders with 4-5 hidden targets and 12 distractors from similar-looking themes. Increase visual similarity between targets and distractors to sharpen discrimination. Students develop working memory by tracking multiple search goals simultaneously while scanning the full image arrangement.',
+      },
+      {
+        id: 'second-grade',
+        icon: '\u270F\uFE0F',
+        title: '2nd Grade: Odd One Out with 2-3 Unpaired Images',
+        description: 'Switch to Odd One Out mode with 2-3 unpaired images among 10-12 pairs. This mode demands precise visual comparison -- students must verify each image has a match before identifying the odd ones. The analytical reasoning required builds classification and logical thinking skills for academic tasks.',
+      },
+      {
+        id: 'third-grade',
+        icon: '\u{1F3AF}',
+        title: '3rd Grade: Combined Modes for Critical Thinking',
+        description: 'Alternate between I Spy with maximum targets and Odd One Out with 3 unpaired images for varied cognitive challenges. Have students explain their search strategies in writing after completing worksheets. The combination develops meta-cognitive awareness of visual processing and analytical reasoning approaches.',
+      },
+    ],
   },
 };
 

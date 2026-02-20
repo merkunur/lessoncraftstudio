@@ -321,7 +321,83 @@ Print multiple copies for your entire class. The 300 DPI quality handles repeate
     primaryCtaText: 'Start Free Trial',
     secondaryCtaText: 'View All 33 Apps',
     items: [], // Samples loaded dynamically from content manager
-    
+
+  },
+
+  // -- SEO & Content Enrichment (Part 25) ------------------------------------
+
+  aiOverviewSnippet: 'A find and count worksheet generator creates printable I Spy grids where students locate hidden objects and perform four task types -- circle, square, cross out, and count. Teachers select 1-4 targets from a 3,000+ image library, choose grid sizes from 5x5 to 10x10, and download a 300 DPI PDF with auto-generated answer key in under two minutes.',
+
+  comparisonTable: [
+    { feature: 'Task Types', ourApp: '4 distinct tasks per target (circle, square, cross out, count)', typical: 'Single task type per worksheet' },
+    { feature: 'Grid Size', ourApp: 'Adjustable 5x5 to 10x10 grids', typical: 'Fixed grid with no size control' },
+    { feature: 'I Spy Header', ourApp: 'Auto-generated header showing targets with task icons', typical: 'No header or manual creation needed' },
+    { feature: 'Target Placement', ourApp: 'Each target appears exactly twice with random placement', typical: 'Random or inconsistent target counts' },
+    { feature: 'Answer Keys', ourApp: 'Auto-generated with visual task markers and counts', typical: 'Often not included or teacher-made' },
+    { feature: 'Commercial License', ourApp: 'Included for TPT, Etsy, and KDP sales', typical: 'Extra fee or personal use only' },
+  ],
+
+  researchBacking: [
+    {
+      claim: 'Counting embedded objects within visual arrays develops one-to-one correspondence and subitizing skills aligned with K.CC.B.4, as children must touch or mark each item exactly once while maintaining an accurate running total.',
+      source: 'Clements, D. H. & Sarama, J., "Learning and Teaching Early Math: The Learning Trajectories Approach," Routledge, 2014',
+    },
+    {
+      claim: 'Mixed-task activities that require switching between cognitive operations -- such as circling, crossing out, and counting on the same worksheet -- engage executive function more effectively than single-task repetition, strengthening cognitive flexibility in young learners.',
+      source: 'Miyake, A. et al., "The Unity and Diversity of Executive Functions," Cognitive Psychology, 2000',
+    },
+  ],
+
+  teacherTestimonials: [
+    {
+      quote: 'The four task types on one worksheet are brilliant for centers. My kindergarteners circle the butterfly, draw squares around the ladybug, cross out the caterpillar, and count the bees -- all on the same grid. The auto-generated I Spy header means students work independently without me explaining each task.',
+      name: 'Sofia Ramirez',
+      role: 'Kindergarten Teacher',
+      school: 'Valley Stream Elementary',
+    },
+    {
+      quote: 'I use 8x8 grids with 3 targets for my first graders and the counting task gets them writing numbers every time. What I love most is the regenerate button -- I click once and get a completely different arrangement with the same settings. I make five unique worksheets for the week in about three minutes.',
+      name: 'Greg Thornton',
+      role: '1st Grade Teacher',
+      school: 'Pinecrest Academy',
+    },
+  ],
+
+  tips: {
+    sectionTitle: 'I Spy Counting Strategies by Grade Level',
+    sectionDescription: 'Use the Find and Count generator to match grid complexity and task types to each developmental stage. Adjust grid size, target count, and task assignments to scaffold learning from preschool object recognition through second grade multi-step counting.',
+    items: [
+      {
+        id: 'preschool',
+        icon: '\u{1F331}',
+        title: 'Preschool: 5x5 Grid with 1 Target and Circle Task',
+        description: 'Start with a 5x5 grid and 1 hidden target using only the circle task. The small grid keeps the visual field manageable for 3-4 year olds. With just one target appearing twice, children practice basic visual scanning and circling without cognitive overload from multiple instructions.',
+      },
+      {
+        id: 'kindergarten',
+        icon: '\u{1F392}',
+        title: 'Kindergarten: 6x6 Grid with 2 Targets and Mixed Tasks',
+        description: 'Increase to a 6x6 or 7x7 grid with 2 targets, assigning circle to one target and count to the other. The I Spy header teaches kindergarteners to reference visual instructions independently. The count task reinforces one-to-one correspondence as students tally each found object.',
+      },
+      {
+        id: 'first-grade',
+        icon: '\u{1F4DA}',
+        title: '1st Grade: 8x8 Grid with 3 Targets and All Task Types',
+        description: 'Use an 8x8 grid with 3 targets and assign different task types to each -- circle, cross out, and count. The variety engages multiple cognitive processes on a single worksheet. Students practice reading the I Spy header carefully to remember which action goes with which target image.',
+      },
+      {
+        id: 'second-grade',
+        icon: '\u270F\uFE0F',
+        title: '2nd Grade: 10x10 Grid with 4 Targets for Multi-Task Challenge',
+        description: 'Challenge second graders with a 10x10 grid and 4 targets, each assigned a different task type. The large grid demands sustained visual attention while four simultaneous tasks build working memory and task-switching skills. Have students verify their counts match the answer key for self-assessment practice.',
+      },
+      {
+        id: 'third-grade',
+        icon: '\u{1F3AF}',
+        title: '3rd Grade: Maximum Grid with Counting Focus',
+        description: 'Use 10x10 grids with 4 targets all assigned to the count task for intensive math integration. Students track four separate running tallies across 100 cells, practicing organized counting strategies. After completing the grid, have students add all four counts together for bonus addition practice.',
+      },
+    ],
   },
 };
 

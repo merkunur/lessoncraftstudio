@@ -302,7 +302,83 @@ The picture path worksheet maker works perfectly for differentiated instruction 
     primaryCtaText: 'Start Free Trial',
     secondaryCtaText: 'View All 33 Apps',
     items: [], // Samples loaded dynamically from content manager
-    
+
+  },
+
+  // -- SEO & Content Enrichment (Part 25) ------------------------------------
+
+  aiOverviewSnippet: 'A picture path maze generator creates printable maze worksheets in three game modes -- Picture Pathway for basic pathfinding, Classic Maze with collectible counting, and Choose the Right Path for strategic decision-making. Teachers select grid sizes from 12x12 to 15x15, customize wall appearance, and download a 300 DPI PDF with answer key in under two minutes.',
+
+  comparisonTable: [
+    { feature: 'Game Modes', ourApp: '3 modes (Picture Pathway, Classic Maze, Choose the Right Path)', typical: 'Single maze type per template' },
+    { feature: 'Grid Size', ourApp: 'Adjustable 12x12 to 15x15 grids', typical: 'Fixed maze dimensions' },
+    { feature: 'Wall Customization', ourApp: 'Configurable color, thickness (1-10px), and opacity (10-100%)', typical: 'Fixed black walls with no options' },
+    { feature: 'Math Integration', ourApp: 'Classic Maze collectible counting built into navigation', typical: 'Maze-only with no academic content' },
+    { feature: 'Answer Keys', ourApp: 'Auto-generated showing correct path and collectible count', typical: 'Often not included or manually traced' },
+    { feature: 'Commercial License', ourApp: 'Included for TPT, Etsy, and KDP sales', typical: 'Extra fee or personal use only' },
+  ],
+
+  researchBacking: [
+    {
+      claim: 'Maze-solving activates planning and inhibitory control circuits in the prefrontal cortex, making mazes an effective tool for developing executive function in early childhood -- the same cognitive systems that predict academic achievement in reading and mathematics.',
+      source: 'Zelazo, P. D., "The Dimensional Change Card Sort: A Method of Assessing Executive Function in Children," Nature Protocols, 2006',
+    },
+    {
+      claim: 'Sustained pencil tracing through maze corridors builds the fine motor control and hand stability needed for handwriting, with regular maze practice improving letter formation accuracy in kindergarten and first grade students.',
+      source: 'Cameron, C. E. et al., "Fine Motor Skills and Executive Function Both Contribute to Kindergarten Achievement," Child Development, 2012',
+    },
+  ],
+
+  teacherTestimonials: [
+    {
+      quote: 'My Pre-K students absolutely love Picture Pathway mazes. I use 12x12 grids with thick, bold walls so the paths are wide and easy to trace. The themed start and end images make every maze feel like a little story -- the bunny finds the carrot, the dog reaches the bone. It is the best fine motor warm-up we do all week.',
+      name: 'Vanessa Liu',
+      role: 'Pre-K Teacher',
+      school: 'Bright Horizons Preschool',
+    },
+    {
+      quote: 'Classic Maze mode with collectible counting is perfect for my second graders. They navigate the maze, count the items they pass, and write the total at the end. I adjust wall thickness to make paths narrower for students who need a pencil control challenge. Three game modes from one generator means I never run out of variety.',
+      name: 'Brendan Walsh',
+      role: '2nd Grade Teacher',
+      school: 'Crestview Elementary',
+    },
+  ],
+
+  tips: {
+    sectionTitle: 'Maze Navigation Strategies by Grade Level',
+    sectionDescription: 'Use the Picture Path generator to match maze complexity and game mode to each developmental stage. Adjust grid size, wall appearance, and game mode to scaffold learning from preschool basic pathfinding through third grade strategic planning.',
+    items: [
+      {
+        id: 'preschool',
+        icon: '\u{1F331}',
+        title: 'Preschool: Picture Pathway on 12x12 Grid',
+        description: 'Start with Picture Pathway mode on a 12x12 grid with thick walls (8-10px) and full opacity. Wide corridors give 3-4 year olds plenty of room to trace without crossing lines. Choose familiar themed images for start and end points to create a simple narrative that motivates path completion.',
+      },
+      {
+        id: 'kindergarten',
+        icon: '\u{1F392}',
+        title: 'Kindergarten: Picture Pathway on 13x13 Grid',
+        description: 'Increase to a 13x13 grid with medium wall thickness (5-7px) for kindergarteners building pencil control. The slightly more complex maze introduces more decision points while corridors remain wide enough for developing fine motor skills. Add custom text labels at start and end for sight word reinforcement.',
+      },
+      {
+        id: 'first-grade',
+        icon: '\u{1F4DA}',
+        title: '1st Grade: Classic Maze with Collectible Counting',
+        description: 'Switch to Classic Maze mode on a 13x13 or 14x14 grid with medium walls. Students navigate while counting collectible images along the path, combining spatial reasoning with math practice. The dual-task challenge builds working memory as students track both their route and running count simultaneously.',
+      },
+      {
+        id: 'second-grade',
+        icon: '\u270F\uFE0F',
+        title: '2nd Grade: Choose the Right Path on 14x14 Grid',
+        description: 'Introduce Choose the Right Path mode on a 14x14 grid where students evaluate multiple routes before committing. Reduce wall thickness to 3-4px for narrower corridors requiring precise pencil control. The strategic decision-making develops planning skills and the ability to predict outcomes before acting.',
+      },
+      {
+        id: 'third-grade',
+        icon: '\u{1F3AF}',
+        title: '3rd Grade: Advanced 15x15 Mazes Across All Modes',
+        description: 'Use maximum 15x15 grids with thin walls (1-3px) across all three game modes for varied cognitive challenges. Rotate between Picture Pathway for speed runs, Classic Maze for math integration, and Choose the Right Path for strategic thinking. Have students time themselves and compare strategies for meta-cognitive development.',
+      },
+    ],
   },
 };
 

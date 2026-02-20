@@ -1,0 +1,2956 @@
+{
+  "timestamp": "2026-02-20T23:33:51.039Z",
+  "totalFiles": 33,
+  "results": {
+    "pass": 8,
+    "warn": 530,
+    "fail": 0
+  },
+  "issues": [
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 45.5%: addition-worksheets vs alphabet-train-worksheets",
+      "file": "addition-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 47.0%: addition-worksheets vs big-small-worksheets",
+      "file": "addition-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 60.3%: addition-worksheets vs chart-count-worksheets",
+      "file": "addition-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 61.3%: addition-worksheets vs code-addition-worksheets",
+      "file": "addition-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 69.9%: addition-worksheets vs coloring-worksheets",
+      "file": "addition-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 59.9%: addition-worksheets vs crossword-worksheets",
+      "file": "addition-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 54.3%: addition-worksheets vs cryptogram-worksheets",
+      "file": "addition-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 71.5%: addition-worksheets vs draw-and-color-worksheets",
+      "file": "addition-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 45.5%: addition-worksheets vs drawing-lines-worksheets",
+      "file": "addition-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 66.7%: addition-worksheets vs find-and-count-worksheets",
+      "file": "addition-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 70.3%: addition-worksheets vs find-objects-worksheets",
+      "file": "addition-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 74.0%: addition-worksheets vs grid-match-worksheets",
+      "file": "addition-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 87.1%: addition-worksheets vs matching-worksheets",
+      "file": "addition-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 79.1%: addition-worksheets vs math-puzzle-worksheets",
+      "file": "addition-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 80.0%: addition-worksheets vs math-worksheets",
+      "file": "addition-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 72.1%: addition-worksheets vs missing-pieces-worksheets",
+      "file": "addition-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 61.4%: addition-worksheets vs more-less-worksheets",
+      "file": "addition-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 81.5%: addition-worksheets vs odd-one-out-worksheets",
+      "file": "addition-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 64.8%: addition-worksheets vs pattern-train-worksheets",
+      "file": "addition-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 66.9%: addition-worksheets vs pattern-worksheets",
+      "file": "addition-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 77.8%: addition-worksheets vs picture-bingo-worksheets",
+      "file": "addition-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 62.5%: addition-worksheets vs picture-path-worksheets",
+      "file": "addition-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 77.5%: addition-worksheets vs picture-sort-worksheets",
+      "file": "addition-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 55.1%: addition-worksheets vs prepositions-worksheets",
+      "file": "addition-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 65.1%: addition-worksheets vs shadow-match-worksheets",
+      "file": "addition-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 79.3%: addition-worksheets vs subtraction-worksheets",
+      "file": "addition-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 48.6%: addition-worksheets vs sudoku-worksheets",
+      "file": "addition-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 64.0%: addition-worksheets vs treasure-hunt-worksheets",
+      "file": "addition-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 80.1%: addition-worksheets vs word-guess-worksheets",
+      "file": "addition-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 76.8%: addition-worksheets vs word-scramble-worksheets",
+      "file": "addition-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 30.5%: addition-worksheets vs word-search-worksheets",
+      "file": "addition-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 63.0%: addition-worksheets vs writing-worksheets",
+      "file": "addition-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 32.8%: alphabet-train-worksheets vs big-small-worksheets",
+      "file": "alphabet-train-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 36.8%: alphabet-train-worksheets vs chart-count-worksheets",
+      "file": "alphabet-train-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 35.2%: alphabet-train-worksheets vs code-addition-worksheets",
+      "file": "alphabet-train-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 40.8%: alphabet-train-worksheets vs coloring-worksheets",
+      "file": "alphabet-train-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 38.0%: alphabet-train-worksheets vs crossword-worksheets",
+      "file": "alphabet-train-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 36.9%: alphabet-train-worksheets vs cryptogram-worksheets",
+      "file": "alphabet-train-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 38.4%: alphabet-train-worksheets vs draw-and-color-worksheets",
+      "file": "alphabet-train-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 33.9%: alphabet-train-worksheets vs drawing-lines-worksheets",
+      "file": "alphabet-train-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 44.8%: alphabet-train-worksheets vs find-and-count-worksheets",
+      "file": "alphabet-train-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 38.5%: alphabet-train-worksheets vs find-objects-worksheets",
+      "file": "alphabet-train-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 36.5%: alphabet-train-worksheets vs grid-match-worksheets",
+      "file": "alphabet-train-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 42.4%: alphabet-train-worksheets vs matching-worksheets",
+      "file": "alphabet-train-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 37.2%: alphabet-train-worksheets vs math-puzzle-worksheets",
+      "file": "alphabet-train-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 42.2%: alphabet-train-worksheets vs math-worksheets",
+      "file": "alphabet-train-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 38.0%: alphabet-train-worksheets vs missing-pieces-worksheets",
+      "file": "alphabet-train-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 39.2%: alphabet-train-worksheets vs more-less-worksheets",
+      "file": "alphabet-train-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 38.6%: alphabet-train-worksheets vs odd-one-out-worksheets",
+      "file": "alphabet-train-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 46.4%: alphabet-train-worksheets vs pattern-train-worksheets",
+      "file": "alphabet-train-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 42.7%: alphabet-train-worksheets vs pattern-worksheets",
+      "file": "alphabet-train-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 43.9%: alphabet-train-worksheets vs picture-bingo-worksheets",
+      "file": "alphabet-train-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 35.3%: alphabet-train-worksheets vs picture-path-worksheets",
+      "file": "alphabet-train-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 36.8%: alphabet-train-worksheets vs picture-sort-worksheets",
+      "file": "alphabet-train-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 39.7%: alphabet-train-worksheets vs prepositions-worksheets",
+      "file": "alphabet-train-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 35.5%: alphabet-train-worksheets vs shadow-match-worksheets",
+      "file": "alphabet-train-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 40.5%: alphabet-train-worksheets vs subtraction-worksheets",
+      "file": "alphabet-train-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 34.5%: alphabet-train-worksheets vs sudoku-worksheets",
+      "file": "alphabet-train-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 39.3%: alphabet-train-worksheets vs treasure-hunt-worksheets",
+      "file": "alphabet-train-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 37.6%: alphabet-train-worksheets vs word-guess-worksheets",
+      "file": "alphabet-train-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 44.5%: alphabet-train-worksheets vs word-scramble-worksheets",
+      "file": "alphabet-train-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 40.7%: alphabet-train-worksheets vs writing-worksheets",
+      "file": "alphabet-train-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 56.2%: big-small-worksheets vs chart-count-worksheets",
+      "file": "big-small-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 48.4%: big-small-worksheets vs code-addition-worksheets",
+      "file": "big-small-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 46.5%: big-small-worksheets vs coloring-worksheets",
+      "file": "big-small-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 52.7%: big-small-worksheets vs crossword-worksheets",
+      "file": "big-small-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 50.0%: big-small-worksheets vs cryptogram-worksheets",
+      "file": "big-small-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 51.1%: big-small-worksheets vs draw-and-color-worksheets",
+      "file": "big-small-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 39.5%: big-small-worksheets vs drawing-lines-worksheets",
+      "file": "big-small-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 44.9%: big-small-worksheets vs find-and-count-worksheets",
+      "file": "big-small-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 56.6%: big-small-worksheets vs find-objects-worksheets",
+      "file": "big-small-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 50.2%: big-small-worksheets vs grid-match-worksheets",
+      "file": "big-small-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 45.0%: big-small-worksheets vs matching-worksheets",
+      "file": "big-small-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 50.5%: big-small-worksheets vs math-puzzle-worksheets",
+      "file": "big-small-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 40.0%: big-small-worksheets vs math-worksheets",
+      "file": "big-small-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 51.6%: big-small-worksheets vs missing-pieces-worksheets",
+      "file": "big-small-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 55.0%: big-small-worksheets vs more-less-worksheets",
+      "file": "big-small-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 51.8%: big-small-worksheets vs odd-one-out-worksheets",
+      "file": "big-small-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 52.7%: big-small-worksheets vs pattern-train-worksheets",
+      "file": "big-small-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 51.1%: big-small-worksheets vs pattern-worksheets",
+      "file": "big-small-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 48.1%: big-small-worksheets vs picture-bingo-worksheets",
+      "file": "big-small-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 47.4%: big-small-worksheets vs picture-path-worksheets",
+      "file": "big-small-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 49.3%: big-small-worksheets vs picture-sort-worksheets",
+      "file": "big-small-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 50.9%: big-small-worksheets vs prepositions-worksheets",
+      "file": "big-small-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 53.1%: big-small-worksheets vs shadow-match-worksheets",
+      "file": "big-small-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 54.5%: big-small-worksheets vs subtraction-worksheets",
+      "file": "big-small-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 38.0%: big-small-worksheets vs sudoku-worksheets",
+      "file": "big-small-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 51.6%: big-small-worksheets vs treasure-hunt-worksheets",
+      "file": "big-small-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 51.6%: big-small-worksheets vs word-guess-worksheets",
+      "file": "big-small-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 51.1%: big-small-worksheets vs word-scramble-worksheets",
+      "file": "big-small-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 51.4%: big-small-worksheets vs writing-worksheets",
+      "file": "big-small-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 69.1%: chart-count-worksheets vs code-addition-worksheets",
+      "file": "chart-count-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 60.3%: chart-count-worksheets vs coloring-worksheets",
+      "file": "chart-count-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 75.0%: chart-count-worksheets vs crossword-worksheets",
+      "file": "chart-count-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 68.8%: chart-count-worksheets vs cryptogram-worksheets",
+      "file": "chart-count-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 67.2%: chart-count-worksheets vs draw-and-color-worksheets",
+      "file": "chart-count-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 41.9%: chart-count-worksheets vs drawing-lines-worksheets",
+      "file": "chart-count-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 57.5%: chart-count-worksheets vs find-and-count-worksheets",
+      "file": "chart-count-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 67.4%: chart-count-worksheets vs find-objects-worksheets",
+      "file": "chart-count-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 65.6%: chart-count-worksheets vs grid-match-worksheets",
+      "file": "chart-count-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 61.0%: chart-count-worksheets vs matching-worksheets",
+      "file": "chart-count-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 66.8%: chart-count-worksheets vs math-puzzle-worksheets",
+      "file": "chart-count-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 57.9%: chart-count-worksheets vs math-worksheets",
+      "file": "chart-count-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 68.4%: chart-count-worksheets vs missing-pieces-worksheets",
+      "file": "chart-count-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 66.4%: chart-count-worksheets vs more-less-worksheets",
+      "file": "chart-count-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 64.7%: chart-count-worksheets vs odd-one-out-worksheets",
+      "file": "chart-count-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 67.4%: chart-count-worksheets vs pattern-train-worksheets",
+      "file": "chart-count-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 68.2%: chart-count-worksheets vs pattern-worksheets",
+      "file": "chart-count-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 65.4%: chart-count-worksheets vs picture-bingo-worksheets",
+      "file": "chart-count-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 67.6%: chart-count-worksheets vs picture-path-worksheets",
+      "file": "chart-count-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 68.9%: chart-count-worksheets vs picture-sort-worksheets",
+      "file": "chart-count-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 62.2%: chart-count-worksheets vs prepositions-worksheets",
+      "file": "chart-count-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 69.7%: chart-count-worksheets vs shadow-match-worksheets",
+      "file": "chart-count-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 68.5%: chart-count-worksheets vs subtraction-worksheets",
+      "file": "chart-count-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 47.9%: chart-count-worksheets vs sudoku-worksheets",
+      "file": "chart-count-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 68.6%: chart-count-worksheets vs treasure-hunt-worksheets",
+      "file": "chart-count-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 65.6%: chart-count-worksheets vs word-guess-worksheets",
+      "file": "chart-count-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 66.1%: chart-count-worksheets vs word-scramble-worksheets",
+      "file": "chart-count-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 32.8%: chart-count-worksheets vs word-search-worksheets",
+      "file": "chart-count-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 66.8%: chart-count-worksheets vs writing-worksheets",
+      "file": "chart-count-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 58.8%: code-addition-worksheets vs coloring-worksheets",
+      "file": "code-addition-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 64.2%: code-addition-worksheets vs crossword-worksheets",
+      "file": "code-addition-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 59.6%: code-addition-worksheets vs cryptogram-worksheets",
+      "file": "code-addition-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 64.2%: code-addition-worksheets vs draw-and-color-worksheets",
+      "file": "code-addition-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 37.1%: code-addition-worksheets vs drawing-lines-worksheets",
+      "file": "code-addition-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 50.5%: code-addition-worksheets vs find-and-count-worksheets",
+      "file": "code-addition-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 64.9%: code-addition-worksheets vs find-objects-worksheets",
+      "file": "code-addition-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 61.5%: code-addition-worksheets vs grid-match-worksheets",
+      "file": "code-addition-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 56.6%: code-addition-worksheets vs matching-worksheets",
+      "file": "code-addition-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 63.2%: code-addition-worksheets vs math-puzzle-worksheets",
+      "file": "code-addition-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 57.7%: code-addition-worksheets vs math-worksheets",
+      "file": "code-addition-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 64.7%: code-addition-worksheets vs missing-pieces-worksheets",
+      "file": "code-addition-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 68.7%: code-addition-worksheets vs more-less-worksheets",
+      "file": "code-addition-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 62.4%: code-addition-worksheets vs odd-one-out-worksheets",
+      "file": "code-addition-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 71.1%: code-addition-worksheets vs pattern-train-worksheets",
+      "file": "code-addition-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 66.4%: code-addition-worksheets vs pattern-worksheets",
+      "file": "code-addition-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 57.0%: code-addition-worksheets vs picture-bingo-worksheets",
+      "file": "code-addition-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 56.1%: code-addition-worksheets vs picture-path-worksheets",
+      "file": "code-addition-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 64.6%: code-addition-worksheets vs picture-sort-worksheets",
+      "file": "code-addition-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 53.6%: code-addition-worksheets vs prepositions-worksheets",
+      "file": "code-addition-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 66.5%: code-addition-worksheets vs shadow-match-worksheets",
+      "file": "code-addition-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 66.0%: code-addition-worksheets vs subtraction-worksheets",
+      "file": "code-addition-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 48.4%: code-addition-worksheets vs sudoku-worksheets",
+      "file": "code-addition-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 70.2%: code-addition-worksheets vs treasure-hunt-worksheets",
+      "file": "code-addition-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 61.5%: code-addition-worksheets vs word-guess-worksheets",
+      "file": "code-addition-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 60.3%: code-addition-worksheets vs word-scramble-worksheets",
+      "file": "code-addition-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 32.7%: code-addition-worksheets vs word-search-worksheets",
+      "file": "code-addition-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 68.4%: code-addition-worksheets vs writing-worksheets",
+      "file": "code-addition-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 62.6%: coloring-worksheets vs crossword-worksheets",
+      "file": "coloring-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 56.2%: coloring-worksheets vs cryptogram-worksheets",
+      "file": "coloring-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 66.7%: coloring-worksheets vs draw-and-color-worksheets",
+      "file": "coloring-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 45.5%: coloring-worksheets vs drawing-lines-worksheets",
+      "file": "coloring-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 58.9%: coloring-worksheets vs find-and-count-worksheets",
+      "file": "coloring-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 64.8%: coloring-worksheets vs find-objects-worksheets",
+      "file": "coloring-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 60.7%: coloring-worksheets vs grid-match-worksheets",
+      "file": "coloring-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 68.3%: coloring-worksheets vs matching-worksheets",
+      "file": "coloring-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 60.5%: coloring-worksheets vs math-puzzle-worksheets",
+      "file": "coloring-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 61.1%: coloring-worksheets vs math-worksheets",
+      "file": "coloring-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 64.5%: coloring-worksheets vs missing-pieces-worksheets",
+      "file": "coloring-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 61.4%: coloring-worksheets vs more-less-worksheets",
+      "file": "coloring-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 62.2%: coloring-worksheets vs odd-one-out-worksheets",
+      "file": "coloring-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 65.4%: coloring-worksheets vs pattern-train-worksheets",
+      "file": "coloring-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 63.6%: coloring-worksheets vs pattern-worksheets",
+      "file": "coloring-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 65.6%: coloring-worksheets vs picture-bingo-worksheets",
+      "file": "coloring-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 52.9%: coloring-worksheets vs picture-path-worksheets",
+      "file": "coloring-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 62.0%: coloring-worksheets vs picture-sort-worksheets",
+      "file": "coloring-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 48.4%: coloring-worksheets vs prepositions-worksheets",
+      "file": "coloring-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 65.1%: coloring-worksheets vs shadow-match-worksheets",
+      "file": "coloring-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 65.8%: coloring-worksheets vs subtraction-worksheets",
+      "file": "coloring-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 52.4%: coloring-worksheets vs sudoku-worksheets",
+      "file": "coloring-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 64.0%: coloring-worksheets vs treasure-hunt-worksheets",
+      "file": "coloring-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 61.9%: coloring-worksheets vs word-guess-worksheets",
+      "file": "coloring-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 78.4%: coloring-worksheets vs word-scramble-worksheets",
+      "file": "coloring-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 33.4%: coloring-worksheets vs word-search-worksheets",
+      "file": "coloring-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 63.6%: coloring-worksheets vs writing-worksheets",
+      "file": "coloring-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 75.1%: crossword-worksheets vs cryptogram-worksheets",
+      "file": "crossword-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 69.3%: crossword-worksheets vs draw-and-color-worksheets",
+      "file": "crossword-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 42.5%: crossword-worksheets vs drawing-lines-worksheets",
+      "file": "crossword-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 52.7%: crossword-worksheets vs find-and-count-worksheets",
+      "file": "crossword-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 68.0%: crossword-worksheets vs find-objects-worksheets",
+      "file": "crossword-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 67.5%: crossword-worksheets vs grid-match-worksheets",
+      "file": "crossword-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 59.4%: crossword-worksheets vs matching-worksheets",
+      "file": "crossword-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 64.6%: crossword-worksheets vs math-puzzle-worksheets",
+      "file": "crossword-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 56.1%: crossword-worksheets vs math-worksheets",
+      "file": "crossword-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 66.9%: crossword-worksheets vs missing-pieces-worksheets",
+      "file": "crossword-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 66.9%: crossword-worksheets vs more-less-worksheets",
+      "file": "crossword-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 65.1%: crossword-worksheets vs odd-one-out-worksheets",
+      "file": "crossword-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 68.0%: crossword-worksheets vs pattern-train-worksheets",
+      "file": "crossword-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 71.9%: crossword-worksheets vs pattern-worksheets",
+      "file": "crossword-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 65.3%: crossword-worksheets vs picture-bingo-worksheets",
+      "file": "crossword-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 65.4%: crossword-worksheets vs picture-path-worksheets",
+      "file": "crossword-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 66.8%: crossword-worksheets vs picture-sort-worksheets",
+      "file": "crossword-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 59.9%: crossword-worksheets vs prepositions-worksheets",
+      "file": "crossword-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 66.8%: crossword-worksheets vs shadow-match-worksheets",
+      "file": "crossword-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 69.2%: crossword-worksheets vs subtraction-worksheets",
+      "file": "crossword-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 50.4%: crossword-worksheets vs sudoku-worksheets",
+      "file": "crossword-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 67.1%: crossword-worksheets vs treasure-hunt-worksheets",
+      "file": "crossword-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 66.1%: crossword-worksheets vs word-guess-worksheets",
+      "file": "crossword-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 69.7%: crossword-worksheets vs word-scramble-worksheets",
+      "file": "crossword-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 32.5%: crossword-worksheets vs word-search-worksheets",
+      "file": "crossword-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 66.0%: crossword-worksheets vs writing-worksheets",
+      "file": "crossword-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 65.0%: cryptogram-worksheets vs draw-and-color-worksheets",
+      "file": "cryptogram-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 40.8%: cryptogram-worksheets vs drawing-lines-worksheets",
+      "file": "cryptogram-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 48.9%: cryptogram-worksheets vs find-and-count-worksheets",
+      "file": "cryptogram-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 61.7%: cryptogram-worksheets vs find-objects-worksheets",
+      "file": "cryptogram-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 62.2%: cryptogram-worksheets vs grid-match-worksheets",
+      "file": "cryptogram-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 55.2%: cryptogram-worksheets vs matching-worksheets",
+      "file": "cryptogram-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 58.8%: cryptogram-worksheets vs math-puzzle-worksheets",
+      "file": "cryptogram-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 55.0%: cryptogram-worksheets vs math-worksheets",
+      "file": "cryptogram-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 62.2%: cryptogram-worksheets vs missing-pieces-worksheets",
+      "file": "cryptogram-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 62.9%: cryptogram-worksheets vs more-less-worksheets",
+      "file": "cryptogram-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 59.2%: cryptogram-worksheets vs odd-one-out-worksheets",
+      "file": "cryptogram-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 63.1%: cryptogram-worksheets vs pattern-train-worksheets",
+      "file": "cryptogram-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 66.0%: cryptogram-worksheets vs pattern-worksheets",
+      "file": "cryptogram-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 61.9%: cryptogram-worksheets vs picture-bingo-worksheets",
+      "file": "cryptogram-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 60.2%: cryptogram-worksheets vs picture-path-worksheets",
+      "file": "cryptogram-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 61.6%: cryptogram-worksheets vs picture-sort-worksheets",
+      "file": "cryptogram-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 54.4%: cryptogram-worksheets vs prepositions-worksheets",
+      "file": "cryptogram-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 61.4%: cryptogram-worksheets vs shadow-match-worksheets",
+      "file": "cryptogram-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 62.7%: cryptogram-worksheets vs subtraction-worksheets",
+      "file": "cryptogram-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 50.0%: cryptogram-worksheets vs sudoku-worksheets",
+      "file": "cryptogram-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 62.3%: cryptogram-worksheets vs treasure-hunt-worksheets",
+      "file": "cryptogram-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 58.9%: cryptogram-worksheets vs word-guess-worksheets",
+      "file": "cryptogram-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 59.6%: cryptogram-worksheets vs word-scramble-worksheets",
+      "file": "cryptogram-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 61.9%: cryptogram-worksheets vs writing-worksheets",
+      "file": "cryptogram-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 46.9%: draw-and-color-worksheets vs drawing-lines-worksheets",
+      "file": "draw-and-color-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 58.6%: draw-and-color-worksheets vs find-and-count-worksheets",
+      "file": "draw-and-color-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 75.0%: draw-and-color-worksheets vs find-objects-worksheets",
+      "file": "draw-and-color-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 84.0%: draw-and-color-worksheets vs grid-match-worksheets",
+      "file": "draw-and-color-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 73.4%: draw-and-color-worksheets vs matching-worksheets",
+      "file": "draw-and-color-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 75.5%: draw-and-color-worksheets vs math-puzzle-worksheets",
+      "file": "draw-and-color-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 62.0%: draw-and-color-worksheets vs math-worksheets",
+      "file": "draw-and-color-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 78.2%: draw-and-color-worksheets vs missing-pieces-worksheets",
+      "file": "draw-and-color-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 73.0%: draw-and-color-worksheets vs more-less-worksheets",
+      "file": "draw-and-color-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 77.0%: draw-and-color-worksheets vs odd-one-out-worksheets",
+      "file": "draw-and-color-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 70.5%: draw-and-color-worksheets vs pattern-train-worksheets",
+      "file": "draw-and-color-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 77.4%: draw-and-color-worksheets vs pattern-worksheets",
+      "file": "draw-and-color-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 65.2%: draw-and-color-worksheets vs picture-bingo-worksheets",
+      "file": "draw-and-color-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 64.1%: draw-and-color-worksheets vs picture-path-worksheets",
+      "file": "draw-and-color-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 74.8%: draw-and-color-worksheets vs picture-sort-worksheets",
+      "file": "draw-and-color-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 65.2%: draw-and-color-worksheets vs prepositions-worksheets",
+      "file": "draw-and-color-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 72.2%: draw-and-color-worksheets vs shadow-match-worksheets",
+      "file": "draw-and-color-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 81.9%: draw-and-color-worksheets vs subtraction-worksheets",
+      "file": "draw-and-color-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 46.4%: draw-and-color-worksheets vs sudoku-worksheets",
+      "file": "draw-and-color-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 70.4%: draw-and-color-worksheets vs treasure-hunt-worksheets",
+      "file": "draw-and-color-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 75.7%: draw-and-color-worksheets vs word-guess-worksheets",
+      "file": "draw-and-color-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 67.2%: draw-and-color-worksheets vs word-scramble-worksheets",
+      "file": "draw-and-color-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 30.2%: draw-and-color-worksheets vs word-search-worksheets",
+      "file": "draw-and-color-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 69.9%: draw-and-color-worksheets vs writing-worksheets",
+      "file": "draw-and-color-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 47.9%: drawing-lines-worksheets vs find-and-count-worksheets",
+      "file": "drawing-lines-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 43.2%: drawing-lines-worksheets vs find-objects-worksheets",
+      "file": "drawing-lines-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 42.4%: drawing-lines-worksheets vs grid-match-worksheets",
+      "file": "drawing-lines-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 48.0%: drawing-lines-worksheets vs matching-worksheets",
+      "file": "drawing-lines-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 39.9%: drawing-lines-worksheets vs math-puzzle-worksheets",
+      "file": "drawing-lines-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 40.1%: drawing-lines-worksheets vs math-worksheets",
+      "file": "drawing-lines-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 41.2%: drawing-lines-worksheets vs missing-pieces-worksheets",
+      "file": "drawing-lines-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 41.9%: drawing-lines-worksheets vs more-less-worksheets",
+      "file": "drawing-lines-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 40.4%: drawing-lines-worksheets vs odd-one-out-worksheets",
+      "file": "drawing-lines-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 41.5%: drawing-lines-worksheets vs pattern-train-worksheets",
+      "file": "drawing-lines-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 43.9%: drawing-lines-worksheets vs pattern-worksheets",
+      "file": "drawing-lines-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 47.6%: drawing-lines-worksheets vs picture-bingo-worksheets",
+      "file": "drawing-lines-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 41.7%: drawing-lines-worksheets vs picture-path-worksheets",
+      "file": "drawing-lines-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 39.9%: drawing-lines-worksheets vs picture-sort-worksheets",
+      "file": "drawing-lines-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 43.9%: drawing-lines-worksheets vs prepositions-worksheets",
+      "file": "drawing-lines-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 43.8%: drawing-lines-worksheets vs shadow-match-worksheets",
+      "file": "drawing-lines-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 43.3%: drawing-lines-worksheets vs subtraction-worksheets",
+      "file": "drawing-lines-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 37.7%: drawing-lines-worksheets vs sudoku-worksheets",
+      "file": "drawing-lines-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 42.1%: drawing-lines-worksheets vs treasure-hunt-worksheets",
+      "file": "drawing-lines-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 39.4%: drawing-lines-worksheets vs word-guess-worksheets",
+      "file": "drawing-lines-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 47.8%: drawing-lines-worksheets vs word-scramble-worksheets",
+      "file": "drawing-lines-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 43.4%: drawing-lines-worksheets vs writing-worksheets",
+      "file": "drawing-lines-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 65.7%: find-and-count-worksheets vs find-objects-worksheets",
+      "file": "find-and-count-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 56.3%: find-and-count-worksheets vs grid-match-worksheets",
+      "file": "find-and-count-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 64.6%: find-and-count-worksheets vs matching-worksheets",
+      "file": "find-and-count-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 59.0%: find-and-count-worksheets vs math-puzzle-worksheets",
+      "file": "find-and-count-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 57.7%: find-and-count-worksheets vs math-worksheets",
+      "file": "find-and-count-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 62.9%: find-and-count-worksheets vs missing-pieces-worksheets",
+      "file": "find-and-count-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 50.7%: find-and-count-worksheets vs more-less-worksheets",
+      "file": "find-and-count-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 58.8%: find-and-count-worksheets vs odd-one-out-worksheets",
+      "file": "find-and-count-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 53.4%: find-and-count-worksheets vs pattern-train-worksheets",
+      "file": "find-and-count-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 52.8%: find-and-count-worksheets vs pattern-worksheets",
+      "file": "find-and-count-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 65.2%: find-and-count-worksheets vs picture-bingo-worksheets",
+      "file": "find-and-count-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 53.8%: find-and-count-worksheets vs picture-path-worksheets",
+      "file": "find-and-count-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 57.5%: find-and-count-worksheets vs picture-sort-worksheets",
+      "file": "find-and-count-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 55.4%: find-and-count-worksheets vs prepositions-worksheets",
+      "file": "find-and-count-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 56.0%: find-and-count-worksheets vs shadow-match-worksheets",
+      "file": "find-and-count-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 63.4%: find-and-count-worksheets vs subtraction-worksheets",
+      "file": "find-and-count-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 46.9%: find-and-count-worksheets vs sudoku-worksheets",
+      "file": "find-and-count-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 55.6%: find-and-count-worksheets vs treasure-hunt-worksheets",
+      "file": "find-and-count-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 57.3%: find-and-count-worksheets vs word-guess-worksheets",
+      "file": "find-and-count-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 61.7%: find-and-count-worksheets vs word-scramble-worksheets",
+      "file": "find-and-count-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 56.6%: find-and-count-worksheets vs writing-worksheets",
+      "file": "find-and-count-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 72.3%: find-objects-worksheets vs grid-match-worksheets",
+      "file": "find-objects-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 66.0%: find-objects-worksheets vs matching-worksheets",
+      "file": "find-objects-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 77.4%: find-objects-worksheets vs math-puzzle-worksheets",
+      "file": "find-objects-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 60.2%: find-objects-worksheets vs math-worksheets",
+      "file": "find-objects-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 80.2%: find-objects-worksheets vs missing-pieces-worksheets",
+      "file": "find-objects-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 68.3%: find-objects-worksheets vs more-less-worksheets",
+      "file": "find-objects-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 77.4%: find-objects-worksheets vs odd-one-out-worksheets",
+      "file": "find-objects-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 73.0%: find-objects-worksheets vs pattern-train-worksheets",
+      "file": "find-objects-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 75.4%: find-objects-worksheets vs pattern-worksheets",
+      "file": "find-objects-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 63.3%: find-objects-worksheets vs picture-bingo-worksheets",
+      "file": "find-objects-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 64.1%: find-objects-worksheets vs picture-path-worksheets",
+      "file": "find-objects-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 72.2%: find-objects-worksheets vs picture-sort-worksheets",
+      "file": "find-objects-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 57.1%: find-objects-worksheets vs prepositions-worksheets",
+      "file": "find-objects-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 77.7%: find-objects-worksheets vs shadow-match-worksheets",
+      "file": "find-objects-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 81.6%: find-objects-worksheets vs subtraction-worksheets",
+      "file": "find-objects-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 46.1%: find-objects-worksheets vs sudoku-worksheets",
+      "file": "find-objects-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 72.8%: find-objects-worksheets vs treasure-hunt-worksheets",
+      "file": "find-objects-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 75.3%: find-objects-worksheets vs word-guess-worksheets",
+      "file": "find-objects-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 70.4%: find-objects-worksheets vs word-scramble-worksheets",
+      "file": "find-objects-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 30.5%: find-objects-worksheets vs word-search-worksheets",
+      "file": "find-objects-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 70.8%: find-objects-worksheets vs writing-worksheets",
+      "file": "find-objects-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 80.1%: grid-match-worksheets vs matching-worksheets",
+      "file": "grid-match-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 85.5%: grid-match-worksheets vs math-puzzle-worksheets",
+      "file": "grid-match-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 70.2%: grid-match-worksheets vs math-worksheets",
+      "file": "grid-match-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 80.6%: grid-match-worksheets vs missing-pieces-worksheets",
+      "file": "grid-match-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 69.8%: grid-match-worksheets vs more-less-worksheets",
+      "file": "grid-match-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 80.2%: grid-match-worksheets vs odd-one-out-worksheets",
+      "file": "grid-match-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 67.5%: grid-match-worksheets vs pattern-train-worksheets",
+      "file": "grid-match-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 74.6%: grid-match-worksheets vs pattern-worksheets",
+      "file": "grid-match-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 66.3%: grid-match-worksheets vs picture-bingo-worksheets",
+      "file": "grid-match-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 65.8%: grid-match-worksheets vs picture-path-worksheets",
+      "file": "grid-match-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 77.8%: grid-match-worksheets vs picture-sort-worksheets",
+      "file": "grid-match-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 62.5%: grid-match-worksheets vs prepositions-worksheets",
+      "file": "grid-match-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 73.9%: grid-match-worksheets vs shadow-match-worksheets",
+      "file": "grid-match-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 81.1%: grid-match-worksheets vs subtraction-worksheets",
+      "file": "grid-match-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 47.6%: grid-match-worksheets vs sudoku-worksheets",
+      "file": "grid-match-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 66.7%: grid-match-worksheets vs treasure-hunt-worksheets",
+      "file": "grid-match-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 83.4%: grid-match-worksheets vs word-guess-worksheets",
+      "file": "grid-match-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 64.2%: grid-match-worksheets vs word-scramble-worksheets",
+      "file": "grid-match-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 31.9%: grid-match-worksheets vs word-search-worksheets",
+      "file": "grid-match-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 67.6%: grid-match-worksheets vs writing-worksheets",
+      "file": "grid-match-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 77.8%: matching-worksheets vs math-puzzle-worksheets",
+      "file": "matching-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 78.7%: matching-worksheets vs math-worksheets",
+      "file": "matching-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 70.4%: matching-worksheets vs missing-pieces-worksheets",
+      "file": "matching-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 63.9%: matching-worksheets vs more-less-worksheets",
+      "file": "matching-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 76.3%: matching-worksheets vs odd-one-out-worksheets",
+      "file": "matching-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 61.5%: matching-worksheets vs pattern-train-worksheets",
+      "file": "matching-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 66.8%: matching-worksheets vs pattern-worksheets",
+      "file": "matching-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 74.4%: matching-worksheets vs picture-bingo-worksheets",
+      "file": "matching-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 60.7%: matching-worksheets vs picture-path-worksheets",
+      "file": "matching-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 74.9%: matching-worksheets vs picture-sort-worksheets",
+      "file": "matching-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 56.4%: matching-worksheets vs prepositions-worksheets",
+      "file": "matching-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 66.9%: matching-worksheets vs shadow-match-worksheets",
+      "file": "matching-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 74.2%: matching-worksheets vs subtraction-worksheets",
+      "file": "matching-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 50.5%: matching-worksheets vs sudoku-worksheets",
+      "file": "matching-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 61.5%: matching-worksheets vs treasure-hunt-worksheets",
+      "file": "matching-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 75.1%: matching-worksheets vs word-guess-worksheets",
+      "file": "matching-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 72.5%: matching-worksheets vs word-scramble-worksheets",
+      "file": "matching-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 30.1%: matching-worksheets vs word-search-worksheets",
+      "file": "matching-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 61.1%: matching-worksheets vs writing-worksheets",
+      "file": "matching-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 77.2%: math-puzzle-worksheets vs math-worksheets",
+      "file": "math-puzzle-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 85.2%: math-puzzle-worksheets vs missing-pieces-worksheets",
+      "file": "math-puzzle-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 67.7%: math-puzzle-worksheets vs more-less-worksheets",
+      "file": "math-puzzle-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 85.6%: math-puzzle-worksheets vs odd-one-out-worksheets",
+      "file": "math-puzzle-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 68.0%: math-puzzle-worksheets vs pattern-train-worksheets",
+      "file": "math-puzzle-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 73.8%: math-puzzle-worksheets vs pattern-worksheets",
+      "file": "math-puzzle-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 67.5%: math-puzzle-worksheets vs picture-bingo-worksheets",
+      "file": "math-puzzle-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 68.9%: math-puzzle-worksheets vs picture-path-worksheets",
+      "file": "math-puzzle-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 80.7%: math-puzzle-worksheets vs picture-sort-worksheets",
+      "file": "math-puzzle-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 58.1%: math-puzzle-worksheets vs prepositions-worksheets",
+      "file": "math-puzzle-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 73.8%: math-puzzle-worksheets vs shadow-match-worksheets",
+      "file": "math-puzzle-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 83.5%: math-puzzle-worksheets vs subtraction-worksheets",
+      "file": "math-puzzle-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 47.4%: math-puzzle-worksheets vs sudoku-worksheets",
+      "file": "math-puzzle-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 67.2%: math-puzzle-worksheets vs treasure-hunt-worksheets",
+      "file": "math-puzzle-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 89.8%: math-puzzle-worksheets vs word-guess-worksheets",
+      "file": "math-puzzle-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 66.1%: math-puzzle-worksheets vs word-scramble-worksheets",
+      "file": "math-puzzle-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 32.5%: math-puzzle-worksheets vs word-search-worksheets",
+      "file": "math-puzzle-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 66.8%: math-puzzle-worksheets vs writing-worksheets",
+      "file": "math-puzzle-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 66.4%: math-worksheets vs missing-pieces-worksheets",
+      "file": "math-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 56.0%: math-worksheets vs more-less-worksheets",
+      "file": "math-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 70.7%: math-worksheets vs odd-one-out-worksheets",
+      "file": "math-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 54.9%: math-worksheets vs pattern-train-worksheets",
+      "file": "math-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 59.7%: math-worksheets vs pattern-worksheets",
+      "file": "math-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 71.6%: math-worksheets vs picture-bingo-worksheets",
+      "file": "math-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 59.4%: math-worksheets vs picture-path-worksheets",
+      "file": "math-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 70.9%: math-worksheets vs picture-sort-worksheets",
+      "file": "math-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 47.0%: math-worksheets vs prepositions-worksheets",
+      "file": "math-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 57.5%: math-worksheets vs shadow-match-worksheets",
+      "file": "math-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 67.8%: math-worksheets vs subtraction-worksheets",
+      "file": "math-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 56.4%: math-worksheets vs sudoku-worksheets",
+      "file": "math-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 55.4%: math-worksheets vs treasure-hunt-worksheets",
+      "file": "math-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 73.8%: math-worksheets vs word-guess-worksheets",
+      "file": "math-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 67.5%: math-worksheets vs word-scramble-worksheets",
+      "file": "math-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 53.5%: math-worksheets vs writing-worksheets",
+      "file": "math-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 67.3%: missing-pieces-worksheets vs more-less-worksheets",
+      "file": "missing-pieces-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 78.3%: missing-pieces-worksheets vs odd-one-out-worksheets",
+      "file": "missing-pieces-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 72.5%: missing-pieces-worksheets vs pattern-train-worksheets",
+      "file": "missing-pieces-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 73.4%: missing-pieces-worksheets vs pattern-worksheets",
+      "file": "missing-pieces-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 67.7%: missing-pieces-worksheets vs picture-bingo-worksheets",
+      "file": "missing-pieces-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 67.9%: missing-pieces-worksheets vs picture-path-worksheets",
+      "file": "missing-pieces-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 77.5%: missing-pieces-worksheets vs picture-sort-worksheets",
+      "file": "missing-pieces-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 60.7%: missing-pieces-worksheets vs prepositions-worksheets",
+      "file": "missing-pieces-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 76.4%: missing-pieces-worksheets vs shadow-match-worksheets",
+      "file": "missing-pieces-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 83.3%: missing-pieces-worksheets vs subtraction-worksheets",
+      "file": "missing-pieces-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 48.4%: missing-pieces-worksheets vs sudoku-worksheets",
+      "file": "missing-pieces-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 70.2%: missing-pieces-worksheets vs treasure-hunt-worksheets",
+      "file": "missing-pieces-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 82.3%: missing-pieces-worksheets vs word-guess-worksheets",
+      "file": "missing-pieces-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 68.5%: missing-pieces-worksheets vs word-scramble-worksheets",
+      "file": "missing-pieces-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 34.0%: missing-pieces-worksheets vs word-search-worksheets",
+      "file": "missing-pieces-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 70.4%: missing-pieces-worksheets vs writing-worksheets",
+      "file": "missing-pieces-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 65.6%: more-less-worksheets vs odd-one-out-worksheets",
+      "file": "more-less-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 73.9%: more-less-worksheets vs pattern-train-worksheets",
+      "file": "more-less-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 74.8%: more-less-worksheets vs pattern-worksheets",
+      "file": "more-less-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 55.9%: more-less-worksheets vs picture-bingo-worksheets",
+      "file": "more-less-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 56.2%: more-less-worksheets vs picture-path-worksheets",
+      "file": "more-less-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 63.4%: more-less-worksheets vs picture-sort-worksheets",
+      "file": "more-less-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 59.0%: more-less-worksheets vs prepositions-worksheets",
+      "file": "more-less-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 69.2%: more-less-worksheets vs shadow-match-worksheets",
+      "file": "more-less-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 69.4%: more-less-worksheets vs subtraction-worksheets",
+      "file": "more-less-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 45.6%: more-less-worksheets vs sudoku-worksheets",
+      "file": "more-less-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 71.5%: more-less-worksheets vs treasure-hunt-worksheets",
+      "file": "more-less-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 65.3%: more-less-worksheets vs word-guess-worksheets",
+      "file": "more-less-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 64.3%: more-less-worksheets vs word-scramble-worksheets",
+      "file": "more-less-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 31.8%: more-less-worksheets vs word-search-worksheets",
+      "file": "more-less-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 73.9%: more-less-worksheets vs writing-worksheets",
+      "file": "more-less-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 70.0%: odd-one-out-worksheets vs pattern-train-worksheets",
+      "file": "odd-one-out-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 72.3%: odd-one-out-worksheets vs pattern-worksheets",
+      "file": "odd-one-out-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 68.7%: odd-one-out-worksheets vs picture-bingo-worksheets",
+      "file": "odd-one-out-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 67.5%: odd-one-out-worksheets vs picture-path-worksheets",
+      "file": "odd-one-out-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 83.1%: odd-one-out-worksheets vs picture-sort-worksheets",
+      "file": "odd-one-out-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 59.1%: odd-one-out-worksheets vs prepositions-worksheets",
+      "file": "odd-one-out-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 70.9%: odd-one-out-worksheets vs shadow-match-worksheets",
+      "file": "odd-one-out-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 86.2%: odd-one-out-worksheets vs subtraction-worksheets",
+      "file": "odd-one-out-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 42.6%: odd-one-out-worksheets vs sudoku-worksheets",
+      "file": "odd-one-out-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 69.8%: odd-one-out-worksheets vs treasure-hunt-worksheets",
+      "file": "odd-one-out-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 87.6%: odd-one-out-worksheets vs word-guess-worksheets",
+      "file": "odd-one-out-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 68.1%: odd-one-out-worksheets vs word-scramble-worksheets",
+      "file": "odd-one-out-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 30.4%: odd-one-out-worksheets vs word-search-worksheets",
+      "file": "odd-one-out-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 68.0%: odd-one-out-worksheets vs writing-worksheets",
+      "file": "odd-one-out-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 84.1%: pattern-train-worksheets vs pattern-worksheets",
+      "file": "pattern-train-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 58.9%: pattern-train-worksheets vs picture-bingo-worksheets",
+      "file": "pattern-train-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 59.2%: pattern-train-worksheets vs picture-path-worksheets",
+      "file": "pattern-train-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 68.1%: pattern-train-worksheets vs picture-sort-worksheets",
+      "file": "pattern-train-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 58.4%: pattern-train-worksheets vs prepositions-worksheets",
+      "file": "pattern-train-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 72.4%: pattern-train-worksheets vs shadow-match-worksheets",
+      "file": "pattern-train-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 75.0%: pattern-train-worksheets vs subtraction-worksheets",
+      "file": "pattern-train-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 42.9%: pattern-train-worksheets vs sudoku-worksheets",
+      "file": "pattern-train-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 77.9%: pattern-train-worksheets vs treasure-hunt-worksheets",
+      "file": "pattern-train-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 68.8%: pattern-train-worksheets vs word-guess-worksheets",
+      "file": "pattern-train-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 67.4%: pattern-train-worksheets vs word-scramble-worksheets",
+      "file": "pattern-train-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 34.2%: pattern-train-worksheets vs word-search-worksheets",
+      "file": "pattern-train-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 80.4%: pattern-train-worksheets vs writing-worksheets",
+      "file": "pattern-train-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 60.9%: pattern-worksheets vs picture-bingo-worksheets",
+      "file": "pattern-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 63.0%: pattern-worksheets vs picture-path-worksheets",
+      "file": "pattern-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 68.9%: pattern-worksheets vs picture-sort-worksheets",
+      "file": "pattern-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 61.6%: pattern-worksheets vs prepositions-worksheets",
+      "file": "pattern-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 73.3%: pattern-worksheets vs shadow-match-worksheets",
+      "file": "pattern-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 76.8%: pattern-worksheets vs subtraction-worksheets",
+      "file": "pattern-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 46.3%: pattern-worksheets vs sudoku-worksheets",
+      "file": "pattern-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 70.0%: pattern-worksheets vs treasure-hunt-worksheets",
+      "file": "pattern-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 71.1%: pattern-worksheets vs word-guess-worksheets",
+      "file": "pattern-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 67.5%: pattern-worksheets vs word-scramble-worksheets",
+      "file": "pattern-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 32.0%: pattern-worksheets vs word-search-worksheets",
+      "file": "pattern-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 71.0%: pattern-worksheets vs writing-worksheets",
+      "file": "pattern-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 68.3%: picture-bingo-worksheets vs picture-path-worksheets",
+      "file": "picture-bingo-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 70.9%: picture-bingo-worksheets vs picture-sort-worksheets",
+      "file": "picture-bingo-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 54.4%: picture-bingo-worksheets vs prepositions-worksheets",
+      "file": "picture-bingo-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 59.8%: picture-bingo-worksheets vs shadow-match-worksheets",
+      "file": "picture-bingo-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 71.4%: picture-bingo-worksheets vs subtraction-worksheets",
+      "file": "picture-bingo-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 51.8%: picture-bingo-worksheets vs sudoku-worksheets",
+      "file": "picture-bingo-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 58.8%: picture-bingo-worksheets vs treasure-hunt-worksheets",
+      "file": "picture-bingo-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 68.3%: picture-bingo-worksheets vs word-guess-worksheets",
+      "file": "picture-bingo-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 72.7%: picture-bingo-worksheets vs word-scramble-worksheets",
+      "file": "picture-bingo-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 32.7%: picture-bingo-worksheets vs word-search-worksheets",
+      "file": "picture-bingo-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 57.4%: picture-bingo-worksheets vs writing-worksheets",
+      "file": "picture-bingo-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 70.3%: picture-path-worksheets vs picture-sort-worksheets",
+      "file": "picture-path-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 54.7%: picture-path-worksheets vs prepositions-worksheets",
+      "file": "picture-path-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 59.5%: picture-path-worksheets vs shadow-match-worksheets",
+      "file": "picture-path-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 70.7%: picture-path-worksheets vs subtraction-worksheets",
+      "file": "picture-path-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 41.6%: picture-path-worksheets vs sudoku-worksheets",
+      "file": "picture-path-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 58.5%: picture-path-worksheets vs treasure-hunt-worksheets",
+      "file": "picture-path-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 67.7%: picture-path-worksheets vs word-guess-worksheets",
+      "file": "picture-path-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 57.7%: picture-path-worksheets vs word-scramble-worksheets",
+      "file": "picture-path-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 32.8%: picture-path-worksheets vs word-search-worksheets",
+      "file": "picture-path-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 57.0%: picture-path-worksheets vs writing-worksheets",
+      "file": "picture-path-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 57.8%: picture-sort-worksheets vs prepositions-worksheets",
+      "file": "picture-sort-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 69.7%: picture-sort-worksheets vs shadow-match-worksheets",
+      "file": "picture-sort-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 81.0%: picture-sort-worksheets vs subtraction-worksheets",
+      "file": "picture-sort-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 44.4%: picture-sort-worksheets vs sudoku-worksheets",
+      "file": "picture-sort-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 68.6%: picture-sort-worksheets vs treasure-hunt-worksheets",
+      "file": "picture-sort-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 82.4%: picture-sort-worksheets vs word-guess-worksheets",
+      "file": "picture-sort-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 64.9%: picture-sort-worksheets vs word-scramble-worksheets",
+      "file": "picture-sort-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 30.3%: picture-sort-worksheets vs word-search-worksheets",
+      "file": "picture-sort-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 66.9%: picture-sort-worksheets vs writing-worksheets",
+      "file": "picture-sort-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 57.5%: prepositions-worksheets vs shadow-match-worksheets",
+      "file": "prepositions-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 62.4%: prepositions-worksheets vs subtraction-worksheets",
+      "file": "prepositions-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 40.0%: prepositions-worksheets vs sudoku-worksheets",
+      "file": "prepositions-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 56.6%: prepositions-worksheets vs treasure-hunt-worksheets",
+      "file": "prepositions-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 58.2%: prepositions-worksheets vs word-guess-worksheets",
+      "file": "prepositions-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 51.0%: prepositions-worksheets vs word-scramble-worksheets",
+      "file": "prepositions-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 56.9%: prepositions-worksheets vs writing-worksheets",
+      "file": "prepositions-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 76.0%: shadow-match-worksheets vs subtraction-worksheets",
+      "file": "shadow-match-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 47.2%: shadow-match-worksheets vs sudoku-worksheets",
+      "file": "shadow-match-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 70.8%: shadow-match-worksheets vs treasure-hunt-worksheets",
+      "file": "shadow-match-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 69.8%: shadow-match-worksheets vs word-guess-worksheets",
+      "file": "shadow-match-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 66.9%: shadow-match-worksheets vs word-scramble-worksheets",
+      "file": "shadow-match-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 31.7%: shadow-match-worksheets vs word-search-worksheets",
+      "file": "shadow-match-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 70.3%: shadow-match-worksheets vs writing-worksheets",
+      "file": "shadow-match-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 45.7%: subtraction-worksheets vs sudoku-worksheets",
+      "file": "subtraction-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 74.0%: subtraction-worksheets vs treasure-hunt-worksheets",
+      "file": "subtraction-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 84.6%: subtraction-worksheets vs word-guess-worksheets",
+      "file": "subtraction-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 71.6%: subtraction-worksheets vs word-scramble-worksheets",
+      "file": "subtraction-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 31.3%: subtraction-worksheets vs word-search-worksheets",
+      "file": "subtraction-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 75.0%: subtraction-worksheets vs writing-worksheets",
+      "file": "subtraction-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 43.4%: sudoku-worksheets vs treasure-hunt-worksheets",
+      "file": "sudoku-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 44.9%: sudoku-worksheets vs word-guess-worksheets",
+      "file": "sudoku-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 52.9%: sudoku-worksheets vs word-scramble-worksheets",
+      "file": "sudoku-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 42.3%: sudoku-worksheets vs writing-worksheets",
+      "file": "sudoku-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 68.0%: treasure-hunt-worksheets vs word-guess-worksheets",
+      "file": "treasure-hunt-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 67.2%: treasure-hunt-worksheets vs word-scramble-worksheets",
+      "file": "treasure-hunt-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 31.0%: treasure-hunt-worksheets vs word-search-worksheets",
+      "file": "treasure-hunt-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 76.4%: treasure-hunt-worksheets vs writing-worksheets",
+      "file": "treasure-hunt-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 70.5%: word-guess-worksheets vs word-scramble-worksheets",
+      "file": "word-guess-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 34.5%: word-guess-worksheets vs word-search-worksheets",
+      "file": "word-guess-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 67.6%: word-guess-worksheets vs writing-worksheets",
+      "file": "word-guess-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 35.4%: word-scramble-worksheets vs word-search-worksheets",
+      "file": "word-scramble-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 66.1%: word-scramble-worksheets vs writing-worksheets",
+      "file": "word-scramble-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero desc similarity 31.0%: word-search-worksheets vs writing-worksheets",
+      "file": "word-search-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero title overlap 60%: \"Code Addition Worksheets With Picture Math\" vs \"Matching Worksheets With Picture Pairs\"",
+      "file": "code-addition-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero title overlap 75%: \"Picture Cryptogram Worksheets for Kids\" vs \"Picture Path Maze Worksheets for Kids\"",
+      "file": "cryptogram-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero title overlap 60%: \"Matching Worksheets With Picture Pairs\" vs \"Word Guess Worksheets With Picture Clues\"",
+      "file": "matching-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero title overlap 60%: \"Matching Worksheets With Picture Pairs\" vs \"Word Scramble Worksheets With Picture Clues\"",
+      "file": "matching-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero title overlap 60%: \"Math Puzzle Worksheets With Visual Equations\" vs \"Missing Pieces Visual Puzzle Worksheets\"",
+      "file": "math-puzzle-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "Hero title overlap 83%: \"Word Guess Worksheets With Picture Clues\" vs \"Word Scramble Worksheets With Picture Clues\"",
+      "file": "word-guess-worksheets"
+    },
+    {
+      "level": "warn",
+      "msg": "FAQ opener \"Your subscription includes commercial li...\" repeated in 9 pages"
+    },
+    {
+      "level": "warn",
+      "msg": "FAQ opener \"Your Full Access subscription includes c...\" repeated in 14 pages"
+    },
+    {
+      "level": "warn",
+      "msg": "FAQ opener \"Yes...\" repeated in 75 pages"
+    },
+    {
+      "level": "warn",
+      "msg": "FAQ opener \"Yes, upload unlimited custom images for ...\" repeated in 8 pages"
+    }
+  ],
+  "pages": [
+    {
+      "slug": "addition-worksheets",
+      "faqCount": 16,
+      "researchCount": 2,
+      "seoTitle": "Free Addition Worksheet Generator | LessonCraftStudio",
+      "primaryKeyword": "addition worksheet generator",
+      "hasAllSections": true,
+      "hasAllEnrichment": true
+    },
+    {
+      "slug": "alphabet-train-worksheets",
+      "faqCount": 20,
+      "researchCount": 2,
+      "seoTitle": "Alphabet Train Worksheet Generator | LessonCraftStudio",
+      "primaryKeyword": "alphabet train worksheet generator",
+      "hasAllSections": true,
+      "hasAllEnrichment": true
+    },
+    {
+      "slug": "big-small-worksheets",
+      "faqCount": 20,
+      "researchCount": 2,
+      "seoTitle": "Big and Small Worksheet Maker for Kids | LessonCraftStudio",
+      "primaryKeyword": "size comparison activities",
+      "hasAllSections": true,
+      "hasAllEnrichment": true
+    },
+    {
+      "slug": "chart-count-worksheets",
+      "faqCount": 20,
+      "researchCount": 2,
+      "seoTitle": "Picture Graph Worksheet Maker for Kids | LessonCraftStudio",
+      "primaryKeyword": "graphing activities for kids",
+      "hasAllSections": true,
+      "hasAllEnrichment": true
+    },
+    {
+      "slug": "code-addition-worksheets",
+      "faqCount": 20,
+      "researchCount": 2,
+      "seoTitle": "Picture Addition Worksheet Maker | LessonCraftStudio",
+      "primaryKeyword": "visual addition worksheets",
+      "hasAllSections": true,
+      "hasAllEnrichment": true
+    },
+    {
+      "slug": "coloring-worksheets",
+      "faqCount": 20,
+      "researchCount": 2,
+      "seoTitle": "Coloring Page Generator for Kids | LessonCraftStudio",
+      "primaryKeyword": "coloring page generator for kids",
+      "hasAllSections": true,
+      "hasAllEnrichment": true
+    },
+    {
+      "slug": "crossword-worksheets",
+      "faqCount": 20,
+      "researchCount": 2,
+      "seoTitle": "Picture Crossword Maker for Kids | LessonCraftStudio",
+      "primaryKeyword": "picture crossword maker for kids",
+      "hasAllSections": true,
+      "hasAllEnrichment": true
+    },
+    {
+      "slug": "cryptogram-worksheets",
+      "faqCount": 20,
+      "researchCount": 2,
+      "seoTitle": "Picture Cryptogram Worksheet Maker | LessonCraftStudio",
+      "primaryKeyword": "picture cryptogram worksheet maker",
+      "hasAllSections": true,
+      "hasAllEnrichment": true
+    },
+    {
+      "slug": "draw-and-color-worksheets",
+      "faqCount": 20,
+      "researchCount": 2,
+      "seoTitle": "Grid Drawing Worksheet Maker for Kids | LessonCraftStudio",
+      "primaryKeyword": "grid drawing worksheet maker",
+      "hasAllSections": true,
+      "hasAllEnrichment": true
+    },
+    {
+      "slug": "drawing-lines-worksheets",
+      "faqCount": 20,
+      "researchCount": 2,
+      "seoTitle": "Line Tracing Worksheet Maker for Kids | LessonCraftStudio",
+      "primaryKeyword": "line tracing worksheet maker",
+      "hasAllSections": true,
+      "hasAllEnrichment": true
+    },
+    {
+      "slug": "find-and-count-worksheets",
+      "faqCount": 20,
+      "researchCount": 2,
+      "seoTitle": "Find and Count Worksheet Generator | LessonCraftStudio",
+      "primaryKeyword": "I Spy counting worksheets",
+      "hasAllSections": true,
+      "hasAllEnrichment": true
+    },
+    {
+      "slug": "find-objects-worksheets",
+      "faqCount": 20,
+      "researchCount": 2,
+      "seoTitle": "Hidden Objects Worksheet Maker for Kids | LessonCraftStudio",
+      "primaryKeyword": "I Spy hidden pictures",
+      "hasAllSections": true,
+      "hasAllEnrichment": true
+    },
+    {
+      "slug": "grid-match-worksheets",
+      "faqCount": 20,
+      "researchCount": 2,
+      "seoTitle": "Grid Match Puzzle Maker for Kids | LessonCraftStudio",
+      "primaryKeyword": "grid match puzzle maker",
+      "hasAllSections": true,
+      "hasAllEnrichment": true
+    },
+    {
+      "slug": "matching-worksheets",
+      "faqCount": 20,
+      "researchCount": 2,
+      "seoTitle": "Matching Worksheet Generator for Kids | LessonCraftStudio",
+      "primaryKeyword": "picture matching worksheets",
+      "hasAllSections": true,
+      "hasAllEnrichment": true
+    },
+    {
+      "slug": "math-puzzle-worksheets",
+      "faqCount": 20,
+      "researchCount": 2,
+      "seoTitle": "Math Puzzle Generator for Kids | LessonCraftStudio",
+      "primaryKeyword": "visual math puzzles",
+      "hasAllSections": true,
+      "hasAllEnrichment": true
+    },
+    {
+      "slug": "math-worksheets",
+      "faqCount": 20,
+      "researchCount": 2,
+      "seoTitle": "Math Worksheet Generator With Pictures | LessonCraftStudio",
+      "primaryKeyword": "math worksheet generator with pictures",
+      "hasAllSections": true,
+      "hasAllEnrichment": true
+    },
+    {
+      "slug": "missing-pieces-worksheets",
+      "faqCount": 20,
+      "researchCount": 2,
+      "seoTitle": "Missing Pieces Puzzle Generator | LessonCraftStudio",
+      "primaryKeyword": "visual puzzle worksheets",
+      "hasAllSections": true,
+      "hasAllEnrichment": true
+    },
+    {
+      "slug": "more-less-worksheets",
+      "faqCount": 20,
+      "researchCount": 2,
+      "seoTitle": "Greater Than Less Than Worksheet Maker | LessonCraftStudio",
+      "primaryKeyword": "number comparison worksheets",
+      "hasAllSections": true,
+      "hasAllEnrichment": true
+    },
+    {
+      "slug": "odd-one-out-worksheets",
+      "faqCount": 20,
+      "researchCount": 2,
+      "seoTitle": "Odd One Out Worksheet Generator | LessonCraftStudio",
+      "primaryKeyword": "which one is different worksheets",
+      "hasAllSections": true,
+      "hasAllEnrichment": true
+    },
+    {
+      "slug": "pattern-train-worksheets",
+      "faqCount": 20,
+      "researchCount": 2,
+      "seoTitle": "Pattern Train Worksheet Generator | LessonCraftStudio",
+      "primaryKeyword": "cut and paste patterns",
+      "hasAllSections": true,
+      "hasAllEnrichment": true
+    },
+    {
+      "slug": "pattern-worksheets",
+      "faqCount": 20,
+      "researchCount": 2,
+      "seoTitle": "Pattern Recognition Worksheet Maker | LessonCraftStudio",
+      "primaryKeyword": "pattern recognition worksheet maker",
+      "hasAllSections": true,
+      "hasAllEnrichment": true
+    },
+    {
+      "slug": "picture-bingo-worksheets",
+      "faqCount": 20,
+      "researchCount": 2,
+      "seoTitle": "Picture Bingo Card Generator for Kids | LessonCraftStudio",
+      "primaryKeyword": "printable bingo cards",
+      "hasAllSections": true,
+      "hasAllEnrichment": true
+    },
+    {
+      "slug": "picture-path-worksheets",
+      "faqCount": 20,
+      "researchCount": 2,
+      "seoTitle": "Picture Maze Worksheet Maker for Kids | LessonCraftStudio",
+      "primaryKeyword": "maze puzzles for kids",
+      "hasAllSections": true,
+      "hasAllEnrichment": true
+    },
+    {
+      "slug": "picture-sort-worksheets",
+      "faqCount": 20,
+      "researchCount": 2,
+      "seoTitle": "Picture Sorting Worksheet Maker | LessonCraftStudio",
+      "primaryKeyword": "sorting and classifying worksheets",
+      "hasAllSections": true,
+      "hasAllEnrichment": true
+    },
+    {
+      "slug": "prepositions-worksheets",
+      "faqCount": 20,
+      "researchCount": 2,
+      "seoTitle": "Prepositions Worksheet Maker for Kids | LessonCraftStudio",
+      "primaryKeyword": "prepositions worksheet maker",
+      "hasAllSections": true,
+      "hasAllEnrichment": true
+    },
+    {
+      "slug": "shadow-match-worksheets",
+      "faqCount": 20,
+      "researchCount": 2,
+      "seoTitle": "Shadow Match Worksheet Generator | LessonCraftStudio",
+      "primaryKeyword": "silhouette matching worksheets",
+      "hasAllSections": true,
+      "hasAllEnrichment": true
+    },
+    {
+      "slug": "subtraction-worksheets",
+      "faqCount": 14,
+      "researchCount": 2,
+      "seoTitle": "Subtraction Worksheet Generator | LessonCraftStudio",
+      "primaryKeyword": "subtraction worksheet generator",
+      "hasAllSections": true,
+      "hasAllEnrichment": true
+    },
+    {
+      "slug": "sudoku-worksheets",
+      "faqCount": 20,
+      "researchCount": 2,
+      "seoTitle": "Sudoku Puzzle Maker for Kids - Easy 4x4 | LessonCraftStudio",
+      "primaryKeyword": "sudoku puzzle maker for kids",
+      "hasAllSections": true,
+      "hasAllEnrichment": true
+    },
+    {
+      "slug": "treasure-hunt-worksheets",
+      "faqCount": 20,
+      "researchCount": 2,
+      "seoTitle": "Treasure Hunt Worksheet Generator | LessonCraftStudio",
+      "primaryKeyword": "direction following worksheets",
+      "hasAllSections": true,
+      "hasAllEnrichment": true
+    },
+    {
+      "slug": "word-guess-worksheets",
+      "faqCount": 20,
+      "researchCount": 2,
+      "seoTitle": "Word Guess Puzzle Generator for Kids | LessonCraftStudio",
+      "primaryKeyword": "word guess puzzle generator",
+      "hasAllSections": true,
+      "hasAllEnrichment": true
+    },
+    {
+      "slug": "word-scramble-worksheets",
+      "faqCount": 20,
+      "researchCount": 2,
+      "seoTitle": "Word Scramble Generator for Kids | LessonCraftStudio",
+      "primaryKeyword": "word scramble generator for kids",
+      "hasAllSections": true,
+      "hasAllEnrichment": true
+    },
+    {
+      "slug": "word-search-worksheets",
+      "faqCount": 20,
+      "researchCount": 2,
+      "seoTitle": "Word Search Puzzle Generator for Kids | LessonCraftStudio",
+      "primaryKeyword": "word search puzzle generator",
+      "hasAllSections": true,
+      "hasAllEnrichment": true
+    },
+    {
+      "slug": "writing-worksheets",
+      "faqCount": 20,
+      "researchCount": 2,
+      "seoTitle": "Letter Tracing Worksheet Generator | LessonCraftStudio",
+      "primaryKeyword": "letter tracing worksheet generator",
+      "hasAllSections": true,
+      "hasAllEnrichment": true
+    }
+  ]
+}

@@ -1823,3 +1823,81 @@ export function generateThemeImageGallerySchema(input: {
     isAccessibleForFree: true,
   };
 }
+
+/**
+ * Generate Course schema for theme hub pages
+ * Models a collection of themed worksheets as an educational course
+ */
+export function generateCourseSchema(input: {
+  name: string;
+  description: string;
+  locale: string;
+  pageUrl: string;
+  provider?: string;
+  gradeLevel?: string;
+  ageRange?: string;
+  syllabus?: string[];
+}, baseUrl: string = getBaseUrl()): object {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Course',
+    '@id': `${input.pageUrl}#course`,
+    name: input.name,
+    description: input.description,
+    provider: {
+      '@type': 'EducationalOrganization',
+      '@id': `${baseUrl}/#organization`,
+      name: input.provider || 'LessonCraftStudio',
+    },
+    inLanguage: getHreflangCode(input.locale),
+    ...(input.gradeLevel && { educationalLevel: input.gradeLevel }),
+    ...(input.ageRange && { typicalAgeRange: input.ageRange }),
+    ...(input.syllabus?.length && {
+      syllabusSections: input.syllabus.map((topic, i) => ({
+        '@type': 'Syllabus',
+        position: i + 1,
+        name: topic,
+      })),
+    }),
+    isAccessibleForFree: true,
+    offers: {
+      '@type': 'Offer',
+      price: '0',
+      priceCurrency: 'USD',
+      category: 'Free',
+    },
+  };
+}
+
+/**
+ * Generate Quiz schema for interactive worksheet apps
+ * Models math/language worksheets as quiz-type learning activities
+ */
+export function generateQuizSchema(input: {
+  name: string;
+  description: string;
+  locale: string;
+  pageUrl: string;
+  questionCount?: number;
+  educationalLevel?: string;
+  about?: string;
+}): object {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Quiz',
+    '@id': `${input.pageUrl}#quiz`,
+    name: input.name,
+    description: input.description,
+    about: {
+      '@type': 'Thing',
+      name: input.about || 'Educational Worksheets',
+    },
+    educationalLevel: input.educationalLevel || 'Preschool to Grade 3',
+    inLanguage: getHreflangCode(input.locale),
+    ...(input.questionCount && {
+      numberOfQuestions: input.questionCount,
+    }),
+    learningResourceType: 'Quiz',
+    isAccessibleForFree: true,
+  };
+}

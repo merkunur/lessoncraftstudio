@@ -376,6 +376,44 @@ function SchemaScripts({
     firstSampleScreenshot
   );
 
+  // Add LearningResource schema when enrichment content is present
+  if (content?.aiOverviewSnippet) {
+    const learningResource: Record<string, unknown> = {
+      '@context': 'https://schema.org',
+      '@type': 'LearningResource',
+      '@id': `${pageUrl}#learningresource`,
+      name: content.seo?.title || appData.name,
+      description: content.aiOverviewSnippet,
+      url: pageUrl,
+      inLanguage: locale,
+      learningResourceType: 'Worksheet Generator',
+      educationalUse: ['assignment', 'homework', 'practice', 'classwork'],
+      isAccessibleForFree: true,
+      typicalAgeRange: '4-9',
+      provider: {
+        '@type': 'EducationalOrganization',
+        '@id': `${baseUrl}/#organization`,
+      },
+    };
+
+    // Add teaches from tips items
+    if (content.tips?.items?.length) {
+      learningResource.teaches = content.tips.items.map((t: { title: string }) => t.title);
+    }
+
+    // Add related apps as hasPart
+    if (content.relatedApps?.items?.length) {
+      learningResource.hasPart = content.relatedApps.items.map((app: { name: string; slug: string }) => ({
+        '@type': 'SoftwareApplication',
+        name: app.name,
+        url: `${baseUrl}/${locale}/apps/${app.slug}`,
+        applicationCategory: 'EducationalApplication',
+      }));
+    }
+
+    schemas.push(learningResource);
+  }
+
   return (
     <>
       {schemas.map((schema, index) => (

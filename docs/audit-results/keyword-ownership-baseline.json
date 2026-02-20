@@ -1,0 +1,4421 @@
+{
+  "timestamp": "2026-02-20T20:42:54.225Z",
+  "config": {
+    "locales": [
+      "en",
+      "de",
+      "fr",
+      "es",
+      "pt",
+      "it",
+      "nl",
+      "sv",
+      "da",
+      "no",
+      "fi"
+    ]
+  },
+  "summary": {
+    "totalPages": 1638,
+    "fails": 1236,
+    "warnings": 550,
+    "uniquenessConflicts": 20,
+    "placementIssues": 1460,
+    "nearDuplicates": 306
+  },
+  "uniquenessIssues": [
+    {
+      "check": "primary-kw-uniqueness",
+      "severity": "fail",
+      "locale": "fr",
+      "keyword": "fiches alphabet",
+      "pages": [
+        {
+          "pageType": "theme-hub",
+          "pageId": "alphabet/fr"
+        },
+        {
+          "pageType": "product",
+          "pageId": "product/train-alphabet-fiches/fr"
+        }
+      ],
+      "detail": "\"fiches alphabet\" targeted by 2 pages: alphabet/fr, product/train-alphabet-fiches/fr"
+    },
+    {
+      "check": "primary-kw-uniqueness",
+      "severity": "fail",
+      "locale": "fr",
+      "keyword": "fiches maternelle",
+      "pages": [
+        {
+          "pageType": "product",
+          "pageId": "product/addition-codee-fiches/fr"
+        },
+        {
+          "pageType": "product",
+          "pageId": "product/graphisme-fiches/fr"
+        },
+        {
+          "pageType": "product",
+          "pageId": "product/puzzle-grille-fiches/fr"
+        },
+        {
+          "pageType": "product",
+          "pageId": "product/train-suites-logiques-fiches/fr"
+        },
+        {
+          "pageType": "product",
+          "pageId": "product/sequences-logiques-fiches/fr"
+        },
+        {
+          "pageType": "product",
+          "pageId": "product/discrimination-visuelle-fiches/fr"
+        }
+      ],
+      "detail": "\"fiches maternelle\" targeted by 6 pages: product/addition-codee-fiches/fr, product/graphisme-fiches/fr, product/puzzle-grille-fiches/fr, product/train-suites-logiques-fiches/fr, product/sequences-logiques-fiches/fr, product/discrimination-visuelle-fiches/fr"
+    },
+    {
+      "check": "primary-kw-uniqueness",
+      "severity": "fail",
+      "locale": "fr",
+      "keyword": "coloriage à imprimer",
+      "pages": [
+        {
+          "pageType": "product",
+          "pageId": "product/coloriage-fiches/fr"
+        },
+        {
+          "pageType": "product",
+          "pageId": "product/dessin-quadrillage-fiches/fr"
+        }
+      ],
+      "detail": "\"coloriage à imprimer\" targeted by 2 pages: product/coloriage-fiches/fr, product/dessin-quadrillage-fiches/fr"
+    },
+    {
+      "check": "primary-kw-uniqueness",
+      "severity": "fail",
+      "locale": "fr",
+      "keyword": "fiches à imprimer gratuit",
+      "pages": [
+        {
+          "pageType": "product",
+          "pageId": "product/cherche-objets-fiches/fr"
+        },
+        {
+          "pageType": "product",
+          "pageId": "product/pieces-manquantes-fiches/fr"
+        },
+        {
+          "pageType": "product",
+          "pageId": "product/comparaison-quantites-fiches/fr"
+        },
+        {
+          "pageType": "product",
+          "pageId": "product/intrus-fiches/fr"
+        },
+        {
+          "pageType": "product",
+          "pageId": "product/parcours-images-fiches/fr"
+        },
+        {
+          "pageType": "product",
+          "pageId": "product/tri-images-fiches/fr"
+        },
+        {
+          "pageType": "product",
+          "pageId": "product/prepositions-exercices-fiches/fr"
+        },
+        {
+          "pageType": "product",
+          "pageId": "product/soustraction-fiches/fr"
+        }
+      ],
+      "detail": "\"fiches à imprimer gratuit\" targeted by 8 pages: product/cherche-objets-fiches/fr, product/pieces-manquantes-fiches/fr, product/comparaison-quantites-fiches/fr, product/intrus-fiches/fr, product/parcours-images-fiches/fr, product/tri-images-fiches/fr, product/prepositions-exercices-fiches/fr, product/soustraction-fiches/fr"
+    },
+    {
+      "check": "primary-kw-uniqueness",
+      "severity": "fail",
+      "locale": "es",
+      "keyword": "fichas para imprimir",
+      "pages": [
+        {
+          "pageType": "product",
+          "pageId": "product/adivinar-palabras-fichas/es"
+        },
+        {
+          "pageType": "product",
+          "pageId": "product/tren-alfabeto-fichas/es"
+        },
+        {
+          "pageType": "product",
+          "pageId": "product/asociacion-sombras-fichas/es"
+        },
+        {
+          "pageType": "product",
+          "pageId": "product/buscar-objetos-fichas/es"
+        },
+        {
+          "pageType": "product",
+          "pageId": "product/busqueda-tesoro-fichas/es"
+        },
+        {
+          "pageType": "product",
+          "pageId": "product/clasificar-imagenes-fichas/es"
+        },
+        {
+          "pageType": "product",
+          "pageId": "product/dibujo-cuadricula-fichas/es"
+        },
+        {
+          "pageType": "product",
+          "pageId": "product/encuentra-el-diferente-fichas/es"
+        },
+        {
+          "pageType": "product",
+          "pageId": "product/buscar-contar-fichas/es"
+        },
+        {
+          "pageType": "product",
+          "pageId": "product/laberintos-imagenes-fichas/es"
+        },
+        {
+          "pageType": "product",
+          "pageId": "product/relacionar-fichas/es"
+        },
+        {
+          "pageType": "product",
+          "pageId": "product/mayor-menor-fichas/es"
+        },
+        {
+          "pageType": "product",
+          "pageId": "product/piezas-faltantes-fichas/es"
+        },
+        {
+          "pageType": "product",
+          "pageId": "product/preposiciones-fichas/es"
+        },
+        {
+          "pageType": "product",
+          "pageId": "product/letras-revueltas-fichas/es"
+        }
+      ],
+      "detail": "\"fichas para imprimir\" targeted by 15 pages: product/adivinar-palabras-fichas/es, product/tren-alfabeto-fichas/es, product/asociacion-sombras-fichas/es, product/buscar-objetos-fichas/es, product/busqueda-tesoro-fichas/es, product/clasificar-imagenes-fichas/es, product/dibujo-cuadricula-fichas/es, product/encuentra-el-diferente-fichas/es, product/buscar-contar-fichas/es, product/laberintos-imagenes-fichas/es, product/relacionar-fichas/es, product/mayor-menor-fichas/es, product/piezas-faltantes-fichas/es, product/preposiciones-fichas/es, product/letras-revueltas-fichas/es"
+    },
+    {
+      "check": "primary-kw-uniqueness",
+      "severity": "fail",
+      "locale": "es",
+      "keyword": "fichas de patrones",
+      "pages": [
+        {
+          "pageType": "product",
+          "pageId": "product/fichas-patrones/es"
+        },
+        {
+          "pageType": "product",
+          "pageId": "product/tren-patrones-fichas/es"
+        }
+      ],
+      "detail": "\"fichas de patrones\" targeted by 2 pages: product/fichas-patrones/es, product/tren-patrones-fichas/es"
+    },
+    {
+      "check": "primary-kw-uniqueness",
+      "severity": "fail",
+      "locale": "es",
+      "keyword": "fichas de matemáticas",
+      "pages": [
+        {
+          "pageType": "product",
+          "pageId": "product/acertijos-matematicos-fichas/es"
+        },
+        {
+          "pageType": "product",
+          "pageId": "product/rompecabezas-matematicos-fichas/es"
+        },
+        {
+          "pageType": "product",
+          "pageId": "product/suma-codigo-fichas/es"
+        }
+      ],
+      "detail": "\"fichas de matemáticas\" targeted by 3 pages: product/acertijos-matematicos-fichas/es, product/rompecabezas-matematicos-fichas/es, product/suma-codigo-fichas/es"
+    },
+    {
+      "check": "primary-kw-uniqueness",
+      "severity": "fail",
+      "locale": "pt",
+      "keyword": "atividades de matemática",
+      "pages": [
+        {
+          "pageType": "product",
+          "pageId": "product/adicao-codigo-fichas/pt"
+        },
+        {
+          "pageType": "product",
+          "pageId": "product/atividades-matematica-fichas/pt"
+        },
+        {
+          "pageType": "product",
+          "pageId": "product/grafico-pictorico-fichas/pt"
+        }
+      ],
+      "detail": "\"atividades de matemática\" targeted by 3 pages: product/adicao-codigo-fichas/pt, product/atividades-matematica-fichas/pt, product/grafico-pictorico-fichas/pt"
+    },
+    {
+      "check": "primary-kw-uniqueness",
+      "severity": "fail",
+      "locale": "pt",
+      "keyword": "atividade grátis",
+      "pages": [
+        {
+          "pageType": "product",
+          "pageId": "product/adivinhar-palavras-fichas/pt"
+        },
+        {
+          "pageType": "product",
+          "pageId": "product/classificacao-imagens-fichas/pt"
+        },
+        {
+          "pageType": "product",
+          "pageId": "product/encontre-diferente-fichas/pt"
+        },
+        {
+          "pageType": "product",
+          "pageId": "product/fichas-padroes-sequencias/pt"
+        },
+        {
+          "pageType": "product",
+          "pageId": "product/labirinto-caminhos-fichas/pt"
+        },
+        {
+          "pageType": "product",
+          "pageId": "product/maior-menor-fichas/pt"
+        },
+        {
+          "pageType": "product",
+          "pageId": "product/pecas-faltantes-fichas/pt"
+        },
+        {
+          "pageType": "product",
+          "pageId": "product/preposicoes-fichas/pt"
+        },
+        {
+          "pageType": "product",
+          "pageId": "product/trem-padroes-fichas/pt"
+        }
+      ],
+      "detail": "\"atividade grátis\" targeted by 9 pages: product/adivinhar-palavras-fichas/pt, product/classificacao-imagens-fichas/pt, product/encontre-diferente-fichas/pt, product/fichas-padroes-sequencias/pt, product/labirinto-caminhos-fichas/pt, product/maior-menor-fichas/pt, product/pecas-faltantes-fichas/pt, product/preposicoes-fichas/pt, product/trem-padroes-fichas/pt"
+    },
+    {
+      "check": "primary-kw-uniqueness",
+      "severity": "fail",
+      "locale": "pt",
+      "keyword": "atividades para imprimir",
+      "pages": [
+        {
+          "pageType": "product",
+          "pageId": "product/combinar-sombras-fichas/pt"
+        },
+        {
+          "pageType": "product",
+          "pageId": "product/desenho-grade-fichas/pt"
+        }
+      ],
+      "detail": "\"atividades para imprimir\" targeted by 2 pages: product/combinar-sombras-fichas/pt, product/desenho-grade-fichas/pt"
+    },
+    {
+      "check": "primary-kw-uniqueness",
+      "severity": "fail",
+      "locale": "it",
+      "keyword": "schede didattiche addizioni",
+      "pages": [
+        {
+          "pageType": "product",
+          "pageId": "product/addizione-schede/it"
+        },
+        {
+          "pageType": "product",
+          "pageId": "product/addizioni-immagini-schede/it"
+        }
+      ],
+      "detail": "\"schede didattiche addizioni\" targeted by 2 pages: product/addizione-schede/it, product/addizioni-immagini-schede/it"
+    },
+    {
+      "check": "primary-kw-uniqueness",
+      "severity": "fail",
+      "locale": "sv",
+      "keyword": "arbetsblad gratis",
+      "pages": [
+        {
+          "pageType": "product",
+          "pageId": "product/addition-arbetsblad/sv"
+        },
+        {
+          "pageType": "product",
+          "pageId": "product/stort-litet-arbetsblad/sv"
+        },
+        {
+          "pageType": "product",
+          "pageId": "product/hitta-och-rakna-arbetsblad/sv"
+        },
+        {
+          "pageType": "product",
+          "pageId": "product/bildlabyrint-arbetsblad/sv"
+        },
+        {
+          "pageType": "product",
+          "pageId": "product/bildsortering-arbetsblad/sv"
+        }
+      ],
+      "detail": "\"arbetsblad gratis\" targeted by 5 pages: product/addition-arbetsblad/sv, product/stort-litet-arbetsblad/sv, product/hitta-och-rakna-arbetsblad/sv, product/bildlabyrint-arbetsblad/sv, product/bildsortering-arbetsblad/sv"
+    },
+    {
+      "check": "primary-kw-uniqueness",
+      "severity": "fail",
+      "locale": "sv",
+      "keyword": "gratis arbetsblad",
+      "pages": [
+        {
+          "pageType": "product",
+          "pageId": "product/alfabettag-arbetsblad/sv"
+        },
+        {
+          "pageType": "product",
+          "pageId": "product/diagram-rakning-arbetsblad/sv"
+        },
+        {
+          "pageType": "product",
+          "pageId": "product/kodaddition-arbetsblad/sv"
+        },
+        {
+          "pageType": "product",
+          "pageId": "product/bildkryptogram-arbetsblad/sv"
+        },
+        {
+          "pageType": "product",
+          "pageId": "product/hitta-udda-bilden-arbetsblad/sv"
+        }
+      ],
+      "detail": "\"gratis arbetsblad\" targeted by 5 pages: product/alfabettag-arbetsblad/sv, product/diagram-rakning-arbetsblad/sv, product/kodaddition-arbetsblad/sv, product/bildkryptogram-arbetsblad/sv, product/hitta-udda-bilden-arbetsblad/sv"
+    },
+    {
+      "check": "primary-kw-uniqueness",
+      "severity": "fail",
+      "locale": "sv",
+      "keyword": "målarbilder barn",
+      "pages": [
+        {
+          "pageType": "product",
+          "pageId": "product/malarbilder-arbetsblad/sv"
+        },
+        {
+          "pageType": "product",
+          "pageId": "product/rutritning-arbetsblad/sv"
+        }
+      ],
+      "detail": "\"målarbilder barn\" targeted by 2 pages: product/malarbilder-arbetsblad/sv, product/rutritning-arbetsblad/sv"
+    },
+    {
+      "check": "primary-kw-uniqueness",
+      "severity": "fail",
+      "locale": "sv",
+      "keyword": "matematik arbetsblad",
+      "pages": [
+        {
+          "pageType": "product",
+          "pageId": "product/matematik-arbetsblad/sv"
+        },
+        {
+          "pageType": "product",
+          "pageId": "product/jamforelse-arbetsblad/sv"
+        }
+      ],
+      "detail": "\"matematik arbetsblad\" targeted by 2 pages: product/matematik-arbetsblad/sv, product/jamforelse-arbetsblad/sv"
+    },
+    {
+      "check": "primary-kw-uniqueness",
+      "severity": "fail",
+      "locale": "no",
+      "keyword": "matematikk oppgaver",
+      "pages": [
+        {
+          "pageType": "product",
+          "pageId": "product/matematikk-oppgaver-arbeidsark/no"
+        },
+        {
+          "pageType": "product",
+          "pageId": "product/sammenligningsoppgaver-arbeidsark/no"
+        }
+      ],
+      "detail": "\"matematikk oppgaver\" targeted by 2 pages: product/matematikk-oppgaver-arbeidsark/no, product/sammenligningsoppgaver-arbeidsark/no"
+    },
+    {
+      "check": "primary-kw-uniqueness",
+      "severity": "fail",
+      "locale": "fi",
+      "keyword": "esiopetus eläinsanasto työlehdet alkuäänteet kirjaintunnistus 5-6v",
+      "pages": [
+        {
+          "pageType": "theme-grade",
+          "pageId": "animals/kindergarten/fi"
+        },
+        {
+          "pageType": "theme-grade",
+          "pageId": "zoo/kindergarten/fi"
+        }
+      ],
+      "detail": "\"esiopetus eläinsanasto työlehdet alkuäänteet kirjaintunnistus 5-6v\" targeted by 2 pages: animals/kindergarten/fi, zoo/kindergarten/fi"
+    },
+    {
+      "check": "primary-kw-uniqueness",
+      "severity": "fail",
+      "locale": "fi",
+      "keyword": "3. luokka eläintutkimus työlehdet raporttikirjoitus tiedonhaku 8-9v",
+      "pages": [
+        {
+          "pageType": "theme-grade",
+          "pageId": "animals/third-grade/fi"
+        },
+        {
+          "pageType": "theme-grade",
+          "pageId": "zoo/third-grade/fi"
+        }
+      ],
+      "detail": "\"3. luokka eläintutkimus työlehdet raporttikirjoitus tiedonhaku 8-9v\" targeted by 2 pages: animals/third-grade/fi, zoo/third-grade/fi"
+    },
+    {
+      "check": "primary-kw-uniqueness",
+      "severity": "fail",
+      "locale": "fi",
+      "keyword": "esiopetus ruokasanasto työlehdet alkuäänteet kirjaintunnistus 5-6v",
+      "pages": [
+        {
+          "pageType": "theme-grade",
+          "pageId": "food/kindergarten/fi"
+        },
+        {
+          "pageType": "theme-grade",
+          "pageId": "cooking/kindergarten/fi"
+        }
+      ],
+      "detail": "\"esiopetus ruokasanasto työlehdet alkuäänteet kirjaintunnistus 5-6v\" targeted by 2 pages: food/kindergarten/fi, cooking/kindergarten/fi"
+    },
+    {
+      "check": "primary-kw-uniqueness",
+      "severity": "fail",
+      "locale": "fi",
+      "keyword": "3. luokka ruokatutkimus työlehdet raporttikirjoitus tiedonhaku 8-9v",
+      "pages": [
+        {
+          "pageType": "theme-grade",
+          "pageId": "food/third-grade/fi"
+        },
+        {
+          "pageType": "theme-grade",
+          "pageId": "cooking/third-grade/fi"
+        }
+      ],
+      "detail": "\"3. luokka ruokatutkimus työlehdet raporttikirjoitus tiedonhaku 8-9v\" targeted by 2 pages: food/third-grade/fi, cooking/third-grade/fi"
+    }
+  ],
+  "placementIssues": [
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "animals/en",
+      "keyword": "animal printable activities",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"animal printable activities\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "animals/preschool/en",
+      "keyword": "preschool animal coloring worksheets",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"preschool animal coloring worksheets\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "animals/kindergarten/en",
+      "keyword": "kindergarten animal word worksheets",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"kindergarten animal word worksheets\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "animals/first-grade/en",
+      "keyword": "first grade animal addition worksheets",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"first grade animal addition worksheets\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "animals/second-grade/en",
+      "keyword": "second grade animal habitat worksheets",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"second grade animal habitat worksheets\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "animals/third-grade/en",
+      "keyword": "third grade animal research projects",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"third grade animal research projects\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "warn",
+      "locale": "en",
+      "pageId": "food/en",
+      "keyword": "nutrition worksheets for kids",
+      "found": 2,
+      "missing": [
+        "description",
+        "intro"
+      ],
+      "detail": "\"nutrition worksheets for kids\" found in 2/4 locations, missing: description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "food/preschool/en",
+      "keyword": "preschool food coloring worksheets",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"preschool food coloring worksheets\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "food/kindergarten/en",
+      "keyword": "kindergarten food vocabulary worksheets",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"kindergarten food vocabulary worksheets\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "food/first-grade/en",
+      "keyword": "first grade nutrition worksheets",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"first grade nutrition worksheets\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "food/second-grade/en",
+      "keyword": "second grade food graphing worksheets",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"second grade food graphing worksheets\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "food/third-grade/en",
+      "keyword": "third grade food fractions worksheets",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"third grade food fractions worksheets\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "transportation/en",
+      "keyword": "transportation activities for kids",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"transportation activities for kids\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "transportation/preschool/en",
+      "keyword": "preschool car tracing worksheets",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"preschool car tracing worksheets\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "transportation/kindergarten/en",
+      "keyword": "kindergarten vehicle counting worksheets",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"kindergarten vehicle counting worksheets\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "transportation/first-grade/en",
+      "keyword": "first grade transportation word problems",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"first grade transportation word problems\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "transportation/second-grade/en",
+      "keyword": "second grade transportation math worksheets",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"second grade transportation math worksheets\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "transportation/third-grade/en",
+      "keyword": "third grade transportation research worksheets",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"third grade transportation research worksheets\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "nature/en",
+      "keyword": "nature printable activities",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"nature printable activities\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "nature/preschool/en",
+      "keyword": "preschool nature observation worksheets",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"preschool nature observation worksheets\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "nature/kindergarten/en",
+      "keyword": "kindergarten nature science worksheets",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"kindergarten nature science worksheets\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "nature/first-grade/en",
+      "keyword": "first grade nature reading worksheets",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"first grade nature reading worksheets\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "nature/second-grade/en",
+      "keyword": "second grade nature habitat worksheets",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"second grade nature habitat worksheets\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "nature/third-grade/en",
+      "keyword": "third grade nature ecology worksheets",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"third grade nature ecology worksheets\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "school/en",
+      "keyword": "back to school worksheets printable",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"back to school worksheets printable\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "school/preschool/en",
+      "keyword": "preschool school readiness worksheets",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"preschool school readiness worksheets\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "school/kindergarten/en",
+      "keyword": "kindergarten school vocabulary worksheets",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"kindergarten school vocabulary worksheets\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "school/first-grade/en",
+      "keyword": "first grade school word problems",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"first grade school word problems\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "school/second-grade/en",
+      "keyword": "second grade school math worksheets",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"second grade school math worksheets\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "school/third-grade/en",
+      "keyword": "third grade school multiplication worksheets",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"third grade school multiplication worksheets\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "sports/en",
+      "keyword": "sports coloring pages for kids",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"sports coloring pages for kids\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "sports/preschool/en",
+      "keyword": "preschool sports counting worksheets",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"preschool sports counting worksheets\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "sports/kindergarten/en",
+      "keyword": "kindergarten sports scoring worksheets",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"kindergarten sports scoring worksheets\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "sports/first-grade/en",
+      "keyword": "first grade sports word problems",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"first grade sports word problems\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "sports/second-grade/en",
+      "keyword": "second grade sports statistics worksheets",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"second grade sports statistics worksheets\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "sports/third-grade/en",
+      "keyword": "third grade sports multiplication worksheets",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"third grade sports multiplication worksheets\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "emotions/en",
+      "keyword": "social emotional learning worksheets",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"social emotional learning worksheets\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "emotions/preschool/en",
+      "keyword": "preschool emotions face matching worksheets",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"preschool emotions face matching worksheets\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "emotions/kindergarten/en",
+      "keyword": "kindergarten emotion sorting worksheets",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"kindergarten emotion sorting worksheets\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "emotions/first-grade/en",
+      "keyword": "first grade emotions scenario worksheets",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"first grade emotions scenario worksheets\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "emotions/second-grade/en",
+      "keyword": "second grade emotions analysis worksheets",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"second grade emotions analysis worksheets\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "emotions/third-grade/en",
+      "keyword": "third grade emotions survey data worksheets",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"third grade emotions survey data worksheets\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "body/en",
+      "keyword": "body parts worksheets for kids",
+      "found": 1,
+      "missing": [
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"body parts worksheets for kids\" found in 1/4 locations, missing: heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "body/preschool/en",
+      "keyword": "preschool body parts tracing worksheets",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"preschool body parts tracing worksheets\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "body/kindergarten/en",
+      "keyword": "kindergarten body parts counting worksheets",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"kindergarten body parts counting worksheets\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "body/first-grade/en",
+      "keyword": "first grade body systems worksheets",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"first grade body systems worksheets\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "body/second-grade/en",
+      "keyword": "second grade organ systems worksheets",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"second grade organ systems worksheets\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "body/third-grade/en",
+      "keyword": "third grade human body data worksheets",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"third grade human body data worksheets\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "clothing/en",
+      "keyword": "clothes sorting worksheets for kids",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"clothes sorting worksheets for kids\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "clothing/preschool/en",
+      "keyword": "preschool clothing sorting worksheets",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"preschool clothing sorting worksheets\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "clothing/kindergarten/en",
+      "keyword": "kindergarten clothing counting worksheets",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"kindergarten clothing counting worksheets\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "clothing/first-grade/en",
+      "keyword": "first grade clothing word problem worksheets",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"first grade clothing word problem worksheets\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "clothing/second-grade/en",
+      "keyword": "second grade clothing price comparison worksheets",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"second grade clothing price comparison worksheets\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "clothing/third-grade/en",
+      "keyword": "third grade fabric area and multiplication worksheets",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"third grade fabric area and multiplication worksheets\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "household/en",
+      "keyword": "home worksheets for kindergarten",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"home worksheets for kindergarten\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "household/preschool/en",
+      "keyword": "preschool household room sorting worksheets objects kitchen bedroom ages 3-4",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"preschool household room sorting worksheets objects kitchen bedroom ages 3-4\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "household/kindergarten/en",
+      "keyword": "kindergarten household addition worksheets home object counters ages 5-6",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"kindergarten household addition worksheets home object counters ages 5-6\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "household/first-grade/en",
+      "keyword": "first grade household word problems addition subtraction within 20 home",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"first grade household word problems addition subtraction within 20 home\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "household/second-grade/en",
+      "keyword": "second grade household measurement worksheets room dimensions feet inches",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"second grade household measurement worksheets room dimensions feet inches\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "household/third-grade/en",
+      "keyword": "third grade household area perimeter worksheets room dimensions square feet",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"third grade household area perimeter worksheets room dimensions square feet\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "toys/en",
+      "keyword": "toy counting worksheets printable",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"toy counting worksheets printable\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "toys/preschool/en",
+      "keyword": "preschool toy counting worksheets sets to ten one-to-one ages 3-4",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"preschool toy counting worksheets sets to ten one-to-one ages 3-4\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "toys/kindergarten/en",
+      "keyword": "kindergarten toy addition worksheets counters within ten ages 5-6",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"kindergarten toy addition worksheets counters within ten ages 5-6\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "toys/first-grade/en",
+      "keyword": "first grade toy word problems multi-step addition subtraction within 20",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"first grade toy word problems multi-step addition subtraction within 20\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "toys/second-grade/en",
+      "keyword": "second grade toy measurement worksheets rulers inches centimeters data tables",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"second grade toy measurement worksheets rulers inches centimeters data tables\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "toys/third-grade/en",
+      "keyword": "third grade toy budget multiplication worksheets unit price total cost",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"third grade toy budget multiplication worksheets unit price total cost\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "music/en",
+      "keyword": "instrument worksheets for kindergarten",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"instrument worksheets for kindergarten\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "music/preschool/en",
+      "keyword": "preschool instrument identification worksheets six common instruments ages 3-4",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"preschool instrument identification worksheets six common instruments ages 3-4\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "music/kindergarten/en",
+      "keyword": "kindergarten instrument counting worksheets addition within ten groups ages 5-6",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"kindergarten instrument counting worksheets addition within ten groups ages 5-6\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "music/first-grade/en",
+      "keyword": "first grade music word problems addition subtraction within 20 orchestra scenarios",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"first grade music word problems addition subtraction within 20 orchestra scenarios\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "music/second-grade/en",
+      "keyword": "second grade rhythm multiplication worksheets repeated beat groups within 100",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"second grade rhythm multiplication worksheets repeated beat groups within 100\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "music/third-grade/en",
+      "keyword": "third grade note value fraction worksheets whole half quarter eighth equivalence",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"third grade note value fraction worksheets whole half quarter eighth equivalence\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "jobs/en",
+      "keyword": "career worksheets for kindergarten",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"career worksheets for kindergarten\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "jobs/preschool/en",
+      "keyword": "preschool community helper matching worksheets pair workers with tools uniforms ages 3-4",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"preschool community helper matching worksheets pair workers with tools uniforms ages 3-4\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "jobs/kindergarten/en",
+      "keyword": "kindergarten workplace addition subtraction worksheets word problems community helpers ages 5-6",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"kindergarten workplace addition subtraction worksheets word problems community helpers ages 5-6\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "jobs/first-grade/en",
+      "keyword": "first grade multi-step workplace word problems worksheets addition subtraction within 20 ages 6-7",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"first grade multi-step workplace word problems worksheets addition subtraction within 20 ages 6-7\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "jobs/second-grade/en",
+      "keyword": "second grade money word problems worksheets earnings spending making change careers ages 7-8",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"second grade money word problems worksheets earnings spending making change careers ages 7-8\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "jobs/third-grade/en",
+      "keyword": "third grade wage multiplication worksheets hourly daily weekly earnings calculation ages 8-9",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"third grade wage multiplication worksheets hourly daily weekly earnings calculation ages 8-9\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "space/en",
+      "keyword": "planet worksheets for kindergarten",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"planet worksheets for kindergarten\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "space/preschool/en",
+      "keyword": "preschool space star counting worksheets number recognition sets to ten ages 3-4",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"preschool space star counting worksheets number recognition sets to ten ages 3-4\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "space/kindergarten/en",
+      "keyword": "kindergarten planet addition subtraction worksheets space counters within 10 ages 5-6",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"kindergarten planet addition subtraction worksheets space counters within 10 ages 5-6\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "space/first-grade/en",
+      "keyword": "first grade rocket word problem worksheets addition subtraction within 20 ages 6-7",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"first grade rocket word problem worksheets addition subtraction within 20 ages 6-7\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "space/second-grade/en",
+      "keyword": "second grade planet size comparison worksheets place value numbers hundreds ages 7-8",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"second grade planet size comparison worksheets place value numbers hundreds ages 7-8\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "space/third-grade/en",
+      "keyword": "third grade space mission multiplication worksheets distance calculation rate speed ages 8-9",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"third grade space mission multiplication worksheets distance calculation rate speed ages 8-9\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "seasons/en",
+      "keyword": "spring summer fall winter worksheets",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"spring summer fall winter worksheets\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "seasons/preschool/en",
+      "keyword": "preschool seasons tree coloring worksheets four panels spring summer autumn winter ages 3-4",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"preschool seasons tree coloring worksheets four panels spring summer autumn winter ages 3-4\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "seasons/kindergarten/en",
+      "keyword": "kindergarten seasonal addition subtraction worksheets leaf snowflake counters within 10 ages 5-6",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"kindergarten seasonal addition subtraction worksheets leaf snowflake counters within 10 ages 5-6\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "seasons/first-grade/en",
+      "keyword": "first grade seasonal word problem worksheets addition subtraction within 20 ages 6-7",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"first grade seasonal word problem worksheets addition subtraction within 20 ages 6-7\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "seasons/second-grade/en",
+      "keyword": "second grade seasonal temperature graphing worksheets bar chart two-digit values ages 7-8",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"second grade seasonal temperature graphing worksheets bar chart two-digit values ages 7-8\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "seasons/third-grade/en",
+      "keyword": "third grade seasonal temperature multiplication worksheets weekly average calculation ages 8-9",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"third grade seasonal temperature multiplication worksheets weekly average calculation ages 8-9\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "holidays/en",
+      "keyword": "celebration worksheets for kindergarten",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"celebration worksheets for kindergarten\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "holidays/preschool/en",
+      "keyword": "preschool holiday object counting worksheets festive items one to ten ages 3-4",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"preschool holiday object counting worksheets festive items one to ten ages 3-4\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "holidays/kindergarten/en",
+      "keyword": "kindergarten holiday addition subtraction worksheets festive ornament counters within 10 ages 5-6",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"kindergarten holiday addition subtraction worksheets festive ornament counters within 10 ages 5-6\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "holidays/first-grade/en",
+      "keyword": "first grade holiday word problem worksheets multi-step addition subtraction within 20 ages 6-7",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"first grade holiday word problem worksheets multi-step addition subtraction within 20 ages 6-7\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "holidays/second-grade/en",
+      "keyword": "second grade holiday calendar math worksheets days between celebrations elapsed time ages 7-8",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"second grade holiday calendar math worksheets days between celebrations elapsed time ages 7-8\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "holidays/third-grade/en",
+      "keyword": "third grade holiday event budget multiplication worksheets multi-category supply cost calculation ages 8-9",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"third grade holiday event budget multiplication worksheets multi-category supply cost calculation ages 8-9\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "weather/en",
+      "keyword": "weather science worksheets printable",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"weather science worksheets printable\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "colors/en",
+      "keyword": "color recognition activities printable",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"color recognition activities printable\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "colors/preschool/en",
+      "keyword": "preschool color sorting worksheets",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"preschool color sorting worksheets\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "colors/kindergarten/en",
+      "keyword": "kindergarten color graphing worksheets",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"kindergarten color graphing worksheets\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "colors/first-grade/en",
+      "keyword": "first grade color mixing experiment worksheets",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"first grade color mixing experiment worksheets\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "colors/second-grade/en",
+      "keyword": "second grade color data collection worksheets",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"second grade color data collection worksheets\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "colors/third-grade/en",
+      "keyword": "third grade light wavelength and color science worksheets",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"third grade light wavelength and color science worksheets\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "shapes/en",
+      "keyword": "geometry worksheets for kindergarten",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"geometry worksheets for kindergarten\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "numbers/en",
+      "keyword": "counting worksheets printable free",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"counting worksheets printable free\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "alphabet/en",
+      "keyword": "abc worksheets printable free",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"abc worksheets printable free\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "alphabet/preschool/en",
+      "keyword": "preschool letter tracing worksheets dotted lines directional arrows uppercase ages 3-4",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"preschool letter tracing worksheets dotted lines directional arrows uppercase ages 3-4\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "alphabet/kindergarten/en",
+      "keyword": "kindergarten letter writing worksheets lined paper correct formation all 26 ages 5-6",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"kindergarten letter writing worksheets lined paper correct formation all 26 ages 5-6\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "alphabet/first-grade/en",
+      "keyword": "first grade word scramble worksheets rearrange letters decode cvc cvce words ages 6-7",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"first grade word scramble worksheets rearrange letters decode cvc cvce words ages 6-7\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "alphabet/second-grade/en",
+      "keyword": "second grade multi-syllable word scramble worksheets prefix suffix decoding ages 7-8",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"second grade multi-syllable word scramble worksheets prefix suffix decoding ages 7-8\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "alphabet/third-grade/en",
+      "keyword": "third grade root word affix analysis worksheets prefix suffix meaning vocabulary ages 8-9",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"third grade root word affix analysis worksheets prefix suffix meaning vocabulary ages 8-9\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "furniture/en",
+      "keyword": "room layout worksheets for kids",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"room layout worksheets for kids\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "furniture/preschool/en",
+      "keyword": "preschool furniture naming worksheets chair table bed lamp ages 3-4",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"preschool furniture naming worksheets chair table bed lamp ages 3-4\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "furniture/kindergarten/en",
+      "keyword": "kindergarten furniture shape recognition worksheets rectangle circle square ages 5-6",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"kindergarten furniture shape recognition worksheets rectangle circle square ages 5-6\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "furniture/first-grade/en",
+      "keyword": "first grade furniture word problems repeated addition groups chairs tables",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"first grade furniture word problems repeated addition groups chairs tables\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "furniture/second-grade/en",
+      "keyword": "second grade furniture measurement worksheets rulers inches centimeters ages 7-8",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"second grade furniture measurement worksheets rulers inches centimeters ages 7-8\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "furniture/third-grade/en",
+      "keyword": "third grade furniture area worksheets length times width desk table surfaces",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"third grade furniture area worksheets length times width desk table surfaces\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "easter/en",
+      "keyword": "easter egg worksheets printable",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"easter egg worksheets printable\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "easter/preschool/en",
+      "keyword": "preschool easter egg counting worksheets baskets to 10",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"preschool easter egg counting worksheets baskets to 10\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "easter/kindergarten/en",
+      "keyword": "kindergarten easter egg addition worksheets within 10 baskets",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"kindergarten easter egg addition worksheets within 10 baskets\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "easter/first-grade/en",
+      "keyword": "first grade easter word problems multi-step addition subtraction 20",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"first grade easter word problems multi-step addition subtraction 20\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "easter/second-grade/en",
+      "keyword": "second grade easter egg symmetry worksheets geometric patterns",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"second grade easter egg symmetry worksheets geometric patterns\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "easter/third-grade/en",
+      "keyword": "third grade easter egg division worksheets equal sharing baskets",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"third grade easter egg division worksheets equal sharing baskets\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "halloween/en",
+      "keyword": "halloween coloring pages for kindergarten",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"halloween coloring pages for kindergarten\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "halloween/preschool/en",
+      "keyword": "preschool pumpkin counting worksheets sets to ten one-to-one ages 3-4",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"preschool pumpkin counting worksheets sets to ten one-to-one ages 3-4\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "halloween/kindergarten/en",
+      "keyword": "kindergarten candy addition worksheets within ten halloween counters ages 5-6",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"kindergarten candy addition worksheets within ten halloween counters ages 5-6\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "halloween/first-grade/en",
+      "keyword": "first grade halloween word problems multi-step addition subtraction within 20",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"first grade halloween word problems multi-step addition subtraction within 20\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "halloween/second-grade/en",
+      "keyword": "second grade halloween party budget worksheets two-digit addition subtraction",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"second grade halloween party budget worksheets two-digit addition subtraction\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "halloween/third-grade/en",
+      "keyword": "third grade haunted house area perimeter worksheets room design multiplication",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"third grade haunted house area perimeter worksheets room design multiplication\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "xmas/en",
+      "keyword": "christmas coloring pages for kindergarten",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"christmas coloring pages for kindergarten\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "xmas/preschool/en",
+      "keyword": "preschool ornament counting worksheets sets to ten one-to-one ages 3-4",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"preschool ornament counting worksheets sets to ten one-to-one ages 3-4\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "xmas/kindergarten/en",
+      "keyword": "kindergarten cookie addition worksheets within ten christmas counters ages 5-6",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"kindergarten cookie addition worksheets within ten christmas counters ages 5-6\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "xmas/first-grade/en",
+      "keyword": "first grade christmas word problems multi-step addition subtraction within 20",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"first grade christmas word problems multi-step addition subtraction within 20\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "xmas/second-grade/en",
+      "keyword": "second grade christmas gift budget worksheets two-digit addition subtraction",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"second grade christmas gift budget worksheets two-digit addition subtraction\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "xmas/third-grade/en",
+      "keyword": "third grade christmas budget multiplication worksheets divide total among recipients",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"third grade christmas budget multiplication worksheets divide total among recipients\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "winter/en",
+      "keyword": "winter coloring pages for kids",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"winter coloring pages for kids\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "farm/en",
+      "keyword": "farm animal worksheets for kindergarten",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"farm animal worksheets for kindergarten\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "farm/preschool/en",
+      "keyword": "preschool farm animal counting worksheets barn animals to 10",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"preschool farm animal counting worksheets barn animals to 10\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "farm/kindergarten/en",
+      "keyword": "kindergarten farm addition worksheets harvest vegetables within 10",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"kindergarten farm addition worksheets harvest vegetables within 10\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "farm/first-grade/en",
+      "keyword": "first grade farm word problems addition subtraction harvest crops 20",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"first grade farm word problems addition subtraction harvest crops 20\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "farm/second-grade/en",
+      "keyword": "second grade farm data collection worksheets crop yield bar graphs",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"second grade farm data collection worksheets crop yield bar graphs\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "farm/third-grade/en",
+      "keyword": "third grade farm multiplication arrays seed rows columns worksheets",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"third grade farm multiplication arrays seed rows columns worksheets\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "ocean/en",
+      "keyword": "sea creature worksheets for kids",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"sea creature worksheets for kids\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "ocean/preschool/en",
+      "keyword": "preschool sea animal identification worksheets name six ocean creatures ages 3-4",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"preschool sea animal identification worksheets name six ocean creatures ages 3-4\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "ocean/kindergarten/en",
+      "keyword": "kindergarten sea creature counting worksheets addition within ten groups ages 5-6",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"kindergarten sea creature counting worksheets addition within ten groups ages 5-6\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "ocean/first-grade/en",
+      "keyword": "first grade ocean word problems addition subtraction within 20 reef scenarios",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"first grade ocean word problems addition subtraction within 20 reef scenarios\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "ocean/second-grade/en",
+      "keyword": "second grade marine multiplication worksheets repeated sea creature groups within 100",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"second grade marine multiplication worksheets repeated sea creature groups within 100\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "ocean/third-grade/en",
+      "keyword": "third grade sea life fraction worksheets whole half quarter ocean creature proportions",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"third grade sea life fraction worksheets whole half quarter ocean creature proportions\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "dinosaurs/en",
+      "keyword": "dinosaur coloring pages for kids",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"dinosaur coloring pages for kids\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "dinosaurs/preschool/en",
+      "keyword": "preschool dinosaur counting worksheets eggs and babies",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"preschool dinosaur counting worksheets eggs and babies\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "dinosaurs/kindergarten/en",
+      "keyword": "kindergarten dinosaur addition worksheets within 10 counters",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"kindergarten dinosaur addition worksheets within 10 counters\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "dinosaurs/first-grade/en",
+      "keyword": "first grade dinosaur word problems addition subtraction within 20",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"first grade dinosaur word problems addition subtraction within 20\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "dinosaurs/second-grade/en",
+      "keyword": "second grade dinosaur measurement comparison worksheets subtraction",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"second grade dinosaur measurement comparison worksheets subtraction\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "dinosaurs/third-grade/en",
+      "keyword": "third grade dinosaur multiplication worksheets large numbers",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"third grade dinosaur multiplication worksheets large numbers\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "insects/en",
+      "keyword": "bug worksheets for kindergarten",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"bug worksheets for kindergarten\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "fruits/en",
+      "keyword": "fruit coloring pages for kids",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"fruit coloring pages for kids\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "fruits/preschool/en",
+      "keyword": "preschool banana counting worksheets sets to five ages 3-4",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"preschool banana counting worksheets sets to five ages 3-4\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "fruits/kindergarten/en",
+      "keyword": "kindergarten apple addition worksheets groups within 10 fruit counters",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"kindergarten apple addition worksheets groups within 10 fruit counters\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "fruits/first-grade/en",
+      "keyword": "first grade orchard word problems addition subtraction within 20 fruit",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"first grade orchard word problems addition subtraction within 20 fruit\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "fruits/second-grade/en",
+      "keyword": "second grade fruit fraction worksheets halves quarters cutting models ages 7-8",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"second grade fruit fraction worksheets halves quarters cutting models ages 7-8\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "fruits/third-grade/en",
+      "keyword": "third grade orchard yield multiplication worksheets rows times trees per row",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"third grade orchard yield multiplication worksheets rows times trees per row\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "vegetables/en",
+      "keyword": "vegetable coloring pages for kids",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"vegetable coloring pages for kids\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "vegetables/preschool/en",
+      "keyword": "preschool vegetable coloring worksheets thick outlines carrot tomato broccoli ages 3-4",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"preschool vegetable coloring worksheets thick outlines carrot tomato broccoli ages 3-4\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "vegetables/kindergarten/en",
+      "keyword": "kindergarten pea pod addition worksheets add vegetable counters within ten ages 5-6",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"kindergarten pea pod addition worksheets add vegetable counters within ten ages 5-6\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "vegetables/first-grade/en",
+      "keyword": "first grade garden harvest word problems addition subtraction within 20 vegetable scenarios",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"first grade garden harvest word problems addition subtraction within 20 vegetable scenarios\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "vegetables/second-grade/en",
+      "keyword": "second grade bean sprout growth measurement worksheets centimeter ruler data table",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"second grade bean sprout growth measurement worksheets centimeter ruler data table\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "vegetables/third-grade/en",
+      "keyword": "third grade garden bed area worksheets multiply length width square feet calculation",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"third grade garden bed area worksheets multiply length width square feet calculation\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "flowers/en",
+      "keyword": "flower coloring pages for kids",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"flower coloring pages for kids\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "flowers/preschool/en",
+      "keyword": "preschool petal tracing worksheets thick flower outlines ages 3-4",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"preschool petal tracing worksheets thick flower outlines ages 3-4\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "flowers/kindergarten/en",
+      "keyword": "kindergarten petal addition worksheets count flower parts within 10",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"kindergarten petal addition worksheets count flower parts within 10\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "flowers/first-grade/en",
+      "keyword": "first grade petal word problems addition subtraction within 20 flowers",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"first grade petal word problems addition subtraction within 20 flowers\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "flowers/second-grade/en",
+      "keyword": "second grade plant growth data collection worksheets bar graphs flowers",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"second grade plant growth data collection worksheets bar graphs flowers\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "flowers/third-grade/en",
+      "keyword": "third grade flower garden multiplication arrays seed rows columns worksheets",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"third grade flower garden multiplication arrays seed rows columns worksheets\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "birds/en",
+      "keyword": "bird coloring pages for kids",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"bird coloring pages for kids\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "birds/preschool/en",
+      "keyword": "preschool bird shadow matching worksheets silhouette recognition feathered friends ages 3-4",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"preschool bird shadow matching worksheets silhouette recognition feathered friends ages 3-4\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "birds/kindergarten/en",
+      "keyword": "kindergarten nest addition subtraction worksheets bird counters within 10 ages 5-6",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"kindergarten nest addition subtraction worksheets bird counters within 10 ages 5-6\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "birds/first-grade/en",
+      "keyword": "first grade bird word problems worksheets addition subtraction within 20 ages 6-7",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"first grade bird word problems worksheets addition subtraction within 20 ages 6-7\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "birds/second-grade/en",
+      "keyword": "second grade bird observation tally chart worksheets bar graph data collection ages 7-8",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"second grade bird observation tally chart worksheets bar graph data collection ages 7-8\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "birds/third-grade/en",
+      "keyword": "third grade flock multiplication worksheets population counts group size totals ages 8-9",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"third grade flock multiplication worksheets population counts group size totals ages 8-9\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "pets/en",
+      "keyword": "pet care worksheets for kindergarten",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"pet care worksheets for kindergarten\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "pets/preschool/en",
+      "keyword": "preschool dog and cat coloring worksheets thick outlines fine motor ages 3-4",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"preschool dog and cat coloring worksheets thick outlines fine motor ages 3-4\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "pets/kindergarten/en",
+      "keyword": "kindergarten pet addition worksheets add fish goldfish counters within ten ages 5-6",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"kindergarten pet addition worksheets add fish goldfish counters within ten ages 5-6\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "pets/first-grade/en",
+      "keyword": "first grade pet word problems addition subtraction within 20 dog cat scenarios",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"first grade pet word problems addition subtraction within 20 dog cat scenarios\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "pets/second-grade/en",
+      "keyword": "second grade pet feeding schedule worksheets repeated addition meals per week",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"second grade pet feeding schedule worksheets repeated addition meals per week\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "pets/third-grade/en",
+      "keyword": "third grade pet budget multiplication worksheets weekly monthly food cost calculation",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"third grade pet budget multiplication worksheets weekly monthly food cost calculation\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "zoo/en",
+      "keyword": "zoo animal worksheets printable",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"zoo animal worksheets printable\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "zoo/preschool/en",
+      "keyword": "preschool zoo animal counting worksheets sets to ten one-to-one ages 3-4",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"preschool zoo animal counting worksheets sets to ten one-to-one ages 3-4\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "zoo/kindergarten/en",
+      "keyword": "kindergarten zoo addition worksheets within ten animal counters ages 5-6",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"kindergarten zoo addition worksheets within ten animal counters ages 5-6\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "zoo/first-grade/en",
+      "keyword": "first grade zoo word problems addition subtraction within 20 animal scenarios",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"first grade zoo word problems addition subtraction within 20 animal scenarios\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "zoo/second-grade/en",
+      "keyword": "second grade zoo ticket cost worksheets multi-step addition subtraction within 100",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"second grade zoo ticket cost worksheets multi-step addition subtraction within 100\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "zoo/third-grade/en",
+      "keyword": "third grade zoo multiplication worksheets visitor statistics multi-step operations",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"third grade zoo multiplication worksheets visitor statistics multi-step operations\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "garden/en",
+      "keyword": "gardening activities for kindergarten",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"gardening activities for kindergarten\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "garden/preschool/en",
+      "keyword": "preschool garden seed counting worksheets flowers vegetables ages 3-4",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"preschool garden seed counting worksheets flowers vegetables ages 3-4\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "garden/kindergarten/en",
+      "keyword": "kindergarten garden addition subtraction worksheets plant counters ages 5-6",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"kindergarten garden addition subtraction worksheets plant counters ages 5-6\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "garden/first-grade/en",
+      "keyword": "first grade garden word problems addition subtraction within 20 plants",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"first grade garden word problems addition subtraction within 20 plants\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "garden/second-grade/en",
+      "keyword": "second grade garden measurement worksheets plant height inches centimeters",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"second grade garden measurement worksheets plant height inches centimeters\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "garden/third-grade/en",
+      "keyword": "third grade garden area worksheets length times width raised bed square feet",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"third grade garden area worksheets length times width raised bed square feet\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "camping/en",
+      "keyword": "camping coloring pages for kids",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"camping coloring pages for kids\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "camping/preschool/en",
+      "keyword": "preschool camping object counting worksheets campsite items one to ten ages 3-4",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"preschool camping object counting worksheets campsite items one to ten ages 3-4\" found in 0/4 locations, missing: title, heading, description, intro"
+    },
+    {
+      "check": "kw-placement",
+      "severity": "fail",
+      "locale": "en",
+      "pageId": "camping/kindergarten/en",
+      "keyword": "kindergarten camping addition subtraction worksheets campsite supply counters within 10 ages 5-6",
+      "found": 0,
+      "missing": [
+        "title",
+        "heading",
+        "description",
+        "intro"
+      ],
+      "detail": "\"kindergarten camping addition subtraction worksheets campsite supply counters within 10 ages 5-6\" found in 0/4 locations, missing: title, heading, description, intro"
+    }
+  ],
+  "duplicateIssues": [
+    {
+      "check": "near-duplicate",
+      "severity": "warn",
+      "locale": "de",
+      "pageA": "product/bilddiagramm-arbeitsblaetter/de",
+      "pageB": "product/linien-ziehen-arbeitsblaetter/de",
+      "similarity": 85,
+      "detail": "product/bilddiagramm-arbeitsblaetter/de and product/linien-ziehen-arbeitsblaetter/de share 85% keyword tokens"
+    },
+    {
+      "check": "near-duplicate",
+      "severity": "warn",
+      "locale": "de",
+      "pageA": "product/bilddiagramm-arbeitsblaetter/de",
+      "pageB": "product/mathe-arbeitsblaetter/de",
+      "similarity": 85,
+      "detail": "product/bilddiagramm-arbeitsblaetter/de and product/mathe-arbeitsblaetter/de share 85% keyword tokens"
+    },
+    {
+      "check": "near-duplicate",
+      "severity": "warn",
+      "locale": "de",
+      "pageA": "product/malvorlagen-arbeitsblaetter/de",
+      "pageB": "product/buchstabensalat-arbeitsblaetter/de",
+      "similarity": 86,
+      "detail": "product/malvorlagen-arbeitsblaetter/de and product/buchstabensalat-arbeitsblaetter/de share 86% keyword tokens"
+    },
+    {
+      "check": "near-duplicate",
+      "severity": "warn",
+      "locale": "de",
+      "pageA": "product/linien-ziehen-arbeitsblaetter/de",
+      "pageB": "product/zuordnungs-arbeitsblaetter/de",
+      "similarity": 85,
+      "detail": "product/linien-ziehen-arbeitsblaetter/de and product/zuordnungs-arbeitsblaetter/de share 85% keyword tokens"
+    },
+    {
+      "check": "near-duplicate",
+      "severity": "warn",
+      "locale": "de",
+      "pageA": "product/linien-ziehen-arbeitsblaetter/de",
+      "pageB": "product/mathe-arbeitsblaetter/de",
+      "similarity": 85,
+      "detail": "product/linien-ziehen-arbeitsblaetter/de and product/mathe-arbeitsblaetter/de share 85% keyword tokens"
+    },
+    {
+      "check": "near-duplicate",
+      "severity": "warn",
+      "locale": "de",
+      "pageA": "product/linien-ziehen-arbeitsblaetter/de",
+      "pageB": "product/schreibuebungen-arbeitsblaetter/de",
+      "similarity": 86,
+      "detail": "product/linien-ziehen-arbeitsblaetter/de and product/schreibuebungen-arbeitsblaetter/de share 86% keyword tokens"
+    },
+    {
+      "check": "near-duplicate",
+      "severity": "warn",
+      "locale": "fr",
+      "pageA": "product/addition-codee-fiches/fr",
+      "pageB": "product/puzzle-grille-fiches/fr",
+      "similarity": 94,
+      "detail": "product/addition-codee-fiches/fr and product/puzzle-grille-fiches/fr share 94% keyword tokens"
+    },
+    {
+      "check": "near-duplicate",
+      "severity": "warn",
+      "locale": "fr",
+      "pageA": "product/addition-codee-fiches/fr",
+      "pageB": "product/association-fiches/fr",
+      "similarity": 83,
+      "detail": "product/addition-codee-fiches/fr and product/association-fiches/fr share 83% keyword tokens"
+    },
+    {
+      "check": "near-duplicate",
+      "severity": "warn",
+      "locale": "fr",
+      "pageA": "product/addition-codee-fiches/fr",
+      "pageB": "product/intrus-fiches/fr",
+      "similarity": 88,
+      "detail": "product/addition-codee-fiches/fr and product/intrus-fiches/fr share 88% keyword tokens"
+    },
+    {
+      "check": "near-duplicate",
+      "severity": "warn",
+      "locale": "fr",
+      "pageA": "product/addition-codee-fiches/fr",
+      "pageB": "product/soustraction-fiches/fr",
+      "similarity": 83,
+      "detail": "product/addition-codee-fiches/fr and product/soustraction-fiches/fr share 83% keyword tokens"
+    },
+    {
+      "check": "near-duplicate",
+      "severity": "warn",
+      "locale": "fr",
+      "pageA": "product/mots-croises-images-fiches/fr",
+      "pageB": "product/cryptogramme-images-fiches/fr",
+      "similarity": 86,
+      "detail": "product/mots-croises-images-fiches/fr and product/cryptogramme-images-fiches/fr share 86% keyword tokens"
+    },
+    {
+      "check": "near-duplicate",
+      "severity": "warn",
+      "locale": "fr",
+      "pageA": "product/mots-croises-images-fiches/fr",
+      "pageB": "product/deviner-mots-fiches/fr",
+      "similarity": 86,
+      "detail": "product/mots-croises-images-fiches/fr and product/deviner-mots-fiches/fr share 86% keyword tokens"
+    },
+    {
+      "check": "near-duplicate",
+      "severity": "warn",
+      "locale": "fr",
+      "pageA": "product/mots-croises-images-fiches/fr",
+      "pageB": "product/mots-melanges-fiches/fr",
+      "similarity": 82,
+      "detail": "product/mots-croises-images-fiches/fr and product/mots-melanges-fiches/fr share 82% keyword tokens"
+    },
+    {
+      "check": "near-duplicate",
+      "severity": "warn",
+      "locale": "fr",
+      "pageA": "product/cryptogramme-images-fiches/fr",
+      "pageB": "product/deviner-mots-fiches/fr",
+      "similarity": 81,
+      "detail": "product/cryptogramme-images-fiches/fr and product/deviner-mots-fiches/fr share 81% keyword tokens"
+    },
+    {
+      "check": "near-duplicate",
+      "severity": "warn",
+      "locale": "fr",
+      "pageA": "product/puzzle-grille-fiches/fr",
+      "pageB": "product/association-fiches/fr",
+      "similarity": 88,
+      "detail": "product/puzzle-grille-fiches/fr and product/association-fiches/fr share 88% keyword tokens"
+    },
+    {
+      "check": "near-duplicate",
+      "severity": "warn",
+      "locale": "fr",
+      "pageA": "product/puzzle-grille-fiches/fr",
+      "pageB": "product/intrus-fiches/fr",
+      "similarity": 94,
+      "detail": "product/puzzle-grille-fiches/fr and product/intrus-fiches/fr share 94% keyword tokens"
+    },
+    {
+      "check": "near-duplicate",
+      "severity": "warn",
+      "locale": "fr",
+      "pageA": "product/puzzle-grille-fiches/fr",
+      "pageB": "product/soustraction-fiches/fr",
+      "similarity": 88,
+      "detail": "product/puzzle-grille-fiches/fr and product/soustraction-fiches/fr share 88% keyword tokens"
+    },
+    {
+      "check": "near-duplicate",
+      "severity": "warn",
+      "locale": "fr",
+      "pageA": "product/association-fiches/fr",
+      "pageB": "product/intrus-fiches/fr",
+      "similarity": 83,
+      "detail": "product/association-fiches/fr and product/intrus-fiches/fr share 83% keyword tokens"
+    },
+    {
+      "check": "near-duplicate",
+      "severity": "warn",
+      "locale": "fr",
+      "pageA": "product/intrus-fiches/fr",
+      "pageB": "product/soustraction-fiches/fr",
+      "similarity": 83,
+      "detail": "product/intrus-fiches/fr and product/soustraction-fiches/fr share 83% keyword tokens"
+    },
+    {
+      "check": "near-duplicate",
+      "severity": "warn",
+      "locale": "fr",
+      "pageA": "product/deviner-mots-fiches/fr",
+      "pageB": "product/mots-melanges-fiches/fr",
+      "similarity": 86,
+      "detail": "product/deviner-mots-fiches/fr and product/mots-melanges-fiches/fr share 86% keyword tokens"
+    },
+    {
+      "check": "near-duplicate",
+      "severity": "warn",
+      "locale": "es",
+      "pageA": "product/suma-fichas/es",
+      "pageB": "product/graficos-conteo-fichas/es",
+      "similarity": 82,
+      "detail": "product/suma-fichas/es and product/graficos-conteo-fichas/es share 82% keyword tokens"
+    },
+    {
+      "check": "near-duplicate",
+      "severity": "warn",
+      "locale": "es",
+      "pageA": "product/suma-fichas/es",
+      "pageB": "product/preposiciones-fichas/es",
+      "similarity": 81,
+      "detail": "product/suma-fichas/es and product/preposiciones-fichas/es share 81% keyword tokens"
+    },
+    {
+      "check": "near-duplicate",
+      "severity": "warn",
+      "locale": "es",
+      "pageA": "product/suma-fichas/es",
+      "pageB": "product/resta-fichas/es",
+      "similarity": 90,
+      "detail": "product/suma-fichas/es and product/resta-fichas/es share 90% keyword tokens"
+    },
+    {
+      "check": "near-duplicate",
+      "severity": "warn",
+      "locale": "es",
+      "pageA": "product/suma-fichas/es",
+      "pageB": "product/rompecabezas-matematicos-fichas/es",
+      "similarity": 82,
+      "detail": "product/suma-fichas/es and product/rompecabezas-matematicos-fichas/es share 82% keyword tokens"
+    },
+    {
+      "check": "near-duplicate",
+      "severity": "warn",
+      "locale": "es",
+      "pageA": "product/graficos-conteo-fichas/es",
+      "pageB": "product/resta-fichas/es",
+      "similarity": 82,
+      "detail": "product/graficos-conteo-fichas/es and product/resta-fichas/es share 82% keyword tokens"
+    },
+    {
+      "check": "near-duplicate",
+      "severity": "warn",
+      "locale": "es",
+      "pageA": "product/mayor-menor-fichas/es",
+      "pageB": "product/preposiciones-fichas/es",
+      "similarity": 82,
+      "detail": "product/mayor-menor-fichas/es and product/preposiciones-fichas/es share 82% keyword tokens"
+    },
+    {
+      "check": "near-duplicate",
+      "severity": "warn",
+      "locale": "es",
+      "pageA": "product/preposiciones-fichas/es",
+      "pageB": "product/resta-fichas/es",
+      "similarity": 81,
+      "detail": "product/preposiciones-fichas/es and product/resta-fichas/es share 81% keyword tokens"
+    },
+    {
+      "check": "near-duplicate",
+      "severity": "warn",
+      "locale": "es",
+      "pageA": "product/preposiciones-fichas/es",
+      "pageB": "product/rompecabezas-matematicos-fichas/es",
+      "similarity": 82,
+      "detail": "product/preposiciones-fichas/es and product/rompecabezas-matematicos-fichas/es share 82% keyword tokens"
+    },
+    {
+      "check": "near-duplicate",
+      "severity": "warn",
+      "locale": "es",
+      "pageA": "product/preposiciones-fichas/es",
+      "pageB": "product/letras-revueltas-fichas/es",
+      "similarity": 86,
+      "detail": "product/preposiciones-fichas/es and product/letras-revueltas-fichas/es share 86% keyword tokens"
+    },
+    {
+      "check": "near-duplicate",
+      "severity": "warn",
+      "locale": "es",
+      "pageA": "product/resta-fichas/es",
+      "pageB": "product/rompecabezas-matematicos-fichas/es",
+      "similarity": 82,
+      "detail": "product/resta-fichas/es and product/rompecabezas-matematicos-fichas/es share 82% keyword tokens"
+    },
+    {
+      "check": "near-duplicate",
+      "severity": "warn",
+      "locale": "pt",
+      "pageA": "product/adicao-codigo-fichas/pt",
+      "pageB": "product/adicao-fichas/pt",
+      "similarity": 85,
+      "detail": "product/adicao-codigo-fichas/pt and product/adicao-fichas/pt share 85% keyword tokens"
+    },
+    {
+      "check": "near-duplicate",
+      "severity": "warn",
+      "locale": "pt",
+      "pageA": "product/adicao-codigo-fichas/pt",
+      "pageB": "product/atividades-matematica-fichas/pt",
+      "similarity": 89,
+      "detail": "product/adicao-codigo-fichas/pt and product/atividades-matematica-fichas/pt share 89% keyword tokens"
+    },
+    {
+      "check": "near-duplicate",
+      "severity": "warn",
+      "locale": "pt",
+      "pageA": "product/adicao-codigo-fichas/pt",
+      "pageB": "product/bingo-ilustrado-fichas/pt",
+      "similarity": 81,
+      "detail": "product/adicao-codigo-fichas/pt and product/bingo-ilustrado-fichas/pt share 81% keyword tokens"
+    },
+    {
+      "check": "near-duplicate",
+      "severity": "warn",
+      "locale": "pt",
+      "pageA": "product/adicao-codigo-fichas/pt",
+      "pageB": "product/criptograma-imagens-fichas/pt",
+      "similarity": 85,
+      "detail": "product/adicao-codigo-fichas/pt and product/criptograma-imagens-fichas/pt share 85% keyword tokens"
+    },
+    {
+      "check": "near-duplicate",
+      "severity": "warn",
+      "locale": "pt",
+      "pageA": "product/adicao-codigo-fichas/pt",
+      "pageB": "product/desenho-grade-fichas/pt",
+      "similarity": 89,
+      "detail": "product/adicao-codigo-fichas/pt and product/desenho-grade-fichas/pt share 89% keyword tokens"
+    },
+    {
+      "check": "near-duplicate",
+      "severity": "warn",
+      "locale": "pt",
+      "pageA": "product/adicao-codigo-fichas/pt",
+      "pageB": "product/desenhos-colorir-fichas/pt",
+      "similarity": 89,
+      "detail": "product/adicao-codigo-fichas/pt and product/desenhos-colorir-fichas/pt share 89% keyword tokens"
+    },
+    {
+      "check": "near-duplicate",
+      "severity": "warn",
+      "locale": "pt",
+      "pageA": "product/adicao-codigo-fichas/pt",
+      "pageB": "product/encontrar-objetos-fichas/pt",
+      "similarity": 81,
+      "detail": "product/adicao-codigo-fichas/pt and product/encontrar-objetos-fichas/pt share 81% keyword tokens"
+    },
+    {
+      "check": "near-duplicate",
+      "severity": "warn",
+      "locale": "pt",
+      "pageA": "product/adicao-codigo-fichas/pt",
+      "pageB": "product/palavras-cruzadas-imagens-fichas/pt",
+      "similarity": 81,
+      "detail": "product/adicao-codigo-fichas/pt and product/palavras-cruzadas-imagens-fichas/pt share 81% keyword tokens"
+    },
+    {
+      "check": "near-duplicate",
+      "severity": "warn",
+      "locale": "pt",
+      "pageA": "product/adicao-codigo-fichas/pt",
+      "pageB": "product/tracar-linhas-fichas/pt",
+      "similarity": 81,
+      "detail": "product/adicao-codigo-fichas/pt and product/tracar-linhas-fichas/pt share 81% keyword tokens"
+    },
+    {
+      "check": "near-duplicate",
+      "severity": "warn",
+      "locale": "pt",
+      "pageA": "product/adicao-fichas/pt",
+      "pageB": "product/atividades-matematica-fichas/pt",
+      "similarity": 94,
+      "detail": "product/adicao-fichas/pt and product/atividades-matematica-fichas/pt share 94% keyword tokens"
+    },
+    {
+      "check": "near-duplicate",
+      "severity": "warn",
+      "locale": "pt",
+      "pageA": "product/adicao-fichas/pt",
+      "pageB": "product/bingo-ilustrado-fichas/pt",
+      "similarity": 85,
+      "detail": "product/adicao-fichas/pt and product/bingo-ilustrado-fichas/pt share 85% keyword tokens"
+    },
+    {
+      "check": "near-duplicate",
+      "severity": "warn",
+      "locale": "pt",
+      "pageA": "product/adicao-fichas/pt",
+      "pageB": "product/criptograma-imagens-fichas/pt",
+      "similarity": 89,
+      "detail": "product/adicao-fichas/pt and product/criptograma-imagens-fichas/pt share 89% keyword tokens"
+    },
+    {
+      "check": "near-duplicate",
+      "severity": "warn",
+      "locale": "pt",
+      "pageA": "product/adicao-fichas/pt",
+      "pageB": "product/desenho-grade-fichas/pt",
+      "similarity": 94,
+      "detail": "product/adicao-fichas/pt and product/desenho-grade-fichas/pt share 94% keyword tokens"
+    },
+    {
+      "check": "near-duplicate",
+      "severity": "warn",
+      "locale": "pt",
+      "pageA": "product/adicao-fichas/pt",
+      "pageB": "product/desenhos-colorir-fichas/pt",
+      "similarity": 94,
+      "detail": "product/adicao-fichas/pt and product/desenhos-colorir-fichas/pt share 94% keyword tokens"
+    },
+    {
+      "check": "near-duplicate",
+      "severity": "warn",
+      "locale": "pt",
+      "pageA": "product/adicao-fichas/pt",
+      "pageB": "product/encontrar-objetos-fichas/pt",
+      "similarity": 85,
+      "detail": "product/adicao-fichas/pt and product/encontrar-objetos-fichas/pt share 85% keyword tokens"
+    },
+    {
+      "check": "near-duplicate",
+      "severity": "warn",
+      "locale": "pt",
+      "pageA": "product/adicao-fichas/pt",
+      "pageB": "product/palavras-cruzadas-imagens-fichas/pt",
+      "similarity": 85,
+      "detail": "product/adicao-fichas/pt and product/palavras-cruzadas-imagens-fichas/pt share 85% keyword tokens"
+    },
+    {
+      "check": "near-duplicate",
+      "severity": "warn",
+      "locale": "pt",
+      "pageA": "product/adicao-fichas/pt",
+      "pageB": "product/subtracao-fichas/pt",
+      "similarity": 84,
+      "detail": "product/adicao-fichas/pt and product/subtracao-fichas/pt share 84% keyword tokens"
+    },
+    {
+      "check": "near-duplicate",
+      "severity": "warn",
+      "locale": "pt",
+      "pageA": "product/adicao-fichas/pt",
+      "pageB": "product/tracar-linhas-fichas/pt",
+      "similarity": 85,
+      "detail": "product/adicao-fichas/pt and product/tracar-linhas-fichas/pt share 85% keyword tokens"
+    },
+    {
+      "check": "near-duplicate",
+      "severity": "warn",
+      "locale": "pt",
+      "pageA": "product/atividades-matematica-fichas/pt",
+      "pageB": "product/bingo-ilustrado-fichas/pt",
+      "similarity": 89,
+      "detail": "product/atividades-matematica-fichas/pt and product/bingo-ilustrado-fichas/pt share 89% keyword tokens"
+    },
+    {
+      "check": "near-duplicate",
+      "severity": "warn",
+      "locale": "pt",
+      "pageA": "product/atividades-matematica-fichas/pt",
+      "pageB": "product/caca-ao-tesouro-fichas/pt",
+      "similarity": 81,
+      "detail": "product/atividades-matematica-fichas/pt and product/caca-ao-tesouro-fichas/pt share 81% keyword tokens"
+    },
+    {
+      "check": "near-duplicate",
+      "severity": "warn",
+      "locale": "pt",
+      "pageA": "product/atividades-matematica-fichas/pt",
+      "pageB": "product/criptograma-imagens-fichas/pt",
+      "similarity": 94,
+      "detail": "product/atividades-matematica-fichas/pt and product/criptograma-imagens-fichas/pt share 94% keyword tokens"
+    },
+    {
+      "check": "near-duplicate",
+      "severity": "warn",
+      "locale": "pt",
+      "pageA": "product/atividades-matematica-fichas/pt",
+      "pageB": "product/desenho-grade-fichas/pt",
+      "similarity": 100,
+      "detail": "product/atividades-matematica-fichas/pt and product/desenho-grade-fichas/pt share 100% keyword tokens"
+    },
+    {
+      "check": "near-duplicate",
+      "severity": "warn",
+      "locale": "pt",
+      "pageA": "product/atividades-matematica-fichas/pt",
+      "pageB": "product/desenhos-colorir-fichas/pt",
+      "similarity": 100,
+      "detail": "product/atividades-matematica-fichas/pt and product/desenhos-colorir-fichas/pt share 100% keyword tokens"
+    },
+    {
+      "check": "near-duplicate",
+      "severity": "warn",
+      "locale": "pt",
+      "pageA": "product/atividades-matematica-fichas/pt",
+      "pageB": "product/encontrar-objetos-fichas/pt",
+      "similarity": 89,
+      "detail": "product/atividades-matematica-fichas/pt and product/encontrar-objetos-fichas/pt share 89% keyword tokens"
+    },
+    {
+      "check": "near-duplicate",
+      "severity": "warn",
+      "locale": "pt",
+      "pageA": "product/atividades-matematica-fichas/pt",
+      "pageB": "product/palavras-cruzadas-imagens-fichas/pt",
+      "similarity": 89,
+      "detail": "product/atividades-matematica-fichas/pt and product/palavras-cruzadas-imagens-fichas/pt share 89% keyword tokens"
+    },
+    {
+      "check": "near-duplicate",
+      "severity": "warn",
+      "locale": "pt",
+      "pageA": "product/atividades-matematica-fichas/pt",
+      "pageB": "product/quebra-cabeca-matematica-fichas/pt",
+      "similarity": 84,
+      "detail": "product/atividades-matematica-fichas/pt and product/quebra-cabeca-matematica-fichas/pt share 84% keyword tokens"
+    },
+    {
+      "check": "near-duplicate",
+      "severity": "warn",
+      "locale": "pt",
+      "pageA": "product/atividades-matematica-fichas/pt",
+      "pageB": "product/subtracao-fichas/pt",
+      "similarity": 89,
+      "detail": "product/atividades-matematica-fichas/pt and product/subtracao-fichas/pt share 89% keyword tokens"
+    },
+    {
+      "check": "near-duplicate",
+      "severity": "warn",
+      "locale": "pt",
+      "pageA": "product/atividades-matematica-fichas/pt",
+      "pageB": "product/sudoku-criancas-fichas/pt",
+      "similarity": 81,
+      "detail": "product/atividades-matematica-fichas/pt and product/sudoku-criancas-fichas/pt share 81% keyword tokens"
+    },
+    {
+      "check": "near-duplicate",
+      "severity": "warn",
+      "locale": "pt",
+      "pageA": "product/atividades-matematica-fichas/pt",
+      "pageB": "product/tracar-linhas-fichas/pt",
+      "similarity": 89,
+      "detail": "product/atividades-matematica-fichas/pt and product/tracar-linhas-fichas/pt share 89% keyword tokens"
+    },
+    {
+      "check": "near-duplicate",
+      "severity": "warn",
+      "locale": "pt",
+      "pageA": "product/bingo-ilustrado-fichas/pt",
+      "pageB": "product/criptograma-imagens-fichas/pt",
+      "similarity": 85,
+      "detail": "product/bingo-ilustrado-fichas/pt and product/criptograma-imagens-fichas/pt share 85% keyword tokens"
+    },
+    {
+      "check": "near-duplicate",
+      "severity": "warn",
+      "locale": "pt",
+      "pageA": "product/bingo-ilustrado-fichas/pt",
+      "pageB": "product/desenho-grade-fichas/pt",
+      "similarity": 89,
+      "detail": "product/bingo-ilustrado-fichas/pt and product/desenho-grade-fichas/pt share 89% keyword tokens"
+    },
+    {
+      "check": "near-duplicate",
+      "severity": "warn",
+      "locale": "pt",
+      "pageA": "product/bingo-ilustrado-fichas/pt",
+      "pageB": "product/desenhos-colorir-fichas/pt",
+      "similarity": 89,
+      "detail": "product/bingo-ilustrado-fichas/pt and product/desenhos-colorir-fichas/pt share 89% keyword tokens"
+    },
+    {
+      "check": "near-duplicate",
+      "severity": "warn",
+      "locale": "pt",
+      "pageA": "product/bingo-ilustrado-fichas/pt",
+      "pageB": "product/encontrar-objetos-fichas/pt",
+      "similarity": 81,
+      "detail": "product/bingo-ilustrado-fichas/pt and product/encontrar-objetos-fichas/pt share 81% keyword tokens"
+    },
+    {
+      "check": "near-duplicate",
+      "severity": "warn",
+      "locale": "pt",
+      "pageA": "product/bingo-ilustrado-fichas/pt",
+      "pageB": "product/palavras-cruzadas-imagens-fichas/pt",
+      "similarity": 81,
+      "detail": "product/bingo-ilustrado-fichas/pt and product/palavras-cruzadas-imagens-fichas/pt share 81% keyword tokens"
+    },
+    {
+      "check": "near-duplicate",
+      "severity": "warn",
+      "locale": "pt",
+      "pageA": "product/bingo-ilustrado-fichas/pt",
+      "pageB": "product/tracar-linhas-fichas/pt",
+      "similarity": 81,
+      "detail": "product/bingo-ilustrado-fichas/pt and product/tracar-linhas-fichas/pt share 81% keyword tokens"
+    },
+    {
+      "check": "near-duplicate",
+      "severity": "warn",
+      "locale": "pt",
+      "pageA": "product/caca-ao-tesouro-fichas/pt",
+      "pageB": "product/desenho-grade-fichas/pt",
+      "similarity": 81,
+      "detail": "product/caca-ao-tesouro-fichas/pt and product/desenho-grade-fichas/pt share 81% keyword tokens"
+    },
+    {
+      "check": "near-duplicate",
+      "severity": "warn",
+      "locale": "pt",
+      "pageA": "product/caca-ao-tesouro-fichas/pt",
+      "pageB": "product/desenhos-colorir-fichas/pt",
+      "similarity": 81,
+      "detail": "product/caca-ao-tesouro-fichas/pt and product/desenhos-colorir-fichas/pt share 81% keyword tokens"
+    },
+    {
+      "check": "near-duplicate",
+      "severity": "warn",
+      "locale": "pt",
+      "pageA": "product/criptograma-imagens-fichas/pt",
+      "pageB": "product/desenho-grade-fichas/pt",
+      "similarity": 94,
+      "detail": "product/criptograma-imagens-fichas/pt and product/desenho-grade-fichas/pt share 94% keyword tokens"
+    },
+    {
+      "check": "near-duplicate",
+      "severity": "warn",
+      "locale": "pt",
+      "pageA": "product/criptograma-imagens-fichas/pt",
+      "pageB": "product/desenhos-colorir-fichas/pt",
+      "similarity": 94,
+      "detail": "product/criptograma-imagens-fichas/pt and product/desenhos-colorir-fichas/pt share 94% keyword tokens"
+    },
+    {
+      "check": "near-duplicate",
+      "severity": "warn",
+      "locale": "pt",
+      "pageA": "product/criptograma-imagens-fichas/pt",
+      "pageB": "product/encontrar-objetos-fichas/pt",
+      "similarity": 85,
+      "detail": "product/criptograma-imagens-fichas/pt and product/encontrar-objetos-fichas/pt share 85% keyword tokens"
+    },
+    {
+      "check": "near-duplicate",
+      "severity": "warn",
+      "locale": "pt",
+      "pageA": "product/criptograma-imagens-fichas/pt",
+      "pageB": "product/palavras-cruzadas-imagens-fichas/pt",
+      "similarity": 85,
+      "detail": "product/criptograma-imagens-fichas/pt and product/palavras-cruzadas-imagens-fichas/pt share 85% keyword tokens"
+    },
+    {
+      "check": "near-duplicate",
+      "severity": "warn",
+      "locale": "pt",
+      "pageA": "product/criptograma-imagens-fichas/pt",
+      "pageB": "product/subtracao-fichas/pt",
+      "similarity": 84,
+      "detail": "product/criptograma-imagens-fichas/pt and product/subtracao-fichas/pt share 84% keyword tokens"
+    },
+    {
+      "check": "near-duplicate",
+      "severity": "warn",
+      "locale": "pt",
+      "pageA": "product/criptograma-imagens-fichas/pt",
+      "pageB": "product/tracar-linhas-fichas/pt",
+      "similarity": 85,
+      "detail": "product/criptograma-imagens-fichas/pt and product/tracar-linhas-fichas/pt share 85% keyword tokens"
+    },
+    {
+      "check": "near-duplicate",
+      "severity": "warn",
+      "locale": "pt",
+      "pageA": "product/desenho-grade-fichas/pt",
+      "pageB": "product/desenhos-colorir-fichas/pt",
+      "similarity": 100,
+      "detail": "product/desenho-grade-fichas/pt and product/desenhos-colorir-fichas/pt share 100% keyword tokens"
+    },
+    {
+      "check": "near-duplicate",
+      "severity": "warn",
+      "locale": "pt",
+      "pageA": "product/desenho-grade-fichas/pt",
+      "pageB": "product/encontrar-objetos-fichas/pt",
+      "similarity": 89,
+      "detail": "product/desenho-grade-fichas/pt and product/encontrar-objetos-fichas/pt share 89% keyword tokens"
+    },
+    {
+      "check": "near-duplicate",
+      "severity": "warn",
+      "locale": "pt",
+      "pageA": "product/desenho-grade-fichas/pt",
+      "pageB": "product/palavras-cruzadas-imagens-fichas/pt",
+      "similarity": 89,
+      "detail": "product/desenho-grade-fichas/pt and product/palavras-cruzadas-imagens-fichas/pt share 89% keyword tokens"
+    },
+    {
+      "check": "near-duplicate",
+      "severity": "warn",
+      "locale": "pt",
+      "pageA": "product/desenho-grade-fichas/pt",
+      "pageB": "product/quebra-cabeca-matematica-fichas/pt",
+      "similarity": 84,
+      "detail": "product/desenho-grade-fichas/pt and product/quebra-cabeca-matematica-fichas/pt share 84% keyword tokens"
+    },
+    {
+      "check": "near-duplicate",
+      "severity": "warn",
+      "locale": "pt",
+      "pageA": "product/desenho-grade-fichas/pt",
+      "pageB": "product/subtracao-fichas/pt",
+      "similarity": 89,
+      "detail": "product/desenho-grade-fichas/pt and product/subtracao-fichas/pt share 89% keyword tokens"
+    },
+    {
+      "check": "near-duplicate",
+      "severity": "warn",
+      "locale": "pt",
+      "pageA": "product/desenho-grade-fichas/pt",
+      "pageB": "product/sudoku-criancas-fichas/pt",
+      "similarity": 81,
+      "detail": "product/desenho-grade-fichas/pt and product/sudoku-criancas-fichas/pt share 81% keyword tokens"
+    },
+    {
+      "check": "near-duplicate",
+      "severity": "warn",
+      "locale": "pt",
+      "pageA": "product/desenho-grade-fichas/pt",
+      "pageB": "product/tracar-linhas-fichas/pt",
+      "similarity": 89,
+      "detail": "product/desenho-grade-fichas/pt and product/tracar-linhas-fichas/pt share 89% keyword tokens"
+    },
+    {
+      "check": "near-duplicate",
+      "severity": "warn",
+      "locale": "pt",
+      "pageA": "product/desenhos-colorir-fichas/pt",
+      "pageB": "product/encontrar-objetos-fichas/pt",
+      "similarity": 89,
+      "detail": "product/desenhos-colorir-fichas/pt and product/encontrar-objetos-fichas/pt share 89% keyword tokens"
+    },
+    {
+      "check": "near-duplicate",
+      "severity": "warn",
+      "locale": "pt",
+      "pageA": "product/desenhos-colorir-fichas/pt",
+      "pageB": "product/palavras-cruzadas-imagens-fichas/pt",
+      "similarity": 89,
+      "detail": "product/desenhos-colorir-fichas/pt and product/palavras-cruzadas-imagens-fichas/pt share 89% keyword tokens"
+    },
+    {
+      "check": "near-duplicate",
+      "severity": "warn",
+      "locale": "pt",
+      "pageA": "product/desenhos-colorir-fichas/pt",
+      "pageB": "product/quebra-cabeca-matematica-fichas/pt",
+      "similarity": 84,
+      "detail": "product/desenhos-colorir-fichas/pt and product/quebra-cabeca-matematica-fichas/pt share 84% keyword tokens"
+    },
+    {
+      "check": "near-duplicate",
+      "severity": "warn",
+      "locale": "pt",
+      "pageA": "product/desenhos-colorir-fichas/pt",
+      "pageB": "product/subtracao-fichas/pt",
+      "similarity": 89,
+      "detail": "product/desenhos-colorir-fichas/pt and product/subtracao-fichas/pt share 89% keyword tokens"
+    },
+    {
+      "check": "near-duplicate",
+      "severity": "warn",
+      "locale": "pt",
+      "pageA": "product/desenhos-colorir-fichas/pt",
+      "pageB": "product/sudoku-criancas-fichas/pt",
+      "similarity": 81,
+      "detail": "product/desenhos-colorir-fichas/pt and product/sudoku-criancas-fichas/pt share 81% keyword tokens"
+    },
+    {
+      "check": "near-duplicate",
+      "severity": "warn",
+      "locale": "pt",
+      "pageA": "product/desenhos-colorir-fichas/pt",
+      "pageB": "product/tracar-linhas-fichas/pt",
+      "similarity": 89,
+      "detail": "product/desenhos-colorir-fichas/pt and product/tracar-linhas-fichas/pt share 89% keyword tokens"
+    },
+    {
+      "check": "near-duplicate",
+      "severity": "warn",
+      "locale": "pt",
+      "pageA": "product/encontrar-objetos-fichas/pt",
+      "pageB": "product/palavras-cruzadas-imagens-fichas/pt",
+      "similarity": 81,
+      "detail": "product/encontrar-objetos-fichas/pt and product/palavras-cruzadas-imagens-fichas/pt share 81% keyword tokens"
+    },
+    {
+      "check": "near-duplicate",
+      "severity": "warn",
+      "locale": "pt",
+      "pageA": "product/encontrar-objetos-fichas/pt",
+      "pageB": "product/tracar-linhas-fichas/pt",
+      "similarity": 81,
+      "detail": "product/encontrar-objetos-fichas/pt and product/tracar-linhas-fichas/pt share 81% keyword tokens"
+    },
+    {
+      "check": "near-duplicate",
+      "severity": "warn",
+      "locale": "pt",
+      "pageA": "product/fichas-padroes-sequencias/pt",
+      "pageB": "product/trem-padroes-fichas/pt",
+      "similarity": 83,
+      "detail": "product/fichas-padroes-sequencias/pt and product/trem-padroes-fichas/pt share 83% keyword tokens"
+    },
+    {
+      "check": "near-duplicate",
+      "severity": "warn",
+      "locale": "pt",
+      "pageA": "product/palavras-cruzadas-imagens-fichas/pt",
+      "pageB": "product/tracar-linhas-fichas/pt",
+      "similarity": 81,
+      "detail": "product/palavras-cruzadas-imagens-fichas/pt and product/tracar-linhas-fichas/pt share 81% keyword tokens"
+    },
+    {
+      "check": "near-duplicate",
+      "severity": "warn",
+      "locale": "it",
+      "pageA": "product/addizione-schede/it",
+      "pageB": "product/sottrazione-schede/it",
+      "similarity": 82,
+      "detail": "product/addizione-schede/it and product/sottrazione-schede/it share 82% keyword tokens"
+    },
+    {
+      "check": "near-duplicate",
+      "severity": "warn",
+      "locale": "it",
+      "pageA": "product/classificazione-immagini-schede/it",
+      "pageB": "product/preposizioni-schede/it",
+      "similarity": 83,
+      "detail": "product/classificazione-immagini-schede/it and product/preposizioni-schede/it share 83% keyword tokens"
+    },
+    {
+      "check": "near-duplicate",
+      "severity": "warn",
+      "locale": "it",
+      "pageA": "product/classificazione-immagini-schede/it",
+      "pageB": "product/scrittura-schede/it",
+      "similarity": 83,
+      "detail": "product/classificazione-immagini-schede/it and product/scrittura-schede/it share 83% keyword tokens"
+    },
+    {
+      "check": "near-duplicate",
+      "severity": "warn",
+      "locale": "it",
+      "pageA": "product/preposizioni-schede/it",
+      "pageB": "product/scrittura-schede/it",
+      "similarity": 83,
+      "detail": "product/preposizioni-schede/it and product/scrittura-schede/it share 83% keyword tokens"
+    },
+    {
+      "check": "near-duplicate",
+      "severity": "warn",
+      "locale": "it",
+      "pageA": "product/schede-pattern/it",
+      "pageB": "product/treno-sequenze-schede/it",
+      "similarity": 85,
+      "detail": "product/schede-pattern/it and product/treno-sequenze-schede/it share 85% keyword tokens"
+    },
+    {
+      "check": "near-duplicate",
+      "severity": "warn",
+      "locale": "nl",
+      "pageA": "product/aftrekken-werkbladen/nl",
+      "pageB": "product/groot-klein-werkbladen/nl",
+      "similarity": 84,
+      "detail": "product/aftrekken-werkbladen/nl and product/groot-klein-werkbladen/nl share 84% keyword tokens"
+    },
+    {
+      "check": "near-duplicate",
+      "severity": "warn",
+      "locale": "nl",
+      "pageA": "product/aftrekken-werkbladen/nl",
+      "pageB": "product/rekenen-werkbladen/nl",
+      "similarity": 89,
+      "detail": "product/aftrekken-werkbladen/nl and product/rekenen-werkbladen/nl share 89% keyword tokens"
+    },
+    {
+      "check": "near-duplicate",
+      "severity": "warn",
+      "locale": "nl",
+      "pageA": "product/aftrekken-werkbladen/nl",
+      "pageB": "product/schaduw-matching-werkbladen/nl",
+      "similarity": 84,
+      "detail": "product/aftrekken-werkbladen/nl and product/schaduw-matching-werkbladen/nl share 84% keyword tokens"
+    },
+    {
+      "check": "near-duplicate",
+      "severity": "warn",
+      "locale": "nl",
+      "pageA": "product/aftrekken-werkbladen/nl",
+      "pageB": "product/sorteer-werkbladen/nl",
+      "similarity": 89,
+      "detail": "product/aftrekken-werkbladen/nl and product/sorteer-werkbladen/nl share 89% keyword tokens"
+    },
+    {
+      "check": "near-duplicate",
+      "severity": "warn",
+      "locale": "nl",
+      "pageA": "product/aftrekken-werkbladen/nl",
+      "pageB": "product/verbindings-werkbladen/nl",
+      "similarity": 89,
+      "detail": "product/aftrekken-werkbladen/nl and product/verbindings-werkbladen/nl share 89% keyword tokens"
+    }
+  ]
+}

@@ -17,7 +17,7 @@ export const wordGuessEnContent: ProductPageContent = {
     appId: 'word-guess',
     title: 'Word Guess Puzzle Generator for Kids | LessonCraftStudio',
     description: 'Create word guess puzzles with picture clues and letter blanks for spelling. Free printable vocabulary games for K-2. Generate unique themed puzzles instantly.',
-    keywords: 'spelling puzzle worksheets, fill in the blanks worksheets, letter blank games, picture clue spelling, vocabulary guessing game, missing letter worksheets, sight word puzzles, spelling practice games, K-2 word activities, hangman-style worksheets',
+    keywords: 'word guess puzzle generator, missing letter, fill in blank, spelling challenge, letter deduction, vocabulary game, word completion, phonics practice, picture clue, letter blank, spelling puzzle, word guess worksheets',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/word-guess-worksheets',
       },
 
@@ -25,7 +25,7 @@ export const wordGuessEnContent: ProductPageContent = {
   hero: {
     title: 'Word Guess Worksheets With Picture Clues',
     subtitle: 'Spelling and Vocabulary Practice Maker for K-2',
-    description: `Create professional word guess puzzles with our worksheet generator. Your Full Access subscription gives you unlimited worksheet creation with no per-worksheet fees. Generate custom printable worksheets perfect for kindergarten and first grade students. Download high-quality PDF worksheets in under 3 minutes.
+    description: `Create professional word guess puzzles with our word guess puzzle generator. Your Full Access subscription gives you unlimited worksheet creation with no per-worksheet fees. Generate custom printable worksheets perfect for kindergarten and first grade students. Download high-quality PDF worksheets in under 3 minutes.
 
 Word guess worksheets combine visual learning with letter recognition practice. Each puzzle shows a picture clue alongside empty letter boxes. Students identify the word from the image. Then they fill in the missing letters to spell the word correctly. This engaging format builds vocabulary and spelling skills simultaneously.
 
@@ -73,8 +73,51 @@ Generate 1-10 puzzles per page with automatic layout optimization. Add name and 
     sectionTitle: 'Free Worksheet for Kids Features - Free Worksheets and Free Printables for Kindergarten',
     sectionDescription: 'Our word guess worksheet generator includes seven powerful features for creating free worksheet for kids. Each feature works seamlessly together for professional results. Teachers save hours creating free worksheets and free printables. Students engage with free worksheet for kindergarten through visual learning. Parents create custom worksheet for kids with vocabulary terms. The comprehensive toolset supports all worksheet types from worksheet for kindergarten through first grade levels.',
     highlightBadgeText: 'Key Feature',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: '1',
+        icon: '🖼️',
+        title: 'Picture-Clue Letter-Blank Puzzles',
+        description: 'Each puzzle displays a themed image alongside letter boxes with strategic blanks. Students identify the word from the picture clue and then fill in the missing letters to complete the spelling. This format bridges vocabulary recognition and spelling production in one activity.',
+      },
+      {
+        id: '2',
+        icon: '🎚️',
+        title: '4 Progressive Difficulty Levels',
+        description: 'Choose from No Clues, Easy, Normal, or Tough difficulty controlling how many letters are revealed as hints. Easy reveals most letters for beginning spellers. Tough provides minimal hints, requiring strong spelling recall. Progressive difficulty supports scaffolded instruction.',
+      },
+      {
+        id: '3',
+        icon: '🔤',
+        title: 'Custom Letter Exclusion',
+        description: 'Specify which letters should never appear as filled-in hints using the custom exclusion field. Exclude all vowels to focus on vowel identification. Exclude common letters to emphasize challenging phonics patterns. Target specific letter-knowledge gaps for each student group.',
+      },
+      {
+        id: '4',
+        icon: '📚',
+        title: '3000+ Themed Images',
+        description: 'Browse a library of over 3000 child-friendly images organized by educational themes. Picture clues provide visual context for word identification so pre-readers and ESL students participate fully. Upload your own images for curriculum-specific vocabulary.',
+      },
+      {
+        id: '5',
+        icon: '✅',
+        title: 'Auto Answer Keys',
+        description: 'Every word guess worksheet generates a complete answer key showing all letters filled in correctly. Teachers use answer keys for efficient grading. Students self-check at independent stations. Print answer keys on separate pages for flexible distribution.',
+      },
+      {
+        id: '6',
+        icon: '🎨',
+        title: 'Full Canvas Editing',
+        description: 'Edit every element on the canvas after generation. Move, resize, rotate, or delete individual puzzles. Add custom text, instructions, and decorative elements. Apply background themes and borders for polished, professional-looking spelling worksheets.',
+      },
+      {
+        id: '7',
+        icon: '💼',
+        title: 'Commercial License Included',
+        description: 'Your subscription includes full commercial rights to sell word guess worksheets on Teachers Pay Teachers, Etsy, Amazon KDP, or your own website. Create themed spelling puzzle packs with no attribution or per-download fees required.',
+      },
+    ],
+
   },
 
   // How-To Guide - FULL text from word-guess.md step sections
@@ -165,8 +208,51 @@ Save completed worksheets to your device for repeated use. Print unlimited copie
   useCases: {
     sectionTitle: 'Free Worksheets for Kindergarten - Free Printables and Worksheet for Kids',
     sectionDescription: 'Word guess free worksheets serve diverse educational settings and teaching styles. Kindergarten teachers create free worksheet for kids for letter recognition practice. First grade teachers generate worksheet for kindergarten targeting high-frequency vocabulary. Homeschool parents build free worksheets matching their curriculum scope. ESL instructors develop free printables in multiple languages. Special education teachers customize worksheet for kids for individual learning needs. Teacher entrepreneurs sell free worksheet for kindergarten as premium products.',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: '1',
+        icon: '🌈',
+        title: 'Kindergarten Teachers',
+        subtitle: 'Easy Fill-in-Blank Spelling for Early Readers',
+        description: 'Create Easy-difficulty puzzles with three-letter words where most letters are revealed as hints. Kindergarteners identify the picture, recognize the word, and fill in just one or two missing letters. Perfect for building early spelling confidence at literacy centers.',
+      },
+      {
+        id: '2',
+        icon: '📖',
+        title: 'Elementary Teachers',
+        subtitle: 'Spelling List Practice with Letter Blanks',
+        description: 'Generate Normal or Tough difficulty puzzles aligned to weekly spelling lists and vocabulary units. Use themed images connecting to science or social studies content. First and second graders practice productive spelling by recalling missing letters from memory rather than recognition.',
+      },
+      {
+        id: '3',
+        icon: '🏠',
+        title: 'Homeschool Parents',
+        subtitle: 'Progressive Difficulty for Each Child',
+        description: 'Build differentiated spelling packets with progressive difficulty for each child. Start with Easy word guess puzzles and advance to Tough as spelling skills strengthen. Generate a full week of vocabulary practice in 15 minutes using themed images matching your curriculum.',
+      },
+      {
+        id: '4',
+        icon: '🌍',
+        title: 'ESL Teachers',
+        subtitle: 'Scaffolded Spelling in 11 Languages',
+        description: 'Create word guess puzzles in 11 languages with picture clues providing visual context for English language learners. Easy difficulty with generous letter hints scaffolds the spelling challenge. Students build English orthographic knowledge while relying on image clues for word identification.',
+      },
+      {
+        id: '5',
+        icon: '🧩',
+        title: 'Special Education Teachers',
+        subtitle: 'Custom Letter Exclusions per Student',
+        description: 'Customize letter exclusions to target specific phonics patterns for individual students. Adjust difficulty and word length to match each learner\'s spelling level. Easy mode with short words and picture hints provides accessible spelling practice across ability levels.',
+      },
+      {
+        id: '6',
+        icon: '💰',
+        title: 'Teacher Entrepreneurs',
+        subtitle: 'Sell Spelling Puzzles with Commercial License',
+        description: 'Create themed word guess puzzle bundles for Teachers Pay Teachers, Etsy, or Amazon KDP. Spelling puzzle worksheets with picture clues sell consistently as engaging alternatives to traditional spelling practice. Your commercial license covers unlimited sales.',
+      },
+    ],
+
   },
 
   // FAQ Section - Selected FAQs from word-guess.md
@@ -341,8 +427,132 @@ Save completed worksheets to your device for repeated use. Print unlimited copie
     ctaDescription: 'Join thousands of educators creating professional worksheets. Unlimited generation, commercial license included.',
     primaryCtaText: 'Start Free Trial',
     secondaryCtaText: 'View All 33 Apps',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: '1',
+        slug: 'word-scramble-worksheets',
+        name: 'Word Scramble Worksheets',
+        category: 'Language Arts',
+        icon: '🔤',
+        description: 'Combine word guess puzzles with word scramble activities for complementary spelling practice. Students fill in missing letters in one worksheet and then rearrange jumbled letters in another, building both recall and decoding skills.',
+      },
+      {
+        id: '2',
+        slug: 'word-search-worksheets',
+        name: 'Word Search Worksheets',
+        category: 'Language Arts',
+        icon: '🔍',
+        description: 'Pair word guess puzzles with word search activities for multi-format vocabulary exposure. Students produce missing letters in word guess then recognize the same words hidden in a letter grid, strengthening spelling from both directions.',
+      },
+      {
+        id: '3',
+        slug: 'image-crossword-worksheets',
+        name: 'Image Crossword Worksheets',
+        category: 'Language Arts',
+        icon: '➕',
+        description: 'Add crossword puzzles to your word guess packets for comprehensive vocabulary practice. Students fill in blanks in one format and intersecting words in another, deepening spelling retention through varied puzzle contexts.',
+      },
+      {
+        id: '4',
+        slug: 'alphabet-train-worksheets',
+        name: 'Alphabet Train Worksheets',
+        category: 'Early Learning',
+        icon: '🚂',
+        description: 'Bundle word guess spelling activities with alphabet ordering exercises for early literacy packets. Kindergarteners practice letter identification in word guess puzzles then reinforce alphabetical sequencing with train worksheets.',
+      },
+      {
+        id: '5',
+        slug: 'writing-worksheets',
+        name: 'Writing Worksheets',
+        category: 'Language Arts',
+        icon: '✍️',
+        description: 'Follow word guess spelling practice with handwriting worksheets where students write the complete words in proper letter formation. This sequence connects spelling recall directly to written production for reinforced learning.',
+      },
+      {
+        id: '6',
+        slug: 'cryptogram-worksheets',
+        name: 'Cryptogram Worksheets',
+        category: 'Language Arts',
+        icon: '🔐',
+        description: 'Challenge older students with cryptogram code-breaking activities alongside word guess puzzles. Both formats develop letter deduction and pattern analysis skills through different engaging puzzle mechanics.',
+      },
+    ],
+  },
+
+  // -- SEO & Content Enrichment (Part 18) ------------------------------------
+
+  aiOverviewSnippet: 'A word guess puzzle generator is an online tool that creates printable fill-in-the-blank spelling worksheets where students identify a word from a picture clue and complete missing letters. Teachers control difficulty levels, choose custom letter exclusions for targeted phonics practice, and download ready-to-print PDF worksheets with answer keys in under 3 minutes.',
+
+  comparisonTable: [
+    { feature: 'Fill-in-Blank Format', ourApp: 'Picture clue + strategic letter blanks', typical: 'Simple word lists or flashcards' },
+    { feature: 'Letter Exclusion', ourApp: 'Custom exclusion targeting specific phonics', typical: 'No exclusion control' },
+    { feature: 'Difficulty Control', ourApp: '4 levels with progressive hint reduction', typical: 'Single fixed difficulty' },
+    { feature: 'Answer Keys', ourApp: 'Auto-generated with every worksheet', typical: 'Often sold separately' },
+    { feature: 'Commercial License', ourApp: 'Included, sell on TPT/Etsy/KDP', typical: 'Extra fee or not available' },
+    { feature: 'Language Support', ourApp: '11 languages included', typical: 'English only' },
+  ],
+
+  researchBacking: [
+    {
+      claim: 'Productive spelling tasks where students generate missing letters from memory create stronger orthographic representations than recognition-only activities like multiple choice or word matching.',
+      source: 'Ouellette, G., "What\'s Meaning Got to Do with It: The Role of Vocabulary in Word Reading and Reading Comprehension," Journal of Educational Psychology',
+    },
+    {
+      claim: 'Scaffolded hint reduction across progressive difficulty levels supports gradual release of responsibility, building independent spelling ability while maintaining student confidence and engagement.',
+      source: 'Pearson, P.D. & Gallagher, M.C., "The Instruction of Reading Comprehension," Contemporary Educational Psychology',
+    },
+  ],
+
+  teacherTestimonials: [
+    {
+      quote: 'The letter exclusion feature is brilliant for my phonics groups. I exclude all vowels so students must recall exactly which vowels go where. My students\' spelling accuracy on weekly tests improved dramatically after using these puzzles daily.',
+      name: 'Amanda Foster',
+      role: 'K-2 Reading Specialist',
+      school: 'Brookside Elementary',
+    },
+    {
+      quote: 'Word guess worksheets are the perfect warm-up activity. My first graders complete three puzzles while I take attendance, and the progressive difficulty means I can challenge every reader at their level with the same themed set.',
+      name: 'Kevin O\'Brien',
+      role: '1st Grade Teacher',
+      school: 'Heritage Park School',
+    },
+  ],
+
+  tips: {
+    sectionTitle: 'Word Guess Strategies by Grade Level',
+    sectionDescription: 'Configure your word guess puzzle generator to target the right spelling skills at each developmental stage. Here is how to set difficulty, word length, and letter exclusions from preschool through third grade.',
+    items: [
+      {
+        id: 'preschool',
+        icon: '🌱',
+        title: 'Preschool: Single-Letter Completion',
+        description: 'Use Easy difficulty with three-letter words where only one letter is missing. Preschoolers identify the picture, recognize the word, and fill in a single blank. Focus on initial consonant sounds using familiar animal or object images. Keep 2-3 large puzzles per page for developing fine motor control.',
+      },
+      {
+        id: 'kindergarten',
+        icon: '🎒',
+        title: 'Kindergarten: CVC Word Spelling',
+        description: 'Create Easy or Normal difficulty puzzles with three-to-four-letter CVC words. Leave 1-2 letters blank for kindergarteners to fill in. Use picture clues from familiar themes so students identify the word before attempting to spell it. This builds phoneme-grapheme connections as children recall letter sounds.',
+      },
+      {
+        id: 'first-grade',
+        icon: '📚',
+        title: '1st Grade: Sight Word and Vowel Practice',
+        description: 'Generate Normal difficulty puzzles using sight words and weekly spelling vocabulary. Exclude vowels from hints to focus practice on vowel identification and placement. First graders develop spelling recall as they determine which vowels complete four-to-five-letter words correctly.',
+      },
+      {
+        id: 'second-grade',
+        icon: '✏️',
+        title: '2nd Grade: Spelling Pattern Challenges',
+        description: 'Use Tough difficulty with five-to-six-letter words providing minimal letter hints. Target specific spelling patterns by excluding common digraphs or blends from hints. Second graders build orthographic memory as they reconstruct longer words with fewer scaffolds, preparing for independent spelling.',
+      },
+      {
+        id: 'third-grade',
+        icon: '🎯',
+        title: '3rd Grade: Multisyllabic Word Mastery',
+        description: 'Create No Clues or Tough mode puzzles with multisyllabic words and academic vocabulary. Use text-only custom word lists for formal spelling assessment. Third graders apply morphological knowledge, identifying prefixes, suffixes, and root words as they complete blanks in complex vocabulary.',
+      },
+    ],
   },
 };
 

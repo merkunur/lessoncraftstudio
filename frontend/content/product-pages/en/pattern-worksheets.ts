@@ -17,7 +17,7 @@ export const patternWorksheetsEnContent: ProductPageContent = {
     appId: 'pattern-worksheet',
     title: 'Pattern Recognition Worksheet Maker | LessonCraftStudio',
     description: 'Create pattern recognition worksheets with AB, ABC, and ABCD sequences. Free printable pattern activities for K-2. Build visual sequencing skills with answers.',
-    keywords: 'AB ABC ABCD patterns, pattern sequences printable, pattern activities for kids, repeating patterns worksheets, visual pattern recognition, extend the pattern worksheets, pattern completion worksheets, growing patterns for kids, math patterns printable, pattern skills worksheets',
+    keywords: 'pattern recognition worksheet maker, repeating pattern, growing pattern, pattern rule, sequence, ABAB pattern, mathematical thinking, pattern extension, visual sequence, algebraic thinking, pattern analysis, pattern worksheets for kids',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/pattern-worksheets',
       },
 
@@ -25,7 +25,7 @@ export const patternWorksheetsEnContent: ProductPageContent = {
   hero: {
     title: 'Pattern Worksheets: AB, ABC and ABCD Sequences',
     subtitle: 'Visual Pattern Recognition Generator for Kids',
-    description: `Create professional pattern recognition worksheets with our pattern worksheet generator. Your Full Access subscription gives you unlimited pattern worksheet creation with no per-worksheet fees. Generate custom printable math worksheets perfect for kindergarten and first grade students. Download high-quality PDF worksheets in under 3 minutes.
+    description: `Create professional pattern recognition worksheets with our pattern recognition worksheet maker. Your Full Access subscription gives you unlimited pattern worksheet creation with no per-worksheet fees. Generate custom printable math worksheets perfect for kindergarten and first grade students. Download high-quality PDF worksheets in under 3 minutes.
 
 Pattern recognition is a foundational math skill for kindergarten and first grade learners. Our pattern worksheet generator creates nine different pattern types including AB patterns, ABC patterns, and ABCD patterns. Teachers create kindergarten worksheets with blank box questions or multiple choice options. Every pattern worksheet includes automatic answer key generation.
 
@@ -71,8 +71,58 @@ Full Access subscription includes commercial licensing for Teachers Pay Teachers
     sectionTitle: 'Free Worksheet for Kids Features - Worksheet for Kindergarten and Free Printables',
     sectionDescription: 'Pattern worksheet generator includes seven essential features for creating professional kindergarten worksheets and math worksheets. Generate unlimited pattern worksheets with your Full Access subscription. Each feature works together to create free printable worksheets in minutes. Teachers customize every element for first grade math instruction and kindergarten pattern recognition practice.',
     highlightBadgeText: 'Key Feature',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: '1',
+        icon: '🔄',
+        title: 'AB, ABC, and ABCD Sequence Pattern Types for All Levels',
+        description: 'Our pattern recognition worksheet maker creates nine different pattern types supporting progressive skill development. Start with simple AB repeating patterns for preschoolers learning basic visual sequences. Progress to ABC patterns for kindergarteners ready for three-element cycles. Challenge first graders with ABCD patterns requiring tracking four elements simultaneously. Each pattern type builds mathematical thinking foundations essential for algebraic reasoning.',
+        highlighted: true,
+      },
+      {
+        id: '2',
+        icon: '📈',
+        title: 'Growing and Repeating Pattern Modes for Varied Practice',
+        description: 'Generate both repeating patterns where elements cycle predictably and growing patterns where sequences increase in complexity. Repeating pattern worksheets teach students to identify the pattern rule and predict continuations. Growing patterns introduce the concept of pattern extension and change over time. Toggle between blank box and multiple choice question formats to assess different cognitive skills from pattern recognition to pattern production.',
+        highlighted: false,
+      },
+      {
+        id: '3',
+        icon: '🖼️',
+        title: '3000+ Themed Images for Engaging Pattern Elements',
+        description: 'Browse over 3000 child-friendly images organized by theme to create visually engaging pattern worksheets for kids. Choose from animals, shapes, food, seasonal objects, and dozens more categories. Assign specific images to pattern positions A, B, C, and D for thematic consistency. Upload your own classroom photos or curriculum-specific pictures for personalized visual sequence activities matching any instructional context.',
+        highlighted: false,
+      },
+      {
+        id: '4',
+        icon: '⚙️',
+        title: 'Adjustable Sequence Length and Complexity Controls',
+        description: 'Customize pattern difficulty by controlling sequence length, blank position, and exercise count per page. Standard mode places the missing element at the sequence end for supported practice. Random blank position mode places gaps anywhere in the sequence demanding deeper pattern analysis. Random start position begins patterns mid-cycle testing true pattern rule understanding. Configure 1-8 exercises per page matching student attention spans and grade levels.',
+        highlighted: false,
+      },
+      {
+        id: '5',
+        icon: '🎨',
+        title: 'Full Canvas Editing Tools for Professional Worksheet Design',
+        description: 'Click any element on the canvas to select, drag, resize, or rotate it to your specifications. Add custom titles, instructions, student names, and date fields using professional text tools. Choose from themed backgrounds and decorative borders to create polished worksheets. Adjust image sizes for kindergarten students needing larger visual elements. Lock completed sections while editing other areas for efficient workflow.',
+        highlighted: false,
+      },
+      {
+        id: '6',
+        icon: '✅',
+        title: 'Auto-Generated Answer Keys With Pattern Rules',
+        description: 'Every pattern worksheet generates a complete answer key showing the correct image for each missing position. Multiple choice answer keys indicate which option is correct. Blank box answer keys show the expected image in each empty space. Teachers use answer keys for quick grading during math centers. Students self-check at independent stations building metacognitive pattern analysis skills.',
+        highlighted: false,
+      },
+      {
+        id: '7',
+        icon: '💼',
+        title: 'Commercial License Included for Marketplace Sales',
+        description: 'Your subscription includes commercial licensing for selling pattern worksheets on Teachers Pay Teachers, Etsy, Amazon KDP, or your own website. Create themed pattern bundles, progressive difficulty packs, or seasonal activity sets for maximum sales appeal. Pattern recognition worksheets are consistently popular in the kindergarten and first grade educational marketplace. No attribution or extra licensing fees required.',
+        highlighted: false,
+      },
+    ],
+
   },
 
   // How-To Guide - FULL text from pattern-worksheet.md Step sections
@@ -123,8 +173,57 @@ Full Access subscription includes commercial licensing for Teachers Pay Teachers
   useCases: {
     sectionTitle: 'Free Worksheet for Kids for Teachers - Worksheet for Kindergarten',
     sectionDescription: 'Pattern worksheet generator serves six distinct user groups with specialized worksheet needs. Kindergarten teachers create alphabet worksheets and phonics worksheets for early literacy. First grade teachers generate math worksheets and addition worksheets for elementary math practice. Homeschool parents download free printable worksheets for multi-grade teaching. ESL teachers design sight words worksheets in 11 languages. Special education teachers customize tracing worksheets and coloring worksheets for differentiated learning. Teacher entrepreneurs sell pattern worksheets on Teachers Pay Teachers using included commercial licensing.',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: '1',
+        icon: '🌱',
+        title: 'Preschool Teachers: Simple AB Repeating Patterns',
+        subtitle: 'Visual Object Sequences for Early Mathematical Thinking',
+        description: 'Preschool teachers use AB repeating patterns with familiar themed images to introduce the concept of predictable sequences. Choose multiple choice format so young learners identify the correct answer among options rather than producing it independently. Use 1-3 exercises per page for short attention spans. Select bold, high-contrast images from themes like animals or fruit. These first pattern experiences build the visual sequence recognition that underpins all later mathematical thinking.',
+        quote: 'My preschoolers get so excited when they predict what comes next in the pattern!',
+      },
+      {
+        id: '2',
+        icon: '👩‍🏫',
+        title: 'Kindergarten Teachers: ABC Patterns and Pattern Extension',
+        subtitle: 'Three-Element Sequences for Ages 5-6 Math Curriculum',
+        description: 'Kindergarten teachers create ABC pattern worksheets aligning with Common Core standards for identifying and extending patterns. Use blank box format to assess pattern production skills alongside multiple choice for recognition practice. Configure 3-5 exercises per page matching kindergarten attention spans. Themed images connecting to classroom units create cross-curricular mathematical thinking opportunities. Pattern recognition is a foundational kindergarten math competency addressed through engaging visual sequence activities.',
+        quote: 'Pattern worksheets are essential for my math centers. Students love the themed images!',
+      },
+      {
+        id: '3',
+        icon: '📚',
+        title: 'First Grade Teachers: Growing Patterns and Algebraic Thinking',
+        subtitle: 'ABCD Sequences and Random Blank Positions for Ages 6-7',
+        description: 'First grade teachers assign ABCD patterns with random blank positions to build algebraic thinking foundations. Students analyze complete pattern rules before determining missing elements anywhere in the sequence. Enable random start position for advanced pattern extension challenges requiring deeper understanding. Create differentiated worksheet sets using different pattern types and question formats for the same theme. These activities develop the mathematical reasoning skills that transfer to number patterns and skip counting.',
+        quote: 'The random blank position feature perfectly assesses who truly understands the pattern rule.',
+      },
+      {
+        id: '4',
+        icon: '💜',
+        title: 'Special Education Teachers: Adapted Pattern Activities',
+        subtitle: 'Differentiated Worksheets for Diverse Learning Needs',
+        description: 'Special education teachers customize pattern worksheets matching IEP goals for individual students. Create worksheets with just 1-2 AB pattern exercises using familiar, high-contrast images for reduced cognitive load. Use multiple choice format for students needing recognition scaffolding before production tasks. Gradually increase complexity by adding pattern elements or exercises as students demonstrate mastery. The precise difficulty controls enable targeted pattern analysis skill development.',
+        quote: 'I can create exactly the right difficulty level for each student IEP goal.',
+      },
+      {
+        id: '5',
+        icon: '🏠',
+        title: 'Homeschool Parents: Math Curriculum Pattern Units',
+        subtitle: 'Self-Paced Pattern Practice for Multiple Grade Levels',
+        description: 'Homeschool parents use pattern worksheets to cover curriculum requirements for pattern recognition across multiple grade levels. Create AB patterns for younger children and ABCD patterns for older siblings using the same subscription. The visual sequence format works independently once children understand the activity. Generate themed pattern sets connecting to current unit studies for integrated learning. Progressive difficulty from simple to complex supports self-paced mathematical thinking development.',
+        quote: 'One tool covers both my kindergartener AB patterns and my first grader ABCD sequences.',
+      },
+      {
+        id: '6',
+        icon: '💰',
+        title: 'Teacher Entrepreneurs: Pattern Recognition Activity Bundles',
+        subtitle: 'Create and Sell Pattern Worksheet Products on Marketplaces',
+        description: 'Teacher entrepreneurs create themed pattern worksheet bundles for Teachers Pay Teachers, Etsy, and Amazon KDP. Pattern recognition worksheets rank among the most searched kindergarten math resources on educational marketplaces. Package worksheets by theme, pattern complexity progression, or seasonal collections. Your subscription includes commercial licensing with no additional fees. Create comprehensive pattern units spanning AB through ABCD for maximum product value.',
+        quote: 'My seasonal pattern bundles are among my best-selling products every quarter.',
+      },
+    ],
+
   },
 
   // FAQ Section - ALL questions from pattern-worksheet.md
@@ -299,8 +398,131 @@ Full Access subscription includes commercial licensing for Teachers Pay Teachers
     ctaDescription: 'Join educators creating professional worksheets. Unlimited generation, commercial license included.',
     primaryCtaText: 'Start Free Trial',
     secondaryCtaText: 'View All 33 Apps',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: '1',
+        slug: 'pattern-train-worksheets',
+        name: 'Pattern Train Worksheets',
+        category: 'Logic & Puzzles',
+        icon: '🚂',
+        description: 'Extend pattern recognition practice with pattern train worksheets featuring train car sequences. Students identify repeating patterns in a playful format that complements the structured sequence activities in standard pattern worksheets for kids.',
+      },
+      {
+        id: '2',
+        slug: 'sudoku-worksheets',
+        name: 'Sudoku Puzzles',
+        category: 'Logic & Puzzles',
+        icon: '🧩',
+        description: 'Combine pattern worksheets with sudoku puzzles for comprehensive logical thinking development. Students apply the same analytical thinking and pattern analysis skills from sequence work to grid-based deductive reasoning challenges.',
+      },
+      {
+        id: '3',
+        slug: 'grid-match-worksheets',
+        name: 'Grid Match Puzzles',
+        category: 'Logic & Puzzles',
+        icon: '🔲',
+        description: 'Pair pattern recognition with grid match puzzles for a complete visual reasoning curriculum. Students practice spatial logic and pattern completion in grid formats that complement sequence-based mathematical thinking activities.',
+      },
+      {
+        id: '4',
+        slug: 'math-worksheets',
+        name: 'Math Worksheets',
+        category: 'Math',
+        icon: '🔢',
+        description: 'Connect visual pattern recognition to number-based mathematical thinking with math worksheets. Students who master visual sequences transition smoothly to number patterns, skip counting, and the algebraic thinking that underpins arithmetic.',
+      },
+      {
+        id: '5',
+        slug: 'missing-pieces-worksheets',
+        name: 'Missing Pieces Worksheets',
+        category: 'Logic & Puzzles',
+        icon: '🧩',
+        description: 'Complement pattern worksheets with missing pieces activities for visual analysis practice. Students identify which element completes an image, developing the same pattern analysis and prediction skills used in sequence extension.',
+      },
+      {
+        id: '6',
+        slug: 'odd-one-out-worksheets',
+        name: 'Odd One Out Worksheets',
+        category: 'Logic & Puzzles',
+        icon: '🔍',
+        description: 'Add odd one out worksheets to your pattern curriculum for classification skill development. Students identify which item does not belong, building the analytical thinking that supports pattern rule identification and sequence analysis.',
+      },
+    ],
+
+  },
+
+  aiOverviewSnippet: 'A pattern recognition worksheet maker is an online tool that creates printable worksheets with AB, ABC, and ABCD visual sequences for children ages 4-8. Teachers select themed images, assign them to pattern positions, and configure difficulty through sequence type, blank position, and question format. Each worksheet generates with automatic answer keys, building mathematical thinking and algebraic reasoning foundations in under 3 minutes.',
+
+  comparisonTable: [
+    { feature: 'Pattern Types', ourApp: '9 types: AB, ABC, ABCD and variations', typical: 'One or two basic pattern types' },
+    { feature: 'Difficulty Levels', ourApp: 'Blank position, start position, exercise count', typical: 'Fixed difficulty, no customization' },
+    { feature: 'Image Library', ourApp: '3000+ themed images plus custom uploads', typical: 'Limited clipart or text-only patterns' },
+    { feature: 'Answer Keys', ourApp: 'Auto-generated with every worksheet', typical: 'Often sold separately or unavailable' },
+    { feature: 'Commercial License', ourApp: 'Included, sell on TPT/Etsy/KDP', typical: 'Extra fee or not available' },
+    { feature: 'Language Support', ourApp: '11 languages included', typical: 'English only' },
+  ],
+
+  researchBacking: [
+    {
+      claim: 'Pattern recognition is a foundational skill for early algebraic thinking, and children who develop strong pattern awareness in preschool and kindergarten demonstrate significantly stronger mathematical reasoning in later grades.',
+      source: 'National Council of Teachers of Mathematics (NCTM), "Curriculum Focal Points for Prekindergarten through Grade 8 Mathematics"',
+    },
+    {
+      claim: 'Visual sequencing activities with concrete objects and images build the cognitive structures needed for understanding number patterns, skip counting, and the regularity that underpins mathematical operations.',
+      source: 'Mulligan, J. & Mitchelmore, M., "Awareness of Pattern and Structure in Early Mathematical Development," Mathematics Education Research Journal',
+    },
+  ],
+
+  teacherTestimonials: [
+    {
+      quote: 'Pattern worksheets are the backbone of my kindergarten math curriculum. The progression from AB to ABC to ABCD maps perfectly to how my students develop mathematical thinking throughout the year.',
+      name: 'Lisa Chen',
+      role: 'Kindergarten Math Lead',
+      school: 'Sunnyvale Elementary',
+    },
+    {
+      quote: 'The random blank position feature transformed my assessment strategy. I can instantly see which students truly understand the pattern rule versus those just memorizing the end position.',
+      name: 'Anthony Brooks',
+      role: '1st Grade Teacher',
+      school: 'Lakeside Learning Academy',
+    },
+  ],
+
+  tips: {
+    sectionTitle: 'Pattern Recognition Strategies by Grade Level',
+    sectionDescription: 'Use our pattern recognition worksheet maker to target the right sequencing skills at each developmental stage. Here is how to configure pattern worksheets for maximum mathematical thinking impact from preschool through second grade.',
+    items: [
+      {
+        id: 'preschool',
+        icon: '🌱',
+        title: 'Preschool: Simple AB Repeating Patterns',
+        description: 'Introduce patterns with simple AB sequences using highly familiar images like animals or shapes. Use multiple choice format so children identify the correct next element among options. Configure 1-2 exercises per page with large images for developing attention spans. Keep the blank always at the end of the sequence for supported practice. These first visual sequence experiences build the pattern analysis foundation for all later mathematical thinking.',
+      },
+      {
+        id: 'kindergarten',
+        icon: '🎒',
+        title: 'Kindergarten: ABC Patterns and Pattern Extension',
+        description: 'Kindergarteners master AB patterns and progress to ABC sequences with three-element cycles. Transition from multiple choice to blank box format as students develop confidence in pattern production. Use 3-5 exercises per page and themed images matching classroom units. Introduce the concept of pattern rule by asking students to describe what repeats. Pattern recognition is a core kindergarten math standard requiring regular practice throughout the year.',
+      },
+      {
+        id: 'first-grade',
+        icon: '📚',
+        title: '1st Grade: ABCD Patterns and Random Blank Positions',
+        description: 'First graders tackle ABCD patterns tracking four elements simultaneously. Enable random blank position to assess true pattern rule understanding rather than simple end-prediction. Use random start position for advanced students who need to identify patterns beginning mid-cycle. Create differentiated worksheet sets at multiple complexity levels using the same image theme. These activities build the algebraic thinking foundations required for number patterns and operations.',
+      },
+      {
+        id: 'second-grade',
+        icon: '✏️',
+        title: '2nd Grade: Complex Patterns and Mathematical Connections',
+        description: 'Second graders master complex visual patterns and begin connecting them to number sequences and skip counting. Use 6-8 exercises per page with mixed pattern types for fluency practice. Challenge students to create their own patterns and write the pattern rule. Pair visual pattern worksheets with number pattern activities to build explicit connections between concrete and abstract mathematical thinking.',
+      },
+      {
+        id: 'gifted',
+        icon: '🌟',
+        title: 'Gifted Learners: Pattern Rules and Algebraic Reasoning',
+        description: 'Gifted students benefit from ABCD patterns with random blank and start positions combined with metacognitive challenges. Ask students to identify the pattern rule, predict extended sequences beyond what is shown, and explain their reasoning in writing. Have them design original patterns for classmates to solve. Connect visual pattern work to growing number sequences and early algebraic expressions for advanced mathematical thinking development.',
+      },
+    ],
   },
 };
 

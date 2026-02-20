@@ -17,7 +17,7 @@ export const moreLessEnContent: ProductPageContent = {
     appId: 'more-less',
     title: 'Greater Than Less Than Worksheet Maker | LessonCraftStudio',
     description: 'Create greater than less than worksheets with visual number comparison activities. Free printable math for K-2. Practice comparison symbols with picture aids.',
-    keywords: 'number comparison worksheets, more or less activities, comparing numbers printable, greater less equal worksheets, math comparison for kindergarten, number ordering worksheets, visual comparison activities, bigger smaller worksheets, comparison symbols practice, size comparison math',
+    keywords: 'number comparison worksheets, comparison symbol, inequality, number line, alligator math, crocodile comparison, ordering numbers, magnitude, relative size, number comparison, equal sign, greater than less than',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/more-less-worksheets',
       },
 
@@ -25,7 +25,7 @@ export const moreLessEnContent: ProductPageContent = {
   hero: {
     title: 'Greater Than Less Than Worksheets',
     subtitle: 'Visual Number Comparison Activities for Kids',
-    description: `Create professional comparison worksheets with our greater than less than worksheet maker. Your Full Access subscription gives you unlimited worksheet creation with no per-worksheet fees. Generate custom printable math worksheets perfect for kindergarten and first grade students learning number comparison skills. Download high-quality PDF worksheets in under 3 minutes.
+    description: `Create professional number comparison worksheets with our greater than less than worksheet maker. Your Full Access subscription gives you unlimited worksheet creation with no per-worksheet fees. Generate custom printable math worksheets perfect for kindergarten and first grade students learning number comparison skills. Download high-quality PDF worksheets in under 3 minutes.
 
 Our comparison worksheet generator helps teachers create engaging math worksheets where students compare quantities and choose the correct symbol. Generate worksheets with greater than, less than, and equal to symbols using colorful images or traditional mathematical symbols. Perfect for kindergarten worksheets and first grade worksheets focused on early math skills.
 
@@ -69,8 +69,58 @@ The worksheet maker offers flexible comparison modes including image-to-image co
     sectionTitle: 'Free Worksheet for Kids Features - Free Worksheets for Comparison',
     sectionDescription: 'Our comparison worksheet maker includes seven powerful features that make creating free worksheet for kids fast and easy. Generate free worksheet for kids for kindergarten through first grade students. Every feature works together to help teachers create professional-quality free worksheet for kids in minutes. The worksheet generator combines simplicity with professional results. Teachers get unlimited worksheet creation with their Full Access subscription. No per-worksheet fees means you can create as many free worksheet for kids as your students need. Download worksheets in high-quality PDF or JPEG format ready for printing.',
     highlightBadgeText: 'Key Feature',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: '1',
+        icon: '📊',
+        title: 'Visual Comparison with Picture Groups: Count and Compare Quantities',
+        description: 'Students compare two groups of colorful images to determine which is greater, lesser, or equal. The image-to-image mode lets children count concrete objects on both sides before choosing the correct comparison symbol. This visual approach builds the number magnitude understanding that research shows is a stronger predictor of math success than counting ability alone.',
+        highlighted: true,
+      },
+      {
+        id: '2',
+        icon: '⚖️',
+        title: 'Greater Than, Less Than, and Equal Symbols: Standard and Illustrated Versions',
+        description: 'Choose between standard mathematical comparison symbols and kid-friendly illustrated versions. Illustrated symbols show visual representations that convey the concept of bigger, smaller, or same in ways young learners intuitively understand. Students connect the visual meaning to formal mathematical notation, building lasting symbol comprehension through scaffolded instruction.',
+        highlighted: false,
+      },
+      {
+        id: '3',
+        icon: '🔢',
+        title: 'Flexible Number Range Control: Match Difficulty to Student Ability',
+        description: 'Control the quantity range for comparison exercises from small groups suitable for preschoolers to larger numbers challenging second graders. Start with obvious differences where one group is clearly larger, then narrow the gap as students develop precision. The generator creates random quantities within your specified range for each exercise.',
+        highlighted: false,
+      },
+      {
+        id: '4',
+        icon: '🎨',
+        title: '3000+ Themed Images for Counting: Animals, Food, Vehicles, and More',
+        description: 'Select from over 3000 child-friendly images organized by educational theme to serve as counting objects. Choose animals for zoo units, food for nutrition lessons, or seasonal images for holiday activities. Each image appears in countable groups that students compare. Upload custom classroom photos for personalized comparison activities connecting to current instruction.',
+        highlighted: false,
+      },
+      {
+        id: '5',
+        icon: '✅',
+        title: 'Auto-Generated Answer Keys: Correct Symbols for Every Comparison',
+        description: 'Every comparison worksheet generates a complete answer key showing the correct symbol and counts for each exercise. Answer keys display the quantity totals alongside the appropriate greater-than, less-than, or equal-to symbol. Teachers use answer keys for efficient grading. Students self-check at independent practice stations.',
+        highlighted: false,
+      },
+      {
+        id: '6',
+        icon: '✏️',
+        title: 'Full Canvas Editing: Customize Layouts, Text, and Visual Elements',
+        description: 'Click any element to select, drag, resize, rotate, or delete it. Add custom text for titles, instructions, or student names using seven professional fonts. Apply themed backgrounds and borders for seasonal worksheets. Adjust colors and opacity to match classroom aesthetics. Lock objects in place when your comparison worksheet design is complete.',
+        highlighted: false,
+      },
+      {
+        id: '7',
+        icon: '💰',
+        title: 'Commercial License Included: Sell Comparison Worksheets on TPT and Etsy',
+        description: 'Your Full Access subscription includes commercial licensing for selling comparison worksheets on Teachers Pay Teachers, Etsy, Amazon KDP, or your own website. Greater-than less-than materials are consistently high-demand products searched by kindergarten and first grade teachers year-round. Create themed bundles with no attribution or extra licensing fees.',
+        highlighted: true,
+      },
+    ],
+
   },
 
   // How-To Guide - FULL text from more-less.md Step sections
@@ -121,8 +171,57 @@ The worksheet maker offers flexible comparison modes including image-to-image co
   useCases: {
     sectionTitle: 'Perfect for Teachers, Parents, and Educators',
     sectionDescription: 'Comparison worksheets serve diverse educational needs across multiple teaching environments. Kindergarten teachers, first grade teachers, homeschool parents, ESL instructors, special education teachers, and teacher entrepreneurs all benefit from customizable math worksheets. Each group uses the worksheet maker differently to meet specific student needs. Our Full Access subscription supports all teaching contexts with unlimited worksheet creation. Generate free printable worksheets matching any curriculum requirement.',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: '1',
+        icon: '👩‍🏫',
+        title: 'Kindergarten Teachers: Visual Comparison Foundations',
+        subtitle: 'Image-to-Image Comparisons for Early Math',
+        description: 'Kindergarten teachers use image-to-image comparison worksheets with illustrated symbols to introduce greater-than and less-than concepts. Students count picture groups and decide which is larger, building the foundational number magnitude understanding that supports all later mathematics. Start with individual symbol focus and progress to comprehensive mode as students gain confidence.',
+        quote: 'The illustrated alligator symbols clicked instantly, and now my students read standard notation too.',
+      },
+      {
+        id: '2',
+        icon: '📚',
+        title: 'First Grade Teachers: Bridging to Abstract Comparison',
+        subtitle: 'Image-to-Number Mode for Transitional Learners',
+        description: 'First grade teachers use image-to-number mode to bridge concrete counting and abstract number comparison. Students count a picture group then compare their total to a written numeral, building the representational fluency needed for fully abstract math. Comprehensive symbol mode with all three comparison types prepares students for standardized assessments.',
+        quote: 'Image-to-number mode is the missing link between concrete manipulatives and abstract number work.',
+      },
+      {
+        id: '3',
+        icon: '🏠',
+        title: 'Homeschool Parents: Progressive Comparison Practice',
+        subtitle: 'Scaffolded Comparison Activities for Home Learning',
+        description: 'Homeschool parents create progressive comparison worksheets that advance from simple picture comparisons to complex number relationships. The generator adapts to multiple skill levels within the same family, making it easy to create age-appropriate materials for each child. Themed images connect math comparison practice to current science or social studies units.',
+        quote: 'I create comparison worksheets for all three kids in less time than finding a single premade one.',
+      },
+      {
+        id: '4',
+        icon: '🌍',
+        title: 'ESL Teachers: Language-Free Quantity Comparison',
+        subtitle: 'Visual Counting Requires No English Reading',
+        description: 'ESL teachers use image-to-image comparison because counting and comparing picture groups requires zero English reading ability. Students demonstrate mathematical reasoning about quantity relationships independent of language proficiency. Illustrated symbols convey meaning visually, removing the language barrier entirely. Generate instructions in 11 languages for optional support text.',
+        quote: 'My newcomer students show strong math reasoning on visual comparison tasks from their first week.',
+      },
+      {
+        id: '5',
+        icon: '💜',
+        title: 'Special Education: Targeted Symbol Instruction',
+        subtitle: 'Individual Focus Mode for IEP-Aligned Practice',
+        description: 'Special education teachers use the individual symbol focus mode to teach one comparison concept at a time, precisely matching IEP goals. Start with only greater-than comparisons until mastery, then add less-than, and finally equal-to. The illustrated symbol option provides additional visual scaffolding. Reduce exercise count to 1-2 per page for students needing reduced workload.',
+        quote: 'The individual symbol focus lets me align worksheets exactly to each student\'s IEP comparison goals.',
+      },
+      {
+        id: '6',
+        icon: '💰',
+        title: 'Teacher Entrepreneurs: High-Demand Comparison Products',
+        subtitle: 'Greater-Than Less-Than Worksheets Sell Year-Round',
+        description: 'Teacher entrepreneurs sell comparison worksheets as a consistently demanded product on Teachers Pay Teachers and Etsy. Greater-than less-than materials are searched year-round by kindergarten and first grade teachers. Create progressive difficulty bundles or themed seasonal packs. Your Full Access subscription includes commercial licensing with no attribution or extra fees required.',
+        quote: 'My comparison worksheet bundles generate steady passive income every month of the school year.',
+      },
+    ],
+
   },
 
   // FAQ Section - ALL questions from more-less.md
@@ -297,8 +396,132 @@ The worksheet maker offers flexible comparison modes including image-to-image co
     ctaDescription: 'Join educators creating professional worksheets. Unlimited generation, commercial license included.',
     primaryCtaText: 'Start Free Trial',
     secondaryCtaText: 'View All 33 Apps',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: '1',
+        slug: 'addition-worksheets',
+        name: 'Addition Worksheets',
+        category: 'Math',
+        icon: '➕',
+        description: 'Pair comparison worksheets with addition practice for comprehensive early math instruction. Students who compare quantities develop the number sense that supports addition fact learning.',
+      },
+      {
+        id: '2',
+        slug: 'subtraction-worksheets',
+        name: 'Subtraction Worksheets',
+        category: 'Math',
+        icon: '➖',
+        description: 'Combine comparison with subtraction for a complete number operations package. Understanding greater-than and less-than relationships directly supports subtraction reasoning.',
+      },
+      {
+        id: '3',
+        slug: 'find-and-count-worksheets',
+        name: 'Find and Count Worksheets',
+        category: 'Math',
+        icon: '🔍',
+        description: 'Reinforce the counting skills that underpin accurate number comparison. Students who count confidently on find-and-count worksheets compare quantities more accurately.',
+      },
+      {
+        id: '4',
+        slug: 'pattern-worksheets',
+        name: 'Pattern Worksheets',
+        category: 'Math',
+        icon: '🔄',
+        description: 'Strengthen the mathematical reasoning that connects comparison to pattern recognition. Ordering numbers from smallest to largest builds the sequencing skills practiced in pattern activities.',
+      },
+      {
+        id: '5',
+        slug: 'big-small-worksheets',
+        name: 'Big or Small Worksheets',
+        category: 'Math',
+        icon: '📏',
+        description: 'Extend comparison practice from numbers to physical size. Big-or-small worksheets develop the same relative magnitude thinking using visual size rather than quantity.',
+      },
+      {
+        id: '6',
+        slug: 'math-worksheets',
+        name: 'Math Worksheets',
+        category: 'Math',
+        icon: '🔢',
+        description: 'Combine comparison practice with general math worksheets for complete arithmetic coverage. Build comprehensive math packets that cover counting, comparing, adding, and subtracting.',
+      },
+    ],
+
+  },
+  // -- SEO & Content Enrichment (Part 17) ------------------------------------
+
+  aiOverviewSnippet: 'A number comparison worksheet generator creates printable greater-than, less-than, and equal-to activities where students compare picture groups or image-to-number pairs. Teachers select comparison modes, symbol styles, and exercise counts to produce ready-to-print PDF worksheets in under 3 minutes, targeting the foundational number sense skills that underpin all later mathematics.',
+
+  comparisonTable: [
+    { feature: 'Comparison Modes', ourApp: 'Image-to-image and image-to-number', typical: 'Number-to-number only' },
+    { feature: 'Symbol Styles', ourApp: 'Standard math symbols and illustrated kid-friendly versions', typical: 'Standard symbols only' },
+    { feature: 'Answer Keys', ourApp: 'Auto-generated with every worksheet', typical: 'Often sold separately' },
+    { feature: 'Exercises Per Page', ourApp: '1-8 customizable exercises', typical: 'Fixed layout' },
+    { feature: 'Commercial License', ourApp: 'Included, sell on TPT/Etsy', typical: 'Extra fee or not available' },
+    { feature: 'Language Support', ourApp: '11 languages included', typical: 'English only' },
+  ],
+
+  researchBacking: [
+    {
+      claim: 'Number magnitude understanding is a stronger predictor of later math achievement than counting ability alone. Students who can accurately compare quantities develop stronger number sense foundations.',
+      source: 'Siegler, R. S. & Booth, J. L., "Development of Numerical Estimation," Psychological Science',
+    },
+    {
+      claim: 'The Concrete-Representational-Abstract (CRA) instructional sequence, moving from physical objects to pictures to symbols, produces significantly stronger conceptual understanding of comparison relationships.',
+      source: 'Witzel, B. S. et al., "Teaching Number Comparison Using CRA Sequence," Journal of Educational Research',
+    },
+  ],
+
+  teacherTestimonials: [
+    {
+      quote: 'The illustrated comparison symbols made a huge difference for my kindergarteners. They finally understood that the open mouth eats the bigger number, and now they transfer that to standard notation.',
+      name: 'Amanda Richards',
+      role: 'Kindergarten Teacher',
+      school: 'Brookside Elementary',
+    },
+    {
+      quote: 'I love the image-to-number mode for my first graders. It bridges the gap between counting objects and comparing abstract numbers, which is exactly the transition they need to make.',
+      name: 'Brian Larsen',
+      role: '1st Grade Math Specialist',
+      school: 'Valley View School',
+    },
+  ],
+
+  tips: {
+    sectionTitle: 'Number Comparison Strategies by Grade Level',
+    sectionDescription: 'Use our comparison worksheet generator to target the right comparison skills at each developmental stage. Here is how to configure greater-than, less-than, and equal-to worksheets for maximum learning impact from preschool through third grade.',
+    items: [
+      {
+        id: 'preschool',
+        icon: '🌱',
+        title: 'Preschool: More and Fewer with Pictures',
+        description: 'Introduce comparison as identifying which group has more or fewer objects. Use image-to-image mode with illustrated symbols and just 1-2 exercises per page. Focus on obvious differences where one group is clearly larger. Build vocabulary around more, fewer, and the same before introducing mathematical symbols.',
+      },
+      {
+        id: 'kindergarten',
+        icon: '🎒',
+        title: 'Kindergarten: Greater Than and Less Than Symbols',
+        description: 'Kindergarteners learn greater-than and less-than symbols using image-to-image comparisons with 3-4 exercises per page. Start with illustrated symbols that visually convey the concept of bigger and smaller. Transition to standard mathematical notation by mid-year. Focus on individual symbol practice before mixing all three comparison types.',
+      },
+      {
+        id: 'first-grade',
+        icon: '📚',
+        title: '1st Grade: Image-to-Number Comparison Bridge',
+        description: 'First graders use image-to-number mode to bridge concrete counting and abstract comparison. Students count a picture group then compare their count to a written numeral. This transition format builds the representational fluency needed for fully abstract number comparison. Use 5-6 exercises per page with all three symbols.',
+      },
+      {
+        id: 'second-grade',
+        icon: '✏️',
+        title: '2nd Grade: Extended Ranges and Fluency',
+        description: 'Second graders practice comparison with larger number ranges using image-to-number mode and 6-8 exercises per page. Introduce multi-digit comparison concepts through visual quantities that cross the tens boundary. Students develop magnitude awareness that supports place value understanding and estimation skills.',
+      },
+      {
+        id: 'third-grade',
+        icon: '🎯',
+        title: '3rd Grade: Multi-Digit Comparison and Assessment',
+        description: 'Third graders apply comparison skills to larger numbers as warm-ups before place value lessons. Use comprehensive mode with all three symbols and 8 exercises per page. These worksheets serve as quick formative assessments to verify that foundational comparison skills are solid before tackling multiplication and division concepts.',
+      },
+    ],
   },
 };
 

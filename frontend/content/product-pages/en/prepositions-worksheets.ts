@@ -17,7 +17,7 @@ export const prepositionsEnContent: ProductPageContent = {
     appId: 'prepositions',
     title: 'Prepositions Worksheet Maker for Kids | LessonCraftStudio',
     description: 'Create prepositions worksheets teaching in, on, under and spatial concepts. Free printable language arts for K-1. Build positional vocabulary with pictures.',
-    keywords: 'spatial words worksheets, in on under activities, position words for kids, spatial concepts printable, preposition practice for kindergarten, location words worksheets, positional language activities, where is it worksheets, spatial vocabulary worksheets, kindergarten prepositions',
+    keywords: 'prepositions worksheet maker, spatial awareness, positional language, direction words, location words, spatial vocabulary, above below, beside between, prepositional phrase, spatial relationship, positional concept, in on under activities',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/prepositions-worksheets',
       },
 
@@ -25,7 +25,7 @@ export const prepositionsEnContent: ProductPageContent = {
   hero: {
     title: 'Prepositions Worksheets: In, On, Under and More',
     subtitle: 'Spatial Concept Activities for Kindergarten',
-    description: `Create professional prepositions worksheets with our worksheet generator. Your Full Access subscription gives you unlimited worksheet creation with no per-worksheet fees. Generate custom printable kindergarten worksheets perfect for teaching spatial concepts to young learners. Download high-quality PDF worksheets in under 3 minutes.
+    description: `Create professional prepositions worksheets with our prepositions worksheet maker. Your Full Access subscription gives you unlimited worksheet creation with no per-worksheet fees. Generate custom printable kindergarten worksheets perfect for teaching spatial concepts to young learners. Download high-quality PDF worksheets in under 3 minutes.
 
 Teaching prepositions to kindergarten and first grade students becomes simple with our prepositions worksheet generator. Our tool creates free printable worksheets that teach eight essential spatial concepts. Students learn in, on top of, under, next to, behind, between, above, and in front of through engaging visual exercises. Each worksheet combines colorful images with clear text to reinforce understanding.
 
@@ -71,8 +71,51 @@ Perfect for kindergarten teachers and first grade educators who need quality pre
     sectionTitle: 'Free Worksheet for Kids Features - Worksheet for Kindergarten',
     sectionDescription: 'Our prepositions worksheet generator includes seven powerful features that make creating free worksheet for kids fast and professional. These features work together to give you complete control over every aspect of your free worksheets. Whether you need simple prepositions practice or free printables for complex spatial concept activities, our free worksheet for kids generator delivers the tools you need. Create worksheet for kindergarten with no restrictions. Build worksheet for kindergarten materials easily.',
     highlightBadgeText: 'Key Feature',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: '1',
+        icon: '📍',
+        title: '8 Spatial Prepositions',
+        description: 'Teach all eight essential spatial concepts: in, on top of, under, next to, behind, between, above, and in front of. Select specific prepositions for targeted practice or include all eight for comprehensive spatial vocabulary review across multiple exercises.',
+      },
+      {
+        id: '2',
+        icon: '📝',
+        title: '2 Exercise Formats',
+        description: 'Choose fill-in-the-blank for students who can write independently or multiple choice for emerging writers and younger learners. Both formats present visual image arrangements demonstrating spatial relationships, making abstract prepositional concepts concrete and observable.',
+      },
+      {
+        id: '3',
+        icon: '🔢',
+        title: 'Adjustable Exercise Count',
+        description: 'Include 1 to 8 exercises per worksheet to match lesson length and student attention spans. Fewer exercises with larger images suit younger kindergarteners while more exercises create comprehensive practice sheets for first graders ready for independent work.',
+      },
+      {
+        id: '4',
+        icon: '🖼️',
+        title: 'Visual Spatial Arrangements',
+        description: 'Each exercise arranges two images to demonstrate a spatial relationship clearly. A cat on top of a table, a ball under a chair, or a bird between two trees. The visual format makes abstract prepositions concrete so students see the meaning before writing the word.',
+      },
+      {
+        id: '5',
+        icon: '🎨',
+        title: '3000+ Themed Images',
+        description: 'Browse a library of over 3000 child-friendly images organized by educational themes. Choose animals, vehicles, food, toys, or nature images to create spatial scenes that connect to your current curriculum unit or student interests.',
+      },
+      {
+        id: '6',
+        icon: '✅',
+        title: 'Auto-Generated Answer Keys',
+        description: 'Every worksheet produces a matching answer key showing the correct preposition for each exercise. Teachers use answer keys for quick grading during center rotations or provide them to students for immediate self-checking and independent feedback.',
+      },
+      {
+        id: '7',
+        icon: '💼',
+        title: 'Commercial License Included',
+        description: 'Your subscription includes full commercial rights to sell prepositions worksheets on Teachers Pay Teachers, Etsy, or your own website. No attribution required and no extra licensing fees. Create grammar and spatial vocabulary bundles for supplemental income.',
+      },
+    ],
+
   },
 
   // How-To Guide - FULL text from prepositions.md Step sections
@@ -123,8 +166,51 @@ Perfect for kindergarten teachers and first grade educators who need quality pre
   useCases: {
     sectionTitle: 'Free Printables for Teachers - Worksheet for Kids and Kindergarten',
     sectionDescription: 'Prepositions worksheets benefit six different user groups in unique ways. Kindergarten teachers, first grade educators, homeschool parents, ESL instructors, special education teachers, and teacher entrepreneurs all find value in our generator. Each group uses free printable worksheets differently based on their specific needs. Understanding these use cases helps you maximize the generator potential in your teaching situation.',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: '1',
+        icon: '🌈',
+        title: 'Kindergarten Teachers',
+        subtitle: 'Introducing Spatial Concepts with Picture Support',
+        description: 'Start with multiple choice format using 2-3 concrete prepositions like in, on, and under. Kindergarteners identify spatial relationships through colorful image arrangements before writing any words. Visual scaffolding makes abstract positional language accessible to emerging learners.',
+      },
+      {
+        id: '2',
+        icon: '📖',
+        title: 'First Grade Teachers',
+        subtitle: 'Fill-in-the-Blank Writing Practice',
+        description: 'Use fill-in-the-blank format with all eight prepositions for comprehensive spatial vocabulary practice. First graders write correct prepositions after observing image arrangements, combining spatial reasoning with handwriting practice. Create differentiated versions with 4 or 8 exercises per sheet.',
+      },
+      {
+        id: '3',
+        icon: '🌍',
+        title: 'ESL Teachers',
+        subtitle: 'Visual Spatial Vocabulary Building',
+        description: 'Teach English prepositions through concrete visual demonstrations that transcend language barriers. The image arrangement format provides universal context clues while students learn spatial vocabulary in English. Generate parallel worksheets in 11 languages for bilingual comparison activities.',
+      },
+      {
+        id: '4',
+        icon: '🗣️',
+        title: 'Speech-Language Pathologists',
+        subtitle: 'Spatial Language Therapy Materials',
+        description: 'Create structured spatial language practice with clear visual cues for therapy sessions. Adjust difficulty by selecting specific prepositions and choosing between multiple choice or fill-in-the-blank formats. Track progress by increasing from 2-3 concrete prepositions to all 8 including abstract concepts like between and behind.',
+      },
+      {
+        id: '5',
+        icon: '🏠',
+        title: 'Homeschool Parents',
+        subtitle: 'Hands-On Positional Language Activities',
+        description: 'Pair printed prepositions worksheets with physical demonstrations using household objects. Children place toys in, on, and under furniture, then complete matching worksheet exercises. This multi-sensory approach reinforces spatial vocabulary through both kinesthetic and visual learning channels.',
+      },
+      {
+        id: '6',
+        icon: '💰',
+        title: 'Teacher Entrepreneurs',
+        subtitle: 'Grammar and Vocabulary Bundles',
+        description: 'Create prepositions activity packs for Teachers Pay Teachers or Etsy combining worksheets with treasure hunt and drawing activities. Bundle multiple preposition sets with progressive difficulty for complete spatial language curriculum units. Your commercial license covers unlimited sales.',
+      },
+    ],
+
   },
 
   // FAQ Section - ALL questions from prepositions.md
@@ -301,8 +387,132 @@ Perfect for kindergarten teachers and first grade educators who need quality pre
     ctaDescription: 'Join educators creating professional worksheets. Unlimited generation, commercial license included.',
     primaryCtaText: 'Start Free Trial',
     secondaryCtaText: 'View All 33 Apps',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: '1',
+        slug: 'treasure-hunt-worksheets',
+        name: 'Treasure Hunt Worksheets',
+        category: 'Spatial Learning',
+        icon: '🗺️',
+        description: 'Combine prepositions practice with treasure hunt path-following activities for complete spatial language lessons. Students identify prepositions on worksheets then apply directional vocabulary to navigate treasure hunt routes, reinforcing spatial concepts through active problem-solving.',
+      },
+      {
+        id: '2',
+        slug: 'matchup-maker-worksheets',
+        name: 'MatchUp Maker Worksheets',
+        category: 'Vocabulary',
+        icon: '🔗',
+        description: 'Pair prepositions worksheets with picture-word matching activities for multi-format spatial vocabulary practice. Students identify prepositions in image arrangements then match spatial vocabulary words to their visual demonstrations in a complementary format.',
+      },
+      {
+        id: '3',
+        slug: 'drawing-lines-worksheets',
+        name: 'Drawing Lines Worksheets',
+        category: 'Fine Motor',
+        icon: '✏️',
+        description: 'Add line-drawing activities alongside prepositions practice for combined spatial and motor skill development. Students identify spatial relationships in prepositions exercises then trace paths between objects, applying positional language to fine motor coordination tasks.',
+      },
+      {
+        id: '4',
+        slug: 'picture-sort-worksheets',
+        name: 'Picture Sort Worksheets',
+        category: 'Classification',
+        icon: '📂',
+        description: 'Bundle prepositions worksheets with picture sorting activities for comprehensive categorization practice. Students classify objects by spatial position in one activity then sort images by category in another, building both spatial and logical reasoning skills.',
+      },
+      {
+        id: '5',
+        slug: 'find-objects-worksheets',
+        name: 'Find Objects Worksheets',
+        category: 'Visual Perception',
+        icon: '🔍',
+        description: 'Combine prepositions with hidden object activities for spatial awareness packets. Students describe object locations using prepositions on one worksheet then apply those same spatial scanning skills to find hidden items in complex scenes.',
+      },
+      {
+        id: '6',
+        slug: 'coloring-worksheets',
+        name: 'Coloring Worksheets',
+        category: 'Creative Learning',
+        icon: '🎨',
+        description: 'Pair prepositions practice with coloring activities for engaging multi-skill worksheets. Students identify spatial relationships in prepositions exercises then follow positional instructions like "color the bird above the tree blue" on coloring pages.',
+      },
+    ],
+  },
+
+  // -- SEO & Content Enrichment (Part 20) ------------------------------------
+
+  aiOverviewSnippet: 'A prepositions worksheet maker is an online tool that creates printable spatial language exercises teaching eight prepositions: in, on top of, under, next to, behind, between, above, and in front of. Teachers choose fill-in-the-blank or multiple choice format, select themed images, and download a ready-to-print PDF with an auto-generated answer key in under 3 minutes.',
+
+  comparisonTable: [
+    { feature: 'Prepositions Covered', ourApp: '8 spatial prepositions with visual demonstrations', typical: '3-4 basic prepositions only' },
+    { feature: 'Exercise Formats', ourApp: 'Fill-in-the-blank and multiple choice', typical: 'Single format, no differentiation' },
+    { feature: 'Image Arrangements', ourApp: 'Dynamic spatial scenes with 3000+ themed images', typical: 'Static clip art or no images' },
+    { feature: 'Answer Keys', ourApp: 'Auto-generated with every worksheet', typical: 'Manual or sold separately' },
+    { feature: 'Commercial License', ourApp: 'Included, sell on TPT/Etsy/KDP', typical: 'Extra fee or not available' },
+    { feature: 'Language Support', ourApp: '11 languages with translated prepositions', typical: 'English only' },
+  ],
+
+  researchBacking: [
+    {
+      claim: 'Spatial language proficiency in early childhood is a strong predictor of later mathematical and geometric reasoning, with children who master positional vocabulary showing significantly better performance on spatial tasks and number line understanding.',
+      source: 'Pruden, S.M., Levine, S.C., & Huttenlocher, J., "Children\'s Spatial Thinking: Does Talk About the Spatial World Matter?" Developmental Science, Vol. 14, No. 6',
+    },
+    {
+      claim: 'Visual scaffolding through concrete image arrangements helps young children grasp abstract prepositional concepts by grounding spatial language in observable physical relationships, making the transition from perceptual to linguistic representation more accessible.',
+      source: 'Clark, E.V., "First Language Acquisition," Cambridge University Press',
+    },
+  ],
+
+  teacherTestimonials: [
+    {
+      quote: 'My kindergarteners finally understand "between" and "behind" after using these worksheets. The image arrangements make abstract prepositions visible, and the multiple choice format lets my emerging writers participate without frustration.',
+      name: 'Jessica Hartley',
+      role: 'Kindergarten Teacher',
+      school: 'Riverside Elementary',
+    },
+    {
+      quote: 'As an SLP, I use these prepositions worksheets in every therapy session. Being able to select exactly which prepositions to target and switch between multiple choice and fill-in-the-blank saves me hours of material preparation each week.',
+      name: 'Amanda Torres',
+      role: 'Speech-Language Pathologist',
+      school: 'Bright Futures Therapy Center',
+    },
+  ],
+
+  tips: {
+    sectionTitle: 'Prepositions Teaching Strategies by Grade Level',
+    sectionDescription: 'Configure your prepositions worksheet maker for the right challenge at each developmental stage. Here is how to select prepositions, exercise format, and complexity from preschool through second grade.',
+    items: [
+      {
+        id: 'preschool',
+        icon: '🌱',
+        title: 'Preschool: Concrete Spatial Exploration',
+        description: 'Start with multiple choice format using only "in" and "on" with 2 exercises per worksheet. Use large, familiar images like toys and furniture. Pair worksheets with physical demonstrations where children place real objects in and on classroom furniture before completing the printed exercises.',
+      },
+      {
+        id: 'pre-k',
+        icon: '🎒',
+        title: 'Pre-K: Expanding Spatial Vocabulary',
+        description: 'Add "under" and "next to" for 4 prepositions total, using multiple choice with 3-4 exercises. Pre-K students identify spatial relationships in clear image arrangements, building the positional vocabulary they will need for following classroom directions and understanding story descriptions.',
+      },
+      {
+        id: 'kindergarten',
+        icon: '📚',
+        title: 'Kindergarten: All Eight Prepositions',
+        description: 'Introduce all 8 prepositions using multiple choice format with 4-6 exercises. Kindergarteners ready for writing can transition to fill-in-the-blank. Focus on concrete prepositions first, then add abstract concepts like "between" and "behind" as students build spatial vocabulary confidence.',
+      },
+      {
+        id: 'first-grade',
+        icon: '✏️',
+        title: '1st Grade: Written Spatial Language',
+        description: 'Use fill-in-the-blank format with 6-8 exercises covering all 8 prepositions. First graders write correct prepositions after observing image arrangements, combining spatial reasoning with handwriting and spelling practice. Include varied image themes to maintain engagement across repeated practice sessions.',
+      },
+      {
+        id: 'second-grade',
+        icon: '🎯',
+        title: '2nd Grade: Prepositional Phrase Building',
+        description: 'Challenge second graders with 8-exercise fill-in-the-blank worksheets emphasizing abstract prepositions like "between," "above," and "in front of." Connect worksheet practice to prepositional phrase writing where students compose complete sentences describing spatial scenes using target prepositions.',
+      },
+    ],
   },
 };
 

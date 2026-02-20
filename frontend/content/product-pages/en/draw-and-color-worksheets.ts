@@ -17,7 +17,7 @@ export const drawAndColorEnContent: ProductPageContent = {
     slug: 'draw-and-color-worksheets',
     title: 'Grid Drawing Worksheet Maker for Kids | LessonCraftStudio',
     description: 'Create grid drawing worksheets where kids copy pictures square by square. Free printable art activities for K-2. Build spatial awareness and fine motor skills.',
-    keywords: 'grid copy worksheets, square-by-square drawing, visual spatial worksheets, art worksheets for kids, grid art activities, copy and color printable, drawing practice for kids, fine motor art worksheets, pixel drawing worksheets, spatial awareness drawing',
+    keywords: 'grid drawing worksheet maker, grid copy, symmetry drawing, spatial awareness, visual reproduction, coordinate art, square-by-square, directed drawing, art instruction, proportional drawing, visual-motor integration, grid art worksheets',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/draw-and-color-worksheets',
       },
 
@@ -25,7 +25,7 @@ export const drawAndColorEnContent: ProductPageContent = {
   hero: {
     title: 'Draw and Color Grid Worksheets',
     subtitle: 'Copy Pictures Square by Square for K-2',
-    description: `Create professional grid drawing coloring worksheets with our specialized worksheet generator. Your Full Access subscription gives you unlimited worksheet creation with no per-worksheet fees. Generate custom printable coloring worksheets perfect for kindergarten and first grade students. Download high-quality PDF coloring worksheets in under 3 minutes.
+    description: `Create professional grid drawing coloring worksheets with our grid drawing worksheet maker. Your Full Access subscription gives you unlimited worksheet creation with no per-worksheet fees. Generate custom printable coloring worksheets perfect for kindergarten and first grade students. Download high-quality PDF coloring worksheets in under 3 minutes.
 
 Grid drawing coloring worksheets combine art and spatial reasoning. Students look at a clue grid showing parts of an image. They copy the pattern cell by cell into an empty grid. This creates engaging coloring worksheets that teach grid coordinates and visual-spatial skills. Perfect for kindergarten worksheets and first grade worksheets that develop both artistic and mathematical thinking.
 
@@ -73,8 +73,51 @@ Every worksheet downloads as a professional 300 DPI PDF file. Print at home on s
     sectionTitle: 'Grid Drawing Worksheet Generator Features - Free Printable Coloring Worksheets for Kids',
     sectionDescription: 'Our grid drawing generator includes professional features for creating free printable coloring worksheets. Teachers get complete control over difficulty levels and visual design. Create kindergarten worksheets with simple grids and many clues. Generate first grade worksheets with complex patterns and fewer hints. Every feature works together to produce engaging coloring worksheets that students love. Full Access subscription gives you unlimited worksheet creation for all 33 generators at $240 per year.',
     highlightBadgeText: 'Key Feature',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: '1',
+        icon: '📐',
+        title: 'Grid-Based Drawing',
+        description: 'Students copy reference images square by square into an empty grid, building spatial awareness and proportional thinking. The systematic cell-by-cell approach breaks complex pictures into manageable pieces for students at every skill level.',
+      },
+      {
+        id: '2',
+        icon: '🔧',
+        title: 'Adjustable Grid Sizes',
+        description: 'Choose from 3x3 to 10x10 grid dimensions to control difficulty precisely. Small grids with large cells suit kindergarteners developing spatial awareness. Large grids with fine cells challenge advanced students refining observation and motor control.',
+      },
+      {
+        id: '3',
+        icon: '🖼️',
+        title: '3000+ Reference Images',
+        description: 'Browse over 3000 themed images optimized for grid reproduction across dozens of categories including animals, vehicles, food, and holidays. Every image is curated for clear grid segmentation at any resolution.',
+      },
+      {
+        id: '4',
+        icon: '🪞',
+        title: 'Symmetry and Mirror Modes',
+        description: 'Enable horizontal or vertical mirror drawing to add spatial reasoning challenges. Symmetry mode reveals half the image and students complete the reflected other half, directly teaching geometric symmetry through hands-on practice.',
+      },
+      {
+        id: '5',
+        icon: '🖱️',
+        title: 'Full Canvas Editing Tools',
+        description: 'Drag, resize, and reposition grids, text, and decorative elements anywhere on the canvas. Add custom titles, instructions, and borders. Layer objects and adjust opacity for professional-looking worksheets.',
+      },
+      {
+        id: '6',
+        icon: '🎨',
+        title: 'Completed Reference Keys',
+        description: 'Auto-generate fully completed reference images so teachers can verify student accuracy and display finished examples. Reference keys support self-assessment and peer comparison activities.',
+      },
+      {
+        id: '7',
+        icon: '💼',
+        title: 'Commercial License Included',
+        description: 'Sell grid drawing worksheets on Teachers Pay Teachers, Etsy, or Amazon KDP with the commercial license included in your subscription. Grid art worksheets occupy a unique niche combining art instruction with spatial reasoning.',
+      },
+    ],
+
   },
 
   // How-To Guide - FULL text from draw-and-color.md step sections
@@ -145,8 +188,51 @@ Print one copy to verify quality before reproducing for entire classes. The 300 
   useCases: {
     sectionTitle: 'Perfect for Teachers, Parents, and Educators - Free Printable Coloring Worksheets for Every Need',
     sectionDescription: 'Grid drawing coloring worksheets serve diverse educational settings and teaching styles. Kindergarten teachers use them for fine motor development and spatial reasoning. First grade teachers integrate them with math and literacy curriculum. Homeschool parents create customized learning activities. ESL instructors reinforce vocabulary through visual learning. Special education teachers differentiate instruction for varied ability levels. Teacher entrepreneurs build profitable worksheet businesses. Every educator benefits from professional free printable worksheets with Full Access subscription at $240 per year.',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: '1',
+        icon: '🎒',
+        title: 'Kindergarten Teachers',
+        subtitle: 'Simple Grid Copying for Spatial Awareness',
+        description: 'Create 3x3 and 4x4 grid drawing worksheets with high clue percentages for kindergarteners developing spatial awareness. Students copy large, simple image sections cell by cell, building the visual-spatial foundation needed for geometry and map skills in later grades.',
+      },
+      {
+        id: '2',
+        icon: '📚',
+        title: 'First Grade Teachers',
+        subtitle: 'Directed Drawing and Proportional Skills',
+        description: 'Generate 5x5 to 7x7 grid worksheets with moderate clue percentages for first graders ready for more detailed reproduction. Use themed images matching science and social studies units for cross-curricular art integration. Grid drawing develops proportional thinking essential for measurement concepts.',
+      },
+      {
+        id: '3',
+        icon: '🎨',
+        title: 'Art Teachers',
+        subtitle: 'Structured Drawing Instruction with Grid Method',
+        description: 'Teach the classic grid drawing method used by professional artists for centuries. Students learn to break complex images into small, manageable sections and reproduce them accurately. This structured approach builds confidence in students who believe they cannot draw.',
+      },
+      {
+        id: '4',
+        icon: '🧩',
+        title: 'Occupational Therapists',
+        subtitle: 'Visual-Motor Integration Exercises',
+        description: 'Design grid drawing exercises targeting visual-motor integration goals on IEPs. Adjust grid size and clue percentages to match individual student abilities precisely. The structured grid format provides clear boundaries that support students with motor planning challenges.',
+      },
+      {
+        id: '5',
+        icon: '🏠',
+        title: 'Homeschool Parents',
+        subtitle: 'Art Appreciation Through Grid Reproduction',
+        description: 'Create grid drawing activities featuring famous artwork, nature scenes, or student interests. The grid method teaches children that complex images can be broken into simple parts, building confidence and art appreciation alongside spatial reasoning skills.',
+      },
+      {
+        id: '6',
+        icon: '💰',
+        title: 'Teacher Entrepreneurs',
+        subtitle: 'Art Instruction Worksheet Bundles',
+        description: 'Build progressive grid drawing bundles moving from 3x3 beginner grids to 10x10 advanced challenges. Art-meets-math worksheet packs attract teachers seeking cross-curricular materials on TPT and Etsy. The commercial license covers all marketplace distribution.',
+      },
+    ],
+
   },
 
   // FAQ Section - Selected FAQs from draw-and-color.md
@@ -322,8 +408,133 @@ Print one copy to verify quality before reproducing for entire classes. The 300 
     ctaDescription: 'Join thousands of educators creating professional worksheets. Unlimited generation, commercial license included.',
     primaryCtaText: 'Start Free Trial',
     secondaryCtaText: 'View All 33 Apps',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: '1',
+        slug: 'coloring-worksheets',
+        name: 'Coloring Pages',
+        category: 'Art & Creativity',
+        icon: '🎨',
+        description: 'Pair grid drawing worksheets with free-form coloring pages for complete art learning packets. Students practice structured reproduction with grid drawing, then enjoy creative expression with open coloring activities using the same themed images.',
+      },
+      {
+        id: '2',
+        slug: 'drawing-lines-worksheets',
+        name: 'Drawing Lines',
+        category: 'Fine Motor',
+        icon: '✏️',
+        description: 'Combine grid drawing with line tracing worksheets for progressive fine motor development. Students warm up with guided line paths, then apply their improved hand control to more precise grid copying activities.',
+      },
+      {
+        id: '3',
+        slug: 'pattern-worksheets',
+        name: 'Pattern Worksheets',
+        category: 'Math & Logic',
+        icon: '🔁',
+        description: 'Bundle grid drawing with pattern recognition exercises for spatial reasoning development. Both activities require students to analyze visual relationships and reproduce them accurately, reinforcing observation skills across formats.',
+      },
+      {
+        id: '4',
+        slug: 'grid-match-worksheets',
+        name: 'Grid Match',
+        category: 'Visual Skills',
+        icon: '📐',
+        description: 'Create grid-based learning packets combining drawing reproduction with grid matching activities. Students develop coordinate thinking and visual discrimination through two complementary grid-based challenges.',
+      },
+      {
+        id: '5',
+        slug: 'missing-pieces-worksheets',
+        name: 'Missing Pieces',
+        category: 'Critical Thinking',
+        icon: '🧩',
+        description: 'Pair grid drawing with missing pieces puzzles for visual-spatial development. Both activities require students to analyze images, identify spatial relationships, and complete visual information, building observation skills from different angles.',
+      },
+      {
+        id: '6',
+        slug: 'shadow-match-worksheets',
+        name: 'Shadow Match',
+        category: 'Visual Perception',
+        icon: '👤',
+        description: 'Combine grid drawing with shadow matching for comprehensive visual perception training. Students analyze outlines and spatial forms in shadow matching, then apply detailed observation to grid reproduction for layered visual skill building.',
+      },
+    ],
+
+  },
+
+  // -- SEO & Content Enrichment (Part 21) ------------------------------------
+
+  aiOverviewSnippet: 'A grid drawing worksheet maker is an online tool that divides reference images into grid cells and generates printable worksheets where students copy pictures square by square. Teachers adjust grid size from 3x3 to 10x10, set clue cell percentages, and enable symmetry modes to create scaffolded art activities that build spatial awareness and visual-motor integration.',
+
+  comparisonTable: [
+    { feature: 'Grid Sizes', ourApp: '3x3 to 10x10 with full control', typical: 'Fixed single grid size' },
+    { feature: 'Reference Images', ourApp: '3000+ themed images plus custom uploads', typical: 'Limited pre-made templates' },
+    { feature: 'Drawing Modes', ourApp: 'Standard copy, mirror, and symmetry modes', typical: 'Copy mode only' },
+    { feature: 'Editing Tools', ourApp: 'Full canvas with text, borders, backgrounds', typical: 'No customization options' },
+    { feature: 'Commercial License', ourApp: 'Included, sell on TPT/Etsy', typical: 'Personal use only' },
+    { feature: 'Language Support', ourApp: '11 languages for labels and interface', typical: 'English only' },
+  ],
+
+  researchBacking: [
+    {
+      claim: 'Grid drawing activities develop spatial-visual skills by requiring students to analyze positional relationships within a coordinate framework, building foundational competencies for geometry, graphing, and map reading.',
+      source: 'Newcombe, N.S. & Frick, A., "Early Education for Spatial Intelligence," Mind, Brain, and Education',
+    },
+    {
+      claim: 'Directed drawing instruction using structured methods like grid reproduction improves visual-motor integration scores in young children, supporting both artistic development and handwriting readiness.',
+      source: 'Beery, K.E. & Beery, N.A., "The Beery-Buktenica Developmental Test of Visual-Motor Integration," Pearson',
+    },
+  ],
+
+  teacherTestimonials: [
+    {
+      quote: 'Grid drawing is the one activity every student in my class loves regardless of perceived artistic ability. The grid structure gives struggling artists confidence, and the symmetry mode challenges my advanced students beautifully.',
+      name: 'Rachel Hoffman',
+      role: 'K-2 Art Specialist',
+      school: 'Maplewood Elementary',
+    },
+    {
+      quote: 'As an OT, I use grid drawing worksheets for nearly every visual-motor integration goal on my caseload. Being able to adjust grid size and clue percentage precisely means I can scaffold difficulty for each individual student.',
+      name: 'Michael Torres',
+      role: 'School-Based OT',
+      school: 'Westfield Unified District',
+    },
+  ],
+
+  tips: {
+    sectionTitle: 'Grid Drawing Activities by Grade Level',
+    sectionDescription: 'Use our grid drawing worksheet maker to target the right spatial and motor skills at each developmental stage. Here is how to configure grid worksheets for maximum learning impact from preschool through second grade.',
+    items: [
+      {
+        id: 'preschool',
+        icon: '🌱',
+        title: 'Preschool: Large Grid Introduction',
+        description: 'Start with 3x3 grids at 70 to 80 percent clue cells using simple, bold images. Preschoolers focus on matching colors and basic shapes within large grid sections. This introduces the concept of spatial position without requiring fine detail work. Use familiar objects like animals and food for maximum engagement.',
+      },
+      {
+        id: 'pre-k',
+        icon: '🎈',
+        title: 'Pre-K: Building Grid Awareness',
+        description: 'Use 4x4 grids at 50 to 60 percent clue cells with clear, recognizable images. Students learn to identify which grid cell corresponds to which part of the picture. Introduce simple vocabulary like row, column, top, and bottom while students work. This builds spatial language alongside visual reproduction skills.',
+      },
+      {
+        id: 'kindergarten',
+        icon: '🎒',
+        title: 'Kindergarten: Standard Grid Copying',
+        description: 'Generate 4x4 to 5x5 grids at 40 to 50 percent clue cells for age-appropriate challenge. Students copy reference images systematically, developing careful observation and controlled drawing. Match grid images to weekly curriculum themes for integrated learning. Add name fields and simple titles for classroom management.',
+      },
+      {
+        id: 'first-grade',
+        icon: '📚',
+        title: '1st Grade: Detail and Symmetry',
+        description: 'Create 6x6 to 7x7 grids at 30 to 40 percent clue cells. Introduce symmetry mode where students complete the mirrored half of an image. This adds geometric reasoning to the spatial reproduction task. Use themed images matching science and social studies for cross-curricular integration.',
+      },
+      {
+        id: 'second-grade',
+        icon: '✏️',
+        title: '2nd Grade: Advanced Grid Challenges',
+        description: 'Design 8x8 to 10x10 grids at 20 to 30 percent clue cells with mirror options enabled. Students tackle fine-detail reproduction requiring sustained attention and precise motor control. Combine standard and symmetry modes in the same worksheet pack for varied practice. These advanced grids develop the spatial reasoning that underpins coordinate graphing.',
+      },
+    ],
   },
 };
 

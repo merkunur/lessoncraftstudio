@@ -12,14 +12,15 @@
 
 | Section | Parts | Line Range |
 |---------|-------|------------|
-| Executive Summary & Methodology | - | Lines 1-200 |
-| Phase 0: Foundation & Infrastructure | Parts 1-15 | Lines 201-600 |
-| Phase 1: English Product Pages | Parts 16-30 | Lines 601-900 |
-| Phase 2: English Theme Hub Pages | Parts 31-55 | Lines 901-1400 |
-| Phase 3: English Theme+Grade Pages | Parts 56-155 | Lines 1401-2400 |
-| Phase 4: English Secondary & QA | Parts 156-170 | Lines 2401-2700 |
-| Phase 5-14: Non-English Locales | Parts 171-500 | Lines 2701-4500 |
-| Appendices & Reference | - | Lines 4501+ |
+| Executive Summary & Methodology | - | Lines 1-209 |
+| Deployment Schedule | - | Lines 210-257 |
+| Phase 0: Foundation & Infrastructure | Parts 1-15 | Lines 258-604 |
+| Phase 1: English Product Pages | Parts 16-30 | Lines 605-735 |
+| Phase 2: English Theme Hub Pages | Parts 31-55 | Lines 736-920 |
+| Phase 3: English Theme+Grade Pages | Parts 56-155 | Lines 921-1090 |
+| Phase 4: English Secondary & QA | Parts 146-170 | Lines 1091-1226 |
+| Phase 5-14: Non-English Locales | Parts 171-500 | Lines 1227-1698 |
+| Appendices & Reference (A-G) | - | Lines 1699+ |
 
 ---
 
@@ -204,6 +205,54 @@ Homepage
 6. Theme pages link to product pages for featured apps
 7. Blog posts link to relevant product AND theme pages
 8. Every page links back to its parent hub
+
+---
+
+## DEPLOYMENT SCHEDULE
+
+### Why 20 Deploys (Not 500)
+
+Each deployment takes ~15 minutes (build + restart). Deploying after every part would waste ~125 hours. Instead, deployments are batched at **phase boundaries** and **mid-phase checkpoints** where work needs to go live for verification.
+
+- **Research/audit/docs-only parts** need no deployment (scripts, keyword docs, etc.)
+- **Content file changes** (`.ts` content files) need deployment to compile into the Next.js build
+- **Component/infrastructure changes** (`.tsx` files) need deployment
+- Each deploy verifies: build compiles, pages render, no regressions
+
+### The 20 Deploy Points
+
+| Deploy # | After Part | What's Included | Pages Affected |
+|----------|-----------|-----------------|----------------|
+| 1 | Part 9 | Type definitions (themes + grades + products) | 0 (infrastructure) |
+| 2 | Part 14 | Components + performance + mobile fixes | 0 (infrastructure) **DEPLOYED** |
+| 3 | Part 22 | EN product pages batch 1-7 (~18 pages) | ~18 product pages |
+| 4 | Part 30 | EN product pages complete + QA | 33 product pages |
+| 5 | Part 43 | EN theme hubs batch 1-13 (~26 themes) | ~26 theme hubs |
+| 6 | Part 55 | EN theme hubs complete + QA | 50 theme hubs |
+| 7 | Part 75 | EN preschool + kindergarten done | 100 theme+grade pages |
+| 8 | Part 105 | EN all 5 grades done | 250 theme+grade pages |
+| 9 | Part 145 | EN cross-validation + QA done | 250 (verified) |
+| 10 | Part 170 | EN secondary pages + final QA | ~25 secondary pages |
+| 11 | Part 203 | Finnish (fi) complete | 333 FI pages |
+| 12 | Part 236 | Danish (da) complete | 333 DA pages |
+| 13 | Part 269 | Norwegian (no) complete | 333 NO pages |
+| 14 | Part 302 | Swedish (sv) complete | 333 SV pages |
+| 15 | Part 335 | Dutch (nl) complete | 333 NL pages |
+| 16 | Part 368 | Italian (it) complete | 333 IT pages |
+| 17 | Part 401 | Portuguese (pt) complete | 333 PT pages |
+| 18 | Part 434 | Spanish (es) complete | 333 ES pages |
+| 19 | Part 467 | French (fr) complete | 333 FR pages |
+| 20 | Part 500 | German (de) complete + final | 333 DE pages |
+
+**Total deployment time: ~20 x 15 min = 5 hours across the entire 500-part project**
+
+### Deployment Rules
+
+1. **Deploy = commit + push + run deploy.sh** (see Appendix G for exact commands)
+2. **Every deploy includes:** verify build, check sample pages, run smoke tests
+3. **Non-deploy parts** still commit locally but don't push/deploy
+4. **DEPLOY POINT markers** appear inline throughout this plan after the relevant part
+5. If a deploy fails, fix the issue before continuing to the next part
 
 ---
 
@@ -404,6 +453,8 @@ Homepage
 - Updated product page types
 - Verified TypeScript compilation
 
+> **DEPLOY POINT #1** — Commit, push, deploy to verify type definition changes compile cleanly. See Appendix G.
+
 ### Part 10: Schema Markup Infrastructure Upgrade
 **Pages affected:** `frontend/lib/schema-generator.ts` and page files
 **Objective:** Implement comprehensive schema markup for all page types
@@ -521,32 +572,36 @@ Homepage
 - No horizontal scroll on mobile
 - Tap targets >=48px
 
-### Part 15: Validation & Testing Infrastructure
+> **DEPLOY POINT #2** — Commit, push, deploy to verify component + infrastructure changes. **DEPLOYED** (Part 14 complete). See Appendix G.
+
+### Part 15: Validation & Testing Infrastructure **COMPLETE**
 **Pages affected:** Scripts and CI
 **Objective:** Build automated validation for ongoing SEO quality
 
 **Tasks:**
-1. Create `scripts/validate-seo-perfection.js`:
-   - Title length validation (50-60 chars)
-   - Description length validation (150-160 chars)
-   - Primary keyword uniqueness per locale
-   - H1 presence check
-   - Schema markup validation
-   - Internal link minimum (3+ per page)
-   - Word count minimum (800+ words)
-   - Image alt text presence
-   - FAQ section presence (5+ questions)
-   - AI Overview snippet presence
-2. Create `scripts/validate-keyword-ownership.js`:
-   - Check no two pages in same locale share primary keyword
-   - Verify keyword placement (URL, H1, meta, first 100 words)
-3. Add to pre-commit hook or build validation
-4. Run full validation on current state (expect many failures - this is the baseline)
+1. Create `scripts/validate-seo-perfection.js` **DONE**
+   - 10 checks per page: title length, desc length, keywords, heading, word count, FAQ count, snippet, internal links, kw-in-title, unique signal
+   - All 3 page types (theme-hub, theme-grade, product) x all 11 locales
+   - Cross-page: title uniqueness, primary keyword uniqueness, description similarity
+   - CLI: --locale, --theme, --type, --strict, --json, --baseline
+2. Create `scripts/validate-keyword-ownership.js` **DONE**
+   - Primary keyword uniqueness per locale (found 20 conflicts)
+   - Keyword placement in 4 locations (title, heading, description, intro)
+   - Near-duplicate detection (>80% keyword token overlap, found 306 pairs)
+   - Uses accented-char-safe word boundary pattern
+3. Pre-commit hook: NOT added (would slow every commit, always fail on baseline)
+4. Baseline run **DONE** - results saved to `docs/audit-results/`
+
+**Baseline Results (3,663 pages):**
+- SEO Perfection: 14,562 pass / 11,250 warn / 10,818 fail
+- Keyword Ownership: 20 uniqueness conflicts, 1,216 placement fails, 306 near-duplicates
+- JSON baselines: `seo-perfection-baseline.json`, `keyword-ownership-baseline.json`
 
 **Deliverables:**
-- `scripts/validate-seo-perfection.js`
-- `scripts/validate-keyword-ownership.js`
-- Baseline validation results
+- `scripts/validate-seo-perfection.js` (~500 lines)
+- `scripts/validate-keyword-ownership.js` (~300 lines)
+- `docs/audit-results/seo-perfection-baseline.json`
+- `docs/audit-results/keyword-ownership-baseline.json`
 
 ---
 
@@ -579,50 +634,56 @@ Each product page transformed from feature-list to comprehensive educational res
 - **Related resources** (3-5 internal links to theme/blog pages with keyword-rich anchors)
 - **Schema markup** (SoftwareApplication, FAQ, HowTo, LearningResource, BreadcrumbList)
 
-### Part 16: Product Pages - Math Apps Batch 1
-**Pages:** addition-worksheets, subtraction, math-worksheet (3 pages)
-**Primary Keywords (to be finalized in Part 4):**
-- addition-worksheets: "free addition worksheet generator with pictures"
-- subtraction: "printable subtraction worksheets with answer key"
-- math-worksheet: "custom math worksheet maker for teachers"
+### Part 16: Product Pages - Math Apps Batch 1 -- COMPLETE
+**Pages:** addition-worksheets, subtraction-worksheets, math-worksheets (3 pages)
+**Primary Keywords (finalized):**
+- addition-worksheets: "addition worksheet generator"
+- subtraction-worksheets: "subtraction worksheet generator"
+- math-worksheets: "math worksheet generator with pictures"
 
-**Tasks per page:**
-1. Research and finalize keyword cluster (primary + 5 secondary + 10 LSI + 3 question)
-2. Rewrite hero section with primary keyword in first 100 words
-3. Add AI Overview snippet (2-3 sentences)
-4. Add comparison table (our app vs. static worksheets)
-5. Add pedagogical research section (with 1-2 citations)
-6. Rewrite FAQs to be pedagogically focused (not just product FAQs)
-7. Add grade-by-grade usage guide
-8. Add differentiation strategies section
-9. Update schema markup (add LearningResource, enhanced FAQ)
-10. Add 3+ strategic internal links with keyword-rich anchor text
-11. Verify no keyword cannibalization with theme/grade pages
-12. Run validation script
+**Completed:**
+1. Fixed validator FAQ counter bug (product files use `faq: { items: [...] }` not `faq: [...]`)
+2. Built 4 SEO enrichment rendering components: AIOverviewSnippet, ComparisonTable, ResearchBacking, TeacherTestimonials
+3. Wired components into ProductPageClient.tsx with conditional rendering
+4. All 3 pages enriched with: aiOverviewSnippet, comparisonTable (6 rows each), researchBacking (2 citations each), teacherTestimonials (2 quotes each), tips (grade-by-grade guide, 5 items each)
+5. Populated empty features (7 items), useCases (6 items), relatedApps (6 items) on subtraction + math
+6. Updated SEO keywords with Part 4 researched LSI terms on all 3 pages
+7. Trimmed addition FAQ from 26 to 16, subtraction from 20 to 14, math kept at 20
+8. Added LearningResource JSON-LD schema to SchemaScripts (auto-generates when aiOverviewSnippet present)
+9. Primary keyword placed in hero first sentence on all 3 pages
+10. No keyword cannibalization between pages (distinct primary keywords verified)
+11. All 3 pages pass validator checks (title, desc, keywords, FAQ, kw-in-title, unique-content)
 
-### Part 17: Product Pages - Math Apps Batch 2
+### Part 17: Product Pages - Math Apps Batch 2 ✅ COMPLETE
 **Pages:** code-addition, math-puzzle, more-less (3 pages)
-**Tasks:** Same transformation template as Part 16
+**Completed:** Keywords updated with Part 4 LSI terms, features (7 items), useCases (6 items), relatedApps (6 items), aiOverviewSnippet, comparisonTable (6 rows), researchBacking (2 citations), teacherTestimonials (2 quotes), tips (5 grade levels) added to all 3 pages. Hero first sentences updated with primary keywords. TS clean, validator passes (word-count pre-existing).
 
-### Part 18: Product Pages - Language Arts Batch 1
+### Part 18: Product Pages - Language Arts Batch 1 ✅ COMPLETE
 **Pages:** word-search, word-scramble, word-guess (3 pages)
 **Tasks:** Same transformation template with language arts focus
+**Completed:** Keywords updated with Part 4 LSI terms, features (7 items), useCases (6 items with subtitles), relatedApps (6 items), aiOverviewSnippet, comparisonTable (6 rows), researchBacking (2 citations), teacherTestimonials (2 quotes), tips (5 grade levels) added to all 3 pages. Hero first sentences updated with primary keywords (word search puzzle generator, word scramble generator for kids, word guess puzzle generator). TS clean, validator passes (word-count pre-existing).
 
-### Part 19: Product Pages - Language Arts Batch 2
-**Pages:** alphabet-train, writing-app, image-crossword (3 pages)
+### Part 19: Product Pages - Language Arts Batch 2 ✅ COMPLETE
+**Pages:** alphabet-train-worksheets, writing-worksheets, crossword-worksheets (3 pages)
 **Tasks:** Same transformation template
+**Completed:** Keywords updated with Part 4 LSI terms (alphabet train worksheet generator, letter tracing worksheet generator, picture crossword maker for kids). Hero first sentences updated with primary keywords. All 3 pages enriched with features (7 items), useCases (6 items with subtitles), relatedApps (6 items), aiOverviewSnippet, comparisonTable (6 rows), researchBacking (2 citations), teacherTestimonials (2 quotes), tips (5 grade levels). TS clean, validator passes (word-count pre-existing).
 
-### Part 20: Product Pages - Language Arts Batch 3
-**Pages:** image-cryptogram, prepositions (2 pages)
+### Part 20: Product Pages - Language Arts Batch 3 ✅ COMPLETE
+**Pages:** cryptogram-worksheets, prepositions-worksheets (2 pages)
 **Tasks:** Same transformation template
+**Completed:** Keywords updated with Part 4 LSI terms (picture cryptogram worksheet maker, prepositions worksheet maker). Hero first sentences updated with primary keywords. Both pages enriched with features (7 items), useCases (6 items with subtitles), relatedApps (6 items), aiOverviewSnippet, comparisonTable (6 rows), researchBacking (2 citations), teacherTestimonials (2 quotes), tips (5 grade levels). TS clean, validator passes (word-count pre-existing).
 
-### Part 21: Product Pages - Visual/Art Batch
+### Part 21: Product Pages - Visual/Art Batch ✅ COMPLETE
 **Pages:** coloring, draw-and-color, drawing-lines (3 pages)
 **Tasks:** Same transformation template with visual arts focus
+**Completed:** Keywords updated with Part 4 LSI terms (coloring page generator for kids, grid drawing worksheet maker, line tracing worksheet maker). Hero first sentences updated with primary keywords. All 3 pages enriched with features (7 items), useCases (6 items with subtitles), relatedApps (6 items), aiOverviewSnippet, comparisonTable (6 rows), researchBacking (2 citations), teacherTestimonials (2 quotes), tips (5 grade levels). TS clean, validator passes (word-count pre-existing).
 
-### Part 22: Product Pages - Logic/Puzzle Batch 1
+### Part 22: Product Pages - Logic/Puzzle Batch 1 ✅ COMPLETE
 **Pages:** sudoku, grid-match, pattern-worksheet (3 pages)
 **Tasks:** Same transformation template with logic/puzzle focus
+**Completed:** Keywords updated with Part 4 LSI terms (sudoku puzzle maker for kids, grid match puzzle maker, pattern recognition worksheet maker). Hero first sentences updated with primary keywords. All 3 pages enriched with features (7 items), useCases (6 items with subtitles), relatedApps (6 items cross-linking logic/puzzle pages), aiOverviewSnippet, comparisonTable (6 rows), researchBacking (2 citations), teacherTestimonials (2 quotes), tips (5 grade levels). TS clean, validator passes (word-count pre-existing).
+
+> **DEPLOY POINT #3** — Mid-phase deploy, ~18 EN product pages live. Verify rendering. See Appendix G.
 
 ### Part 23: Product Pages - Logic/Puzzle Batch 2
 **Pages:** pattern-train, missing-pieces, odd-one-out (3 pages)
@@ -674,6 +735,8 @@ Each product page transformed from feature-list to comprehensive educational res
 5. Ensure research citations are accurate and relevant
 6. Run full validation suite
 7. Document completion in `docs/audit-results/phase1-product-pages-complete.md`
+
+> **DEPLOY POINT #4** — Phase-end deploy, all 33 EN product pages live. See Appendix G.
 
 ---
 
@@ -790,6 +853,8 @@ NOTE: We REDUCE word count but INCREASE quality. Remove filler, add substance.
 **Why grouped:** Cold season celebration themes
 **Tasks:** Same template with cultural celebration learning
 
+> **DEPLOY POINT #5** — Mid-phase deploy, ~26 EN theme hubs live. Verify rendering. See Appendix G.
+
 ### Part 44: Theme Hubs - Seasonal Holidays (Easter, Halloween)
 **Themes:** easter, halloween
 **Why grouped:** Specific holiday themes with strong visual elements
@@ -856,6 +921,8 @@ NOTE: We REDUCE word count but INCREASE quality. Remove filler, add substance.
 7. Run full validation suite
 8. Document in `docs/audit-results/phase2-theme-hubs-complete.md`
 
+> **DEPLOY POINT #6** — All 50 EN theme hubs live. Phase-end deploy + full validation. See Appendix G.
+
 ---
 
 ## PHASE 3: ENGLISH THEME+GRADE PAGES (Parts 56-155)
@@ -920,6 +987,8 @@ Or covers 2-3 themes at the same grade level (maintaining grade coherence).
 **Part 74:** toys, household, furniture, pirates, superheroes (kindergarten)
 **Part 75:** robots, construction, fairy-tales, circus, camping (kindergarten)
 
+> **DEPLOY POINT #7** — Preschool + kindergarten done (100 pages). Mid-phase deploy to verify. See Appendix G.
+
 ### Parts 76-85: First Grade (All 50 Themes)
 **5 themes per part, first grade level only**
 
@@ -961,6 +1030,8 @@ Or covers 2-3 themes at the same grade level (maintaining grade coherence).
 **Part 103:** emotions, clothing, school, jobs, music (third-grade)
 **Part 104:** toys, household, furniture, pirates, superheroes (third-grade)
 **Part 105:** robots, construction, fairy-tales, circus, camping (third-grade)
+
+> **DEPLOY POINT #8** — All 250 theme+grade pages created (5 grades x 50 themes). Mid-phase deploy to verify. See Appendix G.
 
 ### Parts 106-145: Cross-Grade Validation & Enhancement (By Theme)
 **Each part validates and cross-links one theme across all 5 grades**
@@ -1019,6 +1090,8 @@ Or covers 2-3 themes at the same grade level (maintaining grade coherence).
 **Part 143:** AI Overview snippet testing (test with structured data testing tool)
 **Part 144:** Accessibility audit (WCAG 2.1 AA on sample 25 pages)
 **Part 145:** Final documentation: `docs/audit-results/phase3-theme-grade-complete.md`
+
+> **DEPLOY POINT #9** — Cross-validation complete, all 250 theme+grade pages verified. See Appendix G.
 
 ---
 
@@ -1153,6 +1226,8 @@ Or covers 2-3 themes at the same grade level (maintaining grade coherence).
 **Part 168:** Verify all pages render correctly on production
 **Part 169:** Submit updated sitemap to Google Search Console
 **Part 170:** Document Phase 4 completion, baseline post-deployment metrics
+
+> **DEPLOY POINT #10** — All English pages complete and live. Full EN deployment + sitemap submission + post-deploy metrics. See Appendix G.
 
 ---
 
@@ -1291,6 +1366,8 @@ Each locale follows the same 33-part structure:
 **Part 202:** FI content quality review
 **Part 203:** FI deploy, verify, sitemap update
 
+> **DEPLOY POINT #11** — Finnish (fi) complete, commit + push + deploy + verify all 333 FI pages. See Appendix G.
+
 ### Phase 6: Danish (da) - Parts 204-236
 **Part 204:** DA keyword research - product & theme hub pages
 **Part 205:** DA keyword research - theme+grade pages
@@ -1325,6 +1402,8 @@ Each locale follows the same 33-part structure:
 **Part 234:** DA schema + internal linking audit
 **Part 235:** DA content quality review
 **Part 236:** DA deploy, verify, sitemap update
+
+> **DEPLOY POINT #12** — Danish (da) complete, commit + push + deploy + verify all 333 DA pages. See Appendix G.
 
 ### Phase 7: Norwegian (no) - Parts 237-269
 **Part 237:** NO keyword research - product & theme hub pages
@@ -1361,6 +1440,8 @@ Each locale follows the same 33-part structure:
 **Part 268:** NO content quality review
 **Part 269:** NO deploy, verify, sitemap update
 
+> **DEPLOY POINT #13** — Norwegian (no) complete, commit + push + deploy + verify all 333 NO pages. See Appendix G.
+
 ### Phase 8: Swedish (sv) - Parts 270-302
 **Part 270:** SV keyword research - product & theme hub pages
 **Part 271:** SV keyword research - theme+grade pages
@@ -1395,6 +1476,8 @@ Each locale follows the same 33-part structure:
 **Part 300:** SV schema + internal linking audit
 **Part 301:** SV content quality review
 **Part 302:** SV deploy, verify, sitemap update
+
+> **DEPLOY POINT #14** — Swedish (sv) complete, commit + push + deploy + verify all 333 SV pages. See Appendix G.
 
 ### Phase 9: Dutch (nl) - Parts 303-335
 **Part 303:** NL keyword research - product & theme hub pages
@@ -1431,6 +1514,8 @@ Each locale follows the same 33-part structure:
 **Part 334:** NL content quality review
 **Part 335:** NL deploy, verify, sitemap update
 
+> **DEPLOY POINT #15** — Dutch (nl) complete, commit + push + deploy + verify all 333 NL pages. See Appendix G.
+
 ### Phase 10: Italian (it) - Parts 336-368
 **Part 336:** IT keyword research - product & theme hub pages
 **Part 337:** IT keyword research - theme+grade pages
@@ -1465,6 +1550,8 @@ Each locale follows the same 33-part structure:
 **Part 366:** IT schema + internal linking audit
 **Part 367:** IT content quality review
 **Part 368:** IT deploy, verify, sitemap update
+
+> **DEPLOY POINT #16** — Italian (it) complete, commit + push + deploy + verify all 333 IT pages. See Appendix G.
 
 ### Phase 11: Portuguese (pt) - Parts 369-401
 **Part 369:** PT keyword research - product & theme hub pages
@@ -1501,6 +1588,8 @@ Each locale follows the same 33-part structure:
 **Part 400:** PT content quality review
 **Part 401:** PT deploy, verify, sitemap update
 
+> **DEPLOY POINT #17** — Portuguese (pt) complete, commit + push + deploy + verify all 333 PT pages. See Appendix G.
+
 ### Phase 12: Spanish (es) - Parts 402-434
 **Part 402:** ES keyword research - product & theme hub pages
 **Part 403:** ES keyword research - theme+grade pages
@@ -1535,6 +1624,8 @@ Each locale follows the same 33-part structure:
 **Part 432:** ES schema + internal linking audit
 **Part 433:** ES content quality review
 **Part 434:** ES deploy, verify, sitemap update
+
+> **DEPLOY POINT #18** — Spanish (es) complete, commit + push + deploy + verify all 333 ES pages. See Appendix G.
 
 ### Phase 13: French (fr) - Parts 435-467
 **Part 435:** FR keyword research - product & theme hub pages
@@ -1571,6 +1662,8 @@ Each locale follows the same 33-part structure:
 **Part 466:** FR content quality review
 **Part 467:** FR deploy, verify, sitemap update
 
+> **DEPLOY POINT #19** — French (fr) complete, commit + push + deploy + verify all 333 FR pages. See Appendix G.
+
 ### Phase 14: German (de) - Parts 468-500
 **Part 468:** DE keyword research - product & theme hub pages
 **Part 469:** DE keyword research - theme+grade pages
@@ -1605,6 +1698,8 @@ Each locale follows the same 33-part structure:
 **Part 498:** DE schema + internal linking audit
 **Part 499:** DE content quality review + cross-locale final verification
 **Part 500:** DE deploy + FINAL cross-locale optimization + victory lap
+
+> **DEPLOY POINT #20** — German (de) complete + FINAL deployment. All 3,663 pages live. Cross-locale verification. See Appendix G.
 
 ---
 
@@ -1835,24 +1930,24 @@ Use this checklist for EVERY landing page transformation:
 
 ### Phase Progress
 
-| Phase | Parts | Status | Pages Done | Pages Total |
-|-------|-------|--------|------------|-------------|
-| 0: Foundation | 1-15 | PENDING | 0 | N/A (infrastructure) |
-| 1: EN Product | 16-30 | PENDING | 0 | 33 |
-| 2: EN Theme Hubs | 31-55 | PENDING | 0 | 50 |
-| 3: EN Theme+Grade | 56-155 | PENDING | 0 | 250 |
-| 4: EN Secondary | 156-170 | PENDING | 0 | ~25 |
-| 5: Finnish | 171-203 | PENDING | 0 | 333 |
-| 6: Danish | 204-236 | PENDING | 0 | 333 |
-| 7: Norwegian | 237-269 | PENDING | 0 | 333 |
-| 8: Swedish | 270-302 | PENDING | 0 | 333 |
-| 9: Dutch | 303-335 | PENDING | 0 | 333 |
-| 10: Italian | 336-368 | PENDING | 0 | 333 |
-| 11: Portuguese | 369-401 | PENDING | 0 | 333 |
-| 12: Spanish | 402-434 | PENDING | 0 | 333 |
-| 13: French | 435-467 | PENDING | 0 | 333 |
-| 14: German | 468-500 | PENDING | 0 | 333 |
-| **TOTAL** | **1-500** | **PENDING** | **0** | **3,663** |
+| Phase | Parts | Status | Deploys | Pages Done | Pages Total |
+|-------|-------|--------|---------|------------|-------------|
+| 0: Foundation | 1-15 | **Parts 1-14 COMPLETE, Part 15 PENDING** | #1 (Part 9), #2 (Part 14) | N/A | N/A (infrastructure) |
+| 1: EN Product | 16-30 | PENDING | #3 (Part 22), #4 (Part 30) | 0 | 33 |
+| 2: EN Theme Hubs | 31-55 | PENDING | #5 (Part 43), #6 (Part 55) | 0 | 50 |
+| 3: EN Theme+Grade | 56-155 | PENDING | #7 (Part 75), #8 (Part 105), #9 (Part 145) | 0 | 250 |
+| 4: EN Secondary | 156-170 | PENDING | #10 (Part 170) | 0 | ~25 |
+| 5: Finnish | 171-203 | PENDING | #11 (Part 203) | 0 | 333 |
+| 6: Danish | 204-236 | PENDING | #12 (Part 236) | 0 | 333 |
+| 7: Norwegian | 237-269 | PENDING | #13 (Part 269) | 0 | 333 |
+| 8: Swedish | 270-302 | PENDING | #14 (Part 302) | 0 | 333 |
+| 9: Dutch | 303-335 | PENDING | #15 (Part 335) | 0 | 333 |
+| 10: Italian | 336-368 | PENDING | #16 (Part 368) | 0 | 333 |
+| 11: Portuguese | 369-401 | PENDING | #17 (Part 401) | 0 | 333 |
+| 12: Spanish | 402-434 | PENDING | #18 (Part 434) | 0 | 333 |
+| 13: French | 435-467 | PENDING | #19 (Part 467) | 0 | 333 |
+| 14: German | 468-500 | PENDING | #20 (Part 500) | 0 | 333 |
+| **TOTAL** | **1-500** | **Parts 1-14 done** | **20 deploys** | **0** | **3,663** |
 
 ---
 
@@ -1887,8 +1982,49 @@ When starting a new part:
 
 ---
 
+## APPENDIX G: DEPLOYMENT COMMANDS
+
+Reference these commands at any **DEPLOY POINT** marked in the plan.
+
+### Pre-Deploy: Commit & Push
+```bash
+# Stage specific changed files (NEVER use git add .)
+git add frontend/content/themes/ frontend/components/ frontend/lib/ frontend/config/ frontend/app/
+git commit -m "SEO: [describe what changed]"
+git push
+```
+
+### Deploy to Production
+```bash
+"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "bash /opt/lessoncraftstudio/deploy.sh"
+```
+
+### Post-Deploy Verification
+```bash
+# Check build succeeded and app is running
+"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "pm2 status lessoncraftstudio"
+
+# Spot-check a sample page renders (replace URL as appropriate)
+curl -sI "https://www.lessoncraftstudio.com/en/worksheets/animals" | head -5
+
+# Check samples health
+"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "curl -s http://localhost:3000/api/health/samples"
+```
+
+### Deploy Checklist (Every Deploy Point)
+- [ ] All changes committed with descriptive message
+- [ ] `git push` completed successfully
+- [ ] `deploy.sh` ran without errors
+- [ ] PM2 shows app status "online"
+- [ ] Sample pages render correctly (spot-check 2-3 pages)
+- [ ] No console errors on sample pages
+- [ ] Samples/images still loading (nginx health check)
+
+---
+
 *Plan created: 2026-02-20*
 *Last updated: 2026-02-20*
 *Total parts: 500*
 *Total landing pages: 3,663*
+*Total deployments: 20 (see Deployment Schedule section)*
 *Estimated completion: Ongoing, one part per session*

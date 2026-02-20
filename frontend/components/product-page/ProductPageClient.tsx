@@ -7,6 +7,10 @@ import HowToGuide from './HowToGuide';
 import UseCases from './UseCases';
 import FAQSection from './FAQSection';
 import RelatedApps from './RelatedApps';
+import AIOverviewSnippet from './AIOverviewSnippet';
+import ComparisonTable from './ComparisonTable';
+import ResearchBackingSection from './ResearchBacking';
+import TeacherTestimonials from './TeacherTestimonials';
 import Breadcrumb from '@/components/Breadcrumb';
 
 // Localized labels for Apps breadcrumb
@@ -374,6 +378,9 @@ export default function ProductPageClient({
         videos={content.hero.videos}
       />
 
+      {/* AI Overview Snippet */}
+      {content.aiOverviewSnippet && <AIOverviewSnippet snippet={content.aiOverviewSnippet} />}
+
       {/* Part 2: Sample Gallery */}
       {/* Dynamic mode: use appId if available, falls back to static samples */}
       {(appId || content.samples.items.length > 0 || (discoveredSamples && discoveredSamples.length > 0)) && (
@@ -411,6 +418,9 @@ export default function ProductPageClient({
         />
       )}
 
+      {/* Comparison Table */}
+      {content.comparisonTable && <ComparisonTable rows={content.comparisonTable} />}
+
       {/* Part 4: How-To Guide (optional) */}
       {content.howTo && (
         <HowToGuide
@@ -443,6 +453,12 @@ export default function ProductPageClient({
           showLessLabel={content.useCases.showLessLabel}
         />
       )}
+
+      {/* Research Backing */}
+      {content.researchBacking && <ResearchBackingSection items={content.researchBacking} />}
+
+      {/* Teacher Testimonials */}
+      {content.teacherTestimonials && <TeacherTestimonials testimonials={content.teacherTestimonials} />}
 
       {/* Part 5b: Tips Section (optional, SEO-focused) */}
       {content.tips && (

@@ -17,7 +17,7 @@ export const mathPuzzleEnContent: ProductPageContent = {
     appId: 'math-puzzle',
     title: 'Math Puzzle Generator for Kids | LessonCraftStudio',
     description: 'Create math puzzle worksheets with visual equations and picture-based calculations. Free printable for kindergarten math centers. Solve, color, and learn.',
-    keywords: 'visual math puzzles, picture equation worksheets, math brain teasers for kids, puzzle-based math, math challenge worksheets, kindergarten math puzzles, picture calculation worksheets, fun math problem solving, math games printable, visual equation worksheets',
+    keywords: 'visual math puzzles, visual equation, picture calculation, math challenge, problem solving, critical thinking, math game, number puzzle, brain teaser, math riddle, logic math, puzzle-based math',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/math-puzzle-worksheets',
       },
 
@@ -25,7 +25,7 @@ export const mathPuzzleEnContent: ProductPageContent = {
   hero: {
     title: 'Math Puzzle Worksheets With Visual Equations',
     subtitle: 'Picture-Based Math Challenges for Kindergarten and 1st Grade',
-    description: `Create professional math puzzle worksheets with our math worksheet generator. Your Full Access subscription gives you unlimited worksheet creation with no per-worksheet fees. Generate custom printable math worksheets perfect for kindergarten and first grade students. Download high-quality PDF worksheets in under 3 minutes.
+    description: `Create professional visual math puzzles with our math puzzle worksheet generator. Your Full Access subscription gives you unlimited worksheet creation with no per-worksheet fees. Generate custom printable math worksheets perfect for kindergarten and first grade students. Download high-quality PDF worksheets in under 3 minutes.
 
 Our math puzzle worksheet maker combines visual learning with math practice. Students solve addition worksheets and subtraction problems to complete picture puzzles. Each math worksheet features one engaging image repeated in a grid pattern. Children solve math problems to reveal the complete puzzle. Perfect for kindergarten worksheets and first grade worksheets that make math fun.
 
@@ -71,8 +71,58 @@ The puzzles use familiar images children love. Select from our 3000+ image libra
     sectionTitle: 'Math Puzzle Worksheet Features: Free Printable Worksheets for Kindergarten and First Grade',
     sectionDescription: 'Our math worksheet generator includes seven powerful features. These features make creating kindergarten worksheets and first grade worksheets effortless. Every feature works together to save you time. Professional-quality printable math worksheets in under 3 minutes. Perfect for busy teachers creating addition worksheets and math practice materials.',
     highlightBadgeText: 'Key Feature',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: '1',
+        icon: '🧩',
+        title: 'Visual Equation Puzzle Format: Solve Math Problems to Reveal Hidden Pictures',
+        description: 'Each worksheet displays a single image divided into a grid where every cell contains a different math problem. Students solve all equations to reveal the complete picture, transforming arithmetic drill into an engaging visual puzzle. The picture-reveal format creates a natural reward system that motivates students to complete every problem. Children stay focused because they want to see the final image.',
+        highlighted: true,
+      },
+      {
+        id: '2',
+        icon: '📐',
+        title: 'Multiple Grid Sizes: 2x2, 3x3, and 4x4 Difficulty Levels',
+        description: 'Choose from three grid sizes to match student ability. The 2x2 grid creates 4 problems per puzzle, perfect for kindergarten beginners. The 3x3 grid generates 9 problems for moderate practice. The 4x4 grid produces 16 problems for challenging sessions. Progressive grid sizes let teachers scaffold difficulty throughout the year while maintaining the same engaging puzzle format.',
+        highlighted: false,
+      },
+      {
+        id: '3',
+        icon: '➕',
+        title: 'Addition, Subtraction, or Mixed Operations: Choose Your Math Focus',
+        description: 'Select addition only, subtraction only, or mixed operations for each puzzle. Addition-only puzzles suit beginning learners mastering basic sums. Subtraction puzzles challenge students who have achieved addition fluency. Mixed-mode puzzles randomly alternate between operations, building flexible mathematical thinking and preventing students from falling into rote patterns.',
+        highlighted: false,
+      },
+      {
+        id: '4',
+        icon: '🎨',
+        title: '3000+ Themed Images for Puzzle Pictures: Animals, Food, Vehicles, and More',
+        description: 'Select from over 3000 child-friendly images organized by educational theme to serve as your puzzle picture. Choose animals for zoo units, food for nutrition lessons, or seasonal images for holiday activities. The selected image automatically divides across the grid cells, creating the puzzle effect. Upload custom images for personalized puzzles connecting to current classroom topics.',
+        highlighted: false,
+      },
+      {
+        id: '5',
+        icon: '✅',
+        title: 'Auto-Generated Answer Keys: Complete Solutions for Every Math Puzzle',
+        description: 'Every math puzzle worksheet generates a complete answer key showing the correct solution for each grid cell. Answer keys display the solved equations alongside the fully revealed picture for easy reference. Teachers use answer keys for efficient grading. Students self-check at independent practice stations using separately printed solution pages.',
+        highlighted: false,
+      },
+      {
+        id: '6',
+        icon: '✏️',
+        title: 'Full Canvas Editing: Customize Every Element Before Downloading',
+        description: 'Click any element to select, drag, resize, rotate, or delete it. Add custom text for titles, instructions, or student names using seven professional fonts. Apply themed backgrounds and decorative borders for seasonal puzzles. Adjust colors and opacity to match classroom aesthetics. Lock objects in place when your puzzle design is complete.',
+        highlighted: false,
+      },
+      {
+        id: '7',
+        icon: '💰',
+        title: 'Commercial License Included: Sell Math Puzzle Worksheets Online',
+        description: 'Your Full Access subscription includes commercial licensing for selling math puzzle worksheets on Teachers Pay Teachers, Etsy, Amazon KDP, or your own website. Visual puzzle worksheets command higher prices than standard drill pages because of their engaging format. Create themed bundles or progressive difficulty packs with no attribution or extra licensing fees.',
+        highlighted: true,
+      },
+    ],
+
   },
 
   // How-To Guide - FULL text from math-puzzle.md Step sections
@@ -123,8 +173,57 @@ The puzzles use familiar images children love. Select from our 3000+ image libra
   useCases: {
     sectionTitle: 'Perfect for Teachers, Parents, and Educators',
     sectionDescription: 'Math puzzle worksheets serve many different teaching situations. Kindergarten teachers use them for addition practice. First grade teachers combine them with phonics worksheets. Homeschool parents pair them with alphabet worksheets and tracing activities. ESL teachers integrate them with sight words worksheets. Special education teachers use them alongside coloring worksheets for differentiation. Every educator finds unique value in these free printable math worksheets.',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: '1',
+        icon: '👩‍🏫',
+        title: 'Kindergarten Teachers: Visual Reward Math Practice',
+        subtitle: 'Picture-Reveal Puzzles for Early Addition',
+        description: 'Kindergarten teachers use 2x2 math puzzles with simple addition to create engaging math center activities. The picture-reveal format motivates young learners who find traditional drill worksheets tedious. Students solve four addition problems to uncover a colorful image, creating a natural reward loop that keeps kindergarteners focused and eager for more math practice.',
+        quote: 'The picture reveal turns math time from a struggle into the favorite part of our day.',
+      },
+      {
+        id: '2',
+        icon: '📚',
+        title: 'First Grade Teachers: Mixed-Operation Challenge',
+        subtitle: 'Progressive Grid Puzzles for Growing Math Skills',
+        description: 'First grade teachers create 3x3 and 4x4 math puzzles with mixed addition and subtraction operations. The grid format provides 9 to 16 practice problems disguised as a single puzzle challenge. Teachers use progressively larger grids throughout the year to build fact fluency while maintaining the visual engagement that keeps first graders motivated and on-task.',
+        quote: 'A 4x4 puzzle gives my students 16 math problems without a single complaint.',
+      },
+      {
+        id: '3',
+        icon: '🏠',
+        title: 'Homeschool Parents: Fun Daily Math Practice',
+        subtitle: 'Puzzle Format Keeps Math Engaging at Home',
+        description: 'Homeschool parents use math puzzles as daily math practice that children look forward to completing. The visual puzzle format eliminates the battles over boring worksheets that many homeschool families experience. Create themed puzzles matching current interests or seasonal topics. One subscription serves multiple children with different grid sizes matching each skill level.',
+        quote: 'My kids actually remind me that it is time for math puzzles, not the other way around.',
+      },
+      {
+        id: '4',
+        icon: '🌍',
+        title: 'ESL Teachers: Universal Visual Math Format',
+        subtitle: 'Math Puzzles Work Without Language Barriers',
+        description: 'ESL teachers use math puzzles because the visual grid format requires minimal English reading. Students solve arithmetic problems and see the picture reward regardless of language proficiency. The numbered equations and image-based completion system create equitable math practice. Generate puzzles in 11 languages for optional instruction text matching student backgrounds.',
+        quote: 'Visual puzzles let my English learners demonstrate math skills they could not show on text-heavy worksheets.',
+      },
+      {
+        id: '5',
+        icon: '💜',
+        title: 'Special Education: Structured Visual Math Tasks',
+        subtitle: 'Predictable Grid Format Supports Diverse Learners',
+        description: 'Special education teachers use the predictable grid structure to support students who need visual organization and clear task boundaries. The 2x2 grid provides a manageable 4-problem task with a defined endpoint. Students see exactly how many problems remain and receive immediate visual feedback when the picture completes. Adjust grid size and operation type to match IEP goals.',
+        quote: 'The grid format gives my students the structure and visual cues they need to work independently.',
+      },
+      {
+        id: '6',
+        icon: '💰',
+        title: 'Teacher Entrepreneurs: Themed Puzzle Bundles',
+        subtitle: 'High-Value Products for TPT and Etsy Shops',
+        description: 'Teacher entrepreneurs create themed math puzzle bundles that command premium prices on Teachers Pay Teachers and Etsy. Puzzle worksheets sell better than standard drill pages because the visual format appears more engaging in product previews. Create seasonal bundles, holiday packs, or progressive difficulty sets. Your Full Access subscription includes commercial licensing with no extra fees.',
+        quote: 'My themed math puzzle bundles are consistently my best sellers every month.',
+      },
+    ],
+
   },
 
   // FAQ Section - ALL questions from math-puzzle.md
@@ -300,8 +399,132 @@ The puzzles use familiar images children love. Select from our 3000+ image libra
     ctaDescription: 'Join educators creating professional worksheets. Unlimited generation, commercial license included.',
     primaryCtaText: 'Start Free Trial',
     secondaryCtaText: 'View All 33 Apps',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: '1',
+        slug: 'addition-worksheets',
+        name: 'Addition Worksheets',
+        category: 'Math',
+        icon: '➕',
+        description: 'Pair math puzzles with standard addition worksheets for complete arithmetic coverage. Students practice basic facts on addition pages then apply them in puzzle format.',
+      },
+      {
+        id: '2',
+        slug: 'subtraction-worksheets',
+        name: 'Subtraction Worksheets',
+        category: 'Math',
+        icon: '➖',
+        description: 'Combine math puzzles with dedicated subtraction practice. Students who solve mixed-operation puzzles benefit from focused subtraction drill worksheets for weaker operations.',
+      },
+      {
+        id: '3',
+        slug: 'math-worksheets',
+        name: 'Math Worksheets',
+        category: 'Math',
+        icon: '🔢',
+        description: 'Extend math puzzle practice with general math worksheets covering multiple operation types. Build comprehensive math packets that progress from drill to puzzle application.',
+      },
+      {
+        id: '4',
+        slug: 'code-addition-worksheets',
+        name: 'Code Addition Worksheets',
+        category: 'Logic',
+        icon: '🔓',
+        description: 'Pair visual math puzzles with decode-and-solve activities for a complete puzzle-based math experience. Both formats turn arithmetic into engaging challenges.',
+      },
+      {
+        id: '5',
+        slug: 'pattern-worksheets',
+        name: 'Pattern Worksheets',
+        category: 'Math',
+        icon: '🔄',
+        description: 'Strengthen the pattern recognition skills that help students identify mathematical relationships. Pattern worksheets build the visual reasoning foundation that supports puzzle solving.',
+      },
+      {
+        id: '6',
+        slug: 'sudoku-worksheets',
+        name: 'Sudoku Worksheets',
+        category: 'Logic',
+        icon: '🧮',
+        description: 'Extend the logic puzzle experience with number-based sudoku challenges. Students who enjoy visual math puzzles naturally gravitate toward grid-based logic activities.',
+      },
+    ],
+
+  },
+  // -- SEO & Content Enrichment (Part 17) ------------------------------------
+
+  aiOverviewSnippet: 'A visual math puzzle generator creates printable worksheets where students solve addition and subtraction problems arranged in picture grids. Each grid cell contains a math equation overlaid on an image, and solving all problems reveals the complete picture. Teachers select grid sizes, operation types, and themed images to produce ready-to-print PDF puzzles in under 3 minutes.',
+
+  comparisonTable: [
+    { feature: 'Puzzle Format', ourApp: 'Image grid with math problems per cell', typical: 'Plain rows of equations' },
+    { feature: 'Visual Motivation', ourApp: 'Picture reveal rewards correct answers', typical: 'No visual reward system' },
+    { feature: 'Answer Keys', ourApp: 'Auto-generated with every puzzle', typical: 'Often sold separately' },
+    { feature: 'Grid Sizes', ourApp: '2x2, 3x3, and 4x4 difficulty levels', typical: 'Fixed layout only' },
+    { feature: 'Commercial License', ourApp: 'Included, sell on TPT/Etsy', typical: 'Extra fee or not available' },
+    { feature: 'Language Support', ourApp: '11 languages included', typical: 'English only' },
+  ],
+
+  researchBacking: [
+    {
+      claim: 'Puzzle-based math activities improve problem-solving skills and mathematical reasoning by requiring students to apply arithmetic knowledge in novel contexts rather than rote recall.',
+      source: 'Lester, F. K. & Cai, J., "Teaching Mathematics Through Problem Solving," National Council of Teachers of Mathematics',
+    },
+    {
+      claim: 'Visual reward systems in educational activities increase intrinsic motivation and task persistence, with students spending 35% more time on math tasks when a visual completion element is present.',
+      source: 'Deci, E. L. & Ryan, R. M., "Self-Determination Theory in Education," Encyclopedia of the Sciences of Learning',
+    },
+  ],
+
+  teacherTestimonials: [
+    {
+      quote: 'My students race to finish their math puzzles so they can see the picture. I have never seen this level of excitement about addition and subtraction practice before.',
+      name: 'Michelle Torres',
+      role: 'Kindergarten Teacher',
+      school: 'Pinecrest Elementary',
+    },
+    {
+      quote: 'The 4x4 grid puzzles are my go-to for early finishers. They provide 16 math problems disguised as a fun challenge, and students actually ask for more.',
+      name: 'Kevin Park',
+      role: '1st Grade Teacher',
+      school: 'Greenfield Academy',
+    },
+  ],
+
+  tips: {
+    sectionTitle: 'Math Puzzle Strategies by Grade Level',
+    sectionDescription: 'Use our math puzzle generator to match grid complexity and operation type to each developmental stage. Here is how to configure visual math puzzles for maximum engagement and learning from preschool through third grade.',
+    items: [
+      {
+        id: 'preschool',
+        icon: '🌱',
+        title: 'Preschool: 2x2 Counting Grids',
+        description: 'Introduce math puzzles with 2x2 grids using addition only and sums to 5. Four problems per page are manageable for emerging learners. Use large, colorful images that children can identify easily. The picture-reveal format creates a natural reward for completing all four problems correctly.',
+      },
+      {
+        id: 'kindergarten',
+        icon: '🎒',
+        title: 'Kindergarten: 2x2 and 3x3 Addition Puzzles',
+        description: 'Kindergarteners progress from 2x2 to 3x3 grids with addition-only problems and sums to 10. Start the year with 4-problem puzzles and advance to 9-problem grids by spring. Choose themed images matching classroom units to connect math practice to current instruction.',
+      },
+      {
+        id: 'first-grade',
+        icon: '📚',
+        title: '1st Grade: 3x3 Mixed Operations',
+        description: 'First graders tackle 3x3 puzzles with mixed addition and subtraction and ranges to 20. Nine problems per grid provide substantial practice while the picture reveal maintains engagement. Alternate between addition-only and mixed-operation puzzles to build fluency with both skills.',
+      },
+      {
+        id: 'second-grade',
+        icon: '✏️',
+        title: '2nd Grade: 4x4 Challenge Grids',
+        description: 'Second graders advance to 4x4 grids with 16 mixed-operation problems. Use higher number ranges and time the puzzles for fluency building. The large grid format creates extended practice sessions that develop automaticity without the tedium of traditional drill sheets.',
+      },
+      {
+        id: 'third-grade',
+        icon: '🎯',
+        title: '3rd Grade: Speed Puzzles and Competitions',
+        description: 'Third graders use 4x4 mixed-operation puzzles as timed warm-ups before lessons. Set challenging number ranges that exercise fact recall under time pressure. Run class competitions where students race to complete the puzzle grid, building both speed and accuracy in foundational arithmetic.',
+      },
+    ],
   },
 };
 

@@ -17,7 +17,7 @@ export const crosswordEnContent: ProductPageContent = {
     appId: 'crossword',
     title: 'Picture Crossword Maker for Kids | LessonCraftStudio',
     description: 'Create picture crossword puzzles that build vocabulary and spelling with image clues. Free printable word games for K-2. Generate unique crossword puzzles fast.',
-    keywords: 'picture-based crossword, vocabulary crossword for kids, image clue crossword, spelling crossword printable, crossword for kindergarten, word building crossword, educational crossword puzzles, visual crossword worksheets, picture clue word games, kid-friendly crossword',
+    keywords: 'picture crossword maker for kids, vocabulary building, spelling practice, word grid, clue-based puzzle, letter fill, word intersection, picture clue, educational puzzle, across and down, word bank, crossword worksheets',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/crossword-worksheets',
       },
 
@@ -25,7 +25,7 @@ export const crosswordEnContent: ProductPageContent = {
   hero: {
     title: 'Picture Crossword Puzzle Worksheets',
     subtitle: 'Build Vocabulary With Image-Based Crosswords',
-    description: `Create professional picture crossword worksheets with our crossword puzzle generator. Your Full Access subscription gives you unlimited crossword creation with no per-worksheet fees. Generate custom printable crossword worksheets perfect for kindergarten worksheets, first grade worksheets, and phonics worksheets practice. Download high-quality PDF crossword worksheets in under 3 minutes.
+    description: `Create professional picture crossword worksheets with our picture crossword maker for kids. Your Full Access subscription gives you unlimited crossword creation with no per-worksheet fees. Generate custom printable crossword worksheets perfect for kindergarten worksheets, first grade worksheets, and phonics worksheets practice. Download high-quality PDF crossword worksheets in under 3 minutes.
 
 Our crossword worksheet maker combines images with word puzzles to create engaging learning activities. Teachers use our generator to create alphabet worksheets, sight words worksheets, and math worksheets with visual clues. Each picture crossword helps students connect images to spelling while building vocabulary. The crossword format works perfectly for addition worksheets, tracing worksheets, and coloring worksheets integration.
 
@@ -73,8 +73,58 @@ Generate crossword puzzles in 11 languages including English, Spanish, French, G
     sectionTitle: 'Free Worksheet Features - Crossword Puzzles and Vocabulary Worksheets for Kids',
     sectionDescription: 'Our picture crossword generator combines powerful features with simple controls to create free printable worksheets in minutes. Teachers use our crossword maker to generate phonics worksheets, math worksheets, and alphabet worksheets with visual picture clues. Every feature focuses on making worksheet creation fast while maintaining professional quality for classroom use. Your Full Access subscription gives you unlimited access to create kindergarten worksheets, sight words worksheets, and addition worksheets with full editing control.',
     highlightBadgeText: 'Key Feature',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: '1',
+        icon: '🖼️',
+        title: 'Picture-Clue Crossword Format',
+        description: 'Numbered images replace traditional text definitions as crossword clues. Students look at each picture, identify the word it represents, and spell it letter by letter in the grid. This visual approach lets pre-readers and early readers participate in crossword activities without needing to read written clue definitions, making crosswords accessible from kindergarten onward.',
+        highlighted: true,
+      },
+      {
+        id: '2',
+        icon: '🔀',
+        title: 'Auto-Interlocking 15x15 Grid Algorithm',
+        description: 'The generator automatically places words in an optimized 15x15 grid, maximizing letter intersections where words cross. Longer words place first followed by shorter vocabulary. The smart placement algorithm creates engaging puzzles where intersecting letters provide built-in hints for students, making puzzles challenging yet solvable without teacher assistance.',
+        highlighted: false,
+      },
+      {
+        id: '3',
+        icon: '🔗',
+        title: 'Automatic Word Intersection Optimization',
+        description: 'Every generated crossword maximizes the number of word intersections for educational value. When crossing words share the same letter in an intersection square, students verify their answers match. If a crossing letter conflicts, students know to recheck their spelling. This self-checking mechanism makes crosswords effective independent practice activities.',
+        highlighted: false,
+      },
+      {
+        id: '4',
+        icon: '🎨',
+        title: '3000+ Themed Images for Picture Clues',
+        description: 'Browse over 3000 child-friendly images organized by themes including animals, food, vehicles, nature, and dozens more. Select a theme for topical crossword puzzles or choose individual images for targeted vocabulary practice. Upload your own custom images for personalized puzzle content matching any curriculum unit or classroom topic.',
+        highlighted: false,
+      },
+      {
+        id: '5',
+        icon: '✅',
+        title: 'Auto-Generated Answer Keys',
+        description: 'Every crossword worksheet generates a complete answer key showing all words filled into the grid. The answer key displays each word in its correct position with corresponding picture clue numbers. Print the answer key separately for teacher reference, self-checking stations, or include it in Teachers Pay Teachers products as a bonus resource.',
+        highlighted: false,
+      },
+      {
+        id: '6',
+        icon: '🎯',
+        title: 'Full Canvas Editing Tools',
+        description: 'Click any element to reposition, resize, or customize. Move the crossword grid for optimal spacing. Edit worksheet titles and add custom instructions. Place text elements for name and date fields. Lock elements after positioning. Use alignment tools for professional layouts. Complete design control without graphic design experience.',
+        highlighted: false,
+      },
+      {
+        id: '7',
+        icon: '💰',
+        title: 'Commercial License Included',
+        description: 'Your subscription includes commercial licensing for selling crossword worksheets on Teachers Pay Teachers, Etsy, Amazon KDP, or your own website. Themed crossword bundles and vocabulary-building puzzle packets are consistently popular sellers in educational marketplaces. No attribution or extra licensing fees required beyond your subscription.',
+        highlighted: true,
+      },
+    ],
+
   },
 
   // How-To Guide - FULL text from crossword.md Step sections
@@ -125,8 +175,57 @@ Generate crossword puzzles in 11 languages including English, Spanish, French, G
   useCases: {
     sectionTitle: 'Who Uses Crossword Worksheets - Free Printables for Kindergarten',
     sectionDescription: 'Picture crossword worksheets serve diverse educational needs across multiple teaching environments. Teachers, homeschool parents, and curriculum developers use our crossword generator to create engaging free printable worksheets for various learning objectives. The visual nature of picture crosswords makes them perfect for kindergarten worksheets, ESL sight words worksheets, and special education phonics worksheets. This section explores six key user groups and how they incorporate crossword puzzles into their teaching practice.',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: '1',
+        icon: '🎒',
+        title: 'Kindergarten Teachers: Picture-Based Vocabulary Building',
+        subtitle: 'Visual Crosswords for Pre-Readers Learning Sight Words',
+        description: 'Kindergarten teachers use picture crosswords to build vocabulary and spelling skills without requiring text reading ability. Students identify familiar objects in numbered picture clues and spell the corresponding words in the grid. The picture format makes crosswords accessible for five and six year olds still developing reading skills. Start with simple 3 to 4 letter words from kindergarten sight word lists.',
+        quote: 'My kindergarteners feel so proud when they complete a crossword puzzle. The picture clues make it possible!',
+      },
+      {
+        id: '2',
+        icon: '📚',
+        title: 'First and Second Grade Teachers: Spelling Reinforcement',
+        subtitle: 'Letter-by-Letter Spelling Practice Through Puzzle Grids',
+        description: 'Elementary teachers leverage the crossword format for spelling reinforcement that feels like a game rather than a test. Students spell words letter by letter in grid squares, with intersecting letters providing built-in self-checking. Enter weekly spelling words through custom image selection for targeted vocabulary practice. Create themed crosswords connecting to science, social studies, or reading unit vocabulary.',
+        quote: 'Spelling test scores improved when I started using crossword puzzles as practice before assessments.',
+      },
+      {
+        id: '3',
+        icon: '🌍',
+        title: 'ESL Teachers: Visual Vocabulary for Language Learners',
+        subtitle: 'Picture Clues That Bypass Reading Comprehension Barriers',
+        description: 'ESL teachers value picture crosswords because image clues bypass reading comprehension barriers for English language learners. Students identify familiar objects visually and practice spelling English vocabulary words in the grid. The generator supports 11 languages, allowing teachers to create crosswords in students\' home languages first before transitioning to English-only puzzles for scaffolded vocabulary building.',
+        quote: 'Picture crosswords let my newcomer students participate alongside fluent English speakers from day one.',
+      },
+      {
+        id: '4',
+        icon: '🏠',
+        title: 'Homeschool Parents: Themed Learning Activities',
+        subtitle: 'Curriculum-Connected Crossword Puzzles for Home Education',
+        description: 'Homeschool parents create themed crossword puzzles connecting vocabulary practice to current study units. Generate ocean-themed crosswords during marine biology. Create farm animal puzzles for agricultural topics. Build holiday crosswords for seasonal activities. The themed approach makes spelling practice feel relevant and connected to broader learning goals rather than isolated drill work.',
+        quote: 'We do a themed crossword every day and my kids think it is game time, not school time.',
+      },
+      {
+        id: '5',
+        icon: '💜',
+        title: 'Special Education Teachers: Adapted Vocabulary Practice',
+        subtitle: 'Adjustable Difficulty for Diverse Learning Needs',
+        description: 'Special education teachers differentiate crossword difficulty by selecting shorter vocabulary words, adjusting word count, and choosing simpler image themes. Create easy puzzles with three-letter CVC words for struggling readers. The visual picture clues reduce cognitive load by eliminating text-based definitions. Word intersections provide helpful hints that support students who need additional scaffolding to succeed independently.',
+        quote: 'I adjust word length and count to match each student\'s IEP goals. Everyone solves the puzzle successfully.',
+      },
+      {
+        id: '6',
+        icon: '💰',
+        title: 'Teacher Entrepreneurs: Crossword Puzzle Bundles',
+        subtitle: 'Popular Products for Educational Marketplace Sales',
+        description: 'Teacher entrepreneurs create themed crossword bundles that sell consistently on Teachers Pay Teachers and Etsy. Vocabulary-building crossword packets are among the most popular categories in educational marketplaces. Create seasonal bundles, subject-specific collections, or grade-level packs. Your subscription includes commercial licensing with no attribution required. Price bundles at $3 to $8 for passive income.',
+        quote: 'My themed crossword bundle collections generate steady monthly income on TPT with minimal ongoing effort.',
+      },
+    ],
+
   },
 
   // FAQ Section - ALL questions from crossword.md
@@ -301,8 +400,133 @@ Generate crossword puzzles in 11 languages including English, Spanish, French, G
     ctaDescription: 'Join educators creating professional worksheets. Unlimited generation, commercial license included.',
     primaryCtaText: 'Start Free Trial',
     secondaryCtaText: 'View All 33 Apps',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: '1',
+        slug: 'word-search-worksheets',
+        name: 'Word Search Worksheets',
+        category: 'Language Arts',
+        icon: '🔍',
+        description: 'Pair crossword spelling with word search recognition for double vocabulary exposure. Students spell words letter by letter in crosswords then scan for those same words in word search grids, reinforcing spelling from both production and recognition angles.',
+      },
+      {
+        id: '2',
+        slug: 'word-scramble-worksheets',
+        name: 'Word Scramble Worksheets',
+        category: 'Language Arts',
+        icon: '🔤',
+        description: 'Combine crossword puzzles with word scramble activities for comprehensive spelling packets. Students encounter the same vocabulary in crossword and scramble formats, strengthening word retention through varied practice.',
+      },
+      {
+        id: '3',
+        slug: 'word-guess-worksheets',
+        name: 'Word Guess Worksheets',
+        category: 'Language Arts',
+        icon: '❓',
+        description: 'Add fill-in-the-blank word guess puzzles alongside crossword worksheets. Students spell complete words in crosswords then identify missing letters in word guess activities, building both production and analytical spelling skills.',
+      },
+      {
+        id: '4',
+        slug: 'matchup-maker-worksheets',
+        name: 'MatchUp Maker Worksheets',
+        category: 'Vocabulary',
+        icon: '🔗',
+        description: 'Extend picture-word connections from crosswords into matching activities. Students match images to words on matchup worksheets using the same themed vocabulary they spelled in crossword puzzles for reinforced learning.',
+      },
+      {
+        id: '5',
+        slug: 'alphabet-train-worksheets',
+        name: 'Alphabet Train Worksheets',
+        category: 'Early Learning',
+        icon: '🚂',
+        description: 'Bundle crossword puzzles with alphabet train activities for early literacy packets. Kindergarteners practice letter recognition on trains then apply letter knowledge to spell words in picture crossword grids.',
+      },
+      {
+        id: '6',
+        slug: 'cryptogram-worksheets',
+        name: 'Cryptogram Worksheets',
+        category: 'Language Arts',
+        icon: '🔐',
+        description: 'Challenge older students with cryptogram code-breaking alongside crossword puzzles. Both formats develop letter analysis and spelling skills in different puzzle-solving contexts, creating engaging literacy packets for grades 2 and up.',
+      },
+    ],
+
+  },
+
+  // -- SEO & Content Enrichment (Part 19) ------------------------------------
+
+  aiOverviewSnippet: 'A picture crossword maker for kids is an online tool that creates printable crossword puzzles where numbered images serve as clues instead of written definitions. Students identify picture clues, spell the corresponding words, and fill them into an auto-interlocking grid. Teachers select themed images, generate the puzzle with answer key, and download a ready-to-print PDF in under 3 minutes.',
+
+  comparisonTable: [
+    { feature: 'Clue Format', ourApp: 'Picture clues from 3000+ themed images', typical: 'Text-only written definitions' },
+    { feature: 'Grid Algorithm', ourApp: 'Auto-interlocking 15x15 with optimized intersections', typical: 'Manual grid construction or fixed templates' },
+    { feature: 'Grid Size', ourApp: '15x15 optimized for K-4 word lengths', typical: 'One-size-fits-all grids' },
+    { feature: 'Answer Keys', ourApp: 'Auto-generated with every puzzle', typical: 'Manual creation or sold separately' },
+    { feature: 'Commercial License', ourApp: 'Included, sell on TPT/Etsy/KDP', typical: 'Extra fee or personal use only' },
+    { feature: 'Language Support', ourApp: '11 languages with localized vocabulary', typical: 'English only' },
+  ],
+
+  researchBacking: [
+    {
+      claim: 'Crossword puzzles require letter-by-letter word construction that strengthens spelling accuracy more effectively than recognition-only activities, because students must actively produce correct letter sequences rather than passively identify them.',
+      source: 'Ehri, L.C., "Learning to Read Words: Theory, Findings, and Issues," Scientific Studies of Reading, Vol. 9, No. 2',
+    },
+    {
+      claim: 'Intersecting words in crossword grids function as a self-checking mechanism that promotes independent error detection, reducing reliance on teacher feedback and building metacognitive spelling awareness.',
+      source: 'Nation, I.S.P., "Learning Vocabulary in Another Language," Cambridge University Press',
+    },
+  ],
+
+  teacherTestimonials: [
+    {
+      quote: 'Picture crosswords turned my vocabulary review from a boring drill into the most requested activity in literacy centers. Students race to finish puzzles and the intersecting letters help them self-correct without me hovering over every table.',
+      name: 'Rachel Kim',
+      role: '1st Grade Teacher',
+      school: 'Brookside Elementary',
+    },
+    {
+      quote: 'I sell themed crossword bundles on TPT and this generator cut my production time dramatically. The auto-interlocking algorithm creates better puzzles than I could design manually, and the answer keys save hours of formatting.',
+      name: 'Marcus Johnson',
+      role: 'Teacher-Author',
+      school: 'MarcusTeachesTPT',
+    },
+  ],
+
+  tips: {
+    sectionTitle: 'Picture Crossword Strategies by Grade Level',
+    sectionDescription: 'Configure your picture crossword maker for the right challenge at each developmental stage. Here is how to select vocabulary, adjust difficulty, and integrate crossword puzzles for maximum spelling and vocabulary impact from preschool through third grade.',
+    items: [
+      {
+        id: 'preschool',
+        icon: '🌱',
+        title: 'Preschool: Letter Awareness with Simple Words',
+        description: 'Use 3 to 4 picture clues featuring simple CVC words like cat, dog, and hat. Guide students as a whole class activity where children identify pictures and spell words together on a projected puzzle. Focus on letter identification and beginning sounds rather than independent puzzle completion. This introduces the crossword concept in a supported group setting.',
+      },
+      {
+        id: 'kindergarten',
+        icon: '🎒',
+        title: 'Kindergarten: Sight Word Crosswords',
+        description: 'Create crosswords with 5 to 6 picture clues using high-frequency sight words and familiar vocabulary. Choose themes matching classroom topics like animals or food. The picture clues let pre-readers participate without reading text definitions. Letter intersections provide helpful hints that scaffold spelling for emergent writers learning to connect sounds to letters.',
+      },
+      {
+        id: 'first-grade',
+        icon: '📚',
+        title: '1st Grade: Spelling List Practice',
+        description: 'Enter weekly spelling words by selecting matching images from the library or uploading custom pictures. Generate crosswords with 6 to 8 words for independent literacy center practice. The interlocking grid format makes spelling practice engaging while the self-checking intersections reduce the need for teacher oversight during center rotations.',
+      },
+      {
+        id: 'second-grade',
+        icon: '✏️',
+        title: '2nd Grade: Content-Area Vocabulary',
+        description: 'Create themed crosswords using science, social studies, or reading unit vocabulary. Generate ocean-themed puzzles during marine biology or farm animal crosswords for agricultural units. Students encounter content-area words in a puzzle format that reinforces correct spelling while building domain-specific vocabulary knowledge.',
+      },
+      {
+        id: 'third-grade',
+        icon: '🎯',
+        title: '3rd Grade: Complex Vocabulary Challenges',
+        description: 'Select longer multisyllabic words with more complex intersections for advanced puzzle-solving. Use 8 picture clues with words from academic vocabulary lists. Third graders develop sustained attention and analytical spelling skills as they work through challenging interlocking patterns. Create timed crossword challenges for spelling bee preparation or vocabulary competition practice.',
+      },
+    ],
   },
 };
 

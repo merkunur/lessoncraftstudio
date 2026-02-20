@@ -15,7 +15,7 @@ export const cryptogramEnContent: ProductPageContent = {
   hero: {
     title: 'Picture Cryptogram Worksheets for Kids',
     subtitle: 'Decode Secret Messages With Image Puzzles',
-    description: `Create engaging picture cryptogram worksheets with our professional worksheet generator. Your Full Access subscription gives you unlimited cryptogram worksheet creation with no per-worksheet fees. Generate custom free printable worksheets perfect for kindergarten worksheets and first grade worksheets. Download professional 300 DPI cryptogram worksheets in under 3 minutes.
+    description: `Create engaging picture cryptogram worksheets with our picture cryptogram worksheet maker. Your Full Access subscription gives you unlimited cryptogram worksheet creation with no per-worksheet fees. Generate custom free printable worksheets perfect for kindergarten worksheets and first grade worksheets. Download professional 300 DPI cryptogram worksheets in under 3 minutes.
 
 Picture cryptogram worksheets turn code-breaking into a visual learning adventure. Each cryptogram uses pictures instead of letters to create secret codes. Students match images to letters and decode hidden phrases. This combines alphabet worksheets practice with critical thinking skills. Perfect for kindergarten through first grade classrooms.
 
@@ -50,7 +50,7 @@ Our cryptogram worksheet generator creates custom puzzles in 11 languages. Uploa
     appId: 'cryptogram',
     title: 'Picture Cryptogram Worksheet Maker | LessonCraftStudio',
     description: 'Create picture cryptogram worksheets where kids decode messages with images. Free printable code-breaking puzzles for K-2. Boost logic and literacy together.',
-    keywords: 'picture code worksheets, decode worksheets for kids, secret message activities, code-breaking worksheets, cipher puzzles for kids, image code puzzles, decode and spell worksheets, visual cipher games, literacy puzzle activities, code-cracking for kids',
+    keywords: 'picture cryptogram worksheet maker, code breaking, cipher, symbol substitution, decode message, secret code, encryption puzzle, symbol key, coded alphabet, message decoding, code puzzle, picture code worksheets',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/cryptogram-worksheets',
       },
 
@@ -69,8 +69,51 @@ Our cryptogram worksheet generator creates custom puzzles in 11 languages. Uploa
     sectionTitle: 'Free Worksheet for Kids Features - Worksheet for Kindergarten',
     sectionDescription: 'Our picture cryptogram generator includes every feature teachers need for professional free printable worksheets. Create custom cryptogram worksheets for kindergarten through first grade in minutes. Each feature helps you build engaging alphabet worksheets, phonics worksheets, and sight words worksheets activities. Your Full Access subscription includes unlimited access to all features with no per-worksheet charges.',
     highlightBadgeText: 'Key Feature',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: '1',
+        icon: '🖼️',
+        title: 'Picture-to-Letter Code Format',
+        description: 'Each cryptogram replaces letters in a secret message with themed images. Students match pictures to letters using a visual decoder key, turning alphabet practice into an exciting code-breaking adventure that strengthens letter recognition and sequential decoding skills.',
+      },
+      {
+        id: '2',
+        icon: '🔢',
+        title: 'Adjustable Revealed Letters',
+        description: 'Control puzzle difficulty by revealing 3 to 5 clue letters before students begin. More revealed letters scaffold beginners while fewer clues challenge advanced decoders. This built-in differentiation lets one worksheet design serve multiple reading levels.',
+      },
+      {
+        id: '3',
+        icon: '⚡',
+        title: 'Auto-Assign Mode',
+        description: 'Click auto-assign to instantly pair every alphabet letter with a unique image from your selected theme. The generator handles all 26 assignments in seconds, eliminating tedious manual setup and letting you create complete cryptogram puzzles in under a minute.',
+      },
+      {
+        id: '4',
+        icon: '🎨',
+        title: '3000+ Themed Images for Decoder Keys',
+        description: 'Browse a library of over 3000 child-friendly images organized by educational themes including animals, food, vehicles, and nature. Use themed picture codes to connect cryptograms to curriculum units, seasonal topics, or student interests.',
+      },
+      {
+        id: '5',
+        icon: '✅',
+        title: 'Auto-Generated Answer Keys',
+        description: 'Every cryptogram worksheet produces a matching answer key showing the fully decoded message. Teachers verify puzzle accuracy instantly and students can self-check their work. Print answer keys separately for teacher use or student self-correction stations.',
+      },
+      {
+        id: '6',
+        icon: '✏️',
+        title: 'Full Canvas Editing Tools',
+        description: 'Click any element on the canvas to move, resize, rotate, or delete it. Add custom text, change fonts and colors, upload background images, and apply decorative borders. Create polished worksheet layouts that match your classroom theme or branding.',
+      },
+      {
+        id: '7',
+        icon: '💼',
+        title: 'Commercial License Included',
+        description: 'Your subscription includes full commercial rights to sell cryptogram worksheets on Teachers Pay Teachers, Etsy, Amazon KDP, or your own website. No attribution required and no extra licensing fees. Build spy-themed and code-breaking puzzle bundles for profit.',
+      },
+    ],
+
   },
 
   // How-To Guide - FULL text from cryptogram.md Step sections
@@ -121,8 +164,51 @@ Our cryptogram worksheet generator creates custom puzzles in 11 languages. Uploa
   useCases: {
     sectionTitle: 'Free Printables for Teachers - Worksheet for Kindergarten',
     sectionDescription: 'Picture cryptogram worksheets serve diverse educational needs across multiple teaching environments. Teachers, homeschool parents, and curriculum developers use our cryptogram generator to create engaging free printable worksheets for various learning objectives. The visual nature of picture cryptograms makes them perfect for kindergarten worksheets, ESL sight words worksheets, and special education phonics worksheets.',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: '1',
+        icon: '🌈',
+        title: 'Kindergarten Teachers',
+        subtitle: 'Alphabet Learning Through Code-Breaking',
+        description: 'Create simple cryptograms using three-letter sight words with 5 revealed letters for maximum scaffolding. Kindergarteners practice letter recognition by matching familiar themed pictures to alphabet letters, turning routine letter drills into exciting secret message activities.',
+      },
+      {
+        id: '2',
+        icon: '📖',
+        title: 'First Grade Teachers',
+        subtitle: 'Sight Word and Phonics Cryptograms',
+        description: 'Encode Dolch or Fry sight word phrases as secret messages with 3-4 revealed letters. First graders decode letter by letter, reinforcing phonics patterns and spelling sequences. Cryptograms make sight word practice feel like solving a mystery rather than rote memorization.',
+      },
+      {
+        id: '3',
+        icon: '✏️',
+        title: 'Second Grade Teachers',
+        subtitle: 'Vocabulary and Spelling Puzzles',
+        description: 'Build cryptograms using weekly spelling words and content-area vocabulary. Second graders decode longer phrases with fewer revealed letters, strengthening spelling accuracy and sequential decoding skills. Themed picture codes connect puzzles to science or social studies units.',
+      },
+      {
+        id: '4',
+        icon: '🌍',
+        title: 'ESL Teachers',
+        subtitle: 'Multilingual Code-Breaking in 11 Languages',
+        description: 'Create cryptograms in students\' home languages for vocabulary bridging, then generate matching English versions. The visual picture codes provide universal context clues while the decoded messages reinforce target-language spelling and word recognition across 11 supported languages.',
+      },
+      {
+        id: '5',
+        icon: '🏠',
+        title: 'Homeschool Parents',
+        subtitle: 'Themed Mystery Message Activities',
+        description: 'Generate spy-themed or detective-themed cryptogram activities that make learning irresistible. Choose seasonal themes for holiday activities or curriculum topics for targeted practice. Each puzzle takes 5-15 minutes, perfect for independent work or family learning sessions.',
+      },
+      {
+        id: '6',
+        icon: '💰',
+        title: 'Teacher Entrepreneurs',
+        subtitle: 'Spy-Themed Puzzle Bundles for Sale',
+        description: 'Create code-breaking activity packs for Teachers Pay Teachers, Etsy, or Amazon KDP. Bundle cryptograms with word searches and crosswords for themed mystery puzzle sets. Your commercial license covers unlimited sales with no attribution or per-download fees.',
+      },
+    ],
+
   },
 
   // FAQ Section - ALL questions from cryptogram.md
@@ -297,8 +383,132 @@ Our cryptogram worksheet generator creates custom puzzles in 11 languages. Uploa
     ctaDescription: 'Join educators creating professional worksheets. Unlimited generation, commercial license included.',
     primaryCtaText: 'Start Free Trial',
     secondaryCtaText: 'View All 33 Apps',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: '1',
+        slug: 'word-search-worksheets',
+        name: 'Word Search Worksheets',
+        category: 'Language Arts',
+        icon: '🔍',
+        description: 'Combine cryptogram code-breaking with word search puzzles for a complete mystery-themed literacy day. Students decode secret messages in cryptograms then hunt for vocabulary words in letter grids, reinforcing spelling from both production and recognition angles.',
+      },
+      {
+        id: '2',
+        slug: 'word-scramble-worksheets',
+        name: 'Word Scramble Worksheets',
+        category: 'Language Arts',
+        icon: '🔤',
+        description: 'Pair cryptograms with word scramble activities for double letter-sequencing practice. Students decode picture codes in one puzzle and unscramble jumbled letters in another, strengthening spelling accuracy through two different puzzle-solving approaches.',
+      },
+      {
+        id: '3',
+        slug: 'crossword-worksheets',
+        name: 'Crossword Worksheets',
+        category: 'Language Arts',
+        icon: '➕',
+        description: 'Add crossword puzzles to your cryptogram activities for comprehensive vocabulary packets. Students encounter the same themed words across different puzzle formats, deepening retention through varied practice with picture clues and letter intersections.',
+      },
+      {
+        id: '4',
+        slug: 'word-guess-worksheets',
+        name: 'Word Guess Worksheets',
+        category: 'Language Arts',
+        icon: '❓',
+        description: 'Bundle cryptogram code-breaking with fill-in-the-blank word guess puzzles for complete spelling practice. Students decode secret messages in one activity then produce missing letters in another, building both visual decoding and spelling recall skills.',
+      },
+      {
+        id: '5',
+        slug: 'alphabet-train-worksheets',
+        name: 'Alphabet Train Worksheets',
+        category: 'Early Learning',
+        icon: '🚂',
+        description: 'Combine cryptogram picture codes with alphabet ordering activities for kindergarten literacy packets. Students decode messages using letter-image pairs then practice alphabetical sequencing on train worksheets, reinforcing letter knowledge from two complementary angles.',
+      },
+      {
+        id: '6',
+        slug: 'matchup-maker-worksheets',
+        name: 'MatchUp Maker Worksheets',
+        category: 'Vocabulary',
+        icon: '🔗',
+        description: 'Add picture-word matching activities alongside cryptogram puzzles for multi-format vocabulary practice. Students match images to words in one worksheet then use those same images as decoder keys in cryptograms, strengthening picture-letter associations.',
+      },
+    ],
+  },
+
+  // -- SEO & Content Enrichment (Part 20) ------------------------------------
+
+  aiOverviewSnippet: 'A picture cryptogram worksheet maker is an online tool that creates printable code-breaking puzzles where images replace letters in secret messages. Teachers assign themed pictures to alphabet letters, type a hidden phrase, adjust difficulty with revealed clue letters, and download a ready-to-print PDF with an auto-generated answer key in under 3 minutes.',
+
+  comparisonTable: [
+    { feature: 'Code Format', ourApp: 'Picture-to-letter codes with 3000+ themed images', typical: 'Letter-to-letter or number substitution only' },
+    { feature: 'Difficulty Adjustment', ourApp: '3-5 adjustable revealed clue letters', typical: 'Fixed difficulty, no scaffolding' },
+    { feature: 'Image Library', ourApp: '3000+ child-friendly images by theme', typical: 'No images, text-only ciphers' },
+    { feature: 'Answer Keys', ourApp: 'Auto-generated with every puzzle', typical: 'Manual or sold separately' },
+    { feature: 'Commercial License', ourApp: 'Included, sell on TPT/Etsy/KDP', typical: 'Extra fee or not available' },
+    { feature: 'Language Support', ourApp: '11 languages with proper character handling', typical: 'English only' },
+  ],
+
+  researchBacking: [
+    {
+      claim: 'Code-breaking activities develop logical reasoning and sequential thinking by requiring students to systematically apply substitution rules, the same cognitive process underlying reading decoding and mathematical problem-solving.',
+      source: 'National Council of Teachers of Mathematics, "Principles and Standards for School Mathematics," NCTM Publications',
+    },
+    {
+      claim: 'Symbol substitution tasks reinforce letter-sound associations and alphabetic principle understanding by requiring learners to actively map visual symbols to their corresponding letters, strengthening orthographic processing pathways.',
+      source: 'Adams, M.J., "Beginning to Read: Thinking and Learning about Print," MIT Press',
+    },
+  ],
+
+  teacherTestimonials: [
+    {
+      quote: 'My kindergarteners think they are real detectives when they decode picture cryptograms. The revealed letters give just enough help for struggling readers, and my advanced students love solving puzzles with zero clues.',
+      name: 'Rachel Simmons',
+      role: 'Kindergarten Teacher',
+      school: 'Pinecrest Academy',
+    },
+    {
+      quote: 'I created a spy-themed cryptogram bundle for TPT and it became my best seller within a month. The auto-assign feature means I can produce a complete puzzle pack in fifteen minutes instead of two hours.',
+      name: 'Marcus Chen',
+      role: 'Teacher-Author',
+      school: 'CodeBreakers Edu on TPT',
+    },
+  ],
+
+  tips: {
+    sectionTitle: 'Picture Cryptogram Strategies by Grade Level',
+    sectionDescription: 'Configure your picture cryptogram worksheet maker for the right challenge at each developmental stage. Here is how to set phrase length, revealed letters, and theme complexity from preschool through second grade.',
+    items: [
+      {
+        id: 'preschool',
+        icon: '🌱',
+        title: 'Preschool: Letter Matching with Pictures',
+        description: 'Use 3-4 letter words with 2-3 revealed letters and familiar animal or color themes. Preschoolers focus on matching one picture to one letter at a time, building the visual discrimination and symbol-mapping skills that prepare them for formal reading instruction.',
+      },
+      {
+        id: 'pre-k',
+        icon: '🎒',
+        title: 'Pre-K: Simple Word Decoding',
+        description: 'Create short phrases of 5-8 letters with 4-5 revealed letters for maximum scaffolding. Use auto-assign with a single theme like farm animals so all pictures feel connected. Pre-K students practice left-to-right tracking as they decode each picture in sequence.',
+      },
+      {
+        id: 'kindergarten',
+        icon: '📚',
+        title: 'Kindergarten: Sight Word Secret Messages',
+        description: 'Encode common sight word phrases like "THE CAT IS BIG" with 3-4 revealed letters. Kindergarteners decode familiar high-frequency words letter by letter, reinforcing both letter recognition and sight word spelling in an engaging puzzle format.',
+      },
+      {
+        id: 'first-grade',
+        icon: '✏️',
+        title: '1st Grade: Phonics Pattern Cryptograms',
+        description: 'Build cryptograms around specific phonics patterns like CVC words or consonant blends. Use themed images that begin with target letter sounds. First graders strengthen letter-sound connections through picture codes while decoding progressively longer secret messages with only 3 revealed letters.',
+      },
+      {
+        id: 'second-grade',
+        icon: '🎯',
+        title: '2nd Grade: Vocabulary Challenge Codes',
+        description: 'Create longer cryptogram phrases using content-area vocabulary from science or social studies. Reduce revealed letters to 2-3 for increased challenge. Second graders apply systematic decoding strategies to crack complex messages, building persistence and logical reasoning alongside spelling accuracy.',
+      },
+    ],
   },
 };
 

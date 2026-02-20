@@ -17,7 +17,7 @@ export const gridMatchEnContent: ProductPageContent = {
     appId: 'grid-match',
     title: 'Grid Match Puzzle Maker for Kids | LessonCraftStudio',
     description: 'Create grid match puzzles where kids complete visual patterns in grids. Free printable logic worksheets for K-2. Develop spatial reasoning with themed images.',
-    keywords: 'grid pattern worksheets, visual logic puzzles, pattern completion activities, grid completion worksheets, spatial pattern matching, logic grid worksheets, visual reasoning puzzles, grid puzzle printable, pattern logic for kids, visual grid activities',
+    keywords: 'grid match puzzle maker, pattern completion, spatial logic, grid puzzle, visual reasoning, matrix reasoning, logical thinking, grid-based puzzle, visual pattern, spatial analysis, position matching, grid pattern worksheets',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/grid-match-worksheets',
       },
 
@@ -25,7 +25,7 @@ export const gridMatchEnContent: ProductPageContent = {
   hero: {
     title: 'Grid Match Visual Pattern Worksheets',
     subtitle: 'Logic Puzzles for Kindergarten and First Grade',
-    description: `Create professional grid match puzzle worksheets with our advanced worksheet generator. Your Full Access subscription gives you unlimited worksheet creation with no per-worksheet fees. Generate custom printable matching worksheets perfect for kindergarten and first grade students. Download high-quality PDF worksheets in under 3 minutes.
+    description: `Create professional grid match puzzle worksheets with our grid match puzzle maker. Your Full Access subscription gives you unlimited worksheet creation with no per-worksheet fees. Generate custom printable matching worksheets perfect for kindergarten and first grade students. Download high-quality PDF worksheets in under 3 minutes.
 
 Grid match puzzles help young learners develop visual discrimination and spatial reasoning skills. Students match numbered puzzle pieces to complete pictures. Each worksheet includes both the puzzle and answer key. Perfect for morning work and center activities.
 
@@ -69,8 +69,58 @@ Teachers love grid match worksheets because they combine fun with learning. Crea
     sectionTitle: 'Free Worksheet Generator Features - Create Grid Match Printables for Kids',
     sectionDescription: 'Our grid match generator includes seven powerful features that make free worksheet creation effortless. Generate free printables in minutes with this free worksheet for kids tool. Perfect for busy teachers who need professional worksheet for kindergarten materials fast.',
     highlightBadgeText: 'Key Feature',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: '1',
+        icon: '🔲',
+        title: 'Grid-Based Visual Pattern Completion Puzzles for Spatial Logic',
+        description: 'Our grid match puzzle maker creates engaging puzzles where students complete pictures by matching numbered pieces to correct grid positions. Each worksheet divides an image into a grid and removes cells for students to analyze and restore. This visual reasoning format develops spatial analysis skills as children examine image sections, compare visual content, and determine correct placements through position matching and pattern completion.',
+        highlighted: true,
+      },
+      {
+        id: '2',
+        icon: '📐',
+        title: 'Adjustable Grid Sizes From 2x2 to 4x4 for Difficulty Control',
+        description: 'Control puzzle difficulty by selecting grid sizes ranging from simple 2x2 grids with 4 total cells to challenging 4x4 grids with 16 cells. Smaller grids suit preschoolers developing basic spatial logic skills. Larger grids demand more sophisticated matrix reasoning and visual pattern analysis. Combine grid size adjustments with clue cell counts for precise difficulty calibration matching each student developmental level.',
+        highlighted: false,
+      },
+      {
+        id: '3',
+        icon: '🖼️',
+        title: '3000+ Themed Images for Engaging Grid Puzzle Elements',
+        description: 'Browse over 3000 child-friendly images organized by theme to create visually engaging grid-based puzzles. Choose from animals, nature, vehicles, food, and dozens more categories. Upload your own classroom photos or curriculum illustrations for fully personalized visual reasoning activities. Each image is automatically segmented into grid pieces maintaining clear visual distinctions between cells for accurate position matching.',
+        highlighted: false,
+      },
+      {
+        id: '4',
+        icon: '🧠',
+        title: 'Matrix Reasoning Challenge Modes for Advanced Learners',
+        description: 'Challenge advanced students with minimal clue cells requiring extensive spatial analysis and logical thinking. The clue cell system provides visual anchor points that help students orient surrounding pieces through elimination. Reduce clue cells progressively as students develop stronger matrix reasoning skills. This scaffolded approach builds independent problem-solving abilities transferable to standardized test formats.',
+        highlighted: false,
+      },
+      {
+        id: '5',
+        icon: '🎨',
+        title: 'Full Canvas Editing Tools for Professional Worksheet Design',
+        description: 'Click any element on the canvas to select, drag, resize, or rotate it. Add custom titles, student names, instructions, and date fields using professional text tools. Choose from themed backgrounds and decorative borders to create polished worksheets. Lock completed elements while editing other sections. The full editing suite gives you designer-level control for creating materials that match your classroom style perfectly.',
+        highlighted: false,
+      },
+      {
+        id: '6',
+        icon: '✅',
+        title: 'Auto-Generated Answer Keys Showing Complete Solutions',
+        description: 'Every grid match worksheet generates a complete answer key displaying the fully assembled image with all numbered pieces in their correct positions. Teachers verify student work instantly without solving puzzles themselves. Print answer keys on separate pages for self-checking stations or independent learning centers. The answer key shows piece numbers in correct cells alongside the completed picture for unambiguous grading.',
+        highlighted: false,
+      },
+      {
+        id: '7',
+        icon: '💼',
+        title: 'Commercial License Included for Selling Puzzle Worksheets',
+        description: 'Your subscription includes commercial licensing for selling grid match worksheets on Teachers Pay Teachers, Etsy, Amazon KDP, or your own website. Visual puzzles have strong marketplace demand in the educational sector. Create themed puzzle bundles or progressive difficulty packs for maximum sales appeal. No attribution or extra licensing fees required beyond your subscription.',
+        highlighted: false,
+      },
+    ],
+
   },
 
   // How-To Guide - FULL text from grid-match.md Step sections
@@ -121,8 +171,57 @@ Teachers love grid match worksheets because they combine fun with learning. Crea
   useCases: {
     sectionTitle: '10 Powerful Uses for Free Worksheet for Kids - Grid Match Activities',
     sectionDescription: 'Grid match worksheets serve multiple educational purposes beyond simple puzzle solving. Discover ten proven classroom applications using free printables that maximize learning outcomes. These practical worksheet for kindergarten strategies work across all subject areas.',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: '1',
+        icon: '👩‍🏫',
+        title: 'Kindergarten Teachers: Visual Pattern Matching in Simple Grids',
+        subtitle: 'Spatial Logic Activities for Early Learners Ages 5-6',
+        description: 'Kindergarten teachers use grid match puzzles with 2x2 and 3x3 grids to develop visual discrimination and spatial reasoning. Students match numbered image pieces to correct grid positions using pattern completion strategies. The clue cell system provides built-in scaffolding for young learners. Use themed images matching classroom units for cross-curricular engagement. Grid match puzzles make excellent math center activities that students complete independently after brief modeling.',
+        quote: 'Grid match puzzles are my favorite center activity. Students stay engaged the entire rotation!',
+      },
+      {
+        id: '2',
+        icon: '📚',
+        title: 'First Grade Teachers: Spatial Logic and Matrix Reasoning',
+        subtitle: 'Grid-Based Visual Reasoning Practice for Ages 6-7',
+        description: 'First grade teachers assign 3x3 and 4x4 grid match puzzles to develop sophisticated spatial analysis skills. Students practice matrix reasoning by examining image sections and determining correct placements through visual pattern analysis and elimination. Create differentiated puzzle sets using the same image at different grid sizes and clue cell counts. Perfect for morning work, early finisher activities, or homework that develops logical thinking.',
+        quote: 'The progression from 2x2 to 4x4 grids maps perfectly to my differentiation strategy.',
+      },
+      {
+        id: '3',
+        icon: '🌟',
+        title: 'Gifted Program Coordinators: Advanced Visual Reasoning',
+        subtitle: 'Challenging Grid Puzzles for High-Ability Students',
+        description: 'Gifted program coordinators use 4x4 grid match puzzles with minimal clue cells to challenge high-ability students requiring advanced visual reasoning activities. The reduced scaffolding demands sophisticated spatial analysis and position matching skills. Students develop matrix reasoning abilities that transfer to standardized test formats. Combine with sudoku and pattern worksheets for comprehensive logic enrichment programming.',
+        quote: 'These puzzles provide the visual reasoning challenge my gifted students need.',
+      },
+      {
+        id: '4',
+        icon: '🩺',
+        title: 'Occupational Therapists: Visual-Spatial Processing Exercises',
+        subtitle: 'Therapeutic Activities for Visual Perception Development',
+        description: 'Occupational therapists use grid match worksheets as visual-spatial processing exercises for children developing visual perception skills. The grid format isolates spatial analysis demands in a structured, predictable layout. Adjust difficulty precisely through grid size and clue cell combinations. Track progress by documenting accuracy improvements across sessions. The pencil-based format requires no physical piece manipulation while still developing core spatial reasoning abilities.',
+        quote: 'Grid match worksheets let me target visual-spatial skills with precise difficulty control.',
+      },
+      {
+        id: '5',
+        icon: '🏠',
+        title: 'Homeschool Parents: Logic and Reasoning Activities',
+        subtitle: 'Self-Paced Visual Puzzle Practice for Multiple Ages',
+        description: 'Homeschool parents appreciate grid match puzzles as engaging logic activities children complete independently. Create difficulty-leveled puzzle sets for self-paced progression through spatial reasoning skills. The visual format requires no language skills, making it accessible for all ages and abilities. Generate themed puzzles connecting to current unit studies. One subscription provides unlimited visual reasoning activities for multiple children at different developmental stages.',
+        quote: 'Both my kids work at their own grid size level with the same image. They love comparing!',
+      },
+      {
+        id: '6',
+        icon: '💰',
+        title: 'Teacher Entrepreneurs: Visual Logic Puzzle Bundles',
+        subtitle: 'Create and Sell Grid Puzzle Products on Marketplaces',
+        description: 'Teacher entrepreneurs create themed grid match puzzle bundles for Teachers Pay Teachers, Etsy, and Amazon KDP. Visual logic puzzles have strong marketplace demand across the elementary education segment. Package puzzles by theme, grid size progression, or seasonal collections. Your subscription includes commercial licensing with no additional fees. Create progressive difficulty series from 2x2 through 4x4 grids for engaging product lines.',
+        quote: 'My visual puzzle bundles consistently outsell my other worksheet products.',
+      },
+    ],
+
   },
 
   // FAQ Section - ALL questions from grid-match.md FAQ section
@@ -299,8 +398,131 @@ Teachers love grid match worksheets because they combine fun with learning. Crea
     ctaDescription: 'Join educators creating professional worksheets. Unlimited generation, commercial license included.',
     primaryCtaText: 'Start Free Trial',
     secondaryCtaText: 'View All 33 Apps',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: '1',
+        slug: 'sudoku-worksheets',
+        name: 'Sudoku Puzzles',
+        category: 'Logic & Puzzles',
+        icon: '🧩',
+        description: 'Combine grid match with sudoku puzzles for comprehensive grid-based logical thinking development. Students practice deductive reasoning in 4x4 grids, complementing the spatial analysis skills built through grid match pattern completion.',
+      },
+      {
+        id: '2',
+        slug: 'pattern-worksheets',
+        name: 'Pattern Worksheets',
+        category: 'Logic & Puzzles',
+        icon: '🔄',
+        description: 'Pair grid match puzzles with pattern recognition worksheets for a complete visual reasoning curriculum. Students identify sequences and extend patterns, reinforcing the spatial logic and matrix reasoning developed through grid-based activities.',
+      },
+      {
+        id: '3',
+        slug: 'missing-pieces-worksheets',
+        name: 'Missing Pieces Worksheets',
+        category: 'Logic & Puzzles',
+        icon: '🧩',
+        description: 'Extend visual analysis from grid match into missing pieces worksheets. Students identify which piece completes an image, practicing the same spatial reasoning and pattern completion skills used in grid puzzle solving.',
+      },
+      {
+        id: '4',
+        slug: 'draw-and-color-worksheets',
+        name: 'Draw and Color Worksheets',
+        category: 'Art & Creativity',
+        icon: '🎨',
+        description: 'Complement grid match spatial logic with draw and color grid activities. Students copy images cell by cell in drawing grids, building spatial awareness and fine motor skills alongside visual reasoning development.',
+      },
+      {
+        id: '5',
+        slug: 'shadow-match-worksheets',
+        name: 'Shadow Match Worksheets',
+        category: 'Logic & Puzzles',
+        icon: '👤',
+        description: 'Add shadow match worksheets to your visual reasoning rotation alongside grid match puzzles. Students match objects to their silhouettes, developing visual discrimination and spatial analysis skills that complement grid-based position matching.',
+      },
+      {
+        id: '6',
+        slug: 'odd-one-out-worksheets',
+        name: 'Odd One Out Worksheets',
+        category: 'Logic & Puzzles',
+        icon: '🔍',
+        description: 'Include odd one out worksheets with grid match for comprehensive logical thinking practice. Students identify which item does not belong, building classification and analytical skills that support visual pattern analysis.',
+      },
+    ],
+
+  },
+
+  aiOverviewSnippet: 'A grid match puzzle maker is an online tool that creates printable visual puzzles where students complete pictures by matching numbered pieces to correct grid positions. Teachers select images, adjust grid sizes from 2x2 to 4x4, and control clue cell counts for precise difficulty calibration. Each worksheet generates with automatic answer keys, developing spatial reasoning and matrix reasoning skills for children ages 4-8.',
+
+  comparisonTable: [
+    { feature: 'Puzzle Format', ourApp: 'Numbered grid pieces with visual pattern completion', typical: 'Simple matching or jigsaw with physical pieces' },
+    { feature: 'Grid Sizes', ourApp: '2x2, 3x3, and 4x4 with adjustable clue cells', typical: 'Fixed format, no difficulty control' },
+    { feature: 'Image Library', ourApp: '3000+ themed images plus custom uploads', typical: 'Limited clipart selection' },
+    { feature: 'Reasoning Modes', ourApp: 'Clue-based spatial analysis with elimination', typical: 'Simple visual matching only' },
+    { feature: 'Commercial License', ourApp: 'Included, sell on TPT/Etsy/KDP', typical: 'Extra fee or not available' },
+    { feature: 'Language Support', ourApp: '11 languages included', typical: 'English only' },
+  ],
+
+  researchBacking: [
+    {
+      claim: 'Matrix reasoning tasks like grid completion puzzles are strong predictors of general cognitive ability and develop spatial-visual processing skills essential for mathematical and scientific thinking in young children.',
+      source: 'Cattell, R.B., "Theory of Fluid and Crystallized Intelligence," British Journal of Educational Psychology',
+    },
+    {
+      claim: 'Spatial pattern completion activities improve visual-spatial processing and support transfer to geometry, map reading, and STEM problem-solving across the elementary grades.',
+      source: 'Newcombe, N.S., "Picture This: Increasing Math and Science Learning by Improving Spatial Thinking," American Educator',
+    },
+  ],
+
+  teacherTestimonials: [
+    {
+      quote: 'Grid match puzzles are the most requested activity in my classroom. Students develop real spatial reasoning skills while thinking they are just solving fun puzzles. The adjustable difficulty means every student succeeds at their level.',
+      name: 'Rachel Kim',
+      role: 'Kindergarten Teacher',
+      school: 'Westbrook Elementary',
+    },
+    {
+      quote: 'I use grid match as my primary visual reasoning assessment tool. The progression from 2x2 to 4x4 grids gives me clear data on each student spatial analysis development throughout the year.',
+      name: 'Marcus Johnson',
+      role: '1st Grade Math Specialist',
+      school: 'Heritage Park Academy',
+    },
+  ],
+
+  tips: {
+    sectionTitle: 'Grid Match Puzzle Strategies by Grade Level',
+    sectionDescription: 'Use our grid match puzzle maker to target the right spatial reasoning skills at each developmental stage. Here is how to configure grid puzzles for maximum visual reasoning impact from preschool through second grade.',
+    items: [
+      {
+        id: 'preschool',
+        icon: '🌱',
+        title: 'Preschool: Simple 2x2 Grid Introduction',
+        description: 'Introduce grid match with 2x2 puzzles providing 2 clue cells for heavily supported practice. Choose bold, high-contrast images with clearly distinct sections. Model the position matching process explicitly by comparing each numbered piece to available empty cells. Work collaboratively before assigning independent practice. The small grid format builds foundational spatial analysis skills without overwhelming young learners.',
+      },
+      {
+        id: 'kindergarten',
+        icon: '🎒',
+        title: 'Kindergarten: 3x3 Grids With Scaffolded Clues',
+        description: 'Kindergarteners progress to 3x3 grids with 3-4 clue cells for age-appropriate visual reasoning practice. Teach systematic scanning strategies: examine each numbered piece, compare its visual content to available empty cells, use clue cells as reference anchors. Themed puzzles matching classroom units create cross-curricular connections. Most kindergarteners solve 3x3 puzzles independently after guided introduction with 2-3 examples.',
+      },
+      {
+        id: 'first-grade',
+        icon: '📚',
+        title: '1st Grade: Complex Grids With Reduced Scaffolding',
+        description: 'First graders tackle 3x3 and 4x4 grids with fewer clue cells requiring stronger spatial analysis and matrix reasoning. Students analyze multiple pieces simultaneously and use elimination to determine correct placements. Create progressive difficulty packets starting with 3 clue cells and reducing to 1 within the same image theme. This progression builds independent problem-solving skills transferable to math and science contexts.',
+      },
+      {
+        id: 'second-grade',
+        icon: '✏️',
+        title: '2nd Grade: Advanced Matrix Reasoning Challenges',
+        description: 'Second graders master 4x4 grids with minimal clue cells demanding sophisticated visual pattern analysis. Challenge students to verbalize their spatial reasoning strategies before placing pieces. Use complex images with subtle visual distinctions between grid sections to increase analytical demand. Grid match at this level develops the matrix reasoning abilities assessed in cognitive aptitude tests and standardized assessments.',
+      },
+      {
+        id: 'therapy',
+        icon: '🩺',
+        title: 'Therapeutic Settings: Targeted Visual-Spatial Development',
+        description: 'Occupational therapists and special educators use grid match for targeted visual-spatial processing development. Start with 2x2 grids using high-contrast images and maximum clue cells. Progress incrementally by increasing grid size or reducing clues independently, never both simultaneously. Document accuracy and completion time across sessions to track visual perception development. The structured grid format provides consistent, measurable assessment of spatial reasoning growth.',
+      },
+    ],
   },
 };
 

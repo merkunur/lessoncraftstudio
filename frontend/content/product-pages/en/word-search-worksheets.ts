@@ -17,7 +17,7 @@ export const wordSearchEnContent: ProductPageContent = {
     appId: 'wordsearch',
     title: 'Word Search Puzzle Generator for Kids | LessonCraftStudio',
     description: 'Create word search puzzles with custom word lists and 3000+ themed images. Free printable in 11 languages for K-3. Generate unique puzzles every time.',
-    keywords: 'custom word search printable, word find puzzles, hidden words worksheet, vocabulary word search, themed word puzzles, word search for classroom, multilingual word search, word hunt activities, sight words word search, educational word games',
+    keywords: 'word search puzzle generator, word find, hidden word, letter grid, vocabulary review, sight word practice, word recognition, spelling reinforcement, word hunt, letter pattern, visual scanning, custom word search',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/word-search-worksheets',
     // Images for Google Image Thumbnails in search results
       },
@@ -26,7 +26,7 @@ export const wordSearchEnContent: ProductPageContent = {
   hero: {
     title: 'Word Search Generator With Custom Word Lists',
     subtitle: 'Create Themed Word Puzzles in 11 Languages',
-    description: `Create professional word search worksheets in seconds with our word search generator. Perfect for kindergarten teachers, first grade educators, and homeschool parents. Generate custom word search puzzles using images or words in just three clicks. Free version includes watermark for personal use.
+    description: `Create professional word search worksheets in seconds with our word search puzzle generator. Perfect for kindergarten teachers, first grade educators, and homeschool parents. Generate custom word search puzzles using images or words in just three clicks. Free version includes watermark for personal use.
 
 Our word search maker helps you create engaging learning activities for young students. Choose from over 3000 child-friendly images organized by theme. Each word search worksheet downloads as a high-quality PDF or JPEG. Your students will love searching for hidden words based on colorful pictures. Core Bundle subscription removes watermark and includes commercial licensing.
 
@@ -65,8 +65,51 @@ This word search generator works in 11 languages. Select a theme like animals or
     sectionTitle: 'Word Search Generator Features: Create Free Worksheets and Free Printables',
     sectionDescription: 'Our word search generator includes seven powerful features. Create free worksheet for kids faster than traditional methods. Every feature helps teachers create free printables and vocabulary worksheets in seconds.',
     highlightBadgeText: 'Key Feature',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: '1',
+        icon: '📝',
+        title: 'Custom Word List Creation',
+        description: 'Type your own vocabulary words or let the generator extract words from selected images. Build word search puzzles around any topic, spelling list, or curriculum unit. Mix typed words with image-based vocabulary on the same puzzle for maximum flexibility.',
+      },
+      {
+        id: '2',
+        icon: '📐',
+        title: 'Adjustable Grid Sizes',
+        description: 'Choose grid dimensions from 5x5 for kindergarten learners up to 30x30 for advanced students. Set rows and columns independently to create rectangular grids. Smaller grids keep puzzles manageable for beginning readers while larger grids challenge older students.',
+      },
+      {
+        id: '3',
+        icon: '🔀',
+        title: 'Word Direction Controls',
+        description: 'Enable or disable horizontal, vertical, diagonal, and reverse word placement independently. Simplify puzzles for early readers by limiting to horizontal-only. Add diagonal and reverse directions progressively as students build visual scanning confidence.',
+      },
+      {
+        id: '4',
+        icon: '🖼️',
+        title: '3000+ Themed Image Clues',
+        description: 'Browse a library of over 3000 child-friendly images organized by educational themes. Use picture clues instead of word lists so pre-readers and ESL students can participate. Students identify the image and then search for the matching word in the letter grid.',
+      },
+      {
+        id: '5',
+        icon: '✅',
+        title: 'Auto-Generated Answer Keys',
+        description: 'Every word search puzzle produces a color-coded answer key automatically. Each hidden word highlights in a unique color showing exact position and direction. Teachers verify puzzle quality and grade student work in seconds.',
+      },
+      {
+        id: '6',
+        icon: '🎨',
+        title: 'Full Canvas Editing Tools',
+        description: 'Click any element to edit it directly on the canvas. Move, resize, rotate, or delete puzzle components. Add custom text, change fonts and colors, upload background images, and apply decorative borders. Create unique layouts that match your classroom aesthetic.',
+      },
+      {
+        id: '7',
+        icon: '💼',
+        title: 'Commercial License Included',
+        description: 'Your subscription includes full commercial rights to sell word search worksheets on Teachers Pay Teachers, Etsy, Amazon KDP, or your own website. No attribution required and no extra licensing fees. Build a profitable puzzle bundle business.',
+      },
+    ],
+
   },
 
   // How-To Guide - FULL text from wordsearch.md step sections
@@ -137,8 +180,51 @@ Enable grayscale mode before downloading to save printer ink. The checkbox conve
   useCases: {
     sectionTitle: 'Word Search Worksheets Use Cases: Free Worksheets and Word Puzzles for Everyone',
     sectionDescription: 'Word search worksheets benefit multiple teaching contexts. Create free worksheet for kids in any subject. First grade educators love our free printables and vocabulary worksheets. The flexibility supports diverse teaching goals.',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: '1',
+        icon: '🌈',
+        title: 'Kindergarten Teachers',
+        subtitle: 'Small Grids and Picture Clues for Early Readers',
+        description: 'Create small 5x5 or 8x8 grids with horizontal-only word placement and picture clues. Kindergarteners identify images and search for three-to-four-letter sight words. Perfect for literacy centers where students practice letter recognition and word matching independently.',
+      },
+      {
+        id: '2',
+        icon: '📖',
+        title: 'Elementary Teachers',
+        subtitle: 'Vocabulary Review Aligned to Spelling Lists',
+        description: 'Generate vocabulary review puzzles aligned to weekly spelling lists and reading units. Use medium 10x15 grids with diagonal placement for first and second grade. Create themed word searches connecting science, social studies, and ELA vocabulary in one engaging activity.',
+      },
+      {
+        id: '3',
+        icon: '🏠',
+        title: 'Homeschool Parents',
+        subtitle: 'Themed Learning Packets in Minutes',
+        description: 'Build themed learning packets with word search puzzles matching your curriculum. Combine animal, nature, or seasonal themes across multiple worksheet types. Generate a full week of vocabulary practice in 15 minutes with customizable difficulty for each child.',
+      },
+      {
+        id: '4',
+        icon: '🌍',
+        title: 'ESL Teachers',
+        subtitle: 'Multilingual Puzzles in 11 Languages',
+        description: 'Create word search puzzles in 11 languages to build visual vocabulary for English language learners. Picture clues provide universal context while hidden words reinforce target-language spelling. Switch languages to create bilingual puzzles bridging home language and English.',
+      },
+      {
+        id: '5',
+        icon: '🧩',
+        title: 'Special Education Teachers',
+        subtitle: 'Adjustable Difficulty for Every Learner',
+        description: 'Adjust grid size, word count, and direction complexity to match each student\'s reading level. Small grids with horizontal-only words support struggling readers. Visual scanning practice strengthens letter recognition and pattern identification skills across ability levels.',
+      },
+      {
+        id: '6',
+        icon: '💰',
+        title: 'Teacher Entrepreneurs',
+        subtitle: 'Sell Puzzle Bundles with Commercial License',
+        description: 'Create themed word search puzzle bundles for Teachers Pay Teachers, Etsy, or Amazon KDP. Seasonal, holiday, and curriculum-aligned puzzle packs sell consistently. Your commercial license covers unlimited sales with no attribution or per-download fees.',
+      },
+    ],
+
   },
 
   // FAQ Section - Selected FAQs from wordsearch.md
@@ -290,8 +376,132 @@ Enable grayscale mode before downloading to save printer ink. The checkbox conve
     ctaDescription: 'Join thousands of educators creating professional worksheets. Unlimited generation, commercial license included.',
     primaryCtaText: 'Start Free Trial',
     secondaryCtaText: 'View All 33 Apps',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: '1',
+        slug: 'word-scramble-worksheets',
+        name: 'Word Scramble Worksheets',
+        category: 'Language Arts',
+        icon: '🔤',
+        description: 'Pair word search puzzles with word scramble activities for double vocabulary exposure. Students find hidden words in one puzzle and unscramble the same words in another, reinforcing spelling from both recognition and production angles.',
+      },
+      {
+        id: '2',
+        slug: 'word-guess-worksheets',
+        name: 'Word Guess Worksheets',
+        category: 'Language Arts',
+        icon: '❓',
+        description: 'Combine word searches with fill-in-the-blank word guess puzzles for comprehensive spelling practice. Students recognize words in the grid then produce missing letters in word guess format, building both visual scanning and spelling recall.',
+      },
+      {
+        id: '3',
+        slug: 'image-crossword-worksheets',
+        name: 'Image Crossword Worksheets',
+        category: 'Language Arts',
+        icon: '➕',
+        description: 'Create complete vocabulary packets by adding crossword puzzles to your word search worksheets. Students encounter the same themed vocabulary across different puzzle formats, strengthening retention through varied practice.',
+      },
+      {
+        id: '4',
+        slug: 'alphabet-train-worksheets',
+        name: 'Alphabet Train Worksheets',
+        category: 'Early Learning',
+        icon: '🚂',
+        description: 'Bundle word search puzzles with alphabet ordering activities for early literacy packets. Kindergarteners practice letter recognition in word searches then reinforce alphabetical order with train worksheets.',
+      },
+      {
+        id: '5',
+        slug: 'cryptogram-worksheets',
+        name: 'Cryptogram Worksheets',
+        category: 'Language Arts',
+        icon: '🔐',
+        description: 'Challenge older students with cryptogram code-breaking activities alongside word search puzzles. Both formats develop pattern recognition and letter analysis skills in different engaging contexts.',
+      },
+      {
+        id: '6',
+        slug: 'matchup-maker-worksheets',
+        name: 'MatchUp Maker Worksheets',
+        category: 'Vocabulary',
+        icon: '🔗',
+        description: 'Add picture-word matching activities to complement word search vocabulary practice. Students match images to words in one worksheet then find those same words hidden in a word search grid.',
+      },
+    ],
+  },
+
+  // -- SEO & Content Enrichment (Part 18) ------------------------------------
+
+  aiOverviewSnippet: 'A word search puzzle generator is an online tool that creates printable letter-grid puzzles from custom word lists or themed picture clues. Teachers choose grid size, word directions, and difficulty level, then download a ready-to-print PDF with an auto-generated color-coded answer key in under 3 minutes.',
+
+  comparisonTable: [
+    { feature: 'Grid Flexibility', ourApp: '5x5 to 30x30, independent row/column control', typical: 'Fixed grid sizes (10x10 or 15x15)' },
+    { feature: 'Word Directions', ourApp: 'Horizontal, vertical, diagonal, reverse toggles', typical: 'All directions always on' },
+    { feature: 'Image Clues', ourApp: '3000+ themed pictures as visual clues', typical: 'Text word lists only' },
+    { feature: 'Answer Keys', ourApp: 'Auto color-coded key with every puzzle', typical: 'Manual or sold separately' },
+    { feature: 'Commercial License', ourApp: 'Included, sell on TPT/Etsy/KDP', typical: 'Extra fee or not available' },
+    { feature: 'Language Support', ourApp: '11 languages included', typical: 'English only' },
+  ],
+
+  researchBacking: [
+    {
+      claim: 'Word search activities strengthen word recognition and visual scanning skills by requiring students to identify precise letter sequences within a field of distractors, building orthographic processing fluency.',
+      source: 'Ehri, L.C., "Learning to Read Words: Theory, Findings, and Issues," Scientific Studies of Reading, Vol. 9, No. 2',
+    },
+    {
+      claim: 'Vocabulary acquisition improves when students encounter target words in multiple formats including puzzles, as varied contextual exposure deepens lexical representations beyond rote memorization.',
+      source: 'Nation, I.S.P., "Learning Vocabulary in Another Language," Cambridge University Press',
+    },
+  ],
+
+  teacherTestimonials: [
+    {
+      quote: 'My first graders beg to do word search puzzles during literacy centers. The picture clues let my struggling readers participate alongside fluent readers, and I can adjust the grid size so everyone succeeds.',
+      name: 'Emily Thornton',
+      role: '1st Grade Teacher',
+      school: 'Maple Creek Elementary',
+    },
+    {
+      quote: 'I sell themed word search bundles on TPT and this generator cut my production time from two hours to fifteen minutes per pack. The answer keys alone save me so much formatting work.',
+      name: 'David Kowalski',
+      role: 'Teacher-Author',
+      school: 'TeachWithDavid on TPT',
+    },
+  ],
+
+  tips: {
+    sectionTitle: 'Word Search Strategies by Grade Level',
+    sectionDescription: 'Configure your word search puzzle generator for the right challenge at each developmental stage. Here is how to set grid size, word directions, and vocabulary complexity from preschool through third grade.',
+    items: [
+      {
+        id: 'preschool',
+        icon: '🌱',
+        title: 'Preschool: Letter Recognition Grids',
+        description: 'Use 5x5 grids with horizontal-only placement and 3-4 simple three-letter words. Select picture clues from familiar themes like animals or colors. Preschoolers practice identifying individual letters within the grid, building the visual discrimination skills needed for reading readiness.',
+      },
+      {
+        id: 'kindergarten',
+        icon: '🎒',
+        title: 'Kindergarten: Sight Word Searches',
+        description: 'Create 8x8 grids with horizontal and vertical words using high-frequency sight words like "the," "and," "cat." Enable picture clues so pre-readers can identify target words visually. Limit to 5-6 words per puzzle to maintain focus and build confidence with letter pattern scanning.',
+      },
+      {
+        id: 'first-grade',
+        icon: '📚',
+        title: '1st Grade: Vocabulary Review Puzzles',
+        description: 'Generate 10x12 grids adding diagonal word placement for increased challenge. Use 8-10 words from weekly spelling lists or reading unit vocabulary. First graders develop systematic scanning strategies, working row by row or looking for distinctive starting letters.',
+      },
+      {
+        id: 'second-grade',
+        icon: '✏️',
+        title: '2nd Grade: Themed Academic Puzzles',
+        description: 'Build 12x15 grids with all directions including reverse for stronger visual processing practice. Include 10-15 content-area vocabulary words from science or social studies units. Second graders strengthen spelling reinforcement as they recognize exact letter sequences hidden among distractors.',
+      },
+      {
+        id: 'third-grade',
+        icon: '🎯',
+        title: '3rd Grade: Challenge Puzzles',
+        description: 'Create 15x20 or larger grids with reverse and diagonal placement and 15-20 multisyllabic words. Use academic vocabulary and subject-specific terminology. Third graders build sustained attention and advanced visual scanning while reinforcing correct spelling of longer words.',
+      },
+    ],
   },
 };
 

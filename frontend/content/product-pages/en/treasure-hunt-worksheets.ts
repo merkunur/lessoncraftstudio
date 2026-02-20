@@ -300,7 +300,83 @@ This treasure hunt generator creates unique worksheets every time you click gene
     primaryCtaText: 'Start Free Trial',
     secondaryCtaText: 'View All 33 Apps',
     items: [], // Samples loaded dynamically from content manager
-    
+
+  },
+
+  // -- SEO & Content Enrichment (Part 26) ------------------------------------
+
+  aiOverviewSnippet: 'A treasure hunt worksheet generator creates grid-navigation activities where students follow 6-step directional instructions across a 5\u00d75 image grid to find hidden treasure. Teachers choose between basic directions (up/down/left/right) or cardinal directions (N/S/E/W), select themed images, and download a 300 DPI PDF with auto-traced answer key in under two minutes.',
+
+  comparisonTable: [
+    { feature: 'Direction Modes', ourApp: '2 modes \u2014 basic (up/down/left/right) and cardinal (N/S/E/W)', typical: 'Single direction vocabulary only' },
+    { feature: 'Step Sequence', ourApp: '6-step sequential instructions with progressive navigation', typical: 'Fewer steps or random difficulty' },
+    { feature: 'Answer Key', ourApp: 'Auto-traced path showing complete route with red circle on treasure', typical: 'Manual answer key or none included' },
+    { feature: 'Grid Design', ourApp: '5\u00d75 grid with 6 themed images distributed across 25 cells', typical: 'Static pre-made grid layouts' },
+    { feature: 'Image Library', ourApp: '3,000+ themed images plus custom uploads', typical: 'Limited clipart or stock images' },
+    { feature: 'Commercial License', ourApp: 'Included for TPT, Etsy, and KDP sales', typical: 'Extra fee or personal use only' },
+  ],
+
+  researchBacking: [
+    {
+      claim: 'Following multi-step directional instructions develops spatial language and working memory, as children must hold each instruction in mind while physically or mentally tracking their position on a grid \u2014 skills directly linked to mathematics and reading comprehension achievement.',
+      source: 'Newcombe, N.S. & Huttenlocher, J., "Making Space: The Development of Spatial Representation and Reasoning," MIT Press, 2000',
+    },
+    {
+      claim: 'Cardinal direction activities introduce early geography and compass concepts aligned with social studies standards, and children who practice spatial vocabulary through structured grid tasks demonstrate stronger map-reading and spatial reasoning abilities in later grades.',
+      source: 'Uttal, D.H. et al., "The Malleability of Spatial Skills: A Meta-Analysis of Training Studies," Psychological Bulletin, 2013',
+    },
+  ],
+
+  teacherTestimonials: [
+    {
+      quote: 'My kindergarteners love the basic direction mode \u2014 they put their finger on the start image and physically trace each step as I read the clues aloud. The 6-step sequence is perfect for building following-directions stamina. The auto-traced answer key with the red circle makes checking work instant.',
+      name: 'Patricia Duval',
+      role: 'Kindergarten Teacher',
+      school: 'Cedarwood Elementary',
+    },
+    {
+      quote: 'I switched to cardinal direction mode for my second graders and it transformed our social studies unit on map skills. Students practice north, south, east, and west on every worksheet while developing reading comprehension. I generate a new treasure hunt daily \u2014 each one is unique so they never get stale.',
+      name: 'Tyler Morrison',
+      role: '2nd Grade Teacher',
+      school: 'Hilltop Academy',
+    },
+  ],
+
+  tips: {
+    sectionTitle: 'Direction-Following Strategies by Grade Level',
+    sectionDescription: 'Adjust direction mode and instructional scaffolding to match each developmental stage. The Treasure Hunt generator supports both basic and cardinal directions, letting you build spatial vocabulary from preschool finger-tracking through third grade strategic reasoning.',
+    items: [
+      {
+        id: 'preschool',
+        icon: '\u{1F331}',
+        title: 'Preschool: Basic Direction Introduction',
+        description: 'Use basic direction mode (up/down/left/right) with large, distinct themed images. Read the clues aloud while students place their finger on the starting cell and trace each movement. Focus on just the first 2\u20133 steps initially, building up to all 6 as students gain confidence with directional vocabulary and grid tracking.',
+      },
+      {
+        id: 'kindergarten',
+        icon: '\u{1F392}',
+        title: 'Kindergarten: Finger-Tracking Full Hunts',
+        description: 'Let kindergarteners complete all 6 steps independently using finger tracking on the grid. Choose themes with highly distinct images so students can verify their position at each step. Pair treasure hunts with classroom discussion about direction words to reinforce spatial vocabulary throughout the week.',
+      },
+      {
+        id: 'first-grade',
+        icon: '\u{1F4DA}',
+        title: '1st Grade: Independent Reading of Clues',
+        description: 'Have first graders read the directional clues independently instead of listening to the teacher. The simple sentence structure of each clue supports reading fluency practice. Students decode direction words and number words in authentic context. Generate multiple worksheets with the same theme for progressive practice.',
+      },
+      {
+        id: 'second-grade',
+        icon: '\u270F\uFE0F',
+        title: '2nd Grade: Cardinal Direction Mode',
+        description: 'Switch to cardinal direction mode (N/S/E/W) to align with social studies map skills standards. Students learn compass vocabulary through repeated meaningful practice rather than isolated memorization. Connect treasure hunt worksheets to classroom maps by labeling north on the worksheet grid.',
+      },
+      {
+        id: 'third-grade',
+        icon: '\u{1F3AF}',
+        title: '3rd Grade: Strategy and Verification',
+        description: 'Challenge third graders to predict the treasure location before tracing the full path, then verify by following all 6 steps. After completing the hunt, students write their own directional clues for a partner using the same grid. This reverse-engineering task deepens understanding of spatial language and directional reasoning.',
+      },
+    ],
   },
 };
 

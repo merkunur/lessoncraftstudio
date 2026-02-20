@@ -298,7 +298,83 @@ The Big and Small worksheet maker offers five different question types. Students
     primaryCtaText: 'Start Free Trial',
     secondaryCtaText: 'View All 33 Apps',
     items: [], // Samples loaded dynamically from content manager
-    
+
+  },
+
+  // -- SEO & Content Enrichment (Part 26) ------------------------------------
+
+  aiOverviewSnippet: 'A big and small worksheet generator creates size comparison activities with 5 question types: circle the big, circle the small, find the medium, order smallest-to-biggest, and order biggest-to-smallest. Teachers select themed images, set 1\u201310 exercises with 2\u20133 images each, and download a 300 DPI PDF with automatic answer key in under two minutes.',
+
+  comparisonTable: [
+    { feature: 'Question Types', ourApp: '5 types including ordering and medium identification', typical: 'Basic big vs. small only' },
+    { feature: 'Exercise Count', ourApp: 'Adjustable 1\u201310 exercises per worksheet', typical: 'Fixed layout with set number of exercises' },
+    { feature: 'Images Per Exercise', ourApp: '2\u20133 images with automatic size differentiation', typical: 'Fixed image count per exercise' },
+    { feature: 'Ordering Activities', ourApp: 'Both smallest-to-biggest and biggest-to-smallest sequencing', typical: 'Size identification only, no ordering' },
+    { feature: 'Answer Keys', ourApp: 'Auto-generated visual answer key for all 5 question types', typical: 'Often not included or teacher-made' },
+    { feature: 'Commercial License', ourApp: 'Included for TPT, Etsy, and KDP sales', typical: 'Extra fee or personal use only' },
+  ],
+
+  researchBacking: [
+    {
+      claim: 'Size comparison and seriation tasks develop measurement foundations and comparative reasoning aligned with K.MD standards, as children who practice ordering objects by size build the relational thinking needed for number lines, measurement units, and data analysis.',
+      source: 'Piaget, J. & Inhelder, B., "The Child\'s Conception of Space," W.W. Norton & Company, 1967',
+    },
+    {
+      claim: 'Ordering activities that require arranging items from smallest to largest build understanding of transitivity \u2014 the logical principle that if A is bigger than B and B is bigger than C, then A is bigger than C \u2014 a foundational reasoning skill for mathematical proof and scientific classification.',
+      source: 'Clements, D.H. & Sarama, J., "Learning and Teaching Early Math: The Learning Trajectories Approach," Routledge, 2014',
+    },
+  ],
+
+  teacherTestimonials: [
+    {
+      quote: 'My 3-year-olds started with the circle-the-big-one mode using 2 images per exercise, and within weeks they graduated to 3-image exercises with find-the-medium. The automatic answer key is a lifesaver \u2014 I print one copy for my assessment binder and students self-check at the math station independently.',
+      name: 'Wendy Nakamura',
+      role: 'Pre-K Teacher',
+      school: 'Little Scholars Preschool',
+    },
+    {
+      quote: 'The ordering activities are exactly what my kindergarteners needed for measurement readiness. I set 3 images per exercise and alternate between smallest-to-biggest and biggest-to-smallest each day. The 10-exercise option gives me a full-page assessment worksheet that takes about 8 minutes \u2014 perfect for a math center rotation.',
+      name: 'Aaron Fitzgerald',
+      role: 'Kindergarten Teacher',
+      school: 'Oakridge Primary',
+    },
+  ],
+
+  tips: {
+    sectionTitle: 'Size Comparison Strategies by Grade Level',
+    sectionDescription: 'Adjust question type, image count, and exercise count to match each developmental stage. The Big and Small generator covers everything from simple two-image comparisons for toddlers to three-way ordering tasks that build measurement readiness for first graders.',
+    items: [
+      {
+        id: 'preschool',
+        icon: '\u{1F331}',
+        title: 'Preschool: Circle the Big One with 2 Images',
+        description: 'Start with the simplest mode \u2014 circle the big one using just 2 images per exercise. Set 3\u20134 exercises per page for large, clear images that toddlers and young preschoolers can distinguish easily. Choose highly familiar themes like animals or food so size differences are intuitive and engaging for 3\u20134 year olds.',
+      },
+      {
+        id: 'kindergarten',
+        icon: '\u{1F392}',
+        title: 'Kindergarten: Find the Medium with 3 Images',
+        description: 'Introduce 3-image exercises with the find-the-medium question type for kindergarteners ready for three-way comparison. This challenges students to evaluate relative size among all three items rather than simply identifying the extreme. Set 5\u20136 exercises per page for a balanced practice session.',
+      },
+      {
+        id: 'first-grade',
+        icon: '\u{1F4DA}',
+        title: '1st Grade: Ordering Smallest to Biggest',
+        description: 'Use the ordering modes with 3 images per exercise for first graders developing seriation skills. Alternate between smallest-to-biggest and biggest-to-smallest to build flexible comparative thinking. Set 6\u20138 exercises per page and pair with number ordering activities to connect size comparison to mathematical sequencing.',
+      },
+      {
+        id: 'second-grade',
+        icon: '\u270F\uFE0F',
+        title: '2nd Grade: Mixed Question Types',
+        description: 'Generate worksheets using different question types across exercises for comprehensive review. Combine circle-the-big, find-the-medium, and ordering tasks on a single worksheet to assess multiple size comparison skills. Set 8\u201310 exercises for a thorough practice page that covers all aspects of measurement readiness.',
+      },
+      {
+        id: 'third-grade',
+        icon: '\u{1F3AF}',
+        title: '3rd Grade: Cross-Curricular Size Reasoning',
+        description: 'Upload custom images from science or social studies units for content-area size comparison. Students compare sizes of planets, animals, or geographic features while practicing measurement vocabulary. Use the ordering mode with 3 images to connect size comparison to data analysis and classification skills in science.',
+      },
+    ],
   },
 };
 

@@ -386,6 +386,7 @@ export default function HeroSection({
                         fill
                         className="object-cover"
                         priority
+                        sizes="(max-width: 1024px) 100vw, 42vw"
                       />
                     ) : (
                       <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-cyan-900/20 to-purple-900/20">

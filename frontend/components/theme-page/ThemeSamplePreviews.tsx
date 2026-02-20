@@ -29,6 +29,7 @@ export default function ThemeSamplePreviews({ images, themeName, locale }: Theme
                 width={i === 0 ? 256 : 128}
                 height={i === 0 ? 256 : 128}
                 loading="lazy"
+                decoding="async"
                 className="w-full h-full object-contain p-2"
               />
             </div>

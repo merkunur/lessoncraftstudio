@@ -495,6 +495,8 @@ export default async function ThemeGradePage({
                         width={96}
                         height={96}
                         loading="eager"
+                        fetchPriority={i === 0 ? 'high' : undefined}
+                        decoding="async"
                         className="w-full h-full object-contain p-1"
                       />
                     </div>

@@ -4,14 +4,12 @@ import { getSlugForLocale, type SupportedLocale } from '@/config/product-page-sl
 import {
   sectionExpertInsights,
   labelRecommendedApps,
-  labelLimitations,
   labelVs,
 } from '@/config/theme-page-labels';
 
 interface ThemeComparisonsProps {
   themeComparisons?: ThemeComparison[];
   productLinks?: ProductLink[];
-  limitations?: string;
   themeName: string;
   locale: string;
   /** Map of themeId -> localized slug for comparison links */
@@ -21,16 +19,14 @@ interface ThemeComparisonsProps {
 export default function ThemeComparisons({
   themeComparisons,
   productLinks,
-  limitations,
   themeName,
   locale,
   themeSlugMap,
 }: ThemeComparisonsProps) {
   const hasComparisons = themeComparisons && themeComparisons.length > 0;
   const hasProductLinks = productLinks && productLinks.length > 0;
-  const hasLimitations = !!limitations;
 
-  if (!hasComparisons && !hasProductLinks && !hasLimitations) return null;
+  if (!hasComparisons && !hasProductLinks) return null;
 
   return (
     <section
@@ -108,17 +104,6 @@ export default function ThemeComparisons({
           </div>
         )}
 
-        {/* Limitations callout */}
-        {hasLimitations && (
-          <div className="bg-amber-50 border-l-4 border-amber-400 rounded-r-lg p-5">
-            <h3 className="font-semibold text-gray-900 text-sm mb-2">
-              {labelLimitations[locale] || labelLimitations.en}
-            </h3>
-            <p className="text-gray-700 text-sm leading-relaxed">
-              {limitations}
-            </p>
-          </div>
-        )}
       </div>
     </section>
   );

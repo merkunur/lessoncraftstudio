@@ -208,6 +208,103 @@ const content: EnrichedThemeContent = {
   // -- Cross-linking --
   relatedThemes: ['numbers', 'school', 'animals', 'pets', 'food', 'colors'],
   relatedBlogCategories: [],
+
+  // -- Rich content (Part 12) --
+  classroomScenarios: [
+      {
+          "situation": "A kindergarten teacher has a class of 22 students with widely varying letter knowledge—some recognize all 26 letters while others know fewer than 10.",
+          "solution": "She uses the alphabet train and writing app worksheets as differentiated stations. Beginners trace letters with large dotted guides, while advanced students complete word scramble puzzles. Both groups work within the same alphabet theme, so the classroom feels unified.",
+          "outcome": "By mid-year, every student recognizes at least 20 uppercase letters. The word scramble group moves on to spelling short CVC words, while the tracing group builds confidence through visible daily progress."
+      },
+      {
+          "situation": "A parent notices their four-year-old can sing the ABC song but cannot identify individual letters when shown flashcards.",
+          "solution": "The parent prints alphabet coloring worksheets where each page features one letter with a themed image (A for apple, B for bear). The child colors the image and traces the letter, creating a multisensory connection between the letter shape, its sound, and a concrete object.",
+          "outcome": "After three weeks of daily ten-minute sessions, the child can identify 15 uppercase letters on sight and spontaneously points out letters on signs during car rides."
+      }
+  ],
+
+  quickStats: [
+      {
+          "label": "Letters covered",
+          "value": "A–Z"
+      },
+      {
+          "label": "Worksheet apps available",
+          "value": "10 apps"
+      },
+      {
+          "label": "Best starting age",
+          "value": "3–4 years"
+      },
+      {
+          "label": "Skills developed",
+          "value": "6 areas"
+      },
+      {
+          "label": "Average mastery time",
+          "value": "3–6 months"
+      },
+      {
+          "label": "Phonics integration",
+          "value": "Yes"
+      }
+  ],
+
+  differentiationStrategies: [
+      {
+          "learnerType": "Struggling readers",
+          "adaptation": "Focus on the alphabet train and writing app worksheets that provide large, clear letter models with directional arrows. Limit to 3–4 letters per session to avoid overload and build mastery before introducing new letters."
+      },
+      {
+          "learnerType": "Gifted learners",
+          "adaptation": "Use word scramble and image crossword apps to extend letter knowledge into spelling and vocabulary. Challenge them to find patterns in letter combinations and create their own simple word puzzles."
+      },
+      {
+          "learnerType": "Students with dyslexia",
+          "adaptation": "Print worksheets on colored paper (light yellow or blue) to reduce visual stress. Use the writing app with extra-large letter templates and pair with textured letter cards for multisensory reinforcement."
+      },
+      {
+          "learnerType": "Multilingual learners",
+          "adaptation": "Leverage the fact that many languages share the Latin alphabet. Point out cognates on worksheets (e.g., animal/animal in Spanish) and use image-based activities to build letter-sound correspondence in the target language."
+      }
+  ],
+
+  assessmentIdeas: [
+      {
+          "method": "Letter recognition speed test",
+          "criteria": "Show 26 letter cards one at a time. Record how many the student names correctly in 60 seconds. Repeat monthly to track growth.",
+          "gradeLevel": "Pre-K to K"
+      },
+      {
+          "method": "Writing sample analysis",
+          "criteria": "Collect weekly writing samples from alphabet tracing worksheets. Assess letter formation, size consistency, and baseline alignment across the sample set.",
+          "gradeLevel": "Pre-K to 1st"
+      },
+      {
+          "method": "Phonics application check",
+          "criteria": "After completing word-based alphabet worksheets, ask students to sound out three unfamiliar CVC words to see if they can apply letter-sound knowledge independently.",
+          "gradeLevel": "K to 1st"
+      }
+  ],
+
+  crossCurricularLinks: [
+      {
+          "subject": "Music",
+          "connection": "Alphabet songs and rhymes reinforce letter sequence and phonemic awareness. Musical patterns help children remember letter order and associate sounds with rhythmic cues.",
+          "activity": "After an alphabet worksheet session, sing a song that features the same letters. Have children clap on each target letter sound."
+      },
+      {
+          "subject": "Physical Education",
+          "connection": "Letter formation involves the same fine motor planning used in sports and movement activities. Gross motor letter practice builds body awareness of letter shapes.",
+          "activity": "Take alphabet worksheets outdoors. Have children form letters with their bodies or trace giant letters on the ground with sidewalk chalk before completing the paper version."
+      },
+      {
+          "subject": "Social Studies",
+          "connection": "Letters connect to names, places, and cultural symbols. Learning the alphabet is a gateway to reading maps, understanding signs, and recognizing words in the community.",
+          "activity": "After completing an alphabet worksheet, take a walk around the school and photograph signs that start with the featured letter. Create a class alphabet book of community words."
+      }
+  ],
+
 };
 
 registerThemeContent('alphabet', 'en', content);

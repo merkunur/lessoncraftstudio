@@ -45,6 +45,12 @@ import ThemeSnippetBox from '@/components/theme-page/ThemeSnippetBox';
 import ThemeUniqueAngle from '@/components/theme-page/ThemeUniqueAngle';
 import ThemeHowTo from '@/components/theme-page/ThemeHowTo';
 import ThemeComparisons from '@/components/theme-page/ThemeComparisons';
+import ThemeQuickStats from '@/components/theme-page/ThemeQuickStats';
+import ThemeClassroomScenarios from '@/components/theme-page/ThemeClassroomScenarios';
+import ThemeDifferentiation from '@/components/theme-page/ThemeDifferentiation';
+import ThemeCrossCurricular from '@/components/theme-page/ThemeCrossCurricular';
+import ThemeAssessment from '@/components/theme-page/ThemeAssessment';
+import ThemeLimitations from '@/components/theme-page/ThemeLimitations';
 
 export const revalidate = 3600;
 
@@ -563,16 +569,45 @@ export default async function ThemePage({
         />
       )}
 
-      {/* Enriched: Expert Insights (comparisons, product links, limitations) */}
-      {enriched && (enrichedCast?.themeComparisons || enrichedCast?.productLinks || enrichedCast?.limitations) && (
+      {/* Enriched: Expert Insights (comparisons, product links) */}
+      {enriched && (enrichedCast?.themeComparisons || enrichedCast?.productLinks) && (
         <ThemeComparisons
           themeComparisons={enrichedCast?.themeComparisons}
           productLinks={enrichedCast?.productLinks}
-          limitations={enrichedCast?.limitations}
           themeName={content.name}
           locale={locale}
           themeSlugMap={comparisonSlugMap}
         />
+      )}
+
+      {/* Enriched: Quick Stats */}
+      {enrichedCast?.quickStats && enrichedCast.quickStats.length > 0 && (
+        <ThemeQuickStats stats={enrichedCast.quickStats} locale={locale} />
+      )}
+
+      {/* Enriched: Classroom Scenarios */}
+      {enrichedCast?.classroomScenarios && enrichedCast.classroomScenarios.length > 0 && (
+        <ThemeClassroomScenarios scenarios={enrichedCast.classroomScenarios} locale={locale} />
+      )}
+
+      {/* Enriched: Differentiation Strategies */}
+      {enrichedCast?.differentiationStrategies && enrichedCast.differentiationStrategies.length > 0 && (
+        <ThemeDifferentiation strategies={enrichedCast.differentiationStrategies} locale={locale} />
+      )}
+
+      {/* Enriched: Cross-Curricular Connections */}
+      {enrichedCast?.crossCurricularLinks && enrichedCast.crossCurricularLinks.length > 0 && (
+        <ThemeCrossCurricular links={enrichedCast.crossCurricularLinks} locale={locale} />
+      )}
+
+      {/* Enriched: Assessment Ideas */}
+      {enrichedCast?.assessmentIdeas && enrichedCast.assessmentIdeas.length > 0 && (
+        <ThemeAssessment assessmentIdeas={enrichedCast.assessmentIdeas} locale={locale} />
+      )}
+
+      {/* Enriched: Limitations */}
+      {enrichedCast?.limitations && (
+        <ThemeLimitations limitations={enrichedCast.limitations} locale={locale} />
       )}
 
       {/* FAQ Section */}

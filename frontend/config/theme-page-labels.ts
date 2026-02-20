@@ -631,3 +631,117 @@ export const exploreOtherCategoriesLabel: LocaleLabels = {
   no: 'Utforsk andre kategorier',
   fi: 'Tutustu muihin kategorioihin',
 };
+
+// ── Rich content section headings (Part 12) ─────────────────────────────
+
+export const sectionClassroomScenarios: LocaleLabels = {
+  en: 'Real Classroom Scenarios',
+  de: 'Echte Unterrichtsszenarien',
+  fr: 'Sc\u00e9narios de classe r\u00e9els',
+  es: 'Escenarios reales del aula',
+  pt: 'Cen\u00e1rios reais de sala de aula',
+  it: 'Scenari reali in classe',
+  nl: 'Echte klassenscenario\u2019s',
+  sv: 'Verkliga klassrumsscenarier',
+  da: 'Virkelige undervisningsscenarier',
+  no: 'Virkelige klasseromsscenarier',
+  fi: 'Aitoja luokkatilanteita',
+};
+
+export const sectionQuickStats: LocaleLabels = {
+  en: 'Quick Facts',
+  de: 'Kurzfakten',
+  fr: 'Faits en bref',
+  es: 'Datos r\u00e1pidos',
+  pt: 'Fatos r\u00e1pidos',
+  it: 'Fatti rapidi',
+  nl: 'Snelle feiten',
+  sv: 'Snabba fakta',
+  da: 'Hurtige fakta',
+  no: 'Raske fakta',
+  fi: 'Pikatietoja',
+};
+
+export const sectionDifferentiation: LocaleLabels = {
+  en: 'Strategies for Diverse Learners',
+  de: 'Strategien f\u00fcr unterschiedliche Lernende',
+  fr: 'Strat\u00e9gies pour les apprenants divers',
+  es: 'Estrategias para diversos aprendices',
+  pt: 'Estrat\u00e9gias para alunos diversos',
+  it: 'Strategie per studenti diversi',
+  nl: 'Strategie\u00ebn voor diverse leerlingen',
+  sv: 'Strategier f\u00f6r olika elever',
+  da: 'Strategier for forskellige elever',
+  no: 'Strategier for ulike elever',
+  fi: 'Strategioita erilaisille oppijoille',
+};
+
+export const sectionAssessment: LocaleLabels = {
+  en: 'Assessment Ideas',
+  de: 'Bewertungsideen',
+  fr: 'Id\u00e9es d\u2019\u00e9valuation',
+  es: 'Ideas de evaluaci\u00f3n',
+  pt: 'Ideias de avalia\u00e7\u00e3o',
+  it: 'Idee di valutazione',
+  nl: 'Beoordelingsidee\u00ebn',
+  sv: 'Bed\u00f6mningsid\u00e9er',
+  da: 'Vurderingsideer',
+  no: 'Vurderingsideer',
+  fi: 'Arviointiideoita',
+};
+
+export const sectionCrossCurricular: LocaleLabels = {
+  en: 'Cross-Curricular Connections',
+  de: 'F\u00e4cher\u00fcbergreifende Verbindungen',
+  fr: 'Connexions interdisciplinaires',
+  es: 'Conexiones interdisciplinarias',
+  pt: 'Conex\u00f5es interdisciplinares',
+  it: 'Connessioni interdisciplinari',
+  nl: 'Vakoverschrijdende verbindingen',
+  sv: '\u00c4mnes\u00f6vergripande kopplingar',
+  da: 'Tv\u00e6rfaglige forbindelser',
+  no: 'Tverrfaglige forbindelser',
+  fi: 'Oppiainerajat ylitt\u00e4v\u00e4t yhteydet',
+};
+
+export const labelEmerging: LocaleLabels = {
+  en: 'Emerging',
+  de: 'Anf\u00e4nger',
+  fr: 'D\u00e9butant',
+  es: 'Emergente',
+  pt: 'Emergente',
+  it: 'Emergente',
+  nl: 'Beginnend',
+  sv: 'Begynnande',
+  da: 'Begyndende',
+  no: 'Begynnende',
+  fi: 'Kehittyv\u00e4',
+};
+
+export const labelProficient: LocaleLabels = {
+  en: 'Proficient',
+  de: 'Kompetent',
+  fr: 'Comp\u00e9tent',
+  es: 'Competente',
+  pt: 'Proficiente',
+  it: 'Competente',
+  nl: 'Bekwaam',
+  sv: 'Skicklig',
+  da: 'Kompetent',
+  no: 'Kompetent',
+  fi: 'Taitava',
+};
+
+export const labelAdvanced: LocaleLabels = {
+  en: 'Advanced',
+  de: 'Fortgeschritten',
+  fr: 'Avanc\u00e9',
+  es: 'Avanzado',
+  pt: 'Avan\u00e7ado',
+  it: 'Avanzato',
+  nl: 'Gevorderd',
+  sv: 'Avancerad',
+  da: 'Avanceret',
+  no: 'Avansert',
+  fi: 'Edistynyt',
+};

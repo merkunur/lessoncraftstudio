@@ -208,6 +208,103 @@ const content: EnrichedThemeContent = {
   // -- Cross-linking --
   relatedThemes: ['farm', 'pets', 'zoo', 'birds', 'insects', 'ocean', 'dinosaurs'],
   relatedBlogCategories: [],
+
+  // -- Rich content (Part 12) --
+  classroomScenarios: [
+      {
+          "situation": "A first-grade teacher notices that several students struggle with addition when the problems use abstract symbols alone.",
+          "solution": "She introduces animal-themed image addition worksheets where children count groups of puppies and kittens to form number sentences. The visual anchors help students connect quantities to symbols.",
+          "outcome": "Within two weeks, the struggling students can solve addition problems within 10 independently. Three students who were previously disengaged now voluntarily request extra worksheets during free time."
+      },
+      {
+          "situation": "A parent homeschooling a kindergartener finds the child resists any structured learning activity and only wants to play with toy animals.",
+          "solution": "The parent prints animal matching and shadow match worksheets and presents them as a game: \"Can you help these animals find their shadows?\" The worksheets become an extension of imaginative play rather than a separate task.",
+          "outcome": "The child completes three to four worksheets per session without resistance. Fine motor skills improve visibly within a month, and the child begins requesting \"animal school\" as part of the daily routine."
+      }
+  ],
+
+  quickStats: [
+      {
+          "label": "Recommended age range",
+          "value": "3–9 years"
+      },
+      {
+          "label": "Worksheet apps available",
+          "value": "12 apps"
+      },
+      {
+          "label": "Curriculum areas covered",
+          "value": "4 areas"
+      },
+      {
+          "label": "Grade levels supported",
+          "value": "Pre-K to 3rd"
+      },
+      {
+          "label": "Average session length",
+          "value": "10–20 min"
+      },
+      {
+          "label": "Unique animal images",
+          "value": "200+"
+      }
+  ],
+
+  differentiationStrategies: [
+      {
+          "learnerType": "Visual learners",
+          "adaptation": "Use the coloring and shadow match worksheets as primary activities. These leverage strong visual processing skills and provide multiple entry points for children who learn best through images rather than text."
+      },
+      {
+          "learnerType": "Kinesthetic learners",
+          "adaptation": "Pair worksheets with physical animal figurines. Have children place figurines on the worksheet to solve problems before writing answers, bridging the gap between hands-on manipulation and paper-based learning."
+      },
+      {
+          "learnerType": "English language learners",
+          "adaptation": "Start with image-heavy worksheets like find-and-count and matching before introducing word-based activities. Animal vocabulary is often among the first words ELL students learn, making this theme an excellent bridge to literacy tasks."
+      },
+      {
+          "learnerType": "Advanced learners",
+          "adaptation": "Challenge them with multi-step word problems using animal data, or have them create their own animal-themed worksheets for classmates. The image crossword and word search apps offer adjustable difficulty for higher-level vocabulary work."
+      }
+  ],
+
+  assessmentIdeas: [
+      {
+          "method": "Portfolio collection",
+          "criteria": "Collect one worksheet per week over a month. Compare early and late samples to document growth in counting accuracy, letter formation, and fine motor control.",
+          "gradeLevel": "All grades"
+      },
+      {
+          "method": "Observational checklist",
+          "criteria": "While students work on animal sorting worksheets, note whether they can classify by one attribute (Pre-K), two attributes (K), or create their own categories (1st+).",
+          "gradeLevel": "Pre-K to 1st"
+      },
+      {
+          "method": "Exit ticket quiz",
+          "criteria": "After completing a set of animal math worksheets, give students three quick problems without images to check whether they can transfer skills from themed to abstract contexts.",
+          "gradeLevel": "1st to 3rd"
+      }
+  ],
+
+  crossCurricularLinks: [
+      {
+          "subject": "Science",
+          "connection": "Animal worksheets naturally connect to life science standards. Sorting animals by habitat, diet, or body covering reinforces classification skills that are central to scientific inquiry.",
+          "activity": "After completing an animal sorting worksheet, have students research one animal from each habitat group and present two facts to the class."
+      },
+      {
+          "subject": "Geography",
+          "connection": "Different animals live on different continents, creating a natural bridge between zoology and world geography. Children begin to associate regions with their characteristic wildlife.",
+          "activity": "Use a world map alongside animal worksheets. After identifying each animal, students place a sticker on the continent where it lives."
+      },
+      {
+          "subject": "Art",
+          "connection": "Animal coloring and drawing worksheets develop fine motor skills and artistic expression simultaneously. Children learn to observe proportions, patterns, and details in animal forms.",
+          "activity": "After coloring an animal worksheet, have students create an original animal drawing using the same techniques, then write one sentence describing their creation."
+      }
+  ],
+
 };
 
 registerThemeContent('animals', 'en', content);

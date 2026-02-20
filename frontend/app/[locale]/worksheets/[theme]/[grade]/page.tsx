@@ -50,6 +50,7 @@ import { ALL_THEME_IDS } from '@/content/themes/types';
 import { getThemeGradeCuratedApps } from '@/config/theme-app-mapping';
 import GradeEducationalContent from '@/components/theme-page/GradeEducationalContent';
 import ThemeLearningObjectives from '@/components/theme-page/ThemeLearningObjectives';
+import ThemeAssessment from '@/components/theme-page/ThemeAssessment';
 export const revalidate = 3600;
 
 // ── Static params ─────────────────────────────────────────────────
@@ -584,6 +585,11 @@ export default async function ThemeGradePage({
             activeGrade={gradeId as GradeId}
           />
         </div>
+      )}
+
+      {/* Assessment Rubric (grade-level, enriched only) */}
+      {gradeContent?.assessmentRubric && gradeContent.assessmentRubric.length > 0 && (
+        <ThemeAssessment assessmentRubric={gradeContent.assessmentRubric} locale={locale} />
       )}
 
       {/* FAQ Section */}

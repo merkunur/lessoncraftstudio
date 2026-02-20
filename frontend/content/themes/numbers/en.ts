@@ -193,6 +193,103 @@ const content: EnrichedThemeContent = {
   // -- Cross-linking --
   relatedThemes: ['alphabet', 'shapes', 'school', 'food', 'animals', 'toys'],
   relatedBlogCategories: [],
+
+  // -- Rich content (Part 12) --
+  classroomScenarios: [
+      {
+          "situation": "A second-grade teacher finds that students can solve basic addition on paper but freeze when presented with word problems involving numbers in real-world contexts.",
+          "solution": "She introduces number-themed worksheets that present math through scenarios: \"There are 24 apples in one basket and 18 in another. How many apples are there in total?\" The consistent number theme helps students focus on mathematical reasoning rather than decoding unfamiliar contexts.",
+          "outcome": "Word problem accuracy improves from 45% to 78% over six weeks. Students begin creating their own number stories during free writing time, demonstrating transfer of mathematical thinking to creative expression."
+      },
+      {
+          "situation": "A preschool parent is concerned because their three-year-old cannot count past five reliably and mixes up number names.",
+          "solution": "The parent uses number-themed find-and-count and pattern worksheets with large, colorful number representations. Each session focuses on just one or two numbers, building recognition through repetition with varied visual contexts.",
+          "outcome": "Within a month, the child counts to ten consistently and can identify written numerals 1 through 7. The parent reports that the child now counts objects spontaneously during daily activities like setting the table."
+      }
+  ],
+
+  quickStats: [
+      {
+          "label": "Number range covered",
+          "value": "1–100+"
+      },
+      {
+          "label": "Worksheet apps available",
+          "value": "11 apps"
+      },
+      {
+          "label": "Operations practiced",
+          "value": "4 operations"
+      },
+      {
+          "label": "Grade levels supported",
+          "value": "Pre-K to 3rd"
+      },
+      {
+          "label": "Problem types",
+          "value": "15+ types"
+      },
+      {
+          "label": "Difficulty levels",
+          "value": "Adjustable"
+      }
+  ],
+
+  differentiationStrategies: [
+      {
+          "learnerType": "Students with math anxiety",
+          "adaptation": "Start with number coloring pages and find-and-count activities that feel like games rather than tests. Gradually introduce computation through image addition where visual supports reduce the fear of \"getting it wrong.\""
+      },
+      {
+          "learnerType": "Tactile learners",
+          "adaptation": "Pair number worksheets with physical manipulatives. Have children build each number with blocks or counters before writing it on the worksheet, creating a concrete-to-abstract bridge that strengthens number sense."
+      },
+      {
+          "learnerType": "Students who need challenge",
+          "adaptation": "Use the math puzzle and code addition apps which offer built-in difficulty scaling. Assign multi-step problems that combine operations, or have advanced students explain their solution strategies in writing."
+      },
+      {
+          "learnerType": "Students with dyscalculia",
+          "adaptation": "Provide number line references alongside worksheets. Use color-coded operations (green for addition, red for subtraction) and allow extra time. The pattern worksheet app builds number sense through visual repetition without time pressure."
+      }
+  ],
+
+  assessmentIdeas: [
+      {
+          "method": "Number sense interview",
+          "criteria": "Ask students to count forward from a given number, count backward, and identify numbers before and after a target. Record fluency and accuracy to gauge number sense development.",
+          "gradeLevel": "Pre-K to 1st"
+      },
+      {
+          "method": "Computation fluency probe",
+          "criteria": "Give students a timed sheet of 20 single-digit addition problems. Track problems completed correctly per minute across weekly probes to measure fluency growth.",
+          "gradeLevel": "1st to 2nd"
+      },
+      {
+          "method": "Problem-solving rubric",
+          "criteria": "Evaluate student work on multi-step number worksheets using a three-point rubric: (1) identifies the operation needed, (2) computes accurately, (3) explains reasoning in a complete sentence.",
+          "gradeLevel": "2nd to 3rd"
+      }
+  ],
+
+  crossCurricularLinks: [
+      {
+          "subject": "Cooking & Measurement",
+          "connection": "Numbers are essential to recipes and measurement. Counting, measuring, and doubling or halving quantities connect number worksheets to real-world math application.",
+          "activity": "After a number addition worksheet, follow a simple recipe that requires measuring ingredients. Have students calculate double and half portions."
+      },
+      {
+          "subject": "Music & Rhythm",
+          "connection": "Musical rhythms are built on number patterns. Counting beats, recognizing time signatures, and understanding patterns in music reinforce numerical thinking.",
+          "activity": "Clap number patterns from a pattern worksheet as rhythms. Students identify which number patterns sound like familiar songs or create their own rhythmic compositions."
+      },
+      {
+          "subject": "Financial Literacy",
+          "connection": "Understanding numbers is the foundation of money skills. Counting coins, making change, and comparing prices all require the number skills practiced on worksheets.",
+          "activity": "Set up a classroom store after number worksheets. Students use play money to purchase items, practicing addition and subtraction in a meaningful economic context."
+      }
+  ],
+
 };
 
 registerThemeContent('numbers', 'en', content);

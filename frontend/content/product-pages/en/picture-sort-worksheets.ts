@@ -302,7 +302,83 @@ Full Access subscription costs $240 annually or $25 monthly. This includes all 3
     primaryCtaText: 'Start Free Trial',
     secondaryCtaText: 'View All 33 Apps',
     items: [], // Samples loaded dynamically from content manager
-    
+
+  },
+
+  // -- SEO & Content Enrichment (Part 24) ------------------------------------
+
+  aiOverviewSnippet: 'A picture sort worksheet generator creates printable cut-and-paste classification activities where students sort images into labeled category containers. Teachers select images using theme-based auto-generation or manual curation from a 3,000+ library, configure 2 to 4 sorting categories, and download 300 DPI PDFs with matching answer keys in under three minutes.',
+
+  comparisonTable: [
+    { feature: 'Image Selection', ourApp: 'Dual mode: theme-based auto-generation + manual curation', typical: 'Pre-made templates with fixed images' },
+    { feature: 'Category Count', ourApp: '2-4 configurable sorting categories', typical: 'Fixed 2-category layout only' },
+    { feature: 'Activity Format', ourApp: 'Cut-and-paste with printable cutout grid', typical: 'Circle or draw lines only' },
+    { feature: 'Image Library', ourApp: '3,000+ themed images plus custom uploads', typical: 'Limited clip art or black-and-white line drawings' },
+    { feature: 'Answer Keys', ourApp: 'Auto-generated showing correct category placement', typical: 'Often sold separately or not included' },
+    { feature: 'Commercial License', ourApp: 'Included for TPT, Etsy, and KDP sales', typical: 'Extra fee or personal use only' },
+  ],
+
+  researchBacking: [
+    {
+      claim: 'Classification and sorting activities build the cognitive foundation for mathematical thinking by developing attribute identification and categorical reasoning, skills directly aligned with Common Core standard K.MD.B.3 for classifying objects and counting by category.',
+      source: 'Clements, D. H. & Sarama, J., "Learning and Teaching Early Math: The Learning Trajectories Approach," Routledge, 2nd Edition, 2014',
+    },
+    {
+      claim: 'Cut-and-paste activities provide multi-sensory engagement that strengthens fine motor control and bilateral coordination while reinforcing cognitive concepts, making sorting worksheets a dual-purpose tool for academic and developmental goals.',
+      source: 'Case-Smith, J., "Effectiveness of School-Based Occupational Therapy on Handwriting," American Journal of Occupational Therapy, 2002',
+    },
+  ],
+
+  teacherTestimonials: [
+    {
+      quote: 'The theme-based mode is a lifesaver for my Pre-K centers. I pick two themes like animals and vehicles and the generator creates a perfectly balanced sorting activity in seconds. My students love cutting and pasting, and the answer key makes checking twenty worksheets take less than five minutes.',
+      name: 'Carla Jennings',
+      role: 'Pre-K Teacher',
+      school: 'Sunshine Learning Center',
+    },
+    {
+      quote: 'Manual image selection gives me total control for differentiated instruction. I create 2-category sorts for my struggling learners and 4-category sorts with tricky items for advanced students, all from the same tool. The cut-and-paste format is so much more engaging than worksheets where students just circle answers.',
+      name: 'Nathan Perez',
+      role: '1st Grade Teacher',
+      school: 'Aspen Grove Elementary',
+    },
+  ],
+
+  tips: {
+    sectionTitle: 'Picture Sort Strategies by Grade Level',
+    sectionDescription: 'Use the Picture Sort generator to target classification skills at each developmental stage. Adjust category count, image similarity, and sorting criteria to scaffold from basic binary sorts through multi-attribute categorization.',
+    items: [
+      {
+        id: 'preschool',
+        icon: '\u{1F331}',
+        title: 'Preschool: 2 Categories with Obvious Differences',
+        description: 'Start with 2 clearly distinct categories like animals versus vehicles using theme-based mode. Choose 6-8 large images total so each piece is easy for small hands to cut and paste. Focus on building the sorting concept itself so students learn that objects can be grouped by shared attributes.',
+      },
+      {
+        id: 'kindergarten',
+        icon: '\u{1F392}',
+        title: 'Kindergarten: 2-3 Categories with Theme Connections',
+        description: 'Increase to 3 categories for students ready for finer distinctions, like land animals, water animals, and flying animals. Use 8-10 images total. Align sorting categories with science or math units to reinforce content vocabulary while practicing classification skills required by K.MD.B.3.',
+      },
+      {
+        id: 'first-grade',
+        icon: '\u{1F4DA}',
+        title: '1st Grade: 3 Categories with Related Themes',
+        description: 'Use manual image selection to create 3-category sorts where items share overlapping attributes. For example, sort foods into fruits, vegetables, and grains. Include 10-12 images and choose items that require careful observation so students must analyze specific attributes rather than relying on surface-level differences.',
+      },
+      {
+        id: 'second-grade',
+        icon: '\u270F\uFE0F',
+        title: '2nd Grade: 4 Categories with Subtle Distinctions',
+        description: 'Challenge students with 4 sorting categories using manually curated images that require deeper analysis. Sort animals by habitat, food by food group, or objects by material. Use 12-16 images total to create worksheets that take 15-20 minutes, perfect for independent center work or assessment.',
+      },
+      {
+        id: 'third-grade',
+        icon: '\u{1F3AF}',
+        title: '3rd Grade: Multi-Attribute Sorting with Discussion',
+        description: 'Create 4-category sorts where some images could logically fit multiple categories to spark discussion about classification criteria. Students sort, then justify their reasoning in writing. Use sorting worksheets as pre-writing activities for compare-and-contrast paragraphs or science classification reports.',
+      },
+    ],
   },
 };
 

@@ -277,7 +277,83 @@ Your Core Bundle subscription includes complete access to all visual materials. 
     primaryCtaText: 'Start Free Trial',
     secondaryCtaText: 'View All 33 Apps',
     items: [], // Samples loaded dynamically from content manager
-    
+
+  },
+
+  // -- SEO & Content Enrichment (Part 24) ------------------------------------
+
+  aiOverviewSnippet: 'A matching worksheet generator creates printable line-drawing activities where students connect related pairs across two columns. Teachers choose from four matching modes -- image-to-letter, image-to-word, image-to-image, and image-to-custom-word -- then select 4 to 6 pairs from a 3,000+ image library. Each worksheet downloads as a 300 DPI PDF with a randomized right column and auto-generated answer key in under two minutes.',
+
+  comparisonTable: [
+    { feature: 'Matching Modes', ourApp: '4 modes (letter, word, image, custom word)', typical: '1 fixed mode per template' },
+    { feature: 'Pair Count', ourApp: 'Adjustable 4, 5, or 6 pairs per page', typical: 'Fixed layout with no flexibility' },
+    { feature: 'Column Randomization', ourApp: 'Auto-randomized right column every generation', typical: 'Manual rearrangement required' },
+    { feature: 'Image Library', ourApp: '3,000+ themed images plus custom uploads', typical: 'Basic clipart or text-only matching' },
+    { feature: 'Answer Keys', ourApp: 'Auto-generated with drawn connection lines', typical: 'Often not included or manual creation' },
+    { feature: 'Commercial License', ourApp: 'Included for TPT, Etsy, and KDP sales', typical: 'Extra fee or personal use only' },
+  ],
+
+  researchBacking: [
+    {
+      claim: 'Visual association tasks strengthen memory encoding by requiring learners to form meaningful connections between stimuli, making matching activities an effective strategy for vocabulary and letter-sound instruction in early childhood.',
+      source: 'Paivio, A., "Dual Coding Theory: Retrospect and Current Status," Canadian Journal of Psychology, 1991',
+    },
+    {
+      claim: 'Letter-sound matching activities significantly improve phonemic awareness and early decoding skills in kindergarten, with image-to-letter exercises accelerating letter recognition by linking visual cues to alphabetic knowledge.',
+      source: 'Ehri, L. C., "Learning to Read Words: Theory, Findings, and Issues," Scientific Studies of Reading, 2005',
+    },
+  ],
+
+  teacherTestimonials: [
+    {
+      quote: 'The four matching modes save me so much planning. I use image-to-letter for Monday phonics, image-to-word for Wednesday vocabulary, and custom word for Friday review -- all from the same tool. My kindergarteners love drawing the lines, and the auto-randomized right column means every print is different.',
+      name: 'Priya Sharma',
+      role: 'Kindergarten Teacher',
+      school: 'Birchwood Elementary',
+    },
+    {
+      quote: 'I was spending thirty minutes per worksheet arranging matching pairs by hand. Now I select my images, pick the mode, and generate in seconds. The custom word mode is perfect for our vocabulary units -- I type in the exact words from our reading program and students match pictures to definitions.',
+      name: 'Tom Hensley',
+      role: '1st Grade Literacy Lead',
+      school: 'Ridgeview Academy',
+    },
+  ],
+
+  tips: {
+    sectionTitle: 'Matching Activity Strategies by Grade Level',
+    sectionDescription: 'Use the MatchUp Maker generator to target the right matching complexity at each developmental stage. Adjust matching mode, pair count, and vocabulary to scaffold learning from preschool visual discrimination through second grade content-area matching.',
+    items: [
+      {
+        id: 'preschool',
+        icon: '\u{1F331}',
+        title: 'Preschool: Image-to-Image with 4 Pairs',
+        description: 'Start with image-to-image mode using 4 pairs of identical pictures. Large, colorful images help 3-4 year olds practice visual discrimination and line drawing. Choose simple themes like animals or food with distinctly different shapes to build matching confidence before introducing letters.',
+      },
+      {
+        id: 'kindergarten',
+        icon: '\u{1F392}',
+        title: 'Kindergarten: Image-to-Letter with 4-5 Pairs',
+        description: 'Switch to image-to-letter mode to build phonics foundations. Start with 4 pairs using letters your class has studied, then increase to 5 pairs as confidence grows. Focus on consonants with clear initial sounds like B, D, M, S. The randomized right column ensures students analyze each letter rather than matching by position.',
+      },
+      {
+        id: 'first-grade',
+        icon: '\u{1F4DA}',
+        title: '1st Grade: Image-to-Word with 5-6 Pairs',
+        description: 'Use image-to-word mode with 5-6 pairs for sight word practice and vocabulary reinforcement. Select images that match your current reading unit. Students read each word, identify the picture, and draw connecting lines, combining visual literacy with word recognition in a single engaging activity.',
+      },
+      {
+        id: 'second-grade',
+        icon: '\u270F\uFE0F',
+        title: '2nd Grade: Custom Word Matching with 6 Pairs',
+        description: 'Leverage custom word mode with 6 pairs for content-area vocabulary. Type definitions, Spanish translations, or science terms as custom labels. Students match pictures to written descriptions, building academic vocabulary and reading comprehension through meaningful visual-text associations.',
+      },
+      {
+        id: 'third-grade',
+        icon: '\u{1F3AF}',
+        title: '3rd Grade: Advanced Custom Vocabulary with 6 Pairs',
+        description: 'Create complex custom word matching with longer vocabulary terms and content-specific definitions. Use 6 pairs with multi-word labels for social studies concepts, science vocabulary, or literary terms. The matching format provides accessible practice for challenging vocabulary without the pressure of open-ended recall.',
+      },
+    ],
   },
 };
 

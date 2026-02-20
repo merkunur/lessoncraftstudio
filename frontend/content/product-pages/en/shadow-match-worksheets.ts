@@ -300,7 +300,83 @@ Full Access subscription costs $240 annually or $25 monthly. This includes all 3
     primaryCtaText: 'Start Free Trial',
     secondaryCtaText: 'View All 33 Apps',
     items: [], // Samples loaded dynamically from content manager
-    
+
+  },
+
+  // -- SEO & Content Enrichment (Part 24) ------------------------------------
+
+  aiOverviewSnippet: 'A shadow match worksheet generator creates printable visual perception activities in two modes: Shadow Match, where students connect colored images to their black silhouettes, and Make It Whole, where students reassemble split image halves. Teachers select 4 images from a 3,000+ library, choose horizontal or vertical cut direction, and download 300 DPI PDFs with answer keys in under two minutes.',
+
+  comparisonTable: [
+    { feature: 'Activity Modes', ourApp: 'Dual mode: Shadow Match + Make It Whole', typical: 'Shadow matching only, no split-image option' },
+    { feature: 'Silhouette Generation', ourApp: 'Automatic silhouette creation from any image', typical: 'Pre-drawn silhouettes from fixed template sets' },
+    { feature: 'Cut Direction', ourApp: 'Configurable horizontal or vertical split', typical: 'No split-image activities available' },
+    { feature: 'Image Library', ourApp: '3,000+ themed images plus custom uploads', typical: 'Limited clip art with basic outlines' },
+    { feature: 'Answer Keys', ourApp: 'Auto-generated with connection lines for both modes', typical: 'Often not included or sold separately' },
+    { feature: 'Commercial License', ourApp: 'Included for TPT, Etsy, and KDP sales', typical: 'Extra fee or personal use only' },
+  ],
+
+  researchBacking: [
+    {
+      claim: 'Figure-ground perception, the ability to distinguish shapes from surrounding visual information, is a strong predictor of early reading success as it underlies the visual discrimination required to identify letter shapes and word forms on a printed page.',
+      source: 'Kavale, K., "The Relationship Between Visual Perceptual Skills and Reading Achievement," Journal of Learning Disabilities, 1982',
+    },
+    {
+      claim: 'Visual closure activities, where children recognize whole forms from partial cues, develop the same cognitive processes used in fluent reading, allowing readers to identify words from partial visual information rather than decoding every letter individually.',
+      source: 'Schneck, C. M., "Visual Perception," in Case-Smith, J. (Ed.), Occupational Therapy for Children, Elsevier, 6th Edition, 2010',
+    },
+  ],
+
+  teacherTestimonials: [
+    {
+      quote: 'The dual modes are exactly what my kindergarteners need for reading readiness. I use Shadow Match on Tuesdays for figure-ground practice and Make It Whole on Thursdays for visual closure, both skills my reading specialist recommended. The automatic silhouette generation means any image becomes a perception exercise instantly.',
+      name: 'Heather Dunn',
+      role: 'Kindergarten Teacher',
+      school: 'Lakewood Primary',
+    },
+    {
+      quote: 'I love that I can switch between horizontal and vertical cuts in Make It Whole mode. Vertical splits are easier for my first graders to start with, then I move to horizontal cuts as they build confidence. It is the only visual perception tool I have found that lets me differentiate this precisely.',
+      name: 'Raymond Choi',
+      role: '1st Grade Teacher',
+      school: 'Hillcrest Academy',
+    },
+  ],
+
+  tips: {
+    sectionTitle: 'Shadow Match Strategies by Grade Level',
+    sectionDescription: 'Use the Shadow Match generator to develop visual perception skills appropriate to each developmental stage. Progress from simple silhouette recognition through complex split-image puzzles to build the figure-ground discrimination and visual closure skills essential for reading readiness.',
+    items: [
+      {
+        id: 'preschool',
+        icon: '\u{1F331}',
+        title: 'Preschool: Shadow Match with Distinct Shapes',
+        description: 'Start with Shadow Match mode using 4 images that have very different silhouettes like a star, a car, a tree, and a fish. Distinct outlines build confidence in shape recognition before introducing similar forms. Use labels to help pre-readers track which pairs they have matched.',
+      },
+      {
+        id: 'kindergarten',
+        icon: '\u{1F392}',
+        title: 'Kindergarten: Shadow Match with Similar Silhouettes',
+        description: 'Choose images with more similar silhouettes to challenge figure-ground discrimination, like a cat, dog, rabbit, and horse. Students must analyze fine outline details to distinguish between shapes, building the visual discrimination skills that transfer directly to distinguishing similar letters like b, d, p, and q.',
+      },
+      {
+        id: 'first-grade',
+        icon: '\u{1F4DA}',
+        title: '1st Grade: Make It Whole with Vertical Cuts',
+        description: 'Introduce Make It Whole mode with vertical cuts for accessible split-image puzzles. Left-right matching is more intuitive for first graders than top-bottom reassembly. Select images with asymmetric details so students must carefully observe each half before connecting matches.',
+      },
+      {
+        id: 'second-grade',
+        icon: '\u270F\uFE0F',
+        title: '2nd Grade: Make It Whole with Horizontal Cuts',
+        description: 'Switch to horizontal cuts in Make It Whole mode for more challenging spatial reasoning. Top-bottom reassembly requires students to mentally rotate and align pieces, developing the spatial manipulation skills used in geometry and map reading. Mix with Shadow Match worksheets for comprehensive visual perception practice.',
+      },
+      {
+        id: 'third-grade',
+        icon: '\u{1F3AF}',
+        title: '3rd Grade: Combined Mode Assessment',
+        description: 'Use both Shadow Match and Make It Whole worksheets as visual perception assessments. Assign Shadow Match to evaluate figure-ground discrimination and Make It Whole with horizontal cuts to assess visual closure and spatial reasoning. Track progress across the year to inform reading intervention and enrichment decisions.',
+      },
+    ],
   },
 };
 

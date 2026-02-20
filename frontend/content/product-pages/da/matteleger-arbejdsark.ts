@@ -15,16 +15,16 @@ export const mathPuzzleDaContent: ProductPageContent = {
   seo: {
     slug: 'matteleger-arbejdsark',
     appId: 'math-puzzle',
-    title: 'Matteleger - Gratis Arbejdsark Generator til Børn og Børnehaveklasse',
-    description: 'Lav professionelle matematikopgaver med symbolbaserede matteleger på få minutter. Generer gratis arbejdsark til børn med facitark. Perfekt til børnehaveklasse.',
-    keywords: 'gratis arbejdsark, gratis arbejdsark til børn, arbejdsark til børn, arbejdsark til børnehaveklasse, matematikopgaver, matteleger, opgaver til print, gratis skoleopgaver, 1 klasse opgaver, 2 klasse matematikopgaver',
+    title: 'Matematik Puslespil Generator | LessonCraftStudio',
+    description: 'Lav printbare matematik-puslespil til addition og subtraktion. Problemløsningsfærdigheder fra førskole til 3. klasse. Gratis PDF download.',
+    keywords: 'matematik puslespil generator, matematik puslespil til børn, matematisk problemløsning, mattepuslespil printbar, regnepuslespil førskole, matematisk tænkning, logikpuslespil matematik, matematik gådeopgaver, regnepuslespil facitark, problemløsning matematik, mattepuslespil indskoling',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/matteleger-arbejdsark',
       },
 
   // Hero Section - FULL text from math-puzzle.md paragraphs 1-3
   hero: {
-    title: 'Gratis Arbejdsark Matteleger Generator til Børn',
-    subtitle: 'Gratis Arbejdsark til Børn - Symbolbaserede Matematikopgaver til Børnehaveklasse',
+    title: 'Matematik Puslespil Generator',
+    subtitle: 'Udvikl Problemløsningsfærdigheder med Matematiske Puslespil',
     description: `Lav professionelle matematikopgaver med symbolbaserede matteleger på få minutter. Dit Fuld Adgang-abonnement giver dig ubegrænset adgang til at skabe gratis arbejdsark til børn uden ekstra omkostninger pr. opgave. Generer gratis arbejdsark til børnehaveklasse, der passer perfekt til 1. klasse, 2. klasse og børnehaveklassen. Download opgaver i høj kvalitet som PDF på under 3 minutter.
 
 Vores mattelege-generator skaber matematikopgaver, hvor symboler repræsenterer tal. Eleverne løser opgaverne ved at finde ud af, hvilket tal hvert symbol står for. Dette udvikler både matematikfærdigheder og logisk tænkning. Perfekt til arbejdsark til børn i 0. klasse til 3. klasse.

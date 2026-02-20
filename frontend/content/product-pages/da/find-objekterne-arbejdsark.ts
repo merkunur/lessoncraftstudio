@@ -15,16 +15,16 @@ export const findObjectsDaContent: ProductPageContent = {
   seo: {
     slug: 'find-objekterne-arbejdsark',
     appId: 'find-objects',
-    title: 'Find Objekterne Opgaver til Print - Gratis Arbejdsark til Børn i 0.',
-    description: 'Lav professionelle find-objekterne opgaver med vores opgavegenerator. Dit Fuld Adgang abonnement giver dig ubegrænset adgang til at lave gratis arbejdsark til.',
-    keywords: 'find objekterne, opgaver til print, matematikopgaver, arbejdsark, gratis skoleopgaver, 0. klasse, 1. klasse, børnehaveklasse, finmotorik øvelser, visuel diskriminering, gratis arbejdsark, gratis arbejdsark til børn, gratis printables, arbejdsark til børn, arbejdsark til børnehaveklasse',
+    title: 'Find Objekterne Generator — Gratis | LessonCraftStudio',
+    description: 'Lav printbare søgeopgaver til børn. Find skjulte objekter i billeder og udvikl visuel opmærksomhed. 50 temaer fra førskole til 3. klasse.',
+    keywords: 'find objekterne generator, find objekterne opgaver, puslespil billede printbar, visuel søgning til børn, find skjulte objekter, opmærksomhed øvelse, visuel opfattelse førskole, find og opdage opgave, billedpuslespiløvelser, søgespil printbar, visuel opmærksomhed',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/find-objekterne-arbejdsark',
       },
 
   // Hero Section - FULL text from find-objects.md paragraphs 1-4
   hero: {
-    title: 'Find Objekterne Opgaver',
-    subtitle: 'Gratis Arbejdsark til Børn i 0. Klasse og 1. Klasse',
+    title: 'Find Objekterne Generator',
+    subtitle: 'Visuel Opmærksomhedsøvelser med 50 Temaer',
     description: `Lav professionelle find-objekterne opgaver med vores opgavegenerator. Dit Fuld Adgang abonnement giver dig ubegrænset adgang til at lave arbejdsark uden ekstra betaling per opgave. Generer tilpassede opgaver til print perfekte til 0. klasse og 1. klasse elever. Download pædagogiske opgaveark i høj kvalitet på under 3 minutter.
 
 Find objekterne opgaver er fantastiske til at udvikle børns visuelle diskriminering og koncentrationsevner. Vores generator laver to typer opgaver til print: "Find de gemte objekter" aktiviteter og "Find den ulige en ud" opgaver. Børnehaveklasse og 1. klasse lærere kan bruge disse arbejdsark til finmotorik øvelser og visuel læring. Opgaverne er nemme at tilpasse til forskellige sværhedsgrader. Børn i indskolingen elsker at løse find objekterne opgaver fordi aktiviteterne er sjove og udfordrende samtidig.

@@ -17,16 +17,16 @@ export const billedsorteringDaContent: ProductPageContent = {
   seo: {
     slug: 'billedsortering-arbejdsark',
     appId: 'picture-sort',
-    title: 'Billedsortering Gratis Arbejdsark - Generator til Børnehaveklasse',
-    description: 'Lav billedsortering gratis arbejdsark med vores generator. Download gratis printables som PDF. Arbejdsark til børn for børnehaveklasse på 3 minutter!.',
-    keywords: 'billedsortering, gratis arbejdsark, gratis arbejdsark til børn, gratis printables, arbejdsark til børn, arbejdsark til børnehaveklasse, 0. klasse opgaver, 1. klasse, kopiark, kategorisering, sorteringsaktiviteter',
+    title: 'Billedsortering Generator — Gratis | LessonCraftStudio',
+    description: 'Lav printbare billedsorteringsopgaver hvor barnet klassificerer billeder i kategorier. Udvikler klassificeringsfærdigheder. Førskole til 2. klasse.',
+    keywords: 'billedsortering generator, billedsortering opgaver, sorteringsøvelser til børn, kategorisering opgave, billed klassificering, sortering førskole, gruppering øvelse, billed kategorisering, klassificering printbar, sorteringsfærdigheder til børn, gruppering med billeder',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/billedsortering-arbejdsark',
       },
 
   // Hero Section - FULL text from picture-sort.md paragraphs 1-4
   hero: {
-    title: 'Billedsortering Generator – Gratis Arbejdsark',
-    subtitle: 'Arbejdsark til Børn til Børnehaveklasse og 1. Klasse',
+    title: 'Billedsortering Generator',
+    subtitle: 'Klassificerings- og Sorteringsøvelser med Billeder',
     description: `Opret professionelle billedsorteringsopgaver med vores opgavegenerator. Dit Fuld Adgang abonnement giver dig ubegrænset oprettelse af arbejdsark uden betaling per opgave. Generer specialtilpassede opgaver til print perfekt til børnehaveklasse og 1. klasse elever. Download højkvalitets PDF arbejdsark på under 3 minutter.
 
 Billedsortering opgaver hjælper børn med at udvikle kritisk tænkning og kategoriseringsevner. Vores generator gør det nemt at oprette engagerende sorteringsaktiviteter. Vælg temaer eller specifikke billeder til venstre og højre kategorier. Hver opgave inkluderer et facitark der viser korrekt sortering.

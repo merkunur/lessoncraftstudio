@@ -15,16 +15,16 @@ export const wordScrambleDaContent: ProductPageContent = {
   seo: {
     slug: 'bogstavblanding-arbejdsark',
     appId: 'word-scramble',
-    title: 'Gratis Arbejdsark Bogstavblanding | Generator til Børnehaveklasse',
-    description: 'Lav gratis arbejdsark med bogstavblanding-generatoren. Professionelle ordøvelser til børnehaveklasse og 1. klasse. Download PDF på under 3 minutter.',
-    keywords: 'bogstavblanding, gratis arbejdsark, gratis arbejdsark til børn, gratis printables, arbejdsark til børn, arbejdsark til børnehaveklasse, lære bogstaver, læse og skrive, stavning',
+    title: 'Gratis Bogstavblanding Generator | LessonCraftStudio',
+    description: 'Lav printbare bogstavblanding-opgaver til stavning og retstavning. Tilpas sværhedsgrad fra førskole til 3. klasse. Med billeder. Gratis PDF.',
+    keywords: 'bogstavblanding generator, bogstavblanding opgaver, skriveøvelser til børn, retstavning øvelse, ord-gåde printbar, stavelseøvelse, ordspil til børn printbar, orddannelse opgaver, lære at læse opgaver, skrivning træning, ordforråd øvelser',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/bogstavblanding-arbejdsark',
       },
 
   // Hero Section
   hero: {
-    title: 'Gratis Arbejdsark Bogstavblanding - Ordøvelser til Børn',
-    subtitle: 'Arbejdsark til Børnehaveklasse og 1. Klasse - Gratis Printables',
+    title: 'Bogstavblanding Generator',
+    subtitle: 'Printbare Retstavningsøvelser med Billeder',
     description: `Lav professionelle bogstavblandingsopgaver med vores arbejdsark-generator. Dit Grundpakke-abonnement giver dig ubegrænset oprettelse af opgaver uden ekstra gebyrer per opgave. Generer tilpassede opgaver til print perfekt til børnehaveklassen, 1. klasse og 2. klasse. Download kvalitets-PDF opgaver på under 3 minutter.
 
 Bogstavblanding opgaver hjælper børn med at lære bogstaver og udvikle læsefærdigheder gennem leg. Hver opgave kombinerer billeder med blandede bogstaver som børnene skal løse. Vælg mellem over 3000 børnevenlige billeder organiseret i temaer. Din Grundpakke-abonnement inkluderer alle billeder, alle temaer og kommerciel licens til salg af dine opgaver.

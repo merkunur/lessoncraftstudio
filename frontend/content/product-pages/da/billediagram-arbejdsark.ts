@@ -15,16 +15,16 @@ export const chartCountDaContent: ProductPageContent = {
   seo: {
     slug: 'billediagram-arbejdsark',
     appId: 'chart-count',
-    title: 'Billediagram Gratis Arbejdsark - Generator til Børnehaveklasse og 0.',
-    description: 'Lav billediagram gratis arbejdsark til børn med vores generator. Ubegrænset arbejdsark til børnehaveklasse. Download gratis printables som PDF på 3 minutter.',
-    keywords: 'billediagram arbejdsark, gratis arbejdsark, arbejdsark til børn, arbejdsark til børnehaveklasse, gratis printables, 0. klasse arbejdsark, 1. klasse, tælleopgaver, matematikopgaver',
+    title: 'Gratis Billediagram Generator | LessonCraftStudio',
+    description: 'Lav printbare billediagram-opgaver til tælling og datavisualisering. Tæl og farvelæg diagrammer fra førskole til 3. klasse. Gratis PDF.',
+    keywords: 'billediagram generator, billediagram opgaver, tæl og farvelæg, datavisualisering til børn, søjlediagram førskole, billediagram printbar, tælling og farvelægning, statistikopgaver til børn, diagram printbar, statistik førskole, billediagram øvelse',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/billediagram-arbejdsark',
       },
 
   // Hero Section - OPTIMIZED with keywords
   hero: {
-    title: 'Billediagram Gratis Arbejdsark til Print',
-    subtitle: 'Gratis Arbejdsark Generator til Børnehaveklasse og 0. Klasse',
+    title: 'Billediagram — Tæl og Farvelæg Generator',
+    subtitle: 'Datavisualisering og Tælleøvelser til Børn',
     description: `Lav professionelle billediagram-opgaver til print med vores matematikgenerator. Dit Fuld Adgang-abonnement giver dig ubegrænset adgang til at lave opgaver uden ekstra gebyrer pr. opgave. Generer tilpassede matematikopgaver perfekt til børnehaveklassen, 0. klasse og 1. klasse. Download højkvalitets PDF-arbejdsark på under 3 minutter.
 
 Vores billediagram-generator kombinerer tælleøvelser med datavisualisering. Eleverne tæller billeder og farvelægger kasser for at lave et søjlediagram. Dette lærer grundlæggende matematikkoncepter gennem visuel repræsentation. Hver opgave kommer med et komplet facitark der viser den korrekte søjlegraf.

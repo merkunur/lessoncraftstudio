@@ -15,16 +15,16 @@ export const findAndCountDaContent: ProductPageContent = {
   seo: {
     slug: 'find-og-tael-arbejdsark',
     appId: 'find-and-count',
-    title: 'Find og Tæl Gratis Arbejdsark - Gratis Printables til Børnehaveklasse',
-    description: 'Lav professionelle find og tæl gratis arbejdsark til børn med vores pædagogiske værktøj. Download gratis printables og matematikopgaver til børnehaveklassen.',
-    keywords: 'find og tæl, gratis arbejdsark, gratis arbejdsark til børn, gratis printables, arbejdsark til børn, arbejdsark til børnehaveklasse, opgaver til print, matematikopgaver, børnehaveklassen, 0. klasse, 1. klasse, gratis skoleopgaver, tælleøvelser',
+    title: 'Find og Tæl Generator — Gratis | LessonCraftStudio',
+    description: 'Lav printbare find og tæl-opgaver til børn. Udvikl tællefærdigheder og visuel opmærksomhed med billeder. Førskole til 3. klasse. Gratis PDF.',
+    keywords: 'find og tæl generator, find og tæl opgaver, tælleøvelser førskole, visuel tælling, antal genkendelse, find og tæl printbar, tællefærdigheder til børn, tælleøvelse med billeder, taløvelser førskole, tælling træning, matematik søgeopgave',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/find-og-tael-arbejdsark',
       },
 
   // Hero Section - FULL text from find-and-count.md paragraphs 1-4
   hero: {
-    title: 'Find og Tæl Gratis Arbejdsark til Børn',
-    subtitle: 'Gratis Arbejdsark til Børnehaveklasse - Gratis Printables og Matematikopgaver',
+    title: 'Find og Tæl Generator',
+    subtitle: 'Udvikl Tællefærdigheder med Sjove Søgeopgaver',
     description: `Lav professionelle find og tæl opgaver med vores pædagogiske værktøj. Med Core Bundle abonnement kan du oprette ubegrænset antal arbejdsark uden ekstra gebyrer. Perfekt til matematikopgaver, finmotorik øvelser og tælleaktiviteter for børnehaveklassen, 0. klasse og 1. klasse. Download højkvalitets PDF arbejdsark på under 3 minutter.
 
 Find og tæl opgaver udvikler børns tællefærdigheder gennem visuel søgning. Børn finder og tæller specifikke objekter gemt i et gitterlayout. Hver opgave kombinerer visuel diskrimination med matematiktræning. Core Bundle giver dig adgang til 3000+ børnevenlige billeder og alle anpassingsmuligheder.

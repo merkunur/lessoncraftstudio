@@ -15,16 +15,16 @@ export const matchingDaContent: ProductPageContent = {
   seo: {
     slug: 'matchning-arbejdsark',
     appId: 'matching',
-    title: 'Gratis Skoleopgaver til Print – Matchingsopgaver til Børnehaveklassen',
-    description: 'Lav professionelle matchingsopgaver med vores opgavegenerator til dansk folkeskole. Dit Core Bundle-abonnement giver dig ubegrænset adgang til at lave.',
-    keywords: 'matchingsopgaver, gratis skoleopgaver, arbejdsark til print, 0. klasse opgaver, 1. klasse, børnehaveklassen, kopiark, finmotorik øvelser, lære bogstaver, parspil',
+    title: 'Gratis Matchning Generator til Børn | LessonCraftStudio',
+    description: 'Lav printbare matchningsopgaver med billeder. Udvikl hukommelse og mønstergenkendelse fra førskole til 3. klasse. 50 temaer. Download gratis PDF.',
+    keywords: 'matchning generator, matchning opgaver, parring til børn, hukommelsesspil printbar, parringsøvelse førskole, mønstergenkendelse øvelse, visuel parring, billedparring opgave, parøvelse printbar, hukommelse og parring, matchningsopgaver førskole',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/matchning-arbejdsark',
       },
 
   // Hero Section - FULL text from matching.md paragraphs 1-4
   hero: {
-    title: 'Gratis Skoleopgaver til Print',
-    subtitle: 'Matchingsopgaver til Børnehaveklassen og 1. Klasse',
+    title: 'Matchning Generator',
+    subtitle: 'Printbare Parringsøvelser med 50 Temaer',
     description: `Lav professionelle matchingsopgaver med vores opgavegenerator til dansk folkeskole. Dit Kernepakke-abonnement giver dig ubegrænset adgang til at lave arbejdsark uden ekstra gebyrer pr. opgave. Opret tilpassede opgaver til print perfekt til børnehaveklassen og 1. klasse elever. Download højkvalitets PDF-arbejdsark på under 3 minutter.
 
 Vores matchingsopgavegenerator gør det nemt at lave opgaver hvor elever skal forbinde matchende par. Perfekt til lære bogstaver opgaver og finmotorik øvelser. Hver opgave kan tilpasses med dine egne billeder og tekst. Kombiner matematikopgaver med visuelle matchingsøvelser for komplet læring.

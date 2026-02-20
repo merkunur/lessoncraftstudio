@@ -11,9 +11,10 @@ import {
   generateThemeLearningResourceSchema,
   generateThemeWebPageSchema,
   generateThemeImageGallerySchema,
+  generateThemeHowToSchema,
 } from '@/lib/schema-generator';
 import { getSlugForLocale, type SupportedLocale } from '@/config/product-page-slugs';
-import { getThemeIdFromSlug, getThemeSlug } from '@/config/theme-slugs';
+import { getThemeIdFromSlug, getThemeSlug, themeSlugMap } from '@/config/theme-slugs';
 import { GRADE_IDS, getGradeSlug, gradeDisplayNames, gradeAgeRanges } from '@/config/grade-slugs';
 import { getThemeContentWithFallback, isEnrichedContent } from '@/content/themes/index';
 import type { EnrichedThemeContent } from '@/content/themes/types';
@@ -32,6 +33,7 @@ import {
   sectionParentGuide,
   exploreByGradeLabel,
   gradeNavDescription,
+  sectionHowTo,
 } from '@/config/theme-page-labels';
 import ThemeTeachingTips from '@/components/theme-page/ThemeTeachingTips';
 import ThemeLearningObjectives from '@/components/theme-page/ThemeLearningObjectives';
@@ -39,6 +41,10 @@ import ThemeActivities from '@/components/theme-page/ThemeActivities';
 import ThemeSamplePreviews from '@/components/theme-page/ThemeSamplePreviews';
 import ThemeAppGrid from '@/components/theme-page/ThemeAppGrid';
 import ThemeCurriculumNotes from '@/components/theme-page/ThemeCurriculumNotes';
+import ThemeSnippetBox from '@/components/theme-page/ThemeSnippetBox';
+import ThemeUniqueAngle from '@/components/theme-page/ThemeUniqueAngle';
+import ThemeHowTo from '@/components/theme-page/ThemeHowTo';
+import ThemeComparisons from '@/components/theme-page/ThemeComparisons';
 
 export const revalidate = 3600;
 
@@ -246,6 +252,27 @@ export default async function ThemePage({
       })
     : null;
 
+  // HowTo schema (enriched themes with snippetHowTo only)
+  const enrichedCast = enriched ? (content as EnrichedThemeContent) : null;
+  const howToSchema = enrichedCast?.snippetHowTo?.length
+    ? generateThemeHowToSchema({
+        name: (sectionHowTo[locale] || sectionHowTo.en).replace('{themeName}', content.name),
+        description: enrichedCast.snippetDefinition || content.description,
+        steps: enrichedCast.snippetHowTo,
+        locale,
+        pageUrl,
+      })
+    : null;
+
+  // Build theme slug map for comparison links
+  const comparisonSlugMap: Record<string, string> = {};
+  if (enrichedCast?.themeComparisons) {
+    for (const comp of enrichedCast.themeComparisons) {
+      const slug = themeSlugMap[comp.vsThemeId]?.[locale] ?? themeSlugMap[comp.vsThemeId]?.en;
+      if (slug) comparisonSlugMap[comp.vsThemeId] = slug;
+    }
+  }
+
   const breadcrumbSchema = {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
@@ -299,6 +326,12 @@ export default async function ThemePage({
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(imageGallerySchema) }}
+        />
+      )}
+      {howToSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }}
         />
       )}
 
@@ -360,6 +393,15 @@ export default async function ThemePage({
       {themeImages.length > 0 && (
         <ThemeSamplePreviews
           images={themeImages}
+          themeName={content.name}
+          locale={locale}
+        />
+      )}
+
+      {/* Snippet Definition (Quick Answer — early for AI extraction) */}
+      {enrichedCast?.snippetDefinition && (
+        <ThemeSnippetBox
+          snippetDefinition={enrichedCast.snippetDefinition}
           themeName={content.name}
           locale={locale}
         />
@@ -438,6 +480,17 @@ export default async function ThemePage({
         </section>
       )}
 
+      {/* Enriched: Unique Angle */}
+      {enrichedCast?.uniqueAngle && (
+        <ThemeUniqueAngle
+          uniqueAngle={enrichedCast.uniqueAngle}
+          researchCitation={enrichedCast.researchCitation}
+          culturalNotes={enrichedCast.culturalNotes}
+          themeName={content.name}
+          locale={locale}
+        />
+      )}
+
       {/* Enriched: Teaching Tips */}
       {enriched && (
         <div style={{ contentVisibility: 'auto', containIntrinsicSize: 'auto 500px' }}>
@@ -499,6 +552,27 @@ export default async function ThemePage({
             locale={locale}
           />
         </div>
+      )}
+
+      {/* Enriched: How To steps */}
+      {enrichedCast?.snippetHowTo && enrichedCast.snippetHowTo.length > 0 && (
+        <ThemeHowTo
+          steps={enrichedCast.snippetHowTo}
+          themeName={content.name}
+          locale={locale}
+        />
+      )}
+
+      {/* Enriched: Expert Insights (comparisons, product links, limitations) */}
+      {enriched && (enrichedCast?.themeComparisons || enrichedCast?.productLinks || enrichedCast?.limitations) && (
+        <ThemeComparisons
+          themeComparisons={enrichedCast?.themeComparisons}
+          productLinks={enrichedCast?.productLinks}
+          limitations={enrichedCast?.limitations}
+          themeName={content.name}
+          locale={locale}
+          themeSlugMap={comparisonSlugMap}
+        />
       )}
 
       {/* FAQ Section */}

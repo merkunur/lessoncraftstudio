@@ -15,16 +15,16 @@ export const wordSearchDaContent: ProductPageContent = {
   seo: {
     slug: 'ordsoegning-arbejdsark',
     appId: 'wordsearch',
-    title: 'Gratis Ordsøgningsopgaver til Print | Arbejdsark til 0. Klasse og 1.',
-    description: 'Lav professionelle ordsøgningsopgaver til børnehaveklassen og indskolingen med vores gratis generator. Perfekt til gratis skoleopgaver, arbejdsark til print og.',
-    keywords: 'ordsøgning arbejdsark, gratis skoleopgaver, arbejdsark til print, opgaver til 0 klasse, opgaver til 1 klasse, lære bogstaver, læse og skrive, ordsøgningsgenerator, printklare opgaver, dansk skoleopgaver',
+    title: 'Gratis Ordsøgning Generator | LessonCraftStudio',
+    description: 'Lav printbare ordsøgningsopgaver på 11 sprog. Tilpasbare ord, størrelser og sværhedsgrader. Ordforråd og stavning. Gratis PDF.',
+    keywords: 'ordsøgning generator, ordsøgning printbar, ordsøgning til børn, ordspil generator, ordsøgning opgave, ordpuslespil printbar, ordristikko til børn, ordforråd ordsøgning, stavning ordsøgning, ordsøgning indskoling, ordsøgning førskole',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/ordsoegning-arbejdsark',
       },
 
   // Hero Section - FULL text from wordsearch.md paragraphs 1-3
   hero: {
-    title: 'Gratis Arbejdsark: Ordsøgningsopgaver til Print',
-    subtitle: 'Arbejdsark til Børnehaveklassen, 0. Klasse og 1. Klasse',
+    title: 'Ordsøgning Generator',
+    subtitle: 'Printbare Ordsøgningsopgaver til Ordforrådstræning',
     description: `Lav professionelle ordsøgningsopgaver til børnehaveklassen og indskolingen med vores gratis generator. Perfekt til gratis skoleopgaver, arbejdsark til print og opgaver til 0. klasse og 1. klasse. Ordsøgningsgeneratoren egner sig til lære bogstaver, læse og skrive og stavning.
 
 Med ordsøgningsgeneratoren laver du printklare opgaver til print på under 3 minutter. Generatoren kombinerer lære bogstaver med ordforrådsøvelser. Download færdige ordsøgninger som PDF eller JPEG. Hvert arbejdsark kan tilpasses individuelt.

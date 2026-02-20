@@ -17,16 +17,16 @@ export const patternWorksheetDaContent: ProductPageContent = {
   seo: {
     slug: 'moenstre-arbejdsark',
     appId: 'pattern-worksheet',
-    title: 'Mønster Gratis Arbejdsark - Generator til Børnehaveklasse og 0. Klasse',
-    description: 'Lav mønstergenkendelses gratis arbejdsark til børn med vores professionelle generator. Ubegrænset arbejdsark til børnehaveklasse. Download gratis printables.',
-    keywords: 'mønstergenkendelse, gratis arbejdsark, arbejdsark til børn, arbejdsark til børnehaveklasse, gratis printables, opgaver til print, matematikopgaver, 0. klasse, 1. klasse, mønstre, kopiark',
+    title: 'Mønsteropgave Generator — Gratis | LessonCraftStudio',
+    description: 'Lav printbare mønsteropgaver til mønstergenkendelse og -fortsættelse. Varierede serier fra førskole til 3. klasse. 50 temaer. Gratis PDF.',
+    keywords: 'mønsteropgave generator, mønsteropgaver printbar, mønsterserier til børn, mønstre fortsættelse, mønstergenkendelse øvelse, matematiske mønstre, mønsterrække opgaver, mønster kopiark, opfattelsesfærdigheder førskole, mønstergenkendelse 1. klasse, mønstre og serier',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/moenstre-arbejdsark',
       },
 
   // Hero Section - OPTIMIZED with keywords
   hero: {
-    title: 'Mønster Gratis Arbejdsark til Print',
-    subtitle: 'Gratis Arbejdsark Generator til Børnehaveklasse og 0. Klasse',
+    title: 'Mønsteropgave Generator',
+    subtitle: 'Mønstergenkendelse og -fortsættelse med 50 Temaer',
     description: `Lav mønstergenkendelses gratis arbejdsark til børn med vores professionelle generator. Dit Fuld Adgang-abonnement giver dig ubegrænset adgang til at lave arbejdsark til børnehaveklasse uden ekstra gebyrer. Generer gratis printables med mønsteropgaver perfekt til børnehaveklassen og 1. klasse. Download opgaver til print som PDF på under 3 minutter.
 
 Mønstergenkendelse er en vigtig færdighed for små børn. Vores generator laver gratis arbejdsark med 9 forskellige mønstertyper. Børn lærer at genkende AB-mønstre, AAB-mønstre, ABC-mønstre og mere. Hvert arbejdsark til børn kan indeholde 1-8 opgaver med mønstre. Du vælger selv sværhedsgrad og antal opgaver per side.

@@ -15,16 +15,16 @@ export const gridMatchDaContent: ProductPageContent = {
   seo: {
     slug: 'raster-puslespil-arbejdsark',
     appId: 'grid-match',
-    title: 'Raster-Puslespil - Gratis Arbejdsark Generator til Børnehaveklasse og',
-    description: 'Lav professionelle raster-puslespil med vores opgavegenerator. Din Fuld Adgang-abonnement giver dig ubegrænset oprettelse af opgaver uden gebyrer per opgave.',
-    keywords: 'raster-puslespil, opgaver til print, matematikopgaver, arbejdsark, gratis skoleopgaver, børnehaveklassen, 1. klasse, finmotorik øvelser, visuel opfattelse, problemløsning',
+    title: 'Gratis Raster-Puslespil Generator | LessonCraftStudio',
+    description: 'Lav printbare raster-puslespil til visuel opfattelse og rumlig forståelse. 50 temaer fra førskole til 3. klasse. Gratis PDF download.',
+    keywords: 'raster-puslespil generator, raster-puslespil opgaver, visuelt puslespil til børn, rumlig forståelse, mønster matchning, rasteropgaver printbar, opfattelse øvelse, visuel logik til børn, matchningsøvelser førskole, raster puslespil, rumlig opfattelse',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/raster-puslespil-arbejdsark',
       },
 
   // Hero Section - FULL text from grid-match.md paragraphs 1-4
   hero: {
-    title: 'Gratis Raster-Puslespil Arbejdsark til Børn - Professionel Generator til Børnehaveklasse',
-    subtitle: 'Raster-Puslespil Arbejdsark Generator - Gratis Printables til Børn',
+    title: 'Raster-Puslespil Generator',
+    subtitle: 'Visuel Opfattelse og Rumlig Forståelsesøvelser',
     description: `Lav professionelle raster-puslespil med vores opgavegenerator. Din Fuld Adgang-abonnement giver dig ubegrænset oprettelse af opgaver uden gebyrer per opgave. Generer tilpassede arbejdsark perfekt til børnehaveklassen og 1. klasse. Download opgaver til print i høj kvalitet som PDF på under 3 minutter.
 
 Vores raster-puslespil generator hjælper pædagoger med at lave engagerende finmotorik øvelser. Børn matcher billedstykker for at fuldføre billedet. Dette styrker visuel opfattelse og problemløsningsevner. Perfekt til matematikopgaver med mønstre og former.

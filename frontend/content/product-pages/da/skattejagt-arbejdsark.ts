@@ -17,16 +17,16 @@ export const skattejagtDaContent: ProductPageContent = {
   seo: {
     slug: 'skattejagt-arbejdsark',
     appId: 'treasure-hunt',
-    title: 'Skattejagt Gratis Arbejdsark - Arbejdsark til Børn - Retningsopgaver',
-    description: 'Lav gratis arbejdsark til børn med skattejagt retningsopgaver. Arbejdsark til børnehaveklasse og 0. klasse. Download professionelle gratis arbejdsark som PDF.',
-    keywords: 'gratis arbejdsark, arbejdsark til børn, arbejdsark til børnehaveklasse, skattejagt arbejdsark, retningsopgaver, gratis printables, 0. klasse, 1. klasse, finmotorik øvelser',
+    title: 'Skattejagt Generator — Gratis | LessonCraftStudio',
+    description: 'Lav printbare skattejagt-opgaver til retningsord og forståelse af instruktioner. Sjovt eventyrspil fra førskole til 2. klasse. Gratis.',
+    keywords: 'skattejagt generator, skattejagt opgaver, retningsord øvelse, instruktioner forståelse, skattejagt printbar, retningsbegreber til børn, eventyropgaver førskole, skattejagt klasselokale, retning og position, eventyrspil printbar, instruktioner forståelse',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/skattejagt-arbejdsark',
       },
 
   // Hero Section - FULL text from treasure-hunt.md paragraphs 1-5
   hero: {
-    title: 'Skattejagt Gratis Arbejdsark – Arbejdsark til Børn og Børnehaveklasse',
-    subtitle: 'Gratis Arbejdsark til Børnehaveklasse - Retningsopgaver 0. Klasse',
+    title: 'Skattejagt Generator',
+    subtitle: 'Retningsord og Instruktionsforståelses Eventyropgaver',
     description: `Skattejagt arbejdsark lærer børn retningsangivelser gennem sjove opgaver til print. Fuld Adgang abonnementet giver dig ubegrænset adgang til professionelle skattejagt opgaver. Lav arbejdsark til børnehaveklassen og 1. klasse på få minutter. Download opgaver i høj kvalitet som PDF eller JPEG.
 
 Børn lærer retninger som op, ned, venstre, højre gennem visuelle opgaver. Sværhedsgraden kan tilpasses børnehaveklassen, 0. klasse og 1. klasse. Fuld Adgang abonnementet koster 1.800 kr. årligt eller 200 kr. månedligt. Alle 33 opgave-generatorer inkluderet uden ekstra omkostninger.

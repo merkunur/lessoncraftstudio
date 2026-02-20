@@ -15,16 +15,16 @@ export const missingPiecesDaContent: ProductPageContent = {
   seo: {
     slug: 'manglende-brikker-arbejdsark',
     appId: 'missing-pieces',
-    title: 'Manglende Brikker Opgaver - Gratis Arbejdsark til Børn i',
-    description: 'Lav manglende brikker opgaver med vores gratis arbejdsark generator. Gratis arbejdsark til børn til børnehaveklasse og 1. klasse. Download gratis printables i.',
-    keywords: 'manglende brikker, puslespil opgaver, visuel diskrimination, opgaver til print, arbejdsark, gratis skoleopgaver, børnehaveklassen, 1. klasse, finmotorik øvelser, mønstergenkendelse',
+    title: 'Manglende Brikker Generator — Gratis | LessonCraftStudio',
+    description: 'Lav printbare manglende brikker-opgaver til visuel opfattelse. Find den manglende del i mønstret. Førskole til 2. klasse. Gratis PDF.',
+    keywords: 'manglende brikker generator, manglende brikker opgaver, puslespil opgave til børn, manglende del øvelse, visuel slutning, billedpuslespil printbar, mønstergenkendelse øvelse, manglende billede opgave, visuel logisk tænkning, puslespiløvelser førskole, opfattelsesfærdigheder til børn',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/manglende-brikker-arbejdsark',
       },
 
   // Hero Section - FULL text from missing-pieces.md paragraphs 1-4
   hero: {
-    title: 'Manglende Brikker',
-    subtitle: 'Gratis Arbejdsark til Børn i Børnehaveklasse og 1. Klasse',
+    title: 'Manglende Brikker Generator',
+    subtitle: 'Visuel Opfattelsesøvelser med Billedpuslespil',
     description: `Lav professionelle puslespil opgaver til print med vores visuelle puslespil generator. Dit Fuld Adgang abonnement giver dig ubegrænsede opgaver uden ekstra omkostninger pr. opgave. Generer tilpassede arbejdsark perfekt til børnehaveklasse og 1. klasse elever. Download høj kvalitets PDF opgaver på under 3 minutter.
 
 Vores generator laver automatisk både opgaveark og facit. Eleverne finder de manglende brikker i billederne og matcher dem med de korrekte løsningsmuligheder. Perfekt til at udvikle visuel diskrimination og mønstergenkendelse.

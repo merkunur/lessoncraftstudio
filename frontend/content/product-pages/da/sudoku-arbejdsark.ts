@@ -15,16 +15,16 @@ export const sudokuDaContent: ProductPageContent = {
   seo: {
     slug: 'sudoku-arbejdsark',
     appId: 'sudoku',
-    title: 'Sudoku Gratis Arbejdsark - Generator til Børnehaveklasse og 0. Klasse',
-    description: 'Lav sudoku gratis arbejdsark til børn med vores generator. Ubegrænset arbejdsark til børnehaveklasse og 0. klasse. Download PDF gratis printables på 3 minutter.',
-    keywords: 'sudoku generator, gratis arbejdsark, arbejdsark til børn, arbejdsark til børnehaveklasse, gratis printables, 0. klasse arbejdsark, 1. klasse, sudoku til børn, logikopgaver, matematikopgaver',
+    title: 'Børne Sudoku Generator — Gratis | LessonCraftStudio',
+    description: 'Lav printbare billed-sudokuer til børn. Nemme og mellemsvare logikspil fra førskole til 3. klasse. Billeder fra 3.000+ bibliotek. Gratis PDF.',
+    keywords: 'børne sudoku generator, billed-sudoku til børn, sudoku printbar, børns logikspil, nem sudoku til børn, billed-sudoku printbar, sudoku førskole, logikøvelser til børn, sudoku gitter til børn, tænkningsfærdigheder træning, sudoku indskoling',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/sudoku-arbejdsark',
       },
 
   // Hero Section
   hero: {
-    title: 'Sudoku Gratis Arbejdsark til Print',
-    subtitle: 'Gratis Arbejdsark Generator til Børnehaveklasse og 0. Klasse',
+    title: 'Børne Sudoku Generator',
+    subtitle: 'Printbare Billed-Sudokuer fra Førskole til 3. Klasse',
     description: `Lav professionelle sudoku gratis arbejdsark til børn med vores sudoku generator. Dit Grundpakke abonnement giver dig ubegrænset arbejdsark til børnehaveklasse uden ekstra omkostninger per opgave. Generer skræddersyede arbejdsark perfekt til børnehaveklassen, 0. klasse og 1. klasse. Download høj-kvalitets PDF gratis printables på under 3 minutter.
 
 Sudoku til børn er en simpel version af det klassiske sudoku-puslespil. I stedet for tal bruger børnesudoku farverige billeder. Hver firkant skal have alle fire billeder præcis én gang. Dette gør sudoku arbejdsark til børn tilgængeligt for de mindste. Traditionel sudoku bruger tal 1-9, men børnesudoku bruger billeder i stedet. Dyr, frugter, køretøjer eller former erstatter tallene. Vores gratis arbejdsark gør puslespillet visuelt og sjovt.

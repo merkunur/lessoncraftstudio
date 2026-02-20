@@ -17,16 +17,16 @@ export const skyggeMatchDaContent: ProductPageContent = {
   seo: {
     slug: 'skygge-match-arbejdsark',
     appId: 'shadow-match',
-    title: 'Skygge-Match Opgaveark - Gratis Skoleopgaver til Visuel Perception -',
-    description: 'Skab professionelle skygge-match opgaver og billedmatchingopgaver med vores generator. Dit Fuld Adgang abonnement giver dig ubegrænset skabelse af arbejdsark.',
-    keywords: 'skygge-match, billedmatching, visuel perception, gratis skoleopgaver, arbejdsark til print, 0. klasse opgaver, 1. klasse, børnehaveklasse, kopiark, finmotorik øvelser',
+    title: 'Gratis Skygge-Match Generator | LessonCraftStudio',
+    description: 'Lav printbare skyggeparringsopgaver hvor barnet matcher billede til korrekt skygge. Udvikler visuel opfattelse. 50 temaer. Gratis.',
+    keywords: 'skygge-match generator, skygge-match opgaver, skyggeparring, skygge opgaver til børn, silhuetopgaver printbar, skyggegenkendelse, visuel parring skygge, skyggeøvelser førskole, silhuet øvelse, billed og skygge matchning, skyggeopgaver',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/skygge-match-arbejdsark',
       },
 
   // Hero Section - FULL text from shadow-match.md paragraphs 1-4
   hero: {
-    title: 'Skygge-Match Opgaveark – Gratis Skoleopgaver til Visuel Perception',
-    subtitle: 'Arbejdsark til Print til Børnehaveklasse og 1. Klasse',
+    title: 'Skygge-Match Generator',
+    subtitle: 'Visuel Opfattelsesøvelser med Skyggebilleder',
     description: `Skab professionelle skygge-match opgaver og billedmatchingopgaver med vores generator. Dit Fuld Adgang abonnement giver dig ubegrænset skabelse af arbejdsark uden gebyrer per opgaveark. Generer tilpassede opgaver til print perfekte til 0. klasse, børnehaveklassen og 1. klasse elever. Download opgaveark af høj kvalitet som PDF på under 3 minutter.
 
 Skygge-match generatoren skaber to forskellige typer visuelle perception øvelser. Shadow Match-tilstand lader elever matche farvede objekter med deres sorte silhuetter. Make It Whole-tilstand deler billeder i to dele, så elever kan matche stykkerne for at fuldstænde hele billedet. Begge tilstande udvikler rumlig forståelse og visuelt diskriminationsevner.

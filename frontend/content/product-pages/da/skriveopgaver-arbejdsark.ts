@@ -15,16 +15,16 @@ export const writingDaContent: ProductPageContent = {
   seo: {
     slug: 'skriveopgaver-arbejdsark',
     appId: 'writing',
-    title: 'Skriveopgaver Gratis Arbejdsark til Børn - Børnehaveklasse',
-    description: 'Lav gratis arbejdsark til børn med skriveopgaver og skrifttræning. Arbejdsark til børnehaveklasse. Download som PDF. 3 gratis eksempler.',
-    keywords: 'gratis arbejdsark, arbejdsark til børn, arbejdsark til børnehaveklasse, skriveopgaver, skrifttræning, gratis printables, 0. klasse, 1. klasse, finmotorik øvelser, lære bogstaver',
+    title: 'Skriveopgave Generator — Gratis | LessonCraftStudio',
+    description: 'Lav printbare skriveopgaver til bogstavdannelse og håndskrivning. Bogstaver, ord og blyantsgreb fra førskole til 2. klasse. Gratis PDF.',
+    keywords: 'skriveopgave generator, håndskrivning øvelse, bogstaver øvelse førskole, bogstavdannelse, blyantsgreb træning, skrivning træning, bogstavøvelser printbar, finmotorik skrivning, alfabet skrivning, håndskrivning printbar, skriveforberedelse førskole',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/skriveopgaver-arbejdsark',
       },
 
   // Hero Section - FULL text from writing.md paragraphs 1-3
   hero: {
-    title: 'Skriveopgaver Gratis Arbejdsark – Arbejdsark til Børn og Børnehaveklasse',
-    subtitle: 'Gratis Arbejdsark til Børnehaveklasse - Skrifttræning 0. Klasse',
+    title: 'Skriveopgave Generator',
+    subtitle: 'Bogstav- og Ordskrivningsøvelser fra Førskole til 2. Klasse',
     description: `Skriveopgaver arbejdsark lærer børn bogstaver gennem sporbare øvelser. Fuld Adgang abonnementet giver dig ubegrænset adgang til professionelle skriveopgaver. Lav gratis arbejdsark til børnehaveklassen og 1. klasse på få minutter. Download opgaver i høj kvalitet som PDF eller JPEG.
 
 Børn lærer bogstaver gennem sporbare tekster, falmende spor og guidet kopiering. Vælg mellem fem skrifttyper inklusiv trykbogstaver med retningspile og skriveskrift. Arbejdsark til børnehaveklasse og 0. klasse elever. Fuld Adgang koster 1.800 kr. årligt. Alle 33 opgave-generatorer inkluderet.

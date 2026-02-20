@@ -17,16 +17,16 @@ export const patternTrainDaContent: ProductPageContent = {
   seo: {
     slug: 'moenstertog-arbejdsark',
     appId: 'pattern-train',
-    title: 'Mønstertog Gratis Arbejdsark til Børn - Generator til Børnehaveklasse',
-    description: 'Opret professionelle mønstertog arbejdsark med vores mønstertog generator. Dit Fuld Adgang abonnement giver dig ubegrænset oprettelse af mønstertog arbejdsark.',
-    keywords: 'mønstertog, arbejdsark, matematikopgaver, gratis skoleopgaver til print, finmotorik øvelser, 0. klasse, 1. klasse, børnehaveklasse, mønstergenkendelse, kopiark',
+    title: 'Gratis Mønstertog Generator | LessonCraftStudio',
+    description: 'Lav printbare mønstertog-opgaver til mønstergenkendelse. Togformede opgaver med 3.000+ billeder. Førskole til 2. klasse. Gratis PDF.',
+    keywords: 'mønstertog generator, mønstertog opgaver, mønstre fortsættelse, mønstergenkendelse tog, mønstergenkendelse førskole, mønster fortsættelse øvelse, mønstertog printbar, mønsterserier til børn, mønstre genkendelse, matematisk opfattelse, mønsterrække øvelse',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/moenstertog-arbejdsark',
       },
 
   // Hero Section - FULL text from pattern-train.md
   hero: {
-    title: 'Gratis Mønstertog Arbejdsark til Børn - Professionel Generator',
-    subtitle: 'Mønstertog Arbejdsark Generator - Gratis Printables til Børn',
+    title: 'Mønstertog Generator',
+    subtitle: 'Mønstergenkendelsesøvelser i Togformat',
     description: `Opret professionelle mønstertog arbejdsark med vores mønstertog generator. Dit Fuld Adgang abonnement giver dig ubegrænset oprettelse af mønstertog arbejdsark uden ekstra gebyrer per opgave. Generer gratis skoleopgaver til print perfekte til børnehaveklasse, 0. klasse og 1. klasse. Download høj-kvalitets PDF opgaver til print på under 3 minutter.
 
 Mønstertog arbejdsark hjælper børn med at genkende og fortsætte mønstre. Perfekt til finmotorik øvelser og matematikopgaver i indskolingen. Vores mønstertog generator skaber kopiark med tog-billeder i forskellige mønstre. Børn lærer at se mønstre som ABAB, AAB, ABB, ABC og AABB.

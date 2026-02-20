@@ -15,16 +15,16 @@ export const prepositionsDaContent: ProductPageContent = {
   seo: {
     slug: 'praepositioner-arbejdsark',
     appId: 'prepositions',
-    title: 'Gratis Præpositioner Arbejdsark | Generator til Børnehaveklasse',
-    description: 'Lav gratis arbejdsark med præpositioner til børn. Generator til opgaver med rumlig læring for børnehaveklasse og 0. klasse. Download PDF på 3 minutter.',
-    keywords: 'præpositioner arbejdsark, gratis skoleopgaver, opgaver til print, 0 klasse opgaver, 1 klasse undervisning, rumlig læring, sprogudvikling, præpositions-generator, kopiark, finmotorik øvelser',
+    title: 'Præpositionsøvelse Generator | LessonCraftStudio',
+    description: 'Lav printbare præpositionsøvelser til stedord med billeder. Foran, bagved, under, over — visuel sprogindlæring. Gratis PDF.',
+    keywords: 'præpositionsøvelse generator, præpositionsøvelser, stedord til børn, præpositioner førskole, pladsord øvelse, foran bagved opgaver, stedsbegreber til børn, præpositioner printbar, grammatik øvelser førskole, visuel sprogindlæring, steds beskrivelse',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/praepositioner-arbejdsark',
       },
 
   // Hero Section - FULL text from prepositions.md paragraphs 1-3
   hero: {
-    title: 'Gratis Skoleopgaver med Præpositioner',
-    subtitle: 'Arbejdsark til Print til 0. Klasse og 1. Klasse',
+    title: 'Præpositionsøvelsers Generator',
+    subtitle: 'Stedords Indlæring med Billeder',
     description: `Lav professionelle opgaver med præpositioner til børn i børnehaveklassen og 1. klasse. Dit Fuld Adgang abonnement giver dig ubegrænsede arbejdsark uden ekstra gebyrer pr. opgave. Generer tilpassede opgaver til print perfekt til rumlig læring og sprogudvikling. Download høj kvalitet PDF arbejdsark på under 3 minutter.
 
 Vores præpositions-generator hjælper børn med at lære rumlige begreber som "i", "ovenpå", "under", "ved siden af", "bag", "mellem", "over" og "foran". Børn lærer gennem billeder og visuel kontekst. Værktøjet laver automatisk opgaver der passer til børnehaveklassen, 0. klasse og 1. klasse. Alle opgaver til print er tilgængelige på dansk og 10 andre sprog.

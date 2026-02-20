@@ -17,16 +17,16 @@ export const moreLessDaContent: ProductPageContent = {
   seo: {
     slug: 'sammenligningsopgaver-arbejdsark',
     appId: 'more-less',
-    title: 'Sammenligningsopgaver - Gratis Arbejdsark til Børn i Børnehaveklasse',
-    description: 'Lav professionelle sammenligningsopgaver med vores matematikværktøj. Generer tilpassede arbejdsark med større end, mindre end og ligemed-symboler perfekt til.',
-    keywords: 'sammenligningsopgaver, matematikopgaver, større end mindre end, 0. klasse opgaver, 1. klasse, arbejdsark til print, gratis skoleopgaver, børnehaveklassen, talforståelse, matematik',
+    title: 'Flere eller Færre Generator | LessonCraftStudio',
+    description: 'Lav printbare flere og færre sammenligningsopgaver med billeder. Udvikler mængdesammenligning og matematisk tænkning. Førskole til 2. klasse.',
+    keywords: 'flere eller færre generator, flere eller færre opgaver, mængde sammenligning, større mindre øvelse, sammenligningsopgaver førskole, mængder sammenligning med billeder, tal sammenligning til børn, flere eller færre, matematisk sammenligning, mængdevurdering, sammenligningsfærdigheder førskole',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/sammenligningsopgaver-arbejdsark',
       },
 
   // Hero Section - FULL text from more-less.md
   hero: {
-    title: 'Sammenligningsopgaver - Matematikopgaver',
-    subtitle: 'Gratis Arbejdsark til Børn i Børnehaveklasse og 1. Klasse',
+    title: 'Flere eller Færre Generator',
+    subtitle: 'Mængdesammenligning med Billeder fra Førskole til 2. Klasse',
     description: `Lav professionelle sammenligningsopgaver med vores matematikværktøj. Din Fuld Adgang-abonnement giver dig ubegrænset oprettelse af opgaver uden ekstra gebyrer per opgave. Generer tilpassede arbejdsark med større end, mindre end og ligemed-symboler perfekt til børnehaveklassen, 0. klasse og 1. klasse. Download højkvalitets PDF-opgaver til print på under 3 minutter.
 
 Sammenligningsopgaver lærer børn at sammenligne mængder ved hjælp af >, < og = symboler. Dette er grundlæggende matematikopgaver for indskolingen. Vores værktøj skaber opgaver hvor eleverne sammenligner billeder indbyrdes eller billeder med tal. Børnene lærer talforståelse gennem visuel sammenligning. Hver opgave kan tilpasses til dit klassetrin og dine elevers niveau.

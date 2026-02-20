@@ -17,16 +17,16 @@ export const bildeStiDaContent: ProductPageContent = {
   seo: {
     slug: 'billedsti-arbejdsark',
     appId: 'picture-path',
-    title: 'Billedsti Gratis Arbejdsark - Labyrint Generator til Børnehaveklasse',
-    description: 'Lav billedsti gratis arbejdsark til børn med vores labyrint generator. Download gratis printables som PDF. Arbejdsark til børnehaveklasse på 3 minutter!',
-    keywords: 'billedsti, labyrint, matematikopgaver, gratis skoleopgaver, arbejdsark til print, 0. klasse opgaver, 1. klasse, finmotorik øvelser, børnehaveklassen, kopiark, visuelt læringsarbejde',
+    title: 'Gratis Billedsti Generator | LessonCraftStudio',
+    description: 'Lav printbare billedsti-opgaver hvor barnet følger billedruter. Udvikler logisk tænkning og finmotorik. Førskole til 2. klasse. Gratis.',
+    keywords: 'billedsti generator, billedsti opgaver, labyrint opgaver til børn, labyrint printbar, rute følgning, billed-labyrint øvelse, sti opgaver førskole, labyrintøvelser til børn, labyrint printbar, ruteøvelser, visuel rute følgning',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/billedsti-arbejdsark',
       },
 
   // Hero Section - FULL text from picture-path.md paragraphs 1-4
   hero: {
-    title: 'Billedsti Generator – Gratis Skoleopgaver',
-    subtitle: 'Arbejdsark til Print til Børnehaveklassen og 0. Klasse',
+    title: 'Billedsti Generator',
+    subtitle: 'Logisk Tænkningsøvelser med Billedruter',
     description: `Lav professionelle billedsti-aktiviteter med vores visuelle labyrintgenerator. Dit Fuld Adgang abonnement giver dig ubegrænset oprettelse af opgaver til print uden ekstra gebyrer. Generer tilpassede arbejdsark perfekte til børnehaveklassen og 1. klasse elever. Download høj kvalitet PDF opgaver på under 3 minutter.
 
 Billedsti-generatoren kombinerer tre forskellige labyrint-typer i ét værktøj. Lav klassiske labyrinter med billeder langs løsningsstien. Opret billedstier hvor børn forbinder billeder fra start til slut. Design valgopgaver med flere stier hvor kun én er korrekt. Perfekt til matematikopgaver, finmotorik øvelser og visuelt læringsarbejde.

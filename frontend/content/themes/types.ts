@@ -87,6 +87,19 @@ export interface GradeLearningContent {
   teachingTips: string[];
   /** 3-5 grade-specific FAQ entries */
   faq: Array<{ question: string; answer: string }>;
+
+  // -- SEO & Content Uniqueness (Part 1) ------------------------------------
+
+  /** H1 heading override (replaces auto-generated "Free X Worksheets for Y") */
+  heading?: string;
+  /** 50-word unique summary for this theme+grade combo (HCU compliance) */
+  uniqueSummary?: string;
+  /** Direct answer for featured snippet targeting */
+  snippetAnswer?: string;
+  /** Specific worksheet activity recommendations for this grade */
+  worksheetSuggestions?: WorksheetSuggestion[];
+  /** Research-backed developmental milestone for this age+theme */
+  developmentalMilestone?: string;
 }
 
 /** A hands-on activity suggestion for the theme */
@@ -115,6 +128,34 @@ export interface AppCategoryGroup {
   appIds: AppId[];
   /** Highlighted/featured apps within this category */
   featured?: AppId[];
+}
+
+/** An explicit internal link from theme page to a product page */
+export interface ProductLink {
+  /** The worksheet app to link to */
+  appId: AppId;
+  /** The anchor text for the link (keyword-rich) */
+  anchorText: string;
+  /** Surrounding sentence context explaining when/why to use this app */
+  context: string;
+}
+
+/** A comparison between this theme and another */
+export interface ThemeComparison {
+  /** The theme being compared against */
+  vsThemeId: ThemeId;
+  /** 2-3 sentence summary of how the themes differ pedagogically */
+  summary: string;
+}
+
+/** A specific worksheet activity recommendation for a grade level */
+export interface WorksheetSuggestion {
+  /** Activity title (e.g., "Animal Counting Match") */
+  title: string;
+  /** 1-2 sentence description of the activity */
+  description: string;
+  /** The worksheet app to use */
+  appId: AppId;
 }
 
 // -- Main Interface ---------------------------------------------------------
@@ -181,6 +222,25 @@ export interface EnrichedThemeContent {
   relatedThemes: ThemeId[];
   /** Blog category slugs for cross-linking */
   relatedBlogCategories: string[];
+
+  // -- SEO & Content Uniqueness (Part 1) ------------------------------------
+
+  /** WHY this theme is pedagogically distinct — 200-300 word unique angle */
+  uniqueAngle?: string;
+  /** One real research citation supporting this theme's educational value */
+  researchCitation?: string;
+  /** Locale-specific educational/cultural context */
+  culturalNotes?: string;
+  /** 2-3 sentence direct answer for AI Overview / featured snippets */
+  snippetDefinition?: string;
+  /** Numbered steps for "how to use X worksheets" (HowTo snippet) */
+  snippetHowTo?: string[];
+  /** Explicit internal links to product pages with keyword anchors */
+  productLinks?: ProductLink[];
+  /** Comparison content for long-tail "X vs Y worksheets" queries */
+  themeComparisons?: ThemeComparison[];
+  /** Honest limitations — when NOT to use this theme */
+  limitations?: string;
 }
 
 // -- Utility Types ----------------------------------------------------------

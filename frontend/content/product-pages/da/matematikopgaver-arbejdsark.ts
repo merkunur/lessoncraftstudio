@@ -15,16 +15,16 @@ export const mathWorksheetDaContent: ProductPageContent = {
   seo: {
     slug: 'matematikopgaver-arbejdsark',
     appId: 'math-worksheet',
-    title: 'Gratis Arbejdsark Matematikopgaver | Generator til Børnehaveklasse',
-    description: 'Lav gratis arbejdsark med matematikopgaver til børnehaveklasse, 0. klasse og 1. klasse. Ubegrænset generering af opgaver til print med 300 DPI kvalitet.',
-    keywords: 'matematikopgaver, gratis skoleopgaver, arbejdsark til print, 0. klasse opgaver, 1. klasse, børnehaveklassen, kopiark, finmotorik øvelser, gangetabeller, malebog, opgaver til print',
+    title: 'Matematikopgave Generator til Børn | LessonCraftStudio',
+    description: 'Lav visuelle matematikopgaver med billeder. Addition, subtraktion, sammenligning og talrækker fra førskole til 3. klasse. Facitark inkluderet. Gratis PDF.',
+    keywords: 'matematikopgave generator, matematik opgaver indskoling, regneopgaver printbar, matematik arbejdsark, matematikøvelser førskole, visuelle matematikopgaver, regneopgaver til børn, matematik facitark, grundlæggende regnearter øvelse, matematik printbar gratis, matematik træningsopgaver',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/matematikopgaver-arbejdsark',
       },
 
   // Hero Section - FULL text from math-worksheet.md paragraphs 1-3
   hero: {
-    title: 'Matematikopgaver Generator - Gratis Skoleopgaver',
-    subtitle: 'Arbejdsark til Print til 0. Klasse og 1. Klasse',
+    title: 'Matematikopgave Generator',
+    subtitle: 'Visuelle Matematikøvelser fra Førskole til 3. Klasse',
     description: `Lav professionelle matematikopgaver med vores matematikopgaver generator. Dit Kernepakke abonnement giver dig ubegrænset adgang til at lave opgaver til print uden ekstra gebyrer per opgave. Generer skræddersyede arbejdsark der er perfekte til børnehaveklassen, 0. klasse og 1. klasse. Download højkvalitets PDF matematikopgaver på under 3 minutter.
 
 Matematikopgaver generatoren skaber visuelle matematikpuslespil hvor billeder repræsenterer tal. Børn løser opgaverne ved at finde ud af hvilket tal hvert billede repræsenterer. Vælg mellem addition eller addition og subtraktion. Juster sværhedsgraden fra meget let (2 symboler) til svær (4 symboler). Perfekt til indskoling.

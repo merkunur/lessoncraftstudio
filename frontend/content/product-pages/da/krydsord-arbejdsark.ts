@@ -15,16 +15,16 @@ export const crosswordDaContent: ProductPageContent = {
   seo: {
     slug: 'krydsord-arbejdsark',
     appId: 'crossword',
-    title: 'Krydsord Generator - Gratis Arbejdsark til Børn og Børnehaveklasse',
-    description: 'Lav professionelle krydsord opgaver til print med billeder som visuelle ledetråde. Perfekt til lære bogstaver, læse og skrive øvelser, og stavning i.',
-    keywords: 'krydsord arbejdsark, gratis arbejdsark, gratis arbejdsark til børn, arbejdsark til børn, arbejdsark til børnehaveklasse, gratis printables, krydsord generator, printklare opgaver, dansk skoleopgaver',
+    title: 'Gratis Billedkrydsord Generator | LessonCraftStudio',
+    description: 'Lav printbare billedkrydsord hvor billeder er ledetråde. Udvikler ordforråd og stavning fra førskole til 3. klasse. Gratis PDF.',
+    keywords: 'billedkrydsord generator, billedkrydsord opgaver, krydsord til børn printbar, billedbaserede krydsord, krydsord førskole, ordforråd krydsord, billed-krydsord printbar, stavning krydsord, krydsord med billeder, børns krydsord, krydsord opgave førskole',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/krydsord-arbejdsark',
       },
 
   // Hero Section - FULL text from crossword.md paragraphs 1-3
   hero: {
-    title: 'Gratis Krydsord Arbejdsark til Børn - Professionel Generator til Børnehaveklasse',
-    subtitle: 'Krydsord Arbejdsark Generator - Gratis Printables til Børn',
+    title: 'Billedkrydsord Generator',
+    subtitle: 'Ordforråd og Stavning med Billedledetråde',
     description: `Lav professionelle krydsord opgaver til print med billeder som visuelle ledetråde. Dit Fuld Adgang-abonnement giver ubegrænset oprettelse af krydsord arbejdsark uden ekstra gebyrer per opgave. Perfekt til lære bogstaver, læse og skrive øvelser, og stavning i børnehaveklasse, 1. klasse, 2. klasse og 3. klasse.
 
 Vores krydsord generator skaber opgaver til print med billeder som ledetråde. Børnene ser billeder og skal skrive ord i krydsordgitteret. Dette gør arbejdsark perfekte til små børn der lærer bogstaver og stavning.

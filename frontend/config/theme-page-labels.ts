@@ -456,3 +456,147 @@ export const gradeNavDescription: LocaleLabels = {
   no: 'Finn alderstilpassede {themeName}-arbeidsark for hvert klassetrinn.',
   fi: 'L\u00f6yd\u00e4 ik\u00e4tasoisia {themeName}-ty\u00f6lehti\u00e4 jokaiselle luokka-asteelle.',
 };
+
+// ── SEO content section labels (Part 3) ──────────────────────────
+// sectionUniqueAngle uses {themeName} placeholder
+
+export const sectionUniqueAngle: LocaleLabels = {
+  en: 'What Makes {themeName} Worksheets Unique',
+  de: 'Was {themeName}-Arbeitsbl\u00e4tter einzigartig macht',
+  fr: 'Ce qui rend les fiches {themeName} uniques',
+  es: 'Lo que hace \u00fanicas las fichas de {themeName}',
+  pt: 'O que torna as atividades de {themeName} \u00fanicas',
+  it: 'Cosa rende uniche le schede {themeName}',
+  nl: 'Wat {themeName}-werkbladen uniek maakt',
+  sv: 'Vad som g\u00f6r {themeName}-arbetsblad unika',
+  da: 'Hvad der g\u00f8r {themeName}-arbejdsark unikke',
+  no: 'Hva som gj\u00f8r {themeName}-arbeidsark unike',
+  fi: 'Mik\u00e4 tekee {themeName}-ty\u00f6lehdist\u00e4 ainutlaatuisia',
+};
+
+// sectionHowTo uses {themeName} placeholder
+export const sectionHowTo: LocaleLabels = {
+  en: 'How to Use {themeName} Worksheets',
+  de: 'So verwenden Sie {themeName}-Arbeitsbl\u00e4tter',
+  fr: 'Comment utiliser les fiches {themeName}',
+  es: 'C\u00f3mo usar las fichas de {themeName}',
+  pt: 'Como usar as atividades de {themeName}',
+  it: 'Come usare le schede {themeName}',
+  nl: 'Hoe {themeName}-werkbladen te gebruiken',
+  sv: 'Hur man anv\u00e4nder {themeName}-arbetsblad',
+  da: 'S\u00e5dan bruger du {themeName}-arbejdsark',
+  no: 'Slik bruker du {themeName}-arbeidsark',
+  fi: 'N\u00e4in k\u00e4yt\u00e4t {themeName}-ty\u00f6lehti\u00e4',
+};
+
+export const sectionExpertInsights: LocaleLabels = {
+  en: 'Expert Insights',
+  de: 'Experteneinblicke',
+  fr: 'Avis d\u2019experts',
+  es: 'Opiniones de expertos',
+  pt: 'Opini\u00f5es de especialistas',
+  it: 'Approfondimenti esperti',
+  nl: 'Expertinzichten',
+  sv: 'Expertinsikter',
+  da: 'Ekspertindsigt',
+  no: 'Ekspertinnsikt',
+  fi: 'Asiantuntijan\u00e4kemyksi\u00e4',
+};
+
+export const labelQuickAnswer: LocaleLabels = {
+  en: 'Quick Answer',
+  de: 'Schnelle Antwort',
+  fr: 'R\u00e9ponse rapide',
+  es: 'Respuesta r\u00e1pida',
+  pt: 'Resposta r\u00e1pida',
+  it: 'Risposta rapida',
+  nl: 'Snel antwoord',
+  sv: 'Snabbt svar',
+  da: 'Hurtigt svar',
+  no: 'Raskt svar',
+  fi: 'Pikavastaus',
+};
+
+export const labelRecommendedApps: LocaleLabels = {
+  en: 'Recommended Worksheet Apps',
+  de: 'Empfohlene Arbeitsblatt-Apps',
+  fr: 'Applications recommand\u00e9es',
+  es: 'Apps de fichas recomendadas',
+  pt: 'Apps de atividades recomendados',
+  it: 'App per schede consigliate',
+  nl: 'Aanbevolen werkblad-apps',
+  sv: 'Rekommenderade arbetsbladsappar',
+  da: 'Anbefalede arbejdsark-apps',
+  no: 'Anbefalte arbeidsark-apper',
+  fi: 'Suositellut ty\u00f6lehti-sovellukset',
+};
+
+export const labelLimitations: LocaleLabels = {
+  en: 'When to Consider Other Themes',
+  de: 'Wann andere Themen in Betracht kommen',
+  fr: 'Quand envisager d\u2019autres th\u00e8mes',
+  es: 'Cu\u00e1ndo considerar otros temas',
+  pt: 'Quando considerar outros temas',
+  it: 'Quando considerare altri temi',
+  nl: 'Wanneer andere thema\u2019s overwegen',
+  sv: 'N\u00e4r man b\u00f6r \u00f6verv\u00e4ga andra teman',
+  da: 'Hvorn\u00e5r man b\u00f8r overveje andre temaer',
+  no: 'N\u00e5r man b\u00f8r vurdere andre temaer',
+  fi: 'Milloin harkita muita teemoja',
+};
+
+export const labelVs: LocaleLabels = {
+  en: 'vs',
+  de: 'vs.',
+  fr: 'vs',
+  es: 'vs',
+  pt: 'vs',
+  it: 'vs',
+  nl: 'vs',
+  sv: 'vs',
+  da: 'vs',
+  no: 'vs',
+  fi: 'vs',
+};
+
+export const labelKeyMilestone: LocaleLabels = {
+  en: 'Key Milestone',
+  de: 'Wichtiger Meilenstein',
+  fr: 'Jalon cl\u00e9',
+  es: 'Hito clave',
+  pt: 'Marco importante',
+  it: 'Traguardo chiave',
+  nl: 'Belangrijke mijlpaal',
+  sv: 'Viktig milstolpe',
+  da: 'Vigtig milep\u00e6l',
+  no: 'Viktig milep\u00e6l',
+  fi: 'T\u00e4rke\u00e4 virstanpylv\u00e4s',
+};
+
+export const labelRecommendedActivities: LocaleLabels = {
+  en: 'Recommended Activities',
+  de: 'Empfohlene Aktivit\u00e4ten',
+  fr: 'Activit\u00e9s recommand\u00e9es',
+  es: 'Actividades recomendadas',
+  pt: 'Atividades recomendadas',
+  it: 'Attivit\u00e0 consigliate',
+  nl: 'Aanbevolen activiteiten',
+  sv: 'Rekommenderade aktiviteter',
+  da: 'Anbefalede aktiviteter',
+  no: 'Anbefalte aktiviteter',
+  fi: 'Suositellut aktiviteetit',
+};
+
+export const labelLearnMore: LocaleLabels = {
+  en: 'Learn more below',
+  de: 'Mehr erfahren',
+  fr: 'En savoir plus ci-dessous',
+  es: 'M\u00e1s informaci\u00f3n abajo',
+  pt: 'Saiba mais abaixo',
+  it: 'Scopri di pi\u00f9 qui sotto',
+  nl: 'Lees hieronder meer',
+  sv: 'L\u00e4s mer nedan',
+  da: 'L\u00e6s mere nedenfor',
+  no: 'Les mer nedenfor',
+  fi: 'Lue lis\u00e4\u00e4 alta',
+};

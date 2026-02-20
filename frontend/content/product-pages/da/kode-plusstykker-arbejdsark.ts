@@ -15,16 +15,16 @@ export const kodePlusstykkerDaContent: ProductPageContent = {
   seo: {
     slug: 'kode-plusstykker-arbejdsark',
     appId: 'code-addition',
-    title: 'Kode-Addition Gratis Arbejdsark til Børn og Børnehaveklasse',
-    description: 'Lav gratis arbejdsark til børn med billedbaseret kode-addition. Arbejdsark til børnehaveklasse og 0. klasse. Download gratis printables som PDF på 3 minutter.',
-    keywords: 'gratis arbejdsark, arbejdsark til børn, arbejdsark til børnehaveklasse, matematikopgaver med billeder, billedbaserede plusstykker, gratis printables, kode-addition',
+    title: 'Kode-Plusstykker Generator | LessonCraftStudio',
+    description: 'Lav printbare kode-plusstykker hvor billeder erstatter tal. Udvikler algebraisk tænkning fra førskole til 3. klasse. Gratis PDF download.',
+    keywords: 'kode-plusstykker generator, kode-plusstykker opgaver, symbolsk algebra til børn, billedbaseret matematik, kodeopgaver printbar, algebraisk tænkning førskole, billede erstatter tal, hemmelig besked plusstykker, billedsymbol regneopgave, matematisk kodning, visuel algebra',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/kode-plusstykker-arbejdsark',
       },
 
   // Hero Section - FULL text from code-addition.md paragraphs 1-4
   hero: {
-    title: 'Gratis Arbejdsark til Børn - Kode-Addition Matematikopgaver',
-    subtitle: 'Arbejdsark til Børnehaveklasse og 0. Klasse med Billedbaserede Plusstykker',
+    title: 'Kode-Plusstykker Generator',
+    subtitle: 'Algebraisk Tænkning gennem Billedkodede Regneopgaver',
     description: `Lav professionelle matematikopgaver med billeder på under 3 minutter. Din Fuld Adgang-abonnement giver dig ubegrænset adgang til at skabe tilpassede opgaver til print uden ekstra gebyrer. Generér billedbaserede plusstykker perfekt til 0. klasse og 1. klasse. Download opgaver i høj kvalitet som PDF på få sekunder.
 
 Vores plusstykke-generator bruger billeder i stedet for tal. Børn tæller æbler, dyr eller legetøj og lærer addition visuelt. Dette værktøj skaber matematikopgaver der kombinerer tælning med simpel addition. Perfekt til elever der lige er begyndt at lære matematik.

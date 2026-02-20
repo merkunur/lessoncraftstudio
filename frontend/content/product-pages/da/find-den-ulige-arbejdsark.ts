@@ -17,16 +17,16 @@ export const oddOneOutDaContent: ProductPageContent = {
   seo: {
     slug: 'find-den-ulige-arbejdsark',
     appId: 'odd-one-out',
-    title: 'Find Den Ulige - Gratis Arbejdsark Generator til Børn og',
-    description: 'Skab gratis arbejdsark til børn med Find Den Ulige generatoren. Visuelle opgaver til børnehaveklasse og 0. klasse. Download PDF i 300 DPI på 3 minutter.',
-    keywords: 'find den ulige, gratis skoleopgaver, opgaver til print, 0. klasse, 1. klasse, børnehaveklassen, visuel diskrimination, kognitiv udvikling, arbejdsark, finmotorik øvelser',
+    title: 'Find den Ulige Generator — Gratis | LessonCraftStudio',
+    description: 'Lav printbare find den ulige-opgaver til visuel opfattelse og klassificering. 50 temaer og tilpasbare indstillinger. Gratis PDF.',
+    keywords: 'find den ulige generator, find den ulige opgaver, hvad passer ikke ind, klassificering øvelse, visuel skelnen, anderledes billede opgave, klassificeringstræning til børn, forskellig i gruppen, mønstergenkendelse og klassificering, sortering og skelnen, find den ulige printbar',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/find-den-ulige-arbejdsark',
       },
 
   // Hero Section - FULL text from odd-one-out.md
   hero: {
-    title: 'Find Den Ulige Generator - Gratis Arbejdsark til Børn',
-    subtitle: 'Gratis Arbejdsark til Børnehaveklasse - Opgaver til Print for 0. og 1. Klasse',
+    title: 'Find den Ulige Generator',
+    subtitle: 'Klassificerings- og Opfattelsesøvelser med Billeder',
     description: `Skab professionelle "find den ulige" opgaver til print med vores intuitive generator. Dit Fuld Adgang-abonnement giver dig ubegrænset adgang til at skabe visuelle diskriminationsopgaver uden ekstra omkostninger pr. opgave. Generer tilpassede arbejdsark perfekte til børnehaveklassen, 0. klasse og 1. klasse. Download PDF-opgaver af høj kvalitet på under 3 minutter.
 
 Find den ulige-opgaver udvikler kritisk tænkning og visuel perception. Børn lærer at sammenligne billeder og identificere forskelle. Perfekt til kognitiv udvikling i indskolingen. Idealsk til pædagoger der har brug for differentierede opgaver til print hurtigt.

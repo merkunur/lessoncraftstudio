@@ -15,16 +15,16 @@ export const cryptogramDaContent: ProductPageContent = {
   seo: {
     slug: 'kryptogram-arbejdsark',
     appId: 'cryptogram',
-    title: 'Kryptogram Gratis Arbejdsark til Børn - Generator til Børnehaveklasse',
-    description: 'Opret professionelle kryptogram gratis arbejdsark med vores generator. Perfekt til børn i børnehaveklasse og 0.-1. klasse. Download PDF på 3 minutter.',
-    keywords: 'kryptogram arbejdsark, opgaver til print, gratis skoleopgaver, 0 klasse opgaver, 1 klasse opgaver, lære bogstaver, læse og skrive, stavning øvelser, kryptogram generator, printklare opgaver, dansk skoleopgaver',
+    title: 'Billedkryptogram Generator | LessonCraftStudio',
+    description: 'Lav printbare billedkryptogrammer hvor bogstaver erstattes af billeder. Udvikler afkodningsfærdigheder og læseparathed. Førskole til 3. klasse.',
+    keywords: 'billedkryptogram generator, billedkryptogram opgaver, hemmelig skrift til børn, afkodningsopgave, hemmeligt sprog løsning, billedkodning øvelse, hemmeligord opgave, kryptogram printbar, symbol afkodning, hemmelig besked øvelse, læseparathedsøvelse',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/kryptogram-arbejdsark',
       },
 
   // Hero Section - FULL text from cryptogram.md paragraphs 1-3
   hero: {
-    title: 'Gratis Kryptogram Arbejdsark til Børn - Professionel Generator',
-    subtitle: 'Kryptogram Arbejdsark Generator - Gratis Printables til Børn',
+    title: 'Billedkryptogram Generator',
+    subtitle: 'Hemmelig Skrift-opgaver med Billeder — Afkod og Lær at Læse',
     description: `Opret professionelle kryptogram opgaver med vores kryptogram generator. Dit Fuld Adgang-abonnement giver ubegrænset opgaveoprettelse uden ekstra gebyrer per opgave. Generer tilpassede kryptogram opgaver perfekte til børnehaveklassen, 0. klasse og 1. klasse. Download opgaver til print i PDF-format på under 3 minutter.
 
 Vores kryptogram generator kombinerer læse og skrive færdigheder med kritisk tænkning. Hver kryptogram opgave hjælper børn med at lære bogstaver og øve stavning gennem sjove billedpuslespil. Perfekt til danskundervisning i indskolingen.

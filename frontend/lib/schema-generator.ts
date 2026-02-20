@@ -1718,6 +1718,47 @@ export function generateThemeLearningResourceSchema(
 }
 
 /**
+ * Generate a HowTo JSON-LD schema for theme page "How to Use X Worksheets" sections.
+ * Triggered when `snippetHowTo` steps are populated on an enriched theme page.
+ */
+export function generateThemeHowToSchema(input: {
+  /** e.g. "How to Use Animals Worksheets" */
+  name: string;
+  /** snippetDefinition or auto-generated description */
+  description: string;
+  /** snippetHowTo steps (plain text strings) */
+  steps: string[];
+  locale: string;
+  pageUrl: string;
+}) {
+  const { name, description, steps, locale, pageUrl } = input;
+  const baseUrl = getBaseUrl();
+
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'HowTo',
+    '@id': `${pageUrl}#howto`,
+    name,
+    description,
+    totalTime: 'PT5M',
+    tool: [{ '@type': 'HowToTool', name: 'Web Browser' }],
+    supply: [{ '@type': 'HowToSupply', name: 'Printer (optional)' }],
+    estimatedCost: { '@type': 'MonetaryAmount', currency: 'USD', value: '0' },
+    step: steps.map((text, i) => ({
+      '@type': 'HowToStep',
+      position: i + 1,
+      name: `Step ${i + 1}`,
+      text,
+    })),
+    inLanguage: getHreflangCode(locale),
+    provider: {
+      '@type': 'EducationalOrganization',
+      '@id': `${baseUrl}/#organization`,
+    },
+  };
+}
+
+/**
  * Generate a WebPage schema with E-A-T signals for theme/grade pages
  */
 export function generateThemeWebPageSchema(input: {

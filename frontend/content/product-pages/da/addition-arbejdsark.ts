@@ -15,16 +15,16 @@ export const additionDaContent: ProductPageContent = {
   seo: {
     slug: 'addition-arbejdsark',
     appId: 'addition',
-    title: 'Addition Arbejdsark - Gratis Arbejdsark til Børn og Børnehaveklasse',
-    description: 'Lav professionelle plusstykker og matematikopgaver med vores billedbaserede opgavegenerator. Gratis arbejdsark til børn og gratis arbejdsark til.',
-    keywords: 'gratis arbejdsark, gratis arbejdsark til børn, arbejdsark til børn, arbejdsark til børnehaveklasse, gratis printables, matematikopgaver, plusstykker, 0. klasse opgaver, addition, regning',
+    title: 'Gratis Addition Generator til Børn | LessonCraftStudio',
+    description: 'Lav printbare plusstykker med billeder til førskole–3. klasse. 3.000+ billeder, tilpas sværhedsgrad og få facitark. Download gratis PDF med det samme.',
+    keywords: 'addition opgave generator, plusstykker arbejdsark gratis, addition opgaver børnehaveklasse, billedbaserede plusstykker, matematik arbejdsark gratis, plusstykker med billeder, printbare regneopgaver, addition facitark, lære at lægge sammen, plusstykker 1. klasse, addition øvelser børn',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/addition-arbejdsark',
       },
 
   // Hero Section - FULL text from addition.md paragraphs 1-3
   hero: {
-    title: 'Gratis Arbejdsark til Børn - Matematikopgaver Plus og Addition',
-    subtitle: 'Professionel Generator til Gratis Arbejdsark til Børnehaveklasse og 0. Klasse',
+    title: 'Addition Opgave Generator',
+    subtitle: 'Lav Billedbaserede Plusstykker fra Førskole til 3. Klasse',
     description: `Lav professionelle plusstykker og matematikopgaver med vores billedbaserede opgavegenerator. Med dit Core Bundle-abonnement får du ubegrænset adgang til at skabe gratis arbejdsark til børn uden ekstra gebyrer pr. opgaveark. Generer tilpassede gratis arbejdsark til børnehaveklasse perfekt til 0. klasse opgaver og 1. klasse. Download gratis printables i høj kvalitet som PDF på under 3 minutter.
 
 Vores plusstykke-generator gør det nemt at skabe arbejdsark til børn for lærere i indskolingen. Børn lærer bedst når de kan se konkrete billeder af ting de skal lægge sammen. Denne opgavegenerator kombinerer billeder med tal så eleverne får både visuel og numerisk forståelse af addition. Skab gratis arbejdsark der hjælper børn med at forstå matematiske begreber gennem billeder og tal.

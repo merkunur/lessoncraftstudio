@@ -15,16 +15,16 @@ export const bingoDaContent: ProductPageContent = {
   seo: {
     slug: 'bingo-arbejdsark',
     appId: 'bingo',
-    title: 'Bingo Gratis Arbejdsark - Generator til Børnehaveklasse og 0. Klasse',
-    description: 'Lav bingo gratis arbejdsark til børn med vores generator. Ubegrænset arbejdsark til børnehaveklasse. Download gratis printables som professionelle PDF-filer.',
-    keywords: 'bingo generator, gratis arbejdsark, arbejdsark til børn, arbejdsark til børnehaveklasse, gratis printables, 0. klasse arbejdsark, 1. klasse, kopiark, billedbingo, ordbingo',
+    title: 'Gratis Billed-Bingo Generator | LessonCraftStudio',
+    description: 'Lav printbare billed-bingospil til børn. 50 temaer, tilpasselige gitre og billeder fra 3.000+ bibliotek. Perfekt til klasselokalet. Download gratis.',
+    keywords: 'billed-bingo generator, bingo printbar til børn, billed-bingo spil, printbart bingospil, bingo førskole, klasse bingospil, billed-bingo gitter, bingo opgave til børn, gruppespil printbar, bingo billeder børn, bingospil klasselokale',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/bingo-arbejdsark',
       },
 
   // Hero Section
   hero: {
-    title: 'Bingo Gratis Arbejdsark til Print',
-    subtitle: 'Gratis Arbejdsark Generator til Børnehaveklasse og 0. Klasse',
+    title: 'Billed-Bingo Generator',
+    subtitle: 'Lav Printbare Bingospil med 50 Temaer',
     description: `Lav professionelle bingo gratis arbejdsark til børn med vores bingo generator. Dit Grundpakke abonnement giver dig ubegrænset arbejdsark til børnehaveklasse uden ekstra omkostninger per opgave. Generer skræddersyede arbejdsark perfekt til børnehaveklassen, 0. klasse og 1. klasse. Download høj-kvalitets PDF gratis printables på under 3 minutter.
 
 Vores bingo generator gør det let at skabe engagerende arbejdsark til børn. Vælg mellem over 3000 børnevenlige billeder organiseret i temaer. Hver bingo-opgave kan tilpasses fuldstændigt med egne billeder, farver og layouts. Kombiner bingo-aktiviteter med matematikopgaver, læse og skrive øvelser eller farvelægning for at skabe komplette læringspakker med gratis arbejdsark.

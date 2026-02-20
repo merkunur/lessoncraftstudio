@@ -15,16 +15,16 @@ export const wordGuessDaContent: ProductPageContent = {
   seo: {
     slug: 'gaet-ordet-arbejdsark',
     appId: 'word-guess',
-    title: 'Gæt Ordet Gratis Arbejdsark - Arbejdsark til Børn - Stavningsopgaver',
-    description: 'Lav gratis arbejdsark til børn med gæt-ordet stavningsopgaver. Arbejdsark til børnehaveklasse og 0. klasse. Download gratis arbejdsark som PDF. 5 eksempler.',
-    keywords: 'gæt ordet arbejdsark, gratis arbejdsark, gratis arbejdsark til børn, arbejdsark til børn, arbejdsark til børnehaveklasse, gratis printables, stavning øvelser, lære bogstaver',
+    title: 'Gratis Gæt Ordet Generator | LessonCraftStudio',
+    description: 'Lav printbare gæt-ordet-opgaver hvor barnet gætter ord ud fra billedledetråde. Udvikler ordforråd og slutningsfærdigheder. Gratis PDF.',
+    keywords: 'gæt ordet generator, gæt ordet opgaver, ord-gåde med billeder, ordforråd øvelse, billedbaseret ordopgave, gætteopgave til børn, billedledetråd opgave, ords slutning, ord-gåde printbar, ordforråd udvidelse, billedledetråd ordopgave',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/gaet-ordet-arbejdsark',
       },
 
   // Hero Section - FULL text from word-guess.md paragraphs 1-3
   hero: {
-    title: 'Gæt Ordet Gratis Arbejdsark – Arbejdsark til Børn og Børnehaveklasse',
-    subtitle: 'Gratis Arbejdsark til Børnehaveklasse - Stavningsopgaver 0. Klasse',
+    title: 'Gæt Ordet Generator',
+    subtitle: 'Ordforråd og Slutningsøvelser med Billedledetråde',
     description: `Lav professionelle gæt-ordet opgaver med vores generator til arbejdsark. Dit Fuld Adgang-abonnement giver dig ubegrænset oprettelse af opgaver uden gebyrer per opgave. Generer skræddersyede opgaver til print perfekt til børnehaveklassen og 1. klasse elever. Download opgaver i høj kvalitet på under tre minutter.
 
 Vores gæt-ordet generator kombinerer billeder med bogstavgæt til stavning og ordforrådspraksis. Børn ser billeder og udfylder manglende bogstaver for at stave ordet. Perfekt til at lære bogstaver og skriv bogstaver-øvelser i børnehaveklassen. Fuld Adgang-abonnementet inkluderer kommerciel licens så du kan sælge dine opgaver til print på Teachers Pay Teachers og Etsy.

@@ -519,6 +519,11 @@ export default async function ThemeGradePage({
             gradeName={gradeName}
             themeName={themeName}
             locale={locale}
+            heading={gradeContent.heading}
+            uniqueSummary={gradeContent.uniqueSummary}
+            snippetAnswer={gradeContent.snippetAnswer}
+            worksheetSuggestions={gradeContent.worksheetSuggestions}
+            developmentalMilestone={gradeContent.developmentalMilestone}
           />
         </div>
       )}

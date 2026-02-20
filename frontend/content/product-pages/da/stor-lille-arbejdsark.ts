@@ -15,16 +15,16 @@ export const bigSmallDaContent: ProductPageContent = {
   seo: {
     slug: 'stor-lille-arbejdsark',
     appId: 'big-small',
-    title: 'Stor og Lille Gratis Arbejdsark til Børn | Gratis Arbejdsark',
-    description: 'Lav gratis arbejdsark til børn med stor og lille størrelsessammenligning. Arbejdsark til børnehaveklasse og 0. klasse. Download gratis printables som PDF.',
-    keywords: 'stor og lille, opgaver til print, gratis opgaver, arbejdsark, 0. klasse, børnehaveklasse, 1. klasse, matematikopgaver, størrelsessammenligning, finmotorik øvelser, gratis skoleopgaver',
+    title: 'Størrelsessammenligning Generator | LessonCraftStudio',
+    description: 'Lav printbare stor og lille sammenligningsopgaver med billeder. Udvikl størrelsesbegreber fra førskole til 1. klasse. Tilpas indstillinger. Gratis PDF.',
+    keywords: 'størrelsessammenligning generator, stor og lille opgaver, størrelsessammenligning førskole, størrelser genkendelse, større og mindre, størrelses sammenligning til børn, stor lille printbar, størrelsesforskel opgaver, størrelsesøvelser førskole, sammenligningsfærdigheder øvelse, størrelser sortering',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/stor-lille-arbejdsark',
       },
 
   // Hero Section - FULL text from big-small.md paragraphs 1-4
   hero: {
-    title: 'Stor og Lille Gratis Arbejdsark til Børn - Professionel Generator',
-    subtitle: 'Gratis Arbejdsark til Børnehaveklasse - 0. Klasse og 1. Klasse',
+    title: 'Stor og Lille Generator',
+    subtitle: 'Størrelsessammenligningsøvelser med Billeder fra Førskole til 1. Klasse',
     description: `Opret professionelle stor og lille opgaver til print med vores specialiserede generator. Dit Fuld Adgang abonnement giver dig ubegrænset adgang til at lave arbejdsark om størrelsesforskelle uden ekstra omkostninger per opgave. Generer tilpassede opgaver til børnehaveklassen, 0. klasse og 1. klasse på under 3 minutter. Download arbejdsark i høj kvalitet som PDF eller JPEG.
 
 Vores stor og lille generator hjælper pædagoger med at undervise i grundlæggende matematiske begreber gennem visuelle størrelsessammenligninger. Børn lærer at skelne mellem stor, lille og mellemstor gennem engagerende opgaver til print. Alle opgaverne kan tilpasses fuldstændigt efter dine elevers behov og læringsniveau.

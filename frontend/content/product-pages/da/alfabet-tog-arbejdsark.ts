@@ -15,16 +15,16 @@ export const alphabetTrainDaContent: ProductPageContent = {
   seo: {
     slug: 'alfabet-tog-arbejdsark',
     appId: 'alphabet-train',
-    title: 'Gratis Arbejdsark Alfabettog | Generator til Børnehaveklasse',
-    description: 'Lav gratis arbejdsark med alfabettog-generatoren. Professionelle alfabetopgaver til børnehaveklasse og 1. klasse. Download PDF på under 3 minutter.',
-    keywords: 'alfabetopgaver, alfabettog, gratis skoleopgaver, arbejdsark til print, børnehaveklassen, 0. klasse opgaver, 1. klasse, lære bogstaver, læse og skrive, finmotorik øvelser',
+    title: 'Gratis Alfabet-Tog Generator | LessonCraftStudio',
+    description: 'Lav printbare alfabet-tog opgaver til bogstavlæring fra førskole til 1. klasse. Sjov måde at lære bogstaver med billeder. Download gratis PDF.',
+    keywords: 'alfabet tog generator, alfabet tog opgaver, bogstaver øvelse førskole, alfabet printbar, alfabet-tog arbejdsark, bogstavgenkendelse, alfabetisk rækkefølge øvelse, bogstavøvelser til børn, lære at læse, alfabetøvelser, begyndelsesbogstaver opgave',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/alfabet-tog-arbejdsark',
       },
 
   // Hero Section
   hero: {
-    title: 'Alfabetopgaver til Print – Gratis Skoleopgaver',
-    subtitle: 'Arbejdsark til Børnehaveklassen og 1. Klasse',
+    title: 'Alfabet-Tog Generator',
+    subtitle: 'Printbare Bogstavøvelser fra Førskole til 1. Klasse',
     description: `Lav professionelle alfabetopgaver med vores alfabettog-generator på 11 sprog. Dit Grundpakke-abonnement giver dig ubegrænset adgang til at lave alfabetopgaver. Generer arbejdsark til print med bogstaver og billeder på få minutter. Download kvalitets-PDF arbejdsark på under tre minutter.
 
 Vores alfabettog understøtter elleve komplette alfabeter med korrekte specialtegn. Tyske alfabetopgaver inkluderer Ä, Ö og Ü på de rigtige pladser. Spanske alfabetopgaver inkluderer Ñ efter N. Svenske, danske og norske alfabetopgaver inkluderer Æ, Ø og Å. Finske alfabetopgaver inkluderer Ä og Ö til sidst.

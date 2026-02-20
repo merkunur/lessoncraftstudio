@@ -15,16 +15,16 @@ export const drawingLinesDaContent: ProductPageContent = {
   seo: {
     slug: 'linjetraening-arbejdsark',
     appId: 'drawing-lines',
-    title: 'Linjetræning Gratis Arbejdsark - Finmotorik Øvelser til',
-    description: 'Lav professionelle linjetræning gratis arbejdsark til børn. Download gratis printables til finmotorik øvelser. Arbejdsark til børnehaveklasse.',
-    keywords: 'finmotorik øvelser, linjetræning, opgaver til print, tegn linjer, arbejdsark børnehaveklassen, 0. klasse, 1. klasse, gratis skoleopgaver, blyantgreb, hånd-øje koordination',
+    title: 'Linjetræning Generator — Gratis | LessonCraftStudio',
+    description: 'Lav printbare linjetræningsopgaver til finmotorik-udvikling. Lige linjer, buer og bølger fra førskole til 1. klasse. Download gratis PDF.',
+    keywords: 'linjetræning generator, linjetræning opgaver, finmotorik øvelser, linje følgning opgave, blyantsgreb øvelser, tegning træning førskole, finmotorik førskole, skriveforberedelse øvelse, blyantsgreb træning, linjer og former øvelse, tegnetræning til børn',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/linjetraening-arbejdsark',
       },
 
   // Hero Section - FULL text from drawing-lines.md paragraphs 1-3
   hero: {
-    title: 'Finmotorik Øvelser - Gratis Opgaver',
-    subtitle: 'Arbejdsark til Print til Børnehaveklassen og 1. Klasse',
+    title: 'Linjetrænings Generator',
+    subtitle: 'Finmotorik Øvelser fra Førskole til 1. Klasse',
     description: `Lav professionelle opgaver til print med linjer og finmotorik øvelser til børnehaveklassen. Din Grundpakke-abonnement giver dig ubegrænset adgang til at skabe opgaver med linjetræning. Generer tilpassede finmotorik øvelser perfekt til 0. klasse og 1. klasse uden ekstra omkostninger per opgave. Download kvalitetsopgaver som PDF på under 3 minutter.
 
 Vores linjetræningsværktøj hjælper børn udvikle finmotorik gennem sjove opgaver til print. Børn forbinder billeder med linjer og styrker deres blyantgreb. Perfekt til gratis skoleopgaver i børnehaveklassen og indskolingen. Lærere bruger disse arbejdsark til daglig motoriktræning.

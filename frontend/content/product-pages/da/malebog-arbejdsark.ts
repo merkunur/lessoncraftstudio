@@ -15,16 +15,16 @@ export const coloringDaContent: ProductPageContent = {
   seo: {
     slug: 'malebog-arbejdsark',
     appId: 'coloring',
-    title: 'Gratis Arbejdsark Farvelægning | Malebog Generator til Børnehaveklasse',
-    description: 'Lav gratis arbejdsark til farvelægning for børnehaveklasse og 0. klasse. Generér printbare malebog sider med 3000+ billeder. Download PDF på 3 minutter.',
-    keywords: 'farvelægningssider, malebog, gratis arbejdsark, arbejdsark til børn, gratis printables, arbejdsark til børnehaveklasse, arbejdsark, kopiark, finmotorik øvelser, lære bogstaver',
+    title: 'Gratis Malebog Generator til Børn | LessonCraftStudio',
+    description: 'Lav printbare farvelægningssider til børn med 3.000+ billeder. 50 temaer og 5 aldersniveauer fra førskole til 3. klasse. Download gratis PDF.',
+    keywords: 'malebog generator, farvelægningssider til børn gratis, gratis malebog print, farvelægningsark printbar, dyr farvelægning, printbare malebog sider, farvelægning førskole, farvelægningsøvelser, farvelægningsopgaver til børn, finmotorik farvelægning, børns farvelægningssider',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/malebog-arbejdsark',
       },
 
   // Hero Section - FULL text from coloring.md paragraphs 1-4
   hero: {
-    title: 'Gratis Arbejdsark Farvelægning – Malebog Designer til Print',
-    subtitle: 'Gratis Printables og Arbejdsark til Børn i Børnehaveklasse og 0. Klasse',
+    title: 'Malebog Generator til Børn',
+    subtitle: 'Lav Printbare Farvelægningssider med 50 Temaer og 3.000+ Billeder',
     description: `Lav professionelle farvelægningssider med vores malebog designer. Dit Core Bundle abonnement giver dig ubegrænset adgang til at skabe gratis arbejdsark uden ekstra gebyrer per opgave. Generer tilpassede farvelægningssider perfekt til arbejdsark til børnehaveklasse og 1. klasse. Download arbejdsark i høj kvalitet som PDF på under 3 minutter.
 
 Vores farvelægning designer gør det nemt at skabe malebog sider tilpasset dine elever. Vælg mellem 3000+ børnevenlige billeder organiseret efter temaer. Tilføj tekst, navn-felter og skrive-linjer til dine gratis printables. Alle farvelægningssider kan downloades som arbejdsark til børn til både personlig og kommerciel brug med dit Core Bundle abonnement.

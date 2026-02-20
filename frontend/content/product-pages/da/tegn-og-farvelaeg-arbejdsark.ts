@@ -15,16 +15,16 @@ export const drawAndColorDaContent: ProductPageContent = {
   seo: {
     slug: 'tegn-og-farvelaeg-arbejdsark',
     appId: 'draw-and-color',
-    title: 'Tegn og Farvelæg Gratis Arbejdsark - Generator til Børnehaveklasse',
-    description: 'Lav tegn og farvelæg gratis arbejdsark til børn med vores generator. Ubegrænset arbejdsark til børnehaveklasse og 0. klasse. Download PDF på 3 minutter.',
-    keywords: 'tegn og farvelæg, malebog generator, gratis arbejdsark, arbejdsark til børn, arbejdsark til børnehaveklasse, gratis printables, 0. klasse, 1. klasse, finmotorik øvelser, gitter-tegne',
+    title: 'Gratis Rastertegning Generator | LessonCraftStudio',
+    description: 'Lav printbare rastertegningsopgaver. Tegn mønstre i ruder efter model og farvelæg. Udvikler visuel opfattelse. Førskole til 3. klasse. Gratis.',
+    keywords: 'rastertegning generator, rastertegning opgaver, pixeltegning til børn, rudetegning, rutepapir tegning, visuel opfattelse øvelse, rudetegning printbar, model kopiering til rude, tegning i ruder, kodet tegning, rasteropgaver til børn',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/tegn-og-farvelaeg-arbejdsark',
       },
 
   // Hero Section - FULL text from draw-and-color.md paragraphs 1-4
   hero: {
-    title: 'Tegn og Farvelæg Gratis Arbejdsark til Børn - Professionel Generator',
-    subtitle: 'Gratis Arbejdsark til Børnehaveklasse - 0. Klasse og 1. Klasse',
+    title: 'Rastertegning Generator',
+    subtitle: 'Tegn og Farvelæg Mønstre i Rudemønster efter Model',
     description: `Lav professionelle gitter-tegne arbejdsark med vores malebog generator. Dit Fuld Adgang-abonnement giver dig ubegrænset oprettelse af farvelægning arbejdsark uden ekstra gebyrer pr. opgave. Generer tilpassede opgaver til print perfekte til 0. klasse og 1. klasse elever. Download højkvalitets PDF kopiark på under 3 minutter.
 
 Vores tegne-gitter generator kombinerer kreativ farvelægning med finmotorik øvelser. Børn afslører et skjult billede ved at farvelægge grid-celler baseret på visuelle ledtråde. Perfekt til børnehaveklassen og indskoling. Hver malebog fremmer finmotorik, farveforståelse og rumlig tænkning gennem sjove opgaver til print.

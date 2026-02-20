@@ -8,19 +8,48 @@
 
 ---
 
+## MANDATORY DEPLOYMENT RULES (READ BEFORE EVERY PART)
+
+> These rules are NON-NEGOTIABLE. They override any other instructions.
+> The agent executing a part MUST follow the Part Completion Protocol
+> as the FINAL step of every single part, no exceptions.
+
+### Deploy-Point Lookup
+
+DEPLOY_AFTER_PARTS = [9, 14, 22, 30, 43, 55, 75, 105, 145, 170, 203, 236, 269, 302, 335, 368, 401, 434, 467, 500]
+
+### Decision Tree (execute after EVERY part)
+
+AFTER completing Part N:
+
+1. **COMMIT (always, every part, no exceptions)**
+   ```bash
+   git add frontend/content/ frontend/components/ frontend/lib/ frontend/config/ frontend/app/ docs/
+   git commit -m "SEO Part N: [1-line description]"
+   ```
+
+2. **IS N IN DEPLOY_AFTER_PARTS?**
+   - **YES** → push + deploy.sh + post-deploy verify + mark deployed in Deploy Point Status table
+   - **NO** → local commit only, do NOT push or deploy
+
+3. **UPDATE PROGRESS** → Mark the part complete in the Phase Progress table (Appendix E)
+
+---
+
 ## DOCUMENT NAVIGATION
 
-| Section | Parts | Line Range |
-|---------|-------|------------|
-| Executive Summary & Methodology | - | Lines 1-209 |
-| Deployment Schedule | - | Lines 210-257 |
-| Phase 0: Foundation & Infrastructure | Parts 1-15 | Lines 258-604 |
-| Phase 1: English Product Pages | Parts 16-30 | Lines 605-735 |
-| Phase 2: English Theme Hub Pages | Parts 31-55 | Lines 736-920 |
-| Phase 3: English Theme+Grade Pages | Parts 56-155 | Lines 921-1090 |
-| Phase 4: English Secondary & QA | Parts 146-170 | Lines 1091-1226 |
-| Phase 5-14: Non-English Locales | Parts 171-500 | Lines 1227-1698 |
-| Appendices & Reference (A-G) | - | Lines 1699+ |
+| Section | Parts | Description |
+|---------|-------|-------------|
+| Mandatory Deployment Rules | - | NON-NEGOTIABLE commit/deploy protocol (above) |
+| Executive Summary & Methodology | - | Problem statement, vision, methodology |
+| Deployment Schedule | - | 20 deploy points with rationale |
+| Phase 0: Foundation & Infrastructure | Parts 1-15 | Types, components, audit, keywords |
+| Phase 1: English Product Pages | Parts 16-30 | 33 EN product pages |
+| Phase 2: English Theme Hub Pages | Parts 31-55 | 50 EN theme hub pages |
+| Phase 3: English Theme+Grade Pages | Parts 56-155 | 250 EN theme+grade pages |
+| Phase 4: English Secondary & QA | Parts 156-170 | EN secondary pages & final QA |
+| Phase 5-14: Non-English Locales | Parts 171-500 | 10 locales x 33 parts each |
+| Appendices & Reference (A-G) | - | Progress tracking, reminders, reference |
 
 ---
 
@@ -1933,7 +1962,7 @@ Use this checklist for EVERY landing page transformation:
 | Phase | Parts | Status | Deploys | Pages Done | Pages Total |
 |-------|-------|--------|---------|------------|-------------|
 | 0: Foundation | 1-15 | **Parts 1-14 COMPLETE, Part 15 PENDING** | #1 (Part 9), #2 (Part 14) | N/A | N/A (infrastructure) |
-| 1: EN Product | 16-30 | PENDING | #3 (Part 22), #4 (Part 30) | 0 | 33 |
+| 1: EN Product | 16-30 | **Parts 16-22 COMPLETE** | #3 (Part 22) **DEPLOYED** , #4 (Part 30) | 20 | 33 |
 | 2: EN Theme Hubs | 31-55 | PENDING | #5 (Part 43), #6 (Part 55) | 0 | 50 |
 | 3: EN Theme+Grade | 56-155 | PENDING | #7 (Part 75), #8 (Part 105), #9 (Part 145) | 0 | 250 |
 | 4: EN Secondary | 156-170 | PENDING | #10 (Part 170) | 0 | ~25 |
@@ -1947,7 +1976,32 @@ Use this checklist for EVERY landing page transformation:
 | 12: Spanish | 402-434 | PENDING | #18 (Part 434) | 0 | 333 |
 | 13: French | 435-467 | PENDING | #19 (Part 467) | 0 | 333 |
 | 14: German | 468-500 | PENDING | #20 (Part 500) | 0 | 333 |
-| **TOTAL** | **1-500** | **Parts 1-14 done** | **20 deploys** | **0** | **3,663** |
+| **TOTAL** | **1-500** | **Parts 1-22 done** | **20 deploys** | **20** | **3,663** |
+
+### Deploy Point Status
+
+| Deploy # | After Part | Status | Date | Commit Hash | Verified |
+|----------|-----------|--------|------|-------------|----------|
+| 1 | 9 | SKIPPED | - | - | Part 9 was docs-only |
+| 2 | 14 | DEPLOYED | 2026-02-19 | c0d5968c | Yes |
+| 3 | 22 | DEPLOYED | 2026-02-20 | b27d2c39 | Yes (3 URLs + smoke tests) |
+| 4 | 30 | PENDING | - | - | - |
+| 5 | 43 | PENDING | - | - | - |
+| 6 | 55 | PENDING | - | - | - |
+| 7 | 75 | PENDING | - | - | - |
+| 8 | 105 | PENDING | - | - | - |
+| 9 | 145 | PENDING | - | - | - |
+| 10 | 170 | PENDING | - | - | - |
+| 11 | 203 | PENDING | - | - | - |
+| 12 | 236 | PENDING | - | - | - |
+| 13 | 269 | PENDING | - | - | - |
+| 14 | 302 | PENDING | - | - | - |
+| 15 | 335 | PENDING | - | - | - |
+| 16 | 368 | PENDING | - | - | - |
+| 17 | 401 | PENDING | - | - | - |
+| 18 | 434 | PENDING | - | - | - |
+| 19 | 467 | PENDING | - | - | - |
+| 20 | 500 | PENDING | - | - | - |
 
 ---
 

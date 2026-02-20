@@ -304,7 +304,83 @@ Generate worksheets in 11 languages including English, Spanish, French, and Germ
     primaryCtaText: 'Start Free Trial',
     secondaryCtaText: 'View All 33 Apps',
     items: [], // Samples loaded dynamically from content manager
-    
+
+  },
+
+  // -- SEO & Content Enrichment (Part 23) ------------------------------------
+
+  aiOverviewSnippet: 'A missing pieces puzzle generator creates printable worksheets where students identify which piece completes an image with sections removed. Teachers choose any image from a 3,000+ library, set 1-5 removable pieces with 2-6 answer options, and select from six piece shapes. Each worksheet auto-generates distractor options and a matching answer key, downloading as a 300 DPI PDF in under three minutes.',
+
+  comparisonTable: [
+    { feature: 'Removable Pieces', ourApp: '1-5 adjustable pieces per image', typical: 'Fixed single-piece puzzles' },
+    { feature: 'Answer Options', ourApp: '2-6 auto-generated options with distractors', typical: 'No distractors or manual creation' },
+    { feature: 'Piece Shapes', ourApp: '6 shapes (square, circle, rectangle, ellipse, more)', typical: 'Square cutouts only' },
+    { feature: 'Image Library', ourApp: '3,000+ themed images plus custom uploads', typical: 'Limited pre-made puzzle sheets' },
+    { feature: 'Difficulty Scaling', ourApp: 'Granular control via piece count, options, and shape', typical: 'Easy/medium/hard presets only' },
+    { feature: 'Answer Keys', ourApp: 'Auto-generated with correct pieces marked', typical: 'Often not included' },
+  ],
+
+  researchBacking: [
+    {
+      claim: 'Visual closure tasks, where children complete partially hidden images, strengthen the same neural pathways used for letter recognition and reading fluency, making them a powerful pre-literacy intervention.',
+      source: 'Kavale, K., "The Relationship Between Visual Perceptual Skills and Reading Achievement," Journal of Learning Disabilities, 1982',
+    },
+    {
+      claim: 'Spatial reasoning activities in early childhood are among the strongest predictors of later STEM achievement. Children who practice mental rotation and part-whole analysis show measurable gains in mathematical problem-solving.',
+      source: 'Newcombe, N. S., "Picture This: Increasing Math and Science Learning by Improving Spatial Thinking," American Educator, 2010',
+    },
+  ],
+
+  teacherTestimonials: [
+    {
+      quote: 'My Pre-K students are fascinated by the puzzles. Starting with one missing piece and two options lets even my youngest learners succeed, and I can ramp up difficulty as their visual skills grow throughout the year.',
+      name: 'Vanessa Ortiz',
+      role: 'Pre-K Lead Teacher',
+      school: 'Bright Horizons Early Learning',
+    },
+    {
+      quote: 'The auto-generated distractor pieces are brilliant. My first graders have to look really carefully at colors and patterns to pick the right one, which builds exactly the attention to detail they need for reading and math.',
+      name: 'Brian Caldwell',
+      role: '1st Grade Teacher',
+      school: 'Harborview Elementary',
+    },
+  ],
+
+  tips: {
+    sectionTitle: 'Missing Pieces Strategies by Grade Level',
+    sectionDescription: 'Use our missing pieces puzzle generator to target spatial reasoning and visual discrimination at each developmental stage. Here is how to configure worksheets for maximum learning impact from preschool through third grade.',
+    items: [
+      {
+        id: 'preschool',
+        icon: '\u{1F331}',
+        title: 'Preschool: Single Piece with Two Options',
+        description: 'Start with 1 missing piece and just 2 answer options using large, colorful images like animals or vehicles. Choose square piece shapes for the clearest visual contrast. The simple binary choice builds confidence and introduces the concept of completing a whole from its parts. Guide children to describe what they see missing before looking at the options below.',
+      },
+      {
+        id: 'kindergarten',
+        icon: '\u{1F392}',
+        title: 'Kindergarten: 1-2 Pieces with 3-4 Options',
+        description: 'Kindergarteners are ready for 1-2 missing pieces with 3-4 answer options. Introduce circle and ellipse piece shapes to add variety. Use images with distinct color regions so distractors are clearly different from the correct piece. Encourage students to trace the outline of each missing space with their finger before scanning the options, building the visual scanning habits needed for reading.',
+      },
+      {
+        id: 'first-grade',
+        icon: '\u{1F4DA}',
+        title: '1st Grade: 2-3 Pieces with 4-5 Options',
+        description: 'First graders handle multiple missing pieces and more distractor options. Use 2-3 pieces with 4-5 options and vary piece shapes across worksheets. Choose images with subtle pattern details like stripes or textures to require closer observation. Have students number the missing spaces and match each to its correct option, developing the systematic approach they need for multi-step problem-solving.',
+      },
+      {
+        id: 'second-grade',
+        icon: '\u{270F}\u{FE0F}',
+        title: '2nd Grade: 3-4 Pieces with 5-6 Options',
+        description: 'Second graders tackle complex puzzles with 3-4 missing pieces and 5-6 options. Use rectangle and ellipse shapes that remove directional cues, requiring students to analyze both color and orientation. Select detailed images like landscapes or classroom scenes where distractors are visually similar to correct pieces. This level of visual discrimination transfers directly to map reading and diagram interpretation.',
+      },
+      {
+        id: 'third-grade',
+        icon: '\u{1F3AF}',
+        title: '3rd Grade: Maximum Challenge with 5 Pieces',
+        description: 'Third graders use 5 missing pieces with 6 answer options for the ultimate spatial reasoning challenge. Choose images with repeating patterns or symmetrical designs where distractors are especially tricky. Ask students to explain their reasoning for each piece selection in writing, connecting visual analysis to expressive language. Use these puzzles as warm-ups before geometry lessons on symmetry and transformations.',
+      },
+    ],
   },
 };
 

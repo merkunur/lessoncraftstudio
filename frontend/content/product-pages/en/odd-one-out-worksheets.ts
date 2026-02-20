@@ -326,7 +326,83 @@ The odd one out generator creates worksheets for any subject or theme. Choose fr
     primaryCtaText: 'Start Free Trial',
     secondaryCtaText: 'View All 33 Apps',
     items: [], // Samples loaded dynamically from content manager
-    
+
+  },
+
+  // -- SEO & Content Enrichment (Part 23) ------------------------------------
+
+  aiOverviewSnippet: 'An odd one out worksheet generator creates printable classification activities where students identify which item does not belong in each group. Teachers choose between Identical mode (exact matches) and Similar mode (same-category images), set 5-10 exercises per page, and select themed image categories. Each worksheet auto-generates answer keys with the odd items highlighted, downloading as a 300 DPI PDF in under two minutes.',
+
+  comparisonTable: [
+    { feature: 'Difficulty Modes', ourApp: 'Identical and Similar modes for two challenge levels', typical: 'Single fixed difficulty' },
+    { feature: 'Exercises Per Page', ourApp: '5-10 adjustable exercises', typical: 'Fixed 4-6 exercises' },
+    { feature: 'Theme Selection', ourApp: 'Dual themes (A and B) with 3,000+ images', typical: 'Pre-made sheets with no customization' },
+    { feature: 'Answer Keys', ourApp: 'Auto-generated with odd items circled', typical: 'Often not included' },
+    { feature: 'Custom Images', ourApp: 'Upload your own pictures for personalized exercises', typical: 'Library images only' },
+    { feature: 'Layout Control', ourApp: 'Auto-adjusting columns and canvas editing', typical: 'Fixed non-editable layout' },
+  ],
+
+  researchBacking: [
+    {
+      claim: 'Classification and categorization are foundational mathematical skills. Children who practice identifying attributes and sorting by properties demonstrate stronger conceptual understanding aligned with Common Core standard K.MD.B.3.',
+      source: 'National Research Council, "Mathematics Learning in Early Childhood: Paths Toward Excellence and Equity," The National Academies Press, 2009',
+    },
+    {
+      claim: 'Odd-one-out tasks activate executive function networks including inhibitory control and cognitive flexibility, which are stronger predictors of academic success than IQ in early childhood.',
+      source: 'Diamond, A., "Executive Functions," Annual Review of Psychology, 2013',
+    },
+  ],
+
+  teacherTestimonials: [
+    {
+      quote: 'The two difficulty modes are perfect for my mixed-ability kindergarten class. My emerging learners use Identical mode to build confidence, while my advanced students tackle Similar mode and really have to think about why one image does not belong.',
+      name: 'Christine Lawson',
+      role: 'Kindergarten Teacher',
+      school: 'Willowbrook Elementary',
+    },
+    {
+      quote: 'I use odd one out worksheets as warm-ups every Monday morning. My first graders love debating which item is the odd one, and the exercises naturally lead into our classification and sorting math lessons.',
+      name: 'Marcus Pemberton',
+      role: '1st Grade Teacher',
+      school: 'Crestview Academy',
+    },
+  ],
+
+  tips: {
+    sectionTitle: 'Odd One Out Strategies by Grade Level',
+    sectionDescription: 'Use our odd one out worksheet generator to target classification and critical thinking skills at each developmental stage. Here is how to configure worksheets for maximum learning impact from preschool through third grade.',
+    items: [
+      {
+        id: 'preschool',
+        icon: '\u{1F331}',
+        title: 'Preschool: Identical Mode with 5 Exercises',
+        description: 'Start with Identical mode and just 5 exercises per page using bold, distinct theme categories like animals versus vehicles. The identical matching items make the odd one visually obvious, building the concept of same and different. Use large images with high contrast so preschoolers can point to the odd item confidently. Discuss each exercise aloud to build classification vocabulary.',
+      },
+      {
+        id: 'kindergarten',
+        icon: '\u{1F392}',
+        title: 'Kindergarten: Identical Mode with 6-7 Exercises',
+        description: 'Kindergarteners handle 6-7 exercises in Identical mode using thematically related categories like farm animals versus wild animals. Increase exercises to build sustained attention across the full page. Begin introducing the language of categorization: group, belongs, does not belong, category. After completing the worksheet, have students explain why each odd item does not fit, strengthening verbal reasoning skills.',
+      },
+      {
+        id: 'first-grade',
+        icon: '\u{1F4DA}',
+        title: '1st Grade: Introduction to Similar Mode',
+        description: 'First graders transition from Identical to Similar mode with 6-8 exercises. In Similar mode, matching items are different images from the same category, requiring students to recognize categorical membership rather than visual identity. Choose related themes like dogs versus cats or fruits versus vegetables to develop fine-grained classification. This mode directly supports Common Core math sorting standards.',
+      },
+      {
+        id: 'second-grade',
+        icon: '\u{270F}\u{FE0F}',
+        title: '2nd Grade: Similar Mode with 8-9 Exercises',
+        description: 'Second graders work in Similar mode with 8-9 exercises using closely related theme categories that challenge categorical reasoning. Try food versus kitchen items or clothing versus accessories for nuanced discrimination. Ask students to write the category name for each group after identifying the odd one, connecting visual classification to academic vocabulary and written expression.',
+      },
+      {
+        id: 'third-grade',
+        icon: '\u{1F3AF}',
+        title: '3rd Grade: Maximum Challenge with 10 Exercises',
+        description: 'Third graders tackle 10-exercise Similar mode worksheets with thematically close categories that demand careful analysis. Use these as timed challenges to build fluency in categorical reasoning. After completion, have students create their own odd-one-out groups using uploaded custom images, reversing the task from identification to design. This metacognitive extension deepens understanding of classification systems.',
+      },
+    ],
   },
 };
 

@@ -143,7 +143,7 @@ export default function GradeEducationalContent({
             <ol className="space-y-3">
               {teachingTips.map((tip, i) => (
                 <li key={i} className="flex gap-3">
-                  <span className="flex-shrink-0 w-7 h-7 rounded-full bg-teal-100 text-teal-700 flex items-center justify-center text-sm font-bold">
+                  <span className="flex-shrink-0 w-8 h-8 rounded-full bg-teal-100 text-teal-700 flex items-center justify-center text-sm font-bold">
                     {i + 1}
                   </span>
                   <p className="text-gray-700 leading-relaxed pt-0.5">{tip}</p>

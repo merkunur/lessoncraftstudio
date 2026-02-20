@@ -75,7 +75,7 @@ export default function ThemeTeachingTips({ tips, locale }: ThemeTeachingTipsPro
                   {getAudienceLabel(tip.audience, locale)}
                 </span>
                 {/* Icon + title */}
-                <div className="flex items-start gap-3 mb-3 pr-20">
+                <div className="flex items-start gap-3 mb-3 pr-16 sm:pr-20">
                   <span className={`flex-shrink-0 w-10 h-10 rounded-lg ${accent.bg} ${accent.text} flex items-center justify-center`}>
                     {tip.icon ? (
                       <span className="text-lg" role="img">{tip.icon}</span>

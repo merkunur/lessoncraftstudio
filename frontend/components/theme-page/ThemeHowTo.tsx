@@ -31,7 +31,7 @@ export default function ThemeHowTo({
         <ol className="space-y-4">
           {steps.map((step, i) => (
             <li key={i} className="flex gap-4">
-              <span className="flex-shrink-0 w-8 h-8 rounded-full bg-teal-100 text-teal-700 flex items-center justify-center text-sm font-bold">
+              <span className="flex-shrink-0 w-9 h-9 rounded-full bg-teal-100 text-teal-700 flex items-center justify-center text-sm font-bold">
                 {i + 1}
               </span>
               <p className="text-gray-700 leading-relaxed pt-1">{step}</p>

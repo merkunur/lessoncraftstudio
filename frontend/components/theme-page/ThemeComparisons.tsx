@@ -48,7 +48,7 @@ export default function ThemeComparisons({
                   key={i}
                   className="bg-white border border-gray-200 rounded-xl p-5 flex items-start gap-4"
                 >
-                  <span className="flex-shrink-0 inline-flex items-center justify-center bg-purple-100 text-purple-700 text-xs font-bold px-2.5 py-1 rounded-full uppercase">
+                  <span className="flex-shrink-0 inline-flex items-center justify-center bg-purple-100 text-purple-700 text-xs font-bold px-3 py-1 rounded-full uppercase">
                     {labelVs[locale] || labelVs.en}
                   </span>
                   <div className="flex-1 min-w-0">

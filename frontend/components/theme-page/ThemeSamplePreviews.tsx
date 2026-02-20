@@ -15,7 +15,7 @@ export default function ThemeSamplePreviews({ images, themeName, locale }: Theme
         <h2 className="text-2xl font-bold text-gray-900 mb-6 text-center">
           {sectionSamplePreviews[locale] || sectionSamplePreviews.en}
         </h2>
-        <div className="grid grid-cols-3 md:grid-cols-4 gap-3">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
           {images.map((src, i) => (
             <div
               key={i}

@@ -334,7 +334,81 @@ All downloads export at professional 300 DPI resolution. This high quality ensur
     primaryCtaText: 'Start Free Trial',
     secondaryCtaText: 'View All 33 Apps',
     items: [], // Samples loaded dynamically from content manager
-    
+
+  },
+
+  aiOverviewSnippet: 'A picture graph worksheet generator creates counting-and-graphing activities where students tally 6 image categories across a 20-image grid, then color boxes on a bar graph to visualize their data. Teachers select themes from a 3,000+ image library, generate worksheets with auto-scored answer keys featuring pre-colored yellow boxes, and download 300 DPI PDFs in under two minutes.',
+
+  comparisonTable: [
+    { feature: 'Data Cycle', ourApp: 'Complete count-then-graph workflow on one worksheet', typical: 'Counting and graphing on separate worksheets' },
+    { feature: 'Image Grid', ourApp: '20-image grid with 6 categories, each appearing 1\u20135 times', typical: 'Fixed counts or pre-filled data tables' },
+    { feature: 'Answer Key', ourApp: 'Auto-generated with pre-colored yellow boxes showing correct counts', typical: 'Manual answer key or none included' },
+    { feature: 'Theme Selection', ourApp: '3,000+ themed images plus custom uploads for 6 categories', typical: 'Limited clipart or generic number charts' },
+    { feature: 'Difficulty Variation', ourApp: 'Natural variation through random 1\u20135 distribution per category', typical: 'Fixed difficulty with no randomization' },
+    { feature: 'Commercial License', ourApp: 'Included for TPT, Etsy, and KDP sales', typical: 'Extra fee or personal use only' },
+  ],
+
+  researchBacking: [
+    {
+      claim: 'Picture graphs make abstract data concepts concrete by letting young children physically count objects and color corresponding boxes, building the complete data literacy cycle \u2014 collect, organize, represent, interpret \u2014 that forms the foundation for statistical reasoning in later grades.',
+      source: 'National Council of Teachers of Mathematics, "Principles and Standards for School Mathematics," NCTM, 2000',
+    },
+    {
+      claim: 'Counting-and-graphing activities that require students to first collect data and then represent it visually develop one-to-one correspondence and cardinality understanding simultaneously, reinforcing both counting accuracy and the concept that numbers represent quantities.',
+      source: 'Clements, D.H. & Sarama, J., "Learning and Teaching Early Math: The Learning Trajectories Approach," Routledge, 2014',
+    },
+  ],
+
+  teacherTestimonials: [
+    {
+      quote: 'The 20-image counting grid makes data tangible for my kindergarteners. They point at each picture, tally on their fingers, and then color the graph boxes with so much pride. The pre-colored answer key is a lifesaver at my math stations \u2014 students flip the page and self-check without waiting for me.',
+      name: 'Hannah Prescott',
+      role: 'Kindergarten Teacher',
+      school: 'Willowbrook Elementary',
+    },
+    {
+      quote: 'I match the image themes to our science and social studies units so graphing never feels like a separate subject. After students finish coloring the bar graph, I ask comparison questions \u2014 how many more butterflies than ladybugs? That single worksheet turns into a 20-minute math discussion every time.',
+      name: 'Daniel Okafor',
+      role: '1st Grade Teacher',
+      school: 'Brightwater Academy',
+    },
+  ],
+
+  tips: {
+    sectionTitle: 'Picture Graph Strategies by Grade Level',
+    sectionDescription: 'Adjust theme complexity and follow-up activities to match each developmental stage. The Chart Count generator produces the same count-then-graph format for every grade, so scaffolding comes from how you frame the task and extend the learning.',
+    items: [
+      {
+        id: 'preschool',
+        icon: '\u{1F331}',
+        title: 'Preschool: Count the Grid Only',
+        description: 'Use animal or food themes with highly distinct images. Focus on the counting grid only \u2014 have students point and count each category before attempting the graph. The visual 20-image grid builds one-to-one correspondence at the concrete level.',
+      },
+      {
+        id: 'kindergarten',
+        icon: '\u{1F392}',
+        title: 'Kindergarten: Count and Graph Together',
+        description: 'Complete both counting and graphing sections. Start with themes where the 6 images are very different visually. Model coloring boxes from the bottom up. Use the answer key for whole-class review on the document camera.',
+      },
+      {
+        id: 'first-grade',
+        icon: '\u{1F4DA}',
+        title: '1st Grade: Add Comparison Questions',
+        description: 'Add comparison questions after graphing \u2014 "Which had the most? How many more X than Y?" Use the worksheet as a springboard for class discussion about data interpretation. Generate multiple worksheets with the same theme for repeated practice.',
+      },
+      {
+        id: 'second-grade',
+        icon: '\u270F\uFE0F',
+        title: '2nd Grade: Write Analysis Questions',
+        description: 'Have students write their own comparison and analysis questions based on their completed graphs. Connect to measurement standards by discussing what the graph shows and what predictions they could make. Pair with tally mark activities.',
+      },
+      {
+        id: 'third-grade',
+        icon: '\u{1F3AF}',
+        title: '3rd Grade: Bridge to Formal Bar Graphs',
+        description: 'Use picture graphs as an introduction to formal bar graphs and data tables. Students recreate their picture graph data as a labeled bar graph with axis titles. Compare picture graph format to bar graph format to build abstract data representation skills.',
+      },
+    ],
   },
 };
 

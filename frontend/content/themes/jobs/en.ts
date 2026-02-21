@@ -207,6 +207,150 @@ const content: EnrichedThemeContent = {
   // -- Cross-linking --
   relatedThemes: ['household', 'cooking', 'construction', 'transportation', 'school', 'farm'],
   relatedBlogCategories: [],
+
+  // -- SEO Enrichment (Part 51) --
+
+  uniqueAngle: 'Jobs is the ONLY theme where the educational content IS social systems thinking \u2014 where every worksheet about matching workers to tools, sorting community helpers by role, tracing supply chains from farmer to baker to store, or counting workplace objects teaches children how their community actually functions as an interconnected network of specialized contributions, building the systems-level understanding that no other theme provides. No other theme delivers this community-as-curriculum framework, because while school teaches about the learning environment and household teaches about the home environment, only jobs reveals the invisible network of human cooperation that makes everything else possible \u2014 showing children that the food on their table, the buildings they enter, and the safety they enjoy all result from dozens of interconnected professionals whose work depends on each other. This interdependence framework is structurally different from all other themes because jobs worksheets simultaneously build two skill dimensions at once \u2014 academic skills like classification, vocabulary, and arithmetic AND social understanding of roles, responsibilities, and cooperation \u2014 without either dimension being supplementary. Jobs is also the ONLY theme where vocabulary acquisition spans every professional domain simultaneously \u2014 where a single unit introduces medical terms from healthcare, engineering terms from construction, culinary terms from cooking, and agricultural terms from farming, creating the broadest cross-domain vocabulary exposure of any theme through the natural diversity of career fields. The career-awareness dimension adds a unique aspirational layer: jobs worksheets expand children\u2019s sense of what is possible by introducing professions they may never have encountered, building growth mindset through the understanding that every job requires learning and practice. The combination of systems-level community understanding, cross-domain vocabulary breadth, and aspirational career awareness makes jobs the most socially foundational and vocabulary-expansive theme across all 50 available.',
+
+  researchCitation: 'Hartung, P. J., Porfeli, E. J. & Vondracek, F. W. (2005). "Child Vocational Development: A Review and Reconsideration." Journal of Vocational Behavior, 66(3), 385\u2013419 \u2014 establishing that early exposure to diverse career roles through structured educational activities significantly broadens children\u2019s occupational aspirations and reduces gender and socioeconomic stereotyping of professions, because children who encounter a wide range of community helpers and professional roles in their formative years develop more flexible career schemas and stronger understanding of how education connects to professional contribution.',
+
+  snippetDefinition: 'Jobs and community helper worksheets for kids are printable educational activities featuring doctors, firefighters, teachers, farmers, chefs, police officers, and other community workers designed to build classification skills, career vocabulary, social studies reasoning, and community awareness for children ages 3 through 9. They include coloring pages for fine motor development, find-and-count for visual scanning in workplace scenes, matching and shadow-matching for worker-tool pairing, picture-sort for career classification, addition with workplace counters, word search and word scramble for career vocabulary, image crossword for spelling and spatial reasoning, odd-one-out for analytical thinking, and picture bingo for recognition fluency.',
+
+  snippetHowTo: [
+    'Start with coloring pages of community helpers in their uniforms and workplaces to build fine motor control and career vocabulary through detailed, engaging illustrations of doctors, firefighters, and teachers children recognize from their communities.',
+    'Progress to matching-app and shadow-match worksheets where children pair workers to their tools and match community helper silhouettes, developing visual discrimination through the distinctive shapes of stethoscopes, fire hoses, and chef hats.',
+    'Introduce classification with picture-sort worksheets where children sort community helpers by workplace, role type, or tools used, building multi-attribute categorical thinking about career organization.',
+    'Advance to vocabulary with word-search and word-scramble puzzles featuring career terms like ambulance, delivery, uniform, and construction, and image-crossword activities that combine spelling with visual reasoning.',
+    'Incorporate arithmetic with image-addition worksheets using workplace-object counters and find-and-count visual scanning activities set in workplace scenes.',
+    'Extend to analytical reasoning with odd-one-out career puzzles and picture-bingo recognition fluency games that develop deductive thinking through career classification contexts.',
+    'Connect to real community helpers through classroom career days, neighborhood observation walks, and family interview projects that verify worksheet concepts through authentic encounters with workers in the community.',
+  ],
+
+  limitations: 'Jobs worksheets\u2019 focus on career classification, community interdependence, and cross-domain vocabulary provides less direct scope for spatial reasoning, geometric concepts, or scientific investigation than themes like furniture, shapes, or nature where positional vocabulary, mathematical properties, and ecological observation drive the activities. The theme\u2019s strength in social systems thinking, career vocabulary breadth, and classification reasoning means it offers less material for measurement, pattern recognition, or creative arts than themes with stronger mathematical, sequential, or artistic dimensions. While community helpers exist everywhere, worksheets featuring specific professions may reflect certain economic or cultural contexts, and teachers should discuss how jobs and career paths vary across communities and cultures.',
+
+  themeComparisons: [
+    {
+      vsThemeId: 'construction',
+      summary: 'Jobs worksheets provide a broad community-helpers theme surveying MANY professions through identification, role-matching, tool-pairing, and community-contribution awareness across diverse career fields. Construction worksheets provide a theme deeply exploring ONE specific profession through its tools, processes, materials, and engineering challenges within detailed construction site activities. Jobs teaches many careers broadly; construction teaches one career deeply.',
+    },
+    {
+      vsThemeId: 'cooking',
+      summary: 'Jobs worksheets provide a comprehensive career exploration theme studying the full range of community roles from healthcare to education to public safety to agriculture. Cooking worksheets provide a kitchen-specific theme studying food preparation, recipe following, and culinary skills within one specialized professional domain. Jobs covers all career fields; cooking focuses deeply on the culinary profession.',
+    },
+    {
+      vsThemeId: 'school',
+      summary: 'Jobs worksheets provide a theme studying the people who make communities function through their specialized roles, tools, and professional contributions across diverse workplaces. School worksheets provide a theme studying the academic environment itself through classroom routines, school supplies, and learning activities. Jobs teaches about who works in the community; school teaches about what happens in the classroom.',
+    },
+    {
+      vsThemeId: 'farm',
+      summary: 'Jobs worksheets provide a broad career awareness theme exploring the full diversity of community professions from doctors to firefighters to mail carriers to engineers. Farm worksheets provide a theme exploring one specific agricultural career through seasonal cycles, animal care, crop production, and rural life. Jobs surveys all professions; farm explores agriculture deeply.',
+    },
+  ],
+
+  productLinks: [
+    {
+      appId: 'image-crossword',
+      anchorText: 'Community helpers crossword worksheets for kids',
+      context: 'Spelling fluency and visual-spatial reasoning develop when children solve career-themed crossword puzzles in our community helpers crossword worksheets for kids, identifying community helper images and spelling their names across intersecting grid positions \u2014 building the orthographic awareness and domain-specific vocabulary that connect word puzzle engagement to the reading fluency and career literacy that academic success requires.',
+    },
+    {
+      appId: 'word-scramble',
+      anchorText: 'Jobs word scramble worksheets printable',
+      context: 'Spelling accuracy and career vocabulary expand when children unscramble job-related words in our jobs word scramble worksheets printable, rearranging letters to form terms like firefighter, ambulance, and construction \u2014 building the orthographic processing and cross-domain vocabulary that connect word puzzle practice to the broad career literacy and reading fluency that language arts standards require.',
+    },
+    {
+      appId: 'picture-sort',
+      anchorText: 'Community helpers sorting worksheets for kindergarten',
+      context: 'Classification reasoning and categorical thinking develop when children sort community helpers by workplace, role type, or tools used in our community helpers sorting worksheets for kindergarten, organizing doctors, firefighters, teachers, and farmers into meaningful career groups \u2014 building the multi-attribute sorting skills and social studies vocabulary that connect structured classification practice to the analytical reasoning and community awareness that academic curricula require.',
+    },
+    {
+      appId: 'shadow-match',
+      anchorText: 'Community helpers shadow matching worksheets for preschool',
+      context: 'Visual discrimination and career recognition develop when children match community helper figures to their silhouettes in our community helpers shadow matching worksheets for preschool, analyzing the distinctive outlines of fire helmets, stethoscopes, and chef hats \u2014 building the figure-ground discrimination and professional symbol recognition that connect silhouette matching to the visual processing and career awareness that early learning requires.',
+    },
+  ],
+
+  classroomScenarios: [
+    {
+      situation: 'A preschool teacher wants to develop fine motor skills and career recognition in her three- and four-year-olds using a theme where the distinctive shapes of professional uniforms and tools provide clear matching targets for children building their first career vocabulary.',
+      solution: 'She introduces coloring pages of community helpers in their uniforms alongside shadow-match worksheets where the distinctive shapes of fire helmets, stethoscopes, and chef hats provide clear matching targets for three-year-old visual discrimination development. Children color community helper illustrations while naming workers and their roles, then match each helper to their shadow. Every worksheet session ends with a dramatic play activity where children act out the role they just learned about using simple props to bridge visual recognition to embodied role understanding.',
+      outcome: 'Visual discrimination accuracy improves significantly over four weeks as children practice matching the distinctive silhouettes of community helpers with their varied professional shapes. Fine motor control develops through coloring the detailed uniforms, tools, and workplace settings of diverse community workers. The teacher reports that the dramatic play extension becomes the most anticipated part of every session, with three children who previously struggled to communicate in sentences beginning to use career vocabulary and role descriptions during pretend play scenarios.',
+    },
+    {
+      situation: 'A kindergarten teacher needs to integrate number sense with categorical thinking and career vocabulary but finds that teaching these as separate subjects produces disconnected learning in her five- and six-year-olds.',
+      solution: 'She pairs find-and-count workplace scene worksheets with picture-sort career classification activities and matching-app worker-tool pairing exercises, creating integrated sessions through a community helpers unit where students count workers and tools in busy workplace illustrations, sort helpers by where they work and what they do, and match each profession to its signature tool while building the classification skills and career vocabulary that social studies standards require.',
+      outcome: 'Counting accuracy in workplace scenes reaches 92 percent as students practice enumeration within engaging community helper contexts. Classification skills strengthen as students sort community helpers by workplace and function within the unit context. Worker-tool matching accuracy improves as the distinctive shapes of professional equipment provide clear visual discrimination targets. The teacher reports that five students begin spontaneously identifying community helpers during field trips and neighborhood walks, naming workers and their tools using vocabulary learned from worksheet activities.',
+    },
+    {
+      situation: 'A first-grade teacher wants to connect spelling fluency, domain-specific vocabulary, and informational writing but finds that teaching these skills through disconnected activities produces surface-level learning in her six- and seven-year-olds.',
+      solution: 'She launches an integrated community helpers literacy unit combining word-scramble career vocabulary puzzles featuring terms like firefighter, ambulance, and construction with image-crossword spelling activities that combine visual reasoning with career vocabulary. She extends the unit with a career research project where students interview a family member about their job and write a four-sentence career profile describing the person\u2019s workplace, tools, daily tasks, and community contribution.',
+      outcome: 'Spelling accuracy for career vocabulary reaches 88 percent as the community helper context motivates sustained practice with challenging multi-syllable professional terms. Image-crossword completion rates increase as students develop visual-spatial reasoning alongside career vocabulary. The family interview career profile assignment produces the most personally engaged informational writing of any literacy unit, and the teacher reports that connecting spelling, vocabulary puzzles, and informational writing through the jobs theme generates authentic engagement because every child brings family career knowledge that makes them feel confident and invested.',
+    },
+  ],
+
+  differentiationStrategies: [
+    {
+      learnerType: 'Visual learners',
+      adaptation: 'Prioritize coloring detailed community helper illustrations with distinctive uniforms, tools, and workplace settings that provide rich visual career information. Use shadow-match worker silhouette activities with high-contrast professional shapes showing the distinctive outlines of fire helmets, stethoscopes, and police badges. Assign find-and-count workplace scene activities with busy illustrated environments that reward careful visual scanning.',
+    },
+    {
+      learnerType: 'Struggling learners',
+      adaptation: 'Begin with four highly recognizable community helpers \u2014 firefighter, doctor, teacher, police officer \u2014 before introducing less visible professions like engineer, librarian, or veterinarian. Reduce matching to single-tool-per-worker before introducing multi-tool career matching. Pair every worksheet with a physical prop or dramatic play activity so children can embody the career role before completing paper-based classification tasks, bridging physical role experience to abstract categorical reasoning.',
+    },
+    {
+      learnerType: 'Advanced learners',
+      adaptation: 'Challenge them with supply chain research projects tracing how multiple workers contribute to a single product from raw materials to finished goods with multi-paragraph analytical writing. Assign career comparison reports analyzing similarities and differences across professions using evidence from multiple sources and organized multi-paragraph argumentative writing. Extend to community planning projects where students determine how many workers of different types a town needs and justify their staffing decisions with mathematical reasoning.',
+    },
+    {
+      learnerType: 'English language learners',
+      adaptation: 'Begin with image-heavy worksheets where fire trucks, doctor coats, chef hats, and police badges are universally recognized professional symbols that transcend language barriers. Coloring, shadow-match, and picture-sort activities communicate through visual professional imagery rather than text, allowing full participation regardless of English proficiency. Basic career words like doctor, teacher, and farmer are among the first occupational nouns taught in any language program because children encounter these roles in every community worldwide, making this theme exceptionally accessible for ELL students building foundational vocabulary.',
+    },
+  ],
+
+  assessmentIdeas: [
+    {
+      method: 'Community helper classification and career awareness assessment',
+      criteria: 'Give students a set of eight community helper illustrations with their tools and a set of five questions. They name each worker, match three workers to their tools with explanation, sort the workers into two workplace categories, identify one way two different workers depend on each other, and write two sentences explaining why a specific community helper is important. Assess using a three-level rubric: emerging (names at least five workers and matches two workers to their tools), proficient (names all workers, matches three workers to tools with reasoning, sorts into two categories, identifies one interdependence connection, and writes two complete sentences about community importance), advanced (names all workers with precise career vocabulary, matches all workers to tools with detailed functional reasoning, sorts into multiple categories with explanation, identifies multiple interdependence connections, and writes insightful sentences connecting community helper roles to broader social systems and cooperation).',
+      gradeLevel: 'K to 2nd',
+    },
+    {
+      method: 'Portfolio collection',
+      criteria: 'Collect one jobs worksheet per week over a four-week unit. Compare early and late samples to document growth in career vocabulary breadth across word puzzle and matching activities, classification sophistication in sorting tasks, arithmetic accuracy in workplace-themed math activities, and informational writing quality in career profile assignments. Look specifically for progression from basic worker identification to analytical career comparison, and from single-attribute sorting to multi-criteria professional classification.',
+      gradeLevel: 'All grades',
+    },
+    {
+      method: 'Observational checklist',
+      criteria: 'While students work on jobs coloring, matching, and classification worksheets, note whether they identify community helpers by pointing without verbal labels (Pre-K), name workers and describe their roles using basic career vocabulary while sorting by workplace with verbal reasoning explanations (K\u20131st), or use sophisticated career vocabulary like profession, specialization, and interdependence in complete sentences while analyzing community systems with multi-step reasoning about career connections and social contribution (2nd\u20133rd). Record whether children transfer career vocabulary and classification skills to real-world contexts like identifying community helpers during neighborhood walks, discussing family members\u2019 jobs, and using career knowledge in social studies and writing assignments.',
+      gradeLevel: 'Pre-K to 3rd',
+    },
+  ],
+
+  crossCurricularLinks: [
+    {
+      subject: 'Science (Tools as Technology and Systems Thinking \u2014 Specialized Equipment Analysis, Professional Interdependence Networks & Classification by Function and Behavior)',
+      connection: 'Understanding that every profession uses specialized tools designed for specific purposes develops the technology-awareness dimension of science standards. Tracing how workers in different fields depend on each other builds systems thinking that mirrors ecological food web analysis. Classifying workers by the type of work they do parallels biological classification by function and behavior, connecting social studies career exploration to the scientific classification and systems reasoning that STEM curricula require.',
+      activity: 'After completing shadow-match worker silhouette and picture-sort career classification worksheets, guide students through a career tools investigation where they examine three professional tools or tool images, identify what each tool is designed to do, discuss which worker uses it and why that specific design is needed, and record their observations in a simple technology journal \u2014 connecting the classification skills from worksheet activities to the engineering design principle that tools are purpose-built technology serving specific professional needs.',
+    },
+    {
+      subject: 'Math (Workplace Arithmetic and Data Reasoning \u2014 Counting Tools and Workers, Addition and Subtraction in Professional Scenarios & Graphing Career Data for Data Literacy)',
+      connection: 'Counting tools and workers builds number sense through career-themed contexts that make enumeration feel purposeful. Addition and subtraction word problems set in workplace scenarios connect operations to authentic professional situations. Comparing quantities across different workplaces develops measurement and comparison reasoning. Graphing career data introduces data literacy through personally interesting professional information that motivates careful data collection and analysis.',
+      activity: 'After completing find-and-count workplace scene and image-addition career-themed worksheets, set up a classroom career data collection activity where students survey classmates about their dream jobs, record results in a tally chart, create a bar graph showing the most popular careers, and write three mathematical comparison sentences about their data \u2014 connecting worksheet counting and arithmetic skills to data collection and graphing through the motivating context of career preferences that every student finds personally interesting.',
+    },
+    {
+      subject: 'Language Arts (Cross-Domain Vocabulary as Literacy Acceleration \u2014 Medical, Construction, Culinary, and Agricultural Terminology, Informational Writing About Careers & Oral Research Through Career Interviews)',
+      connection: 'Career vocabulary spans medical terms like stethoscope and diagnosis, construction terms like blueprint and scaffold, culinary terms like recipe and ingredient, and agricultural terms like harvest and irrigation, creating the broadest vocabulary exposure of any single theme. Informational writing about careers develops organized composition with domain-specific terminology. Career interview projects build oral research skills and informational writing through authentic interpersonal communication that connects spoken language to written academic composition.',
+      activity: 'After completing word-scramble career vocabulary and image-crossword spelling worksheets, guide students through a career interview and writing project where they interview a family member or school staff member about their job using five prepared questions, record the answers, and write an organized career profile paragraph using at least four career vocabulary words from their worksheets \u2014 connecting vocabulary acquisition and spelling fluency to authentic informational writing through the personally meaningful context of real community helpers students know and can question directly.',
+    },
+  ],
+
+  quickStats: [
+    { label: 'Recommended age range', value: '3\u20139 years' },
+    { label: 'Worksheet apps available', value: '11 apps' },
+    { label: 'Primary pedagogical focus', value: 'Community awareness and social studies focus' },
+    { label: 'Skill areas covered', value: '4 categories' },
+    { label: 'Average session length', value: '10\u201320 min' },
+    { label: 'Key topic coverage', value: 'Career vocabulary + community interdependence + tool-role classification' },
+  ],
 };
 
 registerThemeContent('jobs', 'en', content);

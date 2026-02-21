@@ -207,6 +207,150 @@ const content: EnrichedThemeContent = {
   // -- Cross-linking --
   relatedThemes: ['body', 'music', 'pets', 'fairy-tales', 'school'],
   relatedBlogCategories: [],
+
+  // -- SEO Enrichment (Part 49) --
+
+  uniqueAngle: 'Emotions is the ONLY theme where the educational content IS the learner\u2019s own inner experience — where every worksheet about identifying feelings, sorting emotional expressions, or matching scenarios to reactions teaches children to understand the invisible psychological landscape they navigate every moment of every day, creating a uniquely personal and immediately applicable learning context that no other theme can replicate. No other theme provides this self-knowledge-as-curriculum framework, because while body teaches about the physical self and school teaches about the learning environment, only emotions makes the child\u2019s own feelings the subject of academic study, meaning every worksheet answer is simultaneously a moment of self-discovery and self-awareness that builds the emotional intelligence research consistently links to academic success, healthy relationships, and lifelong wellbeing. This dual-purpose architecture is structurally different from all other themes because emotions worksheets simultaneously build two skill sets at once — academic skills like vocabulary, classification, and reading comprehension AND social-emotional competencies like self-awareness, empathy, and self-regulation — without either dimension being supplementary or secondary. Emotions is also the ONLY theme where vocabulary acquisition has immediate behavioral impact — where a child who learns the word frustrated instead of just mad can communicate their needs more precisely to teachers and parents, a child who learns overwhelmed can request help before melting down, and a child who learns grateful can articulate positive feelings that strengthen relationships. The therapeutic dimension adds a unique wellbeing layer: emotions worksheets provide a safe, structured medium for processing feelings that children might not otherwise articulate, making them tools for emotional health as well as academic development. The combination of self-knowledge as curriculum, dual academic-SEL skill building, and therapeutic value makes emotions the most personally transformative and developmentally essential theme across all 50 available.',
+
+  researchCitation: 'Durlak, J. A. et al. (2011). "The Impact of Enhancing Students\u2019 Social and Emotional Learning: A Meta-Analysis of School-Based Universal Interventions." Child Development, 82(1), 405–432 — establishing that structured social-emotional learning activities produce an average 11-percentile-point gain in academic achievement compared to control groups, because children who can identify, understand, and regulate their emotions are better able to focus attention, sustain effort, collaborate with peers, and persist through academic challenges, making emotional competence a foundational prerequisite for cognitive performance.',
+
+  snippetDefinition: 'Emotions worksheets for kids are printable educational activities featuring facial expressions, feeling scenarios, empathy exercises, and self-regulation strategies designed to build emotional vocabulary, social awareness, classification skills, and self-management for children ages 3 through 9. They include coloring and drawing activities for expressive fine motor development, addition with emotion-themed counters, picture sorting for feelings classification, matching and drawing-lines for scenario-emotion pairing, word search and word guess for feelings vocabulary, writing activities for reflective composition, and odd-one-out puzzles for analytical reasoning about emotional patterns.',
+
+  snippetHowTo: [
+    'Start with coloring and draw-and-color pages of expressive faces and emotion scenes to build fine motor control and feelings vocabulary through personally meaningful illustrations children can connect to their own daily emotional experiences.',
+    'Progress to matching-app and drawing-lines worksheets where children pair facial expressions to scenarios and connect feelings to causes, developing perspective-taking through structured emotion-situation reasoning.',
+    'Introduce classification with picture-sort worksheets where children sort emotions into categories like comfortable and uncomfortable or calm and intense, building the categorical thinking that underpins both scientific taxonomy and emotional self-awareness.',
+    'Advance to vocabulary with word-search and word-guess puzzles featuring feelings terms like frustrated, grateful, overwhelmed, and confident.',
+    'Incorporate reflective composition with writing-app activities where children compose sentences about their own emotional experiences, developing both literacy fluency and self-awareness.',
+    'Extend to analytical reasoning with odd-one-out emotion puzzles that develop deductive thinking through identifying which feeling does not belong in a group.',
+    'Connect to real emotions through classroom feelings check-ins, empathy circle discussions, and personal feelings journals that verify worksheet concepts through authentic daily emotional experience.',
+  ],
+
+  limitations: 'Emotions worksheets\u2019 focus on social-emotional learning, feelings identification, and self-regulation provides less direct scope for mathematical operations beyond basic counting, scientific investigation, or geographic exploration than themes like construction, nature, or travel where engineering design, empirical observation, and spatial concepts drive the activities. The theme\u2019s strength in emotional vocabulary, empathy development, and self-awareness means it offers less material for measurement, pattern recognition, or technical vocabulary than themes with richer mathematical or STEM dimensions. While emotions are universal, specific facial expressions and emotional norms may vary across cultures, and teachers should discuss how different communities express and value different emotional states.',
+
+  themeComparisons: [
+    {
+      vsThemeId: 'body',
+      summary: 'Emotions worksheets provide an internal-experience theme studying the psychological self through feelings identification, empathy development, and self-regulation strategies with the emotional mind as the primary subject. Body worksheets provide a physical-anatomy theme studying the biological self through body parts, senses, and health science with the physical body as the primary subject. Emotions teaches what we feel inside; body teaches what we are made of physically.',
+    },
+    {
+      vsThemeId: 'fairy-tales',
+      summary: 'Emotions worksheets provide a self-awareness theme where feelings are studied directly through identification, classification, and regulation activities with real emotional experiences as the subject matter. Fairy tales worksheets provide a narrative theme where feelings emerge indirectly through character journeys, moral dilemmas, and story-based empathy with fictional characters as the emotional vehicles. Emotions teaches feelings explicitly; fairy tales teaches feelings through story.',
+    },
+    {
+      vsThemeId: 'music',
+      summary: 'Emotions worksheets provide a psychological theme studying emotions through naming, sorting, and analyzing feelings with visual facial expressions and written scenarios as the primary medium. Music worksheets provide a performing-arts theme where emotions are expressed and experienced through melody, rhythm, and musical performance with sound as the emotional medium. Emotions teaches feelings through words and images; music teaches feelings through sound.',
+    },
+    {
+      vsThemeId: 'school',
+      summary: 'Emotions worksheets provide a social-emotional theme studying the inner world of feelings, empathy, and self-regulation as the primary learning objective. School worksheets provide an academic-environment theme studying school routines, classroom objects, and learning activities as the primary subject matter. Emotions teaches how children feel at school; school teaches what children do at school.',
+    },
+  ],
+
+  productLinks: [
+    {
+      appId: 'writing-app',
+      anchorText: 'Feelings writing worksheets for kids',
+      context: 'Reflective writing and emotional self-awareness develop simultaneously when children compose sentences about their own feelings in our feelings writing worksheets for kids, describing emotional experiences using precise vocabulary like frustrated, grateful, and overwhelmed — building the personal narrative skills and emotional literacy that connect authentic self-expression to the writing fluency academic curricula require.',
+    },
+    {
+      appId: 'word-guess',
+      anchorText: 'Emotions word guess worksheets printable',
+      context: 'Spelling fluency and feelings vocabulary expand when children decode emotion words letter by letter in our emotions word guess worksheets printable, using phonetic knowledge and contextual clues to reveal terms like disappointed, determined, and compassionate — building the word-attack skills and emotional lexicon that connect vocabulary puzzle excitement to the nuanced feelings language children need for effective social communication.',
+    },
+    {
+      appId: 'drawing-lines',
+      anchorText: 'Feelings matching lines worksheets for kindergarten',
+      context: 'Perspective-taking and cause-and-effect reasoning develop when children draw lines connecting facial expressions to the scenarios that caused them in our feelings matching lines worksheets for kindergarten, analyzing why a character who lost a toy feels sad and why a character who received a gift feels happy — building the empathic reasoning and fine motor coordination that connect structured matching practice to real-world social understanding.',
+    },
+    {
+      appId: 'picture-sort',
+      anchorText: 'Emotions sorting worksheets for preschool',
+      context: 'Categorical thinking and emotional classification skills develop when children sort facial expressions into feeling groups in our emotions sorting worksheets for preschool, organizing happy, sad, angry, and scared faces into distinct categories — building the multi-attribute sorting skills and basic emotional vocabulary that connect structured classification practice to the self-awareness foundation that social-emotional learning programs prioritize.',
+    },
+  ],
+
+  classroomScenarios: [
+    {
+      situation: 'A preschool teacher wants to develop fine motor skills and basic feelings identification in her three- and four-year-olds using a theme where the bold, exaggerated features of illustrated faces provide clear recognition targets for children building their first emotional vocabulary.',
+      solution: 'She introduces coloring pages of expressive emotion faces alongside matching-app worksheets where children pair facial expressions showing happy, sad, angry, and scared. The exaggerated features of the illustrated faces — wide smiles, downturned mouths, raised eyebrows, and squinted eyes — provide unmistakable visual cues for three-year-olds developing shape recognition and emotional awareness simultaneously. Every worksheet session ends with a brief mirror activity where children make each face themselves to connect visual recognition to physical self-awareness.',
+      outcome: 'Basic emotion identification accuracy improves significantly over three weeks as children practice matching the bold, distinctive facial expression illustrations. Fine motor control develops through coloring the curved lines of smiles, the circular shapes of surprised eyes, and the angular features of angry expressions. The mirror activity becomes the most anticipated part of every session, and the teacher reports that four children who previously struggled to communicate frustration begin pointing to the sad or angry face illustrations during actual emotional moments, using the worksheet vocabulary as a communication bridge.',
+    },
+    {
+      situation: 'A kindergarten teacher needs to integrate categorical thinking with cause-and-effect reasoning and arithmetic through a theme that makes classification personally meaningful for five- and six-year-olds navigating increasingly complex social situations.',
+      solution: 'She pairs picture-sort feelings classification worksheets where children sort emotions into comfortable and uncomfortable categories with drawing-lines scenario-emotion connection activities and image-addition emotion counter worksheets. She extends the learning through a classroom feelings check-in routine where students select their morning emotion from a poster, complete related worksheets during center time, and discuss what helped or changed their feeling during afternoon circle.',
+      outcome: 'Feelings classification accuracy reaches 91 percent as students practice sorting emotions into meaningful categories that help them understand their own experiences. Cause-and-effect reasoning improves as drawing-lines activities require students to analyze why specific situations produce specific feelings. The daily feelings check-in becomes the anchor of the classroom routine, and five students begin spontaneously using emotion vocabulary from worksheets during conflict resolution conversations, demonstrating transfer from structured paper activities to authentic social-emotional application.',
+    },
+    {
+      situation: 'A first-grade teacher wants to connect spelling fluency, personal narrative writing, and perspective-taking but finds that teaching these literacy skills through disconnected activities produces surface-level engagement in her six- and seven-year-olds.',
+      solution: 'She launches an integrated social-emotional literacy unit combining word-guess emotion vocabulary puzzles featuring terms like frustrated, determined, and grateful with writing-app reflective composition activities where children write about their own emotional experiences. She extends the unit with a compare-and-contrast discussion about how two characters in a read-aloud felt differently about the same event, connecting vocabulary knowledge to perspective-taking and analytical composition.',
+      outcome: 'Spelling accuracy for emotion vocabulary reaches 90 percent as the personal relevance of feelings words motivates sustained practice and home conversation. Reflective writing quality improves dramatically as students apply precise emotion vocabulary to describe their own experiences instead of relying on generic words like happy and sad. The compare-and-contrast character analysis produces the most thoughtful and empathetic student writing of any unit, and the teacher reports that connecting spelling, personal writing, and perspective-taking through the emotions theme generates authentic engagement because every child is the expert on their own feelings.',
+    },
+  ],
+
+  differentiationStrategies: [
+    {
+      learnerType: 'Visual learners',
+      adaptation: 'Prioritize coloring expressive emotion faces with exaggerated features and body language cues that provide rich visual emotional information. Use picture-sort emotion classification activities with clear facial expression illustrations that make emotional categories visually distinct. Assign drawing-lines scenario-to-feeling connection activities with vivid situation illustrations paired with emotion faces that create strong visual associations between causes and emotional responses.',
+    },
+    {
+      learnerType: 'Struggling learners',
+      adaptation: 'Begin with four basic emotions — happy, sad, angry, scared — before introducing nuanced feelings like frustrated, overwhelmed, and embarrassed that require finer emotional discrimination. Use matching activities with bold facial expression illustrations before progressing to scenario-based emotion reasoning that requires inference from situational context. Pair every worksheet with a physical mirror activity where children practice making each face to connect visual recognition to kinesthetic self-awareness, bridging abstract emotional concepts to tangible physical experience.',
+    },
+    {
+      learnerType: 'Advanced learners',
+      adaptation: 'Challenge them with mixed-emotion analysis projects where students identify situations that trigger two feelings simultaneously and write paragraphs explaining how both can be true at once. Assign empathy interview projects where students ask family members about their emotional experiences and write comparative reflection essays analyzing similarities and differences. Extend to emotion regulation strategy evaluation reports analyzing which coping techniques work best for different types of feelings with evidence from multiple sources and organized multi-paragraph argumentation.',
+    },
+    {
+      learnerType: 'English language learners',
+      adaptation: 'Begin with image-heavy worksheets where facial expressions are the most universally understood human communication system and transcend all language barriers. Coloring emotion faces, matching expressions, and sorting feeling illustrations communicate through visual human expression rather than text, allowing full participation regardless of English proficiency. Basic emotion words like happy, sad, and angry are among the first English words taught in any language program because children need these terms for essential daily social communication, making this theme exceptionally accessible for ELL students building foundational vocabulary.',
+    },
+  ],
+
+  assessmentIdeas: [
+    {
+      method: 'Emotions identification and empathy assessment',
+      criteria: 'Give students a set of six scenario cards describing common childhood situations and a feelings word bank with twelve emotion options. They select the best emotion for each scenario, explain why a character might feel that way in one sentence, and write two sentences about a time they felt one of those emotions themselves. Assess using a three-level rubric: emerging (correctly identifies at least three emotions and writes one sentence about personal experience), proficient (correctly identifies five or more emotions with brief reasoning for each, and writes two complete sentences about personal emotional experience using vocabulary from the word bank), advanced (correctly identifies all six emotions with detailed perspective-taking reasoning, writes reflective sentences connecting personal experience to the scenarios using precise emotional vocabulary, and suggests a coping strategy for one challenging emotion).',
+      gradeLevel: 'K to 2nd',
+    },
+    {
+      method: 'Portfolio collection',
+      criteria: 'Collect one emotions worksheet per week over a four-week unit. Compare early and late samples to document growth in emotion identification accuracy across facial expression and scenario-based activities, feelings vocabulary breadth in word puzzles and writing tasks, classification sophistication in sorting activities, and reflective writing quality in composition exercises. Look specifically for progression from identifying basic emotions to recognizing nuanced feelings, and from simple labeling to analytical reasoning about emotional causes and coping strategies.',
+      gradeLevel: 'All grades',
+    },
+    {
+      method: 'Observational checklist',
+      criteria: 'While students work on emotions coloring, matching, and vocabulary worksheets, note whether they identify emotion faces by pointing without verbal labels (Pre-K), name feelings while sorting and matching emotion illustrations with verbal explanations of why characters feel specific emotions (K–1st), or use sophisticated emotional vocabulary like overwhelmed, determined, and compassionate in complete sentences while analyzing scenarios with multi-step perspective-taking and suggesting coping strategies (2nd–3rd). Record whether children transfer emotion identification and vocabulary skills to real-world contexts like classroom conflict resolution, feelings check-ins, and empathetic peer interactions.',
+      gradeLevel: 'Pre-K to 3rd',
+    },
+  ],
+
+  crossCurricularLinks: [
+    {
+      subject: 'Science (Psychology and Brain Science — How the Brain Produces Emotions, Amygdala and Prefrontal Cortex Functions & Physical-Emotional Health Connections)',
+      connection: 'Emotions worksheets connect to science through introductory psychology and brain science. Understanding that emotions are produced by the brain and serve survival functions, that the amygdala processes threat-related emotions while the prefrontal cortex enables regulation, and that physical states like hunger and tiredness affect emotional responses gives children a scientific framework for understanding their inner world. Health science connects through the relationship between emotional wellbeing and physical health.',
+      activity: 'After completing matching-app facial expression and picture-sort emotion classification worksheets, guide students through a simple brain science lesson where they learn that the amygdala is like an alarm bell that triggers strong emotions and the prefrontal cortex is like a wise helper that helps us think before we act — then create a poster showing how deep breathing helps the wise helper calm the alarm bell, connecting worksheet emotion knowledge to basic neuroscience through age-appropriate metaphor.',
+    },
+    {
+      subject: 'Math (Data Collection and Analysis with Emotional Content — Feelings Surveys, Tally Charts, Bar Graphs & Frequency Comparison Across Days)',
+      connection: 'Emotions worksheets develop mathematical skills uniquely because emotional data is personally meaningful. Surveying classmates about feelings builds data literacy through authentic social research. Creating tally charts and bar graphs of emotion check-in results develops graphing skills with data children genuinely care about. Comparing frequencies of different emotions across days introduces statistical thinking through patterns in their own emotional lives. Counting emotion-themed objects provides arithmetic practice within personally meaningful contexts that sustain engagement.',
+      activity: 'After completing image-addition emotion counting and drawing-lines scenario-emotion worksheets, launch a week-long class feelings survey where students record their morning emotion each day on a class tally chart, create individual bar graphs showing their emotional patterns across five days, and write three sentences analyzing what they notice about when certain emotions appear most often — connecting worksheet emotion vocabulary to authentic data collection, graphing, and analytical writing.',
+    },
+    {
+      subject: 'Language Arts (Emotional Vocabulary as Literacy Acceleration — Precise Feeling Words for Descriptive Writing, Character Emotion Analysis for Reading Comprehension & Reflective Journals for Personal Narrative)',
+      connection: 'Emotions worksheets build language arts skills uniquely because emotional vocabulary is the foundation of both effective writing and deep reading comprehension. Learning precise feeling words like frustrated, overwhelmed, grateful, and determined develops the nuanced descriptive vocabulary that strong writing requires. Reading comprehension through character emotion analysis develops inference and perspective-taking skills that unlock deeper meaning in literature. Reflective writing through feelings journals builds personal narrative skill with authentic purpose and genuine voice that generic prompts cannot replicate.',
+      activity: 'After completing word-search and word-guess feelings vocabulary worksheets, guide students through a character emotion analysis of a class read-aloud where they identify three emotions a character experienced, use their worksheet vocabulary to describe each feeling precisely, and write a reflective paragraph comparing one of the character\u2019s emotions to a time they felt similarly — connecting vocabulary acquisition to literary analysis and personal narrative writing through the emotionally engaging context of story characters and self-reflection.',
+    },
+  ],
+
+  quickStats: [
+    { label: 'Recommended age range', value: '3–9 years' },
+    { label: 'Worksheet apps available', value: '10 apps' },
+    { label: 'Primary pedagogical focus', value: 'Social-emotional learning focus' },
+    { label: 'Skill areas covered', value: '4 categories' },
+    { label: 'Average session length', value: '10–20 min' },
+    { label: 'Key topic coverage', value: 'Emotional vocabulary + feelings classification + empathy and self-regulation' },
+  ],
 };
 
 registerThemeContent('emotions', 'en', content);

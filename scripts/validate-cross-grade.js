@@ -221,9 +221,10 @@ function checkKeywordOverlap(source, theme) {
 
   // Theme-generic words expected to appear in many grades
   const themeGenericWords = new Set([
-    theme, `${theme}s`, 'worksheets', 'worksheet', 'printable', 'free', 'grade',
+    theme, `${theme}s`, theme.replace(/s$/, ''), 'worksheets', 'worksheet', 'printable', 'free', 'grade',
     'pages', 'activities', 'activity', 'ages', 'kids', 'children',
-    'animal', 'animals', 'pet', 'pets', 'preschool', 'kindergarten'
+    'animal', 'animals', 'pet', 'pets', 'preschool', 'kindergarten',
+    'classification', 'comparison', 'writing'
   ]);
 
   for (const [word, grades] of Object.entries(wordGradeCount)) {

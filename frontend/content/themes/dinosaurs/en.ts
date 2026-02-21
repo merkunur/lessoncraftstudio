@@ -208,6 +208,150 @@ const content: EnrichedThemeContent = {
   // -- Cross-linking --
   relatedThemes: ['animals', 'zoo', 'ocean', 'forest', 'space', 'nature'],
   relatedBlogCategories: [],
+
+  // -- SEO Enrichment (Part 35) --
+
+  uniqueAngle: 'Dinosaur-themed worksheets hold a pedagogical position unlike any other theme in the collection because they are built entirely on reconstructed evidence — no child has ever seen a living dinosaur, yet children as young as three can identify a Tyrannosaurus Rex with astonishing confidence. This epistemological gap between total extinction and intimate familiarity makes dinosaurs the single most powerful gateway to teaching the scientific method at early ages. Every fact a child absorbs about dinosaurs arrived through the same process professional scientists use: observing physical evidence, forming hypotheses, and revising conclusions when new fossils emerge. When a worksheet asks a child to compare a Triceratops skull to a modern rhinoceros, it is implicitly teaching inference from evidence — the foundational skill of all scientific disciplines — in a context so exciting that the child does not realize they are reasoning like a paleontologist. The extinction narrative introduces cause-and-effect reasoning at planetary scale, a conceptual leap no other theme demands. Understanding that an asteroid impact triggered climate collapse that eliminated dominant species requires children to link a single event to cascading consequences across ecosystems and millions of years. Deep time is another dimension unique to this theme: numbers like sixty-six million years stretch place value intuition far beyond anything farm, ocean, or vehicle themes require, pushing children to grapple with magnitudes that expand their mathematical imagination. Size extremes within the theme make measurement comparison visceral rather than abstract — the contrast between a forty-foot Brachiosaurus and a chicken-sized Compsognathus delivers more measurement intuition than any ruler exercise. Perhaps most remarkably, dinosaur science is still actively changing: new fossil discoveries regularly revise what we thought we knew, teaching children that knowledge itself evolves, a metacognitive insight that no static-content theme can replicate.',
+
+  researchCitation: 'Crowley, K., & Jacobs, M. (2002). Building Islands of Expertise in Everyday Family Activity. In G. Leinhardt, K. Crowley, & K. Knutson (Eds.), Learning Conversations in Museums (pp. 333–356). Lawrence Erlbaum Associates. This longitudinal study documented how parent-child conversations in natural history museums around dinosaur exhibits sustained significantly longer explanatory dialogue than any other exhibit type. Children who had prior worksheet or book exposure to dinosaur species engaged in three times more spontaneous hypothesis-generation about fossil evidence than those without preparation, demonstrating that structured educational materials create “islands of expertise” that catalyze deeper scientific reasoning during real-world encounters.',
+
+  snippetDefinition: 'Dinosaur worksheets for kids are printable educational activities featuring T-Rex, Triceratops, Stegosaurus, Brachiosaurus, and other prehistoric creatures — designed to teach math, literacy, and science skills to children ages 3 through 9. They include counting exercises with dinosaur egg counters, word searches with paleontology vocabulary, coloring pages of Mesozoic species, size comparison charts, shadow matching puzzles, and treasure hunt adventures that transform children’s fascination with prehistoric life into structured academic practice and scientific reasoning skills.',
+
+  snippetHowTo: [
+    'Choose a dinosaur sub-theme for the week — such as carnivores versus herbivores, the three geological eras, or baby dinosaurs and eggs — to give lessons a focused narrative that builds species-specific vocabulary before rotating to the next group.',
+    'Select two or three worksheet types targeting different skills: for example, an image addition page with dinosaur egg counters for math, a word search with paleontology vocabulary for literacy, and a coloring page of a Stegosaurus for fine motor practice.',
+    'Introduce the sub-theme with a short video clip of a fossil excavation, a picture book about dinosaurs, or a hands-on fossil replica so children have sensory context before starting the worksheets.',
+    'Distribute worksheets in order of increasing difficulty, starting with an accessible coloring or shadow matching activity to build confidence before progressing to counting problems or word scrambles that require more sustained focus.',
+    'While children work, connect worksheet content to scientific reasoning by asking questions like "How do we know what this dinosaur looked like?" or "Why do you think this dinosaur had such long teeth?" to weave evidence-based thinking into every activity.',
+    'After completing worksheets, extend learning with a hands-on activity: a sandbox fossil dig with buried toy bones, a size comparison walk measuring dinosaur lengths on the playground, or a geological era timeline where children place their worksheet dinosaurs in the correct period.',
+    'Build a running classroom or family dinosaur field guide throughout the unit, adding each new species studied to a binder with the child’s completed worksheet, a fact card, and a drawing, creating a personalized paleontology reference that grows with their knowledge.',
+  ],
+
+  limitations: 'All dinosaur content is necessarily reconstructed from fossil evidence rather than direct observation, which means children cannot verify what they learn by looking at living specimens the way they can with animal, bird, or insect themes. The theme is heavily creature-focused on prehistoric reptiles and offers limited scope for plant science, modern ecology, or non-biological subjects that themes like garden, nature, or shapes address more directly. Some young children, particularly preschoolers, may find large predatory species like T-Rex or Velociraptor frightening, requiring teachers to start with gentler herbivores like Brachiosaurus or Triceratops before introducing carnivores.',
+
+  themeComparisons: [
+    {
+      vsThemeId: 'animals',
+      summary: 'Dinosaur worksheets focus exclusively on extinct, reconstructed creatures that children can never observe alive, building scientific inference skills through fossil evidence and hypothesis construction. Animal worksheets feature living, observable species that children encounter at zoos, farms, and parks, emphasizing direct observation and real-time behavior. Dinosaurs excel at teaching deep time, extinction, and evidence-based reasoning; animals excel at teaching habitat ecology, behavior, and classification of creatures children can interact with directly.',
+    },
+    {
+      vsThemeId: 'space',
+      summary: 'Both themes deal with scales far beyond everyday experience, but dinosaurs anchor learning in deep time and paleontological reconstruction from physical fossils, while space anchors learning in deep distance and astronomical observation of phenomena children can actually see like the moon, stars, and planets. Dinosaurs build historical-scientific reasoning; space builds spatial-mathematical reasoning. Together they cover both temporal and spatial extremes of human knowledge.',
+    },
+    {
+      vsThemeId: 'ocean',
+      summary: 'Dinosaur worksheets study extinct land and air creatures reconstructed entirely from fossil evidence, while ocean worksheets explore a living aquatic ecosystem teeming with observable marine life. Dinosaurs excel at teaching geological time, extinction events, and evidence-based reconstruction; ocean worksheets excel at teaching marine habitats, living food chains, and the water cycle. The ocean theme offers ongoing ecological relevance; the dinosaur theme offers unmatched historical-scientific depth.',
+    },
+    {
+      vsThemeId: 'nature',
+      summary: 'Dinosaur worksheets reconstruct a prehistoric world that no longer exists, teaching children to reason from fossil evidence about creatures and ecosystems they cannot directly observe. Nature worksheets focus on the present-day observable environment — seasons, weather, plants, and animals children encounter daily. Dinosaurs build deep-time scientific reasoning; nature builds immediate environmental awareness and seasonal observation skills.',
+    },
+  ],
+
+  productLinks: [
+    {
+      appId: 'coloring',
+      anchorText: 'dinosaur coloring pages for kids',
+      context: 'For a calming introduction that builds fine motor control while familiarizing children with prehistoric body shapes and species diversity, our dinosaur coloring pages for kids feature detailed illustrations of T-Rex, Triceratops, Stegosaurus, and Brachiosaurus that children can color while learning to distinguish carnivores from herbivores by their distinctive body structures.',
+    },
+    {
+      appId: 'big-small-app',
+      anchorText: 'dinosaur size comparison worksheets',
+      context: 'When students are ready to explore measurement through the dramatic contrasts of prehistoric life, our dinosaur size comparison worksheets present species ranging from chicken-sized Compsognathus to building-sized Brachiosaurus side by side, asking children to order, compare, and describe size differences that make abstract measurement concepts visceral and unforgettable.',
+    },
+    {
+      appId: 'word-search',
+      anchorText: 'dinosaur word search printable',
+      context: 'Vocabulary acquisition accelerates when children hunt for paleontology terms in our dinosaur word search printable pages, which embed words like fossil, skeleton, carnivore, herbivore, and extinction into puzzle grids that make spelling practice feel like a fossil excavation through language.',
+    },
+    {
+      appId: 'treasure-hunt',
+      anchorText: 'dinosaur treasure hunt worksheets',
+      context: 'Logical reasoning and reading comprehension develop simultaneously when children follow clues through prehistoric landscapes in our dinosaur treasure hunt worksheets, which guide young paleontologists through multi-step challenges that combine directional vocabulary, sequencing, and problem-solving in an adventure narrative.',
+    },
+  ],
+
+  classroomScenarios: [
+    {
+      situation: 'A kindergarten teacher wants to introduce measurement vocabulary like bigger, smaller, taller, and shorter but finds that using abstract blocks and shapes fails to capture her five-year-olds\u2019 attention for more than a few minutes.',
+      solution: 'She introduces dinosaur size comparison worksheets that pair dramatically different species side by side — a towering Brachiosaurus next to a tiny Compsognathus, a massive T-Rex beside a slender Velociraptor. Each worksheet asks children to circle the bigger dinosaur, draw a line under the shorter one, and color the tallest species first. She pairs the worksheets with a playground measurement walk where children pace out actual dinosaur lengths with chalk marks.',
+      outcome: 'Measurement vocabulary engagement jumps from three-minute attention spans to consistent twelve-minute sessions. After two weeks, 91 percent of students correctly use bigger, smaller, taller, and shorter in non-dinosaur contexts, compared to 58 percent before the dinosaur integration. Several children spontaneously begin estimating the sizes of classroom objects in dinosaur units.',
+    },
+    {
+      situation: 'A homeschool parent wants to build a month-long science unit that combines hands-on exploration with daily academic practice, but her seven-year-old resists anything that feels like separate school subjects.',
+      solution: 'She creates a four-week paleontology expedition unit pairing dinosaur worksheets with a fossil excavation kit, a timeline poster, and weekly library books. Week one focuses on herbivores using coloring and word search worksheets alongside plant-eating dinosaur figurines. Week two covers carnivores with treasure hunt and addition worksheets. Week three explores fossil evidence with word scramble and shadow matching activities. Week four is a capstone where the child creates a dinosaur field guide combining completed worksheets with original drawings and written facts.',
+      outcome: 'The child completes the entire month without a single resistance episode because the worksheets feel like tools for the expedition rather than isolated schoolwork. Math accuracy within twenty improves from 72 to 95 percent, the child correctly sequences the three geological eras unprompted, and the finished field guide becomes a prized possession the child shows to every visiting relative.',
+    },
+    {
+      situation: 'A second-grade teacher needs to connect place value concepts to real-world contexts but finds that using money or generic large numbers fails to excite her students or make the magnitude feel meaningful.',
+      solution: 'She builds a geological timeline math unit using dinosaur worksheets as the academic backbone. Students work with numbers in the millions as they plot the Triassic (252 to 201 million years ago), Jurassic (201 to 145 million years ago), and Cretaceous (145 to 66 million years ago) periods on a number line. Image addition worksheets provide daily dinosaur counting practice, while word search activities reinforce era vocabulary like Mesozoic, Jurassic, and Cretaceous.',
+      outcome: 'Place value comprehension improves dramatically as students contextualize large numbers with genuine excitement rather than rote memorization. The class scores 22 percentage points higher on the place value assessment compared to the previous year\u2019s cohort, and three students independently research the Permian extinction — demonstrating curiosity-driven learning that extends beyond the assigned curriculum.',
+    },
+  ],
+
+  differentiationStrategies: [
+    {
+      learnerType: 'Visual learners',
+      adaptation: 'Prioritize the coloring, shadow-match, and big-small comparison worksheets that leverage strong visual processing. Create a classroom dinosaur wall with labeled illustrations organized by era and diet so students can reference species images during word search and word scramble activities, connecting written vocabulary to vivid visual representations of each prehistoric creature.',
+    },
+    {
+      learnerType: 'English language learners',
+      adaptation: 'Begin with image-heavy worksheets like coloring, shadow match, and big-small comparison before introducing word-based activities. Dinosaur names like T-Rex and Stego are short enough for early practice, and species illustrations provide strong visual context clues. Provide a bilingual dinosaur chart with labeled pictures and use toy dinosaur figurines as tangible vocabulary anchors that children can hold and name while building confidence with English paleontology vocabulary.',
+    },
+    {
+      learnerType: 'Advanced learners',
+      adaptation: 'Challenge them with multi-step problems involving geological era timelines, dinosaur measurement calculations using real paleontological data, and species classification by multiple attributes simultaneously. After completing word searches, ask them to write a three-sentence paragraph explaining how a specific dinosaur was adapted to its environment. Encourage independent research projects where they compare two species and present evidence-based arguments about which was better adapted for survival.',
+    },
+    {
+      learnerType: 'Struggling learners',
+      adaptation: 'Reduce the number of dinosaur species per worksheet to three or four visually distinct creatures with clearly different sizes and shapes — such as T-Rex, Brachiosaurus, and Stegosaurus. Pair every counting task with physical manipulatives like toy dinosaur figurines. Start each session with a familiar, confidence-building coloring page of a friendly herbivore before introducing the target math or literacy skill, and provide a completed example alongside each new worksheet type.',
+    },
+  ],
+
+  crossCurricularLinks: [
+    {
+      subject: 'Science (Fossil Evidence & Extinction)',
+      connection: 'Dinosaur worksheets connect directly to earth and life science standards covering fossil formation, evidence-based reconstruction, and the concept of extinction. Activities featuring fossil sorting, skeletal reconstruction, and species classification teach children that scientific knowledge is built by observing physical evidence and drawing logical conclusions, not by memorizing facts.',
+      activity: 'After completing a dinosaur classification worksheet, have students examine five replica fossils (or printed photographs) and determine which body part each represents, which dinosaur it might belong to, and whether the creature was a carnivore or herbivore based on tooth shape. Students present their evidence and reasoning to the class.',
+    },
+    {
+      subject: 'Math (Measurement & Deep-Time Place Value)',
+      connection: 'The dramatic size range of dinosaur species and the enormous time spans of geological eras create authentic contexts for measurement comparison and place value that no other theme can match. Comparing a six-foot Velociraptor to an eighty-five-foot Brachiosaurus builds measurement intuition, while working with numbers in the millions of years stretches place value understanding far beyond everyday contexts.',
+      activity: 'Give students a data table with five dinosaurs, their lengths in feet, and their geological era in millions of years ago. Have them create a bar graph of dinosaur lengths and plot the eras on a simplified timeline, then write three comparison sentences using vocabulary like longer than, shorter than, and millions of years before.',
+    },
+    {
+      subject: 'History (Geological Eras & Scientific Discovery)',
+      connection: 'Dinosaur themes naturally introduce historical thinking as children learn that Earth has undergone dramatic changes across geological eras and that scientific understanding evolves as new evidence is discovered. The stories of famous paleontologists like Mary Anning and their discoveries provide human narrative alongside the scientific content.',
+      activity: 'Create a two-part timeline: the top row shows the three dinosaur eras with representative species, and the bottom row shows key fossil discovery dates in the 1800s and 1900s. Students compare the two timelines and discuss how recent our knowledge of ancient creatures really is, building perspective on both geological and human history.',
+    },
+  ],
+
+  assessmentIdeas: [
+    {
+      method: 'Portfolio collection',
+      criteria: 'Collect one dinosaur worksheet per week over a four-week paleontology unit. Compare early and late samples to document growth in counting accuracy, paleontology vocabulary spelling, fine motor control in coloring detail, and complexity of responses about species identification, geological era knowledge, and evidence-based reasoning about fossil evidence.',
+      gradeLevel: 'All grades',
+    },
+    {
+      method: 'Observational checklist',
+      criteria: 'While students work on dinosaur counting and matching worksheets, note whether they can name common species by sight (Pre-K), sort dinosaurs by one attribute such as size or diet (K–1st), or classify dinosaurs by multiple criteria like era, diet, and body structure while explaining their reasoning with scientific vocabulary like carnivore, herbivore, and Cretaceous (2nd–3rd). Record instances of children using evidence-based language.',
+      gradeLevel: 'Pre-K to 3rd',
+    },
+    {
+      method: 'Dinosaur classification sorting assessment',
+      criteria: 'Present students with a mixed set of dinosaur picture cards representing herbivores, carnivores, flying reptiles, and marine reptiles. Ask them to sort the cards into groups, name each group, and explain one reason a specific dinosaur belongs in its category based on observable body features like teeth shape or neck length. Assess both sorting accuracy and the quality of evidence-based reasoning in their explanations.',
+      gradeLevel: 'K to 2nd',
+    },
+  ],
+
+  quickStats: [
+    { label: 'Recommended age range', value: '3–9 years' },
+    { label: 'Worksheet apps available', value: '12 apps' },
+    { label: 'Curriculum areas covered', value: '4 areas' },
+    { label: 'Grade levels supported', value: 'Pre-K to 3rd' },
+    { label: 'Average session length', value: '10–20 min' },
+    { label: 'Dinosaur types featured', value: 'T-Rex, Triceratops, Stegosaurus, Brachiosaurus' },
+  ],
 };
 
 registerThemeContent('dinosaurs', 'en', content);

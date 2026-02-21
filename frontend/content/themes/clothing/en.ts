@@ -208,6 +208,150 @@ const content: EnrichedThemeContent = {
   // -- Cross-linking --
   relatedThemes: ['body', 'seasons', 'colors', 'household', 'weather', 'toys'],
   relatedBlogCategories: [],
+
+  // -- SEO Enrichment (Part 48) --
+
+  uniqueAngle: 'Clothing is the ONLY theme where the educational content IS the daily decision every child makes before leaving the house — where choosing what to wear requires the exact attribute-based reasoning, seasonal logic, size comparison, and pattern recognition that worksheets practice, creating a zero-gap between classroom learning and real-life application that no other theme can match. No other theme provides this frequency of real-world practice: a child who sorts garments by season on a worksheet makes that identical decision every single morning, a child who orders items by size on paper encounters that same comparison every time they outgrow a shirt, and a child who identifies patterns on illustrated fabrics sees those patterns on their own clothing all day long. This daily-decision framework makes clothing worksheets the most immediately and repeatedly transferable academic theme available, because the skills practiced on paper are exercised in real life not once or occasionally but literally every day. Clothing is also the ONLY theme that teaches multi-attribute classification as its core academic skill rather than as a supplementary benefit — where every garment IS a multi-dimensional object that simultaneously has a color, size, type, material, season, and pattern, making clothing sorting worksheets the purest and most natural vehicle for developing the flexible categorical thinking that underpins both mathematical classification and scientific taxonomy. The practical life-skills dimension adds a unique independence-building layer: clothing worksheets directly prepare children to dress themselves appropriately, understand weather-wardrobe relationships, and make autonomous personal choices that build self-confidence and self-care competence. The combination of daily-decision transferability, multi-attribute classification as core content, and practical independence-building makes clothing the most routinely applicable and cognitively foundational theme across all 50 available.',
+
+  researchCitation: 'Inhelder, B. & Piaget, J. (1964). "The Early Growth of Logic in the Child: Classification and Seriation." Routledge — establishing that multi-attribute classification and seriation (ordering by size) are foundational cognitive operations that children develop through repeated practice with concrete, personally meaningful objects, and that materials which children can relate to their own daily experience produce significantly stronger classification skills than abstract sorting tasks, because the personal relevance creates motivational engagement that sustains the extended practice classification mastery requires.',
+
+  snippetDefinition: 'Clothing worksheets for kids are printable educational activities featuring shirts, pants, shoes, hats, coats, and seasonal outfits designed to build classification skills, size comparison, pattern recognition, and wardrobe vocabulary for children ages 3 through 9. They include coloring and drawing activities for fine motor development, addition with button and garment counters, seasonal outfit sorting for classification, shadow matching and size ordering for visual discrimination, word search for clothing vocabulary, pattern sequences on illustrated fabrics for algebraic thinking, and odd-one-out puzzles for analytical reasoning.',
+
+  snippetHowTo: [
+    'Start with coloring and draw-and-color pages of outfits, hats, and fashion designs to build fine motor control and clothing vocabulary through familiar, personally relevant wardrobe illustrations.',
+    'Progress to matching-app and shadow-match worksheets where children pair identical garments and match clothing silhouettes, developing visual discrimination through the diverse shapes of shoes, hats, and coats.',
+    'Introduce classification with picture-sort worksheets where children sort clothing by season, type, or weather-appropriateness, building the multi-attribute categorical thinking that underpins scientific taxonomy.',
+    'Advance to measurement with big-small-app size ordering activities where children arrange garments from smallest to largest, developing seriation and comparative vocabulary.',
+    'Incorporate arithmetic with image-addition worksheets using button, sock, and garment counters that connect math operations to practical clothing contexts.',
+    'Extend to pattern recognition with pattern-train activities featuring fabric design sequences and odd-one-out analytical puzzles that develop algebraic thinking through textile design contexts.',
+    'Connect to real clothing through daily outfit selection, laundry sorting activities, and seasonal wardrobe organization that verify worksheet concepts through immediate personal experience.',
+  ],
+
+  limitations: 'Clothing worksheets\u2019 focus on attribute-based sorting, seasonal reasoning, and size comparison provides less direct scope for narrative storytelling, scientific investigation beyond classification, or geographic exploration than themes like fairy tales, nature, or travel where plot development, empirical observation, and spatial concepts drive the activities. The theme\u2019s strength in multi-attribute classification, pattern recognition, and practical life skills means it offers less material for extended creative writing, emotional exploration, or engineering design than themes with richer narrative, interpersonal, or mechanical dimensions. While clothing is universally familiar, worksheets featuring specific styles may not reflect all cultural dress traditions, and teachers should supplement with diverse examples.',
+
+  themeComparisons: [
+    {
+      vsThemeId: 'body',
+      summary: 'Clothing worksheets provide a theme studying what covers the body through seasonal sorting, material classification, and cultural dress comparison with garments as the primary subject. Body worksheets provide a theme studying the body itself through anatomy, senses, and health science with the physical self as the primary subject. Clothing teaches what goes on top; body teaches what is underneath.',
+    },
+    {
+      vsThemeId: 'seasons',
+      summary: 'Clothing worksheets provide a practical-application theme where seasonal knowledge determines wardrobe choices through weather-based sorting and outfit planning throughout the year. Seasons worksheets provide a science-observation theme studying seasonal changes in nature, weather patterns, and environmental cycles through scientific vocabulary and calendar concepts. Clothing teaches seasons through practical dressing decisions; seasons teaches seasons through environmental science.',
+    },
+    {
+      vsThemeId: 'colors',
+      summary: 'Clothing worksheets provide a multi-attribute theme where color is ONE of several classification dimensions alongside size, type, season, and material within a practical wardrobe sorting framework. Colors worksheets provide a focused visual-perception theme studying color identification, mixing, and matching as the primary learning objective. Clothing uses color as one sorting attribute among many; colors teaches color as the core subject.',
+    },
+    {
+      vsThemeId: 'weather',
+      summary: 'Clothing worksheets provide a practical-response theme studying what people wear in different conditions through wardrobe sorting and outfit selection decisions. Weather worksheets provide a scientific-observation theme studying meteorological phenomena, temperature, precipitation, and climate through measurement and data collection. Clothing teaches how we respond to weather; weather teaches what weather is.',
+    },
+  ],
+
+  productLinks: [
+    {
+      appId: 'picture-sort',
+      anchorText: 'Clothing sorting worksheets for kids',
+      context: 'Multi-attribute classification skills develop when children sort garments by season, type, and weather-appropriateness in our clothing sorting worksheets for kids, categorizing shirts into summer, coats into winter, and rain boots into rainy-day groups — building the flexible categorical thinking that connects everyday wardrobe decisions to the mathematical classification and scientific taxonomy skills that academic curricula require.',
+    },
+    {
+      appId: 'big-small-app',
+      anchorText: 'Clothing size comparison worksheets printable',
+      context: 'Seriation and measurement vocabulary develop when children arrange garments from smallest to largest in our clothing size comparison worksheets printable, ordering shoes, shirts, and hats by size while using comparative language like bigger, smaller, and the biggest — building the ordering and comparative reasoning skills that connect familiar clothing size experiences to mathematical measurement concepts.',
+    },
+    {
+      appId: 'pattern-train',
+      anchorText: 'Clothing pattern worksheets for kindergarten',
+      context: 'Algebraic thinking and pattern recognition develop when children identify and extend repeating sequences on illustrated fabric designs in our clothing pattern worksheets for kindergarten, continuing stripe, polka-dot, and plaid patterns by predicting what comes next — building the sequential reasoning and rule-identification skills that connect visual textile design to the algebraic thinking that early math standards emphasize.',
+    },
+    {
+      appId: 'shadow-match',
+      anchorText: 'Clothing shadow matching worksheets for preschool',
+      context: 'Visual discrimination and shape recognition strengthen when children match garments to their silhouettes in our clothing shadow matching worksheets for preschool, analyzing the distinctive outlines of boots, mittens, hats, and dresses to identify corresponding shadows — building the spatial reasoning and form perception skills that support both wardrobe recognition and early geometry concepts.',
+    },
+  ],
+
+  classroomScenarios: [
+    {
+      situation: 'A preschool teacher wants to develop fine motor skills and shape recognition in her three- and four-year-olds using a theme with diverse, familiar shapes that every child recognizes from getting dressed each morning.',
+      solution: 'She introduces coloring pages of outfits and fashion designs alongside shadow-match clothing silhouette worksheets where the diverse shapes of shoes, hats, mittens, and coats provide varied matching targets that build visual discrimination. Children color wardrobe illustrations while naming each garment, then match clothing items to their shadows using the distinctive shapes that make clothing imagery naturally suited to shape recognition practice at this age.',
+      outcome: 'Visual discrimination accuracy improves significantly over three weeks as children practice matching the varied silhouettes of boots, mittens, hats, and coats. Fine motor control develops through coloring the diverse shapes of clothing items including curved shoe outlines, zigzag coat zippers, and circular button details. The teacher reports that clothing is the most personally engaging matching theme because children recognize every item from their own daily dressing routine, and three previously reluctant students become enthusiastic participants when they realize the worksheets feature items from their own wardrobe.',
+    },
+    {
+      situation: 'A kindergarten teacher needs to integrate multi-attribute sorting with measurement comparison but finds that teaching classification and size ordering as separate activities fails to produce connected understanding in her five- and six-year-olds.',
+      solution: 'She pairs picture-sort seasonal classification worksheets with matching-app garment pairing activities and big-small-app size ordering tasks, creating integrated sessions where children first sort clothing by season, then pair matching garments within each seasonal group, and finally order items within one category from smallest to largest. She extends the learning through a classroom seasonal wardrobe wall where students sort illustrated garments into four seasonal sections and discuss why certain items belong in specific seasons based on weather reasoning.',
+      outcome: 'Multi-attribute sorting accuracy reaches 90 percent as students practice classifying garments by season and type simultaneously. Size ordering skills improve as big-small-app activities with familiar clothing items make comparative vocabulary personally meaningful. The seasonal wardrobe wall becomes the most referenced classroom display, and five students begin spontaneously sorting and organizing items by multiple attributes in other classroom contexts, demonstrating transfer of the integrated classification-measurement approach.',
+    },
+    {
+      situation: 'A first-grade teacher wants to connect algebraic pattern thinking, domain-specific vocabulary, and functional writing but finds that abstract pattern exercises and generic vocabulary instruction fail to produce authentic engagement or lasting skill transfer.',
+      solution: 'She launches a practical-life clothing unit combining pattern-train fabric sequence activities featuring stripe, polka-dot, and plaid patterns alongside word-search clothing vocabulary worksheets with terms like fabric, zipper, sleeve, and wardrobe. She extends the unit with a descriptive writing assignment where students design an outfit for a specific weather scenario and write a paragraph explaining their choices using at least five clothing vocabulary words and describing one pattern they included in their design.',
+      outcome: 'Pattern recognition accuracy reaches 91 percent as the familiar, personally relevant fabric contexts make abstract algebraic concepts concrete and engaging. Clothing vocabulary usage increases substantially as students apply wardrobe terms in both structured word puzzles and free writing. The descriptive writing assignment produces the most detailed and personally invested student work of any unit, and the teacher reports that connecting pattern thinking, vocabulary, and functional writing through the clothing theme generates authentic engagement that generic literacy instruction cannot replicate because every child is an expert on their own wardrobe.',
+    },
+  ],
+
+  differentiationStrategies: [
+    {
+      learnerType: 'Visual learners',
+      adaptation: 'Prioritize coloring detailed outfit illustrations with fabric patterns, accessory details, and seasonal context that provide rich visual engagement. Use shadow-match clothing silhouette activities with high-contrast garment shapes showing the distinctive outlines of boots, hats, and coats. Assign big-small-app size ordering activities with clearly graduated clothing items that provide strong visual size cues for intuitive comparison without requiring text-based reasoning.',
+    },
+    {
+      learnerType: 'Struggling learners',
+      adaptation: 'Begin with single-attribute sorting like sort by color before introducing multi-attribute classification like sort by color AND season simultaneously. Reduce size ordering to three items before introducing five-item sequences with more subtle size differences. Pair every worksheet with real clothing items from a classroom dress-up bin for concrete manipulation, so children can handle three-dimensional garments while working through two-dimensional paper activities, bridging abstract sorting concepts to tangible experience.',
+    },
+    {
+      learnerType: 'Advanced learners',
+      adaptation: 'Challenge them with multi-attribute Venn diagram classification projects sorting garments by three criteria simultaneously, requiring them to identify items that belong in overlapping categories. Assign outfit budget calculation projects using multiplication for multi-item purchases and comparison shopping across stores. Extend to comparative cultural clothing research reports analyzing dress traditions across three countries with evidence from multiple sources and organized multi-paragraph writing.',
+    },
+    {
+      learnerType: 'English language learners',
+      adaptation: 'Begin with image-heavy worksheets where shirts, shoes, hats, and coats are universally recognized wardrobe items that every child encounters daily regardless of language background. Sorting and size-ordering activities communicate through visual attributes rather than text, allowing full participation regardless of English proficiency. Clothing vocabulary is among the first practical words taught in any language program because children need these terms for daily self-care communication, making this theme exceptionally accessible for ELL students who can point to their own shirt, shoe, or hat to demonstrate understanding before they can spell the words.',
+    },
+  ],
+
+  assessmentIdeas: [
+    {
+      method: 'Clothing classification and seasonal reasoning assessment',
+      criteria: 'Give students a set of twelve clothing item cards and a sorting mat divided into four seasons. They sort each item into the correct season, order three items within one season from smallest to largest, and write two sentences explaining why one specific clothing item is important for its season. Assess using a three-level rubric: emerging (correctly sorts at least seven items and orders two of three by size), proficient (correctly sorts ten or more items into the correct seasons, orders all three items by size accurately, and writes two complete sentences explaining seasonal reasoning), advanced (sorts all twelve items correctly with justification for borderline items that could fit multiple seasons, orders items by size with precise comparative vocabulary, and writes detailed sentences connecting clothing choices to specific weather conditions and temperature reasoning).',
+      gradeLevel: 'K to 2nd',
+    },
+    {
+      method: 'Portfolio collection',
+      criteria: 'Collect one clothing worksheet per week over a four-week unit. Compare early and late samples to document growth in multi-attribute sorting accuracy, clothing vocabulary breadth in word puzzles, size comparison precision in ordering tasks, and pattern recognition in fabric sequence activities. Look specifically for progression from single-attribute sorting to flexible multi-criteria classification, and from naming basic garments to using descriptive terminology like waterproof, short-sleeved, and wool.',
+      gradeLevel: 'All grades',
+    },
+    {
+      method: 'Observational checklist',
+      criteria: 'While students work on clothing coloring, sorting, and vocabulary worksheets, note whether they name clothing items by pointing without classification reasoning (Pre-K), sort garments by multiple attributes while using comparative size vocabulary and explaining their seasonal sorting decisions verbally (K\u20131st), or apply multi-attribute classification with Venn diagram reasoning while using precise descriptive vocabulary like waterproof, insulated, and breathable in complete written sentences connecting clothing choices to weather science (2nd\u20133rd). Record whether children transfer clothing classification and seasonal reasoning to real-world contexts like daily outfit selection and family shopping trips.',
+      gradeLevel: 'Pre-K to 3rd',
+    },
+  ],
+
+  crossCurricularLinks: [
+    {
+      subject: 'Science (Weather and Seasons \u2014 Clothing Sorting as Applied Meteorology, Material Science Through Fabric Comparison & Insulation Concepts)',
+      connection: 'Every clothing sorting worksheet connects to science because choosing weather-appropriate clothing IS applied meteorology at the most practical level. Children who sort sandals into summer and boots into winter are reasoning about temperature, precipitation, and seasonal patterns. Comparing cotton, wool, and waterproof fabrics introduces material science concepts about properties and functions. Discussing why winter coats are thick and summer shirts are thin teaches insulation and heat transfer in terms children can feel on their own bodies every day.',
+      activity: 'After completing picture-sort seasonal classification and shadow-match clothing silhouette worksheets, set up a fabric investigation station where students touch and compare samples of cotton, wool, fleece, and nylon, describe each material\u2019s properties using sensory vocabulary, sort the fabrics by which season they belong to, and discuss why certain materials keep us warm while others keep us cool \u2014 connecting worksheet classification skills to hands-on material science through the personally meaningful context of clothing.',
+    },
+    {
+      subject: 'Math (Multi-Attribute Classification as Mathematical Thinking \u2014 Sorting by Color, Size, Type & Season, Size Ordering as Seriation & Counting Sock Pairs as Skip-Counting)',
+      connection: 'Clothing worksheets develop mathematical thinking uniquely because every garment IS a multi-dimensional mathematical object with simultaneously classifiable attributes. Sorting by color, size, type, and season develops the categorical reasoning that underpins set theory and data analysis. Size ordering builds seriation and measurement vocabulary through the personally meaningful context of clothing that fits or does not fit. Counting sock pairs introduces skip-counting by twos, and calculating how many shoes are in three pairs develops multiplication readiness through concrete, familiar objects.',
+      activity: 'After completing big-small-app size ordering and image-addition garment counting worksheets, create a classroom clothing math station where students sort a collection of illustrated garments into a Venn diagram using two attributes simultaneously, count items in each section, record totals in a data table, and answer comparison questions about which category has the most and fewest items \u2014 connecting worksheet sorting and counting skills to authentic data collection and analysis through the familiar context of wardrobe organization.',
+    },
+    {
+      subject: 'Language Arts (Descriptive Vocabulary Development \u2014 Fabric, Zipper, Sleeve, Wardrobe & Multi-Adjective Descriptions for Functional Writing)',
+      connection: 'Clothing worksheets build language arts skills uniquely because wardrobe vocabulary requires precise, multi-adjective descriptions that develop sophisticated compositional skills. Describing a big, red, woolly winter coat uses four attribute words in a single noun phrase, building the descriptive density that strong writing requires. Terms like fabric, zipper, sleeve, wardrobe, and pattern expand functional vocabulary that children use in daily self-care communication. Writing about outfit choices for specific weather scenarios develops functional writing skills with authentic purpose that generic prompts cannot replicate.',
+      activity: 'After completing word-search clothing vocabulary and pattern-train fabric sequence worksheets, guide students through writing a my perfect outfit paragraph where they describe an outfit they would choose for a specific weather scenario using at least five clothing vocabulary words, describe one pattern in their design, and explain why each item is appropriate for the weather \u2014 connecting vocabulary acquisition to authentic functional writing that practices descriptive language, seasonal reasoning, and precise communication in a personally meaningful format.',
+    },
+  ],
+
+  quickStats: [
+    { label: 'Recommended age range', value: '3\u20139 years' },
+    { label: 'Worksheet apps available', value: '10 apps' },
+    { label: 'Primary pedagogical focus', value: 'Attribute-based classification learning' },
+    { label: 'Skill areas covered', value: '4 categories' },
+    { label: 'Average session length', value: '10\u201320 min' },
+    { label: 'Key topic coverage', value: 'Multi-attribute sorting + seasonal reasoning + size comparison vocabulary' },
+  ],
 };
 
 registerThemeContent('clothing', 'en', content);

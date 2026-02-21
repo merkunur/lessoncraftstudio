@@ -193,6 +193,150 @@ const content: EnrichedThemeContent = {
   // -- Cross-linking --
   relatedThemes: ['numbers', 'colors', 'school', 'construction', 'toys', 'animals'],
   relatedBlogCategories: [],
+
+  // -- SEO Enrichment (Part 37) --
+
+  uniqueAngle: 'Shapes occupy a pedagogical position no other theme in the collection can claim: they are the only theme that teaches children how to see rather than what to see. Every other theme — animals, dinosaurs, space, food — presents content for children to learn about, but shapes teaches the perceptual framework that makes all visual learning possible. When a child understands that a window is a rectangle and a wheel is a circle, they have not merely added two facts to their knowledge base; they have acquired a permanent geometric lens that restructures how they perceive every object they encounter for the rest of their lives. This transformation of perception itself is unique to geometry among all educational themes. Shapes are also the only theme where abstract mathematical concept and concrete physical reality share a relationship of identity rather than analogy. A triangle drawn on a worksheet IS a triangle, not a picture of a triangle the way a drawn cat is merely a picture of a cat. This identity between mathematical abstraction and physical form gives shapes an epistemological directness that no content-driven theme can replicate. The van Hiele model of geometric thinking provides a research-validated, multi-year developmental progression — from visual recognition through attribute analysis to informal deduction and beyond — that makes shapes the only theme with a formally structured cognitive development trajectory spanning the entire elementary curriculum. Children move through predictable levels of geometric understanding, and worksheets at each level can be precisely calibrated to support the transition to the next. Furthermore, shapes are the foundational language of spatial reasoning, which research consistently identifies as one of the strongest predictors of STEM achievement. The ability to mentally rotate, decompose, and compose shapes is not just a geometry skill — it is the cognitive infrastructure that supports engineering design, scientific visualization, architectural thinking, and even surgical precision.',
+
+  researchCitation: 'Clements, D.H. & Sarama, J. (2000). "Young Children\'s Ideas about Geometric Shapes." Teaching Children Mathematics, 6(8), 482–488. This study demonstrated that children\'s geometric thinking develops through predictable levels aligned with the van Hiele model, and that exposure to varied, non-prototypical shape examples in structured worksheet and manipulative activities — triangles that are long and skinny rather than equilateral, squares rotated to diamond orientation, rectangles of extreme proportions — significantly accelerates progression through geometric reasoning levels compared to instruction using only standard prototype shapes.',
+
+  snippetDefinition: 'Shape worksheets for kids are printable educational activities featuring circles, squares, triangles, rectangles, hexagons, and other geometric forms — designed to build spatial reasoning, geometry vocabulary, and visual analysis skills for children ages 3 through 9. They include coloring pages that develop boundary awareness, shadow matching for spatial visualization, grid matching for precise comparison, picture sorting for attribute-based classification, missing-pieces puzzles for logical deduction, and pattern activities that connect geometry to algebraic thinking.',
+
+  snippetHowTo: [
+    'Begin with a real-world shape hunt around the classroom or home, asking children to find and name shapes in everyday objects like rectangular doors, circular clocks, and triangular roof peaks — this grounds abstract geometry in tangible experience before any worksheet appears.',
+    'Start worksheet practice with recognition and naming activities such as coloring pages and matching worksheets, where children identify and color familiar shapes like circles, squares, and triangles in varied sizes and orientations to build flexible mental prototypes rather than rigid visual stereotypes.',
+    'Progress to attribute analysis using picture-sort worksheets that ask children to classify shapes by properties like number of sides, number of corners, or presence of curves — pushing them beyond visual appearance toward the defining characteristics that make a shape what it is.',
+    'Pair each paper-based worksheet with a hands-on sorting activity using cardboard cutouts or pattern blocks, so children feel the difference between three sides and four sides with their hands before analyzing it with their eyes on the worksheet.',
+    'Advance to spatial reasoning challenges like shadow-match activities that present shapes in silhouette and varied orientations, training the mental rotation skills that predict success in STEM fields.',
+    'Introduce composition and decomposition through missing-pieces and grid-match puzzles, where children must mentally rotate and combine shapes to complete patterns — the geometric equivalent of phonics blending in reading.',
+    'Connect geometry to other math domains by using pattern worksheets with shape sequences and math worksheets with shape-based counters, showing children that geometry is not an isolated topic but a lens that enriches every area of mathematics.',
+  ],
+
+  limitations: 'Shape worksheets are inherently focused on visual-spatial and geometric skills, which means they offer less scope for narrative engagement, emotional exploration, or storytelling than content-driven themes like dinosaurs, fairy tales, or animals. Two-dimensional worksheet representations cannot fully capture the properties of three-dimensional shapes like cubes, cones, and spheres, requiring physical manipulatives to supplement paper-based learning for solid geometry concepts. The theme\'s abstract, structural nature can feel less immediately motivating to some children than character-driven or adventure-based themes, particularly for learners who are strongly narrative-oriented.',
+
+  themeComparisons: [
+    {
+      vsThemeId: 'numbers',
+      summary: 'Shapes worksheets develop spatial reasoning through concrete geometric properties that children can see and touch — sides, corners, curves, and symmetry — while numbers worksheets develop abstract quantitative reasoning through counting, operations, and place value. Shapes build the visual-spatial intelligence that supports geometry, engineering, and design; numbers build the computational fluency that supports arithmetic, algebra, and data analysis. Together they cover the two foundational pillars of elementary mathematics.',
+    },
+    {
+      vsThemeId: 'colors',
+      summary: 'Shapes worksheets focus on geometric structural properties — how many sides, what kind of angles, whether lines are parallel — teaching children to analyze the skeleton of objects. Colors worksheets focus on visual-perceptual properties — hue, saturation, warm versus cool — teaching children to analyze the surface appearance of objects. Shapes train structural analysis; colors train perceptual discrimination. Both develop visual intelligence but through fundamentally different cognitive pathways.',
+    },
+    {
+      vsThemeId: 'construction',
+      summary: 'Shapes worksheets study pure geometric concepts — the properties and relationships of forms in isolation — while construction worksheets apply geometry in building contexts where shapes serve functional purposes. Shapes teach why a triangle is structurally strong; construction shows that strength in action through bridges and buildings. Shapes provide the theoretical foundation; construction provides the applied engineering context.',
+    },
+    {
+      vsThemeId: 'animals',
+      summary: 'Shapes worksheets develop abstract spatial reasoning through geometric analysis of forms with no narrative content, while animal worksheets develop classification and observation skills through content-rich creature study that naturally engages children\'s curiosity. Shapes excel at building mathematical and spatial thinking; animals excel at building scientific observation and emotional engagement. The themes complement each other when animal illustrations are analyzed for their underlying geometric structures.',
+    },
+  ],
+
+  productLinks: [
+    {
+      appId: 'shadow-match',
+      anchorText: 'shape shadow matching worksheets',
+      context: 'When students are ready to develop the spatial visualization skills that predict STEM success, our shape shadow matching worksheets present geometric forms as dark silhouettes in varied orientations, requiring children to analyze outlines and proportions without the aid of color or internal detail — the same cognitive process architects and engineers use when reading blueprints.',
+    },
+    {
+      appId: 'picture-sort',
+      anchorText: 'shape sorting worksheets for kids',
+      context: 'Classification thinking develops powerfully when children use our shape sorting worksheets for kids to group geometric forms by defining attributes like number of sides, presence of corners, or whether edges are curved or straight — moving beyond visual appearance to the property-based analysis that formal geometry requires.',
+    },
+    {
+      appId: 'missing-pieces',
+      anchorText: 'shape puzzle worksheets printable',
+      context: 'Logical deduction and spatial reasoning combine when children work through our shape puzzle worksheets printable activities, which present incomplete geometric patterns and challenge young learners to determine which piece completes the design by mentally rotating, flipping, and comparing shape attributes.',
+    },
+    {
+      appId: 'grid-match',
+      anchorText: 'shape grid matching activities',
+      context: 'Visual precision and attention to geometric detail sharpen as children work through our shape grid matching activities, where they must identify which cell in a complex grid contains an identical shape by comparing orientations, proportions, and structural features with the accuracy that mathematical analysis demands.',
+    },
+  ],
+
+  classroomScenarios: [
+    {
+      situation: 'A first-grade teacher notices that several students consistently confuse b and d when reading, and traditional letter-reversal drills have not resolved the problem after three weeks of daily practice.',
+      solution: 'She introduces a spatial reasoning intervention using shape shadow-match and grid-match worksheets that require children to distinguish between shapes that are mirror images of each other — a left-facing arrow versus a right-facing one, an L-shape versus its reflection. Each session pairs fifteen minutes of shape orientation work with five minutes of letter comparison, explicitly connecting the spatial discrimination skill to the letter-reversal challenge. Missing-pieces puzzles that require mental rotation provide additional practice.',
+      outcome: 'After two weeks, four of five students with persistent b/d reversals resolve the confusion completely. The spatial reasoning approach succeeds where direct letter practice failed because the underlying deficit was visual-spatial discrimination, not letter knowledge. The teacher\'s standardized spatial reasoning assessment scores for the class improve by 23 percent over the same period.',
+    },
+    {
+      situation: 'A parent wants to support her kindergartner who has been identified as having math anxiety — the child freezes whenever number worksheets appear and says I\'m bad at math, despite showing strong verbal and creative skills.',
+      solution: 'The parent replaces all number-focused worksheets with shape activities for four weeks: coloring pages featuring geometric designs, picture-sort worksheets classifying shapes by attributes, and draw-and-color activities composing pictures from basic shapes. She frames every session as art and building, never mentioning math. In week three, she introduces pattern worksheets with shape sequences, and in week four, image addition worksheets using shape counters — both of which involve mathematical reasoning without triggering the math anxiety label.',
+      outcome: 'The child completes all four weeks without a single anxiety episode because shapes feel like creative exploration rather than math. When number worksheets return in week five, the child approaches them with noticeably less resistance. The kindergarten teacher reports that the child voluntarily participates in geometry discussions for the first time, and informal assessment shows the child\'s shape attribute vocabulary has doubled from six to twelve terms.',
+    },
+    {
+      situation: 'A second-grade teacher needs to introduce fraction concepts but her students have no intuitive understanding of equal parts — they can memorize that half means two pieces but cannot explain why two unequal pieces do not count as halves.',
+      solution: 'She designs a two-week geometry-first fractions unit using shape worksheets as the foundation. Students begin with picture-sort activities classifying shapes as having lines of symmetry or not, then progress to pattern worksheets where they complete symmetrical designs. Missing-pieces puzzles require them to identify which piece creates two equal halves. Finally, they use draw-and-color worksheets to partition circles and rectangles into halves, thirds, and fourths, shading specific fractions and defending why their partitions are truly equal.',
+      outcome: 'When the formal fractions unit begins, 89 percent of students can correctly identify and create equal parts on their first assessment, compared to 52 percent the previous year when fractions were introduced without the geometry foundation. Students spontaneously use shape vocabulary like symmetrical and equal sides when explaining fraction concepts, demonstrating deep transfer from geometric understanding to numerical reasoning.',
+    },
+  ],
+
+  differentiationStrategies: [
+    {
+      learnerType: 'Visual learners',
+      adaptation: 'Prioritize shadow-match, grid-match, and coloring worksheets that leverage strong visual processing. Create a classroom shape wall with labeled examples showing each shape in multiple sizes, orientations, and real-world contexts so students can reference visual anchors during sorting and classification tasks. Use color-coded attribute charts where each property like number of sides or type of angles has a consistent color across all worksheets.',
+    },
+    {
+      learnerType: 'Struggling learners',
+      adaptation: 'Reduce the number of shape types per worksheet to two or three visually distinct forms — such as circles, squares, and triangles — before introducing shapes that share attributes like rectangles and parallelograms. Pair every worksheet with physical manipulatives: cardboard cutouts children can hold, rotate, and trace before analyzing the printed version. Start each session with a confidence-building coloring page before introducing the target classification or spatial reasoning skill, and provide a completed example alongside each new worksheet type.',
+    },
+    {
+      learnerType: 'Advanced learners',
+      adaptation: 'Challenge them with multi-attribute classification tasks where shapes must be sorted by two or three properties simultaneously, such as identifying all quadrilaterals with at least one right angle and at least one pair of parallel sides. After completing pattern worksheets, ask them to create their own tessellation designs and write explanatory paragraphs about which shapes tessellate and why. Introduce vocabulary like vertex, parallel, perpendicular, and congruent earlier than grade-level expectations.',
+    },
+    {
+      learnerType: 'English language learners',
+      adaptation: 'Begin with image-heavy worksheets like coloring, shadow-match, and grid-match before introducing word-based activities. Shape names are generally short and phonetically accessible (square, star, cube), making them ideal early English vocabulary. Provide a bilingual shape reference poster with labeled illustrations showing each shape alongside its name in both languages, and use physical shape manipulatives as tangible vocabulary anchors that children can hold and name while building confidence with English geometric terminology.',
+    },
+  ],
+
+  crossCurricularLinks: [
+    {
+      subject: 'Art (Composition & Design)',
+      connection: 'Shape analysis is the foundation of visual art composition. Every drawing, painting, and sculpture can be decomposed into basic geometric forms, and understanding this structure helps children both analyze existing artworks and create their own with intentional design rather than random placement. Artists from Mondrian to Kandinsky built entire careers on the relationship between geometric shapes and visual expression.',
+      activity: 'After completing a draw-and-color shape worksheet, have students analyze a famous artwork by Mondrian or Kandinsky and identify every circle, rectangle, triangle, and line they can find. Then create their own geometric composition using only three shape types and three colors, writing a sentence explaining their design choices.',
+    },
+    {
+      subject: 'Science (Crystal Structures & Cell Biology)',
+      connection: 'Geometric shapes appear throughout the natural world in ways that connect directly to science standards. Crystal structures exhibit geometric patterns, honeycomb cells are hexagonal, snowflakes display six-fold symmetry, and cell biology reveals spherical, rod-shaped, and spiral structures. Recognizing these natural geometries transforms shape knowledge from abstract mathematics into observational science.',
+      activity: 'Give students photographs of natural geometric structures — honeycombs, snowflakes, crystal formations, and cross-sections of fruit. Have them identify the dominant shape in each photograph using geometric vocabulary, then sort the photographs by shape type on a classification chart, writing one sentence explaining why nature might use that particular shape in each case.',
+    },
+    {
+      subject: 'Architecture & Engineering',
+      connection: 'Every building, bridge, and structure is a composition of geometric shapes chosen for specific structural properties. Triangles provide rigidity in trusses, arches distribute weight through curves, and rectangular grids create efficient floor plans. Understanding why architects choose specific shapes connects geometry to real-world engineering and gives children concrete answers to the question of why shapes matter beyond the classroom.',
+      activity: 'Take students on a building shape hunt around the school, photographing or sketching every distinct geometric shape they find in doors, windows, roof lines, floor tiles, and structural supports. Back in the classroom, create a bar graph of shape frequency and discuss why rectangles dominate building design while triangles appear in roof structures — connecting geometric properties to engineering function.',
+    },
+  ],
+
+  assessmentIdeas: [
+    {
+      method: 'Portfolio collection',
+      criteria: 'Collect one shape worksheet per week over a four-week geometry unit. Compare early and late samples to document growth in shape identification accuracy, attribute vocabulary usage, fine motor control in coloring precision, and complexity of spatial reasoning demonstrated in shadow-match and missing-pieces responses. Look specifically for evidence of progression from visual recognition to property-based analysis.',
+      gradeLevel: 'All grades',
+    },
+    {
+      method: 'Observational checklist',
+      criteria: 'While students work on shape sorting and matching worksheets, note whether they identify shapes by appearance only (Pre-K), describe shapes using attribute language like sides, corners, and curves (K–1st), or classify shapes by multiple properties simultaneously while explaining hierarchical relationships like a square is a special rectangle (2nd–3rd). Record whether children can recognize shapes in non-standard orientations and sizes.',
+      gradeLevel: 'Pre-K to 3rd',
+    },
+    {
+      method: 'Classification sorting assessment',
+      criteria: 'Present students with a mixed set of shape cards including circles, triangles, squares, rectangles, hexagons, and irregular shapes. Ask them to sort the cards into groups, name each group, and explain one defining attribute that determines membership. For advanced students, ask them to re-sort using a different attribute and explain why the same shape can belong to different groups depending on the classification criterion used.',
+      gradeLevel: 'K to 2nd',
+    },
+  ],
+
+  quickStats: [
+    { label: 'Recommended age range', value: '3–9 years' },
+    { label: 'Worksheet apps available', value: '12 apps' },
+    { label: 'Curriculum areas covered', value: '4 areas' },
+    { label: 'Grade levels supported', value: 'Pre-K to 3rd' },
+    { label: 'Average session length', value: '10–20 min' },
+    { label: 'Shapes covered', value: 'Circles, squares, triangles, rectangles, hexagons & more' },
+  ],
 };
 
 registerThemeContent('shapes', 'en', content);

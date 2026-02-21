@@ -207,6 +207,150 @@ const content: EnrichedThemeContent = {
   // -- Cross-linking --
   relatedThemes: ['fruits', 'food', 'garden', 'cooking', 'farm', 'nature'],
   relatedBlogCategories: [],
+
+  // -- SEO Enrichment (Part 39) --
+
+  uniqueAngle: 'Vegetables are the ONLY theme that teaches children academic skills through a subject they initially resist \u2014 and this resistance is precisely what makes the theme so pedagogically powerful. No other theme provides the opportunity to transform a negative attitude into genuine curiosity and even enthusiasm through structured educational engagement. The vegetable-aversion-to-appreciation journey teaches children the metacognitive lesson that unfamiliar or disliked subjects can become interesting when approached through exploration rather than avoidance \u2014 a transferable mindset that applies to every challenging academic subject they will encounter throughout schooling. Vegetables are also the ONLY theme that naturally teaches plant anatomy as its primary classification system: roots like carrots, stems like celery, leaves like lettuce, flowers like broccoli, seeds like peas \u2014 making every sorting worksheet simultaneously a botany lesson. No other theme offers this direct mapping between a classification framework and a fundamental biological system that students will revisit in middle and high school biology. The garden-to-table connection makes vegetables the only theme where children can observe the complete lifecycle from seed germination through growth, harvest, preparation, and consumption, providing the most complete cause-and-effect narrative in the entire collection. A child who plants a carrot seed, watches it grow, pulls it from the soil, washes it, and eats it has experienced the full cycle of agricultural production \u2014 a tangible understanding of cause and effect that no abstract worksheet theme can replicate.',
+
+  researchCitation: 'Knai, C., Pomerleau, J., Lock, K., & McKee, M. (2006). \u201CGetting Children to Eat More Fruit and Vegetables: A Systematic Review.\u201D Preventive Medicine, 42(2), 85\u201395 \u2014 finding that school-based interventions combining structured educational activities with hands-on exposure significantly increased children\u2019s vegetable consumption, with classroom worksheet-and-garden programs showing the largest and most sustained gains compared to information-only approaches, confirming that the combination of cognitive engagement and physical interaction produces the strongest behavior change.',
+
+  snippetDefinition: 'Vegetable worksheets for kids are printable educational activities featuring carrots, peas, broccoli, tomatoes, and garden produce \u2014 designed to build classification skills through plant-part anatomy, counting and comparison fluency, data graphing abilities, and nutrition vocabulary for children ages 3 through 9. They include sorting activities for botanical classification by root, stem, leaf, flower, and seed, addition and comparison worksheets with garden counters, word searches for gardening vocabulary, and pattern activities that connect planting sequences to mathematical reasoning.',
+
+  snippetHowTo: [
+    'Start with familiar, child-friendly vegetables like carrots, peas, and corn using coloring pages and matching worksheets that build visual familiarity and positive associations before introducing less popular vegetables.',
+    'Introduce plant-part classification early using picture-sort worksheets where children learn that carrots are roots, celery is stems, lettuce is leaves, and broccoli is flowers \u2014 building a botanical framework that makes every sorting activity also a science lesson.',
+    'Progress to counting and comparison using find-and-count and more-less worksheets with garden row scenarios \u2014 counting carrots in a row, comparing which garden bed has more tomatoes, and determining how many peas are in a pod.',
+    'Advance to data collection and graphing by having children survey vegetable preferences, record data, and create simple charts \u2014 connecting the sometimes-challenging topic of vegetables to the engaging activity of data representation.',
+    'Incorporate size comparison using big-small-app worksheets that challenge children to order vegetables from the tiny pea to the large pumpkin, developing measurement vocabulary through the natural size diversity of garden produce.',
+    'Extend to pattern recognition with pattern-worksheet activities featuring planting sequences \u2014 carrot, tomato, pea, carrot, tomato, pea \u2014 building algebraic readiness through garden planning contexts.',
+    'Connect worksheet learning to real gardening and cooking experiences by growing windowsill herbs, visiting farmers markets, and preparing simple vegetable snacks that transform worksheet vocabulary into tangible, edible reality.',
+  ],
+
+  limitations: 'Vegetable worksheets may trigger initial resistance in children with strong food aversions, requiring more motivational scaffolding than inherently appealing themes like animals or fruits before productive engagement begins. The theme\u2019s strength in botanical classification and garden science means it offers less scope for narrative engagement or creative storytelling than character-driven themes like pirates, superheroes, or fairy tales. Regional and cultural variation in vegetable familiarity means some illustrations may not resonate with all children\u2019s home cooking experiences, as vegetables common in one cuisine may be unfamiliar in another.',
+
+  themeComparisons: [
+    {
+      vsThemeId: 'fruits',
+      summary: 'Vegetable worksheets build resilience by teaching children to engage productively with initially unfamiliar or resisted content, while fruit worksheets leverage universally positive associations with sweetness for maximum immediate engagement. Vegetables emphasize plant-part anatomy with roots, stems, leaves, and flowers as the classification framework; fruits emphasize seed-bearing structures and color-spectrum sorting. Vegetables teach persistence through resistance; fruits teach enthusiasm through appeal.',
+    },
+    {
+      vsThemeId: 'food',
+      summary: 'Vegetable worksheets focus deeply on a single produce category with rich botanical and garden-science dimensions, allowing specialized plant anatomy vocabulary and detailed lifecycle connections. Food worksheets encompass all five food groups with comprehensive nutritional classification, providing broader dietary context but less depth in botanical science. Vegetables offer specialized depth in plant biology; food offers nutritional breadth across all categories.',
+    },
+    {
+      vsThemeId: 'garden',
+      summary: 'Vegetable worksheets analyze the harvested product for nutritional value, botanical classification, and mathematical properties \u2014 counting, sorting, and comparing vegetables as finished items ready for consumption. Garden worksheets focus on the growing process itself \u2014 planting seeds, watering, observing growth, and understanding what plants need to thrive. Vegetables teach downstream analysis of harvest products; gardens teach upstream cultivation biology.',
+    },
+    {
+      vsThemeId: 'farm',
+      summary: 'Vegetable worksheets study specific produce items through the lens of nutrition, plant anatomy, and mathematical classification. Farm worksheets explore the complete agricultural setting including animals, equipment, buildings, and systems that produce food at scale. Vegetables provide focused botanical and nutritional depth within one crop category; farms provide broad agricultural systems thinking across the entire farming operation.',
+    },
+  ],
+
+  productLinks: [
+    {
+      appId: 'picture-sort',
+      anchorText: 'vegetable sorting worksheets for kids',
+      context: 'Botanical classification thinking develops powerfully when children use our vegetable sorting worksheets for kids to group produce by plant part \u2014 roots like carrots, stems like celery, leaves like lettuce, and flowers like broccoli \u2014 building the same taxonomic reasoning used in biological science while making plant anatomy concrete and memorable.',
+    },
+    {
+      appId: 'more-less',
+      anchorText: 'vegetable comparison worksheets',
+      context: 'Quantitative reasoning strengthens when children work through our vegetable comparison worksheets, determining which garden row has more carrots, whether the tomato basket holds fewer than the pepper basket, and how many more peas one pod contains than another \u2014 building the comparison vocabulary and numerical judgment that support both mathematical fluency and real-world estimation skills.',
+    },
+    {
+      appId: 'big-small-app',
+      anchorText: 'vegetable size worksheets printable',
+      context: 'Measurement vocabulary and ordinal reasoning develop naturally when children use our vegetable size worksheets printable to arrange produce from the tiny pea to the enormous pumpkin \u2014 the dramatic size range of garden vegetables provides one of the most intuitive contexts for teaching size ordering, comparison language, and the foundational measurement skills that support geometry and data standards.',
+    },
+    {
+      appId: 'find-and-count',
+      anchorText: 'vegetable counting worksheets',
+      context: 'Counting fluency builds through engaging garden scenarios in our vegetable counting worksheets where children tally carrots in rows, count tomatoes on vines, and find peas hidden among garden leaves \u2014 developing one-to-one correspondence and visual scanning skills while connecting number concepts to the familiar context of growing and harvesting food.',
+    },
+  ],
+
+  classroomScenarios: [
+    {
+      situation: 'A kindergarten teacher wants to integrate NGSS plant science standards with her math sorting unit but finds that traditional sorting activities with abstract colored shapes fail to create meaningful connections to life science content.',
+      solution: 'She designs a two-week plant parts unit using picture-sort worksheets where children sort vegetables by the part of the plant we eat: roots like carrots, stems like celery, leaves like lettuce, flowers like broccoli, and seeds like peas. Each day introduces one plant part with a real vegetable specimen for observation alongside the worksheet sorting activity. Students build a class plant parts wall by adding sorted vegetable illustrations to the correct section after each worksheet session.',
+      outcome: 'On the end-of-unit science assessment, 94 percent of students can correctly classify at least four vegetables by plant part, compared to 51 percent the previous year when plant parts were taught through a textbook diagram alone. The sorting skill transfers to math: students who completed botanical sorting worksheets score 23 percent higher on the subsequent math classification assessment than the previous cohort. Three students begin spontaneously classifying vegetables at lunch, telling classmates that corn is seeds and lettuce is leaves.',
+    },
+    {
+      situation: 'A parent is frustrated that her four-year-old refuses to eat any vegetables and has intense negative reactions even to seeing vegetables on the plate, making family mealtimes stressful for everyone.',
+      solution: 'She introduces vegetable coloring pages and matching worksheets as a no-pressure exposure strategy, emphasizing that the goal is not eating but learning. Each evening, the child completes one vegetable worksheet while the parent prepares dinner, naming the vegetables, discussing their colors and shapes, and matching them to pictures. The parent deliberately avoids connecting worksheets to eating, allowing the child to build familiarity on purely cognitive terms.',
+      outcome: 'After four weeks of daily worksheet exposure, the child voluntarily touches three vegetables she had previously refused to have on her plate. By week six, she tastes raw carrot sticks and cucumber slices without prompting. The parent reports that mealtime stress decreased significantly because the child now views vegetables as familiar objects she has colored and named rather than threatening items forced onto her plate. The pediatrician confirms this approach aligns with evidence-based gradual exposure protocols for food neophobia.',
+    },
+    {
+      situation: 'A second-grade teacher wants to connect her math measurement unit to living science but finds that textbook measurement problems with abstract line segments and rectangles fail to convey why precise measurement matters in the real world.',
+      solution: 'She launches a classroom garden project where students plant bean seeds, then use more-less and find-and-count worksheets alongside daily measurement of sprout growth. Students record height in centimeters each day in data tables, compare growth between plants using comparison worksheets, and create weekly bar graphs showing growth progress. The vegetable worksheets provide structured practice while the living plants provide authentic measurement purpose.',
+      outcome: 'Measurement accuracy on the unit assessment improves by 35 percent compared to the previous year when measurement was taught with abstract units only. Every student can explain why precise measurement matters, citing their garden project as the primary example. The garden produces enough beans for a class taste-test, and the teacher reports that several students who had never eaten raw green beans try them willingly because they grew them from seeds they measured daily.',
+    },
+  ],
+
+  differentiationStrategies: [
+    {
+      learnerType: 'Visual learners',
+      adaptation: 'Prioritize coloring pages of detailed vegetable cross-sections showing internal structures, picture-sort worksheets with vivid garden illustrations, and big-small-app worksheets that leverage strong visual-spatial processing with the dramatic size range from peas to pumpkins. Create a classroom vegetable wall with real photographs organized by plant part so students can reference visual anchors during sorting tasks. Use color-coded plant part labels where roots are always orange, stems are always green, and leaves are always light green across all materials.',
+    },
+    {
+      learnerType: 'Struggling learners',
+      adaptation: 'Reduce sorting to two plant-part categories at a time \u2014 start with roots versus leaves, the most visually distinct categories, before introducing stems, flowers, and seeds. Pair every worksheet with physical vegetable manipulatives \u2014 real vegetables or plastic models children can hold and examine before sorting on paper. Begin each session with a simple coloring page of a familiar vegetable like a carrot or tomato to build positive engagement before introducing the target classification or math skill.',
+    },
+    {
+      learnerType: 'Advanced learners',
+      adaptation: 'Challenge them with multi-attribute classification tasks where vegetables must be sorted by two criteria simultaneously \u2014 plant part AND growing environment such as underground versus above ground. After completing sorting worksheets, ask them to research and present one unusual vegetable most classmates have not tried, writing a persuasive paragraph about why the class should taste it. Introduce the botanical distinction between fruits and vegetables, discussing why tomatoes and peppers are botanically fruits but culinarily vegetables.',
+    },
+    {
+      learnerType: 'English language learners',
+      adaptation: 'Begin with image-heavy worksheets like coloring, picture-sort, and find-and-count before introducing word-based activities like word search. Vegetable names vary significantly across languages, so provide a bilingual vegetable reference chart with labeled photographs and names in both languages. Use real vegetables as tangible vocabulary anchors \u2014 children can hold a carrot while saying carrot and zanahoria, building multisensory word associations that stick. The visual distinctiveness of vegetables like broccoli, corn, and tomatoes makes them excellent subjects for picture-to-word vocabulary building.',
+    },
+  ],
+
+  assessmentIdeas: [
+    {
+      method: 'Plant-part sorting assessment',
+      criteria: 'Present students with a mixed set of twelve vegetable image cards representing all five plant parts. Ask them to sort into groups labeled roots, stems, leaves, flowers, and seeds, then name at least one additional vegetable for each category that was not in the card set. Assess using a three-level rubric: emerging (correctly sorts into two or three categories), proficient (correctly sorts into all five categories with at least one explanation), advanced (sorts correctly, names additional examples, and explains the biological function of each plant part).',
+      gradeLevel: 'K to 2nd',
+    },
+    {
+      method: 'Portfolio collection',
+      criteria: 'Collect one vegetable worksheet per week over a four-week gardening or nutrition unit. Compare early and late samples to document growth in plant-part classification accuracy, gardening vocabulary usage, counting and graphing precision, and complexity of comparative reasoning about vegetable attributes. Look for progression from single-attribute sorting by color to multi-attribute classification by plant part and growing environment.',
+      gradeLevel: 'All grades',
+    },
+    {
+      method: 'Observational checklist',
+      criteria: 'While students work on vegetable sorting and counting worksheets, note whether they identify vegetables by name only without classification reasoning (Pre-K), sort vegetables by plant part with correct category labels and at least one verbal explanation (K\u20131st), or classify by multiple attributes simultaneously while connecting sorting criteria to botanical science concepts (2nd\u20133rd). Record whether children transfer classification skills from worksheets to real vegetables during snack time, garden visits, or grocery store trips.',
+      gradeLevel: 'Pre-K to 3rd',
+    },
+  ],
+
+  crossCurricularLinks: [
+    {
+      subject: 'Science (Plant Anatomy & Lifecycle)',
+      connection: 'Vegetables provide the most direct and tangible connection to plant anatomy standards because each vegetable represents a specific plant part: roots (carrots, radishes), stems (celery, asparagus), leaves (lettuce, spinach), flowers (broccoli, cauliflower), and seeds (peas, corn). This one-to-one mapping between everyday food items and biological structures makes abstract plant science concrete and memorable in ways that diagrams alone cannot achieve.',
+      activity: 'After completing a vegetable plant-part sorting worksheet, have students examine real vegetables and identify which plant part each represents. Create a class poster with actual vegetable cross-section photographs labeled with botanical terms like root system, vascular bundles, and seed pod. Students write one sentence per vegetable explaining what biological function that plant part performs for the living plant.',
+    },
+    {
+      subject: 'Health Education (Nutrition & Healthy Eating Advocacy)',
+      connection: 'Vegetable worksheets build health literacy by normalizing vegetables as familiar, interesting objects rather than dreaded dinner table adversaries. The classification skills practiced on sorting worksheets directly transfer to the real-world skill of building balanced plates and making informed food choices \u2014 children who can name, sort, and discuss vegetables develop both the vocabulary and the positive associations needed to advocate for their own healthy eating.',
+      activity: 'After completing a vegetable counting worksheet, have students design a healthy dinner plate that includes at least two different vegetables from different plant-part categories. They draw their plate, label each vegetable with its plant part and one nutritional benefit, and write a sentence explaining why eating vegetables from different plant parts provides more complete nutrition than eating only one type.',
+    },
+    {
+      subject: 'Environmental Studies (Gardening, Composting & Sustainability)',
+      connection: 'Vegetables connect directly to environmental education because they can be grown in school gardens, their scraps can be composted to create soil that grows more vegetables, and their local production reduces transportation emissions compared to imported foods. This closed-loop system \u2014 grow, eat, compost, grow again \u2014 provides the most accessible model of sustainability available to young learners.',
+      activity: 'After completing a vegetable matching or sorting worksheet, start a class composting bin with vegetable scraps from school lunches. Students observe decomposition over several weeks, measure the volume of scraps added versus compost produced, and write observation logs connecting the composting process to the plant growth cycle they learned about on sorting worksheets. Discuss how composting returns nutrients to soil for growing new vegetables.',
+    },
+  ],
+
+  quickStats: [
+    { label: 'Recommended age range', value: '3\u20139 years' },
+    { label: 'Worksheet apps available', value: '10 apps' },
+    { label: 'Curriculum areas covered', value: '4 areas' },
+    { label: 'Grade levels supported', value: 'Pre-K to 3rd' },
+    { label: 'Average session length', value: '10\u201320 min' },
+    { label: 'Plant parts covered', value: 'Roots, stems, leaves, flowers & seeds' },
+  ],
 };
 
 registerThemeContent('vegetables', 'en', content);

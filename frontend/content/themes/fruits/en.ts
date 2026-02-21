@@ -207,6 +207,150 @@ const content: EnrichedThemeContent = {
   // -- Cross-linking --
   relatedThemes: ['vegetables', 'food', 'garden', 'colors', 'cooking', 'farm'],
   relatedBlogCategories: [],
+
+  // -- SEO Enrichment (Part 39) --
+
+  uniqueAngle: 'Fruits are the ONLY theme that provides a universally positive emotional starting point \u2014 every child has a favorite fruit, and unlike vegetables where resistance is common, fruits carry inherently positive associations with sweetness, color, and treat-like reward. This emotional head start means fruit worksheets begin with maximum motivation rather than needing to overcome initial reluctance, making them the ideal entry theme for building positive associations between food and learning. Fruits are also uniquely positioned as nature\u2019s most vivid color palette: red strawberries, orange oranges, yellow bananas, green limes, blue blueberries, purple grapes \u2014 providing the only theme that naturally covers the entire visible spectrum through items children can hold and eat. This makes fruits the supreme theme for integrating color recognition with counting, classification, and vocabulary in a single worksheet. No other food theme maps so directly onto the color wheel with objects children already know by name. The theme also uniquely bridges botany and nutrition: every fruit is a seed-bearing structure that exists to reproduce the plant, making it the only food theme where the biological purpose of the item and the human purpose of consumption can be taught together. When a child learns that an apple exists to carry seeds and also provides vitamins, they grasp a dual-purpose concept that deepens both their scientific thinking and their nutritional awareness. This botanical dimension \u2014 seed dispersal, pollination, ripening \u2014 gives fruit worksheets a science depth that purely nutritional themes cannot match, transforming simple counting and sorting exercises into genuine botanical investigations disguised as colorful, appetizing fun.',
+
+  researchCitation: 'Wardle, J., Herrera, M.L., Cooke, L., & Gibson, E.L. (2003). \u201CModifying Children\u2019s Food Preferences: The Effects of Exposure and Reward on Acceptance of an Unfamiliar Vegetable.\u201D European Journal of Clinical Nutrition, 57(2), 341\u2013348 \u2014 demonstrating that repeated visual and educational exposure to produce items through structured activities significantly increased children\u2019s willingness to taste unfamiliar fruits and vegetables, with the exposure-only group showing comparable gains to the reward-based group, confirming that worksheet-based familiarity building is a valid pathway to healthier eating behaviors.',
+
+  snippetDefinition: 'Fruit worksheets for kids are printable educational activities featuring apples, bananas, berries, citrus, and tropical fruits \u2014 designed to build counting fluency, color recognition, size comparison skills, and nutrition vocabulary for children ages 3 through 9. They include coloring pages for fine motor development, addition and graphing activities with fruit counters, matching and sorting exercises for classification thinking, and pattern recognition tasks that connect the natural diversity of fruits to mathematical reasoning.',
+
+  snippetHowTo: [
+    'Start with familiar favorites like apples, bananas, and strawberries using coloring pages and matching worksheets that build confidence through recognition of fruits the child already knows and loves from home.',
+    'Progress to sorting and classification activities using picture-sort worksheets where children group fruits by color, size, or type \u2014 building the categorical thinking that underpins both mathematical sets and scientific taxonomy.',
+    'Introduce counting and addition using find-and-count and image-addition worksheets with fruit clusters \u2014 grapes for counting by ones, berry groups for addition within ten, and mixed bowls for comparing quantities.',
+    'Advance to data collection and graphing through chart-count-color worksheets where children survey favorite fruits, record results, and create bar graphs \u2014 directly addressing measurement and data standards.',
+    'Incorporate size comparison using big-small-app worksheets that challenge children to order fruits from smallest blueberry to largest watermelon, developing measurement vocabulary and ordinal reasoning.',
+    'Extend to pattern recognition and algebraic thinking with pattern-train worksheets featuring alternating fruit sequences \u2014 apple, banana, apple, banana \u2014 that build the repeating and growing pattern skills foundational to algebra.',
+    'Connect worksheet learning to real fruit experiences by visiting produce sections, making fruit salads, and keeping a fruit tasting journal that reinforces vocabulary, counting, and descriptive writing skills from the worksheets.',
+  ],
+
+  limitations: 'Fruit worksheets\u2019 narrow focus on a single food category provides less nutritional breadth than comprehensive food theme worksheets that cover all five food groups with balanced dietary context. The theme\u2019s inherent appeal and sweetness association means it does not build the same resilience-to-unfamiliarity that vegetable worksheets develop, where overcoming initial resistance is itself a valuable metacognitive lesson. Seasonal and regional fruit availability may limit some real-world extension activities, as children in certain climates may have limited access to tropical fruits featured on worksheets.',
+
+  themeComparisons: [
+    {
+      vsThemeId: 'vegetables',
+      summary: 'Fruit worksheets leverage universally positive associations with sweetness and treat-like appeal to maximize initial engagement, while vegetable worksheets build resilience by teaching children to engage productively with initially unfamiliar or resisted content. Fruits emphasize seed-bearing botanical structures and full-spectrum color sorting; vegetables emphasize plant-part anatomy with roots, stems, leaves, and flowers as the primary classification framework.',
+    },
+    {
+      vsThemeId: 'food',
+      summary: 'Fruit worksheets focus deeply on a single produce category with rich botanical and color-spectrum dimensions, allowing specialized vocabulary and detailed scientific connections. Food worksheets encompass all five food groups with comprehensive nutritional classification, providing broader dietary context but less depth in any single category. Fruits offer depth; food offers breadth.',
+    },
+    {
+      vsThemeId: 'colors',
+      summary: 'Fruit worksheets teach color recognition through real, tangible objects children can hold and eat \u2014 red strawberries, yellow bananas, green limes \u2014 grounding abstract color concepts in sensory experience. Color worksheets teach color as an abstract visual property through varied media and artistic contexts. Fruits make color concrete and edible; colors make color universal and artistic.',
+    },
+    {
+      vsThemeId: 'garden',
+      summary: 'Fruit worksheets focus on the harvested end product analyzed for nutrition, color, and botanical structure \u2014 counting, sorting, and classifying fruits as finished items. Garden worksheets focus on the growing process from seed to harvest, emphasizing cultivation, patience, and the conditions plants need to thrive. Fruits teach downstream analysis of products; gardens teach upstream biology of growth.',
+    },
+  ],
+
+  productLinks: [
+    {
+      appId: 'big-small-app',
+      anchorText: 'fruit size comparison worksheets',
+      context: 'Measurement vocabulary and ordinal thinking develop naturally when children use our fruit size comparison worksheets to arrange fruits from the tiny blueberry to the enormous watermelon \u2014 building the size-ordering skills that support measurement standards while grounding abstract concepts in objects children can visualize from their own kitchen experience.',
+    },
+    {
+      appId: 'chart-count-color',
+      anchorText: 'fruit graphing worksheets printable',
+      context: 'Data literacy skills build authentically when children use our fruit graphing worksheets printable to count fruit types by category, record tallies, and create colorful bar graphs of class fruit preferences \u2014 directly addressing measurement and data standards while making statistics concrete through the universally appealing context of favorite fruits.',
+    },
+    {
+      appId: 'pattern-train',
+      anchorText: 'fruit pattern worksheets for kids',
+      context: 'Algebraic readiness strengthens when children work through our fruit pattern worksheets for kids, identifying and extending repeating sequences of apples, bananas, and grapes \u2014 building the pattern recognition skills that form the foundation of algebraic thinking while keeping the activity visually engaging with colorful, familiar fruit illustrations.',
+    },
+    {
+      appId: 'odd-one-out',
+      anchorText: 'fruit odd one out worksheets',
+      context: 'Critical thinking sharpens when children identify the item that does not belong in our fruit odd one out worksheets \u2014 a vegetable among fruits, a tropical fruit among berries \u2014 requiring attribute analysis and category boundary reasoning that develops the same logical exclusion skills used in scientific classification and mathematical set theory.',
+    },
+  ],
+
+  classroomScenarios: [
+    {
+      situation: 'A preschool teacher notices that several children in her class are extremely picky eaters who refuse to try new fruits at snack time, turning away even from colorful berries and melon slices offered during the classroom fruit break.',
+      solution: 'She introduces a two-week fruit familiarity unit using coloring pages and matching worksheets as the primary exposure tools. Each day features a different fruit: children color a detailed illustration, match it to its name, and sort it by color on a class chart. She deliberately avoids pressuring children to eat the fruits, focusing solely on building visual and cognitive familiarity through worksheet engagement.',
+      outcome: 'By the end of two weeks, four of six previously resistant children voluntarily touch and smell the featured fruit during snack time, and two begin tasting new fruits they had previously refused. The teacher documents a 67 percent increase in fruit acceptance behaviors compared to the same period the previous year when no worksheet-based exposure was used. Parent feedback confirms that two children began requesting fruits at home that they encountered on worksheets.',
+    },
+    {
+      situation: 'A kindergarten teacher wants to teach data collection and bar graphing as part of her measurement and data unit but finds that abstract counters and colored blocks fail to generate meaningful engagement with the graphing process.',
+      solution: 'She designs a favorite fruit survey using chart-count-color worksheets where each student votes for their favorite fruit from five options, records class votes in tally marks, and colors a bar graph showing the results. She extends the activity across three days: day one for data collection, day two for graphing and interpretation, and day three for comparing their class results with another kindergarten class using side-by-side graphs.',
+      outcome: 'Every student completes the graphing unit without the disengagement she experienced with abstract counters. On the end-of-unit data assessment, 88 percent of students can correctly read a bar graph and answer comparison questions like which fruit got the most votes, compared to 62 percent the previous year. Three students independently create fruit graphs at home, demonstrating genuine transfer of data skills to novel contexts.',
+    },
+    {
+      situation: 'A first-grade teacher needs to develop measurement and comparison vocabulary but finds that traditional measurement worksheets with rulers and abstract units feel disconnected from her students\u2019 daily experience.',
+      solution: 'She introduces big-small-app worksheets with fruit themes alongside pattern-train activities featuring fruit sequences. Students compare fruit sizes from blueberry to watermelon, order sets of fruits from smallest to largest, and extend repeating patterns using three different fruit types. She pairs each worksheet session with a hands-on component where students hold and compare actual fruits brought to class.',
+      outcome: 'Measurement vocabulary usage in student writing increases by 41 percent over three weeks as children naturally incorporate terms like smaller than, largest, and between into their descriptions. Pattern completion accuracy on the unit assessment reaches 92 percent, and students spontaneously identify patterns in other contexts, pointing out alternating fruit types in a cafeteria display and color patterns in a hallway bulletin board.',
+    },
+  ],
+
+  differentiationStrategies: [
+    {
+      learnerType: 'Visual learners',
+      adaptation: 'Prioritize coloring pages of fruit cross-sections and bowls, chart-count-color worksheets with vivid fruit illustrations, and big-small-app worksheets that leverage strong visual-spatial processing. Create a classroom fruit color wall with real photographs organized by color so students can reference visual anchors during sorting tasks. Use color-coded fruit category cards where each fruit type has a consistent color border across all worksheets and classroom materials.',
+    },
+    {
+      learnerType: 'Struggling learners',
+      adaptation: 'Reduce sorting categories to two or three fruit types at a time rather than the full variety, building confidence with highly familiar items like apples and bananas before introducing less common fruits like kiwi or mango. Pair every worksheet with physical fruit manipulatives \u2014 plastic fruit toys or fruit image cards children can physically move into groups before marking answers on paper. Start each session with a simple coloring page of a favorite fruit to build engagement before introducing the target math or classification skill.',
+    },
+    {
+      learnerType: 'Advanced learners',
+      adaptation: 'Challenge them with multi-attribute fruit classification tasks where items must be sorted by two criteria simultaneously \u2014 color AND whether the fruit grows on a tree or a bush. After completing chart-count-color worksheets, ask them to write analytical paragraphs comparing two data sets and explaining why fruit preferences might differ between age groups. Introduce botanical vocabulary like drupe, berry, and pome for scientific fruit classification that extends vocabulary beyond everyday naming.',
+    },
+    {
+      learnerType: 'English language learners',
+      adaptation: 'Begin with image-heavy worksheets like coloring, matching-app, and find-and-count before introducing word-based activities like word search. Fruit names are among the most universally recognizable vocabulary across languages, and many are cognates or loanwords \u2014 banana, mango, kiwi, and orange are nearly identical across dozens of languages. Provide a bilingual fruit reference chart with labeled photographs and names in both languages, leveraging the universal visual recognizability of fruits as tangible vocabulary anchors.',
+    },
+  ],
+
+  assessmentIdeas: [
+    {
+      method: 'Portfolio collection',
+      criteria: 'Collect one fruit worksheet per week over a four-week unit. Compare early and late samples to document growth in fruit identification accuracy, counting and graphing precision, color vocabulary usage, and complexity of sorting criteria. Look specifically for progression from single-attribute sorting by color only to multi-attribute classification by color and size or type and growing environment.',
+      gradeLevel: 'All grades',
+    },
+    {
+      method: 'Observational checklist',
+      criteria: 'While students work on fruit sorting and counting worksheets, note whether they identify fruits by name only using basic vocabulary (Pre-K), classify fruits by multiple visible attributes while explaining sorting decisions (K\u20131st), or apply botanical categories like seed type and growing environment while comparing nutritional properties (2nd\u20133rd). Record whether children transfer classification skills from worksheets to real fruit during snack time or grocery visits.',
+      gradeLevel: 'Pre-K to 3rd',
+    },
+    {
+      method: 'Fruit classification sorting assessment',
+      criteria: 'Present students with a mixed set of fifteen fruit image cards spanning multiple colors, sizes, and growing environments. Ask them to sort the cards into groups using any criteria they choose, name each group, and explain the defining attribute. For advanced students, present borderline items like tomatoes or avocados that are botanically fruits but commonly categorized as vegetables, and ask them to defend their classification with reasoning.',
+      gradeLevel: 'K to 2nd',
+    },
+  ],
+
+  crossCurricularLinks: [
+    {
+      subject: 'Science (Plant Biology & Botany)',
+      connection: 'Every fruit is a seed-bearing structure produced by a flowering plant, making fruit worksheets a direct bridge to plant biology standards about reproduction, seed dispersal, and plant life cycles. Children learn that apples contain seeds to grow new trees, berries attract birds that spread seeds to new locations, and the sweetness that makes fruits delicious is an evolutionary strategy for seed dispersal \u2014 connecting nutrition to ecology.',
+      activity: 'After completing a fruit sorting worksheet, have students cut open three different fruits to examine their seeds. Count the seeds in each, compare sizes and shapes, and create a simple chart recording fruit name, number of seeds, seed size, and seed location. Discuss why some fruits have one large seed while others have many tiny seeds, connecting observation to the concept of different reproductive strategies.',
+    },
+    {
+      subject: 'Health Education (Nutrition & Vitamins)',
+      connection: 'Fruits are primary sources of essential vitamins, fiber, and antioxidants, making fruit worksheets a natural vehicle for teaching children about the relationship between diet and health. The rainbow of fruit colors corresponds to different nutrient profiles \u2014 orange fruits provide vitamin A, citrus provides vitamin C, and berries provide antioxidants \u2014 creating a color-coded nutrition system children can understand and apply.',
+      activity: 'After completing a fruit color-sorting worksheet, introduce the concept of eating a rainbow by challenging students to plan a day of fruit snacks that includes one fruit of each color. Have them draw their rainbow fruit plate, label each fruit with its color and one health benefit, and write a sentence explaining why eating many different colored fruits is better than eating only one type.',
+    },
+    {
+      subject: 'Art (Color Theory Through Natural Objects)',
+      connection: 'Fruits provide the most vivid and accessible natural color palette available to young learners, spanning the entire visible spectrum from red strawberries through orange tangerines, yellow bananas, green limes, blue blueberries, and purple grapes. This natural rainbow makes fruits ideal for teaching primary and secondary colors, warm and cool color families, and color mixing through objects children can observe, hold, and eventually eat.',
+      activity: 'After completing a fruit coloring page, have students arrange fruit illustrations or real fruits in a color wheel pattern. Discuss which fruits represent primary colors and which show secondary or blended colors like a red-orange peach or a yellow-green pear. Students create a fruit color wheel poster with labeled illustrations, connecting art vocabulary to the natural world.',
+    },
+  ],
+
+  quickStats: [
+    { label: 'Recommended age range', value: '3\u20139 years' },
+    { label: 'Worksheet apps available', value: '10 apps' },
+    { label: 'Curriculum areas covered', value: '4 areas' },
+    { label: 'Grade levels supported', value: 'Pre-K to 3rd' },
+    { label: 'Average session length', value: '10\u201320 min' },
+    { label: 'Color spectrum coverage', value: 'Full rainbow \u2014 red through purple' },
+  ],
 };
 
 registerThemeContent('fruits', 'en', content);

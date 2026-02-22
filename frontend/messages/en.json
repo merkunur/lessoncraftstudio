@@ -660,8 +660,8 @@
   },
   "faq": {
     "metaTitle": "FAQ: Worksheet Generator Help & Pricing | LessonCraftStudio",
-    "metaDescription": "Get answers to common questions about our 33 free worksheet generators, subscription pricing, commercial license terms, and technical support for teachers.",
-    "metaKeywords": "worksheet generator FAQ, pricing questions, commercial license help, teacher tool support, LessonCraftStudio help, free worksheet questions, subscription help",
+    "metaDescription": "Get answers about our 33 worksheet generators for preschool through 3rd grade, subscription pricing, curriculum alignment, commercial license terms, and technical support.",
+    "metaKeywords": "worksheet generator FAQ, grade level worksheets, curriculum aligned worksheets, pricing questions, commercial license help, teacher tool support, LessonCraftStudio help, preschool worksheets FAQ, kindergarten worksheets FAQ",
     "hero": {
       "title": "Frequently Asked Questions",
       "subtitle": "Everything you need to know about LessonCraftStudio worksheet generators"
@@ -671,6 +671,7 @@
       "apps": "About Our Apps",
       "pricing": "Pricing & Plans",
       "technical": "Technical Support",
+      "education": "Education & Grade Levels",
       "commercial": "Commercial Use & Licensing"
     },
     "items": {
@@ -1170,8 +1171,8 @@
   },
   "about": {
     "metaTitle": "About LessonCraftStudio | Educational Worksheet Generators",
-    "metaDescription": "Learn about LessonCraftStudio — 33 free worksheet generators in 11 languages with 3,000+ themed images. Built for teachers, parents, and speech therapists.",
-    "metaKeywords": "about LessonCraftStudio, educational worksheet generators, teacher tools, worksheet maker platform, multilingual worksheets, themed educational images",
+    "metaDescription": "Learn about LessonCraftStudio — 33 curriculum-aligned worksheet generators in 11 languages with 3,000+ themed images. Educator-tested tools for teachers, parents, and therapists.",
+    "metaKeywords": "about LessonCraftStudio, educational worksheet generators, curriculum aligned tools, educator tested worksheets, teacher tools, worksheet maker platform, multilingual worksheets, evidence based learning",
     "hero": {
       "title": "About LessonCraftStudio",
       "subtitle": "Empowering educators worldwide with professional worksheet generators"
@@ -1204,6 +1205,22 @@
       "inclusive": {
         "title": "Multilingual & Inclusive",
         "description": "All 33 generators work seamlessly in 11 languages, with culturally appropriate content and a library of 3,000+ hand-curated images."
+      }
+    },
+    "expertise": {
+      "title": "Our Educational Expertise",
+      "subtitle": "Every generator is built on proven principles and tested by real educators",
+      "curriculum": {
+        "title": "Curriculum-Aligned Design",
+        "description": "Our generators cover early math, literacy, visual perception, and fine motor skills — aligned with early childhood education frameworks for preschool through 3rd grade."
+      },
+      "educators": {
+        "title": "Educator-Tested Content",
+        "description": "Every generator is reviewed by classroom teachers, homeschool parents, and special education professionals across 11 countries to ensure practical, real-world effectiveness."
+      },
+      "evidence": {
+        "title": "Evidence-Based Approach",
+        "description": "Our worksheets incorporate multi-sensory engagement, scaffolded difficulty progression, and repetition with variety — techniques shown to improve retention in early learners."
       }
     },
     "audience": {

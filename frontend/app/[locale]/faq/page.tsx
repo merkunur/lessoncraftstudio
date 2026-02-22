@@ -64,6 +64,10 @@ export default async function FAQPage({ params: { locale } }: PageProps) {
       title: t('categories.general'),
       items: faqItems.general
     },
+    ...(faqItems.education ? [{
+      title: t('categories.education'),
+      items: faqItems.education
+    }] : []),
     {
       title: t('categories.apps'),
       items: faqItems.apps
@@ -85,6 +89,7 @@ export default async function FAQPage({ params: { locale } }: PageProps) {
   // Flatten all FAQ items for structured data
   const allFaqItems = [
     ...faqItems.general,
+    ...(faqItems.education || []),
     ...faqItems.apps,
     ...faqItems.pricing,
     ...faqItems.technical,

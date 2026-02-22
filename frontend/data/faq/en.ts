@@ -17,6 +17,28 @@ export const faqData = {
       answer: "Yes! We offer a free tier with the Word Search generator only (watermarked)—no credit card required to start."
     }
   ],
+  education: [
+    {
+      question: "What age groups and grade levels are your worksheets designed for?",
+      answer: "Our worksheets cover preschool through 3rd grade, serving children ages 3 to 9. We offer content for five grade levels: Preschool (ages 3-4), Pre-K (ages 4-5), Kindergarten (ages 5-6), 1st Grade (ages 6-7), 2nd Grade (ages 7-8), and 3rd Grade (ages 8-9). Each generator includes difficulty settings so you can target the right level."
+    },
+    {
+      question: "Are your worksheets aligned with school curriculum standards?",
+      answer: "Yes. Our math generators cover counting, addition, subtraction, number recognition, and pattern skills aligned with early childhood math standards. Literacy generators address letter recognition, phonics, vocabulary, and handwriting. Visual perception and fine motor skill worksheets support developmental milestones used in early childhood education frameworks worldwide."
+    },
+    {
+      question: "What subject categories do your worksheet generators cover?",
+      answer: "Our 33 generators span four main categories: Mathematics (addition, subtraction, counting, number puzzles), Literacy (word search, alphabet, writing practice, word games), Visual Perception (shadow match, pattern recognition, odd one out, missing pieces), and Puzzles & Games (sudoku, bingo, treasure hunt, cryptograms). Each category includes generators for multiple skill levels."
+    },
+    {
+      question: "Can I differentiate worksheets for students at different skill levels?",
+      answer: "Absolutely. Every generator offers customization options including difficulty levels, grid sizes, number ranges, and content complexity. You can create easier versions for struggling learners and more challenging versions for advanced students — all from the same generator. This makes differentiated instruction quick and practical."
+    },
+    {
+      question: "How do themed images support learning?",
+      answer: "Our library of 3,000+ hand-curated images across 100+ themes (animals, food, vehicles, seasons, and more) makes worksheets visually engaging and contextually meaningful. Research shows that themed visuals increase student motivation and help connect abstract concepts to familiar objects, which is especially effective for early learners and English language learners."
+    }
+  ],
   apps: [
     {
       question: "How many worksheet generators do you offer?",

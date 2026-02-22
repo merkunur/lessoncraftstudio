@@ -1,0 +1,35 @@
+{
+  "timestamp": "2026-02-22T12:40:21.386Z",
+  "baseUrl": "https://www.lessoncraftstudio.com",
+  "locale": "en",
+  "totalPages": 339,
+  "passCount": 339,
+  "failCount": 0,
+  "categories": {
+    "secondary": {
+      "total": 6,
+      "pass": 6
+    },
+    "product": {
+      "total": 33,
+      "pass": 33
+    },
+    "themeHub": {
+      "total": 50,
+      "pass": 50
+    },
+    "themeGrade": {
+      "total": 250,
+      "pass": 250
+    }
+  },
+  "checkDistribution": {
+    "http200": 339,
+    "title": 339,
+    "metaDesc": 339,
+    "canonical": 339,
+    "hreflang": 339,
+    "jsonLd": 339
+  },
+  "failures": []
+}

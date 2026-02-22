@@ -6,7 +6,7 @@ const content: EnrichedThemeContent = {
   name: 'Sirkus',
   title: 'Sirkusteht\u00e4v\u00e4t ja Ty\u00f6lehdet Lapsille | LessonCraftStudio',
   description: 'Tutustu sirkusteht\u00e4viin lapsille: pellet, akrobaatit, sirkusteltat ja esiintyj\u00e4t. Matematiikkaa, lukemista ja pulmia esikoulusta 3. luokalle. Tulostettavia.',
-  keywords: 'sirkusteht\u00e4v\u00e4t lapsille, sirkus ty\u00f6lehdet tulostettava, pelle teht\u00e4v\u00e4t esikoulu, sirkus v\u00e4rityssivut, akrobaatti ty\u00f6lehdet lapsille, sirkusteltta teht\u00e4v\u00e4t, sirkus palapelit, sirkus matematiikka, sirkusel\u00e4in teht\u00e4v\u00e4t, taikuri ty\u00f6lehdet lapsille',
+  keywords: 'sirkustehtävät lapsille, sirkusaiheinen oppimateriaali, esiintyminen ja sirkus tehtävä, akrobatia oppiminen lapset, sirkuseläimet harjoitus, pelle ja taikuri teema, liikunta ja sirkus, sirkussanasto esikoulu, luova liikunta sirkus, sirkusteht\u00e4v\u00e4t lapsille, sirkus ty\u00f6lehdet tulostettava',
   heading: 'Sirkusaiheiset Teht\u00e4v\u00e4t ja Pulmia Lapsille',
 
   // -- Rich narrative content --

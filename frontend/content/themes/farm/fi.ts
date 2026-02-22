@@ -6,7 +6,7 @@ const content: EnrichedThemeContent = {
   name: 'Maatila',
   title: 'Maatilateht\u00e4v\u00e4t ja Ty\u00f6lehdet Lapsille | LessonCraftStudio',
   description: 'Tutustu maatilateht\u00e4viin lapsille: lehm\u00e4t, kanat, traktorit ja ladot. Matematiikkaa, lukemista ja pulmia esikoulusta 3. luokalle. Tulostettavia ty\u00f6lehti\u00e4.',
-  keywords: 'maatilateht\u00e4v\u00e4t lapsille, maatila ty\u00f6lehdet tulostettava, maatilael\u00e4imet teht\u00e4v\u00e4t esikoulu, traktori ty\u00f6lehdet lapsille, maatila v\u00e4rityssivut, lehm\u00e4 teht\u00e4v\u00e4t esikoulu, maatila palapelit, kana ty\u00f6lehdet lapsille, maatilael\u00e4inten laskeminen, maatila sanahaku',
+  keywords: 'maatilatehtävät lapsille, maatalous oppimateriaali lapset, maatilan eläimet harjoitus, ruoantuotanto oppiminen, maatilasanasto esikoulu, kasvien kasvatus tehtävä, maaseutu ja luonto, kotieläimet tunnistaminen, sadonkorjuu oppiminen, maatilateht\u00e4v\u00e4t lapsille, maatila ty\u00f6lehdet tulostettava',
   heading: 'Maatila-aiheiset Teht\u00e4v\u00e4t ja Ty\u00f6lehdet Lapsille',
 
   // -- Rich narrative content --

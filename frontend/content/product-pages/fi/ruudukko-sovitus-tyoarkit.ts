@@ -19,7 +19,7 @@ export const gridMatchFiContent: ProductPageContent = {
     appId: 'grid-match',
     title: 'Ilmainen Ruudukkosovitus Generaattori | LessonCraftStudio',
     description: 'Luo tulostettavia ruudukkosovitustehtäviä visuaalisen hahmotuksen ja avaruudellisen päättelyn kehittämiseen. 50 teemaa esikoulusta 3. luokalle. Ilmainen PDF.',
-    keywords: 'ruudukkosovitus tehtävät, visuaalinen palapeli lapsille, avaruudellinen päättely, kuvioiden sovitus, ruudukkotehtävät tulostettava, hahmottaminen harjoitus, visuaalinen logiikka lapsille, sovitusharjoitukset esikoulu, ruudukko palapeli, avaruudellinen hahmottaminen',
+    keywords: 'ruudukkosovitus generaattori, ruudukkotehtävä esikoulu, koordinaatioharjoitus, paikantaminen ruudukossa, visuaalinen kopiointitehtävä, avaruudellinen ajattelu, ruudukon lukeminen, matriisitehtävä lapsille, kuvion sijoittaminen, looginen sijoittelu, visuaalinen organisointi, ruudukkosovitus tehtävät, visuaalinen palapeli lapsille',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/ruudukko-sovitus-tyoarkit',
   },
 

@@ -21,7 +21,7 @@ export const crosswordFiContent: ProductPageContent = {
     appId: 'crossword',
     title: 'Kuvaristisana Generaattori — Ilmainen | LessonCraftStudio',
     description: 'Luo tulostettavia kuvaristisanatehtäviä, joissa kuvat toimivat vihjehinä. Kehittää sanavarastoa ja oikeinkirjoitusta. Esikoulusta 3. luokalle. Ilmainen.',
-    keywords: 'kuvaristisana tehtävät, ristisana lapsille tulostettava, kuvalliset ristisanat, sanaristikko lapsille, ristisana esikoulu, sanasto ristisana, kuva-ristisana tulostettava, oikeinkirjoitus ristisana, ristisanatehtävä kuvilla, lasten sanaristikko',
+    keywords: 'kuvaristisana generaattori, ristikko lapsille, sanaristikko harjoitus, sanasto kehittäminen, oikeinkirjoitustaito, kielellinen päättely, sanapeli tulostettava, kirjaintaito harjoitus, lukemisen tukeminen, visuaalinen sanaharjoitus, suomen kielen sanasto, kuvaristisana tehtävät, ristisana lapsille tulostettava',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/ristisanatehtavat-tyoarkit',
   },
 

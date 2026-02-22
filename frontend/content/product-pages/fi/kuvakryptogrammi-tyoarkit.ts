@@ -21,7 +21,7 @@ export const cryptogramFiContent: ProductPageContent = {
     appId: 'cryptogram',
     title: 'Kuvakryptogrammi Generaattori | LessonCraftStudio',
     description: 'Luo tulostettavia kuvakryptogrammi-tehtäviä, joissa kirjaimet korvataan kuvilla. Kehittää dekoodaustaitoja ja lukemisvalmiutta. Esikoulusta 3. luokalle.',
-    keywords: 'kuvakryptogrammi tehtävät, salakirjoitus lapsille, dekoodaus tehtävä, salakielen purkaminen, kuvakoodaus harjoitus, salasana tehtävä, kryptogrammi tulostettava, symbolien dekoodaus, salaviesti harjoitus, lukemisvalmiuden harjoittelu',
+    keywords: 'kuvakryptogrammi generaattori, salakirjoitus lapsille, koodipulma oppiminen, symbolikirjoitus harjoitus, koodinpurkaminen lukutaito, looginen kielitehtävä, visuaalinen koodaus, dekoodaus lukeminen, kirjaintunnistus pulmalla, koodisanasto harjoitus, ajattelutaito kehittäminen, kuvakryptogrammi tehtävät, dekoodaus tehtävä',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/kuvakryptogrammi-tyoarkit',
   },
 

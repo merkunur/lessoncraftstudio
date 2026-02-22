@@ -17,7 +17,7 @@ export const additionFiContent: ProductPageContent = {
     appId: 'addition',
     title: 'Ilmainen Yhteenlasku Generaattori | LessonCraftStudio',
     description: 'Luo tulostettavia yhteenlaskutehtäviä kuvilla esikoulusta 3. luokalle. 3 000+ kuvan kirjasto, muokattavat asetukset ja vastausavaimet. Lataa PDF heti.',
-    keywords: 'yhteenlasku generaattori, yhteenlasku tehtävät tulostettava, yhteenlaskuharjoitukset esikoulu, kuvalliset yhteenlaskut, matematiikka monisteet ilmainen, kuvapohjainen yhteenlasku, tulostettavat laskutehtävät, yhteenlasku vastausavain, laskemisen harjoittelu, yhteenlasku kuvilla',
+    keywords: 'yhteenlasku generaattori, summa laskeminen, muistinumero yhteenlasku, paikka-arvo harjoitus, lukujono harjoittelu, peruslaskutoimitukset, matemaattinen ajattelu, laskustrategia esikoulu, kymmenjärjestelmä oppiminen, luvun hajoittaminen, laskusujuvuus harjoitus, yhteenlasku tehtävät tulostettava, yhteenlaskuharjoitukset esikoulu',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/yhteenlasku-tyoarkit',
   },
 

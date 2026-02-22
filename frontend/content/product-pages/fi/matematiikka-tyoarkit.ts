@@ -17,7 +17,7 @@ export const mathWorksheetsFiContent: ProductPageContent = {
     appId: 'math-worksheet',
     title: 'Matematiikkatehtävä Generaattori | LessonCraftStudio',
     description: 'Luo visuaalisia matematiikkatehtäviä kuvilla. Yhteenlasku, vähennyslasku, vertailu ja lukujonot esikoulusta 3. luokalle. Vastausavaimet mukana. Ilmainen PDF.',
-    keywords: 'matematiikkatehtävä generaattori, matematiikka tehtävät alakoulu, matikka tehtävät tulostettava, matematiikka monisteet, matikkaharjoitukset esikoulu, visuaaliset matematiikkatehtävät, laskutehtävät lapsille, matematiikka vastausavain, matikka tulostettava ilmainen, matematiikka harjoitustehtävät',
+    keywords: 'matematiikkatehtävä generaattori, laskutoimitukset harjoittelu, matemaattiset perustaidot, numerotaju kehittäminen, laskuharjoitukset tulostettava, matematiikan oppiminen, laskutaidon vahvistaminen, perusmatematiikka lapset, aritmetiikka harjoitus, lukumääräkäsite oppiminen, matematiikkapeli tulostettava, matematiikka tehtävät alakoulu, matikka tehtävät tulostettava',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/matematiikka-tyoarkit',
   },
 

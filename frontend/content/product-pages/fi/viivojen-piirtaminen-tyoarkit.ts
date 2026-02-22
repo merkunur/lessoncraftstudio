@@ -17,7 +17,7 @@ export const drawingLinesFiContent: ProductPageContent = {
     appId: 'drawing-lines',
     title: 'Viivanpiirto Generaattori — Ilmainen | LessonCraftStudio',
     description: 'Luo tulostettavia viivanpiirtotehtäviä hienomotoriikan kehittämiseen. Suorat, kaaret ja aaltoviivat esikoulusta 1. luokalle. Lataa ilmainen PDF.',
-    keywords: 'viivanpiirto generaattori, viivanpiirto tehtävät, hienomotoriikka harjoitukset, viivan seuranta tehtävä, kynätaitoharjoitukset, piirtämisen harjoittelu esikoulu, hienomotoriikka esikoulu, kirjoitusvalmiudet harjoitus, kynäote harjoittelu, piirtämistaidot lapsille',
+    keywords: 'viivanpiirto generaattori, viivan vetäminen harjoitus, kynänhallinta kehittäminen, graafomotoriikka, piirtämisen perustaidot, jäljentäminen esikoulu, motoriikan kehittäminen, käden harjoittelu, viivakuvio harjoitus, esikoulun piirtoharjoitus, kirjoitusvalmiuden tukeminen, viivanpiirto tehtävät, hienomotoriikka harjoitukset',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/viivojen-piirtaminen-tyoarkit',
   },
 

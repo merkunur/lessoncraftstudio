@@ -6,7 +6,7 @@ const content: EnrichedThemeContent = {
   name: 'Värit',
   title: 'V\u00e4riteht\u00e4v\u00e4t ja Ty\u00f6lehdet Lapsille | LessonCraftStudio',
   description: 'Tutustu v\u00e4riteht\u00e4viin lapsille: v\u00e4rien tunnistaminen, sekoittaminen, lajittelu ja taide. Tulostettavia ty\u00f6lehti\u00e4 esikoulusta 3. luokalle. V\u00e4rien oppimista.',
-  keywords: 'v\u00e4riteht\u00e4v\u00e4t lapsille, v\u00e4rien tunnistus teht\u00e4v\u00e4t, v\u00e4rien sekoittaminen ty\u00f6lehdet, v\u00e4rien lajittelu teht\u00e4v\u00e4, tulostettavat v\u00e4rity\u00f6lehdet, p\u00e4\u00e4v\u00e4rit esikoulu, v\u00e4risanasto lapsille, v\u00e4ri palapelit, sateenkaari teht\u00e4v\u00e4t lapsille, v\u00e4rien oppiminen esikoulu',
+  keywords: 'väritehtävät lapsille, värien oppiminen harjoitus, värien tunnistaminen tehtävä, päävärit ja välivärit, värien sekoittaminen lapset, värisanasto esikoulu, visuaalinen väriharjoitus, värien lajittelu tehtävä, väriympyrä oppiminen, v\u00e4riteht\u00e4v\u00e4t lapsille, v\u00e4rien tunnistus teht\u00e4v\u00e4t',
   heading: 'V\u00e4riaiheiset Teht\u00e4v\u00e4t ja Ty\u00f6lehdet Lapsille',
 
   // -- Rich narrative content --

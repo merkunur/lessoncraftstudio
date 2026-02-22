@@ -19,7 +19,7 @@ export const patternTrainFiContent: ProductPageContent = {
     appId: 'pattern-train',
     title: 'Ilmainen Kuviojuna Generaattori | LessonCraftStudio',
     description: 'Luo tulostettavia kuviojunatehtäviä kuvionhahmotuksen harjoitteluun. Junamuotoiset tehtävät 3 000+ kuvalla. Esikoulusta 2. luokalle. Ilmainen PDF-lataus.',
-    keywords: 'kuviojuna tehtävät, kuvioiden jatkaminen, hahmontunnistus juna, kuvionhahmotus esikoulu, kuviojatko harjoitus, kuviojuna tulostettava, kuviosarjat lapsille, kuvioiden tunnistaminen, matemaattinen hahmotus, kuviojono harjoitus',
+    keywords: 'kuviojuna generaattori, kuviosarja lapsille, toistuvuus tunnistaminen, sekvenssi harjoitus, kuviokierto oppiminen, jatkuva kuvio tehtävä, algebrallinen ajattelu johdanto, säännönmukaisuus harjoitus, sarjan jatkaminen, visuaalinen kaava, kuvion täydentäminen, kuviojuna tehtävät, kuvioiden jatkaminen',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/kuviojuna-tyoarkit',
   },
 

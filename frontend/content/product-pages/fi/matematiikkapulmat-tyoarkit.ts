@@ -24,7 +24,7 @@ export const mathPuzzleFiContent: ProductPageContent = {
     appId: 'math-puzzle',
     title: 'Matematiikkapulma Generaattori | LessonCraftStudio',
     description: 'Luo tulostettavia matematiikkapulmia yhteenlaskun ja vähennyslaskun harjoitteluun. Ongelmanratkaisutaitoja kehittävät pulmat esikoulusta 3. luokalle.',
-    keywords: 'matematiikkapulmat lapsille, matemaattiset ongelmanratkaisut, matikkapulma tulostettava, laskupulmat esikoulu, matemaattinen ajattelu, logiikkapulmat matematiikka, matematiikka pulmatehtävät, laskupulma vastausavain, ongelmanratkaisu matematiikka, matikkapulmat alakoulu',
+    keywords: 'matematiikkapulma generaattori, laskupulma lapsille, matemaattinen ongelmanratkaisu, ajattelupeli matematiikka, lukupulma harjoitus, matemaattinen logiikka, päässälaskuharjoitus, matemaattinen haaste, kriittinen ajattelu matematiikka, numeropulma tulostettava, matemaattinen päättelytaito, matematiikkapulmat lapsille, matemaattiset ongelmanratkaisut',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/matematiikkapulmat-tyoarkit',
   },
 

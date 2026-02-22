@@ -6,7 +6,7 @@ const content: EnrichedThemeContent = {
   name: 'P\u00e4\u00e4si\u00e4inen',
   title: 'P\u00e4\u00e4si\u00e4isteht\u00e4v\u00e4t ja Ty\u00f6lehdet Lapsille | LessonCraftStudio',
   description: 'Tutustu p\u00e4\u00e4si\u00e4isteht\u00e4viin lapsille: munajahdit, kev\u00e4tpuput ja pastelliv\u00e4rit. Matematiikkaa, lukemista ja pulmia esikoulusta 3. luokalle. Tulostettavia.',
-  keywords: 'p\u00e4\u00e4si\u00e4isteht\u00e4v\u00e4t lapsille, p\u00e4\u00e4si\u00e4inen ty\u00f6lehdet tulostettava, munajahti teht\u00e4v\u00e4t esikoulu, p\u00e4\u00e4si\u00e4ismuna v\u00e4rityssivut, kev\u00e4t ty\u00f6lehdet lapsille, p\u00e4\u00e4si\u00e4inen palapelit, p\u00e4\u00e4si\u00e4ispupu teht\u00e4v\u00e4t, tipujen laskeminen esikoulu, p\u00e4\u00e4si\u00e4inen sanahaku, p\u00e4\u00e4si\u00e4iskoristelu teht\u00e4v\u00e4t',
+  keywords: 'pääsiäistehtävät lapsille, pääsiäisaiheinen oppimateriaali, pääsiäismuna tehtävä, kevätjuhla harjoitukset, pääsiäispupu työlehdet, kausiaiheinen oppiminen, pääsiäisaskartelu tehtävä, pääsiäissanasto harjoitus, pääsiäisperinne oppiminen, p\u00e4\u00e4si\u00e4isteht\u00e4v\u00e4t lapsille, p\u00e4\u00e4si\u00e4inen ty\u00f6lehdet tulostettava',
   heading: 'P\u00e4\u00e4si\u00e4isaiheiset Teht\u00e4v\u00e4t ja Ty\u00f6lehdet Lapsille',
 
   // -- Rich narrative content --

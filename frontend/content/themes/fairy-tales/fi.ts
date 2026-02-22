@@ -6,7 +6,7 @@ const content: EnrichedThemeContent = {
   name: 'Sadut',
   title: 'Satutehtävät ja Työlehdet Lapsille | LessonCraftStudio',
   description: 'Tutustu satutehtäviin lapsille: linnat, lohikäärmeet, prinsessat ja lumotut metsät. Lukemista, matematiikkaa ja pulmia esikoulusta 3. luokalle. Tulostettavia.',
-  keywords: 'satutehtävät lapsille, satu työlehdet tulostettava, lohikäärme tehtävät esikoulu, prinsessa työlehdet lapsille, satu värityssivut, linnan palapelit, satuhahmot tehtävät, satu sanahaku lapsille, taikuus työlehdet, satumetsä tehtävät esikoulu',
+  keywords: 'satutehtävät lapsille, satuaiheinen oppimateriaali, tarinan ymmärtäminen harjoitus, satuhahmot tehtävä, tarinan rakenne oppiminen, mielikuvitus ja sadut, lukemisen innostaminen, satujen sanasto, kertomuksen osat harjoitus, satu työlehdet tulostettava, lohikäärme tehtävät esikoulu',
   heading: 'Satuaiheiset Tehtävät ja Pulmia Lapsille',
 
   // -- Rich narrative content --

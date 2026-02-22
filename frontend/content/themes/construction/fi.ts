@@ -6,7 +6,7 @@ const content: EnrichedThemeContent = {
   name: 'Rakentaminen',
   title: 'Rakennusteht\u00e4v\u00e4t ja Ty\u00f6lehdet Lapsille | LessonCraftStudio',
   description: 'Tutustu rakentamisaiheisiin teht\u00e4viin lapsille: ty\u00f6kalut, nosturit, piirustukset ja rakennukset. Matematiikkaa, lukemista ja pulmia esikoulusta 3. luokalle.',
-  keywords: 'rakennusteht\u00e4v\u00e4t lapsille, rakentaminen ty\u00f6lehdet tulostettava, ty\u00f6kalu teht\u00e4v\u00e4t esikoulu, nosturi ty\u00f6lehdet lapsille, rakentaminen v\u00e4rityssivut, rakentaminen matematiikka, ty\u00f6maa teht\u00e4v\u00e4t, rakentaminen palapelit, rakennuskoneet teht\u00e4v\u00e4t lapsille, rakentaminen sanahaku',
+  keywords: 'rakennustehtävät lapsille, rakentaminen oppimateriaali, työmaa teema lapset, rakennuskoneet harjoitus, suunnittelu ja rakentaminen, STEM-oppiminen rakentaminen, rakennussanasto esikoulu, mittaaminen ja rakentaminen, insinööriajattelu lapset, rakennusteht\u00e4v\u00e4t lapsille, rakentaminen ty\u00f6lehdet tulostettava',
   heading: 'Rakentamisteht\u00e4v\u00e4t ja Ty\u00f6lehdet Lapsille',
 
   // -- Rich narrative content --

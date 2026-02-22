@@ -6,7 +6,7 @@ const content: EnrichedThemeContent = {
   name: 'El\u00e4imet',
   title: 'El\u00e4inteht\u00e4v\u00e4t ja Ty\u00f6lehdet Lapsille | LessonCraftStudio',
   description: 'Tutustu el\u00e4inaiheisiin teht\u00e4viin lapsille: matematiikka, lukeminen, v\u00e4ritys ja palapelit. Tulostettavia ty\u00f6lehti\u00e4 esikoulusta 3. luokalle. Yli 100 el\u00e4inkuvaa.',
-  keywords: 'el\u00e4inteht\u00e4v\u00e4t lapsille, el\u00e4in ty\u00f6lehdet tulostettava, el\u00e4in v\u00e4rityssivut lapsille, el\u00e4in matematiikkateht\u00e4v\u00e4t, el\u00e4inten laskeminen esikoulu, el\u00e4in palapelit lapsille, kotiel\u00e4in teht\u00e4v\u00e4t, villiel\u00e4in ty\u00f6lehdet, el\u00e4inten lajittelu teht\u00e4v\u00e4, el\u00e4in sanahaku lapsille',
+  keywords: 'eläintehtävät lapsille, eläinaiheinen oppimateriaali, eläinten luokittelu harjoitus, eläinsanasto oppiminen, eläinten elinympäristöt tehtävä, biologian peruskäsitteet lapset, nisäkkäät linnut matelijat, eläinten laskeminen harjoitus, luontokasvatus työlehdet, el\u00e4inteht\u00e4v\u00e4t lapsille, el\u00e4in ty\u00f6lehdet tulostettava',
   heading: 'El\u00e4inaiheiset Teht\u00e4v\u00e4t ja Ty\u00f6lehdet Lapsille',
 
   // -- Rich narrative content --

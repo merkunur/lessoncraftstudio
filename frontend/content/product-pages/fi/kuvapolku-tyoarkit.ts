@@ -19,7 +19,7 @@ export const picturePathFiContent: ProductPageContent = {
     appId: 'picture-path',
     title: 'Ilmainen Kuvapolku Generaattori | LessonCraftStudio',
     description: 'Luo tulostettavia kuvapolkutehtäviä, joissa lapsi seuraa kuvareittejä. Kehittää loogista ajattelua ja hienomotoriikkaa. Esikoulusta 2. luokalle. Ilmainen.',
-    keywords: 'kuvapolku tehtävät, sokkelotehtävät lapsille, labyrintti tulostettava, reitin seuraaminen, kuvasokkelo harjoitus, polkutehtävät esikoulu, labyrinttitehtävät lapsille, sokkelo tulostettava, reittiharjoitukset, visuaalinen reitin seuranta',
+    keywords: 'kuvapolku generaattori, sokkelo lapsille, polun seuraaminen tehtävä, avaruudellinen navigointi, reitinvalinta harjoitus, visuaalinen seuranta, ongelmanratkaisu polkupeli, suunnittelukyky harjoitus, etenemisstrategia oppiminen, labyrintti tulostettava, visuomotorinen harjoitus, kuvapolku tehtävät, sokkelotehtävät lapsille',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/kuvapolku-tyoarkit',
   },
 

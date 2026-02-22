@@ -6,7 +6,7 @@ const content: EnrichedThemeContent = {
   name: 'Ruoka',
   title: 'Ruokateht\u00e4v\u00e4t ja Ty\u00f6lehdet Lapsille | LessonCraftStudio',
   description: 'Tutustu ruokateht\u00e4viin lapsille: hedelm\u00e4t, vihannekset, ruokaryhm\u00e4t ja ravitsemus. Matematiikkaa, lukemista ja pulmia esikoulusta 3. luokalle. Tulostettavia.',
-  keywords: 'ruokateht\u00e4v\u00e4t lapsille, ruoka ty\u00f6lehdet tulostettava, ruokaryhm\u00e4t teht\u00e4v\u00e4t esikoulu, ravitsemus ty\u00f6lehdet lapsille, hedelm\u00e4t teht\u00e4v\u00e4t, terveellinen ruoka ty\u00f6lehdet, ruoka v\u00e4rityssivut, ruoka palapelit lapsille, ruoka sanahaku, vihannekset teht\u00e4v\u00e4t esikoulu',
+  keywords: 'ruokatehtävät lapsille, ruoka-aiheinen oppimateriaali, ravitsemus oppiminen lapset, terveellinen ruokavalio tehtävä, ruokaryhmät harjoitus, ruokasanasto esikoulu, ruoka ja terveys, ruokakasvatus työlehdet, aterioiden suunnittelu, ruokateht\u00e4v\u00e4t lapsille, ruoka ty\u00f6lehdet tulostettava',
   heading: 'Ruoka-aiheiset Teht\u00e4v\u00e4t ja Ty\u00f6lehdet Lapsille',
 
   // -- Rich narrative content --

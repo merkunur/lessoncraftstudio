@@ -6,7 +6,7 @@ const content: EnrichedThemeContent = {
   name: 'Juhlap\u00e4iv\u00e4t',
   title: 'Juhlap\u00e4iv\u00e4teht\u00e4v\u00e4t ja Ty\u00f6lehdet Lapsille | LessonCraftStudio',
   description: 'Tutustu juhlap\u00e4iv\u00e4teht\u00e4viin lapsille: joulu, p\u00e4\u00e4si\u00e4inen, vappu ja itsen\u00e4isyysp\u00e4iv\u00e4. Matematiikkaa, lukemista ja pulmia esikoulusta 3. luokalle.',
-  keywords: 'juhlap\u00e4iv\u00e4teht\u00e4v\u00e4t lapsille, juhlap\u00e4iv\u00e4 ty\u00f6lehdet tulostettava, joulu teht\u00e4v\u00e4t esikoulu, juhla v\u00e4rityssivut, vappu ty\u00f6lehdet lapsille, juhlap\u00e4iv\u00e4 palapelit, itsen\u00e4isyysp\u00e4iv\u00e4 teht\u00e4v\u00e4t, juhla sanahaku lapsille, perinteet ty\u00f6lehdet, juhlien laskeminen esikoulu',
+  keywords: 'juhlatehtävät lapsille, juhlapyhät oppimateriaali, vuodenkierto ja juhlat, kulttuuriset juhlat oppiminen, kalenteriharjoitus lapset, juhlaperinteet tehtävä, juhla-aiheinen sanasto, juhlien laskeminen, perinnejuhlat esikoulu, juhlap\u00e4iv\u00e4teht\u00e4v\u00e4t lapsille, juhlap\u00e4iv\u00e4 ty\u00f6lehdet tulostettava',
   heading: 'Juhlap\u00e4iv\u00e4aiheiset Teht\u00e4v\u00e4t ja Ty\u00f6lehdet Lapsille',
 
   // -- Rich narrative content --

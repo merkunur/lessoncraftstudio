@@ -6,7 +6,7 @@ const content: EnrichedThemeContent = {
   name: 'Vihannekset',
   title: 'Vihannesteht\u00e4v\u00e4t ja Ty\u00f6lehdet Lapsille | LessonCraftStudio',
   description: 'Tutustu vihannesteht\u00e4viin lapsille: porkkana, tomaatti, kurkku ja peruna. Matematiikkaa, lukemista ja pulmia esikoulusta 3. luokalle. Tulostettavia.',
-  keywords: 'vihannesteht\u00e4v\u00e4t lapsille, vihannes ty\u00f6lehdet tulostettava, porkkana teht\u00e4v\u00e4t esikoulu, vihannes v\u00e4rityssivut, tomaatti ty\u00f6lehdet lapsille, vihannes palapelit, kurkku teht\u00e4v\u00e4t esikoulu, vihannes sanahaku lapsille, peruna ty\u00f6lehdet, vihannesten laskeminen',
+  keywords: 'vihannestehtävät lapsille, vihannekset oppimateriaali, kasvisten tunnistaminen harjoitus, terveellinen ruokavalio lapset, vihannessanasto esikoulu, kasvimaa harjoitus, vihannesten lajittelu tehtävä, ravitsemuskasvatus vihannekset, kasvisten kasvatus, vihannesteht\u00e4v\u00e4t lapsille, vihannes ty\u00f6lehdet tulostettava',
   heading: 'Vihannesaiheiset Teht\u00e4v\u00e4t ja Ty\u00f6lehdet Lapsille',
 
   // -- Rich narrative content --

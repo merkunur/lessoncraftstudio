@@ -17,7 +17,7 @@ export const pictureBingoFiContent: ProductPageContent = {
     appId: 'bingo',
     title: 'Ilmainen Kuva-Bingo Generaattori | LessonCraftStudio',
     description: 'Luo tulostettavia kuva-bingopelejä lapsille. 50 teemaa, muokattavat ruudukot ja kuvat 3 000+ kirjastosta. Täydellinen luokkahuoneeseen. Lataa ilmaiseksi.',
-    keywords: 'bingo tulostettava lapsille, kuva-bingo peli, tulostettava bingopeli, bingo esikoulu, luokan bingopeli, kuva-bingo ruudukko, kuvabingo tulostettava, ryhmäpeli tulostettava, bingo tehtävä lapsille, bingopeli luokkahuone',
+    keywords: 'kuva-bingo generaattori, bingopeli lapsille tulostettava, sanastopeli opetukseen, ryhmätoiminta luokassa, tunnistaminen bingo, visuaalinen muistipeli, oppimispeli tulostettava, kuvatunnistus leikki, interaktiivinen oppimistehtävä, sanaston vahvistaminen peli, yhteistoiminnallinen oppiminen, bingo tulostettava lapsille, kuva-bingo peli',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/kuva-bingo-tyoarkit',
   },
 

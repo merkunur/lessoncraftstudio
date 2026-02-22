@@ -6,7 +6,7 @@ const content: EnrichedThemeContent = {
   name: 'S\u00e4\u00e4',
   title: 'S\u00e4\u00e4teht\u00e4v\u00e4t ja Ty\u00f6lehdet Lapsille | LessonCraftStudio',
   description: 'Tutustu s\u00e4\u00e4teht\u00e4viin lapsille: aurinko, sade, pilvet ja tuuli. Matematiikkaa, lukemista ja pulmia esikoulusta 3. luokalle. Tulostettavia ty\u00f6lehti\u00e4.',
-  keywords: 's\u00e4\u00e4teht\u00e4v\u00e4t lapsille, s\u00e4\u00e4 ty\u00f6lehdet tulostettava, aurinko teht\u00e4v\u00e4t esikoulu, s\u00e4\u00e4 v\u00e4rityssivut, sade ty\u00f6lehdet lapsille, s\u00e4\u00e4 palapelit, pilvi teht\u00e4v\u00e4t esikoulu, s\u00e4\u00e4 sanahaku lapsille, tuuli ty\u00f6lehdet, s\u00e4\u00e4ilmi\u00f6iden laskeminen',
+  keywords: 'säätehtävät lapsille, sää oppimateriaali esikoulu, sääilmiöt harjoitus lapset, sääsanasto oppiminen, lämpötila ja sää tehtävä, pilvet ja sade oppiminen, sääpäiväkirja harjoitus, sääennuste oppiminen, luonnonilmiöt ja sää, s\u00e4\u00e4teht\u00e4v\u00e4t lapsille, s\u00e4\u00e4 ty\u00f6lehdet tulostettava',
   heading: 'S\u00e4\u00e4aiheiset Teht\u00e4v\u00e4t ja Pulmia Lapsille',
 
   // -- Rich narrative content --

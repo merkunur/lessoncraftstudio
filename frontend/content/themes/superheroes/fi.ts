@@ -6,7 +6,7 @@ const content: EnrichedThemeContent = {
   name: 'Supersankarit',
   title: 'Supersankariteht\u00e4v\u00e4t ja Ty\u00f6lehdet Lapsille | LessonCraftStudio',
   description: 'Tutustu supersankariteht\u00e4viin lapsille: supervoimat, viitat, maskit ja sankarit. Matematiikkaa, lukemista ja pulmia esikoulusta 3. luokalle. Tulostettavia.',
-  keywords: 'supersankariteht\u00e4v\u00e4t lapsille, supersankari ty\u00f6lehdet tulostettava, supervoima teht\u00e4v\u00e4t esikoulu, supersankari v\u00e4rityssivut, viitta ty\u00f6lehdet lapsille, supersankari palapelit, maski teht\u00e4v\u00e4t esikoulu, supersankari sanahaku lapsille, sankari ty\u00f6lehdet, supersankarien laskeminen',
+  keywords: 'supersankaritehtävät lapsille, supersankari oppimateriaali, sankariteema opetuksessa, mielikuvitus ja oppiminen, supersankarisanasto harjoitus, rohkeus ja arvot tehtävä, luova ajattelu supersankarit, sankaritarinat oppiminen, itsetunto ja voimat, supersankariteht\u00e4v\u00e4t lapsille, supersankari ty\u00f6lehdet tulostettava',
   heading: 'Supersankariaiheiset Teht\u00e4v\u00e4t ja Pulmia Lapsille',
 
   // -- Rich narrative content --

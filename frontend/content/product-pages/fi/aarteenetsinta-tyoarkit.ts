@@ -19,7 +19,7 @@ export const treasureHuntFiContent: ProductPageContent = {
     appId: 'treasure-hunt',
     title: 'Aarteenetsintä Generaattori — Ilmainen | LessonCraftStudio',
     description: 'Luo tulostettavia aarteenetsintä-tehtäviä suuntasanaston ja ohjeiden ymmärtämisen harjoitteluun. Hauska seikkailutehtävä esikoulusta 2. luokalle. Ilmainen.',
-    keywords: 'aarteenetsintä tehtävät, suuntasanasto harjoitus, ohjeiden seuraaminen, aarteen etsintä tulostettava, suuntakäsitteet lapsille, seikkailutehtävät esikoulu, aarteenetsintä luokkahuone, suunnat ja sijainti, seikkailupeli tulostettava, ohjeiden ymmärtäminen',
+    keywords: 'aarteenetsintä generaattori, suunnistuspeli lapsille, vihjepeli tulostettava, tutkimustehtävä esikoulu, seikkailupeli oppiminen, reitinhaku harjoitus, looginen päättelyketju, etsintätehtävä luokkaan, ongelmanratkaisu seikkailu, perustelutaito harjoitus, vihjeiden seuraaminen, aarteenetsintä tehtävät, suuntasanasto harjoitus',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/aarteenetsinta-tyoarkit',
   },
 

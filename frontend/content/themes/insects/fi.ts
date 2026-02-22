@@ -6,7 +6,7 @@ const content: EnrichedThemeContent = {
   name: 'Hy\u00f6nteiset',
   title: 'Hy\u00f6nteisteht\u00e4v\u00e4t ja Ty\u00f6lehdet Lapsille | LessonCraftStudio',
   description: 'Tutustu hy\u00f6nteisteht\u00e4viin lapsille: perhoset, mehil\u00e4iset, lepp\u00e4kertut ja muurahaiset. Matematiikkaa, lukemista ja pulmia esikoulusta 3. luokalle.',
-  keywords: 'hy\u00f6nteisteht\u00e4v\u00e4t lapsille, hy\u00f6nteinen ty\u00f6lehdet tulostettava, perhonen teht\u00e4v\u00e4t esikoulu, hy\u00f6nteinen v\u00e4rityssivut, mehil\u00e4inen ty\u00f6lehdet lapsille, hy\u00f6nteinen palapelit, lepp\u00e4kerttu teht\u00e4v\u00e4t, hy\u00f6nteinen sanahaku lapsille, muurahainen ty\u00f6lehdet, hy\u00f6nteisten laskeminen esikoulu',
+  keywords: 'hyönteitehtävät lapsille, hyönteiset oppimateriaali, hyönteisten tunnistaminen harjoitus, ötökkätehtävät esikoulu, hyönteisten elinkierto, perhosen elämänkaari, luontotutkimus hyönteiset, hyönteissanasto harjoitus, selkärangattomat oppiminen, hy\u00f6nteisteht\u00e4v\u00e4t lapsille, hy\u00f6nteinen ty\u00f6lehdet tulostettava',
   heading: 'Hy\u00f6nteisaiheiset Teht\u00e4v\u00e4t ja Pulmia Lapsille',
 
   // -- Rich narrative content --

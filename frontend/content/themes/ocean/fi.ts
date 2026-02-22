@@ -6,7 +6,7 @@ const content: EnrichedThemeContent = {
   name: 'Valtameri',
   title: 'Valtameriteht\u00e4v\u00e4t ja Ty\u00f6lehdet Lapsille | LessonCraftStudio',
   description: 'Tutustu valtameriteht\u00e4viin lapsille: meriel\u00e4imet, korallit, aallot ja vedenalainen el\u00e4m\u00e4. Matematiikkaa, lukemista ja pulmia esikoulusta 3. luokalle.',
-  keywords: 'valtameriteht\u00e4v\u00e4t lapsille, meri ty\u00f6lehdet tulostettava, meriel\u00e4imet teht\u00e4v\u00e4t esikoulu, valtameri v\u00e4rityssivut, vedenalainen ty\u00f6lehdet lapsille, valtameri palapelit, koralliriutta teht\u00e4v\u00e4t, meri sanahaku lapsille, aalto ty\u00f6lehdet, meriel\u00e4inten laskeminen esikoulu',
+  keywords: 'meritehtävät lapsille, meri oppimateriaali lapset, merieläimet harjoitus, merenalainen maailma tehtävä, vedenalainen elämä oppiminen, merisanasto esikoulu, valtameret ja meret, meribiologia lapset, rannikko ja meri tehtävä, valtameriteht\u00e4v\u00e4t lapsille, meri ty\u00f6lehdet tulostettava',
   heading: 'Valtameri- ja Meriaiheiset Teht\u00e4v\u00e4t Lapsille',
 
   // -- Rich narrative content --

@@ -17,7 +17,7 @@ export const moreLessFiContent: ProductPageContent = {
     appId: 'more-less',
     title: 'Enemmän–Vähemmän Generaattori | LessonCraftStudio',
     description: 'Luo tulostettavia enemmän ja vähemmän -vertailutehtäviä kuvilla. Kehittää lukumäärien vertailua ja matemaattista ajattelua. Esikoulusta 2. luokalle.',
-    keywords: 'enemmän vähemmän tehtävät, lukumäärien vertailu, suurempi pienempi harjoitus, vertailutehtävät esikoulu, määrien vertailu kuvilla, lukujen vertailu lapsille, enemmän vai vähemmän, matemaattinen vertailu, lukumäärän arviointi, vertailutaidot esikoulu',
+    keywords: 'enemmän vähemmän generaattori, määrien vertailu lapsille, suurempi pienempi harjoitus, lukumäärävertailu esikoulu, vertailuoperaattori oppiminen, järjestäminen laskemalla, lukujen suuruusluokka, matemaattinen vertailu, konkreettinen vertailutehtävä, visuaalinen vertailuharjoitus, numerokäsite vahvistaminen, enemmän vähemmän tehtävät, lukumäärien vertailu',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/enemman-vahemman-tyoarkit',
   },
 

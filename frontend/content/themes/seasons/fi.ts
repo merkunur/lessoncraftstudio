@@ -6,7 +6,7 @@ const content: EnrichedThemeContent = {
   name: 'Vuodenajat',
   title: 'Vuodenaikatehtävät ja Työlehdet Lapsille | LessonCraftStudio',
   description: 'Tutustu vuodenaikatehtäviin lapsille: kevät, kesä, syksy ja talvi. Matematiikkaa, lukemista ja pulmia esikoulusta 3. luokalle. Tulostettavia.',
-  keywords: 'vuodenaikatehtävät lapsille, vuodenaika työlehdet tulostettava, kevät tehtävät esikoulu, vuodenaika värityssivut, kesä työlehdet lapsille, vuodenaika palapelit, syksy tehtävät esikoulu, vuodenaika sanahaku lapsille, talvi työlehdet, vuodenaikojen laskeminen',
+  keywords: 'vuodenaikatehtävät lapsille, vuodenajat oppimateriaali, vuodenkierto harjoitus, sääilmiöt ja vuodenajat, luonnon muutokset vuodenaikojen mukaan, neljä vuodenaikaa tehtävä, vuodenaikasanasto esikoulu, vuodenaikojen vertailu, luonnontiede vuodenajat, vuodenaika työlehdet tulostettava, kevät tehtävät esikoulu',
   heading: 'Vuodenaikojen Tehtävät ja Työlehdet Lapsille',
 
   // -- Rich narrative content --

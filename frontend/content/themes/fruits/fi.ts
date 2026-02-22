@@ -6,7 +6,7 @@ const content: EnrichedThemeContent = {
   name: 'Hedelm\u00e4t',
   title: 'Hedelm\u00e4teht\u00e4v\u00e4t ja Ty\u00f6lehdet Lapsille | LessonCraftStudio',
   description: 'Tutustu hedelm\u00e4teht\u00e4viin lapsille: omenat, banaanit, marjat ja appelsiinit. Matematiikkaa, lukemista ja pulmia esikoulusta 3. luokalle. Tulostettavia.',
-  keywords: 'hedelm\u00e4teht\u00e4v\u00e4t lapsille, hedelm\u00e4 ty\u00f6lehdet tulostettava, omena teht\u00e4v\u00e4t esikoulu, hedelm\u00e4 v\u00e4rityssivut, banaani ty\u00f6lehdet lapsille, hedelm\u00e4 palapelit, marjat teht\u00e4v\u00e4t esikoulu, hedelmien laskeminen, hedelm\u00e4 sanahaku lapsille, appelsiini ty\u00f6lehdet',
+  keywords: 'hedelmätehtävät lapsille, hedelmät oppimateriaali lapset, hedelmien tunnistaminen harjoitus, hedelmä ja terveys tehtävä, hedelmäsanasto esikoulu, hedelmien lajittelu, vitamiinit oppiminen, hedelmien värit harjoitus, terveellinen välipala, hedelm\u00e4teht\u00e4v\u00e4t lapsille, hedelm\u00e4 ty\u00f6lehdet tulostettava',
   heading: 'Hedelm\u00e4aiheiset Teht\u00e4v\u00e4t ja Ty\u00f6lehdet Lapsille',
 
   // -- Rich narrative content --

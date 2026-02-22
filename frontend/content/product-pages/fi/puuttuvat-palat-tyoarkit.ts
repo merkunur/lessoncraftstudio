@@ -19,7 +19,7 @@ export const missingPiecesFiContent: ProductPageContent = {
     appId: 'missing-pieces',
     title: 'Puuttuvat Palat Generaattori — Ilmainen | LessonCraftStudio',
     description: 'Luo tulostettavia puuttuvat palat -tehtäviä visuaalisen hahmotuksen harjoitteluun. Etsi puuttuva kuva kuviosta. Esikoulusta 2. luokalle. Ilmainen PDF.',
-    keywords: 'puuttuvat palat tehtävät, palapeli tehtävä lapsille, puuttuva osa harjoitus, visuaalinen päättely, kuvapalapeli tulostettava, hahmontunnistus harjoitus, puuttuva kuva tehtävä, visuaalinen looginen ajattelu, palapeliharjoitukset esikoulu, hahmotustaidot lapsille',
+    keywords: 'puuttuvat palat generaattori, täydennä kuva tehtävä, visuaalinen täydentäminen, osan ja kokonaisuuden hahmottaminen, visuaalinen päättely, puuttuvan osan löytäminen, kuvatäydennys harjoitus, visuaalinen analyysi, hahmottamiskyky kehittäminen, palapeli tulostettava, visuaalinen sulkeuma, puuttuvat palat tehtävät, palapeli tehtävä lapsille',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/puuttuvat-palat-tyoarkit',
   },
 

@@ -6,7 +6,7 @@ const content: EnrichedThemeContent = {
   name: 'Ruoanlaitto',
   title: 'Ruoanlaittoteht\u00e4v\u00e4t ja Pulmia Lapsille | LessonCraftStudio',
   description: 'Tutustu ruoanlaittoteht\u00e4viin lapsille: reseptit, keitti\u00f6v\u00e4lineet, mittaaminen ja j\u00e4rjestys. Matematiikkaa, lukemista ja pulmia esikoulusta 3. luokalle.',
-  keywords: 'ruoanlaittoteht\u00e4v\u00e4t lapsille, keitti\u00f6 ty\u00f6lehdet tulostettava, resepti teht\u00e4v\u00e4t esikoulu, mittaaminen ty\u00f6lehdet lapsille, ruoanlaitto v\u00e4rityssivut, keitti\u00f6v\u00e4lineet teht\u00e4v\u00e4t, ruoanlaitto matematiikka, kokkaus teht\u00e4v\u00e4t lapsille, ruoka-aineet sanahaku, ruoanlaitto palapelit',
+  keywords: 'ruoanlaittotehtävät lapsille, kokkaaminen oppimateriaali, resepti ja mittaaminen lapset, keittiösanasto harjoitus, terveellinen ruoka tehtävä, ruoka-aineet oppiminen, mittayksiköt kokkaaminen, ravitsemuskasvatus työlehdet, kokkausturvallisuus opetus, ruoanlaittoteht\u00e4v\u00e4t lapsille, keitti\u00f6 ty\u00f6lehdet tulostettava',
   heading: 'Kokkaus- ja Keitti\u00f6teht\u00e4v\u00e4t Lapsille',
 
   // -- Rich narrative content --

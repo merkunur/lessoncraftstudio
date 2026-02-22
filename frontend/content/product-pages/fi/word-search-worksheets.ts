@@ -17,7 +17,7 @@ export const wordSearchFiContent: ProductPageContent = {
     appId: 'wordsearch',
     title: 'Ilmainen Sanahaku Generaattori | LessonCraftStudio',
     description: 'Luo tulostettavia sanahakutehtäviä 11 kielellä. Muokattavat sanat, koot ja vaikeustasot. Sanavaraston ja oikeinkirjoituksen harjoittelua. Ilmainen PDF.',
-    keywords: 'sanahaku tulostettava, sanahaku lapsille, sanapeli generaattori, sanahaku tehtävä, sananhaku tulostettava, sanaristikko lapsille, sanasto sanahaku, oikeinkirjoitus sanahaku, sanahaku alakoulu, sanahaku esikoulu',
+    keywords: 'sanahaku generaattori, sanaruudukko lapsille, kirjainten etsiminen, visuaalinen haku harjoitus, sanasto oppiminen peli, lukemisen tukiharjoitus, oikeinkirjoitus tunnistaminen, kirjaintunnistus peli, näkösanat harjoittelu, suomen kielen sanapeli, sanahaun ratkaiseminen, sanahaku tulostettava, sanahaku lapsille',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/sananhaku-tyoarkit',
   },
 

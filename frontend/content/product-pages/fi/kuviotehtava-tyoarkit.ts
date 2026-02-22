@@ -19,7 +19,7 @@ export const patternWorksheetFiContent: ProductPageContent = {
     appId: 'pattern-worksheet',
     title: 'Kuviotehtävä Generaattori — Ilmainen | LessonCraftStudio',
     description: 'Luo tulostettavia kuviotehtäviä kuvioiden tunnistamiseen ja jatkamiseen. Monipuoliset sarjat esikoulusta 3. luokalle. 50 teemaa. Lataa ilmainen PDF.',
-    keywords: 'kuviotehtävät tulostettava, kuvionsarjat lapsille, kuvioiden jatkaminen, kuviotunnistus harjoitus, matemaattiset kuviot, kuviosarjatehtävät, kuviomoniste, hahmottamistaidot esikoulu, kuvionhahmotus 1. luokka, kuviot ja sarjat',
+    keywords: 'kuviotehtävä generaattori, kuviotehtävä esikoulu, hahmontunnistus harjoitus, symmetria lapsille, kuvioiden vertailu, visuaalinen logiikka, kuvion jatkaminen tehtävä, matemaattinen kaava, toistuvan kuvion tunnistaminen, visuaalinen sääntö, kuviomuodostus harjoittelu, kuviotehtävät tulostettava, kuvionsarjat lapsille',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/kuviotehtava-tyoarkit',
   },
 

@@ -19,7 +19,7 @@ export const wordGuessFiContent: ProductPageContent = {
     appId: 'word-guess',
     title: 'Ilmainen Kuva-Arvaus Generaattori | LessonCraftStudio',
     description: 'Luo tulostettavia kuva-arvaustehtäviä, joissa lapsi päättelee sanan kuvavihjeiden avulla. Kehittää sanavarastoa ja päättelytaitoja. Ilmainen PDF.',
-    keywords: 'kuva-arvaus tehtävät, sana-arvoitus kuvilla, sanasto harjoitus, kuvallinen sanatehtävä, arvaustehtävä lapsille, kuvavihjetehtävä, sanojen päättely, sana-arvoitus tulostettava, sanavaraston laajentaminen, kuvavihje sanatehtävä',
+    keywords: 'kuva-arvaus generaattori, arvaustehtävä lapsille, vihjeiden päättely, päättelykyky harjoitus, kuvallinen arvoitus, visuaalinen tulkinta, tiedon yhdistäminen, looginen arvaaminen, kuva-arvoitus tulostettava, sanasto arvauspeli, vihjepohjainen oppiminen, kuva-arvaus tehtävät, sana-arvoitus kuvilla',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/kuva-arvaus-tyoarkit',
   },
 

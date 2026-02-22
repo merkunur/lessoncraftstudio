@@ -6,7 +6,7 @@ const content: EnrichedThemeContent = {
   name: 'Koulu',
   title: 'Kouluteht\u00e4v\u00e4t ja Ty\u00f6lehdet Lapsille | LessonCraftStudio',
   description: 'Tutustu kouluteht\u00e4viin lapsille: luokkahuone, koulutarvikkeet, oppitunnit ja kouluarki. Matematiikkaa, lukemista ja pulmia esikoulusta 3. luokalle.',
-  keywords: 'kouluteht\u00e4v\u00e4t lapsille, koulu ty\u00f6lehdet tulostettava, luokkahuone teht\u00e4v\u00e4t esikoulu, koulu v\u00e4rityssivut, koulutarvikkeet ty\u00f6lehdet lapsille, koulu palapelit, oppitunti teht\u00e4v\u00e4t esikoulu, koulu sanahaku lapsille, kouluarki ty\u00f6lehdet, kouluesineiden laskeminen',
+  keywords: 'koulutehtävät lapsille, koulu oppimateriaali esikoulu, koulusanasto harjoitus, koulutarvikkeet tunnistaminen, koulunkäynnin valmistelu, lukuvuosi ja aikataulu, oppilaiden arki tehtävä, koulun tilat oppiminen, esikoulusta kouluun, kouluteht\u00e4v\u00e4t lapsille, koulu ty\u00f6lehdet tulostettava',
   heading: 'Kouluaiheiset Teht\u00e4v\u00e4t ja Ty\u00f6lehdet Lapsille',
 
   // -- Rich narrative content --

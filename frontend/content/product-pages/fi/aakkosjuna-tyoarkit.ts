@@ -17,7 +17,7 @@ export const alphabetTrainFiContent: ProductPageContent = {
     appId: 'alphabet-train',
     title: 'Ilmainen Aakkosjuna Generaattori | LessonCraftStudio',
     description: 'Luo tulostettavia aakkosjuna-tehtäviä kirjainten oppimiseen esikoulusta 1. luokalle. Hauska tapa oppia aakkosia kuvilla. Lataa PDF heti ilmaiseksi.',
-    keywords: 'aakkosjuna generaattori, aakkosjuna tehtävät, kirjaimet harjoittelu esikoulu, aakkoset tulostettava, aakkosjuna työarkki, kirjainten tunnistus, aakkosjärjestys harjoitus, kirjainharjoitukset lapsille, lukemaan oppiminen, alkukirjaimet tehtävä',
+    keywords: 'aakkosjuna generaattori, kirjaintunnistus harjoitus, aakkoset oppiminen, foneeminen tietoisuus, lukivalmius esikoulu, kirjoittamisen harjoittelu, alkuäänne tunnistaminen, tavutus harjoitus, äänne-kirjain vastaavuus, suomen aakkoset lapset, kirjainmuodostus harjoittelu, aakkosjuna tehtävät, kirjaimet harjoittelu esikoulu',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/aakkosjuna-tyoarkit',
   },
 

@@ -6,7 +6,7 @@ const content: EnrichedThemeContent = {
   name: 'Lemmikit',
   title: 'Lemmikkiteht\u00e4v\u00e4t ja Ty\u00f6lehdet Lapsille | LessonCraftStudio',
   description: 'Tutustu lemmikkiteht\u00e4viin lapsille: koirat, kissat, kanit ja hamsterit. Matematiikkaa, lukemista ja pulmia esikoulusta 3. luokalle. Tulostettavia.',
-  keywords: 'lemmikkiteht\u00e4v\u00e4t lapsille, lemmikki ty\u00f6lehdet tulostettava, koira teht\u00e4v\u00e4t esikoulu, lemmikki v\u00e4rityssivut, kissa ty\u00f6lehdet lapsille, lemmikki palapelit, kani teht\u00e4v\u00e4t esikoulu, lemmikki sanahaku lapsille, hamsterin hoito ty\u00f6lehdet, lemmikkien laskeminen',
+  keywords: 'lemmikkitehtävät lapsille, lemmikit oppimateriaali lapset, lemmikkieläimet harjoitus, eläinten hoitaminen tehtävä, lemmikkisanasto esikoulu, vastuullisuus ja lemmikit, koira ja kissa tehtävä, lemmikkien vertailu, eläinten hyvinvointi, lemmikkiteht\u00e4v\u00e4t lapsille, lemmikki ty\u00f6lehdet tulostettava',
   heading: 'Lemmikkiaiheiset Teht\u00e4v\u00e4t ja Ty\u00f6lehdet Lapsille',
 
   // -- Rich narrative content --

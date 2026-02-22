@@ -22,7 +22,7 @@ export const prepositionsFiContent: ProductPageContent = {
     appId: 'prepositions',
     title: 'Prepositioharjoitus Generaattori | LessonCraftStudio',
     description: 'Luo tulostettavia prepositioharjoituksia sijaintisanojen oppimiseen kuvilla. Edessä, takana, alla, päällä — visuaalinen kielenoppiminen. Ilmainen PDF.',
-    keywords: 'prepositioharjoitukset, sijaintisanat lapsille, prepositiot esikoulu, paikkasanat harjoitus, edessä takana tehtävät, sijaintikäsitteet lapsille, prepositiot tulostettava, kielioppi harjoitukset esikoulu, visuaalinen kielenoppiminen, sijainnin kuvaaminen',
+    keywords: 'prepositioharjoitus generaattori, sijaintikäsitteet oppiminen, avaruudellinen hahmottaminen, paikkasanat harjoitus, suuntakäsitteet esikoulu, edessä takana harjoitus, alla päällä tehtävä, kielellinen kehitys harjoitus, spatiaaliset suhteet, asemointi tehtävä, sijainnin kuvaileminen, prepositioharjoitukset, sijaintisanat lapsille',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/prepositio-tyoarkit',
   },
 

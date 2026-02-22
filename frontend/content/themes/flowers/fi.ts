@@ -6,7 +6,7 @@ const content: EnrichedThemeContent = {
   name: 'Kukat',
   title: 'Kukkatehtävät ja Työlehdet Lapsille | LessonCraftStudio',
   description: 'Tutustu kukkatehtäviin lapsille: ruusut, auringonkukat, tulppaanit ja päivänkakkarat. Matematiikkaa, lukemista ja pulmia esikoulusta 3. luokalle.',
-  keywords: 'kukkatehtävät lapsille, kukka työlehdet tulostettava, auringonkukka tehtävät esikoulu, kukka värityssivut, ruusu työlehdet lapsille, kukka palapelit, kasvin elinkaari tehtävät, kukka sanahaku lapsille, tulppaani työlehdet, kukkien laskeminen esikoulu',
+  keywords: 'kukkatehtävät lapsille, kukka-aiheinen oppimateriaali, kasvien osat oppiminen, kukkien tunnistaminen harjoitus, puutarha ja kasvit tehtävä, kasvun seuraaminen, luonnonkasvit esikoulu, kukkasanasto harjoitus, kasvien elinkierto, kukka työlehdet tulostettava, auringonkukka tehtävät esikoulu',
   heading: 'Kukka-aiheiset Tehtävät ja Työlehdet Lapsille',
 
   // -- Rich narrative content --

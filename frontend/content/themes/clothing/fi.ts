@@ -6,7 +6,7 @@ const content: EnrichedThemeContent = {
   name: 'Vaatteet',
   title: 'Vaateteht\u00e4v\u00e4t ja Ty\u00f6lehdet Lapsille | LessonCraftStudio',
   description: 'Tutustu vaateteht\u00e4viin lapsille: vuodenaikojen asut, koot, kuviot ja lajittelu. Matematiikkaa, lukemista ja pulmia esikoulusta 3. luokalle. Tulostettavia.',
-  keywords: 'vaateteht\u00e4v\u00e4t lapsille, vaate ty\u00f6lehdet tulostettava, pukeutuminen teht\u00e4v\u00e4t esikoulu, vaatteiden lajittelu ty\u00f6lehdet, vuodenaikojen vaatteet teht\u00e4v\u00e4, vaate v\u00e4rityssivut, vaatteet sanahaku, vaatekoot teht\u00e4v\u00e4t lapsille, vaate palapelit, pukeutuminen s\u00e4\u00e4 teht\u00e4v\u00e4',
+  keywords: 'vaatetehtävät lapsille, vaatteet oppimateriaali lapset, pukeutuminen tehtävä, vaatesanasto harjoitus, vuodenajat ja vaatteet, vaatteiden lajittelu tehtävä, pukeutuminen sään mukaan, arjen taidot vaatteet, vaatteiden tunnistaminen, vaateteht\u00e4v\u00e4t lapsille, vaate ty\u00f6lehdet tulostettava',
   heading: 'Vaateaiheiset Teht\u00e4v\u00e4t ja Ty\u00f6lehdet Lapsille',
 
   // -- Rich narrative content --

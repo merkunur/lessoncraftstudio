@@ -17,7 +17,7 @@ export const bigSmallFiContent: ProductPageContent = {
     appId: 'big-small',
     title: 'Kokovertailu Generaattori — Ilmainen | LessonCraftStudio',
     description: 'Luo tulostettavia iso ja pieni -vertailutehtäviä kuvilla. Kehitä kokojen vertailutaitoja esikoulusta 1. luokalle. Muokattavat asetukset. Lataa PDF.',
-    keywords: 'iso ja pieni tehtävät, kokovertailu esikoulu, kokojen tunnistaminen, suurempi ja pienempi, kokojen vertailu lapsille, iso pieni tulostettava, kokoerot tehtävät, kokoharjoitukset esikoulu, vertailutaidot harjoitus, kokojen lajittelu',
+    keywords: 'kokovertailu generaattori, koon tunnistaminen tehtävä, visuaalinen vertailu lapset, iso ja pieni käsitteet, järjestäminen koon mukaan, havainnointitaito kehittäminen, konkreettinen kokoero, mittaamisen peruskäsitteet, visuaalinen erottelu, luokittelu koon perusteella, matemaattinen vertailutaito, iso ja pieni tehtävät, kokovertailu esikoulu',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/iso-pieni-tyoarkit',
   },
 

@@ -6,7 +6,7 @@ const content: EnrichedThemeContent = {
   name: 'Urheilu',
   title: 'Urheiluteht\u00e4v\u00e4t ja Ty\u00f6lehdet Lapsille | LessonCraftStudio',
   description: 'Tutustu urheiluteht\u00e4viin lapsille: jalkapallo, koripallo, uinti ja yleisurheilu. Matematiikkaa, lukemista ja pulmia esikoulusta 3. luokalle.',
-  keywords: 'urheiluteht\u00e4v\u00e4t lapsille, urheilu ty\u00f6lehdet tulostettava, jalkapallo teht\u00e4v\u00e4t esikoulu, urheilu v\u00e4rityssivut, koripallo ty\u00f6lehdet lapsille, urheilu palapelit, uinti teht\u00e4v\u00e4t esikoulu, urheilu sanahaku lapsille, yleisurheilu ty\u00f6lehdet, urheilulajien laskeminen',
+  keywords: 'urheilutehtävät lapsille, urheilu oppimateriaali lapset, liikunta ja terveyskasvatus, urheilulajit harjoitus, urheilusanasto esikoulu, joukkueurheilu oppiminen, liikkuminen ja terveys, urheiluvälineet tunnistaminen, fyysinen aktiivisuus, urheiluteht\u00e4v\u00e4t lapsille, urheilu ty\u00f6lehdet tulostettava',
   heading: 'Urheiluaiheiset Teht\u00e4v\u00e4t ja Ty\u00f6lehdet Lapsille',
 
   // -- Rich narrative content --

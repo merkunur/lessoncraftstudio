@@ -6,7 +6,7 @@ const content: EnrichedThemeContent = {
   name: 'Syntymäpäivä',
   title: 'Syntym\u00e4p\u00e4iv\u00e4aiheiset Teht\u00e4v\u00e4t Lapsille | LessonCraftStudio',
   description: 'Tutustu syntym\u00e4p\u00e4iv\u00e4teht\u00e4viin lapsille: kakut, ilmapallot, juhlat ja lahjat. Matematiikkaa, lukemista ja pulmia esikoulusta 3. luokalle. Tulostettavia.',
-  keywords: 'syntymäpäivätehtävät lapsille, syntymäpäivä työlehdet tulostettava, syntymäpäivä värityssivut, syntymäpäivä matematiikka, juhlatehtävät lapsille, syntymäpäivä palapelit, ilmapallo tehtävät esikoulu, kakku työlehdet lapsille, syntymäpäivä sanahaku, juhlakoristeilu tehtävät',
+  keywords: 'syntymäpäivätehtävät lapsille, juhlateema työlehdet, syntymäpäiväjuhla oppiminen, juhla-aiheinen harjoitus, syntymäpäivälaskut tehtävä, juhlakutsu askartelu, ikäkäsite oppiminen, juhlakalenteri harjoitus, vuodenkierto syntymäpäivä, syntymäpäivä työlehdet tulostettava, syntymäpäivä värityssivut',
   heading: 'Syntymäpäivätehtävät ja Työlehdet Lapsille',
 
   // -- Rich narrative content --

@@ -6,7 +6,7 @@ const content: EnrichedThemeContent = {
   name: 'Retkeily',
   title: 'Retkeilyteht\u00e4v\u00e4t ja Ty\u00f6lehdet Lapsille | LessonCraftStudio',
   description: 'Tutustu retkeilyaiheisiin teht\u00e4viin lapsille: teltat, nuotiot, luonto ja polut. Matematiikkaa, lukemista ja pulmia esikoulusta 3. luokalle. Tulostettavia.',
-  keywords: 'retkeilyteht\u00e4v\u00e4t lapsille, retkeily ty\u00f6lehdet tulostettava, leirint\u00e4 teht\u00e4v\u00e4t esikoulu, luontoteema ty\u00f6lehdet, retkeily v\u00e4rityssivut, nuotio teht\u00e4v\u00e4t lapsille, teltta ty\u00f6lehdet, retkeily palapelit, luontoretki teht\u00e4v\u00e4t, retkeily matematiikka lapsille',
+  keywords: 'retkeilytehtävät lapsille, leirintä oppimateriaali, ulkoilu ja retkeily tehtävä, luontoretki harjoitus, retkeilyvarusteet oppiminen, telttailu teema lapset, luonnossa oppiminen, erämaataidot esikoulu, retkeilysanasto harjoitus, retkeilyteht\u00e4v\u00e4t lapsille, retkeily ty\u00f6lehdet tulostettava',
   heading: 'Retkeilyaiheiset Teht\u00e4v\u00e4t ja Ty\u00f6lehdet Lapsille',
 
   // -- Rich narrative content --

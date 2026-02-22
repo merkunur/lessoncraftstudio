@@ -19,7 +19,7 @@ export const subtractionFiContent: ProductPageContent = {
     appId: 'subtraction',
     title: 'Ilmainen Vähennyslasku Generaattori | LessonCraftStudio',
     description: 'Luo tulostettavia vähennyslaskutehtäviä kuvilla esikoulusta 3. luokalle. Muokattavat lukualueet, vastausavaimet ja visuaaliset apuvälineet. Ilmainen PDF.',
-    keywords: 'vähennyslasku tehtävät, vähennyslaskuharjoitukset, miinuslasku tulostettava, vähennyslasku kuvilla, matematiikka vähennyslasku, vähennyslasku 1. luokka, vähennyslaskut esikoulu, miinuslasku harjoitus, vähennyslasku vastausavain, perusvähennyslasku',
+    keywords: 'vähennyslasku generaattori, erotus laskeminen, lainaaminen vähennyslasku, lukualue harjoitus, vähennettävä ja vähentäjä, miinuslaskustrategia, matemaattinen päättely, laskusujuvuus vähennys, kymmenylitys vähennyslasku, visuaalinen vähennyslasku, laskuoperaatio harjoittelu, vähennyslasku tehtävät, vähennyslaskuharjoitukset',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/vahennyslasku-tyoarkit',
   },
 

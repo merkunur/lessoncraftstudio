@@ -6,7 +6,7 @@ const content: EnrichedThemeContent = {
   name: 'Huonekalut',
   title: 'Huonekalutehtävät ja Työlehdet Lapsille | LessonCraftStudio',
   description: 'Tutustu huonekalutehtäviin lapsille: huonejärjestelyt, muodot, koot ja avaruudelliset käsitteet. Matematiikkaa, lukemista ja pulmia esikoulusta 3. luokalle.',
-  keywords: 'huonekalutehtävät lapsille, huonekalu työlehdet tulostettava, huonejärjestely tehtävät esikoulu, huonekalut värityssivut, muodot työlehdet lapsille, huonekalu palapelit, avaruudellinen hahmotus tehtävät, huonekalu sanahaku lapsille, koko vertailu työlehdet, huonekalut matematiikka esikoulu',
+  keywords: 'huonekalutehtävät lapsille, huonekalut oppimateriaali, kodin esineet harjoitus, huonesanasto esikoulu, huoneiden tunnistaminen, kodin tilat tehtävä, sijainnin ilmaiseminen, arjen esineet oppiminen, huonekalut ja muodot, huonekalu työlehdet tulostettava, huonejärjestely tehtävät esikoulu',
   heading: 'Huonekaluaiheiset Tehtävät ja Työlehdet Lapsille',
 
   // -- Rich narrative content --

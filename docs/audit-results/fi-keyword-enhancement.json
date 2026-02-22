@@ -1,0 +1,997 @@
+{
+  "timestamp": "2026-02-22T13:22:29.561Z",
+  "part": 171,
+  "locale": "fi",
+  "productPages": {
+    "total": 33,
+    "updated": 33,
+    "errors": [],
+    "validations": [
+      {
+        "slug": "aakkosjuna-tyoarkit",
+        "title": {
+          "value": "Ilmainen Aakkosjuna Generaattori | LessonCraftStudio",
+          "length": 52,
+          "valid": true
+        },
+        "description": {
+          "length": 147,
+          "valid": true
+        },
+        "keywords": {
+          "before": 10,
+          "after": 13,
+          "valid": true
+        }
+      },
+      {
+        "slug": "aarteenetsinta-tyoarkit",
+        "title": {
+          "value": "Aarteenetsintä Generaattori — Ilmainen | LessonCraftStudio",
+          "length": 58,
+          "valid": true
+        },
+        "description": {
+          "length": 155,
+          "valid": true
+        },
+        "keywords": {
+          "before": 10,
+          "after": 13,
+          "valid": true
+        }
+      },
+      {
+        "slug": "enemman-vahemman-tyoarkit",
+        "title": {
+          "value": "Enemmän–Vähemmän Generaattori | LessonCraftStudio",
+          "length": 49,
+          "valid": true
+        },
+        "description": {
+          "length": 148,
+          "valid": true
+        },
+        "keywords": {
+          "before": 10,
+          "after": 13,
+          "valid": true
+        }
+      },
+      {
+        "slug": "etsi-esineet-tyoarkit",
+        "title": {
+          "value": "Etsi Esineet Generaattori — Ilmainen | LessonCraftStudio",
+          "length": 56,
+          "valid": true
+        },
+        "description": {
+          "length": 147,
+          "valid": true
+        },
+        "keywords": {
+          "before": 10,
+          "after": 13,
+          "valid": true
+        }
+      },
+      {
+        "slug": "etsi-ja-laske-tyoarkit",
+        "title": {
+          "value": "Etsi ja Laske Generaattori — Ilmainen | LessonCraftStudio",
+          "length": 57,
+          "valid": true
+        },
+        "description": {
+          "length": 151,
+          "valid": true
+        },
+        "keywords": {
+          "before": 10,
+          "after": 13,
+          "valid": true
+        }
+      },
+      {
+        "slug": "iso-pieni-tyoarkit",
+        "title": {
+          "value": "Kokovertailu Generaattori — Ilmainen | LessonCraftStudio",
+          "length": 56,
+          "valid": true
+        },
+        "description": {
+          "length": 147,
+          "valid": true
+        },
+        "keywords": {
+          "before": 10,
+          "after": 13,
+          "valid": true
+        }
+      },
+      {
+        "slug": "kasinkirjoitus-tyoarkit",
+        "title": {
+          "value": "Käsinkirjoitus Generaattori — Ilmainen | LessonCraftStudio",
+          "length": 58,
+          "valid": true
+        },
+        "description": {
+          "length": 149,
+          "valid": true
+        },
+        "keywords": {
+          "before": 10,
+          "after": 13,
+          "valid": true
+        }
+      },
+      {
+        "slug": "kuva-arvaus-tyoarkit",
+        "title": {
+          "value": "Ilmainen Kuva-Arvaus Generaattori | LessonCraftStudio",
+          "length": 53,
+          "valid": true
+        },
+        "description": {
+          "length": 145,
+          "valid": true
+        },
+        "keywords": {
+          "before": 10,
+          "after": 13,
+          "valid": true
+        }
+      },
+      {
+        "slug": "kuva-bingo-tyoarkit",
+        "title": {
+          "value": "Ilmainen Kuva-Bingo Generaattori | LessonCraftStudio",
+          "length": 52,
+          "valid": true
+        },
+        "description": {
+          "length": 153,
+          "valid": true
+        },
+        "keywords": {
+          "before": 10,
+          "after": 13,
+          "valid": true
+        }
+      },
+      {
+        "slug": "kuva-yhteenlasku-tyoarkit",
+        "title": {
+          "value": "Kuvakoodattu Yhteenlasku Generaattori | LessonCraftStudio",
+          "length": 57,
+          "valid": true
+        },
+        "description": {
+          "length": 154,
+          "valid": true
+        },
+        "keywords": {
+          "before": 10,
+          "after": 13,
+          "valid": true
+        }
+      },
+      {
+        "slug": "kuvakaavio-tyoarkit",
+        "title": {
+          "value": "Kuvakaavio Generaattori — Ilmainen | LessonCraftStudio",
+          "length": 54,
+          "valid": true
+        },
+        "description": {
+          "length": 146,
+          "valid": true
+        },
+        "keywords": {
+          "before": 10,
+          "after": 13,
+          "valid": true
+        }
+      },
+      {
+        "slug": "kuvakryptogrammi-tyoarkit",
+        "title": {
+          "value": "Kuvakryptogrammi Generaattori | LessonCraftStudio",
+          "length": 49,
+          "valid": true
+        },
+        "description": {
+          "length": 152,
+          "valid": true
+        },
+        "keywords": {
+          "before": 10,
+          "after": 13,
+          "valid": true
+        }
+      },
+      {
+        "slug": "kuvalajittelu-tyoarkit",
+        "title": {
+          "value": "Kuvalajittelu Generaattori — Ilmainen | LessonCraftStudio",
+          "length": 57,
+          "valid": true
+        },
+        "description": {
+          "length": 153,
+          "valid": true
+        },
+        "keywords": {
+          "before": 10,
+          "after": 13,
+          "valid": true
+        }
+      },
+      {
+        "slug": "kuvapolku-tyoarkit",
+        "title": {
+          "value": "Ilmainen Kuvapolku Generaattori | LessonCraftStudio",
+          "length": 51,
+          "valid": true
+        },
+        "description": {
+          "length": 154,
+          "valid": true
+        },
+        "keywords": {
+          "before": 10,
+          "after": 13,
+          "valid": true
+        }
+      },
+      {
+        "slug": "kuviojuna-tyoarkit",
+        "title": {
+          "value": "Ilmainen Kuviojuna Generaattori | LessonCraftStudio",
+          "length": 51,
+          "valid": true
+        },
+        "description": {
+          "length": 153,
+          "valid": true
+        },
+        "keywords": {
+          "before": 10,
+          "after": 13,
+          "valid": true
+        }
+      },
+      {
+        "slug": "kuviotehtava-tyoarkit",
+        "title": {
+          "value": "Kuviotehtävä Generaattori — Ilmainen | LessonCraftStudio",
+          "length": 56,
+          "valid": true
+        },
+        "description": {
+          "length": 148,
+          "valid": true
+        },
+        "keywords": {
+          "before": 10,
+          "after": 13,
+          "valid": true
+        }
+      },
+      {
+        "slug": "matematiikka-tyoarkit",
+        "title": {
+          "value": "Matematiikkatehtävä Generaattori | LessonCraftStudio",
+          "length": 52,
+          "valid": true
+        },
+        "description": {
+          "length": 157,
+          "valid": true
+        },
+        "keywords": {
+          "before": 10,
+          "after": 13,
+          "valid": true
+        }
+      },
+      {
+        "slug": "matematiikkapulmat-tyoarkit",
+        "title": {
+          "value": "Matematiikkapulma Generaattori | LessonCraftStudio",
+          "length": 50,
+          "valid": true
+        },
+        "description": {
+          "length": 149,
+          "valid": true
+        },
+        "keywords": {
+          "before": 10,
+          "after": 13,
+          "valid": true
+        }
+      },
+      {
+        "slug": "poikkea-joukosta-tyoarkit",
+        "title": {
+          "value": "Poikkea Joukosta Generaattori — Ilmainen | LessonCraftStudio",
+          "length": 60,
+          "valid": true
+        },
+        "description": {
+          "length": 148,
+          "valid": true
+        },
+        "keywords": {
+          "before": 10,
+          "after": 13,
+          "valid": true
+        }
+      },
+      {
+        "slug": "prepositio-tyoarkit",
+        "title": {
+          "value": "Prepositioharjoitus Generaattori | LessonCraftStudio",
+          "length": 52,
+          "valid": true
+        },
+        "description": {
+          "length": 150,
+          "valid": true
+        },
+        "keywords": {
+          "before": 10,
+          "after": 13,
+          "valid": true
+        }
+      },
+      {
+        "slug": "puuttuvat-palat-tyoarkit",
+        "title": {
+          "value": "Puuttuvat Palat Generaattori — Ilmainen | LessonCraftStudio",
+          "length": 59,
+          "valid": true
+        },
+        "description": {
+          "length": 150,
+          "valid": true
+        },
+        "keywords": {
+          "before": 10,
+          "after": 13,
+          "valid": true
+        }
+      },
+      {
+        "slug": "ristisanatehtavat-tyoarkit",
+        "title": {
+          "value": "Kuvaristisana Generaattori — Ilmainen | LessonCraftStudio",
+          "length": 57,
+          "valid": true
+        },
+        "description": {
+          "length": 152,
+          "valid": true
+        },
+        "keywords": {
+          "before": 10,
+          "after": 13,
+          "valid": true
+        }
+      },
+      {
+        "slug": "ruudukko-sovitus-tyoarkit",
+        "title": {
+          "value": "Ilmainen Ruudukkosovitus Generaattori | LessonCraftStudio",
+          "length": 57,
+          "valid": true
+        },
+        "description": {
+          "length": 157,
+          "valid": true
+        },
+        "keywords": {
+          "before": 10,
+          "after": 13,
+          "valid": true
+        }
+      },
+      {
+        "slug": "ruudukkopiirustus-tyoarkit",
+        "title": {
+          "value": "Ruudukkopiirustus Generaattori — Ilmainen | LessonCraftStudio",
+          "length": 61,
+          "valid": true
+        },
+        "description": {
+          "length": 153,
+          "valid": true
+        },
+        "keywords": {
+          "before": 10,
+          "after": 13,
+          "valid": true
+        }
+      },
+      {
+        "slug": "sanansekoitus-tyoarkit",
+        "title": {
+          "value": "Ilmainen Sanansekoitus Generaattori | LessonCraftStudio",
+          "length": 55,
+          "valid": true
+        },
+        "description": {
+          "length": 145,
+          "valid": true
+        },
+        "keywords": {
+          "before": 10,
+          "after": 13,
+          "valid": true
+        }
+      },
+      {
+        "slug": "sudoku-tyoarkit",
+        "title": {
+          "value": "Lasten Sudoku Generaattori — Ilmainen | LessonCraftStudio",
+          "length": 57,
+          "valid": true
+        },
+        "description": {
+          "length": 147,
+          "valid": true
+        },
+        "keywords": {
+          "before": 10,
+          "after": 13,
+          "valid": true
+        }
+      },
+      {
+        "slug": "vahennyslasku-tyoarkit",
+        "title": {
+          "value": "Ilmainen Vähennyslasku Generaattori | LessonCraftStudio",
+          "length": 55,
+          "valid": true
+        },
+        "description": {
+          "length": 153,
+          "valid": true
+        },
+        "keywords": {
+          "before": 10,
+          "after": 13,
+          "valid": true
+        }
+      },
+      {
+        "slug": "varityskuvat-tyoarkit",
+        "title": {
+          "value": "Ilmainen Värityskuva Generaattori | LessonCraftStudio",
+          "length": 53,
+          "valid": true
+        },
+        "description": {
+          "length": 147,
+          "valid": true
+        },
+        "keywords": {
+          "before": 10,
+          "after": 13,
+          "valid": true
+        }
+      },
+      {
+        "slug": "varjoyhdistely-tyoarkit",
+        "title": {
+          "value": "Varjoyhdistely Generaattori — Ilmainen | LessonCraftStudio",
+          "length": 58,
+          "valid": true
+        },
+        "description": {
+          "length": 140,
+          "valid": true
+        },
+        "keywords": {
+          "before": 10,
+          "after": 13,
+          "valid": true
+        }
+      },
+      {
+        "slug": "viivojen-piirtaminen-tyoarkit",
+        "title": {
+          "value": "Viivanpiirto Generaattori — Ilmainen | LessonCraftStudio",
+          "length": 56,
+          "valid": true
+        },
+        "description": {
+          "length": 144,
+          "valid": true
+        },
+        "keywords": {
+          "before": 10,
+          "after": 13,
+          "valid": true
+        }
+      },
+      {
+        "slug": "word-search-worksheets",
+        "title": {
+          "value": "Ilmainen Sanahaku Generaattori | LessonCraftStudio",
+          "length": 50,
+          "valid": true
+        },
+        "description": {
+          "length": 151,
+          "valid": true
+        },
+        "keywords": {
+          "before": 10,
+          "after": 13,
+          "valid": true
+        }
+      },
+      {
+        "slug": "yhdista-parit-tyoarkit",
+        "title": {
+          "value": "Yhdistä Parit Generaattori — Ilmainen | LessonCraftStudio",
+          "length": 57,
+          "valid": true
+        },
+        "description": {
+          "length": 144,
+          "valid": true
+        },
+        "keywords": {
+          "before": 10,
+          "after": 13,
+          "valid": true
+        }
+      },
+      {
+        "slug": "yhteenlasku-tyoarkit",
+        "title": {
+          "value": "Ilmainen Yhteenlasku Generaattori | LessonCraftStudio",
+          "length": 53,
+          "valid": true
+        },
+        "description": {
+          "length": 150,
+          "valid": true
+        },
+        "keywords": {
+          "before": 10,
+          "after": 13,
+          "valid": true
+        }
+      }
+    ]
+  },
+  "themeHubs": {
+    "total": 50,
+    "updated": 50,
+    "errors": [],
+    "validations": [
+      {
+        "theme": "alphabet",
+        "keywords": {
+          "before": 10,
+          "after": 11,
+          "valid": true
+        }
+      },
+      {
+        "theme": "animals",
+        "keywords": {
+          "before": 10,
+          "after": 11,
+          "valid": true
+        }
+      },
+      {
+        "theme": "birds",
+        "keywords": {
+          "before": 10,
+          "after": 11,
+          "valid": true
+        }
+      },
+      {
+        "theme": "birthday",
+        "keywords": {
+          "before": 10,
+          "after": 11,
+          "valid": true
+        }
+      },
+      {
+        "theme": "body",
+        "keywords": {
+          "before": 10,
+          "after": 11,
+          "valid": true
+        }
+      },
+      {
+        "theme": "camping",
+        "keywords": {
+          "before": 10,
+          "after": 11,
+          "valid": true
+        }
+      },
+      {
+        "theme": "circus",
+        "keywords": {
+          "before": 10,
+          "after": 11,
+          "valid": true
+        }
+      },
+      {
+        "theme": "clothing",
+        "keywords": {
+          "before": 10,
+          "after": 11,
+          "valid": true
+        }
+      },
+      {
+        "theme": "colors",
+        "keywords": {
+          "before": 10,
+          "after": 11,
+          "valid": true
+        }
+      },
+      {
+        "theme": "construction",
+        "keywords": {
+          "before": 10,
+          "after": 11,
+          "valid": true
+        }
+      },
+      {
+        "theme": "cooking",
+        "keywords": {
+          "before": 10,
+          "after": 11,
+          "valid": true
+        }
+      },
+      {
+        "theme": "dinosaurs",
+        "keywords": {
+          "before": 10,
+          "after": 11,
+          "valid": true
+        }
+      },
+      {
+        "theme": "easter",
+        "keywords": {
+          "before": 10,
+          "after": 11,
+          "valid": true
+        }
+      },
+      {
+        "theme": "emotions",
+        "keywords": {
+          "before": 10,
+          "after": 11,
+          "valid": true
+        }
+      },
+      {
+        "theme": "fairy-tales",
+        "keywords": {
+          "before": 10,
+          "after": 11,
+          "valid": true
+        }
+      },
+      {
+        "theme": "farm",
+        "keywords": {
+          "before": 10,
+          "after": 11,
+          "valid": true
+        }
+      },
+      {
+        "theme": "flowers",
+        "keywords": {
+          "before": 10,
+          "after": 11,
+          "valid": true
+        }
+      },
+      {
+        "theme": "food",
+        "keywords": {
+          "before": 10,
+          "after": 11,
+          "valid": true
+        }
+      },
+      {
+        "theme": "forest",
+        "keywords": {
+          "before": 10,
+          "after": 11,
+          "valid": true
+        }
+      },
+      {
+        "theme": "fruits",
+        "keywords": {
+          "before": 10,
+          "after": 11,
+          "valid": true
+        }
+      },
+      {
+        "theme": "furniture",
+        "keywords": {
+          "before": 10,
+          "after": 11,
+          "valid": true
+        }
+      },
+      {
+        "theme": "garden",
+        "keywords": {
+          "before": 10,
+          "after": 11,
+          "valid": true
+        }
+      },
+      {
+        "theme": "halloween",
+        "keywords": {
+          "before": 10,
+          "after": 11,
+          "valid": true
+        }
+      },
+      {
+        "theme": "holidays",
+        "keywords": {
+          "before": 10,
+          "after": 11,
+          "valid": true
+        }
+      },
+      {
+        "theme": "household",
+        "keywords": {
+          "before": 10,
+          "after": 11,
+          "valid": true
+        }
+      },
+      {
+        "theme": "insects",
+        "keywords": {
+          "before": 10,
+          "after": 11,
+          "valid": true
+        }
+      },
+      {
+        "theme": "jobs",
+        "keywords": {
+          "before": 10,
+          "after": 11,
+          "valid": true
+        }
+      },
+      {
+        "theme": "music",
+        "keywords": {
+          "before": 10,
+          "after": 11,
+          "valid": true
+        }
+      },
+      {
+        "theme": "nature",
+        "keywords": {
+          "before": 10,
+          "after": 11,
+          "valid": true
+        }
+      },
+      {
+        "theme": "numbers",
+        "keywords": {
+          "before": 10,
+          "after": 11,
+          "valid": true
+        }
+      },
+      {
+        "theme": "ocean",
+        "keywords": {
+          "before": 10,
+          "after": 11,
+          "valid": true
+        }
+      },
+      {
+        "theme": "pets",
+        "keywords": {
+          "before": 10,
+          "after": 11,
+          "valid": true
+        }
+      },
+      {
+        "theme": "pirates",
+        "keywords": {
+          "before": 10,
+          "after": 11,
+          "valid": true
+        }
+      },
+      {
+        "theme": "robots",
+        "keywords": {
+          "before": 10,
+          "after": 11,
+          "valid": true
+        }
+      },
+      {
+        "theme": "school",
+        "keywords": {
+          "before": 10,
+          "after": 11,
+          "valid": true
+        }
+      },
+      {
+        "theme": "seasons",
+        "keywords": {
+          "before": 10,
+          "after": 11,
+          "valid": true
+        }
+      },
+      {
+        "theme": "shapes",
+        "keywords": {
+          "before": 10,
+          "after": 11,
+          "valid": true
+        }
+      },
+      {
+        "theme": "space",
+        "keywords": {
+          "before": 10,
+          "after": 11,
+          "valid": true
+        }
+      },
+      {
+        "theme": "sports",
+        "keywords": {
+          "before": 10,
+          "after": 11,
+          "valid": true
+        }
+      },
+      {
+        "theme": "spring",
+        "keywords": {
+          "before": 10,
+          "after": 11,
+          "valid": true
+        }
+      },
+      {
+        "theme": "summer",
+        "keywords": {
+          "before": 10,
+          "after": 11,
+          "valid": true
+        }
+      },
+      {
+        "theme": "superheroes",
+        "keywords": {
+          "before": 10,
+          "after": 11,
+          "valid": true
+        }
+      },
+      {
+        "theme": "toys",
+        "keywords": {
+          "before": 10,
+          "after": 11,
+          "valid": true
+        }
+      },
+      {
+        "theme": "transportation",
+        "keywords": {
+          "before": 10,
+          "after": 11,
+          "valid": true
+        }
+      },
+      {
+        "theme": "travel",
+        "keywords": {
+          "before": 10,
+          "after": 11,
+          "valid": true
+        }
+      },
+      {
+        "theme": "vegetables",
+        "keywords": {
+          "before": 10,
+          "after": 11,
+          "valid": true
+        }
+      },
+      {
+        "theme": "weather",
+        "keywords": {
+          "before": 10,
+          "after": 11,
+          "valid": true
+        }
+      },
+      {
+        "theme": "winter",
+        "keywords": {
+          "before": 10,
+          "after": 11,
+          "valid": true
+        }
+      },
+      {
+        "theme": "xmas",
+        "keywords": {
+          "before": 10,
+          "after": 11,
+          "valid": true
+        }
+      },
+      {
+        "theme": "zoo",
+        "keywords": {
+          "before": 10,
+          "after": 11,
+          "valid": true
+        }
+      }
+    ]
+  },
+  "cannibalization": [
+    {
+      "type": "KEYWORD_OVERLAP",
+      "severity": "info",
+      "message": "1 keywords shared between product and theme pages (expected some overlap): numerotaju kehittäminen..."
+    }
+  ],
+  "summary": {
+    "productPagesProcessed": 33,
+    "productPagesTotal": 33,
+    "themeHubsProcessed": 50,
+    "themeHubsTotal": 50,
+    "criticalCannibalizationIssues": 0,
+    "warnings": 0,
+    "allProductsHave12PlusKeywords": true,
+    "allThemesHave8PlusKeywords": true
+  }
+}

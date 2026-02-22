@@ -6,7 +6,7 @@ const content: EnrichedThemeContent = {
   name: 'Lelut',
   title: 'Leluteht\u00e4v\u00e4t ja Ty\u00f6lehdet Lapsille | LessonCraftStudio',
   description: 'Tutustu leluteht\u00e4viin lapsille: nuket, autot, rakennuspalikat ja lautapelit. Matematiikkaa, lukemista ja pulmia esikoulusta 3. luokalle. Tulostettavia.',
-  keywords: 'leluteht\u00e4v\u00e4t lapsille, lelu ty\u00f6lehdet tulostettava, nukke teht\u00e4v\u00e4t esikoulu, lelu v\u00e4rityssivut, auto ty\u00f6lehdet lapsille, lelu palapelit, palikka teht\u00e4v\u00e4t esikoulu, lelu sanahaku lapsille, lautapeli ty\u00f6lehdet, lelujen laskeminen',
+  keywords: 'lelutehtävät lapsille, lelut oppimateriaali esikoulu, lelujen lajittelu harjoitus, lelu sanasto oppiminen, leikkiminen ja oppiminen, lelujen laskeminen tehtävä, lelukauppa roolileikki, lelujen vertailu harjoitus, arjen esineet oppiminen, leluteht\u00e4v\u00e4t lapsille, lelu ty\u00f6lehdet tulostettava',
   heading: 'Leluaiheiset Teht\u00e4v\u00e4t ja Ty\u00f6lehdet Lapsille',
 
   // -- Rich narrative content --

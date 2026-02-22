@@ -6,7 +6,7 @@ const content: EnrichedThemeContent = {
   name: 'Tunteet',
   title: 'Tunneteht\u00e4v\u00e4t ja Ty\u00f6lehdet Lapsille | LessonCraftStudio',
   description: 'Tutustu tunneteht\u00e4viin lapsille: tunteiden tunnistaminen, ilmeet, empatia ja itses\u00e4\u00e4tely. Matematiikkaa, lukemista ja pulmia esikoulusta 3. luokalle.',
-  keywords: 'tunneteht\u00e4v\u00e4t lapsille, tunteet ty\u00f6lehdet tulostettava, tunteiden tunnistaminen teht\u00e4v\u00e4t, ilmeet teht\u00e4v\u00e4t esikoulu, tunnekasvatus ty\u00f6lehdet, empatia teht\u00e4v\u00e4t lapsille, tunnetaidot esikoulu, tunteet v\u00e4rityssivut, itses\u00e4\u00e4tely teht\u00e4v\u00e4t, tunteet palapelit lapsille',
+  keywords: 'tunnetehtävät lapsille, tunnekasvatus oppimateriaali, tunteiden tunnistaminen harjoitus, sosioemotionaalinen oppiminen, tunneilmaisu tehtävä, empatia harjoitus lapset, tunnesanasto esikoulu, itsesäätelytaidot oppiminen, tunnetaidot työlehdet, tunneteht\u00e4v\u00e4t lapsille, tunteet ty\u00f6lehdet tulostettava',
   heading: 'Tunnekasvatus \u2014 Teht\u00e4v\u00e4t ja Ty\u00f6lehdet Lapsille',
 
   // -- Rich narrative content --

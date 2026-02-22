@@ -17,7 +17,7 @@ export const coloringFiContent: ProductPageContent = {
     appId: 'coloring',
     title: 'Ilmainen Värityskuva Generaattori | LessonCraftStudio',
     description: 'Luo tulostettavia värityskuvia lapsille 3 000+ kuvan kirjastosta. 50 teemaa ja 5 ikätasoa esikoulusta 3. luokalle. Lataa ilmaiset PDF-värityssivut.',
-    keywords: 'värityskuva generaattori, värityskuvia lapsille tulostettava, ilmaiset värityssivut, värityskirja tulostettava, eläinten värityskuvat, tulostettavat värityskirjat, väritys esikoulu, väritysharjoitukset, väritystehtävät lapsille, lasten värityssivut',
+    keywords: 'värityskuva generaattori, värityssivu tulostettava, hienomotoriikan kehittäminen, silmä-käsi-koordinaatio, värien tunnistaminen, luova ilmaisu lapset, kynäote vahvistaminen, rajojen sisällä värittäminen, visuaalinen hahmottaminen, rentoutuminen värittäminen, taiteellinen ilmaisu, värityskuvia lapsille tulostettava, ilmaiset värityssivut',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/varityskuvat-tyoarkit',
   },
 

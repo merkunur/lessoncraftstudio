@@ -17,7 +17,7 @@ export const matchingFiContent: ProductPageContent = {
     appId: 'matching',
     title: 'Yhdistä Parit Generaattori — Ilmainen | LessonCraftStudio',
     description: 'Luo tulostettavia yhdistä parit -tehtäviä kuvilla. Kehitä muistia ja hahmontunnistusta esikoulusta 3. luokalle. 50 teemaa. Lataa PDF ilmaiseksi.',
-    keywords: 'yhdistä parit generaattori, yhdistä parit tehtävät, yhdistämistehtävät lapsille, muistipeli tulostettava, parien yhdistäminen esikoulu, hahmontunnistus harjoitus, visuaalinen yhdistäminen, kuvien yhdistäminen tehtävä, pariharjoitus tulostettava, yhdistämistehtävät esikoulu',
+    keywords: 'yhdistä parit generaattori, parin yhdistäminen tehtävä, muistipeli tulostettava, visuaalinen yhdistäminen, kuvaparien tunnistaminen, kognitiivinen harjoitus lapset, loogiset yhdistelmät, assosiaatio harjoitus, muistin kehittäminen, vastaavuuksien löytäminen, yhteenkuuluvuus tehtävä, yhdistä parit tehtävät, yhdistämistehtävät lapsille',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/yhdista-parit-tyoarkit',
   },
 

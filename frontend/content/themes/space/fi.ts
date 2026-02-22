@@ -6,7 +6,7 @@ const content: EnrichedThemeContent = {
   name: 'Avaruus',
   title: 'Avaruustehtävät ja Työlehdet Lapsille | LessonCraftStudio',
   description: 'Tutustu avaruustehtäviin lapsille: planeetat, tähdet, raketit ja aurinkokunta. Matematiikkaa, lukemista ja pulmia esikoulusta 3. luokalle. Tulostettavia.',
-  keywords: 'avaruustehtävät lapsille, avaruus työlehdet tulostettava, planeetta tehtävät esikoulu, avaruus värityssivut, raketti työlehdet lapsille, avaruus palapelit, aurinkokunta tehtävät esikoulu, avaruus sanahaku lapsille, tähti työlehdet, planeettojen laskeminen',
+  keywords: 'avaruustehtävät lapsille, avaruus oppimateriaali lapset, planeetat ja tähdet harjoitus, aurinkokunta oppiminen, avaruussanasto esikoulu, astronautti tehtävä, kuun vaiheet oppiminen, avaruustutkimus lapset, tähtitiede esikoulu, avaruus työlehdet tulostettava, planeetta tehtävät esikoulu',
   heading: 'Avaruusaiheiset Tehtävät ja Pulmia Lapsille',
 
   // -- Rich narrative content --

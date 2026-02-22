@@ -6,7 +6,7 @@ const content: EnrichedThemeContent = {
   name: 'Numerot',
   title: 'Numeroteht\u00e4v\u00e4t ja Ty\u00f6lehdet Lapsille | LessonCraftStudio',
   description: 'Tutustu numeroteht\u00e4viin lapsille: laskeminen, yhteenlasku, v\u00e4hennyslasku ja paikkaarvo. Matematiikkaa ja pulmia esikoulusta 3. luokalle. Tulostettavia.',
-  keywords: 'numeroteht\u00e4v\u00e4t lapsille, numero ty\u00f6lehdet tulostettava, laskeminen teht\u00e4v\u00e4t esikoulu, numero v\u00e4rityssivut, yhteenlasku ty\u00f6lehdet lapsille, numero palapelit, lukutaju teht\u00e4v\u00e4t esikoulu, numero sanahaku lapsille, v\u00e4hennyslasku ty\u00f6lehdet, numeroiden laskeminen',
+  keywords: 'numerotehtävät lapsille, numerot oppimateriaali esikoulu, lukujen oppiminen harjoitus, numerotaju kehittäminen, laskemisen perustaidot, lukumäärän tunnistaminen, numero-sana vastaavuus, lukujonoharjoitus lapset, matemaattinen valmius, numeroteht\u00e4v\u00e4t lapsille, numero ty\u00f6lehdet tulostettava',
   heading: 'Numeroaiheiset Teht\u00e4v\u00e4t ja Pulmia Lapsille',
 
   // -- Rich narrative content --

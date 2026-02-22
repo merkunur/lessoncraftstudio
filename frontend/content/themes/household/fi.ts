@@ -6,7 +6,7 @@ const content: EnrichedThemeContent = {
   name: 'Kotitalous',
   title: 'Kotitalousteht\u00e4v\u00e4t ja Ty\u00f6lehdet Lapsille | LessonCraftStudio',
   description: 'Tutustu kotitalousteht\u00e4viin lapsille: huoneet, kodin esineet, p\u00e4iv\u00e4rutiinit ja tilak\u00e4sitteet. Matematiikkaa, lukemista ja pulmia esikoulusta 3. luokalle.',
-  keywords: 'kotitalousteht\u00e4v\u00e4t lapsille, koti ty\u00f6lehdet tulostettava, huoneet teht\u00e4v\u00e4t esikoulu, kodin esineet ty\u00f6lehdet, kotitalous v\u00e4rityssivut, p\u00e4iv\u00e4rutiini teht\u00e4v\u00e4t lapsille, koti palapelit, prepositiot ty\u00f6lehdet esikoulu, koti sanahaku lapsille, kotiesineiden laskeminen',
+  keywords: 'kodinhoitotehtävät lapsille, kodin esineet oppimateriaali, arjen taidot tehtävä, kotityöt oppiminen lapset, kotiympäristö harjoitus, kodinhoitosanasto esikoulu, arjen esineiden tunnistaminen, koti ja perhe tehtävä, päivittäiset toiminnot, kotitalousteht\u00e4v\u00e4t lapsille, koti ty\u00f6lehdet tulostettava',
   heading: 'Koti-aiheiset Teht\u00e4v\u00e4t ja Ty\u00f6lehdet Lapsille',
 
   // -- Rich narrative content --

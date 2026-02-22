@@ -6,7 +6,7 @@ const content: EnrichedThemeContent = {
   name: 'Kesä',
   title: 'Kesätehtävät ja Työlehdet Lapsille | LessonCraftStudio',
   description: 'Tutustu kesätehtäviin lapsille: ranta, auringonpaiste, jäätelö ja uinti. Matematiikkaa, lukemista ja pulmia esikoulusta 3. luokalle. Tulostettavia.',
-  keywords: 'kesätehtävät lapsille, kesä työlehdet tulostettava, ranta tehtävät esikoulu, kesä värityssivut, aurinko työlehdet lapsille, kesä palapelit, jäätelö tehtävät esikoulu, kesä sanahaku lapsille, uinti työlehdet, kesäeläinten laskeminen',
+  keywords: 'kesätehtävät lapsille, kesä oppimateriaali lapset, kesälomatehtävät tulostettava, kesän aktiviteetit harjoitus, uimaranta ja kesä tehtävä, kesäsanasto esikoulu, kesäoppiminen kotona, lomaharjoitukset lapset, kesän luonto oppiminen, kesä työlehdet tulostettava, ranta tehtävät esikoulu',
   heading: 'Kesäaiheiset Tehtävät ja Pulmia Lapsille',
 
   // -- Rich narrative content --

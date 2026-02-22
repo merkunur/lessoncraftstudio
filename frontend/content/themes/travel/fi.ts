@@ -6,7 +6,7 @@ const content: EnrichedThemeContent = {
   name: 'Matkailu',
   title: 'Matkailuteht\u00e4v\u00e4t ja Ty\u00f6lehdet Lapsille | LessonCraftStudio',
   description: 'Tutustu matkailuteht\u00e4viin lapsille: maailmankartat, matkalaukut, maamerkit ja kulttuurit. Matematiikkaa, lukemista ja pulmia esikoulusta 3. luokalle.',
-  keywords: 'matkailuteht\u00e4v\u00e4t lapsille, matkailu ty\u00f6lehdet tulostettava, maailmankartta teht\u00e4v\u00e4t esikoulu, matkailu v\u00e4rityssivut, matkalaukku ty\u00f6lehdet lapsille, matkailu palapelit, maamerkki teht\u00e4v\u00e4t esikoulu, matkailu sanahaku lapsille, kulttuuri ty\u00f6lehdet, maiden laskeminen',
+  keywords: 'matkailutehtävät lapsille, matkailu oppimateriaali lapset, maailman maat ja kulttuurit, maantiede oppiminen esikoulu, matkasanasto harjoitus, kartan lukeminen lapset, eri maat ja kaupungit, maailman tutkiminen tehtävä, kulttuurien oppiminen, matkailuteht\u00e4v\u00e4t lapsille, matkailu ty\u00f6lehdet tulostettava',
   heading: 'Matkailuaiheiset Teht\u00e4v\u00e4t ja Ty\u00f6lehdet Lapsille',
 
   // -- Rich narrative content --

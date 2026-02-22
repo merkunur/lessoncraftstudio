@@ -17,7 +17,7 @@ export const oddOneOutFiContent: ProductPageContent = {
     appId: 'odd-one-out',
     title: 'Poikkea Joukosta Generaattori — Ilmainen | LessonCraftStudio',
     description: 'Luo tulostettavia poikkea joukosta -tehtäviä visuaalisen hahmotuksen ja luokittelun harjoitteluun. 50 teemaa ja muokattavat asetukset. Ilmainen PDF.',
-    keywords: 'poikkea joukosta tehtävät, mikä ei kuulu joukkoon, luokittelu harjoitus, visuaalinen erottelu, poikkeava kuva tehtävä, luokitteluharjoitukset lapsille, erilainen joukossa, hahmontunnistus ja luokittelu, lajittelu ja erottelu, poikkea joukosta tulostettava',
+    keywords: 'poikkea joukosta generaattori, mikä ei kuulu joukkoon, luokittelu pulmatehtävä, erojen löytäminen tehtävä, kategorinen ajattelu, erotteleva havainnointi, looginen poissulkeminen, kriittinen ajattelu lapset, yhteenkuulumattomuus tehtävä, visuaalinen poikkeavuus, päättely ominaisuuksista, poikkea joukosta tehtävät, luokittelu harjoitus',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/poikkea-joukosta-tyoarkit',
   },
 

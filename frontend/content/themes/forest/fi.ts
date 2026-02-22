@@ -6,7 +6,7 @@ const content: EnrichedThemeContent = {
   name: 'Mets\u00e4',
   title: 'Mets\u00e4teht\u00e4v\u00e4t ja Ty\u00f6lehdet Lapsille | LessonCraftStudio',
   description: 'Tutustu mets\u00e4teht\u00e4viin lapsille: puulajit, mets\u00e4nel\u00e4imet, ekosysteemit ja luontopolut. Matematiikkaa, lukemista ja pulmia esikoulusta 3. luokalle.',
-  keywords: 'mets\u00e4teht\u00e4v\u00e4t lapsille, mets\u00e4 ty\u00f6lehdet tulostettava, puulajit teht\u00e4v\u00e4t esikoulu, mets\u00e4nel\u00e4imet ty\u00f6lehdet, mets\u00e4 v\u00e4rityssivut, mets\u00e4ekosysteemi teht\u00e4v\u00e4t lapsille, mets\u00e4 palapelit, luontopolku teht\u00e4v\u00e4t, mets\u00e4n el\u00e4inten laskeminen, mets\u00e4 sanahaku lapsille',
+  keywords: 'metsätehtävät lapsille, metsäaiheinen oppimateriaali, metsän eläimet ja kasvit, luontokasvatus metsä, metsäretki harjoitus, ekosysteemi oppiminen lapset, metsän kerrokset tehtävä, suomalainen metsä opetus, metsäsanasto esikoulu, mets\u00e4teht\u00e4v\u00e4t lapsille, mets\u00e4 ty\u00f6lehdet tulostettava',
   heading: 'Mets\u00e4aiheiset Teht\u00e4v\u00e4t ja Ty\u00f6lehdet Lapsille',
 
   // -- Rich narrative content --

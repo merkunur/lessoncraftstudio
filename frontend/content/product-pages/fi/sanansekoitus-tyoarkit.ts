@@ -17,7 +17,7 @@ export const wordScrambleFiContent: ProductPageContent = {
     appId: 'word-scramble',
     title: 'Ilmainen Sanansekoitus Generaattori | LessonCraftStudio',
     description: 'Luo tulostettavia sanansekoitustehtäviä oikeinkirjoituksen harjoitteluun. Muokattava vaikeustaso esikoulusta 3. luokalle. Kuvallinen ja ilmainen.',
-    keywords: 'sanansekoitus generaattori, sanansekoitus tehtävät, kirjoitusharjoitukset lapsille, oikeinkirjoitus harjoittelu, sana-arvoitus tulostettava, sanapelit lapsille tulostettava, sananmuodostus tehtävät, lukemaan oppiminen tehtävät, kirjoittamisen harjoittelu, sanasto harjoitukset',
+    keywords: 'sanansekoitus generaattori, anagrammi lapsille, oikeinkirjoitus harjoitus, sanajärjestys tehtävä, kirjainten järjestely, sanaston laajentaminen, kielellinen tietoisuus, tavutusharjoitus, dekoodaustaidon harjoittelu, sanan rakenne oppiminen, lukutaidon vahvistaminen, sanansekoitus tehtävät, kirjoitusharjoitukset lapsille',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/sanansekoitus-tyoarkit',
   },
 

@@ -6,7 +6,7 @@ const content: EnrichedThemeContent = {
   name: 'Kulkuneuvot',
   title: 'Kulkuneuvoteht\u00e4v\u00e4t ja Ty\u00f6lehdet Lapsille | LessonCraftStudio',
   description: 'Tutustu kulkuneuvoteht\u00e4viin lapsille: autot, junat, lentokoneet ja laivat. Matematiikkaa, lukemista ja pulmia esikoulusta 3. luokalle. Tulostettavia.',
-  keywords: 'kulkuneuvoteht\u00e4v\u00e4t lapsille, kulkuneuvo ty\u00f6lehdet tulostettava, auto teht\u00e4v\u00e4t esikoulu, kulkuneuvo v\u00e4rityssivut, juna ty\u00f6lehdet lapsille, kulkuneuvo palapelit, lentokone teht\u00e4v\u00e4t esikoulu, kulkuneuvo sanahaku lapsille, laiva ty\u00f6lehdet, kulkuneuvojen laskeminen',
+  keywords: 'kulkuneuvotehtävät lapsille, kulkuneuvot oppimateriaali, liikennevälineet harjoitus, ajoneuvot tunnistaminen tehtävä, liikennesanasto esikoulu, maa vesi ilma kulkuneuvot, liikenne ja turvallisuus, kulkuneuvot lajittelu, matkustaminen oppiminen, kulkuneuvoteht\u00e4v\u00e4t lapsille, kulkuneuvo ty\u00f6lehdet tulostettava',
   heading: 'Kulkuneuvoaiheiset Teht\u00e4v\u00e4t ja Pulmia Lapsille',
 
   // -- Rich narrative content --

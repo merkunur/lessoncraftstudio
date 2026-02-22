@@ -17,7 +17,7 @@ export const writingFiContent: ProductPageContent = {
     appId: 'writing',
     title: 'Käsinkirjoitus Generaattori — Ilmainen | LessonCraftStudio',
     description: 'Luo tulostettavia käsinkirjoituksen harjoittelutehtäviä. Kirjainten muodostus, sanan kirjoittaminen ja kynäote esikoulusta 2. luokalle. Ilmainen PDF.',
-    keywords: 'käsinkirjoitus harjoittelu, kirjaimet harjoittelu esikoulu, kirjainten muodostus, kynäote harjoittelu, kirjoittamisen harjoittelu, kirjainharjoitukset tulostettava, hienomotoriikka kirjoittaminen, aakkosten kirjoittaminen, käsinkirjoitus tulostettava, kirjoitusvalmiudet esikoulu',
+    keywords: 'käsinkirjoitus generaattori, kynäote harjoittelu, kirjainmuodostus opettelu, hienomotorinen harjoitus, jäljentäminen harjoittelu, kaunokirjoitus lapsille, kirjoittamisen perustaidot, viivankäyttö harjoitus, kirjoitusharjoitus esikoulu, motorinen kehitys kirjoittaminen, käsiala parantaminen, käsinkirjoitus harjoittelu, kirjaimet harjoittelu esikoulu',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/kasinkirjoitus-tyoarkit',
   },
 

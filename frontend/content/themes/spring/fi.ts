@@ -6,7 +6,7 @@ const content: EnrichedThemeContent = {
   name: 'Kevät',
   title: 'Kevättehtävät ja Työlehdet Lapsille | LessonCraftStudio',
   description: 'Tutustu kevättehtäviin lapsille: kukat, perhoset, sade ja uusi kasvu. Matematiikkaa, lukemista ja pulmia esikoulusta 3. luokalle. Tulostettavia.',
-  keywords: 'kevättehtävät lapsille, kevät työlehdet tulostettava, kukka tehtävät esikoulu, kevät värityssivut, perhonen työlehdet lapsille, kevät palapelit, sade tehtävät esikoulu, kevät sanahaku lapsille, uusi kasvu työlehdet, kevään eläinten laskeminen',
+  keywords: 'kevättehtävät lapsille, kevät oppimateriaali esikoulu, kevään merkit luonnossa, kasvun seuranta harjoitus, kevätprojekti tehtävä, kevätsanasto oppiminen, luonnon herääminen, kevätkasvit oppiminen, muuttolintujen paluu, kevät työlehdet tulostettava, kukka tehtävät esikoulu',
   heading: 'Kevätaiheiset Tehtävät ja Pulmia Lapsille',
 
   // -- Rich narrative content --

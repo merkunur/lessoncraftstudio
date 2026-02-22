@@ -19,7 +19,7 @@ export const pictureSortFiContent: ProductPageContent = {
     appId: 'picture-sort',
     title: 'Kuvalajittelu Generaattori — Ilmainen | LessonCraftStudio',
     description: 'Luo tulostettavia kuvalajittelutehtäviä, joissa lapsi luokittelee kuvat kategorioihin. Kehittää luokittelutaitoja. Esikoulusta 2. luokalle. Ilmainen PDF.',
-    keywords: 'kuvalajittelu tehtävät, lajitteluharjoitukset lapsille, kategorisointi tehtävä, kuvien luokittelu, lajittelu esikoulu, ryhmittely harjoitus, kuvien kategorisointi, luokittelu tulostettava, lajittelutaidot lapsille, ryhmittely kuvilla',
+    keywords: 'kuvalajittelu generaattori, luokittelu tehtävä lapsille, kategorioihin lajittelu, ryhmittely harjoitus, looginen luokittelu, ominaisuuksien tunnistaminen, vertailu ja lajittelu, kognitiivinen luokittelu, visuaalinen ryhmittely, käsitteellistäminen harjoitus, lajitteluperuste oppiminen, kuvalajittelu tehtävät, lajitteluharjoitukset lapsille',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/kuvalajittelu-tyoarkit',
   },
 

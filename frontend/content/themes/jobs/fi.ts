@@ -6,7 +6,7 @@ const content: EnrichedThemeContent = {
   name: 'Ammatit',
   title: 'Ammattitehtävät ja Työlehdet Lapsille | LessonCraftStudio',
   description: 'Tutustu ammattitehtäviin lapsille: palomiehet, lääkärit, opettajat ja poliisit. Matematiikkaa, lukemista ja pulmia esikoulusta 3. luokalle. Tulostettavia.',
-  keywords: 'ammattitehtävät lapsille, ammatti työlehdet tulostettava, yhteisön auttajat tehtävät esikoulu, ammatti värityssivut, palomies työlehdet lapsille, ammatti palapelit, lääkäri tehtävät esikoulu, ammatti sanahaku lapsille, työkalut työlehdet, ammattien laskeminen',
+  keywords: 'ammattitehtävät lapsille, ammatit oppimateriaali lapset, ammattien tunnistaminen harjoitus, työntekijät ja työvälineet, ammattisanasto esikoulu, yhteiskunnan ammatit, työ ja ammatit tehtävä, ammatinvalinta oppiminen, ammattiroolileikit, ammatti työlehdet tulostettava, yhteisön auttajat tehtävät esikoulu',
   heading: 'Ammattiaiheiset Tehtävät ja Työlehdet Lapsille',
 
   // -- Rich narrative content --

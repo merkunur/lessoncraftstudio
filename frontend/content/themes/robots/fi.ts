@@ -6,7 +6,7 @@ const content: EnrichedThemeContent = {
   name: 'Robotit',
   title: 'Robottitehtävät ja Työlehdet Lapsille | LessonCraftStudio',
   description: 'Tutustu robottitehtäviin lapsille: koneet, tekniikka, ohjelmointi ja muodot. Matematiikkaa, lukemista ja pulmia esikoulusta 3. luokalle. Tulostettavia.',
-  keywords: 'robottitehtävät lapsille, robotti työlehdet tulostettava, kone tehtävät esikoulu, robotti värityssivut, tekniikka työlehdet lapsille, robotti palapelit, ohjelmointi tehtävät esikoulu, robotti sanahaku lapsille, muodot työlehdet robotti, robottien laskeminen',
+  keywords: 'robottitehtävät lapsille, robotit oppimateriaali lapset, teknologia oppiminen esikoulu, ohjelmointi ajattelu lapset, STEM-oppiminen robotit, robottisanasto harjoitus, teknologiakasvatus työlehdet, automaatio käsite lapset, tulevaisuuden taidot, robotti työlehdet tulostettava, kone tehtävät esikoulu',
   heading: 'Robottiaiheiset Tehtävät ja Pulmia Lapsille',
 
   // -- Rich narrative content --

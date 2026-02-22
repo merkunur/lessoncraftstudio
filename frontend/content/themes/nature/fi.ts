@@ -6,7 +6,7 @@ const content: EnrichedThemeContent = {
   name: 'Luonto',
   title: 'Luontoteht\u00e4v\u00e4t ja Ty\u00f6lehdet Lapsille | LessonCraftStudio',
   description: 'Tutustu luontoteht\u00e4viin lapsille: mets\u00e4t, el\u00e4imet, elinymp\u00e4rist\u00f6t ja ekosysteemit. Matematiikkaa, lukemista ja pulmia esikoulusta 3. luokalle.',
-  keywords: 'luontoteht\u00e4v\u00e4t lapsille, luonto ty\u00f6lehdet tulostettava, elinymp\u00e4rist\u00f6 teht\u00e4v\u00e4t esikoulu, ekosysteemi ty\u00f6lehdet lapsille, luonto v\u00e4rityssivut, el\u00e4imet teht\u00e4v\u00e4t, luonto palapelit, luontopolku ty\u00f6lehdet lapsille, luonto sanahaku, luonnon el\u00e4inten laskeminen',
+  keywords: 'luontotehtävät lapsille, luonto oppimateriaali lapset, ympäristökasvatus työlehdet, luonnon tutkiminen harjoitus, luonnonilmiöt tehtävä, ekologia oppiminen esikoulu, luontohavainnointi harjoitus, luonnon monimuotoisuus, suomalainen luonto opetus, luontoteht\u00e4v\u00e4t lapsille, luonto ty\u00f6lehdet tulostettava',
   heading: 'Luontoaiheiset Teht\u00e4v\u00e4t ja Ty\u00f6lehdet Lapsille',
 
   // -- Rich narrative content --

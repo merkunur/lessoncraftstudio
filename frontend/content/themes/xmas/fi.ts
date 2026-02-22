@@ -6,7 +6,7 @@ const content: EnrichedThemeContent = {
   name: 'Joulu',
   title: 'Joulutehtävät ja Työlehdet Lapsille | LessonCraftStudio',
   description: 'Tutustu joulutehtäviin lapsille: joulupukki, kuusi, lahjat ja tontut. Matematiikkaa, lukemista ja pulmia esikoulusta 3. luokalle. Tulostettavia.',
-  keywords: 'joulutehtävät lapsille, joulu työlehdet tulostettava, joulupukki tehtävät esikoulu, joulu värityssivut, kuusi työlehdet lapsille, joulu palapelit, tonttu tehtävät esikoulu, joulu sanahaku lapsille, lahja työlehdet, joulukoristeiden laskeminen',
+  keywords: 'joulutehtävät lapsille, joulu oppimateriaali esikoulu, jouluaskartelu tehtävä, joulupukki harjoitus, adventtikalenteri oppiminen, joulusanasto harjoitus, jouluperinteet tehtävä, joululaulu ja oppiminen, joulun odotus aktiviteetit, joulu työlehdet tulostettava, joulupukki tehtävät esikoulu',
   heading: 'Jouluaiheiset Tehtävät ja Pulmia Lapsille',
 
   // -- Rich narrative content --

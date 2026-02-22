@@ -6,7 +6,7 @@ const content: EnrichedThemeContent = {
   name: 'Puutarha',
   title: 'Puutarhateht\u00e4v\u00e4t ja Ty\u00f6lehdet Lapsille | LessonCraftStudio',
   description: 'Tutustu puutarhateht\u00e4viin lapsille: kasvien kasvu, siemenet, kompostointi ja istutus. Matematiikkaa, lukemista ja pulmia esikoulusta 3. luokalle.',
-  keywords: 'puutarhateht\u00e4v\u00e4t lapsille, puutarha ty\u00f6lehdet tulostettava, kasvien kasvu teht\u00e4v\u00e4t esikoulu, siemen ty\u00f6lehdet lapsille, puutarha v\u00e4rityssivut, istutus teht\u00e4v\u00e4t, puutarha palapelit, kompostointi ty\u00f6lehdet lapsille, puutarha sanahaku, kasvien laskeminen esikoulu',
+  keywords: 'puutarhatehtävät lapsille, puutarha oppimateriaali lapset, kasvien istuttaminen tehtävä, puutarhanhoito oppiminen, kasvin kasvu seuranta, siementen itäminen, puutarhasanasto esikoulu, ympäristökasvatus puutarha, kasvimaa harjoitus, puutarhateht\u00e4v\u00e4t lapsille, puutarha ty\u00f6lehdet tulostettava',
   heading: 'Puutarha-aiheiset Teht\u00e4v\u00e4t ja Ty\u00f6lehdet Lapsille',
 
   // -- Rich narrative content --

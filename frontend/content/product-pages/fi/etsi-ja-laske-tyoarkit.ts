@@ -17,7 +17,7 @@ export const findAndCountFiContent: ProductPageContent = {
     appId: 'find-and-count',
     title: 'Etsi ja Laske Generaattori — Ilmainen | LessonCraftStudio',
     description: 'Luo tulostettavia etsi ja laske -tehtäviä lapsille. Kehitä laskemistaitoja ja visuaalista havainnointia kuvilla. Esikoulusta 3. luokalle. Ilmainen PDF.',
-    keywords: 'etsi ja laske generaattori, etsi ja laske tehtävät, laskemisharjoitukset esikoulu, visuaalinen laskeminen, lukumäärän tunnistus, etsi ja laske tulostettava, laskemistaidot lapsille, laskemisharjoitus kuvilla, lukuharjoitukset esikoulu, matikka etsintätehtävä',
+    keywords: 'etsi ja laske generaattori, laskeminen kuvasta harjoitus, tarkkaavaisuus tehtävä, havainnointitaito lapset, visuaalinen etsintä, lukumäärän selvittäminen, keskittymiskyky harjoittelu, esineiden tunnistaminen, kuvan tutkiminen tehtävä, laskutaito visuaalinen, yksityiskohtien havaitseminen, etsi ja laske tehtävät, laskemisharjoitukset esikoulu',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/etsi-ja-laske-tyoarkit',
   },
 

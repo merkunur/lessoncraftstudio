@@ -6,7 +6,7 @@ const content: EnrichedThemeContent = {
   name: 'Musiikki',
   title: 'Musiikkitehtävät ja Työlehdet Lapsille | LessonCraftStudio',
   description: 'Tutustu musiikkitehtäviin lapsille: soittimet, rytmikuviot, nuotit ja äänisanasto. Matematiikkaa, lukemista ja pulmia esikoulusta 3. luokalle. Tulostettavia.',
-  keywords: 'musiikkitehtävät lapsille, musiikki työlehdet tulostettava, soittimet tehtävät esikoulu, musiikki värityssivut, rytmi työlehdet lapsille, musiikki palapelit, nuotit tehtävät esikoulu, musiikki sanahaku lapsille, soittimien laskeminen, äänioppi työlehdet',
+  keywords: 'musiikkitehtävät lapsille, musiikki oppimateriaali lapset, soittimet tunnistaminen harjoitus, rytmi harjoitus esikoulu, musiikkisanasto oppiminen, nuottien tunnistaminen, äänien erottaminen tehtävä, musiikkikasvatus työlehdet, laulu ja liike oppiminen, musiikki työlehdet tulostettava, soittimet tehtävät esikoulu',
   heading: 'Musiikkiaiheiset Tehtävät ja Pulmia Lapsille',
 
   // -- Rich narrative content --

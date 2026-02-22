@@ -6,7 +6,7 @@ const content: EnrichedThemeContent = {
   name: 'Muodot',
   title: 'Muototehtävät ja Työlehdet Lapsille | LessonCraftStudio',
   description: 'Tutustu muototehtäviin lapsille: ympyrät, neliöt, kolmiot ja suorakulmiot. Matematiikkaa, lukemista ja pulmia esikoulusta 3. luokalle. Tulostettavia.',
-  keywords: 'muototehtävät lapsille, muoto työlehdet tulostettava, ympyrä tehtävät esikoulu, muoto värityssivut, neliö työlehdet lapsille, muoto palapelit, kolmio tehtävät esikoulu, muoto sanahaku lapsille, suorakulmio työlehdet, muotojen laskeminen',
+  keywords: 'muototehtävät lapsille, geometriset muodot oppimateriaali, muotojen tunnistaminen harjoitus, perusmuodot esikoulu, kolmio neliö ympyrä tehtävä, muoto ja tila oppiminen, muotosanasto harjoitus, geometria alkeet lapset, avaruudellinen hahmottaminen muodot, muoto työlehdet tulostettava, ympyrä tehtävät esikoulu',
   heading: 'Geometriset Muodot — Tehtävät ja Pulmia Lapsille',
 
   // -- Rich narrative content --

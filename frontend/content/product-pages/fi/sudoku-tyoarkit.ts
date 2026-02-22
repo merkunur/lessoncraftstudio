@@ -21,7 +21,7 @@ export const sudokuFiContent: ProductPageContent = {
     appId: 'sudoku',
     title: 'Lasten Sudoku Generaattori — Ilmainen | LessonCraftStudio',
     description: 'Luo tulostettavia kuvasudokuja lapsille. Helpot ja keskitason logiikkapelat esikoulusta 3. luokalle. Kuvat 3 000+ kirjastosta. Ilmainen PDF-lataus.',
-    keywords: 'kuvasudoku lapsille, sudoku tulostettava, lasten logiikkapelit, helppo sudoku lapsille, kuvasudoku tulostettava, sudoku esikoulu, logiikkaharjoitukset lapsille, sudoku ruudukko lapsille, ajattelutaitojen harjoittelu, sudoku alakoulu',
+    keywords: 'lasten sudoku generaattori, kuvasudoku lapsille, logiikkapeli tulostettava, päättelypeli esikoulu, numeropulma lapset, looginen ajattelu harjoitus, poissulkeminen strategia, sudokuruudukko aloittelijoille, ongelmanratkaisu peli, matemaattinen logiikka peli, ajatteluharjoitus lapsille, sudoku tulostettava, lasten logiikkapelit',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/sudoku-tyoarkit',
   },
 

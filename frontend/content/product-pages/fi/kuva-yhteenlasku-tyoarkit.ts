@@ -17,7 +17,7 @@ export const codeAdditionFiContent: ProductPageContent = {
     appId: 'code-addition',
     title: 'Kuvakoodattu Yhteenlasku Generaattori | LessonCraftStudio',
     description: 'Luo tulostettavia kuvakoodattuja yhteenlaskutehtäviä, joissa kuvat korvaavat numerot. Kehittää algebrallista ajattelua. Esikoulusta 3. luokalle. Ilmainen.',
-    keywords: 'kuvakoodattu yhteenlasku, symbolinen algebra lapsille, kuvapohjainen matematiikka, koodilaskut tulostettava, algebrallinen ajattelu esikoulu, kuva korvaa luvun, salaviesti yhteenlasku, kuvasymboli laskutehtävä, matemaattinen koodaus, visuaalinen algebra',
+    keywords: 'kuvakoodattu yhteenlasku generaattori, symbolikoodaus matematiikka, kuvakoodaus laskutehtävä, salakoodilaskut lapsille, matemaattinen salakirjoitus, dekoodaus oppiminen, koodinpurkaminen harjoitus, visuaalinen kooditehtävä, looginen päättely laskeminen, matemaattinen ongelmanratkaisu, symbolinen ajattelu, symbolinen algebra lapsille, kuvapohjainen matematiikka',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/kuva-yhteenlasku-tyoarkit',
   },
 

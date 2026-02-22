@@ -6,7 +6,7 @@ const content: EnrichedThemeContent = {
   name: 'Merirosvot',
   title: 'Merirosvoteht\u00e4v\u00e4t ja Ty\u00f6lehdet Lapsille | LessonCraftStudio',
   description: 'Tutustu merirosvoteht\u00e4viin lapsille: aarrekartat, laivat, papukaijat ja meriseikkailut. Matematiikkaa, lukemista ja pulmia esikoulusta 3. luokalle.',
-  keywords: 'merirosvoteht\u00e4v\u00e4t lapsille, merirosvo ty\u00f6lehdet tulostettava, aarrekartta teht\u00e4v\u00e4t esikoulu, merirosvo v\u00e4rityssivut, laiva ty\u00f6lehdet lapsille, merirosvo palapelit, aarre teht\u00e4v\u00e4t esikoulu, merirosvo sanahaku lapsille, meriseikkailu ty\u00f6lehdet, merirosvojen laskeminen',
+  keywords: 'merirosvostehtävät lapsille, merirosvo oppimateriaali, aarteenetsintä tehtävä, seikkailu ja oppiminen, merirosvo sanasto esikoulu, kartan lukeminen harjoitus, meriseikkailu tehtävä, merirosvolaiva askartelu, suuntien oppiminen, merirosvoteht\u00e4v\u00e4t lapsille, merirosvo ty\u00f6lehdet tulostettava',
   heading: 'Merirosvoaiheiset Teht\u00e4v\u00e4t ja Pulmia Lapsille',
 
   // -- Rich narrative content --

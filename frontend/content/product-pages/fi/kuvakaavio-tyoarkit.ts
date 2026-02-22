@@ -17,7 +17,7 @@ export const chartCountFiContent: ProductPageContent = {
     appId: 'chart-count',
     title: 'Kuvakaavio Generaattori — Ilmainen | LessonCraftStudio',
     description: 'Luo tulostettavia kuvakaavio-tehtäviä laskemisen ja tiedon visualisoinnin harjoitteluun. Laske ja väritä kuviot esikoulusta 3. luokalle. Ilmainen.',
-    keywords: 'kuvakaavio tehtävät, laske ja väritä, tiedon visualisointi lapsille, pylväskaavio esikoulu, kuvakaavio tulostettava, laskeminen ja väritys, tilastotehtävät lapsille, kaavio tulostettava, tilastot esikoulu, kuvakaavio harjoitus',
+    keywords: 'kuvakaavio generaattori, tilastokuva lapsille, pylväsdiagrammi harjoitus, tiedon kerääminen tehtävä, graafinen esitys oppiminen, datan tulkinta lapset, tilastojen lukeminen harjoitus, kuvadiagrammi työarkki, taulukkolaskenta esikoulu, visuaalinen data-analyysi, matemaattinen tilastoajattelu, kuvakaavio tehtävät, laske ja väritä',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/kuvakaavio-tyoarkit',
   },
 

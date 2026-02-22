@@ -17,7 +17,7 @@ export const shadowMatchFiContent: ProductPageContent = {
     appId: 'shadow-match',
     title: 'Varjoyhdistely Generaattori — Ilmainen | LessonCraftStudio',
     description: 'Luo tulostettavia varjoyhdistelytehtäviä, joissa lapsi yhdistää kuvan oikeaan varjoon. Kehittää visuaalista hahmotusta. 50 teemaa. Ilmainen.',
-    keywords: 'varjoyhdistely tehtävät, varjokuva yhdistäminen, varjotehtävät lapsille, siluettitehtävät tulostettava, varjokuvan tunnistus, visuaalinen yhdistäminen varjo, varjoharjoitukset esikoulu, siluetti harjoitus, kuvan ja varjon yhdistäminen, varjokuvatehtävät',
+    keywords: 'varjoyhdistely generaattori, siluettien tunnistaminen, visuaalinen erottelukyky, hahmontunnistus harjoitus, muodon tunnistaminen, varjojen yhdistäminen, ääriviiva tunnistaminen, visuaalinen prosessointi, kognitiivinen hahmottaminen, visuaalinen vastaavuus, muodon ja taustan erottaminen, varjoyhdistely tehtävät, varjokuva yhdistäminen',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/varjoyhdistely-tyoarkit',
   },
 

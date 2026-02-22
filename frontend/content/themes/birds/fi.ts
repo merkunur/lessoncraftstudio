@@ -6,7 +6,7 @@ const content: EnrichedThemeContent = {
   name: 'Linnut',
   title: 'Lintuteht\u00e4v\u00e4t ja Ty\u00f6lehdet Lapsille | LessonCraftStudio',
   description: 'Tutustu lintuaiheisiin teht\u00e4viin lapsille: p\u00f6ll\u00f6t, papukaijat, pingviinit ja kotkat. Matematiikkaa, lukemista, pulmia ja v\u00e4rityst\u00e4 esikoulusta 3. luokalle.',
-  keywords: 'lintuteht\u00e4v\u00e4t lapsille, lintu ty\u00f6lehdet tulostettava, p\u00f6ll\u00f6 teht\u00e4v\u00e4t lapsille, pingviini ty\u00f6lehdet, lintu v\u00e4rityssivut, lintujen laskeminen esikoulu, kotka teht\u00e4v\u00e4t lapsille, lintu palapelit, papukaija ty\u00f6lehdet, lintubongaus teht\u00e4v\u00e4t',
+  keywords: 'lintutehtävät lapsille, lintujen tunnistaminen harjoitus, lintuaiheinen oppimateriaali, lintujen laskeminen tehtävä, luontohavainnointi lapset, lintujen elinympäristöt, muuttolinnut oppiminen, lintusanasto esikoulu, linnunlaulu tunnistaminen, lintuteht\u00e4v\u00e4t lapsille, lintu ty\u00f6lehdet tulostettava',
   heading: 'Lintuaiheiset Teht\u00e4v\u00e4t ja Ty\u00f6lehdet Lapsille',
 
   // -- Rich narrative content --

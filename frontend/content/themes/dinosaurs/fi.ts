@@ -6,7 +6,7 @@ const content: EnrichedThemeContent = {
   name: 'Dinosaurukset',
   title: 'Dinosaurusteht\u00e4v\u00e4t ja Ty\u00f6lehdet Lapsille | LessonCraftStudio',
   description: 'Tutustu dinosaurusteht\u00e4viin lapsille: T-Rex, Triceratops, Stegosaurus ja muut. Matematiikkaa, lukemista ja pulmia esikoulusta 3. luokalle. Tulostettavia.',
-  keywords: 'dinosaurusteht\u00e4v\u00e4t lapsille, dinosaurus ty\u00f6lehdet tulostettava, T-Rex teht\u00e4v\u00e4t esikoulu, dinosaurus v\u00e4rityssivut, Triceratops ty\u00f6lehdet lapsille, dinosaurus palapelit, dinosaurusten laskeminen, dinosaurus sanahaku, Stegosaurus teht\u00e4v\u00e4t, dinosaurus matematiikka lapsille',
+  keywords: 'dinosaurustehtävät lapsille, paleontologia lapset, fossiilit oppimateriaali, dinosauruslajit harjoitus, esihistoriallinen aika opetus, T-Rex ja Triceratops tehtävä, geologiset kaudet oppiminen, dinosaurusten koko vertailu, sukupuutto käsite lapset, dinosaurusteht\u00e4v\u00e4t lapsille, dinosaurus ty\u00f6lehdet tulostettava',
   heading: 'Dinosaurusaiheiset Teht\u00e4v\u00e4t ja Pulmia Lapsille',
 
   // -- Rich narrative content --

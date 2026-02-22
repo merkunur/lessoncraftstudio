@@ -17,7 +17,7 @@ export const drawAndColorFiContent: ProductPageContent = {
     appId: 'draw-and-color',
     title: 'Ruudukkopiirustus Generaattori — Ilmainen | LessonCraftStudio',
     description: 'Luo tulostettavia ruudukkopiirustustehtäviä. Piirrä kuvioita ruutuihin mallin mukaan ja väritä. Kehittää visuaalista hahmotusta. Esikoulusta 3. luokalle.',
-    keywords: 'ruudukkopiirustus tehtävät, pikselipiirustus lapsille, ruudukopiirtäminen, ruutuvihko piirtäminen, visuaalinen hahmotus harjoitus, ruutupiirustus tulostettava, mallin kopiointi ruudukkoon, piirustus ruutuihin, koodattu piirtäminen, ruudukkotehtävät lapsille',
+    keywords: 'ruudukkopiirustus generaattori, ruudukkokopiointi tehtävä, koordinaatisto harjoitus, symmetria piirtäminen, visuospatiaalinen harjoitus, pikseligrafiikka lapsille, piirtäminen mallin mukaan, avaruudellinen hahmottaminen, tarkkuuspiirustus lapset, ruudukkotaide harjoitus, visuaalinen tarkkuus, ruudukkopiirustus tehtävät, pikselipiirustus lapsille',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/ruudukkopiirustus-tyoarkit',
   },
 

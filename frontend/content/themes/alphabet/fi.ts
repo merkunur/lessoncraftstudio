@@ -6,7 +6,7 @@ const content: EnrichedThemeContent = {
   name: 'Aakkoset',
   title: 'Aakkoset ja Kirjainteht\u00e4v\u00e4t Lapsille | LessonCraftStudio',
   description: 'Tutustu aakkos- ja kirjainteht\u00e4viin lapsille: tunnistaminen, j\u00e4ljent\u00e4minen, \u00e4\u00e4nneharjoitukset ja k\u00e4siala. Tulostettavia teht\u00e4vi\u00e4 esikoulusta 3. luokalle.',
-  keywords: 'aakkosteht\u00e4v\u00e4t lapsille, kirjainten j\u00e4ljent\u00e4minen, \u00e4\u00e4nneharjoitukset esikoulu, kirjainten tunnistaminen teht\u00e4v\u00e4t, tulostettavat aakkosty\u00f6lehdet, k\u00e4sialaharjoitukset lapsille, aakkoset esikoulu, kirjain-\u00e4\u00e4nne-vastaavuus, abc-teht\u00e4v\u00e4t tulostettava, isot ja pienet kirjaimet',
+  keywords: 'aakkostehtävät lapsille, kirjainharjoitukset tulostettava, aakkosten opettelu tehtävät, foneeminen tietoisuus harjoitukset, kirjainmuodostus työlehdet, lukivalmiuden tukeminen, suomen aakkoset esikoulu, äänne-kirjain yhteys, alkukirjain tunnistaminen, aakkosteht\u00e4v\u00e4t lapsille, kirjainten j\u00e4ljent\u00e4minen',
   heading: 'Aakkos- ja Kirjainharjoitukset Lapsille',
 
   // -- Rich narrative content --

@@ -6,7 +6,7 @@ const content: EnrichedThemeContent = {
   name: 'Talvi',
   title: 'Talvitehtävät ja Työlehdet Lapsille | LessonCraftStudio',
   description: 'Tutustu talvitehtäviin lapsille: lumi, jää, luistelu ja lumileikit. Matematiikkaa, lukemista ja pulmia esikoulusta 3. luokalle. Tulostettavia työlehtiä.',
-  keywords: 'talvitehtävät lapsille, talvi työlehdet tulostettava, lumi tehtävät esikoulu, talvi värityssivut, jää työlehdet lapsille, talvi palapelit, luistelu tehtävät esikoulu, talvi sanahaku lapsille, lumiukko työlehdet, talvieläinten laskeminen',
+  keywords: 'talvitehtävät lapsille, talvi oppimateriaali esikoulu, talviaktiviteetit harjoitus, lumi ja jää tehtävä, talvisanasto oppiminen, talven luonto oppiminen, talvieläimet ja sopeutuminen, joulun jälkeen talviteema, talviliikunta ja oppiminen, talvi työlehdet tulostettava, lumi tehtävät esikoulu',
   heading: 'Talviaiheiset Tehtävät ja Pulmia Lapsille',
 
   // -- Rich narrative content --

@@ -6,7 +6,7 @@ const content: EnrichedThemeContent = {
   name: 'Keho',
   title: 'Keho ja Kehon Osat \u2014 Teht\u00e4v\u00e4t Lapsille | LessonCraftStudio',
   description: 'Tutustu kehoaiheisiin teht\u00e4viin lapsille: kehon osat, aistit, terveys ja anatomia. Matematiikkaa, lukemista ja pulmia esikoulusta 3. luokalle. Tulostettavia.',
-  keywords: 'kehon osat teht\u00e4v\u00e4t lapsille, ihmiskeho ty\u00f6lehdet, aistit teht\u00e4v\u00e4t esikoulu, kehon osat nime\u00e4minen, tulostettavat keho ty\u00f6lehdet, anatomia lapsille, terveys teht\u00e4v\u00e4t esikoulu, kehon osat lajittelu, viisi aistia teht\u00e4v\u00e4t, keho v\u00e4rityssivut lapsille',
+  keywords: 'kehonosat tehtävät lapsille, ihmiskeho oppimateriaali, kehonosien tunnistaminen harjoitus, terveyskasvatus työlehdet, kehon toiminnot tehtävä, aistit oppiminen lapset, anatomia esikoulu, kehontuntemus harjoitus, motoriikka ja keho, kehon osat teht\u00e4v\u00e4t lapsille, ihmiskeho ty\u00f6lehdet',
   heading: 'Kehon Osat ja Aistit \u2014 Teht\u00e4vi\u00e4 Lapsille',
 
   // -- Rich narrative content --

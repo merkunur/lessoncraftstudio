@@ -6,7 +6,7 @@ const content: EnrichedThemeContent = {
   name: 'Halloween',
   title: 'Halloween-teht\u00e4v\u00e4t ja Ty\u00f6lehdet Lapsille | LessonCraftStudio',
   description: 'Tutustu Halloween-teht\u00e4viin lapsille: kurpitsat, lepakot, h\u00e4m\u00e4h\u00e4kit ja puvut. Matematiikkaa, lukemista ja pulmia esikoulusta 3. luokalle. Tulostettavia.',
-  keywords: 'Halloween teht\u00e4v\u00e4t lapsille, Halloween ty\u00f6lehdet tulostettava, kurpitsa teht\u00e4v\u00e4t esikoulu, Halloween v\u00e4rityssivut, lepakko ty\u00f6lehdet lapsille, Halloween palapelit, h\u00e4m\u00e4h\u00e4kki teht\u00e4v\u00e4t, Halloween sanahaku lapsille, naamiaispuku ty\u00f6lehdet, Halloween matematiikka esikoulu',
+  keywords: 'halloween-tehtävät lapsille, halloween oppimateriaali, halloween-askartelu tehtävä, kurpitsa harjoitukset, halloween-sanasto esikoulu, kummitusaihe lapset, juhlapäivä oppiminen, halloween-pelit tulostettava, syysjuhla tehtävä, Halloween teht\u00e4v\u00e4t lapsille, Halloween ty\u00f6lehdet tulostettava',
   heading: 'Halloween-aiheiset Teht\u00e4v\u00e4t ja Pulmia Lapsille',
 
   // -- Rich narrative content --

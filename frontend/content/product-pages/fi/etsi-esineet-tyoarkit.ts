@@ -19,7 +19,7 @@ export const findObjectsFiContent: ProductPageContent = {
     appId: 'find-objects',
     title: 'Etsi Esineet Generaattori — Ilmainen | LessonCraftStudio',
     description: 'Luo tulostettavia etsintätehtäviä lapsille. Etsi piilotetut esineet kuvista ja kehitä visuaalista havainnointia. 50 teemaa esikoulusta 3. luokalle.',
-    keywords: 'etsi esineet tehtävät, piilokuva tulostettava, visuaalinen etsintä lapsille, etsi piilotetut esineet, tarkkaavaisuus harjoitus, visuaalinen havainnointi esikoulu, etsi ja löydä tehtävä, piilokuvaharjoitukset, etsintäpeli tulostettava, visuaalinen tarkkaavaisuus',
+    keywords: 'etsi esineet generaattori, piilotetut esineet tehtävä, visuaalinen etsintätehtävä, tarkkaavaisuusharjoitus lapset, yksityiskohtien löytäminen, keskittyminen kuvatehtävä, silmän liikkeen harjoitus, havainnointitaito kehittäminen, etsimispeli tulostettava, visuaalinen skannaus, esineiden tunnistamispeli, etsi esineet tehtävät, piilokuva tulostettava',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/etsi-esineet-tyoarkit',
   },
 

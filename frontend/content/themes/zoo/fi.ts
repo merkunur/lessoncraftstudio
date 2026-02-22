@@ -6,7 +6,7 @@ const content: EnrichedThemeContent = {
   name: 'El\u00e4intarha',
   title: 'El\u00e4intarhateht\u00e4v\u00e4t ja Ty\u00f6lehdet Lapsille | LessonCraftStudio',
   description: 'Tutustu el\u00e4intarhateht\u00e4viin lapsille: leijonat, norsut, kirahvit ja apinat. Matematiikkaa, lukemista ja pulmia esikoulusta 3. luokalle. Tulostettavia.',
-  keywords: 'el\u00e4intarhateht\u00e4v\u00e4t lapsille, el\u00e4intarha ty\u00f6lehdet tulostettava, leijona teht\u00e4v\u00e4t esikoulu, el\u00e4intarha v\u00e4rityssivut, norsu ty\u00f6lehdet lapsille, el\u00e4intarha palapelit, kirahvi teht\u00e4v\u00e4t esikoulu, el\u00e4intarha sanahaku lapsille, apina ty\u00f6lehdet, el\u00e4intarhan el\u00e4inten laskeminen',
+  keywords: 'eläintarhatehtävät lapsille, eläintarha oppimateriaali, eksoottiset eläimet harjoitus, eläintarhavierailu tehtävä, eläintarhasanasto esikoulu, villieläimet oppiminen, eläinsuojelu lapset, eläinlajien tunnistaminen, eläintarhan kartta harjoitus, el\u00e4intarhateht\u00e4v\u00e4t lapsille, el\u00e4intarha ty\u00f6lehdet tulostettava',
   heading: 'El\u00e4intarha-aiheiset Teht\u00e4v\u00e4t ja Pulmia Lapsille',
 
   // -- Rich narrative content --

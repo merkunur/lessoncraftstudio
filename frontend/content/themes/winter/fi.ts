@@ -206,6 +206,165 @@ const content: EnrichedThemeContent = {
   // -- Cross-linking --
   relatedThemes: ['seasons', 'weather', 'nature', 'holidays', 'xmas', 'animals', 'forest'],
   relatedBlogCategories: [],
+
+  // -- SEO Enrichment (Part 182) --
+
+  classroomScenarios: [
+    {
+      situation: 'Ensimmäisen luokan opettaja haluaa hyödyntää talven luonnonilmiöitä luonnontieteen ja matematiikan opetuksessa, mutta oppilaat ovat väsyneitä pimeyteen.',
+      solution: 'Hän käyttää talviaiheisia työlehtiä, jotka tekevät talvesta tutkimuskohteen: lumihiutaleiden symmetrian tutkimista, lämpötilojen vertailua, talvieläinten sopeutumisen tutkimista ja talviurheilulaskuja.',
+      outcome: 'Oppilaat alkavat nähdä talven kiehtovana tutkimuskohteena pimeyden sijaan. Luonnontieteen ymmärrys syvenee, ja matemaattiset taidot kehittyvät talven konkreettisissa konteksteissa.',
+    },
+    {
+      situation: 'Kotikouluvanhempi etsii teemaa, joka yhdistää ulkoleikit ja sisäoppimisen pitkinä talvikuukausina.',
+      solution: 'Vanhempi käyttää talvityölehtiä osana ulko-sisä-kierrosta: ulkona havainnoida lumikristalleja ja mitata lumen syvyyttä, sisällä täytetään lämpötilavertailuja, lumihiutaleväritystehtäviä ja talvieläinsanastopulmia.',
+      outcome: 'Lapsi kokee talven aktiivisena oppimiskautena ja yhdistää ulkohavainnot sisätehtäviin. Pitkjä talvi tuntuu rikkaalta ja kiinnostavalta tutkimuskaudelta.',
+    },
+  ],
+
+  quickStats: [
+    { label: 'Suositeltu ikähaarukka', value: '3–9 vuotta' },
+    { label: 'Työlehtisovellusten määrä', value: '10 sovellusta' },
+    { label: 'Opetussuunnitelman alueet', value: '4 aluetta' },
+    { label: 'Tuetut luokkatasot', value: 'Esiopetus–3. lk' },
+    { label: 'Keskimääräinen työskentelyaika', value: '10–20 min' },
+    { label: 'Talviaiheiden kirjo', value: 'Lumi, jää, eläimet, urheilu' },
+  ],
+
+  differentiationStrategies: [
+    {
+      learnerType: 'Visuaaliset oppijat',
+      adaptation: 'Painota lumihiutaleiden symmetriakuvioita ja talvimaisemien väritystehtäviä. Valokuvat lumikiteistä mikroskoopin alla ja talvimaisemien vertailu ennen ja jälkeen lumisateen tarjoavat visuaalisesti rikkaan lähtökohdan.',
+    },
+    {
+      learnerType: 'Kinesteettiset oppijat',
+      adaptation: 'Vie oppilaat ulos: mittakaa lumen syvyyttä, rakentakaa lumiveistoksia ja havainnoikaa jään muodostumista. Yhdistä ulkohavainnot työlehden lämpötilavertailuihin ja luonnontieteellisiin havaintoihin.',
+    },
+    {
+      learnerType: 'S2-oppijat',
+      adaptation: 'Talvi on universaali kokemus monille lapsille, mutta joillekin se voi olla uusi. Aloita visuaalisista talvikohtauksista ja nimeä talvisanastoa asteittain: lumi, jää, pakkanen, lumihiutale. Kuvitetut sanakortit ja kokemusperustainen oppiminen tukevat ymmärrystä.',
+    },
+    {
+      learnerType: 'Edistyneet oppijat',
+      adaptation: 'Haasta tieteellisillä tutkimuksilla: lumikiteiden rakenne, veden olomuodonmuutokset, eläinten talvehtimisstrategiat ja ilmastodatan analysointi. Lämpötiladatan kerääminen ja graafien piirtäminen tarjoavat syvemmän haasteen.',
+    },
+  ],
+
+  assessmentIdeas: [
+    {
+      method: 'Talvitutkimuskansio',
+      criteria: 'Kerää oppilaan talviaiheiset työlehdet ja ulkohavainnot kansioksi. Arvioi luonnontieteellisen sanaston kehittymistä, matemaattisten taitojen soveltamista talvikontekstiin ja havainnoinnin tarkkuutta.',
+      gradeLevel: 'Kaikki luokka-asteet',
+    },
+    {
+      method: 'Lämpötilapäiväkirja',
+      criteria: 'Oppilas mittaa ja kirjaa ulkolämpötilan viikon ajan, piirtää viivakaavion ja kirjoittaa yhteenvedon havainnoistaan. Arvioi mittauksen tarkkuutta, graafin oikeellisuutta ja kirjallisen pohdinnan syvyyttä.',
+      gradeLevel: '1.–3. lk',
+    },
+    {
+      method: 'Lumihiutalesymmetriatehtävä',
+      criteria: 'Pyydä oppilasta piirtämään symmetrinen lumihiutale ja selittämään symmetriaksälit. Arvioi symmetrian tarkkuutta, geometrisen sanaston käyttöä ja luovuutta kuviossa.',
+      gradeLevel: 'Esiopetus–2. lk',
+    },
+  ],
+
+  crossCurricularLinks: [
+    {
+      subject: 'Ympäristöoppi (talven luonnonilmiöt)',
+      connection: 'Talvi tarjoaa rikkaan tutkimuskontekstin luonnontieteelle: veden olomuodonmuutokset, eläinten talvehtiminen ja lumikiteiden rakenne. POPS 2014:n ympäristöopin tavoitteet toteutuvat luontevasti talven ilmiöiden havainnoinnissa.',
+      activity: 'Talvieläintyölehden jälkeen oppilaat tutkivat, miten eri eläimet selviävät talvesta: talviunessa, muuttamalla tai sopeutumalla.',
+    },
+    {
+      subject: 'Matematiikka',
+      connection: 'Talvi tarjoaa konkreettisia mittauskonteksteja: lämpötila, lumen syvyys, päivänvalon tunnit. Lumihiutaleiden symmetria yhdistää geometrian luonnontieteeseen.',
+      activity: 'Lämpötilavertailutehtävän jälkeen oppilaat piirtävät viikon lämpötilat pylväsdiagrammiksi ja vertailevat eri viikkojen tuloksia.',
+    },
+    {
+      subject: 'Liikunta',
+      connection: 'Talviurheilu — hiihto, luistelu, mäenlasku ja lumileikit — yhdistävät fyysisen aktiivisuuden talviteemaan. POPS 2014:n liikunnan tavoitteet toteutuvat luontevasti talviliikunnassa.',
+      activity: 'Talviurheilutyölehden jälkeen oppilaat tekevät talviurheilupäiväkirjaa, jossa he kirjaavat ulkoilunsa ja laskevat aktiiviset minuutit viikossa.',
+    },
+  ],
+
+  uniqueAngle: 'Talviaiheiset työlehdet ovat Suomessa pedagogisesti erityisen merkityksellisiä, koska talvi hallitsee maan vuodesta viidestä kuuteen kuukautta ja määrittää lasten arkikokemusta syvjällisesti. Pimeys, pakkanen, lumi ja jää eivät ole Suomessa ohimenexiä ilmiöitä vaan pitkäkestoisia olosuhteita, joiden ymmärtäminen ja arvostaminen on osa suomalaista identiteettiä. Talvityölehdet muuttavat tämän arjen tutkimuskohteeksi: lumihiutaleiden symmetria opettaa geometriaa, lämpötilojen vertailu opettaa negatiivisia lukuja ja mittaamista, talvieläinten sopeutumisstrategiat opettavat biologiaa ja talviurheilulaskut yhdistävät liikunnan ja matematiikan. Erityisesti Suomessa, missä lapset kasvavat lumileikkien, hiihdon ja jäällä liikkumisen parissa, talvityölehtien aiheet resonoivat syvjästi omakohtaisten kokemusten kanssa. POPS 2014:n ympäristöoppi korostaa luonnon vuodenaikaisrytmin ymmärtämistä, ja talviteema tarjoaa tähän pisimmän ja intensiivisimmän tutkimusjakson.',
+
+  researchCitation: 'Louv, R. (2008). Last Child in the Woods: Saving Our Children from Nature-Deficit Disorder. Algonquin Books. Tutkimus korosti ulkona oppimisen merkitystä lasten kehitykselle, ja talvi tarjoaa ainutlaatuisen sensorisen ympäristön, jossa lumi, jää ja pakkanen aktivoivat aisteja tavoilla, joita muut vuodenajat eivät tarjoa.',
+
+  culturalNotes: 'Suomessa talvi on elämäntapa: hiihto, luistelu, avantouinti ja lumileikit kuuluvat arkeen. POPS 2014 korostaa luonnon vuodenaikaisrytmin ymmärtämistä ja ulkona oppimista, ja talvityölehdet tukevat näitä tavoitteita yhdistämällä suomalaisen talvieljämän akateemisiin sisältöihin. Suomen pitkä talvi tekee teemasta erityisen merkityksellisen.',
+
+  snippetDefinition: 'Talviaiheiset työlehdet lapsille ovat tulostettavia oppimistehtäviä, jotka käyttävät lunta, jäätä, talvieläimiä ja talviurheilua matematiikan, luonnontieteen ja lukutaidon opettamiseen. Ne on suunniteltu 3–9-vuotiaille ja sisältävät lämpötilavertailuja, lumihiutalesymmetrioita, laskutehtäviä ja sanahakuja.',
+
+  snippetHowTo: [
+    'Ajoita talvityölehdet talvikuukausille marraskuusta maaliskuuhun, jolloin luonnonilmiöt ovat havaittavissa ulkona.',
+    'Aloita ulkohavainnolla: menkjää ulos ja havainnoikaa lunta, jäätä tai pakkasta ennen sisätehtävää.',
+    'Valitse eri taitoalueiden työlehtiä: lämpötilavertailu matematiikkaan, lumihiutale geometriaan, talvisanahaku sanastoon.',
+    'Yhdistä työlehti mittaamiseen: mittaa lumen syvyyttä, ulkolämpötilaa tai jään paksuutta.',
+    'Käytä talviurheilua kontekstina: hiihtokilometrien laskeminen, luisteluajan mittaaminen ja mäenlaskunopeuden vertailu.',
+    'Kierrä lasten joukossa ja esitä avoimia kysymyksiä kuten Miksi lumi on valkoista tai Miten linnut selviävät talvesta.',
+    'Kerää valmiit työlehdet talvitutkimuskansioon ja reflektoikaa keväällä, mitä talvesta opittiin.',
+  ],
+
+  limitations: 'Talvityölehdet olettavat tyypillisesti pohjoismaista talvea lumella ja pakkasella, mikä voi olla vierasta lapsille, jotka ovat kotoisin lämpimistä maista. Ulkotehtävät vaativat asianmukaista varustusta ja valvontaa pakkasella. Negatiiviset lämpötilat voivat olla käsitteellisesti haastavia nuorimmille oppilaille.',
+
+  themeComparisons: [
+    {
+      vsThemeId: 'seasons',
+      summary: 'Vuodenaikatyölehdet kattavat kaikki neljä vuodenaikaa. Talvityölehdet syventyvät yhteen vuodenaikaan ja sen ainutlaatuisiin ilmiöihin: lumeen, jäähän, pakkaseen ja talvieläimiin.',
+    },
+    {
+      vsThemeId: 'weather',
+      summary: 'Säätyölehdet tutkivat sääilmiöitä yleisesti. Talvityölehdet keskittyvät talven erityisiin sääilmiöihin ja niiden vaikutuksiin elämään.',
+    },
+    {
+      vsThemeId: 'nature',
+      summary: 'Luontotyölehdet tutkivat ekosysteemejä ja eläimiä yleisellä tasolla. Talvityölehdet keskittyvät luonnon talvisiin sopeutumisiin ja talven vaikutuksiin ekosysteemeihin.',
+    },
+    {
+      vsThemeId: 'xmas',
+      summary: 'Joulutyölehdet keskittyvät joulun kulttuurisiin perinteisiin. Talvityölehdet tutkivat talvea luonnontieteellisenä ilmiönä: lumikiteet, lämpötilat, eläinten sopeutuminen ja talviurheilu.',
+    },
+  ],
+
+  productLinks: [
+    {
+      appId: 'coloring',
+      anchorText: 'talviaiheiset väritystehtävät',
+      context: 'Talviaiheiset väritystehtävät yhdistävät hienomotoriikan talvimaisemiin, kun lapset värittävät lumista metsää, talvieläimiä ja talviurheilukohtauksia.',
+    },
+    {
+      appId: 'find-and-count',
+      anchorText: 'talviesineiden laskutehtävät',
+      context: 'Laskutehtävät kehittävät aritmetiikkaa talvikuvien kautta, kun lapset etsivät ja laskevat lumihiutaleita, talvieläimiä ja talviurheiluvälineitä.',
+    },
+    {
+      appId: 'word-search',
+      anchorText: 'talvisanaston sanahaku-työlehdet',
+      context: 'Sanahakutehtävät rikastuttavat talvisanastoa, kun lapset etsivät termejä kuten lumihiutale, pakkanen, jäätikkjö ja talviuni sanaruudukosta.',
+    },
+    {
+      appId: 'sudoku',
+      anchorText: 'talviaiheiset sudokutehtävät',
+      context: 'Sudokutehtävät talvisymboleilla kehittävät loogista päättelyä ja eliminointitaitoja talvisessa kontekstissa.',
+    },
+  ],
+
+  expertTips: [
+    {
+      tip: 'Perusta luokkaan talvitutkimuspiste, johon kerätään jäätä ja lunta tutkittavaksi. Työlehtien lämpötila- ja olomuodonmuutostehtävät saavat konkreettisen vastineen, kun oppilaat voivat seurata sulamista luokassa.',
+      source: 'Luokanopettaja, tutkiva oppiminen',
+      gradeRange: 'Esiopetus–2. lk',
+    },
+    {
+      tip: 'Käytä talvipäiväkirjaa koko talven ajan: oppilaat kirjaavat lämpötilan, sään ja luontohavainnot päivittäin. Talvityölehdet sy-ventyvät, kun niillä on pitkäaikainen havaintoaineisto taustalla.',
+      source: 'Ympäristökasvattaja, pitkäkestoiset projektit',
+      gradeRange: '1.–3. lk',
+    },
+    {
+      tip: 'Yhdistä talvityölehdet koulun ulkopäivään: lumiveistoskilpailu, hiihtopäivä ja talviretki metsään. Työlehtitehtävät valmistavat ulkotoimintaan ja ulkohavainnot rikastuttavat sisätehtäviä.',
+      source: 'Ulkopedagogiikan asiantuntija, luontokasvatus',
+      gradeRange: 'Esiopetus–3. lk',
+    },
+  ],
 };
 
 registerThemeContent('winter', 'fi', content);

@@ -207,6 +207,165 @@ const content: EnrichedThemeContent = {
   // -- Cross-linking --
   relatedThemes: ['holidays', 'fairy-tales', 'forest', 'animals', 'cooking', 'insects', 'emotions'],
   relatedBlogCategories: [],
+
+  // -- SEO Enrichment (Part 182) --
+
+  classroomScenarios: [
+    {
+      situation: 'Tokaluokan opettaja haluaa hyödyntää halloween-innostusta luovaan kirjoittamiseen ja matemaattiseen ongelmanratkaisuun.',
+      solution: 'Hän käyttää halloween-aiheisia työlehtiä, joissa oppilaat ratkaisevat arvoituspulmia hämähäkki- ja lepakkokuvilla, etsivät piilotettuja esineitä kummitustalokohtauksista, täyttävät halloween-sanastolla sanapelitä ja suunnittelevat omia halloween-kuvioitaan.',
+      outcome: 'Oppilaat tekevät tehtäviä poikkeuksellisen innokkaasti halloween-teeman ansiosta. Ongelmanratkaisutaidot, sanasto ja luova ajattelu kehittyvät kiehtovassa kontekstissa.',
+    },
+    {
+      situation: 'Kotikouluvanhempi haluaa tarjota halloween-viikolla opettavaista sisältöä, joka ei ole liian pelottavaa herkälle lapselle.',
+      solution: 'Vanhempi valitsee ystävällisiä halloween-työlehtiä: hymyilevia kurpitsoita laskutehtävissä, söpöjä lepakkoja kuvioharjoituksissa, hassuja kummituksia väritystehtävissä ja halloween-esineitä lajittelupulmissa.',
+      outcome: 'Lapsi nauttii halloween-teemasta pelkäämättä ja oppii samalla. Tehtävät yhdistävät juhlatunnelman matemaattisiin ja kielellisiin taitoihin sopivalla intensiteetillä.',
+    },
+  ],
+
+  quickStats: [
+    { label: 'Suositeltu ikähaarukka', value: '3–9 vuotta' },
+    { label: 'Työlehtisovellusten määrä', value: '12 sovellusta' },
+    { label: 'Opetussuunnitelman alueet', value: '4 aluetta' },
+    { label: 'Tuetut luokkatasot', value: 'Esiopetus–3. lk' },
+    { label: 'Keskimääräinen työskentelyaika', value: '10–20 min' },
+    { label: 'Halloween-symbolien kirjo', value: '12+ symbolia' },
+  ],
+
+  differentiationStrategies: [
+    {
+      learnerType: 'Visuaaliset oppijat',
+      adaptation: 'Painota piilokuvatehtäviä halloween-kohtauksissa ja yksityiskohtaisia väritystehtäviä kurpitsataloista ja halloween-maisemista. Visuaaliset etsintätehtävät aktivoivat tarkkaa havainnointia kiehtovissa kuvissa.',
+    },
+    {
+      learnerType: 'Kinesteettiset oppijat',
+      adaptation: 'Yhdistä työlehdet halloween-askarteluun: kurpitsankaivaminen, lepakko-origami ja hämähäkinverkkoaskartelu. Lajittelutehtävät voivat käyttää oikeita halloween-esineeitä ennen paperitehtävää.',
+    },
+    {
+      learnerType: 'S2-oppijat',
+      adaptation: 'Halloween-kuvasto on universaalisti tunnistettavaa: kurpitsat, lepakot, hämähäkit. Aloita kuvien yhdistämisestä ja nimeämisestä ja lisää halloween-sanastoa asteittain. Kuvitetut sanakortit ja tehtävät minimaalisella kielisisällöllä tukevat alkuvaiheen oppijoita.',
+    },
+    {
+      learnerType: 'Edistyneet oppijat',
+      adaptation: 'Haasta loogisilla pulmatehtävillä: sudokuilla halloween-kuvilla, kryptogrammeilla, reittipulmilla kummitustalossa ja monivaiheisilla sanallisilla tehtävillä, joissa halloween-karkkien jakaminen vaatii kerätään ja jakolaskua.',
+    },
+  ],
+
+  assessmentIdeas: [
+    {
+      method: 'Halloween-pulmavihko',
+      criteria: 'Kerää oppilaan halloween-tehtävät kokoelmaksi. Arvioi ongelmanratkaisustrategioiden kehittymistä, sanaston laajuutta ja luovuutta omissa halloween-kuvioissa.',
+      gradeLevel: 'Kaikki luokka-asteet',
+    },
+    {
+      method: 'Halloween-tarinan kirjoitus',
+      criteria: 'Oppilas kirjoittaa halloween-tarinan käyttäen vähintään kahdeksaa halloween-sanaa. Arvioi sanaston rikkautta, tarinan rakennetta ja kuvailevien ilmausten käyttöä.',
+      gradeLevel: '1.–3. lk',
+    },
+    {
+      method: 'Piilokuvien etsintähaaste',
+      criteria: 'Anna oppilaalle halloween-kohtauskuva ja pyydä löytämään kaikki piilotetut esineet tietyn ajan kuluessa. Arvioi havainnointitarkkuutta, systemaattista etsintästrategiaa ja löytöjen nimeämistä.',
+      gradeLevel: 'Esiopetus–2. lk',
+    },
+  ],
+
+  crossCurricularLinks: [
+    {
+      subject: 'Kuvataide ja käsityö',
+      connection: 'Halloween tarjoaa rikkaan visuaalisen kontekstin luovalle ilmaisulle: kurpitsankaivaminen, naamioiden valmistus ja kummitusmaisten kohtausten piirtäminen yhdistävät kuvallisen ilmaisun ja mielikuvituksen.',
+      activity: 'Väritystehtävän jälkeen oppilaat suunnittelevat ja toteuttavat oman halloween-naamion käyttäen eri tekniikoita: leikkaamista, liimaamista ja maalaamista.',
+    },
+    {
+      subject: 'Matematiikka',
+      connection: 'Halloween-symbolit tarjoavat motivoivan kontekstin laskemiselle, lajittelulle ja loogiselle päättelylle: kurpitsoiden laskeminen, karkkien jakaminen ja halloween-sudokut kehittävät matemaattista ajattelua.',
+      activity: 'Laskutehtävän jälkeen oppilaat pelaavat halloween-bingoa, jossa voittaminen vaatii matemaattisten tehtävien ratkaisemista.',
+    },
+    {
+      subject: 'Äidinkieli ja kirjallisuus',
+      connection: 'Halloween-sanasto on rikas ja mielikuvituksellinen: kummitus, noita, lepakko, hämähäkinverkko, kurpitsalyhty. Luova kirjoittaminen ja kuvaileva kieli kehittyvät luontevasti halloween-tarinoiden kirjoittamisessa.',
+      activity: 'Sanahaun jälkeen oppilaat kirjoittavat lyhyen halloween-tarinan käyttäen mahdollisimman monta oppimaansa sanaa.',
+    },
+  ],
+
+  uniqueAngle: 'Halloween-aiheiset työlehdet hyödyntävät lasten luontaista kiehtoutumista salaperistä, jännittävistä ja mielikuvituksellisista aiheista, kanavoiden tämän energian akateemiseksi oppimiseksi. Halloween-teema on pedagogisesti erityinen, koska se aktivoi mielikuvitusta ja luovaa ajattelua tavoilla, joihin monet muut teemat eivät pysty. Kummitustalot, lepakot ja hämähäkinverkot luovat kohtauksia, joissa piilokuvatehtävät, loogiseet pulmat ja luova kirjoittaminen saavat tavallista intensiivisemmän motivaatiotaustan. Suomessa halloween on suhteellisen uusi mutta nopeasti kasvanut juhla, ja lapset ovat erityisen innostuneita siitä. Tämä innostus muuttuu opettajan työkaluksi, kun se kanavoidaan matemaattisiin etsintätehtäviin, sanaston rikastamiseen ja loogiseen päättelyyn. Halloween-teeman ajallinen rajoittuneisuus luo samanlaisen intensiivisen oppimisjakson kuin pääsiäinen, ja lasten motivaatio on huipussaan lokakuussa.',
+
+  researchCitation: 'Hidi, S. & Renninger, K. A. (2006). The Four-Phase Model of Interest Development. Educational Psychologist. Tutkimus osoitti, että tilannekohtainen kiinnostus — jollaista halloween-teema luontaisesti herättää — voidaan kanavoida syvemmäksi ainekohtaiseksi kiinnostukseksi oikein suunniteltujen tehtävien avulla.',
+
+  culturalNotes: 'Halloween on Suomessa suhteellisen tuore juhla, mutta se on kasvanut nopeasti lasten suosioon. POPS 2014 ei mainitse halloweenia nimeltä, mutta sen luovan ilmaisun, mielikuvituksen ja kulttuuritietoisuuden tavoitteet toteutuvat luontevasti halloween-teemassa. Opettajien kannattaa huomioida, että osa perheistä ei vietä halloweenia, ja tarjota vaihtoehtoisia tehtäviä.',
+
+  snippetDefinition: 'Halloween-aiheiset työlehdet lapsille ovat tulostettavia oppimistehtäviä, jotka käyttävät kurpitsoja, kummituksia, lepakoita ja hämähäkkejä matematiikan, lukutaidon ja loogisen päättelyn opettamiseen. Ne on suunniteltu 3–9-vuotiaille ja sisältävät etsintätehtäviä, sanahakuja, pulmia ja väritystehtäviä.',
+
+  snippetHowTo: [
+    'Ajoita halloween-työlehdet lokakuun viimeisille viikoille, jolloin lasten innostus on suurimmillaan.',
+    'Valitse sopiva intensiteettitaso: nuoremmille ystävällisiä hymyilevia kurpitsoja, vanhemmille jännittävämpiä kummitustalokohtauksia.',
+    'Aloita väritystehtävällä tai piilokuvaetsinnällä halloween-tunnelman luomiseksi ennen vaativampia tehtäviä.',
+    'Yhdistä työlehti halloween-askarteluun: naamioiden tekeminen, kurpitsankaivaminen tai hämähäkinverkkoaskartelu.',
+    'Käytä halloween-tehtäviä ryhmätyönä: oppilaat ratkaisevat pulmia yhdessä ja vertailevat strategioitaan.',
+    'Kierrä lasten joukossa ja esitä avoimia kysymyksiä kuten Montako lepakkoa löysit tai Mikä halloween-hahmo on suosikkisi ja miksi.',
+    'Päätä halloween-jakso kokoavalla tehtävällä, jossa oppilaat käyttävät kaikkia oppimiaan taitoja.',
+  ],
+
+  limitations: 'Halloween voi olla kulttuurisesti vieras tai uskonnollisista syistä ei-toivottu teema osalle perheistä. Opettajien tulee tarjota vaihtoehtoisia syysteemaisia tehtäviä. Pelottavat kuvat voivat ahdistaa herkkiä lapsia — valitse ikätasolle sopivat, ystävällisemmät kuvitukset nuoremmille.',
+
+  themeComparisons: [
+    {
+      vsThemeId: 'holidays',
+      summary: 'Juhlatyölehdet kattavat vuoden juhlapyhät laajasti. Halloween-työlehdet syventyvät yhteen juhlaan ja sen ainutlaatuiseen kuvastoon: kurpitsoihin, kummituksiin ja hämähäkkeihin.',
+    },
+    {
+      vsThemeId: 'fairy-tales',
+      summary: 'Satutyölehdet tutkivat perinteisiä tarinahahmoja ja narratiiveja. Halloween-työlehdet käyttävät samankaltaista mielikuvituksellista kuvastoa mutta yhdistävät sen konkreettiseen juhlaan ja sen perinteisiin.',
+    },
+    {
+      vsThemeId: 'forest',
+      summary: 'Metsätyölehdet tutkivat metsäekosysteemiä ja sen eläimiä luonnontieteellisesti. Halloween-työlehdet käyttävät metsän yöllisiä eläimiä kuten lepakoita ja pöllöjä mielikuvituksellisessa juhlakontekstissa.',
+    },
+    {
+      vsThemeId: 'emotions',
+      summary: 'Tunnetyölehdet käsittelevät tunteita laajasti ja syvjällisesti. Halloween-työlehdet tarjoavat turvallisen kontekstin jännityksen ja pelon käsittelylle leikkisässä ympäristössä.',
+    },
+  ],
+
+  productLinks: [
+    {
+      appId: 'coloring',
+      anchorText: 'halloween-aiheiset väritystehtävät',
+      context: 'Halloween-aiheiset väritystehtävät yhdistävät hienomotoriikan juhlatunnelmaan, kun lapset värittävät kurpitsoja, kummituksia ja halloween-maisemia.',
+    },
+    {
+      appId: 'find-objects',
+      anchorText: 'halloween-piilokuvatehtävät',
+      context: 'Piilokuvatehtävät kehittävät havainnointitaitoja ja tarkkaavaisuutta, kun lapset etsivät piilotettuja esineitä yksityiskohtaisista kummitustalokohtauksista.',
+    },
+    {
+      appId: 'word-search',
+      anchorText: 'halloween-sanaston sanahaku-työlehdet',
+      context: 'Sanahakutehtävät rikastuttavat halloween-sanastoa, kun lapset etsivät termejä kuten kummitus, noita, kurpitsalyhty ja hämähäkinverkko sanaruudukosta.',
+    },
+    {
+      appId: 'sudoku',
+      anchorText: 'halloween-sudokutehtävät',
+      context: 'Sudokutehtävät halloween-kuvilla kehittävät loogista päätteljä ja eliminointitaitoja kiehtovassa kontekstissa.',
+    },
+  ],
+
+  expertTips: [
+    {
+      tip: 'Säädä halloween-tehtävien intensiteetti ikätason mukaan: esiopetukselle hymyilevia kurpitsoja ja söpöjä lepakoita, kouluikäisille asteittain jännittävämpiä kohtauksia. Kukaan ei saa peljätä.',
+      source: 'Lastentarhanopettaja, tunnekasvatus',
+      gradeRange: 'Esiopetus–1. lk',
+    },
+    {
+      tip: 'Yhdistä halloween-työlehdet tutkivaan oppimiseen: oppilaat tutkivat lepakoiden todellista bilogiaa, hämähäkkien verkonkudontaa ja kurpitsojen kasvatusta. Myyttä ja todellisuus -vertailu kehittää kriittistä ajattelua.',
+      source: 'Luokanopettaja, tutkiva oppiminen',
+      gradeRange: '2.–3. lk',
+    },
+    {
+      tip: 'Käytä halloween-viikkoa ryhmjätyön harjoitteluun: ratkaise pulmatehtäviä pareittain, rakenna yhteinen halloween-näyttely ja reflektoikaa oppimisprosessia yhdessä.',
+      source: 'Yhteistoiminnallisen oppimisen asiantuntija',
+      gradeRange: '1.–3. lk',
+    },
+  ],
 };
 
 registerThemeContent('halloween', 'fi', content);

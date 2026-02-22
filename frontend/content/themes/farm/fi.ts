@@ -207,6 +207,165 @@ const content: EnrichedThemeContent = {
   // -- Cross-linking --
   relatedThemes: ['animals', 'pets', 'garden', 'birds', 'insects', 'food'],
   relatedBlogCategories: [],
+
+  // -- SEO Enrichment (Part 182) --
+
+  classroomScenarios: [
+    {
+      situation: 'Esiopetuksen opettaja haluaa opettaa eläinten luokittelua ja ruoantuotannon perusteita, mutta kaupunkilapsilla on vähän kokemusta maatiloista.',
+      solution: 'Hän käyttää maatila-aiheisia työlehtiä, joissa oppilaat lajittelevat maatilaeläimiä ominaisuuksien mukaan, laskevat tuotantoeläimiä kohtauskuvista, yhdistävät eläimet niiden tuotteisiin ja värittävät maatilakohtauksia.',
+      outcome: 'Oppilaat ymmärtävät, mistä ruoka tulee, osaavat luokitella maatilaeläimiä ja käyttävät maatilasanastoa sujuvasti. Luokkahuoneen maatilanurkkaus täydentyy oppilaiden töillä.',
+    },
+    {
+      situation: 'Kotikouluvanhempi haluaa opettaa vastuullisuutta ja luonnon kiertää lapselle, joka on kiinnostunut eläimistä.',
+      solution: 'Vanhempi yhdistää maatilatyölehdet kotipuutarhan hoitoon ja lähimaatilavierailuun: eläinten hoitotehtävät, sadonkorjuulaskut, vuodenkiertotyölehdet ja maatilaeläinten äänten tunnistaminen.',
+      outcome: 'Lapsi ymmärtää ruoantuotannon perusteita, arvostaa maanviljään työtä ja yhdistää matemaattiset ja luonnontieteelliset taidot maatilakontekstiin.',
+    },
+  ],
+
+  quickStats: [
+    { label: 'Suositeltu ikähaarukka', value: '3–9 vuotta' },
+    { label: 'Työlehtisovellusten määrä', value: '11 sovellusta' },
+    { label: 'Opetussuunnitelman alueet', value: '4 aluetta' },
+    { label: 'Tuetut luokkatasot', value: 'Esiopetus–3. lk' },
+    { label: 'Keskimääräinen työskentelyaika', value: '10–20 min' },
+    { label: 'Maatilaeläinten kirjo', value: '10+ eläintä' },
+  ],
+
+  differentiationStrategies: [
+    {
+      learnerType: 'Visuaaliset oppijat',
+      adaptation: 'Painota maatilakohtausten väritystehtäviä ja yksityiskohtaisia kuvallisia laskutehtäviä, joissa navetta, pelto ja laidun tarjoavat visuaalisesti rikkaan ympäristön eläinten laskemiselle ja luokittelulle.',
+    },
+    {
+      learnerType: 'Kinesteettiset oppijat',
+      adaptation: 'Järjestä maatilavierailu tai käytä lelueläimiä lajittelutehtävissä. Kasvihuoneen tai yrttipuutarhan hoitaminen luokassa antaa konkreettisen kokemuksen kasvattamisesta ja sadonkorjuusta.',
+    },
+    {
+      learnerType: 'S2-oppijat',
+      adaptation: 'Maatilaeläimet ovat universaalisti tunnistettavia: leh mä, sika, kana ja hevonen ovat tuttuja kulttuurista riippumatta. Aloita eläinkuvien nimeämisestä ja äänten tunnistamisesta, lisää suomenkielistä maatilasanastoa asteittain.',
+    },
+    {
+      learnerType: 'Edistyneet oppijat',
+      adaptation: 'Haasta tuotantoketjun tutkimuksella: mistä maito tulee kauppaan, kuinka monta vaihetta viljan matka pellolta leiipjäksi vaatii ja miten luomutuotanto eroaa tavanomaisesta. Data-analyysi sadonkorjuutilastoista tarjoaa matemaattisen haasteen.',
+    },
+  ],
+
+  assessmentIdeas: [
+    {
+      method: 'Maatilaprojektikansio',
+      criteria: 'Kerää oppilaan maatila-aiheiset työlehdet ja tutkimukset kansioksi. Arvioi luokittelutaitojen kehittymistä, maatilasanaston laajuutta ja luonnontieteellisen ymmärryksen syvenemistä.',
+      gradeLevel: 'Kaikki luokka-asteet',
+    },
+    {
+      method: 'Eläin-tuote -yhdistämistehtävä',
+      criteria: 'Pyydä oppilasta yhdistämään maatilaeläin sen tuotteeseen ja selittämään tuotantoprosessi. Arvioi yhteyksien oikeellisuutta, selityksen tarkkuutta ja kielellisen ilmaisun selkeyttä.',
+      gradeLevel: '1.–3. lk',
+    },
+    {
+      method: 'Maatilaeläinten luokittelutehtävä',
+      criteria: 'Pyydä oppilasta lajittelemaan 12 eläintä eri luokkiin itse valitsemillaan kriteereillä. Arvioi luokittelun johdonmukaisuutta, kriteerien selkeyttä ja kykyä perustella valintoja.',
+      gradeLevel: 'Esiopetus–2. lk',
+    },
+  ],
+
+  crossCurricularLinks: [
+    {
+      subject: 'Ympäristöoppi (ruoantuotanto ja eläinten hoito)',
+      connection: 'Maatilateema kytkeytyy POPS 2014:n ympäristöopin tavoitteisiin ruoan alkuperästä, eläinten hyvinvoinnista ja kestävästä kehityksestä. Työlehdet tekevät ruoantuotannon konkreettiseksi.',
+      activity: 'Eläin-tuote-yhdistämistehtävän jälkeen oppilaat tutkivat kouluruoan raaka-aineita ja jäljittävät ne takaisin maatilalle.',
+    },
+    {
+      subject: 'Matematiikka',
+      connection: 'Maatila tarjoaa rikkaan laskukontekstin: eläinten laskeminen, sadonkorjuun mittaaminen, tuotantomäärien vertailu ja ruokinnan jakotehtävät yhdistävät aritmetiikan arkitodellisuuteen.',
+      activity: 'Laskutehtävän jälkeen oppilaat ratkaisevat sanallisen tehtävän: jos jokaiselle kanalle annetaan kaksi ruokakuppia päivässä ja kanoja on kaksitoista, kuinka monta kuppia tarvitaan viikossa.',
+    },
+    {
+      subject: 'Äidinkieli ja kirjallisuus',
+      connection: 'Maatilasanasto on rikas ja monipuolinen: navetta, laidun, sadonkorjuu, maanviljelijä, traktori. Maatilatarinoiden lukeminen ja eläinkuvausten kirjoittaminen kehittävät kieltjä.',
+      activity: 'Sanahaun jälkeen oppilaat kirjoittavat lyhyen tarinan päivästä maatilalla käyttäen vähintään kuutta maatilasanaa.',
+    },
+  ],
+
+  uniqueAngle: 'Maatila-aiheiset työlehdet yhdistävät luonnontieteen, matematiikan ja yhteiskunnallisen ymmärryksen ainutlaatuisella tavalla, koska maatila on paikka, jossa biologia, taloustiede ja käytännön työ kohtaavat konkreettisesti. Suomessa maatalous on historiallisesti ollut kansallisen identiteetin ydin, ja vaikka kaupungistuminen on lisääntynyt, suomalaisten yhteys maaseutuun on edelleen vahva: kesämökit, marjastus ja sienestys ovat osa arkielämää. Maatilatyölehdet tarjoavat kaupunkilapsille ikkunan ruoantuotantoon ja opettavat, mistä päivittäinen ravinto tulee. Eläinten luokittelu — tuotantoeläimet, lemmikkieläimet, villieläimet — kehittää tieteellistä luokittelutaitoa, ja sadonkorjuulaskut yhdistävät aritmetiikan todellisiin määriin. POPS 2014 korostaa kestävän kehityksen ymmärtämistä, ja maatilateema tarjoaa tähän konkreettisen kontekstin: luomuviljely, eläinten hyvinvointi ja lähiruoka.',
+
+  researchCitation: 'Williams, D. R. & Dixon, P. S. (2013). Impact of Garden-Based Learning on Academic Outcomes in Schools. Review of Educational Research. Tutkimus osoitti, että maatalous- ja puutarhaperustaiset oppimiskokemukset parantavat merkittävästi oppilaiden luonnontieteellistä ymmärrystä ja matemaattisia taitoja.',
+
+  culturalNotes: 'Suomessa maatalous on osa kansallista identiteettiä: suomalaiset arvostavat lähiruokaa, luomutuotantoa ja eläinten hyvinvointia. POPS 2014 korostaa kestävän kehityksen ymmärtämistä ja ruoan alkuperän tuntemusta. Maatilatyölehdet tukevat näitä tavoitteita ja yhdistävät suomalaisen maaseudun perinteet moderniin ruokaketjun ymmärtämiseen.',
+
+  snippetDefinition: 'Maatila-aiheiset työlehdet lapsille ovat tulostettavia oppimistehtäviä, jotka käyttävät maatilaeläimiä, sadonkorjuuta ja ruoantuotantoa luokittelun, laskemisen ja sanaston opettamiseen. Ne on suunniteltu 3–9-vuotiaille ja sisältävät eläinten lajittelua, laskutehtäviä, sanahakuja ja väritystehtäviä.',
+
+  snippetHowTo: [
+    'Valitse työlehdet lapsen kehitystason mukaan: nuoremmille eläinten nimeämistä ja värittämistä, vanhemmille tuotantoketjun tutkimista.',
+    'Aloita maatilaeläinten tunnistamisella: käykää läpi lehmä, sika, kana, hevonen, lammas ja vuohi yhdessä.',
+    'Yhdistä työlehti maatilavierailuun tai lähiruokaostoksiin: tutustukaa ruoan alkuperään konkreettisesti.',
+    'Harjoitelkaa luokittelua arjessa: lajitelkaa kaupan tuotteita eläinperäisiin ja kasvipohjaisiin.',
+    'Lisää matematiikan ulottuvuus: laskekaa eläimiä, mittatkaa sadonkorjuuta ja vertailkaa määriä.',
+    'Kierrä lasten joukossa ja esitä avoimia kysymyksiä kuten Mistä maito tulee tai Miksi maanviljelijän työ on tärkeää.',
+    'Kerää valmiit työlehdet maatilaprojektikansioon ja esitelkää ne vanhempainillassa.',
+  ],
+
+  limitations: 'Maatilatyölehdet kuvaavat tyypillisesti idealisoitua maatilaa, joka ei vastaa aina modernin maatalouden todellisuutta. Kaupunkilapsilla voi olla hyvin vähän kokemusta maatilaeläimistä. Eläinten hyvinvointikysymykset ja ruoantuotannon eettiset näkökulmat vaativat ikätasoista käsittelyä.',
+
+  themeComparisons: [
+    {
+      vsThemeId: 'animals',
+      summary: 'Eläintyölehdet tutkivat eläinkuntaa laajasti. Maatilatyölehdet keskittyvät kotieläimiin ja tuotantoeläimiin sekä niiden rooliin ruoantuotannossa.',
+    },
+    {
+      vsThemeId: 'garden',
+      summary: 'Puutarhatyölehdet tutkivat kasvien kasvatusta ja hoitoa. Maatilatyölehdet yhdistävät kasvinviljelyn eläintenhoitoon ja laajempaan ruoantuotannon kokonaisuuteen.',
+    },
+    {
+      vsThemeId: 'food',
+      summary: 'Ruokatyölehdet tutkivat ruokaa kuluttajan näkökulmasta. Maatilatyölehdet näyttävät, mistä ruoka tulee, yhdistäen tuottajan ja kuluttajan perspektiivit.',
+    },
+    {
+      vsThemeId: 'insects',
+      summary: 'Hyönteistyölehdet tutkivat pieneliitä ja niiden biologiaa. Maatilatyölehdet tarkastelevat hyönteisiä maatilan ekosysteemin osana: pölyttäjät, tuholaiset ja hyödyllliset hyönteiset.',
+    },
+  ],
+
+  productLinks: [
+    {
+      appId: 'coloring',
+      anchorText: 'maatila-aiheiset väritystehtävät',
+      context: 'Maatila-aiheiset väritystehtävät yhdistävät hienomotoriikan maatilakohtauksiin, kun lapset värittävät navettoja, eJäimiä ja laitumia.',
+    },
+    {
+      appId: 'find-and-count',
+      anchorText: 'maatilaeläinten laskutehtävät',
+      context: 'Laskutehtävät kehittävät aritmetiikkaa maatilakuvien kautta, kun lapset etsivät ja laskevat lehmiä, sikoja, kanoja ja lampaita kohtauskuvista.',
+    },
+    {
+      appId: 'word-search',
+      anchorText: 'maatilasanaston sanahaku-työlehdet',
+      context: 'Sanahakutehtävät rikastuttavat maatilasanastoa, kun lapset etsivät termejä kuten navetta, laidun, sadonkorjuu ja traktori sanaruudukosta.',
+    },
+    {
+      appId: 'alphabet-train',
+      anchorText: 'maatila-aiheiset aakkosjunatehtävät',
+      context: 'Aakkosjunatehtävät yhdistävät kirjaintunnistuksen maatilaeläimiin, kun lapset järjestävät eläinnimet aakkosjärjestykseen junaan.',
+    },
+  ],
+
+  expertTips: [
+    {
+      tip: 'Järjestä maatilavierailu tai kutsukaa maanviljelijä luokkaan. Työlehtitehtävät saavat konkreettisen merkityksen, kun oppilaat voivat yhdistää paperitehtävät todellisiin kokemuksiin.',
+      source: 'Luokanopettaja, kokemuksellinen oppiminen',
+      gradeRange: 'Esiopetus–2. lk',
+    },
+    {
+      tip: 'Perusta luokkaan kasvuhuoneprojekti: kylväkää hernäitä tai yrttejä ja seuratkaa kasvua. Maatilatyölehtien sadonkorjuulaskut saavat merkityksen, kun oppilaat mittaavat omien kasviensa kasvua.',
+      source: 'Puutarhakasvattaja, pitkäkestoiset projektit',
+      gradeRange: '1.–3. lk',
+    },
+    {
+      tip: 'Käytä ruokaketjun jäljittämistä kriittisen ajattelun harjoituksena: oppilaat tutkivat kouluruoan raaka-aineiden alkuperän ja piirtävät ruokaketjun pellolta lautaselle.',
+      source: 'Ympäristökasvattaja, kestävä kehitys',
+      gradeRange: '2.–3. lk',
+    },
+  ],
 };
 
 registerThemeContent('farm', 'fi', content);

@@ -207,6 +207,165 @@ const content: EnrichedThemeContent = {
   // -- Cross-linking --
   relatedThemes: ['household', 'shapes', 'construction', 'colors', 'school'],
   relatedBlogCategories: [],
+
+  // -- SEO Enrichment (Part 182) --
+
+  classroomScenarios: [
+    {
+      situation: 'Esiopetuksen opettaja huomaa, että oppilaat sekoittavat avaruudellisia käsitteitä kuten päällä, alla ja vieressä eivätkä osaa kuvailla esineiden sijaintia huoneessa.',
+      solution: 'Hän ottaa käyttöön huonekaluaiheiset työlehdet, joissa oppilaat sijoittavat huonekaluja pohjapiirustukseen, yhdistävät prepositioita huonekalukuviin ja lajittelevat huonekaluja huoneen ja toiminnon mukaan.',
+      outcome: 'Kolmen viikon jälkeen oppilaat käyttävät avaruudellista sanastoa sujuvasti arjessa, kuvailevat huonekalujen sijainteja tarkoilla prepositioilla ja tunnistavat geometrisia muotoja huonekaluista.',
+    },
+    {
+      situation: 'Kotikouluvanhempi etsii teemaa, joka yhdistää geometrian, sanaston ja käytännön elämäntaidot lapselle, joka on kiinnostunut rakentamisesta ja suunnittelusta.',
+      solution: 'Vanhempi käyttää huonekalutyölehtiä yhdistettynä kodin tutkimiseen: lapsi mittaa huonekaluja, tunnistaa geometrisia muotoja esineistä, suunnittelee huonejärjesteljä ruutupaperille ja kirjoittaa kuvauksia huoneiden sisällöstä.',
+      outcome: 'Lapsi ymmärtää geometrian käytännöllisen merkityksen, käyttää avaruudellista sanastoa luontevasti ja osaa suunnitella toimivia tilajärjesteljä huomioiden sekä toimivuuden että estetiikan.',
+    },
+  ],
+
+  quickStats: [
+    { label: 'Suositeltu ikähaarukka', value: '3–9 vuotta' },
+    { label: 'Työlehtisovellusten määrä', value: '10 sovellusta' },
+    { label: 'Opetussuunnitelman alueet', value: '4 aluetta' },
+    { label: 'Tuetut luokkatasot', value: 'Esiopetus–3. lk' },
+    { label: 'Keskimääräinen työskentelyaika', value: '10–20 min' },
+    { label: 'Huonekalutyyppien kirjo', value: '15+ huonekalua' },
+  ],
+
+  differentiationStrategies: [
+    {
+      learnerType: 'Visuaaliset oppijat',
+      adaptation: 'Painota huonejärjestelyn pohjapiirustuksia ja ruutupaperin mittakaavapiirustuksia. Valokuvat todellisista huoneista ja niiden vertailu piirustuksiin auttavat hahmottamaan kolmiulotteisen tilan kaksiulotteisena esityksenä.',
+    },
+    {
+      learnerType: 'Kinesteettiset oppijat',
+      adaptation: 'Käytä nukkekotia tai luokkahuoneen huonekalunurkkia: oppilaat siirtävät fyysisesti pienioishuonekaluja ennen työlehtitehtävää. Oikeiden huonekalujen mittaaminen viivoittimella yhdistää konkreeettisen kokemuksen paperitehtävään.',
+    },
+    {
+      learnerType: 'S2-oppijat',
+      adaptation: 'Huonekalut ovat universaali aihe — jokaisella lapsella on kokemus tuoleista, pöydistä ja sängyistä. Aloita kuvapohjaisesta huonekalujen tunnistamisesta ja nimeämisestä ja lisää suomenkielisiä prepositioita asteittain. Kuvitetut sanakortit huonekalusanoista tukevat oppimista.',
+    },
+    {
+      learnerType: 'Edistyneet oppijat',
+      adaptation: 'Haasta mittakaavaisilla suunnittelutehtävillä: laske huonekalupintojen pinta-ala ja piiri, vertaile erilaisten järjestelyjen tilatehokkuutta ja tutki suomalaista muotoiluperinnettä Aallon koivuisista tuoleista moderneihin kestävän kehityksen ratkaisuihin.',
+    },
+  ],
+
+  assessmentIdeas: [
+    {
+      method: 'Huonejärjestelyn suunnittelukansio',
+      criteria: 'Kerää oppilaan huonejärjestelysuunnitelmat koko jakson ajalta. Arvioi avaruudellisen sanaston kehittymistä, geometristen muotojen tunnistamisen tarkkuutta ja kirjallisten kuvausten rikastumista.',
+      gradeLevel: 'Kaikki luokka-asteet',
+    },
+    {
+      method: 'Prepositioiden käyttötehtävä',
+      criteria: 'Näytä oppilaalle valokuva huoneesta ja pyydä häntä kirjoittamaan viisi lausetta, jotka kuvaavat huonekalujen sijainteja eri prepositioita käyttäen. Arvioi prepositioiden oikeellisuutta, monipuolisuutta ja lauserakenteiden tarkkuutta.',
+      gradeLevel: 'Esiopetus–2. lk',
+    },
+    {
+      method: 'Geometristen muotojen tunnistuskoe',
+      criteria: 'Pyydä oppilasta tunnistamaan vähintään kahdeksan geometrista muotoa luokkahuoneen huonekaluista ja nimeämään kunkin muodon. Arvioi muotojen tunnistamisen tarkkuutta, geometrisen sanaston käyttöä ja kykyä selittää muodon ominaisuuksia.',
+      gradeLevel: '1.–3. lk',
+    },
+  ],
+
+  crossCurricularLinks: [
+    {
+      subject: 'Matematiikka (geometria ja mittaaminen)',
+      connection: 'Huonekalut ilmentävät geometrisia muotoja: suorakaiteen muotoiset pöytälevyt, pyöreät kellot, literiönmuotoiset jalat. POPS 2014:n matematiikan tavoitteet muotojen tunnistamisesta ja mittaamisesta toteutuvat luonnollisesti huonekalukontekstissa.',
+      activity: 'Huonekalumuotojen tunnistustehtävän jälkeen oppilaat mittaavat luokan huonekaluja viivoittimilla ja laskevat pinta-aloja ja piirejä.',
+    },
+    {
+      subject: 'Äidinkieli ja kirjallisuus',
+      connection: 'Huonekalut rikastuttavat avaruudellista sanastoa: prepositiot, kokojen vertailu ja kuvaileva kirjoittaminen kehittyvät luonnollisesti huonetilojen kuvailussa.',
+      activity: 'Prepositiotyölehden jälkeen oppilaat kirjoittavat kappaleen, jossa kuvaavat oman huoneensa järjestystä käyttäen vähintään viittä eri prepositiota.',
+    },
+    {
+      subject: 'Käsityö ja muotoilu',
+      connection: 'Suomalainen muotoiluperinne tekee huonekaluista kulttuurisesti merkityksellisen aiheen. Huonekalujen suunnitteluperiaatteet — toimivuus, kauneus ja materiaalivalinnat — yhdistävät käsityön ja matemaattisen ajattelun.',
+      activity: 'Mittakaavapiirustuksen jälkeen oppilaat suunnittelevat oman huonekalun huomioiden toimivuuden, materiaalit ja geometriset muodot.',
+    },
+  ],
+
+  uniqueAngle: 'Huonekaluaiheiset työlehdet ovat pedagogisesti poikkeuksellisia, koska ne sijaitsevat avaruudellisen hahmottamisen, geometrian ja toiminnallisen luokittelun risteyskohdassa — ja jokainen lapsi on fyysisessä vuorovaikutuksessa huonekalujen kanssa koko päivän. Tämä jatkuva, konkreettinen yhteys tekee huonekaluista yhden harvoista teemoista, joissa abstraktit matemaattiset käsitteet saavat välittömän merkityksen: suorakaiteen muotoinen pöytälevy, pyöreä kello, lieriönmäinen tuolinjalka. Suomessa huonekalusuunnittelun arvostus on poikkeuksellisen korkealla — Alvar Aalto, Eero Aarnio ja Marimekko ovat osa kansallista identiteettiä. Tämä kulttuurinen merkitys tekee huonekaluteemasta erityisen kiinnostavan suomalaisille lapsille. Avaruudellinen hahmotus on laajalti tunnustettu kriittiseksi ennustajaksi menestyksestä matematiikassa ja luonnontieteissä, ja huonekalujen järjestely on luontaisesti avaruudellista. Prepositioiden harjoittelu huonekalukonteksteissa rakentaa mentaalisia avaruudellisia malleja, jotka tukevat geometriaa, koordinaattijärjestelmiä ja kartanlukua. POPS 2014 korostaa ympäristön havainnointia ja tutkivaa oppimista, ja huonekalutyölehdet tarjoavat tähän ihanteellisen kontekstin.',
+
+  researchCitation: 'Newcombe, N. S. & Frick, A. (2010). Early Education for Spatial Intelligence: Why, What, and How. Mind, Brain, and Education. Tutkimus osoitti, että avaruudellisten taitojen varhainen kehittäminen konkreettisten esineiden — kuten huonekalujen — järjestelyn kautta ennustaa merkittävästi myöhempää matemaattista ja tieteellistä menestystä.',
+
+  culturalNotes: 'Suomessa huonekalumuotoilu on osa kansallista identiteettiä: Alvar Aallon koivuiset tuolit, Artekin huonekalut ja suomalainen minimalistinen suunnittelufilosofia ovat kansainvälisesti tunnettuja. POPS 2014 painottaa ympäristön havainnointia ja tutkivaa oppimista, ja kodin huonekalut tarjoavat lapsille välittömän, päivittäisen kontekstin geometrian ja avaruudellisen hahmotuksen harjoitteluun.',
+
+  snippetDefinition: 'Huonekaluaiheiset työlehdet lapsille ovat tulostettavia oppimistehtäviä, jotka käyttävät tuoleja, pöytiä, sänkyjä, hyllyjä ja muita huonekaluja avaruudellisen hahmotuksen, geometrian ja sanaston opettamiseen. Ne on suunniteltu 3–9-vuotiaille ja sisältävät prepositioharjoituksia, muotojen tunnistamista, huonejärjestelyn suunnittelua ja laskutehtäviä.',
+
+  snippetHowTo: [
+    'Valitse työlehdet lapsen kehitystason mukaan: nuoremmille yksinkertaista yhdistämistä ja nimeämistä, vanhemmille mittakaavaisia suunnittelutehtäviä.',
+    'Aloita tutustumalla huonekalukuvituksiin ja nimeämällä huonekalut yhdessä lapsen kanssa ennen tehtävän aloittamista.',
+    'Yhdistä työlehti kodin tutkimiseen: tehtävän jälkeen kävelkää huoneesta toiseen ja etsikää vastaavia huonekaluja.',
+    'Harjoittele prepositioita arkitilanteissa: kysy, missä kaukosäädin on, mihin kirjat kuuluvat ja miksi tietyt huonekalut ovat tietyissä paikoissa.',
+    'Lisää geometrian ulottuvuus: pyydä lasta tunnistamaan ympäröitä, suorakulmioita ja kolmioita huonekaluista.',
+    'Kierrä lapsen joukossa ja esitä avoimia kysymyksiä kuten Miksi tuolissa on neljä jalkaa tai Minkä muotoinen hylly on.',
+    'Kerää valmiit työlehdet kansioon ja vertailkaa avaruudellisen sanaston ja geometrisen tietoisuuden kehittymistä ajan myötä.',
+  ],
+
+  limitations: 'Huonekalutyölehdet kuvaavat tyypillisesti länsimaisia huonekalutyyppejä, mikä voi olla rajoittavaa lapsille, joiden kodeissa käytetään eri kulttuurien perinteisiä huonekaluja tai asumismuotoja. Avaruudellisen hahmotuksen tehtävät voivat olla haastavia lapsille, joilla on visuospatiaalisia vaikeuksia — tällöin konkreettinen nukkekotiharjoittelu ennen paperitehtävää auttaa.',
+
+  themeComparisons: [
+    {
+      vsThemeId: 'household',
+      summary: 'Kotitaloustyölehdet kattavat kodin laajasti: rutiinit, turvallisuuden ja huoneiden tunnistamisen. Huonekalutyölehdet keskittyvät yksittäisiin huonekaluihin ja niiden geometriaan, avaruudelliseen järjestelyyn ja muotoiluun.',
+    },
+    {
+      vsThemeId: 'shapes',
+      summary: 'Muototyölehdet opettavat geometrisia muotoja abstrakteina käsitteinä. Huonekalutyölehdet osoittavat, mistä nämä muodot löytyvät todellisista esineistä tehden geometriasta konkreettista.',
+    },
+    {
+      vsThemeId: 'construction',
+      summary: 'Rakennustyölehdet tutkivat rakentamisen prosessia ja materiaaleja. Huonekalutyölehdet keskittyvät valmiiden esineiden käyttöön, järjestelyyn ja suunnitteluun tilassa.',
+    },
+    {
+      vsThemeId: 'colors',
+      summary: 'Värityölehdet opettavat värien tunnistamista ja sekoittamista. Huonekalutyölehdet käyttävät värejä osana kokonaisvaltaista tilasuunnittelua, jossa väri on yksi monista suunnitteluelementeistä.',
+    },
+  ],
+
+  productLinks: [
+    {
+      appId: 'coloring',
+      anchorText: 'huonekaluaiheiset väritystehtävät',
+      context: 'Huonekaluaiheiset väritystehtävät kehittävät hienomotoriikkaa samalla kun lapset värittävät yksityiskohtaisia huonekuvia ja tunnistavat geometrisia muotoja huonekaluista.',
+    },
+    {
+      appId: 'matching-app',
+      anchorText: 'huonekalujen yhdistämispelit',
+      context: 'Yhdistämistehtävät kehittävät visuaalista muistia ja erottelutaitoa, kun lapset yhdistävät identtisiä huonekalupareja tai huonekalun sen varjoon.',
+    },
+    {
+      appId: 'word-search',
+      anchorText: 'huonekalusanaston sanahaku-työlehdet',
+      context: 'Sanahakutehtävät vahvistavat huonekalusanastoa, kun lapset etsivät termejä kuten kirjahylly, vaatekaappi, nojatuoli ja yöpöytä sanaruudukosta.',
+    },
+    {
+      appId: 'picture-sort',
+      anchorText: 'huonekalujen lajittelutehtävät',
+      context: 'Lajittelutehtävät kehittävät luokittelutaitoja, kun lapset lajittelevat huonekaluja huoneen, toiminnon tai koon mukaan.',
+    },
+  ],
+
+  expertTips: [
+    {
+      tip: 'Käytä nukkekotia tai pahvilaatikkohuonetta työlehden rinnalla. Kun lapsi siirtää fyysisesti pienoishuonekaluja ennen paperitehtävää, avaruudellinen ymmärrys siirtyy luontevasti kaksiulotteiseen esitykseen.',
+      source: 'Erityisopettaja, avaruudellinen hahmotus',
+      gradeRange: 'Esiopetus–1. lk',
+    },
+    {
+      tip: 'Yhdistä huonekalutyölehdet kodin muotoiluprojektiin: oppilaat kuvaavat oman huoneensa, piirtävät pohjapiirustuksen ja suunnittelevat parannuksia. Tämä antaa geometrialle ja avaruudelliselle ajattelulle todellisen merkityksen.',
+      source: 'Luokanopettaja, tutkiva oppiminen',
+      gradeRange: '1.–3. lk',
+    },
+    {
+      tip: 'Tutustuta oppilaat suomalaiseen muotoiluun huonekalutehtävien kautta: Aallon koivuinen jakkara, Aarnion palloluoli ja Artekin hyllyjärjestelmät tarjoavat innostavia esimerkkejä muotoilun ja geometrian yhteydestä.',
+      source: 'Taide- ja käsityöopettaja, suomalainen muotoilu',
+      gradeRange: '2.–3. lk',
+    },
+  ],
 };
 
 registerThemeContent('furniture', 'fi', content);

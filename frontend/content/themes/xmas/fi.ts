@@ -213,6 +213,165 @@ const content: EnrichedThemeContent = {
   // -- Cross-linking --
   relatedThemes: ['holidays', 'winter', 'seasons', 'toys', 'music', 'cooking', 'colors'],
   relatedBlogCategories: [],
+
+  // -- SEO Enrichment (Part 182) --
+
+  classroomScenarios: [
+    {
+      situation: 'Tokaluokan opettaja haluaa käyttää jouluodotusaikaa matemaattiseen ja kielelliseen harjoitteluun ilman, että juhlatunnelma häviää.',
+      solution: 'Hän luo joulukalenterin, jossa joka luukun takana on jouluaiheinen työlehti: laskutehtäviä joulukoristeilla, sanahakuja joulusanastolla, kuviologiikkaa joulukuvioilla ja kirjoitustehtäviä joululahjoista.',
+      outcome: 'Oppilaat odottavat innolla jokaista päivää ja kalenterin avaamista. Joulukuussa matemaattiset ja kielelliset taidot kehittyvät huomaamatta jouluisen motivaation ansiosta.',
+    },
+    {
+      situation: 'Kotikouluvanhempi etsii jouluaiheista sisältöä, joka pitää lapsen oppimassa jouluvalmistelujen keskellä.',
+      solution: 'Vanhempi yhdistää jouluaiheiset työlehdet joululahjavalmisteluihin: lahjakorttien kirjoittaminen harjoittaa kirjoitustaitoa, koristeiden laskeminen matematiikkaa, joulukorttien suunnittelu luovuutta ja joulusanastopulmat sanavarastoa.',
+      outcome: 'Lapsi oppii joululahjojen valmistelun ohessa. Akateemiset taidot kehittyvät jouluvalmistelujen luonnollisena osana.',
+    },
+  ],
+
+  quickStats: [
+    { label: 'Suositeltu ikähaarukka', value: '3–9 vuotta' },
+    { label: 'Työlehtisovellusten määrä', value: '12 sovellusta' },
+    { label: 'Opetussuunnitelman alueet', value: '4 aluetta' },
+    { label: 'Tuetut luokkatasot', value: 'Esiopetus–3. lk' },
+    { label: 'Keskimääräinen työskentelyaika', value: '10–20 min' },
+    { label: 'Joulusymbolien kirjo', value: '15+ symbolia' },
+  ],
+
+  differentiationStrategies: [
+    {
+      learnerType: 'Visuaaliset oppijat',
+      adaptation: 'Painota väritystehtäviä joulumaisemilla ja yksityiskohtaisia joulukohtauksia, joissa visuaalinen rikkaus motivoi. Joulukalenteripohjan suunnittelu yhdistää visuaalisen luovuuden matemaattisiin rakenteisiin.',
+    },
+    {
+      learnerType: 'Kinesteettiset oppijat',
+      adaptation: 'Yhdistä työlehdet jouluaskarteluun: joulukoristeiden valmistaminen, piparkakkutalon rakentaminen ja lahjapaketointi. Laskutehtävät voivat käyttää oikeita joulukoristeitä laskuvälineinä.',
+    },
+    {
+      learnerType: 'S2-oppijat',
+      adaptation: 'Joulu on visuaalisesti rikas ja kulttuurisesti universaali juhla. Aloita joulusymbolien tunnistamisesta kuvista: kuusi, tähti, lahjapaketti, joulupukki. Lisää suomalaista joulusanastoa asteittain kuvitettujen sanakorttien avulla.',
+    },
+    {
+      learnerType: 'Edistyneet oppijat',
+      adaptation: 'Haasta monivaiheisilla jouluaiheisilla sanallisilla tehtävillä: budjetin laskeminen joululahjoille, koristeiden jakaminen symmetrisesti kuuseen ja joulukalenterin matemaattisten sarjojen analysoiminen.',
+    },
+  ],
+
+  assessmentIdeas: [
+    {
+      method: 'Joulukalenteri-portfolio',
+      criteria: 'Kerää oppilaan joulukuun työlehdet joulukalenterivihkoksi. Arvioi taitojen kehittymistä kuukauden aikana: matemaattisen tarkkuuden, sanaston laajuuden ja luovan ilmaisun kasvua.',
+      gradeLevel: 'Kaikki luokka-asteet',
+    },
+    {
+      method: 'Joulukirje',
+      criteria: 'Oppilas kirjoittaa joulukirjeen, jossa kuvailee lempijoululahjaansa tai -perintteitään. Arvioi kirjoituksen rakennetta, kuvailevaa kieltjä ja joulusanaston käyttöä.',
+      gradeLevel: '1.–3. lk',
+    },
+    {
+      method: 'Joulukoristeiden kuviotehtävä',
+      criteria: 'Pyydä oppilasta luomaan ja jatkamaan joulukoristekuviosarjoja. Arvioi kuvion tunnistamisen tarkkuutta, luovuutta omien sarjojen luomisessa ja kykyä selittää sääntö.',
+      gradeLevel: 'Esiopetus–2. lk',
+    },
+  ],
+
+  crossCurricularLinks: [
+    {
+      subject: 'Musiikki',
+      connection: 'Joulu on musiikin kultakautta: joululaulut, kantelekappaleet ja joulusoinnut yhdistävät musiikin joulunodotukseen. POPS 2014:n musiikin tavoitteet toteutuvat luontevasti joulukonserttien ja -laulujen kautta.',
+      activity: 'Sanahaun jälkeen oppilaat opettelevat joululaulun, jossa esiintyvät työlehden joulusanat, yhdistäen sanaston musiikin kautta.',
+    },
+    {
+      subject: 'Matematiikka',
+      connection: 'Joulu tarjoaa rikkaan laskukontekstin: joululahjojen budjetointi, koristeiden laskeminen, piparkakkutalon mittaaminen ja joulukalenterin päivälaskenta kehittävät matemaattista ajattelua.',
+      activity: 'Laskutehtävän jälkeen oppilaat laskevat, montako koristetta kuuseen mahtuu, jos jokaiselle oksalle laitetaan kolme palloa.',
+    },
+    {
+      subject: 'Äidinkieli ja kirjallisuus',
+      connection: 'Joulusanasto on rikas: joulukuusi, koristeet, piparkakku, joulutervehdys, lahjapaketti. Joulukorttien ja -kirjeiden kirjoittaminen kehittää kirjallista ilmaisua autenttisessa kontekstissa.',
+      activity: 'Sanahaun jälkeen oppilaat kirjoittavat joulukortin läheiselle käyttäen monipuolista joulusanastoa.',
+    },
+  ],
+
+  uniqueAngle: 'Jouluaiheiset työlehdet hyödyntävät vuoden voimakkainta motivaatiokautta lasten oppimisessa. Suomessa joulu on kulttuurin ytimessä: joulukalenterit, adventtikynttilät, piparkakkujen leipominen, joululaulujen harjoittelu ja joulupukin odottaminen luovat neljän viikon intensiivisen jakson, jolloin lasten motivaatio ja innostus ovat huipussaan. Tämä tekee joulukuusta pedagogisesti ainutlaatuisen kuukauden, jossa oppiminen voi tapahtua jouluvalmistelujen luonnollisena osana. Joulukalenteri-formaatti mahdollistaa 24 päivän rakenteisen oppimisjakson, jossa jokainen päivä tuo uuden tehtävän — tämä toistuva rakenne on pedagogisesti ihanteellinen taitojen systemaattiseen kehittämiseen. Suomalaiset jouluperinteet — joulurauha, saunominen, jouluruoat ja joulukirkko — tarjoavat kulttuurisesti rikkaan kontekstin äidinkielen ja yhteiskuntaopin sisällöille. POPS 2014:n kulttuuriperinteen tuntemus ja luova ilmaisu yhdistyvät luontevasti jouluteemassa.',
+
+  researchCitation: 'Reeve, J. (2012). A Self-determination Theory Perspective on Student Engagement. Handbook of Research on Student Engagement. Tutkimus osoitti, että sisäinen motivaatio — jollaista joulun odotus luontaisesti herättää — johtaa syvempjään sitoutumiseen ja parempiin oppimistuloksiin kuin ulkoiset palkkiot.',
+
+  culturalNotes: 'Suomessa joulu on vuoden merkittävin juhla: joulukalenteri, joulurauha, jouluruoat ja joulupukin kotimaan imago tekevät Suomesta joulukulttuurin ydinalueen. POPS 2014 korostaa kulttuuriperinteen tuntemusta ja luovaa ilmaisua, ja joulutyölehdet tukevat näitä tavoitteita yhdistämällä perinteiset tavat akateemisiin tehtäviin.',
+
+  snippetDefinition: 'Jouluaiheiset työlehdet lapsille ovat tulostettavia oppimistehtäviä, jotka käyttävät joulukuusia, koristeitä, lahjapaketteja ja joulusymboleita matematiikan, lukutaidon ja luovan ajattelun opettamiseen. Ne on suunniteltu 3–9-vuotiaille ja sisältävät laskutehtäviä, sanahakuja, kuviosarjoja ja väritystehtäviä.',
+
+  snippetHowTo: [
+    'Aloita joulukalenteri-formaatilla: jaa työlehdet 24 päivälle niin, että joka päivä tuo uuden tehtävän.',
+    'Valitse eri taitoalueiden työlehtiä — esimerkiksi laskutehtävä, sanahaku, kuviotehtävä ja väritystehtävä vuorotellen.',
+    'Yhdistä työlehdet jouluvalmisteluihin: joulukorttien kirjoittaminen, koristeiden laskeminen ja piparkakkujen mittaaminen.',
+    'Aloita tutustumalla joulusymboleihin yhdessä lapsen kanssa: kuusi, tähti, pallo, enkelid, joulupukki.',
+    'Käytä joulukoristeitä konkreettisina laskuvälineinä: laske palloja, tähtiä ja kynttilöitä ennen työlehtitehtävää.',
+    'Kierrä lasten joukossa ja esitä avoimia kysymyksiä kuten Montako koristetta kuusessa on tai Mikä on lempijouluperinteesi.',
+    'Päätä joulujakso kokoavalla projektilla, jossa oppilaat esittelevät oppimansa jouluportfolion muodossa.',
+  ],
+
+  limitations: 'Joulu on kristillinen juhla, ja osa perheistä ei vietä sitä tai viejttää eri tavalla. Opettajien tulee tarjota vaihtoehtoisia talviteemaisia tehtäviä ja käsitellä joulua monikulttuurisesti. Kaupallisen joulukulttuurin kriittinen tarkastelu on hyödyllistä vanhempien oppilaiden kanssa.',
+
+  themeComparisons: [
+    {
+      vsThemeId: 'holidays',
+      summary: 'Juhlatyölehdet kattavat vuoden juhlapyhät laajasti. Joulutyölehdet syventyvät yhteen juhlaan ja sen rikkaaseen symboliikkaan: kuusista koristeisiin, piparkakuista lahjoihin.',
+    },
+    {
+      vsThemeId: 'winter',
+      summary: 'Talvityölehdet tutkivat lumeen, jäähän ja talviseen luontoon liittyviä aiheita. Joulutyölehdet keskittyvät joulun kulttuurisiin ja sosiaalisiin ulottuvuuksiin talvimaisemassa.',
+    },
+    {
+      vsThemeId: 'seasons',
+      summary: 'Vuodenaikatyölehdet tutkivat neljää vuodenaikaa kokonaisuutena. Joulutyölehdet syventyvät talven huippuhetkeen ja sen ainutlaatuiseen juhlakulttuuriin.',
+    },
+    {
+      vsThemeId: 'toys',
+      summary: 'Lelutyölehdet tutkivat leikkivälineitä ja niiden ominaisuuksia. Joulutyölehdet käyttävät leluja osana laajempaa joulukontekstia: lahjatoivelistoja, lahjojen jakamista ja koristeiden luokittelua.',
+    },
+  ],
+
+  productLinks: [
+    {
+      appId: 'coloring',
+      anchorText: 'jouluaiheiset väritystehtävät',
+      context: 'Jouluaiheiset väritystehtävät yhdistävät hienomotoriikan joulutunnelmaan, kun lapset värittävät kuusia, koristeitä ja joulumaisemia.',
+    },
+    {
+      appId: 'find-and-count',
+      anchorText: 'joulukoristeiden laskutehtävät',
+      context: 'Laskutehtävät kehittävät aritmetiikkaa joulukuvien kautta, kun lapset etsivät ja laskevat joulupalloja, tähtiä, kynttilöitä ja lahjapaketteja.',
+    },
+    {
+      appId: 'word-search',
+      anchorText: 'joulusanaston sanahaku-työlehdet',
+      context: 'Sanahakutehtävät rikastuttavat joulusanastoa, kun lapset etsivät termejä kuten joulukuusi, piparkakku, joulukoriste ja lahjapaketti sanaruudukosta.',
+    },
+    {
+      appId: 'word-scramble',
+      anchorText: 'joulusanojen kirjainsotku-tehtävät',
+      context: 'Kirjainsotkutehtävät kehittävät oikeinkirjoitusta ja kirjaintietoisuutta, kun lapset järjestävät sekoitettuja joulusanoja oikeaan muotoon.',
+    },
+  ],
+
+  expertTips: [
+    {
+      tip: 'Luo joulukalenteri-formaatti, jossa joka päivä tuo uuden tyyppisen työlehden. Toistuva rakenne ja yllätyselementti pitävät motivaation korkealla koko joulukuun ajan.',
+      source: 'Luokanopettaja, jouluteemaopetus',
+      gradeRange: 'Esiopetus–2. lk',
+    },
+    {
+      tip: 'Yhdistä joulutyölehdet aitoon jouluvalmisteluun: korttien kirjoittaminen, koristeiden valmistaminen ja piparkakkujen leipominen. Tämä antaa tehtäville autenttisen merkityksen ja motivaation.',
+      source: 'Kulttuurikasvatuksen asiantuntija, suomalaiset perinteet',
+      gradeRange: 'Esiopetus–3. lk',
+    },
+    {
+      tip: 'Käytä jouluteemaa matemaattisen ajattelun syventämiseen: lahjabudjettien laskeminen, koristeiden symmetrinen asettelu ja joulukalenteri-laskenta tarjoavat autenttisia matemaattisia ongelmia.',
+      source: 'Matematiikan opettaja, arjen matematiikka',
+      gradeRange: '2.–3. lk',
+    },
+  ],
 };
 
 registerThemeContent('xmas', 'fi', content);

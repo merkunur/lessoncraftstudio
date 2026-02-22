@@ -208,6 +208,165 @@ const content: EnrichedThemeContent = {
   // -- Cross-linking --
   relatedThemes: ['animals', 'birds', 'dinosaurs', 'insects', 'zoo', 'summer'],
   relatedBlogCategories: [],
+
+  // -- SEO Enrichment (Part 182) --
+
+  classroomScenarios: [
+    {
+      situation: 'Tokaluokan opettaja haluaa laajentaa oppilaiden ympäristötietoisuutta merten suojelusta ja merenelävistä, mutta sisämaassa elävät oppilaat kokevat meren kaukaiseksi.',
+      solution: 'Hän käyttää valtameriaiheisia työlehtiä, joissa oppilaat tunnistavat mereneläiviä, lajittelevat niitä ominaisuuksien mukaan, ratkaisevat meriaiheisia laskutehtäviä ja tutkivat merten ekosysteemejä.',
+      outcome: 'Oppilaat kiinnostuvat merenelämistä ja ymmärtävät merten merkityksen ekosysteemeille. Luokittelutaidot, luonnontieteellinen sanasto ja ympäristötietoisuus kehittyvät.',
+    },
+    {
+      situation: 'Kotikouluvanhempi etsii teemaa, joka kiehtoo lasta ja yhdistää luonnontieteen, sanaston ja mielikuvituksen.',
+      solution: 'Vanhempi käyttää valtameretyölehtiä yhdistettynä meriteemaisiin kirjoihin ja dokumentteihin: mereneläinten tunnistaminen, korallibarrieriin piirtäminen, merenalaisten kohtausten värittäminen ja merisanaston oppiminen.',
+      outcome: 'Lapsi innostuu merenelämästä ja oppii luonnontieteellistä sanastoa sekä luokittelutaitoja meriteeman kautta.',
+    },
+  ],
+
+  quickStats: [
+    { label: 'Suositeltu ikähaarukka', value: '3–9 vuotta' },
+    { label: 'Työlehtisovellusten määrä', value: '11 sovellusta' },
+    { label: 'Opetussuunnitelman alueet', value: '4 aluetta' },
+    { label: 'Tuetut luokkatasot', value: 'Esiopetus–3. lk' },
+    { label: 'Keskimääräinen työskentelyaika', value: '10–20 min' },
+    { label: 'Mereneläinten kirjo', value: '20+ lajia' },
+  ],
+
+  differentiationStrategies: [
+    {
+      learnerType: 'Visuaaliset oppijat',
+      adaptation: 'Painota merenalaisten kohtausten väritystehtäviä ja yksityiskohtaisia kuvallisia etsintätehtäviä. Valokuvat todellisista mereneläimistä ja korallibarrieereista tarjoavat visuaalisesti hämmästyttävän oppimisympäristön.',
+    },
+    {
+      learnerType: 'Kinesteettiset oppijat',
+      adaptation: 'Rakenna luokkaan merenalainentutkimusasema lelueläimiin. Vesikokeeet — esineiden kelluminen ja uppoaminen — yhdistävät fyysisen kokeilun työlehden luonnontieteellisiin käsitteisiin.',
+    },
+    {
+      learnerType: 'S2-oppijat',
+      adaptation: 'Mereneläimet ovat visuaalisesti kiehtovia ja tunnistettavia kulttuurista riippumatta. Aloita kuvien yhdistämisestä ja nimeämisestä: valas, hai, meduusa, meritjähti, mustekala. Kuvitetut sanakortit tukevat merisanaston oppimista.',
+    },
+    {
+      learnerType: 'Edistyneet oppijat',
+      adaptation: 'Haasta ekosysteemitutkimuksella: ravintoketjut meriekosysteemissä, muovijätteen vaikutus merenelämiin ja syvjänmeren olosuhteet. Data-analyysi uhanalaisista merilajista tarjoaa matemaattisen ja eettisen haasteen.',
+    },
+  ],
+
+  assessmentIdeas: [
+    {
+      method: 'Meritutkimuskansio',
+      criteria: 'Kerää oppilaan valtameriaiheiset työlehdet ja tutkimukset kansioksi. Arvioi luokittelutaitojen kehittymistä, merisanaston laajuutta ja ympäristötietoisuuden syvenemistä.',
+      gradeLevel: 'Kaikki luokka-asteet',
+    },
+    {
+      method: 'Mereneläinesitelmjä',
+      criteria: 'Oppilas valitsee yhden mereneläimen, tutkii sitä ja esittelee löydöksensä luokalle. Arvioi tiedon tarkkuutta, esityksen rakennetta ja kielellisen ilmaisun selkeyttä.',
+      gradeLevel: '1.–3. lk',
+    },
+    {
+      method: 'Merenalaisen kohtauksen piirtjäminen',
+      criteria: 'Pyydä oppilasta piirtämään merenalainen kohtaus vähintään kymmenellä eri eläimellä ja nimeämään ne. Arvioi eläinten tunnistamisen tarkkuutta, piirustuksen yksityiskohtaisuutta ja sanaston käyttöä.',
+      gradeLevel: 'Esiopetus–2. lk',
+    },
+  ],
+
+  crossCurricularLinks: [
+    {
+      subject: 'Ympäristöoppi (merten ekosysteemit)',
+      connection: 'Valtameriteema kytkeytyy POPS 2014:n ympäristöopin tavoitteisiin ekosysteemien ymmärtämisestä, lajien monimuotoisuudesta ja ympäristönsuojelusta. Työlehdet tekevät merten ekologiasta konkreettista.',
+      activity: 'Mereneläinten lajittelutehtävän jälkeen oppilaat tutkivat yksinkertaisen merekosysteemin ravintoketjun ja piirtävät sen kaaviona.',
+    },
+    {
+      subject: 'Matematiikka',
+      connection: 'Meri tarjoaa vaikuttavia lukuja laskemiselle ja vertailulle: valaiden pituudet, merten syvyydet, eläinten lukumäärät ja etäisyydet. Suurten lukujen käsittely ja vertailu kehittyvät luonnollisesti merikontekstissa.',
+      activity: 'Laskutehtävän jälkeen oppilaat vertailevat eri mereneläinten kokoja ja piirtävät mittakaavadiagrammin pienimmjästä suurimpaan.',
+    },
+    {
+      subject: 'Äidinkieli ja kirjallisuus',
+      connection: 'Merisanasto on rikas ja kiehtova: korallibarrieri, meduusa, syvjänmeri, mustekala, merikilpikonna. Meriteemaiset tarinat ja tietotekstit rikastuttavat sanaston laajuutta.',
+      activity: 'Sanahaun jälkeen oppilaat kirjoittavat mielikuvitustarinan sukelluksesta merenpohjaan käyttäen vähintään kuutta merisanaa.',
+    },
+  ],
+
+  uniqueAngle: 'Valtameri-aiheiset työlehdet kiehtovat lapsia, koska meri edustaa maailman suurinta tutkimatonta aluetta — se on todellinen seikkailumaailma, joka on samaan aikaan todellinen ja mysteerinen. Mereneläimet ovat luontaisesti kiinnostavia: valaiden valtavuus, mustekalojen älykkyys, korallibarrieerin värikkyys ja syvänmeren olennot vetoavat lasten mielikuvitukseen voimakkaasti. Tämä luontainen kiehtoutuminen tekee mereneläin-teemaisista työlehdistä erityisen tehokkaita oppimisen motivoijia. Suomessa meri on läsnä Saaristomeren, Itämeren ja tuhansien järvien kautta, vaikkakaan valtameri ei ole suoraan saavutettavissa. Itämeren suojelu on ajankohtainen aihe, ja mereneläintyölehdet tarjoavat luontevan siltayhteyden globaaliin ympäristötietoisuuteen. POPS 2014 korostaa kestävän kehityksen ymmärtämistä ja lajien monimuotoisuuden arvostamista, ja valtameriteema tarjoaa tähän erityisen vaikuttavan kontekstin.',
+
+  researchCitation: 'Keller, H. & Reiss, M. J. (2014). The Effects of an Aquarium Visit on Primary School Children. International Journal of Science Education. Tutkimus osoitti, että mereneläimiin liittyvät oppimiskokemukset lisäävät merkittävästi lasten ympäristötietoisuutta ja motivaatiota luonnontieteen opiskeluun.',
+
+  culturalNotes: 'Suomi on Itämeren valtio, ja meriluonnon suojelu on ajankohtainen aihe. POPS 2014 korostaa kestävän kehityksen ymmärtämistä ja ympäristönsuojelua. Valtameriteema laajentaa Itämeri-näkökulmaa globaaliin meriymmpäristöön ja opettaa lapsille valtamerien merkityksen maapallon ekosysteemille.',
+
+  snippetDefinition: 'Valtameri-aiheiset työlehdet lapsille ovat tulostettavia oppimistehtäviä, jotka käyttävät mereneläimiä, korallibarriereja ja merenalaisia kohtauksia luokittelun, laskemisen ja sanaston opettamiseen. Ne on suunniteltu 3–9-vuotiaille ja sisältävät eläinten lajittelua, laskutehtäviä, sanahakuja ja väritystehtäviä.',
+
+  snippetHowTo: [
+    'Valitse työlehdet lapsen kehitystason mukaan: nuoremmille mereneläinten tunnistamista ja värittämistä, vanhemmille ekosysteemitutkimusta.',
+    'Aloita katsomalla lyhyt video tai kuvakirja mereneläimistä, jotta lapset pääsevät meriteemaan sisään ennen työlehteä.',
+    'Valitse kaksi tai kolme eri taitoalueen työlehtityyppiä — esimerkiksi laskutehtävä, sanahaku ja ristikkö.',
+    'Yhdistä työlehti akvaariovierailuun tai merenalaisten dokumenttien katseluun konkreettisen kokemuksen luomiseksi.',
+    'Rakentakaa luokkaan merenalainen tutkimusasema: sini-setä kankaita, paperisia mereneläimiä ja työlehtien tuloksia.',
+    'Kierrä lasten joukossa ja esitä avoimia kysymyksiä kuten Miksi valaat ovat niin suuria tai Miten mereneläimet hengittävät vedessä.',
+    'Päätä teemajakso merentsuojelupohdinnalla: mitä voimme tehdä merten hyänäksi.',
+  ],
+
+  limitations: 'Valtameriteema voi tuntua kaukaiselta sisämaassa eliville lapsille, joilla ei ole omakohtaista merikokemusta. Jotkin mereneläimet — kuten hait — voivat aiheuttaa pelkoja nuorimmissa oppilaissa. Merten ympäristöongelmien käsittely vaatii ikätasoista lähestymistapaa, jottei lapsille synny ilmastoahdistusta.',
+
+  themeComparisons: [
+    {
+      vsThemeId: 'animals',
+      summary: 'Eläintyölehdet tutkivat eläinkuntaa laajasti. Valtameretyölehdet keskittyvät merenelämiin ja meren ekosysteemiin, tarjoten syvemmän sukelluksen vedenalaiseen maailmaan.',
+    },
+    {
+      vsThemeId: 'dinosaurs',
+      summary: 'Dinosaurustyölehdet tutkivat menneisyyden jättiläisiä. Valtameretyölehdet tutkivat nykypäivän jättiläisiä — valaat ja hait — ja elävää ekosysteemiä.',
+    },
+    {
+      vsThemeId: 'zoo',
+      summary: 'Eläintarhatyölehdet tutkivat eksoottisia eläimiä ihmisen luomassa ympäristössä. Valtameretyölehdet esittelevät eläimet niiden luonnollisessa elinymppäristössä — valtameressä.',
+    },
+    {
+      vsThemeId: 'summer',
+      summary: 'Kesätyölehdet tutkivat kesän aktiviteetteja kuten uimista ja rantailuä. Valtameretyölehdet syventyvät meren ekosysteemiin ja sen elämjään, pinnan alle.',
+    },
+  ],
+
+  productLinks: [
+    {
+      appId: 'coloring',
+      anchorText: 'meriaiheiest väritystehtävät',
+      context: 'Meriaiheisett väritystehtävät yhdistävät hienomotoriikan merenalaisen maailman värikkyyteen, kun lapset värittävät koralleja, kaloja ja mereneläimiä.',
+    },
+    {
+      appId: 'find-and-count',
+      anchorText: 'mereneläinten laskutehtävät',
+      context: 'Laskutehtävät kehittävät aritmetiikkaa merikuvien kautta, kun lapset etsivät ja laskevat kaloja, meritähtiä, simpukoita ja meduusoja kohtauskuvista.',
+    },
+    {
+      appId: 'word-search',
+      anchorText: 'merisanaston sanahaku-työlehdet',
+      context: 'Sanahakutehtävät rikastuttavat merisanastoa, kun lapset etsivät termejä kuten korallibarrieri, mustekala, merikilpikonna ja syvjänmeri sanaruudukosta.',
+    },
+    {
+      appId: 'image-crossword',
+      anchorText: 'mereneläinristikkötehtävät',
+      context: 'Kuvaristikkötehtävät yhdistävät mereneläinten tunnistamisen oikeinkirjoitukseen, kun lapset nimeävät kuvien perusteella mereneläimiä ja täyttävät ruudukon.',
+    },
+  ],
+
+  expertTips: [
+    {
+      tip: 'Järjestä virtuaalinen akvaariovierailu tai katsokaa merendokumentti ennen työlehtiä. Visuaalinen kokemus antaa työlehtitehtäville konkreettisen pohjan ja motivoi lapsia oppimaan lisää.',
+      source: 'Luokanopettaja, teknologia-avusteinen opetus',
+      gradeRange: 'Esiopetus–2. lk',
+    },
+    {
+      tip: 'Yhdistä meriteema Itämeren suojeluun: oppilaat tutkivat, miten heidän arkivalintansa vaikuttavat Itämereen. Tämä tekee globaalista meriteemasta paikallisesti merkityksellisen.',
+      source: 'Ympäristökasvattaja, Itämeren suojelu',
+      gradeRange: '2.–3. lk',
+    },
+    {
+      tip: 'Käytä kokoerojia mereneläimissä matemaattisena tutkimuskohteena: planktonista sinivalaaseen. Oppilaat piirtävät mittakaavavertailuja ja oppivat samalla suuruusluokkien käsitettä.',
+      source: 'Matematiikan opettaja, mittakaava ja suuruusluokat',
+      gradeRange: '1.–3. lk',
+    },
+  ],
 };
 
 registerThemeContent('ocean', 'fi', content);

@@ -207,6 +207,165 @@ const content: EnrichedThemeContent = {
   // -- Cross-linking --
   relatedThemes: ['holidays', 'spring', 'flowers', 'animals', 'garden', 'nature', 'colors'],
   relatedBlogCategories: [],
+
+  // -- SEO Enrichment (Part 182) --
+
+  classroomScenarios: [
+    {
+      situation: 'Ensimmäisen luokan opettaja haluaa hyödyntää pääsiäisen innostusta oppimiseen, mutta tarvitsee tehtäviä, jotka yhdistävät juhlatunnelman akateemisiin taitoihin.',
+      solution: 'Hän käyttää pääsiäisaiheisia työlehtiä, joissa oppilaat laskevat pääsiäismunia kuvista, etsivät pääsiäissanastoa sanahauista, täyttävät kuviologiikkatehtäviä pääsiäiskuvioilla ja värittävät pääsiäiskohtauksia.',
+      outcome: 'Oppilaat tekevät tehtäviä innokkaasti, koska aihe on ajankohtainen ja juhlatunnelmainen. Matemaattiset taidot, sanasto ja hienomotoriikka kehittyvät luonnollisesti pääsiäiskontekstissa.',
+    },
+    {
+      situation: 'Kotikouluvanhempi haluaa tehdä pääsiäisviikosta opettavaisen ilman, että lapsi tuntee olevansa koulussa loman aikana.',
+      solution: 'Vanhempi piilottaa pääsiäismunajahdissa työlehtiä munien sisään: laskutehtäviä, sanapelitä, väritystehtäviä ja kuviopulmia. Jokainen löydetty muna sisältää lyhyen, hauskan tehtävän.',
+      outcome: 'Lapsi nauttii pääsiäismunajahdista ja oppii samalla. Pääsiäisviikko yhdistää juhlimisen ja oppimisen niin luonnollisesti, ettei lapsi edes huomaa harjoittelevansa akateemisia taitoja.',
+    },
+  ],
+
+  quickStats: [
+    { label: 'Suositeltu ikähaarukka', value: '3–9 vuotta' },
+    { label: 'Työlehtisovellusten määrä', value: '10 sovellusta' },
+    { label: 'Opetussuunnitelman alueet', value: '4 aluetta' },
+    { label: 'Tuetut luokkatasot', value: 'Esiopetus–3. lk' },
+    { label: 'Keskimääräinen työskentelyaika', value: '10–20 min' },
+    { label: 'Pääsiäissymbolien kirjo', value: '10+ symbolia' },
+  ],
+
+  differentiationStrategies: [
+    {
+      learnerType: 'Visuaaliset oppijat',
+      adaptation: 'Painota värtystehtäviä pääsiäiskohtauksilla ja kuvallisia laskutehtäviä, joissa pääsiäismunat, tiput ja puput tarjoavat visuaalisesti rikkaan ympäristön laskemiselle ja luokittelulle.',
+    },
+    {
+      learnerType: 'Kinesteettiset oppijat',
+      adaptation: 'Yhdistä työlehdet pääsiäismunajahtiin: piilota tehtäviä muovimunien sisään tai järjestä pääsiäisaskartelupiste, jossa lajittelut ja laskemiset tapahtuvat oikeilla esineillä ennen paperitehtävää.',
+    },
+    {
+      learnerType: 'S2-oppijat',
+      adaptation: 'Pääsiäinen on visuaalisesti rikas teema, joka ei vaadi laajaa kielitaitoa alkuun. Aloita kuvien yhdistämisestä ja laskemisesta, lisää pääsiäissanastoa asteittain: muna, pupu, tippu, kori, pajunoksa. Kuvitetut sanakortit tukevat sanaston oppimista.',
+    },
+    {
+      learnerType: 'Edistyneet oppijat',
+      adaptation: 'Haasta loogisilla pääsiäispulmilla: munien värikoodattuja sarjoja, symmetristen kuvioiden suunnittelua munille ja monivaiheisia sanallisia tehtäviä, joissa pääsiäismunajahtien tuloksia vertaillaan taulukoissa.',
+    },
+  ],
+
+  assessmentIdeas: [
+    {
+      method: 'Pääsiäisprojektikansio',
+      criteria: 'Kerää oppilaan pääsiäisaiheiset työlehdet kokonaisuudeksi. Arvioi matemaattisten taitojen, sanaston ja kuvioajattelun kehittymistä tehtävien monipuolisuuden kautta.',
+      gradeLevel: 'Kaikki luokka-asteet',
+    },
+    {
+      method: 'Pääsiäismunajahtiraportti',
+      criteria: 'Oppilas kirjoittaa raportin pääsiäismunajahdista: montako munaa löytyi, mistä ne löytyivät ja minkävärisiä ne olivat. Arvioi lukujen käyttöä, paikkatietojen kuvailua ja sanaston rikkautta.',
+      gradeLevel: '1.–3. lk',
+    },
+    {
+      method: 'Kuviologiikkatehtävä',
+      criteria: 'Pyydä oppilasta jatkamaan pääsiäiskuviosarjaa ja selittämään sääntö. Arvioi kuvion tunnistamisen tarkkuutta, selityksen selkeyttä ja kykyä luoda omia kuviosarjoja.',
+      gradeLevel: 'Esiopetus–2. lk',
+    },
+  ],
+
+  crossCurricularLinks: [
+    {
+      subject: 'Ympäristöoppi (kevään merkit)',
+      connection: 'Pääsiäinen osuu kevääseen, jolloin luonto herää: muuttolinnut palaavat, lumi sulaa ja kasvit alkavat versoa. POPS 2014:n ympäristöoppi hyötyy pääsiäisteeman yhdistämisestä kevään luonnonilmiöiden havainnointiin.',
+      activity: 'Pääsiäistyölehden jälkeen oppilaat menevjät ulos havainnoimaan kevään merkkejä ja kirjaavat löydöksensä havainnointilomakkeelle.',
+    },
+    {
+      subject: 'Matematiikka',
+      connection: 'Pääsiäismunat tarjoavat erinomaisen kontekstin laskemiselle, lajittelulle ja kuvioajattelulle: munien jakaminen yhtä suuriin ryhmiin, symmetristen kuvioiden luominen ja tilastollinen vertailu yhdistävät matemaattiset taidot juhlateemaan.',
+      activity: 'Laskutehtävän jälkeen oppilaat järjestävät pääsiäismunajahdiin kerjätyt esineet ryhmäksi ja laativat pylväsdiagrammin löydöksistä.',
+    },
+    {
+      subject: 'Äidinkieli ja kirjallisuus',
+      connection: 'Pääsiäissanasto on rikas ja kulttuurisesti merkityksellinen: pajunoksa, virpominen, tippu, kori, värjätty muna. Sanahaut ja sanapelit rikastuttavat pääsiäiseen liittyvää sanastoa.',
+      activity: 'Sanahaun jälkeen oppilaat kirjoittavat lyhyen tarinan pääsiäispupun seikkailusta käyttäen vähintään viittä pääsiäissanaa.',
+    },
+  ],
+
+  uniqueAngle: 'Pääsiäisaiheiset työlehdet ovat pedagogisesti arvokkaita, koska ne hyödyntävät lasten luonnollista innostusta juhlakauteen ja kanavoivat sen akateemiseksi oppimiseksi. Pääsiäinen on Suomessa erityisen rikas teema: se yhdistää kevään heräämisen, perinteiset virpomistavan, koristeltujen pajunoksien tekemisen ja munajahtien järjestämisen. Tämä kulttuurinen monikerroksisuus tarjoaa työlehdille epätavallisen rikkaan kontekstin: matemaattisia sarjoja pääsiäismunakuvioilla, kevään luonnontieteen havainnointia, perinnesanaston oppimista ja luovaa ilmaisua koristelun kautta. Pääsiäisen ajallinen rajoittuneisuus — se kestää vain muutaman viikon — luo luonnollisen motivaation intensiiviselle opiskelujaksolle, jossa lapset tekevät tehtäviä erityisen innokkaasti. POPS 2014:n kulttuuriperinteen tuntemus ja ympäristöopin kevään merkkien havainnointi yhdistyvät luontevasti pääsiäisteemassa. Suomalaiset pääsiäisperinteet kuten virpominen ja pajunoksien koristelu ovat ainutlaatuisia kulttuurisia elementtejä, jotka rikastuttavat oppimiskokemusta.',
+
+  researchCitation: 'Pugh, K. J. & Bergin, D. A. (2006). Motivational Influences on Transfer. Educational Psychologist. Tutkimus osoitti, että teemoitettu opetus, joka hyödyntää lasten henkilökohtaisia kiinnostuksen kohteita ja kulttuurisia juhlia, lisää merkittävästi oppimisen siirtovaikutusta arkielämään.',
+
+  culturalNotes: 'Suomessa pääsiäinen on rikas perinteiden juhla: lapset virpovat pajunoksilla, koristelevat kotiä, värjäävät munia ja osallistuvat munajahtiin. POPS 2014 korostaa kulttuuriperinteen tuntemusta, ja pääsiäistyölehdet tukevat tätä tavoitetta yhdistämällä perinteiset tavat akateemisiin tehtäviin. Suomalaisen pääsiäisen ainutlaatuisuus — virpominen ja pajut — tekee teemasta kulttuurisesti erityisen.',
+
+  snippetDefinition: 'Pääsiäisaiheiset työlehdet lapsille ovat tulostettavia oppimistehtäviä, jotka käyttävät pääsiäismunia, pupuja, tippuja ja kevään symboleita matematiikan, lukutaidon ja kuvioajattelun opettamiseen. Ne on suunniteltu 3–9-vuotiaille ja sisältävät laskutehtäviä, sanahakuja, väritystehtäviä ja kuviologiikkaa.',
+
+  snippetHowTo: [
+    'Ajoita pääsiäistyölehdet pääsiäistä edeltäville viikoille, jolloin lasten innostus on korkeimmillaan.',
+    'Valitse kaksi tai kolme eri taitoalueen työlehtityyppiä — esimerkiksi laskutehtävä, sanahaku ja kuviojatkotehtävä.',
+    'Aloita pääsiäissymbolien tunnistamisella: käykää läpi munat, puput, tiput, korit ja pajunoksat.',
+    'Yhdistä työlehti pääsiäisaskarteluun: väritystehtävän jälkeen tehkää oikeita pääsiäismunia tai pajukoristeitä.',
+    'Järjestä pääsiäismunajahteja, joissa löydetyt munat sisältävät piilotettuja tehtäviä ja pulmia.',
+    'Kierrä lasten joukossa ja esitä avoimia kysymyksiä kuten Miksi pääsiäinen on keväällä tai Montako munaa tarvitaan, jos jokainen saa kolme.',
+    'Kerää valmiit työlehdet ja reflektoikaa yhdessä, mitä opittiin pääsiäisteeman kautta.',
+  ],
+
+  limitations: 'Pääsiäinen on uskonnollinen juhla, ja osa perheistä ei vietä sitä. Opettajien tulee tarjota vaihtoehtoisia keväätteemaisia tehtäviä näille oppilaille. Pääsiäisen ajallinen rajoittuneisuus tarkoittaa, että työlehdet ovat relevantteja vain muutaman viikon vuodessa — suunnittele käyttö ennakkoon.',
+
+  themeComparisons: [
+    {
+      vsThemeId: 'holidays',
+      summary: 'Juhlatyölehdet kattavat monia juhlapyhiä ympjäri vuoden. Pääsiäistyölehdet syventyvät yhteen juhlaan ja sen yksityiskohtiin: munajahdista virpomiseen ja kevään luontoon.',
+    },
+    {
+      vsThemeId: 'spring',
+      summary: 'Kevättyölehdet tutkivat kevään luonnonilmiöitä laajasti. Pääsiäistyölehdet yhdistävät kevään perinteisiin ja juhlatapoihin, tarjoten kulttuurisesti rikkaamman kontekstin.',
+    },
+    {
+      vsThemeId: 'flowers',
+      summary: 'Kukkatyölehdet keskittyvät kasvien tunnistamiseen ja luonnontieteen käsitteisiin. Pääsiäistyölehdet käyttävät kevään kukkimista osana laajempaa juhlateemää.',
+    },
+    {
+      vsThemeId: 'animals',
+      summary: 'Eläintyölehdet tutkivat eläinkuntaa laajasti. Pääsiäistyölehdet keskittyvät kevään symbolieläimiin — pupuihin, tippuihin ja karitsoihin — juhlakontekstissa.',
+    },
+  ],
+
+  productLinks: [
+    {
+      appId: 'coloring',
+      anchorText: 'pääsiäisaiheiset väritystehtävät',
+      context: 'Pääsiäisaiheiset väritystehtävät yhdistävät hienomotoriikan kehittämisen juhlatunnelmaan, kun lapset värittävät pääsiäismunakuvioita, pupuja ja kevätkohtauksia.',
+    },
+    {
+      appId: 'find-and-count',
+      anchorText: 'pääsiäismunien laskutehtävät',
+      context: 'Laskutehtävät kehittävät aritmetiikkaa pääsiäiskuvien kautta, kun lapset etsivät ja laskevat piilotettuja munia, tippuja ja koreja kohtauskuvista.',
+    },
+    {
+      appId: 'word-search',
+      anchorText: 'pääsiäissanaston sanahaku-työlehdet',
+      context: 'Sanahakutehtävät rikastuttavat pääsiäissanastoa, kun lapset etsivät termejä kuten pajunoksa, virpominen, tippu ja munajahtiin sanaruudukosta.',
+    },
+    {
+      appId: 'pattern-train',
+      anchorText: 'pääsiäisen kuviojuna-tehtävät',
+      context: 'Kuviojunatehtävät käyttävät pääsiäissymboleita toistuvien sarjojen harjoitteluun, opettaen matemaattista kuvioajattelua juhlacontekstissa.',
+    },
+  ],
+
+  expertTips: [
+    {
+      tip: 'Ajoita pääsiäistyölehdet niin, että ne alkavat kaksi viikkoa ennen pääsiäistä ja huipentuvat munajahtiin viimeisenä päivänä. Tämä luo luonnollisen motivaatiokaaren.',
+      source: 'Luokanopettaja, teemaopetus',
+      gradeRange: 'Esiopetus–2. lk',
+    },
+    {
+      tip: 'Yhdistä pääsiäistyölehdet todellisiin perinteisiin: virpomiskorttien kirjoittaminen, munien värjääminen ja pajunoksien koristelu. Tämä antaa tehtäville autenttisen kulttuurisen merkityksen.',
+      source: 'Kulttuurikasvatuksen asiantuntija, suomalaiset perinteet',
+      gradeRange: 'Esiopetus–3. lk',
+    },
+    {
+      tip: 'Käytä pääsiäismunajahtia matemaattisena tutkimuksena: oppilaat dokumentoivat löydöksensä, lajittelevat värin ja koon mukaan ja luovat tilastograafeja. Tämä yhdistää leikin data-analyysiin.',
+      source: 'Matematiikan opettaja, tutkiva oppiminen',
+      gradeRange: '1.–3. lk',
+    },
+  ],
 };
 
 registerThemeContent('easter', 'fi', content);

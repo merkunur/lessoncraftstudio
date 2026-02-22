@@ -2,9 +2,10 @@
  * Sitemap Index - Consolidates all sitemaps for Google discovery
  * @see https://www.sitemaps.org/protocol.html#sitemapIndex
  *
- * References 8 sitemaps:
+ * References 9 sitemaps:
  * - /sitemap/0.xml through /sitemap/6.xml (split main sitemap, ~6,000+ URLs total)
  * - /sitemap-images.xml (product sample images)
+ * - /sitemap-news.xml (recent blog posts, Google News format)
  */
 
 import { prisma } from '@/lib/prisma';
@@ -28,7 +29,7 @@ export async function GET() {
   }
 
   // Static content date matches STATIC_CONTENT_DATE in sitemap.ts
-  const staticLastMod = '2026-02-09T00:00:00.000Z';
+  const staticLastMod = '2026-02-22T00:00:00.000Z';
 
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
@@ -62,6 +63,10 @@ export async function GET() {
   </sitemap>
   <sitemap>
     <loc>${baseUrl}/sitemap-images.xml</loc>
+    <lastmod>${blogLastMod}</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>${baseUrl}/sitemap-news.xml</loc>
     <lastmod>${blogLastMod}</lastmod>
   </sitemap>
 </sitemapindex>`;

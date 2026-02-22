@@ -20,7 +20,7 @@ for (const { slug, nativeLocale } of crossLocaleSlugs) {
 export const revalidate = 1800;
 
 // Fixed date for static/config-derived pages (only update when content actually changes)
-const STATIC_CONTENT_DATE = new Date('2026-02-15');
+const STATIC_CONTENT_DATE = new Date('2026-02-22');
 
 // NOTE: Sample images are handled by /sitemap-images.xml with proper Google Image Sitemap XML format
 
@@ -29,7 +29,7 @@ const STATIC_CONTENT_DATE = new Date('2026-02-15');
  * Previously, a single monolithic sitemap generating 6,000+ URLs was timing out,
  * causing the live site to serve only 99 static URLs from a stale cache.
  *
- * ID 0: Static pages (~110 URLs) - config only, no DB needed
+ * ID 0: Static pages (~121 URLs) - config only, no DB needed
  * ID 1: Product pages (~363 URLs) - config only, no DB needed
  * ID 2: Product categories + grade pages (~143 URLs) - config only, no DB needed
  * ID 3: Theme hub pages (~550 URLs) - config only, no DB needed
@@ -85,6 +85,7 @@ export default async function sitemap({ id }: { id: number }): Promise<MetadataR
       { path: '/contact', priority: 0.3, changeFreq: 'monthly' as const },
       { path: '/license', priority: 0.3, changeFreq: 'monthly' as const },
       { path: '/worksheets', priority: 0.7, changeFreq: 'weekly' as const },
+      { path: '/about', priority: 0.5, changeFreq: 'monthly' as const },
     ];
 
     const routes: MetadataRoute.Sitemap = [];

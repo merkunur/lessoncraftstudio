@@ -207,6 +207,165 @@ const content: EnrichedThemeContent = {
   // -- Cross-linking --
   relatedThemes: ['household', 'cooking', 'construction', 'transportation', 'school', 'farm'],
   relatedBlogCategories: [],
+
+  // -- SEO Enrichment (Part 180) --
+
+  classroomScenarios: [
+    {
+      situation: 'Ekaluokan opettaja valmistelee ympäristöopin jaksoa yhteiskunnasta ja ammateista, mutta oppilailla on suppea käsitys ammattien kirjosta.',
+      solution: 'Hän käyttää ammattiaiheisia nimeämis-, yhdistämis- ja lajittelutehtäviä, joissa lapset tunnistavat eri ammattien edustajia, yhdistävät heidät työvälineisiinsä ja lajittelevat ammatteja työympäristön mukaan. Luokkaan kutsutaan vierailevia ammattilaisia.',
+      outcome: 'Oppilaat tunnistavat ja kuvailevat yli kaksikymmentä eri ammattia. Haaveiltujen ammattien kirjo laajenee merkittävästi, ja lapset alkavat yhdistää koulun oppiaineita tulevaisuuden ammatteihin.',
+    },
+    {
+      situation: 'Kotikouluvanhempi haluaa opettaa lapselle yhtiskunnallista ymmärrystä ja samalla harjoitella kuvailevaa kirjoittamista.',
+      solution: 'Vanhempi käyttää ammattiaiheisia kirjoitus- ja piirustustehtäviä, joissa lapsi kuvaa unelma-ammattiaan, piirtää ammattilaisentyövälineet ja kirjoittaa päivän kyseisessä ammatissa.',
+      outcome: 'Lapsi tuottaa rikkaita kuvailutekstejä ja oppii samalla ammattisanastoa. Perhe-keskustelut ammateista laajenevat, ja lapsi alkaa huomata ammatteja arkielämässä.',
+    },
+  ],
+
+  quickStats: [
+    { label: 'Suositeltu ikähaarukka', value: '3–9 vuotta' },
+    { label: 'Työlehtisovellusten määrä', value: '10 sovellusta' },
+    { label: 'Opetussuunnitelman alueet', value: '4 aluetta' },
+    { label: 'Tuetut luokkatasot', value: 'Esiopetus–3. lk' },
+    { label: 'Keskimääräinen työskentelyaika', value: '10–20 min' },
+    { label: 'Ammattien kirjo', value: '25+ ammattia' },
+  ],
+
+  differentiationStrategies: [
+    {
+      learnerType: 'Visuaaliset oppijat',
+      adaptation: 'Painota väritystehtäviä ammattilaisista ja heidnä työympäristöistään. Yhdistämistehtävät, joissa ammattilaiset paritetaan työvälineisiinsä tai työpaikkoihinsa, tukevat visuaalista muistia.',
+    },
+    {
+      learnerType: 'Kinesteettiset oppijat',
+      adaptation: 'Järjestä ammattiroolileikkipisteitä työlehtien tueksi: lääkäri-, kokki- ja rakentajapisteet. Lapset kokeilevat ammattia käytännössä ennen tai jälkeen työlehden täytön.',
+    },
+    {
+      learnerType: 'S2-oppijat',
+      adaptation: 'Ammatit ovat universaaleja — jokainen lapsi tuntee lääkärin, opettajan ja palomehen. Aloita kuvapohjaisesta tunnistamisesta ja lisää suomenkielisiä ammattinimiä asteittain. Kuvitetut ammattikortit tukevat sanaston rakentamista.',
+    },
+    {
+      learnerType: 'Edistyneet oppijat',
+      adaptation: 'Haasta tutkimustehtävillä, joissa oppilas tutkii yhtä ammattia syvemmin: mitä koulutusta tarvitaan, millainen työpäivä on ja mitä työvälineitä käytetään. Kirjallinen ammattiraportti lisää haastetta.',
+    },
+  ],
+
+  assessmentIdeas: [
+    {
+      method: 'Portfolioarviointi',
+      criteria: 'Kerää ammattiaiheisia työlehtiä lukukauden ajalta. Vertaa ammattisanaston laajuutta, ammattienvlisen yhteyksien ymmärtämistä ja kuvailutaitojen kehittymistä.',
+      gradeLevel: 'Kaikki luokka-asteet',
+    },
+    {
+      method: 'Ammattien yhdistämisarviointi',
+      criteria: 'Anna oppilaalle kuvia ammattilaisista, työvälineistä ja työpaikoista. Pyydä yhdistämään oikeat kolmikot ja selittämään valinnat. Arvioi tunnistamisen tarkkuutta ja perustelujen syvyyttä.',
+      gradeLevel: 'Esiopetus–2. lk',
+    },
+    {
+      method: 'Unelma-ammatin esitys',
+      criteria: 'Pyydä oppilasta piirtämään ja kirjoittamaan unelma-ammatistaan: mitä työ sisältää, mitkä taidot ovat tärkeitä ja miksi tämä ammatti kiinnostaa. Arvioi kuvailun rikkautta ja yhteyttä oppiaineisiin.',
+      gradeLevel: '1.–3. lk',
+    },
+  ],
+
+  crossCurricularLinks: [
+    {
+      subject: 'Ympäristöoppi (yhteiskunta)',
+      connection: 'Ammattiteema kytkeytyy POPS 2014:n ympäristöopin yhteiskunnallisiin tavoitteisiin ja laaja-alaisen osaamisen L6 (työelämätaidot ja yrittäjyys) -tavoitteisiin. Ammattien tunteminen rakentaa yhteiskunnallista ymmärrystä.',
+      activity: 'Ammattien nimeämistehtävän jälkeen oppilaat haastattelevat perheenjäsentä hänen ammatistaan ja esittelevät tulokset luokalle.',
+    },
+    {
+      subject: 'Matematiikka',
+      connection: 'Ammattien kautta voidaan harjoitella rahamatematiikkaa, mittaamista ja ongelmanratkaisua käytännöllisissä yhteyksissä: rakentajan mittaamista, kauppiaan rahanlaskua ja kokin reseptien skaalausta.',
+      activity: 'Laskutehtävien jälkeen oppilaat leikkivät ammattiroolipeliä, jossa eri ammateissa käytetään eri matemaattisia taitoja käytännössä.',
+    },
+    {
+      subject: 'Äidinkieli ja kirjallisuus',
+      connection: 'Ammattisanasto laajentaa kielellistä ilmaisua ja tukee kuvailevaa ja asiatekstin kirjoittamista. Haastattelutekniikka kehittää vuorovaikutustaitoja.',
+      activity: 'Sanahaun jälkeen oppilaat kirjoittavat päivän ammatissa -tarinan, jossa kuvaavat valitsemansa ammattilaisen työpäivän.',
+    },
+  ],
+
+  uniqueAngle: 'Ammattiaiheisett työlehdet ovat pedagogisesti arvokkaita, koska ne yhdistävät akateemisen oppimisen suoraan lasten tulevaisuuden haaveisiin ja yhteiskunnalliseen ymmärrykseen. Kun lapsi piirtää palomiehen, hän ei vain väritä kuvaa vaan rakentaa mielikuvaa itsestään toimijana yhteiskunnassa. Suomalaisessa koulutustraditiossa työelämätaidot ja yrittäjyys ovat POPS 2014:n laaja-alaisen osaamisen L6-tavoitteena jo alkuopetuksesta alkaen, mikä tekee ammattiteemasta opetussuunnitelmaa suoraan tukevaan resurssin. Ammattiteema on myös erinomainen tasa-arvo-oppimisen väline: kun työlehdissä esitellään monipuolisesti eri sukupuolten edustajia eri ammateissa, lapset omaksuvat laajan käsityksen mahdollisuuksistaan. Ammattien yhdistäminen oppiaineisiin motivoi oppimista: matematiikka saa merkityksen, kun lapsi ymmärtää, että arkkitehti laskee pinta-aloja ja kokki mittaa ainesosia. Yhteiskunnallinen ymmärrys syvenee, kun lapsi oppii, miten eri ammatit palvelevat toisiaan ja muodostavat toimivan kokonaisuuden. Ammattiteema tarjoaa myös luonnollisen yhteyden yrittäjyyskasvatukseen, joka on suomalaisen koulutuksen kasvava painopiste.',
+
+  researchCitation: 'Helwig, A.A. (2001). A Test of Gottfredson’s Theory Using a Ten-Year Longitudinal Study. Journal of Career Development, 28(2), 77–95. Tutkimus osoitti, että varhaislapsuuden ammattikuva vaikuttaa pitkäaikaisesti uravalintoihin, ja monipuolinen ammattien esittely laajentaa lasten käsitystä heille avoimista mahdollisuuksista.',
+
+  culturalNotes: 'Suomessa työelämätaidot ja yrittäjyys ovat POPS 2014:n laaja-alaisen osaamisen L6-tavoitteena kaikilla luokka-asteilla. Suomalainen yhteiskunta arvostaa moniammatillista yhteistyötä ja tasa-arvoista työelämää, mikä heijastuu opetuksessa. Ammattipäivät ja työelämään tutustumisjäakot ovat vakiintunut osa suomalaista koulutusta. Ammattiaiheisett työlehdet tukevat tätä perinnettä jo varhaisessa vaiheessa.',
+
+  snippetDefinition: 'Ammattiaiheisett työlehdet lapsille ovat tulostettavia oppimistehtäviä, jotka käyttävät eri ammatteja, työvälineitä ja työympäristöjä laskemisen, sanaston, luokittelun ja yhteiskunnallisen ymmärryksen opettamiseen. Ne on suunniteltu 3–9-vuotiaille ja sisältävät nimeämistehtäviä, yhdistämispulmia, sanahakuja ja väritystehtäviä.',
+
+  snippetHowTo: [
+    'Valitse viikolle ammattiteeman alateema, kuten turvallisuusammatit, terveydenhuolto tai rakentaminen, jotta oppitunneilla on yhtenäinen fokus.',
+    'Valitse kaksi tai kolme työlehtityyppiä eri taitoalueille — esimerkiksi yhdistämistehtävä luokitteluun, laskutehtävä matematiikkaan ja sanahaku sanastoon.',
+    'Aloita keskustelulla: kysy lapsilta, mitä ammatteja heidän perheessään on tai mikä ammatti heitjä kiinnostaisi.',
+    'Jaa työlehdet vaikeustason mukaan: aloita ammattien tunnistamisesta ennen työvälineiden yhdistämistä ja ammattikuvausten kirjoittamista.',
+    'Kierrä lasten joukossa ja esitä avoimia kysymyksiä kuten Mitkä työvälineet kuuluvat tähän ammattiin tai Mitä matikkaa tämä ammattilainen käyttää.',
+    'Yhdistä työlehti roolileikkiin: lapset leikkivät työlehdellä opittua ammattia draaman ja mielikuvituksen keinoin.',
+    'Kerää valmiit työlehdet portfoliokansioon ja lisätkää lapsen oma unelma-ammatin piirros tai kirjoitus.',
+  ],
+
+  limitations: 'Ammattityölehdet voivat tahattomasti vahvistaa sukupuoli- tai statusstereotypioita, jos ammatit esitellään yksipuolisesti. Opettajien tulee varmistaa, että naisia ja miehiä näkyy monipuolisesti kaikissa ammateissa. Sosioekonominen herkkyys on tärkeää: kaikkia ammatteja tulee esitellä arvostavasti riippumatta palkka- tai statustasosta. Ammattien kuvauksissa tulisi välttää liiallista yksinkertaistamista.',
+
+  themeComparisons: [
+    {
+      vsThemeId: 'construction',
+      summary: 'Rakennustyölehdet syventyvät yhteen ammattialaan: rakentamiseen, välineisiin ja rakenteisiin. Ammattityölehdet kattavat laajasti eri ammattialoja ja niiden välisiä yhteyksiä.',
+    },
+    {
+      vsThemeId: 'transportation',
+      summary: 'Liikennetyölehdet keskittyvät kulkuvälineisiin ja liikkumiseen. Ammattityölehdet tutkivat liikenneammatteja (kuljettaja, lentäjä, merenkulkija) osana laajempaa ammattien kirjoa.',
+    },
+    {
+      vsThemeId: 'school',
+      summary: 'Koulutyölehdet keskittyvät oppimisympäristöön ja taitoihin. Ammattityölehdet laajentavat näkökulman siihen, mihin koulutaidot johtavat, yhdistäen kouluoppimisen tulevaisuuden ammatteihin.',
+    },
+    {
+      vsThemeId: 'farm',
+      summary: 'Maatilatyölehdet syventyvät maataloustyöhön ja eläintenhoitoon. Ammattityölehdet esittelevät maanviljelijän yhtenä monista ammateista, tarjoten laajemman yhteiskunnallisen kontekstin.',
+    },
+  ],
+
+  productLinks: [
+    {
+      appId: 'coloring',
+      anchorText: 'ammattiaiheisett väritystehtävät',
+      context: 'Ammattiaiheisett väritystehtävät tutustuttavat lapset eri ammatteihin ja niiden työasuihin värikkäiden kuvien kautta, kehittäen hienomotoriikkaa ja ammattisanastoa.',
+    },
+    {
+      appId: 'find-and-count',
+      anchorText: 'ammattivälineiden laskutehtävät',
+      context: 'Laskutehtävät yhdistävät visuaalisen etsinnän ja aritmetiikan, kun lapset laskevat työvälineitä ja ammattilaishahmoja monipuolisista työpaikkakohtauksista.',
+    },
+    {
+      appId: 'word-search',
+      anchorText: 'ammattisanaston sanahaku-työlehdet',
+      context: 'Ammattisanaston oppiminen sanahakutehtävissä, joissa lapset etsivät ammattien, työvälineiden ja työpaikkojen nimiä sanaruudukosta.',
+    },
+    {
+      appId: 'image-crossword',
+      anchorText: 'ammattien kuvaristikot',
+      context: 'Kuvaristikot yhdistävät ammattikuvat sanastoon: lapset tunnistavat ammattilaisen kuvasta ja kirjoittavat ammatin nimen ristikoruudukkoon.',
+    },
+  ],
+
+  expertTips: [
+    {
+      tip: 'Kutsu vierailevia ammattilaisia luokkaan työlehtien jjälkeen: lapset ovat valmistautuneet ammattisanastolla ja voivat esittää syvempiä kysymyksiä. Vierailijoista tulee elävä oppimateriaali.',
+      source: 'Luokanopettaja, yhteiskunnallinen kasvatus',
+      gradeRange: '1.–3. lk',
+    },
+    {
+      tip: 'Yhdistä ammattityölehdet yrittjäjyyskasvatukseen: oppilaat keksivät oman ammatin tai yritysidean, piirtävät logon ja kirjoittavat lyhyen kuvauksen. Tämä tukee luovaa ajattelua ja POPS 2014:n L6-tavoitteita.',
+      source: 'Yrittäjyyskasvattaja, perusopetus',
+      gradeRange: '2.–3. lk',
+    },
+    {
+      tip: 'Käytä ammattityölehtiä motivaation rakentajina: kysy lapsilta, mitä matematiikkaa palomies tai mitä lukutaitoa eläinlääkäri tarvitsee. Tämä antaa oppiaineille merkityksen tulevaisuuden haaveiden kautta.',
+      source: 'Opinto-ohjaaja, alkuopetus',
+      gradeRange: 'Esiopetus–3. lk',
+    },
+  ],
 };
 
 registerThemeContent('jobs', 'fi', content);

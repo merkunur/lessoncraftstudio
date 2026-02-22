@@ -207,6 +207,165 @@ const content: EnrichedThemeContent = {
   // -- Cross-linking --
   relatedThemes: ['emotions', 'shapes', 'toys', 'circus', 'holidays'],
   relatedBlogCategories: [],
+
+  // -- SEO Enrichment (Part 180) --
+
+  classroomScenarios: [
+    {
+      situation: 'Luokanopettaja huomaa, että ekaluokkalaiset kamppailevat kuvioiden tunnistamisessa matematiikassa ja eivät löydä toistuvia rakenteita.',
+      solution: 'Hän käyttää musiikkiaiheisia työlehtiä, joissa rytmikuviot esitetään visuaalisina sarjoina: nuotit, tauot ja lyömäsoitinkuvat muodostavat toistuvia kuvioita. Lapset tunnistavat kuvion ja taputtavat sen ennen paperille merkitsemistä.',
+      outcome: 'Oppilaat oivaltavat kuvioajattelun musiikin kautta ja siirtävät taidon matemaattisiin kuviosarjoihin. Musiikillinen konteksti tekee abstraktista algebrallisesta ajattelusta konkreettista ja hauskaa.',
+    },
+    {
+      situation: 'Kotikoululaisen vanhempi etsii tapaa rikastuttaa esikoululaisen sanastoa ja itseilmaisua, mutta perinteiset sanalistat eivät kiinnosta lasta.',
+      solution: 'Vanhempi käyttää musiikkiaiheisia sanahaku- ja nimeämistehtäviä, joissa lapsi etsii soittimien nimiä ja yhdistää kuvia sanoishin. Taustalla soi musiikkia, ja jokaisen löydetyn soittimen kohdalla kuunnellaan sen ääninäyte.',
+      outcome: 'Lapsi oppii laajan soittimisanaston ja alkaa kuvailemaan ääniä rikkaammin: matala, korkea, hiljainen, voimakas. Sanasto laajenee myös muihin yhteyksiin.',
+    },
+  ],
+
+  quickStats: [
+    { label: 'Suositeltu ikähaarukka', value: '3–9 vuotta' },
+    { label: 'Työlehtisovellusten määrä', value: '10 sovellusta' },
+    { label: 'Opetussuunnitelman alueet', value: '4 aluetta' },
+    { label: 'Tuetut luokkatasot', value: 'Esiopetus–3. lk' },
+    { label: 'Keskimääräinen työskentelyaika', value: '10–20 min' },
+    { label: 'Soitinryhmien kirjo', value: '5+ ryhmää' },
+  ],
+
+  differentiationStrategies: [
+    {
+      learnerType: 'Visuaaliset oppijat',
+      adaptation: 'Painota väritystehtäviä soittimista ja visuaalisia rytmikuvioita. Nuottikuvien ja soitinkuvien yhdistäminen tukee visuaalista muistia ja soitintuntemusta.',
+    },
+    {
+      learnerType: 'Kinesteettiset oppijat',
+      adaptation: 'Yhdistä työlehtiin rytminen taputtaminen ja kehosoittimet: lapsi taputtaa kuvion ennen sen merkitsemistä paperille. Aidot soittimet koskettavaksi työlehtien rinnalla vahvistavat oppimista.',
+    },
+    {
+      learnerType: 'S2-oppijat',
+      adaptation: 'Musiikki on universaali kieli — melodiat ja rytmit ylittävät kielimuurit. Aloita soittimien kuvapohjaisesta tunnistamisesta ja lisää suomenkielisiä sanoja asteittain. Ääninäytteet auttavat yhdistämään sanan konkreettiseen kokemukseen.',
+    },
+    {
+      learnerType: 'Edistyneet oppijat',
+      adaptation: 'Haasta sävellystehtävillä, joissa oppilas luo oman rytmikuvion ja kirjoittaa sen ylös käyttäen yksinkertaista notaatiota. Soitinryhmien vertailu ja äänten luokittelu lisäävät tieteellistä ulottuvuutta.',
+    },
+  ],
+
+  assessmentIdeas: [
+    {
+      method: 'Portfolioarviointi',
+      criteria: 'Kerää musiikkiaiheisia työlehtiä lukukauden ajalta. Vertaa soitinsanaston laajuutta, rytmikuvioiden tunnistamisen tarkkuutta ja luovien tuotosten kehittymistä.',
+      gradeLevel: 'Kaikki luokka-asteet',
+    },
+    {
+      method: 'Rytmikuvion tuottaminen',
+      criteria: 'Pyydä oppilasta taputtamaan annettu rytmikuvio, jatkamaan sitä ja sitten luomaan oma kuvio. Arvioi kuvion säännönmukaisuutta, toistoa ja kykyä kuvailla kuviota sanallisesti.',
+      gradeLevel: 'Esiopetus–2. lk',
+    },
+    {
+      method: 'Soitinluokittelu',
+      criteria: 'Anna oppilaalle kuvia eri soittimista ja pyydä luokittelemaan ne jousi-, puhallin-, lyömä- ja näppäilysoittimiin. Arvioi luokittelun oikeellisuutta ja perustelujen tarkkuutta.',
+      gradeLevel: '1.–3. lk',
+    },
+  ],
+
+  crossCurricularLinks: [
+    {
+      subject: 'Musiikki (POPS 2014)',
+      connection: 'Musiikkityölehdet kytkeytyvät suoraan POPS 2014:n musiikkikasvatuksen tavoitteisiin rytmin, melodian ja soittimien tuntemuksesta. Visuaaliset rytmikuviot tukevat musiikillista lukutaitoa.',
+      activity: 'Rytmikuviotyölehden jälkeen oppilaat taputtavat kuvion ja luovat siitä musiikkiesityksen kehosoittimilla tai rytmisoittimilla.',
+    },
+    {
+      subject: 'Matematiikka',
+      connection: 'Rytmikuviot ovat matemaattisia sarjoja äänessä. Musiikkityölehdet kehittävät algebrallista ajattelua kuviotunnistuksen kautta ja tarjoavat laskemisen kontekstin soittimien ja nuottien parissa.',
+      activity: 'Kuviotyölehden jälkeen oppilaat tunnistavat vastaavia kuviosarjoja numerosarjoista, yhdistäen musiikillisen ja matemaattisen kuvioajattelun.',
+    },
+    {
+      subject: 'Äidinkieli ja kirjallisuus',
+      connection: 'Soitinsanasto ja musiikkitermit rikastuttavat kielellistä ilmaisua. Äänten kuvailu adjektiivein kuten matala, korkea, voimakas ja hiljainen kehittää täsmällistä kuvailutaitoa.',
+      activity: 'Sanahakutehtävän jälkeen oppilaat kirjoittavat lyhyen tarinan, jossa päähenkilö soittaa löydettyä soitinta, käyttäen musiikkisanastoa.',
+    },
+  ],
+
+  uniqueAngle: 'Musiikkiaiheiset työlehdet ovat pedagogisesti ainutlaatuisia, koska ne yhdistävät auditiivisen, visuaalisen ja kinesteettisen oppimisen yhdeksi kokonaisuudeksi. Rytmikuviot ovat matemaattisia sarjoja äänen muodossa, mikä tarjoaa voimakkaan sillan musiikin ja algebran välillä. Suomalaisessa koulutustraditiossa musiikki on POPS 2014:n mukaan pakollinen oppiaine kaikilla luokka-asteilla, ja se nähdään olennaisena osana lapsen kokonaisvaltaista kehitystä. Musiikkityölehdet tukevat tätä perinnettä tarjoamalla visuaalisia ja kirjallisia välineitä musiikillisten käsitteiden käsittelyyn. Tunteiden ilmaisu musiikin kautta on syvjästi inhimillistä — lapset, jotka eivät löydä sanoja tunteilleen, voivat ilmaista ne rytmin ja melodian avulla. Työlehdet toimivat siltana tämän tunnekokemuksen ja analyyttisen ajattelun välillä: lapsi, joka tunnistaa surullisen kappaleen, harjoittelee samalla tunneilmaisun ja äänen ominaisuuksien luokittelua. Lisäksi musiikki on kulttuurisesti inklusiivinen teema, koska jokainen kulttuuri jakaa musiikin, vaikkakaan ei samoja soittimia tai säveljärjestelmiä.',
+
+  researchCitation: 'Hallam, S. (2010). The Power of Music: Its Impact on the Intellectual, Social and Personal Development of Children and Young People. International Journal of Music Education, 28(3), 269–289. Laaja katsaus osoitti, että aktiivinen musiikin harjoittaminen parantaa matemaattisia taitoja, kielellistä kehitystä ja sosiaalisia valmiuksia lapsilla.',
+
+  culturalNotes: 'Suomessa musiikkikasvatus on POPS 2014:n mukaan pakollinen oppiaine kaikilla luokka-asteilla, ja se on integroitu vahvasti varhaiskasvatukseen. Suomalainen musiikkiperinne on rikas: kansanmusiikki, Sibeliuksen perintö ja nykyaikainen musiikkikoulutus tekevät musiikista kulttuurisesti arvostetun osan opetusta. Musiikkityölehdet tukevat tätä perintöä tarjoamalla visuaalisia ja kirjallisia välineitä musiikillisten käsitteiden käsittelyyn.',
+
+  snippetDefinition: 'Musiikkiaiheiset työlehdet lapsille ovat tulostettavia oppimistehtäviä, jotka käyttävät soittimia, rytmejä ja musiikkisanastoa matematiikan, lukutaidon ja luovan ajattelun opettamiseen. Ne on suunniteltu 3–9-vuotiaille ja sisältävät rytmikuvioita, soitinten nimeämistehtäviä, sanahakuja ja väritystehtäviä.',
+
+  snippetHowTo: [
+    'Valitse viikolle musiikkiteeman alateema, kuten soitinryhmät, rytmikuviot tai musiikkilajit, jotta oppitunneilla on yhtenäinen fokus.',
+    'Valitse kaksi tai kolme työlehtityyppiä eri taitoalueille — esimerkiksi kuviotyölehti algebralliseen ajatteluun, sanahaku sanastoon ja väritystehtävä hienomotoriikkaan.',
+    'Aloita kuuntelemalla lyhyt musiikkinäyte ja keskustelemalla: mitkä soittimet kuulet ja miltä musiikki tuntuu.',
+    'Jaa työlehdet vaikeustason mukaan: aloita soittimien värittämisestä ennen vaativampia rytmikuvio- ja luokittelutehtäviä.',
+    'Kierrä lasten joukossa ja esitä avoimia kysymyksiä kuten Onko tämän soittimen ääni matala vai korkea tai Miten jatkaisit tätä rytmikuviota.',
+    'Yhdistä työlehti musiikkihetkeen: taputtakaa yhdessä työlehdellä harjoitellut rytmikuviot.',
+    'Kerää valmiit työlehdet portfoliokansioon ja seuratkaa soitinsanaston ja rytmitaitojen kehittymistä.',
+  ],
+
+  limitations: 'Musiikkityölehdet keskittyvät visuaaliseen ja kirjalliseen käsittelyyn, mikä ei korvaa aitoa musiikillista kokemusta soittamisesta ja kuuntelusta. Opettajien tulee yhdistää työlehdet aina äänellisiin harjoituksiin. Kulttuurinen herkkyys on tärkeää: joillakin perheillä voi olla uskonnollisia tai kulttuurisia rajoitteita tiettyjen musiikkityyppien suhteen. Nuottikirjoituksen esittely tulee suhteuttaa ikätasoon: liian monimutkainen notaatio voi turhauttaa.',
+
+  themeComparisons: [
+    {
+      vsThemeId: 'emotions',
+      summary: 'Tunnetyölehdet käsittelevät tunteita suoraan nimeämisen ja lajittelun kautta. Musiikkityölehdet lähestyvät tunteita epäsuorasti äänen ja rytmin kautta, tarjoten vaihtoehtoisen kanavan tunneilmaisuun.',
+    },
+    {
+      vsThemeId: 'toys',
+      summary: 'Lelutyölehdet käyttävät leikkivälineitä lajittelun ja laskemisen kontekstina. Musiikkityölehdet tuovat ainutlaatuisen auditiivisen ulottuvuuden, jossa äänet ja rytmit muodostavat oppimisen perustan.',
+    },
+    {
+      vsThemeId: 'circus',
+      summary: 'Sirkustyölehdet yhdistävät esityksen ja viihteen. Musiikkityölehdet syventyvät äänen ominaisuuksiin, soittimiin ja rytmiseen rakenteeseen, tarjoten analyyttisemmän lähestymistavan taideoppimiseen.',
+    },
+    {
+      vsThemeId: 'holidays',
+      summary: 'Juhlatyölehdet käsittelevät juhlia kokonaisvaltaisesti. Musiikkityölehdet keskittyvät musiikin rooliin kulttuurissa ja juhlissa, tarjoten syvemmän näkökulman musiikilliseen perinteeseen.',
+    },
+  ],
+
+  productLinks: [
+    {
+      appId: 'coloring',
+      anchorText: 'musiikkiaiheiset väritystehtävät',
+      context: 'Musiikkiaiheiset väritystehtävät tutustuttavat lapset soittimiin ja musiikillisiin symboleihin värikkäiden kuvien kautta, kehittäen hienomotoriikkaa ja soitintuntemusta.',
+    },
+    {
+      appId: 'draw-and-color',
+      anchorText: 'soittimien piirustustehtävät',
+      context: 'Piirustus- ja väritystehtävät antavat lasten luoda omia soitinkuvia, vahvistaen visuaalista muistia ja musiikkisanastoa luovan ilmaisun kautta.',
+    },
+    {
+      appId: 'word-search',
+      anchorText: 'musiikkisanaston sanahaku-työlehdet',
+      context: 'Musiikkisanaston oppiminen onnistuu sanahakutehtävissä, joissa lapset etsivät soittimien, musiikkitermien ja äänten kuvausten nimiä sanaruudukosta.',
+    },
+    {
+      appId: 'word-scramble',
+      anchorText: 'musiikkisanojen sekoitustehtävät',
+      context: 'Sanojen sekoitustehtävät haastavat lapsia järjestämään kirjaimet musiikkisanoiksi, kehittäen oikeinkirjoitustaitoja ja musiikkisanastoa samanaikaisesti.',
+    },
+  ],
+
+  expertTips: [
+    {
+      tip: 'Taputa jokainen rytmikuvio ääneen ennen paperille merkitsemistä. Auditiivinen ja kinesteettinen kokemus vahvistaa kuvion ymmärtämistä moninkertaisesti pelkkään visuaaliseen tunnistamiseen verrattuna.',
+      source: 'Musiikkikasvattaja, 15 vuoden kokemus',
+      gradeRange: 'Kaikki luokka-asteet',
+    },
+    {
+      tip: 'Yhdistä musiikkityölehdet kuunteluharjoituksiin: soita lyhyiä kappaleita ja pyydä lapsia tunnistamaan työlehdillä opittuja soittimia. Tämä siirtää visuaalisen tiedon auditiiviseen tunnistamiseen.',
+      source: 'Luokanopettaja, taiteiden integrointi',
+      gradeRange: '1.–3. lk',
+    },
+    {
+      tip: 'Anna lasten luoda oma soitinkokoelma arjen esineistä: purkkirummut, riisitäytetyt pullot ja kumilenkkirytmisoittimet. Työlehdet tarjoavat teoreettisen pohjan, ja itse tehdyt soittimet tuovat sen eläväksi.',
+      source: 'Varhaiskasvatuksen opettaja, luova oppiminen',
+      gradeRange: 'Esiopetus–1. lk',
+    },
+  ],
 };
 
 registerThemeContent('music', 'fi', content);

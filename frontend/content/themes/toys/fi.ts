@@ -208,6 +208,165 @@ const content: EnrichedThemeContent = {
   // -- Cross-linking --
   relatedThemes: ['body', 'emotions', 'colors', 'shapes', 'birthday', 'pets'],
   relatedBlogCategories: [],
+
+  // -- SEO Enrichment (Part 180) --
+
+  classroomScenarios: [
+    {
+      situation: 'Esikoulun opettaja huomaa, että useat lapset eivät osaa lajitella esineitä useamman kuin yhden ominaisuuden mukaan ja käyttävät vain väriä lajitteluperusteena.',
+      solution: 'Hän ottaa käyttöön leluaiheiset lajittelu- ja luokittelutehtävät, joissa lapset ryhmittelevät leluja koon, värin, materiaalin ja tyypin mukaan. Jokainen lajittelukierros käyttää eri kriteeriä, ja lapset selittävät valintansa.',
+      outcome: 'Kolmen viikon jälkeen oppilaat lajittelevat joustavasti kahdella tai kolmella kriteerillä samanaikaisesti. Luokittelutaidot siirtyvät muihin teemoihin ja matematiikan tehtäviin.',
+    },
+    {
+      situation: 'Kotikouluvanhempi etsii motivoivaa tapaa harjoitella yhteenlaskua ja vähennyslaskua esikoululaisen kanssa, joka pitää laskemista tyljänä.',
+      solution: 'Vanhempi käyttää leluaiheisia laskutehtäviä, joissa lapsi laskee nallekarhuja, autoja ja palikoita kuvista. Oikeiden lelujen käyttö fyysisenä laskurina tukee paperitehtävää.',
+      outcome: 'Lapsi innostuu laskemisesta, koska tutut lelut tekevät tehtävistä leikinomaisia. Kuukauden sisällä hän hallitsee yhteenlaskun kymmeneen ja alkaa itse keksiä leluaiheisia laskutehtäviä.',
+    },
+  ],
+
+  quickStats: [
+    { label: 'Suositeltu ikähaarukka', value: '3–9 vuotta' },
+    { label: 'Työlehtisovellusten määrä', value: '11 sovellusta' },
+    { label: 'Opetussuunnitelman alueet', value: '4 aluetta' },
+    { label: 'Tuetut luokkatasot', value: 'Esiopetus–3. lk' },
+    { label: 'Keskimääräinen työskentelyaika', value: '10–20 min' },
+    { label: 'Lelutyyppien kirjo', value: '20+ tyyppiä' },
+  ],
+
+  differentiationStrategies: [
+    {
+      learnerType: 'Visuaaliset oppijat',
+      adaptation: 'Painota väritystehtäviä ja etsi ja laske -työlehtiä, joissa värikkäät lelukohtaukset tarjoavat visuaalisen ärsykkeen. Lajittelutehtävät värikoodattuine kategorioineen tukevat visuaalista hahmotusta.',
+    },
+    {
+      learnerType: 'Kinesteettiset oppijat',
+      adaptation: 'Käytä oikeita leluja työlehtien rinnalla: lapsi lajittelee nallekarhuja, autoja ja palikoita fyysisesti ennen paperitehtävää. Rakennuspalikoilla laskeminen tukee konkreettista ymmmärrystä.',
+    },
+    {
+      learnerType: 'S2-oppijat',
+      adaptation: 'Lelut ovat universaali aihe — jokainen lapsi tunnistaa nallen, pallon ja auton. Aloita kuvapohjaisista laskutehtävistä ja lisää suomenkielisiä lelusanoja asteittain. Kuvitetut sanakortit tukevat sanaston rakentamista.',
+    },
+    {
+      learnerType: 'Edistyneet oppijat',
+      adaptation: 'Haasta monimutkaisilla luokittelutehtävillä, joissa leluja ryhmitellään kolmen ominaisuuden mukaan samanaikaisesti. Sanallisset laskutehtävät lelukaupan kontekstissa lisäävät matemaattista haastetta.',
+    },
+  ],
+
+  assessmentIdeas: [
+    {
+      method: 'Portfolioarviointi',
+      criteria: 'Kerää leluaiheisia työlehtiä lukukauden ajalta. Vertaa lajittelun joustavuutta, lelusanaston laajuutta ja matemaattisten ratkaisustrategioiden kehittymistä.',
+      gradeLevel: 'Kaikki luokka-asteet',
+    },
+    {
+      method: 'Lajittelun joustavuusarviointi',
+      criteria: 'Anna oppilaalle kokoelma lelukuvia ja pyydä lajittelemaan ne kolmella eri tavalla. Arvioi luokitteluperusteiden monipuolisuutta, oikeellisuutta ja selitysten tarkkuutta.',
+      gradeLevel: 'Esiopetus–2. lk',
+    },
+    {
+      method: 'Sanallinen tehtävänluonti',
+      criteria: 'Pyydä oppilasta keksimään oma leluaiheinen laskutehtävä ja ratkaisu. Arvioi matemaattista ajattelua, tehtävän loogisuutta ja kielellistä ilmaisua.',
+      gradeLevel: '1.–3. lk',
+    },
+  ],
+
+  crossCurricularLinks: [
+    {
+      subject: 'Ympäristöoppi (materiaalit ja teknologia)',
+      connection: 'Leluteema kytkeytyy POPS 2014:n ympäristöopin tavoitteisiin materiaalien tunnistamisesta ja teknologian ymmärtämisestä. Lelujen materiaalien (muovi, puu, kangas, metalli) vertailu rakentaa tieteellistä luokittelutaitoa.',
+      activity: 'Lajittelutehtävän jälkeen oppilaat tutkivat oikeita leluja ja ryhmittelevät niitä materiaalin mukaan, keskustellen mistä kukin materiaali on tehty ja mitkä ovat sen ominaisuudet.',
+    },
+    {
+      subject: 'Matematiikka',
+      connection: 'Lelujen laskeminen, ryhmittely ja vertailu tarjoavat konkreettisen kontekstin aritmetiikalle, luokittelulle ja kuvioiden tunnistamiselle.',
+      activity: 'Etsi ja laske -työlehden tulosten pohjalta oppilaat luovat pylväskaavion eri lelutyyppien määristä ja vastaavat vertailukysymyksiin.',
+    },
+    {
+      subject: 'Äidinkieli ja kirjallisuus',
+      connection: 'Lelusanasto laajentaa kuvailevaa kieltä ja tukee tarinankerronnan taitoja. Lelujen kuvailutehtävät kehittävät adjektiivien käyttöä ja kirjoittamisen rakennetta.',
+      activity: 'Sanahaun jälkeen jokainen oppilas kirjoittaa lyhyen kuvauksen suosikkilelustaan käyttäen vähintään kolmea kuvailevaa sanaa.',
+    },
+  ],
+
+  uniqueAngle: 'Leluaiheiset työlehdet hyödyntävät lapsen maailman keskeisinntä motivaattoria: leikkijä. Toisin kuin teemat, jotka vaativat lapsilta siirtymistä tuntemattomaan aiheeseen, leluteema kohtaa lapsen siellä, missä hän jo on — nallekarhut, autot, palikat ja nuket ovat päivittäisen elämän kumppaneita. Tämä tuttuus alentaa oppimisen kynnystä merkittävästi, koska lapsen ei tarvitse ensin oppia kontekstia voidakseen keskittyjä itse taitoihin. Leluteeman ainutlaatuinen pedagoginen vahvuus on sen luonteva yhteys leikkiin, joka on suomalaisen varhaiskasvatuksen perusperiaate. POPS 2014 ja varhaiskasvatussuunnitelma korostavat leikin merkitystä oppimisen välineenä, ja leluaiheiset työlehdet rakentavat sillan leikin ja jäsennellyn oppimisen välillä — lapsi siirtyy leikkimisen ilosta luokittelun, laskemisen ja sanaston harjoitteluun kuin itsestään. Lisäksi leluteema tarjoaa ainutlaatuisen materiaalitieteen kontekstin: muovi, puu, kangas ja metalli ovat konkreettisesti koettavia ominaisuuksia, jotka rakentavat tieteellisen havainnoinnin perustaa. Lelukaupan ja syntymäpäivälahjojen konteksti esittelee talouslukutaidon perusteita luontevasti.',
+
+  researchCitation: 'Hirsh-Pasek, K., Golinkoff, R.M. & Eyer, D. (2003). Einstein Never Used Flash Cards: How Our Children Really Learn—and Why They Need to Play More and Memorize Less. Rodale Books. Tutkimus osoitti, että leikillisissä konteksteissa tapahtuva oppiminen, johon kuuluu tuttujen lelujen käyttö, tuottaa pysyvämpiä oppimistuloksia kuin abstraktit harjoitukset.',
+
+  culturalNotes: 'Suomalaisessa varhaiskasvatuksessa leikki on oppimisen perusmuoto, ja Varhaiskasvatussuunnitelman perusteet (2022) korostavat leikin arvoa kaikessa oppimisessa. POPS 2014 tukee leikillisyyttä alkuopetuksessa. Suomessa on vahva lautapeli- ja leikkiperinne: perheillissä pelien pelaaminen on yleistä, ja lelut nähdään oppimisvälineinä viihteen lisäksi. Leluaiheiset työlehdet sopivat luontevasti tähän kulttuuriseen yhteyteen.',
+
+  snippetDefinition: 'Leluaiheiset työlehdet lapsille ovat tulostettavia oppimistehtäviä, jotka käyttävät tuttuja leluja — nallekarhuja, autoja, palikoita ja peliä — laskemisen, lajittelun, lukutaidon ja ongelmanratkaisun opettamiseen. Ne on suunniteltu 3–9-vuotiaille ja sisältävät laskuharjoituksia, luokittelutehtäviä, sanahakuja ja väritystehtäviä.',
+
+  snippetHowTo: [
+    'Valitse viikolle leluteeman alateema, kuten pehmolelut, rakennuspalikat tai lautapelit, jotta oppitunneilla on yhtenäinen fokus.',
+    'Valitse kaksi tai kolme työlehtityyppiä eri taitoalueille — esimerkiksi laskutehtävä matematiikkaan, sanahaku sanastoon ja väritystehtävä hienomotoriikkaan.',
+    'Aloita tuomalla oikeita leluja luokkaan: lapset tutkivat, nimeävät ja lajittelevat fyysisiä esineitä ennen paperitehtävää.',
+    'Jaa työlehdet vaikeustason mukaan: aloita yksinkertaisesta laskemisesta ennen moniominaisuuksista luokittelua.',
+    'Kierrä lasten joukossa ja esitä avoimia kysymyksiä kuten Mistä materiaalista tämä lelu on tehty tai Montako eri väriä leluissa on.',
+    'Yhdistä työlehti vapaaleikkihetkeen: lapset käyttävät työlehdellä laskemiaan leluja leikkiskenaariossa.',
+    'Kerää valmiit työlehdet portfoliokansioon ja seuratkaa lajittelutaitojen ja lelusanaston kehittymistä.',
+  ],
+
+  limitations: 'Leluteema voi tahattomasti korostaa materiaalisiin eroihin liittyviä erärvoisksia, jos tehtävissä esitellään kalliita tai trenditietoisisa leluja. Opettajien tulee painottaa yksinkertaisia, universaaleja leluja kuten pallot, palikat ja pehmolelut. Elektronisten laitteiden luokittelu leluiksi voi olla kiistanalaista — on hyvä keskustella eron perinteisten ja digitaalisten lelujen välillä. Turvallisuusnäkökulma on tärkeä pienille lapsille: pienet osat ovat tukehtumisriski.',
+
+  themeComparisons: [
+    {
+      vsThemeId: 'emotions',
+      summary: 'Tunnetyölehdet käsittelevät sisäistä tunne-elämää. Lelutyölehdet lähestyvät tunteita leikin kautta — nukkeleikki ja roolipelit ovat luontaisia tunneilmaisun väyliä työlehtikontekstissa.',
+    },
+    {
+      vsThemeId: 'colors',
+      summary: 'Värityölehdet opettavat värien tunnistamista puhtaassa muodossa. Lelutyölehdet käyttävät värejä yhtenä lajitteluperusteena usean joukossa, syventäen luokitteluajattelua tutun kontekstin kautta.',
+    },
+    {
+      vsThemeId: 'shapes',
+      summary: 'Muototyölehdet opettavat geometrisiä perusmuotoja. Lelutyölehdet yhdistävät muodot konkreettisiin esineisiin — palikat ovat kuutioita, pallot ovat palloja — mikä ankkuroi abstraktin geometrian käsin kosketeltavaan todellisuuteen.',
+    },
+    {
+      vsThemeId: 'birthday',
+      summary: 'Syntymäpäivätyölehdet käsittelevät juhlimista kokonaisvaltaisesti. Lelutyölehdet syventyvät leikkivälineisiin ja niiden luokitteluun, tarjoten systemaattisemman lähestymistavan lajittelutaitoihin.',
+    },
+  ],
+
+  productLinks: [
+    {
+      appId: 'coloring',
+      anchorText: 'leluaiheiset väritystehtävät',
+      context: 'Leluaiheiset väritystehtävät kehittävät hienomotoriikkaa ja luovaa ilmaisua, kun lapset värittävät nallekarhuja, autoja ja palikoita omilla värivalinnoillaan.',
+    },
+    {
+      appId: 'find-and-count',
+      anchorText: 'lelujen laskutehtävät',
+      context: 'Lelujen laskutehtävät yhdistävät visuaalisen etsinnän ja aritmetiikan, kun lapset laskevat eri lelutyyppejä monipuolisista leikkikohtauksista.',
+    },
+    {
+      appId: 'word-search',
+      anchorText: 'lelusanaston sanahaku-työlehdet',
+      context: 'Lelusanaston oppiminen onnistuu sanahakutehtävissä, joissa lapset etsivät lelujen, pelien ja leikkivälineiden nimiä sanaruudukosta.',
+    },
+    {
+      appId: 'matching-app',
+      anchorText: 'lelujen yhdistämistehtävät',
+      context: 'Yhdistämistehtävät, joissa identtiset leluparit tai lelut ja niiden varjokuvat paritetaan, kehittävät visuaalista erottelukykyä ja muistia.',
+    },
+  ],
+
+  expertTips: [
+    {
+      tip: 'Tuo luokkaan lelulaatikko, josta lapset valitsevat esineitä fyysiseen lajitteluun ennen työlehtiä. Konkreettinen käsittely vahvistaa luokittelutaitoja ja luo sillan leikin ja oppimisen välille.',
+      source: 'Varhaiskasvatuksen opettaja, leikkipedagogiikka',
+      gradeRange: 'Esiopetus–1. lk',
+    },
+    {
+      tip: 'Käytä lelukauppaleikkiä matematiikan kontekstina: laita leluille hintalappuja ja anna lasten laskea ostoksia. Tämä yhdistää leluteeman rahamatematiikkaan luontevasti.',
+      source: 'Luokanopettaja, toiminnallinen matematiikka',
+      gradeRange: '1.–2. lk',
+    },
+    {
+      tip: 'Anna lelujen materiaalitutkimusprojekti: oppilaat ryhmittelevät leluja materiaalin mukaan, tutkivat ominaisuuksia kuten kovuus ja joustavuus ja kirjoittavat havaintoraportin. Tämä yhdistää luonnontieteen ja äidinkielen.',
+      source: 'Luonnontieteen opettaja, tutkiva oppiminen',
+      gradeRange: '2.–3. lk',
+    },
+  ],
 };
 
 registerThemeContent('toys', 'fi', content);

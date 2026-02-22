@@ -207,6 +207,165 @@ const content: EnrichedThemeContent = {
   // -- Cross-linking --
   relatedThemes: ['dinosaurs', 'robots', 'numbers', 'school', 'weather'],
   relatedBlogCategories: [],
+
+  // -- SEO Enrichment (Part 180) --
+
+  classroomScenarios: [
+    {
+      situation: 'Tokaluokan opettaja huomaa, että oppilaat ovat kiinnostuneita avaruudesta iltauutisten Mars-uutisten jälkeen, mutta tieteellinen ymmärrys on epämääräistä.',
+      solution: 'Hän käyttää avaruusaiheisia työlehtiä, joissa lapset opettelevat aurinkokunta, laskevat planeettojen lukumääriä ja vertailevat kokoja. Tähtitaivaan kartoitustehtävät yhdistävät geometrian ja luonnontieteen.',
+      outcome: 'Oppilaat hallitsevat aurinkokunnan perusrakenteen ja osaavat nimetjä kahdeksan planeettaa järjestyksessä. Tieteellinen sanasto laajenee, ja oppilaat esittävät syvempiä kysymyksiä avaruudesta.',
+    },
+    {
+      situation: 'Kotikouluvanhempi etsii motivoivaa teemaa, joka yhdistää luonnontieteen, matematiikan ja lukutaidon kolmasluokkalaisen opetuksessa.',
+      solution: 'Vanhempi käyttää avaruusaiheisia moniainetehtäviä: planeettojen etäisyyksien kertolaskuja, avaruusseikkailutarinoiden kirjoittamista ja aurinkokuntaa käsitteleviä tietotekstejä ymmärtämiskysymyksineen.',
+      outcome: 'Lapsi innostuu oppimisesta, koska avaruusteema yhdistää kaikki oppiaineet kiehtovaan kontekstiin. Hän kirjoittaa oma-aloitteisesti avaruusseikkailutarinoita ja tutkii planeettojen ominaisuuksia itänäisesti.',
+    },
+  ],
+
+  quickStats: [
+    { label: 'Suositeltu ikähaarukka', value: '3–9 vuotta' },
+    { label: 'Työlehtisovellusten määrä', value: '10 sovellusta' },
+    { label: 'Opetussuunnitelman alueet', value: '4 aluetta' },
+    { label: 'Tuetut luokkatasot', value: 'Esiopetus–3. lk' },
+    { label: 'Keskimääräinen työskentelyaika', value: '10–20 min' },
+    { label: 'Avaruuskohteiden kirjo', value: '15+ kohdetta' },
+  ],
+
+  differentiationStrategies: [
+    {
+      learnerType: 'Visuaaliset oppijat',
+      adaptation: 'Painota planeettojen väritys- ja piirustustehtäviä sekä kokovertailua. Aurinkokunnan karttatehtävät, joissa planeetat sijoitetaan järjestykseen, tukevat visuaalista ja avaruudellista hahmotusta.',
+    },
+    {
+      learnerType: 'Kinesteettiset oppijat',
+      adaptation: 'Rakenna luokkaan aurinkokunnan pienoisallinen palloja käyttäen: oppilaat järjestävät planeetat oikeaan järjestykseen fyysisesti ennen paperitehtävää. Tähtikartan piirtäminen suurelle lattiapinnalle tukee kinesteettistä oppimista.',
+    },
+    {
+      learnerType: 'S2-oppijat',
+      adaptation: 'Avaruuskuvat ovat universaaleja — planeetat, tähdet ja kuut tunnistetaan kulttuurista riippumatta. Aloita kuvapohjaisista tehtävistä ja lisää suomenkielisiä avaruustermejä asteittain. Kuvitetut sanakortit helpottavat sanaston rakentamista.',
+    },
+    {
+      learnerType: 'Edistyneet oppijat',
+      adaptation: 'Haasta tutkimustehtävillä planeettojen ominaisuuksista: lämpötila, etäisyys auringosta ja kuiden lukumäärä. Vertailutaulukot ja graafien luominen lisäävät tieteellistä haastetta. Avaruusseikkailutarinan kirjoittaminen yhdistää tieteen ja luovuuden.',
+    },
+  ],
+
+  assessmentIdeas: [
+    {
+      method: 'Portfolioarviointi',
+      criteria: 'Kerää avaruusaiheisia työlehtiä lukukauden ajalta. Vertaa avaruussanaston laajuutta, planeettatiedon tarkkuutta ja matemaattisten ratkaisustrategioiden kehittymistä.',
+      gradeLevel: 'Kaikki luokka-asteet',
+    },
+    {
+      method: 'Aurinkokunnan järjestysarviointi',
+      criteria: 'Pyydä oppilasta järjestämään planeettakortit oikeaan järjestykseen auringosta lähtien ja nimeämään ne suomeksi. Arvioi järjestyksen oikeellisuutta, nimeämisen tarkkuutta ja lisätietojen antamista.',
+      gradeLevel: 'Esiopetus–2. lk',
+    },
+    {
+      method: 'Avaruustutkimusraportti',
+      criteria: 'Pyydä oppilasta valitsemaan yksi planeetta ja kirjoittamaan tutkimusraportti: koko, etäisyys, lämpötila, kuut ja erityispiirteet. Arvioi tiedon tarkkuutta, lähteiden käyttöä ja raportin rakennetta.',
+      gradeLevel: '2.–3. lk',
+    },
+  ],
+
+  crossCurricularLinks: [
+    {
+      subject: 'Ympäristöoppi (avaruus ja maapallo)',
+      connection: 'Avaruusteema kytkeytyy POPS 2014:n ympäristöopin tavoitteisiin maapallosta avaruuskappaleena, vuorokauden ja vuodenaikojen syistä sekä aurinkokunnan rakenteesta. Avaruustyölehdet tukevat tieteellistä ajattelua.',
+      activity: 'Planeettojen järjestystehtävän jälkeen oppilaat rakentavat aurinkokunnan pienoismallin eri kokoisista palloista ja laskevat suhteelliset etäisyydet.',
+    },
+    {
+      subject: 'Matematiikka',
+      connection: 'Avaruuden suuret luvut (etäisyydet, lämpötilat, planeettojen koot) tarjoavat motivoivan kontekstin lukujen vertailulle, kertolaskulle ja paikka-arvon ymmärtämiselle.',
+      activity: 'Planeettojen etäisyystehtävän jälkeen oppilaat vertailevat lukuja, järjestävät planeettat koon mukaan ja laskevat etäisyyseroja.',
+    },
+    {
+      subject: 'Äidinkieli ja kirjallisuus',
+      connection: 'Avaruusteema inspiroi luovaa kirjoittamista seikkailutarinoiden muodossa ja kehittää tietotekstien lukemisen taitoja. Avaruussanasto kuten planeetta, galaksi ja asteroidi laajentaa tieteellistä terminologiaa.',
+      activity: 'Sanahakutehtävän jälkeen oppilaat kirjoittavat lyhyen avaruusseikkailutarinan, jossa käytetään vähintään viittä opittua avaruussanaa.',
+    },
+  ],
+
+  uniqueAngle: 'Avaruusaiheiset työlehdet hyödyntävät yhtä inhimillisyyden syvimmistä motivaattoreista: ihmetystä tuntemattoman edessä. Avaruus kiehtoo lapsia kaikkialla maailmassa, koska se edustaa rajatonta tutkimusta — aina on uusi planeetta löydettävänä tai tähti nähtävänä. Tämä luontainen motivaatio tekee avaruusteemasta poikkeuksellisen tehokkaan oppimisen kontekstin, koska lasten ei tarvitse pakottaa kiinnostustaan — se on jo valmiina. Pedagogisesti avaruusteema on harvinaisen monipuolinen: se yhdistää luonnontieteen (aurinkokunnan rakenne, painovoima), matematiikan (suuret luvut, etäisyydet, kokovertailut), lukutaidon (tietotekstit, seikkailutarinat) ja luovan ilmaisun (avaruuskuvat, tarinankkerronta) yhdeksi kokonaisuudeksi. Suomessa avaruustutkimuksella on vahva perinne — suomalaiset ovat osallistuneet ESA:n ohjelmiin ja aurinkokuntaan tutustuminen on osa POPS 2014:n ympäristöoppia. Avaruusteeman suuret luvut tarjoavat luonnollisen kontekstin lukujärjestykselle ja kertolaskulle, koska planeettojen etäisyydet ja koot ovat niin suuria, että ne haastavat matemaattista ajattelua kiehtovalla tavalla. Tähtitaivaan havainnointi yhdistää luokkahuoneen oppimisen iltaisin nähtävään todellisuuteen.',
+
+  researchCitation: 'Vosniadou, S. & Brewer, W.F. (1992). Mental Models of the Earth: A Study of Conceptual Change in Childhood. Cognitive Psychology, 24(4), 535–585. Tutkimus osoitti, että lasten maapallo- ja avaruuskäsitykset muuttuvat systemaattisesti opetuksen myötä, ja visuaaliset työlehdet tukevat käsitteellisen muutoksen prosessia tehokkaasti.',
+
+  culturalNotes: 'Suomessa avaruusteema kytkeytyy POPS 2014:n ympäristöopin tavoitteisiin maapallosta avaruuskappaleena ja aurinkokunnan rakenteesta. Suomi on ESA:n jäsenmaa, ja avaruustutkimus näkyy mediassa säännöllisesti. Pitkäjät talviyöt Pohjois-Suomessa tekevät tähtitaivaan havainnoinnista erityisen palkitsevaa ja luonnollisen osan opetusta. Revontulien tieteellinen selittäminen yhdistää avaruusteeman suomalaiseen luontokokemukseen.',
+
+  snippetDefinition: 'Avaruusaiheiset työlehdet lapsille ovat tulostettavia oppimistehtäviä, jotka käyttävät planeettoja, tähtiä ja avaruustutkimusta matematiikan, lukutaidon ja luonnontieteen opettamiseen. Ne on suunniteltu 3–9-vuotiaille ja sisältävät laskuharjoituksia, sanahakuja, kokovertailuja ja väritystehtäviä.',
+
+  snippetHowTo: [
+    'Valitse viikolle avaruusteeman alateema, kuten planeetat, tähdet tai avaruustutkimus, jotta oppitunneilla on yhtenäinen fokus.',
+    'Valitse kaksi tai kolme työlehtityyppiä eri taitoalueille — esimerkiksi kokovertailutehtävä matematiikkaan, sanahaku sanastoon ja väritystehtävä hienomotoriikkaan.',
+    'Aloita näyttämällä kuva avaruudesta tai tähtitaivaasta ja keskustelemalla: mitä näet ja mitä tiedät avaruudesta.',
+    'Jaa työlehdet vaikeustason mukaan: aloita planeettojen värittämisestä ennen vaativampia lasku- ja tutkimustehtäviä.',
+    'Kierrä lasten joukossa ja esitä avoimia kysymyksiä kuten Mikä planeetta on suurin tai Miksi Maapallolla on elämää mutta Marsilla ei.',
+    'Yhdistä työlehti iltaiseen tähtitaivaan havainnointiin: anna kotitehtäväksi katsoa iltataivasta ja piirtää nähtyjä tähtiä.',
+    'Kerää valmiit työlehdet portfoliokansioon ja seuratkaa avaruussanaston ja tieteellisen ajattelun kehittymistä.',
+  ],
+
+  limitations: 'Avaruustyölehdet voivat sisältää mittakaavavirheitä, jos planeettojen kokoja ja etäisyyksiä ei esitetä realistisesti. Opettajien tulee korostaa, että kuvitukset ovat yksinkertaistettuja. Avaruuden valtavat etäisyydet ja abstraktit käsitteet kuten painottomuus voivat olla vaikeita pienille lapsille — konkreettiset vertailut auttavat ymmärtämisessä. Luonnontieteen ja mielikuvituksen raja tulee pitää selkeänä: scifi-elementit eivät saa sekoittua tieteellisiin faktoihin.',
+
+  themeComparisons: [
+    {
+      vsThemeId: 'dinosaurs',
+      summary: 'Dinosaurustyölehdet tutkivat menneisyyden eläimiä ja aikakäsityksiiä. Avaruustyölehdet suuntaavat katseen tulevaisuuteen ja universumin rakenteeseen, yhdistäen historian ja tulevaisuuden tieteellisen tutkimuksen.',
+    },
+    {
+      vsThemeId: 'robots',
+      summary: 'Robottityölehdet keskittyvät teknologiaan ja koodaamiseen. Avaruustyölehdet käyttävät teknologiaa kontekstina — avaruusrobotit ja -luotaimet yhdistävät molemmat teemat luontevasti.',
+    },
+    {
+      vsThemeId: 'numbers',
+      summary: 'Numerotyölehdet opettavat lukuja puhtaassa muodossa. Avaruustyölehdet antavat suurille luvuille merkityksen: planeettojen etäisyydet ja koot tekevät lukukäsitteistä kiehtovia ja konkreettisia.',
+    },
+    {
+      vsThemeId: 'weather',
+      summary: 'Säätyölehdet tutkivat maapallon ilmaston ilmiöitä. Avaruustyölehdet laajentavat perspektiivin koko aurinkokuntaan, selittäen miksi Maapallolla on sää mutta esimerkiksi Kuulla ei.',
+    },
+  ],
+
+  productLinks: [
+    {
+      appId: 'coloring',
+      anchorText: 'avaruusaiheiset väritystehtävät',
+      context: 'Avaruusaiheiset väritystehtävät tutustuttavat lapset planeettoihin, tähtiin ja avaruusaluksiin värikkäiden kuvien kautta, kehittäen hienomotoriikkaa ja avaruussanastoa.',
+    },
+    {
+      appId: 'draw-and-color',
+      anchorText: 'planeettojen piirustustehtävät',
+      context: 'Piirustus- ja väritystehtävät antavat lasten luoda omia avaruuskuvia, vahvistaen visuaalista muistia ja tieteellistä sanastoa luovan ilmaisun kautta.',
+    },
+    {
+      appId: 'word-search',
+      anchorText: 'avaruussanaston sanahaku-työlehdet',
+      context: 'Avaruussanaston oppiminen onnistuu sanahakutehtävissä, joissa lapset etsivät planeettojen, tähtien ja avaruuskäsitteiden nimiä sanaruudukosta.',
+    },
+    {
+      appId: 'sudoku',
+      anchorText: 'avaruusaiheiset sudoku-pulmat',
+      context: 'Avaruusteemaiset sudoku-pulmat kehittävät loogista päättelyä ja ongelmanratkaisua, kun lapset sijoittavat planeettoja ja avaruuskohteita ruudukkoon sääntöjen mukaisesti.',
+    },
+  ],
+
+  expertTips: [
+    {
+      tip: 'Rakenna luokkaan aurinkokunnan mittakaavamalli pitkjälle käytävälle: oppilaat laskevat etäisyydet ja sijoittavat planeetat oikeisiin kohtiin. Tämä tekee abstrakteista etäisyyksistä konkreettisia.',
+      source: 'Luonnontieteen opettaja, havainnollistaminen',
+      gradeRange: '2.–3. lk',
+    },
+    {
+      tip: 'Yhdistä avaruustyölehdet iltaiseen tähtitaivaan havainnointiin. Anna kotitehtäväksi tunnistaa Pohjantähti tai Otava ja piirtää näkemänsä. Tämä yhdistää luokkahuoneen oppimisen todelliseen kokemukseen.',
+      source: 'Luokanopettaja, tutkiva oppiminen',
+      gradeRange: '1.–3. lk',
+    },
+    {
+      tip: 'Käytä avaruusteemaa luovan kirjoittamisen inspiraationa: seikkailutarinat avaruudessa motivoivat kirjoittamiseen lapsia, joita perinteiset aiheet eivät kiinnosta. Tieteelliset faktat voidaan kutoa osaksi tarinaa.',
+      source: 'Äidinkielen opettaja, luova kirjoittaminen',
+      gradeRange: '2.–3. lk',
+    },
+  ],
 };
 
 registerThemeContent('space', 'fi', content);

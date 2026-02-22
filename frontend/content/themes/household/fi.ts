@@ -208,6 +208,165 @@ const content: EnrichedThemeContent = {
   // -- Cross-linking --
   relatedThemes: ['furniture', 'cooking', 'body', 'clothing', 'garden', 'construction'],
   relatedBlogCategories: [],
+
+  // -- SEO Enrichment (Part 180) --
+
+  classroomScenarios: [
+    {
+      situation: 'Esiopetuksen opettaja etsii tapaa integroida arjen taidot oppimiseen, koska monet lapset eivät tunnista yleisiä kotitalousvälineitä nimeltä.',
+      solution: 'Hän käyttää kotitalousaiheisia nimeämis-, yhdistämis- ja lajittelutehtäviä, joissa lapset tunnistavat keittiön, kylpyhuoneen ja olohuoneen esineitä. Työlehdet yhdistetään kotileikkipisteeseen, jossa lapset käsittelevät leikkivälineitä.',
+      outcome: 'Lapset laajentavat kotitalousesinesanastoaan merkittävästi ja alkavat ryhmitellä esineitä huoneen ja käyttötarkoituksen mukaan itsenäisesti. Vanhemmat raportoivat lasten auttavan kotitöissä innokkaammin.',
+    },
+    {
+      situation: 'Kotikouluvanhempi haluaa opettaa toisluokkalaiselle rahankäyttöä ja budjetointia käytännöllisessä yhteydessä.',
+      solution: 'Vanhempi käyttää kotitalousaiheisia sanallisia tehtäviä, joissa lasketaan ruokakauppaostoksia, vertaillaan tuotteiden hintoja ja suunnitellaan yksinkertaisia budjetteja. Lapsi osallistuu oikeisiin kauppaostoksiin työlehtien jälkeen.',
+      outcome: 'Lapsi ymmärtää rahankäytön perusteita ja osaa laskea vaihtorahaa kaupassa. Hän alkaa vertailla tuotteiden hintoja omatoimisesti ja keskustelee taloudellisista valinnoista.',
+    },
+  ],
+
+  quickStats: [
+    { label: 'Suositeltu ikähaarukka', value: '3–9 vuotta' },
+    { label: 'Työlehtisovellusten määrä', value: '10 sovellusta' },
+    { label: 'Opetussuunnitelman alueet', value: '4 aluetta' },
+    { label: 'Tuetut luokkatasot', value: 'Esiopetus–3. lk' },
+    { label: 'Keskimääräinen työskentelyaika', value: '10–20 min' },
+    { label: 'Kotitalousesineiden kirjo', value: '40+ esinettä' },
+  ],
+
+  differentiationStrategies: [
+    {
+      learnerType: 'Visuaaliset oppijat',
+      adaptation: 'Painota väritys- ja yhdistämistehtäviä, joissa kotitalousessineet esitelljään värikkjäinä kuvituksina. Huonekohtainen lajittelu visuaalisten pohjapiirrosten avulla tukee avaruudellista hahmotusta.',
+    },
+    {
+      learnerType: 'Kinesteettiset oppijat',
+      adaptation: 'Ota oikeita kotitalousesineitä luokkaan työlehtien tueksi: keittiövälineitä, puhdistusvälineitä ja astioita. Konkreettinen käsittely ennen paperitehtävää ankkuroi oppimisen.',
+    },
+    {
+      learnerType: 'S2-oppijat',
+      adaptation: 'Kotitalousesineet ovat universaaleja — jokainen lapsi tuntee lautasen, mukin ja lusikan. Aloita kuvapohjaisista tunnistustehtävistä ja lisää suomenkielisiä sanoja vaiheittain. Kuvitettu sanakorttikokoelma tukee sanaston rakentamista.',
+    },
+    {
+      learnerType: 'Edistyneet oppijat',
+      adaptation: 'Haasta kodinhoitosuunnitelmilla, joissa oppilas laskee ajankäyttöä, vertailee siivousvälineiden tehokkuutta ja kirjoittaa ohjetekstin kotitaloustehtävän suorittamiseen vaihe vaiheelta.',
+    },
+  ],
+
+  assessmentIdeas: [
+    {
+      method: 'Portfolioarviointi',
+      criteria: 'Kerää kotitalousaiheisia työlehtiä lukukauden ajalta. Seuraa esinesanaston laajenemista, luokittelutaitojen tarkkuutta ja sanallisten tehtävien ratkaisustrategioiden kehittymistä.',
+      gradeLevel: 'Kaikki luokka-asteet',
+    },
+    {
+      method: 'Käytännön lajittelutehtävä',
+      criteria: 'Anna oppilaalle kuvakokoelma kotitalousesineistä ja pyydä lajittelemaan ne huoneen, käyttötarkoituksen ja materiaalin mukaan. Arvioi luokitteluperusteiden ymmärtämistä ja selitystaitoa.',
+      gradeLevel: 'Esiopetus–2. lk',
+    },
+    {
+      method: 'Ohjeteksti',
+      criteria: 'Pyydä oppilasta kirjoittamaan selkeä ohje kotitaloustehtävään kuten pöydän kattamiseen tai pyykinpesuun. Arvioi vaiheiden loogisuutta, sanaston tarkkuutta ja ohjeen selkeyttä.',
+      gradeLevel: '2.–3. lk',
+    },
+  ],
+
+  crossCurricularLinks: [
+    {
+      subject: 'Ympäristöoppi (arjen taidot)',
+      connection: 'Kotitalousteema kytkeytyy POPS 2014:n laaja-alaisen osaamisen tavoitteisiin L3 (itsestä huolehtiminen ja arjen taidot) ja L6 (työelämätaidot ja yrittäjyys). Kotitalousesineiden tuntemus ja niiden käyttö ovat perustavanlaatuisia elämäntaitoja.',
+      activity: 'Lajittelutehtävän jälkeen oppilaat suunnittelevat ihanteellisen huoneen pohjapiirroksen ja sijoittavat siihen välttämättömät esineet perusteluineen.',
+    },
+    {
+      subject: 'Matematiikka',
+      connection: 'Kotitaloustarvikkeiden laskeminen, hintojen vertailu ja mittaaminen tarjoavat käytännöllisen kontekstin aritmetiikalle, mittaamiselle ja data-analyysille.',
+      activity: 'Kauppaostostyölehden jälkeen oppilaat laskevat oikeita tuotteiden hintoja ruokakaupan mainoksesta ja vertaavat kokonaissummia budjetin rajoissa.',
+    },
+    {
+      subject: 'Äidinkieli ja kirjallisuus',
+      connection: 'Kotitalousesineiden nimeäminen ja ohjetekstien kirjoittaminen kehittävät täsmällistä käyttösanastoa ja prosessikuvauksen taitoja.',
+      activity: 'Sanahaun jälkeen oppilaat kirjoittavat vaiheittaisen ohjeen yksinkertaiseen kotitaloustehtävään käyttäen järjestyslukusanoja kuten ensin, sitten ja lopuksi.',
+    },
+  ],
+
+  uniqueAngle: 'Kotitalousaiheiset työlehdet yhdistävät akateemisen oppimisen arjen elämäntaitoihin tavalla, jota harva muu teema pystyy tarjoamaan. Jokainen lapsi asuu kodissa ja kohtaa päivittäin keittiön välineitä, siivoustarvikkeita ja kodin huoltoon liittyviä esineitä, mikä tekee teemasta universaalin ja henkilökohtaisesti merkityksellisen. Pedagogisesti kotitalousteema on erinomainen luokitteluajattelun kehittäjä, koska esineitä voidaan luokitella huoneen, käyttötarkoituksen, materiaalin ja koon mukaan — aivan kuten vaateteemassa, mutta laajemmalla esinekategorioiden kirjolla. Suomalaisessa koulutustraditiossa kotitalous on arvostettu oppiaine, ja arjen taitojen oppiminen alkaa jo varhaiskasvatuksessa POPS 2014:n laaja-alaisen osaamisen L3-tavoitteiden mukaisesti. Kotitaloustyölehdet rakentavat tätä perustaa systemaattisesti: lapset oppivat tunnistamaan, nimeämään ja lajittelemaan kotitalousesineitä samalla kun harjoittelevat laskemista, mittaamista ja sanastoa. Rahankäytön ja budjetoinnin ensikosketus kauppaostostyölehtien kautta kehittää talouslukutaitoa, joka on yhä tärkeämpi kansalaistaito. Ohjetekstien kirjoittaminen kotitaloustehtävien suorittamisesta kehittää prosessikirjoittamisen taitoja käytännöllisessä yhteydessä.',
+
+  researchCitation: 'Hujala, E. & Turja, L. (2017). Varhaiskasvatuksen käsikirja, 4. painos. PS-kustannus. Teoksessa korostetaan arjen taitojen integroinnin merkitystä varhaiskasvatuksen pedagogiikassa ja osoitetaan, että käytännön elämäntilanteisiin kytketty oppiminen vahvistaa sekä kognitiivisia taitoja että lasten toimijuutta.',
+
+  culturalNotes: 'Kotitalous on Suomessa pakollinen oppiaine yläkoulussa, ja arjen taitojen oppiminen alkaa jo varhaiskasvatuksessa. POPS 2014:n laaja-alainen osaaminen L3 (itsestä huolehtiminen ja arjen taidot) korostaa kotitaloustaitojen merkitystä. Suomalaisessa kulttuurissa itsenäisyys ja omatoimisuus ovat keskeisiä arvoja, ja lapsia kannustetaan osallistumaan kotitöihin varhain. Kotitalousteemaiset työlehdet tukevat tätä kulttuurista perintöä.',
+
+  snippetDefinition: 'Kotitalousaiheiset työlehdet lapsille ovat tulostettavia oppimistehtäviä, jotka käyttävät kotitalousesineitä — astioita, välineitä ja huonekaluja — lajittelun, laskemisen, sanaston ja arjen taitojen opettamiseen. Ne on suunniteltu 3–9-vuotiaille ja sisältävät luokittelutehtäviä, sanahakuja, laskuharjoituksia ja väritystehtäviä.',
+
+  snippetHowTo: [
+    'Valitse viikolle kotitalousteeman alateema, kuten keittiön esineet, siivous tai ruokaostokset, jotta oppitunneilla on yhtenäinen fokus.',
+    'Valitse kaksi tai kolme työlehtityyppiä eri taitoalueille — esimerkiksi lajittelutehtävä luokitteluun, laskutehtävä matematiikkaan ja sanahaku sanastoon.',
+    'Aloita keskustelulla kotitalouden rutiineista: kysy lapsilta, missä kotitöissä he auttavat tai mitkä esineet ovat tutuja keitöltä.',
+    'Jaa työlehdet vaikeustason mukaan: aloita esineiden tunnistamisesta ennen moniominaisuuksista lajittelua.',
+    'Kierrä lasten joukossa ja esitä avoimia kysymyksiä kuten Mihin huoneeseen tämä esine kuuluu tai Mistä materiaalista tämä on tehty.',
+    'Yhdistä työlehti käytännön harjoitukseen: kattakaa pöytä yhdessä tai järjestelkää lelulaatikko työlehden lajitteluperiaatteiden mukaan.',
+    'Kerää valmiit työlehdet portfoliokansioon ja seuratkaa esinesanaston ja lajittelutaitojen kehittymistä.',
+  ],
+
+  limitations: 'Kotitalousteema voi tahattomasti korostaa sosioekonomisia eroja, jos tehtävissä esitellään eriarvoisesti kodin varustelutasoja. Opettajien tulee painottaa perusesineitä, jotka löytyvät jokaisesta kodista. Sukupuolittuneet kotityöstereotypiat ovat riski: tehtävissä tulisi esitellä tasapuolisesti kaikkia perheenjäseniä kotitöiden tekijöinä. Turvallisuusnäkökulma on tärkeä: vaarallisia esineitä kuten veitsiä tulee käsitellä asianmukaisesti.',
+
+  themeComparisons: [
+    {
+      vsThemeId: 'furniture',
+      summary: 'Huonekalutyölehdet keskittyvät huonekalujen tunnistamiseen ja avaruudelliseen hahmotukseen. Kotitaloustyölehdet kattavat laajemmin kaikki kodin esineet ja arjen taidot, tarjoten rikkaamman luokittelukontekstin.',
+    },
+    {
+      vsThemeId: 'cooking',
+      summary: 'Ruoanlaittotyölehdet syventyvät keittiötoimintaan ja resepteihin. Kotitaloustyölehdet kattavat koko kodin ympäristön sisältäen siivouksen, järjestelyn ja huollon, tarjoten laajemman elämäntaitojen kattavuuden.',
+    },
+    {
+      vsThemeId: 'clothing',
+      summary: 'Vaatetyölehdet keskittyvät pukeutumiseen ja säänmukaisiin valintoihin. Kotitaloustyölehdet laajentavat arjen taidot koko kodin ympäristöön sisältäen siivouksen, ruokahuollon ja organisoinnin.',
+    },
+    {
+      vsThemeId: 'garden',
+      summary: 'Puutarhatyölehdet keskittyvät ulkotiloihin ja kasvien hoitoon. Kotitaloustyölehdet käsittelevät sisätilojen hoitoa ja esineiden käyttöä, tarjoten kodin kokonaiskuvan puutarhan täydentäessä ulkoilmanäkökulman.',
+    },
+  ],
+
+  productLinks: [
+    {
+      appId: 'coloring',
+      anchorText: 'kotitalousaiheiset väritystehtävät',
+      context: 'Kotitalousaiheiset väritystehtävät tutustuttavat lapset keittiön välineisiin ja kodin esineisiin värikkäiden kuvien kautta, kehittäen hienomotoriikkaa ja esinesanastoa.',
+    },
+    {
+      appId: 'find-and-count',
+      anchorText: 'kotitalousesineiden laskutehtävät',
+      context: 'Laskutehtävät yhdistävät visuaalisen etsinnän ja aritmetiikan, kun lapset laskevat astioita, välineitä ja tarvikkeita keittiökohtauksista.',
+    },
+    {
+      appId: 'word-search',
+      anchorText: 'kotitalouden sanahaku-työlehdet',
+      context: 'Kotitalousesinesanaston oppiminen sanahakutehtävissä, joissa lapset etsivät keittiövälineiden, astioiden ja kodinhoitotarvikkeiden nimiä sanaruudukosta.',
+    },
+    {
+      appId: 'matching-app',
+      anchorText: 'kotitalousesineiden yhdistämistehtävät',
+      context: 'Yhdistämistehtävät, joissa kotitalousesineet paritetaan niiden käyttötarkoituksiin tai huoneisiin, kehittävät luokittelutaitoja ja arjen ymmärrystä.',
+    },
+  ],
+
+  expertTips: [
+    {
+      tip: 'Järjestä kotileikkipiste luokkaan oikeiden tai leikkivälineiden kanssa. Työlehden jälkeen lapset siirtyvät leikkipisteelle harjoittelemaan samoja lajittelu- ja nimeämistehtäviä konkreettisesti.',
+      source: 'Varhaiskasvatuksen opettaja, toiminnallinen oppiminen',
+      gradeRange: 'Esiopetus–1. lk',
+    },
+    {
+      tip: 'Käytä ruokakauppamainoksia rinnakkaismateriaalina: oppilaat leikkaavat tuotteita, laskevat hintoja ja vertailevat kokonaissummia. Tämä yhdistää kotitalousteeman todelliseen talouslukutaitoon.',
+      source: 'Luokanopettaja, arjen matematiikka',
+      gradeRange: '2.–3. lk',
+    },
+    {
+      tip: 'Anna kotitalouden tutkimusprojekti: oppilaat haastattelevat perheenjäseniä kotitöistä, kirjaavat tulokset ja laativat pylväskaavion. Tämä yhdistää datan keruun, analyysin ja kotitaloustaidot.',
+      source: 'Matematiikan aineenopettaja, tutkiva oppiminen',
+      gradeRange: '2.–3. lk',
+    },
+  ],
 };
 
 registerThemeContent('household', 'fi', content);

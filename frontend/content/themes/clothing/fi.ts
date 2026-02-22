@@ -208,6 +208,165 @@ const content: EnrichedThemeContent = {
   // -- Cross-linking --
   relatedThemes: ['body', 'seasons', 'colors', 'household', 'weather', 'toys'],
   relatedBlogCategories: [],
+
+  // -- SEO Enrichment (Part 180) --
+
+  classroomScenarios: [
+    {
+      situation: 'Esiopetuksen opettaja huomaa, että lapset eivät osaa valita säänmukaisia vaatteita itsenäisesti ja sekoittavat talvi- ja kesävaatteita.',
+      solution: 'Hän ottaa käyttöön vuodenaikojen vaatelajittelutehtävät, joissa lapset lajittelevat kuvitettuja vaatekappaleita neljjään vuodenaika-lokeroon. Joka aamu luokassa keskustellaan päivän säästä ja sopivista vaatteista.',
+      outcome: 'Kahden viikon kuluttua lapset aloittavat itsenäisesti sääkeskustelun aamupiirissä. Vanhemmat raportoivat lasten valitsevan vaatteensa järkevämmin kotona ja selittävän valintojaan säällä.',
+    },
+    {
+      situation: 'Kotikoululaisen vanhempi haluaa opettaa ekaluokkalaiselle kuvioiden tunnistamista, mutta abstraktit kuviosarjat eivät kiinnosta lasta.',
+      solution: 'Vanhempi käyttää vaateaiheisia kuviotyölehtiä, joissa raidalliset, pilkulliset ja ruudulliset kankaat muodostavat toistuvia sarjoja. Lapsi tunnistaa kuviot ja suunnittelee sitten oman kangaskuvion.',
+      outcome: 'Lapsi oivaltaa kuvioiden logiikan vaatteiden kautta ja siirtää taidon muihin yhteyksiin. Hän alkaa huomata kuvioita arjessa spontaanisti: sohvatyynyissä, tapeteissa ja lattialaatoissa.',
+    },
+  ],
+
+  quickStats: [
+    { label: 'Suositeltu ikähaarukka', value: '3–9 vuotta' },
+    { label: 'Työlehtisovellusten määrä', value: '10 sovellusta' },
+    { label: 'Opetussuunnitelman alueet', value: '4 aluetta' },
+    { label: 'Tuetut luokkatasot', value: 'Esiopetus–3. lk' },
+    { label: 'Keskimääräinen työskentelyaika', value: '10–20 min' },
+    { label: 'Vaatekategorioiden kirjo', value: '15+ tyyppiä' },
+  ],
+
+  differentiationStrategies: [
+    {
+      learnerType: 'Visuaaliset oppijat',
+      adaptation: 'Painota väritystehtäviä ja kuviotunnistusta, joissa vaatekankaiden visuaaliset kuviot ovat keskiössä. Värikoodattu lajittelu ja asukokonaisuuksien suunnittelu tukevat visuaalista hahmotusta.',
+    },
+    {
+      learnerType: 'Kinesteettiset oppijat',
+      adaptation: 'Käytä oikeita vaatekappaleita työlehtien rinnalla: lapsi lajittelee fyysisiä sukkia, lapasia ja hattuja ennen paperitehtävää. Leikkaa ja liimaa -tehtävät vaatesilhueteilla tukevat konkreettista oppimista.',
+    },
+    {
+      learnerType: 'S2-oppijat',
+      adaptation: 'Vaatteet ovat universaali aihe — jokainen lapsi tuntee peruskappeleet. Aloita kuvapohjaisista lajittelutehtävistä ja lisää suomenkielisiä vaatesanoja asteittain. Kaksikieliset vaatekortit auttavat yhdistämään kotikielen sanastoon.',
+    },
+    {
+      learnerType: 'Edistyneet oppijat',
+      adaptation: 'Haasta suunnittelu- ja laskutehtävillä: laske kangasmenekki, vertaa hintoja ja kirjoita kuvaileva teksti asukokonaisuudesta. Materiaalien ominaisuuksien vertailu lisää tieteellistä ulottuvuutta.',
+    },
+  ],
+
+  assessmentIdeas: [
+    {
+      method: 'Portfolioarviointi',
+      criteria: 'Kerää vaateaiheisia työlehtiä lukukauden ajalta. Vertaa lajittelun tarkkuutta, vaatesanaston laajuutta ja kuvailutaitojen kehittymistä yksinkertaisista adjektiiveista moniominaisuuksiseen kuvailuun.',
+      gradeLevel: 'Kaikki luokka-asteet',
+    },
+    {
+      method: 'Lajitteluhaaste',
+      criteria: 'Anna oppilaalle vaatekuvakokoelma ja pyydä lajittelemaan se kolmella eri tavalla: värin, vuodenajan ja tyypin mukaan. Arvioi luokittelun oikeellisuutta, joustavuutta ja sääntöjen selittämistä.',
+      gradeLevel: 'Esiopetus–2. lk',
+    },
+    {
+      method: 'Kuvaileva kirjoitustehtävä',
+      criteria: 'Pyydä oppilasta kirjoittamaan asukokonaisuuden kuvaus vähintään viidellä kuvailevalla sanalla. Arvioi adjektiivien monipuolisuutta, tarkkuutta ja lauserakennetta.',
+      gradeLevel: '1.–3. lk',
+    },
+  ],
+
+  crossCurricularLinks: [
+    {
+      subject: 'Ympäristöoppi (sää ja vuodenajat)',
+      connection: 'Vaatelajittelu yhdistää pukeutumisen säähän ja vuodenaikoihin, mikä kytkeytyy POPS 2014:n ympäristöopin tavoitteisiin luonnon ilmiöiden havainnoinnista ja arjen päätöksenteosta.',
+      activity: 'Lajittelutehtävän jälkeen oppilaat pitävät viikon ajan sääpäiväkirjaa, johon merkitsevät päivän sään ja käytetyt vaatteet.',
+    },
+    {
+      subject: 'Matematiikka',
+      connection: 'Vaatteita laskemalla, parittamalla ja vertailemalla harjoitellaan laskemista, kuvioiden tunnistamista ja mittaamista. Sukkien parittaminen opettaa parillisia lukuja.',
+      activity: 'Sukkaparitehtävän jälkeen oppilaat laskevat parit ja yksittäiset sukat, kertovat parien määrän kahdella ja vertaavat lukuja.',
+    },
+    {
+      subject: 'Äidinkieli ja kirjallisuus',
+      connection: 'Vaatesanasto kehittää kuvailevaa kieltä: väri-, koko-, materiaali- ja kuvioadjektiivit rakentavat täsmällistä ilmaisutaitoa, jota tarvitaan sekä kirjoittamisessa että tieteellisessä havainnoinnissa.',
+      activity: 'Sanahakutehtävän jälkeen oppilaat kirjoittavat lyhyen kuvauksen lempiasustaan käyttäen vähintään neljää kuvailevaa sanaa.',
+    },
+  ],
+
+  uniqueAngle: 'Vaateaiheiset työlehdet hyödyntävät teemaa, johon jokainen lapsi herää joka aamu: pukeutumista. Tämä päivittäinen yhteys tekee vaateteemasta pedagogisesti poikkeuksellisen tehokkaan, koska oppiminen siirtyy välittömästi luokkahuoneesta kotiin ja arjen rutiineihin. Vaatteet tarjoavat luontevimman kontekstin moniominaisuuksiselle luokittelulle, koska jokainen vaatekappale voidaan luokitella samanaikaisesti värin, koon, tyypin, materiaalin ja vuodenajan perusteella. Tämä joustava luokittelu kehittää kognitiivista joustavuutta, joka on matemaattisen, tieteellisen ja kielellisen ajattelun perusta. Suomalaisessa kontekstissa vaatteiden merkitys korostuu neljän selvästi toisistaan eroavan vuodenajan myötä: Suomessa lapsen on ymmärrettävä syvjällisesti sään ja vaatteiden yhteys, koska pukeutumiserot talven pakkasissa ja kesän helteissä ovat dramaattisia. POPS 2014:n arjen taitojen ja itsenäistymisen tavoitteet toteutuvat luontevasti, kun lapsi harjoittelee vaatevalintoja paperilla ennen käytännön soveltamista. Kuviotunnistus kangasten kautta yhdistää algebrallisen ajattelun luovaan suunnitteluun tavalla, joka motivoi lapsia, joille abstraktit kuviosarjat eivät innosta.',
+
+  researchCitation: 'Siegler, R.S. & Ramani, G.B. (2009). Playing Linear Number Board Games Promotes Low-Income Children’s Numerical Development. Developmental Science, 12(5), 655–661. Tutkimus osoitti, että tuttuihin esineisiin kuten vaatteisiin kytketty laskeminen ja lajittelu parantavat numeerista ymmärrystä tehokkaasti, koska kontekstuaalinen oppiminen luo vahvempia muistijjälkiä.',
+
+  culturalNotes: 'Suomen neljä selvästi toisistaan eroavaa vuodenaikaa tekevät pukeutumisesta kriittisen arjen taidon. POPS 2014:n laaja-alainen osaaminen L3 (itsestä huolehtiminen ja arjen taidot) sisältää itsenäisen pukeutumisen harjoittelun. Suomalaisessa päiväkotikulttuurissa ulkoilu säällä kuin säällä on perusperiaate, mikä tekee säänmukaisen pukeutumisen ymmärtämisestä käytännön välttämättömyydeksi.',
+
+  snippetDefinition: 'Vaateaiheiset työlehdet lapsille ovat tulostettavia oppimistehtäviä, jotka käyttävät tuttuja vaatekappaleita — paitoja, housuja, kenkiä ja hattuja — lajittelun, laskemisen, kuviotunnistuksen ja sanaston opettamiseen. Ne on suunniteltu 3–9-vuotiaille ja sisältävät vuodenaikojen lajittelua, kokovertailuja, väritystehtäviä ja sanahakuja.',
+
+  snippetHowTo: [
+    'Valitse viikolle vaateteeman alateema, kuten talvivaatteet, kangaskuviot tai kokovertailu, jotta oppitunneilla on yhtenäinen fokus.',
+    'Valitse kaksi tai kolme työlehtityyppiä eri taitoalueille — esimerkiksi lajittelutehtävä luokitteluun, sanahaku sanastoon ja väritystehtävä hienomotoriikkaan.',
+    'Aloita keskustelemalla päivän säästä ja kysymällä lapsilta, miksi he valitsivat päivän vaatteensa.',
+    'Jaa työlehdet vaikeustason mukaan: aloita yksinkertaisesta lajittelusta ennen moniominaisuuksista luokittelua.',
+    'Kierrä lasten joukossa ja esitä avoimia kysymyksiä kuten Miksi et pueta sandaaleja talvella tai Minkä kuvion näet tässä kankaassa.',
+    'Yhdistä työlehti käytännön harjoitukseen: lajitelkaa yhdessä puhtaita pyykkejä värin tai koon mukaan.',
+    'Kerää valmiit työlehdet portfoliokansioon ja seuratkaa lajittelutaitojen kehittymistä.',
+  ],
+
+  limitations: 'Vaatetyölehdet voivat tahattomasti korostaa materiaalisiin eroihin liittyviä teemoja, jos tehtävissä vertaillaan kalliiden ja halpojen vaatteiden ominaisuuksia. Opettajien tulee painottaa vaatteiden käytännöllisyyttä statuksen sijaan. Sukupuolittuneet vaatestereotypiat ovat riski: tehtävissä tulisi välttää tiukkoja pojat-tytöt-jaotteluja ja esitellä monipuolisia pukeutumistyylejä. Kulttuuriset erot pukeutumisessa tulee käsitellä kunnioittavasti.',
+
+  themeComparisons: [
+    {
+      vsThemeId: 'body',
+      summary: 'Kehotyölehdet tutkivat ihmisen anatomiaa ja toimintaa. Vaatetyölehdet käsittelevät sitä, miten pukeudumme ja suojaamme kehoamme, tarjoten arjen taitojen ja luokittelun näkökulman.',
+    },
+    {
+      vsThemeId: 'seasons',
+      summary: 'Vuodenaikatyölehdet tutkivat luonnon muutoksia laajasti. Vaatetyölehdet keskittyvät siihen, miten vuodenajat vaikuttavat pukeutumiseen, tarjoten konkreettisen ja henkilökohtaisen yhteyden sääilmiöihin.',
+    },
+    {
+      vsThemeId: 'colors',
+      summary: 'Värityölehdet opettavat värien tunnistamista ja nimeämistä. Vaatetyölehdet käyttävät värejä yhtenä lajitteluperusteena usean joukossa, syventäen luokitteluajattelua monimutkaistamalla tehtävää.',
+    },
+    {
+      vsThemeId: 'weather',
+      summary: 'Säätyölehdet tutkivat sääilmiöitä tieteellisesti. Vaatetyölehdet yhdistävät säätiedon käytännön päätöksentekoon: mitä puetaan päälle, kun sataa tai paistaa.',
+    },
+  ],
+
+  productLinks: [
+    {
+      appId: 'coloring',
+      anchorText: 'vaateaiheiset väritystehtävät',
+      context: 'Vaateaiheiset väritystehtävät kehittävät hienomotoriikkaa ja luovaa ilmaisua, kun lapset värittävät asuja, kenkiä ja asusteita omilla värivalinnoillaan.',
+    },
+    {
+      appId: 'matching-app',
+      anchorText: 'vaatteiden yhdistämistehtävät',
+      context: 'Yhdistämistehtävät vaatesilhueteilla ja -pareilla kehittävät visuaalista erottelukykyä ja loogista päättelyä tutun vaatekontekstin kautta.',
+    },
+    {
+      appId: 'word-search',
+      anchorText: 'vaatesanaston sanahaku-työlehdet',
+      context: 'Vaatesanaston oppiminen onnistuu sanahakutehtävissä, joissa lapset etsivät vaatekappaleiden, materiaalien ja kuvioiden nimiä sanaruudukosta.',
+    },
+    {
+      appId: 'shadow-match',
+      anchorText: 'vaatteiden varjoyhdistämistehtävät',
+      context: 'Vaatteiden varjoyhdistämistehtävät vahvistavat muotojen tunnistamista, kun lapset yhdistävät saappaiden, hattujen ja takkien silhuetit oikeisiin kuviin.',
+    },
+  ],
+
+  expertTips: [
+    {
+      tip: 'Käytä oikeaa pyykkikoria lajittelupäivänä: oppilaat lajittelevat fyysisiä vaatekappaleita ennen paperitehtävää, jolloin konkreettinen kokemus ankkuroi abstraktin luokittelun.',
+      source: 'Erityisopettaja, toiminnallinen oppiminen',
+      gradeRange: 'Esiopetus–1. lk',
+    },
+    {
+      tip: 'Yhdistä vaatetyölehdet säähavaintopäiväkirjaan: lapset tarkkailevat säätä ja vertaavat omia vaatevalintojaan työlehtien lajitteluperiaatteisiin. Tämä rakentaa pidemmän ajan datankeruun taitoja.',
+      source: 'Luokanopettaja, ilmiöpohjainen oppiminen',
+      gradeRange: '1.–2. lk',
+    },
+    {
+      tip: 'Haasta kolmasluokkalaiset laskemaan kangasmenekin yksinkertaiselle vaatekappaleelle. Pinta-alan kaava tulee merkitykselliseksi, kun se yhdistyy todelliseen suunnitteluongelmaan.',
+      source: 'Matematiikan aineenopettaja, käytännön sovellukset',
+      gradeRange: '3. lk',
+    },
+  ],
 };
 
 registerThemeContent('clothing', 'fi', content);

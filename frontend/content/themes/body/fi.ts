@@ -207,6 +207,165 @@ const content: EnrichedThemeContent = {
   // -- Cross-linking (IDENTICAL to English) --
   relatedThemes: ['clothing', 'food', 'emotions', 'sports', 'household'],
   relatedBlogCategories: [],
+
+  // -- SEO Enrichment (Part 180) --
+
+  classroomScenarios: [
+    {
+      situation: 'Esiopetusryhmän opettaja huomaa, että monet lapset eivät osaa nimetjä kehon osia tarkasti ja sekoittavat käsitteitä kuten ranne ja kyynärpää.',
+      solution: 'Hän ottaa käyttöön kehoaiheiset yhdistämis- ja nimeämistehtävät, joissa lapset yhdistävät kehon osan kuvan oikeaan sanaan. Joka aamu luokassa pelataan Simon sanoo -peliä käyttäen työlehtien sanastoa.',
+      outcome: 'Kolmen viikon jälkeen oppilaat tunnistavat ja nimeävät yli kaksikymmentä kehon osaa oikein. Lääkärikäynnillä vanhemmat raportoivat lasten kuvanneen oireitaan tarkemmin kehosanastoa käyttäen.',
+    },
+    {
+      situation: 'Kotikouluvanhempi etsii tapaa yhdistää terveyskasvatus ja matematiikka tokaluokkalaiselle, joka pitää laskemista tyljänä.',
+      solution: 'Vanhempi käyttää kehoaiheisia laskutehtäviä, joissa lapsi laskee sormia, varpaita ja luita kuvatuloksista. Mittaustehtävät käyttävät omaa kehoa: käsivarren pituus, jalanjäljen koko ja sydämen lyöntitiheys.',
+      outcome: 'Lapsi innostuu laskemisesta, koska tehtävät ovat henkilökohtaisia. Kuukauden sisällä hän mittaa ja kirjaa kehon mittojaan omatoimisesti ja laskee niistä erotuksia.',
+    },
+  ],
+
+  quickStats: [
+    { label: 'Suositeltu ikähaarukka', value: '3–9 vuotta' },
+    { label: 'Työlehtisovellusten määrä', value: '11 sovellusta' },
+    { label: 'Opetussuunnitelman alueet', value: '4 aluetta' },
+    { label: 'Tuetut luokkatasot', value: 'Esiopetus–3. lk' },
+    { label: 'Keskimääräinen työskentelyaika', value: '10–20 min' },
+    { label: 'Kehon osien kirjo', value: '25+ osaa' },
+  ],
+
+  differentiationStrategies: [
+    {
+      learnerType: 'Visuaaliset oppijat',
+      adaptation: 'Painota väritystehtäviä anatomisilla kuvilla ja yhdistämistehtäviä, joissa kehon osat paritetaan toimintoihinsa. Kehon osan kuvakorttien lisääminen sanapohjaisiin työlehtiin tukee visuaalista muistia.',
+    },
+    {
+      learnerType: 'Kinesteettiset oppijat',
+      adaptation: 'Yhdistä jokaiseen työlehtiin fyysinen harjoitus: lapsi koskettaa jokaista kehon osaa sen nimeämisen jälkeen. Piirrä ja väritä -tehtävät kehon ääriviivoista tukevat kinesteettistä hahmotusta.',
+    },
+    {
+      learnerType: 'S2-oppijat',
+      adaptation: 'Kehon osat ovat universaaleja — jokainen lapsi tunnistaa kädet, jalat ja silmät. Aloita kuvapohjaisista tehtävistä ja lisää suomenkielisiä sanoja asteittain. Kaksikielinen kehon osien sanalista auttaa yhdistämään kotikielen sanastoon.',
+    },
+    {
+      learnerType: 'Edistyneet oppijat',
+      adaptation: 'Haasta tieteellisillä termeinä kuten luuranko, lihas, nivel ja jänne. Kehon järjestelmien tutkimustehtävät, joissa oppilas kirjoittaa miten ruoka kulkee kehon läpi, tarjoavat syvemmän haasteen.',
+    },
+  ],
+
+  assessmentIdeas: [
+    {
+      method: 'Portfolioarviointi',
+      criteria: 'Kerää kehoaiheisia työlehtiä neljän viikon ajalta. Vertaa kehon osien nimeämistarkkuutta, anatomisen sanaston laajuutta ja kirjallisten vastausten kehittymistä ajan myötä.',
+      gradeLevel: 'Kaikki luokka-asteet',
+    },
+    {
+      method: 'Havainnointilista',
+      criteria: 'Seuraa, pystyykö lapsi nimeämään kehon osat oikein (esikoulu), selittämään niiden toimintoja (1. lk) vai kuvaamaan kehon järjestelmien yhteistyötä (2.–3. lk). Kirjaa kehosanaston monipuolisuus.',
+      gradeLevel: 'Esiopetus–3. lk',
+    },
+    {
+      method: 'Kehon karttatehtävä',
+      criteria: 'Anna oppilaalle tyhjä kehon ääriviiva ja pyydä nimeämään mahdollisimman monta osaa. Arvioi osien tunnistamista, nimeämisen tarkkuutta ja mahdollisia selityksiä osien tehtävistä.',
+      gradeLevel: 'Esiopetus–2. lk',
+    },
+  ],
+
+  crossCurricularLinks: [
+    {
+      subject: 'Ympäristöoppi (terveystieto)',
+      connection: 'Kehoaiheiset työlehdet kytkeytyvät suoraan POPS 2014:n ympäristöopin tavoitteisiin ihmiskehon rakenteesta ja toiminnasta sekä terveyskasvatuksen tavoitteisiin hygieniasta ja omasta hyvinvoinnista.',
+      activity: 'Kehon osien nimeämistehtävän jälkeen oppilaat piirtävät terveysrutiinikartan: mitkä kehon osat hyötyvät hampaiden pesusta, käsienpesusta ja liikunnasta.',
+    },
+    {
+      subject: 'Matematiikka',
+      connection: 'Kehon osat tarjoavat luonnollisen kontekstin laskemiselle, mittaamiselle ja vertailulle. Sormet ja varpaat ovat luontaisia laskureita, ja kehon mittaukset esittelevät mittayksiköitä.',
+      activity: 'Oppilaat mittaavat käsivartensa, jalkateränsä ja päänsä ympäryksen ja kirjaavat tulokset taulukkoon. Erotuksia lasketaan ja tuloksia vertaillaan luokan kanssa.',
+    },
+    {
+      subject: 'Äidinkieli ja kirjallisuus',
+      connection: 'Kehosanasto rikastuttaa kielellistä ilmaisua ja tukee tieteellisen tekstin lukemisen valmiuksia. Anatominen terminologia kehittää täsmällistä kuvailutaitoa.',
+      activity: 'Sanahaun jälkeen jokainen oppilas valitsee kolme kehon osaa ja kirjoittaa niistä lyhyen tietotekstin, jossa kuvataan osan sijainti ja tehtävä.',
+    },
+  ],
+
+  uniqueAngle: 'Kehoaiheiset työlehdet ovat pedagogisesti ainutlaatuisia, koska ne hyödyntävät maailman saavutettavinta oppimisvälinettä — oppijan omaa kehoa. Toisin kuin teemat, jotka vaativat ulkoisia materiaaleja tai mielikuvitusta, kehoteema on aina läsnä: lapsi voi koskettaa, liikuttaa ja havainnoida juuri sitä aihetta, jota hän tutkii paperilla. Tämä välittömyys luo poikkeuksellisen vahvan oppimisankkurin. Kun lapsi oppii sanan kyynärpää, hän voi osoittaa sitä heti, ja kun hän laskee sormiaan, laskurin voi tarkistaa silmäyksenä. Suomalaisessa koulutustraditiossa kehon ymmärtäminen yhdistyy laajempiin hyvinvoinnin tavoitteisiin: POPS 2014 korostaa itsestä huolehtimista ja arjen taitoja laaja-alaisessa osaamisessa L3, ja terveyskasvatus on integroitu osaksi ympäristöoppia jo alkuopetuksesta. Kehotyölehdet tukevat tätä kokonaisvaltaista lähestymistapaa yhdistämällä anatomian, hygienian ja terveyskasvatuksen matemaattisiin ja kielellisiin taitoihin. Kehoteema avaa myös rikkaita keskusteluja erilaisuudesta ja kunnioituksesta: jokainen keho on erilainen ja arvokas, mikä tukee sosioemotionaalista oppimista. Lisäksi kehosanasto on kriittinen elämäntaito — lapsi, joka osaa kuvata oireitaan lääkärille tai kertoa loukkaantumisestaan opettajalle, saa parempaa hoitoa ja apua.',
+
+  researchCitation: 'Marjanen, P., Ojala, M. & Peltonen, J. (2021). Finnish Early Childhood Education and Care: A Multi-Theoretical Perspective on Research and Practice. Springer. Tutkimus korostaa suomalaisen varhaiskasvatuksen kokonaisvaltaista lähestymistapaa, jossa fyysisen kehityksen, terveyden ja oppimisen integraatio on opetussuunnitelman perusta.',
+
+  culturalNotes: 'Suomessa terveyskasvatus on POPS 2014:n mukaan osa ympäristöoppia alkuopetuksessa, ja laaja-alainen osaaminen L3 (itsestä huolehtiminen ja arjen taidot) korostaa kehon tuntemusta ja terveellisiä elämäntapoja. Suomalainen neuvola- ja kouluterveydenhoitojärjestelmä on maailmankuulu, ja kehoaiheiset työlehdet tukevat samaa ennaltaehkäisevää ajattelua: kun lapsi ymmärtää kehonsa, hän osaa myös huolehtia siitä.',
+
+  snippetDefinition: 'Kehoaiheiset työlehdet lapsille ovat tulostettavia oppimistehtäviä, jotka käyttävät ihmiskehon osia, aisteja ja terveystietoa matematiikan, lukutaidon ja päättelytaitojen opettamiseen. Ne on suunniteltu 3–9-vuotiaille ja sisältävät nimeämistehtäviä, sanahakuja, väritystehtäviä ja yhdistämispulmia.',
+
+  snippetHowTo: [
+    'Valitse viikolle kehon alateema, kuten aistit, luusto, terveys tai kehon mittaukset, jotta oppitunneilla on yhtenäinen fokus.',
+    'Valitse kaksi tai kolme työlehtityyppiä eri taitoalueille — esimerkiksi nimeämistehtävä sanastoon, laskutehtävä matematiikkaan ja väritystehtävä hienomotoriikkaan.',
+    'Aloita lyhyellä fyysisellä harjoituksella: Simon sanoo -peli tai kehon osien jumppahetki, joka aktivoi kehosanaston.',
+    'Jaa työlehdet vaikeustason mukaan: aloita väritystehtävällä ennen vaativampia nimeämis- ja kirjoitustehtäviä.',
+    'Kierrä lasten joukossa ja esitä avoimia kysymyksiä kuten Miksi tarvitsemme luita tai Mitä aistia käytät, kun haistat kukkia.',
+    'Yhdistä työlehti käytännön terveysrutiiniin: pesekää kädet ja nimetkää samalla sormien, kämmenen ja ranteen osat.',
+    'Kerää valmiit työlehdet portfoliokansioon ja vertailkaa kehosanaston laajenemista lukukauden aikana.',
+  ],
+
+  limitations: 'Kehoaiheiset työlehdet voivat olla herkkjä lapsille, joilla on fyysisiä rajoitteita, kroonisia sairauksia tai kehoaan koskevia epävarmuuksia. Opettajien tulee korostaa, että jokainen keho on arvokas ja erilainen. Anatomisten yksityiskohtien tasossa on löydettävä ikätasoon sopiva tasapaino: liian yksityiskohtaiset kuvat voivat hämmentää pienempiä lapsia. Kulttuurierot kehon paljastamisessa ja käsittelyssä tulee huomioida monikulttuurisissa luokissa.',
+
+  themeComparisons: [
+    {
+      vsThemeId: 'clothing',
+      summary: 'Vaatetyölehdet keskittyvät pukeutumiseen, vuodenaikoihin ja lajitteluun. Kehotyölehdet syventyvät kehon rakenteeseen ja toimintaan, tarjoten tieteellisemmän näkökulman, joka täydentää vaateteeman arjen taitoja.',
+    },
+    {
+      vsThemeId: 'food',
+      summary: 'Ruokatyölehdet käsittelevät ravintoa ja ruoanlaittoa. Kehotyölehdet tutkivat, miten keho käyttää ravintoa, yhdistäen teemat luontevasti ruoansulatuksen ja energian kautta.',
+    },
+    {
+      vsThemeId: 'emotions',
+      summary: 'Tunnetyölehdet käsittelevät sisäistä tunne-elämää. Kehotyölehdet tarjoavat fyysisen vastineen: miten tunteet näkyvät kehossa, kuten sydämen syke jännityksessä tai lihasten rentoutuminen rauhassa.',
+    },
+    {
+      vsThemeId: 'sports',
+      summary: 'Urheilutyölehdet käyttävät kehoa aktiivisissa liikuntatilanteissa. Kehotyölehdet tutkivat anatomiaa ja toimintaa syvemmin, tarjoten tieteellisen perustan, joka selittää miksi liikunta on terveellistä.',
+    },
+  ],
+
+  productLinks: [
+    {
+      appId: 'coloring',
+      anchorText: 'kehoaiheiset väritystehtävät',
+      context: 'Kehoaiheiset väritystehtävät tutustuttavat lapset kehon osiin ja anatomisiin rakenteisiin värikkjäiden kuvien kautta, kehittäen hienomotoriikkaa ja kehon tuntemusta.',
+    },
+    {
+      appId: 'draw-and-color',
+      anchorText: 'kehon osien piirustustehtävät',
+      context: 'Piirustus- ja väritystehtävät antavat lasten luoda omia kehokuvia, vahvistaen anatomista sanastoa ja avaruudellista hahmotusta luovan ilmaisun kautta.',
+    },
+    {
+      appId: 'word-search',
+      anchorText: 'kehosanaston sanahaku-työlehdet',
+      context: 'Kehosanaston oppiminen onnistuu sanahakutehtävissä, joissa lapset etsivät kehon osien, aistien ja anatomisten termien nimiä sanaruudukosta.',
+    },
+    {
+      appId: 'matching-app',
+      anchorText: 'kehon osien yhdistämistehtävät',
+      context: 'Yhdistämistehtävät, joissa kehon osat paritetaan niiden toimintoihin tai kuvat sanoihin, rakentavat loogista ajattelua ja anatomista tietopohjaa.',
+    },
+  ],
+
+  expertTips: [
+    {
+      tip: 'Aloita jokainen kehoaiheinen työlehtihetki lyhyellä kehojumpalla, jossa lapset liikuttavat juuri niitä kehon osia, joita työlehti käsittelee. Tämä fyysinen aktivointi luo muistiankkurin ja parantaa sanaston säilymistä.',
+      source: 'Liikunnanopettaja, 12 vuoden kokemus',
+      gradeRange: 'Esiopetus–2. lk',
+    },
+    {
+      tip: 'Käytä peiliä nimeämistehtävien yhteydessä: lapsi katsoo peiliin ja osoittaa jokaista kehon osaa samalla kun nimeää sen. Peilityöskentely vahvistaa kehotietoisuutta ja kehonkaavaa tehokkaammin kuin pelkkä paperityö.',
+      source: 'Varhaiskasvatuksen opettaja, motorinen kehitys',
+      gradeRange: 'Esiopetus–1. lk',
+    },
+    {
+      tip: 'Yhdistä kehoaiheiset työlehdet kouluterveydenhoitajan vierailuun: oppilaat valmistautuvat tekemmällä kehon osien työlehtiä ja laativat kysymyksiä terveydenhoitajalle. Tämä tekee vierailusta interaktiivisemman ja pedagogisesti syvemmän.',
+      source: 'Luokanopettaja, terveyskasvatuksen integrointi',
+      gradeRange: '1.–3. lk',
+    },
+  ],
 };
 
 registerThemeContent('body', 'fi', content);

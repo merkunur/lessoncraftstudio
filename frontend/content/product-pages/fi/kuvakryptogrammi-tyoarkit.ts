@@ -95,7 +95,56 @@ Tehtävägeneraattori toimii 11 kielellä. Valitse esiopetus materiaali ja matem
       noHiddenFees: 'Ei piilomaksuja',
       cancelAnytime: 'Peruuta milloin tahansa',
     },
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        icon: '🔐',
+        title: 'Kuva-kirjain-koodausmuoto',
+        description: 'Jokaisessa kryptogrammissa kuvat korvaavat kirjaimet salaisessa viestissä. Oppilaat käyttävät koodiavainta tunnistaakseen, mikä kuva edustaa mitäkin kirjainta. Koodinmurto kehittää loogista päättelyä ja kirjaintuntemusta.',
+      },
+      {
+        id: '2',
+        icon: '🔑',
+        title: 'Säädettävä vihjeiden määrä',
+        description: 'Valitse kuinka monta kirjainta paljastetaan vihjeiksi. Nolla vihjettä luo vaikeimman arvoituksen. Yksi tai useampi vihje auttaa aloittelijoita pääsemään alkuun. Säädä vaikeustasoa täydellisesti.',
+      },
+      {
+        id: '3',
+        icon: '📝',
+        title: 'Omat lauseet ja fraasit',
+        description: 'Kirjoita mitä tahansa lauseita koodattaviksi. Sananlaskuja, opetusviestejä, matematiikan faktoja tai temaattisia fraaseja. Generaattori muuntaa jokaisen lauseen kuvakoodiksi automaattisesti.',
+      },
+      {
+        id: '4',
+        icon: '🖼️',
+        title: 'Yli 3000 teemakuvaa koodisymboleiksi',
+        description: 'Valitse yli 3000 lapsiystavallisesta kuvasta kryptogrammin symbolit. Jokainen kuva edustaa yhtä kirjainta. Teemapohjaiset symbolit luovat kiinnostavia koodinmurtotehtäviä.',
+      },
+      {
+        id: '5',
+        icon: '✅',
+        title: 'Automaattiset vastausavaimet',
+        description: 'Jokainen kryptogrammi generoi automaattisesti vastausavaimen, jossa koodiavain ja ratkaistu viesti näkyvät. Opettajat tarkistavat oppilastöitä sekunneissa.',
+      },
+      {
+        id: '6',
+        icon: '🎨',
+        title: 'Täysi muokkaus pohjalla',
+        description: 'Muokkaa jokaista elementtiä luomisen jälkeen. Siirrä, skaalaa ja kierrä kuvia vapaasti. Lisää tekstejä ja ohjeita. Muokkaustyökalut tarjoavat ammattimaiset tulokset.',
+      },
+      {
+        id: '7',
+        icon: '💼',
+        title: 'Kaupallinen lisenssi myyntiin',
+        description: 'Tilauksesi sisältää kaupalliset oikeudet myydä kryptogrammitehtäviä verkossa. Luo teemallisia koodinmurtopaketteja myytäväksi. Ei attribuutiovaatimuksia.',
+      },
+      {
+        id: '8',
+        icon: '🌍',
+        title: '11 kielen tuki',
+        description: 'Luo kryptogrammeja 11 kielellä mukaan lukien suomi, ruotsi ja tanska. Täydellinen monikielisiin luokkahuoneisiin ja S2-opetukseen. Koodinmurto toimii kielirajojen yli.',
+      },
+    ]
     
   },
 
@@ -178,7 +227,50 @@ Harmaasävyvalintaruutu muuttaa värikuvat mustavalkoisiksi. Tämä säästää 
     badgeText: 'Kenelle Sopii',
     readMoreLabel: 'Lue lisää',
     showLessLabel: 'Näytä vähemmän',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        icon: '🌱',
+        title: 'Esiopetuksen opettajat',
+        subtitle: 'Kirjaintuntemuksen kehittäminen koodinmurrolla',
+        description: 'Luo yksinkertaisia kryptogrammeja lyhyillä sanoilla ja useilla vihjeillä. Esiopetuksen oppilaat harjoittelevat kirjainten tunnistamista tunnistamalla kuva-kirjain-vastaavuuksia. Tukee POPS 2014 äidinkielen tavoitteita.',
+      },
+      {
+        id: '2',
+        icon: '📚',
+        title: 'Alakoulun opettajat',
+        subtitle: 'Lukemisvalmiuden kehittäminen 1.–3. luokalla',
+        description: 'Generoi monimutkaisempia kryptogrammeja pidemmillä lauseilla. Oppilaat kehittävät dekoodaustaitoja, jotka tukevat lukemaan oppimista. Yhdistä äidinkielen ja matematiikan opetukseen.',
+      },
+      {
+        id: '3',
+        icon: '🏠',
+        title: 'Kotiopettajat ja vanhemmat',
+        subtitle: 'Koodinmurtoharjoituksia kotiin',
+        description: 'Luo hauskoja kryptogrammeja lasten suosikkiaiheilla. Koodinmurto motivoi lapsia oppimaan kirjaimia ja sanoja. Generoi viikon tehtävät nopeasti eri vaikeustasoin.',
+      },
+      {
+        id: '4',
+        icon: '🌍',
+        title: 'S2-opettajat',
+        subtitle: 'Monikielinen koodinmurtoharjoittelu',
+        description: 'Kryptogrammit tarjoavat kirjain-äännevastaavuuden harjoittelua kuvapohjaisesti. 11 kielen tuki mahdollistaa monikielisen koodinmurtoharjoittelun saumattomasti.',
+      },
+      {
+        id: '5',
+        icon: '💜',
+        title: 'Erityisopettajat',
+        subtitle: 'Säädettävä dekoodausharjoittelu',
+        description: 'Säädä vihjeiden määrää ja lauseiden pituutta HOJKS-tavoitteiden mukaisesti. Useammat vihjeet tukevat heikompia oppilaita. Kuvasymbolit tekevät kirjainharjoittelusta motivoivaa.',
+      },
+      {
+        id: '6',
+        icon: '💰',
+        title: 'Opettajayrittäjät',
+        subtitle: 'Myy koodinmurtopaketteja',
+        description: 'Luo teemallisia kryptogrammikokoelmia myytäväksi verkossa. Koodinmurtotehtävät ovat suosittuja ja kiinnostavia. Kaupallinen lisenssi kattaa rajattomat myynnit.',
+      },
+    ]
     
   },
 
@@ -193,7 +285,68 @@ Harmaasävyvalintaruutu muuttaa värikuvat mustavalkoisiksi. Tämä säästää 
     showLessLabel: 'Näytä vähemmän',
     secureCheckout: 'Turvallinen maksu',
     cancelAnytime: 'Peruuta milloin tahansa',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        question: 'Miten kuvakryptogrammi-generaattori toimii?',
+        answer: 'Kirjoita lauseet, jotka haluat salata. Generaattori korvaa jokaisen kirjaimen kuvalla luoden koodiavaimen. Oppilaat purkavat koodin tunnistamalla kuva-kirjain-vastaavuudet ja kirjoittavat paljastuneen viestin.',
+      },
+      {
+        id: '2',
+        question: 'Kuinka vaikeustasoa säädetään?',
+        answer: 'Säädä vihjeiden määrää ja lauseiden pituutta. Nolla vihjettä on vaikeaa. Useammat vihjeet helpottavat aloitusta. Lyhyet sanat sopivat aloittelijoille. Pitkät lauseet haastavat edistyneempiä.',
+      },
+      {
+        id: '3',
+        question: 'Voiko omia lauseita käyttää?',
+        answer: 'Kyllä, kirjoita mitä tahansa lauseita tai fraaseja. Sananlaskuja, opetusviestejä, viikon sanoja tai temaattisia lauseita. Generaattori muuntaa ne kuvakoodiksi automaattisesti.',
+      },
+      {
+        id: '4',
+        question: 'Sisältävätkö tehtävät vastausavaimet?',
+        answer: 'Kyllä, jokainen kryptogrammi generoi automaattisesti vastausavaimen. Koodiavain ja ratkaistu viesti näkyvät selkeästi. Tulosta vastausavain erikseen opettajan käyttöön.',
+      },
+      {
+        id: '5',
+        question: 'Mille ikäryhmille kryptogrammit sopivat?',
+        answer: 'Kryptogrammit palvelevat 5–10-vuotiaita. Esiopetuksen oppilaat harjoittelevat lyhyillä sanoilla ja useilla vihjeillä. 1.–3. luokan oppilaat ratkaisevat pidempiä lauseita itsenäisesti.',
+      },
+      {
+        id: '6',
+        question: 'Miten kryptogrammit kehittävät lukutaitoa?',
+        answer: 'Kryptogrammit kehittävät kirjain-äännevastaavuutta, dekoodaustaitoja ja loogista päättelyä. Nämä ovat lukemaan oppimisen perusedellytyksiä. Kuvasymbolit tekevät harjoittelusta motivoivaa.',
+      },
+      {
+        id: '7',
+        question: 'Voiko kryptogrammeja luoda useilla kielillä?',
+        answer: 'Kyllä, generaattori luo kryptogrammeja 11 kielellä. Kuvasymbolit toimivat kielirajojen yli. Kirjoita lauseet millä tahansa tuetulla kielellä.',
+      },
+      {
+        id: '8',
+        question: 'Miten tulostan kryptogrammit?',
+        answer: 'Lataa tehtäväsi PDF- tai JPEG-muodossa 300 DPI laadulla. Valitse A4 tai Letter-sivukoko. Harmaasävyvaihtoehto säästää mustetta.',
+      },
+      {
+        id: '9',
+        question: 'Sopivatko kryptogrammit erityisopetukseen?',
+        answer: 'Kyllä, säädettävä vaikeustaso tekee kryptogrammeista erinomaisia erityisopetukseen. Useammat vihjeet ja lyhyemmät sanat tukevat heikompia oppilaita.',
+      },
+      {
+        id: '10',
+        question: 'Kuinka kauan yhden tehtävän luominen kestää?',
+        answer: 'Yhden kryptogrammin luominen vie alle 3 minuuttia. Kirjoita lauseet ja valitse asetukset nopeasti. Generaattori luo koodin välittömästi.',
+      },
+      {
+        id: '11',
+        question: 'Voinko myydä luomiani kryptogrammeja?',
+        answer: 'Kyllä, tilauksesi sisältää kaupallisen lisenssin. Myy teemallisia koodinmurtopaketteja opettajakauppoissa. Ei attribuutiovaatimuksia.',
+      },
+      {
+        id: '12',
+        question: 'Miten kryptogrammit tukevat POPS 2014 tavoitteita?',
+        answer: 'Kryptogrammit tukevat äidinkielen tavoitteita kirjain-äännevastaavuuden ja dekoodaustaitojen kehittämisessä. POPS 2014 korostaa loogisen ajattelun ja ongelmanratkaisun kehittämistä monipuolisilla työtavoilla.',
+      },
+    ]
     
   },
 
@@ -264,8 +417,157 @@ Harmaasävyvalintaruutu muuttaa värikuvat mustavalkoisiksi. Tämä säästää 
       securePayment: 'Turvallinen maksu',
       cancelAnytime: 'Peruuta milloin tahansa',
     },
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        slug: 'ristisanatehtavat-tyoarkit',
+        name: 'Ristisanatehtävät',
+        category: 'Äidinkieli',
+        icon: '➕',
+        description: 'Ristisanatehtävät laajentavat kuvapohjaista sanastotyötä ristikkomuotoon. Yhdistä kryptogrammien kanssa kattaviin sanastopaketteihin.',
+      },
+      {
+        id: '2',
+        slug: 'kuva-arvaus-tyoarkit',
+        name: 'Kuva-arvaus',
+        category: 'Äidinkieli',
+        icon: '❓',
+        description: 'Kuva-arvaus täydentää kryptogrammeja puuttuvan kirjaimen muodolla. Molemmat kehittävät kirjaintuntemusta ja oikeinkirjoitusta.',
+      },
+      {
+        id: '3',
+        slug: 'sananhaku-tyoarkit',
+        name: 'Sanahaku',
+        category: 'Äidinkieli',
+        icon: '🔍',
+        description: 'Sanahaku yhdistää sanojen etsinnän ja tunnistamisen. Oppilaat kohtaavat samat teemasanat eri muodoissa.',
+      },
+      {
+        id: '4',
+        slug: 'sanansekoitus-tyoarkit',
+        name: 'Sanansekoitus',
+        category: 'Äidinkieli',
+        icon: '🔀',
+        description: 'Sanansekoitus haastaa kirjainten järjestämistä. Molemmat kehittävät kirjaintuntemusta ja sanavarastoa eri muodoissa.',
+      },
+      {
+        id: '5',
+        slug: 'kasinkirjoitus-tyoarkit',
+        name: 'Käsinkirjoitus',
+        category: 'Äidinkieli',
+        icon: '📝',
+        description: 'Käsinkirjoitus vahvistaa kirjainten muodostusta, joka tukee kryptogrammien ratkaisemista. Yhdistä molemmat kirjoitustaidon kehittämiseen.',
+      },
+      {
+        id: '6',
+        slug: 'aakkosjuna-tyoarkit',
+        name: 'Aakkosjuna',
+        category: 'Varhaiskasvatus',
+        icon: '🚂',
+        description: 'Aakkosjuna kehittää kirjaintuntemusta, joka on kryptogrammien ratkaisemisen edellytys. Yhdistä molemmat varhaisen lukutaidon paketteihin.',
+      },
+    ]
     
+  },
+
+  // -- SEO & Content Enrichment (Part 176) ------------------------------------
+
+  aiOverviewSnippet: 'Kuvakryptogrammi-generaattori on verkkotyokalu, jolla luodaan tulostettavia koodinmurtotehtavia, joissa kuvat korvaavat kirjaimet salaisessa viestissa. Oppilaat kayttavat koodiavainta tunnistaakseen kuva-kirjain-vastaavuudet ja purkaakseen viestin. Kehittaa kirjaintuntemusta, dekoodaustaitoja ja loogista paattelya. Opettajat kirjoittavat omat lauseet ja lataavat valmiin PDF-tehtavan alle 3 minuutissa.',
+
+  comparisonTable: [
+    {
+      feature: 'Koodausmuoto',
+      ourApp: 'Kuva-kirjain-koodaus visuaalisilla symboleilla',
+      typical: 'Vain numero-kirjain-korvaus',
+    },
+    {
+      feature: 'Omat lauseet',
+      ourApp: 'Rajattomasti omia lauseita ja fraaseja',
+      typical: 'Valmiit lauseet',
+    },
+    {
+      feature: 'Vastausavaimet',
+      ourApp: 'Automaattinen koodiavain ja ratkaisu',
+      typical: 'Manuaalinen',
+    },
+    {
+      feature: 'Vihjeiden säätö',
+      ourApp: '0–usea vihje säädettävästi',
+      typical: 'Ei vihjeitä',
+    },
+    {
+      feature: 'Kaupallinen lisenssi',
+      ourApp: 'Sisältyy, myy vapaasti verkossa',
+      typical: 'Lisämaksu',
+    },
+    {
+      feature: 'Kielituki',
+      ourApp: '11 kieltä mukaan lukien suomi',
+      typical: 'Vain englanti',
+    },
+  ],
+
+  researchBacking: [
+    {
+      claim: 'Koodinmurtotehtävät kehittävät fonologista tietoisuutta ja kirjain-äännevastaavuutta, jotka ovat lukemaan oppimisen keskeisiä taitoja varhaiskasvatusikäisillä.',
+      source: 'Lerkkanen, M.-K. et al., "Lukemisen ja kirjoittamisen kehitys," Jyväskylän yliopisto',
+    },
+    {
+      claim: 'Symbolipohjainen dekoodaus kehittää loogista päättelyä ja työmuistia samanaikaisesti, mikä vahvistaa oppimisen kognitiivisia edellytyksiä monipuolisesti.',
+      source: 'Niilo Mäki Instituutti, "Dekoodaustaitojen ja loogisen päättelyn kehitys"',
+    },
+  ],
+
+  teacherTestimonials: [
+    {
+      quote: 'Kuvakryptogrammit ovat oppilaitteni ehdottomia suosikkeja. Lapset kokevat ratkaisevansa salakoodeja eivatkaa huomaa harjoittelevansa kirjaimia. Motivaatio pysyy korkeana ja kirjaintuntemus kehittyy nopeasti.',
+      name: 'Heli Aaltonen',
+      role: 'Esiopetuksen opettaja',
+      school: 'Toivolan päiväkoti, Oulu',
+    },
+    {
+      quote: 'Kaytan kryptogrammeja lukemisvalmiuden tukena. Dekoodausharjoitukset kehittavat kirjain-aanne-vastaavuutta motivoivassa muodossa. Saadettava vaikeustaso tekee eriyttamisesta helppoa eri taitotasoille.',
+      name: 'Jarkko Manninen',
+      role: '1. luokan opettaja',
+      school: 'Viialan koulu, Akaa',
+    },
+  ],
+
+  tips: {
+    sectionTitle: 'Kuvakryptogrammistrategiat luokka-asteittain',
+    sectionDescription: 'Säädä kuvakryptogrammi-generaattori sopivaan haasteeseen kullekin kehitysvaiheelle. Näin valitset vihjeiden määrän, lauseiden pituuden ja vaikeustason esikoulusta kolmanteen luokkaan.',
+    items: [
+      {
+        id: 'esikoulu',
+        icon: '🌱',
+        title: 'Esikoulu: Yksinkertainen kuva-kirjain-yhdistäminen',
+        description: 'Kaytta lyhyita 3-4 kirjaimen sanoja ja 2-3 vihjetta. Esikoululaiset harjoittelevat kuvan tunnistamista ja vastaavan kirjaimen loytamista. Koodiavaimen kaytto kehittaa loogista ajattelua hauskalla tavalla.',
+      },
+      {
+        id: 'esiopetus',
+        icon: '🎒',
+        title: 'Esiopetus: Lyhyet fraasit yhdellä vihjeellä',
+        description: 'Luo kryptogrammeja lyhyilla 2-3 sanan lauseilla ja yhdella vihjeella. Esiopetuksen oppilaat kehittavat dekoodaustaitoja itsenaisesti. Kuva-kirjain-vastaavuus rakentaa lukemisvalmiutta POPS 2014 tavoitteiden mukaisesti.',
+      },
+      {
+        id: '1-luokka',
+        icon: '📚',
+        title: '1. luokka: Kokonaiset lauseet dekoodattaviksi',
+        description: 'Generoi kryptogrammeja kokonaisilla lauseilla ja 0-1 vihjeella. Ekaluokkalaiset kehittavat sujuvaa dekoodausta ja kirjaintuntemusta. Tehtavat vahvistavat lukemaan oppimista motivoivassa muodossa.',
+      },
+      {
+        id: '2-luokka',
+        icon: '✏️',
+        title: '2. luokka: Monisanaiset viestit ilman vihjeitä',
+        description: 'Luo kryptogrammeja monisanaisilla viesteilla ilman vihjekkirjaimia. Toisluokkalaiset hioivat dekoodaustaitoja ja kehittavat tyomuistia. Pidemmit viestit vaativat jarjestelmallista tyoskentelya.',
+      },
+      {
+        id: '3-luokka',
+        icon: '🎯',
+        title: '3. luokka: Monimutkaiset salaviestit',
+        description: 'Kaytta pitkih lauseita ja monimutkaisih koodeja ilman vihjeitaa. Kolmasluokkalaiset ratkaisevat vaativia kryptogrammeja itsenaisesti. Tehtavat kehittavat loogista paattelya ja ongelmanratkaisua POPS 2014 tavoitteiden mukaisesti.',
+      },
+    ],
   },
 };
 

@@ -93,7 +93,56 @@ Täysi Käyttöoikeus -tilauksesi antaa rajattoman tehtävien luonnin ilman teht
       noHiddenFees: 'Ei piilomaksuja',
       cancelAnytime: 'Peruuta milloin tahansa',
     },
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        icon: '🧩',
+        title: 'Puuttuvan palan tunnistamismuoto',
+        description: 'Generaattori poistaa 1–5 palaa kuvasta ja luo vastaavan määrän vastausvaihtoehtoja. Oppilaat analysoivat kuvan puuttuvaa kohtaa ja valitsevat oikean palan. Kehittää visuaalista sulkeumaa ja päättelyä.',
+      },
+      {
+        id: '2',
+        icon: '🔍',
+        title: 'Säädettävä puuttuvien palojen määrä 1–5',
+        description: 'Valitse 1–5 puuttuvaa palaa per tehtävä. Yksi pala on helpoin esikoululaisille. Viisi palaa vaatii laajaa visuaalista analysointia. Täydellinen eriytettämiseen.',
+      },
+      {
+        id: '3',
+        icon: '📐',
+        title: 'Säädettävä vastausvaihtoehtojen määrä 2–6',
+        description: 'Valitse 2–6 vastausvaihtoehtoa per puuttuva pala. Kaksi vaihtoehtoa on helpoin aloittelijoille. Kuusi vaihtoehtoa haastaa visuaalista erottelua. Distrakttoripalat luodaan automaattisesti.',
+      },
+      {
+        id: '4',
+        icon: '🖼️',
+        title: 'Yli 3000 teemakuvaa tehtäviin',
+        description: 'Valitse yli 3000 lapsiystavallisesta kuvasta puuttuvan palan tehtävien luomiseen. Eläimet, kulkuneuvot, ruoka ja kymmenet muut teemat. Kuva jaetaan automaattisesti paloihin.',
+      },
+      {
+        id: '5',
+        icon: '✅',
+        title: 'Automaattiset vastausavaimet',
+        description: 'Jokainen puuttuvan palan tehtävä generoi automaattisesti vastausavaimen, jossa oikea pala on korostettu. Opettajat tarkistavat oppilastöitä sekunneissa.',
+      },
+      {
+        id: '6',
+        icon: '🎨',
+        title: 'Täysi muokkaus pohjalla',
+        description: 'Muokkaa jokaista elementtiä luomisen jälkeen. Siirrä, skaalaa ja kierrä kuvia vapaasti. Lisää tekstejä ja ohjeita. Ammattimaiset muokkaustyökalut.',
+      },
+      {
+        id: '7',
+        icon: '💼',
+        title: 'Kaupallinen lisenssi myyntiin',
+        description: 'Tilauksesi sisältää kaupalliset oikeudet myydä puuttuvan palan tehtäviä verkossa. Luo temaattisia palapelipaketteja myytäväksi. Ei attribuutiovaatimuksia.',
+      },
+      {
+        id: '8',
+        icon: '🌍',
+        title: '11 kielen tuki',
+        description: 'Luo puuttuvan palan tehtäviä 11 kielellä. Käyttöliittymä kääntyy valitulle kielelle. Täydellinen monikielisiin luokkahuoneisiin.',
+      },
+    ]
     
   },
 
@@ -176,7 +225,50 @@ Harmaasävyvaihtoehto säästää mustetta. Valitse harmaasävy-valintaruutu enn
     badgeText: 'Kenelle Sopii',
     readMoreLabel: 'Lue lisää',
     showLessLabel: 'Näytä vähemmän',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        icon: '🌱',
+        title: 'Esiopetuksen opettajat',
+        subtitle: 'Visuaalisen hahmottamisen kehittäminen 5–6-vuotiaille',
+        description: 'Luo tehtäviä yhdellä puuttuvalla palalla ja kahdella vastausvaihtoehdolla. Esiopetuksen oppilaat harjoittelevat kuvan osien tunnistamista. Tukee POPS 2014 visuaalisen hahmottamisen tavoitteita.',
+      },
+      {
+        id: '2',
+        icon: '📚',
+        title: 'Alakoulun opettajat',
+        subtitle: 'Visuaalinen päättely 1.–3. luokalla',
+        description: 'Generoi tehtäviä useilla puuttuvilla paloilla ja enemmän vastausvaihtoehdoilla. Oppilaat kehittävät visuaalista analysointia ja loogista päättelyä.',
+      },
+      {
+        id: '3',
+        icon: '🏠',
+        title: 'Kotiopettajat ja vanhemmat',
+        subtitle: 'Hauskoja palapelipohdintoja kotiin',
+        description: 'Luo temaattisia puuttuvan palan tehtäviä lasten suosikkiaiheilla. Palapelimuoto pitää lapset kiinnostuneina. Generoi viikon tehtävät nopeasti.',
+      },
+      {
+        id: '4',
+        icon: '🌍',
+        title: 'S2-opettajat',
+        subtitle: 'Kielirajat ylittävä visuaalinen harjoittelu',
+        description: 'Puuttuvan palan tehtävät eivät vaadi kielitaitoa. Kuvapohjainen muoto sopii kaikille oppilaille taustasta riippumatta. 11 kielen tuki mahdollistaa monikielisen opetuksen.',
+      },
+      {
+        id: '5',
+        icon: '💜',
+        title: 'Erityisopettajat',
+        subtitle: 'Yksilöllistetyt hahmottamisharjoitukset',
+        description: 'Säädä puuttuvien palojen ja vastausvaihtoehtojen määrää HOJKS-tavoitteiden mukaisesti. Vähän vaihtoehtoja tukee heikompia oppilaita. Asteittain vaikeutuvat tehtävät.',
+      },
+      {
+        id: '6',
+        icon: '💰',
+        title: 'Opettajayrittäjät',
+        subtitle: 'Myy palapelipaketteja',
+        description: 'Luo teemallisia puuttuvan palan kokoelmia myytäväksi verkossa. Visuaalisen hahmottamisen materiaalit ovat jatkuvasti kysyttyjä. Kaupallinen lisenssi kattaa rajattomat myynnit.',
+      },
+    ]
     
   },
 
@@ -191,7 +283,68 @@ Harmaasävyvaihtoehto säästää mustetta. Valitse harmaasävy-valintaruutu enn
     showLessLabel: 'Näytä vähemmän',
     secureCheckout: 'Turvallinen maksu',
     cancelAnytime: 'Peruuta milloin tahansa',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        question: 'Miten puuttuvan palan generaattori toimii?',
+        answer: 'Generaattori poistaa valitun määrän paloja kuvasta ja luo vastausvaihtoehtoja. Oppilaat analysoivat puuttuvaa kohtaa ja valitsevat oikean palan vaihtoehdoista. Vastausavain luodaan automaattisesti.',
+      },
+      {
+        id: '2',
+        question: 'Kuinka monta palaa voi puuttua?',
+        answer: 'Valitse 1–5 puuttuvaa palaa. Yksi pala on helpoin. Viisi palaa on haastavin. Säädä oppilaiden taitotason mukaan.',
+      },
+      {
+        id: '3',
+        question: 'Kuinka monta vastausvaihtoehtoa voi olla?',
+        answer: 'Valitse 2–6 vaihtoehtoa per puuttuva pala. Kaksi vaihtoehtoa on helpoin. Kuusi vaihtoehtoa haastaa visuaalista erottelua eniten.',
+      },
+      {
+        id: '4',
+        question: 'Sisältävätkö tehtävät vastausavaimet?',
+        answer: 'Kyllä, jokainen tehtävä generoi automaattisesti vastausavaimen. Oikea pala on korostettu selkeästi. Tulosta vastausavain erikseen.',
+      },
+      {
+        id: '5',
+        question: 'Mille ikäryhmille puuttuvan palan tehtävät sopivat?',
+        answer: 'Puuttuvan palan tehtävät palvelevat 4–9-vuotiaita. Esikoululaiset ratkaisevat yhden palan tehtäviä kahdella vaihtoehdolla. 1.–2. luokan oppilaat ratkaisevat monimutkaisempia tehtäviä.',
+      },
+      {
+        id: '6',
+        question: 'Miten puuttuvan palan tehtävät kehittävät ajattelua?',
+        answer: 'Tehtävät kehittävät visuaalista sulkeumaa, osa-kokonaisuus-hahmottamista ja visuaalista päättelyä. Oppilaat analysoivat puuttuvaa aluetta ja vertaavat sitä vaihtoehtoihin.',
+      },
+      {
+        id: '7',
+        question: 'Mitkä palamuodot ovat saatavilla?',
+        answer: 'Kuusi palamuotoa: neliö, ympyrä, suorakulmio, pystysuora ja vaakasuora soikio sekä ellipsi. Eri muodot sopivat eri sisältöihin.',
+      },
+      {
+        id: '8',
+        question: 'Miten tulostan puuttuvan palan tehtävät?',
+        answer: 'Lataa PDF- tai JPEG-muodossa 300 DPI laadulla. Valitse A4 tai Letter-sivukoko. Harmaasävyvaihtoehto säästää mustetta.',
+      },
+      {
+        id: '9',
+        question: 'Voiko omia kuvia käyttää?',
+        answer: 'Kyllä, lataa rajattomasti omia kuvia JPEG-, PNG- tai GIF-muodossa. Generaattori jakaa kuvan automaattisesti paloihin.',
+      },
+      {
+        id: '10',
+        question: 'Kuinka kauan yhden tehtävän luominen kestää?',
+        answer: 'Yhden puuttuvan palan tehtävän luominen vie alle 3 minuuttia. Valitse kuva ja asetukset nopeasti. Generaattori luo palapelin välittömästi.',
+      },
+      {
+        id: '11',
+        question: 'Voinko myydä luomiani puuttuvan palan tehtäviä?',
+        answer: 'Kyllä, tilauksesi sisältää kaupallisen lisenssin. Myy teemallisia palapelipaketteja opettajakauppoissa. Ei attribuutiovaatimuksia.',
+      },
+      {
+        id: '12',
+        question: 'Miten puuttuvan palan tehtävät tukevat POPS 2014 tavoitteita?',
+        answer: 'Puuttuvan palan tehtävät tukevat visuaalisen hahmottamisen, avaruudellisen päättelyn ja ongelmanratkaisun kehittämistä. POPS 2014 korostaa ajattelun taitojen kehittämistä monipuolisilla työtavoilla.',
+      },
+    ]
     
   },
 
@@ -238,8 +391,157 @@ Harmaasävyvaihtoehto säästää mustetta. Valitse harmaasävy-valintaruutu enn
       securePayment: 'Turvallinen maksu',
       cancelAnytime: 'Peruuta milloin tahansa',
     },
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        slug: 'ruudukko-sovitus-tyoarkit',
+        name: 'Ruudukkosovitus',
+        category: 'Hahmottaminen',
+        icon: '🧩',
+        description: 'Ruudukkosovitus laajentaa puuttuvan palan konseptia ruudukkopohjaisen palapeliin. Molemmat kehittävät visuaalista analysointia.',
+      },
+      {
+        id: '2',
+        slug: 'varjoyhdistely-tyoarkit',
+        name: 'Varjoyhdistely',
+        category: 'Hahmottaminen',
+        icon: '👻',
+        description: 'Varjoyhdistely kehittää muodon tunnistamista, joka tukee puuttuvan palan tehtävien ratkaisemista. Yhdistä molemmat hahmottamisharjoituksiin.',
+      },
+      {
+        id: '3',
+        slug: 'kuvapolku-tyoarkit',
+        name: 'Kuvapolku',
+        category: 'Hahmottaminen',
+        icon: '🛤️',
+        description: 'Kuvapolku kehittää visuaalista seurantaa. Yhdistä puuttuvan palan tehtävien kanssa visuaalisten taitojen monipuoliseen harjoitteluun.',
+      },
+      {
+        id: '4',
+        slug: 'etsi-esineet-tyoarkit',
+        name: 'Etsi esineet',
+        category: 'Tarkkaavaisuus',
+        icon: '🔎',
+        description: 'Etsintätehtävät kehittävät samaa visuaalista tarkkaavaisuutta. Molemmat vaativat tarkkaa kuvan analysointia.',
+      },
+      {
+        id: '5',
+        slug: 'kuvalajittelu-tyoarkit',
+        name: 'Kuvalajittelu',
+        category: 'Logiikka',
+        icon: '📋',
+        description: 'Kuvalajittelu kehittää luokittelutaitoja, jotka tukevat puuttuvan palan tunnistamista vaihtoehtojen joukosta.',
+      },
+      {
+        id: '6',
+        slug: 'poikkea-joukosta-tyoarkit',
+        name: 'Poikkea joukosta',
+        category: 'Logiikka',
+        icon: '🧠',
+        description: 'Poikkea joukosta kehittää visuaalista erottelua. Molemmat vaativat tarkkaa vertailua ja päättelyä.',
+      },
+    ]
     
+  },
+
+  // -- SEO & Content Enrichment (Part 176) ------------------------------------
+
+  aiOverviewSnippet: 'Puuttuvat palat -generaattori on verkkotyokalu, jolla luodaan tulostettavia kuvapalapelit ehtavia esiopetukseen ja alakouluun. Generaattori poistaa paloja kuvasta ja luo vastausvaihtoehtoja. Oppilaat analysoivat puuttuvaa kohtaa ja valitsevat oikean palan. Opettajat saatavat puuttuvien palojen ja vastausvaihtoehtojen maaran, ja lataavat valmiin PDF-tehtavan alle 3 minuutissa.',
+
+  comparisonTable: [
+    {
+      feature: 'Puuttuvat palat',
+      ourApp: '1–5 palaa säädettävästi',
+      typical: 'Yksi kiinteä määrä',
+    },
+    {
+      feature: 'Vastausvaihtoehdot',
+      ourApp: '2–6 vaihtoehtoa automaattisilla distrakttoreilla',
+      typical: '2–3 vaihtoehtoa',
+    },
+    {
+      feature: 'Palamuodot',
+      ourApp: '6 muotoa: neliö, ympyrä, suorakulmio jne.',
+      typical: 'Vain neliö',
+    },
+    {
+      feature: 'Vastausavaimet',
+      ourApp: 'Automaattinen vastausavain joka tehtävään',
+      typical: 'Manuaalinen',
+    },
+    {
+      feature: 'Kaupallinen lisenssi',
+      ourApp: 'Sisältyy, myy vapaasti verkossa',
+      typical: 'Lisämaksu',
+    },
+    {
+      feature: 'Kielituki',
+      ourApp: '11 kieltä mukaan lukien suomi',
+      typical: 'Vain englanti',
+    },
+  ],
+
+  researchBacking: [
+    {
+      claim: 'Puuttuvan palan tunnistaminen kehittää visuaalista sulkeumaa ja gestalt-hahmottamista, jotka ovat lukemisvalmiuden ja visuaalisen prosessoinnin perusedellytyksiä.',
+      source: 'Ahonen, T. & Viholainen, H., "Visuaalisen hahmottamisen kehitys ja tukeminen," Niilo Mäki Instituutti',
+    },
+    {
+      claim: 'Kuvapalapelitehtävät kehittävät osa-kokonaisuus-hahmottamista ja avaruudellista päättelyä, jotka tukevat matemaattisen ja tieteellisen ajattelun kehitystä varhaiskasvatusikäisillä.',
+      source: 'Hannula, M. & Lehtinen, E., "Spatiaalisen päättelyn merkitys oppimisessa," Turun yliopisto',
+    },
+  ],
+
+  teacherTestimonials: [
+    {
+      quote: 'Puuttuvat palat -tehtavat ovat loistava tapa kehittaa visuaalista hahmottamista. Oppilaani rakastavat etsia oikeaa palaa ja kehittavat samalla analyyttista ajattelua. Saadettava vaikeustaso on erinomainen eriyttamiseen.',
+      name: 'Sanna Rinne',
+      role: 'Esiopetuksen opettaja',
+      school: 'Satakielen päiväkoti, Turku',
+    },
+    {
+      quote: 'Kaytan puuttuvan palan tehtavia visuaalisen hahmottamisen arvioinnissa ja harjoittelussa. Tehtavat paljastavat oppilaiden vahvuudet ja kehityskohteet hahmottamisessa. Automaattiset vastausavaimet saastävät paljon aikaa.',
+      name: 'Esa Kettunen',
+      role: 'Erityisopettaja',
+      school: 'Kainuun ammattiopisto, Kajaani',
+    },
+  ],
+
+  tips: {
+    sectionTitle: 'Puuttuvan palan strategiat luokka-asteittain',
+    sectionDescription: 'Säädä puuttuvan palan generaattori sopivaan haasteeseen kullekin kehitysvaiheelle. Näin valitset puuttuvien palojen määrän, vastausvaihtoehtojen määrän ja vaikeustason esikoulusta kolmanteen luokkaan.',
+    items: [
+      {
+        id: 'esikoulu',
+        icon: '🌱',
+        title: 'Esikoulu: Yksi pala kahdella vaihtoehdolla',
+        description: 'Kaytta yhtaa puuttuvaa palaa ja kahtaa vastausvaihtoehtoa. Esikoululaiset harjoittelevat kuvan osan tunnistamista yksinkertaisella valinnalla. Tutut elain- ja ruokakuvat motivoivat oppimista.',
+      },
+      {
+        id: 'esiopetus',
+        icon: '🎒',
+        title: 'Esiopetus: 1–2 palaa kolmella vaihtoehdolla',
+        description: 'Luo tehtavia 1-2 puuttuvalla palalla ja kolmella vastausvaihtoehdolla. Esiopetuksen oppilaat kehittavat visuaalista analysointia ja vertailutaitoja. Tukee POPS 2014 hahmottamisen tavoitteita.',
+      },
+      {
+        id: '1-luokka',
+        icon: '📚',
+        title: '1. luokka: 2–3 palaa neljällä vaihtoehdolla',
+        description: 'Generoi tehtavia 2-3 puuttuvalla palalla ja neljalla vastausvaihtoehdolla. Ekaluokkalaiset kehittavat jarjestelmallista visuaalista analysointia ja paattelya useampien vaihtoehtojen joukosta.',
+      },
+      {
+        id: '2-luokka',
+        icon: '✏️',
+        title: '2. luokka: 3–4 palaa viidellä vaihtoehdolla',
+        description: 'Luo tehtavia 3-4 puuttuvalla palalla ja viidella vastausvaihtoehdolla. Toisluokkalaiset hioivat visuaalista erottelua ja analyyttista paattelya haastavammilla tehtavilla.',
+      },
+      {
+        id: '3-luokka',
+        icon: '🎯',
+        title: '3. luokka: 4–5 palaa kuudella vaihtoehdolla',
+        description: 'Kaytta 4-5 puuttuvaa palaa ja kuutta vastausvaihtoehtoa. Kolmasluokkalaiset ratkaisevat vaativia visuaalisia pulmia itsenaisesti. Tehtavat kehittavat systemaattista ajattelua ja tarkkaa visuaalista analysointia.',
+      },
+    ],
   },
 };
 

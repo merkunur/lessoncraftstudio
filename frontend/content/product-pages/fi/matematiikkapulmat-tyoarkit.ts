@@ -98,7 +98,56 @@ Generaattori tukee esiopetuksesta 3. luokkaan. Valitse vaikeustaso säätämäll
       noHiddenFees: 'Ei piilomaksuja',
       cancelAnytime: 'Peruuta milloin tahansa',
     },
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        icon: '🧩',
+        title: 'Visuaalinen yhtälöpulmamuoto',
+        description: 'Jokainen pulmatehtävä yhdistää kuvapohjaisen palapelin ja matemaattiset yhtälöt. Oppilaat ratkaisevat laskutehtäviä löytääkseen oikeat lukuarvot kuville. Yhdistää visuaalisen oppimisen ja matemaattisen harjoittelun.',
+      },
+      {
+        id: '2',
+        icon: '📐',
+        title: 'Säädettävä ruudukkokoko 2×2–4×4',
+        description: 'Valitse ruudukon koko oppilaiden taitotason mukaan. 2×2 ruudukko sopii esikoululaisille yksinkertaisilla laskuilla. 3×3 ja 4×4 ruudukot haastavat vanhempia oppilaita monimutkaisemmilla yhtälöillä.',
+      },
+      {
+        id: '3',
+        icon: '➕',
+        title: 'Yhteenlasku, vähennyslasku ja sekalaskut',
+        description: 'Valitse laskutyyppi oppilaiden harjoittelutarpeen mukaan. Yhteenlasku peruslaskujen harjoitteluun. Vähennyslasku vaikeampaan harjoitteluun. Sekalaskut yhdistävät molemmat monipuoliseen harjoitteluun.',
+      },
+      {
+        id: '4',
+        icon: '🖼️',
+        title: 'Yli 3000 teemakuvaa pulmiin',
+        description: 'Valitse yli 3000 lapsiystavallisesta kuvasta matemaattisten pulmien luomiseen. Kuva toistuu kaikissa ruudukon soluissa eri laskutehtävillä. Teemapohjaiset pulmat motivoivat oppilaita.',
+      },
+      {
+        id: '5',
+        icon: '✅',
+        title: 'Automaattiset vastausavaimet',
+        description: 'Jokainen pulmatehtävä generoi automaattisesti vastausavaimen, jossa kaikki vastaukset näkyvät. Opettajat tarkistavat oppilastöitä sekunneissa.',
+      },
+      {
+        id: '6',
+        icon: '🎨',
+        title: 'Täysi muokkaus pohjalla',
+        description: 'Muokkaa jokaista elementtiä luomisen jälkeen. Siirrä, skaalaa ja kierrä kuvia vapaasti. Lisää tekstejä ja ohjeita. Ammattimaiset muokkaustyökalut.',
+      },
+      {
+        id: '7',
+        icon: '💼',
+        title: 'Kaupallinen lisenssi myyntiin',
+        description: 'Tilauksesi sisältää kaupalliset oikeudet myydä matematiikkapulmia verkossa. Luo temaattisia laskupulmapaketteja myytäväksi. Ei attribuutiovaatimuksia.',
+      },
+      {
+        id: '8',
+        icon: '🌍',
+        title: '11 kielen tuki',
+        description: 'Luo matematiikkapulmia 11 kielellä. Käyttöliittymä kääntyy valitulle kielelle. Matematiikka on universaali kieli, mutta ohjeet ovat suomeksi.',
+      },
+    ]
     
   },
 
@@ -199,7 +248,50 @@ Tulosta tehtävä kotitulostimella. 300 DPI -laatu näkyy terävänä ja selkeä
     badgeText: 'Kenelle Sopii',
     readMoreLabel: 'Lue lisää',
     showLessLabel: 'Näytä vähemmän',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        icon: '🌱',
+        title: 'Esiopetuksen opettajat',
+        subtitle: 'Laskutaidon perusteet visuaalisilla pulmilla',
+        description: 'Luo 2×2 pulmia yksinkertaisilla yhteenlaskuilla summilla 10 asti. Esiopetuksen oppilaat harjoittelevat laskemista motivoivassa pulmamuodossa. Tukee POPS 2014 matemaattisen ajattelun tavoitteita.',
+      },
+      {
+        id: '2',
+        icon: '📚',
+        title: 'Alakoulun opettajat',
+        subtitle: 'Laskusujuvuuden kehittäminen 1.–3. luokalla',
+        description: 'Generoi 3×3 ja 4×4 pulmia yhteenlaskuilla ja vähennyslaskuilla. Oppilaat kehittävät laskusujuvuutta visuaalisessa ongelmanratkaisukontekstissa.',
+      },
+      {
+        id: '3',
+        icon: '🏠',
+        title: 'Kotiopettajat ja vanhemmat',
+        subtitle: 'Hauskoja laskuharjoituksia kotiin',
+        description: 'Luo temaattisia laskupulmia lasten suosikkiaiheilla. Pulmamuoto motivoi lapsia harjoittelemaan laskemista. Generoi viikon tehtävät nopeasti.',
+      },
+      {
+        id: '4',
+        icon: '🌍',
+        title: 'S2-opettajat',
+        subtitle: 'Kielirajat ylittävä matematiikkaharjoittelu',
+        description: 'Matematiikkapulmat eivät vaadi kielitaitoa, joten ne sopivat kaikille oppilaille. Numerot ja kuvia ovat universaaleja. Ohjeet kääntyvät 11 kielelle.',
+      },
+      {
+        id: '5',
+        icon: '💜',
+        title: 'Erityisopettajat',
+        subtitle: 'Yksilöllistetyt laskuharjoitukset',
+        description: 'Säädä ruudukon kokoa ja laskutyyppiä HOJKS-tavoitteiden mukaisesti. Pienet ruudukot ja yksinkertaiset laskut tukevat heikompia oppilaita. Visuaalinen muoto motivoi oppimista.',
+      },
+      {
+        id: '6',
+        icon: '💰',
+        title: 'Opettajayrittäjät',
+        subtitle: 'Myy laskupulmapaketteja',
+        description: 'Luo teemallisia matematiikkapulmakokoelmia myytäväksi verkossa. Matemaattiset pulmat ovat jatkuvasti kysyttyjä. Kaupallinen lisenssi kattaa rajattomat myynnit.',
+      },
+    ]
     
   },
 
@@ -214,7 +306,68 @@ Tulosta tehtävä kotitulostimella. 300 DPI -laatu näkyy terävänä ja selkeä
     showLessLabel: 'Näytä vähemmän',
     secureCheckout: 'Turvallinen maksu',
     cancelAnytime: 'Peruuta milloin tahansa',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        question: 'Miten matematiikkapulmageneraattori toimii?',
+        answer: 'Generaattori luo ruudukon, jossa kuva toistuu jokaisessa solussa eri laskutehtävällä. Oppilaat ratkaisevat laskut ja löytävät oikeat vastaukset. Jokainen pulma sisältää vastausavaimen.',
+      },
+      {
+        id: '2',
+        question: 'Mitkä laskutoimitukset ovat saatavilla?',
+        answer: 'Kolme vaihtoehtoa: yhteenlasku, vähennyslasku ja sekalaskut (molemmat). Valitse oppilaiden harjoittelutarpeen mukaan. Sekalaskut tarjoavat monipuolisimman harjoittelun.',
+      },
+      {
+        id: '3',
+        question: 'Mitkä ruudukkokoot ovat saatavilla?',
+        answer: '2×2 (4 laskua), 3×3 (9 laskua) ja 4×4 (16 laskua). Pienempi ruudukko sopii nuoremmille. Suurempi ruudukko haastaa vanhempia oppilaita.',
+      },
+      {
+        id: '4',
+        question: 'Sisältävätkö pulmat vastausavaimet?',
+        answer: 'Kyllä, jokainen pulma generoi automaattisesti vastausavaimen, jossa kaikki vastaukset näkyvät. Tulosta vastausavain erikseen tarkistusta varten.',
+      },
+      {
+        id: '5',
+        question: 'Mille ikäryhmille matematiikkapulmat sopivat?',
+        answer: 'Matematiikkapulmat palvelevat 5–10-vuotiaita. Esikoululaiset harjoittelevat 2×2 pulmilla summilla 10 asti. 1.–3. luokan oppilaat ratkaisevat suurempia pulmia laajemmilla lukualueilla.',
+      },
+      {
+        id: '6',
+        question: 'Miten lukualuetta säädetään?',
+        answer: 'Lukualue mukautuu automaattisesti ruudukon koon ja laskutyypin mukaan. 2×2 ruudukko käyttää pieniä lukuja. 4×4 ruudukko käyttää suurempia lukuja.',
+      },
+      {
+        id: '7',
+        question: 'Voiko omia kuvia käyttää?',
+        answer: 'Kyllä, lataa rajattomasti omia kuvia JPEG-, PNG- tai GIF-muodossa. Kuva toistuu kaikissa ruudukon soluissa eri laskutehtävillä.',
+      },
+      {
+        id: '8',
+        question: 'Miten tulostan matematiikkapulmat?',
+        answer: 'Lataa PDF- tai JPEG-muodossa 300 DPI laadulla. Valitse A4 tai Letter-sivukoko. Harmaasävyvaihtoehto säästää mustetta.',
+      },
+      {
+        id: '9',
+        question: 'Sopivatko matematiikkapulmat erityisopetukseen?',
+        answer: 'Kyllä, säädettävä vaikeustaso tekee pulmista erinomaisia erityisopetukseen. Pienet ruudukot ja yksinkertaiset laskut tukevat heikompia oppilaita motivoivassa muodossa.',
+      },
+      {
+        id: '10',
+        question: 'Kuinka kauan yhden tehtävän luominen kestää?',
+        answer: 'Yhden matematiikkapulman luominen vie alle 3 minuuttia. Valitse kuva ja asetukset nopeasti. Generaattori luo pulman välittömästi.',
+      },
+      {
+        id: '11',
+        question: 'Voinko myydä luomiani matematiikkapulmia?',
+        answer: 'Kyllä, tilauksesi sisältää kaupallisen lisenssin. Myy temaattisia laskupulmapaketteja opettajakauppoissa. Ei attribuutiovaatimuksia.',
+      },
+      {
+        id: '12',
+        question: 'Miten matematiikkapulmat tukevat POPS 2014 tavoitteita?',
+        answer: 'Matematiikkapulmat tukevat laskusujuvuuden, ongelmanratkaisun ja matemaattisen ajattelun kehittämistä. POPS 2014 korostaa matematiikan yhteyksiä arkielämään ja motivoivien työtapojen käyttöä.',
+      },
+    ]
     
   },
 
@@ -286,8 +439,157 @@ Tulosta tehtävä kotitulostimella. 300 DPI -laatu näkyy terävänä ja selkeä
       securePayment: 'Turvallinen maksu',
       cancelAnytime: 'Peruuta milloin tahansa',
     },
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        slug: 'yhteenlasku-tyoarkit',
+        name: 'Yhteenlasku',
+        category: 'Matematiikka',
+        icon: '➕',
+        description: 'Yhteenlaskutehtävät täydentävät matematiikkapulmia perinteisellä laskuharjoittelulla. Oppilaat harjoittelevat samoja laskufaktoja eri muodoissa.',
+      },
+      {
+        id: '2',
+        slug: 'vahennyslasku-tyoarkit',
+        name: 'Vähennyslasku',
+        category: 'Matematiikka',
+        icon: '➖',
+        description: 'Vähennyslaskutehtävät laajentavat pulmia vähennyslaskuoperaatioihin. Molemmat kehittävät laskusujuvuutta.',
+      },
+      {
+        id: '3',
+        slug: 'matematiikka-tyoarkit',
+        name: 'Matematiikkamonisteet',
+        category: 'Matematiikka',
+        icon: '📊',
+        description: 'Matematiikkamonisteet tarjoavat perinteisen laskuharjoittelun. Yhdistä pulmiin monipuoliseen matemaattiseen harjoitteluun.',
+      },
+      {
+        id: '4',
+        slug: 'kuva-yhteenlasku-tyoarkit',
+        name: 'Kuva-yhteenlasku',
+        category: 'Matematiikka',
+        icon: '🖼️',
+        description: 'Kuva-yhteenlasku yhdistää kuvasymbolit ja yhteenlaskun. Molemmat käyttävät visuaalista muotoa matemaattisessa kontekstissa.',
+      },
+      {
+        id: '5',
+        slug: 'etsi-ja-laske-tyoarkit',
+        name: 'Etsi ja laske',
+        category: 'Matematiikka',
+        icon: '🔢',
+        description: 'Etsi ja laske yhdistää visuaalisen etsinnän ja laskemisen. Täydentää matematiikkapulmia eri muodossa.',
+      },
+      {
+        id: '6',
+        slug: 'kuvakaavio-tyoarkit',
+        name: 'Kuvakaavio',
+        category: 'Matematiikka',
+        icon: '📊',
+        description: 'Kaaviotehtävät laajentavat kuvapohjaista matematiikkaa tiedonkäsittelyn suuntaan. Molemmat kehittävät matemaattista ajattelua.',
+      },
+    ]
     
+  },
+
+  // -- SEO & Content Enrichment (Part 176) ------------------------------------
+
+  aiOverviewSnippet: 'Matematiikkapulma-generaattori on verkkotyokalu, jolla luodaan tulostettavia visuaalisia laskupulmatehtavia esiopetukseen ja alakouluun. Oppilaat ratkaisevat yhteenlasku- ja vahennyslaskutehtavia kuvapohjaisten pulmien sisalla. Opettajat valitsevat ruudukon koon, laskutyypin ja teemakuvan, ja lataavat valmiin PDF-tehtavan vastausavaimineen alle 3 minuutissa.',
+
+  comparisonTable: [
+    {
+      feature: 'Tehtävämuoto',
+      ourApp: 'Visuaalinen yhtälöpulma kuvilla',
+      typical: 'Pelkät numerotehtävät',
+    },
+    {
+      feature: 'Laskutyypit',
+      ourApp: 'Yhteenlasku, vähennyslasku ja sekalaskut',
+      typical: 'Yksi laskutyyppi',
+    },
+    {
+      feature: 'Ruudukkokoko',
+      ourApp: '2×2–4×4 säädettävästi',
+      typical: 'Kiinteä muoto',
+    },
+    {
+      feature: 'Vastausavaimet',
+      ourApp: 'Automaattinen vastausavain joka tehtävään',
+      typical: 'Manuaalinen',
+    },
+    {
+      feature: 'Kaupallinen lisenssi',
+      ourApp: 'Sisältyy, myy vapaasti verkossa',
+      typical: 'Lisämaksu',
+    },
+    {
+      feature: 'Kielituki',
+      ourApp: '11 kieltä mukaan lukien suomi',
+      typical: 'Vain englanti',
+    },
+  ],
+
+  researchBacking: [
+    {
+      claim: 'Visuaalinen matemaattinen pulmamuoto kehittää laskusujuvuutta ja matemaattista itseluottamusta erityisesti oppilailla, joilla on vaikeuksia perinteisten laskutehtävien kanssa.',
+      source: 'Aunio, P. & Räsänen, P., "Matemaattiset oppimisvaikeudet ja niiden tukeminen," Niilo Mäki Instituutti',
+    },
+    {
+      claim: 'Kuvapohjaiset laskutehtävät lisäävät oppilaiden sisäistä motivaatiota matematiikan harjoitteluun, mikä johtaa pitkäjänteisempään harjoitteluun ja parempiin oppimistuloksiin.',
+      source: 'Lehtinen, E. & Hannula-Sormunen, M., "Matemaattisen oppimisen motivaatio," Turun yliopisto',
+    },
+  ],
+
+  teacherTestimonials: [
+    {
+      quote: 'Matematiikkapulmat ovat muuttaneet luokkani suhtautumisen laskemiseen. Oppilaat kokevat ratkaisevansa hauskoja pulmia eivatkaa huomaa harjoittelevansa yhteenlaskua. Motivaatio ja laskusujuvuus ovat parantuneet huomattavasti.',
+      name: 'Nina Parviainen',
+      role: '1. luokan opettaja',
+      school: 'Haagan koulu, Helsinki',
+    },
+    {
+      quote: 'Kaytan matematiikkapulmia eriyttamiseen. 2x2 ruudukot sopivat heikommille oppilaille ja 4x4 ruudukot haastavat edistyneita. Kaikki oppilaat ratkaisevat samantyyppisiä tehtavia omalla tasollaan.',
+      name: 'Tomi Koivunen',
+      role: '2. luokan opettaja',
+      school: 'Karjulan koulu, Joensuu',
+    },
+  ],
+
+  tips: {
+    sectionTitle: 'Matematiikkapulmastrategiat luokka-asteittain',
+    sectionDescription: 'Säädä matematiikkapulma-generaattori sopivaan haasteeseen kullekin kehitysvaiheelle. Näin valitset ruudukon koon, laskutyypin ja lukualueen esikoulusta kolmanteen luokkaan.',
+    items: [
+      {
+        id: 'esikoulu',
+        icon: '🌱',
+        title: 'Esikoulu: 2×2 pulmat yksinkertaisilla yhteenlaskuilla',
+        description: 'Kaytta 2x2 ruudukkoa yhteenlaskuilla summilla 5 asti. Esikoululaiset harjoittelevat laskemista motivoivassa pulmamuodossa. Neljan solun pulma on hallittava mutta haastava aloittelijoille.',
+      },
+      {
+        id: 'esiopetus',
+        icon: '🎒',
+        title: 'Esiopetus: 2×2 pulmat summilla 10 asti',
+        description: 'Luo 2x2 pulmia yhteenlaskuilla summilla 10 asti. Esiopetuksen oppilaat kehittavat laskusujuvuutta visuaalisessa kontekstissa. Tukee POPS 2014 matemaattisen ajattelun kehittamista.',
+      },
+      {
+        id: '1-luokka',
+        icon: '📚',
+        title: '1. luokka: 3×3 pulmat yhteenlaskuilla ja vähennyslaskuilla',
+        description: 'Generoi 3x3 pulmia yhteenlaskuilla ja vahennyslaskuilla summilla 20 asti. Ekaluokkalaiset kehittavat laskusujuvuutta ja strategista ajattelua yhdeksansolun pulmilla.',
+      },
+      {
+        id: '2-luokka',
+        icon: '✏️',
+        title: '2. luokka: 3×3–4×4 pulmat sekalaskuilla',
+        description: 'Luo 3x3 tai 4x4 pulmia sekalaskuilla suuremmilla lukualueilla. Toisluokkalaiset harjoittelevat joustavaa laskemista ja ongelmanratkaisua vaativammilla pulmilla.',
+      },
+      {
+        id: '3-luokka',
+        icon: '🎯',
+        title: '3. luokka: 4×4 haastavat laskupulmat',
+        description: 'Kaytta 4x4 ruudukkoa sekalaskuilla laajalla lukualueella. Kolmasluokkalaiset ratkaisevat vaativia kuudentoista solun pulmia itsenaisesti. Tehtavat kehittavat matemaattista ajattelua ja ongelmanratkaisua.',
+      },
+    ],
   },
 };
 

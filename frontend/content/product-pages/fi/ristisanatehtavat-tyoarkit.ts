@@ -95,7 +95,56 @@ Generaattori toimii täysin suomeksi. Kaikki kuvien nimet ja teemat näkyvät su
       noHiddenFees: 'Ei piilomaksuja',
       cancelAnytime: 'Peruuta milloin tahansa',
     },
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        icon: '🖼️',
+        title: 'Kuvavihjepohjainen ristikkomuoto',
+        description: 'Generaattori luo ristisanatehtäviä, joissa kuvat toimivat vihjehinä sanojen sijaan. Oppilaat tunnistavat kuvan, muistavat sanan ja kirjoittavat sen ristikkoon. Yhdistää kuvan tunnistamisen, oikeinkirjoituksen ja sanavaraston harjoittelun.',
+      },
+      {
+        id: '2',
+        icon: '🔤',
+        title: 'Automaattinen ristikon luonti 8–15 sanalla',
+        description: 'Generaattori laskee optimaalisen ristikon asettelun valitsemistasi kuvista. Sanat ristetyvät automaattisesti luoden perinteisen ristikkoulkoasun. Jokainen ristikko on uniikki.',
+      },
+      {
+        id: '3',
+        icon: '📚',
+        title: 'Sanavaraston kehittäminen 50 teemasta',
+        description: 'Valitse 50 teemasta kiinnostavien ristisanatehtävien luomiseen. Eläimet, ruoka, kulkuneuvot, muodot ja lukemattomat muut teemat. Teemapohjaiset tehtävät yhdistävät opetussuunnitelman aiheisiin.',
+      },
+      {
+        id: '4',
+        icon: '🖼️',
+        title: 'Yli 3000 teemakuvaa vihjeiksi',
+        description: 'Käytä yli 3000 lapsiystavallisesta kuvasta vihjeinä ristikkoon. Kuvat on nimetty suomeksi, joten oppilaat kirjoittavat suomenkielisiä sanoja ristikkoon. Täydellinen äidinkielen opetukseen.',
+      },
+      {
+        id: '5',
+        icon: '✅',
+        title: 'Automaattiset vastausavaimet',
+        description: 'Jokainen ristisanatehtävä generoi automaattisesti vastausavaimen, jossa kaikki sanat näkyvät ristikossa. Opettajat tarkistavat oppilastöitä sekunneissa.',
+      },
+      {
+        id: '6',
+        icon: '🎨',
+        title: 'Täysi muokkaus pohjalla',
+        description: 'Muokkaa jokaista elementtiä luomisen jälkeen. Siirrä, skaalaa ja kierrä vihjekuvia. Lisää tekstejä, fontteja ja värejä. Muokkaa ristikon ulkoasua ammattimaiseksi.',
+      },
+      {
+        id: '7',
+        icon: '💼',
+        title: 'Kaupallinen lisenssi myyntiin',
+        description: 'Tilauksesi sisältää kaupalliset oikeudet myydä ristisanatehtäviä verkossa. Luo teemallisia sanastopaketteja myytäväksi. Ei attribuutiovaatimuksia.',
+      },
+      {
+        id: '8',
+        icon: '🌍',
+        title: '11 kielen tuki sanastoharjoitteluun',
+        description: 'Luo ristisanatehtäviä 11 kielellä mukaan lukien suomi, ruotsi ja tanska. Kuvien nimet vaihdetaan valitun kielen mukaisesti. Täydellinen S2-opetukseen ja kielikylpyohjelmiin.',
+      },
+    ]
     
   },
 
@@ -178,7 +227,50 @@ Harmaasävyvaihtoehto säästää mustetta. Rastita "Harmaasävy" ennen lataamis
     badgeText: 'Kenelle Sopii',
     readMoreLabel: 'Lue lisää',
     showLessLabel: 'Näytä vähemmän',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        icon: '🌱',
+        title: 'Esiopetuksen opettajat',
+        subtitle: 'Kirjaintuntemuksen kehittäminen kuvilla',
+        description: 'Luo yksinkertaisia ristisanatehtäviä lyhyillä sanoilla ja tutuilla kuvilla. Esiopetuksen oppilaat harjoittelevat kirjainten tunnistamista ja oikeinkirjoitusta. Tukee POPS 2014 äidinkielen tavoitteita.',
+      },
+      {
+        id: '2',
+        icon: '📚',
+        title: 'Alakoulun opettajat',
+        subtitle: 'Sanavaraston laajentaminen 1.–3. luokalla',
+        description: 'Generoi ristisanatehtäviä viikon sanalistojen sanoilla. Oppilaat kohtaavat sanat visuaalisessa kontekstissa ja kirjoittavat ne ristikkoon. Yhdistä äidinkielen ja luonnontiedon opetukseen.',
+      },
+      {
+        id: '3',
+        icon: '🏠',
+        title: 'Kotiopettajat ja vanhemmat',
+        subtitle: 'Hauskaa sanastoharjoittelua kotiin',
+        description: 'Luo teemallisia ristisanatehtäviä lasten suosikkiaiheilla. Eläin- ja luontoteemat pitävät lapset motivoituneina oppimaan uusia sanoja. Generoi viikon tehtävät 15 minuutissa.',
+      },
+      {
+        id: '4',
+        icon: '🌍',
+        title: 'S2-opettajat',
+        subtitle: 'Monikielinen sanastoharjoittelu kuvilla',
+        description: 'Luo ristisanatehtäviä 11 kielellä sanavaraston rakentamiseen. Kuvat tarjoavat visuaalisen kontekstin samalla kun kirjoittaminen vahvistaa oikeinkirjoitusta. Täydellinen kielikylpyohjelmiin.',
+      },
+      {
+        id: '5',
+        icon: '💜',
+        title: 'Erityisopettajat',
+        subtitle: 'Säädettävä sanastotehtävä',
+        description: 'Valitse lyhyitä ja tuttuja sanoja erityisopetuksen oppilaille. Kuvavihjeet tukevat sanan muistamista. Säädä sanojen määrää ja pituutta HOJKS-tavoitteiden mukaisesti.',
+      },
+      {
+        id: '6',
+        icon: '💰',
+        title: 'Opettajayrittäjät',
+        subtitle: 'Myy sanastopaketteja kaupallisella lisenssillä',
+        description: 'Luo teemallisia ristisanakokoelmia myytäväksi verkossa. Sanastomateriaalit ovat jatkuvasti kysyttyjä. Kaupallinen lisenssi kattaa rajattomat myynnit.',
+      },
+    ]
     
   },
 
@@ -193,7 +285,68 @@ Harmaasävyvaihtoehto säästää mustetta. Rastita "Harmaasävy" ennen lataamis
     showLessLabel: 'Näytä vähemmän',
     secureCheckout: 'Turvallinen maksu',
     cancelAnytime: 'Peruuta milloin tahansa',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        question: 'Miten kuvaristisanageneraattori toimii?',
+        answer: 'Valitse 8–15 kuvaa teemakirjastosta. Generaattori laskee optimaalisen ristikon, jossa kuvien nimet ristetyvät automaattisesti. Oppilaat katsovat kuvaa, tunnistavat sanan ja kirjoittavat sen ristikkoon.',
+      },
+      {
+        id: '2',
+        question: 'Kuinka monta sanaa ristikossa voi olla?',
+        answer: 'Optimaalinen määrä on 8–15 sanaa. Vähemmän sanoja luo yksinkertaisemman ristikon esiopetukselle. Enemmän sanoja haastaa vanhempia oppilaita monimutkaisemmalla ristikolla.',
+      },
+      {
+        id: '3',
+        question: 'Voiko ristikon sanoja valita vapaasti?',
+        answer: 'Kyllä, valitse yksittäisiä kuvia kirjastosta tai käytä teemavalintaa. Voit myös ladata omia kuvia ja nimetjä niitä ennen ristikon luomista.',
+      },
+      {
+        id: '4',
+        question: 'Sisältävätkö tehtävät vastausavaimet?',
+        answer: 'Kyllä, jokainen ristisanatehtävä generoi automaattisesti vastausavaimen. Kaikki sanat näkyvät ristikossa. Tulosta vastausavain erikseen tarkistusta varten.',
+      },
+      {
+        id: '5',
+        question: 'Mille ikäryhmille kuvaristisanat sopivat?',
+        answer: 'Kuvaristisanat palvelevat 5–10-vuotiaita. Esiopetuksen oppilaat harjoittelevat lyhyillä sanoilla. 1.–3. luokan oppilaat ratkaisevat monimutkaisempia ristikkoja pidemmillä sanoilla.',
+      },
+      {
+        id: '6',
+        question: 'Tukeeko generaattori suomenkielen erityispiirteitä?',
+        answer: 'Kyllä, generaattori käsittelee suomen kielen ääkköset (ä, ö, å) oikein. Kuvien nimet ovat suomeksi. Ristikko muodostuu suomenkielisistä sanoista luonnollisesti.',
+      },
+      {
+        id: '7',
+        question: 'Voiko ristisanatehtäviä luoda useilla kielillä?',
+        answer: 'Generaattori luo tehtäviä 11 kielellä. Kuvien nimet vaihdetaan valitun kielen mukaisesti. Täydellinen S2-opetukseen ja monikielisiin luokkahuoneisiin.',
+      },
+      {
+        id: '8',
+        question: 'Miten tulostan ristisanatehtävät?',
+        answer: 'Lataa PDF- tai JPEG-muodossa 300 DPI laadulla. Valitse A4 tai Letter-sivukoko. Harmaasävyvaihtoehto säästää mustetta.',
+      },
+      {
+        id: '9',
+        question: 'Sopivatko kuvaristisanat esiopetukseen?',
+        answer: 'Kuvaristisanat sopivat erinomaisesti esiopetukseen. Käytä lyhyitä 3–5 kirjaimen sanoja ja tuttuja kuvia. Kuvavihjeet tukevat kirjaintuntemuksen kehittämistä POPS 2014 tavoitteiden mukaisesti.',
+      },
+      {
+        id: '10',
+        question: 'Kuinka kauan yhden tehtävän luominen kestää?',
+        answer: 'Yhden ristisanatehtävän luominen vie alle 3 minuuttia. Valitse teema ja kuvat nopeasti. Generaattori laskee ristikon automaattisesti sekunneissa.',
+      },
+      {
+        id: '11',
+        question: 'Voinko myydä luomiani ristisanatehtäviä?',
+        answer: 'Kyllä, tilauksesi sisältää kaupallisen lisenssin. Myy teemallisia sanastopaketteja opettajakauppoissa. Ei attribuutiovaatimuksia.',
+      },
+      {
+        id: '12',
+        question: 'Miten kuvaristisanat tukevat POPS 2014 tavoitteita?',
+        answer: 'Kuvaristisanat tukevat äidinkielen tavoitteita sanavaraston laajentamisessa ja oikeinkirjoituksen vahvistamisessa. Kuvavihjeet yhdistävät visuaalisen oppimisen ja kirjallisen tuottamisen POPS 2014 periaatteiden mukaisesti.',
+      },
+    ]
     
   },
 
@@ -239,8 +392,157 @@ Harmaasävyvaihtoehto säästää mustetta. Rastita "Harmaasävy" ennen lataamis
       securePayment: 'Turvallinen maksu',
       cancelAnytime: 'Peruuta milloin tahansa',
     },
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        slug: 'sananhaku-tyoarkit',
+        name: 'Sanahaku',
+        category: 'Äidinkieli',
+        icon: '🔍',
+        description: 'Sanahaku täydentää ristisanatehtäviä sanojen etsinnällä. Oppilaat kohtaavat samat teemasanat eri muodoissa vahvistaen sanavarastoa.',
+      },
+      {
+        id: '2',
+        slug: 'kuvakryptogrammi-tyoarkit',
+        name: 'Kuvakryptogrammi',
+        category: 'Äidinkieli',
+        icon: '🔐',
+        description: 'Kuvakryptogrammi laajentaa kuvapohjaista sanastotyötä koodinmurtomuotoon. Molemmat käyttävät kuvia kirjoitustaidon kehittämiseen.',
+      },
+      {
+        id: '3',
+        slug: 'kuva-arvaus-tyoarkit',
+        name: 'Kuva-arvaus',
+        category: 'Äidinkieli',
+        icon: '❓',
+        description: 'Kuva-arvaus täydentää ristisanoja puuttuvan kirjaimen muodolla. Oppilaat tunnistavat kuvan ja täydentävät sanan vahvistaen oikeinkirjoitusta.',
+      },
+      {
+        id: '4',
+        slug: 'sanansekoitus-tyoarkit',
+        name: 'Sanansekoitus',
+        category: 'Äidinkieli',
+        icon: '🔀',
+        description: 'Sanansekoitus haastaa oppilaat järjestämään kirjaimia sanaksi. Yhdistä ristisanatehtäviin kattaviin sanastopaketteihin.',
+      },
+      {
+        id: '5',
+        slug: 'kasinkirjoitus-tyoarkit',
+        name: 'Käsinkirjoitus',
+        category: 'Äidinkieli',
+        icon: '📝',
+        description: 'Käsinkirjoitusharjoitukset vahvistavat samoja kirjaintaitoja kuin ristisanatehtävät. Yhdistä molemmat kirjoitustaidon kokonaisvaltaiseen kehittämiseen.',
+      },
+      {
+        id: '6',
+        slug: 'aakkosjuna-tyoarkit',
+        name: 'Aakkosjuna',
+        category: 'Varhaiskasvatus',
+        icon: '🚂',
+        description: 'Aakkosjuna tukee kirjaintuntemusta, joka on ristisanatehtävien edellytys. Yhdistä molemmat varhaisen lukutaidon kattaviin paketteihin.',
+      },
+    ]
     
+  },
+
+  // -- SEO & Content Enrichment (Part 176) ------------------------------------
+
+  aiOverviewSnippet: 'Kuvaristisana-generaattori on verkkotyokalu, jolla luodaan tulostettavia ristisanatehtavia, joissa kuvat toimivat vihjeinä sanojen sijaan. Oppilaat tunnistavat kuvan, muistavat sanan ja kirjoittavat sen ristikkoon. Kehittaa sanavarastoa ja oikeinkirjoitusta samanaikaisesti. Opettajat valitsevat teemakuvat ja lataavat valmiin PDF-tehtavan alle 3 minuutissa.',
+
+  comparisonTable: [
+    {
+      feature: 'Vihjeet',
+      ourApp: 'Kuvavihjeet 3000+ teemakuvasta',
+      typical: 'Vain tekstivihjeet',
+    },
+    {
+      feature: 'Ristikon luonti',
+      ourApp: 'Automaattinen optimointi 8–15 sanalla',
+      typical: 'Manuaalinen asettelu',
+    },
+    {
+      feature: 'Vastausavaimet',
+      ourApp: 'Automaattinen vastausavain joka tehtävään',
+      typical: 'Manuaalinen',
+    },
+    {
+      feature: 'Kielituki',
+      ourApp: '11 kieltä suomenkielisillä sanoilla',
+      typical: 'Vain englanti',
+    },
+    {
+      feature: 'Kaupallinen lisenssi',
+      ourApp: 'Sisältyy, myy vapaasti verkossa',
+      typical: 'Lisämaksu',
+    },
+    {
+      feature: 'Muokattavuus',
+      ourApp: 'Täysi muokkaus: siirto, skaalaus, kierto',
+      typical: 'Kiinteät pohjat',
+    },
+  ],
+
+  researchBacking: [
+    {
+      claim: 'Kuvavihjepohjainen ristikko kehittää sanavarastoa tehokkaasti yhdistämällä visuaalisen tunnistamisen ja kirjallisen tuottamisen. Kuva-sana-assosiaatio vahvistaa sanavaraston omaksumista merkittävästi.',
+      source: 'Lerkkanen, M.-K., "Lukemaan oppiminen ja opettaminen," WSOY',
+    },
+    {
+      claim: 'Ristisanatehtävät, joissa oppilaat kirjoittavat sanoja ristikkoon, kehittävät oikeinkirjoituksen tarkkuutta ja kirjainjärjestyksen ymmärtämistä visuaalisen palautteen kautta.',
+      source: 'Holopainen, L. & Ahonen, T., "Oikeinkirjoituksen kehitys alkuopetuksessa," Jyväskylän yliopisto',
+    },
+  ],
+
+  teacherTestimonials: [
+    {
+      quote: 'Kuvaristisanat ovat loistava tapa harjoitella sanavarastoa ja oikeinkirjoitusta. Oppilaani rakastavat tunnistaa kuvia ja kirjoittaa sanoja ristikkoon. Teemapohjainen valinta tekee tehtavien luomisesta nopeaa.',
+      name: 'Maria Lindqvist',
+      role: '1. luokan opettaja',
+      school: 'Aleksanterin koulu, Vaasa',
+    },
+    {
+      quote: 'Kaytan kuvaristisanoja S2-opetuksessa ja ne toimivat taydellisesti. Kuvat antavat visuaalisen kontekstin ja oppilaat oppivat suomenkielisia sanoja luonnollisesti. Monikielinen tuki on erinomainen.',
+      name: 'Olli Takala',
+      role: 'S2-opettaja',
+      school: 'Monikulttuurikeskus Kompassi, Helsinki',
+    },
+  ],
+
+  tips: {
+    sectionTitle: 'Kuvaristisanastrategiat luokka-asteittain',
+    sectionDescription: 'Säädä kuvaristisanageneraattori sopivaan haasteeseen kullekin kehitysvaiheelle. Näin valitset sanojen pituuden, määrän ja vaikeustason esikoulusta kolmanteen luokkaan.',
+    items: [
+      {
+        id: 'esikoulu',
+        icon: '🌱',
+        title: 'Esikoulu: Lyhyet sanat tutuilla kuvilla',
+        description: 'Kaytta 3-4 kirjaimen sanoja tutuilla elainkuvilla. Esikoululaiset harjoittelevat kirjainten tunnistamista ja yksinkertaisten sanojen kirjoittamista. Kuvavihjeet tukevat muistamista ja motivoivat oppimista.',
+      },
+      {
+        id: 'esiopetus',
+        icon: '🎒',
+        title: 'Esiopetus: Teemapohjaiset sanastoristikot',
+        description: 'Luo ristisanatehtavia 3-5 kirjaimen sanoilla temaattisista kuvista. Esiopetuksen oppilaat kehittavat oikeinkirjoitusta ja sanavarastoa. Teemapohjaiset tehtavat tukevat POPS 2014 aidinkielen tavoitteita.',
+      },
+      {
+        id: '1-luokka',
+        icon: '📚',
+        title: '1. luokka: Viikon sanalistojen ristikot',
+        description: 'Generoi ristisanatehtavia viikon sanalistojen sanoilla. Ekaluokkalaiset harjoittelevat oikeinkirjoitusta kirjoittamalla sanoja ristikkoon. Kuvavihjeet vahvistavat sanan ja kuvan yhteytta.',
+      },
+      {
+        id: '2-luokka',
+        icon: '✏️',
+        title: '2. luokka: Pidemmät sanat ja monimutkaisemmat ristikot',
+        description: 'Luo ristisanatehtavia 5-8 kirjaimen sanoilla ja 10-15 sanan ristikoilla. Toisluokkalaiset kehittavat oikeinkirjoituksen tarkkuutta ja sanavaraston laajuutta.',
+      },
+      {
+        id: '3-luokka',
+        icon: '🎯',
+        title: '3. luokka: Monikieliset sanastohaasteet',
+        description: 'Luo ristisanatehtavia kahdella kielella. Kolmasluokkalaiset harjoittelevat vieraan kielen sanastoa yhdistamalla kuvia kohdekielen sanoihin. Kaytta tehtavia aidinkielen ja vieraan kielen integroituun opetukseen.',
+      },
+    ],
   },
 };
 

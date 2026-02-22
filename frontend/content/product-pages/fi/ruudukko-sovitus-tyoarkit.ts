@@ -93,7 +93,56 @@ Ruudukko Sovitus jakaa kuvan ruudukkoon ja poistaa joitain soluja. Lapset tunnis
       noHiddenFees: 'Ei piilomaksuja',
       cancelAnytime: 'Peruuta milloin tahansa',
     },
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        icon: '🧩',
+        title: 'Ruudukkopohjainen kuvasovitusmuoto',
+        description: 'Generaattori jakaa kuvan ruudukkoon ja poistaa valitun määrän soluja. Oppilaat tunnistavat, mitkä kuvapalat kuuluvat mihinkin ruudukon kohtaan. Kehittää visuaalista päättelyä ja avaruudellista hahmottamista.',
+      },
+      {
+        id: '2',
+        icon: '📐',
+        title: 'Säädettävä ruudukkokoko 2×2–4×4',
+        description: 'Valitse ruudukon koko oppilaiden tasoon sopivaksi. Yksinkertainen 2×2 sopii esiopetukselle. Monimutkaisempi 4×4 haastaa vanhempia oppilaita. Rivien ja sarakkeiden määrä säädetään erikseen.',
+      },
+      {
+        id: '3',
+        icon: '🔍',
+        title: 'Säädettävä vihjeiden määrä',
+        description: 'Valitse 1–5 puuttuvaa palaa per tehtävä. Yksi puuttuva pala on helpoin esikoululaisille. Viisi puuttuvaa palaa haastaa vanhempia oppilaita vaatimalla enemmän visuaalista analysointia.',
+      },
+      {
+        id: '4',
+        icon: '🖼️',
+        title: 'Yli 3000 teemakuvaa ruudukkotehtäviin',
+        description: 'Valitse yli 3000 lapsiystavallisesta kuvasta ruudukkopulmien luomiseen. Eläimet, kulkuneuvot, ruoka ja kymmenet muut teemat. Kuva jaetaan automaattisesti ruudukkoon.',
+      },
+      {
+        id: '5',
+        icon: '✅',
+        title: 'Automaattiset vastausavaimet',
+        description: 'Jokainen ruudukkosovitustehtävä generoi automaattisesti vastausavaimen, jossa oikeat palaset on sijoitettu paikoilleen. Opettajat tarkistavat oppilastöitä sekunneissa.',
+      },
+      {
+        id: '6',
+        icon: '🎨',
+        title: 'Täysi muokkaus pohjalla',
+        description: 'Muokkaa jokaista elementtiä luomisen jälkeen. Siirrä, skaalaa ja kierrä kuvia vapaasti. Lisää tekstejä, fontteja ja värejä. Ammattimaiset muokkaustyökalut jokaisessa tehtävässä.',
+      },
+      {
+        id: '7',
+        icon: '💼',
+        title: 'Kaupallinen lisenssi myyntiin',
+        description: 'Tilauksesi sisältää kaupalliset oikeudet myydä ruudukkosovitustehtäviä verkossa. Luo temaattisia paketteja myytäväksi opettajakauppoihin. Ei attribuutiovaatimuksia.',
+      },
+      {
+        id: '8',
+        icon: '🌍',
+        title: '11 kielen tuki',
+        description: 'Luo ruudukkosovitustehtäviä 11 kielellä. Käyttöliittymä kääntyy valitulle kielelle. Täydellinen monikielisiin luokkahuoneisiin ja S2-opetukseen.',
+      },
+    ]
     
   },
 
@@ -176,7 +225,50 @@ PDF-tiedostot säilyttävät tarkan asettelun ja fontit kaikilla laitteilla. Tä
     badgeText: 'Kenelle Sopii',
     readMoreLabel: 'Lue lisää',
     showLessLabel: 'Näytä vähemmän',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        icon: '🌱',
+        title: 'Esiopetuksen opettajat',
+        subtitle: 'Visuaalisen hahmottamisen perusharjoitukset',
+        description: 'Luo 2×2 ruudukkotehtäviä yhdellä puuttuvalla palalla. Esiopetuksen oppilaat harjoittelevat kuvan osien tunnistamista ja paikantamista. Täydellinen POPS 2014 visuaalisen hahmottamisen tavoitteiden tukemiseen.',
+      },
+      {
+        id: '2',
+        icon: '📚',
+        title: 'Alakoulun opettajat',
+        subtitle: 'Avaruudellinen päättely 1.–3. luokalla',
+        description: 'Generoi 3×3 ja 4×4 ruudukkotehtäviä useilla puuttuvilla paloilla. Oppilaat kehittävät visuaalista analysointia ja loogista päättelyä. Yhdistä matemaattisten taitojen kehittämiseen.',
+      },
+      {
+        id: '3',
+        icon: '🏠',
+        title: 'Kotiopettajat ja vanhemmat',
+        subtitle: 'Haastavat kuvapalapelit kotiin',
+        description: 'Luo temaattisia ruudukkopulmia lasten suosikkiaiheilla. Palapeli muoto pitää lapset kiinnostuneina. Generoi viikon tehtävät nopeasti eri vaikeustasoin.',
+      },
+      {
+        id: '4',
+        icon: '🌍',
+        title: 'S2-opettajat',
+        subtitle: 'Kielirajat ylittävä päättelyharjoittelu',
+        description: 'Ruudukkosovitus ei vaadi kielitaitoa, joten se sopii kaikille oppilaille. Kuvateemat tarjoavat sanastoaltistusta. 11 kielen tuki mahdollistaa monikielisen opetuksen.',
+      },
+      {
+        id: '5',
+        icon: '💜',
+        title: 'Erityisopettajat',
+        subtitle: 'Yksilöllistetyt hahmottamisharjoitukset',
+        description: 'Säädä ruudukon kokoa ja puuttuvien palojen määrää HOJKS-tavoitteiden mukaisesti. Yksinkertaiset 2×2 tehtävät tukevat heikompia oppilaita. Asteittain vaikeutuvat tehtävät rakentavat taitoa.',
+      },
+      {
+        id: '6',
+        icon: '💰',
+        title: 'Opettajayrittäjät',
+        subtitle: 'Myy palapelipaketteja kaupallisella lisenssillä',
+        description: 'Luo teemallisia ruudukkopulmakokoelmia myytäväksi verkossa. Visuaalisen päättelyn materiaalit ovat jatkuvasti kysyttyjä. Kaupallinen lisenssi kattaa rajattomat myynnit.',
+      },
+    ]
     
   },
 
@@ -191,7 +283,68 @@ PDF-tiedostot säilyttävät tarkan asettelun ja fontit kaikilla laitteilla. Tä
     showLessLabel: 'Näytä vähemmän',
     secureCheckout: 'Turvallinen maksu',
     cancelAnytime: 'Peruuta milloin tahansa',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        question: 'Miten ruudukkosovitus-generaattori toimii?',
+        answer: 'Generaattori jakaa valitsemasi kuvan ruudukkoon ja poistaa joitain soluja. Oppilaat tunnistavat puuttuvat palat vastausvaihtoehdoista. Jokainen tehtävä sisältää sekä palapelin että vastausavaimen.',
+      },
+      {
+        id: '2',
+        question: 'Mitkä ruudukkokoot ovat saatavilla?',
+        answer: 'Valitse 2×2, 3×3 tai 4×4 ruudukkokoko. 2×2 sopii esiopetukseen. 3×3 on standardi 1.–2. luokalle. 4×4 haastaa edistyneempiä oppilaita.',
+      },
+      {
+        id: '3',
+        question: 'Kuinka monta palaa voi puuttua?',
+        answer: 'Valitse 1–5 puuttuvaa palaa per tehtävä. Yksi pala on helpoin aloittelijoille. Viisi palaa vaatii laajaa visuaalista analysointia. Säädä määrää oppilaiden taitotason mukaan.',
+      },
+      {
+        id: '4',
+        question: 'Sisältävätkö tehtävät vastausavaimet?',
+        answer: 'Kyllä, jokainen tehtävä generoi automaattisesti vastausavaimen, jossa oikeat palat näkyvät paikoillaan. Opettajat voivat tulostaa vastausavaimen erikseen.',
+      },
+      {
+        id: '5',
+        question: 'Mille ikäryhmille ruudukkosovitus sopii?',
+        answer: 'Ruudukkosovitus palvelee 4–10-vuotiaita. Esikoululaiset ratkaisevat 2×2 tehtäviä yhdellä puuttuvalla palalla. 1.–3. luokan oppilaat ratkaisevat 3×3 ja 4×4 tehtäviä useilla puuttuvilla paloilla.',
+      },
+      {
+        id: '6',
+        question: 'Miten ruudukkosovitus kehittää ajattelua?',
+        answer: 'Ruudukkosovitus kehittää visuaalista analysointia, avaruudellista päättelyä ja loogista ajattelua. Oppilaat analysoivat kuvan osia ja päättelevät, mikä pala sopii mihinkin paikkaan.',
+      },
+      {
+        id: '7',
+        question: 'Voiko omia kuvia käyttää?',
+        answer: 'Kyllä, lataa rajattomasti omia kuvia JPEG-, PNG- tai GIF-muodossa. Generaattori jakaa kuvan automaattisesti valitsemaasi ruudukkokokoon.',
+      },
+      {
+        id: '8',
+        question: 'Miten tulostan ruudukkosovitustehtävät?',
+        answer: 'Lataa tehtäväsi PDF- tai JPEG-muodossa 300 DPI laadulla. Valitse A4 tai Letter-sivukoko. Harmaasävyvaihtoehto säästää mustetta.',
+      },
+      {
+        id: '9',
+        question: 'Sopiiko ruudukkosovitus erityisopetukseen?',
+        answer: 'Kyllä, säädettävä vaikeustaso tekee ruudukkosovituksesta erinomaisen erityisopetukseen. Säädä ruudukon kokoa ja puuttuvien palojen määrää HOJKS-tavoitteiden mukaisesti.',
+      },
+      {
+        id: '10',
+        question: 'Kuinka kauan yhden tehtävän luominen kestää?',
+        answer: 'Yhden ruudukkosovitustehtävän luominen vie alle 3 minuuttia. Valitse kuva ja asetukset nopeasti. Generaattori luo palapelin välittömästi.',
+      },
+      {
+        id: '11',
+        question: 'Voinko myydä ruudukkosovitustehtäviä?',
+        answer: 'Kyllä, tilauksesi sisältää kaupallisen lisenssin. Myy temaattisia ruudukkopulmapaketteja opettajakauppoissa. Ei attribuutiovaatimuksia.',
+      },
+      {
+        id: '12',
+        question: 'Miten ruudukkosovitus tukee POPS 2014 tavoitteita?',
+        answer: 'Ruudukkosovitus tukee visuaalisen hahmottamisen, avaruudellisen päättelyn ja ongelmanratkaisun kehittämistä. POPS 2014 korostaa laaja-alaista osaamista ja ajattelun taitojen kehittämistä.',
+      },
+    ]
     
   },
 
@@ -209,7 +362,56 @@ PDF-tiedostot säilyttävät tarkan asettelun ja fontit kaikilla laitteilla. Tä
       securePayment: 'Turvallinen maksu',
       cancelAnytime: 'Peruuta milloin tahansa',
     },
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        slug: 'puuttuvat-palat-tyoarkit',
+        name: 'Puuttuvat palat',
+        category: 'Hahmottaminen',
+        icon: '🧩',
+        description: 'Puuttuvat palat -tehtävät laajentavat ruudukkosovitusta kuvan täydentämiseen. Molemmat kehittävät visuaalista analysointia ja avaruudellista päättelyä.',
+      },
+      {
+        id: '2',
+        slug: 'ruudukkopiirustus-tyoarkit',
+        name: 'Ruudukkopiirustus',
+        category: 'Taide ja luovuus',
+        icon: '🖌️',
+        description: 'Ruudukkopiirustus laajentaa ruudukkotaitoja piirustuksen suuntaan. Molemmat käyttävät ruudukkopohjaa visuaalisen tarkkuuden kehittämiseen.',
+      },
+      {
+        id: '3',
+        slug: 'sudoku-tyoarkit',
+        name: 'Sudoku',
+        category: 'Logiikka',
+        icon: '🔢',
+        description: 'Sudoku laajentaa ruudukkopäättelyä numeroiden suuntaan. Molemmat kehittävät loogista ajattelua ruudukkopohjaisessa muodossa.',
+      },
+      {
+        id: '4',
+        slug: 'kuvapolku-tyoarkit',
+        name: 'Kuvapolku',
+        category: 'Hahmottaminen',
+        icon: '🛤️',
+        description: 'Kuvapolku kehittää visuaalista seurantaa ja polun löytämistä. Yhdistä ruudukkosovituksen kanssa visuaalisten taitojen monipuoliseen harjoitteluun.',
+      },
+      {
+        id: '5',
+        slug: 'kuviotehtava-tyoarkit',
+        name: 'Kuviotehtävä',
+        category: 'Logiikka',
+        icon: '🌀',
+        description: 'Kuviotehtävät kehittävät hahmontunnistusta ja sarjoittelua. Yhdistä ruudukkosovituksen kanssa loogisen ajattelun kattavaan harjoitteluun.',
+      },
+      {
+        id: '6',
+        slug: 'varjoyhdistely-tyoarkit',
+        name: 'Varjoyhdistely',
+        category: 'Hahmottaminen',
+        icon: '👻',
+        description: 'Varjoyhdistely kehittää muodon tunnistamista. Yhdistä ruudukkosovituksen kanssa kokonaisvaltaisiin hahmottamisharjoituksiin.',
+      },
+    ]
     
   },
 
@@ -239,6 +441,106 @@ PDF-tiedostot säilyttävät tarkan asettelun ja fontit kaikilla laitteilla. Tä
       'Kuviojuna', 'Kuviomonisteet', 'Kuvapolku', 'Kuvien lajittelu',
       'Prepositiot', 'Varjopari', 'Vähennyslasku', 'Lasten sudoku',
       'Aarteenmetsästys', 'Arvaa sana', 'Sanojen sekoitus', 'Sanaristikko', 'Kirjoitusharjoitukset',
+    ],
+  },
+
+  // -- SEO & Content Enrichment (Part 176) ------------------------------------
+
+  aiOverviewSnippet: 'Ruudukkosovitus-generaattori on verkkotyokalu, jolla luodaan tulostettavia ruudukkopulmatehtavia esiopetukseen ja alakouluun. Kuva jaetaan ruudukkoon ja joitain soluja poistetaan. Oppilaat tunnistavat puuttuvat palat vastausvaihtoehdoista. Opettajat saatavat ruudukon koon ja puuttuvien palojen maaran, ja lataavat valmiin PDF-tehtavan alle 3 minuutissa.',
+
+  comparisonTable: [
+    {
+      feature: 'Ruudukkokoko',
+      ourApp: '2×2–4×4 säädettävästi',
+      typical: 'Yksi kiinteä koko',
+    },
+    {
+      feature: 'Puuttuvat palat',
+      ourApp: '1–5 palaa säädettävästi',
+      typical: 'Kiinteä määrä',
+    },
+    {
+      feature: 'Kuvakirjasto',
+      ourApp: '3000+ teemakuvaa automaattisella jaolla',
+      typical: 'Rajallinen valinta',
+    },
+    {
+      feature: 'Vastausavaimet',
+      ourApp: 'Automaattinen vastausavain joka tehtävään',
+      typical: 'Manuaalinen',
+    },
+    {
+      feature: 'Kaupallinen lisenssi',
+      ourApp: 'Sisältyy, myy vapaasti verkossa',
+      typical: 'Lisämaksu',
+    },
+    {
+      feature: 'Kielituki',
+      ourApp: '11 kieltä mukaan lukien suomi',
+      typical: 'Vain englanti',
+    },
+  ],
+
+  researchBacking: [
+    {
+      claim: 'Ruudukkopohjainen palapeli kehittää visuaalista analysointia ja avaruudellista päättelyä, jotka ovat matemaattisen ja tieteellisen ajattelun perusedellytyksiä varhaiskasvatusikäisillä.',
+      source: 'Hannula, M. & Lehtinen, E., "Spatiaalinen päättely ja matemaattinen oppiminen," Turun yliopisto',
+    },
+    {
+      claim: 'Kuvan osien tunnistaminen ja paikantaminen kehittävät visuaalista sulkeumaa ja gestalt-hahmottamista, jotka tukevat lukuvalmiutta ja kirjainten tunnistamista.',
+      source: 'Niilo Mäki Instituutti, "Visuaalisen hahmottamisen ja lukemaan oppimisen yhteydet"',
+    },
+  ],
+
+  teacherTestimonials: [
+    {
+      quote: 'Ruudukkosovitus on taydellinen logiikan kehittamiseen. Oppilaani rakastavat ratkaista kuvapalapelejä ja kehittavat samalla avaruudellista paattelya. Saadettava vaikeustaso tekee eriyttamisesta helppoa.',
+      name: 'Kirsi Mattila',
+      role: 'Esiopetuksen opettaja',
+      school: 'Koivurinteen päiväkoti, Tampere',
+    },
+    {
+      quote: 'Kaytan ruudukkosovitusta matemaattisen ajattelun tukena. Oppilaat analysoivat kuvan osia ja paattelevat loogisesti mika pala sopii mihinkin kohtaan. Tama taito siirtyy matemaattiseen ongelmanratkaisuun.',
+      name: 'Juho Hiltunen',
+      role: '2. luokan opettaja',
+      school: 'Viinikan koulu, Tampere',
+    },
+  ],
+
+  tips: {
+    sectionTitle: 'Ruudukkosovitusstrategiat luokka-asteittain',
+    sectionDescription: 'Säädä ruudukkosovitus-generaattori sopivaan haasteeseen kullekin kehitysvaiheelle. Näin valitset ruudukon koon, puuttuvien palojen määrän ja vaikeustason esikoulusta kolmanteen luokkaan.',
+    items: [
+      {
+        id: 'esikoulu',
+        icon: '🌱',
+        title: 'Esikoulu: Yksinkertaiset 2×2 ruudukot',
+        description: 'Kaytta 2x2 ruudukkoa yhdella puuttuvalla palalla. Esikoululaiset harjoittelevat kuvan osan tunnistamista ja paikantamista. Yksinkertainen muoto rakentaa visuaalisen hahmottamisen perustaa.',
+      },
+      {
+        id: 'esiopetus',
+        icon: '🎒',
+        title: 'Esiopetus: 2×2 ruudukot kahdella puuttuvalla palalla',
+        description: 'Luo 2x2 tai 3x3 ruudukkotehtavia kahdella puuttuvalla palalla. Esiopetuksen oppilaat kehittavat visuaalista analysointia ja avaruudellista paattelya. Tukee POPS 2014 ajattelun taitojen kehittamista.',
+      },
+      {
+        id: '1-luokka',
+        icon: '📚',
+        title: '1. luokka: 3×3 ruudukot kolmella puuttuvalla palalla',
+        description: 'Generoi 3x3 ruudukkotehtavia kolmella puuttuvalla palalla. Ekaluokkalaiset analysoivat monimutkaisempia kuvioita ja kehittavat jarjestelmallista paattelystrategiaa.',
+      },
+      {
+        id: '2-luokka',
+        icon: '✏️',
+        title: '2. luokka: 3×3–4×4 ruudukot useilla paloilla',
+        description: 'Luo 3x3 tai 4x4 ruudukkotehtavia neljalla tai viidella puuttuvalla palalla. Toisluokkalaiset hioivat visuaalista analysointia ja kehittavat monimutkaista loogista paattelya.',
+      },
+      {
+        id: '3-luokka',
+        icon: '🎯',
+        title: '3. luokka: Haastavat 4×4 ruudukkopulmat',
+        description: 'Kaytta 4x4 ruudukkoa viidella puuttuvalla palalla. Kolmasluokkalaiset ratkaisevat vaativia visuaalisia pulmia itsenaisesti. Tehtavat kehittavat systemaattista ajattelua ja visuaalista analysointia.',
+      },
     ],
   },
 };

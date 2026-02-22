@@ -93,7 +93,56 @@ Työkalumme sisältää yli 3000 lapsille sopivaa kuvaa 11 kielellä. Kuvien tie
       noHiddenFees: 'Ei piilomaksuja',
       cancelAnytime: 'Peruuta milloin tahansa',
     },
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        icon: '🔎',
+        title: 'I Spy -etsintätila kätketyillä esineillä',
+        description: 'I Spy -tila luo etsintätehtäviä, joissa 1–5 kohdetta on piilotettu 8–12 häiritsevän kuvan joukkoon. Oppilaat skannaavat kuvaa järjestelmällisesti tunnistaakseen piilokuvat. Kehittää visuaalista tarkkaavaisuutta ja keskittymiskykyä.',
+      },
+      {
+        id: '2',
+        icon: '❓',
+        title: 'Odd One Out -poikkeava kuva -tila',
+        description: 'Odd One Out -tila luo tehtäviä, joissa oppilaat tunnistavat kuvan, joka ei kuulu joukkoon. 8–12 kuvaparista 1–3 on parittomia. Kehittää luokittelutaitoja ja loogista ajattelua.',
+      },
+      {
+        id: '3',
+        icon: '⚙️',
+        title: 'Säädettävä vaikeustaso',
+        description: 'Kontrolloi vaikeustasoa häiritsevien kuvien ja kohteiden määrällä. Vähemmän kuvia ja kohdetta sopii nuoremmille lapsille. Enemmän kuvia ja kohteita haastaa vanhempia oppilaita. Säädä täydellisesti oppilaiden taitotason mukaan.',
+      },
+      {
+        id: '4',
+        icon: '🖼️',
+        title: 'Yli 3000 teemakuvaa etsintätehtäviin',
+        description: 'Valitse yli 3000 lapsiystavallisesta kuvasta etsintätehtävien luomiseen. Eläimet, ruoka, kulkuneuvot, muodot ja kymmenet muut teemat. Teemavalinnat täyttävät kuvat automaattisesti.',
+      },
+      {
+        id: '5',
+        icon: '✅',
+        title: 'Automaattiset vastausavaimet',
+        description: 'Jokainen etsintätehtävä generoi automaattisesti vastausavaimen, jossa oikeat kohteet on korostettu. Opettajat tarkistavat oppilastöitä sekunneissa. Vastausavaimet tulostuvat erilliselle sivulle.',
+      },
+      {
+        id: '6',
+        icon: '🎨',
+        title: 'Täysi muokkaus pohjalla',
+        description: 'Muokkaa jokaista elementtiä luomisen jälkeen. Siirrä, skaalaa ja kierrä kuvia vapaasti. Lisää omaa tekstiä, valitse fontteja ja värejä. Lataa taustakuvia ammattimaiseen lopputulokseen.',
+      },
+      {
+        id: '7',
+        icon: '💼',
+        title: 'Kaupallinen lisenssi myyntiin',
+        description: 'Tilauksesi sisältää kaupalliset oikeudet myydä etsintätehtäviä verkossa. Luo temaattisia etsintäpaketteja myytäväksi opettajakauppoihin. Ei attribuutiovaatimuksia eikä lisämaksuja.',
+      },
+      {
+        id: '8',
+        icon: '🌍',
+        title: '11 kielen tuki',
+        description: 'Luo etsintätehtäviä 11 kielellä. Käyttöliittymä ja kuvien nimet kääntyvät valitulle kielelle. Täydellinen monikielisille luokkahuoneille ja S2-opetukseen.',
+      },
+    ]
     
   },
 
@@ -176,7 +225,50 @@ Tulosta tehtävät kotona tai kopiokeskuksessa. Myy ne Teachers Pay Teachers tai
     badgeText: 'Kenelle Sopii',
     readMoreLabel: 'Lue lisää',
     showLessLabel: 'Näytä vähemmän',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        icon: '🌱',
+        title: 'Esiopetuksen opettajat',
+        subtitle: 'Visuaalisen havainnointikyvyn kehittäminen 5–6-vuotiaille',
+        description: 'Luo yksinkertaisia I Spy -tehtäviä vähäisellä häiritsevien kuvien määrällä. Esiopetuksen oppilaat harjoittelevat visuaalista skannausta ja yksityiskohtien havainnointia. Tukee POPS 2014 tarkkaavaisuustaitojen kehittämistä.',
+      },
+      {
+        id: '2',
+        icon: '📚',
+        title: 'Alakoulun opettajat',
+        subtitle: 'Keskittymisharjoituksia 1.–3. luokalle',
+        description: 'Generoi monimutkaisia etsintätehtäviä useammilla kohteilla ja häiritsevillä kuvilla. Oppilaat kehittävät pitkäjänteistä tarkkaavaisuutta ja järjestelmällistä etsintästrategiaa.',
+      },
+      {
+        id: '3',
+        icon: '🏠',
+        title: 'Kotiopettajat ja vanhemmat',
+        subtitle: 'Hauskoja etsintäharjoituksia kotiin',
+        description: 'Luo temaattisia etsintätehtäviä lasten suosikkiaiheilla. Eläin- ja kulkuneuvoteemat pitävät lapset motivoituneina. Generoi viikon tehtävät nopeasti eri vaikeustasoin.',
+      },
+      {
+        id: '4',
+        icon: '🌍',
+        title: 'S2-opettajat',
+        subtitle: 'Sanastoharjoittelua visuaalisella etsinnällä',
+        description: 'Etsintätehtävät tarjoavat sanastoaltistusta kuvapohjaisesti. Oppilaat oppivat uusia sanoja tunnistaessaan kuvia. 11 kielen tuki mahdollistaa monikielisen opetuksen saumattomasti.',
+      },
+      {
+        id: '5',
+        icon: '💜',
+        title: 'Erityisopettajat',
+        subtitle: 'Säädettävä tarkkaavaisuusharjoittelu',
+        description: 'Säädä kohteiden ja häiritsevien kuvien määrää HOJKS-tavoitteiden mukaisesti. Vähän kuvia tukee heikompia oppilaita. Etsintätehtävät kehittävät visuaalista tarkkaavaisuutta oppimisen tuen piirissä.',
+      },
+      {
+        id: '6',
+        icon: '💰',
+        title: 'Opettajayrittäjät',
+        subtitle: 'Myy etsintäpaketteja kaupallisella lisenssillä',
+        description: 'Luo teemallisia etsintäkokoelmia myytäväksi verkossa. I Spy -paketit ovat jatkuvasti suosittuja opettajakauppoissa. Kaupallinen lisenssi kattaa rajattomat myynnit.',
+      },
+    ]
     
   },
 
@@ -191,7 +283,68 @@ Tulosta tehtävät kotona tai kopiokeskuksessa. Myy ne Teachers Pay Teachers tai
     showLessLabel: 'Näytä vähemmän',
     secureCheckout: 'Turvallinen maksu',
     cancelAnytime: 'Peruuta milloin tahansa',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        question: 'Miten etsintätehtävägeneraattori toimii?',
+        answer: 'Generaattori luo kohtauksia, joissa kohde-esineet on piilotettu häiritsevien kuvien joukkoon. Valitse I Spy tai Odd One Out -tila, määritä kuvien määrä ja valitse teema. Generaattori luo valmiin tehtävän vastausavaimineen sekunneissa.',
+      },
+      {
+        id: '2',
+        question: 'Mitkä toimintatilat ovat saatavilla?',
+        answer: 'Kaksi tilaa: I Spy luo etsintätehtäviä, joissa oppilaat etsivät piilotettuja esineitä. Odd One Out luo tehtäviä, joissa oppilaat tunnistavat joukkoon kuulumattoman kuvan. Molemmat kehittävät visuaalista havainnointia.',
+      },
+      {
+        id: '3',
+        question: 'Kuinka monta kohdetta ja häiritsevää kuvaa voi olla?',
+        answer: 'I Spy -tilassa valitse 1–5 piilotettua kohdetta ja 8–12 häiritsevää kuvaa. Odd One Out -tilassa valitse 8–12 kuvapaaria ja 1–3 paritonta kuvaa. Säädä määriä vaikeustason mukaan.',
+      },
+      {
+        id: '4',
+        question: 'Sisältävätkö tehtävät vastausavaimet?',
+        answer: 'Kyllä, jokainen etsintätehtävä generoi automaattisesti vastausavaimen. Oikeat kohteet korostetaan selkeästi. Opettajat voivat tulostaa vastausavaimen erikseen tai näyttää sen dokumenttikameralla.',
+      },
+      {
+        id: '5',
+        question: 'Mille ikäryhmille etsintätehtävät sopivat?',
+        answer: 'Etsintätehtävät palvelevat 4–10-vuotiaita. Esikoululaiset etsivät yksinkertaisia kohteita vähäisellä häirinnillä. 1.–3. luokan oppilaat ratkaisevat monimutkaisempia kohtauksia useilla kohteilla.',
+      },
+      {
+        id: '6',
+        question: 'Miten etsintätehtävät tukevat oppimista?',
+        answer: 'Etsintätehtävät kehittävät visuaalista tarkkaavaisuutta, järjestelmällistä etsintästrategiaa ja keskittymiskykyä. Odd One Out -tila kehittää luokittelutaitoja ja loogista ajattelua.',
+      },
+      {
+        id: '7',
+        question: 'Voiko etsintätehtäviä luoda useilla kielillä?',
+        answer: 'Generaattori luo tehtäviä 11 kielellä mukaan lukien suomi, ruotsi, norja, tanska ja englanti. Kuvien nimet ja käyttöliittymä vaihdetaan valitun kielen mukaisesti.',
+      },
+      {
+        id: '8',
+        question: 'Miten tulostan etsintätehtävät?',
+        answer: 'Lataa tehtäväsi PDF- tai JPEG-muodossa 300 DPI laadulla. Valitse A4 tai Letter-sivukoko. Harmaasävyvaihtoehto säästää värimustetta. Kaikki tehtävät tulostuvat ammattimaisesti.',
+      },
+      {
+        id: '9',
+        question: 'Voiko omia kuvia käyttää?',
+        answer: 'Kyllä, lataa rajattomasti omia kuvia JPEG-, PNG- tai GIF-muodossa. Yhdistä omia kuvia 3000+ kuvakirjaston kuvien kanssa. Käytä luokkavalokuvia tai oppilaiden piirustuksia.',
+      },
+      {
+        id: '10',
+        question: 'Kuinka kauan yhden tehtävän luominen kestää?',
+        answer: 'Yhden etsintätehtävän luominen vie alle 3 minuuttia. Valitse tila ja kuvat 30 sekunnissa. Generaattori rakentaa tehtävän välittömästi. Viikon tehtävät valmistuvat 15 minuutissa.',
+      },
+      {
+        id: '11',
+        question: 'Voinko myydä luomiani etsintätehtäviä?',
+        answer: 'Kyllä, tilauksesi sisältää kaupallisen lisenssin etsintätehtävien myyntiin verkossa. Ei attribuutiovaatimuksia eikä ylimääräisiä lisenssimaksuja.',
+      },
+      {
+        id: '12',
+        question: 'Miten etsintätehtävät tukevat POPS 2014 tavoitteita?',
+        answer: 'Etsintätehtävät tukevat tarkkaavaisuuden, visuaalisen havainnointikyvyn ja keskittymisen kehittämistä. POPS 2014 korostaa sisäistä motivaatiota ja monipuolisia oppimistapoja. Etsintätehtävät toteuttavat molempia tavoitteita.',
+      },
+    ]
     
   },
 
@@ -263,8 +416,157 @@ Tulosta tehtävät kotona tai kopiokeskuksessa. Myy ne Teachers Pay Teachers tai
       securePayment: 'Turvallinen maksu',
       cancelAnytime: 'Peruuta milloin tahansa',
     },
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        slug: 'etsi-ja-laske-tyoarkit',
+        name: 'Etsi ja laske',
+        category: 'Matematiikka',
+        icon: '🔢',
+        description: 'Etsi ja laske yhdistää visuaalisen etsinnän ja laskemisen. Täydentää etsintätehtäviä matemaattisella ulottuvuudella.',
+      },
+      {
+        id: '2',
+        slug: 'varjoyhdistely-tyoarkit',
+        name: 'Varjoyhdistely',
+        category: 'Hahmottaminen',
+        icon: '👻',
+        description: 'Varjoyhdistely kehittää visuaalista erottelua tunnistamalla kuvan varjon. Täydentää etsintätehtäviä hahmottamisharjoituksilla.',
+      },
+      {
+        id: '3',
+        slug: 'poikkea-joukosta-tyoarkit',
+        name: 'Poikkea joukosta',
+        category: 'Logiikka',
+        icon: '🧠',
+        description: 'Poikkea joukosta -tehtävät laajentavat Odd One Out -tilan konseptia eri muotoihin. Yhdistä molemmat luokittelutaitojen kehittämiseen.',
+      },
+      {
+        id: '4',
+        slug: 'kuvalajittelu-tyoarkit',
+        name: 'Kuvalajittelu',
+        category: 'Logiikka',
+        icon: '📋',
+        description: 'Kuvalajittelu kehittää luokittelutaitoja, jotka tukevat etsintätehtävien vaatimaa kategorisointia. Yhdistä monipuolisiin ajatteluharjoituksiin.',
+      },
+      {
+        id: '5',
+        slug: 'kuva-bingo-tyoarkit',
+        name: 'Kuvabingo',
+        category: 'Sanasto',
+        icon: '🎲',
+        description: 'Kuvabingo yhdistää kuvan tunnistamisen pelimuotoon. Etsintätehtävät ja bingo kehittävät molemmat visuaalista tarkkaavaisuutta.',
+      },
+      {
+        id: '6',
+        slug: 'kuvapolku-tyoarkit',
+        name: 'Kuvapolku',
+        category: 'Hahmottaminen',
+        icon: '🛤️',
+        description: 'Kuvapolkutehtävät kehittävät visuaalista seurantaa ja polun löytämistä. Yhdistä etsintätehtävien kanssa visuaalisten taitojen monipuoliseen harjoitteluun.',
+      },
+    ]
     
+  },
+
+  // -- SEO & Content Enrichment (Part 176) ------------------------------------
+
+  aiOverviewSnippet: 'Etsi esineet -generaattori on verkkotyokalu, jolla luodaan tulostettavia visuaalisen havainnoinnin tehtavia esiopetukseen ja alakouluun. I Spy -tila piilottaa esineet hairitsevien kuvien joukkoon, Odd One Out -tila haastaa tunnistamaan joukkoon kuulumattoman kuvan. Opettajat valitsevat tilan, kuvat ja vaikeustason, ja lataavat valmiin PDF-tehtavan alle 3 minuutissa.',
+
+  comparisonTable: [
+    {
+      feature: 'Toimintatilat',
+      ourApp: '2 tilaa: I Spy ja Odd One Out',
+      typical: 'Vain yksi etsintätyyppi',
+    },
+    {
+      feature: 'Kuvakirjasto',
+      ourApp: '3000+ teemakuvaa 50 teemasta',
+      typical: 'Rajallinen kuvavalinta',
+    },
+    {
+      feature: 'Vastausavaimet',
+      ourApp: 'Automaattinen vastausavain joka tehtävään',
+      typical: 'Manuaalinen tai lisämaksullinen',
+    },
+    {
+      feature: 'Vaikeustason säätö',
+      ourApp: 'Kohteiden ja häiritsevien kuvien määrä säädettävissä',
+      typical: 'Kiinteä vaikeustaso',
+    },
+    {
+      feature: 'Kaupallinen lisenssi',
+      ourApp: 'Sisältyy, myy vapaasti verkossa',
+      typical: 'Lisämaksu tai ei saatavilla',
+    },
+    {
+      feature: 'Kielituki',
+      ourApp: '11 kieltä mukaan lukien suomi',
+      typical: 'Vain englanti',
+    },
+  ],
+
+  researchBacking: [
+    {
+      claim: 'Visuaalisen etsinnän tehtävät kehittävät pitkäjänteistä tarkkaavaisuutta ja järjestelmällistä skannausta, jotka ovat lukemisen ja oppimisen perusedellytyksiä varhaiskasvatusikäisillä.',
+      source: 'Ahonen, T. et al., "Tarkkaavaisuuden ja oppimisen yhteydet," Niilo Mäki Instituutti',
+    },
+    {
+      claim: 'Kuvapohjaisten etsintätehtävien säännöllinen harjoittelu parantaa visuaalista erottelukykyä ja yksityiskohtien havainnointia, jotka tukevat kirjainten tunnistamista ja lukutaidon kehittymistä.',
+      source: 'Holopainen, L., "Visuaalisen havainnoinnin merkitys lukemaan oppimisessa," Jyväskylän yliopisto',
+    },
+  ],
+
+  teacherTestimonials: [
+    {
+      quote: 'I Spy -tehtavat ovat ehdottomasti luokkani suosikkeja. Lapset keskittyvat etsintaan pitkaan ja kehittavat samalla visuaalista havainnointia. Odd One Out -tila on loistava loogisen ajattelun kehittamiseen.',
+      name: 'Johanna Väisänen',
+      role: '1. luokan opettaja',
+      school: 'Puistolan koulu, Kuopio',
+    },
+    {
+      quote: 'Kaytan etsintatehtavia aamutyoskentelyssa ja odotusaikoina. Oppilaani ovat oppineet skannaamaan kuvia jarjestelmallisesti eivatkaa enaa katsele satunnaisesti. Tama taito siirtyy lukemiseenkin.',
+      name: 'Heikki Leppänen',
+      role: 'Erityisopettaja',
+      school: 'Keski-Suomen sairaanhoitopiiri, Jyväskylä',
+    },
+  ],
+
+  tips: {
+    sectionTitle: 'Etsintästrategiat luokka-asteittain',
+    sectionDescription: 'Säädä etsintätehtävägeneraattori sopivaan haasteeseen kullekin kehitysvaiheelle. Näin valitset tilan, kohteiden määrän ja vaikeustason esikoulusta kolmanteen luokkaan.',
+    items: [
+      {
+        id: 'esikoulu',
+        icon: '🌱',
+        title: 'Esikoulu: Yksinkertaiset etsintätehtävät',
+        description: 'Kaytta I Spy -tilaa yhdella kohteella ja 6-8 hairitsevalla kuvalla. Esikoululaiset harjoittelevat kuvan tunnistamista ja visuaalista skannausta. Yksinkertainen muoto rakentaa tarkkaavaisuuden perustaa.',
+      },
+      {
+        id: 'esiopetus',
+        icon: '🎒',
+        title: 'Esiopetus: Teemapohjaiset etsintähaasteet',
+        description: 'Luo I Spy -tehtavia 2-3 kohteella ja 8-10 hairitsevalla kuvalla. Esiopetuksen oppilaat kehittavat jarjestelmallista etsintastrategiaa. Lisa Odd One Out -tehtavia luokittelutaitojen tukemiseen POPS 2014 tavoitteiden mukaisesti.',
+      },
+      {
+        id: '1-luokka',
+        icon: '📚',
+        title: '1. luokka: Monimutkaisemmat kohtaukset',
+        description: 'Generoi I Spy -tehtavia 3-4 kohteella ja 10-12 hairitsevalla kuvalla. Ekaluokkalaiset kehittavat pitkajanteista tarkkaavaisuutta ja visuaalista erottelua. Odd One Out haastaa luokittelutaitoja.',
+      },
+      {
+        id: '2-luokka',
+        icon: '✏️',
+        title: '2. luokka: Haastavat etsintäpulmat',
+        description: 'Luo molempia tiloja 4-5 kohteella tai 3 parittomalla kuvalla. Toisluokkalaiset hioivat visuaalista analysointia ja loogista paattelya. Tehtavat kehittavat systemaattista ajattelua.',
+      },
+      {
+        id: '3-luokka',
+        icon: '🎯',
+        title: '3. luokka: Monipuoliset visuaaliset haasteet',
+        description: 'Kaytta molempia tiloja maksimaalisilla kuvamaarilla. Kolmasluokkalaiset harjoittelevat vaativaa visuaalista analysointia ja luokittelua. Kaytta tehtavia laaja-alaisen osaamisen kehittamiseen.',
+      },
+    ],
   },
 };
 

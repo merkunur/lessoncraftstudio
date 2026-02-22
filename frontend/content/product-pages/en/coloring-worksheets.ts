@@ -113,6 +113,28 @@ Every element on your coloring page is fully editable. Drag images anywhere on t
         title: 'Commercial License Included',
         description: 'Sell coloring worksheets on Teachers Pay Teachers, Etsy, or Amazon KDP with the commercial license included in your subscription. No attribution fees or additional licensing costs required.',
       },
+    
+      {
+        id: '8',
+        icon: '✅',
+        title: 'Auto-Generated Answer Keys for Every Coloring Worksheet',
+        description: 'Every coloring worksheet automatically generates a matching answer key showing all correct responses clearly marked. Teachers verify student work in seconds without solving exercises themselves. Print answer keys on separate pages for self-checking stations or display on document cameras during whole-class review sessions. The verification system guarantees accuracy for confident grading across entire class sets.',
+        highlighted: false,
+      },
+      {
+        id: '9',
+        icon: '🎨',
+        title: 'Themed Backgrounds and Decorative Borders for Coloring Worksheets',
+        description: 'Choose from dozens of themed backgrounds including chalkboard, notebook paper, rainbow, clouds, and seasonal designs to enhance your coloring worksheets visually. Add decorative borders featuring stars, hearts, flowers, or school supplies around page edges. Adjust opacity for subtle or prominent effects. Professional visual design increases student engagement and creates polished materials suitable for classroom display or marketplace sales.',
+        highlighted: false,
+      },
+      {
+        id: '10',
+        icon: '🖌️',
+        title: 'Outline Image Generation From 3000+ Full-Color Source Pictures',
+        description: 'Our coloring worksheet generator automatically converts full-color themed images into clean black-and-white outlines optimized for coloring activities. Every image from our 3000+ library produces professional-quality line art with clear boundaries and age-appropriate detail levels. Thick outlines suit preschool motor development while detailed outlines challenge older students. The automatic conversion eliminates manual tracing work entirely.',
+        highlighted: false,
+      },
     ],
 
   },
@@ -432,8 +454,8 @@ Downloaded coloring worksheets save to your computer's Downloads folder automati
       },
       {
         id: '5',
-        slug: 'matchup-maker-worksheets',
-        name: 'MatchUp Maker',
+        slug: 'matching-worksheets',
+        name: 'Matching Worksheets',
         category: 'Early Learning',
         icon: '🔗',
         description: 'Combine coloring pages with matching activities for kindergarten learning packets. Students match related images and then color them, reinforcing visual memory and vocabulary associations through two engaging activities.',

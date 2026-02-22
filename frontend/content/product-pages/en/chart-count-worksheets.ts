@@ -71,7 +71,78 @@ Every picture graph worksheet downloads as a professional 300 DPI file in PDF or
     sectionTitle: 'Picture Graph Worksheet Features',
     sectionDescription: 'Our picture graph worksheet generator includes every feature kindergarten and first grade teachers need to create professional math worksheets. Select images from thousands of child-friendly options. Generate worksheets in seconds. Customize every element on the canvas. Download high-quality printable files. All features work together to create engaging counting and graphing activities that build essential math skills for young learners.',
     highlightBadgeText: 'Key Feature',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        icon: '📊',
+        title: 'Picture Chart Generation With Themed Images for Visual Data',
+        description: 'Generate professional picture charts where students count themed images organized in visual data displays. Each chart uses colorful images from our 3000+ library arranged in rows or columns representing different categories. Students practice one-to-one correspondence counting while learning fundamental data literacy skills that form the basis of graphing and statistics comprehension.',
+        highlighted: true,
+      },
+      {
+        id: '2',
+        icon: '🔢',
+        title: 'Multiple Counting Modes From Simple Tally to Data Comparison',
+        description: 'Choose from several counting exercise types that build mathematical thinking progressively. Count and write mode asks students to tally each category total. Compare mode asks which category has more or fewer. How many more challenges subtraction thinking. Match to number mode connects quantities to written numerals for number recognition practice.',
+        highlighted: false,
+      },
+      {
+        id: '3',
+        icon: '⚙️',
+        title: 'Adjustable Category Count and Item Quantities Per Chart',
+        description: 'Control chart complexity by setting two to six image categories and one to ten items per category. Simple two-category charts with small quantities suit preschool counting practice. Complex multi-category charts with larger quantities challenge first and second graders developing data analysis skills and multi-digit counting fluency across visual representations.',
+        highlighted: false,
+      },
+      {
+        id: '4',
+        icon: '🖼️',
+        title: '3000+ Themed Images for Creating Engaging Counting Charts',
+        description: 'Browse over 3000 child-friendly images organized by theme for picture chart elements. Choose animals for science connections, food for nutrition units, or vehicles for transportation themes. Theme-based generation creates cohesive visual data displays that connect counting practice to familiar real-world categories students find engaging and motivating.',
+        highlighted: false,
+      },
+      {
+        id: '5',
+        icon: '✅',
+        title: 'Auto-Generated Answer Keys Showing Correct Counts and Comparisons',
+        description: 'Every chart and count worksheet generates a complete answer key with correct totals for each category. Comparison answers clearly indicate which group has more or fewer items. Teachers grade entire class sets quickly using the verification page. Print answer keys separately for student self-checking or display on document cameras during whole-group review.',
+        highlighted: false,
+      },
+      {
+        id: '6',
+        icon: '🎨',
+        title: 'Full Canvas Editing for Custom Chart Layouts and Designs',
+        description: 'Customize every element on the canvas after generation. Drag charts to reposition them on the page. Resize for emphasis or to fit multiple activities per sheet. Add custom titles, labels, and student name fields using professional text tools. Apply themed backgrounds and borders to create polished materials suitable for classroom display or commercial sale.',
+        highlighted: false,
+      },
+      {
+        id: '7',
+        icon: '📤',
+        title: 'Upload Custom Images for Curriculum-Specific Data Activities',
+        description: 'Upload classroom photos, science experiment images, or curriculum-specific pictures to create data collection activities directly tied to current lessons. Students count and chart images from their own learning experiences. Combine uploaded images with library selections for comprehensive themed data worksheets that bridge math skills with content area instruction.',
+        highlighted: false,
+      },
+      {
+        id: '8',
+        icon: '🌍',
+        title: 'Eleven Language Support for Multilingual Math Instruction',
+        description: 'Generate chart and count worksheets in English, Spanish, French, German, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian, or Finnish. All labels, instructions, and question prompts translate automatically. Create bilingual math activities where students practice data literacy vocabulary in their native language alongside mathematical counting concepts.',
+        highlighted: false,
+      },
+      {
+        id: '9',
+        icon: '🖨️',
+        title: 'High-Resolution PDF and JPEG Export at Professional Print Quality',
+        description: 'Download completed worksheets at 300 DPI resolution in PDF or JPEG format. Professional output quality ensures clear images and sharp text for classroom printing. Grayscale mode preserves chart readability while reducing ink costs. Both formats work perfectly for homework packets, math center activities, and commercial worksheet bundles.',
+        highlighted: false,
+      },
+      {
+        id: '10',
+        icon: '💼',
+        title: 'Commercial License for Selling Data Literacy Worksheets',
+        description: 'Your subscription includes commercial licensing to sell chart and count worksheets on Teachers Pay Teachers, Etsy, and other educational marketplaces. Create themed counting bundles organized by season, subject, or grade level. Data literacy worksheets are in high demand for kindergarten and first grade. No attribution required and no extra licensing fees.',
+        highlighted: false,
+      },
+    ], // Samples loaded dynamically from content manager
     
   },
 
@@ -157,7 +228,56 @@ All downloads export at professional 300 DPI resolution. This high quality ensur
   useCases: {
     sectionTitle: 'Perfect for Teachers, Parents, and Educators',
     sectionDescription: 'Picture graph worksheets serve diverse educational needs across multiple teaching environments. Kindergarten teachers use these counting and graphing activities for math centers and whole-group instruction. First grade teachers build data literacy skills that appear in state mathematics standards. Homeschool parents create personalized worksheets featuring their children\'s interests. ESL instructors leverage visual learning for language acquisition. Special education teachers customize worksheets for individual learning needs. Teacher entrepreneurs sell professionally designed graphing worksheets online. Every educator benefits from the combination of automatic generation, full customization, and printable quality.',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        icon: '👩‍🏫',
+        title: 'Kindergarten Teachers: Data Literacy Development',
+        subtitle: 'Chart & Count Worksheets for Ages 5-6 Classroom Activities',
+        description: 'Kindergarten teachers integrate chart and count worksheets into daily routines as engaging math center activities. Set difficulty to beginner level with simple exercises that build data literacy and counting fluency progressively. The visual format requires minimal reading so students work independently after brief teacher modeling. Create themed worksheets matching current classroom units for cross-curricular connections. Generate multiple versions using different image themes for variety throughout the week.',
+        quote: 'My kindergarteners love the chart & count worksheets. They ask for more every day!',
+      },
+      {
+        id: '2',
+        icon: '📚',
+        title: 'First Grade Teachers: Building Data Literacy Skills',
+        subtitle: 'Advanced Chart & Count Activities for Independent Practice',
+        description: 'First grade teachers use chart and count worksheets at increased difficulty levels for independent practice and early finisher activities. Students develop data literacy and counting fluency through progressively challenging exercises that build confidence and persistence. Create differentiated worksheet sets using the same theme at multiple levels for seamless classroom management. The picture chart activities work perfectly for morning routines, homework packets, and assessment preparation activities.',
+        quote: 'Chart & Count worksheets are my go-to early finisher activity. Students stay engaged until the bell.',
+      },
+      {
+        id: '3',
+        icon: '🌟',
+        title: 'Special Education Teachers: Accessible Chart & Count Activities',
+        subtitle: 'Visual Learning Supports for Diverse Abilities',
+        description: 'Special education teachers value chart and count worksheets because the visual format accommodates diverse learning needs without requiring strong reading skills. Adjust difficulty settings to create individualized worksheets matching each student\\'s developmental level. The image-based exercises build data literacy and counting fluency through concrete visual experiences rather than abstract concepts. Create consistent routine activities using familiar image themes that reduce anxiety while building essential cognitive skills.',
+        quote: 'The adjustable difficulty lets me create chart & count sheets perfect for each student\\'s level.',
+      },
+      {
+        id: '4',
+        icon: '🌍',
+        title: 'ESL Teachers: Language-Free Chart & Count Practice',
+        subtitle: 'Visual Activities Accessible at All Language Levels',
+        description: 'ESL teachers incorporate chart and count worksheets as equitable activities where all students participate regardless of English proficiency. The picture chart activities require visual analysis rather than language comprehension, creating natural entry points for newcomer students. Use themed images to build vocabulary connections as students discuss their work. Generate worksheets in eleven languages to provide instructions in students\\' primary language while developing data literacy and counting fluency.',
+        quote: 'My newcomer students complete chart & count worksheets with the same confidence as native speakers.',
+      },
+      {
+        id: '5',
+        icon: '🏠',
+        title: 'Homeschool Parents: Self-Paced Chart & Count Learning',
+        subtitle: 'Independent Practice Activities for Home Education',
+        description: 'Homeschool parents appreciate chart and count worksheets as independent practice activities that develop data literacy and counting fluency without requiring constant supervision. Create progressive difficulty sets for self-paced skill building across multiple sessions. The visual format engages children who struggle with text-heavy worksheets. Generate themed versions connecting to current unit studies for integrated learning. One subscription provides unlimited worksheet creation for multiple children at different ability levels.',
+        quote: 'My kids work through chart & count sheets independently while I teach their siblings.',
+      },
+      {
+        id: '6',
+        icon: '💰',
+        title: 'Teacher Entrepreneurs: Chart & Count Bundles for Marketplace',
+        subtitle: 'Create and Sell Professional Worksheet Products Online',
+        description: 'Teacher entrepreneurs create themed chart and count worksheets bundles for Teachers Pay Teachers, Etsy, and Amazon KDP. Package worksheets by theme, difficulty level, or seasonal collections for maximum marketplace appeal. The picture chart activities fill a consistent demand niche in early childhood education. Your subscription includes commercial licensing with no additional fees or attribution requirements. Create holiday packs, themed bundles, and progressive difficulty series generating passive income from your teaching expertise.',
+        quote: 'My chart & count bundles sell consistently. The themed sets are especially popular.',
+      },
+    ], // Samples loaded dynamically from content manager
     
   },
 
@@ -333,7 +453,56 @@ All downloads export at professional 300 DPI resolution. This high quality ensur
     ctaDescription: 'Join thousands of educators creating professional worksheets. Unlimited generation, commercial license included.',
     primaryCtaText: 'Start Free Trial',
     secondaryCtaText: 'View All 33 Apps',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        slug: 'addition-worksheets',
+        name: 'Addition Worksheets',
+        category: 'Math',
+        icon: '➕',
+        description: 'Extend chart & count practice with addition worksheets for well-rounded skill development. Students benefit from addition practice with visual counting and number sentences alongside chart & count activities. Create themed bundles that keep learners engaged across multiple skill areas.',
+      },
+      {
+        id: '2',
+        slug: 'find-and-count-worksheets',
+        name: 'Find & Count Worksheets',
+        category: 'Visual Skills',
+        icon: '🔢',
+        description: 'Add find & count worksheets to your chart & count rotation for diverse learning opportunities. The counting-based search activities combining math with visual scanning activities build skills that complement chart & count practice. Generate complete themed packets covering both worksheet types in minutes.',
+      },
+      {
+        id: '3',
+        slug: 'more-less-worksheets',
+        name: 'More or Less Worksheets',
+        category: 'Math',
+        icon: '⚖️',
+        description: 'Supplement chart & count worksheets with more or less exercises for balanced instruction. The quantity comparison activities for early number sense format provides variety that keeps students motivated. Mix both generators to create professional learning packets for any classroom theme.',
+      },
+      {
+        id: '4',
+        slug: 'math-worksheets',
+        name: 'Math Worksheets',
+        category: 'Math',
+        icon: '📊',
+        description: 'Bridge chart & count concepts with math activities for deeper understanding. Students practice general math activities covering number recognition and operations while building on chart & count foundations. Combine both worksheet generators for comprehensive themed learning bundles.',
+      },
+      {
+        id: '5',
+        slug: 'pattern-worksheets',
+        name: 'Pattern Worksheets',
+        category: 'Logic & Puzzles',
+        icon: '🔄',
+        description: 'Extend chart & count practice with pattern worksheets for well-rounded skill development. Students benefit from pattern recognition and sequence completion exercises alongside chart & count activities. Create themed bundles that keep learners engaged across multiple skill areas.',
+      },
+      {
+        id: '6',
+        slug: 'picture-sort-worksheets',
+        name: 'Picture Sort Worksheets',
+        category: 'Visual Skills',
+        icon: '🗂️',
+        description: 'Add picture sort worksheets to your chart & count rotation for diverse learning opportunities. The categorization and sorting activities with picture groups activities build skills that complement chart & count practice. Generate complete themed packets covering both worksheet types in minutes.',
+      },
+    ], // Samples loaded dynamically from content manager
 
   },
 

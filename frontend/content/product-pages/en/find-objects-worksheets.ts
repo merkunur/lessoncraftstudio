@@ -31,7 +31,9 @@ Our find objects worksheet maker helps teachers create two types of visual discr
 
 Full Access subscription includes all 33 worksheet generator types. Create find objects worksheets combined with math worksheets, phonics worksheets, and alphabet worksheets. Your subscription includes commercial licensing for selling worksheets on Teachers Pay Teachers and Etsy. Professional 300 DPI quality ensures perfect printing every time.
 
-Teachers use our find objects generator to build visual perception skills in young learners. Kindergarten teachers create simple worksheets with fewer objects for developing attention span. First grade teachers design complex worksheets with more objects and challenging distractors. All worksheets download as printable PDFs ready for classroom use or commercial sale.`,
+Teachers use our find objects generator to build visual perception skills in young learners. Kindergarten teachers create simple worksheets with fewer objects for developing attention span. First grade teachers design complex worksheets with more objects and challenging distractors. All worksheets download as printable PDFs ready for classroom use or commercial sale.
+
+The find objects generator creates scenes where target items blend naturally among thematic distractors, challenging students to scan systematically rather than randomly. Teachers control the number of hidden targets and overall scene density to match student abilities precisely. Simple scenes with few targets suit preschool visual development while complex scenes with many overlapping objects challenge older students developing sustained attention skills.`,
     previewImageSrc: '/samples/english/find-objects/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Try Free',
@@ -71,7 +73,78 @@ Teachers use our find objects generator to build visual perception skills in you
     sectionTitle: 'Find Objects Worksheet Generator Features - Create Free Printable Visual Discrimination Worksheets',
     sectionDescription: 'Our find objects worksheet generator provides complete customization for creating kindergarten worksheets and first grade worksheets. The platform includes two distinct activity modes with professional editing tools. Teachers create printable worksheets for visual discrimination practice in under three minutes. Full Access subscription unlocks all features across 33 worksheet generator types including math worksheets, alphabet worksheets, and phonics worksheets.',
     highlightBadgeText: 'Key Feature',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        icon: '🔎',
+        title: 'Hidden Object Search Scenes With Themed Image Collections',
+        description: 'Generate professional hidden object worksheets where students locate specific target images concealed within visually rich themed scenes. Each scene blends target objects among carefully placed distractors creating genuine visual scanning challenges. Children develop sustained attention, figure-ground discrimination, and systematic search strategies while engaging with familiar themed imagery.',
+        highlighted: true,
+      },
+      {
+        id: '2',
+        icon: '🎯',
+        title: 'Adjustable Target Count and Scene Complexity Levels',
+        description: 'Control difficulty by setting the number of hidden targets from three to twelve and adjusting scene density from sparse to richly populated. Fewer targets in simple scenes suit preschool visual development. Many targets hidden among dense distractors challenge older students, building the systematic search strategies and sustained attention needed for academic success.',
+        highlighted: false,
+      },
+      {
+        id: '3',
+        icon: '🖼️',
+        title: '3000+ Themed Images for Creating Immersive Search Environments',
+        description: 'Browse over 3000 child-friendly images organized by dozens of themes for scene construction. Choose animals for nature units, food for nutrition lessons, or seasonal items for holiday activities. The generator creates visually immersive environments where hidden objects blend naturally among thematically related distractors, making search activities engaging and educationally meaningful.',
+        highlighted: false,
+      },
+      {
+        id: '4',
+        icon: '✅',
+        title: 'Answer Keys With Circled Target Locations for Quick Grading',
+        description: 'Every hidden object worksheet generates a matching answer key with all target locations clearly circled and labeled. Teachers verify student work instantly by comparing found objects against the verification page. Print answer keys for self-checking stations or display them during whole-class review sessions. Accurate answers are guaranteed by the generation algorithm.',
+        highlighted: false,
+      },
+      {
+        id: '5',
+        icon: '🎨',
+        title: 'Full Canvas Editing for Polished Professional Worksheets',
+        description: 'Customize every element after generation. Reposition scenes, adjust image sizes, and fine-tune layouts for optimal visual clarity. Add target image previews, instructions, student name fields, and custom text using professional typography tools. Apply themed backgrounds and decorative borders for visually appealing materials suitable for both classroom use and commercial sale.',
+        highlighted: false,
+      },
+      {
+        id: '6',
+        icon: '🕳️',
+        title: 'Multiple Search Modes Including Circle Find and Check-Off',
+        description: 'Choose between different activity formats to vary the search experience. Circle mode has students draw circles around found objects directly on the scene. Check-off mode provides a target list where students mark each item as discovered. Count mode combines searching with tallying how many of each target appear throughout the scene for added mathematical practice.',
+        highlighted: false,
+      },
+      {
+        id: '7',
+        icon: '📤',
+        title: 'Upload Custom Images for Personalized Hidden Object Scenes',
+        description: 'Upload your own images to create personalized search activities tied to classroom themes or student interests. Use photos from field trips, science experiments, or current curriculum topics. Combine uploaded images with library selections for rich diverse scenes where students search for familiar objects from their own learning experiences.',
+        highlighted: false,
+      },
+      {
+        id: '8',
+        icon: '🌍',
+        title: 'Eleven Language Support for International Classroom Use',
+        description: 'Generate hidden object worksheets in English, Spanish, French, German, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian, or Finnish. All instructions, target labels, and prompts translate automatically. Perfect for bilingual classrooms and ESL programs where students build visual vocabulary alongside visual discrimination skills in their native language.',
+        highlighted: false,
+      },
+      {
+        id: '9',
+        icon: '🖨️',
+        title: 'High-Resolution PDF and JPEG Export for Crisp Printing',
+        description: 'Download at 300 DPI resolution ensuring every hidden detail remains sharp and discoverable when printed. PDF format preserves image quality for standard paper printing while JPEG works for digital classroom distribution. Grayscale mode saves ink while maintaining enough visual contrast for successful object identification within complex scenes.',
+        highlighted: false,
+      },
+      {
+        id: '10',
+        icon: '💼',
+        title: 'Commercial License Included for Educational Marketplace Sales',
+        description: 'Your subscription includes commercial licensing to sell hidden object worksheets on Teachers Pay Teachers, Etsy, and other marketplaces. Create themed search bundles organized by difficulty, season, or curriculum topic. Visual search worksheets are consistently popular with parents and teachers. No attribution required and no additional licensing fees apply.',
+        highlighted: false,
+      },
+    ], // Samples loaded dynamically from content manager
     
   },
 
@@ -123,7 +196,56 @@ Teachers use our find objects generator to build visual perception skills in you
   useCases: {
     sectionTitle: 'Who Uses Find Objects Worksheets - Visual Discrimination Worksheet Generator for Educators',
     sectionDescription: 'Visual discrimination worksheets serve diverse educational settings and teaching styles. Kindergarten teachers use find objects worksheets for attention development. First grade teachers build advanced visual perception skills. Homeschool parents create personalized learning materials. ESL teachers develop vocabulary through visual context. Special education teachers adapt difficulty levels for individual needs. Teacher entrepreneurs generate income selling printable worksheets. The find objects generator supports all these users with flexible customization and professional quality output.',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        icon: '👩‍🏫',
+        title: 'Kindergarten Teachers: Visual Discrimination Development',
+        subtitle: 'Find Objects Worksheets for Ages 5-6 Classroom Activities',
+        description: 'Kindergarten teachers integrate hidden object worksheets into daily routines as engaging sensory center activities. Set difficulty to beginner level with simple exercises that build visual discrimination and sustained attention progressively. The visual format requires minimal reading so students work independently after brief teacher modeling. Create themed worksheets matching current classroom units for cross-curricular connections. Generate multiple versions using different image themes for variety throughout the week.',
+        quote: 'My kindergarteners love the find objects worksheets. They ask for more every day!',
+      },
+      {
+        id: '2',
+        icon: '📚',
+        title: 'First Grade Teachers: Building Visual Discrimination Skills',
+        subtitle: 'Advanced Find Objects Activities for Independent Practice',
+        description: 'First grade teachers use hidden object worksheets at increased difficulty levels for independent practice and early finisher activities. Students develop visual discrimination and sustained attention through progressively challenging exercises that build confidence and persistence. Create differentiated worksheet sets using the same theme at multiple levels for seamless classroom management. The visual search activities work perfectly for morning routines, homework packets, and assessment preparation activities.',
+        quote: 'Find Objects worksheets are my go-to early finisher activity. Students stay engaged until the bell.',
+      },
+      {
+        id: '3',
+        icon: '🌟',
+        title: 'Special Education Teachers: Accessible Find Objects Activities',
+        subtitle: 'Visual Learning Supports for Diverse Abilities',
+        description: 'Special education teachers value hidden object worksheets because the visual format accommodates diverse learning needs without requiring strong reading skills. Adjust difficulty settings to create individualized worksheets matching each student\\'s developmental level. The image-based exercises build visual discrimination and sustained attention through concrete visual experiences rather than abstract concepts. Create consistent routine activities using familiar image themes that reduce anxiety while building essential cognitive skills.',
+        quote: 'The adjustable difficulty lets me create find objects sheets perfect for each student\\'s level.',
+      },
+      {
+        id: '4',
+        icon: '🌍',
+        title: 'ESL Teachers: Language-Free Find Objects Practice',
+        subtitle: 'Visual Activities Accessible at All Language Levels',
+        description: 'ESL teachers incorporate hidden object worksheets as equitable activities where all students participate regardless of English proficiency. The visual search activities require visual analysis rather than language comprehension, creating natural entry points for newcomer students. Use themed images to build vocabulary connections as students discuss their work. Generate worksheets in eleven languages to provide instructions in students\\' primary language while developing visual discrimination and sustained attention.',
+        quote: 'My newcomer students complete find objects worksheets with the same confidence as native speakers.',
+      },
+      {
+        id: '5',
+        icon: '🏠',
+        title: 'Homeschool Parents: Self-Paced Find Objects Learning',
+        subtitle: 'Independent Practice Activities for Home Education',
+        description: 'Homeschool parents appreciate hidden object worksheets as independent practice activities that develop visual discrimination and sustained attention without requiring constant supervision. Create progressive difficulty sets for self-paced skill building across multiple sessions. The visual format engages children who struggle with text-heavy worksheets. Generate themed versions connecting to current unit studies for integrated learning. One subscription provides unlimited worksheet creation for multiple children at different ability levels.',
+        quote: 'My kids work through find objects sheets independently while I teach their siblings.',
+      },
+      {
+        id: '6',
+        icon: '💰',
+        title: 'Teacher Entrepreneurs: Find Objects Bundles for Marketplace',
+        subtitle: 'Create and Sell Professional Worksheet Products Online',
+        description: 'Teacher entrepreneurs create themed hidden object worksheets bundles for Teachers Pay Teachers, Etsy, and Amazon KDP. Package worksheets by theme, difficulty level, or seasonal collections for maximum marketplace appeal. The visual search activities fill a consistent demand niche in early childhood education. Your subscription includes commercial licensing with no additional fees or attribution requirements. Create holiday packs, themed bundles, and progressive difficulty series generating passive income from your teaching expertise.',
+        quote: 'My find objects bundles sell consistently. The themed sets are especially popular.',
+      },
+    ], // Samples loaded dynamically from content manager
     
   },
 
@@ -301,7 +423,56 @@ Teachers use our find objects generator to build visual perception skills in you
     ctaDescription: 'Join educators creating professional worksheets. Unlimited generation, commercial license included.',
     primaryCtaText: 'Start Free Trial',
     secondaryCtaText: 'View All 33 Apps',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        slug: 'find-and-count-worksheets',
+        name: 'Find & Count Worksheets',
+        category: 'Visual Skills',
+        icon: '🔢',
+        description: 'Supplement find objects worksheets with find & count exercises for balanced instruction. The counting-based search activities combining math with visual scanning format provides variety that keeps students motivated. Mix both generators to create professional learning packets for any classroom theme.',
+      },
+      {
+        id: '2',
+        slug: 'treasure-hunt-worksheets',
+        name: 'Treasure Hunt Worksheets',
+        category: 'Logic & Puzzles',
+        icon: '🏴‍☠️',
+        description: 'Supplement find objects worksheets with treasure hunt exercises for balanced instruction. The adventure-themed search and find puzzle activities format provides variety that keeps students motivated. Mix both generators to create professional learning packets for any classroom theme.',
+      },
+      {
+        id: '3',
+        slug: 'shadow-match-worksheets',
+        name: 'Shadow Match Worksheets',
+        category: 'Visual Skills',
+        icon: '👤',
+        description: 'Bridge find objects concepts with shadow match activities for deeper understanding. Students practice silhouette matching activities for shape recognition while building on find objects foundations. Combine both worksheet generators for comprehensive themed learning bundles.',
+      },
+      {
+        id: '4',
+        slug: 'picture-path-worksheets',
+        name: 'Picture Path Worksheets',
+        category: 'Logic & Puzzles',
+        icon: '🗺️',
+        description: 'Extend find objects practice with picture path worksheets for well-rounded skill development. Students benefit from maze-style path tracing with picture-based navigation alongside find objects activities. Create themed bundles that keep learners engaged across multiple skill areas.',
+      },
+      {
+        id: '5',
+        slug: 'odd-one-out-worksheets',
+        name: 'Odd One Out Worksheets',
+        category: 'Logic & Puzzles',
+        icon: '🔍',
+        description: 'Supplement find objects worksheets with odd one out exercises for balanced instruction. The classification activities finding the item that does not belong format provides variety that keeps students motivated. Mix both generators to create professional learning packets for any classroom theme.',
+      },
+      {
+        id: '6',
+        slug: 'matching-worksheets',
+        name: 'Matching Worksheets',
+        category: 'Visual Skills',
+        icon: '🤝',
+        description: 'Add matching worksheets to your find objects rotation for diverse learning opportunities. The picture pair matching for visual association skills activities build skills that complement find objects practice. Generate complete themed packets covering both worksheet types in minutes.',
+      },
+    ], // Samples loaded dynamically from content manager
 
   },
 

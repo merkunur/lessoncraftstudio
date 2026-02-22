@@ -116,6 +116,28 @@ Generate 1-10 puzzles per page with automatic layout optimization. Add name and 
         title: 'Commercial License Included',
         description: 'Your subscription includes full commercial rights to sell word guess worksheets on Teachers Pay Teachers, Etsy, Amazon KDP, or your own website. Create themed spelling puzzle packs with no attribution or per-download fees required.',
       },
+    
+      {
+        id: '8',
+        icon: '✅',
+        title: 'Auto-Generated Answer Keys for Every Word Guess Worksheet',
+        description: 'Every word guess worksheet automatically generates a matching answer key showing all correct responses clearly marked. Teachers verify student work in seconds without solving exercises themselves. Print answer keys on separate pages for self-checking stations or display on document cameras during whole-class review sessions. The verification system guarantees accuracy for confident grading across entire class sets.',
+        highlighted: false,
+      },
+      {
+        id: '9',
+        icon: '🎨',
+        title: 'Themed Backgrounds and Decorative Borders for Word Guess Worksheets',
+        description: 'Choose from dozens of themed backgrounds including chalkboard, notebook paper, rainbow, clouds, and seasonal designs to enhance your word guess worksheets visually. Add decorative borders featuring stars, hearts, flowers, or school supplies around page edges. Adjust opacity for subtle or prominent effects. Professional visual design increases student engagement and creates polished materials suitable for classroom display or marketplace sales.',
+        highlighted: false,
+      },
+      {
+        id: '10',
+        icon: '💡',
+        title: 'Picture Clue Hints With Progressive Letter Reveal Options',
+        description: 'Each word guess puzzle presents a picture clue alongside blank letter spaces for students to fill in the correct word. Teachers control hint levels from no letters revealed for advanced spellers to partial letter reveals for struggling students. The progressive reveal system builds spelling confidence by providing appropriate scaffolding. Students develop vocabulary, phonemic awareness, and visual-word association skills simultaneously.',
+        highlighted: false,
+      },
     ],
 
   },
@@ -446,8 +468,8 @@ Save completed worksheets to your device for repeated use. Print unlimited copie
       },
       {
         id: '3',
-        slug: 'image-crossword-worksheets',
-        name: 'Image Crossword Worksheets',
+        slug: 'crossword-worksheets',
+        name: 'Crossword Worksheets',
         category: 'Language Arts',
         icon: '➕',
         description: 'Add crossword puzzles to your word guess packets for comprehensive vocabulary practice. Students fill in blanks in one format and intersecting words in another, deepening spelling retention through varied puzzle contexts.',

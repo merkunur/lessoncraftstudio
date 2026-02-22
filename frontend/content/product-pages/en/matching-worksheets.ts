@@ -71,7 +71,78 @@ Your Core Bundle subscription includes complete access to all visual materials. 
     sectionTitle: 'Free Matching Worksheet Generator: Create Free Worksheets for Kids Instantly',
     sectionDescription: 'Our matching worksheet generator includes professional features designed specifically for teachers creating kindergarten worksheets and first grade worksheets. Every feature helps you build free printable worksheets faster than traditional methods. Create alphabet worksheets, phonics worksheets, math worksheets, and sight words worksheets with the same easy-to-use tool. Access all premium features with your Core Bundle subscription. No per-worksheet fees, no image charges, no template costs. Generate unlimited matching worksheets for all your classroom needs.',
     highlightBadgeText: 'Key Feature',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        icon: '🤝',
+        title: 'Picture Pair Matching With Visual Association Exercises',
+        description: 'Generate professional matching worksheets where students draw lines connecting related picture pairs. Each worksheet presents image pairs requiring visual association, memory recall, and logical connection skills. Children match identical pictures, related concepts, or category pairs depending on the selected exercise mode. The format develops critical thinking through visual relationship analysis.',
+        highlighted: true,
+      },
+      {
+        id: '2',
+        icon: '🔀',
+        title: 'Multiple Matching Modes From Identical Pairs to Category Groups',
+        description: 'Choose between matching modes that develop different cognitive skills. Identical image matching builds visual discrimination. Shadow-to-image matching develops shape recognition. Related pairs mode connects associated concepts. Category matching groups items by theme. Each mode targets specific learning objectives from basic visual memory to abstract classification reasoning.',
+        highlighted: false,
+      },
+      {
+        id: '3',
+        icon: '⚙️',
+        title: 'Adjustable Pair Count From Three to Eight Per Worksheet',
+        description: 'Set between three and eight matching pairs per worksheet to control difficulty and time requirements. Three pairs work perfectly for preschool students developing basic matching skills. Six to eight pairs challenge kindergarten and first grade students building sustained attention and working memory. More pairs mean more connection lines to draw requiring careful spatial planning.',
+        highlighted: false,
+      },
+      {
+        id: '4',
+        icon: '🖼️',
+        title: '3000+ Themed Images for Engaging Visual Matching Activities',
+        description: 'Browse over 3000 child-friendly images organized by theme for creating engaging matching exercises. Choose from animals, food, vehicles, shapes, and dozens more categories. Theme-based generation creates cohesive matching activities where all pairs share visual style and subject matter, maintaining student engagement while building vocabulary and classification skills.',
+        highlighted: false,
+      },
+      {
+        id: '5',
+        icon: '✅',
+        title: 'Automatic Answer Keys With Connection Lines for Verification',
+        description: 'Every matching worksheet generates a complete answer key showing all correct pair connections drawn clearly. Teachers verify student work instantly without solving the matching exercise themselves. Print answer keys on separate pages for self-checking stations or use during small group instruction for guided review and error correction.',
+        highlighted: false,
+      },
+      {
+        id: '6',
+        icon: '🎨',
+        title: 'Full Canvas Editing for Custom Matching Worksheet Layouts',
+        description: 'Customize every element after generation. Reposition image pairs, adjust spacing between columns, and resize images for optimal visual clarity. Add custom titles, instructions, and student name fields using professional text tools. Apply themed backgrounds and decorative borders for polished worksheets suitable for classroom display or commercial sale.',
+        highlighted: false,
+      },
+      {
+        id: '7',
+        icon: '📤',
+        title: 'Upload Custom Images for Curriculum-Specific Matching Pairs',
+        description: 'Upload your own images to create matching activities directly tied to current lessons. Use vocabulary flashcard images, science concept photos, or sight word illustrations. Combine uploaded images with library selections for diverse matching exercises that reinforce specific curriculum content while practicing visual association and memory skills.',
+        highlighted: false,
+      },
+      {
+        id: '8',
+        icon: '🌍',
+        title: 'Create Matching Worksheets in Eleven Languages',
+        description: 'Generate matching worksheets in English, Spanish, French, German, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian, or Finnish. All interface labels, instructions, and prompts translate automatically. Perfect for bilingual classrooms where students practice matching vocabulary in their target language alongside visual discrimination skills.',
+        highlighted: false,
+      },
+      {
+        id: '9',
+        icon: '🖨️',
+        title: 'Professional Print Quality With 300 DPI Resolution Output',
+        description: 'Download completed worksheets at 300 DPI resolution in PDF or JPEG format for professional classroom printing. Images remain sharp and detailed at standard paper sizes. Grayscale mode reduces ink costs while maintaining clear visual distinctions between matching pairs. Both formats work for classroom use and commercial distribution.',
+        highlighted: false,
+      },
+      {
+        id: '10',
+        icon: '💼',
+        title: 'Commercial License for Selling Matching Activity Bundles',
+        description: 'Your subscription includes commercial licensing to sell matching worksheets on Teachers Pay Teachers, Etsy, Amazon KDP, and other educational platforms. Create themed matching bundles organized by skill level, season, or curriculum topic. Matching activities are perennial bestsellers in early childhood education. No attribution required and no extra licensing fees.',
+        highlighted: false,
+      },
+    ], // Samples loaded dynamically from content manager
     
   },
 
@@ -123,7 +194,56 @@ Your Core Bundle subscription includes complete access to all visual materials. 
   useCases: {
     sectionTitle: 'Free Matching Worksheets Use Cases: Free Printables for Everyone',
     sectionDescription: 'Matching worksheets serve different educational needs across various teaching environments. Kindergarten teachers use matching worksheets for letter recognition and phonics practice. First grade teachers build sight words worksheets for reading development. Homeschool parents create alphabet worksheets customized to individual learning pace. ESL instructors design math worksheets with visual vocabulary support. Special education teachers generate differentiated free printable worksheets for varied ability levels. Teacher entrepreneurs sell matching worksheet bundles on Teachers Pay Teachers. Every educator benefits from quick worksheet creation and unlimited generation with Core Bundle subscription.',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        icon: '👩‍🏫',
+        title: 'Kindergarten Teachers: Visual Association Development',
+        subtitle: 'Matching Worksheets for Ages 5-6 Classroom Activities',
+        description: 'Kindergarten teachers integrate matching worksheets into daily routines as engaging literacy center activities. Set difficulty to beginner level with simple exercises that build visual association and memory development progressively. The visual format requires minimal reading so students work independently after brief teacher modeling. Create themed worksheets matching current classroom units for cross-curricular connections. Generate multiple versions using different image themes for variety throughout the week.',
+        quote: 'My kindergarteners love the matching worksheets. They ask for more every day!',
+      },
+      {
+        id: '2',
+        icon: '📚',
+        title: 'First Grade Teachers: Building Visual Association Skills',
+        subtitle: 'Advanced Matching Activities for Independent Practice',
+        description: 'First grade teachers use matching worksheets at increased difficulty levels for independent practice and early finisher activities. Students develop visual association and memory development through progressively challenging exercises that build confidence and persistence. Create differentiated worksheet sets using the same theme at multiple levels for seamless classroom management. The picture matching activities work perfectly for morning routines, homework packets, and assessment preparation activities.',
+        quote: 'Matching worksheets are my go-to early finisher activity. Students stay engaged until the bell.',
+      },
+      {
+        id: '3',
+        icon: '🌟',
+        title: 'Special Education Teachers: Accessible Matching Activities',
+        subtitle: 'Visual Learning Supports for Diverse Abilities',
+        description: 'Special education teachers value matching worksheets because the visual format accommodates diverse learning needs without requiring strong reading skills. Adjust difficulty settings to create individualized worksheets matching each student\\'s developmental level. The image-based exercises build visual association and memory development through concrete visual experiences rather than abstract concepts. Create consistent routine activities using familiar image themes that reduce anxiety while building essential cognitive skills.',
+        quote: 'The adjustable difficulty lets me create matching sheets perfect for each student\\'s level.',
+      },
+      {
+        id: '4',
+        icon: '🌍',
+        title: 'ESL Teachers: Language-Free Matching Practice',
+        subtitle: 'Visual Activities Accessible at All Language Levels',
+        description: 'ESL teachers incorporate matching worksheets as equitable activities where all students participate regardless of English proficiency. The picture matching activities require visual analysis rather than language comprehension, creating natural entry points for newcomer students. Use themed images to build vocabulary connections as students discuss their work. Generate worksheets in eleven languages to provide instructions in students\\' primary language while developing visual association and memory development.',
+        quote: 'My newcomer students complete matching worksheets with the same confidence as native speakers.',
+      },
+      {
+        id: '5',
+        icon: '🏠',
+        title: 'Homeschool Parents: Self-Paced Matching Learning',
+        subtitle: 'Independent Practice Activities for Home Education',
+        description: 'Homeschool parents appreciate matching worksheets as independent practice activities that develop visual association and memory development without requiring constant supervision. Create progressive difficulty sets for self-paced skill building across multiple sessions. The visual format engages children who struggle with text-heavy worksheets. Generate themed versions connecting to current unit studies for integrated learning. One subscription provides unlimited worksheet creation for multiple children at different ability levels.',
+        quote: 'My kids work through matching sheets independently while I teach their siblings.',
+      },
+      {
+        id: '6',
+        icon: '💰',
+        title: 'Teacher Entrepreneurs: Matching Bundles for Marketplace',
+        subtitle: 'Create and Sell Professional Worksheet Products Online',
+        description: 'Teacher entrepreneurs create themed matching worksheets bundles for Teachers Pay Teachers, Etsy, and Amazon KDP. Package worksheets by theme, difficulty level, or seasonal collections for maximum marketplace appeal. The picture matching activities fill a consistent demand niche in early childhood education. Your subscription includes commercial licensing with no additional fees or attribution requirements. Create holiday packs, themed bundles, and progressive difficulty series generating passive income from your teaching expertise.',
+        quote: 'My matching bundles sell consistently. The themed sets are especially popular.',
+      },
+    ], // Samples loaded dynamically from content manager
     
   },
 
@@ -276,7 +396,56 @@ Your Core Bundle subscription includes complete access to all visual materials. 
     ctaDescription: 'Join educators creating professional worksheets. Unlimited generation, commercial license included.',
     primaryCtaText: 'Start Free Trial',
     secondaryCtaText: 'View All 33 Apps',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        slug: 'shadow-match-worksheets',
+        name: 'Shadow Match Worksheets',
+        category: 'Visual Skills',
+        icon: '👤',
+        description: 'Supplement matching worksheets with shadow match exercises for balanced instruction. The silhouette matching activities for shape recognition format provides variety that keeps students motivated. Mix both generators to create professional learning packets for any classroom theme.',
+      },
+      {
+        id: '2',
+        slug: 'grid-match-worksheets',
+        name: 'Grid Match Worksheets',
+        category: 'Logic & Puzzles',
+        icon: '🔲',
+        description: 'Add grid match worksheets to your matching rotation for diverse learning opportunities. The grid-based matching puzzles for spatial reasoning activities build skills that complement matching practice. Generate complete themed packets covering both worksheet types in minutes.',
+      },
+      {
+        id: '3',
+        slug: 'picture-sort-worksheets',
+        name: 'Picture Sort Worksheets',
+        category: 'Visual Skills',
+        icon: '🗂️',
+        description: 'Pair Matching activities with picture sort worksheets for cross-curricular skill building. Students strengthen categorization and sorting activities with picture groups while reinforcing concepts from matching practice sessions. Create themed packets that combine both worksheet types for engaging homework or center rotations.',
+      },
+      {
+        id: '4',
+        slug: 'odd-one-out-worksheets',
+        name: 'Odd One Out Worksheets',
+        category: 'Logic & Puzzles',
+        icon: '🔍',
+        description: 'Pair Matching activities with odd one out worksheets for cross-curricular skill building. Students strengthen classification activities finding the item that does not belong while reinforcing concepts from matching practice sessions. Create themed packets that combine both worksheet types for engaging homework or center rotations.',
+      },
+      {
+        id: '5',
+        slug: 'big-small-worksheets',
+        name: 'Big & Small Worksheets',
+        category: 'Visual Skills',
+        icon: '📏',
+        description: 'Combine matching worksheets with big & small exercises for comprehensive lesson planning. The size comparison and ordering activities for early learners activities complement matching skills perfectly. Build complete learning packets mixing both generators for varied classroom practice.',
+      },
+      {
+        id: '6',
+        slug: 'find-objects-worksheets',
+        name: 'Find Objects Worksheets',
+        category: 'Visual Skills',
+        icon: '🔎',
+        description: 'Add find objects worksheets to your matching rotation for diverse learning opportunities. The visual scanning and search activities with hidden objects activities build skills that complement matching practice. Generate complete themed packets covering both worksheet types in minutes.',
+      },
+    ], // Samples loaded dynamically from content manager
 
   },
 

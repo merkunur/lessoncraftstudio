@@ -19,7 +19,9 @@ export const cryptogramEnContent: ProductPageContent = {
 
 Picture cryptogram worksheets turn code-breaking into a visual learning adventure. Each cryptogram uses pictures instead of letters to create secret codes. Students match images to letters and decode hidden phrases. This combines alphabet worksheets practice with critical thinking skills. Perfect for kindergarten through first grade classrooms.
 
-Our cryptogram worksheet generator creates custom puzzles in 11 languages. Upload your own images or choose from 3000+ child-friendly pictures. Every cryptogram worksheet downloads as a high-quality PDF or JPEG file. Create math worksheets connections, phonics worksheets activities, and sight words worksheets practice using picture codes. Your students will love solving these engaging free printable worksheets.`,
+Our cryptogram worksheet generator creates custom puzzles in 11 languages. Upload your own images or choose from 3000+ child-friendly pictures. Every cryptogram worksheet downloads as a high-quality PDF or JPEG file. Create math worksheets connections, phonics worksheets activities, and sight words worksheets practice using picture codes. Your students will love solving these engaging free printable worksheets.
+
+Picture cryptogram worksheets challenge students to decode secret messages by replacing picture symbols with letters. Each image represents a specific letter, and students use the picture key to reveal hidden words and phrases. This puzzle format builds letter recognition, phonemic awareness, and logical deduction simultaneously. Teachers select vocabulary words matching current spelling lists or thematic units. The generator creates unique cryptogram keys for each worksheet, ensuring students cannot memorize solutions across multiple activities. Adjust difficulty by controlling word length and the number of unique symbols in each puzzle.`,
     previewImageSrc: '/samples/english/cryptogram/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Try Free',
@@ -111,6 +113,28 @@ Our cryptogram worksheet generator creates custom puzzles in 11 languages. Uploa
         icon: '💼',
         title: 'Commercial License Included',
         description: 'Your subscription includes full commercial rights to sell cryptogram worksheets on Teachers Pay Teachers, Etsy, Amazon KDP, or your own website. No attribution required and no extra licensing fees. Build spy-themed and code-breaking puzzle bundles for profit.',
+      },
+    
+      {
+        id: '8',
+        icon: '✅',
+        title: 'Auto-Generated Answer Keys for Every Cryptogram Worksheet',
+        description: 'Every cryptogram worksheet automatically generates a matching answer key showing all correct responses clearly marked. Teachers verify student work in seconds without solving exercises themselves. Print answer keys on separate pages for self-checking stations or display on document cameras during whole-class review sessions. The verification system guarantees accuracy for confident grading across entire class sets.',
+        highlighted: false,
+      },
+      {
+        id: '9',
+        icon: '🎨',
+        title: 'Themed Backgrounds and Decorative Borders for Cryptogram Worksheets',
+        description: 'Choose from dozens of themed backgrounds including chalkboard, notebook paper, rainbow, clouds, and seasonal designs to enhance your cryptogram worksheets visually. Add decorative borders featuring stars, hearts, flowers, or school supplies around page edges. Adjust opacity for subtle or prominent effects. Professional visual design increases student engagement and creates polished materials suitable for classroom display or marketplace sales.',
+        highlighted: false,
+      },
+      {
+        id: '10',
+        icon: '🔑',
+        title: 'Unique Picture-to-Letter Cipher Keys for Every Worksheet',
+        description: 'Each cryptogram worksheet generates a unique picture-to-letter cipher key ensuring students cannot memorize solutions across worksheets. The decoder key displays each image paired with its corresponding letter for reference during puzzle solving. Teachers control key complexity by adjusting the number of unique symbols. Simple keys with five images suit beginning decoders while complex keys with fifteen images challenge advanced students.',
+        highlighted: false,
       },
     ],
 
@@ -426,8 +450,8 @@ Our cryptogram worksheet generator creates custom puzzles in 11 languages. Uploa
       },
       {
         id: '6',
-        slug: 'matchup-maker-worksheets',
-        name: 'MatchUp Maker Worksheets',
+        slug: 'matching-worksheets',
+        name: 'Matching Worksheets',
         category: 'Vocabulary',
         icon: '🔗',
         description: 'Add picture-word matching activities alongside cryptogram puzzles for multi-format vocabulary practice. Students match images to words in one worksheet then use those same images as decoder keys in cryptograms, strengthening picture-letter associations.',

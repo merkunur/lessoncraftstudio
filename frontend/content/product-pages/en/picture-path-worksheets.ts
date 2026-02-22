@@ -71,7 +71,78 @@ The picture path worksheet maker works perfectly for differentiated instruction 
     sectionTitle: 'Everything You Need for Picture Path Maze Worksheets',
     sectionDescription: 'The picture path worksheet maker combines professional maze creation with complete customization for kindergarten worksheets through first grade worksheets. Full Access subscription unlocks three distinct game modes perfect for creating free printable worksheets that integrate math worksheets and phonics worksheets content. Every feature supports differentiated instruction from simple alphabet worksheets practice to complex addition worksheets challenges.',
     highlightBadgeText: 'Key Feature',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        icon: '🗺️',
+        title: 'Maze-Style Path Tracing With Picture-Based Navigation',
+        description: 'Generate professional picture path worksheets where students trace routes through image-based mazes following specific rules or patterns. Each path puzzle requires visual tracking, directional awareness, and decision-making skills. Children navigate from start to finish by following correct images, developing the sequential processing and spatial reasoning essential for early academic success.',
+        highlighted: true,
+      },
+      {
+        id: '2',
+        icon: '🚩',
+        title: 'Multiple Path Rule Types From Follow-the-Image to Pattern Routes',
+        description: 'Choose between path navigation modes that develop different cognitive skills. Follow-one-image mode has students trace paths through cells containing only the target picture. Pattern path mode requires following a specific image sequence. Category path mode navigates through images belonging to one group. Each mode builds distinct spatial reasoning and rule-following abilities.',
+        highlighted: false,
+      },
+      {
+        id: '3',
+        icon: '⚙️',
+        title: 'Adjustable Grid Size From Simple 4x4 to Challenging 8x8 Mazes',
+        description: 'Control path complexity by setting grid dimensions from compact 4x4 grids for preschool beginners to challenging 8x8 grids for first and second graders. Smaller grids offer shorter paths with fewer decision points for building confidence. Larger grids create longer winding paths requiring sustained attention, forward planning, and systematic navigation through multiple branching possibilities.',
+        highlighted: false,
+      },
+      {
+        id: '4',
+        icon: '🖼️',
+        title: '3000+ Themed Images for Engaging Path Puzzle Environments',
+        description: 'Browse over 3000 child-friendly images organized by theme for path cell contents. Choose from animals, food, vehicles, and dozens more categories. Theme-based generation creates immersive puzzle environments where correct path images blend among distractors from the same theme, requiring careful visual discrimination to navigate successfully through the maze.',
+        highlighted: false,
+      },
+      {
+        id: '5',
+        icon: '✅',
+        title: 'Answer Keys With Highlighted Solution Paths for Quick Grading',
+        description: 'Every picture path worksheet generates a complete answer key with the correct route clearly highlighted through the grid. Teachers verify student paths instantly without solving mazes themselves. The answer key shows the complete solution path with directional arrows for unambiguous verification during grading or student self-checking activities.',
+        highlighted: false,
+      },
+      {
+        id: '6',
+        icon: '🎨',
+        title: 'Full Canvas Editing for Custom Path Puzzle Layouts',
+        description: 'Customize every element after generation. Reposition grids, adjust cell sizes, and modify start and finish markers for optimal visual presentation. Add custom story contexts, instructions, and student name fields using professional text tools. Apply themed backgrounds creating adventure settings for immersive path-finding experiences.',
+        highlighted: false,
+      },
+      {
+        id: '7',
+        icon: '📤',
+        title: 'Upload Custom Images for Personalized Maze Adventures',
+        description: 'Upload your own images to create path puzzles tied to classroom themes or student interests. Use curriculum-specific pictures for content-area connections or favorite characters for motivation. Combine uploaded images with library selections for rich diverse grid environments where students navigate through familiar meaningful imagery.',
+        highlighted: false,
+      },
+      {
+        id: '8',
+        icon: '🌍',
+        title: 'Generate Path Puzzles in Eleven Languages',
+        description: 'Create picture path worksheets in English, Spanish, French, German, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian, or Finnish. All instructions, start and finish labels, and navigation prompts translate automatically. Perfect for international classrooms where students develop spatial vocabulary and directional language in their primary language.',
+        highlighted: false,
+      },
+      {
+        id: '9',
+        icon: '🖨️',
+        title: 'Professional 300 DPI Resolution for Clear Grid Printing',
+        description: 'Download completed path puzzles at professional resolution ensuring grid lines, cell images, and path boundaries remain crisp at printed size. PDF format provides sharp output for classroom printing. JPEG works for digital distribution. Clear print quality is essential for accurate path tracing where students must distinguish adjacent cells precisely.',
+        highlighted: false,
+      },
+      {
+        id: '10',
+        icon: '💼',
+        title: 'Commercial License for Maze and Path Puzzle Sales',
+        description: 'Your subscription includes commercial licensing to sell picture path worksheets on Teachers Pay Teachers, Etsy, and Amazon KDP. Create themed maze bundles organized by difficulty, image theme, or adventure story. Path tracing worksheets are popular with parents seeking engaging printable activities. No attribution required and no additional licensing fees.',
+        highlighted: false,
+      },
+    ], // Samples loaded dynamically from content manager
     
   },
 
@@ -123,7 +194,56 @@ The picture path worksheet maker works perfectly for differentiated instruction 
   useCases: {
     sectionTitle: 'Perfect for Teachers, Parents, and Educators',
     sectionDescription: 'Picture path maze worksheets serve diverse educational settings from kindergarten through third grade. Teachers create differentiated free printable worksheets matching varied student abilities. Parents generate engaging alphabet worksheets for home learning. Educators develop specialized sight words worksheets for intervention programs. Every user benefits from unlimited creation combining math worksheets phonics worksheets and addition worksheets into engaging pathfinding activities.',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        icon: '👩‍🏫',
+        title: 'Kindergarten Teachers: Spatial Navigation Development',
+        subtitle: 'Picture Path Worksheets for Ages 5-6 Classroom Activities',
+        description: 'Kindergarten teachers integrate picture path worksheets into daily routines as engaging puzzle center activities. Set difficulty to beginner level with simple exercises that build spatial navigation and directional awareness progressively. The visual format requires minimal reading so students work independently after brief teacher modeling. Create themed worksheets matching current classroom units for cross-curricular connections. Generate multiple versions using different image themes for variety throughout the week.',
+        quote: 'My kindergarteners love the picture path worksheets. They ask for more every day!',
+      },
+      {
+        id: '2',
+        icon: '📚',
+        title: 'First Grade Teachers: Building Spatial Navigation Skills',
+        subtitle: 'Advanced Picture Path Activities for Independent Practice',
+        description: 'First grade teachers use picture path worksheets at increased difficulty levels for independent practice and early finisher activities. Students develop spatial navigation and directional awareness through progressively challenging exercises that build confidence and persistence. Create differentiated worksheet sets using the same theme at multiple levels for seamless classroom management. The maze and path tracing activities work perfectly for morning routines, homework packets, and assessment preparation activities.',
+        quote: 'Picture Path worksheets are my go-to early finisher activity. Students stay engaged until the bell.',
+      },
+      {
+        id: '3',
+        icon: '🌟',
+        title: 'Special Education Teachers: Accessible Picture Path Activities',
+        subtitle: 'Visual Learning Supports for Diverse Abilities',
+        description: 'Special education teachers value picture path worksheets because the visual format accommodates diverse learning needs without requiring strong reading skills. Adjust difficulty settings to create individualized worksheets matching each student\\'s developmental level. The image-based exercises build spatial navigation and directional awareness through concrete visual experiences rather than abstract concepts. Create consistent routine activities using familiar image themes that reduce anxiety while building essential cognitive skills.',
+        quote: 'The adjustable difficulty lets me create picture path sheets perfect for each student\\'s level.',
+      },
+      {
+        id: '4',
+        icon: '🌍',
+        title: 'ESL Teachers: Language-Free Picture Path Practice',
+        subtitle: 'Visual Activities Accessible at All Language Levels',
+        description: 'ESL teachers incorporate picture path worksheets as equitable activities where all students participate regardless of English proficiency. The maze and path tracing activities require visual analysis rather than language comprehension, creating natural entry points for newcomer students. Use themed images to build vocabulary connections as students discuss their work. Generate worksheets in eleven languages to provide instructions in students\\' primary language while developing spatial navigation and directional awareness.',
+        quote: 'My newcomer students complete picture path worksheets with the same confidence as native speakers.',
+      },
+      {
+        id: '5',
+        icon: '🏠',
+        title: 'Homeschool Parents: Self-Paced Picture Path Learning',
+        subtitle: 'Independent Practice Activities for Home Education',
+        description: 'Homeschool parents appreciate picture path worksheets as independent practice activities that develop spatial navigation and directional awareness without requiring constant supervision. Create progressive difficulty sets for self-paced skill building across multiple sessions. The visual format engages children who struggle with text-heavy worksheets. Generate themed versions connecting to current unit studies for integrated learning. One subscription provides unlimited worksheet creation for multiple children at different ability levels.',
+        quote: 'My kids work through picture path sheets independently while I teach their siblings.',
+      },
+      {
+        id: '6',
+        icon: '💰',
+        title: 'Teacher Entrepreneurs: Picture Path Bundles for Marketplace',
+        subtitle: 'Create and Sell Professional Worksheet Products Online',
+        description: 'Teacher entrepreneurs create themed picture path worksheets bundles for Teachers Pay Teachers, Etsy, and Amazon KDP. Package worksheets by theme, difficulty level, or seasonal collections for maximum marketplace appeal. The maze and path tracing activities fill a consistent demand niche in early childhood education. Your subscription includes commercial licensing with no additional fees or attribution requirements. Create holiday packs, themed bundles, and progressive difficulty series generating passive income from your teaching expertise.',
+        quote: 'My picture path bundles sell consistently. The themed sets are especially popular.',
+      },
+    ], // Samples loaded dynamically from content manager
     
   },
 
@@ -301,7 +421,56 @@ The picture path worksheet maker works perfectly for differentiated instruction 
     ctaDescription: 'Join educators creating professional worksheets. Unlimited generation, commercial license included.',
     primaryCtaText: 'Start Free Trial',
     secondaryCtaText: 'View All 33 Apps',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        slug: 'treasure-hunt-worksheets',
+        name: 'Treasure Hunt Worksheets',
+        category: 'Logic & Puzzles',
+        icon: '🏴‍☠️',
+        description: 'Supplement picture path worksheets with treasure hunt exercises for balanced instruction. The adventure-themed search and find puzzle activities format provides variety that keeps students motivated. Mix both generators to create professional learning packets for any classroom theme.',
+      },
+      {
+        id: '2',
+        slug: 'drawing-lines-worksheets',
+        name: 'Drawing Lines Worksheets',
+        category: 'Art & Creativity',
+        icon: '✂️',
+        description: 'Pair Picture Path activities with drawing lines worksheets for cross-curricular skill building. Students strengthen line tracing and handwriting readiness exercises while reinforcing concepts from picture path practice sessions. Create themed packets that combine both worksheet types for engaging homework or center rotations.',
+      },
+      {
+        id: '3',
+        slug: 'missing-pieces-worksheets',
+        name: 'Missing Pieces Worksheets',
+        category: 'Logic & Puzzles',
+        icon: '🧩',
+        description: 'Pair Picture Path activities with missing pieces worksheets for cross-curricular skill building. Students strengthen visual completion puzzles identifying missing parts while reinforcing concepts from picture path practice sessions. Create themed packets that combine both worksheet types for engaging homework or center rotations.',
+      },
+      {
+        id: '4',
+        slug: 'grid-match-worksheets',
+        name: 'Grid Match Worksheets',
+        category: 'Logic & Puzzles',
+        icon: '🔲',
+        description: 'Extend picture path practice with grid match worksheets for well-rounded skill development. Students benefit from grid-based matching puzzles for spatial reasoning alongside picture path activities. Create themed bundles that keep learners engaged across multiple skill areas.',
+      },
+      {
+        id: '5',
+        slug: 'find-objects-worksheets',
+        name: 'Find Objects Worksheets',
+        category: 'Visual Skills',
+        icon: '🔎',
+        description: 'Extend picture path practice with find objects worksheets for well-rounded skill development. Students benefit from visual scanning and search activities with hidden objects alongside picture path activities. Create themed bundles that keep learners engaged across multiple skill areas.',
+      },
+      {
+        id: '6',
+        slug: 'pattern-worksheets',
+        name: 'Pattern Worksheets',
+        category: 'Logic & Puzzles',
+        icon: '🔄',
+        description: 'Bridge picture path concepts with pattern activities for deeper understanding. Students practice pattern recognition and sequence completion exercises while building on picture path foundations. Combine both worksheet generators for comprehensive themed learning bundles.',
+      },
+    ], // Samples loaded dynamically from content manager
 
   },
 

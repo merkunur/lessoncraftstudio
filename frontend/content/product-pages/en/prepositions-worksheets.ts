@@ -31,7 +31,9 @@ Teaching prepositions to kindergarten and first grade students becomes simple wi
 
 Teachers save hours creating prepositions worksheets manually. Our generator produces professional kindergarten worksheets in minutes instead of hours. Choose from fill-in-the-blank or multiple choice formats. Select specific prepositions to target or practice all eight concepts together. Your Full Access subscription includes unlimited downloads and commercial licensing for selling worksheets online.
 
-Perfect for kindergarten teachers and first grade educators who need quality prepositions worksheets quickly. Create worksheets for whole class instruction or individual practice. Customize every element on the canvas. Drag, rotate, and resize images to create unique layouts. Add your own text and choose from seven child-friendly fonts.`,
+Perfect for kindergarten teachers and first grade educators who need quality prepositions worksheets quickly. Create worksheets for whole class instruction or individual practice. Customize every element on the canvas. Drag, rotate, and resize images to create unique layouts. Add your own text and choose from seven child-friendly fonts.
+
+Prepositions worksheets help students master spatial vocabulary by identifying where objects are positioned relative to each other. Each exercise presents images showing clear positional relationships such as above, below, beside, between, inside, and outside. Students demonstrate comprehension by circling the correct preposition or matching images to position words.`,
     previewImageSrc: '/samples/english/prepositions/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Try Free',
@@ -113,6 +115,28 @@ Perfect for kindergarten teachers and first grade educators who need quality pre
         icon: '💼',
         title: 'Commercial License Included',
         description: 'Your subscription includes full commercial rights to sell prepositions worksheets on Teachers Pay Teachers, Etsy, or your own website. No attribution required and no extra licensing fees. Create grammar and spatial vocabulary bundles for supplemental income.',
+      },
+    
+      {
+        id: '8',
+        icon: '✅',
+        title: 'Auto-Generated Answer Keys for Every Prepositions Worksheet',
+        description: 'Every prepositions worksheet automatically generates a matching answer key showing all correct responses clearly marked. Teachers verify student work in seconds without solving exercises themselves. Print answer keys on separate pages for self-checking stations or display on document cameras during whole-class review sessions. The verification system guarantees accuracy for confident grading across entire class sets.',
+        highlighted: false,
+      },
+      {
+        id: '9',
+        icon: '🎨',
+        title: 'Themed Backgrounds and Decorative Borders for Prepositions Worksheets',
+        description: 'Choose from dozens of themed backgrounds including chalkboard, notebook paper, rainbow, clouds, and seasonal designs to enhance your prepositions worksheets visually. Add decorative borders featuring stars, hearts, flowers, or school supplies around page edges. Adjust opacity for subtle or prominent effects. Professional visual design increases student engagement and creates polished materials suitable for classroom display or marketplace sales.',
+        highlighted: false,
+      },
+      {
+        id: '10',
+        icon: '📍',
+        title: 'Twelve Positional Concepts Including Above Below Beside and Between',
+        description: 'Generate prepositions worksheets covering twelve fundamental spatial concepts: above, below, beside, between, inside, outside, in front of, behind, on top of, under, next to, and near. Each worksheet focuses on specific prepositions or mixes multiple concepts for comprehensive review. Teachers control which positional words appear in each exercise to align with current vocabulary instruction and build spatial language progressively.',
+        highlighted: false,
       },
     ],
 
@@ -398,8 +422,8 @@ Perfect for kindergarten teachers and first grade educators who need quality pre
       },
       {
         id: '2',
-        slug: 'matchup-maker-worksheets',
-        name: 'MatchUp Maker Worksheets',
+        slug: 'matching-worksheets',
+        name: 'Matching Worksheets',
         category: 'Vocabulary',
         icon: '🔗',
         description: 'Pair prepositions worksheets with picture-word matching activities for multi-format spatial vocabulary practice. Students identify prepositions in image arrangements then match spatial vocabulary words to their visual demonstrations in a complementary format.',

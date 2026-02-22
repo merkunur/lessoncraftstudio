@@ -120,6 +120,28 @@ These printable addition worksheets work perfectly for math centers, homework pa
         description: 'Download addition worksheets at professional 300 DPI resolution. Perfect for classroom printing and commercial sales of free worksheets. Export as PDF for crisp text and sharp images. Download as JPEG for compatibility with all devices. Enable grayscale mode to save printer ink while maintaining quality. Professional quality matters for kindergarten worksheets and first grade materials. Students see clear, colorful images that engage visual learners. Parents appreciate high-quality math worksheets sent home. Administrators notice the professional appearance of classroom materials. Every addition worksheet includes an automatically-generated answer key.',
         highlighted: true,
       },
+    
+      {
+        id: '8',
+        icon: '✅',
+        title: 'Auto-Generated Answer Keys for Every Addition Worksheet',
+        description: 'Every addition worksheet automatically generates a matching answer key showing all correct responses clearly marked. Teachers verify student work in seconds without solving exercises themselves. Print answer keys on separate pages for self-checking stations or display on document cameras during whole-class review sessions. The verification system guarantees accuracy for confident grading across entire class sets.',
+        highlighted: false,
+      },
+      {
+        id: '9',
+        icon: '🎨',
+        title: 'Themed Backgrounds and Decorative Borders for Addition Worksheets',
+        description: 'Choose from dozens of themed backgrounds including chalkboard, notebook paper, rainbow, clouds, and seasonal designs to enhance your addition worksheets visually. Add decorative borders featuring stars, hearts, flowers, or school supplies around page edges. Adjust opacity for subtle or prominent effects. Professional visual design increases student engagement and creates polished materials suitable for classroom display or marketplace sales.',
+        highlighted: false,
+      },
+      {
+        id: '10',
+        icon: '⚙️',
+        title: 'Four Exercise Modes Including Image-Based and Number Addition Problems',
+        description: 'Choose from four distinct addition exercise modes to match your teaching objectives. Image plus image mode presents visual counting problems using pictures. Image plus number mode combines pictures with numerals for transitional learners. Find the addend mode creates fill-in-the-blank equations developing algebraic thinking. Mixed mode randomizes problem types on each worksheet for comprehensive review and assessment preparation.',
+        highlighted: false,
+      },
     ],
   },
 

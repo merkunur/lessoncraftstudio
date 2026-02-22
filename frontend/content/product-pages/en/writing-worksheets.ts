@@ -29,7 +29,9 @@ export const writingEnContent: ProductPageContent = {
 
 Our letter tracing worksheets generator helps teachers create alphabet worksheets with guided writing lines. Choose from print or cursive fonts with multiple tracing modes. Each worksheet includes proper baseline guides for correct letter formation. Perfect for handwriting instruction across all grade levels.
 
-Generate tracing worksheets for letters, words, names, or custom text. Your Full Access subscription includes access to all 33 worksheet generator types plus commercial licensing. Create unlimited free printable worksheets for classroom use or selling on Teachers Pay Teachers.`,
+Generate tracing worksheets for letters, words, names, or custom text. Your Full Access subscription includes access to all 33 worksheet generator types plus commercial licensing. Create unlimited free printable worksheets for classroom use or selling on Teachers Pay Teachers.
+
+The handwriting worksheet generator creates professional letter tracing and writing practice sheets with dotted guidelines, directional arrows, and ample practice space. Teachers choose between uppercase and lowercase letter sets, customize line spacing for different developmental stages, and add themed images that motivate reluctant writers. The format includes both tracing templates where students follow dotted letter forms and blank practice lines where students write independently. Generate writing worksheets matching current phonics lessons by selecting specific letters or creating full alphabet practice sets. Themed images from our 3000+ library connect handwriting practice to engaging visual contexts.`,
     previewImageSrc: '/samples/english/writing/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Try Free',
@@ -118,6 +120,28 @@ Generate tracing worksheets for letters, words, names, or custom text. Your Full
         title: 'Commercial License Included',
         description: 'Your subscription includes commercial licensing for selling handwriting practice worksheets on Teachers Pay Teachers, Etsy, Amazon KDP, or your own website. Handwriting worksheets are among the highest-demand products on educational marketplaces. Create alphabet tracing bundles, cursive practice packets, or themed writing sets with no attribution or extra fees.',
         highlighted: true,
+      },
+    
+      {
+        id: '8',
+        icon: '✅',
+        title: 'Auto-Generated Answer Keys for Every Writing Worksheet',
+        description: 'Every writing worksheet automatically generates a matching answer key showing all correct responses clearly marked. Teachers verify student work in seconds without solving exercises themselves. Print answer keys on separate pages for self-checking stations or display on document cameras during whole-class review sessions. The verification system guarantees accuracy for confident grading across entire class sets.',
+        highlighted: false,
+      },
+      {
+        id: '9',
+        icon: '🎨',
+        title: 'Themed Backgrounds and Decorative Borders for Writing Worksheets',
+        description: 'Choose from dozens of themed backgrounds including chalkboard, notebook paper, rainbow, clouds, and seasonal designs to enhance your writing worksheets visually. Add decorative borders featuring stars, hearts, flowers, or school supplies around page edges. Adjust opacity for subtle or prominent effects. Professional visual design increases student engagement and creates polished materials suitable for classroom display or marketplace sales.',
+        highlighted: false,
+      },
+      {
+        id: '10',
+        icon: '✏️',
+        title: 'Adjustable Line Spacing and Letter Size for Developmental Stages',
+        description: 'Control line spacing and letter size precisely to match student fine motor development. Extra-wide spacing with large dotted letters suits preschool students developing initial pencil control. Standard spacing with medium letters works for kindergarten handwriting practice. Narrow spacing with smaller letters challenges first and second graders building writing fluency. The adjustable format supports differentiated instruction within mixed-ability classrooms.',
+        highlighted: false,
       },
     ],
 
@@ -483,8 +507,8 @@ Print your downloaded worksheets on standard printer paper or cardstock. Regular
       },
       {
         id: '6',
-        slug: 'matchup-maker-worksheets',
-        name: 'MatchUp Maker Worksheets',
+        slug: 'matching-worksheets',
+        name: 'Matching Worksheets',
         category: 'Vocabulary',
         icon: '🔗',
         description: 'Add picture-word matching activities to handwriting packets. Students trace words on writing worksheets then match those same words to pictures on matchup worksheets, reinforcing vocabulary through multiple practice formats.',

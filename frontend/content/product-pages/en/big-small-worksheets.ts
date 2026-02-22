@@ -29,7 +29,9 @@ export const bigSmallEnContent: ProductPageContent = {
 
 Size discrimination is a foundational math skill for young learners. Children need to recognize differences in size before they can understand measurement concepts. Our worksheet generator creates engaging size comparison activities in under three minutes. Each worksheet presents clear visual choices that help students identify the biggest, smallest, or medium-sized object.
 
-The Big and Small worksheet maker offers five different question types. Students can circle the big one, circle the small one, or find the medium object. Teachers also use ordering activities where students number objects from smallest to biggest. These varied question formats keep worksheets fresh and challenging. Every worksheet includes an automatic answer key for quick grading.`,
+The Big and Small worksheet maker offers five different question types. Students can circle the big one, circle the small one, or find the medium object. Teachers also use ordering activities where students number objects from smallest to biggest. These varied question formats keep worksheets fresh and challenging. Every worksheet includes an automatic answer key for quick grading.
+
+The Big and Small generator offers five distinct question types that develop size discrimination progressively. Circle the Big and Circle the Small build basic comparison skills. Find the Medium introduces three-way size relationships. Ordering tasks require arranging objects from biggest to smallest or vice versa. Each question type targets different cognitive complexity levels suitable for preschool through first grade learners. Teachers set between two and five images per exercise to control difficulty precisely. Fewer images with dramatic size differences suit beginning learners while more images with subtle variations challenge advanced students.`,
     previewImageSrc: '/samples/english/big-small/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Try Free',
@@ -69,7 +71,78 @@ The Big and Small worksheet maker offers five different question types. Students
     sectionTitle: 'Free Worksheets Features - Free Printables and Worksheet for Kindergarten',
     sectionDescription: 'Create free worksheet for kids with our Big and Small worksheet generator. This includes every feature teachers need to create professional free worksheet for kids for size comparison. Each feature helps you create better free worksheet for kids faster. From easy generation to full editing control, these features make free worksheet for kids creation simple.',
     highlightBadgeText: 'Key Feature',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        icon: '📏',
+        title: 'Five Size Comparison Question Types for Progressive Learning',
+        description: 'Choose from five distinct question modes that build size discrimination skills progressively. Circle the Big asks students to identify the largest image. Circle the Small targets the smallest. Find the Medium challenges learners to pick the middle-sized object. Ordering from biggest to smallest and smallest to biggest develop sequential reasoning. Each mode addresses a different cognitive skill level.',
+        highlighted: true,
+      },
+      {
+        id: '2',
+        icon: '⚙️',
+        title: 'Adjustable Image Count Per Exercise for Age-Appropriate Challenge',
+        description: 'Control difficulty by setting two to five images per exercise question. Two images work perfectly for preschool beginners learning basic big versus small distinctions. Three images introduce the medium concept for kindergarten students. Four and five images challenge first graders with more nuanced size discrimination requiring careful visual analysis across multiple objects.',
+        highlighted: false,
+      },
+      {
+        id: '3',
+        icon: '🖼️',
+        title: '3000+ Themed Images Organized by Category for Visual Size Activities',
+        description: 'Browse over 3000 child-friendly images organized across dozens of themes including animals, food, vehicles, toys, and nature. Every image renders at different sizes within exercises so students compare familiar objects. Theme-based generation automatically selects varied images ensuring visually engaging worksheets that connect size concepts to real-world objects children recognize.',
+        highlighted: false,
+      },
+      {
+        id: '4',
+        icon: '✅',
+        title: 'Automatic Answer Key Generation for Every Size Worksheet',
+        description: 'Every big and small worksheet automatically generates a complete answer key highlighting the correct responses. Teachers verify student work in seconds without solving exercises themselves. Print answer keys on separate pages for self-checking stations or use them during whole-class review sessions. The system marks correct answers clearly for quick grading.',
+        highlighted: false,
+      },
+      {
+        id: '5',
+        icon: '🎨',
+        title: 'Full Canvas Editing With Drag Resize and Rotate Controls',
+        description: 'Click any element on the canvas to select, reposition, resize, or rotate it freely. Add custom titles, student names, and instructions using professional text tools. Choose from themed backgrounds and decorative borders to create visually appealing worksheets. Lock completed elements to prevent accidental changes while editing other sections of your size comparison worksheet.',
+        highlighted: false,
+      },
+      {
+        id: '6',
+        icon: '📄',
+        title: 'Configurable Exercise Count From One to Ten Per Page',
+        description: 'Set between one and ten exercises per worksheet page to match your lesson objectives and student attention spans. Fewer exercises with larger images work best for preschool learners who need clear visual distinctions. More exercises per page suit older students ready for focused independent practice during math centers or homework assignments.',
+        highlighted: false,
+      },
+      {
+        id: '7',
+        icon: '📤',
+        title: 'Upload Custom Images for Personalized Size Comparison Activities',
+        description: 'Upload your own photos and images to create truly personalized size worksheets. Use classroom objects, student artwork, or curriculum-specific pictures for contextual learning. Combine uploaded images with the built-in library for maximum variety. Support for JPEG, PNG, and GIF formats with batch upload capability for efficient workflow.',
+        highlighted: false,
+      },
+      {
+        id: '8',
+        icon: '🌍',
+        title: 'Create Size Worksheets in Eleven Languages for Global Classrooms',
+        description: 'Generate size comparison worksheets in English, Spanish, French, German, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian, or Finnish. All interface labels, instructions, and question prompts translate automatically. Perfect for ESL classrooms, bilingual programs, and international schools where students learn size vocabulary in their primary language.',
+        highlighted: false,
+      },
+      {
+        id: '9',
+        icon: '🖨️',
+        title: 'Professional PDF and JPEG Downloads at 300 DPI Print Quality',
+        description: 'Download completed worksheets as high-resolution PDF or JPEG files ready for professional printing. The 300 DPI output ensures crisp images and sharp text on standard paper sizes. Enable grayscale mode to save color ink while maintaining clear visual distinctions between different-sized objects. Both formats work for classroom printing and commercial distribution.',
+        highlighted: false,
+      },
+      {
+        id: '10',
+        icon: '💼',
+        title: 'Commercial License Included for Selling Size Worksheets Online',
+        description: 'Your subscription includes commercial licensing for selling size comparison worksheets on Teachers Pay Teachers, Etsy, Amazon KDP, or your own website. Create themed bundles combining multiple size activities with different image themes. No attribution required and no additional licensing fees. Size comparison worksheets fill a high-demand niche in the early childhood educational marketplace.',
+        highlighted: false,
+      },
+    ], // Samples loaded dynamically from content manager
     
   },
 
@@ -121,7 +194,56 @@ The Big and Small worksheet maker offers five different question types. Students
   useCases: {
     sectionTitle: 'Free Printables for Teachers - Worksheet for Kindergarten for Every Educator',
     sectionDescription: 'Size comparison worksheets serve many different educational settings. Teachers, parents, and tutors all benefit from professional worksheet creation tools. This section explains how different educators use the Big and Small generator. Each user type has unique needs that our worksheet maker addresses. Discover how size comparison activities fit into your specific teaching context.',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        icon: '👩‍🏫',
+        title: 'Kindergarten Teachers: Visual Size Discrimination Development',
+        subtitle: 'Big & Small Worksheets for Ages 5-6 Classroom Activities',
+        description: 'Kindergarten teachers integrate size comparison worksheets into daily routines as engaging math center activities. Set difficulty to beginner level with simple exercises that build visual size discrimination and ordering skills progressively. The visual format requires minimal reading so students work independently after brief teacher modeling. Create themed worksheets matching current classroom units for cross-curricular connections. Generate multiple versions using different image themes for variety throughout the week.',
+        quote: 'My kindergarteners love the big & small worksheets. They ask for more every day!',
+      },
+      {
+        id: '2',
+        icon: '📚',
+        title: 'First Grade Teachers: Building Visual Size Discrimination Skills',
+        subtitle: 'Advanced Big & Small Activities for Independent Practice',
+        description: 'First grade teachers use size comparison worksheets at increased difficulty levels for independent practice and early finisher activities. Students develop visual size discrimination and ordering skills through progressively challenging exercises that build confidence and persistence. Create differentiated worksheet sets using the same theme at multiple levels for seamless classroom management. The size comparison activities work perfectly for morning routines, homework packets, and assessment preparation activities.',
+        quote: 'Big & Small worksheets are my go-to early finisher activity. Students stay engaged until the bell.',
+      },
+      {
+        id: '3',
+        icon: '🌟',
+        title: 'Special Education Teachers: Accessible Big & Small Activities',
+        subtitle: 'Visual Learning Supports for Diverse Abilities',
+        description: 'Special education teachers value size comparison worksheets because the visual format accommodates diverse learning needs without requiring strong reading skills. Adjust difficulty settings to create individualized worksheets matching each student\\'s developmental level. The image-based exercises build visual size discrimination and ordering skills through concrete visual experiences rather than abstract concepts. Create consistent routine activities using familiar image themes that reduce anxiety while building essential cognitive skills.',
+        quote: 'The adjustable difficulty lets me create big & small sheets perfect for each student\\'s level.',
+      },
+      {
+        id: '4',
+        icon: '🌍',
+        title: 'ESL Teachers: Language-Free Big & Small Practice',
+        subtitle: 'Visual Activities Accessible at All Language Levels',
+        description: 'ESL teachers incorporate size comparison worksheets as equitable activities where all students participate regardless of English proficiency. The size comparison activities require visual analysis rather than language comprehension, creating natural entry points for newcomer students. Use themed images to build vocabulary connections as students discuss their work. Generate worksheets in eleven languages to provide instructions in students\\' primary language while developing visual size discrimination and ordering skills.',
+        quote: 'My newcomer students complete big & small worksheets with the same confidence as native speakers.',
+      },
+      {
+        id: '5',
+        icon: '🏠',
+        title: 'Homeschool Parents: Self-Paced Big & Small Learning',
+        subtitle: 'Independent Practice Activities for Home Education',
+        description: 'Homeschool parents appreciate size comparison worksheets as independent practice activities that develop visual size discrimination and ordering skills without requiring constant supervision. Create progressive difficulty sets for self-paced skill building across multiple sessions. The visual format engages children who struggle with text-heavy worksheets. Generate themed versions connecting to current unit studies for integrated learning. One subscription provides unlimited worksheet creation for multiple children at different ability levels.',
+        quote: 'My kids work through big & small sheets independently while I teach their siblings.',
+      },
+      {
+        id: '6',
+        icon: '💰',
+        title: 'Teacher Entrepreneurs: Big & Small Bundles for Marketplace',
+        subtitle: 'Create and Sell Professional Worksheet Products Online',
+        description: 'Teacher entrepreneurs create themed size comparison worksheets bundles for Teachers Pay Teachers, Etsy, and Amazon KDP. Package worksheets by theme, difficulty level, or seasonal collections for maximum marketplace appeal. The size comparison activities fill a consistent demand niche in early childhood education. Your subscription includes commercial licensing with no additional fees or attribution requirements. Create holiday packs, themed bundles, and progressive difficulty series generating passive income from your teaching expertise.',
+        quote: 'My big & small bundles sell consistently. The themed sets are especially popular.',
+      },
+    ], // Samples loaded dynamically from content manager
     
   },
 
@@ -297,7 +419,56 @@ The Big and Small worksheet maker offers five different question types. Students
     ctaDescription: 'Join educators creating professional worksheets. Unlimited generation, commercial license included.',
     primaryCtaText: 'Start Free Trial',
     secondaryCtaText: 'View All 33 Apps',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        slug: 'more-less-worksheets',
+        name: 'More or Less Worksheets',
+        category: 'Math',
+        icon: '⚖️',
+        description: 'Supplement big & small worksheets with more or less exercises for balanced instruction. The quantity comparison activities for early number sense format provides variety that keeps students motivated. Mix both generators to create professional learning packets for any classroom theme.',
+      },
+      {
+        id: '2',
+        slug: 'picture-sort-worksheets',
+        name: 'Picture Sort Worksheets',
+        category: 'Visual Skills',
+        icon: '🗂️',
+        description: 'Add picture sort worksheets to your big & small rotation for diverse learning opportunities. The categorization and sorting activities with picture groups activities build skills that complement big & small practice. Generate complete themed packets covering both worksheet types in minutes.',
+      },
+      {
+        id: '3',
+        slug: 'matching-worksheets',
+        name: 'Matching Worksheets',
+        category: 'Visual Skills',
+        icon: '🤝',
+        description: 'Combine big & small worksheets with matching exercises for comprehensive lesson planning. The picture pair matching for visual association skills activities complement big & small skills perfectly. Build complete learning packets mixing both generators for varied classroom practice.',
+      },
+      {
+        id: '4',
+        slug: 'shadow-match-worksheets',
+        name: 'Shadow Match Worksheets',
+        category: 'Visual Skills',
+        icon: '👤',
+        description: 'Extend big & small practice with shadow match worksheets for well-rounded skill development. Students benefit from silhouette matching activities for shape recognition alongside big & small activities. Create themed bundles that keep learners engaged across multiple skill areas.',
+      },
+      {
+        id: '5',
+        slug: 'find-objects-worksheets',
+        name: 'Find Objects Worksheets',
+        category: 'Visual Skills',
+        icon: '🔎',
+        description: 'Pair Big & Small activities with find objects worksheets for cross-curricular skill building. Students strengthen visual scanning and search activities with hidden objects while reinforcing concepts from big & small practice sessions. Create themed packets that combine both worksheet types for engaging homework or center rotations.',
+      },
+      {
+        id: '6',
+        slug: 'pattern-worksheets',
+        name: 'Pattern Worksheets',
+        category: 'Logic & Puzzles',
+        icon: '🔄',
+        description: 'Extend big & small practice with pattern worksheets for well-rounded skill development. Students benefit from pattern recognition and sequence completion exercises alongside big & small activities. Create themed bundles that keep learners engaged across multiple skill areas.',
+      },
+    ], // Samples loaded dynamically from content manager
 
   },
 

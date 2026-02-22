@@ -116,6 +116,28 @@ Every worksheet downloads as a professional 300 DPI PDF file. Print at home on s
         title: 'Commercial License Included',
         description: 'Sell grid drawing worksheets on Teachers Pay Teachers, Etsy, or Amazon KDP with the commercial license included in your subscription. Grid art worksheets occupy a unique niche combining art instruction with spatial reasoning.',
       },
+    
+      {
+        id: '8',
+        icon: '✅',
+        title: 'Auto-Generated Answer Keys for Every Draw And Color Worksheet',
+        description: 'Every draw and color worksheet automatically generates a matching answer key showing all correct responses clearly marked. Teachers verify student work in seconds without solving exercises themselves. Print answer keys on separate pages for self-checking stations or display on document cameras during whole-class review sessions. The verification system guarantees accuracy for confident grading across entire class sets.',
+        highlighted: false,
+      },
+      {
+        id: '9',
+        icon: '🎨',
+        title: 'Themed Backgrounds and Decorative Borders for Draw And Color Worksheets',
+        description: 'Choose from dozens of themed backgrounds including chalkboard, notebook paper, rainbow, clouds, and seasonal designs to enhance your draw and color worksheets visually. Add decorative borders featuring stars, hearts, flowers, or school supplies around page edges. Adjust opacity for subtle or prominent effects. Professional visual design increases student engagement and creates polished materials suitable for classroom display or marketplace sales.',
+        highlighted: false,
+      },
+      {
+        id: '10',
+        icon: '🖍️',
+        title: 'Guided Drawing Templates With Step-by-Step Visual Instructions',
+        description: 'Generate draw and color worksheets featuring guided drawing templates that break complex images into simple step-by-step shapes. Students follow numbered visual instructions to recreate themed images then color their completed drawings. This progressive approach builds drawing confidence by transforming intimidating images into achievable sequential steps. The format develops spatial planning, shape recognition, and fine motor control simultaneously.',
+        highlighted: false,
+      },
     ],
 
   },

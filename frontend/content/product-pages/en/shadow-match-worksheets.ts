@@ -71,7 +71,78 @@ Full Access subscription costs $240 annually or $25 monthly. This includes all 3
     sectionTitle: 'Free Worksheet for Kids Features - Free Worksheets and Free Printables for Kindergarten',
     sectionDescription: 'Our shadow matching worksheet generator combines powerful features with simple controls to create professional free worksheet for kids in minutes. Teachers using our platform create free worksheet for kindergarten, first grade worksheets, and preschool activities without design experience. The shadow match generator includes dual exercise modes, complete customization, and professional quality exports perfect for classroom teaching or commercial sales. Full Access subscription gives you unlimited worksheet for kindergarten creation across all 33 apps including math worksheets, phonics worksheets, sight words worksheets, alphabet worksheets, addition worksheets, tracing worksheets, and free worksheets for kids.',
     highlightBadgeText: 'Key Feature',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        icon: '👤',
+        title: 'Silhouette Matching Activities for Visual Shape Recognition',
+        description: 'Generate professional shadow match worksheets where students connect colorful images to their corresponding black silhouettes. Each exercise develops visual shape recognition, figure-ground discrimination, and spatial analysis skills. Children must analyze object outlines, identifying defining features that distinguish one shadow from similar shapes in the matching set.',
+        highlighted: true,
+      },
+      {
+        id: '2',
+        icon: '🎯',
+        title: 'Multiple Matching Formats From Draw-Lines to Cut-and-Paste',
+        description: 'Choose between activity formats that suit different classroom needs. Draw-lines mode has students connect images to shadows with pencil lines. Cut-and-paste mode provides shadow cards students physically place on matching silhouettes. Circle mode presents rows where students circle the correct shadow. Each format builds shape recognition while varying fine motor skill demands.',
+        highlighted: false,
+      },
+      {
+        id: '3',
+        icon: '⚙️',
+        title: 'Adjustable Match Count From Three to Eight Pairs Per Exercise',
+        description: 'Control difficulty by setting three to eight image-shadow pairs per worksheet. Three pairs with distinctly different silhouettes suit preschool beginners developing basic shape awareness. Seven to eight pairs with similar outlines challenge older students requiring careful analysis of subtle shape differences between closely resembling shadows in the matching set.',
+        highlighted: false,
+      },
+      {
+        id: '4',
+        icon: '🖼️',
+        title: '3000+ Themed Images With Auto-Generated Shadow Silhouettes',
+        description: 'Browse over 3000 child-friendly images organized by theme with automatically generated accurate silhouettes. The shadow generation algorithm preserves distinctive outlines and characteristic features of each image. Choose animals, vehicles, food, and more. Themed image sets create cohesive matching exercises where all silhouettes share similar visual context.',
+        highlighted: false,
+      },
+      {
+        id: '5',
+        icon: '✅',
+        title: 'Answer Keys Showing Correct Image-to-Shadow Connections',
+        description: 'Every shadow match worksheet generates a complete answer key displaying all correct pairings with clear connection indicators. Teachers verify student work instantly without analyzing silhouettes themselves. Print answer keys for self-checking stations or use during guided instruction to discuss which shape features helped identify each correct match.',
+        highlighted: false,
+      },
+      {
+        id: '6',
+        icon: '🎨',
+        title: 'Full Canvas Editing for Custom Shadow Worksheet Design',
+        description: 'Customize every element after generation. Reposition images and shadows, adjust sizes and spacing for optimal visual clarity. Add custom titles, instructions, and student name fields using professional text tools. Apply themed backgrounds and decorative borders for polished materials. Rotate or rearrange shadow positions to vary exercise presentation.',
+        highlighted: false,
+      },
+      {
+        id: '7',
+        icon: '📤',
+        title: 'Upload Custom Images With Automatic Silhouette Generation',
+        description: 'Upload your own images and the system automatically generates accurate shadow silhouettes for matching exercises. Use classroom vocabulary pictures, student artwork, or curriculum-specific images. Create personalized shadow matching activities that connect visual shape analysis to familiar content students are currently studying in other subjects.',
+        highlighted: false,
+      },
+      {
+        id: '8',
+        icon: '🌍',
+        title: 'Eleven Language Support for International Classroom Use',
+        description: 'Generate shadow match worksheets in English, Spanish, French, German, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian, or Finnish. All instructions, labels, and activity prompts translate automatically. Perfect for multilingual environments where students build spatial vocabulary and shape recognition skills with directions in their primary language.',
+        highlighted: false,
+      },
+      {
+        id: '9',
+        icon: '🖨️',
+        title: 'High-Resolution Downloads Ensuring Sharp Silhouette Details',
+        description: 'Download at 300 DPI resolution ensuring silhouette edges remain sharp and distinguishable at printed size. Crisp shadow outlines are essential for accurate matching exercises where students analyze subtle shape differences. PDF format provides optimal print quality while JPEG works for digital distribution. Grayscale mode works exceptionally well for shadow-based activities.',
+        highlighted: false,
+      },
+      {
+        id: '10',
+        icon: '💼',
+        title: 'Commercial License for Shadow Activity Marketplace Sales',
+        description: 'Your subscription includes commercial licensing to sell shadow match worksheets on Teachers Pay Teachers, Etsy, and other educational platforms. Create themed shadow matching bundles organized by difficulty, image category, or seasonal theme. Visual discrimination worksheets are in high demand for preschool and kindergarten. No attribution or additional licensing fees.',
+        highlighted: false,
+      },
+    ], // Samples loaded dynamically from content manager
     
   },
 
@@ -123,7 +194,56 @@ Full Access subscription costs $240 annually or $25 monthly. This includes all 3
   useCases: {
     sectionTitle: 'Free Worksheet for Kindergarten - Free Worksheets and Free Printables for Kids',
     sectionDescription: 'Shadow matching worksheets serve diverse educational settings from preschool through elementary school. Teachers use our generator to create sight words worksheets, phonics worksheets, alphabet worksheets, addition worksheets, tracing worksheets, and coloring worksheets supporting multiple learning objectives. The visual perception focus makes shadow match activities ideal for kindergarten worksheets and first grade worksheets. Homeschool parents appreciate the quick creation of math worksheets without subscription complexity. Special education teachers customize free printable worksheets for individualized learning plans. Teacher entrepreneurs build profitable businesses selling worksheet packets on Teachers Pay Teachers.',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        icon: '👩‍🏫',
+        title: 'Kindergarten Teachers: Shape Recognition Development',
+        subtitle: 'Shadow Match Worksheets for Ages 5-6 Classroom Activities',
+        description: 'Kindergarten teachers integrate shadow match worksheets into daily routines as engaging visual skills center activities. Set difficulty to beginner level with simple exercises that build shape recognition and figure-ground discrimination progressively. The visual format requires minimal reading so students work independently after brief teacher modeling. Create themed worksheets matching current classroom units for cross-curricular connections. Generate multiple versions using different image themes for variety throughout the week.',
+        quote: 'My kindergarteners love the shadow match worksheets. They ask for more every day!',
+      },
+      {
+        id: '2',
+        icon: '📚',
+        title: 'First Grade Teachers: Building Shape Recognition Skills',
+        subtitle: 'Advanced Shadow Match Activities for Independent Practice',
+        description: 'First grade teachers use shadow match worksheets at increased difficulty levels for independent practice and early finisher activities. Students develop shape recognition and figure-ground discrimination through progressively challenging exercises that build confidence and persistence. Create differentiated worksheet sets using the same theme at multiple levels for seamless classroom management. The silhouette matching activities work perfectly for morning routines, homework packets, and assessment preparation activities.',
+        quote: 'Shadow Match worksheets are my go-to early finisher activity. Students stay engaged until the bell.',
+      },
+      {
+        id: '3',
+        icon: '🌟',
+        title: 'Special Education Teachers: Accessible Shadow Match Activities',
+        subtitle: 'Visual Learning Supports for Diverse Abilities',
+        description: 'Special education teachers value shadow match worksheets because the visual format accommodates diverse learning needs without requiring strong reading skills. Adjust difficulty settings to create individualized worksheets matching each student\\'s developmental level. The image-based exercises build shape recognition and figure-ground discrimination through concrete visual experiences rather than abstract concepts. Create consistent routine activities using familiar image themes that reduce anxiety while building essential cognitive skills.',
+        quote: 'The adjustable difficulty lets me create shadow match sheets perfect for each student\\'s level.',
+      },
+      {
+        id: '4',
+        icon: '🌍',
+        title: 'ESL Teachers: Language-Free Shadow Match Practice',
+        subtitle: 'Visual Activities Accessible at All Language Levels',
+        description: 'ESL teachers incorporate shadow match worksheets as equitable activities where all students participate regardless of English proficiency. The silhouette matching activities require visual analysis rather than language comprehension, creating natural entry points for newcomer students. Use themed images to build vocabulary connections as students discuss their work. Generate worksheets in eleven languages to provide instructions in students\\' primary language while developing shape recognition and figure-ground discrimination.',
+        quote: 'My newcomer students complete shadow match worksheets with the same confidence as native speakers.',
+      },
+      {
+        id: '5',
+        icon: '🏠',
+        title: 'Homeschool Parents: Self-Paced Shadow Match Learning',
+        subtitle: 'Independent Practice Activities for Home Education',
+        description: 'Homeschool parents appreciate shadow match worksheets as independent practice activities that develop shape recognition and figure-ground discrimination without requiring constant supervision. Create progressive difficulty sets for self-paced skill building across multiple sessions. The visual format engages children who struggle with text-heavy worksheets. Generate themed versions connecting to current unit studies for integrated learning. One subscription provides unlimited worksheet creation for multiple children at different ability levels.',
+        quote: 'My kids work through shadow match sheets independently while I teach their siblings.',
+      },
+      {
+        id: '6',
+        icon: '💰',
+        title: 'Teacher Entrepreneurs: Shadow Match Bundles for Marketplace',
+        subtitle: 'Create and Sell Professional Worksheet Products Online',
+        description: 'Teacher entrepreneurs create themed shadow match worksheets bundles for Teachers Pay Teachers, Etsy, and Amazon KDP. Package worksheets by theme, difficulty level, or seasonal collections for maximum marketplace appeal. The silhouette matching activities fill a consistent demand niche in early childhood education. Your subscription includes commercial licensing with no additional fees or attribution requirements. Create holiday packs, themed bundles, and progressive difficulty series generating passive income from your teaching expertise.',
+        quote: 'My shadow match bundles sell consistently. The themed sets are especially popular.',
+      },
+    ], // Samples loaded dynamically from content manager
     
   },
 
@@ -299,7 +419,56 @@ Full Access subscription costs $240 annually or $25 monthly. This includes all 3
     ctaDescription: 'Join educators creating professional worksheets. Unlimited generation, commercial license included.',
     primaryCtaText: 'Start Free Trial',
     secondaryCtaText: 'View All 33 Apps',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        slug: 'matching-worksheets',
+        name: 'Matching Worksheets',
+        category: 'Visual Skills',
+        icon: '🤝',
+        description: 'Supplement shadow match worksheets with matching exercises for balanced instruction. The picture pair matching for visual association skills format provides variety that keeps students motivated. Mix both generators to create professional learning packets for any classroom theme.',
+      },
+      {
+        id: '2',
+        slug: 'find-objects-worksheets',
+        name: 'Find Objects Worksheets',
+        category: 'Visual Skills',
+        icon: '🔎',
+        description: 'Bridge shadow match concepts with find objects activities for deeper understanding. Students practice visual scanning and search activities with hidden objects while building on shadow match foundations. Combine both worksheet generators for comprehensive themed learning bundles.',
+      },
+      {
+        id: '3',
+        slug: 'odd-one-out-worksheets',
+        name: 'Odd One Out Worksheets',
+        category: 'Logic & Puzzles',
+        icon: '🔍',
+        description: 'Combine shadow match worksheets with odd one out exercises for comprehensive lesson planning. The classification activities finding the item that does not belong activities complement shadow match skills perfectly. Build complete learning packets mixing both generators for varied classroom practice.',
+      },
+      {
+        id: '4',
+        slug: 'big-small-worksheets',
+        name: 'Big & Small Worksheets',
+        category: 'Visual Skills',
+        icon: '📏',
+        description: 'Extend shadow match practice with big & small worksheets for well-rounded skill development. Students benefit from size comparison and ordering activities for early learners alongside shadow match activities. Create themed bundles that keep learners engaged across multiple skill areas.',
+      },
+      {
+        id: '5',
+        slug: 'missing-pieces-worksheets',
+        name: 'Missing Pieces Worksheets',
+        category: 'Logic & Puzzles',
+        icon: '🧩',
+        description: 'Extend shadow match practice with missing pieces worksheets for well-rounded skill development. Students benefit from visual completion puzzles identifying missing parts alongside shadow match activities. Create themed bundles that keep learners engaged across multiple skill areas.',
+      },
+      {
+        id: '6',
+        slug: 'picture-sort-worksheets',
+        name: 'Picture Sort Worksheets',
+        category: 'Visual Skills',
+        icon: '🗂️',
+        description: 'Combine shadow match worksheets with picture sort exercises for comprehensive lesson planning. The categorization and sorting activities with picture groups activities complement shadow match skills perfectly. Build complete learning packets mixing both generators for varied classroom practice.',
+      },
+    ], // Samples loaded dynamically from content manager
 
   },
 

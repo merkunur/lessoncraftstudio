@@ -121,6 +121,28 @@ Adjust difficulty settings to create kindergarten worksheets for early learners 
         description: 'Your subscription includes print-on-demand commercial licensing. Sell subtraction worksheets on Teachers Pay Teachers, Etsy, or Amazon KDP. Create themed bundles like Ocean Take-Away Activities or Farm Subtraction Practice. Package differentiated difficulty levels into comprehensive math packets. Many teachers earn $500 to $5000 monthly selling worksheet bundles online.',
         highlighted: false,
       },
+    
+      {
+        id: '8',
+        icon: '✅',
+        title: 'Auto-Generated Answer Keys for Every Subtraction Worksheet',
+        description: 'Every subtraction worksheet automatically generates a matching answer key showing all correct responses clearly marked. Teachers verify student work in seconds without solving exercises themselves. Print answer keys on separate pages for self-checking stations or display on document cameras during whole-class review sessions. The verification system guarantees accuracy for confident grading across entire class sets.',
+        highlighted: false,
+      },
+      {
+        id: '9',
+        icon: '🎨',
+        title: 'Themed Backgrounds and Decorative Borders for Subtraction Worksheets',
+        description: 'Choose from dozens of themed backgrounds including chalkboard, notebook paper, rainbow, clouds, and seasonal designs to enhance your subtraction worksheets visually. Add decorative borders featuring stars, hearts, flowers, or school supplies around page edges. Adjust opacity for subtle or prominent effects. Professional visual design increases student engagement and creates polished materials suitable for classroom display or marketplace sales.',
+        highlighted: false,
+      },
+      {
+        id: '10',
+        icon: '⚙️',
+        title: 'Four Exercise Modes Including Take-Away and Find-the-Difference',
+        description: 'Choose from four subtraction exercise modes designed for different skill levels and learning objectives. Image take-away mode shows pictures being removed for concrete understanding. Image minus number mode bridges visual and symbolic subtraction. Find the subtrahend mode creates fill-in-the-blank equations developing algebraic thinking foundations. Mixed mode randomizes problem types for comprehensive subtraction fluency assessment and review.',
+        highlighted: false,
+      },
     ],
   },
 

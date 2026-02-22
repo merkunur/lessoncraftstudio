@@ -114,6 +114,28 @@ The generator includes 8 different templates with various line patterns and orie
         title: 'Commercial License Included',
         description: 'Sell line tracing worksheets on Teachers Pay Teachers, Etsy, or Amazon KDP with the commercial license included in your subscription. Fine motor worksheets are consistently among the best-selling preschool and kindergarten resources.',
       },
+    
+      {
+        id: '8',
+        icon: '✅',
+        title: 'Auto-Generated Answer Keys for Every Drawing Lines Worksheet',
+        description: 'Every drawing lines worksheet automatically generates a matching answer key showing all correct responses clearly marked. Teachers verify student work in seconds without solving exercises themselves. Print answer keys on separate pages for self-checking stations or display on document cameras during whole-class review sessions. The verification system guarantees accuracy for confident grading across entire class sets.',
+        highlighted: false,
+      },
+      {
+        id: '9',
+        icon: '🎨',
+        title: 'Themed Backgrounds and Decorative Borders for Drawing Lines Worksheets',
+        description: 'Choose from dozens of themed backgrounds including chalkboard, notebook paper, rainbow, clouds, and seasonal designs to enhance your drawing lines worksheets visually. Add decorative borders featuring stars, hearts, flowers, or school supplies around page edges. Adjust opacity for subtle or prominent effects. Professional visual design increases student engagement and creates polished materials suitable for classroom display or marketplace sales.',
+        highlighted: false,
+      },
+      {
+        id: '10',
+        icon: '✂️',
+        title: 'Progressive Line Complexity From Straight to Curved Paths',
+        description: 'Choose from progressive line complexity levels matching student developmental stages. Straight horizontal and vertical lines suit beginning writers developing basic motor control. Diagonal lines introduce directional challenges for intermediate learners. Curved paths and wave patterns build the smooth hand movements needed for cursive readiness. Zigzag and spiral patterns challenge advanced students with multi-directional line coordination exercises.',
+        highlighted: false,
+      },
     ],
 
   },
@@ -405,8 +427,8 @@ The generator includes 8 different templates with various line patterns and orie
       },
       {
         id: '6',
-        slug: 'matchup-maker-worksheets',
-        name: 'MatchUp Maker',
+        slug: 'matching-worksheets',
+        name: 'Matching Worksheets',
         category: 'Visual Skills',
         icon: '🔗',
         description: 'Pair line tracing with matching worksheets for visual discrimination and motor development. Both activities connect related images, reinforcing visual association skills while building hand-eye coordination through different formats.',

@@ -29,7 +29,9 @@ export const treasureHuntEnContent: ProductPageContent = {
 
 Treasure hunt worksheets help young learners practice following multi-step directions while building spatial awareness and directional vocabulary. Students read written instructions and navigate through a 5x5 grid of images to find the hidden treasure. Each worksheet combines reading comprehension practice with visual learning in an engaging puzzle format that keeps children motivated.
 
-This treasure hunt generator creates unique worksheets every time you click generate. Choose from thousands of child-friendly images organized by theme or upload your own pictures to personalize worksheets for your students. Perfect for kindergarten teachers, first grade teachers, homeschool parents, and special education instructors who need differentiated following directions practice materials.`,
+This treasure hunt generator creates unique worksheets every time you click generate. Choose from thousands of child-friendly images organized by theme or upload your own pictures to personalize worksheets for your students. Perfect for kindergarten teachers, first grade teachers, homeschool parents, and special education instructors who need differentiated following directions practice materials.
+
+Treasure hunt worksheets transform visual searching into exciting adventure narratives where students follow themed clues to discover hidden items. Each worksheet creates an immersive story context that motivates reluctant learners and maintains engagement throughout the activity. Teachers choose from pirate, jungle, space, underwater, and many more adventure themes. The sequential clue format builds reading comprehension alongside visual discrimination as students must understand each direction to find the next treasure.`,
     previewImageSrc: '/samples/english/treasure-hunt/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Try Free',
@@ -69,7 +71,78 @@ This treasure hunt generator creates unique worksheets every time you click gene
     sectionTitle: 'Free Worksheet for Kids Features - Worksheet for Kindergarten',
     sectionDescription: 'Our treasure hunt worksheet maker includes seven powerful features that help teachers create professional free worksheet for kids in minutes. Each feature works together to give you complete control over your free worksheet for kids and first grade worksheets. Generate unlimited free worksheet for kids with your Full Access subscription. No per-worksheet fees mean you can create as many free worksheet for kids as your students need.',
     highlightBadgeText: 'Key Feature',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        icon: '🏴‍☠️',
+        title: 'Adventure-Themed Search and Find Puzzle Activities',
+        description: 'Generate professional treasure hunt worksheets where students follow clues and locate hidden items within themed adventure scenes. Each worksheet combines visual searching with sequential clue-following for multi-step problem solving. The adventure narrative format transforms visual scanning practice into an exciting quest that motivates reluctant learners and maintains sustained engagement.',
+        highlighted: true,
+      },
+      {
+        id: '2',
+        icon: '🗺️',
+        title: 'Multiple Hunt Formats From Checklist Search to Clue Trails',
+        description: 'Choose between treasure hunt formats that develop different cognitive skills. Checklist mode provides a list of items to find within a scene. Sequential clue mode guides students through ordered discoveries where each find reveals the next clue. Pattern trail mode requires following a specific image sequence through a grid. Each format builds distinct search and reasoning abilities.',
+        highlighted: false,
+      },
+      {
+        id: '3',
+        icon: '⚙️',
+        title: 'Adjustable Difficulty With Variable Clue Counts and Scene Density',
+        description: 'Control challenge level by setting three to twelve hidden treasures and adjusting scene complexity from sparse to richly detailed. Few targets in simple scenes suit preschool visual development. Many targets hidden among dense themed imagery challenge older students requiring systematic search strategies, attention to detail, and persistence across complex visual environments.',
+        highlighted: false,
+      },
+      {
+        id: '4',
+        icon: '🖼️',
+        title: '3000+ Themed Images for Creating Immersive Adventure Scenes',
+        description: 'Browse over 3000 child-friendly images for building treasure hunt environments. Choose pirate themes for ocean adventures, jungle animals for safari quests, or space items for cosmic exploration. Theme-based scene generation creates immersive visual worlds where hidden treasures blend naturally among thematically consistent distractor images for genuine searching challenges.',
+        highlighted: false,
+      },
+      {
+        id: '5',
+        icon: '✅',
+        title: 'Answer Keys Revealing All Hidden Treasure Locations',
+        description: 'Every treasure hunt worksheet generates a complete answer key showing all hidden item locations clearly marked within the scene. Teachers verify student discoveries instantly without re-searching scenes themselves. Answer keys include circled locations and numbered markers matching the clue sequence for efficient grading during classroom activity time.',
+        highlighted: false,
+      },
+      {
+        id: '6',
+        icon: '🎨',
+        title: 'Full Canvas Editing for Custom Adventure Worksheet Design',
+        description: 'Customize every element after generation. Reposition scene elements, adjust sizes, and modify adventure narratives for engaging presentations. Add custom story introductions, character names, and clue text using professional tools. Apply adventure-themed backgrounds and decorative borders creating immersive treasure hunt experiences that feel like real expeditions.',
+        highlighted: false,
+      },
+      {
+        id: '7',
+        icon: '📤',
+        title: 'Upload Custom Images for Personalized Treasure Adventures',
+        description: 'Upload classroom photos, field trip images, or student-created artwork to build personalized treasure hunt scenes. Create adventures set in familiar environments like the school playground, classroom, or local community. Uploaded images make treasure hunts personally meaningful, increasing engagement and connecting visual search practice to real-world observation skills.',
+        highlighted: false,
+      },
+      {
+        id: '8',
+        icon: '🌍',
+        title: 'Generate Treasure Hunt Worksheets in Eleven Languages',
+        description: 'Create treasure hunt worksheets in English, Spanish, French, German, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian, or Finnish. Clue text, instructions, and adventure narratives translate automatically. Perfect for international classrooms where students follow treasure hunt directions in their primary language while developing visual scanning skills.',
+        highlighted: false,
+      },
+      {
+        id: '9',
+        icon: '🖨️',
+        title: 'Professional Print Quality With Rich Visual Detail',
+        description: 'Download completed treasure hunts at 300 DPI resolution ensuring hidden details remain discoverable when printed. Rich visual scenes require high print quality for successful gameplay. PDF format provides sharp output for standard printing while JPEG works for digital classroom use. Every hidden treasure stays clearly identifiable at printed scale.',
+        highlighted: false,
+      },
+      {
+        id: '10',
+        icon: '💼',
+        title: 'Commercial License for Adventure Activity Marketplace Sales',
+        description: 'Your subscription includes commercial licensing to sell treasure hunt worksheets on Teachers Pay Teachers, Etsy, and Amazon KDP. Create themed adventure bundles organized by difficulty, story theme, or seasonal content. Treasure hunt worksheets are consistently popular with families and teachers. No attribution required and no additional licensing fees apply.',
+        highlighted: false,
+      },
+    ], // Samples loaded dynamically from content manager
     
   },
 
@@ -121,7 +194,56 @@ This treasure hunt generator creates unique worksheets every time you click gene
   useCases: {
     sectionTitle: 'Free Printables for Teachers - Worksheet for Kids and Kindergarten',
     sectionDescription: 'Treasure hunt worksheets serve diverse educational settings from traditional classrooms to homeschool environments. Teachers across grade levels use following directions activities to build reading comprehension, spatial awareness, and critical thinking skills. The flexible format adapts to different curriculum standards and learning objectives. Create unlimited free printable worksheets for daily practice, assessment, enrichment, or intervention programs.',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        icon: '👩‍🏫',
+        title: 'Kindergarten Teachers: Visual Searching Development',
+        subtitle: 'Treasure Hunt Worksheets for Ages 5-6 Classroom Activities',
+        description: 'Kindergarten teachers integrate treasure hunt worksheets into daily routines as engaging game center activities. Set difficulty to beginner level with simple exercises that build visual searching and sequential problem solving progressively. The visual format requires minimal reading so students work independently after brief teacher modeling. Create themed worksheets matching current classroom units for cross-curricular connections. Generate multiple versions using different image themes for variety throughout the week.',
+        quote: 'My kindergarteners love the treasure hunt worksheets. They ask for more every day!',
+      },
+      {
+        id: '2',
+        icon: '📚',
+        title: 'First Grade Teachers: Building Visual Searching Skills',
+        subtitle: 'Advanced Treasure Hunt Activities for Independent Practice',
+        description: 'First grade teachers use treasure hunt worksheets at increased difficulty levels for independent practice and early finisher activities. Students develop visual searching and sequential problem solving through progressively challenging exercises that build confidence and persistence. Create differentiated worksheet sets using the same theme at multiple levels for seamless classroom management. The adventure search activities work perfectly for morning routines, homework packets, and assessment preparation activities.',
+        quote: 'Treasure Hunt worksheets are my go-to early finisher activity. Students stay engaged until the bell.',
+      },
+      {
+        id: '3',
+        icon: '🌟',
+        title: 'Special Education Teachers: Accessible Treasure Hunt Activities',
+        subtitle: 'Visual Learning Supports for Diverse Abilities',
+        description: 'Special education teachers value treasure hunt worksheets because the visual format accommodates diverse learning needs without requiring strong reading skills. Adjust difficulty settings to create individualized worksheets matching each student\\'s developmental level. The image-based exercises build visual searching and sequential problem solving through concrete visual experiences rather than abstract concepts. Create consistent routine activities using familiar image themes that reduce anxiety while building essential cognitive skills.',
+        quote: 'The adjustable difficulty lets me create treasure hunt sheets perfect for each student\\'s level.',
+      },
+      {
+        id: '4',
+        icon: '🌍',
+        title: 'ESL Teachers: Language-Free Treasure Hunt Practice',
+        subtitle: 'Visual Activities Accessible at All Language Levels',
+        description: 'ESL teachers incorporate treasure hunt worksheets as equitable activities where all students participate regardless of English proficiency. The adventure search activities require visual analysis rather than language comprehension, creating natural entry points for newcomer students. Use themed images to build vocabulary connections as students discuss their work. Generate worksheets in eleven languages to provide instructions in students\\' primary language while developing visual searching and sequential problem solving.',
+        quote: 'My newcomer students complete treasure hunt worksheets with the same confidence as native speakers.',
+      },
+      {
+        id: '5',
+        icon: '🏠',
+        title: 'Homeschool Parents: Self-Paced Treasure Hunt Learning',
+        subtitle: 'Independent Practice Activities for Home Education',
+        description: 'Homeschool parents appreciate treasure hunt worksheets as independent practice activities that develop visual searching and sequential problem solving without requiring constant supervision. Create progressive difficulty sets for self-paced skill building across multiple sessions. The visual format engages children who struggle with text-heavy worksheets. Generate themed versions connecting to current unit studies for integrated learning. One subscription provides unlimited worksheet creation for multiple children at different ability levels.',
+        quote: 'My kids work through treasure hunt sheets independently while I teach their siblings.',
+      },
+      {
+        id: '6',
+        icon: '💰',
+        title: 'Teacher Entrepreneurs: Treasure Hunt Bundles for Marketplace',
+        subtitle: 'Create and Sell Professional Worksheet Products Online',
+        description: 'Teacher entrepreneurs create themed treasure hunt worksheets bundles for Teachers Pay Teachers, Etsy, and Amazon KDP. Package worksheets by theme, difficulty level, or seasonal collections for maximum marketplace appeal. The adventure search activities fill a consistent demand niche in early childhood education. Your subscription includes commercial licensing with no additional fees or attribution requirements. Create holiday packs, themed bundles, and progressive difficulty series generating passive income from your teaching expertise.',
+        quote: 'My treasure hunt bundles sell consistently. The themed sets are especially popular.',
+      },
+    ], // Samples loaded dynamically from content manager
     
   },
 
@@ -299,7 +421,56 @@ This treasure hunt generator creates unique worksheets every time you click gene
     ctaDescription: 'Join educators creating professional worksheets. Unlimited generation, commercial license included.',
     primaryCtaText: 'Start Free Trial',
     secondaryCtaText: 'View All 33 Apps',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        slug: 'find-objects-worksheets',
+        name: 'Find Objects Worksheets',
+        category: 'Visual Skills',
+        icon: '🔎',
+        description: 'Supplement treasure hunt worksheets with find objects exercises for balanced instruction. The visual scanning and search activities with hidden objects format provides variety that keeps students motivated. Mix both generators to create professional learning packets for any classroom theme.',
+      },
+      {
+        id: '2',
+        slug: 'picture-path-worksheets',
+        name: 'Picture Path Worksheets',
+        category: 'Logic & Puzzles',
+        icon: '🗺️',
+        description: 'Supplement treasure hunt worksheets with picture path exercises for balanced instruction. The maze-style path tracing with picture-based navigation format provides variety that keeps students motivated. Mix both generators to create professional learning packets for any classroom theme.',
+      },
+      {
+        id: '3',
+        slug: 'find-and-count-worksheets',
+        name: 'Find & Count Worksheets',
+        category: 'Visual Skills',
+        icon: '🔢',
+        description: 'Extend treasure hunt practice with find & count worksheets for well-rounded skill development. Students benefit from counting-based search activities combining math with visual scanning alongside treasure hunt activities. Create themed bundles that keep learners engaged across multiple skill areas.',
+      },
+      {
+        id: '4',
+        slug: 'word-search-worksheets',
+        name: 'Word Search Worksheets',
+        category: 'Literacy',
+        icon: '🔍',
+        description: 'Pair Treasure Hunt activities with word search worksheets for cross-curricular skill building. Students strengthen vocabulary-building word search puzzles while reinforcing concepts from treasure hunt practice sessions. Create themed packets that combine both worksheet types for engaging homework or center rotations.',
+      },
+      {
+        id: '5',
+        slug: 'grid-match-worksheets',
+        name: 'Grid Match Worksheets',
+        category: 'Logic & Puzzles',
+        icon: '🔲',
+        description: 'Supplement treasure hunt worksheets with grid match exercises for balanced instruction. The grid-based matching puzzles for spatial reasoning format provides variety that keeps students motivated. Mix both generators to create professional learning packets for any classroom theme.',
+      },
+      {
+        id: '6',
+        slug: 'coloring-worksheets',
+        name: 'Coloring Worksheets',
+        category: 'Art & Creativity',
+        icon: '🎨',
+        description: 'Pair Treasure Hunt activities with coloring worksheets for cross-curricular skill building. Students strengthen printable coloring pages for fine motor development while reinforcing concepts from treasure hunt practice sessions. Create themed packets that combine both worksheet types for engaging homework or center rotations.',
+      },
+    ], // Samples loaded dynamically from content manager
 
   },
 

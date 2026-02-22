@@ -27,7 +27,9 @@ export const alphabetTrainEnContent: ProductPageContent = {
     subtitle: 'Drag-and-Drop ABC Activities for Kindergarten',
     description: `Create custom alphabet train worksheets with our alphabet train worksheet generator. Your Core Bundle subscription gives you unlimited alphabet worksheet creation with no per-worksheet fees. Generate printable ABC worksheets that help kids learn letter recognition through a fun train theme. Download high-quality PDF worksheets in under 3 minutes.
 
-The Alphabet Train worksheet maker transforms alphabet learning into an exciting activity. Children match letters to picture clues on colorful train wagons. Each wagon displays a letter and an image that starts with that letter. This visual connection strengthens letter-sound relationships. Kids cut out letter blocks and paste them onto the correct train cars.`,
+The Alphabet Train worksheet maker transforms alphabet learning into an exciting activity. Children match letters to picture clues on colorful train wagons. Each wagon displays a letter and an image that starts with that letter. This visual connection strengthens letter-sound relationships. Kids cut out letter blocks and paste them onto the correct train cars.
+
+The alphabet train format turns letter learning into an adventure. Students connect train cars in alphabetical order, reinforcing letter sequence knowledge through playful activity. Each train car displays a letter with a matching themed image, helping visual learners associate letters with familiar objects. Teachers choose from uppercase, lowercase, or mixed-case exercises to match their curriculum objectives. The cut-and-paste format builds fine motor skills alongside literacy development. Generate alphabet train worksheets for any image theme including animals, food, vehicles, and seasonal topics. Create differentiated activities for students at different stages of letter recognition mastery. Perfect for ESL classrooms and bilingual programs teaching the Latin alphabet across multiple languages.`,
     previewImageSrc: '/samples/english/alphabet-train/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Try Free',
@@ -116,6 +118,28 @@ The Alphabet Train worksheet maker transforms alphabet learning into an exciting
         title: 'Commercial License Included',
         description: 'Your subscription includes commercial licensing for selling alphabet train worksheets on Teachers Pay Teachers, Etsy, Amazon KDP, or your own website. Themed alphabet train bundles are popular sellers for preschool and kindergarten markets. Create seasonal sets, animal alphabet collections, or progressive difficulty packs with no attribution or extra fees required.',
         highlighted: true,
+      },
+    
+      {
+        id: '8',
+        icon: '✅',
+        title: 'Auto-Generated Answer Keys for Every Alphabet Train Worksheet',
+        description: 'Every alphabet train worksheet automatically generates a matching answer key showing all correct responses clearly marked. Teachers verify student work in seconds without solving exercises themselves. Print answer keys on separate pages for self-checking stations or display on document cameras during whole-class review sessions. The verification system guarantees accuracy for confident grading across entire class sets.',
+        highlighted: false,
+      },
+      {
+        id: '9',
+        icon: '🎨',
+        title: 'Themed Backgrounds and Decorative Borders for Alphabet Train Worksheets',
+        description: 'Choose from dozens of themed backgrounds including chalkboard, notebook paper, rainbow, clouds, and seasonal designs to enhance your alphabet train worksheets visually. Add decorative borders featuring stars, hearts, flowers, or school supplies around page edges. Adjust opacity for subtle or prominent effects. Professional visual design increases student engagement and creates polished materials suitable for classroom display or marketplace sales.',
+        highlighted: false,
+      },
+      {
+        id: '10',
+        icon: '✂️',
+        title: 'Cut-and-Paste Letter Blocks for Hands-On Alphabet Sequencing',
+        description: 'Generate alphabet train worksheets with printable letter blocks that students cut out and paste onto matching train cars. This hands-on format builds fine motor skills including cutting precision and glue control alongside letter recognition. Physical manipulation of letter pieces deepens alphabet sequence understanding through kinesthetic learning. The cut-and-paste format transforms passive recognition into active engagement with letter ordering.',
+        highlighted: false,
       },
     ],
 
@@ -410,8 +434,8 @@ Enable the grayscale checkbox before downloading to save ink. This converts all 
       },
       {
         id: '3',
-        slug: 'matchup-maker-worksheets',
-        name: 'MatchUp Maker Worksheets',
+        slug: 'matching-worksheets',
+        name: 'Matching Worksheets',
         category: 'Vocabulary',
         icon: '🔗',
         description: 'Extend letter-image matching with picture-word matching activities. Students connect letters to pictures on alphabet trains then match images to words on matchup worksheets for layered vocabulary building.',

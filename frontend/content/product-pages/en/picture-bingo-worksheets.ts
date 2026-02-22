@@ -75,7 +75,78 @@ Our picture bingo generator creates two free printable worksheets with every gen
     sectionTitle: 'Free Worksheet Features for Picture Bingo Cards',
     sectionDescription: 'Our picture bingo worksheet generator includes everything teachers need to create free printable worksheets for kindergarten and first grade. Generate customizable bingo worksheets for math worksheets, sight words worksheets, phonics worksheets, and alphabet worksheets recognition. Each feature helps you create engaging worksheet for kids that students love. Your Core Bundle subscription gives you unlimited access to all picture bingo features with no per-worksheet charges. Create as many kindergarten worksheets and first grade worksheets as your classroom needs.',
     highlightBadgeText: 'Key Feature',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        icon: '🎰',
+        title: 'Custom Picture Bingo Card Generation With Themed Images',
+        description: 'Generate professional picture bingo cards where students match called images to pictures on their unique cards. Each card features a randomized grid of themed images ensuring every student has a different arrangement. This engaging game format develops visual discrimination, listening skills, and sustained attention while providing vocabulary practice through image identification and matching.',
+        highlighted: true,
+      },
+      {
+        id: '2',
+        icon: '🔲',
+        title: 'Multiple Grid Sizes From Simple 3x3 to Standard 5x5 Cards',
+        description: 'Choose grid sizes from compact 3x3 cards for preschool beginners to standard 5x5 bingo cards for older students. Smaller grids with fewer images help young learners stay engaged without feeling overwhelmed. Larger grids increase game duration and require more focused visual scanning across twenty-five image positions for sustained attention practice.',
+        highlighted: false,
+      },
+      {
+        id: '3',
+        icon: '⚙️',
+        title: 'Adjustable Card Count Generating Unique Cards for Entire Classes',
+        description: 'Generate between two and thirty unique bingo cards per set ensuring every student receives a different card arrangement. The randomization algorithm guarantees each card contains the same image pool but in different grid positions. Create class sets of thirty cards from a single generation for efficient lesson preparation and fair gameplay.',
+        highlighted: false,
+      },
+      {
+        id: '4',
+        icon: '🖼️',
+        title: '3000+ Themed Images for Engaging Bingo Game Content',
+        description: 'Browse over 3000 child-friendly images organized by theme for bingo card content. Choose animals for science units, food for nutrition lessons, or seasonal items for holiday games. Theme-based generation creates cohesive bingo experiences where all images share visual style and subject matter, reinforcing vocabulary and concept recognition during gameplay.',
+        highlighted: false,
+      },
+      {
+        id: '5',
+        icon: '📢',
+        title: 'Printable Caller Cards With Large Images for Easy Display',
+        description: 'Every bingo set generates matching caller cards featuring each image at large display size with its name printed below. Teachers hold up caller cards or project them on screen for students to find matching images on their bingo grids. Clear large-format caller cards ensure all students can identify the called image from across the classroom.',
+        highlighted: false,
+      },
+      {
+        id: '6',
+        icon: '🎨',
+        title: 'Full Canvas Editing for Custom Bingo Card Design and Branding',
+        description: 'Customize every element after generation. Adjust grid spacing, image sizes, and card layouts for optimal visual clarity. Add custom game titles, classroom branding, and student name fields using professional text tools. Apply themed backgrounds and decorative borders for polished bingo sets suitable for classroom game time or commercial sale.',
+        highlighted: false,
+      },
+      {
+        id: '7',
+        icon: '📤',
+        title: 'Upload Custom Images for Curriculum-Specific Bingo Games',
+        description: 'Upload vocabulary flashcard images, sight word pictures, or curriculum-specific photos to create bingo games directly tied to current lessons. Students play bingo while reviewing academic content in an engaging game format. Combine uploaded images with library selections for comprehensive review activities covering specific learning objectives.',
+        highlighted: false,
+      },
+      {
+        id: '8',
+        icon: '🌍',
+        title: 'Create Picture Bingo Sets in Eleven Languages',
+        description: 'Generate picture bingo worksheets in English, Spanish, French, German, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian, or Finnish. Image labels and caller card text translate automatically. Perfect for ESL vocabulary games and bilingual classroom activities where students practice image-word associations in their target language through engaging gameplay.',
+        highlighted: false,
+      },
+      {
+        id: '9',
+        icon: '🖨️',
+        title: 'Print-Ready 300 DPI Output in PDF and JPEG Formats',
+        description: 'Download bingo card sets at professional resolution ensuring images remain clear and distinguishable at printed size. PDF format provides crisp multi-card printing on standard paper. JPEG works for individual card distribution. Cards print at optimal size for student desks with images large enough for quick visual identification during fast-paced games.',
+        highlighted: false,
+      },
+      {
+        id: '10',
+        icon: '💼',
+        title: 'Commercial License for Selling Bingo Game Bundles',
+        description: 'Your subscription includes commercial licensing to sell picture bingo sets on Teachers Pay Teachers, Etsy, and other platforms. Create themed bingo bundles organized by vocabulary topic, seasonal theme, or grade level. Educational bingo games are consistent bestsellers with high demand from both teachers and parents. No attribution or extra fees required.',
+        highlighted: false,
+      },
+    ], // Samples loaded dynamically from content manager
     
   },
 
@@ -127,7 +198,56 @@ Our picture bingo generator creates two free printable worksheets with every gen
   useCases: {
     sectionTitle: 'Free Worksheets for Teachers, Parents, and Educators',
     sectionDescription: 'Picture bingo worksheets serve diverse educational settings from preschool through third grade. Teachers across all grade levels use our printable bingo cards generator to create engaging free printable worksheets for math worksheets, sight words worksheets, phonics worksheets, and alphabet worksheets. Our Core Bundle subscription provides unlimited bingo worksheet creation for kindergarten teachers, first grade teachers, homeschool parents, ESL instructors, special education teachers, and teacher entrepreneurs. Generate customized free printables that match your specific teaching situation and student needs.',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        icon: '👩‍🏫',
+        title: 'Kindergarten Teachers: Visual Matching Development',
+        subtitle: 'Picture Bingo Worksheets for Ages 5-6 Classroom Activities',
+        description: 'Kindergarten teachers integrate picture bingo cards into daily routines as engaging game center activities. Set difficulty to beginner level with simple exercises that build visual matching and listening comprehension progressively. The visual format requires minimal reading so students work independently after brief teacher modeling. Create themed worksheets matching current classroom units for cross-curricular connections. Generate multiple versions using different image themes for variety throughout the week.',
+        quote: 'My kindergarteners love the picture bingo worksheets. They ask for more every day!',
+      },
+      {
+        id: '2',
+        icon: '📚',
+        title: 'First Grade Teachers: Building Visual Matching Skills',
+        subtitle: 'Advanced Picture Bingo Activities for Independent Practice',
+        description: 'First grade teachers use picture bingo cards at increased difficulty levels for independent practice and early finisher activities. Students develop visual matching and listening comprehension through progressively challenging exercises that build confidence and persistence. Create differentiated worksheet sets using the same theme at multiple levels for seamless classroom management. The bingo game activities work perfectly for morning routines, homework packets, and assessment preparation activities.',
+        quote: 'Picture Bingo worksheets are my go-to early finisher activity. Students stay engaged until the bell.',
+      },
+      {
+        id: '3',
+        icon: '🌟',
+        title: 'Special Education Teachers: Accessible Picture Bingo Activities',
+        subtitle: 'Visual Learning Supports for Diverse Abilities',
+        description: 'Special education teachers value picture bingo cards because the visual format accommodates diverse learning needs without requiring strong reading skills. Adjust difficulty settings to create individualized worksheets matching each student\\'s developmental level. The image-based exercises build visual matching and listening comprehension through concrete visual experiences rather than abstract concepts. Create consistent routine activities using familiar image themes that reduce anxiety while building essential cognitive skills.',
+        quote: 'The adjustable difficulty lets me create picture bingo sheets perfect for each student\\'s level.',
+      },
+      {
+        id: '4',
+        icon: '🌍',
+        title: 'ESL Teachers: Language-Free Picture Bingo Practice',
+        subtitle: 'Visual Activities Accessible at All Language Levels',
+        description: 'ESL teachers incorporate picture bingo cards as equitable activities where all students participate regardless of English proficiency. The bingo game activities require visual analysis rather than language comprehension, creating natural entry points for newcomer students. Use themed images to build vocabulary connections as students discuss their work. Generate worksheets in eleven languages to provide instructions in students\\' primary language while developing visual matching and listening comprehension.',
+        quote: 'My newcomer students complete picture bingo worksheets with the same confidence as native speakers.',
+      },
+      {
+        id: '5',
+        icon: '🏠',
+        title: 'Homeschool Parents: Self-Paced Picture Bingo Learning',
+        subtitle: 'Independent Practice Activities for Home Education',
+        description: 'Homeschool parents appreciate picture bingo cards as independent practice activities that develop visual matching and listening comprehension without requiring constant supervision. Create progressive difficulty sets for self-paced skill building across multiple sessions. The visual format engages children who struggle with text-heavy worksheets. Generate themed versions connecting to current unit studies for integrated learning. One subscription provides unlimited worksheet creation for multiple children at different ability levels.',
+        quote: 'My kids work through picture bingo sheets independently while I teach their siblings.',
+      },
+      {
+        id: '6',
+        icon: '💰',
+        title: 'Teacher Entrepreneurs: Picture Bingo Bundles for Marketplace',
+        subtitle: 'Create and Sell Professional Worksheet Products Online',
+        description: 'Teacher entrepreneurs create themed picture bingo cards bundles for Teachers Pay Teachers, Etsy, and Amazon KDP. Package worksheets by theme, difficulty level, or seasonal collections for maximum marketplace appeal. The bingo game activities fill a consistent demand niche in early childhood education. Your subscription includes commercial licensing with no additional fees or attribution requirements. Create holiday packs, themed bundles, and progressive difficulty series generating passive income from your teaching expertise.',
+        quote: 'My picture bingo bundles sell consistently. The themed sets are especially popular.',
+      },
+    ], // Samples loaded dynamically from content manager
     
   },
 
@@ -280,7 +400,56 @@ Our picture bingo generator creates two free printable worksheets with every gen
     ctaDescription: 'Join educators creating professional kindergarten worksheets. Unlimited generation, commercial license included.',
     primaryCtaText: 'Start Free Trial',
     secondaryCtaText: 'View All 33 Apps',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        slug: 'matching-worksheets',
+        name: 'Matching Worksheets',
+        category: 'Visual Skills',
+        icon: '🤝',
+        description: 'Supplement picture bingo worksheets with matching exercises for balanced instruction. The picture pair matching for visual association skills format provides variety that keeps students motivated. Mix both generators to create professional learning packets for any classroom theme.',
+      },
+      {
+        id: '2',
+        slug: 'find-and-count-worksheets',
+        name: 'Find & Count Worksheets',
+        category: 'Visual Skills',
+        icon: '🔢',
+        description: 'Combine picture bingo worksheets with find & count exercises for comprehensive lesson planning. The counting-based search activities combining math with visual scanning activities complement picture bingo skills perfectly. Build complete learning packets mixing both generators for varied classroom practice.',
+      },
+      {
+        id: '3',
+        slug: 'picture-sort-worksheets',
+        name: 'Picture Sort Worksheets',
+        category: 'Visual Skills',
+        icon: '🗂️',
+        description: 'Combine picture bingo worksheets with picture sort exercises for comprehensive lesson planning. The categorization and sorting activities with picture groups activities complement picture bingo skills perfectly. Build complete learning packets mixing both generators for varied classroom practice.',
+      },
+      {
+        id: '4',
+        slug: 'find-objects-worksheets',
+        name: 'Find Objects Worksheets',
+        category: 'Visual Skills',
+        icon: '🔎',
+        description: 'Bridge picture bingo concepts with find objects activities for deeper understanding. Students practice visual scanning and search activities with hidden objects while building on picture bingo foundations. Combine both worksheet generators for comprehensive themed learning bundles.',
+      },
+      {
+        id: '5',
+        slug: 'word-search-worksheets',
+        name: 'Word Search Worksheets',
+        category: 'Literacy',
+        icon: '🔍',
+        description: 'Supplement picture bingo worksheets with word search exercises for balanced instruction. The vocabulary-building word search puzzles format provides variety that keeps students motivated. Mix both generators to create professional learning packets for any classroom theme.',
+      },
+      {
+        id: '6',
+        slug: 'coloring-worksheets',
+        name: 'Coloring Worksheets',
+        category: 'Art & Creativity',
+        icon: '🎨',
+        description: 'Supplement picture bingo worksheets with coloring exercises for balanced instruction. The printable coloring pages for fine motor development format provides variety that keeps students motivated. Mix both generators to create professional learning packets for any classroom theme.',
+      },
+    ], // Samples loaded dynamically from content manager
 
   },
 

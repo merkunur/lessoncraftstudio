@@ -29,7 +29,9 @@ export const gridMatchEnContent: ProductPageContent = {
 
 Grid match puzzles help young learners develop visual discrimination and spatial reasoning skills. Students match numbered puzzle pieces to complete pictures. Each worksheet includes both the puzzle and answer key. Perfect for morning work and center activities.
 
-Teachers love grid match worksheets because they combine fun with learning. Create unlimited variations using our 3000+ image library. Customize every element including grid size and difficulty level. Export as PDF or JPEG for printing or digital use.`,
+Teachers love grid match worksheets because they combine fun with learning. Create unlimited variations using our 3000+ image library. Customize every element including grid size and difficulty level. Export as PDF or JPEG for printing or digital use.
+
+Grid match puzzles present students with a reference grid and require them to reproduce or complete matching patterns in an adjacent grid. This spatial reasoning format develops visual memory, attention to detail, and systematic copying strategies. Students analyze grid positions, identify pattern rules, and apply logical thinking to complete each match correctly. Teachers choose from several grid sizes and complexity levels to match student developmental stages. Simple 2x2 grids with bold images suit preschool learners while complex 4x4 grids challenge first and second graders. The format builds foundational skills for mathematics, coding, and scientific observation.`,
     previewImageSrc: '/samples/english/grid-match/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Try Free',
@@ -117,6 +119,28 @@ Teachers love grid match worksheets because they combine fun with learning. Crea
         icon: '💼',
         title: 'Commercial License Included for Selling Puzzle Worksheets',
         description: 'Your subscription includes commercial licensing for selling grid match worksheets on Teachers Pay Teachers, Etsy, Amazon KDP, or your own website. Visual puzzles have strong marketplace demand in the educational sector. Create themed puzzle bundles or progressive difficulty packs for maximum sales appeal. No attribution or extra licensing fees required beyond your subscription.',
+        highlighted: false,
+      },
+    
+      {
+        id: '8',
+        icon: '✅',
+        title: 'Auto-Generated Answer Keys for Every Grid Match Worksheet',
+        description: 'Every grid match worksheet automatically generates a matching answer key showing all correct responses clearly marked. Teachers verify student work in seconds without solving exercises themselves. Print answer keys on separate pages for self-checking stations or display on document cameras during whole-class review sessions. The verification system guarantees accuracy for confident grading across entire class sets.',
+        highlighted: false,
+      },
+      {
+        id: '9',
+        icon: '🎨',
+        title: 'Themed Backgrounds and Decorative Borders for Grid Match Worksheets',
+        description: 'Choose from dozens of themed backgrounds including chalkboard, notebook paper, rainbow, clouds, and seasonal designs to enhance your grid match worksheets visually. Add decorative borders featuring stars, hearts, flowers, or school supplies around page edges. Adjust opacity for subtle or prominent effects. Professional visual design increases student engagement and creates polished materials suitable for classroom display or marketplace sales.',
+        highlighted: false,
+      },
+      {
+        id: '10',
+        icon: '🔲',
+        title: 'Multiple Grid Sizes From Simple 2x2 to Complex 4x4 Patterns',
+        description: 'Choose from progressive grid complexity levels to match student abilities precisely. Simple 2x2 grids with bold images suit preschool learners developing basic spatial awareness. 3x3 grids increase the number of positions students must track and reproduce accurately. Complex 4x4 grids challenge first and second graders with sixteen positions requiring systematic analysis and careful attention to detail across the entire grid pattern.',
         highlighted: false,
       },
     ],

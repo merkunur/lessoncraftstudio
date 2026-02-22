@@ -31,7 +31,9 @@ Our math puzzle worksheet maker combines visual learning with math practice. Stu
 
 Math puzzle worksheets combine visual puzzles with addition worksheets and subtraction practice. Each worksheet shows a grid of identical images. Every image has a different math problem. Students solve the problems to complete the puzzle. These free printable worksheets work perfectly for kindergarten worksheets and first grade math.
 
-The puzzles use familiar images children love. Select from our 3000+ image library. Choose animals, food, vehicles, or holiday themes. Each math worksheet adapts to your lesson plan. The visual format keeps students engaged longer than traditional math worksheets.`,
+The puzzles use familiar images children love. Select from our 3000+ image library. Choose animals, food, vehicles, or holiday themes. Each math worksheet adapts to your lesson plan. The visual format keeps students engaged longer than traditional math worksheets.
+
+Math puzzle worksheets go beyond standard computation by embedding number problems within engaging visual puzzle formats. Students solve addition, subtraction, and number sequence challenges presented as picture-based brain teasers rather than traditional equations. This approach builds mathematical confidence in students who struggle with conventional worksheet formats while still developing essential number fluency.`,
     previewImageSrc: '/samples/english/math-puzzle/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Try Free',
@@ -120,6 +122,28 @@ The puzzles use familiar images children love. Select from our 3000+ image libra
         title: 'Commercial License Included: Sell Math Puzzle Worksheets Online',
         description: 'Your Full Access subscription includes commercial licensing for selling math puzzle worksheets on Teachers Pay Teachers, Etsy, Amazon KDP, or your own website. Visual puzzle worksheets command higher prices than standard drill pages because of their engaging format. Create themed bundles or progressive difficulty packs with no attribution or extra licensing fees.',
         highlighted: true,
+      },
+    
+      {
+        id: '8',
+        icon: '✅',
+        title: 'Auto-Generated Answer Keys for Every Math Puzzle Worksheet',
+        description: 'Every math puzzle worksheet automatically generates a matching answer key showing all correct responses clearly marked. Teachers verify student work in seconds without solving exercises themselves. Print answer keys on separate pages for self-checking stations or display on document cameras during whole-class review sessions. The verification system guarantees accuracy for confident grading across entire class sets.',
+        highlighted: false,
+      },
+      {
+        id: '9',
+        icon: '🎨',
+        title: 'Themed Backgrounds and Decorative Borders for Math Puzzle Worksheets',
+        description: 'Choose from dozens of themed backgrounds including chalkboard, notebook paper, rainbow, clouds, and seasonal designs to enhance your math puzzle worksheets visually. Add decorative borders featuring stars, hearts, flowers, or school supplies around page edges. Adjust opacity for subtle or prominent effects. Professional visual design increases student engagement and creates polished materials suitable for classroom display or marketplace sales.',
+        highlighted: false,
+      },
+      {
+        id: '10',
+        icon: '🧠',
+        title: 'Multiple Puzzle Formats Including Number Pyramids and Magic Squares',
+        description: 'Choose from diverse math puzzle formats that present number operations in engaging non-standard layouts. Number pyramids require adding adjacent numbers to fill upper blocks. Magic squares challenge students to make all rows, columns, and diagonals sum to the same total. Path puzzles require solving equations to navigate through number mazes. Each format develops mathematical thinking through creative problem presentation.',
+        highlighted: false,
       },
     ],
 

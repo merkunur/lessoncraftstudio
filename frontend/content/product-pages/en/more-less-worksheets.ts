@@ -29,7 +29,9 @@ export const moreLessEnContent: ProductPageContent = {
 
 Our comparison worksheet generator helps teachers create engaging math worksheets where students compare quantities and choose the correct symbol. Generate worksheets with greater than, less than, and equal to symbols using colorful images or traditional mathematical symbols. Perfect for kindergarten worksheets and first grade worksheets focused on early math skills.
 
-The worksheet maker offers flexible comparison modes including image-to-image comparisons and image-to-number comparisons. Teachers can customize every aspect including the number of exercises, symbol display style, and whether students fill in blanks or circle the correct answer. Create free printable worksheets that make learning math comparison fun and visual for young learners.`,
+The worksheet maker offers flexible comparison modes including image-to-image comparisons and image-to-number comparisons. Teachers can customize every aspect including the number of exercises, symbol display style, and whether students fill in blanks or circle the correct answer. Create free printable worksheets that make learning math comparison fun and visual for young learners.
+
+The more-or-less generator creates exercises where students compare quantities, identify greater and lesser amounts, and use comparison symbols correctly. Visual counting exercises present image groups for concrete quantity comparison. Number comparison exercises introduce the greater-than, less-than, and equal-to symbols in age-appropriate contexts. Teachers control number ranges and exercise complexity to build progressive quantity comparison skills from preschool through second grade. The visual format helps students internalize comparison concepts before transitioning to abstract symbolic notation.`,
     previewImageSrc: '/samples/english/more-less/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Try Free',
@@ -118,6 +120,28 @@ The worksheet maker offers flexible comparison modes including image-to-image co
         title: 'Commercial License Included: Sell Comparison Worksheets on TPT and Etsy',
         description: 'Your Full Access subscription includes commercial licensing for selling comparison worksheets on Teachers Pay Teachers, Etsy, Amazon KDP, or your own website. Greater-than less-than materials are consistently high-demand products searched by kindergarten and first grade teachers year-round. Create themed bundles with no attribution or extra licensing fees.',
         highlighted: true,
+      },
+    
+      {
+        id: '8',
+        icon: '✅',
+        title: 'Auto-Generated Answer Keys for Every More Less Worksheet',
+        description: 'Every more less worksheet automatically generates a matching answer key showing all correct responses clearly marked. Teachers verify student work in seconds without solving exercises themselves. Print answer keys on separate pages for self-checking stations or display on document cameras during whole-class review sessions. The verification system guarantees accuracy for confident grading across entire class sets.',
+        highlighted: false,
+      },
+      {
+        id: '9',
+        icon: '🎨',
+        title: 'Themed Backgrounds and Decorative Borders for More Less Worksheets',
+        description: 'Choose from dozens of themed backgrounds including chalkboard, notebook paper, rainbow, clouds, and seasonal designs to enhance your more less worksheets visually. Add decorative borders featuring stars, hearts, flowers, or school supplies around page edges. Adjust opacity for subtle or prominent effects. Professional visual design increases student engagement and creates polished materials suitable for classroom display or marketplace sales.',
+        highlighted: false,
+      },
+      {
+        id: '10',
+        icon: '⚖️',
+        title: 'Visual Quantity Comparison With Progressive Symbol Introduction',
+        description: 'The more-or-less generator introduces comparison concepts progressively from concrete visual counting to abstract symbolic notation. Early exercises present image groups for direct quantity comparison without symbols. Intermediate exercises introduce greater-than and less-than symbols alongside visual aids. Advanced exercises use symbols exclusively with number pairs. This progression builds conceptual understanding before requiring symbolic fluency in mathematical comparison.',
+        highlighted: false,
       },
     ],
 

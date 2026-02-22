@@ -125,6 +125,28 @@ This sudoku worksheet generator is perfect for kindergarten teachers, first grad
         description: 'Your subscription includes commercial licensing for selling custom sudoku worksheets on Teachers Pay Teachers, Etsy, Amazon KDP, or your own website. Create themed logic puzzle bundles and difficulty-leveled packs for maximum sales appeal. No attribution or extra licensing fees required. Picture sudoku puzzles for young children fill a niche marketplace with high demand and limited competition.',
         highlighted: false,
       },
+    
+      {
+        id: '8',
+        icon: '✅',
+        title: 'Auto-Generated Answer Keys for Every Sudoku Worksheet',
+        description: 'Every sudoku worksheet automatically generates a matching answer key showing all correct responses clearly marked. Teachers verify student work in seconds without solving exercises themselves. Print answer keys on separate pages for self-checking stations or display on document cameras during whole-class review sessions. The verification system guarantees accuracy for confident grading across entire class sets.',
+        highlighted: false,
+      },
+      {
+        id: '9',
+        icon: '🎨',
+        title: 'Themed Backgrounds and Decorative Borders for Sudoku Worksheets',
+        description: 'Choose from dozens of themed backgrounds including chalkboard, notebook paper, rainbow, clouds, and seasonal designs to enhance your sudoku worksheets visually. Add decorative borders featuring stars, hearts, flowers, or school supplies around page edges. Adjust opacity for subtle or prominent effects. Professional visual design increases student engagement and creates polished materials suitable for classroom display or marketplace sales.',
+        highlighted: false,
+      },
+      {
+        id: '10',
+        icon: '⚙️',
+        title: 'Three Difficulty Levels With 4, 6, or 8 Blank Cells Per Grid',
+        description: 'Control puzzle difficulty precisely by selecting easy, medium, or hard settings. Easy creates 4 blank cells perfect for ages 4-5 learning elimination strategy for the first time. Medium presents 6 blank cells requiring stronger deductive reasoning skills for kindergarten students. Hard challenges advanced learners with 8 empty cells demanding multi-step analytical thinking. Create differentiated puzzle sets using the same theme at three difficulty levels in minutes.',
+        highlighted: false,
+      },
     ],
 
   },

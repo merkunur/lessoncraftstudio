@@ -31,7 +31,9 @@ Picture sorting activities help young learners develop critical thinking skills.
 
 Teachers use picture sort worksheets to build classification skills in early learners. The visual nature of sorting activities makes them ideal for kindergarten worksheets and first grade worksheets. Create unlimited variations to keep students engaged and challenged.
 
-Full Access subscription costs $240 annually or $25 monthly. This includes all 33 worksheet generator types with commercial licensing. Generate as many picture sorting worksheets as your students need without additional fees.`,
+Full Access subscription costs $240 annually or $25 monthly. This includes all 33 worksheet generator types with commercial licensing. Generate as many picture sorting worksheets as your students need without additional fees.
+
+Picture sort worksheets challenge students to organize images into labeled categories by identifying shared attributes and grouping related items together. This classification format develops the logical thinking skills essential for scientific observation, mathematical reasoning, and reading comprehension. Teachers create sorting exercises using concrete visual attributes like color and shape or abstract conceptual categories like living versus non-living. Adjust the number of sorting categories and total items to control difficulty precisely. The hands-on cut-and-paste format builds fine motor skills alongside cognitive classification abilities.`,
     previewImageSrc: '/samples/english/picture-sort/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Try Free',
@@ -71,7 +73,78 @@ Full Access subscription costs $240 annually or $25 monthly. This includes all 3
     sectionTitle: 'Free Worksheet for Kids Features - Worksheet for Kindergarten and Free Printables',
     sectionDescription: 'Our picture sorting worksheet generator includes powerful features for creating free worksheet for kids and free worksheets. Teachers create professional free worksheet for kids in minutes. Every free worksheets supports your classroom needs from preschool through early elementary. Full Access gives you complete control over free worksheet for kids design.',
     highlightBadgeText: 'Key Feature',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        icon: '🗂️',
+        title: 'Category Sorting Activities With Themed Image Groups',
+        description: 'Generate professional picture sort worksheets where students categorize images into labeled groups by identifying shared attributes. Each worksheet presents mixed images that must be sorted into two to four category bins. This classification format develops logical thinking, attribute recognition, and organizational skills essential for scientific observation and mathematical reasoning.',
+        highlighted: true,
+      },
+      {
+        id: '2',
+        icon: '📊',
+        title: 'Multiple Sorting Criteria From Concrete to Abstract Categories',
+        description: 'Choose sorting exercises based on different classification criteria. Concrete sorting groups items by visible attributes like color, size, or shape. Category sorting organizes items by type such as animals versus vehicles. Function sorting groups items by use or purpose. Progressive criteria types build from simple visual matching to complex conceptual classification skills.',
+        highlighted: false,
+      },
+      {
+        id: '3',
+        icon: '⚙️',
+        title: 'Adjustable Category Count and Items Per Sorting Exercise',
+        description: 'Control complexity by setting two to four sorting categories and four to twelve total items per exercise. Two categories with few items suit preschool learners beginning classification practice. Four categories with many items challenge older students requiring multi-attribute analysis and careful evaluation of where each image belongs within the organizational system.',
+        highlighted: false,
+      },
+      {
+        id: '4',
+        icon: '🖼️',
+        title: '3000+ Themed Images for Meaningful Sorting Activities',
+        description: 'Browse over 3000 child-friendly images organized by theme for creating sorting exercises. Choose from animals, food, vehicles, shapes, and seasonal items. The generator selects images that belong clearly to designated categories while including items that require thoughtful analysis, creating genuine classification challenges rather than trivially obvious sorting tasks.',
+        highlighted: false,
+      },
+      {
+        id: '5',
+        icon: '✅',
+        title: 'Answer Keys Showing Correct Category Placement for Each Image',
+        description: 'Every sorting worksheet generates a complete answer key displaying all images correctly placed in their designated categories. Teachers verify student work instantly without re-analyzing classification decisions. Answer keys include category labels and sorted image groups for clear visual comparison with student responses during grading or review sessions.',
+        highlighted: false,
+      },
+      {
+        id: '6',
+        icon: '🎨',
+        title: 'Full Canvas Editing for Custom Sorting Worksheet Layouts',
+        description: 'Customize every element after generation. Reposition sorting bins, adjust image sizes, and modify category labels for optimal visual clarity. Add custom titles, instructions, and student name fields using professional text tools. Apply themed backgrounds and decorative borders for polished worksheets suitable for classroom display or commercial distribution.',
+        highlighted: false,
+      },
+      {
+        id: '7',
+        icon: '📤',
+        title: 'Upload Custom Images for Curriculum-Connected Sorting',
+        description: 'Upload your own images to create sorting activities tied to specific curriculum content. Use science vocabulary pictures for habitat sorting, nutrition images for food group classification, or historical items for era categorization. Uploaded images create sorting exercises that reinforce academic content while building transferable classification skills.',
+        highlighted: false,
+      },
+      {
+        id: '8',
+        icon: '🌍',
+        title: 'Create Sorting Worksheets in Eleven Languages',
+        description: 'Generate picture sort worksheets in English, Spanish, French, German, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian, or Finnish. Category labels, instructions, and prompts translate automatically. Ideal for bilingual classrooms where students practice categorical vocabulary in their target language while developing universal classification reasoning skills.',
+        highlighted: false,
+      },
+      {
+        id: '9',
+        icon: '🖨️',
+        title: 'Professional Print Quality With 300 DPI Resolution',
+        description: 'Download completed sorting worksheets at professional resolution ensuring images remain detailed and category boundaries stay crisp at printed size. PDF format provides optimal output for standard paper printing. JPEG works for digital classroom distribution. Grayscale mode preserves sorting clarity while reducing ink costs for frequent classroom use.',
+        highlighted: false,
+      },
+      {
+        id: '10',
+        icon: '💼',
+        title: 'Commercial License for Classification Activity Sales',
+        description: 'Your subscription includes commercial licensing to sell picture sort worksheets on Teachers Pay Teachers, Etsy, and other educational marketplaces. Create themed sorting bundles organized by classification type, topic, or grade level. Classification and sorting worksheets maintain strong demand in the early childhood market. No attribution or extra fees required.',
+        highlighted: false,
+      },
+    ], // Samples loaded dynamically from content manager
     
   },
 
@@ -123,7 +196,56 @@ Full Access subscription costs $240 annually or $25 monthly. This includes all 3
   useCases: {
     sectionTitle: 'Free Worksheet for Kids for Teachers - Free Printables',
     sectionDescription: 'Picture sorting worksheets serve multiple educational purposes across different learning environments. Kindergarten teachers use sorting activities to build foundational classification skills. First grade teachers incorporate picture sorts into math and literacy centers. Parents appreciate the flexibility for home learning and enrichment activities. Special education teachers customize sorting worksheets for individualized instruction. ESL instructors use picture sorts to build vocabulary without language barriers. Teacher entrepreneurs sell themed sorting worksheet collections on Teachers Pay Teachers and Etsy.',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        icon: '👩‍🏫',
+        title: 'Kindergarten Teachers: Categorization Development',
+        subtitle: 'Picture Sort Worksheets for Ages 5-6 Classroom Activities',
+        description: 'Kindergarten teachers integrate picture sort worksheets into daily routines as engaging science center activities. Set difficulty to beginner level with simple exercises that build categorization and logical grouping progressively. The visual format requires minimal reading so students work independently after brief teacher modeling. Create themed worksheets matching current classroom units for cross-curricular connections. Generate multiple versions using different image themes for variety throughout the week.',
+        quote: 'My kindergarteners love the picture sort worksheets. They ask for more every day!',
+      },
+      {
+        id: '2',
+        icon: '📚',
+        title: 'First Grade Teachers: Building Categorization Skills',
+        subtitle: 'Advanced Picture Sort Activities for Independent Practice',
+        description: 'First grade teachers use picture sort worksheets at increased difficulty levels for independent practice and early finisher activities. Students develop categorization and logical grouping through progressively challenging exercises that build confidence and persistence. Create differentiated worksheet sets using the same theme at multiple levels for seamless classroom management. The sorting and classification activities work perfectly for morning routines, homework packets, and assessment preparation activities.',
+        quote: 'Picture Sort worksheets are my go-to early finisher activity. Students stay engaged until the bell.',
+      },
+      {
+        id: '3',
+        icon: '🌟',
+        title: 'Special Education Teachers: Accessible Picture Sort Activities',
+        subtitle: 'Visual Learning Supports for Diverse Abilities',
+        description: 'Special education teachers value picture sort worksheets because the visual format accommodates diverse learning needs without requiring strong reading skills. Adjust difficulty settings to create individualized worksheets matching each student\\'s developmental level. The image-based exercises build categorization and logical grouping through concrete visual experiences rather than abstract concepts. Create consistent routine activities using familiar image themes that reduce anxiety while building essential cognitive skills.',
+        quote: 'The adjustable difficulty lets me create picture sort sheets perfect for each student\\'s level.',
+      },
+      {
+        id: '4',
+        icon: '🌍',
+        title: 'ESL Teachers: Language-Free Picture Sort Practice',
+        subtitle: 'Visual Activities Accessible at All Language Levels',
+        description: 'ESL teachers incorporate picture sort worksheets as equitable activities where all students participate regardless of English proficiency. The sorting and classification activities require visual analysis rather than language comprehension, creating natural entry points for newcomer students. Use themed images to build vocabulary connections as students discuss their work. Generate worksheets in eleven languages to provide instructions in students\\' primary language while developing categorization and logical grouping.',
+        quote: 'My newcomer students complete picture sort worksheets with the same confidence as native speakers.',
+      },
+      {
+        id: '5',
+        icon: '🏠',
+        title: 'Homeschool Parents: Self-Paced Picture Sort Learning',
+        subtitle: 'Independent Practice Activities for Home Education',
+        description: 'Homeschool parents appreciate picture sort worksheets as independent practice activities that develop categorization and logical grouping without requiring constant supervision. Create progressive difficulty sets for self-paced skill building across multiple sessions. The visual format engages children who struggle with text-heavy worksheets. Generate themed versions connecting to current unit studies for integrated learning. One subscription provides unlimited worksheet creation for multiple children at different ability levels.',
+        quote: 'My kids work through picture sort sheets independently while I teach their siblings.',
+      },
+      {
+        id: '6',
+        icon: '💰',
+        title: 'Teacher Entrepreneurs: Picture Sort Bundles for Marketplace',
+        subtitle: 'Create and Sell Professional Worksheet Products Online',
+        description: 'Teacher entrepreneurs create themed picture sort worksheets bundles for Teachers Pay Teachers, Etsy, and Amazon KDP. Package worksheets by theme, difficulty level, or seasonal collections for maximum marketplace appeal. The sorting and classification activities fill a consistent demand niche in early childhood education. Your subscription includes commercial licensing with no additional fees or attribution requirements. Create holiday packs, themed bundles, and progressive difficulty series generating passive income from your teaching expertise.',
+        quote: 'My picture sort bundles sell consistently. The themed sets are especially popular.',
+      },
+    ], // Samples loaded dynamically from content manager
     
   },
 
@@ -301,7 +423,56 @@ Full Access subscription costs $240 annually or $25 monthly. This includes all 3
     ctaDescription: 'Join educators creating professional worksheets. Unlimited generation, commercial license included.',
     primaryCtaText: 'Start Free Trial',
     secondaryCtaText: 'View All 33 Apps',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        slug: 'odd-one-out-worksheets',
+        name: 'Odd One Out Worksheets',
+        category: 'Logic & Puzzles',
+        icon: '🔍',
+        description: 'Extend picture sort practice with odd one out worksheets for well-rounded skill development. Students benefit from classification activities finding the item that does not belong alongside picture sort activities. Create themed bundles that keep learners engaged across multiple skill areas.',
+      },
+      {
+        id: '2',
+        slug: 'matching-worksheets',
+        name: 'Matching Worksheets',
+        category: 'Visual Skills',
+        icon: '🤝',
+        description: 'Pair Picture Sort activities with matching worksheets for cross-curricular skill building. Students strengthen picture pair matching for visual association skills while reinforcing concepts from picture sort practice sessions. Create themed packets that combine both worksheet types for engaging homework or center rotations.',
+      },
+      {
+        id: '3',
+        slug: 'big-small-worksheets',
+        name: 'Big & Small Worksheets',
+        category: 'Visual Skills',
+        icon: '📏',
+        description: 'Add big & small worksheets to your picture sort rotation for diverse learning opportunities. The size comparison and ordering activities for early learners activities build skills that complement picture sort practice. Generate complete themed packets covering both worksheet types in minutes.',
+      },
+      {
+        id: '4',
+        slug: 'find-and-count-worksheets',
+        name: 'Find & Count Worksheets',
+        category: 'Visual Skills',
+        icon: '🔢',
+        description: 'Extend picture sort practice with find & count worksheets for well-rounded skill development. Students benefit from counting-based search activities combining math with visual scanning alongside picture sort activities. Create themed bundles that keep learners engaged across multiple skill areas.',
+      },
+      {
+        id: '5',
+        slug: 'picture-bingo-worksheets',
+        name: 'Picture Bingo Worksheets',
+        category: 'Visual Skills',
+        icon: '🎰',
+        description: 'Combine picture sort worksheets with picture bingo exercises for comprehensive lesson planning. The bingo card generators with themed picture matching activities complement picture sort skills perfectly. Build complete learning packets mixing both generators for varied classroom practice.',
+      },
+      {
+        id: '6',
+        slug: 'pattern-worksheets',
+        name: 'Pattern Worksheets',
+        category: 'Logic & Puzzles',
+        icon: '🔄',
+        description: 'Combine picture sort worksheets with pattern exercises for comprehensive lesson planning. The pattern recognition and sequence completion exercises activities complement picture sort skills perfectly. Build complete learning packets mixing both generators for varied classroom practice.',
+      },
+    ], // Samples loaded dynamically from content manager
 
   },
 

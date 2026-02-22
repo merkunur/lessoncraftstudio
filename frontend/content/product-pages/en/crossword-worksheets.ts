@@ -123,6 +123,28 @@ Generate crossword puzzles in 11 languages including English, Spanish, French, G
         description: 'Your subscription includes commercial licensing for selling crossword worksheets on Teachers Pay Teachers, Etsy, Amazon KDP, or your own website. Themed crossword bundles and vocabulary-building puzzle packets are consistently popular sellers in educational marketplaces. No attribution or extra licensing fees required beyond your subscription.',
         highlighted: true,
       },
+    
+      {
+        id: '8',
+        icon: '✅',
+        title: 'Auto-Generated Answer Keys for Every Crossword Worksheet',
+        description: 'Every crossword worksheet automatically generates a matching answer key showing all correct responses clearly marked. Teachers verify student work in seconds without solving exercises themselves. Print answer keys on separate pages for self-checking stations or display on document cameras during whole-class review sessions. The verification system guarantees accuracy for confident grading across entire class sets.',
+        highlighted: false,
+      },
+      {
+        id: '9',
+        icon: '🎨',
+        title: 'Themed Backgrounds and Decorative Borders for Crossword Worksheets',
+        description: 'Choose from dozens of themed backgrounds including chalkboard, notebook paper, rainbow, clouds, and seasonal designs to enhance your crossword worksheets visually. Add decorative borders featuring stars, hearts, flowers, or school supplies around page edges. Adjust opacity for subtle or prominent effects. Professional visual design increases student engagement and creates polished materials suitable for classroom display or marketplace sales.',
+        highlighted: false,
+      },
+      {
+        id: '10',
+        icon: '🖼️',
+        title: 'Picture Clues Instead of Text for Pre-Reader Crossword Puzzles',
+        description: 'Our crossword generator uses picture clues instead of written definitions, making crossword puzzles accessible to pre-readers and early readers. Students see an image and must spell the corresponding word in the crossword grid. This format builds spelling accuracy, phonemic awareness, and vocabulary simultaneously. The picture-based approach eliminates reading barriers while maintaining the full cognitive challenge of crossword puzzle solving.',
+        highlighted: false,
+      },
     ],
 
   },
@@ -427,8 +449,8 @@ Generate crossword puzzles in 11 languages including English, Spanish, French, G
       },
       {
         id: '4',
-        slug: 'matchup-maker-worksheets',
-        name: 'MatchUp Maker Worksheets',
+        slug: 'matching-worksheets',
+        name: 'Matching Worksheets',
         category: 'Vocabulary',
         icon: '🔗',
         description: 'Extend picture-word connections from crosswords into matching activities. Students match images to words on matchup worksheets using the same themed vocabulary they spelled in crossword puzzles for reinforced learning.',

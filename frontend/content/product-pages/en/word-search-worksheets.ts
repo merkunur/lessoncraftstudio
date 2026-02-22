@@ -30,7 +30,9 @@ export const wordSearchEnContent: ProductPageContent = {
 
 Our word search maker helps you create engaging learning activities for young students. Choose from over 3000 child-friendly images organized by theme. Each word search worksheet downloads as a high-quality PDF or JPEG. Your students will love searching for hidden words based on colorful pictures. Core Bundle subscription removes watermark and includes commercial licensing.
 
-This word search generator works in 11 languages. Select a theme like animals or transportation. The app creates a complete word search puzzle with answer key. Edit everything on the canvas before downloading. Add custom text, change colors, or upload your own images. Generate unlimited printable worksheets for classroom or homeschool use.`,
+This word search generator works in 11 languages. Select a theme like animals or transportation. The app creates a complete word search puzzle with answer key. Edit everything on the canvas before downloading. Add custom text, change colors, or upload your own images. Generate unlimited printable worksheets for classroom or homeschool use.
+
+Word search worksheets hide vocabulary words within letter grids for students to locate by scanning horizontally, vertically, and diagonally. Our generator creates professionally formatted puzzles with customizable word lists, grid sizes, and difficulty settings. Teachers input vocabulary from current spelling lists, thematic units, or sight word programs. The generator automatically places words and fills remaining cells with random letters. Adjust grid complexity from simple 8x8 grids with horizontal-only words for kindergarteners to challenging 15x15 grids with diagonal and backward placement for advanced students.`,
     previewImageSrc: '/samples/english/wordsearch/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Try Free',
@@ -107,6 +109,28 @@ This word search generator works in 11 languages. Select a theme like animals or
         icon: '💼',
         title: 'Commercial License Included',
         description: 'Your subscription includes full commercial rights to sell word search worksheets on Teachers Pay Teachers, Etsy, Amazon KDP, or your own website. No attribution required and no extra licensing fees. Build a profitable puzzle bundle business.',
+      },
+    
+      {
+        id: '8',
+        icon: '✅',
+        title: 'Auto-Generated Answer Keys for Every Word Search Worksheet',
+        description: 'Every word search worksheet automatically generates a matching answer key showing all correct responses clearly marked. Teachers verify student work in seconds without solving exercises themselves. Print answer keys on separate pages for self-checking stations or display on document cameras during whole-class review sessions. The verification system guarantees accuracy for confident grading across entire class sets.',
+        highlighted: false,
+      },
+      {
+        id: '9',
+        icon: '🎨',
+        title: 'Themed Backgrounds and Decorative Borders for Word Search Worksheets',
+        description: 'Choose from dozens of themed backgrounds including chalkboard, notebook paper, rainbow, clouds, and seasonal designs to enhance your word search worksheets visually. Add decorative borders featuring stars, hearts, flowers, or school supplies around page edges. Adjust opacity for subtle or prominent effects. Professional visual design increases student engagement and creates polished materials suitable for classroom display or marketplace sales.',
+        highlighted: false,
+      },
+      {
+        id: '10',
+        icon: '⚙️',
+        title: 'Customizable Word Lists With Teacher-Input Vocabulary Terms',
+        description: 'Input your own vocabulary words from current spelling lists, thematic units, or sight word programs for fully customized word search puzzles. The generator automatically places words within the grid following selected direction rules and fills remaining cells with random letters. Teachers create curriculum-aligned vocabulary review activities in seconds rather than designing puzzles manually. Save and reuse word lists across multiple themed puzzles.',
+        highlighted: false,
       },
     ],
 
@@ -395,8 +419,8 @@ Enable grayscale mode before downloading to save printer ink. The checkbox conve
       },
       {
         id: '3',
-        slug: 'image-crossword-worksheets',
-        name: 'Image Crossword Worksheets',
+        slug: 'crossword-worksheets',
+        name: 'Crossword Worksheets',
         category: 'Language Arts',
         icon: '➕',
         description: 'Create complete vocabulary packets by adding crossword puzzles to your word search worksheets. Students encounter the same themed vocabulary across different puzzle formats, strengthening retention through varied practice.',
@@ -419,8 +443,8 @@ Enable grayscale mode before downloading to save printer ink. The checkbox conve
       },
       {
         id: '6',
-        slug: 'matchup-maker-worksheets',
-        name: 'MatchUp Maker Worksheets',
+        slug: 'matching-worksheets',
+        name: 'Matching Worksheets',
         category: 'Vocabulary',
         icon: '🔗',
         description: 'Add picture-word matching activities to complement word search vocabulary practice. Students match images to words in one worksheet then find those same words hidden in a word search grid.',

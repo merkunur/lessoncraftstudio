@@ -71,7 +71,78 @@ Pattern worksheets help kindergarten students develop critical thinking skills a
     sectionTitle: 'Free Worksheet for Kids Features - Worksheet for Kindergarten',
     sectionDescription: 'Pattern train worksheets combine visual learning with hands-on activities for creating free worksheet for kids for kindergarten classrooms. Our pattern worksheet generator includes professional features designed specifically for creating free worksheet for kids. Your Full Access subscription provides unlimited free worksheet for kids creation with no per-worksheet fees. Generate as many free worksheet for kids as your students need. All pattern worksheets export at professional 300 DPI quality.',
     highlightBadgeText: 'Key Feature',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        icon: '🚂',
+        title: 'Train-Themed Pattern Completion With Visual Sequencing',
+        description: 'Generate professional pattern train worksheets where students complete image sequences arranged in colorful train car formations. Each train displays a repeating pattern with one or more cars left blank for students to fill. This engaging format combines visual pattern recognition with the beloved train theme that captivates young learners while building mathematical sequencing skills.',
+        highlighted: true,
+      },
+      {
+        id: '2',
+        icon: '🔁',
+        title: 'Multiple Pattern Types From AB to Complex ABCD Sequences',
+        description: 'Choose from progressive pattern complexities starting with simple AB alternating patterns for preschool beginners. ABC patterns add a third element for kindergarten challenge. ABCD patterns require tracking four different elements for first grade students. AABB and ABB patterns introduce grouping concepts. Each type builds specific sequencing and prediction skills.',
+        highlighted: false,
+      },
+      {
+        id: '3',
+        icon: '⚙️',
+        title: 'Adjustable Train Length From Four to Twelve Cars',
+        description: 'Control pattern difficulty by setting train length from four to twelve cars. Short four-car trains with simple AB patterns suit preschool learners seeing their first sequencing activities. Longer trains with complex patterns challenge older students to identify and extend sequences requiring sustained attention and working memory across multiple pattern repetitions.',
+        highlighted: false,
+      },
+      {
+        id: '4',
+        icon: '🖼️',
+        title: '3000+ Themed Images for Colorful Train Car Contents',
+        description: 'Browse over 3000 child-friendly images organized by theme for train car contents. Animals, food, vehicles, shapes, and seasonal items create visually engaging pattern sequences. Theme-based generation ensures all images within a pattern share visual coherence while maintaining enough variety for students to identify the repeating rule clearly.',
+        highlighted: false,
+      },
+      {
+        id: '5',
+        icon: '✅',
+        title: 'Auto-Generated Answer Keys Showing Complete Pattern Sequences',
+        description: 'Every pattern train worksheet generates a complete answer key displaying all cars filled with correct pattern elements. Teachers verify student responses instantly without tracing patterns themselves. The answer key preserves the train visual format for easy comparison with student work during grading or whole-class pattern discussion sessions.',
+        highlighted: false,
+      },
+      {
+        id: '6',
+        icon: '🎨',
+        title: 'Full Canvas Editing for Custom Train Worksheet Designs',
+        description: 'Customize every element after generation. Reposition trains, resize cars, and adjust layouts for optimal visual presentation. Add custom titles, pattern rule descriptions, and student name fields using professional text tools. Apply themed backgrounds like railroad tracks, stations, or countryside scenes for immersive pattern learning experiences.',
+        highlighted: false,
+      },
+      {
+        id: '7',
+        icon: '✂️',
+        title: 'Cut-and-Paste Pattern Completion With Printable Pieces',
+        description: 'Generate pattern trains with cut-and-paste answer sections where students cut out image pieces and glue them into empty train cars. This hands-on format builds fine motor skills alongside pattern recognition. Physical manipulation of pattern pieces deepens understanding of sequence rules through kinesthetic learning that reinforces visual analysis.',
+        highlighted: false,
+      },
+      {
+        id: '8',
+        icon: '🌍',
+        title: 'Eleven Language Support for Multilingual Pattern Activities',
+        description: 'Generate pattern train worksheets in English, Spanish, French, German, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian, or Finnish. All instructions, labels, and activity prompts translate automatically. Ideal for international classrooms where students develop mathematical pattern vocabulary and sequencing concepts in their primary language.',
+        highlighted: false,
+      },
+      {
+        id: '9',
+        icon: '🖨️',
+        title: 'High-Resolution PDF and JPEG Downloads for Crisp Printing',
+        description: 'Download completed pattern worksheets at 300 DPI resolution ensuring train illustrations and image details remain sharp when printed. PDF format provides optimal quality for standard paper. JPEG works for digital classroom use. Grayscale mode preserves pattern clarity while reducing color ink usage for budget-conscious printing.',
+        highlighted: false,
+      },
+      {
+        id: '10',
+        icon: '💼',
+        title: 'Commercial License for Pattern Worksheet Marketplace Sales',
+        description: 'Your subscription includes commercial licensing to sell pattern train worksheets on Teachers Pay Teachers, Etsy, and Amazon KDP. Create themed pattern bundles organized by complexity level, image theme, or seasonal content. Train-themed worksheets are perennial favorites with parents and teachers. No attribution required and no additional licensing fees.',
+        highlighted: false,
+      },
+    ], // Samples loaded dynamically from content manager
     
   },
 
@@ -123,7 +194,56 @@ Pattern worksheets help kindergarten students develop critical thinking skills a
   useCases: {
     sectionTitle: 'Free Printables for Teachers - Worksheet for Kindergarten',
     sectionDescription: 'Pattern train worksheets serve multiple educational purposes for different teaching situations. Kindergarten teachers use pattern worksheets to introduce fundamental math concepts. First grade teachers advance pattern complexity with ABC and AABB patterns. Homeschool parents appreciate free printable worksheets for flexible learning schedules. Special education teachers customize pattern difficulty for individual student needs. ESL teachers use pattern recognition to teach vocabulary across languages. Teacher entrepreneurs sell pattern worksheets on Teachers Pay Teachers and Etsy. Pattern recognition builds logical thinking skills essential for kindergarten and first grade math success. These free printable math worksheets adapt to any teaching environment from traditional classrooms to home learning.',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        icon: '👩‍🏫',
+        title: 'Kindergarten Teachers: Sequential Reasoning Development',
+        subtitle: 'Pattern Train Worksheets for Ages 5-6 Classroom Activities',
+        description: 'Kindergarten teachers integrate pattern train worksheets into daily routines as engaging math center activities. Set difficulty to beginner level with simple exercises that build sequential reasoning and pattern recognition progressively. The visual format requires minimal reading so students work independently after brief teacher modeling. Create themed worksheets matching current classroom units for cross-curricular connections. Generate multiple versions using different image themes for variety throughout the week.',
+        quote: 'My kindergarteners love the pattern train worksheets. They ask for more every day!',
+      },
+      {
+        id: '2',
+        icon: '📚',
+        title: 'First Grade Teachers: Building Sequential Reasoning Skills',
+        subtitle: 'Advanced Pattern Train Activities for Independent Practice',
+        description: 'First grade teachers use pattern train worksheets at increased difficulty levels for independent practice and early finisher activities. Students develop sequential reasoning and pattern recognition through progressively challenging exercises that build confidence and persistence. Create differentiated worksheet sets using the same theme at multiple levels for seamless classroom management. The pattern completion activities work perfectly for morning routines, homework packets, and assessment preparation activities.',
+        quote: 'Pattern Train worksheets are my go-to early finisher activity. Students stay engaged until the bell.',
+      },
+      {
+        id: '3',
+        icon: '🌟',
+        title: 'Special Education Teachers: Accessible Pattern Train Activities',
+        subtitle: 'Visual Learning Supports for Diverse Abilities',
+        description: 'Special education teachers value pattern train worksheets because the visual format accommodates diverse learning needs without requiring strong reading skills. Adjust difficulty settings to create individualized worksheets matching each student\\'s developmental level. The image-based exercises build sequential reasoning and pattern recognition through concrete visual experiences rather than abstract concepts. Create consistent routine activities using familiar image themes that reduce anxiety while building essential cognitive skills.',
+        quote: 'The adjustable difficulty lets me create pattern train sheets perfect for each student\\'s level.',
+      },
+      {
+        id: '4',
+        icon: '🌍',
+        title: 'ESL Teachers: Language-Free Pattern Train Practice',
+        subtitle: 'Visual Activities Accessible at All Language Levels',
+        description: 'ESL teachers incorporate pattern train worksheets as equitable activities where all students participate regardless of English proficiency. The pattern completion activities require visual analysis rather than language comprehension, creating natural entry points for newcomer students. Use themed images to build vocabulary connections as students discuss their work. Generate worksheets in eleven languages to provide instructions in students\\' primary language while developing sequential reasoning and pattern recognition.',
+        quote: 'My newcomer students complete pattern train worksheets with the same confidence as native speakers.',
+      },
+      {
+        id: '5',
+        icon: '🏠',
+        title: 'Homeschool Parents: Self-Paced Pattern Train Learning',
+        subtitle: 'Independent Practice Activities for Home Education',
+        description: 'Homeschool parents appreciate pattern train worksheets as independent practice activities that develop sequential reasoning and pattern recognition without requiring constant supervision. Create progressive difficulty sets for self-paced skill building across multiple sessions. The visual format engages children who struggle with text-heavy worksheets. Generate themed versions connecting to current unit studies for integrated learning. One subscription provides unlimited worksheet creation for multiple children at different ability levels.',
+        quote: 'My kids work through pattern train sheets independently while I teach their siblings.',
+      },
+      {
+        id: '6',
+        icon: '💰',
+        title: 'Teacher Entrepreneurs: Pattern Train Bundles for Marketplace',
+        subtitle: 'Create and Sell Professional Worksheet Products Online',
+        description: 'Teacher entrepreneurs create themed pattern train worksheets bundles for Teachers Pay Teachers, Etsy, and Amazon KDP. Package worksheets by theme, difficulty level, or seasonal collections for maximum marketplace appeal. The pattern completion activities fill a consistent demand niche in early childhood education. Your subscription includes commercial licensing with no additional fees or attribution requirements. Create holiday packs, themed bundles, and progressive difficulty series generating passive income from your teaching expertise.',
+        quote: 'My pattern train bundles sell consistently. The themed sets are especially popular.',
+      },
+    ], // Samples loaded dynamically from content manager
     
   },
 
@@ -299,7 +419,56 @@ Pattern worksheets help kindergarten students develop critical thinking skills a
     ctaDescription: 'Join educators creating professional worksheets. Unlimited generation, commercial license included.',
     primaryCtaText: 'Start Free Trial',
     secondaryCtaText: 'View All 33 Apps',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        slug: 'pattern-worksheets',
+        name: 'Pattern Worksheets',
+        category: 'Logic & Puzzles',
+        icon: '🔄',
+        description: 'Supplement pattern train worksheets with pattern exercises for balanced instruction. The pattern recognition and sequence completion exercises format provides variety that keeps students motivated. Mix both generators to create professional learning packets for any classroom theme.',
+      },
+      {
+        id: '2',
+        slug: 'alphabet-train-worksheets',
+        name: 'Alphabet Train Worksheets',
+        category: 'Literacy',
+        icon: '🚂',
+        description: 'Supplement pattern train worksheets with alphabet train exercises for balanced instruction. The train-themed alphabet sequencing and letter recognition format provides variety that keeps students motivated. Mix both generators to create professional learning packets for any classroom theme.',
+      },
+      {
+        id: '3',
+        slug: 'missing-pieces-worksheets',
+        name: 'Missing Pieces Worksheets',
+        category: 'Logic & Puzzles',
+        icon: '🧩',
+        description: 'Combine pattern train worksheets with missing pieces exercises for comprehensive lesson planning. The visual completion puzzles identifying missing parts activities complement pattern train skills perfectly. Build complete learning packets mixing both generators for varied classroom practice.',
+      },
+      {
+        id: '4',
+        slug: 'sudoku-worksheets',
+        name: 'Sudoku Worksheets',
+        category: 'Logic & Puzzles',
+        icon: '🧩',
+        description: 'Extend pattern train practice with sudoku worksheets for well-rounded skill development. Students benefit from 4x4 picture sudoku puzzles for deductive reasoning alongside pattern train activities. Create themed bundles that keep learners engaged across multiple skill areas.',
+      },
+      {
+        id: '5',
+        slug: 'grid-match-worksheets',
+        name: 'Grid Match Worksheets',
+        category: 'Logic & Puzzles',
+        icon: '🔲',
+        description: 'Add grid match worksheets to your pattern train rotation for diverse learning opportunities. The grid-based matching puzzles for spatial reasoning activities build skills that complement pattern train practice. Generate complete themed packets covering both worksheet types in minutes.',
+      },
+      {
+        id: '6',
+        slug: 'drawing-lines-worksheets',
+        name: 'Drawing Lines Worksheets',
+        category: 'Art & Creativity',
+        icon: '✂️',
+        description: 'Combine pattern train worksheets with drawing lines exercises for comprehensive lesson planning. The line tracing and handwriting readiness exercises activities complement pattern train skills perfectly. Build complete learning packets mixing both generators for varied classroom practice.',
+      },
+    ], // Samples loaded dynamically from content manager
 
   },
 

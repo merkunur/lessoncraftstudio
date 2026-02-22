@@ -75,7 +75,78 @@ Generate worksheets in 11 languages including English, Spanish, French, and Germ
     sectionTitle: 'Free Worksheet for Kids Features - Worksheet for Kindergarten',
     sectionDescription: 'Our missing pieces worksheet generator includes professional features for teachers creating free worksheet for kids and kindergarten worksheets. Every feature helps you build free worksheet for kids faster than traditional methods. Create free worksheet for kids including visual discrimination worksheets, spatial reasoning activities, and problem-solving puzzles. Access all premium features with your Full Access subscription. No per-worksheet fees. Generate unlimited free worksheet for kids for all your classroom needs.',
     highlightBadgeText: 'Key Feature',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        icon: '🧩',
+        title: 'Visual Completion Puzzles Identifying Missing Image Sections',
+        description: 'Generate professional missing pieces worksheets where students analyze incomplete images and identify the correct piece to complete each picture. This format develops visual analysis, spatial reasoning, and part-to-whole relationship understanding. Children examine how image sections fit together, building the cognitive skills essential for reading comprehension and mathematical reasoning.',
+        highlighted: true,
+      },
+      {
+        id: '2',
+        icon: '🔲',
+        title: 'Multiple Grid Sizes From Simple Two-Piece to Complex Nine-Piece',
+        description: 'Choose grid complexity from simple two-piece puzzles for preschool learners to challenging nine-piece grids for first and second graders. Two-piece puzzles introduce the concept of visual completion with minimal cognitive load. Four-piece and nine-piece grids require sophisticated spatial analysis and elimination strategy as students evaluate multiple candidate pieces against each gap.',
+        highlighted: false,
+      },
+      {
+        id: '3',
+        icon: '⚙️',
+        title: 'Adjustable Difficulty With Varied Missing Piece Counts',
+        description: 'Control challenge level by setting how many pieces are removed from each image. One missing piece provides straightforward visual completion practice. Multiple missing pieces require students to analyze the entire image systematically, choosing correct pieces for each gap from a larger candidate pool. Progressive difficulty supports differentiated instruction within the same worksheet theme.',
+        highlighted: false,
+      },
+      {
+        id: '4',
+        icon: '🖼️',
+        title: '3000+ Themed Source Images for Engaging Puzzle Activities',
+        description: 'Browse over 3000 child-friendly images organized by theme as source material for missing piece puzzles. Choose from animals, vehicles, food, and dozens more categories. Each image is automatically divided into grid sections with selected pieces removed and presented as answer choices. Themed images maintain student engagement while building visual analysis skills.',
+        highlighted: false,
+      },
+      {
+        id: '5',
+        icon: '✅',
+        title: 'Auto-Generated Answer Keys Showing Correct Piece Placement',
+        description: 'Every missing pieces worksheet automatically generates a complete answer key displaying the full image with all pieces correctly placed. Teachers verify student responses instantly without reconstructing puzzles themselves. Answer keys clearly mark which candidate piece belongs in each gap for efficient grading during math center rotations or homework review.',
+        highlighted: false,
+      },
+      {
+        id: '6',
+        icon: '🎨',
+        title: 'Full Canvas Editing for Professional Puzzle Worksheet Design',
+        description: 'Customize every element after generation. Reposition puzzle grids and candidate pieces for optimal layout. Resize images and adjust spacing for visual clarity. Add custom titles, instructions, and student name fields using professional text tools. Apply themed backgrounds and decorative borders for polished materials suitable for display or commercial sale.',
+        highlighted: false,
+      },
+      {
+        id: '7',
+        icon: '📤',
+        title: 'Upload Custom Images for Curriculum-Connected Puzzles',
+        description: 'Upload your own photos and images to create missing piece puzzles tied to current classroom themes. Use science diagrams, geography maps, or artwork reproductions for cross-curricular puzzle activities. The generator automatically segments uploaded images into grid pieces, creating academically relevant visual analysis exercises from any source material.',
+        highlighted: false,
+      },
+      {
+        id: '8',
+        icon: '🌍',
+        title: 'Eleven Language Support for Multilingual Puzzle Instructions',
+        description: 'Generate missing pieces worksheets in English, Spanish, French, German, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian, or Finnish. All instructions, labels, and prompts translate automatically. Perfect for international schools and bilingual programs where students develop spatial reasoning skills with puzzle directions in their primary language.',
+        highlighted: false,
+      },
+      {
+        id: '9',
+        icon: '🖨️',
+        title: 'High-Resolution PDF and JPEG Downloads for Sharp Printing',
+        description: 'Download completed puzzles at 300 DPI resolution ensuring grid lines, image details, and piece boundaries remain crisp when printed. PDF format provides optimal print quality for standard paper sizes. JPEG works for digital distribution. Grayscale mode reduces ink costs while maintaining enough visual detail for accurate piece identification and placement.',
+        highlighted: false,
+      },
+      {
+        id: '10',
+        icon: '💼',
+        title: 'Commercial License for Marketplace Puzzle Sales',
+        description: 'Your subscription includes commercial licensing to sell missing pieces worksheets on Teachers Pay Teachers, Etsy, and Amazon KDP. Create themed visual puzzle bundles organized by difficulty level, image theme, or seasonal content. Spatial reasoning puzzle worksheets maintain strong marketplace demand. No attribution required and no additional licensing fees apply.',
+        highlighted: false,
+      },
+    ], // Samples loaded dynamically from content manager
     
   },
 
@@ -127,7 +198,56 @@ Generate worksheets in 11 languages including English, Spanish, French, and Germ
   useCases: {
     sectionTitle: 'Free Printables for Teachers - Worksheet for Kids and Kindergarten',
     sectionDescription: 'Missing pieces worksheets serve diverse educational settings and teaching styles. Kindergarten teachers use them for literacy centers and math practice. First grade educators create differentiated assignments effortlessly. Homeschool parents generate custom materials matching their curriculum. ESL instructors build vocabulary through visual learning. Special education teachers adapt difficulty for individual needs. Teacher entrepreneurs sell professional worksheet products online. Every user type benefits from the flexible, customizable platform designed for real classroom challenges.',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        icon: '👩‍🏫',
+        title: 'Kindergarten Teachers: Spatial Reasoning Development',
+        subtitle: 'Missing Pieces Worksheets for Ages 5-6 Classroom Activities',
+        description: 'Kindergarten teachers integrate missing pieces worksheets into daily routines as engaging puzzle center activities. Set difficulty to beginner level with simple exercises that build spatial reasoning and visual analysis progressively. The visual format requires minimal reading so students work independently after brief teacher modeling. Create themed worksheets matching current classroom units for cross-curricular connections. Generate multiple versions using different image themes for variety throughout the week.',
+        quote: 'My kindergarteners love the missing pieces worksheets. They ask for more every day!',
+      },
+      {
+        id: '2',
+        icon: '📚',
+        title: 'First Grade Teachers: Building Spatial Reasoning Skills',
+        subtitle: 'Advanced Missing Pieces Activities for Independent Practice',
+        description: 'First grade teachers use missing pieces worksheets at increased difficulty levels for independent practice and early finisher activities. Students develop spatial reasoning and visual analysis through progressively challenging exercises that build confidence and persistence. Create differentiated worksheet sets using the same theme at multiple levels for seamless classroom management. The visual completion puzzles work perfectly for morning routines, homework packets, and assessment preparation activities.',
+        quote: 'Missing Pieces worksheets are my go-to early finisher activity. Students stay engaged until the bell.',
+      },
+      {
+        id: '3',
+        icon: '🌟',
+        title: 'Special Education Teachers: Accessible Missing Pieces Activities',
+        subtitle: 'Visual Learning Supports for Diverse Abilities',
+        description: 'Special education teachers value missing pieces worksheets because the visual format accommodates diverse learning needs without requiring strong reading skills. Adjust difficulty settings to create individualized worksheets matching each student\\'s developmental level. The image-based exercises build spatial reasoning and visual analysis through concrete visual experiences rather than abstract concepts. Create consistent routine activities using familiar image themes that reduce anxiety while building essential cognitive skills.',
+        quote: 'The adjustable difficulty lets me create missing pieces sheets perfect for each student\\'s level.',
+      },
+      {
+        id: '4',
+        icon: '🌍',
+        title: 'ESL Teachers: Language-Free Missing Pieces Practice',
+        subtitle: 'Visual Activities Accessible at All Language Levels',
+        description: 'ESL teachers incorporate missing pieces worksheets as equitable activities where all students participate regardless of English proficiency. The visual completion puzzles require visual analysis rather than language comprehension, creating natural entry points for newcomer students. Use themed images to build vocabulary connections as students discuss their work. Generate worksheets in eleven languages to provide instructions in students\\' primary language while developing spatial reasoning and visual analysis.',
+        quote: 'My newcomer students complete missing pieces worksheets with the same confidence as native speakers.',
+      },
+      {
+        id: '5',
+        icon: '🏠',
+        title: 'Homeschool Parents: Self-Paced Missing Pieces Learning',
+        subtitle: 'Independent Practice Activities for Home Education',
+        description: 'Homeschool parents appreciate missing pieces worksheets as independent practice activities that develop spatial reasoning and visual analysis without requiring constant supervision. Create progressive difficulty sets for self-paced skill building across multiple sessions. The visual format engages children who struggle with text-heavy worksheets. Generate themed versions connecting to current unit studies for integrated learning. One subscription provides unlimited worksheet creation for multiple children at different ability levels.',
+        quote: 'My kids work through missing pieces sheets independently while I teach their siblings.',
+      },
+      {
+        id: '6',
+        icon: '💰',
+        title: 'Teacher Entrepreneurs: Missing Pieces Bundles for Marketplace',
+        subtitle: 'Create and Sell Professional Worksheet Products Online',
+        description: 'Teacher entrepreneurs create themed missing pieces worksheets bundles for Teachers Pay Teachers, Etsy, and Amazon KDP. Package worksheets by theme, difficulty level, or seasonal collections for maximum marketplace appeal. The visual completion puzzles fill a consistent demand niche in early childhood education. Your subscription includes commercial licensing with no additional fees or attribution requirements. Create holiday packs, themed bundles, and progressive difficulty series generating passive income from your teaching expertise.',
+        quote: 'My missing pieces bundles sell consistently. The themed sets are especially popular.',
+      },
+    ], // Samples loaded dynamically from content manager
     
   },
 
@@ -303,7 +423,56 @@ Generate worksheets in 11 languages including English, Spanish, French, and Germ
     ctaDescription: 'Join educators creating professional worksheets. Unlimited generation, commercial license included.',
     primaryCtaText: 'Start Free Trial',
     secondaryCtaText: 'View All 33 Apps',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        slug: 'sudoku-worksheets',
+        name: 'Sudoku Worksheets',
+        category: 'Logic & Puzzles',
+        icon: '🧩',
+        description: 'Supplement missing pieces worksheets with sudoku exercises for balanced instruction. The 4x4 picture sudoku puzzles for deductive reasoning format provides variety that keeps students motivated. Mix both generators to create professional learning packets for any classroom theme.',
+      },
+      {
+        id: '2',
+        slug: 'grid-match-worksheets',
+        name: 'Grid Match Worksheets',
+        category: 'Logic & Puzzles',
+        icon: '🔲',
+        description: 'Pair Missing Pieces activities with grid match worksheets for cross-curricular skill building. Students strengthen grid-based matching puzzles for spatial reasoning while reinforcing concepts from missing pieces practice sessions. Create themed packets that combine both worksheet types for engaging homework or center rotations.',
+      },
+      {
+        id: '3',
+        slug: 'pattern-worksheets',
+        name: 'Pattern Worksheets',
+        category: 'Logic & Puzzles',
+        icon: '🔄',
+        description: 'Extend missing pieces practice with pattern worksheets for well-rounded skill development. Students benefit from pattern recognition and sequence completion exercises alongside missing pieces activities. Create themed bundles that keep learners engaged across multiple skill areas.',
+      },
+      {
+        id: '4',
+        slug: 'odd-one-out-worksheets',
+        name: 'Odd One Out Worksheets',
+        category: 'Logic & Puzzles',
+        icon: '🔍',
+        description: 'Add odd one out worksheets to your missing pieces rotation for diverse learning opportunities. The classification activities finding the item that does not belong activities build skills that complement missing pieces practice. Generate complete themed packets covering both worksheet types in minutes.',
+      },
+      {
+        id: '5',
+        slug: 'shadow-match-worksheets',
+        name: 'Shadow Match Worksheets',
+        category: 'Visual Skills',
+        icon: '👤',
+        description: 'Extend missing pieces practice with shadow match worksheets for well-rounded skill development. Students benefit from silhouette matching activities for shape recognition alongside missing pieces activities. Create themed bundles that keep learners engaged across multiple skill areas.',
+      },
+      {
+        id: '6',
+        slug: 'picture-path-worksheets',
+        name: 'Picture Path Worksheets',
+        category: 'Logic & Puzzles',
+        icon: '🗺️',
+        description: 'Pair Missing Pieces activities with picture path worksheets for cross-curricular skill building. Students strengthen maze-style path tracing with picture-based navigation while reinforcing concepts from missing pieces practice sessions. Create themed packets that combine both worksheet types for engaging homework or center rotations.',
+      },
+    ], // Samples loaded dynamically from content manager
 
   },
 

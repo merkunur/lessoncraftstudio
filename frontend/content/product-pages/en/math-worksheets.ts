@@ -125,6 +125,28 @@ Each math worksheet includes a matching answer key. Perfect for classroom use or
         description: 'Your subscription includes commercial licensing for selling picture math puzzles on Teachers Pay Teachers, Etsy, or Amazon KDP. Math puzzle worksheets are popular sellers because the unique format cannot be easily replicated by standard worksheet generators. Create themed bundles at multiple difficulty levels for maximum marketplace appeal and recurring sales.',
         highlighted: false,
       },
+    
+      {
+        id: '8',
+        icon: '✅',
+        title: 'Auto-Generated Answer Keys for Every Math Worksheet',
+        description: 'Every math worksheet automatically generates a matching answer key showing all correct responses clearly marked. Teachers verify student work in seconds without solving exercises themselves. Print answer keys on separate pages for self-checking stations or display on document cameras during whole-class review sessions. The verification system guarantees accuracy for confident grading across entire class sets.',
+        highlighted: false,
+      },
+      {
+        id: '9',
+        icon: '🎨',
+        title: 'Themed Backgrounds and Decorative Borders for Math Worksheets',
+        description: 'Choose from dozens of themed backgrounds including chalkboard, notebook paper, rainbow, clouds, and seasonal designs to enhance your math worksheets visually. Add decorative borders featuring stars, hearts, flowers, or school supplies around page edges. Adjust opacity for subtle or prominent effects. Professional visual design increases student engagement and creates polished materials suitable for classroom display or marketplace sales.',
+        highlighted: false,
+      },
+      {
+        id: '10',
+        icon: '⚙️',
+        title: 'Multiple Operation Types Covering Addition Subtraction and Number Skills',
+        description: 'Generate math worksheets across multiple operation types from a single generator. Create addition exercises with visual counting problems, subtraction activities with take-away scenarios, and number recognition tasks with quantity matching. Switch between operation types instantly to build comprehensive math fluency packets. The unified generator saves time compared to using separate tools for each math skill area.',
+        highlighted: false,
+      },
     ],
   },
 

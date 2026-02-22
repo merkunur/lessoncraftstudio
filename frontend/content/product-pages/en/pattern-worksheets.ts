@@ -31,7 +31,9 @@ Pattern recognition is a foundational math skill for kindergarten and first grad
 
 The pattern worksheet generator offers complete customization for math instruction. Upload your own images or browse 3000+ themed images in 11 languages. Create free printable worksheets for kindergarten math, first grade math practice, or homework assignments. Each worksheet downloads as 300 DPI professional quality JPEG or PDF files.
 
-Full Access subscription includes commercial licensing for Teachers Pay Teachers sales. Create and sell pattern worksheets, math worksheets, and kindergarten worksheets without extra licensing fees. Pattern worksheet generator saves 85% of traditional worksheet creation time compared to design software and clipart searches.`,
+Full Access subscription includes commercial licensing for Teachers Pay Teachers sales. Create and sell pattern worksheets, math worksheets, and kindergarten worksheets without extra licensing fees. Pattern worksheet generator saves 85% of traditional worksheet creation time compared to design software and clipart searches.
+
+Pattern recognition worksheets present sequences of images with missing elements that students must identify and complete. The generator creates AB, ABC, ABCD, AABB, and more complex pattern types to match progressive difficulty needs. Students analyze repeating sequences, predict missing elements, and demonstrate understanding by selecting or drawing correct answers. These pattern activities build the mathematical reasoning foundation essential for algebraic thinking in later grades. Teachers connect pattern exercises to current themes using our image library of 3000+ child-friendly pictures organized by category.`,
     previewImageSrc: '/samples/english/pattern/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Try Free',
@@ -119,6 +121,28 @@ Full Access subscription includes commercial licensing for Teachers Pay Teachers
         icon: '💼',
         title: 'Commercial License Included for Marketplace Sales',
         description: 'Your subscription includes commercial licensing for selling pattern worksheets on Teachers Pay Teachers, Etsy, Amazon KDP, or your own website. Create themed pattern bundles, progressive difficulty packs, or seasonal activity sets for maximum sales appeal. Pattern recognition worksheets are consistently popular in the kindergarten and first grade educational marketplace. No attribution or extra licensing fees required.',
+        highlighted: false,
+      },
+    
+      {
+        id: '8',
+        icon: '✅',
+        title: 'Auto-Generated Answer Keys for Every Pattern Worksheet',
+        description: 'Every pattern worksheet automatically generates a matching answer key showing all correct responses clearly marked. Teachers verify student work in seconds without solving exercises themselves. Print answer keys on separate pages for self-checking stations or display on document cameras during whole-class review sessions. The verification system guarantees accuracy for confident grading across entire class sets.',
+        highlighted: false,
+      },
+      {
+        id: '9',
+        icon: '🎨',
+        title: 'Themed Backgrounds and Decorative Borders for Pattern Worksheets',
+        description: 'Choose from dozens of themed backgrounds including chalkboard, notebook paper, rainbow, clouds, and seasonal designs to enhance your pattern worksheets visually. Add decorative borders featuring stars, hearts, flowers, or school supplies around page edges. Adjust opacity for subtle or prominent effects. Professional visual design increases student engagement and creates polished materials suitable for classroom display or marketplace sales.',
+        highlighted: false,
+      },
+      {
+        id: '10',
+        icon: '🔁',
+        title: 'Multiple Pattern Types From Simple AB to Complex ABCD Sequences',
+        description: 'Choose from progressive pattern complexity levels to match student developmental needs. Simple AB alternating patterns introduce the concept of repeating sequences for preschool beginners. ABC patterns add a third element requiring more working memory for kindergarten students. ABCD patterns challenge first graders with four-element sequences. AABB and ABB grouping patterns introduce structural variation beyond simple alternation.',
         highlighted: false,
       },
     ],

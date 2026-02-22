@@ -75,7 +75,78 @@ Our math worksheets help young students master early counting skills through vis
     sectionTitle: 'Free Worksheet for Kids Features: Find and Count Worksheets and Free Printables for Kindergarten',
     sectionDescription: 'Our find and count worksheet generator includes every feature teachers need to create professional kindergarten worksheets quickly. Generate unlimited free printable worksheets with your Core Bundle subscription. Each tool works together to save time while producing high-quality educational materials. The generator combines ease of use with powerful customization options. Create engaging first grade worksheets in minutes instead of hours. All features work on any device with internet access.',
     highlightBadgeText: 'Key Feature',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        icon: '🔍',
+        title: 'Search-and-Count Puzzles Combining Visual Scanning With Math',
+        description: 'Generate worksheets where students find specific images hidden among a visual scene and count how many appear. This dual-skill format develops both visual discrimination and one-to-one correspondence counting simultaneously. Children scan carefully through themed image collections, circling target objects while maintaining an accurate running tally for each category.',
+        highlighted: true,
+      },
+      {
+        id: '2',
+        icon: '🔢',
+        title: 'Multiple Target Categories Per Worksheet for Complex Counting',
+        description: 'Set between two and six target image categories per worksheet for varied difficulty levels. Simple worksheets with two targets suit preschool learners building basic counting skills. Complex worksheets with six targets challenge older students to track multiple counts simultaneously, developing working memory and organizational skills alongside mathematical fluency.',
+        highlighted: false,
+      },
+      {
+        id: '3',
+        icon: '⚙️',
+        title: 'Adjustable Scene Density From Sparse to Richly Populated',
+        description: 'Control the total number of images in each visual scene from ten to fifty objects. Sparse scenes with fewer images help beginning learners succeed at visual scanning without feeling overwhelmed. Dense scenes with many overlapping images challenge advanced students requiring careful systematic searching and accurate counting under visual complexity.',
+        highlighted: false,
+      },
+      {
+        id: '4',
+        icon: '🖼️',
+        title: '3000+ Themed Images Creating Engaging Search Scenes',
+        description: 'Browse over 3000 child-friendly images organized by theme for scene generation. Animals, food, vehicles, toys, nature items, and school supplies create visually rich search environments. Theme-based generation automatically mixes images into engaging scenes where target objects blend naturally among distractors, making counting practice feel like a fun discovery game.',
+        highlighted: false,
+      },
+      {
+        id: '5',
+        icon: '✅',
+        title: 'Answer Keys With Highlighted Targets and Verified Counts',
+        description: 'Every find and count worksheet generates a complete answer key showing all target locations highlighted and the correct count for each category. Teachers verify student work instantly without re-counting objects themselves. The verification page includes circled targets for visual confirmation and numerical totals for quick grade recording.',
+        highlighted: false,
+      },
+      {
+        id: '6',
+        icon: '🎨',
+        title: 'Full Canvas Editing for Custom Scene Layouts and Styling',
+        description: 'Customize every element after worksheet generation. Reposition the search scene, resize image clusters, and adjust spacing for optimal visual clarity. Add custom titles, counting boxes, and student name fields using professional text tools. Apply themed backgrounds and decorative borders to create polished materials worthy of commercial distribution.',
+        highlighted: false,
+      },
+      {
+        id: '7',
+        icon: '📤',
+        title: 'Upload Custom Images for Curriculum-Connected Counting Scenes',
+        description: 'Upload classroom photos, nature images, or curriculum-specific pictures to create search-and-count scenes tied to current units. Students count familiar objects from their own learning environment, strengthening the connection between math skills and real-world observation. Combine uploads with library images for rich, varied counting scenes.',
+        highlighted: false,
+      },
+      {
+        id: '8',
+        icon: '🌍',
+        title: 'Generate Counting Worksheets in Eleven Languages',
+        description: 'Create find and count worksheets in English, Spanish, French, German, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian, or Finnish. All instructions, labels, and counting prompts translate automatically. Perfect for ESL programs where students practice number vocabulary while developing visual scanning skills in their primary language.',
+        highlighted: false,
+      },
+      {
+        id: '9',
+        icon: '🖨️',
+        title: 'Professional 300 DPI Downloads in PDF and JPEG Formats',
+        description: 'Download completed worksheets at professional print resolution ensuring every small image detail remains clear and countable. PDF format provides crisp output for classroom printing while JPEG works for digital distribution. Grayscale mode reduces ink usage while maintaining enough visual distinction for accurate counting activities.',
+        highlighted: false,
+      },
+      {
+        id: '10',
+        icon: '💼',
+        title: 'Commercial License for Marketplace Distribution',
+        description: 'Your subscription includes commercial licensing to sell find and count worksheets on Teachers Pay Teachers, Etsy, Amazon KDP, or your own store. Create themed counting bundles organized by season, difficulty, or curriculum topic. Search-and-count worksheets are popular sellers in the early childhood education marketplace. No attribution or extra fees required.',
+        highlighted: false,
+      },
+    ], // Samples loaded dynamically from content manager
     
   },
 
@@ -167,7 +238,56 @@ Print multiple copies for your entire class. The 300 DPI quality handles repeate
   useCases: {
     sectionTitle: 'Perfect for Free Printables: Find and Count Worksheets for Kindergarten Teachers and Kids',
     sectionDescription: 'Find and count worksheets serve diverse educational settings and teaching styles. Kindergarten teachers use them for morning work and centers. First grade teachers incorporate them into math stations. Homeschool parents appreciate the quick prep time. ESL instructors value the visual learning approach. Special education teachers customize difficulty levels easily. Teacher entrepreneurs sell them as premium products. Your Core Bundle subscription provides unlimited worksheet creation for all these applications.',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        icon: '👩‍🏫',
+        title: 'Kindergarten Teachers: Visual Scanning Development',
+        subtitle: 'Find & Count Worksheets for Ages 5-6 Classroom Activities',
+        description: 'Kindergarten teachers integrate find and count worksheets into daily routines as engaging math center activities. Set difficulty to beginner level with simple exercises that build visual scanning and counting accuracy progressively. The visual format requires minimal reading so students work independently after brief teacher modeling. Create themed worksheets matching current classroom units for cross-curricular connections. Generate multiple versions using different image themes for variety throughout the week.',
+        quote: 'My kindergarteners love the find & count worksheets. They ask for more every day!',
+      },
+      {
+        id: '2',
+        icon: '📚',
+        title: 'First Grade Teachers: Building Visual Scanning Skills',
+        subtitle: 'Advanced Find & Count Activities for Independent Practice',
+        description: 'First grade teachers use find and count worksheets at increased difficulty levels for independent practice and early finisher activities. Students develop visual scanning and counting accuracy through progressively challenging exercises that build confidence and persistence. Create differentiated worksheet sets using the same theme at multiple levels for seamless classroom management. The search-and-count activities work perfectly for morning routines, homework packets, and assessment preparation activities.',
+        quote: 'Find & Count worksheets are my go-to early finisher activity. Students stay engaged until the bell.',
+      },
+      {
+        id: '3',
+        icon: '🌟',
+        title: 'Special Education Teachers: Accessible Find & Count Activities',
+        subtitle: 'Visual Learning Supports for Diverse Abilities',
+        description: 'Special education teachers value find and count worksheets because the visual format accommodates diverse learning needs without requiring strong reading skills. Adjust difficulty settings to create individualized worksheets matching each student\\'s developmental level. The image-based exercises build visual scanning and counting accuracy through concrete visual experiences rather than abstract concepts. Create consistent routine activities using familiar image themes that reduce anxiety while building essential cognitive skills.',
+        quote: 'The adjustable difficulty lets me create find & count sheets perfect for each student\\'s level.',
+      },
+      {
+        id: '4',
+        icon: '🌍',
+        title: 'ESL Teachers: Language-Free Find & Count Practice',
+        subtitle: 'Visual Activities Accessible at All Language Levels',
+        description: 'ESL teachers incorporate find and count worksheets as equitable activities where all students participate regardless of English proficiency. The search-and-count activities require visual analysis rather than language comprehension, creating natural entry points for newcomer students. Use themed images to build vocabulary connections as students discuss their work. Generate worksheets in eleven languages to provide instructions in students\\' primary language while developing visual scanning and counting accuracy.',
+        quote: 'My newcomer students complete find & count worksheets with the same confidence as native speakers.',
+      },
+      {
+        id: '5',
+        icon: '🏠',
+        title: 'Homeschool Parents: Self-Paced Find & Count Learning',
+        subtitle: 'Independent Practice Activities for Home Education',
+        description: 'Homeschool parents appreciate find and count worksheets as independent practice activities that develop visual scanning and counting accuracy without requiring constant supervision. Create progressive difficulty sets for self-paced skill building across multiple sessions. The visual format engages children who struggle with text-heavy worksheets. Generate themed versions connecting to current unit studies for integrated learning. One subscription provides unlimited worksheet creation for multiple children at different ability levels.',
+        quote: 'My kids work through find & count sheets independently while I teach their siblings.',
+      },
+      {
+        id: '6',
+        icon: '💰',
+        title: 'Teacher Entrepreneurs: Find & Count Bundles for Marketplace',
+        subtitle: 'Create and Sell Professional Worksheet Products Online',
+        description: 'Teacher entrepreneurs create themed find and count worksheets bundles for Teachers Pay Teachers, Etsy, and Amazon KDP. Package worksheets by theme, difficulty level, or seasonal collections for maximum marketplace appeal. The search-and-count activities fill a consistent demand niche in early childhood education. Your subscription includes commercial licensing with no additional fees or attribution requirements. Create holiday packs, themed bundles, and progressive difficulty series generating passive income from your teaching expertise.',
+        quote: 'My find & count bundles sell consistently. The themed sets are especially popular.',
+      },
+    ], // Samples loaded dynamically from content manager
     
   },
 
@@ -320,7 +440,56 @@ Print multiple copies for your entire class. The 300 DPI quality handles repeate
     ctaDescription: 'Join thousands of educators creating professional worksheets. Unlimited generation, commercial license included.',
     primaryCtaText: 'Start Free Trial',
     secondaryCtaText: 'View All 33 Apps',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        slug: 'find-objects-worksheets',
+        name: 'Find Objects Worksheets',
+        category: 'Visual Skills',
+        icon: '🔎',
+        description: 'Supplement find & count worksheets with find objects exercises for balanced instruction. The visual scanning and search activities with hidden objects format provides variety that keeps students motivated. Mix both generators to create professional learning packets for any classroom theme.',
+      },
+      {
+        id: '2',
+        slug: 'chart-count-worksheets',
+        name: 'Chart & Count Worksheets',
+        category: 'Math',
+        icon: '📊',
+        description: 'Add chart & count worksheets to your find & count rotation for diverse learning opportunities. The counting and graphing activities with picture charts activities build skills that complement find & count practice. Generate complete themed packets covering both worksheet types in minutes.',
+      },
+      {
+        id: '3',
+        slug: 'addition-worksheets',
+        name: 'Addition Worksheets',
+        category: 'Math',
+        icon: '➕',
+        description: 'Combine find & count worksheets with addition exercises for comprehensive lesson planning. The addition practice with visual counting and number sentences activities complement find & count skills perfectly. Build complete learning packets mixing both generators for varied classroom practice.',
+      },
+      {
+        id: '4',
+        slug: 'more-less-worksheets',
+        name: 'More or Less Worksheets',
+        category: 'Math',
+        icon: '⚖️',
+        description: 'Bridge find & count concepts with more or less activities for deeper understanding. Students practice quantity comparison activities for early number sense while building on find & count foundations. Combine both worksheet generators for comprehensive themed learning bundles.',
+      },
+      {
+        id: '5',
+        slug: 'treasure-hunt-worksheets',
+        name: 'Treasure Hunt Worksheets',
+        category: 'Logic & Puzzles',
+        icon: '🏴‍☠️',
+        description: 'Extend find & count practice with treasure hunt worksheets for well-rounded skill development. Students benefit from adventure-themed search and find puzzle activities alongside find & count activities. Create themed bundles that keep learners engaged across multiple skill areas.',
+      },
+      {
+        id: '6',
+        slug: 'picture-bingo-worksheets',
+        name: 'Picture Bingo Worksheets',
+        category: 'Visual Skills',
+        icon: '🎰',
+        description: 'Combine find & count worksheets with picture bingo exercises for comprehensive lesson planning. The bingo card generators with themed picture matching activities complement find & count skills perfectly. Build complete learning packets mixing both generators for varied classroom practice.',
+      },
+    ], // Samples loaded dynamically from content manager
 
   },
 

@@ -19,7 +19,9 @@ export const oddOneOutEnContent: ProductPageContent = {
 
 Our odd one out worksheet maker helps teachers create engaging critical thinking exercises. Students identify which item doesn't belong in each group. Perfect for visual discrimination practice and categorization skills. Each worksheet includes professional formatting and clear exercise layouts.
 
-The odd one out generator creates worksheets for any subject or theme. Choose from 3000+ images or upload your own pictures. Generate worksheets in 11 languages with complete customization. Your Full Access subscription includes commercial licensing for selling worksheets on Teachers Pay Teachers, Etsy, and Amazon KDP.`,
+The odd one out generator creates worksheets for any subject or theme. Choose from 3000+ images or upload your own pictures. Generate worksheets in 11 languages with complete customization. Your Full Access subscription includes commercial licensing for selling worksheets on Teachers Pay Teachers, Etsy, and Amazon KDP.
+
+Odd one out worksheets present groups of images where students identify the item that does not share the common characteristic with the others. This critical thinking format develops classification skills, categorical reasoning, and analytical observation essential for scientific thinking. Teachers create exercises using visual attributes like color, shape, and size or conceptual categories like type, function, and habitat. Adjust group sizes from three to six images and control the subtlety of differences to match student ability levels precisely. The format builds the same logical reasoning skills used in standardized test preparation and academic problem-solving.`,
     previewImageSrc: '/samples/english/odd-one-out/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Try Free',
@@ -69,7 +71,78 @@ The odd one out generator creates worksheets for any subject or theme. Choose fr
     sectionTitle: 'Free Odd One Out Worksheets for Critical Thinking and Visual Discrimination Practice',
     sectionDescription: 'The odd one out worksheet generator combines powerful features with simple controls. Create professional kindergarten worksheets in minutes instead of hours. Each feature works together to give you complete control over worksheet design. Generate free printable worksheets perfectly customized for your classroom needs. Teachers use our odd one out maker to create math worksheets, phonics worksheets, and alphabet worksheets. The same tool creates sight words worksheets, addition worksheets, and first grade worksheets. Built-in features handle everything from image selection to final PDF export. Your Full Access subscription unlocks all premium capabilities with no per-worksheet charges.',
     highlightBadgeText: 'Key Feature',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        icon: '🔍',
+        title: 'Classification Puzzles Identifying the Item That Does Not Belong',
+        description: 'Generate professional odd one out worksheets where students analyze groups of images and identify which item does not share the common characteristic. This critical thinking format develops classification skills, categorical reasoning, and analytical observation. Children learn to identify shared attributes and detect exceptions, building the logical foundations essential for academic success.',
+        highlighted: true,
+      },
+      {
+        id: '2',
+        icon: '🧠',
+        title: 'Multiple Classification Criteria From Visual to Conceptual',
+        description: 'Create exercises using different classification criteria ranging from simple visual attributes to complex conceptual categories. Visual mode groups items by color, shape, or size with one different object. Category mode groups items by type with an unrelated intruder. Function mode groups items by purpose creating deeper analytical challenges for advanced learners.',
+        highlighted: false,
+      },
+      {
+        id: '3',
+        icon: '⚙️',
+        title: 'Adjustable Group Size From Three to Six Items Per Exercise',
+        description: 'Control difficulty by setting three to six images per classification group. Three-item groups with obvious odd items suit preschool learners developing basic sorting skills. Five and six-item groups with subtle differences challenge kindergarten and first grade students requiring careful analysis of multiple shared and differing attributes across the entire image set.',
+        highlighted: false,
+      },
+      {
+        id: '4',
+        icon: '🖼️',
+        title: '3000+ Themed Images for Creating Meaningful Classification Sets',
+        description: 'Browse over 3000 child-friendly images organized by theme for classification exercises. The generator intelligently creates groups where most images share a common category while one clearly belongs to a different set. Animals mixed with one vehicle, fruits mixed with one toy, and similar combinations create intuitive classification challenges students find engaging.',
+        highlighted: false,
+      },
+      {
+        id: '5',
+        icon: '✅',
+        title: 'Answer Keys Clearly Marking the Correct Odd Item Out',
+        description: 'Every worksheet generates a complete answer key highlighting the odd item in each exercise group with a clear visual indicator. Teachers verify student responses instantly. The answer key includes a brief explanation of the classification rule so students understand why the odd item does not belong, supporting metacognitive learning beyond simple identification.',
+        highlighted: false,
+      },
+      {
+        id: '6',
+        icon: '🎨',
+        title: 'Full Canvas Editing for Custom Odd One Out Worksheet Layouts',
+        description: 'Customize every element after generation. Reposition exercise groups, adjust image sizes, and modify spacing for optimal visual clarity. Add custom titles, instructions, and student name fields. Apply themed backgrounds and decorative borders for polished classroom materials. Lock completed elements while editing others for efficient worksheet design workflow.',
+        highlighted: false,
+      },
+      {
+        id: '7',
+        icon: '📤',
+        title: 'Upload Custom Images for Curriculum-Specific Classification',
+        description: 'Upload your own images to create odd one out exercises tied to specific curriculum content. Use vocabulary pictures from current units, science category images, or math concept illustrations. Create classification activities that reinforce content-area learning while developing logical thinking skills through carefully designed category groupings.',
+        highlighted: false,
+      },
+      {
+        id: '8',
+        icon: '🌍',
+        title: 'Create Classification Worksheets in Eleven Languages',
+        description: 'Generate odd one out worksheets in English, Spanish, French, German, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian, or Finnish. All instructions, labels, and classification prompts translate automatically. Ideal for ESL programs and bilingual classrooms where students practice categorical vocabulary and analytical reasoning in their primary language.',
+        highlighted: false,
+      },
+      {
+        id: '9',
+        icon: '🖨️',
+        title: 'Professional 300 DPI Output in PDF and JPEG Formats',
+        description: 'Download completed worksheets at professional print resolution ensuring all image details remain sharp and distinguishable. Clear visual quality is essential for classification exercises where students must notice subtle differences between items. Grayscale mode reduces printing costs while maintaining enough visual distinction for accurate odd-one-out identification.',
+        highlighted: false,
+      },
+      {
+        id: '10',
+        icon: '💼',
+        title: 'Commercial License for Selling Classification Activity Bundles',
+        description: 'Your subscription includes commercial licensing to sell odd one out worksheets on Teachers Pay Teachers, Etsy, and other educational platforms. Create themed classification bundles organized by difficulty, topic, or grade level. Critical thinking worksheets are consistently in high demand. No attribution required and no additional licensing fees apply to your created materials.',
+        highlighted: false,
+      },
+    ], // Samples loaded dynamically from content manager
     
   },
 
@@ -149,7 +222,56 @@ The odd one out generator creates worksheets for any subject or theme. Choose fr
   useCases: {
     sectionTitle: 'Free Worksheet for Kids: Odd One Out for Teachers, Parents, and Educators',
     sectionDescription: 'Teachers discover new applications for odd one out worksheets every day. These versatile tools work across grade levels and subject areas. From sight words worksheets in reading centers to tracing worksheets in occupational therapy sessions, the possibilities expand constantly. This section explores real-world applications from kindergarten through first grade classrooms. Learn how teachers integrate odd one out exercises into phonics worksheets, addition worksheets, and alphabet worksheets. These proven strategies work for math worksheets, coloring worksheets, and free printable worksheets in any educational setting.',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        icon: '👩‍🏫',
+        title: 'Kindergarten Teachers: Classification Development',
+        subtitle: 'Odd One Out Worksheets for Ages 5-6 Classroom Activities',
+        description: 'Kindergarten teachers integrate odd one out worksheets into daily routines as engaging thinking center activities. Set difficulty to beginner level with simple exercises that build classification and categorical reasoning progressively. The visual format requires minimal reading so students work independently after brief teacher modeling. Create themed worksheets matching current classroom units for cross-curricular connections. Generate multiple versions using different image themes for variety throughout the week.',
+        quote: 'My kindergarteners love the odd one out worksheets. They ask for more every day!',
+      },
+      {
+        id: '2',
+        icon: '📚',
+        title: 'First Grade Teachers: Building Classification Skills',
+        subtitle: 'Advanced Odd One Out Activities for Independent Practice',
+        description: 'First grade teachers use odd one out worksheets at increased difficulty levels for independent practice and early finisher activities. Students develop classification and categorical reasoning through progressively challenging exercises that build confidence and persistence. Create differentiated worksheet sets using the same theme at multiple levels for seamless classroom management. The critical thinking activities work perfectly for morning routines, homework packets, and assessment preparation activities.',
+        quote: 'Odd One Out worksheets are my go-to early finisher activity. Students stay engaged until the bell.',
+      },
+      {
+        id: '3',
+        icon: '🌟',
+        title: 'Special Education Teachers: Accessible Odd One Out Activities',
+        subtitle: 'Visual Learning Supports for Diverse Abilities',
+        description: 'Special education teachers value odd one out worksheets because the visual format accommodates diverse learning needs without requiring strong reading skills. Adjust difficulty settings to create individualized worksheets matching each student\\'s developmental level. The image-based exercises build classification and categorical reasoning through concrete visual experiences rather than abstract concepts. Create consistent routine activities using familiar image themes that reduce anxiety while building essential cognitive skills.',
+        quote: 'The adjustable difficulty lets me create odd one out sheets perfect for each student\\'s level.',
+      },
+      {
+        id: '4',
+        icon: '🌍',
+        title: 'ESL Teachers: Language-Free Odd One Out Practice',
+        subtitle: 'Visual Activities Accessible at All Language Levels',
+        description: 'ESL teachers incorporate odd one out worksheets as equitable activities where all students participate regardless of English proficiency. The critical thinking activities require visual analysis rather than language comprehension, creating natural entry points for newcomer students. Use themed images to build vocabulary connections as students discuss their work. Generate worksheets in eleven languages to provide instructions in students\\' primary language while developing classification and categorical reasoning.',
+        quote: 'My newcomer students complete odd one out worksheets with the same confidence as native speakers.',
+      },
+      {
+        id: '5',
+        icon: '🏠',
+        title: 'Homeschool Parents: Self-Paced Odd One Out Learning',
+        subtitle: 'Independent Practice Activities for Home Education',
+        description: 'Homeschool parents appreciate odd one out worksheets as independent practice activities that develop classification and categorical reasoning without requiring constant supervision. Create progressive difficulty sets for self-paced skill building across multiple sessions. The visual format engages children who struggle with text-heavy worksheets. Generate themed versions connecting to current unit studies for integrated learning. One subscription provides unlimited worksheet creation for multiple children at different ability levels.',
+        quote: 'My kids work through odd one out sheets independently while I teach their siblings.',
+      },
+      {
+        id: '6',
+        icon: '💰',
+        title: 'Teacher Entrepreneurs: Odd One Out Bundles for Marketplace',
+        subtitle: 'Create and Sell Professional Worksheet Products Online',
+        description: 'Teacher entrepreneurs create themed odd one out worksheets bundles for Teachers Pay Teachers, Etsy, and Amazon KDP. Package worksheets by theme, difficulty level, or seasonal collections for maximum marketplace appeal. The critical thinking activities fill a consistent demand niche in early childhood education. Your subscription includes commercial licensing with no additional fees or attribution requirements. Create holiday packs, themed bundles, and progressive difficulty series generating passive income from your teaching expertise.',
+        quote: 'My odd one out bundles sell consistently. The themed sets are especially popular.',
+      },
+    ], // Samples loaded dynamically from content manager
     
   },
 
@@ -325,7 +447,56 @@ The odd one out generator creates worksheets for any subject or theme. Choose fr
     ctaDescription: 'Join educators creating professional worksheets. Unlimited generation, commercial license included.',
     primaryCtaText: 'Start Free Trial',
     secondaryCtaText: 'View All 33 Apps',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        slug: 'picture-sort-worksheets',
+        name: 'Picture Sort Worksheets',
+        category: 'Visual Skills',
+        icon: '🗂️',
+        description: 'Extend odd one out practice with picture sort worksheets for well-rounded skill development. Students benefit from categorization and sorting activities with picture groups alongside odd one out activities. Create themed bundles that keep learners engaged across multiple skill areas.',
+      },
+      {
+        id: '2',
+        slug: 'matching-worksheets',
+        name: 'Matching Worksheets',
+        category: 'Visual Skills',
+        icon: '🤝',
+        description: 'Pair Odd One Out activities with matching worksheets for cross-curricular skill building. Students strengthen picture pair matching for visual association skills while reinforcing concepts from odd one out practice sessions. Create themed packets that combine both worksheet types for engaging homework or center rotations.',
+      },
+      {
+        id: '3',
+        slug: 'find-objects-worksheets',
+        name: 'Find Objects Worksheets',
+        category: 'Visual Skills',
+        icon: '🔎',
+        description: 'Supplement odd one out worksheets with find objects exercises for balanced instruction. The visual scanning and search activities with hidden objects format provides variety that keeps students motivated. Mix both generators to create professional learning packets for any classroom theme.',
+      },
+      {
+        id: '4',
+        slug: 'pattern-worksheets',
+        name: 'Pattern Worksheets',
+        category: 'Logic & Puzzles',
+        icon: '🔄',
+        description: 'Combine odd one out worksheets with pattern exercises for comprehensive lesson planning. The pattern recognition and sequence completion exercises activities complement odd one out skills perfectly. Build complete learning packets mixing both generators for varied classroom practice.',
+      },
+      {
+        id: '5',
+        slug: 'missing-pieces-worksheets',
+        name: 'Missing Pieces Worksheets',
+        category: 'Logic & Puzzles',
+        icon: '🧩',
+        description: 'Add missing pieces worksheets to your odd one out rotation for diverse learning opportunities. The visual completion puzzles identifying missing parts activities build skills that complement odd one out practice. Generate complete themed packets covering both worksheet types in minutes.',
+      },
+      {
+        id: '6',
+        slug: 'big-small-worksheets',
+        name: 'Big & Small Worksheets',
+        category: 'Visual Skills',
+        icon: '📏',
+        description: 'Add big & small worksheets to your odd one out rotation for diverse learning opportunities. The size comparison and ordering activities for early learners activities build skills that complement odd one out practice. Generate complete themed packets covering both worksheet types in minutes.',
+      },
+    ], // Samples loaded dynamically from content manager
 
   },
 

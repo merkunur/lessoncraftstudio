@@ -1,0 +1,1690 @@
+{
+  "generatedAt": "2026-02-22T10:54:44.405Z",
+  "totalPages": 33,
+  "totalPasses": 528,
+  "totalWarns": 35,
+  "totalFails": 10,
+  "keywordCannibalization": {
+    "severe": [],
+    "moderate": []
+  },
+  "faqSimilarities": [
+    {
+      "q1": "How Long Does It Take to Create One Math Worksheet?",
+      "f1": "addition-worksheets",
+      "q2": "How Long Does It Take to Create a Math Worksheet?",
+      "f2": "math-worksheets",
+      "similarity": 100
+    },
+    {
+      "q1": "How Do Cutting Activities Develop Fine Motor Skills?",
+      "f1": "alphabet-train-worksheets",
+      "q2": "How Do Cutting Activities Develop Fine Motor Skills?",
+      "f2": "pattern-train-worksheets",
+      "similarity": 100
+    },
+    {
+      "q1": "How Many Exercises Fit on One Worksheet?",
+      "f1": "big-small-worksheets",
+      "q2": "How many exercises can I put on one worksheet?",
+      "f2": "odd-one-out-worksheets",
+      "similarity": 100
+    },
+    {
+      "q1": "How Many Exercises Fit on One Worksheet?",
+      "f1": "big-small-worksheets",
+      "q2": "How many exercises can I put on one worksheet?",
+      "f2": "prepositions-worksheets",
+      "similarity": 100
+    },
+    {
+      "q1": "Do Big and Small Worksheets Include Answer Keys?",
+      "f1": "big-small-worksheets",
+      "q2": "Do odd one out worksheets include answer keys?",
+      "f2": "odd-one-out-worksheets",
+      "similarity": 80
+    },
+    {
+      "q1": "Can I Create Themed Size Comparison Worksheets?",
+      "f1": "big-small-worksheets",
+      "q2": "Can I Create Themed Comparison Worksheets?",
+      "f2": "more-less-worksheets",
+      "similarity": 80
+    },
+    {
+      "q1": "Can I choose which images appear in the counting grid?",
+      "f1": "chart-count-worksheets",
+      "q2": "Can I choose which images appear in the grid?",
+      "f2": "treasure-hunt-worksheets",
+      "similarity": 83
+    },
+    {
+      "q1": "Do Crossword Worksheets Include Answer Keys?",
+      "f1": "crossword-worksheets",
+      "q2": "Do odd one out worksheets include answer keys?",
+      "f2": "odd-one-out-worksheets",
+      "similarity": 80
+    },
+    {
+      "q1": "What age group are cryptogram worksheets designed for?",
+      "f1": "cryptogram-worksheets",
+      "q2": "What age group are odd one out worksheets designed for?",
+      "f2": "odd-one-out-worksheets",
+      "similarity": 83
+    },
+    {
+      "q1": "Do cryptogram worksheets include answer keys?",
+      "f1": "cryptogram-worksheets",
+      "q2": "Do odd one out worksheets include answer keys?",
+      "f2": "odd-one-out-worksheets",
+      "similarity": 80
+    },
+    {
+      "q1": "Are cryptogram worksheets available in multiple languages?",
+      "f1": "cryptogram-worksheets",
+      "q2": "Are odd one out worksheets available in multiple languages?",
+      "f2": "odd-one-out-worksheets",
+      "similarity": 80
+    },
+    {
+      "q1": "Can I combine cryptograms with other worksheet types?",
+      "f1": "cryptogram-worksheets",
+      "q2": "Can I combine odd one out with other worksheet types?",
+      "f2": "odd-one-out-worksheets",
+      "similarity": 83
+    },
+    {
+      "q1": "Do Matching Worksheets Include Answer Keys?",
+      "f1": "matching-worksheets",
+      "q2": "Do odd one out worksheets include answer keys?",
+      "f2": "odd-one-out-worksheets",
+      "similarity": 80
+    },
+    {
+      "q1": "Do math puzzle worksheets include answer keys?",
+      "f1": "math-puzzle-worksheets",
+      "q2": "Do Math Puzzle Worksheets Include Answer Keys?",
+      "f2": "math-worksheets",
+      "similarity": 100
+    },
+    {
+      "q1": "Do Comparison Worksheets Include Answer Keys?",
+      "f1": "more-less-worksheets",
+      "q2": "Do odd one out worksheets include answer keys?",
+      "f2": "odd-one-out-worksheets",
+      "similarity": 80
+    },
+    {
+      "q1": "How many exercises can I put on one worksheet?",
+      "f1": "odd-one-out-worksheets",
+      "q2": "How many exercises can I put on one worksheet?",
+      "f2": "prepositions-worksheets",
+      "similarity": 100
+    },
+    {
+      "q1": "What age group are odd one out worksheets designed for?",
+      "f1": "odd-one-out-worksheets",
+      "q2": "What age group are preposition worksheets designed for?",
+      "f2": "prepositions-worksheets",
+      "similarity": 83
+    },
+    {
+      "q1": "Do odd one out worksheets include answer keys?",
+      "f1": "odd-one-out-worksheets",
+      "q2": "Do Pattern Worksheets Include Answer Keys?",
+      "f2": "pattern-worksheets",
+      "similarity": 80
+    },
+    {
+      "q1": "Do odd one out worksheets include answer keys?",
+      "f1": "odd-one-out-worksheets",
+      "q2": "Do Maze Worksheets Include Answer Keys?",
+      "f2": "picture-path-worksheets",
+      "similarity": 80
+    },
+    {
+      "q1": "Do odd one out worksheets include answer keys?",
+      "f1": "odd-one-out-worksheets",
+      "q2": "Do preposition worksheets include answer keys?",
+      "f2": "prepositions-worksheets",
+      "similarity": 80
+    }
+  ],
+  "duplicateFeatureTitles": [
+    {
+      "title": "auto-generated answer keys",
+      "files": [
+        "alphabet-train-worksheets",
+        "crossword-worksheets",
+        "cryptogram-worksheets",
+        "prepositions-worksheets",
+        "word-search-worksheets"
+      ]
+    },
+    {
+      "title": "full canvas editing tools",
+      "files": [
+        "alphabet-train-worksheets",
+        "crossword-worksheets",
+        "cryptogram-worksheets",
+        "draw-and-color-worksheets",
+        "word-search-worksheets",
+        "writing-worksheets"
+      ]
+    },
+    {
+      "title": "commercial license included",
+      "files": [
+        "alphabet-train-worksheets",
+        "coloring-worksheets",
+        "crossword-worksheets",
+        "cryptogram-worksheets",
+        "draw-and-color-worksheets",
+        "drawing-lines-worksheets",
+        "prepositions-worksheets",
+        "word-guess-worksheets",
+        "word-scramble-worksheets",
+        "word-search-worksheets",
+        "writing-worksheets"
+      ]
+    },
+    {
+      "title": "3000+ themed images",
+      "files": [
+        "coloring-worksheets",
+        "prepositions-worksheets",
+        "word-guess-worksheets",
+        "word-scramble-worksheets"
+      ]
+    },
+    {
+      "title": "full canvas editing",
+      "files": [
+        "coloring-worksheets",
+        "word-guess-worksheets",
+        "word-scramble-worksheets"
+      ]
+    },
+    {
+      "title": "adjustable grid sizes",
+      "files": [
+        "draw-and-color-worksheets",
+        "word-search-worksheets"
+      ]
+    },
+    {
+      "title": "completed reference keys",
+      "files": [
+        "draw-and-color-worksheets",
+        "drawing-lines-worksheets"
+      ]
+    },
+    {
+      "title": "eleven language support for international classroom use",
+      "files": [
+        "find-objects-worksheets",
+        "shadow-match-worksheets"
+      ]
+    },
+    {
+      "title": "full canvas editing tools for professional worksheet design",
+      "files": [
+        "grid-match-worksheets",
+        "pattern-worksheets"
+      ]
+    },
+    {
+      "title": "commercial license included for marketplace sales",
+      "files": [
+        "pattern-worksheets",
+        "sudoku-worksheets"
+      ]
+    },
+    {
+      "title": "auto answer keys",
+      "files": [
+        "word-guess-worksheets",
+        "word-scramble-worksheets"
+      ]
+    }
+  ],
+  "duplicateHeroOpenings": [],
+  "pages": [
+    {
+      "file": "addition-worksheets",
+      "dimensions": {
+        "seoMetadata": {
+          "titleLen": 53,
+          "descLen": 154,
+          "keywordCount": 12,
+          "canonicalOk": true,
+          "issues": []
+        },
+        "contentDepth": {
+          "heroWords": 204,
+          "featureCount": 10,
+          "shortFeatures": 0,
+          "faqCount": 16,
+          "shortFaqs": 0,
+          "tipsCount": 5,
+          "useCaseCount": 6,
+          "howToSteps": 5,
+          "issues": []
+        },
+        "seoEnrichment": {
+          "snippetWords": 48,
+          "compRows": 6,
+          "testimonialCount": 2,
+          "researchItems": 2,
+          "researchWithSource": 2,
+          "issues": []
+        },
+        "internalLinking": {
+          "relatedCount": 6,
+          "brokenSlugs": [],
+          "hasSelfRef": false,
+          "issues": []
+        }
+      },
+      "summary": {
+        "fails": 0,
+        "warns": 0,
+        "passes": 16
+      }
+    },
+    {
+      "file": "alphabet-train-worksheets",
+      "dimensions": {
+        "seoMetadata": {
+          "titleLen": 54,
+          "descLen": 158,
+          "keywordCount": 12,
+          "canonicalOk": true,
+          "issues": []
+        },
+        "contentDepth": {
+          "heroWords": 209,
+          "featureCount": 10,
+          "shortFeatures": 0,
+          "faqCount": 20,
+          "shortFaqs": 1,
+          "tipsCount": 5,
+          "useCaseCount": 6,
+          "howToSteps": 5,
+          "issues": [
+            "WARN: faq: 1 answer(s) with < 50 words"
+          ]
+        },
+        "seoEnrichment": {
+          "snippetWords": 57,
+          "compRows": 6,
+          "testimonialCount": 2,
+          "researchItems": 2,
+          "researchWithSource": 2,
+          "issues": []
+        },
+        "internalLinking": {
+          "relatedCount": 6,
+          "brokenSlugs": [],
+          "hasSelfRef": false,
+          "issues": []
+        }
+      },
+      "summary": {
+        "fails": 0,
+        "warns": 1,
+        "passes": 16
+      }
+    },
+    {
+      "file": "big-small-worksheets",
+      "dimensions": {
+        "seoMetadata": {
+          "titleLen": 58,
+          "descLen": 158,
+          "keywordCount": 10,
+          "canonicalOk": true,
+          "issues": []
+        },
+        "contentDepth": {
+          "heroWords": 246,
+          "featureCount": 10,
+          "shortFeatures": 0,
+          "faqCount": 20,
+          "shortFaqs": 0,
+          "tipsCount": 5,
+          "useCaseCount": 6,
+          "howToSteps": 5,
+          "issues": []
+        },
+        "seoEnrichment": {
+          "snippetWords": 53,
+          "compRows": 6,
+          "testimonialCount": 2,
+          "researchItems": 2,
+          "researchWithSource": 2,
+          "issues": []
+        },
+        "internalLinking": {
+          "relatedCount": 6,
+          "brokenSlugs": [],
+          "hasSelfRef": false,
+          "issues": []
+        }
+      },
+      "summary": {
+        "fails": 0,
+        "warns": 0,
+        "passes": 16
+      }
+    },
+    {
+      "file": "chart-count-worksheets",
+      "dimensions": {
+        "seoMetadata": {
+          "titleLen": 58,
+          "descLen": 158,
+          "keywordCount": 10,
+          "canonicalOk": true,
+          "issues": []
+        },
+        "contentDepth": {
+          "heroWords": 273,
+          "featureCount": 10,
+          "shortFeatures": 0,
+          "faqCount": 20,
+          "shortFaqs": 20,
+          "tipsCount": 5,
+          "useCaseCount": 6,
+          "howToSteps": 5,
+          "issues": [
+            "WARN: faq: 20 answer(s) with < 50 words"
+          ]
+        },
+        "seoEnrichment": {
+          "snippetWords": 56,
+          "compRows": 6,
+          "testimonialCount": 2,
+          "researchItems": 2,
+          "researchWithSource": 2,
+          "issues": []
+        },
+        "internalLinking": {
+          "relatedCount": 6,
+          "brokenSlugs": [],
+          "hasSelfRef": false,
+          "issues": []
+        }
+      },
+      "summary": {
+        "fails": 0,
+        "warns": 1,
+        "passes": 16
+      }
+    },
+    {
+      "file": "code-addition-worksheets",
+      "dimensions": {
+        "seoMetadata": {
+          "titleLen": 52,
+          "descLen": 159,
+          "keywordCount": 12,
+          "canonicalOk": true,
+          "issues": []
+        },
+        "contentDepth": {
+          "heroWords": 327,
+          "featureCount": 10,
+          "shortFeatures": 0,
+          "faqCount": 20,
+          "shortFaqs": 1,
+          "tipsCount": 5,
+          "useCaseCount": 6,
+          "howToSteps": 5,
+          "issues": [
+            "WARN: faq: 1 answer(s) with < 50 words"
+          ]
+        },
+        "seoEnrichment": {
+          "snippetWords": 52,
+          "compRows": 6,
+          "testimonialCount": 2,
+          "researchItems": 2,
+          "researchWithSource": 2,
+          "issues": []
+        },
+        "internalLinking": {
+          "relatedCount": 6,
+          "brokenSlugs": [],
+          "hasSelfRef": false,
+          "issues": []
+        }
+      },
+      "summary": {
+        "fails": 0,
+        "warns": 1,
+        "passes": 16
+      }
+    },
+    {
+      "file": "coloring-worksheets",
+      "dimensions": {
+        "seoMetadata": {
+          "titleLen": 52,
+          "descLen": 154,
+          "keywordCount": 12,
+          "canonicalOk": true,
+          "issues": []
+        },
+        "contentDepth": {
+          "heroWords": 222,
+          "featureCount": 10,
+          "shortFeatures": 3,
+          "faqCount": 20,
+          "shortFaqs": 0,
+          "tipsCount": 5,
+          "useCaseCount": 6,
+          "howToSteps": 5,
+          "issues": [
+            "WARN: features: 3 item(s) with description < 30 words"
+          ]
+        },
+        "seoEnrichment": {
+          "snippetWords": 56,
+          "compRows": 6,
+          "testimonialCount": 2,
+          "researchItems": 2,
+          "researchWithSource": 2,
+          "issues": []
+        },
+        "internalLinking": {
+          "relatedCount": 6,
+          "brokenSlugs": [],
+          "hasSelfRef": false,
+          "issues": []
+        }
+      },
+      "summary": {
+        "fails": 0,
+        "warns": 1,
+        "passes": 16
+      }
+    },
+    {
+      "file": "crossword-worksheets",
+      "dimensions": {
+        "seoMetadata": {
+          "titleLen": 52,
+          "descLen": 160,
+          "keywordCount": 12,
+          "canonicalOk": true,
+          "issues": []
+        },
+        "contentDepth": {
+          "heroWords": 261,
+          "featureCount": 10,
+          "shortFeatures": 0,
+          "faqCount": 20,
+          "shortFaqs": 6,
+          "tipsCount": 5,
+          "useCaseCount": 6,
+          "howToSteps": 5,
+          "issues": [
+            "WARN: faq: 6 answer(s) with < 50 words"
+          ]
+        },
+        "seoEnrichment": {
+          "snippetWords": 59,
+          "compRows": 6,
+          "testimonialCount": 2,
+          "researchItems": 2,
+          "researchWithSource": 2,
+          "issues": []
+        },
+        "internalLinking": {
+          "relatedCount": 6,
+          "brokenSlugs": [],
+          "hasSelfRef": false,
+          "issues": []
+        }
+      },
+      "summary": {
+        "fails": 0,
+        "warns": 1,
+        "passes": 16
+      }
+    },
+    {
+      "file": "cryptogram-worksheets",
+      "dimensions": {
+        "seoMetadata": {
+          "titleLen": 38,
+          "descLen": 157,
+          "keywordCount": 12,
+          "canonicalOk": true,
+          "issues": [
+            "WARN: seo.title: missing \"LessonCraftStudio\" brand"
+          ]
+        },
+        "contentDepth": {
+          "heroWords": 238,
+          "featureCount": 10,
+          "shortFeatures": 0,
+          "faqCount": 20,
+          "shortFaqs": 20,
+          "tipsCount": 5,
+          "useCaseCount": 6,
+          "howToSteps": 5,
+          "issues": [
+            "WARN: faq: 20 answer(s) with < 50 words"
+          ]
+        },
+        "seoEnrichment": {
+          "snippetWords": 52,
+          "compRows": 6,
+          "testimonialCount": 2,
+          "researchItems": 2,
+          "researchWithSource": 2,
+          "issues": []
+        },
+        "internalLinking": {
+          "relatedCount": 6,
+          "brokenSlugs": [],
+          "hasSelfRef": false,
+          "issues": []
+        }
+      },
+      "summary": {
+        "fails": 0,
+        "warns": 2,
+        "passes": 16
+      }
+    },
+    {
+      "file": "draw-and-color-worksheets",
+      "dimensions": {
+        "seoMetadata": {
+          "titleLen": 57,
+          "descLen": 159,
+          "keywordCount": 12,
+          "canonicalOk": true,
+          "issues": []
+        },
+        "contentDepth": {
+          "heroWords": 324,
+          "featureCount": 10,
+          "shortFeatures": 2,
+          "faqCount": 20,
+          "shortFaqs": 0,
+          "tipsCount": 5,
+          "useCaseCount": 6,
+          "howToSteps": 5,
+          "issues": [
+            "WARN: features: 2 item(s) with description < 30 words"
+          ]
+        },
+        "seoEnrichment": {
+          "snippetWords": 55,
+          "compRows": 6,
+          "testimonialCount": 2,
+          "researchItems": 2,
+          "researchWithSource": 2,
+          "issues": []
+        },
+        "internalLinking": {
+          "relatedCount": 6,
+          "brokenSlugs": [],
+          "hasSelfRef": false,
+          "issues": []
+        }
+      },
+      "summary": {
+        "fails": 0,
+        "warns": 1,
+        "passes": 16
+      }
+    },
+    {
+      "file": "drawing-lines-worksheets",
+      "dimensions": {
+        "seoMetadata": {
+          "titleLen": 57,
+          "descLen": 158,
+          "keywordCount": 12,
+          "canonicalOk": true,
+          "issues": []
+        },
+        "contentDepth": {
+          "heroWords": 343,
+          "featureCount": 10,
+          "shortFeatures": 2,
+          "faqCount": 20,
+          "shortFaqs": 0,
+          "tipsCount": 5,
+          "useCaseCount": 6,
+          "howToSteps": 5,
+          "issues": [
+            "WARN: features: 2 item(s) with description < 30 words"
+          ]
+        },
+        "seoEnrichment": {
+          "snippetWords": 54,
+          "compRows": 6,
+          "testimonialCount": 2,
+          "researchItems": 2,
+          "researchWithSource": 2,
+          "issues": []
+        },
+        "internalLinking": {
+          "relatedCount": 6,
+          "brokenSlugs": [],
+          "hasSelfRef": false,
+          "issues": []
+        }
+      },
+      "summary": {
+        "fails": 0,
+        "warns": 1,
+        "passes": 16
+      }
+    },
+    {
+      "file": "find-and-count-worksheets",
+      "dimensions": {
+        "seoMetadata": {
+          "titleLen": 54,
+          "descLen": 155,
+          "keywordCount": 10,
+          "canonicalOk": true,
+          "issues": []
+        },
+        "contentDepth": {
+          "heroWords": 354,
+          "featureCount": 10,
+          "shortFeatures": 0,
+          "faqCount": 20,
+          "shortFaqs": 0,
+          "tipsCount": 5,
+          "useCaseCount": 6,
+          "howToSteps": 5,
+          "issues": []
+        },
+        "seoEnrichment": {
+          "snippetWords": 58,
+          "compRows": 6,
+          "testimonialCount": 2,
+          "researchItems": 2,
+          "researchWithSource": 2,
+          "issues": []
+        },
+        "internalLinking": {
+          "relatedCount": 6,
+          "brokenSlugs": [],
+          "hasSelfRef": false,
+          "issues": []
+        }
+      },
+      "summary": {
+        "fails": 0,
+        "warns": 0,
+        "passes": 16
+      }
+    },
+    {
+      "file": "find-objects-worksheets",
+      "dimensions": {
+        "seoMetadata": {
+          "titleLen": 59,
+          "descLen": 157,
+          "keywordCount": 10,
+          "canonicalOk": true,
+          "issues": []
+        },
+        "contentDepth": {
+          "heroWords": 251,
+          "featureCount": 10,
+          "shortFeatures": 0,
+          "faqCount": 20,
+          "shortFaqs": 2,
+          "tipsCount": 5,
+          "useCaseCount": 6,
+          "howToSteps": 5,
+          "issues": [
+            "WARN: faq: 2 answer(s) with < 50 words"
+          ]
+        },
+        "seoEnrichment": {
+          "snippetWords": 51,
+          "compRows": 6,
+          "testimonialCount": 2,
+          "researchItems": 2,
+          "researchWithSource": 2,
+          "issues": []
+        },
+        "internalLinking": {
+          "relatedCount": 6,
+          "brokenSlugs": [],
+          "hasSelfRef": false,
+          "issues": []
+        }
+      },
+      "summary": {
+        "fails": 0,
+        "warns": 1,
+        "passes": 16
+      }
+    },
+    {
+      "file": "grid-match-worksheets",
+      "dimensions": {
+        "seoMetadata": {
+          "titleLen": 52,
+          "descLen": 158,
+          "keywordCount": 12,
+          "canonicalOk": true,
+          "issues": []
+        },
+        "contentDepth": {
+          "heroWords": 215,
+          "featureCount": 10,
+          "shortFeatures": 0,
+          "faqCount": 20,
+          "shortFaqs": 2,
+          "tipsCount": 5,
+          "useCaseCount": 6,
+          "howToSteps": 5,
+          "issues": [
+            "WARN: faq: 2 answer(s) with < 50 words"
+          ]
+        },
+        "seoEnrichment": {
+          "snippetWords": 63,
+          "compRows": 6,
+          "testimonialCount": 2,
+          "researchItems": 2,
+          "researchWithSource": 2,
+          "issues": []
+        },
+        "internalLinking": {
+          "relatedCount": 6,
+          "brokenSlugs": [],
+          "hasSelfRef": false,
+          "issues": []
+        }
+      },
+      "summary": {
+        "fails": 0,
+        "warns": 1,
+        "passes": 16
+      }
+    },
+    {
+      "file": "matching-worksheets",
+      "dimensions": {
+        "seoMetadata": {
+          "titleLen": 57,
+          "descLen": 158,
+          "keywordCount": 10,
+          "canonicalOk": true,
+          "issues": []
+        },
+        "contentDepth": {
+          "heroWords": 233,
+          "featureCount": 10,
+          "shortFeatures": 0,
+          "faqCount": 20,
+          "shortFaqs": 6,
+          "tipsCount": 5,
+          "useCaseCount": 6,
+          "howToSteps": 5,
+          "issues": [
+            "WARN: faq: 6 answer(s) with < 50 words"
+          ]
+        },
+        "seoEnrichment": {
+          "snippetWords": 61,
+          "compRows": 6,
+          "testimonialCount": 2,
+          "researchItems": 2,
+          "researchWithSource": 2,
+          "issues": []
+        },
+        "internalLinking": {
+          "relatedCount": 6,
+          "brokenSlugs": [],
+          "hasSelfRef": false,
+          "issues": []
+        }
+      },
+      "summary": {
+        "fails": 0,
+        "warns": 1,
+        "passes": 16
+      }
+    },
+    {
+      "file": "math-puzzle-worksheets",
+      "dimensions": {
+        "seoMetadata": {
+          "titleLen": 50,
+          "descLen": 154,
+          "keywordCount": 12,
+          "canonicalOk": true,
+          "issues": []
+        },
+        "contentDepth": {
+          "heroWords": 238,
+          "featureCount": 10,
+          "shortFeatures": 0,
+          "faqCount": 20,
+          "shortFaqs": 20,
+          "tipsCount": 5,
+          "useCaseCount": 6,
+          "howToSteps": 5,
+          "issues": [
+            "WARN: faq: 20 answer(s) with < 50 words"
+          ]
+        },
+        "seoEnrichment": {
+          "snippetWords": 56,
+          "compRows": 6,
+          "testimonialCount": 2,
+          "researchItems": 2,
+          "researchWithSource": 2,
+          "issues": []
+        },
+        "internalLinking": {
+          "relatedCount": 6,
+          "brokenSlugs": [],
+          "hasSelfRef": false,
+          "issues": []
+        }
+      },
+      "summary": {
+        "fails": 0,
+        "warns": 1,
+        "passes": 16
+      }
+    },
+    {
+      "file": "math-worksheets",
+      "dimensions": {
+        "seoMetadata": {
+          "titleLen": 58,
+          "descLen": 156,
+          "keywordCount": 11,
+          "canonicalOk": true,
+          "issues": []
+        },
+        "contentDepth": {
+          "heroWords": 310,
+          "featureCount": 10,
+          "shortFeatures": 0,
+          "faqCount": 20,
+          "shortFaqs": 0,
+          "tipsCount": 5,
+          "useCaseCount": 6,
+          "howToSteps": 5,
+          "issues": []
+        },
+        "seoEnrichment": {
+          "snippetWords": 54,
+          "compRows": 6,
+          "testimonialCount": 2,
+          "researchItems": 2,
+          "researchWithSource": 2,
+          "issues": []
+        },
+        "internalLinking": {
+          "relatedCount": 6,
+          "brokenSlugs": [],
+          "hasSelfRef": false,
+          "issues": []
+        }
+      },
+      "summary": {
+        "fails": 0,
+        "warns": 0,
+        "passes": 16
+      }
+    },
+    {
+      "file": "missing-pieces-worksheets",
+      "dimensions": {
+        "seoMetadata": {
+          "titleLen": 51,
+          "descLen": 158,
+          "keywordCount": 10,
+          "canonicalOk": true,
+          "issues": []
+        },
+        "contentDepth": {
+          "heroWords": 274,
+          "featureCount": 10,
+          "shortFeatures": 0,
+          "faqCount": 20,
+          "shortFaqs": 20,
+          "tipsCount": 5,
+          "useCaseCount": 6,
+          "howToSteps": 5,
+          "issues": [
+            "WARN: faq: 20 answer(s) with < 50 words"
+          ]
+        },
+        "seoEnrichment": {
+          "snippetWords": 61,
+          "compRows": 6,
+          "testimonialCount": 2,
+          "researchItems": 2,
+          "researchWithSource": 2,
+          "issues": []
+        },
+        "internalLinking": {
+          "relatedCount": 6,
+          "brokenSlugs": [],
+          "hasSelfRef": false,
+          "issues": []
+        }
+      },
+      "summary": {
+        "fails": 0,
+        "warns": 1,
+        "passes": 16
+      }
+    },
+    {
+      "file": "more-less-worksheets",
+      "dimensions": {
+        "seoMetadata": {
+          "titleLen": 58,
+          "descLen": 158,
+          "keywordCount": 12,
+          "canonicalOk": true,
+          "issues": []
+        },
+        "contentDepth": {
+          "heroWords": 226,
+          "featureCount": 10,
+          "shortFeatures": 0,
+          "faqCount": 20,
+          "shortFaqs": 7,
+          "tipsCount": 5,
+          "useCaseCount": 6,
+          "howToSteps": 5,
+          "issues": [
+            "WARN: faq: 7 answer(s) with < 50 words"
+          ]
+        },
+        "seoEnrichment": {
+          "snippetWords": 49,
+          "compRows": 6,
+          "testimonialCount": 2,
+          "researchItems": 2,
+          "researchWithSource": 2,
+          "issues": []
+        },
+        "internalLinking": {
+          "relatedCount": 6,
+          "brokenSlugs": [],
+          "hasSelfRef": false,
+          "issues": []
+        }
+      },
+      "summary": {
+        "fails": 0,
+        "warns": 1,
+        "passes": 16
+      }
+    },
+    {
+      "file": "odd-one-out-worksheets",
+      "dimensions": {
+        "seoMetadata": {
+          "titleLen": 40,
+          "descLen": 157,
+          "keywordCount": 10,
+          "canonicalOk": true,
+          "issues": [
+            "WARN: seo.title: missing \"LessonCraftStudio\" brand"
+          ]
+        },
+        "contentDepth": {
+          "heroWords": 225,
+          "featureCount": 10,
+          "shortFeatures": 0,
+          "faqCount": 20,
+          "shortFaqs": 20,
+          "tipsCount": 5,
+          "useCaseCount": 6,
+          "howToSteps": 9,
+          "issues": [
+            "WARN: faq: 20 answer(s) with < 50 words"
+          ]
+        },
+        "seoEnrichment": {
+          "snippetWords": 63,
+          "compRows": 6,
+          "testimonialCount": 2,
+          "researchItems": 2,
+          "researchWithSource": 2,
+          "issues": []
+        },
+        "internalLinking": {
+          "relatedCount": 6,
+          "brokenSlugs": [],
+          "hasSelfRef": false,
+          "issues": []
+        }
+      },
+      "summary": {
+        "fails": 0,
+        "warns": 2,
+        "passes": 16
+      }
+    },
+    {
+      "file": "pattern-train-worksheets",
+      "dimensions": {
+        "seoMetadata": {
+          "titleLen": 53,
+          "descLen": 155,
+          "keywordCount": 10,
+          "canonicalOk": true,
+          "issues": []
+        },
+        "contentDepth": {
+          "heroWords": 225,
+          "featureCount": 10,
+          "shortFeatures": 0,
+          "faqCount": 20,
+          "shortFaqs": 0,
+          "tipsCount": 5,
+          "useCaseCount": 6,
+          "howToSteps": 5,
+          "issues": []
+        },
+        "seoEnrichment": {
+          "snippetWords": 63,
+          "compRows": 6,
+          "testimonialCount": 2,
+          "researchItems": 2,
+          "researchWithSource": 2,
+          "issues": []
+        },
+        "internalLinking": {
+          "relatedCount": 6,
+          "brokenSlugs": [],
+          "hasSelfRef": false,
+          "issues": []
+        }
+      },
+      "summary": {
+        "fails": 0,
+        "warns": 0,
+        "passes": 16
+      }
+    },
+    {
+      "file": "pattern-worksheets",
+      "dimensions": {
+        "seoMetadata": {
+          "titleLen": 55,
+          "descLen": 159,
+          "keywordCount": 12,
+          "canonicalOk": true,
+          "issues": []
+        },
+        "contentDepth": {
+          "heroWords": 267,
+          "featureCount": 10,
+          "shortFeatures": 0,
+          "faqCount": 20,
+          "shortFaqs": 0,
+          "tipsCount": 5,
+          "useCaseCount": 6,
+          "howToSteps": 5,
+          "issues": []
+        },
+        "seoEnrichment": {
+          "snippetWords": 62,
+          "compRows": 6,
+          "testimonialCount": 2,
+          "researchItems": 2,
+          "researchWithSource": 2,
+          "issues": []
+        },
+        "internalLinking": {
+          "relatedCount": 6,
+          "brokenSlugs": [],
+          "hasSelfRef": false,
+          "issues": []
+        }
+      },
+      "summary": {
+        "fails": 0,
+        "warns": 0,
+        "passes": 16
+      }
+    },
+    {
+      "file": "picture-bingo-worksheets",
+      "dimensions": {
+        "seoMetadata": {
+          "titleLen": 57,
+          "descLen": 159,
+          "keywordCount": 10,
+          "canonicalOk": true,
+          "issues": []
+        },
+        "contentDepth": {
+          "heroWords": 210,
+          "featureCount": 10,
+          "shortFeatures": 0,
+          "faqCount": 20,
+          "shortFaqs": 1,
+          "tipsCount": 5,
+          "useCaseCount": 6,
+          "howToSteps": 5,
+          "issues": [
+            "WARN: faq: 1 answer(s) with < 50 words"
+          ]
+        },
+        "seoEnrichment": {
+          "snippetWords": 54,
+          "compRows": 6,
+          "testimonialCount": 2,
+          "researchItems": 2,
+          "researchWithSource": 2,
+          "issues": []
+        },
+        "internalLinking": {
+          "relatedCount": 6,
+          "brokenSlugs": [],
+          "hasSelfRef": false,
+          "issues": []
+        }
+      },
+      "summary": {
+        "fails": 0,
+        "warns": 1,
+        "passes": 16
+      }
+    },
+    {
+      "file": "picture-path-worksheets",
+      "dimensions": {
+        "seoMetadata": {
+          "titleLen": 57,
+          "descLen": 159,
+          "keywordCount": 10,
+          "canonicalOk": true,
+          "issues": []
+        },
+        "contentDepth": {
+          "heroWords": 245,
+          "featureCount": 10,
+          "shortFeatures": 0,
+          "faqCount": 20,
+          "shortFaqs": 0,
+          "tipsCount": 5,
+          "useCaseCount": 6,
+          "howToSteps": 5,
+          "issues": []
+        },
+        "seoEnrichment": {
+          "snippetWords": 56,
+          "compRows": 6,
+          "testimonialCount": 2,
+          "researchItems": 2,
+          "researchWithSource": 2,
+          "issues": []
+        },
+        "internalLinking": {
+          "relatedCount": 6,
+          "brokenSlugs": [],
+          "hasSelfRef": false,
+          "issues": []
+        }
+      },
+      "summary": {
+        "fails": 0,
+        "warns": 0,
+        "passes": 16
+      }
+    },
+    {
+      "file": "picture-sort-worksheets",
+      "dimensions": {
+        "seoMetadata": {
+          "titleLen": 51,
+          "descLen": 159,
+          "keywordCount": 10,
+          "canonicalOk": true,
+          "issues": []
+        },
+        "contentDepth": {
+          "heroWords": 230,
+          "featureCount": 10,
+          "shortFeatures": 0,
+          "faqCount": 20,
+          "shortFaqs": 20,
+          "tipsCount": 5,
+          "useCaseCount": 6,
+          "howToSteps": 5,
+          "issues": [
+            "WARN: faq: 20 answer(s) with < 50 words"
+          ]
+        },
+        "seoEnrichment": {
+          "snippetWords": 50,
+          "compRows": 6,
+          "testimonialCount": 2,
+          "researchItems": 2,
+          "researchWithSource": 2,
+          "issues": []
+        },
+        "internalLinking": {
+          "relatedCount": 6,
+          "brokenSlugs": [],
+          "hasSelfRef": false,
+          "issues": []
+        }
+      },
+      "summary": {
+        "fails": 0,
+        "warns": 1,
+        "passes": 16
+      }
+    },
+    {
+      "file": "prepositions-worksheets",
+      "dimensions": {
+        "seoMetadata": {
+          "titleLen": 57,
+          "descLen": 156,
+          "keywordCount": 12,
+          "canonicalOk": true,
+          "issues": []
+        },
+        "contentDepth": {
+          "heroWords": 247,
+          "featureCount": 10,
+          "shortFeatures": 0,
+          "faqCount": 20,
+          "shortFaqs": 20,
+          "tipsCount": 5,
+          "useCaseCount": 6,
+          "howToSteps": 5,
+          "issues": [
+            "WARN: faq: 20 answer(s) with < 50 words"
+          ]
+        },
+        "seoEnrichment": {
+          "snippetWords": 55,
+          "compRows": 6,
+          "testimonialCount": 2,
+          "researchItems": 2,
+          "researchWithSource": 2,
+          "issues": []
+        },
+        "internalLinking": {
+          "relatedCount": 6,
+          "brokenSlugs": [],
+          "hasSelfRef": false,
+          "issues": []
+        }
+      },
+      "summary": {
+        "fails": 0,
+        "warns": 1,
+        "passes": 16
+      }
+    },
+    {
+      "file": "shadow-match-worksheets",
+      "dimensions": {
+        "seoMetadata": {
+          "titleLen": 52,
+          "descLen": 157,
+          "keywordCount": 10,
+          "canonicalOk": true,
+          "issues": []
+        },
+        "contentDepth": {
+          "heroWords": 244,
+          "featureCount": 10,
+          "shortFeatures": 0,
+          "faqCount": 20,
+          "shortFaqs": 1,
+          "tipsCount": 5,
+          "useCaseCount": 6,
+          "howToSteps": 5,
+          "issues": [
+            "WARN: faq: 1 answer(s) with < 50 words"
+          ]
+        },
+        "seoEnrichment": {
+          "snippetWords": 60,
+          "compRows": 6,
+          "testimonialCount": 2,
+          "researchItems": 2,
+          "researchWithSource": 2,
+          "issues": []
+        },
+        "internalLinking": {
+          "relatedCount": 6,
+          "brokenSlugs": [],
+          "hasSelfRef": false,
+          "issues": []
+        }
+      },
+      "summary": {
+        "fails": 0,
+        "warns": 1,
+        "passes": 16
+      }
+    },
+    {
+      "file": "subtraction-worksheets",
+      "dimensions": {
+        "seoMetadata": {
+          "titleLen": 51,
+          "descLen": 159,
+          "keywordCount": 12,
+          "canonicalOk": true,
+          "issues": []
+        },
+        "contentDepth": {
+          "heroWords": 307,
+          "featureCount": 10,
+          "shortFeatures": 0,
+          "faqCount": 14,
+          "shortFaqs": 0,
+          "tipsCount": 5,
+          "useCaseCount": 6,
+          "howToSteps": 5,
+          "issues": []
+        },
+        "seoEnrichment": {
+          "snippetWords": 49,
+          "compRows": 6,
+          "testimonialCount": 2,
+          "researchItems": 2,
+          "researchWithSource": 2,
+          "issues": []
+        },
+        "internalLinking": {
+          "relatedCount": 6,
+          "brokenSlugs": [],
+          "hasSelfRef": false,
+          "issues": []
+        }
+      },
+      "summary": {
+        "fails": 0,
+        "warns": 0,
+        "passes": 16
+      }
+    },
+    {
+      "file": "sudoku-worksheets",
+      "dimensions": {
+        "seoMetadata": {
+          "titleLen": 59,
+          "descLen": 158,
+          "keywordCount": 12,
+          "canonicalOk": true,
+          "issues": []
+        },
+        "contentDepth": {
+          "heroWords": 374,
+          "featureCount": 10,
+          "shortFeatures": 0,
+          "faqCount": 20,
+          "shortFaqs": 5,
+          "tipsCount": 5,
+          "useCaseCount": 6,
+          "howToSteps": 5,
+          "issues": [
+            "WARN: faq: 5 answer(s) with < 50 words"
+          ]
+        },
+        "seoEnrichment": {
+          "snippetWords": 61,
+          "compRows": 6,
+          "testimonialCount": 2,
+          "researchItems": 2,
+          "researchWithSource": 2,
+          "issues": []
+        },
+        "internalLinking": {
+          "relatedCount": 6,
+          "brokenSlugs": [],
+          "hasSelfRef": false,
+          "issues": []
+        }
+      },
+      "summary": {
+        "fails": 0,
+        "warns": 1,
+        "passes": 16
+      }
+    },
+    {
+      "file": "treasure-hunt-worksheets",
+      "dimensions": {
+        "seoMetadata": {
+          "titleLen": 53,
+          "descLen": 156,
+          "keywordCount": 10,
+          "canonicalOk": true,
+          "issues": []
+        },
+        "contentDepth": {
+          "heroWords": 224,
+          "featureCount": 10,
+          "shortFeatures": 0,
+          "faqCount": 20,
+          "shortFaqs": 20,
+          "tipsCount": 5,
+          "useCaseCount": 6,
+          "howToSteps": 5,
+          "issues": [
+            "WARN: faq: 20 answer(s) with < 50 words"
+          ]
+        },
+        "seoEnrichment": {
+          "snippetWords": 50,
+          "compRows": 6,
+          "testimonialCount": 2,
+          "researchItems": 2,
+          "researchWithSource": 2,
+          "issues": []
+        },
+        "internalLinking": {
+          "relatedCount": 6,
+          "brokenSlugs": [],
+          "hasSelfRef": false,
+          "issues": []
+        }
+      },
+      "summary": {
+        "fails": 0,
+        "warns": 1,
+        "passes": 16
+      }
+    },
+    {
+      "file": "word-guess-worksheets",
+      "dimensions": {
+        "seoMetadata": {
+          "titleLen": 56,
+          "descLen": 159,
+          "keywordCount": 12,
+          "canonicalOk": true,
+          "issues": []
+        },
+        "contentDepth": {
+          "heroWords": 252,
+          "featureCount": 10,
+          "shortFeatures": 0,
+          "faqCount": 20,
+          "shortFaqs": 0,
+          "tipsCount": 5,
+          "useCaseCount": 6,
+          "howToSteps": 5,
+          "issues": []
+        },
+        "seoEnrichment": {
+          "snippetWords": 52,
+          "compRows": 6,
+          "testimonialCount": 2,
+          "researchItems": 2,
+          "researchWithSource": 2,
+          "issues": []
+        },
+        "internalLinking": {
+          "relatedCount": 6,
+          "brokenSlugs": [],
+          "hasSelfRef": false,
+          "issues": []
+        }
+      },
+      "summary": {
+        "fails": 0,
+        "warns": 0,
+        "passes": 16
+      }
+    },
+    {
+      "file": "word-scramble-worksheets",
+      "dimensions": {
+        "seoMetadata": {
+          "titleLen": 52,
+          "descLen": 160,
+          "keywordCount": 12,
+          "canonicalOk": true,
+          "issues": []
+        },
+        "contentDepth": {
+          "heroWords": 292,
+          "featureCount": 10,
+          "shortFeatures": 0,
+          "faqCount": 20,
+          "shortFaqs": 2,
+          "tipsCount": 5,
+          "useCaseCount": 6,
+          "howToSteps": 5,
+          "issues": [
+            "WARN: faq: 2 answer(s) with < 50 words"
+          ]
+        },
+        "seoEnrichment": {
+          "snippetWords": 55,
+          "compRows": 6,
+          "testimonialCount": 2,
+          "researchItems": 2,
+          "researchWithSource": 2,
+          "issues": []
+        },
+        "internalLinking": {
+          "relatedCount": 6,
+          "brokenSlugs": [],
+          "hasSelfRef": false,
+          "issues": []
+        }
+      },
+      "summary": {
+        "fails": 0,
+        "warns": 1,
+        "passes": 16
+      }
+    },
+    {
+      "file": "word-search-worksheets",
+      "dimensions": {
+        "seoMetadata": {
+          "titleLen": 57,
+          "descLen": 150,
+          "keywordCount": 12,
+          "canonicalOk": true,
+          "issues": []
+        },
+        "contentDepth": {
+          "heroWords": 232,
+          "featureCount": 10,
+          "shortFeatures": 0,
+          "faqCount": 20,
+          "shortFaqs": 0,
+          "tipsCount": 5,
+          "useCaseCount": 6,
+          "howToSteps": 5,
+          "issues": []
+        },
+        "seoEnrichment": {
+          "snippetWords": 46,
+          "compRows": 6,
+          "testimonialCount": 2,
+          "researchItems": 2,
+          "researchWithSource": 2,
+          "issues": []
+        },
+        "internalLinking": {
+          "relatedCount": 6,
+          "brokenSlugs": [],
+          "hasSelfRef": false,
+          "issues": []
+        }
+      },
+      "summary": {
+        "fails": 0,
+        "warns": 0,
+        "passes": 16
+      }
+    },
+    {
+      "file": "writing-worksheets",
+      "dimensions": {
+        "seoMetadata": {
+          "titleLen": 54,
+          "descLen": 158,
+          "keywordCount": 12,
+          "canonicalOk": true,
+          "issues": []
+        },
+        "contentDepth": {
+          "heroWords": 222,
+          "featureCount": 10,
+          "shortFeatures": 0,
+          "faqCount": 20,
+          "shortFaqs": 1,
+          "tipsCount": 5,
+          "useCaseCount": 6,
+          "howToSteps": 5,
+          "issues": [
+            "WARN: faq: 1 answer(s) with < 50 words"
+          ]
+        },
+        "seoEnrichment": {
+          "snippetWords": 57,
+          "compRows": 6,
+          "testimonialCount": 2,
+          "researchItems": 2,
+          "researchWithSource": 2,
+          "issues": []
+        },
+        "internalLinking": {
+          "relatedCount": 6,
+          "brokenSlugs": [],
+          "hasSelfRef": false,
+          "issues": []
+        }
+      },
+      "summary": {
+        "fails": 0,
+        "warns": 1,
+        "passes": 16
+      }
+    }
+  ]
+}

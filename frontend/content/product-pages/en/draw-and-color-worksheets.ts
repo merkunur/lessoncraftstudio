@@ -83,7 +83,7 @@ Every worksheet downloads as a professional 300 DPI PDF file. Print at home on s
       {
         id: '2',
         icon: '🔧',
-        title: 'Adjustable Grid Sizes',
+        title: 'Adjustable Grid Sizes for Drawing Complexity',
         description: 'Choose from 3x3 to 10x10 grid dimensions to control difficulty precisely. Small grids with large cells suit kindergarteners developing spatial awareness. Large grids with fine cells challenge advanced students refining observation and motor control.',
       },
       {
@@ -101,19 +101,19 @@ Every worksheet downloads as a professional 300 DPI PDF file. Print at home on s
       {
         id: '5',
         icon: '🖱️',
-        title: 'Full Canvas Editing Tools',
-        description: 'Drag, resize, and reposition grids, text, and decorative elements anywhere on the canvas. Add custom titles, instructions, and borders. Layer objects and adjust opacity for professional-looking worksheets.',
+        title: 'Canvas Editor for Grid Drawing Layouts',
+        description: 'Drag, resize, and reposition grids, text, and decorative elements anywhere on the canvas. Add custom titles, instructions, and borders. Layer objects and adjust opacity for professional-looking grid drawing worksheets. Align elements to edges or center with one click.',
       },
       {
         id: '6',
         icon: '🎨',
-        title: 'Completed Reference Keys',
-        description: 'Auto-generate fully completed reference images so teachers can verify student accuracy and display finished examples. Reference keys support self-assessment and peer comparison activities.',
+        title: 'Completed Grid Drawing Reference Keys',
+        description: 'Auto-generate fully completed reference images so teachers can verify student accuracy and display finished examples. Reference keys support self-assessment and peer comparison activities. Print completed grid drawings alongside blank grids for visual comparison during independent work.',
       },
       {
         id: '7',
         icon: '💼',
-        title: 'Commercial License Included',
+        title: 'Commercial License for Selling Grid Drawing Packs',
         description: 'Sell grid drawing worksheets on Teachers Pay Teachers, Etsy, or Amazon KDP with the commercial license included in your subscription. Grid art worksheets occupy a unique niche combining art instruction with spatial reasoning.',
       },
     

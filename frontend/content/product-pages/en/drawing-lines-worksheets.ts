@@ -94,7 +94,7 @@ The generator includes 8 different templates with various line patterns and orie
         id: '4',
         icon: '📚',
         title: '3000+ Themed Endpoint Images',
-        description: 'Browse over 3000 child-friendly images organized by theme for connection endpoints. Auto-fill instantly assigns themed image pairs, or manually select specific images matching your current vocabulary or curriculum unit.',
+        description: 'Browse over 3000 child-friendly images organized by theme for connection endpoints. Auto-fill instantly assigns themed image pairs, or manually select specific images matching your current vocabulary or curriculum unit. Supports all 11 languages.',
       },
       {
         id: '5',
@@ -105,13 +105,13 @@ The generator includes 8 different templates with various line patterns and orie
       {
         id: '6',
         icon: '🎨',
-        title: 'Completed Reference Keys',
-        description: 'Auto-generate answer keys showing correct connections between all matched pairs. Teachers verify student work quickly, and students self-check their line paths against the reference for independent learning center use.',
+        title: 'Completed Line Connection Reference Keys',
+        description: 'Auto-generate answer keys showing correct connections between all matched pairs. Teachers verify student work quickly, and students self-check their line paths against the reference for independent learning center use. Print answer keys on separate pages for self-correction stations.',
       },
       {
         id: '7',
         icon: '💼',
-        title: 'Commercial License Included',
+        title: 'Commercial License for Selling Line Tracing Packs',
         description: 'Sell line tracing worksheets on Teachers Pay Teachers, Etsy, or Amazon KDP with the commercial license included in your subscription. Fine motor worksheets are consistently among the best-selling preschool and kindergarten resources.',
       },
     

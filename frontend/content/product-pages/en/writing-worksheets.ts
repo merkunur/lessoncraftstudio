@@ -110,14 +110,14 @@ The handwriting worksheet generator creates professional letter tracing and writ
       {
         id: '6',
         icon: '🎨',
-        title: 'Full Canvas Editing Tools',
+        title: 'Canvas Editor for Handwriting Page Design',
         description: 'Drag, resize, and reposition any writing row on the canvas. Add custom text blocks for titles and instructions. Place images alongside writing rows for illustrated tracing practice. Use alignment tools for professional layouts. Lock finished elements to prevent accidental changes. Complete design control without any graphic design experience.',
         highlighted: false,
       },
       {
         id: '7',
         icon: '💰',
-        title: 'Commercial License Included',
+        title: 'Commercial License for Selling Writing Practice Packs',
         description: 'Your subscription includes commercial licensing for selling handwriting practice worksheets on Teachers Pay Teachers, Etsy, Amazon KDP, or your own website. Handwriting worksheets are among the highest-demand products on educational marketplaces. Create alphabet tracing bundles, cursive practice packets, or themed writing sets with no attribution or extra fees.',
         highlighted: true,
       },

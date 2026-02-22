@@ -99,19 +99,19 @@ Picture cryptogram worksheets challenge students to decode secret messages by re
       {
         id: '5',
         icon: '✅',
-        title: 'Auto-Generated Answer Keys',
+        title: 'Auto-Generated Cryptogram Decoder Keys',
         description: 'Every cryptogram worksheet produces a matching answer key showing the fully decoded message. Teachers verify puzzle accuracy instantly and students can self-check their work. Print answer keys separately for teacher use or student self-correction stations.',
       },
       {
         id: '6',
         icon: '✏️',
-        title: 'Full Canvas Editing Tools',
+        title: 'Canvas Editor for Cryptogram Layout Design',
         description: 'Click any element on the canvas to move, resize, rotate, or delete it. Add custom text, change fonts and colors, upload background images, and apply decorative borders. Create polished worksheet layouts that match your classroom theme or branding.',
       },
       {
         id: '7',
         icon: '💼',
-        title: 'Commercial License Included',
+        title: 'Commercial License for Selling Cryptogram Packs',
         description: 'Your subscription includes full commercial rights to sell cryptogram worksheets on Teachers Pay Teachers, Etsy, Amazon KDP, or your own website. No attribution required and no extra licensing fees. Build spy-themed and code-breaking puzzle bundles for profit.',
       },
     

@@ -77,7 +77,7 @@ Word search worksheets hide vocabulary words within letter grids for students to
       {
         id: '2',
         icon: '📐',
-        title: 'Adjustable Grid Sizes',
+        title: 'Adjustable Grid Sizes for Word Puzzle Difficulty',
         description: 'Choose grid dimensions from 5x5 for kindergarten learners up to 30x30 for advanced students. Set rows and columns independently to create rectangular grids. Smaller grids keep puzzles manageable for beginning readers while larger grids challenge older students.',
       },
       {
@@ -95,19 +95,19 @@ Word search worksheets hide vocabulary words within letter grids for students to
       {
         id: '5',
         icon: '✅',
-        title: 'Auto-Generated Answer Keys',
+        title: 'Auto-Generated Word Search Solution Grids',
         description: 'Every word search puzzle produces a color-coded answer key automatically. Each hidden word highlights in a unique color showing exact position and direction. Teachers verify puzzle quality and grade student work in seconds.',
       },
       {
         id: '6',
         icon: '🎨',
-        title: 'Full Canvas Editing Tools',
+        title: 'Canvas Editor for Word Grid Customization',
         description: 'Click any element to edit it directly on the canvas. Move, resize, rotate, or delete puzzle components. Add custom text, change fonts and colors, upload background images, and apply decorative borders. Create unique layouts that match your classroom aesthetic.',
       },
       {
         id: '7',
         icon: '💼',
-        title: 'Commercial License Included',
+        title: 'Commercial License for Selling Word Search Packs',
         description: 'Your subscription includes full commercial rights to sell word search worksheets on Teachers Pay Teachers, Etsy, Amazon KDP, or your own website. No attribution required and no extra licensing fees. Build a profitable puzzle bundle business.',
       },
     

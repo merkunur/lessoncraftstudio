@@ -126,7 +126,7 @@ The find objects generator creates scenes where target items blend naturally amo
       {
         id: '8',
         icon: '🌍',
-        title: 'Eleven Language Support for International Classroom Use',
+        title: 'Eleven Languages for Find-the-Object Activities',
         description: 'Generate hidden object worksheets in English, Spanish, French, German, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian, or Finnish. All instructions, target labels, and prompts translate automatically. Perfect for bilingual classrooms and ESL programs where students build visual vocabulary alongside visual discrimination skills in their native language.',
         highlighted: false,
       },

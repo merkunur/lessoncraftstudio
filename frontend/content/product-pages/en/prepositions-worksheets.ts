@@ -101,19 +101,19 @@ Prepositions worksheets help students master spatial vocabulary by identifying w
       {
         id: '5',
         icon: '🎨',
-        title: '3000+ Themed Images',
+        title: '3000+ Images for Preposition Scene Building',
         description: 'Browse a library of over 3000 child-friendly images organized by educational themes. Choose animals, vehicles, food, toys, or nature images to create spatial scenes that connect to your current curriculum unit or student interests.',
       },
       {
         id: '6',
         icon: '✅',
-        title: 'Auto-Generated Answer Keys',
+        title: 'Auto-Generated Preposition Activity Solutions',
         description: 'Every worksheet produces a matching answer key showing the correct preposition for each exercise. Teachers use answer keys for quick grading during center rotations or provide them to students for immediate self-checking and independent feedback.',
       },
       {
         id: '7',
         icon: '💼',
-        title: 'Commercial License Included',
+        title: 'Commercial License for Selling Preposition Packs',
         description: 'Your subscription includes full commercial rights to sell prepositions worksheets on Teachers Pay Teachers, Etsy, or your own website. No attribution required and no extra licensing fees. Create grammar and spatial vocabulary bundles for supplemental income.',
       },
     

@@ -80,8 +80,8 @@ Every element on your coloring page is fully editable. Drag images anywhere on t
       {
         id: '2',
         icon: '📚',
-        title: '3000+ Themed Images',
-        description: 'Browse over 3000 child-friendly images organized by educational category including animals, food, vehicles, holidays, and nature. Every image is curated for age-appropriate coloring activities from preschool through second grade.',
+        title: '3000+ Images for Coloring Outline Generation',
+        description: 'Browse over 3000 child-friendly images organized by educational category including animals, food, vehicles, holidays, and nature. Every image is curated for age-appropriate coloring activities from preschool through second grade. Filter by theme for quick lesson planning.',
       },
       {
         id: '3',
@@ -92,7 +92,7 @@ Every element on your coloring page is fully editable. Drag images anywhere on t
       {
         id: '4',
         icon: '🖱️',
-        title: 'Full Canvas Editing',
+        title: 'Full Canvas Editing for Coloring Page Layouts',
         description: 'Drag, resize, rotate, and layer every element on the canvas. Position multiple images, arrange text labels, and align objects to edges or center. The intuitive editing tools require no design experience.',
       },
       {
@@ -105,13 +105,13 @@ Every element on your coloring page is fully editable. Drag images anywhere on t
         id: '6',
         icon: '🎨',
         title: 'Colored Reference Keys',
-        description: 'Auto-generate completed colored reference images so teachers can verify student work and display finished examples. Reference keys help students understand expected outcomes before they begin coloring.',
+        description: 'Auto-generate completed colored reference images so teachers can verify student work and display finished examples. Reference keys help students understand expected outcomes before they begin coloring. Print reference keys on separate pages for self-checking learning stations.',
       },
       {
         id: '7',
         icon: '💼',
-        title: 'Commercial License Included',
-        description: 'Sell coloring worksheets on Teachers Pay Teachers, Etsy, or Amazon KDP with the commercial license included in your subscription. No attribution fees or additional licensing costs required.',
+        title: 'Commercial License for Selling Coloring Page Packs',
+        description: 'Sell coloring worksheets on Teachers Pay Teachers, Etsy, or Amazon KDP with the commercial license included in your subscription. No attribution fees or additional licensing costs required. Create unlimited commercial coloring page bundles for passive income.',
       },
     
       {

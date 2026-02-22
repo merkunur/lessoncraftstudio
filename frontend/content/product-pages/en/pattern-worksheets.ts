@@ -105,7 +105,7 @@ Pattern recognition worksheets present sequences of images with missing elements
       {
         id: '5',
         icon: '🎨',
-        title: 'Full Canvas Editing Tools for Professional Worksheet Design',
+        title: 'Canvas Editing Tools for Pattern Worksheet Design',
         description: 'Click any element on the canvas to select, drag, resize, or rotate it to your specifications. Add custom titles, instructions, student names, and date fields using professional text tools. Choose from themed backgrounds and decorative borders to create polished worksheets. Adjust image sizes for kindergarten students needing larger visual elements. Lock completed sections while editing other areas for efficient workflow.',
         highlighted: false,
       },
@@ -119,7 +119,7 @@ Pattern recognition worksheets present sequences of images with missing elements
       {
         id: '7',
         icon: '💼',
-        title: 'Commercial License Included for Marketplace Sales',
+        title: 'Commercial License for Selling Pattern Activity Packs',
         description: 'Your subscription includes commercial licensing for selling pattern worksheets on Teachers Pay Teachers, Etsy, Amazon KDP, or your own website. Create themed pattern bundles, progressive difficulty packs, or seasonal activity sets for maximum sales appeal. Pattern recognition worksheets are consistently popular in the kindergarten and first grade educational marketplace. No attribution or extra licensing fees required.',
         highlighted: false,
       },

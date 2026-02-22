@@ -103,7 +103,7 @@ Grid match puzzles present students with a reference grid and require them to re
       {
         id: '5',
         icon: '🎨',
-        title: 'Full Canvas Editing Tools for Professional Worksheet Design',
+        title: 'Canvas Editing Tools for Grid Match Worksheet Design',
         description: 'Click any element on the canvas to select, drag, resize, or rotate it. Add custom titles, student names, instructions, and date fields using professional text tools. Choose from themed backgrounds and decorative borders to create polished worksheets. Lock completed elements while editing other sections. The full editing suite gives you designer-level control for creating materials that match your classroom style perfectly.',
         highlighted: false,
       },

@@ -95,25 +95,25 @@ Every worksheet downloads as a 300 DPI professional-quality PDF or JPEG file. In
       {
         id: '4',
         icon: '📚',
-        title: '3000+ Themed Images',
+        title: '3000+ Images for Word Scramble Illustrations',
         description: 'Browse a library of over 3000 child-friendly images organized by educational themes including animals, food, vehicles, nature, and dozens more. Each theme provides ready-made vocabulary sets perfectly suited for spelling practice activities.',
       },
       {
         id: '5',
         icon: '✅',
-        title: 'Auto Answer Keys',
+        title: 'Auto-Generated Word Scramble Answer Keys',
         description: 'Every word scramble worksheet generates a complete answer key showing correctly spelled words alongside their scrambled versions. Teachers use answer keys for efficient grading and students self-check at independent literacy stations.',
       },
       {
         id: '6',
         icon: '✏️',
-        title: 'Full Canvas Editing',
+        title: 'Full Canvas Editing for Scramble Puzzle Design',
         description: 'Edit every element directly on the canvas after generation. Move, resize, rotate, or delete individual puzzles. Add custom text, change fonts and colors, apply background themes and decorative borders for polished classroom-ready worksheets.',
       },
       {
         id: '7',
         icon: '💼',
-        title: 'Commercial License Included',
+        title: 'Commercial License for Selling Word Scramble Packs',
         description: 'Your subscription includes full commercial rights to sell word scramble worksheets on Teachers Pay Teachers, Etsy, Amazon KDP, or your own website. Create themed vocabulary bundles and spelling packs with no attribution or per-download fees.',
       },
     

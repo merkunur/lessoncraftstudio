@@ -124,7 +124,7 @@ Full Access subscription costs $240 annually or $25 monthly. This includes all 3
       {
         id: '8',
         icon: '🌍',
-        title: 'Eleven Language Support for International Classroom Use',
+        title: 'Eleven Languages for Shadow Matching Activities',
         description: 'Generate shadow match worksheets in English, Spanish, French, German, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian, or Finnish. All instructions, labels, and activity prompts translate automatically. Perfect for multilingual environments where students build spatial vocabulary and shape recognition skills with directions in their primary language.',
         highlighted: false,
       },

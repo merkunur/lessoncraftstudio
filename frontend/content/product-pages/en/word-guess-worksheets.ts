@@ -95,25 +95,25 @@ Generate 1-10 puzzles per page with automatic layout optimization. Add name and 
       {
         id: '4',
         icon: '📚',
-        title: '3000+ Themed Images',
+        title: '3000+ Images for Word Guess Visual Clues',
         description: 'Browse a library of over 3000 child-friendly images organized by educational themes. Picture clues provide visual context for word identification so pre-readers and ESL students participate fully. Upload your own images for curriculum-specific vocabulary.',
       },
       {
         id: '5',
         icon: '✅',
-        title: 'Auto Answer Keys',
+        title: 'Auto-Generated Word Guess Answer Keys',
         description: 'Every word guess worksheet generates a complete answer key showing all letters filled in correctly. Teachers use answer keys for efficient grading. Students self-check at independent stations. Print answer keys on separate pages for flexible distribution.',
       },
       {
         id: '6',
         icon: '🎨',
-        title: 'Full Canvas Editing',
+        title: 'Full Canvas Editing for Word Guess Card Design',
         description: 'Edit every element on the canvas after generation. Move, resize, rotate, or delete individual puzzles. Add custom text, instructions, and decorative elements. Apply background themes and borders for polished, professional-looking spelling worksheets.',
       },
       {
         id: '7',
         icon: '💼',
-        title: 'Commercial License Included',
+        title: 'Commercial License for Selling Word Guess Packs',
         description: 'Your subscription includes full commercial rights to sell word guess worksheets on Teachers Pay Teachers, Etsy, Amazon KDP, or your own website. Create themed spelling puzzle packs with no attribution or per-download fees required.',
       },
     

@@ -121,7 +121,7 @@ This sudoku worksheet generator is perfect for kindergarten teachers, first grad
       {
         id: '7',
         icon: '💼',
-        title: 'Commercial License Included for Marketplace Sales',
+        title: 'Commercial License for Selling Sudoku Puzzle Packs',
         description: 'Your subscription includes commercial licensing for selling custom sudoku worksheets on Teachers Pay Teachers, Etsy, Amazon KDP, or your own website. Create themed logic puzzle bundles and difficulty-leveled packs for maximum sales appeal. No attribution or extra licensing fees required. Picture sudoku puzzles for young children fill a niche marketplace with high demand and limited competition.',
         highlighted: false,
       },

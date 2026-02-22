@@ -1,0 +1,243 @@
+{
+  "timestamp": "2026-02-22T10:25:50.025Z",
+  "mode": "full",
+  "pageTypes": {
+    "homepage": {
+      "count": 1,
+      "pass": 1,
+      "fail": 0,
+      "avgTtfb": 235,
+      "maxTtfb": 235,
+      "avgSizeKB": 74,
+      "maxSizeKB": 74,
+      "errors": []
+    },
+    "about": {
+      "count": 1,
+      "pass": 1,
+      "fail": 0,
+      "avgTtfb": 45,
+      "maxTtfb": 45,
+      "avgSizeKB": 27,
+      "maxSizeKB": 27,
+      "errors": []
+    },
+    "product": {
+      "count": 20,
+      "pass": 20,
+      "fail": 0,
+      "avgTtfb": 183,
+      "maxTtfb": 462,
+      "avgSizeKB": 105,
+      "maxSizeKB": 142,
+      "errors": []
+    },
+    "theme-hub": {
+      "count": 25,
+      "pass": 25,
+      "fail": 0,
+      "avgTtfb": 174,
+      "maxTtfb": 278,
+      "avgSizeKB": 105,
+      "maxSizeKB": 112,
+      "errors": []
+    },
+    "theme-grade": {
+      "count": 40,
+      "pass": 40,
+      "fail": 0,
+      "avgTtfb": 160,
+      "maxTtfb": 284,
+      "avgSizeKB": 72,
+      "maxSizeKB": 79,
+      "errors": []
+    },
+    "grade-hub": {
+      "count": 5,
+      "pass": 5,
+      "fail": 0,
+      "avgTtfb": 51,
+      "maxTtfb": 76,
+      "avgSizeKB": 29,
+      "maxSizeKB": 29,
+      "errors": []
+    },
+    "category-hub": {
+      "count": 8,
+      "pass": 8,
+      "fail": 0,
+      "avgTtfb": 49,
+      "maxTtfb": 63,
+      "avgSizeKB": 28,
+      "maxSizeKB": 28,
+      "errors": []
+    }
+  },
+  "cwv": {
+    "/en/apps/addition-worksheets": {
+      "type": "product",
+      "error": "Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'pagespeedonline.googleapis.com' for consumer 'project_number:583797351490'."
+    },
+    "/en/worksheets/animals": {
+      "type": "theme-hub",
+      "error": "Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'pagespeedonline.googleapis.com' for consumer 'project_number:583797351490'."
+    },
+    "/en/worksheets/animals/kindergarten": {
+      "type": "theme-grade",
+      "error": "Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'pagespeedonline.googleapis.com' for consumer 'project_number:583797351490'."
+    },
+    "/en/apps/grades/kindergarten": {
+      "type": "grade-hub",
+      "error": "Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'pagespeedonline.googleapis.com' for consumer 'project_number:583797351490'."
+    },
+    "/en/apps/category/math": {
+      "type": "category-hub",
+      "error": "Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'pagespeedonline.googleapis.com' for consumer 'project_number:583797351490'."
+    }
+  },
+  "summary": {
+    "staticChecks": {
+      "pass": 21,
+      "warn": 5,
+      "fail": 0
+    },
+    "totalChecks": 26
+  },
+  "liveAudit": {
+    "totalUrls": 100,
+    "totalPass": 100,
+    "totalFail": 0
+  },
+  "allChecks": [
+    {
+      "level": "PASS",
+      "msg": "Theme hub hero: fetchPriority present",
+      "detail": ""
+    },
+    {
+      "level": "PASS",
+      "msg": "Theme hub hero: decoding=\"async\" present",
+      "detail": ""
+    },
+    {
+      "level": "PASS",
+      "msg": "Theme hub hero: loading=\"eager\" (above-fold)",
+      "detail": ""
+    },
+    {
+      "level": "PASS",
+      "msg": "Theme hub hero: explicit width/height (prevents CLS)",
+      "detail": ""
+    },
+    {
+      "level": "PASS",
+      "msg": "Grade page hero: fetchPriority present",
+      "detail": ""
+    },
+    {
+      "level": "PASS",
+      "msg": "Grade page hero: decoding=\"async\" present",
+      "detail": ""
+    },
+    {
+      "level": "PASS",
+      "msg": "ThemeSamplePreviews: loading=\"lazy\" (below-fold)",
+      "detail": ""
+    },
+    {
+      "level": "PASS",
+      "msg": "ThemeSamplePreviews: decoding=\"async\" present",
+      "detail": ""
+    },
+    {
+      "level": "PASS",
+      "msg": "ThemeSamplePreviews: explicit width/height (prevents CLS)",
+      "detail": ""
+    },
+    {
+      "level": "PASS",
+      "msg": "Theme-page client components: 1/17",
+      "detail": "ThemeLearningObjectives.tsx"
+    },
+    {
+      "level": "PASS",
+      "msg": "Theme hub: contentVisibility found on below-fold sections",
+      "detail": ""
+    },
+    {
+      "level": "PASS",
+      "msg": "Theme hub: containIntrinsicSize found (prevents layout shift)",
+      "detail": ""
+    },
+    {
+      "level": "PASS",
+      "msg": "Grade page: contentVisibility found on below-fold sections",
+      "detail": ""
+    },
+    {
+      "level": "PASS",
+      "msg": "Grade page: containIntrinsicSize found (prevents layout shift)",
+      "detail": ""
+    },
+    {
+      "level": "PASS",
+      "msg": "Font display: swap configured",
+      "detail": ""
+    },
+    {
+      "level": "PASS",
+      "msg": "Font preload: true configured",
+      "detail": ""
+    },
+    {
+      "level": "PASS",
+      "msg": "Using next/font (self-hosted, no external requests)",
+      "detail": ""
+    },
+    {
+      "level": "PASS",
+      "msg": "Image formats: WebP + AVIF configured",
+      "detail": ""
+    },
+    {
+      "level": "PASS",
+      "msg": "trailingSlash: false (no duplicate URLs)",
+      "detail": ""
+    },
+    {
+      "level": "PASS",
+      "msg": "Standalone output mode (optimized bundle)",
+      "detail": ""
+    },
+    {
+      "level": "PASS",
+      "msg": "X-DNS-Prefetch-Control header configured",
+      "detail": ""
+    },
+    {
+      "level": "WARN",
+      "msg": "PSI /en/apps/addition-worksheets: API error",
+      "detail": "Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'pagespeedonline.googleapis.com' for consumer 'project_number:583797351490'."
+    },
+    {
+      "level": "WARN",
+      "msg": "PSI /en/worksheets/animals: API error",
+      "detail": "Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'pagespeedonline.googleapis.com' for consumer 'project_number:583797351490'."
+    },
+    {
+      "level": "WARN",
+      "msg": "PSI /en/worksheets/animals/kindergarten: API error",
+      "detail": "Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'pagespeedonline.googleapis.com' for consumer 'project_number:583797351490'."
+    },
+    {
+      "level": "WARN",
+      "msg": "PSI /en/apps/grades/kindergarten: API error",
+      "detail": "Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'pagespeedonline.googleapis.com' for consumer 'project_number:583797351490'."
+    },
+    {
+      "level": "WARN",
+      "msg": "PSI /en/apps/category/math: API error",
+      "detail": "Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'pagespeedonline.googleapis.com' for consumer 'project_number:583797351490'."
+    }
+  ]
+}

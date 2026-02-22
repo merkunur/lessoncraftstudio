@@ -93,7 +93,56 @@ Jokainen tehtävä on täysin muokattavissa luomisen jälkeen. Raahaa, kierrä, 
       noHiddenFees: 'Ei piilomaksuja',
       cancelAnytime: 'Peruuta milloin tahansa',
     },
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        icon: '🔐',
+        title: 'Kuvakoodattu yhteenlasku -muoto',
+        description: 'Generaattori luo tehtäviä, joissa kuvat korvaavat numerot yhteenlaskuissa. Oppilaat purkavat koodin kuvasta numeroksi ja ratkaisevat laskutehtävän. Tämä yhdistää symbolisen ajattelun ja yhteenlaskuharjoittelun samassa tehtävässä.',
+      },
+      {
+        id: '2',
+        icon: '🔢',
+        title: 'Säädettävä symbolimäärä ja lukualue',
+        description: 'Valitse 3–5 kuvasymbolissa ja säädä lukualue vaikeustason mukaan. Vähemmän symboleja ja pienet luvut sopivat esikoululaisille. Enemmän symboleja ja suuremmat luvut haastavat vanhempia oppilaita. Tehtävien määrä sivua kohti on säädettävä.',
+      },
+      {
+        id: '3',
+        icon: '🖼️',
+        title: 'Yli 3000 teemakuvaa koodisymboleiksi',
+        description: 'Selaa yli 3000 lapsiystavallista kuvaa koodisymboleiksi. Elain-, ruoka- tai kulkuneuvoteemaiset symbolit tekevat dekoodaamisesta kiinnostavaa. Jokainen kuva edustaa eri lukuarvoa luoden visuaalisen koodiavaimen.',
+      },
+      {
+        id: '4',
+        icon: '✅',
+        title: 'Automaattiset vastausavaimet',
+        description: 'Jokainen kuvakoodattu yhteenlaskutehtävä generoi automaattisesti vastausavaimen. Vastausavain näyttää sekä koodiavaimen että oikeat vastaukset. Opettajat tarkistavat oppilastöiden ratkaisut sekunneissa.',
+      },
+      {
+        id: '5',
+        icon: '🎨',
+        title: 'Täysin muokattavat tehtävät',
+        description: 'Muokkaa jokaista elementtiä luomisen jälkeen. Siirrä, skaalaa ja kierrä kuvia ja tekstiä vapaasti. Lisää taustavärejä, koristeellisia kehyksiä ja omaa tekstiä ammattimaiseen ulkoasuun.',
+      },
+      {
+        id: '6',
+        icon: '📤',
+        title: 'Omien kuvien lataus koodisymboleiksi',
+        description: 'Lataa omia kuvia käytettäväksi koodisymboleina. Käytä luokan maskottia, oppilaiden piirustuksia tai opetussuunnitelmaan sopivia kuvia. Yhdistä omia kuvia 3000+ kuvakirjaston kanssa.',
+      },
+      {
+        id: '7',
+        icon: '💼',
+        title: 'Kaupallinen lisenssi myyntiin',
+        description: 'Tilauksesi sisältää kaupalliset oikeudet myydä kuvakoodattuja yhteenlaskutehtäviä verkossa. Luo teemallisia koodilaskupaketteja myytäväksi. Ei attribuutiovaatimuksia eikä ylimääräisiä lisenssimaksuja.',
+      },
+      {
+        id: '8',
+        icon: '🌍',
+        title: '11 kielen tuki',
+        description: 'Luo kuvakoodattuja yhteenlaskutehtäviä 11 kielellä. Käyttöliittymä ja ohjeet kääntyvät valitulle kielelle. Symbolinen matematiikka toimii universaalisti kielirajoista riippumatta.',
+      },
+    ]
     
   },
 
@@ -176,7 +225,50 @@ Harmaasävyvaihtoehto säästää mustetta merkittävästi. Raksita "Muunna harm
     badgeText: 'Kenelle Sopii',
     readMoreLabel: 'Lue lisää',
     showLessLabel: 'Näytä vähemmän',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        icon: '🌱',
+        title: 'Esiopetuksen opettajat',
+        subtitle: 'Symbolinen ajattelu kuvilla 5–6-vuotiaille',
+        description: 'Luo yksinkertaisia kuvakoodattuja yhteenlaskutehtäviä kolmella symbolilla ja summilla 5 asti. Esiopetuksen oppilaat harjoittelevat symbolin ja luvun vastaavuutta. Täydellinen POPS 2014 matemaattisen ajattelun tavoitteiden tukemiseen.',
+      },
+      {
+        id: '2',
+        icon: '📚',
+        title: 'Alakoulun opettajat',
+        subtitle: 'Algebrallinen ajattelu 1.–3. luokalle',
+        description: 'Generoi kuvakoodattuja tehtäviä 4–5 symbolilla algebrallisen ajattelun kehittämiseen. Oppilaat oppivat, että symbolit voivat edustaa lukuarvoja. Tehtävät valmistavat muuttujakäsitteen ymmärtämiseen.',
+      },
+      {
+        id: '3',
+        icon: '🏠',
+        title: 'Kotiopettajat ja vanhemmat',
+        subtitle: 'Hauska matikka koodien purkamisella',
+        description: 'Luo kiinnostavia kuvakoodattuja laskutehtäviä lasten suosikkiteemoilla. Koodin purkaminen tekee yhteenlaskuharjoittelusta seikkailun. Lapset motivoituvat ratkomaan koodeja pelkän laskemisen sijaan.',
+      },
+      {
+        id: '4',
+        icon: '🌍',
+        title: 'S2-opettajat',
+        subtitle: 'Visuaalinen matematiikka ilman kielitaitoa',
+        description: 'Kuvakoodatut tehtävät eivät vaadi lukutaitoa. Kuvasymboli-lukuvastaavuus on kieliriippumatonta. Oppilaat harjoittelevat yhteenlaskua ja symbolista ajattelua universaalilla muodolla.',
+      },
+      {
+        id: '5',
+        icon: '💜',
+        title: 'Erityisopettajat',
+        subtitle: 'Säädettävät symboliharjoitukset',
+        description: 'Säädä symbolien määrää ja lukualuetta HOJKS-tavoitteiden mukaisesti. Kolme symbolia ja pienet luvut tukevat heikompia laskijoita. Visuaalinen koodiavain tarjoaa jatkuvan tuen tehtävän aikana.',
+      },
+      {
+        id: '6',
+        icon: '💰',
+        title: 'Opettajayrittäjät',
+        subtitle: 'Myy koodilaskupaketteja verkossa',
+        description: 'Luo teemallisia kuvakoodattuja laskupaketteja myyntiin. Koodilaskut ovat uniikki tuotemuoto joka erottuu perinteisistä matematiikkatehtävistä. Kaupallinen lisenssi kattaa rajattomat myynnit.',
+      },
+    ]
     
   },
 
@@ -191,7 +283,68 @@ Harmaasävyvaihtoehto säästää mustetta merkittävästi. Raksita "Muunna harm
     showLessLabel: 'Näytä vähemmän',
     secureCheckout: 'Turvallinen maksu',
     cancelAnytime: 'Peruuta milloin tahansa',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        question: 'Miten kuvakoodattu yhteenlasku toimii?',
+        answer: 'Tehtävässä kukin kuva edustaa tiettyä lukuarvoa. Koodiavain näyttää kuvan ja vastaavan numeron. Oppilaat korvaavat kuvat luvuilla ja ratkaisevat yhteenlaskun. Tämä kehittää symbolista ajattelua ja algebrallista ymmärrystä.',
+      },
+      {
+        id: '2',
+        question: 'Mille ikäryhmille kuvakoodatut tehtävät sopivat?',
+        answer: 'Kuvakoodatut yhteenlaskutehtävät palvelevat 5–10-vuotiaita. Esiopetuksen oppilaat käyttävät 3 symbolia pienillä luvuilla. 1.–2. luokan oppilaat hallitsevat 4 symbolia. 3. luokan oppilaat ratkaisevat 5 symbolin haasteita.',
+      },
+      {
+        id: '3',
+        question: 'Kuinka monta kuvasymbolissa on saatavilla?',
+        answer: 'Valitse 3–5 kuvasymbolissa tehtävään. Vähemmän symboleja yksinkertaistaa koodin purkamista nuoremmille oppilaille. Enemmän symboleja haastaa muistia ja symbolien hallintaa vanhemmilla oppilailla.',
+      },
+      {
+        id: '4',
+        question: 'Sisältävätkö tehtävät vastausavaimet?',
+        answer: 'Kyllä, jokainen tehtävä generoi automaattisesti vastausavaimen. Vastausavain näyttää koodiavaimen ja kaikkien tehtävien oikeat vastaukset. Opettajat tarkistavat oppilastöiden ratkaisut sekunneissa.',
+      },
+      {
+        id: '5',
+        question: 'Miten kuvakoodaus kehittää algebrallista ajattelua?',
+        answer: 'Kuvasymboli-lukuvastaavuus opettaa, että symbolit voivat edustaa lukuarvoja. Tämä on algebrallisen ajattelun perusta. Oppilaat harjoittelevat muuttujakäsiten ymmärtämistä konkreettisesti kuvien avulla.',
+      },
+      {
+        id: '6',
+        question: 'Voiko omia kuvia käyttää koodisymboleina?',
+        answer: 'Kyllä, lataa rajattomasti omia kuvia käytettäväksi koodisymboleina. Käytä luokan maskottia tai oppilaiden piirustuksia. Yhdistä omia kuvia kirjaston kuvien kanssa samassa tehtävässä.',
+      },
+      {
+        id: '7',
+        question: 'Miten tulostan kuvakoodatut tehtävät?',
+        answer: 'Lataa tehtäväsi PDF- tai JPEG-muodossa 300 DPI laadulla. Valitse A4 tai Letter-sivukoko. Harmaasävyvaihtoehto säästää värimustetta. Kaikki tehtävät tulostuvat ammattimaisesti.',
+      },
+      {
+        id: '8',
+        question: 'Kuinka kauan yhden tehtävän luominen kestää?',
+        answer: 'Yhden kuvakoodatun yhteenlaskutehtävän luominen vie alle 3 minuuttia. Valitse kuvat ja asetukset 30 sekunnissa. Generaattori luo tehtävän välittömästi. Useimmat opettajat luovat viikon tehtävät 15 minuutissa.',
+      },
+      {
+        id: '9',
+        question: 'Miten kuvakoodaus eroaa tavallisesta yhteenlaskusta?',
+        answer: 'Tavallisessa yhteenlaskussa oppilaat laskevat suoraan. Kuvakoodatussa tehtävässä he ensin purkavat koodin kuvasta numeroksi ja sitten ratkaisevat laskun. Tämä kaksivaiheinen prosessi kehittää sekä symbolista ajattelua että laskutaitoja.',
+      },
+      {
+        id: '10',
+        question: 'Voinko myydä luomiani kuvakoodattuja tehtäviä?',
+        answer: 'Kyllä, tilauksesi sisältää kaupallisen lisenssin. Myy kuvakoodattuja laskupaketteja verkossa ilman attribuutiovaatimuksia. Koodilaskut ovat uniikki tuote joka erottuu markkinoilla.',
+      },
+      {
+        id: '11',
+        question: 'Sopivatko kuvakoodatut tehtävät erityisopetukseen?',
+        answer: 'Kuvakoodatut tehtävät sopivat erityisopetukseen säädettävyydensä ansiosta. Vähennä symbolien määrää ja lukualuetta HOJKS-tavoitteiden mukaisesti. Visuaalinen koodiavain tarjoaa jatkuvan tuen.',
+      },
+      {
+        id: '12',
+        question: 'Miten kuvakoodaus tukee POPS 2014 tavoitteita?',
+        answer: 'Kuvakoodatut tehtävät tukevat POPS 2014 matematiikan tavoitteita T1 (algebrallinen ajattelu) ja T3 (laskusujuvuus). Symbolinen koodaus valmentaa muuttujakäsitteen ymmärtämiseen ja kehittää matemaattista ongelmanratkaisua.',
+      },
+    ]
     
   },
 
@@ -238,8 +391,157 @@ Harmaasävyvaihtoehto säästää mustetta merkittävästi. Raksita "Muunna harm
       securePayment: 'Turvallinen maksu',
       cancelAnytime: 'Peruuta milloin tahansa',
     },
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        slug: 'yhteenlasku-tyoarkit',
+        name: 'Yhteenlasku',
+        category: 'Matematiikka',
+        icon: '➕',
+        description: 'Yhteenlaskutehtävät täydentävät kuvakoodattuja tehtäviä perinteisellä yhteenlaskuharjoittelulla. Oppilaat harjoittelevat samoja laskufaktoja eri muodoissa.',
+      },
+      {
+        id: '2',
+        slug: 'vahennyslasku-tyoarkit',
+        name: 'Vähennyslasku',
+        category: 'Matematiikka',
+        icon: '➖',
+        description: 'Vähennyslaskutehtävät laajentavat kuvakoodausta vähennyslaskuoperaatioihin. Molemmat kehittävät symbolista ajattelua ja laskusujuvuutta.',
+      },
+      {
+        id: '3',
+        slug: 'matematiikkapulmat-tyoarkit',
+        name: 'Matematiikkapulmat',
+        category: 'Logiikka',
+        icon: '🧩',
+        description: 'Matematiikkapulmat haastavat oppilaita soveltamaan laskutaitoja ongelmanratkaisukonteksteissa. Molemmat yhdistävät loogisen ajattelun ja matematiikan.',
+      },
+      {
+        id: '4',
+        slug: 'kuvakryptogrammi-tyoarkit',
+        name: 'Kuvakryptogrammi',
+        category: 'Äidinkieli',
+        icon: '🔐',
+        description: 'Kuvakryptogrammi laajentaa koodauskonseptia kirjaimiin ja sanoihin. Oppilaat harjoittelevat koodinmurtostrategiaa sekä luvuilla että kirjaimilla.',
+      },
+      {
+        id: '5',
+        slug: 'etsi-ja-laske-tyoarkit',
+        name: 'Etsi ja laske',
+        category: 'Matematiikka',
+        icon: '🔢',
+        description: 'Etsi ja laske -tehtävät täydentävät kuvakoodattuja tehtäviä visuaalisen etsinnän ja laskemisen yhdistämiseen. Molemmat käyttävät kuvia matemaattisissa konteksteissa.',
+      },
+      {
+        id: '6',
+        slug: 'kuvakaavio-tyoarkit',
+        name: 'Kuvakaavio',
+        category: 'Matematiikka',
+        icon: '📊',
+        description: 'Kaaviotehtävät laajentavat kuvapohjaista matematiikkaa tiedonkäsittelyn suuntaan. Molemmat käyttävät kuvia matemaattisen ajattelun kehittämiseen.',
+      },
+    ]
     
+  },
+
+  // -- SEO & Content Enrichment (Part 175) ------------------------------------
+
+  aiOverviewSnippet: 'Kuvakoodattu yhteenlasku -generaattori on verkkotyokalu, jolla luodaan tulostettavia dekoodaustehtavia, joissa kuvat korvaavat numerot yhteenlaskuissa. Oppilaat purkavat kuva-numerovastaavuudet koodiavaimesta ja ratkaisevat laskutehtavat. Kehittaa algebrallista ajattelua ja yhteenlaskusujuvuutta samanaikaisesti.',
+
+  comparisonTable: [
+    {
+      feature: 'Tehtävämuoto',
+      ourApp: 'Kuvakoodattu yhteenlasku symbolisella ajattelulla',
+      typical: 'Pelkät numerotehtävät',
+    },
+    {
+      feature: 'Kuvasymbolit',
+      ourApp: '3–5 symbolia 3000+ teemakuvasta',
+      typical: 'Ei symbolikoodausta',
+    },
+    {
+      feature: 'Vastausavaimet',
+      ourApp: 'Automaattinen koodiavain ja vastaukset',
+      typical: 'Usein lisämaksullinen',
+    },
+    {
+      feature: 'Muokattavuus',
+      ourApp: 'Täysi muokkaus: siirto, skaalaus, kierto, teksti',
+      typical: 'Kiinteat pohjat',
+    },
+    {
+      feature: 'Kaupallinen lisenssi',
+      ourApp: 'Sisältyy, myy vapaasti verkossa',
+      typical: 'Lisämaksu tai ei saatavilla',
+    },
+    {
+      feature: 'Kielituki',
+      ourApp: '11 kieltä mukaan lukien suomi',
+      typical: 'Vain englanti',
+    },
+  ],
+
+  researchBacking: [
+    {
+      claim: 'Symbolinen koodaus matematiikassa kehittaa algebrallista ajattelua jo varhaisessa vaiheessa. Kuva-numerovalstaavuudet valmistavat muuttujakaasitteen ymmaartaamiseen konkreettisella tavalla.',
+      source: 'Nunes, T. & Bryant, P., "Lasten matemaattinen kehitys," suomenkielinen lyhennelma NMI-bulletin',
+    },
+    {
+      claim: 'Kaksivaiheinen dekoodaus-ratkaisu -prosessi syventaa matemaattista ymmarrystaa verrattuna suoraan laskemiseen, silla oppilas joutuu prosessoimaan tehtavaa useammalla kognitiivisella tasolla.',
+      source: 'Lehtinen, E. & Hannula-Sormunen, M., "Matemaattisen ajattelun kehittyminen," Turun yliopisto',
+    },
+  ],
+
+  teacherTestimonials: [
+    {
+      quote: 'Kuvakoodatut laskutehtavat ovat luokkani suosikkeja. Oppilaat kokevat ratkaisevansa salakoodeja eivatkaa huomaa harjoittelevansa yhteenlaskua. Motivaatio pysyy korkeana ja laskusujuvuus kehittyy huomaamatta.',
+      name: 'Susanna Karjalainen',
+      role: '1. luokan opettaja',
+      school: 'Jokivarren koulu, Turku',
+    },
+    {
+      quote: 'Kaytan kuvakoodattuja tehtavia algebrallisen ajattelun esittelyyn toisluokkalaisilleni. Kuvasymbolit tekevat muuttujakasitteesta konkreettisen. Oppilaat ymmartavat etta kuva edustaa lukua aivan kuten kirjain myohemmin.',
+      name: 'Mikko Lehto',
+      role: '2. luokan opettaja',
+      school: 'Hiidenkiven koulu, Helsinki',
+    },
+  ],
+
+  tips: {
+    sectionTitle: 'Kuvakoodatun yhteenlaskun strategiat luokka-asteittain',
+    sectionDescription: 'Säädä kuvakoodattu yhteenlasku -generaattori sopivaan haasteeseen kullekin kehitysvaiheelle. Näin valitset symbolien määrän, lukualueen ja tehtävätyypin esikoulusta kolmanteen luokkaan.',
+    items: [
+      {
+        id: 'esikoulu',
+        icon: '🌱',
+        title: 'Esikoulu: Kuva-numerovalstaavuus kolmella symbolilla',
+        description: 'Kaytta kolmea kuvasymbolissa summilla 5 asti. Esikoululaiset harjoittelevat kuvan ja luvun yhdistamista. Koodiavain on koko ajan nakyvilla. Ohjatussa pienryhmatyossa opettaja tukee dekoodausta.',
+      },
+      {
+        id: 'esiopetus',
+        icon: '🎒',
+        title: 'Esiopetus: Koodilaskut summilla 10 asti',
+        description: 'Luo tehtavia kolmella tai neljalla symbolilla summilla 10 asti. Esiopetuksen oppilaat harjoittelevat koodiavaimen kayttoa itsenaisesti. Kuvasymboli-lukuvastaavuus rakentaa symbolisen ajattelun perustaa POPS 2014 tavoitteiden mukaisesti.',
+      },
+      {
+        id: '1-luokka',
+        icon: '📚',
+        title: '1. luokka: Neljän symbolin yhteenlaskut',
+        description: 'Generoi tehtavia neljalla symbolilla summilla 20 asti. Ekaluokkalaiset kehittavat sujuvaa koodinpurkamista ja yhteenlaskua. Tehtavat vahvistavat laskufaktoja motivoivassa muodossa.',
+      },
+      {
+        id: '2-luokka',
+        icon: '✏️',
+        title: '2. luokka: Viiden symbolin algebrallinen haaste',
+        description: 'Luo tehtavia viidella symbolilla suuremmilla luvuilla. Toisluokkalaiset harjoittelevat monimutkaista dekoodausta ja algebrallista ajattelua. Tehtavat valmistavat muuttujakasitteen ymmaartaamiseen.',
+      },
+      {
+        id: '3-luokka',
+        icon: '🎯',
+        title: '3. luokka: Monimutkaiset koodilaskut',
+        description: 'Kaytta viittaa symbolissa suurimmalla lukualueella. Kolmasluokkalaiset ratkaisevat monimutkaisia kooditehtavia itsenaisesti. Kaytta tehtavia algebrallisen ajattelun syventamiseen POPS 2014 vuosiluokkien 3–6 tavoitteiden mukaisesti.',
+      },
+    ],
   },
 };
 

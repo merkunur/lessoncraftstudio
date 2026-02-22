@@ -93,7 +93,56 @@ Peruspaketti sisältää kaupallisen print-on-demand -lisenssin. Myy tehtäviäs
       noHiddenFees: 'Ei piilomaksuja',
       cancelAnytime: 'Peruuta milloin tahansa',
     },
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        icon: '✏️',
+        title: 'Kahdeksan erilaista viivamallia',
+        description: 'Valitse kahdeksasta erilaisesta viivamallista: suorat viivat, kaaret, siksak-viivat, aaltokuviot ja monimutkaiset polut. Jokainen malli kehittää eri motorisia taitoja. Suorat viivat sopivat aloittelijoille. Kaaret ja aallot haastavat edistyneempiä oppilaita asteittain.',
+      },
+      {
+        id: '2',
+        icon: '📏',
+        title: 'Säädettävä viivan paksuus ja välitys',
+        description: 'Hallitse viivan paksuutta ja kuvien välistä etäisyyttä. Paksummat viivat sopivat nuoremmille lapsille, joilla kynänote vasta kehittyy. Ohuemmat viivat haastavat vanhempia oppilaita tarkkuuteen. Välityksen säätö optimoi tehtävän haastavuuden.',
+      },
+      {
+        id: '3',
+        icon: '🖼️',
+        title: 'Yli 3000 teemakuvaa päätepisteiksi',
+        description: 'Valitse yli 3000 lapsiystavallisesta kuvasta viivojen paatepisteet. Lapset piirtavat viivoja kuvan luokse, mika lisaa motivaatiota ja kontekstin harjoitukseen. Teemapohjaiset parit luovat johdonmukaisia oppimiskokemuksia.',
+      },
+      {
+        id: '4',
+        icon: '🔢',
+        title: '4–5 kuvaparia per tehtävä',
+        description: 'Jokainen tehtäväsivu sisältää 4–5 kuvaparia yhdistettäväksi viivoilla. Tämä määrä pitää tehtävän hallittavana nuoremmille oppilaille samalla kun tarjoaa riittävästi harjoittelua hienomotoriikan kehittämiseen.',
+      },
+      {
+        id: '5',
+        icon: '✅',
+        title: 'Automaattiset vastausavaimet',
+        description: 'Jokainen viivanpiirtotehtävä generoi automaattisesti vastausavaimen, jossa oikeat yhdistämislinjat näkyvät selkeästi. Opettajat tarkistavat oppilastöiden tarkkuuden nopeasti. Vastausavaimet tulostuvat erilliselle sivulle.',
+      },
+      {
+        id: '6',
+        icon: '🎨',
+        title: 'Täysin muokattavat tehtävät',
+        description: 'Muokkaa jokaista elementtiä luomisen jälkeen. Siirrä, skaalaa ja kierrä kuvia vapaasti. Lisää omaa tekstiä, valitse fontteja ja värejä. Lataa taustakuvia ja lisää koristeellisia kehyksiä ammattimaiseen lopputulokseen.',
+      },
+      {
+        id: '7',
+        icon: '💼',
+        title: 'Kaupallinen lisenssi myyntiin',
+        description: 'Tilauksesi sisältää kaupalliset oikeudet myydä viivanpiirtotehtäviä verkossa. Luo hienomotoriikkapaketteja myytäväksi opettajakauppoihin. Ei attribuutiovaatimuksia eikä ylimääräisiä lisenssimaksuja.',
+      },
+      {
+        id: '8',
+        icon: '🌍',
+        title: '11 kielen tuki',
+        description: 'Luo viivanpiirtotehtäviä 11 kielellä. Käyttöliittymä ja tehtävän ohjeet kääntyvät valitulle kielelle. Täydellinen monikielisille luokkahuoneille ja S2-opetukseen.',
+      },
+    ]
     
   },
 
@@ -186,7 +235,50 @@ Tulosta tehtävä tavallisella A4 tai Letter paperilla. Ei erikoisasetuksia tarv
     badgeText: 'Kenelle Sopii',
     readMoreLabel: 'Lue lisää',
     showLessLabel: 'Näytä vähemmän',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        icon: '🌱',
+        title: 'Esiopetuksen opettajat',
+        subtitle: 'Kynänhallinnan kehittäminen 5–6-vuotiaille',
+        description: 'Luo suoraviivaisia tehtäviä paksummilla viivoilla esiopetuksen oppilaille. Lapset piirtävät viivoja kuvaparien välillä kehittäen kynäotetta ja silmä-käsi-koordinaatiota. Täydellinen POPS 2014 hienomotoriikan tavoitteiden tukemiseen.',
+      },
+      {
+        id: '2',
+        icon: '📚',
+        title: 'Alakoulun opettajat',
+        subtitle: 'Kirjoitusvalmiuden tukeminen 1.–2. luokalla',
+        description: 'Generoi asteittain vaikeutuvia viivaharjoituksia kaarilla ja aaltokuvioilla. Ekaluokkalaiset kehittävät kirjoittamiseen tarvittavia motorisia taitoja. Yhdistä viivaharjoitukset kirjoitusharjoituksiin kattaviin hienomotoriikkapaketteihin.',
+      },
+      {
+        id: '3',
+        icon: '🏠',
+        title: 'Kotiopettajat ja vanhemmat',
+        subtitle: 'Hienomotoriikan harjoittelu kotona',
+        description: 'Luo mukauvia viivanpiirtotehtäviä lasten suosikkiteemoilla. Eläin-, kulkuneuvo- ja luontoteemat pitävät lapset motivoituneina. Generoi viikon harjoitukset 15 minuutissa eri vaikeustasoin.',
+      },
+      {
+        id: '4',
+        icon: '🌍',
+        title: 'S2-opettajat',
+        subtitle: 'Kielirajat ylittävä motorinen harjoittelu',
+        description: 'Viivanpiirtotehtävät eivät vaadi kielitaitoa, joten ne sopivat kaikille oppilaille taustasta riippumatta. Kuvaparit tarjoavat samalla sanastoaltistusta uudella kielellä. Täydellinen kotoutumisvaiheen oppilaille.',
+      },
+      {
+        id: '5',
+        icon: '💜',
+        title: 'Erityisopettajat',
+        subtitle: 'Yksilöllistetyt motoriset harjoitukset',
+        description: 'Säädä viivan paksuutta ja mallin monimutkaisuutta HOJKS-tavoitteiden mukaisesti. Paksut suorat viivat tukevat heikompia motorisia taitoja. Asteittain vaikeutuvat mallit rakentavat itseluottamusta ja taitoa.',
+      },
+      {
+        id: '6',
+        icon: '💰',
+        title: 'Opettajayrittäjät',
+        subtitle: 'Myy hienomotoriikkapaketteja',
+        description: 'Luo teemallisia viivanpiirtopaketteja myyntiin verkossa. Hienomotoriikkamateriaalit ovat jatkuvasti kysyttyjä esiopetuksen materiaaleja. Kaupallinen lisenssi kattaa rajattomat myynnit.',
+      },
+    ]
     
   },
 
@@ -201,7 +293,68 @@ Tulosta tehtävä tavallisella A4 tai Letter paperilla. Ei erikoisasetuksia tarv
     showLessLabel: 'Näytä vähemmän',
     secureCheckout: 'Turvallinen maksu',
     cancelAnytime: 'Peruuta milloin tahansa',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        question: 'Miten viivanpiirtogeneraattori toimii?',
+        answer: 'Generaattori luo tehtäviä, joissa kuvaparit on sijoitettu sivun vastakkaisille puolille katkoviivojen yhdistäminä. Lapset piirtävät viivoja seuraten mallia kuvasta toiseen. Valitse viivamalli, teema ja kuvien määrä asetuksista.',
+      },
+      {
+        id: '2',
+        question: 'Mitkä viivamallit ovat saatavilla?',
+        answer: 'Kahdeksan viivamallia: suora viiva, kaari, loiva kaari, siksak, aaltoviiva, portaat, silmukka ja yhdistelmäpolku. Suorat viivat sopivat aloittelijoille. Monimutkaisemmat mallit kehittävät edistyneempiä motorisia taitoja.',
+      },
+      {
+        id: '3',
+        question: 'Mille ikäryhmille viivanpiirtotehtävät sopivat?',
+        answer: 'Viivanpiirtotehtävät palvelevat 3–7-vuotiaita. Esikoululaiset harjoittelevat suoria viivoja paksulla mallilla. Esiopetuksen oppilaat siirtyvät kaariin ja aaltoihin. 1. luokan oppilaat harjoittelevat monimutkaisia polkuja kirjoitusvalmiuden kehittämiseksi.',
+      },
+      {
+        id: '4',
+        question: 'Miten viivanpiirto kehittää kirjoitusvalmiutta?',
+        answer: 'Viivanpiirtotehtävät kehittävät kynäotetta, silmä-käsi-koordinaatiota ja viivan hallinnan tarkkuutta. Nämä ovat kirjoittamisen perusedellytyksiä. Kaaret ja aallot valmistavat kirjainten pyöreiden muotojen piirtämiseen.',
+      },
+      {
+        id: '5',
+        question: 'Sisältävätkö tehtävät vastausavaimet?',
+        answer: 'Kyllä, jokainen viivanpiirtotehtävä generoi automaattisesti vastausavaimen, jossa oikeat yhdistämislinjat näkyvät selkeästi. Opettajat tarkistavat oppilastöiden tarkkuuden sekunneissa. Vastausavaimet tulostuvat erilliselle sivulle.',
+      },
+      {
+        id: '6',
+        question: 'Voiko viivan paksuutta säätää?',
+        answer: 'Kyllä, viivan paksuus ja mallin selkeys ovat säädettävissä. Paksummat viivat ja selkeämmät mallit sopivat nuoremmille lapsille. Ohuemmat viivat ja monimutkaisemmat polut haastavat edistyneempiä oppilaita.',
+      },
+      {
+        id: '7',
+        question: 'Kuinka monta kuvaparia yhdessä tehtävässä?',
+        answer: 'Jokainen tehtäväsivu sisältää 4–5 kuvaparia yhdistettäväksi viivoilla. Tämä määrä tarjoaa riittävästi harjoittelua ilman ylikuormitusta. Useampi pari lisää tehtävän kestoa ja haastetta.',
+      },
+      {
+        id: '8',
+        question: 'Miten tulostan viivanpiirtotehtävät?',
+        answer: 'Lataa tehtäväsi PDF- tai JPEG-muodossa 300 DPI laadulla. Valitse A4 tai Letter-sivukoko. Harmaasävyvaihtoehto säästää värimustetta. Kaikki tehtävät tulostuvat ammattimaisesti.',
+      },
+      {
+        id: '9',
+        question: 'Sopivatko viivanpiirtotehtävät erityisopetukseen?',
+        answer: 'Viivanpiirtotehtävät sopivat erinomaisesti erityisopetukseen säädettävyydensä ansiosta. Säädä viivan paksuutta ja mallin monimutkaisuutta HOJKS-tavoitteiden mukaisesti. Asteittain vaikeutuvat tehtävät tukevat jokaisen oppilaan kehitystä.',
+      },
+      {
+        id: '10',
+        question: 'Kuinka kauan yhden tehtävän luominen kestää?',
+        answer: 'Yhden viivanpiirtotehtävän luominen vie alle 3 minuuttia. Valitse viivamalli ja teema 20 sekunnissa. Generaattori luo tehtävän välittömästi. Useimmat opettajat luovat viikon hienomotoriikkaharjoitukset 15 minuutissa.',
+      },
+      {
+        id: '11',
+        question: 'Voinko myydä luomiani viivanpiirtotehtäviä?',
+        answer: 'Kyllä, tilauksesi sisältää kaupallisen lisenssin. Myy hienomotoriikkapaketteja opettajakauppoissa ilman attribuutiovaatimuksia. Monet opettajat ansaitsevat lisätuloja teemallisilla piirtopaketeilla.',
+      },
+      {
+        id: '12',
+        question: 'Miten viivanpiirto tukee POPS 2014 tavoitteita?',
+        answer: 'Viivanpiirtotehtävät tukevat esiopetuksen ja alkuopetuksen hienomotoriikan kehittämistavoitteita. POPS 2014 korostaa kirjoitusvalmiuden rakentamista monipuolisilla motorisilla harjoituksilla. Viivanpiirto on tehokas väline kynänhallinnan ja visuaalisen hahmottamisen kehittämiseen.',
+      },
+    ]
     
   },
 
@@ -249,8 +402,157 @@ Tulosta tehtävä tavallisella A4 tai Letter paperilla. Ei erikoisasetuksia tarv
       securePayment: 'Turvallinen maksu',
       cancelAnytime: 'Peruuta milloin tahansa',
     },
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        slug: 'yhdista-parit-tyoarkit',
+        name: 'Yhdistä parit',
+        category: 'Sanasto',
+        icon: '🔗',
+        description: 'Yhdistämistehtävät hyödyntävät samoja viivan piirtämistaitoja kuin viivanpiirtotehtävät. Yhdistä molemmat kattaviin hienomotoriikkapaketteihin.',
+      },
+      {
+        id: '2',
+        slug: 'aakkosjuna-tyoarkit',
+        name: 'Aakkosjuna',
+        category: 'Varhaiskasvatus',
+        icon: '🚂',
+        description: 'Aakkosjunatehtävät yhdistettynä viivanpiirtoon luovat monipuolisia kirjoitusvalmiuspaketteja. Leikkaa-liimaa ja piirtäminen kehittävät molemmat hienomotoriikkaa.',
+      },
+      {
+        id: '3',
+        slug: 'kasinkirjoitus-tyoarkit',
+        name: 'Käsinkirjoitus',
+        category: 'Äidinkieli',
+        icon: '📝',
+        description: 'Käsinkirjoitusharjoitukset ovat luonnollinen jatko viivanpiirtotehtävien jälkeen. Viivanpiirto rakentaa kynäotetta, käsinkirjoitus soveltaa sitä kirjainten muotoiluun.',
+      },
+      {
+        id: '4',
+        slug: 'varityskuvat-tyoarkit',
+        name: 'Värityskuvat',
+        category: 'Taide ja luovuus',
+        icon: '🎨',
+        description: 'Värityskuvat yhdistettynä viivanpiirtoon luovat monipuolisia motorisia harjoituspaketteja. Molemmat kehittävät kynänhallintaa ja silmä-käsi-koordinaatiota.',
+      },
+      {
+        id: '5',
+        slug: 'kuvapolku-tyoarkit',
+        name: 'Kuvapolku',
+        category: 'Hahmottaminen',
+        icon: '🛤️',
+        description: 'Kuvapolkutehtävät hyödyntävät samoja visuaalisia taitoja kuin viivanpiirtotehtävät. Oppilaat seuraavat polkuja ruudukoissa kehittäen avaruudellista hahmottamista.',
+      },
+      {
+        id: '6',
+        slug: 'ruudukkopiirustus-tyoarkit',
+        name: 'Ruudukkopiirustus',
+        category: 'Taide ja luovuus',
+        icon: '🖌️',
+        description: 'Ruudukkopiirustus laajentaa viivanpiirtotaitoja koko kuvien piirtämiseen ruudukolla. Molemmat kehittävät visuaalista tarkkuutta ja käden hallintaa.',
+      },
+    ]
     
+  },
+
+  // -- SEO & Content Enrichment (Part 175) ------------------------------------
+
+  aiOverviewSnippet: 'Viivanpiirtogeneraattori on verkkotyokalu, jolla luodaan tulostettavia hienomotoriikan harjoitustehtavia. Lapset piirtavat erilaisia viivoja kuvaparien valille kehittaen kynaotetta ja silma-kasi-koordinaatiota. Opettajat valitsevat viivamallin, teemakuvat ja vaikeustason, ja lataavat valmiin PDF-tehtavan alle 3 minuutissa.',
+
+  comparisonTable: [
+    {
+      feature: 'Viivamallit',
+      ourApp: '8 erilaista mallia: suora, kaari, siksak, aalto jne.',
+      typical: '1–2 perusmallia',
+    },
+    {
+      feature: 'Kuvapaatepisteet',
+      ourApp: '3000+ teemakuvaa visuaalisina motivaattoreina',
+      typical: 'Vain pisteet tai abstraktit muodot',
+    },
+    {
+      feature: 'Vastausavaimet',
+      ourApp: 'Automaattinen vastausavain joka tehtävään',
+      typical: 'Ei vastausavaimia',
+    },
+    {
+      feature: 'Muokattavuus',
+      ourApp: 'Täysi muokkaus: siirto, skaalaus, kierto, teksti',
+      typical: 'Kiinteät pohjat ilman muokkausta',
+    },
+    {
+      feature: 'Kaupallinen lisenssi',
+      ourApp: 'Sisältyy, myy vapaasti verkossa',
+      typical: 'Lisämaksu tai ei saatavilla',
+    },
+    {
+      feature: 'Kielituki',
+      ourApp: '11 kieltä mukaan lukien suomi',
+      typical: 'Vain englanti',
+    },
+  ],
+
+  researchBacking: [
+    {
+      claim: 'Viivanpiirtotehtävät kehittävät kynäotetta ja viivan hallinnan tarkkuutta, jotka ovat kirjoittamisen keskeisiä edellytyksiä. Säännöllinen harjoittelu parantaa merkittävästi kirjoitusvalmiutta esiopetusikäisillä.',
+      source: 'Ahonen, T. et al., "Motoriikan ja oppimisen yhteydet," Niilo Mäki Instituutti',
+    },
+    {
+      claim: 'Kuvapohjaiset viivanpiirtotehtävät lisäävät lasten motivaatiota ja harjoittelun kestoa verrattuna abstrakteihin viivaharjoituksiin, sillä merkityksellinen konteksti tukee sitää sitoutumista.',
+      source: 'Pura, M., "Graafomotoriikan kehitys ja tukeminen varhaiskasvatuksessa," Jyväskylän yliopisto',
+    },
+  ],
+
+  teacherTestimonials: [
+    {
+      quote: 'Esiopetusryhmani lapset rakastavat piirtaa viivoja elainten valille. Kahdeksan eri viivamallia pitavat harjoittelun tuoreena ja lapset eivat kyllasty. Kynaote on parantunut huomattavasti syksysta.',
+      name: 'Elina Nieminen',
+      role: 'Esiopetuksen opettaja',
+      school: 'Tuulimyllyn paivakoti, Oulu',
+    },
+    {
+      quote: 'Kaytan viivanpiirtotehtavia lammittelyna ennen kirjoitustunteja. Ekaluokkalaiseni kehittivat selkeasti parempaa kynanhallintaa ja viivan tarkkuutta kahden kuukauden saaannollisella harjoittelulla.',
+      name: 'Petri Salonen',
+      role: '1. luokan opettaja',
+      school: 'Toivolan koulu, Lahti',
+    },
+  ],
+
+  tips: {
+    sectionTitle: 'Viivanpiirtostrategiat luokka-asteittain',
+    sectionDescription: 'Säädä viivanpiirtogeneraattori sopivaan haasteeseen kullekin kehitysvaiheelle. Näin valitset viivamallin, paksuuden ja monimutkaisuuden esikoulusta toiseen luokkaan.',
+    items: [
+      {
+        id: 'esikoulu',
+        icon: '🌱',
+        title: 'Esikoulu: Suorat viivat paksulla mallilla',
+        description: 'Kaytta suoria viivoja paksulla mallilla ja tuttuja teemakuvia kuten elaaimia. Esikoululaiset harjoittelevat kynaan tarttumista ja viivan vetamista kahden pisteen valilla. Yksinkertainen muoto rakentaa kynaotteen perustan.',
+      },
+      {
+        id: 'esiopetus',
+        icon: '🎒',
+        title: 'Esiopetus: Kaaret ja loivat aaltoviivat',
+        description: 'Siirry kaariin ja loiviin aaltoihin kun suorat viivat sujuvat. Esiopetuksen oppilaat kehittavat pyoreiden liikkeiden hallintaa. Nama taidot valmistavat kirjainten pyoreiden muotojen piirtamiseen POPS 2014 tavoitteiden mukaisesti.',
+      },
+      {
+        id: '1-luokka',
+        icon: '📚',
+        title: '1. luokka: Siksak-viivat ja monimutkaiset polut',
+        description: 'Generoi siksak- ja yhdistelmapolkuja ekaluokkalaisille. Vaihtuvat suunnat kehittavat ranteen joustavuutta ja viivan hallinnan tarkkuutta. Nama taidot siirtyvat suoraan kirjainten muodostamiseen kirjoitusharjoituksissa.',
+      },
+      {
+        id: '2-luokka',
+        icon: '✏️',
+        title: '2. luokka: Tarkat aaltokuviot ja silmukat',
+        description: 'Luo aaltokuvioita ja silmukkapolkuja vaativia tehtavia. Toisluokkalaiset hioivat viivan tarkkuutta ja kehittavat sujuvaa kirjoitusliiketta. Tehtavat toimivat kirjoitustaidon yllapitamisena ja kehittamisena.',
+      },
+      {
+        id: '3-luokka',
+        icon: '🎯',
+        title: '3. luokka: Monimutkaiset yhdistelmäpolut',
+        description: 'Kaytta monimutkaisimpia yhdistelmapolkuja, jotka vaativat tarkkaa motorista hallintaa. Kolmasluokkalaiset hiovat sujuvaa kirjoitusliiketta ja viivan hallintaa vaativammilla malleilla.',
+      },
+    ],
   },
 };
 

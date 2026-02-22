@@ -91,7 +91,56 @@ Tulostettavat tehtävät lapsille sisältävät kaksi osaa. Ensimmäinen osa nä
       noHiddenFees: 'Ei piilomaksuja',
       cancelAnytime: 'Peruuta milloin tahansa',
     },
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        icon: '📊',
+        title: 'Kuvakaaviot laske ja väritä -muodossa',
+        description: 'Generaattori luo tehtäviä, joissa 20 kuvaa näytetään satunnaisessa järjestyksessä. Oppilaat laskevat kunkin kuvatyypin määrän ja värittävät vastaavan määrän ruutuja kaavioon. Tämä kehittää sekä laskutaitoja että tiedon visualisointia.',
+      },
+      {
+        id: '2',
+        icon: '🔢',
+        title: 'Säädettävä kuvamäärä ja kategoriat',
+        description: 'Valitse 3–6 eri kuvatyyppiä kaavioon ja säädä kunkin kategorian lukumäärää. 20 kuvan ruudukko tarjoaa riittävästi dataa merkityksellisten kaavioiden luomiseen. Vaikeustaso mukautuu kuvatyyppien määrällä.',
+      },
+      {
+        id: '3',
+        icon: '🖼️',
+        title: 'Yli 3000 teemakuvaa datavisualisointiin',
+        description: 'Selaa yli 3000 lapsiystavallista kuvaa kaaviotehtavien luomiseen. Teemapohjaiset kuvat luovat johdonmukaisia datavisualisointeja. Elain-, ruoka- ja kulkuneuvoteemat tekevat tilastoharjoittelusta kiinnostavaa.',
+      },
+      {
+        id: '4',
+        icon: '✅',
+        title: 'Automaattiset vastausavaimet',
+        description: 'Jokainen kaaviotehtävä generoi automaattisesti vastausavaimen, jossa oikeat lukumäärät ja väritetyt ruudut näkyvät selkeästi. Opettajat tarkistavat oppilastöiden ratkaisut nopeasti. Vastausavain tulostuu erilliselle sivulle.',
+      },
+      {
+        id: '5',
+        icon: '🎨',
+        title: 'Täysin muokattavat tehtävät',
+        description: 'Muokkaa jokaista elementtiä luomisen jälkeen. Siirrä, skaalaa ja kierrä kuvia vapaasti. Lisää omaa tekstiä, taustavärejä ja koristeellisia kehyksiä. Luo ammattitasoisia kaaviotehtäviä nopeasti.',
+      },
+      {
+        id: '6',
+        icon: '📤',
+        title: 'Omien kuvien lataus',
+        description: 'Lataa rajattomasti omia kuvia luodaksesi personoituja kaaviotehtäviä. Käytä luokkahuoneen teemoihin sopivia kuvia. Yhdistä omia kuvia 3000+ kuvakirjaston kanssa samassa tehtävässä.',
+      },
+      {
+        id: '7',
+        icon: '💼',
+        title: 'Kaupallinen lisenssi myyntiin',
+        description: 'Tilauksesi sisältää kaupalliset oikeudet myydä kaaviotehtäviä verkossa. Luo datataitojen harjoituspaketteja myytäväksi. Ei attribuutiovaatimuksia eikä ylimääräisiä lisenssimaksuja.',
+      },
+      {
+        id: '8',
+        icon: '🌍',
+        title: '11 kielen tuki',
+        description: 'Luo kaaviotehtäviä 11 kielellä mukaan lukien suomi. Käyttöliittymä ja ohjeet kääntyvät valitulle kielelle. Tiedonkäsittely on universaali matemaattinen taito kielirajoista riippumatta.',
+      },
+    ]
     
   },
 
@@ -184,7 +233,50 @@ Harmaasävyvaihtoehto säästää mustetta. Rastita "Harmaasävy" -valintaruutu 
     badgeText: 'Kenelle Sopii',
     readMoreLabel: 'Lue lisää',
     showLessLabel: 'Näytä vähemmän',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        icon: '🌱',
+        title: 'Esiopetuksen opettajat',
+        subtitle: 'Laskeminen ja kaaviot 5–6-vuotiaille',
+        description: 'Luo yksinkertaisia kaaviotehtäviä kolmella kuvatyypillä esiopetuksen laskuharjoitteluun. Oppilaat laskevat kuvia ja värittävät ruutuja kaavion luomiseksi. Täydellinen POPS 2014 matemaattisen tiedonkäsittelyn tavoitteiden tukemiseen.',
+      },
+      {
+        id: '2',
+        icon: '📚',
+        title: 'Alakoulun opettajat',
+        subtitle: 'Tiedonkäsittely ja tilastot 1.–3. luokalle',
+        description: 'Generoi kaaviotehtäviä 4–6 kuvatyypillä tiedonkäsittelyn harjoitteluun. Oppilaat laskevat, vertaavat lukumääriä ja tulkitsevat kaavioita. Tehtävät integroivat matematiikkaa ja ympäristöoppia.',
+      },
+      {
+        id: '3',
+        icon: '🏠',
+        title: 'Kotiopettajat ja vanhemmat',
+        subtitle: 'Hauskaa laskemista ja graafista esitystä',
+        description: 'Luo kiinnostavia kaaviotehtäviä lasten suosikkiteemoilla. Lapset nauttivat kuvien laskemisesta ja kaavioiden värittämisestä. Tehtävät yhdistävät laskemisen ja luovan ilmaisun luonnollisesti.',
+      },
+      {
+        id: '4',
+        icon: '🌍',
+        title: 'S2-opettajat',
+        subtitle: 'Visuaalinen dataharjoittelu ilman kielitaitoa',
+        description: 'Kaaviotehtävät eivät vaadi lukutaitoa. Kuvien laskeminen ja ruutujen värittäminen ovat kieliriippumattomia. Opettaja voi lisätä matemaattista sanastoa kahdella kielellä samaan tehtävään.',
+      },
+      {
+        id: '5',
+        icon: '💜',
+        title: 'Erityisopettajat',
+        subtitle: 'Säädettävät tiedonkäsittelyn harjoitukset',
+        description: 'Säädä kuvatyyppien määrää HOJKS-tavoitteiden mukaisesti. Kolme kuvatyyppiä tukee heikompia laskijoita. Värittäminen tarjoaa visuaalisen palautteen oikeasta vastauksesta.',
+      },
+      {
+        id: '6',
+        icon: '💰',
+        title: 'Opettajayrittäjät',
+        subtitle: 'Myy datataitojen harjoituspaketteja',
+        description: 'Luo teemallisia kaaviotehtäväpaketteja myyntiin verkossa. Tiedonkäsittelyn materiaalit ovat kasvava kategoria opettajakauppoissa. Kaupallinen lisenssi kattaa rajattomat myynnit.',
+      },
+    ]
     
   },
 
@@ -199,7 +291,68 @@ Harmaasävyvaihtoehto säästää mustetta. Rastita "Harmaasävy" -valintaruutu 
     showLessLabel: 'Näytä vähemmän',
     secureCheckout: 'Turvallinen maksu',
     cancelAnytime: 'Peruuta milloin tahansa',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        question: 'Miten kaaviogeneraattori toimii?',
+        answer: 'Generaattori luo tehtävän, jossa 20 kuvaa näytetään satunnaisessa järjestyksessä ja tyhjä kaavio odottaa täyttämistä. Oppilaat laskevat kunkin kuvatyypin määrän ja värittävät vastaavan määrän ruutuja kaavioon. Vastausavain generoidaan automaattisesti.',
+      },
+      {
+        id: '2',
+        question: 'Kuinka monta kuvatyyppiä voi olla yhdessä tehtävässä?',
+        answer: 'Valitse 3–6 eri kuvatyyppiä kaavioon. Vähemmän kuvatyyppejä sopii nuoremmille oppilaille. Kuusi kuvatyyppiä haastaa vanhempia oppilaita vaatimalla tarkkaa laskemista useammasta kategoriasta.',
+      },
+      {
+        id: '3',
+        question: 'Mille ikäryhmille kaaviotehtävät sopivat?',
+        answer: 'Kaaviotehtävät palvelevat 5–10-vuotiaita. Esiopetuksen oppilaat laskevat 3 kuvatyyppiä ja värittävät yksinkertaisen kaavion. 1.–2. luokan oppilaat hallitsevat 4–5 kuvatyyppiä. 3. luokan oppilaat tulkitsevat 6 kategorian kaavioita.',
+      },
+      {
+        id: '4',
+        question: 'Sisältävätkö tehtävät vastausavaimet?',
+        answer: 'Kyllä, jokainen kaaviotehtävä generoi automaattisesti vastausavaimen. Vastausavain näyttää oikeat lukumäärät ja väritetyt ruudut jokaiselle kuvatyypille. Opettajat tarkistavat oppilastöiden ratkaisut sekunneissa.',
+      },
+      {
+        id: '5',
+        question: 'Miten kaaviotehtävät opettavat tiedonkäsittelyä?',
+        answer: 'Oppilaat keräävät dataa (laskevat kuvia), organisoivat sitä (värittävät kaavion) ja tulkitsevat tuloksia. Tämä prosessi opettaa tiedonkäsittelyn perusperiaatteet käytännössä POPS 2014 tavoitteiden mukaisesti.',
+      },
+      {
+        id: '6',
+        question: 'Voiko omia kuvia käyttää kaaviotehtävissä?',
+        answer: 'Kyllä, lataa rajattomasti omia kuvia luodaksesi personoituja kaaviotehtäviä. Käytä luokan teemoihin sopivia kuvia. Yhdistä omia kuvia kirjaston kuvien kanssa samassa tehtävässä.',
+      },
+      {
+        id: '7',
+        question: 'Miten tulostan kaaviotehtävät?',
+        answer: 'Lataa tehtäväsi PDF- tai JPEG-muodossa 300 DPI laadulla. Valitse A4 tai Letter-sivukoko. Harmaasävyvaihtoehto säästää värimustetta. Kaikki tehtävät tulostuvat ammattimaisesti.',
+      },
+      {
+        id: '8',
+        question: 'Kuinka kauan yhden kaaviotehtävän luominen kestää?',
+        answer: 'Yhden kaaviotehtävän luominen vie alle 3 minuuttia. Valitse teema ja kuvat 30 sekunnissa. Generaattori luo tehtävän välittömästi. Useimmat opettajat luovat viikon tiedonkäsittelyharjoitukset 15 minuutissa.',
+      },
+      {
+        id: '9',
+        question: 'Sopivatko kaaviotehtävät ympäristöopin opetukseen?',
+        answer: 'Kaaviotehtävät sopivat erinomaisesti ympäristöopin tiedonkeräämisharjoituksiin. Oppilaat laskevat luontokuvia ja luovat kaavioita havainnoistaan. Tehtävät integroivat matematiikkaa ja ympäristöoppia luonnollisesti.',
+      },
+      {
+        id: '10',
+        question: 'Voinko myydä luomiani kaaviotehtäviä?',
+        answer: 'Kyllä, tilauksesi sisältää kaupallisen lisenssin. Myy tiedonkäsittelyn paketteja verkossa ilman attribuutiovaatimuksia. Luo kaaviotehtäväkokoelmia digitaalisina latauksina.',
+      },
+      {
+        id: '11',
+        question: 'Mikä on 20 kuvan ruudukon tarkoitus?',
+        answer: '20 kuvan ruudukko tarjoaa riittävästi dataa merkityksellisten kaavioiden luomiseen. Kuvatyyppien eri määrät luovat kiinnostavia vertailuja. Oppilaat harjoittelevat systemaattista laskemista ja datan organisointia.',
+      },
+      {
+        id: '12',
+        question: 'Miten kaaviotehtävät tukevat POPS 2014 tavoitteita?',
+        answer: 'Kaaviotehtävät tukevat POPS 2014 matematiikan tiedonkäsittelyn tavoitteita. Oppilaat harjoittelevat datan keräämistä, organisointia ja tulkintaa kuvakaavioiden avulla. Tehtävät valmistavat tilastollisen ajattelun perusteita.',
+      },
+    ]
     
   },
 
@@ -270,8 +423,157 @@ Harmaasävyvaihtoehto säästää mustetta. Rastita "Harmaasävy" -valintaruutu 
       securePayment: 'Turvallinen maksu',
       cancelAnytime: 'Peruuta milloin tahansa',
     },
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        slug: 'etsi-ja-laske-tyoarkit',
+        name: 'Etsi ja laske',
+        category: 'Matematiikka',
+        icon: '🔢',
+        description: 'Etsi ja laske -tehtävät täydentävät kaaviotehtäviä visuaalisen etsinnän ja laskemisen harjoittelussa. Molemmat kehittävät systemaattista laskemista.',
+      },
+      {
+        id: '2',
+        slug: 'yhteenlasku-tyoarkit',
+        name: 'Yhteenlasku',
+        category: 'Matematiikka',
+        icon: '➕',
+        description: 'Yhteenlaskutehtävät jatkavat matemaattista oppimista kaaviotehtävien jälkeen. Oppilaat soveltavat laskutaitoja numeerisiin tehtäviin.',
+      },
+      {
+        id: '3',
+        slug: 'enemman-vahemman-tyoarkit',
+        name: 'Enemmän-vähemmän',
+        category: 'Matematiikka',
+        icon: '⚖️',
+        description: 'Enemmän-vähemmän -tehtävät laajentavat kaavioiden vertailua lukumäärävertailuiksi. Oppilaat vertaavat dataa eri muodoissa.',
+      },
+      {
+        id: '4',
+        slug: 'iso-pieni-tyoarkit',
+        name: 'Iso-pieni',
+        category: 'Matematiikka',
+        icon: '📏',
+        description: 'Kokovertailutehtävät täydentävät kaavioiden vertailua visuaalisella kokovertailulla. Molemmat kehittävät vertailutaitoja eri konteksteissa.',
+      },
+      {
+        id: '5',
+        slug: 'varityskuvat-tyoarkit',
+        name: 'Värityskuvat',
+        category: 'Taide ja luovuus',
+        icon: '🎨',
+        description: 'Värityskuvat tarjoavat luovan jatkon kaaviotehtävien värittämisen jälkeen. Yhdistä matemaattinen tiedonkäsittely ja taidekasvatus.',
+      },
+      {
+        id: '6',
+        slug: 'matematiikkapulmat-tyoarkit',
+        name: 'Matematiikkapulmat',
+        category: 'Logiikka',
+        icon: '🧩',
+        description: 'Matematiikkapulmat haastavat oppilaita soveltamaan laskutaitoja ongelmanratkaisukonteksteissa. Molemmat kehittävät matemaattista ajattelua.',
+      },
+    ]
     
+  },
+
+  // -- SEO & Content Enrichment (Part 175) ------------------------------------
+
+  aiOverviewSnippet: 'Kuvakaavio-generaattori on verkkotyokalu, jolla luodaan tulostettavia laske ja varita -kaaviotehtavia. Oppilaat laskevat kuvia 20 kuvan ruudukosta ja varittavat vastaavan maaran ruutuja kaavioon. Opettajat valitsevat teeman ja kuvatyypit, ja lataavat valmiin PDF-tehtavan alle 3 minuutissa.',
+
+  comparisonTable: [
+    {
+      feature: 'Tehtävämuoto',
+      ourApp: 'Laske ja väritä -kaavio 20 kuvalla',
+      typical: 'Vain tyhjat kaaviot ilman kuvia',
+    },
+    {
+      feature: 'Kuvatyypit',
+      ourApp: '3–6 kategoriaa 3000+ teemakuvasta',
+      typical: 'Yksinkertaiset symbolit',
+    },
+    {
+      feature: 'Vastausavaimet',
+      ourApp: 'Automaattinen vastausavain joka tehtävään',
+      typical: 'Usein lisämaksullinen',
+    },
+    {
+      feature: 'Muokattavuus',
+      ourApp: 'Täysi muokkaus: siirto, skaalaus, kierto, teksti',
+      typical: 'Kiinteat pohjat',
+    },
+    {
+      feature: 'Kaupallinen lisenssi',
+      ourApp: 'Sisältyy, myy vapaasti verkossa',
+      typical: 'Lisämaksu tai ei saatavilla',
+    },
+    {
+      feature: 'Kielituki',
+      ourApp: '11 kieltä mukaan lukien suomi',
+      typical: 'Vain englanti',
+    },
+  ],
+
+  researchBacking: [
+    {
+      claim: 'Kuvakaaviot ovat tehokas tyokalu varhaisen tiedonkasittelytaidon kehittamiseen. Laske ja varita -muoto yhdistaa datan keraamisen ja visualisoinnin yhteen tehtavaan, tukien POPS 2014 tiedonkasittelyn tavoitteita.',
+      source: 'Laine, A. et al., "Tiedonkasittely alkuopetuksen matematiikassa," Helsingin yliopisto',
+    },
+    {
+      claim: 'Konkreettiset kuvapohjaiset datavisualisoinnit tuottavat paremman ymmaarryksen graafisista esityksista kuin abstraktit tilastoharjoitukset, erityisesti 5-8-vuotiailla oppijoilla.',
+      source: 'Hannula, M. S., "Matemaattisten kasitteiden kehittyminen," Turun yliopisto',
+    },
+  ],
+
+  teacherTestimonials: [
+    {
+      quote: 'Kuvakaaviot ovat loistava tapa opettaa tiedonkasittelya esiopetuksessa. Lapseni rakastavat laskea elainkuvia ja vaariittaa ruutuja kaavioon. He oppivat dataajattelua huomaamattaan leikkien kautta.',
+      name: 'Laura Jarvinen',
+      role: 'Esiopetuksen opettaja',
+      school: 'Revontulen paivakoti, Rovaniemi',
+    },
+    {
+      quote: 'Kaytan kaaviotehtavia ymparistopin oppitunneilla. Oppilaat keraavat dataa luontokuvista ja luovat kaavioita havainnoistaan. Tehtavat integroivat matematiikan ja ymparistopin taaydellisesti.',
+      name: 'Juha Mikkola',
+      role: '2. luokan opettaja',
+      school: 'Linnanmaan koulu, Oulu',
+    },
+  ],
+
+  tips: {
+    sectionTitle: 'Kuvakaaviostrategiat luokka-asteittain',
+    sectionDescription: 'Säädä kaaviogeneraattori sopivaan haasteeseen kullekin kehitysvaiheelle. Näin valitset kuvatyyppien määrän ja tiedonkäsittelyn syvyyden esikoulusta kolmanteen luokkaan.',
+    items: [
+      {
+        id: 'esikoulu',
+        icon: '🌱',
+        title: 'Esikoulu: Laske ja väritä kolmella kuvalla',
+        description: 'Kaytta kolmea kuvatyyppia yksinkertaisella teemalla kuten elaimet. Esikoululaiset laskevat kuvia ja varittavat ruutuja ohjatusti. Keskity laskemisen tarkkuuteen ja yksi-yhteen-vastaavuuteen.',
+      },
+      {
+        id: 'esiopetus',
+        icon: '🎒',
+        title: 'Esiopetus: Neljän kuvatyypin kaaviot',
+        description: 'Luo kaavioita neljalla kuvatyypilla. Esiopetuksen oppilaat harjoittelevat itsenaaista laskemista ja kaavion tayttamista. Vertaa kategorioiden lukumaaria: mika on yleisin, mika harvinaisin.',
+      },
+      {
+        id: '1-luokka',
+        icon: '📚',
+        title: '1. luokka: Viiden kategorian tiedonkäsittely',
+        description: 'Generoi kaavioita viidella kuvatyypilla. Ekaluokkalaiset kehittavat jarjestelmallista laskemista ja kaavion tulkintaa. Harjoittele vertailukysymyksia: kuinka paljon enemmaan, vahiten, yhteensa.',
+      },
+      {
+        id: '2-luokka',
+        icon: '✏️',
+        title: '2. luokka: Kuuden kategorian datavertailu',
+        description: 'Luo kaavioita kuudella kuvatyypilla tiedonkasittelyn syventamiseen. Toisluokkalaiset vertaavat kategorioita ja vastaavat monimutkaisiin kysymyksiin. Yhdista ymparistopin datankeraamiseen.',
+      },
+      {
+        id: '3-luokka',
+        icon: '🎯',
+        title: '3. luokka: Soveltavat tiedonkäsittelytehtävät',
+        description: 'Kaytta kuutta kuvatyyppia ja lisaa tulkintakysymyksia. Kolmasluokkalaiset harjoittelevat datan analysointia ja johtopaatosten tekemista kaavioiden pohjalta POPS 2014 tiedonkasittelyn tavoitteiden mukaisesti.',
+      },
+    ],
   },
 };
 

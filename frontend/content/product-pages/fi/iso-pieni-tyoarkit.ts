@@ -91,7 +91,56 @@ Jokainen tehtävä sopii esiopetukseen ja matematiikan alkuopetukseen alakouluss
       noHiddenFees: 'Ei piilomaksuja',
       cancelAnytime: 'Peruuta milloin tahansa',
     },
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        icon: '📏',
+        title: 'Viisi kokovertailun tehtävätyyppiä',
+        description: 'Valitse viidestä tehtävätyypistä: ympyäri suurin, ympyäri pienin, etsi keskikokoinen, järjestä suurimmasta pienimpaan ja järjestä pienimmästä suurimpaan. Jokainen tyyppi kehittää eri vertailutaitoja. Yhdistä tyyppejä samaan tehtävään monipuoliseen harjoitteluun.',
+      },
+      {
+        id: '2',
+        icon: '🔢',
+        title: 'Säädettävä kuvamäärä 2–5 per harjoitus',
+        description: 'Aseta 2–5 kuvaa per harjoitus hallitaksesi vaikeustasoa. Kaksi kuvaa sopii esikoululaisille yksinkertaiseen vertailuun. Kolmesta viiteen kuvaa haastaa vanhempia oppilaita vaatimalla järjestämistä ja vertailua usean kuvan kesken.',
+      },
+      {
+        id: '3',
+        icon: '🖼️',
+        title: 'Yli 3000 teemakuvaa vertailuharjoituksiin',
+        description: 'Selaa yli 3000 lapsiystavallista kuvaa kokovertailuharjoitusten luomiseen. Kuvat näytetään eri kokoina samalla sivulla. Teemapohjaiset harjoitukset yhdistävät sanastonharjoittelun ja matemaattisen vertailun.',
+      },
+      {
+        id: '4',
+        icon: '📊',
+        title: 'Harjoitusten määrä 1–10 per sivu',
+        description: 'Valitse 1–10 harjoitusta per sivua hallitaksesi tehtävän laajuutta. Vähemmän harjoituksia tarjoaa suuremmat kuvat ja selkeämmän asettelun nuoremmille oppilaille. Enemmän harjoituksia sopii itsenäiseen työskentelyyn vanhemmille oppilaille.',
+      },
+      {
+        id: '5',
+        icon: '✅',
+        title: 'Automaattiset vastausavaimet',
+        description: 'Jokainen kokovertailutehtävä generoi automaattisesti vastausavaimen. Oikeat vastaukset näkyvät selkeästi merkittyinaa. Opettajat tarkistavat oppilastöiden ratkaisut sekunneissa.',
+      },
+      {
+        id: '6',
+        icon: '🎨',
+        title: 'Täysin muokattavat tehtävät',
+        description: 'Muokkaa jokaista elementtiä luomisen jälkeen. Siirrä, skaalaa ja kierrä kuvia ja tekstiä vapaasti. Lisää taustavärejä, koristeellisia kehyksiä ja omaa tekstiä ammattimaiseen ulkoasuun.',
+      },
+      {
+        id: '7',
+        icon: '💼',
+        title: 'Kaupallinen lisenssi myyntiin',
+        description: 'Tilauksesi sisältää kaupalliset oikeudet myydä kokovertailutehtäviä verkossa. Luo matemaattisten peruskäsitteiden paketteja myytäväksi. Ei attribuutiovaatimuksia eikä ylimääräisiä lisenssimaksuja.',
+      },
+      {
+        id: '8',
+        icon: '🌍',
+        title: '11 kielen tuki',
+        description: 'Luo kokovertailutehtäviä 11 kielellä mukaan lukien suomi. Käyttöliittymä ja ohjeet kääntyvät valitulle kielelle. Kokovertailu toimii universaalisti kielirajoista riippumatta.',
+      },
+    ]
     
   },
 
@@ -184,7 +233,50 @@ Tallenna molemmat tiedostot tietokoneellesi. Anna niille selkeät nimet. "Iso-ja
     badgeText: 'Kenelle Sopii',
     readMoreLabel: 'Lue lisää',
     showLessLabel: 'Näytä vähemmän',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        icon: '🌱',
+        title: 'Esiopetuksen opettajat',
+        subtitle: 'Kokojeäsitteiden opettaminen 5–6-vuotiaille',
+        description: 'Luo ympyäri suurin/pienin -tehtäviä kahdella kuvalla esiopetuksen matemaattisten peruskäsitteiden opettamiseen. Oppilaat oppivat iso, pieni ja keskikokoinen -käsitteet konkreettisten kuvien avulla POPS 2014 tavoitteiden mukaisesti.',
+      },
+      {
+        id: '2',
+        icon: '📚',
+        title: 'Alakoulun opettajat',
+        subtitle: 'Järjestäminen ja vertailu 1. luokalle',
+        description: 'Generoi järjestämistehtäviä 3–5 kuvalla 1. luokan matematiikan opetukseen. Oppilaat järjestävät kuvia suurimmasta pienimpaan tai päinvastoin. Tehtävät kehittävät vertailutaitoja ja matemaattista ajattelua.',
+      },
+      {
+        id: '3',
+        icon: '🏠',
+        title: 'Kotiopettajat ja vanhemmat',
+        subtitle: 'Kokokäsitteiden harjoittelu kotona',
+        description: 'Luo hauskoja kokovertailutehtäviä tuttujen teemojen kuvilla. Eläin- ja kulkuneuvokuvat tekevät matemaattisista käsitteistä konkreettisia. Lapset oppivat vertailutaitoja luonnollisesti pelaten.',
+      },
+      {
+        id: '4',
+        icon: '🌍',
+        title: 'S2-opettajat',
+        subtitle: 'Kokovertailu ilman kielitaitovaatimusta',
+        description: 'Kokovertailutehtävät eivät vaadi lukutaitoa, joten ne sopivat kaikille oppilaille. Visuaalinen vertailu on kieliriippumatonta. Opettaja voi lisätä kokokäsitteiden sanastoa kahdella kielellä.',
+      },
+      {
+        id: '5',
+        icon: '💜',
+        title: 'Erityisopettajat',
+        subtitle: 'Säädettävät matemaattiset peruskäsitteet',
+        description: 'Säädä kuvamäärää ja tehtävätyyppiä HOJKS-tavoitteiden mukaisesti. Kaksi kuvaa ja ympyäri suurin -tyyppi tukevat heikompia oppilaita. Asteittain vaikeutuvat tehtävät rakentavat itseluottamusta.',
+      },
+      {
+        id: '6',
+        icon: '💰',
+        title: 'Opettajayrittäjät',
+        subtitle: 'Myy matemaattisten peruskäsitteiden paketteja',
+        description: 'Luo teemallisia kokovertailupaketteja myyntiin verkossa. Matemaattiset peruskäsitepaketti esiopetukseen ja 1. luokalle ovat suosittuja tuotteita. Kaupallinen lisenssi kattaa rajattomat myynnit.',
+      },
+    ]
     
   },
 
@@ -199,7 +291,68 @@ Tallenna molemmat tiedostot tietokoneellesi. Anna niille selkeät nimet. "Iso-ja
     showLessLabel: 'Näytä vähemmän',
     secureCheckout: 'Turvallinen maksu',
     cancelAnytime: 'Peruuta milloin tahansa',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        question: 'Mitkä tehtävätyypit ovat saatavilla kokovertailuun?',
+        answer: 'Viisi tehtävätyyppiä: ympyäri suurin kuva, ympyäri pienin kuva, etsi keskikokoinen, järjestä suurimmasta pienimpaan ja järjestä pienimmästä suurimpaan. Yhdistä eri tyyppejä samaan tehtävään monipuoliseen harjoitteluun.',
+      },
+      {
+        id: '2',
+        question: 'Mille ikäryhmille kokovertailutehtävät sopivat?',
+        answer: 'Kokovertailutehtävät palvelevat 4–7-vuotiaita. Esikoululaiset vertaavat kahta kuvaa. Esiopetuksen oppilaat hallitsevat kolmen kuvan vertailun. 1. luokan oppilaat järjestävät 4–5 kuvaa kokonsa mukaan.',
+      },
+      {
+        id: '3',
+        question: 'Sisältävätkö tehtävät vastausavaimet?',
+        answer: 'Kyllä, jokainen kokovertailutehtävä generoi automaattisesti vastausavaimen. Oikeat vastaukset näkyvät selkeästi merkittyinaa. Opettajat tarkistavat oppilastöiden ratkaisut sekunneissa.',
+      },
+      {
+        id: '4',
+        question: 'Kuinka monta kuvaa voi olla yhdessä harjoituksessa?',
+        answer: 'Valitse 2–5 kuvaa per harjoitus. Kaksi kuvaa sopii yksinkertaiseen iso-pieni-vertailuun. Kolmesta viiteen kuvaa mahdollistaa järjestämisen ja monimutkaisen vertailun.',
+      },
+      {
+        id: '5',
+        question: 'Miten kokovertailu opettaa matemaattisia käsitteitä?',
+        answer: 'Kokovertailutehtävät kehittävät seriointitaitoja (järjestäminen koon mukaan), vertailutaitoja ja matemaattista sanastoa. Nämä ovat varhaisen matematiikan perusedellytyksiä POPS 2014 mukaisesti.',
+      },
+      {
+        id: '6',
+        question: 'Voiko omia kuvia käyttää tehtävissä?',
+        answer: 'Kyllä, lataa rajattomasti omia kuvia JPEG-, PNG- tai GIF-muodossa. Yhdistä omia kuvia kirjaston kuvien kanssa. Luo personoituja kokovertailutehtäviä luokan teemojen mukaan.',
+      },
+      {
+        id: '7',
+        question: 'Miten tulostan kokovertailutehtävät?',
+        answer: 'Lataa tehtäväsi PDF- tai JPEG-muodossa 300 DPI laadulla. Valitse A4 tai Letter-sivukoko. Harmaasävyvaihtoehto säästää värimustetta suurissa erissä.',
+      },
+      {
+        id: '8',
+        question: 'Kuinka kauan yhden tehtävän luominen kestää?',
+        answer: 'Yhden kokovertailutehtävän luominen vie alle 3 minuuttia. Valitse teema ja tehtävätyyppi 20 sekunnissa. Generaattori luo tehtävän välittömästi. Useimmat opettajat luovat viikon harjoitukset 15 minuutissa.',
+      },
+      {
+        id: '9',
+        question: 'Sopivatko kokovertailutehtävät esiopetukseen?',
+        answer: 'Kokovertailutehtävät sopivat erinomaisesti esiopetukseen. Käytä ympyäri suurin/pienin -tehtävätyyppiä kahdella kuvalla. Visuaalinen vertailu tukee matemaattisten peruskäsitteiden omaksumista POPS 2014 tavoitteiden mukaisesti.',
+      },
+      {
+        id: '10',
+        question: 'Voinko myydä luomiani kokovertailutehtäviä?',
+        answer: 'Kyllä, tilauksesi sisältää kaupallisen lisenssin. Myy matemaattisten peruskäsitteiden paketteja verkossa ilman attribuutiovaatimuksia. Luo kokovertailukokoelmia digitaalisina latauksina.',
+      },
+      {
+        id: '11',
+        question: 'Voinko yhdistää eri tehtävätyyppejä samaan tehtävään?',
+        answer: 'Kyllä, voit luoda tehtäviä, joissa eri harjoitukset käyttävät eri tehtävätyyppejä. Esimerkiksi ympyäri suurin -harjoitukset yhdistettynä järjestämistehtäviin samalla sivulla.',
+      },
+      {
+        id: '12',
+        question: 'Miten kokovertailu tukee POPS 2014 tavoitteita?',
+        answer: 'Kokovertailutehtävät tukevat POPS 2014 matematiikan tavoitteita vertailun, serioimisen ja luokittelun osa-alueilla. Visuaalinen kokovertailu kehittää matemaattista ajattelua konkreettisten kuvien avulla.',
+      },
+    ]
     
   },
 
@@ -270,8 +423,157 @@ Tallenna molemmat tiedostot tietokoneellesi. Anna niille selkeät nimet. "Iso-ja
       securePayment: 'Turvallinen maksu',
       cancelAnytime: 'Peruuta milloin tahansa',
     },
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        slug: 'enemman-vahemman-tyoarkit',
+        name: 'Enemmän-vähemmän',
+        category: 'Matematiikka',
+        icon: '⚖️',
+        description: 'Enemmän-vähemmän -tehtävät laajentavat kokovertailua lukumäärävertailuksi. Molemmat kehittävät matemaattista vertailutaitoa eri konteksteissa.',
+      },
+      {
+        id: '2',
+        slug: 'kuvalajittelu-tyoarkit',
+        name: 'Kuvalajittelu',
+        category: 'Logiikka',
+        icon: '📊',
+        description: 'Kuvalajittelutehtävät laajentavat kokovertailua muihin luokitteluperusteisiin. Oppilaat lajittelevat kuvia koon lisäksi värin, muodon ja kategorian mukaan.',
+      },
+      {
+        id: '3',
+        slug: 'yhteenlasku-tyoarkit',
+        name: 'Yhteenlasku',
+        category: 'Matematiikka',
+        icon: '➕',
+        description: 'Yhteenlaskutehtävät jatkavat matemaattista oppimista kokovertailun jälkeen. Kokokäsitteiden ymmärrys tukee lukumäärän ymmärtämistä yhteenlaskussa.',
+      },
+      {
+        id: '4',
+        slug: 'kuviotehtava-tyoarkit',
+        name: 'Kuviotehtävät',
+        category: 'Logiikka',
+        icon: '🔣',
+        description: 'Kuviotehtävät täydentävät kokovertailua hahmontunnistuksella. Molemmat kehittävät visuaalista päättelykykyä ja luokittelutaitoja.',
+      },
+      {
+        id: '5',
+        slug: 'etsi-ja-laske-tyoarkit',
+        name: 'Etsi ja laske',
+        category: 'Matematiikka',
+        icon: '🔢',
+        description: 'Etsi ja laske -tehtävät yhdistävät visuaalisen etsinnän ja laskemisen. Oppilaat laskevat kuvia ja vertaavat lukumääriä kokovertailun tavoin.',
+      },
+      {
+        id: '6',
+        slug: 'varityskuvat-tyoarkit',
+        name: 'Värityskuvat',
+        category: 'Taide ja luovuus',
+        icon: '🎨',
+        description: 'Värityskuvat tarjoavat palkitsevan jatkon kokovertailutehtävien jälkeen. Yhdistä matemaattinen harjoittelu ja luova ilmaisu tasapainoisiksi oppitunneiksi.',
+      },
+    ]
     
+  },
+
+  // -- SEO & Content Enrichment (Part 175) ------------------------------------
+
+  aiOverviewSnippet: 'Iso ja pieni -generaattori on verkkotyokalu, jolla luodaan tulostettavia kokovertailutehtavia esiopetukseen ja alakouluun. Opettajat valitsevat tehtavatyypin, kuvamaaran ja teeman, ja lataavat valmiin PDF-tehtavan vastausavaimineen alle 3 minuutissa.',
+
+  comparisonTable: [
+    {
+      feature: 'Tehtävätyypit',
+      ourApp: '5 tyyppiä: ympyäri, etsi, järjestä (2 suuntaa)',
+      typical: '1–2 perustyyppiä',
+    },
+    {
+      feature: 'Kuvamäärä',
+      ourApp: '2–5 kuvaa per harjoitus säädettävästi',
+      typical: 'Kiinteä kuvamäärä',
+    },
+    {
+      feature: 'Kuvavihjeet',
+      ourApp: '3000+ teemakuvaa eri kokoina',
+      typical: 'Yksinkertaiset geometriset muodot',
+    },
+    {
+      feature: 'Vastausavaimet',
+      ourApp: 'Automaattinen vastausavain joka tehtävään',
+      typical: 'Usein lisämaksullinen',
+    },
+    {
+      feature: 'Kaupallinen lisenssi',
+      ourApp: 'Sisältyy, myy vapaasti verkossa',
+      typical: 'Lisämaksu tai ei saatavilla',
+    },
+    {
+      feature: 'Kielituki',
+      ourApp: '11 kieltä mukaan lukien suomi',
+      typical: 'Vain englanti',
+    },
+  ],
+
+  researchBacking: [
+    {
+      claim: 'Kokovertailu- ja seriointitehtävät ovat varhaisen matemaattisen ajattelun perusedellytyksiä. Järjestäminen koon mukaan rakentaa lukujonon ymmärrystä ja vertailutaitoja.',
+      source: 'Aunio, P. & Räsänen, P., "Varhaisten matemaattisten taitojen arviointi ja tukeminen," NMI-bulletin',
+    },
+    {
+      claim: 'Visuaalinen vertailu konkreettisilla kuvilla tuottaa vahvemman käsitteellisen ymmärryksen kuin abstraktit symbolit, erityisesti 4–7-vuotiailla oppijoilla siirtyessä konkreettisesta abstraktiin.',
+      source: 'Mattinen, A., "Matemaattisten taitojen kehittyminen varhaiskasvatuksessa," Turun yliopisto',
+    },
+  ],
+
+  teacherTestimonials: [
+    {
+      quote: 'Viisi tehtavatyyppia samalla sivulla tekee kokovertailusta monipuolista. Esiopetuksen oppilaani oppivat iso ja pieni -kasitteet viikossa kun tehtavat yhdistetaan konkreettisiin kokemuksiin.',
+      name: 'Jenni Toivonen',
+      role: 'Esiopetuksen opettaja',
+      school: 'Satumetsaan paivakoti, Espoo',
+    },
+    {
+      quote: 'Jarjestamistehtavat ovat loistava lammittely ennen lukujonoharjoituksia. Ekaluokkalaiseni ymmartavat paremmin lukujen suuruusjarjestyksen kun he ensin jarjestavat kuvia kokonsa mukaan.',
+      name: 'Ville Rantanen',
+      role: '1. luokan opettaja',
+      school: 'Keltinmaan koulu, Oulu',
+    },
+  ],
+
+  tips: {
+    sectionTitle: 'Kokovertailustrategiat luokka-asteittain',
+    sectionDescription: 'Säädä kokovertailugeneraattori sopivaan haasteeseen kullekin kehitysvaiheelle. Näin valitset tehtävätyypin, kuvamäärän ja vaikeustason esikoulusta toiseen luokkaan.',
+    items: [
+      {
+        id: 'esikoulu',
+        icon: '🌱',
+        title: 'Esikoulu: Iso ja pieni kahdella kuvalla',
+        description: 'Kaytta ympyroi suurin/pienin -tehtavatyyppia kahdella kuvalla. Esikoululaiset oppivat peruskasitteet iso ja pieni konkreettisten kuvien avulla. Valitse tuttuja teemoja kuten elaimet tai kulkuneuvot motivaation yllapitamiseksi.',
+      },
+      {
+        id: 'esiopetus',
+        icon: '🎒',
+        title: 'Esiopetus: Kolme kuvaa ja keskikokoinen',
+        description: 'Luo kolmen kuvan tehtavia lisaamalla keskikokoinen-kasitteen. Esiopetuksen oppilaat harjoittelevat kolmeen koon erottelua. Ympyroi-tehtavat kehittavat visuaalista erottelua POPS 2014 matemaattisten peruskasitteiden tavoitteiden mukaisesti.',
+      },
+      {
+        id: '1-luokka',
+        icon: '📚',
+        title: '1. luokka: Järjestäminen 4–5 kuvalla',
+        description: 'Generoi jarjestamistehtavia 4–5 kuvalla suurimmasta pienimpaan tai painvastoin. Ekaluokkalaiset kehittavat seriointitaitoja ja lukujonon ymmarysta. Kaytta tehtavia lammittelyna ennen lukujonoharjoituksia.',
+      },
+      {
+        id: '2-luokka',
+        icon: '✏️',
+        title: '2. luokka: Monipuoliset tehtävätyypit',
+        description: 'Yhdista eri tehtavatyyppeja samaan tehtavaan. Toisluokkalaiset vertaavat, jarjestavat ja luokittelevat kuvia kokonsa mukaan. Tehtavat toimivat matemaattisen sanaston harjoitteluna.',
+      },
+      {
+        id: '3-luokka',
+        icon: '🎯',
+        title: '3. luokka: Soveltavat vertailutehtävät',
+        description: 'Kaytta kokovertailua soveltavissa tehtavissa, joissa oppilaat vertaavat mittoja ja suuruuksia. Kolmasluokkalaiset siirtyvat visuaalisesta vertailusta numeeriseen vertailuun POPS 2014 mittaamisen tavoitteiden mukaisesti.',
+      },
+    ],
   },
 };
 

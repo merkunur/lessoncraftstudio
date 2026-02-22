@@ -93,7 +93,56 @@ Peruspaketti-tilaus sisältää kaupallisen lisenssin. Voit myydä luomiasi teht
       noHiddenFees: 'Ei piilomaksuja',
       cancelAnytime: 'Peruuta milloin tahansa',
     },
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        icon: '🤝',
+        title: 'Kuvaparien yhdistäminen visuaalisilla harjoituksilla',
+        description: 'Luo ammattimaisia yhdistämistehtäviä, joissa oppilaat piirtävät viivoja yhdistääkseen toisiinsa liittyviä kuvapareja. Jokainen tehtävä esittää kuvaparit, jotka vaativat visuaalista assosiaatiota, muistin käyttöä ja loogista yhdistämistä. Muoto kehittää kriittistä ajattelua visuaalisen suhdeanalyysin kautta.',
+      },
+      {
+        id: '2',
+        icon: '🔀',
+        title: 'Neljä yhdistämistilaa eri taitotasoille',
+        description: 'Valitse yhdistämistiloista, jotka kehittävät eri kognitiivisia taitoja. Identtisten kuvien yhdistäminen rakentaa visuaalista erottelua. Varjo-kuva-yhdistäminen kehittää muodon tunnistamista. Liittyvät parit yhdistävät toisiinsa liittyviä käsitteitä. Kategoriapohjaiset tehtävät ryhmittelevät teeman mukaan.',
+      },
+      {
+        id: '3',
+        icon: '⚙️',
+        title: 'Säädettävä parimäärä 3–8 per tehtävä',
+        description: 'Aseta 3–8 yhdistämispäriä per tehtävä hallitaksesi vaikeustasoa ja ajankäyttöä. Kolme paria sopii täydellisesti esikoululaisille. Kuudesta kahdeksaan paria haastaa esiopetuksen ja alakoulun oppilaita rakentaen tarkkaavaisuutta ja työmuistia.',
+      },
+      {
+        id: '4',
+        icon: '🖼️',
+        title: 'Yli 3000 teemakuvaa yhdistämistehtäviin',
+        description: 'Selaa yli 3000 lapsiystavallista kuvaa teemoittain kiinnostavien yhdistamisharjoitusten luomiseen. Valitse elaimista, ruoasta, kulkuneuvoista, muodoista ja kymmenista muista kategorioista. Teemapohjaiset tehtavat yllapitavat oppilaiden kiinnostusta.',
+      },
+      {
+        id: '5',
+        icon: '✅',
+        title: 'Automaattiset vastausavaimet joka tehtävään',
+        description: 'Jokainen yhdistämistehtävä generoi automaattisesti vastausavaimen, jossa oikeat parit on yhdistetty viivoilla. Opettajat tarkistavat oppilastyöt sekunneissa. Tulosta vastausavaimet erikseen itsetarkistuspisteille tai dokumenttikameralle.',
+      },
+      {
+        id: '6',
+        icon: '🎨',
+        title: 'Muokkaustyökalu täydelliseen kustomointiin',
+        description: 'Klikkaa mitä tahansa elementtiä muokataksesi sitä suoraan. Siirrä, skaalaa, kierrä tai poista tehtävän osia. Lisää mukautettua tekstiä, vaihda fontteja ja värejä, lataa taustakuvia ja lisää koristeellisia kehyksiä ammattimaiseen ulkoasuun.',
+      },
+      {
+        id: '7',
+        icon: '💼',
+        title: 'Kaupallinen lisenssi myyntiin',
+        description: 'Tilauksesi sisältää täydet kaupalliset oikeudet myydä yhdistämistehtäviä verkossa. Ei attribuutiovaatimuksia eikä ylimääräisiä lisenssimaksuja. Rakenna kannattava oppimateriaaliliiketoiminta.',
+      },
+      {
+        id: '8',
+        icon: '🌍',
+        title: '11 kielen tuki sanastoharjoitteluun',
+        description: 'Luo yhdistämistehtäviä 11 kielellä mukaan lukien suomi, ruotsi, norja ja tanska. Kuva-sana-tila luo monikielisiä sanastoharjoituksia. Täydellinen S2-opetukseen ja kielikylpyohjelmiin.',
+      },
+    ]
     
   },
 
@@ -176,7 +225,50 @@ Vastausavaimen lataus on yhtä helppoa. Klikkaa Generoi Vastausavain -painiketta
     badgeText: 'Kenelle Sopii',
     readMoreLabel: 'Lue lisää',
     showLessLabel: 'Näytä vähemmän',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        icon: '🌱',
+        title: 'Esiopetuksen opettajat',
+        subtitle: 'Visuaaliset yhdistämisharjoitukset 5–6-vuotiaille',
+        description: 'Luo helppoja 3–4 parin tehtäviä identtisellä kuvaparitilalla. Esiopetuksen oppilaat harjoittelevat visuaalista erottelua ja viivan piirtämistä samalla. Täydellinen POPS 2014 äidinkielen ja hienomotoriikan tavoitteiden tukemiseen.',
+      },
+      {
+        id: '2',
+        icon: '📖',
+        title: 'Alakoulun opettajat',
+        subtitle: 'Sanastoharjoittelua kuva-sana-yhdistämisellä',
+        description: 'Generoi kuva-sana-yhdistämistehtäviä viikon sanalistojen mukaan. Käytä 6–8 paria 1.–2. luokalle. Yhdistä tehtävät sanahakuihin ja ristisanatehtäviin kattaviin sanastopaketteihin.',
+      },
+      {
+        id: '3',
+        icon: '🏠',
+        title: 'Kotiopettajat ja vanhemmat',
+        subtitle: 'Teemallisia yhdistämistehtäviä kotiin',
+        description: 'Rakenna visuaalisia oppimispaketteja yhdistämistehtävillä. Yhdistä eläin-, luonto- tai vuodenaikateemoja useissa tehtävätyypeissä. Generoi koko viikon materiaalin 15 minuutissa mukautettavalla vaikeustasolla.',
+      },
+      {
+        id: '4',
+        icon: '🌍',
+        title: 'S2-opettajat',
+        subtitle: 'Monikieliset yhdistämisharjoitukset',
+        description: 'Luo kuva-sana-yhdistämistehtäviä 11 kielellä sanavaraston rakentamiseen. Kuvat tarjoavat yleisen kontekstin samalla kun sanat vahvistavat kohdekielen oikeinkirjoitusta. Vaihda kieliä saumattomasti saman tehtävän sisällä.',
+      },
+      {
+        id: '5',
+        icon: '🧩',
+        title: 'Erityisopettajat',
+        subtitle: 'Säädettävä vaikeustaso jokaiselle oppijalle',
+        description: 'Säädä parimäärää ja yhdistämistilaa jokaisen oppilaan taitotason mukaan. Pienet parimäärät ja identtiset kuvat tukevat heikompia oppilaita. Viivan piirtäminen kehittää hienomotoriikkaa oppimisen tuen piirissä.',
+      },
+      {
+        id: '6',
+        icon: '💰',
+        title: 'Opettajayrittäjät',
+        subtitle: 'Myy tehtäväkokoelmia kaupallisella lisenssillä',
+        description: 'Luo teemallisia yhdistämiskokoelmia myytäväksi verkossa. Vuodenaikojen ja juhlapäivien mukaiset paketit myyvät tasaisesti. Kaupallinen lisenssi kattaa rajattomat myynnit ilman attribuutiovaatimuksia.',
+      },
+    ]
     
   },
 
@@ -191,7 +283,68 @@ Vastausavaimen lataus on yhtä helppoa. Klikkaa Generoi Vastausavain -painiketta
     showLessLabel: 'Näytä vähemmän',
     secureCheckout: 'Turvallinen maksu',
     cancelAnytime: 'Peruuta milloin tahansa',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        question: 'Miten yhdistämisgeneraattori luo tehtäviä?',
+        answer: 'Generaattori asettelee kuvaparit kahdelle puolelle tehtäväsivua sekoitetussa järjestyksessä. Valitse teema, määritä parimäärä ja yhdistämistila, ja sovellus luo valmiin tehtävän vastausavaimineen sekunneissa. Oppilaat piirtävät viivoja oikeiden parien välille.',
+      },
+      {
+        id: '2',
+        question: 'Mitkä yhdistämistilat ovat saatavilla?',
+        answer: 'Neljä yhdistämistilaa: kuva-alkukirjain yhdistää kuvan ja sen alkukirjaimen, kuva-sana yhdistää kuvan ja sanan, kuva-tai-sana tarjoaa joustavimman vaihtoehdon, ja oma sana mahdollistaa mukautettujen määritelmien käytön.',
+      },
+      {
+        id: '3',
+        question: 'Kuinka monta paria voi olla yhdessä tehtävässä?',
+        answer: 'Valitse 4, 5 tai 6 paria per tehtävä. Neljä paria sopii parhaiten esikoululaisille ja esiopetuksen oppilaille. Viisi paria tarjoaa standardin harjoittelun. Kuusi paria haastaa vanhempia oppilaita vaatimalla enemmän muistia ja tarkkaavaisuutta.',
+      },
+      {
+        id: '4',
+        question: 'Sisältävätkö tehtävät vastausavaimet?',
+        answer: 'Jokainen yhdistämistehtävä generoi automaattisesti vastausavaimen. Vastausavain näyttää oikeat yhdistämislinjat parien välillä. Opettajat voivat tulostaa vastausavaimen erikseen tai näyttää sen dokumenttikameralla.',
+      },
+      {
+        id: '5',
+        question: 'Mille ikäryhmille yhdistämistehtävät sopivat?',
+        answer: 'Yhdistämistehtävät palvelevat 4–10-vuotiaita. Esikoululaiset yhdistävät identtisiä kuvia neljällä parilla. Esiopetuksen oppilaat harjoittelevat kuva-kirjain-yhdistämistä. 1.–2. luokan oppilaat ratkaisevat kuva-sana-tehtäviä kuudella parilla.',
+      },
+      {
+        id: '6',
+        question: 'Sopivatko yhdistämistehtävät esiopetukseen?',
+        answer: 'Yhdistämistehtävät sopivat erinomaisesti esiopetukseen. Käytä identtistä kuvaparitilaa neljällä parilla. Kuva-alkukirjain-tila tukee kirjaintuntemuksen kehittämistä POPS 2014 tavoitteiden mukaisesti. Viivan piirtäminen kehittää samalla hienomotoriikkaa.',
+      },
+      {
+        id: '7',
+        question: 'Voiko tehtäviä luoda useilla kielillä?',
+        answer: 'Generaattori luo tehtäviä 11 kielellä mukaan lukien suomi, ruotsi, norja, tanska ja englanti. Kuva-sana-tilassa sanat vaihdetaan valitun kielen mukaisesti. S2-opettajat hyödyntävät monikielisiä tehtäviä kotikielen ja kohdekielen yhdistämiseen.',
+      },
+      {
+        id: '8',
+        question: 'Miten tulostan yhdistämistehtävät?',
+        answer: 'Lataa tehtäväsi PDF- tai JPEG-muodossa 300 DPI laadulla. Valitse A4 tai Letter-sivukoko ennen lataamista. Harmaasävyvaihtoehto säästää värimustetta suurissa erissä. Kaikki tehtävät tulostuvat ammattimaisesti kotitulostimella.',
+      },
+      {
+        id: '9',
+        question: 'Voiko omia kuvia ladata tehtäviin?',
+        answer: 'Kyllä, lataa rajattomasti omia kuvia JPEG-, PNG- tai GIF-muodossa. Yhdistä omia kuvia 3000+ kuvakirjaston kuvien kanssa. Käytä luokkavalokuvia, oppilaiden piirustuksia tai opetussuunnitelmaan sopivia kuvia henkilökohtaiseen materiaaliin.',
+      },
+      {
+        id: '10',
+        question: 'Kuinka kauan yhden tehtävän luominen kestää?',
+        answer: 'Yhden yhdistämistehtävän luominen vie noin 2–3 minuuttia. Valitse teema ja kuvat 30 sekunnissa. Määritä asetukset 20 sekunnissa. Generaattori rakentaa tehtävän välittömästi. Useimmat opettajat luovat viikon yhdistämisharjoitukset 15 minuutissa.',
+      },
+      {
+        id: '11',
+        question: 'Voinko myydä luomiani yhdistämistehtäviä?',
+        answer: 'Kyllä, tilauksesi sisältää kaupallisen lisenssin yhdistämistehtävien myyntiin verkossa. Ei attribuutiovaatimuksia eikä ylimääräisiä lisenssimaksuja. Myy teemallisia yhdistämispaketteja digitaalisina latauksina.',
+      },
+      {
+        id: '12',
+        question: 'Miten yhdistämistehtävät tukevat POPS 2014 opetussuunnitelmaa?',
+        answer: 'Yhdistämistehtävät tukevat äidinkielen tavoitteita sanavaraston laajentamisessa kuva-sana-assosiaation kautta. Kirjain-kuva-yhdistäminen vahvistaa kirjain-äännevastaavuutta. Viivan piirtäminen kehittää hienomotoriikkaa POPS 2014 eriytettämisperiaatteiden mukaisesti.',
+      },
+    ]
     
   },
 
@@ -239,8 +392,157 @@ Vastausavaimen lataus on yhtä helppoa. Klikkaa Generoi Vastausavain -painiketta
       securePayment: 'Turvallinen maksu',
       cancelAnytime: 'Peruuta milloin tahansa',
     },
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        slug: 'sananhaku-tyoarkit',
+        name: 'Sanahaku',
+        category: 'Äidinkieli',
+        icon: '🔍',
+        description: 'Yhdistä kuvaparitehtävät sanahakupulmiin kattaviin sanastopaketteihin. Oppilaat yhdistävät kuvia sanoihin yhdessä tehtävässä ja etsivät samoja sanoja toisessa.',
+      },
+      {
+        id: '2',
+        slug: 'kuva-arvaus-tyoarkit',
+        name: 'Kuva-arvaus',
+        category: 'Äidinkieli',
+        icon: '❓',
+        description: 'Täytä-puuttuva-kirjain -tehtävät täydentävät yhdistämisharjoituksia. Oppilaat tunnistavat kuvia ja tuottavat puuttuvia kirjaimia oikeinkirjoituksen vahvistamiseksi.',
+      },
+      {
+        id: '3',
+        slug: 'varjoyhdistely-tyoarkit',
+        name: 'Varjoyhdistely',
+        category: 'Hahmottaminen',
+        icon: '👻',
+        description: 'Varjoyhdistely kehittää visuaalista erottelua tunnistamalla kuvan varjon. Yhdistä kuvaparitehtävien kanssa visuaalisten taitojen monipuoliseen harjoitteluun.',
+      },
+      {
+        id: '4',
+        slug: 'aakkosjuna-tyoarkit',
+        name: 'Aakkosjuna',
+        category: 'Varhaiskasvatus',
+        icon: '🚂',
+        description: 'Aakkosjunatehtävät yhdistettynä kuvapariyhdistämiseen luovat kattavia varhaisen lukutaidon paketteja. Esiopetuksen oppilaat harjoittelevat kirjaintuntemusta molemmissa muodoissa.',
+      },
+      {
+        id: '5',
+        slug: 'viivojen-piirtaminen-tyoarkit',
+        name: 'Viivojen piirtäminen',
+        category: 'Hienomotoriikka',
+        icon: '✏️',
+        description: 'Viivojen piirtämistehtävät kehittävät samoja hienomotorisia taitoja kuin yhdistämistehtävät. Yhdistä molemmat hienomotoriikan intensiivisiin harjoituspaketteihin.',
+      },
+      {
+        id: '6',
+        slug: 'ristisanatehtavat-tyoarkit',
+        name: 'Ristisanatehtävät',
+        category: 'Äidinkieli',
+        icon: '➕',
+        description: 'Ristisanatehtävät yhdistettynä kuvaparitehtäviin luovat monipuolisia sanastopaketteja. Oppilaat kohtaavat samat teemasanat eri muodoissa vahvistaen muistiin painamista.',
+      },
+    ]
     
+  },
+
+  // -- SEO & Content Enrichment (Part 175) ------------------------------------
+
+  aiOverviewSnippet: 'Yhdista parit -generaattori on verkkotyokalu, jolla luodaan tulostettavia kuvaparien yhdistamistehtavia esiopetukseen ja alakouluun. Opettajat valitsevat yhdistamistilan, parien maaran ja teemakuvat, ja lataavat valmiin PDF-tehtavan automaattisella vastausavaimella alle 3 minuutissa.',
+
+  comparisonTable: [
+    {
+      feature: 'Yhdistämistilat',
+      ourApp: '4 tilaa: kuva-kirjain, kuva-sana, joustava, mukautettu',
+      typical: '1–2 kiinteää tilaa',
+    },
+    {
+      feature: 'Kuvavihjeet',
+      ourApp: '3000+ teemakuvaa visuaalisina elementteinä',
+      typical: 'Vain tekstipohjaiset tehtävät',
+    },
+    {
+      feature: 'Vastausavaimet',
+      ourApp: 'Automaattinen vastausavain joka tehtävään',
+      typical: 'Manuaalinen tai lisämaksullinen',
+    },
+    {
+      feature: 'Parimäärä',
+      ourApp: '4–6 paria säädettävästi',
+      typical: 'Kiinteä parimäärä',
+    },
+    {
+      feature: 'Kaupallinen lisenssi',
+      ourApp: 'Sisältyy, myy vapaasti verkossa',
+      typical: 'Lisämaksu tai ei saatavilla',
+    },
+    {
+      feature: 'Kielituki',
+      ourApp: '11 kieltä mukaan lukien suomi',
+      typical: 'Vain englanti',
+    },
+  ],
+
+  researchBacking: [
+    {
+      claim: 'Visuaalinen parien yhdistäminen kehittää työmuistia ja visuaalista erottelukykyä, jotka ovat varhaisen lukutaidon perusedellytyksiä. Kuva-sana-assosiaatioharjoitukset vahvistavat sanavaraston omaksumista merkittävästi.',
+      source: 'Lerkkanen, M.-K., "Lukemaan oppiminen ja opettaminen," WSOY',
+    },
+    {
+      claim: 'Yhdistämistehtävät, joissa oppilaat piirtävät viivoja kohteiden välille, kehittävät samanaikaisesti hienomotoriikkaa ja visuaalista hahmottamista, tukien kirjoittamisvalmiutta kokonaisvaltaisesti.',
+      source: 'Niilo Mäki Instituutti, "Visuaalisen hahmottamisen ja motoristen taitojen yhteys," Jyväskylän yliopisto',
+    },
+  ],
+
+  teacherTestimonials: [
+    {
+      quote: 'Kuva-kirjain-yhdistamistila on loistava esiopetuksen aamutyoskentelyyn. Oppilaat tunnistavat kuvan ja yhdistivat oikean alkukirjaimen tehden kirjainharjoittelusta hauskaa ja tehokasta.',
+      name: 'Riikka Lahtinen',
+      role: 'Esiopetuksen opettaja',
+      school: 'Taitoniekkojen paivakoti, Turku',
+    },
+    {
+      quote: 'Myyn teemallisia yhdistamiskokoelmia verkossa ja tama generaattori muutti tuotantoaikani tunnista viiteentoista minuuttiin. Neljan yhdistamistilan ansiosta voin luoda vaihtelevaa sisaltoa helposti.',
+      name: 'Sami Heikkinen',
+      role: 'Opettajayrittaja',
+      school: 'OpeHeikkinen verkkokauppa',
+    },
+  ],
+
+  tips: {
+    sectionTitle: 'Yhdistämisstrategiat luokka-asteittain',
+    sectionDescription: 'Säädä yhdistämisgeneraattori sopivaan haasteeseen kullekin kehitysvaiheelle. Näin asetat yhdistämistilan, parimäärän ja vaikeustason esikoulusta kolmanteen luokkaan.',
+    items: [
+      {
+        id: 'esikoulu',
+        icon: '🌱',
+        title: 'Esikoulu: Identtiset kuvaparit',
+        description: 'Kaytta identtista kuvaparitilaa neljalla parilla. Esikoululaiset harjoittelevat samanlaisten kuvien tunnistamista ja viivan piirtamista kahden kuvan valille. Yksinkertainen muoto rakentaa visuaalista erottelua ja kynanhallintaa.',
+      },
+      {
+        id: 'esiopetus',
+        icon: '🎒',
+        title: 'Esiopetus: Kuva-kirjain-yhdistäminen',
+        description: 'Luo kuva-alkukirjain-tehtavia viidella parilla. Esiopetuksen oppilaat tunnistavat kuvan ja yhdistivat oikean alkukirjaimen. Tama tukee kirjaintuntemuksen kehittamista POPS 2014 aidinkielen tavoitteiden mukaisesti.',
+      },
+      {
+        id: '1-luokka',
+        icon: '📚',
+        title: '1. luokka: Kuva-sana-yhdistäminen',
+        description: 'Generoi kuva-sana-tehtavia viidella tai kuudella parilla viikon sanalistojen sanoilla. Ekaluokkalaiset kehittavat lukutaitoa yhdistamalla kuvia ja sanoja. Tehtavat vahvistavat oikeinkirjoitusta ja sanan tunnistamista.',
+      },
+      {
+        id: '2-luokka',
+        icon: '✏️',
+        title: '2. luokka: Kategoriapohjaiset yhdistämistehtävät',
+        description: 'Rakenna oma sana -tilalla tehtavia kuudella parilla, joissa oppilaat yhdistivat kuvia maaritelmiin tai kaannoksiin. Toisluokkalaiset kehittavat luokittelutaitoja ja abstraktia ajattelua.',
+      },
+      {
+        id: '3-luokka',
+        icon: '🎯',
+        title: '3. luokka: Monikieliset sanastohaasteet',
+        description: 'Luo kuva-sana-tehtavia kahdella kielella kuudella parilla. Kolmasluokkalaiset harjoittelevat vieraan kielen sanastoa yhdistamalla kuvia kohdekielen sanoihin. Kaytta tehtavia aidinkielen ja vieraan kielen integroituun opetukseen.',
+      },
+    ],
   },
 };
 

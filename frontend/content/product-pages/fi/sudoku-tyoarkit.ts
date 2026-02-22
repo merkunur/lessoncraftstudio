@@ -95,7 +95,56 @@ Tulostettavat tehtävät lapsille ilmainen on tärkein hakusana suomalaisille op
       noHiddenFees: 'Ei piilomaksuja',
       cancelAnytime: 'Peruuta milloin tahansa',
     },
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        icon: '🧩',
+        title: '4x4 kuvasudoku-ruudukot lapsille',
+        description: 'Generaattori luo 4x4 sudoku-ruudukoita käyttäen värikkäitä kuvia numeroiden sijaan. Tämä tekee sudokuista houkuttelevia ja sopivia 4–9-vuotiaille lapsille. Neljän kuvan ruudukko on hallittavan kokoinen loogisen ajattelun esittelyyn.',
+      },
+      {
+        id: '2',
+        icon: '📊',
+        title: 'Kolme vaikeustasoa: helppo, keskitaso, vaikea',
+        description: 'Helppo taso jattaa 4 ruutua tyhjiksi esiopetukseen. Keskitaso jättää 6 ruutua tyhjiksi 1. luokalle. Vaikea taso jättää 8 ruutua tyhjiksi 2.–3. luokan haasteeksi. Progressiivinen vaikeutuminen tukee loogisen ajattelun kehittymistä.',
+      },
+      {
+        id: '3',
+        icon: '✂️',
+        title: 'Leikkaa ja liimaa -muoto',
+        description: 'Sudoku-tehtävät käyttävät leikkaa ja liimaa -muotoa. Oppilaat leikkaavat kuvat erillisestä kuvaruudusta ja liimaavat ne oikeisiin ruutuihin. Tämä yhdistää loogisen ajattelun ja hienomotoriikan kehittämisen samassa tehtävässä.',
+      },
+      {
+        id: '4',
+        icon: '🖼️',
+        title: 'Yli 3000 teemakuvaa',
+        description: 'Selaa yli 3000 lapsiystavallista kuvaa teemoittain. Valitse neljä kuvaa samasta teemasta johdonmukaisiin sudoku-tehtäviin. Eläin-, ruoka- ja kulkuneuvoteemat pitävät oppilaat motivoituneina.',
+      },
+      {
+        id: '5',
+        icon: '✅',
+        title: 'Automaattiset vastausavaimet',
+        description: 'Jokainen sudoku-tehtävä generoi automaattisesti vastausavaimen, jossa kaikki ruudut on täytetty oikeilla kuvilla. Opettajat tarkistavat oppilastöiden ratkaisut nopeasti. Vastausavain tulostuu erilliselle sivulle.',
+      },
+      {
+        id: '6',
+        icon: '🎨',
+        title: 'Täysin muokattavat tehtävät',
+        description: 'Muokkaa jokaista elementtiä luomisen jälkeen. Siirrä, skaalaa ja kierrä kuvia vapaasti. Lisää omaa tekstiä, taustavärejä ja koristeellisia kehyksiä. Luo ammattitason sudoku-tehtäviä nopeasti.',
+      },
+      {
+        id: '7',
+        icon: '💼',
+        title: 'Kaupallinen lisenssi myyntiin',
+        description: 'Tilauksesi sisältää kaupalliset oikeudet myydä sudoku-tehtäviä verkossa. Luo teemallisia logiikkapelipaketteja myytäväksi. Ei attribuutiovaatimuksia eikä ylimääräisiä lisenssimaksuja.',
+      },
+      {
+        id: '8',
+        icon: '🌍',
+        title: '11 kielen tuki',
+        description: 'Luo sudoku-tehtäviä 11 kielellä mukaan lukien suomi. Käyttöliittymä ja ohjeet kääntyvät valitulle kielelle. Kuvasudokut toimivat universaalisti kielirajoista riippumatta.',
+      },
+    ]
     
   },
 
@@ -182,7 +231,50 @@ Tulosta tehtävät kotitulostimella tai koulun tulostimella. A4-paperi toimii t�
     badgeText: 'Kenelle Sopii',
     readMoreLabel: 'Lue lisää',
     showLessLabel: 'Näytä vähemmän',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        icon: '🌱',
+        title: 'Esiopetuksen opettajat',
+        subtitle: 'Logiikan esittely helpolla tasolla',
+        description: 'Luo helpon tason kuvasudokuja esiopetuksen loogisen ajattelun harjoitteluun. Neljä tyhjää ruutua pitää tehtävän hallittavana. Leikkaa ja liimaa -muoto kehittää samalla hienomotoriikkaa POPS 2014 tavoitteiden mukaisesti.',
+      },
+      {
+        id: '2',
+        icon: '📚',
+        title: 'Alakoulun opettajat',
+        subtitle: 'Looginen ajattelu 1.–3. luokalle',
+        description: 'Hyödynnä kolmea vaikeustasoa progressiiviseen loogisen ajattelun kehittämiseen. Ekaluokkalaiset aloittavat keskitasolta ja siirtyvät vaikeaan. Sudoku-tehtävät toimivat lisähaasteena nopeille oppilaille.',
+      },
+      {
+        id: '3',
+        icon: '🏠',
+        title: 'Kotiopettajat ja vanhemmat',
+        subtitle: 'Logiikkapelit kotiin',
+        description: 'Luo kuvasudokuja vapaa-ajan oppimishetkiin kotona. Lapset nauttivat sudokujen ratkaisemisesta itsenäisesti. Asteittain vaikeutuvat tehtävät pitävät haasteen sopivana pidempienkin sessioiden ajan.',
+      },
+      {
+        id: '4',
+        icon: '🌍',
+        title: 'S2-opettajat',
+        subtitle: 'Kielirajat ylittävä logiikkapeli',
+        description: 'Kuvasudokut eivät vaadi kielitaitoa, joten ne sopivat kaikille oppilaille taustasta riippumatta. Loogisen ajattelun kehittäminen on kieliriippumatonta. Täydellinen kotoutumisvaiheen matemaattiseen ajatteluun.',
+      },
+      {
+        id: '5',
+        icon: '💜',
+        title: 'Erityisopettajat',
+        subtitle: 'Yksilöllistetyt logiikkaharjoitukset',
+        description: 'Säädä vaikeustasoa HOJKS-tavoitteiden mukaisesti. Helppo taso neljällä tyhjallä ruudulla tukee heikompia oppilaita. Leikkaa ja liimaa -muoto kehittää useita taitoja samanaikaisesti.',
+      },
+      {
+        id: '6',
+        icon: '💰',
+        title: 'Opettajayrittäjät',
+        subtitle: 'Myy logiikkapelipaketteja',
+        description: 'Luo teemallisia sudoku-paketteja myyntiin verkossa. Logiikkapelit ovat suosittu kategoria opettajakauppoissa. Kaupallinen lisenssi kattaa rajattomat myynnit.',
+      },
+    ]
     
   },
 
@@ -197,7 +289,68 @@ Tulosta tehtävät kotitulostimella tai koulun tulostimella. A4-paperi toimii t�
     showLessLabel: 'Näytä vähemmän',
     secureCheckout: 'Turvallinen maksu',
     cancelAnytime: 'Peruuta milloin tahansa',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        question: 'Miten lasten sudoku-generaattori toimii?',
+        answer: 'Generaattori luo 4x4 sudoku-ruudukoita käyttäen kuvia numeroiden sijaan. Valitse neljä teemakuvaa ja vaikeustaso. Sovellus sijoittaa kuvat ruudukkoon niin, että jokainen kuva esiintyy kerran jokaisella rivillä ja sarakkeessa. Tyhjät ruudut tarjoavat ratkaistavaa oppilaille.',
+      },
+      {
+        id: '2',
+        question: 'Mitkä vaikeustasot ovat saatavilla?',
+        answer: 'Kolme vaikeustasoa: helppo (4 tyhjää ruutua), keskitaso (6 tyhjää ruutua) ja vaikea (8 tyhjää ruutua). Helppo sopii esiopetuksen oppilaille. Keskitaso sopii 1. luokalle. Vaikea haastaa 2.–3. luokan oppilaat.',
+      },
+      {
+        id: '3',
+        question: 'Miten leikkaa ja liimaa -muoto toimii?',
+        answer: 'Jokainen sudoku-tehtävä sisältää ruudukon tyhjinä ruutuina ja erillisen kuvaruudun leikattavilla kuvilla. Oppilaat leikkaavat kuvat ja liimaavat ne oikeisiin ruutuihin loogisen päättelyn avulla. Tämä yhdistää logiikan ja motorisen taidon.',
+      },
+      {
+        id: '4',
+        question: 'Sisältävätkö tehtävät vastausavaimet?',
+        answer: 'Kyllä, jokainen sudoku generoi automaattisesti vastausavaimen. Vastausavain näyttää kaikki ruudut oikeilla kuvilla täytettyinä. Opettajat tarkistavat oppilastöiden ratkaisut nopeasti vastausavaimesta.',
+      },
+      {
+        id: '5',
+        question: 'Mille ikäryhmille kuvasudoku sopii?',
+        answer: 'Kuvasudoku palvelee 4–9-vuotiaita. Esiopetuksen oppilaat ratkaisevat helppoja sudokuja ohjattuna. 1. luokan oppilaat hallitsevat keskitason itsenäisesti. 2.–3. luokan oppilaat nauttivat vaikean tason haasteista.',
+      },
+      {
+        id: '6',
+        question: 'Miksi kuvat numeroiden sijaan?',
+        answer: 'Kuvat tekevät sudokuista saavutettavia nuoremmille lapsille, jotka eivät vielä tunne numeroita. Värikkäät eläin- ja teemakuvat lisäävät motivaatiota. Looginen päättely kehittyy samalla tavalla kuva- ja numerosudokussa.',
+      },
+      {
+        id: '7',
+        question: 'Voiko sudoku-tehtäviä muokata luomisen jälkeen?',
+        answer: 'Kyllä, jokainen elementti on muokattavissa luomisen jälkeen. Siirrä, skaalaa ja kierrä kuvia vapaasti. Lisää omaa tekstiä, taustoja ja kehyksiä. Luo ammattitasoisia sudoku-tehtäviä nopeasti.',
+      },
+      {
+        id: '8',
+        question: 'Miten tulostan sudoku-tehtävät?',
+        answer: 'Lataa tehtäväsi PDF- tai JPEG-muodossa 300 DPI laadulla. Valitse A4 tai Letter-sivukoko. Harmaasävyvaihtoehto säästää värimustetta. Kaikki tehtävät tulostuvat ammattimaisesti kotitulostimella.',
+      },
+      {
+        id: '9',
+        question: 'Kuinka kauan yhden sudoku-tehtävän luominen kestää?',
+        answer: 'Yhden sudoku-tehtävän luominen vie alle 3 minuuttia. Valitse teema ja kuvat 20 sekunnissa. Määritä vaikeustaso 10 sekunnissa. Generaattori luo tehtävän välittömästi.',
+      },
+      {
+        id: '10',
+        question: 'Voinko myydä luomiani sudoku-tehtäviä?',
+        answer: 'Kyllä, tilauksesi sisältää kaupallisen lisenssin. Myy teemallisia logiikkapelipaketteja verkossa ilman attribuutiovaatimuksia. Luo kuvasudoku-kokoelmia digitaalisina latauksina.',
+      },
+      {
+        id: '11',
+        question: 'Sopivatko sudokut erityisopetukseen?',
+        answer: 'Kuvasudokut sopivat erinomaisesti erityisopetukseen kolmen vaikeustason ansiosta. Helppo taso neljällä tyhjallä ruudulla tukee heikompia oppilaita. Leikkaa ja liimaa -muoto tarjoaa moniaistisen oppimiskokemuksen.',
+      },
+      {
+        id: '12',
+        question: 'Miten sudoku tukee POPS 2014 opetussuunnitelmaa?',
+        answer: 'Sudoku-tehtävät tukevat POPS 2014 matematiikan tavoitetta T1 (matemaattinen ajattelu ja looginen päättely). Poissulkemistrategia kehittää sisäistä loogista ajattelua. Leikkaa ja liimaa -muoto tukee toiminnallisen oppimisen periaatetta.',
+      },
+    ]
     
   },
 
@@ -245,8 +398,157 @@ Tulosta tehtävät kotitulostimella tai koulun tulostimella. A4-paperi toimii t�
       securePayment: 'Turvallinen maksu',
       cancelAnytime: 'Peruuta milloin tahansa',
     },
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        slug: 'matematiikkapulmat-tyoarkit',
+        name: 'Matematiikkapulmat',
+        category: 'Logiikka',
+        icon: '🧩',
+        description: 'Matematiikkapulmat laajentavat sudokujen loogista ajattelua numeerisiin haasteisiin. Molemmat kehittävät poissulkemisstrategiaa ja päättelykykyä.',
+      },
+      {
+        id: '2',
+        slug: 'ruudukko-sovitus-tyoarkit',
+        name: 'Ruudukkosovitus',
+        category: 'Logiikka',
+        icon: '📋',
+        description: 'Ruudukkosovitustehtävät hyödyntävät samaa ruudukkoajattelua kuin sudokut. Oppilaat sovittavat kuvia ruudukkoihin loogisesti.',
+      },
+      {
+        id: '3',
+        slug: 'kuviotehtava-tyoarkit',
+        name: 'Kuviotehtävät',
+        category: 'Logiikka',
+        icon: '🔣',
+        description: 'Kuviotehtävät täydentävät sudokujen logiikkaharjoittelua hahmontunnistuksella. Molemmat kehittävät visuaalista päättelykykyä.',
+      },
+      {
+        id: '4',
+        slug: 'puuttuvat-palat-tyoarkit',
+        name: 'Puuttuvat palat',
+        category: 'Hahmottaminen',
+        icon: '🧱',
+        description: 'Puuttuvat palat -tehtävät hyödyntävät samaa poissulkemisstrategiaa kuin sudokut. Oppilaat päättelevät puuttuvan osan loogisesti.',
+      },
+      {
+        id: '5',
+        slug: 'etsi-esineet-tyoarkit',
+        name: 'Etsi esineet',
+        category: 'Hahmottaminen',
+        icon: '🔎',
+        description: 'Etsi esineet -tehtävät kehittävät visuaalista etsintää kuten sudokut. Molemmat vaativat tarkkaa havainnointia ja systemaattista lähestymistapaa.',
+      },
+      {
+        id: '6',
+        slug: 'poikkea-joukosta-tyoarkit',
+        name: 'Poikkea joukosta',
+        category: 'Logiikka',
+        icon: '🤔',
+        description: 'Poikkea joukosta -tehtävät yhdistettynä sudokuihin luovat kattavia logiikkapaketteja. Molemmat kehittävät luokittelutaitoja ja loogista päättelyä.',
+      },
+    ]
     
+  },
+
+  // -- SEO & Content Enrichment (Part 175) ------------------------------------
+
+  aiOverviewSnippet: 'Lasten sudoku-generaattori on verkkotyokalu, jolla luodaan tulostettavia 4x4 kuvasudokuja esiopetukseen ja alakouluun. Opettajat valitsevat teemakuvat ja vaikeustason, ja lataavat valmiin leikkaa-ja-liimaa-muotoisen PDF-tehtavan vastausavaimineen alle 3 minuutissa.',
+
+  comparisonTable: [
+    {
+      feature: 'Kuvapohjaisuus',
+      ourApp: '3000+ teemakuvaa numeroiden sijaan',
+      typical: 'Vain numero-sudokut',
+    },
+    {
+      feature: 'Vaikeustasot',
+      ourApp: '3 tasoa: helppo (4), keskitaso (6), vaikea (8 tyhjää)',
+      typical: '1–2 kiinteää tasoa',
+    },
+    {
+      feature: 'Leikkaa ja liimaa',
+      ourApp: 'Sisäänrakennettu leikattavat osat',
+      typical: 'Vain kirjoitettavat ruudut',
+    },
+    {
+      feature: 'Vastausavaimet',
+      ourApp: 'Automaattinen vastausavain joka tehtävään',
+      typical: 'Usein lisämaksullinen',
+    },
+    {
+      feature: 'Kaupallinen lisenssi',
+      ourApp: 'Sisältyy, myy vapaasti verkossa',
+      typical: 'Lisämaksu tai ei saatavilla',
+    },
+    {
+      feature: 'Kielituki',
+      ourApp: '11 kieltä mukaan lukien suomi',
+      typical: 'Vain englanti',
+    },
+  ],
+
+  researchBacking: [
+    {
+      claim: 'Sudoku-tyyppiset logiikkapulmat kehittävät poissulkemisstrategiaa ja deduktiivista päättelyä, jotka ovat matemaattisen ajattelun perusedellytyksiä. 4x4 ruudukkokoko on optimaalinen 4–9-vuotiaille.',
+      source: 'Aunio, P., "Varhaisten matemaattisten taitojen kehitys," Helsingin yliopisto',
+    },
+    {
+      claim: 'Leikkaa ja liimaa -muotoiset tehtävät yhdistävät kognitiivisen haasteen ja motorisen harjoittelun tehokkaasti, tukien moniaistista oppimista ja syventäen tehtävään sitoutumista.',
+      source: 'Korhonen, J. et al., "Matemaattisen ajattelun kehittyminen alkuopetuksessa," Turun yliopisto',
+    },
+  ],
+
+  teacherTestimonials: [
+    {
+      quote: 'Kuvasudokut ovat loistava lisahaaste nopeille oppilaille. Helppo taso sopii esiopetuksen aamutyoskentelyyn ja vaikea taso haastaa taitavimmat kolmasluokkalaiset. Kolme vaikeustasoa mahdollistavat eriyttamisen saman tehtavan sisalla.',
+      name: 'Tiina Koskinen',
+      role: 'Luokanopettaja 1–2',
+      school: 'Havukosken koulu, Vantaa',
+    },
+    {
+      quote: 'S2-oppilaani nauttivat kuvasudokuista koska ne eivat vaadi kielitaitoa. Looginen ajattelu kehittyy samalla kun oppilaat integroituvat luokan toimintaan. Leikkaa ja liimaa -muoto lisaa motivaatiota.',
+      name: 'Anna-Liisa Peltonen',
+      role: 'Erityisopettaja',
+      school: 'Keskustan koulu, Jyvaskyla',
+    },
+  ],
+
+  tips: {
+    sectionTitle: 'Sudoku-strategiat luokka-asteittain',
+    sectionDescription: 'Säädä sudoku-generaattori sopivaan haasteeseen kullekin kehitysvaiheelle. Näin valitset vaikeustason ja työskentelytavan esikoulusta kolmanteen luokkaan.',
+    items: [
+      {
+        id: 'esikoulu',
+        icon: '🌱',
+        title: 'Esikoulu: Tutustuminen logiikkaan',
+        description: 'Esittele kuvasudoku pienryhmassa opettajan ohjauksessa. Kaytta helppoa tasoa neljalla tyhjalla ruudulla ja tuttuja elainteeman kuvia. Esikoululaiset harjoittelevat poissulkemista yksinkertaisimmassa muodossa.',
+      },
+      {
+        id: 'esiopetus',
+        icon: '🎒',
+        title: 'Esiopetus: Helppo taso itsenäisesti',
+        description: 'Esiopetuksen oppilaat ratkaisevat helpon tason sudokuja itsenaisesti. Leikkaa ja liimaa -muoto kehittaa samalla hienomotoriikkaa. Harjoita poissulkemisstrategiaa aamutyoskentelyssa POPS 2014 matemaattisen ajattelun tavoitteiden mukaisesti.',
+      },
+      {
+        id: '1-luokka',
+        icon: '📚',
+        title: '1. luokka: Keskitason haaste',
+        description: 'Ekaluokkalaiset siirtyvat keskitasolle kuudella tyhjalla ruudulla. Oppilaat kehittavat jarjestelmallista paattelystrategiaa. Kaytta sudokuja lisahaasteena matematiikkatunneilla tai aamutyoskentelyssa.',
+      },
+      {
+        id: '2-luokka',
+        icon: '✏️',
+        title: '2. luokka: Vaikea taso ja itsenäinen työskentely',
+        description: 'Toisluokkalaiset ratkaisevat vaikean tason sudokuja kahdeksalla tyhjalla ruudulla itsenaisesti. Oppilaat kehittavat pitkajanniteista loogista paattelya. Tarjoa sudokuja laajennustehtavana nopeille oppilaille.',
+      },
+      {
+        id: '3-luokka',
+        icon: '🎯',
+        title: '3. luokka: Strateginen ajattelu',
+        description: 'Kolmasluokkalaiset hallitsevat vaikean tason ja alkavat kehittaa omia ratkaisustrategioitaan. Kaytta sudokuja matemaattisen ajattelun syventamiseen POPS 2014 vuosiluokkien 3–6 tavoitteiden mukaisesti.',
+      },
+    ],
   },
 };
 

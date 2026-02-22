@@ -62,22 +62,22 @@ const content: EnrichedThemeContent = {
   ],
   curriculumAlignment: [
     {
-      standard: 'K.MD.A.1',
-      framework: 'Common Core',
-      description: 'Describe measurable attributes of body parts such as length and height when comparing arms, legs, and fingers',
+      standard: 'POPS.YL.1-2.T4',
+      framework: 'POPS 2014',
+      description: 'Tunnistaa kehon osat ja ymmärtää niiden toiminta',
       relatedAppIds: ['find-and-count', 'matching-app'],
     },
     {
-      standard: '1.OA.A.1',
-      framework: 'Common Core',
-      description: 'Solve addition and subtraction word problems using body part counting within 20',
+      standard: 'POPS.MA.1-2.T2',
+      framework: 'POPS 2014',
+      description: 'Laskea ja luokitella kehon osia matemaattisesti',
       relatedAppIds: ['image-addition'],
     },
     {
-      standard: 'K.RF.1',
-      framework: 'Common Core',
-      description: 'Demonstrate understanding of basic print concepts through body vocabulary labeling and word recognition activities',
-      relatedAppIds: ['word-search', 'writing-app', 'word-scramble'],
+      standard: 'POPS.AI.1-2.T2',
+      framework: 'POPS 2014',
+      description: 'Oppia kehon osiin liittyvää sanastoa',
+      relatedAppIds: ['word-search', 'image-crossword'],
     },
   ],
 

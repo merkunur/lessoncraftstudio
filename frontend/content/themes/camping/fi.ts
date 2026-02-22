@@ -62,22 +62,22 @@ const content: EnrichedThemeContent = {
   ],
   curriculumAlignment: [
     {
-      standard: 'K.OA.A.2',
-      framework: 'Common Core',
-      description: 'Solve addition and subtraction word problems within 10 using campsite supply scenarios',
+      standard: 'POPS.MA.1-2.T3',
+      framework: 'POPS 2014',
+      description: 'Harjoitella yhteen- ja vähennyslaskua retkeilyaiheilla',
       relatedAppIds: ['image-addition'],
     },
     {
-      standard: '1.MD.A.1',
-      framework: 'Common Core',
-      description: 'Order camping objects by length and compare measurements in trail and supply contexts',
-      relatedAppIds: ['image-addition'],
+      standard: 'POPS.YL.1-2.T1',
+      framework: 'POPS 2014',
+      description: 'Tehdä havaintoja luonnosta retkeillä ja leirikouluissa',
+      relatedAppIds: ['find-and-count', 'find-objects'],
     },
     {
-      standard: 'K.RF.3',
-      framework: 'Common Core',
-      description: 'Apply grade-level phonics to decode camping and nature vocabulary in word activities',
-      relatedAppIds: ['word-search', 'word-scramble'],
+      standard: 'POPS.YL.1-2.T2',
+      framework: 'POPS 2014',
+      description: 'Tutustua luonnossa liikkumiseen ja retkeilyyn',
+      relatedAppIds: ['matching-app'],
     },
   ],
 

@@ -62,22 +62,22 @@ const content: EnrichedThemeContent = {
   ],
   curriculumAlignment: [
     {
-      standard: 'K.CC.B.5',
-      framework: 'Common Core',
-      description: 'Count to answer how many questions about circus performers and objects in groups up to 20',
+      standard: 'POPS.MA.1-2.T2',
+      framework: 'POPS 2014',
+      description: 'Harjoitella laskemista sirkusaiheisilla tehtävillä',
       relatedAppIds: ['image-addition', 'find-and-count'],
     },
     {
-      standard: 'K.MD.B.3',
-      framework: 'Common Core',
-      description: 'Classify circus objects and performers into categories and count items in each category',
-      relatedAppIds: ['odd-one-out', 'matching-app'],
+      standard: 'POPS.KU.1-2.T1',
+      framework: 'POPS 2014',
+      description: 'Havainnoida sirkuksen värikkyttä ja liikettä kuvallisesti',
+      relatedAppIds: ['coloring', 'draw-and-color'],
     },
     {
-      standard: 'L.K.4',
-      framework: 'Common Core',
-      description: 'Determine meanings of unknown circus vocabulary words through context and illustration clues',
-      relatedAppIds: ['word-search', 'word-scramble'],
+      standard: 'POPS.MA.1-2.T7',
+      framework: 'POPS 2014',
+      description: 'Tunnistaa kuvioita ja säännönmukaisuuksia sirkusesityksissä',
+      relatedAppIds: ['pattern-train'],
     },
   ],
 

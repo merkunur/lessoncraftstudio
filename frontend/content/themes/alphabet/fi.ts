@@ -63,22 +63,22 @@ const content: EnrichedThemeContent = {
   ],
   curriculumAlignment: [
     {
-      standard: 'K.RF.1.D',
-      framework: 'Common Core',
-      description: 'Recognize and name all upper- and lowercase letters of the alphabet',
+      standard: 'POPS.AI.1-2.T2',
+      framework: 'POPS 2014',
+      description: 'Tunnistaa ja nimetä kirjaimet sekä kehittää lukutaitoa',
       relatedAppIds: ['alphabet-train', 'matching-app'],
     },
     {
-      standard: 'K.RF.2.D',
-      framework: 'Common Core',
-      description: 'Isolate and pronounce the initial sounds in words to build phonemic awareness',
-      relatedAppIds: ['word-guess', 'image-crossword'],
+      standard: 'POPS.AI.1-2.T3',
+      framework: 'POPS 2014',
+      description: 'Harjoitella kirjainten kirjoittamista ja oikeinkirjoitusta',
+      relatedAppIds: ['writing-app'],
     },
     {
-      standard: 'K.L.1.A',
-      framework: 'Common Core',
-      description: 'Print many upper- and lowercase letters demonstrating proper letter formation',
-      relatedAppIds: ['writing-app'],
+      standard: 'POPS.AI.1-2.T1',
+      framework: 'POPS 2014',
+      description: 'Kehittää äännetietoisuutta ja foneemien tunnistamista',
+      relatedAppIds: ['word-guess', 'image-crossword'],
     },
   ],
 

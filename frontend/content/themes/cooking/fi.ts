@@ -62,22 +62,22 @@ const content: EnrichedThemeContent = {
   ],
   curriculumAlignment: [
     {
-      standard: 'K.CC.A.2',
-      framework: 'Common Core',
-      description: 'Count forward from a given number when measuring recipe ingredients',
+      standard: 'POPS.MA.1-2.T2',
+      framework: 'POPS 2014',
+      description: 'Harjoitella laskemista ja mittaamista ruoanlaiton yhteydessä',
       relatedAppIds: ['find-and-count'],
     },
     {
-      standard: '1.OA.A.1',
-      framework: 'Common Core',
-      description: 'Solve addition and subtraction word problems using recipe and kitchen scenarios within 20',
-      relatedAppIds: ['image-addition', 'more-less'],
+      standard: 'POPS.YL.1-2.T4',
+      framework: 'POPS 2014',
+      description: 'Ymmärtää ruoanvalmistuksen ja terveellisen ravinnon perusteet',
+      relatedAppIds: ['picture-sort', 'matching-app'],
     },
     {
-      standard: 'RI.K.3',
-      framework: 'Common Core',
-      description: 'Describe the connection between recipe steps, understanding sequential and procedural text',
-      relatedAppIds: ['word-search', 'prepositions'],
+      standard: 'POPS.MA.1-2.T6',
+      framework: 'POPS 2014',
+      description: 'Oppia mittayksiköitä reseptien avulla',
+      relatedAppIds: ['math-worksheet'],
     },
   ],
 

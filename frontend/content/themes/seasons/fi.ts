@@ -61,22 +61,22 @@ const content: EnrichedThemeContent = {
   ],
   curriculumAlignment: [
     {
-      standard: 'K.MD.A.2',
-      framework: 'Common Core',
-      description: 'Classify and sort seasonal objects by attributes such as color, size, and season',
+      standard: 'POPS.YL.1-2.T2',
+      framework: 'POPS 2014',
+      description: 'Havainnoida vuodenaikojen vaihtelua ja sen vaikutuksia luontoon',
       relatedAppIds: ['picture-sort', 'matching-app'],
     },
     {
-      standard: '1.OA.C.6',
-      framework: 'Common Core',
-      description: 'Add and subtract within 20 using seasonal object counters',
-      relatedAppIds: ['image-addition'],
+      standard: 'POPS.MA.1-2.T7',
+      framework: 'POPS 2014',
+      description: 'Luokitella vuodenaikoihin liittyviä asioita',
+      relatedAppIds: ['picture-sort'],
     },
     {
-      standard: 'K.RF.3',
-      framework: 'Common Core',
-      description: 'Know and apply phonics and word analysis skills to seasonal vocabulary',
-      relatedAppIds: ['word-search', 'word-scramble'],
+      standard: 'POPS.YL.1-2.T1',
+      framework: 'POPS 2014',
+      description: 'Tehdä havaintoja vuodenaikojen kierrosta lähiympäristössä',
+      relatedAppIds: ['find-and-count'],
     },
   ],
 

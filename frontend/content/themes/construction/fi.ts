@@ -62,22 +62,22 @@ const content: EnrichedThemeContent = {
   ],
   curriculumAlignment: [
     {
-      standard: '1.OA.A.1',
-      framework: 'Common Core',
-      description: 'Solve addition and subtraction word problems using brick counts and material quantities within 20',
+      standard: 'POPS.MA.1-2.T3',
+      framework: 'POPS 2014',
+      description: 'Harjoitella yhteen- ja vähennyslaskua rakennusaiheilla',
       relatedAppIds: ['image-addition', 'math-worksheet'],
     },
     {
-      standard: 'K.MD.A.2',
-      framework: 'Common Core',
-      description: 'Compare lengths of construction tools and building materials using direct measurement',
-      relatedAppIds: ['image-addition'],
+      standard: 'POPS.MA.1-2.T5',
+      framework: 'POPS 2014',
+      description: 'Hahmottaa geometrisia muotoja rakentamisessa',
+      relatedAppIds: ['matching-app', 'shadow-match'],
     },
     {
-      standard: 'K.G.B.6',
-      framework: 'Common Core',
-      description: 'Compose simple shapes to form larger shapes in construction blueprint and building block contexts',
-      relatedAppIds: ['grid-match', 'pattern-worksheet'],
+      standard: 'POPS.KÄ.1-2.T1',
+      framework: 'POPS 2014',
+      description: 'Kehittää suunnittelun ja rakentamisen taitoja',
+      relatedAppIds: ['coloring'],
     },
   ],
 

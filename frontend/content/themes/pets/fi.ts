@@ -61,16 +61,22 @@ const content: EnrichedThemeContent = {
   ],
   curriculumAlignment: [
     {
-      standard: 'K.CC.B.5',
-      framework: 'Common Core',
-      description: 'Count to answer how many, up to 20 objects in various arrangements',
+      standard: 'POPS.MA.1-2.T2',
+      framework: 'POPS 2014',
+      description: 'Harjoitella laskemista lemmikkieläinaiheisilla tehtävillä',
       relatedAppIds: ['image-addition', 'find-and-count'],
     },
     {
-      standard: 'K.RF.3',
-      framework: 'Common Core',
-      description: 'Know and apply grade-level phonics and word analysis skills',
-      relatedAppIds: ['word-scramble', 'word-search'],
+      standard: 'POPS.YL.1-2.T3',
+      framework: 'POPS 2014',
+      description: 'Tunnistaa lemmikkieläimiä ja ymmärtää niiden hoitoa',
+      relatedAppIds: ['matching-app'],
+    },
+    {
+      standard: 'POPS.YL.1-2.T4',
+      framework: 'POPS 2014',
+      description: 'Oppia vastuullista lemmikkieläinten hoitoa',
+      relatedAppIds: ['picture-sort'],
     },
   ],
 

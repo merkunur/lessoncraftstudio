@@ -63,22 +63,22 @@ const content: EnrichedThemeContent = {
   ],
   curriculumAlignment: [
     {
-      standard: 'K.MD.A.2',
-      framework: 'Common Core',
-      description: 'Directly compare two toy objects with a measurable attribute in common to see which has more or less of the attribute',
+      standard: 'POPS.MA.1-2.T6',
+      framework: 'POPS 2014',
+      description: 'Verrata lelujen kokoja ja ominaisuuksia mittaamalla',
       relatedAppIds: ['big-small-app', 'more-less'],
     },
     {
-      standard: 'K.CC.B.4',
-      framework: 'Common Core',
-      description: 'Count toy collections to understand the relationship between numbers and quantities',
-      relatedAppIds: ['image-addition', 'find-and-count'],
+      standard: 'POPS.MA.1-2.T7',
+      framework: 'POPS 2014',
+      description: 'Luokitella leluja eri ominaisuuksien mukaan',
+      relatedAppIds: ['picture-sort', 'matching-app'],
     },
     {
-      standard: '1.MD.C.4',
-      framework: 'Common Core',
-      description: 'Organize, represent, and interpret data about toy preferences using tally charts and simple graphs',
-      relatedAppIds: ['image-addition', 'more-less'],
+      standard: 'POPS.KU.1-2.T1',
+      framework: 'POPS 2014',
+      description: 'Havainnoida lelujen värejä, muotoja ja yksityiskohtia',
+      relatedAppIds: ['coloring'],
     },
   ],
 

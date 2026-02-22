@@ -62,22 +62,22 @@ const content: EnrichedThemeContent = {
   ],
   curriculumAlignment: [
     {
-      standard: 'K.CC.B.5',
-      framework: 'Common Core',
-      description: 'Count to answer how many questions about Halloween objects arranged in scattered configurations',
+      standard: 'POPS.MA.1-2.T2',
+      framework: 'POPS 2014',
+      description: 'Harjoitella laskemista halloween-aiheisilla tehtävillä',
       relatedAppIds: ['image-addition', 'find-objects'],
     },
     {
-      standard: '1.OA.A.1',
-      framework: 'Common Core',
-      description: 'Solve addition and subtraction word problems using trick-or-treat and pumpkin patch scenarios within 20',
-      relatedAppIds: ['image-addition'],
+      standard: 'POPS.AI.1-2.T4',
+      framework: 'POPS 2014',
+      description: 'Tutustua halloween-aiheisiin tarinoihin ja sanastoon',
+      relatedAppIds: ['word-search', 'word-guess'],
     },
     {
-      standard: 'K.G.B.4',
-      framework: 'Common Core',
-      description: 'Analyze and compare two-dimensional shapes found in Halloween imagery like pumpkin faces and spider webs',
-      relatedAppIds: ['shadow-match', 'missing-pieces'],
+      standard: 'POPS.KU.1-2.T1',
+      framework: 'POPS 2014',
+      description: 'Ilmaista halloween-aiheita kuvallisesti',
+      relatedAppIds: ['coloring'],
     },
   ],
 

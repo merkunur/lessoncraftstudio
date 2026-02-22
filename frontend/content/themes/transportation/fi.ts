@@ -63,22 +63,22 @@ const content: EnrichedThemeContent = {
   ],
   curriculumAlignment: [
     {
-      standard: 'K.CC.B.4',
-      framework: 'Common Core',
-      description: 'Understand the relationship between numbers and quantities when counting wheels and vehicles',
+      standard: 'POPS.MA.1-2.T2',
+      framework: 'POPS 2014',
+      description: 'Kehittää lukumääräkäsitettä laskemalla kulkuneuvoja',
       relatedAppIds: ['image-addition', 'math-worksheet'],
     },
     {
-      standard: '1.OA.A.1',
-      framework: 'Common Core',
-      description: 'Solve addition and subtraction word problems using vehicle and passenger scenarios within 20',
+      standard: 'POPS.MA.1-2.T3',
+      framework: 'POPS 2014',
+      description: 'Harjoitella yhteen- ja vähennyslaskua liikenneaiheilla',
       relatedAppIds: ['image-addition', 'subtraction'],
     },
     {
-      standard: '1.MD.A.1',
-      framework: 'Common Core',
-      description: 'Order vehicles by length and compare sizes using direct measurement vocabulary',
-      relatedAppIds: ['image-addition'],
+      standard: 'POPS.YL.1-2.T2',
+      framework: 'POPS 2014',
+      description: 'Tutustua erilaisiin kulkuneuvoihin ja liikenneympäristöihin',
+      relatedAppIds: ['find-and-count', 'matching-app'],
     },
   ],
 

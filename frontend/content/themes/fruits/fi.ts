@@ -62,22 +62,22 @@ const content: EnrichedThemeContent = {
   ],
   curriculumAlignment: [
     {
-      standard: 'K.CC.B.5',
-      framework: 'Common Core',
-      description: 'Count to answer how many questions about fruit objects arranged in lines, arrays, and scattered configurations',
+      standard: 'POPS.MA.1-2.T2',
+      framework: 'POPS 2014',
+      description: 'Harjoitella laskemista hedelmäaiheisilla tehtävillä',
       relatedAppIds: ['image-addition', 'find-and-count'],
     },
     {
-      standard: 'K.MD.A.2',
-      framework: 'Common Core',
-      description: 'Directly compare two fruit objects with a measurable attribute like size to determine which has more or less',
-      relatedAppIds: ['big-small-app', 'picture-sort'],
+      standard: 'POPS.YL.1-2.T4',
+      framework: 'POPS 2014',
+      description: 'Ymmärtää hedelmien merkitys terveellisessä ravinnossa',
+      relatedAppIds: ['picture-sort'],
     },
     {
-      standard: '1.MD.C.4',
-      framework: 'Common Core',
-      description: 'Organize, represent, and interpret data about fruit types with up to three categories',
-      relatedAppIds: ['chart-count-color', 'pattern-train'],
+      standard: 'POPS.MA.1-2.T7',
+      framework: 'POPS 2014',
+      description: 'Luokitella hedelmiä värin, koon ja muodon mukaan',
+      relatedAppIds: ['picture-sort', 'matching-app'],
     },
   ],
 

@@ -62,22 +62,22 @@ const content: EnrichedThemeContent = {
   ],
   curriculumAlignment: [
     {
-      standard: 'K.CC.B.4',
-      framework: 'Common Core',
-      description: 'Count emotion-themed objects to understand the relationship between numbers and quantities',
+      standard: 'POPS.MA.1-2.T2',
+      framework: 'POPS 2014',
+      description: 'Laskea ja tunnistaa erilaisia tunteita kuvatehtävissä',
       relatedAppIds: ['image-addition'],
     },
     {
-      standard: 'RL.K.3',
-      framework: 'Common Core',
-      description: 'Identify characters and their feelings in stories, using emotion vocabulary to describe character motivations',
-      relatedAppIds: ['word-search', 'word-guess'],
+      standard: 'POPS.YL.1-2.T4',
+      framework: 'POPS 2014',
+      description: 'Tunnistaa ja nimetä erilaisia tunteita',
+      relatedAppIds: ['matching-app', 'picture-sort'],
     },
     {
-      standard: 'L.1.5',
-      framework: 'Common Core',
-      description: 'Demonstrate understanding of shades of meaning among emotion words differing in intensity',
-      relatedAppIds: ['writing-app', 'word-guess'],
+      standard: 'POPS.AI.1-2.T1',
+      framework: 'POPS 2014',
+      description: 'Ilmaista omia tunteita ja ajatuksia sanallisesti',
+      relatedAppIds: ['word-guess'],
     },
   ],
 

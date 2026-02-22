@@ -61,22 +61,22 @@ const content: EnrichedThemeContent = {
   ],
   curriculumAlignment: [
     {
-      standard: 'K.MD.B.3',
-      framework: 'Common Core',
-      description: 'Classify nature objects into given categories and count the number of objects in each category',
+      standard: 'POPS.YL.1-2.T1',
+      framework: 'POPS 2014',
+      description: 'Tehdä havaintoja luonnon monimuotoisuudesta lähiympäristössä',
+      relatedAppIds: ['find-and-count', 'find-objects'],
+    },
+    {
+      standard: 'POPS.YL.1-2.T3',
+      framework: 'POPS 2014',
+      description: 'Tunnistaa kasveja ja eläimiä luonnossa',
+      relatedAppIds: ['matching-app', 'picture-sort'],
+    },
+    {
+      standard: 'POPS.MA.1-2.T7',
+      framework: 'POPS 2014',
+      description: 'Luokitella luonnonilmiöitä ja eliöitä',
       relatedAppIds: ['find-and-count', 'matching-app'],
-    },
-    {
-      standard: '1.OA.A.1',
-      framework: 'Common Core',
-      description: 'Solve addition and subtraction word problems within 20 using nature and ecosystem scenarios',
-      relatedAppIds: ['image-addition'],
-    },
-    {
-      standard: 'K.RF.1',
-      framework: 'Common Core',
-      description: 'Demonstrate understanding of basic print concepts through nature vocabulary activities',
-      relatedAppIds: ['word-search', 'image-crossword'],
     },
   ],
 

@@ -62,22 +62,22 @@ const content: EnrichedThemeContent = {
   ],
   curriculumAlignment: [
     {
-      standard: 'K.G.A.1',
-      framework: 'Common Core',
-      description: 'Describe the positions of furniture objects using positional terms like above, below, beside, in front of, and behind',
+      standard: 'POPS.MA.1-2.T5',
+      framework: 'POPS 2014',
+      description: 'Hahmottaa avaruudellisia suhteita ja sijainteja huonekalujen avulla',
       relatedAppIds: ['prepositions'],
     },
     {
-      standard: 'K.G.A.2',
-      framework: 'Common Core',
-      description: 'Identify and describe geometric shapes found in furniture items regardless of orientation or size',
-      relatedAppIds: ['shadow-match', 'grid-match'],
+      standard: 'POPS.YL.1-2.T2',
+      framework: 'POPS 2014',
+      description: 'Tutustua kodin tiloihin ja niiden käyttötarkoituksiin',
+      relatedAppIds: ['matching-app', 'find-objects'],
     },
     {
-      standard: 'K.MD.B.3',
-      framework: 'Common Core',
-      description: 'Classify furniture objects into categories by room or function and count items in each category',
-      relatedAppIds: ['picture-sort', 'matching-app'],
+      standard: 'POPS.AI.1-2.T2',
+      framework: 'POPS 2014',
+      description: 'Laajentaa huonekaluihin liittyvää sanastoa',
+      relatedAppIds: ['word-search'],
     },
   ],
 

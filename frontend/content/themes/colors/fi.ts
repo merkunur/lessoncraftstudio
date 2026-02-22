@@ -63,22 +63,22 @@ const content: EnrichedThemeContent = {
   ],
   curriculumAlignment: [
     {
-      standard: 'K.MD.A.1',
-      framework: 'Common Core',
-      description: 'Classify objects into given categories such as color and count the numbers of objects in each category',
+      standard: 'POPS.MA.1-2.T7',
+      framework: 'POPS 2014',
+      description: 'Luokitella esineitä värin mukaan ja laskea väriryhmien koot',
       relatedAppIds: ['picture-sort', 'chart-count-color'],
     },
     {
-      standard: 'K.MD.B.3',
-      framework: 'Common Core',
-      description: 'Classify objects and count the number in each category using sorting by color as a primary attribute',
-      relatedAppIds: ['picture-sort', 'find-and-count'],
+      standard: 'POPS.KU.1-2.T1',
+      framework: 'POPS 2014',
+      description: 'Havainnoida ja tunnistaa värejä ympäristössä',
+      relatedAppIds: ['coloring', 'draw-and-color'],
     },
     {
-      standard: '1.MD.C.4',
-      framework: 'Common Core',
-      description: 'Organize, represent, and interpret data with up to three categories using color-based charts',
-      relatedAppIds: ['chart-count-color', 'image-addition'],
+      standard: 'POPS.MA.1-2.T2',
+      framework: 'POPS 2014',
+      description: 'Harjoitella laskemista värikategorioiden avulla',
+      relatedAppIds: ['find-and-count', 'image-addition'],
     },
   ],
 

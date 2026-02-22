@@ -62,22 +62,22 @@ const content: EnrichedThemeContent = {
   ],
   curriculumAlignment: [
     {
-      standard: 'K.CC.B.4',
-      framework: 'Common Core',
-      description: 'Understand the relationship between numbers and quantities when counting Easter eggs and spring objects',
+      standard: 'POPS.MA.1-2.T2',
+      framework: 'POPS 2014',
+      description: 'Harjoitella laskemista pääsiäisaiheisilla tehtävillä',
       relatedAppIds: ['image-addition', 'find-and-count'],
     },
     {
-      standard: '1.OA.C.6',
-      framework: 'Common Core',
-      description: 'Add and subtract within 20 using egg-hunt and spring basket scenarios',
-      relatedAppIds: ['image-addition'],
+      standard: 'POPS.YL.1-2.T2',
+      framework: 'POPS 2014',
+      description: 'Tutustua pääsiäisen perinteisiin ja kevään merkkeihin',
+      relatedAppIds: ['matching-app'],
     },
     {
-      standard: 'K.G.A.2',
-      framework: 'Common Core',
-      description: 'Identify and describe shapes found in egg patterns and spring nature scenes',
-      relatedAppIds: ['pattern-train', 'shadow-match'],
+      standard: 'POPS.KU.1-2.T1',
+      framework: 'POPS 2014',
+      description: 'Ilmaista pääsiäisaiheita kuvallisesti',
+      relatedAppIds: ['coloring', 'draw-and-color'],
     },
   ],
 

@@ -63,22 +63,22 @@ const content: EnrichedThemeContent = {
   ],
   curriculumAlignment: [
     {
-      standard: 'K.CC.B.5',
-      framework: 'Common Core',
-      description: 'Count to answer how many in arranged or scattered configurations',
+      standard: 'POPS.MA.1-2.T2',
+      framework: 'POPS 2014',
+      description: 'Harjoitella laskemista eläintarha-aiheisilla tehtävillä',
       relatedAppIds: ['image-addition', 'find-and-count'],
     },
     {
-      standard: '1.OA.A.1',
-      framework: 'Common Core',
-      description: 'Use addition and subtraction within 20 to solve word problems',
-      relatedAppIds: ['image-addition', 'more-less'],
+      standard: 'POPS.YL.1-2.T3',
+      framework: 'POPS 2014',
+      description: 'Tunnistaa eksoottisia eläimiä ja niiden elinympäristöjä',
+      relatedAppIds: ['matching-app', 'find-objects'],
     },
     {
-      standard: 'K.RF.3',
-      framework: 'Common Core',
-      description: 'Know and apply grade-level phonics and word analysis skills',
-      relatedAppIds: ['word-search', 'alphabet-train'],
+      standard: 'POPS.MA.1-2.T7',
+      framework: 'POPS 2014',
+      description: 'Luokitella eläintarhan eläimiä eri ryhmiin',
+      relatedAppIds: ['picture-sort'],
     },
   ],
 

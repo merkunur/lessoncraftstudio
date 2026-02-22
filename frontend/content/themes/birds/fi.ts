@@ -62,22 +62,22 @@ const content: EnrichedThemeContent = {
   ],
   curriculumAlignment: [
     {
-      standard: 'K.CC.B.4',
-      framework: 'Common Core',
-      description: 'Understand the relationship between numbers and quantities when counting bird images',
+      standard: 'POPS.MA.1-2.T2',
+      framework: 'POPS 2014',
+      description: 'Kehittää lukumääräkäsitettä laskemalla lintuja',
       relatedAppIds: ['image-addition'],
     },
     {
-      standard: 'K.RF.1',
-      framework: 'Common Core',
-      description: 'Demonstrate understanding of basic print concepts through bird vocabulary activities',
-      relatedAppIds: ['word-search', 'image-crossword'],
+      standard: 'POPS.YL.1-2.T3',
+      framework: 'POPS 2014',
+      description: 'Tunnistaa suomalaisia lintulajeja ja niiden elinympäristöjä',
+      relatedAppIds: ['find-and-count', 'matching-app'],
     },
     {
-      standard: 'K-LS1-1',
-      framework: 'NGSS',
-      description: 'Use observations to describe patterns of what animals need to survive, applied to bird habitats and diets',
-      relatedAppIds: ['picture-sort', 'find-and-count'],
+      standard: 'POPS.YL.1-2.T1',
+      framework: 'POPS 2014',
+      description: 'Havainnoida lintuja lähiluonnossa eri vuodenaikoina',
+      relatedAppIds: ['find-objects'],
     },
   ],
 

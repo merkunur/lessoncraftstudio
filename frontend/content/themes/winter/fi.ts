@@ -61,22 +61,22 @@ const content: EnrichedThemeContent = {
   ],
   curriculumAlignment: [
     {
-      standard: '1.OA.A.1',
-      framework: 'Common Core',
-      description: 'Solve addition and subtraction word problems using winter scenarios within 20',
+      standard: 'POPS.MA.1-2.T3',
+      framework: 'POPS 2014',
+      description: 'Harjoitella yhteen- ja vähennyslaskua talviaiheilla',
       relatedAppIds: ['image-addition'],
     },
     {
-      standard: 'K.G.A.2',
-      framework: 'Common Core',
-      description: 'Identify and describe shapes found in winter objects such as snowflakes and icicles',
-      relatedAppIds: ['shadow-match', 'matching-app'],
+      standard: 'POPS.YL.1-2.T1',
+      framework: 'POPS 2014',
+      description: 'Havainnoida talvista luontoa ja sen ilmiöitä',
+      relatedAppIds: ['find-and-count', 'find-objects'],
     },
     {
-      standard: 'K.RF.3',
-      framework: 'Common Core',
-      description: 'Apply phonics and word analysis skills to decode winter vocabulary words',
-      relatedAppIds: ['word-search', 'image-crossword'],
+      standard: 'POPS.YL.1-2.T2',
+      framework: 'POPS 2014',
+      description: 'Ymmärtää talven vaikutus eliöihin ja ympäristöön',
+      relatedAppIds: ['matching-app', 'picture-sort'],
     },
   ],
 

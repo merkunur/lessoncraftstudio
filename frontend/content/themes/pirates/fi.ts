@@ -62,22 +62,22 @@ const content: EnrichedThemeContent = {
   ],
   curriculumAlignment: [
     {
-      standard: '1.OA.A.1',
-      framework: 'Common Core',
-      description: 'Solve addition and subtraction word problems within 20 using pirate treasure scenarios',
+      standard: 'POPS.MA.1-2.T3',
+      framework: 'POPS 2014',
+      description: 'Harjoitella yhteen- ja vähennyslaskua merirosvoteemalla',
       relatedAppIds: ['image-addition'],
     },
     {
-      standard: 'K.G.A.1',
-      framework: 'Common Core',
-      description: 'Describe spatial positions of objects using pirate map directional vocabulary',
-      relatedAppIds: ['treasure-hunt', 'picture-path'],
+      standard: 'POPS.MA.1-2.T5',
+      framework: 'POPS 2014',
+      description: 'Hahmottaa avaruudellisia suhteita aarrekarttojen avulla',
+      relatedAppIds: ['treasure-hunt'],
     },
     {
-      standard: 'RF.K.3',
-      framework: 'Common Core',
-      description: 'Know and apply grade-level phonics decoding pirate vocabulary words',
-      relatedAppIds: ['word-search', 'word-scramble', 'image-cryptogram'],
+      standard: 'POPS.AI.1-2.T4',
+      framework: 'POPS 2014',
+      description: 'Tutustua seikkailutarinoihin ja kehittää mielikuvitusta',
+      relatedAppIds: ['word-search', 'word-guess'],
     },
   ],
 

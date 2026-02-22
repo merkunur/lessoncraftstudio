@@ -63,22 +63,22 @@ const content: EnrichedThemeContent = {
   ],
   curriculumAlignment: [
     {
-      standard: 'K.CC.B.4',
-      framework: 'Common Core',
-      description: 'Understand the relationship between numbers and quantities when counting spring objects like flowers and butterflies',
+      standard: 'POPS.MA.1-2.T2',
+      framework: 'POPS 2014',
+      description: 'Harjoitella laskemista kevätaiheisilla tehtävillä',
       relatedAppIds: ['image-addition', 'find-and-count'],
     },
     {
-      standard: 'K.MD.A.1',
-      framework: 'Common Core',
-      description: 'Describe measurable attributes of spring objects such as the length of stems or size of flowers',
-      relatedAppIds: ['picture-sort', 'matching-app'],
+      standard: 'POPS.YL.1-2.T1',
+      framework: 'POPS 2014',
+      description: 'Havainnoida kevään merkkejä luonnossa',
+      relatedAppIds: ['find-and-count', 'find-objects'],
     },
     {
-      standard: 'K-LS1-1',
-      framework: 'NGSS',
-      description: 'Use observations to describe patterns of what plants and animals need to survive during spring',
-      relatedAppIds: ['find-objects', 'word-search'],
+      standard: 'POPS.YL.1-2.T3',
+      framework: 'POPS 2014',
+      description: 'Tutustua kevään vaikutukseen eliöihin ja kasveihin',
+      relatedAppIds: ['matching-app'],
     },
   ],
 

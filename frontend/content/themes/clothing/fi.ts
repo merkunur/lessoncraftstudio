@@ -63,22 +63,22 @@ const content: EnrichedThemeContent = {
   ],
   curriculumAlignment: [
     {
-      standard: 'K.MD.A.1',
-      framework: 'Common Core',
-      description: 'Describe measurable attributes of clothing items such as length, size, and weight',
+      standard: 'POPS.MA.1-2.T7',
+      framework: 'POPS 2014',
+      description: 'Luokitella ja lajitella vaatteita eri ominaisuuksien mukaan',
       relatedAppIds: ['big-small-app', 'shadow-match'],
     },
     {
-      standard: 'K.MD.B.3',
-      framework: 'Common Core',
-      description: 'Classify clothing objects into given categories and count the number in each category',
-      relatedAppIds: ['picture-sort', 'matching-app'],
+      standard: 'POPS.YL.1-2.T4',
+      framework: 'POPS 2014',
+      description: 'Ymmärtää pukeutumisen merkitys sään ja tilanteen mukaan',
+      relatedAppIds: ['picture-sort'],
     },
     {
-      standard: '1.OA.A.1',
-      framework: 'Common Core',
-      description: 'Solve addition and subtraction word problems using clothing counting scenarios within 20',
-      relatedAppIds: ['image-addition'],
+      standard: 'POPS.AI.1-2.T2',
+      framework: 'POPS 2014',
+      description: 'Oppia vaatteisiin liittyvää sanastoa',
+      relatedAppIds: ['word-search'],
     },
   ],
 

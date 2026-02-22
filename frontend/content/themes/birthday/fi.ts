@@ -62,22 +62,22 @@ const content: EnrichedThemeContent = {
   ],
   curriculumAlignment: [
     {
-      standard: 'K.CC.A.1',
-      framework: 'Common Core',
-      description: 'Count to 100 by ones and tens using birthday candle and party item counting activities',
+      standard: 'POPS.MA.1-2.T2',
+      framework: 'POPS 2014',
+      description: 'Harjoitella laskemista syntympäiväaiheisilla tehtävillä',
       relatedAppIds: ['image-addition', 'find-and-count'],
     },
     {
-      standard: '1.OA.A.2',
-      framework: 'Common Core',
-      description: 'Solve word problems that call for addition of three whole numbers using party planning scenarios',
-      relatedAppIds: ['image-addition'],
+      standard: 'POPS.YL.1-2.T2',
+      framework: 'POPS 2014',
+      description: 'Tutustua juhlaperinteisiin ja yhteisöllisyyteen',
+      relatedAppIds: ['matching-app'],
     },
     {
-      standard: 'K.W.2',
-      framework: 'Common Core',
-      description: 'Use drawing, dictating, and writing to compose informative texts like party invitations and birthday cards',
-      relatedAppIds: ['word-search', 'word-scramble'],
+      standard: 'POPS.KU.1-2.T1',
+      framework: 'POPS 2014',
+      description: 'Suunnitella syntympäiväkortteja ja koristeita',
+      relatedAppIds: ['coloring', 'draw-and-color'],
     },
   ],
 

@@ -63,22 +63,22 @@ const content: EnrichedThemeContent = {
   ],
   curriculumAlignment: [
     {
-      standard: 'K.G.A.2',
-      framework: 'Common Core',
-      description: 'Correctly name shapes regardless of their orientations or overall size',
+      standard: 'POPS.MA.1-2.T5',
+      framework: 'POPS 2014',
+      description: 'Tunnistaa ja nimetä perusmuodot sekä niiden ominaisuudet',
       relatedAppIds: ['matching-app', 'shadow-match'],
     },
     {
-      standard: 'K.G.B.4',
-      framework: 'Common Core',
-      description: 'Analyze and compare two- and three-dimensional shapes using informal language to describe similarities and differences',
-      relatedAppIds: ['picture-sort', 'grid-match'],
+      standard: 'POPS.KU.1-2.T1',
+      framework: 'POPS 2014',
+      description: 'Havainnoida muotoja ympäristössä ja kuvataiteessa',
+      relatedAppIds: ['coloring', 'draw-and-color'],
     },
     {
-      standard: '1.G.A.1',
-      framework: 'Common Core',
-      description: 'Distinguish between defining attributes of shapes versus non-defining attributes like color or size',
-      relatedAppIds: ['picture-sort', 'missing-pieces'],
+      standard: 'POPS.MA.1-2.T7',
+      framework: 'POPS 2014',
+      description: 'Luokitella kappaleita muodon ja koon mukaan',
+      relatedAppIds: ['picture-sort', 'big-small-app'],
     },
   ],
 

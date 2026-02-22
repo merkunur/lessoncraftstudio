@@ -62,22 +62,22 @@ const content: EnrichedThemeContent = {
   ],
   curriculumAlignment: [
     {
-      standard: 'K.CC.B.5',
-      framework: 'Common Core',
-      description: 'Count to answer how many questions about objects arranged in classroom scenes',
+      standard: 'POPS.MA.1-2.T2',
+      framework: 'POPS 2014',
+      description: 'Harjoitella laskemista koulun arjessa esiintyvillä esineillä',
       relatedAppIds: ['find-and-count', 'image-addition'],
     },
     {
-      standard: 'K.RF.1',
-      framework: 'Common Core',
-      description: 'Demonstrate understanding of basic print concepts through school vocabulary reading and writing',
-      relatedAppIds: ['alphabet-train', 'writing-app'],
+      standard: 'POPS.AI.1-2.T2',
+      framework: 'POPS 2014',
+      description: 'Kehittää lukutaitoa kouluaiheisten tekstien avulla',
+      relatedAppIds: ['word-search', 'word-guess'],
     },
     {
-      standard: '1.OA.A.1',
-      framework: 'Common Core',
-      description: 'Use addition and subtraction within 20 to solve school-themed word problems',
-      relatedAppIds: ['image-addition', 'subtraction', 'math-worksheet'],
+      standard: 'POPS.YL.1-2.T2',
+      framework: 'POPS 2014',
+      description: 'Tutustua koulun ympäristöön ja yhteisöön',
+      relatedAppIds: ['matching-app'],
     },
   ],
 

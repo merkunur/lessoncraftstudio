@@ -62,22 +62,22 @@ const content: EnrichedThemeContent = {
   ],
   curriculumAlignment: [
     {
-      standard: '1.OA.A.1',
-      framework: 'Common Core',
-      description: 'Solve addition and subtraction problems within 20 using robot-themed code addition activities',
+      standard: 'POPS.MA.1-2.T3',
+      framework: 'POPS 2014',
+      description: 'Harjoitella yhteen- ja vähennyslaskua robottiteemalla',
       relatedAppIds: ['image-addition', 'code-addition'],
     },
     {
-      standard: 'K.OA.A.5',
-      framework: 'Common Core',
-      description: 'Fluently add and subtract within 5 using robot component counters',
-      relatedAppIds: ['image-addition'],
+      standard: 'POPS.MA.1-2.T7',
+      framework: 'POPS 2014',
+      description: 'Tunnistaa säännönmukaisuuksia ja ohjelmoinnin perusteita',
+      relatedAppIds: ['pattern-train', 'code-addition'],
     },
     {
-      standard: '1.G.A.2',
-      framework: 'Common Core',
-      description: 'Compose shapes to create robot designs and decompose robot images into component shapes',
-      relatedAppIds: ['grid-match', 'pattern-worksheet'],
+      standard: 'POPS.MA.1-2.T5',
+      framework: 'POPS 2014',
+      description: 'Hahmottaa muotoja ja rakenteita robottien suunnittelussa',
+      relatedAppIds: ['matching-app'],
     },
   ],
 

@@ -62,22 +62,22 @@ const content: EnrichedThemeContent = {
   ],
   curriculumAlignment: [
     {
-      standard: '1.OA.A.1',
-      framework: 'Common Core',
-      description: 'Solve addition and subtraction word problems set in workplace and community helper scenarios within 20',
+      standard: 'POPS.MA.1-2.T3',
+      framework: 'POPS 2014',
+      description: 'Harjoitella yhteen- ja vähennyslaskua ammattiaiheilla',
       relatedAppIds: ['image-addition'],
     },
     {
-      standard: 'K.RF.1',
-      framework: 'Common Core',
-      description: 'Demonstrate understanding of basic print concepts through job vocabulary labeling and career word recognition activities',
-      relatedAppIds: ['word-search', 'word-scramble', 'image-crossword'],
+      standard: 'POPS.YL.1-2.T2',
+      framework: 'POPS 2014',
+      description: 'Tutustua erilaisiin ammatteihin ja niiden merkitykseen yhteiskunnassa',
+      relatedAppIds: ['matching-app', 'find-objects'],
     },
     {
-      standard: 'K.CC.B.5',
-      framework: 'Common Core',
-      description: 'Count to answer how many questions about groups of workplace tools and community helper figures',
-      relatedAppIds: ['find-and-count', 'image-addition'],
+      standard: 'POPS.AI.1-2.T2',
+      framework: 'POPS 2014',
+      description: 'Laajentaa ammattisanastoa lukemisen avulla',
+      relatedAppIds: ['word-search', 'word-guess'],
     },
   ],
 

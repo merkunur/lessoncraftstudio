@@ -62,22 +62,22 @@ const content: EnrichedThemeContent = {
   ],
   curriculumAlignment: [
     {
-      standard: 'K.CC.B.5',
-      framework: 'Common Core',
-      description: 'Count to answer how many questions about vegetable objects arranged in garden row configurations',
+      standard: 'POPS.MA.1-2.T2',
+      framework: 'POPS 2014',
+      description: 'Harjoitella laskemista vihannesaiheisilla tehtävillä',
       relatedAppIds: ['image-addition', 'find-and-count'],
     },
     {
-      standard: 'K.MD.A.2',
-      framework: 'Common Core',
-      description: 'Directly compare two vegetable objects with a measurable attribute like length to determine which has more or less',
-      relatedAppIds: ['big-small-app', 'more-less'],
+      standard: 'POPS.YL.1-2.T4',
+      framework: 'POPS 2014',
+      description: 'Ymmärtää vihannesten merkitys terveellisessä ravinnossa',
+      relatedAppIds: ['picture-sort'],
     },
     {
-      standard: 'K-LS1-1',
-      framework: 'NGSS',
-      description: 'Use observations to describe patterns of what plants need to survive and grow vegetables',
-      relatedAppIds: ['word-search', 'matching-app'],
+      standard: 'POPS.MA.1-2.T7',
+      framework: 'POPS 2014',
+      description: 'Luokitella vihanneksia eri ominaisuuksien mukaan',
+      relatedAppIds: ['matching-app'],
     },
   ],
 

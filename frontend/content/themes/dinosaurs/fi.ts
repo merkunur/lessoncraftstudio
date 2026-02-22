@@ -63,22 +63,22 @@ const content: EnrichedThemeContent = {
   ],
   curriculumAlignment: [
     {
-      standard: 'K.CC.B.4',
-      framework: 'Common Core',
-      description: 'Understand relationship between numbers and quantities',
+      standard: 'POPS.MA.1-2.T2',
+      framework: 'POPS 2014',
+      description: 'Kehittää lukumääräkäsitettä laskemalla dinosauruksia',
       relatedAppIds: ['image-addition'],
     },
     {
-      standard: '1.OA.A.1',
-      framework: 'Common Core',
-      description: 'Solve word problems involving addition and subtraction within 20',
-      relatedAppIds: ['image-addition'],
+      standard: 'POPS.YL.1-2.T1',
+      framework: 'POPS 2014',
+      description: 'Tehdä havaintoja menneisyyden eliöistä ja niiden ominaisuuksista',
+      relatedAppIds: ['find-and-count', 'find-objects'],
     },
     {
-      standard: 'K.RF.1',
-      framework: 'Common Core',
-      description: 'Demonstrate understanding of basic print concepts',
-      relatedAppIds: ['word-search', 'word-scramble'],
+      standard: 'POPS.MA.1-2.T6',
+      framework: 'POPS 2014',
+      description: 'Vertailla dinosaurusten kokoja ja ominaisuuksia',
+      relatedAppIds: ['big-small-app', 'more-less'],
     },
   ],
 

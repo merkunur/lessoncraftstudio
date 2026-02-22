@@ -63,22 +63,22 @@ const content: EnrichedThemeContent = {
   ],
   curriculumAlignment: [
     {
-      standard: 'K.G.A.1',
-      framework: 'Common Core',
-      description: 'Describe objects in the environment using positional words like above, below, beside, and between',
+      standard: 'POPS.MA.1-2.T5',
+      framework: 'POPS 2014',
+      description: 'Hahmottaa avaruudellisia suhteita kodin ympäristössä',
       relatedAppIds: ['prepositions'],
     },
     {
-      standard: 'K.MD.B.3',
-      framework: 'Common Core',
-      description: 'Classify household objects into given categories such as rooms and count the number in each',
-      relatedAppIds: ['picture-sort', 'find-and-count'],
+      standard: 'POPS.YL.1-2.T2',
+      framework: 'POPS 2014',
+      description: 'Tutustua kodin esineisiin ja niiden käyttötarkoituksiin',
+      relatedAppIds: ['matching-app', 'find-objects'],
     },
     {
-      standard: '1.OA.A.1',
-      framework: 'Common Core',
-      description: 'Solve addition and subtraction word problems using household counting scenarios within 20',
-      relatedAppIds: ['image-addition'],
+      standard: 'POPS.AI.1-2.T2',
+      framework: 'POPS 2014',
+      description: 'Laajentaa kodin esineisiin liittyvää sanastoa',
+      relatedAppIds: ['word-search'],
     },
   ],
 

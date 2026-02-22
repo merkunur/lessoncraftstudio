@@ -62,22 +62,22 @@ const content: EnrichedThemeContent = {
   ],
   curriculumAlignment: [
     {
-      standard: 'K.CC.B.4',
-      framework: 'Common Core',
-      description: 'Understand the relationship between numbers and quantities when counting space objects like stars and planets',
+      standard: 'POPS.MA.1-2.T2',
+      framework: 'POPS 2014',
+      description: 'Kehittää lukumääräkäsitettä avaruusaiheisilla laskutehtävillä',
       relatedAppIds: ['image-addition', 'code-addition'],
     },
     {
-      standard: '1.OA.A.1',
-      framework: 'Common Core',
-      description: 'Solve addition and subtraction word problems using space mission scenarios within 20',
-      relatedAppIds: ['image-addition'],
+      standard: 'POPS.YL.1-2.T1',
+      framework: 'POPS 2014',
+      description: 'Tehdä havaintoja avaruudesta ja taivaankappaleista',
+      relatedAppIds: ['find-and-count', 'find-objects'],
     },
     {
-      standard: '1.ESS1.1',
-      framework: 'NGSS',
-      description: 'Use observations of the sun, moon, and stars to describe patterns that can be predicted',
-      relatedAppIds: ['word-search', 'image-cryptogram'],
+      standard: 'POPS.MA.1-2.T5',
+      framework: 'POPS 2014',
+      description: 'Hahmottaa avaruudellisia muotoja ja suhteita',
+      relatedAppIds: ['matching-app'],
     },
   ],
 

@@ -63,22 +63,22 @@ const content: EnrichedThemeContent = {
   ],
   curriculumAlignment: [
     {
-      standard: 'K.CC.B.4',
-      framework: 'Common Core',
-      description: 'Understand the relationship between numbers and quantities when counting forest objects',
+      standard: 'POPS.MA.1-2.T2',
+      framework: 'POPS 2014',
+      description: 'Kehittää lukumääräkäsitettä laskemalla metsän eläimiä',
       relatedAppIds: ['image-addition'],
     },
     {
-      standard: '1.OA.A.1',
-      framework: 'Common Core',
-      description: 'Solve addition and subtraction word problems using forest animal scenarios',
-      relatedAppIds: ['image-addition'],
-    },
-    {
-      standard: 'K-LS1-1',
-      framework: 'NGSS',
-      description: 'Use observations to describe patterns of what plants and animals need to survive in forest habitats',
+      standard: 'POPS.YL.1-2.T3',
+      framework: 'POPS 2014',
+      description: 'Tunnistaa suomalaisen metsän eliöitä ja kasveja',
       relatedAppIds: ['find-and-count', 'find-objects'],
+    },
+    {
+      standard: 'POPS.YL.1-2.T1',
+      framework: 'POPS 2014',
+      description: 'Havainnoida metsäluontoa ja sen monimuotoisuutta',
+      relatedAppIds: ['matching-app', 'picture-sort'],
     },
   ],
 

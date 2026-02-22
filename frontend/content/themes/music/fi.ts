@@ -62,22 +62,22 @@ const content: EnrichedThemeContent = {
   ],
   curriculumAlignment: [
     {
-      standard: '4.OA.C.5',
-      framework: 'Common Core',
-      description: 'Generate and analyze patterns using rhythmic sequences and instrument repetitions',
+      standard: 'POPS.MU.1-2.T1',
+      framework: 'POPS 2014',
+      description: 'Osallistua musiikilliseen toimintaan ja tunnistaa rytmejä',
       relatedAppIds: ['pattern-train', 'pattern-worksheet'],
     },
     {
-      standard: '1.OA.A.1',
-      framework: 'Common Core',
-      description: 'Solve addition and subtraction word problems using music-themed counting scenarios within 20',
-      relatedAppIds: ['image-addition'],
+      standard: 'POPS.MA.1-2.T7',
+      framework: 'POPS 2014',
+      description: 'Tunnistaa musiikissa esiintyviä säännönmukaisuuksia ja kuvioita',
+      relatedAppIds: ['pattern-train'],
     },
     {
-      standard: 'K.RF.1',
-      framework: 'Common Core',
-      description: 'Demonstrate understanding of basic print concepts through music vocabulary and instrument word recognition activities',
-      relatedAppIds: ['word-search', 'word-scramble'],
+      standard: 'POPS.KU.1-2.T1',
+      framework: 'POPS 2014',
+      description: 'Ilmaista musiikkia visuaalisesti piirtäen ja värittäen',
+      relatedAppIds: ['coloring', 'draw-and-color'],
     },
   ],
 

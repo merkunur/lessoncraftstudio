@@ -62,22 +62,22 @@ const content: EnrichedThemeContent = {
   ],
   curriculumAlignment: [
     {
-      standard: 'RL.K.2',
-      framework: 'Common Core',
-      description: 'Retell familiar fairy tales including key details about characters, settings, and major events',
+      standard: 'POPS.AI.1-2.T4',
+      framework: 'POPS 2014',
+      description: 'Tutustua satuihin ja niiden rakenteeseen',
       relatedAppIds: ['word-search', 'word-guess'],
     },
     {
-      standard: 'RL.1.3',
-      framework: 'Common Core',
-      description: 'Describe characters, settings, and major events in a fairy tale using key details',
-      relatedAppIds: ['word-scramble', 'alphabet-train'],
+      standard: 'POPS.AI.1-2.T2',
+      framework: 'POPS 2014',
+      description: 'Kehittää lukutaitoa satuaiheisten tekstien avulla',
+      relatedAppIds: ['word-search', 'image-crossword'],
     },
     {
-      standard: 'K.CC.B.4',
-      framework: 'Common Core',
-      description: 'Understand the relationship between numbers and quantities when counting fairy tale objects',
-      relatedAppIds: ['image-addition'],
+      standard: 'POPS.AI.1-2.T1',
+      framework: 'POPS 2014',
+      description: 'Ilmaista ajatuksia ja kokemuksia satujen pohjalta',
+      relatedAppIds: ['writing-app'],
     },
   ],
 

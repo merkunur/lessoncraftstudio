@@ -62,22 +62,22 @@ const content: EnrichedThemeContent = {
   ],
   curriculumAlignment: [
     {
-      standard: 'K.CC.B.5',
-      framework: 'Common Core',
-      description: 'Count to answer how many questions about summer objects arranged in various configurations',
+      standard: 'POPS.MA.1-2.T2',
+      framework: 'POPS 2014',
+      description: 'Harjoitella laskemista kesäaiheisilla tehtävillä',
       relatedAppIds: ['image-addition', 'find-and-count'],
     },
     {
-      standard: '1.OA.A.1',
-      framework: 'Common Core',
-      description: 'Solve addition and subtraction word problems using summer scenarios within 20',
-      relatedAppIds: ['image-addition'],
+      standard: 'POPS.YL.1-2.T1',
+      framework: 'POPS 2014',
+      description: 'Havainnoida kesäistä luontoa ja sen ominaispiirteitä',
+      relatedAppIds: ['find-and-count', 'find-objects'],
     },
     {
-      standard: 'K.RF.3',
-      framework: 'Common Core',
-      description: 'Know and apply grade-level phonics and word analysis skills to decode summer vocabulary',
-      relatedAppIds: ['word-search', 'word-scramble'],
+      standard: 'POPS.YL.1-2.T2',
+      framework: 'POPS 2014',
+      description: 'Tutustua kesäisiin aktiviteetteihin ja luontoon',
+      relatedAppIds: ['matching-app'],
     },
   ],
 

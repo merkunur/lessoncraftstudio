@@ -62,22 +62,22 @@ const content: EnrichedThemeContent = {
   ],
   curriculumAlignment: [
     {
-      standard: '1.OA.A.1',
-      framework: 'Common Core',
-      description: 'Solve addition and subtraction word problems using travel distance and packing scenarios within 20',
+      standard: 'POPS.MA.1-2.T3',
+      framework: 'POPS 2014',
+      description: 'Harjoitella yhteen- ja vähennyslaskua matkailuaiheilla',
       relatedAppIds: ['image-addition'],
     },
     {
-      standard: 'K.G.A.1',
-      framework: 'Common Core',
-      description: 'Describe positions of objects using terms like above, below, beside when reading simplified travel maps',
-      relatedAppIds: ['picture-path', 'treasure-hunt'],
+      standard: 'POPS.YL.1-2.T2',
+      framework: 'POPS 2014',
+      description: 'Tutustua erilaisiin maihin, kulttuureihin ja ympäristöihin',
+      relatedAppIds: ['matching-app', 'find-objects'],
     },
     {
-      standard: 'K.RF.3',
-      framework: 'Common Core',
-      description: 'Apply grade-level phonics to decode travel and geography vocabulary in word activities',
-      relatedAppIds: ['word-search', 'image-crossword'],
+      standard: 'POPS.MA.1-2.T5',
+      framework: 'POPS 2014',
+      description: 'Hahmottaa etäisyyksiä ja suuntia karttojen avulla',
+      relatedAppIds: ['treasure-hunt'],
     },
   ],
 

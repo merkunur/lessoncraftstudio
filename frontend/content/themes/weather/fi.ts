@@ -61,22 +61,22 @@ const content: EnrichedThemeContent = {
   ],
   curriculumAlignment: [
     {
-      standard: 'K.MD.B.3',
-      framework: 'Common Core',
-      description: 'Classify weather objects and events into categories and count items in each category',
+      standard: 'POPS.YL.1-2.T1',
+      framework: 'POPS 2014',
+      description: 'Havainnoida säätiloja ja niiden muutoksia',
       relatedAppIds: ['picture-sort', 'matching-app'],
     },
     {
-      standard: '1.MD.C.4',
-      framework: 'Common Core',
-      description: 'Organize, represent, and interpret weather data with up to three categories',
-      relatedAppIds: ['image-addition', 'find-and-count'],
+      standard: 'POPS.MA.1-2.T7',
+      framework: 'POPS 2014',
+      description: 'Luokitella ja vertailla erilaisia sääilmiöitä',
+      relatedAppIds: ['picture-sort'],
     },
     {
-      standard: 'K.RF.3',
-      framework: 'Common Core',
-      description: 'Apply phonics and word analysis skills to decode weather vocabulary words',
-      relatedAppIds: ['word-search', 'word-scramble'],
+      standard: 'POPS.YL.1-2.T2',
+      framework: 'POPS 2014',
+      description: 'Ymmärtää sään vaikutus arkielämään ja luontoon',
+      relatedAppIds: ['find-and-count'],
     },
   ],
 

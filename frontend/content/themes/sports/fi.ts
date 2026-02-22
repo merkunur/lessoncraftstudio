@@ -62,22 +62,22 @@ const content: EnrichedThemeContent = {
   ],
   curriculumAlignment: [
     {
-      standard: '1.OA.A.1',
-      framework: 'Common Core',
-      description: 'Solve addition and subtraction word problems using sports scoring scenarios within 20',
+      standard: 'POPS.MA.1-2.T3',
+      framework: 'POPS 2014',
+      description: 'Harjoitella yhteen- ja vähennyslaskua urheiluaiheilla',
       relatedAppIds: ['image-addition', 'math-worksheet'],
     },
     {
-      standard: 'K.CC.B.5',
-      framework: 'Common Core',
-      description: 'Count to answer how many sports items are in a group arranged in various configurations',
-      relatedAppIds: ['image-addition', 'math-puzzle'],
+      standard: 'POPS.LI.1-2.T1',
+      framework: 'POPS 2014',
+      description: 'Kehittää motorisia perustaitoja liikuntaleikkien avulla',
+      relatedAppIds: ['matching-app'],
     },
     {
-      standard: 'K.RF.3',
-      framework: 'Common Core',
-      description: 'Apply grade-level phonics to decode sports vocabulary in word search and scramble activities',
-      relatedAppIds: ['word-search', 'word-scramble'],
+      standard: 'POPS.MA.1-2.T6',
+      framework: 'POPS 2014',
+      description: 'Ymmärtää mittaamisen perusteita urheilun yhteydessä',
+      relatedAppIds: ['math-worksheet'],
     },
   ],
 

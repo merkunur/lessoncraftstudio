@@ -62,22 +62,22 @@ const content: EnrichedThemeContent = {
   ],
   curriculumAlignment: [
     {
-      standard: 'RL.K.3',
-      framework: 'Common Core',
-      description: 'Identify characters, settings, and major events in superhero stories and worksheets',
+      standard: 'POPS.AI.1-2.T4',
+      framework: 'POPS 2014',
+      description: 'Tutustua sankaritarinoihin ja kehittää kerrontataitoja',
       relatedAppIds: ['word-search', 'word-guess'],
     },
     {
-      standard: '1.OA.A.1',
-      framework: 'Common Core',
-      description: 'Solve addition and subtraction word problems within 20 using superhero mission scenarios',
+      standard: 'POPS.MA.1-2.T3',
+      framework: 'POPS 2014',
+      description: 'Harjoitella yhteen- ja vähennyslaskua sankariteemalla',
       relatedAppIds: ['image-addition'],
     },
     {
-      standard: 'W.1.3',
-      framework: 'Common Core',
-      description: 'Write narratives recounting superhero events with details and sequenced actions',
-      relatedAppIds: ['word-search', 'word-guess'],
+      standard: 'POPS.KU.1-2.T1',
+      framework: 'POPS 2014',
+      description: 'Suunnitella ja piirtää omia supersankareja',
+      relatedAppIds: ['coloring', 'draw-and-color'],
     },
   ],
 

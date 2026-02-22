@@ -62,22 +62,22 @@ const content: EnrichedThemeContent = {
   ],
   curriculumAlignment: [
     {
-      standard: 'K.CC.B.5',
-      framework: 'Common Core',
-      description: 'Count to answer how many questions about holiday objects arranged in various configurations',
+      standard: 'POPS.MA.1-2.T2',
+      framework: 'POPS 2014',
+      description: 'Harjoitella laskemista juhlapyähäaiheisilla tehtävillä',
       relatedAppIds: ['image-addition', 'find-and-count'],
     },
     {
-      standard: '1.OA.A.1',
-      framework: 'Common Core',
-      description: 'Solve addition and subtraction word problems using holiday celebration scenarios within 20',
-      relatedAppIds: ['image-addition'],
+      standard: 'POPS.AI.1-2.T4',
+      framework: 'POPS 2014',
+      description: 'Tutustua juhlaperinteisiin liittyviin tarinoihin',
+      relatedAppIds: ['word-search', 'word-guess'],
     },
     {
-      standard: 'K.RL.4',
-      framework: 'Common Core',
-      description: 'Ask and answer questions about unknown words in holiday vocabulary activities',
-      relatedAppIds: ['word-search', 'word-scramble'],
+      standard: 'POPS.YL.1-2.T2',
+      framework: 'POPS 2014',
+      description: 'Ymmärtää suomalaisten juhlapyähien merkitys ja perinteet',
+      relatedAppIds: ['matching-app'],
     },
   ],
 

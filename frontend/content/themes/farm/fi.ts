@@ -62,22 +62,22 @@ const content: EnrichedThemeContent = {
   ],
   curriculumAlignment: [
     {
-      standard: 'K.CC.B.4',
-      framework: 'Common Core',
-      description: 'Understand the relationship between numbers and quantities when counting farm items',
+      standard: 'POPS.MA.1-2.T2',
+      framework: 'POPS 2014',
+      description: 'Kehittää lukumääräkäsitettä laskemalla maatilan eläimiä',
       relatedAppIds: ['image-addition', 'more-less'],
     },
     {
-      standard: '1.OA.A.1',
-      framework: 'Common Core',
-      description: 'Solve addition and subtraction word problems using farm scenarios within 20',
-      relatedAppIds: ['image-addition'],
+      standard: 'POPS.YL.1-2.T3',
+      framework: 'POPS 2014',
+      description: 'Tunnistaa maatilan eläimiä ja ymmärtää ruoantuotantoa',
+      relatedAppIds: ['find-and-count', 'matching-app'],
     },
     {
-      standard: 'K.RF.1',
-      framework: 'Common Core',
-      description: 'Demonstrate understanding of basic print concepts through farm vocabulary activities',
-      relatedAppIds: ['word-search', 'alphabet-train'],
+      standard: 'POPS.YL.1-2.T2',
+      framework: 'POPS 2014',
+      description: 'Tutustua maatilan ympäristöön ja maatalouteen',
+      relatedAppIds: ['find-objects'],
     },
   ],
 

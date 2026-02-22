@@ -61,22 +61,22 @@ const content: EnrichedThemeContent = {
   ],
   curriculumAlignment: [
     {
-      standard: 'K.CC.B.4',
-      framework: 'Common Core',
-      description: 'Understand the relationship between numbers and quantities when counting flower parts and petals',
+      standard: 'POPS.MA.1-2.T2',
+      framework: 'POPS 2014',
+      description: 'Harjoitella laskemista kukka-aiheisilla tehtävillä',
       relatedAppIds: ['image-addition', 'find-and-count'],
     },
     {
-      standard: '1.OA.A.1',
-      framework: 'Common Core',
-      description: 'Solve addition and subtraction word problems within 20 using flower and garden scenarios',
-      relatedAppIds: ['image-addition'],
+      standard: 'POPS.YL.1-2.T3',
+      framework: 'POPS 2014',
+      description: 'Tunnistaa erilaisia kukkia ja ymmärtää kasvien kasvu',
+      relatedAppIds: ['matching-app', 'find-objects'],
     },
     {
-      standard: 'K.RF.3',
-      framework: 'Common Core',
-      description: 'Apply phonics and word analysis skills to decode flower and plant vocabulary',
-      relatedAppIds: ['word-search'],
+      standard: 'POPS.KU.1-2.T1',
+      framework: 'POPS 2014',
+      description: 'Havainnoida kukkien värejä ja muotoja kuvallisesti',
+      relatedAppIds: ['coloring', 'draw-and-color'],
     },
   ],
 

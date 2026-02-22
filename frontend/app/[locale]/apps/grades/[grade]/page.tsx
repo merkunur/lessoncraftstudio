@@ -4,10 +4,10 @@ import { notFound } from 'next/navigation';
 import { SUPPORTED_LOCALES } from '@/config/locales';
 import { getHreflangCode, ogLocaleMap, generateFAQSchema, localizedHomeLabel, localizedAppsLabel } from '@/lib/schema-generator';
 import { gradeContent, GRADE_SLUGS, type GradeSlug } from '@/config/grade-content';
-import { productPageSlugs } from '@/config/product-page-slugs';
 import { getSlugForLocale, type SupportedLocale } from '@/config/product-page-slugs';
-import { getThemeSlug } from '@/config/theme-slugs';
+import { THEME_SLUGS, getThemeSlug } from '@/config/theme-slugs';
 import { getGradeSlug, getGradeIdFromSlug, getGradeAlternateUrls } from '@/config/grade-slugs';
+import { getEnrichedThemeContent } from '@/content/themes';
 
 export const revalidate = 3600;
 
@@ -170,16 +170,20 @@ export default function GradePage({ params }: { params: { locale: string; grade:
     no: 'Bla etter tema', fi: 'Selaa teemoittain',
   };
 
-  const popularThemes: Array<{ id: string; labels: Record<string, string> }> = [
-    { id: 'animals', labels: { en: 'Animals', de: 'Tiere', fr: 'Animaux', es: 'Animales', pt: 'Animais', it: 'Animali', nl: 'Dieren', sv: 'Djur', da: 'Dyr', no: 'Dyr', fi: 'El\u00e4imet' } },
-    { id: 'dinosaurs', labels: { en: 'Dinosaurs', de: 'Dinosaurier', fr: 'Dinosaures', es: 'Dinosaurios', pt: 'Dinossauros', it: 'Dinosauri', nl: 'Dinosaurussen', sv: 'Dinosaurier', da: 'Dinosaurer', no: 'Dinosaurer', fi: 'Dinosaurukset' } },
-    { id: 'space', labels: { en: 'Space', de: 'Weltraum', fr: 'Espace', es: 'Espacio', pt: 'Espa\u00e7o', it: 'Spazio', nl: 'Ruimte', sv: 'Rymden', da: 'Rummet', no: 'Verdensrommet', fi: 'Avaruus' } },
-    { id: 'ocean', labels: { en: 'Ocean', de: 'Ozean', fr: 'Oc\u00e9an', es: 'Oc\u00e9ano', pt: 'Oceano', it: 'Oceano', nl: 'Oceaan', sv: 'Havet', da: 'Havet', no: 'Havet', fi: 'Meri' } },
-    { id: 'farm', labels: { en: 'Farm', de: 'Bauernhof', fr: 'Ferme', es: 'Granja', pt: 'Fazenda', it: 'Fattoria', nl: 'Boerderij', sv: 'Bondg\u00e5rd', da: 'Bondeg\u00e5rd', no: 'Bondeg\u00e5rd', fi: 'Maatila' } },
-    { id: 'nature', labels: { en: 'Nature', de: 'Natur', fr: 'Nature', es: 'Naturaleza', pt: 'Natureza', it: 'Natura', nl: 'Natuur', sv: 'Natur', da: 'Natur', no: 'Natur', fi: 'Luonto' } },
-    { id: 'sports', labels: { en: 'Sports', de: 'Sport', fr: 'Sports', es: 'Deportes', pt: 'Esportes', it: 'Sport', nl: 'Sport', sv: 'Sport', da: 'Sport', no: 'Sport', fi: 'Urheilu' } },
-    { id: 'food', labels: { en: 'Food', de: 'Essen', fr: 'Nourriture', es: 'Comida', pt: 'Comida', it: 'Cibo', nl: 'Eten', sv: 'Mat', da: 'Mad', no: 'Mat', fi: 'Ruoka' } },
-  ];
+  const educationalLevelMap: Record<string, string> = {
+    'preschool': 'Preschool',
+    'kindergarten': 'Kindergarten',
+    'first-grade': '1st Grade',
+    'second-grade': '2nd Grade',
+    'third-grade': '3rd Grade',
+  };
+
+  // Build all 50 themes with localized names from enriched content
+  const allThemes = THEME_SLUGS.map(themeId => {
+    const enriched = getEnrichedThemeContent(themeId, locale);
+    const name = enriched?.name || themeId.charAt(0).toUpperCase() + themeId.slice(1).replace(/-/g, ' ');
+    return { id: themeId, name };
+  });
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -220,6 +224,29 @@ export default function GradePage({ params }: { params: { locale: string; grade:
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify({
+          '@context': 'https://schema.org',
+          '@type': 'LearningResource',
+          name: content.heading,
+          description: content.description,
+          url: `https://www.lessoncraftstudio.com/${locale}/apps/grades/${locSlug}`,
+          inLanguage: getHreflangCode(locale),
+          educationalLevel: educationalLevelMap[gradeId] || content.name,
+          learningResourceType: 'worksheet',
+          audience: {
+            '@type': 'EducationalAudience',
+            educationalRole: 'student',
+            suggestedAge: content.ageRange,
+          },
+          provider: {
+            '@type': 'Organization',
+            name: 'LessonCraftStudio',
+            url: 'https://www.lessoncraftstudio.com',
+          },
+        }) }}
       />
 
       {/* Hero */}
@@ -269,6 +296,25 @@ export default function GradePage({ params }: { params: { locale: string; grade:
         </div>
       </section>
 
+      {/* Teacher Guide */}
+      {content.teacherGuide && (
+        <section className="py-12 bg-green-50">
+          <div className="container mx-auto px-4 max-w-4xl">
+            <h2 className="text-2xl font-bold text-gray-900 mb-8 text-center">
+              {content.teacherGuide.heading}
+            </h2>
+            <div className="space-y-8">
+              {content.teacherGuide.sections.map((section, i) => (
+                <div key={i}>
+                  <h3 className="text-lg font-semibold text-gray-800 mb-3">{section.title}</h3>
+                  <p className="text-gray-600 leading-relaxed">{section.content}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
       {/* FAQ */}
       {content.faq.length > 0 && (
         <section className="py-12 bg-white">
@@ -293,14 +339,14 @@ export default function GradePage({ params }: { params: { locale: string; grade:
         </section>
       )}
 
-      {/* Browse by Theme */}
+      {/* Browse by Theme — All 50 Themes */}
       <section className="py-12">
         <div className="container mx-auto px-4">
           <h2 className="text-2xl font-bold text-gray-900 mb-6 text-center">
             {browseByThemeLabel[locale] || browseByThemeLabel.en}
           </h2>
           <div className="flex flex-wrap justify-center gap-3">
-            {popularThemes.map(t => {
+            {allThemes.map(t => {
               const themeSlug = getThemeSlug(t.id, locale);
               if (!themeSlug) return null;
               return (
@@ -309,7 +355,7 @@ export default function GradePage({ params }: { params: { locale: string; grade:
                   href={`/${locale}/worksheets/${themeSlug}/${locSlug}`}
                   className="bg-white border border-gray-200 rounded-full px-5 py-2 text-sm font-medium text-gray-700 hover:bg-green-50 hover:border-green-300 hover:text-green-700 transition-colors"
                 >
-                  {t.labels[locale] || t.labels.en}
+                  {t.name}
                 </Link>
               );
             })}

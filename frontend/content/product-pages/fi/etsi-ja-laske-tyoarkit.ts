@@ -93,7 +93,56 @@ Jokainen tehtävä latautuu 300 DPI -laadulla. Täydellinen tulostamiseen ja myy
       noHiddenFees: 'Ei piilomaksuja',
       cancelAnytime: 'Peruuta milloin tahansa',
     },
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        icon: '🔍',
+        title: 'Etsi ja laske -pulmat yhdistävät visuaalisen etsinnän ja matematiikan',
+        description: 'Oppilaat etsivät tiettyjä kuvia ruudukosta ja laskevat kuinka monta kutakin löytyy. Kehittää visuaalista erottelukykyä, yksi-yhteen-vastaavuutta ja lukumäärän käsitettä samanaikaisesti. I Spy -formaatti pitää oppilaat sitoutuneina.',
+      },
+      {
+        id: '2',
+        icon: '📊',
+        title: 'Useita kohderyhmiä per tehtävä',
+        description: 'Valitse 2–6 kohdekategoriaa per tehtävä. Yksinkertainen kahdella kohteella sopii esikoululaisille. Monimutkaisempi kuudella kohteella haastaa edistyneitä oppilaita. Jokainen kohde saa oman tehtävätyyppinsä.',
+      },
+      {
+        id: '3',
+        icon: '⚙️',
+        title: 'Säädettävä kuvatiheys',
+        description: 'Säädä kokonaiskohteiden määrää 10–50. Harvempi asettelu aloittelijoille, tiheämpi edistyneille. Ruudukon koko 5x5–10x10 hallitsee kokonaishaastetta. Generaattori sijoittaa kohteet satunnaisesti tasaiseen jakaumaan.',
+      },
+      {
+        id: '4',
+        icon: '🖼️',
+        title: 'Yli 3000 teemakuvaa etsittäviksi kohteiksi',
+        description: 'Valitse etsittävät kohteet 3000+ kuvakirjastosta: eläimet, ruoka, kulkuneuvot, lelut ja luonto. Tutut kuvat pitävät oppilaat kiinnostuneina. Vaihda teemoja vastaamaan viikon opintoyksikköä.',
+      },
+      {
+        id: '5',
+        icon: '✅',
+        title: 'Vastausavaimet korostettuin kohtein ja tarkistetuin lukumäärin',
+        description: 'Jokainen tehtävä generoi vastausavaimen, jossa kohdekohteet on korostettu ja oikeat lukumäärät näkyvät. Opettajat tarkistavat oppilastyöt nopeasti. Vastausavaimet sopivat itsetarkistuspisteille.',
+      },
+      {
+        id: '6',
+        icon: '🔃',
+        title: 'Neljä tehtävätyyppiä: ympyröi, nelikulmio, rasti, laske',
+        description: 'Jokaiselle kohteelle määrätään oma tehtävätyyppi: ympyröi löydetyt, piirrä nelikulmio ympärille, laita rasti päälle tai laske lukumäärä. Useat tehtävätyypit samalla sivulla kehittävät toiminnanohjauksen taitoja.',
+      },
+      {
+        id: '7',
+        icon: '💼',
+        title: 'Kaupallinen lisenssi myyntiin',
+        description: 'Myy etsi ja laske -kokoelmia verkossa. I Spy -tyyppiset tehtävät ovat suosittuja varhaiskasvatus- ja esiopetusmarkkinoilla. Kaupallinen lisenssi kattaa kaikki myyntikanavat ilman lisämaksuja.',
+      },
+      {
+        id: '8',
+        icon: '🌍',
+        title: '11 kielen tuki',
+        description: 'Luo etsi ja laske -tehtäviä 11 kielellä. Visuaalinen muoto toimii kielirajojen yli, mutta ohjetekstit ja merkinnät kääntyvät automaattisesti. Täydellinen monikielisille luokkahuoneille ja S2-opetukseen.',
+      },
+    ]
     
   },
 
@@ -176,7 +225,50 @@ Harmaasävyvaihtoehto säästää mustetta dramaattisesti. Valitse "Harmaasävy"
     badgeText: 'Kenelle Sopii',
     readMoreLabel: 'Lue lisää',
     showLessLabel: 'Näytä vähemmän',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        icon: '🎒',
+        title: 'Esiopetuksen opettajat',
+        subtitle: 'Visuaalisen etsinnän kehittäminen 5–6-vuotiaille',
+        description: 'Luo yksinkertaisia 6x6 ruudukoita kahdella kohteella ja ympyröi-tehtävätyypillä. Esiopetusikäiset kehittävät visuaalista erottelukykyä ja yksi-yhteen-vastaavuutta. I Spy -muoto pitää oppilaat motivoituneina POPS 2014 matematiikan tavoitteen T2 mukaisesti.',
+      },
+      {
+        id: '2',
+        icon: '📚',
+        title: '1. luokan opettajat',
+        subtitle: 'Itsenäinen laskuharjoittelu useilla tehtävätyypeillä',
+        description: 'Käytä 8x8 ruudukoita kolmella kohteella. Osoita eri tehtävätyypit kullekin kohteelle: ympyröi yksi, laita rasti toiselle, laske kolmannelle. Oppilaat harjoittelevat ohjeiden noudattamista ja laskemista itsenäisesti.',
+      },
+      {
+        id: '3',
+        icon: '💜',
+        title: 'Erityisopettajat',
+        subtitle: 'Saavutettavat etsi ja laske -tehtävät erilaisille oppijoille',
+        description: 'Säädä ruudukon kokoa, kohteiden määrää ja tehtävätyyppiä yksilöllisesti. Visuaalinen muoto vähentää lukemisen kuormitusta. Pieni ruudukko yhdellä kohteella on saavutettava lähtökohta kaikille oppilaille.',
+      },
+      {
+        id: '4',
+        icon: '🌍',
+        title: 'S2-opettajat',
+        subtitle: 'Kielestä riippumaton laskuharjoittelu',
+        description: 'Visuaaliset etsi ja laske -tehtävät eivät vaadi kielitaitoa. Oppilaat etsivät ja laskevat kuvia ilman lukemista. Tutut kuvat ovat universaaleja kielirajojen yli. 11 kielen tuki ohjeteksteille.',
+      },
+      {
+        id: '5',
+        icon: '🏠',
+        title: 'Kotiopettajat ja vanhemmat',
+        subtitle: 'Itseohjautuvat etsi ja laske -harjoitukset',
+        description: 'Luo etsi ja laske -tehtäviä, joita lapset voivat tehdä itsenäisesti. Visuaalinen muoto on intuitiivinen ilman ohjausta. Vastausavaimet mahdollistavat itsetarkistuksen. Eri vaikeustasot palvelevat kaikkia lapsia perheessä.',
+      },
+      {
+        id: '6',
+        icon: '💰',
+        title: 'Opettajayrittäjät',
+        subtitle: 'I Spy -kokoelmat varhaiskasvatusmarkkinoille',
+        description: 'I Spy -tyyppiset tehtävät ovat suosittuja varhaiskasvatus- ja esiopetusmarkkinoilla. Luo teemallisia kokoelmia eri vaikeustasoilla. Kaupallinen lisenssi kattaa kaikki myyntikanavat ilman lisämaksuja.',
+      },
+    ]
     
   },
 
@@ -191,7 +283,68 @@ Harmaasävyvaihtoehto säästää mustetta dramaattisesti. Valitse "Harmaasävy"
     showLessLabel: 'Näytä vähemmän',
     secureCheckout: 'Turvallinen maksu',
     cancelAnytime: 'Peruuta milloin tahansa',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        question: 'Miten etsi ja laske -tehtavat toimivat?',
+        answer: 'Oppilaat saavat ruudukon täynnä kuvia ja erillisen otsikkorivin, jossa näkyy etsittävät kohteet tehtävätyyppeineen. Oppilaat etsivät kohteita ruudukosta ja suorittavat määrätyn tehtävän: ympyröivät, piirtävät nelikulmion, laittavat rastin tai laskevat lukumäärän.',
+      },
+      {
+        id: '2',
+        question: 'Mitka tehtavatyypit ovat saatavilla?',
+        answer: 'Neljä tehtävätyyppiä: ympyröi (piirrä ympyrä kohteen ympärille), nelikulmio (piirrä laatikko kohteen ympärille), rasti (laita rasti kohteen päälle) ja laske (laske kohteiden lukumäärä). Eri tehtävätyypit samalla sivulla kehittävät toiminnanohjauksen taitoja.',
+      },
+      {
+        id: '3',
+        question: 'Mitka ruudukon koot ovat saatavilla?',
+        answer: 'Ruudukon koko on säädettävissä 5x5–10x10. Pienemmät 5x5 tai 6x6 ruudukot sopivat esikoululaisille. Keskikokoiset 7x7 tai 8x8 sopivat esiopetukseen ja 1. luokalle. Suuremmat 10x10 ruudukot haastavat edistyneitä oppilaita.',
+      },
+      {
+        id: '4',
+        question: 'Kuinka monta etsittavaa kohdetta voi sisallyttaa?',
+        answer: 'Valitse 2–6 etsittävää kohdetta per tehtävä. Kaksi kohdetta on yksinkertainen aloittelijoille. Neljä kohdetta on standardi esiopetukseen. Kuusi kohdetta haastaa edistyneitä oppilaita useilla samanaikaisilla tehtävillä.',
+      },
+      {
+        id: '5',
+        question: 'Sisaltavatko tehtavat vastausavaimet?',
+        answer: 'Kyllä, jokainen tehtävä generoi vastausavaimen, jossa kohdekohteet on korostettu visuaalisesti ja oikeat lukumäärät näkyvät. Opettajat tarkistavat oppilastyöt sekunneissa.',
+      },
+      {
+        id: '6',
+        question: 'Mille ikarryhmille etsi ja laske -tehtavat sopivat?',
+        answer: 'Etsi ja laske -tehtävät palvelevat 4–9-vuotiaita. Esikoululaiset 4–5 käyttävät pieniä ruudukoita yhdellä kohteella. Esiopetusikäiset 5–6 harjoittelevat kahdella kohteella. 1.–2. luokan oppilaat haastavat itsensä 3–4 kohteella. 3. luokan oppilaat käyttävät suurimpia ruudukoita.',
+      },
+      {
+        id: '7',
+        question: 'Sopivatko etsi ja laske -tehtavat esiopetukseen?',
+        answer: 'Etsi ja laske -tehtävät sopivat erinomaisesti esiopetukseen. I Spy -muoto kehittää visuaalista erottelukykyä, yksi-yhteen-vastaavuutta ja lukumäärän käsitettä. Tämä tukee POPS 2014 matematiikan tavoitteita T2 ja T7.',
+      },
+      {
+        id: '8',
+        question: 'Miten etsi ja laske -tehtavat kehittavat matematiikkataitoja?',
+        answer: 'Oppilaat harjoittelevat yksi-yhteen-vastaavuutta laskiessaan kohteita, visuaalista erottelukykyä etsiessään kuvia ja lukumäärän vertailua useiden kohteiden välillä. Useat tehtävätyypit kehittävät toiminnanohjauksen joustavuutta.',
+      },
+      {
+        id: '9',
+        question: 'Kuinka kauan yhden tehtavan luominen kestaa?',
+        answer: 'Yhden etsi ja laske -tehtävän luominen vie alle 2 minuuttia. Valitse kohteet, ruudukon koko ja tehtävätyypit. Generaattori sijoittaa kohteet automaattisesti. Luo koko viikon laskuharjoitukset 10 minuutissa.',
+      },
+      {
+        id: '10',
+        question: 'Voiko teemakuvia valita vapaasti?',
+        answer: 'Kyllä, valitse etsittävät kohteet 3000+ kuvakirjastosta. Eläimet, ruoka, kulkuneuvot ja muut tutut kuvat pitävät oppilaat kiinnostuneina. Vaihda teemoja vastaamaan viikon opintoyksikköä.',
+      },
+      {
+        id: '11',
+        question: 'Voinko myydaa etsi ja laske -kokoelmia?',
+        answer: 'Kyllä, tilauksesi sisältää kaupallisen lisenssin. I Spy -tyyppiset tehtävät ovat suosittuja varhaiskasvatusmarkkinoilla. Myy teemapaketteja ilman attribuutiovaatimuksia tai lisämaksuja.',
+      },
+      {
+        id: '12',
+        question: 'Miten etsi ja laske -tehtavat tukevat POPS 2014 tavoitteita?',
+        answer: 'Tehtävät tukevat matematiikan tavoitteita T2 (lukumäärän ja laskemisen ymmärrys) ja T7 (luokittelu ja säännönmukaisuuksien tunnistaminen). Visuaalinen etsintä ja laskeminen ovat POPS 2014 toiminnallisen oppimisen periaatteiden mukaisia.',
+      },
+    ]
     
   },
 
@@ -239,8 +392,157 @@ Harmaasävyvaihtoehto säästää mustetta dramaattisesti. Valitse "Harmaasävy"
       securePayment: 'Turvallinen maksu',
       cancelAnytime: 'Peruuta milloin tahansa',
     },
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        slug: 'etsi-esineet-tyoarkit',
+        name: 'Etsi esineet',
+        category: 'Visuaaliset taidot',
+        icon: '🔍',
+        description: 'Täydennä etsi ja laske -tehtäviä piiloesineiden etsintäharjoituksilla tasapainoiseen opetukseen. Molemmat muodot kehittävät visuaalista erottelukykyä eri konteksteissa.',
+      },
+      {
+        id: '2',
+        slug: 'kuvakaavio-tyoarkit',
+        name: 'Kuvakaavio',
+        category: 'Matematiikka',
+        icon: '📊',
+        description: 'Lisää kuvakaavioharjoituksia etsi ja laske -tehtävien rinnalle monipuoliseen laskuharjoitteluun. Oppilaat laskevat kohteita ja sitten esittävät tuloksia kaaviomuodossa.',
+      },
+      {
+        id: '3',
+        slug: 'yhteenlasku-tyoarkit',
+        name: 'Yhteenlasku',
+        category: 'Matematiikka',
+        icon: '➕',
+        description: 'Yhdistä etsi ja laske -tehtävät yhteenlaskuharjoituksiin kattavaan tuntisuunnitteluun. Oppilaat laskevat kohteita ja sitten laskevat kohteet yhteen.',
+      },
+      {
+        id: '4',
+        slug: 'enemman-vahemman-tyoarkit',
+        name: 'Enemmän vai vähemmän',
+        category: 'Matematiikka',
+        icon: '⚖️',
+        description: 'Yhdistä etsi ja laske -käsitteet lukumäärän vertailuharjoituksiin. Oppilaat laskevat eri kohteita ja vertailevat lukumääriä keskenään.',
+      },
+      {
+        id: '5',
+        slug: 'aarteenetsinta-tyoarkit',
+        name: 'Aarteenetsintä',
+        category: 'Visuaaliset taidot',
+        icon: '🏴‍☠️',
+        description: 'Laajenna etsi ja laske -harjoittelua seikkailuteemaisilla etsintäpulmilla. Oppilaat kehittävät samoja visuaalisia etsintätaitoja jiennittävässä seikkailukontekstissa.',
+      },
+      {
+        id: '6',
+        slug: 'kuva-bingo-tyoarkit',
+        name: 'Kuvabingo',
+        category: 'Varhaiskasvatus',
+        icon: '🎲',
+        description: 'Yhdistä etsi ja laske -tehtävät kuvabingoon kattavaan tuntisuunnitteluun. Molemmat muodot kehittävät visuaalista tunnistamista ja tarkkaavaisuutta hauskassa kontekstissa.',
+      },
+    ]
     
+  },
+
+  // -- SEO & Content Enrichment (Part 174) ------------------------------------
+
+  aiOverviewSnippet: 'Etsi ja laske -generaattori luo tulostettavia I Spy -ruudukoita, joissa oppilaat etsivat piilotettuja kohteita ja suorittavat nelja tehtavatyyppia: ympyroi, nelikulmio, rasti ja laske. Opettajat valitsevat 1–4 kohdetta 3000+ kuvakirjastosta, ruudukon koon 5x5–10x10 ja lataavat 300 DPI PDF:n vastausavaimineen alle 2 minuutissa.',
+
+  comparisonTable: [
+    {
+      feature: 'Tehtävätyypit',
+      ourApp: '4 tehtävätyyppiä per kohde (ympyröi, nelikulmio, rasti, laske)',
+      typical: 'Yksi tehtävätyyppi per tehtävä',
+    },
+    {
+      feature: 'Ruudukon koko',
+      ourApp: 'Säädettävä 5x5–10x10',
+      typical: 'Kiinteä ruudukko ilman koon hallintaa',
+    },
+    {
+      feature: 'I Spy -otsikkorivi',
+      ourApp: 'Automaattisesti luotu otsikko kohteilla ja tehtäväikoneilla',
+      typical: 'Ei otsikkoa tai manuaalinen luonti',
+    },
+    {
+      feature: 'Kohteiden sijoittelu',
+      ourApp: 'Satunnainen tasainen jakautuminen ruudukkoon',
+      typical: 'Satunnainen tai epätasainen sijoittelu',
+    },
+    {
+      feature: 'Vastausavaimet',
+      ourApp: 'Automaattiset visuaalisin tehtävämerkinnoin ja lukumäärin',
+      typical: 'Usein ei mukana tai opettajan tekemiä',
+    },
+    {
+      feature: 'Kaupallinen lisenssi',
+      ourApp: 'Sisältyy myyntiin',
+      typical: 'Lisämaksu tai henkilökohtainen käyttö',
+    },
+  ],
+
+  researchBacking: [
+    {
+      claim: 'Upotettujen kohteiden laskeminen kehittaa yksi-yhteen-vastaavuutta ja subitisointitaitoja, jotka ovat matemaattisen ajattelun perustaitoja varhaislapsuudessa.',
+      source: 'Aunio, P., "Matemaattisten taitojen kehitys ja tukeminen varhaiskasvatuksessa," Niilo Maki Instituutti',
+    },
+    {
+      claim: 'Useiden samanaikaisten tehtavien suorittaminen kehittaa toiminnanohjauksen joustavuutta, mika vahvistaa kognitiivista kontrollia ja tarkkaavaisuuden siirtamista.',
+      source: 'Lehto, J. et al., "Toiminnanohjaus ja oppiminen," Psykologia-lehti',
+    },
+  ],
+
+  teacherTestimonials: [
+    {
+      quote: 'Nelja tehtavatyyppia yhdella sivulla ovat loistavat pistetyoskentelyyn. Oppilaat harjoittelevat eri taitoja samalla tehtavalla: visuaalista etsintaa, laskemista ja ohjeiden noudattamista. POPS 2014 toiminnallista oppimista parhaimmillaan.',
+      name: 'Hanna Tuominen',
+      role: 'Esiopetuksen opettaja',
+      school: 'Tampereen normaalikoulu',
+    },
+    {
+      quote: 'Kaytan 8x8 ruudukoita kolmella kohteella ekaluokkalaisilleni ja laskutehtava saa heidat kirjoittamaan lukuja joka kerta. Vastausavaimet tekevat tarkistuksesta nopeaa suurenkin ryhman kanssa.',
+      name: 'Markus Aalto',
+      role: '1. luokan opettaja',
+      school: 'Jyvaskylan normaalikoulu',
+    },
+  ],
+
+  tips: {
+    sectionTitle: 'Etsi ja laske -strategiat luokka-asteittain',
+    sectionDescription: 'Saada etsi ja laske -generaattori oikeaan haasteeseen kullekin kehitysvaiheelle. Nain valitset ruudukon koon, kohteiden maaran ja tehtavatyypit esikoulusta kolmanteen luokkaan.',
+    items: [
+      {
+        id: 'esikoulu',
+        icon: '🌱',
+        title: 'Esikoulu: 5x5 ruudukko yhdella kohteella',
+        description: 'Kaytta pienta 5x5 ruudukkoa yhdella etsittavalla kohteella ja ympyroi-tehtavatyypilla. Esikoululaiset harjoittelevat visuaalista etsintaa ja yksi-yhteen-vastaavuutta yksinkertaisimmassa muodossa. Ohjatussa pienryhmatyossa opettaja tukee laskemista.',
+      },
+      {
+        id: 'esiopetus',
+        icon: '🎒',
+        title: 'Esiopetus: 6x6 ruudukko kahdella kohteella',
+        description: 'Luo 6x6 tai 7x7 ruudukoita kahdella kohteella. Osoita ympyroi-tehtava toiselle ja laske-tehtava toiselle. Oppilaat harjoittelevat kahden eri ohjeen noudattamista samalla sivulla POPS 2014 matematiikan tavoitteen T2 mukaisesti.',
+      },
+      {
+        id: '1-luokka',
+        icon: '📚',
+        title: '1. luokka: 8x8 ruudukko kolmella kohteella',
+        description: 'Kaytta 8x8 ruudukkoa kolmella kohteella. Osoita eri tehtavatyypit kullekin: ympyroi, rasti ja laske. Ekaluokkalaiset kehittavat monitehtavakontrollia ja laskutaitoja itsenaisesti.',
+      },
+      {
+        id: '2-luokka',
+        icon: '✏️',
+        title: '2. luokka: 10x10 ruudukko neljalla kohteella',
+        description: 'Luo 10x10 ruudukoita neljalla kohteella, joille kullekin oma tehtavatyyppi. Toisluokkalaiset harjoittelevat monimutkaista ohjeiden noudattamista ja tarkkaa laskemista suuremmassa ruudukossa.',
+      },
+      {
+        id: '3-luokka',
+        icon: '🎯',
+        title: '3. luokka: Suurin ruudukko laskupainotteisesti',
+        description: 'Kaytta 10x10 ruudukoita neljalla kohteella, joille kaikille osoitetaan laske-tehtavatyyppi. Kolmasluokkalaiset keskittyvat intensiiviseen laskuharjoitteluun ja lukumaarien vertailuun POPS 2014 vuosiluokkien 3–6 tavoitteiden mukaisesti.',
+      },
+    ],
   },
 };
 

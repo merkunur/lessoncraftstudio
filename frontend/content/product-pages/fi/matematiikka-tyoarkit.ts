@@ -93,7 +93,56 @@ Luo tehtäviä joko pelkästään yhteenlaskusta tai yhteenlaskun ja vähennysla
       noHiddenFees: 'Ei piilomaksuja',
       cancelAnytime: 'Peruuta milloin tahansa',
     },
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        icon: '🧩',
+        title: 'Kuvapohjaiset logiikkapulmat',
+        description: 'Visuaaliset logiikkapulmat, joissa kuvasymbolit edustavat piilotettuja lukuja yhtälöissä. Oppilaat analysoivat kuvayhtälöitä, päättelevät mitä kukin kuva edustaa ja ratkaisevat tehtävät. Kehittää algebrallisen ajattelun perusteita jo varhaisessa vaiheessa.',
+      },
+      {
+        id: '2',
+        icon: '📊',
+        title: 'Neljä vaikeustasoa jokaiselle oppijalle',
+        description: 'Valitse neljästä vaikeustasosta: erittäin helppo, helppo, normaali ja vaikea. Erittäin helppo käyttää kahta symbolia summilla 10 asti. Vaikea taso sisältää neljä symbolia sekaoperaatioilla. Tukee konkreetti-kuvallinen-abstrakti oppimispolkua.',
+      },
+      {
+        id: '3',
+        icon: '➕',
+        title: 'Yhteen- ja vähennyslasku sekä sekaoperaatiot',
+        description: 'Valitse pelkät yhteenlaskut, yhteen- ja vähennyslaskut tai sekamuoto. Esiopetuksen oppilaat aloittavat pelkillä yhteenlaskuilla. 2.–3. luokan oppilaat haastavat itsensä sekaoperaatioilla POPS 2014 tavoitteen T3 mukaisesti.',
+      },
+      {
+        id: '4',
+        icon: '🖼️',
+        title: '3000+ teemakuvaa muuttujina',
+        description: 'Käytä eläimiä, kulkuneuvoja, ruokaa ja leluja matemaattisina muuttujina. Oppilaat näkevät tutut kuvat yhtälöissä perinteisten x- ja y-muuttujien sijaan. Visuaalinen esitys tekee algebrasta helposti lähestyttävän.',
+      },
+      {
+        id: '5',
+        icon: '✅',
+        title: 'Automaattiset vastausavaimet ratkaisuineen',
+        description: 'Jokainen tehtävä generoi vastausavaimen, joka näyttää kunkin kuvan numeerisen arvon. Opettajat tarkistavat oppilastyöt sekunneissa. Vastausavaimet sopivat itsetarkistuspisteille ja dokumenttikameranäyttöön.',
+      },
+      {
+        id: '6',
+        icon: '🔢',
+        title: 'Säädettävä lukualue ja tehtävämäärä',
+        description: 'Aseta lukualue 0–100 ja valitse 1–6 pulmaa sivua kohti. Esiopetukseen sopii lukualue 1–10 ja 1–2 pulmaa. Kolmasluokkalaisille lukualue 1–50 ja 4–6 pulmaa tarjoaa riittävän haasteen.',
+      },
+      {
+        id: '7',
+        icon: '💼',
+        title: 'Kaupallinen lisenssi myyntiin',
+        description: 'Myy luomiasi matematiikkapulmakokoelmia verkossa. Kuvapulmat ovat ainutlaatuinen tuote, joka erottuu tavallisista laskutehtävistä. Kaupallinen lisenssi kattaa kaikki myyntikanavat ilman lisämaksuja.',
+      },
+      {
+        id: '8',
+        icon: '🧠',
+        title: 'Algebrallisen ajattelun perusteet',
+        description: 'Kuvapulmat opettavat algebrallista ajattelua ikaanmukaisesti. Oppilaat oppivat etta symbolit voivat edustaa tuntemattomia lukuja ja etta yhtaloita voi ratkaista loogisella paaattelyylla. Tama luo perustan myohemmalle algebra-opiskelulle.',
+      },
+    ]
     
   },
 
@@ -186,7 +235,50 @@ Tulosta tehtävät kotona tavallisella tulostimella. Valitse harmaasävy sääst
     badgeText: 'Kenelle Sopii',
     readMoreLabel: 'Lue lisää',
     showLessLabel: 'Näytä vähemmän',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        icon: '👩‍🏫',
+        title: 'Esiopetuksen opettajat',
+        subtitle: 'Kahden symbolin pulmat varhaiseen matemaattiseen ajatteluun',
+        description: 'Luo erittäin helpoja kahden symbolin pulmia luvuilla 1–10. Ohjaa oppilaita päättelyprosessin läpi koko luokan harjoituksena. Kuvapohjaiset pulmat innostavat matemaattiseen ajatteluun POPS 2014 tavoitteen T1 mukaisesti.',
+      },
+      {
+        id: '2',
+        icon: '📚',
+        title: 'Alakoulun opettajat',
+        subtitle: 'Kriittisen ajattelun harjoittelu 1.–3. luokalle',
+        description: 'Käytä kolmen ja neljän symbolin pulmia 1.–3. luokan kriittisen ajattelun harjoitteluun. Oppilaat soveltavat yhteen- ja vähennyslaskutaitojaan ongelmanratkaisukontekstissa. Pulmat eriyttyvät luontevasti vaikeustasovalinnalla.',
+      },
+      {
+        id: '3',
+        icon: '🏠',
+        title: 'Kotiopettajat ja vanhemmat',
+        subtitle: 'Kiinnostava vaihtoehto perinteisille laskuharjoituksille',
+        description: 'Kuvapohjaiset pulmat tarjoavat motivoivan vaihtoehdon oppilaille, jotka vastustavat perinteisiä laskutehtäviä. Pulmien ratkaiseminen tuntuu pelaamiselta, ei läksyiltä. Eri vaikeustasot palvelevat kaikkia lapsia samassa perheessä.',
+      },
+      {
+        id: '4',
+        icon: '🌍',
+        title: 'S2-opettajat',
+        subtitle: 'Kieletön matemaattinen päättely',
+        description: 'Kuvapohjaiset pulmat eivät vaadi kielitaitoa. Matemaattinen päättely toimii universaalisti kielirajojen yli. Oppilaat osoittavat matemaattista osaamistaan ilman kielimuurin estämiseen. Täydellinen vastavalmistuneille maahanmuuttajille.',
+      },
+      {
+        id: '5',
+        icon: '💜',
+        title: 'Erityisopettajat',
+        subtitle: 'Vaihtoehtoinen arviointimuoto oppimisen tueksi',
+        description: 'Kuvapulmat tarjoavat vaihtoehtoisen tavan arvioida matemaattista ymmärristä. Visuaalinen muoto vähentää lukemisen kuormitusta. Säädettävät vaikeustasot mahdollistavat HOJKS-tavoitteiden mukaisen eriyttamisen.',
+      },
+      {
+        id: '6',
+        icon: '💰',
+        title: 'Opettajayrittäjät',
+        subtitle: 'Ainutlaatuiset matematiikkatuotteet myyntiin',
+        description: 'Kuvapohjaiset logiikkapulmat erottuvat tavallisista laskutehtävistä oppimateriaalikaupoissa. Luo teemapaketteja eri vaikeustasoilla. Pulmat ovat suosittuja koska ne yhdistävät viihteen ja oppimisen.',
+      },
+    ]
     
   },
 
@@ -201,7 +293,68 @@ Tulosta tehtävät kotona tavallisella tulostimella. Valitse harmaasävy sääst
     showLessLabel: 'Näytä vähemmän',
     secureCheckout: 'Turvallinen maksu',
     cancelAnytime: 'Peruuta milloin tahansa',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        question: 'Miten kuvapohjaisten logiikkapulmien ratkaiseminen toimii?',
+        answer: 'Jokaisessa pulmassa kuvasymbolit edustavat piilotettuja lukuja. Oppilaat analysoivat kuvayhtälöitä, päättelevät kunkin kuvan numeerisen arvon ja ratkaisevat tehtävät hyödyntäen loogista päättelyä. Tämä prosessi opettaa algebrallista ajattelua ikäänmukaisesti.',
+      },
+      {
+        id: '2',
+        question: 'Mitka vaikeustasot ovat saatavilla?',
+        answer: 'Neljä vaikeustasoa: erittäin helppo (2 symbolia, summat 10 asti), helppo (3 symbolia, summat 15 asti), normaali (3 symbolia, yhteen- ja vähennyslasku), vaikea (4 symbolia, sekaoperaatiot, laajempi lukualue).',
+      },
+      {
+        id: '3',
+        question: 'Mitka laskutoimitukset ovat mahdollisia?',
+        answer: 'Valitse pelkät yhteenlaskut, yhteen- ja vähennyslaskut tai sekamuoto. Esiopetuksen oppilaat aloittavat yhteenlaskuilla. 2.–3. luokan oppilaat siirtyvät sekaoperaatioihin, jotka vaativat joustavampaa matemaattista ajattelua.',
+      },
+      {
+        id: '4',
+        question: 'Sisaltavatko tehtavat vastausavaimet?',
+        answer: 'Kyllä, jokainen tehtävä generoi vastausavaimen, joka näyttää kunkin kuvan numeerisen arvon. Opettajat tarkistavat oppilastyöt nopeasti ja voivat tulostaa vastausavaimet itsetarkistuspisteille.',
+      },
+      {
+        id: '5',
+        question: 'Mille ikarryhmille kuvapulmat sopivat?',
+        answer: 'Kuvapulmat palvelevat 5–10-vuotiaita. Esiopetusikäiset käyttävät erittäin helppoja pulmia opettajajohtoisesti. 1. luokan oppilaat ratkaisevat helppoja pulmia itsenäisesti. 2.–3. luokan oppilaat haastavat itsensä vaikeammilla tasoilla.',
+      },
+      {
+        id: '6',
+        question: 'Miten kuvapulmat kehittavat algebrallista ajattelua?',
+        answer: 'Oppilaat oppivat että symbolit (kuvat) voivat edustaa tuntemattomia lukuja ja että yhtälöitä voi ratkaista loogisella päättelyyllä. Tämä on suora perusta myöhemmälle muuttujien ja yhtälöiden opiskelulle.',
+      },
+      {
+        id: '7',
+        question: 'Voiko teemakuvia valita vapaasti?',
+        answer: 'Kyllä, valitse 3000+ kuvakirjastosta tai lataa omia kuvia muuttujiksi. Eläimet, ruoka, kulkuneuvot ja muut tutut kuvat tekevät abstrakteista matemaattisista käsitteistä konkreettisia ja kiinnostavia.',
+      },
+      {
+        id: '8',
+        question: 'Miten kuvapulmat tukevat POPS 2014 tavoitteita?',
+        answer: 'Kuvapulmat tukevat matematiikan tavoitteita T1 (matemaattinen ajattelu ja ongelmanratkaisu) ja T3 (laskutaitojen sujuvuus). Visuaalinen ongelmanratkaisu on POPS 2014 toiminnallisen oppimisen periaatteiden mukaista.',
+      },
+      {
+        id: '9',
+        question: 'Kuinka kauan yhden tehtavan luominen kestaa?',
+        answer: 'Yhden matematiikkapulmatehtävän luominen vie alle 3 minuuttia. Valitse teemakuvat, vaikeustaso ja lukualue. Generaattori rakentaa pulman automaattisesti. Luo koko viikon haastetehtävät 15 minuutissa.',
+      },
+      {
+        id: '10',
+        question: 'Voinko myydaa logiikkapulmakokoelmia?',
+        answer: 'Kyllä, tilauksesi sisältää kaupallisen lisenssin. Kuvapulmat ovat ainutlaatuinen tuote, joka erottuu perinteisistä laskutehtävistä oppimateriaalikaupoissa. Luo teemapaketteja eri vaikeustasoilla.',
+      },
+      {
+        id: '11',
+        question: 'Sopivatko kuvapulmat eriytettyyn opetukseen?',
+        answer: 'Kyllä, neljä vaikeustasoa mahdollistavat luontevan eriyttamisen. Luo helpompia pulmia tukea tarvitseville ja haastavampia lahjakkaiden oppilaiden lisätehtäviksi. Kaikki tehtävät näyttävät samanlaisilta, joten eriyttaminen on huomaamatonta.',
+      },
+      {
+        id: '12',
+        question: 'Mitka lukualueet ovat mahdollisia?',
+        answer: 'Aseta lukualue 0–100. Esiopetukseen sopii 1–10. Ekaluokkalaisille 1–15. Toisluokkalaisille 1–20. Kolmasluokkalaisille 1–50 tai jopa 1–100 haastetehtäviin. Valitse 1–6 pulmaa sivua kohti.',
+      },
+    ]
     
   },
 
@@ -249,8 +402,157 @@ Tulosta tehtävät kotona tavallisella tulostimella. Valitse harmaasävy sääst
       securePayment: 'Turvallinen maksu',
       cancelAnytime: 'Peruuta milloin tahansa',
     },
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        slug: 'yhteenlasku-tyoarkit',
+        name: 'Yhteenlasku',
+        category: 'Matematiikka',
+        icon: '➕',
+        description: 'Yhdistä logiikkapulmat perinteisiin yhteenlaskutehtäviin kattavaan laskuharjoitteluun. Oppilaat ratkaisevat ensin kuvamuuttujia ja sitten soveltavat taitoja tavallisiin yhteenlaskuihin.',
+      },
+      {
+        id: '2',
+        slug: 'vahennyslasku-tyoarkit',
+        name: 'Vähennyslasku',
+        category: 'Matematiikka',
+        icon: '➖',
+        description: 'Yhdistä vähennyslaskutehtävät matematiikkapulmiin, jotka sisältävät vähennyslaskuoperaatioita. Oppilaat harjoittelevat samoja taitoja eri muodoissa.',
+      },
+      {
+        id: '3',
+        slug: 'matematiikkapulmat-tyoarkit',
+        name: 'Matematiikkapulmat',
+        category: 'Logiikka',
+        icon: '🧩',
+        description: 'Laajenna matemaattista päättelyä lisäpulmamuodoilla mukaan lukien lukuruudukot ja yhtälösokkelo. Eri pulmaformaatit kehittävät joustavaa ongelmanratkaisua.',
+      },
+      {
+        id: '4',
+        slug: 'kuviotehtava-tyoarkit',
+        name: 'Kuviotehtävät',
+        category: 'Logiikka',
+        icon: '🔁',
+        description: 'Kehitä samoja loogisen päättelyn taitoja kuvapulmissa käytettyinä. Kuvioiden tunnistaminen ja jatkaminen vahvistaa matemaattista hahmontunnistusta.',
+      },
+      {
+        id: '5',
+        slug: 'sudoku-tyoarkit',
+        name: 'Sudoku',
+        category: 'Logiikka',
+        icon: '🧠',
+        description: 'Täydennä kuvapulmia sudoku-tehtävillä, jotka kehittävät loogista päättelyä ja deduktiotaitoja samankaltaisessa visuaalisessa kontekstissa.',
+      },
+      {
+        id: '6',
+        slug: 'kuva-yhteenlasku-tyoarkit',
+        name: 'Kuva-yhteenlasku',
+        category: 'Matematiikka',
+        icon: '🔑',
+        description: 'Kuva-yhteenlaskutehtävät käyttävät samanlaista konseptia, jossa oppilaat ratkaisevat yhteenlaskutehtäviä koodatakseen piilotettuja viestejä. Molemmat muodot yhdistävät laskemisen ja ongelmanratkaisun.',
+      },
+    ]
     
+  },
+
+  // -- SEO & Content Enrichment (Part 174) ------------------------------------
+
+  aiOverviewSnippet: 'Matematiikkapulmageneraattori luo tulostettavia logiikkapulmia, joissa kuvasymbolit edustavat piilotettuja lukuja yhtaloissa. Oppilaat analysoivat visuaalisia yhttaloita, paaatttelevat kunkin kuvan arvon ja ratkaisevat tehtavat. Opettajat valitsevat neljan vaikeustason ja teemakuvat 3000+ kirjastosta ja lataavat valmiin PDF:n vastausavaimineen.',
+
+  comparisonTable: [
+    {
+      feature: 'Tehtävämuoto',
+      ourApp: 'Visuaaliset logiikkapulmat kuvamuuttujilla',
+      typical: 'Tavalliset numeroyhtälöt',
+    },
+    {
+      feature: 'Vaikeustasot',
+      ourApp: '4 tasoa: erittäin helposta vaikeaan',
+      typical: '1–2 kiinteää tasoa',
+    },
+    {
+      feature: 'Kuvakirjasto',
+      ourApp: '3000+ teemakuvaa muuttujina',
+      typical: 'Ei visuaalista tukea',
+    },
+    {
+      feature: 'Operaatiot',
+      ourApp: 'Yhteenlasku, vähennyslasku tai sekamuoto',
+      typical: 'Vain yksi operaatio',
+    },
+    {
+      feature: 'Vastausavaimet',
+      ourApp: 'Automaattisesti kuvaratkaisuineen',
+      typical: 'Manuaalinen luonti',
+    },
+    {
+      feature: 'Kaupallinen käyttö',
+      ourApp: 'Myyntilisenssi sisältyy',
+      typical: 'Lisälisenssimaksu',
+    },
+  ],
+
+  researchBacking: [
+    {
+      claim: 'Kuvallisten esitysten kayttoo matemaattisina muuttujina kehittaa varhaista algebrallista paattelya ilman muodollisen symboliikan aiheuttamaa kognitiivista kuormitusta.',
+      source: 'Leino, K. et al., "Matemaattinen ajattelu ja ongelmanratkaisu perusopetuksessa," Koulutuksen tutkimuslaitos, Jyvaskyla',
+    },
+    {
+      claim: 'Pulmapohjainen oppiminen lisaa oppilaiden sitoutumista ja motivaatiota erityisesti niilla oppilailla, jotka vastustavat perinteisia mekaanisia harjoituksia.',
+      source: 'Hannula, M., "Motivaatio ja matematiikan oppiminen," Turun yliopisto',
+    },
+  ],
+
+  teacherTestimonials: [
+    {
+      quote: 'Kuvapulmat esittelivat algebrallisen ajattelun ekaluokkalaisilleni ilman etta he edes tajusivat opetteleevansa algebraa. Oppilaat pyytavat lisaa pulmia joka tunti.',
+      name: 'Laura Nieminen',
+      role: '2. luokan opettaja',
+      school: 'Ruusulan koulu, Turku',
+    },
+    {
+      quote: 'Minulla on oppilaita, jotka kieltaytyivat tekemasta tavallisia matematiikkatehtavia mutta pyytavat nyt innokkaasti lisaa pulmia. Visuaalinen muoto muutti heidaan asenteensa matematiikkaa kohtaan.',
+      name: 'Pekka Savolainen',
+      role: 'Matematiikan opettaja',
+      school: 'Rantalan koulu, Oulu',
+    },
+  ],
+
+  tips: {
+    sectionTitle: 'Matematiikkapulmastrategiat luokka-asteittain',
+    sectionDescription: 'Saada matematiikkapulmageneraattori oikeaan haasteeseen kullekin kehitysvaiheelle. Nain valitset vaikeustason, operaatiot ja lukualueen esiopetuksesta kolmanteen luokkaan.',
+    items: [
+      {
+        id: 'esikoulu',
+        icon: '🌱',
+        title: 'Esikoulu: Tutustu pulmiin opettajajohtoisesti',
+        description: 'Kaytta erittain helppoja kahden symbolin pulmia luvuilla 1–10. Esittele pulmien ratkaisuprosessi koko luokan harjoituksena. Ohjaa oppilaita paattelemaan kuvasymbolien arvoja yhdessa. Toiminnallinen lahestymistapa POPS 2014 tavoitteen T1 mukaisesti.',
+      },
+      {
+        id: 'esiopetus',
+        icon: '🎒',
+        title: 'Esiopetus: Kahden symbolin yhteenlasku',
+        description: 'Luo helppoja kahden symbolin pulmia pelkilla yhteenlaskuilla ja luvuilla 1–10. Oppilaat ratkaisevat itsenaisesti kun prosessi on tuttu. Kaytta 1–2 pulmaa sivulla selkeyden vuoksi. Visuaaliset pulmat tukevat POPS 2014 matematiikan tavoitetta T2.',
+      },
+      {
+        id: '1-luokka',
+        icon: '📚',
+        title: '1. luokka: Kolme symbolia ja yhteenlasku',
+        description: 'Siirry kolmen symbolin pulmiin pelkilla yhteenlaskuilla ja luvuilla 1–15. Oppilaat kehittavat jarjestelmallista paattelystrategiaa. Kaytta 2–4 pulmaa sivulla.',
+      },
+      {
+        id: '2-luokka',
+        icon: '✏️',
+        title: '2. luokka: Sekaoperaatiot ja laajempi lukualue',
+        description: 'Esittele yhteen- ja vahennyslasku samoissa pulmissa lukualueella 1–20. Oppilaat oppivat joustavaa laskemista ja kasien kaanteisoperaatioita. Normaali vaikeustaso sopii useimmille toisluokkalaisille.',
+      },
+      {
+        id: '3-luokka',
+        icon: '🎯',
+        title: '3. luokka: Nelja symbolia ja haastepulmat',
+        description: 'Kaytta vaikeita neljan symbolin sekaoperaatiopulmia lukualueella 1–50. Oppilaat kirjoittavat paattelyketjunsa yloes. POPS 2014 vuosiluokkien 3–6 tavoitteen T1 mukaista matemaattisen ajattelun vahvistamista.',
+      },
+    ],
   },
 };
 

@@ -88,7 +88,56 @@ Ilmainen perusversio sisältää vesileiman henkilökohtaiseen käyttöön. Peru
       noHiddenFees: 'Ei piilomaksuja',
       cancelAnytime: 'Peruuta milloin tahansa',
     },
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        icon: '📝',
+        title: 'Mukautettavat sanalistat',
+        description: 'Kirjoita omat sanastosanat tai anna generaattorin poimia sanat valituista kuvista. Rakenna sanahakupulmia minkä tahansa aiheen, sanastolistan tai opetussuunnitelman yksikön ympärille. Yhdistä kirjoitetut sanat ja kuvapohjaiset sanat samaan pulmaan joustavasti.',
+      },
+      {
+        id: '2',
+        icon: '📐',
+        title: 'Säädettävä ruudukon koko',
+        description: 'Valitse ruudukon koko 5x5 esikoululaisille aina 30x30 edistyneille oppilaille. Aseta rivit ja sarakkeet erikseen. Pienempi ruudukko pitää pulmat hallittavina alkavalle lukijalle, suurempi ruudukko haastaa vanhempia oppilaita.',
+      },
+      {
+        id: '3',
+        icon: '🔀',
+        title: 'Sanasuunnan hallinta',
+        description: 'Ota käyttöön tai poista vaakasuorat, pystysuorat, viistot ja käänteissanat itsenäisesti. Yksinkertaista pulmia alkavalle lukijalle rajoittamalla pelkästään vaakasuoriin. Lisää viistoja ja käänteisiä suuntia asteittain oppilaiden kehittyessä.',
+      },
+      {
+        id: '4',
+        icon: '🖼️',
+        title: 'Yli 3000 teemakuvaa vihjeiksi',
+        description: 'Selaa yli 3000 lapsiystavallista kuvaa koulutusaiheittain. Käytä kuvavihjeitä sanalistojen sijaan, jotta esiopetuksen oppilaat ja S2-oppilaat voivat osallistua. Oppilas tunnistaa kuvan ja etsii vastaavan sanan kirjainruudukosta.',
+      },
+      {
+        id: '5',
+        icon: '✅',
+        title: 'Automaattiset värikoodatut vastausavaimet',
+        description: 'Jokainen sanahakupulma tuottaa automaattisesti värikoodatun vastausavaimen. Jokainen piilotettu sana korostetaan omalla värillään näyttäen tarkan sijainnin ja suunnan. Opettajat tarkistavat oppilastyöt sekunneissa.',
+      },
+      {
+        id: '6',
+        icon: '🎨',
+        title: 'Muokkaustyökalu tehtävien kustomointiin',
+        description: 'Klikkaa mitä tahansa elementtiä muokataksesi sitä suoraan. Siirrä, skaalaa, kierrä tai poista pulman osia. Lisää mukautettua tekstiä, vaihda fontteja ja värejä, lataa taustakuvia ja lisää koristeellisia kehyksiä.',
+      },
+      {
+        id: '7',
+        icon: '💼',
+        title: 'Kaupallinen lisenssi myyntiin',
+        description: 'Tilauksesi sisältää täydet kaupalliset oikeudet myydä sanahakutehtäviä verkossa. Ei attribuutiovaatimuksia eikä ylimääräisiä lisenssimaksuja. Rakenna kannattava pulmakokoelmien liiketoiminta.',
+      },
+      {
+        id: '8',
+        icon: '🌍',
+        title: '11 kielen tuki sanastoharjoitteluun',
+        description: 'Luo sanahakupulmia 11 kielellä mukaan lukien suomi, ruotsi, norja ja tanska. Vaihda kieltä luodaksesi monikielisiä pulmia, jotka yhdistävät kotikielen ja kohdekielen sanastoa. Täydellinen S2-opetukseen ja kielikylpyohjelmiin.',
+      },
+    ]
     
   },
 
@@ -171,7 +220,50 @@ Aktivoi harmaasävyvaihtoehto säästääksesi värimustetta. Tehtävät tulostu
     badgeText: 'Kenelle Sopii',
     readMoreLabel: 'Lue lisää',
     showLessLabel: 'Näytä vähemmän',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        icon: '🌱',
+        title: 'Esiopetuksen opettajat',
+        subtitle: 'Pienet ruudukot ja kuvavihjeet alkavalle lukijalle',
+        description: 'Luo pieniä 5x5 tai 8x8 ruudukoita vaakasuoralla sanasijoittelulla ja kuvavihjeinä. Esiopetuksen oppilaat tunnistavat kuvia ja etsivät 3–4 kirjaimen sanoja. Täydellinen lukemisvalmiuden ja kirjaintuntemuksen kehittämiseen POPS 2014 tavoitteiden mukaisesti.',
+      },
+      {
+        id: '2',
+        icon: '📖',
+        title: 'Alakoulun opettajat',
+        subtitle: 'Sanastoharjoittelu opetussuunnitelman mukaisesti',
+        description: 'Generoi sanastoharjoituspulmia viikon sanalistojen ja lukuyksiköiden mukaan. Käytä 10x15 ruudukoita viistoilla sanoilla 1.–2. luokalle. Luo teemallisia sanahakuja, jotka yhdistävät ympäristöopin, äidinkielen ja matematiikan sanastoa.',
+      },
+      {
+        id: '3',
+        icon: '🏠',
+        title: 'Kotiopettajat ja vanhemmat',
+        subtitle: 'Teemapaketteja minuuteissa',
+        description: 'Rakenna teemallisia oppimispaketteja sanahakupulmilla. Yhdistä eläin-, luonto- tai vuodenaikateemoja useissa tehtävätyypeissä. Generoi koko viikon sanastoharjoittelun 15 minuutissa mukautettavalla vaikeustasolla.',
+      },
+      {
+        id: '4',
+        icon: '🌍',
+        title: 'S2-opettajat',
+        subtitle: 'Monikieliset pulmat 11 kielellä',
+        description: 'Luo sanahakupulmia 11 kielellä rakentaaksesi visuaalista sanastoa suomi toisena kielenä -oppijoille. Kuvavihjeet tarjoavat yleisen kontekstin samalla kun piilotetut sanat vahvistavat kohdekielen oikeinkirjoitusta.',
+      },
+      {
+        id: '5',
+        icon: '🧩',
+        title: 'Erityisopettajat',
+        subtitle: 'Säädettävä vaikeustaso jokaiselle oppijalle',
+        description: 'Säädä ruudukon kokoa, sanamäärää ja suuntavaihtoehtojen monimutkaisuutta jokaisen oppilaan lukutason mukaan. Pienet ruudukot vaakasuorilla sanoilla tukevat heikompia lukijoita. Visuaalinen etsintä vahvistaa kirjaintuntemusta oppimisen tuen piirissä.',
+      },
+      {
+        id: '6',
+        icon: '💰',
+        title: 'Opettajayrittäjät',
+        subtitle: 'Myy pulmakokoelmia kaupallisella lisenssillä',
+        description: 'Luo teemallisia sanahakukokoelmia myytäväksi verkossa. Vuodenaikojen, juhlapäivien ja opetussuunnitelman mukaiset pulmapaketit myyvät tasaisesti. Kaupallinen lisenssi kattaa rajattomat myynnit ilman attribuutiovaatimuksia.',
+      },
+    ]
     
   },
 
@@ -186,7 +278,68 @@ Aktivoi harmaasävyvaihtoehto säästääksesi värimustetta. Tehtävät tulostu
     showLessLabel: 'Näytä vähemmän',
     secureCheckout: 'Turvallinen maksu',
     cancelAnytime: 'Peruuta milloin tahansa',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        question: 'Miten sanahakugeneraattori luo pulmia kuvista?',
+        answer: 'Generaattori muuntaa kuvavihjeet automaattisesti piilotetuksi sanapulmaksi. Valitse teema kuten eläimet tai ruoka, ja sovellus tunnistaa jokaisen kuvan, sijoittaa vastaavan sanan ruudukkoon ja täyttää ympäröivät ruudut satunnaisilla kirjaimilla. Oppilaat katsovat kuvavihjeitä ja etsivät vastaavan sanan ruudukosta.',
+      },
+      {
+        id: '2',
+        question: 'Mitä ruudukon kokoja on saatavilla?',
+        answer: 'Sanahakutehtävät tukevat ruudukon kokoja 5x5:stä aina 30x30:een. Pienemmät ruudukot kuten 5x5 tai 8x8 sopivat parhaiten esiopetuksen oppilaille. Keskikokoiset 10x15 ruudukot sopivat 1.–2. luokan sanastoharjoitteluun. Suuremmat ruudukot haastavat vanhempia oppilaita.',
+      },
+      {
+        id: '3',
+        question: 'Voivatko sanahakupulmat sisältää viistoja ja käänteisiä sanoja?',
+        answer: 'Kyllä, voit hallita sanasuuntia jokaisessa pulmassa. Ota käyttöön vaakasuora, pystysuora, viisto ja käänteinen sanasijoittelu itsenäisesti. Esiopetuksen tehtävissä käytetään yleensä vain vaakasuoria ja pystysuoria sanoja. Alakoulun tehtäviin lisätään viistoja sanoja lisähaasteeksi.',
+      },
+      {
+        id: '4',
+        question: 'Kuinka monta sanaa mahtuu yhteen sanahakutehtävään?',
+        answer: 'Sanamäärä riippuu ruudukon koosta ja sanojen pituudesta. 10x10 ruudukko sisältää mukavasti 8–12 sanaa. 15x15 ruudukko sopii 12–20 sanalle. Generaattori optimoi sanojen sijoittelun automaattisesti välttäen päällekkäisyyksiä.',
+      },
+      {
+        id: '5',
+        question: 'Sisältääkö generaattori vastausavaimet?',
+        answer: 'Jokainen sanahakutehtävä generoi täydellisen vastausavaimen automaattisesti. Vastausavain korostaa kaikki piilotetut sanat värikoodatuin merkinnein näyttäen tarkat sijainnit ja suunnat. Opettajat voivat tulostaa vastausavaimen erikseen tai näyttää sen dokumenttikameralla.',
+      },
+      {
+        id: '6',
+        question: 'Mille ikäryhmille sanahakutehtävät sopivat?',
+        answer: 'Sanahakutehtävät palvelevat 4–12-vuotiaita useilla taitotasoilla. Esikouluikäiset 4–5-vuotiaat käyttävät pieniä ruudukoita yksinkertaisilla sanoilla. Esiopetuksen ja 1. luokan oppilaat harjoittelevat sanastoa keskikokoisissa ruudukoissa. 2.–3. luokan oppilaat ratkaisevat haastavia pulmia.',
+      },
+      {
+        id: '7',
+        question: 'Sopivatko sanahakutehtävät esiopetukseen?',
+        answer: 'Sanahakutehtävät sopivat erinomaisesti esiopetukseen oikein asetuksin. Käytä 5x5 tai 8x8 ruudukoita pelkällä vaakasuoralla sijoittelulla. Valitse 3–5 kirjaimen sanoja POPS 2014 äidinkielen tavoitteiden mukaisesti. Kuvavihjeet mahdollistavat osallistumisen ilman itsenäistä lukutaitoa.',
+      },
+      {
+        id: '8',
+        question: 'Voiko tehtäviä luoda useilla kielillä?',
+        answer: 'Generaattori luo pulmia 11 kielellä mukaan lukien suomi, ruotsi, norja, tanska, englanti, saksa, ranska ja espanja. Vaihda kieltä luodaksesi sanastopulmia millä tahansa tuetulla kielellä. S2-opettajat hyödyntävät monikielisiä pulmia kotikielen ja kohdekielen yhdistämiseen.',
+      },
+      {
+        id: '9',
+        question: 'Miten tulostan sanahakutehtävät kotona?',
+        answer: 'Lataa sanahakutehtäväsi korkealaatuisena PDF-tiedostona. Valitse A4 tai Letter-sivukoko ennen lataamista. Kaikki tehtävät ovat 300 DPI resoluutiolla terävän tekstin ja selkeiden ruudukkoviivojen varmistamiseksi. Harmaasävyvaihtoehto säästää värimustetta.',
+      },
+      {
+        id: '10',
+        question: 'Kuinka kauan yhden sanahakutehtävän luominen kestää?',
+        answer: 'Yhden sanahakutehtävän luominen vie noin 2–3 minuuttia. Valitse teema ja kuvat 30 sekunnissa. Määritä ruudukon koko ja suunnat 20 sekunnissa. Generaattori rakentaa pulman välittömästi. Useimmat opettajat luovat koko viikon sanahakuharjoitukset 15 minuutissa.',
+      },
+      {
+        id: '11',
+        question: 'Voinko myydä luomiani sanahakutehtäviä?',
+        answer: 'Kyllä, tilauksesi sisältää kaupallisen lisenssin sanahakutehtävien myyntiin verkossa. Ei attribuutiovaatimuksia eikä ylimääräisiä lisenssimaksuja. Luo luokkahuonekelpoisia sanahakuja ja myy niitä digitaalisina latauksina.',
+      },
+      {
+        id: '12',
+        question: 'Miten sanahakutehtävät tukevat POPS 2014 opetussuunnitelmaa?',
+        answer: 'Sanahakutehtävät tukevat äidinkielen ja kirjallisuuden (AI) tavoitteita sanavaraston laajentamisessa, oikeinkirjoituksen harjoittelussa ja sanan tunnistamisessa. Opettajat kohdistavat sanastoa lukuyksiköistä, ympäristöopin aiheista tai teemakokonaisuuksista. Kuvavihjeet tukevat visuaalisia oppijoita POPS 2014 eriytettämisperiaatteiden mukaisesti.',
+      },
+    ]
     
   },
 
@@ -234,8 +387,157 @@ Aktivoi harmaasävyvaihtoehto säästääksesi värimustetta. Tehtävät tulostu
       securePayment: 'Turvallinen maksu',
       cancelAnytime: 'Peruuta milloin tahansa',
     },
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        slug: 'sanansekoitus-tyoarkit',
+        name: 'Sanansekoitus',
+        category: 'Äidinkieli',
+        icon: '🔤',
+        description: 'Yhdistä sanahakupulmat sanansekoitustehtäviin kaksinkertaiseen sanastoharjoitteluun. Oppilaat etsivät piilotettuja sanoja yhdessä pulmassa ja sekoittavat samoja sanoja toisessa.',
+      },
+      {
+        id: '2',
+        slug: 'kuva-arvaus-tyoarkit',
+        name: 'Kuva-arvaus',
+        category: 'Äidinkieli',
+        icon: '❓',
+        description: 'Yhdistä sanahaut täytä-puuttuva-kirjain -tehtäviin kattavaan oikeinkirjoitusharjoitteluun. Oppilaat tunnistavat sanoja ruudukossa ja tuottavat puuttuvia kirjaimia toisessa tehtävässä.',
+      },
+      {
+        id: '3',
+        slug: 'ristisanatehtavat-tyoarkit',
+        name: 'Ristisanatehtävät',
+        category: 'Äidinkieli',
+        icon: '➕',
+        description: 'Luo kattavia sanastopaketteja lisäämällä ristisanatehtäviä sanahakujen rinnalle. Oppilaat kohtaavat samat teemasanat eri tehtävämuodoissa, mikä vahvistaa muistiin painamista.',
+      },
+      {
+        id: '4',
+        slug: 'aakkosjuna-tyoarkit',
+        name: 'Aakkosjuna',
+        category: 'Varhaiskasvatus',
+        icon: '🚂',
+        description: 'Yhdistä sanahakupulmat aakkosjärjestysharjoituksiin varhaisen lukutaidon paketteihin. Esiopetuksen oppilaat harjoittelevat kirjaintuntemusta sanahauissa ja vahvistavat aakkosjärjestystä juna-tehtävillä.',
+      },
+      {
+        id: '5',
+        slug: 'kuvakryptogrammi-tyoarkit',
+        name: 'Kuvakryptogrammi',
+        category: 'Äidinkieli',
+        icon: '🔐',
+        description: 'Haasta edistyneempiä oppilaita kryptogrammi-koodinmurtoharjoituksilla sanahakupulmien rinnalla. Molemmat muodot kehittävät hahmontunnistusta ja kirjainanalyysiä eri konteksteissa.',
+      },
+      {
+        id: '6',
+        slug: 'yhdista-parit-tyoarkit',
+        name: 'Yhdistä parit',
+        category: 'Sanasto',
+        icon: '🔗',
+        description: 'Lisää kuva-sana-yhdistämistehtäviä täydentämään sanahakujen sanastoharjoittelua. Oppilaat yhdistävät kuvia sanoihin yhdessä tehtävässä ja etsivät samoja sanoja toisessa.',
+      },
+    ]
     
+  },
+
+  // -- SEO & Content Enrichment (Part 174) ------------------------------------
+
+  aiOverviewSnippet: 'Sanahakugeneraattori on verkkotyokalu, jolla luodaan tulostettavia kirjainruudukko-pulmia mukautetuista sanalistoista tai teemakuvavihjeista. Opettajat valitsevat ruudukon koon, sanasuunnat ja vaikeustason, ja lataavat valmiin PDF-tehtavan automaattisella varikoodatulla vastausavaimella alle 3 minuutissa.',
+
+  comparisonTable: [
+    {
+      feature: 'Ruudukon joustavuus',
+      ourApp: '5x5 – 30x30, itsenäinen rivi/sarake-hallinta',
+      typical: 'Kiinteät ruudukkokoot (10x10 tai 15x15)',
+    },
+    {
+      feature: 'Sanasuunnat',
+      ourApp: 'Vaakasuora, pystysuora, viisto, käänteinen erikseen',
+      typical: 'Kaikki suunnat aina päällä',
+    },
+    {
+      feature: 'Kuvavihjeet',
+      ourApp: '3000+ teemakuvaa visuaalisina vihjeinä',
+      typical: 'Vain tekstipohjaiset sanalistat',
+    },
+    {
+      feature: 'Vastausavaimet',
+      ourApp: 'Automaattinen värikoodattu avain joka pulmaan',
+      typical: 'Manuaalinen tai lisämaksullinen',
+    },
+    {
+      feature: 'Kaupallinen lisenssi',
+      ourApp: 'Sisältyy, myy vapaasti verkossa',
+      typical: 'Lisämaksu tai ei saatavilla',
+    },
+    {
+      feature: 'Kielituki',
+      ourApp: '11 kieltä mukaan lukien suomi',
+      typical: 'Vain englanti',
+    },
+  ],
+
+  researchBacking: [
+    {
+      claim: 'Sanahakuharjoitukset vahvistavat sanantunnistusta ja visuaalista etsintää vaatimalla oppilaita tunnistamaan tarkkoja kirjainsarjoja häiriötekijöiden joukosta, mikä rakentaa ortografista prosessointisujuvuutta.',
+      source: 'Lerkkanen, M.-K., "Lukemaan oppiminen ja opettaminen," WSOY',
+    },
+    {
+      claim: 'Sanavaraston omaksuminen paranee kun oppilaat kohtaavat kohdisanoja useissa eri muodoissa mukaan lukien pulmat, sillä monipuolinen altistus syventää sanastollisia representaatioita pelkän ulkoa opettelun sijaan.',
+      source: 'Niilo Mäki Instituutti, "Lukemisen ja kirjoittamisen tuen tutkimus," Jyväskylän yliopisto',
+    },
+  ],
+
+  teacherTestimonials: [
+    {
+      quote: 'Ekaluokkalaiseni pyytvat sanahakuharjoituksia joka lukutunnilla. Kuvavihjeet mahdollistavat heikompienkin lukijoiden osallistumisen ja voin saataa ruudukon kokoa niin etta jokainen onnistuu.',
+      name: 'Minna Korhonen',
+      role: '1. luokan opettaja',
+      school: 'Puistolan koulu, Helsinki',
+    },
+    {
+      quote: 'Myyn teemallisia sanahakukokoelmia verkossa ja tama generaattori pienensi tuotantoaikani kahdesta tunnista viiteentoista minuuttiin per paketti. Vastausavaimet yksinaan saastavat valtavasti muotoilutyota.',
+      name: 'Antti Virtanen',
+      role: 'Opettajayritttaja',
+      school: 'OpeVirtanen verkkokauppa',
+    },
+  ],
+
+  tips: {
+    sectionTitle: 'Sanahakustrategiat luokka-asteittain',
+    sectionDescription: 'Saada sanahakugeneraattori sopivaan haasteeseen kullekin kehitysvaiheelle. Nain asetat ruudukon koon, sanasuunnat ja sanavaraston monimutkaisuuden esikoulusta kolmanteen luokkaan.',
+    items: [
+      {
+        id: 'esikoulu',
+        icon: '🌱',
+        title: 'Esikoulu: Kirjaintunnistus ruudukossa',
+        description: 'Kaytta 5x5 ruudukoita pelkalla vaakasuoralla sijoittelulla ja 3–4 yksinkertaisella kolmikirjaimisella sanalla. Valitse kuvavihjetta tutuista teemoista kuten elaimet tai varit. Esikoululaiset harjoittelevat yksittaisten kirjainten tunnistamista ruudukosta.',
+      },
+      {
+        id: 'esiopetus',
+        icon: '🎒',
+        title: 'Esiopetus: Nakosanahaut',
+        description: 'Luo 8x8 ruudukoita vaaka- ja pystysanoilla kayttaen yleisia sanoja. Ota kuvavihjeet kayttoon jotta lukemaan oppivat tunnistavat kohdesanat visuaalisesti. Rajoita 5–6 sanaan per pulma keskittymisen ja itseluottamuksen rakentamiseksi.',
+      },
+      {
+        id: '1-luokka',
+        icon: '📚',
+        title: '1. luokka: Sanastoharjoituspulmat',
+        description: 'Generoi 10x12 ruudukoita lisaamalla viisto sanasijoittelu lisahaasteeksi. Kaytta 8–10 sanaa viikon sanalistoista tai lukuyksikon sanastosta. Ekaluokkalaiset kehittavat jarjestelmallista etsintastrategiaa rivi riviltaa.',
+      },
+      {
+        id: '2-luokka',
+        icon: '✏️',
+        title: '2. luokka: Teemapohjaiset akateemiset pulmat',
+        description: 'Rakenna 12x15 ruudukoita kaikilla suunnilla mukaan lukien kaanteissanat. Sisallyta 10–15 ymparistopin tai aidinkielen sanastosanaa. Toisluokkalaiset vahvistavat oikeinkirjoitusta tunnistaessaan tarkkoja kirjainsarjoja.',
+      },
+      {
+        id: '3-luokka',
+        icon: '🎯',
+        title: '3. luokka: Haastepulmat',
+        description: 'Luo 15x20 tai suurempia ruudukoita kaanteisilla ja viistoilla sanoilla ja 15–20 monitavuisella sanalla. Kaytta akateemista sanastoa ja ainekohtaista terminologiaa POPS 2014 vuosiluokkien 3–6 tavoitteiden mukaisesti.',
+      },
+    ],
   },
 };
 

@@ -93,7 +93,56 @@ Opettajat käyttävät tätä työkalua kirjainharjoitteluun esikoulussa. Vanhem
       noHiddenFees: 'Ei piilomaksuja',
       cancelAnytime: 'Peruuta milloin tahansa',
     },
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        icon: '🖼️',
+        title: 'Kuvavihje-sekoituspulmat',
+        description: 'Jokainen pulma yhdistää teemakuvan ja sekoitetut kirjaimet. Kuva aktivoi visuaalisen sanavaraston ja antaa vihjeen oikeasta sanasta. Oppilaat järjestävät kirjaimet oikeaan järjestykseen rakentaen oikeinkirjoitustaitoja ja foneemista tietoisuutta.',
+      },
+      {
+        id: '2',
+        icon: '📊',
+        title: 'Neljä vaikeustasoa',
+        description: 'Valitse neljästä vaikeustasosta: ei vihjeitä, helppo, normaali ja vaikea. Helppo-tasolla useampi kirjain on oikealla paikallaan. Vaikea-tasolla vain yksi kirjain on vihjeenä. Ei vihjeitä -taso on haastava ilman mitään kirjainvihjeitä.',
+      },
+      {
+        id: '3',
+        icon: '🎨',
+        title: 'Vokaali-konsonantti-värikoodaus',
+        description: 'Vokaalit näkyvät vaaleansinisinä ja konsonantit valkoisina. Värikoodaus korostaa vokaalien sijoittelua sanoissa ja auttaa oppilaita hahmottamaan sanan rakennetta. Tämä tukee suomen kielen vokaaliharmonian ymmärtämistä.',
+      },
+      {
+        id: '4',
+        icon: '📚',
+        title: 'Yli 3000 teemakuvaa',
+        description: 'Selaa yli 3000 kuvaa teemoittain: eläimet, ruoka, kulkuneuvot, luonto ja kymmeniä muita. Kuvavihjeet auttavat oppilaita tunnistamaan kohdesanan ennen kirjainten järjestämistä. Vaihda teemoja vastaamaan opetussuunnitelman aihealuetta.',
+      },
+      {
+        id: '5',
+        icon: '✅',
+        title: 'Automaattiset vastausavaimet',
+        description: 'Jokainen tehtävä generoi vastausavaimen, joka näyttää oikein kirjoitetut sanat sekoitettujen versioiden rinnalla. Opettajat tarkistavat oppilastyöt nopeasti. Vastausavaimet sopivat itsetarkistuspisteille.',
+      },
+      {
+        id: '6',
+        icon: '🖱️',
+        title: 'Täysi muokkaustyökalu',
+        description: 'Siirrä, skaalaa, kierrä tai poista yksittäisiä pulmia. Lisää mukautettua tekstiä, vaihda fontteja ja värejä. Luo ammattimaisia asetteluja ilman suunnittelukokemusta. Kaikki elementit ovat täysin muokattavissa.',
+      },
+      {
+        id: '7',
+        icon: '💼',
+        title: 'Kaupallinen lisenssi myyntiin',
+        description: 'Myy sanansekoituskokoelmia verkossa tilaukseen sisältyvällä kaupallisella lisenssillä. Ei attribuutiovaatimuksia eikä lisämaksuja. Oikeinkirjoituspelitehtävät ovat jatkuvasti suosittuja tuotteita.',
+      },
+      {
+        id: '8',
+        icon: '✏️',
+        title: 'Oikeinkirjoituksen kehittäminen',
+        description: 'Sanansekoitustehtävät vahvistavat oikeinkirjoitustaitoja vaatimalla oppilaita järjestämään kirjaimia oikeaan järjestykseen. Aktiivinen kirjainten käsittely vahvistaa foneemi-grafeemi-yhteyksiä tehokkaammin kuin passiivinen kopioiminen.',
+      },
+    ]
     
   },
 
@@ -186,7 +235,50 @@ Tulosta tehtävät välittömästi tavallisella toimistotulostimella. 300 DPI -l
     badgeText: 'Kenelle Sopii',
     readMoreLabel: 'Lue lisää',
     showLessLabel: 'Näytä vähemmän',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        icon: '🌱',
+        title: 'Esiopetuksen opettajat',
+        subtitle: 'KVK-sanojen sekoituspulmat kuvavihjeillä',
+        description: 'Luo helppoja sanansekoituksia 3–4 kirjaimen sanoilla kuvavihjeillä. Ota vokaali-konsonantti-värikoodaus käyttöön auttamaan alkavia lukijoita hahmottamaan sanan rakennetta. Esiopetuksen oppilaat harjoittelevat kirjainjärjestystä toiminnallisesti.',
+      },
+      {
+        id: '2',
+        icon: '📚',
+        title: 'Alakoulun opettajat',
+        subtitle: 'Oikeinkirjoitusharjoittelu teemakuvilla',
+        description: 'Generoi sanansekoituspulmia viikon sanalistojen ja lukuyksiköiden sanastosta. Käytä normaalia vaikeustasoa 5–6 pulmalla sivulla. Oppilaat kohtaavat sanalistasanat pelilisessä muodossa, mikä parantaa oikeinkirjoituksen muistamista.',
+      },
+      {
+        id: '3',
+        icon: '🏠',
+        title: 'Kotiopettajat ja vanhemmat',
+        subtitle: 'Eriytetyt oikeinkirjoituspaketit jokaiselle lapselle',
+        description: 'Luo eri vaikeustason sanansekoituspulmia kaikille lapsillesi yhdellä tilauksella. Helppoja 3-kirjaimisia sanoja nuorimmille, haastavia 6–7-kirjaimisia sanoja vanhemmille. Teemapohjaiset paketit pitävät harjoittelun tuoreena.',
+      },
+      {
+        id: '4',
+        icon: '🌍',
+        title: 'S2-opettajat',
+        subtitle: 'Monikieliset sanansekoitukset 11 kielellä',
+        description: 'Luo sanansekoituspulmia 11 kielellä rakentaaksesi visuaalista sanastoa. Kuvavihjeet tarjoavat universaalin kontekstin kielen yli. Aloita oppilaan kotikielellä ja siirry asteittain suomenkielisiin pulmiin.',
+      },
+      {
+        id: '5',
+        icon: '💜',
+        title: 'Erityisopettajat',
+        subtitle: 'Säädettävä vaikeustaso ja visuaalinen tuki',
+        description: 'Säädä vaikeustasoa ja kirjainvihjeiden määrää jokaisen oppilaan tarpeiden mukaan. Kuvavihjeet vähentävät kognitiivista kuormitusta. Värikoodaus auttaa oppilaita hahmottamaan sanan rakennetta oppimisen tuen piirissä.',
+      },
+      {
+        id: '6',
+        icon: '💰',
+        title: 'Opettajayrittäjät',
+        subtitle: 'Myy oikeinkirjoituspaketteja kaupallisella lisenssillä',
+        description: 'Luo teemallisia sanansekoituskokoelmia myyntiin. Oikeinkirjoituspelitehtävät ovat jatkuvasti suosittuja oppimateriaalikaupoissa. Kaupallinen lisenssi kattaa kaikki myyntikanavat.',
+      },
+    ]
     
   },
 
@@ -201,7 +293,68 @@ Tulosta tehtävät välittömästi tavallisella toimistotulostimella. 300 DPI -l
     showLessLabel: 'Näytä vähemmän',
     secureCheckout: 'Turvallinen maksu',
     cancelAnytime: 'Peruuta milloin tahansa',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        question: 'Miten sanansekoitusgeneraattori luo pulmia?',
+        answer: 'Generaattori valitsee kuvia valitsemastasi teemasta, tunnistaa niiden nimet ja sekoittaa kirjaimet satunnaiseen järjestykseen. Oppilas näkee kuvan ja sekoitetut kirjaimet ja järjestää kirjaimet oikeaan järjestykseen sanan muodostamiseksi.',
+      },
+      {
+        id: '2',
+        question: 'Mitka vaikeustasot ovat saatavilla?',
+        answer: 'Neljä vaikeustasoa: ei vihjeitä (kaikki kirjaimet sekoitettu), helppo (useampi kirjain oikealla paikalla), normaali (muutama kirjainvihje) ja vaikea (vain yksi kirjainvihje). Vaikeustaso säätelee kuinka monta kirjainta näkyy jo oikealla paikallaan.',
+      },
+      {
+        id: '3',
+        question: 'Miten varikoodaus toimii sanansekoituksessa?',
+        answer: 'Vokaalit näkyvät vaaleansinisinä ja konsonantit valkoisina. Värikoodaus korostaa vokaalien sijoittelua sanoissa. Tämä auttaa oppilaita hahmottamaan sanan äännerakennetta ja tukee suomen kielen vokaaliharmonian ymmärtämistä.',
+      },
+      {
+        id: '4',
+        question: 'Sisaltavatko tehtavat vastausavaimet?',
+        answer: 'Kyllä, jokainen tehtävä generoi vastausavaimen, joka näyttää oikein kirjoitetut sanat sekoitettujen versioiden rinnalla. Opettajat tarkistavat työt nopeasti tai asettavat vastausavaimet itsetarkistuspisteille.',
+      },
+      {
+        id: '5',
+        question: 'Mille ikarryhmille sanansekoitustehtavat sopivat?',
+        answer: 'Sanansekoituspulmat palvelevat 5–10-vuotiaita. Esiopetusikäiset aloittavat 3-kirjaimisilla sanoilla helpolla vaikeustasolla. 1.–2. luokan oppilaat harjoittelevat 4–6-kirjaimisia sanoja. 3. luokan oppilaat haastavat itsensä monstavuisilla sanoilla ilman vihjeitä.',
+      },
+      {
+        id: '6',
+        question: 'Miten sanansekoitukset rakentavat oikeinkirjoitustaitoja?',
+        answer: 'Sanansekoitustehtävät vaativat oppilaita tunnistamaan oikeat kirjainsarjat. Aktiivinen kirjainten järjestäminen vahvistaa foneemi-grafeemi-yhteyksiä ja ortografista muistia tehokkaammin kuin passiivinen kopioiminen tai lukeminen.',
+      },
+      {
+        id: '7',
+        question: 'Voiko teemallisia sanansekoituksia luoda?',
+        answer: 'Kyllä, valitse 3000+ kuvakirjastosta teemoja: eläimet, ruoka, kulkuneuvot, luonto ja kymmeniä muita. Luo eläinsanansekoituksia luontoyksikoihin tai ruokateemaisia pulmia ravitsemustunneille.',
+      },
+      {
+        id: '8',
+        question: 'Kuinka kauan yhden tehtavan luominen kestaa?',
+        answer: 'Yhden sanansekoitustehtävän luominen vie alle 3 minuuttia. Valitse teema, vaikeustaso ja pulmien määrä. Generaattori rakentaa pulmat automaattisesti. Luo koko viikon oikeinkirjoitusharjoitukset 15 minuutissa.',
+      },
+      {
+        id: '9',
+        question: 'Tukeeko generaattori suomen kielta?',
+        answer: 'Kyllä, generaattori tukee täysin suomen kieltä mukaan lukien ä, ö ja muut erikoismerkit. Suomenkielisten sanojen sekoitukset toimivat moitteettomasti. Vokaali-konsonantti-värikoodaus tukee erityisesti suomen äännerakenteen ymmärtämistä.',
+      },
+      {
+        id: '10',
+        question: 'Miten sanansekoitukset tukevat POPS 2014 tavoitteita?',
+        answer: 'Sanansekoitustehtävät tukevat äidinkielen ja kirjallisuuden (AI) tavoitetta T3 (kirjoittamisen harjoittelu). Aktiivinen kirjainten käsittely kehittää oikeinkirjoitustaitoja ja foneemista tietoisuutta POPS 2014 toiminnallisen oppimisen periaatteiden mukaisesti.',
+      },
+      {
+        id: '11',
+        question: 'Voinko myydaa sanansekoitustehtavia?',
+        answer: 'Kyllä, tilauksesi sisältää kaupallisen lisenssin. Oikeinkirjoituspelitehtävät ovat jatkuvasti suosittuja oppimateriaalikaupoissa. Myy teemapaketteja ilman attribuutiovaatimuksia tai lisämaksuja.',
+      },
+      {
+        id: '12',
+        question: 'Voiko sanansekoituksia luoda ilman kuvia?',
+        answer: 'Kyllä, käytä tekstipohjaista tilaa luodaksesi sanansekoituksia omilla sanalistoillasi ilman kuvia. Tämä sopii tilanteisiin, joissa haluat kohdistaa tiettyjä sanastosanoja opetussuunnitelmasta ilman kuvallista tukea.',
+      },
+    ]
     
   },
 
@@ -249,8 +402,157 @@ Tulosta tehtävät välittömästi tavallisella toimistotulostimella. 300 DPI -l
       securePayment: 'Turvallinen maksu',
       cancelAnytime: 'Peruuta milloin tahansa',
     },
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        slug: 'sananhaku-tyoarkit',
+        name: 'Sanahaku',
+        category: 'Äidinkieli',
+        icon: '🔍',
+        description: 'Yhdistä sanansekoituspulmat sanahakutehtäviin kaksinkertaiseen sanastoharjoitteluun. Oppilaat sekoittavat sanoja yhdessä pulmassa ja etsivät samoja sanoja piilotettuna toisessa.',
+      },
+      {
+        id: '2',
+        slug: 'kuva-arvaus-tyoarkit',
+        name: 'Kuva-arvaus',
+        category: 'Äidinkieli',
+        icon: '❓',
+        description: 'Yhdistä sanansekoitukset täytä-puuttuva-kirjain -tehtäviin. Oppilaat järjestävät kirjaimia yhdessä pulmassa ja täyttävät puuttuvia kirjaimia toisessa.',
+      },
+      {
+        id: '3',
+        slug: 'ristisanatehtavat-tyoarkit',
+        name: 'Ristisanatehtävät',
+        category: 'Äidinkieli',
+        icon: '➕',
+        description: 'Lisää ristisanatehtäviä sanansekoituspaketteihin monipuoliseen sanastoharjoitteluun. Oppilaat kohtaavat saman sanavaraston eri pulmamuodoissa.',
+      },
+      {
+        id: '4',
+        slug: 'aakkosjuna-tyoarkit',
+        name: 'Aakkosjuna',
+        category: 'Varhaiskasvatus',
+        icon: '🚂',
+        description: 'Yhdistä sanansekoitukset aakkosjärjestysharjoituksiin. Oppilaat, jotka hallitsevat kirjaintuntemuksen aakkosjunilla, siirtyvät sanansekoituksin kokonaisten sanojen rakentamiseen.',
+      },
+      {
+        id: '5',
+        slug: 'kuvakryptogrammi-tyoarkit',
+        name: 'Kuvakryptogrammi',
+        category: 'Äidinkieli',
+        icon: '🔐',
+        description: 'Haasta edistyneitä oppilaita kryptogrammi-koodinmurtoharjoituksilla sanansekoituspulmien rinnalla. Molemmat muodot kehittävät kirjainanalyysi- ja oikeinkirjoitustaitoja.',
+      },
+      {
+        id: '6',
+        slug: 'kasinkirjoitus-tyoarkit',
+        name: 'Käsinkirjoitus',
+        category: 'Äidinkieli',
+        icon: '✏️',
+        description: 'Yhdistä sanansekoituksen jälkeen käsinkirjoitusharjoittelu. Oppilaat ensin järjestävät sanan oikein ja sitten harjoittelevat sen kirjoittamista käsinkirjoitustehtävällä.',
+      },
+    ]
     
+  },
+
+  // -- SEO & Content Enrichment (Part 174) ------------------------------------
+
+  aiOverviewSnippet: 'Sanansekoitusgeneraattori lapsille on verkkotyokalu, joka luo tulostettavia pulmia, joissa oppilaat jarjestavat sekoitetut kirjaimet oikeaan jarjestykseen sanan muodostamiseksi. Opettajat valitsevat vaikeustason, teemakuvavihjeet 3000+ kirjastosta ja lataavat valmiin PDF:n vastausavaimineen alle 3 minuutissa.',
+
+  comparisonTable: [
+    {
+      feature: 'Vaikeustasot',
+      ourApp: '4 tasoa (ei vihjeitä/helppo/normaali/vaikea)',
+      typical: 'Yksi kiinteä vaikeustaso',
+    },
+    {
+      feature: 'Värikoodaus',
+      ourApp: 'Vokaali-konsonantti-värierottelu',
+      typical: 'Kaikki samalla värillä',
+    },
+    {
+      feature: 'Tekstipohjainen tila',
+      ourApp: 'Omat sanalistat ilman kuvia',
+      typical: 'Kuvat pakollisia tai ei kuvia',
+    },
+    {
+      feature: 'Vastausavaimet',
+      ourApp: 'Automaattisesti joka tehtävään',
+      typical: 'Usein lisämaksullisia',
+    },
+    {
+      feature: 'Kaupallinen lisenssi',
+      ourApp: 'Sisältyy, myy vapaasti',
+      typical: 'Lisämaksu tai ei saatavilla',
+    },
+    {
+      feature: 'Kielituki',
+      ourApp: '11 kieltä mukaan lukien suomi',
+      typical: 'Vain englanti',
+    },
+  ],
+
+  researchBacking: [
+    {
+      claim: 'Anagrammipohjaiset harjoitukset tuottavat vahvemman ortografisen muistin kuin passiivinen kopioiminen, koska aktiivinen kirjainten kasittely pakottaa oppilaan prosessoimaan jokaisen kirjaimen aseman ja jarjestyksen.',
+      source: 'Lyytinen, H. et al., "Lukivaikeuksien ennaltaehkaisy ja varhainen tunnistaminen," Jyvaskylan yliopisto',
+    },
+    {
+      claim: 'Aktiivinen kirjainten kasittely vahvistaa foneemi-grafeemi-yhteyyksia tehokkaammin kuin pelkka lukeminen tai kopioiminen, erityisesti alkavilla lukijoilla.',
+      source: 'Aro, M. & Lerkkanen, M.-K., "Lukutaidon kehitys ja tukeminen," Niilo Maki Instituutti',
+    },
+  ],
+
+  teacherTestimonials: [
+    {
+      quote: 'Nelja vaikeustasoa ovat pelastus sekaryhmalleni. Voin antaa saman teeman kaikille mutta saataa haastetta jokaisen oppilaan tason mukaan. Erityisesti vokaali-konsonantti-varikoodaus auttaa heikompia lukijoita.',
+      name: 'Katja Lehtonen',
+      role: 'Aidinkielen opettaja',
+      school: 'Havukosken koulu, Vantaa',
+    },
+    {
+      quote: 'Korvasin vanhan oikeinkirjoitustyokirjamme viikoittaisilla sanansekoituspaketeilla ja oppilaiden oikeinkirjoitustulokset paranivat selkeasti. Oppilaat pitavat tehtavia pelina, eivat laksyina.',
+      name: 'Tuomas Rantanen',
+      role: '2. luokan opettaja',
+      school: 'Koivulan koulu, Lahti',
+    },
+  ],
+
+  tips: {
+    sectionTitle: 'Sanansekoitusstrategiat luokka-asteittain',
+    sectionDescription: 'Saada sanansekoitusgeneraattori oikeaan haasteeseen kullekin kehitysvaiheelle. Nain valitset vaikeustason, sanapituuden ja vihjemaaran esikoulusta kolmanteen luokkaan.',
+    items: [
+      {
+        id: 'esikoulu',
+        icon: '🌱',
+        title: 'Esikoulu: Kirjainten yhdistaminen kuviin',
+        description: 'Kaytta helppoa vaikeustasoa kolmikirjaimisilla sanoilla ja selkeilla kuvavihjjilla. Ota vokaali-konsonantti-varikoodaus kayttoon. Esikoululaiset harjoittelevat kirjainjarjestysta tutuilla sanoilla kuten kissa, koira ja auto.',
+      },
+      {
+        id: 'esiopetus',
+        icon: '🎒',
+        title: 'Esiopetus: KVK-sanojen sekoitukset',
+        description: 'Kaytta helppoa tai normaalia vaikeustasoa KVK-sanoilla (konsonantti-vokaali-konsonantti). Valitse 4–6 pulmaa sivulla. Oppilaat kehittavat foneemista tietoisuutta jarjestamalla tuttuja sanoja oikein.',
+      },
+      {
+        id: '1-luokka',
+        icon: '📚',
+        title: '1. luokka: Sanalistojen ja lukusanastojen harjoittelu',
+        description: 'Kaytta normaalia vaikeustasoa viikon sanalistojen sanoilla. 5–6 pulmaa sivulla. Oppilaat kohtaavat sanalistasanat pelillisessa muodossa, mika parantaa oikeinkirjoituksen muistamista kokeissa.',
+      },
+      {
+        id: '2-luokka',
+        icon: '✏️',
+        title: '2. luokka: Sanastonrakennus ja pidemmaat sanat',
+        description: 'Siirry vaikeaan tasoon 5–6-kirjaimisilla sanoilla ymparistopin ja aidinkielen sanastosta. Oppilaat rakentavat akateemista sanastoa samalla kun vahvistavat oikeinkirjoitustaitojaan haastavammilla sanoilla.',
+      },
+      {
+        id: '3-luokka',
+        icon: '🎯',
+        title: '3. luokka: Ilman vihjetta ja monitavuiset sanat',
+        description: 'Kaytta ei vihjejta tai vaikea -tilaa monitavuisilla sanoilla ja akateemisella sanastolla. Oppilaat rakentavat syvalllista ortografista tietoisuutta POPS 2014 vuosiluokkien 3–6 aidinkielen tavoitteiden mukaisesti.',
+      },
+    ],
   },
 };
 

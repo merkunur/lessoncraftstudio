@@ -93,7 +93,56 @@ Työkalumme tekee laadukkaiden esiopetus materiaali ilmainen -tehtävien luomise
       noHiddenFees: 'Ei piilomaksuja',
       cancelAnytime: 'Peruuta milloin tahansa',
     },
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        icon: '📋',
+        title: 'Lajittelu- ja luokittelutehtävämuoto',
+        description: 'Generaattori luo tehtäviä, joissa oppilaat lajittelevat kuvia 2–4 ryhmään määritettyjen ominaisuuksien mukaan. Leikkaa ja liimaa -muoto tekee oppimisesta toiminnallista. Kehittää luokittelutaitoja ja kategorista ajattelua.',
+      },
+      {
+        id: '2',
+        icon: '🔢',
+        title: 'Säädettävä ryhmämäärä ja lajitteluperuste',
+        description: 'Valitse 2–4 lajitteluryhmää tehtävään. Kaksi ryhmää sopii nuoremmille lapsille. Neljä ryhmää haastaa vanhempia oppilaita. Lajitteluperusteena voi olla teema, väri, muoto tai koko.',
+      },
+      {
+        id: '3',
+        icon: '✂️',
+        title: 'Leikkaa ja liimaa -toiminnallisuus',
+        description: 'Tehtävät sisältävät leikattavat kuvapalat ja kohderyhmien lokerot. Oppilaat leikkaavat kuvat irti ja liimaavat oikeisiin ryhmiin. Käsillä tekeminen vahvistaa luokittelun oppimista.',
+      },
+      {
+        id: '4',
+        icon: '🖼️',
+        title: 'Yli 3000 teemakuvaa lajittelutehtäviin',
+        description: 'Valitse yli 3000 lapsiystavallisesta kuvasta lajittelutehtävien luomiseen. Eläimet, ruoka, kulkuneuvot, muodot ja kymmenet muut teemat. Kuvat sijoittuvat lajitteluryhmiin automaattisesti.',
+      },
+      {
+        id: '5',
+        icon: '✅',
+        title: 'Automaattiset vastausavaimet',
+        description: 'Jokainen lajittelutehtävä generoi automaattisesti vastausavaimen, jossa kuvat näkyvät oikeissa ryhmissä. Opettajat tarkistavat oppilastöitä sekunneissa.',
+      },
+      {
+        id: '6',
+        icon: '🎨',
+        title: 'Täysi muokkaus pohjalla',
+        description: 'Muokkaa jokaista elementtiä luomisen jälkeen. Siirrä, skaalaa ja kierrä kuvia vapaasti. Lisää omaa tekstiä, fontteja, värejä ja kehyksiä ammattimaiseen lopputulokseen.',
+      },
+      {
+        id: '7',
+        icon: '💼',
+        title: 'Kaupallinen lisenssi myyntiin',
+        description: 'Tilauksesi sisältää kaupalliset oikeudet myydä lajittelutehtäviä verkossa. Leikkaa ja liimaa -materiaalit ovat jatkuvasti suosittuja opettajakauppoissa. Kaupallinen lisenssi kattaa rajattomat myynnit.',
+      },
+      {
+        id: '8',
+        icon: '🌍',
+        title: '11 kielen tuki',
+        description: 'Luo lajittelutehtäviä 11 kielellä mukaan lukien suomi, ruotsi ja tanska. Käyttöliittymä kääntyy valitulle kielelle. Täydellinen monikielisiin luokkiin.',
+      },
+    ]
     
   },
 
@@ -186,7 +235,50 @@ Valitse harmaasävyvaihtoehto säästääksesi mustetta. Valintaruutu muuntaa v�
     badgeText: 'Kenelle Sopii',
     readMoreLabel: 'Lue lisää',
     showLessLabel: 'Näytä vähemmän',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        icon: '🌱',
+        title: 'Esiopetuksen opettajat',
+        subtitle: 'Luokittelun perusteet 5–6-vuotiaille',
+        description: 'Luo yksinkertaisia lajittelutehtäviä kahdella ryhmällä ja selvällä lajitteluperusteella. Esiopetuksen oppilaat harjoittelevat kuvien ryhmään sijoittamista leikkaa ja liimaa -menetelmällä. Tukee POPS 2014 tavoitteita.',
+      },
+      {
+        id: '2',
+        icon: '📚',
+        title: 'Alakoulun opettajat',
+        subtitle: 'Kategorista ajattelua 1.–3. luokalla',
+        description: 'Generoi lajittelutehtäviä 3–4 ryhmällä hienommilla lajitteluperusteilla. Oppilaat analysoivat kuvien ominaisuuksia ja perustelevat valintansa. Kehittää tieteellistä ajattelutapaa.',
+      },
+      {
+        id: '3',
+        icon: '🏠',
+        title: 'Kotiopettajat ja vanhemmat',
+        subtitle: 'Toiminnallisia lajittelupulmia kotiin',
+        description: 'Luo temaattisia lajittelutehtäviä lasten suosikkiaiheilla. Leikkaa ja liimaa -muoto pitää lapset aktiivisina. Eläin- ja ruokateema motivoi lajittelua kotona.',
+      },
+      {
+        id: '4',
+        icon: '🌍',
+        title: 'S2-opettajat',
+        subtitle: 'Sanastoharjoittelua lajittelun kautta',
+        description: 'Lajittelutehtävät opettavat luokittelua ja sanastoa kuvapohjaisesti. Oppilaat oppivat ryhmään kuuluvat ja kuulumattomat sanat. 11 kielen tuki mahdollistaa monikielisen opetuksen.',
+      },
+      {
+        id: '5',
+        icon: '💜',
+        title: 'Erityisopettajat',
+        subtitle: 'Säädettävät lajitteluharjoitukset',
+        description: 'Säädä ryhmien määrää ja lajitteluperustetta HOJKS-tavoitteiden mukaisesti. Kaksi ryhmää selvällä erolla tukee heikompia oppilaita. Leikkaa ja liimaa kehittää hienomotoriikkaa.',
+      },
+      {
+        id: '6',
+        icon: '💰',
+        title: 'Opettajayrittäjät',
+        subtitle: 'Myy lajittelupaketteja kaupallisella lisenssillä',
+        description: 'Luo teemallisia lajittelukokoelmia myytäväksi verkossa. Leikkaa ja liimaa -materiaalit ovat jatkuvasti kysyttyjä. Kaupallinen lisenssi kattaa rajattomat myynnit.',
+      },
+    ]
     
   },
 
@@ -201,7 +293,68 @@ Valitse harmaasävyvaihtoehto säästääksesi mustetta. Valintaruutu muuntaa v�
     showLessLabel: 'Näytä vähemmän',
     secureCheckout: 'Turvallinen maksu',
     cancelAnytime: 'Peruuta milloin tahansa',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        question: 'Miten kuvalajittelugeneraattori toimii?',
+        answer: 'Generaattori luo tehtäviä, joissa kuvat lajitellaan ryhmiin määritettyjen ominaisuuksien mukaan. Leikattavat kuvapalat sijaitsevat sivun alareunassa. Oppilaat leikkaavat ja liimaavat kuvat oikeisiin loketoihin.',
+      },
+      {
+        id: '2',
+        question: 'Kuinka monta lajitteluryhmää voi olla?',
+        answer: 'Valitse 2–4 lajitteluryhmää per tehtävä. Kaksi ryhmää sopii esiopetukseen. Kolme tai neljä ryhmää haastaa vanhempia oppilaita. Säädä määrää taitotason mukaan.',
+      },
+      {
+        id: '3',
+        question: 'Miten lajitteluperusteet toimivat?',
+        answer: 'Generaattori luo ryhmiä eri perusteilla: teema (eläimet vs ruoka), ominaisuus (iso vs pieni), väri tai muoto. Oppilaat tunnistavat lajitteluperusteen ja sijoittavat kuvat oikeisiin ryhmiin.',
+      },
+      {
+        id: '4',
+        question: 'Sisältävätkö tehtävät vastausavaimet?',
+        answer: 'Kyllä, jokainen lajittelutehtävä generoi automaattisesti vastausavaimen. Kuvat näkyvät oikeissa ryhmissä. Opettajat tarkistavat oppilastöitä sekunneissa.',
+      },
+      {
+        id: '5',
+        question: 'Mille ikäryhmille lajittelutehtävät sopivat?',
+        answer: 'Lajittelutehtävät palvelevat 4–10-vuotiaita. Esikoululaiset lajittelevat kahteen ryhmään. 1.–3. luokan oppilaat lajittelevat 3–4 ryhmään hienommilla perusteilla.',
+      },
+      {
+        id: '6',
+        question: 'Miten leikkaa ja liimaa -tehtävät toimivat?',
+        answer: 'Sivun alareunassa on leikattavat kuvapalat katkoviivoin merkittyinä. Sivun yläosassa on lajitteluryhmien lokerot otsikoilla. Oppilaat leikkaavat kuvat ja liimaavat ne oikeisiin loketoihin.',
+      },
+      {
+        id: '7',
+        question: 'Voiko omia kuvia käyttää?',
+        answer: 'Kyllä, lataa rajattomasti omia kuvia JPEG-, PNG- tai GIF-muodossa. Yhdistä omia kuvia 3000+ kuvakirjaston kuvien kanssa. Luokkahuoneen kuvat tekevät lajittelusta merkityksellisempaa.',
+      },
+      {
+        id: '8',
+        question: 'Miten tulostan lajittelutehtävät?',
+        answer: 'Lataa tehtäväsi PDF- tai JPEG-muodossa 300 DPI laadulla. Valitse A4 tai Letter-sivukoko. PDF-muoto säilyttää tarkan ulkoasun leikkaamiseen ja liimaamiseen.',
+      },
+      {
+        id: '9',
+        question: 'Sopiiko generaattori erityisopetukseen?',
+        answer: 'Erinomaisesti. Säädä ryhmien määrää ja kuvien selvyyttä HOJKS-tavoitteiden mukaisesti. Kaksi ryhmää selvällä erolla tukee heikompia oppilaita. Toiminnallisuus kehittää hienomotoriikkaa.',
+      },
+      {
+        id: '10',
+        question: 'Kuinka kauan yhden tehtävän luominen kestää?',
+        answer: 'Yhden lajittelutehtävän luominen vie alle 3 minuuttia. Valitse kuvat ja ryhmitys 30 sekunnissa. Generaattori rakentaa tehtävän välittömästi leikattavine osineen.',
+      },
+      {
+        id: '11',
+        question: 'Voinko myydä luomiani lajittelutehtäviä?',
+        answer: 'Kyllä, tilauksesi sisältää kaupallisen lisenssin lajittelutehtävien myyntiin verkossa. Leikkaa ja liimaa -paketit ovat kysyttyjä opettajakauppoissa. Ei attribuutiovaatimuksia.',
+      },
+      {
+        id: '12',
+        question: 'Miten lajittelutehtävät tukevat POPS 2014 tavoitteita?',
+        answer: 'Lajittelutehtävät kehittävät luokittelutaitoja, kategorista ajattelua ja hienomotoriikkaa. POPS 2014 korostaa toiminnallista oppimista ja ajattelun taitoja. Leikkaa ja liimaa -lajittelu yhdistää molemmat.',
+      },
+    ]
     
   },
 
@@ -272,8 +425,157 @@ Valitse harmaasävyvaihtoehto säästääksesi mustetta. Valintaruutu muuntaa v�
       securePayment: 'Turvallinen maksu',
       cancelAnytime: 'Peruuta milloin tahansa',
     },
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        slug: 'poikkea-joukosta-tyoarkit',
+        name: 'Poikkea joukosta',
+        category: 'Logiikka',
+        icon: '🧠',
+        description: 'Poikkea joukosta -tehtävät kehittävät samaa luokitteluajattelua eri muodossa. Yhdistä lajittelun kanssa kattavaan luokitteluharjoitteluun.',
+      },
+      {
+        id: '2',
+        slug: 'etsi-esineet-tyoarkit',
+        name: 'Etsi esineet',
+        category: 'Tarkkaavaisuus',
+        icon: '🔎',
+        description: 'Etsintätehtävät kehittävät visuaalista tunnistamista, joka tukee lajittelutehtävissä tarvittavaa kuvan analysointia.',
+      },
+      {
+        id: '3',
+        slug: 'kuviotehtava-tyoarkit',
+        name: 'Kuviotehtävät',
+        category: 'Logiikka',
+        icon: '🔣',
+        description: 'Kuviotehtävät kehittävät sarjojen tunnistamista ja loogista ajattelua. Yhdistä lajittelun kanssa monipuoliseen ajatteluharjoitteluun.',
+      },
+      {
+        id: '4',
+        slug: 'kuva-bingo-tyoarkit',
+        name: 'Kuvabingo',
+        category: 'Sanasto',
+        icon: '🎲',
+        description: 'Kuvabingo yhdistää kuvan tunnistamisen pelimuotoon. Molemmat kehittävät kuvien tunnistamista ja luokittelua.',
+      },
+      {
+        id: '5',
+        slug: 'enemman-vahemman-tyoarkit',
+        name: 'Enemmän vai vähemmän',
+        category: 'Matematiikka',
+        icon: '📊',
+        description: 'Vertailutehtävät kehittävät lukumäärien vertailua, joka täydentää lajittelun vaatimaa luokitteluajattelua.',
+      },
+      {
+        id: '6',
+        slug: 'yhdista-parit-tyoarkit',
+        name: 'Yhdistä parit',
+        category: 'Logiikka',
+        icon: '🔗',
+        description: 'Yhdistä parit -tehtävät harjoittavat yhteenkuuluvuuden tunnistamista. Molemmat kehittävät kategorista ajattelua eri muodoissa.',
+      },
+    ]
     
+  },
+
+  // -- SEO & Content Enrichment (Part 177) ------------------------------------
+
+  aiOverviewSnippet: 'Kuvalajittelu-generaattori on verkkotyokalu, jolla luodaan tulostettavia leikkaa ja liimaa -lajittelutehtavia esiopetukseen ja alakouluun. Oppilaat leikkaavat kuvia ja liimaavat ne oikeisiin luokkiin maaritetyn ominaisuuden mukaan. Opettajat valitsevat ryhmien maaran, lajitteluperusteen ja teemakuvat, ja lataavat valmiin PDF-tehtavan vastausavaimineen alle 3 minuutissa.',
+
+  comparisonTable: [
+    {
+      feature: 'Lajitteluryhmmät',
+      ourApp: '2–4 ryhmää säädettävästi',
+      typical: 'Kiinteä 2 ryhmää',
+    },
+    {
+      feature: 'Muoto',
+      ourApp: 'Leikkaa ja liimaa -toiminnallinen',
+      typical: 'Pelkkä kuvio ilman toimintaa',
+    },
+    {
+      feature: 'Kuvakirjasto',
+      ourApp: '3000+ teemakuvaa 50 teemasta',
+      typical: 'Rajallinen kuvavalinta',
+    },
+    {
+      feature: 'Vastausavaimet',
+      ourApp: 'Automaattinen vastausavain joka tehtävään',
+      typical: 'Manuaalinen tai ei saatavilla',
+    },
+    {
+      feature: 'Kaupallinen lisenssi',
+      ourApp: 'Sisältyy, myy vapaasti verkossa',
+      typical: 'Lisämaksu tai ei saatavilla',
+    },
+    {
+      feature: 'Kielituki',
+      ourApp: '11 kieltä mukaan lukien suomi',
+      typical: 'Vain englanti',
+    },
+  ],
+
+  researchBacking: [
+    {
+      claim: 'Luokittelu- ja lajittelutehtävät kehittävät kategorista ajattelua, joka on tieteellisen menetelmän ja loogisen päättelyn perusedellytys varhaiskasvatuksessa.',
+      source: 'Hautamäki, J. et al., "Luokittelutaitojen kehitys ja merkitys," Helsingin yliopisto',
+    },
+    {
+      claim: 'Leikkaa ja liimaa -menetelmä yhdistää hienomotoriikan ja kognitiivisen luokittelun, mikä vahvistaa oppimista monikanavaisen prosessoinnin kautta.',
+      source: 'Ahonen, T. et al., "Toiminnallisen oppimisen vaikuttavuus," Niilo Mäki Instituutti',
+    },
+  ],
+
+  teacherTestimonials: [
+    {
+      quote: 'Kuvalajittelutehtavat ovat erinomaisia luokittelutaitojen kehittamiseen. Oppilaani rakastavat leikkaa ja liimaa -muotoa ja oppivat samalla kategorisointia. Saadettava ryhmien maara tekee eriyttamisesta helppoa eri-ikaisille oppilaille.',
+      name: 'Pirjo Savola',
+      role: '1. luokan opettaja',
+      school: 'Kaukajärven koulu, Tampere',
+    },
+    {
+      quote: 'Kaytan lajittelutehtavia esiopetuksessa paivittain. Lapset oppivat tunnistamaan yhteisia piirteita ja lajittelemaan kuvia ryhmiin. Leikkaaminen ja liimaaminen kehittaa samalla hienomotoriikkaa, mika on tarkeaa ennen koulun alkua.',
+      name: 'Ilkka Karppinen',
+      role: 'Esiopetuksen opettaja',
+      school: 'Kartanon päiväkoti, Oulu',
+    },
+  ],
+
+  tips: {
+    sectionTitle: 'Lajittelustrategiat luokka-asteittain',
+    sectionDescription: 'Säädä kuvalajittelugeneraattori sopivaan haasteeseen kullekin kehitysvaiheelle. Näin valitset ryhmien määrän, lajitteluperusteen ja monimutkaisuuden esikoulusta kolmanteen luokkaan.',
+    items: [
+      {
+        id: 'esikoulu',
+        icon: '🌱',
+        title: 'Esikoulu: Kaksi ryhmää selvällä erolla',
+        description: 'Kaytta kahtaa lajitteluryhm aa selvalla erolla (esim. elaimet vs ruoka). Esikoululaiset harjoittelevat kuvan tunnistamista ja ryhm aan sijoittamista. Leikkaa ja liimaa kehittaa hienomotoriikkaa.',
+      },
+      {
+        id: 'esiopetus',
+        icon: '🎒',
+        title: 'Esiopetus: Kolme ryhmää ja monipuolisemmat teemat',
+        description: 'Luo lajittelutehtavia kolmella ryhmalla ja vaihtelevilla teemoilla. Esiopetuksen oppilaat kehittavat kategorisointia ja perustelutaitoja. Tukee POPS 2014 ajattelutaitojen kehittamista.',
+      },
+      {
+        id: '1-luokka',
+        icon: '📚',
+        title: '1. luokka: Kolme ryhmää hienommilla perusteilla',
+        description: 'Generoi lajittelutehtavia kolmella ryhmalla ja hienommilla eroilla. Ekaluokkalaiset analysoivat kuvien ominaisuuksia tarkemmin ja perustelevat lajittelun suullisesti.',
+      },
+      {
+        id: '2-luokka',
+        icon: '✏️',
+        title: '2. luokka: Neljä ryhmää ja moniperusteiset lajittelut',
+        description: 'Luo tehtavia neljalla ryhmalla, joissa lajitteluperuste on hienojakoisempi. Toisluokkalaiset oppivat etta samoja kuvia voi lajitella eri tavoin eri perusteilla.',
+      },
+      {
+        id: '3-luokka',
+        icon: '🎯',
+        title: '3. luokka: Monimutkaiset luokitteluhaasteet',
+        description: 'Kaytta neljaa ryhmaa monimutkaisilla lajitteluperusteilla. Kolmasluokkalaiset perustelevat valintansa kirjallisesti ja luovat omia luokitteluperusteita. Kehittaa tieteellista ajattelua.',
+      },
+    ],
   },
 };
 

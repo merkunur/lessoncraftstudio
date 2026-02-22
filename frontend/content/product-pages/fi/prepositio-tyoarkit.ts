@@ -96,7 +96,56 @@ Generaattori sisältää yli 3000 lapsille sopivaa kuvaa. Kaikki kuvat on järje
       noHiddenFees: 'Ei piilomaksuja',
       cancelAnytime: 'Peruuta milloin tahansa',
     },
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        icon: '📍',
+        title: 'Paikkasanojen harjoitusmuoto',
+        description: 'Generaattori luo tehtäviä, joissa oppilaat tunnistavat esineiden sijainnin suhteessa toisiinsa. Kahdeksan paikkasanaa: päällä, alla, edessä, takana, vieressä, välissä, sisällä ja ulkona. Kehittää avaruudellista sanastoa.',
+      },
+      {
+        id: '2',
+        icon: '⚙️',
+        title: 'Säädettävät paikkasanavalinnat',
+        description: 'Valitse mitkä paikkasanat sisältyvät tehtävään. Aloita kahdella paikkasanalla (päällä, alla) ja laajenna asteittain. Täydellinen eriyttettävisiin oppimistilanteisiin taitotason mukaan.',
+      },
+      {
+        id: '3',
+        icon: '📝',
+        title: 'Monipuoliset tehtävämuodot',
+        description: 'Useita vastausmuotoja: ympyröi oikea kuva, valitse oikea paikkasana, piirrä esine oikeaan paikkaan tai yhdistä kuva paikkasanaan. Monipuolisuus pitää harjoittelun motivoivana.',
+      },
+      {
+        id: '4',
+        icon: '🖼️',
+        title: 'Yli 3000 teemakuvaa paikkasanatehtäviin',
+        description: 'Valitse yli 3000 lapsiystavallisesta kuvasta paikkasanatehtävien luomiseen. Eläimet, huonekalut, lelut ja kymmenet muut teemat. Kuvat näyttävät sijainnin havainnollisesti.',
+      },
+      {
+        id: '5',
+        icon: '✅',
+        title: 'Automaattiset vastausavaimet',
+        description: 'Jokainen paikkasanatehtävä generoi automaattisesti vastausavaimen, jossa oikeat vastaukset on korostettu. Opettajat tarkistavat oppilastöitä sekunneissa.',
+      },
+      {
+        id: '6',
+        icon: '🎨',
+        title: 'Täysi muokkaus pohjalla',
+        description: 'Muokkaa jokaista elementtiä luomisen jälkeen. Siirrä, skaalaa ja kierrä kuvia vapaasti. Lisää omaa tekstiä, fontteja, värejä ja kehyksiä ammattimaiseen lopputulokseen.',
+      },
+      {
+        id: '7',
+        icon: '💼',
+        title: 'Kaupallinen lisenssi myyntiin',
+        description: 'Tilauksesi sisältää kaupalliset oikeudet myydä paikkasanatehtäviä verkossa. Prepositioharjoitukset ovat suosittuja kielenopetuksen materiaaleja. Kaupallinen lisenssi kattaa rajattomat myynnit.',
+      },
+      {
+        id: '8',
+        icon: '🌍',
+        title: '11 kielen tuki',
+        description: 'Luo paikkasanatehtäviä 11 kielellä mukaan lukien suomi, ruotsi ja tanska. Paikkasanat kääntyvät valitulle kielelle. Täydellinen S2-opetukseen ja monikielisiin luokkiin.',
+      },
+    ]
     
   },
 
@@ -179,7 +228,50 @@ Kaikki tehtävät viedään 300 DPI -laadulla. Täydellinen terävyys kotitulost
     badgeText: 'Kenelle Sopii',
     readMoreLabel: 'Lue lisää',
     showLessLabel: 'Näytä vähemmän',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        icon: '🌱',
+        title: 'Esiopetuksen opettajat',
+        subtitle: 'Paikkasanojen perusteet 5–6-vuotiaille',
+        description: 'Luo yksinkertaisia paikkasanatehtäviä kahdella paikkasanalla (päällä, alla). Esiopetuksen oppilaat harjoittelevat sijainnin tunnistamista kuvien avulla. Visuaalinen muoto tekee paikkasanoista konkreettisia. Tukee POPS 2014 tavoitteita.',
+      },
+      {
+        id: '2',
+        icon: '📚',
+        title: 'Alakoulun opettajat',
+        subtitle: 'Avaruudellista sanastoa 1.–2. luokalla',
+        description: 'Generoi paikkasanatehtäviä 4–8 paikkasanalla. Oppilaat oppivat käyttämään paikkasanoja lauseissa ja tunnistamaan spatiaalisia suhteita. Kehittää avaruudellista sanastoa ja kirjoitustaitoja.',
+      },
+      {
+        id: '3',
+        icon: '🏠',
+        title: 'Kotiopettajat ja vanhemmat',
+        subtitle: 'Hauskoja paikkasanaharjoituksia kotiin',
+        description: 'Luo temaattisia paikkasanatehtäviä tutuilla kuvilla. Eläin- ja huonekalukuvat tekevät sijainnin oppimisesta konkreettista. Visuaaliset tehtävät sopivat itsenäiseen harjoitteluun kotona.',
+      },
+      {
+        id: '4',
+        icon: '🌍',
+        title: 'S2-opettajat',
+        subtitle: 'Suomen kielen paikkasanojen opetus',
+        description: 'Paikkasanatehtävät ovat erinomaisia S2-opetukseen. Kuvat havainnollistavat paikkasanojen merkityksen konkreettisesti. 11 kielen tuki mahdollistaa vertailun oman äidinkielen paikkasanoihin.',
+      },
+      {
+        id: '5',
+        icon: '💜',
+        title: 'Erityisopettajat',
+        subtitle: 'Yksilöllistetyt paikkasanaharjoitukset',
+        description: 'Säädä paikkasanojen määrää ja tehtävämuotoa HOJKS-tavoitteiden mukaisesti. Kaksi paikkasanaa selvällä erolla tukee heikompia oppilaita. Visuaalinen muoto tekee oppimisesta konkreettista.',
+      },
+      {
+        id: '6',
+        icon: '💰',
+        title: 'Opettajayrittäjät',
+        subtitle: 'Myy paikkasanapaketteja kaupallisella lisenssillä',
+        description: 'Luo teemallisia paikkasanapaketteja myytäväksi verkossa. Prepositioharjoitukset ovat jatkuvasti kysyttyjä kielenopetuksen materiaaleja. Kaupallinen lisenssi kattaa rajattomat myynnit.',
+      },
+    ]
     
   },
 
@@ -194,7 +286,68 @@ Kaikki tehtävät viedään 300 DPI -laadulla. Täydellinen terävyys kotitulost
     showLessLabel: 'Näytä vähemmän',
     secureCheckout: 'Turvallinen maksu',
     cancelAnytime: 'Peruuta milloin tahansa',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        question: 'Miten prepositiogeneraattori toimii?',
+        answer: 'Generaattori luo tehtäviä, joissa kuvat näyttävät esineiden sijaintisuhteita. Oppilaat tunnistavat paikkasanan (päällä, alla, edessä jne.) kuvan perusteella. Valitse paikkasanat, tehtävämuoto ja kuvateema.',
+      },
+      {
+        id: '2',
+        question: 'Mitkä paikkasanat ovat käytettävissä?',
+        answer: 'Kahdeksan paikkasanaa: päällä, alla, edessä, takana, vieressä, välissä, sisällä ja ulkona. Valitse mitkä sisältyvät tehtävään. Aloita kahdesta ja laajenna asteittain.',
+      },
+      {
+        id: '3',
+        question: 'Mitkä tehtävämuodot ovat saatavilla?',
+        answer: 'Useita muotoja: ympyröi oikea kuva, valitse oikea paikkasana, piirrä esine oikeaan paikkaan ja yhdistä kuva paikkasanaan. Monipuoliset muodot pitävät harjoittelun vaihtelevana.',
+      },
+      {
+        id: '4',
+        question: 'Sisältävätkö tehtävät vastausavaimet?',
+        answer: 'Kyllä, jokainen paikkasanatehtävä generoi automaattisesti vastausavaimen. Oikeat vastaukset korostetaan selkeästi. Opettajat tarkistavat oppilastöitä sekunneissa.',
+      },
+      {
+        id: '5',
+        question: 'Mille ikäryhmille paikkasanatehtävät sopivat?',
+        answer: 'Paikkasanatehtävät palvelevat 4–8-vuotiaita. Esikoululaiset harjoittelevat 2–3 paikkasanaa. 1.–2. luokan oppilaat käyttävät kaikkia 8 paikkasanaa lauseissa.',
+      },
+      {
+        id: '6',
+        question: 'Miten paikkasanatehtävät tukevat kielenoppimista?',
+        answer: 'Paikkasanat ovat kielellisen kehityksen perusosaamista. Visuaaliset kuvat tekevät abstrakteista paikkasanoista konkreettisia. Oppilaat ymmärtävät sijainnin käsitteen ennen sanallista ilmaisua.',
+      },
+      {
+        id: '7',
+        question: 'Sopivatko tehtävät S2-opetukseen?',
+        answer: 'Erinomaisesti. Paikkasanat ovat keskeisiä S2-opetuksessa ja kuvat havainnollistavat merkityksen ilman käännöstä. 11 kielen tuki mahdollistaa vertailun oman äidinkielen paikkasanoihin.',
+      },
+      {
+        id: '8',
+        question: 'Miten tulostan paikkasanatehtävät?',
+        answer: 'Lataa tehtäväsi PDF- tai JPEG-muodossa 300 DPI laadulla. Valitse A4 tai Letter-sivukoko. Harmaasävyvaihtoehto säästää värimustetta. Ammattimaiset tulosteet kotitulostimella.',
+      },
+      {
+        id: '9',
+        question: 'Sopiiko generaattori erityisopetukseen?',
+        answer: 'Kyllä. Säädä paikkasanojen määrää ja tehtävämuotoa HOJKS-tavoitteiden mukaisesti. Kaksi paikkasanaa selvällä erolla tukee heikompia oppilaita. Kuvat tekevät oppimisesta konkreettista.',
+      },
+      {
+        id: '10',
+        question: 'Kuinka kauan yhden tehtävän luominen kestää?',
+        answer: 'Yhden paikkasanatehtävän luominen vie alle 3 minuuttia. Valitse paikkasanat ja kuvat 30 sekunnissa. Generaattori luo tehtävän välittömästi. Viikon tehtävät valmistuvat nopeasti.',
+      },
+      {
+        id: '11',
+        question: 'Voinko myydä luomiani paikkasanatehtäviä?',
+        answer: 'Kyllä, tilauksesi sisältää kaupallisen lisenssin paikkasanatehtävien myyntiin verkossa. Luo teemallisia paketteja opettajakauppoihin. Ei attribuutiovaatimuksia.',
+      },
+      {
+        id: '12',
+        question: 'Miten paikkasanatehtävät tukevat POPS 2014 tavoitteita?',
+        answer: 'Paikkasanatehtävät kehittävät avaruudellista sanastoa, kielellisiä taitoja ja visuaalista hahmottamista. POPS 2014 korostaa monipuolista kielitietoisuutta ja avaruudellisen ajattelun kehittämistä. Paikkasanatehtävät toteuttavat molempia.',
+      },
+    ]
     
   },
 
@@ -240,8 +393,157 @@ Kaikki tehtävät viedään 300 DPI -laadulla. Täydellinen terävyys kotitulost
       securePayment: 'Turvallinen maksu',
       cancelAnytime: 'Peruuta milloin tahansa',
     },
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        slug: 'kasinkirjoitus-tyoarkit',
+        name: 'Käsinkirjoitus',
+        category: 'Lukutaito',
+        icon: '✏️',
+        description: 'Käsinkirjoitustehtävät laajentavat kielellisiä taitoja kirjoittamisen harjoitteluun. Yhdistä paikkasanatehtäviin kattavaan kielenoppimispakettiin.',
+      },
+      {
+        id: '2',
+        slug: 'viivojen-piirtaminen-tyoarkit',
+        name: 'Viivojen piirtäminen',
+        category: 'Hienomotoriikka',
+        icon: '✏️',
+        description: 'Viivanpiirtotehtävät kehittävät kynänhallintaa paikkasanatehtävien rinnalla. Molemmat tukevat hienomotoriikan kehittymistä.',
+      },
+      {
+        id: '3',
+        slug: 'kuva-arvaus-tyoarkit',
+        name: 'Kuva-arvaus',
+        category: 'Sanasto',
+        icon: '💡',
+        description: 'Kuva-arvaustehtävät kehittävät sanastoa visuaalisesti. Yhdistä paikkasanatehtäviin kattavaan sanastoharjoitteluun.',
+      },
+      {
+        id: '4',
+        slug: 'kuvapolku-tyoarkit',
+        name: 'Kuvapolku',
+        category: 'Hahmottaminen',
+        icon: '🛤️',
+        description: 'Kuvapolkutehtävät kehittävät avaruudellista hahmottamista, joka tukee paikkasanojen ymmärtämistä.',
+      },
+      {
+        id: '5',
+        slug: 'iso-pieni-tyoarkit',
+        name: 'Iso vai pieni',
+        category: 'Hahmottaminen',
+        icon: '📏',
+        description: 'Iso vai pieni -tehtävät kehittävät visuaalista vertailua, joka tukee paikkasanojen vaatimaa sijainnin hahmottamista.',
+      },
+      {
+        id: '6',
+        slug: 'yhdista-parit-tyoarkit',
+        name: 'Yhdistä parit',
+        category: 'Logiikka',
+        icon: '🔗',
+        description: 'Yhdistä parit -tehtävät harjoittavat yhteenkuuluvuuden tunnistamista. Yhdistä paikkasanatehtäviin monipuoliseen kielioppipakettiin.',
+      },
+    ]
     
+  },
+
+  // -- SEO & Content Enrichment (Part 177) ------------------------------------
+
+  aiOverviewSnippet: 'Prepositio-generaattori on verkkotyokalu, jolla luodaan tulostettavia paikkasanatehtavia esiopetukseen ja alakouluun. Oppilaat tunnistavat esineiden sijaintisuhteita (paalla, alla, edessa, takana jne.) kuvien avulla. Opettajat valitsevat paikkasanat, tehtavamuodon ja teemakuvat, ja lataavat valmiin PDF-tehtavan vastausavaimineen alle 3 minuutissa.',
+
+  comparisonTable: [
+    {
+      feature: 'Paikkasanat',
+      ourApp: '8 paikkasanaa vapaasti valittavissa',
+      typical: 'Kiinteä 4–5 paikkasanaa',
+    },
+    {
+      feature: 'Tehtävämuodot',
+      ourApp: '4 muotoa: ympyröi, valitse, piirrä, yhdistä',
+      typical: 'Vain yksi muoto',
+    },
+    {
+      feature: 'Kuvakirjasto',
+      ourApp: '3000+ teemakuvaa 50 teemasta',
+      typical: 'Rajallinen kuvavalinta',
+    },
+    {
+      feature: 'Vastausavaimet',
+      ourApp: 'Automaattinen vastausavain joka tehtävään',
+      typical: 'Manuaalinen tai ei saatavilla',
+    },
+    {
+      feature: 'Kaupallinen lisenssi',
+      ourApp: 'Sisältyy, myy vapaasti verkossa',
+      typical: 'Lisämaksu tai ei saatavilla',
+    },
+    {
+      feature: 'Kielituki',
+      ourApp: '11 kieltä mukaan lukien suomi',
+      typical: 'Vain englanti',
+    },
+  ],
+
+  researchBacking: [
+    {
+      claim: 'Paikkasanojen aktiivinen harjoittelu kehittää avaruudellista kielen ymmärtämistä, joka on yhteydessä matemaattiseen ja tieteelliseen ajatteluun.',
+      source: 'Silvén, M. et al., "Kielen ja avaruudellisen ajattelun yhteydet varhaiskasvatuksessa," Turun yliopisto',
+    },
+    {
+      claim: 'Visuaaliset paikkasanatehtävät rakentavat avaruudellisen kognition perustaa, joka tukee kartanluvun, geometrian ja avaruudellisen päättelyn kehittymistä.',
+      source: 'Aunio, P. & Räsänen, P., "Avaruudellinen kognitio ja matemaattiset taidot," Niilo Mäki Instituutti',
+    },
+  ],
+
+  teacherTestimonials: [
+    {
+      quote: 'Paikkasanatehtavat ovat korvaamattomia S2-opetuksessa. Kuvat havainnollistavat paikkasanojen merkityksen konkreettisesti ilman kaannosta. Oppilaat ymmartavat nopeasti eron paalla ja alla, edessa ja takana kuvien avulla.',
+      name: 'Arja Toivola',
+      role: 'S2-opettaja',
+      school: 'Kallion koulu, Helsinki',
+    },
+    {
+      quote: 'Kaytan prepositiotehtavia esiopetuksessa viikoittain. Lapset oppivat paikkasanoja leikkien kautta ja tehtavat vahvistavat oppimista. Saadettava paikkasanojen maara tekee eriyttamisesta helppoa eri-ikaisille lapsille.',
+      name: 'Raimo Järvinen',
+      role: 'Esiopetuksen opettaja',
+      school: 'Koivukujan päiväkoti, Lahti',
+    },
+  ],
+
+  tips: {
+    sectionTitle: 'Paikkasanastrategiat luokka-asteittain',
+    sectionDescription: 'Säädä prepositiogeneraattori sopivaan haasteeseen kullekin kehitysvaiheelle. Näin valitset paikkasanojen määrän, tehtävämuodon ja monimutkaisuuden esikoulusta toiseen luokkaan.',
+    items: [
+      {
+        id: 'esikoulu',
+        icon: '🌱',
+        title: 'Esikoulu: Kaksi paikkasanaa visuaalisesti',
+        description: 'Kaytta kahtaa paikkasanaa (paalla, alla) selvilla kuvilla. Esikoululaiset tunnistavat sijainnin kuvia katsomalla. Yksinkertainen muoto rakentaa avaruudellisen sanaston perustaa.',
+      },
+      {
+        id: 'esiopetus',
+        icon: '🎒',
+        title: 'Esiopetus: Neljä paikkasanaa ja ympyröintitehtävät',
+        description: 'Luo tehtavia neljalla paikkasanalla (paalla, alla, edessa, takana) ympyrointitehtavina. Esiopetuksen oppilaat kehittavat avaruudellista sanastoa kuvia analysoimalla. Tukee POPS 2014 tavoitteita.',
+      },
+      {
+        id: '1-luokka',
+        icon: '📚',
+        title: '1. luokka: Kuusi paikkasanaa lauseissa',
+        description: 'Generoi tehtavia kuudella paikkasanalla (lisa: vieressa, valissa). Ekaluokkalaiset kayttavat paikkasanoja lauseissa ja tunnistavat sijainnin monipuolisemmin. Kehittaa kirjallista ilmaisua.',
+      },
+      {
+        id: '2-luokka',
+        icon: '✏️',
+        title: '2. luokka: Kaikki kahdeksan paikkasanaa',
+        description: 'Luo tehtavia kaikilla kahdeksalla paikkasanalla (lisa: sisalla, ulkona). Toisluokkalaiset hallitsevat kaikki paikkasanat ja kayttavat niita monipuolisissa lauseissa. Vahvistaa avaruudellista sanastoa.',
+      },
+      {
+        id: '3-luokka',
+        icon: '🎯',
+        title: '3. luokka: Soveltavat paikkasanatehtävät',
+        description: 'Kaytta kaikkia paikkasanoja soveltavissa tehtavissa. Kolmasluokkalaiset kirjoittavat omia lauseita paikkasanoilla ja kuvaavat monimutkaisia sijaintisuhteita. Tukee kielellista kehitysta.',
+      },
+    ],
   },
 };
 

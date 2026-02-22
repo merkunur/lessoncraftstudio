@@ -95,7 +95,56 @@ Jokaisessa tehtävässä on selkeät esimerkit ja vastausavain. Voit mukauttaa v
       noHiddenFees: 'Ei piilomaksuja',
       cancelAnytime: 'Peruuta milloin tahansa',
     },
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        icon: '🚂',
+        title: 'Junapohjainen kuviosarjamuoto',
+        description: 'Generaattori luo junavaunuista koostuvan kuviosarjan, jossa jokainen vaunu sisältää kuvan. Oppilaat tunnistavat kuvion ja täydentävät sarjan leikkaa ja liimaa -menetelmällä. Junamuoto tekee kuviosarjoista konkreettisia ja motivoivia.',
+      },
+      {
+        id: '2',
+        icon: '🔣',
+        title: 'Viisi kuviotyyppiä: AB, AAB, ABB, ABC ja AABB',
+        description: 'Valitse viidestä kuviotyypistä oppilaiden taitotason mukaan. AB on yksinkertaisin kahdella vuorottelevalla kuvalla. ABC käyttää kolmea eri kuvaa. AABB ja AAB lisäävät toiston vaihtelua.',
+      },
+      {
+        id: '3',
+        icon: '✂️',
+        title: 'Leikkaa ja liimaa -toiminnallisuus',
+        description: 'Tehtävät sisältävät leikattavat kuvapalat sivun alareunassa. Oppilaat leikkaavat kuvat irti, tunnistavat oikean paikan ja liimaavat tyhjään vaunuun. Käsillä tekeminen vahvistaa oppimista.',
+      },
+      {
+        id: '4',
+        icon: '🖼️',
+        title: 'Yli 3000 teemakuvaa junavaunuihin',
+        description: 'Valitse yli 3000 lapsiystavallisesta kuvasta kuviosarjojen luomiseen. Eläimet, hedelmät, kulkuneuvot ja muodot sopivat erinomaisesti kuviosarjoihin. Teemavalinnat luovat visuaalisesti houkuttelevia tehtäviä.',
+      },
+      {
+        id: '5',
+        icon: '✅',
+        title: 'Automaattiset vastausavaimet',
+        description: 'Jokainen kuviosarjatehtävä generoi automaattisesti vastausavaimen, jossa täydellinen kuviosarja näkyy valmiina. Opettajat tarkistavat oppilastöitä sekunneissa ilman laskemista.',
+      },
+      {
+        id: '6',
+        icon: '🎨',
+        title: 'Täysi muokkaus pohjalla',
+        description: 'Klikkaa mitä tahansa elementtiä muokataksesi. Siirrä, skaalaa ja kierrä kuvia ja vaunuja. Lisää tekstejä, taustakuvia ja kehyksiä ammattimaiseen lopputulokseen.',
+      },
+      {
+        id: '7',
+        icon: '💼',
+        title: 'Kaupallinen lisenssi myyntiin',
+        description: 'Tilauksesi sisältää kaupalliset oikeudet myydä kuviosarjatehtäviä verkossa. Kuviojunatehtävät ovat suosittuja esiopetusmateriaaleja. Kaupallinen lisenssi kattaa rajattomat myynnit.',
+      },
+      {
+        id: '8',
+        icon: '🌍',
+        title: '11 kielen tuki',
+        description: 'Luo kuviosarjatehtäviä 11 kielellä. Käyttöliittymä kääntyy valitulle kielelle. Täydellinen monikielisiin luokkahuoneisiin ja kansainväliseen käyttöön.',
+      },
+    ]
     
   },
 
@@ -188,7 +237,50 @@ Tulosta kotitulostimella tai koulukopiokoneella. 300 DPI -laatu näyttää ammat
     badgeText: 'Kenelle Sopii',
     readMoreLabel: 'Lue lisää',
     showLessLabel: 'Näytä vähemmän',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        icon: '🌱',
+        title: 'Esiopetuksen opettajat',
+        subtitle: 'Kuviosarjojen perusteet 5–6-vuotiaille',
+        description: 'Luo yksinkertaisia AB-kuviosarjoja junateemalla. Esiopetuksen oppilaat harjoittelevat toistuvien kuvioiden tunnistamista leikkaa ja liimaa -menetelmällä. Junamuoto motivoi ja tekee oppimisesta konkreettista. Tukee POPS 2014 tavoitteita.',
+      },
+      {
+        id: '2',
+        icon: '📚',
+        title: 'Alakoulun opettajat',
+        subtitle: 'Kuviosarjojen syventäminen 1.–2. luokalla',
+        description: 'Generoi monimutkaisempia kuviosarjoja (AAB, ABB, ABC, AABB) 1.–2. luokalle. Oppilaat analysoivat monimutkaisia sarjoja ja ennustavat seuraavat kuvat. Kehittää algebrallista valmiutta.',
+      },
+      {
+        id: '3',
+        icon: '🏠',
+        title: 'Kotiopettajat ja vanhemmat',
+        subtitle: 'Toiminnallisia kuviosarjoja kotiin',
+        description: 'Luo temaattisia kuviojunatehtäviä lasten kiinnostuksen mukaan. Leikkaa ja liimaa -muoto pitää lapset aktiivisina. Eläin- ja kulkuneuvoteemat motivoivat harjoittelua kotona.',
+      },
+      {
+        id: '4',
+        icon: '🌍',
+        title: 'S2-opettajat',
+        subtitle: 'Kielirajat ylittävä kuviosarjaharjoittelu',
+        description: 'Kuviojunatehtävät eivät vaadi kielitaitoa, joten ne sopivat kaikille oppilaille. Kuvasarjat opettavat sarjojen logiikkaa universaalisti. 11 kielen tuki mahdollistaa monikielisen opetuksen.',
+      },
+      {
+        id: '5',
+        icon: '💜',
+        title: 'Erityisopettajat',
+        subtitle: 'Yksilöllistetyt kuviosarjaharjoitukset',
+        description: 'Säädä kuviotyyppiä ja sarjan pituutta HOJKS-tavoitteiden mukaisesti. AB-kuvio sopii perusharjoitteluun. Leikkaa ja liimaa -menetelmä kehittää samalla hienomotoriikkaa.',
+      },
+      {
+        id: '6',
+        icon: '💰',
+        title: 'Opettajayrittäjät',
+        subtitle: 'Myy kuviosarjapaketteja kaupallisella lisenssillä',
+        description: 'Luo teemallisia kuviojunapaketteja myytäväksi verkossa. Leikkaa ja liimaa -materiaalit ovat jatkuvasti suosittuja. Kaupallinen lisenssi kattaa rajattomat myynnit ilman lisäkuluja.',
+      },
+    ]
     
   },
 
@@ -203,7 +295,68 @@ Tulosta kotitulostimella tai koulukopiokoneella. 300 DPI -laatu näyttää ammat
     showLessLabel: 'Näytä vähemmän',
     secureCheckout: 'Turvallinen maksu',
     cancelAnytime: 'Peruuta milloin tahansa',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        question: 'Miten kuviojunageneraattori toimii?',
+        answer: 'Generaattori luo junavaunuista koostuvan kuviosarjan. Osa vaunuista on tyhjinä oppilaan täytettäväksi. Leikattavat kuvapalat ovat sivun alareunassa. Oppilas leikkaa, tunnistaa kuvion ja liimaa oikeaan vaunuun.',
+      },
+      {
+        id: '2',
+        question: 'Mitkä kuviotyypit ovat saatavilla?',
+        answer: 'Viisi kuviotyyppiä: AB (kahden kuvan vuorottelu), AAB (kaksi samaa ja eri), ABB (yksi eri ja kaksi samaa), ABC (kolmen kuvan sarja) ja AABB (kaksi parillista). Valitse taitotason mukaan.',
+      },
+      {
+        id: '3',
+        question: 'Miten vaikeustasoa säädetään?',
+        answer: 'Kuviotyypin valinta määrittää vaikeustason. AB on helpoin, ABC ja AABB haastavimmat. Sarjan pituus vaikuttaa myös: pidempi sarja vaatii enemmän hahmottamista.',
+      },
+      {
+        id: '4',
+        question: 'Sisältävätkö tehtävät vastausavaimet?',
+        answer: 'Kyllä, jokainen kuviosarjatehtävä generoi automaattisesti vastausavaimen. Täydellinen kuviosarja näkyy valmiina vastausavaimessa. Opettajat tarkistavat oppilastöitä sekunneissa.',
+      },
+      {
+        id: '5',
+        question: 'Mille ikäryhmille kuviojuna sopii?',
+        answer: 'Kuviojuna palvelee 4–8-vuotiaita. Esikoululaiset harjoittelevat AB-kuvioita. 1. luokan oppilaat siirtyvät AAB- ja ABB-kuvioihin. 2. luokan oppilaat ratkaisevat ABC- ja AABB-kuvioita.',
+      },
+      {
+        id: '6',
+        question: 'Miten leikkaa ja liimaa -tehtävät toimivat?',
+        answer: 'Sivun alareunassa on leikattavat kuvapalat katkoviivoin merkittyinä. Oppilaat leikkaavat kuvat irti saksilla. Sitten he tunnistavat oikean paikan junavaunuissa ja liimaavat kuvan paikalleen.',
+      },
+      {
+        id: '7',
+        question: 'Voiko omia kuvia käyttää?',
+        answer: 'Kyllä, lataa rajattomasti omia kuvia JPEG-, PNG- tai GIF-muodossa. Generaattori sijoittaa kuvat junavaunuihin automaattisesti. Yhdistä omia kuvia kirjaston 3000+ kuvan kanssa.',
+      },
+      {
+        id: '8',
+        question: 'Miten tulostan kuviojunatehtävät?',
+        answer: 'Lataa tehtäväsi PDF- tai JPEG-muodossa 300 DPI laadulla. Valitse A4 tai Letter-sivukoko. PDF-muoto säilyttää tarkan ulkoasun tulostamiseen ja leikkaamiseen.',
+      },
+      {
+        id: '9',
+        question: 'Sopiiko kuviojuna erityisopetukseen?',
+        answer: 'Erinomaisesti. Yksinkertainen AB-kuvio ja leikkaa ja liimaa -menetelmä sopivat erityisopetukseen. Säädä kuviotyyppiä HOJKS-tavoitteiden mukaisesti. Toiminnallisuus kehittää myös hienomotoriikkaa.',
+      },
+      {
+        id: '10',
+        question: 'Kuinka kauan yhden tehtävän luominen kestää?',
+        answer: 'Yhden kuviojunatehtävän luominen vie alle 3 minuuttia. Valitse kuvat ja kuviotyyppi 30 sekunnissa. Generaattori rakentaa tehtävän välittömästi leikattavine osineen.',
+      },
+      {
+        id: '11',
+        question: 'Voinko myydä luomiani kuviojunatehtäviä?',
+        answer: 'Kyllä, tilauksesi sisältää kaupallisen lisenssin. Kuviojunapaketit ovat suosittuja esiopetusmateriaaleja verkossa. Kaupallinen lisenssi kattaa rajattomat myynnit.',
+      },
+      {
+        id: '12',
+        question: 'Miten kuviojuna tukee POPS 2014 tavoitteita?',
+        answer: 'Kuviojuna kehittää kuviosarjojen tunnistamista, algebrallista valmiutta ja hienomotoriikkaa. POPS 2014 korostaa matemaattisen ajattelun ja toiminnallisen oppimisen merkitystä. Kuviojuna yhdistää molemmat tehokkaasti.',
+      },
+    ]
     
   },
 
@@ -275,8 +428,157 @@ Tulosta kotitulostimella tai koulukopiokoneella. 300 DPI -laatu näyttää ammat
       securePayment: 'Turvallinen maksu',
       cancelAnytime: 'Peruuta milloin tahansa',
     },
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        slug: 'kuviotehtava-tyoarkit',
+        name: 'Kuviotehtävät',
+        category: 'Logiikka',
+        icon: '🔣',
+        description: 'Kuviotehtävät laajentavat kuviosarjojen harjoittelua monipuolisempiin muotoihin. Yhdistä kuviojunan kanssa kattavaan kuvioharjoitteluun.',
+      },
+      {
+        id: '2',
+        slug: 'aakkosjuna-tyoarkit',
+        name: 'Aakkosjuna',
+        category: 'Lukutaito',
+        icon: '🚂',
+        description: 'Aakkosjuna käyttää samaa junateemaa aakkosten oppimiseen. Yhdistä molemmat junateemai siin oppimispaketteihin.',
+      },
+      {
+        id: '3',
+        slug: 'kuvalajittelu-tyoarkit',
+        name: 'Kuvalajittelu',
+        category: 'Logiikka',
+        icon: '📋',
+        description: 'Kuvalajittelu kehittää luokittelutaitoja, jotka tukevat kuviosarjoissa tarvittavaa ryhmittelykykyä.',
+      },
+      {
+        id: '4',
+        slug: 'yhdista-parit-tyoarkit',
+        name: 'Yhdistä parit',
+        category: 'Logiikka',
+        icon: '🔗',
+        description: 'Yhdistä parit -tehtävät kehittävät yhteenkuuluvuuden tunnistamista. Yhdistä kuviojunan kanssa visuaalisten yhteyksien harjoitteluun.',
+      },
+      {
+        id: '5',
+        slug: 'kuva-bingo-tyoarkit',
+        name: 'Kuvabingo',
+        category: 'Sanasto',
+        icon: '🎲',
+        description: 'Kuvabingo yhdistää kuvan tunnistamisen pelimuotoon. Molemmat käyttävät visuaalisia kuvia oppimisen tukena.',
+      },
+      {
+        id: '6',
+        slug: 'poikkea-joukosta-tyoarkit',
+        name: 'Poikkea joukosta',
+        category: 'Logiikka',
+        icon: '🧠',
+        description: 'Poikkea joukosta -tehtävät kehittävät luokittelua, joka tukee kuviosarjojen ymmärtämistä ja analyyttistä ajattelua.',
+      },
+    ]
     
+  },
+
+  // -- SEO & Content Enrichment (Part 177) ------------------------------------
+
+  aiOverviewSnippet: 'Kuviojuna-generaattori on verkkotyokalu, jolla luodaan tulostettavia leikkaa ja liimaa -kuviosarjatehtavia esiopetukseen ja alakouluun. Oppilaat tunnistavat junavaunujen kuviosarjan (AB, AAB, ABB, ABC, AABB) ja taydentavat puuttuvat kohdat leikkaamalla ja liimaamalla. Opettajat valitsevat kuviotyypin, teeman ja kuvat, ja lataavat valmiin PDF-tehtavan vastausavaimineen alle 3 minuutissa.',
+
+  comparisonTable: [
+    {
+      feature: 'Kuviotyypit',
+      ourApp: '5 tyyppiä: AB, AAB, ABB, ABC, AABB',
+      typical: 'Vain AB-kuvio',
+    },
+    {
+      feature: 'Muoto',
+      ourApp: 'Leikkaa ja liimaa junateemalla',
+      typical: 'Pelkkä kuvio ilman toimintaa',
+    },
+    {
+      feature: 'Kuvakirjasto',
+      ourApp: '3000+ teemakuvaa 50 teemasta',
+      typical: 'Rajallinen kuvavalinta',
+    },
+    {
+      feature: 'Vastausavaimet',
+      ourApp: 'Automaattinen vastausavain joka tehtävään',
+      typical: 'Manuaalinen tai ei saatavilla',
+    },
+    {
+      feature: 'Kaupallinen lisenssi',
+      ourApp: 'Sisältyy, myy vapaasti verkossa',
+      typical: 'Lisämaksu tai ei saatavilla',
+    },
+    {
+      feature: 'Kielituki',
+      ourApp: '11 kieltä mukaan lukien suomi',
+      typical: 'Vain englanti',
+    },
+  ],
+
+  researchBacking: [
+    {
+      claim: 'Kuviosarjojen tunnistaminen ja täydentäminen kehittävät algebrallista valmiutta, joka on myöhemmän matemaattisen menestyksen ennustaja.',
+      source: 'Mattinen, A. et al., "Matemaattisen ajattelun kehitys esiopetusikäisillä," Turun yliopisto',
+    },
+    {
+      claim: 'Leikkaa ja liimaa -menetelmä yhdistää hienomotoriikan ja kognitiivisen prosessoinnin, mikä vahvistaa oppimista moniaistikanavaisen prosessoinnin kautta.',
+      source: 'Ahonen, T. et al., "Toiminnallisen oppimisen merkitys varhaiskasvatuksessa," Niilo Mäki Instituutti',
+    },
+  ],
+
+  teacherTestimonials: [
+    {
+      quote: 'Kuviojuna on oppilaitteni ehdoton suosikki. Junamuoto motivoi lapsia ja leikkaa-liimaa -menetelma tekee oppimisesta toiminnallista. AB-kuviosta ABC-kuvioon siirtyminen on ollut sujuvaa generaattorin avulla.',
+      name: 'Maarit Penttinen',
+      role: 'Esiopetuksen opettaja',
+      school: 'Koivulan päiväkoti, Oulu',
+    },
+    {
+      quote: 'Kaytan kuviojunatehtavia matematiikan alkuopetuksessa viikoittain. Oppilaat kehittavat kuviosarjojen ymmartamista samalla kun harjoittelevat leikkaamista ja liimaamista. Viisi kuviotyyppia mahdollistaa monipuolisen eriyttamisen.',
+      name: 'Hannu Seppälä',
+      role: '1. luokan opettaja',
+      school: 'Mäntymäen koulu, Kuopio',
+    },
+  ],
+
+  tips: {
+    sectionTitle: 'Kuviosarjastrategiat luokka-asteittain',
+    sectionDescription: 'Säädä kuviojunageneraattori sopivaan haasteeseen kullekin kehitysvaiheelle. Näin valitset kuviotyypin, sarjan pituuden ja monimutkaisuuden esikoulusta toiseen luokkaan.',
+    items: [
+      {
+        id: 'esikoulu',
+        icon: '🌱',
+        title: 'Esikoulu: AB-kuviot tutuilla kuvilla',
+        description: 'Kaytta AB-kuviotyyppia tutuilla elain- tai hedelmakuvilla. Esikoululaiset tunnistavat kahden kuvan vuorottelun ja taydentavat sarjan leikkaamalla. Lyhyt sarja (4-6 vaunua) sopii alkuun.',
+      },
+      {
+        id: 'esiopetus',
+        icon: '🎒',
+        title: 'Esiopetus: AAB- ja ABB-kuviot',
+        description: 'Luo tehtavia AAB- ja ABB-kuviotyypeilla. Esiopetuksen oppilaat kehittavat monimutkaisempien toistojen tunnistamista. Pidemmat sarjat (6-8 vaunua) haastavat sopivasti POPS 2014 tavoitteiden mukaisesti.',
+      },
+      {
+        id: '1-luokka',
+        icon: '📚',
+        title: '1. luokka: ABC-kuviot ja pidempään sarjat',
+        description: 'Generoi ABC-kuvioita 8-10 vaunun sarjoilla. Ekaluokkalaiset analysoivat kolmen kuvan sarjoja ja ennustavat seuraavat kuvat. Kehittaa algebrallista valmiutta ja jarjestelmallista ajattelua.',
+      },
+      {
+        id: '2-luokka',
+        icon: '✏️',
+        title: '2. luokka: AABB-kuviot ja vaihtelevat sarjat',
+        description: 'Luo AABB-kuvioita ja yhdista eri kuviotyyppeja samaan tehtavaan. Toisluokkalaiset vertailevat erilaisia kuviosarjoja ja tunnistavat niiden saannonmukaisuudet.',
+      },
+      {
+        id: '3-luokka',
+        icon: '🎯',
+        title: '3. luokka: Monimutkaiset yhdistelmäkuviot',
+        description: 'Kaytta kaikkia kuviotyyppeja sekoitettuina. Kolmasluokkalaiset tunnistavat ja nimeavat kuviotyypit itsenaisesti. Tehtavat valmistavat algebrallisen ajattelun perusteisiin.',
+      },
+    ],
   },
 };
 

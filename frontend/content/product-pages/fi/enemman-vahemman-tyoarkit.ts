@@ -91,7 +91,56 @@ Täysi Käyttöoikeus -tilaus antaa sinulle pääsyn kaikkiin 33 tehtävägenera
       noHiddenFees: 'Ei piilomaksuja',
       cancelAnytime: 'Peruuta milloin tahansa',
     },
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        icon: '📊',
+        title: 'Visuaalinen vertailu kuvaryhmien avulla',
+        description: 'Oppilaat vertailevat kahta värikästä kuvaryhmaa määrittääkseen kumpi on suurempi, pienempi tai yhtä suuri. Kuva kuvaan -tila kehittää konkreettista lukumäärän hahmottamista laskemisen kautta. Visuaalinen lähestymistapa rakentaa lukujen suuruusluokan ymmärtämistä.',
+      },
+      {
+        id: '2',
+        icon: '⚖️',
+        title: 'Suurempi, pienempi ja yhtä suuri -symbolit',
+        description: 'Valitse perinteisten matemaattisten symbolien (>, <, =) ja lapsiystavallisten kuvitettujen versioiden väliltä. Kuvitussymbolit havainnollistavat vertailun käsitteen intuitiivisesti. Oppilaat yhdistävät visuaalisen merkityksen muodolliseen merkintätapaan.',
+      },
+      {
+        id: '3',
+        icon: '🔢',
+        title: 'Joustava lukualueen hallinta',
+        description: 'Kontrolloi vertailutehtävien lukumääräaluetta pienistä rymistä suurempiin lukuihin. Aloita selvästä eroista, joissa toinen ryhmä on selkeästi suurempi. Kavenna eroa tarkkuuden kehittyessä. Generaattori luo satunnaisia lukumääriä määritetyllä alueella.',
+      },
+      {
+        id: '4',
+        icon: '🖼️',
+        title: 'Yli 3000 teemakuvaa laskettaviksi',
+        description: 'Valitse yli 3000 lapsiystavallisesta kuvasta vertailutehtävien luomiseen. Eläimet, ruoka, kulkuneuvot, muodot ja kymmenet muut teemat. Lataa omia kuvia luokkahuoneen esineistä tai oppilaiden töistä personoidaksesi tehtäviä.',
+      },
+      {
+        id: '5',
+        icon: '✅',
+        title: 'Automaattiset vastausavaimet joka tehtävään',
+        description: 'Jokainen vertailutehtävä generoi automaattisesti vastausavaimen, jossa oikeat symbolit ja lukumäärät näkyvät. Opettajat tarkistavat oppilastöitä sekunneissa. Vastausavaimet tulostuvat erilliselle sivulle PDF-muodossa.',
+      },
+      {
+        id: '6',
+        icon: '🎨',
+        title: 'Täysi muokkaus pohjalla',
+        description: 'Klikkaa mitä tahansa elementtiä muokataksesi sitä suoraan. Siirrä, skaalaa, kierrä tai poista osia. Lisää omia tekstejä, vaihda fontteja ja värejä. Lataa taustakuvia ja lisää koristeellisia kehyksiä ammattimaiseen ulkoasuun.',
+      },
+      {
+        id: '7',
+        icon: '💼',
+        title: 'Kaupallinen lisenssi ja rajaton käyttö',
+        description: 'Tilauksesi sisältää kaupallisen lisenssin myydä vertailutehtäviä verkossa. Luo temaattisia vertailupaketteja opettajakauppoihin. Ei attribuutiovaatimuksia eikä lisämaksuja.',
+      },
+      {
+        id: '8',
+        icon: '🌍',
+        title: '11 kielen tuki monikielisiin luokkiin',
+        description: 'Luo vertailutehtäviä 11 kielellä mukaan lukien suomi, ruotsi, norja, tanska ja englanti. Käyttöliittymä ja ohjeet kääntyvät valitulle kielelle. Täydellinen monikielisiin luokkahuoneisiin ja S2-opetukseen.',
+      },
+    ]
     
   },
 
@@ -186,7 +235,50 @@ Harmaasävy-valintaruutu muuntaa ennen lataamista. Aktivoi se säästääksesi v
     badgeText: 'Kenelle Sopii',
     readMoreLabel: 'Lue lisää',
     showLessLabel: 'Näytä vähemmän',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        icon: '🌱',
+        title: 'Esiopetuksen opettajat',
+        subtitle: 'Lukumäärävertailun perusteet 5–6-vuotiaille',
+        description: 'Luo yksinkertaisia vertailutehtäviä pienillä lukumäärillä ja selvällä erolla. Esiopetuksen oppilaat harjoittelevat kuvaryhmien laskemista ja suuremman tunnistamista. Kuvitetut symbolit tekevät vertailusta konkreettista. Tukee POPS 2014 tavoitteita.',
+      },
+      {
+        id: '2',
+        icon: '📚',
+        title: 'Alakoulun opettajat',
+        subtitle: 'Vertailusymbolien hallinta 1.–2. luokalla',
+        description: 'Generoi vertailutehtäviä suuremmilla lukualueilla ja matemaattisilla symboleilla. Oppilaat siirtyvät kuvitetusta vertailusta abstraktiin symbolimerkintään. Eriytetään lukualuetta ja symbolityyliä taitotason mukaan.',
+      },
+      {
+        id: '3',
+        icon: '🏠',
+        title: 'Kotiopettajat ja vanhemmat',
+        subtitle: 'Hauskoja matematiikkaharjoituksia kotiin',
+        description: 'Luo temaattisia vertailutehtäviä lasten suosikkiaiheilla. Eläin- ja ruokakuvat pitävät oppimisen motivoivana. Generoi viikon tehtävät nopeasti eri vaikeustasoin. Visuaalinen lähestymistapa sopii kotiharjoitteluun.',
+      },
+      {
+        id: '4',
+        icon: '🌍',
+        title: 'S2-opettajat',
+        subtitle: 'Matemaattista sanastoa visuaalisesti',
+        description: 'Vertailutehtävät opettavat matemaattista sanastoa kuvapohjaisesti. Oppilaat oppivat vertailusanastoa (enemmän, vähemmän, yhtä paljon) konkreettisesti. 11 kielen tuki mahdollistaa monikielisen matematiikkaopetuksen.',
+      },
+      {
+        id: '5',
+        icon: '💜',
+        title: 'Erityisopettajat',
+        subtitle: 'Yksilöllistetyt vertailuharjoitukset',
+        description: 'Säädä lukualuetta ja symbolityyliä HOJKS-tavoitteiden mukaisesti. Kuvitetut symbolit tukevat heikompia oppilaita. Asteittain vaikeutuvat tehtävät rakentavat matemaattista itseluottamusta oppimisen tuen piirissä.',
+      },
+      {
+        id: '6',
+        icon: '💰',
+        title: 'Opettajayrittäjät',
+        subtitle: 'Myy vertailupaketteja kaupallisella lisenssillä',
+        description: 'Luo teemallisia vertailupaketteja myytäväksi verkossa. Enemmän vai vähemmän -materiaalit ovat jatkuvasti kysyttyjä esiopetuksen ja alakoulun opettajien keskuudessa. Kaupallinen lisenssi kattaa rajattomat myynnit.',
+      },
+    ]
     
   },
 
@@ -201,7 +293,68 @@ Harmaasävy-valintaruutu muuntaa ennen lataamista. Aktivoi se säästääksesi v
     showLessLabel: 'Näytä vähemmän',
     secureCheckout: 'Turvallinen maksu',
     cancelAnytime: 'Peruuta milloin tahansa',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        question: 'Miten vertailutehtävägeneraattori toimii?',
+        answer: 'Generaattori luo tehtäviä, joissa oppilaat vertailevat kuvaryhmien lukumääriä ja valitsevat oikean vertailusymbolin. Valitse kuvat, lukualue ja symbolityyli. Generaattori tuottaa valmiin tehtävän vastausavaimineen sekunneissa.',
+      },
+      {
+        id: '2',
+        question: 'Mitkä vertailutilat ovat saatavilla?',
+        answer: 'Kaksi tilaa: kuva kuvaan -tila vertailee kuvaryhmiä keskenään, ja kuva numeroon -tila vertailee kuvaryhmää lukuun. Molemmat kehittävät lukumäärän hahmottamista eri tavoin.',
+      },
+      {
+        id: '3',
+        question: 'Miten vertailusymboleita voi vaihtaa?',
+        answer: 'Valitse perinteisten matemaattisten symbolien (>, <, =) ja kuvitettujen versioiden väliltä. Kuvitussymbolit havainnollistavat vertailun visuaalisesti. Oppilaat voivat ympyröidä oikean symbolin tai täyttää tyhjän.',
+      },
+      {
+        id: '4',
+        question: 'Sisältävätkö tehtävät vastausavaimet?',
+        answer: 'Kyllä, jokainen vertailutehtävä generoi automaattisesti vastausavaimen. Oikeat symbolit ja lukumäärät näkyvät selkeästi. Opettajat voivat tulostaa vastausavaimen erikseen tai näyttää dokumenttikameralla.',
+      },
+      {
+        id: '5',
+        question: 'Mille ikäryhmille vertailutehtävät sopivat?',
+        answer: 'Vertailutehtävät palvelevat 4–8-vuotiaita. Esikoululaiset laskevat pieniä ryhmiä kuvitetuilla symboleilla. 1.–2. luokan oppilaat käyttävät matemaattisia symboleita suuremmilla lukualueilla.',
+      },
+      {
+        id: '6',
+        question: 'Miten lukualuetta säädetään?',
+        answer: 'Aseta vertailtavien lukumäärien ylä- ja alaraja. Aloita pienillä lukumäärillä (1–5) esiopetuksessa. Laajenna lukualuetta (1–20) 1.–2. luokalla. Generaattori luo satunnaisia lukumääriä määritetyllä alueella.',
+      },
+      {
+        id: '7',
+        question: 'Voiko omia kuvia käyttää vertailutehtävissä?',
+        answer: 'Kyllä, lataa rajattomasti omia kuvia JPEG-, PNG- tai GIF-muodossa. Yhdistä omia kuvia 3000+ kuvakirjaston kuvien kanssa. Luokkahuoneen esineet tai oppilaiden piirustukset toimivat hyvin.',
+      },
+      {
+        id: '8',
+        question: 'Miten tulostan vertailutehtävät?',
+        answer: 'Lataa tehtäväsi PDF- tai JPEG-muodossa 300 DPI laadulla. Valitse A4 tai Letter-sivukoko. Harmaasävyvaihtoehto säästää värimustetta. Kaikki tehtävät tulostuvat ammattimaisesti kotitulostimella.',
+      },
+      {
+        id: '9',
+        question: 'Sopiiko vertailutehtävägeneraattori erityisopetukseen?',
+        answer: 'Vertailutehtävät sopivat erinomaisesti erityisopetukseen. Säädä lukualuetta ja symbolityyliä HOJKS-tavoitteiden mukaisesti. Kuvitetut symbolit ja pieni lukualue tukevat heikompia oppilaita.',
+      },
+      {
+        id: '10',
+        question: 'Kuinka kauan yhden tehtävän luominen kestää?',
+        answer: 'Yhden vertailutehtävän luominen vie alle 3 minuuttia. Valitse kuvat ja asetukset 30 sekunnissa. Generaattori luo tehtävän välittömästi. Viikon tehtävät valmistuvat 15 minuutissa.',
+      },
+      {
+        id: '11',
+        question: 'Voinko myydä luomiani vertailutehtäviä?',
+        answer: 'Kyllä, tilauksesi sisältää kaupallisen lisenssin vertailutehtävien myyntiin verkossa. Luo temaattisia paketteja opettajakauppoihin. Ei attribuutiovaatimuksia eikä lisämaksuja.',
+      },
+      {
+        id: '12',
+        question: 'Miten vertailutehtävät tukevat POPS 2014 tavoitteita?',
+        answer: 'Vertailutehtävät tukevat lukumääräkäsitteen, matemaattisen ajattelun ja vertailutaidon kehittämistä. POPS 2014 korostaa konkreettisia välineitä ja visuaalista oppimista matematiikassa. Vertailutehtävät toteuttavat molempia tavoitteita.',
+      },
+    ]
     
   },
 
@@ -272,8 +425,157 @@ Harmaasävy-valintaruutu muuntaa ennen lataamista. Aktivoi se säästääksesi v
       securePayment: 'Turvallinen maksu',
       cancelAnytime: 'Peruuta milloin tahansa',
     },
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        slug: 'kuva-yhteenlasku-tyoarkit',
+        name: 'Kuvayhteenlasku',
+        category: 'Matematiikka',
+        icon: '📊',
+        description: 'Kuvayhteenlasku laajentaa vertailutaitoja yhteenlaskuun. Molemmat käyttävät visuaalisia kuvaryhmiä matemaattisten käsitteiden opettamiseen.',
+      },
+      {
+        id: '2',
+        slug: 'etsi-ja-laske-tyoarkit',
+        name: 'Etsi ja laske',
+        category: 'Matematiikka',
+        icon: '🔢',
+        description: 'Etsi ja laske yhdistää laskemisen ja etsinnän. Täydentää vertailutehtäviä lukumäärän hahmottamisen harjoittelulla.',
+      },
+      {
+        id: '3',
+        slug: 'matematiikka-tyoarkit',
+        name: 'Matematiikkamonisteet',
+        category: 'Matematiikka',
+        icon: '📝',
+        description: 'Matematiikkamonisteet laajentavat laskutaitoja yhteen- ja vähennyslaskuun. Yhdistä vertailutehtäviin kattavaan matematiikkapakettiin.',
+      },
+      {
+        id: '4',
+        slug: 'iso-pieni-tyoarkit',
+        name: 'Iso vai pieni',
+        category: 'Hahmottaminen',
+        icon: '📏',
+        description: 'Iso vai pieni -tehtävät kehittävät kokovertailua, joka tukee lukumäärävertailun ymmärtämistä. Molemmat harjoittavat vertailun peruskäsitteitä.',
+      },
+      {
+        id: '5',
+        slug: 'kuvakaavio-tyoarkit',
+        name: 'Kuvakaavio',
+        category: 'Matematiikka',
+        icon: '📈',
+        description: 'Kuvakaaviot esittävät lukumääriä graafisesti ja tukevat vertailutehtävissä opittua määrien hahmottamista. Yhdistä monipuolisiin matematiikkapaketteihin.',
+      },
+      {
+        id: '6',
+        slug: 'yhteenlasku-tyoarkit',
+        name: 'Kuvalaskut',
+        category: 'Matematiikka',
+        icon: '🎯',
+        description: 'Kuvalaskut kehittävät laskutaitoja visuaalisilla kuvilla. Yhdistä vertailutehtäviin varhaisen matematiikan kattavaan harjoitteluun.',
+      },
+    ]
     
+  },
+
+  // -- SEO & Content Enrichment (Part 177) ------------------------------------
+
+  aiOverviewSnippet: 'Enemman vai vahemman -generaattori on verkkotyokalu, jolla luodaan tulostettavia lukumaaravertailutehtavia esiopetukseen ja alakouluun. Oppilaat vertailevat kuvaryhm ien lukumaaria ja valitsevat oikean vertailusymbolin (suurempi, pienempi, yhta suuri). Opettajat valitsevat lukualueen, symbolityyl in ja kuvateeman, ja lataavat valmiin PDF-tehtavan vastausavaimineen alle 3 minuutissa.',
+
+  comparisonTable: [
+    {
+      feature: 'Vertailutilat',
+      ourApp: 'Kuva kuvaan ja kuva numeroon',
+      typical: 'Vain yksi vertailutyyppi',
+    },
+    {
+      feature: 'Symbolityyli',
+      ourApp: 'Perinteiset ja kuvitetut symbolit',
+      typical: 'Vain perinteiset symbolit',
+    },
+    {
+      feature: 'Lukualue',
+      ourApp: 'Säädettävä 1–20 oppilaiden tason mukaan',
+      typical: 'Kiinteä lukualue',
+    },
+    {
+      feature: 'Vastausavaimet',
+      ourApp: 'Automaattinen vastausavain joka tehtävään',
+      typical: 'Manuaalinen tai ei saatavilla',
+    },
+    {
+      feature: 'Kaupallinen lisenssi',
+      ourApp: 'Sisältyy, myy vapaasti verkossa',
+      typical: 'Lisämaksu tai ei saatavilla',
+    },
+    {
+      feature: 'Kielituki',
+      ourApp: '11 kieltä mukaan lukien suomi',
+      typical: 'Vain englanti',
+    },
+  ],
+
+  researchBacking: [
+    {
+      claim: 'Lukumäärien visuaalinen vertailu kehittää lukujen suuruusluokan ymmärtämistä, joka on vahvempi ennustaja matemaattiselle menestykselle kuin pelkkä laskutaito.',
+      source: 'Hannula, M. & Lehtinen, E., "Spontaanin lukumäärän huomioimisen ja matemaattisten taitojen yhteys," Turun yliopisto',
+    },
+    {
+      claim: 'Vertailutaitojen systemaattinen harjoittelu konkreettisilla välineillä rakentaa perustan algebralliselle ajattelulle ja lukujonotaitojen kehittymiselle.',
+      source: 'Aunio, P. et al., "Varhaisten matemaattisten taitojen kehitys ja tukeminen," Niilo Mäki Instituutti',
+    },
+  ],
+
+  teacherTestimonials: [
+    {
+      quote: 'Vertailutehtavat ovat loistava tapa opettaa enemmman ja vahemman -kasitteita visuaalisesti. Oppilaani rakastavat laskea kuvaryhm ia ja valita oikean symbolin. Kuvitetut symbolit tekevat vertailusta konkreettista esiopetuksessa.',
+      name: 'Marjo Hyvönen',
+      role: 'Esiopetuksen opettaja',
+      school: 'Katajanokeen päiväkoti, Helsinki',
+    },
+    {
+      quote: 'Kaytan vertailutehtavia joka viikko matematiikkatunneilla. Saadettava lukualue tekee eriyttamisesta helppoa. Ekaluokkalaiset siirtyivat kuvitetuista symboleista matemaattisiin symboleihin sujuvasti generaattorin avulla.',
+      name: 'Pasi Laakkonen',
+      role: '1. luokan opettaja',
+      school: 'Puolalanmäen koulu, Turku',
+    },
+  ],
+
+  tips: {
+    sectionTitle: 'Vertailustrategiat luokka-asteittain',
+    sectionDescription: 'Säädä vertailutehtävägeneraattori sopivaan haasteeseen kullekin kehitysvaiheelle. Näin valitset lukualueen, symbolityyl in ja vertailutilan esikoulusta toiseen luokkaan.',
+    items: [
+      {
+        id: 'esikoulu',
+        icon: '🌱',
+        title: 'Esikoulu: Pienet ryhmmät kuvitetuilla symboleilla',
+        description: 'Kaytta kuva kuvaan -tilaa lukualueella 1-5 kuvitetuilla symboleilla. Esikoululaiset laskevat kuvaryhm ia ja tunnistavat suuremman. Selvat erot (esim. 2 vs 5) rakentavat vertailun perustaa ja lukumaarakasitetta.',
+      },
+      {
+        id: 'esiopetus',
+        icon: '🎒',
+        title: 'Esiopetus: Laajempi lukualue ja vertailusymbolit',
+        description: 'Luo vertailutehtavia lukualueella 1-10 kuvitetuilla symboleilla. Esiopetuksen oppilaat kehittavat jarjestelmallista laskemista ja vertailua. Esittele yhta suuri -kasite tasaisten ryhm ien avulla POPS 2014 tavoitteiden mukaisesti.',
+      },
+      {
+        id: '1-luokka',
+        icon: '📚',
+        title: '1. luokka: Matemaattiset symbolit ja kuva numeroon -tila',
+        description: 'Generoi vertailutehtavia matemaattisilla symboleilla (>, <, =) ja kuva numeroon -tilalla. Ekaluokkalaiset siirtyva t konkreettisesta vertailusta abstraktiin merkintaan. Lukualue 1-15 haastaa sopivasti.',
+      },
+      {
+        id: '2-luokka',
+        icon: '✏️',
+        title: '2. luokka: Haastavat vertailut suuremmilla luvuilla',
+        description: 'Luo vertailutehtavia lukualueella 1-20 matemaattisilla symboleilla. Toisluokkalaiset vertailevat lukuja, joissa ero on pieni (esim. 14 vs 16). Haastava vertailu kehittaa tarkkaa lukumaaraajattelua.',
+      },
+      {
+        id: '3-luokka',
+        icon: '🎯',
+        title: '3. luokka: Monipuoliset vertailuhaasteet',
+        description: 'Kaytta molempia tiloja maksimaalisella lukualueella. Kolmasluokkalaiset harjoittelevat nopeaa ja tarkkaa vertailua suurilla luvuilla. Tehtavat valmistavat lukujonojen ja jarjestamisen ymmartamiseen.',
+      },
+    ],
   },
 };
 

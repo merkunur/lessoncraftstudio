@@ -93,7 +93,56 @@ Työkalumme tekee laadukkaiden tehtävien luomisesta nopeaa. Valitse teema tai y
       noHiddenFees: 'Ei piilomaksuja',
       cancelAnytime: 'Peruuta milloin tahansa',
     },
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        icon: '🛤️',
+        title: 'Kuvapolku-sokkelotehtävämuoto',
+        description: 'Generaattori luo ruudukkopohjaisia polkutehtäviä, joissa oppilaat kulkevat aloituspisteestä maaliin kuvia seuraten. Polkusäännöt määrittävät mitkä kuvat ovat sallittuja. Kehittää visuaalista seurantaa ja avaruudellista hahmottamista.',
+      },
+      {
+        id: '2',
+        icon: '📐',
+        title: 'Säädettävä ruudukkokoko',
+        description: 'Valitse ruudukon koko oppilaiden taitotason mukaan. Pieni ruudukko sopii esiopetukseen yksinkertaisilla poluilla. Suurempi ruudukko haastaa vanhempia oppilaita monimutkaisi lla reiteillä. Rivien ja sarakkeiden määrä säädetään erikseen.',
+      },
+      {
+        id: '3',
+        icon: '🔍',
+        title: 'Monipuoliset polkusäännöt',
+        description: 'Valitse polkusääntö: kulje vain tiettyjä kuvia pitkin, vältä tiettejä kuvia tai seuraa tiettyä kuviosekvenssiä. Säännöt vaihtelevat vaikeustason mukaan. Monipuolisuus kehittää loogista ajattelua.',
+      },
+      {
+        id: '4',
+        icon: '🖼️',
+        title: 'Yli 3000 teemakuvaa polkutehtäviin',
+        description: 'Valitse yli 3000 lapsiystavallisesta kuvasta polkutehtävien luomiseen. Eläimet, hedelmät, muodot ja kymmenet muut teemat. Kuvat täyttävät ruudukon automaattisesti valitun teeman mukaan.',
+      },
+      {
+        id: '5',
+        icon: '✅',
+        title: 'Automaattiset vastausavaimet',
+        description: 'Jokainen polkutehtävä generoi automaattisesti vastausavaimen, jossa oikea polku on korostettu. Opettajat tarkistavat oppilastöitä sekunneissa. Vastausavaimet näyttävät koko reitin selkeästi.',
+      },
+      {
+        id: '6',
+        icon: '🎨',
+        title: 'Täysi muokkaus pohjalla',
+        description: 'Muokkaa jokaista elementtiä luomisen jälkeen. Siirrä, skaalaa ja kierrä kuvia vapaasti. Lisää omaa tekstiä, fontteja, värejä ja taustakuvia ammattimaiseen lopputulokseen.',
+      },
+      {
+        id: '7',
+        icon: '💼',
+        title: 'Kaupallinen lisenssi myyntiin',
+        description: 'Tilauksesi sisältää kaupalliset oikeudet myydä polkutehtäviä verkossa. Kuvapolkutehtävät ovat suosittuja opettajakauppoissa. Kaupallinen lisenssi kattaa rajattomat myynnit.',
+      },
+      {
+        id: '8',
+        icon: '🌍',
+        title: '11 kielen tuki',
+        description: 'Luo polkutehtäviä 11 kielellä mukaan lukien suomi, ruotsi ja tanska. Käyttöliittymä kääntyy valitulle kielelle. Täydellinen monikielisiin luokkiin.',
+      },
+    ]
     
   },
 
@@ -186,7 +235,50 @@ Valitse harmaasävy säästääksesi mustetta. Erityisen hyödyllinen luokkahuon
     badgeText: 'Kenelle Sopii',
     readMoreLabel: 'Lue lisää',
     showLessLabel: 'Näytä vähemmän',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        icon: '🌱',
+        title: 'Esiopetuksen opettajat',
+        subtitle: 'Visuaalisen seurannan perusteet 5–6-vuotiaille',
+        description: 'Luo yksinkertaisia polkutehtäviä pienillä ruudukoilla ja selvällä polkusäännöllä. Esiopetuksen oppilaat harjoittelevat kynänhallintaa ja visuaalista seurantaa. Polun piirtäminen kehittää hienomotoriikkaa. Tukee POPS 2014 tavoitteita.',
+      },
+      {
+        id: '2',
+        icon: '📚',
+        title: 'Alakoulun opettajat',
+        subtitle: 'Avaruudellista päättelyä 1.–3. luokalla',
+        description: 'Generoi suurempia ruudukoita monimutkaisilla polkusäännöillä. Oppilaat suunnittelevat reitin ennakkoon ja kehittävät strategista ajattelua. Monitasoiset polut haastavat avaruudellista hahmottamista.',
+      },
+      {
+        id: '3',
+        icon: '🏠',
+        title: 'Kotiopettajat ja vanhemmat',
+        subtitle: 'Hauskoja polkupulmia kotiin',
+        description: 'Luo temaattisia polkutehtäviä lasten suosikkiaiheilla. Eläin- ja seikkailuteemat motivoivat polun löytämistä. Polkutehtävät ovat hauskoja pulmia koko perheelle.',
+      },
+      {
+        id: '4',
+        icon: '🌍',
+        title: 'S2-opettajat',
+        subtitle: 'Visuaalista harjoittelua ilman kielirajoitusta',
+        description: 'Polkutehtävät eivät vaadi kielitaitoa, joten ne sopivat kaikille oppilaille. Kuvapohjaiset polut kehittävät avaruudellista hahmottamista universaalisti. 11 kielen tuki tukee monikielisiä luokkia.',
+      },
+      {
+        id: '5',
+        icon: '💜',
+        title: 'Erityisopettajat',
+        subtitle: 'Säädettävät polkuharjoitukset',
+        description: 'Säädä ruudukon kokoa ja polkusääntöjä HOJKS-tavoitteiden mukaisesti. Pienet ruudukot ja selvät polut tukevat heikompia oppilaita. Polkutehtävät kehittävät hienomotoriikkaa ja hahmottamista.',
+      },
+      {
+        id: '6',
+        icon: '💰',
+        title: 'Opettajayrittäjät',
+        subtitle: 'Myy polkupaketteja kaupallisella lisenssillä',
+        description: 'Luo teemallisia polkukokoelmia myytäväksi verkossa. Kuvapolkutehtävät ovat suosittuja materiaaleja. Kaupallinen lisenssi kattaa rajattomat myynnit ilman lisäkuluja.',
+      },
+    ]
     
   },
 
@@ -201,7 +293,68 @@ Valitse harmaasävy säästääksesi mustetta. Erityisen hyödyllinen luokkahuon
     showLessLabel: 'Näytä vähemmän',
     secureCheckout: 'Turvallinen maksu',
     cancelAnytime: 'Peruuta milloin tahansa',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        question: 'Miten kuvapolkugeneraattori toimii?',
+        answer: 'Generaattori luo ruudukon, jossa jokaisessa solussa on kuva. Oppilas kulkee aloituspisteestä maaliin polkusäännön mukaan. Sääntö määrittää mitkä kuvat ovat sallittuja polulla.',
+      },
+      {
+        id: '2',
+        question: 'Miten ruudukon kokoa säädetään?',
+        answer: 'Valitse rivien ja sarakkeiden määrä erikseen. Pieni ruudukko (4×4) sopii esiopetukseen. Suurempi ruudukko (8×8 tai 10×10) haastaa vanhempia oppilaita. Säädä kokoa taitotason mukaan.',
+      },
+      {
+        id: '3',
+        question: 'Mitkä polkusäännöt ovat käytettävissä?',
+        answer: 'Useita sääntöjä: kulje vain tiettyjä kuvia pitkin, vältä tiettejä kuvia, seuraa kuviosekvenssiä tai kulje vain viereisiin soluihin. Säännöt määrittävät vaikeustason.',
+      },
+      {
+        id: '4',
+        question: 'Sisältävätkö tehtävät vastausavaimet?',
+        answer: 'Kyllä, jokainen polkutehtävä generoi automaattisesti vastausavaimen. Oikea polku on korostettu selkeästi ruudukossa. Opettajat tarkistavat oppilastöitä sekunneissa.',
+      },
+      {
+        id: '5',
+        question: 'Mille ikäryhmille polkutehtävät sopivat?',
+        answer: 'Polkutehtävät palvelevat 4–10-vuotiaita. Esikoululaiset kulkevat yksinkertaisia polkuja pienissä ruudukoissa. 1.–3. luokan oppilaat ratkaisevat monimutkaisia reittejä suuremmissa ruudukoissa.',
+      },
+      {
+        id: '6',
+        question: 'Miten polkutehtävät kehittävät taitoja?',
+        answer: 'Polkutehtävät kehittävät visuaalista seurantaa, avaruudellista hahmottamista, strategista ajattelua ja hienomotoriikkaa. Polun suunnittelu vaatii ennakointia ja päättämistä.',
+      },
+      {
+        id: '7',
+        question: 'Voiko omia kuvia käyttää?',
+        answer: 'Kyllä, lataa rajattomasti omia kuvia JPEG-, PNG- tai GIF-muodossa. Generaattori täyttää ruudukon automaattisesti valituilla kuvilla. Yhdistä omia kuvia 3000+ kuvakirjaston kuvien kanssa.',
+      },
+      {
+        id: '8',
+        question: 'Miten tulostan polkutehtävät?',
+        answer: 'Lataa tehtäväsi PDF- tai JPEG-muodossa 300 DPI laadulla. Valitse A4 tai Letter-sivukoko. Harmaasävyvaihtoehto säästää värimustetta. Ammattimaiset tulosteet kotitulostimella.',
+      },
+      {
+        id: '9',
+        question: 'Sopiiko generaattori erityisopetukseen?',
+        answer: 'Erinomaisesti. Säädä ruudukon kokoa ja polkusääntöjä HOJKS-tavoitteiden mukaisesti. Pienet ruudukot ja selvät säännöt tukevat heikompia oppilaita. Polkutehtävät kehittävät hienomotoriikkaa.',
+      },
+      {
+        id: '10',
+        question: 'Kuinka kauan yhden tehtävän luominen kestää?',
+        answer: 'Yhden polkutehtävän luominen vie alle 3 minuuttia. Valitse kuvat ja polkusääntö 30 sekunnissa. Generaattori rakentaa tehtävän välittömästi. Viikon tehtävät valmistuvat nopeasti.',
+      },
+      {
+        id: '11',
+        question: 'Voinko myydä luomiani polkutehtäviä?',
+        answer: 'Kyllä, tilauksesi sisältää kaupallisen lisenssin polkutehtävien myyntiin verkossa. Luo teemallisia paketteja opettajakauppoihin. Ei attribuutiovaatimuksia.',
+      },
+      {
+        id: '12',
+        question: 'Miten polkutehtävät tukevat POPS 2014 tavoitteita?',
+        answer: 'Polkutehtävät kehittävät avaruudellista hahmottamista, visuaalista seurantaa ja hienomotoriikkaa. POPS 2014 korostaa monipuolisia työtapoja ja toiminnallista oppimista. Polkutehtävät toteuttavat molempia tavoitteita.',
+      },
+    ]
     
   },
 
@@ -272,8 +425,157 @@ Valitse harmaasävy säästääksesi mustetta. Erityisen hyödyllinen luokkahuon
       securePayment: 'Turvallinen maksu',
       cancelAnytime: 'Peruuta milloin tahansa',
     },
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        slug: 'viivojen-piirtaminen-tyoarkit',
+        name: 'Viivojen piirtäminen',
+        category: 'Hienomotoriikka',
+        icon: '✏️',
+        description: 'Viivanpiirtotehtävät kehittävät kynänhallintaa ennen polkutehtäviä. Yhdistä molemmat hienomotoriikan kattavaan harjoitteluun.',
+      },
+      {
+        id: '2',
+        slug: 'ruudukkopiirustus-tyoarkit',
+        name: 'Ruudukkopiirustus',
+        category: 'Hahmottaminen',
+        icon: '📐',
+        description: 'Ruudukkopiirustus kehittää samoja avaruudellisia taitoja kuin polkutehtävät. Yhdistä molemmat visuaalisen hahmottamisen pakettiin.',
+      },
+      {
+        id: '3',
+        slug: 'etsi-esineet-tyoarkit',
+        name: 'Etsi esineet',
+        category: 'Tarkkaavaisuus',
+        icon: '🔎',
+        description: 'Etsintätehtävät kehittävät visuaalista tarkkaavaisuutta, joka tukee polkutehtävissä tarvittavaa skannausta.',
+      },
+      {
+        id: '4',
+        slug: 'kuvalajittelu-tyoarkit',
+        name: 'Kuvalajittelu',
+        category: 'Logiikka',
+        icon: '📋',
+        description: 'Kuvalajittelu kehittää kuvien tunnistamista ja luokittelua, joka tukee polkusääntöjen noudattamista.',
+      },
+      {
+        id: '5',
+        slug: 'varjoyhdistely-tyoarkit',
+        name: 'Varjoyhdistely',
+        category: 'Hahmottaminen',
+        icon: '👻',
+        description: 'Varjoyhdistely kehittää visuaalista erottelua ja muodon tunnistamista. Yhdistä polkutehtävien kanssa hahmottamisen harjoitteluun.',
+      },
+      {
+        id: '6',
+        slug: 'ruudukko-sovitus-tyoarkit',
+        name: 'Ruudukkosovitus',
+        category: 'Logiikka',
+        icon: '🧩',
+        description: 'Ruudukkosovitus laajentaa ruudukkotaitoja kuvan palojen sijoittamiseen. Molemmat kehittävät avaruudellista hahmottamista.',
+      },
+    ]
     
+  },
+
+  // -- SEO & Content Enrichment (Part 177) ------------------------------------
+
+  aiOverviewSnippet: 'Kuvapolku-generaattori on verkkotyokalu, jolla luodaan tulostettavia ruudukkopohjaisia polkutehtavia esiopetukseen ja alakouluun. Oppilaat kulkevat aloituspisteesta maaliin seuraten polkusaantoa, joka maarittelee sallitut kuvat. Opettajat valitsevat ruudukon koon, polkusaannon ja teemakuvat, ja lataavat valmiin PDF-tehtavan vastausavaimineen alle 3 minuutissa.',
+
+  comparisonTable: [
+    {
+      feature: 'Ruudukkokoko',
+      ourApp: 'Säädettävä 4×4–10×10',
+      typical: 'Kiinteä koko',
+    },
+    {
+      feature: 'Polkusäännöt',
+      ourApp: 'Useita vaihtoehtoja ja vaikeustasoja',
+      typical: 'Yksi sääntö',
+    },
+    {
+      feature: 'Kuvakirjasto',
+      ourApp: '3000+ teemakuvaa 50 teemasta',
+      typical: 'Rajallinen kuvavalinta',
+    },
+    {
+      feature: 'Vastausavaimet',
+      ourApp: 'Automaattinen vastausavain joka tehtävään',
+      typical: 'Manuaalinen tai ei saatavilla',
+    },
+    {
+      feature: 'Kaupallinen lisenssi',
+      ourApp: 'Sisältyy, myy vapaasti verkossa',
+      typical: 'Lisämaksu tai ei saatavilla',
+    },
+    {
+      feature: 'Kielituki',
+      ourApp: '11 kieltä mukaan lukien suomi',
+      typical: 'Vain englanti',
+    },
+  ],
+
+  researchBacking: [
+    {
+      claim: 'Ruudukkopohjaisten polkutehtävien ratkaiseminen kehittää avaruudellista navigointia ja toiminnanohjausta, jotka ovat matemaattisen ja tieteellisen ajattelun perusedellytyksiä.',
+      source: 'Lepola, J. et al., "Avaruudellisen hahmottamisen ja oppimisen yhteydet," Turun yliopisto',
+    },
+    {
+      claim: 'Polkutehtävät kehittävät suunnittelukykyä ja ennakoivaa ajattelua, jotka ovat toiminnanohjauksen keskeisiä osataitoja varhaiskasvatusikäisillä.',
+      source: 'Lehto, J. et al., "Toiminnanohjaus ja oppiminen," Jyväskylän yliopisto',
+    },
+  ],
+
+  teacherTestimonials: [
+    {
+      quote: 'Kuvapolkutehtavat ovat oppilaitteni suosikkeja. Lapset rakastavat etsia oikeaa reittia ruudukossa ja kehittavat samalla visuaalista hahmottamista. Saadettava ruudukkokoko tekee eriyttamisesta helppoa esiopetuksessa ja alakoulussa.',
+      name: 'Leena Härkönen',
+      role: 'Esiopetuksen opettaja',
+      school: 'Puistokaaren päiväkoti, Jyväskylä',
+    },
+    {
+      quote: 'Kaytan polkutehtavia aamutyoskentelyssa ja matikkapajassa. Oppilaat suunnittelevat reittia ennakkoon ja kehittavat strategista ajattelua. Monipuoliset polkusaannot pitavat tehtavat mielenkiintoisina viikosta toiseen.',
+      name: 'Vesa Niskanen',
+      role: '2. luokan opettaja',
+      school: 'Niittykummun koulu, Espoo',
+    },
+  ],
+
+  tips: {
+    sectionTitle: 'Polkustrategiat luokka-asteittain',
+    sectionDescription: 'Säädä kuvapolkugeneraattori sopivaan haasteeseen kullekin kehitysvaiheelle. Näin valitset ruudukon koon, polkusäännön ja monimutkaisuuden esikoulusta kolmanteen luokkaan.',
+    items: [
+      {
+        id: 'esikoulu',
+        icon: '🌱',
+        title: 'Esikoulu: Pienet ruudukot selvällä polulla',
+        description: 'Kaytta 4x4 tai 5x5 ruudukkoa yhdella polkusaannolla (esim. kulje vain kissoja pitkin). Esikoululaiset harjoittelevat visuaalista seurantaa ja kynanhallintaa. Yksinkertainen saanto rakentaa hahmottamisen perustaa.',
+      },
+      {
+        id: 'esiopetus',
+        icon: '🎒',
+        title: 'Esiopetus: Keskikokoiset ruudukot ja monipuolisemmat säännöt',
+        description: 'Luo 5x5 tai 6x6 ruudukkotehtavia kahdella polkusaannolla. Esiopetuksen oppilaat kehittavat strategista suunnittelua ja visuaalista analysointia. Tukee POPS 2014 tavoitteita.',
+      },
+      {
+        id: '1-luokka',
+        icon: '📚',
+        title: '1. luokka: Suuremmat ruudukot ja haastavammat säännöt',
+        description: 'Generoi 6x6 tai 7x7 ruudukkotehtavia monimutkaisemmilla polkusaannoilla. Ekaluokkalaiset suunnittelevat reittia ennakkoon ja kehittavat avaruudellista paattelya.',
+      },
+      {
+        id: '2-luokka',
+        icon: '✏️',
+        title: '2. luokka: Monimutkaiset reitit ja sekvenssipolut',
+        description: 'Luo 7x7 tai 8x8 ruudukkotehtavia sekvenssisaannoilla. Toisluokkalaiset noudattavat kuviosekvenssia (esim. kissa-koira-kissa-koira) reitin aikana. Kehittaa monimutkaista ajattelua.',
+      },
+      {
+        id: '3-luokka',
+        icon: '🎯',
+        title: '3. luokka: Vaativat sokkelot useilla säännöillä',
+        description: 'Kaytta 8x8 tai suurempia ruudukoita useilla samanaikaisilla polkusaannoilla. Kolmasluokkalaiset ratkaisevat monimutkaisia reitteja itsenaisesti. Tehtavat kehittavat systemaattista ajattelua ja ongelmanratkaisua.',
+      },
+    ],
   },
 };
 

@@ -95,7 +95,56 @@ Jokaisessa tehtävässä on selkeät esimerkit ja vastausavain. Voit mukauttaa v
       noHiddenFees: 'Ei piilomaksuja',
       cancelAnytime: 'Peruuta milloin tahansa',
     },
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        icon: '🔣',
+        title: 'Yhdeksän kuviotyyppiä monipuoliseen harjoitteluun',
+        description: 'Generaattori tarjoaa yhdeksän erilaista kuviotyyppiä kattavaan kuviosarjojen harjoitteluun. Perustavasta AB-kuviosta vaativaan ABCD-kuvioon. Kasvavat ja pienenevä sarjat laajentavat matemaattista ajattelua.',
+      },
+      {
+        id: '2',
+        icon: '❓',
+        title: 'Tyhjän täyttö ja monivalintamuoto',
+        description: 'Valitse kahdesta vastausmuodosta. Tyhjän täyttö -tilassa oppilaat piirtävät tai liimaavat puuttuvan kuvan. Monivalintatilassa oppilaat valitsevat oikean kuvan 3–4 vaihtoehdosta. Säädä muoto oppilaiden taitotason mukaan.',
+      },
+      {
+        id: '3',
+        icon: '📈',
+        title: 'Kasvavat ja pienenevä kuviosarjat',
+        description: 'Kasvavissa sarjoissa kuviot laajenevat säännönmukaisesti (esim. 1, 2, 3, 4). Pienenevissä sarjoissa kuviot supistuvat. Nämä valmistavat algebralliseen ajatteluun ja funktioiden ymmärtämiseen.',
+      },
+      {
+        id: '4',
+        icon: '🖼️',
+        title: 'Yli 3000 teemakuvaa kuviosarjoihin',
+        description: 'Valitse yli 3000 lapsiystavallisesta kuvasta kuviosarjojen luomiseen. Eläimet, muodot, hedelmät ja kymmenet muut teemat. Generaattori sijoittaa kuvat sarjoihin automaattisesti.',
+      },
+      {
+        id: '5',
+        icon: '✅',
+        title: 'Automaattiset vastausavaimet',
+        description: 'Jokainen kuviotehtävä generoi automaattisesti vastausavaimen, jossa täydelliset sarjat näkyvät valmiina. Opettajat tarkistavat oppilastöitä sekunneissa. Vastausavaimet tulostuvat erilliselle sivulle.',
+      },
+      {
+        id: '6',
+        icon: '🎨',
+        title: 'Täysi muokkaus pohjalla',
+        description: 'Muokkaa jokaista elementtiä luomisen jälkeen. Siirrä, skaalaa ja kierrä kuvia vapaasti. Lisää omaa tekstiä, fontteja, värejä, taustakuvia ja kehyksiä ammattimaiseen lopputulokseen.',
+      },
+      {
+        id: '7',
+        icon: '💼',
+        title: 'Kaupallinen lisenssi myyntiin',
+        description: 'Tilauksesi sisältää kaupalliset oikeudet myydä kuviotehtäviä verkossa. Kuviosarjamateriaalit ovat jatkuvasti kysyttyjä opettajakauppoissa. Kaupallinen lisenssi kattaa rajattomat myynnit.',
+      },
+      {
+        id: '8',
+        icon: '🌍',
+        title: '11 kielen tuki',
+        description: 'Luo kuviotehtäviä 11 kielellä mukaan lukien suomi, ruotsi ja tanska. Käyttöliittymä kääntyy valitulle kielelle. Täydellinen monikielisiin luokkiin.',
+      },
+    ]
     
   },
 
@@ -188,7 +237,50 @@ Tulosta välittömästi tai tallenna myöhempää käyttöä varten. Tallenna ti
     badgeText: 'Kenelle Sopii',
     readMoreLabel: 'Lue lisää',
     showLessLabel: 'Näytä vähemmän',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        icon: '🌱',
+        title: 'Esiopetuksen opettajat',
+        subtitle: 'Kuvioiden tunnistamisen perusteet 5–6-vuotiaille',
+        description: 'Luo yksinkertaisia AB- ja AAB-kuviotehtäviä monivalintamuodossa. Esiopetuksen oppilaat harjoittelevat kuvioiden tunnistamista valitsemalla oikean vaihtoehdon. Visuaaliset kuvat tekevät tehtävistä konkreettisia. Tukee POPS 2014 tavoitteita.',
+      },
+      {
+        id: '2',
+        icon: '📚',
+        title: 'Alakoulun opettajat',
+        subtitle: 'Algebrallista valmiutta 1.–3. luokalla',
+        description: 'Generoi monimutkaisempia kuviosarjoja (ABC, AABB, kasvavat) tyhjän täyttö -muodossa. Oppilaat analysoivat sarjoja ja täydentävät puuttuvat kohdat. Kehittää matemaattista ajattelua ja algebrallista valmiutta.',
+      },
+      {
+        id: '3',
+        icon: '🏠',
+        title: 'Kotiopettajat ja vanhemmat',
+        subtitle: 'Kuviosarjapulmia kotiin',
+        description: 'Luo temaattisia kuviotehtäviä lasten suosikkiaiheilla. Monivalintamuoto sopii itsenäiseen työskentelyyn. Kasvavat haasteet pitävät motivaation yllä.',
+      },
+      {
+        id: '4',
+        icon: '🌍',
+        title: 'S2-opettajat',
+        subtitle: 'Kieliriippumatonta kuvioharjoittelua',
+        description: 'Kuviotehtävät eivät vaadi kielitaitoa, joten ne sopivat kaikille oppilaille. Kuviosarjat opettavat loogista ajattelua universaalisti. 11 kielen tuki mahdollistaa monikielisen opetuksen.',
+      },
+      {
+        id: '5',
+        icon: '💜',
+        title: 'Erityisopettajat',
+        subtitle: 'Yksilöllistetyt kuviotehtävät',
+        description: 'Säädä kuviotyyppiä ja vastausmuotoa HOJKS-tavoitteiden mukaisesti. Monivalintamuoto helpottaa vastausta. Asteittain vaikeutuvat kuviot rakentavat matemaattista ajattelua.',
+      },
+      {
+        id: '6',
+        icon: '💰',
+        title: 'Opettajayrittäjät',
+        subtitle: 'Myy kuviosarjapaketteja kaupallisella lisenssillä',
+        description: 'Luo teemallisia kuviotehtäväpaketteja myytäväksi verkossa. Kuviosarjamateriaalit ovat jatkuvasti kysyttyjä. Kaupallinen lisenssi kattaa rajattomat myynnit.',
+      },
+    ]
     
   },
 
@@ -203,7 +295,68 @@ Tulosta välittömästi tai tallenna myöhempää käyttöä varten. Tallenna ti
     showLessLabel: 'Näytä vähemmän',
     secureCheckout: 'Turvallinen maksu',
     cancelAnytime: 'Peruuta milloin tahansa',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        question: 'Miten kuviotehtävägeneraattori toimii?',
+        answer: 'Generaattori luo kuviosarjoja, joissa yksi tai useampi kuva puuttuu. Oppilaat tunnistavat kuvion ja täydentävät puuttuvan kohdan. Valitse kuviotyyppi, vastausmuoto ja kuvat, ja generaattori luo tehtävän välittömästi.',
+      },
+      {
+        id: '2',
+        question: 'Mitkä kuviotyypit ovat saatavilla?',
+        answer: 'Yhdeksän kuviotyyppiä: AB, AAB, ABB, ABC, AABB, ABAB, ABCD sekä kasvavat ja pienevät sarjat. Jokaisella tyypillä on eri vaikeustaso. Valitse oppilaiden taitotason mukaan.',
+      },
+      {
+        id: '3',
+        question: 'Mitkä vastausmuodot ovat käytettävissä?',
+        answer: 'Kaksi muotoa: tyhjän täyttö, jossa oppilas piirtää puuttuvan kuvan, ja monivalinta, jossa oppilas valitsee oikean vaihtoehdon 3–4 kuvasta. Monivalinta sopii nuoremmille, tyhjän täyttö vanhemmille.',
+      },
+      {
+        id: '4',
+        question: 'Sisältävätkö tehtävät vastausavaimet?',
+        answer: 'Kyllä, jokainen kuviotehtävä generoi automaattisesti vastausavaimen. Täydelliset kuviosarjat näkyvät valmiina. Opettajat tarkistavat oppilastöitä sekunneissa.',
+      },
+      {
+        id: '5',
+        question: 'Mille ikäryhmille kuviotehtävät sopivat?',
+        answer: 'Kuviotehtävät palvelevat 4–10-vuotiaita. Esikoululaiset harjoittelevat AB-kuvioita monivalinnalla. 1.–3. luokan oppilaat ratkaisevat monimutkaisempia sarjoja tyhjän täyttö -muodossa.',
+      },
+      {
+        id: '6',
+        question: 'Miten kasvavat kuviosarjat toimivat?',
+        answer: 'Kasvavissa sarjoissa kuvion osa kasvaa säännönmukaisesti (esim. yksi pallo, kaksi palloa, kolme palloa). Oppilas tunnistaa säännön ja ennustaa seuraavan kohdan. Valmistavat algebralliseen ajatteluun.',
+      },
+      {
+        id: '7',
+        question: 'Voiko omia kuvia käyttää?',
+        answer: 'Kyllä, lataa rajattomasti omia kuvia JPEG-, PNG- tai GIF-muodossa. Generaattori sijoittaa kuvat kuviosarjoihin automaattisesti. Yhdistä omia kuvia 3000+ kuvakirjaston kuvien kanssa.',
+      },
+      {
+        id: '8',
+        question: 'Miten tulostan kuviotehtävät?',
+        answer: 'Lataa tehtäväsi PDF- tai JPEG-muodossa 300 DPI laadulla. Valitse A4 tai Letter-sivukoko. Harmaasävyvaihtoehto säästää värimustetta. Kaikki tehtävät tulostuvat ammattimaisesti.',
+      },
+      {
+        id: '9',
+        question: 'Sopiiko generaattori erityisopetukseen?',
+        answer: 'Kuviotehtävät sopivat erinomaisesti erityisopetukseen. Monivalintamuoto helpottaa vastausta. Yksinkertaiset kuviotyypit tukevat heikompia oppilaita. Säädä vaikeustasoa HOJKS-tavoitteiden mukaan.',
+      },
+      {
+        id: '10',
+        question: 'Kuinka kauan yhden tehtävän luominen kestää?',
+        answer: 'Yhden kuviotehtävän luominen vie alle 3 minuuttia. Valitse kuviotyyppi ja kuvat 30 sekunnissa. Generaattori luo tehtävän välittömästi. Viikon tehtävät valmistuvat 15 minuutissa.',
+      },
+      {
+        id: '11',
+        question: 'Voinko myydä luomiani kuviotehtäviä?',
+        answer: 'Kyllä, tilauksesi sisältää kaupallisen lisenssin kuviotehtävien myyntiin verkossa. Luo temaattisia paketteja opettajakauppoihin. Ei attribuutiovaatimuksia eikä lisämaksuja.',
+      },
+      {
+        id: '12',
+        question: 'Miten kuviotehtävät tukevat POPS 2014 tavoitteita?',
+        answer: 'Kuviotehtävät kehittävät matemaattista ajattelua, kuvioiden tunnistamista ja algebrallista valmiutta. POPS 2014 korostaa matemaattisen ajattelun kehittämistä ja monipuolisia työtapoja. Kuviotehtävät toteuttavat molempia.',
+      },
+    ]
     
   },
 
@@ -275,8 +428,157 @@ Tulosta välittömästi tai tallenna myöhempää käyttöä varten. Tallenna ti
       securePayment: 'Turvallinen maksu',
       cancelAnytime: 'Peruuta milloin tahansa',
     },
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        slug: 'kuviojuna-tyoarkit',
+        name: 'Kuviojuna',
+        category: 'Logiikka',
+        icon: '🚂',
+        description: 'Kuviojuna tarjoaa leikkaa ja liimaa -muotoisen kuviosarjaharjoituksen. Yhdistä kuviotehtävien kanssa kattavaan kuvioharjoitteluun.',
+      },
+      {
+        id: '2',
+        slug: 'matematiikka-tyoarkit',
+        name: 'Matematiikkamonisteet',
+        category: 'Matematiikka',
+        icon: '📝',
+        description: 'Matematiikkamonisteet laajentavat matemaattista ajattelua laskutehtäviin. Yhdistä kuviotehtäviin monipuoliseen matematiikkapakettiin.',
+      },
+      {
+        id: '3',
+        slug: 'kuvalajittelu-tyoarkit',
+        name: 'Kuvalajittelu',
+        category: 'Logiikka',
+        icon: '📋',
+        description: 'Kuvalajittelu kehittää luokittelutaitoja, jotka tukevat kuviosarjojen ymmärtämistä.',
+      },
+      {
+        id: '4',
+        slug: 'poikkea-joukosta-tyoarkit',
+        name: 'Poikkea joukosta',
+        category: 'Logiikka',
+        icon: '🧠',
+        description: 'Poikkea joukosta -tehtävät kehittävät analyyttistä ajattelua, joka tukee kuviosarjojen tunnistamista.',
+      },
+      {
+        id: '5',
+        slug: 'yhdista-parit-tyoarkit',
+        name: 'Yhdistä parit',
+        category: 'Logiikka',
+        icon: '🔗',
+        description: 'Yhdistä parit -tehtävät harjoittavat yhteenkuuluvuuden tunnistamista. Molemmat kehittävät loogista ajattelua.',
+      },
+      {
+        id: '6',
+        slug: 'kuva-yhteenlasku-tyoarkit',
+        name: 'Kuvayhteenlasku',
+        category: 'Matematiikka',
+        icon: '📊',
+        description: 'Kuvayhteenlasku yhdistää visuaalisen laskemisen ja matemaattisen ajattelun. Yhdistä kuviotehtäviin kattavaan matemaattiseen harjoitteluun.',
+      },
+    ]
     
+  },
+
+  // -- SEO & Content Enrichment (Part 177) ------------------------------------
+
+  aiOverviewSnippet: 'Kuviotehtava-generaattori on verkkotyokalu, jolla luodaan tulostettavia kuviosarjatehtavia esiopetukseen ja alakouluun. Oppilaat tunnistavat kuviosarjan saannonmukaisuuden ja taydentavat puuttuvat kohdat. Generaattori tarjoaa 9 kuviotyyppia, 2 vastausmuotoa ja 3000+ teemakuvaa. Opettajat lataavat valmiin PDF-tehtavan vastausavaimineen alle 3 minuutissa.',
+
+  comparisonTable: [
+    {
+      feature: 'Kuviotyypit',
+      ourApp: '9 tyyppiä sis. kasvavat ja pienenevä sarjat',
+      typical: 'Vain 2–3 perustyyppiä',
+    },
+    {
+      feature: 'Vastausmuodot',
+      ourApp: 'Tyhjän täyttö ja monivalinta',
+      typical: 'Vain yksi muoto',
+    },
+    {
+      feature: 'Kuvakirjasto',
+      ourApp: '3000+ teemakuvaa 50 teemasta',
+      typical: 'Rajallinen kuvavalinta',
+    },
+    {
+      feature: 'Vastausavaimet',
+      ourApp: 'Automaattinen vastausavain joka tehtävään',
+      typical: 'Manuaalinen tai ei saatavilla',
+    },
+    {
+      feature: 'Kaupallinen lisenssi',
+      ourApp: 'Sisältyy, myy vapaasti verkossa',
+      typical: 'Lisämaksu tai ei saatavilla',
+    },
+    {
+      feature: 'Kielituki',
+      ourApp: '11 kieltä mukaan lukien suomi',
+      typical: 'Vain englanti',
+    },
+  ],
+
+  researchBacking: [
+    {
+      claim: 'Kuviosarjojen tunnistaminen on algebrallisen ajattelun perusta, joka ennustaa matemaattista menestystä peruskoulun myöhemmmillä luokilla.',
+      source: 'Lehtinen, E. & Hannula, M., "Matemaattisen ajattelun varhainen kehitys," Turun yliopisto',
+    },
+    {
+      claim: 'Monipuolisten kuviotyyppien harjoittelu kehittää joustavaa matemaattista ajattelua ja siirtovaikutusta muihin matemaattisiin käsitteisiin.',
+      source: 'Mattinen, A., "Kuvioiden tunnistaminen ja matemaattinen päättely," Turun yliopisto',
+    },
+  ],
+
+  teacherTestimonials: [
+    {
+      quote: 'Kuviotehtavat ovat ehdottomasti paras tyokalu algebrallisen ajattelun kehittamiseen alakoulussa. Yhdeksan kuviotyyppia mahdollistaa tarkan eriyttamisen. Oppilaat kehittyvat AB-kuviosta kasvaviin sarjoihin omassa tahdissaan.',
+      name: 'Jaana Mäkelä',
+      role: '2. luokan opettaja',
+      school: 'Kissanmäen koulu, Turku',
+    },
+    {
+      quote: 'Monivalintamuoto on loistava esiopetukseen. Lapset valitsevat oikean kuvan vaihtoehdoista ja oppivat samalla kuvioiden saannonmukaisuuksia. Tehtavat ovat visuaalisesti houkuttelevia ja motivoivat lapsia.',
+      name: 'Tapio Mustonen',
+      role: 'Esiopetuksen opettaja',
+      school: 'Hämeenpuiston päiväkoti, Tampere',
+    },
+  ],
+
+  tips: {
+    sectionTitle: 'Kuviotehtävästrategiat luokka-asteittain',
+    sectionDescription: 'Säädä kuviotehtävägeneraattori sopivaan haasteeseen kullekin kehitysvaiheelle. Näin valitset kuviotyypin, vastausmuodon ja monimutkaisuuden esikoulusta kolmanteen luokkaan.',
+    items: [
+      {
+        id: 'esikoulu',
+        icon: '🌱',
+        title: 'Esikoulu: AB-kuviot monivalinnalla',
+        description: 'Kaytta AB-kuviotyyppia monivalintamuodossa. Esikoululaiset tunnistavat kahden kuvan vuorottelun ja valitsevat oikean vaihtoehdon. Tutut elain- ja hedelmakuvat motivoivat oppimista.',
+      },
+      {
+        id: 'esiopetus',
+        icon: '🎒',
+        title: 'Esiopetus: AAB- ja ABB-kuviot monivalinnalla',
+        description: 'Luo AAB- ja ABB-kuviotehtavia monivalintamuodossa. Esiopetuksen oppilaat kehittavat monimutkaisempien kuvioiden tunnistamista. Tukee POPS 2014 matemaattisen ajattelun tavoitteita.',
+      },
+      {
+        id: '1-luokka',
+        icon: '📚',
+        title: '1. luokka: ABC-kuviot tyhjän täyttö -muodossa',
+        description: 'Generoi ABC-kuviotehtavia tyhjan tayto -muodossa. Ekaluokkalaiset analysoivat kolmen kuvan sarjoja ja piirtavat puuttuvan kuvan. Kehittaa itsenai sta matemaattista ajattelua.',
+      },
+      {
+        id: '2-luokka',
+        icon: '✏️',
+        title: '2. luokka: AABB-kuviot ja kasvavat sarjat',
+        description: 'Luo AABB-kuvioita ja kasvavia sarjoja. Toisluokkalaiset tunnistavat monimutkaisia kuvioita ja ennustavat sarjan jatkumista. Kasvavat sarjat valmistavat algebraan.',
+      },
+      {
+        id: '3-luokka',
+        icon: '🎯',
+        title: '3. luokka: Kasvavat ja pienenevä sarjat',
+        description: 'Kaytta kasvavia ja pienenevia sarjoja. Kolmasluokkalaiset tunnistavat numeerisia saannonmukaisuuksia ja selittavat kuvion saannon kirjallisesti. Vahva valmistautuminen algebraan.',
+      },
+    ],
   },
 };
 

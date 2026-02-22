@@ -91,7 +91,56 @@ Täysi Käyttöoikeus -tilaus maksaa 240 dollaria vuodessa tai 25 dollaria kuuka
       noHiddenFees: 'Ei piilomaksuja',
       cancelAnytime: 'Peruuta milloin tahansa',
     },
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        icon: '🧠',
+        title: 'Luokittelupohjainen poikkea joukosta -muoto',
+        description: 'Generaattori luo tehtäviä, joissa 3–8 kuvaa muodostavat ryhmän ja yksi kuva ei kuulu joukkoon. Oppilaat analysoivat kuvien yhteisiä piirteitä ja tunnistavat poikkeavan. Kehittää luokittelutaitoja ja kriittistä ajattelua.',
+      },
+      {
+        id: '2',
+        icon: '⚙️',
+        title: 'Säädettävä ryhmäkoko ja vaikeustaso',
+        description: 'Valitse 3–8 kuvaa per tehtävä. Pienempi ryhmä sopii nuoremmille lapsille. Suurempi ryhmä haastaa vanhempia oppilaita vaatimalla tarkempaa analysointia. Säädä myös poikkeavien kuvien määrää.',
+      },
+      {
+        id: '3',
+        icon: '🔍',
+        title: 'Monipuoliset luokitteluperusteet',
+        description: 'Tehtävät perustuvat erilaisiin luokitteluihin: eläinlaji, väri, muoto, koko, teema tai käyttötarkoitus. Oppilaat oppivat tunnistamaan eri luokitteluperusteita. Monipuolisuus kehittää joustavaa ajattelua.',
+      },
+      {
+        id: '4',
+        icon: '🖼️',
+        title: 'Yli 3000 teemakuvaa luokittelutehtäviin',
+        description: 'Valitse yli 3000 lapsiystavallisesta kuvasta luokittelutehtävien luomiseen. Eläimet, ruoka, kulkuneuvot, muodot ja kymmenet muut teemat. Generaattori valitsee teemanmukaiset kuvat ja lisää poikkeavan automaattisesti.',
+      },
+      {
+        id: '5',
+        icon: '✅',
+        title: 'Automaattiset vastausavaimet',
+        description: 'Jokainen luokittelutehtävä generoi automaattisesti vastausavaimen, jossa poikkeava kuva on korostettu. Opettajat tarkistavat oppilastöitä sekunneissa. Vastausavaimet tulostuvat erilliselle sivulle.',
+      },
+      {
+        id: '6',
+        icon: '🎨',
+        title: 'Täysi muokkaus pohjalla',
+        description: 'Muokkaa jokaista elementtiä luomisen jälkeen. Siirrä, skaalaa ja kierrä kuvia vapaasti. Lisää omaa tekstiä, valitse fontteja ja värejä. Lataa taustakuvia ammattimaiseen lopputulokseen.',
+      },
+      {
+        id: '7',
+        icon: '💼',
+        title: 'Kaupallinen lisenssi myyntiin',
+        description: 'Tilauksesi sisältää kaupalliset oikeudet myydä luokittelutehtäviä verkossa. Luo temaattisia paketteja opettajakauppoihin. Ei attribuutiovaatimuksia eikä lisämaksuja.',
+      },
+      {
+        id: '8',
+        icon: '🌍',
+        title: '11 kielen tuki',
+        description: 'Luo luokittelutehtäviä 11 kielellä. Käyttöliittymä ja kuvien nimet kääntyvät valitulle kielelle. Täydellinen monikielisille luokkahuoneille ja S2-opetukseen.',
+      },
+    ]
     
   },
 
@@ -194,7 +243,50 @@ Tiedosto latautuu välittömästi. Avaa PDF-lukijassasi. Tulosta. Jaa oppilaille
     badgeText: 'Kenelle Sopii',
     readMoreLabel: 'Lue lisää',
     showLessLabel: 'Näytä vähemmän',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        icon: '🌱',
+        title: 'Esiopetuksen opettajat',
+        subtitle: 'Luokittelun perusteet 5–6-vuotiaille',
+        description: 'Luo yksinkertaisia poikkea joukosta -tehtäviä 3–4 kuvalla. Esiopetuksen oppilaat harjoittelevat ryhmään kuulumisen tunnistamista. Selvät erot (esim. eläin ruokien joukossa) rakentavat luokittelun perustaa. Tukee POPS 2014 tavoitteita.',
+      },
+      {
+        id: '2',
+        icon: '📚',
+        title: 'Alakoulun opettajat',
+        subtitle: 'Kriittistä ajattelua 1.–3. luokalla',
+        description: 'Generoi monimutkaisempia luokittelutehtäviä 5–8 kuvalla. Oppilaat analysoivat hienompia eroja ja perustelevat valintansa. Kehittää analyyttistä ajattelua ja argumentointitaitoja.',
+      },
+      {
+        id: '3',
+        icon: '🏠',
+        title: 'Kotiopettajat ja vanhemmat',
+        subtitle: 'Hauskoja ajattelupeliä kotiin',
+        description: 'Luo temaattisia luokittelutehtäviä lasten suosikkiaiheilla. Eläin- ja kulkuneuvoteemat pitävät lapset motivoituneina. Poikkea joukosta -tehtävät ovat hauskoja pulmia koko perheelle.',
+      },
+      {
+        id: '4',
+        icon: '🌍',
+        title: 'S2-opettajat',
+        subtitle: 'Sanastoharjoittelua luokittelun kautta',
+        description: 'Luokittelutehtävät opettavat kategorisointia ja sanastoa kuvapohjaisesti. Oppilaat oppivat ryhmään kuuluvia ja kuulumattomia sanoja. 11 kielen tuki mahdollistaa monikielisen opetuksen.',
+      },
+      {
+        id: '5',
+        icon: '💜',
+        title: 'Erityisopettajat',
+        subtitle: 'Säädettävät luokitteluharjoitukset',
+        description: 'Säädä kuvien määrää ja luokitteluperustetta HOJKS-tavoitteiden mukaisesti. Selvät erot tukevat heikompia oppilaita. Asteittain vaikeutuvat tehtävät rakentavat luokittelutaitoja.',
+      },
+      {
+        id: '6',
+        icon: '💰',
+        title: 'Opettajayrittäjät',
+        subtitle: 'Myy luokittelupaketteja kaupallisella lisenssillä',
+        description: 'Luo teemallisia luokittelukokoelmia myytäväksi verkossa. Poikkea joukosta -tehtävät ovat suosittuja harjoituksia. Kaupallinen lisenssi kattaa rajattomat myynnit.',
+      },
+    ]
     
   },
 
@@ -209,7 +301,68 @@ Tiedosto latautuu välittömästi. Avaa PDF-lukijassasi. Tulosta. Jaa oppilaille
     showLessLabel: 'Näytä vähemmän',
     secureCheckout: 'Turvallinen maksu',
     cancelAnytime: 'Peruuta milloin tahansa',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        question: 'Miten poikkea joukosta -generaattori toimii?',
+        answer: 'Generaattori luo kuvaryhmiä, joissa yksi kuva ei kuulu joukkoon. Valitse teema, kuvien määrä ja vaikeustaso. Generaattori valitsee teemanmukaiset kuvat ja lisää poikkeavan automaattisesti.',
+      },
+      {
+        id: '2',
+        question: 'Kuinka monta kuvaa voi olla per tehtävä?',
+        answer: 'Valitse 3–8 kuvaa per tehtävä. Pieni määrä (3–4) sopii esiopetukseen. Suuri määrä (6–8) haastaa vanhempia oppilaita. Säädä määrää taitotason mukaan.',
+      },
+      {
+        id: '3',
+        question: 'Miten vaikeustasoa säädetään?',
+        answer: 'Kolme tapaa: kuvien määrän lisääminen, hienompien erojen valitseminen ja useamman poikkeavan kuvan lisääminen. Selvät erot helpottavat tehtävää. Hienot erot lisäävät haastetta.',
+      },
+      {
+        id: '4',
+        question: 'Sisältävätkö tehtävät vastausavaimet?',
+        answer: 'Kyllä, jokainen tehtävä generoi automaattisesti vastausavaimen, jossa poikkeava kuva on korostettu. Opettajat tarkistavat oppilastöitä nopeasti. Vastausavaimet tulostuvat erilliselle sivulle.',
+      },
+      {
+        id: '5',
+        question: 'Mille ikäryhmille tehtävät sopivat?',
+        answer: 'Poikkea joukosta -tehtävät palvelevat 4–10-vuotiaita. Esikoululaiset tunnistavat selvät poikkeamat pienissä ryhmissä. 1.–3. luokan oppilaat analysoivat hienompia eroja suuremmissa ryhmissä.',
+      },
+      {
+        id: '6',
+        question: 'Miten luokitteluperuste valitaan?',
+        answer: 'Generaattori luo tehtäviä automaattisesti eri luokitteluperusteilla. Eläinlaji, teema, väri, muoto ja koko ovat yleisimpiä. Oppilaat oppivat tunnistamaan erilaisia luokitteluperusteita.',
+      },
+      {
+        id: '7',
+        question: 'Voiko omia kuvia käyttää?',
+        answer: 'Kyllä, lataa rajattomasti omia kuvia JPEG-, PNG- tai GIF-muodossa. Yhdistä omia kuvia kirjaston kuvien kanssa. Luokkahuoneen kuvat tekevät tehtävistä merkityksellisempiä.',
+      },
+      {
+        id: '8',
+        question: 'Miten tulostan luokittelutehtävät?',
+        answer: 'Lataa tehtäväsi PDF- tai JPEG-muodossa 300 DPI laadulla. Valitse A4 tai Letter-sivukoko. Harmaasävyvaihtoehto säästää värimustetta. Ammattimaiset tulosteet kotitulostimella.',
+      },
+      {
+        id: '9',
+        question: 'Sopiiko generaattori erityisopetukseen?',
+        answer: 'Erinomaisesti. Säädä kuvien määrää ja poikkeaman selvyyttä HOJKS-tavoitteiden mukaisesti. Selvät poikkeamat tukevat heikompia oppilaita. Luokittelutehtävät kehittävät analyyttistä ajattelua.',
+      },
+      {
+        id: '10',
+        question: 'Kuinka kauan yhden tehtävän luominen kestää?',
+        answer: 'Yhden luokittelutehtävän luominen vie alle 3 minuuttia. Valitse teema ja asetukset 30 sekunnissa. Generaattori rakentaa tehtävän välittömästi. Viikon tehtävät valmistuvat 15 minuutissa.',
+      },
+      {
+        id: '11',
+        question: 'Voinko myydä luomiani tehtäviä?',
+        answer: 'Kyllä, tilauksesi sisältää kaupallisen lisenssin. Myy luokittelupaketteja opettajakauppoissa ilman attribuutiovaatimuksia. Monet opettajat ansaitsevat lisätuloja teemallisilla paketeilla.',
+      },
+      {
+        id: '12',
+        question: 'Miten tehtävät tukevat POPS 2014 tavoitteita?',
+        answer: 'Poikkea joukosta -tehtävät kehittävät luokittelutaitoja, loogista ajattelua ja analyyttistä päättelyä. POPS 2014 korostaa ajattelun taitoja ja monipuolisia oppimistapoja. Luokittelutehtävät tukevat molempia tavoitteita.',
+      },
+    ]
     
   },
 
@@ -280,8 +433,157 @@ Tiedosto latautuu välittömästi. Avaa PDF-lukijassasi. Tulosta. Jaa oppilaille
       securePayment: 'Turvallinen maksu',
       cancelAnytime: 'Peruuta milloin tahansa',
     },
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        slug: 'kuvalajittelu-tyoarkit',
+        name: 'Kuvalajittelu',
+        category: 'Logiikka',
+        icon: '📋',
+        description: 'Kuvalajittelu laajentaa luokittelutaitoja ryhmään lajittelun muotoon. Molemmat kehittävät kategorisointia ja analyyttistä ajattelua.',
+      },
+      {
+        id: '2',
+        slug: 'etsi-esineet-tyoarkit',
+        name: 'Etsi esineet',
+        category: 'Tarkkaavaisuus',
+        icon: '🔎',
+        description: 'Etsintätehtävät kehittävät visuaalista havainnointia, joka tukee poikkeavien kuvien tunnistamista luokittelutehtävissä.',
+      },
+      {
+        id: '3',
+        slug: 'varjoyhdistely-tyoarkit',
+        name: 'Varjoyhdistely',
+        category: 'Hahmottaminen',
+        icon: '👻',
+        description: 'Varjoyhdistely kehittää visuaalista erottelua, joka on poikkea joukosta -tehtävien perustaito.',
+      },
+      {
+        id: '4',
+        slug: 'kuviotehtava-tyoarkit',
+        name: 'Kuviotehtävät',
+        category: 'Logiikka',
+        icon: '🔣',
+        description: 'Kuviotehtävät kehittävät kuvioiden tunnistamista ja sarjojen ymmärtämistä. Yhdistä luokittelutehtäviin monipuoliseen loogiseen harjoitteluun.',
+      },
+      {
+        id: '5',
+        slug: 'kuva-bingo-tyoarkit',
+        name: 'Kuvabingo',
+        category: 'Sanasto',
+        icon: '🎲',
+        description: 'Kuvabingo yhdistää kuvan tunnistamisen pelimuotoon. Molemmat kehittävät visuaalista tunnistamista ja luokittelua.',
+      },
+      {
+        id: '6',
+        slug: 'enemman-vahemman-tyoarkit',
+        name: 'Enemmän vai vähemmän',
+        category: 'Matematiikka',
+        icon: '📊',
+        description: 'Vertailutehtävät kehittävät loogista vertailua, joka tukee luokittelussa tarvittavaa analyyttistä ajattelua.',
+      },
+    ]
     
+  },
+
+  // -- SEO & Content Enrichment (Part 177) ------------------------------------
+
+  aiOverviewSnippet: 'Poikkea joukosta -generaattori on verkkotyokalu, jolla luodaan tulostettavia luokittelutehtavia esiopetukseen ja alakouluun. Oppilaat tunnistavat kuvan, joka ei kuulu joukkoon, ja perustelevat valintansa. Opettajat valitsevat teeman, kuvien maaran ja vaikeustason, ja lataavat valmiin PDF-tehtavan vastausavaimineen alle 3 minuutissa.',
+
+  comparisonTable: [
+    {
+      feature: 'Ryhmäkoko',
+      ourApp: '3–8 kuvaa per tehtävä säädettävästi',
+      typical: 'Kiinteä 4 kuvaa',
+    },
+    {
+      feature: 'Luokitteluperusteet',
+      ourApp: 'Monipuoliset: laji, väri, muoto, teema',
+      typical: 'Yksi luokitteluperuste',
+    },
+    {
+      feature: 'Kuvakirjasto',
+      ourApp: '3000+ teemakuvaa 50 teemasta',
+      typical: 'Rajallinen kuvavalinta',
+    },
+    {
+      feature: 'Vastausavaimet',
+      ourApp: 'Automaattinen vastausavain joka tehtävään',
+      typical: 'Manuaalinen tai ei saatavilla',
+    },
+    {
+      feature: 'Kaupallinen lisenssi',
+      ourApp: 'Sisältyy, myy vapaasti verkossa',
+      typical: 'Lisämaksu tai ei saatavilla',
+    },
+    {
+      feature: 'Kielituki',
+      ourApp: '11 kieltä mukaan lukien suomi',
+      typical: 'Vain englanti',
+    },
+  ],
+
+  researchBacking: [
+    {
+      claim: 'Luokittelutehtävät kehittävät kategorista päättelyä ja analyyttistä ajattelua, jotka ovat tieteellisen ajattelun ja lukutaidon perusedellytyksiä varhaiskasvatusikäisillä.',
+      source: 'Hautamäki, J. et al., "Ajattelutaitojen kehitys varhaiskasvatuksessa," Helsingin yliopisto',
+    },
+    {
+      claim: 'Poikkea joukosta -tyyppiset tehtävät harjoittavat inhibitiokykyä ja tarkkaavaisuuden suuntaamista, jotka ovat toiminnanohjauksen keskeisiä osataitoja.',
+      source: 'Lehto, J., "Lasten toiminnanohjauksen kehitys ja tukeminen," Jyväskylän yliopisto',
+    },
+  ],
+
+  teacherTestimonials: [
+    {
+      quote: 'Poikkea joukosta -tehtavat ovat erinomaisia kriittisen ajattelun kehittamiseen. Oppilaani oppivat perustelemaan miksi yksi kuva ei kuulu joukkoon. Monet lapset loytavat useita oikeita vastauksia, mika herattaa hienoja keskusteluja.',
+      name: 'Eeva Ojala',
+      role: '2. luokan opettaja',
+      school: 'Karhulan koulu, Kotka',
+    },
+    {
+      quote: 'Kaytan poikkea joukosta -tehtavia esiopetuksessa paivittain. Lapset rakastavat etsia poikkeavaa kuvaa ja selittaa miksi se ei kuulu joukkoon. Saadettava vaikeustaso mahdollistaa eriyttamisen helposti.',
+      name: 'Kari Tuomela',
+      role: 'Esiopetuksen opettaja',
+      school: 'Tammimäen päiväkoti, Tampere',
+    },
+  ],
+
+  tips: {
+    sectionTitle: 'Luokittelustrategiat luokka-asteittain',
+    sectionDescription: 'Säädä poikkea joukosta -generaattori sopivaan haasteeseen kullekin kehitysvaiheelle. Näin valitset kuvien määrän, luokitteluperusteen ja vaikeustason esikoulusta kolmanteen luokkaan.',
+    items: [
+      {
+        id: 'esikoulu',
+        icon: '🌱',
+        title: 'Esikoulu: Selvät poikkeamat pienissä ryhmissä',
+        description: 'Kaytta 3-4 kuvaa selvilla eroilla (esim. elain ruokien joukossa). Esikoululaiset harjoittelevat ryhmaan kuulumisen tunnistamista intuitiivisesti. Yksinkertainen muoto rakentaa luokittelun perustaa.',
+      },
+      {
+        id: 'esiopetus',
+        icon: '🎒',
+        title: 'Esiopetus: Teemapohjaiset luokitteluhaasteet',
+        description: 'Luo tehtavia 4-5 kuvalla ja monipuolisilla teemoilla. Esiopetuksen oppilaat kehittavat perustelutaitoja selittaessaan miksi kuva ei kuulu joukkoon. Tukee POPS 2014 ajattelutaitojen kehittamista.',
+      },
+      {
+        id: '1-luokka',
+        icon: '📚',
+        title: '1. luokka: Hienommat erot ja perustelut',
+        description: 'Generoi tehtavia 5-6 kuvalla hienommilla eroilla. Ekaluokkalaiset analysoivat kuvien ominaisuuksia tarkemmin. Oppilaat perustelevat valintansa suullisesti tai kirjallisesti.',
+      },
+      {
+        id: '2-luokka',
+        icon: '✏️',
+        title: '2. luokka: Moniperusteiset luokittelut',
+        description: 'Luo tehtavia 6-7 kuvalla, joissa useampi luokitteluperuste on mahdollinen. Toisluokkalaiset oppivat etta samaa ryhmaa voi luokitella eri tavoin. Kehittaa joustavaa ajattelua.',
+      },
+      {
+        id: '3-luokka',
+        icon: '🎯',
+        title: '3. luokka: Monimutkaiset analyysitehtävät',
+        description: 'Kaytta 7-8 kuvaa hienojakoisilla eroilla. Kolmasluokkalaiset perustelevat valintansa kirjallisesti ja pohtivat vaihtoehtoisia luokitteluja. Tehtavat kehittavat tieteellista ajattelutapaa.',
+      },
+    ],
   },
 };
 

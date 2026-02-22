@@ -207,6 +207,125 @@ const content: EnrichedThemeContent = {
   // -- Cross-linking --
   relatedThemes: ['animals', 'birthday', 'music', 'fairy-tales', 'sports', 'colors'],
   relatedBlogCategories: [],
+
+  // -- SEO Enrichment (Part 185) --
+
+  classroomScenarios: [
+    {
+      situation: 'Luokanopettaja haluaa ylläpitää oppilaiden motivaatiota kevätlukukauden lopulla, kun väsymys on merkittAvA haaste ja perinteiset teemat eivät enää innosta.',
+      solution: 'Hän valitsee sirkusteeman: oppilaat laskevat jongleerauspallojen ja akrobaattien määriä, värittävät sirkustelttoja ja pellejä, tekevät sanahakuja sirkussanastolla ja ratkaisevat sirkusaiheisia pulmia. Dramaattinen ja värikäs teema herättää huomion uudelleen.',
+      outcome: 'Oppilaiden innostus palaa, matemaattiset taidot vahvistuvat sirkuksen seikkailullisessa kontekstissa ja luokan energia säilyy korkealla lukukauden loppuun asti.',
+    },
+    {
+      situation: 'Kotikouluvanhempi etsii teemaa, joka yhdistää liikkumisen, luovuuden ja akateemiset taidot lapselle, joka on kiinnostunut esittämistä ja temppuilusta.',
+      solution: 'Vanhempi yhdistää sirkustyölehdet käytännön sirkustaitoihin: lapsi harjoittelee jongleerausta ja tasapainoilua, sitten täyttää sirkuslaskentatehtävän ja kirjoittaa sirkusesityksen ohjelman.',
+      outcome: 'Lapsi kokee oppimisen sirkusseikkailuna, fyysinen aktiivisuus ja akateemiset taidot yhdistyvät luonnollisesti ja luovuus kukoistaa esittävän taiteen kontekstissa.',
+    },
+  ],
+
+  quickStats: [
+    { label: 'Suositeltu ikähaarukka', value: '3–9 vuotta' },
+    { label: 'Työlehtisovellusten määrä', value: '11 sovellusta' },
+    { label: 'Opetussuunnitelman alueet', value: '4 aluetta' },
+    { label: 'Tuetut luokkatasot', value: 'Esiopetus–3. lk' },
+    { label: 'Keskimääräinen työskentelyaika', value: '10–25 min' },
+    { label: 'Sirkusaiheet', value: '15+ aihepiiriä' },
+  ],
+
+  differentiationStrategies: [
+    {
+      learnerType: 'Visuaaliset oppijat',
+      adaptation: 'Käytä värikylLaisiä sirkuskuvituksia: telttoja, pellejä, akrobaatteja ja eläimiä. Sirkusohjelman visuaalinen esitys aikajanamuodossa auttaa hahmottamaan esityksen rakenteen.',
+    },
+    {
+      learnerType: 'Kinesteettiset oppijat',
+      adaptation: 'Yhdistä työlehdet fyysisiin sirkustaitoihin: lapsi harjoittelee jongleerausta huiveilla, tasapainoilee naruilla ja esittää pelleroolia ennen tai jälkeen paperitehtäviä. Kehollinen oppiminen vahvistaa sirkusteeman kokemuksellisuutta.',
+    },
+    {
+      learnerType: 'S2-oppijat',
+      adaptation: 'Sirkus on kansainvälinen taidemuoto, joka tunnetaan kaikissa kulttuureissa. Aloita sirkushahmojen visuaalisella tunnistamisella ja nimeämisellä, lisää suomenkielistä sirkussanastoa asteittain. Sirkusesityksen universaalius tukee osallisuutta.',
+    },
+    {
+      learnerType: 'Edistyneet oppijat',
+      adaptation: 'Haasta suunnittelemaan kokonainen sirkusesitys: kirjoita ohjelma aikatauluineen, laske lipputulot eri hintaluokissa, suunnittele julisteen ulkoasu ja kirjoita arvostelu kuvitteellisesta esityksestä.',
+    },
+  ],
+
+  assessmentIdeas: [
+    {
+      method: 'Sirkusesityksen suunnittelukansio',
+      criteria: 'Kerää oppilaan sirkustyölehdet, esitysohjelmat ja julisteet koko jakson ajalta. Arvioi sirkussanaston kehittymistä, matemaattisten taitojen soveltamista ja kykyä suunnitella kokonaisvaltainen esitys.',
+      gradeLevel: 'Kaikki luokka-asteet',
+    },
+    {
+      method: 'Sirkusesityksen ohjelmakirjoitus',
+      criteria: 'Pyydä oppilasta kirjoittaa sirkusesityksen ohjelma sisältäen numerot, esittäjät ja kestot. Arvioi proseduraalisen tekstin rakennetta, aikatauluttamisen taitoa ja sanaston monipuolisuutta.',
+      gradeLevel: '2.–3. lk',
+    },
+    {
+      method: 'Jongleerauspallojen laskentaleikki',
+      criteria: 'Anna oppilaalle sirkuskuvakortteja eri esineillä (pallot, keilat, renkaat). Pyydä lajittelemaan tyypeitään, laskemaan kukin ryhmä ja laskemaan kokonaismäärä. Arvioi lajittelu- ja laskutaitoja.',
+      gradeLevel: 'Esiopetus–1. lk',
+    },
+  ],
+
+  crossCurricularLinks: [
+    {
+      subject: 'Liikunta ja motorinen kehitys',
+      connection: 'Sirkusteema yhdistyy luontevasti POPS 2014:n liikunnan tavoitteisiin: tasapaino, koordinaatio, rytmi ja kehonhallinta. Sirkustaidot ovat pedagogisesti arvokkaita fyysisen kehityksen tukemisessa.',
+      activity: 'Akrobaattien laskentatehtävän jälkeen oppilaat harjoittelevat yksinkertaisia tasapainoasentoja ja huiviongleerausta liikuntasalissa.',
+    },
+    {
+      subject: 'Äidinkieli ja kirjallisuus',
+      connection: 'Sirkussanasto kuten akrobaatti, jongleerata, trapetsi ja areenateema laajentaa esittävän taiteen sanavarastoa. Sirkusarvostelun kirjoittaminen kehittää mielipidetekstin taitoja.',
+      activity: 'Sanahaun jälkeen oppilaat kirjoittavat lyhyen arvostelun kuvitteellisesta sirkusesityksestä käyttäen vähintään viittä sirkussanaa.',
+    },
+    {
+      subject: 'Matematiikka (laskeminen ja symmetria)',
+      connection: 'Sirkuksen monet esineet — pallot, keilat, renkaat, klovnit — tarjoavat rikkaan laskemiskontekstin, ja sirkusteltan symmetrinen rakenne tukee geometrian oppimista.',
+      activity: 'Laskutehtävän jälkeen oppilaat piirtävät symmetrisen sirkusteltan ja tunnistavat symmetria-akselin.',
+    },
+  ],
+
+  uniqueAngle: 'Sirkusaiheiset työlehdet tarjoavat pedagogisen energiapiikin, jota harva muu teema pystyy tuottamaan: ne yhdistävät draaman, liikkumisen, visuaalisen näyttävyyden ja akateemiset taidot yhdeksi sähköistäväksi oppimiskehykseksi. Sirkuksen värikkyys, jAnnitys ja ihmeellisyys vangitsevat huomion tehokkaasti myös lapsilla, jotka eivät tavallisesti innostu paperitehtävistä. Suomessa sirkustaide on arvostettu esittävän taiteen muoto, ja monet koulut järjestävät sirkuspajoja liikuntatuntien osana. POPS 2014 korostaa ilmaisun rohkeutta, fyysistä aktiivisuutta ja taiteellista ilmaisua, ja sirkusteema toteuttaa näitä kaikkia luonnollisesti. Sirkuksen luovuus ja seikkailullisuus tekevät matemaattisista tehtävistä jännittäviä: jongleerauspallojen laskeminen tuntuu taikurilta, ei aritmetiikalta. Esittävän taiteen elementti lisää sosiaalisen oppimisen ulottuvuuden, kun lapset suunnittelevat ja esittävät omia sirkusnumeroitaan.',
+
+  researchCitation: 'Cadwell, N. (2015). New Directions in Circus: Handbook of Arts Education. Tutkimus osoitti, että sirkustaiteen integrointi opetukseen parantaa merkittävästi oppilaiden kehonhallintaa, luovaa itseluottamusta, ryhmätyötaitoja ja positiivista suhtautumista oppimiseen.',
+
+  culturalNotes: 'Suomessa sirkustaide on arvostettu esittävän taiteen muoto, ja Sirkus Finlandia ja monet paikalliset sirkuskoulut tarjoavat lasten sirkuspajoja kautta maan. POPS 2014 sisältää ilmaisutaidon ja draaman elementtejä, joihin sirkusteema yhdistyy luontevasti. Suomalainen sirkusperinne korostaa uutta sirkusta, jossa fyysinen taito yhdistyy taiteelliseen ilmaisuun.',
+
+  snippetDefinition: 'Sirkusaiheiset työlehdet lapsille ovat tulostettavia oppimistehtäviä, jotka käyttävät pellejen, akrobaattien, sirkusteltan ja eläinten kuvituksia matematiikan, lukemisen ja luovan ilmaisun opettamiseen. Ne on suunniteltu 3–9-vuotiaille ja sisältävät sirkusesineiden laskemista, väritystehtäviä, sanahakuja ja esityksen suunnittelua.',
+
+  snippetHowTo: [
+    'Valitse työlehdet lapsen kehitystason mukaan: nuoremmille pellejen värittämistä ja pallojen laskemista, vanhemmille esitysohjelman kirjoittamista ja lipputulojen laskemista.',
+    'Esittele sirkuksen maailma lyhyesti ennen tehtävän aloittamista — näytä kuvia tai videopätkiä sirkusesityksistä.',
+    'Anna lapsen värittää ja laskea rauhallisesti ilman kiirettä, jotta sirkusteema säilyy seikkailullisena oppimiskokemuksena.',
+    'Yhdistä työlehdet fyysisiin sirkustaitoihin: huivijongleeraus, tasapainopuomi ja pellen roolileikki tuovat kokemuksellisuutta.',
+    'Keskustele sirkuksen eri numeroista ja taitelijoista tehtävien välissä sanaston laajentamiseksi.',
+    'Suunnitelkaa ja esittäkää pieni luokkasirkus, jossa jokainen oppilas esittää oman numeron.',
+    'Toista suosikkitehtäviä eri sirkusaiheilla ja lisää haastetta esityksen suunnittelun ja budjetoinnin kautta.',
+  ],
+
+  limitations: 'Sirkusaiheiset työlehdet saattavat herättää keskustelua eläinten käytöstä sirkuksissa, mikä on eettisesti kyseenalaista ja monissa maissa kiellettyA. Kasvattajien tulee painottaa modernia sirkusta, jossa käytetään ihmistaitelijoita. Fyysisten sirkustaitojen harjoittelu vaatii asianmukaista turvallisuusvalvontaa.',
+
+  themeComparisons: [
+    { vsThemeId: 'animals', summary: 'Sirkus voi sisältää eläimiä, mutta pääpaino on esittävässä taiteessa ja fyysisissä taidoissa, kun eläinteema keskittyy eläinten tuntemukseen ja luonnontieteen oppimiseen. Moderni sirkusteema korostaa ihmisen taitoja.' },
+    { vsThemeId: 'birthday', summary: 'Sirkus ja syntympäivät jakavat juhlallisuuden ja ilon, mutta sirkus korostaa esittävää taidetta ja fyysistä taitoa, kun syntympäiväteema keskittyy henkilokohtaiseen juhlaan ja sosiaaliseen vuorovaikutukseen.' },
+    { vsThemeId: 'music', summary: 'Sirkus ja musiikki ovat molemmat esittäviä taiteita, mutta sirkus yhdistää visuaalisen näyttävyyden ja fyysisen taidon, kun musiikkiteema syventyy rytmiin, melodiaan ja soittimiin. Yhdessä ne kattavat esittävän taiteen monet ulottuvuudet.' },
+    { vsThemeId: 'fairy-tales', summary: 'Sirkus ja sadut jakavat ihmeellisyyden ja mielikuvituksen, mutta sirkus on konkreettinen esittävä taide, kun sadut ovat kertovaa kirjallisuutta. Sirkus korostaa fyysistä taitoa, sadut kielellistä ilmaisua.' },
+  ],
+
+  productLinks: [
+    { appId: 'coloring', anchorText: 'Sirkuksen värityssivut', context: 'Väritä pellejen, akrobaattien ja sirkusteltan värikkäitä kuvituksia samalla kehittäen hienomotoriikkaa ja sirkussanastoa.' },
+    { appId: 'find-and-count', anchorText: 'Laske sirkusesineitä', context: 'Etsi ja laske jongleerauspalloNa, keiloja ja renkaita harjoitellen lukumäärien tunnistamista sirkuskontekstissa.' },
+    { appId: 'word-search', anchorText: 'Sirkussanaston sanahaku', context: 'Etsi sirkussanastoa kuten pelle, akrobaatti, trapetsi ja jongleerata kirjainruudukosta lukutaidon vahvistamiseksi.' },
+    { appId: 'treasure-hunt', anchorText: 'Sirkuksen aarteenmetsastys', context: 'Ratkaise sirkusaiheisia vihjeitä ja etsi aarteita sirkusteltasta yhdistäen ongelmanratkaisun seikkailulliseen teemaan.' },
+  ],
+
+  expertTips: [
+    { tip: 'Järjestä luokkasirkusviikko: jokainen päivä alkaa sirkustyölehdellä ja päättyy fyysisen sirkustaidon harjoitteluun. Viikon lopussa oppilaat esittävät pienen sirkusohjelman, jossa akateemiset taidot ja fyysinen taito yhdistyvät.', source: 'Varhaiskasvatuksen pedagoginen asiantuntija', gradeRange: 'Esiopetus–1. lk' },
+    { tip: 'Yhdistä sirkusteema fysiikan alkeisiin: selittäkää miten painovoima vaikuttaa jongleeraukseen, miksi tasapainopiste on tärkeä akrobatiassa ja miten kitkA vaikuttaa köysiakrobatiaan. Tämä avaa luonnontieteen ovialuonnollisesti.', source: 'Luonnontieteen aineenopettaja', gradeRange: '2.–3. lk' },
+    { tip: 'Sirkusteema on erityisen tehokas ujommille oppilaille: pellerooli antaa luvan olla hassu ja kokeilla eri ilmaisutapoja turvallisessa kehyksessä. Aloita pienestä ja anna itseluottamuksen kasvaa.', source: 'Erityispedagogiikan asiantuntija', gradeRange: 'Esiopetus–3. lk' },
+  ],
 };
 
 registerThemeContent('circus', 'fi', content);

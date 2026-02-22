@@ -207,6 +207,125 @@ const content: EnrichedThemeContent = {
   // -- Cross-linking --
   relatedThemes: ['holidays', 'food', 'cooking', 'music', 'toys', 'emotions', 'colors'],
   relatedBlogCategories: [],
+
+  // -- SEO Enrichment (Part 185) --
+
+  classroomScenarios: [
+    {
+      situation: 'Luokanopettaja haluaa juhlistaa oppilaiden syntympäiviä oppimisen kautta, mutta luokan säännöt estävät makeisten tuomisen kouluun.',
+      solution: 'Hän käyttää syntympäiväaiheisia työlehtiä juhlahetkenä: syntympäivälapsi saa erityisen työlehtipaketin, jossa lasketaan lahjojen ja ilmapallojen määriä, väritetään kakku ja tehdään syntympäiväsanaston sanahaku. Koko luokka osallistuu yhteiseen juhlamatikointiin.',
+      outcome: 'Syntympäivät saavat arvokkaan juhlahetken ilman makeisia, matemaattiset taidot vahvistuvat juhlatunnelmassa ja luokan yhteishenkI kasvaa jaetussa juhlakokemuksessa.',
+    },
+    {
+      situation: 'Kotikouluvanhempi etsii tapaa yhdistää lapsen innostus tulevista syntympäivistA akateemiseen harjoitteluun ilman että se tuntuu koulutyöltä.',
+      solution: 'Vanhempi käyttää syntympäivätyölehtiä juhlien suunnitteluharjoituksena: lapsi laskee vieraiden määrän, budjetoi koristeet, kirjoittaa kutsukortit ja suunnittelee juhlaohjelman. Työlehdet toimivat osana todellista juhlien valmistelua.',
+      outcome: 'Lapsi kokee oppimisen osana juhlavalmisteluja, laskemis- ja kirjoitustaidot vahvistuvat luonnollisesti ja syntympäiväjuhlista tulee kokonaisvaltainen oppimisprojekti.',
+    },
+  ],
+
+  quickStats: [
+    { label: 'Suositeltu ikähaarukka', value: '3–9 vuotta' },
+    { label: 'Työlehtisovellusten määrä', value: '10 sovellusta' },
+    { label: 'Opetussuunnitelman alueet', value: '4 aluetta' },
+    { label: 'Tuetut luokkatasot', value: 'Esiopetus–3. lk' },
+    { label: 'Keskimääräinen työskentelyaika', value: '10–25 min' },
+    { label: 'Juhla-aiheet', value: '15+ aihepiiriä' },
+  ],
+
+  differentiationStrategies: [
+    {
+      learnerType: 'Visuaaliset oppijat',
+      adaptation: 'Käytä värikkäitä juhlakuvituksia: kakkuja, ilmapalloja, lahjoja ja serpentiininauhoja. Juhlan suunnittelukaavio värikoodein auttaa hahmottamaan kokonaisuuden ja vaiheet.',
+    },
+    {
+      learnerType: 'Kinesteettiset oppijat',
+      adaptation: 'Yhdistä työlehdet todelliseen juhlien valmisteluun: lapsi koristele huoneen, pakkaa lahjan, järjestä pöytäkattauksen ja laskee tarjottavat samalla kun täyttää vastaavat työlehtitehtävät.',
+    },
+    {
+      learnerType: 'S2-oppijat',
+      adaptation: 'Syntympäivät ovat universaali juhla kaikissa kulttuureissa, mikä tarjoaa tutun lähtökohdan. Aloita juhlaesineiden visuaalisella tunnistamisella, lisää suomenkielistä juhlasanastoa asteittain. Eri kulttuurien syntympäiväperinteet rikastuttavat keskustelua.',
+    },
+    {
+      learnerType: 'Edistyneet oppijat',
+      adaptation: 'Haasta suunnittelemaan kokonaiset syntympäiväjuhlat: budjetoi kustannukset, laske tarjoilujen määrät per vieras, suunnittele ohjelma aikatauluineen ja kirjoita kutsukortit. Sisällytä kertolaskua ja budjetinhallintaa.',
+    },
+  ],
+
+  assessmentIdeas: [
+    {
+      method: 'Juhlien suunnittelukansio',
+      criteria: 'Kerää oppilaan syntympäivätyölehdet, kutsukortit ja budjetit koko jakson ajalta. Arvioi juhlasanaston kehittymistä, laskutaitojen soveltamista ja kykyä organisoida kokonaisvaltainen juhlatapahtuma.',
+      gradeLevel: 'Kaikki luokka-asteet',
+    },
+    {
+      method: 'Kutsukortin kirjoitustehtävä',
+      criteria: 'Pyydä oppilasta suunnitella ja kirjoittaa syntympäiväkutsu sisältäen päivämäärän, kellonajan, paikan ja ohjelman. Arvioi kirjallisen ilmaisun selkeyttä, tietojen täydellisyyttä ja visuaalista suunnittelua.',
+      gradeLevel: '2.–3. lk',
+    },
+    {
+      method: 'Ilmapallojen laskenta- ja värilajitteluleikki',
+      criteria: 'Anna oppilaalle värillisiä ilmapallokuvakortteja. Pyydä lajittelemaan väreittäin, laskemaan kukin ryhmä ja kertomaan kokonaismäärä. Arvioi lajittelu-, laskemis- ja yhteenlaskutaitoja.',
+      gradeLevel: 'Esiopetus–1. lk',
+    },
+  ],
+
+  crossCurricularLinks: [
+    {
+      subject: 'Matematiikka (laskeminen ja budjetointi)',
+      connection: 'Syntympäiväjuhlat tarjoavat luonnollisen kontekstin laskemiselle, kertolaskulle ja yksinkertaiselle budjetoinnille. Vieraiden, ilmapallojen ja tarjoilujen laskeminen harjoittaa POPS 2014:n matemaattisia peruslaskutaitoja.',
+      activity: 'Ilmapallojen laskentatehtävän jälkeen oppilaat suunnittelevat juhlabudjetin lisäämällä koristeiden, kakkujen ja leikkien kustannukset.',
+    },
+    {
+      subject: 'Äidinkieli ja kirjallisuus',
+      connection: 'Syntympäiväkutsun kirjoittaminen on autenttinen kirjoitustehtävä, joka harjoittaa tiedon jäsentelyA, asiointitekstiä ja tarkkaa ilmaisua motivoivassa kontekstissa.',
+      activity: 'Sanahaun jälkeen oppilaat kirjoittavat syntympäiväkutsun sisältäen kaikki oleelliset tiedot ja kuvittavat sen itse.',
+    },
+    {
+      subject: 'Musiikki ja kuvataide',
+      connection: 'Syntympäiväteema yhdistyy POPS 2014:n taidekasvatuksen tavoitteisiin juhlien koristelusuunnittelun, kutsukorttien taiteellisen toteutuksen ja juhlamusiikin kautta.',
+      activity: 'Väritystehtävän jälkeen oppilaat suunnittelevat ja askartelevat oman kutsukortin yhdistäen kuvataiteen ja kirjoittamisen.',
+    },
+  ],
+
+  uniqueAngle: 'Syntympäiväaiheiset työlehdet tarjoavat pedagogisen ulottuvuuden, joka hyödyntää lapsen voimakkainta henkilökohtaista motivaatiota: omien juhliensa odotusta ja suunnittelua. Mikaan muu teema ei saa lasta laskemaan, kirjoittamaan ja suunnittelemaan yhtä innokkaasti kuin oman syntympäivän konteksti. Tämä emotionaalinen yhteys muuttaa matemaattiset tehtävät merkityksellisiksi: ilmapallojen laskeminen on tärkeää, koska niitä tarvitaan oikeasti juhlissa, ja kutsukortin kirjoittaminen on autenttinen viestintätehtävä. Suomessa syntympäiväperinteet ovat tärkeä osa lasten sosiaalista elämää, ja syntympäiväjuhlien suunnittelu opettaa organisointitaitoja, toisten huomioimista ja yhteistyötä — POPS 2014:n laaja-alaisen osaamisen ydintaitoja. Juhlasuunnittelun peräkkäisyys — kutsu, koristelu, tarjoilu, ohjelma — opettaa järjestelmällistä ajattelua luonnollisesti ja iloisessa kontekstissa.',
+
+  researchCitation: 'Hidi, S. & Renninger, K. A. (2006). The Four-Phase Model of Interest Development. Educational Psychologist. Tutkimus osoitti, että henkilökohtaisesti merkityksellinen sisältö — kuten syntympäivät — laukaisee ja ylläpitää oppimismotivaatiota tehokkaammin kuin abstrakti sisältö, johtaen syvEmpään sitoutumiseen ja pidempään muistamiseen.',
+
+  culturalNotes: 'Suomessa syntympäivät ovat lasten sosiaalisen elämän kohokohtia, ja kouluissa oppilaiden syntympäiviä juhlistetaan usein yhdessä. POPS 2014 korostaa yhteisöllisyyttä ja toisten huomioimista, ja syntympäiväteema toteuttaa näitä tavoitteita luonnollisesti. Suomalaisissa syntympäiväperinteissä korostuvat syntymAPäiväkakku kynttilöineen, pienet lahjat ja yhteiset leikit.',
+
+  snippetDefinition: 'Syntympäiväaiheiset työlehdet lapsille ovat tulostettavia oppimistehtäviä, jotka käyttävät kakkujen, ilmapallojen, lahjojen ja juhlien kuvituksia matematiikan, lukemisen ja sosiaalisten taitojen opettamiseen. Ne on suunniteltu 3–9-vuotiaille ja sisältävät lahjojen laskemista, kutsukorttien kirjoittamista, sanahakuja ja juhlasuunnittelua.',
+
+  snippetHowTo: [
+    'Valitse työlehdet lapsen kehitystason mukaan: nuoremmille kakkujen värittämistä ja ilmapallojen laskemista, vanhemmille juhlabudjetteja ja kutsukorttien kirjoittamista.',
+    'Yhdistä työlehdet lapsen oikeisiin syntympäivävalmisteluihin konkreettisen yhteyden luomiseksi oppimisen ja juhlan välillä.',
+    'Anna lapsen värittää ja laskea rauhallisesti ilman kiirettä, jotta syntympäiväteema säilyy iloisena oppimiskokemuksena.',
+    'Keskustele juhlien suunnittelun vaiheista: keitA kutsutaan, mitä tarjotaan, miten koristellaan, mitä leikitAän.',
+    'Harjoittele kutsukortin kirjoittamista: opeta päivämäärän, kellonajan ja paikan kirjoittamisen taidot.',
+    'Luo luokkaan syntympäiväkalenteri, johon merkitAän kaikkien syntympäivät ja lasketaan päiviä seuraavaan juhlaan.',
+    'Toista suosikkitehtäviä eri juhlatyyleillä ja lisää haastetta budjetoinnin ja suunnittelun kautta.',
+  ],
+
+  limitations: 'Syntympäiväteema saattaa olla herkkA aihe lapsille, joiden perheissä syntympäiviä ei juhlita uskonnollisista tai taloudellisista syistä. Kasvattajien tulee olla herkkiä eri perheiden perinteille ja tarjota vaihtoehtoisia näkökulmia. Vertailua juhlien laajuudesta tulee välttää.',
+
+  themeComparisons: [
+    { vsThemeId: 'holidays', summary: 'Syntympäivä on henkilökohtainen juhla, kun juhlapäivät ovat yhteiskunnallisia tai uskonnollisia merkkipäiviä. Syntympäiväteema tarjoaa yksilöllisemmän yhteyden ja emotionaalisemman motivaation, kun juhlateema kattaa laajemmin kulttuuriperinteen.' },
+    { vsThemeId: 'food', summary: 'Syntympäivä sisältää juhlaruokia kuten kakun ja tarjoilut, mutta pääpaino on juhlien suunnittelussa ja sosiaalisessa vuorovaikutuksessa. Ruokateema keskittyy elintarvikkeisiin laajemmin ilman juhlan kontekstia.' },
+    { vsThemeId: 'cooking', summary: 'Syntympäivä sisältää kakun leipomista, mutta pääpaino on kokonaisvaltaisessa juhlasuunnittelussa ja sosiaalisissa taidoissa. Ruoanlaittoteema syventyy resepteihin ja keittiötaitoihin laajemmin.' },
+    { vsThemeId: 'music', summary: 'Syntympäiväjuhlissa lauletaan ja soitetaan, mutta pääpaino on kokonaisvaltaisessa juhlakokemuksessa. Musiikkiteema syventyy rytmiin, melodiaan ja soittimiin itsenäisenä taidemuotona.' },
+  ],
+
+  productLinks: [
+    { appId: 'coloring', anchorText: 'Syntympäiväkakkujen värityssivut', context: 'Väritä kakkuja, ilmapalloja ja juhlakoristeluja samalla kehittäen hienomotoriikkaa ja juhlasanastoa.' },
+    { appId: 'find-and-count', anchorText: 'Laske syntympäivälahjoja', context: 'Etsi ja laske lahjoja, ilmapalloja ja kynttilöitä harjoitellen lukumäärien tunnistamista juhlakontekstissa.' },
+    { appId: 'word-search', anchorText: 'Syntympäiväsanaston sanahaku', context: 'Etsi juhlasanastoa kuten kakku, ilmapallo, lahja ja kynttilä kirjainruudukosta lukutaidon vahvistamiseksi.' },
+    { appId: 'word-scramble', anchorText: 'Syntympäiväsanojen sekoituspeli', context: 'Ratkaise sekoitettuja syntympäiväsanoja harjoitellen oikeinkirjoitusta ja sanastoa juhlateemalla.' },
+  ],
+
+  expertTips: [
+    { tip: 'Käytä syntympäivätyölehtiE luokassa jokaisen oppilaan syntympäivänä: syntympäivälapsi saa erityisen tehtäväpaketin ja koko luokka laskee yhdessä, montako kynttilää kakkuun tulee. Tämä luo juhlahetken ilman makeisia.', source: 'Varhaiskasvatuksen pedagoginen asiantuntija', gradeRange: 'Esiopetus–1. lk' },
+    { tip: 'Yhdistä syntympäiväteema matematiikan budjetointiprojektiin: oppilaat suunnittelevat juhlat budjetilla, laskevat kustannukset ja vertailevat eri vaihtoehtoja. Tämä kehittää taloudellista ajattelua motivoivassa kontekstissa.', source: 'Matematiikan aineenopettaja', gradeRange: '2.–3. lk' },
+    { tip: 'Herkissä luokkatilanteissa mukauta syntympäiväteemaa: käytä juhla-termiä syntympäivän sijaan ja keskity yleiseen juhlien suunnitteluun. Tämä mahdollistaa kaikkien osallistumisen riippumatta perheen juhlatraditioista.', source: 'Erityispedagogiikan asiantuntija', gradeRange: 'Esiopetus–3. lk' },
+  ],
 };
 
 registerThemeContent('birthday', 'fi', content);

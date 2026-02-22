@@ -207,6 +207,125 @@ const content: EnrichedThemeContent = {
   // -- Cross-linking --
   relatedThemes: ['jobs', 'shapes', 'transportation', 'robots', 'household'],
   relatedBlogCategories: [],
+
+  // -- SEO Enrichment (Part 185) --
+
+  classroomScenarios: [
+    {
+      situation: 'Luokanopettaja haluaa toteuttaa STEM-jakson, joka yhdistää matematiikan, tekniikan ja äidinkielen konkreettiseen projektiin, mutta koulun varastossa ei ole erikoismateriaaleja.',
+      solution: 'Hän käyttää rakentamisaiheisia työlehtiä viikon runkona: oppilaat laskevat tiiliä ja palkkeja, mittaavat rakennusten mittoja ruutupaperilla, värittävät työmaakuvituksia ja tekevät sanahakuja rakennussanastolla kuten perustus, teline ja nosturi. Työlehtien ohessa oppilaat rakentavat pienoisrakenteita kierrätysmateriaaleista.',
+      outcome: 'Oppilaat ymmärtävät suunnittelun, mittaamisen ja järjestyksen merkityksen rakentamisessa, matemaattiset taidot vahvistuvat käytännön kontekstissa ja insinööriajattelu kehittyy luontevasti.',
+    },
+    {
+      situation: 'Kotikouluvanhempi etsii teemaa, joka kanavoisi lapsen intohimon palikoilla ja LEGOilla rakentamiseen akateemisiksi taidoiksi ilman että rakentamisen ilo katoaa.',
+      solution: 'Vanhempi yhdistää rakentamistyölehdet lapsen omiin rakennusprojekteihin: ensin työlehden tiililaskenta, sitten oikea rakentaminen palikoilla. Piirustustehtävät ruutupaperilla edeltyvät kolmiulotteista rakentamista, ja mittaustehtävät yhdistyvät huonekalujen mittaamiseen mittanauhalla.',
+      outcome: 'Lapsi kokee työlehdet rakentamisleikin luonnollisena jatkumona, laskemis- ja mittaustaidot vahvistuvat huomaamatta ja suunnittelutaito kehittyy sekä paperilla että konkreettisessa rakentamisessa.',
+    },
+  ],
+
+  quickStats: [
+    { label: 'Suositeltu ikähaarukka', value: '3–9 vuotta' },
+    { label: 'Työlehtisovellusten määrä', value: '12 sovellusta' },
+    { label: 'Opetussuunnitelman alueet', value: '5 aluetta' },
+    { label: 'Tuetut luokkatasot', value: 'Esiopetus–3. lk' },
+    { label: 'Keskimääräinen työskentelyaika', value: '10–25 min' },
+    { label: 'Rakennusaiheet', value: '20+ aihepiiriä' },
+  ],
+
+  differentiationStrategies: [
+    {
+      learnerType: 'Visuaaliset oppijat',
+      adaptation: 'Käytä suuria poikkileikkauskuvia rakennuksista, työmaakaavioita ja piirustusnäkymiE. Värikoodaa rakennusvaiheet aikajanamuodossa, jotta kokonaisuus hahmottuu visuaalisesti ja järjestys selkiytyy.',
+    },
+    {
+      learnerType: 'Kinesteettiset oppijat',
+      adaptation: 'Yhdistä työlehdet fyysiseen rakentamiseen: lapsi rakentaa palikoilla työlehdellä näkemänsä rakenteen, mittaa tulosta viivottimella ja vertaa fyysistä rakennetta paperiversioon. Lelutyökalujen käsittely vahvistaa sanastoa.',
+    },
+    {
+      learnerType: 'S2-oppijat',
+      adaptation: 'Rakennuskoneet ja työkalut ovat visuaalisesti tunnistettavia kaikissa kulttuureissa. Aloita työkalujen ja koneiden nimeämisellä kuvien avulla, lisää suomenkielistä rakennussanastoa asteittain. Kuvakortit tukevat sanaston ankkuroitumista.',
+    },
+    {
+      learnerType: 'Edistyneet oppijat',
+      adaptation: 'Haasta suunnittelemaan kokonainen rakennus: laske materiaalimäärät kertolaskulla, budjetoi kustannukset, piirrä pohjapiirros ruutupaperille ja kirjoita rakennusselostus. Sisällytä pinta-alan ja piirin laskentaa sekä rakenteellista analyysia.',
+    },
+  ],
+
+  assessmentIdeas: [
+    {
+      method: 'Rakennusprojektikansio',
+      criteria: 'Kerää oppilaan rakentamistyölehdet, piirustukset ja materiaalilaskelmat koko jakson ajalta. Arvioi rakennussanaston kehittymistä, mittaustarkkuuden parantumista ja kykyä soveltaa matemaattisia taitoja rakennuskontekstissa.',
+      gradeLevel: 'Kaikki luokka-asteet',
+    },
+    {
+      method: 'Piirustus ja materiaalilaskelma',
+      criteria: 'Pyydä oppilasta piirtämään yksinkertainen rakennuksen pohjapiirros ruutupaperille ja laskemaan tarvittavien materiaalien määrät. Arvioi tilallista hahmottamista, laskutarkkuutta ja kykyä yhdistää suunnittelu ja laskenta.',
+      gradeLevel: '2.–3. lk',
+    },
+    {
+      method: 'Työkalujen tunnistus- ja lajittelutehtävä',
+      criteria: 'Anna oppilaalle joukko työkalukuvia ja pyydä lajittelemaan ne käyttötarkoituksen mukaan. Arvioi luokittelutaitojen hallintaa, sanastoa ja kykyä perustella lajitteluvalintoja.',
+      gradeLevel: 'Esiopetus–1. lk',
+    },
+  ],
+
+  crossCurricularLinks: [
+    {
+      subject: 'Matematiikka (mittaaminen ja geometria)',
+      connection: 'Rakentaminen on luonnostaan matemaattinen prosessi: mittaaminen, laskeminen ja geometriset muodot ovat jokaisen rakennusprojektin ytimessä. POPS 2014:n matematiikan mittaamisen ja geometrian tavoitteet toteutuvat suoraan rakennuskontekstissa.',
+      activity: 'Tiililaskentatehtävän jälkeen oppilaat piirtävät pohjapiirroksen ruutupaperille, laskevat huoneiden pinta-alat ja piirit sekä määrittävät tarvittavan materiaalimäärän.',
+    },
+    {
+      subject: 'Äidinkieli ja kirjallisuus',
+      connection: 'Rakennussanasto kuten perustus, raudoitus, teline ja piirustus laajentaa teknistä sanavarastoa. Proseduraalinen kirjoittaminen rakentamisvaiheista kehittää järjestelmällistä ilmaisua.',
+      activity: 'Sanahaun jälkeen oppilaat kirjoittavat ohjeet yksinkertaisen rakennelman tekemiseen käyttäen vähintään viittä rakennussanaa ja selkeitä järjestyssanoja.',
+    },
+    {
+      subject: 'Käsityö ja teknologia',
+      connection: 'Rakentamisteema yhdistyy suoraan POPS 2014:n käsityön ja teknologian tavoitteisiin: suunnittelu, materiaalintuntemus, työkalujen turvallinen käyttö ja prosessin dokumentointi.',
+      activity: 'Piirustustehtävän jälkeen oppilaat rakentavat pienoismallin kierrätysmateriaaleista noudattaen suunnitelmaansa, arvioivat rakennettaan ja dokumentoivat prosessin valokuvin.',
+    },
+  ],
+
+  uniqueAngle: 'Rakentamisaiheiset työlehdet tarjoavat ainutlaatuisen pedagogisen ulottuvuuden, jota harva muu teema pystyy toistamaan: ne yhdistävät insinööriajattelun, matemaattisen mittaamisen ja järjestelmällisen suunnittelun yhdeksi johdonmukaiseksi oppimiskehykseksi. Rakennusprosessi on luonnostaan peräkkäinen — perustukset ennen seiniä, seinät ennen kattoa — ja tämä tarjoaa luonnollisen kontekstin proseduraalisen ajattelun, syy-seuraussuhteiden ja suunnittelutaitojen opettamiseen. Lapset, jotka rakastavat rakentamista palikoilla, LEGOilla tai kierrätysmateriaaleilla, kokevat rakentamistyölehdet oman intohimonsa akateemisena jatkeena eivätkä irrallisina tehtävinä. Suomessa POPS 2014 painottaa käsityön, teknologian ja matematiikan integraatiota, ja rakentamisteema toteuttaa tämän poikkitieteellisen yhteyden konkreettisesti. Suomalainen rakentamiskulttuuri on korkealaatuista ja innovatiivista, ja rakentamisteemaiset työlehdet avaavat ikkunan ammatteihin, joissa tarkkuus, suunnittelu ja yhteistyö ovat avainasemassa. Työlehtien moninaisuus — tiililaskennat, piirustusruudukot, työkalusanaston sanahaut, varjoyhdistämistehtävät — takaa, että jokaiselle oppijalle löytyy sopiva haaste ja oppiminen pysyy motivoivana viikkojenkaan kuluessa.',
+
+  researchCitation: 'Bagiati, A. & Evangelou, D. (2015). Engineering Curriculum in the Preschool Classroom: The Teacher’s Experience. European Early Childhood Education Research Journal. Tutkimus osoitti, että rakentamis- ja insinööriteemaiset oppimiskokemukset esiopetusikäisille parantavat merkittävästi ongelmanratkaisutaitoja, tilallista hahmottamista ja matemaattisen ajattelun kehittymistä.',
+
+  culturalNotes: 'Suomessa rakentaminen on korkean osaamisen ala, ja suomalainen rakennuskulttuuri tunnetaan laadusta ja innovatiivisuudesta. POPS 2014 korostaa käsityön ja teknologian opetusta alkuopetuksesta lähtien, ja rakentamisteema yhdistyy luontevasti näihin tavoitteisiin. Suomalainen perinne rakentaa puusta, erityisesti hirsirakentaminen, tarjoaa kulttuurisen ankkkurin, joka yhdistää modernin rakentamisen perinteiseen käsityötaitoon.',
+
+  snippetDefinition: 'Rakentamisaiheiset työlehdet lapsille ovat tulostettavia oppimistehtäviä, jotka käyttävät nostureiden, kaivinkoneiden, työkalujen ja työmaiden kuvituksia matematiikan, lukemisen ja insinööriajattelun opettamiseen. Ne on suunniteltu 3–9-vuotiaille ja sisältävät materiaalilaskentaa, mittaustehtäviä, sanahakuja ja piirustusharjoituksia.',
+
+  snippetHowTo: [
+    'Valitse työlehdet lapsen kehitystason mukaan: nuoremmille työkoneiden värittämistä ja yksinkertaista laskemista, vanhemmille materiaalilaskelmia ja piirustustehtäviä.',
+    'Esittele rakennusprosessin vaiheet lyhyesti ennen tehtävän aloittamista — selitA, miksi perustukset tehdään ennen seiniä.',
+    'Anna lapsen värittää ja laskea rauhallisesti ilman kiirettä, jotta rakentamisteema säilyy nautinnollisena oppimiskokemuksena.',
+    'Yhdistä työlehdet fyysiseen rakentamiseen palikoilla, LEGOilla tai kierrätysmateriaaleilla konkreettisen yhteyden luomiseksi.',
+    'Keskustele työkalujen nimistä ja käyttötarkoituksista tehtävien välissä sanaston laajentamiseksi.',
+    'Vie lapsi seuraamaan naapuruston rakennusprojektia ja verratakaa havaintoja työlehden rakennuskuviin.',
+    'Toista suosikkitehtäviä vaikeustasoa lisäten ja lisää uusia rakennussanoja sanavarastoon asteittain.',
+  ],
+
+  limitations: 'Rakentamisaiheiset työlehdet keskittyvät tekniseen ja matemaattiseen näkökulmaan, mikä saattaa olla vierasta lapsille, joiden kotiymPäristössä ei ole kokemusta rakentamisesta tai työkaluista. Turvallisuusnäkökulma on huomioitava: työmaita ei saa käydä katsomassa ilman aikuisen valvontaa, ja fyysisissä rakennusprojekteissa on noudatettava ikätasoisia turvallisuusohjeita.',
+
+  themeComparisons: [
+    { vsThemeId: 'jobs', summary: 'Rakentaminen on yksi ammattimaailman konkreettisimmista teemoista, kun ammattiteema kattaa laajemmin eri elämänaloja. Rakentamisteema syventyy insinööriajatteluun ja mittaamiseen, kun ammattiteema esittelee työelämän moninaisuutta.' },
+    { vsThemeId: 'shapes', summary: 'Rakentaminen soveltaa geometrisia muotoja käytännössä rakennusten, seinien ja pohjapiirrosten kautta, kun muototeema opettaa muotoja abstraktisti. Rakentamisteema tekee geometriasta välittömästi tarkoituksenmukaista.' },
+    { vsThemeId: 'transportation', summary: 'Rakentaminen luo infrastruktuurin — tiet, sillat, rakennukset — jota liikennevälineet käyttävät. Molemmat teemat sisältävät suuria koneita, mutta rakentaminen korostaa luomista ja suunnittelua, kun liikenne korostaa liikkumista ja järjestelmiä.' },
+    { vsThemeId: 'robots', summary: 'Rakentaminen yhdistää perinteisen insinööritieteen konkreettiseen rakentamiseen, kun robotiikkateema korostaa ohjelmointia ja automaatiota. Molemmat kehittävät STEM-ajattelua eri näkökulmista: fyysinen rakentaminen vs. digitaalinen ohjelmointi.' },
+  ],
+
+  productLinks: [
+    { appId: 'coloring', anchorText: 'Rakennuskoneiden värityssivut', context: 'Väritä nostureiden, kaivinkoneiden ja pyöräkuormaajien yksityiskohtaisia kuvituksia samalla kehittäen hienomotoriikkaa ja konetuntemusta.' },
+    { appId: 'grid-match', anchorText: 'Rakennuskuvioiden ruudukkoyhdistäminen', context: 'Yhdistä rakennusaiheisia kuvioita ruudukossa kehittäen tilallista hahmottamista ja visuaalista muistia.' },
+    { appId: 'word-search', anchorText: 'Rakennussanaston sanahaku', context: 'Etsi rakennussanastoa kuten perustus, nosturi, teline ja vasara kirjainruudukosta lukutaidon vahvistamiseksi.' },
+    { appId: 'code-addition', anchorText: 'Piirustusruudukon koodilaskut', context: 'Ratkaise yhteenlaskutehtäviä piirustusruudukossa yhdistäen matemaattisen harjoittelun rakennusteemaiseen visualisointiin.' },
+  ],
+
+  expertTips: [
+    { tip: 'Rakenna luokkaan työmaanurkka rakennuspalikoilla, lelutyökaluilla ja kypärillä. Työlehtien jälkeen oppilaat siirtyvät työmaalle rakentamaan paperilla suunnittelemiaan rakenteita, yhdistäen teoria ja käytäntö.', source: 'Varhaiskasvatuksen pedagoginen asiantuntija', gradeRange: 'Esiopetus–1. lk' },
+    { tip: 'Yhdistä rakentamistyölehdet todellisten rakennusprojektien seuraamiseen: naapuruston työmaan dokumentointi valokuvin ja havaintojen vertaaminen työlehtien rakennuskuviin syventää ymmärrystä rakennusprosessista.', source: 'Teknologiakasvatuksen asiantuntija', gradeRange: '2.–3. lk' },
+    { tip: 'Käytä piirustustehtäviä toiminnanohjauksen tukena: kun lapsi opettelee ensin tutkimaan piirustusta, sitten suunnittelemaan ja lopuksi rakentamaan, hän harjoittelee samaa ensin ajattele, sitten toimi -periaatetta, joka tukee kaikkea akateemista oppimista.', source: 'Erityispedagogiikan asiantuntija', gradeRange: 'Esiopetus–3. lk' },
+  ],
 };
 
 registerThemeContent('construction', 'fi', content);

@@ -207,6 +207,125 @@ const content: EnrichedThemeContent = {
   // -- Cross-linking --
   relatedThemes: ['food', 'fruits', 'vegetables', 'household', 'numbers', 'holidays'],
   relatedBlogCategories: [],
+
+  // -- SEO Enrichment (Part 185) --
+
+  classroomScenarios: [
+    {
+      situation: 'Luokanopettaja haluaa yhdistää matematiikan ja äidinkielen opetuksen konkreettiseen kontekstiin, joka innostaa kaikkia oppilaita sukupuolesta ja taustasta riippumatta.',
+      solution: 'Hän valitsee ruoanlaittoteeman: oppilaat laskevat ainesosia resepteissä, mittaavat määriä desilitroina ja ruokalusikoina, värittävät keittikuvituksia ja tekevät sanahakuja ruokasanastolla kuten vatkain, uuni ja taikiina. Lukutehtävät sisältävät yksinkertaisia reseptejä, joita oppilaat seuraavat vaihe vaiheelta.',
+      outcome: 'Oppilaat ymmärtävät mittaamisen käytännön merkityksen, lukevat proseduraalista tekstiä tarkoituksenmukaisesti ja kehittävät ravintotietoisuutta samalla kun harjoittelevat akateemisia taitoja.',
+    },
+    {
+      situation: 'Kotikouluvanhempi haluaa hyödyntää päivittäistä ruoanlaittoa oppimistilanteena, mutta lapsi ei jaksa tehdä erillisiä työlehtiä keittikokemuksen jälkeen.',
+      solution: 'Vanhempi käyttää ruoanlaittotyölehtiä esivalmisteluun: lapsi täyttää ainesosien laskentatehtävän ennen oikeaa ruoanlaittoa, tunnistaa välineitä kuvista ja lukee reseptin askeleittain. Työlehti toimii esiharjoituksena, joka tekee todellisesta ruoanlaitosta sujuvampaa.',
+      outcome: 'Lapsi kokee työlehdet osana ruoanlaiton seikkailua, mittaus- ja laskutaidot vahvistuvat luonnollisesti ja reseptien lukeminen kehittää proseduraalisen tekstin ymmärtämistä.',
+    },
+  ],
+
+  quickStats: [
+    { label: 'Suositeltu ikähaarukka', value: '3–9 vuotta' },
+    { label: 'Työlehtisovellusten määrä', value: '10 sovellusta' },
+    { label: 'Opetussuunnitelman alueet', value: '5 aluetta' },
+    { label: 'Tuetut luokkatasot', value: 'Esiopetus–3. lk' },
+    { label: 'Keskimääräinen työskentelyaika', value: '10–25 min' },
+    { label: 'Ruoka-aiheet', value: '20+ aihepiiriä' },
+  ],
+
+  differentiationStrategies: [
+    {
+      learnerType: 'Visuaaliset oppijat',
+      adaptation: 'Käytä värikkäitä ruokakuvituksia, reseptikaavioita ja keittiövälineiden kuvakortteja. Reseptien vaiheittainen kuvitus auttaa hahmottamaan prosessin kokonaisuutena ja tukee järjestyksen ymmärtämistä.',
+    },
+    {
+      learnerType: 'Kinesteettiset oppijat',
+      adaptation: 'Yhdistä työlehdet todelliseen ruoanlaittoon: lapsi mittaa jauhoja desilitramitalla, laskee kananmunat ja sekoittaa taikinaa ennen tai jälkeen paperitehtäviä. Moniaistisuus vahvistaa oppimista.',
+    },
+    {
+      learnerType: 'S2-oppijat',
+      adaptation: 'Ruoanlaitto on universaali teema kaikissa kulttuureissa, mikä tarjoaa tutun lähtökohdan. Aloita keittiövälineiden ja peruselintarvikkeiden visuaalisella tunnistamisella, lisää suomenkielistä ruokasanastoa asteittain. Eri kulttuurien ruokaperinteet rikastuttavat keskustelua.',
+    },
+    {
+      learnerType: 'Edistyneet oppijat',
+      adaptation: 'Haasta suunnittelemaan kokonainen ateria: laske ainesosien määrät kolminkertaisena annoksena, budjetoi ruokaostokset, kirjoita selkeä resepti ja analysoi ravintosisältöä. Sisällytä murtolukuja ja mittayksiköiden muunnoksia.',
+    },
+  ],
+
+  assessmentIdeas: [
+    {
+      method: 'Reseptikansio',
+      criteria: 'Kerää oppilaan ruoanlaittotyölehdet ja itse kirjoitetut reseptit koko jakson ajalta. Arvioi ruokasanaston kehittymistä, mittaustarkkuuden parantumista ja kykyä kirjoittaa selkeää proseduraalista tekstiä.',
+      gradeLevel: 'Kaikki luokka-asteet',
+    },
+    {
+      method: 'Reseptin kirjoitustehtävä',
+      criteria: 'Pyydä oppilasta kirjoittamaan oma resepti määrineen, vaiheittaisine ohjeineen ja tarvittavine välineineen. Arvioi proseduraalisen tekstin rakennetta, mittayksiköiden oikeaa käyttöä ja sanavalintojen tarkkuutta.',
+      gradeLevel: '2.–3. lk',
+    },
+    {
+      method: 'Ainesosien lajitteluleikki',
+      criteria: 'Anna oppilaalle ruokakuvakortteja ja pyydä lajittelemaan ne ryhmään: hedelmAt, vihannekset, viljatuotteet, maitotuotteet. Arvioi ruokaryhmien tuntemusta ja lajitteluperustelujen selkeyttä.',
+      gradeLevel: 'Esiopetus–1. lk',
+    },
+  ],
+
+  crossCurricularLinks: [
+    {
+      subject: 'Matematiikka (mittaaminen ja murtoluvut)',
+      connection: 'Ruoanlaitto vaatii tarkkaa mittaamista desilitroina, ruokalusikoina ja grammoina sekä annosten kertomista ja jakamista. POPS 2014:n mittaamisen ja murtolukujen tavoitteet toteutuvat luonnollisesti reseptikontekstissa.',
+      activity: 'Ainesosien laskentatehtävän jälkeen oppilaat kolminkertaistavat yksinkertaisen reseptin ja laskevat uudet määrät kertolaskulla.',
+    },
+    {
+      subject: 'Äidinkieli ja kirjallisuus',
+      connection: 'Reseptit ovat proseduraalisen tekstin malliesimerkkejä, ja ruoanlaittosanasto kuten vatkaus, hauduttaminen ja taikinan kohottaminen laajentaa teknistä sanavarastoa motivoivassa kontekstissa.',
+      activity: 'Sanahaun jälkeen oppilaat kirjoittavat oman yksinkertaisen reseptin käyttäen selkeitä järjestyssanoja ja tarkkoja mittamääriä.',
+    },
+    {
+      subject: 'Ympäristöoppi (ravitsemus ja terveys)',
+      connection: 'Ruoanlaittoteema tukee POPS 2014:n terveyskasvatuksen tavoitteita: terveellisten valintojen tekeminen, ruoan alkuperän ymmärtäminen ja lautasmallin soveltaminen.',
+      activity: 'Lajittelutehtävän jälkeen oppilaat kokoavat terveellisen lautasen kuvakorteista ja perustelevat valintansa ravitsemussuositusten pohjalta.',
+    },
+  ],
+
+  uniqueAngle: 'Ruoanlaittoteemaiset työlehdet tarjoavat pedagogisen yhdistelmän, jota harva muu teema pystyy jäljittelemään: ne yhdistävät matemaattisen mittaamisen, proseduraalisen lukutaidon ja ravitsemuskasvatuksen yhdeksi kokonaisvaltaiseksi oppimiskehykseksi. Ruoanlaitto on yksi harvoista teemoista, joissa mittaaminen on välittömästi merkityksellistä — desilitran ylimääräinen jauhomARä muuttaa kakun lopputulosta, mikä tekee tarkkuudesta konkreettisesti tärkeää. Reseptien lukeminen on proseduraalisen tekstin malliharjoitus: vaiheittainen järjestys, tarkat määrät ja looginen eteneminen ovat reseptien ytimessä. Suomessa ruoanlaittotaito on tasa-arvoisesti kaikkien opetettava taito, ja POPS 2014 sisältää kotitalouden alkuopetuksesta lähtien. Suomalaiset ruokaperinteet — karjalanpiirakat, korvapuustit, mustikkapiirakka — tarjoavat kulttuurisen ankkurin, joka yhdistää oppimisen omaan perinteeseen. Ravitsemuskasvatuksen näkökulma rikastuttaa oppimista: lapset oppivat ruokaryhmistä, terveellisistä valinnoista ja ruoan alkuperästä samalla kun harjoittelevat laskemista ja lukemista.',
+
+  researchCitation: 'Cunningham-Sabo, L. & Lohse, B. (2013). Cooking with Kids Positively Affects Fourth Graders’ Vegetable Preferences and Attitudes and Self-Efficacy for Food and Cooking. Childhood Obesity. Tutkimus osoitti, että ruoanlaittoon integroitu oppiminen parantaa lasten asenteita terveellistä ruokaa kohtaan, kehittää mittaustaitoja ja vahvistaa itsetuntoa ruoanlaitossa.',
+
+  culturalNotes: 'Suomessa ruoanlaitto on osa peruskoulun opetussuunnitelmaa kotitalouden kautta, ja perusruoanlaittotaidot ovat tasa-arvoisesti kaikkien opetettavia. POPS 2014 korostaa terveellisten elintapojen opettamista alkuopetuksesta lähtien. Suomalaiset ruokaperinteet kuten karjalanpiirakat, pulla ja mustikkapiirakka tarjoavat kulttuurisen kontekstin, joka yhdistää oppimisen perheiden ruokaperinteisiin ja vuodenaikojen raaka-aineisiin.',
+
+  snippetDefinition: 'Ruoanlaittoteemaiset työlehdet lapsille ovat tulostettavia oppimistehtäviä, jotka käyttävät ruokien, keittiövälineiden ja reseptien kuvituksia matematiikan, lukemisen ja ravitsemustiedon opettamiseen. Ne on suunniteltu 3–9-vuotiaille ja sisältävät ainesosien laskemista, mittaustehtäviä, sanahakuja ja reseptien lukemista.',
+
+  snippetHowTo: [
+    'Valitse työlehdet lapsen kehitystason mukaan: nuoremmille ruokien värittämistä ja yksinkertaista laskemista, vanhemmille reseptilaskelmia ja mittaustehtäviä.',
+    'Esittele päivän ruoka-aihe lyhyesti ennen tehtävän aloittamista — näytä oikea hedelmA tai vihannes, jos mahdollista.',
+    'Anna lapsen laskea ja mitata rauhallisesti ilman kiirettä, jotta ruokateema säilyy nautinnollisena oppimiskokemuksena.',
+    'Yhdistä työlehdet todelliseen ruoanlaittoon: tee yksinkertainen resepti työlehden jälkeen konkreettisen yhteyden luomiseksi.',
+    'Keskustele ruokaryhmistä ja terveellisistä valinnoista tehtävien välissä ravitsemustietoisuuden kasvattamiseksi.',
+    'Luo oma reseptikirja, johon lapsi kerää suosikkireseptinsä ja kuvittaa ne itse.',
+    'Toista suosikkitehtäviä eri ruoka-aiheilla ja lisää vaikeustasoa asteittain taitojen vahvistuessa.',
+  ],
+
+  limitations: 'Ruoanlaittoteemaiset työlehdet vaativat herkkyytä allergioiden ja ruokarajoitusten suhteen: jotkut lapset eivät voi käsitellä tiettyjA raaka-aineita. Todellisten ruoanlaittotehtävien yhdistäminen vaatii aikuisen valvontaa ja keittiöturvallisuuden huomioimista. Kulttuuriset ruokarajoitukset on kunnioitettava ja vaihtoehtoja tarjottava.',
+
+  themeComparisons: [
+    { vsThemeId: 'food', summary: 'Ruoanlaitto korostaa valmistusprosessia, reseptejä ja keittiötaitoja, kun ruokateema esittelee elintarvikkeita yleisemmin niiden tunnistamisen ja luokittelun kautta. Ruoanlaitto lisää proseduraalisen ulottuvuuden, jota pelkkä ruokateema ei tarjoa.' },
+    { vsThemeId: 'fruits', summary: 'Ruoanlaitto käyttää hedelmiä raaka-aineina resepteissä ja mittaustehtävissä, kun hedelmäteema keskittyy tunnistamiseen, nimeämiseen ja luokitteluun. Ruoanlaitto lisää valmistuksen ja mittaamisen näkökulman.' },
+    { vsThemeId: 'vegetables', summary: 'Ruoanlaitto integrooi vihannekset osaksi ateriakokonaisuuksia ja reseptejä, kun kasvisteema syventyy yksittäisten kasvisten tunnistamiseen ja kasvuun. Ruoanlaitto rikastuttaa ravitsemuskasvatusta käytännön valmistuksen kautta.' },
+    { vsThemeId: 'household', summary: 'Ruoanlaitto tapahtuu kotiymPäristössä keittiössä, kun kotiteema kattaa koko kodin tilat ja esineet laajemmin. Ruoanlaitto syventyy yhteen kodin toimintaan tarjoten rikkaamman kontekstin mittaamiselle ja reseptien lukemiselle.' },
+  ],
+
+  productLinks: [
+    { appId: 'coloring', anchorText: 'Ruokien ja keittiövälineiden värityssivut', context: 'Väritä kakkujen, hedelmien ja keittiövälineiden kuvituksia samalla kehittäen hienomotoriikkaa ja ruokasanastoa.' },
+    { appId: 'find-and-count', anchorText: 'Laske ainesosia reseptissä', context: 'Etsi ja laske ainesosia, keittiövälineitä ja ruokia harjoitellen lukumäärien tunnistamista ruoanlaittokontekstissa.' },
+    { appId: 'word-search', anchorText: 'Ruokasanaston sanahaku', context: 'Etsi ruokasanastoa kuten vatkain, uuni, taikina ja mauste kirjainruudukosta lukutaidon vahvistamiseksi.' },
+    { appId: 'picture-sort', anchorText: 'Lajittele ruoat ryhmiin', context: 'Ryhmittele ruokia kategorioihin kuten hedelmAt, vihannekset ja viljatuotteet luokittelutaitojen ja ravintotietouden kehittämiseksi.' },
+  ],
+
+  expertTips: [
+    { tip: 'Aloita ruoanlaittoteemaviikko yksinkertaisella no-bake-reseptillä, joka vaatii vain mittaamista ja sekoittamista. Ennen oikeaa ruoanlaittoa täytä ainesosien laskentatyölehti, jotta matematiikka saa välittömän käytännön yhteyden.', source: 'Varhaiskasvatuksen pedagoginen asiantuntija', gradeRange: 'Esiopetus–1. lk' },
+    { tip: 'Yhdistä ruoanlaittotyölehdet ravitsemuskasvatukseen: kun oppilaat lajittelevat ruokia ruokaryhmiin työlehdellä, koosta terveellinen lautasmalli oikeista ruokakuvista ja keskustele lautasmallin periaatteista.', source: 'Ravitsemuskasvatuksen asiantuntija', gradeRange: '1.–3. lk' },
+    { tip: 'Käytä reseptien lukemista proseduraalisen tekstin opettamiseen: kiinnitä huomiota järjestyssanoihin, mittamääriin ja ohjemuotoon. Tämä siirtyy suoraan ohjeiden kirjoittamiseen muissa oppiaineissa.', source: 'Erityispedagogiikan asiantuntija', gradeRange: 'Esiopetus–3. lk' },
+  ],
 };
 
 registerThemeContent('cooking', 'fi', content);

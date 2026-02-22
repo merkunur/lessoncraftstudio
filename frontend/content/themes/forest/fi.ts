@@ -208,6 +208,125 @@ const content: EnrichedThemeContent = {
   // -- Cross-linking --
   relatedThemes: ['animals', 'garden', 'nature', 'birds', 'insects', 'camping'],
   relatedBlogCategories: [],
+
+  // -- SEO Enrichment (Part 185) --
+
+  classroomScenarios: [
+    {
+      situation: 'Luokanopettaja haluaa toteuttaa ympäristökasvatuksen jakson, joka yhdistää luonnontieteet, matematiikan ja äidinkielen suomalaiseen metsäluontoon.',
+      solution: 'Hän käyttää metsäaiheisia työlehtiä sekä luokkahuoneessa että metsäretkillä: oppilaat laskevat puita ja eläimiä, värittävät metsämaisemia, tekevät sanahakuja metsäsanastolla kuten kuusi, koivu, käpy ja sammal. Metsäretkellä kerätään näytteitä, joita verrataan työlehtien kuviin.',
+      outcome: 'Oppilaat oppivat tunnistamaan suomalaisen metsän puulajit, eläimet ja kasvit, matemaattiset taidot vahvistuvat luontokontekstissa ja ympäristösuhde syvenee kokemuksellisen oppimisen kautta.',
+    },
+    {
+      situation: 'Kotikouluvanhempi haluaa yhdistää lapsen rakkauden metsässä liikkumiseen akateemiseen harjoitteluun, mutta lapsesta tuntuu, että työlehdet ovat luonnossa olemisen vastakohta.',
+      solution: 'Vanhempi käyttää metsätyölehtiä metsäretken valmisteluun ja jälkipuintiin: ennen retkea tunnistustehtävä puulajeista, retken aikana laskentatehtävä luontohavannoista ja retken jälkeen metsäpäiväkirjan kirjoittaminen.',
+      outcome: 'Lapsi kokee työlehdet luonteva na osana metsäseikkailua, luonnontuntemus syvenee systemaattisesti ja akateemiset taidot vahvistuvat ilman että ne tuntuvat irrallisilta metsäkokemuksesta.',
+    },
+  ],
+
+  quickStats: [
+    { label: 'Suositeltu ikähaarukka', value: '3–9 vuotta' },
+    { label: 'Työlehtisovellusten määrä', value: '12 sovellusta' },
+    { label: 'Opetussuunnitelman alueet', value: '5 aluetta' },
+    { label: 'Tuetut luokkatasot', value: 'Esiopetus–3. lk' },
+    { label: 'Keskimääräinen työskentelyaika', value: '10–25 min' },
+    { label: 'Metsän eliölajit', value: '30+ lajia' },
+  ],
+
+  differentiationStrategies: [
+    {
+      learnerType: 'Visuaaliset oppijat',
+      adaptation: 'Käytä yksityiskohtaisia metsämaisemakuvituksia, puulajien tunnistuskortteja ja metsäkerrosten poikkileikkauskuvia. Vuodenaikojen vertailukuvat samasta metsänäkymästä auttavat hahmottamaan luonnon kiertokulkua.',
+    },
+    {
+      learnerType: 'Kinesteettiset oppijat',
+      adaptation: 'Yhdistä työlehdet metsäretkiin: lapsi kerää lehtinAytteitä, tunnustelee puiden kaarnaa ja laskee käpyjA koriin ennen tai jälkeen paperitehtäviä. Moniaistisuus ankkuroi oppimisen konkreettisesti.',
+    },
+    {
+      learnerType: 'S2-oppijat',
+      adaptation: 'Suomalainen metsä saattaa olla uusi ympäristö maahanmuuttajalapselle. Aloita tutummista puista ja eläimistä, lisää suomenkielistä metsäsanastoa asteittain. Metsäretki tarjoaa konkreettisen kontekstin sanaston oppimiselle.',
+    },
+    {
+      learnerType: 'Edistyneet oppijat',
+      adaptation: 'Haasta tutkimusprojektilla: kartoita metsän ekosysteemi, laske puiden määriä lajeittiain, analysoi metsän kerroksia ja kirjoita luonnontieteellinen raportti havainnoista. Sisällytä metsän hiilinieluroolin ymmärtäminen.',
+    },
+  ],
+
+  assessmentIdeas: [
+    {
+      method: 'Metsäpäiväkirja',
+      criteria: 'Kerää oppilaan metsätyölehdet, luontohavainnot ja lehtinAytteet koko jakson ajalta. Arvioi metsäsanaston kehittymistä, lajintunnistuksen tarkkuutta ja kykyä kuvata metsän ekosysteemiA.',
+      gradeLevel: 'Kaikki luokka-asteet',
+    },
+    {
+      method: 'Metsän ekosysteemiraportti',
+      criteria: 'Pyydä oppilasta kirjoittaa raportti metsäretken havainnoista: mitä puulajeja löytyi, mitä eläinten jälkiä nähtiin ja miten metsän kerrokset eroavat toisistaan. Arvioi tiedon soveltamista ja kirjallista ilmaisua.',
+      gradeLevel: '2.–3. lk',
+    },
+    {
+      method: 'Puulajien tunnistustehtävä',
+      criteria: 'Anna oppilaalle lehtikuvia tai oikeita lehtinäytteitä ja pyydä yhdistämään ne oikeaan puulajiin. Arvioi lajintunnistuksen tarkkuutta, sanastoa ja tunnistamisen perusteluja.',
+      gradeLevel: 'Esiopetus–1. lk',
+    },
+  ],
+
+  crossCurricularLinks: [
+    {
+      subject: 'Ympäristöoppi (biologia ja ekologia)',
+      connection: 'Metsä on suomalaisen luonnontieteen opetuksen ytimessä. POPS 2014:n ympäristöopin tavoitteet lähiluonnon tutkimisesta, ekosysteemien ymmärtämisestä ja kestävästä kehityksestä toteutuvat suoraan metsäkontekstissa.',
+      activity: 'Puulajien tunnistamistehtävän jälkeen oppilaat lähtevät metsään keRäämään lehtinAytteitä ja vertaavat niitä työlehden kuviin tunnistustarkkuuden testaamiseksi.',
+    },
+    {
+      subject: 'Äidinkieli ja kirjallisuus',
+      connection: 'Metsäsanasto kuten kuusi, koivu, sammal, käpy ja sieni rakentaa rikasta luontosanastoa. Metsäpäiväkirjan kirjoittaminen kehittää kuvailevaa ilmaisua ja havainnointitaitoja.',
+      activity: 'Sanahaun jälkeen oppilaat kirjoittavat lyhyen metsäkuvauksen käyttäen vähintään viittä metsäsanaa ja kaikkia aistihavaintoja.',
+    },
+    {
+      subject: 'Matematiikka (laskeminen ja tilastot)',
+      connection: 'Metsän puut, eläimet ja kasvit tarjoavat runsaan laskemiskontekstin. Metsän inventointi — puiden laskeminen lajeittiain — on autenttinen tilastojen keruun harjoitus.',
+      activity: 'Puiden laskentatehtävän jälkeen oppilaat luovat pylväskaavion lähimetsän puulajijakaumasta metsäretken havaintojen perusteella.',
+    },
+  ],
+
+  uniqueAngle: 'Metsäaiheiset työlehdet tarjoavat suomalaisessa kontekstissa ainutlaatuisen pedagogisen merkityksen, jota mikään muu teema ei pysty vastaavasti tuottamaan: Suomi on Euroopan metsAisimpiä maita, ja metsä on suomalaisen identiteetin, kulttuurin ja hyvinvoinnin ytimessä. Jokamiehen oikeudet takaavat jokaiselle pääsyn metsään, mikä tekee metsästä konkreettisen ja päivittäisen oppimisymPäristön. Metsätyölehdet ovat ainoita, jotka voidaan lähes aina yhdistää todelliseen metsäkokemukseen — Suomessa metsä on lähellä liki jokaista koulua ja kotia. Tämä teoria-käytäntö-yhteys on pedagogisesti korvaamaton. POPS 2014 korostaa kestävää kehitystä, ympäristövastuullisuutta ja lähiluonnon tutkimista, ja metsäteema on näiden tavoitteiden luonnollinen toteuttaja. Metsän vuodenaikavaihtelut tarjoavat aina ajankohtaisen näkökulman: syksyn värit, talven lumikuormitukset, kevään herääminen ja kesän rehevyys.',
+
+  researchCitation: 'Kuo, M., Barnes, M. & Jordan, C. (2019). Do Experiences with Nature Promote Learning? Converging Evidence of a Cause-and-Effect Relationship. Frontiers in Psychology. Laaja meta-analyysi osoitti, että luonnossa oppiminen parantaa merkittävästi keskittymistä, motivaatiota, akateemista suoriutumista ja sosioemotionaalista hyvinvointia.',
+
+  culturalNotes: 'Suomi on Euroopan metsAisimpiä maita: noin 75 prosenttia pinta-alasta on metsää. Metsä on suomalaisen kulttuurin, identiteetin ja hyvinvoinnin ytimessä. Jokamiehen oikeudet mahdollistavat vapaan liikkumisen ja marjastamisen metSissä. POPS 2014 korostaa lähiluonnon tutkimista ja kestävää kehitystä, ja metsäteema toteuttaa nämä tavoitteet suomalaisessa kontekstissa täydellisesti.',
+
+  snippetDefinition: 'Metsäaiheiset työlehdet lapsille ovat tulostettavia oppimistehtäviä, jotka käyttävät puiden, metsäeläinten, sienten ja marjojen kuvituksia matematiikan, lukemisen ja luonnontieteen opettamiseen. Ne on suunniteltu 3–9-vuotiaille ja sisältävät puulajien tunnistamista, eläinten laskemista, sanahakuja ja metsän ekosysteemin tutkimista.',
+
+  snippetHowTo: [
+    'Valitse työlehdet lapsen kehitystason mukaan: nuoremmille metsäeläinten värittämistä ja yksinkertaista laskemista, vanhemmille ekosysteemiraportteja ja lajintunnistustehtäviä.',
+    'Yhdistä työlehdet metsäretkeen: täytä tunnistustehtävä metsässä oikeiden puiden ja kasvien äärellä.',
+    'Esittele päivän puulaji tai metsäeläin lyhyesti ennen tehtävän aloittamista — näytä oikea lehtinAyte tai kuva.',
+    'Anna lapsen tutkia ja piirtää rauhallisesti ilman kiirettä, jotta metsäteema säilyy rauhallisena luontokokemuksena.',
+    'Kerätkää yhdessä luontonAytteitä: käpyjä, lehtiä ja kiviA, ja verratakaa niitä työlehden kuviin.',
+    'Pidä metsäpäiväkirjaa, johon lapsi piirtää ja kirjoittaa havaintoja jokaiselta metsäretkeltä.',
+    'Toista tehtäviä eri vuodenaikoina ja verrataan miten metsä muuttuu vuoden kierrossa.',
+  ],
+
+  limitations: 'Metsäaiheiset työlehdet ovat tehokkaimmillaan metsäretken yhteydessä, mikä vaatii sopivat sääolosuhteet ja kuljetusjärjestelyt. Allergiset reaktiot siitepölyyn ja hyönteisiin on huomioitava ulkotehtävissä. Punkkialueilla on noudatettava suojautumisohjeita.',
+
+  themeComparisons: [
+    { vsThemeId: 'animals', summary: 'Metsä tarjoaa ekosysteemin kokonaiskuvan, johon eläimet kuuluvat osana, kun eläinteema käsittelee eläimiä irrallaan elinymPäristöstään. Metsäteema korostaa eläinten ja ympäristön vuorovaikutusta.' },
+    { vsThemeId: 'garden', summary: 'Metsä on villiA luontoa, kun puutarha on ihmisen muokkaama kasvuymPäristö. Metsäteema opettaa ekologiaa ja biodiversiteettiA, kun puutarha korostaa viljelyA ja vastuullisuutta.' },
+    { vsThemeId: 'nature', summary: 'Metsä on yksi luonnon ekosysteemeistä, kun luontoteema kattaa laajemmin kaikki ympäristöt vedestä vuoristoon. Metsäteema syventyy yhteen ekosysteemiin perusteellisesti, kun luontoteema tarjoaa laajemman katsauksen.' },
+    { vsThemeId: 'camping', summary: 'Metsä on retkeilyä ympäröivä ekosysteemi, kun retkeily keskittyy ulkoilutaitoihin ja seikkailuun. Metsäteema painottaa ekologista ymmärrystä, retkeily käytännön selviytymistaitoja.' },
+  ],
+
+  productLinks: [
+    { appId: 'coloring', anchorText: 'Metsäeläinten värityssivut', context: 'Väritä kettujen, oravien, siilien ja hirviEn yksityiskohtaisia kuvituksia samalla kehittäen hienomotoriikkaa ja lajintuntemusta.' },
+    { appId: 'find-and-count', anchorText: 'Laske metsän eliOitä', context: 'Etsi ja laske puita, eläimiä ja sieniä metsäkuvasta harjoitellen lukumäärien tunnistamista luontokontekstissa.' },
+    { appId: 'word-search', anchorText: 'Metsäsanaston sanahaku', context: 'Etsi metsäsanastoa kuten kuusi, koivu, kettu ja sammal kirjainruudukosta lukutaidon vahvistamiseksi.' },
+    { appId: 'shadow-match', anchorText: 'Metsäeläinten varjoyhdistely', context: 'Yhdistä metsäeläimet niiden varjoihin kehittäen visuaalista erottelua ja eläinten tunnistamista.' },
+  ],
+
+  expertTips: [
+    { tip: 'Aloita metsäteemaviikko lähimetsäretkellä: oppilaat keräävät viisi erilaista lehteä tai käpyä ja tuovat ne luokkaan, jossa ne yhdistetään työlehden puulajikuviin. Tämä konkreettinen yhteys tekee tunnistamisesta merkityksellistä.', source: 'Varhaiskasvatuksen pedagoginen asiantuntija', gradeRange: 'Esiopetus–1. lk' },
+    { tip: 'Yhdistä metsätyölehdet kestävän kehityksen opetukseen: keskustelkaa metsän roolista hiilinielanä, biodiversiteetin turvaajana ja virkistyksen lähteenä. Suomen metsätalouden ja suojelun tasapaino on ajankohtainen ja kiinnostava aihe.', source: 'Luonnontieteen aineenopettaja', gradeRange: '2.–3. lk' },
+    { tip: 'Maahanmuuttajataustaisille oppilaille metsäretki voi olla ensimmäinen kokemus suomalaisesta metsästä. Anna aikaa ihmettelylle ja turvallisuuden kokemiselle ennen akateemisia tehtäviä. Metsätyölehdet toimivat siltana tuntemattoman ympäristön ja oppimisen välillä.', source: 'Erityispedagogiikan asiantuntija', gradeRange: 'Esiopetus–3. lk' },
+  ],
 };
 
 registerThemeContent('forest', 'fi', content);

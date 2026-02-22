@@ -207,6 +207,125 @@ const content: EnrichedThemeContent = {
   // -- Cross-linking --
   relatedThemes: ['transportation', 'camping', 'food', 'holidays', 'school'],
   relatedBlogCategories: [],
+
+  // -- SEO Enrichment (Part 185) --
+
+  classroomScenarios: [
+    {
+      situation: 'Luokanopettaja haluaa laajentaa oppilaiden maantieteellistä ymmärrystä ja kulttuuritietoisuutta ilman oikeaa luokkaretkibudjettia.',
+      solution: 'Hän käyttää matkailuaiheisia työlehtiä kuvitteellisen maailmanmatkan runkona: oppilaat laskevat matkalaukkujen esineitä, värittävät maamerkke jä eri maista, tekevät sanahakuja matkailusanastolla ja ratkaisevat reitinetsintäpulmia karttapohjilla. Jokainen päivä kohdistuu eri maanosaan.',
+      outcome: 'Oppilaat oppivat maanosien ja maiden nimet, kehittävät kulttuurista lukutaitoa ja harjoittelevat matemaattisia taitoja motivoivassa matkailukontekstissa ilman oikeaa matkustamista.',
+    },
+    {
+      situation: 'Kotikouluvanhempi haluaa valmistella lasta perheen tulevaan ulkomaanmatkaan opettamalla kohdemaasta samalla kun harjoitellaan akateemisia taitoja.',
+      solution: 'Vanhempi valitsee kohdemaahan liittyviä matkailutyölehtiä: lapsi värittää maamerkkejä, laskee matkatavaroita, harjoittelee perusfraaseleja kohdekielellä ja tutkii karttaa reittisuunnittelun avulla.',
+      outcome: 'Lapsi saapuu matkalle innostuneena ja valmistautuneena, tunnistaa maamerkke jä ja osaa käyttää karttaa, samalla kun matemaattiset ja lukutaidot ovat vahvistuneet matkan suunnittelun kontekstissa.',
+    },
+  ],
+
+  quickStats: [
+    { label: 'Suositeltu ikähaarukka', value: '3–9 vuotta' },
+    { label: 'Työlehtisovellusten määrä', value: '10 sovellusta' },
+    { label: 'Opetussuunnitelman alueet', value: '4 aluetta' },
+    { label: 'Tuetut luokkatasot', value: 'Esiopetus–3. lk' },
+    { label: 'Keskimääräinen työskentelyaika', value: '10–25 min' },
+    { label: 'Matkailuaiheet', value: '20+ kohdetta' },
+  ],
+
+  differentiationStrategies: [
+    {
+      learnerType: 'Visuaaliset oppijat',
+      adaptation: 'Käytä värikkäitä maamerkkikuvituksia, maailmankarttoja ja lippukuvakortteja. Matkakohteiden värikoodaus maanosittain auttaa hahmottamaan maantieteellisiä kokonaisuuksia ja muistamaan maiden sijainnit.',
+    },
+    {
+      learnerType: 'Kinesteettiset oppijat',
+      adaptation: 'Yhdistä työlehdet matkalaukun pakkaamisleikkiin: lapsi pakkaa oikeat esineet oikeaan maahan, järjestää matkakortit reitin mukaiseen järjestykseen ja rakentaa pienoismaamerkkejä askartelumateriaalista.',
+    },
+    {
+      learnerType: 'S2-oppijat',
+      adaptation: 'Matkailu on erityisen arvokas teema monikulttuurisessa luokassa, koska jokainen oppilas voi tuoda oman kotimaan kulttuuriperintöä esille. Aloita tuttujen maiden tunnistamisella kartalta ja lippukuvista, lisää suomenkielistä matkailusanastoa asteittain.',
+    },
+    {
+      learnerType: 'Edistyneet oppijat',
+      adaptation: 'Haasta suunnittelemaan kokonainen matka: laske lentokentAlthän etäisyyksiä, budjetoi matkakulut eri valuutoissa, kirjoita matkasuunnitelma aikatauluineen ja tutkI kohdemaan maantiedettä ja kulttuuria.',
+    },
+  ],
+
+  assessmentIdeas: [
+    {
+      method: 'Matkapäiväkirja',
+      criteria: 'Kerää oppilaan matkailutyölehdet, karttatehtävät ja maamerkkikuvitukset koko jakson ajalta. Arvioi maantieteellisen tiedon kehittymistä, matkailusanaston laajentumista ja kykyä kuvata eri kulttuureja.',
+      gradeLevel: 'Kaikki luokka-asteet',
+    },
+    {
+      method: 'Matkasuunnitelmaprojekti',
+      criteria: 'Pyydä oppilasta suunnitella kuvitteellinen matka: valitse kohde, tutki maamerkit, laske matkabudjetti ja kirjoita matkasuunnitelma aikatauluineen. Arvioi tiedonhaun, matemaattisten taitojen ja kirjallisen ilmaisun yhdistämistä.',
+      gradeLevel: '2.–3. lk',
+    },
+    {
+      method: 'Maanosien tunnistustehtävä',
+      criteria: 'Anna oppilaalle maailmankartta ja maamerkkikortit. Pyydä sijoittamaan maamerkit oikeille maanosille. Arvioi maantieteellisen tiedon tarkkuutta ja perustelukykyä.',
+      gradeLevel: 'Esiopetus–1. lk',
+    },
+  ],
+
+  crossCurricularLinks: [
+    {
+      subject: 'Ympäristöoppi (maantiede ja kulttuurit)',
+      connection: 'Matkailuteema avaa ikkunan maailman maanosiin, maihin, ilmastoihin ja kulttuureihin. POPS 2014:n ympäristöopin maantieteen tavoitteet toteutuvat suoraan matkailukontekstissa.',
+      activity: 'Maamerkkien tunnistamistehtävän jälkeen oppilaat sijoittavat maamerkkikortit maailmankartalle maanosittain ja merkitsevät jokaisen maan pAAkaupungin.',
+    },
+    {
+      subject: 'Äidinkieli ja kirjallisuus',
+      connection: 'Matkailusanasto kuten passi, lentokenttä, maamerkki ja kulttuuri laajentaa kansainvälistä sanavarastoa. Matkakertomusten ja -päiväkirjojen kirjoittaminen kehittää kuvailevaa kirjallista ilmaisua.',
+      activity: 'Sanahaun jälkeen oppilaat kirjoittavat lyhyen matkakertomuksen kuvitteellisesta vierailusta valitsemaansa maahan käyttäen vähintään viittä matkailusanaa.',
+    },
+    {
+      subject: 'Matematiikka (laskeminen ja mittaaminen)',
+      connection: 'Matkailu tarjoaa luonnollisen kontekstin etäisyyksien laskemiselle, valuuttalaskelmille ja matkabudjettien suunnittelulle. Kartan mittakaavan ymmärtäminen yhdistää matematiikan ja maantieteen.',
+      activity: 'Matkatavaroiden laskentatehtävän jälkeen oppilaat laskevat yksinkertaisen matkabudjetin lisäämällä lento-, hotelli- ja ruokakustannukset.',
+    },
+  ],
+
+  uniqueAngle: 'Matkailuteemaiset työlehdet tarjoavat ainutlaatuisen pedagogisen ikkunan, jota harva muu teema pystyy avaamaan: ne yhdistävät maantieteellisen ajattelun, kulttuuritietoisuuden ja käytännön matemaattiset taidot yhdeksi kokonaisvaltaiseksi oppimiskokemukseksi. Jokainen työlehti vie lapsen kuvitteelliselle matkalle, jossa hän kohtaa eri maiden maamerkkejä, lippuja, karttoja ja kulttuuriperinteitä samalla harjoitellen laskemista, lukemista ja ongelmanratkaisua. Suomessa kansainvälisyyskasvatus on POPS 2014:n laaja-alaisen osaamisen keskeinen tavoite, ja matkailuteema toteuttaa tämän yhteyden konkreettisesti. Suomalainen näkökulma matkailuun on erityisen kiinnostava: Suomi sijaitsee Euroopan pohjoisreunalla, ja matkailu avaa ikkunan eteläisempiin maihin, lämpimämpiin ilmastoihin ja erilaisiin kulttuureihin. Monikulttuurisen luokan oppilaille matkailuteema tarjoaa arvokkaAn mahdollisuuden jakaa oman taustansa kulttuuria, mikä vahvistaa osallisuutta ja identiteettiA.',
+
+  researchCitation: 'Shin, E. K. (2006). Using Geographic Information System (GIS) to Improve Fourth Graders’ Geographic Content Knowledge and Map Skills. Journal of Geography. Tutkimus osoitti, että karttapohjaiseen oppimiseen ankkuroidut tehtävät parantavat merkittävästi oppilaiden maantieteellistä sisältötietoa, kartanlukutaitoja ja tilallista ajattelua.',
+
+  culturalNotes: 'Suomessa kansainvälisyyskasvatus on opetussuunnitelman laaja-alainen tavoite, ja matkailuteema tarjoaa luonnollisen portin maailman kulttuureihin, kieliin ja maantieteeseen. POPS 2014 painottaa kulttuurista osaamista ja vuorovaikutusta sekä monikulttuurisuuden arvostamista. Suomen sijainti Euroopan pohjoisreunalla tekee matkailusta erityisen kiehtovan aiheen: lapset oppivat vertaamaan omaa ilmastoaan, luontoaan ja kulttuuriaan muiden maiden vastaaviin.',
+
+  snippetDefinition: 'Matkailuaiheiset työlehdet lapsille ovat tulostettavia oppimistehtäviä, jotka käyttävät maamerkkien, karttojen, lippujen ja matkatavaroiden kuvituksia maantieteen, matematiikan ja lukemisen opettamiseen. Ne on suunniteltu 3–9-vuotiaille ja sisältävät karttatehtäviä, matkabudjettilaskelmia, sanahakuja ja maamerkkien tunnistamista.',
+
+  snippetHowTo: [
+    'Valitse työlehdet lapsen kehitystason mukaan: nuoremmille maamerkkien värittämistä ja yksinkertaista laskemista, vanhemmille karttatehtäviä ja matkasuunnitelmia.',
+    'Esittele päivän kohdemaa lyhyesti ennen tehtävän aloittamista — näytä kartalta sijainti ja kerro yksi kiinnostava tosiasia.',
+    'Anna lapsen tutkia ja värittää rauhallisesti ilman kiirettä, jotta matkailuteema säilyy seikkailullisena oppimiskokemuksena.',
+    'Yhdistä työlehdet virtuaalisiin maamerkkikierroksiin tai valokuvaesityksiin monitasoisen kokemuksen luomiseksi.',
+    'Keskustele eri maiden kulttuureista, kielistA ja tavoista tehtävien välissä kulttuuritietoisuuden kasvattamiseksi.',
+    'Luo seinälle maailmankartta, johon lapsi lisää uuden maan jokaiselta työlehtikerralta matkan edistymisen seuraamiseksi.',
+    'Toista suosikkitehtäviä uusilla kohdemailla ja lisää maantieteellistä haastetta asteittain.',
+  ],
+
+  limitations: 'Matkailuteemaiset työlehdet saattavat korostaa taloudellisesti etuoikeutettua näkökulmaa, koska kaikki perheet eivät voi matkustaa ulkomaille. Kasvattajien tulee varmistaa, että matkailua käsitellään laajasti sisältäen myös lähimatkailua ja virtuaalisia matkoja. Kulttuurien esittämistä stereotypioiden kautta on vältettävä.',
+
+  themeComparisons: [
+    { vsThemeId: 'transportation', summary: 'Matkailu keskittyy kohteisiin, kulttuureihin ja maantieteeseen, kun liikenneteema korostaa kulkuneuvoja ja niiden toimintaa. Matkailu vastaa kysymykseen minne mennään ja miksi, kun liikenne vastaa miten liikutaan.' },
+    { vsThemeId: 'camping', summary: 'Matkailu kattaa kansainväliset kohteet, maanostien kulttuurit ja kaupunkimaamerkit, kun retkeily keskittyy luontoon ja eRämaahan. Matkailu on maantieteellisesti laajempi, retkeily ekologisesti syvempi.' },
+    { vsThemeId: 'food', summary: 'Matkailu esittelee eri maiden ruokakulttuureita osana kulttuurituntemusta, kun ruokateema keskittyy elintarvikkeiden tunnistamiseen ja luokitteluun. Matkailu lisää kansainvälisen ulottuvuuden ruokakeskusteluun.' },
+    { vsThemeId: 'holidays', summary: 'Matkailu ja juhlapäivät leikkaavat luonnollisesti: monet matkat liittyvät lomiin ja juhliin. Matkailu korostaa maantieteellistä liikkumista, kun juhlateema keskittyy perinteisiin ja seremonioihin paikasta riippumatta.' },
+  ],
+
+  productLinks: [
+    { appId: 'coloring', anchorText: 'Maamerkkien värityssivut', context: 'Väritä Eiffel-tornin, vapaudenpatsaan ja muiden maamerkkien kuvituksia samalla kehittäen hienomotoriikkaa ja kulttuuritietoisuutta.' },
+    { appId: 'find-objects', anchorText: 'Etsi matkatavarat kuvasta', context: 'Etsi piilotettuja matkatavaroita, passeja ja karttoja kuvista harjoitellen visuaalista tarkkaavaisuutta matkailukontekstissa.' },
+    { appId: 'word-search', anchorText: 'Matkailusanaston sanahaku', context: 'Etsi matkailusanastoa kuten lentokenttA, passi, maamerkki ja hotelli kirjainruudukosta lukutaidon vahvistamiseksi.' },
+    { appId: 'treasure-hunt', anchorText: 'Matkailun aarteenmetsastys', context: 'Ratkaise vihjeitä ja etsi aarteita kartalta yhdistäen ongelmanratkaisun maantieteelliseen ajatteluun.' },
+  ],
+
+  expertTips: [
+    { tip: 'Aloita matkailuteemaviikko ripustamalla seinälle suuri maailmankartta. Jokaisen työlehtipäivän jälkeen oppilaat lisäävät uuden maakohtaisen tarran kartalle, jolloin matka visualisoituu edistyvänä projektina.', source: 'Varhaiskasvatuksen pedagoginen asiantuntija', gradeRange: 'Esiopetus–1. lk' },
+    { tip: 'Yhdistä matkailutyölehdet virtuaalisiin maamerkkikierroksiin: Google Earth -kuvien tutkiminen kohdemaan maamerkeistä ennen tai jälkeen työlehtiä syventää maantieteellistä ymmärrystä ja tekee oppimisesta monitasoista.', source: 'Maantieteen aineenopettaja', gradeRange: '2.–3. lk' },
+    { tip: 'Monikulttuurisessa luokassa anna oppilaiden esitellä oma kotimaansa tai vanhempien kotimaa matkailukohteena. Tämä vahvistaa osallisuutta, identiteettiA ja arvostusta eri kulttuureja kohtaan.', source: 'Erityispedagogiikan asiantuntija', gradeRange: 'Esiopetus–3. lk' },
+  ],
 };
 
 registerThemeContent('travel', 'fi', content);

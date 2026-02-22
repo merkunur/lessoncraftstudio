@@ -208,6 +208,125 @@ const content: EnrichedThemeContent = {
   // -- Cross-linking --
   relatedThemes: ['flowers', 'garden', 'insects', 'nature', 'weather', 'easter'],
   relatedBlogCategories: [],
+
+  // -- SEO Enrichment (Part 185) --
+
+  classroomScenarios: [
+    {
+      situation: 'Luokanopettaja haluaa hyödyntää kevään heräämistä oppimisessa, mutta kylmät päivät rajoittavat viela ulko-opetusta huhtikuun alussa.',
+      solution: 'Hän käyttää kevätaiheisia työlehtiä tuomaan kevään luokkaan: oppilaat laskevat kevätkukkia ja perhosIA, värittävät kevätmaisemia, tekevät sanahakuja kevätsanastolla kuten leskenlehti, sinivuokko ja muuttolIntu. Ikkunalaudan sipulien kasvun seuranta lisää konkreettisuutta.',
+      outcome: 'Oppilaat kokevat kevään innostuksen luokassa, luonnon heräämisen seuraaminen kehittää havainnointitaitoja ja matemaattiset sekä kielelliset taidot vahvistuvat kevään motivoimina.',
+    },
+    {
+      situation: 'Kotikouluvanhempi haluaa hyödyntää kevään vaihtelua oppimisessa, mutta lapsi haluaa vain olla ulkona eikä istua työlehtien ääressä.',
+      solution: 'Vanhempi yhdistää kevättyölehdet ulkohavainnointiin: lapsi etsii kevään merkkejä pihalla ja täyttää havainnointitehtävän ulkona, laskee leskenlehdet ja perhosET poluNvarrella ja pitää kevätpäiväkirjaa.',
+      outcome: 'Lapsi kokee työlehdet luonnollisena osana kevään tutkimista, havainnointitaidot ja luonnontuntemus kehittyvät systemaattisesti ja kevään odotus lisää motivaatiota oppimiseen.',
+    },
+  ],
+
+  quickStats: [
+    { label: 'Suositeltu ikähaarukka', value: '3–9 vuotta' },
+    { label: 'Työlehtisovellusten määrä', value: '11 sovellusta' },
+    { label: 'Opetussuunnitelman alueet', value: '5 aluetta' },
+    { label: 'Tuetut luokkatasot', value: 'Esiopetus–3. lk' },
+    { label: 'Keskimääräinen työskentelyaika', value: '10–25 min' },
+    { label: 'Kevään merkkien lajit', value: '20+ merkkiA' },
+  ],
+
+  differentiationStrategies: [
+    {
+      learnerType: 'Visuaaliset oppijat',
+      adaptation: 'Käytä värikkäitä kevätkukkakuvituksia, muuttolintutauluja ja kevään merkkien kuvasarjoja. Talvi- ja kevätmaisemien vertailukuvat auttavat hahmottamaan vuodenaikavaihtelun visuaalisesti.',
+    },
+    {
+      learnerType: 'Kinesteettiset oppijat',
+      adaptation: 'Yhdistä työlehdet ulkohavainnointiin: lapsi etsii kevään merkkejä pihalta, kerää kevätkukkia ja koskettaa sulavan lumen alaista multaa. Kevätsipulien istuttaminen ikkunalaudalle lisää kokemuksellisuutta.',
+    },
+    {
+      learnerType: 'S2-oppijat',
+      adaptation: 'Kevään herääminen on universaali ilmiö, mutta Suomen dramaattinen kevään muutos on ainutlaatuinen kokemus. Aloita konkreettisilla kevään merkeillä kuten lumen sulaminen ja ensimmäiset kukat, lisää suomenkielistä kevätsanastoa asteittain.',
+    },
+    {
+      learnerType: 'Edistyneet oppijat',
+      adaptation: 'Haasta tutkimusprojektilla: mittaa päivän pituuden muutosta viikoittain, dokumentoi kevään eteneminen valokuvin, analysoi lämpötilatilastoja ja kirjoita kevätkatsaus yhdistäen havainnonti ja tieteellinen raportointi.',
+    },
+  ],
+
+  assessmentIdeas: [
+    {
+      method: 'Kevätpäiväkirja',
+      criteria: 'Kerää oppilaan kevättyölehdet, luontohavainnot ja piirrokset koko jakson ajalta. Arvioi kevätsanaston kehittymistä, havainnointitarkkuuden parantumista ja kykyä kuvata luonnon muutoksia omin sanoin.',
+      gradeLevel: 'Kaikki luokka-asteet',
+    },
+    {
+      method: 'Kevään merkkien tutkimusraportti',
+      criteria: 'Pyydä oppilasta kirjoittaa raportti kevään merkeistä omassa lAhiymPäristössä: mitkA kukat ovat ens immäisiä, milloin muuttolinnut palaavat ja miten päivän pituus muuttuu. Arvioi havainnointitaitoja ja tiedon jäsentelyA.',
+      gradeLevel: '2.–3. lk',
+    },
+    {
+      method: 'Kevätkukkien tunnistustehtävä',
+      criteria: 'Anna oppilaalle kuvakortteja kevätkukista. Pyydä tunnistamaan ja nimeämään kukat sekä järjestämään ne kukkimisjärjestykseen. Arvioi lajintunnistusta ja vuodenaikay ymmärrystä.',
+      gradeLevel: 'Esiopetus–1. lk',
+    },
+  ],
+
+  crossCurricularLinks: [
+    {
+      subject: 'Ympäristöoppi (biologia ja vuodenajat)',
+      connection: 'Kevät on luonnon heräämisen vuodenaika, joka tarjoaa konkreettisen kontekstin kasvien elinkaaren, muuttolintujen ja vuodenaikavaihtelun opiskeluun. POPS 2014:n ympäristöopin tavoitteet toteutuvat suoraan.',
+      activity: 'Kevätkukkien tunnistamistehtävän jälkeen oppilaat lähtevät etsimään kevään merkkejä koulun pihalta ja merkitsevät havainnot kevätkarttaan.',
+    },
+    {
+      subject: 'Äidinkieli ja kirjallisuus',
+      connection: 'Kevätsanasto kuten leskenlehti, sinivuokko, muuttolintu ja sulamisvesi rakentaa kausittaista luontosanastoa. Kevätrunojen lukeminen ja kirjoittaminen yhdistää luonnontieteen ja kirjallisuuden.',
+      activity: 'Sanahaun jälkeen oppilaat kirjoittavat kevätruncn tai lyhyen kevätkuvauksen käyttäen vähintään viittä kevätsanaa ja aistihavaintoja.',
+    },
+    {
+      subject: 'Matematiikka (mittaaminen ja tilastot)',
+      connection: 'Kevään muutokset tarjoavat luonnollisen kontekstin mittaamiselle ja tiedon keräämiselle: päivän pituuden mittaaminen, lämpötilan seuraaminen ja kevään merkkien tilastointi.',
+      activity: 'Kevätkukkien laskentatehtävän jälkeen oppilaat mittaavat päivän pituutta viikon ajan ja piirtävät viivakaavion muutoksesta.',
+    },
+  ],
+
+  uniqueAngle: 'Kevätaiheiset työlehdet tarjoavat pedagogisen hetken, jota ei voi siirtää toiseen ajankohtaan: kevään herääminen on Suomessa niin dramaattinen ja emotionaalinen tapahtuma, että sen hyödyntäminen oppimisessa tuottaa poikkeuksellista motivaatiota. Pitkien, pimeiden talvikuukausien jälkeen ensimmäisten leskenlehtien ilmestyminen, muuttolintujen paluu ja lumen sulaminen herättävät lapsissa voimakkaan tunnereaktion, joka kanavoituu oppimisenergiaksi. Kevättyölehdet ovat ainutlaatuisia siksi, että ne yhdistävät vuodenaikavaihtelun, luonnon heräämisen ja lapsen tunnekokemuksen yhdeksi oppimiskehykseksi. POPS 2014 korostaa vuodenaikojen tutkimista ja lähiluonnon havainnointia, ja kevät on näiden tavoitteiden intensiivisin toteutusajankohta. Suomen maantieteellinen sijainti tekee keväästä erityisen opettavaisen: päivän pituuden nopea kasvu, lumen sulamisen fysiikka ja ekosysteemien herääminen ovat kaikki havainnoitavissa muutaman viikon aikana.',
+
+  researchCitation: 'Sobel, D. (2008). Childhood and Nature: Design Principles for Educators. Stenhouse Publishers. Tutkimus osoitti, että vuodenaikojen havainnointiin perustuva oppiminen vahvistaa lasten ympäristösuhdetta, kehittää havainnointitaitoja ja parantaa luonnontieteellistä ymmärrystä merkittävästi.',
+
+  culturalNotes: 'Suomessa kevät on erityisen merkityksellinen vuodenaika: pitkien, pimeiden talvikuukausien jälkeen valon paluu ja luonnon herääminen ovat koko yhteiskunnan juhlimia tapahtumia. Vappu toukokuun alussa on kevään suuri juhla. POPS 2014 korostaa vuodenaikojen tutkimista osana ympäristöoppia, ja kevät tarjoaa intensiivisimmän havainnontijakson: päivän pituus kasvaa nopeasti, lumi sulaa, muuttolinnut palaavat ja ensimmäiset kevätkukat puhkeavat.',
+
+  snippetDefinition: 'Kevätaiheiset työlehdet lapsille ovat tulostettavia oppimistehtäviä, jotka käyttävät kevätkukkien, muuttolintujen, perhosten ja luonnon heräämisen kuvituksia matematiikan, lukemisen ja luonnontieteen opettamiseen. Ne on suunniteltu 3–9-vuotiaille ja sisältävät kevään merkkien havainnointia, kukkien laskemista, sanahakuja ja kevätpäiväkirjan pitämistä.',
+
+  snippetHowTo: [
+    'Valitse työlehdet lapsen kehitystason mukaan: nuoremmille perhosten värittämistä ja kukkien laskemista, vanhemmille kevään merkkien tutkimusraportteja ja mittaustehtäviä.',
+    'Yhdistä työlehdet ulkohavainnointiin: etsi kevään merkkejä koulun pihalta tai lAhimetsästä ennen tai jälkeen paperitehtäviä.',
+    'Esittele päivän kevätkukka tai muuttolintu lyhyesti ennen tehtävän aloittamista — näytä oikea kukka tai kuva.',
+    'Anna lapsen havainnoida ja piirtää rauhallisesti ilman kiirettä, jotta kevätteema säilyy rauhallisena luontokokemuksena.',
+    'Mittaa päivän pituutta viikoittain ja kirjaa muutokset kevätpäiväkirjaan luonnontieteen ja matematiikan yhdistämiseksi.',
+    'Istuta kevätsipuleita ikkunalaudalle ja seuraa kasvua mittauksin kevättyölehtien rinnalla.',
+    'Toista tehtäviä kevään edetessä ja verrataan miten luonto muuttuu viikosta toiseen.',
+  ],
+
+  limitations: 'Kevätaiheiset työlehdet ovat ajankohtaisia lähinnä maalis–toukokuussa, mikä rajoittaa niiden käyttöä muina vuodenaikoina. Suomen eri osissa kevät etenee eri tahtiin: etelässä jo maaliskuussa, Lapissa vasta toukokuussa. Siitepölyallergiat on huomioitava ulkotehtävissä.',
+
+  themeComparisons: [
+    { vsThemeId: 'flowers', summary: 'Kevät sisältää kukat osana laajempaa vuodenaikavaihtelua, kun kukkateema keskittyy kasvilajeihin ympäri vuoden. Kevät tarjoaa ajallisen kontekstin kukkien puhkeamiselle ja korostaa luonnon heräämistä.' },
+    { vsThemeId: 'garden', summary: 'Kevät on puutarhatyön aloitusaika, mutta kevätteema kattaa laajemmin luonnon heräämisen, muuttolinnut ja sään muutoksen. Puutarha keskittyy viljelyyn ja kasvien hoitamiseen vuodenajasta riippumatta.' },
+    { vsThemeId: 'insects', summary: 'Kevät on hyönteisten heräämisen aikaa, mutta kevätteema kattaa koko ekosysteemin muutoksen. Hyönteisteema syventyy yksittäisten lajien elinkaariin ja ominaisuuksiin ympäri vuoden.' },
+    { vsThemeId: 'nature', summary: 'Kevät on luonnon intensiivisin muutosjakso, kun luontoteema käsittelee ekosysteemejA kokonaisvaltaisemmin vuodenajasta riippumatta. Kevätteema tarjoaa ajallisesti rajatun mutta syvän havainnontijakson.' },
+  ],
+
+  productLinks: [
+    { appId: 'coloring', anchorText: 'Kevätkukkien värityssivut', context: 'Väritä sinivuokkoja, leskenlehtIä ja perhosia samalla kehittäen hienomotoriikkaa ja kevätkukkien tunnistamista.' },
+    { appId: 'find-and-count', anchorText: 'Laske kevään merkkejä', context: 'Etsi ja laske perhosia, kukkia ja muuttolintuiA kevätkuvasta harjoitellen lukumäärien tunnistamista.' },
+    { appId: 'word-search', anchorText: 'Kevätsanaston sanahaku', context: 'Etsi kevätsanastoa kuten sinivuokko, leskenlehti, perhonen ja muuttolintu kirjainruudukosta lukutaidon vahvistamiseksi.' },
+    { appId: 'find-objects', anchorText: 'Etsi kevään piiloesineet', context: 'Etsi piilotettuja kevään merkkejä — kukkia, perhosia ja lintuja — kevätmaisemasta visuaalisen tarkkaavaisuuden harjoittamiseksi.' },
+  ],
+
+  expertTips: [
+    { tip: 'Aloita kevätteemaviikko kevään merkkien etsintäretkellä: oppilaat saavat tarkistuslistankevään merkeistä ja etsivät niitä koulun pihalta. Havainnot yhdistetään kevättyölehtiin luokassa.', source: 'Varhaiskasvatuksen pedagoginen asiantuntija', gradeRange: 'Esiopetus–1. lk' },
+    { tip: 'Yhdistä kevättyölehdet pitkittAistutkimukseen: mittaa päivän pituutta, lämpötilaa ja kukkien määrää viikoittain koko kevään ajan. Tulokset kootaan yhteiseksi kevätkaavioksi, joka yhdistää matematiikan ja luonnontieteen.', source: 'Luonnontieteen aineenopettaja', gradeRange: '2.–3. lk' },
+    { tip: 'Kevät on ihanteellinen aika maahanmuuttajalasten luontosuhteen rakentamiseen: Suomen dramaattinen kevään muutos on ainutlaatuinen kokemus, ja kevättyölehdet tarjoavat sanaston ja rakenteen havaintojen jäsentämiseen.', source: 'Erityispedagogiikan asiantuntija', gradeRange: 'Esiopetus–3. lk' },
+  ],
 };
 
 registerThemeContent('spring', 'fi', content);

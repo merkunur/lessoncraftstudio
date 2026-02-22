@@ -3,7 +3,7 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 import FAQAccordion from '@/components/FAQAccordion';
 import PricingCards from '@/components/PricingCards';
-import { getHreflangCode, ogLocaleMap } from '@/lib/schema-generator';
+import { getHreflangCode, ogLocaleMap, generateFAQSchema } from '@/lib/schema-generator';
 import { SUPPORTED_LOCALES } from '@/config/locales';
 import { PricingPageTracker } from '@/components/tracking';
 
@@ -18,47 +18,57 @@ const pricingMetadata: Record<string, { title: string; description: string; keyw
   en: {
     title: 'Pricing Plans: Free, Core & Full Access | LessonCraftStudio',
     description: 'Choose your plan: Free Word Search generator, $15/mo Core Bundle with 10 generators, or $25/mo Full Access to all 33 worksheet generators. Cancel anytime.',
-    keywords: 'worksheet generator pricing, free worksheet maker, teacher subscription plans, educational tool pricing, LessonCraftStudio plans, printable worksheet subscription'
+    keywords: 'worksheet generator pricing, worksheet generator cost, teacher worksheet subscription, free worksheet maker, educational tool pricing comparison, LessonCraftStudio plans, printable worksheet subscription, worksheet app pricing for teachers'
   },
   de: {
     title: 'Preise: Kostenlos, 15$/Monat Basis & 25$/Monat Voller Zugang | LessonCraftStudio',
-    description: 'W\u00e4hlen Sie Ihren Plan: Kostenloser Wortsuchr\u00e4tsel-Generator, 15$/Monat Basis-Paket mit 10 Generatoren oder 25$/Monat Voller Zugang zu allen 33 Generatoren. Jederzeit k\u00fcndbar.'
+    description: 'W\u00e4hlen Sie Ihren Plan: Kostenloser Wortsuchr\u00e4tsel-Generator, 15$/Monat Basis-Paket mit 10 Generatoren oder 25$/Monat Voller Zugang zu allen 33 Generatoren. Jederzeit k\u00fcndbar.',
+    keywords: 'Arbeitsblatt Generator Preise, Arbeitsblatt Abo Lehrer, kostenloser Arbeitsblatt Ersteller, LessonCraftStudio Preise, Unterrichtsmaterial Abonnement'
   },
   fr: {
     title: 'Tarifs : Gratuit, 15$/mois Essentiel & 25$/mois Acc\u00e8s Complet | LessonCraftStudio',
-    description: 'Choisissez votre plan : G\u00e9n\u00e9rateur de mots cach\u00e9s gratuit, 15$/mois Essentiel avec 10 g\u00e9n\u00e9rateurs ou 25$/mois Acc\u00e8s Complet aux 33 g\u00e9n\u00e9rateurs. Annulez \u00e0 tout moment.'
+    description: 'Choisissez votre plan : G\u00e9n\u00e9rateur de mots cach\u00e9s gratuit, 15$/mois Essentiel avec 10 g\u00e9n\u00e9rateurs ou 25$/mois Acc\u00e8s Complet aux 33 g\u00e9n\u00e9rateurs. Annulez \u00e0 tout moment.',
+    keywords: 'tarifs g\u00e9n\u00e9rateur de fiches, abonnement fiches p\u00e9dagogiques, cr\u00e9ateur de fiches gratuit, LessonCraftStudio tarifs, outil p\u00e9dagogique prix'
   },
   es: {
     title: 'Precios: Gratis, $15/mes Esencial & $25/mes Acceso Completo | LessonCraftStudio',
-    description: 'Elija su plan: Generador de sopa de letras gratis, $15/mes Esencial con 10 generadores o $25/mes Acceso Completo a los 33 generadores. Cancele en cualquier momento.'
+    description: 'Elija su plan: Generador de sopa de letras gratis, $15/mes Esencial con 10 generadores o $25/mes Acceso Completo a los 33 generadores. Cancele en cualquier momento.',
+    keywords: 'precios generador de fichas, suscripci\u00f3n fichas educativas, creador de fichas gratis, LessonCraftStudio precios, herramienta educativa precio'
   },
   pt: {
     title: 'Pre\u00e7os: Gr\u00e1tis, $15/m\u00eas Essencial & $25/m\u00eas Acesso Completo | LessonCraftStudio',
-    description: 'Escolha seu plano: Gerador de ca\u00e7a-palavras gr\u00e1tis, $15/m\u00eas Essencial com 10 geradores ou $25/m\u00eas Acesso Completo a todos os 33 geradores. Cancele a qualquer momento.'
+    description: 'Escolha seu plano: Gerador de ca\u00e7a-palavras gr\u00e1tis, $15/m\u00eas Essencial com 10 geradores ou $25/m\u00eas Acesso Completo a todos os 33 geradores. Cancele a qualquer momento.',
+    keywords: 'pre\u00e7os gerador de fichas, assinatura fichas educativas, criador de fichas gr\u00e1tis, LessonCraftStudio pre\u00e7os, ferramenta educativa pre\u00e7o'
   },
   it: {
     title: 'Prezzi: Gratis, $15/mese Base & $25/mese Accesso Completo | LessonCraftStudio',
-    description: 'Scegli il tuo piano: Generatore cerca parole gratis, $15/mese Base con 10 generatori o $25/mese Accesso Completo a tutti i 33 generatori. Annulla in qualsiasi momento.'
+    description: 'Scegli il tuo piano: Generatore cerca parole gratis, $15/mese Base con 10 generatori o $25/mese Accesso Completo a tutti i 33 generatori. Annulla in qualsiasi momento.',
+    keywords: 'prezzi generatore schede, abbonamento schede didattiche, creatore schede gratis, LessonCraftStudio prezzi, strumento didattico prezzo'
   },
   nl: {
     title: 'Prijzen: Gratis, $15/maand Basis & $25/maand Volledige Toegang | LessonCraftStudio',
-    description: 'Kies uw plan: Gratis woordzoeker generator, $15/maand Basispakket met 10 generatoren of $25/maand Volledige Toegang tot alle 33 generatoren. Op elk moment opzegbaar.'
+    description: 'Kies uw plan: Gratis woordzoeker generator, $15/maand Basispakket met 10 generatoren of $25/maand Volledige Toegang tot alle 33 generatoren. Op elk moment opzegbaar.',
+    keywords: 'werkblad generator prijzen, werkblad abonnement leerkracht, gratis werkblad maker, LessonCraftStudio prijzen, educatief hulpmiddel prijs'
   },
   sv: {
     title: 'Priser: Gratis, $15/m\u00e5nad Grund & $25/m\u00e5nad Full \u00c5tkomst | LessonCraftStudio',
-    description: 'V\u00e4lj ditt abonnemang: Gratis ordjakts-generator, $15/m\u00e5nad Grundpaket med 10 generatorer eller $25/m\u00e5nad Full \u00c5tkomst till alla 33 generatorer. Avsluta n\u00e4r som helst.'
+    description: 'V\u00e4lj ditt abonnemang: Gratis ordjakts-generator, $15/m\u00e5nad Grundpaket med 10 generatorer eller $25/m\u00e5nad Full \u00c5tkomst till alla 33 generatorer. Avsluta n\u00e4r som helst.',
+    keywords: 'kalkylblad generator priser, arbetsblad prenumeration l\u00e4rare, gratis arbetsblad skapare, LessonCraftStudio priser, pedagogiskt verktyg pris'
   },
   da: {
     title: 'Priser: Gratis, $15/m\u00e5ned Grund & $25/m\u00e5ned Fuld Adgang | LessonCraftStudio',
-    description: 'V\u00e6lg dit abonnement: Gratis ords\u00f8gning-generator, $15/m\u00e5ned Grundpakke med 10 generatorer eller $25/m\u00e5ned Fuld Adgang til alle 33 generatorer. Opsig n\u00e5r som helst.'
+    description: 'V\u00e6lg dit abonnement: Gratis ords\u00f8gning-generator, $15/m\u00e5ned Grundpakke med 10 generatorer eller $25/m\u00e5ned Fuld Adgang til alle 33 generatorer. Opsig n\u00e5r som helst.',
+    keywords: 'opgave generator priser, arbejdsark abonnement l\u00e6rer, gratis opgave maker, LessonCraftStudio priser, undervisningsv\u00e6rkt\u00f8j pris'
   },
   no: {
     title: 'Priser: Gratis, $15/m\u00e5ned Grunn & $25/m\u00e5ned Full Tilgang | LessonCraftStudio',
-    description: 'Velg ditt abonnement: Gratis ords\u00f8k-generator, $15/m\u00e5ned Grunnpakke med 10 generatorer eller $25/m\u00e5ned Full Tilgang til alle 33 generatorer. Avslutt n\u00e5r som helst.'
+    description: 'Velg ditt abonnement: Gratis ords\u00f8k-generator, $15/m\u00e5ned Grunnpakke med 10 generatorer eller $25/m\u00e5ned Full Tilgang til alle 33 generatorer. Avslutt n\u00e5r som helst.',
+    keywords: 'oppgave generator priser, arbeidsark abonnement l\u00e6rer, gratis oppgave maker, LessonCraftStudio priser, undervisningsverkt\u00f8y pris'
   },
   fi: {
     title: 'Hinnat \u2014 Ilmainen, Perus ja T\u00e4ysi P\u00e4\u00e4sy | LessonCraftStudio',
-    description: 'Valitse suunnitelmasi: Ilmainen sanahakugeneraattori, Peruspaketti 10 generaattorilla tai T\u00e4ysi P\u00e4\u00e4sy kaikkiin 33 generaattoriin. Peru milloin tahansa.'
+    description: 'Valitse suunnitelmasi: Ilmainen sanahakugeneraattori, Peruspaketti 10 generaattorilla tai T\u00e4ysi P\u00e4\u00e4sy kaikkiin 33 generaattoriin. Peru milloin tahansa.',
+    keywords: 'ty\u00f6lehti generaattori hinnat, ty\u00f6lehti tilaus opettaja, ilmainen ty\u00f6lehti luoja, LessonCraftStudio hinnat, opetusty\u00f6kalu hinta'
   }
 };
 
@@ -283,6 +293,7 @@ export default async function PricingPage({ params: { locale } }: PricingPagePro
           "@type": "UnitPriceSpecification",
           "price": "15",
           "priceCurrency": "USD",
+          "billingDuration": "P1M",
           "unitCode": "MON",
           "referenceQuantity": { "@type": "QuantitativeValue", "value": "1", "unitCode": "MON" }
         },
@@ -299,6 +310,7 @@ export default async function PricingPage({ params: { locale } }: PricingPagePro
           "@type": "UnitPriceSpecification",
           "price": "25",
           "priceCurrency": "USD",
+          "billingDuration": "P1M",
           "unitCode": "MON",
           "referenceQuantity": { "@type": "QuantitativeValue", "value": "1", "unitCode": "MON" }
         },
@@ -421,6 +433,20 @@ export default async function PricingPage({ params: { locale } }: PricingPagePro
           </div>
         </div>
       </section>
+
+      {/* FAQ Schema JSON-LD */}
+      {(() => {
+        const faqItems = getFAQItems();
+        const faqSchema = faqItems.length > 0
+          ? generateFAQSchema(faqItems, locale, `https://www.lessoncraftstudio.com/${locale}/pricing`)
+          : null;
+        return faqSchema ? (
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+          />
+        ) : null;
+      })()}
 
       {/* FAQ Section */}
       <section className="py-16">

@@ -207,6 +207,125 @@ const content: EnrichedThemeContent = {
   // -- Cross-linking --
   relatedThemes: ['ocean', 'sports', 'fruits', 'nature', 'camping', 'birthday'],
   relatedBlogCategories: [],
+
+  // -- SEO Enrichment (Part 186) --
+
+  classroomScenarios: [
+    {
+      situation: 'Luokanopettaja haluaa valmistella kesälomaa edeltävän oppimispaketin, joka ylläpitää oppilaiden akateemisia taitoja loman aikana ja samalla juhlistaa tulevaa kesää.',
+      solution: 'Hän kokoaa kesäaiheisen työlehtipaketin, jossa viikkokohtaiset tehtävät etenevt asteittain: jäätelöpallojen laskemista ja rantakohtausten värittämistä nuoremmille, sanahakuja kesäsanastolla ja sanallisia tehtäviä simpukoiden ja uimarien laskemisesta vanhemmille. Oppilaat saavat kesäoppimispassin, johon kerätään leimoja suoritetuista viikoista.',
+      outcome: 'Oppilaat palaavat syksyllä kouluun akateemiset taidot tallessa, kesäliukuma on minimoitu ja oppimismotivaatio säilyy, koska työlehdet tuntuvat kesähauskan jatkeelta eivätkä ylimääräiseltä koultyöltä.',
+    },
+    {
+      situation: 'Vanhempi etsii tuottavaa ruutuvapaata tekemistä pitkälle automatkalle mökkireissulle, mutta ei halua lapsensa kokevan oppimista rangaistuksena loman aikana.',
+      solution: 'Vanhempi tulostaa valikoiman kesätyölehtiä kansioon: värityssivuja rantakohtauksista takapenkillä täytettäviksi, sananetsintöjä lepo-paikoille ja jäätelöaiheisia laskutehtäviä mökin iltahetkiin. Jokaisen työlehden jälkeen lapsi saa valita kesäaktiviteetin kuten uinnin tai kalastuksen.',
+      outcome: 'Lapsi yhdistää työlehdet positiivisesti lomamuistoihin, laskemis- ja lukutaidot pysyvät aktiivisina kesän yli ja automatkat muuttuvat tuottaviksi oppimishetkiksi ruutuajan sijaan.',
+    },
+  ],
+
+  quickStats: [
+    { label: 'Suositeltu ikähaarukka', value: '3–9 vuotta' },
+    { label: 'Työlehtisovellusten määrä', value: '10 sovellusta' },
+    { label: 'Opetussuunnitelman alueet', value: '5 aluetta' },
+    { label: 'Tuetut luokkatasot', value: 'Esiopetus–3. lk' },
+    { label: 'Keskimääräinen työskentelyaika', value: '10–25 min' },
+    { label: 'Kesäaiheet', value: '25+ aihepiiriä' },
+  ],
+
+  differentiationStrategies: [
+    {
+      learnerType: 'Visuaaliset oppijat',
+      adaptation: 'Käytä kirkkaita, yksityiskohtaisia rantakohtauksia ja uima-allaskuvia, joissa värikoodatut elementit ohjaavat huomiota. Jäätelötornien värikerrokset havainnollistavat laskemista visuaalisesti ja kesapaitakuvioiden järjestykset tukevat kuviosarjojen ymmärtämistä.',
+    },
+    {
+      learnerType: 'Kinesteettiset oppijat',
+      adaptation: 'Yhdistä työlehdet aitoon kesätoimintaan: simpukoiden kerääminen ja lajittelu rannalla ennen lajittelutehtävää, jäätelöpallojen muovaileminen muovailuvahasta ennen laskutehtävää ja veden lämpötilan mittaaminen ennen mittaustehtäviä. Fyysinen kokemus ankkuroi abstraktin oppimisen.',
+    },
+    {
+      learnerType: 'S2-oppijat',
+      adaptation: 'Kesän kuvasto on universaalisti tunnistettavaa: aurinko, vesi, jäätelö ja ranta ovat tuttuia kaikissa kulttuureissa. Aloita konkreettisilla kesäesineillä ja niiden suomenkielisillä nimillä, lisää kuvailevia adjektiiveja asteittain. Kesäkokemukset tarjoavat yhteisen pohjan keskustelulle ja sanaston rakentamiselle.',
+    },
+    {
+      learnerType: 'Edistyneet oppijat',
+      adaptation: 'Haasta suunnittelemaan kesäleiri kokonaisuudessaan: laske budjetti kertolaskulla, laadi viikkoaikataulu kuluvan ajan laskemisella, kirjoita vakuuttava esite leiristä ja luo tilastokaaviota säähavainnoista. Integroitu projekti yhdistää matematiikan, äidinkielen ja luonnontieteen.',
+    },
+  ],
+
+  assessmentIdeas: [
+    {
+      method: 'Kesäoppimiskansio',
+      criteria: 'Kerää oppilaan kesätyölehdet, piirustukset ja kirjoitelmat koko loman ajalta. Arvioi matemaattisten taitojen ylläpitoa, sanaston laajentumista ja kykyä kuvata kesäkokemuksia monipuolisesti. Vertaa syksyn lähtötasoa edellisen lukuvuoden lopputasoon.',
+      gradeLevel: 'Kaikki luokka-asteet',
+    },
+    {
+      method: 'Kesäpäiväkirjaprojekti',
+      criteria: 'Pyydä oppilasta pitämään kesäpäiväkirjaa, johon kirjataan viikottain säähavainnot, suoritetut työlehdet ja yksi uusi opittu asia. Arvioi havainnointitaitoja, kirjallista ilmaisua ja kykyä yhdistää oppiminen arkeen.',
+      gradeLevel: '2.–3. lk',
+    },
+    {
+      method: 'Kesäesineiden lajittelu- ja laskentatehtävä',
+      criteria: 'Anna oppilaalle joukko kesäesinekuvia ja pyydä lajittelemaan ne kategorioihin kuten ranta, puutarha ja urheilu. Arvioi luokittelutaitojen hallintaa, lukumäärien laskemista ja kykyä perustella lajitteluvalintoja suomeksi.',
+      gradeLevel: 'Esiopetus–1. lk',
+    },
+  ],
+
+  crossCurricularLinks: [
+    {
+      subject: 'Ympäristöoppi (vuodenajat ja vesi)',
+      connection: 'Kesä on ihanteellinen vuodenaika vesikierron, auringon vaikutuksen ja luonnon ekosysteemien tutkimiseen. POPS 2014:n ympäristöopin tavoitteet toteutuvat, kun oppilaat havainnoivat kesäistä luontoa, mittaavat lämpötiloja ja tutkivat vesiluontoa.',
+      activity: 'Rantaesineiden lajittelutehtävän jälkeen oppilaat tutkivat lähirannan tai -järven ekosysteemiä, keräävät havainnot ja vertaavat niitä työlehden kategorioihin.',
+    },
+    {
+      subject: 'Äidinkieli ja kirjallisuus',
+      connection: 'Kesäsanasto kuten trooppinen, hengenpelastaja, aurinkovoide ja riippumatto laajentaa kuvailevaa sanavarastoa. Kesäpäiväkirjan kirjoittaminen ja kesäkokemusten kuvaaminen kehittävät narratiivista ja aistipohjaista ilmaisua.',
+      activity: 'Sanahaun jälkeen oppilaat kirjoittavat lyhyen kesäkuvauksen, jossa käyttävät vähintään viittä kesäsanaa ja kaikkien aistien havaintoja.',
+    },
+    {
+      subject: 'Matematiikka (mittaaminen ja aika)',
+      connection: 'Kesä tarjoaa luonnollisen kontekstin ajan mittaamiselle, lämpötilan seuraamiselle ja budjetoinnille. Päivän pituuden muutokset, lomapäivien laskeminen ja kesäaktiviteettien kustannusten laskeminen yhdistävät matematiikan arkielämään.',
+      activity: 'Jäätelölaskutehtävän jälkeen oppilaat suunnittelevat kesäpäivän aikataulun, laskevat aktiviteettien kestot ja selvittävät päivän kokonaiskustannukset.',
+    },
+  ],
+
+  uniqueAngle: 'Kesäaiheiset työlehdet vastaavat ainutlaatuiseen pedagogiseen haasteeseen, jota muut teemat eivät kohtaa samalla intensiteetillä: kesäliukuman ehkäisyyn eli dokumentoituun akateemisten taitojen heikkenemiseen pitkän kouluauon aikana. Tutkimus osoittaa johdonmukaisesti, että lapset voivat menettää yhdestä kolmeen kuukautta matemaattista edistystä ja lukemisen sujuvuutta tyypillisen kesäloman aikana. Kesätyölehdet torjuvat tämän tarjoamalla säännöllistä taitoharjoittelua muodossa, joka tuntuu loman jatkeelta eikä koulutyöltä. Kesäteeman pedagoginen voima piilee sen universaalissa vetovoimassa: jokainen lapsi yhdistää kesän vapauteen, hauskanpitoon ja seikkailuun, ja tämä tunnepohjainen yhteys tekee oppimisesta vapaaehtoista ja motivoivaa. Suomessa POPS 2014 korostaa oppimaan oppimisen taitoja ja itseohjautuvuutta, ja kesätyölehdet toteuttavat nämä tavoitteet konkreettisesti: lapsi valitsee itse milloin ja missä työskentelee, rakentaen itsesaatelyvalmiuksia. Suomen pitkät kesäpäivät, mökkikulttuuri ja rantaelämä tarjoavat rikkaan kulttuurisen kontekstin, joka tekee kesäteemasta erityisen merkityksellisen suomalaisille lapsille.',
+
+  researchCitation: 'Cooper, H., Nye, B., Charlton, K., Lindsay, J. & Greathouse, S. (1996). The Effects of Summer Vacation on Achievement Test Scores: A Narrative and Meta-Analytic Review. Review of Educational Research. Meta-analyysi osoitti, että kesäloman aikainen akateeminen heikkeneminen on erityisen merkittävää matemaattisessa laskennassa ja lukemisen sujuvuudessa, ja säännöllinen harjoittelu loman aikana ehkäisee suurimman osan tästä liukumasta.',
+
+  culturalNotes: 'Suomessa kesä on erityisen merkityksellinen vuodenaika: pitkän, pimeän talven jälkeen kesän valo ja lämpö ovat koko kansan juhlimia. Juhannus on kesän suurin juhla ja mökkikulttuuri syvasti juurtunut suomalaiseen identiteettiin. POPS 2014 korostaa oppimaan oppimisen taitoja ja itseohjautuvuutta, ja kesäloman aikainen vapaaehtoinen oppiminen toteuttaa näitä tavoitteita. Suomalainen kesäloma on eurooppalaisittain pitkä (2,5 kuukautta), mikä tekee kesäliukuman ehkäisystä erityisen tärkeäksi.',
+
+  snippetDefinition: 'Kesäaiheiset työlehdet lapsille ovat tulostettavia oppimistehtäviä, jotka käyttävät rantakohtausten, jäätelöiden, simpukoiden ja auringonpaisteen kuvituksia matematiikan, lukemisen ja ongelmanratkaisun opettamiseen. Ne on suunniteltu 3–9-vuotiaille ja sisältävät laskutehtäviä, sanahakuja, värityssivuja ja loogisia pulmia, jotka ehkäisevät kesäliukumaa.',
+
+  snippetHowTo: [
+    'Valitse työlehdet lapsen kehitystason mukaan: nuoremmille rantakohtausten värittämistä ja jäätelöpallojen laskemista, vanhemmille sanallisia tehtäviä ja kesäpäiväkirjan pitämistä.',
+    'Aseta säännöllinen kesäoppimisaikataulu: kaksi–kolme lyhyttä sessiota viikossa, kymmenen–viisitoista minuuttia kerrallaan, on tutkimukseen perustuva optimaalinen määrä.',
+    'Yhdistä työlehdet todellisiin kesäkokemuksiin: rantamatikka ennen uima-altaalle menoa, sananetsintä eväsretken yhteydessä.',
+    'Tulosta työlehtiä mukaan automatkoille, mökkireissuille ja sadepäivien varalle — ne ovat ihanteellisia ruutuvapaita matkakumppaneita.',
+    'Luo kesäoppimispassi tai tarrakaavio, johon lapsi kerää merkintöjä suoritetuista viikoista motivaation ylläpitämiseksi.',
+    'Pidä sessiot lyhyinä ja positiivisina: johdonmukaisuus on tärkeämpää kuin intensiteetti kesäliukuman ehkäisyssä.',
+    'Toista viikottain ja seuraa edistymistä: vertaa syksyn lähtötasoa kesän alun tasoon ja juhli saavutuksia.',
+  ],
+
+  limitations: 'Kesäaiheiset työlehdet ovat tehokkaimmillaan kesäkuukausina, ja niiden motivaatiovaikutus voi vähentyä muina vuodenaikoina. Kesäloman pituus vaihtelee perheittäin ja alueittain, mikä vaikuttaa työlehtiaikataulun suunnitteluun. Vesiturvallisuus ja aurinkosuojaus on huomioitava, kun työlehtejä yhdistetään kesäaktiviteetteihin.',
+
+  themeComparisons: [
+    { vsThemeId: 'ocean', summary: 'Kesä sisältää meriaiheita osana laajempaa lomatunnelmaa, kun meriteema syventyy vedenalaiseen elämään ja meribiologiaan ympäri vuoden. Kesä painottaa rantalomailua ja vesileikkejä, meri tutkii ekosysteemejä.' },
+    { vsThemeId: 'sports', summary: 'Kesä on urheilun kulta-aikaa, mutta kesäteema kattaa laajemmin loman, luonnon ja vapaa-ajan. Urheiluteema keskittyy fyysiseen aktiivisuuteen ja sääntöjen oppimiseen vuodenajasta riippumatta.' },
+    { vsThemeId: 'nature', summary: 'Kesä on luonnon tuotteliasin vuodenaika, mutta kesäteema kattaa myös kulttuurisen lomatunnelman, jäätelöt ja vesileikkejä. Luontoteema käsittelee ekosysteemejä kokonaisvaltaisemmin vuodenajasta riippumatta.' },
+    { vsThemeId: 'camping', summary: 'Leirintateema on kesäteeman luonnollinen kumppani, mutta kesä kattaa laajemman kirjon aktiviteetteja rannasta uima-altaaseen ja juhannuksesta mökkeilyyn. Leirintä syventyy erätaitoihin ja luontosuhteeseen.' },
+  ],
+
+  productLinks: [
+    { appId: 'coloring', anchorText: 'Kesäkohtausten värityssivut', context: 'Väritä rantakohtauksia, jäätelötötteröitä ja auringonpaistetta samalla kehittäen hienomotoriikkaa ja kesäsanaston tunnistamista.' },
+    { appId: 'find-and-count', anchorText: 'Laske kesäesineitä', context: 'Etsi ja laske simpukoita, jäätelöpalloja ja rantaesineitä kesäkuvasta harjoitellen lukumäärien tunnistamista ja havainnointia.' },
+    { appId: 'word-search', anchorText: 'Kesäsanaston sanahaku', context: 'Etsi kesäsanastoa kuten hiekkalinna, aurinkovoide, uimapuku ja loma kirjainruudukosta lukutaidon ja oikeinkirjoituksen vahvistamiseksi.' },
+    { appId: 'treasure-hunt', anchorText: 'Kesäinen aarteenetsintä', context: 'Ratkaise vihjeitä ja etsi piilotettuja kesäaarteita rantakohtauksesta loogisen päättelyn ja visuaalisen etsimisen harjoittamiseksi.' },
+  ],
+
+  expertTips: [
+    { tip: 'Aloita kesäloman ensimmäisellä viikolla perustamalla kesäoppimisrutiini: kolme lyhyttä työlehtisessiota viikossa aamuisin ennen ulkoleikkejä. Rutiini on helpompi rakentaa loman alussa kuin elvyttää keskellä kesää.', source: 'Varhaiskasvatuksen pedagoginen asiantuntija', gradeRange: 'Esiopetus–1. lk' },
+    { tip: 'Yhdistä kesätyölehdet oikeaan kesäkokemukseen samana päivänä: jäätelölaskutehtävän jälkeen vierailu jäätelökioskilla, rantamatikan jälkeen uintireissu. Välitön yhteys paperilla oppimisen ja elävän kokemuksen välillä on tehokkain vahvistuskeino.', source: 'Alkuopetuksen aineenopettaja', gradeRange: '2.–3. lk' },
+    { tip: 'Kesä on erinomainen aika maahanmuuttajalasten suomen kielen vahvistamiseen arkikontekstissa: kesäsanasto on konkreettista ja koettavissa, ja mökkikulttuuri avaa ikkunan suomalaiseen elämäntapaan tavalla, joka tukee kotoutumista.', source: 'Erityispedagogiikan asiantuntija', gradeRange: 'Esiopetus–3. lk' },
+  ],
 };
 
 registerThemeContent('summer', 'fi', content);

@@ -1,6 +1,6 @@
 import { getTranslations } from 'next-intl/server';
 import { Metadata } from 'next';
-import { getHreflangCode, ogLocaleMap } from '@/lib/schema-generator';
+import { getHreflangCode, ogLocaleMap, generateStaticPageSchemas } from '@/lib/schema-generator';
 import { SUPPORTED_LOCALES } from '@/config/locales';
 
 export async function generateMetadata({ params }: { params: { locale: string } }): Promise<Metadata> {
@@ -40,6 +40,28 @@ export async function generateMetadata({ params }: { params: { locale: string } 
   };
 }
 
-export default function ContactLayout({ children }: { children: React.ReactNode }) {
-  return <>{children}</>;
+export default async function ContactLayout({ children, params }: { children: React.ReactNode; params: { locale: string } }) {
+  const locale = params.locale || 'en';
+  const t = await getTranslations({ locale, namespace: 'contact' });
+
+  const pageTitle = t.has('metaTitle') ? t('metaTitle') : `${t('title')} | LessonCraftStudio`;
+  const pageDescription = t.has('metaDescription') ? t('metaDescription') : t('subtitle');
+  const schemas = generateStaticPageSchemas({
+    pagePath: '/contact',
+    pageName: pageTitle,
+    pageDescription,
+    locale,
+    pageType: 'ContactPage',
+    dateModified: '2026-02-22'
+  });
+
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemas) }}
+      />
+      {children}
+    </>
+  );
 }

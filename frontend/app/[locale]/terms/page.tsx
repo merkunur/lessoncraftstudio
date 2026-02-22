@@ -1,7 +1,7 @@
 import { getTranslations } from 'next-intl/server';
 import { Metadata } from 'next';
 import Link from 'next/link';
-import { getHreflangCode, ogLocaleMap } from '@/lib/schema-generator';
+import { getHreflangCode, ogLocaleMap, generateStaticPageSchemas } from '@/lib/schema-generator';
 import { SUPPORTED_LOCALES } from '@/config/locales';
 import { getRecentBlogPosts } from '@/lib/blog-data';
 
@@ -86,8 +86,24 @@ export default async function TermsPage({
     console.error(`Failed to fetch blog posts for ${locale} on terms page:`, err);
   }
 
+  const pageTitle = t.has('metaTitle') ? t('metaTitle') : `${t('title')} | LessonCraftStudio`;
+  const pageDescription = t.has('metaDescription') ? t('metaDescription') : t('acceptance.content');
+  const schemas = generateStaticPageSchemas({
+    pagePath: '/terms',
+    pageName: pageTitle,
+    pageDescription,
+    locale,
+    pageType: 'WebPage',
+    dateModified: '2026-02-22'
+  });
+
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-50 to-pink-50 dark:from-gray-900 dark:to-gray-800 py-12">
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemas) }}
+      />
+      <div className="min-h-screen bg-gradient-to-br from-purple-50 to-pink-50 dark:from-gray-900 dark:to-gray-800 py-12">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-8 md:p-12">
           <h1 className="text-4xl font-bold text-gray-900 dark:text-white mb-4">
@@ -270,5 +286,6 @@ export default async function TermsPage({
         </div>
       </div>
     </div>
+    </>
   );
 }

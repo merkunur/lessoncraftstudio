@@ -1605,6 +1605,72 @@ export function generateAboutPageSchemas(locale: string, baseUrl: string = getBa
   return schemas;
 }
 
+// ── Static Page Schema Generator ─────────────────────────────────
+
+/**
+ * Generate WebPage + BreadcrumbList schemas for simple static pages
+ * (contact, terms, privacy, license)
+ */
+export function generateStaticPageSchemas(input: {
+  pagePath: string;
+  pageName: string;
+  pageDescription: string;
+  locale: string;
+  pageType?: string;
+  dateModified?: string;
+}, baseUrl: string = getBaseUrl()) {
+  const { pagePath, pageName, pageDescription, locale, pageType = 'WebPage', dateModified = '2026-02-22' } = input;
+  const pageUrl = `${baseUrl}/${locale}${pagePath}`;
+  const schemas: any[] = [];
+
+  const webPageSchema = {
+    "@context": "https://schema.org",
+    "@type": pageType,
+    "@id": `${pageUrl}#webpage`,
+    "url": pageUrl,
+    "name": pageName,
+    "description": pageDescription,
+    "inLanguage": getHreflangCode(locale),
+    "dateModified": dateModified,
+    "isPartOf": {
+      "@type": "WebSite",
+      "@id": `${baseUrl}/#website`,
+      "name": "LessonCraftStudio",
+      "url": baseUrl
+    },
+    "breadcrumb": {
+      "@id": `${pageUrl}#breadcrumb`
+    },
+    "publisher": {
+      "@id": `${baseUrl}/#organization`
+    },
+    "speakable": getSpeakableSpecification()
+  };
+  schemas.push(webPageSchema);
+
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "@id": `${pageUrl}#breadcrumb`,
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": localizedHomeLabel[locale] || "Home",
+        "item": `${baseUrl}/${locale}`
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": pageName
+      }
+    ]
+  };
+  schemas.push(breadcrumbSchema);
+
+  return schemas;
+}
+
 // ── Theme Page Schema Generators ─────────────────────────────────
 
 /**

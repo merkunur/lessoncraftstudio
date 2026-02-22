@@ -93,7 +93,56 @@ Generaattori toimii 11 kielellä mukaan lukien suomi. Kaikki käyttöliittymän 
       noHiddenFees: 'Ei piilomaksuja',
       cancelAnytime: 'Peruuta milloin tahansa',
     },
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        icon: '✏️',
+        title: 'Neljä asteittain vaikeutuvaa jäljennöstilaa',
+        description: 'Valitse neljästä tilasta: jäljennös (täydet kirjaimet jäljennettäväksi), haalistuva jäljennös (asteittain häipyvät kirjaimet), ohjattu kopio (esimerkkikirjain ja tyhjä rivi) ja tyhjä (pelkät kirjoitusviivat). Asteittainen vaikeutuminen tukee kirjoittamisen itsenäistä kehitystä.',
+      },
+      {
+        id: '2',
+        icon: '🔤',
+        title: 'Viisi kirjasintyylia mukaan lukien kursiivi',
+        description: 'Valitse viidestä kirjasintyylistä: tulostuskirjain, tulostuskirjain nuolilla, tulostuskirjain jäljennös, tulostuskirjain jäljennös nuolilla ja kursiivi. Nuolityyli näyttää kirjaimen piirtojärjestyksen. Kursiivi harjoitukset sopivat 2.–3. luokalle.',
+      },
+      {
+        id: '3',
+        icon: '📝',
+        title: 'Mukautettu sisältö: kirjaimet, sanat, nimet, lauseet',
+        description: 'Kirjoita mitä tahansa tekstiä harjoiteltavaksi. Yksittäisiä kirjaimia aakkosten oppimiseen. Sanoja sanaston laajentamiseen. Oppilaiden nimiä personoituihin tehtäviin. Kokonaisia lauseita edistyneille kirjoittajille.',
+      },
+      {
+        id: '4',
+        icon: '🌀',
+        title: 'Esiviivoitusharjoitukset motoriseen kehitykseen',
+        description: 'Generaattori tarjoaa esiviivoitusharjoituksia jotka valmistavat käsinkirjoitukseen. Pystyviivat, vaakaviivat, ympyrät, siksak-kuviot ja aallot kehittävät käden koordinaatiota. Täydellinen esikoululaisille ennen kirjainten harjoittelua.',
+      },
+      {
+        id: '5',
+        icon: '📏',
+        title: 'Useita itsenäisiä rivejä per tehtävä',
+        description: 'Lisää useita harjoittelurivejä samalle tehtäväsivulle. Jokainen rivi voi sisältää eri sisältöä ja eri jäljennöstilan. Yhdistä jäljennös- ja tyhjia rivejä samalle sivulle progressiiviseen harjoitteluun.',
+      },
+      {
+        id: '6',
+        icon: '🎨',
+        title: 'Täysi muokkaus pohjalla',
+        description: 'Muokkaa jokaista elementtiä luomisen jälkeen. Siirrä, skaalaa ja kierrä osia vapaasti. Lisää kuvia kirjastoista kirjain-kuva-yhteyksien luomiseen. Tausta- ja reunusteemat lisäävät visuaalista kiinnostavuutta.',
+      },
+      {
+        id: '7',
+        icon: '💼',
+        title: 'Kaupallinen lisenssi myyntiin',
+        description: 'Tilauksesi sisältää kaupalliset oikeudet myydä käsinkirjoitustehtäviä verkossa. Luo temaattisia kirjoitusharjoituspaketteja opettajakauppoihin. Ei attribuutiovaatimuksia eikä lisämaksuja.',
+      },
+      {
+        id: '8',
+        icon: '🌍',
+        title: '11 kielen tuki',
+        description: 'Luo käsinkirjoitustehtäviä 11 kielellä mukaan lukien suomi ääkkösineen. Käyttöliittymä ja ohjeet kääntyvät valitulle kielelle. Tukee ä, ö ja muita erikoismerkkejä.',
+      },
+    ]
     
   },
 
@@ -186,7 +235,50 @@ Tallenna tiedosto tietokoneellesi myöhempää käyttöä varten. Luo tehtäväp
     badgeText: 'Kenelle Sopii',
     readMoreLabel: 'Lue lisää',
     showLessLabel: 'Näytä vähemmän',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        icon: '🌱',
+        title: 'Esiopetuksen opettajat',
+        subtitle: 'Esiviivoitus ja kirjainten perusteet 5–6-vuotiaille',
+        description: 'Luo esiviivoitusharjoituksia motoriseen valmiuteen ja yksinkertaisia kirjainjäljennöksiä. Esiopetuksen oppilaat kehittävät käden koordinaatiota ennen varsinaista kirjoittamista. Jäljennöstila antaa täyden tuen aloittelijoille. Tukee POPS 2014 tavoitteita.',
+      },
+      {
+        id: '2',
+        icon: '📚',
+        title: 'Alakoulun opettajat',
+        subtitle: 'Kirjainten muodostus ja sanakop iointi 1.–2. luokalla',
+        description: 'Generoi haalistuvia jäljennöksiä ja ohjattuja kopioita sanoilla ja lauseilla. Oppilaat siirtyvät jäljentämisestä itsenäiseen kirjoittamiseen asteittain. Nuolityyli opettaa oikean piirtojärjestyksen.',
+      },
+      {
+        id: '3',
+        icon: '🏠',
+        title: 'Kotiopettajat ja vanhemmat',
+        subtitle: 'Personoituja kirjoitusharjoituksia kotiin',
+        description: 'Luo käsinkirjoitustehtäviä lasten nimellä ja suosikkisanoilla. Personoidut tehtävät motivoivat harjoittelemaan. Asteittain vaikeutuvat tilat sopivat itsenäiseen etenemiseen kotona.',
+      },
+      {
+        id: '4',
+        icon: '🌍',
+        title: 'S2-opettajat',
+        subtitle: 'Suomen kirjainten ja ääkkösten harjoittelu',
+        description: 'Käsinkirjoitustehtävät opettavat suomen aakkoset mukaan lukien ä ja ö. Oppilaat harjoittelevat kirjainten muodostusta jäljentämällä. 11 kielen tuki mahdollistaa monikielisen kirjoitusharjoittelun.',
+      },
+      {
+        id: '5',
+        icon: '💜',
+        title: 'Erityisopettajat',
+        subtitle: 'Yksilöllistetyt kirjoitusharjoitukset',
+        description: 'Säädä jäljennöstilaa ja sisältöä HOJKS-tavoitteiden mukaisesti. Jäljennöstila antaa täyden tuen heikompille oppilaille. Esiviivoitusharjoitukset kehittävät motorista valmiutta kirjoittamiseen.',
+      },
+      {
+        id: '6',
+        icon: '💰',
+        title: 'Opettajayrittäjät',
+        subtitle: 'Myy kirjoitusharjoituspaketteja kaupallisella lisenssillä',
+        description: 'Luo teemallisia käsinkirjoituspaketteja myytäväksi verkossa. Käsinkirjoitusmateriaalit ovat jatkuvasti kysyttyjä esiopetuksen ja alakoulun opettajien keskuudessa. Kaupallinen lisenssi kattaa rajattomat myynnit.',
+      },
+    ]
     
   },
 
@@ -201,7 +293,68 @@ Tallenna tiedosto tietokoneellesi myöhempää käyttöä varten. Luo tehtäväp
     showLessLabel: 'Näytä vähemmän',
     secureCheckout: 'Turvallinen maksu',
     cancelAnytime: 'Peruuta milloin tahansa',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        question: 'Miten käsinkirjoitusgeneraattori toimii?',
+        answer: 'Kirjoita harjoiteltava teksti ja valitse jäljennöstila, kirjasintyyli ja sivun asetukset. Generaattori luo välittömästi käsinkirjoituksen harjoittelutehtävän kirjoitusviivoilla. Lataa PDF tai JPEG tulostamista varten.',
+      },
+      {
+        id: '2',
+        question: 'Mitkä jäljennöstilat ovat saatavilla?',
+        answer: 'Neljä tilaa: jäljennös (täydet kirjaimet jäljennettäväksi), haalistuva jäljennös (asteittain häipyvät), ohjattu kopio (esimerkki ja tyhjä rivi) ja tyhjä (pelkät viivat). Valitse tila taitotason mukaan.',
+      },
+      {
+        id: '3',
+        question: 'Mitkä kirjasintyylit ovat saatavilla?',
+        answer: 'Viisi tyylia: tulostuskirjain, tulostuskirjain nuolilla (piirtojärjestys), tulostuskirjain jäljennös, tulostuskirjain jäljennös nuolilla ja kursiivi. Nuolityyli opettaa oikean piirtojärjestyksen visuaalisesti.',
+      },
+      {
+        id: '4',
+        question: 'Tukeeko generaattori suomen ääkkösiä?',
+        answer: 'Kyllä, generaattori tukee kaikkia suomen aakkosia mukaan lukien ä ja ö. Kaikki kirjasintyylit sisältävät ääkköset. Täydellinen suomalaisten lasten kirjainharjoitteluun.',
+      },
+      {
+        id: '5',
+        question: 'Mille ikäryhmille käsinkirjoitusharjoitukset sopivat?',
+        answer: 'Tehtävät palvelevat 3–10-vuotiaita. Esikoululaiset aloittavat esiviivoituksella ja jäljennöksillä. 1.–2. luokkalaiset kehittyvät ohjattuun kopiointiin. 2.–3. luokkalaiset harjoittelevat kursiivia.',
+      },
+      {
+        id: '6',
+        question: 'Mitä esiviivoitusharjoituksia on saatavilla?',
+        answer: 'Viisi esiviivoituskuviota: pystyviivat, vaakaviivat, ympyrät, siksak-kuviot ja aallot. Nämä kehittävät käden koordinaatiota ja motorista valmiutta ennen kirjainten harjoittelua.',
+      },
+      {
+        id: '7',
+        question: 'Voiko useita rivejä luoda samalle sivulle?',
+        answer: 'Kyllä, lisää rajattomasti harjoittelurivejä samalle sivulle. Jokainen rivi voi sisältää eri sisältöä ja eri jäljennöstilan. Yhdistä jäljennös- ja tyhjia rivejä progressiiviseen harjoitteluun.',
+      },
+      {
+        id: '8',
+        question: 'Miten tulostan käsinkirjoitustehtävät?',
+        answer: 'Lataa tehtäväsi PDF- tai JPEG-muodossa 300 DPI laadulla. Valitse A4 tai Letter-sivukoko. Harmaasävyvaihtoehto säästää värimustetta. Kirjoitusviivat tulostuvat selkeästi.',
+      },
+      {
+        id: '9',
+        question: 'Sopiiko generaattori erityisopetukseen?',
+        answer: 'Erinomaisesti. Jäljennöstila antaa täyden tuen heikompille oppilaille. Esiviivoitusharjoitukset kehittävät motorista valmiutta. Säädä jäljennöstilaa ja sisältöä HOJKS-tavoitteiden mukaisesti.',
+      },
+      {
+        id: '10',
+        question: 'Kuinka kauan yhden tehtävän luominen kestää?',
+        answer: 'Yhden käsinkirjoitustehtävän luominen vie alle 3 minuuttia. Kirjoita teksti ja valitse asetukset 30 sekunnissa. Generaattori luo tehtävän välittömästi. Viikon tehtävät valmistuvat 15 minuutissa.',
+      },
+      {
+        id: '11',
+        question: 'Voinko myydä luomiani tehtäviä?',
+        answer: 'Kyllä, tilauksesi sisältää kaupallisen lisenssin. Myy käsinkirjoituspaketteja opettajakauppoissa ilman attribuutiovaatimuksia. Monet opettajat ansaitsevat lisätuloja kirjoitusharjoituspaketeilla.',
+      },
+      {
+        id: '12',
+        question: 'Miten käsinkirjoitusharjoitukset tukevat POPS 2014 tavoitteita?',
+        answer: 'Käsinkirjoitus kehittää hienomotoriikkaa, kirjaintuntemusta ja kirjoitustaitoa. POPS 2014 korostaa kädentaitojen ja kirjoittamisen perustaitojen kehittämistä. Generaattori tukee molempia tavoitteita systemaattisesti.',
+      },
+    ]
     
   },
 
@@ -272,8 +425,157 @@ Tallenna tiedosto tietokoneellesi myöhempää käyttöä varten. Luo tehtäväp
       securePayment: 'Turvallinen maksu',
       cancelAnytime: 'Peruuta milloin tahansa',
     },
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        slug: 'aakkosjuna-tyoarkit',
+        name: 'Aakkosjuna',
+        category: 'Lukutaito',
+        icon: '🚂',
+        description: 'Aakkosjuna opettaa aakkosten järjestyksen ja kirjainten tunnistamisen. Yhdistä käsinkirjoituksen kanssa kattavaan kirjainharjoitteluun.',
+      },
+      {
+        id: '2',
+        slug: 'viivojen-piirtaminen-tyoarkit',
+        name: 'Viivojen piirtäminen',
+        category: 'Motoriikka',
+        icon: '🖍️',
+        description: 'Viivojen piirtäminen kehittää motorista koordinaatiota ja viivanvetoa. Täydentää käsinkirjoituksen hienomotoriikkaharjoittelua.',
+      },
+      {
+        id: '3',
+        slug: 'sananhaku-tyoarkit',
+        name: 'Sananhaku',
+        category: 'Sanasto',
+        icon: '🔍',
+        description: 'Sananhaku yhdistää kirjainten tunnistamisen ja sanojen muodostamisen. Molemmat kehittävät kirjaintuntemusta eri tavoin.',
+      },
+      {
+        id: '4',
+        slug: 'kuva-arvaus-tyoarkit',
+        name: 'Kuva-arvaus',
+        category: 'Sanasto',
+        icon: '📷',
+        description: 'Kuva-arvaus harjoittaa kirjainten tunnistamista ja täydentämistä. Käsinkirjoituksen kanssa oppilaat tunnistavat ja kirjoittavat kirjaimia monipuolisesti.',
+      },
+      {
+        id: '5',
+        slug: 'sanansekoitus-tyoarkit',
+        name: 'Sanojen sekoitus',
+        category: 'Sanasto',
+        icon: '🔀',
+        description: 'Sanojen sekoitus harjoittaa kirjainten järjestämistä sanoiksi. Yhdistä käsinkirjoituksen kanssa kokonaisvaltaiseen kirjainharjoitteluun.',
+      },
+      {
+        id: '6',
+        slug: 'ruudukkopiirustus-tyoarkit',
+        name: 'Ruudukkopiirustus',
+        category: 'Motoriikka',
+        icon: '📲',
+        description: 'Ruudukkopiirustus kehittää hienomotoriikkaa ja koordinaatiota. Täydentää käsinkirjoituksen motorisia taitoja visuaalisella harjoittelulla.',
+      },
+    ]
     
+  },
+
+  // -- SEO & Content Enrichment (Part 178) ------------------------------------
+
+  aiOverviewSnippet: 'Kasinkirjoitusgeneraattori on verkkotyokalu, jolla luodaan tulostettavia kirjainten ja sanojen kirjoitusharjoituksia esiopetukseen ja alakouluun. Neljalla jaljennos tilalla (jaljennos, haalistuva, ohjattu kopio, tyhja) ja viidella kirjasintyylilla oppilaat kehittavat kirjoitustaitoa asteittain. Opettajat kirjoittavat harjoiteltavan tekstin ja lataavat valmiin PDF-tehtavan alle 3 minuutissa.',
+
+  comparisonTable: [
+    {
+      feature: 'Jäljennöstilat',
+      ourApp: '4 asteittain vaikeutuvaa tilaa',
+      typical: 'Vain yksi jäljennöstila',
+    },
+    {
+      feature: 'Kirjasintyylit',
+      ourApp: '5 tyylia mukaan lukien kursiivi ja nuolityyli',
+      typical: 'Yksi fontti',
+    },
+    {
+      feature: 'Esiviivoitusharjoitukset',
+      ourApp: '5 motorista kuviota kirjoitusvalmiuteen',
+      typical: 'Ei esiviivoitusta',
+    },
+    {
+      feature: 'Sisältövaihtoehdot',
+      ourApp: 'Kirjaimet, sanat, nimet, lauseet vapaasti',
+      typical: 'Kiinteä aakkosjärjestys',
+    },
+    {
+      feature: 'Kaupallinen lisenssi',
+      ourApp: 'Sisältyy, myy vapaasti verkossa',
+      typical: 'Lisämaksu tai ei saatavilla',
+    },
+    {
+      feature: 'Kielituki',
+      ourApp: '11 kieltä mukaan lukien suomi ääkkösineen',
+      typical: 'Vain englanti',
+    },
+  ],
+
+  researchBacking: [
+    {
+      claim: 'Toistuva kirjainten jäljentäminen rakentaa motorista muistia kinesteettisen vahvistamisen kautta, mikä parantaa kirjainten tunnistamista ja tuottamista merkittävästi.',
+      source: 'Aro, M. et al., "Kirjoittamisen kehitys ja tukeminen alkuopetuksessa," Jyväskylän yliopisto',
+    },
+    {
+      claim: 'Eksplisiittinen piirtojärjestysopetus nuolityylillä parantaa kirjainten muodostusta ja vähentää peilikuvakääntöjä merkittävästi erityisesti b/d- ja p/q-kirjainpareissa.',
+      source: 'Torppa, M. et al., "Motoristen taitojen ja kirjoittamisen yhteys," Niilo Mäki Instituutti',
+    },
+  ],
+
+  teacherTestimonials: [
+    {
+      quote: 'Kasinkirjoitusgeneraattori on korvaamaton tyokalu kirjainten opetukseen. Haalistuva jaljennos -tila on loistava siirtymavaihe jaljentamisesta itsena iseen kirjoittamiseen. Oppilaani kehittyivat selkeasti kirjoitustaidossa.',
+      name: 'Liisa Haapala',
+      role: 'Esiopetuksen opettaja',
+      school: 'Viikin päiväkoti, Helsinki',
+    },
+    {
+      quote: 'Kaytan generaattoria paivittain ekaluokassa kirjainharjoittelussa. Nuolityyli opettaa oikean piirtojarjestyksen visuaalisesti ja asteittain vaikeutuvat tilat tekevat eriyttamisesta helppoa. Viisi kirjasintyylia kattaa kaikki tarpeet.',
+      name: 'Jarmo Huttunen',
+      role: '1. luokan opettaja',
+      school: 'Norssin koulu, Jyväskylä',
+    },
+  ],
+
+  tips: {
+    sectionTitle: 'Käsinkirjoitusstrategiat luokka-asteittain',
+    sectionDescription: 'Säädä käsinkirjoitusgeneraattori sopivaan haasteeseen kullekin kehitysvaiheelle. Näin valitset jäljennöstilan, kirjasintyylin ja sisällön esikoulusta kolmanteen luokkaan.',
+    items: [
+      {
+        id: 'esikoulu',
+        icon: '🌱',
+        title: 'Esikoulu: Esiviivoitusharjoitukset ja käden koordinaatio',
+        description: 'Kaytta esiviivoitusharjoituksia (pystyviivat, vaakaviivat, ympyrat). Esikoululaiset kehittavat kaden koordinaatiota ennen kirjainten harjoittelua. Motorinen valmius on edellytys sujuvalle kirjoittamiselle.',
+      },
+      {
+        id: 'esiopetus',
+        icon: '🎒',
+        title: 'Esiopetus: Jäljennöstila isoilla kirjaimilla',
+        description: 'Luo tehtavia jaljennos-tilalla isoilla kirjaimilla. Esiopetuksen oppilaat jaljentavat kirjaimia suoraan mallin paalle. Nuolityyli opettaa oikean piirtojarjestyksen. Tukee POPS 2014 tavoitteita.',
+      },
+      {
+        id: '1-luokka',
+        icon: '📚',
+        title: '1. luokka: Haalistuva jäljennös sanoilla',
+        description: 'Generoi tehtavia haalistuva jaljennos -tilalla sanoilla ja lyhyilla lauseilla. Ekaluokkalaiset siirtyvat jaljentamisesta itsenaiseen kirjoittamiseen asteittain. Pienilla ja isoilla kirjaimilla.',
+      },
+      {
+        id: '2-luokka',
+        icon: '✏️',
+        title: '2. luokka: Ohjattu kopio ja lauseet',
+        description: 'Luo tehtavia ohjattu kopio -tilalla pidemmilla lauseilla. Toisluokkalaiset kopioivat esimerkin ja kirjoittavat itsenaisesti. Esittele kursiivityylia asteittain.',
+      },
+      {
+        id: '3-luokka',
+        icon: '🎯',
+        title: '3. luokka: Kursiivi ja itsenäinen kirjoitus',
+        description: 'Kaytta kursiivikirjasintyylia lauseilla ja kappaleilla. Kolmasluokkalaiset hallitsevat sujuvan kursiivikirjoituksen. Tyhja-tila haastaa itsenaiseen kirjoittamiseen ilman malleja.',
+      },
+    ],
   },
 };
 

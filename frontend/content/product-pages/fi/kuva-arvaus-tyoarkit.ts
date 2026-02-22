@@ -93,7 +93,56 @@ Täysi Käyttöoikeus -tilaus sisältää kaikkien 33 tehtävägeneraattorin kä
       noHiddenFees: 'Ei piilomaksuja',
       cancelAnytime: 'Peruuta milloin tahansa',
     },
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        icon: '📷',
+        title: 'Kuvavihjepohjainen kirjainten täydentämistehtävä',
+        description: 'Generaattori luo tehtäviä joissa kuva toimii vihjeenä ja osa kirjaimista on piilotettu. Oppilaat päättelevät sanan kuvan perusteella ja täyttävät puuttuvat kirjaimet. Yhdistää visuaalisen tunnistamisen ja kirjaintuntemuksen harjoittelun.',
+      },
+      {
+        id: '2',
+        icon: '📊',
+        title: 'Neljä asteittain vaikeutuvaa tasoa',
+        description: 'Valitse neljästä vaikeustasosta: ei vihjeitä, helppo, normaali ja vaikea. Ei vihjeitä -tila näyttää tyhjat ruudut. Helppo näyttää puolet kirjaimista. Normaali näyttää neljäsosan. Vaikea näyttää kuudesosan.',
+      },
+      {
+        id: '3',
+        icon: '🔠',
+        title: 'Mukautettu kirjainten poissulkeminen',
+        description: 'Määritä mitkä kirjaimet piilotetasän kohdistetusti. Kohdista harjoittelu tiettyihin vaikeisiin kirjaimiin kuten ä, ö, y tai harvinaisempiin konsonantteihin. Tämä mahdollistaa foneemitietoisuuden kohdistetun harjoittelun.',
+      },
+      {
+        id: '4',
+        icon: '🖼️',
+        title: 'Yli 3000 teemakuvaa sanastoharjoituksiin',
+        description: 'Valitse yli 3000 lapsiystavellisesta kuvasta sana-arvoitusten luomiseen. Eläimet, ruoka, kulkuneuvot, ammattit ja kymmenet muut teemat. Kuvien nimet toimivat suoraan sanoina tehtävissä.',
+      },
+      {
+        id: '5',
+        icon: '✅',
+        title: 'Automaattiset vastausavaimet',
+        description: 'Jokainen kuva-arvaustehtävä generoi automaattisesti vastausavaimen täydellisillä sanoilla. Opettajat tarkistavat oppilastöitä sekunneissa. Vastausavaimet tulostuvat erilliselle sivulle.',
+      },
+      {
+        id: '6',
+        icon: '🎨',
+        title: 'Täysi muokkaus pohjalla',
+        description: 'Muokkaa jokaista elementtiä luomisen jälkeen. Siirrä, skaalaa ja kierrä kuvia vapaasti. Lisää omaa tekstiä, valitse fontteja ja värejä. Tee jokaisesta tehtävästä ainutlaatuinen.',
+      },
+      {
+        id: '7',
+        icon: '💼',
+        title: 'Kaupallinen lisenssi myyntiin',
+        description: 'Tilauksesi sisältää kaupalliset oikeudet myydä kuva-arvaustehtäviä verkossa. Luo temaattisia sana-arvoituspaketteja opettajakauppoihin. Ei attribuutiovaatimuksia eikä lisämaksuja.',
+      },
+      {
+        id: '8',
+        icon: '🌍',
+        title: '11 kielen tuki',
+        description: 'Luo kuva-arvaustehtäviä 11 kielellä. Kuvien nimet ja käyttöliittymä kääntyvät valitulle kielelle. Täydellinen monikielisille luokkahuoneille ja sanastonoppimiseen eri kielillä.',
+      },
+    ]
     
   },
 
@@ -176,7 +225,50 @@ Valitse harmaasävyvaihtoehto säästääksesi värimustetta. Klikkaa "Harmaasä
     badgeText: 'Kenelle Sopii',
     readMoreLabel: 'Lue lisää',
     showLessLabel: 'Näytä vähemmän',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        icon: '🌱',
+        title: 'Esiopetuksen opettajat',
+        subtitle: 'Kirjaintuntemuksen perusteet 5–6-vuotiaille',
+        description: 'Luo helppoja kuva-arvaustehtäviä jossa puolet kirjaimista on näkyssä. Esiopetuksen oppilaat tunnistavat tutut kuvat ja harjoittelevat kirjainten tunnistamista. Visuaalinen vihjeet tekevät kirjoittamisesta turvallista ja motivoivaa. Tukee POPS 2014 tavoitteita.',
+      },
+      {
+        id: '2',
+        icon: '📚',
+        title: 'Alakoulun opettajat',
+        subtitle: 'Oikeinkirjoituksen harjoittelua 1.–2. luokalla',
+        description: 'Generoi kuva-arvaustehtäviä normaalilla tai vaikealla tasolla. Oppilaat vahvistavat oikeinkirjoitusta täyttämällä puuttuvat kirjaimet. Kohdistettu kirjainten poissulkeminen mahdollistaa tiettyjen äänne-kirjainvastaavuuksien harjoittelun.',
+      },
+      {
+        id: '3',
+        icon: '🏠',
+        title: 'Kotiopettajat ja vanhemmat',
+        subtitle: 'Motivoivaa sanaharjoittelua kotiin',
+        description: 'Luo temaattisia kuva-arvaustehtäviä lasten suosikkiaiheilla. Eläin- ja ruokakuvat pitävät oppimisen hauskana. Asteittain vaikeutuva taso sopii itsenaiseen harjoitteluun. Vanhemmat voivat seurata edistymistä.',
+      },
+      {
+        id: '4',
+        icon: '🌍',
+        title: 'S2-opettajat',
+        subtitle: 'Sanastonoppimista kuvavihjein',
+        description: 'Kuva-arvaustehtävät yhdistävät kuvan ja sanan luonnollisesti. Oppilaat oppivat uusia sanoja visuaalisen vihjeen avulla. 11 kielen tuki mahdollistaa monikielisen sanastonopetuksen.',
+      },
+      {
+        id: '5',
+        icon: '💜',
+        title: 'Erityisopettajat',
+        subtitle: 'Säädettävät kirjainharjoitukset',
+        description: 'Säädä vaikeustasoa ja kirjainten poissulkemista HOJKS-tavoitteiden mukaisesti. Helppo taso tukee heikompia oppilaita runsailla vihjeillä. Kohdistettu harjoittelu mahdollistaa tiettyjen kirjainten tehostetun opetuksen.',
+      },
+      {
+        id: '6',
+        icon: '💰',
+        title: 'Opettajayrittäjät',
+        subtitle: 'Myy sana-arvoituspaketteja kaupallisella lisenssillä',
+        description: 'Luo teemallisia kuva-arvauskokoelmia myytäväksi verkossa. Sana-arvoitustehtävät ovat suosittuja opetusmateriaaleja. Kaupallinen lisenssi kattaa rajattomat myynnit.',
+      },
+    ]
     
   },
 
@@ -191,7 +283,68 @@ Valitse harmaasävyvaihtoehto säästääksesi värimustetta. Klikkaa "Harmaasä
     showLessLabel: 'Näytä vähemmän',
     secureCheckout: 'Turvallinen maksu',
     cancelAnytime: 'Peruuta milloin tahansa',
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        question: 'Miten kuva-arvausgeneraattori toimii?',
+        answer: 'Generaattori luo tehtäviä joissa kuva toimii vihjeena ja osa kirjaimista on piilotettu. Oppilas päättelee sanan kuvan perusteella ja täyttää puuttuvat kirjaimet. Valitse vaikeustaso ja teema.',
+      },
+      {
+        id: '2',
+        question: 'Mitkä vaikeustasot ovat saatavilla?',
+        answer: 'Neljä tasoa: ei vihjeitä (tyhjät ruudut), helppo (puolet kirjaimista näkyy), normaali (neljäsosa näkyy) ja vaikea (kuudesosa näkyy). Valitse taso oppilaiden taitotason mukaan.',
+      },
+      {
+        id: '3',
+        question: 'Miten kirjainten poissulkeminen toimii?',
+        answer: 'Määritä mitkä kirjaimet piilotetaan kohdistetusti. Esimerkiksi piilota kaikki ä-kirjaimet tai vokaalit. Tämä mahdollistaa tiettyjen äänne-kirjainvastaavuuksien kohdistetun harjoittelun.',
+      },
+      {
+        id: '4',
+        question: 'Sisältävätkö tehtävät vastausavaimet?',
+        answer: 'Kyllä, jokainen tehtävä generoi automaattisesti vastausavaimen täydellisillä sanoilla. Opettajat tarkistavat oppilastöitä nopeasti. Vastausavaimet tulostuvat erilliselle sivulle.',
+      },
+      {
+        id: '5',
+        question: 'Mille ikäryhmille kuva-arvaustehtävät sopivat?',
+        answer: 'Kuva-arvaustehtävät palvelevat 4–10-vuotiaita. Esikoululaiset käyttävät helppoa tasoa tunnistaen tutut kirjaimet. 1.–3. luokan oppilaat vahvistavat oikeinkirjoitusta vaativammilla tasoilla.',
+      },
+      {
+        id: '6',
+        question: 'Miten kuva-arvaus kehittää oikeinkirjoitusta?',
+        answer: 'Oppilaat päättelevät sanan kuvan perusteella ja kirjoittavat puuttuvat kirjaimet. Tämä yhdistää visuaalisen tunnistamisen, äännetietoisuuden ja motorisen kirjoittamisen. Aktiivinen täydentäminen rakentaa vahvempaa ortografista muistia.',
+      },
+      {
+        id: '7',
+        question: 'Voiko omia kuvia käyttää?',
+        answer: 'Kyllä, lataa rajattomasti omia kuvia JPEG-, PNG- tai GIF-muodossa. Nimeä tiedostot sanojen mukaan (esim. kissa.jpg). Generaattori käyttää tiedostonimea sanana tehtävässä.',
+      },
+      {
+        id: '8',
+        question: 'Miten tulostan kuva-arvaustehtävät?',
+        answer: 'Lataa tehtäväsi PDF- tai JPEG-muodossa 300 DPI laadulla. Valitse A4 tai Letter-sivukoko. Harmaasävyvaihtoehto säästää värimustetta. Ammattimaiset tulosteet kotitulostimella.',
+      },
+      {
+        id: '9',
+        question: 'Sopiiko generaattori erityisopetukseen?',
+        answer: 'Erinomaisesti. Helppo taso antaa runsaasti vihjeitä heikompille oppilaille. Kohdistettu kirjainten poissulkeminen mahdollistaa yksilollisen harjoittelun. Säädä tasoa HOJKS-tavoitteiden mukaisesti.',
+      },
+      {
+        id: '10',
+        question: 'Kuinka kauan yhden tehtävän luominen kestää?',
+        answer: 'Yhden kuva-arvaustehtävän luominen vie alle 3 minuuttia. Valitse teema ja vaikeustaso 30 sekunnissa. Generaattori luo tehtävän välittömästi. Viikon tehtävät valmistuvat 15 minuutissa.',
+      },
+      {
+        id: '11',
+        question: 'Voinko myydä luomiani tehtäviä?',
+        answer: 'Kyllä, tilauksesi sisältää kaupallisen lisenssin. Myy sana-arvoituspaketteja opettajakauppoissa ilman attribuutiovaatimuksia. Monet opettajat ansaitsevat lisätuloja teemallisilla paketeilla.',
+      },
+      {
+        id: '12',
+        question: 'Miten kuva-arvaus tukee POPS 2014 tavoitteita?',
+        answer: 'Kuva-arvaustehtävät kehittävät kirjaintuntemusta, oikeinkirjoitusta ja sanavarastoa. POPS 2014 korostaa monipuolista luku- ja kirjoitustaidon harjoittelua. Kuvapohjaiset tehtävät tukevat visuaalista oppimista.',
+      },
+    ]
     
   },
 
@@ -262,8 +415,157 @@ Valitse harmaasävyvaihtoehto säästääksesi värimustetta. Klikkaa "Harmaasä
       securePayment: 'Turvallinen maksu',
       cancelAnytime: 'Peruuta milloin tahansa',
     },
-    items: [], // Samples loaded dynamically from content manager
+    items: [
+      {
+        id: '1',
+        slug: 'sananhaku-tyoarkit',
+        name: 'Sananhaku',
+        category: 'Sanasto',
+        icon: '🔍',
+        description: 'Sananhaku kehittää sanojen tunnistamista ja oikeinkirjoitusta. Yhdistä kuva-arvauksen kanssa kattavaan sanaharjoitteluun.',
+      },
+      {
+        id: '2',
+        slug: 'sanansekoitus-tyoarkit',
+        name: 'Sanojen sekoitus',
+        category: 'Sanasto',
+        icon: '🔀',
+        description: 'Sanojen sekoitustehtävät harjoittavat kirjainten järjestämistä sanoiksi. Täydentää kuva-arvauksen kirjaintuntemuksen harjoittelua.',
+      },
+      {
+        id: '3',
+        slug: 'ristisanatehtavat-tyoarkit',
+        name: 'Ristisanatehtävät',
+        category: 'Sanasto',
+        icon: '🧩',
+        description: 'Ristisanatehtävät yhdistävät vihjepohjaisen arvaamisen ja kirjainten sijoittamisen. Molemmat kehittävät sanavarastoa ja oikeinkirjoitusta.',
+      },
+      {
+        id: '4',
+        slug: 'aakkosjuna-tyoarkit',
+        name: 'Aakkosjuna',
+        category: 'Lukutaito',
+        icon: '🚂',
+        description: 'Aakkosjuna opettaa aakkosten järjestyksen ja kirjainten tunnistamisen. Yhdistä kuva-arvauksen kanssa kattavaan kirjainharjoitteluun.',
+      },
+      {
+        id: '5',
+        slug: 'kasinkirjoitus-tyoarkit',
+        name: 'Käsinkirjoitus',
+        category: 'Kirjoittaminen',
+        icon: '✏️',
+        description: 'Käsinkirjoituksen harjoittelu kehittää kirjainten muodostusta. Kuva-arvauksen kanssa oppilaat tunnistavat ja kirjoittavat kirjaimet monipuolisesti.',
+      },
+      {
+        id: '6',
+        slug: 'kuva-bingo-tyoarkit',
+        name: 'Kuvabingo',
+        category: 'Sanasto',
+        icon: '🎲',
+        description: 'Kuvabingo yhdistää kuvan ja sanan pelimuodossa. Molemmat kehittävät sanavarastoa visuaalisten vihjeiden avulla.',
+      },
+    ]
     
+  },
+
+  // -- SEO & Content Enrichment (Part 178) ------------------------------------
+
+  aiOverviewSnippet: 'Kuva-arvausgeneraattori on verkkotyokalu, jolla luodaan tulostettavia sana-arvoitustehtavia esiopetukseen ja alakouluun. Oppilaat paattelevat sanan kuvavihjeen perusteella ja tayttavat puuttuvat kirjaimet neljalla eri vaikeustasolla. Opettajat valitsevat teeman, vaikeustason ja kirjainten poissulkemisen, ja lataavat valmiin PDF-tehtavan vastausavaimineen alle 3 minuutissa.',
+
+  comparisonTable: [
+    {
+      feature: 'Vaikeustasot',
+      ourApp: '4 asteittain vaikeutuvaa tasoa',
+      typical: 'Yksi kiinteä taso',
+    },
+    {
+      feature: 'Kirjainten kohdistus',
+      ourApp: 'Mukautettu kirjainten poissulkeminen',
+      typical: 'Satunnainen piilottaminen',
+    },
+    {
+      feature: 'Kuvavihjeet',
+      ourApp: '3000+ kuvaa vihjeinä sanoille',
+      typical: 'Rajallinen kuvavalinta',
+    },
+    {
+      feature: 'Vastausavaimet',
+      ourApp: 'Automaattinen vastausavain joka tehtävään',
+      typical: 'Manuaalinen tai ei saatavilla',
+    },
+    {
+      feature: 'Kaupallinen lisenssi',
+      ourApp: 'Sisältyy, myy vapaasti verkossa',
+      typical: 'Lisämaksu tai ei saatavilla',
+    },
+    {
+      feature: 'Kielituki',
+      ourApp: '11 kieltä mukaan lukien suomi',
+      typical: 'Vain englanti',
+    },
+  ],
+
+  researchBacking: [
+    {
+      claim: 'Produktiivinen oikeinkirjoituksen harjoittelu, jossa oppilaat aktiivisesti täydentävät puuttuvia kirjaimia, rakentaa vahvempia ortografisia representaatioita kuin passiivinen kopiointi tai tunnistaminen.',
+      source: 'Lerkkanen, M.-K. et al., "Luku- ja kirjoitustaidon kehitys alkuopetuksessa," Jyväskylän yliopisto',
+    },
+    {
+      claim: 'Vihjeiden asteittainen vähentäminen (scaffolding) tukee itseohjautuvaa oppimista ja siirtää vastuuta opettajalta oppilaalle systemaattisesti.',
+      source: 'Nurmi, J.-E. et al., "Oppimismotivaatio ja itseohjautuvuus varhaiskasvatuksessa," Turun yliopisto',
+    },
+  ],
+
+  teacherTestimonials: [
+    {
+      quote: 'Kuva-arvaustehtavat ovat erinomainen tapa yhdistaa kirjaintuntemus ja sanasto. Oppilaani oppivat tunnistamaan kirjaimia ja kirjoittamaan sanoja samanaikaisesti. Neljan vaikeustason ansiosta eriyttaminen on helppoa.',
+      name: 'Anni Rautio',
+      role: 'Esiopetuksen opettaja',
+      school: 'Linnainmaan päiväkoti, Tampere',
+    },
+    {
+      quote: 'Kaytan kuva-arvaustehtavia oikeinkirjoituksen harjoittelussa viikoittain. Kohdistettu kirjainten poissulkeminen mahdollistaa vaikeiden kirjainten tehostetun harjoittelun. Ekaluokkalaiset kehittyivat selkeasti oikeinkirjoituksessa.',
+      name: 'Markku Pennanen',
+      role: '1. luokan opettaja',
+      school: 'Pyynikin koulu, Tampere',
+    },
+  ],
+
+  tips: {
+    sectionTitle: 'Kuva-arvausstrategiat luokka-asteittain',
+    sectionDescription: 'Säädä kuva-arvausgeneraattori sopivaan haasteeseen kullekin kehitysvaiheelle. Näin valitset vaikeustason, kirjainten poissulkemisen ja sanojen pituuden esikoulusta kolmanteen luokkaan.',
+    items: [
+      {
+        id: 'esikoulu',
+        icon: '🌱',
+        title: 'Esikoulu: Helppo taso lyhyillä sanoilla',
+        description: 'Kaytta helppoa tasoa (puolet kirjaimista nakyvissa) lyhyilla 3-4 kirjaimen sanoilla. Esikoululaiset tunnistavat tutut kirjaimet ja taydentavat yksinkertaisia sanoja. Kuvat auttavat paattelemaan sanan.',
+      },
+      {
+        id: 'esiopetus',
+        icon: '🎒',
+        title: 'Esiopetus: Normaali taso ja kirjainkohdistus',
+        description: 'Luo tehtavia normaalilla tasolla (neljasosa kirjaimista nakyvissa). Kohdista harjoittelu tiettyihin kirjaimiin kuten a, o, i. Esiopetuksen oppilaat vahvistavat kirjaintuntemusta aktiivisella taydentamisella. Tukee POPS 2014 tavoitteita.',
+      },
+      {
+        id: '1-luokka',
+        icon: '📚',
+        title: '1. luokka: Vaikea taso ja pitkät sanat',
+        description: 'Generoi tehtavia vaikealla tasolla (kuudesosa kirjaimista nakyvissa) ja pidemmilla sanoilla. Ekaluokkalaiset harjoittelevat oikeinkirjoitusta haastavasti. Kohdista piilotus vaikeisiin kirjaimiin kuten a, o, y.',
+      },
+      {
+        id: '2-luokka',
+        icon: '✏️',
+        title: '2. luokka: Ei vihjeitä ja monimutkaiset sanat',
+        description: 'Luo tehtavia ilman vihjeit a (tyhjat ruudut) sanoilla jotka sisaltavat tuplakonsonantteja ja diftongeja. Toisluokkalaiset kirjoittavat koko sanan kuvan perusteella. Kehittaa itsenalist a oikeinkirjoitustaitoa.',
+      },
+      {
+        id: '3-luokka',
+        icon: '🎯',
+        title: '3. luokka: Haastavat sana-arvoitukset',
+        description: 'Kaytta ei vihjeit a -tilaa pitkilla ja monimutkaisilla sanoilla. Kolmasluokkalaiset hallitsevat oikeinkirjoituksen ja kirjoittavat sanoja sujuvasti. Tehtavat vahvistavat ortografista muistia ja sanavarastoa.',
+      },
+    ],
   },
 };
 

@@ -207,6 +207,165 @@ const content: EnrichedThemeContent = {
   // -- Cross-linking --
   relatedThemes: ['fruits', 'food', 'garden', 'cooking', 'farm', 'nature'],
   relatedBlogCategories: [],
+
+  // -- SEO Enrichment (Part 183) --
+
+  classroomScenarios: [
+    {
+      situation: 'Esiopetuksen opettaja huomaa, että oppilaat torjuvat vihanneksia sekä ruokapyydässä että oppimistilanteissa, ja heidän vihannessanastonsa rajoittuu muutamaan peruslajiin.',
+      solution: 'Hän ottaa käyttöön vihannessaiheiset työlehdet, joissa oppilaat värittävät värikkäitä vihanneksia, lajittelevat niitä värin ja kasvutavan mukaan, laskevat juureksia ja lehtivihanneksia ja yhdistävät vihanneksen sen siemeneen.',
+      outcome: 'Kolmen viikon jälkeen oppilaat suhtautuvat vihanneksiin uteliaasti, tunnistavat yli kymmenen vihanneslajia, ymmärtävät kasvien eri osia ja käyttävät luokittelusanastoa arjessa.',
+    },
+    {
+      situation: 'Kotikouluvanhempi etsii teemaa, joka yhdistää puutarhanhoitoon, ravitsemukseen ja matematiikkaan lapselle, joka auttaa mielellään keittiössä ja puutarhassa.',
+      solution: 'Vanhempi käyttää vihannestyolehtia yhdistettynä puutarhan viljelyyn ja keittiön tehtäviin: lapsi kylvää siemeniä, mittaa kasvua, lajittelee satoa ja valmistaa yksinkertaisia vihannesruokia reseptityölehden avulla.',
+      outcome: 'Lapsi ymmärtää kasvien kasvuprosessin siemenestä sadoksi, hallitsee mittaamisen ja lajittelun ja arvostaa vihanneksia osana terveellistä ruokavaliota.',
+    },
+  ],
+
+  quickStats: [
+    { label: 'Suositeltu ikähaarukka', value: '3–9 vuotta' },
+    { label: 'Työlehtisovellusten määrä', value: '10 sovellusta' },
+    { label: 'Opetussuunnitelman alueet', value: '4 aluetta' },
+    { label: 'Tuetut luokkatasot', value: 'Esiopetus–3. lk' },
+    { label: 'Keskimääräinen työskentelyaika', value: '10–20 min' },
+    { label: 'Vihanneslajien kirjo', value: '20+ vihannesta' },
+  ],
+
+  differentiationStrategies: [
+    {
+      learnerType: 'Visuaaliset oppijat',
+      adaptation: 'Käytä värikkäitä vihannes kuvituksia ja poikkileikkauskuvia, jotka paljastavat sisärakenteen. Väripohjaiset lajittelukortit (vihreät, oranssit, punaiset, violetit vihannekset) auttavat hahmottamaan monimuotoisuutta.',
+    },
+    {
+      learnerType: 'Kinesteettiset oppijat',
+      adaptation: 'Tuo oikeita vihanneksia luokkaan: oppilaat tunnustelevat pintoja, halkaisevat vihanneksia nähdäkseen sisärakenteen, punnitsevat ja mittaavat niitä ja kylvävät siemeniä luokkahuoneen kasvatusastiaan.',
+    },
+    {
+      learnerType: 'S2-oppijat',
+      adaptation: 'Vihannekset ovat universaali ruokaryhmä, joka esiintyy kaikissa kulttuureissa. Aloita tuttujen vihannesten suomenkielisistä nimistä ja laajenna harvinaisempiin lajeihin. Kuvitetut sanakortit ja vihannes-kuva-sana-yhdistämistehtävät tukevat sanaston rakentamista.',
+    },
+    {
+      learnerType: 'Edistyneet oppijat',
+      adaptation: 'Haasta tutkimustehtävillä: vertaile kasvinosien (juuri, varsi, lehti, kukka, hedelmä) syötäviä osia eri vihanneksissa, tutki kasvuolosuhteita ja kirjoita viljelyopas luokan puutarhalle.',
+    },
+  ],
+
+  assessmentIdeas: [
+    {
+      method: 'Vihannesten tunnistus- ja luokittelukoe',
+      criteria: 'Näytä oppilaalle kaksitoista vihanneskuvaa ja pyydä nimeämään ne sekä lajittelemaan kasvutavan mukaan (juurekset, lehtivihannekset, hedelmävihannekset). Arvioi nimien oikeellisuutta ja luokittelun perusteluja.',
+      gradeLevel: 'Esiopetus–1. lk',
+    },
+    {
+      method: 'Puutarhapäiväkirja',
+      criteria: 'Seuraa oppilaan kasvatusprojektia viiden viikon ajan. Arvioi mittaamisen tarkkuutta, havaintojen yksityiskohtaisuutta ja tieteellisen sanaston käyttöä (siemen, iti, verso, lehti, juuri).',
+      gradeLevel: '1.–3. lk',
+    },
+    {
+      method: 'Ravitsemustiedon soveltamistehtävä',
+      criteria: 'Pyydä oppilasta suunnittelemaan päivän ateriat, joissa on vihanneksia joka aterialla. Arvioi monipuolisuutta, värien kirjoa ja kykyä perustella vihannesten terveyshyodät.',
+      gradeLevel: '2.–3. lk',
+    },
+  ],
+
+  crossCurricularLinks: [
+    {
+      subject: 'Ympäristöoppi (biologia ja terveystieto)',
+      connection: 'Vihannekset yhdistävät kasvitieteen (kasvien osat, kasvuprosessi) ja ravitsemustiedon (vitamiinit, kivennäisaineet). POPS 2014:n tavoitteet kasvien tutkimisesta ja terveellisestä ruokavaliosta toteutuvat yhdessä.',
+      activity: 'Vihannesluokittelutehtävän jälkeen oppilaat halkaissevat todellisia vihanneksia ja tutkivat niiden sisärakennetta: porkkanan juuri, salaatin lehti, kurkun hedelmä.',
+    },
+    {
+      subject: 'Matematiikka (mittaaminen ja lajittelu)',
+      connection: 'Vihannesten punnitseminen, mittaaminen ja lajittelu tarjoavat konkreettisen kontekstin matemaattisille käsitteille. Puutarhan kasvun seuranta kehittää taulukointia ja graafista esitystä.',
+      activity: 'Laskutehtävän jälkeen oppilaat punnitsevat vihanneksia, kirjaavat painot taulukkoon ja piirtävät pylväsdiagrammin raskaimmasta kevyimpaan.',
+    },
+    {
+      subject: 'Käsityö ja kotitalous',
+      connection: 'Vihannesten valmistaminen yhdistää keittiötaidot ja ravitsemustiedon. POPS 2014:n käsityön tavoitteet sisältävät arjen taitojen kehittämisen.',
+      activity: 'Vihannesreseptityölehden jälkeen oppilaat valmistavat yksinkertaisen vihannessalaatin tai keittodipistoksen, mitaten ja leikaten ohjatusti.',
+    },
+  ],
+
+  uniqueAngle: 'Vihannesaiheiset työlehdet yhdistävät ravitsemuskasvatuksen, kasvitieteen ja arjen taidot tavalla, joka voi muuttaa lasten suhtautumista vihanneksiin. Tutkimukset osoittavat, että toistuva altistuminen vihanneksille — myös kuvien ja nimien kautta — lisää lasten halukkuutta maistaa ja syödä niitä. Vihanneksissa piilee rikkas pedagoginen maailma: juurekset kasvavat maan alla, lehtivihannekset sen päällä, palkokasvit koteloissa — ja jokainen kasvutapa tarjoaa oman biologisen oppituntinsa. Suomessa puutarhanhoito ja ruoantuotannon ymmärtäminen ovat POPS 2014:n ympäristöopin keskeisiä tavoitteita, ja vihannestyolehdet rakentavat siltaa luokkahuoneen ja puutarhan välille. Konkreettinen viljelyprojekti yhdistettynä työlehtitehtäviin on yksi tehokkaimmista tavoista opettaa kärsivällisyyttä, vastuullisuutta ja luonnon prosessien kunnioittamista. Ravitsemuksen näkökulmasta vihannestyolehdet tukevat terveystiedon tavoitteita tekemallä vihanneksista tuttuja ja kiinnostavia ennen ruokapyytää.',
+
+  researchCitation: 'Nekitsing, C., Blundell-Birtill, P., Cockroft, J. E. & Hetherington, M. M. (2018). Systematic Review and Meta-analysis of Strategies to Increase Vegetable Consumption in Preschool Children. American Journal of Clinical Nutrition. Tutkimus osoitti, että monipuolinen altistuminen vihanneksille, mukaan lukien kuvallinen ja nimetty tutustuminen, lisää lasten vihannesten syöntiä merkittävästi.',
+
+  culturalNotes: 'Suomessa vihannesten viljely on olennainen osa maatalouskulttuuria ja kotipuutarhaperinnettä. POPS 2014 korostaa ruoantuotannon ymmärtämistä ja terveellisen ruokavalion merkitystä. Vihannestyölehdet yhdistävät suomalaisen puutarhaperinteen, ravitsemuskasvatuksen ja kasvitieteen tavalla, joka tukee sekä kotimaisten lajikkeiden tunnistamista että globaalin ruoantuotannon ymmärtämistä.',
+
+  snippetDefinition: 'Vihannesaiheiset työlehdet lapsille ovat tulostettavia oppimistehtäviä, jotka käyttävät porkkanoita, tomaatteja, kurkkuja ja muita vihanneksia lajittelun, laskemisen, sanaston ja ravitsemustiedon opettamiseen. Ne on suunniteltu 3–9-vuotiaille ja sisältävät luokittelua, mittaamista, kasvinosien tutkimista ja reseptitehtäviä.',
+
+  snippetHowTo: [
+    'Valitse työlehdet lapsen kehitystason mukaan: nuoremmille värittämistä ja tunnistamista, vanhemmille luokittelu- ja tutkimustehtäviä.',
+    'Aloita tutustumalla vihanneksiin moniaistisesti: tuo luokkaan oikeita vihanneksia kosketettaviksi, haistettaviksi ja tutkittaviksi.',
+    'Yhdistä työlehti puutarhaprojektiin: kylväkää siemeniä ja seuratkaa kasvua viikoittain mittaamalla.',
+    'Harjoittele luokittelua: lajitelkaa vihannekset kasvutavan (juures, lehti, hedelmä), värin tai koon mukaan.',
+    'Lisää keittiöulottuvuus: valmistakaa yksinkertainen vihannesruoka tehtävän jälkeen.',
+    'Keskustele terveellisestä ruokavaliosta: miksi lautasmallissa on vihanneksia ja miten eri väriset vihannekset sisältävät eri ravintoaineita.',
+    'Kerää valmiit työlehdet kansioon ja seuratkaa vihannessanaston ja luokittelutaitojen kehittymistä.',
+  ],
+
+  limitations: 'Vihannestyölehdet voivat painottua tyypillisiin eurooppalaisiin vihanneksiin, jolloin eri kulttuurien perinteiset kasvikset jäävät vähälle huomiolle. Allergiat ja ruoka-ainerajoitukset on huomioitava, kun työlehtitehtäviä yhdistetään oikeiden vihannesten käsittelyyn ja maistamiseen.',
+
+  themeComparisons: [
+    {
+      vsThemeId: 'fruits',
+      summary: 'Hedelmätyölehdet keskittyvät makeisiin hedelmiin ja trooppisiin lajeihin. Vihannestyölehdet tutkivat juureksia, lehtivihanneksia ja palkokasveja sekä kasvien eri osien syötävyyttä.',
+    },
+    {
+      vsThemeId: 'food',
+      summary: 'Ruokatyölehdet kattavat ruokavalion kokonaisuutena. Vihannestyölehdet syventyvät yhteen ruokaryhmään ja tutkivat kasvien biologiaa, viljelyumlä ja ravitsemuksellista merkitystä.',
+    },
+    {
+      vsThemeId: 'garden',
+      summary: 'Puutarhatyölehdet käsittelevät puutarhan kokonaisvaltaista hoitoa. Vihannestyölehdet keskittyvät syötävien kasvien tunnistamiseen, ravitsemukseen ja kasvuprosessiin.',
+    },
+    {
+      vsThemeId: 'farm',
+      summary: 'Maatilatyolehdet esittelevät maatalouden kokonaisuutena eläimineen ja koneineen. Vihannestyölehdet keskittyvät kasvinviljelyyn ja vihannesviljelyn prosessiin siemenestä sadoksi.',
+    },
+  ],
+
+  productLinks: [
+    {
+      appId: 'coloring',
+      anchorText: 'vihannesaiheiset väritystehtävät',
+      context: 'Vihannesten värityssivut kehittävät hienomotoriikkaa ja värien tunnistamista, kun lapset värittävät porkkanoita, tomaatteja ja paprikoita oikein värein.',
+    },
+    {
+      appId: 'find-and-count',
+      anchorText: 'vihannesten etsi ja laske -tehtävät',
+      context: 'Etsi ja laske -tehtävät kehittävät lukumääräkäsitettä, kun lapset etsivät ja laskevat eri vihanneslajeja värikkäistä puutarhakuvista.',
+    },
+    {
+      appId: 'word-search',
+      anchorText: 'vihannessanaston sanahaku-työlehdet',
+      context: 'Sanahakutehtävät vahvistavat vihannessanastoa, kun lapset etsivät termejä kuten porkkana, tomaatti, kurkku ja paprika sanaruudukosta.',
+    },
+    {
+      appId: 'picture-sort',
+      anchorText: 'vihannesten lajittelutehtävät',
+      context: 'Lajittelutehtävät kehittävät luokittelutaitoja, kun lapset lajittelevat vihanneksia kasvutavan, värin tai koon mukaan.',
+    },
+  ],
+
+  expertTips: [
+    {
+      tip: 'Aloita kasvatusprojekti nopeasti itavillä siemenillä kuten retiisin tai salaat in siemenillä: tulokset näkyvät viikossa, mikä ylläpitää lasten motivaatiota ja yhdistää työlehdet todelliseen kasvuprosessiin.',
+      source: 'Puutarhaopetuksen opas',
+      gradeRange: 'Esiopetus–2. lk',
+    },
+    {
+      tip: 'Käytä väriryhmittelyä ravitsemuskasvatuksessa: vihreät, oranssit, punaiset ja violetit vihannekset sisältävät eri ravintoaineita — värilajittelu opettaa sekä luokittelua että ravitsemusta samanaikaisesti.',
+      source: 'Ravitsemuskasvatuksen käsikirja',
+      gradeRange: '1.–3. lk',
+    },
+    {
+      tip: 'Yhdistä vihannestyolehdet maistamishetkeen: tutkimusten mukaan lasten on maistettava uutta vihannesta 10–15 kertaa ennen kuin he hyväksyvät sen — työlehtien kautta tapahtuva nimien oppiminen on osa tätä altistusprosessia.',
+      source: 'POPS 2014, terveystiedon opetuksen suositukset',
+      gradeRange: 'Esiopetus–3. lk',
+    },
+  ],
 };
 
 registerThemeContent('vegetables', 'fi', content);

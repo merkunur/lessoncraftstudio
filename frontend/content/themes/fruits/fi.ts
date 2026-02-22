@@ -207,6 +207,165 @@ const content: EnrichedThemeContent = {
   // -- Cross-linking --
   relatedThemes: ['vegetables', 'food', 'garden', 'colors', 'cooking', 'farm'],
   relatedBlogCategories: [],
+
+  // -- SEO Enrichment (Part 183) --
+
+  classroomScenarios: [
+    {
+      situation: 'Esiopetuksen opettaja huomaa, että oppilaat tunnistavat vain omenan ja banaanin eivätkä osaa nimetillä tai luokitella muita hedelmiä, mikä rajoittaa sanavarastoa ja ravintotietoa.',
+      solution: 'Hän ottaa käyttöön hedelmäaiheiset työlehdet, joissa oppilaat värittävät eri hedelmiä, lajittelevat niitä värin ja muodon mukaan, laskevat hedelmäryhmiä ja yhdistävät hedelmän sen puolikkaan leikkauskuvaan.',
+      outcome: 'Kolmen viikon jälkeen oppilaat tunnistavat yli viisitoista hedelmää, käyttävät luokittelusanastoa sujuvasti ja ymmärtävät hedelmien merkityksen terveellisessä ruokavaliossa.',
+    },
+    {
+      situation: 'Kotikouluvanhempi haluaa yhdistää ravitsemuskasvatuksen, matematiikan ja kielen oppimisen lapselle, joka on kiinnostunut ruoanlaitosta.',
+      solution: 'Vanhempi käyttää hedelmätyölehtiä yhdistettynä keittiön tutkimiseen: lapsi tunnistaa hedelmiä kaupassa, mittaa ja punnitsee niitä, laskee kustannuksia ja valmistaa hedelmäsalaatin reseptityölehden ohjeiden mukaan.',
+      outcome: 'Lapsi ymmärtää hedelmien alkuperän, tunnistaa trooppiset ja kotimaiset hedelmät, hallitsee perusmittaamisen ja osaa seurata yksinkertaista reseptiä itsenäisesti.',
+    },
+  ],
+
+  quickStats: [
+    { label: 'Suositeltu ikähaarukka', value: '3–9 vuotta' },
+    { label: 'Työlehtisovellusten määrä', value: '10 sovellusta' },
+    { label: 'Opetussuunnitelman alueet', value: '4 aluetta' },
+    { label: 'Tuetut luokkatasot', value: 'Esiopetus–3. lk' },
+    { label: 'Keskimääräinen työskentelyaika', value: '10–20 min' },
+    { label: 'Hedelmälajien kirjo', value: '20+ hedelmää' },
+  ],
+
+  differentiationStrategies: [
+    {
+      learnerType: 'Visuaaliset oppijat',
+      adaptation: 'Käytä värikkäitä, realistisia hedelmäkuvituksia ja poikkileikkauskuvia. Väri- ja muotopohjaiset lajittelukortit auttavat hahmottamaan hedelmien monimuotoisuutta. Hedelmäkartta, joka näyttää trooppisten hedelmien alkuperämaat, laajentaa maantieteellistä ymmärrystä.',
+    },
+    {
+      learnerType: 'Kinesteettiset oppijat',
+      adaptation: 'Tuo oikeita hedelmiä luokkaan: oppilaat tunnustelevat pintoja (sileä omena, karhea ananas, pehmeä persikka), punnitsevat ja mittaavat hedelmiä ja valmistavat hedelmäsalaatin tehtävän jälkeen.',
+    },
+    {
+      learnerType: 'S2-oppijat',
+      adaptation: 'Hedelmät ovat universaali ja kulttuurirajat ylittävä aihe — jokaisella lapsella on kokemuksia hedelmistä. Aloita tuttujen hedelmien suomenkielisistä nimistä ja laajenna trooppisiin hedelmiin. Kuvitetut sanakortit hedelmänimistä tukevat oppimista.',
+    },
+    {
+      learnerType: 'Edistyneet oppijat',
+      adaptation: 'Haasta tutkimustehtävillä: tutki hedelmien alkuperämaita maailmankartalla, laske ravintoarvoja vertailutehtävissä, kirjoita hedelmätietokortit ja tutki kasvien lisääntymistä siementen kautta.',
+    },
+  ],
+
+  assessmentIdeas: [
+    {
+      method: 'Hedelmätunnistuskoe',
+      criteria: 'Näytä oppilaalle viisitoista hedelmäkuvaa ja pyydä nimeämään ne suomeksi. Arvioi nimien oikeellisuutta, värien ja muotojen kuvailua sekä kykyä ryhmi tellä hedelmät esimerkiksi värin tai alkuperän mukaan.',
+      gradeLevel: 'Esiopetus–1. lk',
+    },
+    {
+      method: 'Hedelmäreseptitehtävä',
+      criteria: 'Anna oppilaalle yksinkertainen hedelmäsalaattiresepti ja pyydä laskemaan tarvittavat määrät neljälle hengelle. Arvioi kertolaskun hallintaa, mittayksiköiden tuntemusta ja reseptin seuraamisen tarkkuutta.',
+      gradeLevel: '2.–3. lk',
+    },
+    {
+      method: 'Hedelmälajittelun perustelutehtävä',
+      criteria: 'Pyydä oppilasta lajittelemaan kymmenen hedelmää kahteen ryhmään ja perustelemaan lajitteluperuste suullisesti tai kirjallisesti. Arvioi luokittelun loogisuutta ja perustelun selkeyttä.',
+      gradeLevel: 'Kaikki luokka-asteet',
+    },
+  ],
+
+  crossCurricularLinks: [
+    {
+      subject: 'Ympäristöoppi (terveystieto ja biologia)',
+      connection: 'Hedelmät yhdistävät ravitsemuskasvatuksen ja biologian: vitamiinit, kuidut ja kasvien lisääntyminen siementen kautta. POPS 2014:n terveystiedon tavoitteet terveellisestä ruokavaliosta toteutuvat luonnollisesti.',
+      activity: 'Hedelmälajittelutehtävän jälkeen oppilaat tutkivat oikean hedelmän siemeniä, halkaisevat omenan ja tarkkailevat sisärakennetta suurennuslasilla.',
+    },
+    {
+      subject: 'Matematiikka (laskeminen ja mittaaminen)',
+      connection: 'Hedelmät tarjoavat konkreettisen kontekstin laskemiselle, mittaamiselle ja lajittelulle. Punnitseminen, mittaaminen ja kustannuslaskenta kehittyvät luonnollisesti hedelmäkontekstissa.',
+      activity: 'Laskutehtävän jälkeen oppilaat punnitsevat oikeita hedelmiä vaa'alla, vertailevat painoja ja laskevat kokonaiskustannuksia kilohinnoin.',
+    },
+    {
+      subject: 'Maantieto ja kulttuurit',
+      connection: 'Trooppiset hedelmät avaavat ikkunan eri maanosiin ja ilmastovöhykkeisiin. Hedelmäkartta opettaa, mistä banaanit, ananakset ja mangot tulevat Suomeen.',
+      activity: 'Hedelmätunnistuksen jälkeen oppilaat merkitsevät maailmankarttaan hedelmien alkuperämaat ja piirtävät kuljetusreittejä Suomeen.',
+    },
+  ],
+
+  uniqueAngle: 'Hedelmäaiheiset työlehdet yhdistävät ravitsemuskasvatuksen, aistikokemuksen ja akateemiset taidot tavalla, joka on sekil välitömästi merkityksellinen että pedagogisesti monitahoinen. Jokainen lapsi syö hedelmiä päivittäin, joten oppiminen siirtyy välittömästi arkeen: kaupassa, keittiössä ja ruokapyydässä. Hedelmät tarjoavat rikkaan aistikokemuksen — värit, muodot, tuoksut, pintarakenteet ja maut — joka tekee oppimisesta moniaistista ja syvempillää. Suomessa hedelmäteema yhdistyy luontevasti terveellisen ruokavalion kasvatukseen, joka on POPS 2014:n terveystiedon keskeinen tavoite. Trooppisten hedelmien tutkiminen avaa ikkunan maantieteeseen ja globaaleihin ruokajärjestelmiin, kun taas kotimaisten marjojen ja hedelmien tunnistaminen vahvistaa suomalaista luontosuhdetta. Hedelmätyölehdet rakentavat luokittelutaitoja, väri- ja muotosanastoa sekä mittaamistaitoja kontekstissa, joka on lapsille välittömästi tuttu ja motivoiva.',
+
+  researchCitation: 'Cooke, L. (2007). The Importance of Exposure for Healthy Eating in Childhood. Journal of Human Nutrition and Dietetics. Tutkimus osoitti, että toistuva altistuminen erilaisille hedelmille ja vihanneksille — mukaan lukien kuvien, nimien ja työlehtitehtävien kautta — lisää lasten halukkuutta maistaa ja syödä niitä.',
+
+  culturalNotes: 'Suomessa hedelmät ja erityisesti kotimaiset marjat ovat tärkeä osa ruokakulttuuria. POPS 2014 painottaa terveellisen ruokavalion ymmärtämistä osana ympäristöopin ja terveystiedon opetusta. Hedelmätyölehdet yhdistävät luonnollisesti kotimaisten marjojen tunnistamisen ja trooppisten hedelmien maantieteen, rakentaen sekä suomalaista luontosuhdetta että globaalia ymmärrystä.',
+
+  snippetDefinition: 'Hedelmäaiheiset työlehdet lapsille ovat tulostettavia oppimistehtäviä, jotka käyttävät omenoita, banaaneja, mansikoita ja muita hedelmiä laskemisen, luokittelun, sanaston ja ravitsemustiedon opettamiseen. Ne on suunniteltu 3–9-vuotiaille ja sisältävät väri- ja muotolajittelua, mittaamista ja reseptitehtäviä.',
+
+  snippetHowTo: [
+    'Valitse työlehdet lapsen kehitystason mukaan: nuoremmille värittämistä ja yksinkertaista lajittelua, vanhemmille mittaus- ja laskutehtäviä.',
+    'Aloita tutustumalla hedelmiin moniaistisesti: anna lapsen koskettaa, haistaa ja maistaa oikeita hedelmiä ennen paperitehtävää.',
+    'Yhdistä työlehti kauppareissuun: tunnistakaa hedelmiä hedelmiläosastolla ja vertailkaa hintoja ja painoja.',
+    'Harjoittele luokittelua arjessa: lajitelkaa hedelmät värin, koon, muodon tai alkuperän mukaan.',
+    'Lisää keittiöulottuvuus: valmistakaa yhdessä hedelmäsalaatti tai smoothie tehtävän jälkeen.',
+    'Keskustele ravitsemuksesta: miksi hedelmät ovat tärkeitä, mitä vitamiineja niissä on ja montako annosta päivässä tarvitaan.',
+    'Kerää valmiit työlehdet kansioon ja seuratkaa hedelmäsanaston ja luokittelutaitojen kehittymistä.',
+  ],
+
+  limitations: 'Hedelmätyölehdet kuvaavat usein lähinnä kaupassa myytäviä hedelmiä, mikä voi jättää kotimaisten marjojen ja villihedelmien maailman käsittelemättä. Allergiset lapset saattavat tarvita erityishuomiota, jos tehtävissä käsitellään oikeita hedelmiä — sitrusallergiat ja ristiallergiiat ovat yleisiä.',
+
+  themeComparisons: [
+    {
+      vsThemeId: 'vegetables',
+      summary: 'Vihannestyölehdet keskittyvät juureksiin, lehtivihanneksiin ja palkokasvehin. Hedelmätyölehdet tutkivat makeita ja meheikkäitä hedelmiä, trooppisia lajeja ja siementen kautta kasvien lisääntymistä.',
+    },
+    {
+      vsThemeId: 'food',
+      summary: 'Ruokatyölehdet kattavat koko ruokavalion aterioista välipaloihin. Hedelmäteema syventyy yhteen ruokaryhmään ja tutkii hedelmien biologiaa, alkuperää ja ravintosisältöä.',
+    },
+    {
+      vsThemeId: 'garden',
+      summary: 'Puutarhatyölehdet käsittelevät kasvien viljelyumlä ja hoitoa kokonaisvaltaisesti. Hedelmäteema keskittyy hedelmien tunnistamiseen, luokitteluun ja ravitsemukselliseen merkitykseen.',
+    },
+    {
+      vsThemeId: 'cooking',
+      summary: 'Kokkaustyölehdet opettavat reseptien seuraamista ja keittiötaitoja. Hedelmäteema tarjoaa ainesosatietoa ja luokittelutaitoja, jotka täydentävät kokkausteemaa.',
+    },
+  ],
+
+  productLinks: [
+    {
+      appId: 'coloring',
+      anchorText: 'hedelmäaiheiset väritystehtävät',
+      context: 'Hedelmien värityssivut kehittävät hienomotoriikkaa ja värien tunnistamista, kun lapset värittävät omenoita, banaaneja ja mansikoita oikein värein.',
+    },
+    {
+      appId: 'find-and-count',
+      anchorText: 'hedelmien etsi ja laske -tehtävät',
+      context: 'Etsi ja laske -tehtävät kehittävät lukumääräkäsitettä, kun lapset etsivät ja laskevat eri hedelmälajeja värikkäistä kuvista.',
+    },
+    {
+      appId: 'word-search',
+      anchorText: 'hedelmäsanaston sanahaku-työlehdet',
+      context: 'Sanahakutehtävät vahvistavat hedelmäsanastoa, kun lapset etsivät termejä kuten mansikka, vesimeloni, ananas ja päärynä sanaruudukosta.',
+    },
+    {
+      appId: 'picture-sort',
+      anchorText: 'hedelmien lajittelutehtävät',
+      context: 'Lajittelutehtävät kehittävät luokittelutaitoja, kun lapset lajittelevat hedelmiä värin, muodon, koon tai alkuperän mukaan.',
+    },
+  ],
+
+  expertTips: [
+    {
+      tip: 'Tuo oikeita hedelmiä luokkaan työlehtien rinnalle: moniaistinen kokemus — näkö, haju, tunto, maku — syventää oppimista merkittävästi verrattuna pelkkiin kuviin.',
+      source: 'Ravitsemuskasvatuksen opas',
+      gradeRange: 'Esiopetus–2. lk',
+    },
+    {
+      tip: 'Käytä hedelmäkarttaa globaalin ymmärryksen rakentamiseen: näytä missä banaanit, ananakset ja mangot kasvavat ja keskustele kuljetuksen ympäristövaikutuksista.',
+      source: 'Globaalikasvatuksen menetelmäopas',
+      gradeRange: '2.–3. lk',
+    },
+    {
+      tip: 'Yhdistä hedelmätyölehdet välipalakasvatukseen: laske yhdessä, montako hedelmäannosta päivässä tarvitaan, ja suunnittele viikon välipalakalenteri hedelmistä.',
+      source: 'POPS 2014, terveystiedon opetuksen suositukset',
+      gradeRange: 'Esiopetus–3. lk',
+    },
+  ],
 };
 
 registerThemeContent('fruits', 'fi', content);

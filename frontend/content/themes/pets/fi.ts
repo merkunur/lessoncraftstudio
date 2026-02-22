@@ -206,6 +206,165 @@ const content: EnrichedThemeContent = {
   // -- Cross-linking --
   relatedThemes: ['animals', 'farm', 'zoo', 'birds', 'insects', 'ocean'],
   relatedBlogCategories: [],
+
+  // -- SEO Enrichment (Part 183) --
+
+  classroomScenarios: [
+    {
+      situation: 'Esiopetuksen opettaja huomaa, että oppilaat puhuvat jatkuvasti lemmikeistään, mutta eivät osaa kuvata eläinten tarpeita tai yhdistää lemmikkiteemaa oppimiseen.',
+      solution: 'Hän ottaa käyttöön lemmikkiaiheiset työlehdet, joissa oppilaat värittävät eri lemmikkilajeja, lajittelevat lemmikkejä hoitotarpeiden mukaan, laskevat ruokintamääriä ja kirjoittavat lyhyitä kuvauksia omasta tai unelmalemmikistään.',
+      outcome: 'Kolmen viikon jälkeen oppilaat ymmärtävät lemmikkien perustarpeet, käyttävät eläintenhoitoon liittyvää sanastoa ja osoittavat empatiaa ja vastuullisuutta lemmikkien hoitoa kohtaan.',
+    },
+    {
+      situation: 'Kotikouluvanhempi etsii teemaa, joka yhdistää vastuullisuuskasvatuksen, luonnontieteen ja tunnetaidot lapselle, joka toivoo omaa lemmikkiä.',
+      solution: 'Vanhempi käyttää lemmikkityölehtiä yhdistettynä eläinten hoitoprojektiin: lapsi tutkii eri lemmikkilajien tarpeita, vertailee hoitovaatimuksia, suunnittelee hoitoaikataulun ja pitää lemmikkipäiväkirjaa.',
+      outcome: 'Lapsi ymmärtää vastuullisen lemmikinoMistuksen periaatteet, vertailee lajien tarpeita ja osaa perustella, miksi lemmikin hoito vaatii päivittäistä sitoutumista.',
+    },
+  ],
+
+  quickStats: [
+    { label: 'Suositeltu ikähaarukka', value: '3–9 vuotta' },
+    { label: 'Työlehtisovellusten määrä', value: '10 sovellusta' },
+    { label: 'Opetussuunnitelman alueet', value: '4 aluetta' },
+    { label: 'Tuetut luokkatasot', value: 'Esiopetus–3. lk' },
+    { label: 'Keskimääräinen työskentelyaika', value: '10–20 min' },
+    { label: 'Lemmikkilajien kirjo', value: '15+ lajia' },
+  ],
+
+  differentiationStrategies: [
+    {
+      learnerType: 'Visuaaliset oppijat',
+      adaptation: 'Käytä yksityiskohtaisia lemmikkikuvituksia ja vertailutaulukoita. Lemmikkien hoitoinfografiikat — ruokinta, liikunta, terveydenhoito — auttavat hahmottamaan vastuullisuuden kokonaisuutta visuaalisesti.',
+    },
+    {
+      learnerType: 'Kinesteettiset oppijat',
+      adaptation: 'Yhdistä työlehdet luokan lemmikkinurkkaan tai eläinvierailuun: oppilaat hoitavat luokan akvaariokaloja tai lemmikkiä ja vertaavat oikeita hoitotehtäviä työlehden sisältöön. Eläinturvatalossa vierailu syventää empatiaa.',
+    },
+    {
+      learnerType: 'S2-oppijat',
+      adaptation: 'Lemmikit ovat universaali aihe, mutta lemmikkikulttuuri vaihtelee maittain. Aloita yleisimmistä lemmikeistä (koira, kissa, kani) ja rakenna sanastoa arjen hoitotoimien kautta. Kuvitetut sanakortit lemmikkisanoista tukevat oppimista.',
+    },
+    {
+      learnerType: 'Edistyneet oppijat',
+      adaptation: 'Haasta tutkimustehtävillä: vertaile eri lemmikkilajien elinkaaria ja hoitovaatimuksia, tutki vastuullisen eläintenpidon eettisiä näkökulmia ja kirjoita lemmikkihoito-opas valitsemalleen lajille.',
+    },
+  ],
+
+  assessmentIdeas: [
+    {
+      method: 'Lemmikkien hoitosuunnitelma',
+      criteria: 'Pyydä oppilasta valitsemaan yksi lemmikkilaji ja laatia viikon hoitoaikataulu (ruokinta, liikunta, puhtaus, lääkärikäynnit). Arvioi hoitotarpeiden ymmärtämistä, aikataulun realistisuutta ja vastuullisuuusn osoittamista.',
+      gradeLevel: '2.–3. lk',
+    },
+    {
+      method: 'Lemmikkitietovisa',
+      criteria: 'Esitä oppilaalle kymmenen kysymystä lemmikkien tarpeista, turvallisuudesta ja hyvinvoinnista. Arvioi tietojen oikeellisuutta ja kykyä selittää, miksi kukin hoitotoimi on tärkeä.',
+      gradeLevel: 'Esiopetus–1. lk',
+    },
+    {
+      method: 'Lemmikkien vertailutehtävä',
+      criteria: 'Anna oppilaalle kolme lemmikkilajia (esim. koira, kala, kani) ja pyydä vertailemaan niiden tarpeita taulukossa. Arvioi vertailun jäsenneltyisyyttä, erojen tunnistamista ja perustelujen selkeyttä.',
+      gradeLevel: 'Kaikki luokka-asteet',
+    },
+  ],
+
+  crossCurricularLinks: [
+    {
+      subject: 'Ympäristöoppi (biologia ja etiikka)',
+      connection: 'Lemmikkihoito opettaa eläinten perustarpeet (ravinto, suoja, liikunta, sosiaalinen vuorovaikutus) ja herättää eettisiä pohdintoja eläinten oikeuksista. POPS 2014:n tavoitteet vastuullisuudesta ja empatiasta toteutuvat luonnollisesti.',
+      activity: 'Lemmikkien lajittelutehtävän jälkeen oppilaat keskustelevat ryhmässä: mitä jokainen lemmikki tarvitsee ollakseen onnellinen, ja miten eläinten hyvinvoinnista huolehditaan.',
+    },
+    {
+      subject: 'Äidinkieli ja kirjallisuus',
+      connection: 'Lemmikkiteema innoittaa kuvailevaa ja kerronnallista kirjoittamista: omasta lemmikistä kertominen, unelmalemmkin kuvaus ja lemkkipäiväkirjan pitäminen kehittävät kielellistä ilmaisua.',
+      activity: 'Lemmikkityölehden jälkeen oppilaat kirjoittavat lyhyen tarinan lemmikkinsil tai unelmallemmikkinsil päivästä käyttäen vähintään viittä kuvailevaa adjektiivia.',
+    },
+    {
+      subject: 'Matematiikka (laskeminen ja aikataulut)',
+      connection: 'Lemmikkien hoito tarjoaa konkreettisen kontekstin laskemiselle ja aikatauluttamiselle: ruokintamäärät, ulkoiluminuutit ja eläinlääkärikäyntien välit.',
+      activity: 'Ruokintalaskutehtävän jälkeen oppilaat laskevat, paljonko koiran ruokinta maksaa viikossa ja kuukaudessa, ja vertailevat eri lemmikkien ruokintakustannuksia.',
+    },
+  ],
+
+  uniqueAngle: 'Lemmikkiaiheiset työlehdet ovat pedagogisesti ainutlaatuisia, koska ne yhdistävät akateemiset taidot, tunnetaidon ja vastuullisuuskasvatuksen tavalla, joka koskettaa lähes jokaista lasta henkilökohtaisesti. Lemmikki — olipa se oikea tai toivottu — on lapselle emotionaalisesti merkittävä, mikä tekee oppimisesta syvästi motivoivaa. Hoitovastuun käsittely työlehtien kautta opettaa päivittäistä sitoutumista, empatiaa ja eläinten tarpeiden ymmärtämistä tavalla, joka kehittää vastuullista kansalaisuutta. Suomessa eläinten hyvinvointi on lainsäädännöllisesti ja kulttuurisesti korkealla prioriteetilla, ja POPS 2014 painottaa empatiaa ja vastuullisuutta. Lemmikkityölehdet rakentavat siltaa emotionaalisen kiintymyksen ja tieteellisen ymmärryksen välille: lapsi oppii, että rakkaus lemmikkiä kohtaan ilmenee päivittäisenä hoitona, ei vain halinana. Eri lemmikkilajien vertailu kehittää analyyttistä ajattelua ja päätöksentekotaitoja.',
+
+  researchCitation: 'Endenburg, N. & van Lith, H. A. (2011). The Influence of Animals on the Development of Children. The Veterinary Journal. Tutkimus osoitti, että eläinten kanssa kasvaminen ja niiden hoitoon osallistuminen kehittävät merkittävästi lasten empatiaa, sosiaalisia taitoja ja vastuullisuutta.',
+
+  culturalNotes: 'Suomessa lemmikkieläinten hyvinvointi on lainsäädännöllisesti korkeatasoista, ja vastuullinen lemmikionomistaminen on kulttuurinen arvo. POPS 2014 korostaa empatiaa, vastuullisuutta ja eläinten kunnioittamista. Suomessa suosituimmat lemmikit ovat koirat ja kissat, mutta kanit, marssut ja akvaariokalat ovat myös yleisiä. Lemmikkityölehdet tukevat näiden arvojen opettamista konkreettisten hoitotehtävien kautta.',
+
+  snippetDefinition: 'Lemmikkiaiheiset työlehdet lapsille ovat tulostettavia oppimistehtäviä, jotka käyttävät koiria, kissoja, kaneja ja muita lemmikkilajeja vastuullisuuden, laskemisen, sanaston ja empatiakasvatuksen opettamiseen. Ne on suunniteltu 3–9-vuotiaille ja sisältävät hoitotarpeiden tutkimista, lajien vertailua ja tunnetaitotehtäviä.',
+
+  snippetHowTo: [
+    'Valitse työlehdet lapsen kehitystason mukaan: nuoremmille värittämistä ja tunnistamista, vanhemmille hoitosuunnitelmia ja vertailutehtäviä.',
+    'Aloita keskustelemalla lasten omista lemmikkikokemuksista: kenellä on lemmikki, millainen se on ja miten sitä hoidetaan.',
+    'Yhdistä työlehti eläinvierailuun: pyydä eläintenhoitajaa vierailulle tai vierailkaa eläinturvatalossa.',
+    'Harjoittele vastuullisuutta: suunnitelkaa yhdessä lemmikin hoitoaikataulu ja keskustelkaa, mitä jokainen hoitotoimi tarkoittaa.',
+    'Lisää tunnetaitoulottuvuus: keskustelkaa, miltä lemmikeistä tuntuu ja miten voimme huolehtia niiden hyvinvoinnista.',
+    'Vertailkaa eri lemmikkilajien tarpeita: koira tarvitsee ulkoilua, kala puhdasta vettä, kani tilaa hyppiä.',
+    'Kerää valmiit työlehdet lemmikkikansioon ja seuratkaa eläintuntemuksen ja vastuullisuuden kehittymistä.',
+  ],
+
+  limitations: 'Lemmikkiteema voi olla herättävä lapsille, jotka ovat menettäneet lemmikin — opettajan kannattaa olla herkkil lä surukokemuksille. Allergiset lapset saattavat tuntea ulkopuolisuutta, jos kaikki muut puhuvat koirista ja kissoista — varmista, että työlehdissä on myös allergiaystävällisiä lemmikkejä kuten kaloja ja kilpikonnia.',
+
+  themeComparisons: [
+    {
+      vsThemeId: 'animals',
+      summary: 'Eläintyölehdet kattavat villieläimiä ja kotieläimiä laajasti. Lemmikkiteema syventyy ihmisen ja eläimen suhteeseen, hoitovastuuseen ja emotionaaliseen kiintymykseen.',
+    },
+    {
+      vsThemeId: 'farm',
+      summary: 'Maatilatyölehdet esittelevät tuotantoeläimiä ja maatalousympäristöä. Lemmikkiteema keskittyy kotieläimiin kumppaneina ja perheen jäseninä.',
+    },
+    {
+      vsThemeId: 'zoo',
+      summary: 'Eläintarhatyölehdet tutkivat eksoottisia eläimiä valvotussa ympäristössä. Lemmikkiteema keskittyy kotona pidettäviin eläimiin ja päivittäiseen hoitovastuuseen.',
+    },
+    {
+      vsThemeId: 'birds',
+      summary: 'Lintuteema tutkii luonnonvaraisia lintuja ja niiden ekologiaa. Lemmikkiteema sisältää myös lemmikkilintuja mutta laajemmin kaikkia kotieläimiä ja niiden hoitoa.',
+    },
+  ],
+
+  productLinks: [
+    {
+      appId: 'coloring',
+      anchorText: 'lemmikkiaiheiset väritystehtävät',
+      context: 'Lemmikkien värityssivut kehittävät hienomotoriikkaa samalla kun lapset tutustuvat eri lemmikkilajien ulkonäköön ja erityispiirteisiin.',
+    },
+    {
+      appId: 'find-and-count',
+      anchorText: 'lemmikkien etsi ja laske -tehtävät',
+      context: 'Etsi ja laske -tehtävät kehittävät lukumääräkäsitettä ja visuaalista tarkkaavaisuutta, kun lapset etsivät ja laskevat eri lemmikkilajeja kuvasta.',
+    },
+    {
+      appId: 'word-search',
+      anchorText: 'lemmikkisanaston sanahaku-työlehdet',
+      context: 'Sanahakutehtävät vahvistavat lemmikkisanastoa, kun lapset etsivät termejä kuten koira, kissa, kani, marssu ja akvaario sanaruudukosta.',
+    },
+    {
+      appId: 'word-scramble',
+      anchorText: 'lemmikkinimien kirjainpulmatehtävät',
+      context: 'Kirjainpulmatehtävät haastavat lapsia kokoamaan lemmikkilajien ja hoitotermien nimiä sekoitetuista kirjaimista.',
+    },
+  ],
+
+  expertTips: [
+    {
+      tip: 'Aloita keskustelulla lasten omista lemmikkikokemuksista — tämä henkilökohtainen yhteys motivoi kaikkia tehtäviä ja antaa opettajalle tietoa ryhmil n eri taustoista.',
+      source: 'Tunnetaitokasvatuksen opas',
+      gradeRange: 'Esiopetus–1. lk',
+    },
+    {
+      tip: 'Järjestä eläinturvatalon vierailu tai eläintenhoitajan vierailu luokkaan: ammttilaisen kertomukset vastuullisesta eläintenpidosta jättävät pysyvän vaikutuksen ja tuovat työlehtisisil lön eläväksi.',
+      source: 'Ympäristökasvatuksen opas',
+      gradeRange: '1.–3. lk',
+    },
+    {
+      tip: 'Käytä lemmikkityölehtiä vastuullisuuskasvatuksen välineenä: hoitoaikataulun suunnittelu opettaa päivittäistä sitoutumista ja johdonmukaisuutta, jotka ovat yleisiakin elämäntaitoja.',
+      source: 'POPS 2014, laaja-alaisen osaamisen suositukset',
+      gradeRange: 'Esiopetus–3. lk',
+    },
+  ],
 };
 
 registerThemeContent('pets', 'fi', content);

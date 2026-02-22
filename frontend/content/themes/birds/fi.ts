@@ -207,6 +207,165 @@ const content: EnrichedThemeContent = {
   // -- Cross-linking --
   relatedThemes: ['animals', 'farm', 'insects', 'forest', 'garden', 'ocean'],
   relatedBlogCategories: [],
+
+  // -- SEO Enrichment (Part 183) --
+
+  classroomScenarios: [
+    {
+      situation: 'Toisen luokan opettaja huomaa, että oppilaat eivät osaa tunnistaa yleisimpiäkään suomalaisia lintuja, vaikka ne näkyvät päivittäin koulun pihalla.',
+      solution: 'Hän ottaa käyttöön lintuaiheiset työlehdet, joissa oppilaat värittävät lintulajeja, yhdistävät linnun sen lauluun, lajittelevat lintuja elinympsäristön mukaan ja laskevat lintuja talviruokintataulusta.',
+      outcome: 'Neljän viikon jälkeen oppilaat tunnistavat yli kymmenen kotimaista lintulajia, osaavat kuvailla lintujen ominaisuuksia ja ovat innostuneita lintujen tarkkailusta koulun pihalla.',
+    },
+    {
+      situation: 'Kotikouluvanhempi haluaa yhdistää luonnonharrastuksen ja akateemiset taidot lapselle, joka on kiinnostunut eläimistä ja viettää paljon aikaa ulkona.',
+      solution: 'Vanhempi käyttää lintutyölehtiä yhdistettynä linturetkeilyyn: lapsi pitää lintupäiväkirjaa, piirtää havaintoja, tunnistaa lajeja määritysoppaan avulla ja täyttää lajittelu- ja laskutehtäviä oikeiden havaintojen pohjalta.',
+      outcome: 'Lapsi tunnistaa kymmeniä lintulajeja äänen ja ulkonäön perusteella, ymmärtää muuttolintujen matkan ja osaa kertoa lintujen sopeutumista eri ympäristöihin.',
+    },
+  ],
+
+  quickStats: [
+    { label: 'Suositeltu ikähaarukka', value: '3–9 vuotta' },
+    { label: 'Työlehtisovellusten määrä', value: '10 sovellusta' },
+    { label: 'Opetussuunnitelman alueet', value: '4 aluetta' },
+    { label: 'Tuetut luokkatasot', value: 'Esiopetus–3. lk' },
+    { label: 'Keskimääräinen työskentelyaika', value: '10–20 min' },
+    { label: 'Lintulajien kirjo', value: '20+ lajia' },
+  ],
+
+  differentiationStrategies: [
+    {
+      learnerType: 'Visuaaliset oppijat',
+      adaptation: 'Käytä tarkkoja lintukuvituksia, jotka näyttävät höyhenien värit, nokan muodon ja jalkojen rakenteen. Vertailukortit samankaltaisista lajeista (esim. tali- ja sinitiainen) kehittävät visuaalista erottelutaitoa.',
+    },
+    {
+      learnerType: 'Kinesteettiset oppijat',
+      adaptation: 'Yhdistä työlehdet linturetkeen: oppilaat käyttävät kiikareita lintujen tarkkailuun, täyttävät havaintolomakkeita kentällä ja rakentavat linnunpöntön tai ruokintalaudan käsityönä.',
+    },
+    {
+      learnerType: 'S2-oppijat',
+      adaptation: 'Linnut ovat universaali aihe kaikissa kulttuureissa. Aloita yleisimmistä lajeista (varpunen, pulu, varis) ja rakenna sanastoa asteittain. Kuvitetut lintukortit suomenkielisine nimineen ja äänilinkkeineen tukevat oppimista.',
+    },
+    {
+      learnerType: 'Edistyneet oppijat',
+      adaptation: 'Haasta tutkimustehtävillä: vertaile muutto- ja paikkalintujen sopeutumia, tutki nokan muodon ja ruokavalion yhteyttä, dokumentoi koulun pihan lintulajisto ja kirjoita lajiesittely tieteelliseen malliin.',
+    },
+  ],
+
+  assessmentIdeas: [
+    {
+      method: 'Lintulajien tunnistuskoe',
+      criteria: 'Näytä oppilaalle kymmenen lintukuvaa ja pyydä nimeämään lajit sekä kertomaan kunkin linnun yksi erityispiirre. Arvioi tunnistuksen tarkkuutta ja kuvailun monipuolisuutta.',
+      gradeLevel: '1.–3. lk',
+    },
+    {
+      method: 'Lintupäiväkirja',
+      criteria: 'Kerää oppilaan lintuhavainnot neljän viikon ajalta. Arvioi havaintojen säännöllisyyttä, lajien tunnistamisen kehittymistä ja piirrosten yksityiskohtaisuuden kasvua.',
+      gradeLevel: 'Kaikki luokka-asteet',
+    },
+    {
+      method: 'Lintujen lajittelutehtävä',
+      criteria: 'Anna oppilaalle kaksitoista lintukuvaa ja pyydä lajittelemaan ne ryhmin: muuttolinnut ja paikkalinnut, tai ruokavalion mukaan (siemensyjät, hyönteissyjät, sekasyojät). Arvioi luokitteluperusteiden hallintaa.',
+      gradeLevel: 'Esiopetus–2. lk',
+    },
+  ],
+
+  crossCurricularLinks: [
+    {
+      subject: 'Ympäristöoppi (biologia ja ekologia)',
+      connection: 'Linnut ovat lähiympäristön näkyvimpiä villieläimiä: muuttolintujen matkat, pesäkäyttäytyminen ja sopeutumat eri ympäristöihin avaavat portin ekologiaan. POPS 2014 painottaa lähiympäristön eläimien tutkimista.',
+      activity: 'Lintulajien tunnistamistehtävän jälkeen oppilaat tarkkailevat koulun pihan lintuja 15 minuuttia, kirjaavat havainnot ja vertailevat tuloksia luokassa.',
+    },
+    {
+      subject: 'Äidinkieli ja kirjallisuus',
+      connection: 'Lintuaihe rikastuttaa kuvailevaa sanastoa: höyhenpuvun värit, laulun kuvaaminen sanoin ja lintujen käyttäytymisen kerronta kehittävät kielellistä ilmaisua.',
+      activity: 'Lintutyölehden jälkeen oppilaat kirjoittavat lyhyen tarinan lemmikkilinnustaan tai mielikuvituslintujen seikkailusta käyttäen vähintään viittä kuvailevaa adjektiivia.',
+    },
+    {
+      subject: 'Musiikki',
+      connection: 'Lintujen laulu on luonnon musiikkia, ja monien lajien äänet ovat tunnistettavia. Lintuteema yhdistää biologian ja musiikin opetuksen luonnollisesti.',
+      activity: 'Lintulajien tunnistuksen jälkeen oppilaat kuuntelevat eri lintujen ääniä ja yrittävät tunnistaa lajin pelkän laulun perusteella.',
+    },
+  ],
+
+  uniqueAngle: 'Lintuaiheiset työlehdet tarjoavat yhden harvoista teemoista, joissa luokkahuoneopetus siirtyy välittömästi todelliseen luontohavainnointiin — lintuja näkee joka päivä, kaikkialla, vuodenajasta riippumatta. Tämä jatkuva saatavuus tekee linnuista ainutlaatuisen tehokkaan pedagogisen välineen: jokainen ikkunasta näkyvä lintu vahvistaa työlehdellä opittua. Suomessa lintuharrastus on poikkeuksellisen suosittua, ja Pihalasku on kansallinen tapahtuma, johon osallistuvat tuhannet perheet. POPS 2014 korostaa lähiympäristön eläinten tutkimista, ja linnut ovat tähän tarkoitukseen ihantteelliset: ne ovat näkyviä, turvallisia tarkkailla ja monimuotoisia. Muuttolintujen matkat tarjoavat luontevan yhteyden maantieteeseen, ja pesäkäyttäytyminen avaa ikkunan eläinten sisäsyntyiseen viisauteen. Linnunpöntön rakentaminen yhdistää käsityön ja biologian, ja talviruokinta opettaa vastuullisuutta ja empatiaa.',
+
+  researchCitation: 'Louv, R. (2005). Last Child in the Woods. Algonquin Books. Tutkimus korostaa luontokokemusten, erityisesti lintujen ja muiden villieläinten havainnoinnin, merkitystä lasten kognitiiviselle, emotionaaliselle ja fyysiselle kehitykselle. Säännöllinen luontokontakti vähentää stressiiä ja parantaa keskittymiskykyä.',
+
+  culturalNotes: 'Suomessa lintuharrastus on poikkeuksellisen suosittua: BirdLife Suomi järjestää vuosittain Pihalaskun ja Talvilintulaskennan, joihin tuhannet perheet osallistuvat. Suomen kansallislintu on laulujoutsen, joka symboloi suomalaista erämaata ja puhtaita vesiä. POPS 2014 painottaa lähiympäristön eläinten tutkimista, ja lintutyölehdet tukevat tätä tavoitetta yhdistämällä luokkahuoneopetuksen ja ulkona tapahtuvan havainnoinnin.',
+
+  snippetDefinition: 'Lintuaiheiset työlehdet lapsille ovat tulostettavia oppimistehtäviä, jotka käyttävät tiaisia, punarrintoja, joutsenia ja muita lintuja lajitunnistuksen, ekologian, sanaston ja laskemisen opettamiseen. Ne on suunniteltu 3–9-vuotiaille ja sisältävät lintujen tunnistamista, elinympsäristöjen tutkimista ja muuttolintujen maantiedettä.',
+
+  snippetHowTo: [
+    'Valitse työlehdet lapsen kehitystason mukaan: nuoremmille värittämistä ja yksinkertaista tunnistamista, vanhemmille luokittelua ja tutkimustehtäviä.',
+    'Aloita tutustumalla koulun pihan tai kodin lähiympäristön lintuihin: tunnistakaa yhdessä yleisimmät lajit.',
+    'Yhdistä työlehti linturetkeen: tarkkailkaa lintuja kiikareilla ja vertailkaa havaintoja työlehden lajikuviin.',
+    'Harjoittele tunnistusta: nokan muoto, väritys ja koko auttavat erottamaan lajeja toisistaan.',
+    'Lisää ääniulottuvuus: kuunnelkaa lintujen lauluja verkosta ja yrittäkää tunnistaa laji pelkän äänen perusteella.',
+    'Rakentakaa linnunpönttö tai ruokkija ja seuratkaa, mitkä lajit vierailevat — kirjatkaa havainnot lintupäiväkirjaan.',
+    'Kerää valmiit työlehdet ja havainnot lintukansioon ja seuratkaa lajitunnistuksen ja ekologisen ymmärryksen kehittymistä.',
+  ],
+
+  limitations: 'Lintuteema vaatii jonkin verran ulkona tapahtuvaa havainnointia optimaalisen oppimistuloksen saavuttamiseksi, mikä voi olla haastavaa kaupunkiympäristössä tai huonolla säällä. Kiikareita ei ole käytettävissä kaikissa luokkahuoneissa, jolloin kuviin perustuva tunnistus ei anna yhtä rikaista kokemusta.',
+
+  themeComparisons: [
+    {
+      vsThemeId: 'animals',
+      summary: 'Eläintyölehdet kattavat laajan lajien kirjon. Lintuteema syventyy yhteen eläinryhmään ja opettaa höyhenrakenteen, laulun ja muuton kaltaisia erityispiirteitä.',
+    },
+    {
+      vsThemeId: 'farm',
+      summary: 'Maatilatyölehdet esittelevät kotieläimiä mukaan lukien siipikarjaa. Lintuteema keskittyy luonnonvaraisiin lintuihin ja niiden ekologisiin rooleihin.',
+    },
+    {
+      vsThemeId: 'insects',
+      summary: 'Hyönteisteema tutkii pienten eläinten ekologiaa. Lintuteema laajentaa elinympsäristötutkimuksen isompiin eläimiin ja opettaa saalistaja-saalis-suhdetta.',
+    },
+    {
+      vsThemeId: 'forest',
+      summary: 'Metsätyölehdet tutkivat metsäekosysteemiä kokonaisuutena. Lintuteema tarkentaa metsän äänekkäimpiin asukkaisiin ja opettaa äänipohjaista lajintunnistusta.',
+    },
+  ],
+
+  productLinks: [
+    {
+      appId: 'coloring',
+      anchorText: 'lintuaiheiset väritystehtävät',
+      context: 'Lintujen värityssivut kehittävät hienomotoriikkaa ja värien tarkkuutta, kun lapset värittävät höyhenpukuja luonnonmukaisin värein lajin tunnistamiseksi.',
+    },
+    {
+      appId: 'find-and-count',
+      anchorText: 'lintujen etsi ja laske -tehtävät',
+      context: 'Etsi ja laske -tehtävät kehittävät lukumääräkäsitettä ja tarkkaavaisuutta, kun lapset etsivät ja laskevat eri lintulajeja puisto- ja metsäkuvista.',
+    },
+    {
+      appId: 'word-search',
+      anchorText: 'lintusanaston sanahaku-työlehdet',
+      context: 'Sanahakutehtävät vahvistavat lintusanastoa, kun lapset etsivät termejä kuten tiainen, punarinta, joutsen ja muuttolintu sanaruudukosta.',
+    },
+    {
+      appId: 'image-crossword',
+      anchorText: 'lintuaiheiset kuvaristikot',
+      context: 'Kuvaristikkotehtävät yhdistävät lintukuvien tunnistamisen ja oikeinkirjoituksen, kun lapset täyttävät lintulajien nimiä ristikkoon kuvien perusteella.',
+    },
+  ],
+
+  expertTips: [
+    {
+      tip: 'Aloita pihan yleisimmistä lajeista (talitiainen, varpunen, harakka) ja laajenna harvemmin nähtyihin lajeihin vasta, kun perustunnistus on hallussa.',
+      source: 'BirdLife Suomen koulutusmateriaali',
+      gradeRange: 'Esiopetus–1. lk',
+    },
+    {
+      tip: 'Rakentakaa luokan kanssa linnunruokkija ja seuratkaa vierailevia lajeja systemaattisesti viikon ajan — tämä yhdistää käsityön, biologian ja tiedonkeruun.',
+      source: 'Ympäristökasvatuksen opas',
+      gradeRange: '1.–3. lk',
+    },
+    {
+      tip: 'Käytä Pihalaskun materiaaleja opetuksessa: BirdLife Suomen vuotuinen lintulaskenta tarjoaa valmiin kehyksen lintujen tunnistamiselle ja tiedonkeruulle.',
+      source: 'POPS 2014, ympäristöopin opetuksen suositukset',
+      gradeRange: 'Esiopetus–3. lk',
+    },
+  ],
 };
 
 registerThemeContent('birds', 'fi', content);

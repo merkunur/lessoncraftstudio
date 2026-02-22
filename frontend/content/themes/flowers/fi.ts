@@ -206,6 +206,165 @@ const content: EnrichedThemeContent = {
   // -- Cross-linking --
   relatedThemes: ['nature', 'garden', 'spring', 'seasons', 'insects', 'colors', 'weather'],
   relatedBlogCategories: [],
+
+  // -- SEO Enrichment (Part 183) --
+
+  classroomScenarios: [
+    {
+      situation: 'Ensimmäisen luokan opettaja haluaa opettaa kasvien osia ja kasvuprosessia, mutta oppilaat pitävät biologiaa tylsana ja eivät jaksa keskittyyä perinteisiin kasvitieteen tehtäviin.',
+      solution: 'Hän ottaa käyttöön kukkateemaiset työlehdet, joissa oppilaat värittävät kukkien osia ja nimeävät ne (terälehti, hede, emi), seuraavat siemenen kasvua kukaksi, lajittelevat kukkia värin mukaan ja suunnittelevat kukkapenkin.',
+      outcome: 'Neljän viikon jälkeen oppilaat tunnistavat kukkien pääosat, ymmärtävät kasvuprosessin vaiheet, käyttävät kasvitieteen sanastoa sujuvasti ja ovat innostuneita puutarhan tutkimisesta.',
+    },
+    {
+      situation: 'Kotikouluvanhempi etsii keVääteemaa, joka yhdistää taiteen, luonnontieteen ja kielen oppimisen lapselle, joka rakastaa piirtämistä ja ulkona oloa.',
+      solution: 'Vanhempi käyttää kukkatyölehtiä yhdistettynä luontoretkään: lapsi piirtää löytämiään kukkia luontopäiväkirjaan, tunnistaa lajeja määritysoppaan avulla, tutkii kukkien osia suurennuslasilla ja kirjoittaa havaintojaan.',
+      outcome: 'Lapsi ymmärtää pölytyksen ja kasvien lisääntymisen perusperiaatteet, tunnistaa kotimaisia kukkia ja osaa kuvata havaintojaan tarkoilla biologisilla termeillä.',
+    },
+  ],
+
+  quickStats: [
+    { label: 'Suositeltu ikähaarukka', value: '3–9 vuotta' },
+    { label: 'Työlehtisovellusten määrä', value: '10 sovellusta' },
+    { label: 'Opetussuunnitelman alueet', value: '4 aluetta' },
+    { label: 'Tuetut luokkatasot', value: 'Esiopetus–3. lk' },
+    { label: 'Keskimääräinen työskentelyaika', value: '10–20 min' },
+    { label: 'Kukkalajien kirjo', value: '15+ kukkalajia' },
+  ],
+
+  differentiationStrategies: [
+    {
+      learnerType: 'Visuaaliset oppijat',
+      adaptation: 'Käytä yksityiskohtaisia kukkakuvituksia ja poikkileikkauskuvia, jotka paljastavat kukan sisärakenteen. Symmetriakuviot kukkien terälehdistä ja väriympyrän linkittäminen kukkien väreihin syventävät visuaalista ymmärrystä.',
+    },
+    {
+      learnerType: 'Kinesteettiset oppijat',
+      adaptation: 'Tuo oikeita kukkia luokkaan tutkittaviksi: oppilaat purkavat kukan osiin, tunnistavat terälehdet, heteet ja emin, kylvävät siemeniä ruukkuihin ja seuraavat kasvuprosessia viikoittain.',
+    },
+    {
+      learnerType: 'S2-oppijat',
+      adaptation: 'Kukat ovat universaalisti kaunis ja tuttu aihe kaikissa kulttuureissa. Aloita tuttujen kukkien (auringonkukka, ruusu, tulppaani) suomenkielisestä nimeämisestä ja laajenna kasvitieteen sanastoon. Kuvitetut kukkasanakortit tukevat oppimista.',
+    },
+    {
+      learnerType: 'Edistyneet oppijat',
+      adaptation: 'Haasta pölytyksen tutkimuksella: vertaile hyönteis- ja tuulipölytteisiä kukkia, tutki kukkien sopeutumia eri ympäristöihin ja dokumentoi koulun pihan kukkien lajimonimuotoisuutta.',
+    },
+  ],
+
+  assessmentIdeas: [
+    {
+      method: 'Kukan osien tunnistuskoe',
+      criteria: 'Anna oppilaalle kukkakuva ja pyydä nimeämään viisi osaa (terälehti, hede, emi, varsi, lehti). Arvioi nimien oikeellisuutta, kykyä selittää kunkin osan tehtävä ja biologisen sanaston käyttöä.',
+      gradeLevel: '1.–3. lk',
+    },
+    {
+      method: 'Kukkien havaintopäiväkirja',
+      criteria: 'Kerää oppilaan luontoretken havainnot ja piirrokset neliän viikon ajalta. Arvioi havaintojen tarkkuutta, piirrosten yksityiskohtaisuutta ja tieteellisen sanaston kehittymistä.',
+      gradeLevel: 'Kaikki luokka-asteet',
+    },
+    {
+      method: 'Kasvatusprojektin dokumentointi',
+      criteria: 'Seuraa siemenen kasvua kukaksi ja pyydä oppilasta dokumentoimaan jokainen vaihe piirroksin ja mittauksin. Arvioi mittaamisen tarkkuutta, vaiheiden tunnistamista ja kokonaisesityksen selkeyttä.',
+      gradeLevel: 'Esiopetus–2. lk',
+    },
+  ],
+
+  crossCurricularLinks: [
+    {
+      subject: 'Ympäristöoppi (biologia)',
+      connection: 'Kukat ilmentävät kasvien lisääntymisbiologiaa: pölytys, hedelmöitys ja siementen leviöminen. POPS 2014:n ympäristöopin tavoitteet kasvien tutkimisesta ja elämänkierroista toteutuvat kukkateemassa luonnollisesti.',
+      activity: 'Kukan osien tunnistamistehtävän jälkeen oppilaat purkavat oikean kukan osiin, tunnistavat terälehdet, heteet ja emin ja piirtävät suurennetun kuvan rakenteesta.',
+    },
+    {
+      subject: 'Kuvataide',
+      connection: 'Kukkien symmetria, värimaailma ja orgaaniset muodot inspiroivat taiteellista ilmaisua. Kukat ovat olleet taiteen keskeinen aihe Monet'sta Marimekkonn sekä opettavat väriteoriaa luonnollisessa kontekstissa.',
+      activity: 'Väritystehtävän jälkeen oppilaat maalaavat oikeasta kukasta vesiväritaideteoksen kiinnittäen huomiota värien sekoittamiseen ja symmetriaan.',
+    },
+    {
+      subject: 'Matematiikka (symmetria ja kuviot)',
+      connection: 'Kukkien terälehtien symmetria ja lukumääräkuviot tarjoavat luontevan kontekstin geometrialle ja laskemiselle. POPS 2014:n matematiikan tavoitteet symmetriasta ja kuvioista toteutuvat konkreettisesti.',
+      activity: 'Kukkien lajittelutehtävän jälkeen oppilaat laskevat eri kukkien terälehtien määrät, piirtävät symmetriakuvioita ja vertailevat kukkien geometrisia muotoja.',
+    },
+  ],
+
+  uniqueAngle: 'Kukkateemaiset työlehdet yhdistävät tieteellisen tarkkailun ja esteettisen kokemuksen tavalla, joka on ainutlaatuinen oppimateriaaleissa. Kukat ovat luonnon näkyvin kauneus, ja niiden tutkiminen herättää lapsissa samanaikaisesti ihmetyksen, uteliaisuuden ja luontoyhteyden tunteen. Biologisesti kukat ovat kasvien lisääntymiselimiä, ja niiden tutkiminen avaa portin pölytykseen, siementen leviämiseen ja ekosysteemien vuorovaikutussuhteisiin. Suomessa kevään ensimmäiset kukat — leskenlehtii, sinivuokko, valkovuokko — ovat kulttuurisesti merkittäviä kevään merkkejä, ja niiden tunnistaminen on osa suomalaista luontosuhdetta. POPS 2014 korostaa lähiympäristön tutkimista ja kasvien havainnointia, ja kukkatyölehdet rakentavat siltaa luokkahuoneen ja luonnon välille. Kukkien symmetria, värimaailma ja muotojen moninaisuus tarjoavat luontevan yhteyden myös kuvataiteen ja matematiikan oppisisältöihin.',
+
+  researchCitation: 'Fancovicova, J. & Prokop, P. (2011). Plants Have a Chance: Outdoor Educational Programmes Alter Students' Knowledge and Attitudes Towards Plants. Environmental Education Research. Tutkimus osoitti, että ulkona toteutettu kasvien tutkiminen yhdistettynä luokkahuonetehtäviin parantaa merkittävästi lasten kasvitieteen osaamista ja myönteistä suhtautumista kasveihin.',
+
+  culturalNotes: 'Suomessa kukat ovat syvästi kulttuurisesti merkittäviä: kevään ensimmäiset kukat symboloivat talven päättymistä, juhannuskukat ovat perinne ja Suomen kansalliskukka on kielo. POPS 2014 painottaa lähiympäristön kasvien tunnistamista ja tutkimista. Suomalaisten lasten luontokasvatus hyötyy kukkateemaisista työlehdistä, jotka yhdistävät kotimaisten lajien tunnistamisen biologiseen ymmärrykseen.',
+
+  snippetDefinition: 'Kukkateemaiset työlehdet lapsille ovat tulostettavia oppimistehtäviä, jotka käyttävät ruusuja, auringonkukkia, tulppaaneja ja muita kukkia kasvitieteen, värien, symmetrian ja sanaston opettamiseen. Ne on suunniteltu 3–9-vuotiaille ja sisältävät kukan osien tunnistamista, kasvuprosessin seurantaa ja lajien luokittelua.',
+
+  snippetHowTo: [
+    'Valitse työlehdet lapsen kehitystason mukaan: nuoremmille värittämistä ja nimeämistä, vanhemmille kasvitieteen tutkimustehtäviä.',
+    'Aloita tutustumalla oikeisiin kukkiin: tuo luokkaan erilaisia kukkia ja anna lasten tutkia niitä suurennuslasilla.',
+    'Yhdistä työlehti luontoretkeen: tunnistakaa koulun pihan ja lähimetsän kukkia määritysoppaan avulla.',
+    'Harjoittele kasvitieteen sanastoa: nimeäkää yhdessä kukan osat (terälehti, hede, emi, varsi, lehti) ja keskustele niiden tehtävistä.',
+    'Lisää kasvatusprojekti: kylväkää siemeniä ja seuratkaa kasvua piirroksin ja mittauksin.',
+    'Yhdistä taide ja tiede: piirrrä ja maalatkaa kukkia huomioiden symmetria ja värien tarkkuus.',
+    'Kerää havainnot ja työlehdet kukkavihkoon ja vertailkaa kasvitieteen sanaston ja lajitunnistuksen kehittymistä.',
+  ],
+
+  limitations: 'Kukkateema sopii parhaiten kevääseen ja kesään, kun elaViä kukkia on saatavilla luonnossa. Talvella oikeiden kukkien tutkiminen rajoittuu ruukkukasveihin ja leikkokukkiin. Siitepölyallergiat on huomioitava, kun tuodaan kukkia luokkahuoneeseen tai tehdään retkia kukkiviin ympäristöihin.',
+
+  themeComparisons: [
+    {
+      vsThemeId: 'nature',
+      summary: 'Luontotyölehdet tutkivat ekosysteemejä kokonaisvaltaisesti. Kukkateema syventyy kasvien lisääntymisbiologiaan, pölytykseen ja kukkien rakenteeseen.',
+    },
+    {
+      vsThemeId: 'garden',
+      summary: 'Puutarhatyölehdet kattavat koko puutarhan hoidon. Kukkateema keskittyy nimenomaan kukkien biologiaan, estetiikkaan ja lajien tunnistamiseen.',
+    },
+    {
+      vsThemeId: 'spring',
+      summary: 'Kevättyölehdet tutkivat vuodenajan muutosta laajasti. Kukkateema syventää kevään näkyvintä ilmiötä — kukkien puhkeamista — biologisesta näkökulmasta.',
+    },
+    {
+      vsThemeId: 'insects',
+      summary: 'Hyönteisteema tutkii pieniä eläimiä itsenäisesti. Kukkateema yhdistää hyönteiset pölytykseen ja opettaa kasvien ja eläinten vuorovaikutusta.',
+    },
+  ],
+
+  productLinks: [
+    {
+      appId: 'coloring',
+      anchorText: 'kukkateemaiset väritystehtävät',
+      context: 'Kukkien värityssivut kehittävät hienomotoriikkaa ja värien hallintaa, kun lapset värittävät terälehtiä, varsia ja lehtiä luonnonmukaisin värein.',
+    },
+    {
+      appId: 'find-and-count',
+      anchorText: 'kukkien etsi ja laske -tehtävät',
+      context: 'Etsi ja laske -tehtävät kehittävät lukumääräkäsitettä ja visuaalista tarkkaavaisuutta, kun lapset etsivät ja laskevat eri kukkalajeja puutarhakuvasta.',
+    },
+    {
+      appId: 'word-search',
+      anchorText: 'kukkasanaston sanahaku-työlehdet',
+      context: 'Sanahakutehtävät vahvistavat kasvitieteen sanastoa, kun lapset etsivät termejä kuten ruusu, auringonkukka, terälehti ja hede sanaruudukosta.',
+    },
+    {
+      appId: 'pattern-train',
+      anchorText: 'kukkateemaiset kuviojunatehtävät',
+      context: 'Kuviojunatehtävät kehittävät loogista ajattelua, kun lapset tunnistavat ja jatkavat kukkakuvioiden sarjoja symmetrian ja värien perusteella.',
+    },
+  ],
+
+  expertTips: [
+    {
+      tip: 'Aloita keVäällä kotimaisten kukkien tunnistamisesta: leskenlehtii, sinivuokko ja valkovuokko ovat helposti löydettävissä ja tuovat työlehtien sisällön eläväksi luontoretkellä.',
+      source: 'Luonnontieteellisen opetuksen menetelmäopas',
+      gradeRange: 'Esiopetus–2. lk',
+    },
+    {
+      tip: 'Käytä suurennuslasia kukan osien tutkimiseen: lasten ihmetys on suurinta, kun he näkevät siitepölyhi ukkaset ja pienet rakenteen yksityiskohdat omin silmin.',
+      source: 'Tutkivan oppimisen opas',
+      gradeRange: '1.–3. lk',
+    },
+    {
+      tip: 'Yhdistä kukkatyölehdet kasvatusprojektiin: kylvä nopeasti kukkivien lajien siemeniä (krassi, kehäkukka) ja dokumentoi kasvuprosessi työlehtien ja piirrosten avulla.',
+      source: 'POPS 2014, ympäristöopin opetuksen suositukset',
+      gradeRange: 'Esiopetus–3. lk',
+    },
+  ],
 };
 
 registerThemeContent('flowers', 'fi', content);

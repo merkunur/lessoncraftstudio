@@ -208,6 +208,165 @@ const content: EnrichedThemeContent = {
   // -- Cross-linking --
   relatedThemes: ['animals', 'zoo', 'ocean', 'forest', 'space', 'nature'],
   relatedBlogCategories: [],
+
+  // -- SEO Enrichment (Part 183) --
+
+  classroomScenarios: [
+    {
+      situation: 'Esiopetuksen opettaja huomaa, että oppilaat ovat äärimmäisen innostuneita dinosauruksista, mutta heidän tietonsa rajoittuu vain T-Rexiin eivätkä he osaa yhdistää dinosaurusteemaa matemaattisiin tai kielellisiin taitoihin.',
+      solution: 'Hän ottaa käyttöön dinosaurusaiheiset työlehdet, joissa oppilaat laskevat eri dinosauruslajeja, vertailevat kokoja, yhdistävät lajeja niiden varjoihin ja täyttävät monitavuisten dinosaurusnimien tavutusharjoituksia.',
+      outcome: 'Neljän viikon jälkeen oppilaat tunnistavat yli kymmenen dinosauruslajia, käyttävät vertailevää sanastoa sujuvasti ja suorittavat laskutehtäviä innostuneesti, koska dinosauruskonteksti ylläpitää motivaatiota.',
+    },
+    {
+      situation: 'Kotikouluvanhempi etsii teemaa, joka yhdistää luonnontieteet, historian ja kielitaidon lapselle, joka haluaa tietää kaiken esihistoriallisesta elämästä.',
+      solution: 'Vanhempi käyttää dinosaurustyölehtiä yhdistettynä museovierailuihin ja fossiilikaivausprojektiin: lapsi laskee dinosauruksia, kirjoittaa lajien nimiä, vertailee kokoja mittanauhalla ja pitää paleontologin kenttäpäiväkirjaa.',
+      outcome: 'Lapsi ymmärtää geologisen ajan käsitteen, käyttää tieteellistä sanastoa luontevasti ja osaa selittää dinosaurusten sukupuuton syitä omin sanoin.',
+    },
+  ],
+
+  quickStats: [
+    { label: 'Suositeltu ikähaarukka', value: '3–9 vuotta' },
+    { label: 'Työlehtisovellusten määrä', value: '12 sovellusta' },
+    { label: 'Opetussuunnitelman alueet', value: '5 aluetta' },
+    { label: 'Tuetut luokkatasot', value: 'Esiopetus–3. lk' },
+    { label: 'Keskimääräinen työskentelyaika', value: '10–25 min' },
+    { label: 'Dinosauruslajien kirjo', value: '20+ lajia' },
+  ],
+
+  differentiationStrategies: [
+    {
+      learnerType: 'Visuaaliset oppijat',
+      adaptation: 'Käytä suuria, yksityiskohtaisia dinosauruskuvituksia ja kokovertailukaavioita. Visuaaliset aikajanat triaskaudesta liitukauteen auttavat hahmottamaan geologista aikaa, ja lajien tunnistuskortit kuvilla tukevat visuaalista muistia.',
+    },
+    {
+      learnerType: 'Kinesteettiset oppijat',
+      adaptation: 'Yhdistä työlehdet fossiilikaivausprojektiin hiekkalaatikossa ja dinosaurushahmojen käsittelyyn. Kokovertailussa mittaa lattialle piirrettyjä dinosaurusten ääriviivoja mittanauhalla ennen paperitehtävää.',
+    },
+    {
+      learnerType: 'S2-oppijat',
+      adaptation: 'Dinosaurukset ovat universaalisti kiehtova aihe kaikissa kulttuureissa. Aloita kuvallisella lajien tunnistamisella ja nimeämisellä, lisää suomenkielistä tieteellistä sanastoa asteittain. Dinosaurusten kansainväliset nimet helpottavat oppimista.',
+    },
+    {
+      learnerType: 'Edistyneet oppijat',
+      adaptation: 'Haasta tutkimustehtävillä: vertaile eri geologisten kausien dinosaurusten ominaisuuksia, laske todellisten mittasuhteiden perusteella nopeuksia ja pituuksia, ja kirjoita tietokortti uudesta dinosauruslajista tieteellisen mallin mukaan.',
+    },
+  ],
+
+  assessmentIdeas: [
+    {
+      method: 'Dinosaurusten tietokansio',
+      criteria: 'Kerää oppilaan dinosaurustyölehdet ja tietokortit koko jakson ajalta. Arvioi tieteellisen sanaston kehittymistä, lajien tunnistamisen tarkkuutta ja kykyä verrata dinosaurusten ominaisuuksia.',
+      gradeLevel: 'Kaikki luokka-asteet',
+    },
+    {
+      method: 'Paleontologin kenttäraportti',
+      criteria: 'Pyydä oppilasta kirjoittamaan lyhyt raportti kuvitteellisesta fossiilinlöydöstä: mitä löydettiin, minkä kokoinen dinosaurus oli, mitä se söi ja millä kaudella se eli. Arvioi tieteellisen kirjoittamisen tarkkuutta ja tiedon soveltamista.',
+      gradeLevel: '2.–3. lk',
+    },
+    {
+      method: 'Kokovertailun mittaustehtävä',
+      criteria: 'Anna oppilaalle viiden dinosauruksen pituustiedot ja pyydä järjestämään ne pienimmästä suurimpaan, piirtämään mittakaavaan ja laskemaan kokoeroja. Arvioi mittaamisen, järjestämisen ja laskutaitojen hallintaa.',
+      gradeLevel: 'Esiopetus–2. lk',
+    },
+  ],
+
+  crossCurricularLinks: [
+    {
+      subject: 'Ympäristöoppi (biologia ja maantiede)',
+      connection: 'Dinosaurukset tarjoavat luontevan portin geologiseen aikaan, fossiilitieteeseen ja evoluution perusteisiin. POPS 2014:n ympäristöopin tavoitteet menneisyyden elämän tutkimisesta toteutuvat suoraan dinosauruskontekstissa.',
+      activity: 'Kokovertailutehtävän jälkeen oppilaat piirtävät aikajanan, johon sijoitetaan dinosauruksia eri geologisille kausille ja merkitaan merkittävät tapahtumat kuten sukupuutto.',
+    },
+    {
+      subject: 'Äidinkieli ja kirjallisuus',
+      connection: 'Dinosaurusten monitavuiset tieteelliset nimet tarjoavat erinomaista tavutusharjoitusta ja rikastuttavat tieteellistä sanastoa luonnollisessa kontekstissa.',
+      activity: 'Dinosaurusnimien tavutusharjoituksen jälkeen oppilaat kirjoittavat lyhyen kertomuksen, jossa dinosauruslaji seikkailee omassa elinympsäristössään käyttäen vähintään viittä tieteellistä termiä.',
+    },
+    {
+      subject: 'Matematiikka (mittaaminen ja vertailu)',
+      connection: 'Dinosaurusten äärimmäiset kokoerot tarjoavat luontevan kontekstin mittaamiselle, vertailulle ja lukujonoille. POPS 2014:n mittaamisen tavoitteet toteutuvat konkreettisesti.',
+      activity: 'Kokovertailutyölehden jälkeen oppilaat mittaavat dinosaurusten pituuksia mittakaavassa ja laskevat, kuinka monta oppilasta tarvitaan muodostamaan Brachiosauruksen pituinen jono.',
+    },
+  ],
+
+  uniqueAngle: 'Dinosaurusaiheiset työlehdet hyödyntävät yhtä lapsuuden voimakkaimmista luontaisista kiinnostuksen kohteista — esihistoriallisia jättiläisiä, jotka kiehtovat lähes jokaista lasta riippumatta taustasta tai temperamentista. Tämä syvä motivaatio tekee dinosauruksista ainutlaatuisen tehokkaan pedagogisen välineen: lapset suorittavat vaativampia tehtäviä, käyttävät enemmän aikaa ja sietävät enemmän turhautumista, kun kontekstina ovat Tyrannosaurus Rex ja Triceratops. Paleontologian elementit — fossiilien tutkiminen, lajien luokittelu, geologisen ajan ymmärtäminen — tarjoavat lapsille aidon kokemuksen tieteellisestä tutkimusprosessista. Suomessa paleontologia ei ole osa arkikokemusta samalla tavalla kuin luonnonhavainnointi, mikä tekee dinosaurusteemasta erityisen arvokaan ikkunan kansainväliseen tieteeseen ja geologiseen aikakäsitykseen. POPS 2014 korostaa tutkivan oppimisen menetelmiä ja laaja-alaista osaamista, ja dinosaurustyölehdet yhdistävät luonnollisesti matematiikan, kielen ja luonnontieteiden oppisisiltöjä yhdeksi motivoivaksi kokonaisuudeksi. Kokovertailutehtävät rakentavat mittaamisintuitiota tavalla, johon abstraktit mittaustehtävät eivät pysty.',
+
+  researchCitation: 'DeLoache, J. S., Simcock, G. & Macari, S. (2007). Planes, Trains, Automobiles—and Tea Sets: Extremely Intense Interests in Very Young Children. Developmental Psychology. Tutkimus osoitti, että intensiiviset kiinnostuksen kohteet, kuten dinosaurukset, kehittävät merkittävästi lasten itseohjautuvuutta, tiedonhankintastrategioita ja pitkäjänteisyyttä oppimisessa.',
+
+  culturalNotes: 'Suomessa dinosaurukset eivät ole osa paikallista fossiilihistoriaa, mikä tekee niistä erityisen kiehtovan ikkunan kansainväliseen tieteeseen ja geologiseen historiaan. POPS 2014 painottaa tutkivaa oppimista ja laaja-alaista osaamista, ja dinosaurusteema yhdistää luonnollisesti ympäristöopin, matematiikan ja äidinkielen tavoitteita. Suomalaisten museoiden dinosaurusnäyttelyt, kuten Luonnontieteellisen museon kokoelmat, tarjoavat erinomaisen jatkon työlehtioppimiselle.',
+
+  snippetDefinition: 'Dinosaurusaiheiset työlehdet lapsille ovat tulostettavia oppimistehtäviä, jotka käyttävät T-Rexiä, Triceratopsia, Stegosaurusta ja muita esihistoriallisia lajeja matematiikan, lukemisen ja luonnontieteen opettamiseen. Ne on suunniteltu 3–9-vuotiaille ja sisältävät kokovertailua, lajien tunnistamista, sanaharjoituksia ja fossiilintutkimusta.',
+
+  snippetHowTo: [
+    'Valitse työlehdet lapsen kehitystason mukaan: nuoremmille yksinkertaista värittämistä ja laskemista, vanhemmille tutkimustehtäviä ja tietotekstejä.',
+    'Aloita tutustumalla dinosauruslajeihin kuvien ja nimien avulla — kerro lyhyesti jokaisen lajin erityispiirteistä ennen tehtävän aloittamista.',
+    'Yhdistä työlehti käytännön toimintaan: fossiilikaivausprojektiin, kokovertailuun mittanauhalla tai leludinosaurusten lajitteluun.',
+    'Harjoittele tieteellistä sanastoa arjessa: kysy, miksi T-Rexillä oli pienet kädet, kumpi oli suurempi ja mitä lihansyjä tarkoittaa.',
+    'Lisää aikajanan ulottuvuus: auta lasta sijoittamaan dinosaurukset oikeille geologisille kausille.',
+    'Kannusta lasta esittämään omia kysymyksiä ja etsimään vastauksia kirjoista tai museokäynneiltä.',
+    'Kerää valmiit työlehdet dinosaurustietokansioon ja vertailkaa tieteellisen sanaston ja paleontologisen ymmärryksen kehittymistä.',
+  ],
+
+  limitations: 'Dinosaurustyölehdet perustuvat väistämättä tieteellisiin rekonstruktioihin, jotka muuttuvat uusien löytöjen myötä — esimerkiksi käsitys monien dinosaurusten höyhenpeitteisuudestä on muuttunut merkittävästi. Sukupuuttoteema voi olla herättävä aihe herkille lapsille, joten opettajan kannattaa käsitellä sitä ikätasoisesti ja korostaa tutkimuksen jatkumista.',
+
+  themeComparisons: [
+    {
+      vsThemeId: 'animals',
+      summary: 'Eläintyölehdet keskittyvät nykyajan lajeihin ja niiden elinympsäristöihin. Dinosaurustyölehdet laajentavat näkökulman esihistoriaan, geologiseen aikaan ja sukupuuton käsitteeseen.',
+    },
+    {
+      vsThemeId: 'zoo',
+      summary: 'Eläintarhatyölehdet tutkivat eläviä eläimiä ihmisen hoivassa. Dinosaurustyölehdet käsittelevät lajeja, joita kukaan ei ole nähnyt elävänä, ja esittelevät fossiilitutkimuksen menetelmitä.',
+    },
+    {
+      vsThemeId: 'space',
+      summary: 'Avaruustyölehdet tutkivat kosmosta ja tähtitiedettä. Dinosaurustyölehdet jakavat saman ihmetyksen tunteen mutta kohdistuvat Maan menneisyyteen, ja asteroidin törmäys yhdistää molemmat teemat.',
+    },
+    {
+      vsThemeId: 'nature',
+      summary: 'Luontotyölehdet tutkivat nykyisiä ekosysteemejä ja vuodenaikoja. Dinosaurustyölehdet avaavat näkymän muinaisiin ekosysteemeihin ja opettavat, miten elämä Maalla on muuttunut miljoonien vuosien aikana.',
+    },
+  ],
+
+  productLinks: [
+    {
+      appId: 'coloring',
+      anchorText: 'dinosaurusaiheiset väritystehtävät',
+      context: 'Dinosaurusten värityssivut kehittävät hienomotoriikkaa samalla kun lapset tutustuvat eri lajien ulkonäköön ja yksityiskohtiin T-Rexistä Stegosaurukseen.',
+    },
+    {
+      appId: 'find-objects',
+      anchorText: 'dinosaurusten etsimispelit',
+      context: 'Piilotettujen dinosaurusten etsiminen esihistoriallisista maisemista kehittää visuaalista tarkkaavaisuutta ja lajien tunnistamista.',
+    },
+    {
+      appId: 'word-search',
+      anchorText: 'dinosaurussanaston sanahaku-työlehdet',
+      context: 'Sanahakutehtävät vahvistavat paleontologista sanastoa, kun lapset etsivät termejä kuten fossiili, lihansyjä, triaskausi ja luuranko sanaruudukosta.',
+    },
+    {
+      appId: 'word-scramble',
+      anchorText: 'dinosaurusnimien kirjainpulmatehtävät',
+      context: 'Kirjainpulmatehtävät haastavat lapsia kokoamaan monitavuisia dinosaurusnimiä ja tieteellisiä termejä sekoitetuista kirjaimista.',
+    },
+  ],
+
+  expertTips: [
+    {
+      tip: 'Käytä dinosaurusten kokovertailua mittaamisen opettamiseen: piirtäkää lattille Compsognathuksen ja Brachiosauruksen ääriviivat todellisessa mittakaavassa ja anna lasten kävellä niiden läpi.',
+      source: 'Paleontologian opetuksen käsikirja',
+      gradeRange: 'Esiopetus–2. lk',
+    },
+    {
+      tip: 'Tavuta dinosaurusten nimet yhdessä ennen työlehtitehtävää: Ty-ran-no-sau-rus on viisitavuinen, mikä tekee siitä erinomaisen tavutusharjoituksen joka motivoi oppilaita.',
+      source: 'Alkuopetuksen äidinkielen menetelmäopas',
+      gradeRange: '1.–3. lk',
+    },
+    {
+      tip: 'Rakenna luokkaan dinosaurusaikajana, johon oppilaat lisäävät piirustuksia ja tietokortteja viikkojen aikana — tämä visualisoi geologista aikaa ja vahvistaa kronologista ajattelua.',
+      source: 'POPS 2014, ympäristöopin opetuksen suositukset',
+      gradeRange: 'Esiopetus–3. lk',
+    },
+  ],
 };
 
 registerThemeContent('dinosaurs', 'fi', content);

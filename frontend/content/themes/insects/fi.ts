@@ -207,6 +207,165 @@ const content: EnrichedThemeContent = {
   // -- Cross-linking --
   relatedThemes: ['animals', 'garden', 'birds', 'forest', 'ocean', 'flowers'],
   relatedBlogCategories: [],
+
+  // -- SEO Enrichment (Part 183) --
+
+  classroomScenarios: [
+    {
+      situation: 'Ensimmäisen luokan opettaja huomaa, että oppilaat pelkäävät hyönteisiä ja välttävät niiden tutkimista luonnossa, mikä estää ympäristöopin tavoitteiden saavuttamista.',
+      solution: 'Hän aloittaa hyönteisteemaiset työlehdet turvallisella etäisyydellä: oppilaat värittävät ystävällisiä hyönteiskuvituksia, laskevat jalkoja ja siiviä, lajittelevat hyönteiset ruumiinrakenteen mukaan ja yhdistävät lajeja niiden elinympsäristöihin.',
+      outcome: 'Kolmen viikon jälkeen pelko on muuttunut uteliaisuudeksi: oppilaat tutkivat pihalla muurahaisia suurennuslasilla, käyttävät tieteellistä sanastoa ja ymmärtävät hyönteisten merkityksen ekosysteemeille.',
+    },
+    {
+      situation: 'Kotikouluvanhempi haluaa opettaa ekologiaa ja biologiaa konkreettisesti lapselle, joka viettää paljon aikaa puutarhassa ja on kiinnostunut pienistä eläimistä.',
+      solution: 'Vanhempi yhdistää hyönteisteemaiset työlehdet puutarhan tutkimiseen: lapsi tunnistaa hyönteisiä suurennuslasilla, piirtää havaintopäiväkirjaa, laskee eri lajeja ja täyttää työlehtien luokittelutehtäviä oikeiden havaintojen pohjalta.',
+      outcome: 'Lapsi ymmärtää hyönteisten elämänkierron perusperiaatteet, tunnistaa kymmeniä lajeja ja osaa selittää pölytäjien merkityksen ruoantuotannolle.',
+    },
+  ],
+
+  quickStats: [
+    { label: 'Suositeltu ikähaarukka', value: '3–9 vuotta' },
+    { label: 'Työlehtisovellusten määrä', value: '11 sovellusta' },
+    { label: 'Opetussuunnitelman alueet', value: '4 aluetta' },
+    { label: 'Tuetut luokkatasot', value: 'Esiopetus–3. lk' },
+    { label: 'Keskimääräinen työskentelyaika', value: '10–20 min' },
+    { label: 'Hyönteislajien kirjo', value: '15+ lajia' },
+  ],
+
+  differentiationStrategies: [
+    {
+      learnerType: 'Visuaaliset oppijat',
+      adaptation: 'Käytä tarkkoja hyönteiskuvituksia ja elämänkiertokaavioita. Suurennuskuvat hyönteisten ruumiinosista — tuntosarvet, siivet, jalkaparit — auttavat erottamaan lajeja ja rakentamaan visuaalista luokittelutaitoa.',
+    },
+    {
+      learnerType: 'Kinesteettiset oppijat',
+      adaptation: 'Yhdistä työlehdet ulkona tehtävään hyönteistutkimukseen: oppilaat keräävät hyönteisiä havaintorasioihin suurennuslasilla tutkittaviksi ja vertaavat löytöjään työlehden lajeihin. Hyönteisliikuntahetki (ryömi kuin muurahainen, lennä kuin perhonen) aktivoi koko kehon.',
+    },
+    {
+      learnerType: 'S2-oppijat',
+      adaptation: 'Hyönteiset ovat tuttu aihe kaikissa kulttuureissa. Aloita kuvallisella lajien tunnistamisella ja hyönteisten ruumiinosien nimeämisellä. Kuvitetut sanakortit hyönteistermeistä (tuntosarvet, siivet, toukka, kotelo) tukevat sanaston oppimista.',
+    },
+    {
+      learnerType: 'Edistyneet oppijat',
+      adaptation: 'Haasta elämänkiertotutkimuksilla: vertaile täydellistä ja epätäydellistä muodonvaihdosta, tutki hyönteisten roolia ekosysteemeissä ravintoketjujen kautta ja kirjoita tutkimusraportti pölytäjien vähenemisestä.',
+    },
+  ],
+
+  assessmentIdeas: [
+    {
+      method: 'Hyönteisten havaintopäiväkirja',
+      criteria: 'Kerää oppilaan hyönteishavainnot ja piirrokset koko jakson ajalta. Arvioi lajien tunnistamisen tarkkuutta, tieteellisen sanaston kehittymistä ja havainnoinnin yksityiskohtaisuuden kasvua.',
+      gradeLevel: 'Kaikki luokka-asteet',
+    },
+    {
+      method: 'Hyönteisten luokittelutehtävä',
+      criteria: 'Anna oppilaalle kymmenen hyönteiskuvaa ja pyydä lajittelemaan ne kolmeen ryhmään valitsemansa ominaisuuden mukaan. Arvioi luokitteluperusteen järkevyyttä, johdonmukaisuutta ja kykyä perustella valintaansa.',
+      gradeLevel: 'Esiopetus–2. lk',
+    },
+    {
+      method: 'Elämänkierron kuvasarja',
+      criteria: 'Pyydä oppilasta järjestämään perhosen elämänkierron vaiheet oikeaan järjestykseen ja nimeämään jokainen vaihe. Arvioi vaiheiden tunnistamista, oikean järjestyksen hallintaa ja tieteellisten termien käyttöä.',
+      gradeLevel: '1.–3. lk',
+    },
+  ],
+
+  crossCurricularLinks: [
+    {
+      subject: 'Ympäristöoppi (biologia ja ekologia)',
+      connection: 'Hyönteiset ovat ekosysteemien avainlajeja: pölyttäjiä, hajottajia ja ravintoketjun peruslenkkejä. POPS 2014:n ympäristöopin tavoitteet elävän luonnon tutkimisesta toteutuvat konkreettisesti hyönteishavainnoinnissa.',
+      activity: 'Hyönteisten luokittelutehtävän jälkeen oppilaat tutkivat koulun pihalla hyönteisiä suurennuslaseilla ja täyttävät havaintolomakkeen lajista, koosta ja elinympsäristöstä.',
+    },
+    {
+      subject: 'Äidinkieli ja kirjallisuus',
+      connection: 'Hyönteisteema rikastuttaa tieteellistä sanastoa: tuntosarvet, siivet, jalkaparit, toukka, kotelo, muodonvaihdos. Nämä termit kehittävät tarkkaajattelua ja kuvailevaa kirjoittamista.',
+      activity: 'Sanastotyölehden jälkeen oppilaat kirjoittavat lyhyen tarinan perhosen matkasta toukasta aikuiseksi käyttäen vähintään viittä tieteellistä termiä.',
+    },
+    {
+      subject: 'Kuvataide',
+      connection: 'Hyönteisten symmetriset kuviot, siipien värimaailmat ja monimuotoiset muodot inspiroivat luovaa ilmaisua ja opettavat symmetriaa luonnollisessa kontekstissa.',
+      activity: 'Väritystehtävän jälkeen oppilaat suunnittelevat oman kuvitteellisen hyönteisen, jonka siivet noudattavat symmetriaa ja väritys perustuu luonnon malleihin.',
+    },
+  ],
+
+  uniqueAngle: 'Hyönteisteemaiset työlehdet ovat pedagogisesti poikkeuksellisia, koska ne yhdistävät luonnontieteellisen tarkkailun, ekologisen ymmärryksen ja emotionaalisen kasvun ainutlaatuisella tavalla. Hyönteiset ovat lasten arkiympäristön helpoimmin tutkittavia eläviä olentoja — muurahainen pihalla, perhonen puutarhassa, leppis kädellä — ja tämä välitön saavutettavuus tekee niistä ihanteellisen portin tieteelliseen tutkimukseen. Muodonvaihdos toukasta aikuiseksi on yksi luonnon näyttävimmistä prosesseista, ja sen ymmärtäminen työlehtien ja oikean havainnoinnin kautta rakentaa pohjaa biologisen prosessiajattelun kehittymiselle. Suomessa hyönteisten havainnointi on olennainen osa ympäristökasvatusta, ja POPS 2014 painottaa elävän luonnon tutkimista lähiympäristössä. Hyönteisteema auttaa myös käsittelemään pelkoja turvallisesti: kun lapsi oppii tunnistamaan ja ymmärtämään hyönteisiä, pelko muuttuu kunnioitukseksi ja uteliaisuudeksi.',
+
+  researchCitation: 'Kellert, S. R. (2002). Experiencing Nature: Affective, Cognitive, and Evaluative Development in Children. MIT Press. Tutkimus osoitti, että lasten suora vuorovaikutus pienten eläinten, kuten hyönteisten, kanssa kehittää merkittävästi empatiaa, tieteellistä ajattelua ja ympäristövastuullisuutta.',
+
+  culturalNotes: 'Suomessa hyönteisten havainnointi on olennainen osa ympäristökasvatusta kaikilla luokkatasoilla. POPS 2014 korostaa lähiympäristön tutkimista ja elävän luonnon havainnointia. Suomalainen luontokasvatus, metsäpäiväkodit ja ulkona oppimisen perinne tarjoavat erinomaisen kehyksen hyönteisteemaisille työlehdille, joissa paperitehtävät yhdistyvät aitoon luontohavainnointiin.',
+
+  snippetDefinition: 'Hyönteisaiheiset työlehdet lapsille ovat tulostettavia oppimistehtäviä, jotka käyttävät perhosia, muurahaisia, mehiläisiä, leppäkerttuja ja muita hyönteisiä biologian, matematiikan ja sanaston opettamiseen. Ne on suunniteltu 3–9-vuotiaille ja sisältävät lajien tunnistamista, elämänkierron tutkimista, luokittelua ja lukumäärätehtäviä.',
+
+  snippetHowTo: [
+    'Valitse työlehdet lapsen kehitystason mukaan: nuoremmille värittämistä ja yksinkertaista laskemista, vanhemmille elämänkiertotutkimuksia.',
+    'Aloita tutustumalla hyönteislajeihin kuvien avulla — nimeä ruumiinosat ja erityispiirteet yhdessä lapsen kanssa.',
+    'Yhdistä työlehti ulkona tehtävään havainnointiin: tutki pihan hyönteisiä suurennuslasilla tehtävän jälkeen.',
+    'Harjoittele tieteellistä sanastoa: kysy, miksi perhosella on tuntosarvet, mikä ero on toukalla ja aikuisella, ja miten mehiläinen pölyttää.',
+    'Lisää ekologinen ulottuvuus: keskustele hyönteisten merkityksestä ruoantuotannolle ja luonnon monimuotoisuudelle.',
+    'Kannusta lasta pitämään hyönteisten havaintopäiväkirjaa piirroksin ja muistiinpanoin.',
+    'Kerää valmiit työlehdet ja havainnot kansioon ja vertailkaa lajitunnistuksen ja tieteellisen sanaston kehittymistä.',
+  ],
+
+  limitations: 'Hyönteisteema voi olla haastava lapsille, jotka kokevat voimakasta pelkoa hyönteisiä kohtaan — tällöin on tärkeää aloittaa rauhallisesti kauniista lajeista kuten perhosista. Osa lapsista voi olla allergisia hyönteisten pistoille, joten ulkona tehtävässä havainnoinnissa on noudatettava varovaisuutta.',
+
+  themeComparisons: [
+    {
+      vsThemeId: 'animals',
+      summary: 'Eläintyölehdet kattavat laajan lajien kirjon nisikkäistä kaloihin. Hyönteisteema syventyy pienimpiin eläimiin ja opettaa ruumiinosien tarkkaa havainnointia ja ekologisia rooleja.',
+    },
+    {
+      vsThemeId: 'garden',
+      summary: 'Puutarhatyölehdet käsittelevät kasvien viljelyumlä ja hoitoa. Hyönteisteema täydentää puutarhaa tarkastelemalla pölyttäjien ja tuholaisten rooleja puutarhan ekosysteemissä.',
+    },
+    {
+      vsThemeId: 'flowers',
+      summary: 'Kukkatyölehdet tutkivat kasvien kauneutta ja rakennetta. Hyönteisteema yhdistää kukat pölytykseen ja opettaa eläinten ja kasvien vuorovaikutusta.',
+    },
+    {
+      vsThemeId: 'forest',
+      summary: 'Metsätyölehdet tutkivat metsäekosysteemiä kokonaisuutena. Hyönteisteema tarkentaa metsän pienimpiin asukkaisiin ja niiden ratkaisevan tärkeään rooliin hajottajina ja pölyttäjinä.',
+    },
+  ],
+
+  productLinks: [
+    {
+      appId: 'coloring',
+      anchorText: 'hyönteisaiheiset väritystehtävät',
+      context: 'Hyönteisten värityssivut kehittävät hienomotoriikkaa samalla kun lapset tutustuvat siipien kuvioihin, ruumiinosiin ja lajien monimuotoisuuteen.',
+    },
+    {
+      appId: 'find-and-count',
+      anchorText: 'hyönteisten etsi ja laske -tehtävät',
+      context: 'Etsi ja laske -tehtävät kehittävät lukumääräkäsitettä ja visuaalista tarkkaavaisuutta, kun lapset etsivät ja laskevat eri hyönteislajeja kuvasta.',
+    },
+    {
+      appId: 'word-search',
+      anchorText: 'hyönteissanaston sanahaku-työlehdet',
+      context: 'Sanahakutehtävät vahvistavat biologista sanastoa, kun lapset etsivät termejä kuten perhonen, muurahainen, tuntosarvi ja muodonvaihdos.',
+    },
+    {
+      appId: 'pattern-train',
+      anchorText: 'hyönteisteemaiset kuviojunatehtävät',
+      context: 'Kuviojunatehtävät kehittävät loogista ajattelua, kun lapset tunnistavat ja jatkavat hyönteisaiheisia sarjoja ja kuvioita.',
+    },
+  ],
+
+  expertTips: [
+    {
+      tip: 'Aloita hyönteisteema perhosilla ja leppäkertuilla, jotka herättävät positiivisia tunteita. Siirry vasta myöhemmin hämähäkkeihin ja koväkuoriaisiin, kun uteliaisuus on rakentunut.',
+      source: 'Ympäristökasvatuksen opas',
+      gradeRange: 'Esiopetus–1. lk',
+    },
+    {
+      tip: 'Käytä havaintorasioita ja suurennuslaseja työlehtien rinnalla: todellisten hyönteisten tutkiminen vahvistaa paperilla opittua ja rakentaa tieteellisen tutkimuksen taitoja.',
+      source: 'Luonnontieteellisen opetuksen menetelmäopas',
+      gradeRange: '1.–3. lk',
+    },
+    {
+      tip: 'Yhdistä hyönteistyölehdet perhosen kasvatusprojektiin: seuraa toukan muodonvaihdosta kotelon kautta aikuiseksi ja dokumentoi prosessi piirroksin työlehtien rinnalla.',
+      source: 'POPS 2014, ympäristöopin opetuksen suositukset',
+      gradeRange: 'Esiopetus–3. lk',
+    },
+  ],
 };
 
 registerThemeContent('insects', 'fi', content);

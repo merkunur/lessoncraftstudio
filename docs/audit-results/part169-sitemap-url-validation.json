@@ -1,0 +1,60 @@
+{
+  "generatedAt": "2026-02-22T12:43:47.993Z",
+  "mode": "full",
+  "baseUrl": "https://www.lessoncraftstudio.com",
+  "duration": "1.4s",
+  "sectionCounts": {
+    "0": 110,
+    "1": 363,
+    "2": 143,
+    "3": 550,
+    "4": 2750,
+    "5": 77,
+    "6": 1232
+  },
+  "totalUrls": 5225,
+  "summary": {
+    "totalIssues": 0,
+    "byCheck": {},
+    "bySeverity": {},
+    "status": "PASS"
+  },
+  "healthRanges": {
+    "0": {
+      "min": 100,
+      "max": 120,
+      "label": "Static pages"
+    },
+    "1": {
+      "min": 330,
+      "max": 400,
+      "label": "Product pages"
+    },
+    "2": {
+      "min": 130,
+      "max": 160,
+      "label": "Categories + grades"
+    },
+    "3": {
+      "min": 500,
+      "max": 600,
+      "label": "Theme hubs"
+    },
+    "4": {
+      "min": 2500,
+      "max": 3000,
+      "label": "Theme+grade combos"
+    },
+    "5": {
+      "min": 50,
+      "max": 100,
+      "label": "Blog categories"
+    },
+    "6": {
+      "min": 1000,
+      "max": 4000,
+      "label": "Blog posts"
+    }
+  },
+  "issues": []
+}

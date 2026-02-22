@@ -1,0 +1,187 @@
+{
+  "generatedAt": "2026-02-22T12:46:26.511Z",
+  "baseUrl": "https://www.lessoncraftstudio.com",
+  "sitemapIndex": {
+    "status": "OK",
+    "childSitemapCount": 9,
+    "childSitemapUrls": [
+      "https://www.lessoncraftstudio.com/sitemap/0.xml",
+      "https://www.lessoncraftstudio.com/sitemap/1.xml",
+      "https://www.lessoncraftstudio.com/sitemap/2.xml",
+      "https://www.lessoncraftstudio.com/sitemap/3.xml",
+      "https://www.lessoncraftstudio.com/sitemap/4.xml",
+      "https://www.lessoncraftstudio.com/sitemap/5.xml",
+      "https://www.lessoncraftstudio.com/sitemap/6.xml",
+      "https://www.lessoncraftstudio.com/sitemap-images.xml",
+      "https://www.lessoncraftstudio.com/sitemap-news.xml"
+    ]
+  },
+  "childSitemaps": {
+    "0": {
+      "url": "https://www.lessoncraftstudio.com/sitemap/0.xml",
+      "status": "OK",
+      "urlCount": 121,
+      "healthStatus": "OK"
+    },
+    "1": {
+      "url": "https://www.lessoncraftstudio.com/sitemap/1.xml",
+      "status": "OK",
+      "urlCount": 363,
+      "healthStatus": "OK"
+    },
+    "2": {
+      "url": "https://www.lessoncraftstudio.com/sitemap/2.xml",
+      "status": "OK",
+      "urlCount": 143,
+      "healthStatus": "OK"
+    },
+    "3": {
+      "url": "https://www.lessoncraftstudio.com/sitemap/3.xml",
+      "status": "OK",
+      "urlCount": 550,
+      "healthStatus": "OK"
+    },
+    "4": {
+      "url": "https://www.lessoncraftstudio.com/sitemap/4.xml",
+      "status": "OK",
+      "urlCount": 2750,
+      "healthStatus": "OK"
+    },
+    "5": {
+      "url": "https://www.lessoncraftstudio.com/sitemap/5.xml",
+      "status": "OK",
+      "urlCount": 77,
+      "healthStatus": "OK"
+    },
+    "6": {
+      "url": "https://www.lessoncraftstudio.com/sitemap/6.xml",
+      "status": "OK",
+      "urlCount": 1232,
+      "healthStatus": "OK"
+    },
+    "sitemap-images": {
+      "url": "https://www.lessoncraftstudio.com/sitemap-images.xml",
+      "status": "OK",
+      "urlCount": 1595,
+      "healthStatus": "OK"
+    },
+    "sitemap-news": {
+      "url": "https://www.lessoncraftstudio.com/sitemap-news.xml",
+      "status": "OK",
+      "urlCount": 0,
+      "healthStatus": "OK"
+    }
+  },
+  "healthCounts": {
+    "status": "PASS",
+    "details": [
+      {
+        "sitemapKey": "0",
+        "urlCount": 121,
+        "expected": {
+          "min": 100,
+          "max": 130,
+          "label": "Static pages"
+        },
+        "healthStatus": "OK"
+      },
+      {
+        "sitemapKey": "1",
+        "urlCount": 363,
+        "expected": {
+          "min": 330,
+          "max": 400,
+          "label": "Product pages"
+        },
+        "healthStatus": "OK"
+      },
+      {
+        "sitemapKey": "2",
+        "urlCount": 143,
+        "expected": {
+          "min": 130,
+          "max": 160,
+          "label": "Categories + grades"
+        },
+        "healthStatus": "OK"
+      },
+      {
+        "sitemapKey": "3",
+        "urlCount": 550,
+        "expected": {
+          "min": 500,
+          "max": 600,
+          "label": "Theme hubs"
+        },
+        "healthStatus": "OK"
+      },
+      {
+        "sitemapKey": "4",
+        "urlCount": 2750,
+        "expected": {
+          "min": 2500,
+          "max": 3000,
+          "label": "Theme+grade combos"
+        },
+        "healthStatus": "OK"
+      },
+      {
+        "sitemapKey": "5",
+        "urlCount": 77,
+        "expected": {
+          "min": 50,
+          "max": 100,
+          "label": "Blog categories"
+        },
+        "healthStatus": "OK"
+      },
+      {
+        "sitemapKey": "6",
+        "urlCount": 1232,
+        "expected": {
+          "min": 1000,
+          "max": 4000,
+          "label": "Blog posts"
+        },
+        "healthStatus": "OK"
+      },
+      {
+        "sitemapKey": "sitemap-images",
+        "urlCount": 1595,
+        "expected": null,
+        "healthStatus": "OK"
+      },
+      {
+        "sitemapKey": "sitemap-news",
+        "urlCount": 0,
+        "expected": null,
+        "healthStatus": "OK"
+      }
+    ]
+  },
+  "enSpotCheck": {
+    "status": "PASS",
+    "total": 12,
+    "found": 12,
+    "missing": []
+  },
+  "robotsTxt": {
+    "status": "PASS",
+    "hasSitemapDirective": true,
+    "sitemapUrl": "https://www.lessoncraftstudio.com/sitemap_index.xml"
+  },
+  "searchEnginePings": {
+    "google": {
+      "status": "OK (deprecated endpoint — use Search Console)",
+      "url": "https://www.google.com/ping?sitemap=https%3A%2F%2Fwww.lessoncraftstudio.com%2Fsitemap_index.xml",
+      "httpStatus": 404
+    },
+    "bing": {
+      "status": "OK (deprecated endpoint — use Bing Webmaster Tools)",
+      "url": "https://www.bing.com/ping?sitemap=https%3A%2F%2Fwww.lessoncraftstudio.com%2Fsitemap_index.xml",
+      "httpStatus": 410
+    }
+  },
+  "overallStatus": "PASS",
+  "duration": "5.2s"
+}

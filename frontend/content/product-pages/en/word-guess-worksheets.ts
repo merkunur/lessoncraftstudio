@@ -264,7 +264,7 @@ Save completed worksheets to your device for repeated use. Print unlimited copie
         icon: '🧩',
         title: 'Special Education Teachers',
         subtitle: 'Custom Letter Exclusions per Student',
-        description: 'Customize letter exclusions to target specific phonics patterns for individual students. Adjust difficulty and word length to match each learner's spelling level. Easy mode with short words and picture hints provides accessible spelling practice across ability levels.',
+        description: 'Customize letter exclusions to target specific phonics patterns for individual students. Adjust difficulty and word length to match each learner\'s spelling level. Easy mode with short words and picture hints provides accessible spelling practice across ability levels.',
       },
       {
         id: '6',
@@ -517,7 +517,7 @@ Save completed worksheets to your device for repeated use. Print unlimited copie
   researchBacking: [
     {
       claim: 'Productive spelling tasks where students generate missing letters from memory create stronger orthographic representations than recognition-only activities like multiple choice or word matching.',
-      source: 'Ouellette, G., "What's Meaning Got to Do with It: The Role of Vocabulary in Word Reading and Reading Comprehension," Journal of Educational Psychology',
+      source: 'Ouellette, G., "What\'s Meaning Got to Do with It: The Role of Vocabulary in Word Reading and Reading Comprehension," Journal of Educational Psychology',
     },
     {
       claim: 'Scaffolded hint reduction across progressive difficulty levels supports gradual release of responsibility, building independent spelling ability while maintaining student confidence and engagement.',

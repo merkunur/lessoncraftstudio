@@ -236,7 +236,7 @@ Enable the grayscale checkbox before downloading to save ink. This converts all 
         title: 'First Grade Teachers: Full Alphabet Review',
         subtitle: 'Comprehensive Letter Assessments with 10-11 Letters',
         description: 'First grade teachers create alphabet trains with 10 to 11 clues for comprehensive alphabet review and informal assessment. Students demonstrate letter knowledge by matching letters to images across nearly the full alphabet. Use targeted letter selections to assess specific letter groups students are learning. Track which letters students struggle with to inform targeted phonics instruction.',
-        quote: 'The 11-letter trains give me a quick snapshot of each student's letter knowledge.',
+        quote: 'The 11-letter trains give me a quick snapshot of each student\'s letter knowledge.',
       },
       {
         id: '4',

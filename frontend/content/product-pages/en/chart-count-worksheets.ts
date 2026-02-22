@@ -227,7 +227,7 @@ All downloads export at professional 300 DPI resolution. This high quality ensur
   // Use Cases - FULL text from chart-count.md use case sections
   useCases: {
     sectionTitle: 'Perfect for Teachers, Parents, and Educators',
-    sectionDescription: 'Picture graph worksheets serve diverse educational needs across multiple teaching environments. Kindergarten teachers use these counting and graphing activities for math centers and whole-group instruction. First grade teachers build data literacy skills that appear in state mathematics standards. Homeschool parents create personalized worksheets featuring their children's interests. ESL instructors leverage visual learning for language acquisition. Special education teachers customize worksheets for individual learning needs. Teacher entrepreneurs sell professionally designed graphing worksheets online. Every educator benefits from the combination of automatic generation, full customization, and printable quality.',
+    sectionDescription: 'Picture graph worksheets serve diverse educational needs across multiple teaching environments. Kindergarten teachers use these counting and graphing activities for math centers and whole-group instruction. First grade teachers build data literacy skills that appear in state mathematics standards. Homeschool parents create personalized worksheets featuring their children\'s interests. ESL instructors leverage visual learning for language acquisition. Special education teachers customize worksheets for individual learning needs. Teacher entrepreneurs sell professionally designed graphing worksheets online. Every educator benefits from the combination of automatic generation, full customization, and printable quality.',
     items: [
       {
         id: '1',

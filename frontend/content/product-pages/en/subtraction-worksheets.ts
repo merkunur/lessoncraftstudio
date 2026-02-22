@@ -233,7 +233,7 @@ Adjust difficulty settings to create kindergarten worksheets for early learners 
         title: 'Special Education Teachers: IEP-Aligned Subtraction',
         subtitle: 'Customizable Difficulty for Individual Needs',
         description: 'Special education teachers configure subtraction worksheets matching IEP goals precisely. Create worksheets with just 1-2 problems for students needing reduced workload. Use cross-out mode with numbers to 3 for students developing basic counting. Adjust image sizes and problem spacing for visual processing needs. Every setting is customizable to meet diverse learning requirements.',
-        quote: 'I can match each student's IEP goals exactly by adjusting the subtraction settings.',
+        quote: 'I can match each student\'s IEP goals exactly by adjusting the subtraction settings.',
       },
       {
         id: '6',

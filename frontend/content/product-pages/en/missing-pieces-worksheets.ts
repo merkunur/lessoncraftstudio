@@ -17,7 +17,7 @@ export const missingPiecesEnContent: ProductPageContent = {
     appId: 'missing-pieces',
     title: 'Missing Pieces Puzzle Generator | LessonCraftStudio',
     description: 'Create missing pieces puzzle worksheets that develop spatial reasoning. Free printable visual activities for kindergarten. Choose themed images and print now.',
-    keywords: 'visual puzzle worksheets, spatial reasoning printable, complete the picture worksheets, jigsaw-style worksheets, which piece is missing, visual completion puzzles, kindergarten logic puzzles, picture completion activities, spatial awareness puzzles, what's missing worksheets',
+    keywords: 'visual puzzle worksheets, spatial reasoning printable, complete the picture worksheets, jigsaw-style worksheets, which piece is missing, visual completion puzzles, kindergarten logic puzzles, picture completion activities, spatial awareness puzzles, what\'s missing worksheets',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/missing-pieces-worksheets',
       },
 

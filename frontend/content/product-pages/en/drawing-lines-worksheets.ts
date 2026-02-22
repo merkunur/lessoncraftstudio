@@ -238,7 +238,7 @@ The generator includes 8 different templates with various line patterns and orie
   // FAQ Section - ALL questions from drawing-lines.md
   faq: {
     sectionTitle: 'FAQ - Free Worksheet for Kids and Worksheet for Kindergarten',
-    sectionDescription: 'Teachers frequently ask questions about creating drawing lines worksheets and other free printable kindergarten worksheets using our generator. This section answers the most common questions about subscription requirements, printing capabilities, customization options, and commercial licensing. Understanding these details helps educators make informed decisions about Core Bundle subscription. The answers clarify how to maximize the platform's value for creating first grade worksheets, alphabet worksheets, math worksheets, and other printable worksheets for classroom use.',
+    sectionDescription: 'Teachers frequently ask questions about creating drawing lines worksheets and other free printable kindergarten worksheets using our generator. This section answers the most common questions about subscription requirements, printing capabilities, customization options, and commercial licensing. Understanding these details helps educators make informed decisions about Core Bundle subscription. The answers clarify how to maximize the platform\'s value for creating first grade worksheets, alphabet worksheets, math worksheets, and other printable worksheets for classroom use.',
     showMoreText: 'Show more questions',
     showLessText: 'Show less',
     items: [

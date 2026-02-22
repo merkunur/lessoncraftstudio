@@ -488,7 +488,7 @@ The Big and Small generator offers five distinct question types that develop siz
   researchBacking: [
     {
       claim: 'Size comparison and seriation tasks develop measurement foundations and comparative reasoning aligned with K.MD standards, as children who practice ordering objects by size build the relational thinking needed for number lines, measurement units, and data analysis.',
-      source: 'Piaget, J. & Inhelder, B., "The Child's Conception of Space," W.W. Norton & Company, 1967',
+      source: 'Piaget, J. & Inhelder, B., "The Child\'s Conception of Space," W.W. Norton & Company, 1967',
     },
     {
       claim: 'Ordering activities that require arranging items from smallest to largest build understanding of transitivity \u2014 the logical principle that if A is bigger than B and B is bigger than C, then A is bigger than C \u2014 a foundational reasoning skill for mathematical proof and scientific classification.',

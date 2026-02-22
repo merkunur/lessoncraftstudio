@@ -238,7 +238,7 @@ Enable grayscale mode before downloading to save printer ink. The checkbox conve
         icon: '🧩',
         title: 'Special Education Teachers',
         subtitle: 'Adjustable Difficulty for Every Learner',
-        description: 'Adjust grid size, word count, and direction complexity to match each student's reading level. Small grids with horizontal-only words support struggling readers. Visual scanning practice strengthens letter recognition and pattern identification skills across ability levels.',
+        description: 'Adjust grid size, word count, and direction complexity to match each student\'s reading level. Small grids with horizontal-only words support struggling readers. Visual scanning practice strengthens letter recognition and pattern identification skills across ability levels.',
       },
       {
         id: '6',

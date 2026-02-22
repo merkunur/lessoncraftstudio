@@ -223,7 +223,7 @@ These printable addition worksheets work perfectly for math centers, homework pa
         icon: '🌍',
         title: 'Addition Practice and Math Worksheets for ESL: Worksheet for Kindergarten in 11 Languages',
         subtitle: 'Math Worksheets in 11 Languages for Language Learners',
-        description: 'ESL teachers create addition worksheets in students\' primary languages while teaching English. Generate free worksheets in Spanish for beginning English learners. Switch to English as language proficiency increases. Bilingual worksheets support comprehension while building math skills. Students focus on addition concepts without language barriers. Dual-language immersion programs require materials in both languages. Create Monday's free worksheet in Spanish. Generate Tuesday's materials in English. Newcomer programs need culturally relevant worksheet for kids materials. International schools serve students from diverse linguistic backgrounds.',
+        description: 'ESL teachers create addition worksheets in students\' primary languages while teaching English. Generate free worksheets in Spanish for beginning English learners. Switch to English as language proficiency increases. Bilingual worksheets support comprehension while building math skills. Students focus on addition concepts without language barriers. Dual-language immersion programs require materials in both languages. Create Monday\'s free worksheet in Spanish. Generate Tuesday\'s materials in English. Newcomer programs need culturally relevant worksheet for kids materials. International schools serve students from diverse linguistic backgrounds.',
         quote: 'The Spanish worksheets help my English learners succeed in math.',
       },
       {
@@ -232,7 +232,7 @@ These printable addition worksheets work perfectly for math centers, homework pa
         title: 'Addition Worksheet Maker for Special Education: Kindergarten Worksheets with Math Facts',
         subtitle: 'Differentiated Free Worksheets: Addition Problems for Diverse Learning Needs',
         description: 'Special education teachers need highly customizable addition worksheets matching IEP goals. Create worksheet for kindergarten with just 1 or 2 problems for students needing reduced workload. Generate materials using very familiar images to reduce processing demands. Adjust item quantities to target specific number ranges. Complete control over difficulty level. Students with visual processing challenges benefit from uncluttered free worksheets layouts. Generate addition worksheets with fewer problems and larger images. Use high-contrast colors for better visibility. Modified assignments require quick customization.',
-        quote: 'I can quickly adapt worksheets for each student's IEP goals.',
+        quote: 'I can quickly adapt worksheets for each student\'s IEP goals.',
       },
       {
         id: '6',

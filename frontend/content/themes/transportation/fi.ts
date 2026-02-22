@@ -208,6 +208,165 @@ const content: EnrichedThemeContent = {
   // -- Cross-linking --
   relatedThemes: ['travel', 'construction', 'jobs', 'sports', 'school'],
   relatedBlogCategories: [],
+
+  // -- SEO Enrichment (Part 179) --
+
+  classroomScenarios: [
+    {
+      situation: 'Esiopetusryhmän opettaja huomaa, että lapset ovat kiinnostuneita autoista ja junista mutta eivät jaksa keskittyä perinteisiin laskutehtäviin.',
+      solution: 'Hän ottaa käyttöön liikenneaiheisia työlehtiä, joissa lapset laskevat erilaisia ajoneuvoja, yhdistävät varjokuvia ja lajittelevat kulkuvälineitä maa-, vesi- ja ilmaliikenteeseen. Liikenneturvallisuuskeskustelu aloittaa jokaisen tuokion.',
+      outcome: 'Lasten keskittymiskyky paranee huomattavasti, ja opettaja raportoi, että ajoneuvojen konteksti pitää poikien ja tyttöjen mielenkiinnon yllä tasapuolisesti. Laskutaidot vahvistuvat kolmessa viikossa.',
+    },
+    {
+      situation: 'Tokaluokkalaisten vanhempi haluaa opettaa liikenneturvallisuutta kotona, mutta lapsi kokee aiheen tylsnä.',
+      solution: 'Vanhempi käyttää liikenneaiheisia sanahaku- ja laskutehtäviä, joissa liikennemerkit, ajoneuvot ja turvallisuussäännöt yhdistyvät matemaattisiin ja kielellisiin haasteisiin. Jokaisen työlehden jälkeen käydään lyhyt keskustelu turvallisesta liikennekkäyttäytymisestä.',
+      outcome: 'Lapsi oppii tunnistamaan keskeiset liikennemerkit ja turvallisen koulumatkan periaatteet. Matemaattiset taidot vahvistuvat samalla, ja lapsi alkaa huomioida liikenteessää oppimiaan asioita arjessa.',
+    },
+  ],
+
+  quickStats: [
+    { label: 'Suositeltu ikähaarukka', value: '3–9 vuotta' },
+    { label: 'Työlehtisovellusten määrä', value: '12 sovellusta' },
+    { label: 'Opetussuunnitelman alueet', value: '4 aluetta' },
+    { label: 'Tuetut luokkatasot', value: 'Esiopetus–3. lk' },
+    { label: 'Keskimääräinen työskentelyaika', value: '10–20 min' },
+    { label: 'Ajoneuvotyyppien kirjo', value: '15+ ajoneuvoa' },
+  ],
+
+  differentiationStrategies: [
+    {
+      learnerType: 'Visuaaliset oppijat',
+      adaptation: 'Painota väritys- ja varjokuvatehtäviä, joissa ajoneuvon muoto ja yksityiskohdat tukevat visuaalista hahmottamista. Lajittelutehtävät maa-, vesi- ja ilmaliikenteen mukaan tarjoavat selkeät kategoriat.',
+    },
+    {
+      learnerType: 'Kinesteettiset oppijat',
+      adaptation: 'Yhdistä työlehtiin pienikokoisia ajoneuvoleluja, joita lapsi voi siirtää ja lajitella fyysisesti ennen kirjallista tehtävää. Kuviorata-työlehdet yhdistävät käden liikkeen ja ajattelun.',
+    },
+    {
+      learnerType: 'S2-oppijat',
+      adaptation: 'Liikennevälinesanasto on visuaalisesti tunnistettavaa, mikä helpottaa käsitteiden oppimista. Aloita kuvapainotteisista tehtävistä ja lisää sanatehtäviä asteittain. Liikennemerkkien muodot ovat kansainvälisesti tuttuja.',
+    },
+    {
+      learnerType: 'Edistyneet oppijat',
+      adaptation: 'Haasta monivaiheisilla laskutehtävillä, joissa lasketaan ajoneuvoja useassa kategoriassa samanaikaisesti. Vähennyslaskutehtävät ja kuvioradat tarjoavat matemaattista haastetta.',
+    },
+  ],
+
+  assessmentIdeas: [
+    {
+      method: 'Portfolioarviointi',
+      criteria: 'Kerää liikennetyölehtiä neljän viikon ajalta. Vertaa varhaisia ja myöhempiä töitä laskutarkkuuden, luokittelutaidon ja liikennesanaston kehittymisen osalta.',
+      gradeLevel: 'Kaikki luokka-asteet',
+    },
+    {
+      method: 'Havainnointilista',
+      criteria: 'Seuraa, pystyykö lapsi luokittelemaan ajoneuvoja yhden ominaisuuden mukaan kuten koko (esikoulu), käyttötarkoituksen mukaan (1. lk) vai usean kriteerin mukaan samanaikaisesti (2.–3. lk).',
+      gradeLevel: 'Esiopetus–3. lk',
+    },
+    {
+      method: 'Liikenneturvallisuusarviointi',
+      criteria: 'Pyydä oppilasta piirtämään turvallinen koulumatkareitti ja kertomaan, mihin liikennemerkkeihin hän kiinnittää huomiota. Arvioi sekä liikennetietoutta että suullisen selityksen laatua.',
+      gradeLevel: 'Esiopetus–2. lk',
+    },
+  ],
+
+  crossCurricularLinks: [
+    {
+      subject: 'Ympäristöoppi (liikennekasvatus)',
+      connection: 'Liikennetyölehdet kytkeytyvät suoraan POPS 2014:n liikenneturvallisuuskasvatuksen tavoitteisiin. Liikennemerkkien tunnistaminen, turvallinen liikkuminen ja liikennessäännöt ovat keskeistä sisältöä alkuopetuksessa.',
+      activity: 'Työlehden jälkeen oppilaat kävelevät koulun ympäristössä ja kirjaavat ylös näkemänsä liikennemerkit ja ajoneuvotyypit.',
+    },
+    {
+      subject: 'Matematiikka',
+      connection: 'Ajoneuvojen laskeminen, luokittelu ja vertailu tarjoavat konkreettisen kontekstin lukumäärän käsitteille. Vähennyslaskutehtävät ja kuvioradat yhdistävät liikenteen matemaattiseen ajatteluun.',
+      activity: 'Laskutehtävien jälkeen oppilaat luovat pylväsdiagrammin koulun pihalla havaituista ajoneuvotyypeistä.',
+    },
+    {
+      subject: 'Teknologiakasvatus',
+      connection: 'Liikenneaiheiset työlehdet avaavat luontevan keskustelun teknologisesta kehityksestä — miten kulkuvälineet ovat muuttuneet ja miten ne voivat kehittyä tulevaisuudessa.',
+      activity: 'Oppilaat piirtävät tulevaisuuden ajoneuvon ja kirjoittavat kolme ominaisuutta, jotka tekevät siitä ympäristöystävällisen.',
+    },
+  ],
+
+  uniqueAngle: 'Liikenneaiheiset työlehdet tarjoavat ainutlaatuisen yhdistelmän akateemista oppimista ja elämäntaitoja, koska liikenneturvallisuus on konkreettinen, päivittäinen todellisuus jokaiselle lapselle. Suomalaisessa koulujärjestelmässä liikennekasvatus on lakisääteinen osa opetusta, ja POPS 2014 korostaa turvallisen liikkumisen taitoja jo esiopetuksesta alkaen. Liikennetyölehdet palvelevat tätä tavoitetta samalla kun ne opettavat matematiikkaa, lukutaitoa ja luokittelua. Ajoneuvot ovat visuaalisesti monimuotoisia — autot, junat, lentokoneet, laivat ja polkupyörät tarjoavat rikkään kuvallisen maailman, joka pitää lapsen mielenkiinnon yllä viikosta toiseen. Luokittelutehtävät maa-, vesi- ja ilmaliikenteeseen kehittävät kategorista ajattelua, ja liikennemerkkien tunnistaminen yhdistää symbolisen ajattelun käytännön turvallisuustaitoihin. Pohjoismainen pimeän ajan liikenne ja heijastimen käyttö tarjoavat kulttuurisesti relevantin lisäulottuvuuden, joka erottaa suomalaisen liikennekasvatuksen kansainvälisestä vastaavasta. Monikulttuurisissa luokissa liikenneaihe on arvokas, koska liikennessäännöt ja ajoneuvotyypit ovat universaaleja puheenaiheita, jotka eivät vaadi erityistä kulttuurista taustatietoa.',
+
+  researchCitation: 'Zeedyk, M.S. & Kelly, L. (2003). Behavioural observations of adult-child pairs at pedestrian crossings. Accident Analysis & Prevention, 35(5), 771–776. Tutkimus osoitti, että lapset, jotka olivat saaneet järjestelmällistä liikennekasvatusta, osoittivat merkittävästi turvallisempaa käyttäytymistä suojateillä verrattuna vertaisryhmmään.',
+
+  culturalNotes: 'Suomessa liikennekasvatus on lakisääteinen osa perusopetusta, ja POPS 2014 sisällyttää sen ympäristöopin ja terveyskasvatuksen yhteyteen. Heijastimen käyttö pimeällä on suomalainen kulttuurinormi, ja polkupyöräkypjärän käyttö on lakisääteistä alle 16-vuotiaille. Nämä erityispiirteet tekevät liikennetyölehdistä kulttuurisesti merkityksellisiä suomalaisessa kontekstissa.',
+
+  snippetDefinition: 'Liikennetyölehdet lapsille ovat tulostettavia oppimistehtäviä, jotka käyttävät ajoneuvoja, liikennemerkkejä ja kulkuvälineitä matematiikan, lukutaidon ja liikenneturvallisuuden opettamiseen. Ne on suunniteltu 3–9-vuotiaille ja sisältävät laskuharjoituksia, sanahakuja, lajittelutehtäviä ja väritystehtäviä, jotka hyödyntävät lasten luontaista kiinnostusta liikkuviin koneisiin.',
+
+  snippetHowTo: [
+    'Valitse viikolle liikennealateema, kuten maaliikenne, vesiliikenne tai liikenneturvallisuus, jotta oppitunneilla on yhtenäinen fokus.',
+    'Valitse kaksi tai kolme työlehtityyppiä eri taitoalueille — esimerkiksi laskutehtävä matematiikkaan, sanahaku lukutaitoon ja väritystehtävä hienomotoriikkaan.',
+    'Aloita lyhyellä keskustelulla: kysy lapsilta, miten he tulivat tänään kouluun ja mitä ajoneuvoja he näkivät matkalla.',
+    'Jaa työlehdet vaikeustason mukaan: aloita väritystehtävällä ennen haastavampia lasku- ja sanatehtäviä.',
+    'Kierrä lasten joukossa ja esitä avoimia kysymyksiä kuten Mihin ryhmmään tämä ajoneuvo kuuluu tai Mikä tekee tästä ajoneuvosta turvallisen.',
+    'Yhdistä työlehti käytäntöön: kävelkkää koulun lähistöllä ja havainnoikaa yhdessä liikennemerkkejä ja ajoneuvoja.',
+    'Kerää valmiit työlehdet portfoliokansioon ja lisää lapsen piirros turvallisesta koulumatkasta.',
+  ],
+
+  limitations: 'Liikennetyölehdet voivat vahingossa korostaa yksityisautoilua kestävämpien vaihtoehtojen kustannuksella, joten opettajien tulisi varmistaa, että työlehdissä esiintyy monipuolisesti myös julkinen liikenne, polkupyöräily ja kävely. Joillakin lapsilla voi olla pelottavia kokemuksia liikenteestä tai liikenneonnettomuuksista, mikä vaatii herkkyyttjä aiheen käsittelyssä. Ajoneuvot ovat myös vahvasti sukupuolittunutta leikkikulttuuria, joten opettajien tulee varmistaa, että kaikki lapset tuntevat itsensä tervetulleiksi teemaan.',
+
+  themeComparisons: [
+    {
+      vsThemeId: 'travel',
+      summary: 'Matkailutyölehdet keskittyvät kohteisiin, kulttuureihin ja kokemuksiin, tarjoten maantieteellisen näkökulman. Liikennetyölehdet käsittelevät itse kulkuvälineitä ja niiden toimintaa, mikä tukee teknologista ajattelua ja liikenneturvallisuutta.',
+    },
+    {
+      vsThemeId: 'construction',
+      summary: 'Rakennustyölehdet esittelevät työkoneita ja rakentamisprosesseja. Liikennetyölehdet kattavat laajemman kirjon kulkuvälineitä ja yhdistävät ne liikenneturvallisuuteen ja päivittäiseen liikkumiseen.',
+    },
+    {
+      vsThemeId: 'jobs',
+      summary: 'Ammattityölehdet esittelevät eri ammatteja ja työympäristöjä laajasti. Liikennetyölehdet syventyvät tarkemmin kulkuvälineisiin ja niiden luokitteluun, tarjoten vahvemman pohjan teknologiselle ymmärrykselle.',
+    },
+    {
+      vsThemeId: 'school',
+      summary: 'Koultyölehdet käsittelevät kouluympäristöä ja oppimisen perusvalmiuksia. Liikennetyölehdet laajentavat oppimisen koulumatkalle ja ympäröivään liikenteeseen, yhdistäen turvallisuuskasvatuksen akateemisiin taitoihin.',
+    },
+  ],
+
+  productLinks: [
+    {
+      appId: 'coloring',
+      anchorText: 'liikenneaiheiset väritystehtävät',
+      context: 'Helppo aloitus liikenneaiheeseen tarjoutuu väritystehtävien kautta, joissa lapset värittävät yksityiskohtaisia ajoneuvokuvia kehittäen hienomotoriikkaa ja oppi en tunnistamaan eri ajoneuvolajeja.',
+    },
+    {
+      appId: 'find-and-count',
+      anchorText: 'ajoneuvojen laskutehtävät',
+      context: 'Ajoneuvojen laskutehtävät yhdistävät visuaalisen etsinnän ja aritmetiikan, kun lapset laskevat autoja, busseja ja polkupyöriä vilkkaista liikennekohtauksista.',
+    },
+    {
+      appId: 'word-search',
+      anchorText: 'liikennesanahaku-työlehdet',
+      context: 'Liikennesanaston oppiminen onnistuu luontevasti sanahakutehtävissä, joissa lapset etsivät ajoneuvoja ja liikenneturvallisuuteen liittyviä termejä sanaruudukosta.',
+    },
+    {
+      appId: 'math-worksheet',
+      anchorText: 'liikenneaiheiset matikkatehtävät',
+      context: 'Liikenneaiheiset matikkatehtävät harjoittavat yhteen- ja vähennyslaskua ajoneuvojen kontekstissa, tehden abstrakteista laskutoimituksista konkreettisia ja motivoivia.',
+    },
+  ],
+
+  expertTips: [
+    {
+      tip: 'Käytä liikennetyölehtiä heijastinpäivän yhteydessä syksyllä — yhdistä työlehdet heijastimen askarteluun ja pimeässä näkymisen harjoitteluun.',
+      source: 'Esiopetuksen opettaja, 10 vuoden kokemus',
+      gradeRange: 'Esiopetus–1. lk',
+    },
+    {
+      tip: 'Ota liikennemerkkien tunnistamistehtävät osaksi koulumatkaturvallisuuden opetusta. Lapset, jotka tunnistavat merkit työlehdeltä, huomaavat ne myös oikeassa liikenteessä.',
+      source: 'Liikenneturvan kouluttaja',
+      gradeRange: '1.–3. lk',
+    },
+    {
+      tip: 'Yhdistä ajoneuvoluokittelu ympäristökasvatukseen: keskustelkaa siitä, mitkä kulkuvälineet ovat ympäristöystävällisiä ja miksi pyöräily on hyvä valinta.',
+      source: 'Luokanopettaja, kestävän kehityksen painotus',
+      gradeRange: 'Kaikki luokka-asteet',
+    },
+  ],
 };
 
 registerThemeContent('transportation', 'fi', content);

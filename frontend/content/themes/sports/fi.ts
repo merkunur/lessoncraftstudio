@@ -207,6 +207,165 @@ const content: EnrichedThemeContent = {
   // -- Cross-linking (IDENTICAL to English) --
   relatedThemes: ['body', 'toys', 'camping', 'school', 'transportation'],
   relatedBlogCategories: [],
+
+  // -- SEO Enrichment (Part 179) --
+
+  classroomScenarios: [
+    {
+      situation: 'Tokaluokan opettaja huomaa, että useat oppilaat ovat levottomia pitkien istumisjaksojen jälkeen eivyätkä keskity matikkatehtäviin.',
+      solution: 'Hän sijoittaa urheiluaiheisia työlehtiä liikuntatuntien jälkeen: lapset laskevat palloja ja urheilijoita, yhdistävät urheilulajeja välineisiin ja ratkaisevat urheiluaiheisia matikkapulmia. Fyysisen aktiivisuuden jälkeen aivojen toiminta on tehokkainta.',
+      outcome: 'Keskittymiskyky paranee huomattavasti liikuntatuntien jälkeisissä oppimisjjaksoissa. Oppilaat suoriutuvat matikkatehtävistä paremmin ja motivoituneemmin urheilukontekstissa.',
+    },
+    {
+      situation: 'Vanhempi haluaa motivoida liikunnallista mutta akateemisesti arimman pojan matikan ja lukemisen harjoitteluun.',
+      solution: 'Vanhempi käyttää urheiluaiheisia sanahaku-, laskenta- ja pulmatehtäviä. Jokainen työlehti liittyy pojan lempiurheilulajiin, ja oikein ratkaistu tehtävä palkitaan lyhyellä pelihetkellä ulkona.',
+      outcome: 'Poika suorittaa päivittäiset työlehdet vastustamatta ja alkaa pyytää haastavampia tehtäviä. Laskutarkkuus ja sanavarasto paranevat merkittävästi kahdessa kuukaudessa.',
+    },
+  ],
+
+  quickStats: [
+    { label: 'Suositeltu ikähaarukka', value: '3–9 vuotta' },
+    { label: 'Työlehtisovellusten määrä', value: '12 sovellusta' },
+    { label: 'Opetussuunnitelman alueet', value: '4 aluetta' },
+    { label: 'Tuetut luokkatasot', value: 'Esiopetus–3. lk' },
+    { label: 'Keskimääräinen työskentelyaika', value: '10–20 min' },
+    { label: 'Urheilulajien kirjo', value: '15+ lajia' },
+  ],
+
+  differentiationStrategies: [
+    {
+      learnerType: 'Visuaaliset oppijat',
+      adaptation: 'Painota väritys- ja varjokuvatehtäviä, joissa urheiluvälineiden ja urheilijoiden kuvat tukevat visuaalista hahmottamista. Isot ja pienet -lajittelutehtävät hyödyntävät kokovertailun visuaalisuutta.',
+    },
+    {
+      learnerType: 'Kinesteettiset oppijat',
+      adaptation: 'Yhdistä työlehtiin lyhyitä liikuntahetkiiä: ennen matikkatehtävää tehdään viisi hyppyyä tai venäytystä. Konkreettiset urheiluvälineet pieniä palloja tai naruja voidaan laskea ennen tehtävän kirjoittamista.',
+    },
+    {
+      learnerType: 'S2-oppijat',
+      adaptation: 'Urheilusanasto on kansainvälisesti tunnistettavaa (jalkapallo, koripallo), mikä helpottaa käsitteiden oppimista. Aloita kuvapainotteisista tehtävistä ja lisää sanatehtäviä asteittain.',
+    },
+    {
+      learnerType: 'Edistyneet oppijat',
+      adaptation: 'Haasta matikkapulma- ja sudoku-tehtävillä urheilukontekstissa. Sanasekoitustehtävät pitemmmillä urheilutermeillä tarjoavat kielellisen haasteen.',
+    },
+  ],
+
+  assessmentIdeas: [
+    {
+      method: 'Portfolioarviointi',
+      criteria: 'Kerää urheilutyölehtiä neljän viikon ajalta. Vertaa laskutarkkuuden, ongelmanratkaisutaitojen ja sanaston kehittymistä varhaisista myöhempiin töihin.',
+      gradeLevel: 'Kaikki luokka-asteet',
+    },
+    {
+      method: 'Havainnointilista',
+      criteria: 'Seuraa, miten oppilas lajittelee urheiluvälineitä tai -lajeja: yhden ominaisuuden mukaan kuten pallopelit (esikoulu), kahden ominaisuuden mukaan (1. lk) vai itsenäisesti valittujen kriteerien mukaan (2.–3. lk).',
+      gradeLevel: 'Esiopetus–3. lk',
+    },
+    {
+      method: 'Pulmatehtäväarviointi',
+      criteria: 'Anna oppilaalle matikkapulma urheiluaiheessa ja arvioi ongelmanratkaisustrategiaa, laskutarkkuutta ja kykyä selittää omaa ajatteluprosessiaan.',
+      gradeLevel: '1.–3. lk',
+    },
+  ],
+
+  crossCurricularLinks: [
+    {
+      subject: 'Liikunta',
+      connection: 'Urheilutyölehdet kytkeytyvät POPS 2014:n liikuntakasvatuksen tavoitteisiin, jotka korostavat liikunnallisen elämäntavan perustan rakentamista. Työlehdet vahvistavat urheilutietoutta luokkahuoneessa.',
+      activity: 'Työlehden jälkeen oppilaat pelaavat pihalla yhdessä työlehdellä esiteltyä urheilulajia ja vertaavat kokemusta työlehden tietoon.',
+    },
+    {
+      subject: 'Matematiikka',
+      connection: 'Urheilussa pisteet, ajat ja etäisyydet tarjoavat luonnollisen kontekstin lukumäärän käsitteille, vertailulle ja yksinkertaiselle tilastotieteelle.',
+      activity: 'Laskutehtävän jälkeen oppilaat keräävät dataa luokan hyppylytänneistä ja luovat pylväsdiagrammin tuloksista.',
+    },
+    {
+      subject: 'Terveystieto (hyvinvointi)',
+      connection: 'Urheiluteema yhdistyy luontevasti terveyskasvatukseen: liikkumisen merkitys, riittävä uni ja ravinto ovat POPS 2014:n keskeisiä sisältöjä.',
+      activity: 'Urheilutyölehden jälkeen keskustellaan luokassa siitä, miten liikunta vaikuttaa mielialaan ja jaksamiseen.',
+    },
+  ],
+
+  uniqueAngle: 'Urheiluteemaiset työlehdet tarjoavat ainutlaatuisen yhdistelmän kognitiivista ja fyysistä kehitystä tukevia elementtejä, koska urheilu on lapsille sekä fyysistä että henkistä toimintaa. Suomalainen koulujärjestelmä arvostaa liikuntaa oppimisen tukena — POPS 2014 korostaa toiminnallista oppimista ja liikuntakasvatuksen merkitystä kokonaisvaltaiselle hyvinvoinnille. Urheilutyölehdet hyödyntävät tätä yhteyttä: tutkimus osoittaa, että fyysisen aktiivisuuden jälkeen aivojen toiminta tehostuu, ja urheiluaiheinen oppimateriaali jatkaa tätä tehostumista luokkahuoneessa. Pisteiden laskeminen, tulosten vertailu ja tilastojen tulkinta ovat luonnollinen osa urheilua, mikä tekee teemasta erinomaisen kontekstin matemaattiselle ajattelulle. Lisäksi urheilu opettaa sosiaalisia taitoja — reilu peli, joukkuehenki ja häviämisen sietäminen — joita työlehdet voivat käsitellä kirjallisessa muodossa. Suomessa jääkiekko, jalkapallo, yleisurheilu ja hiihto ovat kulttuurisesti tärkeitä lajeja, jotka tarjoavat motivoivan kontekstin kaiken taustaisille lapsille.',
+
+  researchCitation: 'Hillman, C.H., Erickson, K.I. & Kramer, A.F. (2008). Be smart, exercise your heart: exercise effects on brain and cognition. Nature Reviews Neuroscience, 9(1), 58–65. Tutkimus osoitti, että säännöllinen fyysinen aktiivisuus paransi lasten kognitiivista suoriutumista, erityisesti tarkkaavaisuutta, työmuistia ja akateemista suoriutumista.',
+
+  culturalNotes: 'Suomessa liikunta on POPS 2014:n mukaan pakollinen oppiaine kaikilla luokka-asteilla, ja liikuntakasvatuksen tavoitteena on liikunnallisen elämäntavan perustan rakentaminen. Toiminnallinen oppiminen on suomalaisen pedagogiikan keskeinen periaate, ja urheiluteema tukee tätä luontevasti. Suomalainen urheilukulttuuri — jääkiekko, hiihto ja yleisurheilu — tarjoaa kulttuurisesti merkityksellisen kontekstin oppimiselle.',
+
+  snippetDefinition: 'Urheilutyölehdet lapsille ovat tulostettavia oppimistehtäviä, jotka käyttävät urheilulajeja, välineitä ja liikuntatilanteita matematiikan, lukutaidon ja ongelmanratkaisun opettamiseen. Ne on suunniteltu 3–9-vuotiaille ja sisältävät laskuharjoituksia, sanahakuja, matikkapulmia, varjokuvatehtäviä ja väritystehtäviä.',
+
+  snippetHowTo: [
+    'Valitse viikolle urheilualateema, kuten pallopelit, talviurheilu tai yleisurheilu, jotta oppitunneilla on yhtenäinen fokus.',
+    'Valitse kaksi tai kolme työlehtityyppiä eri taitoalueille — esimerkiksi laskutehtävä matematiikkaan, sanahaku lukutaitoon ja matikkapulma ongelmanratkaisuun.',
+    'Aloita lyhyellä liikuntahetkellä tai keskustelulla: kysy lapsilta, mitä urheilulajeja he harrastavat tai haluaisivat kokeilla.',
+    'Jaa työlehdet vaikeustason mukaan: aloita väritystehtävällä ennen haastavampia lasku- ja pulmatehtäviä.',
+    'Kierrä lasten joukossa ja esitä avoimia kysymyksiä kuten Montako pelaajaa joukkueessa tarvitaan tai Miksi lämmittely on tärkeää.',
+    'Yhdistä työlehti liikuntaan: työlehden jälkeen menkää ulos kokeilemaan työlehdellä esiteltyä urheilulajia.',
+    'Kerää valmiit työlehdet portfoliokansioon ja lisää lapsen oma piirros lempiurheilulajistaan.',
+  ],
+
+  limitations: 'Urheilutyölehdet voivat tahattomasti korostaa kilpailullisuutta yhteistyön kustannuksella, joten opettajien tulisi painottaa reilua peliä ja osallistumisen iloa. Joillakin lapsilla on fyysisiä rajoitteita, jotka tekevät urheiluaiheesta herkkää: työlehtien tulisi esitellä monipuolisesti myös sovellettuja lajeja ja paraurheilua. Sukupuolittuneet urheilustereotypiat ovat riski, joten tehtävissä tulisi esiintyä tasapuolisesti eri sukupuolten urheilijoita ja monipuolisesti eri lajeja.',
+
+  themeComparisons: [
+    {
+      vsThemeId: 'body',
+      summary: 'Kehotyölehdet käsittelevät ihmisen anatomiaa ja toimintoja kokonaisvaltaisesti. Urheilutyölehdet keskittyvät kehon käyttämiseen aktiivisissa tilanteissa, mikä tukee toiminnallista oppimista ja liikuntamotivaatiota.',
+    },
+    {
+      vsThemeId: 'camping',
+      summary: 'Leirintyölehdet yhdistävät ulkoilun ja luontokokemuksen. Urheilutyölehdet keskittyvät järjestettyihin lajeihin ja niiden sääntöihin, tarjoten vahvemman pohjan matemaattiselle ajattelulle pisteiden ja tilastojen kautta.',
+    },
+    {
+      vsThemeId: 'school',
+      summary: 'Koulutyölehdet kattavat koko kouluympäristön ja oppimisvalmiudet. Urheilutyölehdet syventyvät liikunnan maailmaan ja tarjoavat toiminnallisen kontekstin, joka motivoi erityisesti liikunnallisia oppijoita.',
+    },
+    {
+      vsThemeId: 'transportation',
+      summary: 'Liikennetyölehdet käsittelevät kulkuvälineitä ja turvallisuutta. Urheilutyölehdet keskittyvät fyysiseen aktiivisuuteen ja peleihin, tarjoten vahvemman yhteyden terveyskasvatukseen ja hyvinvointiin.',
+    },
+  ],
+
+  productLinks: [
+    {
+      appId: 'coloring',
+      anchorText: 'urheiluaiheiset väritystehtävät',
+      context: 'Urheiluaiheiset väritystehtävät tarjoavat rauhallisen aloituksen oppimistuokioon, kun lapset värittävät urheilijoita ja välineitä kehittäen hienomotoriikkaa ja urheilusanastoa.',
+    },
+    {
+      appId: 'find-and-count',
+      anchorText: 'urheiluvälineiden laskutehtävät',
+      context: 'Urheiluvälineiden laskutehtävät yhdistävät visuaalisen etsinnän ja aritmetiikan, kun lapset laskevat palloja, mailoja ja muita välineitä monipuolisista urheilukohtauksista.',
+    },
+    {
+      appId: 'word-search',
+      anchorText: 'urheilusanahaku-työlehdet',
+      context: 'Urheilusanaston oppiminen onnistuu luontevasti sanahakutehtävissä, joissa lapset etsivät lajien, välineiden ja urheilutermien nimiä sanaruudukosta.',
+    },
+    {
+      appId: 'math-puzzle',
+      anchorText: 'urheiluaiheiset matikkapulmat',
+      context: 'Urheiluaiheiset matikkapulmat yhdistävät ongelmanratkaisun ja urheilukontekstin, haasta en lapsia loogiseen ajatteluun pelitulosten ja pisteiden kautta.',
+    },
+  ],
+
+  expertTips: [
+    {
+      tip: 'Sijoita urheilutyölehdet aina liikuntatunnin jälkeen — tutkimus osoittaa, että fyysisen aktiivisuuden jälkeen aivojen toiminta on tehokkainta, ja urheiluteema jatkaa motivaatiota luokkahuoneessa.',
+      source: 'Liikuntakasvattaja, 14 vuoden kokemus',
+      gradeRange: 'Kaikki luokka-asteet',
+    },
+    {
+      tip: 'Käytä urheilutilastoja yksinkertaisissa diagrammitehtävissä: lapset keräävät dataa omista suorituksistaan (hyppyjen määrä, juoksuaika) ja piirtävät siitä kaavion.',
+      source: 'Matematiikan aineenopettaja, toiminnallisuus',
+      gradeRange: '2.–3. lk',
+    },
+    {
+      tip: 'Muista esitellä työlehdissä myös vammaisurheilu ja sovelletut lajit — tämä opettaa inklusiivisuutta ja osoittaa, että urheilu kuuluu kaikille.',
+      source: 'Erityisliikunnan opettaja',
+      gradeRange: 'Kaikki luokka-asteet',
+    },
+  ],
 };
 
 registerThemeContent('sports', 'fi', content);

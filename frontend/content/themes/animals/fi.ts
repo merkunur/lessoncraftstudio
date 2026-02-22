@@ -208,6 +208,165 @@ const content: EnrichedThemeContent = {
   // -- Cross-linking --
   relatedThemes: ['farm', 'pets', 'zoo', 'birds', 'insects', 'ocean', 'dinosaurs'],
   relatedBlogCategories: [],
+
+  // -- SEO Enrichment (Part 179) --
+
+  classroomScenarios: [
+    {
+      situation: 'Esiopetusryhmän opettaja huomaa, että useat lapset kamppailevat lukumäärien hahmottamisen kanssa yli viiden, ja perinteiset laskuharjoitukset eivät pidä mielenkiintoa yllä.',
+      solution: 'Hän ottaa käyttöön eläinteemaiset etsi ja laske -työlehdet, joissa lapset laskevat tuttuja maatilan ja villieläimiä värikkäistä kohtauskuvista. Jokainen työlehti sisältää 3–8 eri eläinlajia, ja lapset merkitsevät lukumäärät taulukkoon.',
+      outcome: 'Kahden viikon kuluessa lapset laskevat luotettavasti kymmeneen asti, ja kolme aiemmin arimmaista oppilasta pyytää vapaaehtoisesti lisätehtäviä. Opettaja raportoi, että eläinkonteksti muutti laskemisen leikiksi.',
+    },
+    {
+      situation: 'Kotikoululaisen vanhempi huomaa, että tokaluokkalainen välttää kirjoitustehtäviä ja valittaa, ettei keksi mitään kirjoitettavaa.',
+      solution: 'Vanhempi aloittaa päivän eläinaiheisella sanahaku-työlehdellä ja pyytää sen jälkeen lasta kirjoittamaan yhden lauseen jokaisesta löydetystä eläinsanasta. Eläinkuvat toimivat visuaalisena inspiraationa.',
+      outcome: 'Lapsi alkaa kirjoittaa lyhyitä tarinoita eläimistä oma-aloitteisesti. Kuukauden kuluttua hän tuottaa kolmen tai neljän lauseen kappaleita ilman vastustelua.',
+    },
+  ],
+
+  quickStats: [
+    { label: 'Suositeltu ikähaarukka', value: '3–9 vuotta' },
+    { label: 'Työlehtisovellusten määrä', value: '12 sovellusta' },
+    { label: 'Opetussuunnitelman alueet', value: '4 aluetta' },
+    { label: 'Tuetut luokkatasot', value: 'Esiopetus–3. lk' },
+    { label: 'Keskimääräinen työskentelyaika', value: '10–20 min' },
+    { label: 'Eläinlajien kirjo', value: '30+ lajia' },
+  ],
+
+  differentiationStrategies: [
+    {
+      learnerType: 'Visuaaliset oppijat',
+      adaptation: 'Painota väritys-, varjokuva- ja lajittelutehtäviä, jotka hyödyntävät vahvaa kuvallista hahmotuskykyä. Lisää sanapohjaisiin työlehtiin eläinkuvakortteja tueksi.',
+    },
+    {
+      learnerType: 'Kinesteettiset oppijat',
+      adaptation: 'Yhdistä työlehtiin konkreettisia eläinhahmoja, joita lapsi voi siirtää ja laskea fyysisesti ennen vastauksen kirjoittamista. Piirrä ja väritä -tehtävät tukevat liikkeeseen perustuvaa oppimista.',
+    },
+    {
+      learnerType: 'S2-oppijat',
+      adaptation: 'Aloita kuvapainotteisista tehtävistä kuten etsi ja laske sekä varjokuvat ennen sanatehtäviä. Eläinsanasto on usein ensimmäisten opittujen suomen sanojen joukossa, mikä tekee teemasta luontevan sillan kielenoppimiseen.',
+    },
+    {
+      learnerType: 'Edistyneet oppijat',
+      adaptation: 'Haasta monivaiheisilla luokittelutehtävillä, joissa eläimiä ryhmitellään useammalla kriteerillä samanaikaisesti. Ristikko- ja sanahakutehtävät voidaan laajentaa sisältämään tieteellisiä termejä kuten nisäkäs, hyönteinen ja matelija.',
+    },
+  ],
+
+  assessmentIdeas: [
+    {
+      method: 'Portfolioarviointi',
+      criteria: 'Kerää yksi eläintyölehti viikossa neljän viikon ajan. Vertaa varhaisia ja myöhempiä töitä laskutarkkuuden, sanavaraston, motoriikan ja kirjallisten vastausten kehittymisen osalta.',
+      gradeLevel: 'Kaikki luokka-asteet',
+    },
+    {
+      method: 'Havainnointilista',
+      criteria: 'Seuraa, pystyykö lapsi luokittelemaan eläimiä yhden ominaisuuden mukaan (esikoulu), kahden ominaisuuden mukaan (1. lk) vai itsenäisesti valittujen kriteerien mukaan (2.–3. lk). Kirjaa eläinsanaston käyttö selitykissä.',
+      gradeLevel: 'Esiopetus–3. lk',
+    },
+    {
+      method: 'Lajittelutehtävä',
+      criteria: 'Anna oppilaalle kuvasarja eri elinymppäristöistä ja eläimistä. Pyydä lajittelemaan eläimet oikeisiin ympäristöihin ja perustelemaan valinta suullisesti tai kirjallisesti.',
+      gradeLevel: 'Esiopetus–2. lk',
+    },
+  ],
+
+  crossCurricularLinks: [
+    {
+      subject: 'Ympäristöoppi (luonnontiede)',
+      connection: 'Eläintyölehdet kytkeytyvät suoraan POPS 2014:n ympäristöopin tavoitteisiin eläinten elinymppäristöistä, ravintoketjuista ja luokittelusta. Lajittelu- ja laskutehtävät kehittävät tieteellistä ajattelua.',
+      activity: 'Lajittelutyölehden jälkeen oppilaat piirtävät valitsemansa eläimen elinymppäristön ja kirjoittavat kolme faktaa sen elinolosuhteista.',
+    },
+    {
+      subject: 'Matematiikka',
+      connection: 'Eläinten laskeminen, ryhmittely ja vertailu tarjoavat konkreettisen kontekstin lukumäärän käsitteille, yhteen- ja vähennyslaskulle sekä kuvioiden tunnistamiselle.',
+      activity: 'Etsi ja laske -työlehden tulosten pohjalta oppilaat luovat pylväsdiagrammin eri eläinlajien lukumääristä ja vastaavat vertailukysymyksiin.',
+    },
+    {
+      subject: 'Äidinkieli ja kirjallisuus',
+      connection: 'Eläinsanasto rikastuttaa ilmaisua ja tukee lukemisen oppimista. Sanahaku- ja ristikkotehtävät vahvistavat kirjain-äännevastaavuutta ja oikeinkirjoitusta motivoivassa kontekstissa.',
+      activity: 'Sanahaun jälkeen jokainen oppilas valitsee kolme löydettyä eläinsanaa ja kirjoittaa niistä lyhyen kuvauksen tai tarinan.',
+    },
+  ],
+
+  uniqueAngle: 'Eläinteemaiset työlehdet ovat varhaiskasvatuksen pedagogisesti tehokkaimpia välineitä, koska ne hyödyntävät kehityspsykologien kuvaamaa biofiiliaa — ihmisen synnynnistä kiinnostusta muita eläviä olentoja kohtaan. Toisin kuin abstraktit teemat kuten muodot tai numerot, eläimet tarjoavat konkreettisen ja tunnepitoisen kehyksen, joka muuttaa jokaisen oppimistehtävän löytöretkeksi. Lapsi, joka laskee hämähäkin jalkoja, harjoittelee samanaikaisesti aritmetiikkaa ja omaksuu tietoa selkärangattomista. Eläinkunta tarjoaa vertaansa vailla olevaa taksonomista laajuutta: nisäkkäät, linnut, matelijat, sammakkoeläimet, kalat ja hyönteiset esittävät kukin erilaisia visuaalisia profiileja ja elinymppäristöjä, mikä pitää teeman tuoreena kuukausien opetuksessa. Suomalaisessa koulujärjestelmässä eläinteemat kytkeytyvät luontevasti POPS 2014:n ympäristöopin laaja-alaisiin tavoitteisiin, jotka korostavat luonnon monimuotoisuuden ymmärtämistä ja kestävän kehityksen periaatteita jo esiopetuksesta alkaen. Luokittelutehtävät eläinten parissa kehittävät hierarkkista ajattelua, joka on sekä tieteellisen tutkimuksen että matemaattisen päättelyn perusta. Lisäksi eläimet toimivat universaalina kulttuurisena siltana: kielitaustasta tai maantieteellisestä alkuperästä riippumatta lähes jokainen lapsi tunnistaa koirat, kissat, linnut ja kalat. Tämä yleismaailmallisuus tekee eläintyölehdistä erityisen tehokkaita monikielisissä luokissa, joissa yhteiset viittauskohdat ovat välttämättömiä osallistavalle opetukselle.',
+
+  researchCitation: 'Kellert, S.R. (2002). Experiencing Nature: Affective, Cognitive, and Evaluative Development in Children. Teoksessa Children and Nature: Psychological, Sociocultural, and Evolutionary Investigations (s. 117–151), MIT Press. Kellertin tutkimus osoitti, että varhaislapsuden eläinkokemukset vaikuttivat merkittävästi kognitiiviseen kehitykseen, erityisesti luokittelutaitoihin ja empaattiseen päättelyyn.',
+
+  culturalNotes: 'Suomen perusopetuksen opetussuunnitelman perusteet (POPS 2014) korostavat ympäristöopin merkitystä alkuopetuksessa, ja eläinteemat kytkeytyvät suoraan laaja-alaisen osaamisen tavoitteisiin L3 (itsestä huolehtiminen) ja L4 (monilukutaito). Suomalaisessa kulttuurissa luontosuhde on keskeinen arvo — metsäretket, luontokoulut ja eläinhavainnot ovat vakiintunut osa opetusta. Eläinteemaiset työlehdet tukevat tätä perinnettä sisätiloissa ja mahdollistavat luontoyhteyden säilymisen myös kaupunkikouluissa.',
+
+  snippetDefinition: 'Eläintyölehdet lapsille ovat tulostettavia oppimistehtäviä, jotka käyttävät tuttuja eläimiä — koiria, kissoja, perhosia ja kaloja — matematiikan, lukutaidon ja päättelytaitojen opettamiseen. Ne on suunniteltu 3–9-vuotiaille ja sisältävät laskuharjoituksia, sanahakuja, väritystehtäviä ja lajitteluhaasteita, jotka hyödyntävät lasten luontaista kiinnostusta eläimiä kohtaan.',
+
+  snippetHowTo: [
+    'Valitse viikolle tietty eläinalateema, kuten metsäneläimet, mereläimet tai hyönteiset, jotta oppitunneille muodostuu yhtenäinen tarina.',
+    'Valitse kaksi tai kolme työlehtityyppiä, jotka harjoittavat eri taitoja — esimerkiksi kuvalaskutehtävä matematiikkaan, sanahaku lukutaitoon ja väritystehtävä hienomotoriikkaan.',
+    'Esittele eläinalateema lyhyellä satuhetkellä tai videolla, jotta lapsilla on taustatietoa ennen työlehtiin siirtymistä.',
+    'Jaa työlehdet vaikeustasojen mukaan: aloita helpommalla tehtävällä kuten värityksellä itseluottamuksen rakentamiseksi ennen haastavampia tehtäviä.',
+    'Kierrä lasten joukossa ja esitä avoimia kysymyksiä kuten Montako jalkaa tällä eläimellä on tai Missä tämä eläin asuu syventääksesi tieteellistä ajattelua.',
+    'Työlehtien jälkeen pidä lyhyt jakamishetki, jossa jokainen lapsi kertoo yhden uuden asian päivän eläimistä sanavaraston vahvistamiseksi.',
+    'Kerää valmiit työlehdet portfoliokansioon taitojen kehittymisen seuraamiseksi ja vanhempien tiedottamiseksi.',
+  ],
+
+  limitations: 'Eläintyölehdet eivät sovi jokaiseen tilanteeseen. Joillakin lapsilla on aitoja pelkoja tiettejä eläimiä kohtaan — hämähäkit, käärmeet ja koirat ovat yleisimpiä lapsuuden fobioita — ja näiden kuvien kohtaaminen työlehdissä voi aiheuttaa ahdistusta. Lisäksi tietyt kulttuuriset ja uskonnolliset perinteet sisältävät herkkyyksiiä joihinkin eläimiin liittyen, joten opettajien monikulttuurisissa luokissa tulisi esikatselua työlehtien sisältö ja tarjota vaihtoehtoja. Vaikka eläimet ovat erinomaisia luokittelussa ja laskemisessa, ne soveltuvat heikommin abstrakteihin matemaattisiin käsitteisiin kuten paikkaarvo tai murtoluvut.',
+
+  themeComparisons: [
+    {
+      vsThemeId: 'farm',
+      summary: 'Maatilatyölehdet keskittyvät kotieläimiin ja kytkeytyvät luontevasti ruoantuotantoon ja maaseutuelämään. Eläintyölehtien laajempi lajivalikoima tekee niistä vahvempia luonnontieteelliseen luokitteluun ja biodiversiteetin tutkimiseen, mutta ne eivät tarjoa yhtä luontevaa yhteyttä maatalouteen ja yhteisön ammatteihin.',
+    },
+    {
+      vsThemeId: 'pets',
+      summary: 'Lemmikkityölehtien vahvuus on henkilökohtaisessa tunnesiteessä kotieläimiin, mikä tukee sosioemotionaalista oppimista ja vastuullisuuden opettamista. Eläintyölehtien koko eläinkunnan kattava lähestymistapa tarjoaa rikkäamman sisällön luokitteluun ja elinymppäristöjen tutkimiseen.',
+    },
+    {
+      vsThemeId: 'zoo',
+      summary: 'Eläintarhatyölehtien jäsennelty ympäristö sopii hyvin yhteisöllisten paikkojen ja karttojen opettamiseen. Eläintyölehtien luonnonmukaisempi konteksti tukee ekologista ajattelua ja ravintoketjujen ymmärtämistä paremmin.',
+    },
+    {
+      vsThemeId: 'dinosaurs',
+      summary: 'Dinosaurustyölehtien esihistoriallinen konteksti innostaa paleontologian ja geologisen ajan oppimiseen. Eläintyölehtien nykyiset lajit mahdollistavat suoran havainnoinnin ja reaalimaailman yhteydet, joita dinosaurusteema ei voi tarjota.',
+    },
+  ],
+
+  productLinks: [
+    {
+      appId: 'coloring',
+      anchorText: 'eläinten väritystehtävät',
+      context: 'Lapsille, jotka tarvitsevat helpon aloituksen rakenteelliseen oppimiseen, eläinten väritystehtävät tarjoavat yksityiskohtaisia kuvia nisäkkäistä, linnuista ja matelijoista, jotka kehittävät hienomotoriikkaa ja lajituntemusta.',
+    },
+    {
+      appId: 'find-and-count',
+      anchorText: 'eläinten laskutehtävät',
+      context: 'Kun oppilaat ovat valmiita yhdistämään visuaalisen hahmottamisen ja laskemisen, eläinten laskutehtävät haastavat lapsia etsimään ja laskemaan eri lajeja värikkäistä kohtauskuvista.',
+    },
+    {
+      appId: 'word-search',
+      anchorText: 'eläinsanahaku-työlehdet',
+      context: 'Sanavaraston kartuttaminen nopeutuu, kun lapset etsivät eläin- ja elinymppäristötermejä sanahakutehtävistä, jotka tekevät oikeinkirjoitusharjoittelusta pelillisen kokemuksen.',
+    },
+    {
+      appId: 'matching-app',
+      anchorText: 'eläinten yhdistämistehtävät',
+      context: 'Eläinten yhdistämistehtävät haastavat lapsia yhdistämään eläimiä niiden elinymppäristöihin tai varjokuviin, kehittäen visuaalista erottelukykyä ja luokittelutaitoja.',
+    },
+  ],
+
+  expertTips: [
+    {
+      tip: 'Aloita viikko yhdellä eläinalateemalla, kuten metsäneläimet, ja käytä samaa alateemaa kaikissa työlehdissä. Tämä rakentaa syvemmän ymmärryksen kuin eri eläinten vaihtaminen päivittäin.',
+      source: 'Alkuopetuksen luokanopettaja, 12 vuoden kokemus',
+      gradeRange: 'Esiopetus–1. lk',
+    },
+    {
+      tip: 'Käytä eläinten luokittelutehtäviä diagnostisena työkaluna: lapsi, joka osaa ryhmitellä eläimiä kahdella kriteerillä samanaikaisesti, on valmis vaativampiin matemaattisiin tehtäviin.',
+      source: 'Erityisopettaja, oppimisen arviointi',
+      gradeRange: '1.–3. lk',
+    },
+    {
+      tip: 'Yhdistä eläintyölehdet ulkona oppimiseen: täytä ensin työlehti sisällä ja mene sitten ulos havainnoimaan samoja eläimiä luonnossa. Tämä vahvistaa oppimisen siirtovaikutusta.',
+      source: 'Luontokoulun ohjaaja',
+      gradeRange: 'Kaikki luokka-asteet',
+    },
+  ],
 };
 
 registerThemeContent('animals', 'fi', content);

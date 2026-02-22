@@ -207,6 +207,165 @@ const content: EnrichedThemeContent = {
   // -- Cross-linking (IDENTICAL to English) --
   relatedThemes: ['body', 'music', 'pets', 'fairy-tales', 'school'],
   relatedBlogCategories: [],
+
+  // -- SEO Enrichment (Part 179) --
+
+  classroomScenarios: [
+    {
+      situation: 'Ekaluokan opettaja huomaa, että useat oppilaat eivät osaa nimetjä tunteitaan ja reagoivat voimakkaasti ristiriitatilanteissa ilman sanoja.',
+      solution: 'Hän ottaa käyttöön tunneaiheiset työlehdet, joissa lapset tunnistavat ilmeitä, nimeävät tunteita ja lajittelevat tilanteita tunteiden mukaan. Jokainen työlehtihetki alkaa lyhyellä tunnekierroksella, jossa jokainen lapsi kertoo päivän tunteensa.',
+      outcome: 'Neljän viikon jälkeen oppilaat käyttävät tunnesanoja spontaanisti ristiriitatilanteissa. Konflikttien määrä vähenee, ja opettaja raportoi, että luokan ilmapiiri on rauhallisempi.',
+    },
+    {
+      situation: 'Vanhempi huomaa, että esikoululainen reagoi turhautumiseen itkulla tai kiukulla eikä osaa säädellä tunteitaan.',
+      solution: 'Vanhempi käyttää tunneaiheisia väritys- ja piirustustyölehtiä iltahetkenä: lapsi värittää eri tunteita esittäviä kasvoja ja keskustelee vanhemman kanssa siitä, milloin hän itse tuntee samoin. Piirustustehtävät auttavat ilmaisemaan tunteita kuvallisesti.',
+      outcome: 'Lapsi oppii nimeämään perustunteet ja alkaa kertoa tunteistaan sanallisesti turhautumisen sijaan. Vanhempi-lapsi-suhde vahvistuu yhteisten tunnehetkien myötä.',
+    },
+  ],
+
+  quickStats: [
+    { label: 'Suositeltu ikähaarukka', value: '3–9 vuotta' },
+    { label: 'Työlehtisovellusten määrä', value: '10 sovellusta' },
+    { label: 'Opetussuunnitelman alueet', value: '4 aluetta' },
+    { label: 'Tuetut luokkatasot', value: 'Esiopetus–3. lk' },
+    { label: 'Keskimääräinen työskentelyaika', value: '10–20 min' },
+    { label: 'Tunnekategorioiden kirjo', value: '8+ tunnetta' },
+  ],
+
+  differentiationStrategies: [
+    {
+      learnerType: 'Visuaaliset oppijat',
+      adaptation: 'Painota väritys- ja piirustustehtäviä, joissa ilmeiden ja eleiden kuvat tukevat tunteiden visuaalista tunnistamista. Tunteiden ja värien yhdistäminen auttaa luomaan muistisiltoja.',
+    },
+    {
+      learnerType: 'Kinesteettiset oppijat',
+      adaptation: 'Yhdistä työlehtiin kehollisia harjoituksia: lapsi näyttää tunteen ilmeen ja asennon ennen kuin värittää tai piirtää sen. Leikkaa ja liimaa -tehtävät, joissa yhdistetään tilanne ja tunne, tukevat konkreettista oppimista.',
+    },
+    {
+      learnerType: 'S2-oppijat',
+      adaptation: 'Tunnesanasto on universaalia — ilmeet ylittävät kielimuurit. Aloita ilmekuvista ja lisää suomenkielisiä tunnesanoja asteittain. Kaksikielinen tunnesanalista auttaa yhdistämään kotikielen tunnesanoihin.',
+    },
+    {
+      learnerType: 'Edistyneet oppijat',
+      adaptation: 'Haasta kirjoitustehtävillä, joissa oppilas kuvailee monimutkaisia tunnetilanteita ja ehdottaa ratkaisuja. Sana-arvoitustehtävät pitemmmillä tunnesanoilla kuten turhautunut ja innostunut tarjoavat kielellisen haasteen.',
+    },
+  ],
+
+  assessmentIdeas: [
+    {
+      method: 'Portfolioarviointi',
+      criteria: 'Kerää tunnetyölehtiä lukukauden ajalta. Vertaa tunteiden tunnistamisen tarkkuutta, tunnesanaston laajuutta ja kirjallisten vastausten syvyyttä ajan mittaan.',
+      gradeLevel: 'Kaikki luokka-asteet',
+    },
+    {
+      method: 'Tunnekierros-havainnointi',
+      criteria: 'Seuraa päivittäisissä tunnekierroksissa, laajeneeko lapsen tunnesanasto pelkästä iloisesta ja surullisesta monimuotoisempiin tunteisiin kuten ylpeä, pettynyt tai jännittynyt.',
+      gradeLevel: 'Esiopetus–2. lk',
+    },
+    {
+      method: 'Tilannekuva-arviointi',
+      criteria: 'Näytä oppilaalle tilannekuvia ja pyydä tunnistamaan hahmojen tunteet sekä ehdottamaan, mitä hahmo voisi tehdä seuraavaksi. Arvioi tunteen tunnistamista, empatiaa ja ongelmanratkaisukykyä.',
+      gradeLevel: '1.–3. lk',
+    },
+  ],
+
+  crossCurricularLinks: [
+    {
+      subject: 'Sosioemotionaalinen oppiminen (laaja-alainen osaaminen)',
+      connection: 'Tunnetyölehdet kytkeytyvät POPS 2014:n laaja-alaisen osaamisen tavoitteisiin L2 (kulttuurinen osaaminen ja vuorovaikutus) ja L3 (itsestä huolehtiminen). Tunteiden tunnistaminen ja säätely ovat sosiaalisen kompetenssin perusta.',
+      activity: 'Työlehden jälkeen oppilaat harjoittelevat tunnetilanteen ratkaisua parienä: toinen esittää tilanteen ja toinen ehdottaa rauhoittumiskeinoa.',
+    },
+    {
+      subject: 'Äidinkieli ja kirjallisuus',
+      connection: 'Tunnesanasto rikastuttaa kielellistä ilmaisua ja tukee tarinankerronnan taitoja. Tunteiden kuvailu vaatii adjektiiveja ja syy-seuraussuhteita, jotka kehittävät kirjoittamisen rakennetta.',
+      activity: 'Sanahaun jälkeen oppilaat kirjoittavat lyhyen tarinan, jossa päähenkilö kokee kolme eri tunnetta ja ratkaisee tilanteen.',
+    },
+    {
+      subject: 'Kuvataide',
+      connection: 'Tunteiden ilmaiseminen kuvallisesti kehittää sekä taiteellista ilmaisua että tunnelukutaitoa. Värit, muodot ja ilmeet ovat visuaalisia keinoja tunteiden välittämiseen.',
+      activity: 'Väritys- ja piirustustehtävän jälkeen oppilaat luovat oman tunnevärikartan, jossa jokainen tunne yhdistetään omaan väriin ja muotoon.',
+    },
+  ],
+
+  uniqueAngle: 'Tunneteemaiset työlehdet ovat pedagogisesti korvaamattomia, koska ne käsittelevät ihmisen kehityksen perustavanlaatuisinta haastetta: tunteiden ymmärtämistä ja säätelyä. Suomalaisessa koulujärjestelmässä sosioemotionaalinen oppiminen on integroitu osaksi kaikkea opetusta POPS 2014:n laaja-alaisten osaamistavoitteiden kautta, ja Suomi on tunnettu KiVa-koulun kaltaisista kiusaamisenvastaisista ohjelmista, jotka perustuvat tunnetaitojen kehittämiseen. Tunnetyölehdet tarjoavat turvallisen, yksityisen tilan tunteiden käsittelylle — lapsi voi värittää surullisen kasvojen kuvan tai kirjoittaa turhautumisestaan ilman sosiaalista painetta. Tämä yksityisyys on erityisen tärkeää lapsille, joille tunteista puhuminen ryhmässä on vaikeaa. Tunnesanasto on myös kielellisen kehityksen kulmakivi: lapsi, joka osaa nimetjä tunteensa, osaa myös pyytää apua, ratkaista ristiriitoja ja ilmaista tarpeitaan. Monikulttuurisissa luokissa tunteet ovat universaali kieli — ilmeet ja eleet ylittävät kielimuurit, mikä tekee tunneteemasta erinomaisen lähtökohdan yhteiseen oppimiseen.',
+
+  researchCitation: 'Durlak, J.A., Weissberg, R.P., Dymnicki, A.B., Taylor, R.D. & Schellinger, K.B. (2011). The Impact of Enhancing Students Social and Emotional Learning: A Meta-Analysis of School-Based Universal Interventions. Child Development, 82(1), 405–432. Meta-analyysi osoitti, että sosioemotionaalisen oppimisen ohjelmat paransivat akateemista suoriutumista keskimmäärin 11 prosenttiyksikköä ja vähensivät käytösongelmia merkittävästi.',
+
+  culturalNotes: 'Suomessa sosioemotionaalinen oppiminen on integroitu osaksi perusopetusta POPS 2014:n laaja-alaisten osaamistavoitteiden kautta, erityisesti L2 (kulttuurinen osaaminen ja vuorovaikutus) ja L3 (itsestä huolehtiminen ja arjen taidot). KiVa-koulu-ohjelma, joka on kehitetty Turun yliopistossa, on kansainvälisesti tunnustettu kiusaamisenvastainen ohjelma, jonka perustana ovat tunnetaidot ja empatia. Suomalainen kasvatuskulttuuri korostaa lapsen kokonaisvaltaista hyvinvointia, mikä tekee tunnetyölehdistä luontevan osan opetusta.',
+
+  snippetDefinition: 'Tunnetyölehdet lapsille ovat tulostettavia oppimistehtäviä, jotka käyttävät ilmeitä, tilanteita ja tunnesanoja sosioemotionaalisen oppimisen, lukutaidon ja itsetuntemuksen tukemiseen. Ne on suunniteltu 3–9-vuotiaille ja sisältävät väritystehtäviä, piirustustehtäviä, sanahakuja, lajittelutehtäviä ja kirjoitusharjoituksia.',
+
+  snippetHowTo: [
+    'Valitse viikolle tunneteeman alateema, kuten perustunteet, empatia tai tunteiden säätely, jotta oppitunneilla on yhtenäinen fokus.',
+    'Valitse kaksi tai kolme työlehtityyppiä eri taitoalueille — esimerkiksi väritystehtävä tunteiden tunnistamiseen, sanahaku tunnesanastoon ja kirjoitustehtävä itseilmaisuun.',
+    'Aloita tunnekierroksella: jokainen lapsi kertoo tai näyttää tunnekortista, miltä tänään tuntuu.',
+    'Jaa työlehdet vaikeustason mukaan: aloita ilmeiden värittämisestä ennen haastavampia tilanneanalyysi- ja kirjoitustehtäviä.',
+    'Kierrä lasten joukossa ja kysy avoimia kysymyksiä kuten Miltä tästä hahmosta tuntuu tai Mitä sinä tekisit tässä tilanteessa.',
+    'Päätä tuokio rauhoittumisharjoituksella: syvjähengitys tai lyhyt mindfulness-hetki, joka yhdistää työlehden opit käytäntöön.',
+    'Kerää valmiit työlehdet tunnepäiväkirjaan, joka dokumentoi lapsen tunnetaitojen kehittymistä lukukauden aikana.',
+  ],
+
+  limitations: 'Tunnetyölehdet käsittelevät herkkiiä aiheita, ja joillakin lapsilla voi olla traumaattisia kokemuksia, jotka nousevat pintaan tunnetyyöskentelyn yhteydessä. Opettajien tulee olla valmiita tukemaan lasta ja tarvittaessa ohjaamaan lisätuen piiriin. Tunteiden yksinkertaistaminen kategorioihin kuten iloinen tai surullinen voi olla riittämätöntä — lasten todelliset tunnekokemukset ovat usein monimutkaisia ja ristiriitaisia. Kulttuuriset erot tunteiden ilmaisussa ovat merkittäviä: joissain kulttuureissa tunteiden avoin näyttäminen ei ole normi, joten opettajien tulee kunnioittaa erilaisia tapoja käsitellä tunteita.',
+
+  themeComparisons: [
+    {
+      vsThemeId: 'body',
+      summary: 'Kehotyölehdet käsittelevät fyysistä olemusta ja toimintoja. Tunnetyölehdet syventyvät sisäiseen kokemusmaailmaan ja tarjoavat välineitä tunteiden tunnistamiseen, nimeämiseen ja säätelyyn.',
+    },
+    {
+      vsThemeId: 'music',
+      summary: 'Musiikkityölehdet käyttävät ääntä ja rytmiä oppimisen välineenjä. Tunnetyölehdet lähestyvät samaa tunne-elämän aluetta visuaalisen ja kirjallisen ilmaisun kautta, tarjoten vaihtoehtoiseen keinon tunteiden käsittelyyn.',
+    },
+    {
+      vsThemeId: 'fairy-tales',
+      summary: 'Satutyölehdet käsittelevät tunteita tarinan ja mielikuvituksen kautta. Tunnetyölehdet lähestyvät tunteita suoremmin ja konkreettisemmin, tarjoten välineitä tunteiden tunnistamiseen omassa elämässä.',
+    },
+    {
+      vsThemeId: 'school',
+      summary: 'Koulutyölehdet keskittyvät oppimisvalmiuksiin ja akateemisiin taitoihin. Tunnetyölehdet vahvistavat koulumenestyksen emotionaalista perustaa — lapsi, joka osaa säädellä tunteitaan, oppii tehokkaammin kaikissa aineissa.',
+    },
+  ],
+
+  productLinks: [
+    {
+      appId: 'coloring',
+      anchorText: 'tunneaiheiset väritystehtävät',
+      context: 'Tunneaiheiset väritystehtävät tarjoavat rauhallisen tavan tunnistaa ja käsitellä tunteita, kun lapset värittävät eri ilmeitä ja tunnetiloja esittäviä kuvia.',
+    },
+    {
+      appId: 'draw-and-color',
+      anchorText: 'tunteiden piirustustehtävät',
+      context: 'Piirustustehtävät tarjoavat luovan kanavan tunteiden ilmaisemiseen, kun lapsi piirtää eri tunnetiloja ja tilanteita omalla tavallaan.',
+    },
+    {
+      appId: 'word-search',
+      anchorText: 'tunnesanahaku-työlehdet',
+      context: 'Tunnesanaston laajentaminen onnistuu sanahakutehtävissä, joissa lapset etsivät tunteiden nimiä ja tunne-elämään liittyviä sanoja sanaruudukosta.',
+    },
+    {
+      appId: 'word-guess',
+      anchorText: 'tunnesanojen arvauspeli',
+      context: 'Tunnesanojen arvauspeli haastaa lapsia päättelemään tunnesanoja vihjeistä, kehittäen sekä tunnesanastoa että loogista ajattelua leikillisessä muodossa.',
+    },
+  ],
+
+  expertTips: [
+    {
+      tip: 'Aloita jokainen tunnetyölehtihetki lyhyellä tunnekierroksella, jossa jokainen lapsi kertoo tai näyttää päivän tunteensa. Tämä luo turvallisen ilmapiirin ja aktivoi tunnesanaston ennen työlehden aloittamista.',
+      source: 'Koulupsykologi, sosioemotionaalinen oppiminen',
+      gradeRange: 'Esiopetus–2. lk',
+    },
+    {
+      tip: 'Yhdistä tunnetyölehdet KiVa-koulun teemoihin: käytä työlehtiä empatiaharjoituksena ennen KiVa-oppituntia, jotta oppilaat ovat virittyneet tunneaiheeseen.',
+      source: 'Luokanopettaja, KiVa-koulun vastuuhenkilö',
+      gradeRange: '1.–3. lk',
+    },
+    {
+      tip: 'Älä pakota lasta nimeämään tunteitaan ääneen, jos hän ei halua. Työlehdet tarjoavat yksityisen tavan käsitellä tunteita värittämällä tai piirtämällä, mikä on joillekin lapsille turvallisempaa kuin puhuminen.',
+      source: 'Erityisopettaja, tunnetaitojen tukeminen',
+      gradeRange: 'Kaikki luokka-asteet',
+    },
+  ],
 };
 
 registerThemeContent('emotions', 'fi', content);

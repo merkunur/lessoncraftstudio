@@ -213,6 +213,165 @@ const content: EnrichedThemeContent = {
   // -- Cross-linking --
   relatedThemes: ['cooking', 'fruits', 'vegetables', 'farm', 'holidays', 'body'],
   relatedBlogCategories: [],
+
+  // -- SEO Enrichment (Part 179) --
+
+  classroomScenarios: [
+    {
+      situation: 'Ensimmäisen luokan opettaja huomaa, että oppilaat eivät hahmota yhteenlaskua konkreettisesti ja lukumäärät jäävät abstrakteiksi.',
+      solution: 'Hän ottaa käyttöön ruoka-aiheiset kuvalaskutehtävät, joissa lapset laskevat hedelmiä, vihanneksia ja leipiä yhteen. Tutut ruoat toimivat konkreettisina laskettavina, ja tehtävät vaikeutuvat asteittain.',
+      outcome: 'Oppilaiden yhteenlaskutarkkuus paranee merkittävästi kolmessa viikossa. Opettaja raportoi, että ruokakonteksti tekee laskemisesta mielekkyyttä ja lapset yhdistävät matikan arkielämään.',
+    },
+    {
+      situation: 'S2-opettaja etsii tapoja laajentaa maahanmuuttajaoppilaiden suomen kielen sanavarastoa luonnollisessa kontekstissa.',
+      solution: 'Hän käyttää ruoka-aiheisia sanahaku- ja lajittelutyölehtiä, joissa oppilaat tunnistavat ja nimeävät ruoka-aineita suomeksi. Kuvat tukevat ymmärtämistä, ja ruokasanasto on kansainvälisesti tuttua.',
+      outcome: 'Oppilaat omaksuvat 15–20 uutta ruokasanaa kahdessa viikossa ja alkavat käyttää niitä spontaanisti ruokailutilanteissa. Luottamus suomen käyttöön kasvaa selkeästi.',
+    },
+  ],
+
+  quickStats: [
+    { label: 'Suositeltu ikähaarukka', value: '3–9 vuotta' },
+    { label: 'Työlehtisovellusten määrä', value: '12 sovellusta' },
+    { label: 'Opetussuunnitelman alueet', value: '4 aluetta' },
+    { label: 'Tuetut luokkatasot', value: 'Esiopetus–3. lk' },
+    { label: 'Keskimääräinen työskentelyaika', value: '10–20 min' },
+    { label: 'Ruokateemojen kirjo', value: '20+ ruokalajia' },
+  ],
+
+  differentiationStrategies: [
+    {
+      learnerType: 'Visuaaliset oppijat',
+      adaptation: 'Painota väritys- ja lajittelutehtäviä, joissa värikkäät ruokakuvat tukevat hahmottamista. Kuvalaskutehtävät toimivat erinomaisesti, kun laskettavat kohteet ovat selkeästi erottuvia hedelmiä ja vihanneksia.',
+    },
+    {
+      learnerType: 'Kinesteettiset oppijat',
+      adaptation: 'Yhdistä työlehtiin konkreettisia ruokamalleja tai leikkaa ja liimaa -tehtäviä. Lapsi voi ensin fyysisesti lajitella ruokakuvia ja sitten kirjata tulokset työlehdelle.',
+    },
+    {
+      learnerType: 'S2-oppijat',
+      adaptation: 'Ruokasanasto on kansainvälisesti tunnistettavaa, mikä tekee teemasta erinomaisen kielenoppimisen sillan. Aloita kuvapainotteisista tehtävistä ja lisää sanatehtäviä asteittain. Kaksikielinen sanalistatus auttaa yhdistämään kotikielen suomeen.',
+    },
+    {
+      learnerType: 'Edistyneet oppijat',
+      adaptation: 'Haasta monivaiheisilla ravintolaskutehtävillä ja reseptimatematiikalla, jossa oppilas kaksinkertaistaa tai puolittaa ainesmmääriä. Vähennyslaskutehtävät ja kaaviot tarjoavat riittävästi haastetta.',
+    },
+  ],
+
+  assessmentIdeas: [
+    {
+      method: 'Portfolioarviointi',
+      criteria: 'Kerää ruokatyölehtiä neljän viikon ajalta. Arvioi laskutarkkuuden, sanavaraston ja kirjallisten vastausten kehittymistä vertaamalla varhaisia ja myöhempiä töitä.',
+      gradeLevel: 'Kaikki luokka-asteet',
+    },
+    {
+      method: 'Havainnointilista',
+      criteria: 'Seuraa, pystyykö lapsi lajittelemaan ruokia yhden ominaisuuden mukaan kuten väri (esikoulu), ravintoryhmän mukaan (1. lk) vai usean kriteerin mukaan samanaikaisesti (2.–3. lk).',
+      gradeLevel: 'Esiopetus–3. lk',
+    },
+    {
+      method: 'Käytännön arviointi',
+      criteria: 'Pyydä oppilasta suunnittelemaan terveellinen aamupala tai lounas työlehdelle. Arvioi ravintoryhmien tasapainoa, sanavaraston käyttöä ja perustelun laatua.',
+      gradeLevel: 'Esiopetus–2. lk',
+    },
+  ],
+
+  crossCurricularLinks: [
+    {
+      subject: 'Terveystieto ja ruokakasvatus',
+      connection: 'Ruokatyölehdet kytkeytyvät POPS 2014:n terveyskasvatuksen tavoitteisiin ravinnosta, ravintoryhmistä ja terveellisistä valinnoista. Lajittelutehtävät opettavat ravintopyramidin perusteita.',
+      activity: 'Lajittelutyölehden jälkeen oppilaat suunnittelevat lautasmallin mukaisen aterian ja esittelevät sen parille.',
+    },
+    {
+      subject: 'Matematiikka',
+      connection: 'Ruokien laskeminen, mittaaminen ja vertailu tarjoavat luontevan kontekstin lukumäärän käsitteille, yhteen- ja vähennyslaskulle sekä yksinkertaisille murtoluvuille kuten puolikas ja neljäsosa.',
+      activity: 'Kuvalaskutehtävien jälkeen oppilaat ratkaisevat yksinkertaisen reseptitehtävän, jossa ainesmmääriä pitää kaksinkertaistaa.',
+    },
+    {
+      subject: 'Ympäristöoppi (kestävä kehitys)',
+      connection: 'Ruokateema yhdistyy luontevasti ruoantuotannon, maatalouden ja kestävän kehityksen aiheisiin. Lapset oppivat, mistä ruoka tulee ja miten valinnat vaikuttavat ympäristöön.',
+      activity: 'Ruokatyölehden jälkeen keskustellaan luokassa siitä, mitkä ruoat kasvatetaan Suomessa ja mitkä tuodaan muualta.',
+    },
+  ],
+
+  uniqueAngle: 'Ruokateemaiset työlehdet ovat pedagogisesti ainutlaatuisia, koska ne yhdistävät akateemisen oppimisen jokaisen lapsen päivittäiseen kokemukseen — syöminen on universaali, tunnepitoinen ja toistuva kokemus, joka tekee ruoasta erin omaisen kontekstin oppimiselle. Suomalainen kouluruokailu, joka tarjotaan ilmaiseksi kaikille oppilaille, on kansainvälisesti ainutlaatuinen instituutio ja luonnollinen silta luokkahuoneen ja arkielämän välillä. Ruokatyölehdet voivat hyödyntää tätä yhteyttä: lapsi, joka laskee hedelmiä työlehdellä aamulla, tunnistaa samat hedelmät lounaalla ja yhdistää oppimisen konkreettiseen kokemukseen. Ravintotieto, terveyskasvatus ja ruokakulttuuri ovat POPS 2014:n keskeisiä sisältöalueita, ja ruokatyölehdet palvelevat näitä tavoitteita samalla kun ne opettavat matematiikkaa ja lukutaitoa. Ruoka-aineiden luokittelu ravintoryhmiin kehittää kategorista ajattelua, mittaaminen ja ainesmmäärien laskeminen harjoittavat matemaattisia perustaitoja, ja ruokasanasto rikastuttaa kielellistä ilmaisua. Monikulttuurisissa luokissa ruokateema on erityisen arvokas, koska eri ruokakulttuurien jakaminen rakentaa kunnioitusta ja ymmärrystä samalla kun se laajentaa kaikkien oppilaiden maailmankuvaa.',
+
+  researchCitation: 'Contento, I.R. (2011). Nutrition Education: Linking Research, Theory, and Practice. Jones & Bartlett Learning. Contenton tutkimus osoitti, että ruokaan liittyvä opetus paransi lasten ravintotietoisuutta ja terveellisiä valintoja merkittävästi, erityisesti kun opetus yhdistettiin käytännön tehtäviin ja visuaalisiin materiaaleihin.',
+
+  culturalNotes: 'Suomalainen kouluruokailujärjestelmä on maailman vanhin ja laajin — ilmainen kouluruoka on tarjottu kaikille oppilaille vuodesta 1948. POPS 2014 korostaa ruokakasvatusta osana terveyskasvatusta ja ympäristöoppia. Ruokateemaiset työlehdet kytkeytyvät laaja-alaisen osaamisen tavoitteisiin L3 (itsestä huolehtiminen ja arjen taidot), ja suomalainen lautasmalli on tuttu viitekehys ravintokasvatukselle jo esiopetuksessa.',
+
+  snippetDefinition: 'Ruokatyölehdet lapsille ovat tulostettavia oppimistehtäviä, jotka käyttävät tuttuja ruoka-aineita — hedelmiä, vihanneksia, leipiä ja välipaloja — matematiikan, lukutaidon ja terveyskasvatuksen opettamiseen. Ne on suunniteltu 3–9-vuotiaille ja sisältävät laskuharjoituksia, lajittelutehtäviä, sanahakuja ja väritystehtäviä, jotka hyödyntävät ruoan tunnepitoisuutta ja arkipäiväistä tuttuutta.',
+
+  snippetHowTo: [
+    'Valitse viikolle ruoka-alateema, kuten hedelmät, vihannekset tai aamupala, jotta oppitunneilla on yhtenäinen fokus.',
+    'Valitse kaksi tai kolme työlehtityyppiä eri taitoalueille — esimerkiksi kuvalaskutehtävä matematiikkaan, sanahaku lukutaitoon ja lajittelutehtävä ravintokasvatukseen.',
+    'Aloita keskustelemalla päivän ruokateemasta: kysy lapsilta, mitä he söivät aamupalaksi tai mikä on heidän lempiruokansa.',
+    'Jaa työlehdet vaikeustason mukaan: aloita väritystehtävällä tai yksinkertaisella lajittelulla ennen haastavampia lasku- tai sanatehtäviä.',
+    'Kierrä lasten joukossa ja kysy avoimia kysymyksiä kuten Mihin ravintoryhmmään tämä ruoka kuuluu tai Onko tämä terveellinen valinta.',
+    'Yhdistä työlehti kouluruokailuun: vertaa työlehden ruokia päivän lounaan sisältöön konkreettisen yhteyden rakentamiseksi.',
+    'Kerää valmiit työlehdet portfoliokansioon ja liitä mukaan lapsen oma piirros lempiruoastaan oppimisen dokumentoinniksi.',
+  ],
+
+  limitations: 'Ruokatyölehtien käytössä on huomioitava lasten ruoka-allergiat ja erityisruokavaliot — maito-, vilja- ja pähkinä-allergiat ovat yleisiä suomalaisissa luokissa. Kuvat tietyistä ruoista voivat olla vaikeita lapsille, jotka noudattavat kulttuurisia tai uskonnollisia ruokarajoituksia. Lisäksi ruokateema voi tahattomasti korostaa sosioekonomisia eroja, jos tehtävät keskittyvät kalliisiin tai eksoottisiin ruokiin. Opettajien tulisi valita työlehtiä, joissa esiintyy monipuolisesti eri kulttuurien ruokia ja jotka kunnioittavat kaikkien perheiden ruokailutottumuksia.',
+
+  themeComparisons: [
+    {
+      vsThemeId: 'cooking',
+      summary: 'Ruoanlaittotyyölehdet keskittyvät prosessiin ja vaiheisiin, mikä tukee sekvenssitaitoja ja ohjeiden seuraamista. Ruokatyölehdet käsittelevät ruoka-aineita laajemmin ravinnon, luokittelun ja laskemisen näkökulmasta.',
+    },
+    {
+      vsThemeId: 'fruits',
+      summary: 'Hedelmätyölehdet syventyvät yhteen ruokaryhmmään ja tarjoavat rikkaan värimaailman visuaalisille oppijoille. Ruokatyölehdet kattavat kaikki ravintoryhmät, mikä antaa laajemman pohjan ravintokasvatukselle.',
+    },
+    {
+      vsThemeId: 'farm',
+      summary: 'Maatilatyyölehdet yhdistävät ruoan alkuperään ja tuotantoon, tarjoten ekologisen näkökulman. Ruokatyölehdet keskittyvät valmiisiin ruoka-aineisiin ja niiden luokitteluun, mikä on lähempänä lasten päivittäistä kokemusta.',
+    },
+    {
+      vsThemeId: 'body',
+      summary: 'Kehotyölehdet käsittelevät ihmisen anatomiaa ja toimintoja kokonaisvaltaisesti. Ruokatyölehdet tarjoavat konkreettisemman ja helpommin lähestyttävän tavan opettaa terveyskasvatusta arjen valintojen kautta.',
+    },
+  ],
+
+  productLinks: [
+    {
+      appId: 'coloring',
+      anchorText: 'ruoka-aiheiset väritystehtävät',
+      context: 'Helppoon aloitukseen sopivat ruoka-aiheiset väritystehtävät, joissa lapset värittävät hedelmiä, vihanneksia ja muita tuttuja ruokia kehittäen hienomotoriikkaa ja ruokasanastoa samanaikaisesti.',
+    },
+    {
+      appId: 'find-and-count',
+      anchorText: 'ruokien laskutehtävät',
+      context: 'Ruokien laskutehtävät yhdistävät visuaalisen hahmottamisen ja aritmetiikan, kun lapset etsivät ja laskevat eri ruoka-aineita monipuolisista kohtauskuvista.',
+    },
+    {
+      appId: 'word-search',
+      anchorText: 'ruoka-aiheinen sanahaku',
+      context: 'Sanavaraston laajentaminen onnistuu luontevasti ruoka-aiheisessa sanahaussa, jossa lapset etsivät ravintoon liittyviä termejä ja oppivat niiden oikeinkirjoitusta pelillisessä muodossa.',
+    },
+    {
+      appId: 'image-addition',
+      anchorText: 'ruoka-aiheiset yhteenlaskutehtävät',
+      context: 'Ruoka-aiheiset yhteenlaskutehtävät tekevät matikasta konkreettista, kun lapset laskevat yhteen hedelmiä ja muita tuttuja ruokia ymmmärrettävien kuvien avulla.',
+    },
+  ],
+
+  expertTips: [
+    {
+      tip: 'Yhdistä ruokatyölehdet kouluruokailuun: käy läpi työlehden ruoat ennen lounasta ja pyydä lapsia tunnistamaan samat ainekset lautasellaan. Tämä vahvistaa oppimisen siirtovaikutusta arkeen.',
+      source: 'Alkuopetuksen luokanopettaja, 15 vuoden kokemus',
+      gradeRange: 'Esiopetus–2. lk',
+    },
+    {
+      tip: 'Käytä ruokien lajittelutehtäviä allergiatietoisuuden opettamiseen: keskustelkaa luokassa siitä, miksi jotkut lapset eivät voi syödä tiettyjjä ruokia, ja harjoitelkaa vaihtoehtojen löytämistä.',
+      source: 'Terveydenhoitaja, kouluterveydenhuolto',
+      gradeRange: '1.–3. lk',
+    },
+    {
+      tip: 'Anna S2-oppilaiden tuoda kotoa kuvia perheen ruoista ja käyttää niitä työlehtien rinnalla. Tämä arvostaa kotikieltä ja -kulttuuria samalla kun se rakentaa suomen kielen sanavarastoa.',
+      source: 'S2-opettaja, monikulttuurinen koulu',
+      gradeRange: 'Kaikki luokka-asteet',
+    },
+  ],
 };
 
 registerThemeContent('food', 'fi', content);

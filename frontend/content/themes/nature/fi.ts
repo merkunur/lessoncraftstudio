@@ -206,6 +206,165 @@ const content: EnrichedThemeContent = {
   // -- Cross-linking --
   relatedThemes: ['flowers', 'forest', 'garden', 'weather', 'seasons', 'ocean', 'animals'],
   relatedBlogCategories: [],
+
+  // -- SEO Enrichment (Part 179) --
+
+  classroomScenarios: [
+    {
+      situation: 'Alkuopetuksen opettaja haluaa yhdistää ympäristöopin ja matematiikan, mutta erilliset oppitunnit jäävät irtonaisiksi.',
+      solution: 'Hän luo viikon mittaisen luontoteeman, jossa luontotyölehdet toimivat yhdistävänä elementtinä. Lapset laskevat kukkia ja lehtiä kuvalaskutehtävistä, etsivät luontosanoja sanahauista ja värittävät vuodenaikoihin liittyviä maisemia.',
+      outcome: 'Oppilaat yhdistävät luontevasti luonnontiedon ja matematiikan käsitteitä, ja opettaja raportoi, että integroitu lähestymistapa syvensi oppimista molemmissa aineissa.',
+    },
+    {
+      situation: 'Vanhempi huomaa, että kaupungissa asuva esikoululainen ei tunne peruskasveja eikä luonnonilmiöitä, koska perhe viettää vähän aikaa luonnossa.',
+      solution: 'Vanhempi aloittaa päivittäiset lyhyet luontotyölehtihetket: väritystä, piirtämistä ja lajittelua, joissa esiintyy kukkia, puita, sääilmiöitä ja vuodenaikoja. Viikonloppuisin perhe käy puistossa tunnistamassa työlehdillä opittuja kasveja.',
+      outcome: 'Lapsi alkaa nimetjä puita ja kukkia ulkona ja kiinnostuu luonnonilmiöistä. Kolmen kuukauden kuluttua hän tunnistaa kymmenen yleistä suomalaista kasvia ja osaa kertoa vuodenaikojen vaihtumisesta.',
+    },
+  ],
+
+  quickStats: [
+    { label: 'Suositeltu ikähaarukka', value: '3–9 vuotta' },
+    { label: 'Työlehtisovellusten määrä', value: '11 sovellusta' },
+    { label: 'Opetussuunnitelman alueet', value: '4 aluetta' },
+    { label: 'Tuetut luokkatasot', value: 'Esiopetus–3. lk' },
+    { label: 'Keskimääräinen työskentelyaika', value: '10–20 min' },
+    { label: 'Luontoteemojen kirjo', value: '4 vuodenaikaa' },
+  ],
+
+  differentiationStrategies: [
+    {
+      learnerType: 'Visuaaliset oppijat',
+      adaptation: 'Painota väritys- ja piirustustehtäviä sekä varjokuvien yhdistämistä, jotka hyödyntävät luonnon visuaalista rikkautta. Luontokuvien yksityiskohdat tarjoavat runsaasti havainnoitavaa.',
+    },
+    {
+      learnerType: 'Kinesteettiset oppijat',
+      adaptation: 'Yhdistä työlehtiin ulkona kerättyjä luonnonmateriaaleja kuten lehtiä, käpyjä ja kiviä. Lapsi voi lajitella ja laskea fyysisiä kohteita ennen työlehden täyttämistä.',
+    },
+    {
+      learnerType: 'S2-oppijat',
+      adaptation: 'Luontosanasto on visuaalisesti konkreettista, mikä helpottaa käsitteiden oppimista kuvien avulla. Aloita väritys- ja yhdistämistehtävistä ja lisää sanatehtäviä asteittain. Luontoretket tarjoavat konkreettisen kontekstin sanojen oppimiselle.',
+    },
+    {
+      learnerType: 'Edistyneet oppijat',
+      adaptation: 'Haasta ristikko- ja sanahakutehtävillä, jotka sisältävät tieteellisiä termejä kuten fotosynteesi, ekosysteemi ja selkärankaiset. Piirustustehtävät voidaan laajentaa yksityiskohtaisiksi luontopäiväkirjamerkinnöiksi.',
+    },
+  ],
+
+  assessmentIdeas: [
+    {
+      method: 'Portfolioarviointi',
+      criteria: 'Kerää luontotyölehtiä eri vuodenajoilta ja vertaa havainnointitaitojen, sanaston ja piirustuksen kehittymistä ajan mittaan.',
+      gradeLevel: 'Kaikki luokka-asteet',
+    },
+    {
+      method: 'Luontopäiväkirja',
+      criteria: 'Oppilaat täydentävät viikoittain luontopäiväkirjaa työlehtien ja ulkohavaintojen pohjalta. Arvioi havaintojen tarkkuutta, sanaston monipuolisuutta ja kuvausten yksityiskohtaisuutta.',
+      gradeLevel: '1.–3. lk',
+    },
+    {
+      method: 'Vuodenaikojen vertailu',
+      criteria: 'Pyydä oppilasta piirtämään ja kuvailemaan sama maisema kahtena eri vuodenaikana. Arvioi kykyä tunnistaa ja selittää luonnon muutoksia.',
+      gradeLevel: 'Esiopetus–2. lk',
+    },
+  ],
+
+  crossCurricularLinks: [
+    {
+      subject: 'Ympäristöoppi',
+      connection: 'Luontotyölehdet kytkeytyvät suoraan POPS 2014:n ympäristöopin ydinsissältöihin: vuodenajat, kasvien kasvu, sääilmiöt ja ekosysteemit. Työlehdet tukevat tutkivaa oppimista luokkahuoneessa.',
+      activity: 'Työlehden jälkeen oppilaat menevvät ulos havainnoimaan säätä ja kirjaavat havaintonsa sääpäiväkirjaan viikon ajan.',
+    },
+    {
+      subject: 'Kuvataide',
+      connection: 'Luonnon muodot, värit ja tekstuurit tarjoavat rikkaan lähtökohdan taiteelliselle ilmaisulle. Väritys- ja piirustustehtävät kehittävät sekä hienomotoriikkaa että esteettistä havainnointia.',
+      activity: 'Väritystehtävän jälkeen oppilaat luovat oman luontotaideteoksen kerätyistä lehdistä ja kukista.',
+    },
+    {
+      subject: 'Äidinkieli ja kirjallisuus',
+      connection: 'Luontosanasto rikastuttaa kielellistä ilmaisua, ja vuodenaikojen kuvailu kehittää adjektiivien ja kuvailevien rakenteiden käyttöä.',
+      activity: 'Sanahaun jälkeen oppilaat kirjoittavat lyhyen luontorunon käyttäen vähintään viittä työlehdeltä löydettyä sanaa.',
+    },
+  ],
+
+  uniqueAngle: 'Luontoteemaiset työlehdet ovat suomalaisessa koulukontekstissa poikkeuksellisen vaikuttavia, koska Suomen koulujärjestelmä korostaa luontosuhdetta oppimisen perustana. Jokamiehenoikeus, metsäretket ja luontokoulut ovat vakiintuneita osia suomalaista kasvatusperinnettä, ja luontotyölehdet jatkavat tätä perinnettä sisätiloissa. Suomen neljä selkeää vuodenaikaa tarjoavat ainutlaatuisen pedagogisen kehyksen: kevään kukkiminen, kesän vehreys, syksyn värikkyys ja talven lumipeite mahdollistavat vuoden mittaisen opetuskokonaisuuden, jossa sama teema näyttäytyy jatkuvasti uudessa valossa. Fenologinen havainnointi — luonnon muutosten seuraaminen vuodenaikojen mukaan — on tieteellisen ajattelun perusta, jota työlehdet voivat tukea järjestelmällisesti. POPS 2014 korostaa kestävän kehityksen näkökulmaa kaikessa opetuksessa, ja luontotyölehdet tarjoavat konkreettisen tavan keskustella luonnon monimuotoisuudesta, ihmisen vaikutuksesta ympäristöön ja vastuullisesta luontosuhteesta jo pienimpien oppilaiden kanssa. Luonto on myös universaali teema, joka toimii kulttuuritaustasta riippumatta ja tarjoaa rauhallisen, stressiton oppimiskontekstin.',
+
+  researchCitation: 'Kuo, M., Barnes, M. & Jordan, C. (2019). Do Experiences With Nature Promote Learning? Converging Evidence of a Cause-and-Effect Relationship. Frontiers in Psychology, 10, 305. Meta-analyysi osoitti, että luontokokemukset paransivat akateemista suoriutumista, tarkkaavaisuutta ja motivaatiota eri ikäryhmissä ja oppimiskonteksteissa.',
+
+  culturalNotes: 'POPS 2014 nostaa ympäristöopin keskeiseksi oppiaineeksi alkuopetuksessa, ja laaja-alaisen osaamisen tavoite L7 (osallistuminen, vaikuttaminen ja kestävän tulevaisuuden rakentaminen) kytkeytyy suoraan luontoteemoihin. Suomalainen jokamiehenoikeus mahdollistaa vapaan liikkumisen ja luonnon kokemisen, mikä tekee ulkona oppimisesta luontevan osan opetusta. Metsäkoulut ja luontokoulut ovat vakiintuneita instituutioita, ja luontotyölehdet jatkavat tätä pedagogista perinnettä sisäoppimisympäristössä.',
+
+  snippetDefinition: 'Luontotyölehdet lapsille ovat tulostettavia oppimistehtäviä, jotka käyttävät luonnonelementtejä — kasveja, eläimiä, sääilmiöitä ja vuodenaikoja — matematiikan, lukutaidon ja luonnontiedon opettamiseen. Ne on suunniteltu 3–9-vuotiaille ja sisältävät piirustustehtäviä, sanahakuja, laskuharjoituksia ja lajitteluhaasteita, jotka hyödyntävät lasten uteliaisuutta luontoa kohtaan.',
+
+  snippetHowTo: [
+    'Valitse viikolle luontoalateema, kuten vuodenajat, metsän elämä tai sääilmiöt, jotta oppitunneilla on yhtenäinen teema.',
+    'Valitse kaksi tai kolme työlehtityyppiä eri taitoalueille — esimerkiksi piirustustehtävä hienomotoriikkaan, sanahaku lukutaitoon ja laskutehtävä matematiikkaan.',
+    'Aloita lyhyellä luontohavainnolla: katso ikkunasta ulos tai näytä luontokuva ja keskustelkaa siitä, mitä vuodenaikaan kuuluu.',
+    'Jaa työlehdet vaikeustason mukaan: aloita värityksellä tai piirtämisellä ennen haastavampia lasku- ja sanatehtäviä.',
+    'Kierrä lasten joukossa ja kysy avoimia kysymyksiä kuten Mitä tälle kasville tapahtuu talvella tai Miksi lehdet vaihtavat väriä.',
+    'Yhdistä työlehti ulkona oppimiseen: mene ulos tunnistamaan työlehdellä esiintyviä kasveja tai luonnonilmiöitä koulun pihalla.',
+    'Kerää valmiit työlehdet luontopäiväkirjaan, joka dokumentoi lapsen luontosuhteen kehittymistä lukuvuoden aikana.',
+  ],
+
+  limitations: 'Luontotyölehtien sisältö on väistämättä sidottu tiettyyn maantieteelliseen kontekstiin — suomalaiset vuodenajat ja kasvillisuus eivät vastaa kaikkien oppilaiden kokemusta, erityisesti trooppisesta ilmastosta tulleiden lasten. Allergiset lapset voivat reagoida ulkona kerättyihin luonnonmateriaaleihin. Talvikuukausina luonnon havainnointi rajoittuu, ja kaupunkikouluissa lähiluonto voi olla niukkaa. Opettajien tulisi huomioida nämä rajoitukset ja tarjota monipuolisia kuvia eri ilmastovyyöhykkeiden luonnosta.',
+
+  themeComparisons: [
+    {
+      vsThemeId: 'flowers',
+      summary: 'Kukkatyölehdet syventyvät yhteen luonnonelementtiin ja tarjoavat rikkään värimaailman visuaalisille oppijoille. Luontotyölehdet kattavat laajemman skaalan kasveista sääilmiöihin ja vuodenaikoihin, tarjoten kokonaisvaltaisemman ekologisen näkökulman.',
+    },
+    {
+      vsThemeId: 'forest',
+      summary: 'Metsätyölehdet keskittyvät metsäekosysteemiin ja sen asukeihin. Luontotyölehdet laajentavat näkökulman kaikkiin luonnonelementteihin, mikä mahdollistaa vuodenaikojen vertailun ja sääilmiöiden tutkimisen.',
+    },
+    {
+      vsThemeId: 'weather',
+      summary: 'Säätyölehdet keskittyvät ilmastollisiin ilmiöihin ja niiden mittaamiseen. Luontotyölehdet yhdistävät sään vaikutuksen elävään luontoon, tarjoten syvemmän ekologisen ymmärryksen.',
+    },
+    {
+      vsThemeId: 'animals',
+      summary: 'Eläintyölehdet keskittyvät eläinkuntaan ja sen luokitteluun. Luontotyölehdet tarjoavat laajemman ekologisen kontekstin, jossa eläimet ovat osa kokonaista ekosysteemiä kasveineen ja sääilmiöineen.',
+    },
+  ],
+
+  productLinks: [
+    {
+      appId: 'coloring',
+      anchorText: 'luontoaiheiset väritystehtävät',
+      context: 'Luontoaiheiset väritystehtävät tarjoavat rauhallisen aloituksen oppimistuokioon, kun lapset värittävät kukkia, puita ja vuodenaikamaisemia kehittäen hienomotoriikkaa ja värien tunnistamista.',
+    },
+    {
+      appId: 'draw-and-color',
+      anchorText: 'luonnon piirustustehtävät',
+      context: 'Piirustustehtävät ohjaavat lasta luomaan omia luontokuvia vaihe vaiheelta, yhdistäen taiteellisen ilmaisun ja luonnon havainnoinnin tavalla, joka tukee sekä hienomotoriikkaa että tieteellistä tarkkuutta.',
+    },
+    {
+      appId: 'word-search',
+      anchorText: 'luontosanahaku-työlehdet',
+      context: 'Luontosanaston oppiminen syvenee sanahakutehtävissä, joissa lapset etsivät kasvien, eläinten ja sääilmiöiden nimiä sanaruudukosta pelillisessä muodossa.',
+    },
+    {
+      appId: 'matching-app',
+      anchorText: 'luonnon yhdistämistehtävät',
+      context: 'Yhdistämistehtävät haastavat lapsia liittämään luonnonelementtejä oikeisiin vuodenaikoihin tai elinymppäristöihin, kehittäen luokittelutaitoja ja ekologista ymmärrystä.',
+    },
+  ],
+
+  expertTips: [
+    {
+      tip: 'Pidä luontopäiväkirjaa koko lukuvuoden ajan: joka kuukausi täytetään luontotyölehti ja lisätään siihen pihalta kerätty luontonnnäyte. Vuoden lopussa lapsi näkee koko vuodenaikojen kierron.',
+      source: 'Luontokoulun ohjaaja, 8 vuoden kokemus',
+      gradeRange: 'Esiopetus–2. lk',
+    },
+    {
+      tip: 'Käytä luontotyölehtiä sisällä valmistelevana tehtävänä ennen metsäretkea: lapset tutustuvat kasvi- ja eläinlajeihin työlehdeltä ja tunnistavat ne sitten luonnossa.',
+      source: 'Alkuopetuksen luokanopettaja, ympäristökasvatus',
+      gradeRange: '1.–3. lk',
+    },
+    {
+      tip: 'Yhdistä luontotyölehdet säähavainnointiin: joka aamu kirjataan sää ja kerran viikossa täytetään luontotyölehti, joka liittyy viikon säähavaintoihin.',
+      source: 'Esiopetuksen opettaja, tutkiva oppiminen',
+      gradeRange: 'Kaikki luokka-asteet',
+    },
+  ],
 };
 
 registerThemeContent('nature', 'fi', content);

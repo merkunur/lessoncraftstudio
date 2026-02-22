@@ -207,6 +207,165 @@ const content: EnrichedThemeContent = {
   // -- Cross-linking (IDENTICAL to English) --
   relatedThemes: ['numbers', 'alphabet', 'shapes', 'emotions', 'sports', 'music'],
   relatedBlogCategories: [],
+
+  // -- SEO Enrichment (Part 179) --
+
+  classroomScenarios: [
+    {
+      situation: 'Esiopetusryhmän opettaja valmistelee lapsia koulun aloitukseen, mutta huomaa, että monet lapset jännittävät tulevan syyslukukauden aloitusta.',
+      solution: 'Hän käyttää kouluaiheisia työlehtiä, joissa lapset tutustuvat koulutarvikkeisiin, luokkahuoneeseen ja koulupäivän rakenteeseen väritys-, yhdistämis- ja laskutehtävien kautta. Työlehdet normalisoivat koulumaailmaa ja tekevät siitä tutun jo ennen koulun alkua.',
+      outcome: 'Lapset odottavat koulun alkua innostuneesti. Opettaja raportoi, että koulutarvikkeiden tunnistaminen ja lukumäärien hallinta sujuivat merkittävästi paremmin niillä lapsilla, jotka tekivät kouluaiheisia työlehtiä.',
+    },
+    {
+      situation: 'Ekaluokkalaisten opettaja huomaa, että oppilaat kamppailevat aakkosten järjestyksen ja numeroiden kirjoittamisen kanssa samanaikaisesti.',
+      solution: 'Hän yhdistää aakkosjuna- ja matikkatyölehdet kouluaiheeseen: lapset harjoittelevat kirjaimia ja numeroita kouluun liittyvien kuvien kontekstissa, mikä tekee harjoittelusta mielekkyyttä ja motivoivaa.',
+      outcome: 'Kirjainten ja numeroiden tunnistaminen parantuu merkittävästi neljässä viikossa. Oppilaat yhdistävät harjoittelun omaan koulukokemukseensa, mikä vahvistaa motivaatiota.',
+    },
+  ],
+
+  quickStats: [
+    { label: 'Suositeltu ikähaarukka', value: '3–9 vuotta' },
+    { label: 'Työlehtisovellusten määrä', value: '13 sovellusta' },
+    { label: 'Opetussuunnitelman alueet', value: '4 aluetta' },
+    { label: 'Tuetut luokkatasot', value: 'Esiopetus–3. lk' },
+    { label: 'Keskimääräinen työskentelyaika', value: '10–20 min' },
+    { label: 'Oppiainesisjältöjen kirjo', value: '5 ainetta' },
+  ],
+
+  differentiationStrategies: [
+    {
+      learnerType: 'Visuaaliset oppijat',
+      adaptation: 'Painota väritys-, ruudukko- ja yhdistämistehtäviä, joissa koulutarvikkeiden ja luokkahuoneen kuvat tukevat visuaalista hahmottamista. Värikoodatut tehtävät auttavat jäsentämään opittavaa.',
+    },
+    {
+      learnerType: 'Kinesteettiset oppijat',
+      adaptation: 'Yhdistä työlehtiin oikeita koulutarvikkeita: lapsi voi lajitella kyniä, viivottimia ja kumeja fyysisesti ennen työlehden täyttämistä. Kirjoitusharjoitukset suurella liidulla ennen kynätehtävää tukevat motorista valmistautumista.',
+    },
+    {
+      learnerType: 'S2-oppijat',
+      adaptation: 'Koulusanasto on välttämätöntä päivittäistä sanastoa, joten kouluteema on erityisen arvokas S2-opetuksessa. Aloita kuvapainotteisista tehtävistä ja nimeä koulutarvikkeita yhdessä ennen itsenäisiä tehtäviä.',
+    },
+    {
+      learnerType: 'Edistyneet oppijat',
+      adaptation: 'Haasta sudoku-tehtävillä ja monivaiheisilla matemaattisilla ongelmilla kouluaiheen kontekstissa. Kirjoitustehtäviä voidaan laajentaa lyhyiksi tarinoiksi koulupäivästä.',
+    },
+  ],
+
+  assessmentIdeas: [
+    {
+      method: 'Portfolioarviointi',
+      criteria: 'Kerää koulutyölehtiä lukukauden alusta ja vertaa kirjainten ja numeroiden kirjoittamisen, sanaston ja matemaattisten taitojen kehittymistä ajan mittaan.',
+      gradeLevel: 'Kaikki luokka-asteet',
+    },
+    {
+      method: 'Koulutarvikkeiden tunnistustesti',
+      criteria: 'Näytä oppilaalle kuvia koulutarvikkeista ja pyydä nimeämään ne suomeksi sekä kertomaan, mihin kutakin käytetään. Arvioi sanavarastoa ja käyttötietoa.',
+      gradeLevel: 'Esiopetus–1. lk',
+    },
+    {
+      method: 'Havainnointilista',
+      criteria: 'Seuraa, miten oppilas työskentelee kouluteemaisilla työlehdillä: noudattaako ohjeita, pysyykö tehtävässä, ja osaako soveltaa oppimaansa uusiin tilanteisiin.',
+      gradeLevel: '1.–3. lk',
+    },
+  ],
+
+  crossCurricularLinks: [
+    {
+      subject: 'Oppimaan oppiminen (laaja-alainen osaaminen)',
+      connection: 'Kouluteemaiset työlehdet kytkeytyvät POPS 2014:n laaja-alaisen osaamisen tavoitteeseen L1 (ajattelu ja oppimaan oppiminen). Koulutarvikkeiden tunnistaminen ja käyttäminen ovat oppimisen perusvalmiuksia.',
+      activity: 'Työlehden jälkeen oppilaat järjestävät omat koulutarvikkeensa ja luovat yksinkertaisen järjestelmmän niiden säilytykseen.',
+    },
+    {
+      subject: 'Matematiikka',
+      connection: 'Koulutarvikkeiden laskeminen, luokittelu ja järjestäminen tarjoavat konkreettisen kontekstin lukumäärän käsitteille, yhteen- ja vähennyslaskulle sekä loogiselle ajattelulle.',
+      activity: 'Laskutehtävän jälkeen oppilaat inventoivat luokan tarvikekaapin ja laskevat eri tarvikkeiden lukumäärät.',
+    },
+    {
+      subject: 'Äidinkieli ja kirjallisuus',
+      connection: 'Aakkosjuna-, sanahaku- ja kirjoitustehtävät harjoittavat suoraan lukemisen ja kirjoittamisen perusvalmiuksia. Kouluaiheinen sanasto on päivittäistä käyttösanastoa, joka vahvistuu toiston kautta.',
+      activity: 'Sanahaun jälkeen oppilaat kirjoittavat lyhyen tarinan tämänpäiväisestä koulupäivästä käyttäen vähintään kolmea työlehdeltä löydettyä sanaa.',
+    },
+  ],
+
+  uniqueAngle: 'Kouluteemaiset työlehdet ovat pedagogisesti ainutlaatuisia, koska ne tekevät itse oppimisprosessista oppimisen kohteen. Lapsi, joka laskee koulutarvikkeita tai tunnistaa luokkahuoneen esineitä, harjoittelee akateemisia taitoja samalla kun hän rakentaa myönteistä suhdetta kouluun ja oppimiseen. Suomalaisessa esiopetuksessa kouluvalmius on keskeinen tavoite, ja kouluteemaiset työlehdet tukevat tätä siirtymmää konkreettisesti. POPS 2014 korostaa laaja-alaista osaamista ja oppimaan oppimisen taitoja, ja koulutyölehdet palvelevat näitä tavoitteita luontevasti. Kouluteema yhdistää kaikkia oppiaineita — matematiikka, äidinkieli, taide ja liikunta kietoutuvat koulupäivän rakenteeseen — mikä tekee siitä ihanteellisen integroidun opetuksen välineen. Lisäksi kouluteema on tunne-elämän kannalta merkittävä: koulun aloittaminen on suuri elämänmuutos, ja työlehdet, jotka normalisoivat kouluarkea, voivat vähentää jännitystä ja rakentaa luottamusta. Monikulttuurisissa luokissa kouluteema on erityisen arvokas, koska koulunkkäynti on universaali kokemus, joka yhdistää lapsia taustasta riippumatta.',
+
+  researchCitation: 'Rimm-Kaufman, S.E. & Pianta, R.C. (2000). An Ecological Perspective on the Transition to Kindergarten. Journal of Applied Developmental Psychology, 21(5), 491–511. Tutkimus osoitti, että positiiviset siirtymäkokemukset koulun aloituksessa ennustivat parempaa akateemista suoriutumista ja sosiaalista sopeutumista läpi alakoulun.',
+
+  culturalNotes: 'Suomessa esiopetus on pakollista 6-vuotiaille, ja peruskoulu alkaa sinjä vuonna, jona lapsi täyttää seitsemän. Kouluvalmius on esiopetuksen keskeinen tavoite, ja POPS 2014 korostaa oppimaan oppimisen taitoja laaja-alaisen osaamisen perustana (L1). Suomalaisessa koulujärjestelmässä luokanopettaja opettaa kaikkia aineita alkuopetuksessa, mikä mahdollistaa integroidun opetuksen, jossa kouluteema kytkee eri oppiaineita luontevasti yhteen.',
+
+  snippetDefinition: 'Kouluteemaiset työlehdet lapsille ovat tulostettavia oppimistehtäviä, jotka käyttävät koulutarvikkeita, luokkahuoneen elementtejä ja koulupäivän tilanteita matematiikan, lukutaidon ja oppimisvalmiuksien opettamiseen. Ne on suunniteltu 3–9-vuotiaille ja sisältävät laskuharjoituksia, aakkosharjoituksia, sanahakuja, sudoku-tehtäviä ja kirjoitustehtäviä.',
+
+  snippetHowTo: [
+    'Valitse viikolle kouluteeman alateema, kuten koulutarvikkeet, luokkahuone tai koulupäivän rakenne, jotta oppitunneilla on selkeä fokus.',
+    'Valitse kaksi tai kolme työlehtityyppiä eri taitoalueille — esimerkiksi aakkosjuna kirjaimiin, matikkatehtävä laskemiseen ja sanahaku lukutaitoon.',
+    'Aloita keskustelemalla koulupäivästä: kysy lapsilta, mikä on heidän lempikoulutarvikkeensa tai lempioppituntinsa.',
+    'Jaa työlehdet vaikeustason mukaan: aloita värityksellä tai yhdistämistehtävällä ennen haastavampia matikka- ja kirjoitustehtäviä.',
+    'Kierrä lasten joukossa ja kysy avoimia kysymyksiä kuten Montako kynää sinulla on tai Mitä tarvitset tänään matematiikan tunnille.',
+    'Yhdistä työlehti käytäntöön: tarkista ja järjestä omat koulutarvikkeet työlehden jälkeen.',
+    'Kerää valmiit työlehdet portfoliokansioon, joka dokumentoi oppimisvalmiuksien kehittymistä lukukauden aikana.',
+  ],
+
+  limitations: 'Kouluteema voi tahattomasti korostaa perinteistä luokkahuoneopetusta vaihtoehtoisten oppimisympäristöjen kustannuksella. Lapset, joilla on negatiivisia kokemuksia koulustartästä tai kouluahdistusta, voivat kokea kouluaiheiset työlehdet stressaavina — opettajien tulisi olla herkkiä näille tilanteille ja tarjota vaihtoehtoja. Lisäksi kouluteema on kulttuurisesti sidottu: eri maiden koulujärjestelmät poikkeavat merkittävästi toisistaan, joten maahanmuuttajaperheiden lapset voivat tarvita lisätukea koulusanaston ja -käytäntöjen ymmärtämiseen.',
+
+  themeComparisons: [
+    {
+      vsThemeId: 'numbers',
+      summary: 'Numerotyölehdet keskittyvät puhtaasti matemaattisiin käsitteisiin ja tarjoavat syvemmän numeerisen harjoittelun. Koulutyölehdet sijoittavat numerot arkikontekstiin ja yhdistävät ne muihin oppiaineisiin, mikä tukee integroitua oppimista.',
+    },
+    {
+      vsThemeId: 'alphabet',
+      summary: 'AakkosTyölehdet syventyvät kirjainten tunnistamiseen ja kirjoittamiseen. Koulutyölehdet yhdistävät aakkoset laajempaan koulukontekstiin, jossa lukutaito on osa kokonaisvaltaista oppimisvalmiutta.',
+    },
+    {
+      vsThemeId: 'shapes',
+      summary: 'Muototyölehdet keskittyvät geometrisiin käsitteisiin ja visuaaliseen hahmottamiseen. Koulutyölehdet tarjoavat laajemman kontekstin, jossa muodot esiintyvät koulutarvikkeissa ja luokkahuoneessa.',
+    },
+    {
+      vsThemeId: 'emotions',
+      summary: 'Tunnetyölehdet keskittyvät sosioemotionaaliseen oppimiseen ja tunteiden tunnistamiseen. Koulutyölehdet yhdistävät tunnetaidot oppimiskontekstiin, jossa tunteiden hallinta on osa onnistunutta koulupäivää.',
+    },
+  ],
+
+  productLinks: [
+    {
+      appId: 'matching-app',
+      anchorText: 'kouluaiheiset yhdistämistehtävät',
+      context: 'Kouluaiheiset yhdistämistehtävät haastavat lapsia yhdistämään koulutarvikkeita niiden käyttötarkoituksiin tai varjokuviin, kehittäen visuaalista erottelukykyä ja sanavarastoa.',
+    },
+    {
+      appId: 'math-worksheet',
+      anchorText: 'kouluaiheiset matikkatehtävät',
+      context: 'Matemaattiset työlehdet kouluteemalla tekevät laskemisesta mielekkyyttä, kun yhteen- ja vähennyslaskujen kohteina ovat tutut koulutarvikkeet ja luokkatilanteet.',
+    },
+    {
+      appId: 'alphabet-train',
+      anchorText: 'kouluaiheinen aakkosjuna',
+      context: 'Aakkosjunatehtävät tukevat kirjainten tunnistamista ja järjestystaidosta kouluun liittyvien sanojen kontekstissa, yhdistäen lukemisen perusvalmiudet koulumotivaatioon.',
+    },
+    {
+      appId: 'word-search',
+      anchorText: 'koulusanahaku-työlehdet',
+      context: 'Koulusanaston oppiminen syvenee sanahakutehtävissä, joissa lapset etsivät koulutarvikkeiden, oppiaineiden ja koulupäivän termejä sanaruudukosta.',
+    },
+  ],
+
+  expertTips: [
+    {
+      tip: 'Käytä kouluaiheisia työlehtiä keväällä esikouluryhmmässä kouluun valmentautumiseen. Tutustuminen koulutarvikkeisiin ja koulupäivän rakenteeseen vähentää aloitusjjännitystä merkittävästi.',
+      source: 'Esiopetuksen opettaja, 18 vuoden kokemus',
+      gradeRange: 'Esiopetus',
+    },
+    {
+      tip: 'Yhdistä koulutyölehdet koulutarvikeinventaarioon: lapset laskevat ja kirjaavat luokan tarvikkeet, mikä harjoittaa laskemista ja vastuullisuutta samanaikaisesti.',
+      source: 'Alkuopetuksen luokanopettaja, oppimisympäristöt',
+      gradeRange: '1.–2. lk',
+    },
+    {
+      tip: 'Käytä sudoku-tehtäviä eriytysmateriaalina nopeille oppilaille — ne kehittävät loogista ajattelua ja keskittymiskykyä itsenäisesti.',
+      source: 'Matematiikan erityisopettaja',
+      gradeRange: '2.–3. lk',
+    },
+  ],
 };
 
 registerThemeContent('school', 'fi', content);

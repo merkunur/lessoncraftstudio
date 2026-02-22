@@ -206,6 +206,165 @@ const content: EnrichedThemeContent = {
   // -- Cross-linking --
   relatedThemes: ['nature', 'weather', 'spring', 'summer', 'winter', 'flowers', 'forest'],
   relatedBlogCategories: [],
+
+  // -- SEO Enrichment (Part 181) --
+
+  classroomScenarios: [
+    {
+      situation: 'Ensimmäisen luokan opettaja huomaa, että oppilaat sekoittavat vuodenaikojen järjestyksen ja eivät ymmärrä, miksi sää muuttuu vuoden aikana.',
+      solution: 'Hän ottaa käyttöön vuodenaika-aiheiset työlehdet, joissa oppilaat järjestävät vuodenajat oikeaan kiertoon, yhdistävät sääilmiöt oikeisiin vuodenaikoihin ja värittävät saman maiseman neljänä eri vuodenaikana.',
+      outcome: 'Kuukauden jälkeen oppilaat osaavat nimetjä vuodenajat oikeassa järjestyksessä, kuvailla jokaisen vuodenajan tyypillisiä piirteitä ja selittää, miksi päivänvalo muuttuu vuoden aikana.',
+    },
+    {
+      situation: 'Kotikouluvanhempi etsii teemaa, joka yhdistää luonnontieteen, matematiikan ja äidinkielen esikoululaiselle, joka on kiinnostunut ulkoilusta.',
+      solution: 'Vanhempi käyttää vuodenaikaisia työlehtiä ympjäri vuoden: keväällä lasketaan kukkia, kesällä mitataan päivänvalon pituutta, syksyllä lajitellaan lehtiä ja talvella vertaillaan lämpötiloja.',
+      outcome: 'Lapsi ymmärtää vuodenaikasyklin kokonaisuutena ja osaa ennustaa tulevia muutoksia. Hän käyttää vuodenaikasanastoa arjessa ja kirjoittaa oma-aloitteisesti sääpäiväkirjaa.',
+    },
+  ],
+
+  quickStats: [
+    { label: 'Suositeltu ikähaarukka', value: '3–9 vuotta' },
+    { label: 'Työlehtisovellusten määrä', value: '11 sovellusta' },
+    { label: 'Opetussuunnitelman alueet', value: '4 aluetta' },
+    { label: 'Tuetut luokkatasot', value: 'Esiopetus–3. lk' },
+    { label: 'Keskimääräinen työskentelyaika', value: '10–20 min' },
+    { label: 'Vuodenaikojen kirjo', value: '4 vuodenaikaa + siirtymät' },
+  ],
+
+  differentiationStrategies: [
+    {
+      learnerType: 'Visuaaliset oppijat',
+      adaptation: 'Painota neljän vuodenajan vertailukuvia, joissa sama maisema näkyy eri vuodenaikoina. Aikajanaharjoitukset ja vuodenaikakellot auttavat hahmottamaan syklisen rakenteen visuaalisesti.',
+    },
+    {
+      learnerType: 'Kinesteettiset oppijat',
+      adaptation: 'Vie oppilaat ulos havainnoimaan vuodenajan merkkejä ennen työlehtitehtävää. Kerää luonnonmateriaaleja (lehtiä, käpyjä, kukkia) ja yhdistä ne työlehden lajittelutehtäviin konkreettisesti.',
+    },
+    {
+      learnerType: 'S2-oppijat',
+      adaptation: 'Vuodenajat ovat universaaleja — jokainen lapsi on kokenut sään vaihtelua. Aloita kuvapohjaisista vuodenaika-kohtausten tunnistamisesta ja lisää suomenkielistä sanastoa asteittain. Kuvitetut sanakortit vuodenaika-sanoista tukevat oppimista.',
+    },
+    {
+      learnerType: 'Edistyneet oppijat',
+      adaptation: 'Haasta tieteellisillä selityksillä: maapallon kaltevuuskulma, päiväntasaukset ja päivänseisaukset. Lämpötiladatan kerääminen ja graafien piirtäminen sekä pohjoisen ja eteläisen pallonpuoliskon vertailu tarjoavat syvemmän haasteen.',
+    },
+  ],
+
+  assessmentIdeas: [
+    {
+      method: 'Portfolioarviointi',
+      criteria: 'Kerää vuodenaika-aiheisia työlehtiä koko lukuvuoden ajalta. Vertaa vuodenaikasanaston laajuutta, luonnontieteen ymmärryksen kehittymistä ja kuvailevien vastausten rikastumista ajan myötä.',
+      gradeLevel: 'Kaikki luokka-asteet',
+    },
+    {
+      method: 'Vuodenaikapäiväkirja',
+      criteria: 'Oppilas pitää kuukauden ajan sääpäiväkirjaa, johon hän piirtää sääsymbolin ja kirjoittaa havainnon. Arvioi havaintojen tarkkuutta, sanaston käyttöä ja kykyä yhdistää havainnot vuodenaikaan.',
+      gradeLevel: '1.–3. lk',
+    },
+    {
+      method: 'Vuodenaikojen vertailutehtävä',
+      criteria: 'Pyydä oppilasta vertaamaan kahta vuodenaikaa viilessä kohdassa: sää, päivänvalo, vaatteet, kasvit ja eläimet. Arvioi vertailun jäsenteljä, tietosisällön tarkkuutta ja kykyä esittää syyttä ja seurausta.',
+      gradeLevel: 'Esiopetus–2. lk',
+    },
+  ],
+
+  crossCurricularLinks: [
+    {
+      subject: 'Ympäristöoppi (luonnon vuodenaikaisrytmi)',
+      connection: 'Vuodenaikateema kytkeytyy POPS 2014:n ympäristöopin tavoitteisiin sääkuvioista, eläinten sopeutumisesta vuodenaikoihin ja kasvien kasvusykleistä. Työlehdet tekevät abstrakteista luonnontieteen käsitteistä konkreettisia.',
+      activity: 'Vuodenaikojen järjestystehtävän jälkeen oppilaat menevjät ulos havainnoimaan nykyisen vuodenajan merkkejä ja kirjaavat löydöksensä havainnointilomakkeelle.',
+    },
+    {
+      subject: 'Matematiikka',
+      connection: 'Vuodenajat tarjoavat luonnollisen kontekstin laskemiselle, mittaamiselle ja vertailulle: lämpötilojen vertailu, päivänvalon tuntien laskeminen ja kalenterimatematiikka yhdistävät matemaattiset taidot arkitodellisuuteen.',
+      activity: 'Lämpötilavertailutehtävän jälkeen oppilaat piirtävät yksinkertaisen pylväsdiagrammin kuukauden lämpötiloista ja vertailevat vuodenaikojen eroja.',
+    },
+    {
+      subject: 'Äidinkieli ja kirjallisuus',
+      connection: 'Vuodenaikateema rikastaa kuvailevaa kieltjä: aistihavainnot, sääsanat ja luontokuvaukset kehittävät sanaston laajuutta ja ilmaisun tarkkuutta.',
+      activity: 'Sanahaun jälkeen oppilaat kirjoittavat lyhyen aistikuvauksen nykyisestä vuodenajasta: mitä näen, kuulen, haistan ja tunnen ulkona tänään.',
+    },
+  ],
+
+  uniqueAngle: 'Vuodenaika-aiheiset työlehdet ovat pedagogisesti poikkeuksellisia, koska ne ovat ainoa teema, joka on aina ajankohtainen — jokaisena päivänä vuodessa lapsi elää jossain vuodenajassa. Tämä jatkuva ajankohtaisuus tekee vuodenajat yhdeksi monipuolisimmista oppimisteemoista, koska tehtävät voidaan yhdistää suoraan lapsen senhetkisiin kokemuksiin. Suomessa nelivuodenaika-rakenne on erityisen dramaattinen: pitkät, pimeät talvet lumipeitteellä ja valoisat kesäyöt luovat maailman selväpiirteisimmät vuodenaikakontrastit. Tämä tekee suomalaisista lapsista luontaisia vuodenaika-asiantuntijoita, joilla on runsaasti omakohtaisia kokemuksia oppimistehtävien pohjaksi. POPS 2014:n ympäristöoppi korostaa luonnon vuodenaikaisrytmin ymmärtämistä, ja vuodenaikatyölehdet tukevat tätä tavoitetta konkreettisesti. Vuodenaikateeman syklinen rakenne opettaa samalla matemaattista ajattelua: toistuvat kuviot, ennustaminen ja kalenterilaskenta syntyvjät luonnostaan vuodenaikojen kiertoon. Luonnontieteen, matematiikan, äidinkielen ja kuvaamataidon yhdistäminen yhdessä teemassa tekee vuodenajoista ihanteellisen integroivan oppimiskokonaisuuden.',
+
+  researchCitation: 'Lehrer, R. & Schauble, L. (2006). Cultivating Model-Based Reasoning in Science Education. Cambridge University Press. Tutkimus osoitti, että lasten luonnonilmiöiden havainnointi ja mallintaminen — kuten vuodenaikojen seuranta — kehittää tieteellistä ajattelua tehokkaammin kuin pelkkä faktojen opettelu.',
+
+  culturalNotes: 'Suomessa vuodenajat ovat kulttuurin ytimessä: juhannus merkitsee kesän alkua, ruska syksyn värikkyttä ja joulu talven pimeyden vastakohtaa. POPS 2014:n ympäristöoppi korostaa luonnon vuodenaikaisrytmin ymmärtämistä ja omien havaintojen tekemistä. Suomen dramaattiset vuodenaikaerot tekevät teemasta erityisen rikkaan oppimiskontekstin.',
+
+  snippetDefinition: 'Vuodenaika-aiheiset työlehdet lapsille ovat tulostettavia oppimistehtäviä, jotka käyttävät kevään, kesän, syksyn ja talven ilmiöitä matematiikan, lukutaidon ja luonnontieteen opettamiseen. Ne on suunniteltu 3–9-vuotiaille ja sisältävät lajittelutehtäviä, sanahakuja, lämpötilavertailuja ja väritystehtäviä.',
+
+  snippetHowTo: [
+    'Valitse työlehdet nykyisen vuodenajan mukaan, jotta tehtävät yhdistyvät lapsen senhetkisiin havaintoihin ulkomaailmasta.',
+    'Valitse kaksi tai kolme työlehtityyppiä eri taitoalueille — esimerkiksi lajittelutehtävä luokitteluun, laskutehtävä matematiikkaan ja sanahaku sanastoon.',
+    'Aloita ulkohavainnolla: mene lasten kanssa ulos ja listatkaa yhdessä, mitä vuodenajan merkkejä näette, kuulette ja tunnette.',
+    'Jaa työlehdet vaikeustason mukaan: aloita vuodenaikojen tunnistamisesta ennen vertailua ja tieteellisiä selityksiä.',
+    'Kierrä lasten joukossa ja esitä avoimia kysymyksiä kuten Miksi puut pudottavat lehtensä syksyllä tai Mikä vuodenaika tulee seuraavaksi ja mistä tiedät sen.',
+    'Yhdistä työlehti vuodenaikakalenterin pitämiseen: oppilaat merkitsevät joka päivä säähavainnon ja seuraavat muutoksia.',
+    'Kerää valmiit työlehdet portfoliokansioon ja vertailkaa vuodenaikojen vaihtuessa, miten havainnot ja sanasto ovat kehittyneet.',
+  ],
+
+  limitations: 'Vuodenaikatyölehdet kuvaavat tyypillisesti pohjoisen pallonpuoliskon vuodenaikoja, mikä voi hämmentää lapsia, joiden perheillä on kokemusta eteläisen pallonpuoliskon tai trooppisten alueiden säästä. Opettajien tulee huomioida, että kaikki oppilaat eivät ole kokeneet tyypillistä suomalaista talvea. Luonnontieteen yksinkertaistukset kuten neljän selvärajaisen vuodenajan malli eivät vastaa täysin todellisuutta, jossa siirtymjät ovat asteittaisia.',
+
+  themeComparisons: [
+    {
+      vsThemeId: 'nature',
+      summary: 'Luontotyölehdet tutkivat eläimiä, kasveja ja ekosysteemejä yleisellä tasolla. Vuodenaikatyölehdet keskittyvät siihen, miten luonto muuttuu vuoden kiertoon yhdistäen aikaperspektiivin luontohavaintoihin.',
+    },
+    {
+      vsThemeId: 'weather',
+      summary: 'Säätyölehdet tutkivat yksittäisiä sääilmiöitä kuten sadetta ja tuulta. Vuodenaikatyölehdet asettavat sääilmiöt laajempaan sykliseen kehykseen, selittäen miksi tiettyjä säätyyppejä esiintyy tiettyihin aikoihin.',
+    },
+    {
+      vsThemeId: 'spring',
+      summary: 'Kevättyölehdet syventyvät yhteen vuodenaikaan ja sen yksityiskohtiin. Vuodenaikatyölehdet kattavat kaikki neljä vuodenaikaa ja niiden väliset vertailut, tarjoten kokonaiskuvan vuoden kierrosta.',
+    },
+    {
+      vsThemeId: 'winter',
+      summary: 'Talvityölehdet keskittyvät lumeen, jäähän ja talvisiin aktiviteetteihin. Vuodenaikatyölehdet sijoittavat talven osaksi neljän vuodenajan kiertoa, mahdollistaen vertailun muihin vuodenaikoihin.',
+    },
+  ],
+
+  productLinks: [
+    {
+      appId: 'coloring',
+      anchorText: 'vuodenaika-aiheiset väritystehtävät',
+      context: 'Vuodenaika-aiheiset väritystehtävät esittelevät saman maiseman eri vuodenaikoina, kehittäen hienomotoriikkaa ja opettaen vuodenaikojen visuaalisia piirteitä.',
+    },
+    {
+      appId: 'find-and-count',
+      anchorText: 'vuodenaika-esineiden laskutehtävät',
+      context: 'Laskutehtävät yhdistävät aritmetiikan vuodenaikakuviin, kun lapset etsivät ja laskevat lehtiä, lumihiutaleita, kukkia tai aurinkoja kohtauskuvista.',
+    },
+    {
+      appId: 'word-search',
+      anchorText: 'vuodenaikasanaston sanahaku-työlehdet',
+      context: 'Vuodenaikasanaston oppiminen sanahakutehtävissä, joissa lapset etsivät termejä kuten päiväntasaus, halla, helle ja muuttolintu sanaruudukosta.',
+    },
+    {
+      appId: 'pattern-train',
+      anchorText: 'vuodenaikojen kuviojuna-tehtävät',
+      context: 'Kuviojunatehtävät käyttävät vuodenaikasymboleita toistuvien sarjojen harjoitteluun, opettaen matemaattista kuvioajattelua luonnollisessa kontekstissa.',
+    },
+  ],
+
+  expertTips: [
+    {
+      tip: 'Perusta luokkaan vuodenaikapöytä, jota päivitetään kuukausittain luonnonmateriaaleilla. Työlehtitehtävät saavat konkreettisen vastineen, kun oppilaat voivat koskettaa ja tutkia oikeita lehtiä, käpyjä ja kukkia.',
+      source: 'Luokanopettaja, luontokasvatus',
+      gradeRange: 'Esiopetus–2. lk',
+    },
+    {
+      tip: 'Käytä vuodenaikavalokuvausprojektia rinnalla: oppilaat kuvaavat saman paikan joka kuukausi ja vertaavat muutoksia. Työlehtien havaintoharjoitukset syventyvät, kun niillä on visuaalinen vertailupohja.',
+      source: 'Ympäristökasvattaja, pitkäkestoiset projektit',
+      gradeRange: '1.–3. lk',
+    },
+    {
+      tip: 'Yhdistä vuodenaikatyjölehdet koulun puutarhatoimintaan: kylväminen keväällä, hoitaminen kesällä, sadonkorjuu syksyllä ja suunnittelu talvella. Tämä antaa vuodenajoille konkreettisen merkityksen.',
+      source: 'Puutarhakasvattaja, kokemuksellinen oppiminen',
+      gradeRange: 'Esiopetus–3. lk',
+    },
+  ],
 };
 
 registerThemeContent('seasons', 'fi', content);

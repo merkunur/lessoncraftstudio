@@ -207,6 +207,165 @@ const content: EnrichedThemeContent = {
   // -- Cross-linking --
   relatedThemes: ['xmas', 'easter', 'halloween', 'birthday', 'seasons', 'cooking', 'food'],
   relatedBlogCategories: [],
+
+  // -- SEO Enrichment (Part 181) --
+
+  classroomScenarios: [
+    {
+      situation: 'Tokaluokan opettaja haluaa käsitellä eri kulttuurien juhlapyhjä inklusiivisesti, mutta tarvitsee konkreettisia tehtäviä keskustelun tueksi.',
+      solution: 'Hän käyttää juhla-aiheisia työlehtiä, joissa oppilaat vertailevat eri kulttuurien juhlatraditioita yhdistämistehtävissä, laskevat juhlatarvikkeita ja kirjoittavat oman perheen juhlamuistoja.',
+      outcome: 'Oppilaat oppivat kunnioittamaan eri kulttuurien perinteitä ja huomaavat yhtäläisyyksiä omiin juhliinsa. Luokkahuoneen ilmapiiri muuttuu avoimemmaksi monikulttuurisille keskusteluille.',
+    },
+    {
+      situation: 'Kotikouluvanhempi haluaa hyödyntää joulunodotusaikaa oppimiseen, mutta lapsi haluaa vain askarrella.',
+      solution: 'Vanhempi yhdistää juhla-aiheiset työlehdet askarteluun: joulukalenterissa joka luukun takana on laskutehtävä, juhlaruoka-aiheinen sanahaku rikastaa sanastoa ja korttien tekeminen harjoittaa kirjoittamista.',
+      outcome: 'Lapsi ei edes huomaa oppivansa, koska tehtävät ovat osa juhlavalmisteluja. Matemaattiset taidot ja sanasto kehittyvät luonnollisesti juhlan kontekstissa.',
+    },
+  ],
+
+  quickStats: [
+    { label: 'Suositeltu ikähaarukka', value: '3–9 vuotta' },
+    { label: 'Työlehtisovellusten määrä', value: '11 sovellusta' },
+    { label: 'Opetussuunnitelman alueet', value: '4 aluetta' },
+    { label: 'Tuetut luokkatasot', value: 'Esiopetus–3. lk' },
+    { label: 'Keskimääräinen työskentelyaika', value: '10–20 min' },
+    { label: 'Juhlapyhien kirjo', value: '10+ juhlaa' },
+  ],
+
+  differentiationStrategies: [
+    {
+      learnerType: 'Visuaaliset oppijat',
+      adaptation: 'Painota juhla-aiheisia värityskuvia ja yhdistämistehtäviä, joissa juhlatarvikkeet paritetaan oikeaan juhlaan. Juhlien aikajanatehtävät kalenterilla tukevat visuaalista hahmotusta.',
+    },
+    {
+      learnerType: 'Kinesteettiset oppijat',
+      adaptation: 'Yhdistä työlehdet konkreettiseen juhlintaan: leivo joulupipareita laskutehtävän jälkeen, askartele pääsiäiskoriste väritystehtävän pohjalta tai rakenna juhlakoriste työlehden ohjeiden mukaan.',
+    },
+    {
+      learnerType: 'S2-oppijat',
+      adaptation: 'Juhlapäivät ovat kulttuurien yhteinen piirre — jokaisella lapsella on kokemuksia juhlista. Aloita kuvapohjaisista juhlien tunnistamistehtävistä ja lisää suomenkielistä juhla- ja perinnesanastoa asteittain.',
+    },
+    {
+      learnerType: 'Edistyneet oppijat',
+      adaptation: 'Haasta tutkimustehtävillä juhlien historiasta ja alkuperästä. Vertaileva essee kahdesta eri kulttuurin juhlasta kehittää analyyttistä kirjoittamista. Juhlakalenterin luominen aikajanamuodossa yhdistää historian ja matematiikan.',
+    },
+  ],
+
+  assessmentIdeas: [
+    {
+      method: 'Portfolioarviointi',
+      criteria: 'Kerää juhla-aiheisia työlehtiä vuoden ajalta — joulutehtäviä, pääsiäistehtäviä, itsenäisyyspäivätehtäviä. Vertaa juhlasanaston laajuutta ja kulttuurisen ymmärryksen kehittymistä.',
+      gradeLevel: 'Kaikki luokka-asteet',
+    },
+    {
+      method: 'Juhlien vertailutehtävä',
+      criteria: 'Pyydä oppilasta vertaamaan kahta juhlaa kolmessa kohdassa: perinteet, ruoka ja symbolit. Arvioi vertailun jäsenteljä, tietosisällön tarkkuutta ja kulttuurista herkkyttä.',
+      gradeLevel: '1.–3. lk',
+    },
+    {
+      method: 'Oma juhlaesitys',
+      criteria: 'Oppilas piirtää ja kuvaa oman perheen lempijuhlan: mitä perinteitä, ruokia ja aktiviteetteja siihen kuuluu. Arvioi kuvailun rikkautta, sanastoa ja esitystaitoja.',
+      gradeLevel: 'Esiopetus–2. lk',
+    },
+  ],
+
+  crossCurricularLinks: [
+    {
+      subject: 'Ympäristöoppi (kulttuuri ja yhteiskunta)',
+      connection: 'Juhlateemat kytkeytyvät POPS 2014:n ympäristöopin kulttuurisen moninaisuuden ja yhteiskunnallisten perinteiden tavoitteisiin. Juhlapyhien tutkiminen opettaa kulttuurista lukutaitoa.',
+      activity: 'Juhlavertailutehtävän jälkeen oppilaat haastattelevat eri taustaista perheenjäsentä hänen tärkeimmästä juhlastaan ja jakavat tulokset luokalle.',
+    },
+    {
+      subject: 'Matematiikka',
+      connection: 'Juhlateema tarjoaa kontekstin laskemiselle ja mittaamiselle: juhlatarvikkeiden laskeminen, reseptien mittasuhteet ja juhlakalenterin päivälaskenta yhdistävät matematiikan iloiseen kontekstiin.',
+      activity: 'Laskutehtävän jälkeen oppilaat suunnittelevat luokkajuhlan budjetin: kuinka monta koristetta, karkkia ja lautasta tarvitaan jokaiselle oppilaalle.',
+    },
+    {
+      subject: 'Äidinkieli ja kirjallisuus',
+      connection: 'Juhlateema kehittää kuvailevaa kirjoittamista ja perinnesanastoa. Juhlamuistojen kirjoittaminen harjoittaa narratiivista tekstilajia ja tunnesanaston käyttöä.',
+      activity: 'Sanahaun jälkeen oppilaat kirjoittavat lyhyen muistelutekstin parhaasta juhlamuistostaan käyttäen vähintään viittä opittua juhlasanaa.',
+    },
+  ],
+
+  uniqueAngle: 'Juhla-aiheiset työlehdet hyödyntävät lasten luonnollista innostusta ja odotusta, jotka liittyvät juhlapyhiin. Kun oppiminen kytketään juhlan iloiseen kontekstiin, motivaatio on valmiiksi korkealla — lapsi ei erota oppimista juhlasta. Tämä tekee juhla-aiheisista työlehdistä pedagogisesti erityisen tehokkaita. Suomalaisessa kulttuurissa juhlapyhillä on syvjä merkitys: joulu, pääsiäinen, juhannus, itsenäisyyspäivä ja vappu muodostavat vuoden rytmin, joka jjjäsentää sekä perheiden että koulun arkea. POPS 2014 korostaa kulttuuriperinteen tuntemusta ja monikulttuurisen ymmärryksen kehittämistä, ja juhlateemat tukevat molempia tavoitteita. Juhlat ovat myös erinomainen monikulttuurisuuskasvatuksen väline: kun luokassa tutkitaan eri kulttuurien juhlia, lapset oppivat kunnioittamaan erilaisuutta ja löytämään yhtäläisyyksiä omiin perinteisiinsä. Juhlateemat yhdistävät luontevasti matematiikan, äidinkielen, kuvataiteen ja ympäristöopin, koska jokaiseen juhlaan liittyy laskemista, kirjoittamista, askartelua ja kulttuurista sisältöä.',
+
+  researchCitation: 'Pleck, E.H. (2000). Celebrating the Family: Ethnicity, Consumer Culture, and Family Rituals. Harvard University Press. Tutkimus osoitti, että juhlarituaalit vahvistavat perheen yhteenkuuluvuutta ja kulttuurista identiteettiä, ja näiden perinteiden tuominen oppimiseen syventää lasten kulttuurista ymmärrystä.',
+
+  culturalNotes: 'Suomessa juhlapyhien vietto on syvjään juurtunut kulttuuri-identiteettiin: itsenäisyyspäivän kynttilät ikkunalla, joulurauhan julistus Turusta ja juhannuksen kokot ovat perinteitä, jotka yhdistävät sukupolvia. POPS 2014 korostaa kulttuuriperinteen tuntemusta ja monikulttuurista ymmärrystä. Suomen monikulttuuristuva yhteiskunta tekee juhlateemoista tärkeän välineen inklusiiviseen kasvatukseen.',
+
+  snippetDefinition: 'Juhla-aiheiset työlehdet lapsille ovat tulostettavia oppimistehtäviä, jotka käyttävät joulun, pääsiäisen, juhannuksen ja muiden juhlapäivien teemoja matematiikan, lukutaidon ja kulttuurisen ymmärryksen opettamiseen. Ne on suunniteltu 3–9-vuotiaille ja sisältävät laskutehtäviä, sanahakuja, väritystehtäviä ja vertailuharjoituksia.',
+
+  snippetHowTo: [
+    'Valitse työlehdet lähestyvän juhlapyhän mukaan, jotta oppiminen kytkeytyy lasten senhetkiseen innostukseen ja odotukseen.',
+    'Valitse kaksi tai kolme työlehtityyppiä eri taitoalueille — esimerkiksi laskutehtävä matematiikkaan, sanahaku sanastoon ja väritystehtävä hienomotoriikkaan.',
+    'Aloita keskustelulla: kysy lapsilta, miten heidän perheensä viettää lähestyvää juhlaa ja mitkjä perinteet ovat tärkeitä.',
+    'Jaa työlehdet vaikeustason mukaan: aloita juhlasymbolien tunnistamisesta ennen vertailu- ja kirjoitustehtäviä.',
+    'Kierrä lasten joukossa ja esitä avoimia kysymyksiä kuten Miksi tätä juhlaa vietetään tai Mitkä perinteet ovat samankaltaisia eri maissa.',
+    'Yhdistä työlehti konkreettiseen juhlintaan: askartele, leivo tai koristele luokka työlehdellä opitun pohjalta.',
+    'Kerää valmiit työlehdet portfoliokansioon ja rakentakaa vuoden mittaan juhlakalenteri, johon kerätään joka juhlan työlehdet.',
+  ],
+
+  limitations: 'Juhla-aiheiset työlehdet voivat painottua kristillisiin juhliin, jolloin muiden uskontojen ja kulttuurien juhlat jjjäävät vähemmälle huomiolle. Opettajien tulee varmistaa, että juhlavalikoima on inklusiivinen. Perherakenteiden moninaisuus on huomioitava: kaikki lapset eivät vietä samoja juhlia. Kaupallisten juhlien korostaminen voi olla ristiriidassa perheiden arvojen kanssa.',
+
+  themeComparisons: [
+    {
+      vsThemeId: 'xmas',
+      summary: 'Joulutyölehdet syventyvät yhteen juhlaan ja sen traditioihin. Juhla-aiheiset työlehdet kattavat laajasti vuoden eri juhlapyät ja niiden vertailun, tarjoten monikulttuurisen näkökulman.',
+    },
+    {
+      vsThemeId: 'easter',
+      summary: 'Pääsiäistyölehdet keskittyvät kevään juhlaan, muniin ja pupuihin. Juhla-aiheiset työlehdet sijoittavat pääsiäisen osaksi vuoden juhlakiertoa ja vertaavat sitä muihin juhliin.',
+    },
+    {
+      vsThemeId: 'birthday',
+      summary: 'Syntympäivätyölehdet keskittyvät henkilökohtaiseen juhlaan. Juhla-aiheiset työlehdet kattavat sekä yhteisjölliset juhlapyhät että henkilökohtaiset juhlat, tarjoten laajemman kulttuurisen kontekstin.',
+    },
+    {
+      vsThemeId: 'seasons',
+      summary: 'Vuodenaikatyölehdet tutkivat luonnon sykliä. Juhla-aiheiset työlehdet tutkivat kulttuurin sykliä: miten ihmiset jäsentävät vuotta juhlien kautta luonnonilmiöiden sijaan.',
+    },
+  ],
+
+  productLinks: [
+    {
+      appId: 'coloring',
+      anchorText: 'juhla-aiheiset väritystehtävät',
+      context: 'Juhla-aiheiset väritystehtävät tuovat juhlapyhien tunnelman oppimiseen, kun lapset värittävät joulutonttuja, pääsiäismuneja ja juhannuskokkoja.',
+    },
+    {
+      appId: 'find-and-count',
+      anchorText: 'juhlatarvikkeiden laskutehtävät',
+      context: 'Laskutehtävät yhdistävät aritmetiikan juhlakohtauksiin, kun lapset etsivät ja laskevat kynttilöitä, lahjoja, muneja ja koristeita teemakuvista.',
+    },
+    {
+      appId: 'word-search',
+      anchorText: 'juhlasanaston sanahaku-työlehdet',
+      context: 'Juhlasanaston oppiminen sanahakutehtävissä, joissa lapset etsivät termejä kuten koristella, perinne, viettää ja juhlia sanaruudukosta.',
+    },
+    {
+      appId: 'word-scramble',
+      anchorText: 'juhlasanojen sekoitustehtävät',
+      context: 'Sanojen sekoitustehtävät haastavat lapsia järjestämään sekoitetut juhlasanat oikeaan muotoon, vahvistaen oikeinkirjoitusta ja sanantunnistusta.',
+    },
+  ],
+
+  expertTips: [
+    {
+      tip: 'Rakenna luokkaan juhlakalenteri, johon lisätään jokainen juhla sitä mukaa kun se lähestyy. Työlehdet liitetään kalenteriin, jolloin vuoden lopussa on täydellinen kulttuurinen aikajana.',
+      source: 'Luokanopettaja, kulttuurikasvatus',
+      gradeRange: '1.–3. lk',
+    },
+    {
+      tip: 'Kutsu eri kulttuuritaustaisia perheitä esittelmään omia juhliaan luokkaan. Työlehdet valmistavat oppilaat vierailuun ja antavat rakenteen keskustelulle.',
+      source: 'Monikulttuurisuuskasvattaja, inklusiivinen opetus',
+      gradeRange: 'Esiopetus–3. lk',
+    },
+    {
+      tip: 'Käytä juhlateemaa tunnetaitojen opettamiseen: juhlia odottaessa harjoitellaan kärsivällisyyttä, lahjan antamisessa anteliaisuutta ja yhdessä viettäessä sosiaalisia taitoja. Työlehdet tarjoavat keskustelun pohjan.',
+      source: 'Kasvatuspsykologi, sosio-emotionaalinen oppiminen',
+      gradeRange: 'Esiopetus–2. lk',
+    },
+  ],
 };
 
 registerThemeContent('holidays', 'fi', content);

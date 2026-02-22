@@ -208,6 +208,165 @@ const content: EnrichedThemeContent = {
   // -- Cross-linking --
   relatedThemes: ['shapes', 'flowers', 'animals', 'nature', 'alphabet', 'food'],
   relatedBlogCategories: [],
+
+  // -- SEO Enrichment (Part 181) --
+
+  classroomScenarios: [
+    {
+      situation: 'Esiopetusryhmän opettaja huomaa, että monet lapset tunnistavat pervärit mutta eivät osaa nimetjä välvärejä kuten violetti, oranssi tai turkoosi.',
+      solution: 'Hän käyttää väriaiheisia työlehtiä, joissa lapset sekoittavat värejä (punainen + keltainen = oranssi), lajittelevat esineitä värin mukaan ja tekevät värinäytteitä luonnonmateriaaleista.',
+      outcome: 'Kuukauden jälkeen oppilaat tunnistavat ja nimejävät yli viisitoista väriä sekä ymmärtävät värien sekoittumisen perusperiaatteet. Värisanasto laajenee myös englanninkielisillä termeillä.',
+    },
+    {
+      situation: 'Kotikouluvanhempi haluaa opettaa esikoululaiselle värejä, mutta lapsi ei jaksa istua pöydän ääressä pitkään.',
+      solution: 'Vanhempi yhdistää lyhyet värityölehdet toiminnallisiin värileikkeihin: etsii talosta tietyn värisiä esineitä, lajittelee legoja väreittäin työlehden mallin mukaan ja maalaa sormimaaleilla värien sekoituskokeen.',
+      outcome: 'Lapsi oppii värit leikkien lomassa ilman pitkää pöytätyöskentelyjä. Värisanasto vakiintuu arjessa: lapsi alkaa kuvailla ympäristöään väreillä oma-aloitteisesti.',
+    },
+  ],
+
+  quickStats: [
+    { label: 'Suositeltu ikähaarukka', value: '3–9 vuotta' },
+    { label: 'Työlehtisovellusten määrä', value: '11 sovellusta' },
+    { label: 'Opetussuunnitelman alueet', value: '4 aluetta' },
+    { label: 'Tuetut luokkatasot', value: 'Esiopetus–3. lk' },
+    { label: 'Keskimääräinen työskentelyaika', value: '10–20 min' },
+    { label: 'Värien kirjo', value: '15+ väriä + sekoitukset' },
+  ],
+
+  differentiationStrategies: [
+    {
+      learnerType: 'Visuaaliset oppijat',
+      adaptation: 'Painota värien vertailukuvia, väripyjörätehtäviä ja lajitteluharjoituksia, joissa esineet ryhmätään värin mukaan. Värikarttojen ja sateenkaaren piirtäminen syventävät värikäsitteitä.',
+    },
+    {
+      learnerType: 'Kinesteettiset oppijat',
+      adaptation: 'Yhdistä värityölehdet konkreettiseen värien tutkimiseen: sekoita maaleja, lajittele värillisiä esineitä ja rakennetaan väritörnejä. Jokaiseen työlehteen liitetään käsillä tekemisen vaihe.',
+    },
+    {
+      learnerType: 'S2-oppijat',
+      adaptation: 'Värit ovat universaaleja — jokainen lapsi näkee värejä ympärillään. Aloita perusvärien tunnistamisesta kuvien avulla ja lisää suomenkielisiä värisanoja asteittain. Kaksikielinen värikorttipakka helpottaa sanaston rakentamista.',
+    },
+    {
+      learnerType: 'Edistyneet oppijat',
+      adaptation: 'Haasta väriteorian syvemmillä käsitteillä: lämpimlät ja kylmät värit, komplementtivärit ja värien psykologiset vaikutukset. Taideprojektit, joissa väriteoriaa sovelletaan omaan luovaan työhön, tarjoavat haastetta.',
+    },
+  ],
+
+  assessmentIdeas: [
+    {
+      method: 'Portfolioarviointi',
+      criteria: 'Kerää väriaiheisia työlehtiä usean viikon ajalta. Vertaa värisanaston laajuutta, värien tunnistamisen tarkkuutta ja värien sekoittamisen ymmärrystä.',
+      gradeLevel: 'Kaikki luokka-asteet',
+    },
+    {
+      method: 'Värihavainnointitehtävä',
+      criteria: 'Pyydä oppilasta etsimään luokkahuoneesta mahdollisimman monta eri väriä ja kirjaamaan ne. Arvioi löydettyjen värien määrää, nimeämisen tarkkuutta ja kykyä erottaa läheisiä värisävyjä.',
+      gradeLevel: 'Esiopetus–1. lk',
+    },
+    {
+      method: 'Värien sekoituskoe',
+      criteria: 'Anna oppilaalle kolme perväriä ja pyydä häntä sekoittamaan mahdollisimman monta uutta väriä. Arvioi kokeen systemaattisuutta, tulosten dokumentointia ja selityksiä sekoittumisesta.',
+      gradeLevel: '1.–3. lk',
+    },
+  ],
+
+  crossCurricularLinks: [
+    {
+      subject: 'Kuvataide',
+      connection: 'Väriteema kytkeytyy suoraan POPS 2014:n kuvataiteen tavoitteisiin värien tunnistamisesta, sekoittamisesta ja sommittelusta. Värityölehdet rakentavat perustan, jonka päälle taiteellinen ilmaisu kehittyy.',
+      activity: 'Värien sekoitustehtävän jälkeen oppilaat maalaavat maiseman käyttäen vain kolmea perväriä ja valkoista — kaikki muut värit sekoitetaan itse.',
+    },
+    {
+      subject: 'Matematiikka',
+      connection: 'Värit tarjoavat luonnollisen kontekstin lajittelulle, luokittelulle ja kuvioiden tunnistamiselle. Värisarjat ja -kuviot harjoittavat matemaattista ajattelua visuaalisessa kontekstissa.',
+      activity: 'Lajittelutehtävän jälkeen oppilaat luovat värikuviosarjoja ja haastavat tovereitaan jatkamaan kuviota.',
+    },
+    {
+      subject: 'Äidinkieli ja kirjallisuus',
+      connection: 'Väriteema rikastaa adjektiivien ja kuvailevien ilmausten käyttöä. Värisanasto laajentaa kielellistä ilmaisua ja tukee kuvailevaa kirjoittamista.',
+      activity: 'Sanahaun jälkeen oppilaat kirjoittavat lyhyen runon, jossa jokainen rivi alkaa eri värillä ja kuvaa sen tunnelmaa.',
+    },
+  ],
+
+  uniqueAngle: 'Väriaiheiset työlehdet ovat pedagogisesti perustavanlaatuisia, koska värien tunnistaminen ja nimeäminen kuuluvat varhaislapsuuden ensimmäisiin kognitiivisiin saavutuksiin. Värit ovat universaali kieli, joka ylittää kulttuurirajat ja tarjoaa luonnollisen lähtökohdan luokittelun, vertailun ja sanaston rakentamiselle. Suomalaisessa opetussuunnitelmassa väriteema kytkeytyy sekä kuvataiteeseen että ympäristöoppiin, ja se on yksi harvoista teemoista, joka on yhtjä relevantti esiopetuksesta kolmannelle luokalle asti syvyyden kasvaessa asteittain. Värit ovat myös erinomainen poikkitieteellinen teema: luonnontieteessä tutkitaan valon taittumista ja värispektriä, matematiikassa värit ovat lajittelun ja kuvioiden perusta, ja äidinkielessä väriadjektiivit rikastaa kuvailevaa kieltjä. Konkreettiset värien sekoituskokeet tekevät abstrakteista käsitteistä käsin kosketeltavia ja tarjoavat lapsille välittömän oivalluksen ilon.',
+
+  researchCitation: 'Pitchford, N.J. & Mullen, K.T. (2005). The Role of Perception, Language, and Preference in the Developmental Acquisition of Basic Colour Terms. Journal of Experimental Child Psychology, 90(4), 275–302. Tutkimus osoitti, että värien nimeäminen kehittyy merkittävästi harjoituksen myötä ja että sekä havainto- että kielelliset harjoitukset tukevat värikäsitteiden hallintaa.',
+
+  culturalNotes: 'Suomessa värikasvatus on osa POPS 2014:n kuvataiteen ja ympäristöopin tavoitteita. Suomalainen luonto tarjoaa dramaattisia värikokemuksia: ruskan punainen ja keltainen, talven valkoinen ja sininen sekä kesän vihreä ja kultainen. Nämä luontokokemukset tekevät väriteemasta erityisen eloisan suomalaisessa opetuskontekstissa.',
+
+  snippetDefinition: 'Väriaiheiset työlehdet lapsille ovat tulostettavia oppimistehtäviä, jotka käyttävät värien tunnistamista, nimeämistä ja sekoittamista sanaston, luokittelun ja luovan ilmaisun opettamiseen. Ne on suunniteltu 3–9-vuotiaille ja sisältävät lajittelutehtäviä, väripyjöräharjoituksia, sanahakuja ja väritystehtäviä.',
+
+  snippetHowTo: [
+    'Aloita värihavainnolla: pyydä lapsia etsimään luokkahuoneesta kaikki punaiset esineet, sitten siniset ja niin edelleen.',
+    'Valitse kaksi tai kolme työlehtityyppiä eri taitoalueille — esimerkiksi lajittelutehtävä luokitteluun, väritystehtävä hienomotoriikkaan ja sanahaku sanastoon.',
+    'Yhdistä työlehti konkreettiseen värien tutkimiseen: maalien sekoittaminen, värillisten esineiden lajittelu tai luonnon värien havainnointi.',
+    'Jaa työlehdet vaikeustason mukaan: aloita perusvärien tunnistamisesta ennen välvärejä ja väriteoriaa.',
+    'Kierrä lasten joukossa ja esitä avoimia kysymyksiä kuten Mikä väri syntyy kun sekoitat sinisen ja keltaisen tai Miksi taivas on sininen.',
+    'Rakenna luokkaan värikokoelma-seinjä, johon oppilaat lisäävät värinäytteitä luonnosta, lehdistä ja omista piirustuksistaan.',
+    'Kerää valmiit työlehdet portfoliokansioon ja seuratkaa värisanaston ja väriteorian ymmärryksen kehittymistä.',
+  ],
+
+  limitations: 'Värityölehdet eivät huomioi värisokeutta, joka koskee noin kahdeksaa prosenttia pojista. Opettajien tulee tarjota vaihtoehtoja, joissa värien tunnistaminen ei perustu pelkkään näköaistiin. Värien kulttuuriset merkitykset vaihtelevat: valkoinen symboloi puhtautta Suomessa mutta surua joissain Aasian kulttuureissa. Nämä erot voivat olla opettavaisia keskusteluaiheita.',
+
+  themeComparisons: [
+    {
+      vsThemeId: 'shapes',
+      summary: 'Muototyölehdet keskittyvät geometrisiin ominaisuuksiin. Värityölehdet keskittyvät visuaalisiin ominaisuuksiin — yhdessä ne kattavat esineiden kaksi keskeistä ulottuvuutta.',
+    },
+    {
+      vsThemeId: 'flowers',
+      summary: 'Kukkatyölehdet käyttävät värejä luontokontekstissa. Värityölehdet tutkivat värejä abstraktimmin ja laajemmin, kattaen väriteorian, sekoittamisen ja kulttuuriset merkitykset.',
+    },
+    {
+      vsThemeId: 'nature',
+      summary: 'Luontotyölehdet käyttävät värejä luonnon kuvaamiseen. Värityölehdet tekevät väreistä itsestään oppimisen kohteen, tutkien värien ominaisuuksia, nimeämistä ja teoriaa.',
+    },
+    {
+      vsThemeId: 'alphabet',
+      summary: 'Aakkostyölehdet opettavat kirjaimia ja äänteitä. Värityölehdet opettavat visuaalista luokittelua — molemmat rakentavat perustavanlaatuisia kognitiivisia taitoja, joita tarvitaan kouluvalmiudessa.',
+    },
+  ],
+
+  productLinks: [
+    {
+      appId: 'coloring',
+      anchorText: 'väriaiheiset väritystehtävät',
+      context: 'Väritystehtävät ovat väriteeman ytimessä: lapset harjoittelevat värien tunnistamista, nimeämistä ja valintaa samalla kun kehittävät hienomotoriikkaa.',
+    },
+    {
+      appId: 'draw-and-color',
+      anchorText: 'värien piirustus- ja maalaustehtävät',
+      context: 'Piirustus- ja väritystehtävät yhdistävät luovan ilmaisun väriteoriaan, kun lapset piirtävät ja värittävät värijärjestyksen mukaisesti.',
+    },
+    {
+      appId: 'word-search',
+      anchorText: 'värisanaston sanahaku-työlehdet',
+      context: 'Värisanaston oppiminen sanahakutehtävissä, joissa lapset etsivät värien nimiä kuten turkoosi, violetti ja oranssi sanaruudukosta.',
+    },
+    {
+      appId: 'chart-count-color',
+      anchorText: 'värien laskenta- ja taulukkotehtävät',
+      context: 'Laskenta- ja taulukkotehtävät yhdistävät värien tunnistamisen ja matemaattisen ajattelun, kun lapset laskevat ja taulukoivat eri värisiä esineitä.',
+    },
+  ],
+
+  expertTips: [
+    {
+      tip: 'Järjestä värien sekoituslaboratorio: anna lapsille kolme perväriä ja valkoista, ja anna heidän löytää sekoittamalla mahdollisimman monta uutta väriä. Työlehti dokumentoi tulokset.',
+      source: 'Kuvataideopettaja, kokeellinen oppiminen',
+      gradeRange: '1.–3. lk',
+    },
+    {
+      tip: 'Käytä luontoretkeä värien etsimiseen: anna lapsille värikortti ja pyydä etsimään luonnosta vastaava sävy. Tämä harjoittaa tarkkaa havainnointia ja värien nimeämistä.',
+      source: 'Luontokasvattaja, havainnointi',
+      gradeRange: 'Esiopetus–2. lk',
+    },
+    {
+      tip: 'Yhdistä väriteema tunteisiin: kysy lapsilta, miltä eri värit tuntuvat ja miksi tiettyjä värejä käytetään tietyissä yhteyksissjä (punainen varoitus, vihreä turvallisuus). Tämä syöventää värikäsitteitä.',
+      source: 'Kasvatuspsykologi, värien psykologia',
+      gradeRange: '2.–3. lk',
+    },
+  ],
 };
 
 registerThemeContent('colors', 'fi', content);

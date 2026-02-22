@@ -208,6 +208,165 @@ const content: EnrichedThemeContent = {
   // -- Cross-linking --
   relatedThemes: ['numbers', 'colors', 'school', 'construction', 'toys', 'animals'],
   relatedBlogCategories: [],
+
+  // -- SEO Enrichment (Part 181) --
+
+  classroomScenarios: [
+    {
+      situation: 'Ensimmäisen luokan opettaja huomaa, että oppilaat tunnistavat ympyörän ja neliön mutta eivät erota suorakulmiota neliöstä ja kolmiosta kerästä.',
+      solution: 'Hän käyttää muotoaiheisia työlehtiä, joissa oppilaat lajittelevat muotoja ominaisuuksien mukaan (kulmien lukumäärä, sivujen pituudet), piirtävät muotoja pistemäärän mukaan ja etsivät muotoja luokkahuoneesta.',
+      outcome: 'Kuukauden jälkeen oppilaat erottavat yli kymmenen geometristä muotoa ja osaavat kuvailla niiden ominaisuuksia käyttäen termejä kuten kulma, sivu ja symmetria.',
+    },
+    {
+      situation: 'Kotikouluvanhempi haluaa opettaa geometriaa esikoululaiselle, joka rakastaa rakentamista mutta ei pidä paperitehtävistä.',
+      solution: 'Vanhempi yhdistää muototyölehdet rakentamiseen: ensin tunnistetaan muodot työlehdellä, sitten rakennetaan ne palikoilla, ja lopuksi etsitään talosta esineitä, joissa näkyy sama muoto.',
+      outcome: 'Lapsi oppii muodot käytännön kautta ja alkaa nähdä geometriaa kaikkialla ympäristössään. Rakennusprojektit muuttuvat tietoisemmiksi muotojen käytössä.',
+    },
+  ],
+
+  quickStats: [
+    { label: 'Suositeltu ikähaarukka', value: '3–9 vuotta' },
+    { label: 'Työlehtisovellusten määrä', value: '12 sovellusta' },
+    { label: 'Opetussuunnitelman alueet', value: '4 aluetta' },
+    { label: 'Tuetut luokkatasot', value: 'Esiopetus–3. lk' },
+    { label: 'Keskimääräinen työskentelyaika', value: '10–20 min' },
+    { label: 'Geometristen muotojen kirjo', value: '15+ muotoa' },
+  ],
+
+  differentiationStrategies: [
+    {
+      learnerType: 'Visuaaliset oppijat',
+      adaptation: 'Painota muotojen tunnistamistehtäviä kuvista, symmetriatehtäviä ja muotomosaiikkeja. Muotojen piirtäminen ruudukkoon kehittää avaruudellista hahmotusta.',
+    },
+    {
+      learnerType: 'Kinesteettiset oppijat',
+      adaptation: 'Rakenna muotoja fyysisesti: taivuta piipunpuhdistajia muodoiksi, järjestä palikat geometrisiin ryhmiin ja muodosta keholla eri muotoja lattialla. Konkreettiset materiaalit tekevät abstrakteista muodoista käsin kosketeltavia.',
+    },
+    {
+      learnerType: 'S2-oppijat',
+      adaptation: 'Geometriset muodot ovat samoja kaikissa kielissä — ympyörä on ympyörä kaikkialla. Aloita muotojen tunnistamisesta kuvista ja lisää suomenkielisiä termejä asteittain. Muotojen piirtäminen ei vaadi kielellistä osaamista.',
+    },
+    {
+      learnerType: 'Edistyneet oppijat',
+      adaptation: 'Haasta kolmiulotteisilla muodoilla (kuutio, kartio, sylinteri) ja symmetrian tutkimisella. Muotojen yhdistäminen monimutkaisemmiksi kuvioiksi ja tessellaaatiotehtävät lisäävät matemaattista haastetta.',
+    },
+  ],
+
+  assessmentIdeas: [
+    {
+      method: 'Portfolioarviointi',
+      criteria: 'Kerää muotoaiheisia työlehtiä usean viikon ajalta. Vertaa muotosanaston laajuutta, tunnistamisen tarkkuutta ja muotojen ominaisuuksien kuvailun kehittymistä.',
+      gradeLevel: 'Kaikki luokka-asteet',
+    },
+    {
+      method: 'Muotojen etsintätehtävä',
+      criteria: 'Pyydä oppilasta etsimään luokkahuoneesta tai koulupihassta mahdollisimman monta eri muotoa ja piirtämään ne. Arvioi löydettyjen muotojen monipuolisuutta, nimeämisen tarkkuutta ja ominaisuuksien kuvailua.',
+      gradeLevel: 'Esiopetus–1. lk',
+    },
+    {
+      method: 'Muotojen luokittelutehtävä',
+      criteria: 'Anna oppilaalle valikoima muotoja ja pyydä luokittelemaan ne eri kriteerein: kulmien lukumäärä, sivujen pituudet, symmetria. Arvioi luokittelun johdonmukaisuutta ja käytettyjä perusteita.',
+      gradeLevel: '1.–3. lk',
+    },
+  ],
+
+  crossCurricularLinks: [
+    {
+      subject: 'Matematiikka (geometria)',
+      connection: 'Muototeema kytkeytyy suoraan POPS 2014:n matematiikan geometrian tavoitteisiin: muotojen tunnistaminen, ominaisuuksien vertailu, symmetria ja avaruudellinen hahmotus. Työlehdet konkretisoivat abstraktit geometriset käsitteet.',
+      activity: 'Muotojen lajittelutehtävän jälkeen oppilaat rakentavat palikoista rakennuksen ja laskevat, montako kutakin muotoa rakennuksessa on.',
+    },
+    {
+      subject: 'Kuvataide',
+      connection: 'Geometriset muodot ovat sommittelun perusta. Muototyölehdet harjoittavat muotojen piirtämistä ja yhdistelyjä, mikjä tukee taiteellista ilmaisua ja arkkitehtonista ajattelua.',
+      activity: 'Muotojen tunnistamistehtävän jälkeen oppilaat luovat abstraktin taideteoksen käyttäen vain geometrisia perusmuotoja.',
+    },
+    {
+      subject: 'Äidinkieli ja kirjallisuus',
+      connection: 'Muotosanasto (kulma, sivu, kärki, symmetria) laajentaa matemaattista kieltjä ja kehittää kykyä kuvailla esineitä tarkasti. Ohjeiden antaminen ja noudattaminen muotojen piirtämisessä harjoittaa ohjeistavaa tekstilajia.',
+      activity: 'Sanahakutehtävän jälkeen oppilaat kirjoittavat piirustustohjeen, jossa kuvaavat muodon niin tarkasti, että toinen oppilas voi piirtää sen pelkän kuvauksen perusteella.',
+    },
+  ],
+
+  uniqueAngle: 'Muotoaiheiset työlehdet ovat geometrisen ajattelun perusta, ja geometria on matemaattisen ajattelun laji, joka kehittää avaruudellista päättelyjä — taitoa, jota tarvitaan arkkitehtuurissa, suunnittelussa ja jokapjäiväisessä ongelmanratkaisussa. Muototyölehdet tekevät abstrakteista geometrisista käsitteistä konkreettisia, koska lapsi voi piirtää, leikata ja rakentaa muotoja fyysisesti. Suomalaisessa POPS 2014:ssä geometria alkaa jo esiopetuksesta muotojen tunnistamisella ja etenee ominaisuuksien vertailuun, symmetriaan ja avaruudelliseen hahmotukseen. Muotojen tunnistaminen ympäristössä — ikkunan suorakulmio, kellon ympyörä, katon kolmio — yhdistää matemaattisen ajattelun arkimaailmaan. Tämä arjen yhteys tekee geometriasta vjähemmän abstraktia ja motivoivampaa. Muototeema yhdistää luontevasti matematiikan, kuvataiteen ja teknologian, koska geometriset muodot ovat sekä matemaattisia objekteja että taiteellisen sommittelun peruselementtejä.',
+
+  researchCitation: 'Clements, D.H. & Sarama, J. (2011). Early Childhood Teacher Education: The Case of Geometry. Journal of Mathematics Teacher Education, 14(2), 133–148. Tutkimus osoitti, että varhainen geometrinen ajattelu ennustaa myöhempää matemaattista menestystä ja että konkreettiset muototehtävät kehittävät avaruudellista päättelyjä tehokkaasti.',
+
+  culturalNotes: 'Suomessa geometria on POPS 2014:n matematiikan keskeinen sisältöalue jo esiopetuksesta alkaen. Suomalainen arkkitehtuuri ja muotoilu (Alvar Aalto, Marimekko) tarjoavat kulttuurisesti relevantin kontekstin geometristen muotojen tutkimiseen. Luonnosta löytyvät muodot — lumihiutaleiden kuusikulmiot, käpyjen spiraalit — yhdistävät geometrian luonnontieteeseen.',
+
+  snippetDefinition: 'Muotoaiheiset työlehdet lapsille ovat tulostettavia oppimistehtäviä, jotka käyttävät geometrisia muotoja kuten ympyörää, neliötä, kolmiota ja suorakulmiota luokittelun, avaruudellisen ajattelun ja matemaattisen sanaston opettamiseen. Ne on suunniteltu 3–9-vuotiaille ja sisältävät tunnistamistehtäviä, lajittelupulmia, piirustustehtäviä ja symmetriaharjoituksia.',
+
+  snippetHowTo: [
+    'Aloita muotohavainnolla: pyydä lapsia etsimään luokkahuoneesta ympyöröitä, neliöitä ja kolmioita ennen työlehtitehtävää.',
+    'Valitse kaksi tai kolme työlehtityyppiä eri taitoalueille — esimerkiksi tunnistamistehtävä geometriaan, väritystehtävä hienomotoriikkaan ja sanahaku sanastoon.',
+    'Yhdistä työlehti konkreettiseen rakentamiseen: palikat, piipunpuhdistajat ja muotopalapelit tekevät geometriasta käsin kosketeltavaa.',
+    'Jaa työlehdet vaikeustason mukaan: aloita perusmuotojen tunnistamisesta ennen ominaisuuksien vertailua ja symmetriatehtäviä.',
+    'Kierrä lasten joukossa ja esitä avoimia kysymyksiä kuten Montako kulmaa tässä muodossa on tai Miten neliö eroaa suorakulmiosta.',
+    'Järjestä muotojen metsjästys koulupihalla: oppilaat kuvaavat tai piirtävät löytämiään muotoja ja esittelevät ne luokalle.',
+    'Kerää valmiit työlehdet portfoliokansioon ja seuratkaa muotosanaston ja geometrisen ajattelun kehittymistä.',
+  ],
+
+  limitations: 'Muototyölehdet keskittyvät tyypillisesti kaksiulotteisiin muotoihin, jolloin kolmiulotteinen ymmärrys jää vajaaksi. Opettajien tulee täydentää paperitehtäviä konkreettisilla kolmiulotteisilla malleilla. Tarkka piirtäminen voi olla motorisesti haastavaa pienille lapsille, joten piirtjämistehtävät tulee mitoittaa ikätasoisesti.',
+
+  themeComparisons: [
+    {
+      vsThemeId: 'numbers',
+      summary: 'Numerotyölehdet keskittyvät lukujen tunnistamiseen ja laskemiseen. Muototyölehdet keskittyvät avaruudelliseen ajatteluun ja geometriaan — yhdessä ne kattavat matematiikan kaksi perustavaa osa-aluetta.',
+    },
+    {
+      vsThemeId: 'colors',
+      summary: 'Värityölehdet tutkivat visuaalisia ominaisuuksia. Muototyölehdet tutkivat rakenteellisia ominaisuuksia — molemmat kehittävät havainnointitaitoja eri näkökulmista.',
+    },
+    {
+      vsThemeId: 'construction',
+      summary: 'Rakennusteematyölehdet käyttävät muotoja käytännöllisessä kontekstissa. Muototyölehdet opettavat geometrian peruskäsitteet, jotka mahdollistavat rakennusprojektien ymmärtämisen.',
+    },
+    {
+      vsThemeId: 'toys',
+      summary: 'Lelutyölehdet käyttävät tuttuja esineitä oppimiskontekstina. Muototyölehdet auttavat lasta näkemään lelujen geometriset perusrakenteet — pallon ympyörä, laatikon suorakulmio.',
+    },
+  ],
+
+  productLinks: [
+    {
+      appId: 'coloring',
+      anchorText: 'muotoaiheiset väritystehtävät',
+      context: 'Muotoaiheiset väritystehtävät yhdistävät geometrian tunnistamisen ja hienomotoriikan, kun lapset värittävät eri muotoja ja muotomosaiikkeja.',
+    },
+    {
+      appId: 'matching-app',
+      anchorText: 'muotojen yhdistämistehtävät',
+      context: 'Yhdistämistehtävät kehittävät visuaalista muistia ja luokittelutaitoja, kun lapset parittavat samanmuotoisia esineitä tai yhdistävät muodot niiden nimiin.',
+    },
+    {
+      appId: 'word-search',
+      anchorText: 'muotosanaston sanahaku-työlehdet',
+      context: 'Muotosanaston oppiminen sanahakutehtävissä, joissa lapset etsivät termejä kuten ympyörä, kolmio, suorakulmio ja symmetria sanaruudukosta.',
+    },
+    {
+      appId: 'sudoku',
+      anchorText: 'muotoaiheiset sudoku-pulmat',
+      context: 'Muotoaiheiset sudoku-pulmat kehittävät loogista päättelyjä, kun lapset sijoittavat geometrisia muotoja ruudukkoon loogisten sjääntöjen mukaisesti.',
+    },
+  ],
+
+  expertTips: [
+    {
+      tip: 'Rakenna luokkaan muotomuses: kerätkjää esineitä, jotka edustavat eri muotoja (CD = ympyörä, kirja = suorakulmio, kolmioviivain = kolmio) ja luokitelkaa ne yhdessä. Työlehdet saavat konkreettisen vastineen.',
+      source: 'Luokanopettaja, konkreettiset materiaalit',
+      gradeRange: 'Esiopetus–1. lk',
+    },
+    {
+      tip: 'Yhdistä muototyölehdet koodaamisen alkeisiin: oppilaat ohjelmoivat yksinkertaisen piirto-ohjelman piirtämään muotoja annetuilla parametreilla. Tämä yhdistää geometrian ja laskennallisen ajattelun.',
+      source: 'Tietotekniikkaopettaja, ohjelmointiajattelu',
+      gradeRange: '2.–3. lk',
+    },
+    {
+      tip: 'Käytä valokuvausprojektia: oppilaat kuvaavat koulussa ja kotona löytämiään muotoja ja kokoavat niistä muotokollaasin. Työlehdet tarjoavat sanaston ja luokittelukehyksen havainnointiin.',
+      source: 'Kuvataidekasvattaja, visuaalinen lukutaito',
+      gradeRange: '1.–3. lk',
+    },
+  ],
 };
 
 registerThemeContent('shapes', 'fi', content);

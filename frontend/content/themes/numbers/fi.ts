@@ -208,6 +208,165 @@ const content: EnrichedThemeContent = {
   // -- Cross-linking (IDENTICAL to English) --
   relatedThemes: ['alphabet', 'shapes', 'school', 'food', 'animals', 'toys'],
   relatedBlogCategories: [],
+
+  // -- SEO Enrichment (Part 181) --
+
+  classroomScenarios: [
+    {
+      situation: 'Ensimmäisen luokan opettaja huomaa, että osa oppilaista hallitsee luvut 1–10 mutta ei ymmärrä lukujen suuruusjärjestystä eikä paikka-arvon alkeitta.',
+      solution: 'Hän käyttää numeroaiheisia työlehtiä, joissa oppilaat järjestävät lukuja suuruusjärjestykseen, täyttävät lukujonoja ja laskevat esineitä kuvista vertaillen määriä toisiinsa.',
+      outcome: 'Kuukauden jälkeen oppilaat hallitsevat lukujonot 1–20, ymmärtävät suurempi ja pienempi -vertailun ja osaavat kirjoittaa lukuja oikeassa järjestyksessä.',
+    },
+    {
+      situation: 'Kotikouluvanhempi etsii tapaa tehdjä matematiikasta hauskempaa esikoululaiselle, joka pitää laskemista ikjävänä.',
+      solution: 'Vanhempi käyttää numeroaiheisia työlehtiä, joissa laskeminen yhdistyy värittämiseen (väritä oikea määrä), tarinaan (laske karhujen omenat) ja peliin (noppa ja lukusuoratehtävä).',
+      outcome: 'Lapsi alkaa laskea arjessa oma-aloitteisesti: portaita, karkkeja, lehtiä puistossa. Laskemisesta tulee leikkjä eikä tyjötä.',
+    },
+  ],
+
+  quickStats: [
+    { label: 'Suositeltu ikähaarukka', value: '3–9 vuotta' },
+    { label: 'Työlehtisovellusten määrä', value: '12 sovellusta' },
+    { label: 'Opetussuunnitelman alueet', value: '4 aluetta' },
+    { label: 'Tuetut luokkatasot', value: 'Esiopetus–3. lk' },
+    { label: 'Keskimääräinen työskentelyaika', value: '10–20 min' },
+    { label: 'Lukualueen kirjo', value: '1–100+' },
+  ],
+
+  differentiationStrategies: [
+    {
+      learnerType: 'Visuaaliset oppijat',
+      adaptation: 'Painota lukusuoratehtäviä, numeron ja määrän yhdistämistehtäviä sekä lukujen kirjoittamista pistemääräkorttien avulla. Visuaaliset lukuvertailut auttavat hahmottamaan suuruusjärjestystä.',
+    },
+    {
+      learnerType: 'Kinesteettiset oppijat',
+      adaptation: 'Yhdistä jokainen työlehti konkreettiseen laskemiseen: napnit, kivet tai legopalikat. Lattialle tapahtuvat lukusuoratehtävät, joissa lapsi hyppii oikeaan lukuun, tekevät laskemisesta liikunnallista.',
+    },
+    {
+      learnerType: 'S2-oppijat',
+      adaptation: 'Numerot ovat universaaleja symboleja — 1, 2, 3 tarkoittavat samaa kaikissa kielissä. Aloita lukujen tunnistamisesta ja määrien laskemisesta kuvista. Lisää suomenkielisiä lukusanoja asteittain yhdistäen ne tuttuihin numeroihin.',
+    },
+    {
+      learnerType: 'Edistyneet oppijat',
+      adaptation: 'Haasta laajennetulla lukualueella (100–1000), kertolaskun alkeilla ja lukujen hajottamistehtävillä. Matemaattiset palapelit ja loogiset päättelytehtävät lisäävät haastetta.',
+    },
+  ],
+
+  assessmentIdeas: [
+    {
+      method: 'Portfolioarviointi',
+      criteria: 'Kerää numerotyölehtiä usean viikon ajalta. Vertaa lukujen kirjoittamisen sujuvuutta, lukualueen laajuutta ja matemaattisten operaatioiden hallintaa ajan myötä.',
+      gradeLevel: 'Kaikki luokka-asteet',
+    },
+    {
+      method: 'Lukujonon täydennysarviointi',
+      criteria: 'Anna oppilaalle keskeneräinen lukujono ja pyydä täydentämään puuttuvat luvut. Varioi vaikeustasoa: 1–10 (esikoulu), 1–50 (1. lk), parillinen/pariton -sarjat (2. lk), kertolaskusarjat (3. lk).',
+      gradeLevel: 'Esiopetus–3. lk',
+    },
+    {
+      method: 'Laskemisen sujuvuustesti',
+      criteria: 'Mittaa, kuinka nopeasti ja tarkasti oppilas laskee esineitä kuvasta. Esikoululaisille 1–10 esinettä, ensimmäiselle luokalle 10–20 ja toiselle–kolmannelle luokalle suurempia määriä ryhmitellen.',
+      gradeLevel: 'Esiopetus–2. lk',
+    },
+  ],
+
+  crossCurricularLinks: [
+    {
+      subject: 'Matematiikka (luvut ja laskutoimitukset)',
+      connection: 'Numeroteema on POPS 2014:n matematiikan ytimessä: lukujen tunnistaminen, lukujonot, suuruusvertailu ja peruslaskutoimitukset. Numerotyölehdet konkretisoivat nämä tavoitteet monipuolisten harjoitusten kautta.',
+      activity: 'Lukujonojen täydennystehtävän jälkeen oppilaat pelaavat lukusuorapeliä, jossa nopanheitto määrää siirtymjän ja oppilas nimeää jokaisen luvun ääneeen.',
+    },
+    {
+      subject: 'Ympäristöoppi',
+      connection: 'Numerot ovat mittaamisen ja havainnoinnin perusta luonnontieteessä. Laskeminen luonnossa — eläinten jalanjälkien määrä, puun vuosirenkaiden lukumäärä — yhdistää matematiikan tieteelliseen ajatteluun.',
+      activity: 'Laskutehtävän jälkeen oppilaat menevjät ulos laskemaan luonnonkohteita: kukkia, lintuja tai pilviä ja kirjaavat tulokset.',
+    },
+    {
+      subject: 'Äidinkieli ja kirjallisuus',
+      connection: 'Lukusanat ovat kielen osa, ja niiden hallinta tukee laskutarinoiden ymmärtämistä ja kirjoittamista. Ohjeiden noudattaminen numerotehtävissä kehittää luetun ymmärtämistä.',
+      activity: 'Sanahaun jälkeen oppilaat kirjoittavat oman laskutarinan, jossa esiintyy vähintään kolme lukusanaa ja laskutoimitus.',
+    },
+  ],
+
+  uniqueAngle: 'Numeroaiheiset työlehdet ovat matemaattisen oppimisen perusta — kaikki myöhempi matematiikka rakentuu lukujen ymmärtämiselle. Tämä tekee numerotyölehdistä ehkä tärkeimmän yksittäisen teeman koko kokoelmassa. Suomalaisessa POPS 2014:ssä lukujen ymmärtäminen on matematiikan ensimmäinen ja keskeisimmin painotettu tavoitealue, ja numerotyölehdet tukevat tätä tavoitetta suoraan. Numeroteema on pedagogisesti monipuolinen: sama lukualue voidaan harjoitella laskemisena, järjestämisenä, vertailuna, kirjoittamisena ja pelien kautta, mikä mahdollistaa saman taidon vahvistamisen eri oppimistyylein. Konkreettisten esineiden laskeminen kuvista yhdistää visuaalisen havainnoinnin ja matemaattisen ajattelun, ja temaattiset kuvitukset (eläimet, hedelmät, tähdet) pitävät motivaation yllä myyös toistuvissa harjoituksissa. Numerotyölehtien asteittain kasvava vaikeustaaso — yksittjäisistä luvuista lukujonoihin, vertailuun ja laskutoimituksiin — tekee niistä koko alkuopetuksen kattavan oppimispolun.',
+
+  researchCitation: 'Jordan, N.C. et al. (2009). Early Math Matters: Kindergarten Number Competence and Later Mathematics Outcomes. Developmental Psychology, 45(3), 850–867. Tutkimus osoitti, että esiopetusikäisten lukujen ymmärtäminen ennustaa vahvasti myöhempää matemaattista menestystä ja että monipuoliset lukuharjoitukset kaventavat osaamiseroja.',
+
+  culturalNotes: 'Suomessa lukujen opettaminen alkaa esiopetuksessa ja etenee POPS 2014:n mukaan systemaattisesti. Suomalainen matemaattisen ajattelun painotus näkyy kansainvälisissjä vertailuissa: PISA-tulokset osoittavat suomalaisten lasten vahvan numeerisen perusosaamisen. Konkreettiset välineet ja arjen kontekstit ovat suomalaisen matematiikan opetuksen perusta.',
+
+  snippetDefinition: 'Numeroaiheiset työlehdet lapsille ovat tulostettavia oppimistehtäviä, jotka käyttävät lukujen tunnistamista, laskemista, vertailua ja peruslaskutoimituksia matemaattisen ajattelun kehittämiseen. Ne on suunniteltu 3–9-vuotiaille ja sisältävät lukujonoja, laskutehtäviä, numeron ja määrän yhdistämisharjoituksia ja matemaattisia pulmia.',
+
+  snippetHowTo: [
+    'Aloita konkreettisella laskemisella: laske yhdessä lasten kanssa luokkahuoneen esineitä ennen työlehden aloittamista.',
+    'Valitse kaksi tai kolme työlehtityyppiä eri taitoalueille — esimerkiksi lukujonoharjoitus, laskutehtävä kuvilla ja määrän ja numeron yhdistämistehtävä.',
+    'Tarjoa konkreettisia välineitä (nappeja, legopaloja) laskemisen tueksi ennen siirtymistä puhtaasti kuvallisiin tehtäviin.',
+    'Jaa työlehdet vaikeustason mukaan: aloita lukujen tunnistamisesta ennen lukujonoja, vertailua ja laskutoimituksia.',
+    'Kierrä lasten joukossa ja esitä avoimia kysymyksiä kuten Kumpi on enemmän tai Mitä luku tulee viiden jälkeen.',
+    'Yhdistä numerotehtävät arkeen: laske portaita, hedelmiä välipalapjöydässä tai oppilaita ryhmässä.',
+    'Kerää valmiit työlehdet portfoliokansioon ja seuratkaa lukualueen laajenemista ja laskutaidon kehittymistä.',
+  ],
+
+  limitations: 'Numerotyölehdet voivat painottua mekaaniseen toistoon, jolloin ymmärrys jää pinnalliseksi. Opettajien tulee varmistaa, että lapset ymmärtävät lukujen merkityksen eikä vain toista symboleja. Abstraktit numerosymbolit voivat olla haastavia pienimmille lapsille — konkreettiset välineet ja kuvat ovat välttämättömiä tukia.',
+
+  themeComparisons: [
+    {
+      vsThemeId: 'alphabet',
+      summary: 'Aakkostyölehdet opettavat kielen symbolijärjestelmän. Numerotyölehdet opettavat matematiikan symbolijärjestelmän — yhdessä ne kattavat kouluvalmiuden kaksi perustavinta taitoa.',
+    },
+    {
+      vsThemeId: 'shapes',
+      summary: 'Muototyölehdet keskittyvät avaruudelliseen ajatteluun. Numerotyölehdet keskittyvät numeeriseen ajatteluun — molemmat ovat matematiikan keskeisiä osa-alueita, jotka tukevat toisiaan.',
+    },
+    {
+      vsThemeId: 'school',
+      summary: 'Koulutyölehdet kattavat laajasti kouluaineita ja -taitoja. Numerotyölehdet syventyvät yhteen aineeseen ja tarjoavat systemaattisen harjoituspolun lukujen ymmärtämiseen.',
+    },
+    {
+      vsThemeId: 'animals',
+      summary: 'Eläintyölehdet käyttävät eläimiä oppimiskontekstina. Numerotyölehdet voivat käyttää eläimiä laskukuvituksena, mutta niiden pääfokus on matemaattisen ajattelun kehittämisessä.',
+    },
+  ],
+
+  productLinks: [
+    {
+      appId: 'coloring',
+      anchorText: 'numeroaiheiset väritystehtävät',
+      context: 'Väritä numeron mukaan -tehtävät yhdistävät lukujen tunnistamisen ja hienomotoriikan, kun lapset värittävät alueet oikean numeron osoittamalla värillä.',
+    },
+    {
+      appId: 'find-and-count',
+      anchorText: 'esineiden laskutehtävät',
+      context: 'Laskutehtävät kehittävät numeerista sujuvuutta, kun lapset etsivät ja laskevat esineitä monipuolisista kohtauskuvista yhdistäen visuaalisen etsinnän ja aritmetiikan.',
+    },
+    {
+      appId: 'math-worksheet',
+      anchorText: 'matemaattiset laskutyölehdet',
+      context: 'Laskutyölehdet tarjoavat systemaattista harjoitusta yhteen- ja vähennyslaskussa, kertotauluissa ja lukujonoissa eri vaikeustasoilla.',
+    },
+    {
+      appId: 'sudoku',
+      anchorText: 'numerosudoku-pulmat',
+      context: 'Sudoku-pulmat kehittävät loogista päättelyjä ja numerotuntemusta, kun lapset sijoittavat lukuja ruudukkoon loogisten sjääntöjen mukaisesti.',
+    },
+  ],
+
+  expertTips: [
+    {
+      tip: 'Käytä kymmenen kehyksijä (ten frames) konkreettisena välineenä jokaisen numerotehtävän rinnalla. Ne auttavat lasta ymmärtämään lukujen rakenteen ja viiden ja kymmenen suhteen intuitiivisesti.',
+      source: 'Matematiikan didaktikko, lukukäsitteen kehitys',
+      gradeRange: 'Esiopetus–1. lk',
+    },
+    {
+      tip: 'Yhdistä numerotyölehdet päivittäisiin rutiineihin: laske oppilaiden määrä, kalenterin päivänumero ja lounasjonossa olevat. Tämä tekee luvuista arjen työkaluja.',
+      source: 'Luokanopettaja, arjen matematiikka',
+      gradeRange: 'Esiopetus–2. lk',
+    },
+    {
+      tip: 'Anna lasten keksiä omia laskutarinoita työlehtien teemoista: Jos pihalla on viisi lintua ja kolme lentää pois, monta jää. Tämä kehittää matemaattista ajattelua ja kielellistä ilmaisua.',
+      source: 'Alkuopetuksen asiantuntija, laskutarinat',
+      gradeRange: '1.–3. lk',
+    },
+  ],
 };
 
 registerThemeContent('numbers', 'fi', content);

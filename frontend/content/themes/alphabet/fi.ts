@@ -207,6 +207,165 @@ const content: EnrichedThemeContent = {
   // -- Cross-linking (IDENTICAL to English) --
   relatedThemes: ['numbers', 'school', 'animals', 'pets', 'food', 'colors'],
   relatedBlogCategories: [],
+
+  // -- SEO Enrichment (Part 181) --
+
+  classroomScenarios: [
+    {
+      situation: 'Esiopetusryhmän opettaja huomaa, että osa lapsista tunnistaa kirjaimet mutta ei yhdistä niitä äänteisiin, mikä hidastaa lukemaan oppimista.',
+      solution: 'Hän käyttää aakkosaiheisia työlehtiä, joissa jokainen kirjain yhdistetään sanaan ja kuvaan (Ä = äiti, K = kissa). Kirjainten jäljentämistehtävät yhdistyvät ääntämisharjoituksiin.',
+      outcome: 'Kuukauden jälkeen lapset tunnistavat kaikki aakkosten kirjaimet ja osaavat yhdistää ne vastaaviin äänteisiin. Ensimmäiset tavut alkavat syntyä kirjain–äänne-yhteyden vahvistuttua.',
+    },
+    {
+      situation: 'Kotikouluvanhempi haluaa opettaa viisivuotiaan kirjoittamaan nimensä, mutta lapsi turhautuu tarkkaan piirtämiseen.',
+      solution: 'Vanhempi käyttää aakkostyölehtiä, joissa kirjainten jäljentäminen etenee asteittain: ensin sormiharjoitus, sitten paksu kynä, lopuksi normaali kynä. Väritystehtävät, joissa kirjain on osa kuvaa, tekevät harjoittelusta hauskaa.',
+      outcome: 'Lapsi kirjoittaa nimensä itsenäisesti kahden viikon kuluttua. Hienomotoriikka kehittyy ja turhautuminen vähenee, koska tehtävät etenevjät pienin askelin.',
+    },
+  ],
+
+  quickStats: [
+    { label: 'Suositeltu ikähaarukka', value: '3–9 vuotta' },
+    { label: 'Työlehtisovellusten määrä', value: '12 sovellusta' },
+    { label: 'Opetussuunnitelman alueet', value: '4 aluetta' },
+    { label: 'Tuetut luokkatasot', value: 'Esiopetus–3. lk' },
+    { label: 'Keskimääräinen työskentelyaika', value: '10–20 min' },
+    { label: 'Kirjainten kirjo', value: '29 kirjainta (Å, Ä, Ö)' },
+  ],
+
+  differentiationStrategies: [
+    {
+      learnerType: 'Visuaaliset oppijat',
+      adaptation: 'Painota kirjain–kuva-yhdistämistehtäviä ja kirjainten visuaalista vertailua (b vs. d, p vs. q). Värikoodatut vokaalit ja konsonantit auttavat hahmottamaan kirjainryhmiä.',
+    },
+    {
+      learnerType: 'Kinesteettiset oppijat',
+      adaptation: 'Muotoile kirjaimia savesta, piirrä niitä hiekkaan tai kirjoita ilmaan suurin liikkein ennen paperitehtävää. Kirjainjahti luokkahuoneessa yhdistää liikkumisen ja kirjainten tunnistamisen.',
+    },
+    {
+      learnerType: 'S2-oppijat',
+      adaptation: 'Suomen kirjaimisto on lähes identtinen monien kielten kanssa, mikä helpottaa aloitusta. Erikoiskirjaimet Å, Ä ja Ö vaativat erityishuomiota. Kirjain–kuva-kortit, joissa kuva selittää sanan ilman kjäännöstä, tukevat oppimista.',
+    },
+    {
+      learnerType: 'Edistyneet oppijat',
+      adaptation: 'Haasta tavuttamistehtävillä, sanojen muodostamisella kirjaimista ja ristikkoharjoituksilla. Kirjainten äänne-arvon syvempi tutkiminen (pitkä vs. lyhyt vokaali, kaksoiskonsonantti) tarjoaa kielellistä haastetta.',
+    },
+  ],
+
+  assessmentIdeas: [
+    {
+      method: 'Portfolioarviointi',
+      criteria: 'Kerää aakkostyölehtiä usean kuukauden ajalta. Vertaa kirjainten tunnistamisen laajuutta, jäljentämisen tarkkuutta ja äänne–kirjain-yhteyden hallintaa.',
+      gradeLevel: 'Kaikki luokka-asteet',
+    },
+    {
+      method: 'Kirjainten tunnistustesti',
+      criteria: 'Näytä oppilaalle kirjaimia satunnaisessa järjestyksessä ja pyydä nimeämään jokainen. Arvioi tunnistamisen nopeutta, tarkkuutta ja erityisesti suomen erikoiskirjainten (Å, Ä, Ö) hallintaa.',
+      gradeLevel: 'Esiopetus–1. lk',
+    },
+    {
+      method: 'Sananelimistehtävä',
+      criteria: 'Pyydä oppilasta kuuntelemaan sanan alkjäänne ja valitsemaan oikea kirjain. Laajenna: kirjoita sana kuulemasi perusteella. Arvioi äänne–kirjain-vastaavuutta ja kirjoittamisen sujuvuutta.',
+      gradeLevel: '1.–2. lk',
+    },
+  ],
+
+  crossCurricularLinks: [
+    {
+      subject: 'Äidinkieli ja kirjallisuus',
+      connection: 'Aakkoseteema on äidinkielen opetuksen perusta: POPS 2014 korostaa kirjain–äänne-vastaavuutta, lukemaan oppimista ja kirjoittamisen alkeitta. Aakkostyölehdet tukevat suoraan näitä tavoitteita.',
+      activity: 'Kirjainten jäljentämistehtävän jälkeen oppilaat kirjoittavat omia sanoja, jotka alkavat opitulla kirjaimella, ja piirtävät niihin kuvat.',
+    },
+    {
+      subject: 'Kuvataide',
+      connection: 'Kirjainten muotoilu yhdistää hienomotoriikan ja visuaalisen ilmaisun. Kirjainten koristelu, kirjaintaide ja typografian alkeet kehittävät sekä kirjoitustaitoa että taiteellista näkemäystä.',
+      activity: 'Aakkos-sanahakutehtävän jälkeen oppilaat suunnittelevat ja koristelevat oman nimensä alkukirjaimen taideteokseksi.',
+    },
+    {
+      subject: 'Musiikki',
+      connection: 'Aakkoslaulut ja riimittelyleikit yhdistävät äänteiden opettelun rytmiin ja melodiaan. Suomalainen aakkosjlaulu on tuttu aloituspiste, josta voidaan edetjä äänneharjoituksiin.',
+      activity: 'Kirjaintehtävän jälkeen oppilaat keksivät riimin opitulle kirjaimelle ja esittävät sen luokalle.',
+    },
+  ],
+
+  uniqueAngle: 'Aakkosaiheiset työlehdet ovat lukutaidon perusta — ilman kirjainten tuntemusta lukeminen ja kirjoittaminen eivät ole mahdollisia. Tämä tekee aakkostyölehdistä ehkä koko kokoelman tärkeimmän teeman yhdessä numeroiden kanssa, koska ne rakentavat kouluvalmiuden kaksi perustavinta taitoa. Suomen kieli on fonologisesti läpinäkyvä: jokainen kirjain vastaa lähes aina yhtä äännettä, mikä tekee suomen aakkosista erityisen tehokkaan lukemaan opettamisen välineen. POPS 2014 korostaa kirjain–äänne-vastaavuutta lukutaidon perustana, ja suomalainen alkuopetus on tunnettu nopeasta lukemaan oppimisesta. Suomen 29 kirjainta sisältävät erikoiskirjaimet Å, Ä ja Ö, jotka ovat olennainen osa suomalaista identiteettiä ja erottavat suomen aakkoset useimmista muista kielistjä. Aakkostyölehdet yhdistävät hienomotoriikan kehittjämisen, visuaalisen tunnistamisen ja äännetietoisuuden yhdeksi kokonaisuudeksi, joka on suunniteltu tukemaan luonnollista lukemaan oppimisen prosessia.',
+
+  researchCitation: 'Lerkkanen, M.-K. et al. (2004). Development of Reading Skills Among Preschool and Primary School Pupils. Reading Research Quarterly, 39(1), 72–93. Suomalainen tutkimus osoitti, että kirjain–äänne-vastaavuuden varhainen hallinta ennustaa vahvasti lukutaidon kehittymistä ja että monipuoliset kirjainharjoitukset nopeuttavat lukemaan oppimista.',
+
+  culturalNotes: 'Suomi on kansainvälisesti tunnettu nopeasta ja tehokkaasta lukemaan oppimisesta, mikä johtuu suurelta osin kielen fonologisesta läpinäkyvyydestä. POPS 2014 korostaa kirjain–äänne-vastaavuutta ja lukemisen sujuvuutta. Suomen 29 kirjainta sisältävät Å:n, Ä:n ja Ö:n, jotka ovat kulttuurisesti merkittäviä ja erottavat suomen aakkoset kansainvälisestä standardista.',
+
+  snippetDefinition: 'Aakkosaiheiset työlehdet lapsille ovat tulostettavia oppimistehtäviä, jotka käyttävät kirjainten tunnistamista, jäljentämistä ja äänne–kirjain-yhteyden harjoittelua lukutaidon perustan rakentamiseen. Ne on suunniteltu 3–9-vuotiaille ja sisältävät kirjainten kirjoitusharjoituksia, sanahakuja, yhdistämistehtäviä ja aakkospulmia.',
+
+  snippetHowTo: [
+    'Valitse viikon kirjain tai kirjainryhmä ja kokoa siihen liittyvät työlehdet yhtenäiseksi kokonaisuudeksi.',
+    'Valitse kaksi tai kolme työlehtityyppiä eri taitoalueille — esimerkiksi jäljentämistehtävä hienomotoriikkaan, sanahaku sanastoon ja yhdistämistehtävä äännetietoisuuteen.',
+    'Aloita äänneharjoituksella: kuunnelkaa yhdessä, mitä äännettä kirjain vastaa, ja etsikää luokasta esineitä, jotka alkavat sillä äänteellä.',
+    'Jaa työlehdet vaikeustason mukaan: aloita kirjaimen tunnistamisesta ennen jäljentämistä, sanojen muodostamista ja kirjoittamista.',
+    'Kierrä lasten joukossa ja esitä avoimia kysymyksiä kuten Mikä sana alkaa kirjaimella K tai Kuuletko tämän kirjaimen sanassa koira.',
+    'Yhdistä työlehti moniaistiseen harjoitukseen: kirjoita kirjain hiekkaan, muotoile savesta, piirrä ilmaan ja lopuksi kirjoita paperille.',
+    'Kerää valmiit työlehdet portfoliokansioon ja seuratkaa kirjainten tunnistamisen, jäljentämisen ja äännetietoisuuden kehittymistä.',
+  ],
+
+  limitations: 'Aakkostyölehdet voivat painottua mekaaniseen jäljentämiseen, jolloin äänne-ymmärrys jää pinnalliseksi. Opettajien tulee aina yhdistää kirjoittaminen ääntämiseen. Kirjainten muotoilu vaatii hienomotoriikkaa, joka kehittyy eri tahtiin eri lapsilla — turhautuminen on yleistä ja se tulee kohdata kärsivällisesti. Vasenkjätisillä lapsilla kirjoitusasento vaatii erityishuomiota.',
+
+  themeComparisons: [
+    {
+      vsThemeId: 'numbers',
+      summary: 'Numerotyölehdet opettavat matematiikan symbolijärjestelmän. Aakkostyölehdet opettavat kielen symbolijärjestelmän — yhdessä ne muodostavat kouluvalmiuden perustan.',
+    },
+    {
+      vsThemeId: 'school',
+      summary: 'Koulutyölehdet kattavat laajasti kouluaineita. Aakkostyölehdet syventyvät yhteen keskeiseen taitoon — lukutaidon perustaan — ja tarjoavat systemaattisen harjoituspolun.',
+    },
+    {
+      vsThemeId: 'animals',
+      summary: 'Eläintyölehdet käyttävät eläimiä oppimiskontekstina. Aakkostyölehdet käyttävät usein eläinkuvia kirjainten yhteydessä (Ä = äiti, K = kissa), yhdistäen molemmat teemat.',
+    },
+    {
+      vsThemeId: 'colors',
+      summary: 'Värityölehdet opettavat visuaalista luokittelua. Aakkostyölehdet opettavat kielellistä luokittelua — molemmat rakentavat perustavanlaatuisia kognitiivisia taitoja.',
+    },
+  ],
+
+  productLinks: [
+    {
+      appId: 'coloring',
+      anchorText: 'aakkosaiheiset väritystehtävät',
+      context: 'Aakkosaiheiset väritystehtävät yhdistävät kirjainten tunnistamisen ja hienomotoriikan, kun lapset värittävät kirjainkuvia ja kirjaimiin liittyviä esineitä.',
+    },
+    {
+      appId: 'word-search',
+      anchorText: 'aakkossanaston sanahaku-työlehdet',
+      context: 'Sanahakutehtävät vahvistavat kirjainten tunnistamista sanojen kontekstissa, kun lapset etsivät kirjaimilla alkavia sanoja sanaruudukosta.',
+    },
+    {
+      appId: 'alphabet-train',
+      anchorText: 'aakkosjuna-työlehdet',
+      context: 'Aakkosjunatehtävät opettavat aakkosjärjestystä leikkisällä tavalla, kun lapset järjestävät kirjaimia junan vaunuihin oikeaan järjestykseen.',
+    },
+    {
+      appId: 'writing-app',
+      anchorText: 'kirjainten kirjoitusharjoitukset',
+      context: 'Kirjoitusharjoitukset kehittävät hienomotoriikkaa ja kirjainten muotoilua, kun lapset jäljentävät kirjaimia oikeassa viivajärjestyksessä.',
+    },
+  ],
+
+  expertTips: [
+    {
+      tip: 'Opeta kirjaimet ryhmissä äänneominaisuuksien mukaan (vokaalit ensin, sitten yleisimmät konsonantit) eikjä aakkosjärjestyksessä. Tämä mahdollistaa sanojen muodostamisen jo varhain ja pitää motivaation yllä.',
+      source: 'Lukemisen erityisopettaja, fonologinen tietoisuus',
+      gradeRange: 'Esiopetus–1. lk',
+    },
+    {
+      tip: 'Yhdistä jokainen kirjaintyölehti moniaistiseen harjoitukseen: näe kirjain (kortti), kuule äänne (opettaja), tunne muoto (hiekka tai savi), sano äänne (itse). Neljän aistin yhtäaikainen aktivointi vahvistaa muistijälkeä.',
+      source: 'Neuropsykologi, moniaistinen oppiminen',
+      gradeRange: 'Esiopetus–1. lk',
+    },
+    {
+      tip: 'Käytä aakkostyölehtiä eräänlaaisena diagnostisena välineenä: tarkkaile, mitkä kirjaimet tuottavat vaikeuksia (b/d, p/q -sekaannukset) ja kohdista harjoittelu niihin. Varhainen tunnistaminen ehkäisee lukivaikeuksia.',
+      source: 'Erityisopettaja, lukivaikeuksien ehkäisy',
+      gradeRange: 'Esiopetus–2. lk',
+    },
+  ],
 };
 
 registerThemeContent('alphabet', 'fi', content);

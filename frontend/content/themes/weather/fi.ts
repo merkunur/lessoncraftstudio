@@ -206,6 +206,165 @@ const content: EnrichedThemeContent = {
   // -- Cross-linking --
   relatedThemes: ['seasons', 'nature', 'winter', 'spring', 'summer', 'ocean', 'flowers'],
   relatedBlogCategories: [],
+
+  // -- SEO Enrichment (Part 181) --
+
+  classroomScenarios: [
+    {
+      situation: 'Esiopetusryhmän opettaja huomaa, että lapset käyttävät vain sanoja kylmä ja lämmin kuvaamaan säätä, eivätkä osaa erotella sääilmiöitä tarkemmin.',
+      solution: 'Hän ottaa käyttöön sääaiheiset työlehdet, joissa lapset yhdistävät sääsymbolit oikeisiin sääkuvauksiin, lajittelevat säävaatteita ja pitävät kuvallista sääpäiväkirjaa viikon ajan.',
+      outcome: 'Kolmen viikon jälkeen lapset käyttävät monipuolista sääsanastoa kuten tihkusade, lumipyry, selkeä ja pilvinen. He alkavat tehdjä omia sääennusteita aamun taivaan perusteella.',
+    },
+    {
+      situation: 'Kotikouluvanhempi etsii tapaa yhdistää luonnontiede ja matematiikka kolmasluokkalaiselle, joka pitää tilastoja tyljänä.',
+      solution: 'Vanhempi käyttää sääaiheisia työlehtiä, joissa lapsi mittaa lämpötilaa joka päivä, piirtää diagrammeja sademjääristä ja vertailee eri kuukausien säädataa.',
+      outcome: 'Lapsi innostuu datankäsittelystä, koska hän kerää oman datansa oikeista havainnoista. Kuukauden sisällä hän osaa lukea ja piirtää pylväsdiagrammeja ja laskea keskimääriä.',
+    },
+  ],
+
+  quickStats: [
+    { label: 'Suositeltu ikähaarukka', value: '3–9 vuotta' },
+    { label: 'Työlehtisovellusten määrä', value: '10 sovellusta' },
+    { label: 'Opetussuunnitelman alueet', value: '4 aluetta' },
+    { label: 'Tuetut luokkatasot', value: 'Esiopetus–3. lk' },
+    { label: 'Keskimääräinen työskentelyaika', value: '10–20 min' },
+    { label: 'Sääilmiöiden kirjo', value: '15+ ilmiötä' },
+  ],
+
+  differentiationStrategies: [
+    {
+      learnerType: 'Visuaaliset oppijat',
+      adaptation: 'Painota sääsymbolikortteja ja sääkarttatehtäviä, joissa sääilmiöt esitetään kuvallisesti. Diagrammien piirtäminen säädatasta yhdistää visuaalisen esityksen tieteelliseen ajatteluun.',
+    },
+    {
+      learnerType: 'Kinesteettiset oppijat',
+      adaptation: 'Vie oppilaat ulos mittaamaan säätä oikeasti: lämpömittari, sademittari ja tuuliviiri tekevät säähavainnoista konkreettisia. Työlehdet täydennetään oikeilla mittaustuloksilla.',
+    },
+    {
+      learnerType: 'S2-oppijat',
+      adaptation: 'Sää on universaali kokemus — jokainen lapsi tuntee sateen, auringonpaisteen ja tuulen. Aloita sääsymbolien tunnistamisesta ja lisää suomenkielistä sääsanastoa asteittain. Kuvitetut sääkortit helpottavat sanaston rakentamista.',
+    },
+    {
+      learnerType: 'Edistyneet oppijat',
+      adaptation: 'Haasta säädatan analyysillä: keskimääräiset lämpötilat, sademäärävertailut ja sääennusteiden tarkkuuden seuranta. Ilmastonmuutoksen perusselitykset tuovat tieteellistä syvyyttä.',
+    },
+  ],
+
+  assessmentIdeas: [
+    {
+      method: 'Portfolioarviointi',
+      criteria: 'Kerää sääaiheisia työlehtiä usean viikon ajalta. Vertaa sääsanaston laajuutta, mittaustulosten tarkkuutta ja kykyä selittää sääilmiöiden syitä.',
+      gradeLevel: 'Kaikki luokka-asteet',
+    },
+    {
+      method: 'Sääpäiväkirja-arviointi',
+      criteria: 'Oppilas pitää kahden viikon ajan sääpäiväkirjaa, johon hän merkitsee säätilan, lämpötilan ja omat havainnot. Arvioi havaintojen tarkkuutta, sanaston monipuolisuutta ja datan esittjämistä.',
+      gradeLevel: '1.–3. lk',
+    },
+    {
+      method: 'Sääennusteleikki',
+      criteria: 'Pyydä oppilasta ennustamaan huomisen sää perustellen ennusteensa tänään nähdyillä merkeillä. Arvioi päättelytaitoja, sääsanaston käyttöä ja perustelujen loogisuutta.',
+      gradeLevel: 'Esiopetus–2. lk',
+    },
+  ],
+
+  crossCurricularLinks: [
+    {
+      subject: 'Ympäristöoppi (sää ja ilmasto)',
+      connection: 'Sääteema kytkeytyy POPS 2014:n ympäristöopin tavoitteisiin sääilmiöiden havainnoinnista, mittaamisesta ja selittämisestä. Säätyölehdet kehittävät tutkivaa oppimista konkreettisten havaintojen kautta.',
+      activity: 'Sääsymbolitehtävän jälkeen oppilaat perustavat luokan sääaseman: mittaavat lämpötilaa, sadetta ja tuulen suuntaa päivittäin ja kirjaavat tulokset yhteiseen taulukkoon.',
+    },
+    {
+      subject: 'Matematiikka',
+      connection: 'Säädata tarjoaa autenttisen kontekstin mittaamiselle, taulukoimiselle ja diagrammien piirtämiselle. Lämpötilaerot ja sademjäärävertailut harjoittavat laskutoimituksia todellisella datalla.',
+      activity: 'Lämpötilamittausviikon jälkeen oppilaat piirtävät viivakuvaajan ja laskevat viikon keskimääräisen lämpötilan.',
+    },
+    {
+      subject: 'Äidinkieli ja kirjallisuus',
+      connection: 'Sääteema rikastaa kuvailevaa kieltjä: aistihavainnot tuulesta, sateesta ja auringonpaisteesta kehittävät adjektiivien ja vertailumuotojen käyttöä.',
+      activity: 'Sanahaun jälkeen oppilaat kirjoittavat säärunon, jossa jokainen säe kuvaa eri sääilmiötä aistihavaintojen kautta.',
+    },
+  ],
+
+  uniqueAngle: 'Sääaiheiset työlehdet ovat pedagogisesti erityisen arvokkaita, koska sää on luonnontieteen ainoa aihe, jonka jokainen lapsi kokee joka päivä omakohtaisesti. Tämä arkipäiväinen kokemus tekee säästä ihanteellisen tieteellisen ajattelun lähtökohdan: lapsi voi heti yhdistää työlehden sisällön omiin havaintoihinsa. Suomessa sää on erityisen monipuolinen oppimisteema, koska säävaihtelut ovat dramaattisia: kesjän helteestä talven paukkupakkasiin, syksyn myrskystä kevään sulamisen. POPS 2014:n ympäristöoppi korostaa sääilmiöiden havainnointia ja mittaamista, ja säätyölehdet tukevat tätä tutkivan oppimisen lähestymistapaa konkreettisesti. Sääteema yhdistää luontevasti luonnontieteen ja matematiikan: lämpötilamittaukset, sademjäärätilastot ja tuulisuunnan kirjaaminen ovat samalla sekä tieteellisiä havaintoja että matemaattisia harjoituksia. Datan kerääminen, taulukoiminen ja diagrammien piirtäminen kehittävät tilastollista ajattelua luonnollisessa kontekstissa.',
+
+  researchCitation: 'Ahi, B. (2017). Thinking about Meteorological Events in Kindergarten: A Study of Turkish Preschool Children’s Conceptual Understanding of Weather. Early Childhood Education Journal, 45(5), 607–617. Tutkimus osoitti, että konkreettiset säähavainnot ja -tehtävät parantavat esiopetusikäisten lasten tieteellisä ymmärrystä sääilmiöistä merkittävästi.',
+
+  culturalNotes: 'Suomessa sää on päivittäisen keskustelun aihe, ja suomalaisilla on rikas sääsanasto (nuoska, loska, räntä, puuteri). POPS 2014:n ympäristöoppi korostaa säähavaintojen tekemistä ja luonnonilmiöiden ymmärtämistä. Suomen sääpalvelu Ilmatieteen laitos on kansainvälisesti tunnustettu, ja sääennusteiden seuraaminen on osa suomalaista arkea.',
+
+  snippetDefinition: 'Sääaiheiset työlehdet lapsille ovat tulostettavia oppimistehtäviä, jotka käyttävät sadetta, aurinkoa, lunta, tuulta ja muita sääilmiöitä matematiikan, lukutaidon ja luonnontieteen opettamiseen. Ne on suunniteltu 3–9-vuotiaille ja sisältävät mittaustehtäviä, sanahakuja, sääsymbolien tunnistamista ja väritystehtäviä.',
+
+  snippetHowTo: [
+    'Aloita päivä säähavainnolla: katso ikkunasta yhdessä lasten kanssa ja kirjaa senhetkinen säätila ennen työlehden aloittamista.',
+    'Valitse kaksi tai kolme työlehtityyppiä eri taitoalueille — esimerkiksi mittaustehtävä matematiikkaan, sanahaku sanastoon ja sääsymbolitehtävä luokitteluun.',
+    'Yhdistä työlehdet oikeisiin mittauksiin: lämpömittarin lukeminen, sademittarin tarkistaminen ja tuulen suunnan havainnointi tekevät oppimisesta konkreettista.',
+    'Jaa työlehdet vaikeustason mukaan: aloita sääsymbolien tunnistamisesta ennen mittaamista ja datan analysointia.',
+    'Kierrä lasten joukossa ja esitä avoimia kysymyksiä kuten Miksi sataa tänään tai Miten teidän säähuomenne eroaa eilisestä.',
+    'Pidä viikon mittainen sääseurantajakso, jonka lopussa oppilaat piirtävät yhteenvetokuvaajan tuloksistaan.',
+    'Kerää valmiit työlehdet portfoliokansioon ja seuratkaa sääsanaston ja tieteellisen ajattelun kehittymistä.',
+  ],
+
+  limitations: 'Säätyölehdet voivat yksinkertaistaa monimutkaisia ilmastotieteellisiä ilmiöitä liikaa. Opettajien tulee erottaa sää ja ilmasto käsitteellisesti. Ulkohavainnot vaativat sopivia olosuhteita ja varusteita. Ilmastonmuutos voi olla ahdistava aihe pienille lapsille, joten se tulee käsitellä ikätasoisesti ja toiveikkaasti.',
+
+  themeComparisons: [
+    {
+      vsThemeId: 'seasons',
+      summary: 'Vuodenaikatyölehdet tutkivat vuoden sykliä kokonaisuutena. Säätyölehdet keskittyvät yksittäisiin sääilmiöihin ja niiden mittaamiseen päiväkohtaisella tarkkuudella.',
+    },
+    {
+      vsThemeId: 'nature',
+      summary: 'Luontotyölehdet tutkivat eläimiä ja kasveja. Säätyölehdet tutkivat ilmakehän ilmiöitä, jotka vaikuttavat luontoon — ne yhdistyvät luontevasti pohdittaessa sään vaikutusta eläimiin ja kasveihin.',
+    },
+    {
+      vsThemeId: 'winter',
+      summary: 'Talvityölehdet keskittyvät yhden vuodenajan kokemuksiin. Säätyölehdet kattavat kaikki sääilmiöt läpi vuoden, mahdollistaen vertailun eri vuodenaikojen säätyyppien välillä.',
+    },
+    {
+      vsThemeId: 'ocean',
+      summary: 'Meriteematyölehdet tutkivat vesimaailmaa. Säätyölehdet tutkivat ilmakehän ilmiöitä, ja molemmat yhdistyvät vesikierron kautta: meri haihduttaa, pilvet muodostuvat ja sade palaa.',
+    },
+  ],
+
+  productLinks: [
+    {
+      appId: 'coloring',
+      anchorText: 'sääaiheiset väritystehtävät',
+      context: 'Sääaiheiset väritystehtävät esittelevät eri säätiloja kuten aurinkoista päivää, sadesjäätä ja lumimyrskyjä, kehittäen hienomotoriikkaa ja sääsanastoa.',
+    },
+    {
+      appId: 'draw-and-color',
+      anchorText: 'sääilmiöiden piirustustehtävät',
+      context: 'Piirustus- ja väritystehtävät antavat lasten piirtää omia sääkohtauksia, vahvistaen visuaalista sääsanaston muistamista luovan ilmaisun kautta.',
+    },
+    {
+      appId: 'word-search',
+      anchorText: 'sääsanaston sanahaku-työlehdet',
+      context: 'Sääsanaston oppiminen sanahakutehtävissä, joissa lapset etsivät termejä kuten ukkonen, huurre, tihkusade ja helle sanaruudukosta.',
+    },
+    {
+      appId: 'matching-app',
+      anchorText: 'sääsymbolien yhdistämistehtävät',
+      context: 'Yhdistämistehtävät kehittävät visuaalista muistia ja luokittelutaitoja, kun lapset parittavat sääsymboleja kuvauksiin, vaatteisiin tai vuodenaikoihin.',
+    },
+  ],
+
+  expertTips: [
+    {
+      tip: 'Perusta luokkaan sääasema, jossa on lämpömittari, sademittari ja tuuliviiri. Joka aamu sääpäivystäjä lukee mittarit ja kirjaa tulokset. Työlehdet syötetään oikealla datalla.',
+      source: 'Luonnontieteen opettaja, tutkiva oppiminen',
+      gradeRange: '1.–3. lk',
+    },
+    {
+      tip: 'Yhdistä säätyölehdet päivittäiseen sääpiiriin: joka aamu yksi oppilas esittelee säähavainnon ja täyttää sääkalenterin. Viikon lopussa tehdjään yhteenveto työlehdelle.',
+      source: 'Luokanopettaja, rutiinit ja rakenne',
+      gradeRange: 'Esiopetus–2. lk',
+    },
+    {
+      tip: 'Hyödynnä Ilmatieteen laitoksen avointa dataa oppitunneilla: vertaile luokan mittauksia virallisiin lukemiin. Tämä opettaa tieteellistä vertaisarviointia ja datan luotettavuuden arviointia.',
+      source: 'Tietotekniikkaopettaja, datanlukutaito',
+      gradeRange: '2.–3. lk',
+    },
+  ],
 };
 
 registerThemeContent('weather', 'fi', content);

@@ -17,6 +17,7 @@ import { getBlogCategorySlug } from '@/config/blog-category-slugs';
 import { generateSchemaDescription } from '@/lib/blog-schema-utils';
 import { getRelatedThemesForKeywords } from '@/lib/internal-linking';
 import RelatedThemes from '@/components/blog/RelatedThemes';
+import BrowseByGrade from '@/components/blog/BrowseByGrade';
 import type { SupportedLocale } from '@/config/product-page-slugs';
 
 // Enable ISR - revalidate every 30 minutes (reduced from 1 hour for faster updates)
@@ -1794,6 +1795,9 @@ export default async function BlogPostPage({
 
       {/* Related Worksheet Theme Pages */}
       <RelatedThemes themeIds={relatedThemeIds} locale={locale} />
+
+      {/* Grade Hub Navigation */}
+      <BrowseByGrade locale={locale} />
 
       {/* Gray zone to related posts transition */}
       <div style={{

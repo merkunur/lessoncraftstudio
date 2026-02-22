@@ -207,6 +207,125 @@ const content: EnrichedThemeContent = {
   // -- Cross-linking --
   relatedThemes: ['nature', 'forest', 'travel', 'cooking', 'animals'],
   relatedBlogCategories: [],
+
+  // -- SEO Enrichment (Part 184) --
+
+  classroomScenarios: [
+    {
+      situation: 'Luokanopettaja valmistelee oppilaita kevään luontoretkeen, mutta osa oppilaista ei ole koskaan yöpynyt teltassa eikä tiedä retkeilyn perustaitoja.',
+      solution: 'Hän käyttää retkeily-aiheisia työlehtiä ennakkovalmisteluun: oppilaat laskevat retkeilyvarusteita, ratkaisevat luontoaiheisia pulmia, värittävät telttoja ja nuotiokuvia sekä tekevät sanahakuja retkeilysanastolla kuten teltta, makuupussi ja kompassi.',
+      outcome: 'Oppilaat saapuvat retkelle itsevarmempina, tunnistavat perusvarusteet ja -käsitteet, ja matemaattiset taidot vahvistuvat luontevasti retkeilykontekstin motivoimina.',
+    },
+    {
+      situation: 'Kotikouluvanhempi etsii kesäistä teemaa, joka motivoi lasta harjoittelemaan matematiikkaa ja lukemista loma-aikana ilman, että se tuntuu koulutyöltä.',
+      solution: 'Vanhempi yhdistää retkeilytyölehdet perheen mökki- tai telttailureissuun: lapsi ratkaisee pulmia nuotion ääressä, laskee retkeilyvarusteet rinkasta ja pitää luontopäiväkirjaa havainnoistaan.',
+      outcome: 'Lapsi kokee oppimisen luontevana osana kesän seikkailua, matemaattiset taidot ylläpysyävt kesäloman aikana ja luontosuhde vahvistuu samalla.',
+    },
+  ],
+
+  quickStats: [
+    { label: 'Suositeltu ikähaarukka', value: '3–9 vuotta' },
+    { label: 'Työlehtisovellusten määrä', value: '10 sovellusta' },
+    { label: 'Opetussuunnitelman alueet', value: '4 aluetta' },
+    { label: 'Tuetut luokkatasot', value: 'Esiopetus–3. lk' },
+    { label: 'Keskimääräinen työskentelyaika', value: '10–25 min' },
+    { label: 'Retkeilyaiheet', value: '15+ aihepiiriä' },
+  ],
+
+  differentiationStrategies: [
+    {
+      learnerType: 'Visuaaliset oppijat',
+      adaptation: 'Käytä värikkäitä retkeilymaisemakuvituksia, teltta- ja nuotiokaavioita sekä luontokarttoja. Varustelistojen visuaalinen esitys kuvakortteina auttaa muistamaan tärkeät esineet ja käsitteet.',
+    },
+    {
+      learnerType: 'Kinesteettiset oppijat',
+      adaptation: 'Yhdistä työlehdet todelliseen retkeilyharjoitteluun: lapsi pakkaa rinkan, rakentaa majaa ja suunnistaa kompassilla ennen tai jälkeen paperitehtäviä. Ulkona tehty työlehti vahvistaa kokemuksellista oppimista.',
+    },
+    {
+      learnerType: 'S2-oppijat',
+      adaptation: 'Retkeilyn perusvarusteet ovat konkreettisia esineitä, jotka on helppo tunnistaa visuaalisesti. Aloita varustetunnistamisella kuvien avulla ja nimeämisellä, lisää suomenkielistä retkeilysanastoa asteittain kontekstin tukemana.',
+    },
+    {
+      learnerType: 'Edistyneet oppijat',
+      adaptation: 'Haasta suunnittelemaan kokonainen retkeilymatka: laske matkan pituus, budjetoi varustekustannukset, suunnittele ruokalista ja laadi aikataulutus. Sisällytä kartan lukeminen ja suuntimatehtäviä.',
+    },
+  ],
+
+  assessmentIdeas: [
+    {
+      method: 'Retkeilyn suunnittelukansio',
+      criteria: 'Kerää oppilaan retkeilytyölehdet ja suunnittelutehtävät koko jakson ajalta. Arvioi retkeilysanaston kehittymistä, matemaattisten taitojen soveltamista ja kykyä suunnitella loogisia kokonaisuuksia.',
+      gradeLevel: 'Kaikki luokka-asteet',
+    },
+    {
+      method: 'Luontopäiväkirjan arviointitehtävä',
+      criteria: 'Pyydä oppilasta kirjoittamaan luontopäiväkirja kuvitteellisesta retkestä: mitä näki, mitä mittasi, miten sää vaikutti ja mitä oppi. Arvioi kirjallista ilmaisua, luonnontiedon soveltamista ja havainnointitaitoja.',
+      gradeLevel: '2.–3. lk',
+    },
+    {
+      method: 'Varusteenlaskutehtävä',
+      criteria: 'Anna oppilaalle varustekortteja hintatietoineen ja budjettiraja. Pyydä valitsemaan tarvittavat varusteet budjetin puitteissa ja laskemaan kokonaiskustannus. Arvioi laskutaitoja, priorisointi- ja päätöksentekokykyä.',
+      gradeLevel: '1.–3. lk',
+    },
+  ],
+
+  crossCurricularLinks: [
+    {
+      subject: 'Ympäristöoppi (luonnontiede ja maantiede)',
+      connection: 'Retkeily tarjoaa luontevan kontekstin sään havainnoinnille, luonnon monimuotoisuuden tutkimiselle ja ympäristön kunnioittamiselle. POPS 2014:n ympäristöopin tavoitteet lähiympäristön tutkimisesta toteutuvat retkeilykontekstissa.',
+      activity: 'Luontopulmien ratkaisemisen jälkeen oppilaat tekevät piha-alueella miniretkeilyn, jossa he havainnoivat säätä, tunnistavat kasveja ja kirjaavat löydöksiään retkeilypöiväkirjaan.',
+    },
+    {
+      subject: 'Äidinkieli ja kirjallisuus',
+      connection: 'Retkeilysanasto kuten kompassi, polku, selviytyminen ja retkikeitin rikastuttaa konkreettista sanavarastoa ja luontopäiväkirjojen kirjoittaminen kehittää kuvailevaa kerrontaa.',
+      activity: 'Sanahaun jälkeen oppilaat kirjoittavat lyhyen kertomuksen kuvitteellisesta retkeilyseikkailusta käyttäen vähintään viittä retkeilysanaa.',
+    },
+    {
+      subject: 'Matematiikka (ongelmanratkaisu ja mittaaminen)',
+      connection: 'Retkeily sisältää luonnostaan laskemista, mittaamista ja suunnittelua. Etäisyyksien laskeminen, varusteiden luettelointi ja aikataulujen laatiminen yhdistävät matematiikan käytännön selviytymistaitoihin.',
+      activity: 'Varustelaskutehtävän jälkeen oppilaat suunnittelevat retken reitin kartalla ja laskevat kokonaismattkan pituuden yhdistämällä osuuksien pituudet.',
+    },
+  ],
+
+  uniqueAngle: 'Retkeily-aiheiset työlehdet tarjoavat ainutlaatuisen pedagogisen kontekstin, jossa oppiminen yhdistyy selviytymistaitoihin, luontosuhteen rakentamiseen ja itsenäisyyden kehittämiseen tavalla, jota muut teemat eivät tarjoa. Suomessa jokamiehen oikeudet tekevät retkeilystä erityisen saavutettavan teeman, koska kaikilla on oikeus liikkua, leiriytyä ja marjastaa luonnossa. Tämä kulttuurinen pohja tekee retkeilytyölehdistä erityisen resonoivia suomalaisessa kasvatusperinteessä. POPS 2014 korostaa ulkona oppimista, kokemuksellisuutta ja laaja-alaista osaamista, ja retkeilyteema yhdistää nämä kaikki luontevasti. Retkeilykonteksti motivoi erityisen tehokkaasti lapsia, jotka eivät viihdy perinteisessä luokkahuonetyöskentelyssä, koska tehtävät liittyvät seikkailuun ja toimintaan. Varusteiden pakkaaminen opettaa suunnittelua ja priorisointia, etäisyyksien laskeminen kehittää matemaattista ajattelua ja luontopäiväkirja yhdistää havainnoinnin kirjalliseen ilmaisuun.',
+
+  researchCitation: 'Becker, C., Lauterbach, G., Spengler, S., Dettweiler, U. & Mess, F. (2017). Effects of Regular Classes in Outdoor Education Settings: A Systematic Review on Students’ Learning, Social and Health Dimensions. International Journal of Environmental Research and Public Health. Systemaattinen katsaus osoitti, että säännöllinen ulko-opetus parantaa merkittävästi oppilaiden oppimistuloksia, sosiaalisia taitoja ja fyysistä hyvinvointia.',
+
+  culturalNotes: 'Suomessa retkeily on syvään juurtunut kulttuuriperinne, jota jokamiehen oikeudet tukevat. POPS 2014 kannustaa ulkona oppimiseen ja lähiympäristön tutkimiseen, ja retkeilyteema toteuttaa nämä tavoitteet luontevasti. Suomalainen eräkulttuuri, sienestyks, marjastus ja luonnossa liikkuminen ovat osa kansallista identiteettiä, mikä tekee retkeilytyölehdistä kulttuurisesti erityisen merkityksellisiä.',
+
+  snippetDefinition: 'Retkeily-aiheiset työlehdet lapsille ovat tulostettavia oppimistehtäviä, jotka käyttävät telttoja, nuotioita, kompasseja ja luontomaisemia matematiikan, lukemisen ja luonnontieteen opettamiseen. Ne on suunniteltu 3–9-vuotiaille ja sisältävät varusteiden laskemista, luontopulmia, sanahakuja ja retkeilyn suunnittelutehtäviä.',
+
+  snippetHowTo: [
+    'Valitse työlehdet lapsen kehitystason mukaan: nuoremmille teltan värittämistä ja varusteiden laskemista, vanhemmille suunnittelutehtäviä.',
+    'Yhdistä työlehdet todelliseen retkeilyyn tai pihamaaseikkailuun kokemuksellisen oppimisen vahvistamiseksi.',
+    'Esittele retkeilyvarusteet konkreettisesti ennen työlehtiä: näytä oikea kompassi, taskulamppu tai retkikeitin.',
+    'Käytä luontopulmia aamurutiinina luontoretkiviikolla odotusten rakentamiseksi ja sanaston valmistelemiseksi.',
+    'Anna lapsen pitää luontopäiväkirjaa, johon hän piirtää ja kirjoittaa havaintoja työlehtien teemoista.',
+    'Rakenna sisälle telttamainen lukukolkka, jossa lapsi voi ratkaista retkeilytyölehtiä tunnelmallisessa ympäristössä.',
+    'Toista suosikkitehtäviä eri vuodenaikoina ja lisää vaikeustasoa asteittain.',
+  ],
+
+  limitations: 'Retkeily-aiheiset työlehdet ovat tehokkaimmillaan yhdistettyinä todelliseen ulkokokemukseen, joka ei aina ole mahdollista sääolosuhteiden tai tilojen rajoitusten vuoksi. Nuotioon ja teräviin varusteisiin liittyvät turvallisuuskysymykset on huomioitava erityisesti nuorempien lasten kanssa. Kaupunkiympäristössä retkeilykäsitteet voivat tuntua etäisiltä.',
+
+  themeComparisons: [
+    { vsThemeId: 'nature', summary: 'Retkeily keskittyy aktiiviseen luonnossa toimimiseen, selviytymistaitoihin ja varusteisiin, kun luontoteema käsittelee luonnon monimuotoisuutta ja ekosysteemejä laajemmin. Retkeily painottaa käytännön taitoja, kun luonto korostaa havainnointia ja ymmärtämistä.' },
+    { vsThemeId: 'forest', summary: 'Retkeily ja metsä jakavat luontoympäristön, mutta retkeily lisää seikkailun, varusteiden ja selviytymisen ulottuvuuden. Metsäteema syventyy puihin ja metsäekosysteemiin, kun retkeily kattaa laajemmin ulkoilma-aktiviteetit.' },
+    { vsThemeId: 'travel', summary: 'Retkeily on luontopainotteista lähimatkailua selviytymistaitoineen, kun matkailuteema kattaa laajemmin kulttuureja, kaupunkeja ja liikennevälineitä. Retkeily korostaa luontosuhdetta ja omavaraisuutta, matkustaminen maantieteellistä tietoutta.' },
+    { vsThemeId: 'cooking', summary: 'Retkeily ja ruoanlaitto yhdistyvät nuotiolla valmistamisessa, mutta retkeily sisältää laajemmin luonnossa liikkumisen ja varusteet, kun ruoanlaittoteema keskittyy resepteihin, mittaamiseen ja keittiön välineisiin.' },
+  ],
+
+  productLinks: [
+    { appId: 'coloring', anchorText: 'Retkeilyaiheisten kuvien värityssivut', context: 'Väritä telttoja, nuotioita ja metsämaisemia samalla kehittäen hienomotoriikkaa ja retkeilysanaston tuntemusta.' },
+    { appId: 'find-objects', anchorText: 'Etsi retkeilyvarusteet', context: 'Etsi piilotettuja retkeilyvarusteita kuvasta harjoitellen visuaalista tarkkaavaisuutta ja varustetuntemusta.' },
+    { appId: 'word-search', anchorText: 'Retkeilysanaston sanahaku', context: 'Etsi retkeilysanoja kuten teltta, kompassi ja nuotio kirjainruudukosta lukutaidon vahvistamiseksi.' },
+    { appId: 'treasure-hunt', anchorText: 'Retkeilyn aarteenetsintä', context: 'Ratkaise vihjeitä ja seuraa polkua aarteeseen harjoitellen loogista päättelyä retkeilykontekstissa.' },
+  ],
+
+  expertTips: [
+    { tip: 'Rakenna luokkaan tai kotiin telttamainen lukukolkka, jossa lapset ratkaisevat retkeilytyölehtiä. Ympäristön muutos aktivoi oppimista ja tekee tehtävistä seikkailun.', source: 'Varhaiskasvatuksen pedagoginen asiantuntija', gradeRange: 'Esiopetus–1. lk' },
+    { tip: 'Yhdistä retkeilytyölehdet jokamiehen oikeuksien opetukseen: oppilaat oppivat samalla, missä saa leiriytyä, mitä luonnosta saa kerätä ja miten jäljet siivotaan. Tämä yhdistää ympäristökasvatuksen ja kansalaiskasvatuksen.', source: 'Ympäristökasvatuksen asiantuntija', gradeRange: '2.–3. lk' },
+    { tip: 'Vastahakoisille oppijoille retkeilyteema on usein erinomainen motivaattori, koska se yhdistyy seikkailuun ja toimintaan. Aloita aarteenetsintätehtävistä, jotka tuntuvat peliltä oppimisen sijaan.', source: 'Erityispedagogiikan asiantuntija', gradeRange: 'Esiopetus–3. lk' },
+  ],
 };
 
 registerThemeContent('camping', 'fi', content);

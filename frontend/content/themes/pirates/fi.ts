@@ -207,6 +207,125 @@ const content: EnrichedThemeContent = {
   // -- Cross-linking --
   relatedThemes: ['fairy-tales', 'ocean', 'camping', 'travel', 'superheroes'],
   relatedBlogCategories: [],
+
+  // -- SEO Enrichment (Part 184) --
+
+  classroomScenarios: [
+    {
+      situation: 'Luokanopettaja huomaa, että erityisesti pojat menettävät kiinnostuksensa tavallisiin matematiikkaharjoituksiin, mutta innostuvat välittömästi, kun tehtävissä on seikkailun elementtejä.',
+      solution: 'Hän ottaa käyttöön merirosvoaiheiset työlehdet: oppilaat ratkaisevat aarrekartan koordinaatteja, laskevat kultakolikoita aarrearkkuun, tekevät merirosvo-aiheisia sanahakuja ja värittävät merirosvolaivoja.',
+      outcome: 'Kaikkien oppilaiden, erityisesti aiemmin motivaatiota vailla olleiden, sitoutuminen paranee merkittävästi, ja matemaattiset tehtävät tuntuvat seikkailulta velvollisuuden sijaan.',
+    },
+    {
+      situation: 'Kotikouluvanhempi haluaa inspiroida lasta, joka rakastaa seikkailutarinoita mutta vastustaa matemaattisia harjoituksia.',
+      solution: 'Vanhempi luo merirosvo-teemaviikon: joka päivä alkaa uudella aarrekartalla, jossa laskutehtäviä on piilotettuna vihjeisiin. Lapsi ratkaisee pulmia, seuraa kompassisuuntia ja kerää virtuaalisia kultakolikoita edistymisestä.',
+      outcome: 'Lapsi ratkaisee päivittäin enemmän tehtäviä kuin ennen, ylläpitää pitkäjänteistä keskittymistä ja kehittää ongelmanratkaisutaitoja luontevasti merirosvonarratiivin motivoimana.',
+    },
+  ],
+
+  quickStats: [
+    { label: 'Suositeltu ikähaarukka', value: '3–9 vuotta' },
+    { label: 'Työlehtisovellusten määrä', value: '11 sovellusta' },
+    { label: 'Opetussuunnitelman alueet', value: '4 aluetta' },
+    { label: 'Tuetut luokkatasot', value: 'Esiopetus–3. lk' },
+    { label: 'Keskimääräinen työskentelyaika', value: '10–25 min' },
+    { label: 'Meriseikkailuaiheet', value: '15+ aihepiiriä' },
+  ],
+
+  differentiationStrategies: [
+    {
+      learnerType: 'Visuaaliset oppijat',
+      adaptation: 'Käytä yksityiskohtaisia aarrekarttoja, merirosvolaivakuvituksia ja merimaisemagallerioita. Aarrearkkujen visuaalinen luettelointi kuvakortteina ja kompassiruusukkeen käyttö tukevat visuaalista hahmottamista.',
+    },
+    {
+      learnerType: 'Kinesteettiset oppijat',
+      adaptation: 'Yhdistä työlehdet sisä- tai ulkoaarteenetsintään: piilota vihjekortteja luokkaan tai pihalle, joiden ratkaiseminen vaatii työlehden matemaattisten tehtävien suorittamista ennen seuraavaan vihjeeseen etenemistä.',
+    },
+    {
+      learnerType: 'S2-oppijat',
+      adaptation: 'Merirosvotarinat ovat kansainvälisesti tunnettuja, mikä luo tutun kehyksen. Aloita visuaalisilla merirosvoesineistön tunnistamisella ja nimeämisellä, lisää suomenkielistä meriseikkailusanastoa asteittain kuvien tukemana.',
+    },
+    {
+      learnerType: 'Edistyneet oppijat',
+      adaptation: 'Haasta luomaan oma aarrekartta koordinaatistoineen, kirjoittamaan salakielinen viesti merirosvokoodilla ja laskemaan aarteen arvo eri kolikkotyyppien kertolaskulla. Sisällytä navigointitehtäviä kompassisuunninilla.',
+    },
+  ],
+
+  assessmentIdeas: [
+    {
+      method: 'Merirosvokapteenin lokikirja',
+      criteria: 'Kerää oppilaan merirosvotyölehdet ja aarrekartat koko jakson ajalta. Arvioi matemaattisten taitojen kehittymistä, ongelmanratkaisustrategioita ja kykyä käyttää koordinaatteja ja suuntia.',
+      gradeLevel: 'Kaikki luokka-asteet',
+    },
+    {
+      method: 'Aarrekartan suunnittelutehtävä',
+      criteria: 'Pyydä oppilasta luoda oma aarrekartta koordinaatistolla, kirjoittaa vihjeet laskutehtävinä ja testata luokkatoverin kykyä löytää aarre. Arvioi koordinaattien käyttöä, tehtävänannon selvää ja matemaattista tarkkuutta.',
+      gradeLevel: '2.–3. lk',
+    },
+    {
+      method: 'Kultakolikkojen laskutehtävä',
+      criteria: 'Anna oppilaalle erilaisia merirosvo-aiheisia laskutehtäviä asteittain vaikeutuen. Arvioi laskutarkkuutta, ongelmanratkaisunopeutta ja kykyä selittää ratkaisustrategioita.',
+      gradeLevel: 'Esiopetus–2. lk',
+    },
+  ],
+
+  crossCurricularLinks: [
+    {
+      subject: 'Matematiikka (koordinaatit ja ongelmanratkaisu)',
+      connection: 'Aarrekartat tarjoavat luontevan kontekstin koordinaattien, suuntien ja etäisyyksien opiskeluun. POPS 2014:n geometrian ja mittaamisen tavoitteet toteutuvat merirosvokontekstissa erityisen motivoivasti.',
+      activity: 'Aarrekarttalaskujen jälkeen oppilaat luovat oman koordinaattiruudukon, piilottavat aarteen ja kirjoittavat ohjeet luokkatovereille käyttäen koordinaattipisteitä.',
+    },
+    {
+      subject: 'Äidinkieli ja kirjallisuus',
+      connection: 'Merirosvonarratiivi tarjoaa rikkaan kehyksen seikkailutarinoiden kirjoittamiselle, ohjeiden laatimiselle ja kuvailevalle kerronnalle meriympäristössä.',
+      activity: 'Sanahaun jälkeen oppilaat kirjoittavat lyhyen merirosvoselikkailun, jossa hänen on navigoitava läpi haasteiden käyttäen vähintään viittä meriseikkailusanaa.',
+    },
+    {
+      subject: 'Historia ja yhteiskuntatietous',
+      connection: 'Merirosvohistoria avaa ikkunan merenkulun historiaan, kaupankäyntiin ja maantieteellisiin löytöretkiin. Lasten mielikuvituksen ruokkiminen historiallisilla yksityiskohdilla rikastuttaa aihepiirin oppimista.',
+      activity: 'Aarrekarttatehtävän jälkeen oppilaat tutkivat todellisia merenkulun reittejä ja piirtävät ne yksinkertaistetulle maailmankartalle.',
+    },
+  ],
+
+  uniqueAngle: 'Merirosvo-aiheiset työlehdet hyödyntävät yhtä lapsuuden voimakkaimmista mielikuvitusteemoista — meriseikkailua, aarteiden etsimistä ja salaperäisiä karttoja — jotka kiehtovat lapsia universaalisti kulttuurista riippumatta. Tämä seikkailumotivaatio tekee merirosvoista ainutlaatuisen tehokkaan pedagogisen välineen: lapset suorittavat vaativampia matemaattisia tehtäviä, keskittyvät pidempään ja sietävät turhautumista paremmin, kun kontekstina on aarteen etsintä. Koordinaatiston ja suuntien oppiminen saa luonnollisen merkityksen aarrekarttojen kautta, mikä tekee abstraktista geometriasta konkreettista ja jännittävää. Suomessa merellinen perinne ja purjehduskulttuuri antavat lisäresonanssia merirosvo-teemalle. POPS 2014 korostaa motivoivia oppimisympäristöjä ja ongelmanratkaisutaitojen kehittämistä, ja merirosvonarratiivin sisään rakennetut pulmatehtävät toteuttavat molemmat tavoitteet yhtäaikaisesti. Narratiivin voima — jatkuva tarina, joka etenee tehtävästä tehtävään — pitää motivaation korkealla koko oppimisjakson ajan.',
+
+  researchCitation: 'Cordova, D. I. & Lepper, M. R. (1996). Intrinsic Motivation and the Process of Learning: Beneficial Effects of Contextualization, Personalization, and Choice. Journal of Educational Psychology. Tutkimus osoitti, että seikkailukontekstiin sijoitetut matemaattiset tehtävät lisäävät merkittävästi sisäistä motivaatiota, oppimistuloksia ja taitojen siirtymistä uusiin tilanteisiin.',
+
+  culturalNotes: 'Suomen rannikkoalueilla ja saaristossa on rikas merellinen historia, ja merirosvoaiheiset tarinat ovat osa pohjoismaista kulttuuriperintöä. POPS 2014 painottaa motivoivia oppimisympäristöjä ja monipuolisia oppimismenetelmiä, ja merirosvonarratiivin sisään rakennettu ongelmanratkaisu toteuttaa nämä tavoitteet. Suomalaisessa kasvatusperinteessä tarinankerronnan rooli on merkittävä, ja merirosvojen seikkailut tarjoavat luontevan kehyksen sekä kirjalliselle että matemaattiselle oppimiselle.',
+
+  snippetDefinition: 'Merirosvo-aiheiset työlehdet lapsille ovat tulostettavia oppimistehtäviä, jotka käyttävät aarrekarttoja, merirosvolaivoja, kultakolikoita ja meriseikkailuja matematiikan, lukemisen ja ongelmanratkaisun opettamiseen. Ne on suunniteltu 3–9-vuotiaille ja sisältävät koordinaattitehtäviä, laskupulmia, sanahakuja ja seikkailutarinoita.',
+
+  snippetHowTo: [
+    'Valitse työlehdet lapsen kehitystason mukaan: nuoremmille merirosvolaivan värittämistä ja kolikoiden laskemista, vanhemmille koordinaattitehtäviä.',
+    'Luo seikkailun tunnelma: kietaise aarrekartta-työlehti rullaksi ja sidä nauhalla aitouden tuntua varten.',
+    'Yhdistä työlehdet sisä- tai ulkoaarteenetsintään kokemuksellisen oppimisen vahvistamiseksi.',
+    'Anna lapsen pitää merirosvokapteenin lokikirjaa, johon hän kirjaa ratkaisemansa tehtävät ja keräämänsä aarteet.',
+    'Käytä merirosvo-aiheista palkintojärjestelmää: kultakolikko jokaisesta suoritetusta tehtävästä motivaation ylläpitämiseksi.',
+    'Keskustele todellisista merenkulun löytöretkistä historiallisen kontekstin luomiseksi.',
+    'Toista suosikkitehtäviä vaikeutuvilla tasoilla ja lisää uusia meriseikkailuelementtejä.',
+  ],
+
+  limitations: 'Merirosvo-aiheiset työlehdet romantisoivat historiallista merirosvoutta, mikä vaatii kasvattajalta tasapainottelua seikkailun ilon ja historiallisen todellisuuden välillä. Erityisesti vanhempien oppilaiden kanssa on hyödyllistä keskustella siitä, että todelliset merirosvot olivat rikollisia. Väkivallan elementtejä on vältetty työlehdissä, mutta jotkut perheet voivat suhtautua teemaan varauksellisesti.',
+
+  themeComparisons: [
+    { vsThemeId: 'fairy-tales', summary: 'Merirosvot tarjoavat seikkailunarratiivin, jossa koordinaatit, suunnat ja laskutehtävät ovat luonnollinen osa tarinaa, kun satuteeema käsittelee laajemmin fantasiaa, hahmokehitystä ja tarinankerrontaa. Molemmat motivoivat mielikuvituksen kautta.' },
+    { vsThemeId: 'ocean', summary: 'Merirosvot ja meri jakavat ympäristön, mutta merirosvot lisäävät seikkailun, aarteen etsinnän ja narratiivin elementin. Meriteema syventyy mereläimiin ja ekosysteemiin, kun merirosvot korostavat ongelmanratkaisua ja koordinaatteja.' },
+    { vsThemeId: 'camping', summary: 'Merirosvot ja retkeily jakavat seikkailun ja selviytymisen elementin, mutta merirosvot sijoittuvat merelle aarrekarttoihineen, kun retkeily keskittyy metsään ja luontoon. Merirosvot korostavat narratiivia, retkeily käytännön taitoja.' },
+    { vsThemeId: 'superheroes', summary: 'Merirosvot ja supersankarit motivoivat molemmat seikkailutarinalla, mutta merirosvot tarjoavat historiallisen ja maantieteellisen ulottuvuuden aarrekarttoineen, kun supersankarit keskittyvät nykyaikaisiin voimiin ja arvokysymyksiin.' },
+  ],
+
+  productLinks: [
+    { appId: 'coloring', anchorText: 'Merirosvolaivan värityssivut', context: 'Väritä merirosvolaivoja, aarrearkkkuja ja merikarttoja samalla kehittäen hienomotoriikkaa ja mielikuvitusta.' },
+    { appId: 'find-objects', anchorText: 'Etsi piilotettuja aarteita', context: 'Etsi piilotettuja kultakolikoita, timantteja ja merirosvovarusteita kuvasta visuaalisen tarkkaavaisuuden harjoittamiseksi.' },
+    { appId: 'word-search', anchorText: 'Meriseikkailun sanahaku', context: 'Etsi merirosvsanastoa kuten aarre, kompassi, purje ja merimies kirjainruudukosta lukutaidon vahvistamiseksi.' },
+    { appId: 'treasure-hunt', anchorText: 'Merirosvojen aarteenetsintä', context: 'Seuraa vihjeitä ja ratkaise pulmia merirosvoaarteen löytämiseksi loogisen päättelyn kehittämiseksi.' },
+  ],
+
+  expertTips: [
+    { tip: 'Luo koko viikon kestävä merirosvo-narratiivi, jossa joka päivän työlehti on uusi etappi matkalla aarteen luo. Jatkuva tarina pitää motivaation korkealla koko viikon ajan.', source: 'Varhaiskasvatuksen pedagoginen asiantuntija', gradeRange: 'Esiopetus–1. lk' },
+    { tip: 'Käytä aarrekarttoja koordinaatiston esittelyyn: oppilaat oppivat x- ja y-akselin käsitteet luontevasti etsinessään aarteen sijaintia ruudukosta. Tämä on erinomainen siirtymä abstraktiin koordinaattigeometriaan.', source: 'Matematiikan aineenopettaja', gradeRange: '2.–3. lk' },
+    { tip: 'Yhdistä merirosvotyölehdet sisäaarteenetsintään: piilota vihjekortit eri puolille tilaa ja vaadi matemaattisen tehtävän ratkaisemista ennen seuraavaan vihjeeseen etenemistä. Liikkuminen aktivoi kehollista oppimista.', source: 'Erityispedagogiikan asiantuntija', gradeRange: 'Esiopetus–3. lk' },
+  ],
 };
 
 registerThemeContent('pirates', 'fi', content);

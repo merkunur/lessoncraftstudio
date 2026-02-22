@@ -206,6 +206,125 @@ const content: EnrichedThemeContent = {
   // -- Cross-linking --
   relatedThemes: ['farm', 'flowers', 'nature', 'insects', 'forest', 'spring'],
   relatedBlogCategories: [],
+
+  // -- SEO Enrichment (Part 184) --
+
+  classroomScenarios: [
+    {
+      situation: 'Kevätlukukauden alussa luokanopettaja haluaa yhdistää luonnontieteiden, matematiikan ja äidinkielen opetuksen konkreettiseen kasvuprojektiin, mutta koulun piha-alue on rajallinen.',
+      solution: 'Hän käyttää puutarha-aiheisia työlehtiä luokkahuoneen sisäpuutarhan rinnalla: oppilaat laskevat siemeniä, mittaavat kasvien kasvua, värittävät kukkasin ja tekevät puutarhasanaston sanahakuja samalla, kun he hoitavat ikkunalaudan taimiruukkuja.',
+      outcome: 'Oppilaat ymmärtävät kasvien elinkaaren käytännössä, matemaattiset mittaustaidot vahvistuvat ja puutarhapäiväkirjat kehittävät kirjallista ilmaisua luonnollisessa kontekstissa.',
+    },
+    {
+      situation: 'Kotikouluvanhempi etsii teemaa, joka yhdistää ulkoilun, luonnontieteet ja käytännön työskentelyn lapsen kanssa, joka oppii parhaiten tekemällä.',
+      solution: 'Vanhempi suunnittelee puutarhaviikon: ensin puutarhatyölehtiä siementen laskemisesta ja kasvien osien tunnistamisesta, sitten oikeaa kylvämistä parvekkeella. Lapsi mittaa mullan määrää ja laskee, montako siementä mahtuu riviin.',
+      outcome: 'Lapsi yhdistää teorian ja käytännön luontevasti, kehittää vastuuntuntoa kasvin hoitamisessa ja suorittaa mittaustehtäviä innostuneesti, koska konkreettinen puutarha antaa tehtäville merkityksen.',
+    },
+  ],
+
+  quickStats: [
+    { label: 'Suositeltu ikähaarukka', value: '3–9 vuotta' },
+    { label: 'Työlehtisovellusten määrä', value: '11 sovellusta' },
+    { label: 'Opetussuunnitelman alueet', value: '5 aluetta' },
+    { label: 'Tuetut luokkatasot', value: 'Esiopetus–3. lk' },
+    { label: 'Keskimääräinen työskentelyaika', value: '10–25 min' },
+    { label: 'Kasvilajien kirjo', value: '25+ lajia' },
+  ],
+
+  differentiationStrategies: [
+    {
+      learnerType: 'Visuaaliset oppijat',
+      adaptation: 'Käytä värikkäitä kasvikuvituksia, kasvun vaihekaavioita ja puutarhakarttoja. Kasvien elinkaaren visuaalinen esitys aikajanamuodossa auttaa hahmottamaan kasvuprosessin kokonaisuutena.',
+    },
+    {
+      learnerType: 'Kinesteettiset oppijat',
+      adaptation: 'Yhdistä työlehdet todelliseen istutukseen: lapsi kylvää siemeniä ruukkuihin, mittaa kasvua viivottimella ja vertaa tuloksia työlehden kasvukaavion tietoihin. Mullan tunnustelu ja veden mittaaminen aktivoivat kehollisen oppimisen.',
+    },
+    {
+      learnerType: 'S2-oppijat',
+      adaptation: 'Puutarha on universaali teema kaikissa kulttuureissa. Aloita kasvien osien visuaalisella tunnistamisella (juuri, varsi, lehti, kukka) ja nimeämisellä, lisää suomenkielistä puutarhasanastoa asteittain. Konkreettiset kasvit tukevat sanaston ankkuroitumista.',
+    },
+    {
+      learnerType: 'Edistyneet oppijat',
+      adaptation: 'Haasta suunnittelemaan kokonainen pieni puutarha: laske ruutujen pinta-alat, budjetoi siementen kustannukset, kirjoita istutusaikataulu ja pidä kasvupäiväkirjaa mittaustuloksineen. Sisällytä yhteyttämisen perusperiaatteet.',
+    },
+  ],
+
+  assessmentIdeas: [
+    {
+      method: 'Kasvupäiväkirja',
+      criteria: 'Kerää oppilaan puutarhatyölehdet ja mittaustulokset koko jakson ajalta. Arvioi puutarhasanaston kehittymistä, mittaustarkkuuden parantumista ja kykyä kuvata kasvien elinkaaren vaiheita omin sanoin.',
+      gradeLevel: 'Kaikki luokka-asteet',
+    },
+    {
+      method: 'Puutarhan suunnittelutehtävä',
+      criteria: 'Pyydä oppilasta suunnitella pieni puutarha: mitä kasveja istuttaa, miten paljon tilaa kukin tarvitsee, paljonko vettä annetaan ja milloin sato korjataan. Arvioi matemaattisten taitojen soveltamista ja luonnontieteellistä ymmärtämistä.',
+      gradeLevel: '2.–3. lk',
+    },
+    {
+      method: 'Kasvin elinkaaren järjestelyleikki',
+      criteria: 'Anna oppilaalle sekoitetut kuvakortit kasvien elinkaaren vaiheista. Pyydä järjestämään ne oikeaan järjestykseen ja selittämään jokainen vaihe. Arvioi biologisen tiedon hallintaa ja järjestykseen asettamisen taitoa.',
+      gradeLevel: 'Esiopetus–1. lk',
+    },
+  ],
+
+  crossCurricularLinks: [
+    {
+      subject: 'Ympäristöoppi (biologia)',
+      connection: 'Puutarha tarjoaa käytännöllisen kontekstin kasvien elinkaaren, yhteyttämisen ja ekosysteemien opiskeluun. POPS 2014:n ympäristöopin tavoitteet elävän luonnon tutkimisesta toteutuvat konkreettisesti.',
+      activity: 'Kasvien osien tunnistamistehtävän jälkeen oppilaat kylvävät siemeniä luokkahuoneen ruukkuihin ja seuraavat kasvun vaiheita kolmen viikon ajan vertaillen havaintoja työlehden kasvukaavioon.',
+    },
+    {
+      subject: 'Äidinkieli ja kirjallisuus',
+      connection: 'Puutarhasanasto kuten siemen, itu, verso, lehti ja kukka rakentaa luonnontieteellistä sanavarastoa samalla kun puutarhapäiväkirjan kirjoittaminen kehittää kuvailevaa kirjallista ilmaisua.',
+      activity: 'Sanahaun jälkeen oppilaat kirjoittavat lyhyen kuvauksen oman kasvinsa kasvusta käyttäen vähintään viittä puutarhasanaa.',
+    },
+    {
+      subject: 'Matematiikka (mittaaminen ja laskeminen)',
+      connection: 'Puutarha tarjoaa käytännön kontekstin mittaamiselle, laskemiselle ja tiedon keräämiselle. Kasvun mittaaminen senttimetreinä ja siementen laskeminen yhdistävät matematiikan todelliseen maailmaan.',
+      activity: 'Mittaustehtävän jälkeen oppilaat piirtävät pylväskaavion eri kasvien kasvunopeuksista viikon aikana ja vertaavat tuloksia.',
+    },
+  ],
+
+  uniqueAngle: 'Puutarha-aiheiset työlehdet tarjoavat pedagogisen yhteyden, jota harvat muut teemat pystyvät tarjoamaan: ne yhdistävät abstraktin oppimisen konkreettiseen tekemiseen, koska jokainen työlehtitehtävä voidaan liittää todelliseen puutarhatyöhön. Kun lapsi laskee siemeniä työlehdellä ja sitten kylvää ne oikeaan multaan, matematiikka saa välittömän merkityksen. Puutarhateema on erityisen sopiva Suomen kouluihin, koska POPS 2014 korostaa kokemuksellista ja tutkivaa oppimista sekä kestävän kehityksen kasvatusta. Suomen selvät vuodenajat tekevät puutarhasta ajankohtaisen keväällä ja kesällä, mutta talvellakin sisäpuutarha ikkunalaudalla tarjoaa arvokasta oppimiskokemusta. Puutarhan elinkaari — kylväminen, kasvaminen, kukkiminen, sadonkorjuu — opettaa kärsivällisyyttä, vastuullisuutta ja pitkäjänteisyyttä, jotka ovat POPS 2014:n laaja-alaisen osaamisen ydintaitoja. Ravintokasvatuksen näkökulma rikastuttaa oppimista entisestään, kun lapset ymmärtävät, mistä ruoka tulee ja miten kasvikset päätyvät lautaselle.',
+
+  researchCitation: 'Blair, D. (2009). The Child in the Garden: An Evaluative Review of the Benefits of School Gardening. Journal of Environmental Education. Katsaus osoitti, että puutarhaoppiminen parantaa lasten luonnontieteellistä ymmärtämistä, terveellisen ravinnon valintataitoja ja sosioemotionaalisia taitoja merkittävästi verrattuna pelkkään luokkahuoneopetukseen.',
+
+  culturalNotes: 'Suomessa puutarhanhoito on syvällä kulttuuriperinteessä, ja koulujen pihat sisältävät usein kasvimaita. POPS 2014 painottaa kokemuksellista oppimista ja kestävää kehitystä, ja puutarhateema toteuttaa molemmat tavoitteet luontevasti. Suomen neljä selvää vuodenaikaa tarjoavat ainutlaatuisen kontekstin kasvukauden ymmärtämiselle, ja puutarha-aiheiset työlehdet toimivat erinomaisesti kevään odotuksen rakentajina pitkien talvikuukausien jälkeen.',
+
+  snippetDefinition: 'Puutarha-aiheiset työlehdet lapsille ovat tulostettavia oppimistehtäviä, jotka käyttävät kukkien, kasvisten, siementen ja puutarhatyökalujen kuvituksia matematiikan, lukemisen ja luonnontieteen opettamiseen. Ne on suunniteltu 3–9-vuotiaille ja sisältävät siementen laskemista, kasvien osien tunnistamista, sanahakuja ja kasvukaavioita.',
+
+  snippetHowTo: [
+    'Valitse työlehdet lapsen kehitystason mukaan: nuoremmille kukkien värittämistä ja yksinkertaista laskemista, vanhemmille mittaustehtäviä ja kasvupäiväkirjoja.',
+    'Yhdistä työlehdet todelliseen puutarhatyöhön: kylvä siemeniä ruukkuihin laskutehtävän jälkeen konkreettisen yhteyden luomiseksi.',
+    'Esittele kasvien osat (juuri, varsi, lehti, kukka) ennen tunnistustehtävää oikeaa kasvia käyttäen.',
+    'Mittaa kasvien kasvua viivottimella viikoittain ja kirjaa tulokset työlehden kasvukaavioon.',
+    'Keskustele vuodenaikojen vaikutuksesta kasvuun ja selitä, miksi Suomessa on lyhyt mutta intensiivinen kasvukausi.',
+    'Luo puutarhapäiväkirja, johon lapsi piirtää ja kirjoittaa havaintoja kasvinsa kasvusta.',
+    'Toista suosikkitehtäviä uusilla kasvilajeilla ja lisää vaikeustasoa asteittain taitojen vahvistuessa.',
+  ],
+
+  limitations: 'Puutarha-aiheiset työlehdet ovat tehokkaimmillaan kevään ja kesän aikana, jolloin konkreettinen puutarhatyö on mahdollista. Suomen pitkä talvi rajoittaa ulkopuutarhan käyttöä, mutta sisäpuutarha ikkunalaudalla on toimiva vaihtoehto. Allergiat ja hyönteispelot on huomioitava ulkotehtävissä.',
+
+  themeComparisons: [
+    { vsThemeId: 'farm', summary: 'Puutarha keskittyy kasveihin, kasvun seurantaan ja istuttamiseen, kun maatila käsittelee laajemmin maataloustuotantoa eläimineen ja koneineen. Puutarha tarjoaa syvemmän kasvibiologian kontekstin, kun maatila kattaa laajemman maaseutuelinkeinon näkökulman.' },
+    { vsThemeId: 'flowers', summary: 'Puutarha sisältää kukkien lisäksi kasvikset, hyötykasvit ja koko kasvuprosessin kylvöstä sadonkorjuuseen. Kukka-teema keskittyy estetiikkaan ja kasvinosien tunnistamiseen, kun puutarha korostaa käytännön viljelyosaamista.' },
+    { vsThemeId: 'nature', summary: 'Puutarha on ihmisen muokkaama kasvuymPäristö, jossa lapsi osallistuu aktiivisesti hoitamiseen, kun luontoteema käsittelee villiä luontoa ja luonnontilaisia ekosysteemejä. Puutarha korostaa vastuullisuutta ja suunnitelmallisuutta.' },
+    { vsThemeId: 'insects', summary: 'Puutarha ja hyönteiset liittyvat läheisesti toisiinsa pölyttämisen kautta, mutta puutarha keskittyy kasveihin ja viljelyyn, kun hyönteisteema syventyy pieniin eläviin olentoihin ja niiden elinkaariin. Yhdessä ne muodostavat ekosysteemikokonaisuuden.' },
+  ],
+
+  productLinks: [
+    { appId: 'coloring', anchorText: 'Puutarhan kukkien värityssivut', context: 'Väritä auringonkukkia, tulppaaneja ja ruusuja samalla kehittäen hienomotoriikkaa ja kasvilajien tunnistamista.' },
+    { appId: 'find-and-count', anchorText: 'Laske puutarhan kasveja', context: 'Etsi ja laske siemenet, kukat ja kasvikset harjoitellen lukumäärien tunnistamista puutarhakontekstissa.' },
+    { appId: 'word-search', anchorText: 'Puutarhasanaston sanahaku', context: 'Etsi puutarhasanastoa kuten siemen, kukka, multa ja kastelukannnu kirjainruudukosta lukutaidon vahvistamiseksi.' },
+    { appId: 'pattern-train', anchorText: 'Puutarhan kuviojunat', context: 'Tunnista ja jatka kukkien ja kasvien kuviojonoja harjoitellen sarjallista ajattelua puutarhateemalla.' },
+  ],
+
+  expertTips: [
+    { tip: 'Aloita puutarhaviikko siementen istuttamisella ja käytä työlehtiä kasvun seurannan rinnalla. Kun oppilas mittaa kasvinsa kasvua ja kirjaa tuloksen työlehden kaavioon, matematiikka saa välittömän merkityksen.', source: 'Varhaiskasvatuksen pedagoginen asiantuntija', gradeRange: 'Esiopetus–1. lk' },
+    { tip: 'Yhdistä puutarhatyölehdet ravintokasvatukseen: kun oppilaat kasvattavat omia salaatteja ja yrttejä, he ymmärtävät ruoan alkuperän ja ovat halukkaampia maistamaan kasviksia, joita ovat itse kasvattaneet.', source: 'Ravitsemuskasvatuksen asiantuntija', gradeRange: '1.–3. lk' },
+    { tip: 'Talvella käytä ikkunalaudan minipuutarhaa: ruohon siementen kasvu on nopeaa ja motivoivaa, ja se tarjoaa erinomaisen kontekstin mittaustyölehtien käyttöön myös pimeänä vuodenaikana.', source: 'Luonnontieteen aineenopettaja', gradeRange: 'Esiopetus–3. lk' },
+  ],
 };
 
 registerThemeContent('garden', 'fi', content);

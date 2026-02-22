@@ -207,6 +207,125 @@ const content: EnrichedThemeContent = {
   // -- Cross-linking --
   relatedThemes: ['pirates', 'superheroes', 'animals', 'holidays', 'circus', 'emotions'],
   relatedBlogCategories: [],
+
+  // -- SEO Enrichment (Part 184) --
+
+  classroomScenarios: [
+    {
+      situation: 'Luokanopettaja haluaa lisätä oppitunteihin luovuutta ja narratiivista ajattelua, mutta perinteiset tehtävät tuntuvat liian kaavamaisilta luovan kirjoittamisen kehittämiseen.',
+      solution: 'Hän käyttää satuaiheisia työlehtiä, joissa oppilaat värittävät satuhaamoja, ratkaisevat satupulmia, tekevät satusanaston sanahakuja ja täydentävät tarinoiden puuttuvia osia käyttäen matemaattisia vihjeitä.',
+      outcome: 'Oppilaiden luova kirjoittaminen kehittyy merkittävästi, kuvailevat ilmaisut monipuolistuvat ja matemaattiset taidot vahvistuvat, koska satukonteksti tekee tehtävistä merkityksellisiä ja innostavia.',
+    },
+    {
+      situation: 'Kotikouluvanhempi etsii teemaa, joka yhdistää lukemisen, kirjoittamisen ja matematiikan lapselle, joka rakastaa tarinoita mutta vastustaa erillisiä harjoitustehtäviä.',
+      solution: 'Vanhempi lukee sadun ääneen ensin ja käyttää sitten satuaiheisia työlehtiä jatkeena: lapsi laskee sadun hahmoja, yhdistää hahmot ominaisuuksiinsa, täydentää tarinan puuttuvan kohdan ja piirtää vaihtoehtoisen lopun.',
+      outcome: 'Lapsi kokee työlehdet luonnollisena jatkeena rakastetuille satuhetkille, lukusujuvuus ja ymmärtäminen paranevat ja matemaattiset taidot kehittyvät huomaamatta tarinan kontekstissa.',
+    },
+  ],
+
+  quickStats: [
+    { label: 'Suositeltu ikähaarukka', value: '3–9 vuotta' },
+    { label: 'Työlehtisovellusten määrä', value: '11 sovellusta' },
+    { label: 'Opetussuunnitelman alueet', value: '5 aluetta' },
+    { label: 'Tuetut luokkatasot', value: 'Esiopetus–3. lk' },
+    { label: 'Keskimääräinen työskentelyaika', value: '10–25 min' },
+    { label: 'Satukontekstit', value: '20+ tarinaa' },
+  ],
+
+  differentiationStrategies: [
+    {
+      learnerType: 'Visuaaliset oppijat',
+      adaptation: 'Käytä värikkäitä satuhahmojen kuvituksia, tarinan kulkukaavioita ja satumaailmojen karttoja. Tarinan vaiheiden visuaalinen esitys sarjakuvamuodossa auttaa hahmottamaan narratiivin rakennetta.',
+    },
+    {
+      learnerType: 'Kinesteettiset oppijat',
+      adaptation: 'Yhdistä työlehdet satunäytelmään: oppilaat näyttelevät kohtauksia ennen tehtävän täyttämistä ja rakentavat satumaailmoja pienoismalleina. Käsinukketeatterin kautta tarinat elävöityvät.',
+    },
+    {
+      learnerType: 'S2-oppijat',
+      adaptation: 'Monet sadut ovat kansainvälisesti tunnettuja (Punahilkka, Tuhkimo), mikä luo tutun lähtökohdan. Aloita sadun hahmojen visuaalisella tunnistamisella ja nimeämisellä, lisää suomenkielistä satusanastoa asteittain tunnettujen tarinoiden kautta.',
+    },
+    {
+      learnerType: 'Edistyneet oppijat',
+      adaptation: 'Haasta kirjoittamaan oma satu käyttäen tarinan rakennetta (alku, keskikohta, loppu), sisällyttämään matemaattinen pulma tarinaan ja vertailemaan eri kulttuurien versioita samoista saduista.',
+    },
+  ],
+
+  assessmentIdeas: [
+    {
+      method: 'Satuportfolio',
+      criteria: 'Kerää oppilaan satutyölehdet ja luovat kirjoitukset koko jakson ajalta. Arvioi narratiivisten taitojen kehittymistä, satusanaston laajentumista ja kykyä tunnistaa ja käyttää tarinan rakenteen elementtejä.',
+      gradeLevel: 'Kaikki luokka-asteet',
+    },
+    {
+      method: 'Oman sadun kirjoitustehtävä',
+      criteria: 'Pyydä oppilasta kirjoittamaan lyhyt oma satu käyttäen selkeää alkua, keskikohtaa ja loppua. Arvioi tarinan rakennetta, kuvailevaa kieltä, hahmokehitystä ja luovuutta.',
+      gradeLevel: '2.–3. lk',
+    },
+    {
+      method: 'Satuhahmojen lajittelutehtävä',
+      criteria: 'Anna oppilaalle satuhahmokortteja ja pyydä lajittelemaan hahmot eri kategorioihin (sankarit, roistot, auttajat, eläimet). Arvioi luokittelutaitoja, satutuntemusta ja perustelun kykyä.',
+      gradeLevel: 'Esiopetus–1. lk',
+    },
+  ],
+
+  crossCurricularLinks: [
+    {
+      subject: 'Äidinkieli ja kirjallisuus',
+      connection: 'Sadut ovat kirjallisuuden perusta ja tarjoavat erinomaisen kontekstin narratiivisten taitojen, kuvailivan kielen ja tarinan rakenteen opiskeluun. POPS 2014:n äidinkielen tavoitteet tarinankerronnasta ja luetun ymmärtämisestä toteutuvat suoraan.',
+      activity: 'Satusanahaun jälkeen oppilaat kirjoittavat vaihtoehtoisen lopun tunnettuun satuun käyttäen vähintään viittä satusanastoa.',
+    },
+    {
+      subject: 'Kuvataide ja käsityö',
+      connection: 'Satujen kuvittaminen kehittää visuaalista ilmaisua, väritajua ja hienomotoriikkaa. Satuhahmojen suunnitteltu yhdistää kuvallisen ja sanallisen kerronnan.',
+      activity: 'Väritystehtävän jälkeen oppilaat suunnittelevat ja piirtävät oman satuhahmon, kirjoittavat sille nimen ja lyhyen tarinan.',
+    },
+    {
+      subject: 'Matematiikka (looginen päättely)',
+      connection: 'Satujen järjestystehtävät kehittävät sarjallista ajattelua, hahmojen laskeminen harjoittaa lukumäärätaitoja ja tarinapulmien ratkominen vahvistaa loogista päättelyä.',
+      activity: 'Satupulman jälkeen oppilaat järjestävät tarinan tapahtumat oikeaan järjestykseen ja laskevat, montako vaihetta tarinan sankarin pitää suorittaa päästäkseen maaliin.',
+    },
+  ],
+
+  uniqueAngle: 'Satuaiheiset työlehdet hyödyntävät ihmiskunnan vanhinta ja tehokkainta opetusmenetelmää — tarinankerrontaa — tavalla, joka yhdistää lukutaidon, luovuuden ja matemaattisen ajattelun saumattomaksi kokonaisuudeksi. Sadut aktivoivat lasten mielikuvituksen tavalla, johon mikään muu teema ei pysty: ne luovat kokonaisen maailman, jossa hahmot kohtaavat haasteita, tekevät valintoja ja kasvavat — ja samalla lapsi harjoittelee akateemisia taitoja huomaamattaan. Narratiivin voima tekee abstraktista oppimisesta konkreettista, koska jokaisella tehtävällä on merkitys tarinan etenemisessä. Suomalaisessa kasvatusperinteessä tarinankerronta on aina ollut keskeisessä asemassa, ja satuteema resonoi erityisen vahvasti Kalevalan, Muumien ja suomalaisen kansansatuPerinteen kontekstissa. POPS 2014 korostaa luovuutta, monilukutaitoa ja kulttuurista osaamista, ja satuaiheiset työlehdet toteuttavat nämä tavoitteet luontevasti yhdistäen perinteisen tarinankerronnan moderniin oppimistehtävään.',
+
+  researchCitation: 'Egan, K. (1986). Teaching as Story Telling: An Alternative Approach to Teaching and Curriculum. University of Chicago Press. Egan osoitti, että tarinankerrontaan perustuva opetus parantaa merkittävästi oppilaiden sitoutumista, muistamista ja syvemmän ymmärtämisen kehittymistä verrattuna perinteiseen tiedon siirtoon.',
+
+  culturalNotes: 'Suomessa Kalevala, Muumi-tarinat ja rikas kansansatuperinne tekevät satuteemasta erityisen kulttuurisesti merkityksellisen. POPS 2014 painottaa kulttuurista osaamista, monilukutaitoa ja luovuutta, ja satuaihenisten työlehdet yhdistävät nämä kaikki. Suomalainen satuperinne korostaa luonnon ja ihmisen suhdetta, mikä tarjoaa ainutlaatuisen rikastuttavan kerroksen kansainvälisiin satuihin.',
+
+  snippetDefinition: 'Satuaiheiset työlehdet lapsille ovat tulostettavia oppimistehtäviä, jotka käyttävät prinsessoja, lohikäärmeitä, noidita ja muita satuhaamoja matematiikan, lukemisen ja luovan kirjoittamisen opettamiseen. Ne on suunniteltu 3–9-vuotiaille ja sisältävät hahmojen laskemista, tarinapulmia, sanahakuja ja satutarinoiden täydentämistä.',
+
+  snippetHowTo: [
+    'Valitse työlehdet lapsen kehitystason mukaan: nuoremmille satuhahmojen värittämistä, vanhemmille tarinan kirjoittamista ja pulmien ratkaisemista.',
+    'Lue satu ääneen ennen työlehden aloittamista, jotta lapsi ymmärtää tarinan kontekstin ja hahmot.',
+    'Anna lapsen värittää satuhahmo ensin tunneyhteyden luomiseksi ennen akateemista tehtävää.',
+    'Yhdistä työlehdet käsinukketeatteriin tai satunäytelmään moniaistisen kokemuksen luomiseksi.',
+    'Kannusta lasta keksimään vaihtoehtoinen loppu satuun luovan ajattelun kehittämiseksi.',
+    'Vertaile eri kulttuurien versioita samoista saduista maailmankuvan laajentamiseksi.',
+    'Toista suosikkisatuja eri työlehtityypeillä ja lisää vaikeustasoa asteittain.',
+  ],
+
+  limitations: 'Satuaiheiset työlehdet voivat sisältää perinteisiä sukupuolirooleja ja stereotypioita (prinsessat pelastettavina, prinssi sankarina), mikä vaatii kasvattajalta kriittistä keskustelua ja modernien satuversioiden käyttöä. Eräät perheet voivat vieroksua taikuuteen tai yliluonnollisiin elementteihin liittyviä tarinoita.',
+
+  themeComparisons: [
+    { vsThemeId: 'pirates', summary: 'Sadut tarjoavat laajemman narratiivisen kehyksen, jossa hahmokehitys, moraaliset valinnat ja luova kirjoittaminen korostuvat, kun merirosvoteema keskittyy seikkailuun ja koordinaatteihin. Molemmat motivoivat tarinan kautta mutta eri painotuksin.' },
+    { vsThemeId: 'superheroes', summary: 'Sadut ammentavat perinteisestä tarinankerronnasta ja kansanperinteestä, kun supersankarit edustavat modernia populaarikulttuuria. Sadut korostavat kirjallista perintöä ja kielellistä rikkautta, supersankarit toimintaa ja arvokysymyksiä.' },
+    { vsThemeId: 'animals', summary: 'Sadut käyttävät eläimiä hahmoina tarinoissa (puhuvat eläimet, faabelit), kun eläinteema keskittyy todellisiin eläimiin ja biologiaan. Sadut korostavat narratiivia ja moraalista oppimista, eläimet luonnontieteellistä tietoa.' },
+    { vsThemeId: 'circus', summary: 'Sadut ja sirkus jakavat spektaakkelin ja ihmeellisyyden elementin, mutta sadut syvenyvät tarinan rakenteeseen ja hahmokehitykseen, kun sirkus korostaa fyysisiä taitoja, esitystä ja värejä.' },
+  ],
+
+  productLinks: [
+    { appId: 'coloring', anchorText: 'Satuhahmojen värityssivut', context: 'Väritä prinsessoja, lohikäärmeitä ja satumaailmoja samalla kehittäen hienomotoriikkaa ja visuaalista ilmaisua.' },
+    { appId: 'word-search', anchorText: 'Satusanaston sanahaku', context: 'Etsi satusanoja kuten prinsessa, lohikäärme, linna ja noita kirjainruudukosta lukutaidon vahvistamiseksi.' },
+    { appId: 'word-scramble', anchorText: 'Satusanojen kirjainsekotus', context: 'Muodosta satusanoja sekoitetuista kirjaimista harjoitellen oikeinkirjoitusta ja satusanastoa.' },
+    { appId: 'alphabet-train', anchorText: 'Satujen aakkosJuna', context: 'Opettele aakkosia satuteemalla järjestämällä satuhahmojen kirjaimia oikeaan järjestykseen.' },
+  ],
+
+  expertTips: [
+    { tip: 'Lue satu ääneen ennen työlehtiä ja käytä dialogista lukemista: kysy lapsilta ennusteita, tuntemuksia ja perusteluja tarinan käännekohdissa. Tämä syventää ymmärtämistä ja tekee työlehdistä merkityksellisempiä.', source: 'Kirjallisuuskasvatuksen asiantuntija', gradeRange: 'Esiopetus–1. lk' },
+    { tip: 'Yhdistä satutyölehdet kulttuurivertailuun: tutkikaa, miten sama satu (esim. Tuhkimo) kerrotaan eri kulttuureissa. Tämä rakentaa kulttuurista ymmärtämistä ja kriittistä ajattelua.', source: 'Monikulttuurisuuskasvatuksen asiantuntija', gradeRange: '2.–3. lk' },
+    { tip: 'Vastahakoisille lukijoille satujen tuttuus on suuri voimavara. Aloita tunnetusta sadusta, jota lapsi on kuullut, ja käytä työlehteä porttina kirjalliseen työskentelyyn tutun tarinan turvallisuudessa.', source: 'Erityispedagogiikan asiantuntija', gradeRange: 'Esiopetus–3. lk' },
+  ],
 };
 
 registerThemeContent('fairy-tales', 'fi', content);

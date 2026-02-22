@@ -207,6 +207,125 @@ const content: EnrichedThemeContent = {
   // -- Cross-linking --
   relatedThemes: ['space', 'construction', 'superheroes', 'numbers', 'pirates', 'toys'],
   relatedBlogCategories: [],
+
+  // -- SEO Enrichment (Part 184) --
+
+  classroomScenarios: [
+    {
+      situation: 'Luokanopettaja haluaa integroida teknologiakasvatuksen ja koodauksen perusteet osaksi matematiikan ja äidinkielen opetusta ilman kalliita laitteita.',
+      solution: 'Hän käyttää robotti-aiheisia työlehtiä, joissa oppilaat ohjelmoivat paperirobotin liikkumista ruudukossa nuoliohjein, ratkaisevat robottilaskuja, värittävät robottihaahmoja ja tekevät teknologiasanaston sanahakuja.',
+      outcome: 'Oppilaat ymmärtävät algoritmisen ajattelun perusteet, matemaattiset taidot vahvistuvat teknologiakontekstissa ja koodausinnostus herää ilman yhtäkään näyttöpäätettä.',
+    },
+    {
+      situation: 'Kotikouluvanhempi etsii teemaa, joka yhdistää lapsen kiinnostuksen teknologiaan ja koneisiin matemaattiseen ja kielelliseen harjoitteluun.',
+      solution: 'Vanhempi luo robottiteemaviikon: lapsi suunnittelee robotin, kirjoittaa sille ohjeet askeleittain, laskee robottien osita ja rakentaa pahvirobotteja työlehtien ohjeiden perusteella.',
+      outcome: 'Lapsi kehittää algoritmista ajattelua, sekä matemaattisia taitoja käytännöllisessä kontekstissa, joka ylläpitää korkeaa motivaatiota koko viikon ajan.',
+    },
+  ],
+
+  quickStats: [
+    { label: 'Suositeltu ikähaarukka', value: '3–9 vuotta' },
+    { label: 'Työlehtisovellusten määrä', value: '12 sovellusta' },
+    { label: 'Opetussuunnitelman alueet', value: '5 aluetta' },
+    { label: 'Tuetut luokkatasot', value: 'Esiopetus–3. lk' },
+    { label: 'Keskimääräinen työskentelyaika', value: '10–25 min' },
+    { label: 'Teknologia-aiheet', value: '15+ aihepiiriä' },
+  ],
+
+  differentiationStrategies: [
+    {
+      learnerType: 'Visuaaliset oppijat',
+      adaptation: 'Käytä värikkäitä robottikuvituksia, kaavioita robotin osista ja visuaalisia ohjelmointilohkodiagrammeja. Robotin rakennekuvien värikoodaus auttaa hahmottamaan teknologiset komponentit.',
+    },
+    {
+      learnerType: 'Kinesteettiset oppijat',
+      adaptation: 'Yhdistä työlehdet pahvi- ja kierrätysmateriaalirobotin rakentamiseen. Oppilaat ohjelmoivat luokkatoveria liikkumaan lattialle teipatulla ruudukolla työlehden ohjeiden mukaisesti, tehden algoritmisesta ajattelusta fyysistä.',
+    },
+    {
+      learnerType: 'S2-oppijat',
+      adaptation: 'Robotit ovat universaali teema, joka näkyy kaikkien kulttuurien mediassa ja populaarikulttuurissa. Aloita robottien visuaalisella tunnistamisella ja osien nimeämisellä, lisää suomenkielistä teknologiasanastoa asteittain konkreettisten kuvien avulla.',
+    },
+    {
+      learnerType: 'Edistyneet oppijat',
+      adaptation: 'Haasta suunnittelemaan oman robotin toimintalogiikka: kirjoita pseudokoodi robotin päivärutiinille, laske robotinosien kustannukset kertolaskulla ja kirjoita käyttöohje robotille käyttäen algoritmista ajattelua.',
+    },
+  ],
+
+  assessmentIdeas: [
+    {
+      method: 'Robotin suunnittelukansio',
+      criteria: 'Kerää oppilaan robottityölehdet ja suunnittelupiirustukset koko jakson ajalta. Arvioi teknologiasanaston kehittymistä, algoritmisen ajattelun tarkkuutta ja kykyä suunnitella loogisia toimintaohjeita.',
+      gradeLevel: 'Kaikki luokka-asteet',
+    },
+    {
+      method: 'Robottiohjelmointitehtävä',
+      criteria: 'Anna oppilaalle ruudukolle sijoitettu robotti ja määränpää. Pyydä kirjoittamaan vaiheittaiset liikkumisohjeet robotille. Arvioi ohjeiden loogisuutta, tarkkuutta ja kykyä korjata virheitä testauksessa.',
+      gradeLevel: '2.–3. lk',
+    },
+    {
+      method: 'Robotin osien tunnistamistehtävä',
+      criteria: 'Anna oppilaalle robottikuva ja pyydä nimeämään ja selittämään robotin eri osat ja niiden toiminnot. Arvioi teknologiasanaston hallintaa ja kykyä selittää yksinkertaisia toimintaperiaatteita.',
+      gradeLevel: 'Esiopetus–1. lk',
+    },
+  ],
+
+  crossCurricularLinks: [
+    {
+      subject: 'Teknologia ja käsityö (koodaus)',
+      connection: 'Robotit tarjoavat luontevan kontekstin algoritmisen ajattelun, pseudokoodin ja ongelmanratkaisun opiskeluun. POPS 2014:n ohjelmoinnin ja teknologian tavoitteet toteutuvat robottityölehdillä ilman laitteita.',
+      activity: 'Ruudukko-ohjelmointitehtävän jälkeen oppilaat ohjelmoivat luokkatoverin liikkumaan lattialle teipatulla ruudukolla kirjoitettujen ohjeiden mukaisesti.',
+    },
+    {
+      subject: 'Äidinkieli ja kirjallisuus',
+      connection: 'Robottiohjeiden kirjoittaminen kehittää ohjekielen tarkkuutta ja selkeää ilmaisua. Teknologiasanasto kuten anturi, moottori ja ohjelma rikastuttaa tieteellistä sanavarastoa.',
+      activity: 'Sanahaun jälkeen oppilaat kirjoittavat lyhyen käyttöohjeen robotilleen käyttäen selkeää vaiheistettua ohjekieltä.',
+    },
+    {
+      subject: 'Matematiikka (geometria ja logiikka)',
+      connection: 'Robotin liikkuminen ruudukossa yhdistää koordinaattien, suuntien ja etäisyyksien opiskelun algoritmiseen ajatteluun. Robotin osien laskeminen ja kustannusten arviointi harjoittavat peruslaskutaitoja.',
+      activity: 'Robottilaskutehtävän jälkeen oppilaat suunnittelevat robotille optimaalisen reitin ruudukossa vähimmin mahdollisin askelin.',
+    },
+  ],
+
+  uniqueAngle: 'Robotti-aiheiset työlehdet tarjoavat ainutlaatuisen portin tulevaisuuden avaintaitoihin — algoritmiseen ajatteluun, koodauksen perusteisiin ja teknologialukutaitoon — ilman yhtäkään näyttöpäätettä tai ohjelmointiympäristöä. Tämä offline-lähestymistapa on erityisen arvokas, koska se kehittää laskennallista ajattelua paperilla, missä oppilaan on ajateltava jokainen askel itse ilman tietokoneen välitöntä palautetta. Suomessa POPS 2014 sisällytti ohjelmoinnin kaikkien aineiden läpivleikkaavaksi teemaksi, ja robottityölehdet toteuttavat tämän tavoitteen luontevasti yhdistämällä koodauksen matematiikkaan ja äidinkieleen. Suomen maine koulutuksen ja teknologian edelläkävijänä (Nokia, Linux, startup-ekosysteemi) antaa robottiTeemalle erityistä kulttuurista painoarvoa. Työlehtien kautta lapset kokevat olevansa tulevaisuuden teknologian luojia, eivät pelkkiä kuluttajia, mikä kehittää kasvun asennetta teknologiaa kohtaan.',
+
+  researchCitation: 'Wing, J. M. (2006). Computational Thinking. Communications of the ACM. Wing määritteli laskennallisen ajattelun perustavanlaatuiseksi taidoksi, joka tulee olla jokaisen lapsen oppimäärässä lukemisen, kirjoittamisen ja laskemisen rinnalla, ja osoitti sen soveltuvan kaikkiin oppiaineisiin.',
+
+  culturalNotes: 'Suomi on teknologiakasvatuksen edelläkävijä, ja POPS 2014 sisällytti ohjelmoinnin kaikkien aineiden läpileikkaavaksi teemaksi jo alakoulussa. Suomalainen teknologiperinne Nokiasta Linux-käyttöjärjestelmään ja nykyiseen startup-ekosysteemiin luo kulttuurisen pohjan, johon robottiteema resonoi voimakkaasti. Robottityölehdet tukevat suomalaista näkemystä, jossa teknologinen lukutaito on jokaisen kansalaisen perustaito.',
+
+  snippetDefinition: 'Robotti-aiheiset työlehdet lapsille ovat tulostettavia oppimistehtäviä, jotka käyttävät robottihaahmoja, ohjelmointiruudukoita ja teknologiakuvituksia matematiikan, lukemisen ja algoritmisen ajattelun opettamiseen. Ne on suunniteltu 3–9-vuotiaille ja sisältävät robottilaskuja, polkuohjelmointia, sanahakuja ja robotin suunnittelutehtäviä.',
+
+  snippetHowTo: [
+    'Valitse työlehdet lapsen kehitystason mukaan: nuoremmille robottien värittämistä ja osien laskemista, vanhemmille ohjelmointitehtäviä.',
+    'Esittele robottiteema keskustelemalla siitä, missä lapsi näkee robotteja arjessa (imurirobotit, tehtaiden robotit).',
+    'Aloita yksinkertaisilla nuoliohjelmointehtävillä, joissa lapsi ohjaa robotin ruudukon läpi määränpäähän.',
+    'Yhdistä työlehdet pahvirobotin rakentamiseen konkreettisen kokemuksen luomiseksi.',
+    'Anna lapsen testata ohjelmointiaan ohjaamalla luokkatoveria lattialle teipatulla ruudukolla.',
+    'Keskustele teknologian merkityksestä arjessa ja tulevaisuuden ammateista innostuksen rakentamiseksi.',
+    'Lisää vaikeustasoa asteittain: yksinkertaisista suuntaohjeista monimutkaisiin ehtolauseisiin.',
+  ],
+
+  limitations: 'Robotti-aiheiset työlehdet saattavat luoda eräillä lapsilla käsityksen, että kaikki teknologia on positiivista, mikä vaatii kriittistä keskustelua teknologian eettisistä kysymyksistä. Ilman konkreettista ohjelmointiymPäristöä yhteys todelliseen koodaukseen voi jäädä abstraktiksi eräille oppilaille.',
+
+  themeComparisons: [
+    { vsThemeId: 'space', summary: 'Robotit keskittyvät teknologian rakentamiseen ja ohjelmointiin, kun avaruusteema käsittelee laajemmin planeettouja, tähtiä ja avaruustutkimusta. Robotit korostavat algoritmista ajattelua, avaruus luonnontieteellistä ymmärtämistä.' },
+    { vsThemeId: 'construction', summary: 'Robotit ja rakentaminen jakavat suunnittelun ja rakenteiden elementin, mutta robotit lisäävät ohjelmoinnin ja automaation ulottuvuuden. Rakentaminen korostaa fyysisiä rakenteita, robotit loogista ajattelua.' },
+    { vsThemeId: 'superheroes', summary: 'Robotit ja supersankarit motivoivat molemmat mielikuvituksen kautta, mutta robotit tarjoavat konkreettisen yhteyden teknologiaan ja ohjelmointiin, kun supersankarit keskittyvät moraaliin ja rohkeuteen.' },
+    { vsThemeId: 'numbers', summary: 'Robotit ja numerot jakavat matemaattisen ulottuvuuden, mutta robotit lisäävät teknologian, algoritmien ja suunnittelun kontekstin. Numeroteema keskittyy puhtaaseen matemaattiseen osaamiseen, robotit soveltamiseen.' },
+  ],
+
+  productLinks: [
+    { appId: 'coloring', anchorText: 'Robottihahmojen värityssivut', context: 'Väritä erilaisia robotteja ja teknologiahahmoja samalla kehittäen hienomotoriikkaa ja visuaalista suunnittelukykyä.' },
+    { appId: 'grid-match', anchorText: 'Robottiruudukkotehtävät', context: 'Yhdistä robotit ja niiden osat ruudukossa harjoitellen avaruudellista hahmottamista ja loogista päättelyä.' },
+    { appId: 'word-search', anchorText: 'Teknologiasanaston sanahaku', context: 'Etsi teknologiasanoja kuten robotti, anturi, moottori ja koodi kirjainruudukosta lukutaidon vahvistamiseksi.' },
+    { appId: 'code-addition', anchorText: 'Robottikoodauslaskut', context: 'Ratkaise yhteenlaskutehtäviä koodauskontekstissa yhdistäen matemaattiset taidot algoritmiseen ajatteluun.' },
+  ],
+
+  expertTips: [
+    { tip: 'Aloita unplugged-ohjelmoinnilla: oppilaat ohjelmoivat luokkatoverin liikkumaan lattialle teipatulla ruudukolla työlehden ohjeiden mukaisesti. Tämä tekee algoritmisesta ajattelusta fyysistä ja hauskaa.', source: 'Teknologiakasvatuksen asiantuntija', gradeRange: 'Esiopetus–1. lk' },
+    { tip: 'Yhdistä robottityölehdet kierrätysmateriaalirobotin rakentamiseen: oppilaat suunnittelevat robotin paperilla, laskevat osien määrät ja rakentavat sen pahvista, muovipulloista ja korkeista. Tämä yhdistää suunnittelun, matematiikan ja käytännön rakentamisen.', source: 'STEAM-pedagogiikan asiantuntija', gradeRange: '1.–3. lk' },
+    { tip: 'Käytä robottiteemaa kasvun asenteen rakentamiseen: kun ohjelmointitehtävässä tulee virhe, puhu debuggaamisesta eli virheen etsimisestä ja korjaamisesta. Tämä opettaa, että virheet ovat oppimisen osa.', source: 'Erityispedagogiikan asiantuntija', gradeRange: 'Esiopetus–3. lk' },
+  ],
 };
 
 registerThemeContent('robots', 'fi', content);

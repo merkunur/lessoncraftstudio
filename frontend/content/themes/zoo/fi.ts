@@ -208,6 +208,125 @@ const content: EnrichedThemeContent = {
   // -- Cross-linking --
   relatedThemes: ['animals', 'farm', 'pets', 'birds', 'dinosaurs', 'ocean'],
   relatedBlogCategories: [],
+
+  // -- SEO Enrichment (Part 184) --
+
+  classroomScenarios: [
+    {
+      situation: 'Esiopetuksen opettaja haluaa rakentaa temaattisen viikon, joka yhdistää luonnontieteet, matematiikan ja äidinkielen, mutta oppilaiden kiinnostus vaihtelee suuresti eri eläinryhmien välillä.',
+      solution: 'Hän valitsee eläintarha-teeman, joka sisältää eksoottiset nisäkkäät, linnut, matelijat ja vesieläimet. Oppilaat laskevat eläimiä aitauksittain, värittävät leijonien ja norsujen kuvia, yhdistävät eläimet varjoihinsa ja tekevät sanahakuja eläintarhasanastolla.',
+      outcome: 'Jokaiselle oppilaalle löytyy innostava eläin, sitoutuminen säilyy koko viikon ja oppilaat oppivat tunnistamaan yli viisitoista eksootista lajia samalla harjoitellen laskemista ja kirjaintunnistusta.',
+    },
+    {
+      situation: 'Kotikouluvanhempi etsii teemaa, joka avaa ikkunan maantieteeseen ja biodiversiteettiin ilman museoretkeä, koska perhe asuu kaukana lähimmästä eläintarhasta.',
+      solution: 'Vanhempi yhdistää eläintarhatyölehdet virtuaalisiin eläintarhakierroksiin: lapsi katsoo suoraa pingviinikameraa ja täyttää pingviinilaskutehtävän, piirtää eläinten kotimanosat maailmankartalle ja pitää eläintarhanhoitajan päiväkirjaa.',
+      outcome: 'Lapsi ymmärtää maanosien ja elinymPäristöjen käsitteet, kehittää empatiataitoja suojelukeskustelujen kautta ja suorittaa matemaattisia tehtäviä innostuneesti, koska eläintarhakonteksti ylläpitää motivaatiota.',
+    },
+  ],
+
+  quickStats: [
+    { label: 'Suositeltu ikähaarukka', value: '3–9 vuotta' },
+    { label: 'Työlehtisovellusten määrä', value: '12 sovellusta' },
+    { label: 'Opetussuunnitelman alueet', value: '5 aluetta' },
+    { label: 'Tuetut luokkatasot', value: 'Esiopetus–3. lk' },
+    { label: 'Keskimääräinen työskentelyaika', value: '10–25 min' },
+    { label: 'Eksoottiset eläinlajit', value: '30+ lajia' },
+  ],
+
+  differentiationStrategies: [
+    {
+      learnerType: 'Visuaaliset oppijat',
+      adaptation: 'Käytä suuria, värikylläisiä eläintarhaeläinkuvituksia ja aitauskarttoja. Maanosakohtaiset värikoodit auttavat muistamaan, mistä eläimet ovat kotoisin, ja lajien tunnistuskortit tukevat visuaalista luokittelua.',
+    },
+    {
+      learnerType: 'Kinesteettiset oppijat',
+      adaptation: 'Yhdistä työlehdet leikkieläinten lajitteluun ja eläintarhakartan rakentamiseen lattialle. Oppilaat sijoittavat fyysisiä eläinfiguureja oikeille alueille ennen kuin merkitsevät vastaukset paperille.',
+    },
+    {
+      learnerType: 'S2-oppijat',
+      adaptation: 'Eläintarhan eläimet ovat universaalisti tunnettuja kaikissa kulttuureissa. Aloita kuvallisella tunnistamisella ja nimeämisellä, lisää suomenkielistä sanastoa asteittain. Eläinten kansainväliset nimet ja visuaalinen konteksti helpottavat oppimista.',
+    },
+    {
+      learnerType: 'Edistyneet oppijat',
+      adaptation: 'Haasta tutkimustehtävillä: vertaile uhanalaisten lajien suojelutilannetta, laske eläintarhan aitausten pinta-aloja ja kirjoita argumentoiva teksti siitä, miksi tietty laji ansaitsee lisäsuojelua. Sisällytä maanosien välisiä vertailuja.',
+    },
+  ],
+
+  assessmentIdeas: [
+    {
+      method: 'Eläintarhan lajikansio',
+      criteria: 'Kerää oppilaan eläintarhatyölehdet ja lajikortit koko jakson ajalta. Arvioi eläinsanaston kehittymistä, maantieteellisen tiedon tarkkuutta ja kykyä luokitella eläimiä useilla kriteereillä.',
+      gradeLevel: 'Kaikki luokka-asteet',
+    },
+    {
+      method: 'Eläintarhanhoitajan raportti',
+      criteria: 'Pyydä oppilasta kirjoittamaan lyhyt raportti kuvitteellisesta eläintarhan hoitopäivästä: mitä eläimiä ruokittiin, miten paljon ne söivät, mistä maanosasta ne ovat kotoisin ja mitä erityishuomiota ne vaativat. Arvioi tiedon soveltamista ja kirjallista ilmaisua.',
+      gradeLevel: '2.–3. lk',
+    },
+    {
+      method: 'Maanosalajittelun tarkkuustehtävä',
+      criteria: 'Anna oppilaalle kaksikymmentä eläinkorttia ja tyhjä maailmankartta. Pyydä sijoittamaan eläimet oikeille maanosille. Arvioi maantieteellisen tiedon hallintaa, lajien tunnistamisen tarkkuutta ja lajittelun perusteluja.',
+      gradeLevel: 'Esiopetus–2. lk',
+    },
+  ],
+
+  crossCurricularLinks: [
+    {
+      subject: 'Ympäristöoppi (biologia ja maantiede)',
+      connection: 'Eläintarhan eläimet edustavat kaikkia maanosien eläimistöjä, tarjoten luonnollisen portin biodiversiteettiin, elinymPäristöjen tutkimiseen ja suojelukasvatukseen. POPS 2014:n ympäristöopin tavoitteet eläinkunnan monimuotoisuuden ymmärtämisestä toteutuvat suoraan.',
+      activity: 'Lajittelutehtävän jälkeen oppilaat sijoittavat eläintarhan eläimiä maailmankartalle maanosittain ja merkitsevät kunkin eläimen elinymPäristötyypin värikoodilla.',
+    },
+    {
+      subject: 'Äidinkieli ja kirjallisuus',
+      connection: 'Eläintarhasanasto kuten aitaus, kasvinsyöjä, uhanalainen ja elinymPäristö rikastuttaa tieteellistä sanavarastoa luonnollisessa ja motivoivassa kontekstissa.',
+      activity: 'Sanahaun jälkeen oppilaat kirjoittavat lyhyen eläintarhanhoitajan päiväkirjamerkinnän, jossa käytetään vähintään viittä opittua eläintarhasanaa.',
+    },
+    {
+      subject: 'Matematiikka (laskeminen ja luokittelu)',
+      connection: 'Eläintarhan eläinten moninaisuus tarjoaa luontevan kontekstin laskemiselle, luokittelulle ja vertailulle. POPS 2014:n tilastojen tulkinnan tavoitteet toteutuvat kävijämäärä- ja eläinkantatehtävissä.',
+      activity: 'Laskutehtävän jälkeen oppilaat luovat yksinkertaisen pylväskaavion, jossa verrataan eri aitausten eläinmääriä ja lasketaan kokonaismäärä.',
+    },
+  ],
+
+  uniqueAngle: 'Eläintarha-aiheiset työlehdet tarjoavat ainutlaatuisen pedagogisen ulottuvuuden, jota mikään muu eläinteema ei pysty toistamaan: ne yhdistävät globaalin biodiversiteetin, maantieteellisen ajattelun ja suojelukasvatuksen yhdeksi kiinnostavaksi oppimiskehykseksi. Kun lapsi kohtaa yhdellä työlehdellä leijonien, pingviinien ja koalojen kaltaisia olentoja, hän alkaa luonnostaan pohtia, miksi eri eläimet elävät eri puolilla maailmaa ja miten ilmasto ja maantiede muokkaavat eläimistöä. Tämä maantieteellinen ulottuvuus erottaa eläintarhateeMan kotieläin- tai maatilateemasta, koska jokainen työlehti avaa ikkunan uuteen maanosaan ja elinymPäristöön. Suojelunäkökulma rikastuttaa oppimista entisestään: lapset kehittävät empatiaa ja ympäristövastuuta oppiessaan, että monet eläintarhan eläimet ovat uhanalaisia ja eläintarhat toimivat aktiivisesti lajien pelastamiseksi. Suomessa eläintarhat kuten Korkeasaari ja Ähtärin eläinpuisto yhdistävät kasvatuksen ja suojelun tavalla, joka resonoi POPS 2014:n kestävän kehityksen ja ympäristövastuullisuuden tavoitteiden kanssa. Työlehtien monimuotoisuus — nisäkkäät, linnut, matelijat, vesieläimet — takaa, että jokaiselle lapselle löytyy kiinnostava eläin ja oppiminen ei käy yksitoikkoiseksi viikkojenkaan jatkuessa.',
+
+  researchCitation: 'Rennie, L. J. & McClafferty, T. P. (1995). Using Visits to Interactive Science and Technology Centers, Museums, Aquaria, and Zoos to Promote Learning in Science. Journal of Science Teacher Education. Tutkimus osoitti, että eläintarha- ja tiedekeskusvierailuihin ankkuroidut oppimiskokemukset parantavat merkittävästi käsitteellistä ymmärtämistä, asenteita luonnontiedettä kohtaan ja pitkäaikaista muistamista verrattuna pelkkään luokkahuoneopetukseen.',
+
+  culturalNotes: 'Suomessa Korkeasaaren eläintarha Helsingissä ja Ähtärin Eläinpuisto ovat tärkeitä suojelukasvatuksen keskuksia, jotka yhdistävät tutkimuksen ja yleisökasvatuksen. POPS 2014 painottaa kestävää kehitystä ja ympäristövastuullisuutta, ja eläintarhateema tarjoaa luontevan yhteyden näihin tavoitteisiin. Suomalaisessa kulttuurissa luonnon kunnioittaminen on syvällä kasvatusperinteessä, ja eläintarha-aiheiset työlehdet laajentavat tätä kunnioitusta kattamaan myös eksoottiset lajit ja globaalin biodiversiteetin.',
+
+  snippetDefinition: 'Eläintarha-aiheiset työlehdet lapsille ovat tulostettavia oppimistehtäviä, jotka käyttävät leijonien, norsujen, kirahvien ja muiden eksoottisten eläinten kuvituksia matematiikan, lukemisen ja luonnontieteen opettamiseen. Ne on suunniteltu 3–9-vuotiaille ja sisältävät laskutehtäviä, eläinten luokittelua, sanahakuja ja suojelukasvatusta.',
+
+  snippetHowTo: [
+    'Valitse työlehdet lapsen kehitystason mukaan: nuoremmille yksinkertaista värittämistä ja laskemista, vanhemmille tutkimustehtäviä ja tietotekstejä.',
+    'Esittele päivän eläintarhaeläin lyhyesti ennen tehtävän aloittamista — kerro, mistä maanosasta se on kotoisin ja mitä se syö.',
+    'Anna lapsen värittää ja laskea rauhallisesti ilman kiirettä, jotta eläintarhateema säilyy nautinnollisena oppimiskokemuksena.',
+    'Yhdistä työlehdet virtuaalisiin eläintarhakierroksiin tai suoriin kamerasyötteisiin monitasoisen kokemuksen luomiseksi.',
+    'Keskustele eläinten elinymPäristöistä ja suojelusta tehtävien välissä ympäristötietoisuuden rakentamiseksi.',
+    'Luo eläintarhakartta seinälle, johon lapsi lisää uuden eläimen jokaiselta työlehtikerralta visualisoidakseen edistymistä.',
+    'Toista suosikkityölehtiä säännöllisesti ja lisää vaikeustasoa asteittain, jotta taidot vahvistuvat eläintarhakontekstissa.',
+  ],
+
+  limitations: 'Eläintarha-aiheiset työlehdet saattavat herättää keskustelua eläinten oikeuksista ja eläintarhojen eettisyydestä, mikä on otettava huomioon eräiden perheiden arvomaailman kannalta. Kasvattajien tulee olla valmiita käsittelemään eläinten vankeudessa pitämisen eettisiä kysymyksiä ikätasoisesti. On tärkeää korostaa modernien eläintarhojen suojeluroolia pelkän viihdetarkoituksen sijaan.',
+
+  themeComparisons: [
+    { vsThemeId: 'animals', summary: 'Eläintarha kokoaa eksoottiset lajit viideltä maanosalta yhteen kontekstiin, kun yleinen eläinteema kattaa laajemmin koti- ja villieläimiä ilman maantieteellistä aitausnäkökulmaa ja suojelukasvatuksen kehystä.' },
+    { vsThemeId: 'farm', summary: 'Eläintarha tuo eksoottiset ja villieläimet oppimiseen, kun maatila keskittyy kotieläimiin ja maataloustuotantoon. Eläintarha avaa ikkunan globaaliin biodiversiteettiin, kun taas maatila korostaa paikallista tuotantoa ja ihmisen ja eläimen arkista kumppanuutta.' },
+    { vsThemeId: 'pets', summary: 'EläintarhaEläimet ovat eksootttisia ja usein uhanalaisia lajeja, jotka elävät hoidetuissa aitauksissa, kun lemmikit ovat jokapäiväisiä kotieläimiä. Eläintarha kehittää globaalia ympäristötietoisuutta, kun lemmikkiteema vahvistaa hoivavastuuta.' },
+    { vsThemeId: 'dinosaurs', summary: 'Eläintarha esittelee elosssa olevia eksootisia eläimiä, joita lapsi voi nähdä oikeasti, kun dinosaurusteema käsittelee sukupuuttoon kuolleita lajeja. Molemmat kehittävät luokittelutaitoja, mutta eläintarha korostaa suojelua ja dinosaurukset paleontologiaa.' },
+  ],
+
+  productLinks: [
+    { appId: 'coloring', anchorText: 'Eläintarhan eläinten värityssivut', context: 'Väritä leijonien, norsujen ja kirahvien yksityiskohtaisia kuvituksia samalla kehittäen hienomotoriikkaa ja eläintuntemusta.' },
+    { appId: 'find-and-count', anchorText: 'Laske eläintarhan eläimiä', context: 'Etsi ja laske eksoottiset eläimet aitauksittain harjoitellen lukumäärien tunnistamista ja visuaalista tarkkaavaisuutta.' },
+    { appId: 'word-search', anchorText: 'Eläintarhasanaston sanahaku', context: 'Etsi eläintarhasanastoa kuten leijona, norsu, kirahvi ja seepra kirjainruudukosta lukutaidon vahvistamiseksi.' },
+    { appId: 'picture-sort', anchorText: 'Lajittele eläintarhan eläimiä', context: 'Ryhmittele eläintarhan eläimiä ominaisuuksien kuten koon, ruokavalion tai maanosan mukaan luokittelutaitojen kehittämiseksi.' },
+  ],
+
+  expertTips: [
+    { tip: 'Aloita eläintarhateemaviikko rakentamalla luokkaan yksinkertainen eläintarhakartta, johon oppilaat lisäävät uuden eläimen jokaisena päivänä. Tämä visuaalinen edistymisseuranta pitää innostuksen korkealla ja luo konkreettisen oppimistuotteen.', source: 'Varhaiskasvatuksen pedagoginen asiantuntija', gradeRange: 'Esiopetus–1. lk' },
+    { tip: 'Yhdistä eläintarhatyölehdet todellisten suojeluohjelmien esittelyyn: kerro oppilaille Korkeasaaren lumileopardin tai Ähtärin pandojen tarinat havainnollistamaan, miten eläintarhat suojelevat uhanalaisia lajeja.', source: 'Luonnontieteen aineenopettaja', gradeRange: '2.–3. lk' },
+    { tip: 'Vastahakoisille oppijoille aloita aina lempi-eläintarhaeläimestä ja anna lapsen valita sitä esittäviä työlehtiä. Henkilökohtainen yhteys yksittäiseen eläimeen voi avata koko eläintarhateeman oppimiselle.', source: 'Erityispedagogiikan asiantuntija', gradeRange: 'Esiopetus–3. lk' },
+  ],
 };
 
 registerThemeContent('zoo', 'fi', content);

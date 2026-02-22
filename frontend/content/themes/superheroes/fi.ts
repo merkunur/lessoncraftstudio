@@ -207,6 +207,125 @@ const content: EnrichedThemeContent = {
   // -- Cross-linking --
   relatedThemes: ['robots', 'fairy-tales', 'emotions', 'sports', 'pirates', 'space'],
   relatedBlogCategories: [],
+
+  // -- SEO Enrichment (Part 184) --
+
+  classroomScenarios: [
+    {
+      situation: 'Luokanopettaja huomaa, että osa oppilaista menettää kiinnostuksensa perinteisiin oppitunteihin, mutta elävöityy välittömästi, kun puheeksi tulevat supersankarit ja erityisvoimat.',
+      solution: 'Hän ottaa käyttöön supersankari-aiheiset työlehdet: oppilaat laskevat sankaritiimien jäseniä, ratkaisevat supersankaripulmia, värittävät sankarikuvituksia ja tekevät sankariominaisuuksien sanastotehtäviä.',
+      outcome: 'Kaikkien oppilaiden sitoutuminen paranee, matemaattiset tehtävät tuntuvat sankarilliselta tehtävältä velvollisuuden sijaan ja luokassa syntyy positiivinen keskustelu rohkeudesta ja auttamisesta.',
+    },
+    {
+      situation: 'Kotikouluvanhempi etsii teemaa, joka motivoi lasta, joka rakastaa supersankaritarinoita mutta vierastaa perinteisiä harjoitustehtäviä.',
+      solution: 'Vanhempi luo supersankariteemaviikon: joka päivä lapsi on eri supersankari, joka ratkaisee päivän matemaattisen haasteen, löytää piilotettuja sanoja ja suunnittelee oman sankarinsa voiman ja heikkouden.',
+      outcome: 'Lapsi kehittää ongelmanratkaisutaitoja, sosioemotionaalisia taitoja arvopohdinnassa ja matemaattisia valmiuksia luontevasti supersankarikontekstin motivoimana.',
+    },
+  ],
+
+  quickStats: [
+    { label: 'Suositeltu ikähaarukka', value: '3–9 vuotta' },
+    { label: 'Työlehtisovellusten määrä', value: '10 sovellusta' },
+    { label: 'Opetussuunnitelman alueet', value: '4 aluetta' },
+    { label: 'Tuetut luokkatasot', value: 'Esiopetus–3. lk' },
+    { label: 'Keskimääräinen työskentelyaika', value: '10–25 min' },
+    { label: 'Sankaritarinat', value: '20+ tarinaa' },
+  ],
+
+  differentiationStrategies: [
+    {
+      learnerType: 'Visuaaliset oppijat',
+      adaptation: 'Käytä dynaamissia supersankarikuvituksia, voimavertailukaavioita ja toimintakohtausten sarjakuvaesityksiä. Supersankarien ominaisuuskorttien visuaalinen esitys tukee hahmokehityksen hahmottamista.',
+    },
+    {
+      learnerType: 'Kinesteettiset oppijat',
+      adaptation: 'Yhdistä työlehdet supersankaritoimintaratoihin: oppilaat suorittavat fyysisiä haasteita ja ratkaisevat matemaattisen tehtävän ennen seuraavaan pisteeseen etenemistä. Supersankaripukujen ja -naamioiden askartelu aktivoi käytännön oppimista.',
+    },
+    {
+      learnerType: 'S2-oppijat',
+      adaptation: 'Supersankarit ovat kansainvälisesti tunnettuja populaarikulttuurin kautta. Aloita sankarien visuaalisella tunnistamisella ja ominaisuuksien nimeämisellä, lisää suomenkielistä sanastoa asteittain tuttujen hahmojen kontekstissa.',
+    },
+    {
+      learnerType: 'Edistyneet oppijat',
+      adaptation: 'Haasta suunnittelemaan oma supersankari yksityiskohtaisesti: voima, heikkous, taustatarina ja tehtävä. Sisällytä matemaattisia elementtejä kuten voimatasojen vertailua ja tiimin kokoonpanon optimointia.',
+    },
+  ],
+
+  assessmentIdeas: [
+    {
+      method: 'Supersankariportfolio',
+      criteria: 'Kerää oppilaan supersankarityölehdet ja luovat suunnitelmat koko jakson ajalta. Arvioi ongelmanratkaisutaitojen kehittymistä, arvopohdinnnan kypsymistä ja kykyä soveltaa matemaattisia taitoja sankarimiSkenaarioihin.',
+      gradeLevel: 'Kaikki luokka-asteet',
+    },
+    {
+      method: 'Oman supersankarin esittelytehtävä',
+      criteria: 'Pyydä oppilasta suunnitella ja esitellä oma supersankari: nimi, voima, heikkous, taustatarina ja miten sankari auttaisi maailmaa. Arvioi luovuutta, kirjallista ilmaisua ja arvopohdinnan syvyyttä.',
+      gradeLevel: '2.–3. lk',
+    },
+    {
+      method: 'Sankaritiimin kokoonpanotehtävä',
+      criteria: 'Anna oppilaalle supersankarikortteja voimatasoilla ja pyydä kokoamaan tiimi, jonka kokonaisvoima on tasan sata. Arvioi laskutaitoja, strategista ajattelua ja kykyä perustella valintoja.',
+      gradeLevel: '1.–3. lk',
+    },
+  ],
+
+  crossCurricularLinks: [
+    {
+      subject: 'Elämänkatsomustieto ja arvot',
+      connection: 'Supersankaritarinat tarjoavat luontevan kontekstin oikean ja väärän, rohkeuden, vastuullisuuden ja auttamisen pohdinnalle. POPS 2014:n arvokasvatuksen tavoitteet toteutuvat supersankarikeskusteluissa konkreettisesti.',
+      activity: 'Supersankaripulman jälkeen oppilaat keskustelevat pareittain: mitä supervoimaa käyttäisit maailman parantamiseen ja miksi? Kirjoita lyhyt perustelu omalle valinnallesi.',
+    },
+    {
+      subject: 'Äidinkieli ja kirjallisuus',
+      connection: 'Supersankaritarinoiden kirjoittaminen kehittää narratiivisia taitoja, hahmokehitystä ja kuvailevaa kieltä. Sankariominaisuuksien sanasto rikastuttaa adjektiivien ja kuvailevien verbien käyttöä.',
+      activity: 'Sanahaun jälkeen oppilaat kirjoittavat lyhyen sankaritarinan, jossa hänen oma supersankarinsa kohtaa haasteen ja ratkaisee sen käyttäen viittä oppimaansa sanaa.',
+    },
+    {
+      subject: 'Matematiikka (vertailu ja laskeminen)',
+      connection: 'Supersankarien voimatasojen vertailu ja tiimien kokoaminen tarjoavat luontevan kontekstin yhteen- ja vähennyslaskulle, vertailulle ja strategiselle ajattelulle.',
+      activity: 'Voimatasotehtävän jälkeen oppilaat suunnittelevat supersankaritiimin budjetin puitteissa, jossa jokaisella sankarilla on kustannus ja voimataso, ja tavoitteena on maksimoida tiimin kokonaisvoima.',
+    },
+  ],
+
+  uniqueAngle: 'Supersankari-aiheiset työlehdet tarjoavat ainutlaatuisen pedagogisen yhdistelmän, jossa akateeminen oppiminen yhdistyy sosioemotionaaliseen kasvuun tavalla, jota harvat muut teemat pystyvät tarjoamaan. Supersankaritarinat eivät ole pelkkia fantasiaa — ne ovat moraalisia kertomuksia rohkeudesta, vastuullisuudesta, oikeudenmukaisuudesta ja heikomman puolustamisesta. Kun lapsi ratkaisee supersankarilaskutehtävän, hän samalla pohtii, mitä tarkoittaa käyttää voimaa oikein. Tämä arvoulottuvuus tekee supersankariteemasta erityisen arvokkaan sosioemotionaalisen oppimisen kontekstina. Supersankarien universaali vetovoima takaa korkean motivaation sekä perinteisesti akateemisesti suuntautuneilla että toiminnallisesti motivoituvilla oppijoilla. POPS 2014 painottaa laaja-alaista osaamista, johon kuuluvat arvot, sosiaaliset taidot ja kulttuurinen osaaminen, ja supersankariteema yhdistää nämä kaikki akateemiseen oppimiseen. Suomessa sisu-käsite resonoi supersankarien sitkeyden ja rohkeuden kanssa, luoden kulttuurisesti merkityksellisen yhteyden.',
+
+  researchCitation: 'Bauer, K. L., Iyer, S. N., Boon, R. T. & Fore, C. (2010). 20 Ways to Enhance Character Education Through Superhero Literature. Intervention in School and Clinic. Tutkimus osoitti, että supersankarilitreatuuriin perustuva opetus kehittää merkittävästi lasten moraalista päättelykykyä, empatiaa ja prososiaalista käyttäytymistä.',
+
+  culturalNotes: 'Suomessa sisu-käsite — sinnikkyys, rohkeus ja päättäväisyys vastoinkäymisissä — resonoi voimakkaasti supersankaritarinoiden kanssa. POPS 2014 painottaa arvokasvatusta, sosiaalisia taitoja ja kulttuurista osaamista, ja supersankariteema tarjoaa luontevan kontekstin näille kaikille. Suomalaisia ”supersankareita” voidaan löytää Kalevalasta (Väinämöinen, Lemminkäinen) ja modernista kirjallisuudesta, tarjoten kulttuurisesti rikastuttavan kerroksen.',
+
+  snippetDefinition: 'Supersankari-aiheiset työlehdet lapsille ovat tulostettavia oppimistehtäviä, jotka käyttävät supersankarihahmoja, toimintakohtauksia ja sankarimissioita matematiikan, lukemisen ja arvokasvatuksen opettamiseen. Ne on suunniteltu 3–9-vuotiaille ja sisältävät voimatasotehtäviä, sankarilaskuja, sanahakuja ja luovaa hahmokehitystä.',
+
+  snippetHowTo: [
+    'Valitse työlehdet lapsen kehitystason mukaan: nuoremmille supersankarien värittämistä, vanhemmille strategisia tiimitehtäviä.',
+    'Keskustele ensin supersankarien arvoista: miksi sankarit auttavat muita ja mitä rohkeus tarkoittaa arkielämässä.',
+    'Anna lapsen suunnitella oma supersankari ennen tehtäviä henkilökohtaisen yhteyden luomiseksi.',
+    'Yhdistä työlehdet supersankari-toimintarataan, jossa jokainen piste vaatii tehtävän ratkaisemista.',
+    'Käytä supersankaripalkintojärjestelmää: sankaritason nousu jokaisesta suoritetusta tehtäväkokonaisuudesta.',
+    'Keskustele voimien käytöstä ja vastuullisuudesta sosioemotionaalisen oppimisen vahvistamiseksi.',
+    'Toista suosikkitehtäviä vaikeutuvilla tasoilla ja lisää uusia sankarihaasteita.',
+  ],
+
+  limitations: 'Supersankari-aiheiset työlehdet saattavat korostaa fyysistä voimaa ratkaisumenetelmänä, mikä vaatii kasvattajalta keskustelua väkivallattomista ratkaisutavoista ja todellisen sankaruuden merkityksestä arjessa. Sukupuoliroolien stereotypiat ovat mahdollisia, joten on tärkeää sisällyttää moninaisia sankarihahmoja.',
+
+  themeComparisons: [
+    { vsThemeId: 'robots', summary: 'Supersankarit motivoivat moraalisten tarinoiden ja arvopohdinnnan kautta, kun robotit keskittyvät teknologiaan ja algoritmiseen ajatteluun. Supersankarit korostavat sosioemotionaalista kasvua, robotit loogista ja teknologista osaamista.' },
+    { vsThemeId: 'fairy-tales', summary: 'Supersankarit edustavat modernia populaarikulttuuria, kun sadut ammentavat perinteisestä kansanperinteestä. Molemmat sisältävät sankaritarinoita ja moraalisia valintoja, mutta eri kulttuurisista lähtökohdista.' },
+    { vsThemeId: 'emotions', summary: 'Supersankarit ja tunteet jakavat sosioemotionaalisen oppimisen elementin, mutta supersankarit lähestyvat sitä tarinankerronnan ja toiminnan kautta, kun tunneteema käsittelee tunteita suoraan ja analyyttisesti.' },
+    { vsThemeId: 'sports', summary: 'Supersankarit ja urheilu jakavat fyysisen suorituskyvyn ja tiimityön elementin, mutta supersankarit lisäävät moraalisen ja narratiivisen ulottuvuuden, kun urheilu keskittyy todellisiin lajeihin ja reiluun kilpailuun.' },
+  ],
+
+  productLinks: [
+    { appId: 'coloring', anchorText: 'Supersankarien värityssivut', context: 'Väritä dynaamissia supersankarihahmoja ja toimintakohtauksia samalla kehittäen hienomotoriikkaa ja visuaalista ilmaisua.' },
+    { appId: 'word-search', anchorText: 'Supersankarisanaston sanahaku', context: 'Etsi sankarisanoja kuten voima, rohkeus, pelastus ja tiimi kirjainruudukosta lukutaidon vahvistamiseksi.' },
+    { appId: 'word-guess', anchorText: 'Supersankarisanan arvaus', context: 'Arvaa supersankarisanoja kirjain kerrallaan harjoitellen oikeinkirjoitusta ja sanastoa jännittävässä kontekstissa.' },
+    { appId: 'odd-one-out', anchorText: 'Mikä ei kuulu joukkoon', context: 'Tunnista supersankariryhmistä erilainen jäsen harjoitellen luokittelua ja loogista päättelyä.' },
+  ],
+
+  expertTips: [
+    { tip: 'Käytä supersankari-teemaa kasvun asenteen rakentamiseen: kun tehtävä on vaikea, muistuta että jokainen supersankarikin kohtaa vastoinkäymisiä ennen kuin onnistuu. Virheet ovat osa sankarimatkaa.', source: 'Varhaiskasvatuksen pedagoginen asiantuntija', gradeRange: 'Esiopetus–1. lk' },
+    { tip: 'Yhdistä supersankariteema arvokasvatukseen: keskustelkaa siitä, miten jokainen voi olla arkielämän supersankari auttamalla muita, olemalla reilu ja puolustamalla heikompaa. Tämä siirtää supersankarikonseptin fantasiasta todelliseen elämään.', source: 'Arvokasvatuksen asiantuntija', gradeRange: '2.–3. lk' },
+    { tip: 'Anna oppilaiden luoda luokalle oma sankaritaulukko, jossa jokaisen oppilaan oman supersankarin taitopisteet näkyvät. Tehtävien suorittaminen kasvattaa pisteitä. Tämä pelillistäminen ylläpitää pitkäaikasta motivaatiota.', source: 'Pelipedagogiikan asiantuntija', gradeRange: 'Esiopetus–3. lk' },
+  ],
 };
 
 registerThemeContent('superheroes', 'fi', content);

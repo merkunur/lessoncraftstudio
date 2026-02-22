@@ -6,7 +6,8 @@ import { getHreflangCode, ogLocaleMap, generateFAQSchema, localizedHomeLabel, lo
 import { categoryContent, CATEGORY_SLUGS, type CategorySlug } from '@/config/category-content';
 import { productPageSlugs } from '@/config/product-page-slugs';
 import { getSlugForLocale, type SupportedLocale } from '@/config/product-page-slugs';
-import { getThemeSlug } from '@/config/theme-slugs';
+import { THEME_SLUGS, getThemeSlug } from '@/config/theme-slugs';
+import { getEnrichedThemeContent } from '@/content/themes';
 import { getProductCategorySlug, getProductCategoryIdFromSlug, getProductCategoryAlternateUrls } from '@/config/product-category-slugs';
 
 export const revalidate = 3600;
@@ -174,16 +175,12 @@ export default function CategoryPage({ params }: { params: { locale: string; cat
     no: 'Bla etter tema', fi: 'Selaa teemoittain',
   };
 
-  const popularThemes: Array<{ id: string; labels: Record<string, string> }> = [
-    { id: 'animals', labels: { en: 'Animals', de: 'Tiere', fr: 'Animaux', es: 'Animales', pt: 'Animais', it: 'Animali', nl: 'Dieren', sv: 'Djur', da: 'Dyr', no: 'Dyr', fi: 'El\u00e4imet' } },
-    { id: 'dinosaurs', labels: { en: 'Dinosaurs', de: 'Dinosaurier', fr: 'Dinosaures', es: 'Dinosaurios', pt: 'Dinossauros', it: 'Dinosauri', nl: 'Dinosaurussen', sv: 'Dinosaurier', da: 'Dinosaurer', no: 'Dinosaurer', fi: 'Dinosaurukset' } },
-    { id: 'space', labels: { en: 'Space', de: 'Weltraum', fr: 'Espace', es: 'Espacio', pt: 'Espa\u00e7o', it: 'Spazio', nl: 'Ruimte', sv: 'Rymden', da: 'Rummet', no: 'Verdensrommet', fi: 'Avaruus' } },
-    { id: 'ocean', labels: { en: 'Ocean', de: 'Ozean', fr: 'Oc\u00e9an', es: 'Oc\u00e9ano', pt: 'Oceano', it: 'Oceano', nl: 'Oceaan', sv: 'Havet', da: 'Havet', no: 'Havet', fi: 'Meri' } },
-    { id: 'farm', labels: { en: 'Farm', de: 'Bauernhof', fr: 'Ferme', es: 'Granja', pt: 'Fazenda', it: 'Fattoria', nl: 'Boerderij', sv: 'Bondg\u00e5rd', da: 'Bondeg\u00e5rd', no: 'Bondeg\u00e5rd', fi: 'Maatila' } },
-    { id: 'nature', labels: { en: 'Nature', de: 'Natur', fr: 'Nature', es: 'Naturaleza', pt: 'Natureza', it: 'Natura', nl: 'Natuur', sv: 'Natur', da: 'Natur', no: 'Natur', fi: 'Luonto' } },
-    { id: 'sports', labels: { en: 'Sports', de: 'Sport', fr: 'Sports', es: 'Deportes', pt: 'Esportes', it: 'Sport', nl: 'Sport', sv: 'Sport', da: 'Sport', no: 'Sport', fi: 'Urheilu' } },
-    { id: 'food', labels: { en: 'Food', de: 'Essen', fr: 'Nourriture', es: 'Comida', pt: 'Comida', it: 'Cibo', nl: 'Eten', sv: 'Mat', da: 'Mad', no: 'Mat', fi: 'Ruoka' } },
-  ];
+  // Build all 50 themes with localized names from enriched content
+  const allThemes = THEME_SLUGS.map(themeId => {
+    const enriched = getEnrichedThemeContent(themeId, locale);
+    const name = enriched?.name || themeId.charAt(0).toUpperCase() + themeId.slice(1).replace(/-/g, ' ');
+    return { id: themeId, name };
+  });
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -219,6 +216,21 @@ export default function CategoryPage({ params }: { params: { locale: string; cat
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify({
+          '@context': 'https://schema.org',
+          '@type': 'ItemList',
+          name: content.heading,
+          numberOfItems: apps.length,
+          itemListElement: apps.map((app, i) => ({
+            '@type': 'ListItem',
+            position: i + 1,
+            name: appDisplayNames[app.appId] || app.appId,
+            url: `https://www.lessoncraftstudio.com/${locale}/apps/${app.slug}`,
+          })),
+        }) }}
       />
 
       {/* Hero */}
@@ -267,6 +279,44 @@ export default function CategoryPage({ params }: { params: { locale: string; cat
         </div>
       </section>
 
+      {/* App Comparison */}
+      {content.appComparison && (
+        <section className="py-12 bg-blue-50">
+          <div className="container mx-auto px-4 max-w-4xl">
+            <h2 className="text-2xl font-bold text-gray-900 mb-6 text-center">
+              {content.appComparison.heading}
+            </h2>
+            <div className="overflow-x-auto">
+              <table className="w-full bg-white rounded-lg shadow-sm text-sm">
+                <thead>
+                  <tr className="border-b border-gray-200 bg-gray-50">
+                    <th className="text-left p-3 font-semibold text-gray-700">App</th>
+                    <th className="text-left p-3 font-semibold text-gray-700">Best For</th>
+                    <th className="text-left p-3 font-semibold text-gray-700">Skills</th>
+                    <th className="text-left p-3 font-semibold text-gray-700">Difficulty</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {content.appComparison.rows.map((row, i) => (
+                    <tr key={row.appId} className={i % 2 === 0 ? 'bg-white' : 'bg-gray-50'}>
+                      <td className="p-3 font-medium text-gray-900">
+                        <Link href={`/${locale}/apps/${getSlugForLocale(row.appId, locale as SupportedLocale) || row.appId}`} className="text-blue-600 hover:underline">
+                          {row.name}
+                        </Link>
+                      </td>
+                      <td className="p-3 text-gray-600">{row.bestFor}</td>
+                      <td className="p-3 text-gray-600">{row.skills}</td>
+                      <td className="p-3 text-gray-600">{row.difficulty}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+            <p className="mt-6 text-gray-600 leading-relaxed">{content.appComparison.summary}</p>
+          </div>
+        </section>
+      )}
+
       {/* FAQ */}
       {content.faq.length > 0 && (
         <section className="py-12 bg-white">
@@ -291,23 +341,23 @@ export default function CategoryPage({ params }: { params: { locale: string; cat
         </section>
       )}
 
-      {/* Browse by Theme */}
+      {/* Browse by Theme — All 50 Themes */}
       <section className="py-12">
         <div className="container mx-auto px-4">
           <h2 className="text-2xl font-bold text-gray-900 mb-6 text-center">
             {browseByThemeLabel[locale] || browseByThemeLabel.en}
           </h2>
           <div className="flex flex-wrap justify-center gap-3">
-            {popularThemes.map(t => {
-              const slug = getThemeSlug(t.id, locale);
-              if (!slug) return null;
+            {allThemes.map(t => {
+              const themeSlug = getThemeSlug(t.id, locale);
+              if (!themeSlug) return null;
               return (
                 <Link
                   key={t.id}
-                  href={`/${locale}/worksheets/${slug}`}
+                  href={`/${locale}/worksheets/${themeSlug}`}
                   className="bg-white border border-gray-200 rounded-full px-5 py-2 text-sm font-medium text-gray-700 hover:bg-blue-50 hover:border-blue-300 hover:text-blue-700 transition-colors"
                 >
-                  {t.labels[locale] || t.labels.en}
+                  {t.name}
                 </Link>
               );
             })}

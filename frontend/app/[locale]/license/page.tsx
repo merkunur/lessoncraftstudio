@@ -1,7 +1,9 @@
 import { getTranslations } from 'next-intl/server';
 import { Metadata } from 'next';
+import Link from 'next/link';
 import { getHreflangCode, ogLocaleMap } from '@/lib/schema-generator';
 import { SUPPORTED_LOCALES } from '@/config/locales';
+import { getRecentBlogPosts } from '@/lib/blog-data';
 
 export async function generateMetadata({ params }: { params: { locale: string } }): Promise<Metadata> {
   const locale = params.locale || 'en';
@@ -40,12 +42,49 @@ export async function generateMetadata({ params }: { params: { locale: string } 
   };
 }
 
+// Localized labels for the Related Articles section on legal pages
+const relatedArticlesLabels: Record<string, string> = {
+  en: 'From Our Blog',
+  de: 'Aus unserem Blog',
+  fr: 'De notre blog',
+  es: 'De nuestro blog',
+  pt: 'Do nosso blog',
+  it: 'Dal nostro blog',
+  nl: 'Van onze blog',
+  sv: 'Från vår blogg',
+  da: 'Fra vores blog',
+  no: 'Fra vår blogg',
+  fi: 'Blogistamme'
+};
+
+const readMoreLabels: Record<string, string> = {
+  en: 'Read More →',
+  de: 'Weiterlesen →',
+  fr: 'Lire Plus →',
+  es: 'Leer Más →',
+  pt: 'Ler Mais →',
+  it: 'Leggi di Più →',
+  nl: 'Lees Meer →',
+  sv: 'Läs Mer →',
+  da: 'Læs Mere →',
+  no: 'Les Mer →',
+  fi: 'Lue Lisää →'
+};
+
 export default async function LicensePage({
   params: { locale }
 }: {
   params: { locale: string }
 }) {
   const t = await getTranslations({ locale, namespace: 'license' });
+
+  // Fetch 3 recent blog posts for internal linking (SEO)
+  let recentPosts: Awaited<ReturnType<typeof getRecentBlogPosts>> = [];
+  try {
+    recentPosts = await getRecentBlogPosts(locale, 3);
+  } catch (err) {
+    console.error(`Failed to fetch blog posts for ${locale} on license page:`, err);
+  }
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-50 to-pink-50 dark:from-gray-900 dark:to-gray-800 py-12">
@@ -171,6 +210,36 @@ export default async function LicensePage({
               </p>
             </section>
           </div>
+
+          {/* Related Blog Articles - SEO internal linking */}
+          {recentPosts.length > 0 && (
+            <div className="mt-12 pt-8 border-t border-gray-200 dark:border-gray-700">
+              <h2 className="text-2xl font-semibold text-gray-800 dark:text-gray-200 mb-6">
+                {relatedArticlesLabels[locale] || 'From Our Blog'}
+              </h2>
+              <div className="grid gap-4">
+                {recentPosts.map(post => (
+                  <Link
+                    key={post.slug}
+                    href={`/${locale}/blog/${post.slug}`}
+                    className="block p-4 rounded-lg border border-gray-200 dark:border-gray-600 hover:border-blue-300 hover:shadow-md transition-all"
+                  >
+                    <h3 className="font-medium text-gray-900 dark:text-white mb-1">
+                      {post.title}
+                    </h3>
+                    {post.excerpt && (
+                      <p className="text-sm text-gray-600 dark:text-gray-400 line-clamp-2 mb-2">
+                        {post.excerpt}
+                      </p>
+                    )}
+                    <span className="text-sm font-medium text-blue-600 dark:text-blue-400">
+                      {readMoreLabels[locale] || 'Read More →'}
+                    </span>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          )}
         </div>
       </div>
     </div>

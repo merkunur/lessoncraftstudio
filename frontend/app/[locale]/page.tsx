@@ -15,6 +15,8 @@ import {
 } from '@/components/homepage';
 import { homepageFaqData } from '@/components/homepage/HomepageFAQ';
 import { generateFAQSchema } from '@/lib/schema-generator';
+import Link from 'next/link';
+import { GRADE_IDS, getGradeSlug, gradeDisplayNames, gradeAgeRanges } from '@/config/grade-slugs';
 
 // Localized SEO metadata with researched keywords for all 11 languages
 const homepageMetadata: Record<string, { title: string; description: string; keywords: string; ogAlt: string }> = {
@@ -216,6 +218,48 @@ export default async function HomePage({ params }: { params: { locale: string } 
 
       {/* App Categories - Light background transition */}
       <AppCategories locale={locale} />
+
+      {/* EN-only: Internal links to grade hub pages + worksheets hub */}
+      {locale === 'en' && (
+        <section className="py-12 bg-gray-50">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-5xl">
+            <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 text-center mb-3">
+              Browse Worksheets by Grade Level
+            </h2>
+            <p className="text-gray-600 text-center mb-8 max-w-2xl mx-auto">
+              Find age-appropriate worksheets and activities tailored to each grade level, from preschool through 3rd grade.
+            </p>
+            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4 mb-8">
+              {GRADE_IDS.map((gradeId) => {
+                const slug = getGradeSlug(gradeId, 'en');
+                const name = gradeDisplayNames[gradeId]?.en || gradeId;
+                const ages = gradeAgeRanges[gradeId]?.en || '';
+                return (
+                  <Link
+                    key={gradeId}
+                    href={`/en/apps/grades/${slug}`}
+                    className="flex flex-col items-center p-4 rounded-xl bg-white border border-gray-200 hover:border-blue-300 hover:shadow-md transition-all duration-200 text-center"
+                  >
+                    <span className="text-lg font-semibold text-gray-900">{name}</span>
+                    <span className="text-sm text-gray-500 mt-1">{ages}</span>
+                  </Link>
+                );
+              })}
+            </div>
+            <div className="text-center">
+              <Link
+                href="/en/worksheets"
+                className="inline-flex items-center gap-2 text-blue-600 hover:text-blue-800 font-semibold transition-colors"
+              >
+                Explore 50 Themed Worksheet Collections
+                <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </Link>
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* Features - Warm amber accents */}
       <HomepageFeatures locale={locale} />

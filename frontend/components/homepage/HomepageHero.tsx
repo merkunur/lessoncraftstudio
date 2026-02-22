@@ -28,10 +28,10 @@ const localeContent: Record<string, {
 }> = {
   en: {
     badge: '33 Professional Worksheet Generators',
-    titleLine1: 'Create ',
-    titleHighlight: 'Beautiful',
-    titleLine2: 'Educational Materials',
-    subtitle: 'Professional worksheet generators trusted by teachers worldwide. Create, customize, and download in minutes.',
+    titleLine1: 'Free ',
+    titleHighlight: 'Worksheet Generators',
+    titleLine2: 'for Teachers',
+    subtitle: 'Create printable math worksheets, word searches, coloring pages, and puzzles for preschool through 3rd grade. 50 themes, 3,000+ images. Download PDF instantly with no signup required.',
     ctaPrimary: 'View Free Samples',
     ctaSecondary: 'See All Generators',
     trustLanguages: '11 Languages',

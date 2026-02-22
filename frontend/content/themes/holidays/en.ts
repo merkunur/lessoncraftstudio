@@ -421,6 +421,12 @@ const content: EnrichedThemeContent = {
     { label: 'Average session length', value: '10\u201320 min' },
     { label: 'Key topic coverage', value: 'Multicultural traditions + calendar reasoning + community values' },
   ],
+
+  expertTips: [
+    { tip: 'Use holiday worksheets to practice calendar math skills. Counting days until a holiday, identifying the day of the week it falls on, and calculating how many weeks remain all reinforce the temporal reasoning that young children find inherently motivating during holiday anticipation.', source: 'Common Core Math K.MD: Describe and compare measurable attributes', gradeRange: 'K-2nd' },
+    { tip: 'Connect holiday themes to cultural literacy by including diverse celebrations in worksheet sets. When children learn that different cultures celebrate different holidays for different reasons, they develop the perspective-taking skills that strengthen both social competence and reading comprehension.', source: 'National Council for the Social Studies (NCSS), cultural understanding standards', gradeRange: '1st-3rd' },
+    { tip: 'Leverage holiday excitement to introduce budgeting concepts. Simple activities where children allocate a pretend budget to buy holiday gifts or supplies combine addition, subtraction, comparison, and decision-making in an emotionally engaging context.', source: 'Council for Economic Education, financial literacy standards', gradeRange: '2nd-3rd' },
+  ],
 };
 
 registerThemeContent('holidays', 'en', content);

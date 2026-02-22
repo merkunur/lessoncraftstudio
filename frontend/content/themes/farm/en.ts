@@ -421,6 +421,12 @@ const content: EnrichedThemeContent = {
     { label: 'Average session length', value: '10–20 min' },
     { label: 'Farm categories featured', value: 'Animals, crops, machinery' },
   ],
+
+  expertTips: [
+    { tip: 'Use farm worksheets to introduce multiplication through equal groups. Counting eggs by dozens, apples in bushels, or animals in pens creates natural grouping scenarios that build the conceptual foundation for multiplication well before formal instruction.', source: 'Carpenter et al., Cognitively Guided Instruction (CGI) multiplication research', gradeRange: '1st-3rd' },
+    { tip: 'Connect farm-themed activities to life cycle science. When children sequence plant growth stages or animal development on worksheets, they practice both scientific observation skills and the ordinal thinking that supports mathematical sequencing.', source: 'Next Generation Science Standards (NGSS), LS1: From Molecules to Organisms', gradeRange: 'K-2nd' },
+    { tip: 'Use farm animal worksheets to develop comparison language. Activities asking whether cows are bigger than chickens, or whether horses run faster than pigs, build the comparative and superlative vocabulary that academic discourse requires across all subjects.', source: 'Common Core ELA: Language standards for vocabulary acquisition', gradeRange: 'Pre-K to 1st' },
+  ],
 };
 
 registerThemeContent('farm', 'en', content);

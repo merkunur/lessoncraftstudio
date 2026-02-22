@@ -421,6 +421,12 @@ const content: EnrichedThemeContent = {
     { label: 'Average session length', value: '10\u201320 min' },
     { label: 'Key topic coverage', value: 'Map literacy + cultural comparison + trip planning math' },
   ],
+
+  expertTips: [
+    { tip: 'Use travel worksheets to develop map reading and scale concepts. Activities where children calculate distances between cities, identify countries, and trace routes build the spatial and mathematical skills that geography and geometry share.', source: 'National Geography Standards for K-4, maps and spatial thinking', gradeRange: '1st-3rd' },
+    { tip: 'Connect travel themes to currency and money math. Simple activities comparing prices in different countries or converting between currencies provide authentic mathematical contexts that build both numeracy and cultural awareness simultaneously.', source: 'Council for Economic Education, international economics standards', gradeRange: '2nd-3rd' },
+    { tip: 'Leverage travel excitement to build descriptive and comparative vocabulary. Worksheets comparing climates, landscapes, and cultures between destinations develop the academic language skills that informational writing and reading comprehension require.', source: 'Common Core ELA: Language standards, vocabulary acquisition and use', gradeRange: 'K-2nd' },
+  ],
 };
 
 registerThemeContent('travel', 'en', content);

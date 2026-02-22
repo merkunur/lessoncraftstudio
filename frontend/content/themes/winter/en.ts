@@ -420,6 +420,12 @@ const content: EnrichedThemeContent = {
     { label: 'Average session length', value: '10\u201320 min' },
     { label: 'Key science coverage', value: 'States of matter + animal survival + snowflake symmetry' },
   ],
+
+  expertTips: [
+    { tip: 'Use winter worksheets to explore temperature as a measurement concept. Reading thermometers, comparing temperatures, and tracking daily changes introduce negative numbers and number line concepts in a naturally occurring context that makes abstract math tangible.', source: 'Common Core Math: Measurement & Data, temperature standards', gradeRange: '1st-3rd' },
+    { tip: 'Connect snowflake symmetry worksheets to geometric reasoning. Drawing and identifying lines of symmetry in snowflakes develops spatial visualization skills that research links to later success in geometry, engineering, and architectural thinking.', source: 'Newcombe & Frick, spatial reasoning research, Temple University', gradeRange: 'K-2nd' },
+    { tip: 'Leverage winter clothing layering to teach sequencing skills. Activities that order dressing steps (socks before boots, shirt before coat) build the sequential reasoning that supports both mathematical procedural thinking and reading comprehension of procedural texts.', source: 'Piaget, seriation development in the preoperational stage', gradeRange: 'Pre-K to K' },
+  ],
 };
 
 registerThemeContent('winter', 'en', content);

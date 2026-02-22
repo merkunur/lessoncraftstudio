@@ -420,6 +420,12 @@ const content: EnrichedThemeContent = {
     { label: 'Average session length', value: '10\u201320 min' },
     { label: 'Key science coverage', value: 'Habitats + food webs + biodiversity' },
   ],
+
+  expertTips: [
+    { tip: 'Take nature worksheets outdoors for maximum impact. When children complete a leaf sorting activity at a desk and then replicate the sort with real leaves in the schoolyard, dual-context learning cements classification skills through embodied experience.', source: 'Richard Louv, Last Child in the Woods, 2005', gradeRange: 'All grades' },
+    { tip: 'Use nature observation worksheets to develop scientific drawing skills. Ask children to draw a plant or insect from life, label its parts, and compare their drawing to a worksheet illustration. This builds observational precision that transfers to reading comprehension and mathematical diagram interpretation.', source: 'Next Generation Science Standards (NGSS) Science & Engineering Practices', gradeRange: '1st-3rd' },
+    { tip: 'Connect nature counting activities to environmental awareness. When students count trees, flowers, or birds in worksheet scenes, follow up with a discussion about why biodiversity matters. This integrates math practice with social-emotional learning about stewardship.', source: 'North American Association for Environmental Education (NAAEE) guidelines', gradeRange: 'K-2nd' },
+  ],
 };
 
 registerThemeContent('nature', 'en', content);

@@ -421,6 +421,12 @@ const content: EnrichedThemeContent = {
     { label: 'Average session length', value: '10\u201320 min' },
     { label: 'Key topic coverage', value: 'Estimation with large groups + performance vocabulary + pattern recognition' },
   ],
+
+  expertTips: [
+    { tip: 'Use circus worksheets to teach symmetry and balance concepts. Activities featuring tightrope walkers, balanced acrobat formations, and symmetrical tent designs introduce geometric balance in a visually dramatic context that makes abstract symmetry concepts concrete.', source: 'Common Core Math 4.G: Draw and identify lines of symmetry', gradeRange: 'K-2nd' },
+    { tip: 'Connect circus counting activities to multiplication through seating arrangements. Calculating how many people fit in circus rows (6 seats times 5 rows) provides a natural array model for multiplication that is more engaging than abstract grid diagrams.', source: 'Common Core Math 2.OA.C.4: Use addition to find the total number of objects in arrays', gradeRange: '1st-3rd' },
+    { tip: 'Leverage circus themes to develop sequential reasoning. Activities that order circus acts, plan performance schedules, or sequence juggling patterns build the same serial order thinking that mathematical procedures and reading comprehension of narrative texts require.', source: 'Piaget, seriation development in concrete operational stage', gradeRange: 'Pre-K to 1st' },
+  ],
 };
 
 registerThemeContent('circus', 'en', content);

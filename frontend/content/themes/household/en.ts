@@ -422,6 +422,12 @@ const content: EnrichedThemeContent = {
     { label: 'Average session length', value: '10\u201320 min' },
     { label: 'Key topic coverage', value: 'Preposition mastery + room classification + daily routine sequencing vocabulary' },
   ],
+
+  expertTips: [
+    { tip: 'Use household object worksheets to build spatial vocabulary. Prepositions like on, under, beside, and between are best learned through familiar home contexts, and spatial language proficiency directly predicts mathematical achievement in geometry and measurement.', source: 'Pruden, Levine & Huttenlocher, spatial language research, University of Chicago', gradeRange: 'Pre-K to 1st' },
+    { tip: 'Connect household sorting activities to real organizational skills. After completing a worksheet sorting items by room, have children organize a section of their own desk or shelf. This transfer from abstract to practical develops executive function skills.', source: 'Montessori practical life curriculum principles', gradeRange: 'K-2nd' },
+    { tip: 'Use household item counting worksheets to practice estimation before counting. Ask children to guess how many cups are in the picture before they count, then compare their estimate to the actual number. This builds number sense and metacognitive awareness simultaneously.', source: 'John Van de Walle, Elementary and Middle School Mathematics, estimation strategies', gradeRange: 'K-3rd' },
+  ],
 };
 
 registerThemeContent('household', 'en', content);

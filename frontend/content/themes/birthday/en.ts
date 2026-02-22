@@ -421,6 +421,12 @@ const content: EnrichedThemeContent = {
     { label: 'Average session length', value: '10\u201320 min' },
     { label: 'Key topic coverage', value: 'Personal number concepts + party planning math + social-emotional development' },
   ],
+
+  expertTips: [
+    { tip: 'Use birthday worksheets to teach elapsed time concepts. Calculating ages, counting days until a birthday, or figuring out what time a party ends provide personally meaningful time problems that abstract clock worksheets cannot match.', source: 'Common Core Math 3.MD: Tell and write time, solve elapsed time problems', gradeRange: '1st-3rd' },
+    { tip: 'Connect birthday party planning to budgeting and addition. Activities where children select decorations, food, and activities within a pretend budget integrate multiple mathematical operations in an emotionally engaging context that sustains motivation.', source: 'Council for Economic Education, financial literacy standards', gradeRange: '2nd-3rd' },
+    { tip: 'Leverage birthday themes to practice equal sharing and division concepts. Dividing cake slices, distributing party favors, and sharing treats equally introduce the fair sharing concept that is the conceptual foundation of division.', source: 'Carpenter et al., Children\'s Mathematics: Cognitively Guided Instruction, division research', gradeRange: 'K-2nd' },
+  ],
 };
 
 registerThemeContent('birthday', 'en', content);

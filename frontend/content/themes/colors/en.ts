@@ -422,6 +422,12 @@ const content: EnrichedThemeContent = {
     { label: 'Average session length', value: '10–20 min' },
     { label: 'Colors featured', value: 'Primary, secondary, warm, cool & more' },
   ],
+
+  expertTips: [
+    { tip: 'Use color mixing worksheets as an introduction to experimental reasoning. When children predict what happens when red and blue mix, test their prediction with paint, and then record the result on a worksheet, they complete a full scientific inquiry cycle.', source: 'Next Generation Science Standards (NGSS), Science & Engineering Practices', gradeRange: 'Pre-K to 1st' },
+    { tip: 'Connect color sorting activities to data representation. Creating bar graphs of how many objects are each color builds graphing skills while reinforcing color recognition, achieving two learning objectives in a single engaging activity.', source: 'Common Core Math 1.MD.C.4: Organize and represent data', gradeRange: 'K-2nd' },
+    { tip: 'Use color pattern worksheets to build algebraic thinking. Identifying and extending color patterns (red, blue, red, blue) develops the same pattern recognition skills that children will later apply to numerical sequences and algebraic expressions.', source: 'NCTM Algebra standards for early childhood', gradeRange: 'Pre-K to 2nd' },
+  ],
 };
 
 registerThemeContent('colors', 'en', content);

@@ -421,6 +421,12 @@ const content: EnrichedThemeContent = {
     { label: 'Average session length', value: '10\u201320 min' },
     { label: 'Bird types featured', value: 'Songbirds, raptors, water birds, flightless' },
   ],
+
+  expertTips: [
+    { tip: 'Use bird worksheets to develop observational comparison skills. Activities that ask children to compare beak shapes, wing spans, and foot types build the systematic comparison abilities that underpin both scientific classification and mathematical relational thinking.', source: 'Next Generation Science Standards (NGSS), LS4: Biological Evolution (adaptations)', gradeRange: '1st-3rd' },
+    { tip: 'Connect bird counting to citizen science projects. After practicing counting birds on worksheets, have children participate in real bird counts using their window or schoolyard, building data collection skills through authentic scientific participation.', source: 'Cornell Lab of Ornithology, eBird citizen science program', gradeRange: 'K-3rd' },
+    { tip: 'Leverage bird migration to teach directional and map concepts. Following bird migration routes on simplified maps develops the spatial orientation and directional vocabulary (north, south, east, west) that geography and geometry instruction require.', source: 'National Geography Standards for K-4', gradeRange: '1st-3rd' },
+  ],
 };
 
 registerThemeContent('birds', 'en', content);

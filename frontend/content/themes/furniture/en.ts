@@ -421,6 +421,12 @@ const content: EnrichedThemeContent = {
     { label: 'Average session length', value: '10–20 min' },
     { label: 'Key topic coverage', value: 'Preposition mastery + geometric recognition + functional classification vocabulary' },
   ],
+
+  expertTips: [
+    { tip: 'Use furniture worksheets to practice spatial prepositions in context. Activities placing objects on, under, beside, and behind furniture build the spatial language that research identifies as a powerful predictor of mathematical achievement.', source: 'Pruden, Levine & Huttenlocher, spatial language research, University of Chicago', gradeRange: 'Pre-K to 1st' },
+    { tip: 'Connect furniture-themed counting to room design activities. Have children plan a room layout by selecting and counting furniture pieces within a budget, integrating addition, spatial reasoning, and creative thinking in one authentic task.', source: 'Realistic Mathematics Education (RME), Freudenthal Institute', gradeRange: '1st-3rd' },
+    { tip: 'Use furniture sorting worksheets to develop functional categorization skills. Sorting by room (bedroom, kitchen, bathroom) requires understanding purpose and function rather than just visual appearance, building the abstract thinking skills that formal education demands.', source: 'Vygotsky, concept formation through functional categorization', gradeRange: 'K-2nd' },
+  ],
 };
 
 registerThemeContent('furniture', 'en', content);

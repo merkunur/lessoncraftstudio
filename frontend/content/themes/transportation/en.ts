@@ -422,6 +422,12 @@ const content: EnrichedThemeContent = {
     { label: 'Average session length', value: '10\u201320 min' },
     { label: 'Key topic coverage', value: 'Vehicle classification + force/motion physics + engineering vocabulary' },
   ],
+
+  expertTips: [
+    { tip: 'Use vehicle worksheets to teach comparative measurement. Ask children to estimate and then verify whether a bus is longer than a car, or whether a bicycle wheel is larger than a skateboard wheel. This develops spatial reasoning and measurement vocabulary simultaneously.', source: 'Van Hiele model of geometric reasoning', gradeRange: 'K-2nd' },
+    { tip: 'Integrate transportation themes with map skills by having students trace routes between locations after completing a vehicle sorting worksheet. This builds spatial orientation skills that predict later success in geometry and geography.', source: 'National Geography Standards for K-4', gradeRange: '1st-3rd' },
+    { tip: 'Leverage children\'s fascination with vehicles to practice sequential reasoning. Activities where students arrange transportation by speed, size, or number of wheels develop seriation skills that are prerequisite to understanding number lines and ordinal relationships.', source: 'Piaget\'s theory of cognitive development (concrete operational stage)', gradeRange: 'Pre-K to 1st' },
+  ],
 };
 
 registerThemeContent('transportation', 'en', content);

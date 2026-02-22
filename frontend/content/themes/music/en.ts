@@ -421,6 +421,12 @@ const content: EnrichedThemeContent = {
     { label: 'Average session length', value: '10–20 min' },
     { label: 'Key topic coverage', value: 'Rhythmic pattern analysis + instrument classification + musical vocabulary' },
   ],
+
+  expertTips: [
+    { tip: 'Use music worksheets to reinforce pattern recognition. Rhythm patterns (clap-clap-rest, clap-clap-rest) are mathematical sequences, and children who practice musical patterning consistently outperform peers on mathematical pattern assessments.', source: 'Spelke, 2008, Core Knowledge of Geometry and Number, Harvard University', gradeRange: 'Pre-K to 2nd' },
+    { tip: 'Connect instrument counting worksheets to multiplicative thinking. Grouping four drums and three guitars introduces the concept of equal groups, building the conceptual foundation for multiplication well before formal instruction begins.', source: 'Common Core Math 2.OA.C.4 (arrays and equal groups)', gradeRange: '1st-3rd' },
+    { tip: 'Use music vocabulary worksheets to build phonological awareness. Words like tambourine, xylophone, and triangle expose children to complex syllable structures and unusual letter combinations, expanding the phonological repertoire that supports decoding skills.', source: 'National Reading Panel, phonological awareness research', gradeRange: 'K-2nd' },
+  ],
 };
 
 registerThemeContent('music', 'en', content);

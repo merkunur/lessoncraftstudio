@@ -421,6 +421,12 @@ const content: EnrichedThemeContent = {
     { label: 'Average session length', value: '10\u201320 min' },
     { label: 'Plant parts covered', value: 'Roots, stems, leaves, flowers & seeds' },
   ],
+
+  expertTips: [
+    { tip: 'Use vegetable garden worksheets to teach spatial planning. Activities where children decide where to plant each vegetable in a grid develop the coordinate thinking and area concepts that formal geometry instruction builds upon.', source: 'Common Core Math 3.MD: Geometric measurement and area concepts', gradeRange: '1st-3rd' },
+    { tip: 'Connect vegetable sorting activities to sensory vocabulary development. Describing vegetables as crunchy, smooth, leafy, or bumpy builds the descriptive language skills that strengthen both scientific observation reports and narrative writing.', source: 'Common Core ELA: Language standards, vocabulary acquisition', gradeRange: 'Pre-K to 1st' },
+    { tip: 'Leverage vegetable growth worksheets to introduce measurement over time. Tracking how tall a plant grows each week on a simple chart teaches data collection, graphing, and the concept of change over time in a hands-on, patient-building activity.', source: 'Next Generation Science Standards (NGSS), Science Practices: Planning investigations', gradeRange: 'K-2nd' },
+  ],
 };
 
 registerThemeContent('vegetables', 'en', content);

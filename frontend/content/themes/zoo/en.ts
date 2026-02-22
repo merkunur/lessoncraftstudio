@@ -422,6 +422,12 @@ const content: EnrichedThemeContent = {
     { label: 'Average session length', value: '10–20 min' },
     { label: 'Zoo animal types featured', value: 'Mammals, birds, reptiles' },
   ],
+
+  expertTips: [
+    { tip: 'Use zoo map worksheets to develop directional and spatial reasoning. Having children navigate a zoo map to find specific animals builds the same wayfinding skills that predict success in geometry and coordinate plane mathematics.', source: 'Newcombe & Huttenlocher, Making Space: The Development of Spatial Representation, MIT Press', gradeRange: 'K-2nd' },
+    { tip: 'Connect zoo-themed worksheets to habitat classification. When children sort animals into their correct zoo sections (African savanna, Arctic, rainforest), they practice multi-attribute classification that develops both scientific and mathematical reasoning.', source: 'Next Generation Science Standards (NGSS), LS2: Ecosystems', gradeRange: '1st-3rd' },
+    { tip: 'Leverage zoo excitement to build descriptive writing skills. After completing a zoo animal identification worksheet, have children write sentences describing their favorite animal using at least three adjectives. This transfers vocabulary recognition into productive language use.', source: 'Common Core ELA: Writing standards, descriptive writing', gradeRange: 'K-2nd' },
+  ],
 };
 
 registerThemeContent('zoo', 'en', content);

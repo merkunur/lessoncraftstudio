@@ -422,6 +422,12 @@ const content: EnrichedThemeContent = {
     { label: 'Average session length', value: '10–20 min' },
     { label: 'Shapes covered', value: 'Circles, squares, triangles, rectangles, hexagons & more' },
   ],
+
+  expertTips: [
+    { tip: 'Move beyond naming shapes to exploring their properties. Ask children to count sides and corners, compare shapes by size, and find shapes within complex figures. This property-based approach builds geometric reasoning that shape recognition alone cannot develop.', source: 'Van Hiele levels of geometric thinking', gradeRange: 'K-2nd' },
+    { tip: 'Use shape worksheets as a springboard for architectural observation. After identifying shapes on paper, take a walk and find triangles in roofs, rectangles in windows, and circles in wheels. This real-world connection cements geometric concepts through embodied experience.', source: 'Clements & Sarama, Learning and Teaching Early Math: The Learning Trajectories Approach, 2014', gradeRange: 'Pre-K to 1st' },
+    { tip: 'Connect shape worksheets to spatial reasoning through construction challenges. After identifying shapes, have children build them with craft sticks or clay. Research shows that construction activities improve spatial visualization abilities by up to 40% in early learners.', source: 'Newcombe & Frick, spatial skills research, Temple University', gradeRange: 'K-3rd' },
+  ],
 };
 
 registerThemeContent('shapes', 'en', content);

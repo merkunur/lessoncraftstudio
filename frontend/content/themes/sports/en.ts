@@ -421,6 +421,12 @@ const content: EnrichedThemeContent = {
       activity: 'After completing word-search sports vocabulary and word-scramble athletic terminology worksheets, guide students through a kinesthetic vocabulary writing project where they choose five sports action words from their worksheets, physically act out each movement, write one sentence using each action verb to describe an athletic moment, draw an illustration of their favorite sport, and compose a paragraph explaining why their chosen sport is the most exciting using at least three vocabulary words from their worksheets — connecting vocabulary acquisition and kinesthetic encoding to persuasive composition through the personally meaningful athletic context that makes writing feel like sports commentary rather than a classroom assignment.',
     },
   ],
+
+  expertTips: [
+    { tip: 'Connect sports worksheets to data literacy. Have students collect data from a real or simulated game, such as counting goals, tracking passes, or timing runs, then create simple graphs. This transforms sports enthusiasm into genuine statistical reasoning.', source: 'Common Core Standards for Mathematical Practice (MP.4: Model with mathematics)', gradeRange: '2nd-3rd' },
+    { tip: 'Use sports movement vocabulary to build action verb literacy. Worksheets that label actions like throw, catch, kick, and sprint give kinesthetic learners a physical anchor for verb recognition that transfers to reading comprehension of narrative texts.', source: 'Total Physical Response (TPR) language teaching methodology', gradeRange: 'Pre-K to 1st' },
+    { tip: 'Leverage the rules of sports to teach logical reasoning. When children explain why a soccer goal counts or does not count based on game rules, they practice the same if-then conditional logic that underpins mathematical proof and computer science.', source: 'National Council of Teachers of Mathematics (NCTM) process standards', gradeRange: '1st-3rd' },
+  ],
 };
 
 registerThemeContent('sports', 'en', content);

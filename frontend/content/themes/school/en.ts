@@ -421,6 +421,12 @@ const content: EnrichedThemeContent = {
       activity: 'After completing word-search classroom vocabulary and writing-app school handwriting worksheets, guide students through an academic vocabulary writing project where they choose five school vocabulary words from their word search, write one sentence using each word correctly in a school context, draw an illustration showing the word in use, and compose a paragraph describing their favorite part of the school day using at least three academic vocabulary words — connecting vocabulary acquisition and handwriting fluency to descriptive composition through the personally meaningful context of daily school experience that makes writing feel like sharing rather than assignment.',
     },
   ],
+
+  expertTips: [
+    { tip: 'Use school supply worksheets during the first weeks of the academic year as both assessment tools and community builders. While children sort pencils, books, and crayons, teachers can observe fine motor skills, counting abilities, and social interaction patterns without formal testing pressure.', source: 'Responsive Classroom approach to assessment', gradeRange: 'Pre-K to 1st' },
+    { tip: 'Transform school-themed worksheets into role-play scenarios. After completing a classroom sorting activity, let children set up a pretend classroom where they teach the same concepts to stuffed animals. Teaching others is the highest level of Bloom\'s taxonomy and dramatically deepens understanding.', source: 'Bloom\'s Revised Taxonomy, Anderson & Krathwohl, 2001', gradeRange: 'K-2nd' },
+    { tip: 'Use school routine worksheets to support executive function development. Sequencing activities that order a school day build the planning and time management skills that research identifies as stronger predictors of academic success than IQ.', source: 'Adele Diamond, executive function research, University of British Columbia', gradeRange: '1st-3rd' },
+  ],
 };
 
 registerThemeContent('school', 'en', content);

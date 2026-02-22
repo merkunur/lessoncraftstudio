@@ -421,6 +421,12 @@ const content: EnrichedThemeContent = {
     { label: 'Average session length', value: '10\u201320 min' },
     { label: 'Key topic coverage', value: 'Career vocabulary + community interdependence + tool-role classification' },
   ],
+
+  expertTips: [
+    { tip: 'Use community helper worksheets to develop interview and research skills. After identifying job roles on a worksheet, have children prepare three questions they would ask someone in that profession. This builds inquiry skills and connects academic work to real-world purpose.', source: 'Project-based learning principles, Buck Institute for Education', gradeRange: '2nd-3rd' },
+    { tip: 'Connect job-themed worksheets to mathematical operations by exploring how different workers use math daily. A baker measures ingredients, a carpenter measures wood, a nurse counts medications. This contextualizes arithmetic within authentic professional scenarios.', source: 'Realistic Mathematics Education (RME), Freudenthal Institute', gradeRange: '1st-3rd' },
+    { tip: 'Use career-themed sorting activities to challenge gender stereotypes early. Research shows that children develop rigid occupational gender associations by age six, and diverse visual representation in worksheets is one of the most effective interventions.', source: 'Bigler & Liben, developmental intergroup theory, 2007', gradeRange: 'Pre-K to K' },
+  ],
 };
 
 registerThemeContent('jobs', 'en', content);

@@ -421,6 +421,12 @@ const content: EnrichedThemeContent = {
     { label: 'Average session length', value: '10–20 min' },
     { label: 'Key topic coverage', value: 'Coordinate navigation + code-breaking literacy + adventure vocabulary' },
   ],
+
+  expertTips: [
+    { tip: 'Use treasure map worksheets to develop coordinate grid thinking. Following map coordinates to find hidden treasure is a concrete introduction to the coordinate plane that makes abstract x-y notation feel like an adventure rather than a math lesson.', source: 'Common Core Math 5.G: Graph points on the coordinate plane', gradeRange: '1st-3rd' },
+    { tip: 'Connect pirate counting activities to addition and subtraction stories. Narratives about finding gold coins, sharing treasure, or losing gems to sea monsters create compelling word problem contexts that sustain attention through the emotional power of the story.', source: 'Carpenter et al., Cognitively Guided Instruction (CGI)', gradeRange: 'K-2nd' },
+    { tip: 'Leverage pirate themes to teach directional vocabulary. Following treasure map instructions using compass directions (north, south, east, west) and distance language (three steps forward, turn right) builds spatial orientation skills essential for geometry and geography.', source: 'National Geography Standards for K-4, spatial thinking', gradeRange: 'K-2nd' },
+  ],
 };
 
 registerThemeContent('pirates', 'en', content);

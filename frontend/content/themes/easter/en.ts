@@ -421,6 +421,12 @@ const content: EnrichedThemeContent = {
     { label: 'Average session length', value: '10\u201320 min' },
     { label: 'Key topic coverage', value: 'Egg hunt cognition + life cycle biology + pattern decoration' },
   ],
+
+  expertTips: [
+    { tip: 'Use Easter egg hunt worksheets to teach probability concepts. Activities where children predict which color egg they will find next, based on the colors already found, introduce basic probability reasoning in an exciting, familiar context.', source: 'Common Core Math: Statistics & Probability standards', gradeRange: '2nd-3rd' },
+    { tip: 'Connect Easter pattern activities to algebraic thinking. Decorating eggs with repeating patterns (stripe, dot, stripe, dot) is a concrete introduction to mathematical sequences that builds the pattern recognition skills prerequisite to formal algebra.', source: 'NCTM Algebra standards for early childhood', gradeRange: 'Pre-K to 1st' },
+    { tip: 'Leverage seasonal excitement to practice equal sharing. Dividing Easter eggs equally among baskets introduces the concept of fair sharing that is the conceptual foundation of division, long before children encounter formal division notation.', source: 'Carpenter et al., Children\'s Mathematics: Cognitively Guided Instruction, 1999', gradeRange: 'K-2nd' },
+  ],
 };
 
 registerThemeContent('easter', 'en', content);

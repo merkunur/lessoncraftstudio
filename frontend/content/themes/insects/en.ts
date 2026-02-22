@@ -422,6 +422,12 @@ const content: EnrichedThemeContent = {
     { label: 'Average session length', value: '10\u201320 min' },
     { label: 'Insect types featured', value: 'Butterflies, beetles, ants, bees, ladybugs' },
   ],
+
+  expertTips: [
+    { tip: 'Use insect worksheets to develop precise counting skills. Counting six legs on each insect, four wings on a butterfly, or eight eyes on a spider provides natural practice with small-number arithmetic in a context that demands careful observation.', source: 'Common Core Math K.CC: Count to tell the number of objects', gradeRange: 'Pre-K to 1st' },
+    { tip: 'Connect insect life cycle worksheets to sequencing and transformation concepts. Following the stages from egg to caterpillar to chrysalis to butterfly teaches sequential reasoning and the mathematical concept that quantities can change form while maintaining essential properties.', source: 'Next Generation Science Standards (NGSS), LS1: From Molecules to Organisms', gradeRange: 'K-2nd' },
+    { tip: 'Leverage children\'s curiosity about insects to build observational drawing skills. Detailed insect illustrations require attention to small differences (antennae, leg segments, wing patterns) that develop the visual discrimination abilities supporting letter recognition and reading readiness.', source: 'Betty Edwards, Drawing on the Right Side of the Brain, visual perception research', gradeRange: 'Pre-K to 1st' },
+  ],
 };
 
 registerThemeContent('insects', 'en', content);

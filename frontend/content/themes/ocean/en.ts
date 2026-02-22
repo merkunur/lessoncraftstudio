@@ -422,6 +422,12 @@ const content: EnrichedThemeContent = {
     { label: 'Average session length', value: '10–20 min' },
     { label: 'Marine life categories featured', value: 'Fish, mammals, invertebrates' },
   ],
+
+  expertTips: [
+    { tip: 'Use ocean worksheets to explore depth and layering concepts. Activities that sort sea creatures by ocean zone (surface, middle, deep) introduce the spatial concept of layering that parallels geological strata and mathematical number hierarchies.', source: 'Next Generation Science Standards (NGSS), ESS2: Earth\'s Systems', gradeRange: '1st-3rd' },
+    { tip: 'Connect ocean counting activities to conservation math. When children count fish and then discuss what happens when too many are caught, they learn about subtraction in a context that also builds environmental literacy and ethical reasoning.', source: 'North American Association for Environmental Education (NAAEE)', gradeRange: 'K-2nd' },
+    { tip: 'Leverage the mystery of ocean life to build inquiry skills. Present ocean worksheets as detective missions where children must find hidden creatures, count species, and classify by features. This investigative framing increases engagement and models scientific inquiry habits.', source: 'National Research Council, Inquiry and the National Science Education Standards', gradeRange: 'Pre-K to 2nd' },
+  ],
 };
 
 registerThemeContent('ocean', 'en', content);

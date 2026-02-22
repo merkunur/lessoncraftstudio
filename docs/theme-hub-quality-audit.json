@@ -1,0 +1,6215 @@
+{
+  "generatedAt": "2026-02-22T11:14:17.003Z",
+  "part": 162,
+  "totalThemes": 50,
+  "totalPasses": 4100,
+  "totalWarns": 0,
+  "totalFails": 0,
+  "crossPageUniqueness": {
+    "duplicateHeadings": [],
+    "duplicateDescriptions": [],
+    "uniqueAngleSimilarPairs": []
+  },
+  "themes": [
+    {
+      "theme": "animals",
+      "dimensions": {
+        "seoMetadata": {
+          "titleLen": 59,
+          "descLen": 160,
+          "keywordCount": 10,
+          "hasHeading": true,
+          "issues": []
+        },
+        "gradeContent": {
+          "grades": {
+            "preschool": {
+              "present": true,
+              "introWords": 216,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 4,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "kindergarten": {
+              "present": true,
+              "introWords": 209,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "first-grade": {
+              "present": true,
+              "introWords": 216,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "second-grade": {
+              "present": true,
+              "introWords": 294,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "third-grade": {
+              "present": true,
+              "introWords": 266,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            }
+          },
+          "issues": []
+        },
+        "seoEnrichment": {
+          "uniqueAngleWords": 282,
+          "hasResearchCitation": true,
+          "snippetDefWords": 63,
+          "howToSteps": 7,
+          "hasLimitations": true,
+          "issues": []
+        },
+        "expertContent": {
+          "classroomScenarios": 2,
+          "expertTips": 3,
+          "crossCurricularLinks": 3,
+          "differentiationStrategies": 4,
+          "assessmentIdeas": 3,
+          "quickStats": 6,
+          "issues": []
+        },
+        "internalLinking": {
+          "productLinks": 4,
+          "themeComparisons": 4,
+          "issues": []
+        }
+      },
+      "summary": {
+        "fails": 0,
+        "warns": 0,
+        "passes": 82
+      }
+    },
+    {
+      "theme": "food",
+      "dimensions": {
+        "seoMetadata": {
+          "titleLen": 56,
+          "descLen": 160,
+          "keywordCount": 10,
+          "hasHeading": true,
+          "issues": []
+        },
+        "gradeContent": {
+          "grades": {
+            "preschool": {
+              "present": true,
+              "introWords": 219,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "kindergarten": {
+              "present": true,
+              "introWords": 218,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "first-grade": {
+              "present": true,
+              "introWords": 232,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "second-grade": {
+              "present": true,
+              "introWords": 293,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "third-grade": {
+              "present": true,
+              "introWords": 340,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            }
+          },
+          "issues": []
+        },
+        "seoEnrichment": {
+          "uniqueAngleWords": 226,
+          "hasResearchCitation": true,
+          "snippetDefWords": 70,
+          "howToSteps": 7,
+          "hasLimitations": true,
+          "issues": []
+        },
+        "expertContent": {
+          "classroomScenarios": 3,
+          "expertTips": 3,
+          "crossCurricularLinks": 3,
+          "differentiationStrategies": 4,
+          "assessmentIdeas": 3,
+          "quickStats": 6,
+          "issues": []
+        },
+        "internalLinking": {
+          "productLinks": 4,
+          "themeComparisons": 4,
+          "issues": []
+        }
+      },
+      "summary": {
+        "fails": 0,
+        "warns": 0,
+        "passes": 82
+      }
+    },
+    {
+      "theme": "transportation",
+      "dimensions": {
+        "seoMetadata": {
+          "titleLen": 59,
+          "descLen": 159,
+          "keywordCount": 10,
+          "hasHeading": true,
+          "issues": []
+        },
+        "gradeContent": {
+          "grades": {
+            "preschool": {
+              "present": true,
+              "introWords": 219,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "kindergarten": {
+              "present": true,
+              "introWords": 205,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "first-grade": {
+              "present": true,
+              "introWords": 227,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 4,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "second-grade": {
+              "present": true,
+              "introWords": 281,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "third-grade": {
+              "present": true,
+              "introWords": 471,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            }
+          },
+          "issues": []
+        },
+        "seoEnrichment": {
+          "uniqueAngleWords": 291,
+          "hasResearchCitation": true,
+          "snippetDefWords": 80,
+          "howToSteps": 7,
+          "hasLimitations": true,
+          "issues": []
+        },
+        "expertContent": {
+          "classroomScenarios": 3,
+          "expertTips": 3,
+          "crossCurricularLinks": 3,
+          "differentiationStrategies": 4,
+          "assessmentIdeas": 3,
+          "quickStats": 6,
+          "issues": []
+        },
+        "internalLinking": {
+          "productLinks": 4,
+          "themeComparisons": 4,
+          "issues": []
+        }
+      },
+      "summary": {
+        "fails": 0,
+        "warns": 0,
+        "passes": 82
+      }
+    },
+    {
+      "theme": "nature",
+      "dimensions": {
+        "seoMetadata": {
+          "titleLen": 56,
+          "descLen": 157,
+          "keywordCount": 10,
+          "hasHeading": true,
+          "issues": []
+        },
+        "gradeContent": {
+          "grades": {
+            "preschool": {
+              "present": true,
+              "introWords": 246,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "kindergarten": {
+              "present": true,
+              "introWords": 221,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "first-grade": {
+              "present": true,
+              "introWords": 231,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "second-grade": {
+              "present": true,
+              "introWords": 285,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "third-grade": {
+              "present": true,
+              "introWords": 332,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            }
+          },
+          "issues": []
+        },
+        "seoEnrichment": {
+          "uniqueAngleWords": 221,
+          "hasResearchCitation": true,
+          "snippetDefWords": 74,
+          "howToSteps": 7,
+          "hasLimitations": true,
+          "issues": []
+        },
+        "expertContent": {
+          "classroomScenarios": 3,
+          "expertTips": 3,
+          "crossCurricularLinks": 3,
+          "differentiationStrategies": 4,
+          "assessmentIdeas": 3,
+          "quickStats": 6,
+          "issues": []
+        },
+        "internalLinking": {
+          "productLinks": 4,
+          "themeComparisons": 4,
+          "issues": []
+        }
+      },
+      "summary": {
+        "fails": 0,
+        "warns": 0,
+        "passes": 82
+      }
+    },
+    {
+      "theme": "school",
+      "dimensions": {
+        "seoMetadata": {
+          "titleLen": 58,
+          "descLen": 157,
+          "keywordCount": 10,
+          "hasHeading": true,
+          "issues": []
+        },
+        "gradeContent": {
+          "grades": {
+            "preschool": {
+              "present": true,
+              "introWords": 243,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "kindergarten": {
+              "present": true,
+              "introWords": 271,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 7,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "first-grade": {
+              "present": true,
+              "introWords": 272,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "second-grade": {
+              "present": true,
+              "introWords": 283,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "third-grade": {
+              "present": true,
+              "introWords": 299,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            }
+          },
+          "issues": []
+        },
+        "seoEnrichment": {
+          "uniqueAngleWords": 281,
+          "hasResearchCitation": true,
+          "snippetDefWords": 90,
+          "howToSteps": 7,
+          "hasLimitations": true,
+          "issues": []
+        },
+        "expertContent": {
+          "classroomScenarios": 3,
+          "expertTips": 3,
+          "crossCurricularLinks": 3,
+          "differentiationStrategies": 4,
+          "assessmentIdeas": 3,
+          "quickStats": 6,
+          "issues": []
+        },
+        "internalLinking": {
+          "productLinks": 4,
+          "themeComparisons": 4,
+          "issues": []
+        }
+      },
+      "summary": {
+        "fails": 0,
+        "warns": 0,
+        "passes": 82
+      }
+    },
+    {
+      "theme": "sports",
+      "dimensions": {
+        "seoMetadata": {
+          "titleLen": 56,
+          "descLen": 158,
+          "keywordCount": 10,
+          "hasHeading": true,
+          "issues": []
+        },
+        "gradeContent": {
+          "grades": {
+            "preschool": {
+              "present": true,
+              "introWords": 224,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "kindergarten": {
+              "present": true,
+              "introWords": 221,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "first-grade": {
+              "present": true,
+              "introWords": 237,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "second-grade": {
+              "present": true,
+              "introWords": 282,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "third-grade": {
+              "present": true,
+              "introWords": 403,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            }
+          },
+          "issues": []
+        },
+        "seoEnrichment": {
+          "uniqueAngleWords": 317,
+          "hasResearchCitation": true,
+          "snippetDefWords": 86,
+          "howToSteps": 7,
+          "hasLimitations": true,
+          "issues": []
+        },
+        "expertContent": {
+          "classroomScenarios": 3,
+          "expertTips": 3,
+          "crossCurricularLinks": 3,
+          "differentiationStrategies": 4,
+          "assessmentIdeas": 3,
+          "quickStats": 6,
+          "issues": []
+        },
+        "internalLinking": {
+          "productLinks": 4,
+          "themeComparisons": 4,
+          "issues": []
+        }
+      },
+      "summary": {
+        "fails": 0,
+        "warns": 0,
+        "passes": 82
+      }
+    },
+    {
+      "theme": "emotions",
+      "dimensions": {
+        "seoMetadata": {
+          "titleLen": 59,
+          "descLen": 159,
+          "keywordCount": 10,
+          "hasHeading": true,
+          "issues": []
+        },
+        "gradeContent": {
+          "grades": {
+            "preschool": {
+              "present": true,
+              "introWords": 230,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "kindergarten": {
+              "present": true,
+              "introWords": 215,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "first-grade": {
+              "present": true,
+              "introWords": 224,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "second-grade": {
+              "present": true,
+              "introWords": 291,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "third-grade": {
+              "present": true,
+              "introWords": 379,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            }
+          },
+          "issues": []
+        },
+        "seoEnrichment": {
+          "uniqueAngleWords": 289,
+          "hasResearchCitation": true,
+          "snippetDefWords": 83,
+          "howToSteps": 7,
+          "hasLimitations": true,
+          "issues": []
+        },
+        "expertContent": {
+          "classroomScenarios": 3,
+          "expertTips": 3,
+          "crossCurricularLinks": 3,
+          "differentiationStrategies": 4,
+          "assessmentIdeas": 3,
+          "quickStats": 6,
+          "issues": []
+        },
+        "internalLinking": {
+          "productLinks": 4,
+          "themeComparisons": 4,
+          "issues": []
+        }
+      },
+      "summary": {
+        "fails": 0,
+        "warns": 0,
+        "passes": 82
+      }
+    },
+    {
+      "theme": "body",
+      "dimensions": {
+        "seoMetadata": {
+          "titleLen": 56,
+          "descLen": 154,
+          "keywordCount": 10,
+          "hasHeading": true,
+          "issues": []
+        },
+        "gradeContent": {
+          "grades": {
+            "preschool": {
+              "present": true,
+              "introWords": 231,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "kindergarten": {
+              "present": true,
+              "introWords": 224,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "first-grade": {
+              "present": true,
+              "introWords": 222,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "second-grade": {
+              "present": true,
+              "introWords": 312,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "third-grade": {
+              "present": true,
+              "introWords": 410,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            }
+          },
+          "issues": []
+        },
+        "seoEnrichment": {
+          "uniqueAngleWords": 282,
+          "hasResearchCitation": true,
+          "snippetDefWords": 84,
+          "howToSteps": 7,
+          "hasLimitations": true,
+          "issues": []
+        },
+        "expertContent": {
+          "classroomScenarios": 3,
+          "expertTips": 3,
+          "crossCurricularLinks": 3,
+          "differentiationStrategies": 4,
+          "assessmentIdeas": 3,
+          "quickStats": 6,
+          "issues": []
+        },
+        "internalLinking": {
+          "productLinks": 4,
+          "themeComparisons": 4,
+          "issues": []
+        }
+      },
+      "summary": {
+        "fails": 0,
+        "warns": 0,
+        "passes": 82
+      }
+    },
+    {
+      "theme": "clothing",
+      "dimensions": {
+        "seoMetadata": {
+          "titleLen": 58,
+          "descLen": 155,
+          "keywordCount": 10,
+          "hasHeading": true,
+          "issues": []
+        },
+        "gradeContent": {
+          "grades": {
+            "preschool": {
+              "present": true,
+              "introWords": 249,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "kindergarten": {
+              "present": true,
+              "introWords": 238,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "first-grade": {
+              "present": true,
+              "introWords": 261,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "second-grade": {
+              "present": true,
+              "introWords": 283,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "third-grade": {
+              "present": true,
+              "introWords": 369,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            }
+          },
+          "issues": []
+        },
+        "seoEnrichment": {
+          "uniqueAngleWords": 277,
+          "hasResearchCitation": true,
+          "snippetDefWords": 83,
+          "howToSteps": 7,
+          "hasLimitations": true,
+          "issues": []
+        },
+        "expertContent": {
+          "classroomScenarios": 3,
+          "expertTips": 3,
+          "crossCurricularLinks": 3,
+          "differentiationStrategies": 4,
+          "assessmentIdeas": 3,
+          "quickStats": 6,
+          "issues": []
+        },
+        "internalLinking": {
+          "productLinks": 4,
+          "themeComparisons": 4,
+          "issues": []
+        }
+      },
+      "summary": {
+        "fails": 0,
+        "warns": 0,
+        "passes": 82
+      }
+    },
+    {
+      "theme": "household",
+      "dimensions": {
+        "seoMetadata": {
+          "titleLen": 56,
+          "descLen": 154,
+          "keywordCount": 10,
+          "hasHeading": true,
+          "issues": []
+        },
+        "gradeContent": {
+          "grades": {
+            "preschool": {
+              "present": true,
+              "introWords": 265,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "kindergarten": {
+              "present": true,
+              "introWords": 253,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "first-grade": {
+              "present": true,
+              "introWords": 261,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "second-grade": {
+              "present": true,
+              "introWords": 310,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "third-grade": {
+              "present": true,
+              "introWords": 387,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            }
+          },
+          "issues": []
+        },
+        "seoEnrichment": {
+          "uniqueAngleWords": 305,
+          "hasResearchCitation": true,
+          "snippetDefWords": 87,
+          "howToSteps": 7,
+          "hasLimitations": true,
+          "issues": []
+        },
+        "expertContent": {
+          "classroomScenarios": 3,
+          "expertTips": 3,
+          "crossCurricularLinks": 3,
+          "differentiationStrategies": 4,
+          "assessmentIdeas": 3,
+          "quickStats": 6,
+          "issues": []
+        },
+        "internalLinking": {
+          "productLinks": 4,
+          "themeComparisons": 4,
+          "issues": []
+        }
+      },
+      "summary": {
+        "fails": 0,
+        "warns": 0,
+        "passes": 82
+      }
+    },
+    {
+      "theme": "toys",
+      "dimensions": {
+        "seoMetadata": {
+          "titleLen": 55,
+          "descLen": 158,
+          "keywordCount": 10,
+          "hasHeading": true,
+          "issues": []
+        },
+        "gradeContent": {
+          "grades": {
+            "preschool": {
+              "present": true,
+              "introWords": 250,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "kindergarten": {
+              "present": true,
+              "introWords": 230,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "first-grade": {
+              "present": true,
+              "introWords": 252,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "second-grade": {
+              "present": true,
+              "introWords": 317,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "third-grade": {
+              "present": true,
+              "introWords": 449,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            }
+          },
+          "issues": []
+        },
+        "seoEnrichment": {
+          "uniqueAngleWords": 331,
+          "hasResearchCitation": true,
+          "snippetDefWords": 87,
+          "howToSteps": 7,
+          "hasLimitations": true,
+          "issues": []
+        },
+        "expertContent": {
+          "classroomScenarios": 3,
+          "expertTips": 3,
+          "crossCurricularLinks": 3,
+          "differentiationStrategies": 4,
+          "assessmentIdeas": 3,
+          "quickStats": 6,
+          "issues": []
+        },
+        "internalLinking": {
+          "productLinks": 4,
+          "themeComparisons": 4,
+          "issues": []
+        }
+      },
+      "summary": {
+        "fails": 0,
+        "warns": 0,
+        "passes": 82
+      }
+    },
+    {
+      "theme": "music",
+      "dimensions": {
+        "seoMetadata": {
+          "titleLen": 58,
+          "descLen": 153,
+          "keywordCount": 10,
+          "hasHeading": true,
+          "issues": []
+        },
+        "gradeContent": {
+          "grades": {
+            "preschool": {
+              "present": true,
+              "introWords": 239,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "kindergarten": {
+              "present": true,
+              "introWords": 220,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "first-grade": {
+              "present": true,
+              "introWords": 221,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "second-grade": {
+              "present": true,
+              "introWords": 285,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "third-grade": {
+              "present": true,
+              "introWords": 389,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            }
+          },
+          "issues": []
+        },
+        "seoEnrichment": {
+          "uniqueAngleWords": 280,
+          "hasResearchCitation": true,
+          "snippetDefWords": 80,
+          "howToSteps": 7,
+          "hasLimitations": true,
+          "issues": []
+        },
+        "expertContent": {
+          "classroomScenarios": 3,
+          "expertTips": 3,
+          "crossCurricularLinks": 3,
+          "differentiationStrategies": 4,
+          "assessmentIdeas": 3,
+          "quickStats": 6,
+          "issues": []
+        },
+        "internalLinking": {
+          "productLinks": 4,
+          "themeComparisons": 4,
+          "issues": []
+        }
+      },
+      "summary": {
+        "fails": 0,
+        "warns": 0,
+        "passes": 82
+      }
+    },
+    {
+      "theme": "jobs",
+      "dimensions": {
+        "seoMetadata": {
+          "titleLen": 57,
+          "descLen": 153,
+          "keywordCount": 10,
+          "hasHeading": true,
+          "issues": []
+        },
+        "gradeContent": {
+          "grades": {
+            "preschool": {
+              "present": true,
+              "introWords": 243,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "kindergarten": {
+              "present": true,
+              "introWords": 209,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "first-grade": {
+              "present": true,
+              "introWords": 238,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "second-grade": {
+              "present": true,
+              "introWords": 310,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "third-grade": {
+              "present": true,
+              "introWords": 401,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            }
+          },
+          "issues": []
+        },
+        "seoEnrichment": {
+          "uniqueAngleWords": 289,
+          "hasResearchCitation": true,
+          "snippetDefWords": 96,
+          "howToSteps": 7,
+          "hasLimitations": true,
+          "issues": []
+        },
+        "expertContent": {
+          "classroomScenarios": 3,
+          "expertTips": 3,
+          "crossCurricularLinks": 3,
+          "differentiationStrategies": 4,
+          "assessmentIdeas": 3,
+          "quickStats": 6,
+          "issues": []
+        },
+        "internalLinking": {
+          "productLinks": 4,
+          "themeComparisons": 4,
+          "issues": []
+        }
+      },
+      "summary": {
+        "fails": 0,
+        "warns": 0,
+        "passes": 82
+      }
+    },
+    {
+      "theme": "space",
+      "dimensions": {
+        "seoMetadata": {
+          "titleLen": 54,
+          "descLen": 157,
+          "keywordCount": 10,
+          "hasHeading": true,
+          "issues": []
+        },
+        "gradeContent": {
+          "grades": {
+            "preschool": {
+              "present": true,
+              "introWords": 233,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "kindergarten": {
+              "present": true,
+              "introWords": 216,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "first-grade": {
+              "present": true,
+              "introWords": 232,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "second-grade": {
+              "present": true,
+              "introWords": 278,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "third-grade": {
+              "present": true,
+              "introWords": 482,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            }
+          },
+          "issues": []
+        },
+        "seoEnrichment": {
+          "uniqueAngleWords": 288,
+          "hasResearchCitation": true,
+          "snippetDefWords": 76,
+          "howToSteps": 7,
+          "hasLimitations": true,
+          "issues": []
+        },
+        "expertContent": {
+          "classroomScenarios": 3,
+          "expertTips": 3,
+          "crossCurricularLinks": 3,
+          "differentiationStrategies": 4,
+          "assessmentIdeas": 3,
+          "quickStats": 6,
+          "issues": []
+        },
+        "internalLinking": {
+          "productLinks": 4,
+          "themeComparisons": 4,
+          "issues": []
+        }
+      },
+      "summary": {
+        "fails": 0,
+        "warns": 0,
+        "passes": 82
+      }
+    },
+    {
+      "theme": "seasons",
+      "dimensions": {
+        "seoMetadata": {
+          "titleLen": 52,
+          "descLen": 156,
+          "keywordCount": 10,
+          "hasHeading": true,
+          "issues": []
+        },
+        "gradeContent": {
+          "grades": {
+            "preschool": {
+              "present": true,
+              "introWords": 204,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "kindergarten": {
+              "present": true,
+              "introWords": 207,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "first-grade": {
+              "present": true,
+              "introWords": 217,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "second-grade": {
+              "present": true,
+              "introWords": 258,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "third-grade": {
+              "present": true,
+              "introWords": 286,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            }
+          },
+          "issues": []
+        },
+        "seoEnrichment": {
+          "uniqueAngleWords": 327,
+          "hasResearchCitation": true,
+          "snippetDefWords": 88,
+          "howToSteps": 7,
+          "hasLimitations": true,
+          "issues": []
+        },
+        "expertContent": {
+          "classroomScenarios": 3,
+          "expertTips": 3,
+          "crossCurricularLinks": 3,
+          "differentiationStrategies": 4,
+          "assessmentIdeas": 3,
+          "quickStats": 6,
+          "issues": []
+        },
+        "internalLinking": {
+          "productLinks": 4,
+          "themeComparisons": 4,
+          "issues": []
+        }
+      },
+      "summary": {
+        "fails": 0,
+        "warns": 0,
+        "passes": 82
+      }
+    },
+    {
+      "theme": "holidays",
+      "dimensions": {
+        "seoMetadata": {
+          "titleLen": 59,
+          "descLen": 158,
+          "keywordCount": 10,
+          "hasHeading": true,
+          "issues": []
+        },
+        "gradeContent": {
+          "grades": {
+            "preschool": {
+              "present": true,
+              "introWords": 233,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "kindergarten": {
+              "present": true,
+              "introWords": 216,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "first-grade": {
+              "present": true,
+              "introWords": 221,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "second-grade": {
+              "present": true,
+              "introWords": 279,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "third-grade": {
+              "present": true,
+              "introWords": 340,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            }
+          },
+          "issues": []
+        },
+        "seoEnrichment": {
+          "uniqueAngleWords": 254,
+          "hasResearchCitation": true,
+          "snippetDefWords": 72,
+          "howToSteps": 7,
+          "hasLimitations": true,
+          "issues": []
+        },
+        "expertContent": {
+          "classroomScenarios": 3,
+          "expertTips": 3,
+          "crossCurricularLinks": 3,
+          "differentiationStrategies": 4,
+          "assessmentIdeas": 3,
+          "quickStats": 6,
+          "issues": []
+        },
+        "internalLinking": {
+          "productLinks": 4,
+          "themeComparisons": 4,
+          "issues": []
+        }
+      },
+      "summary": {
+        "fails": 0,
+        "warns": 0,
+        "passes": 82
+      }
+    },
+    {
+      "theme": "weather",
+      "dimensions": {
+        "seoMetadata": {
+          "titleLen": 57,
+          "descLen": 156,
+          "keywordCount": 10,
+          "hasHeading": true,
+          "issues": []
+        },
+        "gradeContent": {
+          "grades": {
+            "preschool": {
+              "present": true,
+              "introWords": 216,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "kindergarten": {
+              "present": true,
+              "introWords": 204,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "first-grade": {
+              "present": true,
+              "introWords": 219,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "second-grade": {
+              "present": true,
+              "introWords": 277,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "third-grade": {
+              "present": true,
+              "introWords": 297,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            }
+          },
+          "issues": []
+        },
+        "seoEnrichment": {
+          "uniqueAngleWords": 231,
+          "hasResearchCitation": true,
+          "snippetDefWords": 77,
+          "howToSteps": 7,
+          "hasLimitations": true,
+          "issues": []
+        },
+        "expertContent": {
+          "classroomScenarios": 3,
+          "expertTips": 3,
+          "crossCurricularLinks": 3,
+          "differentiationStrategies": 4,
+          "assessmentIdeas": 3,
+          "quickStats": 6,
+          "issues": []
+        },
+        "internalLinking": {
+          "productLinks": 4,
+          "themeComparisons": 4,
+          "issues": []
+        }
+      },
+      "summary": {
+        "fails": 0,
+        "warns": 0,
+        "passes": 82
+      }
+    },
+    {
+      "theme": "colors",
+      "dimensions": {
+        "seoMetadata": {
+          "titleLen": 57,
+          "descLen": 156,
+          "keywordCount": 10,
+          "hasHeading": true,
+          "issues": []
+        },
+        "gradeContent": {
+          "grades": {
+            "preschool": {
+              "present": true,
+              "introWords": 260,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 7,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "kindergarten": {
+              "present": true,
+              "introWords": 264,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "first-grade": {
+              "present": true,
+              "introWords": 281,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "second-grade": {
+              "present": true,
+              "introWords": 303,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "third-grade": {
+              "present": true,
+              "introWords": 304,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            }
+          },
+          "issues": []
+        },
+        "seoEnrichment": {
+          "uniqueAngleWords": 294,
+          "hasResearchCitation": true,
+          "snippetDefWords": 76,
+          "howToSteps": 7,
+          "hasLimitations": true,
+          "issues": []
+        },
+        "expertContent": {
+          "classroomScenarios": 3,
+          "expertTips": 3,
+          "crossCurricularLinks": 3,
+          "differentiationStrategies": 4,
+          "assessmentIdeas": 3,
+          "quickStats": 6,
+          "issues": []
+        },
+        "internalLinking": {
+          "productLinks": 4,
+          "themeComparisons": 4,
+          "issues": []
+        }
+      },
+      "summary": {
+        "fails": 0,
+        "warns": 0,
+        "passes": 82
+      }
+    },
+    {
+      "theme": "shapes",
+      "dimensions": {
+        "seoMetadata": {
+          "titleLen": 56,
+          "descLen": 154,
+          "keywordCount": 10,
+          "hasHeading": true,
+          "issues": []
+        },
+        "gradeContent": {
+          "grades": {
+            "preschool": {
+              "present": true,
+              "introWords": 249,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "kindergarten": {
+              "present": true,
+              "introWords": 270,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "first-grade": {
+              "present": true,
+              "introWords": 272,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "second-grade": {
+              "present": true,
+              "introWords": 305,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "third-grade": {
+              "present": true,
+              "introWords": 302,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            }
+          },
+          "issues": []
+        },
+        "seoEnrichment": {
+          "uniqueAngleWords": 310,
+          "hasResearchCitation": true,
+          "snippetDefWords": 73,
+          "howToSteps": 7,
+          "hasLimitations": true,
+          "issues": []
+        },
+        "expertContent": {
+          "classroomScenarios": 3,
+          "expertTips": 3,
+          "crossCurricularLinks": 3,
+          "differentiationStrategies": 4,
+          "assessmentIdeas": 3,
+          "quickStats": 6,
+          "issues": []
+        },
+        "internalLinking": {
+          "productLinks": 4,
+          "themeComparisons": 4,
+          "issues": []
+        }
+      },
+      "summary": {
+        "fails": 0,
+        "warns": 0,
+        "passes": 82
+      }
+    },
+    {
+      "theme": "numbers",
+      "dimensions": {
+        "seoMetadata": {
+          "titleLen": 57,
+          "descLen": 155,
+          "keywordCount": 10,
+          "hasHeading": true,
+          "issues": []
+        },
+        "gradeContent": {
+          "grades": {
+            "preschool": {
+              "present": true,
+              "introWords": 225,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "kindergarten": {
+              "present": true,
+              "introWords": 243,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "first-grade": {
+              "present": true,
+              "introWords": 243,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "second-grade": {
+              "present": true,
+              "introWords": 310,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "third-grade": {
+              "present": true,
+              "introWords": 285,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            }
+          },
+          "issues": []
+        },
+        "seoEnrichment": {
+          "uniqueAngleWords": 318,
+          "hasResearchCitation": true,
+          "snippetDefWords": 64,
+          "howToSteps": 7,
+          "hasLimitations": true,
+          "issues": []
+        },
+        "expertContent": {
+          "classroomScenarios": 2,
+          "expertTips": 3,
+          "crossCurricularLinks": 3,
+          "differentiationStrategies": 4,
+          "assessmentIdeas": 3,
+          "quickStats": 6,
+          "issues": []
+        },
+        "internalLinking": {
+          "productLinks": 4,
+          "themeComparisons": 4,
+          "issues": []
+        }
+      },
+      "summary": {
+        "fails": 0,
+        "warns": 0,
+        "passes": 82
+      }
+    },
+    {
+      "theme": "alphabet",
+      "dimensions": {
+        "seoMetadata": {
+          "titleLen": 57,
+          "descLen": 156,
+          "keywordCount": 10,
+          "hasHeading": true,
+          "issues": []
+        },
+        "gradeContent": {
+          "grades": {
+            "preschool": {
+              "present": true,
+              "introWords": 252,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "kindergarten": {
+              "present": true,
+              "introWords": 260,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "first-grade": {
+              "present": true,
+              "introWords": 230,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "second-grade": {
+              "present": true,
+              "introWords": 293,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "third-grade": {
+              "present": true,
+              "introWords": 298,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            }
+          },
+          "issues": []
+        },
+        "seoEnrichment": {
+          "uniqueAngleWords": 329,
+          "hasResearchCitation": true,
+          "snippetDefWords": 74,
+          "howToSteps": 7,
+          "hasLimitations": true,
+          "issues": []
+        },
+        "expertContent": {
+          "classroomScenarios": 2,
+          "expertTips": 3,
+          "crossCurricularLinks": 3,
+          "differentiationStrategies": 4,
+          "assessmentIdeas": 3,
+          "quickStats": 6,
+          "issues": []
+        },
+        "internalLinking": {
+          "productLinks": 4,
+          "themeComparisons": 4,
+          "issues": []
+        }
+      },
+      "summary": {
+        "fails": 0,
+        "warns": 0,
+        "passes": 82
+      }
+    },
+    {
+      "theme": "furniture",
+      "dimensions": {
+        "seoMetadata": {
+          "titleLen": 56,
+          "descLen": 155,
+          "keywordCount": 10,
+          "hasHeading": true,
+          "issues": []
+        },
+        "gradeContent": {
+          "grades": {
+            "preschool": {
+              "present": true,
+              "introWords": 265,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "kindergarten": {
+              "present": true,
+              "introWords": 240,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "first-grade": {
+              "present": true,
+              "introWords": 259,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "second-grade": {
+              "present": true,
+              "introWords": 310,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "third-grade": {
+              "present": true,
+              "introWords": 402,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            }
+          },
+          "issues": []
+        },
+        "seoEnrichment": {
+          "uniqueAngleWords": 306,
+          "hasResearchCitation": true,
+          "snippetDefWords": 86,
+          "howToSteps": 7,
+          "hasLimitations": true,
+          "issues": []
+        },
+        "expertContent": {
+          "classroomScenarios": 3,
+          "expertTips": 3,
+          "crossCurricularLinks": 3,
+          "differentiationStrategies": 4,
+          "assessmentIdeas": 3,
+          "quickStats": 6,
+          "issues": []
+        },
+        "internalLinking": {
+          "productLinks": 4,
+          "themeComparisons": 4,
+          "issues": []
+        }
+      },
+      "summary": {
+        "fails": 0,
+        "warns": 0,
+        "passes": 82
+      }
+    },
+    {
+      "theme": "easter",
+      "dimensions": {
+        "seoMetadata": {
+          "titleLen": 59,
+          "descLen": 156,
+          "keywordCount": 10,
+          "hasHeading": true,
+          "issues": []
+        },
+        "gradeContent": {
+          "grades": {
+            "preschool": {
+              "present": true,
+              "introWords": 243,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "kindergarten": {
+              "present": true,
+              "introWords": 219,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "first-grade": {
+              "present": true,
+              "introWords": 229,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "second-grade": {
+              "present": true,
+              "introWords": 273,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "third-grade": {
+              "present": true,
+              "introWords": 365,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            }
+          },
+          "issues": []
+        },
+        "seoEnrichment": {
+          "uniqueAngleWords": 266,
+          "hasResearchCitation": true,
+          "snippetDefWords": 82,
+          "howToSteps": 7,
+          "hasLimitations": true,
+          "issues": []
+        },
+        "expertContent": {
+          "classroomScenarios": 3,
+          "expertTips": 3,
+          "crossCurricularLinks": 3,
+          "differentiationStrategies": 4,
+          "assessmentIdeas": 3,
+          "quickStats": 6,
+          "issues": []
+        },
+        "internalLinking": {
+          "productLinks": 4,
+          "themeComparisons": 4,
+          "issues": []
+        }
+      },
+      "summary": {
+        "fails": 0,
+        "warns": 0,
+        "passes": 82
+      }
+    },
+    {
+      "theme": "halloween",
+      "dimensions": {
+        "seoMetadata": {
+          "titleLen": 59,
+          "descLen": 159,
+          "keywordCount": 10,
+          "hasHeading": true,
+          "issues": []
+        },
+        "gradeContent": {
+          "grades": {
+            "preschool": {
+              "present": true,
+              "introWords": 229,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "kindergarten": {
+              "present": true,
+              "introWords": 221,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "first-grade": {
+              "present": true,
+              "introWords": 228,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "second-grade": {
+              "present": true,
+              "introWords": 271,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "third-grade": {
+              "present": true,
+              "introWords": 350,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            }
+          },
+          "issues": []
+        },
+        "seoEnrichment": {
+          "uniqueAngleWords": 253,
+          "hasResearchCitation": true,
+          "snippetDefWords": 77,
+          "howToSteps": 7,
+          "hasLimitations": true,
+          "issues": []
+        },
+        "expertContent": {
+          "classroomScenarios": 3,
+          "expertTips": 3,
+          "crossCurricularLinks": 3,
+          "differentiationStrategies": 4,
+          "assessmentIdeas": 3,
+          "quickStats": 6,
+          "issues": []
+        },
+        "internalLinking": {
+          "productLinks": 4,
+          "themeComparisons": 4,
+          "issues": []
+        }
+      },
+      "summary": {
+        "fails": 0,
+        "warns": 0,
+        "passes": 82
+      }
+    },
+    {
+      "theme": "xmas",
+      "dimensions": {
+        "seoMetadata": {
+          "titleLen": 59,
+          "descLen": 157,
+          "keywordCount": 10,
+          "hasHeading": true,
+          "issues": []
+        },
+        "gradeContent": {
+          "grades": {
+            "preschool": {
+              "present": true,
+              "introWords": 241,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "kindergarten": {
+              "present": true,
+              "introWords": 231,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "first-grade": {
+              "present": true,
+              "introWords": 250,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "second-grade": {
+              "present": true,
+              "introWords": 281,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "third-grade": {
+              "present": true,
+              "introWords": 355,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            }
+          },
+          "issues": []
+        },
+        "seoEnrichment": {
+          "uniqueAngleWords": 257,
+          "hasResearchCitation": true,
+          "snippetDefWords": 81,
+          "howToSteps": 7,
+          "hasLimitations": true,
+          "issues": []
+        },
+        "expertContent": {
+          "classroomScenarios": 3,
+          "expertTips": 3,
+          "crossCurricularLinks": 3,
+          "differentiationStrategies": 4,
+          "assessmentIdeas": 3,
+          "quickStats": 6,
+          "issues": []
+        },
+        "internalLinking": {
+          "productLinks": 4,
+          "themeComparisons": 4,
+          "issues": []
+        }
+      },
+      "summary": {
+        "fails": 0,
+        "warns": 0,
+        "passes": 82
+      }
+    },
+    {
+      "theme": "winter",
+      "dimensions": {
+        "seoMetadata": {
+          "titleLen": 59,
+          "descLen": 160,
+          "keywordCount": 10,
+          "hasHeading": true,
+          "issues": []
+        },
+        "gradeContent": {
+          "grades": {
+            "preschool": {
+              "present": true,
+              "introWords": 235,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "kindergarten": {
+              "present": true,
+              "introWords": 210,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "first-grade": {
+              "present": true,
+              "introWords": 221,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "second-grade": {
+              "present": true,
+              "introWords": 279,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "third-grade": {
+              "present": true,
+              "introWords": 301,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            }
+          },
+          "issues": []
+        },
+        "seoEnrichment": {
+          "uniqueAngleWords": 247,
+          "hasResearchCitation": true,
+          "snippetDefWords": 78,
+          "howToSteps": 7,
+          "hasLimitations": true,
+          "issues": []
+        },
+        "expertContent": {
+          "classroomScenarios": 3,
+          "expertTips": 3,
+          "crossCurricularLinks": 3,
+          "differentiationStrategies": 4,
+          "assessmentIdeas": 3,
+          "quickStats": 6,
+          "issues": []
+        },
+        "internalLinking": {
+          "productLinks": 4,
+          "themeComparisons": 4,
+          "issues": []
+        }
+      },
+      "summary": {
+        "fails": 0,
+        "warns": 0,
+        "passes": 82
+      }
+    },
+    {
+      "theme": "farm",
+      "dimensions": {
+        "seoMetadata": {
+          "titleLen": 55,
+          "descLen": 156,
+          "keywordCount": 10,
+          "hasHeading": true,
+          "issues": []
+        },
+        "gradeContent": {
+          "grades": {
+            "preschool": {
+              "present": true,
+              "introWords": 233,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "kindergarten": {
+              "present": true,
+              "introWords": 216,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "first-grade": {
+              "present": true,
+              "introWords": 224,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "second-grade": {
+              "present": true,
+              "introWords": 307,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "third-grade": {
+              "present": true,
+              "introWords": 280,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            }
+          },
+          "issues": []
+        },
+        "seoEnrichment": {
+          "uniqueAngleWords": 289,
+          "hasResearchCitation": true,
+          "snippetDefWords": 62,
+          "howToSteps": 7,
+          "hasLimitations": true,
+          "issues": []
+        },
+        "expertContent": {
+          "classroomScenarios": 3,
+          "expertTips": 3,
+          "crossCurricularLinks": 3,
+          "differentiationStrategies": 4,
+          "assessmentIdeas": 3,
+          "quickStats": 6,
+          "issues": []
+        },
+        "internalLinking": {
+          "productLinks": 4,
+          "themeComparisons": 4,
+          "issues": []
+        }
+      },
+      "summary": {
+        "fails": 0,
+        "warns": 0,
+        "passes": 82
+      }
+    },
+    {
+      "theme": "ocean",
+      "dimensions": {
+        "seoMetadata": {
+          "titleLen": 56,
+          "descLen": 160,
+          "keywordCount": 10,
+          "hasHeading": true,
+          "issues": []
+        },
+        "gradeContent": {
+          "grades": {
+            "preschool": {
+              "present": true,
+              "introWords": 231,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "kindergarten": {
+              "present": true,
+              "introWords": 227,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "first-grade": {
+              "present": true,
+              "introWords": 237,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "second-grade": {
+              "present": true,
+              "introWords": 351,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "third-grade": {
+              "present": true,
+              "introWords": 299,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            }
+          },
+          "issues": []
+        },
+        "seoEnrichment": {
+          "uniqueAngleWords": 301,
+          "hasResearchCitation": true,
+          "snippetDefWords": 69,
+          "howToSteps": 7,
+          "hasLimitations": true,
+          "issues": []
+        },
+        "expertContent": {
+          "classroomScenarios": 3,
+          "expertTips": 3,
+          "crossCurricularLinks": 3,
+          "differentiationStrategies": 4,
+          "assessmentIdeas": 3,
+          "quickStats": 6,
+          "issues": []
+        },
+        "internalLinking": {
+          "productLinks": 4,
+          "themeComparisons": 4,
+          "issues": []
+        }
+      },
+      "summary": {
+        "fails": 0,
+        "warns": 0,
+        "passes": 82
+      }
+    },
+    {
+      "theme": "dinosaurs",
+      "dimensions": {
+        "seoMetadata": {
+          "titleLen": 57,
+          "descLen": 159,
+          "keywordCount": 10,
+          "hasHeading": true,
+          "issues": []
+        },
+        "gradeContent": {
+          "grades": {
+            "preschool": {
+              "present": true,
+              "introWords": 228,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "kindergarten": {
+              "present": true,
+              "introWords": 214,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "first-grade": {
+              "present": true,
+              "introWords": 231,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "second-grade": {
+              "present": true,
+              "introWords": 333,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "third-grade": {
+              "present": true,
+              "introWords": 304,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            }
+          },
+          "issues": []
+        },
+        "seoEnrichment": {
+          "uniqueAngleWords": 290,
+          "hasResearchCitation": true,
+          "snippetDefWords": 75,
+          "howToSteps": 7,
+          "hasLimitations": true,
+          "issues": []
+        },
+        "expertContent": {
+          "classroomScenarios": 3,
+          "expertTips": 3,
+          "crossCurricularLinks": 3,
+          "differentiationStrategies": 4,
+          "assessmentIdeas": 3,
+          "quickStats": 6,
+          "issues": []
+        },
+        "internalLinking": {
+          "productLinks": 4,
+          "themeComparisons": 4,
+          "issues": []
+        }
+      },
+      "summary": {
+        "fails": 0,
+        "warns": 0,
+        "passes": 82
+      }
+    },
+    {
+      "theme": "insects",
+      "dimensions": {
+        "seoMetadata": {
+          "titleLen": 60,
+          "descLen": 156,
+          "keywordCount": 10,
+          "hasHeading": true,
+          "issues": []
+        },
+        "gradeContent": {
+          "grades": {
+            "preschool": {
+              "present": true,
+              "introWords": 225,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 4,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "kindergarten": {
+              "present": true,
+              "introWords": 225,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "first-grade": {
+              "present": true,
+              "introWords": 229,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "second-grade": {
+              "present": true,
+              "introWords": 321,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "third-grade": {
+              "present": true,
+              "introWords": 313,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            }
+          },
+          "issues": []
+        },
+        "seoEnrichment": {
+          "uniqueAngleWords": 283,
+          "hasResearchCitation": true,
+          "snippetDefWords": 73,
+          "howToSteps": 7,
+          "hasLimitations": true,
+          "issues": []
+        },
+        "expertContent": {
+          "classroomScenarios": 3,
+          "expertTips": 3,
+          "crossCurricularLinks": 3,
+          "differentiationStrategies": 4,
+          "assessmentIdeas": 3,
+          "quickStats": 6,
+          "issues": []
+        },
+        "internalLinking": {
+          "productLinks": 4,
+          "themeComparisons": 4,
+          "issues": []
+        }
+      },
+      "summary": {
+        "fails": 0,
+        "warns": 0,
+        "passes": 82
+      }
+    },
+    {
+      "theme": "fruits",
+      "dimensions": {
+        "seoMetadata": {
+          "titleLen": 57,
+          "descLen": 157,
+          "keywordCount": 10,
+          "hasHeading": true,
+          "issues": []
+        },
+        "gradeContent": {
+          "grades": {
+            "preschool": {
+              "present": true,
+              "introWords": 230,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "kindergarten": {
+              "present": true,
+              "introWords": 228,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "first-grade": {
+              "present": true,
+              "introWords": 225,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "second-grade": {
+              "present": true,
+              "introWords": 299,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "third-grade": {
+              "present": true,
+              "introWords": 473,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            }
+          },
+          "issues": []
+        },
+        "seoEnrichment": {
+          "uniqueAngleWords": 258,
+          "hasResearchCitation": true,
+          "snippetDefWords": 72,
+          "howToSteps": 7,
+          "hasLimitations": true,
+          "issues": []
+        },
+        "expertContent": {
+          "classroomScenarios": 3,
+          "expertTips": 3,
+          "crossCurricularLinks": 3,
+          "differentiationStrategies": 4,
+          "assessmentIdeas": 3,
+          "quickStats": 6,
+          "issues": []
+        },
+        "internalLinking": {
+          "productLinks": 4,
+          "themeComparisons": 4,
+          "issues": []
+        }
+      },
+      "summary": {
+        "fails": 0,
+        "warns": 0,
+        "passes": 82
+      }
+    },
+    {
+      "theme": "vegetables",
+      "dimensions": {
+        "seoMetadata": {
+          "titleLen": 59,
+          "descLen": 160,
+          "keywordCount": 10,
+          "hasHeading": true,
+          "issues": []
+        },
+        "gradeContent": {
+          "grades": {
+            "preschool": {
+              "present": true,
+              "introWords": 236,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "kindergarten": {
+              "present": true,
+              "introWords": 232,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "first-grade": {
+              "present": true,
+              "introWords": 227,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "second-grade": {
+              "present": true,
+              "introWords": 280,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "third-grade": {
+              "present": true,
+              "introWords": 482,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            }
+          },
+          "issues": []
+        },
+        "seoEnrichment": {
+          "uniqueAngleWords": 232,
+          "hasResearchCitation": true,
+          "snippetDefWords": 77,
+          "howToSteps": 7,
+          "hasLimitations": true,
+          "issues": []
+        },
+        "expertContent": {
+          "classroomScenarios": 3,
+          "expertTips": 3,
+          "crossCurricularLinks": 3,
+          "differentiationStrategies": 4,
+          "assessmentIdeas": 3,
+          "quickStats": 6,
+          "issues": []
+        },
+        "internalLinking": {
+          "productLinks": 4,
+          "themeComparisons": 4,
+          "issues": []
+        }
+      },
+      "summary": {
+        "fails": 0,
+        "warns": 0,
+        "passes": 82
+      }
+    },
+    {
+      "theme": "flowers",
+      "dimensions": {
+        "seoMetadata": {
+          "titleLen": 54,
+          "descLen": 158,
+          "keywordCount": 10,
+          "hasHeading": true,
+          "issues": []
+        },
+        "gradeContent": {
+          "grades": {
+            "preschool": {
+              "present": true,
+              "introWords": 234,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "kindergarten": {
+              "present": true,
+              "introWords": 239,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "first-grade": {
+              "present": true,
+              "introWords": 237,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "second-grade": {
+              "present": true,
+              "introWords": 265,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "third-grade": {
+              "present": true,
+              "introWords": 301,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            }
+          },
+          "issues": []
+        },
+        "seoEnrichment": {
+          "uniqueAngleWords": 271,
+          "hasResearchCitation": true,
+          "snippetDefWords": 66,
+          "howToSteps": 7,
+          "hasLimitations": true,
+          "issues": []
+        },
+        "expertContent": {
+          "classroomScenarios": 3,
+          "expertTips": 3,
+          "crossCurricularLinks": 3,
+          "differentiationStrategies": 4,
+          "assessmentIdeas": 3,
+          "quickStats": 6,
+          "issues": []
+        },
+        "internalLinking": {
+          "productLinks": 4,
+          "themeComparisons": 4,
+          "issues": []
+        }
+      },
+      "summary": {
+        "fails": 0,
+        "warns": 0,
+        "passes": 82
+      }
+    },
+    {
+      "theme": "birds",
+      "dimensions": {
+        "seoMetadata": {
+          "titleLen": 57,
+          "descLen": 156,
+          "keywordCount": 10,
+          "hasHeading": true,
+          "issues": []
+        },
+        "gradeContent": {
+          "grades": {
+            "preschool": {
+              "present": true,
+              "introWords": 242,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "kindergarten": {
+              "present": true,
+              "introWords": 251,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "first-grade": {
+              "present": true,
+              "introWords": 254,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "second-grade": {
+              "present": true,
+              "introWords": 312,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "third-grade": {
+              "present": true,
+              "introWords": 300,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            }
+          },
+          "issues": []
+        },
+        "seoEnrichment": {
+          "uniqueAngleWords": 307,
+          "hasResearchCitation": true,
+          "snippetDefWords": 71,
+          "howToSteps": 7,
+          "hasLimitations": true,
+          "issues": []
+        },
+        "expertContent": {
+          "classroomScenarios": 3,
+          "expertTips": 3,
+          "crossCurricularLinks": 3,
+          "differentiationStrategies": 4,
+          "assessmentIdeas": 3,
+          "quickStats": 6,
+          "issues": []
+        },
+        "internalLinking": {
+          "productLinks": 4,
+          "themeComparisons": 4,
+          "issues": []
+        }
+      },
+      "summary": {
+        "fails": 0,
+        "warns": 0,
+        "passes": 82
+      }
+    },
+    {
+      "theme": "pets",
+      "dimensions": {
+        "seoMetadata": {
+          "titleLen": 56,
+          "descLen": 154,
+          "keywordCount": 10,
+          "hasHeading": true,
+          "issues": []
+        },
+        "gradeContent": {
+          "grades": {
+            "preschool": {
+              "present": true,
+              "introWords": 222,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "kindergarten": {
+              "present": true,
+              "introWords": 220,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "first-grade": {
+              "present": true,
+              "introWords": 229,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "second-grade": {
+              "present": true,
+              "introWords": 292,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "third-grade": {
+              "present": true,
+              "introWords": 293,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 4,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            }
+          },
+          "issues": []
+        },
+        "seoEnrichment": {
+          "uniqueAngleWords": 285,
+          "hasResearchCitation": true,
+          "snippetDefWords": 58,
+          "howToSteps": 6,
+          "hasLimitations": true,
+          "issues": []
+        },
+        "expertContent": {
+          "classroomScenarios": 3,
+          "expertTips": 3,
+          "crossCurricularLinks": 3,
+          "differentiationStrategies": 4,
+          "assessmentIdeas": 3,
+          "quickStats": 6,
+          "issues": []
+        },
+        "internalLinking": {
+          "productLinks": 4,
+          "themeComparisons": 3,
+          "issues": []
+        }
+      },
+      "summary": {
+        "fails": 0,
+        "warns": 0,
+        "passes": 82
+      }
+    },
+    {
+      "theme": "zoo",
+      "dimensions": {
+        "seoMetadata": {
+          "titleLen": 56,
+          "descLen": 158,
+          "keywordCount": 10,
+          "hasHeading": true,
+          "issues": []
+        },
+        "gradeContent": {
+          "grades": {
+            "preschool": {
+              "present": true,
+              "introWords": 215,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "kindergarten": {
+              "present": true,
+              "introWords": 228,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "first-grade": {
+              "present": true,
+              "introWords": 233,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "second-grade": {
+              "present": true,
+              "introWords": 301,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "third-grade": {
+              "present": true,
+              "introWords": 293,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            }
+          },
+          "issues": []
+        },
+        "seoEnrichment": {
+          "uniqueAngleWords": 295,
+          "hasResearchCitation": true,
+          "snippetDefWords": 65,
+          "howToSteps": 7,
+          "hasLimitations": true,
+          "issues": []
+        },
+        "expertContent": {
+          "classroomScenarios": 3,
+          "expertTips": 3,
+          "crossCurricularLinks": 3,
+          "differentiationStrategies": 4,
+          "assessmentIdeas": 3,
+          "quickStats": 6,
+          "issues": []
+        },
+        "internalLinking": {
+          "productLinks": 4,
+          "themeComparisons": 4,
+          "issues": []
+        }
+      },
+      "summary": {
+        "fails": 0,
+        "warns": 0,
+        "passes": 82
+      }
+    },
+    {
+      "theme": "garden",
+      "dimensions": {
+        "seoMetadata": {
+          "titleLen": 57,
+          "descLen": 158,
+          "keywordCount": 10,
+          "hasHeading": true,
+          "issues": []
+        },
+        "gradeContent": {
+          "grades": {
+            "preschool": {
+              "present": true,
+              "introWords": 233,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "kindergarten": {
+              "present": true,
+              "introWords": 237,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "first-grade": {
+              "present": true,
+              "introWords": 236,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "second-grade": {
+              "present": true,
+              "introWords": 340,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "third-grade": {
+              "present": true,
+              "introWords": 315,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            }
+          },
+          "issues": []
+        },
+        "seoEnrichment": {
+          "uniqueAngleWords": 240,
+          "hasResearchCitation": true,
+          "snippetDefWords": 71,
+          "howToSteps": 7,
+          "hasLimitations": true,
+          "issues": []
+        },
+        "expertContent": {
+          "classroomScenarios": 3,
+          "expertTips": 3,
+          "crossCurricularLinks": 3,
+          "differentiationStrategies": 4,
+          "assessmentIdeas": 3,
+          "quickStats": 6,
+          "issues": []
+        },
+        "internalLinking": {
+          "productLinks": 4,
+          "themeComparisons": 4,
+          "issues": []
+        }
+      },
+      "summary": {
+        "fails": 0,
+        "warns": 0,
+        "passes": 82
+      }
+    },
+    {
+      "theme": "camping",
+      "dimensions": {
+        "seoMetadata": {
+          "titleLen": 57,
+          "descLen": 155,
+          "keywordCount": 10,
+          "hasHeading": true,
+          "issues": []
+        },
+        "gradeContent": {
+          "grades": {
+            "preschool": {
+              "present": true,
+              "introWords": 219,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "kindergarten": {
+              "present": true,
+              "introWords": 208,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "first-grade": {
+              "present": true,
+              "introWords": 225,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "second-grade": {
+              "present": true,
+              "introWords": 294,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "third-grade": {
+              "present": true,
+              "introWords": 421,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            }
+          },
+          "issues": []
+        },
+        "seoEnrichment": {
+          "uniqueAngleWords": 274,
+          "hasResearchCitation": true,
+          "snippetDefWords": 85,
+          "howToSteps": 7,
+          "hasLimitations": true,
+          "issues": []
+        },
+        "expertContent": {
+          "classroomScenarios": 3,
+          "expertTips": 3,
+          "crossCurricularLinks": 3,
+          "differentiationStrategies": 4,
+          "assessmentIdeas": 3,
+          "quickStats": 6,
+          "issues": []
+        },
+        "internalLinking": {
+          "productLinks": 4,
+          "themeComparisons": 4,
+          "issues": []
+        }
+      },
+      "summary": {
+        "fails": 0,
+        "warns": 0,
+        "passes": 82
+      }
+    },
+    {
+      "theme": "pirates",
+      "dimensions": {
+        "seoMetadata": {
+          "titleLen": 58,
+          "descLen": 160,
+          "keywordCount": 10,
+          "hasHeading": true,
+          "issues": []
+        },
+        "gradeContent": {
+          "grades": {
+            "preschool": {
+              "present": true,
+              "introWords": 214,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "kindergarten": {
+              "present": true,
+              "introWords": 214,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "first-grade": {
+              "present": true,
+              "introWords": 239,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "second-grade": {
+              "present": true,
+              "introWords": 282,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "third-grade": {
+              "present": true,
+              "introWords": 306,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            }
+          },
+          "issues": []
+        },
+        "seoEnrichment": {
+          "uniqueAngleWords": 290,
+          "hasResearchCitation": true,
+          "snippetDefWords": 94,
+          "howToSteps": 7,
+          "hasLimitations": true,
+          "issues": []
+        },
+        "expertContent": {
+          "classroomScenarios": 3,
+          "expertTips": 3,
+          "crossCurricularLinks": 3,
+          "differentiationStrategies": 4,
+          "assessmentIdeas": 3,
+          "quickStats": 6,
+          "issues": []
+        },
+        "internalLinking": {
+          "productLinks": 4,
+          "themeComparisons": 4,
+          "issues": []
+        }
+      },
+      "summary": {
+        "fails": 0,
+        "warns": 0,
+        "passes": 82
+      }
+    },
+    {
+      "theme": "fairy-tales",
+      "dimensions": {
+        "seoMetadata": {
+          "titleLen": 58,
+          "descLen": 157,
+          "keywordCount": 10,
+          "hasHeading": true,
+          "issues": []
+        },
+        "gradeContent": {
+          "grades": {
+            "preschool": {
+              "present": true,
+              "introWords": 250,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "kindergarten": {
+              "present": true,
+              "introWords": 231,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "first-grade": {
+              "present": true,
+              "introWords": 235,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "second-grade": {
+              "present": true,
+              "introWords": 300,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "third-grade": {
+              "present": true,
+              "introWords": 294,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            }
+          },
+          "issues": []
+        },
+        "seoEnrichment": {
+          "uniqueAngleWords": 316,
+          "hasResearchCitation": true,
+          "snippetDefWords": 89,
+          "howToSteps": 7,
+          "hasLimitations": true,
+          "issues": []
+        },
+        "expertContent": {
+          "classroomScenarios": 3,
+          "expertTips": 3,
+          "crossCurricularLinks": 3,
+          "differentiationStrategies": 4,
+          "assessmentIdeas": 3,
+          "quickStats": 6,
+          "issues": []
+        },
+        "internalLinking": {
+          "productLinks": 4,
+          "themeComparisons": 4,
+          "issues": []
+        }
+      },
+      "summary": {
+        "fails": 0,
+        "warns": 0,
+        "passes": 82
+      }
+    },
+    {
+      "theme": "robots",
+      "dimensions": {
+        "seoMetadata": {
+          "titleLen": 58,
+          "descLen": 157,
+          "keywordCount": 10,
+          "hasHeading": true,
+          "issues": []
+        },
+        "gradeContent": {
+          "grades": {
+            "preschool": {
+              "present": true,
+              "introWords": 247,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "kindergarten": {
+              "present": true,
+              "introWords": 240,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "first-grade": {
+              "present": true,
+              "introWords": 231,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "second-grade": {
+              "present": true,
+              "introWords": 292,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "third-grade": {
+              "present": true,
+              "introWords": 337,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            }
+          },
+          "issues": []
+        },
+        "seoEnrichment": {
+          "uniqueAngleWords": 291,
+          "hasResearchCitation": true,
+          "snippetDefWords": 90,
+          "howToSteps": 7,
+          "hasLimitations": true,
+          "issues": []
+        },
+        "expertContent": {
+          "classroomScenarios": 3,
+          "expertTips": 3,
+          "crossCurricularLinks": 3,
+          "differentiationStrategies": 4,
+          "assessmentIdeas": 3,
+          "quickStats": 6,
+          "issues": []
+        },
+        "internalLinking": {
+          "productLinks": 4,
+          "themeComparisons": 4,
+          "issues": []
+        }
+      },
+      "summary": {
+        "fails": 0,
+        "warns": 0,
+        "passes": 82
+      }
+    },
+    {
+      "theme": "superheroes",
+      "dimensions": {
+        "seoMetadata": {
+          "titleLen": 59,
+          "descLen": 157,
+          "keywordCount": 10,
+          "hasHeading": true,
+          "issues": []
+        },
+        "gradeContent": {
+          "grades": {
+            "preschool": {
+              "present": true,
+              "introWords": 237,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "kindergarten": {
+              "present": true,
+              "introWords": 215,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "first-grade": {
+              "present": true,
+              "introWords": 215,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "second-grade": {
+              "present": true,
+              "introWords": 294,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "third-grade": {
+              "present": true,
+              "introWords": 316,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            }
+          },
+          "issues": []
+        },
+        "seoEnrichment": {
+          "uniqueAngleWords": 311,
+          "hasResearchCitation": true,
+          "snippetDefWords": 84,
+          "howToSteps": 7,
+          "hasLimitations": true,
+          "issues": []
+        },
+        "expertContent": {
+          "classroomScenarios": 3,
+          "expertTips": 3,
+          "crossCurricularLinks": 3,
+          "differentiationStrategies": 4,
+          "assessmentIdeas": 3,
+          "quickStats": 6,
+          "issues": []
+        },
+        "internalLinking": {
+          "productLinks": 4,
+          "themeComparisons": 4,
+          "issues": []
+        }
+      },
+      "summary": {
+        "fails": 0,
+        "warns": 0,
+        "passes": 82
+      }
+    },
+    {
+      "theme": "construction",
+      "dimensions": {
+        "seoMetadata": {
+          "titleLen": 57,
+          "descLen": 159,
+          "keywordCount": 10,
+          "hasHeading": true,
+          "issues": []
+        },
+        "gradeContent": {
+          "grades": {
+            "preschool": {
+              "present": true,
+              "introWords": 222,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "kindergarten": {
+              "present": true,
+              "introWords": 210,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "first-grade": {
+              "present": true,
+              "introWords": 217,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "second-grade": {
+              "present": true,
+              "introWords": 277,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "third-grade": {
+              "present": true,
+              "introWords": 472,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            }
+          },
+          "issues": []
+        },
+        "seoEnrichment": {
+          "uniqueAngleWords": 242,
+          "hasResearchCitation": true,
+          "snippetDefWords": 84,
+          "howToSteps": 7,
+          "hasLimitations": true,
+          "issues": []
+        },
+        "expertContent": {
+          "classroomScenarios": 3,
+          "expertTips": 3,
+          "crossCurricularLinks": 3,
+          "differentiationStrategies": 4,
+          "assessmentIdeas": 3,
+          "quickStats": 6,
+          "issues": []
+        },
+        "internalLinking": {
+          "productLinks": 4,
+          "themeComparisons": 4,
+          "issues": []
+        }
+      },
+      "summary": {
+        "fails": 0,
+        "warns": 0,
+        "passes": 82
+      }
+    },
+    {
+      "theme": "cooking",
+      "dimensions": {
+        "seoMetadata": {
+          "titleLen": 57,
+          "descLen": 159,
+          "keywordCount": 10,
+          "hasHeading": true,
+          "issues": []
+        },
+        "gradeContent": {
+          "grades": {
+            "preschool": {
+              "present": true,
+              "introWords": 240,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "kindergarten": {
+              "present": true,
+              "introWords": 255,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "first-grade": {
+              "present": true,
+              "introWords": 254,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "second-grade": {
+              "present": true,
+              "introWords": 281,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "third-grade": {
+              "present": true,
+              "introWords": 369,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            }
+          },
+          "issues": []
+        },
+        "seoEnrichment": {
+          "uniqueAngleWords": 248,
+          "hasResearchCitation": true,
+          "snippetDefWords": 70,
+          "howToSteps": 7,
+          "hasLimitations": true,
+          "issues": []
+        },
+        "expertContent": {
+          "classroomScenarios": 3,
+          "expertTips": 3,
+          "crossCurricularLinks": 3,
+          "differentiationStrategies": 4,
+          "assessmentIdeas": 3,
+          "quickStats": 6,
+          "issues": []
+        },
+        "internalLinking": {
+          "productLinks": 4,
+          "themeComparisons": 4,
+          "issues": []
+        }
+      },
+      "summary": {
+        "fails": 0,
+        "warns": 0,
+        "passes": 82
+      }
+    },
+    {
+      "theme": "travel",
+      "dimensions": {
+        "seoMetadata": {
+          "titleLen": 58,
+          "descLen": 159,
+          "keywordCount": 10,
+          "hasHeading": true,
+          "issues": []
+        },
+        "gradeContent": {
+          "grades": {
+            "preschool": {
+              "present": true,
+              "introWords": 227,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "kindergarten": {
+              "present": true,
+              "introWords": 213,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "first-grade": {
+              "present": true,
+              "introWords": 234,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "second-grade": {
+              "present": true,
+              "introWords": 274,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "third-grade": {
+              "present": true,
+              "introWords": 431,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            }
+          },
+          "issues": []
+        },
+        "seoEnrichment": {
+          "uniqueAngleWords": 275,
+          "hasResearchCitation": true,
+          "snippetDefWords": 83,
+          "howToSteps": 7,
+          "hasLimitations": true,
+          "issues": []
+        },
+        "expertContent": {
+          "classroomScenarios": 3,
+          "expertTips": 3,
+          "crossCurricularLinks": 3,
+          "differentiationStrategies": 4,
+          "assessmentIdeas": 3,
+          "quickStats": 6,
+          "issues": []
+        },
+        "internalLinking": {
+          "productLinks": 4,
+          "themeComparisons": 4,
+          "issues": []
+        }
+      },
+      "summary": {
+        "fails": 0,
+        "warns": 0,
+        "passes": 82
+      }
+    },
+    {
+      "theme": "birthday",
+      "dimensions": {
+        "seoMetadata": {
+          "titleLen": 60,
+          "descLen": 160,
+          "keywordCount": 10,
+          "hasHeading": true,
+          "issues": []
+        },
+        "gradeContent": {
+          "grades": {
+            "preschool": {
+              "present": true,
+              "introWords": 242,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "kindergarten": {
+              "present": true,
+              "introWords": 245,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "first-grade": {
+              "present": true,
+              "introWords": 239,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "second-grade": {
+              "present": true,
+              "introWords": 328,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "third-grade": {
+              "present": true,
+              "introWords": 413,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            }
+          },
+          "issues": []
+        },
+        "seoEnrichment": {
+          "uniqueAngleWords": 275,
+          "hasResearchCitation": true,
+          "snippetDefWords": 80,
+          "howToSteps": 7,
+          "hasLimitations": true,
+          "issues": []
+        },
+        "expertContent": {
+          "classroomScenarios": 3,
+          "expertTips": 3,
+          "crossCurricularLinks": 3,
+          "differentiationStrategies": 4,
+          "assessmentIdeas": 3,
+          "quickStats": 6,
+          "issues": []
+        },
+        "internalLinking": {
+          "productLinks": 4,
+          "themeComparisons": 4,
+          "issues": []
+        }
+      },
+      "summary": {
+        "fails": 0,
+        "warns": 0,
+        "passes": 82
+      }
+    },
+    {
+      "theme": "circus",
+      "dimensions": {
+        "seoMetadata": {
+          "titleLen": 57,
+          "descLen": 160,
+          "keywordCount": 10,
+          "hasHeading": true,
+          "issues": []
+        },
+        "gradeContent": {
+          "grades": {
+            "preschool": {
+              "present": true,
+              "introWords": 244,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "kindergarten": {
+              "present": true,
+              "introWords": 228,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "first-grade": {
+              "present": true,
+              "introWords": 243,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "second-grade": {
+              "present": true,
+              "introWords": 304,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "third-grade": {
+              "present": true,
+              "introWords": 350,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            }
+          },
+          "issues": []
+        },
+        "seoEnrichment": {
+          "uniqueAngleWords": 254,
+          "hasResearchCitation": true,
+          "snippetDefWords": 83,
+          "howToSteps": 7,
+          "hasLimitations": true,
+          "issues": []
+        },
+        "expertContent": {
+          "classroomScenarios": 3,
+          "expertTips": 3,
+          "crossCurricularLinks": 3,
+          "differentiationStrategies": 4,
+          "assessmentIdeas": 3,
+          "quickStats": 6,
+          "issues": []
+        },
+        "internalLinking": {
+          "productLinks": 4,
+          "themeComparisons": 4,
+          "issues": []
+        }
+      },
+      "summary": {
+        "fails": 0,
+        "warns": 0,
+        "passes": 82
+      }
+    },
+    {
+      "theme": "forest",
+      "dimensions": {
+        "seoMetadata": {
+          "titleLen": 57,
+          "descLen": 160,
+          "keywordCount": 10,
+          "hasHeading": true,
+          "issues": []
+        },
+        "gradeContent": {
+          "grades": {
+            "preschool": {
+              "present": true,
+              "introWords": 245,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "kindergarten": {
+              "present": true,
+              "introWords": 253,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "first-grade": {
+              "present": true,
+              "introWords": 253,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "second-grade": {
+              "present": true,
+              "introWords": 354,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "third-grade": {
+              "present": true,
+              "introWords": 311,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            }
+          },
+          "issues": []
+        },
+        "seoEnrichment": {
+          "uniqueAngleWords": 298,
+          "hasResearchCitation": true,
+          "snippetDefWords": 65,
+          "howToSteps": 7,
+          "hasLimitations": true,
+          "issues": []
+        },
+        "expertContent": {
+          "classroomScenarios": 3,
+          "expertTips": 3,
+          "crossCurricularLinks": 3,
+          "differentiationStrategies": 4,
+          "assessmentIdeas": 3,
+          "quickStats": 6,
+          "issues": []
+        },
+        "internalLinking": {
+          "productLinks": 4,
+          "themeComparisons": 4,
+          "issues": []
+        }
+      },
+      "summary": {
+        "fails": 0,
+        "warns": 0,
+        "passes": 82
+      }
+    },
+    {
+      "theme": "spring",
+      "dimensions": {
+        "seoMetadata": {
+          "titleLen": 59,
+          "descLen": 160,
+          "keywordCount": 10,
+          "hasHeading": true,
+          "issues": []
+        },
+        "gradeContent": {
+          "grades": {
+            "preschool": {
+              "present": true,
+              "introWords": 228,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "kindergarten": {
+              "present": true,
+              "introWords": 204,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "first-grade": {
+              "present": true,
+              "introWords": 223,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "second-grade": {
+              "present": true,
+              "introWords": 283,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "third-grade": {
+              "present": true,
+              "introWords": 461,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            }
+          },
+          "issues": []
+        },
+        "seoEnrichment": {
+          "uniqueAngleWords": 238,
+          "hasResearchCitation": true,
+          "snippetDefWords": 77,
+          "howToSteps": 7,
+          "hasLimitations": true,
+          "issues": []
+        },
+        "expertContent": {
+          "classroomScenarios": 3,
+          "expertTips": 3,
+          "crossCurricularLinks": 3,
+          "differentiationStrategies": 4,
+          "assessmentIdeas": 3,
+          "quickStats": 6,
+          "issues": []
+        },
+        "internalLinking": {
+          "productLinks": 4,
+          "themeComparisons": 4,
+          "issues": []
+        }
+      },
+      "summary": {
+        "fails": 0,
+        "warns": 0,
+        "passes": 82
+      }
+    },
+    {
+      "theme": "summer",
+      "dimensions": {
+        "seoMetadata": {
+          "titleLen": 59,
+          "descLen": 158,
+          "keywordCount": 10,
+          "hasHeading": true,
+          "issues": []
+        },
+        "gradeContent": {
+          "grades": {
+            "preschool": {
+              "present": true,
+              "introWords": 225,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "kindergarten": {
+              "present": true,
+              "introWords": 202,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "first-grade": {
+              "present": true,
+              "introWords": 222,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "second-grade": {
+              "present": true,
+              "introWords": 290,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            },
+            "third-grade": {
+              "present": true,
+              "introWords": 477,
+              "hasSeoTitle": true,
+              "hasSeoDescription": true,
+              "hasSeoKeywords": true,
+              "faqCount": 3,
+              "objectiveCount": 6,
+              "tipsCount": 2,
+              "hasUniqueGradeAngle": true,
+              "devMilestoneCount": 3,
+              "assessmentRubricCount": 3,
+              "hasDiffNotes": true,
+              "hasParentTakeaway": true,
+              "hasClassroomIntegration": true
+            }
+          },
+          "issues": []
+        },
+        "seoEnrichment": {
+          "uniqueAngleWords": 237,
+          "hasResearchCitation": true,
+          "snippetDefWords": 83,
+          "howToSteps": 7,
+          "hasLimitations": true,
+          "issues": []
+        },
+        "expertContent": {
+          "classroomScenarios": 3,
+          "expertTips": 3,
+          "crossCurricularLinks": 3,
+          "differentiationStrategies": 4,
+          "assessmentIdeas": 3,
+          "quickStats": 6,
+          "issues": []
+        },
+        "internalLinking": {
+          "productLinks": 4,
+          "themeComparisons": 4,
+          "issues": []
+        }
+      },
+      "summary": {
+        "fails": 0,
+        "warns": 0,
+        "passes": 82
+      }
+    }
+  ]
+}

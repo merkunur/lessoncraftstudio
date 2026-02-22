@@ -422,6 +422,12 @@ const content: EnrichedThemeContent = {
     { label: 'Average session length', value: '10–20 min' },
     { label: 'Dinosaur types featured', value: 'T-Rex, Triceratops, Stegosaurus, Brachiosaurus' },
   ],
+
+  expertTips: [
+    { tip: 'Use dinosaur worksheets to introduce the concept of deep time and large numbers. When children learn that dinosaurs lived millions of years ago, they stretch their number sense beyond everyday experience, building comfort with large quantities that supports later mathematical reasoning.', source: 'Common Core Math: Number & Operations in Base Ten, place value standards', gradeRange: '2nd-3rd' },
+    { tip: 'Connect dinosaur classification worksheets to scientific taxonomy skills. Sorting dinosaurs by diet (herbivore, carnivore, omnivore), era, or physical features builds the same hierarchical classification abilities used in formal biology.', source: 'Next Generation Science Standards (NGSS), LS4: Biological Evolution', gradeRange: 'K-2nd' },
+    { tip: 'Leverage dinosaur enthusiasm to build academic vocabulary. Words like extinct, fossil, predator, and herbivore are Tier 2 academic vocabulary that appears across disciplines, and dinosaur contexts provide the emotional engagement that makes these words stick.', source: 'Isabel Beck, Bringing Words to Life: Robust Vocabulary Instruction, 2002', gradeRange: 'K-3rd' },
+  ],
 };
 
 registerThemeContent('dinosaurs', 'en', content);

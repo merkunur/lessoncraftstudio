@@ -420,6 +420,12 @@ const content: EnrichedThemeContent = {
     { label: 'Average session length', value: '10\u201320 min' },
     { label: 'Key science coverage', value: 'Life cycle + pollination' },
   ],
+
+  expertTips: [
+    { tip: 'Use flower worksheets to teach symmetry through petal patterns. Many flowers have natural rotational and reflective symmetry, making them perfect models for introducing geometric transformations in a beautiful, engaging context.', source: 'Common Core Math 4.G: Draw and identify lines of symmetry', gradeRange: '1st-3rd' },
+    { tip: 'Connect flower counting activities to multiplication concepts. Counting petals on multiple flowers (5 petals times 3 flowers) provides a concrete introduction to repeated addition and multiplicative thinking.', source: 'Common Core Math 2.OA.C.4: Work with equal groups of objects', gradeRange: 'K-2nd' },
+    { tip: 'Leverage flower themes to build color vocabulary and mixing understanding. When children color flowers and explore what happens when colors blend on the page, they practice fine motor skills while gaining intuitive understanding of color theory principles.', source: 'Lowenfeld & Brittain, Creative and Mental Growth, art education principles', gradeRange: 'Pre-K to 1st' },
+  ],
 };
 
 registerThemeContent('flowers', 'en', content);

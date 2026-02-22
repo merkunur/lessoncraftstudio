@@ -421,6 +421,12 @@ const content: EnrichedThemeContent = {
     { label: 'Average session length', value: '10–20 min' },
     { label: 'Space topics featured', value: 'Planets, rockets, astronauts, stars, constellations' },
   ],
+
+  expertTips: [
+    { tip: 'Use space worksheets to introduce the concept of scale. Comparing planet sizes, distances between celestial bodies, or the relative brightness of stars helps children understand that numbers can represent enormous quantities, expanding their number sense beyond the classroom scale.', source: 'Common Core Math: Measurement & Data standards', gradeRange: '2nd-3rd' },
+    { tip: 'Connect space counting activities to scientific observation skills. When children count stars in a constellation worksheet and then look at the real night sky, they practice the same observe-record-compare cycle that professional scientists use.', source: 'Next Generation Science Standards (NGSS), Science Practices', gradeRange: 'K-2nd' },
+    { tip: 'Leverage space themes to build persistence through productive struggle. The narrative of astronaut training, where mistakes are expected and persistence is essential, provides a powerful metaphor for academic challenge that research shows improves growth mindset.', source: 'Carol Dweck, growth mindset research, Stanford University', gradeRange: 'All grades' },
+  ],
 };
 
 registerThemeContent('space', 'en', content);

@@ -422,6 +422,12 @@ const content: EnrichedThemeContent = {
       activity: 'After completing word-search toy vocabulary worksheets, guide students through a descriptive writing project where they choose their favorite toy, list five sensory details about it including how it looks, feels, sounds, and smells, write a descriptive paragraph using at least three toy vocabulary words from their worksheets, and draw a detailed illustration of their toy — connecting vocabulary acquisition and spelling fluency to sensory descriptive composition through the personally meaningful toy context that makes writing feel like sharing a treasured possession rather than completing an assignment.',
     },
   ],
+
+  expertTips: [
+    { tip: 'Use toy-themed worksheets to teach economic thinking. Activities where children choose which toys they would buy with a limited budget introduce opportunity cost and decision-making, connecting mathematical addition to real-world financial literacy.', source: 'Council for Economic Education, K-4 standards', gradeRange: '1st-3rd' },
+    { tip: 'Leverage toy familiarity to reduce math anxiety. When children encounter addition problems featuring their favorite toys instead of abstract symbols, their emotional connection to the content lowers the stress response that typically inhibits mathematical reasoning.', source: 'Sian Beilock, math anxiety research, University of Chicago', gradeRange: 'Pre-K to 2nd' },
+    { tip: 'Connect toy sorting worksheets to engineering thinking. When children classify toys by how they work (wheels, springs, batteries, magnets), they develop early technology literacy and the categorical reasoning that supports STEM inquiry.', source: 'ITEEA Standards for Technological and Engineering Literacy', gradeRange: 'K-3rd' },
+  ],
 };
 
 registerThemeContent('toys', 'en', content);

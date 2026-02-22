@@ -421,6 +421,12 @@ const content: EnrichedThemeContent = {
     { label: 'Average session length', value: '10\u201320 min' },
     { label: 'Key topic coverage', value: 'Trail navigation + wilderness vocabulary + camping supply math' },
   ],
+
+  expertTips: [
+    { tip: 'Use camping worksheets to teach survival math. Activities about rationing food, calculating distances, or reading trail maps provide authentic mathematical contexts where getting the right answer has clear practical importance, increasing motivation and precision.', source: 'Realistic Mathematics Education (RME), authentic contexts principle', gradeRange: '2nd-3rd' },
+    { tip: 'Connect camping themes to scientific observation worksheets. Nature journaling activities where children draw and label plants, animals, or geological features they might see while camping build the systematic observation skills central to scientific inquiry.', source: 'Next Generation Science Standards (NGSS), Science Practices: Obtaining and communicating information', gradeRange: 'K-2nd' },
+    { tip: 'Leverage camping excitement to practice list-making and organizational skills. Creating a camping packing list requires categorization (clothing, food, equipment), counting, and planning, building executive function through an engaging imaginary scenario.', source: 'Montessori practical life curriculum, organizational skill development', gradeRange: '1st-3rd' },
+  ],
 };
 
 registerThemeContent('camping', 'en', content);

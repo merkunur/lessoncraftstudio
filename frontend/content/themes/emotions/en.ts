@@ -421,6 +421,12 @@ const content: EnrichedThemeContent = {
     { label: 'Average session length', value: '10–20 min' },
     { label: 'Key topic coverage', value: 'Emotional vocabulary + feelings classification + empathy and self-regulation' },
   ],
+
+  expertTips: [
+    { tip: 'Use emotion worksheets as morning check-in tools. Having children identify their current feeling on a worksheet before academic instruction begins reduces emotional interference with learning and builds the self-awareness vocabulary that predicts social-emotional competence.', source: 'CASEL (Collaborative for Academic, Social, and Emotional Learning) framework', gradeRange: 'All grades' },
+    { tip: 'Connect emotion identification worksheets to literacy instruction. When children match facial expressions to emotion words, they are simultaneously building sight word vocabulary, developing empathy, and practicing the inference skills that reading comprehension demands.', source: 'Marc Brackett, Permission to Feel, Yale Center for Emotional Intelligence, 2019', gradeRange: 'K-2nd' },
+    { tip: 'Use emotion-themed sorting activities to teach the concept of a spectrum. Emotions exist on continuums (slightly happy to very happy) which parallels mathematical concepts like number lines and measurement scales, making this a natural cross-curricular connection.', source: 'Zones of Regulation curriculum, Leah Kuypers, 2011', gradeRange: '1st-3rd' },
+  ],
 };
 
 registerThemeContent('emotions', 'en', content);

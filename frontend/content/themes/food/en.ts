@@ -421,6 +421,12 @@ const content: EnrichedThemeContent = {
     { label: 'Average session length', value: '10–20 min' },
     { label: 'Food groups covered', value: 'Fruits, vegetables, grains, proteins, dairy & more' },
   ],
+
+  expertTips: [
+    { tip: 'Connect food worksheets to real nutritional literacy by having students classify their own lunchbox items into food groups after completing a sorting activity. This transfer from paper to reality deepens conceptual understanding far beyond rote categorization.', source: 'USDA MyPlate nutritional education guidelines', gradeRange: 'K-3rd' },
+    { tip: 'Use food fractions as an intuitive entry point for mathematical partitioning. Pizzas, pies, and sandwiches naturally divide into halves, quarters, and eighths, giving children concrete visual models before they encounter abstract fraction notation.', source: 'National Council of Teachers of Mathematics (NCTM)', gradeRange: '1st-3rd' },
+    { tip: 'Pair food counting activities with cooking experiences. When children count ingredients on paper and then measure them in a real recipe, they build number sense through embodied cognition, which research shows creates stronger neural pathways than pencil-and-paper work alone.', source: 'Lakoff & Nunez, Where Mathematics Comes From, 2000', gradeRange: 'Pre-K to K' },
+  ],
 };
 
 registerThemeContent('food', 'en', content);

@@ -421,6 +421,12 @@ const content: EnrichedThemeContent = {
     { label: 'Average session length', value: '10–20 min' },
     { label: 'Key skill developed', value: 'Procedural literacy & sequencing' },
   ],
+
+  expertTips: [
+    { tip: 'Use cooking worksheets to teach fractions through recipe contexts. Measuring half a cup, a quarter teaspoon, or doubling a recipe provides the most intuitive fraction instruction available, because children can taste the result of getting the math right.', source: 'Common Core Math 3.NF: Develop understanding of fractions as numbers', gradeRange: '1st-3rd' },
+    { tip: 'Connect cooking sequence worksheets to procedural text comprehension. Following a recipe requires the same sequential reading skills that instruction manuals and science procedures demand, making cooking worksheets a cross-disciplinary literacy tool.', source: 'Common Core ELA: Reading Informational Text, procedural text standards', gradeRange: 'K-2nd' },
+    { tip: 'Leverage cooking themes to explore chemical and physical changes. Mixing ingredients, heating dough, and freezing liquids introduce the concepts of reversible and irreversible change that science curricula require, using contexts children find inherently fascinating.', source: 'Next Generation Science Standards (NGSS), PS1: Matter and Its Interactions', gradeRange: '1st-3rd' },
+  ],
 };
 
 registerThemeContent('cooking', 'en', content);

@@ -420,6 +420,12 @@ const content: EnrichedThemeContent = {
       activity: 'After completing word-search seasonal vocabulary and word-scramble seasonal terminology worksheets, guide students through a seasonal descriptive writing project where they choose their favorite season, list five sensory details they associate with that season including sights, sounds, smells, and temperatures, write a descriptive paragraph using at least three seasonal vocabulary words from their worksheets, and draw an illustration showing their favorite seasonal scene — connecting vocabulary acquisition and spelling fluency to sensory descriptive composition through the personally meaningful seasonal context that makes writing feel like sharing lived experience rather than completing an assignment.',
     },
   ],
+
+  expertTips: [
+    { tip: 'Use seasonal worksheets as a year-long data collection project. Track temperature, daylight hours, or clothing choices across all four seasons and create cumulative graphs. This longitudinal approach teaches data trends in a way that single worksheets cannot.', source: 'Common Core Math: Measurement & Data, graphing standards', gradeRange: '1st-3rd' },
+    { tip: 'Connect seasonal themes to cause-and-effect reasoning. When children sort activities by season and explain why swimming belongs to summer or sledding to winter, they practice the causal reasoning that underpins both scientific inquiry and reading comprehension.', source: 'Next Generation Science Standards (NGSS), Crosscutting Concepts', gradeRange: 'K-2nd' },
+    { tip: 'Use seasonal transition periods to explore the concept of gradual change. Discussing how fall slowly becomes winter parallels mathematical concepts like number lines and gradients, building abstract thinking through concrete, observable phenomena.', source: 'Vygotsky, zone of proximal development through concrete-to-abstract scaffolding', gradeRange: 'Pre-K to 1st' },
+  ],
 };
 
 registerThemeContent('seasons', 'en', content);

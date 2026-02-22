@@ -421,6 +421,12 @@ const content: EnrichedThemeContent = {
     { label: 'Average session length', value: '10–20 min' },
     { label: 'Key topic coverage', value: 'Literary vocabulary + story structure + character analysis and moral reasoning' },
   ],
+
+  expertTips: [
+    { tip: 'Use fairy tale worksheets to develop narrative comprehension skills. Sequencing story events, identifying characters, and predicting outcomes on worksheets build the same comprehension strategies that standardized reading assessments measure.', source: 'National Reading Panel, comprehension strategy instruction', gradeRange: 'K-2nd' },
+    { tip: 'Connect fairy tale themes to mathematical concepts naturally embedded in stories. The Three Little Pigs teaches counting and material properties, Goldilocks teaches comparison and ordering, and Jack and the Beanstalk teaches measurement and growth. These narratives make math memorable.', source: 'Whitin & Whitin, Math Is Language Too: Talking and Writing in the Mathematics Classroom, 2000', gradeRange: 'Pre-K to 1st' },
+    { tip: 'Leverage fairy tale characters to explore perspective-taking. Worksheets that ask children to retell a story from the wolf\'s perspective or the giant\'s viewpoint develop the theory of mind skills that support both social competence and literary analysis.', source: 'Common Core ELA: Reading Literature, point of view standards', gradeRange: '1st-3rd' },
+  ],
 };
 
 registerThemeContent('fairy-tales', 'en', content);

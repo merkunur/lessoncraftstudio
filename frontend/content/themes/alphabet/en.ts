@@ -437,6 +437,12 @@ const content: EnrichedThemeContent = {
       context: 'Multi-step phonemic analysis develops powerfully through our kids alphabet crossword puzzles, where children identify a picture, segment the word into individual sounds, and write the corresponding letter in each box — integrating visual recognition, phonics knowledge, and spelling in a single engaging puzzle format.',
     },
   ],
+
+  expertTips: [
+    { tip: 'Teach letter formation through multisensory worksheets that combine tracing with sound production. Have children say the letter sound while tracing, which creates a motor-phonological connection that strengthens both handwriting fluency and phonemic awareness.', source: 'Orton-Gillingham multisensory approach', gradeRange: 'Pre-K to 1st' },
+    { tip: 'Focus alphabet worksheets on the letters children find most confusing (b/d, p/q, m/w) rather than teaching A-Z sequentially. Research shows that targeted practice on frequently confused letters reduces reversal errors more effectively than alphabetical instruction.', source: 'National Reading Panel findings on phonics instruction', gradeRange: 'K-1st' },
+    { tip: 'Connect letter recognition worksheets to environmental print hunts. After identifying letters on paper, challenge children to find those same letters on cereal boxes, street signs, or book covers. This transfer builds the automatic letter recognition that fluent reading requires.', source: 'Marie Clay, Reading Recovery program principles', gradeRange: 'Pre-K to K' },
+  ],
 };
 
 registerThemeContent('alphabet', 'en', content);

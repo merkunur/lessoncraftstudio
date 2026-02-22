@@ -421,6 +421,12 @@ const content: EnrichedThemeContent = {
       activity: 'After completing word-search heroic vocabulary and word-guess character-trait worksheets, guide students through a character writing project where they choose five hero vocabulary words from their worksheets, write one sentence using each word to describe a heroic action, draw an illustration of their favorite hero demonstrating one character trait, and compose a paragraph explaining what makes someone a real-life hero using at least three character-trait vocabulary words — connecting vocabulary acquisition and spelling fluency to moral-literacy composition through the aspirational identity context that makes writing feel like hero documentation rather than a classroom assignment.',
     },
   ],
+
+  expertTips: [
+    { tip: 'Use superhero worksheets to build growth mindset through the origin story narrative. Every superhero started without powers and had to develop them through practice and persistence, mirroring the academic growth trajectory that children need to internalize.', source: 'Carol Dweck, growth mindset research, Stanford University', gradeRange: 'All grades' },
+    { tip: 'Connect superhero themes to comparison and measurement activities. Comparing hero heights, speeds, and strengths provides engaging contexts for mathematical comparison operators (greater than, less than, equal to) that abstract symbols alone cannot motivate.', source: 'Common Core Math 1.NBT.B.3: Compare two two-digit numbers', gradeRange: 'K-2nd' },
+    { tip: 'Leverage superhero problem-solving narratives to develop mathematical reasoning. When children figure out how a hero can rescue people using available resources, they practice the same constraint-based problem solving that word problems demand.', source: 'Polya, How to Solve It: A New Aspect of Mathematical Method, problem-solving heuristics', gradeRange: '1st-3rd' },
+  ],
 };
 
 registerThemeContent('superheroes', 'en', content);

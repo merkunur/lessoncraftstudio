@@ -421,6 +421,12 @@ const content: EnrichedThemeContent = {
     { label: 'Average session length', value: '10\u201320 min' },
     { label: 'Key topic coverage', value: 'Anatomical vocabulary + five senses classification + health literacy' },
   ],
+
+  expertTips: [
+    { tip: 'Use body part worksheets as an entry point for measurement concepts. Having children measure their own hand span, foot length, or arm reach and then record the data on a worksheet creates personal connections to mathematical measurement that abstract units cannot match.', source: 'Measurement standards, Common Core Math K.MD', gradeRange: 'K-2nd' },
+    { tip: 'Connect body worksheets to health literacy by discussing why we need to care for each body part. This transforms an anatomy lesson into a public health conversation that builds vocabulary, reasoning skills, and health-protective knowledge simultaneously.', source: 'National Health Education Standards (NHES)', gradeRange: 'All grades' },
+    { tip: 'Use body symmetry worksheets to introduce geometric concepts. When children draw the other half of a face or body, they practice line symmetry, proportional reasoning, and spatial awareness, all foundational geometry skills that benefit from a personal, relatable context.', source: 'Van Hiele model of geometric thinking', gradeRange: '1st-3rd' },
+  ],
 };
 
 registerThemeContent('body', 'en', content);

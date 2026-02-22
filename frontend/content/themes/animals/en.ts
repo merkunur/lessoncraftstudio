@@ -438,6 +438,12 @@ const content: EnrichedThemeContent = {
       context: 'Our animal matching worksheets pair creatures with their habitats, diets, or silhouettes, challenging children to apply classification knowledge while developing the visual discrimination skills that support both reading readiness and scientific observation.',
     },
   ],
+
+  expertTips: [
+    { tip: 'Use animal classification as a bridge to mathematical set theory. When children sort animals by habitat, diet, or body covering, they practice the same logical operations (union, intersection, subset) that underpin formal mathematics.', source: 'National Council of Teachers of Mathematics (NCTM) Principles', gradeRange: 'K-3rd' },
+    { tip: 'Introduce animal vocabulary through multisensory channels. Have children trace animal names in sand while saying each letter, then match the written word to a photograph. This triple encoding (kinesthetic, auditory, visual) dramatically improves retention for early readers.', source: 'Orton-Gillingham multisensory literacy approach', gradeRange: 'Pre-K to 1st' },
+    { tip: 'Leverage the emotional power of animal themes to build growth mindset. When children see that baby animals must practice skills like walking and hunting, they internalize the message that struggle is a natural part of learning, reducing fear of academic failure.', source: 'Carol Dweck, Mindset: The New Psychology of Success, 2006', gradeRange: 'All grades' },
+  ],
 };
 
 registerThemeContent('animals', 'en', content);

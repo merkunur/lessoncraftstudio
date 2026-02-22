@@ -437,6 +437,12 @@ const content: EnrichedThemeContent = {
       context: 'Logical reasoning develops powerfully through our kids number sudoku printable grids, which range from simple four-by-four puzzles for kindergarteners to full nine-by-nine challenges for third graders, building constraint-based thinking, process of elimination, and self-correction habits without requiring any arithmetic calculation.',
     },
   ],
+
+  expertTips: [
+    { tip: 'Use number worksheets to build number sense, not just number recognition. Activities that ask children to compare quantities, estimate amounts, and compose/decompose numbers develop flexible mathematical thinking that rote counting cannot achieve.', source: 'John Van de Walle, Teaching Student-Centered Mathematics, 2013', gradeRange: 'K-2nd' },
+    { tip: 'Connect number worksheets to real counting contexts daily. After a counting worksheet, count real objects during cleanup time, snack distribution, or attendance. This repeated transfer between symbolic and physical counting builds robust cardinality understanding.', source: 'Common Core Math K.CC: Know number names and the count sequence', gradeRange: 'Pre-K to K' },
+    { tip: 'Use number line activities to develop spatial-numerical associations. Research shows that children who can accurately place numbers on a number line demonstrate better arithmetic skills, because the mental number line is the cognitive foundation for calculation.', source: 'Siegler & Booth, 2004, Development of numerical estimation, Psychological Science', gradeRange: '1st-3rd' },
+  ],
 };
 
 registerThemeContent('numbers', 'en', content);

@@ -420,6 +420,12 @@ const content: EnrichedThemeContent = {
     { label: 'Average session length', value: '10\u201320 min' },
     { label: 'Key science coverage', value: 'Water cycle + cloud types + daily observation' },
   ],
+
+  expertTips: [
+    { tip: 'Use weather worksheets as daily data collection tools. Recording temperature, cloud cover, and precipitation each morning and then graphing weekly results teaches data literacy through repetition and personal relevance, which research shows outperforms worksheet-only instruction.', source: 'Common Core Math: Measurement & Data, representing data standards', gradeRange: 'K-3rd' },
+    { tip: 'Connect weather sorting activities to scientific prediction. After children classify weather types on a worksheet, ask them to predict tomorrow\'s weather using today\'s observations. This builds the hypothesis-test cycle that is central to scientific inquiry.', source: 'Next Generation Science Standards (NGSS), ESS2: Earth\'s Systems', gradeRange: '1st-3rd' },
+    { tip: 'Use weather vocabulary worksheets to build academic language. Terms like precipitation, temperature, and forecast appear in standardized assessments across subjects, and early exposure through meaningful weather contexts accelerates academic vocabulary acquisition.', source: 'Isabel Beck, Bringing Words to Life: Robust Vocabulary Instruction, 2002', gradeRange: 'K-2nd' },
+  ],
 };
 
 registerThemeContent('weather', 'en', content);

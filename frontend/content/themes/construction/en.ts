@@ -421,6 +421,12 @@ const content: EnrichedThemeContent = {
     { label: 'Average session length', value: '10–20 min' },
     { label: 'Key topic coverage', value: 'Measurement + spatial reasoning + blueprint-based planning vocabulary' },
   ],
+
+  expertTips: [
+    { tip: 'Use construction worksheets to teach measurement concepts through building scenarios. Calculating how many bricks fill a wall, how long a beam needs to be, or how much paint covers a surface provides authentic measurement contexts that make abstract units tangible.', source: 'Common Core Math: Measurement & Data standards', gradeRange: '1st-3rd' },
+    { tip: 'Connect construction sorting activities to material science concepts. When children classify building materials by properties (hard vs. soft, heavy vs. light, waterproof vs. absorbent), they develop the property-based reasoning that formal science instruction requires.', source: 'Next Generation Science Standards (NGSS), PS1: Matter and Its Interactions', gradeRange: 'K-2nd' },
+    { tip: 'Leverage construction themes to develop spatial reasoning through blueprint activities. Simple floor plan worksheets where children identify shapes, measure distances, and plan room layouts build the spatial visualization skills that predict STEM career success.', source: 'Newcombe, 2010, Picture This: Increasing Math and Science Learning by Improving Spatial Thinking', gradeRange: '2nd-3rd' },
+  ],
 };
 
 registerThemeContent('construction', 'en', content);

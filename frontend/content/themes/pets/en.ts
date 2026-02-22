@@ -409,6 +409,12 @@ const content: EnrichedThemeContent = {
     { label: 'Average session length', value: '10–20 min' },
     { label: 'Pet types featured', value: '7 animals' },
   ],
+
+  expertTips: [
+    { tip: 'Use pet care worksheets to develop scheduling and time management skills. Creating a pet feeding and walking schedule requires understanding of daily routines, time intervals, and responsibility, building executive function through an emotionally engaging context.', source: 'Adele Diamond, executive function development research, University of British Columbia', gradeRange: '1st-3rd' },
+    { tip: 'Connect pet worksheets to survey and graphing activities. Conducting a class survey about favorite pets and creating bar graphs teaches data collection, representation, and interpretation skills using topics children care deeply about.', source: 'Common Core Math 1.MD.C.4: Represent and interpret data', gradeRange: 'K-2nd' },
+    { tip: 'Leverage the emotional bond children feel with pets to teach responsibility concepts. Worksheets about pet needs (food, water, shelter, exercise) parallel the social-emotional learning standards about caring for others and understanding interdependence.', source: 'CASEL social-emotional learning competencies framework', gradeRange: 'Pre-K to 1st' },
+  ],
 };
 
 registerThemeContent('pets', 'en', content);

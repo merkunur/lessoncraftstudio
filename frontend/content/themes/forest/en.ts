@@ -422,6 +422,12 @@ const content: EnrichedThemeContent = {
     { label: 'Average session length', value: '10–20 min' },
     { label: 'Forest element types featured', value: 'Trees, animals, fungi, plants' },
   ],
+
+  expertTips: [
+    { tip: 'Use forest worksheets to teach ecological math concepts. Counting species, measuring tree heights, and calculating leaf areas introduce mathematical operations within an environmental context that builds both numeracy and ecological literacy simultaneously.', source: 'North American Association for Environmental Education (NAAEE) guidelines', gradeRange: '1st-3rd' },
+    { tip: 'Connect forest-themed activities to scientific observation journals. Worksheets that ask children to identify, count, and classify forest organisms build the systematic recording habits that professional ecologists use in field research.', source: 'Next Generation Science Standards (NGSS), LS2: Ecosystems', gradeRange: 'K-2nd' },
+    { tip: 'Leverage forest themes to develop estimation skills in natural contexts. Estimating how many leaves are on a branch, how tall a tree is compared to a building, or how many animals live in a given area builds the approximation reasoning that practical mathematics requires.', source: 'John Van de Walle, estimation strategies in elementary mathematics education', gradeRange: 'K-3rd' },
+  ],
 };
 
 registerThemeContent('forest', 'en', content);

@@ -421,6 +421,12 @@ const content: EnrichedThemeContent = {
     { label: 'Average session length', value: '10\u201315 min' },
     { label: 'Key topic coverage', value: 'Beach + pool + vacation + outdoor play' },
   ],
+
+  expertTips: [
+    { tip: 'Use summer worksheets to combat the summer slide effect. Research shows children lose one to three months of academic progress during summer break, and themed worksheets that feel like fun rather than homework maintain learning momentum without triggering resistance.', source: 'Cooper et al., 1996, The Effects of Summer Vacation on Achievement Test Scores, Review of Educational Research', gradeRange: 'All grades' },
+    { tip: 'Connect summer activity worksheets to measurement and time concepts. Calculating swim time, measuring sandcastle dimensions, or planning a day trip schedule provides authentic mathematical contexts embedded in children\'s real summer experiences.', source: 'Common Core Math: Measurement & Data standards', gradeRange: '1st-3rd' },
+    { tip: 'Leverage summer excitement to build reading stamina through themed activities. Pairing summer word searches and crosswords with summer reading challenges creates a positive association between literacy and leisure that sustains reading habits year-round.', source: 'National Summer Learning Association, summer learning loss prevention research', gradeRange: 'K-3rd' },
+  ],
 };
 
 registerThemeContent('summer', 'en', content);

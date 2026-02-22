@@ -421,6 +421,12 @@ const content: EnrichedThemeContent = {
     { label: 'Average session length', value: '10\u201320 min' },
     { label: 'Color spectrum coverage', value: 'Full rainbow \u2014 red through purple' },
   ],
+
+  expertTips: [
+    { tip: 'Use fruit worksheets to teach fractions through natural models. Apples cut in half, oranges in quarters, and watermelons in slices provide intuitive fraction representations that research shows are more effective than abstract geometric shapes for initial fraction instruction.', source: 'Common Core Math 3.NF: Develop understanding of fractions', gradeRange: '1st-3rd' },
+    { tip: 'Connect fruit sorting activities to nutritional science. When children categorize fruits by color, season, or growing region, they simultaneously practice classification skills and build health literacy that supports informed eating choices.', source: 'USDA Dietary Guidelines for Americans, nutrition education standards', gradeRange: 'K-2nd' },
+    { tip: 'Leverage fruit themes to practice estimation and weighing. Activities where children estimate how many grapes fill a cup or which fruit is heaviest develop the measurement sense that standardized assessments increasingly emphasize.', source: 'Common Core Math: Measurement & Data standards', gradeRange: 'Pre-K to 1st' },
+  ],
 };
 
 registerThemeContent('fruits', 'en', content);

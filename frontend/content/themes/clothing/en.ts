@@ -422,6 +422,12 @@ const content: EnrichedThemeContent = {
     { label: 'Average session length', value: '10\u201320 min' },
     { label: 'Key topic coverage', value: 'Multi-attribute sorting + seasonal reasoning + size comparison vocabulary' },
   ],
+
+  expertTips: [
+    { tip: 'Use clothing sorting worksheets to develop multi-attribute classification. Sorting by color alone is pre-K level; sorting by color AND season is a significantly more complex cognitive operation that builds the hierarchical thinking needed for scientific taxonomy.', source: 'Piaget\'s classification development stages', gradeRange: 'Pre-K to 2nd' },
+    { tip: 'Connect clothing worksheets to cultural awareness. When children see that different cultures wear different clothing for similar purposes (warmth, protection, celebration), they develop cross-cultural respect while practicing the compare-and-contrast skills that strengthen reading comprehension.', source: 'National Council for the Social Studies (NCSS) thematic standards', gradeRange: 'K-3rd' },
+    { tip: 'Leverage clothing themes for practical math by having children calculate costs. Simple addition of shirt plus pants prices, or comparing which outfit costs more, provides authentic mathematical context that children recognize from real shopping experiences.', source: 'Realistic Mathematics Education (RME) approach, Freudenthal Institute', gradeRange: '1st-3rd' },
+  ],
 };
 
 registerThemeContent('clothing', 'en', content);

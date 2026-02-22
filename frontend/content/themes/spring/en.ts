@@ -422,6 +422,12 @@ const content: EnrichedThemeContent = {
     { label: 'Average session length', value: '10\u201320 min' },
     { label: 'Key science coverage', value: 'Life cycles + weather transitions + seasonal observation' },
   ],
+
+  expertTips: [
+    { tip: 'Use spring worksheets to teach data collection through nature observation. Recording daily temperature, rainfall, and plant growth across spring weeks creates a personal dataset that makes graphing and data analysis skills concrete and meaningful.', source: 'Common Core Math: Measurement & Data, representing and interpreting data', gradeRange: '1st-3rd' },
+    { tip: 'Connect spring themes to life cycle and growth sequencing. Activities ordering the stages of seed germination, tadpole development, or butterfly metamorphosis build sequential reasoning while integrating genuine science content.', source: 'Next Generation Science Standards (NGSS), LS1: From Molecules to Organisms', gradeRange: 'K-2nd' },
+    { tip: 'Leverage the sensory richness of spring to build descriptive vocabulary. Worksheets about spring sights, sounds, and smells develop the sensory language that strengthens both creative writing and scientific observation reporting.', source: 'Common Core ELA: Language standards, vocabulary acquisition and use', gradeRange: 'Pre-K to 1st' },
+  ],
 };
 
 registerThemeContent('spring', 'en', content);

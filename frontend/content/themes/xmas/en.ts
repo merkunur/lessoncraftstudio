@@ -421,6 +421,12 @@ const content: EnrichedThemeContent = {
     { label: 'Average session length', value: '10\u201320 min' },
     { label: 'Key topic coverage', value: 'Countdown arithmetic + gift-wrapping geometry + generosity values' },
   ],
+
+  expertTips: [
+    { tip: 'Use Christmas worksheets to practice skip counting. Counting ornaments by twos, lights by fives, or presents by tens builds multiplicative thinking in a festive context that sustains attention during the high-excitement holiday period.', source: 'Common Core Math 2.NBT.A.2: Skip-count by 5s, 10s, and 100s', gradeRange: 'K-2nd' },
+    { tip: 'Connect gift-themed worksheets to measurement activities. Wrapping presents requires estimating and measuring length, while baking cookies involves measuring volume and weight. These authentic holiday tasks make measurement standards concrete and memorable.', source: 'Common Core Math: Measurement & Data standards', gradeRange: '1st-3rd' },
+    { tip: 'Use holiday wish list activities to teach prioritization and budgeting. When children rank wishes and calculate costs within a budget, they practice comparison, addition, subtraction, and decision-making skills in a context that feels personally meaningful.', source: 'Council for Economic Education, financial literacy K-4 standards', gradeRange: '2nd-3rd' },
+  ],
 };
 
 registerThemeContent('xmas', 'en', content);

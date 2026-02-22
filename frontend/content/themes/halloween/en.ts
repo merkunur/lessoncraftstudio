@@ -421,6 +421,12 @@ const content: EnrichedThemeContent = {
     { label: 'Average session length', value: '10\u201320 min' },
     { label: 'Key topic coverage', value: 'Emotional vocabulary + nocturnal science + costume design thinking' },
   ],
+
+  expertTips: [
+    { tip: 'Use Halloween worksheets to explore estimation skills. Activities where children estimate how many candy pieces fill a jar, then count to verify, build the estimation-verification cycle that strengthens number sense and metacognitive awareness.', source: 'John Van de Walle, estimation strategies for elementary mathematics', gradeRange: 'K-3rd' },
+    { tip: 'Connect Halloween sorting activities to Venn diagram thinking. Sorting costumes by scary versus funny, and identifying costumes that are both, introduces set intersection in a context that children find genuinely engaging.', source: 'Common Core Math: Classification standards', gradeRange: '1st-3rd' },
+    { tip: 'Leverage the creative energy of Halloween for narrative writing integration. After completing a Halloween word search or vocabulary worksheet, have children write a short story using the discovered words. This transfers vocabulary acquisition into productive language use.', source: 'National Writing Project, writing across the curriculum principles', gradeRange: '1st-3rd' },
+  ],
 };
 
 registerThemeContent('halloween', 'en', content);

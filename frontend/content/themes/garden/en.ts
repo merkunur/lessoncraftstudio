@@ -420,6 +420,12 @@ const content: EnrichedThemeContent = {
     { label: 'Average session length', value: '10\u201320 min' },
     { label: 'Growth cycle coverage', value: 'Seed to harvest (full cycle)' },
   ],
+
+  expertTips: [
+    { tip: 'Use garden worksheets to teach measurement through planting activities. Measuring seed spacing, garden bed dimensions, and plant heights provides authentic measurement contexts that make abstract units like inches and centimeters personally meaningful.', source: 'Common Core Math: Measurement & Data standards', gradeRange: 'K-2nd' },
+    { tip: 'Connect garden counting to addition and subtraction word problems. Stories about planting seeds, picking vegetables, and sharing the harvest create natural contexts for arithmetic operations that feel like real life rather than abstract exercises.', source: 'Carpenter et al., Cognitively Guided Instruction (CGI), word problem research', gradeRange: '1st-3rd' },
+    { tip: 'Leverage garden themes to develop patience and long-term thinking. Tracking plant growth over weeks on a worksheet chart teaches children that meaningful outcomes require sustained effort, reinforcing the growth mindset that predicts academic persistence.', source: 'Angela Duckworth, Grit: The Power of Passion and Perseverance, 2016', gradeRange: 'All grades' },
+  ],
 };
 
 registerThemeContent('garden', 'en', content);

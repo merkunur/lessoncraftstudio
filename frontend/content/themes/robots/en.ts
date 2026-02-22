@@ -421,6 +421,12 @@ const content: EnrichedThemeContent = {
       activity: 'After completing word-search STEM vocabulary and image-cryptogram code-breaking worksheets, guide students through a technical writing project where they choose a robot from their coloring pages, write three sentences describing what each labeled part does using technical vocabulary from their worksheets, decode a cryptogram message about the robot using their cipher skills, and compose a paragraph explaining how the robot would follow instructions to complete a simple task — connecting vocabulary acquisition and decoding fluency to technical explanatory writing through the engaging context of robot design documentation that makes composition feel like engineering communication.',
     },
   ],
+
+  expertTips: [
+    { tip: 'Use robot worksheets to introduce algorithmic thinking. Activities where children write step-by-step instructions for a robot to follow build the sequential reasoning and precision of language that computational thinking and coding require.', source: 'ISTE Standards for Students: Computational Thinker', gradeRange: '1st-3rd' },
+    { tip: 'Connect robot building worksheets to geometric shape composition. Constructing robots from basic shapes (circles, rectangles, triangles) teaches children that complex forms can be decomposed into simple components, a foundational geometric concept.', source: 'Common Core Math K.G: Compose simple shapes to form larger shapes', gradeRange: 'Pre-K to 1st' },
+    { tip: 'Leverage robot themes to explore the concept of input and output. Simple worksheets where children determine what a robot will do given specific commands introduce the function concept that is central to both mathematics and computer science.', source: 'Code.org Computer Science Fundamentals curriculum', gradeRange: 'K-3rd' },
+  ],
 };
 
 registerThemeContent('robots', 'en', content);

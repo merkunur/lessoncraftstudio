@@ -216,15 +216,15 @@ Treasure hunt worksheets transform visual searching into exciting adventure narr
         icon: '🌟',
         title: 'Special Education Teachers: Accessible Treasure Hunt Activities',
         subtitle: 'Visual Learning Supports for Diverse Abilities',
-        description: 'Special education teachers value treasure hunt worksheets because the visual format accommodates diverse learning needs without requiring strong reading skills. Adjust difficulty settings to create individualized worksheets matching each student\\'s developmental level. The image-based exercises build visual searching and sequential problem solving through concrete visual experiences rather than abstract concepts. Create consistent routine activities using familiar image themes that reduce anxiety while building essential cognitive skills.',
-        quote: 'The adjustable difficulty lets me create treasure hunt sheets perfect for each student\\'s level.',
+        description: 'Special education teachers value treasure hunt worksheets because the visual format accommodates diverse learning needs without requiring strong reading skills. Adjust difficulty settings to create individualized worksheets matching each student\'s developmental level. The image-based exercises build visual searching and sequential problem solving through concrete visual experiences rather than abstract concepts. Create consistent routine activities using familiar image themes that reduce anxiety while building essential cognitive skills.',
+        quote: 'The adjustable difficulty lets me create treasure hunt sheets perfect for each student\'s level.',
       },
       {
         id: '4',
         icon: '🌍',
         title: 'ESL Teachers: Language-Free Treasure Hunt Practice',
         subtitle: 'Visual Activities Accessible at All Language Levels',
-        description: 'ESL teachers incorporate treasure hunt worksheets as equitable activities where all students participate regardless of English proficiency. The adventure search activities require visual analysis rather than language comprehension, creating natural entry points for newcomer students. Use themed images to build vocabulary connections as students discuss their work. Generate worksheets in eleven languages to provide instructions in students\\' primary language while developing visual searching and sequential problem solving.',
+        description: 'ESL teachers incorporate treasure hunt worksheets as equitable activities where all students participate regardless of English proficiency. The adventure search activities require visual analysis rather than language comprehension, creating natural entry points for newcomer students. Use themed images to build vocabulary connections as students discuss their work. Generate worksheets in eleven languages to provide instructions in students\' primary language while developing visual searching and sequential problem solving.',
         quote: 'My newcomer students complete treasure hunt worksheets with the same confidence as native speakers.',
       },
       {

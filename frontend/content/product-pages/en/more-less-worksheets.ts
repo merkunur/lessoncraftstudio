@@ -234,7 +234,7 @@ The more-or-less generator creates exercises where students compare quantities, 
         title: 'Special Education: Targeted Symbol Instruction',
         subtitle: 'Individual Focus Mode for IEP-Aligned Practice',
         description: 'Special education teachers use the individual symbol focus mode to teach one comparison concept at a time, precisely matching IEP goals. Start with only greater-than comparisons until mastery, then add less-than, and finally equal-to. The illustrated symbol option provides additional visual scaffolding. Reduce exercise count to 1-2 per page for students needing reduced workload.',
-        quote: 'The individual symbol focus lets me align worksheets exactly to each student\'s IEP comparison goals.',
+        quote: 'The individual symbol focus lets me align worksheets exactly to each student's IEP comparison goals.',
       },
       {
         id: '6',

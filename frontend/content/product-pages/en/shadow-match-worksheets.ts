@@ -216,15 +216,15 @@ Full Access subscription costs $240 annually or $25 monthly. This includes all 3
         icon: '🌟',
         title: 'Special Education Teachers: Accessible Shadow Match Activities',
         subtitle: 'Visual Learning Supports for Diverse Abilities',
-        description: 'Special education teachers value shadow match worksheets because the visual format accommodates diverse learning needs without requiring strong reading skills. Adjust difficulty settings to create individualized worksheets matching each student\\'s developmental level. The image-based exercises build shape recognition and figure-ground discrimination through concrete visual experiences rather than abstract concepts. Create consistent routine activities using familiar image themes that reduce anxiety while building essential cognitive skills.',
-        quote: 'The adjustable difficulty lets me create shadow match sheets perfect for each student\\'s level.',
+        description: 'Special education teachers value shadow match worksheets because the visual format accommodates diverse learning needs without requiring strong reading skills. Adjust difficulty settings to create individualized worksheets matching each student\'s developmental level. The image-based exercises build shape recognition and figure-ground discrimination through concrete visual experiences rather than abstract concepts. Create consistent routine activities using familiar image themes that reduce anxiety while building essential cognitive skills.',
+        quote: 'The adjustable difficulty lets me create shadow match sheets perfect for each student\'s level.',
       },
       {
         id: '4',
         icon: '🌍',
         title: 'ESL Teachers: Language-Free Shadow Match Practice',
         subtitle: 'Visual Activities Accessible at All Language Levels',
-        description: 'ESL teachers incorporate shadow match worksheets as equitable activities where all students participate regardless of English proficiency. The silhouette matching activities require visual analysis rather than language comprehension, creating natural entry points for newcomer students. Use themed images to build vocabulary connections as students discuss their work. Generate worksheets in eleven languages to provide instructions in students\\' primary language while developing shape recognition and figure-ground discrimination.',
+        description: 'ESL teachers incorporate shadow match worksheets as equitable activities where all students participate regardless of English proficiency. The silhouette matching activities require visual analysis rather than language comprehension, creating natural entry points for newcomer students. Use themed images to build vocabulary connections as students discuss their work. Generate worksheets in eleven languages to provide instructions in students\' primary language while developing shape recognition and figure-ground discrimination.',
         quote: 'My newcomer students complete shadow match worksheets with the same confidence as native speakers.',
       },
       {

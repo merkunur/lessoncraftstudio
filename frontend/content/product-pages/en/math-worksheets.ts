@@ -197,7 +197,7 @@ Each math worksheet includes a matching answer key. Perfect for classroom use or
   // Use Cases - FULL descriptions from math-worksheet.md persona sections
   useCases: {
     sectionTitle: 'Free Worksheet for Kids - Perfect for Teachers and Parents',
-    sectionDescription: 'Our math worksheet generator serves six distinct groups of educators and parents. Kindergarten teachers use these printable worksheets for math centers and small group instruction. Elementary teachers create first grade worksheets for differentiated learning. Homeschool parents generate addition worksheets matched to each child\'s level. ESL teachers appreciate the visual format that reduces language barriers. Special education teachers customize printable math worksheets for individual student needs. Teacher entrepreneurs sell their created kindergarten worksheets on Teachers Pay Teachers and Etsy. Each group finds unique value in our flexible worksheet generator for their specific teaching situations.',
+    sectionDescription: 'Our math worksheet generator serves six distinct groups of educators and parents. Kindergarten teachers use these printable worksheets for math centers and small group instruction. Elementary teachers create first grade worksheets for differentiated learning. Homeschool parents generate addition worksheets matched to each child's level. ESL teachers appreciate the visual format that reduces language barriers. Special education teachers customize printable math worksheets for individual student needs. Teacher entrepreneurs sell their created kindergarten worksheets on Teachers Pay Teachers and Etsy. Each group finds unique value in our flexible worksheet generator for their specific teaching situations.',
     items: [
       {
         id: '1',

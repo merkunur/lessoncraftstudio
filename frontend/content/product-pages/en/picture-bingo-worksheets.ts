@@ -220,15 +220,15 @@ Our picture bingo generator creates two free printable worksheets with every gen
         icon: '🌟',
         title: 'Special Education Teachers: Accessible Picture Bingo Activities',
         subtitle: 'Visual Learning Supports for Diverse Abilities',
-        description: 'Special education teachers value picture bingo cards because the visual format accommodates diverse learning needs without requiring strong reading skills. Adjust difficulty settings to create individualized worksheets matching each student\\'s developmental level. The image-based exercises build visual matching and listening comprehension through concrete visual experiences rather than abstract concepts. Create consistent routine activities using familiar image themes that reduce anxiety while building essential cognitive skills.',
-        quote: 'The adjustable difficulty lets me create picture bingo sheets perfect for each student\\'s level.',
+        description: 'Special education teachers value picture bingo cards because the visual format accommodates diverse learning needs without requiring strong reading skills. Adjust difficulty settings to create individualized worksheets matching each student\'s developmental level. The image-based exercises build visual matching and listening comprehension through concrete visual experiences rather than abstract concepts. Create consistent routine activities using familiar image themes that reduce anxiety while building essential cognitive skills.',
+        quote: 'The adjustable difficulty lets me create picture bingo sheets perfect for each student\'s level.',
       },
       {
         id: '4',
         icon: '🌍',
         title: 'ESL Teachers: Language-Free Picture Bingo Practice',
         subtitle: 'Visual Activities Accessible at All Language Levels',
-        description: 'ESL teachers incorporate picture bingo cards as equitable activities where all students participate regardless of English proficiency. The bingo game activities require visual analysis rather than language comprehension, creating natural entry points for newcomer students. Use themed images to build vocabulary connections as students discuss their work. Generate worksheets in eleven languages to provide instructions in students\\' primary language while developing visual matching and listening comprehension.',
+        description: 'ESL teachers incorporate picture bingo cards as equitable activities where all students participate regardless of English proficiency. The bingo game activities require visual analysis rather than language comprehension, creating natural entry points for newcomer students. Use themed images to build vocabulary connections as students discuss their work. Generate worksheets in eleven languages to provide instructions in students\' primary language while developing visual matching and listening comprehension.',
         quote: 'My newcomer students complete picture bingo worksheets with the same confidence as native speakers.',
       },
       {

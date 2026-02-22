@@ -216,15 +216,15 @@ Your Core Bundle subscription includes complete access to all visual materials. 
         icon: '🌟',
         title: 'Special Education Teachers: Accessible Matching Activities',
         subtitle: 'Visual Learning Supports for Diverse Abilities',
-        description: 'Special education teachers value matching worksheets because the visual format accommodates diverse learning needs without requiring strong reading skills. Adjust difficulty settings to create individualized worksheets matching each student\\'s developmental level. The image-based exercises build visual association and memory development through concrete visual experiences rather than abstract concepts. Create consistent routine activities using familiar image themes that reduce anxiety while building essential cognitive skills.',
-        quote: 'The adjustable difficulty lets me create matching sheets perfect for each student\\'s level.',
+        description: 'Special education teachers value matching worksheets because the visual format accommodates diverse learning needs without requiring strong reading skills. Adjust difficulty settings to create individualized worksheets matching each student\'s developmental level. The image-based exercises build visual association and memory development through concrete visual experiences rather than abstract concepts. Create consistent routine activities using familiar image themes that reduce anxiety while building essential cognitive skills.',
+        quote: 'The adjustable difficulty lets me create matching sheets perfect for each student\'s level.',
       },
       {
         id: '4',
         icon: '🌍',
         title: 'ESL Teachers: Language-Free Matching Practice',
         subtitle: 'Visual Activities Accessible at All Language Levels',
-        description: 'ESL teachers incorporate matching worksheets as equitable activities where all students participate regardless of English proficiency. The picture matching activities require visual analysis rather than language comprehension, creating natural entry points for newcomer students. Use themed images to build vocabulary connections as students discuss their work. Generate worksheets in eleven languages to provide instructions in students\\' primary language while developing visual association and memory development.',
+        description: 'ESL teachers incorporate matching worksheets as equitable activities where all students participate regardless of English proficiency. The picture matching activities require visual analysis rather than language comprehension, creating natural entry points for newcomer students. Use themed images to build vocabulary connections as students discuss their work. Generate worksheets in eleven languages to provide instructions in students\' primary language while developing visual association and memory development.',
         quote: 'My newcomer students complete matching worksheets with the same confidence as native speakers.',
       },
       {

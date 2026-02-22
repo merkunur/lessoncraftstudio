@@ -236,7 +236,7 @@ Generate crossword puzzles in 11 languages including English, Spanish, French, G
         title: 'Special Education Teachers: Adapted Vocabulary Practice',
         subtitle: 'Adjustable Difficulty for Diverse Learning Needs',
         description: 'Special education teachers differentiate crossword difficulty by selecting shorter vocabulary words, adjusting word count, and choosing simpler image themes. Create easy puzzles with three-letter CVC words for struggling readers. The visual picture clues reduce cognitive load by eliminating text-based definitions. Word intersections provide helpful hints that support students who need additional scaffolding to succeed independently.',
-        quote: 'I adjust word length and count to match each student\'s IEP goals. Everyone solves the puzzle successfully.',
+        quote: 'I adjust word length and count to match each student's IEP goals. Everyone solves the puzzle successfully.',
       },
       {
         id: '6',

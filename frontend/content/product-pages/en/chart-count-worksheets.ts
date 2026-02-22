@@ -227,7 +227,7 @@ All downloads export at professional 300 DPI resolution. This high quality ensur
   // Use Cases - FULL text from chart-count.md use case sections
   useCases: {
     sectionTitle: 'Perfect for Teachers, Parents, and Educators',
-    sectionDescription: 'Picture graph worksheets serve diverse educational needs across multiple teaching environments. Kindergarten teachers use these counting and graphing activities for math centers and whole-group instruction. First grade teachers build data literacy skills that appear in state mathematics standards. Homeschool parents create personalized worksheets featuring their children\'s interests. ESL instructors leverage visual learning for language acquisition. Special education teachers customize worksheets for individual learning needs. Teacher entrepreneurs sell professionally designed graphing worksheets online. Every educator benefits from the combination of automatic generation, full customization, and printable quality.',
+    sectionDescription: 'Picture graph worksheets serve diverse educational needs across multiple teaching environments. Kindergarten teachers use these counting and graphing activities for math centers and whole-group instruction. First grade teachers build data literacy skills that appear in state mathematics standards. Homeschool parents create personalized worksheets featuring their children's interests. ESL instructors leverage visual learning for language acquisition. Special education teachers customize worksheets for individual learning needs. Teacher entrepreneurs sell professionally designed graphing worksheets online. Every educator benefits from the combination of automatic generation, full customization, and printable quality.',
     items: [
       {
         id: '1',
@@ -250,15 +250,15 @@ All downloads export at professional 300 DPI resolution. This high quality ensur
         icon: '🌟',
         title: 'Special Education Teachers: Accessible Chart & Count Activities',
         subtitle: 'Visual Learning Supports for Diverse Abilities',
-        description: 'Special education teachers value chart and count worksheets because the visual format accommodates diverse learning needs without requiring strong reading skills. Adjust difficulty settings to create individualized worksheets matching each student\\'s developmental level. The image-based exercises build data literacy and counting fluency through concrete visual experiences rather than abstract concepts. Create consistent routine activities using familiar image themes that reduce anxiety while building essential cognitive skills.',
-        quote: 'The adjustable difficulty lets me create chart & count sheets perfect for each student\\'s level.',
+        description: 'Special education teachers value chart and count worksheets because the visual format accommodates diverse learning needs without requiring strong reading skills. Adjust difficulty settings to create individualized worksheets matching each student\'s developmental level. The image-based exercises build data literacy and counting fluency through concrete visual experiences rather than abstract concepts. Create consistent routine activities using familiar image themes that reduce anxiety while building essential cognitive skills.',
+        quote: 'The adjustable difficulty lets me create chart & count sheets perfect for each student\'s level.',
       },
       {
         id: '4',
         icon: '🌍',
         title: 'ESL Teachers: Language-Free Chart & Count Practice',
         subtitle: 'Visual Activities Accessible at All Language Levels',
-        description: 'ESL teachers incorporate chart and count worksheets as equitable activities where all students participate regardless of English proficiency. The picture chart activities require visual analysis rather than language comprehension, creating natural entry points for newcomer students. Use themed images to build vocabulary connections as students discuss their work. Generate worksheets in eleven languages to provide instructions in students\\' primary language while developing data literacy and counting fluency.',
+        description: 'ESL teachers incorporate chart and count worksheets as equitable activities where all students participate regardless of English proficiency. The picture chart activities require visual analysis rather than language comprehension, creating natural entry points for newcomer students. Use themed images to build vocabulary connections as students discuss their work. Generate worksheets in eleven languages to provide instructions in students\' primary language while developing data literacy and counting fluency.',
         quote: 'My newcomer students complete chart & count worksheets with the same confidence as native speakers.',
       },
       {

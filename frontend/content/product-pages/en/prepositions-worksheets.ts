@@ -479,7 +479,7 @@ Prepositions worksheets help students master spatial vocabulary by identifying w
   researchBacking: [
     {
       claim: 'Spatial language proficiency in early childhood is a strong predictor of later mathematical and geometric reasoning, with children who master positional vocabulary showing significantly better performance on spatial tasks and number line understanding.',
-      source: 'Pruden, S.M., Levine, S.C., & Huttenlocher, J., "Children\'s Spatial Thinking: Does Talk About the Spatial World Matter?" Developmental Science, Vol. 14, No. 6',
+      source: 'Pruden, S.M., Levine, S.C., & Huttenlocher, J., "Children's Spatial Thinking: Does Talk About the Spatial World Matter?" Developmental Science, Vol. 14, No. 6',
     },
     {
       claim: 'Visual scaffolding through concrete image arrangements helps young children grasp abstract prepositional concepts by grounding spatial language in observable physical relationships, making the transition from perceptual to linguistic representation more accessible.',

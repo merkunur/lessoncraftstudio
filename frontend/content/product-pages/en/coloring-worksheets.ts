@@ -492,7 +492,7 @@ Downloaded coloring worksheets save to your computer's Downloads folder automati
     },
     {
       claim: 'Creative expression through art activities such as coloring supports emotional regulation and self-expression in young children, providing a non-verbal outlet for processing feelings and building confidence.',
-      source: 'Malchiodi, C.A., "Understanding Children\'s Drawings," Guilford Press',
+      source: 'Malchiodi, C.A., "Understanding Children's Drawings," Guilford Press',
     },
   ],
 

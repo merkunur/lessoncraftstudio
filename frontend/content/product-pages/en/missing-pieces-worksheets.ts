@@ -17,7 +17,7 @@ export const missingPiecesEnContent: ProductPageContent = {
     appId: 'missing-pieces',
     title: 'Missing Pieces Puzzle Generator | LessonCraftStudio',
     description: 'Create missing pieces puzzle worksheets that develop spatial reasoning. Free printable visual activities for kindergarten. Choose themed images and print now.',
-    keywords: 'visual puzzle worksheets, spatial reasoning printable, complete the picture worksheets, jigsaw-style worksheets, which piece is missing, visual completion puzzles, kindergarten logic puzzles, picture completion activities, spatial awareness puzzles, what\'s missing worksheets',
+    keywords: 'visual puzzle worksheets, spatial reasoning printable, complete the picture worksheets, jigsaw-style worksheets, which piece is missing, visual completion puzzles, kindergarten logic puzzles, picture completion activities, spatial awareness puzzles, what's missing worksheets',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/missing-pieces-worksheets',
       },
 
@@ -220,15 +220,15 @@ Generate worksheets in 11 languages including English, Spanish, French, and Germ
         icon: '🌟',
         title: 'Special Education Teachers: Accessible Missing Pieces Activities',
         subtitle: 'Visual Learning Supports for Diverse Abilities',
-        description: 'Special education teachers value missing pieces worksheets because the visual format accommodates diverse learning needs without requiring strong reading skills. Adjust difficulty settings to create individualized worksheets matching each student\\'s developmental level. The image-based exercises build spatial reasoning and visual analysis through concrete visual experiences rather than abstract concepts. Create consistent routine activities using familiar image themes that reduce anxiety while building essential cognitive skills.',
-        quote: 'The adjustable difficulty lets me create missing pieces sheets perfect for each student\\'s level.',
+        description: 'Special education teachers value missing pieces worksheets because the visual format accommodates diverse learning needs without requiring strong reading skills. Adjust difficulty settings to create individualized worksheets matching each student\'s developmental level. The image-based exercises build spatial reasoning and visual analysis through concrete visual experiences rather than abstract concepts. Create consistent routine activities using familiar image themes that reduce anxiety while building essential cognitive skills.',
+        quote: 'The adjustable difficulty lets me create missing pieces sheets perfect for each student\'s level.',
       },
       {
         id: '4',
         icon: '🌍',
         title: 'ESL Teachers: Language-Free Missing Pieces Practice',
         subtitle: 'Visual Activities Accessible at All Language Levels',
-        description: 'ESL teachers incorporate missing pieces worksheets as equitable activities where all students participate regardless of English proficiency. The visual completion puzzles require visual analysis rather than language comprehension, creating natural entry points for newcomer students. Use themed images to build vocabulary connections as students discuss their work. Generate worksheets in eleven languages to provide instructions in students\\' primary language while developing spatial reasoning and visual analysis.',
+        description: 'ESL teachers incorporate missing pieces worksheets as equitable activities where all students participate regardless of English proficiency. The visual completion puzzles require visual analysis rather than language comprehension, creating natural entry points for newcomer students. Use themed images to build vocabulary connections as students discuss their work. Generate worksheets in eleven languages to provide instructions in students\' primary language while developing spatial reasoning and visual analysis.',
         quote: 'My newcomer students complete missing pieces worksheets with the same confidence as native speakers.',
       },
       {

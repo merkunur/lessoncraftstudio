@@ -216,15 +216,15 @@ The Big and Small generator offers five distinct question types that develop siz
         icon: '🌟',
         title: 'Special Education Teachers: Accessible Big & Small Activities',
         subtitle: 'Visual Learning Supports for Diverse Abilities',
-        description: 'Special education teachers value size comparison worksheets because the visual format accommodates diverse learning needs without requiring strong reading skills. Adjust difficulty settings to create individualized worksheets matching each student\\'s developmental level. The image-based exercises build visual size discrimination and ordering skills through concrete visual experiences rather than abstract concepts. Create consistent routine activities using familiar image themes that reduce anxiety while building essential cognitive skills.',
-        quote: 'The adjustable difficulty lets me create big & small sheets perfect for each student\\'s level.',
+        description: 'Special education teachers value size comparison worksheets because the visual format accommodates diverse learning needs without requiring strong reading skills. Adjust difficulty settings to create individualized worksheets matching each student\'s developmental level. The image-based exercises build visual size discrimination and ordering skills through concrete visual experiences rather than abstract concepts. Create consistent routine activities using familiar image themes that reduce anxiety while building essential cognitive skills.',
+        quote: 'The adjustable difficulty lets me create big & small sheets perfect for each student\'s level.',
       },
       {
         id: '4',
         icon: '🌍',
         title: 'ESL Teachers: Language-Free Big & Small Practice',
         subtitle: 'Visual Activities Accessible at All Language Levels',
-        description: 'ESL teachers incorporate size comparison worksheets as equitable activities where all students participate regardless of English proficiency. The size comparison activities require visual analysis rather than language comprehension, creating natural entry points for newcomer students. Use themed images to build vocabulary connections as students discuss their work. Generate worksheets in eleven languages to provide instructions in students\\' primary language while developing visual size discrimination and ordering skills.',
+        description: 'ESL teachers incorporate size comparison worksheets as equitable activities where all students participate regardless of English proficiency. The size comparison activities require visual analysis rather than language comprehension, creating natural entry points for newcomer students. Use themed images to build vocabulary connections as students discuss their work. Generate worksheets in eleven languages to provide instructions in students\' primary language while developing visual size discrimination and ordering skills.',
         quote: 'My newcomer students complete big & small worksheets with the same confidence as native speakers.',
       },
       {
@@ -488,7 +488,7 @@ The Big and Small generator offers five distinct question types that develop siz
   researchBacking: [
     {
       claim: 'Size comparison and seriation tasks develop measurement foundations and comparative reasoning aligned with K.MD standards, as children who practice ordering objects by size build the relational thinking needed for number lines, measurement units, and data analysis.',
-      source: 'Piaget, J. & Inhelder, B., "The Child\'s Conception of Space," W.W. Norton & Company, 1967',
+      source: 'Piaget, J. & Inhelder, B., "The Child's Conception of Space," W.W. Norton & Company, 1967',
     },
     {
       claim: 'Ordering activities that require arranging items from smallest to largest build understanding of transitivity \u2014 the logical principle that if A is bigger than B and B is bigger than C, then A is bigger than C \u2014 a foundational reasoning skill for mathematical proof and scientific classification.',

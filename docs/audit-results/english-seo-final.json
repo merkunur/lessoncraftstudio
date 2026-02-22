@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-02-15T23:38:22.381Z",
+  "generatedAt": "2026-02-22T12:06:38.354Z",
   "summary": {
     "totalPages": 353,
-    "pass": 300,
-    "fail": 53,
+    "pass": 302,
+    "fail": 51,
     "byType": {
       "product": 33,
       "theme-hub": 50,
@@ -13,19 +13,18 @@
     "passByType": {
       "product": 33,
       "theme-hub": 50,
-      "theme-grade": 201,
-      "secondary": 16
+      "theme-grade": 206,
+      "secondary": 13
     },
     "failByType": {
-      "theme-grade": 49,
-      "secondary": 4
+      "theme-grade": 44,
+      "secondary": 7
     },
     "issueCounts": {
-      "desc_long": 43,
-      "title_short": 3,
-      "title_long": 5,
-      "desc_short": 1,
-      "keywords_missing": 4
+      "desc_long": 40,
+      "title_short": 5,
+      "title_long": 11,
+      "keywords_missing": 5
     }
   },
   "crossPageChecks": {
@@ -2921,20 +2920,14 @@
       "slug": "insects/preschool",
       "url": "/en/worksheets/insects/preschool",
       "file": "content/themes/insects/en.ts",
-      "status": "FAIL",
-      "title": "Free Insects Worksheets for Preschool | LessonCraftStudio",
-      "titleLength": 57,
-      "description": "Preschoolers aged three and four find insects endlessly fascinating because these tiny creatures move, fly, crawl, and transform in ways that captivate young imaginations.",
-      "descriptionLength": 171,
-      "keywords": "missing",
-      "hasSeoOverride": false,
-      "issues": [
-        {
-          "check": "desc_long",
-          "msg": "Description too long: 171 chars (max 160)",
-          "value": 171
-        }
-      ]
+      "status": "PASS",
+      "title": "Insects Preschool Worksheets — Bug Counting & Tracing | LCS",
+      "titleLength": 59,
+      "description": "Free printable insect worksheets for preschool (ages 3-4). Count ladybug spots, trace bug names, sort insects by color, and color butterfly wings. Get pages.",
+      "descriptionLength": 157,
+      "keywords": "present",
+      "hasSeoOverride": true,
+      "issues": []
     },
     {
       "type": "theme-grade",
@@ -2942,17 +2935,22 @@
       "url": "/en/worksheets/insects/kindergarten",
       "file": "content/themes/insects/en.ts",
       "status": "FAIL",
-      "title": "Free Insects Worksheets for Kindergarten | LessonCraftStudio",
-      "titleLength": 60,
-      "description": "Kindergarteners bring growing independence and an eager curiosity to insect-themed worksheets, ready to tackle activities that require sustained attention and multi-step thinking.",
-      "descriptionLength": 179,
-      "keywords": "missing",
-      "hasSeoOverride": false,
+      "title": "Insects Kindergarten Worksheets — Life Cycles & Sorting | LCS",
+      "titleLength": 61,
+      "description": "Free printable insect worksheets for kindergarten (ages 5-6). Explore butterfly life cycles, sort bugs by habitat, add ladybug spots, and search insect words. Get sheets.",
+      "descriptionLength": 170,
+      "keywords": "present",
+      "hasSeoOverride": true,
       "issues": [
         {
+          "check": "title_long",
+          "msg": "Title too long: 61 chars (max 60)",
+          "value": 61
+        },
+        {
           "check": "desc_long",
-          "msg": "Description too long: 179 chars (max 160)",
-          "value": 179
+          "msg": "Description too long: 170 chars (max 160)",
+          "value": 170
         }
       ]
     },
@@ -2962,17 +2960,17 @@
       "url": "/en/worksheets/insects/first-grade",
       "file": "content/themes/insects/en.ts",
       "status": "FAIL",
-      "title": "Free Insects Worksheets for First Grade | LessonCraftStudio",
-      "titleLength": 59,
-      "description": "First graders are ready for insect worksheets that challenge them with multi-step problems, informational reading passages, and more complex puzzles that build critical thinking.",
-      "descriptionLength": 178,
-      "keywords": "missing",
-      "hasSeoOverride": false,
+      "title": "Insects First Grade Worksheets — Bug Math & Reading | LCS",
+      "titleLength": 57,
+      "description": "Free printable insect worksheets for first grade (ages 6-7). Solve bug word problems, read insect passages, build vocabulary, and write opinion paragraphs. Get pages.",
+      "descriptionLength": 166,
+      "keywords": "present",
+      "hasSeoOverride": true,
       "issues": [
         {
           "check": "desc_long",
-          "msg": "Description too long: 178 chars (max 160)",
-          "value": 178
+          "msg": "Description too long: 166 chars (max 160)",
+          "value": 166
         }
       ]
     },
@@ -2982,17 +2980,17 @@
       "url": "/en/worksheets/insects/second-grade",
       "file": "content/themes/insects/en.ts",
       "status": "FAIL",
-      "title": "Free Insects Worksheets for Second Grade | LessonCraftStudio",
-      "titleLength": 60,
-      "description": "Second graders are ready for insect worksheets that elevate familiar bug fascination into rigorous scientific observation, measurement-based investigation, and structured informational writing.",
-      "descriptionLength": 193,
-      "keywords": "missing",
-      "hasSeoOverride": false,
+      "title": "Insects Second Grade Worksheets — Data & Adaptation | LCS",
+      "titleLength": 57,
+      "description": "Free printable insect worksheets for second grade (ages 7-8). Chart insect data, read about adaptations, write field guides, and measure wingspans. Get worksheets.",
+      "descriptionLength": 163,
+      "keywords": "present",
+      "hasSeoOverride": true,
       "issues": [
         {
           "check": "desc_long",
-          "msg": "Description too long: 193 chars (max 160)",
-          "value": 193
+          "msg": "Description too long: 163 chars (max 160)",
+          "value": 163
         }
       ]
     },
@@ -3002,17 +3000,22 @@
       "url": "/en/worksheets/insects/third-grade",
       "file": "content/themes/insects/en.ts",
       "status": "FAIL",
-      "title": "Free Insects Worksheets for Third Grade | LessonCraftStudio",
-      "titleLength": 59,
-      "description": "Third graders are ready for insect worksheets that leverage multiplication to model enormous colony populations, explore geometric symmetry in wing and body pat...",
-      "descriptionLength": 163,
-      "keywords": "missing",
-      "hasSeoOverride": false,
+      "title": "Insects Third Grade Worksheets — Research & Multiplication | LCS",
+      "titleLength": 64,
+      "description": "Free printable insect worksheets for third grade (ages 8-9). Multiply colony populations, research entomology topics, compare metamorphosis essays, and measure precisely.",
+      "descriptionLength": 170,
+      "keywords": "present",
+      "hasSeoOverride": true,
       "issues": [
         {
+          "check": "title_long",
+          "msg": "Title too long: 64 chars (max 60)",
+          "value": 64
+        },
+        {
           "check": "desc_long",
-          "msg": "Description too long: 163 chars (max 160)",
-          "value": 163
+          "msg": "Description too long: 170 chars (max 160)",
+          "value": 170
         }
       ]
     },
@@ -3232,17 +3235,17 @@
       "url": "/en/worksheets/numbers/preschool",
       "file": "content/themes/numbers/en.ts",
       "status": "FAIL",
-      "title": "Free Numbers Worksheets for Preschool | LessonCraftStudio",
-      "titleLength": 57,
-      "description": "Preschoolers are at the magical stage where numbers transition from meaningless squiggles on a page to symbols that actually mean something. Between ages three...",
-      "descriptionLength": 162,
-      "keywords": "missing",
-      "hasSeoOverride": false,
+      "title": "Numbers Preschool Worksheets — Count & Trace | LCS",
+      "titleLength": 50,
+      "description": "Free printable numbers worksheets for preschool (ages 3-4). Count objects to 10, trace numerals, compare more and fewer, match quantities, and sort by size. Get pages.",
+      "descriptionLength": 167,
+      "keywords": "present",
+      "hasSeoOverride": true,
       "issues": [
         {
           "check": "desc_long",
-          "msg": "Description too long: 162 chars (max 160)",
-          "value": 162
+          "msg": "Description too long: 167 chars (max 160)",
+          "value": 167
         }
       ]
     },
@@ -3252,17 +3255,17 @@
       "url": "/en/worksheets/numbers/kindergarten",
       "file": "content/themes/numbers/en.ts",
       "status": "FAIL",
-      "title": "Free Numbers Worksheets for Kindergarten | LessonCraftStudio",
-      "titleLength": 60,
-      "description": "Kindergarten is the year when number sense transforms from emerging awareness into genuine fluency, and the academic expectations reflect this leap.",
-      "descriptionLength": 148,
-      "keywords": "missing",
-      "hasSeoOverride": false,
+      "title": "Numbers Kindergarten Worksheets — Add & Compare | LCS",
+      "titleLength": 53,
+      "description": "Free printable numbers worksheets for kindergarten (ages 5-6). Add and subtract within 10, count to 100, compare with greater-than signs, and solve puzzles. Get pages.",
+      "descriptionLength": 167,
+      "keywords": "present",
+      "hasSeoOverride": true,
       "issues": [
         {
-          "check": "desc_short",
-          "msg": "Description too short: 148 chars (min 150)",
-          "value": 148
+          "check": "desc_long",
+          "msg": "Description too long: 167 chars (max 160)",
+          "value": 167
         }
       ]
     },
@@ -3272,17 +3275,17 @@
       "url": "/en/worksheets/numbers/first-grade",
       "file": "content/themes/numbers/en.ts",
       "status": "FAIL",
-      "title": "Free Numbers Worksheets for First Grade | LessonCraftStudio",
-      "titleLength": 59,
-      "description": "First grade is where number work becomes genuinely mathematical, moving beyond counting and basic facts into the structural understanding of how our number system works.",
-      "descriptionLength": 169,
-      "keywords": "missing",
-      "hasSeoOverride": false,
+      "title": "Numbers First Grade Worksheets — Place Value & Facts | LCS",
+      "titleLength": 58,
+      "description": "Free printable numbers worksheets for first grade (ages 6-7). Learn place value tens and ones, solve word problems within 20, skip count, and explore patterns. Get pages.",
+      "descriptionLength": 170,
+      "keywords": "present",
+      "hasSeoOverride": true,
       "issues": [
         {
           "check": "desc_long",
-          "msg": "Description too long: 169 chars (max 160)",
-          "value": 169
+          "msg": "Description too long: 170 chars (max 160)",
+          "value": 170
         }
       ]
     },
@@ -3291,20 +3294,14 @@
       "slug": "numbers/second-grade",
       "url": "/en/worksheets/numbers/second-grade",
       "file": "content/themes/numbers/en.ts",
-      "status": "FAIL",
-      "title": "Free Numbers Worksheets for Second Grade | LessonCraftStudio",
-      "titleLength": 60,
-      "description": "Second grade is a transformative year for number sense, the year when children move from thinking about numbers as individual quantities to understanding them a...",
-      "descriptionLength": 163,
-      "keywords": "missing",
-      "hasSeoOverride": false,
-      "issues": [
-        {
-          "check": "desc_long",
-          "msg": "Description too long: 163 chars (max 160)",
-          "value": 163
-        }
-      ]
+      "status": "PASS",
+      "title": "Numbers Second Grade Worksheets — Regroup & Multiply | LCS",
+      "titleLength": 58,
+      "description": "Free printable numbers worksheets for second grade (ages 7-8). Regroup in addition and subtraction, explore place value, build arrays, and write equations.",
+      "descriptionLength": 155,
+      "keywords": "present",
+      "hasSeoOverride": true,
+      "issues": []
     },
     {
       "type": "theme-grade",
@@ -3312,17 +3309,17 @@
       "url": "/en/worksheets/numbers/third-grade",
       "file": "content/themes/numbers/en.ts",
       "status": "FAIL",
-      "title": "Free Numbers Worksheets for Third Grade | LessonCraftStudio",
-      "titleLength": 59,
-      "description": "Third graders undergo a fundamental cognitive shift from additive to multiplicative thinking, and number worksheets at this level are designed to guide that tra...",
-      "descriptionLength": 163,
-      "keywords": "missing",
-      "hasSeoOverride": false,
+      "title": "Numbers Third Grade Worksheets — Multiply & Factor | LCS",
+      "titleLength": 56,
+      "description": "Free printable numbers worksheets for third grade (ages 8-9). Master multiplication and division facts, find factor pairs, explore prime numbers, and analyze patterns.",
+      "descriptionLength": 167,
+      "keywords": "present",
+      "hasSeoOverride": true,
       "issues": [
         {
           "check": "desc_long",
-          "msg": "Description too long: 163 chars (max 160)",
-          "value": 163
+          "msg": "Description too long: 167 chars (max 160)",
+          "value": 167
         }
       ]
     },
@@ -3747,20 +3744,14 @@
       "slug": "seasons/second-grade",
       "url": "/en/worksheets/seasons/second-grade",
       "file": "content/themes/seasons/en.ts",
-      "status": "FAIL",
+      "status": "PASS",
       "title": "Seasons Second Grade Worksheets — Graphs & Research | LCS",
       "titleLength": 57,
-      "description": "Free printable seasons worksheets for second grade (ages 7-8). Graph temperature data, compare two-digit seasonal values, read about biomes, and write opinions. Get pages.",
-      "descriptionLength": 171,
+      "description": "Free printable seasons worksheets for second grade (ages 7-8). Graph temperature data, compare seasonal values, read about biomes, and write opinion pieces.",
+      "descriptionLength": 156,
       "keywords": "present",
       "hasSeoOverride": true,
-      "issues": [
-        {
-          "check": "desc_long",
-          "msg": "Description too long: 171 chars (max 160)",
-          "value": 171
-        }
-      ]
+      "issues": []
     },
     {
       "type": "theme-grade",
@@ -3770,8 +3761,8 @@
       "status": "FAIL",
       "title": "Seasons Third Grade Worksheets — Multiply Data & Essays | LCS",
       "titleLength": 61,
-      "description": "Free printable seasons worksheets for third grade (ages 8-9). Multiply weekly temperatures, calculate seasonal fractions, compare data, and write research essays. Get now.",
-      "descriptionLength": 171,
+      "description": "Free printable seasons worksheets for third grade (ages 8-9). Multiply weekly temperatures, calculate seasonal fractions, compare data, and write research essays.",
+      "descriptionLength": 162,
       "keywords": "present",
       "hasSeoOverride": true,
       "issues": [
@@ -3782,8 +3773,8 @@
         },
         {
           "check": "desc_long",
-          "msg": "Description too long: 171 chars (max 160)",
-          "value": 171
+          "msg": "Description too long: 162 chars (max 160)",
+          "value": 162
         }
       ]
     },
@@ -3793,17 +3784,22 @@
       "url": "/en/worksheets/shapes/preschool",
       "file": "content/themes/shapes/en.ts",
       "status": "FAIL",
-      "title": "Free Shapes Worksheets for Preschool | LessonCraftStudio",
-      "titleLength": 56,
-      "description": "Preschoolers encounter shapes as whole visual images long before they understand the geometric properties that define them, and this is exactly where instruction should begin.",
-      "descriptionLength": 175,
-      "keywords": "missing",
-      "hasSeoOverride": false,
+      "title": "Shapes Preschool Worksheets — Trace & Match | LCS",
+      "titleLength": 49,
+      "description": "Free printable shapes worksheets for preschool (ages 3-4). Trace circles, squares, triangles, match to objects, sort by type, and color within outlines. Get pages.",
+      "descriptionLength": 163,
+      "keywords": "present",
+      "hasSeoOverride": true,
       "issues": [
         {
+          "check": "title_short",
+          "msg": "Title too short: 49 chars (min 50)",
+          "value": 49
+        },
+        {
           "check": "desc_long",
-          "msg": "Description too long: 175 chars (max 160)",
-          "value": 175
+          "msg": "Description too long: 163 chars (max 160)",
+          "value": 163
         }
       ]
     },
@@ -3813,12 +3809,52 @@
       "url": "/en/worksheets/shapes/kindergarten",
       "file": "content/themes/shapes/en.ts",
       "status": "FAIL",
-      "title": "Free Shapes Worksheets for Kindergarten | LessonCraftStudio",
-      "titleLength": 59,
-      "description": "Kindergarten is when shape learning transitions from simple recognition to active analysis, and five- and six-year-olds are developmentally ready for this shift.",
+      "title": "Shapes Kindergarten Worksheets — Sides & Corners | LCS",
+      "titleLength": 54,
+      "description": "Free printable shapes worksheets for kindergarten (ages 5-6). Count sides and corners, compose pictures from pattern blocks, and explore hexagons and 3D forms. Get pages.",
+      "descriptionLength": 170,
+      "keywords": "present",
+      "hasSeoOverride": true,
+      "issues": [
+        {
+          "check": "desc_long",
+          "msg": "Description too long: 170 chars (max 160)",
+          "value": 170
+        }
+      ]
+    },
+    {
+      "type": "theme-grade",
+      "slug": "shapes/first-grade",
+      "url": "/en/worksheets/shapes/first-grade",
+      "file": "content/themes/shapes/en.ts",
+      "status": "FAIL",
+      "title": "Shapes First Grade Worksheets — Attributes & Halves | LCS",
+      "titleLength": 57,
+      "description": "Free printable shapes worksheets for first grade (ages 6-7). Distinguish defining attributes, partition into halves and fourths, compose figures, and explore symmetry.",
+      "descriptionLength": 167,
+      "keywords": "present",
+      "hasSeoOverride": true,
+      "issues": [
+        {
+          "check": "desc_long",
+          "msg": "Description too long: 167 chars (max 160)",
+          "value": 167
+        }
+      ]
+    },
+    {
+      "type": "theme-grade",
+      "slug": "shapes/second-grade",
+      "url": "/en/worksheets/shapes/second-grade",
+      "file": "content/themes/shapes/en.ts",
+      "status": "FAIL",
+      "title": "Shapes Second Grade Worksheets — Fractions & Angles | LCS",
+      "titleLength": 57,
+      "description": "Free printable shapes worksheets for second grade (ages 7-8). Partition into thirds and fourths, draw right angles, identify 3D faces, and explore tessellations.",
       "descriptionLength": 161,
-      "keywords": "missing",
-      "hasSeoOverride": false,
+      "keywords": "present",
+      "hasSeoOverride": true,
       "issues": [
         {
           "check": "desc_long",
@@ -3829,55 +3865,21 @@
     },
     {
       "type": "theme-grade",
-      "slug": "shapes/first-grade",
-      "url": "/en/worksheets/shapes/first-grade",
-      "file": "content/themes/shapes/en.ts",
-      "status": "PASS",
-      "title": "Free Shapes Worksheets for First Grade | LessonCraftStudio",
-      "titleLength": 58,
-      "description": "First-grade geometry asks children to think about shapes not just as things they see but as concepts they can reason about, compare, and use to solve problems.",
-      "descriptionLength": 159,
-      "keywords": "missing",
-      "hasSeoOverride": false,
-      "issues": []
-    },
-    {
-      "type": "theme-grade",
-      "slug": "shapes/second-grade",
-      "url": "/en/worksheets/shapes/second-grade",
-      "file": "content/themes/shapes/en.ts",
-      "status": "FAIL",
-      "title": "Free Shapes Worksheets for Second Grade | LessonCraftStudio",
-      "titleLength": 59,
-      "description": "Second-grade geometry pushes children beyond naming and describing shapes into genuine spatial reasoning, where they analyze relationships between shapes, parti...",
-      "descriptionLength": 163,
-      "keywords": "missing",
-      "hasSeoOverride": false,
-      "issues": [
-        {
-          "check": "desc_long",
-          "msg": "Description too long: 163 chars (max 160)",
-          "value": 163
-        }
-      ]
-    },
-    {
-      "type": "theme-grade",
       "slug": "shapes/third-grade",
       "url": "/en/worksheets/shapes/third-grade",
       "file": "content/themes/shapes/en.ts",
       "status": "FAIL",
-      "title": "Free Shapes Worksheets for Third Grade | LessonCraftStudio",
-      "titleLength": 58,
-      "description": "Third-grade geometry worksheets push students beyond simple shape identification into the realm of measurement, property analysis, and mathematical reasoning about why shapes behave the way they do.",
-      "descriptionLength": 198,
-      "keywords": "missing",
-      "hasSeoOverride": false,
+      "title": "Shapes Third Grade Worksheets — Area & Classify | LCS",
+      "titleLength": 53,
+      "description": "Free printable shapes worksheets for third grade (ages 8-9). Calculate area and perimeter, classify quadrilaterals, identify symmetry lines, and analyze 3D nets.",
+      "descriptionLength": 161,
+      "keywords": "present",
+      "hasSeoOverride": true,
       "issues": [
         {
           "check": "desc_long",
-          "msg": "Description too long: 198 chars (max 160)",
-          "value": 198
+          "msg": "Description too long: 161 chars (max 160)",
+          "value": 161
         }
       ]
     },
@@ -4559,17 +4561,22 @@
       "url": "/en/worksheets/weather/preschool",
       "file": "content/themes/weather/en.ts",
       "status": "FAIL",
-      "title": "Free Weather Worksheets for Preschool | LessonCraftStudio",
-      "titleLength": 57,
-      "description": "Preschoolers aged three and four are natural weather watchers who announce rain is coming when they see a dark cloud and celebrate every rainbow with genuine wonder.",
-      "descriptionLength": 165,
-      "keywords": "missing",
-      "hasSeoOverride": false,
+      "title": "Weather Preschool Worksheets — Clouds & Raindrops to Trace | LCS",
+      "titleLength": 64,
+      "description": "Free printable weather worksheets for preschool (ages 3-4). Count raindrops, color clouds, match weather to clothing, and sort sunny from rainy days. Get sheets.",
+      "descriptionLength": 161,
+      "keywords": "present",
+      "hasSeoOverride": true,
       "issues": [
         {
+          "check": "title_long",
+          "msg": "Title too long: 64 chars (max 60)",
+          "value": 64
+        },
+        {
           "check": "desc_long",
-          "msg": "Description too long: 165 chars (max 160)",
-          "value": 165
+          "msg": "Description too long: 161 chars (max 160)",
+          "value": 161
         }
       ]
     },
@@ -4578,20 +4585,14 @@
       "slug": "weather/kindergarten",
       "url": "/en/worksheets/weather/kindergarten",
       "file": "content/themes/weather/en.ts",
-      "status": "FAIL",
-      "title": "Free Weather Worksheets for Kindergarten | LessonCraftStudio",
+      "status": "PASS",
+      "title": "Weather Kindergarten Worksheets — Forecasts & Patterns | LCS",
       "titleLength": 60,
-      "description": "Kindergarteners bring an expanding vocabulary and growing sense of scientific curiosity to weather worksheets, ready to move beyond simple identification toward...",
-      "descriptionLength": 163,
-      "keywords": "missing",
-      "hasSeoOverride": false,
-      "issues": [
-        {
-          "check": "desc_long",
-          "msg": "Description too long: 163 chars (max 160)",
-          "value": 163
-        }
-      ]
+      "description": "Free printable weather worksheets for kindergarten (ages 5-6). Track daily observations, add rain counters, and learn forecast vocabulary. Download pages now.",
+      "descriptionLength": 158,
+      "keywords": "present",
+      "hasSeoOverride": true,
+      "issues": []
     },
     {
       "type": "theme-grade",
@@ -4599,17 +4600,17 @@
       "url": "/en/worksheets/weather/first-grade",
       "file": "content/themes/weather/en.ts",
       "status": "FAIL",
-      "title": "Free Weather Worksheets for First Grade | LessonCraftStudio",
-      "titleLength": 59,
-      "description": "First graders are ready for weather worksheets that integrate real data analysis, informational reading, and multi-step problem solving within the fascinating context of atmospheric science.",
-      "descriptionLength": 190,
-      "keywords": "missing",
-      "hasSeoOverride": false,
+      "title": "Weather First Grade Worksheets — Water Cycle & Graphing | LCS",
+      "titleLength": 61,
+      "description": "Free printable weather worksheets for first grade (ages 6-7). Solve rain word problems, read water cycle passages, and graph weekly temperatures. Get pages now.",
+      "descriptionLength": 160,
+      "keywords": "present",
+      "hasSeoOverride": true,
       "issues": [
         {
-          "check": "desc_long",
-          "msg": "Description too long: 190 chars (max 160)",
-          "value": 190
+          "check": "title_long",
+          "msg": "Title too long: 61 chars (max 60)",
+          "value": 61
         }
       ]
     },
@@ -4618,20 +4619,14 @@
       "slug": "weather/second-grade",
       "url": "/en/worksheets/weather/second-grade",
       "file": "content/themes/weather/en.ts",
-      "status": "FAIL",
-      "title": "Free Weather Worksheets for Second Grade | LessonCraftStudio",
-      "titleLength": 60,
-      "description": "Second graders bring genuine scientific thinking and strengthened mathematical skills to weather worksheets, ready to move beyond simple observation toward syst...",
-      "descriptionLength": 163,
-      "keywords": "missing",
-      "hasSeoOverride": false,
-      "issues": [
-        {
-          "check": "desc_long",
-          "msg": "Description too long: 163 chars (max 160)",
-          "value": 163
-        }
-      ]
+      "status": "PASS",
+      "title": "Weather Second Grade Worksheets — Temp Math & Reports | LCS",
+      "titleLength": 59,
+      "description": "Free printable weather worksheets for second grade (ages 7-8). Calculate temperature changes, analyze monthly data, and write forecast reports. Download pages.",
+      "descriptionLength": 159,
+      "keywords": "present",
+      "hasSeoOverride": true,
+      "issues": []
     },
     {
       "type": "theme-grade",
@@ -4639,17 +4634,22 @@
       "url": "/en/worksheets/weather/third-grade",
       "file": "content/themes/weather/en.ts",
       "status": "FAIL",
-      "title": "Free Weather Worksheets for Third Grade | LessonCraftStudio",
-      "titleLength": 59,
-      "description": "Third graders bring multiplication fluency and emerging statistical thinking to weather worksheets, ready to analyze meteorological data with the precision of j...",
-      "descriptionLength": 163,
-      "keywords": "missing",
-      "hasSeoOverride": false,
+      "title": "Weather Third Grade Worksheets — Multiply Data & Essays | LCS",
+      "titleLength": 61,
+      "description": "Free printable weather worksheets for third grade (ages 8-9). Multiply precipitation totals, graph seasonal trends, and write explanatory weather essays. Get pages.",
+      "descriptionLength": 164,
+      "keywords": "present",
+      "hasSeoOverride": true,
       "issues": [
         {
+          "check": "title_long",
+          "msg": "Title too long: 61 chars (max 60)",
+          "value": 61
+        },
+        {
           "check": "desc_long",
-          "msg": "Description too long: 163 chars (max 160)",
-          "value": 163
+          "msg": "Description too long: 164 chars (max 160)",
+          "value": 164
         }
       ]
     },
@@ -4659,17 +4659,22 @@
       "url": "/en/worksheets/winter/preschool",
       "file": "content/themes/winter/en.ts",
       "status": "FAIL",
-      "title": "Free Winter Worksheets for Preschool | LessonCraftStudio",
-      "titleLength": 56,
-      "description": "Preschoolers aged three and four experience winter as a world of sensory marvels: the shock of cold air on their cheeks, the crunch of snow under boots, the spa...",
-      "descriptionLength": 163,
-      "keywords": "missing",
-      "hasSeoOverride": false,
+      "title": "Winter Preschool Worksheets — Trace & Count | LCS",
+      "titleLength": 49,
+      "description": "Free printable winter worksheets for preschool (ages 3-4). Count falling snowflakes, trace snowy words, color cozy mittens and penguins, and match clothing silhouettes.",
+      "descriptionLength": 168,
+      "keywords": "present",
+      "hasSeoOverride": true,
       "issues": [
         {
+          "check": "title_short",
+          "msg": "Title too short: 49 chars (min 50)",
+          "value": 49
+        },
+        {
           "check": "desc_long",
-          "msg": "Description too long: 163 chars (max 160)",
-          "value": 163
+          "msg": "Description too long: 168 chars (max 160)",
+          "value": 168
         }
       ]
     },
@@ -4679,17 +4684,17 @@
       "url": "/en/worksheets/winter/kindergarten",
       "file": "content/themes/winter/en.ts",
       "status": "FAIL",
-      "title": "Free Winter Worksheets for Kindergarten | LessonCraftStudio",
-      "titleLength": 59,
-      "description": "Kindergarteners bring growing academic skills and an expanding understanding of the natural world to winter worksheets, ready to explore not just what winter lo...",
-      "descriptionLength": 163,
-      "keywords": "missing",
-      "hasSeoOverride": false,
+      "title": "Winter Kindergarten Worksheets — Sort & Search | LCS",
+      "titleLength": 52,
+      "description": "Free printable winter worksheets for kindergarten (ages 5-6). Add snowball groups, search blizzard words, sort animals by hibernate or migrate, and match winter shadows.",
+      "descriptionLength": 169,
+      "keywords": "present",
+      "hasSeoOverride": true,
       "issues": [
         {
           "check": "desc_long",
-          "msg": "Description too long: 163 chars (max 160)",
-          "value": 163
+          "msg": "Description too long: 169 chars (max 160)",
+          "value": 169
         }
       ]
     },
@@ -4699,17 +4704,17 @@
       "url": "/en/worksheets/winter/first-grade",
       "file": "content/themes/winter/en.ts",
       "status": "FAIL",
-      "title": "Free Winter Worksheets for First Grade | LessonCraftStudio",
-      "titleLength": 58,
-      "description": "First graders are ready for winter worksheets that challenge them with multi-step problems, informational reading, and analytical thinking about winter science and animal behavior.",
-      "descriptionLength": 180,
-      "keywords": "missing",
-      "hasSeoOverride": false,
+      "title": "Winter First Grade Worksheets — Read & Solve | LCS",
+      "titleLength": 50,
+      "description": "Free printable winter worksheets for first grade (ages 6-7). Solve snowball word problems, read snowflake passages, decode science crosswords, and complete sudoku grids.",
+      "descriptionLength": 169,
+      "keywords": "present",
+      "hasSeoOverride": true,
       "issues": [
         {
           "check": "desc_long",
-          "msg": "Description too long: 180 chars (max 160)",
-          "value": 180
+          "msg": "Description too long: 169 chars (max 160)",
+          "value": 169
         }
       ]
     },
@@ -4718,20 +4723,14 @@
       "slug": "winter/second-grade",
       "url": "/en/worksheets/winter/second-grade",
       "file": "content/themes/winter/en.ts",
-      "status": "FAIL",
-      "title": "Free Winter Worksheets for Second Grade | LessonCraftStudio",
-      "titleLength": 59,
-      "description": "Second graders bring expanding scientific curiosity and stronger mathematical reasoning to winter worksheets, ready to explore the coldest season through data a...",
-      "descriptionLength": 163,
-      "keywords": "missing",
-      "hasSeoOverride": false,
-      "issues": [
-        {
-          "check": "desc_long",
-          "msg": "Description too long: 163 chars (max 160)",
-          "value": 163
-        }
-      ]
+      "status": "PASS",
+      "title": "Winter Second Grade Worksheets — Measure & Argue | LCS",
+      "titleLength": 54,
+      "description": "Free printable winter worksheets for second grade (ages 7-8). Calculate temperature changes, measure snowfall, read Arctic passages, and write opinion pieces.",
+      "descriptionLength": 158,
+      "keywords": "present",
+      "hasSeoOverride": true,
+      "issues": []
     },
     {
       "type": "theme-grade",
@@ -4739,17 +4738,17 @@
       "url": "/en/worksheets/winter/third-grade",
       "file": "content/themes/winter/en.ts",
       "status": "FAIL",
-      "title": "Free Winter Worksheets for Third Grade | LessonCraftStudio",
-      "titleLength": 58,
-      "description": "Third graders bring multiplication fluency and developing research skills to winter worksheets, ready to investigate the coldest season through multi-step mathe...",
-      "descriptionLength": 163,
-      "keywords": "missing",
-      "hasSeoOverride": false,
+      "title": "Winter Third Grade Worksheets — Multiply & Research | LCS",
+      "titleLength": 57,
+      "description": "Free printable winter worksheets for third grade (ages 8-9). Multiply snowfall totals, calculate ice rink area, research Arctic ecosystems, and compare winter data.",
+      "descriptionLength": 164,
+      "keywords": "present",
+      "hasSeoOverride": true,
       "issues": [
         {
           "check": "desc_long",
-          "msg": "Description too long: 163 chars (max 160)",
-          "value": 163
+          "msg": "Description too long: 164 chars (max 160)",
+          "value": 164
         }
       ]
     },
@@ -4917,13 +4916,23 @@
       "slug": "worksheets",
       "url": "/en/worksheets",
       "file": "app/[locale]/worksheets/page.tsx",
-      "status": "PASS",
-      "title": "Free Themed Worksheets for Kids | LessonCraftStudio",
-      "titleLength": 51,
+      "status": "FAIL",
+      "title": "Free Printable Worksheets for Kids — 50 Themes | LessonCraftStudio",
+      "titleLength": 66,
       "description": "Browse 50 themed worksheet collections for kids. Animals, dinosaurs, space, ocean and more. Free printable activities for preschool to 3rd grade. PDF download.",
       "descriptionLength": 159,
-      "keywords": "present",
-      "issues": []
+      "keywords": "missing",
+      "issues": [
+        {
+          "check": "title_long",
+          "msg": "Title too long: 66 chars (max 60)",
+          "value": 66
+        },
+        {
+          "check": "keywords_missing",
+          "msg": "Keywords are missing"
+        }
+      ]
     },
     {
       "type": "secondary",
@@ -4931,13 +4940,19 @@
       "slug": "about",
       "url": "/en/about",
       "file": "messages/en.json",
-      "status": "PASS",
+      "status": "FAIL",
       "title": "About LessonCraftStudio | Educational Worksheet Generators",
       "titleLength": 58,
-      "description": "Learn about LessonCraftStudio — 33 free worksheet generators in 11 languages with 3,000+ themed images. Built for teachers, parents, and speech therapists.",
-      "descriptionLength": 155,
+      "description": "Learn about LessonCraftStudio — 33 curriculum-aligned worksheet generators in 11 languages with 3,000+ themed images. Educator-tested tools for teachers, parents, and therapists.",
+      "descriptionLength": 178,
       "keywords": "present",
-      "issues": []
+      "issues": [
+        {
+          "check": "desc_long",
+          "msg": "Description too long: 178 chars (max 160)",
+          "value": 178
+        }
+      ]
     },
     {
       "type": "secondary",
@@ -4945,13 +4960,19 @@
       "slug": "faq",
       "url": "/en/faq",
       "file": "messages/en.json",
-      "status": "PASS",
+      "status": "FAIL",
       "title": "FAQ: Worksheet Generator Help & Pricing | LessonCraftStudio",
       "titleLength": 59,
-      "description": "Get answers to common questions about our 33 free worksheet generators, subscription pricing, commercial license terms, and technical support for teachers.",
-      "descriptionLength": 155,
+      "description": "Get answers about our 33 worksheet generators for preschool through 3rd grade, subscription pricing, curriculum alignment, commercial license terms, and technical support.",
+      "descriptionLength": 171,
       "keywords": "present",
-      "issues": []
+      "issues": [
+        {
+          "check": "desc_long",
+          "msg": "Description too long: 171 chars (max 160)",
+          "value": 171
+        }
+      ]
     },
     {
       "type": "secondary",

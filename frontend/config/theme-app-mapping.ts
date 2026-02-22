@@ -462,3 +462,18 @@ export function getThemeGradeCuratedApps(themeId: string, gradeId: string): AppI
   const curated = getThemeCuratedApps(themeId);
   return getGradeFilteredApps(gradeId, curated) as AppId[];
 }
+
+/**
+ * Reverse-lookup: returns themes whose curated list includes this app.
+ * Used by product pages to link back to theme hubs (bidirectional equity).
+ */
+export function getThemesForApp(appId: string, limit = 3): ThemeId[] {
+  const themes: ThemeId[] = [];
+  for (const [themeId, apps] of Object.entries(themeApps)) {
+    if (apps.includes(appId as AppId)) {
+      themes.push(themeId as ThemeId);
+      if (themes.length >= limit) break;
+    }
+  }
+  return themes;
+}

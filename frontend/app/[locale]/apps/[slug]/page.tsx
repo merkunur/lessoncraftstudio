@@ -3,6 +3,8 @@ import AutoLaunchApp from './AutoLaunchApp';
 import { notFound, redirect } from 'next/navigation';
 import ProductPageClient from '@/components/product-page/ProductPageClient';
 import RelatedBlogPosts from '@/components/product-page/RelatedBlogPosts';
+import RelatedThemes from '@/components/blog/RelatedThemes';
+import { getThemesForApp } from '@/config/theme-app-mapping';
 import { getContentBySlug, getAllStaticParams } from '@/config/product-page-content';
 import { generateAppProductSchemas, generateAllProductPageSchemas, AppProductData, ogLocaleMap, localeToLanguageFolder } from '@/lib/schema-generator';
 import { SUPPORTED_LOCALES } from '@/config/locales';
@@ -3591,11 +3593,14 @@ export default async function AppPage({ params: { locale, slug } }: PageProps) {
       }));
     }
 
+    const relatedThemes = getThemesForApp(appId, 3);
+
     return (
       <>
         <SchemaScripts appData={schemaAppData} locale={locale} slug={slug} content={content} sampleSeoMap={sampleSeoMap} discoveredSamples={discoveredSamples} />
         <ProductPageClient locale={locale} content={content} slug={slug} discoveredSamples={discoveredSamples} />
         <RelatedBlogPosts locale={locale as SupportedLocale} posts={relatedBlogPosts} />
+        <RelatedThemes themeIds={relatedThemes} locale={locale} />
       </>
     );
   }
@@ -3665,11 +3670,14 @@ export default async function AppPage({ params: { locale, slug } }: PageProps) {
       }));
     }
 
+    const legacyRelatedThemes = getThemesForApp(appId, 3);
+
     return (
       <>
         <SchemaScripts appData={legacySchemaAppData} locale={locale} slug={slug} content={legacyContent} sampleSeoMap={legacySeoMap} discoveredSamples={legacyDiscoveredSamples} />
         <ProductPageClient locale={locale} content={legacyContent} slug={slug} discoveredSamples={legacyDiscoveredSamples} />
         <RelatedBlogPosts locale={locale as SupportedLocale} posts={relatedBlogPosts} />
+        <RelatedThemes themeIds={legacyRelatedThemes} locale={locale} />
       </>
     );
   }

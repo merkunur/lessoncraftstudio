@@ -140,6 +140,22 @@ const content: EnrichedThemeContent = {
         { question: 'Hvordan underviser bondegårdsarbejdsark børnehaveklassebørn om madens oprindelse?', answer: 'Match- og sorteringsaktiviteter beder børn om at forbinde produkter som mælk, æg og uld med de dyr, der producerer dem. Dette opbygger årsags-virkningsræsonnement, mens det introducerer landbrugskendskabsbegreber, som mange naturfagsplaner i børnehaveklassen nu inkluderer.' },
         { question: 'Kan bondegårdsarbejdsark understøtte et naturfagsforløb i børnehaveklassen?', answer: 'Ja. De introducerer naturfagsbegreber ved at bede børn om at sortere levende fra ikke-levende bondegårdsobjekter, identificere, hvad dyr har brug for for at overleve, og sætte vækststadierne af en plante fra frø til høst i rækkefølge.' },
       ],
+
+      snippetAnswer: 'Gård-arbejdsark til børnehaveklassen (5–6 år) træner tælling til 20, addition/subtraktion med gårddyr, og begyndende læsning af dyrenavne. Landbrugets cyklus giver naturfaglig forståelse. Gratis printbare PDF-arbejdsark på LessonCraftStudio.',
+      uniqueGradeAngle: 'Gårdtemaet udvides i børnehaveklassen, fordi fem- og seksårige kan forstå produktion og cyklus — ko giver maelk, hoene laegger aeg, korn bliver til brod. Denne forståelse af årsag-virkning er ny sammenlignet med forskolens simple navngivning af gårddyr. Tælling af dyr i folde giver naturlig matematik op til 20. Addition/subtraktion (”8 hoens minus 3 der lober vaek”) er autentisk indlejret. Gårddyrs navne og produkter (ko/maelk, høne/aeg) træner ordforråd og sammensatte begreber. Fælles Måls mål for natur, matematik og begyndende læsning mødes i ét tema.',
+      developmentalMilestones: [
+        { milestone: 'Årsag-virkning-forståelse (5–6-årige forstår produktionskæder)', howWeAddress: 'Dyr-til-produkt-matchningsark (ko→maelk, høne→aeg) opbygger logisk tænkning med konkrete sammenhange' },
+        { milestone: 'Tælling til 20 med grupper (tælling af dyr i folde)', howWeAddress: 'Gårdscener med 10–20 dyr i folde, stalde og marker giver meningsfuld tællingstraening' },
+        { milestone: 'Addition og subtraktion med gårdkontekst', howWeAddress: 'Tekstopgaver som ”5 grise plus 4 grise i stalden” gør regning konkret og motiverende' },
+      ],
+      differentiationNotes: 'For børn der har brug for støtte, begræns til 4–5 velkendte gårddyr (ko, gris, høne, hest), hold tælling inden for 10, og brug konkrete dyrefigurer. For avancerede børnehaveklassebørn tilføjes produktionskæder med flere led, flertrinsproblemer og selvstændig skrivning af gårdfakta.',
+      parentTakeaway: 'Besoeg en bondegård og tæl dyrene: ”hvor mange koer? Flere end grise?” Tal om, hvor maden kommer fra — maelk fra koen, aeg fra hønen. Køb aeg på en gårdbutik og tæl dem. Plantning af froer i en urtepotte viser gårdens cyklus i miniformat.',
+      classroomIntegration: 'Gårdtemaet integreres i børnehaveklassens årsplan: et gårdbesog med forberedende arbejdsark, læringsstationer med tælle- og sorteringsøvelser, matematiktimen med gårdproblemer, og dansktimen laeser gårdboger og skriver dyrenavne. En klasseurtehave viser plantevakst. Fælles Måls mål for natur, matematik og sproglighed mødes.',
+      assessmentRubric: [
+        { skill: 'Gårddyr og produkter', emerging: 'navngiver 3–4 gårddyr med billedstøtte', proficient: 'navngiver selvstændigt 6–8 gårddyr og matcher dem med deres produkter', advanced: 'forklarer produktionskæder (ko→maelk→smør) og sammenligner gårddyrs roller' },
+        { skill: 'Tælling og regning med gårddyr', emerging: 'taeller 1–10 dyr i en fold med støtte', proficient: 'taeller til 20 og loser additions-/subtraktionsopgaver inden for 10 med gårdscener', advanced: 'loser flertrinsproblemer og formulerer egne gårdmatematikopgaver' },
+        { skill: 'Gårdordforråd og laesning', emerging: 'genkender 2–3 gårdord med billedstøtte (ko, gris)', proficient: 'laeser selvstændigt 5–6 gårdord og skriver dem i ordsogning', advanced: 'laeser korte gårdsætninger og skriver selvstændigt gårdfakta' },
+      ],
     },
     'first-grade': {
       seoTitle: 'Bondegård-opgaver 1. Klasse | LessonCraftStudio',

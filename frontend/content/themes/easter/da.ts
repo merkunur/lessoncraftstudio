@@ -140,6 +140,22 @@ const content: EnrichedThemeContent = {
         { question: 'Hvordan forbinder påskearbejdsark sig til naturfag i børnehaveklassen?', answer: 'De introducerer naturfagsbegreber ved at byde på æg-til-kylling-klækningssekvensen, frø-til-blomst-vækstcyklussen og de årstidsændringer, der markerer forårets ankomst. Disse forbindelser understøtter læringsmål om organismer, deres livscyklusser, og hvordan miljøet ændrer sig med årstiderne.' },
         { question: 'Kan påskearbejdsark bruges til børn, der ikke fejrer påske?', answer: 'Ja. Arbejdsarkene lægger vægt på forårsstemaer som nyt liv, vækst, dyreunger og farverige mønstre snarere end religiøst indhold. De fungerer smukt som forårsstematiserede aktiviteter for ethvert barn og fokuserer på de årstidsbestemte og naturvidenskabelige aspekter, der er universelt relevante.' },
       ],
+
+      snippetAnswer: 'Påske-arbejdsark til børnehaveklassen (5–6 år) træner addition inden for 10, mønstergenkendelse og begyndende skrivning med æg, harer og kyllinger. Påskens fejring gør matematik festlig. Gratis printbare PDF-arbejdsark på LessonCraftStudio.',
+      uniqueGradeAngle: 'Påsketemaet passer perfekt til børnehaveklassen, fordi fem- og seksårige kan deltage aktivt i påskens traditioner med faglige færdigheder — de tæller æg under æggejagten, deler slik ligeligt mellem venner og skriver påskekort. Denne aktive deltagelse gør matematik og læsning til en naturlig del af fejringen. Mønstergenkendelse med dekorerede æg (farvemønstre, mønstre på skallen) træner algebraisk tænkning. Addition/subtraktion med fundne æg (”du fandt 5, din ven fandt 3 — hvor mange tilsammen?”) er naturligt motiverende. Fælles Måls mål for tal, mønstre og kulturel identitet mødes.',
+      developmentalMilestones: [
+        { milestone: 'Addition inden for 10 (5–6-årige mestrer begyndende sammenligning)', howWeAddress: 'Æggejagtscenarier med ”jeg fandt 4, du fandt 3 — hvor mange tilsammen?” gør addition konkret og personlig' },
+        { milestone: 'Mønstergenkendelse og -design (avancerede mønstre med 3+ elementer)', howWeAddress: 'Ægdekorationsark med farvemønstre, der skal fortsættes eller designes, træner mønstertænkning kreativt' },
+        { milestone: 'Festlig skrivning (kort og beskeder med formål)', howWeAddress: 'Påskekort- og ønskeskrivning giver autentisk skrivetræning med personlig motivation' },
+      ],
+      differentiationNotes: 'For børn der har brug for støtte, hold tælling inden for 5, brug simple AB-mønstre, og tilbyd skriveskabeloner med prikkede ord. For avancerede børnehaveklassebørn tilføjes subtraktion, komplekse mønstre med fire elementer, og selvstændig skrivning af påskehistorier.',
+      parentTakeaway: 'Gør påsken til en læringsfest. Lad barnet tælle og sortere æg efter farve under æggejagten. Dekorer æg med mønstre og tal om farvefolgen. Del påskeslik ligeligt og tæl. Skriv påskekort til bedsteforældre — funktionel skrivning på sit bedste.',
+      classroomIntegration: 'Påsketemaet bruges som en forårstemauge: matematiktimen arbejder med additions- og mønsterark, dansktimen skriver påskekort og læser påskehistorier, kunsttimen dekorerer æg med mønstre, og udendørs arrangeres en æggejagt med tælleopgaver. Fælles Måls mål for matematik, kreativitet og kultur integreres i fejringen.',
+      assessmentRubric: [
+        { skill: 'Addition med påsketema', emerging: 'løser additionsopgaver inden for 5 med æggebilleder og voksenstøtte', proficient: 'løser selvstændigt additionsopgaver inden for 10 med påskescener', advanced: 'løser additions- og subtraktionsopgaver og formulerer egne æggeproblemer' },
+        { skill: 'Påske-mønstergenkendelse', emerging: 'gentager AB-mønstre på æg med støtte', proficient: 'fortsætter selvstændigt ABB- og ABC-mønstre på dekorerede æg', advanced: 'designer egne komplekse mønstre og forklarer reglen bag dem' },
+        { skill: 'Påskeskrivning', emerging: 'kopierer enkle påskeord fra model (påske, æg, hare)', proficient: 'skriver selvstændigt korte påskebeskeder og kort', advanced: 'skriver flere sætninger med påskeindhold og egne illustrationer' },
+      ],
     },
     'first-grade': {
       seoTitle: 'Påske-opgaver 1. Klasse | LessonCraftStudio',

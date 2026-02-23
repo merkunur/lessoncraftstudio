@@ -140,6 +140,22 @@ const content: EnrichedThemeContent = {
         { question: 'Hvilke matematiske færdigheder dækker børnehaveklassens mad-arbejdsark?', answer: 'De dækker tælling til tyve med madtællere, addition og subtraktion inden for ti med indkøbsscenarier, sammenligning af mængder med flere og færre, samt oprettelse af simple søjlediagrammer over madpræferencer – alt sammen i overensstemmelse med Fælles Måls matematiske kompetencemål for børnehaveklassen.' },
         { question: 'Kan mad-arbejdsark understøtte et sundhedsforløb i børnehaveklassen?', answer: 'Absolut. De introducerer fødevaregrupper og balancerede tallerkener gennem sorteringsaktiviteter, forbinder madvarer med deres plante- eller dyreoprindelse, og opmuntrer til diskussioner om sund hverdagsmad versus sjældne lækkerier. Dette indhold understøtter direkte sundhedsundervisningens mål, mens det samtidig opbygger matematik- og læsefærdigheder.' },
       ],
+
+      snippetAnswer: 'Mad-arbejdsark til bornehaveklassen (5–6 år) traener tælling, sortering efter naaringsgrupper, måling og begyndende læsning af madord. Born laerer sund kost og matematik på én gang. Gratis printbare PDF-arbejdsark på LessonCraftStudio.',
+      uniqueGradeAngle: 'Madtemaet modnes i bornehaveklassen, fordi fem- og seksaarige kan forstå naaringsgrupper (frugt, grontsager, korn, protein), laese enkle madord og relatere mad til sundhed. Hvor forskolebbrn sorterede efter farve og smag, klassificerer bornehaveklasseborn efter funktion — hvad giver energi, hvad styrker knogler, hvad er godt for tnderne? Tælling af madvarer på en tallerken giver funktionel matematik. Måling af ingredienser introducerer maaleenheder. Madord er blandt de foerste laesesord (brod, ost, aeble). Faelles Maals maal for sundhed, matematik og begyndende laesning modes.',
+      developmentalMilestones: [
+        { milestone: 'Klassifikation efter naaringsgrupper (5–6-årige forstår, at mad har forskellige roller)', howWeAddress: 'Tallerkensorteringsark, der beder born om at anbringe mad i de rigtige naaringsgrupper, opbygger sundhedsforståelse' },
+        { milestone: 'Funktionel tælling og måling (tælling med praktisk formål)', howWeAddress: 'Tælling af madvarer på indkoebslister og måling af opskriftsingredienser giver matematik i autentisk kontekst' },
+        { milestone: 'Begyndende laesning af hverdagsord (madord som foerste laesesord)', howWeAddress: 'Madord-matchning og -sporing med ord som brod, malk, aeble traener læsning med personligt relevante ord' },
+      ],
+      differentiationNotes: 'For born der har brug for stotte, begraens til 5–6 velkendte madvarer, sorter efter to simple grupper (frugt/ikke-frugt), og brug billeder med tydelige farver. For avancerede bornehaveklasseborn tilfojes fem naaringsgrupper, opskriftlaesning med maaleenheder og selvstaendig skrivning af en madpakkeliste.',
+      parentTakeaway: 'Inddrag barnet i madlavningen: tael grontsager, lees opskriften sammen, mål ingredienser. Gå på indkoeb og lad barnet finde madvarer på listen. Tal om naaringsgrupper: ”Guleroodder er grontsager og giver gode oejne.” Skriv en madplan for ugen sammen. Kokkenet er det bedste klasselokale.',
+      classroomIntegration: 'Madtemaet integreres i bornehaveklassens sundhedsundervisning: en ugentlig sundhedslektion med sorterings- og taelleark, matematiktimen med indkoebsliste-problemer, dansktimen med madord-laesning, og praktisk bagning med opskriftsark. En klassemadpyramide på vaeggen forbinder daglig laering. Faelles Maals maal for sundhed, matematik og kommunikation modes.',
+      assessmentRubric: [
+        { skill: 'Madklassifikation (naaringsgrupper)', emerging: 'sorterer mad i 2 grupper (frugt/groent) med billedstotte', proficient: 'sorterer selvstaendigt i 4 naaringsgrupper og forklarer, hvorfor maden hoerer til', advanced: 'navngiver 5 naaringsgrupper, giver eksempler og forklarer madvarernes rolle for kroppen' },
+        { skill: 'Tælling og måling med mad', emerging: 'taeller 5–8 madvarer med stotte', proficient: 'taeller selvstaendigt op til 20 og maaler med kopper/skeer korrekt', advanced: 'loser additionsopgaver med madvarer og fordobler/halverer maaleenheder' },
+        { skill: 'Madord og begyndende laesning', emerging: 'genkender 3–4 madord med billedstotte (brod, aeble, malk)', proficient: 'laeser selvstaendigt 8–10 madord og matcher dem med billeder', advanced: 'laeser og skriver 12+ madord og bruger dem i korte saetninger' },
+      ],
     },
     'first-grade': {
       seoTitle: 'Mad-opgaver 1. Klasse | LessonCraftStudio',

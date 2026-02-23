@@ -142,6 +142,22 @@ const content: EnrichedThemeContent = {
         { question: 'Kan børnehaveklassebørn lave dyre-ordsøgninger?', answer: 'Ja. Start med enkle fire- eller fembogstavsnavne i et lille gitter. Efterhånden som selvtilliden vokser, øges gitterstørrelsen og ordlængden. Ordsøgninger opbygger bogstavgenkendelse, visuel skanning og stavningsbevidsthed.' },
         { question: 'Hvordan understøtter dyrearbejdsark naturfag i børnehaveklassen?', answer: 'De introducerer klassifikation ved at bede børn om at sortere dyr efter egenskaber som antal ben, kropsbedækning eller levested. Dette lægger grundlaget for naturfaglige mål, der dækkes i første og anden klasse.' },
       ],
+
+      snippetAnswer: 'Dyre-arbejdsark til børnehaveklassen (5–6 år) kombinerer tælling til 20, addition/subtraktion inden for 10, og naturvidenskabelig klassifikation med engagerende dyremotiver. Børn lærer at gruppere dyr efter egenskaber. Gratis printbare PDF-arbejdsark på LessonCraftStudio.',
+      uniqueGradeAngle: 'Børnehaveklassen er det år, hvor dyrenes verden åbner sig fagligt — fem- og seksårige går fra at elske dyr til at lære om dem systematisk. Hvor førskolebørn sorterede efter simpel farve eller størrelse, kan børnehaveklassebørn klassificere efter flere egenskaber samtidig: antal ben, kropsdække og levested. Tælling når op til 20 med dyreggrupper, og addition/subtraktion inden for 10 introduceres med visuelle dyretællere (fem fugle minus to, der flyver væk). Dyrenes navne bruges i begyndende læseøvelser og ordsporinger. Fælles Mål for natur/teknik i børnehaveklassen understøttes direkte.',
+      developmentalMilestones: [
+        { milestone: 'Klassifikation efter flere egenskaber (5–6-årige kan sortere efter to kriterier samtidig)', howWeAddress: 'Sorteringsark der grupperer dyr efter både levested og kropsdække opbygger logisk tænkning på to dimensioner' },
+        { milestone: 'Addition og subtraktion inden for 10 (børnehaveklassens matematiske milepol)', howWeAddress: 'Dyrescener med addition (tre katte plus to katte) og subtraktion (fem fugle minus to) giver konkret repræsentation' },
+        { milestone: 'Ordgenkendelse og stavning af dyrenavne (begyndende læsning)', howWeAddress: 'Ordsporinger og ordsogningsark med dyreord på 3–5 bogstaver træner læsefundamentet med motiverende indhold' },
+      ],
+      differentiationNotes: 'For børn der har brug for støtte, begræns til velkendte husdyr (kat, hund, ko), brug konkrete dyrefigurer som supplement, og hold matematikken inden for 5. For avancerede børnehaveklassebørn udfordres med eksotiske dyr, flertrinsproblemer og selvstændig skrivning af dyrefakta.',
+      parentTakeaway: 'Besøg zoologisk have eller bondegård og tæl dyr sammen — hvor mange geder? Flere end får? Lad barnet tegne et dyr og skrive dets navn. Læs dyrebøger og stil spørgsmål: ”hvor bor den?” og ”hvad spiser den?”. Disse samtaler gør naturvidenskab personlig og opbygger det ordforråd, der driver læsning.',
+      classroomIntegration: 'Dyrearbejdsark integreres i børnehaveklassens naturfagsundervisning: ugentlige dyreopdagelser med tilhørende arbejdsark, læringsstationer med sorteringsøvelser og dyrefigurer, matematikhjørnet med additions-/subtraktionsark og dyretællere, og læsehjornet med dyreordsogninger. Fælles Måls mål for natur og matematik integreres.',
+      assessmentRubric: [
+        { skill: 'Dyreklassifikation', emerging: 'sorterer dyr i to grupper efter én egenskab med støtte', proficient: 'sorterer selvstændigt efter to egenskaber (levested og kropsdække)', advanced: 'opretter egne klassifikationskriterier og forklarer dem mundtligt' },
+        { skill: 'Addition/subtraktion med dyretællere', emerging: 'løser opgaver inden for 5 med konkret støtte (figurer/billeder)', proficient: 'løser selvstændigt opgaver inden for 10 med visuelle dyretællere', advanced: 'løser opgaver inden for 10 mentalt og forklarer regnestykket mundtligt' },
+        { skill: 'Læsning af dyrenavne', emerging: 'genkender 3–4 dyreord med billedstøtte', proficient: 'læser selvstændigt 8–10 dyrenavne og staver dem i ordsogning', advanced: 'læser nye dyrenavne ved afkodning og skriver dem selvstændigt' },
+      ],
     },
     'first-grade': {
       seoTitle: 'Dyr-opgaver 1. Klasse | LessonCraftStudio',

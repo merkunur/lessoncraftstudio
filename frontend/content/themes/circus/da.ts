@@ -140,6 +140,22 @@ const content: EnrichedThemeContent = {
         { question: 'Hvordan udvikler cirkus-arbejdsark observationsfærdigheder i børnehaveklassen?', answer: 'Find-og-tæl-aktiviteter med detaljerede cirkusscener træner visuel scanning og tællenøjagtighed. Ulige-mand-ud-arbejdsark kræver omhyggelig sammenligning af lignende cirkusbilleder. Matchende aktiviteter kræver opmærksomhed på farve-, form- og mønsterdetaljer. Disse observationsfærdigheder overføres til læsning, naturfag og dagligdags problemløsning.' },
         { question: 'Kan cirkus-arbejdsark understøtte kunstintegration i børnehaveklassen?', answer: 'Ja. Tegne-og-farvelæg-aktiviteter opmuntrer til kostume- og scenedesign. Plakatskabelsesprojekter integrerer tegning, skrivning og layoutfærdigheder. Cirkustemaets farverige, kreative karakter gør det til et af de mest effektive midler til at forbinde faglig læring med billedkunstundervisning.' },
       ],
+
+      snippetAnswer: 'Cirkus-arbejdsark til børnehaveklassen (5–6 år) bruger klovne, akrobater og jonglorer til tælling, mønstergenkendelse og begyndende regning. Cirkussets visuelle drama holder motivationen hoj. Gratis printbare PDF-arbejdsark på LessonCraftStudio.',
+      uniqueGradeAngle: 'Cirkustemaet engagerer børnehaveklassebørn på et nyt niveau, fordi fem- og seksårige kan forstå sekvenser, mønstre og rækkefølge — færdigheder der matcher cirkusshowets opbygning. Hvor førskolebørn nod de farverige billeder, analyserer børnehaveklassebørn mønstre i jonglorboldenes farver, tæller akrobater i pyramider med addition (3 i bunden plus 2 i midten plus 1 på toppen), og løser symmetriopgaver med klovneansigter. Cirkusordforråd som akrobat, trapez og maneege introducerer avancerede ord i en sjov kontekst. Fælles Måls mål for mønstre, tal og kreativ udfoldelse mødes i ét show.',
+      developmentalMilestones: [
+        { milestone: 'Mønstergenkendelse og -forlængelse (5–6-årige kan fortsætte AB-, ABB- og ABC-mønstre)', howWeAddress: 'Jonglorbold-mønstre og akrobat-sekvenser træner mønstergenkendelse med visuelt tiltrækkende elementer' },
+        { milestone: 'Addition med grupper (begyndende forståelse af sammensætning)', howWeAddress: 'Akrobatpyramider og klovnegrupper giver naturlige additionsscener med konkret repræsentation' },
+        { milestone: 'Ordforrådsudvidelse med fagspecifikke ord', howWeAddress: 'Cirkusvokabular som trapez, maneege og jonglor introducerer avancerede ord, der motiverer læsning' },
+      ],
+      differentiationNotes: 'For børn der har brug for støtte, forenkles til simple AB-mønstre med klovnefarver, tælling holdes inden for 10 med store billeder, og ordforrådet begrænses til velkendte ord (klovn, bold, hat). For avancerede børnehaveklassebørn tilføjes ABC-mønstre, flertrinsproblemer med akrobatgrupper og krydsord med cirkusord.',
+      parentTakeaway: 'Besøg et cirkus eller se et cirkusshow online og tal om, hvad I ser: tæl jonglorboldene, find mønstre i kostumerne, og genstab en pyramide med krammedyr derhjemme. Lad barnet lave sit eget minicirkus med nøgleroller — det træner både sekvensering, ordforråd og kreativitet.',
+      classroomIntegration: 'Cirkustemaet bruges som en kreativ temauge: matematiktimen arbejder med mønster- og additionsark, dansktimen læser cirkushistorier og lærer cirkusord, og kunsttimen designer klovnekostumer og cirkusplakater. Gymnastiksalen bliver til maneege. Fælles Måls mål for kreativitet, krop og matematik integreres.',
+      assessmentRubric: [
+        { skill: 'Mønstergenkendelse (cirkuskontekst)', emerging: 'gentager et simpelt AB-mønster med støtte (rod bold, blå bold...)', proficient: 'fortsætter selvstændigt AB- og ABB-mønstre med jonglorelementer', advanced: 'opretter egne mønstre med tre eller flere elementer og forklarer reglen' },
+        { skill: 'Addition med cirkusgrupper', emerging: 'løser 2+1 og 3+1 med billedstøtte (akrobater)', proficient: 'løser selvstændigt additionsopgaver inden for 10 med cirkusscener', advanced: 'løser flertrins addition (3+2+1) og formulerer egne cirkusproblemer' },
+        { skill: 'Cirkusordforråd og læsning', emerging: 'genkender 2–3 cirkusord med billedstøtte (klovn, bold)', proficient: 'læser selvstændigt 5–6 cirkusord og bruger dem i sætninger', advanced: 'læser og skriver 8+ cirkusord og forklarer deres betydning' },
+      ],
     },
     'first-grade': {
       seoTitle: 'Cirkus-opgaver 1. Klasse | LessonCraftStudio',

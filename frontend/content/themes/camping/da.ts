@@ -140,6 +140,22 @@ const content: EnrichedThemeContent = {
         { question: 'Hvilke matematikfærdigheder udvikler børnehaveklasse-campingarbejdsark?', answer: 'De fokuserer på tælling til tyve med stimarkører og forsyningsgenstande, addition og subtraktion inden for ti gennem campingscenarier, sammenligning af mængder campingudstyr og enkle målekoncepter som at ordne pinde efter længde. Alle aktiviteter stemmer overens med Fælles Måls matematiknormer for børnehaveklassen, mens de udnytter campingens eventyrappel.' },
         { question: 'Kan campingarbejdsark understøtte en børnehaveklasse-naturfagsenhed om levesteder?', answer: 'Perfekt. Campingarbejdsark i skove, ved søbredder og i bjerge introducerer naturligt levestedsordforråd og dyreidentifikation. Sorteringsøvelser, der klassificerer dyr efter, hvor de lever, matchning af væsener med deres spor og identifikation af planter opbygger de observationsfærdigheder, levestedsenheder kræver.' },
       ],
+
+      snippetAnswer: 'Camping-arbejdsark til børnehaveklassen (5–6 år) træner tælling, addition inden for 10 og begyndende læsning med telte, bål og naturmotiver. Campingens udendørsramme gør læringen eventyrlig. Gratis printbare PDF-arbejdsark på LessonCraftStudio.',
+      uniqueGradeAngle: 'Campingtemaet er særligt stærkt for børnehaveklassen, fordi fem- og seksårige har den selvstændighed og udholdenhed, der gør campingoplevelser meningsfulde — de kan slå teltporer i, puste på et bål og følge flertrinsinstruktioner for at pakke en rygsaek. Denne parathed til strukturerede udendørsudfordringer gør campingarbejdsark relevante og motiverende. Tælling af campingudstyr i pakkelister giver funktionel matematik. Addition af bålgenstande (3 pinde plus 4 pinde) og subtraktion (8 skumfiduser minus 3 der bliver spist) er naturligt indlejret. Skrivning af campingdagbog introducerer funktionel skrivning. Fælles Måls mål for natur og praktiske færdigheder mødes.',
+      developmentalMilestones: [
+        { milestone: 'Flertrinsinstruktioner (5–6-årige kan følge 2–3-trins instruktioner selvstændigt)', howWeAddress: 'Campingprocedurer som ”pak rygsaek, slå telt op, tænd bål” giver meningsfuld sekvenstraning' },
+        { milestone: 'Funktionel tælling og sortering (tælling med et praktisk formål)', howWeAddress: 'Pakkeliste-aktiviteter, der kræver tælling og tjek af udstyr, giver matematik i en autentisk kontekst' },
+        { milestone: 'Begyndende kortlæsning og rumlig orientering', howWeAddress: 'Enkle skattekort og stifinder-labyrinter introducerer rumlige begreber og retningsangivelser' },
+      ],
+      differentiationNotes: 'For børn der har brug for støtte, forenkles campingscenerne til telt, bål og rygsaek, tælling holdes inden for 10, og instruktioner gives ét trin ad gangen. For avancerede børnehaveklassebørn tilføjes kortlæsning, flertrinsmatematik og campingdagbogsskrivning med hele sætninger.',
+      parentTakeaway: 'Tag på minicamp i haven eller parken. Lad barnet hjælpe med at pakke: tæl tallerkener, kopper og gafler til alle. Tæl stjerner ved bålet. Lav en tjekliste sammen og lad barnet afkrydse. Campingoplevelser skaber minder og læring på én gang.',
+      classroomIntegration: 'Campingtemaet bruges som en udendørstemauge i børnehaveklassen: matematiktimen holder udendørs med tælleark og pakkelister, naturfagstimen udforsker skoven, og danskundervisningen skriver campingdagbog. Et legetelt i klassen fungerer som læsehjorne. Fælles Måls mål for natur, matematik og kommunikation integreres.',
+      assessmentRubric: [
+        { skill: 'Tælling og pakkelister', emerging: 'tæller 5–8 campinggenstande med støtte', proficient: 'tæller selvstændigt op til 20 genstande og tjekker en pakkeliste korrekt', advanced: 'opretter selv en pakkeliste med tal og genstande for en tur' },
+        { skill: 'Sekvensering af campingprocedurer', emerging: 'ordner 2 trin (pak, slå telt op) med billedstøtte', proficient: 'ordner selvstændigt 3–4 campingtrin i korrekt rækkefølge', advanced: 'ordner 5+ trin og forklarer, hvorfor rækkefølgen er vigtig' },
+        { skill: 'Orientering og kortlæsning', emerging: 'følger en enkel sti på en labyrint med støtte', proficient: 'løser selvstændigt simple labyrinter og skattekort', advanced: 'tegner sit eget kort over campingpladsen med symboler' },
+      ],
     },
     'first-grade': {
       seoTitle: 'Camping-opgaver 1. Klasse | LessonCraftStudio',

@@ -141,6 +141,22 @@ const content: EnrichedThemeContent = {
         { question: 'Kan børnehaveklassebørn lave dinosaur-ordsøgninger?', answer: 'Ja. Start med enkle fire- eller fembogstavsord som klo, knogle og hale i et lille gitter. Efterhånden som selvtilliden vokser, introduceres længere ord som fossil og T-Rex. Ordsøgninger opbygger bogstavgenkendelse, visuel scanning og stavebevidsthed.' },
         { question: 'Hvordan understøtter dinosaur-arbejdsark naturfag i børnehaveklassen?', answer: 'De introducerer klassifikation ved at bede børn om at sortere dinosaurer efter kost eller kropstræk. Samtaler om fossiler og udryddelse lægger grundlaget for naturfags- og geografiundervisning i Fælles Mål for senere klassetrin.' },
       ],
+
+      snippetAnswer: 'Dinosaur-arbejdsark til børnehaveklassen (5–6 år) træner tælling til 20, stoerrelses-sammenligning, tidslinjeforståelse og begyndende læsning med T-rex, triceratops og brachiosaurus. Fascinationen driver læringen. Gratis printbare PDF-arbejdsark på LessonCraftStudio.',
+      uniqueGradeAngle: 'Dinosaurtemaet eksploderer i børnehaveklassen, fordi fem- og seksårige er i den klassiske ”dinosaurintense interesse”-fase — de kan huske komplekse navne, sammenligne stoorrelser og begynde at forstå tid som koncept. Denne dybe fascination er en stærkere læringsmotor end noget andet. Dinosaurnavne træner fonemisk bevidsthed med lange, flerstabelsesord (ty-ran-no-saur-us). Storrelsessammenligning (brachiosaurus vs. compsognathus) introducerer måle- og sammenligningsbegreber. Tidslinjer med dinosaurperioder giver tidlig historisk taenkning. Addition med dinosaurflokke er naturligt motiverende. Fælles Måls mål for natur, matematik og sproglighed mødes.',
+      developmentalMilestones: [
+        { milestone: 'Storrelsessammenligning og ordning (5–6-årige kan ordne tre eller flere genstande efter storrelse)', howWeAddress: 'Dinosaur-storrelsesark, der beder børn ordne dinosaurer fra mindst til storst, træner seriering' },
+        { milestone: 'Tidslig forståelse (forst, så, til sidst — begyndende kronologi)', howWeAddress: 'Enkle dinosaur-tidslinjer introducerer begrebet ”lang tid siden” og historisk sekvensering' },
+        { milestone: 'Avanceret ordforråd (lange, fagordsspecifikke navne)', howWeAddress: 'Dinosaurnavne med 3–5 stavelser giver fonemisk segmenteringstraening med ord, børn elsker at sige' },
+      ],
+      differentiationNotes: 'For børn der har brug for støtte, begræns til 3–4 velkendte dinosaurer (T-rex, triceratops, brontosaurus), hold tælling inden for 10, og brug stoore billeder med tydelige detaljer. For avancerede børnehaveklassebørn tilføjes dinosaur-krydsord, selvstaendig skrivning af dinosaurfakta og flertrinsproblemer med dinosaurflokke.',
+      parentTakeaway: 'Følg barnets dinosaurinteresse — det er en læringsguldgrube. Besøg naturhistorisk museum, læs dinosaurbøger og lad barnet stave dinosaurnavne (god fonemisk traening!). Sammenlign legetøjsdinosaurer efter storrelse. Tæl fossiler i en bog. Denne intense interesse driver læring på tvaers af alle fag.',
+      classroomIntegration: 'Dinosaurtemaet er en af børnehaveklassens mest populaere temauger: matematiktimen bruger dinosaurstørrelses- og tælleark, dansktimen staver dinosaurnavne og skriver faktasætninger, naturfagstimen udforsker fossiler og tidslinjer, og kunsttimen tegner og modellerer dinosaurer. Fælles Måls mål for natur, matematik og sproglig bevidsthed integreres.',
+      assessmentRubric: [
+        { skill: 'Stoorrelsessammenligning og seriering', emerging: 'sammenligner to dinosaurer (storre/mindre) med billedstøtte', proficient: 'ordner selvstaendigt 3–4 dinosaurer fra mindst til storst', advanced: 'ordner 5+ dinosaurer og bruger maaleord som laengere, kortere, tungere' },
+        { skill: 'Tælling og regning med dinosaurer', emerging: 'taeller 1–10 dinosaurer med én-til-én pegen', proficient: 'taeller til 20 og loser additions-/subtraktionsopgaver inden for 10 med dinosaurbilleder', advanced: 'loser mentalt og formulerer egne dinosaurproblemer for klassekammerater' },
+        { skill: 'Dinosaurordforråd og stavning', emerging: 'genkender 2–3 dinosaurnavne med billedstøtte', proficient: 'laeser og staver 4–5 dinosaurnavne selvstaendigt', advanced: 'staver 6+ navne, segmenterer dem i stavelser og skriver dinosaurfakta' },
+      ],
     },
     'first-grade': {
       seoTitle: 'Dinosaurer-opgaver 1. Klasse | LessonCraftStudio',

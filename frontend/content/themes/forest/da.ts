@@ -141,6 +141,22 @@ const content: EnrichedThemeContent = {
         { question: 'Kan børnehaveklassebørn klare skov-ordsøgninger?', answer: 'Ja. Start med korte tre- til fembogstavsord som eg, ræv og bregne i et lille gitter. Efterhånden som selvtilliden vokser, introduceres længere ord som skov og egern i større gitter. Ordsøgninger udvikler bogstavgenkendelse, visuel scanning og stavebevidsthed.' },
         { question: 'Hvordan understøtter skovarbejdsark naturfag i børnehaveklassen?', answer: 'De introducerer klassifikation ved at bede børn om at sortere skovelementer efter kendetegn som levende kontra ikke-levende, plante kontra dyr eller høj kontra kort. Dette opbygger de observations- og kategoriseringsfærdigheder, der underbygger naturfagsstandarder i Fælles Mål for 1. og 2. klasse.' },
       ],
+
+      snippetAnswer: 'Skov-arbejdsark til bornehaveklassen (5–6 år) traener tælling, klassifikation af planter og dyr, saesongforandringer og begyndende naturfaglig observation. Skoven er bornehaveklassens udendoersklasselokale. Gratis printbare PDF-arbejdsark på LessonCraftStudio.',
+      uniqueGradeAngle: 'Skovtemaet er unik for bornehaveklassen, fordi fem- og seksaarige kan gennemfore strukturerede udendoorsaktiviteter — foelge stier, indsamle naturmaterialer systematisk og registrere observationer. Denne parathed til ”udeskole” gor skoven til det perfekte laeringsrum. Klassifikation af skovens dyr (pattedyr, fugle, insekter) og planter (traeer, buske, blomster) giver naturvidenskabelig taenkning. Tælling af aarstidsforandringer (blade på et trae: sommer vs. efteraar) introducerer datasammenligning. Skovord (egetrae, raev, svamp) traener laesefundamentet. Faelles Maals maal for natur/teknik, matematik og udeskole modes direkte.',
+      developmentalMilestones: [
+        { milestone: 'Naturfaglig observation og registrering (5–6-årige kan systematisk observere og notere)', howWeAddress: 'Skov-observationsark med afkrydsningslister for dyr, planter og vejr giver struktur til udendoers laering' },
+        { milestone: 'Årstidsforståelse (genkendelse af forandringer henover aaret)', howWeAddress: 'Aarstids-sammenligningsark med det samme trae i fire arstider opbygger forståelse af cyklisk forandring' },
+        { milestone: 'Klassifikation af levende organismer (dyr og planter i kategorier)', howWeAddress: 'Sorteringsøvelser med skovens dyr (pattedyr/fugle/insekter) og planter (trae/busk/blomst) giver biologisk grundlag' },
+      ],
+      differentiationNotes: 'For born der har brug for stotte, begraens til 4–5 velkendte skovdyr og traeer, brug store billeder med tydelige detaljer, og forenkling af observationsark. For avancerede bornehaveklasseborn tilfojes detaljerede observationsdagboger, foedekaeder (raev spiser mus, mus spiser fro), og selvstaendig skrivning af skovrapporter.',
+      parentTakeaway: 'Gå en skovtur hver uge — det er gratis naturfag. Tael traeer, saml blade og sammenlign dem. Lyt til fugle og raev. Lad barnet foere en skovdagbog med tegninger og korte saetninger. Hvert aarstidsskift i skoven er en lektion i forandring og naturens cyklus.',
+      classroomIntegration: 'Skovtemaet er bornehaveklassens udeskole-fundament: ugentlige skovture med observationsark, naturfagstimen sorterer indsamlede materialer, matematiktimen taeller og sammenligner naturdata, og dansktimen skriver skovdagbog. En aarstidsvaeg i klassen viser skovens forandring. Faelles Maals maal for natur/teknik, matematik og udeskole integreres hele aaret.',
+      assessmentRubric: [
+        { skill: 'Skov-observation og registrering', emerging: 'finder 2–3 elementer på en observationsliste med stotte', proficient: 'gennemfoerer selvstaendigt en observationsliste med 6–8 elementer i skoven', advanced: 'observerer detaljer ud over listen og registrerer egne opdagelser skriftligt' },
+        { skill: 'Årstidsforandringer i skoven', emerging: 'genkender sommer vs. vinter på et trae med billedstotte', proficient: 'beskriver selvstaendigt forandringer i alle fire arstider', advanced: 'forklarer, hvorfor traeer taber blade og forbinder det med temperatur og lys' },
+        { skill: 'Klassifikation af skovens organismer', emerging: 'sorterer 3–4 dyr/planter i to grupper med stotte', proficient: 'sorterer selvstaendigt i 3 kategorier (pattedyr, fugle, insekter) med 6+ eksempler', advanced: 'opretter egne sorteringskriterier og forklarer foedekaeder i skoven' },
+      ],
     },
     'first-grade': {
       seoTitle: 'Skov-opgaver 1. Klasse | LessonCraftStudio',

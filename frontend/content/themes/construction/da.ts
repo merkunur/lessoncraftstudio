@@ -140,6 +140,22 @@ const content: EnrichedThemeContent = {
         { question: 'Hvilke STEM-færdigheder opbygger børnehaveklasse-byggeriarbejdsark?', answer: 'De udvikler ingeniørdesigntænkning gennem byggetegningsaktiviteter, matematisk måling gennem værktøjs- og materialesammenligninger, rumlig forståelse gennem gittermatchning og mønsterarbejde samt materialebevidsthed gennem sortering og klassificering af byggematerialer. Disse oplevelser stemmer overens med ingeniørstandarden i Fælles Mål.' },
         { question: 'Kan byggeriarbejdsark understøtte en børnehaveklasse-samfundsenhed?', answer: 'Ja. Bygningsarbejdere er vigtige samfundshjælpere, og arbejdsark, der viser, hvordan bygninger, veje og broer laves, hjælper børnene med at forstå den infrastruktur, der understøtter deres dagligdag. Aktiviteter, der matcher værktøj til arbejdere og bygninger til deres formål, uddyber samfundsbevidsthed sidelobende med faglige færdigheder.' },
       ],
+
+      snippetAnswer: 'Byggeri-arbejdsark til børnehaveklassen (5–6 år) træner geometriske former, måling, tælling og begyndende regning med kraner, lastbiler og byggerier. Rumlig tænkning styrkes konkret. Gratis printbare PDF-arbejdsark på LessonCraftStudio.',
+      uniqueGradeAngle: 'Byggetemaet rammer børnehaveklassen perfekt, fordi fem- og seksårige kan planlægge, følge tegninger og bygge efter model — færdigheder der kræver den rumlige tænkning og sekvensering, som netop udvikles i denne alder. Hvor førskolebørn stablede klodser frit, folger børnehaveklassebørn byggeplaner og tæller materialer. Geometriske former i byggerier (firkantede vinduer, trekantede tage) gør formgenkendelse funktionel. Måling med uformelle enheder (klodsbredder) introducerer målekoncepter. Addition af byggematerialer (4 mursten plus 3 mursten) er naturligt indlejret. Fælles Måls mål for geometri og problemlosning mødes.',
+      developmentalMilestones: [
+        { milestone: 'Rumlig tænkning og konstruktion (5–6-årige kan bygge efter en plan eller tegning)', howWeAddress: 'Byg-efter-model-ark og symmetriske bygningspuslespil udvikler rumlig visualisering og planligning' },
+        { milestone: 'Formgenkendelse i kontekst (geometriske former i virkelige strukturer)', howWeAddress: 'Find-formen-i-byggeriet-ark forbinder abstrakte geometriformer med konkrete bygningselementer' },
+        { milestone: 'Begyndende måling (uformelle måleenheder)', howWeAddress: 'Måleaktiviteter med klodsbredder og håndlangder introducerer målekoncepter uden lineal' },
+      ],
+      differentiationNotes: 'For børn der har brug for støtte, begræns til tre grundformer (firkant, trekant, cirkel), brug konkrete byggeklodser som supplement, og hold tællingen inden for 10. For avancerede børnehaveklassebørn tilføjes byggetegninger med mål, flertrins additionsopgaver med materialer, og design af egne bygninger.',
+      parentTakeaway: 'Byg med LEGO, klodser eller papkasser og tal om former: ”Hvilken form har vinduet? Taget?” Tæl klodserne i et tårn. Mål bordet med barnets håndflader. Gå forbi en byggeplads og observer maskiner og materialer. Hver byggeleg er geometri i praksis.',
+      classroomIntegration: 'Byggetemaet forbinder børnehaveklassens matematikundervisning med praktisk leg: i byggehjørnet folges konstruktionsark, i matematiktimen arbejdes med form- og tælleark, og i udeområdet bygges med naturmaterialer. Et klasseprojekt om at bygge en modelby integrerer alle fag. Fælles Måls mål for geometri, tælling og samarbejde mødes.',
+      assessmentRubric: [
+        { skill: 'Formgenkendelse i byggerier', emerging: 'identificerer firkant og trekant i bygningsbilleder med støtte', proficient: 'finder selvstændigt 4–5 geometriske former i byggerier og navngiver dem', advanced: 'beskriver forme med sider og hjorner og finder dem i komplekse bygninger' },
+        { skill: 'Måling med uformelle enheder', emerging: 'måler med klodsbredder med voksenstøtte (3–4 enheder)', proficient: 'måler selvstændigt genstande med klodsbredder og noterer resultatet', advanced: 'sammenligner mål (bordet er 8 klodser, stolen er 4 — bordet er dobbelt så langt)' },
+        { skill: 'Addition med byggematerialer', emerging: 'løser 2+3 med konkrete klodser foran sig', proficient: 'løser selvstændigt additionsopgaver inden for 10 med byggematerialebilleder', advanced: 'løser flertrins opgaver (4 mursten + 3 mursten + 2 mursten) mentalt' },
+      ],
     },
     'first-grade': {
       seoTitle: 'Byggeplads-opgaver 1. Klasse | LessonCraftStudio',

@@ -141,6 +141,22 @@ const content: EnrichedThemeContent = {
         { question: 'Bør børnehaveklassebørn lære om primær- og sekundærfarver?', answer: 'Ja, at introducere konceptet om, at visse farver kan blandes for at skabe nye, er passende og engagerende for børnehaveklassebørn. En simpel maleblandingsdemonstration efterfulgt af et matchningsarbejdsark, der forbinder primærpar med deres sekundære resultater, opbygger både videnskabelige observationsfærdigheder og farveordforråd uden at kræve formel kemividen.' },
         { question: 'Hvordan understøtter farvemønstre matematiklæring?', answer: 'Farvemønstre som rød, blå, rød, blå underviser børn i at identificere gentagne enheder og forudsige, hvad der kommer næst, hvilket er fundamentet for algebraisk tænkning. Når børn udvider eller opretter farvemønstre på arbejdsark, øver de det samme analytiske ræsonnement, de senere vil anvende på talmønstre, funktionsregler og variabelrelationer i højere matematik.' },
       ],
+
+      snippetAnswer: 'Farve-arbejdsark til børnehaveklassen (5–6 år) træner farveblanding, mønstre med farver, tælling efter farvegrupper og begyndende skrivning af farveord. Farverne bruges som sorteringsværktøj. Gratis printbare PDF-arbejdsark på LessonCraftStudio.',
+      uniqueGradeAngle: 'Farvetemaet tager et kvantespring i børnehaveklassen, fordi fem- og seksårige går fra at kende farver til at bruge dem analytisk — farveblandingslogik (rod + gul = orange), mønstergenkendelse med farvesekvenser og sortering af data efter farvegrupper. Hvor førskolebørn navngav basisfarver, lærer børnehaveklassebørn nuancer (lys blå, mork gron) og skriver farveord selvstændigt. Farvediagrammer med tælling (”hvor mange rode biler?”) introducerer dataopsamling. Fælles Måls mål for mønstre, kreativitet og begyndende dataforståelse understøttes.',
+      developmentalMilestones: [
+        { milestone: 'Farveblanding og logisk tænkning (5–6-årige forstår årsag-virkning i farveblandinger)', howWeAddress: 'Farveblandingsark der viser rod+gul=orange opbygger logisk forudsigelse og eksperimentel tænkning' },
+        { milestone: 'Mønstergenkendelse med farver (fortsættelse af farvemønstre)', howWeAddress: 'Farvemønster-forlængelsesark med AB, ABB og ABC-sekvenser træner mønstretænkning visuelt' },
+        { milestone: 'Dataopsamling og kategorisering (tælling i farvegrupper)', howWeAddress: 'Tæl-og-sorter-ark, der beder børn om at tælle genstande efter farve og registrere resultatet, introducerer datalogik' },
+      ],
+      differentiationNotes: 'For børn der har brug for støtte, hold fokus på de seks basisfarver, brug AB-mønstre alene, og tilbyd farvekort som fysisk reference. For avancerede børnehaveklassebørn introduceres farveblandingseksperimenter, ABC-mønstre med nuancer, og skrivning af farvesætninger (”Himlen er blå”).',
+      parentTakeaway: 'Farver er overalt — brug dem aktivt. Sorter M&Ms efter farve og tæl hver gruppe. Bland vandfarver og gæt, hvilken farve der opstår. Find mønstre i tøjet: stribet trøje = farvemønster! Skriv farveord på farvede post-its og klæb dem på matchende genstande.',
+      classroomIntegration: 'Farvetemaet integreres i hele børnehaveklassens hverdag: matematiktimen bruger farvediagrammer og mønsterøvelser, kunsttimen eksperimenterer med farveblanding, dansktimen skriver farveord, og naturvidenskab udforsker farver i naturen. Fælles Måls mål for mønstre, kreativitet og kommunikation integreres.',
+      assessmentRubric: [
+        { skill: 'Farveblandingslogik', emerging: 'genkender resultatet af én blanding (rod+gul) med støtte', proficient: 'forudsiger selvstændigt resultatet af tre primærblandinger korrekt', advanced: 'forudsiger sekundærblandinger og forklarer blandingslogikken mundtligt' },
+        { skill: 'Farvemønstre', emerging: 'gentager et simpelt AB-mønster med voksenstøtte', proficient: 'fortsætter selvstændigt AB- og ABB-mønstre korrekt', advanced: 'fortsætter ABC-mønstre og opretter egne komplekse farvemønstre' },
+        { skill: 'Farvebaseret dataopsamling', emerging: 'tæller genstande i 2 farvegrupper med støtte', proficient: 'sorterer selvstændigt i 4–5 farvegrupper og registrerer tallene korrekt', advanced: 'opretter egne farvediagrammer og sammenligner grupper (flest/færrest)' },
+      ],
     },
     'first-grade': {
       seoTitle: 'Farver-opgaver 1. Klasse | LessonCraftStudio',

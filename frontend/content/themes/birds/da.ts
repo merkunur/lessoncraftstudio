@@ -140,6 +140,22 @@ const content: EnrichedThemeContent = {
         { question: 'Kan børnehaveklassebørn klare fugletematiske ordsøgninger?', answer: 'Ja. Start med korte tre- til fembogstavsnavne som ugle, due og krage i et lille gitter. Efterhånden som selvtilliden vokser, øges gitterstørrelsen og introduceres længere ord som ørn og rødkælk. Ordsøgninger udvikler bogstavgenkendelse, visuel skanning og tidlige stavefærdigheder.' },
         { question: 'Hvordan understøtter fuglearbejdsark naturfag i børnehaveklassen?', answer: 'De introducerer klassifikation ved at bede børn om at sortere fugle efter næbtype, levested eller kost. Arbejdsark om redebygning og æg forbinder til mål om livscyklusser. Disse aktiviteter opbygger de naturvidenskabelige observations- og kategoriseringsfærdigheder, som formel naturfagsundervisning i 1. klasse vil forvente.' },
       ],
+
+      snippetAnswer: 'Fugle-arbejdsark til børnehaveklassen (5–6 år) træner tælling til 20, mønstergenkendelse og begyndende læsning med danske fugle som solsort, musvit og rødkælk. Naturfagsklassifikation integreres naturligt. Gratis printbare PDF-arbejdsark på LessonCraftStudio.',
+      uniqueGradeAngle: 'Fugletemaet er ideelt for børnehaveklassen, fordi fem- og seksårige for første gang kan observere systematisk — de kan sidde stille, tælle fugle ved foderbrættet og registrere resultaterne. Denne evne til fokuseret observation er ny sammenlignet med førskolens spontane udbrud. Fugle tilbyder naturlig addition (tre musvitter plus to solsorte), mønstergenkendelse (fjerdragt, næbform) og sekvensering (livscyklus fra æg til voksen). Fuglenavne på 3–6 bogstaver er perfekte til begyndende læsning. Fælles Måls mål for naturfaglig observation og registrering understøttes direkte.',
+      developmentalMilestones: [
+        { milestone: 'Systematisk observation (5–6-årige udvikler evnen til fokuseret, målrettet iagttagelse)', howWeAddress: 'Fugleoptions- og tælleark, der kræver at børn scanner et billede systematisk, træner observationsfærdigheder' },
+        { milestone: 'Mønstergenkendelse (genkendelse af gentagende strukturer)', howWeAddress: 'Fjerdragt-mønsterark og fuglesekvenser opbygger den mønstertænkning, der er grundlag for matematik' },
+        { milestone: 'Livscyklusforståelse (æg → unge → voksen fugl)', howWeAddress: 'Sekvenseringsøvelser med fuglens livscyklus i tre-fire trin opbygger tidslig og biologisk forståelse' },
+      ],
+      differentiationNotes: 'For børn der har brug for støtte, fokusér på tre velkendte fugle (solsort, due, måge), brug fuglebilleder med tydelige kendetegn, og hold tællingen inden for 10. For avancerede børnehaveklassebørn introduceres trækfugle vs. standfugle, fuglekrydsord og selvstændig skrivning af fuglefakta.',
+      parentTakeaway: 'Sæt et foderbræt op og tæl fugle sammen — det er gratis matematik og naturfag. Lad barnet føre en enkel fugledagbog: ”Jeg så 3 musvitter.” Besøg parken og lyt efter fuglesang. Brug arbejdsarkene som forberedelse og opfølgning på ude-observationer.',
+      classroomIntegration: 'Fugletemaet følger årstiderne i børnehaveklassen: om vinteren tælles fugle ved foderbrættet, om foråret observeres reder og æg, om sommeren lyttes til fuglesang. Ved læringsstationer arbejdes med tælle-, sorterings- og ordsporingsark. Matematiktimen bruger fugle til addition/subtraktion. Fælles Måls mål for natur/teknik og matematik integreres.',
+      assessmentRubric: [
+        { skill: 'Fuglegenkendelse og observation', emerging: 'genkender 2–3 almindelige danske fugle med billedstøtte', proficient: 'genkender selvstændigt 5–6 fugle og beskriver deres kendetegn', advanced: 'genkender 8+ fugle, kender deres navne og simple fakta (trækfugl/standfugl)' },
+        { skill: 'Tælling og registrering (fuglekontekst)', emerging: 'tæller 1–10 fugle i et billede med støtte', proficient: 'tæller selvstændigt op til 20 fugle og noterer resultatet korrekt', advanced: 'tæller, sammenligner og løser additionsopgaver med fugletællinger' },
+        { skill: 'Fugle-livscyklus', emerging: 'ordner 2 trin (æg, fugl) med billedstøtte', proficient: 'ordner selvstændigt 3 livscyklusfaser i korrekt rækkefølge', advanced: 'ordner 4 faser og forklarer, hvad der sker i hvert trin med egne ord' },
+      ],
     },
     'first-grade': {
       seoTitle: 'Fugle-opgaver 1. Klasse | LessonCraftStudio',

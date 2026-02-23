@@ -140,6 +140,22 @@ const content: EnrichedThemeContent = {
         { question: 'Hvordan underviser kropsarbejdsark børnehaveklassebørn i de fem sanser?', answer: 'Sorterings- og matchopgaver beder børn om at forbinde oplevelser med det rigtige sanseorgan. Arbejdsark kan vise et billede af en klokke og spørge, hvilken kropsdel hjælper dig med at høre den, og dermed opbygge den logiske forbindelse mellem sanseorganer og deres funktioner gennem gentagen, engagerende øvelse.' },
         { question: 'Kan kropsarbejdsark understøtte sundhedsundervisning i børnehaveklassen?', answer: 'Ja. De styrker hygiejnerutiner ved at mærke de kropsdele, der er involveret i håndvask, tandbørstning og badning. Når børn forstår ordforrådet for deres egen krop, bliver sundhedsundervisningen mere konkret og personligt meningsfuld, hvilket forbedrer både vidensfastholdelse og adfærdsmæssig opfølgning.' },
       ],
+
+      snippetAnswer: 'Krop-arbejdsark til børnehaveklassen (5–6 år) træner kropsdele, tælling (fingre, tæer), symmetri og begyndende sundhedsforståelse. Børn lærer at navngive og skrive kropsord. Gratis printbare PDF-arbejdsark på LessonCraftStudio.',
+      uniqueGradeAngle: 'Kropstemaet får en ny dimension i børnehaveklassen, fordi fem- og seksårige begynder at forstå kroppen som et system — ikke blot individuelle dele, men hvordan de arbejder sammen. Hvor førskolebørn navngav hoved, arme og ben, kan børnehaveklassebørn tælle ledpar (to knæ, to albuer), forstå symmetri (venstre og højre hånd) og relatere kropsdele til funktion (orer til at høre, øjne til at se). Tælling af fingre og tæer i grupper af fem og ti støtter tiertalsforståelse. Skrivning af kropsord med 3–5 bogstaver træner læsefundamentet. Fælles Måls mål for krop og sundhed mødes.',
+      developmentalMilestones: [
+        { milestone: 'Kropsbevidsthed og funktion (5–6-årige forstår, at kropsdele har specifikke funktioner)', howWeAddress: 'Matchningsark der forbinder kropsdele med sanser/funktioner opbygger biologisk grundforståelse' },
+        { milestone: 'Symmetriforståelse (genkendelse af venstre/højre og parrede kropsdele)', howWeAddress: 'Symmetriaktiviteter med kropssilhuetter, der skal færdiggores på begge sider, træner rumlig tænkning' },
+        { milestone: 'Tælling i grupper af fem og ti (fingre og tæer som naturlige tælleenheder)', howWeAddress: 'Tælling af fingre, tæer og andre kropsdele i grupper opbygger forståelsen af femtal og tieral' },
+      ],
+      differentiationNotes: 'For børn der har brug for støtte, brug barnets egen krop som reference (rør ved din næse, peg på din albue), begræns til de mest basale dele, og hold tællingen konkret. For avancerede børnehaveklassebørn introduceres organnavne, skelettet og enkle sundhedsregler med tilhørende skriveopgaver.',
+      parentTakeaway: 'Kroppen er altid til stede som læringsredskab. Tæl fingre og tæer ved sengetid, navngiv kropsdele under badet, og leg ”Simon siger: rør ved dine knæ” for at øve ordforråd og instruktioner. Tal om sund kost og bevægelse i hverdagen — barnet lærer, at kroppen er noget, man passer på.',
+      classroomIntegration: 'Kropstemaet integreres i børnehaveklassens sundhedsundervisning: i samlingen synges kropssange, ved læringsstationer arbejdes med navngivnings- og tælleark, i idrætstimen bevæges alle kropsdele bevidst, og i kunsthjørnet tegnes kropssilhuetter i fuld storrelse. Fælles Måls mål for sundhed, krop og bevægelse understøttes.',
+      assessmentRubric: [
+        { skill: 'Kropsdele og funktioner', emerging: 'navngiver 5–8 basale kropsdele med billedstøtte', proficient: 'navngiver selvstændigt 12–15 kropsdele og forbinder dem med funktioner', advanced: 'forklarer, hvorfor vi har to øjne/ører/hænder og kender enkle organnavne' },
+        { skill: 'Symmetri med kroppen', emerging: 'identificerer parrede kropsdele (to hænder) med støtte', proficient: 'færdiggør selvstændigt en symmetrisk kropssilhuet korrekt', advanced: 'forklarer symmetribegrebbet og finder det i andre sammenhænge' },
+        { skill: 'Tælling af kropsdele', emerging: 'tæller fingre på én hånd (1–5) med støtte', proficient: 'tæller alle fingre og tæer (10+10) og skriver tallene korrekt', advanced: 'bruger hænder som tællestrategier for addition inden for 10' },
+      ],
     },
     'first-grade': {
       seoTitle: 'Krop-opgaver 1. Klasse | LessonCraftStudio',

@@ -140,6 +140,22 @@ const content: EnrichedThemeContent = {
         { question: 'Hvordan udvikler fødselsdagsarbejdsark skrivefærdigheder i børnehaveklassen?', answer: 'De introducerer funktionel skrivning gennem festinvitationer, fødselsdagskort og takkekort. Børn øver sig i at skrive navne, datoer, korte beskeder og hilsener og opbygger håndskrift, stavning og forståelsen af, at skrivning tjener rigtige sociale formål som at kommunikere med venner og familie.' },
         { question: 'Kan fødselsdagsarbejdsark hjælpe generte børnehaveklassebørn med at deltage mere?', answer: 'Ja. Fordi hvert barn har en fødselsdag, giver dette tema selv stille børn en chance for at være eksperten og centrum for opmærksomheden. At tale om deres egen fødselsdag, deres alder og deres festønsker giver et komfortabelt udgangspunkt for klassedeltagelse, der ikke kræver fagligt præstationspres.' },
       ],
+
+      snippetAnswer: 'Fødselsdag-arbejdsark til børnehaveklassen (5–6 år) kombinerer tælling til 20, addition inden for 10 og begyndende skrivning med festlige motiver som kager, gaver og balloner. Tallene får personlig betydning. Gratis printbare PDF-arbejdsark på LessonCraftStudio.',
+      uniqueGradeAngle: 'Fødselsdagstemaet har en særlig kraft i børnehaveklassen, fordi fem- og seksårige for første gang forstår aldersbegrebet — de er stolte af at være ”store” og tæller iværigt ned til næste fødselsdag. Denne personlige forbindelse gør matematik meningsfuld: tælling af lys på kagen, addition af gaver, og subtraktion af balloner, der flyver væk. Børnehaveklassebørn kan skrive invitationer med enkle sætninger og tal, hvilket integrerer skrivning i festkonteksten. Fælles Måls mål for tal og kommunikation mødes i ét motiverende tema.',
+      developmentalMilestones: [
+        { milestone: 'Talforståelse op til 20 (5–6-årige mestrer tælling med stigende sikkerhed)', howWeAddress: 'Tælleaktiviteter med fødselsdagslys, gaver og gæster fra 1 til 20 gør tælling personligt meningsfuld' },
+        { milestone: 'Addition og subtraktion inden for 10 (begyndende regning)', howWeAddress: 'Festscener med ”5 balloner plus 3 balloner” og ”8 stykker kage minus 2 der bliver spist” giver konkret regning' },
+        { milestone: 'Funktionel skrivning (børn skriver med et formål)', howWeAddress: 'Skrivning af fødselsdagsinvitationer og ønskesedler giver autentisk skrivetræning med personligt engagement' },
+      ],
+      differentiationNotes: 'For børn der har brug for støtte, hold tællingen inden for 10, brug én-til-én pegen med konkrete lys/balloner, og tilbyd skriveskabeloner med prikkede bogstaver. For avancerede børnehaveklassebørn tilføjes flertrinsproblemer (6 gæster plus 4 gæster, 3 kager med 5 lys hver) og selvstændig skrivning af festbeskrivelser.',
+      parentTakeaway: 'Brug barnets egen fødselsdag som læringsanledning: tæl lys på kagen, skriv gæsteliste sammen, fordel slik ligeligt og tæl gaver. Læsning af fødselsdagskort træner bogstavgenkendelse. Hvert fødselsdag i familien er en minimatematiklektion — og barnet elsker det, fordi det handler om dem.',
+      classroomIntegration: 'Fødselsdagstemaet bruges til fejring af klassens fødselsdage med læringsindhold: fødselsdagsbarnet får et særligt matematikark, klassen tæller og skriver føllesedler, og fødselsdagskalenderen bruges til månedstal og rækkefølge. Fælles Måls mål for tal, kommunikation og sociale færdigheder integreres i fejringen.',
+      assessmentRubric: [
+        { skill: 'Tælling til 20 (fødselsdagskontekst)', emerging: 'tæller 1–10 fødselsdagsgenstande med støtte', proficient: 'tæller selvstændigt op til 20 og skriver de tilsvarende tal korrekt', advanced: 'tæller over 20 og sammenligner mængder (flere lys end gaver)' },
+        { skill: 'Addition/subtraktion med festtema', emerging: 'løser additionsopgaver inden for 5 med konkret støtte', proficient: 'løser selvstændigt additions- og subtraktionsopgaver inden for 10', advanced: 'løser flertrinsproblemer og formulerer egne regnestykker om fester' },
+        { skill: 'Funktionel skrivning (invitationer/kort)', emerging: 'kopierer enkle ord fra model (Tillykke, navn)', proficient: 'skriver selvstændigt korte sætninger på kort og invitationer', advanced: 'skriver flere sætninger med korrekt bogstavering og kreativt indhold' },
+      ],
     },
     'first-grade': {
       seoTitle: 'Fødselsdag-opgaver 1. Klasse | LessonCraftStudio',

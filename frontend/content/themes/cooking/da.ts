@@ -140,6 +140,22 @@ const content: EnrichedThemeContent = {
         { question: 'Hvordan udvikler madlavnings-arbejdsark læsefærdigheder i børnehaveklassen?', answer: 'Opskrifter er procedurel tekst, en nøglegenre inden for læsning, som Fælles Mål kræver. Madlavnings-arbejdsark introducerer børn til nummererede trinformater, ingredienslister og sekvensord som først, derefter og til sidst. Ordsøgninger opbygger ordgenkendelse med køkkenordforråd, og forholdsords-aktiviteter styrker forståelsen af rumligt sprog brugt i instruktioner.' },
         { question: 'Kan madlavnings-arbejdsark bruges sammen med en klassens madlavningsaktivitet?', answer: 'Absolut, og denne kombination er meget effektiv. Gennemfør arbejdsarket først for at opbygge ordforråd og procedurel forståelse, og følg derefter op med en faktisk simpel opskrift. Børn der har øvet sekventering på papir, tilgår ægte madlavning med større selvtillid og forståelse, hvilket gør den praktiske oplevelse både sikrere og mere lærerig.' },
       ],
+
+      snippetAnswer: 'Madlavnings-arbejdsark til børnehaveklassen (5–6 år) træner måling, tælling af ingredienser, sekvensering af opskriftstrin og begyndende læsning af opskrifter. Konkret matematik i køkkenet. Gratis printbare PDF-arbejdsark på LessonCraftStudio.',
+      uniqueGradeAngle: 'Madlavningstemaet blomstrer i børnehaveklassen, fordi fem- og seksårige kan folge flertrinsinstruktioner, måle ingredienser og begynde at læse enkle opskrifter — en kombination af færdigheder, der gor køkkenet til et rigtigt læringsvaerksted. Hvor førskolebørn rorte og smagte, forstaar børnehaveklassebørn måleenheder (en kop mel, to deciliter malk), sekvensering (forst æg, så mel, til sidst sukker) og grundlaeggende brøkbegreber (en halv banan). Tælling af ingredienser og portioner giver funktionel matematik. Opskriftlaesning introducerer proceduretekst. Fælles Måls mål for praktisk matematik og læsning mødes.',
+      developmentalMilestones: [
+        { milestone: 'Måleforståelse (5–6-årige begynder at forstå måleenheder)', howWeAddress: 'Opskriftaktiviteter med kopper og skeer som måleenheder gør måling konkret og meningsfuld' },
+        { milestone: 'Sekvensering af flertrinsprocedurer (3–5 trin i rækkefølge)', howWeAddress: 'Trin-for-trin opskriftsark, der kræver korrekt rækkefølge, træner sekvenseringsevnen med autentisk indhold' },
+        { milestone: 'Begyndende brøkforståelse (halv, kvart med mad)', howWeAddress: 'Delingsøvelser med pizza, kage og frugt introducerer brøkbegreber i en velkende kontekst' },
+      ],
+      differentiationNotes: 'For børn der har brug for støtte, forenkles opskrifter til 2–3 trin med store billeder, tælling holdes inden for 10, og måling bruger kun hele enheder (1 kop, 2 skeer). For avancerede børnehaveklassebørn tilføjes opskrifter med 5+ trin, halvering og fordobling af ingredienser, og selvstændig opskriftskrivning.',
+      parentTakeaway: 'Bag sammen mindst én gang om ugen. Lad barnet måle ingredienser: ”two kopper mel, tre æg.” Tæl portioner sammen. Læs opskriften højt og lad barnet folge trinene. Del en pizza i halvdele og fjerdedele. Køkkenet er det mest naturlige matematik- og læselokale i hjemmet.',
+      classroomIntegration: 'Madlavningstemaet integreres i børnehaveklassens praktisk-musiske timer: bagning med opskriftsark, matematiktime med målings- og tælleøvelser, dansktime med opskriftlæsning og -skrivning. Et klassekøkken med ugentlige bageaktiviteter forbinder alle fag. Fælles Måls mål for matematik, læsning og praktiske færdigheder mødes.',
+      assessmentRubric: [
+        { skill: 'Måling med køkkenenheder', emerging: 'måler med én enhed (kop) med voksenstøtte og spørger om rækkefølge', proficient: 'måler selvstændigt med kopper og skeer og folger måleangivelser korrekt', advanced: 'forstår halvering/fordobling og vælger korrekt målevaerktøj selvstændigt' },
+        { skill: 'Opskriftsekvensering', emerging: 'ordner 2–3 opskrifttrin med billedstøtte', proficient: 'ordner selvstændigt 4–5 trin i korrekt rækkefølge', advanced: 'folger en hel opskrift selv og forklarer, hvorfor rækkefølgen er vigtig' },
+        { skill: 'Grundlæggende brøkforståelse', emerging: 'genkender halvdele med konkrete genstande (halv pizza) med støtte', proficient: 'identificerer selvstændigt halvdele og fjerdedele i madkontekst', advanced: 'deler genstande i tredjedele og sammenligner storrelser (halvdel > fjerdedel)' },
+      ],
     },
     'first-grade': {
       seoTitle: 'Madlavning-opgaver 1. Klasse | LessonCraftStudio',

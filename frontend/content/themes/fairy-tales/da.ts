@@ -140,6 +140,22 @@ const content: EnrichedThemeContent = {
         { question: 'Kan eventyr-matematikarbejdsark opfylde matematikstandarderne for børnehaveklassen?', answer: 'Ja. Tælling af guldmønter, addition af magiske genstande og sammenligning af grupper af eventyrobjekter dækker tællings- og kardinalitetsstandarder, operationer og algebraisk tænkning samt målings- og databegreber – alt inden for en narrativ kontekst, der fastholder engagementet.' },
         { question: 'Hvordan udvikler eventyr-arbejdsark skriveevner i børnehaveklassen?', answer: 'De giver anledning til at tegne og benævne eventyrscener, spore og kopiere figurnavne og udfylde sætningsrammer som prinsessen gik hen til det tomme felt. Disse stilladserede skriveopgaver opbygger håndskriftsmotorik, stavningsbevidsthed og sætningskonstruktion passende for børnehaveklasseniveauet.' },
       ],
+
+      snippetAnswer: 'Eventyr-arbejdsark til børnehaveklassen (5–6 år) træner narrativ forståelse, sekvensering af handlingsforlob, ordforråd og begyndende læsning med klassiske eventyr. Børn laerer at genfortaelle og skrive. Gratis printbare PDF-arbejdsark på LessonCraftStudio.',
+      uniqueGradeAngle: 'Eventyrtemaet får en afgaesende faglig dimension i børnehaveklassen, fordi fem- og seksårige for forste gang kan forstå narrative strukturer — begyndelse, midte og slutning — og genfortaelle historier i logisk raekkefolge. Hvor forskolebørn lyttede til eventyr, analyserer børnehaveklassebørn dem: hvem er hovedpersonen, hvad er problemet, og hvordan løses det? Eventyrord (trold, prinsesse, slot, skov) udvider ordforrådet. Sekvensering af eventyrhandlinger i 4–6 trin træner kronologisk taenkning. Skrivning af egne eventyrslutninger introducerer kreativ skrivning. Fælles Måls mål for laesning, narrativ kompetence og kreativitet mødes.',
+      developmentalMilestones: [
+        { milestone: 'Narrativ forståelse (5–6-årige forstår historiers struktur: begyndelse, midte, slutning)', howWeAddress: 'Eventyr-sekvenseringsøvelser i 4–6 trin opbygger forståelsen af narrative strukturer med velkendte historier' },
+        { milestone: 'Genfortaelling (evnen til at genffortaelle en historie i egen ord)', howWeAddress: 'Billedbaserede genffortællingsark med nøglescener giver struktur til mundtlig og skriftlig genfortaelling' },
+        { milestone: 'Karakterforståelse (genkendelse af hovedperson, skurk og hjaelper)', howWeAddress: 'Karakter-matchningsark forbinder eventyrfigurer med deres roller og egenskaber' },
+      ],
+      differentiationNotes: 'For børn der har brug for støtte, brug velkendte eventyr (De Tre Små Grise, Rodhætte) med 3–4 sekvensbilleder og enkel genffortaelling. For avancerede børnehaveklassebørn tilføjes ukendte eventyr, 6-trins sekvensering, kreativ skrivning af alternative slutninger og karakteranalyse.',
+      parentTakeaway: 'Laes et eventyr hvert aften og stil spørgsmål: ”hvem er den gode? Hvad var problemet? Hvad ville du have gjort?” Lad barnet genffortælle historien næste dag. Leg eventyret med dukker eller krammedyr. Eventyr opbygger den narrative tænkning, der er grundlag for både laesning og skrivning.',
+      classroomIntegration: 'Eventyrtemaet er en baerebjaelke i børnehaveklassens danskundervisning: ugentlige eventyrlaesninger med tilhorende sekvenserings- og ordforrådsark, dramatisering i rollelegehjørnet, kreativ skrivning af eventyrslutninger, og kunsttimen illustrerer nøglescener. Fælles Måls mål for laesning, skrivning og mundtlig fremstilling understøttes.',
+      assessmentRubric: [
+        { skill: 'Narrativ sekvensering', emerging: 'ordner 2–3 eventyrscener med billedstøtte', proficient: 'ordner selvstændigt 4–5 scener i korrekt raekkefolge og genffortæller handlingen', advanced: 'ordner 6+ scener, identificerer begyndelse/midte/slutning og tilføjer detaljer' },
+        { skill: 'Eventyrordforråd', emerging: 'genkender 3–4 eventyrord (trold, prinsesse, slot) med billedstøtte', proficient: 'laeser og bruger 6–8 eventyrord selvstændigt i genffortælling', advanced: 'bruger 10+ eventyrord i egne sætninger og forklarer karakterernes roller' },
+        { skill: 'Kreativ fortælling og skrivning', emerging: 'afslutter en saetning om et eventyr med voksenstøtte', proficient: 'skriver selvstændigt 2–3 saetninger som alternativ slutning på et eventyr', advanced: 'skriver en hel kort eventyrhistorie med begyndelse, problem og losning' },
+      ],
     },
     'first-grade': {
       seoTitle: 'Eventyr-opgaver 1. Klasse | LessonCraftStudio',

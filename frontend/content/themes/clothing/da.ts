@@ -141,6 +141,22 @@ const content: EnrichedThemeContent = {
         { question: 'Hvordan opbygger tøjarbejdsark beskrivende ordforråd?', answer: 'Tøj beskrives med flere egenskaber samtidig: en stor, rød, ulden vinterfrakke bruger størrelses-, farve-, materiale- og sæsonord i en enkelt frase. Arbejdsark der beder børn om at beskrive, sortere og matche beklædningsgenstande, opbygger naturligt de flertillægsordsbeskrivende sprogfærdigheder, der understøtter både skriveudvikling og videnskabelig observation.' },
         { question: 'Kan tøjarbejdsark adressere kulturel mangfoldighed?', answer: 'Ja, arbejdsark med traditionelle beklædningsgenstande fra forskellige kulturer, som kimonoer, sarier, sombreroer og kilts, introducerer børn til globale tøjtraditioner, mens de styrker de samme sorterings- og ordforrådsevner. Denne tilgang opbygger kulturel bevidsthed og respekt, mens den viser, at behovet for tøj er universelt, selv om stilene varierer smukt.' },
       ],
+
+      snippetAnswer: 'Tøj-arbejdsark til børnehaveklassen (5–6 år) træner sortering, tælling og begyndende læsning med dagligdags tøjemner. Børn klassificerer efter årstid, funktion og materiale. Gratis printbare PDF-arbejdsark på LessonCraftStudio.',
+      uniqueGradeAngle: 'Tøjtemaet får ny dybde i børnehaveklassen, fordi fem- og seksårige klæder sig selv på og forventes at vælge passende tøj til vejret — en daglig beslutning, der kræver klassifikation og logisk tænkning. Hvor førskolebørn matchede tøj med farver, sorterer børnehaveklassebørn efter funktion (årstid, indendørs/udendørs) og materiale. Tælling af tøjemner i en garderobe giver funktionel matematik. Skrivning af tøjord (sko, hat, jakke) træner læsefundamentet med hverdagsord. Prisskilte på tøj introducerer penge og tal i kontekst. Fælles Måls mål for selvstændighed og hverdagsforståelse understøttes.',
+      developmentalMilestones: [
+        { milestone: 'Selvstændig påklædning og valg (5–6-årige vaulger tøj baseret på vejr og aktivitet)', howWeAddress: 'Vejr-tøj-matchningsark opbygger logisk tænkning med daglige beslutninger som udgangspunkt' },
+        { milestone: 'Klassifikation efter flere kriterier (årstid + funktion)', howWeAddress: 'Sorteringsark der grupperer tøj efter både årstid og type udfordrer todimensionel tænkning' },
+        { milestone: 'Hverdagsord og begyndende læsning (tøjord er blandt de første læseord)', howWeAddress: 'Ord-billede-matchning og ordsporing med tøjord giver læsetræning med personligt relevante ord' },
+      ],
+      differentiationNotes: 'For børn der har brug for støtte, begræns til 5–6 basale tøjemner (bukser, troje, sko), brug barnets eget tøj som supplement, og sorter kun efter én egenskab ad gangen. For avancerede børnehaveklassebørn tilføjes prisskilte med addition, garderobeinventar med tælling over 20, og selvstændig skrivning af tøjlister.',
+      parentTakeaway: 'Gør morgenklædningen til et læringsritual: ”Hvilket tøj passer til vejret i dag?” Tæl sokker, når de lægges sammen (parvis = tidlig multiplikation!). Lad barnet sortere vasketoj efter farve eller person. Hvert tøjemne er et læseord — læs etiketter sammen.',
+      classroomIntegration: 'Tøjtemaet integreres i børnehaveklassens hverdagsrutiner: garderobesituationen bruges til tælling og navngivning, temaugen om årstider inkluderer tøjsortering, og en butikleg med tøj og prisskilte forbinder matematik med rollespil. Fælles Måls mål for personlig udvikling, matematik og kommunikation understøttes.',
+      assessmentRubric: [
+        { skill: 'Tøjklassifikation', emerging: 'sorterer tøj i to grupper efter én egenskab (sommer/vinter) med støtte', proficient: 'sorterer selvstændigt efter to egenskaber (årstid og type) og forklarer valget', advanced: 'opretter egne sorteringskriterier og løser vejr-tøj-matchning fejlfrit' },
+        { skill: 'Tøjordforråd og læsning', emerging: 'genkender 3–4 tøjord med billedstøtte', proficient: 'læser selvstændigt 8–10 tøjord og matcher dem med billeder', advanced: 'læser og skriver 12+ tøjord og bruger dem i korte sætninger' },
+        { skill: 'Tælling og matematik med tøj', emerging: 'tæller 5–8 tøjemner med støtte', proficient: 'tæller selvstændigt op til 20 og løser additionsopgaver med tøjpriser', advanced: 'løser flertrinsproblemer (3 bojer + 4 bukser = hvor mange tøjemner?)' },
+      ],
     },
     'first-grade': {
       seoTitle: 'Tøj-opgaver 1. Klasse | LessonCraftStudio',

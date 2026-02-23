@@ -103,6 +103,22 @@ const content: EnrichedThemeContent = {
         { question: 'Hvordan introducerer robotarbejdsark STEM til førskolebørn?', answer: 'De opbygger de grundlæggende færdigheder som STEM-læring kræver: mønstergenkendelse gennem tandhjulssekvenser, rumlig ræsonnement gennem matchnings- og skyggeaktiviteter, formidentifikation gennem geometriske robotdesigns og sekventiel tænkning gennem enkle trinvise farvnings- og sporingsopgaver.' },
         { question: 'Kan robotarbejdsark hjælpe førskolebørn med at lære former?', answer: 'Absolut. Robotter er bygget af grundlæggende geometriske former, hvilket gør enhver robotillustration til en naturlig formgenkendelsesøvelse. Børn identificerer cirkler til øjne, rektangler til kroppe og firkanter til knapper uden at have brug for separate formarbejdsark, fordi formerne er indlejret i en figur de finder spændende.' },
       ],
+
+      snippetAnswer: 'Robot-arbejdsark til førskolen (3–4 år) bruger venlige robotter med firkantede kroppe og runde hoveder til formgenkendelse, tælling og farvelægning. Teknologifascinationen driver dybt engagement. Gratis printbare PDF-arbejdsark på LessonCraftStudio.',
+      uniqueGradeAngle: 'Robottemaet er unikt velegnet til førskolebørn, fordi tre- og fireårige fascineres af robotternes simple former — firkantede kroppe, runde hoveder, rektangulære arme — der gør dem til de perfekte redskaber for formgenkendelse. Robotbilleder er i virkeligheden geometri i forklodning. Tælling af knapper, lys og antennedele giver naturlige matematikøvelser. Matchning af robotdele med former (cirkel-hoved, firkant-krop) opbygger visuel analyse. Farvelægning af robotter med klare konturer træner finmotorik. Fælles Måls mål for kreativitet, nysgerrighed og tidlig teknologiforståelse understøttes.',
+      developmentalMilestones: [
+        { milestone: 'Formgenkendelse (3–4-årige lærer at identificere og navngive grundlæggende former)', howWeAddress: 'Robotfigurer sammensat af geometriske former gør formgenkendelse til en legende aktivitet' },
+        { milestone: 'Tælling af detaljer (små elementer som knapper og lys)', howWeAddress: 'Tælleaktiviteter med robotknapper, antenner og hjul giver visuelt tydelig matematik' },
+        { milestone: 'Kreativ konstruktion (førskolebørn begynder at bygge figurer af former)', howWeAddress: 'Byg-en-robot-aktiviteter, hvor børn sammensætter geometriske former til robotter, styrker rumlig tænkning' },
+      ],
+      differentiationNotes: 'For førskolebørn med behov for støtte, fokusér på simple robotter med få former (cirkel, firkant), brug fysiske formklodser som supplement, og lad barnet bygge sin robot med to eller tre dele. For avancerede førskolebørn tilføj flere formtyper (trekant, rektangel), introducér symmetri i robotdesign og lad dem tegne deres egen robot.',
+      parentTakeaway: 'Robotter er det perfekte formtema derhjemme. Byg robotter af papkasser og toilet-rullepapirrrør — tal om formerne: "Kroppen er en firkant, hovedet er en cirkel." Brug formklodser til at lave robotfigurer. Peg på former i hverdagen: "Døren er et rektangel, ligesom robottens arm." At forbinde former med kendte genstande gør geometri sjovt og konkret.',
+      classroomIntegration: 'Robottemaet integreres i førskolens formundervisning: i samlingen introduceres former gennem robotbilleder, ved læringsstationer arbejdes med form- og tælleark, i kunsthjørnet bygges robotter af genbrugsmaterialer, og i byggehjørnet konstrueres robotter af klodser. Fælles Måls mål for kreativitet, matematik og teknologiforståelse understøttes.',
+      assessmentRubric: [
+        { skill: 'Formgenkendelse i robotter', emerging: 'identificerer 1–2 former (cirkel, firkant) med voksenstøtte', proficient: 'identificerer selvstændigt 3–4 former i robotbilleder', advanced: 'navngiver alle grundformer og finder dem i både robotter og andre kontekster' },
+        { skill: 'Tælling af robotdetaljer', emerging: 'tæller 1–4 knapper/lys med støtte', proficient: 'tæller selvstændigt op til 10 robotdetaljer og matcher med tal', advanced: 'tæller over 10 og sammenligner detaljer på tværs af robotter' },
+        { skill: 'Kreativ robotkonstruktion', emerging: 'sammensætter 2–3 former til en enkel robot med støtte', proficient: 'bygger selvstændigt en robot af 4–5 former', advanced: 'designer komplekse robotter med mange detaljer og forklarer sit design' },
+      ],
     },
     'kindergarten': {
       seoTitle: 'Robotter-opgaver Børnehaveklasse | LessonCraftStudio',

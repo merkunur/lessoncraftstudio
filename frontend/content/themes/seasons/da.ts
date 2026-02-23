@@ -102,6 +102,22 @@ const content: EnrichedThemeContent = {
         { question: 'Hvad hvis mit førskolebarn kun vil farvelægge og ikke lave tælledelen?', answer: 'Det er helt normalt i den alder. Lad dem farvelægge først for at engagere sig i temaet, og guid dem derefter forsigtigt hen til tælle- eller matchsektionen. Førskolebørn lærer bedst, når de føler, de har kontrol over aktiviteten, så det at lade dem starte med deres foretrukne opgave opbygger den selvtillid, der er nødvendig for at forsøge de mere udfordrende dele.' },
         { question: 'Bør førskole-årstidsarbejdsark kun fokusere på den aktuelle årstid?', answer: 'Primært ja, fordi førskolebørn lærer bedst af umiddelbar erfaring. Fokusér firs procent af arbejdsarkstiden på den aktuelle årstid, så børnene kan verificere det, de ser på papiret, ved at kigge ud af vinduet. Introducer andre årstider kort gennem sammenligningsaktiviteter for at opbygge begrebet cyklisk forandring over tid.' },
       ],
+
+      snippetAnswer: 'Årstid-arbejdsark til førskolen (3–4 år) bruger forårsblomster, sommersol, efterårsblade og vintersne til sortering, matchning og farvelægning. Årstidernes skift gør temaet levende og genkendeligt. Gratis printbare PDF-arbejdsark på LessonCraftStudio.',
+      uniqueGradeAngle: 'Årstidstemaet er særligt velegnet til førskolebørn, fordi tre- og fireårige oplever årstidernes skift med alle sanser — forårets første blomster, sommerens varme, afterårets faldende blade og vinterens sne. I Danmark er årstiderne markante og giver tydelige visuelle forandringer, som børn kan observere dagligt. Sortering af genstande efter årstid opbygger kategorisering og tidscyklisk tænkning. Matchning af tøj med vejr styrker logisk tænkning. Farvelægning af årstidsmotiver træner finmotorik. Fælles Måls mål for natur, årstidsforståelse og sanseoplevelser understøttes direkte.',
+      developmentalMilestones: [
+        { milestone: 'Tidscyklisk tænkning (3–4-årige begynder at forstå, at årstider gentager sig)', howWeAddress: 'Årstidssekvensering, der viser de fire årstider i rækkefølge, introducerer cyklisk tænkning på det mest basale niveau' },
+        { milestone: 'Sensorisk observation (børn lærer at bemoorke forandringer i omgivelserne)', howWeAddress: 'Matchning af årstidselementer med naturscener styrker observationsevne og naturforståelse' },
+        { milestone: 'Tøj-vejr forbindelse (førskolebørn lærer at vælge tøj efter vejret)', howWeAddress: 'Sorteringsaktiviteter, der forbinder årstider med passende tøj, opbygger praktisk hverdagsviden' },
+      ],
+      differentiationNotes: 'For førskolebørn med behov for støtte, fokusér på to kontrastårstider (sommer/vinter), brug billeder fra barnets egne oplevelser, og hold sorteringerne enkle. For avancerede førskolebørn introducér alle fire årstider, tilføj sekvensering og cyklisk tænkning og lad dem tegne deres yndlingsårstid.',
+      parentTakeaway: 'Årstiderne er naturens læreplan. Peg på forandringer i naturen på ture: "Bladene er røde nu — det er efterår!" Lad barnet vælge tøj ud fra vejret. Saml blade om afteråret, byg snemænd om vinteren, plant frø om foråret og leg med vand om sommeren. Hvert årstidsskift er en ny læringsmulighed.',
+      classroomIntegration: 'Årstidstemaet er førskolens naturlige årshjul: hvert årstidsskift markeres med samlingsaktiviteter, naturture og tematiske arbejdsark. Vinduet dekoreres med årstidsmotiver, naturbordets indhold skifter med årstiden, og børnene dokumenterer forandringer med tegninger og fotos. Fælles Måls mål for natur, tid og sanseoplevelser opfyldes kontinuerligt.',
+      assessmentRubric: [
+        { skill: 'Årstidsgenkendelse', emerging: 'genkender én årstid med voksenstøtte (sommer = sol)', proficient: 'navngiver selvstændigt alle fire årstider og ét kendetegn for hver', advanced: 'beskriver alle årstider detaljeret og fortæller om overgangene' },
+        { skill: 'Tøj-vejr sortering', emerging: 'matcher tøj til én årstid med støtte', proficient: 'matcher selvstændigt tøj til alle fire årstider', advanced: 'forklarer hvorfor bestemt tøj passer til bestemt vejr og håndterer overgangsscenarier' },
+        { skill: 'Årstidssekvensering', emerging: 'ordner to årstider med støtte', proficient: 'ordner alle fire årstider i korrekt rækkefølge', advanced: 'forstår cyklisk gentagelse og kan fortælle, hvad der kommer efter vinter' },
+      ],
     },
     'kindergarten': {
       seoTitle: 'Årstider-opgaver Børnehaveklasse | LessonCraftStudio',

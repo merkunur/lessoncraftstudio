@@ -103,6 +103,22 @@ const content: EnrichedThemeContent = {
         { question: 'Hvordan understøtter erhvervsarbejdsark førskolebarns sociale udvikling?', answer: 'De introducerer begrebet om at mennesker har forskellige roller i et samfund, og at hver rolle hjælper andre. Dette fundament for at forstå gensidig afhængighed understøtter tidlige sociale færdigheder som samarbejde, taknemmelighed og respekt for forskellige former for arbejde, hvilket er essentielt for positive sociale interaktioner i førskolen.' },
         { question: 'Kan erhvervsarbejdsark opmuntre til rolleleg hos førskolebørn?', answer: 'Absolut. Arbejdsark introducerer ordforråd, værktøjer og scenarier der direkte nærer dramatisk leg. Et barn der udfylder et lægematchningsarbejdsark er forberedt til at lege læge med udvidet ordforråd og mere præcis rolleviden, hvilket gør rollespil rigere og sprogligt mere komplekst.' },
       ],
+
+      snippetAnswer: 'Erhverv-arbejdsark til førskolen (3–4 år) bruger brandmaend, laeger og bagere til matchning, sortering og farvelægning. Børnenes rollelege med erhverv driver stærkt engagement. Gratis printbare PDF-arbejdsark på LessonCraftStudio.',
+      uniqueGradeAngle: 'Erhvervstemaet rammer førskolebørn præcist, fordi tre- og fireårige er midt i den mest intensive periode for rolleleg — de leger brandmaend, læger, køkkenkok og politibetjent dag efter dag. Denne dybe identifikation med voksnes erhverv giver en stærk motivationsramme for læring. Matchning af erhverv med værktøj (brandmand-slange, læge-stetoskop) opbygger logisk tænkning. Tælling af værktøj og udstyr giver konkret matematik. Farvelægning af uniformer træner finmotorik. Fælles Måls mål for social forståelse og samfundsviden understøttes.',
+      developmentalMilestones: [
+        { milestone: 'Rolleleg og identitetsudvikling (3–4-årige udforsker voksenroller gennem leg)', howWeAddress: 'Erhvervsaktiviteter, der matcher personer med værktøj og arbejdsplads, understøtter og udvider rollelegserfaringer' },
+        { milestone: 'Logisk matchning (forbinde relaterede genstande)', howWeAddress: 'Matchning af erhverv med værktøj og uniform opbygger årsag-virkning-tænkning og kategorisering' },
+        { milestone: 'Social bevidsthed (forståelse af, at mennesker har forskellige roller i samfundet)', howWeAddress: 'Sorteringsaktiviteter med hjælpere i lokalsamfundet (brandmand, læge, lærer) styrker samfundsforståelse' },
+      ],
+      differentiationNotes: 'For førskolebørn med behov for støtte, fokusér på tre velkendte erhverv (brandmand, læge, lærer), brug udklædningstøj som supplement, og match ét værktøj til hvert erhverv. For avancerede førskolebørn tilføj flere erhverv, introducér bogstavsporing af erhvervsnavne og lad dem fortælle, hvad de vil være, når de bliver store.',
+      parentTakeaway: 'Når barnet leger brandmand eller læge, er det læring i praksis. Udnyt erhvervsinteressen derhjemme: peg på hjælpere i hverdagen (postbuddet, buschauføren, kassemedarbejderen), tal om, hvad de gør, og leg rollelege med barnets udklædningskiste. Spørg: "Hvad bruger en bageri?" — disse samtaler bygger ordforråd og social forståelse.',
+      classroomIntegration: 'Erhvervstemaet integreres i førskolens rollelege: i samlingen introduceres ugens erhverv med billeder og rekvisitter, i rollelegen indrettes lægeklinik, brandstation eller bageri, ved læringsstationer arbejdes med matchnings- og sorteringsark, og gæstehjælpere inviteres til at fortælle om deres arbejde. Fælles Måls mål for social forståelse og samfundskendskab understøttes.',
+      assessmentRubric: [
+        { skill: 'Erhverv-værktøj matchning', emerging: 'matcher 1–2 erhverv med værktøj med voksenstøtte', proficient: 'matcher selvstændigt 4–5 erhverv med korrekt værktøj', advanced: 'matcher 6+ erhverv og forklarer forbindelsen mellem erhverv og værktøj' },
+        { skill: 'Erhvervsgenkendelse og ordforråd', emerging: 'navngiver 2–3 erhverv med støtte', proficient: 'navngiver selvstændigt 5–6 erhverv og beskriver, hvad de gør', advanced: 'navngiver 8+ erhverv og fortæller om deres arbejdsplads og værktøj' },
+        { skill: 'Rolleleg (erhvervskontekst)', emerging: 'imiterer ét erhverv i kort leg med voksenstøtte', proficient: 'leger selvstændigt 2–3 erhvervsroller med passende rekvisitter', advanced: 'kombinerer flere erhvervsroller i komplekse rollelege og inviterer andre børn' },
+      ],
     },
     'kindergarten': {
       seoTitle: 'Job-opgaver Børnehaveklasse | LessonCraftStudio',

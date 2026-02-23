@@ -103,6 +103,22 @@ const content: EnrichedThemeContent = {
         { question: 'Hvad hvis mit førskolebarn er bange for kryb?', answer: 'Arbejdsark med venlige, tegneserieagtige insektillustrationer hjælper med at normalisere disse skabninger og opbygge tryghed over tid. Start med sommerfugle og mariehøns, som de fleste børn allerede finder tiltrækkende, før du introducerer myrer eller bier.' },
         { question: 'Hvilke færdigheder udvikler førskole-insekt-arbejdsark?', answer: 'De opbygger finmotorisk kontrol gennem farvelægning og sporing, tidlig talforståelse gennem tælling af insekttræk som ben og prikker, bogstavgenkendelse gennem insektnavn-sporing og kognitive færdigheder gennem sorterings- og matchningsaktiviteter.' },
       ],
+
+      snippetAnswer: 'Insekt-arbejdsark til førskolen (3–4 år) bruger mariehøns, sommerfugle og bier til tælling, matchning og farvelægning. Små krybs fascination driver stærkt engagement hos førskolebørn. Gratis printbare PDF-arbejdsark på LessonCraftStudio.',
+      uniqueGradeAngle: 'Insekttemaet er særligt fangstende for førskolebørn, fordi tre- og fireårige har en naturlig fascination af små kryb — de stopper op for at betragte myrer på fortovet, følger sommerfugle med øjnene og jubler over mariehøns. Denne medfødte nysgerrighed er en kraftfuld læringsmotor. Tælling af prikker på en mariehøne giver personlig matematik, matchning af insekter med deres levesteder opbygger naturforståelse, og farvelægning af sommerfuglens symmetriske vinger introducerer mønsterbegreber. Insekter giver også anledning til at tælle ben (seks!) og sammenligne med edderkopper (otte). Fælles Måls mål for naturfaglæring og nysgerrighed understøttes direkte.',
+      developmentalMilestones: [
+        { milestone: 'Naturlig observation (3–4-årige lærer at bemoorke små detaljer i naturen)', howWeAddress: 'Find-og-tæl-aktiviteter med insekter i naturscener skærper observationsevner og opmærksomhed på detaljer' },
+        { milestone: 'Tælling af små mængder (prikker, ben, vinger)', howWeAddress: 'Tælleaktiviteter med mariehønsprikker og insektben gør matematik konkret og visuelt tydelig' },
+        { milestone: 'Symmetriforståelse (førskolebørn begynder at bemoorke spejling)', howWeAddress: 'Farvelægning af sommerfugle, hvor begge vinger skal matche, introducerer symmetri på det mest visuelle niveau' },
+      ],
+      differentiationNotes: 'For førskolebørn med behov for støtte, fokusér på tre velkendte insekter (mariehøne, sommerfugl, bi), brug store illustrationer, og lad barnet tælle få prikker. For avancerede førskolebørn introducér flere insektarter, tilføj sammenligning af benantal (insekt vs. edderkop) og lad dem tegne symmetriske mønstre på sommerfuglevinger.',
+      parentTakeaway: 'Insekter er overalt, og det gør dem til den mest tilgængelige naturoplevelse. Gå på insektjagt i haven og tæl, hvad I finder. Observer en mariehøne i et glas og tæl dens prikker. Følg en bi fra blomst til blomst. Disse øjeblikke af undren og tælling er de mest værdifulde læringsoplevelser for små børn.',
+      classroomIntegration: 'Insekttemaet fungerer bedst om foråret og sommeren: på naturture ledes efter insekter i haven og på legepladsen, i samlingen tales om ugens insekt, ved læringsstationer arbejdes med tælle- og farvelægningsark, og i sanserummet udforskes insektmodeller med lupper. Fælles Måls mål for naturfag, sanseoplevelser og nysgerrighed opfyldes.',
+      assessmentRubric: [
+        { skill: 'Tælling af insektdetaljer (prikker, ben)', emerging: 'tæller 1–4 prikker/ben med voksenstøtte', proficient: 'tæller selvstændigt op til 8 detaljer og matcher med korrekt tal', advanced: 'tæller præcist og sammenligner (mariehønen har 6 ben, edderkoppen har 8)' },
+        { skill: 'Insektgenkendelse', emerging: 'navngiver 2–3 insekter med voksenstøtte (mariehøne, sommerfugl)', proficient: 'navngiver selvstændigt 4–5 insekter og beskriver, hvor de bor', advanced: 'navngiver 6+ insekter og fortæller om deres egenskaber' },
+        { skill: 'Symmetri (sommerfuglevinger)', emerging: 'genkender, at vingerne ligner hinanden, med voksenstøtte', proficient: 'farvelægger begge vinger ens og forklarer matchet', advanced: 'skaber egne symmetriske mønstre og anvender symmetri i andre sammenhænge' },
+      ],
     },
     'kindergarten': {
       seoTitle: 'Insekter-opgaver Børnehaveklasse | LessonCraftStudio',

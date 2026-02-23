@@ -103,6 +103,22 @@ const content: EnrichedThemeContent = {
         { question: 'Hvordan understøtter højtidsarbejdsark social-emotionel udvikling i førskolen?', answer: 'Højtider handler i sagens natur om samhørighed, taknemmelighed og deling. Arbejdsark, der afbilder familier, der fejrer, børn der udveksler gaver, eller fællesskaber der samles, ansporer til samtaler om empati, gavmildhed og tilhørsforhold — alle kritiske social-emotionelle færdigheder for denne aldersgruppe.' },
         { question: 'Hvilke finmotoriske færdigheder udvikler førskolearbejdsark med højtidstema?', answer: 'De opbygger blyantsgreb gennem sporing af festlige ord, hånd-øje-koordination gennem farvelægning af dekorationer inden for konturer og klippefærdigheder gennem aktiviteter, der beder børn om at klippe billeder ud og sortere dem på kategoriseringsmåtter.' },
       ],
+
+      snippetAnswer: 'Ferie-arbejdsark til førskolen (3–4 år) bruger festlige motiver som gaver, træer og stjerner til tælling, matchning og farvelægning. Den emotionelle forbindelse til højtider driver stærk motivation. Gratis printbare PDF-arbejdsark på LessonCraftStudio.',
+      uniqueGradeAngle: 'Højtidstemaet rammer førskolebørn lige i hjertet, fordi tre- og fireårige oplever højtider som årets mest magiske begivenheder — juletroaeer, gaver, lysestager og familiefejringer skaber dyb følelsesmæssig resonans. Denne personlige forbindelse gør højtidsarbejdsark til de mest motiverende overhovedet. Tælling af gaver, lys og kugler giver naturlig matematik med følelsesmæssig vægt. Matchning af højtidssymboler opbygger kulturel bevidsthed. Farvelægning af dekorationer træner finmotorik. Fælles Måls mål for kulturel identitet, traditioner og fællesskab understøttes direkte.',
+      developmentalMilestones: [
+        { milestone: 'Kulturel og social bevidsthed (3–4-årige begynder at forstå traditioner og fejringer)', howWeAddress: 'Højtidsaktiviteter, der inddrager danske traditioner som julefrokost, lucia og kalender, styrker kulturel identitet' },
+        { milestone: 'Tælling med personlig betydning (tal får følelsesmæssig vægt)', howWeAddress: 'Tælleaktiviteter med gaver, lys og kalenderlukker gør matematik personligt meningsfuld' },
+        { milestone: 'Sekvensering (førskolebørn lærer tidslige begreber som før/efter)', howWeAddress: 'Adventskalender-aktiviteter og højtidsforberedelser introducerer tidsrækkefølge og nedtælling' },
+      ],
+      differentiationNotes: 'For førskolebørn med behov for støtte, fokusér på de mest velkendte højtidselementer (juletroae, gave, stjerne), hold scenerne enkle, og brug fysiske dekorationer som supplement. For avancerede førskolebørn introducér tælling af kalenderdage, matchning af højtider med årstider og bogstavsporing af højtidsord.',
+      parentTakeaway: 'Højtider er læringens guldminer. Lad barnet hjælpe med at tælle kugler på juletroaeet, sortere julepynt efter farve og åbne kalenderlukker. Bag sammen og tæl ingredienser. Skriv barnets navn på gavesedler. Hver tradition er en læringsmulighed — og den følelsesmæssige forbindelse gør, at læringen sidder fast.',
+      classroomIntegration: 'Højtidstemaet følger årets kalender: i december arbejdes med jul og advent, i februar med fastelavn, i marts med påske. I samlingen tales om traditioner, ved læringsstationer arbejdes med tælle- og matchningsark, og i kunsthjørnet laves højtidsdekorationer. Fælles Måls mål for kulturel identitet og sociale færdigheder understøttes.',
+      assessmentRubric: [
+        { skill: 'Tælling med højtidsgenstande', emerging: 'tæller 1–5 gaver/kugler med voksenstøtte', proficient: 'tæller selvstændigt op til 10 højtidsgenstande og matcher med tal', advanced: 'tæller over 10 og løser enkle additionsopgaver med højtidstema' },
+        { skill: 'Højtidstraditioner (kulturel viden)', emerging: 'genkender 1–2 højtider med voksenstøtte', proficient: 'navngiver selvstændigt 3–4 højtider og deres kendetegn', advanced: 'fortæller om traditioner og sammenligner højtider' },
+        { skill: 'Kreativ dekoration (højtidsfarvelægning)', emerging: 'farvelægger højtidsmotiver med grove strøg', proficient: 'farvelægger inden for konturerne med passende højtidsfarver', advanced: 'tilføjer egne detaljer og designer mønstre på dekorationer' },
+      ],
     },
     'kindergarten': {
       seoTitle: 'Helligdage-opgaver Børnehaveklasse | LessonCraftStudio',

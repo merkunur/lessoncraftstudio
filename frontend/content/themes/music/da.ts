@@ -103,6 +103,22 @@ const content: EnrichedThemeContent = {
         { question: 'Hvordan udvikler musikarbejdsark mønstergenkendelse hos førskolebørn?', answer: 'Enkle instrumentmønstre som tromme-klokke-tromme-klokke introducerer begrebet om at sekvenser gentages og kan forudsiges. Denne AB-mønstergenkendelse er den tidligste form for algebraisk tænkning og giver det kognitive fundament for at forstå talmønstre, læsemønstre og naturvidenskabelige cyklusser senere i uddannelsen.' },
         { question: 'Hvilke instrumenter bør førskolemusikarbejdsark indeholde?', answer: 'Fokusér på instrumenter som børn nemt kan genkende og potentielt spille: trommer, tamburiner, xylofoner, klokker, maracas, triangler og enkle klaverer. Disse instrumenter har karakteristiske former der er nemme at farve og identificere, og de producerer lyde som førskolebørn kan genskabe med klasseværelsesinstrumenter eller hjemmelavede alternativer.' },
       ],
+
+      snippetAnswer: 'Musik-arbejdsark til førskolen (3–4 år) bruger instrumenter, noder og rytmer til matchning, tælling og farvelægning. Musikglæden er universel for små børn og driver dybt engagement. Gratis printbare PDF-arbejdsark på LessonCraftStudio.',
+      uniqueGradeAngle: 'Musiktemaet har en særlig kraft for førskolebørn, fordi tre- og fireårige reagerer på musik med hele kroppen — de danser, klapper og synger spontant. Denne instinktive musikalitet giver en kraftfuld ramme for læring. Matchning af instrumenter med deres lyde opbygger auditiv skelneevne. Tælling af trommestik, tangenter og strenge giver konkret matematik. Farvelægning af instrumenter med mange detaljer træner finmotorik. Rytmiske mønstre (klap-klap-stampe) introducerer sekvenstænkning. Fælles Måls mål for musisk udfoldelse, kreativitet og kropslig bevægelse understøttes naturligt.',
+      developmentalMilestones: [
+        { milestone: 'Rytmisk bevidsthed (3–4-årige begynder at følge enkle rytmer)', howWeAddress: 'Mønsterarbejdsark med rytmiske sekvenser (klap-klap-stampe) introducerer mønstergenkendelse gennem musikmotiver' },
+        { milestone: 'Auditiv skelneevne (børn lærer at skelne forskellige lyde fra hinanden)', howWeAddress: 'Matchningsaktiviteter, der forbinder instrumentbilleder med lydtyper, styrker auditiv opmærksomhed' },
+        { milestone: 'Finmotorisk kontrol (håndtering af instrumenter og farvelægning)', howWeAddress: 'Farvelægning af instrumenter med mange detaljer (tangenter, strenge, ventiler) giver præcisionstræning' },
+      ],
+      differentiationNotes: 'For førskolebørn med behov for støtte, fokusér på tre enkle instrumenter (tromme, rasleoaeg, xylofon), brug rigtige instrumenter som supplement, og hold rytmerne til to-element-mønstre. For avancerede førskolebørn introducér flere instrumenter, tilføj tre-element-rytmer og lad dem designe deres eget instrument.',
+      parentTakeaway: 'Musik er en daglig læringsmulighed. Syng sammen i bilen, klap rytmer før sengetid og lav hjemmelavede instrumenter af gryder og træskeer. Lyt til forskellige musikstykker og spørg: "Er det hurtigt eller langsomt?" At danse til musik træner både rytme, kropsbevidsthed og glæde — den perfekte kombination for førskolelæring.',
+      classroomIntegration: 'Musiktemaet gennemsyrer førskolens hverdag: i samlingen synges morgensange og klippes rytmer, ved musiktid udforskes instrumenter og lydeksperimenter, ved læringsstationer arbejdes med matchnings- og mønsterark, og i bevægelseslegen danses til forskellige musikstilarter. Fælles Måls mål for musisk udfoldelse og kropslig bevægelse er musiktemats kerne.',
+      assessmentRubric: [
+        { skill: 'Instrumentgenkendelse', emerging: 'navngiver 2–3 instrumenter med voksenstøtte', proficient: 'navngiver selvstændigt 5–6 instrumenter og beskriver deres lyd', advanced: 'navngiver 8+ instrumenter, kategoriserer dem og fortæller, hvordan de spilles' },
+        { skill: 'Rytmisk mønstergenkendelse', emerging: 'gentager et simpelt AB-mønster med støtte', proficient: 'følger og fortsætter AB- og ABC-mønstre selvstændigt', advanced: 'skaber egne rytmemønstre og forklarer sekvensen' },
+        { skill: 'Musikalsk udfoldelse (farvelægning og kreativitet)', emerging: 'farvelægger instrumenter med grove strøg', proficient: 'farvelægger inden for konturerne med passende farver', advanced: 'tilføjer kreative detaljer og designer egne instrumenter' },
+      ],
     },
     'kindergarten': {
       seoTitle: 'Musik-opgaver Børnehaveklasse | LessonCraftStudio',

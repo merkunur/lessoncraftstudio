@@ -96,6 +96,22 @@ const content: EnrichedThemeContent = {
         { question: 'Hvordan adskiller kæledyrsarbejdsark sig fra generelle dyrearbejdsark for førskolebørn?', answer: 'Kæledyrsarbejdsark fokuserer på husdyr, som børn interagerer med personligt, såsom hunde, katte, hamstere og fisk. Denne personlige forbindelse øger det følelsesmæssige engagement og gør læring mere relevant sammenlignet med arbejdsark med ukendte vilde dyr.' },
         { question: 'Hvilke finmotoriske færdigheder opbygger førskole-kæledyrsarbejdsark?', answer: 'Farvelægning af kæledyrsillustrationer opbygger blyantsgreb og håndledskontrol. Sporing af kæledyrsnavne som kat og hund øver bogstavdannelse. Tegning af streger for at matche kæledyr med deres mad eller hjem styrker hånd-øje-koordination. Alle disse færdigheder lægger grundlaget for skriveparathed i børnehaveklassen.' },
       ],
+
+      snippetAnswer: 'Kæledyr-arbejdsark til førskolen (3–4 år) bruger hunde, katte og kaniner til tælling, matchning og farvelægning. Den dybe kærlighed til kæledyr driver stærkt engagement. Gratis printbare PDF-arbejdsark på LessonCraftStudio.',
+      uniqueGradeAngle: 'Kæledyrstemaet er et af de mest personligt motiverende for førskolebørn, fordi mange tre- og fireårige har et kæledyr derhjemme eller drømmer om at få et. Den dybe følelsesmæssige forbindelse til hunde, katte og kaniner giver en kraftfuld motor for læring. Tælling af kæledyr og deres tilbehør (madskåle, bolde, senge) giver konkret matematik med personlig betydning. Matchning af kæledyr med pleje (foder, børste, gatur) opbygger ansvarsforståelse. Farvelægning af yndlingsdyr styrker finmotorik. Fælles Måls mål for empati, ansvar og natur understøttes.',
+      developmentalMilestones: [
+        { milestone: 'Empati og ansvarsfølelse (3–4-årige begynder at forstå, at levende væsner har behov)', howWeAddress: 'Matchningsaktiviteter, der forbinder kæledyr med deres behov (mad, vand, motion), opbygger tidlig ansvarsforståelse' },
+        { milestone: 'Kategorisering (børn lærer at gruppere dyr efter egenskaber)', howWeAddress: 'Sorteringsaktiviteter med kæledyr (pels/fjer, stor/lille, inde/ude) styrker logisk tænkning' },
+        { milestone: 'Følelsesmæssig tilknytning til læringsmateriale (personlig motivation)', howWeAddress: 'Arbejdsark med børnenes yndlingsdyr udnytter den følelsesmæssige forbindelse til dybt engagement' },
+      ],
+      differentiationNotes: 'For førskolebørn med behov for støtte, fokusér på de mest velkendte kæledyr (hund, kat, kanin), brug tøjdyr som supplement, og hold aktiviteterne korte og kærlige. For avancerede førskolebørn tilføj mere uvanlige kæledyr (fisk, hamster, skildpadde), introducér bogstavsporing af dyrenavne og lad dem planlægge pasning af et fiktivt kæledyr.',
+      parentTakeaway: 'Hvis familien har et kæledyr, er det en daglig læringsmulighed. Lad barnet hjælpe med fodring og tælle foderstykker, børste dyret og tale om pels og farver. Har I ikke kæledyr, besøg en dyrebutik eller bondegård. Billedbøger om kæledyr giver ordforråd og empatitroaning. Spørg: "Hvad har hunden brug for?" — det bygger ansvarsfølelse.',
+      classroomIntegration: 'Kæledyrstemaet integreres i førskolens legehjørner: i samlingen fortæller børnene om deres kæledyr, i rollelegen drives dyreklinik og dyrebutik, ved læringsstationer arbejdes med matchnings- og tælleark, og et eventuelt klassekæledyr giver førstehåndserfaring med ansvar. Fælles Måls mål for empati, natur og social udvikling understøttes.',
+      assessmentRubric: [
+        { skill: 'Kæledyrsgenkendelse og ordforråd', emerging: 'navngiver 2–3 kæledyr med støtte', proficient: 'navngiver selvstændigt 5–6 kæledyr og beskriver deres egenskaber', advanced: 'navngiver 8+ kæledyr og fortæller om deres behov og pleje' },
+        { skill: 'Kæledyr-behov matchning', emerging: 'matcher 1–2 kæledyr med deres basale behov med støtte', proficient: 'matcher selvstændigt 4–5 kæledyr med korrekt foder og tilbehør', advanced: 'matcher alle kæledyr og forklarer, hvorfor hvert dyr har specifikke behov' },
+        { skill: 'Tælling med kæledyrsmotiver', emerging: 'tæller 1–5 kæledyr med voksenstøtte', proficient: 'tæller selvstændigt op til 10 og matcher med korrekt tal', advanced: 'tæller over 10 og sammenligner mængder (flere katte end hunde)' },
+      ],
     },
     'kindergarten': {
       seoTitle: 'Kæledyr-opgaver Børnehaveklasse | LessonCraftStudio',

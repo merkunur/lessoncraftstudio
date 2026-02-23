@@ -103,6 +103,22 @@ const content: EnrichedThemeContent = {
         { question: 'Hvordan understøtter rumarbejdsark formgenkendelse i førskolen?', answer: 'Rumbilleder er rige på former: cirkulære planeter, trekantede raketfinner, stjernespidser og rektangulære rumstationspaneler. Arbejdsark der beder børn om at identificere og farve specifikke former i rumscener forstærker geometrifærdigheder i en kontekst der føles som leg snarere end øvelse.' },
         { question: 'Hvilke hands-on-aktiviteter passer godt til førskole-rumarbejdsark?', answer: 'At bygge raketter af papruller, oprette stjernebilleder med klistermærker på mørkt papir og lege med legetøjsastronautfigurer forstærker alt sammen arbejdsarksbegreber. Sansekasser fyldt med sorte bønner og skjulte plastikstjerner lader børn øve tælling og sortering i et taktilt rummiljø.' },
       ],
+
+      snippetAnswer: 'Rum-arbejdsark til førskolen (3–4 år) bruger raketter, stjerner og planeter til tælling, matchning og farvelægning. Rummets mystik og drama fascinerer små børn intenst. Gratis printbare PDF-arbejdsark på LessonCraftStudio.',
+      uniqueGradeAngle: 'Rumtemaet har en særlig magi for førskolebørn, fordi tre- og fireårige ser op på månen og stjernerne med ægte undren — den natæmmel, der føles uendelig, vekker en nysgerrighed, som er perfekt til læring. Rumbilleder tilbyder dramatisk visuel appel med lyse farver mod mørk baggrund. Tælling af stjerner i stjernebilleder giver matematik i en eventyrlig kontekst. Matchning af astronauter med udstyr opbygger logisk tænkning. Formgenkendelse i rumscener (cirkel = planet, trekant = raketfinne) styrker geometriforståelse. Farvelægning af rumfartøjer træner finmotorik. Fælles Måls mål for nysgerrighed og naturfaglæring understøttes.',
+      developmentalMilestones: [
+        { milestone: 'Formgenkendelse i kontekst (3–4-årige lærer at finde former i billeder)', howWeAddress: 'Rumbilleder med tydelige former (runde planeter, trekantede raketfinner) gør formgenkendelse visuelt spændende' },
+        { milestone: 'Tælling i visuelt rige scener (opbygning af visuel søgefærdighed)', howWeAddress: 'Find-og-tæl-aktiviteter med stjerner, planeter og måner i natteligt rumscener træner både tælling og visuel opmærksomhed' },
+        { milestone: 'Størrelsesforståelse (sammenligning af stor planet vs. lille stjerne)', howWeAddress: 'Sorteringsaktiviteter med himmellegemer efter størrelse introducerer størrelsesrelationer i en fascinerende kontekst' },
+      ],
+      differentiationNotes: 'For førskolebørn med behov for støtte, fokusér på tre velkendte elementer (raket, stjerne, måne), brug selvlysende stjerner som fysisk supplement, og hold scenerne enkle. For avancerede førskolebørn tilføj planeter og astronautudstyr, introducér formnavne i rumkontekst og lad dem bygge raketter af klodser.',
+      parentTakeaway: 'Rummet er overalt — man skal bare se op. Peg på månen og stjernerne om aftenen og tæl dem sammen. Sæt selvlysende stjerner på loftet i barnets værelse. Byg raketter af papruller og papkasser. Læs rumbøger og se korte videoer om rumfart. Barnets naturlige undren over universet er den stærkeste læringsmotor.',
+      classroomIntegration: 'Rumtemaet fungerer som en fanagende temauge: i samlingen introduceres rummet med billeder og film, ved læringsstationer arbejdes med tælle- og formgenkendelsesark, i kunsthjørnet bygges raketter og males natteligt rum, og i bevægelseslegen simuleres raketopskydning og rumvandring. Fælles Måls mål for nysgerrighed, naturfag og kreativitet integreres.',
+      assessmentRubric: [
+        { skill: 'Tælling i rumscener', emerging: 'tæller 1–5 stjerner med voksenstøtte', proficient: 'tæller selvstændigt op til 10 himmellegemer i en scene', advanced: 'tæller over 10 og sammenligner mængder (flere stjerner end planeter)' },
+        { skill: 'Formgenkendelse i rumbilleder', emerging: 'identificerer én form (cirkel = planet) med støtte', proficient: 'identificerer selvstændigt 3–4 former i rumbilleder', advanced: 'navngiver alle former og forklarer, hvilke rumgenstande der har den form' },
+        { skill: 'Rumgenkendelse og ordforråd', emerging: 'navngiver 2–3 rumgenstande med støtte (raket, stjerne)', proficient: 'navngiver selvstændigt 5–6 rumgenstande og beskriver dem', advanced: 'navngiver 8+ genstande og fortæller om, hvad astronauter gør i rummet' },
+      ],
     },
     'kindergarten': {
       seoTitle: 'Rummet-opgaver Børnehaveklasse | LessonCraftStudio',

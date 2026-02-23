@@ -103,6 +103,22 @@ const content: EnrichedThemeContent = {
         { question: 'Hvordan understøtter halloween-arbejdsark fantasileg i førskolen?', answer: 'Kostume- og udklædningselementet i halloween strækker sig naturligt ind i rolleleg. Arbejdsark med figurer i kostumer opmuntrer børn til at tale om, hvad de ville klæde sig ud som og hvorfor, og opbygger fortællefærdigheder, kreativitet og selvudfoldelse gennem guidet samtale om deres arbejdsarksfigurer.' },
         { question: 'Hvilke finmotoriske færdigheder udvikler førskole-halloween-arbejdsark?', answer: 'De udvikler blyantsgreb gennem sporing af græskarformer og flagermusomrids, hånd-øje-koordination gennem farvelægning inden for buede linjer og klippefærdigheder gennem aktiviteter, der beder børn om at klippe halloweenformer ud til sorterings- og matchningsspil.' },
       ],
+
+      snippetAnswer: 'Halloween-arbejdsark til førskolen (3–4 år) bruger venlige græskar, flagermus og spøgelser til tælling, matchning og farvelægning. Den festlige stemning og udklædningsglæde driver engagementet. Gratis printbare PDF-arbejdsark på LessonCraftStudio.',
+      uniqueGradeAngle: 'Halloweentemaet har en særlig tiltrækningskraft for førskolebørn, fordi tre- og fireårige elsker udklædning, og halloween giver dem lov til at udforske fantasi og rolleleg i en festlig ramme. De farverige græskar, fjollede spøgelser og søde flagermus fænger opmærksomheden uden at skræmme. Tælling af græskar og slik giver naturlige matematikøvelser, matchning af halloweenfigurer med deres skygger styrker visuel skelneevne, og farvelægning af græskaransigter træner finmotorik. Kostumeelementet stimulerer kreativitet og selvudfoldelse. Fælles Måls mål for kreativitet, fantasi og social leg understøttes naturligt.',
+      developmentalMilestones: [
+        { milestone: 'Fantasileg og rolletagning (3–4-årige udvikler evnen til at påtage sig roller)', howWeAddress: 'Halloweenaktiviteter med kostumer og figurer stimulerer rollespil og kreativ tænkning gennem strukturerede arbejdsark' },
+        { milestone: 'Visuel skelneevne (børn lærer at skelne mellem lignende former)', howWeAddress: 'Skyggematchning med halloweensilhuetter og find-forskellen-aktiviteter styrker observation og visuel analyse' },
+        { milestone: 'Tælling i festlige kontekster (tælling får personlig betydning)', howWeAddress: 'Tælleaktiviteter med græskar, slik og flagermus gør matematik til en del af den festlige oplevelse' },
+      ],
+      differentiationNotes: 'For førskolebørn med behov for støtte, brug kun venlige figurer (smilende græskar, søde spøgelser), hold scenerne enkle med få elementer, og lad barnet farvelægge frit. For avancerede førskolebørn tilføj mere detaljerede scener, introducér mønstergenkendelse i halloweendekorationer og lad dem designe deres eget græskaransigt.',
+      parentTakeaway: 'Halloween er en gylden læringsmulighed. Lad barnet hjælpe med at tælle slik, sortere halloweendekorationer efter farve og udskrære et græskar sammen. At vælge kostume og tale om det træner både ordforråd og beslutningstagning. Græskarfrø kan tælles og sorteres efter størrelse — køkkenet bliver til en læringsstation.',
+      classroomIntegration: 'Halloweentemaet bruges i en efterårstemauge: i samlingen læses halloweenhistorier og synges sange, ved læringsstationer arbejdes med tælle- og matchningsark, i kunsthjørnet dekoreres græskar og laves flagermus, og i rollelegen prrøves kostumer. Fælles Måls mål for kreativitet, fantasi og sociale færdigheder opfyldes gennem den festlige temauge.',
+      assessmentRubric: [
+        { skill: 'Tælling med halloweengenstande', emerging: 'tæller 1–5 græskar/flagermus med voksenstøtte', proficient: 'tæller selvstændigt op til 10 halloweengenstande og matcher med tal', advanced: 'tæller over 10 og løser enkle "hvor mange tilsammen"-opgaver' },
+        { skill: 'Skyggematchning (halloweensilhuetter)', emerging: 'matcher 2–3 silhuetter med voksenstøtte', proficient: 'matcher selvstændigt 5–6 halloweensilhuetter korrekt', advanced: 'matcher komplekse silhuetter og forklarer, hvilke træk der afslører figuren' },
+        { skill: 'Kreativ udfoldelse (halloweenfarvelægning)', emerging: 'farvelægger med få farver og grove strøg', proficient: 'farvelægger inden for konturerne med varierede farver', advanced: 'tilføjer egne kreative detaljer og mønstre til halloweenfigurerne' },
+      ],
     },
     'kindergarten': {
       seoTitle: 'Halloween-opgaver Børnehaveklasse | LessonCraftStudio',

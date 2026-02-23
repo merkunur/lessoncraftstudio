@@ -102,6 +102,22 @@ const content: EnrichedThemeContent = {
         { question: 'Hvordan kan jeg gøre have-arbejdsark mere praktiske for førskolebørn?', answer: 'Par hvert arbejdsark med en sanseaktivitet. Efter en tælleside kan børnene tælle rigtige frø ned i potter. Efter en farvelægningsside kan de vande en plante. Denne multisensoriske tilgang styrker hukommelsen og gør abstrakte arbejdsarksbegreber konkrete og spændende.' },
         { question: 'Hvilke færdigheder udvikler førskole-have-arbejdsark?', answer: 'De opbygger finmotorisk kontrol gennem farvelægning og sporing, tidlig talforståelse gennem tælling af frø og blomster, bogstavgenkendelse gennem sporing af haveord, farveidentifikation gennem sorteringsaktiviteter, og kognitive færdigheder gennem matching af planter med deres kendetegn.' },
       ],
+
+      snippetAnswer: 'Have-arbejdsark til førskolen (3–4 år) bruger blomster, insekter og haveredskaber til tælling, matchning og farvelægning. Havens sansemættede verden fascinerer små børn og driver læringen. Gratis printbare PDF-arbejdsark på LessonCraftStudio.',
+      uniqueGradeAngle: 'Havetemaet er ideelt for førskolebørn, fordi tre- og fireårige elsker at grave i jord, plante frø og observere, hvordan planter vokser — haven er et naturligt laboratorium for sanseoplevelser og undren. Denne hands-on fascination giver en stærk bro mellem arbejdsark og virkelighed. Tælling af blomster, sommerfugle og mariehøns i en havescene giver konkret matematik. Matchning af frø med planter introducerer årsag-virkning-tænkning. Farvelægning af blomster med brede kronblade træner finmotorik. Sortering af haveredskaber opbygger kategorisering. Fælles Måls mål for natur, sanseoplevelser og naturfaglæring mødes direkte.',
+      developmentalMilestones: [
+        { milestone: 'Naturlig nysgerrighed og observation (3–4-årige begynder at bemoorke vækst og forandring)', howWeAddress: 'Frø-til-plante-sekvensering og matchningsaktiviteter introducerer livscyklusforståelse på det mest basale niveau' },
+        { milestone: 'Tælling med naturlige genstande (opbygning af mængdeforståelse)', howWeAddress: 'Find-og-tæl-aktiviteter med blomster, bier og sommerfugle i havescener gør matematik sansemættet' },
+        { milestone: 'Finmotorisk kontrol (overgang til mere kontrolleret farvelægning)', howWeAddress: 'Farvelægningssider med blomster, der har tydelige kronblade og blade, giver klare konturer til motorisk træning' },
+      ],
+      differentiationNotes: 'For førskolebørn med behov for støtte, fokusér på få velkendte haveelementer (blomst, sommerfugl, vandkande), brug rigtige frø og jord som supplement, og hold aktiviteterne sansemættede. For avancerede førskolebørn tilføj sekvensering af vækstfaser, introducér bogstavsporing af haveord og lad dem tegne deres egen drømmehave.',
+      parentTakeaway: 'Haven er naturens klasselokale. Giv barnet et lille havehjørne eller en potteplante at passe, og tæl frø sammen, før de plantes. Observer blomster i parken og tæl kronblade. Lad barnet vande og måle plantens vækst. Disse virkelige haveoplevelser forstærker arbejdsarkenes læring og giver barnet en følelse af ansvar og undren.',
+      classroomIntegration: 'Havetemaet følger årstiderne: om foråret plantes frø i børnehavens bed, om sommeren observeres vækst og insekter, om efteråret høstes. I samlingen introduceres ugens plante, ved læringsstationer arbejdes med tælle- og matchningsark, og i sansebakken graves med jord og frø. Fælles Måls mål for natur, miljø og sanseoplevelser understøttes gennem hele året.',
+      assessmentRubric: [
+        { skill: 'Tælling i havescener', emerging: 'tæller 1–5 blomster/insekter med voksenstøtte', proficient: 'tæller selvstændigt op til 10 i en havescene og matcher med tal', advanced: 'tæller over 10 og sammenligner mængder (flere sommerfugle end bier)' },
+        { skill: 'Vækstsekvensering', emerging: 'ordner 2 trin (frø, blomst) med voksenstøtte', proficient: 'ordner selvstændigt 3 vækstfaser i korrekt rækkefølge', advanced: 'ordner 4–5 vækstfaser og forklarer, hvad der sker i hvert trin' },
+        { skill: 'Havegenkendelse og ordforråd', emerging: 'navngiver 2–3 haveelementer med støtte', proficient: 'navngiver selvstændigt 5–6 blomster, insekter og redskaber', advanced: 'navngiver 8+ elementer og bruger beskrivende ord om dem' },
+      ],
     },
     'kindergarten': {
       seoTitle: 'Have-opgaver Børnehaveklasse | LessonCraftStudio',

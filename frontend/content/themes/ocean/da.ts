@@ -104,6 +104,22 @@ const content: EnrichedThemeContent = {
         { question: 'Hvordan udvikler havarbejdsark finmotoriske færdigheder hos førskolebørn?', answer: 'Farvelægning af fisk og søstjerner inden for afgrænsede konturer styrker håndkontrollen, mens sporing af havordforråd opbygger det blyantstgreb, der er nødvendigt for senere skrivning. Udklipning af enkle havdyrsformer udvikler yderligere saksfærdigheder og hånd-øje-koordination.' },
         { question: 'Hvilke havemner er bedst for førskolebørn?', answer: 'Fokuser på velkendte, venlige dyr som fisk, delfiner, havskildpadder og søstjerner. Undgå dybhavskabninger, der kan virke skræmmende. Enkle begreber som stor kontra lille fisk og tælling af skaller på en strand er ideelle for denne aldersgruppe.' },
       ],
+
+      snippetAnswer: 'Hav-arbejdsark til førskolen (3–4 år) bruger fisk, hvaler og havstjerner til tælling, matchning og farvelægning. Havets mystik fascinerer små børn og driver dyb nysgerrighed. Gratis printbare PDF-arbejdsark på LessonCraftStudio.',
+      uniqueGradeAngle: 'Havtemaet har en særlig magi for førskolebørn, fordi tre- og fireårige er fascinerede af den undervandsverden, de kan ane men ikke se — farverige fisk, store hvaler og mystiske blæksprutter vekker en dyb undren. Danmark er omgivet af hav, så mange børn har førstehåndsoplevelser med strand, bølger og muslingeskaller. Tælling af fisk og havdyr i undervandsscener giver visuelt fengslende matematik. Matchning af dyr med deres levesteder opbygger naturfaglig tænkning. Farvelægning af detaljerede havvæsener træner finmotorik. Fælles Måls mål for naturfag og sanseoplevelser understøttes.',
+      developmentalMilestones: [
+        { milestone: 'Størrelsesforståelse (3–4-årige lærer at sammenligne stor/lille)', howWeAddress: 'Sorteringsaktiviteter med havdyr efter størrelse (lille fisk, stor hval) gør størrelsesbegreber konkrete og visuelle' },
+        { milestone: 'Tælling i scenekontekst (opbygning af mængdeforståelse med mange genstande)', howWeAddress: 'Find-og-tæl-aktiviteter med fisk, søstjerner og muslingeskaller i undervandsscener' },
+        { milestone: 'Farvegenkendelse og -navngivning (havdyrs mange farver)', howWeAddress: 'Farvelægningsaktiviteter med farverige koralrev og fisk styrker farvevokabular og kreativt udtryk' },
+      ],
+      differentiationNotes: 'For førskolebørn med behov for støtte, fokusér på tre velkendte havdyr (fisk, hval, søstjerne), brug store illustrationer, og hold scenerne enkle. For avancerede førskolebørn tilføj flere havdyr, introducér størrelsessammenligning på tværs af arter og lad dem tegne deres eget undervandslandskab.',
+      parentTakeaway: 'Havet er et uudtømmeligt læringstema. På strandture samles muslingeskaller og tælles, sorteres efter størrelse og farve. Derhjemme læses havbøger og tales om, hvilke dyr der bor i havet. Et akvarium eller en akvariebog giver uendelige samtaleemner. Lad barnet tegne sin egen havbund med fisk og planter — kreativitet og naturfag smelter sammen.',
+      classroomIntegration: 'Havtemaet fungerer særligt godt om sommeren: på strandture samles skaller og observeres dyr i tidevandspytter, i samlingen introduceres ugens havdyr, ved læringsstationer arbejdes med tælle- og farvelægningsark, og i sansebakken udforskes vand, sand og skaller. Fælles Måls mål for naturfag, sanseoplevelser og nysgerrighed opfyldes.',
+      assessmentRubric: [
+        { skill: 'Tælling af havdyr', emerging: 'tæller 1–5 fisk/dyr med voksenstøtte', proficient: 'tæller selvstændigt op til 10 havdyr i en scene', advanced: 'tæller over 10 og sammenligner mængder (flere fisk end blæksprutter)' },
+        { skill: 'Størrelsessortering (havdyr)', emerging: 'sorterer 2–3 dyr i stor/lille med støtte', proficient: 'sorterer selvstændigt 4–5 havdyr fra mindst til størst', advanced: 'sorterer efter størrelse og én yderligere egenskab og forklarer sine valg' },
+        { skill: 'Havdyrsgenkendelse og ordforråd', emerging: 'navngiver 2–3 havdyr med støtte', proficient: 'navngiver selvstændigt 5–6 havdyr og beskriver dem', advanced: 'navngiver 8+ havdyr og fortæller om deres levesteder' },
+      ],
     },
     'kindergarten': {
       seoTitle: 'Hav-opgaver Børnehaveklasse | LessonCraftStudio',

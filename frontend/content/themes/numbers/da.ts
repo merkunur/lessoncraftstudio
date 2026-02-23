@@ -104,6 +104,23 @@ const content: EnrichedThemeContent = {
         { question: 'Mit førskolebarn kan tælle til tyve, men kan ikke identificere skrevne taltegn. Er dette normalt?', answer: 'Ja, dette er helt normalt. Verbal tælling, kaldet remsetælling, udvikler sig før talgenkendelse. Mange fireårige kan remse tal til tyve eller mere, men kan ikke matche det skrevne taltegn 7 med et sæt af syv genstande. Arbejdsark, der parrer taltegn med tilsvarende billedgrupper, hjælper med at bygge bro over dette hul ved at opbygge den visuelle forbindelse mellem symbol og mængde.' },
         { question: 'Hvor mange talopgaver bør et førskole-arbejdsark have?', answer: 'Tre til fem opgaver per side er ideelt for førskolebørn. Flere kan overvælde korte opmærksomhedsspænd og føre til frustration. Hver opgave bør bruge store billeder og rigeligt med hvid plads, så børn kan fokusere på én opgave ad gangen uden visuelt rod.' },
       ],
+
+      snippetAnswer: 'Tal-arbejdsark til førskolen (3–4 år) introducerer cifrene 1–10 gennem sporing, tælling og matchning med farverige billeder. Første møde med tal som symboler opbygger matematisk fundament. Gratis printbare PDF-arbejdsark på LessonCraftStudio.',
+      uniqueGradeAngle: 'Taltemaet er det mest fundamentale for førskolebørn, fordi tre- og fireårige befinder sig i overgangen fra at tælle med én-til-én pegen til at forstå, at et talsymbol repræsenterer en mængde. Denne kognitive milepol — at forbinde symbolet "3" med tre genstande — er fundamentet for al fremtidig matematik. Talarbejdsark designet til førskolen bruger store, tydelige cifre med tilhørende billeder, så barnet visuelt ser forbindelsen. Sporing af talformer udvikler finmotorik og muskelhukommelse. Tælling af konkrete genstande og cirklen om det rigtige tal styrker mængdeforståelsen. Fælles Måls mål for tidlig matematisk forståelse opfyldes direkte.',
+      developmentalMilestones: [
+        { milestone: 'Talgenkendelse (3–4-årige begynder at genkende cifre som symboler for mængder)', howWeAddress: 'Tal-billede-matchning, hvor hvert ciffer præsenteres med tilsvarende antal genstande, gør forbindelsen tydelig' },
+        { milestone: 'En-til-en-korrespondance (førskolebørn mestrer at pege og tælle én genstand ad gangen)', howWeAddress: 'Tælleaktiviteter med tydelige genstande og tælleprikker gør den abstrakte færdighed konkret' },
+        { milestone: 'Talformssporing (overgang fra fri tegning til kontrolleret talskrivning)', howWeAddress: 'Prikkede sporingsark med store cifre og startpile guider hånden og opbygger motorisk hukommelse for talformer' },
+        { milestone: 'Mængdesammenligning (førskolebørn begynder at forstå mere/færre)', howWeAddress: 'Sammenligningsaktiviteter, hvor barnet cirkler den største eller mindste gruppe, bygger mængdeforståelse' },
+      ],
+      differentiationNotes: 'For førskolebørn med behov for støtte, start med tallene 1–5, brug fysiske tællere (klodser, bærer) som supplement, og fokusér på ét tal ad gangen. For avancerede førskolebørn udvid til 10–20, tilføj enkel sammenligning (større end/mindre end) og lad dem skrive tal selvstændigt fra hukommelsen.',
+      parentTakeaway: 'Tal er overalt i barnets hverdag. Tæl trappetrin, når I går op, tæl æbler i skålen, peg på husnumre på ture. Vis barnet, at tallet "3" på døren betyder det samme som tre fingre. Brug brettspil med terninger til naturlig tælleøvelse. De mest effektive taløvelser er de, der sker i hverdagen — ikke som lektier, men som samtaler.',
+      classroomIntegration: 'Taltemaet løber som en grundpille gennem hele førskoleåret: i samlingen tælles børn, dage og vejr, ved læringsstationer arbejdes med sporings- og tælleark, i legen bruges tærninger og brettspil, og i hverdagen tælles alt fra sko til mellemmadsbidder. Taltemaet er ikke en isoleret uge men en daglig praksis, der opfylder Fælles Måls mål for matematisk bevidsthed.',
+      assessmentRubric: [
+        { skill: 'Talgenkendelse (cifre)', emerging: 'genkender 2–3 cifre med voksenstøtte', proficient: 'genkender selvstændigt cifrene 1–10 og navngiver dem', advanced: 'genkender cifre op til 20 og forbinder dem med korrekte mængder' },
+        { skill: 'Tælling med en-til-en-korrespondance', emerging: 'tæller 1–5 genstande med pegen og støtte', proficient: 'tæller selvstændigt op til 10 med sikker en-til-en-pegen', advanced: 'tæller over 10 og vælger korrekt tal uden at pege' },
+        { skill: 'Talformssporing', emerging: 'sporer 2–3 cifre genkendeligt på prikkede linjer', proficient: 'sporer cifrene 1–10 tydeligt med korrekt strøgretning', advanced: 'skriver flere cifre selvstændigt uden model' },
+      ],
     },
     'kindergarten': {
       seoTitle: 'Tal-opgaver Børnehaveklasse | LessonCraftStudio',

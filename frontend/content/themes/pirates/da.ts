@@ -103,6 +103,22 @@ const content: EnrichedThemeContent = {
         { question: 'Hvordan opbygger piratarbejdsark rumlige færdigheder hos førskolebørn?', answer: 'Enkle skattekort-aktiviteter introducerer begreber som at følge en sti, bevæge sig fra venstre mod højre og identificere objekter efter deres placering på en side. Disse aktiviteter opbygger det rumlige ræsonneringfundament, børn får brug for til læsning, skrivning, matematik og i sidste ende kortlæsning og geometri.' },
         { question: 'Kan piratarbejdsark motivere modvillige førskolelærende?', answer: 'Ja, eventyrtemaet er en af de mest effektive motivatorer for modvillige lærende. Børn, der modstår almindelige arbejdsark, engagerer sig ofte entusiastisk, når den samme tælle- eller tegneøvelse er indrammet som del af en piratskattejagt. Den narrative motivation forvandler arbejde til leg.' },
       ],
+
+      snippetAnswer: 'Pirat-arbejdsark til førskolen (3–4 år) bruger skattekister, skibe og papegøjer til tælling, matchning og farvelægning. Pirateventyrets spænding driver dybt engagement. Gratis printbare PDF-arbejdsark på LessonCraftStudio.',
+      uniqueGradeAngle: 'Pirattemaet appellerer dybt til førskolebørn, fordi tre- og fireårige elsker eventyr og forestillingen om at finde skjulte skatte. Denne fantasi giver en stærk ramme for læring, fordi piratscenarier naturligt indeholder tælling (guldmønter i en kiste), matchning (pirat med udstyr), sekvensering (følg skattekortet) og farvelægning (skibe og pirater). Pirattemaet introducerer også rumlige begreber (kortet viser vejen) og mængdeforståelse (mange/få guldmønter). Fælles Måls mål for fantasi, kreativitet og social leg understøttes naturligt.',
+      developmentalMilestones: [
+        { milestone: 'Fantasileg og fortælling (3–4-årige udvikler evnen til at skabe og følge narrativer)', howWeAddress: 'Piratscenarier med skattejagt og eventyr stimulerer fortælleevne og kreativ tænkning' },
+        { milestone: 'Tælling med motivation (guldmønter giver stærk lærelyst)', howWeAddress: 'Tælleaktiviteter med guldmønter, juveler og skattekister gør matematik til et eventyr' },
+        { milestone: 'Rumlig orientering (førskolebørn begynder at forstå enkle kort og retninger)', howWeAddress: 'Enkle skattekortaktiviteter introducerer rumlig tænkning og retningsbegreber (op, ned, til højre)' },
+      ],
+      differentiationNotes: 'For førskolebørn med behov for støtte, fokusér på simple piratscener (skib, skat, papegøje), hold skattekortene til to eller tre trin, og brug fysiske guldmønter som supplement. For avancerede førskolebørn tilføj mere komplekse skattekort, introducér bogstavsporing af piratord og lad dem designe deres egen piratflag.',
+      parentTakeaway: 'Piratfascinationen kan bruges til læring overalt. Lav en skattejagt i hjemmet med ledetroaade, tæl plastikmønter i en skattekiste, og tegn et skattekort sammen. Læs piratbøger og lad barnet fortælle, hvad der sker næste gang. At bygge et piratskib af pappapkasser træner både kreativitet og rumlig tænkning.',
+      classroomIntegration: 'Pirattemaet fungerer fantastisk som projektuge: i samlingen fortælles pirathistorier, i bevoegelslegen ledes skattejagter på legepladsen, ved læringsstationer arbejdes med tælle- og matchningsark, og i kunsthjørnet bygges skibe og laves piratflag. Fælles Måls mål for fantasi, social leg, matematik og sproglig udvikling integreres i én temauge.',
+      assessmentRubric: [
+        { skill: 'Tælling af piratskat', emerging: 'tæller 1–5 guldmønter med voksenstøtte', proficient: 'tæller selvstændigt op til 10 skattegenstande og matcher med tal', advanced: 'tæller over 10 og løser enkle "hvor mange tilsammen"-opgaver' },
+        { skill: 'Skattekortorientering', emerging: 'følger et enkelt to-trins skattekort med støtte', proficient: 'følger selvstændigt et tre-trins skattekort', advanced: 'følger fire-trins kort og skaber selv enkle kort til andre' },
+        { skill: 'Kreativ udfoldelse (piratfarvelægning)', emerging: 'farvelægger piratmotiver med få farver', proficient: 'farvelægger inden for konturerne med varierede farver', advanced: 'tilføjer egne kreative detaljer og fortæller historien om sin pirat' },
+      ],
     },
     'kindergarten': {
       seoTitle: 'Pirater-opgaver Børnehaveklasse | LessonCraftStudio',

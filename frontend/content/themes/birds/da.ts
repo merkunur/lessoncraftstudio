@@ -103,6 +103,22 @@ const content: EnrichedThemeContent = {
         { question: 'Hvordan opbygger fuglearbejdsark observationsfærdigheder hos førskolebørn?', answer: 'De træner børn i at lægge mærke til detaljer som farve, størrelse og form ved at bede dem matche fugle med silhuetter eller sortere fugle i grupper. Disse visuelle skelneøvelser opbygger de samme perceptuelle færdigheder, der senere understøtter bogstav- og talgenkendelse.' },
         { question: 'Hvad er den bedste måde at bruge fuglearbejdsark med meget små børn?', answer: 'Hold sessionerne til otte til tolv minutter, par arbejdsark med praktisk udforskning som at undersøge rigtige fjer eller kigge på fugle gennem et vindue, og fejr altid indsatsen frem for nøjagtighed. Korte, positive sessioner opbygger en varig association mellem læring og glæde.' },
       ],
+
+      snippetAnswer: 'Fugle-arbejdsark til førskolen (3–4 år) bruger farverige fuglebilleder til farvelægning, tælling og matchning, der styrker finmotorik og tidlig talgenkendelse. Børnenes fascination af fugle driver engagementet. Gratis printbare PDF-arbejdsark på LessonCraftStudio.',
+      uniqueGradeAngle: 'Fugletemaet er unikt velegnet til førskolen, fordi fugle er synlige overalt i barnets hverdag — på legepladsen, i haven og ved foderbrættet — og tre- til fireårige kan direkte forbinde arbejdsarkenes billeder med virkelige observationer. Denne bro mellem papir og virkelighed styrker læringen markant. Fugle tilbyder naturlige muligheder for tælling (fugle på en gren), størrelsessammenligning (stor/lille fugl) og farveidentifikation (rød rodohat, blå blejmejse). At spore fuglereder og æg styrker finmotorikken. Fugle som tema understøtter Fælles Måls naturfaglige nysgerrighed på det mest tilgængelige niveau.',
+      developmentalMilestones: [
+        { milestone: 'Farve- og størrelsesgenkendelse (3–4-årige lærer at identificere og navngive grundlæggende farver og størrelser)', howWeAddress: 'Sorteringsaktiviteter, hvor børn grupperer fugle efter farve eller størrelse, styrker kategorisk tænkning' },
+        { milestone: 'Tælling til 10 med konkrete genstande', howWeAddress: 'Find-og-tæl-aktiviteter med fugle på grene, i træer og ved foderbræt træner en-til-en-korrespondance' },
+        { milestone: 'Visuel matchning (parring af identiske eller relaterede billeder)', howWeAddress: 'Skyggematchning med fuglesilhuetter og matchning af fugl til rede opbygger visuel skelneevne' },
+      ],
+      differentiationNotes: 'For førskolebørn med behov for ekstra støtte, begræns til tre velkendte fuglearter (spurv, due, and), brug store illustrationer med tykke konturer, og fokusér på én færdighed pr. session. For avancerede førskolebørn introducér flere fuglearter, tilføj bogstavsporing af fuglenavne og lad børnene tælle fugle i mere komplekse scener.',
+      parentTakeaway: 'Fugle er overalt, og det gør dem til det perfekte læringstema derhjemme. Sæt et foderbræt op og tæl fuglene sammen, peg på fugle på ture, og tal om deres farver og størrelser. Billedbøger om fugle forlænger læringen efter arbejdsarket. Lad barnet tegne de fugle, det ser udenfor — forbindelsen mellem virkelige observationer og papirarbejde styrker både naturfaglig nysgerrighed og finmotorik.',
+      classroomIntegration: 'Fugletemaet integreres naturligt i førskolens årshjul: om foråret observeres fugle, der bygger reder, om vinteren fyldes foderbrættet. I samlingen synges fuglesange, ved læringsstationer arbejdes med farvelægnings- og tælark, og på ture ledes efter fugle i nærområdet. Denne tværgående tilgang opfylder Fælles Måls mål for naturfag og sanseoplevelser.',
+      assessmentRubric: [
+        { skill: 'Fuglegenkendelse og kategorisering', emerging: 'genkender 2–3 almindelige fugle med voksenstøtte', proficient: 'navngiver selvstændigt 4–5 fugle og sorterer dem efter én egenskab', advanced: 'genkender 6+ fugle og forklarer forskelle mellem arterne' },
+        { skill: 'Tælling med fuglemotiver', emerging: 'tæller 1–5 fugle med pegen og voksenstøtte', proficient: 'tæller selvstændigt op til 10 fugle i en scene', advanced: 'tæller over 10 og sammenligner antal (flere fugle på den ene gren)' },
+        { skill: 'Finmotorisk kontrol (fuglefarvlægning)', emerging: 'farvelægger med brede strøg, delvist uden for konturerne', proficient: 'farvelægger inden for konturerne med jævne strøg', advanced: 'anvender detaljer og varierede farver i fuglebillederne' },
+      ],
     },
     'kindergarten': {
       seoTitle: 'Fugle-opgaver Børnehaveklasse | LessonCraftStudio',

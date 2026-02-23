@@ -103,6 +103,22 @@ const content: EnrichedThemeContent = {
         { question: 'Er madlavnings-arbejdsark sikre for førskolebørn?', answer: 'Alle madlavnings-arbejdsark er papirbaserede læringsaktiviteter, der ikke involverer nogen reel madlavning. De viser illustrationer af køkkenscener og simple opgaver som farvelægning, tælling og sekventering. Når du udvider læringen til ægte madlavning, kan du vælge kolde opskrifter uden varmebehandling og holde tæt opsyn, mens arbejdsarkets aktivitet forbereder de kognitive færdigheder, dit barn vil bruge i køkkenet.' },
         { question: 'Hvordan udvikler madlavnings-arbejdsark førskolens ordforråd?', answer: 'De introducerer køkkenord som skål, ske, røre, blande og hælde gennem mærkede illustrationer og matchingaktiviteter. Fordi førskolebørn møder disse genstande derhjemme hver dag, forstærkes ordforrådsgevinsterne naturligt gennem hverdagslivet, hvilket skaber hurtigere og mere holdbar ordlæring end temaer med mindre forbindelse til den daglige oplevelse.' },
       ],
+
+      snippetAnswer: 'Madlavning-arbejdsark til førskolen (3–4 år) bruger køkkengenstande, opskrifter og fødevarer til tælling, sortering og matchning. Den sanselige madoplevelse driver engagementet. Gratis printbare PDF-arbejdsark på LessonCraftStudio.',
+      uniqueGradeAngle: 'Madlavningstemaet er særligt effektivt for førskolebørn, fordi tre- og fireårige elsker at hjælpe i køkkenet — at røre i en gryde, hælde ingredienser og smage på resultatet. Denne multisensoriske oplevelse giver en naturlig ramme for matematik (tæl tre æg, to kopper mel), sekvensering (først blander vi, så bager vi) og sortering (frugt vs. grønsager). Madlavning er også et af de få temaer, der involverer alle sanser, hvilket forstærker hukommelsen markant. Matchning af køkkenredskaber med ingredienser opbygger logik. Fælles Måls mål for sundhed, hverdagskompetencer og måltidfællesskab understøttes direkte.',
+      developmentalMilestones: [
+        { milestone: 'Sekvensering (førskolebørn lærer at følge trin i rækkefølge)', howWeAddress: 'Opskrift-sekvenseringsark med billeder af hvert trin træner logisk rækkefølge i en motiverende kontekst' },
+        { milestone: 'Tælling af ingredienser (opbygning af mængdeforståelse)', howWeAddress: 'Tælleaktiviteter med æg, frugt og grønsager gør matematik konkret og sanselig' },
+        { milestone: 'Kategorisering af fødevarer (sortering efter type, farve, form)', howWeAddress: 'Sorteringsaktiviteter med fødevarer (frugt/grønt, sødt/salt) styrker kategorisk tænkning' },
+      ],
+      differentiationNotes: 'For førskolebørn med behov for støtte, fokusér på velkendte fødevarer (frugt, brød, mælk), brug fysiske køkkenredskaber som supplement, og hold opskriftssekvenserne korte (2–3 trin). For avancerede førskolebørn tilføj længere sekvenser, introducér måleenheder og lad dem "læse" enkle billedopskrifter selvstændigt.',
+      parentTakeaway: 'Køkkenet er et læringslaboratorium. Lad barnet tælle ingredienser, hælde og røre. Tal om, hvad der sker, når vi varmer dejen (naturvidenskab), og tæl portioner (matematik). Simple opskrifter som frugtsalat giver mulighed for tælling, sortering og sekvensering. Arbejdsarkene forbereder barnet på denne virkelige køkkenlæring ved at træne de kognitive færdigheder på papiret først.',
+      classroomIntegration: 'Madlavningstemaet passer perfekt ind i førskolens måltidsrutine: i samlingen tales om dagens frokost, ved læringsstationer arbejdes med sorterings- og tælark, i køkkenhjørnet laves simple opskrifter, og i rollelegen drives legestaurant. Temauger med "vi laver mad" integrerer Fælles Måls mål for sundhed, matematik og sociale færdigheder.',
+      assessmentRubric: [
+        { skill: 'Opskriftsekvensering', emerging: 'ordner 2 madlavningstrin med voksenstøtte', proficient: 'ordner selvstændigt 3–4 trin i en enkel opskrift', advanced: 'følger en billedopskrift selvstændigt og forklarer hvert trin' },
+        { skill: 'Tælling af ingredienser', emerging: 'tæller 1–4 ingredienser med støtte', proficient: 'tæller selvstændigt op til 10 ingredienser og matcher med tal', advanced: 'tæller over 10 og løser "hvor mange mangler"-opgaver' },
+        { skill: 'Fødevarekategorisering', emerging: 'sorterer i to grupper med støtte (frugt/ikke-frugt)', proficient: 'sorterer selvstændigt fødevarer i tre eller fire kategorier', advanced: 'opfinder egne kategorier og sorterer efter flere egenskaber' },
+      ],
     },
     'kindergarten': {
       seoTitle: 'Madlavning-opgaver Børnehaveklasse | LessonCraftStudio',

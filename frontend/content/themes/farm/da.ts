@@ -103,6 +103,22 @@ const content: EnrichedThemeContent = {
         { question: 'Hvordan hjælper bondegårdsarbejdsark med tidlig sprogudvikling?', answer: 'Bondegårdsdyr opmuntrer naturligt til lydefterligning, fra at brumme til at gale. Arbejdsark, der viser disse dyr, tilskynder børn til at navngive dem og efterligne deres lyde, hvilket træner mundmotoriske færdigheder og opbygger ordforråd på en legende, tryg måde.' },
         { question: 'Hvilke finmotoriske færdigheder opbygger førskole-bondegårdsarbejdsark?', answer: 'De udvikler blyantsgreb gennem sporing af dyrekonturer, hånd-øje-koordination gennem farvelægning inden for streger og klippefærdigheder gennem aktiviteter, der beder børn om at klippe ud og sortere bondegårdsbilleder på sorteringsmåtter.' },
       ],
+
+      snippetAnswer: 'Bondegård-arbejdsark til førskolen (3–4 år) bruger gårddyr, traktorer og afgrdoøder til tælling, matchning og farvelægning. Den velkendte bondegårdverden skaber et trygt læringsmiljø. Gratis printbare PDF-arbejdsark på LessonCraftStudio.',
+      uniqueGradeAngle: 'Bondegårdstemaet er et af de mest naturlige for førskolebørn i Danmark, fordi tre- og fireårige har et tæt forhold til gårddyr gennem besøg, billedbøger og sange. Ko, gris, høne og hest er blandt de første dyr, børn lærer at genkende og navngive. Tælling af dyr i en mark giver konkret matematik, matchning af dyr med deres produkter (ko → mælk, høne → æg) opbygger logik og hverdagsviden, og farvelægning af bondegårdsscener forfiner finmotorik. Sortering af gårddyr efter egenskaber styrker kategorisering. Fælles Måls mål for naturfaglæring og hverdagsforståelse understøttes direkte.',
+      developmentalMilestones: [
+        { milestone: 'Dyr-produkt-forbindelser (førskolebørn lærer, at gårddyr giver os fødevarer)', howWeAddress: 'Matchningsaktiviteter, der parrer dyr med produkter (ko→mælk, høne→æg), opbygger hverdagsviden og logik' },
+        { milestone: 'Tælling af dyr i grupper (opbygning af mængdeforståelse)', howWeAddress: 'Find-og-tæl-aktiviteter med gårddyr i mark og stald gør talforståelse naturlig og motiverende' },
+        { milestone: 'Dyrelyde og navngivning (førskolebørn lærer at koble dyr med lyde og navne)', howWeAddress: 'Bogstavs- og lydaktiviteter med gårddyr, hvor barnet forbinder bogstav med dyrelyd og -navn' },
+      ],
+      differentiationNotes: 'For førskolebørn med behov for støtte, fokusér på tre eller fire velkendte gårddyr (ko, gris, høne), brug plastikdyr som supplement, og hold aktiviteterne korte med masser af lyd og bevægelse. For avancerede førskolebørn tilføj flere dyr og produkter, introducér bogstavsporing af dyrenavne, og lad dem tegne deres egen bondegård.',
+      parentTakeaway: 'Bondegården er let tilgængelig for danske familier. Besøg en bondegård og lad barnet fodre dyrene, tæl dyrene sammen, og tal om, hvad de giver os (mælk, æg, uld). Syng bondegårdssange derhjemme og læs bondegårdsbøger. Disse virkelige oplevelser gør arbejdsarkene mere meningsfulde, fordi barnet kan forbinde papir med virkelighed.',
+      classroomIntegration: 'Bondegårdstemaet er et klassisk førskoleemne: i samlingen synges "Mester Jakob" og andre gårdsange, ved læringsstationer arbejdes med tælle- og matchningsark, i rollelegen drives bondegård med plastikdyr, og besøg på en rigtig bondegård er højdepunktet. Fælles Måls mål for naturfag, sprog og hverdagsforståelse integreres på tværs af alle aktiviteter.',
+      assessmentRubric: [
+        { skill: 'Gårddyr-genkendelse', emerging: 'navngiver 2–3 gårddyr med voksenstøtte', proficient: 'navngiver selvstændigt 5–6 gårddyr og deres lyde', advanced: 'navngiver 8+ gårddyr, deres produkter og levesteder' },
+        { skill: 'Dyr-produkt matchning', emerging: 'matcher ét dyr med sit produkt med støtte (ko→mælk)', proficient: 'matcher selvstændigt 3–4 dyr med produkter', advanced: 'matcher alle gårddyr med produkter og forklarer forbindelsen' },
+        { skill: 'Tælling af gårddyr', emerging: 'tæller 1–5 dyr med voksenstøtte', proficient: 'tæller selvstændigt op til 10 dyr i en gårdscene', advanced: 'tæller over 10 og sorterer dyr i grupper efter egenskab' },
+      ],
     },
     'kindergarten': {
       seoTitle: 'Bondegård-opgaver Børnehaveklasse | LessonCraftStudio',

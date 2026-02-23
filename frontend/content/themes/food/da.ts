@@ -103,6 +103,22 @@ const content: EnrichedThemeContent = {
         { question: 'Hvordan kan mad-arbejdsark hjælpe kræsne børn?', answer: 'Arbejdsark skaber positive associationer med mad gennem farvelægning, navngivning og sortering uden noget pres for at spise. Når børn interagerer med billeder af grøntsager og frugt i en sjov, uforpligtende læringskontekst, opbygger de fortrolighed, der kan reducere modstand, når disse madvarer dukker op ved måltiderne.' },
         { question: 'Skal jeg bruge ægte mad sammen med arbejdsarkene?', answer: 'Ja, at kombinere arbejdsark med ægte madprøver skaber kraftfuld multisensorisk læring. Efter at have farvelagt et arbejdsark-æble kan dit barn holde et rigtigt æble, mærke dets skind og tage en bid. Denne konkrete forbindelse mellem det illustrerede og det virkelige uddyber både ordforrådsforankring og ernæringsbevidsthed.' },
       ],
+
+      snippetAnswer: 'Mad-arbejdsark til førskolen (3–4 år) bruger frugt, grønsager og måltider til sortering, tælling og matchning. Den daglige fødevareoplevelse giver personlig relevans. Gratis printbare PDF-arbejdsark på LessonCraftStudio.',
+      uniqueGradeAngle: 'Madtemaet er et af de mest naturlige for førskolebørn, fordi tre- og fireårige møder mad flere gange om dagen — hvert måltid er en potentiel læringssituation. Børn i denne alder opbygger fødevarekendskab, lærer at navngive frugt og grønsager, og begynder at forstå sundhed. Sortering af fødevarer efter type (frugt/grønt), farve eller form giver grundlæggende kategoriseringsfærdigheder. Tælling af frugt i en skål er konkret og meningsfuld matematik. Matchning af fødevarer med måltider (frokost/aftensmad) styrker hverdagslogik. Fælles Måls mål for sundhed, krop og hverdagsforståelse understøttes direkte.',
+      developmentalMilestones: [
+        { milestone: 'Fødevarekategorisering (3–4-årige lærer at sortere fødevarer i grupper)', howWeAddress: 'Sorteringsaktiviteter, hvor børn grupperer fødevarer efter type, farve eller måltid, styrker logisk tænkning' },
+        { milestone: 'Tælling med hverdagsgenstande (frugt, grønsager, brødskiver)', howWeAddress: 'Tælleaktiviteter med fødevarer gør matematik konkret og personligt relevant' },
+        { milestone: 'Størrelsessammenligning (stor/lille, mere/mindre)', howWeAddress: 'Stor-lille-aktiviteter med fødevarer, hvor børn sammenligner størrelser og mængder' },
+      ],
+      differentiationNotes: 'For førskolebørn med behov for støtte, fokusér på velkendte fødevarer (banan, æble, brød), brug plastikfrugter som supplement, og begræns til én sorteringsegenskab ad gangen. For avancerede førskolebørn introducér flere fødevarekategorier, tilføj tælling af ingredienser i en opskrift, og lad dem matche fødevarer med måltider.',
+      parentTakeaway: 'Hvert måltid er en læringsstund. Lad barnet hjælpe med at tælle kartofler, sortere frugt efter farve og vælge grønsager i supermarkedet. Tal om, hvad vi spiser: "Er det en frugt eller en grønsag?" Lad barnet hjælpe med at forberede madpakken — det giver både selvstændighed og fødevarekendskab. Disse daglige øjeblikke er den bedste forlængelse af arbejdsarkenes sortering og tælling.',
+      classroomIntegration: 'Madtemaet er vævet ind i førskolens måltidsrutine: i samlingen tales om sundhed og fødevaregrupper, ved læringsstationer arbejdes med sorterings- og tælleark, ved frokost navngives fødevarerne på tallerkenen, og i rollelegen drives legesupermarked. Temauger om "fra jord til bord" integrerer Fælles Måls mål for sundhed, naturfag og matematik.',
+      assessmentRubric: [
+        { skill: 'Fødevarekategorisering', emerging: 'sorterer fødevarer i to grupper med støtte (frugt/ikke-frugt)', proficient: 'sorterer selvstændigt i tre eller fire kategorier (frugt, grønt, brød, mejeriprodukter)', advanced: 'sorterer efter flere egenskaber og forklarer sine valg' },
+        { skill: 'Tælling af fødevarer', emerging: 'tæller 1–5 fødevarer med pegen og støtte', proficient: 'tæller selvstændigt op til 10 og matcher med korrekt tal', advanced: 'tæller over 10 og sammenligner mængder (flere æbler end pærer)' },
+        { skill: 'Størrelsessammenligning', emerging: 'peger på den store og den lille med støtte', proficient: 'sorterer selvstændigt tre genstande fra stor til lille', advanced: 'sammenligner fem eller flere og bruger begreber som størst, mindst, mellemstor' },
+      ],
     },
     'kindergarten': {
       seoTitle: 'Mad-opgaver Børnehaveklasse | LessonCraftStudio',

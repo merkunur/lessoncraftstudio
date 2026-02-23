@@ -103,6 +103,22 @@ const content: EnrichedThemeContent = {
         { question: 'Hvordan understøtter kropsarbejdsark fysisk udvikling hos førskolebørn?', answer: 'De udvikler finmotoriske færdigheder gennem sporring af kropskonturer og farvelægning inden for linjer. Endnu vigtigere opbygger de kropsbevidsthed og kropsskema, den indre fornemmelse af, hvor kropsdele er, og hvad de gør, som understøtter koordination, balance og fysisk selvtillid.' },
         { question: 'Kan kropsarbejdsark hjælpe førskolebørn med at lære om sundhed og hygiejne?', answer: 'Absolut. Arbejdsark, der viser håndvasktrin, tandbørstningstrutiner eller sunde madvalg, introducerer hygiejnekoncepter gennem visuelle sekvenser. Når børn kan navngive de involverede kropsdele, forstår de, hvorfor disse rutiner er vigtige, og gør sundhedsundervisningen til noget personligt og meningsfuldt.' },
       ],
+
+      snippetAnswer: 'Krop-arbejdsark til førskolen (3–4 år) lærer kropsdele gennem matchning, farvlægning og sporing. Børn forbinder bogstaver og tal med deres egen krop, hvilket gør læringen personlig og konkret. Gratis printbare PDF-arbejdsark på LessonCraftStudio.',
+      uniqueGradeAngle: 'Kroptemaet er særligt kraftfuldt for førskolebørn, fordi tre- og fireårige er intenst optaget af at lære om deres egen krop — de navngiver kropsdele, tæller fingre og tæer, og opdager, hvad deres krop kan. Denne personlige forbindelse gør kroppen til det mest konkrete læringstema overhovedet: barnet er selve læremidlet. Tælling af fingre og tæer op til 10 giver en naturlig matematisk ramme. Matchning af kropsdele med deres navne kombinerer sproglig udvikling med kropsbevidsthed. Sporing af hænder og fødder træner finmotorik. Fælles Måls mål for sundhed, krop og bevidægelse mødes direkte gennem kropsarbejdsark.',
+      developmentalMilestones: [
+        { milestone: 'Kropsbevidsthed (3–4-årige lærer at navngive og lokalisere kropsdele)', howWeAddress: 'Matchningsaktiviteter, der forbinder kropsdele med deres navne og funktioner, opbygger kropsbevidsthed og ordforråd' },
+        { milestone: 'Tælling af kropsegne tal (fingre, tæer, øjne, ører)', howWeAddress: 'Tælleaktiviteter med kropsdele gør tal konkrete og personlige — barnet bruger sin egen krop som tælleværktøj' },
+        { milestone: 'Kropslig selvbevidsthed (førskolebørn begynder at tegne mennesker med hoved, krop og lemmer)', howWeAddress: 'Tegne-og-farvelæg-aktiviteter, hvor børn færdiggør kroppens dele, styrker både kropsopfattelse og finmotorik' },
+      ],
+      differentiationNotes: 'For førskolebørn med behov for støtte, start med de mest velkendte kropsdele (hoved, hænder, fødder), brug barnets egen krop som reference, og hold aktiviteterne fysisk aktive. For avancerede førskolebørn introducér indre organer (hjerte, lunger), tilføj bogstavsporing af kropsord og udfordre dem med at tegne en hel person med alle detaljer.',
+      parentTakeaway: 'Kroppen er barnets første læremiddel. Navngiv kropsdele under badning, tæl fingre og tæer før sengetid, og leg "peg på din næse/albue/knæ" som en sjov hverdagsleg. Lad barnet tegne sig selv — tegninger af mennesker viser, hvad barnet ved om kroppen, og udvikler sig markant mellem tre og fire år. Denne daglige kropsbevidsthed understøtter både sundhed og læring.',
+      classroomIntegration: 'Kroptemaet integreres i førskolens daglige rutiner: i samlingen synges kropssange og peges på kropsdele, ved bevægelseslegen udforskes, hvad kroppen kan, ved læringsstationer arbejdes med kropsarbejdsark, og i kunsthjørnet tegnes selvportrætter. Fælles Måls mål for sundhed, krop og trivsel opfyldes, når kropsbevidsthed kobles med faglig læring.',
+      assessmentRubric: [
+        { skill: 'Genkendelse af kropsdele', emerging: 'navngiver 3–5 kropsdele med voksenstøtte', proficient: 'navngiver selvstændigt 8–10 kropsdele og peger på dem', advanced: 'navngiver 12+ kropsdele inkl. albue, ankel, skulder og forklarer funktioner' },
+        { skill: 'Tælling med kroppen', emerging: 'tæller fingre på én hånd (1–5) med støtte', proficient: 'tæller selvstændigt fingre og tæer op til 10', advanced: 'bruger kroppen til at løse enkle regneopgaver (vis mig 3 fingre plus 2 fingre)' },
+        { skill: 'Menneskefigurtegning', emerging: 'tegner en hovedfødding (hoved med ben)', proficient: 'tegner en person med hoved, krop, arme og ben', advanced: 'tegner med detaljer som fingre, tøj, hår og ansigtsudtryk' },
+      ],
     },
     'kindergarten': {
       seoTitle: 'Krop-opgaver Børnehaveklasse | LessonCraftStudio',

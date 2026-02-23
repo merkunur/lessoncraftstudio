@@ -104,6 +104,22 @@ const content: EnrichedThemeContent = {
         { question: 'Hvor lang bør en førskole-skovarbejdsark-session være?', answer: 'Otte til tolv minutter er ideelt for de fleste tre- og fireårige. Hold øje med tegn på træthed, og skift til praktisk leg som at sortere rigtige blade eller lege med træfigurer, før barnet mister interessen.' },
         { question: 'Hvilke færdigheder udvikler førskole-skovarbejdsark?', answer: 'De opbygger finmotorisk kontrol gennem farvelægning og sporing, tidlig talforståelse gennem tælling af skovgenstande, farve- og formgenkendelse gennem bladsorteringsaktiviteter og kognitive færdigheder gennem matchning af dyr med deres skovlevesteder.' },
       ],
+
+      snippetAnswer: 'Skov-arbejdsark til førskolen (3–4 år) bruger træer, blade og skovdyr til farvelægning, tælling og matchning. Den danske skovtradition gør temaet særligt relevant og sansemættende. Gratis printbare PDF-arbejdsark på LessonCraftStudio.',
+      uniqueGradeAngle: 'Skovtemaet har en særlig plads i dansk førskolekultur, fordi mange børnehaver er skovbørnehaver eller har ugentlige skovture — tre- og fireårige kender skovens lyde, lugte og materialer fra førstehåndsoplevelser. Denne dybe fortrolighed med skoven gør arbejdsarkene ekstra meningsfulde, fordi barnet kan forbinde papir med virkelige oplevelser. Tælling af kogler, blade og svampe er konkret matematik forankret i naturen. Skyggematchning med træer og dyr styrker visuel skelneevne. Farvelægning af skovscener forfiner finmotorik. Matchning af dyr med levesteder opbygger økologisk forståelse. Fælles Måls mål for natur, udeliv og sanseoplevelser understøttes direkte.',
+      developmentalMilestones: [
+        { milestone: 'Naturmaterialegenkendelse (3–4-årige lærer at identificere blade, kogler, bark og svampe)', howWeAddress: 'Matchnings- og sorteringsaktiviteter med skovmaterialer forbinder papirøvelse med virkelige naturoplevelser' },
+        { milestone: 'Tælling i naturen (opbygning af mængdeforståelse med naturlige genstande)', howWeAddress: 'Find-og-tæl-aktiviteter med skovgenstande gør matematik til en del af naturturens oplevelse' },
+        { milestone: 'Visuel skelneevne (skelne mellem lignende naturformer)', howWeAddress: 'Skyggematchning med skovsilhuetter og skovdyr styrker observation og visuel analyse' },
+      ],
+      differentiationNotes: 'For førskolebørn med behov for støtte, fokusér på de mest velkendte skovdyr og -materialer (egern, blad, kogle), brug rigtige naturmaterialer som supplement, og hold scenerne enkle. For avancerede førskolebørn tilføj flere skovarter, introducér enkel økologisk sortering (levende/ikke-levende, plante/dyr) og lad dem tegne deres egen skov.',
+      parentTakeaway: 'Skoven er Danmarks grønne klasselokale. Tag barnet med på skovtur og saml blade, kogler og sten. Tæl fundene derhjemme, sorter dem efter størrelse og type, og press bladene. Disse førstehåndsoplevelser gør arbejdsarkene langt mere meningsfulde. Lad barnet fortælle om, hvad det så i skoven — det styrker både ordforråd og fortællekompetence.',
+      classroomIntegration: 'Skovtemaet er uadskillelig fra den danske førskoles udendørspraksis: på skovture samles naturmaterialer, i samlingen tales om skovens dyr og årstider, ved læringsstationer arbejdes med skovtematiske arbejdsark, og i sanserummet udforskes bark, mos og kogler. Ugentlige skovdage giver den virkelighedsforankring, der gør arbejdsarkene meningsfulde. Fælles Måls mål for natur, udeliv og naturfaglæring er skovtemaets kerne.',
+      assessmentRubric: [
+        { skill: 'Naturmaterialegenkendelse', emerging: 'navngiver 2–3 skovgenstande med støtte (blad, kogle, pind)', proficient: 'navngiver selvstændigt 5–6 naturmaterialer og sorterer dem', advanced: 'navngiver 8+ materialer, forklarer hvor de kommer fra, og sorterer efter flere egenskaber' },
+        { skill: 'Tælling i skovscener', emerging: 'tæller 1–5 skovgenstande med støtte', proficient: 'tæller selvstændigt op til 10 i en skovscene', advanced: 'tæller over 10 og sammenligner mængder (flere blade end svampe)' },
+        { skill: 'Visuel skelneevne (skovsilhuetter)', emerging: 'matcher 2–3 silhuetter med støtte', proficient: 'matcher selvstændigt 5–6 skovsilhuetter med de rigtige billeder', advanced: 'matcher komplekse silhuetter og beskriver, hvilke træk der afslører genstanden' },
+      ],
     },
     'kindergarten': {
       seoTitle: 'Skov-opgaver Børnehaveklasse | LessonCraftStudio',

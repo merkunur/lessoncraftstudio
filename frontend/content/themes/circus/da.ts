@@ -103,6 +103,22 @@ const content: EnrichedThemeContent = {
         { question: 'Hvordan understøtter cirkus-arbejdsark farvelæring i førskolen?', answer: 'Cirkusscener har enhver farve i fede, umiskendelige kombinationer: røde næser, gule stjerner, blå telte, grønne kostumer. Maleaktiviteter beder børn om at vælge og navngive specifikke farver, mens matchende aktiviteter parrer farvede genstande med deres etiketter. Resultatet er mere farvenavneøvelse per arbejdsark end næsten ethvert andet tema giver.' },
         { question: 'Hvilke finmotoriske færdigheder udvikler førskole-cirkusarbejdsark?', answer: 'De udvikler blyantgreb gennem sporing af cirkusordforråd, hånd-øje-koordination gennem farvelægning af stribede telte og mønstrede kostumer, og klipfærdigheder gennem aktiviteter der involverer udklipning af cirkusfigurer til sorteringsspil. De varierede mønstre og former i cirkusillustrationer giver alsidige motoriske udfordringer.' },
       ],
+
+      snippetAnswer: 'Cirkus-arbejdsark til førskolen (3–4 år) bruger klovne, dyr og artister til farvelægning, tælling og matchning. De farverige cirkusmotiver fascinerer førskolebørn og driver engagement. Gratis printbare PDF-arbejdsark på LessonCraftStudio.',
+      uniqueGradeAngle: 'Cirkustemaet appellerer dybt til førskolebørn, fordi tre- og fireårige er fascinerede af den magiske verden med klovne, akrobater og dresserede dyr. De farverige, overdrevne cirkusbilleder fænger opmærksomheden længere end de fleste andre temaer, fordi hvert billede er en verden af detaljer at udforske. Tælling af cirkusdyr og bolde giver naturlige matematikøvelser, matchning af artister med deres rekvisitter opbygger logik, og farvelægning af klovne og telte forfiner finmotorik. Cirkus introducerer også mønstergenkendelse (stribet telt, prikket klovnedragt). Fælles Måls mål for kreativitet og fantasi understøttes direkte af cirkustemaets legende karakter.',
+      developmentalMilestones: [
+        { milestone: 'Mønstergenkendelse (3–4-årige begynder at identificere gentagne mønstre)', howWeAddress: 'Mønsterarbejdsark med cirkusmotiver (rød-hvid-rød striber på teltet, prik-stribe-prik på klovnen) introducerer sekvenslogik' },
+        { milestone: 'Tælling og en-til-en-korrespondance', howWeAddress: 'Find-og-tæl-aktiviteter med cirkuselementer (bolde, stjerner, dyr i manego) gør tælling festlig og motiverende' },
+        { milestone: 'Visuel skelneevne (identificere forskelle mellem lignende billeder)', howWeAddress: 'Skyggematchning med cirkussilhuetter og find-den-der-er-anderledes-aktiviteter styrker observation' },
+      ],
+      differentiationNotes: 'For førskolebørn med behov for støtte, fokusér på simple cirkusscener med én klovn eller ét dyr, brug store konturer, og lad barnet vælge farver frit. For avancerede førskolebørn tilføj mønster-fortsæt-opgaver, introducér tælling over 10, og udfordre dem med at finde forskelle mellem to næsten ens cirkusbilleder.',
+      parentTakeaway: 'Cirkusfascinationen kan forlænges derhjemme med enkle cirkuslege: jonglér med bøller, lav klovnesminke, gang på en "line" af tape på gulvet. Tæl sammen, hvor mange bolde klovnen kaster, og tal om mønstrene på cirkusteltet. Cirkusbøger og -videoer giver ordforråd og fantasi, der gør arbejdsarkene mere levende.',
+      classroomIntegration: 'Cirkustemaet fungerer fantastisk som projektemne: i samlingen vises cirkusbilleder og -videoer, i bevægelseslegen øves balance og jonglering, ved læringsstationer arbejdes med cirkusarbejdsark, og som afslutning opfører børnene deres eget lille cirkusshow. Denne projektbaserede tilgang opfylder Fælles Måls mål for kreativitet, kropslig udfoldelse og samarbejde.',
+      assessmentRubric: [
+        { skill: 'Tælling af cirkuselementer', emerging: 'tæller 1–5 cirkusgenstande med voksenstøtte', proficient: 'tæller selvstændigt op til 10 i en cirkusscene og matcher med tal', advanced: 'tæller over 10 og sorterer cirkusgenstande i kategorier' },
+        { skill: 'Mønstergenkendelse (cirkusmotiver)', emerging: 'identificerer et simpelt AB-mønster med voksenstøtte', proficient: 'genkender og fortsætter AB- og ABC-mønstre selvstændigt', advanced: 'skaber egne mønstre og forklarer mønsterlogikken' },
+        { skill: 'Visuel skelneevne (cirkusbilleder)', emerging: 'finder 1–2 forskelle mellem to cirkusbilleder med støtte', proficient: 'finder selvstændigt 3–4 forskelle', advanced: 'finder alle forskelle hurtigt og beskriver dem mundtligt' },
+      ],
     },
     'kindergarten': {
       seoTitle: 'Cirkus-opgaver Børnehaveklasse | LessonCraftStudio',

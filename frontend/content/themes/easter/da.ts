@@ -103,6 +103,22 @@ const content: EnrichedThemeContent = {
         { question: 'Hvordan understøtter påskearbejdsark tidlig naturfagslæring?', answer: 'Påsken introducerer naturligt naturfagsbegreber som udklækning, vækst og årstidsændring. Arbejdsark, der viser kyllinger, der bryder ud af æg, eller blomster der springer ud, ansporer til samtaler om livscyklusser og forårets komme og opbygger grundlæggende naturvidenskabeligt ordforråd og observationsfærdigheder.' },
         { question: 'Hvad gør påskearbejdsark særligt engagerende for førskolebørn?', answer: 'Skattejagtelementet i påske tapper direkte ind i førskoleglæden ved opdagelse og overraskelse. Find-og-tæl-arbejdsark efterligner spændingen ved en æggejagt, og de klare pastellfarver og dyreungebilleder holder naturligt små børns opmærksomhed længere end mere abstrakte temaer.' },
       ],
+
+      snippetAnswer: 'Påske-arbejdsark til førskolen (3–4 år) bruger æg, kyllinger og kaniner til farvelægning, tælning og mønsterdekoration. Den festlige stemning og den visuelle rigdom driver engagementet. Gratis printbare PDF-arbejdsark på LessonCraftStudio.',
+      uniqueGradeAngle: 'Påsketemaet er ideelt for førskolebørn, fordi tre- og fireårige oplever påsken som en magisk tid med farvelagte æg, kyllinger og æggejagt — visuelle og sanselige oplevelser, der fænger fuldstændigt. Påskeæg giver perfekte muligheder for mønsterdekoration (striber, prikker, bølger), tælling og farveidentifikation. Den tidsbegrænsede sæsonkarakter skaber naturlig begejstring og engagement. Tælling af æg i en kurv giver konkret matematik, matchning af kyllinger med reder opbygger logik, og farvelægning af påskemotiver forfiner finmotorik. Fælles Måls mål for kultur, traditioner og kreativitet understøttes naturligt.',
+      developmentalMilestones: [
+        { milestone: 'Mønskerdekoration (3–4-årige begynder at anvende gentagne mønstre på overflader)', howWeAddress: 'Påskeæg-dekorationsark, hvor børn fortsætter mønstre (striber, prikker, bølger), introducerer mønstergenkendelse' },
+        { milestone: 'Tælling i kontekst (æg i kurv, kyllinger på eng)', howWeAddress: 'Find-og-tæl-aktiviteter med påskemotiver gør talforståelse festlig og sanselig' },
+        { milestone: 'Visuel søgning (finde skjulte genstande)', howWeAddress: 'Æggejagt-lignende find-objekter-aktiviteter, hvor børn søger efter skjulte æg i en scene, træner systematisk visuel scanning' },
+      ],
+      differentiationNotes: 'For førskolebørn med behov for støtte, fokusér på simple æg-farvelægninger med store felter, tæl få æg (1–5), og brug fysiske påskeæg som supplement. For avancerede førskolebørn tilføj komplekse mønstre på æggene, tælling over 10, og lad dem designe helt egne påskeæg med mønstre.',
+      parentTakeaway: 'Påsken er en oplagt læringsfest derhjemme. Farvelæg æg sammen og tal om mønstre (striber, prikker, bølger). Gem påskeæg og tæl, hvor mange barnet finder. Lav kyllinger og kaniner i modellervoks. Påskens visuelle rigdom — farver, former, mønstre — giver utallige muligheder for at øve de færdigheder, som arbejdsarkene træner.',
+      classroomIntegration: 'Påsketemaet er et højdepunkt i forårets førskoleprogram: i samlingen synges påskesange og læses påskehistorier, ved læringsstationer arbejdes med farvelægnings- og tælleark, i kunsthjørnet dekoreres æg og klippes kyllinger, og udendørs arrangeres æggejagt. Fælles Måls mål for kultur, traditioner og æstetik opfyldes.',
+      assessmentRubric: [
+        { skill: 'Mønsterdekoration (påskeæg)', emerging: 'anvender ét simpelt mønster med støtte', proficient: 'genkender og fortsætter to mønstertyper (striber, prikker) selvstændigt', advanced: 'skaber egne mønstre med tre eller flere elementer og varierer dem' },
+        { skill: 'Tælling af påskemotiver', emerging: 'tæller 1–5 æg/kyllinger med støtte', proficient: 'tæller selvstændigt op til 10 og matcher med tal', advanced: 'tæller over 10 og sammenligner mængder (flere æg end kyllinger)' },
+        { skill: 'Visuel søgning (påskescener)', emerging: 'finder 1–2 skjulte æg med støtte', proficient: 'finder selvstændigt 4–5 skjulte genstande i en påskescene', advanced: 'finder alle skjulte genstande systematisk og hurtigt' },
+      ],
     },
     'kindergarten': {
       seoTitle: 'Påske-opgaver Børnehaveklasse | LessonCraftStudio',

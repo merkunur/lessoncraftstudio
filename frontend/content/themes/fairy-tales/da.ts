@@ -103,6 +103,22 @@ const content: EnrichedThemeContent = {
         { question: 'Kan eventyr hjælpe førskolebørn med at lære om følelser?', answer: 'Ja. Eventyrhelte oplever klare, stærke følelser som frygt, glæde og vrede, som førskolebørn kan identificere i illustrationerne. Arbejdsark, der beder børn om at matche en figur med et følelsesansigt, opbygger følelsesmæssigt ordforråd og empatifærdigheder, der understøtter social udvikling.' },
         { question: 'Hvordan opbygger eventyr-arbejdsark tidlig læsefærdighed for førskolebørn?', answer: 'De introducerer bogstavgenkendelse gennem sporing af figurnavne som konge og dronning, opbygger ordforråd gennem billed-ord-matching og udvikler narrativ forståelse gennem simple rækkefølgeaktiviteter. Disse grundlæggende færdigheder forbereder børnene på den mere strukturerede læseundervisning, de vil møde i børnehaveklassen.' },
       ],
+
+      snippetAnswer: 'Eventyr-arbejdsark til førskolen (3–4 år) bruger prinsesser, drager og troldmænd til matchning, sekvensering og farvelægning. Den fantastiske verden stimulerer både sprogudvikling og kreativitet. Gratis printbare PDF-arbejdsark på LessonCraftStudio.',
+      uniqueGradeAngle: 'Eventyrtemaet er særligt kraftfuldt for førskolebørn, fordi tre- og fireårige lever i en verden, hvor fantasi og virkelighed flyder sammen — de tror på drager, prinsesser og magiske væsener, og denne tro gør eventyrarbejdsark til den mest opslugende læringsoplevelse. Eventyr giver naturlige muligheder for sekvensering (begyndelse-midte-slutning), ordforrådsudvikling (slot, drage, troldstav) og finmotorisk træning (farvelægning af detaljerede eventyrscener). Matchning af eventyrfigurer med deres rekvisitter opbygger logik. Højtlæsning af eventyr efterfulgt af arbejdsark styrker fortællekompetence. Fælles Måls mål for sprog, fortgælling og fantasi understøttes naturligt.',
+      developmentalMilestones: [
+        { milestone: 'Fortællekompetence (3–4-årige begynder at genfortælle enkle historier i rækkefølge)', howWeAddress: 'Sekvenseringsaktiviteter med eventyrscener (først, så, til sidst) træner fortællestruktur' },
+        { milestone: 'Fantasileg og symbolsk tænkning (børn bruger genstande til at repræsentere andre)', howWeAddress: 'Tegne-og-farvelæg-aktiviteter med eventyrfigurer styrker symbolsk tænkning og kreativt udtryk' },
+        { milestone: 'Ordforrådsudvikling (førskolebørn lærer nye ord i meningsfulde kontekster)', howWeAddress: 'Matchning og ordaktiviteter med eventyrordforråd (slot, krone, drage, skov) udvider ordforrådet markant' },
+      ],
+      differentiationNotes: 'For førskolebørn med behov for støtte, fokusér på velkendte eventyr (Rødhætte, De Tre Små Grise), brug store, enkle illustrationer og begræns sekvensering til to eller tre billeder. For avancerede førskolebørn tilføj længere sekvenser, introducér bogstavsporing af eventyrord og lad dem opfinde egne eventyrslutninger.',
+      parentTakeaway: 'Eventyr er det ultimative sprogværktøj. Læs eventyr højt hver aften og lad barnet genfortælle med sine egne ord. Spørg "hvad tror du, der sker nu?" og "hvordan føler prinsessen sig?". Leg eventyr sammen med tøjdyr og udklædningstøj. Denne daglige fortællepraksis opbygger ordforråd, fortællestruktur og empati — de vigtigste forudsætninger for læsning.',
+      classroomIntegration: 'Eventyrtemaet er en bærende søjle i førskolens sprogarbejde: i samlingen læses og genfortælles eventyr, ved læringsstationer arbejdes med sekvenseringsark og matchning, i rollelegehjørnet opføres eventyr med kostumer og rekvisitter, og i kunsthjørnet tegnes eventyrfigurer. Fælles Måls mål for sproglig udvikling, fortællekompetence og fantasi opfyldes.',
+      assessmentRubric: [
+        { skill: 'Historiesekvensering', emerging: 'ordner 2 eventyrscener i rækkefølge med støtte', proficient: 'ordner selvstændigt 3–4 scener og genfortæller historien', advanced: 'ordner komplekse sekvenser og tilføjer detaljer i genfortællingen' },
+        { skill: 'Eventyrordforråd', emerging: 'genkender 2–3 eventyrord med billedstøtte', proficient: 'navngiver selvstændigt 5–6 eventyrfigurer og -genstande', advanced: 'bruger eventyrordforråd i egne historier og forklarer ordene' },
+        { skill: 'Kreativt udtryk (eventyrtegning)', emerging: 'farvelægger eventyrfigurer med grove strøg', proficient: 'tegner og farvelægger eventyrscener med detaljer', advanced: 'opfinder og tegner egne eventyrfigurer og fortæller deres historie' },
+      ],
     },
     'kindergarten': {
       seoTitle: 'Eventyr-opgaver Børnehaveklasse | LessonCraftStudio',

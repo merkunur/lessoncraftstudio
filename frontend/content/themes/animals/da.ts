@@ -104,6 +104,23 @@ const content: EnrichedThemeContent = {
         { question: 'Hvor lang tid bør en førskole-arbejdsarkssession vare?', answer: 'Otte til tolv minutter er ideelt for de fleste tre- og fireårige. Hold øje med tegn på træthed eller frustration, og skift til praktisk leg, inden barnet mister interessen.' },
         { question: 'Hvilke færdigheder udvikler førskole-dyrearbejdsark?', answer: 'De opbygger finmotorisk kontrol gennem farvelægning og sporing, tidlig talforståelse gennem tælling, bogstavgenkendelse gennem sporing af dyrenavne og kognitive færdigheder gennem sorterings- og matchningsaktiviteter.' },
       ],
+
+      snippetAnswer: 'Dyre-arbejdsark til førskolen (3–4 år) bruger farvelægning, tælling og matchning med dyrebilleder til at styrke finmotorik, talgenkendelse og kategorisering. Børnenes naturlige dyrefascination driver motivationen. Gratis printbare PDF-arbejdsark på LessonCraftStudio.',
+      uniqueGradeAngle: 'Dyretemaet er et af de mest kraftfulde for førskolebørn, fordi tre- og fireårige har en medfødt fascination af dyr, der giver en følelsesmæssig motor for læring. Børn i denne alder begynder at kategorisere verden omkring sig — store dyr vs. små dyr, dyr med pels vs. fjer — og denne naturlige sorteringsevne er en kognitiv milepol, som dyrearbejdsark systematisk kan styrke. Farvelægning af dyrebilleder med tykke konturer træner finmotorik, mens tælling af dyr i en scene opbygger en-til-en-korrespondance. Fælles Måls mål for natur og naturfaglæring mødes direkte, når førskolebørn lærer om dyr gennem strukturerede aktiviteter.',
+      developmentalMilestones: [
+        { milestone: 'Kategorisk tænkning (3–4-årige begynder at sortere genstande efter én egenskab)', howWeAddress: 'Sorteringsaktiviteter med picture-sort, hvor børn grupperer dyr efter egenskaber som pels/fjer eller ben/vinger' },
+        { milestone: 'Tælling af små mængder (førskolebørn opbygger en-til-en-korrespondance til 10)', howWeAddress: 'Find-og-tæl-aktiviteter, hvor børn tæller specifikke dyr i en scene og matcher med det korrekte tal' },
+        { milestone: 'Visuel skelneevne (børn lærer at se forskelle mellem lignende former)', howWeAddress: 'Skyggematchning med dyresilhuetter skærper observationsevner, der understøtter både læseparathed og naturvidenskab' },
+        { milestone: 'Finmotorisk kontrol (overgang fra hel-arm til håndledsbaseret kontrol)', howWeAddress: 'Farvelægningssider med dyremotiver med tykke konturer understøtter grebudvikling og hånd-øje-koordination' },
+      ],
+      differentiationNotes: 'For førskolebørn med behov for støtte, begræns til tre eller fire velkendte dyr pr. aktivitet, brug plastikdyr som fysisk supplement til arbejdsarket, og fokusér på én færdighed ad gangen (kun tælling eller kun matchning). For avancerede førskolebørn udvid med flere dyrekategorier, introducér enkel naturvidenskabelig klassifikation og tilføj bogstavsporing af dyrenavne.',
+      parentTakeaway: 'Dyr er en naturlig indgang til læring for små børn. Udnyt barnets dyreinteresse derhjemme ved at tælle dyr i billedbøger, sortere tøjdyr efter størrelse og farve, og tale om, hvor forskellige dyr bor. Besøg på bondegårde eller i zoologisk have giver førstehåndsoplevelser, der forstærker det, barnet lærer på arbejdsarkene. Lad barnet vælge sit yndlingsdyr som udgangspunkt — motivationen kommer indefra.',
+      classroomIntegration: 'Dyretemaet passer perfekt ind i førskolens ugentlige rutiner: i samlingen introduceres ugens dyr med billeder og lyde, ved læringsstationer arbejdes med farvelægning og tælleark, i den frie leg bruges plastikdyr til rollelege, og på naturture ledes efter insekter og fugle. Denne integration på tværs af aktiviteter understøtter Fælles Måls mål for både naturfaglæring og sproglig udvikling.',
+      assessmentRubric: [
+        { skill: 'Kategorisering af dyr', emerging: 'sorterer dyr i to grupper med voksenstøtte (f.eks. store/små)', proficient: 'sorterer selvstændigt dyr efter to egenskaber (levested, dække)', advanced: 'opfinder egne sorteringskriterier og forklarer hvorfor dyrene hører til i gruppen' },
+        { skill: 'Tælling af dyr', emerging: 'tæller 1–5 dyr med én-til-én pegen med voksenstøtte', proficient: 'tæller selvstændigt op til 10 dyr og matcher med korrekt tal', advanced: 'tæller over 10 og sammenligner mængder (flere/færre)' },
+        { skill: 'Visuel skelneevne (dyresilhuetter)', emerging: 'matcher 2–3 dyresilhuetter med voksenstøtte', proficient: 'matcher selvstændigt 5–6 silhuetter med de rigtige dyr', advanced: 'matcher komplekse silhuetter og beskriver, hvilke træk der afslører dyret' },
+      ],
     },
     'kindergarten': {
       seoTitle: 'Dyr-opgaver Børnehaveklasse | LessonCraftStudio',

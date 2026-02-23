@@ -103,6 +103,22 @@ const content: EnrichedThemeContent = {
         { question: 'Hvilke matematiske begreber lærer førskole-byggeriarbejdsark?', answer: 'De fokuserer på at tælle værktøj og byggematerialer til ti, sammenligne størrelser på entreprenørmaskiner, matche former i gitter- og skyggeøvelser samt genkende grundlæggende geometriske former i byggestrukturer. Disse grundlæggende færdigheder stemmer overens med Fælles Måls førskolerettede kompetencer.' },
         { question: 'Er byggeriarbejdsark også velegnede til piger?', answer: 'Absolut. Byggeri appellerer til alle børn, der nyder at bygge, skabe og problemløse. Forskning viser, at når byggeaktiviteter præsenteres på inkluderende, farverige og indbydende måder, engagerer børn af alle køn sig entusiastisk. Arbejdsark med mangfoldige arbejdere og kreative byggeprojekter tiltrækker bred deltagelse.' },
       ],
+
+      snippetAnswer: 'Byggeri-arbejdsark til førskolen (3–4 år) bruger gravemaskiner, kraner og byggerier til tælling, matchning og farvelægning. Fascinationen af store maskiner driver stærkt engagement. Gratis printbare PDF-arbejdsark på LessonCraftStudio.',
+      uniqueGradeAngle: 'Byggetemaet har en særlig tiltrokkelseskraft for førskolebørn, fordi tre- og fireårige er fascinerede af store maskiner, der graver, løfter og bygger. Denne intense interesse — særligt udbredt, men ikke begrænset til drenge — giver en kraftfuld motivationsmotor for læring. Tælling af mursten, hjul og vinduer giver konkret matematik, matchning af værktøj til opgaver opbygger logisk tænkning, og farvelægning af maskiner med mange detaljer forfiner finmotorik. Byggetemaet introducerer også rumlige begreber (høj/lav, stor/lille) og sekvensering (først graver vi, så bygger vi). Fælles Måls mål for nysgerrighed og udforskning opfyldes.',
+      developmentalMilestones: [
+        { milestone: 'Rumlige begreber (3–4-årige lærer høj/lav, stor/lille, over/under)', howWeAddress: 'Matchningsaktiviteter og skyggematchning med byggemaskiner og bygninger styrker rumlig forståelse' },
+        { milestone: 'Tælning med konkrete genstande (opbygning af en-til-en-korrespondance)', howWeAddress: 'Tælleaktiviteter med mursten, hjul og vinduer i byggescener gør matematik håndgribelig' },
+        { milestone: 'Sekvensering (førskolebørn begynder at forstå rækkefølge)', howWeAddress: 'Mønsterarbejdsark med byggesekvenser (lille-stor-lille) introducerer logisk rækkefølge og mønstertænkning' },
+      ],
+      differentiationNotes: 'For førskolebørn med behov for støtte, fokusér på én maskintype ad gangen, brug fysiske byggeklodser som supplement, og hold scenerne enkle. For avancerede førskolebørn tilføj tælling over 10, introducér sekvenseringskort (byg et hus i fire trin), og lad dem tegne deres egen byggeplan.',
+      parentTakeaway: 'Hvis barnet elsker gravemaskiner og byggepladser, er det en læringsmulighed! Tæl maskiner på en rigtig byggeplads, byg tårne af klodser og tal om størrelse og form. Lad barnet "planlægge" et byggeri med papir og farver. Spørg: "Hvor mange mursten har vi brug for?" Denne forbindelse mellem interesse og læring er den mest effektive pædagogik.',
+      classroomIntegration: 'Byggetemaet integreres i førskolens byggehjørne: i samlingen introduceres ugens maskine, ved læringsstationer arbejdes med tælle- og matchningsark, i byggehjørnet bygges konstruktioner med klodser, og på ture observeres byggepladser i nærområdet. Projektforlo¸b om "vi bygger et hus" integrerer Fælles Måls mål for matematik, naturvidenskab og kreativitet.',
+      assessmentRubric: [
+        { skill: 'Tælling af byggeelementer', emerging: 'tæller 1–5 mursten/hjul med voksenstøtte', proficient: 'tæller selvstændigt op til 10 elementer i en byggescene', advanced: 'tæller over 10 og sammenligner mængder (flere mursten end vinduer)' },
+        { skill: 'Rumlige begreber (byggekontekst)', emerging: 'forstår stor/lille med konkrete byggeeksempler', proficient: 'bruger rumlige ord som høj, lav, over, under korrekt', advanced: 'forklarer rumlige relationer og bygger efter mundtlige instruktioner' },
+        { skill: 'Sekvensering (byggetrin)', emerging: 'ordner 2 trin i rækkefølge med støtte', proficient: 'ordner selvstændigt 3–4 byggetrin logisk', advanced: 'planlægger en byggesekvens og forklarer hvert trin' },
+      ],
     },
     'kindergarten': {
       seoTitle: 'Byggeplads-opgaver Børnehaveklasse | LessonCraftStudio',

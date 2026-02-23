@@ -140,6 +140,22 @@ const content: EnrichedThemeContent = {
         { question: 'Hvordan understøtter musikarbejdsark mønsterfærdigheder i børnehaveklassen?', answer: 'Musik er i sin natur mønsterbaseret, hvilket gør det til den ideelle kontekst for at udvikle denne afgørende matematikfærdighed. Arbejdsark går fra enkle AB-mønstre til mere komplekse ABC- og ABB-strukturer, hvor børn skal identificere den gentagne enhed og forudsige hvad der kommer næst. Denne mønstertænkning overføres direkte til talsekvenser og geometriske mønstre.' },
         { question: 'Kan musikarbejdsark bruges uden rigtige instrumenter i klasseværelset?', answer: 'Ja. Selvom det er ideelt at parre arbejdsark med rigtige instrumenter, fungerer aktiviteterne selvstændigt som effektive læringsværktøjer. Skyggematchning, farvning, ordsøgninger og mønsterarbejdsark opbygger alle værdifulde færdigheder gennem visuelt engagement med instrumentbilleder. Kroppslyde som klappen og trampen kan erstatte instrumenter under mønsteraktiviteter.' },
       ],
+
+      snippetAnswer: 'Musik-arbejdsark til børnehaveklassen (5–6 år) træner rytme og mønstre, tælling af taktslag, instrumentgenkendelse og begyndende nodelasning med trommer, guitarer og fløjter. Musik og matematik er tæt forbundne. Gratis printbare PDF-arbejdsark på LessonCraftStudio.',
+      uniqueGradeAngle: 'Musiktemaet får en ny dimension i børnehaveklassen, fordi fem- og seksårige kan holde en stabil puls, klappe rytmemønstre og skelne mellem instrumentgrupper — færdigheder der kreaever den motoriske kontrol og auditive skelneevne, som netop modnes i denne alder. Hvor førskolebørn klappede frit, følger børnehaveklassebørn specifikke rytmemønstre (lang-kort-kort = AB-mønster), tæller taktslag (1-2-3-4) og sorterer instrumenter efter type (strenge, blæs, slag). Enkel nodenotation introducerer symbolsk repræsentation. Fælles Måls mål for musik, mønstre og motorik mødes harmonisk.',
+      developmentalMilestones: [
+        { milestone: 'Rytmemønstre og stabil puls (5–6-årige kan holde en jævn puls og klappe mønstre)', howWeAddress: 'Rytmeark med visuelle mønstre (lang/kort noter) træner både mønstergenkendelse og motorisk kontrol' },
+        { milestone: 'Instrumentklassifikation (sortere efter type: strenge, blæs, slag)', howWeAddress: 'Sorteringsøvelser der grupperer instrumenter efter lydproduktion opbygger auditiv og logisk tænkning' },
+        { milestone: 'Symbolsk repræsentation (enkle noder som symboler for lyde)', howWeAddress: 'Enkel nodenotation med hele og halve noder introducerer abstrakt symbol-lyd-forbindelse' },
+      ],
+      differentiationNotes: 'For børn der har brug for støtte, brug kropslige rytmer (klap, stamp) før papirark, fokusér på fire velkendte instrumenter (tromme, guitar, flejte, klaver), og hold mønstre enkle (AB). For avancerede børnehaveklassebørn tilføjes flerlagsrytmer, instrumentfamilier og komposition af egne rytmesekvenser.',
+      parentTakeaway: 'Musik er matematik, man kan høre. Klap rytmer sammen, tæl taktslag i en sang, og leg ”hvilket instrument hører du?” Lav instrumenter af genbrugsmaterialer (ristromme, gummibåndsguitar). Syng sange med tælling: ”Ti små indianere” er matematik og musik i én sang.',
+      classroomIntegration: 'Musiktemaet integreres i børnehaveklassens daglige rutiner: morgensangen bruges til rytmeøvelser, matematiktimen arbejder med mønsterark med musikmotiver, musiktimen kobler teori og praksis, og dansktimen læser instrumentord. Fælles Måls mål for musik, mønstre og motorik integreres.',
+      assessmentRubric: [
+        { skill: 'Rytme og mønstre', emerging: 'klapper en simpel stabil puls med støtte', proficient: 'klapper selvstændigt AB- og ABB-rytmemønstre korrekt', advanced: 'opretter egne rytmesekvenser og forklarer mønsterstrukturen' },
+        { skill: 'Instrumentgenkendelse', emerging: 'genkender 2–3 instrumenter visuelt (tromme, guitar)', proficient: 'navngiver selvstændigt 6–8 instrumenter og sorterer dem i typer', advanced: 'genkender instrumenter på lyd, klassificerer i familier og forklarer lydproduktion' },
+        { skill: 'Nodelasning (begyndende)', emerging: 'forstår at noder repræsenterer lyde med forklaring', proficient: 'læser selvstændigt hele og halve noder og klapper den tilsvarende rytme', advanced: 'læser enkle rytmelinjer og skriver egne rytmemønstre med nodenotation' },
+      ],
     },
     'first-grade': {
       seoTitle: 'Musik-opgaver 1. Klasse | LessonCraftStudio',

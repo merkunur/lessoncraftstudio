@@ -140,6 +140,22 @@ const content: EnrichedThemeContent = {
         { question: 'Hvordan understøtter halloween-arbejdsark social-emotionel læring i børnehaveklassen?', answer: 'Græskarlygteansigtsaktiviteter beder børn om at genkende og skabe forskellige følelser som glad, bange og overrasket. Den fiktive uhyggelige kontekst giver børn en tryg måde at diskutere frygt og mod uden personlig sårbarhed, og opbygger følelsesmæssigt ordforråd og reguleringsfærdigheder, der understøtter klassens sociale dynamik.' },
         { question: 'Er børnehaveklassens halloween-arbejdsark for uhyggelige for nogle børn?', answer: 'Arbejdsarkene bruger venlige tegneseriefigurer designet til at være sjove snarere end skræmmende. Hvis et bestemt barn er følsomt, fokuser på græskar-, slik- og kostumearbejdsark snarere end spøgelses- eller skeletversioner. Variationen af halloween-undertemaer giver mulighed for at vælge det komfortniveau, der passer til hvert barn.' },
       ],
+
+      snippetAnswer: 'Halloween-arbejdsark til børnehaveklassen (5–6 år) træner tælling, addition inden for 10, mønstergenkendelse og begyndende læsning med græskar, spindler og spøgelser. Det uhyggelige tema holder motivationen høj. Gratis printbare PDF-arbejdsark på LessonCraftStudio.',
+      uniqueGradeAngle: 'Halloweentemaet rammer børnehaveklassen perfekt, fordi fem- og seksårige kan skelne mellem fantasi og virkelighed — de nyder det spændende ved spøgelser og hekse, men ved, det er på leg. Denne kognitive modenhed gør halloweenarbejdsark engagerende uden at være skræmmende. Hvor førskolebørn farvelagde græskar, tæller børnehaveklassebørn slik i grupper, løser addition med spøgelser (5+3) og subtraktion med flagermus (8–2), og genkender mønstre i spøgelsessekvenser. Halloweenord som heks, spøgelse og vampyr er spændende læseord. Fælles Måls mål for tal, mønstre og kreativitet mødes i ét uhyggeligt tema.',
+      developmentalMilestones: [
+        { milestone: 'Addition og subtraktion inden for 10 (børnehaveklassens matematiske kernefærdighed)', howWeAddress: 'Halloweenscener med ”5 spøgelser plus 3 spøgelser” og ”8 stykker slik minus 2 der spises” giver motiverende regning' },
+        { milestone: 'Mønstergenkendelse og -forlængelse (AB, ABB, ABC)', howWeAddress: 'Spøgelse-græskar-heks-mønstre i sekvenser træner mønstertænkning med visuelt engagerende elementer' },
+        { milestone: 'Begyndende læsning af tematiske ord (3–6 bogstaver)', howWeAddress: 'Ordsporings- og ordsogningsark med halloweenord træner læsefundamentet med høj motivation' },
+      ],
+      differentiationNotes: 'For børn der har brug for støtte, brug venlige halloweenbilleder (smilende græskar), hold tællingen inden for 5, og tilbyd ordkort med billeder. For avancerede børnehaveklassebørn tilføjes flertrinsproblemer med slikfordeling, ABC-mønstre og selvstændig skrivning af halloweenhistorier.',
+      parentTakeaway: 'Halloween er en gylden læringsanledning. Tæl slik efter trick-or-treat, sorter efter type og farve, og lav additionsopgaver (”3 chokolader plus 4 bolsjer”). Skær græskar og tæl frø. Skriv spøgelseshistorier sammen. Barnet lærer matematik og læsning, mens det har det sjovt.',
+      classroomIntegration: 'Halloweentemaet bruges som en kreativ temauge i oktober: matematiktimen arbejder med tælle- og mønsterark med halloweenmotiver, dansktimen læser spøgelseshistorier og skriver halloweenord, og kunsttimen designer halloween-dekorationer. Fælles Måls mål for matematik, kreativitet og kommunikation integreres.',
+      assessmentRubric: [
+        { skill: 'Addition/subtraktion (halloweenkontekst)', emerging: 'løser opgaver inden for 5 med konkrete slikstykker eller spøgelsesfigurer', proficient: 'løser selvstændigt opgaver inden for 10 med halloweenbilleder', advanced: 'løser flertrinsproblemer og formulerer egne halloweenregnestykker' },
+        { skill: 'Mønstergenkendelse (halloweenmotiver)', emerging: 'gentager et simpelt AB-mønster med støtte (græskar, spøgelse...)', proficient: 'fortsætter selvstændigt AB- og ABB-mønstre med halloweenelementer', advanced: 'opretter egne ABC-mønstre og forklarer reglen mundtligt' },
+        { skill: 'Halloweenordforråd og læsning', emerging: 'genkender 2–3 halloweenord med billedstøtte (heks, spøgelse)', proficient: 'læser selvstændigt 5–6 halloweenord og bruger dem i ordsogning', advanced: 'læser og skriver 8+ halloweenord og formulerer korte halloweensætninger' },
+      ],
     },
     'first-grade': {
       seoTitle: 'Halloween-opgaver 1. Klasse | LessonCraftStudio',

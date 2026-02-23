@@ -140,6 +140,23 @@ const content: EnrichedThemeContent = {
         { question: 'Hvordan understøtter rumarbejdsark naturfagslæring i børnehaveklassen?', answer: 'De introducerer jord- og rumvidenskabsbegreber ved at bede børn om at identificere dag versus nat, beskrive månefaser de kan observere og sortere himmellegemer i kategorier. Disse aktiviteter understøtter Fælles Mål for naturfag om mønstre i den naturlige verden.' },
         { question: 'Kan rumarbejdsark hjælpe med skriveudvikling i børnehaveklassen?', answer: 'Ja. Efter at have udfyldt ordforrådsopbyggende arbejdsark som ordsøgninger kan børn øve at skrive rumord selvstændigt. Mange lærere bruger rumtegneopgaver hvor børn tegner en rumscene og skriver én sætning om den, hvilket forbinder det spændende visuelle indhold med spirende skrivefærdigheder.' },
       ],
+
+      snippetAnswer: 'Rum-arbejdsark til børnehaveklassen (5–6 år) træner tælling af stjerner og planeter, størrelsesordning, mønstre og begyndende læsning med raketter, astronauter og solsystemet. Rummet inspirerer storstilet læring. Gratis printbare PDF-arbejdsark på LessonCraftStudio.',
+      uniqueGradeAngle: 'Rumtemaet får ny dybde i børnehaveklassen, fordi fem- og seksårige kan forstå størrelsesforhold og raekkefolge — de forstaar, at Jorden er stor, men Jupiter er storre, og at Solen er storst af alle. Denne evne til ordnet sammenligning er ny sammenlignet med forskolens mere impressionistiske rumfascination. Tælling af stjerner og planeter giver øvelse op til 20. Størrelsesordning af planeter introducerer målebegreber. Mønstre i stjernebilleder opbygger mønstertænkning. Rumord som planet, raket, astronaut og galakse er spændende læseord. Fælles Måls mål for natur/teknik og matematik mødes i det ydre rum.',
+      developmentalMilestones: [
+        { milestone: 'Størrelsesordning og sammenligning (planeter fra mindst til storst)', howWeAddress: 'Planet-størrelses-ordnings-ark giver konkret øvelse i ordnet sammenligning med fascinerende indhold' },
+        { milestone: 'Tælling op til 20 med rummotiver (stjerner, planeter, meteoritter)', howWeAddress: 'Stjernetaelleark og planet-additionsovelser giver tælleøvelse i et univers af motivation' },
+        { milestone: 'Sekvensering (nedtaelling, raketopsendelsesprocedure)', howWeAddress: 'Nedtaellingsøvelser (10, 9, 8... lift-off!) og raketprocedure-sekvensering træner baglens tælling og sekventiel tankning' },
+        { milestone: 'Begyndende naturfaglig viden om solsystemet', howWeAddress: 'Planet-fakta-ark med navne, storrelser og rækkefølge introducerer astronomi på alderspassende niveau' },
+      ],
+      differentiationNotes: 'For børn der har brug for støtte, fokuser på Jorden, Solen og Månen alene, brug store klare billeder, og hold tællingen inden for 10. For avancerede børnehaveklassebørn tilføjes alle otte planeter i raekkefolge, nedtaelling fra 20 og selvstændig skrivning af planetfakta.',
+      parentTakeaway: 'Kig på stjernerne sammen. Tæl dem, find Månen, og tal om planeterne. Byg en raket af papkasser og nedtael fra 10. Besøg et planetarium. Læs rumbeger og lad barnet tegne sit eget solsystem. Rummets storhed inspirerer børn til at tænke stort.',
+      classroomIntegration: 'Rumtemaet bruges som et inspirationsforlob: matematiktimen arbejder med planet-tælle- og størrelsesark, naturfagstimen lærer om solsystemet, dansktimen læser og skriver rumord, og kunsttimen designer rumlandskaber. En raket-nedtaelling bliver klasses morgenritual. Fælles Måls mål for natur/teknik, matematik og kreativitet integreres.',
+      assessmentRubric: [
+        { skill: 'Planet-størrelsesordning', emerging: 'ordner 2–3 himmellegemer efter størrelse med støtte (Maanen, Jorden, Solen)', proficient: 'ordner selvstændigt 5–6 planeter fra mindst til storst korrekt', advanced: 'ordner alle otte planeter og forklarer størrelsesforhold med egne ord' },
+        { skill: 'Tælling og nedtaelling (rumkontekst)', emerging: 'tæller stjerner op til 10 og nedtaeller fra 5 med støtte', proficient: 'tæller selvstændigt op til 20 og nedtaeller fra 10 flydende', advanced: 'nedtaeller fra 20 og løser additionsopgaver med rum-taellere mentalt' },
+        { skill: 'Solsystem-viden (begyndende)', emerging: 'navngiver Jorden, Solen og Maanen med støtte', proficient: 'navngiver selvstændigt 4–5 planeter og beskriver en simpel forskel (stor/lille)', advanced: 'navngiver alle otte planeter i raekkefolge og forklarer basale fakta om hver' },
+      ],
     },
     'first-grade': {
       seoTitle: 'Rummet-opgaver 1. Klasse | LessonCraftStudio',

@@ -133,6 +133,22 @@ const content: EnrichedThemeContent = {
         { question: 'Kan børnehaveklassebørn klare kæledyrstematiske ordblandinger?', answer: 'Ja, når ordene er tre til fem bogstaver og indeholder velkendte kæledyrsnavne som kat, hund, fisk og fugl. Ordblandinger på dette niveau opbygger fonemisk bevidsthed ved at kræve, at børn identificerer og sekventerer individuelle bogstavlyde inden for ord, de allerede kender mundtligt.' },
         { question: 'Hvordan understøtter kæledyrsarbejdsark social-emotionel læring i børnehaveklassen?', answer: 'Arbejdsark, der afbilder kæledyrsplejerutiner, underviser i ansvar og empati. Når børn diskuterer, hvad et kæledyr har brug for for at holde sig sundt og glad, øver de perspektivtagning og udvikler en forståelse for at drage omsorg for andre, færdigheder der overføres direkte til klasseromsadfærd og kammeratrelationer.' },
       ],
+
+      snippetAnswer: 'Kæledyr-arbejdsark til børnehaveklassen (5–6 år) træner tælling, ansvarforståelse, klassifikation og begyndende læsning med hunde, katte, kaniner og fisk. Kæledyr gør læring personlig. Gratis printbare PDF-arbejdsark på LessonCraftStudio.',
+      uniqueGradeAngle: 'Kæledyrstemaet er særligt effektivt i børnehaveklassen, fordi fem- og seksårige begynder at forstå ansvar — de kan fodre et kæledyr, fylde vandskålen og hjaelpe med at borste pelsen. Denne ansvarsberedskab gør kæledyrsarbejdsark personligt meningsfulde. Hvor førskolebørn klappede og legede med dyr, lærer børnehaveklassebørn at kategorisere kæledyrs behov (mad, vand, motion, kærlighed), tælle fodringsmangder (3 ske hundemad morgen + 3 ske aften) og læse kæledyrsnavne og plejeinstruktioner. Regnehistorier med kæledyr (kaninen spiste 4 gulerødder om mandagen og 3 om tirsdagen) gør matematik personlig. Fælles Måls mål for ansvar og samvær mødes.',
+      developmentalMilestones: [
+        { milestone: 'Ansvarforståelse og plejeopgaver (5–6-årige kan udføre daglige plejerutiner)', howWeAddress: 'Kæledyrs-plejeplan-ark der kræver sekvensering af daglige opgaver opbygger ansvarsbevidsthed struktureret' },
+        { milestone: 'Klassifikation af kæledyr efter behov og egenskaber', howWeAddress: 'Sorteringsøvelser der grupperer kæledyr efter størrelse, pelstype og behov træner flerdimensionel tænkning' },
+        { milestone: 'Regnehistorier med personlig forbindelse (kæledyrskontekst)', howWeAddress: 'Additions- og subtraktionshistorier om kæledyrspleje gør matematik til en omsorgshandling' },
+      ],
+      differentiationNotes: 'For børn der har brug for støtte, begræns til tre velkendte kæledyr (hund, kat, fisk), brug barnets eget kæledyr som udgangspunkt, og hold tællingen inden for 10. For avancerede børnehaveklassebørn tilføjes ugens plejeskema med tællingsdata, sammenligning af kæledyrsbehov og selvstændig skrivning af kæledyrdagbog.',
+      parentTakeaway: 'Hvis I har et kæledyr, er det et dagligt læringsredskab. Lad barnet måle foder, tælle fodringstider og foere en plejebøg. Hvis I ikke har kæledyr, besøg en dyrehandel eller gård. Tæl og navngiv dyrene. Diskutér ansvar: ”hvad har en hund brug for hver dag?”',
+      classroomIntegration: 'Kæledyrstemaet bruges som et ansvars- og samværsforløb: klassens kæledyr (fisk, snegle) passes af turhold, matematiktimen bruger kæledyrs-regneark, dansktimen læser og skriver kæledyrsord, og samlingen diskuterer kæledyrsansvar. Fælles Måls mål for personlig udvikling, matematik og natur integreres.',
+      assessmentRubric: [
+        { skill: 'Kæledyrsansvar og plejesekvensering', emerging: 'navngiver 2–3 daglige plejeopgaver (fodre, vand) med støtte', proficient: 'sekvenserer selvstændigt en daglig plejeplan med 4–5 opgaver i korrekt rækkefølge', advanced: 'opretter en ugentlig plejeplan og forklarer, hvorfor hver opgave er vigtig' },
+        { skill: 'Kæledyrsklassifikation', emerging: 'navngiver 3–4 kæledyr med billedstøtte', proficient: 'klassificerer selvstændigt kæledyr efter egenskaber (pels, fjer, skael) og behov', advanced: 'sammenligner kæledyrstyper og argumenterer for, hvilket der passer bedst til en given situation' },
+        { skill: 'Regning med kæledyrskontekst', emerging: 'løser tælleopgaver inden for 5 med kæledyrsbilleder', proficient: 'løser selvstændigt additions-/subtraktionshistorier inden for 10 om kæledyrspleje', advanced: 'formulerer egne regnehistorier og løser flertrinsproblemer om kæledyr' },
+      ],
     },
     'first-grade': {
       seoTitle: 'Kæledyr-opgaver 1. Klasse | LessonCraftStudio',

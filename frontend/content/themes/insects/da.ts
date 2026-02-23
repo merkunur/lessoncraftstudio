@@ -140,6 +140,22 @@ const content: EnrichedThemeContent = {
         { question: 'Kan børnehaveklassebørn lære om metamorfose?', answer: 'Absolut. Sommerfuglens livscyklus er et af de mest populære naturfagsemner i børnehaveklassen. Rækkefølge-arbejdsark, der viser æg, larve, puppe og sommerfugl-stadierne, gør konceptet konkret og mindeværdigt for fem- og seksårige.' },
         { question: 'Hvordan understøtter insekt-arbejdsark naturfag i børnehaveklassen?', answer: 'De introducerer klassifikation ved at bede børn om at identificere insekter ud fra deres seks ben og tre kropssegmenter. Livscyklus-rækkefølge, levested-matchning og observationsbaserede aktiviteter forbinder alle direkte til læringsmålene i Fælles Mål for natur/teknologi.' },
       ],
+
+      snippetAnswer: 'Insekt-arbejdsark til børnehaveklassen (5–6 år) træner tælling af ben og vinger, klassifikation, livscyklus-sekvensering og begyndende læsning med sommerfugle, bier og mariehøns. Naturfag og matematik mødes. Gratis printbare PDF-arbejdsark på LessonCraftStudio.',
+      uniqueGradeAngle: 'Insekttemaet er ideelt for børnehaveklassen, fordi fem- og seksårige kan klassificere systematisk — de forstår, at insekter har seks ben (ikke fire eller otte), og kan skelne insekter fra edderkopper og andre smådyr. Denne klassifikationsevne er ny sammenlignet med førskolens brede ”kryb og kravl”-kategori. Tælling af insektben i grupper af seks introducerer skip-tælling. Sommerfuglens livscyklus (æg → larve → puppe → sommerfugl) giver perfekt fire-trins sekvensering. Addition af insekter (5 bier plus 3 mariehøns) og mønstre i vingetegninger er naturligt indlejret. Fælles Måls mål for natur/teknik og matematik mødes.',
+      developmentalMilestones: [
+        { milestone: 'Klassifikation med definerede kriterier (insekt = 6 ben, 3 kropsdele)', howWeAddress: 'Sorteringsøvelser der adskiller insekter fra edderkopper/snegle baseret på anatomiske træk opbygger videnskabelig tænkning' },
+        { milestone: 'Livscyklusforståelse (sommerfuglens metamorfose i fire trin)', howWeAddress: 'Sekvenseringsøvelser med sommerfuglens livscyklus opbygger kronologisk forståelse og biologisk viden' },
+        { milestone: 'Tælling i grupper (skip-tælling med insektben: 6, 12, 18)', howWeAddress: 'Tælleark der bruger insektben som springbræt for skip-tælling i grupper af 2 og 6 introducerer multiplikativ tænkning' },
+      ],
+      differentiationNotes: 'For børn der har brug for støtte, fokusér på tre velkendte insekter (mariehøne, sommerfugl, bi), brug konkrete insektfigurer, og hold tællingen inden for 10. For avancerede børnehaveklassebørn introduceres insektanatomi (hoved, bryst, bagkrop), skip-tælling i grupper af 6 og selvstændig skrivning af insektfakta.',
+      parentTakeaway: 'Gå på insektjagt i haven eller parken. Tæl ben (”har den seks ben? Så er det et insekt!”). Observer en sommerfugl og tal om dens livscyklus. Tegn insekter og skriv navne. Køb en sommerfugle-opdrætskasse og folg forvandlingen — det er uforglemmelig naturfag.',
+      classroomIntegration: 'Insekttemaet bruges om foråret, når smådyr er aktive: naturfagstimen observerer insekter udendørs, matematiktimen bruger tælle- og sorteringsark, dansktimen læser insektfakta og skriver insektord. Et sommerfugleopdræt i klassen giver autentisk livscykluslæring. Fælles Måls mål for natur/teknik og matematik integreres.',
+      assessmentRubric: [
+        { skill: 'Insektklassifikation', emerging: 'genkender 2–3 insekter med billedstøtte (sommerfugl, bi)', proficient: 'adskiller selvstændigt insekter fra ikke-insekter baseret på antal ben', advanced: 'forklarer insektklassifikation (6 ben, 3 kropsdele) og navngiver 8+ insektarter' },
+        { skill: 'Sommerfuglens livscyklus', emerging: 'ordner 2 trin (æg, sommerfugl) med billedstøtte', proficient: 'ordner selvstændigt alle 4 livscyklusfaser korrekt og navngiver dem', advanced: 'forklarer hvert trin med egne ord og sammenligner med andre insekters livscyklus' },
+        { skill: 'Tælling med insekter', emerging: 'tæller insektben på ét insekt (6) med støtte', proficient: 'tæller selvstændigt ben på 3–4 insekter og løser additionsopgaver inden for 10', advanced: 'bruger skip-tælling (6, 12, 18) og løser flertrinsproblemer med insektgrupper' },
+      ],
     },
     'first-grade': {
       seoTitle: 'Insekter-opgaver 1. Klasse | LessonCraftStudio',

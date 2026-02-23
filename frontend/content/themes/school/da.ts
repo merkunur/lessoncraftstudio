@@ -140,6 +140,22 @@ const content: EnrichedThemeContent = {
         { question: 'Kan skole-arbejdsark hjælpe et børnehaveklassebarn, der har sociale vanskeligheder?', answer: 'Ja. Arbejdsark, der viser sociale scenarier i klasseværelset, som at dele materialer eller deltage i en leg, giver børn en tryg måde at tænke sociale udfordringer igennem på papir, før de står over for dem i realtid. Find-den-der-ikke-passer og matchningsaktiviteter, der involverer sociale koncepter fra skolen, opbygger den analytiske tænkning om sociale situationer, der hjælper børn med at træffe bedre valg i samspil med jævnaldrende.' },
         { question: 'Hvilket skoleordforråd bør børnehaveklassebørn kunne?', answer: 'Ved slutningen af børnehaveklassen bør børn kunne læse og skrive almindelige skoleord som lærer, elev, pult, bog, blyant, frikvarter, frokost, bibliotek, klasseværelse og lektier. Ordsøgnings- og skrivearbejdsark med disse ord opbygger både stave- og læsefærdighed for det ordforråd, børn møder hver dag.' },
       ],
+
+      snippetAnswer: 'Skole-arbejdsark til børnehaveklassen (5–6 år) træner tælling, sortering af skolematerialer, daglige rutiner og begyndende læsning med bøger, blyanter og tavler. Skolestarten bliver tryg. Gratis printbare PDF-arbejdsark på LessonCraftStudio.',
+      uniqueGradeAngle: 'Skoletemaet er unikt relevant for børnehaveklassen, fordi fem- og seksårige oplever deres forste rigtige skolemiljø — de lærer rutiner, omgås mange børn og bruger skolematerialer selvstændigt. Hvor førskolebørn legede skole, er børnehaveklassebørn i skole og har brug for færdigheder til at navigere det. Tælling af skolematerialer (8 farveblyanter, 5 bøger) giver funktionel matematik. Sortering af materialer i penalhuse og skuffer træner klassifikation. Dagsskema-sekvensering opbygger tidsforståelse. Skoleord som tavle, blyant, bog og penalhus er vigtige læseord. Fælles Måls mål for personlig udvikling og selvstændighed mødes.',
+      developmentalMilestones: [
+        { milestone: 'Daglige rutiner og tidsstruktur (5–6-årige lærer at folge et dagsskema)', howWeAddress: 'Dagsskema-sekvenserings-ark der ordner skoledagens aktiviteter kronologisk opbygger tidsforståelse' },
+        { milestone: 'Selvstændig organisering af materialer', howWeAddress: 'Sorteringsark for penalhuse og skoletasker træner klassifikation med dagligdags relevans' },
+        { milestone: 'Tælling og ordning af skolematerialer', howWeAddress: 'Tællelister og inventéringsark med skolematerialer giver funktionel matematik i skolekontekst' },
+      ],
+      differentiationNotes: 'For børn der har brug for støtte, brug visuelle dagsskemaer med billeder, begræns til fire basismaterialer (blyant, viskelader, saks, lim), og hold tællingen inden for 10. For avancerede børnehaveklassebørn tilføjes skemaplanlægning, materialebudget med addition og selvstændig skrivning af skoleregler.',
+      parentTakeaway: 'Forbered skolestart derhjemme: pak skoletasken sammen og tæl materialerne, ov dagsskemaet (”forst morgensamling, så dansk, så frikvarter”), og læs skoleord på materialerne. Tal om skoledagen: ”hvad lavede du forst? Hvad lavede du sidst?” Disse samtaler bygger tidsforståelse og tryghed.',
+      classroomIntegration: 'Skoletemaet bruges i skolestart-perioden: de forste uger arbejdes med rutine- og sorteringsark, morgensamlingen øver dagsskemaet, og materialekendskab trænes med tælleark. Et klasseprojekt om ”vores skole” integrerer kortlægning, tælling og skrivning. Fælles Måls mål for personlig udvikling og selvstændighed understøttes.',
+      assessmentRubric: [
+        { skill: 'Dagsskema og tidsstruktur', emerging: 'navngiver 2–3 daglige aktiviteter med støtte', proficient: 'ordner selvstændigt 5–6 daglige aktiviteter i korrekt kronologisk raekkefolge', advanced: 'planlagger et dagsskema og forklarer, hvorfor raekkefolgen er vigtig' },
+        { skill: 'Materialesortering og klassifikation', emerging: 'sorterer materialer i to grupper (skrive/tegne) med støtte', proficient: 'sorterer selvstændigt skolematerialer i 3–4 kategorier og forklarer valget', advanced: 'opretter egne kategorier og inventerer klassens materialer med tælning' },
+        { skill: 'Tælling af skolematerialer', emerging: 'tæller 5–8 materialer med støtte', proficient: 'tæller selvstændigt op til 20 materialer og noterer antallet korrekt', advanced: 'løser additionsopgaver med materialer (8 blyanter + 6 farveblyanter)' },
+      ],
     },
     'first-grade': {
       seoTitle: 'Skole-opgaver 1. Klasse | LessonCraftStudio',

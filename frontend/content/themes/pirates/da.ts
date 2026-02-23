@@ -140,6 +140,22 @@ const content: EnrichedThemeContent = {
         { question: 'Hvordan understøtter piratarbejdsark ordforrådsudvikling i børnehaveklassen?', answer: 'Piratordforråd er levende og nemt at huske. Ord som skat, kompas, ø, anker og sørejse bærer stærke visuelle associationer, der hjælper børnehaveklassebørn med at fastholde dem. Ordsøgninger, matchningsøvelser og mærkningsøvelser introducerer og styrker disse ord på tværs af flere møder.' },
         { question: 'Kan piratarbejdsark bruges til samarbejdslæring i børnehaveklassen?', answer: 'Ja. Skattejagt- og kortlæsningsarbejdsark fungerer særligt godt som partner- eller smågruppeaktiviteter, hvor børn diskuterer retninger, deler strategier og skiftes til at læse ledetråde. Denne samarbejdende tilgang opbygger sociale færdigheder sidelobende med fagligt indhold.' },
       ],
+
+      snippetAnswer: 'Pirat-arbejdsark til børnehaveklassen (5–6 år) træner tælling af skatte, kortlæsning, addition inden for 10 og begyndende læsning med skattekister, piratskibe og søkort. Eventyret driver læring. Gratis printbare PDF-arbejdsark på LessonCraftStudio.',
+      uniqueGradeAngle: 'Pirattemaet er perfekt for børnehaveklassen, fordi fem- og seksårige kan folge korte og skattekort — en færdighed der kræver rumlig orientering, symbolforståelse og sekventering, som netop modnes i denne alder. Hvor førskolebørn legede pirat, bruger børnehaveklassebørn kort som værktoj, tæller guldmonter i skattekister (op til 20), løser addition med piratbytte (6 guldmonter plus 4 diamanter) og genkender mønstre i piratflag. Piratordforråd som skattekort, kompas og anker er spændende læseord. Fælles Måls mål for rumlig forståelse, tal og fantasi mødes.',
+      developmentalMilestones: [
+        { milestone: 'Rumlig orientering og kortlæsning (5–6-årige kan folge simple kort med symboler)', howWeAddress: 'Skattekort-ark med retningsangivelser (gå 3 skridt nord, drej ost) træner rumlig navigation' },
+        { milestone: 'Tælling og addition med skattemotiver (op til 20 genstande)', howWeAddress: 'Skattekiste-tælleark og additionsøvelser med guldmønter gør matematik til et eventyr' },
+        { milestone: 'Mønstergenkendelse i piratmotiver (flag, knogler, stjerner)', howWeAddress: 'Piratflag-monsterark med gentagende symboler træner monstertænkning i en spændende ramme' },
+      ],
+      differentiationNotes: 'For børn der har brug for støtte, brug simple kort med kun 2–3 trin, hold tællingen inden for 10, og tilbyd billedstøtte til piratord. For avancerede børnehaveklassebørn tilføjes komplekse skattekort med koordinater, flertrinsproblemer med piratbytte og selvstændig skrivning af piratbreve.',
+      parentTakeaway: 'Lav en skattejagt i haven eller lejligheden. Tegn et kort sammen og lad barnet folge det. Tæl skatten når den er fundet. Brug terninger og legemunter til piratmatematik. Læs pirathistorier og lad barnet tegne sit eget piratskib og skrive dets navn.',
+      classroomIntegration: 'Pirattemaet bruges som en eventyrlig temauge: matematiktimen arbejder med skatte-tælleark og additionsopgaver, dansktimen læser pirathistorier og skriver piratord, og udendørslæring inkluderer skattejagt på legepladsen. Klassen bygger et piratskib af papkasser. Fælles Måls mål for matematik, kreativitet og samarbejde integreres.',
+      assessmentRubric: [
+        { skill: 'Kortlæsning og rumlig navigation', emerging: 'følger 2 trin på et simpelt kort med støtte', proficient: 'følger selvstændigt 4–5 trin på et skattekort og finder målet', advanced: 'tegner egne skattekort med symboler og retningsangivelser' },
+        { skill: 'Tælling og addition med skattemotiver', emerging: 'tæller guldmonter op til 10 med støtte', proficient: 'tæller selvstændigt op til 20 og løser additionsopgaver inden for 10 med skattegenstande', advanced: 'løser flertrinsproblemer og sammenligner skattebelab (hvem har flest guldmonter?)' },
+        { skill: 'Piratordforråd og læsning', emerging: 'genkender 2–3 piratord med billedstøtte (skib, skat)', proficient: 'læser selvstændigt 5–6 piratord og bruger dem i ordsogning', advanced: 'læser og skriver 8+ piratord og formulerer korte piratsætninger' },
+      ],
     },
     'first-grade': {
       seoTitle: 'Pirater-opgaver 1. Klasse | LessonCraftStudio',

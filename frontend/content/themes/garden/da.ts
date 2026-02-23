@@ -139,6 +139,23 @@ const content: EnrichedThemeContent = {
         { question: 'Kan børnehaveklassebørn lave have-ordsøgninger?', answer: 'Ja. Start med simple fire- eller fembogstavsord som frø, blad og rod i et lille gitter. Efterhånden som selvtilliden vokser, øges gitterstørrelsen, og længere ord som blomst og have introduceres. Ordsøgninger opbygger bogstavgenkendelse, visuel scanning og stavebevidsthed.' },
         { question: 'Hvordan understøtter have-arbejdsark naturfag i børnehaveklassen?', answer: 'De introducerer plantelivscyklus ved at bede børn sekventere vækststadier, mærke plantedele som rødder og stængler, og sortere planter efter kendetegn. Disse aktiviteter understøtter direkte Fælles Måls naturfagsmål om forholdet mellem organismer og deres miljøer.' },
       ],
+
+      snippetAnswer: 'Have-arbejdsark til børnehaveklassen (5–6 år) træner tælling, mønstergenkendelse, livscyklus-sekvensering og begyndende læsning med blomster, frø og insekter. Naturvidenskab og matematik forenes. Gratis printbare PDF-arbejdsark på LessonCraftStudio.',
+      uniqueGradeAngle: 'Havetemaet er ideelt for børnehaveklassen, fordi fem- og seksårige kan observere vækst over tid og forstå livscyklus-sekvenser — en kognitiv færdighed der netop modnes i denne alder. Hvor førskolebørn plantede frø og ventede spændt, registrerer børnehaveklassebørn systematisk vækst med målinger, tæller kronblade og blåde, og ordner livscyklusfaser (frø → spire → plante → blomst). Addition af blomster i bede (4+3) og mønstergenkendelse i planteraker (tulipan, rose, tulipan, rose...) er naturligt indlejret. Haveord som spire, rod og blåd træner læsning. Fælles Måls mål for natur/teknik og matematik mødes i grønne omgivelser.',
+      developmentalMilestones: [
+        { milestone: 'Livscyklusforståelse og sekvensering (5–6-årige kan ordne biologiske faser kronologisk)', howWeAddress: 'Frø-til-blomst-sekvenseringsøvelser med fire trin opbygger tidslig og biologisk forståelse' },
+        { milestone: 'Systematisk observation og registrering (børn registrerer vækst over tid)', howWeAddress: 'Vækstdagbogs-ark der kombiner måling og tegning træner naturfaglig metode med personligt engagement' },
+        { milestone: 'Mønstergenkendelse i naturlige rækker (kronblade, plantemønstre)', howWeAddress: 'Mønsterark med blomster- og blådsekvenser i AB-, ABB- og ABC-mønstre træner mønstertænkning' },
+        { milestone: 'Tælling og addition med naturlige genstande', howWeAddress: 'Tælleark med blomster i bede og frø i potter giver konkret matematik i en naturlig ramme' },
+      ],
+      differentiationNotes: 'For børn der har brug for støtte, begræns livscyklussen til tre trin (frø-spire-blomst), brug én velkendt plante (solsikke), og hold tællingen inden for 10. For avancerede børnehaveklassebørn tilføjes måling af plantevækst i centimeter, flertrins-additionsproblemer og selvstændig skrivning af vækstdagbog.',
+      parentTakeaway: 'Plant et frø sammen og følg væksten — det er gratis naturfag og matematik. Tæl kronblade på blomster i parken. Mål planten med en lineal og skriv højden ned. Lad barnet tegne havens blomster og skrive deres navne. Naturen er det bedste klasselokale.',
+      classroomIntegration: 'Havetemaet følger årstiderne: om foråret plantes frø, om sommeren observeres vækst, og om efteråret høstes. Matematiktimen bruger tælle- og mønsterark med blomster, naturfagstimen registrerer vækst, og dansktimen skriver havedagbog. En klassebed giver autentisk læring. Fælles Måls mål for natur/teknik og matematik integreres.',
+      assessmentRubric: [
+        { skill: 'Livscyklus-sekvensering (planter)', emerging: 'ordner 2 trin (frø, blomst) med billedstøtte', proficient: 'ordner selvstændigt 4 livscyklusfaser i korrekt rækkefølge og navngiver dem', advanced: 'forklarer hvert trin med egne ord og sammenligner forskellige planters livscyklusser' },
+        { skill: 'Mønstergenkendelse (havekontekst)', emerging: 'gentager et simpelt AB-mønster med blomster med støtte', proficient: 'fortsætter selvstændigt AB- og ABB-mønstre med planteelementer', advanced: 'opretter egne ABC-mønstre og forklarer mønsterreglen mundtligt' },
+        { skill: 'Tælling og addition i haven', emerging: 'tæller 5–8 blomster/frø med støtte', proficient: 'tæller selvstændigt op til 20 og løser additionsopgaver inden for 10 med havemotiver', advanced: 'løser flertrinsproblemer og formulerer egne regnestykker om haven' },
+      ],
     },
     'first-grade': {
       seoTitle: 'Have-opgaver 1. Klasse | LessonCraftStudio',

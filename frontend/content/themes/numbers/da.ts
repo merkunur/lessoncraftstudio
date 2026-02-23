@@ -142,6 +142,23 @@ const content: EnrichedThemeContent = {
         { question: 'Hvordan forbereder tal-arbejdsark børnehaveklassebørn på matematik i 1. klasse?', answer: 'De opbygger de tre søjler, som matematik i 1. klasse hviler på: flydende tælling, konceptuel forståelse af addition og subtraktion, og komfort med skrevne taltegn og ligninger. Et børnehaveklassebarn, der har øvet disse færdigheder grundigt gennem arbejdsark, starter i 1. klasse klar til flercifret arbejde og tekstopgaver.' },
         { question: 'Hvad er forskellen mellem remsetælling og meningsfuld tælling?', answer: 'Remsetælling er at recitere talord i rækkefølge, som en sang. Meningsfuld tælling anvender en-til-en-korrespondance, stabil orden og kardinalitet, hvilket betyder at barnet rører hver genstand én gang, tæller i den korrekte sekvens og forstår at det sidste tal repræsenterer totalen. Tal-arbejdsark opbygger meningsfuld tælling ved at kræve, at børn matcher taltegn med faktiske mængder.' },
       ],
+
+      snippetAnswer: 'Tal-arbejdsark til børnehaveklassen (5–6 år) træner talskrivning 0–20, addition og subtraktion inden for 10, talrækkefølge og begyndende talforståelse. Tal-fundamentet lægges her. Gratis printbare PDF-arbejdsark på LessonCraftStudio.',
+      uniqueGradeAngle: 'Taltemaet er selve kernen i børnehaveklassens matematik — fem- og seksårige går fra at tælle mundtligt til at forstå tal som maengder, skrive talsymboler korrekt og udføre grundregning. Hvor førskolebørn tællte til 10 med én-til-én, mestrer børnehaveklassebørn talskrivning, rækkefølge op til 20, addition og subtraktion inden for 10, og begyndende forståelse af titalssystemet (10 er én tier og nul enere). Tallinjens brug som strategiværktoj introduceres. Fælles Måls matematiksmål for børnehaveklassen drejer sig direkte om tallenes verden.',
+      developmentalMilestones: [
+        { milestone: 'Talskrivning 0–20 (korrekt ciferform og rækkefølge)', howWeAddress: 'Sporings- og skriveark for hvert ciffer med linjerede felter opbygger motorisk præcision og talgenkendelse' },
+        { milestone: 'Addition og subtraktion inden for 10 (børnehaveklassens regnemilepæl)', howWeAddress: 'Visuelle additionsark med taltællere og tallinjer gør regneopgaver konkrete og overskuelige' },
+        { milestone: 'Talrækkefølge og mønstre (tæl frem, tæl tilbage, spring et tal over)', howWeAddress: 'Udfyld-rækken-ark og mønsteropgaver med talsekvenser træner algebraisk tænkning tidligt' },
+        { milestone: 'Begyndende titalssystem (ti enere = én tier)', howWeAddress: 'Tiergruppe-ark med bundter af ti genstande introducerer positionssystemet visuelt' },
+      ],
+      differentiationNotes: 'For børn der har brug for støtte, begræns til tallene 0–10, brug konkrete tællere (fingre, klodser) ved hvert ark, og fokusér på addition alene for at bygge selvtillid. For avancerede børnehaveklassebørn tilføjes tal op til 50, tierovergange (8+5), og talgåder der kræver baglæns tænkning.',
+      parentTakeaway: 'Tal er overalt — brug hverdagen. Tæl trapper, frugt og legetøj. Øv addition ved bordet: ”du har 3 kartofler, jeg giver dig 2 mere.” Skriv tal med kridt på fortovet. Spil terningespil, der kræver tælling og addition. Hvert dagligt ojeblik er en taltræningsmulighed.',
+      classroomIntegration: 'Taltemaet er børnehaveklassens matematiske rygrad: daglig taltøvelse med skriveark, morgensamlingen tæller elever og dage, matematiktimen arbejder med additions- og subtraktionsark, og lege med tal bruges i frikvarteret (hinkeruder med tal). Fælles Måls mål for tal og algebra understøttes systematisk.',
+      assessmentRubric: [
+        { skill: 'Talskrivning 0–20', emerging: 'skriver tallene 0–10 læseligt med model', proficient: 'skriver selvstændigt alle tal 0–20 korrekt og i rækkefølge', advanced: 'skriver tal op til 50 hurtigt og korrekt og skriver dem i baglæns rækkefølge' },
+        { skill: 'Addition/subtraktion inden for 10', emerging: 'løser additionsopgaver inden for 5 med konkrete tællere', proficient: 'løser selvstændigt additions- og subtraktionsopgaver inden for 10 med visuel støtte', advanced: 'regner inden for 10 mentalt og forklarer strategier mundtligt' },
+        { skill: 'Talrækkefølge og mønstre', emerging: 'tæller frem til 10 og udfylder manglende tal med støtte', proficient: 'udfylder selvstændigt talrækker til 20 og genkender skip-tællingsmønstre', advanced: 'tæller baglæns fra 20, springer over (2, 4, 6...) og forklarer mønstret' },
+      ],
     },
     'first-grade': {
       seoTitle: 'Tal-opgaver 1. Klasse | LessonCraftStudio',

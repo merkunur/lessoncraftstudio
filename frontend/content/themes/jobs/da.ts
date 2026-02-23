@@ -140,6 +140,22 @@ const content: EnrichedThemeContent = {
         { question: 'Hvordan opbygger erhvervsarbejdsark ordforråd i børnehaveklassen?', answer: 'De introducerer fagspecifikke ord fra flere karrierefelter: medicinske termer som stetoskop og bandage, bygningstermer som hammer og tegning, kulinariske termer som opskrift og ingrediens. Denne tværfaglige ordforrådseksponering er langt rigere end hvad enkelttema-arbejdsark giver og accelererer den samlede sprogudvikling.' },
         { question: 'Kan erhvervsarbejdsark lære børnehaveklassebørn om samfundets gensidige afhængighed?', answer: 'Ja. Forsyningskædeaktiviteter der viser hvordan én arbejders produkt bliver en anden arbejders materiale introducerer årsag-virkning-ræsonnement og systemtænkning. Når børn ser at landmanden, lastbilchaufføren, bageren og ekspedienten alle bidrager til ét brød, forstår de begrebet om samfundssamarbejde på et konkret niveau.' },
       ],
+
+      snippetAnswer: 'Erhvervs-arbejdsark til børnehaveklassen (5–6 år) træner klassifikation, tælling, ordforråd og begyndende læsning med brandmand, læge, bager og andre erhverv. Børn lærer at forbinde redskaber med jobs. Gratis printbare PDF-arbejdsark på LessonCraftStudio.',
+      uniqueGradeAngle: 'Erhvervstemaet får ny dybde i børnehaveklassen, fordi fem- og seksårige forstår, at jobs kræver specifikke færdigheder og redskaber — brandmanden bruger slange og hjelm, lægen bruger stetoskop og plaster. Denne forståelse af funktion-redskab-forbindelsen er en kognitiv milepael. Hvor førskolebørn legede læge og brandmand, klassificerer børnehaveklassebørn erhverv efter type (hjælper-erhverv, håndvaerker-erhverv), matcher redskaber med jobs og løser tælleopgaver i erhvervskontekst (bageren bager 8 brød, sælger 3 — hvor mange er tilbage?). Erhvervsord er ideelle læseord. Fælles Måls mål for samfundsforståelse og kommunikation mødes.',
+      developmentalMilestones: [
+        { milestone: 'Klassifikation af erhverv efter funktion (hjælpere, bygere, undervisere)', howWeAddress: 'Sorteringsøvelser der grupperer erhverv efter type opbygger kategoriseringsevne med samfundsrelevant indhold' },
+        { milestone: 'Funktion-redskab-forbindelse (hvert erhverv har specifikke værktøjer)', howWeAddress: 'Matchningsark der parrer erhverv med redskaber træner logisk tænkning med konkrete forbindelser' },
+        { milestone: 'Begyndende regning i erhvervskontekst (bager, handler, landmand)', howWeAddress: 'Regnehistorier med erhvervsscenarier giver matematik et autentisk formål og social kontekst' },
+      ],
+      differentiationNotes: 'For børn der har brug for støtte, begræns til fire velkendte erhverv (brandmand, læge, lærer, politibetjent), brug rollespil som supplement, og hold tællingen inden for 10. For avancerede børnehaveklassebørn tilføjes ukendte erhverv (arkitekt, biolog), flertrinsproblemer og selvstændig skrivning af ”hvad vil jeg vaere”-tekster.',
+      parentTakeaway: 'Tal om de erhverv, I møder i hverdagen: ”hvad gør busschaufføren? Hvilke redskaber bruger tandlægen?” Besøg en brandstation, bageri eller gård. Lad barnet tegne sit drømmejob og skrive, hvad man gør. Rollespil træner både ordforråd og social forståelse.',
+      classroomIntegration: 'Erhvervstemaet bruges som et samfundsforløb: ugens erhverv præsenteres med gæstebesøg, matematiktimen bruger erhvervsscenarie-ark, dansktimen skriver og læser erhvervsord, og rollespilhjørnet indrettes som hospital, brandstation eller bageri. Fælles Måls mål for samfund, kommunikation og matematik integreres.',
+      assessmentRubric: [
+        { skill: 'Erhvervsklassifikation', emerging: 'navngiver 3–4 erhverv og matcher dem med ét redskab med støtte', proficient: 'klassificerer selvstændigt 8–10 erhverv og matcher dem med redskaber og arbejdspladser', advanced: 'grupperer erhverv i kategorier og forklarer, hvilke færdigheder hvert erhverv kræver' },
+        { skill: 'Regning i erhvervskontekst', emerging: 'løser simple tælleopgaver (bageren har 5 brød) med støtte', proficient: 'løser selvstændigt additions-/subtraktionsopgaver inden for 10 med erhvervsscenarier', advanced: 'formulerer egne regnehistorier om erhverv og løser flertrinsproblemer' },
+        { skill: 'Erhvervsordforråd og læsning', emerging: 'genkender 3–4 erhvervsord med billedstøtte', proficient: 'læser selvstændigt 6–8 erhvervsord og bruger dem i mundtlige sætninger', advanced: 'læser og skriver erhvervsord og formulerer korte tekster om jobs' },
+      ],
     },
     'first-grade': {
       seoTitle: 'Job-opgaver 1. Klasse | LessonCraftStudio',

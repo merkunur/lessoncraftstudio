@@ -141,6 +141,22 @@ const content: EnrichedThemeContent = {
         { question: 'Kan børnehaveklassebørn lave havtematiske ordsøgninger?', answer: 'Ja. Start med enkle fire- eller fembogstavsord som fisk, bølge og krabbe i et lille gitter. Efterhånden som selvtilliden vokser, øges gitterstørrelsen, og længere ord som hval og koral introduceres. Ordsøgninger opbygger bogstavgenkendelse, visuel scanning og tidlige stavefærdigheder.' },
         { question: 'Hvordan understøtter havarbejdsark naturfag i børnehaveklassen?', answer: 'De introducerer klassifikation ved at bede børn om at sortere havdyr efter kendetegn som antal ben, kropsbeklædning eller hvor de lever i havet. Enkle vandkredsløbsdiagrammer forbinder havfordampning med regn og lægger grundlaget for naturfagsundervisning i senere klassetrin i henhold til Fælles Mål.' },
       ],
+
+      snippetAnswer: 'Hav-arbejdsark til børnehaveklassen (5–6 år) træner tælling, størrelsessammenligning, klassifikation af havdyr og begyndende læsning med fisk, hvaler, sælhunde og krabber. Havet er et fascinerende læringsunivers. Gratis printbare PDF-arbejdsark på LessonCraftStudio.',
+      uniqueGradeAngle: 'Havtemaet får en ny faglig dimension i børnehaveklassen, fordi fem- og seksårige kan klassificere havdyr efter reelle biologiske træk — fisk vs. pattedyr, skal vs. bløddyr — i stedet for blot at sige ”dyr i vandet”. Denne klassifikationsevne gør havbiologi tilgængelig på et nyt niveau. Tælling af fisk i stimer giver tælleøvelser op til 20, størrelsessammenligning (hval vs. krabbe) introducerer målebegreber, og addition med havdyr (5 fisk plus 4 sælhunde) er naturligt indlejret. Havord som hval, krabbe, tang og koral er spændende læseord. Fælles Måls mål for natur/teknik og matematik mødes under havoverfladen.',
+      developmentalMilestones: [
+        { milestone: 'Klassifikation af havdyr efter biologiske træk (5–6-årige skelner fisk fra pattedyr)', howWeAddress: 'Sorteringsøvelser der adskiller fisk, pattedyr og bløddyr opbygger naturfaglig tænkning med havmotiver' },
+        { milestone: 'Størrelsessammenligning og ordning (små til store havdyr)', howWeAddress: 'Størrelses-sorteringsark der ordner havdyr fra krabbe til hval introducerer måle- og sammenligningsbegreber' },
+        { milestone: 'Tælling i grupper og addition med havmotiver', howWeAddress: 'Fiskestim-tælleark og additionsøvelser med havdyr giver konkret matematik i et spændende miljø' },
+      ],
+      differentiationNotes: 'For børn der har brug for støtte, begræns til fire velkendte havdyr (fisk, hval, krabbe, sael), brug store klare billeder, og hold tællingen inden for 10. For avancerede børnehaveklassebørn tilføjes havdyrs-klassifikation med fagbegreber, størrelsesordning med mål og selvstændig skrivning af havfakta.',
+      parentTakeaway: 'Havet fascinerer alle børn. Besøg et akvarium og tæl fisk, sammenlign størrelser, og navngiv arter. Se naturdokumentarer om havet og stil spørgsmål: ”er hvalen en fisk?” Tegn havdyr og skriv deres navne. Havet er et uudtømmeligt læringsunivers.',
+      classroomIntegration: 'Havtemaet bruges som et naturfagsforløb: matematiktimen tæller og sorterer havdyr, naturfagstimen lærer om livet under vandet, dansktimen læser og skriver havord, og kunsttimen skaber havpanoramer. Et klasseakvarium giver autentisk observation. Fælles Måls mål for natur/teknik og matematik integreres.',
+      assessmentRubric: [
+        { skill: 'Havdyrklassifikation', emerging: 'genkender 3–4 havdyr med billedstøtte (fisk, hval)', proficient: 'sorterer selvstændigt havdyr i grupper (fisk, pattedyr, krebsdyr) og forklarer forskelle', advanced: 'bruger biologiske træk til klassifikation og navngiver 10+ havdyrarter' },
+        { skill: 'Størrelsessammenligning og ordning', emerging: 'ordner 2–3 havdyr efter størrelse med støtte', proficient: 'ordner selvstændigt 5–6 havdyr fra mindst til størst korrekt', advanced: 'sammenligner med målebegreber (dobbelt, halvt) og ordner 8+ dyr' },
+        { skill: 'Tælling og addition med havmotiver', emerging: 'tæller 5–8 fisk i en stim med støtte', proficient: 'tæller selvstændigt op til 20 og løser additionsopgaver inden for 10 med havdyr', advanced: 'løser flertrinsproblemer og formulerer egne havmatematikopgaver' },
+      ],
     },
     'first-grade': {
       seoTitle: 'Hav-opgaver 1. Klasse | LessonCraftStudio',

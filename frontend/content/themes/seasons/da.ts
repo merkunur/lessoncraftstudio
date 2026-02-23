@@ -139,6 +139,23 @@ const content: EnrichedThemeContent = {
         { question: 'Kan årstids-arbejdsark hjælpe mit børnehavebarn med at lære om tid?', answer: 'Ja, de er et af de bedste redskaber til at undervise i tidsbegreber i denne alder. Årstider giver en konkret ramme for at forstå, at tiden bevæger sig i cyklusser, hvilket understøtter indlæringen af ugedage, årets måneder og efterhånden at læse analoge ure. At ordne årstidsbegivenheder i rækkefølge opbygger de samme kognitive evner som at ordne historiebegivenheder.' },
         { question: 'Hvilke naturfagskoncepter dækker årstids-arbejdsark i børnehaveklassen?', answer: 'De introducerer observerbare mønstre i naturen, herunder ændringer i temperatur, dagslængde, plantevækst og dyreadfærd på tværs af årstider. Disse begreber stemmer direkte overens med Fælles Måls naturfaglige forventninger for indskolingen, særligt forventningerne om vejrmønstre og levende væsners behov under forskellige betingelser.' },
       ],
+
+      snippetAnswer: 'Årstids-arbejdsark til børnehaveklassen (5–6 år) træner cyklisk tidsforståelse, naturobservation, tælling og begyndende læsning med forår, sommer, efterår og vinter. Årstiderne giver året struktur. Gratis printbare PDF-arbejdsark på LessonCraftStudio.',
+      uniqueGradeAngle: 'Årstidstemaet er særligt meningsfuldt i børnehaveklassen, fordi fem- og seksårige for første gang forstår årets cykliske struktur — de ved, at efter vinter kommer forår, og at mønstret gentager sig. Denne cykliske tænkning er en vigtig kognitiv milepael. Hvor førskolebørn oplevede årstiderne, analyserer børnehaveklassebørn dem: tæller efteraarsblade, sammenligner dagslangde (vinter vs. sommer), registrerer vejr i tabeller og sorterer tøj efter årstid. Årstidsord som forår, frost, høst og blomstring er vigtige læseord. Fælles Måls mål for natur/teknik og tid understøttes direkte.',
+      developmentalMilestones: [
+        { milestone: 'Cyklisk tidsforståelse (4 årstider i en gentagende raekkefolge)', howWeAddress: 'Årstidshjul-ark der viser den cykliske struktur opbygger forståelsen af, at årstider gentager sig' },
+        { milestone: 'Sammenligning og kontrast (hvad er forskelligt mellem årstiderne)', howWeAddress: 'Sammenlign-årstiderne-ark med side-om-side illustrationer træner analytisk tænkning' },
+        { milestone: 'Naturobservation og vejrregistrering', howWeAddress: 'Vejrdagbogs-ark med daglig registrering af temperatur, sky og nedbor træner systematisk observation' },
+        { milestone: 'Årstidsrelateret tælling og sortering', howWeAddress: 'Tælleark med årstidsgenstande (blade om efteråret, snebolde om vinteren) giver kontekstrig matematik' },
+      ],
+      differentiationNotes: 'For børn der har brug for støtte, fokuser på to årstider ad gangen (sommer vs. vinter), brug sansebaserede aktiviteter (fol blade, se sne), og hold tællingen inden for 10. For avancerede børnehaveklassebørn tilføjes vejrdata i tabeller, dagslangde-sammenligning og selvstændig skrivning af årstidsbeskrivelser.',
+      parentTakeaway: 'Årstiderne er altid til stede. Tæl efteraarsblade, byg en snemand og tæl snebolde, plant frø om foraret og mal sommerblomster. For en vejrdagbog på koleskabet: ”hvordan var vejret i dag?” Tal om forandringer: ”hvad sker der med traerne om efteråret?” Naturen underviser gratis.',
+      classroomIntegration: 'Årstidstemaet lober gennem hele skoleåret: hver årstid får et temaforlob med tælle-, observations- og skriveark. Vejrstationen opdateres dagligt, årstidshjulet justeres månedligt, og naturfagsture dokumenteres med arbejdsark. Fælles Måls mål for natur/teknik, tid og matematik integreres hele året.',
+      assessmentRubric: [
+        { skill: 'Årstidsraekkefolge og cyklisk forståelse', emerging: 'navngiver 2–3 årstider med støtte og kender den aktuelle', proficient: 'navngiver alle fire årstider i korrekt raekkefolge og beskriver hvert aarstids kendetegn', advanced: 'forklarer den cykliske struktur, forudsiger naeste årstid og sammenligner med andre landes klima' },
+        { skill: 'Vejrobservation og registrering', emerging: 'beskriver dagens vejr med 1–2 ord (sol, regn) med støtte', proficient: 'registrerer selvstændigt dagligt vejr med symboler og ord på et skema', advanced: 'analyserer vejrdata over en uge og finder monstre (det regnede 3 af 5 dage)' },
+        { skill: 'Årstidsrelateret tælling', emerging: 'tæller 5–8 årstidsgenstande med støtte', proficient: 'tæller selvstændigt op til 20 og sorterer genstande efter årstid', advanced: 'løser additionsopgaver med årstidsdata og laver simple sammenligninger' },
+      ],
     },
     'first-grade': {
       seoTitle: 'Årstider-opgaver 1. Klasse | LessonCraftStudio',

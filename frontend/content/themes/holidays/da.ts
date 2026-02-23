@@ -140,6 +140,23 @@ const content: EnrichedThemeContent = {
         { question: 'Hvilke matematikbegreber dækker børnehaveklassens højtidsarbejdsark?', answer: 'De fokuserer på tælling til tyve, addition og subtraktion inden for ti ved hjælp af festlige genstandstællere, sammenligning af mængder af dekorationer, sortering af fejringer efter årstid og genkendelse af mønstre i højtidssekvenser — alt sammen i overensstemmelse med Fælles Mål for matematik i børnehaveklassen.' },
         { question: 'Kan højtidsarbejdsark understøtte en samfundsfagsenhed i børnehaveklassen?', answer: 'Absolut. De adresserer direkte læringsmål om fællesskaber, traditioner og kulturelle praksisser. Arbejdsark, der udforsker hvordan og hvorfor mennesker fejrer, lærer børn om fælles menneskelige værdier som taknemmelighed, gavmildhed og samhørighed på tværs af kulturer.' },
       ],
+
+      snippetAnswer: 'Højtids-arbejdsark til børnehaveklassen (5–6 år) træner tælling, mønstre, addition inden for 10 og begyndende læsning med jul, påske, fastelavn og andre danske højtider. Traditioner driver læring. Gratis printbare PDF-arbejdsark på LessonCraftStudio.',
+      uniqueGradeAngle: 'Højtidstemaet er særligt kraftfuldt i børnehaveklassen, fordi fem- og seksårige for første gang forstår kalenderstrukturen — de ved, at julen kommer i december, påsken om foråret og fastelavn efter vinter. Denne tidsforståelse gør højtiderne til meningsfulde læringsanledninger. Hvor førskolebørn nod dekorationerne, tæller børnehaveklassebørn adventslys, løser påskeæg-addition (6+4), genkender mønstre i julepynt og læser højtidsord. Kalendermatematik (dage til jul, uger til påske) introducerer tidsbegreber. Fælles Måls mål for kultur, tal og kommunikation mødes.',
+      developmentalMilestones: [
+        { milestone: 'Tidsforståelse og kalenderstruktur (5–6-årige forstår årets cyklus)', howWeAddress: 'Højtidskalender-ark der placerer fester på årets tidslinje opbygger kronologisk forståelse' },
+        { milestone: 'Addition og subtraktion inden for 10 med højtidsmotiver', howWeAddress: 'Jule- og påskescener med addition (5 gaver plus 3 gaver) og subtraktion giver festlig matematik' },
+        { milestone: 'Kulturel bevidsthed (danske traditioner og deres betydning)', howWeAddress: 'Højtidstraditions-arbejdsark introducerer fastelavn, sankthans og andre danske traditioner med ord og billeder' },
+        { milestone: 'Mønstergenkendelse i dekorationer (gentagne mønstre)', howWeAddress: 'Julepynt-mønsterark med kugle-stjerne-kugle-sekvenser træner mønstertænkning festligt' },
+      ],
+      differentiationNotes: 'For børn der har brug for støtte, fokusér på én højtid ad gangen med velkendte symboler (juletrae, påskeæg), hold tællingen inden for 10, og brug billedstøtte til ordlæsning. For avancerede børnehaveklassebørn tilføjes kalenderregning (dage til næste højtid), flertrins-addition og selvstændig skrivning af højtidsbeskrivelser.',
+      parentTakeaway: 'Hver højtid er en læringsanledning. Tæl adventslys, regn dage til jul, sorter påskeæg efter farve og størrelse. Lad barnet skrive julekort og påskehilsner. Tal om traditioner: ”hvorfor fejrer vi fastelavn?” Disse samtaler opbygger kulturel forståelse og gør læring personlig.',
+      classroomIntegration: 'Højtidstemaet følger skoleåret naturligt: adventskalender med daglig matematik i december, påskeægsjagt med tælleøvelser om foråret, og fastelavnsforberedelse med mønster- og skriveark. Temaet binder hele året sammen og giver børnene kulturelle fikspunkter. Fælles Måls mål for kultur, matematik og kommunikation integreres.',
+      assessmentRubric: [
+        { skill: 'Kalender- og tidsforståelse', emerging: 'navngiver 2–3 højtider og placerer dem i den rigtige årstid med støtte', proficient: 'placerer selvstændigt 5–6 højtider på en tidslinje i korrekt rækkefølge', advanced: 'regner dage/uger til næste højtid og forklarer årets cykliske struktur' },
+        { skill: 'Addition med højtidsmotiver', emerging: 'løser additionsopgaver inden for 5 med konkrete højtidsgenstande', proficient: 'løser selvstændigt additions- og subtraktionsopgaver inden for 10 med højtidsbilleder', advanced: 'løser flertrinsproblemer og formulerer egne regnestykker om højtider' },
+        { skill: 'Dansk højtidskultur', emerging: 'genkender symboler for jul og påske med støtte', proficient: 'navngiver selvstændigt 4–5 danske højtider og deres vigtigste traditioner', advanced: 'sammenligner højtider og forklarer traditioner med egne ord og kulturel forståelse' },
+      ],
     },
     'first-grade': {
       seoTitle: 'Helligdage-opgaver 1. Klasse | LessonCraftStudio',

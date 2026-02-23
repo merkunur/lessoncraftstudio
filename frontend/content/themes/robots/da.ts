@@ -140,6 +140,22 @@ const content: EnrichedThemeContent = {
         { question: 'Hvordan understøtter robotarbejdsark Fælles Mål for matematik i børnehaveklassen?', answer: 'De adresserer tælling og mængdeforståelse gennem robotdelstælling, operationer gennem kodeaddition og billedadditionsaktiviteter, geometri gennem formidentifikation i robotdesigns og algebraisk tænkning gennem mønsterudvidelsesopgaver, alt i overensstemmelse med Fælles Mål for matematik.' },
         { question: 'Kan robotarbejdsark bruges til børnehaveklassens centeraktiviteter?', answer: 'Ja. Robotarbejdsark er ideelle til selvstændige læringscentre fordi de visuelle instruktioner og velkendte formater gør det muligt for børnehaveklasseelever at arbejde uden konstant lærervejledning. Opret et robotlaboratoriecenter med arbejdsark, byggematerialer og en ordvæg med robotordforråd til en selvstyret STEM-læringsstation.' },
       ],
+
+      snippetAnswer: 'Robot-arbejdsark til børnehaveklassen (5–6 år) træner geometriske former, sekvensering af instruktioner, mønstergenkendelse og begyndende logisk tænkning med robotter og teknologi. Tidlig kodningstænkning. Gratis printbare PDF-arbejdsark på LessonCraftStudio.',
+      uniqueGradeAngle: 'Robottemaet er særligt relevant for børnehaveklassen, fordi fem- og seksårige kan folge og give sekventielle instruktioner — grundlaget for algoritmisk tænkning. Hvor førskolebørn tegnede robotter, programmerer børnehaveklassebørn dem konceptuelt: ”gå frem, drej hojre, gå frem, saml op”. Robotter består af geometriske former (firkantede kroppe, cirkulaere ojne, rektangulaere arme), hvilket gor formgenkendelse funktionel. Mønstre i robotdesign (symetriske dele, gentagende elementer) træner mønstertænkning. Fælles Måls mål for teknologiforståelse og logisk tænkning mødes i et futuristisk tema.',
+      developmentalMilestones: [
+        { milestone: 'Sekventiel instruktionsgivning (5–6-årige kan give og folge 3–4-trins instruktioner)', howWeAddress: 'Robot-programmeringsark hvor børn skriver trinvise instruktioner (gå, drej, stop) introducerer algoritmisk tænkning' },
+        { milestone: 'Formgenkendelse i design (robottens kropsdele som geometriske former)', howWeAddress: 'Byg-en-robot-ark med geometriske former gør formgenkendelse til en kreativ og funktionel øvelse' },
+        { milestone: 'Symmetriforståelse (robotters bilaterale symmetri)', howWeAddress: 'Symmetri-færdiggørelses-ark med halvrobot-designs træner rumlig tænkning og formpræcision' },
+      ],
+      differentiationNotes: 'For børn der har brug for støtte, brug simple 2-trins instruktioner (gå frem, stop), fokuser på tre grundformer i robotdesign, og supplementér med fysiske robotfigurer. For avancerede børnehaveklassebørn tilføjes 5-trins programmer, betingede instruktioner (”hvis mur, så drej”) og design af egne robotter med mål.',
+      parentTakeaway: 'Leg robot-programmering derhjemme: barnet giver instruktioner, du er robotten (gå 3 skridt, drej venstre, loft armen). Byt roller. Byg robotter af karton og tal om formerne: ”hvilken form er hovedet? Kroppen?” Enkle programmeringsapps som ScratchJr gør kodningstænkning håndgribelig.',
+      classroomIntegration: 'Robottemaet bruges i børnehaveklassens teknologiforløb: matematiktimen arbejder med form- og sekvenserings-ark, kodningens time (usynlig kodning) bruger robot-instruktionskort, og kunsttimen designer robotter af genbrugsmaterialer. Fælles Måls mål for teknologi, geometri og logisk tænkning integreres.',
+      assessmentRubric: [
+        { skill: 'Sekventiel instruktion (robotprogrammering)', emerging: 'giver 2 instruktioner i korrekt rækkefølge med støtte (gå, stop)', proficient: 'giver selvstændigt 4–5 trinvise instruktioner i korrekt rækkefølge', advanced: 'tilføjer betingelser (”hvis mur, drej”) og debugger fejl i instruktionssekvenser' },
+        { skill: 'Formgenkendelse i robotdesign', emerging: 'identificerer cirkel og firkant i en robot med støtte', proficient: 'navngiver selvstændigt 4–5 geometriske former i et robotdesign', advanced: 'designer en robot med navngivne former og beskriver den med geometriske begreber' },
+        { skill: 'Symmetri med robotter', emerging: 'genkender, at robotten har to ens sider med støtte', proficient: 'faerdiggør selvstændigt en symmetrisk robothalvdel korrekt', advanced: 'forklarer symmetribegrebet og anvender det i eget robotdesign' },
+      ],
     },
     'first-grade': {
       seoTitle: 'Robotter-opgaver 1. Klasse | LessonCraftStudio',

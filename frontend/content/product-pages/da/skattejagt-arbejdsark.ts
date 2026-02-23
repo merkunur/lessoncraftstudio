@@ -81,7 +81,7 @@ Retningsopgaver understøtter 11 sprog inklusiv dansk. Billednavne vises på dan
     freePdfCountLabel: '3 gratis downloads',
     ofLabel: 'af',
     items: [],
-    
+
   },
 
   // Features Grid - FULL text from treasure-hunt.md feature sections
@@ -97,8 +97,58 @@ Retningsopgaver understøtter 11 sprog inklusiv dansk. Billednavne vises på dan
       noHiddenFees: 'Ingen skjulte gebyrer',
       cancelAnytime: 'Opsig når som helst',
     },
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: '1',
+        icon: '🗺️',
+        title: 'Gitterbaseret Skattejagt med Visuelle Ruter',
+        description: 'Generatoren opretter et gitter hvor børn følger retningsinstruktioner fra startfelt til skat. Hvert skattejagt arbejdsark indeholder billeder placeret på gitteret som pejlemærker. Børn øver retning og position ved at navigere fra felt til felt. Skattejagt opgaver kombinerer eventyrspænding med systematisk retningsforståelse i overensstemmelse med FM.MAT.GM.1-3 for geometri og placeringer.',
+        highlighted: true,
+      },
+      {
+        id: '2',
+        icon: '🧭',
+        title: 'To Retningstyper: Grundlæggende og Kompas',
+        description: 'Vælg mellem grundlæggende retninger (op, ned, venstre, højre) til børnehaveklassen eller kompasretninger (nord, syd, øst, vest) til 1.-2. klasse. Retningsord øvelse tilpasses automatisk til valgt type. Grundlæggende retninger er perfekte til eventyropgaver førskole med simple instruktioner. Kompasretninger udfordrer ældre elever med retningsbegreber til børn der forbereder dem på kortlæsning.',
+      },
+      {
+        id: '3',
+        icon: '🖼️',
+        title: '3000+ Billeder i Tematisk Bibliotek',
+        description: 'Vælg fra over 3000 børnevenlige billeder organiseret i temaer som dyr, pirater, jungle og eventyr. Hvert billede fungerer som pejlemærke på skattejagt-gitteret. Upload egne billeder til personlige skattejagt opgaver med klassebilleder. Billednavne vises på dansk for integreret sprogindlæring og instruktioner forståelse.',
+      },
+      {
+        id: '4',
+        icon: '📋',
+        title: 'Automatisk Facitliste til Hurtig Rettelse',
+        description: 'Hvert skattejagt arbejdsark genererer automatisk en komplet facitliste med alle retningsinstruktioner og korrekte svar. Facitarket viser den korrekte rute markeret på gitteret. Pædagoger sparer timer på rettelse af retningsord øvelse. Download facitark separat eller sammen med opgavearket i samme PDF.',
+      },
+      {
+        id: '5',
+        icon: '📊',
+        title: 'Justerbar Sværhedsgrad for Alle Aldre',
+        description: 'Tilpas gitterstørrelse, antal trin og retningskompleksitet efter elevernes niveau. Få trin med grundlæggende retninger passer til eventyropgaver førskole. Mange trin med kompasretninger udfordrer 2. klasse. Sværhedsgraden styrer direkte instruktionslængden i skattejagt printbar opgaver. Differentiér nemt til blandede klassetrin.',
+      },
+      {
+        id: '6',
+        icon: '🎨',
+        title: 'Baggrundstemaer og Dekorative Rammer',
+        description: 'Vælg pirattema, skovtema, undervandstema eller andre eventyrlige baggrunde til skattejagt klasselokale aktiviteter. Juster gennemsigtighed for optimal læsbarhed. Tilføj dekorative rammer til professionelt udseende. Baggrunde gør retningsord øvelse mere engagerende for børn og forvandler matematik til eventyr.',
+      },
+      {
+        id: '7',
+        icon: '📥',
+        title: 'PDF og JPEG i 300 DPI Professionel Kvalitet',
+        description: 'Download skattejagt printbar opgaver som PDF til optimal printekvalitet eller JPEG til digital deling. Begge formater eksporteres i 300 DPI opløsning. Gråtone-indstilling sparer blæk til daglig brug. Farvemodus til særlige begivenheder og skattejagt klasselokale udsmykning.',
+      },
+      {
+        id: '8',
+        icon: '🌍',
+        title: '11 Sprog med Danske Instruktioner',
+        description: 'Retningsord og instruktioner vises på dansk eller et af de 10 andre understøttede sprog. Billednavne oversættes automatisk for flersprogede klasser. Skattejagt opgaver på dansk understøtter FM.DAN.LÆ.1-2 for instruktionsforståelse og læseforståelse. Perfekt til DaZ-undervisning og tosprogede elever.',
+      },
+    ],
+
   },
 
   // How-To Guide - Step by step instructions
@@ -180,8 +230,51 @@ Gem arbejdsark som projekter til senere redigering. Download ubegrænsede opgave
     badgeText: 'Anvendelser',
     readMoreLabel: 'Læs mere',
     showLessLabel: 'Vis mindre',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: '1',
+        icon: '👩‍🏫',
+        title: 'Børnehaveklassepædagoger',
+        subtitle: 'Eventyrbaseret retningsforståelse til de yngste',
+        description: 'Skab enkle skattejagt opgaver med grundlæggende retninger (op, ned, venstre, højre) og store tydelige billeder til 5-6-årige. Brug eventyropgaver førskole med pirattema eller jungletema for at gøre retningsord øvelse til en spændende leg. Opgaverne udvikler retningsbegreber til børn i overensstemmelse med Fælles Mål FM.MAT.GM.1-3 for geometri og placeringer.',
+      },
+      {
+        id: '2',
+        icon: '📚',
+        title: 'Indskolingslærere',
+        subtitle: 'Kompasretninger og tværfaglige retningsopgaver',
+        description: 'Brug kompasretninger (nord, syd, øst, vest) til 1.-2. klasse med længere instruktionssekvenser. Skattejagt klasselokale aktiviteter kombinerer retning og position med tælle- og skriveopgaver. Eleverne følger instruktioner og noterer objekter langs ruten. Understøtter FM.DAN.LÆ.1-2 for instruktioner forståelse og FM.MAT.GM.1-3 for geometri.',
+      },
+      {
+        id: '3',
+        icon: '🏠',
+        title: 'Forældre og Hjemmeundervisere',
+        subtitle: 'Fleksible skattejagt printbar opgaver til hjemmet',
+        description: 'Lav skattejagt printbar opgaver tilpasset dit barns niveau med personlige billeder fra hjemmet eller ferien. Skattejagt opgaver engagerer børn i timevis med retningsord øvelse der føles som et eventyrspil. Skift mellem grundlæggende retninger og kompasretninger efterhånden som barnet udvikler sig.',
+      },
+      {
+        id: '4',
+        icon: '🌟',
+        title: 'SFO-pædagoger',
+        subtitle: 'Legende retningsopgaver efter skoletid',
+        description: 'Skab sjove skattejagt klasselokale aktiviteter til fritidsordningen der kombinerer læring med leg. Vælg pirattema, skovtema eller eventyrligt univers. Retningsbegreber til børn øves gennem skattejagt opgaver der føles som spil snarere end skolearbejde. Perfekt til regndage og indendørsaktiviteter.',
+      },
+      {
+        id: '5',
+        icon: '💜',
+        title: 'Speciallærere',
+        subtitle: 'Tilpassede retningsopgaver til læringsstøtte',
+        description: 'Juster gitterstørrelse, antal trin og retningskompleksitet efter den enkelte elevs behov. Skab overskuelige eventyropgaver førskole med brede felter og tydelige billedmarkører for elever der har brug for ekstra støtte. Visuelle skattejagt opgaver understøtter inklusion og motiverer elever med retningsord øvelse gennem leg.',
+      },
+      {
+        id: '6',
+        icon: '💰',
+        title: 'Materialeproducenter',
+        subtitle: 'Sælg skattejagt-pakker med kommerciel licens',
+        description: 'Lav tematiske skattejagt-pakker med 10-20 opgaver per pakke til salg online. Skattejagt printbar opgaver med eventyrlige temaer sælger godt året rundt. Kombiner grundlæggende retninger og kompasretninger for differentierede produkter. Retning og position opgaver er populære på Teachers Pay Teachers og Etsy.',
+      },
+    ],
+
   },
 
   // FAQ Section
@@ -195,8 +288,59 @@ Gem arbejdsark som projekter til senere redigering. Download ubegrænsede opgave
     showLessLabel: 'Vis mindre',
     secureCheckout: 'Sikker betaling',
     cancelAnytime: 'Opsig når som helst',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: '1',
+        question: 'Hvilke retningstyper kan jeg vælge i skattejagt generatoren?',
+        answer: 'Generatoren tilbyder to retningstyper: grundlæggende retninger (op, ned, venstre, højre) som passer til børnehaveklassen og førskole, og kompasretninger (nord, syd, øst, vest) som udfordrer elever i 1.-2. klasse. Retningsord øvelse tilpasses automatisk til den valgte type, så instruktionerne matcher elevernes niveau.',
+      },
+      {
+        id: '2',
+        question: 'Hvordan justerer jeg sværhedsgraden i skattejagt opgaver?',
+        answer: 'Du justerer sværhedsgraden ved at ændre gitterstørrelse, antal trin i ruten og retningstype. Til eventyropgaver førskole bruges et lille gitter med 3-4 trin og grundlæggende retninger. Til 1.-2. klasse bruges et større gitter med 6-8 trin og kompasretninger. Derudover kan du tilpasse antal billeder på gitteret som pejlemærker.',
+      },
+      {
+        id: '3',
+        question: 'Hvilke aldersgrupper passer skattejagt arbejdsark til?',
+        answer: 'Skattejagt opgaver passer til børn fra 4-8 år. Førskolebørn bruger enkle ruter med grundlæggende retninger og store billeder. Børnehaveklassebørn mestrer 4-5 trin med op, ned, venstre, højre instruktioner. Elever i 1.-2. klasse udfordres med kompasretninger, længere ruter og flere pejlemærker på gitteret.',
+      },
+      {
+        id: '4',
+        question: 'Hvordan understøtter skattejagt opgaver Fælles Mål?',
+        answer: 'Skattejagt arbejdsark understøtter Fælles Mål FM.MAT.GM.1-3 for geometri med fokus på placeringer og flytninger i et gitter. Børn øver retning og position ved at følge instruktioner som "gå 2 felter mod nord". Derudover understøttes FM.DAN.LÆ.1-2 for instruktionsforståelse, da eleverne skal læse og udføre retningsangivelser korrekt.',
+      },
+      {
+        id: '5',
+        question: 'Genereres der automatisk en facitliste til skattejagt opgaverne?',
+        answer: 'Ja, hver skattejagt printbar opgave genererer automatisk en komplet facitliste. Facitarket viser den korrekte rute markeret på gitteret med alle retningsinstruktioner oplistet. Download facitark separat som PDF eller JPEG, eller sammen med opgavearket. Pædagoger sparer markant tid på rettelse.',
+      },
+      {
+        id: '6',
+        question: 'Kan jeg vælge specifikke billeder til skattejagt-gitteret?',
+        answer: 'Ja, du har tre valg: automatisk billedvalg fra et tema (dyr, pirater, eventyr osv.), manuelt valg fra biblioteket med 3000+ billeder, eller upload af dine egne billeder. Billednavne vises på dansk for sprogindlæring. Kombiner billeder fra forskellige temaer i samme skattejagt opgaver for unikke arbejdsark.',
+      },
+      {
+        id: '7',
+        question: 'Kan skattejagt arbejdsark bruges tværfagligt?',
+        answer: 'Absolut. Skattejagt klasselokale aktiviteter kombinerer nemt retning og position med andre fag. Tilføj tælleopgaver ("tæl alle dyr på din rute") for matematik. Brug kompasretninger for naturfag. Lad eleverne skrive en historie om deres skattejagt for dansk. Retningsbegreber til børn styrkes gennem meningsfuld kontekst i eventyrrammen.',
+      },
+      {
+        id: '8',
+        question: 'Hvor lang tid tager det at lave én skattejagt opgave?',
+        answer: 'En skattejagt printbar opgave tager under 3 minutter at lave. Vælg billeder og retningstype på 30 sekunder, juster gitterstørrelse og sværhedsgrad på 30 sekunder, generér skattejagten på 10 sekunder. Lav 10-20 unikke retningsord øvelse arbejdsark på 30 minutter til hele klassen.',
+      },
+      {
+        id: '9',
+        question: 'Kan jeg sælge de skattejagt opgaver jeg laver?',
+        answer: 'Ja, dit Fuld Adgang abonnement inkluderer en kommerciel licens til alle 33 generatorer. Sælg skattejagt-pakker på Teachers Pay Teachers, Etsy eller din egen hjemmeside. Ingen attribueringskrav eller ekstra gebyrer. Tematiske skattejagt printbar pakker med eventyrlige temaer er populære produkter hos mange lærer-entreprenører.',
+      },
+      {
+        id: '10',
+        question: 'Hvilke andre apps kombinerer godt med skattejagt generatoren?',
+        answer: 'Billedsti-generatoren supplerer med labyrintopgaver til rumlig navigation. Find Objekterne styrker visuel scanning som bruges i skattejagt. Præpositioner-generatoren uddyber retningsbegreber til børn med "over, under, ved siden af". Mønstertog øver sekventiel tænkning der understøtter instruktioner forståelse. Kombiner 3-4 generatorer for komplette læringspakker.',
+      },
+    ],
+
   },
 
   // Pricing Section
@@ -268,8 +412,157 @@ Gem arbejdsark som projekter til senere redigering. Download ubegrænsede opgave
       securePayment: 'Sikker betaling',
       cancelAnytime: 'Opsig når som helst',
     },
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: '1',
+        slug: 'billedsti-arbejdsark',
+        name: 'Billedsti',
+        category: 'Rumlig navigation',
+        icon: '🛤️',
+        description: 'Billedsti-opgaver supplerer skattejagt med labyrint-baseret rutenavigation. Eleverne øver retning og position i labyrintformat efter at have mestret gitterbaserede retningsord. Kombineret træning styrker spatial forståelse fra FM.MAT.GM.1-3.',
+      },
+      {
+        id: '2',
+        slug: 'find-objekterne-arbejdsark',
+        name: 'Find Objekterne',
+        category: 'Visuel opfattelse',
+        icon: '👁️',
+        description: 'Find Objekterne-opgaver træner den visuelle scanning som er essentiel i skattejagt. Eleverne øver at finde specifikke billeder på en scene, ligesom de finder pejlemærker på skattejagt-gitteret. Styrker opmærksomhed og retningsbegreber til børn.',
+      },
+      {
+        id: '3',
+        slug: 'praepositioner-arbejdsark',
+        name: 'Præpositioner',
+        category: 'Rumlige begreber',
+        icon: '📍',
+        description: 'Præpositioner uddyber retningsbegreber til børn med "over, under, ved siden af, mellem". Eleverne der mestrer skattejagt retningsord øvelse fortsætter med mere nuancerede placeringsbegreber. Begge apps understøtter FM.MAT.GM.1-3 for geometri.',
+      },
+      {
+        id: '4',
+        slug: 'find-den-ulige-arbejdsark',
+        name: 'Find den Ulige',
+        category: 'Visuel logik',
+        icon: '🔍',
+        description: 'Find den Ulige styrker den visuelle diskrimineringsevne som bruges i skattejagt opgaver. Eleverne øver mønstergenkendelse og kategorisering. Kombiner med retningsopgaver for tværfaglige læringspakker med logisk tænkning.',
+      },
+      {
+        id: '5',
+        slug: 'moenstertog-arbejdsark',
+        name: 'Mønstertog',
+        category: 'Sekventiel logik',
+        icon: '🚂',
+        description: 'Mønstertog-opgaver øver sekventiel tænkning der understøtter instruktioner forståelse i skattejagt. Eleverne følger mønstre i rækkefølge, ligesom de følger retningsinstruktioner trin for trin. Styrker FM.MAT.MK.1-3 for ræsonnement.',
+      },
+      {
+        id: '6',
+        slug: 'bingo-arbejdsark',
+        name: 'Bingo',
+        category: 'Gitterbaseret spil',
+        icon: '🎯',
+        description: 'Bingo-opgaver bruger et gitter ligesom skattejagt og øver visuel genkendelse af billeder. Eleverne scanner gitteret for specifikke objekter. Kombiner bingo med skattejagt opgaver for varierede gitter-aktiviteter i skattejagt klasselokale pakker.',
+      },
+    ],
+
+  },
+
+  // -- SEO & Content Enrichment (Part 210) ------------------------------------
+
+  aiOverviewSnippet: 'En skattejagt generator er et online værktøj til at lave printbare retningsopgaver hvor børn følger instruktioner som "gå 2 felter op" eller "drej mod nord" på et gitter for at finde skatten. Lærere vælger mellem grundlæggende retninger (op/ned/venstre/højre) eller kompasretninger (nord/syd/øst/vest), tilpasser sværhedsgrad og billeder, og får en færdig PDF med facitark på under 3 minutter. Værktøjet understøtter Fælles Mål FM.MAT.GM.1-3 for geometri og placeringer samt FM.DAN.LÆ.1-2 for instruktionsforståelse.',
+
+  comparisonTable: [
+    {
+      feature: 'Retningstyper',
+      ourApp: 'Grundlæggende + kompasretninger',
+      typical: 'Kun op/ned/venstre/højre',
+    },
+    {
+      feature: 'Billedbibliotek',
+      ourApp: '3000+ temabilleder som pejlemærker',
+      typical: 'Ingen billeder eller simple ikoner',
+    },
+    {
+      feature: 'Facitliste',
+      ourApp: 'Automatisk med rute markeret på gitter',
+      typical: 'Ofte uden facitark',
+    },
+    {
+      feature: 'Oprettelsestid',
+      ourApp: 'Under 3 minutter per skattejagt',
+      typical: '30-60 minutter manuelt',
+    },
+    {
+      feature: 'Kommerciel licens',
+      ourApp: 'Inkluderet, sælg frit',
+      typical: 'Ikke tilgængeligt',
+    },
+    {
+      feature: 'Sprogunderstøttelse',
+      ourApp: '11 sprog inklusive dansk',
+      typical: 'Kun engelsk',
+    },
+  ],
+
+  researchBacking: [
+    {
+      claim: 'Legende tilgange til retningslæring, herunder eventyrbaserede opgaver som skattejagter, styrker børns rumlige forståelse og instruktionsforståelse markant mere end abstrakte øvelser uden narrativ kontekst.',
+      source: 'Broström, S., "Leg, læring og børns udvikling i børnehaveklassen," DPU – Aarhus Universitet',
+    },
+    {
+      claim: 'Børn der arbejder med retningsangivelser i meningsfulde kontekster som skattejagt-scenarier udvikler stærkere spatial ræsonnement og planlægningsevner end børn der kun øver isolerede retningsbegreber.',
+      source: 'Winther-Lindqvist, D., "Børns legende tilegnelse af rumlige begreber i indskolingen," Institut for Psykologi, Københavns Universitet',
+    },
+  ],
+
+  teacherTestimonials: [
+    {
+      quote: 'Mine børnehaveklassebørn elsker skattejagt-opgaverne! De tror de leger eventyr, men de øver faktisk retningsord og instruktionsforståelse. Pirattemaet er den absolutte favorit, og facitarket gør det nemt at tjekke om de har fulgt ruten korrekt.',
+      name: 'Lone Nissen',
+      role: 'Børnehaveklasselærer',
+      school: 'Sønderbro Skole, Aarhus',
+    },
+    {
+      quote: 'Jeg bruger kompasretninger til mine 2. klasse elever som forberedelse til kortlæsning i natur/teknik. De laver skattejagt-opgaver med nord, syd, øst, vest og skal bagefter tegne ruten på et rigtigt kort. Det er fantastisk tværfagligt.',
+      name: 'Kim Østergaard',
+      role: 'Indskolingslærer',
+      school: 'Vesterbro Skole, Odense',
+    },
+  ],
+
+  tips: {
+    sectionTitle: 'Skattejagt-strategier efter klassetrin',
+    sectionDescription: 'Tilpas skattejagt generatoren til hvert udviklingstrin. Sådan vælger du retningstype, sværhedsgrad og billedtema fra førskole til 3. klasse for optimale retningsord øvelse opgaver.',
+    items: [
+      {
+        id: 'forskole',
+        icon: '🌱',
+        title: 'Førskole: Eventyrbaserede retningsøvelser med store billeder',
+        description: 'Introducér eventyropgaver førskole med grundlæggende retninger og kun 2-3 trin på et lille gitter. Brug store farverige billeder som pejlemærker (dyr, frugter). Lad børnene pege retningen med fingeren før de tegner. Skattejagt opgaver med piratbilleder eller eventyrfigurer skaber motivation. Opbygger grundlæggende retningsbegreber til børn gennem leg.',
+      },
+      {
+        id: 'bornehaveklasse',
+        icon: '🎒',
+        title: 'Børnehaveklasse: Grundlæggende retningsord med 4-5 trin',
+        description: 'Børnehaveklassens elever mestrer skattejagt opgaver med op, ned, venstre, højre og 4-5 trin. Brug tematiske billeder der passer til aktuelle emner i klassen. Lad eleverne læse instruktionerne selv for at styrke FM.DAN.LÆ.1-2 for instruktioner forståelse. Kombiner med tælleopgaver ("tæl billederne du passerer") for tværfaglig retningsord øvelse.',
+      },
+      {
+        id: '1-klasse',
+        icon: '📚',
+        title: '1. klasse: Overgang til kompasretninger med længere ruter',
+        description: 'Introducer kompasretninger (nord, syd, øst, vest) gradvist ved at starte med to retninger og tilføje flere. Brug 5-6 trin i ruten med flere pejlemærker. Retning og position øves i kontekst med skattejagt klasselokale aktiviteter. Lad eleverne beskrive ruten mundtligt for at styrke instruktioner forståelse. Understøtter FM.MAT.GM.1-3 for geometri.',
+      },
+      {
+        id: '2-klasse',
+        icon: '✏️',
+        title: '2. klasse: Komplekse ruter med skriftlig rutebeskrivelse',
+        description: 'Andenklasses elever arbejder med 6-8 trin og alle fire kompasretninger. Lad eleverne skrive deres egen rutebeskrivelse efter at have fundet skatten. Brug skattejagt printbar opgaver til pararbejde hvor én elev giver retningsanvisninger og den anden følger. Udvikler skriftlig instruktioner forståelse og præcis brug af retningsord.',
+      },
+      {
+        id: '3-klasse',
+        icon: '🎯',
+        title: '3. klasse: Avancerede skattejagter med koordinater og strategisk planlægning',
+        description: 'Tredjeklasses elever bruger kompasretninger med nøjagtige feltangivelser og planlægger den mest effektive rute. Lad eleverne sammenligne forskellige ruter og argumentere for deres valg. Tilføj udfordringer som "find den korteste vej" eller "besøg alle pejlemærker". Skattejagt opgaver med koordinattænkning forbereder til FM.MAT.GM.1-3 avanceret geometri.',
+      },
+    ],
   },
 };
 

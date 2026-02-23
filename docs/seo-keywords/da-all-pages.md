@@ -487,8 +487,8 @@
 | **Primary Keyword** | billedkrydsord generator |
 | **SEO Title** | Gratis Billedkrydsord Generator | LessonCraftStudio |
 | **Title Chars** | 51 |
-| **Meta Description** | Lav printbare billedkrydsord hvor billeder er ledetråde. Udvikler ordforråd og stavning fra førskole til 3. klasse. Gratis PDF. |
-| **Desc Chars** | 133 |
+| **Meta Description** | Lav printbare billedkrydsord hvor billeder er ledetråde. Udvikler ordforråd og stavning fra førskole til 3. klasse. 50 temaer. Download gratis PDF. |
+| **Desc Chars** | 152 |
 | **H1 (hero.title)** | Billedkrydsord Generator |
 | **Subtitle (hero.subtitle)** | Ordforråd og Stavning med Billedledetråde |
 
@@ -617,8 +617,8 @@
 | **Primary Keyword** | find den ulige generator |
 | **SEO Title** | Find den Ulige Generator — Gratis | LessonCraftStudio |
 | **Title Chars** | 54 |
-| **Meta Description** | Lav printbare find den ulige-opgaver til visuel opfattelse og klassificering. 50 temaer og tilpasbare indstillinger. Gratis PDF. |
-| **Desc Chars** | 130 |
+| **Meta Description** | Lav printbare find den ulige-opgaver til visuel opfattelse og klassificering. 50 temaer, tilpasbare indstillinger og facitark. Download gratis PDF. |
+| **Desc Chars** | 152 |
 | **H1 (hero.title)** | Find den Ulige Generator |
 | **Subtitle (hero.subtitle)** | Klassificerings- og Opfattelsesøvelser med Billeder |
 
@@ -708,7 +708,7 @@
 5. billed-labyrint øvelse
 6. sti opgaver førskole
 7. labyrintøvelser til børn
-8. labyrint printbar
+8. visuel logik opgave
 9. ruteøvelser
 10. visuel rute følgning
 
@@ -721,8 +721,8 @@
 | **Primary Keyword** | billedsortering generator |
 | **SEO Title** | Billedsortering Generator — Gratis | LessonCraftStudio |
 | **Title Chars** | 54 |
-| **Meta Description** | Lav printbare billedsorteringsopgaver hvor barnet klassificerer billeder i kategorier. Udvikler klassificeringsfadigheder. Førskole til 2. klasse. |
-| **Desc Chars** | 151 |
+| **Meta Description** | Lav printbare billedsorteringsopgaver hvor barnet klassificerer billeder i kategorier. Udvikler klassificeringsfærdigheder. Førskole til 2. klasse. |
+| **Desc Chars** | 153 |
 | **H1 (hero.title)** | Billedsortering Generator |
 | **Subtitle (hero.subtitle)** | Klassificerings- og Sorteringsøvelser med Billeder |
 
@@ -747,9 +747,9 @@
 | **Primary Keyword** | præpositionsøvelse generator |
 | **SEO Title** | Præpositionsøvelse Generator | LessonCraftStudio |
 | **Title Chars** | 50 |
-| **Meta Description** | Lav printbare præpositionsøvelser til stedord med billeder. Foran, bagved, under, over — visuel sprogindlæring. Gratis PDF. |
-| **Desc Chars** | 127 |
-| **H1 (hero.title)** | Præpositionsøvelsers Generator |
+| **Meta Description** | Lav printbare præpositionsøvelser til stedord med billeder. Foran, bagved, under, over — visuel sprogindlæring. 50 temaer. Download gratis PDF. |
+| **Desc Chars** | 148 |
+| **H1 (hero.title)** | Præpositionsøvelse Generator |
 | **Subtitle (hero.subtitle)** | Stedords Indlæring med Billeder |
 
 **Secondary Keywords (10):**
@@ -773,8 +773,8 @@
 | **Primary Keyword** | skygge-match generator |
 | **SEO Title** | Gratis Skygge-Match Generator | LessonCraftStudio |
 | **Title Chars** | 49 |
-| **Meta Description** | Lav printbare skyggeparringsopgaver hvor barnet matcher billede til korrekt skygge. Udvikler visuel opfattelse. 50 temaer. Gratis. |
-| **Desc Chars** | 133 |
+| **Meta Description** | Lav printbare skyggeparringsopgaver hvor barnet matcher billede til korrekt skygge. Udvikler visuel opfattelse. 50 temaer. Download gratis PDF. |
+| **Desc Chars** | 147 |
 | **H1 (hero.title)** | Skygge-Match Generator |
 | **Subtitle (hero.subtitle)** | Visuel Opfattelsesøvelser med Skyggebilleder |
 
@@ -840,7 +840,7 @@
 7. skattejagt klasselokale
 8. retning og position
 9. eventyrspil printbar
-10. instruktioner forståelse
+10. skattekort opgave
 
 **Differentiation Notes:** Ejer "skattejagt" retningssprog koncept. Eneste eventyr/spil-baserede arbejdsark generator i pakken.
 
@@ -903,8 +903,8 @@
 | **Primary Keyword** | ordsøgning generator |
 | **SEO Title** | Gratis Ordsøgning Generator | LessonCraftStudio |
 | **Title Chars** | 49 |
-| **Meta Description** | Lav printbare ordsøgningsopgaver på 11 sprog. Tilpasbare ord, størrelser og sværhedsgrader. Ordforråd og stavning. Gratis PDF. |
-| **Desc Chars** | 133 |
+| **Meta Description** | Lav printbare ordsøgningsopgaver på 11 sprog. Tilpasbare ord, størrelser og sværhedsgrader. Ordforråd og stavningstræning. Download gratis PDF. |
+| **Desc Chars** | 150 |
 | **H1 (hero.title)** | Ordsøgning Generator |
 | **Subtitle (hero.subtitle)** | Printbare Ordsøgningsopgaver til Ordforrådstræning |
 
@@ -1113,7 +1113,7 @@
 3. sport matematik
 4. sport førskole
 5. sport printbar
-6. idrettsgrene opgaver
+6. idrætsgrene opgaver
 7. sport puslespil
 8. boldspil til børn
 9. sport ordopgaver
@@ -1132,7 +1132,7 @@
 
 **Secondary Keywords (10):**
 1. følelser arbejdsark
-2. følelsesmssige færdigheder øvelser
+2. følelsesmæssige færdigheder øvelser
 3. ansigtsudtryk opgaver
 4. følelser førskole
 5. følelser printbar
@@ -1598,7 +1598,7 @@
 5. bondegård printbar
 6. husdyr opgaver
 7. bondegård puslespil
-8. høst og afgøder
+8. høst og afgrøder
 9. bondegård ordopgaver
 10. landbrug til børn
 

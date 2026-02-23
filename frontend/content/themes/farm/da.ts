@@ -177,6 +177,22 @@ const content: EnrichedThemeContent = {
         { question: 'Hvordan passer bondegårdsarbejdsark til naturfagsmål i 1. klasse?', answer: 'De understøtter naturfagsmål om plante- og dyrebehov ved at bede børn om at identificere, hvad afgrøder har brug for for at vokse, og hvad bondegårdsdyr har brug for for at holde sig raske. Arbejdsark om sæsonbestemt landbrug forbinder til mål om mønstre og cyklusser i den naturlige verden.' },
         { question: 'Er bondegårdsarbejdsark for 1. klasse fagligt krævende nok?', answer: 'Ja. De inkluderer flertrinsproblemer i tekstopgaver, mønsterudfyldning med bondegårdssekvenser, ordforrådsøvelser med ord op til ni bogstaver og læseforståelse, der kræver slutningsdragning om landbrugsprocesser. Bondegårdstemaet holder børnene engagerede, mens det faglige indhold fuldt ud matcher forventningerne i 1. klasse.' },
       ],
+
+      snippetAnswer: 'Gård-arbejdsark til 1. klasse (6–7 år) træner produktionskæder, flertrinsmatematik med gårddata, dataindsamling med tabeller og selvstændig skrivning af gårdfakta. Landbruget giver tværfaglig læring. Gratis printbare PDF-arbejdsark på LessonCraftStudio.',
+      uniqueGradeAngle: 'I 1. klasse går gårdtemaet fra navngivning til forståelse af systemer — seks- og syvårige kan foelge produktionskæder med flere led (korn→mel→broed), løse flertrinsproblemer med gårddata (12 hoens lagger 12 aeg, 4 bliver spist, hvor mange er tilbage?), og indsamle data om gårddyr i tabeller og diagrammer. Måling af veksthastighed (planter en froe og maaler i centimeter hver uge) giver langsgaaende dataindsamling. Faglitterær skrivning om gårddyr og produkter kraever strukturerede faktasætninger. Fælles Måls mål for naturfag, matematik og skrivning i 1. klasse mødes.',
+      developmentalMilestones: [
+        { milestone: 'Produktionskæder med flere led (6–7-årige forstår sammenkoblede processer)', howWeAddress: 'Produktionskæde-ark (ko→maelk→smoer→brød) opbygger systemtaenkning med konkrete landbrugseksempler' },
+        { milestone: 'Flertrinsregning med gårddata (2–3 operationer i raekkefoelge)', howWeAddress: 'Gårdtekstopgaver med flere trin giver kontekstualiseret flertrinstaenkning' },
+        { milestone: 'Længdedata over tid (maaling af vaekst uge for uge)', howWeAddress: 'Plantevækst-registreringsark, hvor eleverne maaler og noterer i centimeter ugentligt' },
+      ],
+      differentiationNotes: 'For elever der har brug for stoette, begraens produktionskæder til to led, hold regning inden for 10, og tilbyd forudfyldte tabeller. For avancerede elever i 1. klasse tilføjes produktionskæder med fire led, flertrinsregning inden for 50, og selvstaendig skrivning af gårdforskningsrapport med diagrammer.',
+      parentTakeaway: 'Besoeg en gaard og foelg maden fra jord til bord: ”hvor kommer maelken fra? Og smoerret?” Plant et froe derhjemme og maal vaeksten med lineal hver uge. Lav en tabel over vaeksten. Lad barnet skrive tre fakta om sit yndlingsgårddyr. Gården er det bedste tvaerfaglige klasselokale.',
+      classroomIntegration: 'Gårdtemaet i 1. klasse integreres som aarsprojekt: naturfag med produktionskæder og plantevækst, matematik med flertrinsopgaver og måledata, dansk med gårdfaktaskrivning. Et klassevaeksthus med ugentlige maalinger forbinder alle fag. Fælles Måls mål for naturfag, maaling og skriftlig fremstilling understøttes.',
+      assessmentRubric: [
+        { skill: 'Produktionskædeforståelse', emerging: 'forbinder et dyr med ét produkt med billedstøtte (ko→maelk)', proficient: 'ordner selvstaendigt en produktionskæde med 3 led korrekt og forklarer den', advanced: 'forklarer produktionskæder med 4+ led og sammenligner forskellige kæder' },
+        { skill: 'Flertrinsproblemer (gårdkontekst)', emerging: 'løser ét-trins-opgaver inden for 10 med konkreter', proficient: 'løser selvstaendigt to-trins-problemer inden for 20 med gårddata', advanced: 'loser tre-trins-problemer, formulerer egne opgaver og verificerer svar' },
+        { skill: 'Vaekstdata og maaling', emerging: 'maaler en plante med stoette og noterer ét mål', proficient: 'maaler selvstaendigt i cm, noterer ugentligt og sammenligner (hoejere/lavere)', advanced: 'analyserer vaekstdata over tid, finder moenstre og formulerer spørgsmål' },
+      ],
     },
     'second-grade': {
       seoTitle: 'Bondegård-opgaver 2. Klasse | LessonCraftStudio',

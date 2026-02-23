@@ -177,6 +177,22 @@ const content: EnrichedThemeContent = {
         { question: 'Er eventyr-arbejdsark udfordrende nok til dygtige elever i 1. klasse?', answer: 'Ja. Dygtige elever kan tackle udvidede ordpuslespil, flertrins-matematikopgaver i eventyrscenarier og kreative skriveopgaver, der beder dem opfinde originale eventyr efter den narrative struktur, de har lært. Temaet giver både stillads og udfordringsmuligheder.' },
         { question: 'Hvordan forbinder eventyr-arbejdsark sig til skrivemål i 1. klasse?', answer: 'De giver strukturerede skriveopgaver som genfortælling af en historie med egne ord, skrivning af en alternativ slutning eller beskrivelse af en figur med egenskabsord fra arbejdsarkene. Disse opgaver stemmer overens med Fælles Mål, der kræver, at elever skriver fortællende tekster med begyndelse, midte og slutning.' },
       ],
+
+      snippetAnswer: 'Eventyr-arbejdsark til 1. klasse (6–7 år) træner narrativ analyse, genfortaelling med egne ord, karakterbeskrivelse og selvstaendig eventyrskrivning med begyndelse, midte og slutning. Klassiske og nye eventyr driver laesning og skrivning. Gratis printbare PDF-arbejdsark på LessonCraftStudio.',
+      uniqueGradeAngle: 'I 1. klasse går eventyrtemaet fra genfortaelling til analyse og kreation — seks- og syvårige kan identificere narrative elementer (hovedperson, problem, løsning), sammenligne eventyr på tvaers af historier og skrive egne eventyr med klar struktur. Karakterbeskrivelser med adjektiver (modig, klog, grinagtig) træner beskrivende skrivning. Eventyrsekvensering i 5–7 trin kræver praecis kronologisk tænkning. Sammenligning af to eventyr i Venn-diagrammer introducerer analytisk laesning. Fælles Måls mål for laesning, narrativ kompetence og kreativ skrivning i 1. klasse mødes.',
+      developmentalMilestones: [
+        { milestone: 'Narrativ analyse (6–7-årige kan identificere hovedperson, problem og loesning)', howWeAddress: 'Eventyranalyseark med felter for karakter, problem og loesning giver struktureret analysetaenkning' },
+        { milestone: 'Sammenligning af tekster (to eventyr sidestilles)', howWeAddress: 'Venn-diagram-ark, der sammenligner to eventyr, opbygger analytisk laesekompetence' },
+        { milestone: 'Selvstændig eventyrskrivning (begyndelse, midte, slutning)', howWeAddress: 'Eventyrskriveskabeloner med plads til illustration og tekst i tre dele guider kreativ skrivning' },
+      ],
+      differentiationNotes: 'For elever der har brug for stoette, brug velkendte eventyr med 3–4 sekvensbilleder, tilbyd ordbank med eventyrord, og giv rammer for skrivning. For avancerede elever i 1. klasse tilføjes sammenligning af tre eventyr, karakteranalyse med citat, og fri eventyrskrivning med dialog og beskrivelser.',
+      parentTakeaway: 'Laes et eventyr hver uge og tal om strukturen: ”hvem er helten? Hvad er problemet? Hvordan løses det?” Sammenlign to eventyr: ”hvordan ligner Roedhaette og De Tre Små Grise hinanden?” Lad barnet skrive sit eget eventyr med tegninger. Eventyr er den ældste og bedste skriveundervisning.',
+      classroomIntegration: 'Eventyrtemaet i 1. klasse er danskfagets rygrad: ugentlig eventyrlaesning med analyseark, skriveworkshop med eventyrskabeloner, dramatisering i rollespil, og sammenlignende laesning med Venn-diagrammer. Et klasseventyrbibliotek med elevskrevne eventyr fejrer arbejdet. Fælles Måls mål for laesning, skrivning og mundtlig fremstilling understøttes.',
+      assessmentRubric: [
+        { skill: 'Narrativ analyse (eventyr)', emerging: 'identificerer hovedpersonen med støtte og genffortæller 2–3 haendelser', proficient: 'identificerer selvstaendigt hovedperson, problem og loesning og genffortæller i korrekt raekkefoelge', advanced: 'analyserer narrative elementer, sammenligner eventyr og forklarer temaer' },
+        { skill: 'Eventyrsammenligning (Venn-diagram)', emerging: 'finder 1–2 ligheder mellem to eventyr med voksenstøtte', proficient: 'udfylder selvstaendigt et Venn-diagram med ligheder og forskelle', advanced: 'sammenligner tre eventyr, drager konklusioner og formulerer dem skriftligt' },
+        { skill: 'Selvstændig eventyrskrivning', emerging: 'skriver 3–4 saetninger med skabelon og billedstøtte', proficient: 'skriver selvstaendigt et kort eventyr med begyndelse, midte og slutning', advanced: 'skriver et detaljeret eventyr med dialog, beskrivelser og overraskende handling' },
+      ],
     },
     'second-grade': {
       seoTitle: 'Eventyr-opgaver 2. Klasse | LessonCraftStudio',

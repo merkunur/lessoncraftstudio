@@ -178,6 +178,22 @@ const content: EnrichedThemeContent = {
         { question: 'Hvad gør tøjarbejdsark fagligt stringente nok for 1. klasse?', answer: 'De inkluderer flertrins-tekstopgaver med tøjscenarier, kompleks mønsterskabelse med tre eller flere elementer, flerkriterie-sortering der kræver fleksibel tænkning, komparative og superlative størrelsesordninger og læseforståelse med informationstekster om tøj og materialer. Temaet holder børnene engagerede, mens det faglige indhold opfylder klassetrinsstandarderne.' },
         { question: 'Kan tøjarbejdsark introducere målingskoncepter?', answer: 'Ja. At sammenligne længden af tørklæder, højden af støvler og bredden af hatte introducerer ikke-standardiseret måling. Elever i 1. klasse kan måle tøjgenstande med papirclips eller snaptæller-klodser og registrere deres resultater, og dermed forbinde tøjsorteringsevner med Fælles Måls målings- og datastandarder for 1. klasse.' },
       ],
+
+      snippetAnswer: 'Tøj-arbejdsark til 1. klasse (6–7 år) træner sortering efter flere kriterier, pengeregning med prisskilte, måling af tøjstørrelser og selvstændig skrivning af tøjbeskrivelser. Hverdagsmatematik i praksis. Gratis printbare PDF-arbejdsark på LessonCraftStudio.',
+      uniqueGradeAngle: 'I 1. klasse får tøjtemaet matematisk og sproglig dybde — seks- og syvårige kan arbejde med prisskilte og begyndende pengeregning, måle størrelser med centimeter, og skrive beskrivelser af tøj med adjektiver. Sortering udvides til tre kriterier samtidig (årstid, materiale, funktion). Prissammenligninger (”hvilken jakke er billigst?”) introducerer pengevaerdi. Maalbåndsmåling af armlængde og livvidde giver autentisk brug af centimeter. Skrivning af tøjbeskrivelser med farve, materiale og funktion træner adjektivbrug. Fælles Måls mål for måling, penge og skriftlig beskrivelse i 1. klasse mødes.',
+      developmentalMilestones: [
+        { milestone: 'Begyndende pengeforståelse (6–7-årige genkender mønter og priser)', howWeAddress: 'Tøjbutik-ark med prisskilte, hvor eleverne adderer priser og sammenligner, giver funktionel pengeregning' },
+        { milestone: 'Måling med målebånd (centimeter i kontekst)', howWeAddress: 'Størrelsesmålingsark, hvor eleverne måler tøjdele med centimeter, giver autentisk linealbrug' },
+        { milestone: 'Beskrivende skrivning med adjektiver (farve, størrelse, materiale)', howWeAddress: 'Tøjbeskrivelsesark med adjektivrammer guider eleverne til at skrive praecise beskrivelser' },
+      ],
+      differentiationNotes: 'For elever der har brug for støtte, brug hele kroner uden øre, mål i hele centimeter, og tilbyd ordbankmed adjektiver. For avancerede elever i 1. klasse tilføjes prisberegning med øre, sammenligning af prisniveauer, og selvstændig skrivning af tøjanmeldelser med begrundede meninger.',
+      parentTakeaway: 'Gør tøjshopping til matematik: ”denne trøje koster 80 kr., den koster 65 kr. — hvilken er billigst?” Mål barnets armlaengde med maalbånd. Lad barnet sortere rent tøj efter type, farve og person. Skriv en tøjliste sammen: ”3 røde t-shirts, 2 blå bukser.” Hverdagstøj er hverdagsmatematik.',
+      classroomIntegration: 'Tøjtemaet i 1. klasse bruges i tvaerfaglige projekter: matematik med prisregning og maalbåndsmåling, dansk med tøjbeskrivelser og adjektivlaering, natur/teknik med materialeundersøgelse (uld, bomuld, polyester). En klassebutik med legepenge forbinder alle fag. Fælles Måls mål for måling, penge og skrivning understøttes.',
+      assessmentRubric: [
+        { skill: 'Pengeregning med tøjpriser', emerging: 'genkender prisskilte og adderer to priser inden for 10 kr. med støtte', proficient: 'adderer selvstændigt to-tre priser inden for 20 kr. og sammenligner priser', advanced: 'løser flertrins prisopgaver, giver byttepenge og budgetterer et indkob' },
+        { skill: 'Måling med målebånd (cm)', emerging: 'måler med støtte og aflaeser resultatet med hjælp', proficient: 'måler selvstændigt tøjdele i centimeter og noterer korrekt', advanced: 'måler, sammenligner og besvarer spørgsmål om forskelle i mål' },
+        { skill: 'Beskrivende skrivning (tøjkontekst)', emerging: 'skriver 1–2 sætninger med adjektivstøtte fra ordbank', proficient: 'skriver selvstændigt 3–4 beskrivende sætninger med farve, storrelse og materiale', advanced: 'skriver en sammenhængende tøjbeskrivelse med begrundede meninger og sammenligning' },
+      ],
     },
     'second-grade': {
       seoTitle: 'Tøj-opgaver 2. Klasse | LessonCraftStudio',

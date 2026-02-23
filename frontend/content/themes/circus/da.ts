@@ -177,6 +177,22 @@ const content: EnrichedThemeContent = {
         { question: 'Er cirkus-arbejdsark fagligt stringente nok til 1. klasse?', answer: 'Ja. De inkluderer flertrins-tekstopgaver, flerstavelesordforrådsudfordringer, læseforståelse gennem beskrivende bingoledetråde, analytisk observation gennem ulige-mand-ud-aktiviteter og strukturerede skriveopgaver. Cirkustemaet fastholder engagementet, mens indholdet fuldt ud opfylder forventningerne til 1. klasse.' },
         { question: 'Hvordan understøtter cirkus-arbejdsark kreativt udtryk i 1. klasse?', answer: 'Tegne-og-farvelæg-aktiviteter lader børn designe originale kostumer og numre. Plakatskabelsesprojekter integrerer skrivning, matematik og kunst. Forestillingstemaede skriveprompter opmuntrer til levende beskrivende sprog. Cirkustemaet fejrer naturligt kreativitet og selvudfoldelse, hvilket gør det til et af de stærkeste temaer for kunstintegreret faglig undervisning.' },
       ],
+
+      snippetAnswer: 'Cirkus-arbejdsark til 1. klasse (6–7 år) træner avancerede mønstre, addition/subtraktion inden for 20, symmetri med cirkusmotiver og kreativ skrivning af cirkushistorier. Showets drama driver læringen. Gratis printbare PDF-arbejdsark på LessonCraftStudio.',
+      uniqueGradeAngle: 'I 1. klasse bliver cirkustemaet et avanceret mønster- og matematikværksted — seks- og syvårige kan forlænge og skabe komplekse mønstre (AABB, ABBC, egne regler), løse flertrinsproblemer med akrobatgrupper og forstå symmetri i klovnekostumer og cirkustelte. Addition og subtraktion inden for 20 med cirkusscener giver kontekstualiseret regning med tierovergang. Kreativ skrivning af cirkushistorier kræver narrativ struktur med begyndelse, handling og slutning. Cirkusordforråd som akrobatik, trapez og jonglering udvider ordforrådet. Fælles Måls mål for mønstre, tal og kreativ skrivning i 1. klasse mødes.',
+      developmentalMilestones: [
+        { milestone: 'Komplekse mønstre og regelformulering (6–7-årige kan skabe egne mønstre og forklare reglen)', howWeAddress: 'Mønsterdesign-ark med cirkuselementer, hvor eleverne laver og formulerer egne mønsterregler' },
+        { milestone: 'Symmetri (genkendelse og produktion af symmetriske figurer)', howWeAddress: 'Klovneansigt- og cirkustelt-symmetriark, hvor eleverne tegner den manglende halvdel præcist' },
+        { milestone: 'Kreativ fortælling med narrativ struktur (begyndelse, midte, slutning)', howWeAddress: 'Cirkushistorie-skabeloner med plads til illustration og tekst guider struktureret kreativ skrivning' },
+      ],
+      differentiationNotes: 'For elever der har brug for støtte, brug AB- og ABB-mønstre med tydelige farver, hold regning inden for 10, og tilbyd billedbaserede historiestartere. For avancerede elever i 1. klasse tilføjes mønstre med fire elementer, flertrinsproblemer med cirkusgruppering og fri cirkushistorieskrivning med dialog.',
+      parentTakeaway: 'Se et cirkusshow og tal om mønstre: ”hvilken rækkefølge har farverne på teltstribberne?” Lav symmetriske klovneansigter med papir og farver. Tæl jonglørboldene i grupper af fem. Lad barnet skrive en cirkushistorie med tegninger. Cirkus er kreativitet og matematik i ét.',
+      classroomIntegration: 'Cirkustemaet i 1. klasse bruges som kreativ temauge: matematik med mønster- og symmetriark, dansk med cirkushistorieskrivning og ordforrådsopbygning, kunst med symmetriske klovnekostumer, og musik/drama med cirkusnumre. Fælles Måls mål for mønstre, kreativitet og skriftlig fremstilling integreres.',
+      assessmentRubric: [
+        { skill: 'Mønstergenkendelse og -design', emerging: 'fortsætter AB-mønstre med støtte', proficient: 'fortsætter selvstændigt ABB- og AABB-mønstre og forklarer reglen', advanced: 'designer egne komplekse mønstre med 3+ elementer og formulerer reglen skriftligt' },
+        { skill: 'Symmetri (cirkuskontekst)', emerging: 'genkender symmetri i et klovneansigt med voksenstøtte', proficient: 'tegner selvstændigt den manglende halvdel af et symmetrisk cirkusbillede', advanced: 'finder og forklarer symmetri i flere cirkuselementer og producerer egne symmetriske designs' },
+        { skill: 'Kreativ cirkushistorie', emerging: 'skriver 2–3 sætninger med støtte fra billeder og sætningsstartere', proficient: 'skriver selvstændigt en kort cirkushistorie med begyndelse, handling og slutning', advanced: 'skriver en detaljeret historie med dialog, beskrivelse og overraskende slutning' },
+      ],
     },
     'second-grade': {
       seoTitle: 'Cirkus-opgaver 2. Klasse | LessonCraftStudio',

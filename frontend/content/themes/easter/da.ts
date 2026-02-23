@@ -177,6 +177,22 @@ const content: EnrichedThemeContent = {
         { question: 'Hvordan understøtter påskearbejdsark naturfagsstandarder i 1. klasse?', answer: 'De styrker naturfagsmål om plante- og dyrelivscyklusser ved at byde på klækningssekvenser, vækststadier og årstidsændringer. Arbejdsark om forårshaver knytter sig til mål om, hvad planter har brug for til at vokse, mens dyreungeaktiviteter adresserer mål om, hvordan organismer udvikler sig og ændrer sig.' },
         { question: 'Er 1. klasses påskearbejdsark udfordrende nok fagligt?', answer: 'Ja. De omfatter flertrinstekstopgaver med forårsscenarier, mønsterfuldførelse med komplekse dekorationssekvenser, vokabularpuslespil med ord på op til ti bogstaver og læseforståelse der kræver inferens om livscyklusser og årstidsændringer. Forårsstemaet opretholder engagementet, mens det faglige indhold fuldt ud opfylder forventningerne til 1. klasse.' },
       ],
+
+      snippetAnswer: 'Påske-arbejdsark til 1. klasse (6–7 år) træner addition/subtraktion inden for 20, mønsterdesign, brøkforståelse med påskeæg og selvstændig skrivning af påskehistorier. Traditionen giver meningsfuld kontekst. Gratis printbare PDF-arbejdsark på LessonCraftStudio.',
+      uniqueGradeAngle: 'I 1. klasse bliver påsketemaet et matematisk og sprogligt projekt — seks- og syvårige løser flertrinsproblemer med fundne æg, designer avancerede mønstre på æg med egne regler, og forstår brøkbegreber ved at dele påskeæg og chokolade. Ligelig fordeling (”12 æg til 4 børn — hvor mange til hver?”) introducerer division som deling. Dataindsamling med påske-søjlediagrammer (”hvor mange æg af hver farve?”) giver statistik i festkontekst. Kreativ skrivning af påskehistorier med narrativ struktur træner fortællekompetence. Fælles Måls mål for tal, data og kreativ skrivning i 1. klasse mødes.',
+      developmentalMilestones: [
+        { milestone: 'Ligelig fordeling og begyndende division (6–7-årige kan dele ligeligt)', howWeAddress: 'Delingsøvelser med påskeæg (”12 æg til 3 kurve”) giver konkret forstaelse af division som fair deling' },
+        { milestone: 'Mønsterdesign med regler (skabe egne moenstre og forklare dem)', howWeAddress: 'Ægdekorationsark, hvor eleverne designer mønstre og skriver reglen, træner mønstertaenkning' },
+        { milestone: 'Kreativ fortælling med narrativ struktur', howWeAddress: 'Påskehistorie-skabeloner med plads til indledning, handling og afslutning guider struktureret kreativ skrivning' },
+      ],
+      differentiationNotes: 'For elever der har brug for støtte, hold deling inden for 10 med konkreter, brug AB-moenstre, og tilbyd billedbaserede historiestartere. For avancerede elever i 1. klasse tilfoejes deling med rest, komplekse moenstre med fire elementer og regelformulering, og fri påskehistorieskrivning med dialog.',
+      parentTakeaway: 'Goer påskeægjagten til matematik: ”du fandt 8, din soester fandt 6 — hvor mange tilsammen? Hvis I deler dem ligeligt?” Dekorer æg med mønstre og tal om reglen. Del chokoladeæg i halvdele og fjerdedele. Lad barnet skrive en påskehistorie bagefter. Traditionen er den bedste laeringsramme.',
+      classroomIntegration: 'Påsketemaet i 1. klasse bruges som forarstema: matematiktimen med delings- og mønsterark, dansktimen med påskehistorieskrivning og ordforråd, kunsttimen med ægdekoration og mønsterdesign. En klasse-æggejagt med matematikopgaver kombinerer alle fag. Fælles Måls mål for tal, mønstre og kreativ skrivning integreres.',
+      assessmentRubric: [
+        { skill: 'Ligelig fordeling (påskekontekst)', emerging: 'deler 4–6 æg i 2 lige grupper med konkreter', proficient: 'deler selvstaendigt op til 20 æg i 2–4 lige grupper og angiver resultatet', advanced: 'deler med rest, forklarer strategien og formulerer egne delingsopgaver' },
+        { skill: 'Mønsterdesign og regelformulering', emerging: 'fortsætter et givet AB-mønster med støtte', proficient: 'designer selvstaendigt et mønster og forklarer reglen mundtligt', advanced: 'designer komplekse mønstre, formulerer reglen skriftligt og varierer mønsteret systematisk' },
+        { skill: 'Kreativ påskeskrivning', emerging: 'skriver 2–3 sætninger med billedstøtte og sætningsstartere', proficient: 'skriver selvstaendigt en kort påskehistorie med begyndelse, handling og slutning', advanced: 'skriver en detaljeret historie med dialog, beskrivelse og overraskende slutning' },
+      ],
     },
     'second-grade': {
       seoTitle: 'Påske-opgaver 2. Klasse | LessonCraftStudio',

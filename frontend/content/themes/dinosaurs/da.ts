@@ -178,6 +178,22 @@ const content: EnrichedThemeContent = {
         { question: 'Hvordan forbinder dinosaur-arbejdsark sig til naturfagsmålene i 1. klasse?', answer: 'De understøtter Fælles Måls læringsmål om struktur og funktion ved at bede børn om at identificere, hvordan dinosaurkropsdele hjalp dem med at overleve. Arbejdsark om fossiler forbinder til mål i natur/teknologi om, hvordan evidens fra fortiden hjælper os med at forstå livets historie på vores planet.' },
         { question: 'Er 1. klasses dinosaur-arbejdsark udfordrende nok?', answer: 'Ja. De inkluderer flertrins matematiktekstopgaver, mønsterfuldførelse med dinosaursekvenser, ordpuslespil og læseforståelsestekster, der kræver slutninger. Dinosaurtemaet opretholder højt engagement, mens den faglige stringens matcher forventningerne til 1. klasse.' },
       ],
+
+      snippetAnswer: 'Dinosaur-arbejdsark til 1. klasse (6–7 år) træner tidslinjeforståelse, størrelsessammenligning med mål, addition/subtraktion inden for 20 og selvstændig skrivning af dinosaurfakta. Fascinationen driver dybdelæring. Gratis printbare PDF-arbejdsark på LessonCraftStudio.',
+      uniqueGradeAngle: 'I 1. klasse udnyttes dinosaurfascinationen til akademisk dybde — seks- og syvårige kan læse korte faktatekster om dinosaurer, arbejde med tal over 20 i størrelsessammenligninger (en T-rex var 12 meter lang!) og forstå tidslinjer med perioder. Måling med meter og centimeter giver kontekst, når dinosaurlængder sammenlignes med klasselocalet. Flerstabelsesord som tyrannosaurus og parasaurolophus traener avanceret fonemisk analyse. Faktaskrivning om dinosaurer med egne ord opbygger faglitteraer skrivning. Venn-diagrammer, der sammenligner planteaedere og kødædere, styrker logisk taenkning. Fælles Måls mål for naturfag, måling og skrivning i 1. klasse mødes.',
+      developmentalMilestones: [
+        { milestone: 'Tidslinjeforståelse (6–7-årige forstår kronologisk rækkefølge over lange perioder)', howWeAddress: 'Dinosaur-tidslinjeark med tre perioder (trias, jura, kridt) giver begyndende historisk tænkning' },
+        { milestone: 'Sammenlignende måling med standardenheder (meter og centimeter)', howWeAddress: 'Dinosaurlaengde-sammenligningsark, hvor eleverne maaler og sammenligner med klassens mål' },
+        { milestone: 'Faglitterær skrivning med fakta (rapportskrivning)', howWeAddress: 'Dinosaurfakta-skabeloner med felter for navn, storrelse, foede og periode guider struktureret skrivning' },
+      ],
+      differentiationNotes: 'For elever der har brug for støtte, begraens til tre velkendte dinosaurer, brug sammenligning uden tal (stoerst/mindst), og tilbyd saetningsstartere. For avancerede elever i 1. klasse tilføjes tidslinjeopgaver med millioner af år, måleomregning og selvstaendig dinosaurforskningsrapport med flere afsnit.',
+      parentTakeaway: 'Foelg dinosaurinteressen med fakta: læs dinosaurbøger sammen og find tal — ”T-rex var 12 meter! Hvor langt er det i vores stue?” Mål med målebånd. Lav en tidslinje på gulvet. Lad barnet skrive tre fakta om sin yndlingsdinosaur. Dyb interesse er den staerkeste laeringsmotor.',
+      classroomIntegration: 'Dinosaurtemaet i 1. klasse er det perfekte forskningsprojekt: naturfagstimen laaser faktatekster og sorterer dinosaurer i Venn-diagrammer, matematiktimen maaler og sammenligner laengder, dansktimen skriver dinosaurrapporter, og kunsttimen illustrerer. Fælles Måls mål for naturfag, maaling, data og skriftlig fremstilling understøttes.',
+      assessmentRubric: [
+        { skill: 'Tidslinjeforståelse (dinosaurperioder)', emerging: 'placerer 2 dinosaurer på en tidslinje med billedstøtte', proficient: 'placerer selvstændigt 4–5 dinosaurer i korrekt periode på en tidslinje', advanced: 'forklarer perioders rækkefølge og nogen forskelle mellem dem' },
+        { skill: 'Sammenlignende måling (meter)', emerging: 'sammenligner to dinosaurlangder med støtte (stoerre/mindre)', proficient: 'maaler og sammenligner selvstaendigt laengder i meter og besvarer sammenligningsspørgsmål', advanced: 'beregner forskelle (T-rex er 12 m, stegosaurus er 9 m — 3 m forskel) og relaterer til kendte laengder' },
+        { skill: 'Dinosaurfaktaskrivning', emerging: 'skriver 1–2 faktasætninger med støtte og ordbank', proficient: 'skriver selvstændigt 3–4 faktasætninger med korrekt stavning af nøgleord', advanced: 'skriver en sammenhaengende faktarapport med indledning, fakta og afslutning' },
+      ],
     },
     'second-grade': {
       seoTitle: 'Dinosaurer-opgaver 2. Klasse | LessonCraftStudio',

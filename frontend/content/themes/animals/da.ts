@@ -179,6 +179,22 @@ const content: EnrichedThemeContent = {
         { question: 'Hvordan forbinder dyrearbejdsark sig til naturfagsmål i 1. klasse?', answer: 'De understøtter mål om struktur og funktion ved at bede børn om at identificere, hvordan dyrekropsdele hjælper dem med at overleve. Arbejdsark om levesteder forbinder til mål om forholdet mellem organismer og deres omgivelser.' },
         { question: 'Er dyrearbejdsark for 1. klasse udfordrende nok?', answer: 'Ja. De inkluderer flertrinsproblemer i matematik, mønsterudfyldning, ordforråds-krydsord og læseforståelse, der kræver slutningsdragning. Dyretemaet opretholder engagementet, mens det faglige niveau matcher forventningerne i 1. klasse.' },
       ],
+
+      snippetAnswer: 'Dyre-arbejdsark til 1. klasse (6–7 år) kombinerer addition og subtraktion inden for 20, dyrefakta-læsning og selvstændig skrivning af dyrebeskrivelser. Klassifikation udvides til fødekæder og levesteder. Gratis printbare PDF-arbejdsark på LessonCraftStudio.',
+      uniqueGradeAngle: 'I 1. klasse går dyretemaet fra observation til systematisk viden — seks- og syvårige kan læse enkle dyrefakta, skrive dyrebeskrivelser og forstå fødekæder som logiske sekvenser. Klassifikation udvides til tre eller flere kriterier samtidig (levested, føde, kropsdække), og data om dyr indsamles med streg- og søjlediagrammer. Addition og subtraktion inden for 20 med dyrescener giver flertrinsproblemer med kontekst. Sammenlignende måling (hvilken er længst?) introducerer standardenheder. Fælles Måls mål for natur/teknik, matematik og dansk i 1. klasse understøttes direkte.',
+      developmentalMilestones: [
+        { milestone: 'Flertrinskategorisering (6–7-årige sorterer efter tre kriterier samtidig)', howWeAddress: 'Venn-diagrammer og treklassifikationsark med dyr opbygger avanceret logisk tænkning' },
+        { milestone: 'Addition og subtraktion inden for 20 (udvidet talområde med tierovergang)', howWeAddress: 'Dyrescener med talproblemer inden for 20, inkl. tierovergang, giver kontekstualiseret regning' },
+        { milestone: 'Informationslaesning (læsning af korte faktatekster)', howWeAddress: 'Dyrefakta-kort med 3–4 saetninger og forståelsesspørgsmål traener informationslæsning' },
+      ],
+      differentiationNotes: 'For elever der har brug for støtte, begræns til velkendte dyr og addition inden for 10 med billedstøtte. Brug talknopper til tierovergang. For avancerede elever i 1. klasse tilføjes flertrinsopgaver med tre dyregrupper, selvstændig skrivning af dyrefaktaark og introduktion af simple diagrammer over dyredata.',
+      parentTakeaway: 'Læs dyrebøger sammen og stil faktaspørgsmål: hvad spiser den, hvor bor den, hvem spiser den? Lad barnet skrive tre fakta om sit yndlingsdyr. Besøg zoo og tæl dyr i grupper af ti. Opret en hjemme-dyrebog, hvor barnet tegner og skriver om ét nyt dyr hver uge.',
+      classroomIntegration: 'Dyrearbejdsark i 1. klasse integreres i naturfagsundervisningen som forskningsværktøj: eleverne læser dyrefakta, udfylder klassifikationsark, løser matematikproblemer med dyredata og skriver dyrebeskrivelser. Et klassedyreatlas bygges op over året. Fælles Måls mål for natur, matematik og skriftlig fremstilling understøttes.',
+      assessmentRubric: [
+        { skill: 'Dyreklassifikation med flere kriterier', emerging: 'sorterer dyr i to grupper efter én egenskab med støtte', proficient: 'sorterer selvstændigt efter tre kriterier og forklarer valget mundtligt', advanced: 'opretter egne klassifikationssystemer og bruger fagtermer som pattedyr, kræbdyr, insekt' },
+        { skill: 'Addition/subtraktion inden for 20 (dyrekontekst)', emerging: 'løser opgaver inden for 10 med billedstøtte', proficient: 'løser selvstændigt opgaver inden for 20 inkl. tierovergang med dyrescener', advanced: 'løser flertrinsproblemer og formulerer egne tekstopgaver med dyredata' },
+        { skill: 'Informationslæsning om dyr', emerging: 'læser 1–2 faktasætninger med støtte og besvarer spørgsmål mundtligt', proficient: 'læser selvstændigt 3–4 faktasætninger og besvarer forståelsesspørgsmål skriftligt', advanced: 'læser længere faktatekster, sammenligner dyrearter og skriver egne dyrebeskrivelser' },
+      ],
     },
     'second-grade': {
       seoTitle: 'Dyr-opgaver 2. Klasse | LessonCraftStudio',

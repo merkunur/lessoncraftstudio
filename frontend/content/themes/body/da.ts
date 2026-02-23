@@ -177,6 +177,22 @@ const content: EnrichedThemeContent = {
         { question: 'Hvordan stemmer kropsarbejdsark overens med naturfagsmål i 1. klasse?', answer: 'De understøtter naturfagsmål om struktur og funktion ved at lade børn identificere kropsdele og deres roller. Arbejdsark om sanser kobles til mål om observation og evidensindsamling, mens sundhedsfokuserede aktiviteter stemmer overens med mål om personlig trivsel og sygdomsforebyggelse inden for Fælles Mål.' },
         { question: 'Er kropsarbejdsark i 1. klasse fagligt stringente nok?', answer: 'Ja. De inkluderer flertrins-tekstopgaver med kropsscenarier, ordforråds-puslespil med ord på op til ti bogstaver, læseforståelse der kræver inferens og videnskabelige sekventeringsopgaver. Kroptemaet fastholder engagementet, mens det faglige indhold fuldt ud opfylder 1. klasses forventninger på tværs af matematik, dansk og naturfag.' },
       ],
+
+      snippetAnswer: 'Krop-arbejdsark til 1. klasse (6–7 år) træner måling i centimeter, kroppens organer, sundhedsregler og selvstændig skrivning af kropsfakta. Tallene bruges til højde, vægt og puls. Gratis printbare PDF-arbejdsark på LessonCraftStudio.',
+      uniqueGradeAngle: 'I 1. klasse udvides kropstemaet til videnskabelig forståelse — seks- og syvårige lærer om organer (hjerte, lunger, hjerne), måler kroppen med centimeter og forstår sundhedsregler med begrundelse. Måling af højde, armfavnshåndsbredde og fodlængde giver virkelig brug af linealen. Addition med kropstal (10 fingre + 10 tæer = 20) støtter positionsværdi. Puls før og efter bevægelse introducerer dataindsamling. Skrivning af kropsfakta med egne ord træner faglitterær skrivning. Fælles Måls mål for sundhed, måling og naturfag i 1. klasse mødes.',
+      developmentalMilestones: [
+        { milestone: 'Måling med standardenheder (6–7-årige begynder at bruge lineal og centimeter)', howWeAddress: 'Kropsmålingsark, hvor eleverne måler hånd, fod og arm i centimeter, giver autentisk linealbrug' },
+        { milestone: 'Grundlæggende organforståelse (hjerte, lunger, hjerne og deres funktioner)', howWeAddress: 'Organ-matchningsark og -diagrammer forbinder organer med funktioner i en simpel kropsmodel' },
+        { milestone: 'Dataindsamling om kroppen (puls, højde, fodlængde)', howWeAddress: 'Måle- og registreringsark, hvor eleverne måler og sammenligner kropsdata i tabeller' },
+      ],
+      differentiationNotes: 'For elever der har brug for støtte, begræns til tre organer (hjerte, lunger, hjerne), brug hele centimeter uden millimeter, og tilbyd sætningsstartere til skrivning. For avancerede elever i 1. klasse tilføjes skelettets knogler, pulsmåling med diagrammer og sammenlignende analyse af kropsdata.',
+      parentTakeaway: 'Mål barnets højde med en lineal og skriv det ned — gentag hver måned og sammenlign. Føl pulsen før og efter leg og tæl slag. Tal om, hvad hjertet og lungerne laver. Brug badet til at navngive kropsdele på dansk. Måling af kroppen er den mest personlige matematiklektion.',
+      classroomIntegration: 'Kropstemaet i 1. klasse integreres i sundhedsundervisning og matematik: måleuge med linealer og kropsmålingsark, naturfagslektion om organer med diagrammer, idraetstime med pulsdataindsamling, og dansktime med skrivning af kropsfakta. Fælles Måls mål for måling, sundhed og naturfag mødes.',
+      assessmentRubric: [
+        { skill: 'Måling med lineal (centimeter)', emerging: 'måler med støtte og aflaeser hele centimeter med hjælp', proficient: 'måler selvstændigt i hele centimeter og noterer resultatet korrekt', advanced: 'måler praecist, sammenligner mål og besvarer spørgsmål som ”hvor meget laengere?”' },
+        { skill: 'Organforståelse', emerging: 'navngiver hjerte og lunger med billedstøtte', proficient: 'navngiver selvstændigt 3–4 organer og beskriver deres funktion', advanced: 'forklarer, hvordan organer arbejder sammen og relaterer sundhedsvalg til organfunktion' },
+        { skill: 'Kropsdata og sammenligning', emerging: 'registrerer ét mål i en tabel med støtte', proficient: 'registrerer selvstændigt flere mål og sammenligner (laengere/kortere)', advanced: 'analyserer kropsdata, finder mønstre og formulerer spørgsmål baseret på data' },
+      ],
     },
     'second-grade': {
       seoTitle: 'Krop-opgaver 2. Klasse | LessonCraftStudio',

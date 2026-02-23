@@ -177,6 +177,22 @@ const content: EnrichedThemeContent = {
         { question: 'Hvordan opbygger fødselsdagsarbejdsark virkelighedsnære matematikfærdigheder?', answer: 'Festplanlægning involverer naturligt praktisk matematik: tælle gæster, beregne hvor mange forsyninger der skal købes, dele kage i lige store stykker og administrere et simpelt budget. Disse virkelighedsnære anvendelser viser elever i 1. klasse, at den matematik de øver på arbejdsark, direkte hjælper dem med at deltage i livsbegivenheder, de bryder sig om.' },
         { question: 'Kan fødselsdagsarbejdsark understøtte modvillige skribenter?', answer: 'Ja, dette er et af temaets største styrker. Hvert barn har fødselsdagsminder og festønsker, de gerne vil dele. Når skriveimpulser forbinder sig med personlige fejringsoplevelser, producerer selv børn der modstår at skrive om andre emner, ofte entusiastiske, detaljerede svar, fordi indholdet handler om deres eget liv.' },
       ],
+
+      snippetAnswer: 'Fødselsdag-arbejdsark til 1. klasse (6–7 år) træner addition/subtraktion inden for 20, titalssystemet med fødselsdagslys, og selvstændig skrivning af invitationer og festbeskrivelser. Tal får praktisk betydning. Gratis printbare PDF-arbejdsark på LessonCraftStudio.',
+      uniqueGradeAngle: 'I 1. klasse får fødselsdagstemaet matematisk dybde — seks- og syvårige forstår titalssystemet og kan bruge fødselsdagslys til at illustrere positionsvaerdi (en kage med 7 lys = 7 enere, to kager med 10 lys = 2 tiere). Addition og subtraktion inden for 20 med gæster, gaver og slikposer giver flertrinsproblemer med reel kontekst. Skrivning af invitationer og festbeskrivelser kræver korte afsavit med dato, sted og detaljer. Måling af tid (”festen starter kl. 14”) og penge (”gaven koster 50 kr.”) introduceres naturligt. Fælles Måls mål for tal, måling og skriftlig kommunikation i 1. klasse mødes.',
+      developmentalMilestones: [
+        { milestone: 'Positionsværdi (6–7-årige begynder at forstå enere og tiere)', howWeAddress: 'Fødselsdagslys grupperet i tiere og enere (13 lys = 1 tier + 3 enere) giver konkret positionsvaerdi' },
+        { milestone: 'Flertrinsproblemer (to regnestykker i én opgave)', howWeAddress: 'Festscenarier som ”8 gæster kommer, 3 går, 5 nye ankommer — hvor mange nu?” træner sekventiel beregning' },
+        { milestone: 'Funktionel skrivning med struktur (invitation med dato, sted, tid)', howWeAddress: 'Invitationsskabeloner med felter for alle nødvendige informationer lærer struktureret, formålsbestemt skrivning' },
+      ],
+      differentiationNotes: 'For elever der har brug for støtte, hold regning inden for 10 med billedstøtte, brug talknopper til tierovergang, og tilbyd udfyldte invitationsskabeloner. For avancerede elever i 1. klasse tilføjes flertrinsproblemer med tre regneoperationer, pengeberegning og selvstændig skrivning af festbeskrivelser med flere afsnit.',
+      parentTakeaway: 'Brug barnets fødselsdag som et storstilet matematikprojekt: skriv invitationer med dato og klokkeslet, budgettér gaver (50 kr. + 30 kr.), tæl gæster og portioner, og del kagen ligeligt. Lad barnet skrive en festbeskrivelse bagefter — funktionel skrivning på sit bedste.',
+      classroomIntegration: 'Fødselsdagstemaet i 1. klasse bruges til at træne positionsværdi med lys, skrive invitationer i dansktimen, og løse festmatematik med flertrinsproblemer. Klassens fødselsdagskalender giver anledning til månedstal, aldersberegning og tidslinjer. Fælles Måls mål for matematik, skrivning og social kompetence understøttes.',
+      assessmentRubric: [
+        { skill: 'Positionsværdi (tiere og enere)', emerging: 'tæller lys ét ad gangen op til 20 uden gruppering', proficient: 'grupperer selvstændigt lys i tiere og enere og angiver tallet korrekt', advanced: 'forklarer positionsværdi med egne ord og anvender det på nye tal' },
+        { skill: 'Flertrinsproblemer (festkontekst)', emerging: 'løser ét-trins-opgaver inden for 10 med støtte', proficient: 'løser selvstændigt to-trins-problemer inden for 20 med festscenarier', advanced: 'løser tre-trins-problemer og formulerer egne flertrinsopgaver' },
+        { skill: 'Funktionel skrivning (invitationer)', emerging: 'udfylder en invitation med støtte fra skabelon og voksen', proficient: 'skriver selvstændigt en komplet invitation med dato, tid, sted og navn', advanced: 'skriver invitationer og festbeskrivelser med flere sætninger og korrekt tegnsætning' },
+      ],
     },
     'second-grade': {
       seoTitle: 'Fødselsdag-opgaver 2. Klasse | LessonCraftStudio',

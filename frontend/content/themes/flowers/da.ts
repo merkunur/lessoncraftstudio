@@ -176,6 +176,22 @@ const content: EnrichedThemeContent = {
         { question: 'Kan blomster-arbejdsark lære elever i 1. klasse om gensidigt afhængighed i naturen?', answer: 'Ja. Matchende og læseaktiviteter udforsker forholdet mellem blomster og bestøvere og lærer børn, at begge organismer afhænger af hinanden for at overleve. Dette begreb om gensidigt afhængighed er en grundlæggende økologiidé, der understøtter senere studier af fødenetværk, økosystemer og miljøforvaltning i de ældre klasser.' },
         { question: 'Er 1. klasses blomster-arbejdsark akademisk udfordrende nok?', answer: 'Ja. De inkluderer flertrins-tekstopgaver med havescenarier, komplekse mønstersekvenser med tre eller fire blomstertyper, ordforråds-puslespil med ord op til ti bogstaver som bestøve og spire, og læseforståelse der kræver slutning om biologiske processer. Blomster-temaet holder børn engagerede, mens det faglige indhold fuldt ud opfylder forventningerne til 1. klasse.' },
       ],
+
+      snippetAnswer: 'Blomster-arbejdsark til 1. klasse (6–7 år) træner systematisk observation, måling af plantevækst i cm, symmetri med kronblade, og selvstændig skrivning af vækstrapporter. Botanik bliver et forskningsprojekt. Gratis printbare PDF-arbejdsark på LessonCraftStudio.',
+      uniqueGradeAngle: 'I 1. klasse går blomstertemaet fra iagttagelse til forskningsprojekt — seks- og syvårige kan maale plantevakst systematisk i centimeter, registrere data i tabeller og sammenligne vaekstrater. Kronbladsmaaling og -taelling giver funktionel matematik (tulipan: 6 kronblade a 4 cm). Symmetrianalyse udvides til flere symmetrilinjer i blomster. Bestovningsprocessen (bi→blomst→froe) introducerer biologiske cykler. Skrivning af vaekstrapporter med data, observationer og konklusioner traener faglitteraer rapportering. Fælles Måls mål for naturfaglig undersoegelse, maaling og skrivning i 1. klasse mødes.',
+      developmentalMilestones: [
+        { milestone: 'Systematisk dataindsamling over tid (6–7-årige kan maale og registrere ugentligt)', howWeAddress: 'Plantevækst-dagbogsark med felter for dato, hoejde i cm og tegning giver struktureret længdedata' },
+        { milestone: 'Symmetrianalyse med flere akser (blomster har ofte flere symmetrilinjer)', howWeAddress: 'Blomster-symmetriark, der viser 2–4 symmetriakser, udfordrer rumlig taenkning præcist' },
+        { milestone: 'Biologiske cykler (bestovning og froedannelse)', howWeAddress: 'Bestovnings-sekvensering med 4–6 trin opbygger forståelsen af biologiske processer' },
+      ],
+      differentiationNotes: 'For elever der har brug for stoette, maal kun hoejde i hele cm, brug én symmetrillinje, og tilbyd enkle vaekstark med billedstotte. For avancerede elever i 1. klasse tilfojes kronbladsmaaling med mm, flere symmetriakser, og selvstaendig vaekstrapport med datadiagram og konklusion.',
+      parentTakeaway: 'Plant en froe sammen og maal vaeksten hver uge med lineal. Foer en vaeksttabel på koeleskabet. Gaa paa blomsterjagt i parken: tael kronblade, find symmetri, sammenlign blade. Lad barnet tegne og skrive om ”ugens blomst.” Blomster er den smukkeste indgang til naturvidenskab i 1. klasse.',
+      classroomIntegration: 'Blomstertemaet i 1. klasse koerer som foraarsprojekt: plantning af froe med ugentlig maaling og registrering, matematiktimen med symmetriark og dataanalyse, naturfagstimen med bestovning og vaekstcyklus, dansktimen med vaekstrapportskrivning. Fælles Måls mål for naturfag, maaling og skriftlig rapportering understøttes.',
+      assessmentRubric: [
+        { skill: 'Plantevækstmaaling og registrering', emerging: 'maaler med stoette og noterer ét maal i en tabel', proficient: 'maaler selvstaendigt i cm ugentligt, registrerer data korrekt og sammenligner (hoejere/lavere)', advanced: 'analyserer vaekstdata, finder moenstre (hurtig vaekst i uge 3) og formulerer konklusioner' },
+        { skill: 'Symmetri med blomster', emerging: 'genkender symmetri i en blomst med én akse med støtte', proficient: 'identificerer selvstaendigt 2 symmetriakser og tegner den manglende halvdel', advanced: 'finder flere symmetriakser, forklarer begrebet og anvender det på andre naturformer' },
+        { skill: 'Vækstrapportskrivning', emerging: 'skriver 1–2 saetninger om en plante med saetningsstartere', proficient: 'skriver selvstaendigt en rapport med observation, data og enkel konklusion', advanced: 'skriver en sammenhaengende rapport med indledning, data, analyse og konklusion' },
+      ],
     },
     'second-grade': {
       seoTitle: 'Blomster-opgaver 2. Klasse | LessonCraftStudio',

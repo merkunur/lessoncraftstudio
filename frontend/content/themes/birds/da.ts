@@ -177,6 +177,22 @@ const content: EnrichedThemeContent = {
         { question: 'Hvordan forbinder fuglearbejdsark sig til naturfagsmål i 1. klasse?', answer: 'De understøtter mål om dyrs strukturer og funktioner ved at bede børn om at identificere, hvordan næb, kløer, vinger og fjer hjælper fugle med at overleve. Arbejdsark om træk forbinder til mål om sæsonbestemte mønstre og dyreadfærd som reaktion på miljøændringer.' },
         { question: 'Er fuglearbejdsark for 1. klasse udfordrende nok for dygtige elever?', answer: 'Ja. De inkluderer flertrins-matematikopgaver, mønsterudfyldning med stigende kompleksitet, ordforråds-krydsord med definitionsledetråde og læseforståelse, der kræver slutningsdragning. Lærere kan yderligere udvide udfordringen ved at bede eleverne om at skrive deres egne fuglefakta eller oprette originale tekstopgaver.' },
       ],
+
+      snippetAnswer: 'Fugle-arbejdsark til 1. klasse (6–7 år) træner dataindsamling med stregdiagrammer, addition/subtraktion inden for 20 og selvstændig skrivning af fuglefakta. Systematisk observation og registrering står centralt. Gratis printbare PDF-arbejdsark på LessonCraftStudio.',
+      uniqueGradeAngle: 'I 1. klasse bliver fugletemaet et videnskabeligt projekt — seks- og syvårige kan gennemføre systematiske fugletællinger, registrere data i stregdiagrammer og bruge resultaterne til addition og sammenligning. Denne dataanvendelse er et kvantespring fra børnehaveklassens simple tælling. Fuglefakta læses selvstændigt i korte tekster, og eleverne skriver egne observationsrapporter. Klassifikation udvides til trækfugle vs. standfugle, rovfugle vs. sangfugle. Måling af fuglereder og vingefang introducerer centimeter. Fælles Måls mål for naturfaglig undersøgelse, data og skriftlig rapportering i 1. klasse understøttes.',
+      developmentalMilestones: [
+        { milestone: 'Dataindsamling og -registrering (6–7-årige kan føre streg- og søjlediagrammer)', howWeAddress: 'Fugletællings-ark med stregdiagrammer, hvor eleverne registrerer observationer og læser resultatet' },
+        { milestone: 'Sammenligning og fortolkning af data (mere end, færre end, flest)', howWeAddress: 'Spørgsmål til fugletællingsdata (hvilken fugl så vi flest af?) træner matematisk ræsonnement' },
+        { milestone: 'Informationsskrivning (korte faktarapporter med egne ord)', howWeAddress: 'Fuglefakta-skriveskabeloner med ramme for navn, udseende, føde og levested guider selvstændig faglitteraer skrivning' },
+      ],
+      differentiationNotes: 'For elever der har brug for støtte, begræns til tre velkendte fugle, brug forhåndsudfyldte diagrammer med kun få manglende data, og tilbyd sætningsstartere til skrivning. For avancerede elever i 1. klasse tilføjes klassifikation af fuglegrupper, vingefangsmåling i centimeter og selvstændig skrivning af fugleforskningsrapporter.',
+      parentTakeaway: 'Fugletællinger er gratis matematik og naturfag. Sæt et foderbræt op og før en ugentlig tælleliste: hvor mange musvitter, solsorte, duer? Lav et søjlediagram på køleskabet. Lad barnet skrive tre fakta om ugens fugl. Denne systematiske observation bygger forskningsfærdigheder fra første klasse.',
+      classroomIntegration: 'Fugletemaet i 1. klasse kører som årsprojekt: månedlige fugletællinger med registrering i klassens søjlediagram, matematiktimen bruger data til addition og sammenligning, dansktimen skriver fuglefakta, og naturfagstimen klassificerer arter. Fælles Måls mål for naturfaglig undersøgelse, data og skrivning integreres.',
+      assessmentRubric: [
+        { skill: 'Dataindsamling og diagrammer (fuglekontekst)', emerging: 'registrerer data i et forhåndslavet stregdiagram med støtte', proficient: 'udfylder selvstændigt et stregdiagram og læser resultatet korrekt', advanced: 'opretter egne diagrammer, sammenligner data og drager konklusioner' },
+        { skill: 'Addition/subtraktion med fugledata', emerging: 'løser additions-opgaver inden for 10 med billedstøtte', proficient: 'løser selvstændigt opgaver inden for 20 med fugletællingsdata', advanced: 'løser flertrinsproblemer med data fra egne fugletællinger' },
+        { skill: 'Fuglefakta-skrivning', emerging: 'skriver 1–2 sætninger med støtte fra sætningsstartere', proficient: 'skriver selvstændigt 3–4 faktasætninger om en fugl med korrekt stavning af nøgleord', advanced: 'skriver en sammenhængende faktarapport med indledning, fakta og afslutning' },
+      ],
     },
     'second-grade': {
       seoTitle: 'Fugle-opgaver 2. Klasse | LessonCraftStudio',

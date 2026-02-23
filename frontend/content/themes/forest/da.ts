@@ -178,6 +178,22 @@ const content: EnrichedThemeContent = {
         { question: 'Hvordan forbinder skovarbejdsark sig til naturfagsmålene i 1. klasse?', answer: 'De understøtter Fælles Måls læringsmål om struktur og funktion ved at udforske, hvordan trædele som rødder, stammer og blade hjælper træer med at overleve. Habitatark forbinder til mål om forholdet mellem organismer og deres miljøer, herunder grundlæggende fødenetværk.' },
         { question: 'Er 1. klasses skovarbejdsark udfordrende nok for avancerede elever?', answer: 'Ja. De inkluderer flertrins-matematikopgaver, mønsterfuldførelses-sekvenser, ordforråds-ordsøgninger med længere ord og læsetekster, der kræver slutningsdragning. Avancerede elever kan udfordres yderligere ved at kombinere flere arbejdsark-typer i et skov-forskningsprojekt.' },
       ],
+
+      snippetAnswer: 'Skov-arbejdsark til 1. klasse (6–7 år) træner systematisk feltobservation, dataindsamling med stregdiagrammer, fødekædeforståelse og selvstændig skrivning af naturrapporter. Udeskole bliver forskning. Gratis printbare PDF-arbejdsark på LessonCraftStudio.',
+      uniqueGradeAngle: 'I 1. klasse bliver skovtemaet et forskningsprojekt — seks- og syvårige kan gennemfoere strukturerede feltundersoegelser med tjeklister, registrere fund i tabeller og stregdiagrammer, og forstå foedekæder som logiske systemer (egetrae→larve→musvit→spurvehoeg). Måling af traeomkreds og bladlangde med maalebånd giver funktionel centimeter-brug. Aarstidsdata indsamlet over hele aaret giver længdedata til sammenligning. Skrivning af naturrapporter med observation, data og konklusion traener faglitteraer rapportering. Fælles Måls mål for naturfaglig undersoegelse, data, maaling og skriftlig rapportering i 1. klasse understøttes direkte.',
+      developmentalMilestones: [
+        { milestone: 'Struktureret feltundersoegelse (6–7-årige kan foelge en undersoegelsesplan systematisk)', howWeAddress: 'Skov-feltark med tjeklister, maalezoner og registreringsfelter guider systematisk naturundersoegelse' },
+        { milestone: 'Fødekædeforståelse (hvem spiser hvem i skoven)', howWeAddress: 'Fødekæde-opbygningsark, hvor eleverne forbinder organismer i korrekt raekkefoelge' },
+        { milestone: 'Naturrapportskrivning (observation → data → konklusion)', howWeAddress: 'Rapportskabeloner med tre sektioner guider eleverne fra observation til skriftlig konklusion' },
+      ],
+      differentiationNotes: 'For elever der har brug for stoette, begraens tjeklisten til 4–5 elementer, brug toleddet foedekæder (raev→mus), og tilbyd saetningsstartere til rapportskrivning. For avancerede elever i 1. klasse tilføjes 8–10-elements tjeklister, fireleddet foedekæder, og selvstaendig rapportskrivning med datadiagram og analyse.',
+      parentTakeaway: 'Gaa en skovtur med et formål: lav en tjekliste (5 traeer, 3 svampe, 2 fugle) og lad barnet registrere. Maal et traes omkreds med maalebånd. Tal om foedekæder: ”hvem spiser hvem?” Skriv en naturrapport sammen bagefter: ”vi fandt... vi maalte... vi konkluderer...” Skoven er det stoerste laboratorium.',
+      classroomIntegration: 'Skovtemaet i 1. klasse er udeskole-fundamentet: maanedlige skovture med feltark, naturfagstimen med foedekæder og aarstidsdata, matematiktimen med maaledata og diagrammer, dansktimen med naturrapporter. Et aarshjul over skovens forandringer hænger i klassen. Fælles Måls mål for naturfag, maaling, data og skriftlig rapportering integreres hele aaret.',
+      assessmentRubric: [
+        { skill: 'Struktureret feltobservation', emerging: 'finder 2–3 elementer på en tjekliste med stoette', proficient: 'gennemfoerer selvstaendigt en feltundersoegelse med 6–8 elementer og registrerer fund korrekt', advanced: 'tilfojer egne observationer ud over tjeklisten og beskriver dem detaljeret' },
+        { skill: 'Fødekædeforståelse', emerging: 'forbinder to organismer (raev→mus) med billedstøtte', proficient: 'opbygger selvstaendigt en treledet foedekæde og forklarer retningen', advanced: 'opbygger fireleddet foedekæder, forklarer begreberne rovdyr/byttedyr og forbinder til økosystemet' },
+        { skill: 'Naturrapportskrivning', emerging: 'skriver 1–2 saetninger om en skovtur med saetningsstartere', proficient: 'skriver selvstaendigt en rapport med observation, data og enkel konklusion', advanced: 'skriver en sammenhaengende rapport med indledning, metode, resultater og konklusion' },
+      ],
     },
     'second-grade': {
       seoTitle: 'Skov-opgaver 2. Klasse | LessonCraftStudio',

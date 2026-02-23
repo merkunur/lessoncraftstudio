@@ -177,6 +177,22 @@ const content: EnrichedThemeContent = {
         { question: 'Kan campingarbejdsark forbindes med geografinormer i 1. klasse?', answer: 'Ja. Campingarbejdsark med kort, kompasretninger og stimarkører introducerer grundlæggende geografifærdigheder inklusive verdenshjørner, kortsignaturer og afstandsestimering. Disse rumlige ræsonneringaktiviteter stemmer overens med Fælles Måls samfundsfagsnormer, mens de fastholder den eventyrlige campingkontekst, der holder eleverne engagerede.' },
         { question: 'Er 1. klasse-campingarbejdsark fagligt udfordrende nok?', answer: 'Ja. De inkluderer flertrins-tekstopgaver, der kræver to operationer, ordsøgninger med ordforråd op til elleve bogstaver, læsetekster med inferensspørgsmål og logikpuslespil, der kræver rumlig ræsonnering. Eventyrkonteksten holder børnene engagerede, mens det faglige indhold fuldt ud opfylder Fælles Måls forventninger til 1. klasse.' },
       ],
+
+      snippetAnswer: 'Camping-arbejdsark til 1. klasse (6–7 år) træner kortlaesning, måling i meter og centimeter, flertrinsproblemer med campingudstyr og selvstændig skrivning af campingdagbog. Udendørslaering i praksis. Gratis printbare PDF-arbejdsark på LessonCraftStudio.',
+      uniqueGradeAngle: 'I 1. klasse bliver campingtemaet et tværfagligt projekt — seks- og syvårige kan læse enkle kort med symboler, måle afstande med skridt og meter, og løse flertrinsproblemer med campingudstyr. Pakkelistematematik kræver addition af genstande i kategorier og sammenligning af mængder. Kortlaesning med kompasretninger (nord, syd, øst, vest) introducerer rumlig orientering. Campingdagbog med kronologisk opbygning (først, så, til sidst) træner struktureret skrivning. Fælles Måls mål for måling, rumlig orientering og skriftlig fremstilling i 1. klasse mødes.',
+      developmentalMilestones: [
+        { milestone: 'Kortlæsning med symboler (6–7-årige kan tolke enkle kortsymboler og følge en rute)', howWeAddress: 'Campingkort med symboler (telt, bål, sø, sti) og ruter træner rumlig tænkning og symbolforståelse' },
+        { milestone: 'Måling med skridt og meter (begyndende længdemåling)', howWeAddress: 'Afstandsmåling på campingpladsen med skridt og meter giver funktionel måling udendørs' },
+        { milestone: 'Kronologisk skrivning (først–så–til sidst)', howWeAddress: 'Campingdagbog-skabeloner med kronologiske signalord guider struktureret selvstændig skrivning' },
+      ],
+      differentiationNotes: 'For elever der har brug for støtte, forenkles kort til tre symboler, måling holdes i hele skridt, og dagbogsskrivning får sætningsstartere. For avancerede elever i 1. klasse tilføjes kompasretninger, måling i meter og centimeter, og fri dagbogsskrivning med flere afsnit.',
+      parentTakeaway: 'Tag på camp i haven og lav et kort over området. Mål afstande i skridt: ”12 skridt fra teltet til bålet.” Pak rygsaekken og tæl genstande i kategorier. Skriv en campingdagbog sammen bagefter. Udendørsoplevelser er den bedste ramme for matematik og skrivning i 1. klasse.',
+      classroomIntegration: 'Campingtemaet i 1. klasse bruges som udeskole-ramme: matematik med måling og pakkelisteproblemer, dansk med campingdagbog og kortlæsning, naturfag med naturobservation og plante-/dyregenkendelse. Et klassecamp-projekt afslutter foraarstemaet. Fælles Måls mål for måling, orientering og skrivning understøttes.',
+      assessmentRubric: [
+        { skill: 'Kortlæsning og orientering', emerging: 'følger en enkel rute på et kort med støtte', proficient: 'læser selvstændigt et kort med 4–5 symboler og følger en rute korrekt', advanced: 'tegner eget kort med symbolforklaring og bruger kompasretninger' },
+        { skill: 'Måling af afstande', emerging: 'måler med skridt med voksenstøtte og tæller til 10', proficient: 'måler selvstændigt i skridt og meter og noterer resultatet', advanced: 'måler i meter og centimeter, sammenligner afstande og løser måleproblemer' },
+        { skill: 'Kronologisk dagbogsskrivning', emerging: 'skriver 1–2 sætninger med sætningsstartere (Først...)', proficient: 'skriver selvstændigt 3–4 sætninger i kronologisk rækkefølge med signalord', advanced: 'skriver en sammenhængende dagbogsentry med indledning, handling og afslutning' },
+      ],
     },
     'second-grade': {
       seoTitle: 'Camping-opgaver 2. Klasse | LessonCraftStudio',

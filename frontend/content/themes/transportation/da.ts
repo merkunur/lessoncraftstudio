@@ -208,6 +208,173 @@ const content: EnrichedThemeContent = {
   // -- Cross-linking (IDENTICAL to English) --
   relatedThemes: ['travel', 'construction', 'jobs', 'sports', 'school'],
   relatedBlogCategories: [],
+
+  // -- SEO Enrichment (Part 218) --
+
+  uniqueAngle: 'Transporttematiske arbejdsark indtager en særlig position i tidlig pædagogik, fordi de forbinder børns intense fascination af køretøjer med den STEM-tænkning, der driver moderne samfund. I modsætning til de fleste andre temaer, der primært understøtter enten matematik eller sproglig udvikling, giver transport en naturlig kontekst for ingeniørforståelse, systemtænkning og teknologisk bevidsthed — kompetencer som Fælles Mål for natur/teknik eksplicit efterspørger, men som sjældent kan introduceres meningsfuldt for de yngste elever. Når et barn tæller hjul på en lastbil, sammenligner længden af et tog med en bus eller sorterer køretøjer efter, om de bevæger sig på land, vand eller i luft, udfører det grundlæggende naturvidenskabelig klassifikation og ingeniøranalyse, forklædt som den type legeaktivitet, børn naturligt trækkes mod. Transporttemaet tilbyder også en uovertruffen taksonomisk bredde: fra cykler til containerskibe, fra helikoptere til gravemaskiner, fra elbiler til damplokomotiver, dækker temaet teknologihistorie, miljøpåvirkning, samfundsinfrastruktur og hverdagslogistik i en samlet ramme. Denne bredde betyder, at lærere kan bygge ugelange tematiske enheder, der integrerer matematik, dansk, natur/teknik og samfundsfag uden at temaet føles gentagende. Den særlige motiverende kraft ved transport bør ikke undervurderes: køretøjsfascination er en af de mest almindelige og intense interesser i den tidlige barndom, og børn der normalt modstår struktureret læringsaktivitet vil ofte med glæde tælle, sortere, farvelægge og løse puslespil, når indholdet involverer de biler, tog og fly, de allerede elsker. For lærere i den danske folkeskole, der arbejder med teknologiforståelse som tværgående kompetence i Fælles Mål, giver transportarbejdsark en tilgængelig indgangsvinkel til ingeniørprincipper, der ellers kan virke abstrakte for børn i indskolingen.',
+
+  researchCitation: 'Dansk teknologiforståelse som skolefag har i de seneste år fået stigende opmærksomhed i forskningsmiljøer ved Aarhus Universitet og IT-Universitetet i København. Studier i forbindelse med forsøgsfaget teknologiforståelse har vist, at børn der møder teknologiske koncepter gennem konkrete, hverdagsnære kontekster — som køretøjer, infrastruktur og transportsystemer — udvikler en mere intuitiv forståelse af ingeniørprincipper og systemtænkning end børn der præsenteres for de samme koncepter i abstrakte formater. Transporttemaet er særligt effektivt, fordi det giver en direkte bro mellem barnets daglige observation af biler, busser og tog og den formelle kategorisering, sammenligning og analyse, som folkeskolens naturfags- og matematikundervisning kræver.',
+
+  snippetDefinition: 'Transportarbejdsark til børn er printbare undervisningsaktiviteter, der bruger illustrationer af køretøjer — som biler, lastbiler, tog, fly, både og entreprenørmaskiner — til at undervise i matematik, læsning og STEM-færdigheder. Designet til børn i alderen 3 til 9 inkluderer de tælleøvelser, størrelsessammenligning, mønstergenkendelse, ordsøgninger og sorteringsopgaver, der udnytter børns naturlige køretøjsfascination til at opbygge faglige færdigheder og grundlæggende ingeniørforståelse.',
+
+  snippetHowTo: [
+    'Vælg et specifikt transportunderemne for ugen, som landkøretøjer, flyvende maskiner eller skibe og både, for at give lektionerne en fokuseret tråd, der gør det muligt at gå i dybden med færre køretøjstyper.',
+    'Vælg to til tre arbejdsarktyper der målretter forskellige færdigheder — for eksempel en billedadditionsside til matematik, en ordsøgning med transportordforråd og en mønsterøvelse med køretøjssekvenser.',
+    'Introducer ugens køretøjstype med et kort videoklip eller en billedbog, så børnene har visuel og sproglig baggrundsviden, inden de møder arbejdsarkene.',
+    'Udlever arbejdsarkene i sværhedsorden, start med farvelægning eller matchning for at opbygge engagement, inden du går videre til tælling, subtraktion eller mere komplekse sorteringsopgaver.',
+    'Mens børnene arbejder, stil spørgsmål der forbinder arbejdsarket med virkelighedens transport: Hvor mange hjul har denne lastbil? Hvad tror du er hurtigst — toget eller bilen? Hvorfor har fly vinger?',
+    'Hold en kort delingssession, hvor børnene nævner et nyt transportord, de har lært, eller fortæller om et køretøj, de har set på vej til skole, hvilket styrker ordforråd og observations færdigheder.',
+    'Forlæng læringen med en fysisk aktivitet: byg et simpelt køretøj af genbrugsmaterialer, kør legetøjsbiler gennem en maskeringstape-trafikbane, eller observer køretøjer fra vinduet og lav streger i en tælledagbog.',
+  ],
+
+  limitations: 'Transportarbejdsark kan have begrænsninger i visse pædagogiske kontekster. Temaets stærke appel til traditionelt køretøjsbegejstrede børn kan betyde, at andre elever, der ikke deler denne interesse, finder arbejdsarkene mindre motiverende end temaer med bredere umiddelbar appel som dyr eller mad. Derudover kan transportordforrådet være udfordrende for tosprogede elever, fordi køretøjsbetegnelser som lokomotiv, helikopter og vejkryds er længere og mere tekniske end ordforrådet i mange andre temaer. Endelig er transport som tema stærkere til tælling, sammenligning og sortering end til visse sproglige færdigheder som narrativ skrivning eller poetisk udtryk, hvor temaer med dyr eller eventyr kan give mere naturlige kontekster for kreativ fortælling.',
+
+  themeComparisons: [
+    {
+      vsThemeId: 'travel',
+      summary: 'Rejsearbejdsark fokuserer på kulturmøder, geografi og den menneskelige oplevelse af at besøge nye steder, mens transportarbejdsark fokuserer på selve køretøjerne og den ingeniørkunst, der får dem til at fungere. Transport er stærkere til STEM-orienteret klassifikation og teknologiforståelse, mens rejser er bedre til interkulturel bevidsthed og geografisk læring.',
+    },
+    {
+      vsThemeId: 'construction',
+      summary: 'Bygge- og anlægsarbejdsark deler transporttemaets fascination af store maskiner, men fokuserer på byggeprocesser og materialer. Transportarbejdsark dækker en bredere vifte af køretøjstyper og bevægelsesmåder, mens byggeri går dybere ind i, hvordan strukturer skabes. Tilsammen giver de to temaer en omfattende ingeniørramme for indskolingen.',
+    },
+    {
+      vsThemeId: 'jobs',
+      summary: 'Erhvervsarbejdsark udforsker de mennesker, der betjener køretøjer — piloter, chauffører, kaptajner og maskinførere — og deres roller i samfundet. Transportarbejdsark fokuserer på selve maskinerne og deres tekniske egenskaber. Kombinationen giver børn forståelse for både værktøjerne og menneskerne, der driver samfundets infrastruktur.',
+    },
+    {
+      vsThemeId: 'sports',
+      summary: 'Sportsarbejdsark handler om kropslig bevægelse, konkurrence og sundhed, mens transportarbejdsark handler om mekanisk bevægelse og teknologi. Begge temaer appellerer til aktive, energiske børn, men på forskellige måder: sport engagerer dem fysisk, transport engagerer dem intellektuelt gennem den fascination af fart og kraft, der driver mange børns tidlige STEM-interesse.',
+    },
+  ],
+
+  productLinks: [
+    {
+      appId: 'coloring',
+      anchorText: 'transport farvelægningssider',
+      context: 'For børn der har brug for et roligt udgangspunkt for køretøjslæring, byder vores transport farvelægningssider på detaljerede illustrationer af biler, lastbiler, tog og fly med geometriske detaljer, der udvikler finmotorisk præcision, mens de opbygger visuelt kendskab til de køretøjsformer, der optræder i mere krævende aktiviteter.',
+    },
+    {
+      appId: 'find-and-count',
+      anchorText: 'transport tælleaktiviteter',
+      context: 'Når elever er klar til at kombinere visuel scanning med aritmetik, spreder vores transport tælleaktiviteter forskellige køretøjstyper ud over en travl trafikscene og beder børnene optælle biler, busser og lastbiler separat, hvilket opbygger talforståelse og kategoriseringsevner i én dynamisk øvelse.',
+    },
+    {
+      appId: 'pattern-train',
+      anchorText: 'transport mønsterøvelser',
+      context: 'Vores transport mønsterøvelser bruger køretøjssekvenser til at udvikle den algebraiske tænkning, Fælles Mål introducerer i indskolingen — børn identificerer gentagne mønstre af biler, busser og tog, forudsiger det næste element og forlænger sekvensen.',
+    },
+    {
+      appId: 'shadow-match',
+      anchorText: 'køretøj skyggematchning',
+      context: 'Vores køretøj skyggematchning aktiviteter præsenterer silhuetter af biler, fly og tog, der kræver omhyggelig opmærksomhed på form, proportioner og detaljer — visuelle skelneevner der understøtter både bogstavgenkendelse og ingeniørmæssig observation.',
+    },
+    {
+      appId: 'image-addition',
+      anchorText: 'transport billedaddition',
+      context: 'Aritmetik bliver meningsfuld, når vores transport billedaddition lader børn lægge grupper af køretøjer sammen i konkrete scenarier som tre biler på parkeringspladsen og fire mere ankommer, hvilket forankrer addition i den virkelighedsnære transportkontekst, børn finder naturligt spændende.',
+    },
+  ],
+
+  classroomScenarios: [
+    {
+      situation: 'En lærer i børnehaveklassen har flere elever, der er intenst køretøjsbegejstrede, men modstår enhver form for struktureret matematikaktivitet og kun vil lege med legetøjsbiler.',
+      solution: 'Hun introducerer transporttematiske tælle- og sorteringsarbejdsark og præsenterer dem som et udvidet køretøjsspil: Kan I tælle, hvor mange lastbiler der er? Kan I sortere dem efter størrelse? Arbejdsarkene placeres i legehjørnet ved siden af legetøjsbilerne.',
+      outcome: 'De køretøjsbegejstrede elever engagerer sig øjeblikkeligt og gennemfører tre til fire arbejdsark per session. Deres tællenøjagtighed forbedres markant inden for to uger, og den positive erfaring med struktureret aktivitet overfører sig til andre fagområder, hvor modstanden mod papirarbejde falder.',
+    },
+    {
+      situation: 'En 1. klasse-lærer ønsker at introducere grundlæggende STEM-tænkning, men finder at det tilgængelige undervisningsmateriale er for abstrakt for mange elever i klassen.',
+      solution: 'Læreren bruger transportsorteringsøvelser, hvor eleverne klassificerer køretøjer efter fremdriftstype (hjul, vinger, propeller), størrelse og miljø (land, vand, luft). Hver sorteringsrunde efterfølges af en kort diskussion om, hvorfor køretøjerne er designet forskelligt.',
+      outcome: 'Elevernes forståelse af teknologisk klassifikation stiger markant. De begynder spontant at analysere køretøjer, de ser i hverdagen, og stille spørgsmål som hvorfor har fly ikke hjul på vingerne, hvilket viser spirende ingeniørtænkning, der understøtter Fælles Måls mål for teknologiforståelse.',
+    },
+    {
+      situation: 'En forælder der hjemmeunderviser et seksårigt barn, kæmper med at gøre subtraktionsøvelser engagerende, fordi barnet finder traditionelle talark kedelige og demotiverende.',
+      solution: 'Forælderen bruger transporttematiske subtraktionsarbejdsark med scenarier som toget havde fjorten passagerer, og syv steg af, og supplerer med legetøjsbiler og -tog, der fysisk illustrerer, at mængder bliver mindre.',
+      outcome: 'Barnet løser subtraktionsopgaver med entusiasme og beder selv om flere transportopgaver. Subtraktion inden for tyve mestres to uger hurtigere end forventet, fordi køretøjskonteksten giver den konkrete mening, abstrakte tal manglede.',
+    },
+  ],
+
+  differentiationStrategies: [
+    {
+      learnerType: 'Visuelle elever',
+      adaptation: 'Brug farvelægnings- og skyggematchningsarbejdsark som primære aktiviteter. Køretøjernes geometriske former — cirkler til hjul, rektangler til vogne, trekanter til fly — giver stærke visuelle ankre, der støtter formgenkendelse og rumlig forståelse for børn, der processerer information bedst gennem billeder.',
+    },
+    {
+      learnerType: 'Kinæstetiske elever',
+      adaptation: 'Par arbejdsark med fysisk køretøjsleg. Lad børnene køre legetøjsbiler langs en maskeringstape-vej på gulvet efter sorteringsøvelser, bygge køretøjer af klodser efter tælleaktiviteter eller agere trafik i skolegården efter mønsterøvelser. Den fysiske bevægelse, transporttemaet naturligt inspirerer, er en fordel for kinæstetiske lærere.',
+    },
+    {
+      learnerType: 'Tosprogede elever',
+      adaptation: 'Start med billedbaserede aktiviteter som matchning, sortering og tælling, der kræver minimal tekstforståelse. Introducer transportordforråd gradvist med billede-ord-kort, der viser køretøjet sammen med dets danske og modersmåls-betegnelse. Mange køretøjsbetegnelser er internationale (bus, taxi, pilot), hvilket giver tosprogede elever genkendelige holdepunkter.',
+    },
+    {
+      learnerType: 'Avancerede elever',
+      adaptation: 'Udfordr dem med flertrins-tekstopgaver, der kombinerer addition, subtraktion og sammenligning i transportscenarier. Lad dem designe deres eget køretøj med specifikationer for fart, kapacitet og brændstof, og skriv en teknisk beskrivelse. Mønstergenkendelsesøvelser med tre- eller fireledssekvenser giver algebraisk udfordring.',
+    },
+  ],
+
+  crossCurricularLinks: [
+    {
+      subject: 'Natur/teknik',
+      connection: 'Transportarbejdsark forbinder direkte til Fælles Måls natur/teknik-mål om kræfter, bevægelse og teknologiforståelse. Sortering af køretøjer efter fremdriftstype introducerer ingeniørkoncepter, sammenligning af hastigheder opbygger måleforståelse, og diskussion af brændstoftyper berører grundlæggende energibegreber.',
+      activity: 'Efter et køretøjssorteringsarbejdsark bygger eleverne et simpelt køretøj af genbrugsmaterialer og tester, om det kan rulle ned ad en rampe. De registrerer afstanden i papirclips og sammenligner resultater, hvilket forbinder klassifikation med eksperimentel metode.',
+    },
+    {
+      subject: 'Samfundsfag',
+      connection: 'Køretøjer betjener samfundet på utallige måder: busser transporterer mennesker, lastbiler leverer varer, ambulancer redder liv og skraldebiler holder byer rene. Transportarbejdsark skaber en naturlig bro til samtaler om samfundshjælpere, infrastruktur og det fælles ansvar for sikkerhed i trafikken.',
+      activity: 'Eleverne matcher køretøjer med samfundshjælpere på et arbejdsark, diskuterer derefter, hvad der ville ske, hvis hvert køretøj forsvandt, og skriver tre sætninger om, hvorfor et bestemt køretøj er vigtigt for deres lokalsamfund.',
+    },
+    {
+      subject: 'Kunst',
+      connection: 'Køretøjers geometriske former — cirkler, rektangler, trekanter og buer — gør dem til fremragende motiver for kunstnerisk udforskning, der samtidig styrker formgenkendelse og finmotorisk kontrol. At farvelægge detaljerede køretøjsillustrationer kræver præcision, der overføres til bogstavdannelse.',
+      activity: 'Efter et transportfarvelægningsarbejdsark designer eleverne deres eget drømmekøretøj med blyant og farver, mærker mindst fire dele med korrekte betegnelser og præsenterer deres design for klassen med en kort mundtlig forklaring.',
+    },
+  ],
+
+  assessmentIdeas: [
+    {
+      method: 'Portfoliosamling',
+      criteria: 'Saml ét transportarbejdsark om ugen over en måned fra forskellige kategorier: tælling, sortering, mønster og ordforråd. Sammenlign tidlige og sene prøver for at dokumentere vækst i tællenøjagtighed, klassifikationskompleksitet, mønstergenkendelse og transportordforråd.',
+      gradeLevel: 'Alle klassetrin',
+    },
+    {
+      method: 'Mundtlig klassifikationsopgave',
+      criteria: 'Præsenter eleven for ti køretøjsbilleder og bed dem sortere på to forskellige måder: efter bevægelsesmåde (land, vand, luft) og efter størrelse. Vurder om eleven kan forklare sine sorteringskriterier verbalt, bruge korrekt transportordforråd og genkende, at de samme køretøjer kan grupperes forskelligt.',
+      gradeLevel: 'Børnehaveklasse til 1. klasse',
+    },
+    {
+      method: 'Flertrins-problemløsning',
+      criteria: 'Giv eleverne tre køretøjstekstopgaver med stigende kompleksitet: et ettrins-problem, et totrins-problem og et problem der kræver sammenligning af to beregningsresultater. Vurder ikke kun det korrekte svar, men også elevens strategi, mellemregninger og brug af transportkonteksten til at give svaret mening.',
+      gradeLevel: '1. klasse til 3. klasse',
+    },
+  ],
+
+  expertTips: [
+    {
+      tip: 'Brug køretøjsklassifikation som introduktion til naturvidenskabelig metode. Når børn sorterer køretøjer efter antal hjul, fremdriftstype og miljø, øver de den systematiske observation og kategorisering, der er grundlaget for al naturvidenskabelig undersøgelse. Denne forbindelse mellem transportfascination og videnskabelig tænkning er særligt værdifuld i Fælles Måls ramme for natur/teknik.',
+      source: 'Fælles Mål for natur/teknik — teknologiforståelse og undersøgende tilgange',
+      gradeRange: 'Børnehaveklasse til 3. klasse',
+    },
+    {
+      tip: 'Udnyt køretøjsbegejstring som motivationsmotor for modvillige lærere. For børn der konsekvent modstår struktureret fagligt arbejde, kan transportarbejdsark være indgangen, der bryder mønstret, fordi indholdet matcher en eksisterende passion så stærkt, at papiraktiviteten opleves som en forlængelse af leg snarere end en afbrydelse af den.',
+      source: 'Dansk forskning i interessebaseret læring — motivation og engagement i indskolingen',
+      gradeRange: 'Førskole til 1. klasse',
+    },
+    {
+      tip: 'Forbind transportarbejdsark med virkelige observationer for at fordoble læringseffekten. Lad børn føre en køretøjstælledagbog på vej til skole, registrere antal busser, lastbiler og cykler og bruge data til additions- og sammenligningsøvelser i klassen. Denne bro mellem arbejdsark og virkelighed cementerer abstrakte begreber i konkrete erfaringer.',
+      source: 'Nordisk naturfagsdidaktik — hverdagskontekster i tidlig STEM-undervisning',
+      gradeRange: 'Alle klassetrin',
+    },
+  ],
+
+  quickStats: [
+    { label: 'Anbefalet aldersgruppe', value: '3–9 år' },
+    { label: 'Arbejdsark-apps tilgængelige', value: '12 apps' },
+    { label: 'Fagområder dækket', value: '4 områder' },
+    { label: 'Klassetrin understøttet', value: 'Førskole til 3. kl.' },
+    { label: 'Gennemsnitlig sessionsvarighed', value: '10–20 min' },
+    { label: 'Køretøjskategorier dækket', value: 'Land, vand, luft' },
+  ],
 };
 
 registerThemeContent('transportation', 'da', content);

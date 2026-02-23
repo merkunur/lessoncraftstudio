@@ -208,6 +208,173 @@ const content: EnrichedThemeContent = {
   // -- Cross-linking (IDENTICAL to English) --
   relatedThemes: ['body', 'emotions', 'colors', 'shapes', 'birthday', 'pets'],
   relatedBlogCategories: [],
+
+  // -- SEO Enrichment (Part 218) --
+
+  uniqueAngle: 'Legetøjstematiske arbejdsark indtager en unik position i tidlig pædagogik, fordi de udnytter det mest grundlæggende element i barnets verden: legen selv. Hvor andre temaer introducerer nyt indhold udefra, tager legetøjsarbejdsark udgangspunkt i genstande, børn allerede har et dybt følelsesmæssigt forhold til — bamser, klodser, biler, dukker, puslespil og bolde er ikke bare illustrationer på en side, men repræsentationer af børnenes mest elskede ejendele og daglige legeaktiviteter. Denne personlige forbindelse skaber et motivationsniveau, der er svært at opnå med abstrakte temaer, fordi hvert barn bringer sin egen erfaring med konkret legetøj til arbejdsarket og dermed transformerer generiske matematikopgaver til personligt meningsfulde udfordringer. Størrelsessammenligning er særligt kraftfuld med legetøj, fordi børn allerede har en intuitiv fornemmelse af, hvilke legetøjsting der er store og små i deres egen samling, hvilket betyder, at abstrakte målingskoncepter som større, mindre, højest og lavest formaliserer viden, barnet allerede besidder, i stedet for at introducere helt nye ideer. Sorteringsaktiviteter med legetøj opbygger fleksibel kategoriseringstænkning, fordi det samme legetøj kan sorteres efter farve, materiale, størrelse, funktion eller antal spillere, og dermed lærer børn, at klassifikation afhænger af den valgte egenskab snarere end at være en fast egenskab ved genstanden — dette er sofistikeret kognitivt arbejde, der direkte understøtter senere naturvidenskabelig taksonomi og matematisk mængdelære. Den sociale dimension af legetøj tilføjer et ekstra pædagogisk lag, fordi deling, turtagning og samarbejdsleg er blandt de vigtigste færdigheder, børn udvikler i førskole- og tidlige skoleår. Arbejdsark der viser legetøjsdelescenarier giver strukturerede muligheder for at diskutere retfærdighed, empati og konfliktløsning i en kontekst, der føles personligt relevant. I den danske folkeskole, hvor Fælles Mål vægter trivsel, fællesskab og børns selvudfoldelse som ligeværdige mål med faglig progression, giver legetøjstemaet en naturlig bro mellem leg og læring, der respekterer den skandinaviske pædagogiske tradition om, at leg ikke er modsætningen til læring, men selve fundamentet for den.',
+
+  researchCitation: 'Nordisk legepædagogik har gennem årtier dokumenteret legens afgørende rolle i kognitiv udvikling, kreativ tænkning og social læring i skandinaviske daginstitutioner og folkeskoler. Forskere ved Danmarks Pædagogiske Universitet og Aarhus Universitet har vist, at børn der møder fagligt indhold gennem legebaserede kontekster — som at tælle legetøjssamlinger, sortere legetøj efter egenskaber eller løse matematikopgaver med velkendte legegenstande — udvikler dybere begrebsforståelse og mere vedvarende motivation end børn der præsenteres for de samme færdigheder i abstrakte, dekontekstualiserede formater. Denne effekt er særligt udtalt i førskole til 2. klasse, hvor den konkrete legetøjskontekst fungerer som en bro mellem barnets frie leg og den formelle skoleundervisnings krav om systematisk færdighedstilegnelse.',
+
+  snippetDefinition: 'Legetøjsarbejdsark til børn er printbare undervisningsaktiviteter, der bruger illustrationer af velkendte legegenstande — som bamser, klodser, biler, dukker, bolde og puslespil — til at undervise i matematik, læsning og kognitive færdigheder. Designet til børn i alderen 3 til 9 inkluderer de tælleøvelser, størrelsessammenligning, sorteringsopgaver, ordsøgninger og matchningsaktiviteter, der udnytter børns personlige forhold til deres eget legetøj for at øge engagement og fastholdelse.',
+
+  snippetHowTo: [
+    'Vælg et specifikt legetøjsunderemne for ugen, som klodser og byggelegetøj, dukker og bamser eller brætspil og puslespil, for at give lektionerne en fokuseret tråd, der holder børnenes interesse samlet.',
+    'Vælg to til tre arbejdsarktyper der målretter forskellige færdigheder — for eksempel en billedadditionsside til matematik, en ordsøgning til ordforråd og en stor-lille-sammenligningsside til målingsbegreber.',
+    'Introducer legetøjsunderemnet med en kort samtale om børnenes egne erfaringer: Hvilket legetøj har I derhjemme? Hvad leger I mest med? Denne personlige forbindelse aktiverer baggrundsviden.',
+    'Udlever arbejdsarkene i sværhedsorden, start med den mest tilgængelige aktivitet som farvelægning for at opbygge selvtillid, inden du går videre til mere krævende opgaver som tælling eller matchning.',
+    'Mens børnene arbejder, stil åbne spørgsmål som hvordan vil du sortere dette legetøj og hvilken gruppe har mest for at uddybe matematisk tænkning og ordforrådsanvendelse.',
+    'Hold en kort delingssession efter arbejdsarkene, hvor børnene fortæller om ét stykke legetøj fra deres opgave og bruger sammenligningsord som større, mindre, flest og færrest.',
+    'Forlæng læringen ved at lade børnene bruge rigtigt legetøj fra klasselokalet til at gentage arbejdsarkopgaverne fysisk — tæl klodser, sortér bamser efter størrelse, match legetøjsbiler efter farve.',
+  ],
+
+  limitations: 'Legetøjsarbejdsark er muligvis ikke det optimale valg i enhver undervisningskontekst. Børn fra familier med begrænsede økonomiske ressourcer kan have færre personlige legetøjserfaringer at trække på, hvilket kan gøre visse sammenlignings- og sorteringsopgaver mindre intuitive, medmindre læreren sikrer adgang til fælles klasselokalelegetøj. Derudover kan legetøjstemaet utilsigtet forstærke kønsstereotyper, hvis arbejdsarkene konsekvent viser bestemte typer legetøj som kønsspecifikke — lærere bør aktivt vælge en mangfoldig repræsentation af legetøj på tværs af aktiviteter. Endelig er legetøj som tema stærkest til sammenligning, sortering og tælling, men mindre naturligt egnet til avancerede matematiske koncepter som brøker eller geometri, hvor temaer med mad, former eller bygninger kan give mere intuitive visuelle modeller.',
+
+  themeComparisons: [
+    {
+      vsThemeId: 'body',
+      summary: 'Kropsarbejdsark fokuserer på anatomi, sanser og bevægelse og forbinder naturligt til sundhedsundervisning og natur/teknik. Legetøjsarbejdsark dækker den materielle og sociale verden af genstande, børn leger med, og er stærkere til størrelsessammenligning, sortering og social-emotionel læring om deling. De to temaer supplerer hinanden, når legetøjsaktiviteter inkluderer kropsbevægelse, og kropsaktiviteter bruger legetøjsmanipulativer.',
+    },
+    {
+      vsThemeId: 'emotions',
+      summary: 'Følelsesarbejdsark udforsker den indre verden af følelser, empati og selvregulering, mens legetøjsarbejdsark arbejder med den ydre, materielle verden af legegenstande. Legetøj giver dog en naturlig kontekst for følelsesmæssig læring, fordi deling, turtagning og legetøjskonflikter er blandt de mest almindelige situationer, hvor børn øver emotionel regulering og social forhandling.',
+    },
+    {
+      vsThemeId: 'colors',
+      summary: 'Farvearbejdsark fokuserer på farvegenkendelse, navngivning og blanding som primært visuelt-perceptuelle færdigheder. Legetøjsarbejdsark bruger farver som én af flere sorteringsegenskaber ved siden af størrelse, materiale og funktion, hvilket giver bredere kognitiv udfordring. Farvetemaet er mere fokuseret og dybdegående inden for sit domæne, mens legetøjstemaet tilbyder større tværfaglig bredde.',
+    },
+    {
+      vsThemeId: 'shapes',
+      summary: 'Formearbejdsark udvikler geometrisk tænkning med fokus på navngivning, genkendelse og egenskaber af todimensionelle og tredimensionelle figurer. Legetøjsarbejdsark indeholder geometriske elementer — hjul er cirkler, klodser er firkanter — men prioriterer sammenligning, sortering og social kontekst frem for formel geometri. Kombinationen af begge temaer styrker børns evne til at genkende matematiske strukturer i hverdagsgenstande.',
+    },
+  ],
+
+  productLinks: [
+    {
+      appId: 'coloring',
+      anchorText: 'legetøj farvelægningssider',
+      context: 'For børn der har brug for et roligt, kreativt udgangspunkt for struktureret læring, byder vores legetøj farvelægningssider på detaljerede illustrationer af bamser, klodser, biler og dukker, der udvikler finmotorisk kontrol, mens de opbygger fortrolighed med de legetøjskategorier, der optræder i mere udfordrende aktiviteter.',
+    },
+    {
+      appId: 'big-small-app',
+      anchorText: 'legetøj størrelsessammenligningsøvelser',
+      context: 'Når elever er klar til at formalisere den intuitive viden, de allerede har om deres legetøjs relative størrelser, præsenterer vores legetøj størrelsessammenligningsøvelser par af velkendte legegenstande og beder børnene identificere det største eller mindste — en aktivitet der opbygger måleordforråd i en kontekst, der føles som en naturlig forlængelse af leg.',
+    },
+    {
+      appId: 'find-and-count',
+      anchorText: 'legetøj tælleaktiviteter',
+      context: 'For at kombinere visuel scanning med aritmetik spreder vores legetøj tælleaktiviteter flere legetøjstyper ud over en travl scene og beder børnene om at optælle hver kategori, hvilket opbygger talforståelse, observationsevner og kategoriseringstænkning i én engagerende øvelse.',
+    },
+    {
+      appId: 'matching-app',
+      anchorText: 'legetøj matchningsopgaver',
+      context: 'Vores legetøj matchningsopgaver parrer identiske legegenstande, forbinder legetøj med deres kategorier eller matcher legetøj med deres silhuetter, og udfordrer børn til at anvende visuel skelneevne og klassifikationsviden i en puslespilkontekst, der fastholder koncentrationen.',
+    },
+    {
+      appId: 'word-search',
+      anchorText: 'legetøj ordsøgning',
+      context: 'Ordforrådsindlæring accelererer, når børn jager efter legetøjsbetegnelser i vores legetøj ordsøgning sider, der indlejrer fagligt sprog som samling, sortering og sammenligning i et puslespilformat, der gør staveøvelse til en leg.',
+    },
+  ],
+
+  classroomScenarios: [
+    {
+      situation: 'En lærer i børnehaveklassen bemærker, at flere elever kæmper med størrelsessammenligning, fordi de har svært ved at forstå abstrakte begreber som større og mindre uden konkret kontekst.',
+      solution: 'Hun introducerer legetøjstematiske stor-lille-arbejdsark, hvor børn sammenligner velkendte legetøjsgenstande som bamser og biler i forskellige størrelser. Før arbejdsarkene lader hun børnene holde rigtigt legetøj af forskellige størrelser i hænderne.',
+      outcome: 'Inden for en uge bruger de kæmpende elever selvstændigt sammenligningsord som større, mindre og størst i deres daglige sprog. De abstrakte begreber er blevet konkrete, fordi børnene kunne forbinde dem med genstande, de allerede kendte og elskede.',
+    },
+    {
+      situation: 'En forælder opdager, at hendes fireårige nægter at lave nogen form for struktureret læringsaktivitet og kun vil lege frit med sine legetøjsdyr og byggeklodser.',
+      solution: 'Forælderen printer legetøjstematiske matchnings- og tællearbejdsark og præsenterer dem som et nyt spil: Kan du finde alle de klodser, der ligner hinanden? Kan du tælle, hvor mange bamser der er? Arbejdsarkene bliver en del af legestunden frem for en separat pligtaktivitet.',
+      outcome: 'Barnet gennemfører tre til fire arbejdsark per session med entusiasme og begynder selv at bede om legetøjsspil-siderne. Tællefærdigheder forbedres markant inden for en måned, og barnets modstand mod struktureret læring falder generelt, fordi den positive association med legetøjsarbejdsark overføres til andre aktiviteter.',
+    },
+    {
+      situation: 'En 2. klasse-lærer ønsker at undervise i fleksibel kategorisering, men finder at eleverne konsekvent kun sorterer efter én egenskab og har svært ved at forstå, at de samme genstande kan grupperes forskelligt.',
+      solution: 'Læreren bruger legetøjssorteringsøvelser, hvor eleverne sorterer den samme samling legetøj tre gange: først efter farve, derefter efter størrelse og til sidst efter materiale. Efter hver sortering diskuterer klassen, hvordan grupperne ændrede sig, selvom legetøjet forblev det samme.',
+      outcome: 'Elevernes forståelse af fleksibel klassifikation styrkes markant. På en opfølgningstest kan 90 procent af eleverne selvstændigt foreslå alternative sorteringskriterier for en given genstandssamling, og den kognitive fleksibilitet overføres til naturfagsundervisningen, hvor eleverne nu spontant foreslår flere måder at gruppere naturvidenskabelige observationer.',
+    },
+  ],
+
+  differentiationStrategies: [
+    {
+      learnerType: 'Visuelle elever',
+      adaptation: 'Brug farvelægnings- og matchningsarbejdsark som primære aktiviteter. Legetøjsillustrationer med klare farver og genkendelige former giver rige visuelle stimuli, der støtter læring for børn, der processerer information bedst gennem billeder. Stor-lille-sammenligningsark med tydeligt kontrasterende størrelser er særligt effektive for denne gruppe.',
+    },
+    {
+      learnerType: 'Kinæstetiske elever',
+      adaptation: 'Par hvert arbejdsark med rigtigt legetøj fra klasselokalet. Lad børnene fysisk sortere legetøjsgenstande, før de løser sorteringsopgaven på papir, og tælle rigtige klodser, før de løser tællearbejdsarket. Denne bro mellem håndfaste manipulationer og papirbaseret læring er særlig vigtig for legetøjstemaet, fordi genstandene allerede er tilgængelige.',
+    },
+    {
+      learnerType: 'Tosprogede elever',
+      adaptation: 'Start med billedtunge arbejdsark som matchning og stor-lille-sammenligning, der kræver minimal tekstforståelse. Legetøjsordforråd som dukke, bil, bold og bamse er ofte blandt de første ord, tosprogede børn lærer, hvilket gør dette tema til en fremragende bro til mere krævende ordbaserede aktiviteter. Tillad navngivning af legetøj på begge sprog.',
+    },
+    {
+      learnerType: 'Avancerede elever',
+      adaptation: 'Udfordr dem med flertrins-sorteringsopgaver, hvor de skal klassificere legetøj efter to eller tre egenskaber samtidig, eller lad dem designe deres egne legetøjstematiske arbejdsark til klassekammerater. Ordsøgninger med længere og mere komplekst legetøjsordforråd tilbyder justerbar sværhedsgrad, og dataprojekter om klassens legetøjspræferencer giver ægte matematisk udfordring.',
+    },
+  ],
+
+  crossCurricularLinks: [
+    {
+      subject: 'Matematik',
+      connection: 'Legetøjsarbejdsark kobler direkte til Fælles Måls matematikmål om tælling, sammenligning og måling. Størrelsessortering med legetøj opbygger seriations- og ordningsfærdigheder, tælling af legetøjssamlinger styrker kardinalitet og en-til-en-korrespondance, og ligedelingsopgaver introducerer divisionsparathed.',
+      activity: 'Efter et legetøjstælle-arbejdsark laver eleverne en legetøjsinventar-undersøgelse i klassen, samler data om, hvor mange stykker legetøj af hver type klassekammeraterne har, og laver et piktogram der visualiserer resultaterne.',
+    },
+    {
+      subject: 'Dansk',
+      connection: 'Legetøjstemaet opbygger beskrivende ordforråd som blød, hård, rund, firkantet, størst og mindst samt socialt ordforråd som dele, bytte og låne. Disse ord styrker både tillægsordsbrug og mundtlig kommunikation i overensstemmelse med Fælles Måls danskfaglige mål.',
+      activity: 'Eleverne vælger et yndlingslegetøj og skriver tre sætninger, der beskriver det med mindst to tillægsord per sætning, og læser derefter deres beskrivelse højt for en klassekammerat, som skal gætte, hvilket legetøj der beskrives.',
+    },
+    {
+      subject: 'Samfundsfag',
+      connection: 'Legetøjsdeling, turtagning og samarbejdsleg er kernekompetencer i den tidlige sociale udvikling. Arbejdsark der viser delingsscenarier understøtter Fælles Måls mål for social-emotionel læring, fællesskab og demokratisk dannelse i de tidlige klassetrin.',
+      activity: 'Efter et legetøjsdelingsarbejdsark diskuterer klassen regler for retfærdig deling af fælles klasselokalelegetøj og formulerer tre klasseregler, som alle er enige om, og hænger dem op som en klasseaftale.',
+    },
+  ],
+
+  assessmentIdeas: [
+    {
+      method: 'Portfoliosamling',
+      criteria: 'Saml ét legetøjsarbejdsark om ugen over en måned fra forskellige kategorier: tælling, størrelsessammenligning, sortering og matchning. Sammenlign tidlige og sene prøver for at dokumentere vækst i tællenøjagtighed, sammenligningsordforråd, sorteringskompleksitet og finmotorisk kontrol.',
+      gradeLevel: 'Alle klassetrin',
+    },
+    {
+      method: 'Observationstjekliste',
+      criteria: 'Mens eleverne arbejder med legetøjssorteringsarbejdsark, notér om de kan sortere efter én egenskab (førskole), to egenskaber (børnehaveklasse) eller selvstændigt foreslå nye sorteringskriterier (1. klasse og op). Registrer desuden brug af sammenligningsordforråd og samarbejdsadfærd under pararbejde.',
+      gradeLevel: 'Førskole til 1. klasse',
+    },
+    {
+      method: 'Praktisk transfertest',
+      criteria: 'Efter et sæt legetøjsmatematik-arbejdsark giv eleverne en samling rigtigt legetøj og bed dem udføre de samme færdigheder fysisk: tælle, sortere, sammenligne og ordne. Vurder om de kan overføre papirlæring til håndgribelig kontekst, og om de anvender det faglige ordforråd fra arbejdsarkene i deres mundtlige forklaringer.',
+      gradeLevel: 'Førskole til 2. klasse',
+    },
+  ],
+
+  expertTips: [
+    {
+      tip: 'Brug legetøjssortering som introduktion til matematisk mængdelære. Når børn sorterer det samme legetøj efter farve, størrelse og materiale og observerer, hvordan grupperne ændrer sig, øver de logiske operationer som forening, fællesmængde og delmængde, der underbygger formel matematik. Denne forbindelse mellem konkret legetøjsleg og abstrakt tænkning styrker begge domæner.',
+      source: 'Fælles Mål for matematik — tværfaglige kompetencer i den danske folkeskole',
+      gradeRange: 'Børnehaveklasse til 3. klasse',
+    },
+    {
+      tip: 'Udnyt legetøjstemaets sociale dimension til at undervise i konfliktløsning og empati. Arbejdsark med delingsscenarier giver en rolig, analytisk kontekst for at øve de færdigheder, børn har brug for under følelsesladede virkelige legesituationer. At diskutere retfærdig deling på papir, når intet rigtigt legetøj er på spil, opbygger det sprog og de strategier, der kan aktiveres i øjeblikkets hede.',
+      source: 'Nordisk legepædagogik — social læring i skandinaviske daginstitutioner',
+      gradeRange: 'Førskole til 1. klasse',
+    },
+    {
+      tip: 'Forbind legetøjsarbejdsark med oprydningstid derhjemme for at skabe daglige læringsøjeblikke uden ekstra studietid. Bed barnet sortere legetøj efter farve, størrelse eller type under oprydning, tæl hver kategori og sammenlign, hvilken gruppe der var størst. Denne naturlige integration af matematik i hverdagsrutiner styrker ideen om, at læring ikke er adskilt fra leg.',
+      source: 'Dansk forskningscenter for uddannelse — forældreinvolvering i børns tidlige læring',
+      gradeRange: 'Alle klassetrin',
+    },
+  ],
+
+  quickStats: [
+    { label: 'Anbefalet aldersgruppe', value: '3–9 år' },
+    { label: 'Arbejdsark-apps tilgængelige', value: '11 apps' },
+    { label: 'Fagområder dækket', value: '4 områder' },
+    { label: 'Klassetrin understøttet', value: 'Førskole til 3. kl.' },
+    { label: 'Gennemsnitlig sessionsvarighed', value: '10–20 min' },
+    { label: 'Legetøjskategorier inkluderet', value: '10+' },
+  ],
 };
 
 registerThemeContent('toys', 'da', content);

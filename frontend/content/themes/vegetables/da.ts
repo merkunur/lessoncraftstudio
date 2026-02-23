@@ -207,6 +207,173 @@ const content: EnrichedThemeContent = {
   // -- Cross-linking --
   relatedThemes: ['fruits', 'food', 'garden', 'cooking', 'farm', 'nature'],
   relatedBlogCategories: [],
+
+  // -- SEO Enrichment (Part 218) --
+
+  uniqueAngle: 'Grøntsagsarbejdsark indtager en særlig position i tidlig pædagogik, fordi de forbinder faglig læring med den mest grundlæggende menneskelige aktivitet: at spise og forstå, hvor maden kommer fra. I en tid hvor mange børn vokser op med begrænset kontakt til landbrug og fødevareproduktion, giver grøntsagstemaet en konkret, sanselig indgangsvinkel til naturvidenskab, sundhedsforståelse og matematisk tænkning, der er forankret i noget, børn møder ved hvert måltid. Den skandinaviske pædagogiske tradition har længe anerkendt mad og måltider som et centralt læringsdomæne, og Fælles Mål for natur/teknik og sundhedsundervisning understreger vigtigheden af, at børn udvikler en grundlæggende forståelse af ernæring, fødevareproduktion og bæredygtig madkultur. Grøntsagsarbejdsark udnytter denne ramme ved at bruge gulerødder, ærter, tomater, broccoli, kartofler og andre velkendte grøntsager som visuelle ankre for tælling, sortering, sammenligning og ordforrådsopbygning. Det sensoriske element er unikt for madtemaer: børn kan ikke kun se grøntsagerne på arbejdsarket, men også røre, smage og lugte de rigtige grøntsager som en forlængelse af papiraktiviteten, hvilket skaber multimodal læring, der styrker hukommelse og begrebsforståelse. Sorteringsaktiviteter med grøntsager opbygger naturvidenskabelig klassifikation, fordi grøntsager kan sorteres efter farve, form, størrelse, vækstmåde (over eller under jorden), sæson og spisedel (rod, blad, frugt, stængel), hvilket giver et overraskende rigt taksonomisk system, der udfordrer børns kategoriseringsevner på alle niveauer. For lærere der arbejder med sundhedsundervisning som tværgående tema, giver grøntsagsarbejdsark en naturlig integration af faglige færdigheder med de sundhedsmål, der er indlejret i Fælles Mål, og for forældre giver de en motiverende ramme for at introducere nye grøntsager og sunde madvaner i en positiv, legebaseret kontekst.',
+
+  researchCitation: 'Nordisk sundhedspædagogik har i stigende grad fokuseret på mad og madkendskab som indgang til naturvidenskab, sundhedsforståelse og sanselig læring i danske børnehaver og skoler. Forskning ved Københavns Universitet og Aarhus Universitets institut for folkesundhed har vist, at børn der møder fødevareemner gennem hands-on, sanselige aktiviteter — som at røre, smage, sortere og navngive grøntsager — udvikler både bedre ernæringsviden og større villighed til at smage nye fødevarer. Denne dobbelteffekt af faglig læring og sundhedsfremmende adfærd gør grøntsagstemaet særligt værdifuldt i den danske folkeskoles indskoling, hvor Fælles Mål vægter sundhed, trivsel og naturvidenskabelig nysgerrighed som sammenhængende mål.',
+
+  snippetDefinition: 'Grøntsagsarbejdsark til børn er printbare undervisningsaktiviteter, der bruger illustrationer af velkendte grøntsager — som gulerødder, ærter, tomater, kartofler og broccoli — til at undervise i matematik, læsning og naturvidenskabelige færdigheder. Designet til børn i alderen 3 til 9 inkluderer de tælleøvelser, sorteringsopgaver, mønsteraktiviteter, ordsøgninger og sammenligningsøvelser, der udnytter den daglige kontakt med grøntsager ved måltider til at opbygge faglige færdigheder og sundhedsbevidsthed.',
+
+  snippetHowTo: [
+    'Vælg et specifikt grøntsagsunderemne for ugen, som rodfrugter, bladgrøntsager eller grøntsager fra skolehaven, for at give lektionerne en fokuseret tråd, der gør det muligt at gå i dybden med færre sorter.',
+    'Vælg to til tre arbejdsarktyper der målretter forskellige færdigheder — for eksempel en billedadditionsside til matematik, en ordsøgning med grøntsagsordforråd og en stor-lille-sammenligningsside til målingsbegreber.',
+    'Introducer ugens grøntsager med rigtige eksemplarer, som børnene kan se, røre og eventuelt smage, for at opbygge den sanselige baggrundsviden, der gør arbejdsarkene meningsfulde.',
+    'Udlever arbejdsarkene i sværhedsorden, start med farvelægning af grøntsager for at opbygge visuelt kendskab, inden du går videre til tælning, sortering eller mønsteropgaver.',
+    'Mens børnene arbejder, stil spørgsmål der forbinder arbejdsarket med sundhed og naturvidenskab: Hvilken farve har denne grøntsag? Vokser den over eller under jorden? Har I smagt den?',
+    'Hold en kort delingssession, hvor børnene fortæller om en grøntsag, de har lært om, og nævner ét nyt ord fra arbejdsarket, hvilket styrker ordforråd og sundhedsbevidsthed.',
+    'Forlæng læringen med en smagsprøve, en skolehaveaktivitet eller en simpel madlavningsøvelse, der bruger de grøntsager, børnene har arbejdet med på papiret.',
+  ],
+
+  limitations: 'Grøntsagsarbejdsark kan have begrænsninger i visse kontekster. Nogle børn har stærke madpræferencer eller sensoriske følsomheder, der gør grøntsagsbilleder ubehagelige snarere end motiverende — lærere bør aldrig presse børn til at smage grøntsager i forbindelse med arbejdsarkaktiviteter. Derudover kan kulturelle forskelle i madkultur betyde, at visse grøntsager er ukendte for nogle børn, hvilket kræver ekstra introduktion. Endelig er grøntsagstemaet stærkest til sorterings-, tælle- og sundhedsrelaterede aktiviteter, men mindre naturligt egnet til avanceret matematik som multiplikation eller brøker, hvor temaer med transport eller konstruktion kan give mere intuitive kontekster.',
+
+  themeComparisons: [
+    {
+      vsThemeId: 'fruits',
+      summary: 'Frugtarbejdsark deler grøntsagstemaets mad- og sundhedsfokus, men frugt har typisk stærkere visuel appel med sine klare farver og sødme, der tiltaler de fleste børn umiddelbart. Grøntsagsarbejdsark tilbyder bredere klassifikationsmuligheder, fordi grøntsager varierer mere i form, farve og spisedel, og de understøtter stærkere sundhedsundervisning, fordi mange børn har brug for mere opmuntring til at spise grøntsager end frugt.',
+    },
+    {
+      vsThemeId: 'food',
+      summary: 'Madarbejdsark dækker hele kostens bredde fra morgenmad til aftensmad, mens grøntsagsarbejdsark fokuserer dybere på en enkelt fødevarekategori. Det smalere fokus giver mulighed for mere detaljeret klassifikation og dybere naturvidenskabelig udforskning af plantebiologi, mens madtemaet tilbyder bredere ernæringsundervisning og måltidsforståelse.',
+    },
+    {
+      vsThemeId: 'garden',
+      summary: 'Havearbejdsark udforsker hele haveprocessen fra frø til blomst og inkluderer blomster, værktøjer og insekter. Grøntsagsarbejdsark fokuserer specifikt på de spiselige planter og forbinder dermed havedyrkning med ernæring og sundhed på en måde, der giver madlavnings- og smagningsaktiviteter som naturlig forlængelse.',
+    },
+    {
+      vsThemeId: 'cooking',
+      summary: 'Madlavningsarbejdsark fokuserer på processen at tilberede mad, herunder opskrifter, redskaber og teknikker. Grøntsagsarbejdsark fokuserer på selve ingredienserne og deres egenskaber. De to temaer supplerer hinanden perfekt: grøntsagsarbejdsark opbygger kendskab til råvarerne, madlavningsarbejdsark viser, hvad man kan gøre med dem.',
+    },
+  ],
+
+  productLinks: [
+    {
+      appId: 'coloring',
+      anchorText: 'grøntsager farvelægningssider',
+      context: 'For børn der har brug for et roligt, sanselig udgangspunkt for grøntsagslæring, byder vores grøntsager farvelægningssider på detaljerede illustrationer af gulerødder, broccoli, ærter og tomater, der udvikler finmotorisk kontrol, mens de opbygger visuelt kendskab til de grøntsager, børnene vil møde i mere krævende aktiviteter.',
+    },
+    {
+      appId: 'find-and-count',
+      anchorText: 'grøntsager tælleaktiviteter',
+      context: 'Når elever er klar til at kombinere visuel scanning med aritmetik, spreder vores grøntsager tælleaktiviteter forskellige grøntsagstyper ud over en travl køkken- eller havescene og beder børnene om at optælle hver sort, hvilket opbygger talforståelse og kategoriseringsevner.',
+    },
+    {
+      appId: 'picture-sort',
+      anchorText: 'grøntsager sorteringsøvelser',
+      context: 'For at opbygge den klassifikationstænkning der understøtter naturvidenskabelig undersøgelse, lader vores grøntsager sorteringsøvelser børn gruppere grøntsager efter farve, størrelse, vækstmåde eller spisedel, med stigende kompleksitet fra førskole til 3. klasse.',
+    },
+    {
+      appId: 'word-search',
+      anchorText: 'grøntsager ordsøgning',
+      context: 'Ordforrådsindlæring accelererer, når børn jager efter grøntsagsbetegnelser i vores grøntsager ordsøgning sider, der indlejrer sundhedsfagligt sprog som vitamin, fiber og ernæring i et puslespilformat, der gør staveøvelse til en sund udfordring.',
+    },
+    {
+      appId: 'matching-app',
+      anchorText: 'grøntsager matchningsopgaver',
+      context: 'Vores grøntsager matchningsopgaver parrer grøntsager med deres farver, former eller vækststeder og udfordrer børn til at anvende klassifikationsviden, mens de udvikler de visuelle skelneevner, der understøtter både læseparathed og naturvidenskabelig observation.',
+    },
+  ],
+
+  classroomScenarios: [
+    {
+      situation: 'En lærer i børnehaveklassen bemærker, at flere elever konsekvent afviser grøntsager i frokostpausen og siger, at de ikke kan lide dem, uden at have smagt dem.',
+      solution: 'Hun introducerer et grøntsags-udforsker-projekt med arbejdsark som indgang: farvelægning af grøntsager, tælling af frø i en peberfrugt, matchning af grøntsager med deres farver. Hver uge suppleres med en frivillig smagsprøve af ugens grøntsag.',
+      outcome: 'Inden for en måned har flertallet af de grøntsagsmodvillige elever smagt mindst tre nye grøntsager frivilligt. Det faglige ordforråd omkring grøntsager er vokset markant, og børnene diskuterer spontant grøntsagers farver og former i frokostpausen.',
+    },
+    {
+      situation: 'En forælder der hjemmeunderviser et fireårigt barn, ønsker at introducere sundhedsundervisning, men finder at traditionelle ernæringspyramide-materialer er for abstrakte for et førskolebarn.',
+      solution: 'Forælderen bruger grøntsagsarbejdsark med tælning, farvelægning og sortering som ugentlig aktivitet og supplerer med hands-on oplevelser: besøg i supermarkedet for at finde grøntsagerne fra arbejdsarket, dyrkning af karse i vindueskarmen og simpel madlavning med gulerødder og ærter.',
+      outcome: 'Barnet udvikler et personligt forhold til grøntsager og begynder at bede om dem ved navn. Tællefærdigheder forbedres parallelt med sundhedsbevidsthed, og barnet formidler stolt sin viden til søskende med sætninger som vidste du, at gulerødder vokser under jorden.',
+    },
+    {
+      situation: 'En 2. klasse-naturfagslærer ønsker at undervise i plantebiologi, men finder at lærebogsmaterialet om plantedele er for abstrakt for mange elever.',
+      solution: 'Læreren bruger grøntsagssorteringsøvelser, hvor eleverne klassificerer grøntsager efter hvilken plantedel vi spiser: rod (gulerod), blad (salat), frugt (tomat), stængel (selleri), frø (ært). Hver sortering efterfølges af undersøgelse af rigtige grøntsager med lup.',
+      outcome: 'Elevernes forståelse af planteanatomi stiger markant, fordi de kan forbinde abstrakte biologiske begreber med konkrete, velkendte fødevarer. På naturfagsprøven kan 85 procent korrekt identificere plantedele, mod 55 procent ved tidligere forsøg med rent læsebogsbaseret undervisning.',
+    },
+  ],
+
+  differentiationStrategies: [
+    {
+      learnerType: 'Visuelle elever',
+      adaptation: 'Brug farvelægnings- og matchningsarbejdsark med grøntsagers karakteristiske farver og former som primære aktiviteter. Grøntsagers visuelle variation — grønne ærter, orange gulerødder, røde tomater, hvide blomkål — giver stærke farvekontekster, der støtter kategorisering og hukommelse for visuelle lærere.',
+    },
+    {
+      learnerType: 'Kinæstetiske elever',
+      adaptation: 'Par hvert arbejdsark med rigtige grøntsager, som børnene kan holde, sortere og undersøge. Lad dem tælle rigtige ærter i en skål, sortere minigrøntsager efter farve og størrelse, eller plante frø efter et arbejdsark om vækst. Den sanselige oplevelse af grøntsagernes tekstur, vægt og form cementerer den papirbaserede læring.',
+    },
+    {
+      learnerType: 'Tosprogede elever',
+      adaptation: 'Start med billedbaserede aktiviteter som matchning og sortering, der kræver minimal tekstforståelse. Mange grøntsagsbetegnelser er internationale (tomat, broccoli, spinat), hvilket giver tosprogede elever genkendelige holdepunkter. Lad dem navngive grøntsager på begge sprog og del kulturspecifikke grøntsagsretter, der styrker deres ekspertstatus.',
+    },
+    {
+      learnerType: 'Avancerede elever',
+      adaptation: 'Udfordr dem med flerattribut-sorteringsopgaver, hvor de klassificerer grøntsager efter plantedel OG farve OG sæson samtidig. Ordsøgninger med fagligt botanisk ordforråd og dataprojekter om klassens grøntsagspræferencer giver ægte faglig og matematisk udfordring.',
+    },
+  ],
+
+  crossCurricularLinks: [
+    {
+      subject: 'Natur/teknik',
+      connection: 'Grøntsagsarbejdsark forbinder direkte til Fælles Måls natur/teknik-mål om levende organismer, plantevækst og økosystemer. Sortering af grøntsager efter plantedel introducerer plantebiologi, diskussion af vækstbetingelser berører økologi, og undersøgelse af frø og rødder styrker observationsfærdigheder.',
+      activity: 'Efter et grøntsagssorteringsarbejdsark planter eleverne tre forskellige grøntsagsfrø i gennemsigtige kopper, observerer spiringen dagligt og registrerer væksten med tegninger og målinger over to uger.',
+    },
+    {
+      subject: 'Sundhedsundervisning',
+      connection: 'Grøntsagstemaet giver en naturlig kontekst for Fælles Måls sundhedsmål om ernæring, kropsbevidsthed og sunde madvaner. At lære om vitaminer i forskellige farver grøntsager, diskutere madens vej fra jord til bord og smage nye grøntsager integrerer sundhedslæring med faglig færdighedstræning.',
+      activity: 'Eleverne laver et grøntsagsregnbue-projekt, hvor de finder grøntsager i fem forskellige farver, farvelægger dem på et regnbuediagram og smager én grøntsag fra hver farvegruppe med beskrivende ord som sprød, blød, sød og bitter.',
+    },
+    {
+      subject: 'Dansk',
+      connection: 'Grøntsagstemaet opbygger sensorisk og beskrivende ordforråd som sprød, blød, sød, bitter, glat, nubret, rund, aflang og spids. Disse tillægsord styrker den beskrivende skrivning og mundtlige kommunikation, Fælles Mål vægter i indskolingen.',
+      activity: 'Eleverne vælger en yndlingsgrøntsag og skriver tre sætninger, der beskriver den med mindst to sanseord per sætning (hvordan den ser ud, føles og smager), og læser derefter beskrivelsen højt, mens klassekammerater gætter grøntsagen.',
+    },
+  ],
+
+  assessmentIdeas: [
+    {
+      method: 'Grøntsagsdagbog',
+      criteria: 'Eleverne fører en grøntsagsdagbog over en måned, hvor de for hver uge registrerer en ny grøntsag, de har lært om, med en tegning, tre beskrivende ord og ét matematisk faktum (antal talt, størrelse sammenlignet). Vurder ordforrådsudvidelse, beskrivende detaljering og faglig færdighedsvækst.',
+      gradeLevel: 'Alle klassetrin',
+    },
+    {
+      method: 'Praktisk sorteringsopgave',
+      criteria: 'Præsenter eleven for otte rigtige eller billedede grøntsager og bed dem sortere på to forskellige måder: efter farve og efter plantedel (rod, blad, frugt). Vurder om eleven kan forklare sine sorteringskriterier, bruge korrekt grøntsags- og biologisk ordforråd og genkende, at de samme grøntsager kan grupperes forskelligt.',
+      gradeLevel: 'Børnehaveklasse til 1. klasse',
+    },
+    {
+      method: 'Sansebeskrivelsestest',
+      criteria: 'Giv eleven en ukendt grøntsag og bed dem beskrive den med mindst fem sanseord (syn, berøring, lugt) og gætte, om den vokser over eller under jorden. Vurder beskrivende ordforråd, naturvidenskabelig observation og evne til at anvende klassifikationsviden fra arbejdsark på nye eksemplarer.',
+      gradeLevel: '1. klasse til 3. klasse',
+    },
+  ],
+
+  expertTips: [
+    {
+      tip: 'Brug grøntsagsklassifikation efter plantedel som introduktion til plantebiologi. Når børn sorterer grøntsager efter rod, blad, stængel, frugt og frø, opbygger de den anatomiske forståelse, der er grundlaget for biologiundervisningen. Denne konkrete indgang gør abstrakte biologiske begreber tilgængelige for selv de yngste elever.',
+      source: 'Fælles Mål for natur/teknik — levende organismer og deres livsprocesser',
+      gradeRange: 'Børnehaveklasse til 3. klasse',
+    },
+    {
+      tip: 'Kombiner altid grøntsagsarbejdsark med sanseoplevelser for at udnytte den multimodale læring, der er unik for madtemaer. Lad børnene røre, lugte og eventuelt smage grøntsagerne fra arbejdsarket, så den visuelle papirbaserede læring forankres i konkrete sanseerfaringer, der styrker hukommelse og begrebsdannelse markant.',
+      source: 'Nordisk sundhedspædagogik — sanselig læring i tidlig ernæringsundervisning',
+      gradeRange: 'Førskole til 1. klasse',
+    },
+    {
+      tip: 'Gør grøntsagsarbejdsark til en bro mod sundere madvaner ved at præsentere dem i en positiv, nysgerrig kontekst uden pres om at spise. Forskning viser, at gentagen eksponering for grøntsager i en legebaseret sammenhæng — se, røre, sortere, farvelægge — øger børns villighed til at smage nye grøntsager, selv uden direkte opfordring.',
+      source: 'Københavns Universitets center for sundhedsforskning — fødevareeksponering og børns spisevaner',
+      gradeRange: 'Alle klassetrin',
+    },
+  ],
+
+  quickStats: [
+    { label: 'Anbefalet aldersgruppe', value: '3–9 år' },
+    { label: 'Arbejdsark-apps tilgængelige', value: '10 apps' },
+    { label: 'Fagområder dækket', value: '4 områder' },
+    { label: 'Klassetrin understøttet', value: 'Førskole til 3. kl.' },
+    { label: 'Gennemsnitlig sessionsvarighed', value: '10–20 min' },
+    { label: 'Grøntsagssorter inkluderet', value: '25+' },
+  ],
 };
 
 registerThemeContent('vegetables', 'da', content);

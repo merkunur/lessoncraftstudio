@@ -206,6 +206,173 @@ const content: EnrichedThemeContent = {
   // -- Cross-linking (IDENTICAL to English) --
   relatedThemes: ['seasons', 'nature', 'winter', 'spring', 'summer', 'ocean', 'flowers'],
   relatedBlogCategories: [],
+
+  // -- SEO Enrichment (Part 218) --
+
+  uniqueAngle: 'Vejrarbejdsark indtager en enestående position i tidlig pædagogik, fordi de forbinder daglig observation med naturvidenskabelig metode på en måde, intet andet tema kan matche. Vejret er det eneste arbejdsarktema, der ændrer sig synligt og mærkbart hver eneste dag, hvilket giver et uudtømmeligt forsyning af friske observationsdata, som børn kan registrere, sammenligne og analysere i realtid. Denne daglige variabilitet transformerer vejrarbejdsark fra statiske papirøvelser til dynamiske videnskabelige journaler, der opbygger den systematiske observations- og registreringspraksis, der er fundamentet for al naturvidenskabelig undersøgelse. I den skandinaviske pædagogiske tradition, hvor friluftsliv og naturoplevelser er centralt i Fælles Mål for natur/teknik, giver vejrtemaet en unik bro mellem klasselokalets strukturerede læring og den direkte naturoplevelse, børn har i skolegården, på legepladsen og på vej til skole. Et barn der registrerer dagens temperatur, tegner dagens skyer eller tæller regndråber på et vindue, øver aritmetik, observation og grafisk repræsentation i en kontekst, der er lige så foranderlig og spændende som naturen selv. Vejrtemaets tværfaglige potentiale er enestående: matematik understøttes af temperaturmåling, nedbørsregistrering og datavisualisering, naturfag af observation af skytyper, vindretning og årstidsmønstre, dansk af vejrordforråd og beskrivende sprog, og kunst af skyformationstegning og regnbuemaling. Den emotionelle dimension af vejret er lige så rig: børn oplever vejret med hele kroppen — de fryser i kulden, sveder i varmen, bliver glade for solskin og spændte over tordenvejr — og denne kropslige oplevelse giver arbejdsarkene en sanselig forankring, der styrker indlæringen. For lærere i den danske folkeskole, hvor vejret er en konstant og kulturelt vigtig del af dagligdagen, giver vejrarbejdsark en naturlig kontekst for at integrere naturvidenskabelig tænkning med hverdagsobservation og den skandinaviske tradition for at gå ud i al slags vejr.',
+
+  researchCitation: 'Nordisk naturfagsdidaktik har konsekvent fremhævet vejrfænomener som en af de mest effektive indgange til observation, måling og naturvidenskabelig metode i skandinavisk indskoling. Forskning ved Universitetet i Oslo og Aarhus Universitet har dokumenteret, at børn der systematisk registrerer vejrdata — temperatur, nedbør, vindstyrke og skytyper — over tid, udvikler stærkere dataforståelse og grafisk læsekompetence end børn der møder de samme matematiske begreber i abstrakte kontekster. Denne effekt er særligt udtalt i de nordiske lande, hvor vejrets markante årstidsvariationer giver et naturligt rigt datasæt, som børn kan observere og analysere med deres egne sanser.',
+
+  snippetDefinition: 'Vejrarbejdsark til børn er printbare undervisningsaktiviteter, der bruger illustrationer af vejrfænomener — som sol, regn, skyer, sne, vind og regnbuer — til at undervise i matematik, naturvidenskab og sproglige færdigheder. Designet til børn i alderen 3 til 9 inkluderer de tælleøvelser, mønsteraktiviteter, ordsøgninger, tegneøvelser og sorteringsopgaver, der udnytter børns daglige vejrobservationer til at opbygge faglige færdigheder og naturvidenskabelig tænkning.',
+
+  snippetHowTo: [
+    'Start hver dag eller uge med en kort vejrobservation, hvor børnene kigger ud af vinduet og beskriver vejret med ord fra deres arbejdsark, for at forankre papirøvelserne i daglig virkelighed.',
+    'Vælg to til tre arbejdsarktyper der målretter forskellige færdigheder — for eksempel en billedadditionsside med regnfænomener, en ordsøgning med vejrordforråd og en mønsterøvelse med årstidssekvenser.',
+    'Introducer ugens vejrfænomen med en kort samtale eller et billede: Hvad sker der, når det regner? Hvordan dannes en regnbue? Hvad er sne? Denne baggrundsviden gør arbejdsarkene mere meningsfulde.',
+    'Udlever arbejdsarkene i sværhedsorden, start med farvelægning af vejrscener for at opbygge visuelt kendskab, inden du går videre til tælning, mønster eller ordpuslespil.',
+    'Mens børnene arbejder, forbind arbejdsarket med naturvidenskabelig tænkning: Hvorfor er skyerne grå i dag? Hvad tror I, vejret bliver i morgen? Hvad sker der med vandpytterne, når solen skinner?',
+    'Hold en kort delingssession, hvor børnene fortæller om dagens vejr med mindst to vejrord fra arbejdsarket, hvilket styrker ordforråd og observationsevner.',
+    'Forlæng læringen med en vejrdagbog, hvor børnene dagligt tegner et vejrsymbol og skriver temperaturen, og brug data til ugentlige sammenlignings- og grafaktiviteter.',
+  ],
+
+  limitations: 'Vejrarbejdsark kan have begrænsninger i visse kontekster. Vejrtemaet er stærkt knyttet til årstider og klima, hvilket betyder, at visse vejrfænomener som sne eller tordenvejr kan være svære at relatere til, når de ikke forekommer aktuelt — lærere bør planlægge vejrenheder, så de matcher den aktuelle årstid, hvor det er muligt. Derudover kan vejrets uforudsigelighed og visse ekstreme fænomener som tordenvejr og storme vække angst hos nogle børn, og lærere bør være opmærksomme på at præsentere vejr i en positiv, nysgerrig kontekst snarere end en alarmerende. Endelig er vejrtemaet stærkest til observation, dataregistrering og naturvidenskabelig terminologi, men mindre naturligt egnet til narrative skrivefærdigheder eller social-emotionel læring, hvor temaer med dyr eller familie kan give bredere kontekster.',
+
+  themeComparisons: [
+    {
+      vsThemeId: 'seasons',
+      summary: 'Årstidsarbejdsark fokuserer på de fire årstiders cyklus med deres karakteristiske aktiviteter, traditioner og naturforandringer, mens vejrarbejdsark fokuserer på de daglige atmosfæriske fænomener, der varierer inden for hver årstid. Årstider giver bredere kulturel og biologisk kontekst, vejr giver dybere naturvidenskabelig observation og datamåling.',
+    },
+    {
+      vsThemeId: 'nature',
+      summary: 'Naturarbejdsark dækker hele det naturlige miljø fra planter og dyr til landskaber og økosystemer, mens vejrarbejdsark fokuserer specifikt på atmosfæriske fænomener. Vejr er en del af naturen, men det unikke ved vejrtemaet er dets daglige variabilitet, der giver mulighed for systematisk dataregistrering og grafisk analyse.',
+    },
+    {
+      vsThemeId: 'winter',
+      summary: 'Vinterarbejdsark udforsker alle aspekter af den kolde årstid — sne, is, vinterdyr, vintertøj og vinterferie — mens vejrarbejdsark fokuserer på de meteorologiske fænomener, der forekommer hele året. Vintertemaet er kulturelt rigere med traditioner og aktiviteter, vejrtemaet er naturvidenskabeligt dybere med observation og måling.',
+    },
+    {
+      vsThemeId: 'ocean',
+      summary: 'Havarbejdsark udforsker undervandsverdenen med dens dyr, planter og økosystemer, mens vejrarbejdsark fokuserer på atmosfæren over os. Begge temaer berører vandkredsløbet og naturens kræfter, men fra forskellige perspektiver: havet som levested, vejret som dagligt observerbart fænomen.',
+    },
+  ],
+
+  productLinks: [
+    {
+      appId: 'coloring',
+      anchorText: 'vejr farvelægningssider',
+      context: 'For børn der har brug for et roligt, kreativt udgangspunkt for vejrlæring, byder vores vejr farvelægningssider på detaljerede illustrationer af solskin, regn, skyer, sne og regnbuer, der udvikler finmotorisk kontrol, mens de opbygger visuelt kendskab til vejrfænomener.',
+    },
+    {
+      appId: 'draw-and-color',
+      anchorText: 'vejr tegne- og farveaktiviteter',
+      context: 'Vores vejr tegne- og farveaktiviteter lader børn skabe deres egne vejrscener med guidede tegnetrin og farveopgaver, hvilket kombinerer kunstnerisk udtryk med naturvidenskabelig observation af skyformationer, regnbuer og solstråler.',
+    },
+    {
+      appId: 'word-search',
+      anchorText: 'vejr ordsøgning',
+      context: 'Ordforrådsindlæring accelererer, når børn jager efter vejrbetegnelser i vores vejr ordsøgning sider, der indlejrer naturvidenskabeligt sprog som temperatur, nedbør, vindretning og skyformation i et puslespilformat, der gør staveøvelse til en meteorologisk opdagelsesrejse.',
+    },
+    {
+      appId: 'pattern-worksheet',
+      anchorText: 'vejr mønsterøvelser',
+      context: 'Vores vejr mønsterøvelser bruger sekvenser af vejrsymboler — sol, sky, regn, sne — til at udvikle den algebraiske tænkning, Fælles Mål introducerer i indskolingen, mens børn genkender de gentagne mønstre, vejret faktisk følger gennem årstiderne.',
+    },
+    {
+      appId: 'image-addition',
+      anchorText: 'vejr billedaddition',
+      context: 'Aritmetik bliver meningsfuld, når vores vejr billedaddition lader børn lægge grupper af regndråber, snefnug eller skyer sammen i konkrete scenarier, der forankrer addition i de vejrfænomener, børn kan observere fra deres eget vindue.',
+    },
+  ],
+
+  classroomScenarios: [
+    {
+      situation: 'En lærer i 1. klasse ønsker at introducere systematisk dataregistrering, men finder at eleverne mangler motivation for at registrere abstrakte tal i tabeller.',
+      solution: 'Hun opretter en klasse-vejrstation med et termometer, et regnmål og vejrsymbolkort. Hver morgen registrerer en elev dagens vejrdata på et stort klassediagram. Vejrarbejdsark med tælling og mønstergenkendelse supplerer de daglige observationer.',
+      outcome: 'Inden for en måned kan alle elever læse et termometer, registrere data i en tabel og beskrive vejrmønstre over tid. Dataregistrering er blevet en naturlig del af klassens morgenrutine, og eleverne beder spontant om at sammenligne denne uges vejr med sidste uges.',
+    },
+    {
+      situation: 'En forælder bemærker, at hendes femårige barn er bange for tordenvejr og reagerer med gråd og angst, hver gang det tordner.',
+      solution: 'Forælderen bruger vejrarbejdsark med farvelægning og matchning af forskellige vejrtyper som en rolig, analytisk tilgang til at gøre vejret mere forståeligt og mindre skræmmende. De tegner tordenskyer sammen og tæller sekunder mellem lyn og torden.',
+      outcome: 'Barnets angst reduceres mærkbart over to måneder, fordi vejret er gået fra at være en uforklarlig trussel til et forstået fænomen. Barnet begynder at udtrykke nysgerrighed snarere end frygt og siger nu ting som tordenvejret er langt væk, vi kan tælle sekunderne.',
+    },
+    {
+      situation: 'En 2. klasse-naturfagslærer ønsker at undervise i vandkredsløbet, men finder at lærebogsillustrationen er for abstrakt for mange elever.',
+      solution: 'Læreren bruger vejrarbejdsark der følger vand fra regn til vandpyt til fordampning til sky, kombineret med et simpelt eksperiment, hvor eleverne observerer, hvordan vand fordamper fra en tallerken i solen.',
+      outcome: 'Elevernes forståelse af vandkredsløbet stiger markant, fordi de kan forbinde hvert trin med vejrfænomener, de selv har observeret. Vejrarbejdsarkene giver den visuelle og sproglige ramme, der gør det abstrakte kredsløb konkret og meningsfuldt.',
+    },
+  ],
+
+  differentiationStrategies: [
+    {
+      learnerType: 'Visuelle elever',
+      adaptation: 'Brug farvelægnings- og tegnearbejdsark med vejrscener som primære aktiviteter. Vejrfænomeners dramatiske visuelle kvaliteter — regnbuer, solstråler, skyformationer, snekrissaller — giver stærke billeder, der engagerer visuelle lærere og støtter hukommelse og begrebsdannelse.',
+    },
+    {
+      learnerType: 'Kinæstetiske elever',
+      adaptation: 'Par arbejdsark med udendørsaktiviteter: mål regn med et hjemmelavet regnmål, føl vinden med et papirflag, observer skyer fra skolegården. Den kropslige oplevelse af vejret — at mærke kulden, se regnen, føle vinden — cementerer den abstrakte papirbaserede læring i konkrete sanseindtryk.',
+    },
+    {
+      learnerType: 'Tosprogede elever',
+      adaptation: 'Start med billedbaserede aktiviteter som vejrsymbolmatchning og farvelægning, der kræver minimal tekstforståelse. Vejrordforråd som sol, regn og sne er blandt de mest basale ord i ethvert sprog, hvilket giver tosprogede elever solide genkendelsespunkter. Lad dem dele vejrord fra deres modersmål.',
+    },
+    {
+      learnerType: 'Avancerede elever',
+      adaptation: 'Udfordr dem med flerugesprojekter, der kræver daglig dataregistrering, grafisk repræsentation og skriftlig analyse af vejrmønstre. Ordsøgninger med avanceret meteorologisk ordforråd og tekstopgaver der kombinerer temperaturmåling med aritmetik giver ægte tværfaglig udfordring.',
+    },
+  ],
+
+  crossCurricularLinks: [
+    {
+      subject: 'Natur/teknik',
+      connection: 'Vejrarbejdsark forbinder direkte til Fælles Måls natur/teknik-mål om observation, måling og naturvidenskabelig metode. Daglig vejrregistrering opbygger systematisk observations- og datahåndteringsfærdigheder, diskussion af skytyper og nedbørsformer styrker naturvidenskabelig klassifikation.',
+      activity: 'Eleverne opretter en klasse-vejrstation og registrerer dagligt temperatur, nedbør og skytype. Efter en uge laver de et simpelt søjlediagram over vejrdata og sammenligner med forrige uges resultater.',
+    },
+    {
+      subject: 'Matematik',
+      connection: 'Vejrdata giver autentisk materiale for matematikmål om måling, dataregistrering og grafisk repræsentation. Temperaturmåling øver tallæsning, nedbørsregistrering styrker måleforståelse, og vejrgrafer opbygger datavisualiseringsfærdigheder.',
+      activity: 'Eleverne måler temperaturen to gange dagligt i en uge, registrerer data i en tabel og laver et linjediagram, der viser temperaturens ændring over tid. De besvarer derefter spørgsmål som hvornår var det varmest og hvor stor var forskellen.',
+    },
+    {
+      subject: 'Dansk',
+      connection: 'Vejrtemaet opbygger rigt beskrivende ordforråd fra basale vejrord som sol, regn og vind til avancerede udtryk som overskyet, diset, bølgende og stormfuld. At beskrive vejret dagligt styrker den mundtlige og skriftlige kommunikation, Fælles Mål vægter i indskolingen.',
+      activity: 'Eleverne skriver en kort vejrbeskrivelse hver morgen med mindst tre beskrivende ord og sammenligner deres beskrivelser med klassekammeraternes for at opdage, at forskellige observatører bruger forskellige ord for det samme vejr.',
+    },
+  ],
+
+  assessmentIdeas: [
+    {
+      method: 'Vejrdagbog-portfolio',
+      criteria: 'Eleverne fører en vejrdagbog over en måned med daglige vejrsymboler, temperaturregistreringer og ugentlige beskrivende sætninger. Vurder konsistens i dataregistrering, nøjagtighed i temperaturmåling, brug af vejrordforråd og evne til at identificere mønstre i egne data.',
+      gradeLevel: 'Alle klassetrin',
+    },
+    {
+      method: 'Vejrpræsentation',
+      criteria: 'Eleven præsenterer en uges vejrdata for klassen med et selvlavet diagram og forklarer, hvilket vejr der var mest almindeligt, hvornår temperaturen var højest og lavest, og hvad de forudsiger for næste uge. Vurder dataforståelse, mundtlig kommunikation og brug af naturvidenskabeligt ordforråd.',
+      gradeLevel: 'Børnehaveklasse til 2. klasse',
+    },
+    {
+      method: 'Vandkredsløbsforklaring',
+      criteria: 'Giv eleven fire vejrbilleder (regn, vandpyt, sol, sky) og bed dem ordne billederne i vandkredsløbets rækkefølge og forklare, hvad der sker ved hvert trin. Vurder naturvidenskabelig forståelse, sekventiel tænkning og evne til at bruge vejrordforråd i en sammenhængende forklaring.',
+      gradeLevel: '1. klasse til 3. klasse',
+    },
+  ],
+
+  expertTips: [
+    {
+      tip: 'Gør vejrregistrering til en daglig klasseromsrutine for at opbygge systematiske observationsvaner. Fem minutters morgenobservation, hvor en elev registrerer temperatur, skytype og nedbør på et klassediagram, transformerer vejrarbejdsark fra isolerede øvelser til dele af et langvarigt dataprojekt, der styrker naturvidenskabelig tænkning.',
+      source: 'Fælles Mål for natur/teknik — undersøgende tilgange og datahåndtering',
+      gradeRange: 'Børnehaveklasse til 3. klasse',
+    },
+    {
+      tip: 'Udnyt det danske vejrs markante årstidsvariationer som pædagogisk ressource. Den nordiske klimavirkelighed med mørke vintermorgener, lyse sommeraftener, efterårsstorme og forårsblomstring giver et naturligt rigt datasæt, som ingen lærebog kan matche. Lad børnene opleve og registrere disse variationer direkte.',
+      source: 'Nordisk naturfagsdidaktik — autentisk observation i skandinavisk natur/teknik-undervisning',
+      gradeRange: 'Alle klassetrin',
+    },
+    {
+      tip: 'Forbind vejrarbejdsark med udendørs læring for at respektere den skandinaviske friluftspædagogiske tradition. Lad børnene tage arbejdsark med udenfor, observere skyerne direkte og tegne dem, mærke vinden og beskrive dens styrke, eller måle regn i et hjemmelavet regnmål. Denne bro mellem papir og virkelighed er essensen af effektiv vejrundervisning.',
+      source: 'Dansk friluftspædagogik — udeskole og naturbaseret læring i folkeskolen',
+      gradeRange: 'Alle klassetrin',
+    },
+  ],
+
+  quickStats: [
+    { label: 'Anbefalet aldersgruppe', value: '3–9 år' },
+    { label: 'Arbejdsark-apps tilgængelige', value: '10 apps' },
+    { label: 'Fagområder dækket', value: '4 områder' },
+    { label: 'Klassetrin understøttet', value: 'Førskole til 3. kl.' },
+    { label: 'Gennemsnitlig sessionsvarighed', value: '10–20 min' },
+    { label: 'Vejrfænomener dækket', value: '10+' },
+  ],
 };
 
 registerThemeContent('weather', 'da', content);

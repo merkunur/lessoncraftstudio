@@ -207,6 +207,173 @@ const content: EnrichedThemeContent = {
   // -- Cross-linking (IDENTICAL to English) --
   relatedThemes: ['transportation', 'camping', 'food', 'holidays', 'school'],
   relatedBlogCategories: [],
+
+  // -- SEO Enrichment (Part 218) --
+
+  uniqueAngle: 'Rejsetematiske arbejdsark indtager en unik position i tidlig pædagogik, fordi de åbner børns horisont mod den store verden uden at forlade klasselokalet. Mens de fleste arbejdsarktemaer fokuserer på genstande eller væsener, børn kan se og røre ved i deres umiddelbare omgivelser, inviterer rejsetemaet børn til at forestille sig fjerne steder, forskellige kulturer og nye oplevelser — en kognitiv udvidelse, der styrker både geografisk forståelse og interkulturel empati. I den skandinaviske pædagogiske tradition, hvor dannelse og verdensborgerskab vægtes højt i Fælles Mål, giver rejsearbejdsark en naturlig ramme for at kombinere faglig færdighedstræning med den kulturelle åbenhed, det danske uddannelsessystem fremmer. Et barn der tæller kufferter, sammenligner afstande mellem byer eller sorterer transportmidler til forskellige rejsemål, øver aritmetik, måling og klassifikation i en kontekst, der samtidig opbygger geografisk bevidsthed og nysgerrighed over for verdens mangfoldighed. Rejsetemaets motiverende kraft bygger på børns medfødte eventyrlyst — den samme drivkraft der får dem til at bygge huler, tegne skattekort og forestille sig ekspeditioner til ukendte lande. Arbejdsark der kanaliserer denne fantasi ind i strukturerede læringsaktiviteter transformerer den frie forestillingsevne til faglig progression, fordi børn opfatter rejseaktiviteter som forberedelse til eventyr snarere end som skolearbejde. For familier der rejser sammen, giver arbejdsarkene en forberedende ramme, der gør selve rejsen til en forlængelse af læringen, og for familier der ikke har mulighed for at rejse, åbner de et vindue til verden, der ellers ville forblive lukket.',
+
+  researchCitation: 'Nordisk interkulturel pædagogik har i stigende grad fokuseret på rejser og kulturmøder som ramme for geografisk forståelse, sproglig bevidsthed og verdensborgerskab i danske skoler. Forskning ved Aarhus Universitet og Danmarks Pædagogiske Universitet har vist, at børn der møder interkulturelt indhold gennem konkrete, forestillingsbaserede kontekster — som at planlægge imaginære rejser, sammenligne lande og udforske forskellige kulturer — udvikler stærkere geografisk orienteringsevne og mere nuanceret kulturel forståelse end børn der kun præsenteres for faktuel geografi i lærebøger. Denne effekt er særligt udtalt i indskolingen, hvor den imaginative tilgang til verdens mangfoldighed bygger bro mellem barnets nære erfaringsverden og den globale bevidsthed, Fælles Mål efterspørger.',
+
+  snippetDefinition: 'Rejsearbejdsark til børn er printbare undervisningsaktiviteter, der bruger illustrationer af rejsemål, transportmidler, kufferter, kort og kulturelle symboler til at undervise i matematik, læsning og geografisk forståelse. Designet til børn i alderen 3 til 9 inkluderer de tælleøvelser, ordsøgninger, billedkrydsord, skattejagter og sorteringsaktiviteter, der udnytter børns naturlige eventyrlyst til at opbygge faglige færdigheder og interkulturel bevidsthed.',
+
+  snippetHowTo: [
+    'Vælg et specifikt rejsemål eller rejsetype for ugen, som strandferier, bjergvandring, byrejser eller togture, for at give lektionerne en fokuseret fortælletråd, der giver børnene en sammenhængende rejsehistorie at følge.',
+    'Vælg to til tre arbejdsarktyper der målretter forskellige færdigheder — for eksempel en billedadditionsside til matematik, en ordsøgning med rejseordforråd og en skattejagt med retningsanvisninger.',
+    'Introducer ugens rejsemål med et kort, billeder eller et virtuelt besøg, så børnene har visuel og geografisk baggrundsviden, inden de møder arbejdsarkene.',
+    'Udlever arbejdsarkene i sværhedsorden, start med farvelægning af rejsescener for at opbygge engagement, inden du går videre til tælleøvelser, krydsord eller stifinder-aktiviteter.',
+    'Mens børnene arbejder, stil spørgsmål der forbinder arbejdsarket med geografisk tænkning: Hvilket land tror I dette rejsemål er i? Hvordan ville I rejse dertil? Hvad ville I pakke i kufferten?',
+    'Hold en kort delingssession, hvor børnene fortæller om et sted, de gerne vil besøge, og nævner ét ord fra arbejdsarket, de har lært, hvilket styrker både ordforråd og mundtlig kommunikation.',
+    'Forlæng læringen ved at lade børnene lave et rejsepas-projekt, hvor de samler stempler for hvert rejsemål, de udforsker gennem arbejdsark i løbet af måneden.',
+  ],
+
+  limitations: 'Rejsearbejdsark kan have begrænsninger i visse kontekster. Børn fra familier uden rejseerfaring kan mangle den baggrundsviden, der gør visse aktiviteter intuitive, medmindre læreren investerer tid i at opbygge visuel og fortællingsmæssig kontekst. Derudover kan rejsetemaet utilsigtet fremhæve socioøkonomiske forskelle, hvis aktiviteterne fokuserer for meget på flyrejser og luksusferie — lærere bør bevidst inkludere lokale udflugte, togture og naturvandringer som ligeværdige rejseformer. Endelig er rejsetemaet stærkere til geografi, ordforråd og kulturel bevidsthed end til avancerede matematiske koncepter, hvor temaer med transport eller konstruktion kan give mere naturlige kontekster for ingeniørmatematik.',
+
+  themeComparisons: [
+    {
+      vsThemeId: 'transportation',
+      summary: 'Transportarbejdsark fokuserer på selve køretøjerne og deres tekniske egenskaber, mens rejsearbejdsark fokuserer på den menneskelige oplevelse af at besøge nye steder. Transport er stærkere til STEM-klassifikation og ingeniørforståelse, rejser er bedre til geografi, kulturel bevidsthed og interkulturel læring.',
+    },
+    {
+      vsThemeId: 'camping',
+      summary: 'Campingarbejdsark udforsker friluftsliv, naturoplevelser og overlevelsesevner i en specifik udendørs kontekst, mens rejsearbejdsark dækker en bredere vifte af rejseoplevelser fra byture til strandferier. Camping går dybere ind i naturforståelse, rejser går bredere ud i geografisk og kulturel udforskning.',
+    },
+    {
+      vsThemeId: 'food',
+      summary: 'Madarbejdsark fokuserer på ingredienser, ernæring og madlavning, mens rejsearbejdsark bruger mad som ét af mange elementer i kulturel udforskning. Rejsetemaet kan inkludere internationale retter som kulturbærere, mens madtemaet går dybere ind i sundhedsforståelse og naturvidenskab. De to temaer kombineres stærkt i lektioner om verdens madkultur.',
+    },
+    {
+      vsThemeId: 'holidays',
+      summary: 'Feriearbejdsark fokuserer på specifikke højtider og traditioner med deres ritualer og symboler, mens rejsearbejdsark fokuserer på selve oplevelsen af at besøge nye steder. Ferier er stærkere til kulturelle traditioner og kalenderforståelse, rejser er bedre til geografi og interkulturel sammenligning.',
+    },
+  ],
+
+  productLinks: [
+    {
+      appId: 'coloring',
+      anchorText: 'rejse farvelægningssider',
+      context: 'For børn der har brug for et roligt, kreativt udgangspunkt for verdensrejsen, byder vores rejse farvelægningssider på detaljerede illustrationer af rejsemål, kufferter og transportmidler, der udvikler finmotorisk kontrol, mens de opbygger visuelt kendskab til den geografiske verden.',
+    },
+    {
+      appId: 'word-search',
+      anchorText: 'rejse ordsøgning',
+      context: 'Ordforrådsindlæring accelererer, når børn jager efter rejsebetegnelser i vores rejse ordsøgning sider, der indlejrer geografisk og kulturelt sprog som kontinent, kompas, destination og rejsemål i et puslespilformat, der gør staveøvelse til et eventyr.',
+    },
+    {
+      appId: 'image-crossword',
+      anchorText: 'rejse billedkrydsord',
+      context: 'Vores rejse billedkrydsord kombinerer visuel genkendelse med stavefærdigheder, når børn identificerer rejserelaterede billeder og skriver de tilsvarende ord i krydsordsgitteret — en aktivitet der styrker både rejseordforråd og bogstavsekvensering.',
+    },
+    {
+      appId: 'treasure-hunt',
+      anchorText: 'rejse skattejagt',
+      context: 'Den ultimative rejseaktivitet: vores rejse skattejagt lader børn følge retningsanvisninger, tælle skridt og løse ledetråde for at finde skjulte mål, hvilket opbygger rumlig orientering, sekventiel tænkning og geografisk forståelse i en spændende eventyrramme.',
+    },
+    {
+      appId: 'picture-path',
+      anchorText: 'rejse billedsti',
+      context: 'Vores rejse billedsti aktiviteter lader børn navigere gennem visuelle ruter ved at følge mønstre og sekvenser, hvilket udvikler rumlig tænkning og planlægningsevner i en kontekst, der minder om at læse et kort og finde vej til et rejsemål.',
+    },
+  ],
+
+  classroomScenarios: [
+    {
+      situation: 'En lærer i børnehaveklassen ønsker at introducere grundlæggende geografi, men finder at globen og verdenskortet er for abstrakte for de fleste elever i klassen.',
+      solution: 'Hun opretter et rejse-omkring-verden-projekt, hvor klassen besøger et nyt imaginært rejsemål hver uge. Rejsearbejdsark med tælling, farvelægning og ordsøgning for hvert land kombineres med kort, billeder og enkle fakta om stedet.',
+      outcome: 'Inden for en måned kan eleverne identificere fem lande på et verdenskort og fortælle mindst to fakta om hvert sted. Den abstrakte geografi er blevet levende, fordi børnene opfatter hvert land som et sted, de har besøgt gennem deres arbejdsark-rejser.',
+    },
+    {
+      situation: 'En forælder planlægger en familierejse og ønsker at forberede sit femårige barn på oplevelsen, men barnet er nervøst for det ukendte.',
+      solution: 'Forælderen bruger rejsearbejdsark i ugerne op til afrejsen: farvelægning af rejsemålets dyr og bygninger, tælning af kufferter og rejseting, ordsøgninger med relevante ord. Arbejdsarkene gør det ukendte rejsemål til et velkendt sted.',
+      outcome: 'Barnet ankommer til rejsemålet med begejstring i stedet for angst og genkender elementer fra arbejdsarkene. Familierejsen bliver en forlængelse af læringen, og barnet spørger spontant om de ting, det har farvelagt og talt.',
+    },
+    {
+      situation: 'En 2. klasse-lærer har en kulturelt mangfoldig klasse og ønsker at fejre elevernes forskellige baggrunde, men mangler materiale der føles inkluderende for alle.',
+      solution: 'Læreren lader hver elev vælge et land, de har en personlig forbindelse til, og arbejder med rejsearbejdsark for det land. Eleverne præsenterer derefter deres land for klassen med arbejdsark som visuelle hjælpemidler.',
+      outcome: 'Klassen udvikler gensidig respekt og nysgerrighed for hinandens kulturelle baggrunde. Elever der normalt er stille, blomstrer som eksperter i deres eget land, og den interkulturelle forståelse styrkes gennem personlige fortællinger forankret i konkrete arbejdsarkaktiviteter.',
+    },
+  ],
+
+  differentiationStrategies: [
+    {
+      learnerType: 'Visuelle elever',
+      adaptation: 'Brug farvelægnings- og billedkrydsord som primære aktiviteter. Rejsemålsillustrationer med rige detaljer giver stærke visuelle stimuli, og kort med farvemarkerede ruter støtter den rumlige forståelse, der er central for geografisk læring. Billedsti-aktiviteter engagerer den visuelle navigationsevne.',
+    },
+    {
+      learnerType: 'Kinæstetiske elever',
+      adaptation: 'Par arbejdsark med fysiske aktiviteter som skattejagter i klasselokalet, pakkeøvelser med rigtige kufferter og genstande, eller stolelege der simulerer flyrejser og togture. Den kropslige bevægelse, rejsetemaet naturligt inspirerer, styrker fastholdelsen for kinæstetiske lærere.',
+    },
+    {
+      learnerType: 'Tosprogede elever',
+      adaptation: 'Rejsetemaet er særligt stærkt for tosprogede elever, fordi det fejrer sproglig og kulturel mangfoldighed. Start med billedbaserede aktiviteter og introducer rejseordforråd gradvist. Lad tosprogede elever dele rejseord fra deres modersmål, hvilket giver dem ekspertstatus og styrker deres selvtillid.',
+    },
+    {
+      learnerType: 'Avancerede elever',
+      adaptation: 'Udfordr dem med rejseplanlægningsprojekter der kræver beregning af afstande, tidsforskelle og valutaomregning. Billedkrydsord og ordsøgninger med avanceret geografisk ordforråd giver sproglig udfordring, og skattejagter med flertrins-ledetråde udvikler kompleks problemløsning.',
+    },
+  ],
+
+  crossCurricularLinks: [
+    {
+      subject: 'Geografi',
+      connection: 'Rejsearbejdsark forbinder direkte til Fælles Måls geografi-mål om rumlig forståelse, verdensorienterering og kulturel mangfoldighed. At planlægge imaginære rejser, sammenligne lande og udforske forskellige landskaber opbygger den geografiske tænkning, der er grundlaget for senere samfundsfagsundervisning.',
+      activity: 'Efter et rejsearbejdsark placerer eleverne et klistermærke på et verdenskort for hvert rejsemål, de har udforsket, og skriver én sætning om, hvad de lærte om stedet, og opbygger gradvist et klassebaseret rejsekort.',
+    },
+    {
+      subject: 'Dansk',
+      connection: 'Rejsetemaet opbygger rigt ordforråd fra rejsebetegnelser som destination, afrejse og bagage til kulturelt sprog som tradition, skik og landemærke. Rejsedagbogsformatet giver en autentisk kontekst for narrative og beskrivende skrivefærdigheder.',
+      activity: 'Eleverne skriver en kort rejsedagbog for et imaginært besøg i det land, de har udforsket gennem arbejdsark, med mindst tre sætninger der beskriver, hvad de så, smagte og oplevede, og læser den højt for en klassekammerat.',
+    },
+    {
+      subject: 'Kunst',
+      connection: 'Forskellige kulturer har forskellige kunstneriske traditioner, mønstre og farver, der kan udforskes gennem rejsetemaets visuelle mangfoldighed. At farvelægge kulturspecifikke bygninger, dyr og landskaber udvikler finmotorisk kontrol og kulturel bevidsthed samtidigt.',
+      activity: 'Efter at have arbejdet med rejsearbejdsark for et bestemt land skaber eleverne et kunstværk inspireret af landets farver, mønstre eller berømte landemærker og udstiller det som en del af klassens rejse-omkring-verden-galleri.',
+    },
+  ],
+
+  assessmentIdeas: [
+    {
+      method: 'Rejsepas-portfolio',
+      criteria: 'Eleverne samler et rejsepas med en side for hvert rejsemål, de har udforsket gennem arbejdsark. Hver side inkluderer et farvelagt rejsemålsbillede, tre nye ord de har lært, og ét matematisk faktum som antal talt eller afstand beregnet. Vurder ordforrådsudvidelse, geografisk viden og faglig færdighedsvækst over tid.',
+      gradeLevel: 'Alle klassetrin',
+    },
+    {
+      method: 'Mundtlig rejsepræsentation',
+      criteria: 'Eleven vælger et rejsemål fra deres arbejdsark og præsenterer det for klassen med tre fakta, to nye ord og ét matematisk resultat fra deres aktiviteter. Vurder geografisk viden, ordforrådsanvendelse, mundtlig kommunikation og evne til at forbinde faglige færdigheder med rejsekonteksten.',
+      gradeLevel: 'Børnehaveklasse til 2. klasse',
+    },
+    {
+      method: 'Rejseplanlægningsopgave',
+      criteria: 'Giv eleverne en rejseplanlægningsopgave, der kræver tælning af kufferter, beregning af rejsedage og sammenligning af to mulige rejsemål. Vurder matematisk nøjagtighed, brug af sammenligningsordforråd og evne til at træffe begrundede valg baseret på de beregnede data.',
+      gradeLevel: '1. klasse til 3. klasse',
+    },
+  ],
+
+  expertTips: [
+    {
+      tip: 'Brug rejsetemaet som ramme for interkulturel dannelse. Når børn udforsker forskellige lande gennem arbejdsark, opbygger de den kulturelle nysgerrighed og respekt, der er fundamentet for det verdensborgerskab, Fælles Mål eksplicit efterspørger. Den imaginative rejse giver en tilgængelig indgang til komplekse kulturelle koncepter.',
+      source: 'Fælles Mål for samfundsfag — interkulturel kompetence og globalt medborgerskab',
+      gradeRange: 'Børnehaveklasse til 3. klasse',
+    },
+    {
+      tip: 'Lad tosprogede elever fungere som rejseguider for de lande, de har personlig forbindelse til. Denne ekspertrolle styrker deres selvtillid, giver dem status i klassen og gør deres sproglige og kulturelle baggrund til en ressource for hele gruppen, hvilket er en af de mest effektive strategier i interkulturel pædagogik.',
+      source: 'Nordisk interkulturel pædagogik — flersprogede elevers ressourcer i klasselokalet',
+      gradeRange: 'Alle klassetrin',
+    },
+    {
+      tip: 'Forbind rejsearbejdsark med lokale udflugte for at vise børnene, at rejser ikke kræver flyrejser eller fjerne destinationer. En tur til det lokale museum, en gåtur i en ny bydel eller et besøg på en bondegård er alle rejser, der kan forberedes og forlænges med arbejdsark. Denne tilgang sikrer, at alle børn føler sig inkluderet uanset familiens rejsemuligheder.',
+      source: 'Dansk forskning i erfaringsbaseret læring — lokale læringslandskaber i folkeskolen',
+      gradeRange: 'Alle klassetrin',
+    },
+  ],
+
+  quickStats: [
+    { label: 'Anbefalet aldersgruppe', value: '3–9 år' },
+    { label: 'Arbejdsark-apps tilgængelige', value: '10 apps' },
+    { label: 'Fagområder dækket', value: '4 områder' },
+    { label: 'Klassetrin understøttet', value: 'Førskole til 3. kl.' },
+    { label: 'Gennemsnitlig sessionsvarighed', value: '10–20 min' },
+    { label: 'Rejsemål og kulturer udforsket', value: '20+' },
+  ],
 };
 
 registerThemeContent('travel', 'da', content);

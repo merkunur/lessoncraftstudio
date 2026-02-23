@@ -208,6 +208,140 @@ const content: EnrichedThemeContent = {
   // -- Cross-linking (IDENTICAL to English) --
   relatedThemes: ['furniture', 'cooking', 'body', 'clothing', 'garden', 'construction'],
   relatedBlogCategories: [],
+
+  // -- SEO Enrichment (Part 215) --
+  uniqueAngle: 'Hushold-arbejdsark adskiller sig grundlæggende fra andre pædagogiske temaer, fordi de udnytter det mest universelle og personligt meningsfulde læringsmiljø, ethvert barn har: deres eget hjem. Hvor andre temaer kræver, at børn forestiller sig nye verdener eller engagerer sig med fjerne koncepter, bygger husholdstemaet direkte oven på den daglige erfaring, børn allerede besidder. Denne hverdagslæring — et kernebegreb i dansk pædagogisk tradition — sikrer, at hvert arbejdsark har en umiddelbar forbindelse til den virkelighed, barnet navigerer i hver eneste dag. Pedagogisk set aktiverer hushold-arbejdsark en sjælden kombination af rumlig tænkning, genstandsklassificering, tidsmæssig sekventering og praktisk livsfærdighed i én og samme tematiske ramme. Når et barn sorterer køkkenredskaber, placerer genstande med forholdsord eller sætter en morgenrutine i rækkefølge, arbejder det simultant med matematik, dansk og kognitive færdigheder uden at opleve skiftet som fragmenteret. Hjemmets rum fungerer som naturlige kategorier, genstandene fungerer som konkrete tællere, og de daglige rutiner fungerer som proceduremæssige tekster. Det unikke ved hushold-arbejdsark ligger desuden i deres evne til at fremme selvhjulpenhed. Danske børneinstitutioner vægter, at børn tidligt lærer at klare daglige opgaver selv — fra at dække bord til at folde tøj til at rydde op efter sig. Arbejdsark, der modellerer disse færdigheder, forbinder skolens læringsmål med de praktiske kompetencer, forældre og pædagoger i forvejen prioriterer. Denne dobbelte relevans gør, at motivation og fastholdelse er markant højere end ved mere abstrakte temaer. Endelig tilbyder husholdstemaet en inkluderende tilgang, fordi alle børn uanset kulturel baggrund har et hjem med rum, genstande og rutiner, de kan relatere til.',
+
+  researchCitation: 'Dansk pædagogisk tradition har gennem årtier understreget hverdagslæringens centrale betydning i børns udvikling. Forskning inden for den skandinaviske pædagogiske model viser, at praktiske livsfærdigheder og selvhjulpenhed er uadskillelige fra faglig læring i danske børneinstitutioner. Studier fra Danmarks Pædagogiske Universitet har dokumenteret, at børn, der engageres i hverdagsaktiviteter som madlavning, oprydning og rutineplanlægning, udvikler stærkere eksekutive funktioner, herunder arbejdshukommelse, kognitiv fleksibilitet og impulskontrol. Den danske tradition for at integrere praktisk viden med akademisk læring bygger på erkendelsen af, at børn lærer mest effektivt, når indholdet forbinder til deres levede erfaring. Forskere som Stig Broström og Jan Kampmann har beskrevet, hvordan danske pædagoger bevidst bruger hjemmets genstande og rutiner som udgangspunkt for sprogudvikling, talforståelse og naturvidenskabelig nysgerrighed. Hverdagslæring handler ikke blot om at lære færdigheder, men om at opbygge en grundlæggende forståelse af den verden, barnet lever i, hvilket styrker både motivation og overførselsevne til nye læringsdomæner.',
+
+  snippetDefinition: 'Hushold-arbejdsark er printbare pædagogiske materialer, der bruger hjemmets rum, genstande og daglige rutiner som tematisk ramme for at undervise i matematik, dansk, rumlig tænkning og klassificering. De forvandler det velkendte hjemmemiljø til et struktureret læringsværktøj, hvor børn øver tælling med køkkenredskaber, forholdsord med møbelarrangementer og sekventering med morgenrutiner. Hushold-arbejdsark er særligt effektive for børn fra 3 til 9 år, fordi indholdet forbinder direkte til den hverdag, de allerede kender og kan verificere i deres eget hjem.',
+
+  snippetHowTo: [
+    'Vælg en arbejdsarktype fra de 33 tilgængelige generatorer — for eksempel billedsortering, forholdsord eller ordsøgning — og vælg hushold som tema.',
+    'Tilpas sværhedsgraden efter barnets alder og niveau: enkel rumsortering for førskolebørn, flertrins-tekstopgaver for ældre elever.',
+    'Generér og download PDF-filen, og print den derhjemme eller i klasseværelset.',
+    'Introducer arbejdsarket ved at tale om hjemmets rum og genstande, så barnet aktiverer sin baggrundsviden, før det begynder.',
+    'Lad barnet arbejde selvstændigt i 10–20 minutter, og vær tilgængelig til at stille opklarende spørgsmål, der guider tænkningen.',
+    'Forstærk læringen efter arbejdsarket ved at forbinde aktiviteten med noget virkeligt i hjemmet — bed barnet finde genstande, beskrive placering eller demonstrere en rutine.',
+    'Gentag med nye arbejdsarktyper to til fire gange om ugen for at opbygge rumligt ordforråd, klassificering og rækkefølge-færdigheder gradvist.',
+  ],
+
+  limitations: 'Hushold-arbejdsark er stærkest inden for rumlig tænkning, klassificering og hverdagsordforråd, men de dækker ikke alle faglige behov optimalt. For avancerede matematiske koncepter som brøkregning, procentberegning eller abstrakt algebra giver mere specialiserede temaer bedre kontekst. Børn, der har brug for intensiv fonologisk træning eller systematisk bogstavindlæring, vil få mere udbytte af temaer med bredere ordforrådsvariation som dyr eller mad, hvor ordenes lydlige sammensætning er mere varieret. Husholdstemaet kan desuden føles for velkendt for nogle ældre elever, der søger mere udfordrende eller eksotiske kontekster — dinosaurer, rummet eller pirater kan give den nyhedseffekt, der driver engagement hos børn, der allerede mestrer de grundlæggende husholdskoncepter. For børn med særlige udfordringer inden for grovmotorik giver husholdstemaet begrænset bevægelse sammenlignet med udendørstemaer som have eller camping. Endelig kræver den fulde pædagogiske effekt af hushold-arbejdsark, at den voksne aktivt forbinder papirøvelserne med det fysiske hjemmemiljø — uden denne bro mellem arbejdsark og virkelighed mister temaet sin unikke styrke. Lærere og forældre bør derfor planlægge korte forlængelsesaktiviteter efter hver session.',
+
+  themeComparisons: [
+    { vsThemeId: 'furniture', summary: 'Møbeltemaet fokuserer udelukkende på genstande som borde, stole og senge, mens husholdstemaet favner bredt med hele rum, daglige rutiner, køkkenredskaber, badeværelsesgenstande og sikkerhedskoncepter. Vælg møbler for dybdegående rumlig positionering og materialelære; vælg hushold for den helhedsorienterede tilgang, der forbinder genstande med deres funktionelle kontekst i hjemmet.' },
+    { vsThemeId: 'cooking', summary: 'Madlavningstemaet er ideelt til sekventering af opskrifter, måling af ingredienser og naturvidenskabelige koncepter som varme og temperatur, mens husholdstemaet integrerer køkkenet som blot ét af mange rum. Hushold giver bredere rumlig tænkning og klassificering på tværs af hele hjemmet, mens madlavning giver dybere faglig fordybelse i køkkenkonteksten med fokus på proceduremæssig læsning og praktisk matematik.' },
+    { vsThemeId: 'body', summary: 'Kroppstemaet underviser i anatomi, sanser og personlig hygiejne, mens husholdstemaet bruger hjemmets fysiske rammer. De overlapper ved daglige rutiner som at børste tænder og vaske hænder, men hushold udvider perspektivet til rum, genstande og familieorganisering. Kombinér begge temaer for et komplet billede af barnets daglige livsfærdigheder.' },
+    { vsThemeId: 'clothing', summary: 'Tøjtemaet dækker påklædning, sæsoner og materialer, mens husholdstemaet inkluderer tøjvask og garderobeopbevaring som del af de bredere husholdsrutiner. Vælg tøj for fokuseret ordforrådsudvikling om beklædningsgenstande og vejrsammenhænge; vælg hushold for den overordnede kontekst, hvor tøj blot er én kategori blandt mange i hjemmets organisation.' },
+  ],
+
+  productLinks: [
+    { appId: 'picture-sort', anchorText: 'Sorter husholdsgenstande efter rum', context: 'Billedsorterings-appen lader børn klassificere køkkenredskaber, badeværelsesgenstande og soveværelsesting i de korrekte rum, hvilket udvikler fleksibel kategorisk tænkning med velkendte hverdagsgenstande.' },
+    { appId: 'prepositions', anchorText: 'Øv forholdsord med husholdsscener', context: 'Forholdsords-appen bruger husholdsarrangementer til at undervise i rumligt sprog som på, under, ved siden af og mellem — perfekt forstærket af barnets eget hjem bagefter.' },
+    { appId: 'find-and-count', anchorText: 'Tæl genstande i husholdsillustrationer', context: 'Find-og-tæl-appen viser farverige rumscener med husholdsgenstande, hvor børn øver tælling op til 20 ved at finde og markere genstande som kopper, bøger eller lamper.' },
+    { appId: 'matching-app', anchorText: 'Match husholdsgenstande der hører sammen', context: 'Matchnings-appen parrer genstande som nøgle og dør, pude og seng eller tandbørste og tandpasta, hvilket opbygger logiske associationsfærdigheder i en engagerende spillignende ramme.' },
+    { appId: 'word-search', anchorText: 'Find husholdsord i ordsøgninger', context: 'Ordsøgnings-appen præsenterer gitter fyldt med husholdsordforråd som køkken, gardin, skab og apparat, der forstærker stavning og ordgenkendelse af praktisk hverdagssprog.' },
+  ],
+
+  classroomScenarios: [
+    {
+      situation: 'En klasse med elever fra mange forskellige kulturelle baggrunde, hvor hjemmemiljøerne varierer meget fra familie til familie.',
+      solution: 'Brug hushold-arbejdsark som udgangspunkt for en samtale om ligheder og forskelle mellem hjem. Lad eleverne først gennemføre et rumsorteringsarbejdsark individuelt og derefter dele i små grupper, hvordan deres eget hjem er organiseret. Understreg, at alle hjem har rum med funktioner, selvom indretningen varierer.',
+      outcome: 'Eleverne udvikler klassificeringsfærdigheder, mens de opbygger kulturel bevidsthed og respekt for mangfoldighed. Den fælles tematiske ramme giver et trygt grundlag for at dele personlige erfaringer, og alle elever føler, at deres hjem er repræsenteret.',
+    },
+    {
+      situation: 'Børnehaveklassebørn, der har svært ved at forstå og bruge forholdsord korrekt i mundtlig og skriftlig kommunikation.',
+      solution: 'Start med et forholdsords-arbejdsark med en husholdsscene, hvor eleverne markerer genstande baseret på mundtlige positionsbeskrivelser. Følg op med en fysisk aktivitet, hvor eleverne placerer genstande i klasseværelset efter forholdsordsinstruktioner og verbaliserer placeringen.',
+      outcome: 'Den dobbelte tilgang — papir og fysisk — cementerer forholdsordenes betydning. Elevernes brug af rumligt sprog i daglige samtaler forbedres mærkbart inden for to til tre uger med regelmæssig øvelse.',
+    },
+    {
+      situation: 'Elever i 2. klasse, der skal lære at skrive proceduremæssige tekster med klar rækkefølge og overgangsord.',
+      solution: 'Brug husholdsrutine-sekventeringsarbejdsark som præskrivningsaktivitet. Eleverne ordner først illustrerede kort for en husholdsrutine som at vaske tøj eller dække bord, og skriver derefter sekvensen som et afsnit med overgangsord som først, derefter, så og til sidst.',
+      outcome: 'Eleverne producerer velstrukturerede proceduremæssige tekster, fordi de kender indholdet intimt fra deres dagligdag. Den velkendte kontekst fjerner den kognitive belastning ved at finde på indhold og lader eleverne fokusere på tekstens struktur og sproglige kvalitet.',
+    },
+  ],
+
+  differentiationStrategies: [
+    {
+      learnerType: 'Visuelle elever',
+      adaptation: 'Brug hushold-arbejdsark med detaljerede, farverige rumillustrationer som udgangspunkt, og lad eleverne tegne deres eget hjems plantegning som forlængelsesaktivitet. Tilføj farvekodning til sorteringsopgaver, hvor hvert rum har sin farve, så den visuelle struktur understøtter klassificeringen. Ophæng færdige arbejdsark på en opslagstavle organiseret som et hus med rum, så eleverne kan se helheden i deres arbejde.',
+    },
+    {
+      learnerType: 'Kinæstetiske elever',
+      adaptation: 'Supplér papirarbejdsark med fysiske sorteringsaktiviteter, hvor børn bærer laminerede genstandskort hen til mærkede rumstationer i klasseværelset. Brug konkrete genstande som miniaturemøbler, legetøjskopper og småting fra et dukkehus til at bygge scener, der matcher arbejdsarkets opgaver. Lad eleverne gå rundt i skolen eller hjemmet og pege på genstande, der matcher de kategorier, de arbejdede med på papiret.',
+    },
+    {
+      learnerType: 'Tosprogede elever',
+      adaptation: 'Udnyt hushold-arbejdsark som ordforrådsbrobyggere ved at lade eleverne mærke genstande på begge sprog. Hjemmets genstande er ofte blandt de første ord, et barn lærer på et nyt sprog, og det fysiske hjemmemiljø giver daglig forstærkning. Tilføj billedordbøger med husholdsordforråd som stilladsering, og par tosprogede elever med dansktalende kammerater under gruppeaktiviteter.',
+    },
+    {
+      learnerType: 'Avancerede elever',
+      adaptation: 'Udvid hushold-arbejdsark med projektbaserede udfordringer som at designe et energieffektivt drømmehus med arealberegninger, budgetplanlægning og en skriftlig begrundelse for designvalgene. Lad avancerede elever skrive instruktionshæfter til yngre elever om, hvordan man organiserer et rum eller følger en husholdsrutine, hvilket kræver, at de omformer deres viden til et klart, tilgængeligt format.',
+    },
+  ],
+
+  crossCurricularLinks: [
+    {
+      subject: 'Matematik',
+      connection: 'Hushold-arbejdsark integrerer tælling, addition, subtraktion, multiplikation, måling, areal og omkreds i autentiske hjemmescenarier.',
+      activity: 'Eleverne måler deres soveværelse med et målebånd, registrerer længde og bredde i meter, beregner arealet for gulvbelægning og omkredsen for fodlister, og sammenligner deres resultater med klassekammeraters rum i en datatabel.',
+    },
+    {
+      subject: 'Natur/teknologi',
+      connection: 'Hjemmets systemer — vand, elektricitet, opvarmning, affaldshåndtering — giver konkrete eksempler på naturvidenskabelige processer og teknologisk design.',
+      activity: 'Eleverne undersøger, hvordan vand når køkkenvandhanen, og tegner et simpelt diagram over vandets vej fra vandværk til hjem. De diskuterer vandbesparelse og beregner, hvor meget vand familien bruger dagligt baseret på estimater for brusebad, opvask og tøjvask.',
+    },
+    {
+      subject: 'Dansk',
+      connection: 'Husholdsordforråd, forholdsord, beskrivende skrivning og proceduremæssige tekster udvikles naturligt i hjemmekonteksten.',
+      activity: 'Eleverne skriver en detaljeret rumbeskrivelse med mindst otte forholdsord, hvor de beskriver et rum i deres hjem så præcist, at en klassekammerat kan tegne rummet udelukkende baseret på teksten. Kammeraten tegner, og de sammenligner tegning med virkelighed.',
+    },
+  ],
+
+  assessmentIdeas: [
+    {
+      method: 'Rum-sorterings-portefølje',
+      criteria: 'Eleverne gennemfører tre sorteringsarbejdsark over to uger med stigende sværhedsgrad (enkelt kriterium, dobbelt kriterium, åben sortering med begrundelse). Vurder nøjagtighed af klassificering, evne til at sortere efter flere kriterier, og kvaliteten af mundtlige eller skriftlige begrundelser for, hvorfor genstande tilhører bestemte kategorier.',
+      gradeLevel: 'Børnehaveklasse – 1. klasse',
+    },
+    {
+      method: 'Forholdsords-praktisk prøve',
+      criteria: 'Vis eleverne en husholdsscene og bed dem mundtligt eller skriftligt beskrive placeringen af fem genstande med korrekte forholdsord. Vurder antal korrekte forholdsord, variation i rumligt ordforråd, og præcision i positionsbeskrivelser. For ældre elever tilføjes krav om fuldstændige sætninger med kontekst.',
+      gradeLevel: 'Førskole – 2. klasse',
+    },
+    {
+      method: 'Husholdsrutine-proceduretekst',
+      criteria: 'Eleverne vælger en husholdsrutine og skriver en trinvis instruktion med overgangsord. Vurder logisk rækkefølge, brug af overgangsord (først, derefter, så, til sidst), fuldstændighed af trin, og om teksten er klar nok til, at en anden person faktisk kan følge instruktionerne.',
+      gradeLevel: '2. klasse – 3. klasse',
+    },
+  ],
+
+  expertTips: [
+    {
+      tip: 'Brug hjemmets rum som rotationsstationer i undervisningen. Inddel klasseværelset i zoner med navne som køkken, soveværelse og badeværelse, og lad eleverne rotere mellem stationer med forskellige hushold-arbejdsark. Denne fysiske organisering spejler arbejdsarkenes indhold og giver kinæstetisk forstærkning af den rumlige klassificering.',
+      source: 'Dansk pædagogisk praksis — stationslæring med tematisk integration',
+      gradeRange: 'Børnehaveklasse – 1. klasse',
+    },
+    {
+      tip: 'Forbind hushold-arbejdsark med Fælles Måls kompetenceområde "hverdagsliv og samfund" i natur/teknologi ved at lade eleverne undersøge, hvordan husholdsredskaber har ændret sig over tid. Sammenlign gamle og moderne køkkenredskaber, vaskemetoder og belysning for at integrere historisk tænkning med den praktiske hverdagskontekst.',
+      source: 'Fælles Mål — natur/teknologi, kompetenceområde: hverdagsliv og samfund',
+      gradeRange: '2. klasse – 3. klasse',
+    },
+    {
+      tip: 'Inddrag forældrene aktivt ved at sende et simpelt hjemmeaktivitetsark med hjem efter hver hushold-arbejdsarksession. Bed forældrene bruge fem minutter på at lade barnet vise, hvad det lærte, ved at pege på genstande, beskrive placeringer eller demonstrere en rutine. Denne bro mellem skole og hjem forstærker læringen markant og giver forældrene indsigt i barnets faglige udvikling.',
+      source: 'Forskning i skole-hjem-samarbejde — forældreengagement i hverdagslæring',
+      gradeRange: 'Førskole – 3. klasse',
+    },
+  ],
+
+  quickStats: [
+    { label: 'Anbefalet aldersgruppe', value: '3–9 år' },
+    { label: 'Arbejdsark-apps tilgængelige', value: '33 generatorer' },
+    { label: 'Fagområder dækket', value: 'Matematik, dansk, kognition, motorik' },
+    { label: 'Klassetrin understøttet', value: 'Førskole – 3. klasse' },
+    { label: 'Gennemsnitlig sessionsvarighed', value: '10–20 minutter' },
+    { label: 'Husholdsemner dækket', value: '15+ emner' },
+  ],
 };
 
 registerThemeContent('household', 'da', content);

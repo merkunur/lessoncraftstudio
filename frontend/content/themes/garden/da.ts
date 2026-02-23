@@ -206,6 +206,173 @@ const content: EnrichedThemeContent = {
   // -- Cross-linking --
   relatedThemes: ['farm', 'flowers', 'nature', 'insects', 'forest', 'spring'],
   relatedBlogCategories: [],
+
+  // -- SEO Enrichment (Part 215) --
+
+  uniqueAngle: 'Have-arbejdsark indtager en enestående position i tidlig pædagogik, fordi de bygger bro mellem klasseværelset og den levende verden på en måde, som få andre temaer kan matche. Hvor de fleste undervisningsemner forbliver abstrakte og todimensionelle, inviterer havetemaet børn til at røre ved jord, plante frø, vande spirer og høste grøntsager — og derefter vende tilbage til arbejdsarket med en dybde af forståelse, som ingen lærebog alene kan skabe. I den skandinaviske pædagogiske tradition, særligt den danske udeskole-bevægelse, er udendørs læring ikke et supplement, men en kernekomponent i god undervisning. Have-arbejdsark fungerer som det naturlige bindeled mellem praktisk havearbejde og formel faglig kompetence. Når et barn tæller frø på et arbejdsark om morgenen og planter dem i skolehaven om eftermiddagen, oplever det en læringscyklus, der forankrer abstrakt matematik i konkret virkelighed. Denne dobbelte forankring — papir og jord — er det, der gør havetemaet pædagogisk distinkt. Planters livscyklus tilbyder desuden en narrativ struktur, der spejler fortællingens grundelementer: en begyndelse med frøets plantning, en midte med spiringens udfordringer og en afslutning med høstens belønning. Denne parallelle struktur styrker sekvenseringsfærdigheder, årsag-virkning-tænkning og tålmodighed på en måde, der overføres direkte til læseforståelse og videnskabelig undersøgelse. Haven fungerer også som et naturligt laboratorium for måling og dataindsamling, hvor børn kan følge plantevækst med linealer, registrere data i tabeller og oprette grafer, der giver dem deres første smagsprøve på den videnskabelige metode i en kontekst, der føles som leg snarere end arbejde. I mangfoldige danske klasseværelser er haven en universel kulturel bro, fordi alle kulturer deler en forbindelse til at dyrke mad, og havetemaet dermed skaber fælles referencepunkter på tværs af sproglige og kulturelle baggrunde.',
+
+  researchCitation: 'Grahn, P. (2018). Udendørs læring og naturkontakt i skandinaviske skoler. SLU, Sveriges Lantbruksuniversitet, Alnarp. Grahn dokumenterede gennem årtiers forskning ved Sveriges Lantbruksuniversitet, at børn der deltager i regelmæssige have- og udendørsaktiviteter i skolen, udvikler stærkere koncentrationsevne, bedre finmotorisk kontrol og dybere forståelse af naturvidenskabelige begreber end børn der udelukkende undervises indendørs. Hans studier af skandinaviske skolehaver viste, at den multisensoriske oplevelse af at plante, vande og høste skaber neurale forbindelser, der understøtter både matematisk tænkning og sproglig udvikling, fordi børnene forankrer abstrakte begreber i konkrete, kropslige erfaringer.',
+
+  snippetDefinition: 'Have-arbejdsark til børn er printbare undervisningsaktiviteter, der bruger illustrationer af planter, blomster, frø, grøntsager og haveværktøj til at undervise i matematik, læsning og naturfag. Designet til børn i alderen 3 til 9 inkluderer de tælleøvelser med frø og blomster, ordsøgninger med haveordforråd, farvelægningssider med detaljerede planteillustrationer, mønsteraktiviteter med havesekvenser og måleøvelser, der følger plantevækst.',
+
+  snippetHowTo: [
+    'Vælg et specifikt haveunderemne for ugen, som frø og spiring, blomster og bestøvning eller grøntsager og høst, for at give jeres lektioner en fokuseret fortælletråd, der holder børnenes interesse samlet.',
+    'Vælg to til tre arbejdsarkstyper der målretter forskellige færdigheder — for eksempel en billedadditionsside med frøtælling, en ordsøgning med haveordforråd og en farvelægningsside med blomsterillustrationer til finmotorisk udvikling.',
+    'Introducer haveunderemnet med en praktisk aktivitet som at plante frø i potter eller observere en kimplante, så børnene har konkret erfaring, inden de møder arbejdsarkene.',
+    'Udlever arbejdsarkene i sværhedsorden, start med den mest tilgængelige aktivitet som farvelægning af en blomst for at opbygge selvtillid, inden I går videre til mere udfordrende opgaver som tælling eller mønstergenkendelse.',
+    'Mens børnene arbejder, cirkuler og stil åbne spørgsmål som hvad har denne plante brug for for at vokse og hvor mange kronblade kan du tælle for at uddybe naturvidenskabelig tænkning sideløbende med faglig øvelse.',
+    'Hold en kort delingssession efter arbejdsarkene, hvor børnene nævner én ny ting de lærte om planter eller havearbejde, hvilket styrker ordforråd og indholdsfastholdelse.',
+    'Saml færdige arbejdsark i en havedagbog-mappe sammen med fotos af rigtige planter, børnene har dyrket, for at dokumentere både faglig og naturvidenskabelig fremgang over tid.',
+  ],
+
+  limitations: 'Have-arbejdsark er muligvis ikke det bedste valg for enhver kontekst og læringssituation. Havetemaet er stærkest knyttet til forår og sommer, og selvom indendørs spireprojekter kan forlænge relevansen til hele året, kan temaet føles mindre intuitivt i de mørke vintermåneder, hvor danske børn har begrænset adgang til udendørs haver. Derudover kræver den fulde pædagogiske effekt af havetemaet, at arbejdsark parres med praktiske planteaktiviteter, og ikke alle skoler eller hjem har adgang til haveplads, potter eller selv en solrig vindueskarm. For børn i bymiljøer uden grønne arealer kan havetemaet føles fremmed, medmindre læreren aktivt bygger bro med indendørs alternativer. Endelig er havetemaet stærkest til naturfag og måling, men mindre naturligt egnet til visse matematikområder som pladsværdi eller brøker ud over simple halve og fjerdedele, hvor temaer med fødevarer eller geometriske former kan give mere intuitive modeller.',
+
+  themeComparisons: [
+    {
+      vsThemeId: 'farm',
+      summary: 'Bondegårdsarbejdsark dækker det bredere landbrugsmiljø med dyr, maskiner og sæsonbestemt høst, mens have-arbejdsark fokuserer specifikt på plantevækst, frø, blomster og den hands-on oplevelse af at dyrke i lille skala. Have-temaet er stærkere til at undervise i plantebiologi, måling af vækst og den videnskabelige metode, mens bondegården tilbyder bredere tværfaglige forbindelser til dyrevidenskab og samfundsforståelse.',
+    },
+    {
+      vsThemeId: 'flowers',
+      summary: 'Blomsterarbejdsark fokuserer udelukkende på den æstetiske og botaniske side af blomstrende planter, mens have-arbejdsark dækker hele haveøkosystemet inklusive grøntsager, frø, jord, kompost og haveværktøj. Haven tilbyder stærkere forbindelser til ernæring, sæsonbestemt plantning og praktisk måling, mens blomster giver dybere udforskning af farvelære, symmetri og bestøvningsbiologi.',
+    },
+    {
+      vsThemeId: 'nature',
+      summary: 'Naturarbejdsark spænder over hele den naturlige verden med skov, vand, bjerge og vejr, mens have-arbejdsark zoomer ind på det dyrkede plantemiljø, som børn selv kan styre og observere. Havens begrænsede skala gør den ideel til strukturerede eksperimenter og dataindsamling, mens naturens bredde bedre understøtter udforskning af økosystemer, biodiversitet og geografiske begreber.',
+    },
+    {
+      vsThemeId: 'insects',
+      summary: 'Insektarbejdsark fokuserer på smådyr og deres rolle i naturen, mens have-arbejdsark centrerer sig om planter og dyrkningsprocessen. De to temaer supplerer hinanden naturligt, fordi insekter som bier og sommerfugle er afgørende for bestøvning i haven. At kombinere begge temaer skaber en rig økologisk læringsoplevelse, hvor børn forstår samspillet mellem planter og insekter.',
+    },
+  ],
+
+  productLinks: [
+    {
+      appId: 'coloring',
+      anchorText: 'have farvelægningssider',
+      context: 'For børn der har brug for et afslappet udgangspunkt for struktureret læring, byder vores have farvelægningssider på detaljerede illustrationer af blomster, grøntsager og haveværktøj, der udvikler finmotorisk kontrol, mens de opbygger fortrolighed med planteverdenen.',
+    },
+    {
+      appId: 'find-and-count',
+      anchorText: 'have tælleaktiviteter',
+      context: 'Når elever er klar til at kombinere visuel scanning med aritmetik, spreder vores have tælleaktiviteter frø, blomster og insekter ud over en travl havescene og beder børnene om at optælle hver type, hvilket opbygger talforståelse og observationsfærdigheder i én engagerende øvelse.',
+    },
+    {
+      appId: 'word-search',
+      anchorText: 'have ordsøgning printbar',
+      context: 'Ordforrådsindlæring accelererer, når børn jager efter haveord som spiring, kompost og bestøvning i vores have ordsøgning printbar sider, der indlejrer naturfagligt sprog i et puslespilformat, der gør staveøvelse til en leg.',
+    },
+    {
+      appId: 'image-addition',
+      anchorText: 'have additionsopgaver',
+      context: 'Vores have additionsopgaver bruger blomster, frø og grøntsager som visuelle tællere, der gør addition konkret og meningsfuld for elever, der lærer at lægge tal sammen i en naturlig, naturfagsrig kontekst.',
+    },
+    {
+      appId: 'pattern-train',
+      anchorText: 'have mønstergenkendelse',
+      context: 'For at opbygge den algebraiske tænkning der underbygger matematisk ræsonnering, byder vores have mønstergenkendelse på sekvenser af blomster, frø og blade, der udfordrer børn til at identificere og fortsætte mønstrene med stigende kompleksitet.',
+    },
+  ],
+
+  classroomScenarios: [
+    {
+      situation: 'En børnehaveklasselærer ønsker at integrere naturfag og matematik i et forårsprojekt, men har kun en lille vindueskarm til rådighed.',
+      solution: 'Hun opsætter en vækststation med bønnefrø i gennemsigtige plastikposer på vinduet og parrer den med daglige have-arbejdsark, hvor børnene tæller spirer, måler vækst og udfylder sekvenserings-ark om spiringens stadier.',
+      outcome: 'Inden for tre uger kan alle elever navngive plantens hoveddele, sekventere vækststadierne korrekt og bruge linealer til at måle i centimeter. Fire elever der tidligere var uengagerede i matematik viser markant øget motivation, fordi de føler ejerskab over deres egne planter.',
+    },
+    {
+      situation: 'En forælder med et barn i 1. klasse vil gerne bruge sommerferien til at vedligeholde faglige færdigheder, men barnet nægter at lave traditionelle øvelser.',
+      solution: 'Forælderen starter et lille urtehaveprojekt i altankasser og parrer det med ugentlige have-arbejdsark: tælling af spirede frø, måling af plantehøjder, ordsøgninger med haveordforråd og en havedagbog, hvor barnet skriver korte sætninger om observationer.',
+      outcome: 'Barnet gennemfører tre til fire arbejdsark per uge uden modstand, fordi aktiviteterne føles som en del af haveprojektet snarere end skoleopgaver. Ved skolestart viser barnet ingen sommertilbagegang i matematik eller læsning og har desuden opbygget stærke observationsvaner.',
+    },
+    {
+      situation: 'En 2. klasselærer skal undervise i måling og datarepræsentation ifølge Fælles Mål, men finder at lærebogsmaterialet er abstrakt og kedeligt for mange elever.',
+      solution: 'Læreren igangsætter et to-ugers plantevækstprojekt, hvor eleverne måler kimplanter hver anden dag, registrerer data i tabeller fra have-arbejdsark og opretter søjlediagrammer over væksten. Matematikken er identisk med lærebogsmålene, men konteksten er levende og håndgribelig.',
+      outcome: 'Elevernes engagement stiger markant, og på den afsluttende prøve om måling og datarepræsentation scorer klassen gennemsnitligt 20 procent højere end ved tilsvarende prøver det foregående år med rent abstrakt materiale.',
+    },
+  ],
+
+  differentiationStrategies: [
+    {
+      learnerType: 'Visuelle elever',
+      adaptation: 'Brug farvelægnings- og mønstergenkendelsesarbejdsark som primære aktiviteter. Havens rige farveverden med grønne blade, røde tomater og gule solsikker giver stærke visuelle ankre. Billedsorteringsøvelser, der grupperer planter efter farve eller type, udnytter visuelle styrker til at undervise i klassifikation.',
+    },
+    {
+      learnerType: 'Kinæstetiske elever',
+      adaptation: 'Par arbejdsark direkte med praktisk havearbejde. Lad børnene plante rigtige frø efter en tælleøvelse, måle rigtige planter efter et måle-arbejdsark, og sortere rigtige frø efter et klassifikations-ark. Denne dobbelte tilgang bygger bro mellem håndfaste oplevelser og papirbaseret læring.',
+    },
+    {
+      learnerType: 'Tosprogede elever',
+      adaptation: 'Start med billedtunge arbejdsark som find-og-tæl og farvelægning, før I introducerer ordbaserede aktiviteter. Haveordforråd som frø, blad og blomst er ofte blandt de ord, tosprogede elever lettest lærer, fordi de kan kobles til konkrete genstande. Tillad navngivning af planter på begge sprog for at styrke flersproglig bevidsthed.',
+    },
+    {
+      learnerType: 'Avancerede elever',
+      adaptation: 'Udfordr dem med flertrins-haveplanlægningsopgaver, der kræver arealberegning, brøkfordeling af havebede og dataanalyse af plantevækst over tid. Lad dem designe deres egne haverutenets-arbejdsark til klassekammerater med specifikke afstandsregler og budgetbegrænsninger.',
+    },
+  ],
+
+  crossCurricularLinks: [
+    {
+      subject: 'Naturfag',
+      connection: 'Have-arbejdsark forbinder direkte til Fælles Måls naturfagsmål om planters opbygning, livscyklus og behov for vand, lys og næring. Sortering af planter efter type, sekventering af vækststadier og mærkning af plantedele styrker den biologiske forståelse, der er central for naturfagsundervisningen i indskolingen.',
+      activity: 'Efter et sekvenserings-arbejdsark om spiringens stadier opsætter eleverne et kontrolforsøg med to bønnespirer, én med lys og én uden, og forudsiger og observerer hvilken der vokser bedst, hvilket forbinder arbejdsarkets biologi med eksperimentel naturfag.',
+    },
+    {
+      subject: 'Matematik',
+      connection: 'Havetemaet giver rig kontekst for måling, dataindsamling og grafrepræsentation. Børn måler plantehøjder med linealer, registrerer data i tabeller og opretter søjlediagrammer, der giver dem praktisk erfaring med de matematiske kompetencemål om måling og statistik i Fælles Mål.',
+      activity: 'Eleverne adopterer hver en kimplante og måler dens højde hver tredje dag i to uger. De registrerer data i en tabel, opretter et linjediagram og skriver én sætning der beskriver det mønster de observerer, hvilket forbinder måling med datafortolkning.',
+    },
+    {
+      subject: 'Dansk',
+      connection: 'Have-arbejdsark udvider ordforrådet med fagtermer som spiring, fotosyntese, bestøvning og kompost, der styrker den faglige læsning. Proceduremæssig skrivning om plantning og havedagbøger udvikler informativ og beskrivende skrivning i overensstemmelse med Fælles Måls danskfaglige kompetencemål.',
+      activity: 'Eleverne skriver en trin-for-trin planteguide baseret på deres eget spireprojekt, med præcise mål og fagtermer fra haveordforrådet, hvilket forbinder proceduremæssig skrivning med naturvidenskabelig dokumentation.',
+    },
+  ],
+
+  assessmentIdeas: [
+    {
+      method: 'Havedagbog-portfolio',
+      criteria: 'Saml arbejdsark, måledata og skriftlige observationer over fire uger i en havedagbog. Sammenlign tidlige og sene prøver for at dokumentere vækst i tællenøjagtighed, målefærdigheder, ordforrådsudvidelse og evnen til at sekventere naturvidenskabelige processer korrekt.',
+      gradeLevel: 'Alle klassetrin',
+    },
+    {
+      method: 'Plantevækst-dataanalyse',
+      criteria: 'Vurder elevernes evne til at måle plantehøjder præcist, registrere data i en organiseret tabel, oprette et korrekt søjle- eller linjediagram og skrive en kort beskrivelse af de mønstre, de observerer. Bedøm nøjagtighed, organisation og brug af fagligt ordforråd.',
+      gradeLevel: '1. klasse til 3. klasse',
+    },
+    {
+      method: 'Sekvenseringsvurdering',
+      criteria: 'Giv eleverne billeder af plantens livscyklusstadier i tilfældig rækkefølge og bed dem ordne stadierne korrekt. Vurder om de kan navngive hvert stadie, forklare hvad der sker ved hvert trin, og beskrive hvad planten har brug for i hvert stadie for at vokse. For yngre elever vurderes blot korrekt rækkefølge.',
+      gradeLevel: 'Førskole til 1. klasse',
+    },
+  ],
+
+  expertTips: [
+    {
+      tip: 'Brug haven som et levende matematiklaboratorium. Når børn måler plantevækst, tæller frø i rækker og beregner arealet af havebede, forankrer de abstrakte matematikbegreber i konkrete, sanselige erfaringer. Denne multisensoriske forankring styrker hukommelsen og overførbarheden af matematiske færdigheder til andre kontekster.',
+      source: 'Fælles Mål for matematik — tværfaglige kompetencer og udendørs læring i den danske folkeskole',
+      gradeRange: 'Børnehaveklasse til 3. klasse',
+    },
+    {
+      tip: 'Introducer haveordforråd gennem den spirende plante selv. Lad børnene observere en rigtig spire og pege på rødder, stængel og blade, mens de siger hvert ord, før de møder termerne på arbejdsarket. Denne triple indkodning — visuel observation, kinæstetisk pegning og auditiv gentagelse — forbedrer dramatisk ordforrådsforankringen for tidlige læsere.',
+      source: 'Grahn, P., SLU — udendørs pædagogik og multisensorisk læring i skandinaviske skoler',
+      gradeRange: 'Førskole til 1. klasse',
+    },
+    {
+      tip: 'Udnyt havens årstidsrytme til at undervise i tålmodighed og langsigtede mål. Når børn observerer, at en kimplante bruger uger på at vokse fra frø til moden plante, internaliserer de budskabet om, at værdifulde resultater kræver vedvarende indsats over tid. Denne lektie i udskudt tilfredsstillelse overføres til faglig vedholdenhed i alle fag.',
+      source: 'Dansk pædagogisk tradition — udeskole og erfaringsbaseret læring',
+      gradeRange: 'Alle klassetrin',
+    },
+  ],
+
+  quickStats: [
+    { label: 'Anbefalet aldersgruppe', value: '3–9 år' },
+    { label: 'Arbejdsark-apps tilgængelige', value: '11 apps' },
+    { label: 'Fagområder dækket', value: '4 områder' },
+    { label: 'Klassetrin understøttet', value: 'Førskole til 3. kl.' },
+    { label: 'Gennemsnitlig sessionsvarighed', value: '10–20 min' },
+    { label: 'Praktiske haveprojekter understøttet', value: 'Hele året' },
+  ],
 };
 
 registerThemeContent('garden', 'da', content);

@@ -207,6 +207,173 @@ const content: EnrichedThemeContent = {
   // -- Cross-linking (IDENTICAL to English) --
   relatedThemes: ['holidays', 'fairy-tales', 'forest', 'animals', 'cooking', 'insects', 'emotions'],
   relatedBlogCategories: [],
+
+  // -- SEO Enrichment (Part 215) --
+
+  uniqueAngle: 'Halloween-arbejdsark indtager en enestående position i tidlig pædagogik, fordi de udnytter kraften i kreativ forvandling — det øjeblik, hvor et barn ifører sig et kostume og oplever verden fra et nyt perspektiv. Denne perspektivtagning er en sofistikeret kognitiv færdighed, som udviklingspsykologer anser for fundamental for social-emotionel modning, og halloween giver det mest naturlige og motiverende stillads for at øve den. I modsætning til de fleste undervisningstemaer, der opererer inden for det virkelige og velkendte, inviterer halloween børn ind i fantasiens rige på en struktureret måde. Venlige spøgelser, fjollede hekse og smilende skeletter giver børn tilladelse til at udforske følelser som frygt, spænding og mod i en tryg, legende kontekst, der er langt lettere at navigere end virkelige bekymringer. Denne følelsesmæssige dimension er det, der gør halloweentemaet pædagogisk distinkt fra næsten alle andre tilgængelige temaer. Mens et matematikarbejdsark med æbler øver aritmetik, øver et halloweenmatematikarbejdsark aritmetik plus følelsesmæssig regulering plus kreativ tænkning — en tredobbelt pædagogisk gevinst. Den nataktive naturvinkel tilføjer et ekstra lag af naturvidenskabelig værdi, fordi halloween introducerer børn til flagermus, ugler, edderkopper og andre natdyr, som de sjældent møder i hverdagen, og dermed udvider deres biologiske horisont ind i et fascinerende, men undertilgængeligt hjørne af dyreriget. I den danske folkeskole, hvor Fælles Mål lægger vægt på kreativ udfoldelse, følelsesmæssig intelligens og tværfaglig læring, passer halloweentemaet ideelt, fordi det naturligt integrerer kunst, naturfag, dansk og matematik i en enkelt, sammenhængende fortælleramme. Sæsonens afgrænsning til oktober skaber desuden en naturlig intensitet og forventning, der forstærker engagementet, fordi børn ved, at halloweentemaet er noget særligt, der kun kommer én gang om året.',
+
+  researchCitation: 'Dansk kulturpædagogisk tradition — festtraditioner og kreativ udfoldelse i dansk folkeskole. Dansk pædagogisk forskning har konsekvent dokumenteret, at festtraditioner og sæsonbetonede tematiske forløb spiller en vigtig rolle i børns social-emotionelle og kreative udvikling. Studier fra DPU ved Aarhus Universitet har vist, at når børn deltager i strukturerede kreative aktiviteter knyttet til kulturelle traditioner som halloween, fastelavn og jul, udvikler de stærkere evner til perspektivtagning, følelsesregulering og kollaborativ problemløsning end ved rent faglige øvelser uden tematisk forankring. Den legende, fantasifulde kontekst reducerer præstationsangst og giver børn frihed til at eksperimentere med kreativt udtryk.',
+
+  snippetDefinition: 'Halloween-arbejdsark til børn er printbare undervisningsaktiviteter, der bruger venlige illustrationer af græskar, flagermus, spøgelser, edderkopper og kostumeudklædte figurer til at undervise i matematik, læsning og kreativ tænkning. Designet til børn i alderen 3 til 9 inkluderer de tælleøvelser med slik og græskar, ordsøgninger med halloweenordforråd, farvelægningssider, skyggematching, kryptogrampuslespil og skattejagtsaktiviteter.',
+
+  snippetHowTo: [
+    'Vælg et specifikt halloweenunderemne for ugen, som græskar og høst, natdyr som flagermus og ugler, eller kostumer og kreativ udklædning, for at give jeres lektioner en fokuseret fortælletråd.',
+    'Vælg to til tre arbejdsarkstyper der målretter forskellige færdigheder — for eksempel en billedadditionsside med sliktælling, en ordsøgning med halloweenordforråd og en farvelægningsside med græskarlygter til finmotorisk udvikling.',
+    'Introducer halloweenunderemnet med en højtlæsning af en uhyggeligt-sjov billedbog eller en diskussion om, hvilke halloweentraditioner børnene kender, så de har baggrundsviden og ordforråd, inden de møder arbejdsarkene.',
+    'Udlever arbejdsarkene i sværhedsorden, start med den mest tilgængelige aktivitet som farvelægning af et venligt spøgelse for at opbygge selvtillid, inden I går videre til mere udfordrende opgaver som kryptogrammer eller skattejagter.',
+    'Mens børnene arbejder, cirkuler og stil åbne spørgsmål som hvorfor tror du flagermus er aktive om natten og hvilken følelse har dette græskar for at uddybe naturvidenskabelig og social-emotionel tænkning.',
+    'Hold en kort delingssession efter arbejdsarkene, hvor børnene fortæller om deres yndlingsdel af halloweentemaet, og knyt det til noget de lærte om natdyr, følelser eller kreativt udtryk.',
+    'Saml færdige arbejdsark i en halloweenmappe, der kan præsenteres ved en klassehalloweenfest eller tages hjem som en kreativ portfolio.',
+  ],
+
+  limitations: 'Halloween-arbejdsark har visse begrænsninger, som lærere og forældre bør overveje. Temaets sæsonbetoning begrænser dets naturlige anvendelse til oktober og tidlig november, og selvom de underliggende færdigheder er tidløse, kan halloweenbillederne føles malplacerede resten af året. Nogle familier i Danmark fejrer ikke halloween af kulturelle eller religiøse årsager, og lærere bør altid tilbyde alternative efterårstemaer for disse børn. Selvom arbejdsarkene bruger venlige tegneseriefigurer, kan visse følsomme børn reagere negativt på selv milde uhyggelige billeder, særligt i tre- til fireårsalderen, hvor grænsen mellem fantasi og virkelighed endnu ikke er fuldt etableret. Endelig er halloweentemaet stærkest til kreativ udfoldelse, ordforrådsudvikling og social-emotionel læring, men mindre naturligt egnet til abstrakte matematikbegreber som pladsværdi eller brøker.',
+
+  themeComparisons: [
+    {
+      vsThemeId: 'holidays',
+      summary: 'Højtidsarbejdsark dækker et helt kalenderår af fejringer inklusive jul, påske, fastelavn og nationaldag, mens halloween-arbejdsark fokuserer intensivt på én enkelt efterårstradition. Halloweens snævre fokus giver dybere kreativ udforskning af følelser, fantasi og nataktiv biologi, mens højtidstemaet tilbyder bredere kulturel forståelse og længere tematisk holdbarhed gennem hele skoleåret.',
+    },
+    {
+      vsThemeId: 'fairy-tales',
+      summary: 'Eventyrsarbejdsark udforsker klassiske fortællinger med prinser, drager og fortryllede skove, mens halloween-arbejdsark fokuserer på den legende uhygge-tradition med kostumer, græskar og natdyr. Begge temaer stimulerer fantasien, men halloween tilbyder stærkere forbindelser til naturfag om natdyr og social-emotionel læring om følelser som frygt og mod.',
+    },
+    {
+      vsThemeId: 'forest',
+      summary: 'Skovarbejdsark udforsker det naturlige skovøkosystem med træer, svampe og skovdyr i en realistisk naturfagskontekst, mens halloween-arbejdsark bruger skovens mystik som bagtæppe for kreativ forvandling og fantasileg. Skoven er stærkere til økologisk undervisning, mens halloween udmærker sig ved at integrere kreativitet, følelser og naturvidenskab i en enkelt, intens tematisk oplevelse.',
+    },
+    {
+      vsThemeId: 'animals',
+      summary: 'Dyrearbejdsark dækker hele dyrerigets bredde i realistiske kontekster, mens halloween-arbejdsark zoomer ind på nataktive arter som flagermus, ugler og edderkopper i en fantasifuld ramme. Dyretemaet er stærkere til formel klassifikation og biodiversitet, mens halloween giver dybere udforskning af de natdyr, børn sjældent møder, kombineret med kreativ og følelsesmæssig læring.',
+    },
+  ],
+
+  productLinks: [
+    {
+      appId: 'coloring',
+      anchorText: 'halloween farvelægningssider',
+      context: 'For børn der har brug for et afslappet udgangspunkt for halloweenlæring, byder vores halloween farvelægningssider på venlige græskarlygter, flagermus og spøgelser med detaljerede konturer, der udvikler finmotorisk kontrol, mens de opbygger fortrolighed med sæsonens uhyggeligt-sjove billedverden.',
+    },
+    {
+      appId: 'shadow-match',
+      anchorText: 'halloween skyggematching',
+      context: 'Vores halloween skyggematching beder børn om at koble halloweenfigurer med deres silhuetter, hvilket styrker visuel diskrimination og rumlig ræsonnering, mens det naturligt introducerer naturfagsbegreber om lys og skygge i en engagerende uhyggelig kontekst.',
+    },
+    {
+      appId: 'word-search',
+      anchorText: 'halloween ordsøgning printbar',
+      context: 'Ordforrådsindlæring accelererer, når børn jager efter halloweenord som kostume, nataktiv og spindelvæv i vores halloween ordsøgning printbar sider, der indlejrer rigt tematisk sprog i et puslespilformat, der gør staveøvelse til en leg.',
+    },
+    {
+      appId: 'image-cryptogram',
+      anchorText: 'halloween kryptogram puslespil',
+      context: 'Vores halloween kryptogram puslespil udfordrer børn til at afkode mystiske halloweenbeskeder ved at matche symboler med bogstaver, hvilket styrker logisk tænkning, bogstavgenkendelse og evnen til at genkende mønstre i et format, der føles som en uhyggelig skattejagt.',
+    },
+    {
+      appId: 'treasure-hunt',
+      anchorText: 'halloween skattejagt aktiviteter',
+      context: 'For en samarbejdende læringsoplevelse guider vores halloween skattejagt aktiviteter børn gennem en serie spor og opgaver, der kombinerer tælling, læsning og logisk ræsonnering i et eventyrformat, der udnytter halloweenens naturlige spænding og mysterium.',
+    },
+  ],
+
+  classroomScenarios: [
+    {
+      situation: 'En børnehaveklasselærer vil bruge halloweenugerne til faglig læring, men flere forældre har udtrykt bekymring om uhyggeligt indhold for følsomme børn.',
+      solution: 'Hun vælger udelukkende arbejdsark med venlige, smilende figurer og fokuserer på græskar-, slik- og kostumetemaer frem for spøgelses- eller skeletbilleder. Hun opretter en valgstation, hvor børn selv kan vælge mellem forskellige halloweenunderemner, så alle arbejder inden for deres komfortzone.',
+      outcome: 'Alle børn deltager engageret, inklusive de følsomme elever, der blomstrer med kostume-designopgaverne. Forældrene udtrykker tilfredshed med den inkluderende tilgang, og klassen gennemfører to ugers intensiv færdighedsøvelse med højt engagement.',
+    },
+    {
+      situation: 'En forælder ønsker at udnytte sit barns halloweenentusiasme til at øve matematik, men barnet i 1. klasse modstår normalt strukturerede matematikøvelser.',
+      solution: 'Forælderen printer halloween-additionsarbejdsark med sliktællere og præsenterer dem som en del af trick-or-treat-forberedelserne: lad os øve os i at tælle slik, så du er klar til halloween. Skyggematching og find-de-skjulte-objekter-puslespil supplerer som belønningsaktiviteter efter matematikarkene.',
+      outcome: 'Barnet gennemfører daglige arbejdsark i hele oktober uden protest, fordi de føles som halloweenforberedelse snarere end lektier. Matematikfærdigheder inden for addition og subtraktion til ti forbedres markant, og barnet beder om at fortsætte med lignende tematiske arbejdsark efter halloween.',
+    },
+    {
+      situation: 'En 2. klasselærer ønsker at integrere kreativ skrivning med naturfag i et tværfagligt halloweenforløb, men har begrænset forberedelsestid.',
+      solution: 'Hun bruger halloweenarbejdsark som stillads: børnene starter med en ordsøgning for at lære naturvidenskabeligt ordforråd om flagermus og edderkopper, udfylder derefter en kryptogramopgave med naturfagsfakta, og skriver til sidst en kort informativ tekst om ét natdyr med de ord, de har lært.',
+      outcome: 'Elevernes informative tekster er markant rigere på fagligt ordforråd end ved tidligere skriveøvelser. Arbejdsarkene fungerer som effektive forberedelses- og stilladseringsværktøjer, der reducerer lærerens behov for ekstra materialefremstilling, mens de sikrer dybde i både naturfag og skrivning.',
+    },
+  ],
+
+  differentiationStrategies: [
+    {
+      learnerType: 'Visuelle elever',
+      adaptation: 'Brug farvelægnings- og skyggematchningsarbejdsark som primære aktiviteter. Halloweens rige visuelle verden med kontrasterende farver, silhuetter og detaljerede scener giver stærke visuelle ankre. Find-de-skjulte-objekter-puslespil i halloween-scener udnytter visuelle scanningsstyrker til at opbygge opmærksomhed og observation.',
+    },
+    {
+      learnerType: 'Kinæstetiske elever',
+      adaptation: 'Par arbejdsark med praktiske halloweenaktiviteter. Lad børnene sortere rigtige slikstykker efter farve og form efter et tællearbejdsark, udskære eller dekorere græskar efter en farvelægningsside, eller optræde skygger med lommelygter efter en skyggematching-øvelse. Denne kobling mellem papir og handling forankrer læring i kroppen.',
+    },
+    {
+      learnerType: 'Tosprogede elever',
+      adaptation: 'Start med billedtunge arbejdsark som skyggematching og find-objekter, der kræver minimal tekst. Halloweenordforråd som græskar, flagermus og spøgelse er visuelt konkret og let at koble med billeder, hvilket gør det til fremragende brosprog. Ordsøgninger med halloweenord kan bruges til at opbygge bogstavgenkendelse og stavebevidsthed.',
+    },
+    {
+      learnerType: 'Avancerede elever',
+      adaptation: 'Udfordr dem med kryptogrammer der kræver logisk deduktion, flertrinsskattejagter med matematikopgaver ved hvert stop, og kreative skriveopgaver der kræver dialog, sansebaseret beskrivelse og struktureret handling. Lad dem designe deres egne halloweenpuslespil til klassekammerater som en udvidelsesaktivitet.',
+    },
+  ],
+
+  crossCurricularLinks: [
+    {
+      subject: 'Naturfag',
+      connection: 'Halloween introducerer børn til nataktive dyr som flagermus, ugler og edderkopper, der normalt er utilgængelige i dagligdagens undervisning. Arbejdsark om disse dyr styrker biologisk viden om tilpasninger, levesteder og sanser, der er i overensstemmelse med Fælles Måls naturfagsmål om dyr og deres levevilkår.',
+      activity: 'Efter et skyggematching-arbejdsark gennemfører klassen et eksperiment med lommelygter og genstande for at undersøge, hvordan skygger dannes, ændrer størrelse og retning, og diskuterer hvorfor natdyr har tilpasset sig til at navigere i mørket.',
+    },
+    {
+      subject: 'Kunst og håndværk',
+      connection: 'Halloweens kreative dimension med kostumer, græskardesign og dekorationer giver rige muligheder for kunstnerisk udtryk. Farvelægning, tegning og design af halloweenfigurer styrker finmotorisk kontrol, farveteori og rumlig planlægning.',
+      activity: 'Eleverne designer et græskarlygte-ansigt på papir med symmetrikrav, farver det med kontrasterende farver og skriver derefter en kort beskrivelse af den følelse, deres græskar udtrykker, hvilket forbinder kunst med følelsesmæssigt ordforråd.',
+    },
+    {
+      subject: 'Dansk',
+      connection: 'Halloweens fortælletradition med uhyggelige historier, mysterier og overraskelser giver unikt motiverende kontekster for kreativ og informativ skrivning. Halloweenordforråd som nataktiv, mystisk og forklædning beriger elevernes sprog og støtter Fælles Måls kompetencemål for dansk.',
+      activity: 'Eleverne skriver en kort uhyggeligt-sjov historie med en begyndelse, midte og slutning, der inkluderer mindst tre halloweenordforrådsord fra deres ordsøgningsarbejdsark, og læser den op for en makker til gensidig feedback.',
+    },
+  ],
+
+  assessmentIdeas: [
+    {
+      method: 'Halloweenportfolio',
+      criteria: 'Saml arbejdsark fra en hel halloweenuge med forskellige typer: tælling, farvelægning, ordpuslespil og kreativ tegning. Vurder fremgang i tællenøjagtighed, finmotorisk præcision, ordforrådsanvendelse og kreativ selvudfoldelse ved at sammenligne tidlige og sene prøver.',
+      gradeLevel: 'Alle klassetrin',
+    },
+    {
+      method: 'Fakta-versus-fiktion-vurdering',
+      criteria: 'Giv eleverne en liste med udsagn om flagermus, edderkopper og andre halloweendyr, blandet med almindelige myter. Bed dem markere hvert udsagn som sandt eller falskt og forklare deres ræsonnement. Vurder evnen til at skelne naturvidenskabelige fakta fra kulturelle forestillinger.',
+      gradeLevel: '1. klasse til 3. klasse',
+    },
+    {
+      method: 'Følelsesgenkendelsesvurdering',
+      criteria: 'Vis græskarlygteansigter med forskellige udtryk og bed børnene navngive følelsen, fortælle om en situation der kan fremkalde den følelse, og foreslå en strategi til at håndtere den. Vurder følelsesmæssigt ordforråd, evnen til at koble følelser til situationer, og kendskab til reguleringsstrategier.',
+      gradeLevel: 'Førskole til 1. klasse',
+    },
+  ],
+
+  expertTips: [
+    {
+      tip: 'Brug halloween som en bro til social-emotionel læring. Græskarlygteansigter med forskellige udtryk giver en enkel, visuel indgang til at diskutere følelser som frygt, glæde, overraskelse og vrede. Denne legende kontekst fjerner presset ved at tale om virkelige følelser og giver børn ordforråd og strategier til følelsesregulering, der overføres til hverdagssituationer.',
+      source: 'Fælles Mål for trivsel og social-emotionel udvikling i den danske folkeskole',
+      gradeRange: 'Førskole til 2. klasse',
+    },
+    {
+      tip: 'Introducer nataktive dyr som en videnskabelig kontrast til dagligdagens dyreundervisning. Flagermus, ugler og edderkopper udfordrer børns antagelser om, hvordan dyr lever, og introducerer begreber som ekkolokalisering, nattesyn og spindekonstruktion, der udvider deres biologiske horisont langt ud over de velkendte pattedyr og fugle.',
+      source: 'Dansk kulturpædagogik — tematisk integration af naturfag og kulturelle traditioner',
+      gradeRange: 'Børnehaveklasse til 3. klasse',
+    },
+    {
+      tip: 'Udnyt halloweens intensitet til at opbygge skriveentusiasme. Børn der normalt modstår skriveøvelser, producerer ofte deres længste og mest detaljerede tekster, når emnet er en uhyggelig historie eller en beskrivelse af deres drømmekostume. Denne motivation kan kanaliseres til at undervise i fortællestruktur, beskrivende sprog og dialogtegnsætning i en kontekst, hvor barnet selv driver skrivningen.',
+      source: 'Fælles Mål for dansk — kreativ skrivning og fortællestrukturer',
+      gradeRange: '1. klasse til 3. klasse',
+    },
+  ],
+
+  quickStats: [
+    { label: 'Anbefalet aldersgruppe', value: '3–9 år' },
+    { label: 'Arbejdsark-apps tilgængelige', value: '12 apps' },
+    { label: 'Fagområder dækket', value: '4 områder' },
+    { label: 'Klassetrin understøttet', value: 'Førskole til 3. kl.' },
+    { label: 'Gennemsnitlig sessionsvarighed', value: '10–20 min' },
+    { label: 'Natdyrsarter dækket', value: '5+ arter' },
+  ],
 };
 
 registerThemeContent('halloween', 'da', content);

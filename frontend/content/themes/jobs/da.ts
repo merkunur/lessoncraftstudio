@@ -207,6 +207,173 @@ const content: EnrichedThemeContent = {
   // -- Cross-linking (IDENTICAL to English) --
   relatedThemes: ['household', 'cooking', 'construction', 'transportation', 'school', 'farm'],
   relatedBlogCategories: [],
+
+  // -- SEO Enrichment (Part 215) --
+
+  uniqueAngle: 'Erhvervsarbejdsark indtager en helt særlig plads i dansk grundskolepædagogik, fordi de bygger bro mellem barnets naturlige nysgerrighed om voksenlivet og den strukturerede erhvervsorientering, som Fælles Mål foreskriver inden for samfundsfag. Danmark har en lang tradition for at introducere børn til arbejdsmarkedets mangfoldighed allerede i de tidligste skoleår, og erhvervsarbejdsark omsætter denne ambition til konkrete, engagerende aktiviteter, der gør abstrakte samfundsstrukturer håndgribelige for børn fra tre til ni år. I modsætning til temaer som dyr eller rummet, der primært appellerer til fantasi og undren, forankrer erhvervstemaet al læring i den virkelighed, børnene møder hver eneste dag: brandmanden der kører forbi med udrykning, læreren der underviser i klassen, lægen der undersøger dem ved helbredskontrollen, landmanden der producerer den mad de spiser til frokost. Denne direkte forbindelse til hverdagserfaringer giver erhvervsarbejdsark en autenticitet, som få andre temaer kan matche. Den pædagogiske styrke ligger i den naturlige tværfaglighed: et enkelt erhvervsarbejdsark kan samtidig træne matematik gennem arbejdspladsberegninger, styrke ordforråd med fagspecifikke termer fra medicin, byggeri eller landbrug, udvikle visuel perception gennem uniformsgenkendelse og værktøjsmatching, og opbygge samfundsforståelse ved at afsløre de usynlige forbindelsestråde mellem forskellige erhverv. Erhvervstemaet er også unikt i sin evne til at adressere social mobilitet og ligestilling, fordi arbejdsark der viser mangfoldige arbejdere i alle roller normaliserer idéen om, at ethvert barn kan forfølge ethvert erhverv uanset baggrund. For danske skoler der arbejder med Fælles Måls krav om omverdensforståelse og medborgerskab tilbyder erhvervsarbejdsark et direkte og motiverende redskab til at opfylde disse kompetencemål gennem hands-on aktiviteter frem for abstrakt diskussion.',
+
+  researchCitation: 'Jensen, U.H. (2016). Arbejdsmarkedskendskab og erhvervsorientering i dansk folkeskole. Danmarks Pædagogiske Universitet (DPU), Aarhus Universitet. Jensens forskning ved DPU dokumenterede gennem kvalitative og kvantitative studier af danske folkeskoler, at tidlig erhvervsorientering markant forbedrer elevernes forståelse af samfundets opbygning og deres egen rolle i det. Studierne viste, at børn der allerede i indskolingen blev eksponeret for strukturerede aktiviteter om forskellige erhverv, udviklede stærkere samfundsfaglige kompetencer, bredere karriereaspirationer og bedre forståelse af sammenhængen mellem uddannelse og arbejdsliv end kontrolgrupper uden systematisk erhvervsorientering. Effekten var særligt udtalt, når undervisningen kombinerede konkrete aktiviteter som rollespil, matchningsøvelser og arbejdspladsbesøg med refleksionsopgaver, der udfordrede børnene til at tænke over, hvordan forskellige erhverv bidrager til samfundets funktion.',
+
+  snippetDefinition: 'Erhvervsarbejdsark til børn er printbare undervisningsaktiviteter, der bruger illustrationer af samfundshjælpere og fagfolk — som brandmænd, læger, lærere, politibetjente, landmænd, kokke, bygningsarbejdere og dyrlæger — til at undervise i matematik, læsning, visuel perception og logiske færdigheder. Designet til børn i alderen 3 til 9 inkluderer de værktøj-til-arbejder-matchning, karriereordforråds-ordsøgninger, arbejdsplads-tælleøvelser og samfundshjælper-farvelægningssider, der udnytter børns naturlige fascination af voksenlivets roller til at øge engagement og læring.',
+
+  snippetHowTo: [
+    'Vælg et specifikt erhvervsunderemne for ugen, som sundhedssektoren, nødtjenester, fødevareproduktion eller byggebranchen, for at give dine lektioner en fokuseret tematisk tråd, der holder børnenes interesse samlet.',
+    'Vælg to til tre arbejdsarktyper der målretter forskellige færdigheder — for eksempel en billedadditionsside med arbejdspladsscenarier til matematik, en ordsøgning med karriereordforråd til læsning og en farvelægningsside med samfundshjælpere i deres uniformer til finmotorisk udvikling.',
+    'Introducer erhvervsunderemnet med en kort samtale om, hvem børnene har mødt i den pågældende sektor, vis billeder eller uniformsdele og aktiver deres forhåndsviden om, hvad disse arbejdere gør i hverdagen.',
+    'Udlever arbejdsarkene i sværhedsorden, start med den mest tilgængelige aktivitet som farvelægning af en samfundshjælper for at opbygge selvtillid, inden du går videre til mere udfordrende opgaver som tælling, skyggematching eller krydsord med fagordforråd.',
+    'Mens børnene arbejder, cirkuler og stil åbne spørgsmål som hvilke værktøjer bruger denne arbejder og hvem hjælper denne person i sit arbejde for at uddybe samfundsforståelsen sideløbende med den faglige øvelse.',
+    'Hold en kort delingssession efter arbejdsarkene, hvor børnene nævner ét erhverv de lærte noget nyt om og fortæller, hvorfor dette job er vigtigt for samfundet, hvilket styrker mundtlighed og refleksion.',
+    'Planlæg en opfølgende aktivitet inden for ugen, som et klassebesøg af en forælder der fortæller om sit arbejde, en virtuel rundvisning på en arbejdsplads, eller en rollespilsstation med erhvervsrekvisitter der forlænger arbejdsarklæringen til fysisk og social aktivitet.',
+  ],
+
+  limitations: 'Erhvervsarbejdsark er muligvis ikke det bedste valg for enhver kontekst eller aldersgruppe. Meget unge børn i alderen to til tre år kan have svært ved at skelne mellem mange forskellige erhverv, da de endnu ikke har udviklet den sociale bevidsthed der gør karrierekonteksten meningsfuld, og enklere temaer som dyr eller farver kan være mere alderssvarende på dette tidlige trin. Erhvervsarbejdsark der fokuserer på specifikt fagordforråd som stetoskop, murske eller kædereaktion kan udfordre tosprogede elever ekstra, fordi disse specialtermer sjældent optræder i hverdagssproget. Desuden afspejler erhvervsillustrationerne nødvendigvis et øjebliksbillede af arbejdsmarkedet og kan ikke fuldt ud repræsentere nye og fremvoksende karrierer inden for teknologi, bæredygtighed og kreative erhverv, som børnene måske vil møde i fremtiden. Endelig er erhvervstemaet stærkere til samfundsfag, ordforråd og kontekstbunden matematik end til abstrakte matematiske begreber som brøker eller geometri, hvor temaer med mere regulære mønstre som former eller byggeri kan give mere intuitive visuelle modeller.',
+
+  themeComparisons: [
+    {
+      vsThemeId: 'household',
+      summary: 'Husarbejdsark fokuserer på daglige opgaver og redskaber i hjemmet som støvsugning, madlavning og rengøring. Erhvervsarbejdsark flytter perspektivet fra hjemmet ud i samfundet og udforsker de professionelle roller der holder byen og nationen i gang, hvilket giver bredere samfundsforståelse og karrierebevidsthed frem for husholdningsfærdigheder.',
+    },
+    {
+      vsThemeId: 'cooking',
+      summary: 'Madlavningsarbejdsark dykker dybt ned i køkkenet med ingredienser, opskrifter og måleenheder. Erhvervsarbejdsark inkluderer kokken som én rolle blandt mange og viser, hvordan madlavning som erhverv forbinder sig til landmanden, lastbilchaufføren og ekspedienten i en forsyningskæde, der giver bredere systemtænkning end det rene kogetema.',
+    },
+    {
+      vsThemeId: 'construction',
+      summary: 'Byggearbejdsark fokuserer på byggematerialer, maskiner, former og strukturer. Erhvervsarbejdsark inkluderer bygningsarbejderen som én af mange samfundshjælpere og placerer byggebranchen i konteksten af det samlede arbejdsmarked, hvor ingeniører, arkitekter og håndværkere samarbejder med læger, lærere og andre fagfolk.',
+    },
+    {
+      vsThemeId: 'transportation',
+      summary: 'Transportarbejdsark fokuserer på køretøjer, ruter og bevægelse fra A til B. Erhvervsarbejdsark bruger køretøjer som ambulancer, brandbiler og postbiler som redskaber for de mennesker der betjener dem, hvilket skifter fokus fra maskinen til personen og dermed opbygger empati og forståelse for menneskers bidrag til samfundet.',
+    },
+  ],
+
+  productLinks: [
+    {
+      appId: 'matching-app',
+      anchorText: 'erhverv matchningsopgaver',
+      context: 'For at opbygge grundlæggende karrierebevidsthed udfordrer vores erhverv matchningsopgaver børn til at parre samfundshjælpere med deres kendetegnende værktøjer, uniformer og arbejdspladser, hvilket styrker klassifikation og logisk ræsonnement i en engagerende erhvervskontekst.',
+    },
+    {
+      appId: 'image-addition',
+      anchorText: 'erhverv additionsopgaver med billeder',
+      context: 'Når elever er klar til at kombinere talforståelse med arbejdspladsscenarier, præsenterer vores erhverv additionsopgaver med billeder regnestykker med brandmænd, pakker, muffins og patienter, der giver addition autentisk mening gennem erhvervskontekster.',
+    },
+    {
+      appId: 'word-search',
+      anchorText: 'erhverv ordsøgning printbar',
+      context: 'Ordforrådsindlæring accelererer, når børn jager efter karriereord som ambulance, stetoskop, uniform og byggeplads i vores erhverv ordsøgning printbar sider, der indlejrer fagspecifikt sprog i et puslespilformat, der gør staveøvelse til en leg.',
+    },
+    {
+      appId: 'shadow-match',
+      anchorText: 'erhverv skyggematching opgaver',
+      context: 'For at styrke visuel diskrimination og formgenkendelse udfordrer vores erhverv skyggematching opgaver børn til at matche samfundshjælpere og deres værktøjer med korrekte silhuetter, en færdighed der direkte understøtter bogstavgenkendelse og rumlig tænkning.',
+    },
+    {
+      appId: 'picture-bingo',
+      anchorText: 'erhverv bingo med billeder',
+      context: 'Som kulminerende gruppeaktivitet samler vores erhverv bingo med billeder hele klassen om et sjovt spil, der forstærker genkendelse af samfundshjælpere, deres værktøjer og arbejdspladser, mens det opbygger opmærksomhed, social interaktion og karriereordforråd.',
+    },
+  ],
+
+  classroomScenarios: [
+    {
+      situation: 'En børnehaveklasselærer planlægger en samfundsfagsenhed om samfundshjælpere, men oplever at mange elever kun kender til brandmænd og politi og har et meget begrænset billede af, hvilke erhverv der findes i deres lokalsamfund.',
+      solution: 'Hun introducerer to nye erhverv om ugen med erhvervsarbejdsark: matchningsopgaver der parrer arbejdere med værktøjer, find-og-tæl-ark med arbejdspladsscener og farvelægningssider med detaljerede uniformer. Hver uge dækker en anden sektor — sundhed, landbrug, service, byggeri — og eleverne tilføjer illustrerede kort til et stort samfundskort på væggen.',
+      outcome: 'Efter fire uger kan eleverne navngive og beskrive over tyve forskellige erhverv. Samfundskortet viser et rigt netværk af forbindelser, og eleverne begynder spontant at diskutere, hvordan landmanden hjælper kokken der hjælper restaurantgæsterne. Forældrene rapporterer at børnene stiller nysgerrige spørgsmål om familiemedlemmers arbejde derhjemme.',
+    },
+    {
+      situation: 'En forælder der hjemmeunderviser en syvårig, vil gerne introducere karrierebevidsthed og samfundsforståelse, men barnet er kun interesseret i et enkelt erhverv — dyrlæge — og afviser aktiviteter om andre jobtyper.',
+      solution: 'Forælderen bruger barnets interesse som udgangspunkt og printer dyrlæge-temaede additionsark og ordsøgninger, men tilføjer gradvist arbejdsark der viser, hvem dyrlægen samarbejder med: landmanden der bringer dyrene, laboranten der analyserer prøver, apotekeren der leverer medicin. Matchningsopgaver forbinder dyrlægen med hele sit professionelle netværk.',
+      outcome: 'Barnet opdager at dyrlægeerhvervet er forbundet med mange andre spændende karrierer og udvikler interesse for hele forsyningskæden omkring dyresundhed. Matematikfærdigheder styrkes gennem veterinærkontekst-regnestykker, og ordforrådet udvides med medicinsk og landbrugsterminologi, der rækker langt ud over det oprindelige snævre fokus.',
+    },
+    {
+      situation: 'En 2. klasselærer skal forberede eleverne til den årlige karrieredag, hvor lokale fagfolk besøger skolen, men erfaringen viser at eleverne stiller overfladiske spørgsmål og hurtigt mister interessen under præsentationerne.',
+      solution: 'I ugen op til karrieredagen udfylder eleverne erhvervsarbejdsark om de specifikke erhverv der vil blive præsenteret. Krydsord med fagordforråd, billedadditionsopgaver med arbejdspladsscenarier og sorteringsark der kategoriserer værktøjer efter erhverv giver eleverne baggrundsviden. Hver elev forbereder to spørgsmål baseret på det, de lærte fra arbejdsarkene.',
+      outcome: 'Under karrieredagen stiller eleverne dybere spørgsmål som hvad er det sværeste værktøj at lære at bruge og hvordan hjælper dit arbejde andre mennesker. De besøgende fagfolk bemærker kvaliteten af spørgsmålene, og læreren observerer at eleverne er engagerede gennem hele arrangementet, fordi arbejdsarkene har givet dem et fundament af viden og nysgerrighed at bygge videre på.',
+    },
+  ],
+
+  differentiationStrategies: [
+    {
+      learnerType: 'Visuelle elever',
+      adaptation: 'Brug farvelægnings- og skyggematching-arbejdsark som primære aktiviteter. De detaljerede uniformsillustrationer med karakteristiske kendetegn som brandmandens hjelm, lægens stetoskop og kokkens hat appellerer stærkt til visuelle processorer. Find-og-tæl-aktiviteter med travle arbejdspladsscener og billedmatching med værktøjer og erhverv tilbyder rige visuelle udfordringer, der holder disse elever engagerede.',
+    },
+    {
+      learnerType: 'Kinæstetiske elever',
+      adaptation: 'Par arbejdsark med fysiske rekvisitter og rollespil. Opret en karrierestation med udklædningstøj, legeværktøjer og uniformdele, hvor børnene kan udleve det erhverv de lige har arbejdet med på papir. Lad dem sortere fysiske værktøjsmodeller i erhvervskategorier sideløbende med sorteringsarbejdsark, og brug tegn-linjer-aktiviteter der forbinder arbejdere med deres arbejdspladser som bevægelsesbaseret matching.',
+    },
+    {
+      learnerType: 'Tosprogede elever',
+      adaptation: 'Start med billedtunge arbejdsark som farvelægning, skyggematching og find-og-tæl, før I introducerer ordbaserede aktiviteter. Erhvervsordforråd som læge, brandmand, kok og lærer er konkrete, illustrerbare ord der kan parres med fotos og rekvisitter. Tillad navngivning af erhverv og værktøjer på begge sprog, og brug ordsøgninger som progressiv staveøvelse med stigende sværhedsgrad.',
+    },
+    {
+      learnerType: 'Avancerede elever',
+      adaptation: 'Udfordr dem med flertrins forskningsprojekter der kombinerer flere arbejdsarktyper: lad dem beregne lønninger med multiplikation, sammenligne to erhverv med data fra karriereprofiltekster, og skrive deres egne informationsrapporter om et selvvalgt erhverv. Krydsord med avanceret fagordforråd som specialisering, kvalifikation og erhvervsuddannelse tilbyder justerbar sværhedsgrad for elever der er klar til mere.',
+    },
+  ],
+
+  crossCurricularLinks: [
+    {
+      subject: 'Samfundsfag',
+      connection: 'Erhvervsarbejdsark forbinder direkte til Fælles Måls kompetencemål for samfundsfag om samfundsroller, medborgerskab og økonomisk forståelse. Matchningsaktiviteter der parrer arbejdere med deres samfundsfunktioner og sorteringsopgaver der kategoriserer erhverv efter sektor opbygger den grundlæggende samfundsforståelse, der er central for faget.',
+      activity: 'Eleverne opretter et klassens samfundskort, hvor de placerer illustrerede erhvervsfigurer fra arbejdsarkene på de korrekte placeringer i et nabolagskort og tegner forbindelseslinjer mellem erhverv der er afhængige af hinanden, hvilket visualiserer samfundets gensidige afhængighed.',
+    },
+    {
+      subject: 'Dansk',
+      connection: 'Erhvervsordforråd spænder over mange fagdomæner og beriger elevernes sprog med specialtermer fra medicin, byggeri, landbrug, gastronomi og nødtjenester. Ordsøgninger, krydsord og ordforvrængninger med karriereord træner stavning, ordgenkendelse og kontekstuel forståelse på tværs af mange emnefelter.',
+      activity: 'Eleverne skriver korte karriereprofiler om et selvvalgt erhverv, bruger fagordforråd fra ordsøgnings- og krydsords-arbejdsark, og præsenterer profilen mundtligt for klassen, hvilket styrker både informationsskrivning og mundtlig formidling i tråd med Fælles Måls danskmål.',
+    },
+    {
+      subject: 'Matematik',
+      connection: 'Erhvervsscenarier giver matematik autentisk kontekst: en bager der beregner muffins, en brandmand der tæller redningsudkald, en landmand der høster kurve med æbler. Disse virkelighedsnære kontekster gør abstrakte operationer meningsfulde og viser eleverne, at matematik er et værktøj der bruges i alle erhverv hver dag.',
+      activity: 'Eleverne løser en serie erhvervs-regnehistorier, hvor hver opgave foregår på en anden arbejdsplads, sammenligner resultaterne og diskuterer, hvilket erhverv krævede den sværeste beregning, og hvorfor matematik er vigtig for netop det job.',
+    },
+  ],
+
+  assessmentIdeas: [
+    {
+      method: 'Erhvervsportefølje med arbejdsark og refleksion',
+      criteria: 'Eleven kan identificere og navngive mindst ti forskellige erhverv, matche dem korrekt med deres karakteristiske værktøjer og uniformer, og mundtligt forklare hvordan mindst tre erhverv bidrager til samfundet. Vurder nøjagtighed i matchning, bredde af erhvervskundskab og dybde i samfundsforståelse.',
+      gradeLevel: 'Børnehaveklasse',
+    },
+    {
+      method: 'Karrierenetværkskort med matematikintegration',
+      criteria: 'Eleven kan oprette et visuelt netværkskort der forbinder mindst otte erhverv med korrekte afhængighedsrelationer, løse additions- og subtraktionsopgaver i erhvervskontekster inden for 20, og skrive to til tre sætninger der forklarer hvorfor erhvervene er afhængige af hinanden. Vurder korrekthed i forbindelser, matematisk præcision og sproglig klarhed.',
+      gradeLevel: '1. klasse',
+    },
+    {
+      method: 'Karriereforskningsrapport med datasammenligning',
+      criteria: 'Eleven kan undersøge to erhverv, sammenligne uddannelseskrav, daglige opgaver og værktøjer i en struktureret tekst over flere afsnit, anvende multiplikation til at beregne ugentlig og månedlig indkomst fra timelønninger, og konkludere med en begrundet vurdering af hvilken karriere der bedst matcher deres egne styrker og interesser.',
+      gradeLevel: '3. klasse',
+    },
+  ],
+
+  expertTips: [
+    {
+      tip: 'Introducer erhverv i klynger af indbyrdes forbundne roller frem for isolerede job. Når du underviser i sundhedssektoren, vis hvordan lægen, sygeplejersken, ambulanceredderen, laboranten og apotekeren alle samarbejder om patientens helbred. Denne klyngetilgang opbygger systemtænkning og viser børn, at intet erhverv fungerer i isolation, hvilket er langt mere virkelighedstro end den traditionelle én-arbejder-om-ugen-metode.',
+      source: 'Dansk erhvervspædagogisk praksis — UCC uddannelsesforskning',
+      gradeRange: 'Børnehaveklasse – 1. klasse',
+    },
+    {
+      tip: 'Brug børnenes egne familiemedlemmers erhverv som udgangspunkt for samfundsforståelse. Lad hver elev interviewe en forælder eller bedsteforælder om deres arbejde med et struktureret spørgeskema og derefter præsentere karriereprofilen for klassen. Denne personlige forbindelse gør erhvervstemaet konkret og betydningsfuldt, og de mange forskellige jobtyper i klassens familier illustrerer naturligt arbejdsmarkedets mangfoldighed.',
+      source: 'Jensen, U.H. — DPU — erhvervsorientering i folkeskolen',
+      gradeRange: '1. klasse – 2. klasse',
+    },
+    {
+      tip: 'Integrer økonomisk forståelse gradvist fra 2. klasse ved at lade eleverne beregne lønninger, sammenligne indkomster og oprette enkle budgetter i erhvervskontekster. Undgå at fremstille nogle erhverv som mere værdifulde end andre baseret på løn alene — brug i stedet sammenligninger til at diskutere, hvad der gør et job meningsfuldt, herunder samfundsnytte, personlig tilfredshed og muligheden for at hjælpe andre.',
+      source: 'Dansk samfundsfagsdidaktik — VIA University College',
+      gradeRange: '2. klasse – 3. klasse',
+    },
+  ],
+
+  quickStats: [
+    { label: 'Anbefalet aldersgruppe', value: '3–9 år' },
+    { label: 'Arbejdsark-apps tilgængelige', value: '11 generatorer' },
+    { label: 'Fagområder dækket', value: 'Matematik, dansk, samfundsfag' },
+    { label: 'Klassetrin understøttet', value: 'Førskole – 3. klasse' },
+    { label: 'Gennemsnitlig sessionsvarighed', value: '10–20 minutter' },
+    { label: 'Erhverv dækket', value: '25+ erhverv' },
+  ],
 };
 
 registerThemeContent('jobs', 'da', content);

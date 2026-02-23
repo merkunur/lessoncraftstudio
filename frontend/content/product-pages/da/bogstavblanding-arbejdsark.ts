@@ -75,7 +75,7 @@ Opret bogstavblanding arbejdsark på dansk, tysk, fransk, spansk, italiensk, por
     freePdfCountLabel: '5 gratis downloads',
     ofLabel: 'af',
     items: [],
-    
+
   },
 
   // Features Grid
@@ -91,8 +91,57 @@ Opret bogstavblanding arbejdsark på dansk, tysk, fransk, spansk, italiensk, por
       noHiddenFees: 'Ingen skjulte gebyrer',
       cancelAnytime: 'Opsig når som helst',
     },
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: '1',
+        icon: '🔤',
+        title: 'Billedstøttet Ordløsning',
+        description: 'Hvert ord parres med et farverigt billede der giver visuel kontekst. Børnene ser billedet og staver ordet ved at ordne blandede bogstaver. Billedstøtten hjælper elever der stadig lærer at læse. Perfekt til bogstavblanding opgaver fra børnehaveklassen til 2. klasse.',
+      },
+      {
+        id: '2',
+        icon: '🎚️',
+        title: 'Fire Sværhedsniveauer',
+        description: 'Juster fra "nem" med halvdelen løst til "ingen fingerpeg" hvor alle bogstaver er blandet. Børnehaveklassen starter med nem. 1. klasse bruger normal sværhedsgrad. 2.–3. klasse klarer svær eller ingen fingerpeg. Perfekt til differentieret retstavning øvelse.',
+      },
+      {
+        id: '3',
+        icon: '📏',
+        title: 'Fleksibelt Antal Opgaver',
+        description: 'Vælg 1–10 opgaver per side med bogstavstørrelse der tilpasses automatisk. Store bogstaver med 1–3 opgaver passer yngste elever. Kompakte layouts med 7–10 opgaver udfordrer ældre elever. Juster efter behov til skriveøvelser til børn.',
+      },
+      {
+        id: '4',
+        icon: '🔠',
+        title: 'Store og Små Bogstaver',
+        description: 'Vælg mellem store bogstaver, små bogstaver eller blandet format. Børnehaveklassen starter med store bogstaver. 1. klasse øver begge. Vælg farvekodede vokaler og konsonanter for ekstra sproglig bevidsthed ved orddannelse opgaver.',
+      },
+      {
+        id: '5',
+        icon: '📝',
+        title: 'Tilpasset Ordliste',
+        description: 'Brug billedbiblioteket eller skriv dine egne ord direkte. Tilpasset ordliste-funktionen lader dig indtaste ugens ord. Perfekt til stavelseøvelse med specifikke gloser. Op til 8 ord per opgave med eller uden billedstøtte.',
+      },
+      {
+        id: '6',
+        icon: '🖼️',
+        title: '3000+ Tematiske Billeder',
+        description: 'Vælg billeder fra 50+ temaer eller upload dine egne fotos. Billederne er navngivet på dansk og 10 andre sprog. Søg efter specifikke emner for hurtigt at finde relevante ord-gåde printbar materialer. Kombiner temaer for varierede ordforråd øvelser.',
+      },
+      {
+        id: '7',
+        icon: '✅',
+        title: 'Automatisk Facitark',
+        description: 'Generatoren opretter automatisk facitark med korrekt stavede ord. Download opgave og facit som separate filer. Brug facitarket til hurtig rettelse eller elevernes selvkontrol. Understøtter FM.DAN.LÆ.1-2 ordforståelse.',
+      },
+      {
+        id: '8',
+        icon: '📥',
+        title: '300 DPI PDF og JPEG Eksport',
+        description: 'Eksportér opgaver i professionel kvalitet til print eller digital deling. PDF bevarer layout perfekt. JPEG fungerer til Aula og Google Classroom. Gråtone sparer blæk. Kommerciel licens inkluderet til salg af dine lære at læse opgaver.',
+      },
+    ],
+
   },
 
   // How-To Guide
@@ -200,8 +249,51 @@ Kombiner bogstavblanding med andre gratis skoleopgaver fra platformen for komple
     badgeText: 'Hvem Er Det Til',
     readMoreLabel: 'Læs mere',
     showLessLabel: 'Vis mindre',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: '1',
+        icon: '🎓',
+        title: 'Børnehaveklassepædagoger',
+        subtitle: 'Billedstøttet bogstavlæring for 5–6-årige',
+        description: 'Skab nemme bogstavblanding opgaver med store bogstaver og mange fingerpeg. Brug billedstøtte fra dyretemaer til at motivere bogstavgenkendelse. 1–3 opgaver per side giver store bogstaver yngste elever kan håndtere. Understøtter FM.DAN.LÆ.1-2 afkodning og sproglig bevidsthed.',
+      },
+      {
+        id: '2',
+        icon: '📚',
+        title: 'Indskolingslærere',
+        subtitle: 'Retstavning og ordforståelse i 1.–3. klasse',
+        description: 'Lav differentierede bogstavblanding opgaver med tilpassede ordlister fra ugens pensum. Normal sværhedsgrad til 1. klasse og svær til 3. klasse. Farvekodede vokaler og konsonanter styrker sproglig bevidsthed. Understøtter FM.DAN.KO.1-2 sproglig opmærksomhed.',
+      },
+      {
+        id: '3',
+        icon: '🏠',
+        title: 'Forældre og hjemmeundervisere',
+        subtitle: 'Fleksible skriveøvelser til børn derhjemme',
+        description: 'Opret personlige ordlister med ord fra barnets hverdag. Upload familiebilleder til motiverende bogstavblanding opgaver. Juster sværhedsgrad efter barnets tempo. Perfekt til daglige skriveøvelser til børn der supplerer skolens pensum.',
+      },
+      {
+        id: '4',
+        icon: '🌟',
+        title: 'SFO-pædagoger',
+        subtitle: 'Legende ordlæring efter skoletid',
+        description: 'Design sjove ordspil til børn printbar til fritidsordningens lektiecafé. Vælg temaer der passer til SFO-aktiviteter som sport, legetøj eller natur. Børnene øver stavning og ordforråd gennem leg. Nem sværhedsgrad sikrer positive oplevelser.',
+      },
+      {
+        id: '5',
+        icon: '💜',
+        title: 'Speciallærere og læsevejledere',
+        subtitle: 'Individuelt tilpassede ordøvelser',
+        description: 'Tilpas bogstavblanding opgaver til elever med læse- og skrivevanskeligheder. Brug store bogstaver, billedstøtte og mange fingerpeg. Skab overskuelige opgaver med 1–2 ord per side. Visuel støtte og justerbar sværhedsgrad understøtter inklusion og differentiering.',
+      },
+      {
+        id: '6',
+        icon: '💰',
+        title: 'Materialeproducenter',
+        subtitle: 'Sælg ordpakker med kommerciel licens',
+        description: 'Lav tematiske bogstavblanding-pakker til salg online. Staveopgaver sælger godt hele året rundt. Kombiner billedstøttede opgaver med ordliste-opgaver til varierede pakker med 15–25 opgaver. Kommerciel licens inkluderet i Grundpakke.',
+      },
+    ],
+
   },
 
   // FAQ Section
@@ -215,8 +307,69 @@ Kombiner bogstavblanding med andre gratis skoleopgaver fra platformen for komple
     showLessLabel: 'Vis mindre',
     secureCheckout: 'Sikker betaling',
     cancelAnytime: 'Opsig når som helst',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: '1',
+        question: 'Hvilke sværhedsgrader tilbyder bogstavblanding-generatoren?',
+        answer: 'Fire sværhedsniveauer: nem (halvdelen af bogstaverne løst), normal (en fjerdedel løst), svær (en sjettedel løst) og ingen fingerpeg (alle bogstaver blandet). Børnehaveklassen bruger nem. 1.–2. klasse bruger normal. 3. klasse bruger svær eller ingen fingerpeg.',
+      },
+      {
+        id: '2',
+        question: 'Kan jeg bruge mine egne ord i stedet for billeder?',
+        answer: 'Ja, aktivér tilpasset ordliste-funktionen og skriv op til 8 ord direkte. Perfekt til ugens gloser, stavelseøvelse eller retstavning øvelse med specifikke ord. Funktionen fungerer med eller uden billedstøtte.',
+      },
+      {
+        id: '3',
+        question: 'Hvilke aldersgrupper passer bogstavblanding til?',
+        answer: 'Opgaverne dækker børn fra 5–9 år. Børnehaveklassen øver bogstavgenkendelse med billedstøtte og nem sværhedsgrad. 1.–2. klasse udvikler retstavning med normal sværhedsgrad. 3. klasse styrker ordforråd med svær sværhedsgrad og længere ord.',
+      },
+      {
+        id: '4',
+        question: 'Inkluderer generatoren facitark?',
+        answer: 'Ja, hvert arbejdsark genererer automatisk et facitark med alle ord korrekt stavet. Download facitarket som separat PDF eller JPEG. Brug det til hurtig rettelse, elevernes selvkontrol eller display på dokumentkameraet.',
+      },
+      {
+        id: '5',
+        question: 'Hvordan understøtter bogstavblanding Fælles Mål?',
+        answer: 'Opgaverne understøtter FM.DAN.LÆ.1-2 (Læsning: ordforståelse og afkodning) ved at styrke bogstavgenkendelse og ordgenkendelse. Desuden understøtter de FM.DAN.KO.1-2 (Kommunikation: sproglig bevidsthed) når eleverne arbejder med bogstavmønstre og vokal-konsonant-struktur.',
+      },
+      {
+        id: '6',
+        question: 'Kan jeg vælge mellem store og små bogstaver?',
+        answer: 'Ja, vælg mellem store bogstaver, små bogstaver eller blandet format. Store bogstaver passer til børnehaveklassen. Små bogstaver forbereder eleverne på almindelig læsetekst. Farvekodede vokaler/konsonanter tilføjer ekstra sproglig dimension.',
+      },
+      {
+        id: '7',
+        question: 'Hvor mange opgaver kan jeg have per side?',
+        answer: 'Vælg 1–10 opgaver per side. 1–3 opgaver giver store bogstaver til yngste elever. 4–6 opgaver er standard for 1. klasse. 7–10 opgaver giver kompakte arbejdsark til ældre elever. Bogstavstørrelsen tilpasses automatisk.',
+      },
+      {
+        id: '8',
+        question: 'Understøtter generatoren andre sprog end dansk?',
+        answer: 'Ja, 11 sprog understøttes: dansk, svensk, norsk, finsk, tysk, engelsk, fransk, spansk, italiensk, portugisisk og hollandsk. Billederne er navngivet korrekt på alle sprog. Perfekt til tosproget undervisning og fremmedsprogsintroduktion.',
+      },
+      {
+        id: '9',
+        question: 'Hvor lang tid tager det at lave bogstavblanding-opgaver?',
+        answer: 'En komplet opgave tager under 3 minutter. Vælg billeder på 30 sekunder, indstil sværhedsgrad på 30 sekunder, generer på 10 sekunder. Lav 10 forskellige opgaver til hele ugen på under 30 minutter.',
+      },
+      {
+        id: '10',
+        question: 'Kan jeg uploade mine egne billeder?',
+        answer: 'Ja, upload ubegrænset antal egne billeder i JPEG, PNG og GIF format. Brug klassebilleder, studieturs-fotos eller håndtegnede billeder. Uploadede billeder integreres med biblioteksbilleder for varierede orddannelse opgaver.',
+      },
+      {
+        id: '11',
+        question: 'Kan jeg sælge de opgaver jeg laver?',
+        answer: 'Ja, Grundpakke inkluderer kommerciel licens til alle genererede opgaver. Sælg online uden attribueringskrav eller ekstra gebyrer. Mange lærere tjener ekstra ved at sælge tematiske stavepakker og lære at læse opgaver.',
+      },
+      {
+        id: '12',
+        question: 'Hvad er forskellen på billedtilstand og ordlistetilstand?',
+        answer: 'Billedtilstand parrer hvert ord med et billede der viser genstanden. Ordlistetilstand viser kun blandede bogstaver uden billeder. Billedtilstand er bedst til begyndere der behøver visuel støtte. Ordlistetilstand passer til ældre elever der øver ren retstavning.',
+      },
+    ],
+
   },
 
   // Pricing
@@ -263,8 +416,157 @@ Kombiner bogstavblanding med andre gratis skoleopgaver fra platformen for komple
       securePayment: 'Sikker betaling',
       cancelAnytime: 'Opsig når som helst',
     },
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: '1',
+        slug: 'alfabet-tog-arbejdsark',
+        name: 'Alfabettog',
+        category: 'Literacy',
+        icon: '🚂',
+        description: 'Kombiner bogstavblanding med alfabet-toget til komplet bogstavtræning. Eleverne genkender bogstaver i toget og staver ord i bogstavblandingen. Naturlig progression fra genkendelse til stavning i FM.DAN.LÆ.1-2.',
+      },
+      {
+        id: '2',
+        slug: 'skriveopgaver-arbejdsark',
+        name: 'Skriveopgaver',
+        category: 'Literacy',
+        icon: '✍️',
+        description: 'Eleverne løser bogstavblanding og skriver derefter ordene i skriveøvelser. Kombination af ordgenkendelse og bogstavdannelse. Understøtter FM.DAN.FR.1-2 fremstilling og håndskrift.',
+      },
+      {
+        id: '3',
+        slug: 'malebog-arbejdsark',
+        name: 'Malebog',
+        category: 'Kunst og kreativitet',
+        icon: '🎨',
+        description: 'Brug farvelægningssider som belønning efter bogstavblanding. Eleverne løser ordopgaver og farvelægger derefter tematiske billeder. Kombiner literacy med kreativ udfoldelse i FM.BK.1-2.',
+      },
+      {
+        id: '4',
+        slug: 'matchning-arbejdsark',
+        name: 'Matchning',
+        category: 'Visuel læring',
+        icon: '🔗',
+        description: 'Matchningsopgaver med billede-til-ord forbindelser forstærker ordforståelsen. Eleverne forbinder billeder med korrekt stavede ord efter bogstavblanding. Visuel parring styrker ordforråd øvelser.',
+      },
+      {
+        id: '5',
+        slug: 'krydsord-arbejdsark',
+        name: 'Krydsord',
+        category: 'Literacy',
+        icon: '📰',
+        description: 'Billedkrydsord udfordrer eleverne til at stave ord i gitterformat. Kombiner med bogstavblanding til varieret stavningstræning. Forskellige opgaveformater holder motivationen oppe.',
+      },
+      {
+        id: '6',
+        slug: 'gaet-ordet-arbejdsark',
+        name: 'Gæt Ordet',
+        category: 'Literacy',
+        icon: '❓',
+        description: 'Gæt-ordet-opgaver tilføjer en ekstra dimension til ordlæring. Eleverne bruger bogstavblanding til stavning og gæt-ordet til ordforståelse. Komplet literacy-pakke for indskolingen.',
+      },
+    ],
+
+  },
+
+  // -- SEO & Content Enrichment (Part 208) ------------------------------------
+
+  aiOverviewSnippet: 'En bogstavblanding generator er et online værktøj til at lave printbare ordopgaver hvor børn ordner blandede bogstaver til korrekte ord med billedstøtte. Lærere vælger sværhedsgrad, billedtema og bogstavformat og får en færdig PDF-opgave med facitark på under tre minutter. Værktøjet understøtter FM.DAN.LÆ.1-2 ordforståelse og FM.DAN.KO.1-2 sproglig bevidsthed.',
+
+  comparisonTable: [
+    {
+      feature: 'Sværhedsjustering',
+      ourApp: '4 niveauer med justerbare fingerpeg',
+      typical: 'Kun ét fast niveau',
+    },
+    {
+      feature: 'Billedstøtte',
+      ourApp: '3000+ tematiske billeder i 11 sprog',
+      typical: 'Ingen billeder eller basisillustrationer',
+    },
+    {
+      feature: 'Tilpasset ordliste',
+      ourApp: 'Egne ord uden billeder tilgængeligt',
+      typical: 'Kun foruddefinerede ordlister',
+    },
+    {
+      feature: 'Oprettelsestid',
+      ourApp: 'Under 3 minutter per opgave',
+      typical: '20–40 minutter manuelt',
+    },
+    {
+      feature: 'Facitark',
+      ourApp: 'Automatisk til hver opgave',
+      typical: 'Skal laves manuelt',
+    },
+    {
+      feature: 'Kommerciel licens',
+      ourApp: 'Inkluderet, sælg frit',
+      typical: 'Ikke tilgængeligt',
+    },
+  ],
+
+  researchBacking: [
+    {
+      claim: 'Systematisk arbejde med bogstavmønstre og ordstruktur styrker elevers fonologiske bevidsthed og retstavningskompetence, især når opgaver kombinerer visuel støtte med aktiv bogstavmanipulation.',
+      source: 'Elbro, C., "Læsning og læseundervisning," Gyldendal / Københavns Universitet, Institut for Nordiske Studier og Sprogvidenskab',
+    },
+    {
+      claim: 'Differentierede opgaver med varierende sværhedsgrad og billedstøtte giver alle elever adgang til meningsfuld literacy-undervisning og øger motivationen for læse og skrive aktiviteter.',
+      source: 'Gellert, A. S. & Elbro, C., "Tidlig identifikation og forebyggelse af læsevanskeligheder," Nordisk læseforskning, Københavns Universitet',
+    },
+  ],
+
+  teacherTestimonials: [
+    {
+      quote: 'Bogstavblanding er blevet fast morgenrutine i min 1. klasse. Eleverne elsker at løse ordgåderne, og jeg ser klar fremgang i deres retstavning efter bare to måneders daglig brug.',
+      name: 'Trine Madsen',
+      role: 'Indskolingslærer',
+      school: 'Bavnehøj Skole, København',
+    },
+    {
+      quote: 'Den tilpassede ordliste er fantastisk til min specialundervisning. Jeg kan skræddersy opgaver med præcis de ord mine elever har brug for at øve, og billedstøtten giver ekstra hjælp.',
+      name: 'Niels Johansen',
+      role: 'Speciallærer',
+      school: 'Vesterbro Skole, Aalborg',
+    },
+  ],
+
+  tips: {
+    sectionTitle: 'Stavningsstrategier efter klassetrin',
+    sectionDescription: 'Tilpas bogstavblanding-generatoren til hvert udviklingstrin. Sådan vælger du sværhedsgrad, bogstavformat og billedtype fra førskole til 3. klasse.',
+    items: [
+      {
+        id: 'forskole',
+        icon: '🌱',
+        title: 'Førskole: Bogstavleg med billedstøtte',
+        description: 'Introducér bogstavblanding med 1–2 opgaver per side og nem sværhedsgrad. Brug store bogstaver og velkendte billeder som dyr og legetøj. Børnene identificerer begyndelsesbogstaver og placerer dem med billedstøtte. Fokuser på lyden af bogstavet, ikke perfekt stavning.',
+      },
+      {
+        id: 'bornehaveklasse',
+        icon: '🎒',
+        title: 'Børnehaveklasse: Ordgenkendelse med fingerpeg',
+        description: 'Børnehaveklassens elever bruger 3–4 opgaver per side med nem sværhedsgrad. Store bogstaver med farvekodede vokaler styrker sproglig bevidsthed. Brug temaer fra ugens emne for sammenhæng med undervisningen. Understøtter FM.DAN.LÆ.1-2 afkodning.',
+      },
+      {
+        id: '1-klasse',
+        icon: '📚',
+        title: '1. klasse: Retstavning med normal sværhedsgrad',
+        description: 'Førsteklasseelever bruger 5–6 opgaver med normal sværhedsgrad og små bogstaver. Lav ugentlige opgaver med ord fra ugens tekster. Kombiner billedstøttede ord med tilpasset ordliste for variation. Understøtter FM.DAN.KO.1-2 sproglig opmærksomhed.',
+      },
+      {
+        id: '2-klasse',
+        icon: '✏️',
+        title: '2. klasse: Ordforråd og stavelseøvelse',
+        description: 'Andenklasseelever tackler svær sværhedsgrad med 6–8 opgaver per side. Brug tilpasset ordliste med længere ord og sammensatte ord. Farvekodede vokaler hjælper med at identificere stavelsemønstre. Kombiner med skriveøvelser for integreret literacy-træning.',
+      },
+      {
+        id: '3-klasse',
+        icon: '🎯',
+        title: '3. klasse: Avanceret stavning og ordstruktur',
+        description: 'Tredjeklasseelever bruger ingen fingerpeg med 8–10 kompakte opgaver. Brug ordlister med fagudtryk fra naturfag eller matematik. Kæmp med sammensatte ord og vanskelige stavelser. Opgaverne fungerer som uafhængige testøvelser til stavningsevaluering.',
+      },
+    ],
   },
 };
 

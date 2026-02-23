@@ -75,7 +75,7 @@ Bingo gratis arbejdsark styrker mange vigtige færdigheder hos børn. Billedgenk
     freePdfCountLabel: '3 gratis downloads',
     ofLabel: 'af',
     items: [],
-    
+
   },
 
   // Features Grid
@@ -91,8 +91,59 @@ Bingo gratis arbejdsark styrker mange vigtige færdigheder hos børn. Billedgenk
       noHiddenFees: 'Ingen skjulte gebyrer',
       cancelAnytime: 'Opsig når som helst',
     },
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: '1',
+        icon: '📐',
+        title: 'Fleksible gitterstørrelser: 3x3, 4x4 og 5x5',
+        description: 'Vælg mellem tre gitterstørrelser til dine bingo-kort. 3x3-gitteret med 9 felter er perfekt til børnehaveklassen og førskolen, hvor børnene hurtigt oplever succes. 4x4-gitteret med 16 felter passer til 1. klasse med moderat udfordring. 5x5-gitteret med 25 felter udfordrer 2.–3. klasse og kræver længere koncentration. Tilpas altid gitterstørrelsen til elevernes alder og opmærksomhedsspænd for at sikre engagement i bingospillet.',
+        highlighted: true,
+      },
+      {
+        id: '2',
+        icon: '🃏',
+        title: 'Flere unikke kort per generering',
+        description: 'Generér op til 10 helt unikke bingo-kort på én gang. Hvert kort får en tilfældig placering af billederne, så ingen to kort er ens. Dette er afgørende for et rigtigt bingospil, hvor kun én spiller kan vinde ad gangen. Print kortene ud og uddel dem til hele klassen. Generér igen for at få nye layouts med de samme billeder, eller skift billeder for en helt ny runde med bingo printbar til børn.',
+      },
+      {
+        id: '3',
+        icon: '📋',
+        title: 'Automatisk ring-ark (call sheet)',
+        description: 'Et ring-ark genereres automatisk sammen med bingo-kortene. Ring-arket viser alle billeder fra kortene i en overskuelig oversigt. Læreren eller bingolederen bruger ring-arket til at trække og annoncere billeder. Klip ring-arket ud i individuelle kort og læg dem i en skål til tilfældig udtrækning. Ring-arket sikrer at spillet forløber fair og struktureret i klasselokalet.',
+      },
+      {
+        id: '4',
+        icon: '🖼️',
+        title: '3000+ billeder fra tematisk bibliotek',
+        description: 'Vælg fra et bibliotek med over 3000 børnevenlige illustrationer fordelt på 50 temaer. Dyretemaet indeholder husdyr, vilde dyr og havdyr. Madtemaet dækker frugt, grøntsager og måltider. Transporttemaet viser biler, fly og skibe. Alle billeder er professionelt tegnet i en ensartet stil der passer til billed-bingo spil og printbart bingospil til børn.',
+        highlighted: true,
+      },
+      {
+        id: '5',
+        icon: '🔤',
+        title: 'Billede- og ordtilstand',
+        description: 'Vælg om bingo-kortene skal vise billeder, ord eller en kombination. Ren billedtilstand er ideel til førskolen og børnehaveklassen. Ordtilstand træner læsefærdigheder hos 1.–2. klasse. Kombiner billeder på kortene med ord på ring-arket for at styrke ordforråd og billed-ordassociation. Denne fleksibilitet understøtter FM.DAN.KO.1-2 kommunikation og dialog i klasselokalet.',
+      },
+      {
+        id: '6',
+        icon: '✏️',
+        title: 'Canvas-redigering med træk-og-slip',
+        description: 'Rediger hvert bingo-kort direkte på lærredet efter generering. Træk billeder til nye positioner, skaler dem større eller mindre, og tilføj tekstelementer. Skriv titler, elevnavne eller instruktioner direkte på kortet. Slet uønskede elementer eller tilføj nye fra biblioteket. Canvas-redigeringen giver fuld kontrol over det færdige bingo arbejdsark til børn.',
+      },
+      {
+        id: '7',
+        icon: '🎨',
+        title: 'Temabaggrunde og farvetilpasning',
+        description: 'Tilpas baggrundsfarver og vælg dekorative baggrunde fra baggrundsbiblioteket. Lyse pastelfarver passer til børnehaveklassen. Sæsonbestemte baggrunde som efterårsblade, sne eller sommerblomster gør bingospillet tematisk. Tilføj dekorative rammer fra rammebiblioteket for et professionelt finish. Skab visuelt tiltalende bingo billeder børn elsker at spille med.',
+      },
+      {
+        id: '8',
+        icon: '📥',
+        title: 'PDF- og JPEG-eksport i 300 DPI',
+        description: 'Download færdige bingo-kort som PDF til print eller JPEG til digital brug. Begge formater leveres i professionel 300 DPI kvalitet der giver skarpe billeder og tekst. Aktivér gråtoneindstillingen for at spare farveblæk. PDF-formatet er ideelt til klassesæt, mens JPEG fungerer godt til interaktive tavler eller digital bingo. Ubegrænsede downloads med dit Grundpakke abonnement.',
+      },
+    ],
+
   },
 
   // How-To Guide
@@ -161,7 +212,7 @@ Juster farver på alle elementer. Skift baggrundsfarven på bingo-cellerne. Tilp
 
 Download bingo-kortene først. Derefter download ring-arket separat. Begge downloads tager kun få sekunder. Filerne gemmes direkte til din computer. Åbn PDF-filen og print den straks. Eller gem den til senere brug for arbejdsark til børnehaveklasse. Dit Grundpakke abonnement tillader ubegrænsede downloads.
 
-Aktiver gråtone-indstillingen inden download for at spare blæk. Konvertering til sort-hvid bevarer alle detaljer. Perfekt til malebog aktiviteter efter bingo-spillet. Print bingo-kortene på tykt papir for holdbarhed. Laminer kortene til gentagen brug. Brug gennemsigtige brikker eller farvelægning markører til at markere billeder under spillet med gratis printables.`,
+Aktivér gråtone-indstillingen inden download for at spare blæk. Konvertering til sort-hvid bevarer alle detaljer. Perfekt til malebog aktiviteter efter bingo-spillet. Print bingo-kortene på tykt papir for holdbarhed. Laminer kortene til gentagen brug. Brug gennemsigtige brikker eller farvelægning markører til at markere billeder under spillet med gratis printables.`,
         icon: '📥',
       },
     ],
@@ -174,8 +225,51 @@ Aktiver gråtone-indstillingen inden download for at spare blæk. Konvertering t
     badgeText: 'Hvem Er Det Til',
     readMoreLabel: 'Læs mere',
     showLessLabel: 'Vis mindre',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: '1',
+        icon: '🧸',
+        title: 'Børnehaveklassepædagoger',
+        subtitle: 'Social læring gennem bingospil',
+        description: 'Bingo er et ideelt værktøj til social læring i børnehaveklassen. Eleverne lærer turtagning, at lytte til instruktioner og at reagere på fælles signaler. Brug 3x3-gitteret med dyrebilleder til den første bingo-oplevelse. Spillet understøtter FM.DAN.KO.1-2 kommunikation og dialog, da eleverne aktivt lytter og reagerer mundtligt når de genkender billeder på deres kort.',
+      },
+      {
+        id: '2',
+        icon: '📚',
+        title: 'Indskolingslærere',
+        subtitle: 'Faglig repetition som gruppespil',
+        description: 'Brug billed-bingo til at repetere fagligt indhold på en sjov og engagerende måde. Lav talbingo til matematikrepetition med FM.MAT.TA.1-3 talopgaver i bingo-format. Skab ordbingo til dansk med ugens nye ord. Kombiner billeder og ord for at styrke ordforråd i natur/teknologi. Differentiér med forskellige gitterstørrelser: 3x3 til elever der har brug for støtte, 5x5 til dem der er klar til større udfordring.',
+      },
+      {
+        id: '3',
+        icon: '🏠',
+        title: 'Forældre og familier',
+        subtitle: 'Familiespil med læringspotentiale',
+        description: 'Skab bingospil til familieaftener, fødselsdagsfester eller ferieaktiviteter. Upload familiebilleder, kæledyrsbilleder eller feriefotos til personlige bingokort. Børnene engagerer sig mere med velkendte billeder fra deres hverdag. Lav sæsonbestemte bingospil til jul, påske eller sommerferie. Printbart bingospil til børn der kombinerer underholdning med uformel læring i hjemmet.',
+      },
+      {
+        id: '4',
+        icon: '🌟',
+        title: 'SFO-pædagoger',
+        subtitle: 'Gruppeaktiviteter efter skoletid',
+        description: 'Bingo er perfekt til fritidsordningen hvor store grupper skal aktiveres med minimal forberedelse. Lav temabingo der passer til SFO-aktiviteter som udeskole, madlavning eller kreative projekter. Generér 10 unikke kort og spil med hele gruppen. Ring-arket gør det nemt for pædagogen at lede spillet. Bingospil klasselokale-aktiviteter skaber fællesskab og socialt samvær efter en lang skoledag.',
+      },
+      {
+        id: '5',
+        icon: '💜',
+        title: 'Speciallærere',
+        subtitle: 'Inklusion gennem tilpassede spil',
+        description: 'Tilpas bingospil til individuelle behov med justerbare gitterstørrelser og billedindhold. 3x3-gitteret reducerer kognitiv belastning for elever med opmærksomhedsvanskeligheder. Brug velkendte billeder fra elevens interesseområder for at øge motivation. Billed-bingo understøtter visuel læring og social deltagelse. Alle elever kan deltage i fælles bingospil på deres eget niveau, hvilket fremmer inklusion og differentiering.',
+      },
+      {
+        id: '6',
+        icon: '💰',
+        title: 'Materialeproducenter',
+        subtitle: 'Sælg tematiske bingopakker med licens',
+        description: 'Lav professionelle bingopakker til salg online med den inkluderede kommercielle licens. Tematiske bingosæt er populære på Teachers Pay Teachers og lignende platforme. Lav sæsonpakker med 10–20 unikke bingokort per tema. Kombiner bingokort med ring-ark og spillevejledning for komplette produkter. Bingo opgave til børn sælger godt året rundt, især til højtider og tematiske uger.',
+      },
+    ],
+
   },
 
   // FAQ Section
@@ -189,8 +283,69 @@ Aktiver gråtone-indstillingen inden download for at spare blæk. Konvertering t
     showLessLabel: 'Vis mindre',
     secureCheckout: 'Sikker betaling',
     cancelAnytime: 'Opsig når som helst',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: '1',
+        question: 'Hvilke gitterstørrelser kan jeg vælge til bingo-kort?',
+        answer: 'Generatoren tilbyder tre gitterstørrelser: 3x3 med 9 felter, 4x4 med 16 felter og 5x5 med 25 felter. 3x3 passer til børnehaveklassen og førskolen. 4x4 er ideel til 1. klasse. 5x5 udfordrer 2.–3. klasse med længere spilforløb og flere billeder at holde styr på.',
+      },
+      {
+        id: '2',
+        question: 'Hvor mange unikke bingo-kort kan jeg generere på én gang?',
+        answer: 'Du kan generere op til 10 helt unikke bingo-kort per generering. Hvert kort får tilfældig placering af billederne, så ingen to kort er identiske. Dette sikrer et rigtigt bingospil hvor kun én spiller vinder ad gangen. Generér igen for nye layouts med de samme billeder.',
+      },
+      {
+        id: '3',
+        question: 'Hvad er et ring-ark, og følger det automatisk med?',
+        answer: 'Et ring-ark (call sheet) er en oversigt over alle billeder der bruges i bingospillet. Ring-arket genereres automatisk sammen med bingo-kortene. Læreren bruger ring-arket til at trække og annoncere billeder. Klip ring-arket ud i individuelle kort og læg dem i en skål til tilfældig udtrækning.',
+      },
+      {
+        id: '4',
+        question: 'Kan bingo-kortene vise ord i stedet for billeder?',
+        answer: 'Ja, du kan vælge mellem ren billedtilstand, ren ordtilstand eller kombineret tilstand. Billedtilstand passer til førskolen. Ordtilstand træner læsefærdigheder i 1.–2. klasse. Kombiner billeder på kortene med ord på ring-arket for at styrke ordforråd og billed-ordassociation i overensstemmelse med FM.DAN.KO.1-2.',
+      },
+      {
+        id: '5',
+        question: 'Hvilke aldersgrupper passer billed-bingo til?',
+        answer: 'Billed-bingo dækker børn fra 4–9 år. Førskolebørn (4–5 år) bruger 3x3-gitter med genkendelige billeder. Børnehaveklassebørn (5–6 år) mestrer 3x3 og 4x4 med temaer fra hverdagen. Elever i 1.–2. klasse (6–8 år) udfordres med 4x4 og 5x5. 3. klasse (8–9 år) spiller avanceret bingo med ord og større gitre.',
+      },
+      {
+        id: '6',
+        question: 'Hvordan understøtter billed-bingo Fælles Mål?',
+        answer: 'Bingospillet understøtter flere kompetenceområder: FM.DAN.KO.1-2 (kommunikation og dialog) da eleverne lytter, reagerer og kommunikerer mundtligt under spillet. FM.MAT.TA.1-3 når bingo bruges med talindhold til matematikrepetition. Billedbingo fremmer også sociale færdigheder som turtagning og fælles regelforståelse i indskolingen.',
+      },
+      {
+        id: '7',
+        question: 'Hvor lang tid tager det at lave et bingospil?',
+        answer: 'Et komplet bingospil med 10 unikke kort og ring-ark tager under 3 minutter. Vælg billeder på 30 sekunder, indstil gitterstørrelse og antal kort på 30 sekunder, generér på 10 sekunder. Eventuel redigering tager 1–2 minutter ekstra. Lav et helt klassesæt på under 5 minutter.',
+      },
+      {
+        id: '8',
+        question: 'Kan jeg sælge de bingospil jeg laver?',
+        answer: 'Ja, dit Grundpakke abonnement inkluderer en kommerciel licens. Sælg bingospil online uden attribueringskrav eller ekstra gebyrer. Mange lærere tjener ekstra ved at sælge tematiske bingopakker til højtider, årstider eller faglige emner på Teachers Pay Teachers og lignende markedspladser.',
+      },
+      {
+        id: '9',
+        question: 'Kan jeg uploade mine egne billeder til bingospil?',
+        answer: 'Ja, upload ubegrænset antal egne billeder i JPEG-, PNG- og GIF-format. Brug klassebilleder, fotos fra ture eller kæledyrsbilleder. Upload flere filer på én gang for hurtigere workflow. Kombiner egne billeder med 3000+ biblioteksbilleder på samme bingokort for personlige og engagerende bingospil.',
+      },
+      {
+        id: '10',
+        question: 'Hvor meget kan jeg tilpasse bingo-kortenes udseende?',
+        answer: 'Alt kan tilpasses: gitterstørrelse, baggrundsfarve, dekorative rammer, tematiske baggrunde, gitterlinjetykkelse og tekstfarver. Tilføj titler, elevnavne eller instruktioner direkte på kortene. Vælg sæsonbestemte baggrunde til jul, påske eller sommerferie. Skift mellem portræt og landskab format.',
+      },
+      {
+        id: '11',
+        question: 'Kan jeg kombinere bingo med andre arbejdsark-generatorer?',
+        answer: 'Ja, kombiner bingo med andre generatorer for at skabe komplette læringspakker. Brug Matchning til parøvelser med de samme temabilleder. Tilføj Find og Tæl for talforståelse. Inkluder Malebog-sider som belønning efter bingospillet. Alle 10 generatorer bruger det samme billedbibliotek, så temaerne matcher på tværs.',
+      },
+      {
+        id: '12',
+        question: 'Hvilke tips har I til at printe og laminere bingo-kort?',
+        answer: 'Print bingo-kort på tykt papir (160–200 g/m²) for holdbarhed. Laminér kortene til gentagen brug med en laminatormaskine. Brug gennemsigtige brikker, knapper eller småsten til at markere felter under spillet. Alternativt brug whiteboard-markører på laminerede kort der tørres af efter spillet. Aktivér gråtone for at spare farveblæk ved store oplag.',
+      },
+    ],
+
   },
 
   // Pricing
@@ -237,8 +392,160 @@ Aktiver gråtone-indstillingen inden download for at spare blæk. Konvertering t
       securePayment: 'Sikker betaling',
       cancelAnytime: 'Opsig når som helst',
     },
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: '1',
+        slug: 'matchning-arbejdsark',
+        name: 'Matchning',
+        category: 'Visuel',
+        icon: '🔗',
+        description: 'Kombiner bingo med matchningsopgaver for at styrke billedgenkendelse og visuel hukommelse. Eleverne øver de samme temabilleder i to forskellige formater. Matchning træner parring og koncentration som supplement til bingospillets lytteforståelse.',
+      },
+      {
+        id: '2',
+        slug: 'find-og-tael-arbejdsark',
+        name: 'Find og Tæl',
+        category: 'Matematik',
+        icon: '🔍',
+        description: 'Kombiner bingospil med find-og-tæl-opgaver til integrerede læringspakker. Eleverne tæller billederne først og spiller derefter bingo med de samme temaer. Styrker talforståelse og koncentration i børnehaveklassen med FM.MAT.TA.1-3.',
+      },
+      {
+        id: '3',
+        slug: 'malebog-arbejdsark',
+        name: 'Malebog',
+        category: 'Kunst',
+        icon: '🎨',
+        description: 'Brug farvelægningssider som belønning efter bingospillet. Eleverne farvelægger billeder fra det tema de lige har spillet bingo med. Tværfaglig læring der kombinerer sociale spilaktiviteter med kreativ udfoldelse og finmotorik.',
+      },
+      {
+        id: '4',
+        slug: 'alfabet-tog-arbejdsark',
+        name: 'Alfabettog',
+        category: 'Literacy',
+        icon: '🚂',
+        description: 'Kombiner bogstavbingo med alfabettog-opgaver for at styrke bogstavgenkendelse. Eleverne spiller bingo med bogstaver og sorterer dem derefter i alfabetisk rækkefølge. Understøtter FM.DAN.KO.1-2 kommunikation og literacy-udvikling i indskolingen.',
+      },
+      {
+        id: '5',
+        slug: 'addition-arbejdsark',
+        name: 'Addition',
+        category: 'Matematik',
+        icon: '➕',
+        description: 'Lav talbingo med additionsopgaver for at kombinere spil med matematiktræning. Eleverne løser plusstykker og markerer svarene på bingo-kortet. Perfekt til FM.MAT.TA.1-3 regnestrategier i en social og motiverende spilleramme.',
+      },
+      {
+        id: '6',
+        slug: 'find-objekterne-arbejdsark',
+        name: 'Find Objekterne',
+        category: 'Visuel',
+        icon: '🔎',
+        description: 'Kombiner bingospil med søgebilleder for at styrke visuel opmærksomhed og koncentration. Eleverne finder skjulte objekter og spiller derefter bingo med de fundne billeder. Træner systematisk scanning og billedgenkendelse på en sjov måde.',
+      },
+    ],
+
+  },
+
+  // -- SEO & Content Enrichment ------------------------------------
+
+  aiOverviewSnippet: 'En billed-bingo generator er et online værktøj til at lave printbare bingospil med tilpasselige gitterstørrelser (3x3, 4x4, 5x5), automatisk ring-ark og 3000+ tematiske billeder. Lærere vælger tema, gitterstørrelse og antal kort og får et komplet bingosæt med unikke kort på under 3 minutter. Værktøjet understøtter FM.DAN.KO.1-2 kommunikation og dialog, da bingospillet fremmer aktiv lytning, turtagning og mundtlig interaktion i klasselokalet.',
+
+  comparisonTable: [
+    {
+      feature: 'Gitterstørrelser',
+      ourApp: '3x3, 4x4 og 5x5 valgfrit',
+      typical: 'Kun én fast størrelse',
+    },
+    {
+      feature: 'Unikke kort per generering',
+      ourApp: 'Op til 10 helt unikke kort',
+      typical: '1–2 kort, ofte med gentagelser',
+    },
+    {
+      feature: 'Ring-ark (call sheet)',
+      ourApp: 'Automatisk genereret med hvert sæt',
+      typical: 'Ikke inkluderet eller mod merbetaling',
+    },
+    {
+      feature: 'Billedbibliotek',
+      ourApp: '3000+ billeder i 50 temaer',
+      typical: 'Begrænset udvalg eller kun tekst',
+    },
+    {
+      feature: 'Oprettelsestid',
+      ourApp: 'Under 3 minutter for komplet sæt',
+      typical: '30–60 minutter manuelt arbejde',
+    },
+    {
+      feature: 'Kommerciel licens',
+      ourApp: 'Inkluderet, sælg frit',
+      typical: 'Merbetaling eller ikke tilgængeligt',
+    },
+  ],
+
+  researchBacking: [
+    {
+      claim: 'Kooperative spilaktiviteter som bingo fremmer elevers sociale kompetencer og faglige engagement. Strukturerede gruppespil med klare regler udvikler turtagning, lyttefærdigheder og fælles regelforståelse, hvilket er særligt vigtigt i indskolingen.',
+      source: 'Fibæk Laursen, P., "Kooperativ læring og social kompetence i folkeskolen," DPU, Aarhus Universitet',
+    },
+    {
+      claim: 'Spilbaseret læring øger elevers motivation og fastholdelse af fagligt stof sammenlignet med traditionel instruktion. Børn i indskolingsalderen lærer mest effektivt gennem legende og aktive læringsformer hvor de er socialt engagerede.',
+      source: 'Hanghøj, T. & Brund, C. E., "Spilbaseret læring i dansk skolesammenhæng," Aalborg Universitet, tidsskrift for Læreruddannelse og Skole',
+    },
+  ],
+
+  teacherTestimonials: [
+    {
+      quote: 'Bingo er blevet vores faste fredagsaktivitet i børnehaveklassen. Eleverne elsker det, og jeg kan se hvordan de stille børn åbner sig når de råber bingo. Det er social læring der forklæder sig som leg.',
+      name: 'Stine Lindgren',
+      role: 'Børnehaveklasselærer',
+      school: 'Rødovre Skole, Rødovre',
+    },
+    {
+      quote: 'Jeg bruger talbingo til ugens matematikrepetition i 2. klasse. Generatoren laver 10 unikke kort på et øjeblik, og ring-arket sparer mig for forberedelsestid. Eleverne konkurrerer ivrig og øver regning uden at opdage det.',
+      name: 'Ole Brandt',
+      role: 'Indskolingslærer',
+      school: 'Frederiksberg Ny Skole, Frederiksberg',
+    },
+  ],
+
+  tips: {
+    sectionTitle: 'Bingo-strategier efter klassetrin',
+    sectionDescription: 'Tilpas bingo-generatoren til hvert udviklingstrin. Sådan vælger du gitterstørrelse, billedindhold og spilformat fra førskole til 3. klasse for optimal social læring og faglig progression.',
+    badgeText: 'Tips',
+    readMoreLabel: 'Læs mere',
+    showLessLabel: 'Vis mindre',
+    items: [
+      {
+        id: 'forskole',
+        icon: '🌱',
+        title: 'Førskole: Billedgenkendelse og turtagning',
+        description: 'Introducér bingo som et enkelt billedgenkendelsesspil. Brug 3x3-gitteret med kun 9 tydelige billeder fra ét tema, f.eks. husdyr. Spil i små grupper på 4–6 børn hvor den voksne viser billedet højt. Fokusér på turtagning og at vente på sin tur. Brug store brikker eller klodser til at markere felter. Kort spilvarighed på 5–10 minutter passer til førskolebarns opmærksomhedsspænd.',
+      },
+      {
+        id: 'bornehaveklasse',
+        icon: '🎒',
+        title: 'Børnehaveklasse: Social læring og ordforråd',
+        description: 'Børnehaveklassens elever mestrer 3x3 og begynder at prøve 4x4-gitteret. Spil i hele klassen med læreren som bingoleder. Brug FM.DAN.KO.1-2 kommunikation ved at lade eleverne sige billedets navn højt når de markerer det. Kombiner billeder på kortene med ord på ring-arket for at styrke ordforråd. Introducer enkle regler som at sige "bingo" tydeligt. Spilvarighed 10–15 minutter.',
+      },
+      {
+        id: '1-klasse',
+        icon: '📚',
+        title: '1. klasse: Faglig repetition som bingospil',
+        description: 'Brug bingo aktivt til faglig repetition i 1. klasse. Lav ordbingo med ugens nye læseord til danskundervisningen. Skab talbingo med summer op til 10 til matematiktimen. Brug 4x4-gitteret med 16 felter for moderat udfordring. Lad elever skiftes til at være bingoleder for at øve højtlæsning og talemod. Understøtter FM.MAT.TA.1-3 regnestrategier i et socialt format.',
+      },
+      {
+        id: '2-klasse',
+        icon: '✏️',
+        title: '2. klasse: Udvidet bingo med kombinerede opgaver',
+        description: 'Andenklasses elever udfordres med 5x5-gitteret og kombinerede opgaver. Lav matematikbingo hvor ring-arket viser regnestykker og kortene viser svar. Skab læsebingo med ord-definitionspar. Introducer holdbaseret bingo hvor grupper samarbejder om ét kort. Spilvarigheden udvides til 15–20 minutter. Eleverne kan begynde at lave egne bingokort med generatoren.',
+      },
+      {
+        id: '3-klasse',
+        icon: '🎯',
+        title: '3. klasse: Avanceret bingo og selvstændigt spildesign',
+        description: 'Tredjeklasses elever mestrer alle gitterstørrelser og spilformater. Brug bingo som projektværktøj hvor eleverne selv vælger billeder og temaer. Lav emne-bingo til natur/teknologi med fagord og billeder. Kombinér med gangetabelstræning hvor ring-arket viser regnestykker. Lad elevgrupper designe bingospil til yngre klasser som mentorprojekt. Udvikler ansvar, kreativitet og faglig formidling.',
+      },
+    ],
   },
 };
 

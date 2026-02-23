@@ -77,7 +77,7 @@ Hver alfabetopgave har en farverig togskabelon med elleve vogne. Eleverne matche
     freePdfCountLabel: '3 gratis downloads',
     ofLabel: 'af',
     items: [],
-    
+
   },
 
   // Features Grid
@@ -93,8 +93,57 @@ Hver alfabetopgave har en farverig togskabelon med elleve vogne. Eleverne matche
       noHiddenFees: 'Ingen skjulte gebyrer',
       cancelAnytime: 'Opsig når som helst',
     },
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: '1',
+        icon: '🚂',
+        title: '11 Komplette Alfabeter',
+        description: 'Generatoren understøtter elleve sprog med korrekte specialtegn. Dansk alfabet inkluderer Æ, Ø og Å. Tysk alfabet viser Ä, Ö og Ü. Spansk alfabet har Ñ placeret korrekt. Perfekt til flersprogede klasser og tosproget undervisning i overensstemmelse med FM.DAN.LÆ.1-2.',
+      },
+      {
+        id: '2',
+        icon: '🖼️',
+        title: '3000+ Billedbaserede Bogstavøvelser',
+        description: 'Hvert bogstav parres med farverige billeder fra vores temabibliotek. Billederne er oversat til alle elleve sprog. Børn kobler bogstavlyd til konkrete genstande. Billedstøtten styrker bogstavgenkendelse og begyndelsesbogstaver i førskolen.',
+      },
+      {
+        id: '3',
+        icon: '🎚️',
+        title: 'Justerbar Sværhedsgrad',
+        description: 'Ledtrådstallet justeres fra tre til elleve bogstaver. Færre ledtråde skaber udfordrende alfabetøvelser til dygtige elever. Flere ledtråde giver maksimal støtte til børn der stadig lærer bogstaver. Lærere tilpasser nemt opgaverne til hvert barns niveau.',
+      },
+      {
+        id: '4',
+        icon: '🎨',
+        title: 'Temabaseret Indhold',
+        description: 'Vælg mellem over 50 billedtemaer som dyr, mad, transport og naturen. Auto-opret-funktionen vælger tilfældigt elleve bogstaver og matchende billeder fra dit tema. Tematiske alfabet tog opgaver holder børnene motiverede uge efter uge.',
+      },
+      {
+        id: '5',
+        icon: '📐',
+        title: 'Professionelt Tog-Layout',
+        description: 'Togskabelonen med elleve vogne arrangerer bogstaver i en visuel rækkefølge børn elsker. Hvert design genereres med 300 DPI printkvalitet. Layoutet er optimeret til både A4 og Letter-format til danske og internationale printere.',
+      },
+      {
+        id: '6',
+        icon: '✏️',
+        title: 'Fuld Canvas-Redigering',
+        description: 'Flyt, rotér og skalér billeder og tekst direkte på lærredet efter generering. Tilføj egne instruktioner eller elevnavne. Brug justeringsværktøjer til professionelle layouts. Fortryd-funktionen sikrer du aldrig mister arbejde.',
+      },
+      {
+        id: '7',
+        icon: '📝',
+        title: 'Automatisk Facitark',
+        description: 'Generatoren opretter automatisk et facitark med alle korrekte bogstaver udfyldt. Print facitarket separat eller vis det på dokumentkameraet. Facitarket understøtter hurtig rettelse og selvkontrol i overensstemmelse med FM.DAN.FR.1-2.',
+      },
+      {
+        id: '8',
+        icon: '📥',
+        title: 'PDF og JPEG Download',
+        description: 'Eksportér færdige alfabetopgaver som PDF til print eller JPEG til digital deling. Gråtoneindstilling konverterer automatisk til sort-hvid og sparer printerblæk. Alle downloads er i professionel 300 DPI kvalitet klar til salg med kommerciel licens.',
+      },
+    ],
+
   },
 
   // How-To Guide
@@ -176,8 +225,51 @@ Aktiver gråskala-afkrydsningsfeltet før download for at spare printerblæk på
     badgeText: 'Hvem Er Det Til',
     readMoreLabel: 'Læs mere',
     showLessLabel: 'Vis mindre',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: '1',
+        icon: '🎓',
+        title: 'Børnehaveklassepædagoger',
+        subtitle: 'Bogstavgenkendelse for 5–6-årige',
+        description: 'Skab daglige alfabet tog opgaver hvor børnene matcher bogstaver til billeder. Brug auto-opret med dyretemaer til motivation. Indstil elleve ledtråde for maksimal støtte til begyndere. Perfekt til Fælles Mål FM.DAN.LÆ.1-2 bogstavlyd og afkodning i børnehaveklassen.',
+      },
+      {
+        id: '2',
+        icon: '📚',
+        title: 'Indskolingslærere',
+        subtitle: 'Alfabetisk rækkefølge i 1. klasse',
+        description: 'Lav differentierede bogstavøvelser til børn med varierende ledtrådsniveauer. Brug tre ledtråde til dygtige elever og syv til elever der har brug for mere støtte. Kombiner med skriveøvelser og begyndelsesbogstaver opgaver. Understøtter FM.DAN.LÆ.1-2 afkodningsstrategier.',
+      },
+      {
+        id: '3',
+        icon: '🏠',
+        title: 'Forældre og hjemmeundervisere',
+        subtitle: 'Fleksible alfabetøvelser derhjemme',
+        description: 'Opret personlige alfabet tog opgaver med billeder af familiens kæledyr eller ting fra hjemmet. Upload egne fotos for motiverende bogstavlæring. Generatoren tilpasser sig barnets tempo med justerbare ledtråde og temavalg.',
+      },
+      {
+        id: '4',
+        icon: '🌟',
+        title: 'SFO-pædagoger',
+        subtitle: 'Legende bogstavlæring efter skoletid',
+        description: 'Design sjove alfabetopgaver til fritidsordningen der kombinerer leg med bogstavgenkendelse. Vælg temaer som legetøj, sport eller natur der passer til SFO-aktiviteter. Børnene øver bogstaver uden det føles som traditionelle lektier.',
+      },
+      {
+        id: '5',
+        icon: '💜',
+        title: 'Speciallærere og støttepædagoger',
+        subtitle: 'Individuelt tilpassede bogstavøvelser',
+        description: 'Juster ledtrådsniveau og billedtema efter den enkelte elevs behov og elevplan. Skab overskuelige alfabetopgaver med maksimale ledtråde for elever med læsevanskeligheder. Visuelle billeder understøtter inklusion og flersanselig bogstavlæring.',
+      },
+      {
+        id: '6',
+        icon: '💰',
+        title: 'Materialeproducenter',
+        subtitle: 'Sælg alfabetpakker med kommerciel licens',
+        description: 'Lav tematiske alfabetpakker til salg online med din kommercielle licens. Alfabetopgaver er konsekvent efterspurgte på Teachers Pay Teachers. Kombiner flere temaer til pakker med 10–20 arbejdsark der sælger godt året rundt.',
+      },
+    ],
+
   },
 
   // FAQ Section
@@ -191,8 +283,69 @@ Aktiver gråskala-afkrydsningsfeltet før download for at spare printerblæk på
     showLessLabel: 'Vis mindre',
     secureCheckout: 'Sikker betaling',
     cancelAnytime: 'Opsig når som helst',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: '1',
+        question: 'Hvilke sprog understøtter alfabet-tog-generatoren?',
+        answer: 'Generatoren understøtter 11 sprog: dansk, svensk, norsk, finsk, tysk, engelsk, fransk, spansk, italiensk, portugisisk og hollandsk. Hvert sprog har sit eget komplette alfabet med korrekte specialtegn. Dansk inkluderer Æ, Ø og Å. Alle 3000+ billeder er navngivet på alle sprog.',
+      },
+      {
+        id: '2',
+        question: 'Hvordan justerer jeg sværhedsgraden i alfabetopgaverne?',
+        answer: 'Juster ledtrådstallet fra tre til elleve. Tre ledtråde giver maksimal udfordring for dygtige elever. Elleve ledtråde viser alle bogstaver som støtte for begyndere. Brug syv ledtråde som standardindstilling til de fleste børnehaveklasseelever.',
+      },
+      {
+        id: '3',
+        question: 'Kan jeg bruge mine egne billeder i alfabet-toget?',
+        answer: 'Ja, upload ubegrænset antal egne billeder til personlige alfabetopgaver. Brug billeder af kæledyr, ting fra klasseværelset eller studieturs-fotos. Uploadede billeder kombineres med biblioteksbilleder for unikke bogstavøvelser.',
+      },
+      {
+        id: '4',
+        question: 'Hvilke aldersgrupper passer alfabetopgaverne til?',
+        answer: 'Alfabet-toget passer til børn fra 4–7 år. Førskolebørn øver bogstavgenkendelse med mange ledtråde og billedstøtte. Børnehaveklassebørn mestrer begyndelsesbogstaver med temaopgaver. 1. klasse-elever styrker alfabetisk rækkefølge med færre ledtråde.',
+      },
+      {
+        id: '5',
+        question: 'Inkluderer generatoren facitark?',
+        answer: 'Ja, hvert alfabet-tog genererer automatisk et facitark med alle bogstaver udfyldt korrekt. Download facitarket separat som PDF eller JPEG. Brug det til hurtig rettelse eller vis det på dokumentkameraet til fælles kontrol i klassen.',
+      },
+      {
+        id: '6',
+        question: 'Kræver det designerfaring at lave alfabetopgaver?',
+        answer: 'Nej, ingen designfærdigheder er nødvendige. Auto-opret-funktionen genererer færdige opgaver med ét klik. Vælg blot et tema og sprog, og generatoren klarer resten. De fleste lærere mestrer værktøjet på under fem minutter.',
+      },
+      {
+        id: '7',
+        question: 'Hvordan understøtter alfabet-toget Fælles Mål?',
+        answer: 'Opgaverne understøtter direkte FM.DAN.LÆ.1-2 (Læsning: afkodning og bogstavlyd) ved at styrke bogstavgenkendelse og lyd-bogstav-kobling. Desuden understøtter de FM.DAN.FR.1-2 (Fremstilling: bogstavdannelse) når eleverne skriver manglende bogstaver i vognene.',
+      },
+      {
+        id: '8',
+        question: 'Hvor lang tid tager det at lave én alfabetopgave?',
+        answer: 'En komplet alfabet-tog-opgave tager under tre minutter. Auto-opret genererer et færdigt arbejdsark på ti sekunder. Manuel tilstand tager to til tre minutter med valg af individuelle bogstaver og billeder. Download sker øjeblikkeligt.',
+      },
+      {
+        id: '9',
+        question: 'Kan jeg sælge de alfabetopgaver jeg laver?',
+        answer: 'Ja, dit Grundpakke-abonnement inkluderer en kommerciel licens. Sælg opgaver frit online uden attribueringskrav eller ekstra gebyrer. Mange lærere tjener ekstra ved at sælge tematiske alfabetpakker på Teachers Pay Teachers.',
+      },
+      {
+        id: '10',
+        question: 'Kan jeg kombinere alfabet-toget med andre opgavetyper?',
+        answer: 'Ja, Grundpakken inkluderer adgang til 10 generatorer. Kombiner alfabet-tog med bogstavblanding til stavning, malebog til kreativ pause og skriveopgaver til bogstavdannelse. Skab komplette læringspakker med samme abonnement.',
+      },
+      {
+        id: '11',
+        question: 'Hvilke printformater understøttes?',
+        answer: 'Eksportér som PDF eller JPEG i 300 DPI professionel kvalitet. PDF anbefales til print og bevarer layout perfekt. JPEG fungerer godt til digital deling via Aula eller Google Classroom. Gråtoneindstilling sparer printerblæk ved store oplag.',
+      },
+      {
+        id: '12',
+        question: 'Hvordan fungerer auto-opret-funktionen?',
+        answer: 'Aktivér afkrydsningsfeltet "Auto-opret" og vælg et tema. Klik Opret og generatoren vælger tilfældigt elleve bogstaver med matchende billeder fra temaet. Hvert klik genererer en ny unik opgave. Perfekt til hurtig oprettelse af varierede alfabet tog opgaver.',
+      },
+    ],
+
   },
 
   // Pricing
@@ -239,8 +392,157 @@ Aktiver gråskala-afkrydsningsfeltet før download for at spare printerblæk på
       securePayment: 'Sikker betaling',
       cancelAnytime: 'Opsig når som helst',
     },
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: '1',
+        slug: 'bogstavblanding-arbejdsark',
+        name: 'Bogstavblanding',
+        category: 'Literacy',
+        icon: '🔤',
+        description: 'Kombiner alfabet-toget med bogstavblanding til omfattende bogstavtræning. Eleverne genkender bogstaver i toget og staver ord i bogstavblandingen. Styrker både FM.DAN.LÆ.1-2 afkodning og ordforståelse.',
+      },
+      {
+        id: '2',
+        slug: 'malebog-arbejdsark',
+        name: 'Malebog',
+        category: 'Kunst og kreativitet',
+        icon: '🎨',
+        description: 'Kombiner bogstavlæring med farvelægning som belønning. Eleverne løser alfabet-tog-opgaver og farvelægger derefter matchende billeder. Tværfaglig læring med FM.BK.1-2 visuelle udtryksformer.',
+      },
+      {
+        id: '3',
+        slug: 'skriveopgaver-arbejdsark',
+        name: 'Skriveopgaver',
+        category: 'Literacy',
+        icon: '✍️',
+        description: 'Skriveopgaver træner bogstavdannelse efter eleverne har genkendt bogstaver i alfabet-toget. Naturlig progression fra genkendelse til produktion. Understøtter FM.DAN.FR.1-2 fremstilling og håndskrift.',
+      },
+      {
+        id: '4',
+        slug: 'matchning-arbejdsark',
+        name: 'Matchning',
+        category: 'Visuel læring',
+        icon: '🔗',
+        description: 'Matchningsopgaver med billede-til-bogstav forbindelser forstærker alfabetlæringen. Eleverne forbinder billeder med begyndelsesbogstaver. Kombinerer visuel parring med bogstavgenkendelse.',
+      },
+      {
+        id: '5',
+        slug: 'find-og-tael-arbejdsark',
+        name: 'Find og Tæl',
+        category: 'Matematik',
+        icon: '🔍',
+        description: 'Tilføj tælleøvelser som tværfaglig aktivitet. Eleverne finder og tæller billeder der starter med bestemte bogstaver. Integrerer FM.MAT.TA.1-3 talforståelse med bogstavlæring.',
+      },
+      {
+        id: '6',
+        slug: 'linjetraening-arbejdsark',
+        name: 'Linjetræning',
+        category: 'Finmotorik',
+        icon: '✏️',
+        description: 'Linjetræning styrker blyantsgreb og hånd-øje-koordination som forberedelse til bogstavskrivning. Kombiner linjeøvelser med alfabet-toget i morgenrutinen. Understøtter FM.DAN.FR.1-2 håndskrift.',
+      },
+    ],
+
+  },
+
+  // -- SEO & Content Enrichment (Part 208) ------------------------------------
+
+  aiOverviewSnippet: 'En alfabet-tog-generator er et online værktøj til at lave printbare bogstavøvelser hvor børn matcher bogstaver til billeder i et togdesign med elleve vogne. Lærere vælger sprog, tema og sværhedsgrad og får en færdig PDF-opgave på under tre minutter med automatisk facitark. Værktøjet understøtter elleve sprog med korrekte specialtegn og er velegnet til bogstavgenkendelse og begyndelsesbogstaver i overensstemmelse med Fælles Mål FM.DAN.LÆ.1-2.',
+
+  comparisonTable: [
+    {
+      feature: 'Sprogunderstøttelse',
+      ourApp: '11 sprog med korrekte specialtegn',
+      typical: 'Kun engelsk alfabet',
+    },
+    {
+      feature: 'Billedbibliotek',
+      ourApp: '3000+ billeder oversat til alle sprog',
+      typical: 'Begrænsede clipart-billeder',
+    },
+    {
+      feature: 'Sværhedsjustering',
+      ourApp: '3–11 ledtråde, justerbar per opgave',
+      typical: 'Faste opgaver uden tilpasning',
+    },
+    {
+      feature: 'Oprettelsestid',
+      ourApp: 'Under 3 minutter med auto-opret',
+      typical: '30–60 minutter manuelt design',
+    },
+    {
+      feature: 'Facitark',
+      ourApp: 'Automatisk til hver opgave',
+      typical: 'Ofte mod merbetaling',
+    },
+    {
+      feature: 'Kommerciel licens',
+      ourApp: 'Inkluderet, sælg frit',
+      typical: 'Ikke tilgængeligt eller mod merbetaling',
+    },
+  ],
+
+  researchBacking: [
+    {
+      claim: 'Systematisk bogstavtræning med visuel støtte fra billeder styrker bogstavgenkendelse og fonologisk opmærksomhed markant hos førskolebørn og børnehaveklasseelever.',
+      source: 'Elbro, C. & Gellert, A. S., "Tidlig læseudvikling og bogstavviden," Københavns Universitet, Institut for Nordiske Studier og Sprogvidenskab',
+    },
+    {
+      claim: 'Varierede og motiverende bogstavaktiviteter med tematisk indhold øger børns engagement og accelererer overgangen fra bogstavgenkendelse til funktionel afkodning.',
+      source: 'Bråten, I., "Leseforståelse og tidlig leseopplæring i nordisk perspektiv," Nordisk læseforskning, Universitetet i Oslo',
+    },
+  ],
+
+  teacherTestimonials: [
+    {
+      quote: 'Mine børnehaveklasseelever elsker alfabet-toget. De beder selv om at lave bogstavopgaver, og jeg kan tydeligt se fremgang i bogstavgenkendelse efter bare fire ugers daglig brug.',
+      name: 'Katrine Larsen',
+      role: 'Børnehaveklasselærer',
+      school: 'Strandvejsskolen, Helsingør',
+    },
+    {
+      quote: 'Auto-opret-funktionen sparer mig enormt meget tid. Jeg laver en hel uges differentierede alfabetopgaver på ti minutter med forskellige temaer og ledtrådsniveauer.',
+      name: 'Jens Pedersen',
+      role: 'Indskolingslærer',
+      school: 'Møllevangskolen, Aarhus',
+    },
+  ],
+
+  tips: {
+    sectionTitle: 'Bogstavstrategier efter klassetrin',
+    sectionDescription: 'Tilpas alfabet-tog-generatoren til hvert udviklingstrin. Sådan vælger du ledtrådsniveau, tema og billedtype fra førskole til 3. klasse.',
+    items: [
+      {
+        id: 'forskole',
+        icon: '🌱',
+        title: 'Førskole: Bogstavleg med billeder',
+        description: 'Introducér bogstaver gennem leg med alfabet-toget. Indstil elleve ledtråde så alle bogstaver er synlige. Brug dyretemaer for genkendelige billeder. Fokuser på store bogstaver og bogstavlyde. Børnene peger på bogstaver og navngiver billederne mundtligt.',
+      },
+      {
+        id: 'bornehaveklasse',
+        icon: '🎒',
+        title: 'Børnehaveklasse: Bogstavgenkendelse og begyndelsesbogstaver',
+        description: 'Børnehaveklassens elever arbejder med syv til ni ledtråde. Fokuser på vokalerne A, E, I, O, U først, derefter hyppige konsonanter. Brug auto-opret med forskellige temaer hver uge. Eleverne skriver manglende bogstaver og øver begyndelsesbogstaver. Understøtter FM.DAN.LÆ.1-2.',
+      },
+      {
+        id: '1-klasse',
+        icon: '📚',
+        title: '1. klasse: Alfabetisk rækkefølge og stavning',
+        description: 'Førsteklasseelever mestrer fuld alfabetisk rækkefølge med tre til fem ledtråde. Brug opgaverne som morgenrutine til daglig bogstavtræning. Kombiner med bogstavblanding for stavning af korte ord. Eleverne identificerer mønstre og lyd-bogstav-forbindelser i overensstemmelse med FM.DAN.LÆ.1-2.',
+      },
+      {
+        id: '2-klasse',
+        icon: '✏️',
+        title: '2. klasse: Tosproget træning og ordforråd',
+        description: 'Andenklasseelever bruger alfabet-toget til fremmedsprogsintroduktion. Vælg tysk eller engelsk som opgavesprog. Eleverne sammenligner alfabeter på tværs af sprog. Styrker sproglig bevidsthed og bogstavkendskab i nye sprogkontekster.',
+      },
+      {
+        id: '3-klasse',
+        icon: '🎯',
+        title: '3. klasse: Opslagsværktøj og ordbogstræning',
+        description: 'Tredjeklasseelever bruger alfabet-toget til at cementere alfabetisk rækkefølge som fundament for ordbogsbrug. Brug tre ledtråde for maksimal udfordring. Kombiner med tidstagning for hastighed og automatisering af bogstavrækkefølgen.',
+      },
+    ],
   },
 };
 

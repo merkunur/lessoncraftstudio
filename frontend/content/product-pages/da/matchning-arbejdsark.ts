@@ -24,7 +24,7 @@ export const matchingDaContent: ProductPageContent = {
   // Hero Section - FULL text from matching.md paragraphs 1-4
   hero: {
     title: 'Matchning Generator',
-    subtitle: 'Printbare Parringsøvelser med 50 Temaer',
+    subtitle: 'Printbare Parringssøvelser med 50 Temaer',
     description: `Lav professionelle matchingsopgaver med vores opgavegenerator til dansk folkeskole. Dit Kernepakke-abonnement giver dig ubegrænset adgang til at lave arbejdsark uden ekstra gebyrer pr. opgave. Opret tilpassede opgaver til print perfekt til børnehaveklassen og 1. klasse elever. Download højkvalitets PDF-arbejdsark på under 3 minutter.
 
 Vores matchingsopgavegenerator gør det nemt at lave opgaver hvor elever skal forbinde matchende par. Perfekt til lære bogstaver opgaver og finmotorik øvelser. Hver opgave kan tilpasses med dine egne billeder og tekst. Kombiner matematikopgaver med visuelle matchingsøvelser for komplet læring.
@@ -77,7 +77,7 @@ Udvid dine opgaver med farvelægning og skriv bogstaver aktiviteter. Kombiner ma
     freePdfCountLabel: '3 gratis downloads',
     ofLabel: 'af',
     items: [],
-    
+
   },
 
   // Features Grid - FULL text from matching.md feature sections
@@ -93,8 +93,59 @@ Udvid dine opgaver med farvelægning og skriv bogstaver aktiviteter. Kombiner ma
       noHiddenFees: 'Ingen skjulte gebyrer',
       cancelAnytime: 'Opsig når som helst',
     },
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: '1',
+        icon: '��️',
+        title: 'Billede til begyndelsesbogstav',
+        description: 'Eleverne matcher billeder med det korrekte begyndelsesbogstav. Generatoren viser et billede i venstre kolonne og et bogstav i højre kolonne. Børnene trækker en linje mellem hvert par. Perfekt til bogstavindlæring i børnehaveklassen og understøtter Fælles Mål FM.DAN.FO.1-2 for visuel fortolkning.',
+        highlighted: true,
+      },
+      {
+        id: '2',
+        icon: '��',
+        title: 'Billede til ord-matchning',
+        description: 'Elever forbinder billeder med hele ord for at styrke ordgenkendelse og læsefærdigheder. Idéel til 1. klasse hvor eleverne går fra bogstavlyd til hele ord. Generatoren vælger automatisk alderstilpassede ord fra temaets ordforråd. Opbygger ordforråd og visuel orddiskrimination.',
+      },
+      {
+        id: '3',
+        icon: '✍️',
+        title: 'Tilpassede ord og egne tekster',
+        description: 'Skriv dine egne ord, sætninger eller oversættelser til parringerne. Perfekt til ordforrådsundervisning, fremmedsprog eller specifikke emneområder. Kombiner egne ord med biblioteksbilleder for skæddersyede opgaver. Lærere kan tilpasse indholdet præcist til ugens lektionsplan.',
+      },
+      {
+        id: '4',
+        icon: '��',
+        title: 'Tilfældig tema-generering',
+        description: 'Klik én gang og få en komplet matchningsopgave med tilfældigt valgt tema og billeder. Generatoren vælger automatisk mellem 50 temaer og sammensætter en balanceret opgave. Ideel til hurtig forberedelse når du mangler tid. Lav et helt uges morgenmateriale på under 15 minutter.',
+      },
+      {
+        id: '5',
+        icon: '��️',
+        title: '3000+ tematiske billeder',
+        description: 'Vælg mellem over 3000 professionelle illustrationer fordelt på 50 temaer som dyr, mad, transport, sport og årstider. Alle billeder er håndtegnede i ensartet stil og optimeret til print i 300 DPI. Nye temaer tilføjes løbende så dit billedbibliotek altid vokser.',
+        highlighted: true,
+      },
+      {
+        id: '6',
+        icon: '��',
+        title: 'Automatisk blanding og parantalstyring',
+        description: 'Generatoren blander automatisk venstre og højre kolonne så par aldrig står ud for hinanden. Vælg mellem 4, 5 eller 6 par per side afhængigt af aldersgruppe og sværhedsgrad. Færre par for førskolebørn, flere par for ældre elever der kan håndtere mere kompleksitet.',
+      },
+      {
+        id: '7',
+        icon: '✂️',
+        title: 'Lærredsredigering og design',
+        description: 'Rediger direkte på lærredet med træk-og-slip. Tilføj rammer, baggrunde og dekorative elementer fra det inkluderede designbibliotek. Skift baggrundsfarver til sæsonbetonede opgaver. Tilføj egne instruktioner, navn- og datofelter præcis hvor du vil have dem.',
+      },
+      {
+        id: '8',
+        icon: '��',
+        title: 'PDF/JPEG-export med facitark',
+        description: 'Download opgaver som skarpe PDF-filer eller JPEG-billeder i 300 DPI printkvalitet. Facitarket genereres automatisk med korrekte forbindelseslinjer. Vælg gråtone for at spare farveblæk. Kommerciel licens inkluderet så du frit kan sælge dine opgaver på Teachers Pay Teachers.',
+      },
+    ],
+
   },
 
   // How-To Guide - FULL text from matching.md step sections
@@ -124,7 +175,7 @@ Vælg "Vælg fra tema" for mere kontrol over arbejdsark indhold. Gennemse dyr, m
 Vælg "Tilpassede ord" for at lave opgaver til print med dine egne tekster. Perfekt til ordforrådsundervisning og læse og skrive øvelser. Brug til oversættelser, definitioner eller beskrivelser. Lav finmotorik øvelser kombineret med sprogtræning.
 
 Upload dine egne billeder til helt personlige gratis skoleopgaver. Tag billeder i klasseværelset eller brug fra seneste studietur. Børnene elsker opgaver til print med genkendelige elementer. Kombiner med farvelægning aktiviteter til kreative arbejdsark.`,
-        icon: '🖼️',
+        icon: '��️',
       },
       {
         id: '2',
@@ -147,7 +198,7 @@ Alle indstillinger kan ændres når som helst. Regenerér opgaven til print med 
         title: 'Generér Din Opgave',
         description: `Klik på "Generér" knappen og din opgave vises øjeblikkeligt. Alle billeder og tekst placeres automatisk i pæne kolonner. Layout optimeres for læsbarhed og farvelægning potentiale. Perfekt til både matematikopgaver og lære bogstaver aktiviteter.
 
-Forhåndsvisningen viser præcis hvordan din opgave til print vil se ud. Tjek at alle billeder er korrekte og klare. Verificer at teksten er læsbar for 0. klasse og 1. klasse elever. Kontroller at layout fungerer godt på siden.
+Forhåndsvisningen viser præcis hvordan din opgave til print vil se ud. Tjek at alle billeder er korrekte og klare. Verificér at teksten er læsbar for 0. klasse og 1. klasse elever. Kontroller at layout fungerer godt på siden.
 
 Generatoren håndterer spacing og justering automatisk. Lige afstande mellem elementer ser professionelt ud. Tekst centreres for nem læsning ved læse og skrive øvelser. Gratis skoleopgaver ser polerede ud hver gang.
 
@@ -183,8 +234,8 @@ Vælg gråtone mulighed for at spare blæk ved print. Særligt nyttigt når du l
 
 Print derhjemme på almindelig printer eller på skolens kopimaskine. 300 DPI kvalitet sikrer skarpe billeder og tekst. Lav opgaver til print til hele klassen på minutter. Eller lav individuelle arbejdsark til differentieret undervisning.
 
-Gem dine opgaver til print til senere brug. Lav bibliotek af gratis skoleopgaver organiseret efter emne. Generer nye variationer med forskellige billeder. Opbyg ressourcebank af matematikopgaver og lære bogstaver materialer til hele skoleåret.`,
-        icon: '📥',
+Gem dine opgaver til print til senere brug. Lav bibliotek af gratis skoleopgaver organiseret efter emne. Generér nye variationer med forskellige billeder. Opbyg ressourcebank af matematikopgaver og lære bogstaver materialer til hele skoleåret.`,
+        icon: '��',
       },
     ],
   },
@@ -196,14 +247,57 @@ Gem dine opgaver til print til senere brug. Lav bibliotek af gratis skoleopgaver
     badgeText: 'Hvem Er Det Til',
     readMoreLabel: 'Læs mere',
     showLessLabel: 'Vis mindre',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: '1',
+        icon: '��',
+        title: 'Børnehaveklassepædagoger',
+        subtitle: 'Visuel parring for 5–6-årige',
+        description: 'Skab matchningsopgaver hvor eleverne forbinder billeder med begyndelsesbogstaver i en legende kontekst. Billede-til-bogstav-tilstanden understøtter bogstavindlæring med 4 par per side. Visuel parring styrker børnenes evne til at skelne mellem former og symboler. Perfekt til at understøtte Fælles Mål FM.DAN.FO.1-2 for visuel fortolkning i børnehaveklassen.',
+      },
+      {
+        id: '2',
+        icon: '��',
+        title: 'Indskolingslærere',
+        subtitle: 'Mønstergenkendelse i 1.–3. klasse',
+        description: 'Brug fire matchningstilstande til progressiv læring: billede-til-bogstav om efteråret, billede-til-ord om vinteren, tilpassede ord om foråret. Differentiér opgaver med antal par og sværhedsgrad. Matchningsopgaver træner mønstergenkendelse og logisk tænkning på tværs af fag. Understøtter FM.MAT.MK.1-3 for matematisk repræsentation.',
+      },
+      {
+        id: '3',
+        icon: '��',
+        title: 'Forældre og hjemmeundervisere',
+        subtitle: 'Fleksible parringsopgaver til hjemmet',
+        description: 'Lav matchningsopgaver på forskellige sværhedsgrader til alle dine børn med ét abonnement. Upload familiebilleder eller kæledyrsfotografier til personlige parringsøvelser. Børnene engagerer sig mere når de genkender billederne fra deres hverdag. Kombiner med hukommelsesspil printbar for en komplet læringspakke derhjemme.',
+      },
+      {
+        id: '4',
+        icon: '⭐',
+        title: 'SFO-pædagoger',
+        subtitle: 'Legende parring efter skoletid',
+        description: 'Skab sjove matchningsopgaver til fritidsordningen der kombinerer læring med leg. Vælg temaer der passer til SFO-aktiviteter som udeskole, kreativ udfoldelse eller sportsaktiviteter. Matchning føles som et spil, ikke som lektier. Eleverne øver visuel parring og finmotorik mens de tegner forbindelseslinjer.',
+      },
+      {
+        id: '5',
+        icon: '��',
+        title: 'Speciallærere',
+        subtitle: 'Individuelt tilpassede parringsopgaver',
+        description: 'Juster antal par, matchningstilstand og billedvalg efter den enkelte elevs behov og elevplan. Skab overskuelige opgaver med kun 4 par for at reducere kognitiv belastning. Visuel parring understøtter elever med læsevanskeligheder da opgaven er billedbaseret. Billedparring opgave fungerer som en brøksel mellem konkret og abstrakt tænkning.',
+      },
+      {
+        id: '6',
+        icon: '��',
+        title: 'Materialeproducenter',
+        subtitle: 'Sælg matchningspakker med kommerciel licens',
+        description: 'Lav tematiske matchningspakker til salg online med den inkluderede kommercielle licens. Parringssøvelser er populære produkter på Teachers Pay Teachers og lignende platforme. Matchningspakker med 10–20 opgaver per pakke sælger godt til børnehaveklasser og indskolinger. Kombiner flere temaer til sæsonbetonede bundler for højere salgsværdi.',
+      },
+    ],
+
   },
 
   // FAQ Section - Selected FAQs from matching.md
   faq: {
     sectionTitle: 'FAQ - Gratis Arbejdsark til Børn og Arbejdsark til Børnehaveklasse. Arbejdsark til Børn',
-    sectionDescription: 'Her er svarene på de mest almindelige spørgsmål om vores matchingsopgavegenerator. Lær hvordan du laver matematikopgaver, lære bogstaver aktiviteter og farvelægning arbejdsark. Få svar om 0. klasse opgaver, gangetabeller og finmotorik øvelser. Forstå hvordan læse og skrive materialer virker på platformen.',
+    sectionDescription: 'Her er svarene på de mest almindelige spørgsmål om vores matchningsopgavegenerator. Lær hvordan du laver matematikopgaver, lære bogstaver aktiviteter og farvelægning arbejdsark. Få svar om 0. klasse opgaver, gangetabeller og finmotorik øvelser. Forstå hvordan læse og skrive materialer virker på platformen.',
     showMoreText: 'Vis flere spørgsmål',
     showLessText: 'Vis færre',
     badgeText: 'FAQ',
@@ -211,8 +305,69 @@ Gem dine opgaver til print til senere brug. Lav bibliotek af gratis skoleopgaver
     showLessLabel: 'Vis mindre',
     secureCheckout: 'Sikker betaling',
     cancelAnytime: 'Opsig når som helst',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: '1',
+        question: 'Hvilke matchningstilstande er tilgængelige?',
+        answer: 'Generatoren tilbyder fire matchningstilstande: billede til begyndelsesbogstav forbinder billeder med det første bogstav, billede til ord matcher billeder med hele ord, tilpassede ord lader dig skrive dine egne tekster, og tilfældig generering vælger automatisk tema og billeder til en komplet parringsopgave.',
+      },
+      {
+        id: '2',
+        question: 'Hvor mange par kan jeg have på én opgave?',
+        answer: 'Vælg mellem 4, 5 eller 6 par per opgaveside. 4 par er ideelt til førskolebørn og børnehaveklassen hvor færre elementer reducerer kognitiv belastning. 5–6 par passer til 1.–3. klasse elever der kan håndtere mere kompleksitet og trænger til større udfordringer.',
+      },
+      {
+        id: '3',
+        question: 'Hvordan vælger jeg billeder til matchningsopgaver?',
+        answer: 'Vælg billeder fra 50 temaer med over 3000 professionelle illustrationer. Gennemse temaer som dyr, mad, transport og årstider. Du kan også uploade dine egne billeder til personlige opgaver. Kombiner biblioteksbilleder med egne uploads på samme opgave for variation.',
+      },
+      {
+        id: '4',
+        question: 'Kan jeg justere sværhedsgraden i parringsøvelser?',
+        answer: 'Ja, juster sværhedsgraden på flere måder. Vælg matchningstilstand fra simpel bogstavparring til hel-ords-genkendelse. Ændr antal par fra 4 til 6. Vælg billeder med lignende begyndelsesbogstaver for at øge udfordringen. Kombiner disse indstillinger til præcis det sværhetsniveau dine elever har brug for.',
+      },
+      {
+        id: '5',
+        question: 'Hvilke aldersgrupper passer matchningsopgaverne til?',
+        answer: 'Matchningsopgaverne dækker børn fra 4–9 år. Førskolebørn øver billedparring med 4 simple par. Børnehaveklassebørn matcher billeder med begyndelsesbogstaver. Elever i 1.–2. klasse udvikler ordgenkendelse med billede-til-ord-tilstanden. 3. klasse styrker ordforråd med tilpassede tekster.',
+      },
+      {
+        id: '6',
+        question: 'Medfølger der facitark til matchningsopgaver?',
+        answer: 'Ja, hver matchningsopgave genererer automatisk et facitark hvor alle korrekte forbindelser vises med tydeligt markerede linjer. Print facitarket separat til hurtig rettelse eller vis det på dokumentkameraet til fælles gennemgang i klassen.',
+      },
+      {
+        id: '7',
+        question: 'Hvordan understøtter matchningsopgaverne Fælles Mål?',
+        answer: 'Opgaverne understøtter direkte Fælles Mål for indskolingen: FM.MAT.MK.1-3 (matematisk kompetence – repræsentation og mønstergenkendelse) og FM.DAN.FO.1-2 (dansk – visuel fortolkning og bogstavgenkendelse). Billedbaserede parringsøvelser udvikler den logiske tænkning som er central i kompetenceområderne.',
+      },
+      {
+        id: '8',
+        question: 'Hvor lang tid tager det at lave én matchningsopgave?',
+        answer: 'En matchningsopgave tager under 3 minutter at lave. Vælg matchningstilstand på 10 sekunder, vælg billeder på 30 sekunder, indstil antal par på 10 sekunder og generér opgaven på få sekunder. Med tilfældig generering laver du en komplet opgave på under 1 minut.',
+      },
+      {
+        id: '9',
+        question: 'Kan jeg sælge de matchningsopgaver jeg laver?',
+        answer: 'Ja, dit Kernepakke-abonnement inkluderer en kommerciel licens. Sælg opgaver online på Teachers Pay Teachers, Etsy eller din egen hjemmeside uden attribueringskrav eller ekstra gebyrer. Mange lærere tjener ekstra ved at sælge tematiske matchningspakker.',
+      },
+      {
+        id: '10',
+        question: 'Kan jeg uploade mine egne billeder til matchning?',
+        answer: 'Ja, upload ubegrænset antal egne billeder i JPEG-, PNG- eller GIF-format. Brug klassebilleder, ture ud af huset eller kæledyrsfotografier. Kombiner egne billeder med de 3000+ biblioteksbilleder på samme opgave for både personlige og professionelle resultater.',
+      },
+      {
+        id: '11',
+        question: 'Kan jeg kombinere matchning med andre generatorer?',
+        answer: 'Ja, kombiner matchningsopgaver med Alfabettog til bogstavlæring, Find og Tæl til tælleøvelser, Malebog til kreativ beloring, eller Linjetræning til finmotorik. Dit abonnement giver adgang til alle 10 generatorer så du kan lave komplette læringspakker.',
+      },
+      {
+        id: '12',
+        question: 'Hvilke printindstillinger anbefales til matchningsopgaver?',
+        answer: 'Print på A4-papir i portrættilstand for bedste resultat. 300 DPI kvaliteten sikrer skarpe billeder og tekst på enhver printer. Vælg gråtone for at spare farveblæk ved store oplag. Brug kraftigt papir (120g) når eleverne skal tegne forbindelseslinjer med blyant eller kuglepen.',
+      },
+    ],
+
   },
 
   // Pricing
@@ -259,8 +414,157 @@ Gem dine opgaver til print til senere brug. Lav bibliotek af gratis skoleopgaver
       securePayment: 'Sikker betaling',
       cancelAnytime: 'Opsig når som helst',
     },
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: '1',
+        slug: 'alfabet-tog-arbejdsark',
+        name: 'Alfabettog',
+        category: 'Literacy',
+        icon: '��',
+        description: 'Kombiner matchningsopgaver med Alfabettog til en komplet bogstavlæringspakke. Eleverne matcher billeder med begyndelsesbogstaver og bygger derefter bogstaverne på toget. Styrker både bogstavgenkendelse og finmotorik i børnehaveklassen.',
+      },
+      {
+        id: '2',
+        slug: 'bogstavblanding-arbejdsark',
+        name: 'Bogstavblanding',
+        category: 'Literacy',
+        icon: '��',
+        description: 'Brug matchningsopgaver som forarbejde til bogstavblanding. Eleverne lærer først ordene gennem visuel parring og staver dem derefter i bogstavblandingsopgaver. Progressiv læring fra genkendelse til aktiv stavning.',
+      },
+      {
+        id: '3',
+        slug: 'find-og-tael-arbejdsark',
+        name: 'Find og Tæl',
+        category: 'Matematik',
+        icon: '��',
+        description: 'Kombiner matchning med Find og Tæl til integrerede læringspakker. Eleverne matcher først billeder med ord og tæller derefter de samme billeder i find-og-tæl-opgaver. Understøtter FM.MAT.MK.1-3 for repræsentation og tælling.',
+      },
+      {
+        id: '4',
+        slug: 'malebog-arbejdsark',
+        name: 'Malebog',
+        category: 'Kunst',
+        icon: '��',
+        description: 'Kombiner matchningsopgaver med malebogssider som belønnende læringspakker. Eleverne løser parringsopgaven først og belønnes med en farvlægningsside med de samme temabilleder. Tværfaglig læring med kreativ udfoldelse.',
+      },
+      {
+        id: '5',
+        slug: 'linjetraening-arbejdsark',
+        name: 'Linjetræning',
+        category: 'Finmotorik',
+        icon: '✏️',
+        description: 'Linjetræningsopgaver forbereder hånden på at tegne forbindelseslinjer i matchningsopgaver. Eleverne øver først kurver og linjer og udfører derefter præcise forbindelser i parringsøvelsen. Udvikler hånd-øje-koordination og blyantsgreb.',
+      },
+      {
+        id: '6',
+        slug: 'skygge-match-arbejdsark',
+        name: 'Skygge-Match',
+        category: 'Visuel',
+        icon: '��',
+        description: 'Kombiner matchningsopgaver med skygge-match for visuel diskrimination. Eleverne parrer først billeder med ord og matcher derefter silhuetter med farvelagte billeder. Stærkeste visuelle parringspakke til mønstergenkendelse i førskolen.',
+      },
+    ],
+
+  },
+
+  // -- SEO & Content Enrichment ------------------------------------
+
+  aiOverviewSnippet: 'En matchning opgave generator er et online værktøj til at lave printbare parringsøvelser hvor børn forbinder billeder med bogstaver, ord eller andre billeder. Lærere vælger matchningstilstand, antal par og temabilleder og får en færdig PDF med automatisk blanding og facitark på under 3 minutter. Værktøjet understøtter Fælles Mål FM.MAT.MK.1-3 for matematisk repræsentation og mønstergenkendelse i indskolingen.',
+
+  comparisonTable: [
+    {
+      feature: 'Matchningstilstande',
+      ourApp: '4 tilstande: bogstav, ord, tilpasset, tilfældig',
+      typical: 'Én fast matchningstype',
+    },
+    {
+      feature: 'Billedbibliotek',
+      ourApp: '3000+ håndtegnede illustrationer i 50 temaer',
+      typical: 'Begrænset udvalg af clipart',
+    },
+    {
+      feature: 'Tilpasning',
+      ourApp: 'Egne ord, egne billeder, rammer og baggrunde',
+      typical: 'Kun forvalgte skærmbilleder',
+    },
+    {
+      feature: 'Oprettelsestid',
+      ourApp: 'Under 3 minutter per opgave',
+      typical: '30–60 minutter manuelt arbejde',
+    },
+    {
+      feature: 'Kommerciel licens',
+      ourApp: 'Inkluderet, sælg frit',
+      typical: 'Merbetaling eller ikke tilgængeligt',
+    },
+    {
+      feature: 'Automatisk blanding',
+      ourApp: 'Par blandes altid så svar ikke er oplagte',
+      typical: 'Manuel omrokering nødvendig',
+    },
+  ],
+
+  researchBacking: [
+    {
+      claim: 'Visuel parring og billedbaserede matchningsøvelser styrker børns evne til mønstergenkendelse og kategorisering, som er grundlæggende kognitive færdigheder for både læsning og matematik i indskolingen.',
+      source: 'Hein, H. H., “Visuelle læreprocesser i de første skoleår,” DPU, Aarhus Universitet',
+    },
+    {
+      claim: 'Varierede opgaveformater med billedparring fremmer distribueret øvelse og stærkere langtidshukommelse end gentaget mekanisk træning, særligt når visuel genkendelse kobles med sproglige begreber.',
+      source: 'Lindqvist, G. & Nilsson, M., “Kognitiv udvikling og visuel læring i Skandinavien,” Nordisk Pedagogik',
+    },
+  ],
+
+  teacherTestimonials: [
+    {
+      quote: 'Mine børnehaveklassebørn elsker matchningsopgaverne. De lærer bogstaverne hurtigere når de forbinder billeder med begyndelsesbogstaver, og den automatiske blanding gør at opgaverne altid føles nye og spændende.',
+      name: 'Louise Christoffersen',
+      role: 'Børnehaveklasselærer',
+      school: 'Virum Skole, Lyngby',
+    },
+    {
+      quote: 'Jeg bruger matchningsgeneratoren til differentieret undervisning i 1.–2. klasse. Med 4 par til de svageste og 6 par med tilpassede ord til de stærkeste elever dækker jeg hele spektret på 10 minutter.',
+      name: 'Christian Dahl',
+      role: 'Indskolingslærer',
+      school: 'Randersgades Skole, København',
+    },
+  ],
+
+  tips: {
+    sectionTitle: 'Matchningsstrategier efter klassetrin',
+    sectionDescription: 'Tilpas matchningsgeneratoren til hvert udviklingstrin. Sådan vælger du matchningstilstand, antal par og billedvalg fra førskole til 3. klasse.',
+    items: [
+      {
+        id: 'forskole',
+        icon: '��',
+        title: 'Førskole: Simpel billedparring',
+        description: 'Introducér matchning med billede-til-bogstav-tilstanden og kun 4 par per side. Vælg billeder med tydelige begyndelsesbogstaver som “abe”, “bil” og “kat”. Brug store, klare illustrationer så børnene nemt kan genkende motiverne. Opbygger grundlæggende visuel diskrimination og forbindelsen mellem billeder og bogstaver.',
+      },
+      {
+        id: 'bornehaveklasse',
+        icon: '��',
+        title: 'Børnehaveklasse: Bogstav og ord',
+        description: 'Børnehaveklassens elever mestrer bogstavgenkendelse gennem billede-til-bogstav med 4–5 par. Introducér gradvist billede-til-ord-tilstanden med korte, lydrettede ord. Vælg temaer der matcher undervisningen som dyr, farver eller kroppen. Understøtter Fælles Mål FM.DAN.FO.1-2 for visuel fortolkning og begyndende læsning.',
+      },
+      {
+        id: '1-klasse',
+        icon: '��',
+        title: '1. klasse: Ordgenkendelse og ordforråd',
+        description: 'Førsteklasses elever bruger billede-til-ord-tilstanden med 5–6 par per side. Vælg ord med stigende længde og kompleksitet. Brug tilpassede ord til ugens gloser eller emneord. Kombiner matchning med Bogstavblanding for en komplet ordlæringspakke der støtter FM.MAT.MK.1-3.',
+      },
+      {
+        id: '2-klasse',
+        icon: '✏️',
+        title: '2. klasse: Tilpassede tekster og kategorier',
+        description: 'Andenklasses elever arbejder med tilpassede ord-tilstanden med 6 par. Skriv definitioner, oversættelser eller kategoriseringsbegreber som parringstekst. Udfordr eleverne med lignende begyndelsesbogstaver for at skærpe opmærksomheden. Træner kategorisering og begrebsdannelse på tværs af fag.',
+      },
+      {
+        id: '3-klasse',
+        icon: '��',
+        title: '3. klasse: Avanceret parring og tværfaglighed',
+        description: 'Tredjeklasses elever mestrer alle fire matchningstilstande med 6 par og høj kompleksitet. Brug tilpassede ord til fremmedsprogsoversættelser, naturfagsbegreber eller matematiske termer. Kombiner med flere generatorer til tværfaglige læringspakker i overensstemmelse med Fælles Mål.',
+      },
+    ],
   },
 };
 
